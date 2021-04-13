@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['w_2171',['w',['../struct_m_r_1_1_matrix4.html#a9e0640aaf9b368a204fd42127c9e93e3',1,'MR::Matrix4::w()'],['../struct_m_r_1_1_vector4.html#a2a2d849b18944213202e305115b457a6',1,'MR::Vector4::w()']]],
-  ['warptype_2172',['WarpType',['../struct_m_r_1_1_mesh_texture.html#a02b38209ef48a938635275b79553f4e8',1,'MR::MeshTexture']]],
-  ['weight_2173',['weight',['../struct_m_r_1_1_vert_pair.html#a6be4702849ae600ea471ab410b2190f8',1,'MR::VertPair']]],
-  ['welcome_20to_20the_20meshrus_21_2174',['Welcome to the MeshRUs!',['../index.html',1,'']]],
+  ['w_2172',['w',['../struct_m_r_1_1_matrix4.html#a9e0640aaf9b368a204fd42127c9e93e3',1,'MR::Matrix4::w()'],['../struct_m_r_1_1_vector4.html#a2a2d849b18944213202e305115b457a6',1,'MR::Vector4::w()']]],
+  ['warptype_2173',['WarpType',['../struct_m_r_1_1_mesh_texture.html#a02b38209ef48a938635275b79553f4e8',1,'MR::MeshTexture']]],
+  ['weight_2174',['weight',['../struct_m_r_1_1_vert_pair.html#a6be4702849ae600ea471ab410b2190f8',1,'MR::VertPair']]],
   ['white_2175',['white',['../struct_m_r_1_1_color.html#afdf32fadc1e749715ad1911813a76f75',1,'MR::Color']]],
   ['width_2176',['width',['../struct_m_r_1_1_immediate_g_l_1_1_render_params.html#a1195efacca9ee7f006c5c59c01f5920b',1,'MR::ImmediateGL::RenderParams::width()'],['../struct_m_r_1_1_viewport_g_l_1_1_render_params.html#ab9dfdbb2fdb3ab678f6b2ff3173c52bd',1,'MR::ViewportGL::RenderParams::width()'],['../struct_m_r_1_1_viewport_g_l_1_1_pick_parameters.html#ac712c8a58926345f7fe24cdfcd4691b0',1,'MR::ViewportGL::PickParameters::width()'],['../struct_m_r_1_1_viewport_1_1_viewport_rectangle.html#aafa872d15f02a805f7d42db1c2d67a2c',1,'MR::Viewport::ViewportRectangle::width()']]],
   ['window_2177',['window',['../class_m_r_1_1_viewer.html#adf21364b06943f8b3a27b96c8145bd89',1,'MR::Viewer']]],

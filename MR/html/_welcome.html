@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshRUs: Main Page</title>
+<title>MeshRUs: to the MeshRUs!</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -74,7 +74,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('index.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('_welcome.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -92,34 +92,51 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </iframe>
 </div>
 
-<div class="header">
+<div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">MeshRUs Documentation</div>  </div>
+<div class="title">to the MeshRUs! </div>  </div>
 </div><!--header-->
 <div class="contents">
-<ul><li><a href="index.html"><span>Main&#160;Page</span></a>
-</li><li><a href="index.html"><span>Overview</span></a>
-</li><li><a href="_data_model.html"><span>Data&#160;model&#160;overview</span></a>
-</li><li><a href="_custom_plugins_help.html"><span>Custom&#160;plugins&#160;overview</span></a>
-</li><li><a href="_spaces_help.html"><span>Spaces&#160;and&#160;transformations</span></a>
-</li><li><a href="_embended_python_overview.html"><span>Python&#160;overview</span></a>
-</li><li><a href="_supported_g_p_us.html"><span>Supported&#160;GPUs</span></a>
-</li><li><a href="namespaces.html"><span>Namespaces</span></a>
-<ul><li><a href="namespaces.html"><span>Namespace&#160;List</span></a>
-</li><li><a href="namespacemembers.html"><span>Namespace&#160;Members</span></a>
-</li></ul>
-</li><li><a href="annotated.html"><span>Classes</span></a>
-<ul><li><a href="annotated.html"><span>Class&#160;List</span></a>
-</li><li><a href="classes.html"><span>Class&#160;Index</span></a>
-</li><li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a>
-</li><li><a href="functions.html"><span>Class&#160;Members</span></a>
-</li></ul>
-</li><li><a href="files.html"><span>Files</span></a>
-<ul><li><a href="files.html"><span>File&#160;List</span></a>
-</li><li><a href="globals.html"><span>File&#160;Members</span></a>
-</li></ul>
-</li></ul>
-</div><!-- contents -->
+<div class="textblock"><h1><a class="anchor" id="HomePageBuildWin"></a>
+Build with VS2019 on Windows</h1>
+<div class="fragment"><div class="line">$ git clone https:<span class="comment">//github.com/AllWish/MeshRUs.git</span></div>
+<div class="line">$ cd MeshRUs</div>
+<div class="line">$ git submodule update --init --recursive</div>
+</div><!-- fragment --><p><b>Preparing</b> <b>Third</b> <b>Parties</b> <br  />
+Some third parties are taken from vcpkg, while others (missing in vcpkg) are configured as git submodules. <br  />
+ <br  />
+<b>Vcpkg:</b> </p><ol type="1">
+<li>Please install vcpkg, and integrate it into Visual Studio (note that vcpkg requires English laguage pack installed in Visual Studio): <div class="fragment"><div class="line">$ git clone https:<span class="comment">//github.com/Microsoft/vcpkg.git</span></div>
+<div class="line">$ cd vcpkg</div>
+<div class="line">$ git checkout ea11604579181b0ff790be223ee3ded3068142f9</div>
+<div class="line">$ .\bootstrap-vcpkg.bat</div>
+<div class="line">$ .\vcpkg integrate install (with admin rights)</div>
+</div><!-- fragment --> More details here: <a href="https://github.com/microsoft/vcpkg">vcpkg</a></li>
+<li>Copy <b>thirdparty/vcpkg/triplets/x64-windows-meshrus.cmake</b> to <b>vcpkg/triplets</b> folder of vcpkg installation.</li>
+<li>Execute install.bat <div class="fragment"><div class="line">$ cd vcpkg # or add vcpcg to PATH</div>
+<div class="line">$ work/MeshRUs/thirdparty/install.bat</div>
+</div><!-- fragment --></li>
+</ol>
+<h1><a class="anchor" id="HomePageBuildLin"></a>
+Build with CMake on Linux</h1>
+<p>This installation was checked on Ubuntu 20.04.4 with cmake 3.19.3 and gcc 9.3.0.<br  />
+Installation process is automated, but takes ~40 minutes if no required packages are already installed.. <br  />
+<b>Install/Build</b> <b>dependencies</b>. <b>Build</b> <b>project</b>. <b>Run</b> <b>Test</b> <b>Application</b> Run the following in terminal: </p><div class="fragment"><div class="line">$ git clone https:<span class="comment">//github.com/AllWish/MeshRUs.git</span></div>
+<div class="line">$ cd MeshRUs</div>
+<div class="line">$ ./install.sh</div>
+<div class="line">$ ./build/Release/MRTest/MRTest</div>
+</div><!-- fragment --> <dl class="section note"><dt>Note</dt><dd>./install.sh required root access sometimes during installation. However, it's not recommended to run the whole script with sudo. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>You could specify build type to Debug by <code>export</code> <code>MESHRUS_BUILD_TYPE=Debug</code>  , <em>Release</em> is default. \endnote </dd></dl>
+<p>Find more:</p><ul>
+<li><a class="el" href="_data_model.html">Data model overview </a></li>
+<li><a class="el" href="_custom_plugins_help.html">Custom plugins overview </a></li>
+<li><a class="el" href="_spaces_help.html">Spaces and transformations </a></li>
+<li><a class="el" href="_embended_python_overview.html">Python overview </a></li>
+<li><a class="el" href="_supported_g_p_us.html">Supported GPUs </a></li>
+<li><a class="el" href="namespace_m_r_1_1_mesh_builder.html">Mesh Building </a> </li>
+</ul>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
