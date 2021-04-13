@@ -33,7 +33,7 @@ var NAVTREE =
     [ "Supported GPUs", "_supported_g_p_us.html", null ],
     [ "Welcome to the MeshRUs!", "index.html", [
       [ "Build with VS2019 on Windows", "index.html#HomePageBuildWin", null ],
-      [ "Build with VS2019 on Windows", "index.html#HomePageBuildLin", null ]
+      [ "Build with CMake on Linux", "index.html#HomePageBuildLin", null ]
     ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
