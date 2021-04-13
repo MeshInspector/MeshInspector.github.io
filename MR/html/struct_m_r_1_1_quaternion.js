@@ -1,0 +1,27 @@
+var struct_m_r_1_1_quaternion =
+[
+    [ "Quaternion", "struct_m_r_1_1_quaternion.html#a91ef98ec55d8f152434350ec44a1c9ea", null ],
+    [ "Quaternion", "struct_m_r_1_1_quaternion.html#a22a3efafffa70cc53f2d16561d172864", null ],
+    [ "Quaternion", "struct_m_r_1_1_quaternion.html#a3026768bf8bbbabf23568fd3087d14ab", null ],
+    [ "Quaternion", "struct_m_r_1_1_quaternion.html#a564f96b2b71f1dd6006484fc6733f2fa", null ],
+    [ "Quaternion", "struct_m_r_1_1_quaternion.html#a4c85af29d33ee04d5ca4473e7b840510", null ],
+    [ "Quaternion", "struct_m_r_1_1_quaternion.html#a1265e8d1076efd17d1c3b70cb310480e", null ],
+    [ "angle", "struct_m_r_1_1_quaternion.html#abfbf2dd877c3cf929788c7f24710328b", null ],
+    [ "axis", "struct_m_r_1_1_quaternion.html#af8f30dc3e4f2f372a8a0f0e4075292f4", null ],
+    [ "conjugate", "struct_m_r_1_1_quaternion.html#a87e72ac743e6f7ae59790cb02ba7b071", null ],
+    [ "im", "struct_m_r_1_1_quaternion.html#afaa801ae31a013091c7cd3061a1d8e7e", null ],
+    [ "inverse", "struct_m_r_1_1_quaternion.html#a238423391f644b566ecdb0f0623998b5", null ],
+    [ "norm", "struct_m_r_1_1_quaternion.html#a2200fc8f1ce0aa43f8fa4b4eb01786e7", null ],
+    [ "normalize", "struct_m_r_1_1_quaternion.html#ac98a801cf03ee64da5665501c8e7b7d8", null ],
+    [ "normalized", "struct_m_r_1_1_quaternion.html#a9289095d6e22b4cd004efca4166197d5", null ],
+    [ "normSq", "struct_m_r_1_1_quaternion.html#ad9b251ccd51dd9ea86e791f559ba00b1", null ],
+    [ "operator Matrix3< T >", "struct_m_r_1_1_quaternion.html#ac419a0f315e99dc10b1827824e09cddf", null ],
+    [ "operator()", "struct_m_r_1_1_quaternion.html#afde85af8bb0b46b18e7c0b7f9ab0a2be", null ],
+    [ "operator*=", "struct_m_r_1_1_quaternion.html#a140b500e6f17da0386a46d8cf03e8375", null ],
+    [ "operator-", "struct_m_r_1_1_quaternion.html#a6bcd112f89bf5f4ce825eb989ce05c59", null ],
+    [ "operator/=", "struct_m_r_1_1_quaternion.html#afec0b01a8b8ccb4e16d179dd71c12fbf", null ],
+    [ "a", "struct_m_r_1_1_quaternion.html#a99d6bff08a40df6a9873566e597b029e", null ],
+    [ "b", "struct_m_r_1_1_quaternion.html#a9c92b4bc72a2fd317f159c70c50e441c", null ],
+    [ "c", "struct_m_r_1_1_quaternion.html#a3408cac17b0213d5213b299ad98f12c3", null ],
+    [ "d", "struct_m_r_1_1_quaternion.html#a14d0a626cbd31413d550eea26b9e3303", null ]
+];

@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['quaternion_3596',['Quaternion',['../struct_m_r_1_1_quaternion.html#a91ef98ec55d8f152434350ec44a1c9ea',1,'MR::Quaternion::Quaternion() noexcept=default'],['../struct_m_r_1_1_quaternion.html#a22a3efafffa70cc53f2d16561d172864',1,'MR::Quaternion::Quaternion(T a, T b, T c, T d) noexcept'],['../struct_m_r_1_1_quaternion.html#a3026768bf8bbbabf23568fd3087d14ab',1,'MR::Quaternion::Quaternion(const Vector3&lt; T &gt; &amp;axis, T angle) noexcept'],['../struct_m_r_1_1_quaternion.html#a564f96b2b71f1dd6006484fc6733f2fa',1,'MR::Quaternion::Quaternion(T real, const Vector3&lt; T &gt; &amp;im) noexcept'],['../struct_m_r_1_1_quaternion.html#a4c85af29d33ee04d5ca4473e7b840510',1,'MR::Quaternion::Quaternion(const Matrix3&lt; T &gt; &amp;m)'],['../struct_m_r_1_1_quaternion.html#a1265e8d1076efd17d1c3b70cb310480e',1,'MR::Quaternion::Quaternion(const Vector3&lt; T &gt; &amp;from, const Vector3&lt; T &gt; &amp;to) noexcept']]]
+];
