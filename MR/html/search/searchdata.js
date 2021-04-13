@@ -11,7 +11,7 @@ var indexSectionsWithContent =
   8: "abcdefilmnoprstuvxyz",
   9: "m",
   10: "abgimst",
-  11: "cdpst"
+  11: "cdops"
 };
 
 var indexSectionNames =

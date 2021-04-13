@@ -25,7 +25,10 @@
 var NAVTREE =
 [
   [ "MeshRUs", "index.html", [
-    [ "Overview", "index.html", null ],
+    [ "Overview", "index.html", [
+      [ "Build with VS2019 on Windows", "index.html#HomePageBuildWin", null ],
+      [ "Build with CMake on Linux", "index.html#HomePageBuildLin", null ]
+    ] ],
     [ "Data model overview", "_data_model.html", null ],
     [ "Custom plugins overview", "_custom_plugins_help.html", null ],
     [ "Spaces and transformations", "_spaces_help.html", null ],
@@ -82,12 +85,12 @@ var NAVTREEINDEX =
 "class_m_r_1_1_show_dense_b_box_plugin.html#abaf5fd345b36bf7a93ad888609b4b680",
 "class_m_r_1_1_viewer.html#aea16749ad72b2b3b737ca380d1633b27",
 "class_m_r_1_1_visual_object.html#ae518b6548b3cf17ee369ecaf5c4cb160",
-"namespace_m_r.html#a21140ca66741eeb8fa5928a5b874eedc",
-"namespace_m_r.html#a8e312e840c327bd61615d462cec94602",
-"namespace_m_r.html#af33aff000dfb310f8d4e2b79698c3373",
-"struct_m_r_1_1_color.html#aa55e2c68dddcc92092cca38096b20fed",
-"struct_m_r_1_1_mesh.html#ad566edd8a184ac216a12a07e9f9270eb",
-"struct_m_r_1_1_sym_matrix3.html#a338177889f057fdb4fe9ad0781e40582"
+"namespace_m_r.html#a209a15be576f46322982d34a47a52c05",
+"namespace_m_r.html#a8d0856c5531ee31526c98519d4dfb48d",
+"namespace_m_r.html#af2e6541586c7084877557732717a654e",
+"struct_m_r_1_1_color.html#a88b7f7b16582811c68398fcb60488717",
+"struct_m_r_1_1_mesh.html#acc0ceb8ed258ca42cf125638c6940594",
+"struct_m_r_1_1_sym_matrix3.html#a0372e2ff5d93d383807560a9ea432f8a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
