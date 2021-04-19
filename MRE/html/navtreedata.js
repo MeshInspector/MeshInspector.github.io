@@ -48,19 +48,15 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Macros", "globals_defs.html", null ]
-      ] ]
+      [ "File List", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"_m_r_e_algorithms_2exports_8h.html",
-"struct_m_r_e_1_1_mesh_mesh_converter.html"
+"MREBooleanOperation_8h.html",
+"structMRE_1_1SortIntersectionsData.html#a32b78f806b7ee78977643efb6de5fee0"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['removelonecontours_254',['removeLoneContours',['../namespace_m_r_e.html#ac17ef2b176ef194a9212d5bd501aba82',1,'MRE']]]
+  ['removelonecontours_242',['removeLoneContours',['../namespaceMRE.html#ac17ef2b176ef194a9212d5bd501aba82',1,'MRE']]]
 ];

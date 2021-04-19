@@ -29,11 +29,11 @@ var NAVTREE =
       [ "Build with VS2019 on Windows", "index.html#HomePageBuildWin", null ],
       [ "Build with CMake on Linux", "index.html#HomePageBuildLin", null ]
     ] ],
-    [ "Data model overview", "_data_model.html", null ],
-    [ "Custom plugins overview", "_custom_plugins_help.html", null ],
-    [ "Spaces and transformations", "_spaces_help.html", null ],
-    [ "Python overview", "_embended_python_overview.html", null ],
-    [ "Supported GPUs", "_supported_g_p_us.html", null ],
+    [ "Data model overview", "DataModel.html", null ],
+    [ "Custom plugins overview", "CustomPluginsHelp.html", null ],
+    [ "Spaces and transformations", "SpacesHelp.html", null ],
+    [ "Python overview", "EmbendedPythonOverview.html", null ],
+    [ "Supported GPUs", "SupportedGPUs.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -73,24 +73,24 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_custom_plugins_help.html",
-"_m_r_fix_undercuts_8h.html#aabfa5ae53301b3a20a21cdd3d3114994",
-"_m_r_mesh_eigen_8h_source.html",
-"_m_r_plane3_8h.html",
-"_m_r_stream_operators_8h_source.html",
-"annotated.html",
-"class_m_r_1_1_history_action.html#aecfce349736beaf17a23a6817c86f3bb",
-"class_m_r_1_1_mesh_topology.html#a48ff82f9ecdf38e6b1b79c2f84ec88b6",
-"class_m_r_1_1_object_points.html#a2e2ecd332b500b7d12bb4f2cfb07c361",
-"class_m_r_1_1_show_dense_b_box_plugin.html#abaf5fd345b36bf7a93ad888609b4b680",
-"class_m_r_1_1_viewer.html#aea16749ad72b2b3b737ca380d1633b27",
-"class_m_r_1_1_visual_object.html#ae518b6548b3cf17ee369ecaf5c4cb160",
-"namespace_m_r.html#a209a15be576f46322982d34a47a52c05",
-"namespace_m_r.html#a8d0856c5531ee31526c98519d4dfb48d",
-"namespace_m_r.html#af2e6541586c7084877557732717a654e",
-"struct_m_r_1_1_color.html#a88b7f7b16582811c68398fcb60488717",
-"struct_m_r_1_1_mesh.html#acc0ceb8ed258ca42cf125638c6940594",
-"struct_m_r_1_1_sym_matrix3.html#a0372e2ff5d93d383807560a9ea432f8a"
+"CustomPluginsHelp.html",
+"MRFixUndercuts_8h.html#a9db7297a13e7fde9098b4a88f8544cfc",
+"MRMeshFillHole_8h.html#a3c7779fd4cc2d941f67da4462b2d0121",
+"MRPointCloudAddNormalsModifier_8h.html",
+"MRSubdividerPlugin_8h_source.html",
+"classMR_1_1AABBTree.html#af8e16ac53a19bceb6054b8ff44ad98cc",
+"classMR_1_1HistoryStore.html#af145c9ac9643f835f3ad25fadf037814",
+"classMR_1_1MeshTopology.html#a67dd1963d90e78415bb2365ed8ab9589",
+"classMR_1_1ObjectPoints.html#a8d54c8a3353fe7bfbafc3ea5f8bb2659",
+"classMR_1_1ShrinkSelection.html#ac9ec5188fe4e1a7571d796d2e900cee6",
+"classMR_1_1ViewerPlugin.html",
+"classMR_1_1VolumeIndexer.html",
+"namespaceMR.html#a2646d0794f2315c44c552c1c752d6804",
+"namespaceMR.html#a93fd50fddfb0320a2774e3d7e974448b",
+"namespaceMR.html#af9a5c1118c2c4b0cda030dff8d11ce03",
+"structMR_1_1ComplexStitchMetric.html#ad15ccd86fff77e74c049a839b902b6d8",
+"structMR_1_1Mesh.html#ada333ee4f3b0edfa859e5f8ee5a1c1f1",
+"structMR_1_1SymMatrix3.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

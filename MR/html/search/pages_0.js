@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['custom_20plugins_20overview_4635',['Custom Plugins overview',['../_custom_plugins_help.html',1,'']]]
+  ['custom_20plugins_20overview_4639',['Custom Plugins overview',['../CustomPluginsHelp.html',1,'']]]
 ];

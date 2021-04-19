@@ -1,0 +1,26 @@
+var structMR_1_1Box =
+[
+    [ "T", "structMR_1_1Box.html#afc09ec552867bc199cca1653871f40eb", null ],
+    [ "Box", "structMR_1_1Box.html#a62c88d46c3b08094932f463f48bc6ee3", null ],
+    [ "Box", "structMR_1_1Box.html#a0b1e0b6b95e8b735eda8de2bb06fd987", null ],
+    [ "Box", "structMR_1_1Box.html#add72022e19ae28da8dec0a61eae00e35", null ],
+    [ "center", "structMR_1_1Box.html#a5edd7e58dce05a67482b2c179f6abc6e", null ],
+    [ "contains", "structMR_1_1Box.html#ada11cc33b5ba6f38f12211e1ae500598", null ],
+    [ "diagonal", "structMR_1_1Box.html#a2cfcb26887cd979172fd1831229c8144", null ],
+    [ "getBoxClosestPointTo", "structMR_1_1Box.html#a1af67d1761b8fd15fa204b39d5f9bd46", null ],
+    [ "getDistanceSq", "structMR_1_1Box.html#a25efa79c9a3710f2c59fac06fb39ad12", null ],
+    [ "include", "structMR_1_1Box.html#a2d9fecc0393e456242b1409f8a6a79f9", null ],
+    [ "include", "structMR_1_1Box.html#a14ec2de1def8e99ce267fe830e9caa51", null ],
+    [ "intersect", "structMR_1_1Box.html#a4af505a0bbb1a78c26a8738d80f25ae1", null ],
+    [ "intersection", "structMR_1_1Box.html#acd003ee915daffe1dccdfe6bec573abc", null ],
+    [ "intersects", "structMR_1_1Box.html#aacbc2c9aca82714d27d007c9cc6aa696", null ],
+    [ "operator!=", "structMR_1_1Box.html#ac8eb14ff1a01b09de851695a4a0007d4", null ],
+    [ "operator==", "structMR_1_1Box.html#af93a3ccd5c9d9d678844e2578807089f", null ],
+    [ "operator[]", "structMR_1_1Box.html#a4a0617a5bd98a2e29ce889b7e37b47a1", null ],
+    [ "operator[]", "structMR_1_1Box.html#a2fccb16c081fb6dd8fd5dc706ea5dc29", null ],
+    [ "size", "structMR_1_1Box.html#a71c94df372502f935a239c62e591a70c", null ],
+    [ "valid", "structMR_1_1Box.html#ae8181cac57d5ff92d32bfa86bdc5caf3", null ],
+    [ "volume", "structMR_1_1Box.html#aaf8c494ec86f9a6ef904299b78f1cc23", null ],
+    [ "max", "structMR_1_1Box.html#a493e21ced874aa010247428e109d524d", null ],
+    [ "min", "structMR_1_1Box.html#acc1e8e06848f35838481ee10e0308cda", null ]
+];

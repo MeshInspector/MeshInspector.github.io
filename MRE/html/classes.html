@@ -16,6 +16,11 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -29,6 +34,21 @@
    <div id="projectname">MeshRusExt
    </div>
   </td>
+   <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.svg"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
  </tr>
  </tbody>
 </table>
@@ -40,16 +60,6 @@
 var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 /* @license-end */
 </script>
-<script type="text/javascript" src="menudata.js"></script>
-<script type="text/javascript" src="menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(function() {
-  initMenu('',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */</script>
-<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -90,31 +100,31 @@ $(document).ready(function(){initNavTree('classes.html',''); initResizable(); })
 <div class="classindex">
 <dl class="classindex even">
 <dt class="alphachar"><a name="letter_B">B</a></dt>
-<dd><a class="el" href="struct_m_r_e_1_1_boolean_result.html">BooleanResult</a> (<a class="el" href="namespace_m_r_e.html">MRE</a>)</dd><dd><a class="el" href="struct_m_r_e_1_1_boolean_result_mapper.html">BooleanResultMapper</a> (<a class="el" href="namespace_m_r_e.html">MRE</a>)</dd><dd><a class="el" href="class_m_r_e_1_1_boolean_test.html">BooleanTest</a> (<a class="el" href="namespace_m_r_e.html">MRE</a>)</dd></dl>
+<dd><a class="el" href="structMRE_1_1BooleanResult.html">BooleanResult</a> (<a class="el" href="namespaceMRE.html">MRE</a>)</dd><dd><a class="el" href="structMRE_1_1BooleanResultMapper.html">BooleanResultMapper</a> (<a class="el" href="namespaceMRE.html">MRE</a>)</dd><dd><a class="el" href="classMRE_1_1BooleanTest.html">BooleanTest</a> (<a class="el" href="namespaceMRE.html">MRE</a>)</dd></dl>
 <dl class="classindex odd">
 <dt class="alphachar"><a name="letter_C">C</a></dt>
-<dd><a class="el" href="struct_m_r_e_1_1_complex_metric.html">ComplexMetric</a> (<a class="el" href="namespace_m_r_e.html">MRE</a>)</dd><dd><a class="el" href="struct_m_r_e_1_1_cut_mesh_parameters.html">CutMeshParameters</a> (<a class="el" href="namespace_m_r_e.html">MRE</a>)</dd><dd><a class="el" href="struct_m_r_e_1_1_cut_mesh_result.html">CutMeshResult</a> (<a class="el" href="namespace_m_r_e.html">MRE</a>)</dd></dl>
+<dd><a class="el" href="structMRE_1_1ComplexFillMetric.html">ComplexFillMetric</a> (<a class="el" href="namespaceMRE.html">MRE</a>)</dd><dd><a class="el" href="structMRE_1_1CutMeshParameters.html">CutMeshParameters</a> (<a class="el" href="namespaceMRE.html">MRE</a>)</dd><dd><a class="el" href="structMRE_1_1CutMeshResult.html">CutMeshResult</a> (<a class="el" href="namespaceMRE.html">MRE</a>)</dd></dl>
 <dl class="classindex even">
 <dt class="alphachar"><a name="letter_D">D</a></dt>
-<dd><a class="el" href="class_m_r_e_1_1_decimate_plugin.html">DecimatePlugin</a> (<a class="el" href="namespace_m_r_e.html">MRE</a>)</dd><dd><a class="el" href="struct_m_r_e_1_1_decimate_result.html">DecimateResult</a> (<a class="el" href="namespace_m_r_e.html">MRE</a>)</dd><dd><a class="el" href="struct_m_r_e_1_1_decimate_settings.html">DecimateSettings</a> (<a class="el" href="namespace_m_r_e.html">MRE</a>)</dd></dl>
+<dd><a class="el" href="classMRE_1_1DecimatePlugin.html">DecimatePlugin</a> (<a class="el" href="namespaceMRE.html">MRE</a>)</dd><dd><a class="el" href="structMRE_1_1DecimateResult.html">DecimateResult</a> (<a class="el" href="namespaceMRE.html">MRE</a>)</dd><dd><a class="el" href="structMRE_1_1DecimateSettings.html">DecimateSettings</a> (<a class="el" href="namespaceMRE.html">MRE</a>)</dd></dl>
 <dl class="classindex odd">
 <dt class="alphachar"><a name="letter_M">M</a></dt>
-<dd><a class="el" href="struct_m_r_e_1_1_boolean_result_mapper_1_1_maps.html">BooleanResultMapper::Maps</a> (<a class="el" href="namespace_m_r_e.html">MRE</a>)</dd><dd><a class="el" href="struct_m_r_e_1_1_mesh_mesh_converter.html">MeshMeshConverter</a> (<a class="el" href="namespace_m_r_e.html">MRE</a>)</dd></dl>
+<dd><a class="el" href="structMRE_1_1BooleanResultMapper_1_1Maps.html">BooleanResultMapper::Maps</a> (<a class="el" href="namespaceMRE.html">MRE</a>)</dd><dd><a class="el" href="structMRE_1_1MeshMeshConverter.html">MeshMeshConverter</a> (<a class="el" href="namespaceMRE.html">MRE</a>)</dd></dl>
 <dl class="classindex even">
 <dt class="alphachar"><a name="letter_O">O</a></dt>
-<dd><a class="el" href="class_m_r_e_1_1_offset_plugin.html">OffsetPlugin</a> (<a class="el" href="namespace_m_r_e.html">MRE</a>)</dd><dd><a class="el" href="struct_m_r_e_1_1_one_mesh_contour.html">OneMeshContour</a> (<a class="el" href="namespace_m_r_e.html">MRE</a>)</dd><dd><a class="el" href="struct_m_r_e_1_1_one_mesh_intersection.html">OneMeshIntersection</a> (<a class="el" href="namespace_m_r_e.html">MRE</a>)</dd></dl>
+<dd><a class="el" href="classMRE_1_1OffsetPlugin.html">OffsetPlugin</a> (<a class="el" href="namespaceMRE.html">MRE</a>)</dd><dd><a class="el" href="structMRE_1_1OneMeshContour.html">OneMeshContour</a> (<a class="el" href="namespaceMRE.html">MRE</a>)</dd><dd><a class="el" href="structMRE_1_1OneMeshIntersection.html">OneMeshIntersection</a> (<a class="el" href="namespaceMRE.html">MRE</a>)</dd></dl>
 <dl class="classindex odd">
 <dt class="alphachar"><a name="letter_P">P</a></dt>
-<dd><a class="el" href="class_m_r_e_1_1_points_triangulation_plugin.html">PointsTriangulationPlugin</a> (<a class="el" href="namespace_m_r_e.html">MRE</a>)</dd></dl>
+<dd><a class="el" href="classMRE_1_1PointsTriangulationPlugin.html">PointsTriangulationPlugin</a> (<a class="el" href="namespaceMRE.html">MRE</a>)</dd></dl>
 <dl class="classindex even">
 <dt class="alphachar"><a name="letter_S">S</a></dt>
-<dd><a class="el" href="struct_m_r_e_1_1_sort_intersections_data.html">SortIntersectionsData</a> (<a class="el" href="namespace_m_r_e.html">MRE</a>)</dd></dl>
+<dd><a class="el" href="structMRE_1_1SortIntersectionsData.html">SortIntersectionsData</a> (<a class="el" href="namespaceMRE.html">MRE</a>)</dd></dl>
 <dl class="classindex odd">
 <dt class="alphachar"><a name="letter_T">T</a></dt>
-<dd><a class="el" href="struct_m_r_e_1_1_transformed_mesh.html">TransformedMesh</a> (<a class="el" href="namespace_m_r_e.html">MRE</a>)</dd><dd><a class="el" href="struct_m_r_e_1_1_triangulation_helpers_1_1_triangulated_fan.html">TriangulatedFan</a> (<a class="el" href="namespace_m_r_e_1_1_triangulation_helpers.html">MRE::TriangulationHelpers</a>)</dd><dd><a class="el" href="struct_m_r_e_1_1_triangulation_parameters.html">TriangulationParameters</a> (<a class="el" href="namespace_m_r_e.html">MRE</a>)</dd><dd><a class="el" href="class_m_r_e_1_1_true_boolean_plugin.html">TrueBooleanPlugin</a> (<a class="el" href="namespace_m_r_e.html">MRE</a>)</dd><dd><a class="el" href="class_m_r_e_1_1_two_points_segmentation.html">TwoPointsSegmentation</a> (<a class="el" href="namespace_m_r_e.html">MRE</a>)</dd></dl>
+<dd><a class="el" href="structMRE_1_1TransformedMesh.html">TransformedMesh</a> (<a class="el" href="namespaceMRE.html">MRE</a>)</dd><dd><a class="el" href="structMRE_1_1TriangulationHelpers_1_1TriangulatedFan.html">TriangulatedFan</a> (<a class="el" href="namespaceMRE_1_1TriangulationHelpers.html">MRE::TriangulationHelpers</a>)</dd><dd><a class="el" href="structMRE_1_1TriangulationParameters.html">TriangulationParameters</a> (<a class="el" href="namespaceMRE.html">MRE</a>)</dd><dd><a class="el" href="classMRE_1_1TrueBooleanPlugin.html">TrueBooleanPlugin</a> (<a class="el" href="namespaceMRE.html">MRE</a>)</dd><dd><a class="el" href="classMRE_1_1TwoPointsSegmentation.html">TwoPointsSegmentation</a> (<a class="el" href="namespaceMRE.html">MRE</a>)</dd></dl>
 <dl class="classindex even">
 <dt class="alphachar"><a name="letter_V">V</a></dt>
-<dd><a class="el" href="struct_m_r_e_1_1_variable_edge_tri.html">VariableEdgeTri</a> (<a class="el" href="namespace_m_r_e.html">MRE</a>)</dd><dd><a class="el" href="class_m_r_e_1_1_viewer_setup.html">ViewerSetup</a> (<a class="el" href="namespace_m_r_e.html">MRE</a>)</dd></dl>
+<dd><a class="el" href="structMRE_1_1VariableEdgeTri.html">VariableEdgeTri</a> (<a class="el" href="namespaceMRE.html">MRE</a>)</dd><dd><a class="el" href="classMRE_1_1ViewerSetup.html">ViewerSetup</a> (<a class="el" href="namespaceMRE.html">MRE</a>)</dd></dl>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->

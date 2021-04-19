@@ -16,6 +16,11 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -29,6 +34,21 @@
    <div id="projectname">MeshRusExt
    </div>
   </td>
+   <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.svg"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
  </tr>
  </tbody>
 </table>
@@ -40,16 +60,6 @@
 var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 /* @license-end */
 </script>
-<script type="text/javascript" src="menudata.js"></script>
-<script type="text/javascript" src="menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(function() {
-  initMenu('',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */</script>
-<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -89,37 +99,33 @@ $(document).ready(function(){initNavTree('dir_7792df2720b4c9ac81a6dc3d8404d55f.h
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"></a>
 Files</h2></td></tr>
-<tr class="memitem:_m_r_e_algorithms_2exports_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_r_e_algorithms_2exports_8h.html">MREAlgorithms/exports.h</a> <a href="_m_r_e_algorithms_2exports_8h_source.html">[code]</a></td></tr>
+<tr class="memitem:MREBooleanOperation_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MREBooleanOperation_8h.html">MREBooleanOperation.h</a> <a href="MREBooleanOperation_8h_source.html">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:_m_r_e_algorithms_pch_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_r_e_algorithms_pch_8h.html">MREAlgorithmsPch.h</a> <a href="_m_r_e_algorithms_pch_8h_source.html">[code]</a></td></tr>
+<tr class="memitem:MREContoursCut_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MREContoursCut_8h.html">MREContoursCut.h</a> <a href="MREContoursCut_8h_source.html">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:_m_r_e_boolean_operation_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_r_e_boolean_operation_8h.html">MREBooleanOperation.h</a> <a href="_m_r_e_boolean_operation_8h_source.html">[code]</a></td></tr>
+<tr class="memitem:MREContoursSeparation_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MREContoursSeparation_8h.html">MREContoursSeparation.h</a> <a href="MREContoursSeparation_8h_source.html">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:_m_r_e_contours_cut_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_r_e_contours_cut_8h.html">MREContoursCut.h</a> <a href="_m_r_e_contours_cut_8h_source.html">[code]</a></td></tr>
+<tr class="memitem:MREFillContourByGraphCut_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MREFillContourByGraphCut_8h.html">MREFillContourByGraphCut.h</a> <a href="MREFillContourByGraphCut_8h_source.html">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:_m_r_e_contours_separation_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_r_e_contours_separation_8h.html">MREContoursSeparation.h</a> <a href="_m_r_e_contours_separation_8h_source.html">[code]</a></td></tr>
+<tr class="memitem:MREFillHoleMetrics_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MREFillHoleMetrics_8h.html">MREFillHoleMetrics.h</a> <a href="MREFillHoleMetrics_8h_source.html">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:_m_r_e_fill_contour_by_graph_cut_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_r_e_fill_contour_by_graph_cut_8h.html">MREFillContourByGraphCut.h</a> <a href="_m_r_e_fill_contour_by_graph_cut_8h_source.html">[code]</a></td></tr>
+<tr class="memitem:MREIntersectionContour_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MREIntersectionContour_8h.html">MREIntersectionContour.h</a> <a href="MREIntersectionContour_8h_source.html">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:_m_r_e_fill_hole_metrics_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_r_e_fill_hole_metrics_8h.html">MREFillHoleMetrics.h</a> <a href="_m_r_e_fill_hole_metrics_8h_source.html">[code]</a></td></tr>
+<tr class="memitem:MREMeshBoolean_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MREMeshBoolean_8h.html">MREMeshBoolean.h</a> <a href="MREMeshBoolean_8h_source.html">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:_m_r_e_intersection_contour_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_r_e_intersection_contour_8h.html">MREIntersectionContour.h</a> <a href="_m_r_e_intersection_contour_8h_source.html">[code]</a></td></tr>
+<tr class="memitem:MREMeshBooleanFacade_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MREMeshBooleanFacade_8h.html">MREMeshBooleanFacade.h</a> <a href="MREMeshBooleanFacade_8h_source.html">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:_m_r_e_mesh_boolean_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_r_e_mesh_boolean_8h.html">MREMeshBoolean.h</a> <a href="_m_r_e_mesh_boolean_8h_source.html">[code]</a></td></tr>
+<tr class="memitem:MREMeshDecimate_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MREMeshDecimate_8h.html">MREMeshDecimate.h</a> <a href="MREMeshDecimate_8h_source.html">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:_m_r_e_mesh_boolean_facade_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_r_e_mesh_boolean_facade_8h.html">MREMeshBooleanFacade.h</a> <a href="_m_r_e_mesh_boolean_facade_8h_source.html">[code]</a></td></tr>
+<tr class="memitem:MREMeshLoadDCM_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MREMeshLoadDCM_8h.html">MREMeshLoadDCM.h</a> <a href="MREMeshLoadDCM_8h_source.html">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:_m_r_e_mesh_decimate_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_r_e_mesh_decimate_8h.html">MREMeshDecimate.h</a> <a href="_m_r_e_mesh_decimate_8h_source.html">[code]</a></td></tr>
+<tr class="memitem:MREPartialOffset_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MREPartialOffset_8h.html">MREPartialOffset.h</a> <a href="MREPartialOffset_8h_source.html">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:_m_r_e_mesh_load_d_c_m_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_r_e_mesh_load_d_c_m_8h.html">MREMeshLoadDCM.h</a> <a href="_m_r_e_mesh_load_d_c_m_8h_source.html">[code]</a></td></tr>
+<tr class="memitem:MREPointCloudTriangulation_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MREPointCloudTriangulation_8h.html">MREPointCloudTriangulation.h</a> <a href="MREPointCloudTriangulation_8h_source.html">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:_m_r_e_partial_offset_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_r_e_partial_offset_8h.html">MREPartialOffset.h</a> <a href="_m_r_e_partial_offset_8h_source.html">[code]</a></td></tr>
+<tr class="memitem:MREPointCloudTriangulationHelpers_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MREPointCloudTriangulationHelpers_8h.html">MREPointCloudTriangulationHelpers.h</a> <a href="MREPointCloudTriangulationHelpers_8h_source.html">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:_m_r_e_point_cloud_triangulation_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_r_e_point_cloud_triangulation_8h.html">MREPointCloudTriangulation.h</a> <a href="_m_r_e_point_cloud_triangulation_8h_source.html">[code]</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:_m_r_e_point_cloud_triangulation_helpers_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_r_e_point_cloud_triangulation_helpers_8h.html">MREPointCloudTriangulationHelpers.h</a> <a href="_m_r_e_point_cloud_triangulation_helpers_8h_source.html">[code]</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:_m_r_e_surrounding_contour_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_r_e_surrounding_contour_8h.html">MRESurroundingContour.h</a> <a href="_m_r_e_surrounding_contour_8h_source.html">[code]</a></td></tr>
+<tr class="memitem:MRESurroundingContour_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRESurroundingContour_8h.html">MRESurroundingContour.h</a> <a href="MRESurroundingContour_8h_source.html">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

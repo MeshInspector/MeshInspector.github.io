@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['baserenderparams_2246',['BaseRenderParams',['../struct_m_r_1_1_object_g_l_1_1_base_render_params.html',1,'MR::ObjectGL::BaseRenderParams'],['../struct_m_r_1_1_viewport_g_l_1_1_base_render_params.html',1,'MR::ViewportGL::BaseRenderParams']]],
-  ['bitset_2247',['BitSet',['../class_m_r_1_1_bit_set.html',1,'MR']]],
-  ['booleanplugin_2248',['BooleanPlugin',['../class_m_r_1_1_boolean_plugin.html',1,'MR']]],
-  ['box_2249',['Box',['../struct_m_r_1_1_box.html',1,'MR']]],
-  ['box_3c_20float_20_3e_2250',['Box&lt; float &gt;',['../struct_m_r_1_1_box.html',1,'MR']]],
-  ['box_3c_20int_20_3e_2251',['Box&lt; int &gt;',['../struct_m_r_1_1_box.html',1,'MR']]]
+  ['baserenderparams_2248',['BaseRenderParams',['../structMR_1_1ObjectGL_1_1BaseRenderParams.html',1,'MR::ObjectGL::BaseRenderParams'],['../structMR_1_1ViewportGL_1_1BaseRenderParams.html',1,'MR::ViewportGL::BaseRenderParams']]],
+  ['bitset_2249',['BitSet',['../classMR_1_1BitSet.html',1,'MR']]],
+  ['booleanplugin_2250',['BooleanPlugin',['../classMR_1_1BooleanPlugin.html',1,'MR']]],
+  ['box_2251',['Box',['../structMR_1_1Box.html',1,'MR']]],
+  ['box_3c_20float_20_3e_2252',['Box&lt; float &gt;',['../structMR_1_1Box.html',1,'MR']]],
+  ['box_3c_20int_20_3e_2253',['Box&lt; int &gt;',['../structMR_1_1Box.html',1,'MR']]]
 ];

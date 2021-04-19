@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['resource_2eh_2800',['resource.h',['../resource_8h.html',1,'']]]
+  ['spaces_2edox_2796',['Spaces.dox',['../Spaces_8dox.html',1,'']]],
+  ['supportedgpus_2edox_2797',['SupportedGPUs.dox',['../SupportedGPUs_8dox.html',1,'']]]
 ];
