@@ -11,7 +11,8 @@ var indexSectionsWithContent =
   8: "abcdefilmnoprstuvxyz",
   9: "m",
   10: "abgimst",
-  11: "cdops"
+  11: "f",
+  12: "cdops"
 };
 
 var indexSectionNames =
@@ -27,7 +28,8 @@ var indexSectionNames =
   8: "enumvalues",
   9: "related",
   10: "defines",
-  11: "pages"
+  11: "groups",
+  12: "pages"
 };
 
 var indexSectionLabels =
@@ -43,6 +45,7 @@ var indexSectionLabels =
   8: "Enumerator",
   9: "Friends",
   10: "Macros",
-  11: "Pages"
+  11: "Modules",
+  12: "Pages"
 };
 

@@ -13,6 +13,7 @@ var MRMeshFwd_8h =
     [ "Box3i", "MRMeshFwd_8h.html#abb77b8aff8d862cb60056e4127ba543c", null ],
     [ "EdgeBitSet", "MRMeshFwd_8h.html#afa52f737f1695a9866b22a30a29aefba", null ],
     [ "EdgeId", "MRMeshFwd_8h.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1", null ],
+    [ "EdgeLoop", "MRMeshFwd_8h.html#aee05ada6f56e0075cc157732cae41543", null ],
     [ "EdgeMap", "MRMeshFwd_8h.html#ae2eea398ad770ec2244a9a9c50714933", null ],
     [ "EdgePath", "MRMeshFwd_8h.html#a526402792c1d3b8d8903535592613b9f", null ],
     [ "EdgeSetBitIterator", "MRMeshFwd_8h.html#abbf317d1a00d025c632656ec53dd5869", null ],

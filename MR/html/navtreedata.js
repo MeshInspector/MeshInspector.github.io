@@ -34,6 +34,7 @@ var NAVTREE =
     [ "Spaces and transformations", "SpacesHelp.html", null ],
     [ "Python overview", "EmbendedPythonOverview.html", null ],
     [ "Supported GPUs", "SupportedGPUs.html", null ],
+    [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -74,23 +75,23 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "CustomPluginsHelp.html",
-"MRFixUndercuts_8h.html#a9db7297a13e7fde9098b4a88f8544cfc",
-"MRMeshFillHole_8h.html#a3c7779fd4cc2d941f67da4462b2d0121",
-"MRPointCloudAddNormalsModifier_8h.html",
-"MRSubdividerPlugin_8h_source.html",
-"classMR_1_1AABBTree.html#af8e16ac53a19bceb6054b8ff44ad98cc",
-"classMR_1_1HistoryStore.html#af145c9ac9643f835f3ad25fadf037814",
-"classMR_1_1MeshTopology.html#a67dd1963d90e78415bb2365ed8ab9589",
-"classMR_1_1ObjectPoints.html#a8d54c8a3353fe7bfbafc3ea5f8bb2659",
-"classMR_1_1ShrinkSelection.html#ac9ec5188fe4e1a7571d796d2e900cee6",
-"classMR_1_1ViewerPlugin.html",
-"classMR_1_1VolumeIndexer.html",
-"namespaceMR.html#a2646d0794f2315c44c552c1c752d6804",
-"namespaceMR.html#a93fd50fddfb0320a2774e3d7e974448b",
-"namespaceMR.html#af9a5c1118c2c4b0cda030dff8d11ce03",
-"structMR_1_1ComplexStitchMetric.html#ad15ccd86fff77e74c049a839b902b6d8",
-"structMR_1_1Mesh.html#ada333ee4f3b0edfa859e5f8ee5a1c1f1",
-"structMR_1_1SymMatrix3.html"
+"MRFixUndercuts_8h.html#a7b242f2951e9f7975eaf03828f63eecc",
+"MRMeshFillHole_8h.html#a067cc1eda81ae410fdf9299ca802738a",
+"MRPlane3_8h.html#a3c87761daf5dfa29aef58d0d55153957",
+"MRStreamOperators_8h_source.html",
+"classMR_1_1AABBTree.html",
+"classMR_1_1HistoryStore.html",
+"classMR_1_1MeshTopology.html#a512984b5f87dcf8c7667237cccdabefb",
+"classMR_1_1ObjectPoints.html#a321d8cf4b8b10b05ec8d714bd5d9c9f5",
+"classMR_1_1ShowDenseBBoxPlugin.html#abaf5fd345b36bf7a93ad888609b4b680",
+"classMR_1_1Viewer.html#aea16749ad72b2b3b737ca380d1633b27",
+"classMR_1_1VisualObject.html#ae518b6548b3cf17ee369ecaf5c4cb160",
+"namespaceMR.html#a1e52843ce2c94f1039836232a06c2d76",
+"namespaceMR.html#a8870fd98a283713cad7c82def627f441",
+"namespaceMR.html#aee05ada6f56e0075cc157732cae41543",
+"structMR_1_1CircumscribedStitchMetric.html#ac87c61c318c8534864f9c229997a5576",
+"structMR_1_1Mesh.html#a6241859f835aa7cd22f26c1e40b9791a",
+"structMR_1_1Quaternion.html#ac98a801cf03ee64da5665501c8e7b7d8"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

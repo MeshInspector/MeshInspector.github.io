@@ -27,6 +27,7 @@ var structMR_1_1Mesh =
     [ "findSpikeVertices", "structMR_1_1Mesh.html#a08e627f8c827dbc1bc085e4a0ad1dd89", null ],
     [ "getAABBTree", "structMR_1_1Mesh.html#affaa9692d9dcdd4ee26991fdd6b77307", null ],
     [ "getBoundingBox", "structMR_1_1Mesh.html#a6a9114dc0640fc079b18e83625c3464a", null ],
+    [ "getClosestVertex", "structMR_1_1Mesh.html#a4fe5788ff7927b5a1b5f70b157353ab6", null ],
     [ "getLeftTriPoints", "structMR_1_1Mesh.html#a7d51b4057ba3a41c5ef11fba53fa8a3c", null ],
     [ "getTriPoints", "structMR_1_1Mesh.html#abe211d973521963165b09ad25d9a971c", null ],
     [ "intersectRay", "structMR_1_1Mesh.html#ad8873365a0f1f9eefb6b24f60f296244", null ],

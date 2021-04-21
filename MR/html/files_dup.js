@@ -192,12 +192,7 @@ var files_dup =
     ] ],
     [ "MRMeshLoad.h", "MRMeshLoad_8h.html", "MRMeshLoad_8h" ],
     [ "MRMeshMetrics.h", "MRMeshMetrics_8h.html", [
-      [ "FillHoleMetric", "structMR_1_1FillHoleMetric.html", "structMR_1_1FillHoleMetric" ],
-      [ "CircumscribedFillMetric", "structMR_1_1CircumscribedFillMetric.html", "structMR_1_1CircumscribedFillMetric" ],
-      [ "PlaneFillMetric", "structMR_1_1PlaneFillMetric.html", "structMR_1_1PlaneFillMetric" ],
-      [ "ComplexStitchMetric", "structMR_1_1ComplexStitchMetric.html", "structMR_1_1ComplexStitchMetric" ],
-      [ "EdgeLengthFillMetric", "structMR_1_1EdgeLengthFillMetric.html", "structMR_1_1EdgeLengthFillMetric" ],
-      [ "CircumscribedStitchMetric", "structMR_1_1CircumscribedStitchMetric.html", "structMR_1_1CircumscribedStitchMetric" ]
+      [ "EdgeLengthFillMetric", "structMR_1_1EdgeLengthFillMetric.html", "structMR_1_1EdgeLengthFillMetric" ]
     ] ],
     [ "MRMeshModifier.h", "MRMeshModifier_8h.html", [
       [ "MeshModifier", "classMR_1_1MeshModifier.html", "classMR_1_1MeshModifier" ]
@@ -372,6 +367,7 @@ var files_dup =
     [ "MRTriPoint.h", "MRTriPoint_8h.html", [
       [ "TriPoint", "structMR_1_1TriPoint.html", "structMR_1_1TriPoint" ]
     ] ],
+    [ "MRTunnelDetector.h", "MRTunnelDetector_8h.html", "MRTunnelDetector_8h" ],
     [ "MRUniformSampling.h", "MRUniformSampling_8h.html", "MRUniformSampling_8h" ],
     [ "MRUnionFind.h", "MRUnionFind_8h.html", [
       [ "UnionFind", "classMR_1_1UnionFind.html", "classMR_1_1UnionFind" ]

@@ -1,8 +1,9 @@
 var MREdgePaths_8h =
 [
     [ "EdgeMetric", "MREdgePaths_8h.html#ad2c254a94a3837629d1540a9a1aeda9f", null ],
-    [ "buildShortestPath", "MREdgePaths_8h.html#a7c93facf953903c1289cb10a1a2f102a", null ],
-    [ "buildSmallestMetricPath", "MREdgePaths_8h.html#ac35a708c8751e729d61656036518f95e", null ],
+    [ "buildShortestPath", "MREdgePaths_8h.html#ac036c76a671cb37146a58fb7178c5df6", null ],
+    [ "buildSmallestMetricPath", "MREdgePaths_8h.html#a021d97390669e9ca4d0be9a07042a694", null ],
+    [ "calcPathMetric", "MREdgePaths_8h.html#a43a4b5c66e820cc90b986a3bfb4c1998", null ],
     [ "dilateRegion", "MREdgePaths_8h.html#a04b2ea135b74cf80dc8a709cd348a4f5", null ],
     [ "dilateRegion", "MREdgePaths_8h.html#a56c543258316d6e875b86d7d3d2950cc", null ],
     [ "dilateRegionByMetric", "MREdgePaths_8h.html#aa6aa5768e09a6be4f8f55501a0feeaf5", null ],
@@ -20,5 +21,7 @@ var MREdgePaths_8h =
     [ "identityMetric", "MREdgePaths_8h.html#add9e6c77ae3fdf22797b82342a1ee1f3", null ],
     [ "isEdgeLoop", "MREdgePaths_8h.html#af669cb8f71c0282ec6c839e2e481dc64", null ],
     [ "isEdgePath", "MREdgePaths_8h.html#a7a492156b75bdd4b9dd72acc28ef2b3e", null ],
-    [ "reverse", "MREdgePaths_8h.html#ae70a27b04192a69e0c479c5b046d0159", null ]
+    [ "reverse", "MREdgePaths_8h.html#a5ae89c778fe01228f20aa52aa2e160d0", null ],
+    [ "reverse", "MREdgePaths_8h.html#a0f7d06cbd7188f3681347a12699a9cba", null ],
+    [ "sortPathsByMetric", "MREdgePaths_8h.html#af24c647cf0c2aef3425702344a341d55", null ]
 ];

@@ -106,12 +106,13 @@ $(document).ready(function(){initNavTree('MRPython_8h.html',''); initResizable()
 <code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
 <code>#include &lt;boost/python.hpp&gt;</code><br />
+<code>#include &lt;boost/python/suite/indexing/vector_indexing_suite.hpp&gt;</code><br />
 </div>
 <p><a href="MRPython_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PythonExportFunctions.html">MR::PythonExportFunctions</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PythonExport.html">MR::PythonExport</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -127,6 +128,8 @@ Macros</h2></td></tr>
 <tr class="separator:ae32d133147b9dd7a9b1bfe370a71b72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f4ef07fc4c7a76ae7597ea7b3b56752"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#a9f4ef07fc4c7a76ae7597ea7b3b56752">ADD_PYTHON_FUNCTION</a>(name,  func,  description)&#160;&#160;&#160;    static <a class="el" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> name##_adder_([](){ boost::python::def(#name, func, description);} );</td></tr>
 <tr class="separator:a9f4ef07fc4c7a76ae7597ea7b3b56752"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d9c3138082366103e6888484a4cb29d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#a0d9c3138082366103e6888484a4cb29d">ADD_PYTHON_CUSOM_DEF</a>(name,  def)</td></tr>
+<tr class="separator:a0d9c3138082366103e6888484a4cb29d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -140,6 +143,39 @@ Functions</h2></td></tr>
 <tr class="separator:acd7598d217a12003c1e81d9fa728b1b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a0d9c3138082366103e6888484a4cb29d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d9c3138082366103e6888484a4cb29d">&#9670;&nbsp;</a></span>ADD_PYTHON_CUSOM_DEF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADD_PYTHON_CUSOM_DEF</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">def&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">_Pragma(<span class="stringliteral">&quot;warning(push)&quot;</span>) \</div>
+<div class="line">_Pragma(<span class="stringliteral">&quot;warning(disable:4459)&quot;</span>) \</div>
+<div class="line">    static <a class="code" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> name##_adder_( def ); \</div>
+<div class="line">_Pragma(<span class="stringliteral">&quot;warning(pop)&quot;</span>)</div>
+<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></div><div class="ttdef"><b>Definition:</b> MRPython.h:48</div></div>
+</div><!-- fragment -->
+</div>
+</div>
 <a id="a9f4ef07fc4c7a76ae7597ea7b3b56752"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9f4ef07fc4c7a76ae7597ea7b3b56752">&#9670;&nbsp;</a></span>ADD_PYTHON_FUNCTION</h2>
 

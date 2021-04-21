@@ -42,6 +42,7 @@ var hierarchy =
       [ "MR::CircumscribedStitchMetric", "structMR_1_1CircumscribedStitchMetric.html", null ],
       [ "MR::ComplexStitchMetric", "structMR_1_1ComplexStitchMetric.html", null ],
       [ "MR::EdgeLengthFillMetric", "structMR_1_1EdgeLengthFillMetric.html", null ],
+      [ "MR::EdgeLengthStitchMetric", "structMR_1_1EdgeLengthStitchMetric.html", null ],
       [ "MR::PlaneFillMetric", "structMR_1_1PlaneFillMetric.html", null ]
     ] ],
     [ "MR::FillHoleParams", "structMR_1_1FillHoleParams.html", null ],
@@ -176,7 +177,7 @@ var hierarchy =
     [ "MR::PreciseCollisionResult", "structMR_1_1PreciseCollisionResult.html", null ],
     [ "MR::PreciseVertCoords", "structMR_1_1PreciseVertCoords.html", null ],
     [ "MR::ProgressBar", "classMR_1_1ProgressBar.html", null ],
-    [ "MR::PythonExportFunctions", "classMR_1_1PythonExportFunctions.html", null ],
+    [ "MR::PythonExport", "classMR_1_1PythonExport.html", null ],
     [ "MR::PythonFunctionAdder", "structMR_1_1PythonFunctionAdder.html", null ],
     [ "MR::QuadraticForm3< T >", "structMR_1_1QuadraticForm3.html", null ],
     [ "MR::Quaternion< T >", "structMR_1_1Quaternion.html", null ],
