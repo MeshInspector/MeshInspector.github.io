@@ -1,8 +1,10 @@
 var MREdgePaths_8h =
 [
     [ "EdgeMetric", "MREdgePaths_8h.html#ad2c254a94a3837629d1540a9a1aeda9f", null ],
+    [ "addLeftBand", "MREdgePaths_8h.html#ab0db7342678536825cb6b3bff51d832d", null ],
     [ "buildShortestPath", "MREdgePaths_8h.html#ac036c76a671cb37146a58fb7178c5df6", null ],
     [ "buildSmallestMetricPath", "MREdgePaths_8h.html#a021d97390669e9ca4d0be9a07042a694", null ],
+    [ "calcPathLength", "MREdgePaths_8h.html#a1792643322d571922601c7286a802f51", null ],
     [ "calcPathMetric", "MREdgePaths_8h.html#a43a4b5c66e820cc90b986a3bfb4c1998", null ],
     [ "dilateRegion", "MREdgePaths_8h.html#a04b2ea135b74cf80dc8a709cd348a4f5", null ],
     [ "dilateRegion", "MREdgePaths_8h.html#a56c543258316d6e875b86d7d3d2950cc", null ],
@@ -23,5 +25,6 @@ var MREdgePaths_8h =
     [ "isEdgePath", "MREdgePaths_8h.html#a7a492156b75bdd4b9dd72acc28ef2b3e", null ],
     [ "reverse", "MREdgePaths_8h.html#a5ae89c778fe01228f20aa52aa2e160d0", null ],
     [ "reverse", "MREdgePaths_8h.html#a0f7d06cbd7188f3681347a12699a9cba", null ],
+    [ "sortPathsByLength", "MREdgePaths_8h.html#aabc40dcee3ba22d445c0f838f170d549", null ],
     [ "sortPathsByMetric", "MREdgePaths_8h.html#af24c647cf0c2aef3425702344a341d55", null ]
 ];

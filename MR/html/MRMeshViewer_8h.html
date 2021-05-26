@@ -96,7 +96,8 @@ $(document).ready(function(){initNavTree('MRMeshViewer_8h.html',''); initResizab
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">MRMeshViewer.h File Reference</div>  </div>
 </div><!--header-->
@@ -108,8 +109,9 @@ $(document).ready(function(){initNavTree('MRMeshViewer_8h.html',''); initResizab
 <code>#include &quot;<a class="el" href="MRRecentFilesStore_8h_source.html">MRRecentFilesStore.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRObject_8h_source.html">MRMesh/MRObject.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRSceneRoot_8h_source.html">MRMesh/MRSceneRoot.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRAlphaSortGL_8h_source.html">MRMesh/MRAlphaSortGL.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRAlphaSortGL_8h_source.html">MRAlphaSortGL.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRHistoryStore_8h_source.html">MRMesh/MRHistoryStore.h</a>&quot;</code><br />
+<code>#include &lt;boost/signals2/signal.hpp&gt;</code><br />
 <code>#include &lt;Eigen/Core&gt;</code><br />
 <code>#include &lt;Eigen/Geometry&gt;</code><br />
 <code>#include &lt;cstdint&gt;</code><br />
@@ -121,6 +123,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html">MR::Viewer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Viewer_1_1PointInAllSpaces.html">MR::Viewer::PointInAllSpaces</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">MR::Viewer::SignalStopHandler</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -138,6 +142,14 @@ Macros</h2></td></tr>
 <tr class="separator:a0bc3cb127aa7b13459b990ae66defd4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90807d1bae1c3f9eeef39f0fe2c19a94"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRMeshViewer_8h.html#a90807d1bae1c3f9eeef39f0fe2c19a94">IGL_MOD_SUPER</a>&#160;&#160;&#160;0x0008</td></tr>
 <tr class="separator:a90807d1bae1c3f9eeef39f0fe2c19a94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c688df55bdadf35189e97880b6dc592"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRMeshViewer_8h.html#a2c688df55bdadf35189e97880b6dc592">MAKE_SLOT</a>(func)&#160;&#160;&#160;<a class="el" href="MRMeshViewer_8h.html#a4e10ab3e9579ce8ffbd2209497603cbc">bindSlotCallback</a>(this,func)</td></tr>
+<tr class="separator:a2c688df55bdadf35189e97880b6dc592"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a4e10ab3e9579ce8ffbd2209497603cbc"><td class="memTemplParams" colspan="2">template&lt;typename MemberFuncPtr , typename BaseClass &gt; </td></tr>
+<tr class="memitem:a4e10ab3e9579ce8ffbd2209497603cbc"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="MRMeshViewer_8h.html#a4e10ab3e9579ce8ffbd2209497603cbc">bindSlotCallback</a> (BaseClass *base, MemberFuncPtr func)</td></tr>
+<tr class="separator:a4e10ab3e9579ce8ffbd2209497603cbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a0bc3cb127aa7b13459b990ae66defd4b"></a>
@@ -190,6 +202,55 @@ Macros</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define IGL_MOD_SUPER&#160;&#160;&#160;0x0008</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2c688df55bdadf35189e97880b6dc592"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c688df55bdadf35189e97880b6dc592">&#9670;&nbsp;</a></span>MAKE_SLOT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAKE_SLOT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">func</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="MRMeshViewer_8h.html#a4e10ab3e9579ce8ffbd2209497603cbc">bindSlotCallback</a>(this,func)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a4e10ab3e9579ce8ffbd2209497603cbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e10ab3e9579ce8ffbd2209497603cbc">&#9670;&nbsp;</a></span>bindSlotCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename MemberFuncPtr , typename BaseClass &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto bindSlotCallback </td>
+          <td>(</td>
+          <td class="paramtype">BaseClass *&#160;</td>
+          <td class="paramname"><em>base</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MemberFuncPtr&#160;</td>
+          <td class="paramname"><em>func</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">

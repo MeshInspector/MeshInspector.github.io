@@ -95,6 +95,7 @@ $(document).ready(function(){initNavTree('classMR_1_1Menu.html',''); initResizab
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classMR_1_1Menu-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MR::Menu Class Reference</div>  </div>
@@ -143,14 +144,21 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abfc80bc0e91eda2f14c4a4cff955955a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6f9850637909d2a43d5589eac9f1306"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#aa6f9850637909d2a43d5589eac9f1306">add_modifier</a> (std::shared_ptr&lt; <a class="el" href="classMR_1_1MeshModifier.html">MR::MeshModifier</a> &gt; modifier)</td></tr>
 <tr class="separator:aa6f9850637909d2a43d5589eac9f1306"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e1ab48f973af9a1e42429566468e291"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#a3e1ab48f973af9a1e42429566468e291">key_pressed</a> (unsigned int unicode_key, int modifiers) override</td></tr>
-<tr class="separator:a3e1ab48f973af9a1e42429566468e291"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69b9bb9fec44e2234ddb5e9591a3316c"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#a69b9bb9fec44e2234ddb5e9591a3316c">key_down</a> (int key, int modifiers) override</td></tr>
-<tr class="separator:a69b9bb9fec44e2234ddb5e9591a3316c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a794f9394d96fb399d6e9e73a3c149a14"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#a794f9394d96fb399d6e9e73a3c149a14">key_up</a> (int key, int modifiers) override</td></tr>
-<tr class="separator:a794f9394d96fb399d6e9e73a3c149a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a132c35fb7808221592854ba09edeeefd"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API ImGuiContext *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#a132c35fb7808221592854ba09edeeefd">getCurrentContext</a> () const</td></tr>
 <tr class="separator:a132c35fb7808221592854ba09edeeefd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d21a0a8fe660564bec790d657b0b7bb"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#a9d21a0a8fe660564bec790d657b0b7bb">getMenuFontPath</a> () const</td></tr>
+<tr class="separator:a9d21a0a8fe660564bec790d657b0b7bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ab8d421687d922fd0a5783decbef06f47"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#ab8d421687d922fd0a5783decbef06f47">onCharPressed_</a> (unsigned key, int modifiers) override</td></tr>
+<tr class="separator:ab8d421687d922fd0a5783decbef06f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc40b3ac97b3e4a0aac29dbe46ef2813"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#acc40b3ac97b3e4a0aac29dbe46ef2813">onKeyDown_</a> (int key, int modifiers) override</td></tr>
+<tr class="separator:acc40b3ac97b3e4a0aac29dbe46ef2813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa02d6a7878abad80c8d93919357f4538"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#aa02d6a7878abad80c8d93919357f4538">onKeyUp_</a> (int key, int modifiers) override</td></tr>
+<tr class="separator:aa02d6a7878abad80c8d93919357f4538"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8db5b7b5bd1e623b505a1770713f1a71"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#a8db5b7b5bd1e623b505a1770713f1a71">addMenuFontRanges_</a> (ImFontGlyphRangesBuilder &amp;builder) const</td></tr>
+<tr class="separator:a8db5b7b5bd1e623b505a1770713f1a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="aa6f9850637909d2a43d5589eac9f1306"></a>
@@ -167,6 +175,32 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8db5b7b5bd1e623b505a1770713f1a71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8db5b7b5bd1e623b505a1770713f1a71">&#9670;&nbsp;</a></span>addMenuFontRanges_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MRVIEWER_API void MR::Menu::addMenuFontRanges_ </td>
+          <td>(</td>
+          <td class="paramtype">ImFontGlyphRangesBuilder &amp;&#160;</td>
+          <td class="paramname"><em>builder</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -406,6 +440,31 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a9d21a0a8fe660564bec790d657b0b7bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d21a0a8fe660564bec790d657b0b7bb">&#9670;&nbsp;</a></span>getMenuFontPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MRVIEWER_API std::filesystem::path MR::Menu::getMenuFontPath </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9294389b0cf7ab9d43fe4bd9eefcac19"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9294389b0cf7ab9d43fe4bd9eefcac19">&#9670;&nbsp;</a></span>init()</h2>
 
@@ -421,114 +480,6 @@ Public Member Functions</h2></td></tr>
           <td class="paramtype"><a class="el" href="classMR_1_1Viewer.html">MR::Viewer</a> *&#160;</td>
           <td class="paramname"><em>_viewer</em></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a69b9bb9fec44e2234ddb5e9591a3316c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69b9bb9fec44e2234ddb5e9591a3316c">&#9670;&nbsp;</a></span>key_down()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual MRVIEWER_API bool MR::Menu::key_down </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>key</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>modifiers</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3e1ab48f973af9a1e42429566468e291"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e1ab48f973af9a1e42429566468e291">&#9670;&nbsp;</a></span>key_pressed()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual MRVIEWER_API bool MR::Menu::key_pressed </td>
-          <td>(</td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>unicode_key</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>modifiers</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a794f9394d96fb399d6e9e73a3c149a14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a794f9394d96fb399d6e9e73a3c149a14">&#9670;&nbsp;</a></span>key_up()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual MRVIEWER_API bool MR::Menu::key_up </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>key</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>modifiers</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -560,6 +511,114 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab8d421687d922fd0a5783decbef06f47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8d421687d922fd0a5783decbef06f47">&#9670;&nbsp;</a></span>onCharPressed_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MRVIEWER_API bool MR::Menu::onCharPressed_ </td>
+          <td>(</td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>modifiers</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acc40b3ac97b3e4a0aac29dbe46ef2813"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc40b3ac97b3e4a0aac29dbe46ef2813">&#9670;&nbsp;</a></span>onKeyDown_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MRVIEWER_API bool MR::Menu::onKeyDown_ </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>modifiers</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa02d6a7878abad80c8d93919357f4538"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa02d6a7878abad80c8d93919357f4538">&#9670;&nbsp;</a></span>onKeyUp_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MRVIEWER_API bool MR::Menu::onKeyUp_ </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>modifiers</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

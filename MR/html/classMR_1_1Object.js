@@ -1,8 +1,10 @@
 var classMR_1_1Object =
 [
+    [ "ProtectedStruct", "structMR_1_1Object_1_1ProtectedStruct.html", "structMR_1_1Object_1_1ProtectedStruct" ],
     [ "Object", "classMR_1_1Object.html#ac2ef0a60f0cb9b488534014376ccd38d", null ],
     [ "Object", "classMR_1_1Object.html#abac87686448c89b770d46ab30ad79dc2", null ],
     [ "~Object", "classMR_1_1Object.html#a89c09f7a1ec5ba173cd21879e3f9953e", null ],
+    [ "Object", "classMR_1_1Object.html#a795eb7eeaecc99cf34dabd14ac113e0b", null ],
     [ "Object", "classMR_1_1Object.html#aeadedab38b0876317d01593cbee6b9ea", null ],
     [ "addChild", "classMR_1_1Object.html#a867bc4f888c2aa53355413c550658271", null ],
     [ "addChildBefore", "classMR_1_1Object.html#a8eeb1cb21b22db97f20eac75b897f7ae", null ],

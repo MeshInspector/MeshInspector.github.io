@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('MRObjectLinesVisualizationTest_8h_sour
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">class </span>ObjectLines;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classMR_1_1ObjectLinesVisualizationTest.html">    9</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1ObjectLinesVisualizationTest.html">ObjectLinesVisualizationTest</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomPlugin.html">CustomPlugin</a></div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classMR_1_1ObjectLinesVisualizationTest.html">    9</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1ObjectLinesVisualizationTest.html">ObjectLinesVisualizationTest</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">CustomListenerPlugin</a>&lt;DrawListener&gt;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classMR_1_1ObjectLinesVisualizationTest.html#ab5cbd874294cb47990a711171e5a9252">   12</a></span>&#160;    MRVIEWER_API <a class="code" href="classMR_1_1ObjectLinesVisualizationTest.html#ab5cbd874294cb47990a711171e5a9252">ObjectLinesVisualizationTest</a>();</div>
@@ -114,9 +114,9 @@ $(document).ready(function(){initNavTree('MRObjectLinesVisualizationTest_8h_sour
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
 <div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1ObjectLinesVisualizationTest.html#afb9f67727791076207adfacd634c26b2">   16</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1ObjectLinesVisualizationTest.html#afb9f67727791076207adfacd634c26b2">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classMR_1_1ObjectLinesVisualizationTest.html#a09d0854ca7b264286e83efbd372a56f1">   18</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1ObjectLinesVisualizationTest.html#a09d0854ca7b264286e83efbd372a56f1">draw</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> draw_();</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    std::shared_ptr&lt;ObjectLines&gt; obj_;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
@@ -128,13 +128,12 @@ $(document).ready(function(){initNavTree('MRObjectLinesVisualizationTest_8h_sour
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
 <div class="ttc" id="aMRCustomPlugin_8h_html"><div class="ttname"><a href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1CustomPlugin_html"><div class="ttname"><a href="classMR_1_1CustomPlugin.html">MR::CustomPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:25</div></div>
+<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:60</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectLinesVisualizationTest_html"><div class="ttname"><a href="classMR_1_1ObjectLinesVisualizationTest.html">MR::ObjectLinesVisualizationTest</a></div><div class="ttdef"><b>Definition:</b> MRObjectLinesVisualizationTest.h:10</div></div>
-<div class="ttc" id="aclassMR_1_1ObjectLinesVisualizationTest_html_a09d0854ca7b264286e83efbd372a56f1"><div class="ttname"><a href="classMR_1_1ObjectLinesVisualizationTest.html#a09d0854ca7b264286e83efbd372a56f1">MR::ObjectLinesVisualizationTest::draw</a></div><div class="ttdeci">virtual void draw() override</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectLinesVisualizationTest_html_a18938a0a0df2cd9ecb317fe7207af171"><div class="ttname"><a href="classMR_1_1ObjectLinesVisualizationTest.html#a18938a0a0df2cd9ecb317fe7207af171">MR::ObjectLinesVisualizationTest::drawDialog</a></div><div class="ttdeci">virtual MRVIEWER_API void drawDialog(float menuScaling, ImGuiContext *ctx) override</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectLinesVisualizationTest_html_ab5cbd874294cb47990a711171e5a9252"><div class="ttname"><a href="classMR_1_1ObjectLinesVisualizationTest.html#ab5cbd874294cb47990a711171e5a9252">MR::ObjectLinesVisualizationTest::ObjectLinesVisualizationTest</a></div><div class="ttdeci">MRVIEWER_API ObjectLinesVisualizationTest()</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectLinesVisualizationTest_html_afb9f67727791076207adfacd634c26b2"><div class="ttname"><a href="classMR_1_1ObjectLinesVisualizationTest.html#afb9f67727791076207adfacd634c26b2">MR::ObjectLinesVisualizationTest::isAvailable</a></div><div class="ttdeci">virtual MRVIEWER_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRAABBTree.h:9</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MR2DContoursTriangulation.h:6</div></div>
 <div class="ttc" id="anamespaceMR_html_a4c45823101d83ad440d18c094e91aa9d"><div class="ttname"><a href="namespaceMR.html#a4c45823101d83ad440d18c094e91aa9d">MR::ObjectLinesVisualizationTestInstance</a></div><div class="ttdeci">MRVIEWER_API ObjectLinesVisualizationTest ObjectLinesVisualizationTestInstance</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

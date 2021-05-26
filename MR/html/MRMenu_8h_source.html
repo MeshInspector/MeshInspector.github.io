@@ -146,82 +146,89 @@ $(document).ready(function(){initNavTree('MRMenu_8h_source.html',''); initResiza
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
 <div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="classMR_1_1Menu.html#aa6f9850637909d2a43d5589eac9f1306">   48</a></span>&#160;    MRVIEWER_API <span class="keywordtype">void</span> <a class="code" href="classMR_1_1Menu.html#aa6f9850637909d2a43d5589eac9f1306">add_modifier</a>( std::shared_ptr&lt;MR::MeshModifier&gt; modifier );</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="classMR_1_1Menu.html#a3e1ab48f973af9a1e42429566468e291">   50</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1Menu.html#a3e1ab48f973af9a1e42429566468e291">key_pressed</a>( <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> unicode_key, <span class="keywordtype">int</span> modifiers ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="classMR_1_1Menu.html#a132c35fb7808221592854ba09edeeefd">   50</a></span>&#160;    MRVIEWER_API ImGuiContext* <a class="code" href="classMR_1_1Menu.html#a132c35fb7808221592854ba09edeeefd">getCurrentContext</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classMR_1_1Menu.html#a69b9bb9fec44e2234ddb5e9591a3316c">   52</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1Menu.html#a69b9bb9fec44e2234ddb5e9591a3316c">key_down</a>( <span class="keywordtype">int</span> key, <span class="keywordtype">int</span> modifiers ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classMR_1_1Menu.html#a794f9394d96fb399d6e9e73a3c149a14">   53</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1Menu.html#a794f9394d96fb399d6e9e73a3c149a14">key_up</a>( <span class="keywordtype">int</span> key, <span class="keywordtype">int</span> modifiers ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="comment">// should return path of font that will be used in menu</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classMR_1_1Menu.html#a9d21a0a8fe660564bec790d657b0b7bb">   53</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> std::filesystem::path <a class="code" href="classMR_1_1Menu.html#a9d21a0a8fe660564bec790d657b0b7bb">getMenuFontPath</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="classMR_1_1Menu.html#a132c35fb7808221592854ba09edeeefd">   55</a></span>&#160;    MRVIEWER_API ImGuiContext* <a class="code" href="classMR_1_1Menu.html#a132c35fb7808221592854ba09edeeefd">getCurrentContext</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">void</span> draw_open_recent_button_();</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">void</span> draw_history_block_();</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">void</span> draw_object_recurse_( <a class="code" href="classMR_1_1Object.html">Object</a>&amp; <span class="keywordtype">object</span>, <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp; selected, <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp; all, <span class="keywordtype">int</span>&amp; counter );</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    std::vector&lt;Object*&gt; getPreSelection_( <a class="code" href="classMR_1_1Object.html">Object</a>* meshclicked,</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                                           <span class="keywordtype">bool</span> isShift, <span class="keywordtype">bool</span> isCtrl,</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                                           <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp; selected, </div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                                           <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp; all );</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="comment">// Keyboard IO</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="classMR_1_1Menu.html#ab8d421687d922fd0a5783decbef06f47">   57</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1Menu.html#ab8d421687d922fd0a5783decbef06f47">onCharPressed_</a>( <span class="keywordtype">unsigned</span> key, <span class="keywordtype">int</span> modifiers ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="classMR_1_1Menu.html#acc40b3ac97b3e4a0aac29dbe46ef2813">   58</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1Menu.html#acc40b3ac97b3e4a0aac29dbe46ef2813">onKeyDown_</a>( <span class="keywordtype">int</span> key, <span class="keywordtype">int</span> modifiers ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="classMR_1_1Menu.html#aa02d6a7878abad80c8d93919357f4538">   59</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1Menu.html#aa02d6a7878abad80c8d93919357f4538">onKeyUp_</a>( <span class="keywordtype">int</span> key, <span class="keywordtype">int</span> modifiers ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="comment">// add ranges (that will be used in menu) to builder </span></div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="classMR_1_1Menu.html#a8db5b7b5bd1e623b505a1770713f1a71">   61</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1Menu.html#a8db5b7b5bd1e623b505a1770713f1a71">addMenuFontRanges_</a>( ImFontGlyphRangesBuilder&amp; builder ) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">void</span> draw_open_recent_button_();</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">void</span> draw_history_block_();</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">void</span> draw_object_recurse_( <a class="code" href="classMR_1_1Object.html">Object</a>&amp; <span class="keywordtype">object</span>, <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp; selected, <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp; all, <span class="keywordtype">int</span>&amp; counter );</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    std::vector&lt;std::shared_ptr&lt;MR::MeshModifier&gt;&gt; modifiers_;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">bool</span> show_hotkeys_list_{<span class="keyword">false</span>};</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">bool</span> showFps_{<span class="keyword">false</span>};</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    std::vector&lt;Object*&gt; getPreSelection_( <a class="code" href="classMR_1_1Object.html">Object</a>* meshclicked,</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                                           <span class="keywordtype">bool</span> isShift, <span class="keywordtype">bool</span> isCtrl,</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                                           <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp; selected, </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                                           <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp; all );</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    std::string renameBuffer;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordtype">bool</span> show_rename_modal_{<span class="keyword">false</span>};</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    std::string storedError_;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordtype">bool</span> enter_pressed_{<span class="keyword">false</span>};</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">bool</span> esc_pressed_{<span class="keyword">false</span>};</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    ImVec2 mainWindowPos_;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    ImVec2 mainWindowSize_;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    ImVec2 sceneWindowPos_;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    ImVec2 sceneWindowSize_;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">bool</span> sceneControlsSwapped_{<span class="keyword">false</span>};</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">bool</span> xfHistUpdated_{ <span class="keyword">false</span> };</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordtype">bool</span> allowRemoval_{<span class="keyword">true</span>};</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keyword">enum</span> ViewportConfigurations</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    {</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        Single,</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        Horizontal, <span class="comment">// left viewport, right viewport</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        Vertical, <span class="comment">// lower viewport, upper viewport</span></div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        Quad <span class="comment">// left lower vp, left upper vp, right lower vp, right upper vp</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    } viewportConfig_{Single};</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    std::unordered_map&lt;const Object*, bool&gt; sceneOpenCommands_;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;};</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;MRVIEWER_API <span class="keyword">extern</span> Menu <a class="code" href="namespaceMR.html#a753506cf1e3a15176a0d966458fdb7b6">MenuInstance</a>;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    std::vector&lt;std::shared_ptr&lt;MR::MeshModifier&gt;&gt; modifiers_;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">bool</span> show_hotkeys_list_{<span class="keyword">false</span>};</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordtype">bool</span> showFps_{<span class="keyword">false</span>};</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    std::string renameBuffer;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">bool</span> show_rename_modal_{<span class="keyword">false</span>};</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    std::string storedError_;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordtype">bool</span> enter_pressed_{<span class="keyword">false</span>};</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">bool</span> esc_pressed_{<span class="keyword">false</span>};</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    ImVec2 mainWindowPos_;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    ImVec2 mainWindowSize_;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    ImVec2 sceneWindowPos_;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    ImVec2 sceneWindowSize_;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordtype">bool</span> sceneControlsSwapped_{<span class="keyword">false</span>};</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordtype">bool</span> xfHistUpdated_{ <span class="keyword">false</span> };</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordtype">bool</span> allowRemoval_{<span class="keyword">true</span>};</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keyword">enum</span> ViewportConfigurations</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    {</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        Single,</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        Horizontal, <span class="comment">// left viewport, right viewport</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        Vertical, <span class="comment">// lower viewport, upper viewport</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        Quad <span class="comment">// left lower vp, left upper vp, right lower vp, right upper vp</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    } viewportConfig_{Single};</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;}</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    std::unordered_map&lt;const Object*, bool&gt; sceneOpenCommands_;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;};</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;MRVIEWER_API <span class="keyword">extern</span> Menu <a class="code" href="namespaceMR.html#a753506cf1e3a15176a0d966458fdb7b6">MenuInstance</a>;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;}</div>
 <div class="ttc" id="aclassMR_1_1Menu_html"><div class="ttname"><a href="classMR_1_1Menu.html">MR::Menu</a></div><div class="ttdef"><b>Definition:</b> MRMenu.h:10</div></div>
 <div class="ttc" id="aclassMR_1_1Menu_html_a08dab0e7823f9ed0df9c2ee7920a1b21"><div class="ttname"><a href="classMR_1_1Menu.html#a08dab0e7823f9ed0df9c2ee7920a1b21">MR::Menu::draw_scene_list</a></div><div class="ttdeci">MRVIEWER_API void draw_scene_list()</div></div>
 <div class="ttc" id="aclassMR_1_1Menu_html_a132c35fb7808221592854ba09edeeefd"><div class="ttname"><a href="classMR_1_1Menu.html#a132c35fb7808221592854ba09edeeefd">MR::Menu::getCurrentContext</a></div><div class="ttdeci">MRVIEWER_API ImGuiContext * getCurrentContext() const</div></div>
 <div class="ttc" id="aclassMR_1_1Menu_html_a182b39214958a08848d0d15e7037a355"><div class="ttname"><a href="classMR_1_1Menu.html#a182b39214958a08848d0d15e7037a355">MR::Menu::setObjectTreeState</a></div><div class="ttdeci">MRVIEWER_API void setObjectTreeState(const Object *obj, bool open)</div></div>
-<div class="ttc" id="aclassMR_1_1Menu_html_a3e1ab48f973af9a1e42429566468e291"><div class="ttname"><a href="classMR_1_1Menu.html#a3e1ab48f973af9a1e42429566468e291">MR::Menu::key_pressed</a></div><div class="ttdeci">virtual MRVIEWER_API bool key_pressed(unsigned int unicode_key, int modifiers) override</div></div>
 <div class="ttc" id="aclassMR_1_1Menu_html_a40b941f2cdf37d27fc77fef27c539dc3"><div class="ttname"><a href="classMR_1_1Menu.html#a40b941f2cdf37d27fc77fef27c539dc3">MR::Menu::load_font</a></div><div class="ttdeci">virtual MRVIEWER_API void load_font(int font_size=13) override</div></div>
 <div class="ttc" id="aclassMR_1_1Menu_html_a48aa91a4bc1c5c415127435c76020308"><div class="ttname"><a href="classMR_1_1Menu.html#a48aa91a4bc1c5c415127435c76020308">MR::Menu::draw_selection_properties</a></div><div class="ttdeci">virtual MRVIEWER_API void draw_selection_properties(std::vector&lt; std::shared_ptr&lt; Object &gt;&gt; &amp;selected)</div></div>
 <div class="ttc" id="aclassMR_1_1Menu_html_a534e09a8c8be0ca39b3b2c54d90e1d69"><div class="ttname"><a href="classMR_1_1Menu.html#a534e09a8c8be0ca39b3b2c54d90e1d69">MR::Menu::draw_custom_selection_properties</a></div><div class="ttdeci">virtual MRVIEWER_API void draw_custom_selection_properties(const std::vector&lt; std::shared_ptr&lt; Object &gt;&gt; &amp;selected)</div></div>
 <div class="ttc" id="aclassMR_1_1Menu_html_a5b9f8c2589b67ffc5faaee8ac6f264fa"><div class="ttname"><a href="classMR_1_1Menu.html#a5b9f8c2589b67ffc5faaee8ac6f264fa">MR::Menu::draw_mr_menu</a></div><div class="ttdeci">MRVIEWER_API void draw_mr_menu()</div></div>
 <div class="ttc" id="aclassMR_1_1Menu_html_a617406867f65f2ba8a8972f24605eab8"><div class="ttname"><a href="classMR_1_1Menu.html#a617406867f65f2ba8a8972f24605eab8">MR::Menu::draw_selection_properties_content</a></div><div class="ttdeci">virtual MRVIEWER_API void draw_selection_properties_content(std::vector&lt; std::shared_ptr&lt; Object &gt;&gt; &amp;selected)</div></div>
-<div class="ttc" id="aclassMR_1_1Menu_html_a69b9bb9fec44e2234ddb5e9591a3316c"><div class="ttname"><a href="classMR_1_1Menu.html#a69b9bb9fec44e2234ddb5e9591a3316c">MR::Menu::key_down</a></div><div class="ttdeci">virtual MRVIEWER_API bool key_down(int key, int modifiers) override</div></div>
 <div class="ttc" id="aclassMR_1_1Menu_html_a71d1b50eb5c48c58caa87391bb2c87a5"><div class="ttname"><a href="classMR_1_1Menu.html#a71d1b50eb5c48c58caa87391bb2c87a5">MR::Menu::showErrorModal</a></div><div class="ttdeci">MRVIEWER_API void showErrorModal(const std::string &amp;error)</div></div>
-<div class="ttc" id="aclassMR_1_1Menu_html_a794f9394d96fb399d6e9e73a3c149a14"><div class="ttname"><a href="classMR_1_1Menu.html#a794f9394d96fb399d6e9e73a3c149a14">MR::Menu::key_up</a></div><div class="ttdeci">virtual MRVIEWER_API bool key_up(int key, int modifiers) override</div></div>
 <div class="ttc" id="aclassMR_1_1Menu_html_a863f63680c5a2b46c0be4756b13bdb3e"><div class="ttname"><a href="classMR_1_1Menu.html#a863f63680c5a2b46c0be4756b13bdb3e">MR::Menu::draw_scene_list_content</a></div><div class="ttdeci">MRVIEWER_API void draw_scene_list_content(const std::vector&lt; std::shared_ptr&lt; Object &gt;&gt; &amp;selected, const std::vector&lt; std::shared_ptr&lt; Object &gt;&gt; &amp;all)</div></div>
+<div class="ttc" id="aclassMR_1_1Menu_html_a8db5b7b5bd1e623b505a1770713f1a71"><div class="ttname"><a href="classMR_1_1Menu.html#a8db5b7b5bd1e623b505a1770713f1a71">MR::Menu::addMenuFontRanges_</a></div><div class="ttdeci">virtual MRVIEWER_API void addMenuFontRanges_(ImFontGlyphRangesBuilder &amp;builder) const</div></div>
 <div class="ttc" id="aclassMR_1_1Menu_html_a8ef3f5d5d99fbd44b31fdd2c19ae3183"><div class="ttname"><a href="classMR_1_1Menu.html#a8ef3f5d5d99fbd44b31fdd2c19ae3183">MR::Menu::draw_helpers</a></div><div class="ttdeci">MRVIEWER_API void draw_helpers()</div></div>
 <div class="ttc" id="aclassMR_1_1Menu_html_a9294389b0cf7ab9d43fe4bd9eefcac19"><div class="ttname"><a href="classMR_1_1Menu.html#a9294389b0cf7ab9d43fe4bd9eefcac19">MR::Menu::init</a></div><div class="ttdeci">virtual MRVIEWER_API void init(MR::Viewer *_viewer) override</div></div>
+<div class="ttc" id="aclassMR_1_1Menu_html_a9d21a0a8fe660564bec790d657b0b7bb"><div class="ttname"><a href="classMR_1_1Menu.html#a9d21a0a8fe660564bec790d657b0b7bb">MR::Menu::getMenuFontPath</a></div><div class="ttdeci">virtual MRVIEWER_API std::filesystem::path getMenuFontPath() const</div></div>
+<div class="ttc" id="aclassMR_1_1Menu_html_aa02d6a7878abad80c8d93919357f4538"><div class="ttname"><a href="classMR_1_1Menu.html#aa02d6a7878abad80c8d93919357f4538">MR::Menu::onKeyUp_</a></div><div class="ttdeci">virtual MRVIEWER_API bool onKeyUp_(int key, int modifiers) override</div></div>
 <div class="ttc" id="aclassMR_1_1Menu_html_aa6f9850637909d2a43d5589eac9f1306"><div class="ttname"><a href="classMR_1_1Menu.html#aa6f9850637909d2a43d5589eac9f1306">MR::Menu::add_modifier</a></div><div class="ttdeci">MRVIEWER_API void add_modifier(std::shared_ptr&lt; MR::MeshModifier &gt; modifier)</div></div>
+<div class="ttc" id="aclassMR_1_1Menu_html_ab8d421687d922fd0a5783decbef06f47"><div class="ttname"><a href="classMR_1_1Menu.html#ab8d421687d922fd0a5783decbef06f47">MR::Menu::onCharPressed_</a></div><div class="ttdeci">virtual MRVIEWER_API bool onCharPressed_(unsigned key, int modifiers) override</div></div>
 <div class="ttc" id="aclassMR_1_1Menu_html_abfc80bc0e91eda2f14c4a4cff955955a"><div class="ttname"><a href="classMR_1_1Menu.html#abfc80bc0e91eda2f14c4a4cff955955a">MR::Menu::draw_custom_tree_object_properties</a></div><div class="ttdeci">virtual MRVIEWER_API void draw_custom_tree_object_properties(Object &amp;obj)</div></div>
+<div class="ttc" id="aclassMR_1_1Menu_html_acc40b3ac97b3e4a0aac29dbe46ef2813"><div class="ttname"><a href="classMR_1_1Menu.html#acc40b3ac97b3e4a0aac29dbe46ef2813">MR::Menu::onKeyDown_</a></div><div class="ttdeci">virtual MRVIEWER_API bool onKeyDown_(int key, int modifiers) override</div></div>
 <div class="ttc" id="aclassMR_1_1Menu_html_ae915f35f9c74e3164e5d349d7f6f2e3c"><div class="ttname"><a href="classMR_1_1Menu.html#ae915f35f9c74e3164e5d349d7f6f2e3c">MR::Menu::draw_custom_plugins</a></div><div class="ttdeci">MRVIEWER_API void draw_custom_plugins()</div></div>
 <div class="ttc" id="aclassMR_1_1Menu_html_af50b2ec29aa6bb002693d46011c00874"><div class="ttname"><a href="classMR_1_1Menu.html#af50b2ec29aa6bb002693d46011c00874">MR::Menu::allowObjectsRemoval</a></div><div class="ttdeci">MRVIEWER_API void allowObjectsRemoval(bool allow)</div></div>
 <div class="ttc" id="aclassMR_1_1Object_html"><div class="ttname"><a href="classMR_1_1Object.html">MR::Object</a></div><div class="ttdef"><b>Definition:</b> MRObject.h:56</div></div>
-<div class="ttc" id="aclassMR_1_1Viewer_html"><div class="ttname"><a href="classMR_1_1Viewer.html">MR::Viewer</a></div><div class="ttdef"><b>Definition:</b> MRMeshViewer.h:37</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRAABBTree.h:9</div></div>
+<div class="ttc" id="aclassMR_1_1Viewer_html"><div class="ttname"><a href="classMR_1_1Viewer.html">MR::Viewer</a></div><div class="ttdef"><b>Definition:</b> MRMeshViewer.h:51</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MR2DContoursTriangulation.h:6</div></div>
 <div class="ttc" id="anamespaceMR_html_a753506cf1e3a15176a0d966458fdb7b6"><div class="ttname"><a href="namespaceMR.html#a753506cf1e3a15176a0d966458fdb7b6">MR::MenuInstance</a></div><div class="ttdeci">MRVIEWER_API Menu MenuInstance</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

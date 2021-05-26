@@ -106,39 +106,40 @@ $(document).ready(function(){initNavTree('MRGeodesicPathPlugin_8h_source.html','
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">class </span>ObjectMesh;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classMR_1_1GeodesicPathPlugin.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1GeodesicPathPlugin.html">GeodesicPathPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomPlugin.html">CustomPlugin</a></div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classMR_1_1GeodesicPathPlugin.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1GeodesicPathPlugin.html">GeodesicPathPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">CustomListenerPlugin</a>&lt;MouseDownListener&gt;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classMR_1_1GeodesicPathPlugin.html#a29b9ddc055a8b8d4ac71123a5656790c">   13</a></span>&#160;    MRVIEWER_API <a class="code" href="classMR_1_1GeodesicPathPlugin.html#a29b9ddc055a8b8d4ac71123a5656790c">GeodesicPathPlugin</a>();</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classMR_1_1GeodesicPathPlugin.html#a923061df92dfc775854d9994c4c5b3ec">   15</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1GeodesicPathPlugin.html#a923061df92dfc775854d9994c4c5b3ec">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classMR_1_1GeodesicPathPlugin.html#aa5544593551484b92d9611aac7cfade9">   17</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1GeodesicPathPlugin.html#aa5544593551484b92d9611aac7cfade9">mouse_down</a>( <span class="keywordtype">int</span> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">void</span> processPick_( <span class="keyword">const</span> <a class="code" href="structMR_1_1PointOnFace.html">PointOnFace</a>&amp; pick );</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">bool</span> pickFirst_ = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="structMR_1_1PointOnFace.html">PointOnFace</a> p1_, p2_;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    std::shared_ptr&lt;ObjectMesh&gt; obj_;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    std::vector&lt;MeshEdgePoint&gt; path_;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;};</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;MRVIEWER_API <span class="keyword">extern</span> <a class="code" href="classMR_1_1GeodesicPathPlugin.html">GeodesicPathPlugin</a> <a class="code" href="namespaceMR.html#aa1c90dd4bdf8fdf30a33be49de3ba24e">GeodesicPathPluginInstance</a>;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseDown_( <a class="code" href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier );</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">void</span> processPick_( <span class="keyword">const</span> <a class="code" href="structMR_1_1PointOnFace.html">PointOnFace</a>&amp; pick );</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">bool</span> pickFirst_ = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="structMR_1_1PointOnFace.html">PointOnFace</a> p1_, p2_;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    std::shared_ptr&lt;ObjectMesh&gt; obj_;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    std::vector&lt;MeshEdgePoint&gt; path_;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;};</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;MRVIEWER_API <span class="keyword">extern</span> <a class="code" href="classMR_1_1GeodesicPathPlugin.html">GeodesicPathPlugin</a> <a class="code" href="namespaceMR.html#aa1c90dd4bdf8fdf30a33be49de3ba24e">GeodesicPathPluginInstance</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
 <div class="ttc" id="aMRCustomPlugin_8h_html"><div class="ttname"><a href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a></div></div>
 <div class="ttc" id="aMRPointOnFace_8h_html"><div class="ttname"><a href="MRPointOnFace_8h.html">MRPointOnFace.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1CustomPlugin_html"><div class="ttname"><a href="classMR_1_1CustomPlugin.html">MR::CustomPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:25</div></div>
+<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:60</div></div>
 <div class="ttc" id="aclassMR_1_1GeodesicPathPlugin_html"><div class="ttname"><a href="classMR_1_1GeodesicPathPlugin.html">MR::GeodesicPathPlugin</a></div><div class="ttdef"><b>Definition:</b> MRGeodesicPathPlugin.h:11</div></div>
 <div class="ttc" id="aclassMR_1_1GeodesicPathPlugin_html_a29b9ddc055a8b8d4ac71123a5656790c"><div class="ttname"><a href="classMR_1_1GeodesicPathPlugin.html#a29b9ddc055a8b8d4ac71123a5656790c">MR::GeodesicPathPlugin::GeodesicPathPlugin</a></div><div class="ttdeci">MRVIEWER_API GeodesicPathPlugin()</div></div>
 <div class="ttc" id="aclassMR_1_1GeodesicPathPlugin_html_a923061df92dfc775854d9994c4c5b3ec"><div class="ttname"><a href="classMR_1_1GeodesicPathPlugin.html#a923061df92dfc775854d9994c4c5b3ec">MR::GeodesicPathPlugin::isAvailable</a></div><div class="ttdeci">virtual MRVIEWER_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
-<div class="ttc" id="aclassMR_1_1GeodesicPathPlugin_html_aa5544593551484b92d9611aac7cfade9"><div class="ttname"><a href="classMR_1_1GeodesicPathPlugin.html#aa5544593551484b92d9611aac7cfade9">MR::GeodesicPathPlugin::mouse_down</a></div><div class="ttdeci">virtual MRVIEWER_API bool mouse_down(int button, int modifier) override</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRAABBTree.h:9</div></div>
+<div class="ttc" id="aclassMR_1_1Viewer_html_a4e2fd639b52df5ee18d06bb9f4e504f6"><div class="ttname"><a href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition:</b> MRMeshViewer.h:55</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MR2DContoursTriangulation.h:6</div></div>
 <div class="ttc" id="anamespaceMR_html_aa1c90dd4bdf8fdf30a33be49de3ba24e"><div class="ttname"><a href="namespaceMR.html#aa1c90dd4bdf8fdf30a33be49de3ba24e">MR::GeodesicPathPluginInstance</a></div><div class="ttdeci">MRVIEWER_API GeodesicPathPlugin GeodesicPathPluginInstance</div></div>
 <div class="ttc" id="astructMR_1_1PointOnFace_html"><div class="ttname"><a href="structMR_1_1PointOnFace.html">MR::PointOnFace</a></div><div class="ttdef"><b>Definition:</b> MRPointOnFace.h:11</div></div>
 </div><!-- fragment --></div><!-- contents -->

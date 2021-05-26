@@ -95,6 +95,7 @@ $(document).ready(function(){initNavTree('MRSerializer_8h.html',''); initResizab
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -117,18 +118,23 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceMR"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a198724e9c619bb725a13ed735c7c047d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a198724e9c619bb725a13ed735c7c047d">MR::SceneFolderCallback</a> = std::function&lt; void(const std::filesystem::path &amp;tempFolderName)&gt;</td></tr>
+<tr class="separator:a198724e9c619bb725a13ed735c7c047d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3719c526bf085acbe5aabc3f3079b0ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3719c526bf085acbe5aabc3f3079b0ce">MR::serializeObjectTree</a> (const Object &amp;object, const std::filesystem::path &amp;path, ProgressCallback progress={})</td></tr>
-<tr class="separator:a3719c526bf085acbe5aabc3f3079b0ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45e17a1a70cea048e6e06e42d4788920"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; std::shared_ptr&lt; Object &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a45e17a1a70cea048e6e06e42d4788920">MR::deserializeObjectTree</a> (const std::filesystem::path &amp;path)</td></tr>
-<tr class="separator:a45e17a1a70cea048e6e06e42d4788920"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa844f4c2822362ef9839cf2c13e77a45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa844f4c2822362ef9839cf2c13e77a45">MR::serializeObjectTree</a> (const Object &amp;object, const std::filesystem::path &amp;path, ProgressCallback progress={}, SceneFolderCallback preCompress={})</td></tr>
+<tr class="separator:aa844f4c2822362ef9839cf2c13e77a45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8b043af7b6c494400e5e1dd16048ee1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; std::shared_ptr&lt; Object &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac8b043af7b6c494400e5e1dd16048ee1">MR::deserializeObjectTree</a> (const std::filesystem::path &amp;path, SceneFolderCallback postDecompress={})</td></tr>
+<tr class="separator:ac8b043af7b6c494400e5e1dd16048ee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a154178c02f71bf3d4d8d868c9d0bcfee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; std::shared_ptr&lt; Object &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a154178c02f71bf3d4d8d868c9d0bcfee">MR::deserializeObjectTreeFromFolder</a> (const std::filesystem::path &amp;folder)</td></tr>
 <tr class="separator:a154178c02f71bf3d4d8d868c9d0bcfee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab04aa6101f7b3ddcdcfb63a9c48e055f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab04aa6101f7b3ddcdcfb63a9c48e055f">MR::decompressZip</a> (const std::filesystem::path &amp;zipFile, const std::filesystem::path &amp;targetFolder)</td></tr>
 <tr class="separator:ab04aa6101f7b3ddcdcfb63a9c48e055f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77b67c5716f7d5ab51837dca30693e17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a77b67c5716f7d5ab51837dca30693e17">MR::compressZip</a> (const std::filesystem::path &amp;zipFile, const std::filesystem::path &amp;sourceFolder)</td></tr>
-<tr class="separator:a77b67c5716f7d5ab51837dca30693e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a63805625b0de21664eb97c21182b5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8a63805625b0de21664eb97c21182b5e">MR::compressZip</a> (const std::filesystem::path &amp;zipFile, const std::filesystem::path &amp;sourceFolder, const std::vector&lt; std::filesystem::path &gt; &amp;excludeFiles={})</td></tr>
+<tr class="separator:a8a63805625b0de21664eb97c21182b5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72efd4ea5f0114195c1cca9e067602e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a72efd4ea5f0114195c1cca9e067602e1">MR::serializeMesh</a> (const Mesh &amp;mesh, const std::filesystem::path &amp;path, const FaceBitSet *selection=nullptr)</td></tr>
 <tr class="separator:a72efd4ea5f0114195c1cca9e067602e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73da1f89ff79644868f29b66a89aa3ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a73da1f89ff79644868f29b66a89aa3ef">MR::serializeToJson</a> (const Vector3i &amp;vec, Json::Value &amp;root)</td></tr>

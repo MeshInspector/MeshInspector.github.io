@@ -1,6 +1,7 @@
 var MRSerializer_8h =
 [
-    [ "compressZip", "MRSerializer_8h.html#a77b67c5716f7d5ab51837dca30693e17", null ],
+    [ "SceneFolderCallback", "MRSerializer_8h.html#a198724e9c619bb725a13ed735c7c047d", null ],
+    [ "compressZip", "MRSerializer_8h.html#a8a63805625b0de21664eb97c21182b5e", null ],
     [ "decompressZip", "MRSerializer_8h.html#ab04aa6101f7b3ddcdcfb63a9c48e055f", null ],
     [ "deserializeFromJson", "MRSerializer_8h.html#aa6c9fafbe5675e06061b897d2e92f138", null ],
     [ "deserializeFromJson", "MRSerializer_8h.html#a4c0c62354556511936a0e90a2d4c586e", null ],
@@ -13,10 +14,10 @@ var MRSerializer_8h =
     [ "deserializeFromJson", "MRSerializer_8h.html#aa945fd69c2b9a828d6f34e7bc34b9df3", null ],
     [ "deserializeFromJson", "MRSerializer_8h.html#a07c35f4efe0f243d11910aee401766ef", null ],
     [ "deserializeFromJson", "MRSerializer_8h.html#a1155079bf2d53ebd19e08f2223fee2a8", null ],
-    [ "deserializeObjectTree", "MRSerializer_8h.html#a45e17a1a70cea048e6e06e42d4788920", null ],
+    [ "deserializeObjectTree", "MRSerializer_8h.html#ac8b043af7b6c494400e5e1dd16048ee1", null ],
     [ "deserializeObjectTreeFromFolder", "MRSerializer_8h.html#a154178c02f71bf3d4d8d868c9d0bcfee", null ],
     [ "serializeMesh", "MRSerializer_8h.html#a72efd4ea5f0114195c1cca9e067602e1", null ],
-    [ "serializeObjectTree", "MRSerializer_8h.html#a3719c526bf085acbe5aabc3f3079b0ce", null ],
+    [ "serializeObjectTree", "MRSerializer_8h.html#aa844f4c2822362ef9839cf2c13e77a45", null ],
     [ "serializeToJson", "MRSerializer_8h.html#a9e070733b4ec64a16f1f77e579353148", null ],
     [ "serializeToJson", "MRSerializer_8h.html#a0247abbacd8ebd7c2abec7d6095cd659", null ],
     [ "serializeToJson", "MRSerializer_8h.html#a53c68bc03d7be917f4add92f1809d832", null ],

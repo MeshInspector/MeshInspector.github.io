@@ -111,8 +111,12 @@ $(document).ready(function(){initNavTree('MRMeshFillHole_8h.html',''); initResiz
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters structure for fillHole and buildCylinderBetweenTwoHoles<br  />
- Structure has some options to control fillHole or buildCylinderBetweenTwoHoles.  <a href="structMR_1_1FillHoleParams.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters structure for fillHole<br  />
+ Structure has some options to control fillHole.  <a href="structMR_1_1FillHoleParams.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1StitchHolesParams.html">MR::StitchHolesParams</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters structure for buildCylinderBetweenTwoHoles<br  />
+ Structure has some options to control buildCylinderBetweenTwoHoles.  <a href="structMR_1_1StitchHolesParams.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -122,13 +126,13 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gab53fb80f77be65854640cb297a8b60ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gab53fb80f77be65854640cb297a8b60ee">MR::buildCylinderBetweenTwoHoles</a> (Mesh &amp;mesh, EdgeId a, EdgeId b, const FillHoleParams &amp;params={})</td></tr>
-<tr class="memdesc:gab53fb80f77be65854640cb297a8b60ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stitches two holes in <a class="el" href="structMR_1_1Mesh.html">Mesh</a><br  />
-.  <a href="group__FillHoleGroup.html#gab53fb80f77be65854640cb297a8b60ee">More...</a><br /></td></tr>
-<tr class="separator:gab53fb80f77be65854640cb297a8b60ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab872204886a53f0ce011789c96597167"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab872204886a53f0ce011789c96597167">MR::buildCylinderBetweenTwoHoles</a> (Mesh &amp;mesh, const FillHoleParams &amp;params={})</td></tr>
-<tr class="memdesc:ab872204886a53f0ce011789c96597167"><td class="mdescLeft">&#160;</td><td class="mdescRight">this version finds holes in the mesh by itself and returns false if they are not found  <a href="namespaceMR.html#ab872204886a53f0ce011789c96597167">More...</a><br /></td></tr>
-<tr class="separator:ab872204886a53f0ce011789c96597167"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa096c69aa6c5cf97a783e92aa3a70157"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157">MR::buildCylinderBetweenTwoHoles</a> (Mesh &amp;mesh, EdgeId a, EdgeId b, const StitchHolesParams &amp;params={})</td></tr>
+<tr class="memdesc:gaa096c69aa6c5cf97a783e92aa3a70157"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stitches two holes in <a class="el" href="structMR_1_1Mesh.html">Mesh</a><br  />
+.  <a href="group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157">More...</a><br /></td></tr>
+<tr class="separator:gaa096c69aa6c5cf97a783e92aa3a70157"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af61677f65331b42d3022a70d4b550a13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af61677f65331b42d3022a70d4b550a13">MR::buildCylinderBetweenTwoHoles</a> (Mesh &amp;mesh, const StitchHolesParams &amp;params={})</td></tr>
+<tr class="memdesc:af61677f65331b42d3022a70d4b550a13"><td class="mdescLeft">&#160;</td><td class="mdescRight">this version finds holes in the mesh by itself and returns false if they are not found  <a href="namespaceMR.html#af61677f65331b42d3022a70d4b550a13">More...</a><br /></td></tr>
+<tr class="separator:af61677f65331b42d3022a70d4b550a13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac972786878ec37756f5a95814b657a05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05">MR::fillHole</a> (Mesh &amp;mesh, EdgeId a, const FillHoleParams &amp;params={})</td></tr>
 <tr class="memdesc:gac972786878ec37756f5a95814b657a05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills hole in mesh<br  />
 .  <a href="group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05">More...</a><br /></td></tr>

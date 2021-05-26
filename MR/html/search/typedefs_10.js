@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['setbititerator_4468',['SetBitIterator',['../namespaceMR.html#a72121ddf3f962182a0cd896a72cbce55',1,'MR']]],
-  ['surfacepath_4469',['SurfacePath',['../namespaceMR.html#a6f060a604c3462c7d0b1df7dac703237',1,'MR']]],
-  ['symmatrix3d_4470',['SymMatrix3d',['../namespaceMR.html#ac29d48e7aec683ecb8b312ae5fe44c6f',1,'MR']]],
-  ['symmatrix3f_4471',['SymMatrix3f',['../namespaceMR.html#a7eb9d5ed9d7a2dfe0b2b02305f150223',1,'MR']]]
+  ['reference_4779',['reference',['../classMR_1_1Vector.html#a3e5aedaea3719bcb3fd6e41e9c9225ff',1,'MR::Vector']]],
+  ['regulargridlatticepositioner_4780',['RegularGridLatticePositioner',['../namespaceMR.html#a827544382e6bb37953effb52c294d753',1,'MR']]],
+  ['regulargridlatticevalidator_4781',['RegularGridLatticeValidator',['../namespaceMR.html#ac124aa157f4d2fcd33a38d4721415ab7',1,'MR']]],
+  ['rendersignal_4782',['RenderSignal',['../classMR_1_1Viewer.html#a0feb0d244ebf3015b8ed14e68ebb5f12',1,'MR::Viewer']]],
+  ['result_5ftype_4783',['result_type',['../structMR_1_1Viewer_1_1SignalStopHandler.html#a2081bf492c269c66a3028f263ca499ab',1,'MR::Viewer::SignalStopHandler']]]
 ];

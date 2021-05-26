@@ -12,5 +12,9 @@ var MRQuaternion_8h =
     [ "operator+", "MRQuaternion_8h.html#a46572bb3e96a83ad1f85cdfffe7a7411", null ],
     [ "operator-", "MRQuaternion_8h.html#a84f255278f2a0c0f4a7991eece1d946d", null ],
     [ "operator/", "MRQuaternion_8h.html#a816ae7b217f870902de0f8eed41b365c", null ],
-    [ "operator==", "MRQuaternion_8h.html#a99146cd3682675c164ce18b3aaa03389", null ]
+    [ "operator==", "MRQuaternion_8h.html#a99146cd3682675c164ce18b3aaa03389", null ],
+    [ "orthonormalized", "MRQuaternion_8h.html#a4ac71f7a3d214dd40dc0353f997d1579", null ],
+    [ "orthonormalized", "MRQuaternion_8h.html#a721f30c68a88ecb63b30b1d4088b5fd2", null ],
+    [ "slerp", "MRQuaternion_8h.html#a3589522ad4b5854b7b1dbc0b804c1142", null ],
+    [ "slerp", "MRQuaternion_8h.html#aff16a71ae923e32ce8e45a4d0fb20a45", null ]
 ];

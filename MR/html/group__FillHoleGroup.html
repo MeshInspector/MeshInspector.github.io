@@ -101,12 +101,19 @@ $(document).ready(function(){initNavTree('group__FillHoleGroup.html',''); initRe
 <div class="title">Fill/Stitch Holes overview</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>This chapter represents documentation about hole triangulations or stitching two holes.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters structure for fillHole and buildCylinderBetweenTwoHoles<br  />
- Structure has some options to control fillHole or buildCylinderBetweenTwoHoles.  <a href="structMR_1_1FillHoleParams.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters structure for fillHole<br  />
+ Structure has some options to control fillHole.  <a href="structMR_1_1FillHoleParams.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1StitchHolesParams.html">MR::StitchHolesParams</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters structure for buildCylinderBetweenTwoHoles<br  />
+ Structure has some options to control buildCylinderBetweenTwoHoles.  <a href="structMR_1_1StitchHolesParams.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleMetric.html">MR::FillHoleMetric</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides interface for controlling fillHole and buildCylinderBetweenTwoHoles triangulation<br  />
@@ -118,6 +125,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ComplexStitchMetric.html">MR::ComplexStitchMetric</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1EdgeLengthFillMetric.html">MR::EdgeLengthFillMetric</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1EdgeLengthStitchMetric.html">MR::EdgeLengthStitchMetric</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CircumscribedStitchMetric.html">MR::CircumscribedStitchMetric</a></td></tr>
@@ -125,10 +134,10 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gab53fb80f77be65854640cb297a8b60ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gab53fb80f77be65854640cb297a8b60ee">MR::buildCylinderBetweenTwoHoles</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> a, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> b, const <a class="el" href="structMR_1_1FillHoleParams.html">FillHoleParams</a> &amp;params={})</td></tr>
-<tr class="memdesc:gab53fb80f77be65854640cb297a8b60ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stitches two holes in <a class="el" href="structMR_1_1Mesh.html">Mesh</a><br  />
-.  <a href="group__FillHoleGroup.html#gab53fb80f77be65854640cb297a8b60ee">More...</a><br /></td></tr>
-<tr class="separator:gab53fb80f77be65854640cb297a8b60ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa096c69aa6c5cf97a783e92aa3a70157"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157">MR::buildCylinderBetweenTwoHoles</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> a, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> b, const <a class="el" href="structMR_1_1StitchHolesParams.html">StitchHolesParams</a> &amp;params={})</td></tr>
+<tr class="memdesc:gaa096c69aa6c5cf97a783e92aa3a70157"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stitches two holes in <a class="el" href="structMR_1_1Mesh.html">Mesh</a><br  />
+.  <a href="group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157">More...</a><br /></td></tr>
+<tr class="separator:gaa096c69aa6c5cf97a783e92aa3a70157"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac972786878ec37756f5a95814b657a05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05">MR::fillHole</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> a, const <a class="el" href="structMR_1_1FillHoleParams.html">FillHoleParams</a> &amp;params={})</td></tr>
 <tr class="memdesc:gac972786878ec37756f5a95814b657a05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills hole in mesh<br  />
 .  <a href="group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05">More...</a><br /></td></tr>
@@ -143,19 +152,24 @@ Variables</h2></td></tr>
 <tr class="memitem:gaa82c166cb6925a8fda6da015701442ce"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structMR_1_1FillHoleMetric.html">FillHoleMetric</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gaa82c166cb6925a8fda6da015701442ce">MR::FillHoleParams::metric</a> {}</td></tr>
 <tr class="memdesc:gaa82c166cb6925a8fda6da015701442ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specifies triangulation metric<br  />
  default for fillHole: <a class="el" href="structMR_1_1CircumscribedFillMetric.html">CircumscribedFillMetric</a><br  />
-default for buildCylinderBetweenTwoHoles: <a class="el" href="structMR_1_1ComplexStitchMetric.html">ComplexStitchMetric</a>.  <a href="group__FillHoleGroup.html#gaa82c166cb6925a8fda6da015701442ce">More...</a><br /></td></tr>
+.  <a href="group__FillHoleGroup.html#gaa82c166cb6925a8fda6da015701442ce">More...</a><br /></td></tr>
 <tr class="separator:gaa82c166cb6925a8fda6da015701442ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad81bcff35af9102ec52402c510cb7b83"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structMR_1_1FillHoleMetric.html">FillHoleMetric</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gad81bcff35af9102ec52402c510cb7b83">MR::StitchHolesParams::metric</a> {}</td></tr>
+<tr class="memdesc:gad81bcff35af9102ec52402c510cb7b83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specifies triangulation metric<br  />
+ default for buildCylinderBetweenTwoHoles: <a class="el" href="structMR_1_1ComplexStitchMetric.html">ComplexStitchMetric</a>.  <a href="group__FillHoleGroup.html#gad81bcff35af9102ec52402c510cb7b83">More...</a><br /></td></tr>
+<tr class="separator:gad81bcff35af9102ec52402c510cb7b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>This chapter represents documentation about hole triangulations or stitching two holes. </p>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="gab53fb80f77be65854640cb297a8b60ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab53fb80f77be65854640cb297a8b60ee">&#9670;&nbsp;</a></span>buildCylinderBetweenTwoHoles()</h2>
+<a id="gaa096c69aa6c5cf97a783e92aa3a70157"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa096c69aa6c5cf97a783e92aa3a70157">&#9670;&nbsp;</a></span>buildCylinderBetweenTwoHoles()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::buildCylinderBetweenTwoHoles </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::buildCylinderBetweenTwoHoles </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
           <td class="paramname"><em>mesh</em>, </td>
@@ -175,7 +189,7 @@ default for buildCylinderBetweenTwoHoles: <a class="el" href="structMR_1_1Comple
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1FillHoleParams.html">FillHoleParams</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1StitchHolesParams.html">StitchHolesParams</a> &amp;&#160;</td>
           <td class="paramname"><em>params</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
@@ -201,7 +215,7 @@ default metric: <a class="el" href="structMR_1_1ComplexStitchMetric.html">Comple
 </dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05">fillHole</a> </dd>
 <dd>
-<a class="el" href="structMR_1_1FillHoleParams.html">FillHoleParams</a> </dd></dl>
+<a class="el" href="structMR_1_1StitchHolesParams.html">StitchHolesParams</a> </dd></dl>
 
 </div>
 </div>
@@ -250,7 +264,7 @@ default metric: <a class="el" href="structMR_1_1CircumscribedFillMetric.html">Ci
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__FillHoleGroup.html#gab53fb80f77be65854640cb297a8b60ee">buildCylinderBetweenTwoHoles</a> </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157">buildCylinderBetweenTwoHoles</a> </dd>
 <dd>
 <a class="el" href="group__FillHoleGroup.html#ga0241a36cc2b1016fd0cf66e9ae71f722">fillHoleTrivially</a> </dd>
 <dd>
@@ -309,7 +323,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="gaa82c166cb6925a8fda6da015701442ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa82c166cb6925a8fda6da015701442ce">&#9670;&nbsp;</a></span>metric</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa82c166cb6925a8fda6da015701442ce">&#9670;&nbsp;</a></span>metric <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -322,7 +336,25 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 
 <p>Specifies triangulation metric<br  />
  default for fillHole: <a class="el" href="structMR_1_1CircumscribedFillMetric.html">CircumscribedFillMetric</a><br  />
-default for buildCylinderBetweenTwoHoles: <a class="el" href="structMR_1_1ComplexStitchMetric.html">ComplexStitchMetric</a>. </p>
+. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structMR_1_1FillHoleMetric.html">FillHoleMetric</a> </dd></dl>
+
+</div>
+</div>
+<a id="gad81bcff35af9102ec52402c510cb7b83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad81bcff35af9102ec52402c510cb7b83">&#9670;&nbsp;</a></span>metric <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="structMR_1_1FillHoleMetric.html">FillHoleMetric</a>&gt; MR::StitchHolesParams::metric {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Specifies triangulation metric<br  />
+ default for buildCylinderBetweenTwoHoles: <a class="el" href="structMR_1_1ComplexStitchMetric.html">ComplexStitchMetric</a>. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="structMR_1_1FillHoleMetric.html">FillHoleMetric</a> </dd></dl>
 
 </div>

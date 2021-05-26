@@ -2,7 +2,6 @@ var classMR_1_1ViewerPlugin =
 [
     [ "ViewerPlugin", "classMR_1_1ViewerPlugin.html#a636d02d4388ea712a7e5e60ce572fabc", null ],
     [ "~ViewerPlugin", "classMR_1_1ViewerPlugin.html#ad7fd0e80e15b5c45837fc005c71c9eab", null ],
-    [ "deserialize", "classMR_1_1ViewerPlugin.html#af13d1fe30fc1fc38b54a4bfabfa6492c", null ],
     [ "drag_drop", "classMR_1_1ViewerPlugin.html#a6be5c9d468e4328def37c8150f4d8629", null ],
     [ "draw", "classMR_1_1ViewerPlugin.html#adbf0bd33204c7ab040a0e07d07703082", null ],
     [ "init", "classMR_1_1ViewerPlugin.html#a67916b512e8d54ee7cdb8ef1cb4f6794", null ],
@@ -17,11 +16,9 @@ var classMR_1_1ViewerPlugin =
     [ "mouse_scroll", "classMR_1_1ViewerPlugin.html#ae937b5623315ea66d99ebf5244141ef7", null ],
     [ "mouse_up", "classMR_1_1ViewerPlugin.html#a7a0d5dc45092cc5cc41e30531a625c7a", null ],
     [ "post_draw", "classMR_1_1ViewerPlugin.html#aaf1b21174865eba595047469d09a2e10", null ],
-    [ "post_load", "classMR_1_1ViewerPlugin.html#a179bea4626dfb0340aad897cc6f91874", null ],
     [ "post_resize", "classMR_1_1ViewerPlugin.html#aff4725f8fc70dae6d91e4d32053c504f", null ],
     [ "pre_draw", "classMR_1_1ViewerPlugin.html#a1a5ba69a24cdb182d46597c3c87e399e", null ],
     [ "save", "classMR_1_1ViewerPlugin.html#a7fdc13ef151a0ac7f3924affd39dc2ef", null ],
-    [ "serialize", "classMR_1_1ViewerPlugin.html#a53b7e530b377a032767719503fc68878", null ],
     [ "shutdown", "classMR_1_1ViewerPlugin.html#a764e7d792fea63f8186ed87f2560578f", null ],
     [ "plugin_name", "classMR_1_1ViewerPlugin.html#aea3243e52b3ddd4094ee9f25accf6912", null ],
     [ "viewer", "classMR_1_1ViewerPlugin.html#ad12538d77ebcf356c03469cbce40abae", null ]

@@ -97,11 +97,17 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 
 <h3><a id="index_s"></a>- s -</h3><ul>
 <li>save()
-: <a class="el" href="classMR_1_1Save.html#a9b78eba3e7bfcf7f39e489418238bc0b">MR::Save</a>
-, <a class="el" href="classMR_1_1ViewerPlugin.html#a7fdc13ef151a0ac7f3924affd39dc2ef">MR::ViewerPlugin</a>
+: <a class="el" href="classMR_1_1ViewerPlugin.html#a7fdc13ef151a0ac7f3924affd39dc2ef">MR::ViewerPlugin</a>
+</li>
+<li>save_()
+: <a class="el" href="classMR_1_1Save.html#abf8a4e97b4d1c56350432db24ffbab0c">MR::Save</a>
+, <a class="el" href="structMR_1_1SaveListener.html#ad7e50f272e2217e9ebc45bb03edc64ae">MR::SaveListener</a>
 </li>
 <li>save_mesh_to_file()
 : <a class="el" href="classMR_1_1Viewer.html#a625b6e256c714f0ccb3280ffdab86ee3">MR::Viewer</a>
+</li>
+<li>SaveLoadSignal
+: <a class="el" href="classMR_1_1Viewer.html#a1abb03460a529f21732d7bc008647e8e">MR::Viewer</a>
 </li>
 <li>saveRotationPosition
 : <a class="el" href="structMR_1_1Viewport_1_1Parameters.html#af8fc5c0a33917316e310345cf608865e">MR::Viewport::Parameters</a>
@@ -110,6 +116,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>saveSettings()
 : <a class="el" href="classMR_1_1IViewerSettingsManager.html#a9facc4eddb3e4a35e8c77522f9755ba5">MR::IViewerSettingsManager</a>
 , <a class="el" href="classMR_1_1ViewerSettingsManager.html#ab8b8b70fcb1eb9f41278be1a7de35b90">MR::ViewerSettingsManager</a>
+</li>
+<li>saveSignal
+: <a class="el" href="classMR_1_1Viewer.html#ae3de65a7411b9c9f4c4a56b5f8cd6b0a">MR::Viewer</a>
 </li>
 <li>scale()
 : <a class="el" href="structMR_1_1Matrix3.html#a801fb0b8f2d5fd1d63a1c26d16266181">MR::Matrix3&lt; T &gt;</a>
@@ -140,7 +149,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="structMR_1_1VolumeSegmentationParameters.html#ab07494ac7f1627ecc2dfce39e9502118">MR::VolumeSegmentationParameters</a>
 </li>
 <li>segmentVolume()
-: <a class="el" href="classMR_1_1VolumeSegmenter.html#a56e811d8dc935f9da787c1582d5613df">MR::VolumeSegmenter</a>
+: <a class="el" href="classMR_1_1VolumeSegmenter.html#a1c82088939171da209090d08e531d5b3">MR::VolumeSegmenter</a>
 </li>
 <li>select()
 : <a class="el" href="classMR_1_1Object.html#a989bd3b98218be00c001e3ee8cb77334">MR::Object</a>
@@ -172,17 +181,23 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>selectedColor_
 : <a class="el" href="classMR_1_1VisualObject.html#a0b981ae239534dd294a2e2a71b36b6df">MR::VisualObject</a>
 </li>
+<li>SelectedEdges
+: <a class="el" href="structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aaca88fb4fba2909a781a4c943d7e5f1b7fd">MR::MeshVisualizePropertyType</a>
+</li>
+<li>selectedEdgesColor
+: <a class="el" href="structMR_1_1MeshColors.html#ab867137546cdcaf4b13a071ee76abe78">MR::MeshColors</a>
+</li>
 <li>selectedFacesColor
 : <a class="el" href="structMR_1_1MeshColors.html#ae4edcd77494fff36dba0a183f2f2385a">MR::MeshColors</a>
+</li>
+<li>selectEdges()
+: <a class="el" href="classMR_1_1ObjectMesh.html#a84008de218eadc665c3a608a0822d2cf">MR::ObjectMesh</a>
 </li>
 <li>selectedMeshColor
 : <a class="el" href="structMR_1_1MeshColors.html#a87115d4325e87d3bc57a58d9cad5fefe">MR::MeshColors</a>
 </li>
 <li>selectFaces()
 : <a class="el" href="classMR_1_1ObjectMesh.html#a5a34620224baa9a6aa59861fd254eb53">MR::ObjectMesh</a>
-</li>
-<li>selectionTexture
-: <a class="el" href="classMR_1_1ObjectGL.html#a2562c638bf76b9048c3009a57053ed6f">MR::ObjectGL</a>
 </li>
 <li>SelectionToMesh()
 : <a class="el" href="classMR_1_1SelectionToMesh.html#ab31da658a3a77afe4d919d986d5a6580">MR::SelectionToMesh</a>
@@ -195,9 +210,6 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>SelfIntersectionHealerPlugin()
 : <a class="el" href="classMR_1_1SelfIntersectionHealerPlugin.html#aae8096f9367a0ac994251744e1e973c4">MR::SelfIntersectionHealerPlugin</a>
-</li>
-<li>serialize()
-: <a class="el" href="classMR_1_1ViewerPlugin.html#a53b7e530b377a032767719503fc68878">MR::ViewerPlugin</a>
 </li>
 <li>serializeFields_()
 : <a class="el" href="classMR_1_1Object.html#a4b72f2310983a6e40753b5d919d72d35">MR::Object</a>
@@ -217,7 +229,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="classMR_1_1Object.html#a1252a788f2ec0a7502cf2c045181ee38">MR::Object</a>
 </li>
 <li>set()
-: <a class="el" href="classMR_1_1DistanceMap.html#a80e1921da1fe825954c690af52ed7cda">MR::DistanceMap</a>
+: <a class="el" href="classMR_1_1DistanceMap.html#a88801a2d0948f2208e93bd9b4e96ff19">MR::DistanceMap</a>
 , <a class="el" href="classMR_1_1TaggedBitSet.html#a1de09e674bc59eb979f415507545d7b4">MR::TaggedBitSet&lt; T &gt;</a>
 </li>
 <li>set_axes_pose()
@@ -366,7 +378,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>setLinesWithColors()
 : <a class="el" href="classMR_1_1Viewport.html#a96929c7df5f5bd4128f8f9b1cf578f70">MR::Viewport</a>
-, <a class="el" href="classMR_1_1ViewportGL.html#a04750a566be4511493892d2c8da631c6">MR::ViewportGL</a>
+, <a class="el" href="classMR_1_1ViewportGL.html#a57d5fac5a6b63ef1402e749deb09bb98">MR::ViewportGL</a>
 </li>
 <li>setLineWidth()
 : <a class="el" href="classMR_1_1ObjectLines.html#ac7b8643a52fd9e558d9199b4df5efdfb">MR::ObjectLines</a>
@@ -423,7 +435,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>setPointsWithColors()
 : <a class="el" href="classMR_1_1Viewport.html#a949ecd74637533583a00c0831530c1d1">MR::Viewport</a>
-, <a class="el" href="classMR_1_1ViewportGL.html#a7b7c73f2d42c101ba64306da5ba24c7b">MR::ViewportGL</a>
+, <a class="el" href="classMR_1_1ViewportGL.html#a9c9593b49322257efc76b75649dbc12e">MR::ViewportGL</a>
 </li>
 <li>setPolyline()
 : <a class="el" href="classMR_1_1ObjectLines.html#ab8f63535af69ce839be5c9fde8994af8">MR::ObjectLines</a>
@@ -449,6 +461,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>setSelectable()
 : <a class="el" href="classMR_1_1Viewport.html#a3b38a130389402efd292caab868bfd57">MR::Viewport</a>
+</li>
+<li>setSelectedEdgesColor()
+: <a class="el" href="classMR_1_1ObjectMesh.html#aba0201e65fa9f1231182d6548a14eb45">MR::ObjectMesh</a>
 </li>
 <li>setSelectedFacesColor()
 : <a class="el" href="classMR_1_1ObjectMesh.html#a349af42368efda35a21d6e4ae0c41c6f">MR::ObjectMesh</a>
@@ -486,6 +501,12 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>setupConfiguration()
 : <a class="el" href="classMR_1_1ViewerSetup.html#a918f69117bd46f408fda277cad5fde2d">MR::ViewerSetup</a>
 </li>
+<li>setupRenderObject_()
+: <a class="el" href="classMR_1_1ObjectLines.html#acc1e14fcca777661a0be4ff3f5faa1a6">MR::ObjectLines</a>
+, <a class="el" href="classMR_1_1ObjectMesh.html#a3ba66903290eb301ccf71be7d981ab59">MR::ObjectMesh</a>
+, <a class="el" href="classMR_1_1ObjectPoints.html#aec8af7cc53cfcee296e0d54b365fffbd">MR::ObjectPoints</a>
+, <a class="el" href="classMR_1_1VisualObject.html#a8c9ac961e923f7c61ccf3424413be0fb">MR::VisualObject</a>
+</li>
 <li>setupSettingsManager()
 : <a class="el" href="classMR_1_1ViewerSetup.html#a9ba29b362190cbfc386b59d8051f8b06">MR::ViewerSetup</a>
 </li>
@@ -521,6 +542,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>setXf()
 : <a class="el" href="classMR_1_1Object.html#a92a94213a5b1a72c2b11524dd7c3c4bd">MR::Object</a>
+, <a class="el" href="classMR_1_1VisualObject.html#a0a1be71c605123392be84395fcae4479">MR::VisualObject</a>
 </li>
 <li>ShaderType
 : <a class="el" href="classMR_1_1ShadersHolder.html#af79d4956571eca0d639217ad9ec89767">MR::ShadersHolder</a>
@@ -548,16 +570,14 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>shininess_
 : <a class="el" href="classMR_1_1VisualObject.html#a88b3d55070a6a91ed592e80b0f925419">MR::VisualObject</a>
 </li>
-<li>showAxes
-: <a class="el" href="structMR_1_1Viewport_1_1Parameters.html#a1d8913b502599a1e4e25b0f11ed4adcb">MR::Viewport::Parameters</a>
-, <a class="el" href="classMR_1_1Viewport.html#a6d103e17a81a5229a01ae2a67eb05128">MR::Viewport</a>
+<li>showAxes()
+: <a class="el" href="classMR_1_1Viewport.html#a6d103e17a81a5229a01ae2a67eb05128">MR::Viewport</a>
 </li>
 <li>showBordersHighlight_
 : <a class="el" href="classMR_1_1ObjectMesh.html#a4053bf13e85f0c7ab8b1d7b32f4c914d">MR::ObjectMesh</a>
 </li>
-<li>showClippingPlane
-: <a class="el" href="structMR_1_1Viewport_1_1Parameters.html#afb5adcfa09f28dc89dda4b2b2b9ad5ac">MR::Viewport::Parameters</a>
-, <a class="el" href="classMR_1_1Viewport.html#a68b36d6e25e5af04a632f74f526c4cda">MR::Viewport</a>
+<li>showClippingPlane()
+: <a class="el" href="classMR_1_1Viewport.html#a68b36d6e25e5af04a632f74f526c4cda">MR::Viewport</a>
 </li>
 <li>ShowDenseBBoxPlugin()
 : <a class="el" href="classMR_1_1ShowDenseBBoxPlugin.html#abaf5fd345b36bf7a93ad888609b4b680">MR::ShowDenseBBoxPlugin</a>
@@ -571,9 +591,11 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>showFaces_
 : <a class="el" href="classMR_1_1ObjectMesh.html#a8042c86d2f9446c2afe723946d404347">MR::ObjectMesh</a>
 </li>
-<li>showGlobalBasis
-: <a class="el" href="structMR_1_1Viewport_1_1Parameters.html#aede0c5bbc9e34bb89e82066c680c75d2">MR::Viewport::Parameters</a>
-, <a class="el" href="classMR_1_1Viewport.html#a2da00f8d67bdd913870c371eab44dc24">MR::Viewport</a>
+<li>showGlobalBasis()
+: <a class="el" href="classMR_1_1Viewport.html#a2da00f8d67bdd913870c371eab44dc24">MR::Viewport</a>
+</li>
+<li>ShowHomologyBasisPlugin()
+: <a class="el" href="classMR_1_1ShowHomologyBasisPlugin.html#adeabba517d272336cb0b8bcd79ac65b8">MR::ShowHomologyBasisPlugin</a>
 </li>
 <li>showLabels()
 : <a class="el" href="classMR_1_1VisualObject.html#a8c23bff1d3de131d6cb6acbd7565afeb">MR::VisualObject</a>
@@ -590,9 +612,11 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>ShowNormalsPlugin()
 : <a class="el" href="classMR_1_1ShowNormalsPlugin.html#af8bd87f192e850b7af93b4ea0047b7d1">MR::ShowNormalsPlugin</a>
 </li>
-<li>showRotationCenter
-: <a class="el" href="structMR_1_1Viewport_1_1Parameters.html#a42e240807f110823e51b7ec8c6c5dfef">MR::Viewport::Parameters</a>
-, <a class="el" href="classMR_1_1Viewport.html#a069049d89298e103d7c82e1454532734">MR::Viewport</a>
+<li>showRotationCenter()
+: <a class="el" href="classMR_1_1Viewport.html#a069049d89298e103d7c82e1454532734">MR::Viewport</a>
+</li>
+<li>showSelectedEdges_
+: <a class="el" href="classMR_1_1ObjectMesh.html#ab03ba13452e3233dee6e4e2d8d640143">MR::ObjectMesh</a>
 </li>
 <li>showSelectedFaces()
 : <a class="el" href="classMR_1_1ObjectMesh.html#ae2df671b955d79d8f9c77de4c4064bf7">MR::ObjectMesh</a>
@@ -607,7 +631,10 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="classMR_1_1Viewport.html#a0fc1e84a964766414f289905f15aa910">MR::Viewport</a>
 </li>
 <li>shutdown()
-: <a class="el" href="classMR_1_1CustomPlugin.html#a22056fa84d586c8dbf69be40fa1ec970">MR::CustomPlugin</a>
+: <a class="el" href="classMR_1_1CustomBasePlugin.html#a7cde76e28d65c96aca001e1a7ad3b20e">MR::CustomBasePlugin</a>
+, <a class="el" href="classMR_1_1DemoPlugin.html#acd32f890433198b52a7b6117717c11f5">MR::DemoPlugin</a>
+, <a class="el" href="classMR_1_1Open.html#a6b0c5a01be6b4b2d37987679896aff88">MR::Open</a>
+, <a class="el" href="classMR_1_1Save.html#a0e50c66708b13c7cb3703c126e4c815e">MR::Save</a>
 , <a class="el" href="classMR_1_1ViewerPlugin.html#a764e7d792fea63f8186ed87f2560578f">MR::ViewerPlugin</a>
 </li>
 <li>shutdown_plugins()

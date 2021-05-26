@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tbb_5fsuppress_5fdeprecated_5fmessages_4653',['TBB_SUPPRESS_DEPRECATED_MESSAGES',['../MRFloatGrid_8h.html#a7f41130cb850d9fcf11ba3a25c35ee6d',1,'MRFloatGrid.h']]]
+  ['scoped_5fhistory_4976',['SCOPED_HISTORY',['../MRAppendHistory_8h.html#a36cf254c4f1feb0a6f0adaf205a25eaf',1,'MRAppendHistory.h']]]
 ];

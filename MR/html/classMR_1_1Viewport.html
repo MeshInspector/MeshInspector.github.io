@@ -128,10 +128,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0fc1e84a964766414f289905f15aa910"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af590434afff163551b85a9e5bf358a91"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewport.html#af590434afff163551b85a9e5bf358a91">clear_framebuffers</a> () const</td></tr>
 <tr class="separator:af590434afff163551b85a9e5bf358a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2937bab3af43991ba877e43c86b4edf2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewport.html#a2937bab3af43991ba877e43c86b4edf2">draw</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;data, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;xf, bool basis_axis=false, bool alphaSort=false) const</td></tr>
-<tr class="separator:a2937bab3af43991ba877e43c86b4edf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1afe20563dc32220be4b5c6ced8262f4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewport.html#a1afe20563dc32220be4b5c6ced8262f4">draw_buffer</a> (<a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;data, bool update_matrices, Eigen::Matrix&lt; unsigned char, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;R, Eigen::Matrix&lt; unsigned char, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;G, Eigen::Matrix&lt; unsigned char, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;B, Eigen::Matrix&lt; unsigned char, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;A)</td></tr>
-<tr class="separator:a1afe20563dc32220be4b5c6ced8262f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae795312b102cdf23db4b0355b391010d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewport.html#ae795312b102cdf23db4b0355b391010d">draw</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;data, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;xf, bool forceZBuffer=false, bool alphaSort=false) const</td></tr>
+<tr class="separator:ae795312b102cdf23db4b0355b391010d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0865998a407f8e46e8ec82707aabe495"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const <a class="el" href="structMR_1_1ViewportPointsWithColors.html">ViewportPointsWithColors</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewport.html#a0865998a407f8e46e8ec82707aabe495">getPointsWithColors</a> () const</td></tr>
 <tr class="separator:a0865998a407f8e46e8ec82707aabe495"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00ea5dda599c9996976417c901277676"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const <a class="el" href="structMR_1_1ViewportLinesWithColors.html">ViewportLinesWithColors</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewport.html#a00ea5dda599c9996976417c901277676">getLinesWithColors</a> () const</td></tr>
@@ -226,6 +224,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a280af5b0f24b3003b52b66b9bdf70705"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac82b2f3b3553e4b84330831374e22870"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::vector&lt; <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewport.html#ac82b2f3b3553e4b84330831374e22870">unprojectFromClipSpace</a> (const std::vector&lt; <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &gt; &amp;clipPoints) const</td></tr>
 <tr class="separator:ac82b2f3b3553e4b84330831374e22870"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77fafd463b3cf871447d7c0ff7721efe"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewport.html#a77fafd463b3cf871447d7c0ff7721efe">projectStaticToClipSpace</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;worldPoint) const</td></tr>
+<tr class="separator:a77fafd463b3cf871447d7c0ff7721efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0767b6772d648de3599d6d6c1e828076"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewport.html#a0767b6772d648de3599d6d6c1e828076">projectToViewportSpace</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;worldPoint) const</td></tr>
 <tr class="separator:a0767b6772d648de3599d6d6c1e828076"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a946118c04b5da6fbb8fdea381db182db"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::vector&lt; <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewport.html#a946118c04b5da6fbb8fdea381db182db">projectToViewportSpace</a> (const std::vector&lt; <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &gt; &amp;worldPoints) const</td></tr>
@@ -248,8 +248,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ace8d34917dcc01ffe64f0bccef923f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a3a641b649270fae26cb2659d47a756"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewport.html#a9a3a641b649270fae26cb2659d47a756">fitData</a> (float fill=1.0f, bool snapView=true)</td></tr>
 <tr class="separator:a9a3a641b649270fae26cb2659d47a756"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00b0803af1cfda02fa7601d70098ea68"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewport.html#a00b0803af1cfda02fa7601d70098ea68">preciseFitDataToScreenBorder</a> (float factor=1.f, bool snapView=false)</td></tr>
-<tr class="separator:a00b0803af1cfda02fa7601d70098ea68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78aaa76d03916dcd868d74fb6db963e3"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewport.html#a78aaa76d03916dcd868d74fb6db963e3">preciseFitDataToScreenBorder</a> (float factor=1.f, bool snapView=false, bool focusOnSelected=false)</td></tr>
+<tr class="separator:a78aaa76d03916dcd868d74fb6db963e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b2eb984c0ab39709c45d27d3de876de"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewport.html#a3b2eb984c0ab39709c45d27d3de876de">getRatio</a> () const</td></tr>
 <tr class="separator:a3b2eb984c0ab39709c45d27d3de876de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace405908e14931de8db932f8a41d3b7c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewport.html#ace405908e14931de8db932f8a41d3b7c">allModelsInsideViewportRectangle</a> () const</td></tr>
@@ -659,8 +659,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2937bab3af43991ba877e43c86b4edf2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2937bab3af43991ba877e43c86b4edf2">&#9670;&nbsp;</a></span>draw()</h2>
+<a id="ae795312b102cdf23db4b0355b391010d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae795312b102cdf23db4b0355b391010d">&#9670;&nbsp;</a></span>draw()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -681,7 +681,7 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>basis_axis</em> = <code>false</code>, </td>
+          <td class="paramname"><em>forceZBuffer</em> = <code>false</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -693,58 +693,6 @@ Public Attributes</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1afe20563dc32220be4b5c6ced8262f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1afe20563dc32220be4b5c6ced8262f4">&#9670;&nbsp;</a></span>draw_buffer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API void MR::Viewport::draw_buffer </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>update_matrices</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Eigen::Matrix&lt; unsigned char, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;&#160;</td>
-          <td class="paramname"><em>R</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Eigen::Matrix&lt; unsigned char, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;&#160;</td>
-          <td class="paramname"><em>G</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Eigen::Matrix&lt; unsigned char, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;&#160;</td>
-          <td class="paramname"><em>B</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Eigen::Matrix&lt; unsigned char, Eigen::Dynamic, Eigen::Dynamic &gt; &amp;&#160;</td>
-          <td class="paramname"><em>A</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1286,8 +1234,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a00b0803af1cfda02fa7601d70098ea68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00b0803af1cfda02fa7601d70098ea68">&#9670;&nbsp;</a></span>preciseFitDataToScreenBorder()</h2>
+<a id="a78aaa76d03916dcd868d74fb6db963e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78aaa76d03916dcd868d74fb6db963e3">&#9670;&nbsp;</a></span>preciseFitDataToScreenBorder()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1302,7 +1250,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>snapView</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>snapView</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>focusOnSelected</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1324,6 +1278,24 @@ Public Attributes</h2></td></tr>
           <td class="memname">void MR::Viewport::preDraw </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a77fafd463b3cf871447d7c0ff7721efe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77fafd463b3cf871447d7c0ff7721efe">&#9670;&nbsp;</a></span>projectStaticToClipSpace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> MR::Viewport::projectStaticToClipSpace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>worldPoint</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>

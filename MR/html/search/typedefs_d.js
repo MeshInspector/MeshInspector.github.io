@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['pickresults_4455',['PickResults',['../classMR_1_1ViewportGL.html#a79d22916ef4534d1503a4433e40d44c1',1,'MR::ViewportGL']]],
-  ['plane3d_4456',['Plane3d',['../namespaceMR.html#aefc470f4b414f779ba5767bef4ca69b4',1,'MR']]],
-  ['plane3f_4457',['Plane3f',['../namespaceMR.html#a14573400a82366d962c77959e69b8646',1,'MR']]],
-  ['planesection_4458',['PlaneSection',['../namespaceMR.html#a76fccc29cf3ab68686fad45a62e17fa2',1,'MR']]],
-  ['planesections_4459',['PlaneSections',['../namespaceMR.html#ac743a99f776ece0d1aace02cd9c7f561',1,'MR']]],
-  ['progresscallback_4460',['ProgressCallback',['../namespaceMR.html#a51ff94746a41880cd06d3272b5bcf710',1,'MR']]]
+  ['objandpick_4764',['ObjAndPick',['../MRMeshViewport_8h.html#af85934a86dc22ba72bd4c0e3ef20c19a',1,'MRMeshViewport.h']]],
+  ['objectmakerfunc_4765',['ObjectMakerFunc',['../namespaceMR.html#a1781590b6f7cbab3c21b2bc45dc89a69',1,'MR']]],
+  ['orgringiterator_4766',['OrgRingIterator',['../namespaceMR.html#a888b0cdf3a37fb50c95252697ec9b9bd',1,'MR']]]
 ];

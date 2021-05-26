@@ -1,11 +1,11 @@
 var files_dup =
 [
+    [ "MR2DContoursTriangulation.h", "MR2DContoursTriangulation_8h.html", "MR2DContoursTriangulation_8h" ],
     [ "MRAABBTree.h", "MRAABBTree_8h.html", [
       [ "AABBTree", "classMR_1_1AABBTree.html", "classMR_1_1AABBTree" ],
       [ "Node", "structMR_1_1AABBTree_1_1Node.html", "structMR_1_1AABBTree_1_1Node" ]
     ] ],
     [ "MRAABBTreeOwner.h", "MRAABBTreeOwner_8h.html", [
-      [ "UniqueThreadSafeOwner", "classMR_1_1UniqueThreadSafeOwner.html", "classMR_1_1UniqueThreadSafeOwner" ],
       [ "AABBTreeOwner", "classMR_1_1AABBTreeOwner.html", "classMR_1_1AABBTreeOwner" ],
       [ "AABBTreePointsOwner", "classMR_1_1AABBTreePointsOwner.html", "classMR_1_1AABBTreePointsOwner" ],
       [ "AABBTreePolylineOwner", "classMR_1_1AABBTreePolylineOwner.html", "classMR_1_1AABBTreePolylineOwner" ]
@@ -44,6 +44,7 @@ var files_dup =
     [ "MRBitSetParallelFor.h", "MRBitSetParallelFor_8h.html", "MRBitSetParallelFor_8h" ],
     [ "MRBoolean.h", "MRBoolean_8h.html", "MRBoolean_8h" ],
     [ "MRBooleanPlugin.h", "MRBooleanPlugin_8h.html", "MRBooleanPlugin_8h" ],
+    [ "MRBoundingBoxPlugin.h", "MRBoundingBoxPlugin_8h.html", "MRBoundingBoxPlugin_8h" ],
     [ "MRBox.h", "MRBox_8h.html", "MRBox_8h" ],
     [ "MRCameraFacingSelection.h", "MRCameraFacingSelection_8h.html", "MRCameraFacingSelection_8h" ],
     [ "MRChangeObjectAction.h", "MRChangeObjectAction_8h.html", [
@@ -53,7 +54,8 @@ var files_dup =
       [ "ChangeSceneAction", "classMR_1_1ChangeSceneAction.html", "classMR_1_1ChangeSceneAction" ]
     ] ],
     [ "MRChangeSelectionAction.h", "MRChangeSelectionAction_8h.html", [
-      [ "ChangeSelectionAction", "classMR_1_1ChangeSelectionAction.html", "classMR_1_1ChangeSelectionAction" ]
+      [ "ChangeSelectionAction", "classMR_1_1ChangeSelectionAction.html", "classMR_1_1ChangeSelectionAction" ],
+      [ "ChangeEdgeSelectionAction", "classMR_1_1ChangeEdgeSelectionAction.html", "classMR_1_1ChangeEdgeSelectionAction" ]
     ] ],
     [ "MRChangeXfAction.h", "MRChangeXfAction_8h.html", [
       [ "ChangeXfAction", "classMR_1_1ChangeXfAction.html", "classMR_1_1ChangeXfAction" ]
@@ -86,6 +88,7 @@ var files_dup =
     [ "MRDistanceMapPlugin.h", "MRDistanceMapPlugin_8h.html", "MRDistanceMapPlugin_8h" ],
     [ "MREdgeIterator.h", "MREdgeIterator_8h.html", "MREdgeIterator_8h" ],
     [ "MREdgePaths.h", "MREdgePaths_8h.html", "MREdgePaths_8h" ],
+    [ "MREdgeSelectorPlugin.h", "MREdgeSelectorPlugin_8h.html", "MREdgeSelectorPlugin_8h" ],
     [ "MRExpandSelection.h", "MRExpandSelection_8h.html", "MRExpandSelection_8h" ],
     [ "MRExpandSelectToComponent.h", "MRExpandSelectToComponent_8h.html", "MRExpandSelectToComponent_8h" ],
     [ "MRExpandShrink.h", "MRExpandShrink_8h.html", "MRExpandShrink_8h" ],
@@ -97,6 +100,7 @@ var files_dup =
     [ "MRFileDialog.h", "MRFileDialog_8h.html", "MRFileDialog_8h" ],
     [ "MRFillContour.h", "MRFillContour_8h.html", "MRFillContour_8h" ],
     [ "MRFillHolesPlugin.h", "MRFillHolesPlugin_8h.html", "MRFillHolesPlugin_8h" ],
+    [ "MRFillTunnelPlugin.h", "MRFillTunnelPlugin_8h.html", "MRFillTunnelPlugin_8h" ],
     [ "MRFixSpikesPlugin.h", "MRFixSpikesPlugin_8h.html", "MRFixSpikesPlugin_8h" ],
     [ "MRFixUndercuts.h", "MRFixUndercuts_8h.html", "MRFixUndercuts_8h" ],
     [ "MRFixUndercutsPlugin.h", "MRFixUndercutsPlugin_8h.html", "MRFixUndercutsPlugin_8h" ],
@@ -108,7 +112,6 @@ var files_dup =
     [ "MRFreeFormTransform.h", "MRFreeFormTransform_8h.html", "MRFreeFormTransform_8h" ],
     [ "MRGeodesicPathPlugin.h", "MRGeodesicPathPlugin_8h.html", "MRGeodesicPathPlugin_8h" ],
     [ "MRGLMacro.h", "MRGLMacro_8h.html", "MRGLMacro_8h" ],
-    [ "MRGLUTriangulation.h", "MRGLUTriangulation_8h.html", "MRGLUTriangulation_8h" ],
     [ "MRGridSampling.h", "MRGridSampling_8h.html", "MRGridSampling_8h" ],
     [ "MRHash.h", "MRHash_8h.html", null ],
     [ "MRHeap.h", "MRHeap_8h.html", [
@@ -142,6 +145,7 @@ var files_dup =
     [ "MRInverseSelection.h", "MRInverseSelection_8h.html", "MRInverseSelection_8h" ],
     [ "MRIOFilters.h", "MRIOFilters_8h.html", "MRIOFilters_8h" ],
     [ "MRIOFormatsRegistry.h", "MRIOFormatsRegistry_8h.html", "MRIOFormatsRegistry_8h" ],
+    [ "MRIRenderObject.h", "MRIRenderObject_8h.html", "MRIRenderObject_8h" ],
     [ "MRIteratorRange.h", "MRIteratorRange_8h.html", "MRIteratorRange_8h" ],
     [ "MRLaplacian.h", "MRLaplacian_8h.html", [
       [ "Laplacian", "classMR_1_1Laplacian.html", "classMR_1_1Laplacian" ]
@@ -151,9 +155,9 @@ var files_dup =
     [ "MRLibraryDistancesTest.h", "MRLibraryDistancesTest_8h.html", "MRLibraryDistancesTest_8h" ],
     [ "MRLine3.h", "MRLine3_8h.html", "MRLine3_8h" ],
     [ "MRLineSegm3.h", "MRLineSegm3_8h.html", "MRLineSegm3_8h" ],
-    [ "MRLoadGL.h", "MRLoadGL_8h.html", "MRLoadGL_8h" ],
     [ "MRLog.h", "MRLog_8h.html", "MRLog_8h" ],
     [ "MRMakePlane.h", "MRMakePlane_8h.html", "MRMakePlane_8h" ],
+    [ "MRMakeRigidXf.h", "MRMakeRigidXf_8h.html", "MRMakeRigidXf_8h" ],
     [ "MRMatrix.h", "MRMatrix_8h.html", [
       [ "Matrix", "structMR_1_1Matrix.html", "structMR_1_1Matrix" ]
     ] ],
@@ -191,9 +195,7 @@ var files_dup =
       [ "MeshLabel", "structMR_1_1MeshLabel.html", "structMR_1_1MeshLabel" ]
     ] ],
     [ "MRMeshLoad.h", "MRMeshLoad_8h.html", "MRMeshLoad_8h" ],
-    [ "MRMeshMetrics.h", "MRMeshMetrics_8h.html", [
-      [ "EdgeLengthFillMetric", "structMR_1_1EdgeLengthFillMetric.html", "structMR_1_1EdgeLengthFillMetric" ]
-    ] ],
+    [ "MRMeshMetrics.h", "MRMeshMetrics_8h.html", null ],
     [ "MRMeshModifier.h", "MRMeshModifier_8h.html", [
       [ "MeshModifier", "classMR_1_1MeshModifier.html", "classMR_1_1MeshModifier" ]
     ] ],
@@ -217,7 +219,9 @@ var files_dup =
     [ "MRMeshTopology.h", "MRMeshTopology_8h.html", "MRMeshTopology_8h" ],
     [ "MRMeshTriPoint.h", "MRMeshTriPoint_8h.html", "MRMeshTriPoint_8h" ],
     [ "MRMeshViewer.h", "MRMeshViewer_8h.html", "MRMeshViewer_8h" ],
-    [ "MRMeshViewerPlugin.h", "MRMeshViewerPlugin_8h.html", "MRMeshViewerPlugin_8h" ],
+    [ "MRMeshViewerPlugin.h", "MRMeshViewerPlugin_8h.html", [
+      [ "ViewerPlugin", "classMR_1_1ViewerPlugin.html", "classMR_1_1ViewerPlugin" ]
+    ] ],
     [ "MRMeshViewport.h", "MRMeshViewport_8h.html", "MRMeshViewport_8h" ],
     [ "MRMoveToZero.h", "MRMoveToZero_8h.html", [
       [ "MoveToZero", "classMR_1_1MoveToZero.html", "classMR_1_1MoveToZero" ]
@@ -225,14 +229,10 @@ var files_dup =
     [ "MRObject.h", "MRObject_8h.html", [
       [ "MutexOwner", "classMR_1_1MutexOwner.html", "classMR_1_1MutexOwner" ],
       [ "ObjectChildrenHolder", "structMR_1_1ObjectChildrenHolder.html", "structMR_1_1ObjectChildrenHolder" ],
-      [ "Object", "classMR_1_1Object.html", "classMR_1_1Object" ]
+      [ "Object", "classMR_1_1Object.html", "classMR_1_1Object" ],
+      [ "ProtectedStruct", "structMR_1_1Object_1_1ProtectedStruct.html", "structMR_1_1Object_1_1ProtectedStruct" ]
     ] ],
     [ "MRObjectFactory.h", "MRObjectFactory_8h.html", "MRObjectFactory_8h" ],
-    [ "MRObjectGL.h", "MRObjectGL_8h.html", [
-      [ "ObjectGL", "classMR_1_1ObjectGL.html", "classMR_1_1ObjectGL" ],
-      [ "BaseRenderParams", "structMR_1_1ObjectGL_1_1BaseRenderParams.html", "structMR_1_1ObjectGL_1_1BaseRenderParams" ],
-      [ "RenderParams", "structMR_1_1ObjectGL_1_1RenderParams.html", "structMR_1_1ObjectGL_1_1RenderParams" ]
-    ] ],
     [ "MRObjectLines.h", "MRObjectLines_8h.html", [
       [ "ObjectLines", "classMR_1_1ObjectLines.html", "classMR_1_1ObjectLines" ]
     ] ],
@@ -310,6 +310,16 @@ var files_dup =
     [ "MRRegularMapMeshingPlugin.h", "MRRegularMapMeshingPlugin_8h.html", "MRRegularMapMeshingPlugin_8h" ],
     [ "MRRelaxPlugin.h", "MRRelaxPlugin_8h.html", "MRRelaxPlugin_8h" ],
     [ "MRRemesherPlugin.h", "MRRemesherPlugin_8h.html", "MRRemesherPlugin_8h" ],
+    [ "MRRenderGLHelpers.h", "MRRenderGLHelpers_8h.html", "MRRenderGLHelpers_8h" ],
+    [ "MRRenderLinesObject.h", "MRRenderLinesObject_8h.html", [
+      [ "RenderLinesObject", "classMR_1_1RenderLinesObject.html", "classMR_1_1RenderLinesObject" ]
+    ] ],
+    [ "MRRenderMeshObject.h", "MRRenderMeshObject_8h.html", [
+      [ "RenderMeshObject", "classMR_1_1RenderMeshObject.html", "classMR_1_1RenderMeshObject" ]
+    ] ],
+    [ "MRRenderPointsObject.h", "MRRenderPointsObject_8h.html", [
+      [ "RenderPointsObject", "classMR_1_1RenderPointsObject.html", "classMR_1_1RenderPointsObject" ]
+    ] ],
     [ "MRRenderTest.h", "MRRenderTest_8h.html", "MRRenderTest_8h" ],
     [ "MRRingIterator.h", "MRRingIterator_8h.html", "MRRingIterator_8h" ],
     [ "MRSave.h", "MRSave_8h.html", "MRSave_8h" ],
@@ -332,6 +342,7 @@ var files_dup =
       [ "ShadersHolder", "classMR_1_1ShadersHolder.html", "classMR_1_1ShadersHolder" ]
     ] ],
     [ "MRShowDenseBBox.h", "MRShowDenseBBox_8h.html", "MRShowDenseBBox_8h" ],
+    [ "MRShowHomologyBasisPlugin.h", "MRShowHomologyBasisPlugin_8h.html", "MRShowHomologyBasisPlugin_8h" ],
     [ "MRShowLocalBasis.h", "MRShowLocalBasis_8h.html", "MRShowLocalBasis_8h" ],
     [ "MRShowNormalsPlugin.h", "MRShowNormalsPlugin_8h.html", "MRShowNormalsPlugin_8h" ],
     [ "MRShrinkSelection.h", "MRShrinkSelection_8h.html", "MRShrinkSelection_8h" ],
@@ -372,6 +383,9 @@ var files_dup =
     [ "MRUnionFind.h", "MRUnionFind_8h.html", [
       [ "UnionFind", "classMR_1_1UnionFind.html", "classMR_1_1UnionFind" ]
     ] ],
+    [ "MRUniqueThreadSafeOwner.h", "MRUniqueThreadSafeOwner_8h.html", [
+      [ "UniqueThreadSafeOwner", "classMR_1_1UniqueThreadSafeOwner.html", "classMR_1_1UniqueThreadSafeOwner" ]
+    ] ],
     [ "MRUnselector.h", "MRUnselector_8h.html", "MRUnselector_8h" ],
     [ "MRUVSphere.h", "MRUVSphere_8h.html", "MRUVSphere_8h" ],
     [ "MRVDBConversions.h", "MRVDBConversions_8h.html", "MRVDBConversions_8h" ],
@@ -379,6 +393,27 @@ var files_dup =
     [ "MRVector2.h", "MRVector2_8h.html", "MRVector2_8h" ],
     [ "MRVector3.h", "MRVector3_8h.html", "MRVector3_8h" ],
     [ "MRVector4.h", "MRVector4_8h.html", "MRVector4_8h" ],
+    [ "MRViewerEventsListener.h", "MRViewerEventsListener_8h.html", [
+      [ "IConnectable", "structMR_1_1IConnectable.html", "structMR_1_1IConnectable" ],
+      [ "ConnectionHolder", "structMR_1_1ConnectionHolder.html", "structMR_1_1ConnectionHolder" ],
+      [ "MultiListener", "structMR_1_1MultiListener.html", "structMR_1_1MultiListener" ],
+      [ "MouseDownListener", "structMR_1_1MouseDownListener.html", "structMR_1_1MouseDownListener" ],
+      [ "MouseUpListener", "structMR_1_1MouseUpListener.html", "structMR_1_1MouseUpListener" ],
+      [ "MouseMoveListener", "structMR_1_1MouseMoveListener.html", "structMR_1_1MouseMoveListener" ],
+      [ "MouseScrollListener", "structMR_1_1MouseScrollListener.html", "structMR_1_1MouseScrollListener" ],
+      [ "CharPressedListener", "structMR_1_1CharPressedListener.html", "structMR_1_1CharPressedListener" ],
+      [ "KeyUpListener", "structMR_1_1KeyUpListener.html", "structMR_1_1KeyUpListener" ],
+      [ "KeyDownListener", "structMR_1_1KeyDownListener.html", "structMR_1_1KeyDownListener" ],
+      [ "KeyRepeatListener", "structMR_1_1KeyRepeatListener.html", "structMR_1_1KeyRepeatListener" ],
+      [ "PreDrawListener", "structMR_1_1PreDrawListener.html", "structMR_1_1PreDrawListener" ],
+      [ "DrawListener", "structMR_1_1DrawListener.html", "structMR_1_1DrawListener" ],
+      [ "PostDrawListener", "structMR_1_1PostDrawListener.html", "structMR_1_1PostDrawListener" ],
+      [ "SaveListener", "structMR_1_1SaveListener.html", "structMR_1_1SaveListener" ],
+      [ "LoadListener", "structMR_1_1LoadListener.html", "structMR_1_1LoadListener" ],
+      [ "DragDropListener", "structMR_1_1DragDropListener.html", "structMR_1_1DragDropListener" ],
+      [ "PostResizeListener", "structMR_1_1PostResizeListener.html", "structMR_1_1PostResizeListener" ],
+      [ "InterruptCloseListener", "structMR_1_1InterruptCloseListener.html", "structMR_1_1InterruptCloseListener" ]
+    ] ],
     [ "MRViewerSettingsManager.h", "MRViewerSettingsManager_8h.html", [
       [ "IViewerSettingsManager", "classMR_1_1IViewerSettingsManager.html", "classMR_1_1IViewerSettingsManager" ],
       [ "ViewerSettingsManager", "classMR_1_1ViewerSettingsManager.html", "classMR_1_1ViewerSettingsManager" ]

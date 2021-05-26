@@ -8,9 +8,10 @@ var classMR_1_1VolumeSegmenter =
     [ "VolumeSegmenter", "classMR_1_1VolumeSegmenter.html#a3b873fd7454ef53287d695e0d2754767", null ],
     [ "addPathSeeds", "classMR_1_1VolumeSegmenter.html#aa2cb8edc62883764857cc7b28e1b10e3", null ],
     [ "addSeeds", "classMR_1_1VolumeSegmenter.html#a482d2182b6aa84abf4311b2adceb495d", null ],
+    [ "createMeshFromSegmentation", "classMR_1_1VolumeSegmenter.html#a62c7e28949721f2b5db433c25480cdc4", null ],
     [ "getMinVoxel", "classMR_1_1VolumeSegmenter.html#a1d51a2174d61ec91963238c4df6bef5c", null ],
     [ "getSeeds", "classMR_1_1VolumeSegmenter.html#afa2f6a062bc84c0ca1d3bf75b38bc98b", null ],
     [ "getVolumePartDimensions", "classMR_1_1VolumeSegmenter.html#a9537ebdbb3503b2bce0a12d7c66f0653", null ],
-    [ "segmentVolume", "classMR_1_1VolumeSegmenter.html#a56e811d8dc935f9da787c1582d5613df", null ],
+    [ "segmentVolume", "classMR_1_1VolumeSegmenter.html#a1c82088939171da209090d08e531d5b3", null ],
     [ "setSeeds", "classMR_1_1VolumeSegmenter.html#a5e2381048221676f7c2c5beadb063dc2", null ]
 ];

@@ -1,6 +1,8 @@
 var MRCustomPlugin_8h =
 [
-    [ "CustomPlugin", "classMR_1_1CustomPlugin.html", "classMR_1_1CustomPlugin" ],
+    [ "CustomBasePlugin", "classMR_1_1CustomBasePlugin.html", "classMR_1_1CustomBasePlugin" ],
+    [ "CustomListenerPlugin", "classMR_1_1CustomListenerPlugin.html", "classMR_1_1CustomListenerPlugin" ],
+    [ "CustomPlugin", "MRCustomPlugin_8h.html#aa39b0d22f692bbeb989d395fc67f8d37", null ],
     [ "CustomPluginTabs", "MRCustomPlugin_8h.html#a2d7202863cb05ff9d821e23e1ba3f309", [
       [ "Basic", "MRCustomPlugin_8h.html#a2d7202863cb05ff9d821e23e1ba3f309a972e73b7a882d0802a4e3a16946a2f94", null ],
       [ "Mesh", "MRCustomPlugin_8h.html#a2d7202863cb05ff9d821e23e1ba3f309a710fdb6adb881b408116ef95335e1961", null ],

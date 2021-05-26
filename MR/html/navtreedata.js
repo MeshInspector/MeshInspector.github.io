@@ -75,23 +75,24 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "CustomPluginsHelp.html",
-"MRFixUndercuts_8h.html#a7b242f2951e9f7975eaf03828f63eecc",
-"MRMeshFillHole_8h.html#a067cc1eda81ae410fdf9299ca802738a",
-"MRPlane3_8h.html#a3c87761daf5dfa29aef58d0d55153957",
-"MRStreamOperators_8h_source.html",
-"classMR_1_1AABBTree.html",
-"classMR_1_1HistoryStore.html",
-"classMR_1_1MeshTopology.html#a512984b5f87dcf8c7667237cccdabefb",
-"classMR_1_1ObjectPoints.html#a321d8cf4b8b10b05ec8d714bd5d9c9f5",
-"classMR_1_1ShowDenseBBoxPlugin.html#abaf5fd345b36bf7a93ad888609b4b680",
-"classMR_1_1Viewer.html#aea16749ad72b2b3b737ca380d1633b27",
-"classMR_1_1VisualObject.html#ae518b6548b3cf17ee369ecaf5c4cb160",
-"namespaceMR.html#a1e52843ce2c94f1039836232a06c2d76",
-"namespaceMR.html#a8870fd98a283713cad7c82def627f441",
-"namespaceMR.html#aee05ada6f56e0075cc157732cae41543",
-"structMR_1_1CircumscribedStitchMetric.html#ac87c61c318c8534864f9c229997a5576",
-"structMR_1_1Mesh.html#a6241859f835aa7cd22f26c1e40b9791a",
-"structMR_1_1Quaternion.html#ac98a801cf03ee64da5665501c8e7b7d8"
+"MRFillContour_8h.html#a212d36d5692f1333d8f3e67d98fb2433",
+"MRMeshDelone_8h.html#ac988550b40118ca0259350e32fb0620b",
+"MROffset_8h.html",
+"MRShowLocalBasis_8h.html#a144db4e4bd3773a701d81f4c0be88d42",
+"MRVolumeIndexer_8h.html#aa7203f0917dc651aa1261d90d266752ea89241a914ba5d59de9168c4416e69c4a",
+"classMR_1_1FillTunnelPlugin.html#a90a98971bbb46692b669e8893c15bbea",
+"classMR_1_1MeshICP.html#a2530d321b1da96cf734a1b759f418d9e",
+"classMR_1_1ObjectMesh.html#a67c34149d9ee28120767c521ee008fa1",
+"classMR_1_1ScopeHistory.html#acf9224d4ffb8a6220531e93c8c75a59f",
+"classMR_1_1Viewer.html#a507502ce28fcd0cb9281da4c20a366b3",
+"classMR_1_1ViewportId.html#ab99ee2f5a26f1c0a90438a3628ddc6f2",
+"namespaceMR.html#a021d97390669e9ca4d0be9a07042a694",
+"namespaceMR.html#a5edf64df29d2b0cfa7d42c9108e04a86",
+"namespaceMR.html#ac978c520f500c1e3dad2ddaff7a333f0",
+"namespacemembers_d.html",
+"structMR_1_1IntersectionPrecomputes.html#a28372a635ba67b43220bc9067be6560d",
+"structMR_1_1MeshSave_1_1CtmSaveOptions.html#a09f020b5c907033a5e7b25073effacf5",
+"structMR_1_1SymbolMeshParams.html#a91479aefd75dc365ef6b39108ea22fcf"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

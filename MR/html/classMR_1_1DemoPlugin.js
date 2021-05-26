@@ -1,5 +1,5 @@
 var classMR_1_1DemoPlugin =
 [
-    [ "interruptWindowClose", "classMR_1_1DemoPlugin.html#ac0511beac831d6abc9d6d9b238869764", null ],
-    [ "pre_draw", "classMR_1_1DemoPlugin.html#af20a20a75c97b627d978d7a8d9cdd9a1", null ]
+    [ "init", "classMR_1_1DemoPlugin.html#ad27509c52d0c34930eecbe2402a7b67a", null ],
+    [ "shutdown", "classMR_1_1DemoPlugin.html#acd32f890433198b52a7b6117717c11f5", null ]
 ];

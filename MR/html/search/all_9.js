@@ -1,7 +1,14 @@
 var searchData=
 [
-  ['key_5fdown_901',['key_down',['../classMR_1_1Menu.html#a69b9bb9fec44e2234ddb5e9591a3316c',1,'MR::Menu::key_down()'],['../classMR_1_1Viewer.html#a9e12793bb253caaeb67e7c34023a41b3',1,'MR::Viewer::key_down()'],['../classMR_1_1ViewerPlugin.html#a1db72abc9022517f39e348e3bc1684e1',1,'MR::ViewerPlugin::key_down()']]],
-  ['key_5fpressed_902',['key_pressed',['../classMR_1_1Menu.html#a3e1ab48f973af9a1e42429566468e291',1,'MR::Menu::key_pressed()'],['../classMR_1_1Viewer.html#a8927cbb8dfb3e8201f106472e4b9377b',1,'MR::Viewer::key_pressed()'],['../classMR_1_1ViewerPlugin.html#a30e010cff60215cfff0862647b46b073',1,'MR::ViewerPlugin::key_pressed()'],['../classMR_1_1VoxelsDrawSeedsOnSlicePlugin.html#a0e2e9ab27a850cf3f28b008dfd170d35',1,'MR::VoxelsDrawSeedsOnSlicePlugin::key_pressed()']]],
-  ['key_5frepeat_903',['key_repeat',['../classMR_1_1Viewer.html#a5c45b066d2b517f6a5af004fefed9ebb',1,'MR::Viewer::key_repeat()'],['../classMR_1_1ViewerPlugin.html#a2606b2546b9b2920475b086c65903c60',1,'MR::ViewerPlugin::key_repeat()']]],
-  ['key_5fup_904',['key_up',['../classMR_1_1Menu.html#a794f9394d96fb399d6e9e73a3c149a14',1,'MR::Menu::key_up()'],['../classMR_1_1Viewer.html#aae10682d0bc42620bfbe065f75deb0d5',1,'MR::Viewer::key_up()'],['../classMR_1_1ViewerPlugin.html#a4bd20be818ef0b0935f3af381044095c',1,'MR::ViewerPlugin::key_up()']]]
+  ['key_5fdown_964',['key_down',['../classMR_1_1Viewer.html#a9e12793bb253caaeb67e7c34023a41b3',1,'MR::Viewer::key_down()'],['../classMR_1_1ViewerPlugin.html#a1db72abc9022517f39e348e3bc1684e1',1,'MR::ViewerPlugin::key_down()']]],
+  ['key_5fpressed_965',['key_pressed',['../classMR_1_1Viewer.html#a8927cbb8dfb3e8201f106472e4b9377b',1,'MR::Viewer::key_pressed()'],['../classMR_1_1ViewerPlugin.html#a30e010cff60215cfff0862647b46b073',1,'MR::ViewerPlugin::key_pressed()']]],
+  ['key_5frepeat_966',['key_repeat',['../classMR_1_1Viewer.html#a5c45b066d2b517f6a5af004fefed9ebb',1,'MR::Viewer::key_repeat()'],['../classMR_1_1ViewerPlugin.html#a2606b2546b9b2920475b086c65903c60',1,'MR::ViewerPlugin::key_repeat()']]],
+  ['key_5fup_967',['key_up',['../classMR_1_1Viewer.html#aae10682d0bc42620bfbe065f75deb0d5',1,'MR::Viewer::key_up()'],['../classMR_1_1ViewerPlugin.html#a4bd20be818ef0b0935f3af381044095c',1,'MR::ViewerPlugin::key_up()']]],
+  ['keydownlistener_968',['KeyDownListener',['../structMR_1_1KeyDownListener.html',1,'MR']]],
+  ['keydownsignal_969',['keyDownSignal',['../classMR_1_1Viewer.html#a596ee67961e83af9e077ed76b480f2b8',1,'MR::Viewer']]],
+  ['keyrepeatlistener_970',['KeyRepeatListener',['../structMR_1_1KeyRepeatListener.html',1,'MR']]],
+  ['keyrepeatsignal_971',['keyRepeatSignal',['../classMR_1_1Viewer.html#af78d0258ee2b2a1aa2078b66fa1852f0',1,'MR::Viewer']]],
+  ['keysignal_972',['KeySignal',['../classMR_1_1Viewer.html#a1e7b5d040663db04b5ee435db17f41df',1,'MR::Viewer']]],
+  ['keyuplistener_973',['KeyUpListener',['../structMR_1_1KeyUpListener.html',1,'MR']]],
+  ['keyupsignal_974',['keyUpSignal',['../classMR_1_1Viewer.html#a4406c60c0ac846daf643a74003a00266',1,'MR::Viewer']]]
 ];
