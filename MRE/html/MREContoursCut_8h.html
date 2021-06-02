@@ -22,6 +22,7 @@
 /* @license-end */
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -102,13 +103,13 @@ $(document).ready(function(){initNavTree('MREContoursCut_8h.html',''); initResiz
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;exports.h&quot;</code><br />
-<code>#include &quot;MRMesh/MRMeshFwd.h&quot;</code><br />
-<code>#include &quot;MRMesh/MRVector3.h&quot;</code><br />
-<code>#include &quot;MRMesh/MRId.h&quot;</code><br />
-<code>#include &quot;MRMesh/MRBitSet.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMesh/MRMeshFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRVector3_8h_source.html">MRMesh/MRVector3.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRId_8h_source.html">MRMesh/MRId.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRBitSet_8h_source.html">MRMesh/MRBitSet.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MREIntersectionContour_8h_source.html">MREIntersectionContour.h</a>&quot;</code><br />
-<code>#include &quot;MRMesh/MRExtractIsolines.h&quot;</code><br />
-<code>#include &quot;MRMesh/MRMeshCollidePrecise.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRExtractIsolines_8h_source.html">MRMesh/MRExtractIsolines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMeshCollidePrecise_8h_source.html">MRMesh/MRMeshCollidePrecise.h</a>&quot;</code><br />
 <code>#include &lt;variant&gt;</code><br />
 </div>
 <p><a href="MREContoursCut_8h_source.html">Go to the source code of this file.</a></p>
@@ -138,16 +139,18 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5a26b776b4772970a00cb1c4aea6c741"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a5a26b776b4772970a00cb1c4aea6c741">MRE::subdivideLoneContours</a> (MR::Mesh &amp;mesh, const OneMeshContours &amp;contours, MR::FaceMap *new2oldMap=nullptr)</td></tr>
+<tr class="memitem:a5a26b776b4772970a00cb1c4aea6c741"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a5a26b776b4772970a00cb1c4aea6c741">MRE::subdivideLoneContours</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const OneMeshContours &amp;contours, <a class="el" href="namespaceMR.html#a989bcd374602a615d0acbd6a4988b9b3">MR::FaceMap</a> *new2oldMap=nullptr)</td></tr>
 <tr class="separator:a5a26b776b4772970a00cb1c4aea6c741"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11c3c97bad809b33354886986a534dfe"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API OneMeshContours&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a11c3c97bad809b33354886986a534dfe">MRE::getOneMeshIntersectionContours</a> (const MR::Mesh &amp;meshA, const MR::Mesh &amp;meshB, const ContinuousContours &amp;contours, bool getMeshAIntersections, const MR::AffineXf3f *rigidB2A=nullptr)</td></tr>
-<tr class="separator:a11c3c97bad809b33354886986a534dfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34f46179c96ce39c5ba94580b9fc1151"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API OneMeshContour&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a34f46179c96ce39c5ba94580b9fc1151">MRE::convertMeshTriPointsToClosedContour</a> (const MR::Mesh &amp;mesh, const std::vector&lt; MR::MeshTriPoint &gt; &amp;meshTriPoints)</td></tr>
+<tr class="memitem:ab47690743a0ee040b928656dee2d5738"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API OneMeshContours&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#ab47690743a0ee040b928656dee2d5738">MRE::getOneMeshIntersectionContours</a> (const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;meshB, const ContinuousContours &amp;contours, bool getMeshAIntersections, const <a class="el" href="structMR_1_1CoordinateConverters.html">MR::CoordinateConverters</a> &amp;converters, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">MR::AffineXf3f</a> *rigidB2A=nullptr)</td></tr>
+<tr class="separator:ab47690743a0ee040b928656dee2d5738"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34f46179c96ce39c5ba94580b9fc1151"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API OneMeshContour&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a34f46179c96ce39c5ba94580b9fc1151">MRE::convertMeshTriPointsToClosedContour</a> (const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MR::MeshTriPoint</a> &gt; &amp;meshTriPoints)</td></tr>
 <tr class="separator:a34f46179c96ce39c5ba94580b9fc1151"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4691347d3996bcfbf33023cdbc98f754"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API OneMeshContours&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a4691347d3996bcfbf33023cdbc98f754">MRE::convertSurfacePathsToMeshContours</a> (const MR::Mesh &amp;mesh, const std::vector&lt; MR::SurfacePath &gt; &amp;surfacePaths)</td></tr>
+<tr class="memitem:a4691347d3996bcfbf33023cdbc98f754"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API OneMeshContours&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a4691347d3996bcfbf33023cdbc98f754">MRE::convertSurfacePathsToMeshContours</a> (const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="namespaceMR.html#a6f060a604c3462c7d0b1df7dac703237">MR::SurfacePath</a> &gt; &amp;surfacePaths)</td></tr>
 <tr class="separator:a4691347d3996bcfbf33023cdbc98f754"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e479d0d02c34a3f7eaea80c8a8f0aef"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API CutMeshResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a9e479d0d02c34a3f7eaea80c8a8f0aef">MRE::cutMesh</a> (MR::Mesh &amp;mesh, const OneMeshContours &amp;contours, const CutMeshParameters &amp;params={})</td></tr>
+<tr class="memitem:a9e479d0d02c34a3f7eaea80c8a8f0aef"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API CutMeshResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a9e479d0d02c34a3f7eaea80c8a8f0aef">MRE::cutMesh</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const OneMeshContours &amp;contours, const CutMeshParameters &amp;params={})</td></tr>
 <tr class="separator:a9e479d0d02c34a3f7eaea80c8a8f0aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a02c9c09c62bd4cefa1b56914360e05"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a6a02c9c09c62bd4cefa1b56914360e05">MRE::cutMeshWithPlane</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">MR::Plane3f</a> &amp;plane)</td></tr>
+<tr class="separator:a6a02c9c09c62bd4cefa1b56914360e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

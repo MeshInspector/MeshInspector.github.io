@@ -22,6 +22,7 @@
 /* @license-end */
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -98,8 +99,8 @@ $(document).ready(function(){initNavTree('MREPointsTriangulationPlugin_8h_source
 <div class="contents">
 <a href="MREPointsTriangulationPlugin_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;exports.h&quot;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;MRViewer/MRCustomPlugin.h&quot;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;MRMesh/MRId.h&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRCustomPlugin_8h.html">MRViewer/MRCustomPlugin.h</a>&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRId_8h.html">MRMesh/MRId.h</a>&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MREPointCloudTriangulation_8h.html">MREAlgorithms/MREPointCloudTriangulation.h</a>&quot;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MREPointCloudTriangulationHelpers_8h.html">MREAlgorithms/MREPointCloudTriangulationHelpers.h</a>&quot;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
@@ -112,7 +113,7 @@ $(document).ready(function(){initNavTree('MREPointsTriangulationPlugin_8h_source
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMRE.html">MRE</a></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classMRE_1_1PointsTriangulationPlugin.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMRE_1_1PointsTriangulationPlugin.html">PointsTriangulationPlugin</a> : <span class="keyword">public</span> MR::CustomPlugin</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classMRE_1_1PointsTriangulationPlugin.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMRE_1_1PointsTriangulationPlugin.html">PointsTriangulationPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a>&lt;MR::MouseDownListener&gt;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classMRE_1_1PointsTriangulationPlugin.html#ae7bb9f004b87e32a89fad2af065d8b92">   20</a></span>&#160;    MREPLUGINS_API <a class="code" href="classMRE_1_1PointsTriangulationPlugin.html#ae7bb9f004b87e32a89fad2af065d8b92">PointsTriangulationPlugin</a>();</div>
@@ -121,9 +122,9 @@ $(document).ready(function(){initNavTree('MREPointsTriangulationPlugin_8h_source
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
 <div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classMRE_1_1PointsTriangulationPlugin.html#a6f2715755a664387ab2639e3ec11c296">   24</a></span>&#160;    MREPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMRE_1_1PointsTriangulationPlugin.html#a6f2715755a664387ab2639e3ec11c296">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const MR::Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classMRE_1_1PointsTriangulationPlugin.html#a5167c28ad41468b0e3ac2bed628cd552">   26</a></span>&#160;    MREPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMRE_1_1PointsTriangulationPlugin.html#a5167c28ad41468b0e3ac2bed628cd552">mouse_down</a>( <span class="keywordtype">int</span> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseDown_( <a class="code" href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier );</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
@@ -131,7 +132,7 @@ $(document).ready(function(){initNavTree('MREPointsTriangulationPlugin_8h_source
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    std::shared_ptr&lt;MR::ObjectMesh&gt; fan_;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    std::shared_ptr&lt;MR::ObjectMesh&gt; fullMesh_;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    std::shared_ptr&lt;MR::ObjectMesh&gt; plane_;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    MR::VertId pickedVert_;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="classMR_1_1Id.html">MR::VertId</a> pickedVert_;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="structMRE_1_1TriangulationParameters.html">TriangulationParameters</a> parameters_;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
@@ -140,36 +141,44 @@ $(document).ready(function(){initNavTree('MREPointsTriangulationPlugin_8h_source
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">bool</span> showPlane_;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">int</span> step_;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    MR::Mesh createFan_( MR::VertId v );</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="structMR_1_1Mesh.html">MR::Mesh</a> createFan_( <a class="code" href="classMR_1_1Id.html">MR::VertId</a> v );</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keyword">struct </span>OptimizeFunRes</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    {</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        std::vector&lt;MR::VertId&gt; allVerts;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="structMRE_1_1TriangulationHelpers_1_1TriangulatedFan.html">TriangulationHelpers::TriangulatedFan</a> fan;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    };</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    OptimizeFunRes optimizeFun_( MR::VertId v, <span class="keywordtype">float</span> radius, <span class="keywordtype">int</span> maxRemoves = INT_MAX );</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> optimizeRadiusToPoint_( MR::VertId v );</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    OptimizeFunRes optimizeFun_( <a class="code" href="classMR_1_1Id.html">MR::VertId</a> v, <span class="keywordtype">float</span> radius, <span class="keywordtype">int</span> maxRemoves = INT_MAX );</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> optimizeRadiusToPoint_( <a class="code" href="classMR_1_1Id.html">MR::VertId</a> v );</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">void</span> updateTriangulation_();</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> updatePlane_( <span class="keyword">const</span> MR::Plane3f&amp; plane, <span class="keyword">const</span> MR::Vector3f&amp; center );</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">void</span> updateLabels_( <span class="keyword">const</span> MR::VertBitSet&amp; vbs );</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> updatePlane_( <span class="keyword">const</span> <a class="code" href="structMR_1_1Plane3.html">MR::Plane3f</a>&amp; plane, <span class="keyword">const</span> <a class="code" href="structMR_1_1Vector3.html">MR::Vector3f</a>&amp; center );</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">void</span> updateLabels_( <span class="keyword">const</span> <a class="code" href="classMR_1_1TaggedBitSet.html">MR::VertBitSet</a>&amp; vbs );</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">void</span> makeFull_();</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;};</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;MREPLUGINS_API <span class="keyword">extern</span> PointsTriangulationPlugin <a class="code" href="namespaceMRE.html#a6c7941927eb7cb536c3e13bb86edc725">PointsTriangulationPluginInstance</a>;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
+<div class="ttc" id="aMRCustomPlugin_8h_html"><div class="ttname"><a href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a></div></div>
 <div class="ttc" id="aMREPointCloudTriangulationHelpers_8h_html"><div class="ttname"><a href="MREPointCloudTriangulationHelpers_8h.html">MREPointCloudTriangulationHelpers.h</a></div></div>
 <div class="ttc" id="aMREPointCloudTriangulation_8h_html"><div class="ttname"><a href="MREPointCloudTriangulation_8h.html">MREPointCloudTriangulation.h</a></div></div>
+<div class="ttc" id="aMRId_8h_html"><div class="ttname"><a href="MRId_8h.html">MRId.h</a></div></div>
 <div class="ttc" id="aclassMRE_1_1PointsTriangulationPlugin_html"><div class="ttname"><a href="classMRE_1_1PointsTriangulationPlugin.html">MRE::PointsTriangulationPlugin</a></div><div class="ttdef"><b>Definition:</b> MREPointsTriangulationPlugin.h:18</div></div>
-<div class="ttc" id="aclassMRE_1_1PointsTriangulationPlugin_html_a5167c28ad41468b0e3ac2bed628cd552"><div class="ttname"><a href="classMRE_1_1PointsTriangulationPlugin.html#a5167c28ad41468b0e3ac2bed628cd552">MRE::PointsTriangulationPlugin::mouse_down</a></div><div class="ttdeci">virtual MREPLUGINS_API bool mouse_down(int button, int modifier) override</div></div>
 <div class="ttc" id="aclassMRE_1_1PointsTriangulationPlugin_html_a6f2715755a664387ab2639e3ec11c296"><div class="ttname"><a href="classMRE_1_1PointsTriangulationPlugin.html#a6f2715755a664387ab2639e3ec11c296">MRE::PointsTriangulationPlugin::isAvailable</a></div><div class="ttdeci">virtual MREPLUGINS_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const MR::Object &gt;&gt; &amp;selectedObjects) override</div></div>
 <div class="ttc" id="aclassMRE_1_1PointsTriangulationPlugin_html_ac782317fe3eee25afe2e0f535b37cfed"><div class="ttname"><a href="classMRE_1_1PointsTriangulationPlugin.html#ac782317fe3eee25afe2e0f535b37cfed">MRE::PointsTriangulationPlugin::drawDialog</a></div><div class="ttdeci">virtual MREPLUGINS_API void drawDialog(float menuScaling, ImGuiContext *ctx) override</div></div>
 <div class="ttc" id="aclassMRE_1_1PointsTriangulationPlugin_html_ae7bb9f004b87e32a89fad2af065d8b92"><div class="ttname"><a href="classMRE_1_1PointsTriangulationPlugin.html#ae7bb9f004b87e32a89fad2af065d8b92">MRE::PointsTriangulationPlugin::PointsTriangulationPlugin</a></div><div class="ttdeci">MREPLUGINS_API PointsTriangulationPlugin()</div></div>
+<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:60</div></div>
+<div class="ttc" id="aclassMR_1_1Id_html"><div class="ttname"><a href="classMR_1_1Id.html">MR::Id&lt; VertTag &gt;</a></div></div>
+<div class="ttc" id="aclassMR_1_1TaggedBitSet_html"><div class="ttname"><a href="classMR_1_1TaggedBitSet.html">MR::TaggedBitSet&lt; VertTag &gt;</a></div></div>
+<div class="ttc" id="aclassMR_1_1Viewer_html_a4e2fd639b52df5ee18d06bb9f4e504f6"><div class="ttname"><a href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition:</b> MRMeshViewer.h:56</div></div>
 <div class="ttc" id="anamespaceMRE_html"><div class="ttname"><a href="namespaceMRE.html">MRE</a></div><div class="ttdef"><b>Definition:</b> MREBooleanOperation.h:8</div></div>
 <div class="ttc" id="anamespaceMRE_html_a6c7941927eb7cb536c3e13bb86edc725"><div class="ttname"><a href="namespaceMRE.html#a6c7941927eb7cb536c3e13bb86edc725">MRE::PointsTriangulationPluginInstance</a></div><div class="ttdeci">MREPLUGINS_API PointsTriangulationPlugin PointsTriangulationPluginInstance</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MREViewerSetup.h:5</div></div>
 <div class="ttc" id="astructMRE_1_1TriangulationHelpers_1_1TriangulatedFan_html"><div class="ttname"><a href="structMRE_1_1TriangulationHelpers_1_1TriangulatedFan.html">MRE::TriangulationHelpers::TriangulatedFan</a></div><div class="ttdef"><b>Definition:</b> MREPointCloudTriangulationHelpers.h:22</div></div>
 <div class="ttc" id="astructMRE_1_1TriangulationParameters_html"><div class="ttname"><a href="structMRE_1_1TriangulationParameters.html">MRE::TriangulationParameters</a></div><div class="ttdef"><b>Definition:</b> MREPointCloudTriangulation.h:12</div></div>
+<div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition:</b> MRMesh.h:13</div></div>
+<div class="ttc" id="astructMR_1_1Plane3_html"><div class="ttname"><a href="structMR_1_1Plane3.html">MR::Plane3&lt; float &gt;</a></div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3&lt; float &gt;</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

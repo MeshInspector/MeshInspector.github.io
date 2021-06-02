@@ -22,6 +22,7 @@
 /* @license-end */
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -104,13 +105,13 @@ $(document).ready(function(){initNavTree('structMRE_1_1MeshMeshConverter.html','
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a79c2fc020ccfd157e90c705099316ed2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMRE_1_1TransformedMesh.html">TransformedMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1MeshMeshConverter.html#a79c2fc020ccfd157e90c705099316ed2">operator()</a> (MR::Mesh mesh, const MR::AffineXf3f &amp;xf={}) const</td></tr>
+<tr class="memitem:a79c2fc020ccfd157e90c705099316ed2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMRE_1_1TransformedMesh.html">TransformedMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1MeshMeshConverter.html#a79c2fc020ccfd157e90c705099316ed2">operator()</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> mesh, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">MR::AffineXf3f</a> &amp;xf={}) const</td></tr>
 <tr class="separator:a79c2fc020ccfd157e90c705099316ed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36f0e2de35bf2faca987b5e6f417e15c"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1TransformedMesh.html">TransformedMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1MeshMeshConverter.html#a36f0e2de35bf2faca987b5e6f417e15c">operator()</a> (const MR::ObjectMesh &amp;obj) const</td></tr>
+<tr class="memitem:a36f0e2de35bf2faca987b5e6f417e15c"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1TransformedMesh.html">TransformedMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1MeshMeshConverter.html#a36f0e2de35bf2faca987b5e6f417e15c">operator()</a> (const <a class="el" href="classMR_1_1ObjectMesh.html">MR::ObjectMesh</a> &amp;obj) const</td></tr>
 <tr class="separator:a36f0e2de35bf2faca987b5e6f417e15c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2435c9f455f3acf31dfc0ce678cc0c61"><td class="memItemLeft" align="right" valign="top">const MR::Mesh &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1MeshMeshConverter.html#a2435c9f455f3acf31dfc0ce678cc0c61">operator()</a> (const <a class="el" href="structMRE_1_1TransformedMesh.html">TransformedMesh</a> &amp;xm) const</td></tr>
+<tr class="memitem:a2435c9f455f3acf31dfc0ce678cc0c61"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1MeshMeshConverter.html#a2435c9f455f3acf31dfc0ce678cc0c61">operator()</a> (const <a class="el" href="structMRE_1_1TransformedMesh.html">TransformedMesh</a> &amp;xm) const</td></tr>
 <tr class="separator:a2435c9f455f3acf31dfc0ce678cc0c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a443f5ef678a461c7778ab58168d1496d"><td class="memItemLeft" align="right" valign="top">MR::Mesh &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1MeshMeshConverter.html#a443f5ef678a461c7778ab58168d1496d">operator()</a> (<a class="el" href="structMRE_1_1TransformedMesh.html">TransformedMesh</a> &amp;&amp;xm) const</td></tr>
+<tr class="memitem:a443f5ef678a461c7778ab58168d1496d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1MeshMeshConverter.html#a443f5ef678a461c7778ab58168d1496d">operator()</a> (<a class="el" href="structMRE_1_1TransformedMesh.html">TransformedMesh</a> &amp;&amp;xm) const</td></tr>
 <tr class="separator:a443f5ef678a461c7778ab58168d1496d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -125,7 +126,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">MREALGORITHMS_API <a class="el" href="structMRE_1_1TransformedMesh.html">TransformedMesh</a> MRE::MeshMeshConverter::operator() </td>
           <td>(</td>
-          <td class="paramtype">const MR::ObjectMesh &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1ObjectMesh.html">MR::ObjectMesh</a> &amp;&#160;</td>
           <td class="paramname"><em>obj</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -144,7 +145,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const MR::Mesh&amp; MRE::MeshMeshConverter::operator() </td>
+          <td class="memname">const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>&amp; MRE::MeshMeshConverter::operator() </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMRE_1_1TransformedMesh.html">TransformedMesh</a> &amp;&#160;</td>
           <td class="paramname"><em>xm</em></td><td>)</td>
@@ -172,13 +173,13 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="structMRE_1_1TransformedMesh.html">TransformedMesh</a> MRE::MeshMeshConverter::operator() </td>
           <td>(</td>
-          <td class="paramtype">MR::Mesh&#160;</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>&#160;</td>
           <td class="paramname"><em>mesh</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const MR::AffineXf3f &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">MR::AffineXf3f</a> &amp;&#160;</td>
           <td class="paramname"><em>xf</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
@@ -206,7 +207,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MR::Mesh&amp;&amp; MRE::MeshMeshConverter::operator() </td>
+          <td class="memname"><a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>&amp;&amp; MRE::MeshMeshConverter::operator() </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMRE_1_1TransformedMesh.html">TransformedMesh</a> &amp;&amp;&#160;</td>
           <td class="paramname"><em>xm</em></td><td>)</td>

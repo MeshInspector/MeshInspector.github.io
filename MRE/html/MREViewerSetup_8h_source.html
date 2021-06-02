@@ -22,6 +22,7 @@
 /* @license-end */
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -97,23 +98,26 @@ $(document).ready(function(){initNavTree('MREViewerSetup_8h_source.html',''); in
 </div><!--header-->
 <div class="contents">
 <a href="MREViewerSetup_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;MRViewer/MRSetupViewer.h&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRSetupViewer_8h.html">MRViewer/MRSetupViewer.h</a>&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="namespaceMR.html">    4</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">class </span>Viewer;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1Viewer.html">Viewer</a>;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMRE.html">MRE</a></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classMRE_1_1ViewerSetup.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMRE_1_1ViewerSetup.html">ViewerSetup</a> : <span class="keyword">public</span> MR::ViewerSetup</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classMRE_1_1ViewerSetup.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMRE_1_1ViewerSetup.html">ViewerSetup</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1ViewerSetup.html">MR::ViewerSetup</a></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classMRE_1_1ViewerSetup.html#a85eead52878446772f35fb3ed4437757">   14</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMRE_1_1ViewerSetup.html#a85eead52878446772f35fb3ed4437757">setupCommonPlugins</a>( MR::Viewer* viewer ) <span class="keyword">const override</span>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classMRE_1_1ViewerSetup.html#a85eead52878446772f35fb3ed4437757">   14</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMRE_1_1ViewerSetup.html#a85eead52878446772f35fb3ed4437757">setupCommonPlugins</a>( <a class="code" href="classMR_1_1Viewer.html">MR::Viewer</a>* viewer ) <span class="keyword">const override</span>;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;};</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div>
+<div class="ttc" id="aMRSetupViewer_8h_html"><div class="ttname"><a href="MRSetupViewer_8h.html">MRSetupViewer.h</a></div></div>
 <div class="ttc" id="aclassMRE_1_1ViewerSetup_html"><div class="ttname"><a href="classMRE_1_1ViewerSetup.html">MRE::ViewerSetup</a></div><div class="ttdef"><b>Definition:</b> MREViewerSetup.h:12</div></div>
 <div class="ttc" id="aclassMRE_1_1ViewerSetup_html_a85eead52878446772f35fb3ed4437757"><div class="ttname"><a href="classMRE_1_1ViewerSetup.html#a85eead52878446772f35fb3ed4437757">MRE::ViewerSetup::setupCommonPlugins</a></div><div class="ttdeci">virtual void setupCommonPlugins(MR::Viewer *viewer) const override</div></div>
+<div class="ttc" id="aclassMR_1_1ViewerSetup_html"><div class="ttname"><a href="classMR_1_1ViewerSetup.html">MR::ViewerSetup</a></div><div class="ttdef"><b>Definition:</b> MRSetupViewer.h:10</div></div>
+<div class="ttc" id="aclassMR_1_1Viewer_html"><div class="ttname"><a href="classMR_1_1Viewer.html">MR::Viewer</a></div><div class="ttdef"><b>Definition:</b> MRMeshViewer.h:52</div></div>
 <div class="ttc" id="anamespaceMRE_html"><div class="ttname"><a href="namespaceMRE.html">MRE</a></div><div class="ttdef"><b>Definition:</b> MREBooleanOperation.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MREViewerSetup.h:5</div></div>
 </div><!-- fragment --></div><!-- contents -->

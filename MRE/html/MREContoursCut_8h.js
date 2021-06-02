@@ -9,6 +9,7 @@ var MREContoursCut_8h =
     [ "convertMeshTriPointsToClosedContour", "MREContoursCut_8h.html#a34f46179c96ce39c5ba94580b9fc1151", null ],
     [ "convertSurfacePathsToMeshContours", "MREContoursCut_8h.html#a4691347d3996bcfbf33023cdbc98f754", null ],
     [ "cutMesh", "MREContoursCut_8h.html#a9e479d0d02c34a3f7eaea80c8a8f0aef", null ],
-    [ "getOneMeshIntersectionContours", "MREContoursCut_8h.html#a11c3c97bad809b33354886986a534dfe", null ],
+    [ "cutMeshWithPlane", "MREContoursCut_8h.html#a6a02c9c09c62bd4cefa1b56914360e05", null ],
+    [ "getOneMeshIntersectionContours", "MREContoursCut_8h.html#ab47690743a0ee040b928656dee2d5738", null ],
     [ "subdivideLoneContours", "MREContoursCut_8h.html#a5a26b776b4772970a00cb1c4aea6c741", null ]
 ];

@@ -22,6 +22,7 @@
 /* @license-end */
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -99,19 +100,28 @@ $(document).ready(function(){initNavTree('MREFillContourByGraphCut_8h_source.htm
 <a href="MREFillContourByGraphCut_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;exports.h&quot;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;MRMesh/MRMeshFwd.h&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;MRMesh/MREdgePaths.h&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="MREdgePaths_8h.html">MRMesh/MREdgePaths.h</a>&gt;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMRE.html">MRE</a></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="namespaceMRE.html#a26acbffd5aa332518ac7f5ea749f0f13">   13</a></span>&#160;MREALGORITHMS_API MR::FaceBitSet <a class="code" href="namespaceMRE.html#a26acbffd5aa332518ac7f5ea749f0f13">fillContourLeftByGraphCut</a>( <span class="keyword">const</span> MR::MeshTopology &amp; topology, <span class="keyword">const</span> std::vector&lt;MR::EdgeId&gt; &amp; contour,</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">const</span> MR::EdgeMetric &amp; metric );</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="namespaceMRE.html#abcebc86d2e702ef5e817c20a30a4943c">   13</a></span>&#160;MREALGORITHMS_API <a class="code" href="classMR_1_1TaggedBitSet.html">MR::FaceBitSet</a> <a class="code" href="namespaceMRE.html#abcebc86d2e702ef5e817c20a30a4943c">fillContourLeftByGraphCut</a>( <span class="keyword">const</span> <a class="code" href="classMR_1_1MeshTopology.html">MR::MeshTopology</a> &amp; topology, <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">MR::EdgePath</a> &amp; contour,</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">const</span> <a class="code" href="namespaceMR.html#ad2c254a94a3837629d1540a9a1aeda9f">MR::EdgeMetric</a> &amp; metric );</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;} <span class="comment">//namespace MRE</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="namespaceMRE.html#aa33ac4215490b00cf9b5acec1abaf8a5">   18</a></span>&#160;MREALGORITHMS_API <a class="code" href="classMR_1_1TaggedBitSet.html">MR::FaceBitSet</a> <a class="code" href="namespaceMRE.html#abcebc86d2e702ef5e817c20a30a4943c">fillContourLeftByGraphCut</a>( <span class="keyword">const</span> <a class="code" href="classMR_1_1MeshTopology.html">MR::MeshTopology</a> &amp; topology, <span class="keyword">const</span> std::vector&lt;MR::EdgePath&gt; &amp; contours,</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">const</span> <a class="code" href="namespaceMR.html#ad2c254a94a3837629d1540a9a1aeda9f">MR::EdgeMetric</a> &amp; metric );</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;} <span class="comment">//namespace MRE</span></div>
+<div class="ttc" id="aMREdgePaths_8h_html"><div class="ttname"><a href="MREdgePaths_8h.html">MREdgePaths.h</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="ttc" id="aclassMR_1_1MeshTopology_html"><div class="ttname"><a href="classMR_1_1MeshTopology.html">MR::MeshTopology</a></div><div class="ttdef"><b>Definition:</b> MRMeshTopology.h:13</div></div>
+<div class="ttc" id="aclassMR_1_1TaggedBitSet_html"><div class="ttname"><a href="classMR_1_1TaggedBitSet.html">MR::TaggedBitSet&lt; FaceTag &gt;</a></div></div>
 <div class="ttc" id="anamespaceMRE_html"><div class="ttname"><a href="namespaceMRE.html">MRE</a></div><div class="ttdef"><b>Definition:</b> MREBooleanOperation.h:8</div></div>
-<div class="ttc" id="anamespaceMRE_html_a26acbffd5aa332518ac7f5ea749f0f13"><div class="ttname"><a href="namespaceMRE.html#a26acbffd5aa332518ac7f5ea749f0f13">MRE::fillContourLeftByGraphCut</a></div><div class="ttdeci">MREALGORITHMS_API MR::FaceBitSet fillContourLeftByGraphCut(const MR::MeshTopology &amp;topology, const std::vector&lt; MR::EdgeId &gt; &amp;contour, const MR::EdgeMetric &amp;metric)</div></div>
+<div class="ttc" id="anamespaceMRE_html_abcebc86d2e702ef5e817c20a30a4943c"><div class="ttname"><a href="namespaceMRE.html#abcebc86d2e702ef5e817c20a30a4943c">MRE::fillContourLeftByGraphCut</a></div><div class="ttdeci">MREALGORITHMS_API MR::FaceBitSet fillContourLeftByGraphCut(const MR::MeshTopology &amp;topology, const MR::EdgePath &amp;contour, const MR::EdgeMetric &amp;metric)</div></div>
+<div class="ttc" id="anamespaceMR_html_a526402792c1d3b8d8903535592613b9f"><div class="ttname"><a href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">MR::EdgePath</a></div><div class="ttdeci">std::vector&lt; EdgeId &gt; EdgePath</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:39</div></div>
+<div class="ttc" id="anamespaceMR_html_ad2c254a94a3837629d1540a9a1aeda9f"><div class="ttname"><a href="namespaceMR.html#ad2c254a94a3837629d1540a9a1aeda9f">MR::EdgeMetric</a></div><div class="ttdeci">std::function&lt; float(EdgeId)&gt; EdgeMetric</div><div class="ttdef"><b>Definition:</b> MREdgePaths.h:10</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

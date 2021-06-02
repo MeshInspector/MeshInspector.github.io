@@ -22,6 +22,7 @@
 /* @license-end */
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -98,9 +99,9 @@ $(document).ready(function(){initNavTree('MREPointCloudTriangulation_8h_source.h
 <div class="contents">
 <a href="MREPointCloudTriangulation_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;exports.h&quot;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;MRMesh/MRMeshFwd.h&quot;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;MRMesh/MRConstants.h&quot;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;MRMesh/MRMesh.h&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRConstants_8h.html">MRMesh/MRConstants.h</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRMesh_8h.html">MRMesh/MRMesh.h</a>&quot;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMRE.html">MRE</a></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
@@ -115,14 +116,19 @@ $(document).ready(function(){initNavTree('MREPointCloudTriangulation_8h_source.h
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;};</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">// Creates mesh from given point cloud</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="namespaceMRE.html#a0e2755dc75c01fe3f58709fb3d0940bf">   20</a></span>&#160;MREALGORITHMS_API MR::Mesh <a class="code" href="namespaceMRE.html#a0e2755dc75c01fe3f58709fb3d0940bf">triangulatePointCloud</a>( <span class="keyword">const</span> MR::PointCloud&amp; pointCloud, <span class="keyword">const</span> <a class="code" href="structMRE_1_1TriangulationParameters.html">TriangulationParameters</a>&amp; params = {} );</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="namespaceMRE.html#a0e2755dc75c01fe3f58709fb3d0940bf">   20</a></span>&#160;MREALGORITHMS_API <a class="code" href="structMR_1_1Mesh.html">MR::Mesh</a> <a class="code" href="namespaceMRE.html#a0e2755dc75c01fe3f58709fb3d0940bf">triangulatePointCloud</a>( <span class="keyword">const</span> <a class="code" href="structMR_1_1PointCloud.html">MR::PointCloud</a>&amp; pointCloud, <span class="keyword">const</span> <a class="code" href="structMRE_1_1TriangulationParameters.html">TriangulationParameters</a>&amp; params = {} );</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
+<div class="ttc" id="aMRConstants_8h_html"><div class="ttname"><a href="MRConstants_8h.html">MRConstants.h</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="MRMesh_8h.html">MRMesh.h</a></div></div>
 <div class="ttc" id="anamespaceMRE_html"><div class="ttname"><a href="namespaceMRE.html">MRE</a></div><div class="ttdef"><b>Definition:</b> MREBooleanOperation.h:8</div></div>
 <div class="ttc" id="anamespaceMRE_html_a0e2755dc75c01fe3f58709fb3d0940bf"><div class="ttname"><a href="namespaceMRE.html#a0e2755dc75c01fe3f58709fb3d0940bf">MRE::triangulatePointCloud</a></div><div class="ttdeci">MREALGORITHMS_API MR::Mesh triangulatePointCloud(const MR::PointCloud &amp;pointCloud, const TriangulationParameters &amp;params={})</div></div>
 <div class="ttc" id="astructMRE_1_1TriangulationParameters_html"><div class="ttname"><a href="structMRE_1_1TriangulationParameters.html">MRE::TriangulationParameters</a></div><div class="ttdef"><b>Definition:</b> MREPointCloudTriangulation.h:12</div></div>
 <div class="ttc" id="astructMRE_1_1TriangulationParameters_html_aa5b9a619e31c0c6a290f58f7544d5ee7"><div class="ttname"><a href="structMRE_1_1TriangulationParameters.html#aa5b9a619e31c0c6a290f58f7544d5ee7">MRE::TriangulationParameters::critAngle</a></div><div class="ttdeci">float critAngle</div><div class="ttdef"><b>Definition:</b> MREPointCloudTriangulation.h:14</div></div>
 <div class="ttc" id="astructMRE_1_1TriangulationParameters_html_abb46c0fd74910004b6de69db2ec0c097"><div class="ttname"><a href="structMRE_1_1TriangulationParameters.html#abb46c0fd74910004b6de69db2ec0c097">MRE::TriangulationParameters::critHoleLength</a></div><div class="ttdeci">float critHoleLength</div><div class="ttdef"><b>Definition:</b> MREPointCloudTriangulation.h:15</div></div>
 <div class="ttc" id="astructMRE_1_1TriangulationParameters_html_af400aee87df5591d4dbec3a2391a5197"><div class="ttname"><a href="structMRE_1_1TriangulationParameters.html#af400aee87df5591d4dbec3a2391a5197">MRE::TriangulationParameters::avgNumNeighbours</a></div><div class="ttdeci">int avgNumNeighbours</div><div class="ttdef"><b>Definition:</b> MREPointCloudTriangulation.h:13</div></div>
+<div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition:</b> MRMesh.h:13</div></div>
+<div class="ttc" id="astructMR_1_1PointCloud_html"><div class="ttname"><a href="structMR_1_1PointCloud.html">MR::PointCloud</a></div><div class="ttdef"><b>Definition:</b> MRPointCloud.h:12</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

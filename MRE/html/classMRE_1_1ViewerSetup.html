@@ -22,6 +22,7 @@
 /* @license-end */
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -105,13 +106,25 @@ $(document).ready(function(){initNavTree('classMRE_1_1ViewerSetup.html',''); ini
 Inheritance diagram for MRE::ViewerSetup:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="classMRE_1_1ViewerSetup.png" alt=""/>
- </div></div>
+  <img src="classMRE_1_1ViewerSetup.png" usemap="#MRE::ViewerSetup_map" alt=""/>
+  <map id="MRE::ViewerSetup_map" name="MRE::ViewerSetup_map">
+<area href="classMR_1_1ViewerSetup.html" alt="MR::ViewerSetup" shape="rect" coords="0,0,117,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a85eead52878446772f35fb3ed4437757"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMRE_1_1ViewerSetup.html#a85eead52878446772f35fb3ed4437757">setupCommonPlugins</a> (MR::Viewer *viewer) const override</td></tr>
+<tr class="memitem:a85eead52878446772f35fb3ed4437757"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMRE_1_1ViewerSetup.html#a85eead52878446772f35fb3ed4437757">setupCommonPlugins</a> (<a class="el" href="classMR_1_1Viewer.html">MR::Viewer</a> *viewer) const override</td></tr>
 <tr class="separator:a85eead52878446772f35fb3ed4437757"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classMR_1_1ViewerSetup"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classMR_1_1ViewerSetup')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMR_1_1ViewerSetup.html">MR::ViewerSetup</a></td></tr>
+<tr class="memitem:ad710377da9db0167119877240d5b2d05 inherit pub_methods_classMR_1_1ViewerSetup"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ViewerSetup.html#ad710377da9db0167119877240d5b2d05">setupBasePlugins</a> (<a class="el" href="classMR_1_1Viewer.html">Viewer</a> *viewer) const</td></tr>
+<tr class="separator:ad710377da9db0167119877240d5b2d05 inherit pub_methods_classMR_1_1ViewerSetup"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09a564a2d5de18a6d13fc8a49eee1cea inherit pub_methods_classMR_1_1ViewerSetup"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ViewerSetup.html#a09a564a2d5de18a6d13fc8a49eee1cea">setupCommonModifiers</a> (<a class="el" href="classMR_1_1Viewer.html">Viewer</a> *viewer) const</td></tr>
+<tr class="separator:a09a564a2d5de18a6d13fc8a49eee1cea inherit pub_methods_classMR_1_1ViewerSetup"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ba29b362190cbfc386b59d8051f8b06 inherit pub_methods_classMR_1_1ViewerSetup"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ViewerSetup.html#a9ba29b362190cbfc386b59d8051f8b06">setupSettingsManager</a> (<a class="el" href="classMR_1_1Viewer.html">Viewer</a> *viewer, const std::string &amp;appName) const</td></tr>
+<tr class="separator:a9ba29b362190cbfc386b59d8051f8b06 inherit pub_methods_classMR_1_1ViewerSetup"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a918f69117bd46f408fda277cad5fde2d inherit pub_methods_classMR_1_1ViewerSetup"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ViewerSetup.html#a918f69117bd46f408fda277cad5fde2d">setupConfiguration</a> (<a class="el" href="classMR_1_1Viewer.html">Viewer</a> *viewer) const</td></tr>
+<tr class="separator:a918f69117bd46f408fda277cad5fde2d inherit pub_methods_classMR_1_1ViewerSetup"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a85eead52878446772f35fb3ed4437757"></a>
@@ -126,7 +139,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual void MRE::ViewerSetup::setupCommonPlugins </td>
           <td>(</td>
-          <td class="paramtype">MR::Viewer *&#160;</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Viewer.html">MR::Viewer</a> *&#160;</td>
           <td class="paramname"><em>viewer</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -137,6 +150,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classMR_1_1ViewerSetup.html#a1877481149992e3f534892abcbab09cc">MR::ViewerSetup</a>.</p>
 
 </div>
 </div>

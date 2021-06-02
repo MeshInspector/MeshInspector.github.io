@@ -22,6 +22,7 @@
 /* @license-end */
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -101,9 +102,9 @@ $(document).ready(function(){initNavTree('MREPointCloudTriangulationHelpers_8h.h
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;exports.h&quot;</code><br />
-<code>#include &quot;MRMesh/MRMeshFwd.h&quot;</code><br />
-<code>#include &quot;MRMesh/MRVector.h&quot;</code><br />
-<code>#include &quot;MRMesh/MRId.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMesh/MRMeshFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRVector_8h_source.html">MRMesh/MRVector.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRId_8h_source.html">MRMesh/MRId.h</a>&quot;</code><br />
 <code>#include &lt;climits&gt;</code><br />
 </div>
 <p><a href="MREPointCloudTriangulationHelpers_8h_source.html">Go to the source code of this file.</a></p>
@@ -122,11 +123,11 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4666ab0962adfa54f1b547221f3c4005"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE_1_1TriangulationHelpers.html#a4666ab0962adfa54f1b547221f3c4005">MRE::TriangulationHelpers::updateNeighborsRadius</a> (const MR::VertCoords &amp;points, MR::VertId v, const std::vector&lt; MR::VertId &gt; &amp;fan, float baseRadius)</td></tr>
+<tr class="memitem:a4666ab0962adfa54f1b547221f3c4005"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE_1_1TriangulationHelpers.html#a4666ab0962adfa54f1b547221f3c4005">MRE::TriangulationHelpers::updateNeighborsRadius</a> (const <a class="el" href="namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5">MR::VertCoords</a> &amp;points, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">MR::VertId</a> v, const std::vector&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">MR::VertId</a> &gt; &amp;fan, float baseRadius)</td></tr>
 <tr class="separator:a4666ab0962adfa54f1b547221f3c4005"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7359a99774286adff20e01ecb2a45589"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API std::vector&lt; MR::VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE_1_1TriangulationHelpers.html#a7359a99774286adff20e01ecb2a45589">MRE::TriangulationHelpers::findNeighbors</a> (const MR::PointCloud &amp;pointCloud, MR::VertId v, float radius)</td></tr>
+<tr class="memitem:a7359a99774286adff20e01ecb2a45589"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API std::vector&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">MR::VertId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE_1_1TriangulationHelpers.html#a7359a99774286adff20e01ecb2a45589">MRE::TriangulationHelpers::findNeighbors</a> (const <a class="el" href="structMR_1_1PointCloud.html">MR::PointCloud</a> &amp;pointCloud, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">MR::VertId</a> v, float radius)</td></tr>
 <tr class="separator:a7359a99774286adff20e01ecb2a45589"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7d2ce87c4a1649e373618c27d0eebda"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API TriangulatedFan&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE_1_1TriangulationHelpers.html#aa7d2ce87c4a1649e373618c27d0eebda">MRE::TriangulationHelpers::trianglulateFan</a> (const MR::VertCoords &amp;points, MR::VertId v, const std::vector&lt; MR::VertId &gt; &amp;neighbors, const MR::Vector3f &amp;normal, float critAngle, int steps=INT_MAX)</td></tr>
+<tr class="memitem:aa7d2ce87c4a1649e373618c27d0eebda"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API TriangulatedFan&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE_1_1TriangulationHelpers.html#aa7d2ce87c4a1649e373618c27d0eebda">MRE::TriangulationHelpers::trianglulateFan</a> (const <a class="el" href="namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5">MR::VertCoords</a> &amp;points, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">MR::VertId</a> v, const std::vector&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">MR::VertId</a> &gt; &amp;neighbors, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">MR::Vector3f</a> &amp;normal, float critAngle, int steps=INT_MAX)</td></tr>
 <tr class="separator:aa7d2ce87c4a1649e373618c27d0eebda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

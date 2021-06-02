@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['outsidea_321',['OutsideA',['../namespaceMRE.html#acb4a2073036a155fa7f07f2fdc347007a9a03bdff82f27d2bf0997d9c54855711',1,'MRE']]],
-  ['outsideb_322',['OutsideB',['../namespaceMRE.html#acb4a2073036a155fa7f07f2fdc347007a6c72337a335f60bed93678d35bd0165f',1,'MRE']]]
+  ['inside_5304',['Inside',['../classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5a21796cca7989a91c8335cd29c782f5be',1,'MR::VolumeSegmenter::Inside()'],['../classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457a4283b93e69f9bf090a59fe6e0fbc24ef',1,'MR::MarkedVoxelSlice::Inside()']]],
+  ['insidea_5305',['InsideA',['../namespaceMRE.html#acb4a2073036a155fa7f07f2fdc347007a833b7406c91f551bd8502cf76bb95c29',1,'MRE']]],
+  ['insideb_5306',['InsideB',['../namespaceMRE.html#acb4a2073036a155fa7f07f2fdc347007a9f3e5e704c939dff3070cf175df0b75d',1,'MRE']]],
+  ['intersection_5307',['Intersection',['../namespaceMRE.html#acb4a2073036a155fa7f07f2fdc347007aa06d31c2ee920b4d53e8c9c06d90ba24',1,'MRE']]],
+  ['invalid_5308',['Invalid',['../namespaceMR.html#aa7203f0917dc651aa1261d90d266752ea4bbb8f967da6d1a610596d7257179c2b',1,'MR']]],
+  ['invertednormals_5309',['InvertedNormals',['../structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0aa9ab245ec9543cca01132dc23aa905f1',1,'MR::VisualizeMaskType']]]
 ];

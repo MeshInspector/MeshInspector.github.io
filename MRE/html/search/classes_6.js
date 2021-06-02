@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sortintersectionsdata_173',['SortIntersectionsData',['../structMRE_1_1SortIntersectionsData.html',1,'MRE']]]
+  ['geodesicpathplugin_2707',['GeodesicPathPlugin',['../classMR_1_1GeodesicPathPlugin.html',1,'MR']]]
 ];

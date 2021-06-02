@@ -1,12 +1,9 @@
 var searchData=
 [
-  ['maps_275',['maps',['../structMRE_1_1BooleanResultMapper.html#a0f9f1f285538d51415ccbb262a34298b',1,'MRE::BooleanResultMapper']]],
-  ['maxdeletedfaces_276',['maxDeletedFaces',['../structMRE_1_1DecimateSettings.html#adf0808d90e559c56f406a3c8b779d1c3',1,'MRE::DecimateSettings']]],
-  ['maxdeletedvertices_277',['maxDeletedVertices',['../structMRE_1_1DecimateSettings.html#a0c9612c442978c84b93928b3fd674a40',1,'MRE::DecimateSettings']]],
-  ['maxerror_278',['maxError',['../structMRE_1_1DecimateSettings.html#a38c75c2b0f972f02c4940ce0498487d3',1,'MRE::DecimateSettings']]],
-  ['maxtriangleaspectratio_279',['maxTriangleAspectRatio',['../structMRE_1_1DecimateSettings.html#aa9e747580fa45ea2f0e80a8fcd1a974f',1,'MRE::DecimateSettings']]],
-  ['mesh_280',['mesh',['../structMRE_1_1BooleanResult.html#a1aac27432ac15cd3c68b3799471ebda3',1,'MRE::BooleanResult::mesh()'],['../structMRE_1_1TransformedMesh.html#a4681d29324da22cf18528fb5cbab9975',1,'MRE::TransformedMesh::mesh()']]],
-  ['meshabadcontourfaces_281',['meshABadContourFaces',['../structMRE_1_1BooleanResult.html#ab91be46390417cf15b60554fdb3a4833',1,'MRE::BooleanResult']]],
-  ['meshavertsnum_282',['meshAVertsNum',['../structMRE_1_1SortIntersectionsData.html#a06c3eaddbe70eaa9f76eebe26d3dd203',1,'MRE::SortIntersectionsData']]],
-  ['meshbbadcontourfaces_283',['meshBBadContourFaces',['../structMRE_1_1BooleanResult.html#ab744a0a943cc6b74351a6a3b7c0edea3',1,'MRE::BooleanResult']]]
+  ['hack_5fnever_5fmoved_4791',['hack_never_moved',['../classMR_1_1Viewer.html#aafee7d3c227327c87e0aecf3357c8ab8',1,'MR::Viewer']]],
+  ['hasedgemetric_4792',['hasEdgeMetric',['../structMR_1_1FillHoleMetric.html#a2adaa9cd49a1857d7740bf19bb65298e',1,'MR::FillHoleMetric']]],
+  ['height_4793',['height',['../structMR_1_1Viewer_1_1LaunchParams.html#a01ee995f48e4c9ae9e9e647802e95d92',1,'MR::Viewer::LaunchParams::height()'],['../structMR_1_1Viewport_1_1ViewportRectangle.html#a2e6ec493b9087ce989458e2753a0e968',1,'MR::Viewport::ViewportRectangle::height()'],['../structMR_1_1ViewportGL_1_1PickParameters.html#a10063f03c3386b344163316f7d3cce8e',1,'MR::ViewportGL::PickParameters::height()']]],
+  ['hideinit_4794',['HideInit',['../structMR_1_1Viewer_1_1LaunchParams.html#aee4a5e4c0acc89c577fb3063aaaecdf9',1,'MR::Viewer::LaunchParams']]],
+  ['hintdirection_4795',['hintDirection',['../structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ab5009f894a6360e076076d4379d340f2',1,'MR::FixUndercuts::ImproveDirectionParameters']]],
+  ['httptestplugininstace_4796',['HttpTestPluginInstace',['../namespaceMR.html#a110d66f8753c144cac5e49f8c85f3a64',1,'MR']]]
 ];

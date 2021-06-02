@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshRusExt: Main Page</title>
+<title>MeshRusExt: Overview</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,6 +22,7 @@
 /* @license-end */
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -91,26 +92,52 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </iframe>
 </div>
 
-<div class="header">
+<div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">MeshRusExt Documentation</div>  </div>
+<div class="title">Overview </div>  </div>
 </div><!--header-->
 <div class="contents">
-<ul><li><a href="index.html"><span>Main&#160;Page</span></a>
-</li><li><a href="namespaces.html"><span>Namespaces</span></a>
-<ul><li><a href="namespaces.html"><span>Namespace&#160;List</span></a>
-</li><li><a href="namespacemembers.html"><span>Namespace&#160;Members</span></a>
-</li></ul>
-</li><li><a href="annotated.html"><span>Classes</span></a>
-<ul><li><a href="annotated.html"><span>Class&#160;List</span></a>
-</li><li><a href="classes.html"><span>Class&#160;Index</span></a>
-</li><li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a>
-</li><li><a href="functions.html"><span>Class&#160;Members</span></a>
-</li></ul>
-</li><li><a href="files.html"><span>Files</span></a>
-<ul><li><a href="files.html"><span>File&#160;List</span></a>
-</li></ul>
-</li></ul>
+<div class="textblock"><h1><a class="anchor" id="HomePageBuildWin"></a>
+Build with VS2019 on Windows</h1>
+<div class="fragment"><div class="line">$ git clone --recurse-submodules https:<span class="comment">//github.com/MeshRUs/MeshRusExt.git</span></div>
+</div><!-- fragment --><p><b>Preparing</b> <b>Third</b> <b>Parties</b> <br  />
+Some third parties are taken from vcpkg, while others (missing in vcpkg) are configured as git submodules. <br  />
+ <br  />
+<b>Vcpkg:</b> </p><ol type="1">
+<li>Please install vcpkg, and integrate it into Visual Studio (note that vcpkg requires English laguage pack installed in Visual Studio): <div class="fragment"><div class="line">$ git clone https:<span class="comment">//github.com/Microsoft/vcpkg.git</span></div>
+<div class="line">$ cd vcpkg</div>
+<div class="line">$ git checkout ea11604579181b0ff790be223ee3ded3068142f9</div>
+<div class="line">$ .\bootstrap-vcpkg.bat</div>
+<div class="line">$ .\vcpkg integrate install (with admin rights)</div>
+</div><!-- fragment --> More details here: <a href="https://github.com/microsoft/vcpkg">vcpkg</a></li>
+<li>Copy <b>MeshRUs/thirdparty/vcpkg/triplets/x64-windows-meshrus.cmake</b> to <b>vcpkg/triplets</b> folder of vcpkg installation.</li>
+<li>Execute install.bat <div class="fragment"><div class="line">$ cd vcpkg # or add vcpcg to PATH</div>
+<div class="line">$ work/MeshRusExt/MeshRUs/thirdparty/install.bat</div>
+</div><!-- fragment --></li>
+<li><a class="el" href="classMR_1_1Open.html">Open</a> solution file <b>MeshRusExt/source/MeshRusExt.sln</b> in Visual Studio 2019. Build it and run.</li>
+</ol>
+<h1><a class="anchor" id="HomePageBuildLin"></a>
+Build with CMake on Linux</h1>
+<p>This installation was checked on Ubuntu 20.04.4 with cmake 3.19.3 and gcc 9.3.0.<br  />
+Installation process is automated, but takes ~40 minutes if no required packages are already installed.. <br  />
+<b>Install/Build</b> <b>dependencies</b>. <b>Build</b> <b>project</b>. <b>Run</b> <b>Test</b> <b>Application</b> Run the following in terminal: </p><div class="fragment"><div class="line">$ git clone https:<span class="comment">//github.com/AllWish/MeshRusExt.git</span></div>
+<div class="line">$ cd MeshRusExt</div>
+<div class="line">$ ./install.sh</div>
+<div class="line">$ ./build.sh</div>
+<div class="line">$ ./installMRE.sh #optional</div>
+<div class="line">$ ./build/Release/bin/MREApp</div>
+</div><!-- fragment --> <dl class="section note"><dt>Note</dt><dd>./install.sh required root access sometimes during installation. However, it's not recommended to run the whole script with sudo. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>You could specify build type to Debug by <code>export</code> <code>MESHRUS_BUILD_TYPE=Debug</code> , <em>Release</em> is default. </dd></dl>
+<p>Find more:</p><ul>
+<li><a class="el" href="DataModel.html">Data model overview </a></li>
+<li><a class="el" href="CustomPluginsHelp.html">Custom plugins overview </a></li>
+<li><a class="el" href="SpacesHelp.html">Spaces and transformations </a></li>
+<li><a class="el" href="EmbendedPythonOverview.html">Python overview </a></li>
+<li><a class="el" href="SupportedGPUs.html">Supported GPUs </a></li>
+<li><a class="el" href="group__FillHoleGroup.html">Fill Hole overview </a></li>
+<li><a class="el" href="namespaceMR_1_1MeshBuilder.html">Mesh Building </a> </li>
+</ul>
+</div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

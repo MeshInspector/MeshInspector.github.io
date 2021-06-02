@@ -22,6 +22,7 @@
 /* @license-end */
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -142,11 +143,17 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateResult.html">DecimateResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateParallelSettings.html">DecimateParallelSettings</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1TriangulationParameters.html">TriangulationParameters</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMRE_1_1ViewerSetup.html">ViewerSetup</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMRE_1_1BooleanTest.html">BooleanTest</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMRE_1_1CutMeshWithPlanePlugin.html">CutMeshWithPlanePlugin</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMRE_1_1DecimateParallelPlugin.html">DecimateParallelPlugin</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMRE_1_1DecimatePlugin.html">DecimatePlugin</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,7 +170,7 @@ Classes</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:acd19dbcaab8b5c59b50149c8d2b330f8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#acd19dbcaab8b5c59b50149c8d2b330f8">OneMeshContours</a> = std::vector&lt; <a class="el" href="structMRE_1_1OneMeshContour.html">OneMeshContour</a> &gt;</td></tr>
 <tr class="separator:acd19dbcaab8b5c59b50149c8d2b330f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2cd6f79d99102a7d40c552eeb5e628af"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a2cd6f79d99102a7d40c552eeb5e628af">PathMeshEdgePointCallback</a> = std::function&lt; void(const MR::MeshEdgePoint &amp;mep)&gt;</td></tr>
+<tr class="memitem:a2cd6f79d99102a7d40c552eeb5e628af"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a2cd6f79d99102a7d40c552eeb5e628af">PathMeshEdgePointCallback</a> = std::function&lt; void(const <a class="el" href="structMR_1_1MeshEdgePoint.html">MR::MeshEdgePoint</a> &amp;mep)&gt;</td></tr>
 <tr class="separator:a2cd6f79d99102a7d40c552eeb5e628af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89a8a3bb0b2bf3e3d03f57a2743d24df"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a89a8a3bb0b2bf3e3d03f57a2743d24df">ContinuousContour</a> = std::vector&lt; <a class="el" href="structMRE_1_1VariableEdgeTri.html">VariableEdgeTri</a> &gt;</td></tr>
 <tr class="separator:a89a8a3bb0b2bf3e3d03f57a2743d24df"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,29 +197,33 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4faab346696caac0dd986e1c4af86c34"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API tl::expected&lt; MR::Mesh, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a4faab346696caac0dd986e1c4af86c34">doBooleanOperation</a> (const MR::Mesh &amp;meshACut, const MR::Mesh &amp;meshBCut, const std::vector&lt; MR::EdgePath &gt; &amp;cutEdgesA, const std::vector&lt; MR::EdgePath &gt; &amp;cutEdgesB, <a class="el" href="namespaceMRE.html#acb4a2073036a155fa7f07f2fdc347007">BooleanOperation</a> operation, const MR::AffineXf3f *rigidB2A=nullptr, <a class="el" href="structMRE_1_1BooleanResultMapper.html">BooleanResultMapper</a> *mapper=nullptr)</td></tr>
+<tr class="memitem:a4faab346696caac0dd986e1c4af86c34"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a4faab346696caac0dd986e1c4af86c34">doBooleanOperation</a> (const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;meshACut, const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;meshBCut, const std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">MR::EdgePath</a> &gt; &amp;cutEdgesA, const std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">MR::EdgePath</a> &gt; &amp;cutEdgesB, <a class="el" href="namespaceMRE.html#acb4a2073036a155fa7f07f2fdc347007">BooleanOperation</a> operation, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">MR::AffineXf3f</a> *rigidB2A=nullptr, <a class="el" href="structMRE_1_1BooleanResultMapper.html">BooleanResultMapper</a> *mapper=nullptr)</td></tr>
 <tr class="separator:a4faab346696caac0dd986e1c4af86c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a26b776b4772970a00cb1c4aea6c741"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a5a26b776b4772970a00cb1c4aea6c741">subdivideLoneContours</a> (MR::Mesh &amp;mesh, const <a class="el" href="namespaceMRE.html#acd19dbcaab8b5c59b50149c8d2b330f8">OneMeshContours</a> &amp;contours, MR::FaceMap *new2oldMap=nullptr)</td></tr>
+<tr class="memitem:a5a26b776b4772970a00cb1c4aea6c741"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a5a26b776b4772970a00cb1c4aea6c741">subdivideLoneContours</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const <a class="el" href="namespaceMRE.html#acd19dbcaab8b5c59b50149c8d2b330f8">OneMeshContours</a> &amp;contours, <a class="el" href="namespaceMR.html#a989bcd374602a615d0acbd6a4988b9b3">MR::FaceMap</a> *new2oldMap=nullptr)</td></tr>
 <tr class="separator:a5a26b776b4772970a00cb1c4aea6c741"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11c3c97bad809b33354886986a534dfe"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="namespaceMRE.html#acd19dbcaab8b5c59b50149c8d2b330f8">OneMeshContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a11c3c97bad809b33354886986a534dfe">getOneMeshIntersectionContours</a> (const MR::Mesh &amp;meshA, const MR::Mesh &amp;meshB, const <a class="el" href="namespaceMRE.html#a14acccada5510bacf19d15af21bf2d79">ContinuousContours</a> &amp;contours, bool getMeshAIntersections, const MR::AffineXf3f *rigidB2A=nullptr)</td></tr>
-<tr class="separator:a11c3c97bad809b33354886986a534dfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34f46179c96ce39c5ba94580b9fc1151"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1OneMeshContour.html">OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a34f46179c96ce39c5ba94580b9fc1151">convertMeshTriPointsToClosedContour</a> (const MR::Mesh &amp;mesh, const std::vector&lt; MR::MeshTriPoint &gt; &amp;meshTriPoints)</td></tr>
+<tr class="memitem:ab47690743a0ee040b928656dee2d5738"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="namespaceMRE.html#acd19dbcaab8b5c59b50149c8d2b330f8">OneMeshContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#ab47690743a0ee040b928656dee2d5738">getOneMeshIntersectionContours</a> (const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;meshB, const <a class="el" href="namespaceMRE.html#a14acccada5510bacf19d15af21bf2d79">ContinuousContours</a> &amp;contours, bool getMeshAIntersections, const <a class="el" href="structMR_1_1CoordinateConverters.html">MR::CoordinateConverters</a> &amp;converters, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">MR::AffineXf3f</a> *rigidB2A=nullptr)</td></tr>
+<tr class="separator:ab47690743a0ee040b928656dee2d5738"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34f46179c96ce39c5ba94580b9fc1151"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1OneMeshContour.html">OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a34f46179c96ce39c5ba94580b9fc1151">convertMeshTriPointsToClosedContour</a> (const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MR::MeshTriPoint</a> &gt; &amp;meshTriPoints)</td></tr>
 <tr class="separator:a34f46179c96ce39c5ba94580b9fc1151"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4691347d3996bcfbf33023cdbc98f754"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="namespaceMRE.html#acd19dbcaab8b5c59b50149c8d2b330f8">OneMeshContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a4691347d3996bcfbf33023cdbc98f754">convertSurfacePathsToMeshContours</a> (const MR::Mesh &amp;mesh, const std::vector&lt; MR::SurfacePath &gt; &amp;surfacePaths)</td></tr>
+<tr class="memitem:a4691347d3996bcfbf33023cdbc98f754"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="namespaceMRE.html#acd19dbcaab8b5c59b50149c8d2b330f8">OneMeshContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a4691347d3996bcfbf33023cdbc98f754">convertSurfacePathsToMeshContours</a> (const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="namespaceMR.html#a6f060a604c3462c7d0b1df7dac703237">MR::SurfacePath</a> &gt; &amp;surfacePaths)</td></tr>
 <tr class="separator:a4691347d3996bcfbf33023cdbc98f754"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e479d0d02c34a3f7eaea80c8a8f0aef"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1CutMeshResult.html">CutMeshResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a9e479d0d02c34a3f7eaea80c8a8f0aef">cutMesh</a> (MR::Mesh &amp;mesh, const <a class="el" href="namespaceMRE.html#acd19dbcaab8b5c59b50149c8d2b330f8">OneMeshContours</a> &amp;contours, const <a class="el" href="structMRE_1_1CutMeshParameters.html">CutMeshParameters</a> &amp;params={})</td></tr>
+<tr class="memitem:a9e479d0d02c34a3f7eaea80c8a8f0aef"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1CutMeshResult.html">CutMeshResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a9e479d0d02c34a3f7eaea80c8a8f0aef">cutMesh</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const <a class="el" href="namespaceMRE.html#acd19dbcaab8b5c59b50149c8d2b330f8">OneMeshContours</a> &amp;contours, const <a class="el" href="structMRE_1_1CutMeshParameters.html">CutMeshParameters</a> &amp;params={})</td></tr>
 <tr class="separator:a9e479d0d02c34a3f7eaea80c8a8f0aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa560ba5ad80d3d44f9aab77449ea0a21"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API std::vector&lt; MR::FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#aa560ba5ad80d3d44f9aab77449ea0a21">separateClosedContour</a> (const MR::Mesh &amp;mesh, const std::vector&lt; MR::Vector3f &gt; &amp;contour, const <a class="el" href="namespaceMRE.html#a2cd6f79d99102a7d40c552eeb5e628af">PathMeshEdgePointCallback</a> &amp;cb={})</td></tr>
+<tr class="memitem:a6a02c9c09c62bd4cefa1b56914360e05"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a6a02c9c09c62bd4cefa1b56914360e05">cutMeshWithPlane</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">MR::Plane3f</a> &amp;plane)</td></tr>
+<tr class="separator:a6a02c9c09c62bd4cefa1b56914360e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa560ba5ad80d3d44f9aab77449ea0a21"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API std::vector&lt; <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">MR::FaceBitSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#aa560ba5ad80d3d44f9aab77449ea0a21">separateClosedContour</a> (const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">MR::Vector3f</a> &gt; &amp;contour, const <a class="el" href="namespaceMRE.html#a2cd6f79d99102a7d40c552eeb5e628af">PathMeshEdgePointCallback</a> &amp;cb={})</td></tr>
 <tr class="separator:aa560ba5ad80d3d44f9aab77449ea0a21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26acbffd5aa332518ac7f5ea749f0f13"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API MR::FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a26acbffd5aa332518ac7f5ea749f0f13">fillContourLeftByGraphCut</a> (const MR::MeshTopology &amp;topology, const std::vector&lt; MR::EdgeId &gt; &amp;contour, const MR::EdgeMetric &amp;metric)</td></tr>
-<tr class="separator:a26acbffd5aa332518ac7f5ea749f0f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87c60fbd4d59c0efc37803a679cf38ae"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="namespaceMRE.html#a14acccada5510bacf19d15af21bf2d79">ContinuousContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a87c60fbd4d59c0efc37803a679cf38ae">orderIntersectionContours</a> (const MR::MeshTopology &amp;topologyA, const MR::MeshTopology &amp;topologyB, const MR::PreciseCollisionResult &amp;intersections)</td></tr>
+<tr class="memitem:abcebc86d2e702ef5e817c20a30a4943c"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">MR::FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#abcebc86d2e702ef5e817c20a30a4943c">fillContourLeftByGraphCut</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MR::MeshTopology</a> &amp;topology, const <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">MR::EdgePath</a> &amp;contour, const <a class="el" href="namespaceMR.html#ad2c254a94a3837629d1540a9a1aeda9f">MR::EdgeMetric</a> &amp;metric)</td></tr>
+<tr class="separator:abcebc86d2e702ef5e817c20a30a4943c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa33ac4215490b00cf9b5acec1abaf8a5"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">MR::FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#aa33ac4215490b00cf9b5acec1abaf8a5">fillContourLeftByGraphCut</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MR::MeshTopology</a> &amp;topology, const std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">MR::EdgePath</a> &gt; &amp;contours, const <a class="el" href="namespaceMR.html#ad2c254a94a3837629d1540a9a1aeda9f">MR::EdgeMetric</a> &amp;metric)</td></tr>
+<tr class="separator:aa33ac4215490b00cf9b5acec1abaf8a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87c60fbd4d59c0efc37803a679cf38ae"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="namespaceMRE.html#a14acccada5510bacf19d15af21bf2d79">ContinuousContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a87c60fbd4d59c0efc37803a679cf38ae">orderIntersectionContours</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MR::MeshTopology</a> &amp;topologyA, const <a class="el" href="classMR_1_1MeshTopology.html">MR::MeshTopology</a> &amp;topologyB, const <a class="el" href="structMR_1_1PreciseCollisionResult.html">MR::PreciseCollisionResult</a> &amp;intersections)</td></tr>
 <tr class="separator:a87c60fbd4d59c0efc37803a679cf38ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2610b22d861bfd4605e806aed98670d1"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a2610b22d861bfd4605e806aed98670d1">detectLoneContours</a> (const <a class="el" href="namespaceMRE.html#a14acccada5510bacf19d15af21bf2d79">ContinuousContours</a> &amp;contours)</td></tr>
 <tr class="separator:a2610b22d861bfd4605e806aed98670d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac17ef2b176ef194a9212d5bd501aba82"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#ac17ef2b176ef194a9212d5bd501aba82">removeLoneContours</a> (<a class="el" href="namespaceMRE.html#a14acccada5510bacf19d15af21bf2d79">ContinuousContours</a> &amp;contours)</td></tr>
 <tr class="separator:ac17ef2b176ef194a9212d5bd501aba82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad88fd116eef1ce6930ecfb0a426e0633"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1BooleanResult.html">BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#ad88fd116eef1ce6930ecfb0a426e0633">boolean</a> (const MR::Mesh &amp;meshA, const MR::Mesh &amp;meshB, <a class="el" href="namespaceMRE.html#acb4a2073036a155fa7f07f2fdc347007">BooleanOperation</a> opearation, const MR::AffineXf3f *rigidB2A=nullptr, <a class="el" href="structMRE_1_1BooleanResultMapper.html">BooleanResultMapper</a> *mapper=nullptr)</td></tr>
+<tr class="memitem:ad88fd116eef1ce6930ecfb0a426e0633"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1BooleanResult.html">BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#ad88fd116eef1ce6930ecfb0a426e0633">boolean</a> (const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;meshB, <a class="el" href="namespaceMRE.html#acb4a2073036a155fa7f07f2fdc347007">BooleanOperation</a> opearation, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">MR::AffineXf3f</a> *rigidB2A=nullptr, <a class="el" href="structMRE_1_1BooleanResultMapper.html">BooleanResultMapper</a> *mapper=nullptr)</td></tr>
 <tr class="separator:ad88fd116eef1ce6930ecfb0a426e0633"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82b23ad477df2fb4f8d071a28f503723"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a82b23ad477df2fb4f8d071a28f503723">loadMREAlgorithmsDll</a> ()</td></tr>
 <tr class="separator:a82b23ad477df2fb4f8d071a28f503723"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -225,19 +236,25 @@ Functions</h2></td></tr>
 <tr class="memitem:a4a1b638977f454de1614d2caffc291f3"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1TransformedMesh.html">TransformedMesh</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a4a1b638977f454de1614d2caffc291f3">operator*=</a> (<a class="el" href="structMRE_1_1TransformedMesh.html">TransformedMesh</a> &amp;a, const <a class="el" href="structMRE_1_1TransformedMesh.html">TransformedMesh</a> &amp;b)</td></tr>
 <tr class="memdesc:a4a1b638977f454de1614d2caffc291f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">intersection operation on two meshes  <a href="namespaceMRE.html#a4a1b638977f454de1614d2caffc291f3">More...</a><br /></td></tr>
 <tr class="separator:a4a1b638977f454de1614d2caffc291f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f4ed5382008a7fff13610607c6c5719"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimateResult.html">DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a9f4ed5382008a7fff13610607c6c5719">decimateMesh</a> (MR::Mesh &amp;mesh, const <a class="el" href="structMRE_1_1DecimateSettings.html">DecimateSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:a9f4ed5382008a7fff13610607c6c5719"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimateResult.html">DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a9f4ed5382008a7fff13610607c6c5719">decimateMesh</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const <a class="el" href="structMRE_1_1DecimateSettings.html">DecimateSettings</a> &amp;settings={})</td></tr>
 <tr class="separator:a9f4ed5382008a7fff13610607c6c5719"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91f7142ffa3c4fbaaf6fca4e46789664"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API Mesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a91f7142ffa3c4fbaaf6fca4e46789664">partialOffsetMesh</a> (const MeshPart &amp;mp, float offset, const OffsetParameters &amp;params={})</td></tr>
+<tr class="memitem:a9c9b6750549d4bf9a222a9d5bd509a43"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimateResult.html">DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a9c9b6750549d4bf9a222a9d5bd509a43">decimateParallelMesh</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const <a class="el" href="structMRE_1_1DecimateParallelSettings.html">DecimateParallelSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:a9c9b6750549d4bf9a222a9d5bd509a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91f7142ffa3c4fbaaf6fca4e46789664"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a91f7142ffa3c4fbaaf6fca4e46789664">partialOffsetMesh</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float offset, const <a class="el" href="structMR_1_1OffsetParameters.html">OffsetParameters</a> &amp;params={})</td></tr>
 <tr class="separator:a91f7142ffa3c4fbaaf6fca4e46789664"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e2755dc75c01fe3f58709fb3d0940bf"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API MR::Mesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a0e2755dc75c01fe3f58709fb3d0940bf">triangulatePointCloud</a> (const MR::PointCloud &amp;pointCloud, const <a class="el" href="structMRE_1_1TriangulationParameters.html">TriangulationParameters</a> &amp;params={})</td></tr>
+<tr class="memitem:a0e2755dc75c01fe3f58709fb3d0940bf"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a0e2755dc75c01fe3f58709fb3d0940bf">triangulatePointCloud</a> (const <a class="el" href="structMR_1_1PointCloud.html">MR::PointCloud</a> &amp;pointCloud, const <a class="el" href="structMRE_1_1TriangulationParameters.html">TriangulationParameters</a> &amp;params={})</td></tr>
 <tr class="separator:a0e2755dc75c01fe3f58709fb3d0940bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77a3bf655fb87f08c40a5a5808bd1de0"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API std::vector&lt; MR::EdgeId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a77a3bf655fb87f08c40a5a5808bd1de0">surroundingContour</a> (const MR::Mesh &amp;mesh, const std::vector&lt; MR::EdgeId &gt; includeEdgeOrgs, const MR::EdgeMetric &amp;edgeMetric, const MR::Vector3f &amp;dir)</td></tr>
+<tr class="memitem:a77a3bf655fb87f08c40a5a5808bd1de0"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">MR::EdgeId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a77a3bf655fb87f08c40a5a5808bd1de0">surroundingContour</a> (const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">MR::EdgeId</a> &gt; includeEdgeOrgs, const <a class="el" href="namespaceMR.html#ad2c254a94a3837629d1540a9a1aeda9f">MR::EdgeMetric</a> &amp;edgeMetric, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">MR::Vector3f</a> &amp;dir)</td></tr>
 <tr class="separator:a77a3bf655fb87f08c40a5a5808bd1de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:af1479e8b9b3eed3dfd7aa3714d03102f"><td class="memItemLeft" align="right" valign="top">MREPLUGINS_API <a class="el" href="classMRE_1_1BooleanTest.html">BooleanTest</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#af1479e8b9b3eed3dfd7aa3714d03102f">BooleanTestInstance</a></td></tr>
 <tr class="separator:af1479e8b9b3eed3dfd7aa3714d03102f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fc99abc1386614ae30e01e93a05282e"><td class="memItemLeft" align="right" valign="top">MREPLUGINS_API <a class="el" href="classMRE_1_1CutMeshWithPlanePlugin.html">CutMeshWithPlanePlugin</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a7fc99abc1386614ae30e01e93a05282e">CutMeshWithPlanePluginInstance</a></td></tr>
+<tr class="separator:a7fc99abc1386614ae30e01e93a05282e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a414ea930070d1f0230a5d8767b8977fe"><td class="memItemLeft" align="right" valign="top">MREPLUGINS_API <a class="el" href="classMRE_1_1DecimateParallelPlugin.html">DecimateParallelPlugin</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a414ea930070d1f0230a5d8767b8977fe">DecimateParallelPluginInstance</a></td></tr>
+<tr class="separator:a414ea930070d1f0230a5d8767b8977fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d60ece6176ce31766c7f20ae360bfda"><td class="memItemLeft" align="right" valign="top">MREPLUGINS_API <a class="el" href="classMRE_1_1DecimatePlugin.html">DecimatePlugin</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a4d60ece6176ce31766c7f20ae360bfda">DecimatePluginInstance</a></td></tr>
 <tr class="separator:a4d60ece6176ce31766c7f20ae360bfda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7028649a1578cbab6edea166b54444ff"><td class="memItemLeft" align="right" valign="top">MREPLUGINS_API <a class="el" href="classMRE_1_1OffsetPlugin.html">OffsetPlugin</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a7028649a1578cbab6edea166b54444ff">OffsetPluginInstance</a></td></tr>
@@ -299,7 +316,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceMRE.html#a2cd6f79d99102a7d40c552eeb5e628af">MRE::PathMeshEdgePointCallback</a> = typedef std::function&lt;void( const MR::MeshEdgePoint&amp; mep )&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceMRE.html#a2cd6f79d99102a7d40c552eeb5e628af">MRE::PathMeshEdgePointCallback</a> = typedef std::function&lt;void( const <a class="el" href="structMR_1_1MeshEdgePoint.html">MR::MeshEdgePoint</a>&amp; mep )&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -359,13 +376,13 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">MREALGORITHMS_API <a class="el" href="structMRE_1_1BooleanResult.html">BooleanResult</a> MRE::boolean </td>
           <td>(</td>
-          <td class="paramtype">const MR::Mesh &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
           <td class="paramname"><em>meshA</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const MR::Mesh &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
           <td class="paramname"><em>meshB</em>, </td>
         </tr>
         <tr>
@@ -377,7 +394,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const MR::AffineXf3f *&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">MR::AffineXf3f</a> *&#160;</td>
           <td class="paramname"><em>rigidB2A</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
@@ -406,13 +423,13 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">MREALGORITHMS_API <a class="el" href="structMRE_1_1OneMeshContour.html">OneMeshContour</a> MRE::convertMeshTriPointsToClosedContour </td>
           <td>(</td>
-          <td class="paramtype">const MR::Mesh &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
           <td class="paramname"><em>mesh</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; MR::MeshTriPoint &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MR::MeshTriPoint</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>meshTriPoints</em>&#160;</td>
         </tr>
         <tr>
@@ -434,13 +451,13 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">MREALGORITHMS_API <a class="el" href="namespaceMRE.html#acd19dbcaab8b5c59b50149c8d2b330f8">OneMeshContours</a> MRE::convertSurfacePathsToMeshContours </td>
           <td>(</td>
-          <td class="paramtype">const MR::Mesh &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
           <td class="paramname"><em>mesh</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; MR::SurfacePath &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="namespaceMR.html#a6f060a604c3462c7d0b1df7dac703237">MR::SurfacePath</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>surfacePaths</em>&#160;</td>
         </tr>
         <tr>
@@ -462,7 +479,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">MREALGORITHMS_API <a class="el" href="structMRE_1_1CutMeshResult.html">CutMeshResult</a> MRE::cutMesh </td>
           <td>(</td>
-          <td class="paramtype">MR::Mesh &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
           <td class="paramname"><em>mesh</em>, </td>
         </tr>
         <tr>
@@ -487,6 +504,34 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a6a02c9c09c62bd4cefa1b56914360e05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a02c9c09c62bd4cefa1b56914360e05">&#9670;&nbsp;</a></span>cutMeshWithPlane()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MREALGORITHMS_API void MRE::cutMeshWithPlane </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">MR::Plane3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>plane</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9f4ed5382008a7fff13610607c6c5719"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9f4ed5382008a7fff13610607c6c5719">&#9670;&nbsp;</a></span>decimateMesh()</h2>
 
@@ -496,13 +541,41 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimateResult.html">DecimateResult</a> MRE::decimateMesh </td>
           <td>(</td>
-          <td class="paramtype">MR::Mesh &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
           <td class="paramname"><em>mesh</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structMRE_1_1DecimateSettings.html">DecimateSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>settings</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9c9b6750549d4bf9a222a9d5bd509a43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c9b6750549d4bf9a222a9d5bd509a43">&#9670;&nbsp;</a></span>decimateParallelMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimateResult.html">DecimateResult</a> MRE::decimateParallelMesh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMRE_1_1DecimateParallelSettings.html">DecimateParallelSettings</a> &amp;&#160;</td>
           <td class="paramname"><em>settings</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
@@ -540,27 +613,27 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MREALGORITHMS_API tl::expected&lt;MR::Mesh, std::string&gt; MRE::doBooleanOperation </td>
+          <td class="memname">MREALGORITHMS_API tl::expected&lt;<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string&gt; MRE::doBooleanOperation </td>
           <td>(</td>
-          <td class="paramtype">const MR::Mesh &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
           <td class="paramname"><em>meshACut</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const MR::Mesh &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
           <td class="paramname"><em>meshBCut</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; MR::EdgePath &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">MR::EdgePath</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>cutEdgesA</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; MR::EdgePath &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">MR::EdgePath</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>cutEdgesB</em>, </td>
         </tr>
         <tr>
@@ -572,7 +645,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const MR::AffineXf3f *&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">MR::AffineXf3f</a> *&#160;</td>
           <td class="paramname"><em>rigidB2A</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
@@ -592,28 +665,28 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a26acbffd5aa332518ac7f5ea749f0f13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26acbffd5aa332518ac7f5ea749f0f13">&#9670;&nbsp;</a></span>fillContourLeftByGraphCut()</h2>
+<a id="abcebc86d2e702ef5e817c20a30a4943c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcebc86d2e702ef5e817c20a30a4943c">&#9670;&nbsp;</a></span>fillContourLeftByGraphCut() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MREALGORITHMS_API MR::FaceBitSet MRE::fillContourLeftByGraphCut </td>
+          <td class="memname">MREALGORITHMS_API <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">MR::FaceBitSet</a> MRE::fillContourLeftByGraphCut </td>
           <td>(</td>
-          <td class="paramtype">const MR::MeshTopology &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MR::MeshTopology</a> &amp;&#160;</td>
           <td class="paramname"><em>topology</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; MR::EdgeId &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">MR::EdgePath</a> &amp;&#160;</td>
           <td class="paramname"><em>contour</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const MR::EdgeMetric &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ad2c254a94a3837629d1540a9a1aeda9f">MR::EdgeMetric</a> &amp;&#160;</td>
           <td class="paramname"><em>metric</em>&#160;</td>
         </tr>
         <tr>
@@ -623,12 +696,47 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Fill region located to the left from given edges, by minimizing the sum of metric over the boundary </p>
+<p>Fill region located to the left from given contour, by minimizing the sum of metric over the boundary </p>
 
 </div>
 </div>
-<a id="a11c3c97bad809b33354886986a534dfe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11c3c97bad809b33354886986a534dfe">&#9670;&nbsp;</a></span>getOneMeshIntersectionContours()</h2>
+<a id="aa33ac4215490b00cf9b5acec1abaf8a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa33ac4215490b00cf9b5acec1abaf8a5">&#9670;&nbsp;</a></span>fillContourLeftByGraphCut() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MREALGORITHMS_API <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">MR::FaceBitSet</a> MRE::fillContourLeftByGraphCut </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MR::MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">MR::EdgePath</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>contours</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ad2c254a94a3837629d1540a9a1aeda9f">MR::EdgeMetric</a> &amp;&#160;</td>
+          <td class="paramname"><em>metric</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Fill region located to the left from given contours, by minimizing the sum of metric over the boundary </p>
+
+</div>
+</div>
+<a id="ab47690743a0ee040b928656dee2d5738"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab47690743a0ee040b928656dee2d5738">&#9670;&nbsp;</a></span>getOneMeshIntersectionContours()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -636,13 +744,13 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">MREALGORITHMS_API <a class="el" href="namespaceMRE.html#acd19dbcaab8b5c59b50149c8d2b330f8">OneMeshContours</a> MRE::getOneMeshIntersectionContours </td>
           <td>(</td>
-          <td class="paramtype">const MR::Mesh &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
           <td class="paramname"><em>meshA</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const MR::Mesh &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
           <td class="paramname"><em>meshB</em>, </td>
         </tr>
         <tr>
@@ -660,7 +768,13 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const MR::AffineXf3f *&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1CoordinateConverters.html">MR::CoordinateConverters</a> &amp;&#160;</td>
+          <td class="paramname"><em>converters</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">MR::AffineXf3f</a> *&#160;</td>
           <td class="paramname"><em>rigidB2A</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
@@ -789,19 +903,19 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">MREALGORITHMS_API <a class="el" href="namespaceMRE.html#a14acccada5510bacf19d15af21bf2d79">ContinuousContours</a> MRE::orderIntersectionContours </td>
           <td>(</td>
-          <td class="paramtype">const MR::MeshTopology &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MR::MeshTopology</a> &amp;&#160;</td>
           <td class="paramname"><em>topologyA</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const MR::MeshTopology &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MR::MeshTopology</a> &amp;&#160;</td>
           <td class="paramname"><em>topologyB</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const MR::PreciseCollisionResult &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PreciseCollisionResult.html">MR::PreciseCollisionResult</a> &amp;&#160;</td>
           <td class="paramname"><em>intersections</em>&#160;</td>
         </tr>
         <tr>
@@ -821,9 +935,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MREALGORITHMS_API Mesh MRE::partialOffsetMesh </td>
+          <td class="memname">MREALGORITHMS_API <a class="el" href="structMR_1_1Mesh.html">Mesh</a> MRE::partialOffsetMesh </td>
           <td>(</td>
-          <td class="paramtype">const MeshPart &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
           <td class="paramname"><em>mp</em>, </td>
         </tr>
         <tr>
@@ -835,7 +949,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const OffsetParameters &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1OffsetParameters.html">OffsetParameters</a> &amp;&#160;</td>
           <td class="paramname"><em>params</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
@@ -874,15 +988,15 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MREALGORITHMS_API std::vector&lt;MR::FaceBitSet&gt; MRE::separateClosedContour </td>
+          <td class="memname">MREALGORITHMS_API std::vector&lt;<a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">MR::FaceBitSet</a>&gt; MRE::separateClosedContour </td>
           <td>(</td>
-          <td class="paramtype">const MR::Mesh &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
           <td class="paramname"><em>mesh</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; MR::Vector3f &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">MR::Vector3f</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>contour</em>, </td>
         </tr>
         <tr>
@@ -910,7 +1024,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">MREALGORITHMS_API void MRE::subdivideLoneContours </td>
           <td>(</td>
-          <td class="paramtype">MR::Mesh &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
           <td class="paramname"><em>mesh</em>, </td>
         </tr>
         <tr>
@@ -922,7 +1036,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR::FaceMap *&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a989bcd374602a615d0acbd6a4988b9b3">MR::FaceMap</a> *&#160;</td>
           <td class="paramname"><em>new2oldMap</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
@@ -942,27 +1056,27 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MREALGORITHMS_API std::vector&lt;MR::EdgeId&gt; MRE::surroundingContour </td>
+          <td class="memname">MREALGORITHMS_API std::vector&lt;<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">MR::EdgeId</a>&gt; MRE::surroundingContour </td>
           <td>(</td>
-          <td class="paramtype">const MR::Mesh &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
           <td class="paramname"><em>mesh</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; MR::EdgeId &gt;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">MR::EdgeId</a> &gt;&#160;</td>
           <td class="paramname"><em>includeEdgeOrgs</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const MR::EdgeMetric &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ad2c254a94a3837629d1540a9a1aeda9f">MR::EdgeMetric</a> &amp;&#160;</td>
           <td class="paramname"><em>edgeMetric</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const MR::Vector3f &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">MR::Vector3f</a> &amp;&#160;</td>
           <td class="paramname"><em>dir</em>&#160;</td>
         </tr>
         <tr>
@@ -990,9 +1104,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MREALGORITHMS_API MR::Mesh MRE::triangulatePointCloud </td>
+          <td class="memname">MREALGORITHMS_API <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> MRE::triangulatePointCloud </td>
           <td>(</td>
-          <td class="paramtype">const MR::PointCloud &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">MR::PointCloud</a> &amp;&#160;</td>
           <td class="paramname"><em>pointCloud</em>, </td>
         </tr>
         <tr>
@@ -1023,6 +1137,50 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">MREPLUGINS_API <a class="el" href="classMRE_1_1BooleanTest.html">BooleanTest</a> MRE::BooleanTestInstance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7fc99abc1386614ae30e01e93a05282e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fc99abc1386614ae30e01e93a05282e">&#9670;&nbsp;</a></span>CutMeshWithPlanePluginInstance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MREPLUGINS_API <a class="el" href="classMRE_1_1CutMeshWithPlanePlugin.html">CutMeshWithPlanePlugin</a> MRE::CutMeshWithPlanePluginInstance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a414ea930070d1f0230a5d8767b8977fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a414ea930070d1f0230a5d8767b8977fe">&#9670;&nbsp;</a></span>DecimateParallelPluginInstance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MREPLUGINS_API <a class="el" href="classMRE_1_1DecimateParallelPlugin.html">DecimateParallelPlugin</a> MRE::DecimateParallelPluginInstance</td>
         </tr>
       </table>
   </td>

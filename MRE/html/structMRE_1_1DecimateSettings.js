@@ -6,5 +6,6 @@ var structMRE_1_1DecimateSettings =
     [ "maxTriangleAspectRatio", "structMRE_1_1DecimateSettings.html#aa9e747580fa45ea2f0e80a8fcd1a974f", null ],
     [ "preCollapse", "structMRE_1_1DecimateSettings.html#aa4f17fd96340b37c98219b37f743d44e", null ],
     [ "region", "structMRE_1_1DecimateSettings.html#a5516325279c277f1368546f126ed95c5", null ],
-    [ "stabilizer", "structMRE_1_1DecimateSettings.html#a3c40fafa954eac9946ce998467a2449e", null ]
+    [ "stabilizer", "structMRE_1_1DecimateSettings.html#a3c40fafa954eac9946ce998467a2449e", null ],
+    [ "touchBdVertices", "structMRE_1_1DecimateSettings.html#a03b7e3ab435504e0885c7f48e9d0bd52", null ]
 ];

@@ -1,5 +1,7 @@
 var namespaces_dup =
 [
-    [ "MR", "namespaceMR.html", null ],
-    [ "MRE", "namespaceMRE.html", "namespaceMRE" ]
+    [ "Json", "namespaceJson.html", null ],
+    [ "MR", "namespaceMR.html", "namespaceMR" ],
+    [ "MRE", "namespaceMRE.html", "namespaceMRE" ],
+    [ "std", "namespacestd.html", "namespacestd" ]
 ];

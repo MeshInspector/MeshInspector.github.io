@@ -22,6 +22,7 @@
 /* @license-end */
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -114,9 +115,11 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a0c9612c442978c84b93928b3fd674a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf0808d90e559c56f406a3c8b779d1c3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateSettings.html#adf0808d90e559c56f406a3c8b779d1c3">maxDeletedFaces</a> = INT_MAX</td></tr>
 <tr class="separator:adf0808d90e559c56f406a3c8b779d1c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5516325279c277f1368546f126ed95c5"><td class="memItemLeft" align="right" valign="top">MR::FaceBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateSettings.html#a5516325279c277f1368546f126ed95c5">region</a> = nullptr</td></tr>
+<tr class="memitem:a5516325279c277f1368546f126ed95c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">MR::FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateSettings.html#a5516325279c277f1368546f126ed95c5">region</a> = nullptr</td></tr>
 <tr class="separator:a5516325279c277f1368546f126ed95c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4f17fd96340b37c98219b37f743d44e"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(MR::EdgeId edgeToCollapse, const MR::Vector3f &amp;newEdgeOrgPos)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateSettings.html#aa4f17fd96340b37c98219b37f743d44e">preCollapse</a></td></tr>
+<tr class="memitem:a03b7e3ab435504e0885c7f48e9d0bd52"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateSettings.html#a03b7e3ab435504e0885c7f48e9d0bd52">touchBdVertices</a> = true</td></tr>
+<tr class="separator:a03b7e3ab435504e0885c7f48e9d0bd52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4f17fd96340b37c98219b37f743d44e"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">MR::EdgeId</a> edgeToCollapse, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">MR::Vector3f</a> &amp;newEdgeOrgPos)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateSettings.html#aa4f17fd96340b37c98219b37f743d44e">preCollapse</a></td></tr>
 <tr class="separator:aa4f17fd96340b37c98219b37f743d44e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -183,7 +186,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;bool( MR::EdgeId edgeToCollapse, const MR::Vector3f &amp; newEdgeOrgPos)&gt; MRE::DecimateSettings::preCollapse</td>
+          <td class="memname">std::function&lt;bool( <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">MR::EdgeId</a> edgeToCollapse, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">MR::Vector3f</a> &amp; newEdgeOrgPos)&gt; MRE::DecimateSettings::preCollapse</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -197,7 +200,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MR::FaceBitSet* MRE::DecimateSettings::region = nullptr</td>
+          <td class="memname"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">MR::FaceBitSet</a>* MRE::DecimateSettings::region = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -212,6 +215,20 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">float MRE::DecimateSettings::stabilizer = 0.001f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a03b7e3ab435504e0885c7f48e9d0bd52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03b7e3ab435504e0885c7f48e9d0bd52">&#9670;&nbsp;</a></span>touchBdVertices</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MRE::DecimateSettings::touchBdVertices = true</td>
         </tr>
       </table>
 </div><div class="memdoc">
