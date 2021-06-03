@@ -1,10 +1,13 @@
 var searchData=
 [
-  ['redo_4923',['Redo',['../classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6',1,'MR::HistoryAction']]],
-  ['removeobject_4924',['RemoveObject',['../classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1af0c405ca8e7eb2c3fa3d102bb69b75a9',1,'MR::ChangeSceneAction']]],
-  ['repeat_4925',['Repeat',['../structMR_1_1MeshTexture.html#a02b38209ef48a938635275b79553f4e8abf724b46cc497b5490deda8598d4d9da',1,'MR::MeshTexture']]],
-  ['right_4926',['Right',['../classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6a92b09c7c48c520c3c55e497875da437c',1,'MR::Viewer']]],
-  ['rightleft_4927',['RightLeft',['../namespaceMR.html#a85e60c553cc81b298c4bfeac4a623b79a060e258e018b85df7750330be4f807c0',1,'MR']]],
-  ['rightright_4928',['RightRight',['../namespaceMR.html#a85e60c553cc81b298c4bfeac4a623b79a8282c1db2ec5b8780478223365a37438',1,'MR']]],
-  ['rotation_4929',['Rotation',['../classMR_1_1Viewer.html#a1e0f5398c54b70bf130b28dbe6795e37af1a42bd417390fc63b030a519624607a',1,'MR::Viewer']]]
+  ['pan_5034',['Pan',['../classMR_1_1Viewer.html#a1e0f5398c54b70bf130b28dbe6795e37af6d4a17b27da35c2d90ce13801f36782',1,'MR::Viewer']]],
+  ['peredge_5035',['PerEdge',['../namespaceMR_1_1MeshComponents.html#a7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc',1,'MR::MeshComponents']]],
+  ['pervertex_5036',['PerVertex',['../namespaceMR_1_1MeshComponents.html#a7489c91178e90fdd4200bbb0074e025fa2e9713a46619599c9d68465178a81a4c',1,'MR::MeshComponents']]],
+  ['picker_5037',['Picker',['../classMR_1_1ShadersHolder.html#af79d4956571eca0d639217ad9ec89767ac4dc377ef72564bbd9e10ee3fefbfe46',1,'MR::ShadersHolder']]],
+  ['plusx_5038',['PlusX',['../namespaceMR.html#aa7203f0917dc651aa1261d90d266752eaac53fa7ccf60e6f59512da11975eb8a7',1,'MR']]],
+  ['plusy_5039',['PlusY',['../namespaceMR.html#aa7203f0917dc651aa1261d90d266752ea89241a914ba5d59de9168c4416e69c4a',1,'MR']]],
+  ['plusz_5040',['PlusZ',['../namespaceMR.html#aa7203f0917dc651aa1261d90d266752ea59bb9bd5dd05e7aa8aca793a81266bb9',1,'MR']]],
+  ['pointcloud_5041',['PointCloud',['../namespaceMR.html#a2d7202863cb05ff9d821e23e1ba3f309aee9349b5cdfd717c7e1234edce6b72fa',1,'MR']]],
+  ['pointtoplane_5042',['PointToPlane',['../namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80ecac1f6f7fcdbf302503a3aca3a1cecf4c9',1,'MR']]],
+  ['pointtopoint_5043',['PointToPoint',['../namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80eca04cf1d449a94c748d561df329e72d3c7',1,'MR']]]
 ];

@@ -106,6 +106,7 @@ $(document).ready(function(){initNavTree('MRSerializer_8h.html',''); initResizab
 <code>#include &quot;<a class="el" href="MRVector3_8h_source.html">MRVector3.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRObject_8h_source.html">MRObject.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRVector4_8h_source.html">MRVector4.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRColor_8h_source.html">MRColor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRPlane3_8h_source.html">MRPlane3.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRIOFilters_8h_source.html">MRIOFilters.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
@@ -125,6 +126,8 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a162c591a97736a05bdcc729e6cb78f27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Json::Value, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a162c591a97736a05bdcc729e6cb78f27">MR::deserializeJsonValue</a> (const std::filesystem::path &amp;path)</td></tr>
+<tr class="separator:a162c591a97736a05bdcc729e6cb78f27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa844f4c2822362ef9839cf2c13e77a45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa844f4c2822362ef9839cf2c13e77a45">MR::serializeObjectTree</a> (const Object &amp;object, const std::filesystem::path &amp;path, ProgressCallback progress={}, SceneFolderCallback preCompress={})</td></tr>
 <tr class="separator:aa844f4c2822362ef9839cf2c13e77a45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8b043af7b6c494400e5e1dd16048ee1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; std::shared_ptr&lt; Object &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac8b043af7b6c494400e5e1dd16048ee1">MR::deserializeObjectTree</a> (const std::filesystem::path &amp;path, SceneFolderCallback postDecompress={})</td></tr>
@@ -143,6 +146,8 @@ Functions</h2></td></tr>
 <tr class="separator:a01084ea4b91576f192aeb68017e8e45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2460b57ac19911dbba07d61927a47ece"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a2460b57ac19911dbba07d61927a47ece">MR::serializeToJson</a> (const Vector4f &amp;vec, Json::Value &amp;root)</td></tr>
 <tr class="separator:a2460b57ac19911dbba07d61927a47ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6beb18d5f22f706bd29b9b4b1d2d1cad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6beb18d5f22f706bd29b9b4b1d2d1cad">MR::serializeToJson</a> (const Color &amp;col, Json::Value &amp;root)</td></tr>
+<tr class="separator:a6beb18d5f22f706bd29b9b4b1d2d1cad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53c68bc03d7be917f4add92f1809d832"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a53c68bc03d7be917f4add92f1809d832">MR::serializeToJson</a> (const Matrix3f &amp;matrix, Json::Value &amp;root)</td></tr>
 <tr class="separator:a53c68bc03d7be917f4add92f1809d832"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e070733b4ec64a16f1f77e579353148"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a9e070733b4ec64a16f1f77e579353148">MR::serializeToJson</a> (const AffineXf3f &amp;xf, Json::Value &amp;root)</td></tr>
@@ -165,6 +170,8 @@ Functions</h2></td></tr>
 <tr class="separator:aa945fd69c2b9a828d6f34e7bc34b9df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1155079bf2d53ebd19e08f2223fee2a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a1155079bf2d53ebd19e08f2223fee2a8">MR::deserializeFromJson</a> (const Json::Value &amp;root, Vector4f &amp;vec)</td></tr>
 <tr class="separator:a1155079bf2d53ebd19e08f2223fee2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab49dd82250557d820cf52d7cd3a59464"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab49dd82250557d820cf52d7cd3a59464">MR::deserializeFromJson</a> (const Json::Value &amp;root, Color &amp;col)</td></tr>
+<tr class="separator:ab49dd82250557d820cf52d7cd3a59464"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb2e68137af1a456b80b6a8574c03e6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aeb2e68137af1a456b80b6a8574c03e6e">MR::deserializeFromJson</a> (const Json::Value &amp;root, Matrix3f &amp;matrix)</td></tr>
 <tr class="separator:aeb2e68137af1a456b80b6a8574c03e6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6c9fafbe5675e06061b897d2e92f138"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa6c9fafbe5675e06061b897d2e92f138">MR::deserializeFromJson</a> (const Json::Value &amp;root, AffineXf3f &amp;xf)</td></tr>

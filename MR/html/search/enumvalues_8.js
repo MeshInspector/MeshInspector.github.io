@@ -1,11 +1,10 @@
 var searchData=
 [
-  ['mesh_4898',['Mesh',['../namespaceMR.html#a2d7202863cb05ff9d821e23e1ba3f309a710fdb6adb881b408116ef95335e1961',1,'MR']]],
-  ['meshborder_4899',['MeshBorder',['../classMR_1_1ShadersHolder.html#af79d4956571eca0d639217ad9ec89767a64778590d92eb3d9ff92434eea76436a',1,'MR::ShadersHolder']]],
-  ['meshvisualizepropscount_4900',['MeshVisualizePropsCount',['../structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aaca47d49bd0b4cc06e95cdf1809edaea35c',1,'MR::MeshVisualizePropertyType']]],
-  ['middle_4901',['Middle',['../classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6ab1ca34f82e83c52b010f86955f264e05',1,'MR::Viewer']]],
-  ['minusx_4902',['MinusX',['../namespaceMR.html#aa7203f0917dc651aa1261d90d266752ea6ee0807f5bf1b3e0a4d52919eb298454',1,'MR']]],
-  ['minusy_4903',['MinusY',['../namespaceMR.html#aa7203f0917dc651aa1261d90d266752ea9cc816b8a2117db796c073f012e78565',1,'MR']]],
-  ['minusz_4904',['MinusZ',['../namespaceMR.html#aa7203f0917dc651aa1261d90d266752ea65661216a3acfdac8c58d97d97fa10cb',1,'MR']]],
-  ['mirror_4905',['Mirror',['../structMR_1_1MeshTexture.html#a02b38209ef48a938635275b79553f4e8af5aa5a772aaa30d632f256b6ec486cc1',1,'MR::MeshTexture']]]
+  ['labels_5012',['Labels',['../structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0a3b012823a9cc50e12b9060c0dab3f27d',1,'MR::VisualizeMaskType']]],
+  ['left_5013',['Left',['../classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6a945d5e233cf7d6240f6b783b36a374ff',1,'MR::Viewer']]],
+  ['leftleft_5014',['LeftLeft',['../namespaceMR.html#a85e60c553cc81b298c4bfeac4a623b79ae270ac72e33fbdf09168012bc0852677',1,'MR']]],
+  ['leftright_5015',['LeftRight',['../namespaceMR.html#a85e60c553cc81b298c4bfeac4a623b79a203407e92909f81d61b55175a37980cf',1,'MR']]],
+  ['linear_5016',['Linear',['../structMR_1_1MeshTexture.html#af1e3ecc1afaf1be483ef74f020eac23fac94f3c768d554f71834a769f7ed86300',1,'MR::MeshTexture']]],
+  ['lossless_5017',['Lossless',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69dab7048ff6b4f97b9230b2365b31d16713',1,'MR::MeshSave::CtmSaveOptions']]],
+  ['lossy_5018',['Lossy',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69dab71142391f68646086edeadddcf020dc',1,'MR::MeshSave::CtmSaveOptions']]]
 ];

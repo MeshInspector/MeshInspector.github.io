@@ -3,11 +3,11 @@ var group__FillHoleGroup =
     [ "FillHoleParams", "structMR_1_1FillHoleParams.html", [
       [ "avoidMultipleEdges", "structMR_1_1FillHoleParams.html#a9e574672d42cb7bdda9f3a54dcc284d1", null ],
       [ "makeDegenerateBand", "structMR_1_1FillHoleParams.html#a48c94df0c8cc044564e0e69c8f692c5a", null ],
-      [ "metric", "group__FillHoleGroup.html#gaa82c166cb6925a8fda6da015701442ce", null ],
+      [ "metric", "structMR_1_1FillHoleParams.html#aa82c166cb6925a8fda6da015701442ce", null ],
       [ "outNewFaces", "structMR_1_1FillHoleParams.html#a1789bd574d007a370fe6164d4f5ca7c4", null ]
     ] ],
     [ "StitchHolesParams", "structMR_1_1StitchHolesParams.html", [
-      [ "metric", "group__FillHoleGroup.html#gad81bcff35af9102ec52402c510cb7b83", null ],
+      [ "metric", "structMR_1_1StitchHolesParams.html#ad81bcff35af9102ec52402c510cb7b83", null ],
       [ "outNewFaces", "structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66", null ]
     ] ],
     [ "FillHoleMetric", "structMR_1_1FillHoleMetric.html", [
@@ -56,7 +56,5 @@ var group__FillHoleGroup =
     ] ],
     [ "buildCylinderBetweenTwoHoles", "group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157", null ],
     [ "fillHole", "group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05", null ],
-    [ "fillHoleTrivially", "group__FillHoleGroup.html#ga0241a36cc2b1016fd0cf66e9ae71f722", null ],
-    [ "metric", "group__FillHoleGroup.html#gaa82c166cb6925a8fda6da015701442ce", null ],
-    [ "metric", "group__FillHoleGroup.html#gad81bcff35af9102ec52402c510cb7b83", null ]
+    [ "fillHoleTrivially", "group__FillHoleGroup.html#ga0241a36cc2b1016fd0cf66e9ae71f722", null ]
 ];

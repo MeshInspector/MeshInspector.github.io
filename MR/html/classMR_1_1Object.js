@@ -25,6 +25,7 @@ var classMR_1_1Object =
     [ "getInfoLines", "classMR_1_1Object.html#a8d24eb57a42279d61ad035da8336d405", null ],
     [ "getRedrawFlag", "classMR_1_1Object.html#a4ae8a13d0528c5937e200015938b6dc5", null ],
     [ "globalVisibilty", "classMR_1_1Object.html#a103bf9954aaca0397244cd744ddf5f3b", null ],
+    [ "isAncestor", "classMR_1_1Object.html#a7c970b0fa099d812c04978d33c4b624e", null ],
     [ "isAncillary", "classMR_1_1Object.html#a3dcf68a5faec85e8e753e34ab77eb1b9", null ],
     [ "isLocked", "classMR_1_1Object.html#a6eccb1e855dd69fee11e337c65b467ec", null ],
     [ "isSelected", "classMR_1_1Object.html#a38fe398a8045849e40fb934dd6a2ddd5", null ],

@@ -134,8 +134,8 @@ $(document).ready(function(){initNavTree('structMR_1_1IConnectable.html',''); in
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a28c07761e682b80befbb2d5f91bdd38c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1IConnectable.html#a28c07761e682b80befbb2d5f91bdd38c">~IConnectable</a> ()=default</td></tr>
 <tr class="separator:a28c07761e682b80befbb2d5f91bdd38c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59566d76d7f7fcf2e19a0e3d77a18387"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1IConnectable.html#a59566d76d7f7fcf2e19a0e3d77a18387">connect</a> (<a class="el" href="classMR_1_1Viewer.html">Viewer</a> *viewer)=0</td></tr>
-<tr class="separator:a59566d76d7f7fcf2e19a0e3d77a18387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84d47c6204ef8f47a067e503aae3048a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1IConnectable.html#a84d47c6204ef8f47a067e503aae3048a">connect</a> (<a class="el" href="classMR_1_1Viewer.html">Viewer</a> *viewer, boost::signals2::connect_position pos=boost::signals2::connect_position::at_back)=0</td></tr>
+<tr class="separator:a84d47c6204ef8f47a067e503aae3048a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e18fe37723ce6b3587e47978c25ad71"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1IConnectable.html#a7e18fe37723ce6b3587e47978c25ad71">disconnect</a> ()=0</td></tr>
 <tr class="separator:a7e18fe37723ce6b3587e47978c25ad71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -166,8 +166,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a59566d76d7f7fcf2e19a0e3d77a18387"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59566d76d7f7fcf2e19a0e3d77a18387">&#9670;&nbsp;</a></span>connect()</h2>
+<a id="a84d47c6204ef8f47a067e503aae3048a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84d47c6204ef8f47a067e503aae3048a">&#9670;&nbsp;</a></span>connect()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -179,8 +179,18 @@ Public Member Functions</h2></td></tr>
           <td class="memname">virtual void MR::IConnectable::connect </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1Viewer.html">Viewer</a> *&#160;</td>
-          <td class="paramname"><em>viewer</em></td><td>)</td>
+          <td class="paramname"><em>viewer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">boost::signals2::connect_position&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>boost::signals2::connect_position::at_back</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -190,7 +200,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="structMR_1_1InterruptCloseListener.html#a7a7286c107ab2713e3e7b256f40f99e8">MR::InterruptCloseListener</a>, <a class="el" href="structMR_1_1PostResizeListener.html#ab1f33678b289efabe5661f29e32887a8">MR::PostResizeListener</a>, <a class="el" href="structMR_1_1DragDropListener.html#aaf11d2cc9fa9d4d63594f2ac3e7f4b7a">MR::DragDropListener</a>, <a class="el" href="structMR_1_1LoadListener.html#ac91d162d83ed98b166896914ff2241aa">MR::LoadListener</a>, <a class="el" href="structMR_1_1SaveListener.html#a93e28fbc73234ed032565705eee1abbd">MR::SaveListener</a>, <a class="el" href="structMR_1_1PostDrawListener.html#af5e1bf81db3a70efb0fcd8dd0591a052">MR::PostDrawListener</a>, <a class="el" href="structMR_1_1DrawListener.html#aacdedf3401ef716aaeb836836c046d22">MR::DrawListener</a>, <a class="el" href="structMR_1_1PreDrawListener.html#a9562ceb709f8752d6431288645f782a6">MR::PreDrawListener</a>, <a class="el" href="structMR_1_1KeyRepeatListener.html#aa3835f6cd7eaae3d7522cfd0f555d62e">MR::KeyRepeatListener</a>, <a class="el" href="structMR_1_1KeyDownListener.html#a49320fc10a1fadb5862deb9a1c61968d">MR::KeyDownListener</a>, <a class="el" href="structMR_1_1KeyUpListener.html#afbfc5d8c5e9404f7b41b3d5ba63dab2a">MR::KeyUpListener</a>, <a class="el" href="structMR_1_1CharPressedListener.html#a465fc08da2ef895c4d6af725a95e3637">MR::CharPressedListener</a>, <a class="el" href="structMR_1_1MouseScrollListener.html#a490d5fde93d247f9be4811487a1bbf0b">MR::MouseScrollListener</a>, <a class="el" href="structMR_1_1MouseMoveListener.html#a18881372493400a5b0c38b9b50bfc6fd">MR::MouseMoveListener</a>, <a class="el" href="structMR_1_1MouseUpListener.html#aff926f6c64dfc8ce1099fcdac2251afa">MR::MouseUpListener</a>, and <a class="el" href="structMR_1_1MouseDownListener.html#a7a55b962c8dc525fa42856cd5fa6c081">MR::MouseDownListener</a>.</p>
+<p>Implemented in <a class="el" href="structMR_1_1InterruptCloseListener.html#ab7f5c291ed733c28aac9ff946296551b">MR::InterruptCloseListener</a>, <a class="el" href="structMR_1_1PostResizeListener.html#ad4da31b6545f9bd38088c3d555ffc483">MR::PostResizeListener</a>, <a class="el" href="structMR_1_1DragDropListener.html#a499c29b8a81e3269b6b1a3e0d4e68d67">MR::DragDropListener</a>, <a class="el" href="structMR_1_1LoadListener.html#a89056c769665a8f47da11dc6e9d8fd79">MR::LoadListener</a>, <a class="el" href="structMR_1_1SaveListener.html#ab2c88c41fbe256035e23e56ce1faeaf4">MR::SaveListener</a>, <a class="el" href="structMR_1_1PostDrawListener.html#a2b8987923f7d7802fe80fdf32d40b60e">MR::PostDrawListener</a>, <a class="el" href="structMR_1_1DrawListener.html#afcb665a4bacd2493f1450fb86c9a86e2">MR::DrawListener</a>, <a class="el" href="structMR_1_1PreDrawListener.html#a62eabb9d5ed38c2c6b20042fc2b80fe3">MR::PreDrawListener</a>, <a class="el" href="structMR_1_1KeyRepeatListener.html#a81ec43c2adccc099d4b4b60a5fc2e0f8">MR::KeyRepeatListener</a>, <a class="el" href="structMR_1_1KeyDownListener.html#a0935f9321528e687466565155741581c">MR::KeyDownListener</a>, <a class="el" href="structMR_1_1KeyUpListener.html#aa307e35069611ece5974a6089e767a85">MR::KeyUpListener</a>, <a class="el" href="structMR_1_1CharPressedListener.html#ac851bf65b9a27e4bc2510a9d55c0b24f">MR::CharPressedListener</a>, <a class="el" href="structMR_1_1MouseScrollListener.html#a33319ab4d2842e26c7069c29708e2792">MR::MouseScrollListener</a>, <a class="el" href="structMR_1_1MouseMoveListener.html#a475834fcf7c98fb78141f16313ac26a3">MR::MouseMoveListener</a>, <a class="el" href="structMR_1_1MouseUpListener.html#ab1601c114077d958332cd4f8eed50610">MR::MouseUpListener</a>, and <a class="el" href="structMR_1_1MouseDownListener.html#ac84e201c458b6742588515fa83c443f5">MR::MouseDownListener</a>.</p>
 
 </div>
 </div>

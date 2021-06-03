@@ -108,6 +108,8 @@ $(document).ready(function(){initNavTree('namespaceMR_1_1MeshBuilder.html',''); 
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshBuilder_1_1Triangle.html">Triangle</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshBuilder_1_1MeshPiece.html">MeshPiece</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshBuilder_1_1FaceRecord.html">FaceRecord</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -117,6 +119,8 @@ Functions</h2></td></tr>
 <tr class="separator:a0572a3b7720b543b42a2ac6eab4f3035"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a356920034893f3c5b5fcd0831704203c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshBuilder.html#a356920034893f3c5b5fcd0831704203c">fromVertexTriples</a> (const std::vector&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; &amp;vertTriples)</td></tr>
 <tr class="separator:a356920034893f3c5b5fcd0831704203c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dbb5150816b9881d283b5fdfe833166"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshBuilder.html#a0dbb5150816b9881d283b5fdfe833166">fromDisjointMeshPieces</a> (const std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1MeshPiece.html">MeshPiece</a> &gt; &amp;pieces, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> maxVertId, <a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> maxFaceId, std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1Triangle.html">Triangle</a> &gt; borderTris)</td></tr>
+<tr class="separator:a0dbb5150816b9881d283b5fdfe833166"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93fc1cc532ee5165f75473969639ce4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshBuilder.html#a93fc1cc532ee5165f75473969639ce4f">addTriangles</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;res, std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1Triangle.html">Triangle</a> &gt; &amp;tris)</td></tr>
 <tr class="separator:a93fc1cc532ee5165f75473969639ce4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affd71ea7a77ed4c02be34778c0923804"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshBuilder.html#affd71ea7a77ed4c02be34778c0923804">addTriangles</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;res, std::vector&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; &amp;vertTriples, <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *createdFaces=nullptr)</td></tr>
@@ -189,6 +193,46 @@ Functions</h2></td></tr>
           <td></td>
           <td class="paramtype"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td>
           <td class="paramname"><em>createdFaces</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0dbb5150816b9881d283b5fdfe833166"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dbb5150816b9881d283b5fdfe833166">&#9670;&nbsp;</a></span>fromDisjointMeshPieces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> MR::MeshBuilder::fromDisjointMeshPieces </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1MeshPiece.html">MeshPiece</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>pieces</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td>
+          <td class="paramname"><em>maxVertId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a>&#160;</td>
+          <td class="paramname"><em>maxFaceId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1Triangle.html">Triangle</a> &gt;&#160;</td>
+          <td class="paramname"><em>borderTris</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

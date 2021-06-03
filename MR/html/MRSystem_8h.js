@@ -1,6 +1,5 @@
 var MRSystem_8h =
 [
-    [ "FileNamesStack", "MRSystem_8h.html#aab0215f757d9329c31dcbf462534d3ab", null ],
     [ "GetCpuId", "MRSystem_8h.html#a7b5e5990972490ea4d3803ccca1b3757", null ],
     [ "GetExeDirectory", "MRSystem_8h.html#a5d1ca6e9b05136afa1017b1c60906789", null ],
     [ "GetTempDirectory", "MRSystem_8h.html#a4ba1f8b8dda149d741c79f6ca5c6f2ba", null ],

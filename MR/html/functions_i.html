@@ -108,8 +108,8 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 , <a class="el" href="structMR_1_1Heap_1_1Element.html#af5f2ab7653bc95405d4e20891982a46b">MR::Heap&lt; T, I, P &gt;::Element</a>
 </li>
 <li>Id()
-: <a class="el" href="classMR_1_1Id.html#af28553628254bc428f1256f602024404">MR::Id&lt; T &gt;</a>
-, <a class="el" href="classMR_1_1Id_3_01EdgeTag_01_4.html#a930d417df6327bab27148be9fcd88bff">MR::Id&lt; EdgeTag &gt;</a>
+: <a class="el" href="classMR_1_1Id.html#a57da9fff59136b0802226283da3700e9">MR::Id&lt; T &gt;</a>
+, <a class="el" href="classMR_1_1Id_3_01EdgeTag_01_4.html#a65e07b789a3f482d26618c22d47ecaad">MR::Id&lt; EdgeTag &gt;</a>
 </li>
 <li>id
 : <a class="el" href="structMR_1_1PreciseVertCoords.html#aee4e7653cf187ba47b0eceff8088e6a5">MR::PreciseVertCoords</a>
@@ -155,20 +155,17 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 , <a class="el" href="classMR_1_1Open.html#a4c11855bbfbbae2ea4c0b193ad8d8408">MR::Open</a>
 , <a class="el" href="classMR_1_1PerformanceTest.html#add947c81862046022e97878ea6c7babd">MR::PerformanceTest</a>
 , <a class="el" href="classMR_1_1Save.html#a893ca06f163557bce8d84597bf1971ef">MR::Save</a>
-, <a class="el" href="classMR_1_1Viewer.html#a74ab750632c78f0cd89751d3e4c2065e">MR::Viewer</a>
 , <a class="el" href="classMR_1_1ViewerPlugin.html#a67916b512e8d54ee7cdb8ef1cb4f6794">MR::ViewerPlugin</a>
 , <a class="el" href="classMR_1_1Viewport.html#a067ae9b70da8d98fec5d61c022f54a9f">MR::Viewport</a>
 , <a class="el" href="classMR_1_1ViewportGL.html#ac2b114c03f1a2659e1e2eba7421c5aad">MR::ViewportGL</a>
-</li>
-<li>init_plugins()
-: <a class="el" href="classMR_1_1Viewer.html#aaf0821655e3780ece8031ee54d72e36d">MR::Viewer</a>
 </li>
 <li>Inside
 : <a class="el" href="classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457a4283b93e69f9bf090a59fe6e0fbc24ef">MR::MarkedVoxelSlice</a>
 , <a class="el" href="classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5a21796cca7989a91c8335cd29c782f5be">MR::VolumeSegmenter</a>
 </li>
 <li>instance()
-: <a class="el" href="classMR_1_1Logger.html#a0139be775710268fdf34c3b3c852bdd8">MR::Logger</a>
+: <a class="el" href="classMR_1_1Config.html#a7683940b7b5999fc6dfebe28322d0385">MR::Config</a>
+, <a class="el" href="classMR_1_1Logger.html#a0139be775710268fdf34c3b3c852bdd8">MR::Logger</a>
 , <a class="el" href="structMR_1_1MeshColors.html#acc5060da10ee12f84d4eb14f9527ea14">MR::MeshColors</a>
 , <a class="el" href="classMR_1_1PythonExport.html#acacaa4a8c44ec1d0828f7479119c66d9">MR::PythonExport</a>
 , <a class="el" href="classMR_1_1Viewer.html#af422dfe9293d78a28787cddd0d9d3e6a">MR::Viewer</a>
@@ -248,6 +245,9 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>isAlphaSortEnabled()
 : <a class="el" href="classMR_1_1Viewer.html#a734edab571108af641cc046a7fae2b88">MR::Viewer</a>
 </li>
+<li>isAncestor()
+: <a class="el" href="classMR_1_1Object.html#a7c970b0fa099d812c04978d33c4b624e">MR::Object</a>
+</li>
 <li>isAncillary()
 : <a class="el" href="classMR_1_1Object.html#a3dcf68a5faec85e8e753e34ab77eb1b9">MR::Object</a>
 </li>
@@ -325,7 +325,10 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 : <a class="el" href="classMR_1_1MeshTopology.html#a3153a23344cee0bb2abae5328361f9e9">MR::MeshTopology</a>
 </li>
 <li>isBdVertex()
-: <a class="el" href="classMR_1_1MeshTopology.html#a0d475db49edfa30fe198c5299d553876">MR::MeshTopology</a>
+: <a class="el" href="classMR_1_1MeshTopology.html#ae366073a1bcb50b567a89f69a755913d">MR::MeshTopology</a>
+</li>
+<li>isBdVertexInOrg()
+: <a class="el" href="classMR_1_1MeshTopology.html#a28d3e1216fe96627b4a3802f9ff48df3">MR::MeshTopology</a>
 </li>
 <li>isCanceled()
 : <a class="el" href="classMR_1_1ProgressBar.html#a8d9a935714b1d261a95ada1ece3baf5a">MR::ProgressBar</a>
@@ -395,6 +398,11 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 </li>
 <li>iterator
 : <a class="el" href="classMR_1_1Vector.html#a23a39a0e101ba40e7369b90045cb930d">MR::Vector&lt; T, I &gt;</a>
+</li>
+<li>iterator_category
+: <a class="el" href="classMR_1_1RingIterator.html#a32bbf998350ceb82ee238640a29ad585">MR::RingIterator&lt; N &gt;</a>
+, <a class="el" href="classMR_1_1SetBitIteratorT.html#a3ead9e2691fedc1c67d1212721d3a157">MR::SetBitIteratorT&lt; T &gt;</a>
+, <a class="el" href="classMR_1_1UndirectedEdgeIterator.html#a14b6e326990c49dd287dac693682485e">MR::UndirectedEdgeIterator</a>
 </li>
 <li>IteratorRange()
 : <a class="el" href="structMR_1_1IteratorRange.html#ac08ae5922c624c9f08c65c8ecbb4bd61">MR::IteratorRange&lt; I &gt;</a>

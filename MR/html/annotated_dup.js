@@ -13,6 +13,7 @@ var annotated_dup =
       ] ],
       [ "MeshBuilder", "namespaceMR_1_1MeshBuilder.html", [
         [ "Triangle", "structMR_1_1MeshBuilder_1_1Triangle.html", "structMR_1_1MeshBuilder_1_1Triangle" ],
+        [ "MeshPiece", "structMR_1_1MeshBuilder_1_1MeshPiece.html", "structMR_1_1MeshBuilder_1_1MeshPiece" ],
         [ "FaceRecord", "structMR_1_1MeshBuilder_1_1FaceRecord.html", "structMR_1_1MeshBuilder_1_1FaceRecord" ]
       ] ],
       [ "MeshLoad", "namespaceMR_1_1MeshLoad.html", [
@@ -49,6 +50,8 @@ var annotated_dup =
       [ "ChangeXfAction", "classMR_1_1ChangeXfAction.html", "classMR_1_1ChangeXfAction" ],
       [ "Color", "structMR_1_1Color.html", "structMR_1_1Color" ],
       [ "CombinedHistoryActoin", "classMR_1_1CombinedHistoryActoin.html", "classMR_1_1CombinedHistoryActoin" ],
+      [ "Config", "classMR_1_1Config.html", "classMR_1_1Config" ],
+      [ "DenseBox", "structMR_1_1DenseBox.html", "structMR_1_1DenseBox" ],
       [ "DistanceMap", "classMR_1_1DistanceMap.html", "classMR_1_1DistanceMap" ],
       [ "UndirectedEdgeIterator", "classMR_1_1UndirectedEdgeIterator.html", "classMR_1_1UndirectedEdgeIterator" ],
       [ "FaceFace", "structMR_1_1FaceFace.html", "structMR_1_1FaceFace" ],
@@ -128,6 +131,7 @@ var annotated_dup =
       [ "ObjectPoints", "classMR_1_1ObjectPoints.html", "classMR_1_1ObjectPoints" ],
       [ "ObjectVoxels", "classMR_1_1ObjectVoxels.html", "classMR_1_1ObjectVoxels" ],
       [ "OffsetParameters", "structMR_1_1OffsetParameters.html", "structMR_1_1OffsetParameters" ],
+      [ "PartMapping", "structMR_1_1PartMapping.html", "structMR_1_1PartMapping" ],
       [ "PointCloud", "structMR_1_1PointCloud.html", "structMR_1_1PointCloud" ],
       [ "PointOnFace", "structMR_1_1PointOnFace.html", "structMR_1_1PointOnFace" ],
       [ "Polyline", "structMR_1_1Polyline.html", "structMR_1_1Polyline" ],

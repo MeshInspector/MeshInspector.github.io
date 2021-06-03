@@ -75,24 +75,25 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "CustomPluginsHelp.html",
-"MRFillContour_8h.html#a212d36d5692f1333d8f3e67d98fb2433",
-"MRMeshDelone_8h.html#ac988550b40118ca0259350e32fb0620b",
-"MROffset_8h.html",
-"MRShowLocalBasis_8h.html#a144db4e4bd3773a701d81f4c0be88d42",
-"MRVolumeIndexer_8h.html#aa7203f0917dc651aa1261d90d266752ea89241a914ba5d59de9168c4416e69c4a",
-"classMR_1_1FillTunnelPlugin.html#a90a98971bbb46692b669e8893c15bbea",
-"classMR_1_1MeshICP.html#a2530d321b1da96cf734a1b759f418d9e",
-"classMR_1_1ObjectMesh.html#a67c34149d9ee28120767c521ee008fa1",
-"classMR_1_1ScopeHistory.html#acf9224d4ffb8a6220531e93c8c75a59f",
-"classMR_1_1Viewer.html#a507502ce28fcd0cb9281da4c20a366b3",
-"classMR_1_1ViewportId.html#ab99ee2f5a26f1c0a90438a3628ddc6f2",
-"namespaceMR.html#a021d97390669e9ca4d0be9a07042a694",
-"namespaceMR.html#a5edf64df29d2b0cfa7d42c9108e04a86",
-"namespaceMR.html#ac978c520f500c1e3dad2ddaff7a333f0",
-"namespacemembers_d.html",
-"structMR_1_1IntersectionPrecomputes.html#a28372a635ba67b43220bc9067be6560d",
-"structMR_1_1MeshSave_1_1CtmSaveOptions.html#a09f020b5c907033a5e7b25073effacf5",
-"structMR_1_1SymbolMeshParams.html#a91479aefd75dc365ef6b39108ea22fcf"
+"MRFileDialog_8h.html#a0a4bcce4daa4d3b3423c31dff3a881bb",
+"MRMeshDelete_8h.html",
+"MRObjectPoints_8h_source.html",
+"MRSerializer_8h.html#abb27cc540be81d459806f905ad7f574a",
+"MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a",
+"classMR_1_1DistanceMap.html#a2108818e336ea54462d010b0e00aea43",
+"classMR_1_1MarkedVoxelSlice.html#ae6e05e1715f6a7c8cbd5d2896d23c163",
+"classMR_1_1ObjectFactoryBase.html#a93cb60b621c8a8657c9e22d6eb464369",
+"classMR_1_1RegisterRenderObjectConstructor.html#a68b36d5a17409d933e14092222e0ff3e",
+"classMR_1_1Vector.html#ad4c1a76a727c0e52830149df75a87a0f",
+"classMR_1_1Viewport.html#a96929c7df5f5bd4128f8f9b1cf578f70",
+"functions_vars_d.html",
+"namespaceMR.html#a472ad6c6b0d98ed9e55c0580c32348d7",
+"namespaceMR.html#aacea58a24ca547202d330793de3b3f5e",
+"namespaceMR_1_1MeshLoad.html",
+"structMR_1_1EdgeTri.html#a75d3cbfc185bb135fa0ecacfa0eea64e",
+"structMR_1_1Mesh.html#a952d767ca43bb2cc3db6457bbf8dce57",
+"structMR_1_1PreciseVertCoords.html#aee4e7653cf187ba47b0eceff8088e6a5",
+"structMR_1_1Viewport_1_1Parameters.html#a22334f5bd9465a4b836b6ca117f39068"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

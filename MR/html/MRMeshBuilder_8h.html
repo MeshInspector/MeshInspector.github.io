@@ -103,6 +103,8 @@ $(document).ready(function(){initNavTree('MRMeshBuilder_8h.html',''); initResiza
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRId_8h_source.html">MRId.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMeshTopology_8h_source.html">MRMeshTopology.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRVector_8h_source.html">MRVector.h</a>&quot;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="MRMeshBuilder_8h_source.html">Go to the source code of this file.</a></p>
@@ -110,6 +112,8 @@ $(document).ready(function(){initNavTree('MRMeshBuilder_8h.html',''); initResiza
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshBuilder_1_1Triangle.html">MR::MeshBuilder::Triangle</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshBuilder_1_1MeshPiece.html">MR::MeshBuilder::MeshPiece</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshBuilder_1_1FaceRecord.html">MR::MeshBuilder::FaceRecord</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,6 +132,8 @@ Functions</h2></td></tr>
 <tr class="separator:a0572a3b7720b543b42a2ac6eab4f3035"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a356920034893f3c5b5fcd0831704203c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MeshTopology&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshBuilder.html#a356920034893f3c5b5fcd0831704203c">MR::MeshBuilder::fromVertexTriples</a> (const std::vector&lt; VertId &gt; &amp;vertTriples)</td></tr>
 <tr class="separator:a356920034893f3c5b5fcd0831704203c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dbb5150816b9881d283b5fdfe833166"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MeshTopology&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshBuilder.html#a0dbb5150816b9881d283b5fdfe833166">MR::MeshBuilder::fromDisjointMeshPieces</a> (const std::vector&lt; MeshPiece &gt; &amp;pieces, VertId maxVertId, FaceId maxFaceId, std::vector&lt; Triangle &gt; borderTris)</td></tr>
+<tr class="separator:a0dbb5150816b9881d283b5fdfe833166"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93fc1cc532ee5165f75473969639ce4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshBuilder.html#a93fc1cc532ee5165f75473969639ce4f">MR::MeshBuilder::addTriangles</a> (MeshTopology &amp;res, std::vector&lt; Triangle &gt; &amp;tris)</td></tr>
 <tr class="separator:a93fc1cc532ee5165f75473969639ce4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affd71ea7a77ed4c02be34778c0923804"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshBuilder.html#affd71ea7a77ed4c02be34778c0923804">MR::MeshBuilder::addTriangles</a> (MeshTopology &amp;res, std::vector&lt; VertId &gt; &amp;vertTriples, FaceBitSet *createdFaces=nullptr)</td></tr>

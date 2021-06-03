@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['test_4936',['Test',['../namespaceMR.html#a2d7202863cb05ff9d821e23e1ba3f309a0cbc6611f5540bd0809a388dc95a615b',1,'MR']]],
-  ['texture_4937',['Texture',['../structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0aa0e5d5afb3e35be7f4fe202a2146e687',1,'MR::VisualizeMaskType']]],
-  ['translation_4938',['Translation',['../classMR_1_1Viewer.html#a1e0f5398c54b70bf130b28dbe6795e37a6dd08874f83507e9c7b23f1a46b7fa7c',1,'MR::Viewer']]],
-  ['translationonly_4939',['TranslationOnly',['../namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677a55fae57b90256ccb618322f9a33784ce',1,'MR']]],
-  ['transparencyoverlayquad_4940',['TransparencyOverlayQuad',['../classMR_1_1ShadersHolder.html#af79d4956571eca0d639217ad9ec89767a39753206a617e2151de04f631fb0f864',1,'MR::ShadersHolder']]],
-  ['transparentmesh_4941',['TransparentMesh',['../classMR_1_1ShadersHolder.html#af79d4956571eca0d639217ad9ec89767ae3cc896187ede67e387c7c05f50d0d29',1,'MR::ShadersHolder']]],
-  ['transparentmeshborder_4942',['TransparentMeshBorder',['../classMR_1_1ShadersHolder.html#af79d4956571eca0d639217ad9ec89767a79c4939078d7c6029949a26d8eb2cc44',1,'MR::ShadersHolder']]]
+  ['segment_5051',['Segment',['../classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457affb70c18e04a80d228aa7ef4a86e0702',1,'MR::MarkedVoxelSlice']]],
+  ['selectable_5052',['Selectable',['../namespaceMR.html#a1ab156c0351dfcd112a67a72e485f123a8318ce1c96df6ce21eb2ed428c6d0f85',1,'MR']]],
+  ['selected_5053',['Selected',['../namespaceMR.html#a1ab156c0351dfcd112a67a72e485f123a91b442d385b54e1418d81adc34871053',1,'MR']]],
+  ['selectededges_5054',['SelectedEdges',['../structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aaca88fb4fba2909a781a4c943d7e5f1b7fd',1,'MR::MeshVisualizePropertyType']]],
+  ['selection_5055',['Selection',['../namespaceMR.html#a2d7202863cb05ff9d821e23e1ba3f309a6ff9dd0d34f65181173c1e4bc39939de',1,'MR']]],
+  ['show_5056',['Show',['../structMR_1_1Viewer_1_1LaunchParams.html#a58a0e80b9c5f9747b331b14cbf0f1215adf76758ec5cb9b09e06f65ea01a58dcf',1,'MR::Viewer::LaunchParams']]],
+  ['solidcolor_5057',['SolidColor',['../namespaceMR.html#a270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854',1,'MR']]]
 ];

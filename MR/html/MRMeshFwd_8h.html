@@ -103,6 +103,7 @@ $(document).ready(function(){initNavTree('MRMeshFwd_8h.html',''); initResizable(
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;parallel_hashmap/phmap_fwd_decl.h&gt;</code><br />
 </div>
 <p><a href="MRMeshFwd_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -250,6 +251,18 @@ Typedefs</h2></td></tr>
 <tr class="separator:ae2eea398ad770ec2244a9a9c50714933"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5c9eac6bdf7a25e819c5e2653f469f5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5">MR::VertCoords</a> = Vector&lt; Vector3f, VertId &gt;</td></tr>
 <tr class="separator:af5c9eac6bdf7a25e819c5e2653f469f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae992c100813594ea6369139389c5b3fa"><td class="memTemplParams" colspan="2">template&lt;typename K , typename V &gt; </td></tr>
+<tr class="memitem:ae992c100813594ea6369139389c5b3fa"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ae992c100813594ea6369139389c5b3fa">MR::HashMap</a> = phmap::flat_hash_map&lt; K, V &gt;</td></tr>
+<tr class="separator:ae992c100813594ea6369139389c5b3fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a470a3f7ac2db0599541e55edf2baa793"><td class="memTemplParams" colspan="2">template&lt;typename K , typename V &gt; </td></tr>
+<tr class="memitem:a470a3f7ac2db0599541e55edf2baa793"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a470a3f7ac2db0599541e55edf2baa793">MR::ParallelHashMap</a> = phmap::parallel_flat_hash_map&lt; K, V &gt;</td></tr>
+<tr class="separator:a470a3f7ac2db0599541e55edf2baa793"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd686ba0451be431bc2e9385efd417f9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#abd686ba0451be431bc2e9385efd417f9">MR::FaceHashMap</a> = HashMap&lt; FaceId, FaceId &gt;</td></tr>
+<tr class="separator:abd686ba0451be431bc2e9385efd417f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca7804536940d80ecca97e03674b1609"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aca7804536940d80ecca97e03674b1609">MR::VertHashMap</a> = HashMap&lt; VertId, VertId &gt;</td></tr>
+<tr class="separator:aca7804536940d80ecca97e03674b1609"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeabd542da4035d06055e1b3d9bdba4c5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aeabd542da4035d06055e1b3d9bdba4c5">MR::EdgeHashMap</a> = HashMap&lt; EdgeId, EdgeId &gt;</td></tr>
+<tr class="separator:aeabd542da4035d06055e1b3d9bdba4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>

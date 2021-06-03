@@ -115,8 +115,8 @@ $(document).ready(function(){initNavTree('structMR_1_1MultiListener.html',''); i
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a726f5e2601b7f25e31824a0cac630fb2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MultiListener.html#a726f5e2601b7f25e31824a0cac630fb2">~MultiListener</a> ()=default</td></tr>
 <tr class="separator:a726f5e2601b7f25e31824a0cac630fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c032b0fbf01fb43243b4fe90f84aa65"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MultiListener.html#a2c032b0fbf01fb43243b4fe90f84aa65">connect</a> (<a class="el" href="classMR_1_1Viewer.html">Viewer</a> *viewer)</td></tr>
-<tr class="separator:a2c032b0fbf01fb43243b4fe90f84aa65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1780a55d6737e026900e12cd84d6571"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MultiListener.html#ab1780a55d6737e026900e12cd84d6571">connect</a> (<a class="el" href="classMR_1_1Viewer.html">Viewer</a> *viewer, boost::signals2::connect_position pos=boost::signals2::connect_position::at_back)</td></tr>
+<tr class="separator:ab1780a55d6737e026900e12cd84d6571"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfa598489bfbc3b88c84b029213d042c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MultiListener.html#acfa598489bfbc3b88c84b029213d042c">disconnect</a> ()</td></tr>
 <tr class="separator:acfa598489bfbc3b88c84b029213d042c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -149,8 +149,8 @@ template&lt;typename ... Connectables&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2c032b0fbf01fb43243b4fe90f84aa65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c032b0fbf01fb43243b4fe90f84aa65">&#9670;&nbsp;</a></span>connect()</h2>
+<a id="ab1780a55d6737e026900e12cd84d6571"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1780a55d6737e026900e12cd84d6571">&#9670;&nbsp;</a></span>connect()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -164,8 +164,18 @@ template&lt;typename ... Connectables&gt; </div>
           <td class="memname">virtual void <a class="el" href="structMR_1_1MultiListener.html">MR::MultiListener</a>&lt; Connectables &gt;::connect </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1Viewer.html">Viewer</a> *&#160;</td>
-          <td class="paramname"><em>viewer</em></td><td>)</td>
+          <td class="paramname"><em>viewer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">boost::signals2::connect_position&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>boost::signals2::connect_position::at_back</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>

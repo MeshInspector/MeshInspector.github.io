@@ -134,6 +134,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:add77d5465c44318f3c02aad6a8b61d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8e16ac53a19bceb6054b8ff44ad98cc"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTree.html#af8e16ac53a19bceb6054b8ff44ad98cc">mesh</a> () const</td></tr>
 <tr class="separator:af8e16ac53a19bceb6054b8ff44ad98cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17c38dc7b5620a352a4648fd8c18612e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTree.html#a17c38dc7b5620a352a4648fd8c18612e">getSubtreeFaces</a> (<a class="el" href="classMR_1_1AABBTree.html#a1b7f8289b195c07e8882f8b6912e2004">NodeId</a> subtreeRoot) const</td></tr>
+<tr class="separator:a17c38dc7b5620a352a4648fd8c18612e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48ccf51d2424e5b1d1078cba333e85f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="classMR_1_1AABBTree.html#a1b7f8289b195c07e8882f8b6912e2004">NodeId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTree.html#a48ccf51d2424e5b1d1078cba333e85f8">getSubtrees</a> (int minNum) const</td></tr>
+<tr class="separator:a48ccf51d2424e5b1d1078cba333e85f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73821036edd8a5a2f9ea4399b225f9d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1AABBTree.html#a2aee3cb1e344c11b23a6fa3080589b77">NodeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTree.html#a73821036edd8a5a2f9ea4399b225f9d0">getNodesFromFaces</a> (const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;faces) const</td></tr>
 <tr class="separator:a73821036edd8a5a2f9ea4399b225f9d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -259,6 +263,42 @@ Static Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;&#160;</td>
           <td class="paramname"><em>faces</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17c38dc7b5620a352a4648fd8c18612e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17c38dc7b5620a352a4648fd8c18612e">&#9670;&nbsp;</a></span>getSubtreeFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> MR::AABBTree::getSubtreeFaces </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1AABBTree.html#a1b7f8289b195c07e8882f8b6912e2004">NodeId</a>&#160;</td>
+          <td class="paramname"><em>subtreeRoot</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a48ccf51d2424e5b1d1078cba333e85f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48ccf51d2424e5b1d1078cba333e85f8">&#9670;&nbsp;</a></span>getSubtrees()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt;<a class="el" href="classMR_1_1AABBTree.html#a1b7f8289b195c07e8882f8b6912e2004">NodeId</a>&gt; MR::AABBTree::getSubtrees </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>minNum</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>

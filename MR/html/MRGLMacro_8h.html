@@ -99,12 +99,13 @@ $(document).ready(function(){initNavTree('MRGLMacro_8h.html',''); initResizable(
 <div class="title">MRGLMacro.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &lt;spdlog/spdlog.h&gt;</code><br />
+</div>
 <p><a href="MRGLMacro_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:adc011fd498ecf9829c60217bec650101"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRGLMacro_8h.html#adc011fd498ecf9829c60217bec650101">GL_EXEC</a>(func)&#160;&#160;&#160;func;</td></tr>
+<tr class="memitem:adc011fd498ecf9829c60217bec650101"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRGLMacro_8h.html#adc011fd498ecf9829c60217bec650101">GL_EXEC</a>(func)</td></tr>
 <tr class="separator:adc011fd498ecf9829c60217bec650101"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -119,11 +120,17 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">func</td><td>)</td>
-          <td>&#160;&#160;&#160;func;</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<b>Value:</b><div class="fragment"><div class="line">func; \</div>
+<div class="line">{\</div>
+<div class="line">    auto error = glGetError();\</div>
+<div class="line">    if ( error != 0 )\</div>
+<div class="line">        spdlog::warn(<span class="stringliteral">&quot;GL error: {} In file: {} Line: {}&quot;</span>, error , __FILE__ , __LINE__ );\</div>
+<div class="line">}</div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

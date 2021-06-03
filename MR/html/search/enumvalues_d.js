@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['segment_4930',['Segment',['../classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457affb70c18e04a80d228aa7ef4a86e0702',1,'MR::MarkedVoxelSlice']]],
-  ['selectable_4931',['Selectable',['../namespaceMR.html#a1ab156c0351dfcd112a67a72e485f123a8318ce1c96df6ce21eb2ed428c6d0f85',1,'MR']]],
-  ['selected_4932',['Selected',['../namespaceMR.html#a1ab156c0351dfcd112a67a72e485f123a91b442d385b54e1418d81adc34871053',1,'MR']]],
-  ['selectededges_4933',['SelectedEdges',['../structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aaca88fb4fba2909a781a4c943d7e5f1b7fd',1,'MR::MeshVisualizePropertyType']]],
-  ['selection_4934',['Selection',['../namespaceMR.html#a2d7202863cb05ff9d821e23e1ba3f309a6ff9dd0d34f65181173c1e4bc39939de',1,'MR']]],
-  ['solidcolor_4935',['SolidColor',['../namespaceMR.html#a270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854',1,'MR']]]
+  ['redo_5044',['Redo',['../classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6',1,'MR::HistoryAction']]],
+  ['removeobject_5045',['RemoveObject',['../classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1af0c405ca8e7eb2c3fa3d102bb69b75a9',1,'MR::ChangeSceneAction']]],
+  ['repeat_5046',['Repeat',['../structMR_1_1MeshTexture.html#a02b38209ef48a938635275b79553f4e8abf724b46cc497b5490deda8598d4d9da',1,'MR::MeshTexture']]],
+  ['right_5047',['Right',['../classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6a92b09c7c48c520c3c55e497875da437c',1,'MR::Viewer']]],
+  ['rightleft_5048',['RightLeft',['../namespaceMR.html#a85e60c553cc81b298c4bfeac4a623b79a060e258e018b85df7750330be4f807c0',1,'MR']]],
+  ['rightright_5049',['RightRight',['../namespaceMR.html#a85e60c553cc81b298c4bfeac4a623b79a8282c1db2ec5b8780478223365a37438',1,'MR']]],
+  ['rotation_5050',['Rotation',['../classMR_1_1Viewer.html#a1e0f5398c54b70bf130b28dbe6795e37af1a42bd417390fc63b030a519624607a',1,'MR::Viewer']]]
 ];

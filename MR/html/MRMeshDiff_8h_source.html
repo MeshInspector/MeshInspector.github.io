@@ -119,18 +119,19 @@ $(document).ready(function(){initNavTree('MRMeshDiff_8h_source.html',''); initRe
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">private</span>:</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">size_t</span> toPointsSize_ = 0;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    phmap::parallel_flat_hash_map&lt;VertId, Vector3f&gt; changedPoints_;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="namespaceMR.html#a470a3f7ac2db0599541e55edf2baa793">ParallelHashMap&lt;VertId, Vector3f&gt;</a> changedPoints_;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">size_t</span> toEdgesSize_ = 0;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    phmap::parallel_flat_hash_map&lt;EdgeId, MeshTopology::HalfEdgeRecord&gt; changedEdges_;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="namespaceMR.html#a470a3f7ac2db0599541e55edf2baa793">ParallelHashMap&lt;EdgeId, MeshTopology::HalfEdgeRecord&gt;</a> changedEdges_;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;};</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;} <span class="comment">// namespace MR</span></div>
-<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:12</div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:13</div></div>
 <div class="ttc" id="aMRMeshTopology_8h_html"><div class="ttname"><a href="MRMeshTopology_8h.html">MRMeshTopology.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1MeshDiff_html"><div class="ttname"><a href="classMR_1_1MeshDiff.html">MR::MeshDiff</a></div><div class="ttdef"><b>Definition:</b> MRMeshDiff.h:12</div></div>
 <div class="ttc" id="aclassMR_1_1MeshDiff_html_a61c8061aba710ec09a8b346b784a35c0"><div class="ttname"><a href="classMR_1_1MeshDiff.html#a61c8061aba710ec09a8b346b784a35c0">MR::MeshDiff::MeshDiff</a></div><div class="ttdeci">MRMESH_API MeshDiff(const Mesh &amp;from, const Mesh &amp;to)</div></div>
 <div class="ttc" id="aclassMR_1_1MeshDiff_html_a65a9fe9422ed5dee5b092c31a59bd145"><div class="ttname"><a href="classMR_1_1MeshDiff.html#a65a9fe9422ed5dee5b092c31a59bd145">MR::MeshDiff::applyAndSwap</a></div><div class="ttdeci">MRMESH_API void applyAndSwap(Mesh &amp;m)</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MR2DContoursTriangulation.h:6</div></div>
+<div class="ttc" id="anamespaceMR_html_a470a3f7ac2db0599541e55edf2baa793"><div class="ttname"><a href="namespaceMR.html#a470a3f7ac2db0599541e55edf2baa793">MR::ParallelHashMap</a></div><div class="ttdeci">phmap::parallel_flat_hash_map&lt; K, V &gt; ParallelHashMap</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:151</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition:</b> MRMesh.h:13</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

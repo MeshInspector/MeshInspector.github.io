@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['quarterbit_4833',['QuarterBit',['../namespaceMR.html#a85e60c553cc81b298c4bfeac4a623b79',1,'MR']]]
+  ['objectselectivitytype_4950',['ObjectSelectivityType',['../namespaceMR.html#a1ab156c0351dfcd112a67a72e485f123',1,'MR']]],
+  ['outedge_4951',['OutEdge',['../namespaceMR.html#aa7203f0917dc651aa1261d90d266752e',1,'MR']]]
 ];

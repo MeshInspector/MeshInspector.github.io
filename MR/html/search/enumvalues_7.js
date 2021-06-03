@@ -1,10 +1,6 @@
 var searchData=
 [
-  ['labels_4891',['Labels',['../structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0a3b012823a9cc50e12b9060c0dab3f27d',1,'MR::VisualizeMaskType']]],
-  ['left_4892',['Left',['../classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6a945d5e233cf7d6240f6b783b36a374ff',1,'MR::Viewer']]],
-  ['leftleft_4893',['LeftLeft',['../namespaceMR.html#a85e60c553cc81b298c4bfeac4a623b79ae270ac72e33fbdf09168012bc0852677',1,'MR']]],
-  ['leftright_4894',['LeftRight',['../namespaceMR.html#a85e60c553cc81b298c4bfeac4a623b79a203407e92909f81d61b55175a37980cf',1,'MR']]],
-  ['linear_4895',['Linear',['../structMR_1_1MeshTexture.html#af1e3ecc1afaf1be483ef74f020eac23fac94f3c768d554f71834a769f7ed86300',1,'MR::MeshTexture']]],
-  ['lossless_4896',['Lossless',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69dab7048ff6b4f97b9230b2365b31d16713',1,'MR::MeshSave::CtmSaveOptions']]],
-  ['lossy_4897',['Lossy',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69dab71142391f68646086edeadddcf020dc',1,'MR::MeshSave::CtmSaveOptions']]]
+  ['inside_5009',['Inside',['../classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5a21796cca7989a91c8335cd29c782f5be',1,'MR::VolumeSegmenter::Inside()'],['../classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457a4283b93e69f9bf090a59fe6e0fbc24ef',1,'MR::MarkedVoxelSlice::Inside()']]],
+  ['invalid_5010',['Invalid',['../namespaceMR.html#aa7203f0917dc651aa1261d90d266752ea4bbb8f967da6d1a610596d7257179c2b',1,'MR']]],
+  ['invertednormals_5011',['InvertedNormals',['../structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0aa9ab245ec9543cca01132dc23aa905f1',1,'MR::VisualizeMaskType']]]
 ];

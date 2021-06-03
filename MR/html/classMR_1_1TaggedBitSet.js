@@ -8,6 +8,7 @@ var classMR_1_1TaggedBitSet =
     [ "flip", "classMR_1_1TaggedBitSet.html#ae3b895fe17cfa3e50b7fa231969a9deb", null ],
     [ "flip", "classMR_1_1TaggedBitSet.html#af6db837457c5c02a351f6bb4fc6a9f82", null ],
     [ "flip", "classMR_1_1TaggedBitSet.html#a2e84ace4ce980d158fee7939ec282bc6", null ],
+    [ "getMapping", "classMR_1_1TaggedBitSet.html#a6206857c0e584caf25ffd7443b6e3adc", null ],
     [ "getMapping", "classMR_1_1TaggedBitSet.html#a47657b05e08eab8b2ec33ca6ad037d89", null ],
     [ "operator&=", "classMR_1_1TaggedBitSet.html#a85dec0002b21147d3210ab1c50af60d1", null ],
     [ "operator-=", "classMR_1_1TaggedBitSet.html#a15a47feb3b5e838e2bb556af91515486", null ],

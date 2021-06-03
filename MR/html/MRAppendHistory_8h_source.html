@@ -118,48 +118,58 @@ $(document).ready(function(){initNavTree('MRAppendHistory_8h_source.html',''); i
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    viewer-&gt;appendHistoryAction( std::make_shared&lt;HistoryActionType&gt;( std::forward&lt;Args&gt;( args )... ) );</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">// This class store history actions that are appended to global history stack all together as CombinedHistoryActoin in destructor</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classMR_1_1ScopeHistory.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1ScopeHistory.html">ScopeHistory</a></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">class</span> HistoryActionType&gt;</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="namespaceMR.html#a82568b5f11eaffabab107d98250d2edf">   23</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceMR.html#a16bb6fdbdb21a92b1fa0da2432cc699a">AppendHistory</a>( std::shared_ptr&lt;HistoryActionType&gt; action )</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classMR_1_1ScopeHistory.html#a5ca453a9bf0cd5529f590ce4c6e55069">   26</a></span>&#160;    <a class="code" href="classMR_1_1ScopeHistory.html#a5ca453a9bf0cd5529f590ce4c6e55069">ScopeHistory</a>( <span class="keyword">const</span> std::string&amp; name ) :</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        name_{ name }</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    {</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keyword">auto</span> viewer = <a class="code" href="classMR_1_1Viewer.html#af422dfe9293d78a28787cddd0d9d3e6a">Viewer::instance</a>();</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">if</span> ( !viewer )</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        store_ = viewer-&gt;getGlobalHistoryStore();</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">if</span> ( !store_ )</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">if</span> ( store_-&gt;isInScopeMode() )</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        store_-&gt;startScope( <span class="keyword">true</span> );</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        thisScopeStartedScopedMode_ = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classMR_1_1ScopeHistory.html#acf9224d4ffb8a6220531e93c8c75a59f">   41</a></span>&#160;    <a class="code" href="classMR_1_1ScopeHistory.html#acf9224d4ffb8a6220531e93c8c75a59f">~ScopeHistory</a>()</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    {</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">if</span> ( !thisScopeStartedScopedMode_ )</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    static_assert( std::is_base_of_v&lt;HistoryAction, HistoryActionType&gt; );</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">auto</span> viewer = <a class="code" href="classMR_1_1Viewer.html#af422dfe9293d78a28787cddd0d9d3e6a">Viewer::instance</a>();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordflow">if</span> ( !viewer )</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    viewer-&gt;appendHistoryAction( action );</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">// This class store history actions that are appended to global history stack all together as CombinedHistoryActoin in destructor</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classMR_1_1ScopeHistory.html">   33</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1ScopeHistory.html">ScopeHistory</a></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classMR_1_1ScopeHistory.html#a5ca453a9bf0cd5529f590ce4c6e55069">   36</a></span>&#160;    <a class="code" href="classMR_1_1ScopeHistory.html#a5ca453a9bf0cd5529f590ce4c6e55069">ScopeHistory</a>( <span class="keyword">const</span> std::string&amp; name ) :</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        name_{ name }</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    {</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keyword">auto</span> viewer = <a class="code" href="classMR_1_1Viewer.html#af422dfe9293d78a28787cddd0d9d3e6a">Viewer::instance</a>();</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">if</span> ( !viewer )</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        store_ = viewer-&gt;getGlobalHistoryStore();</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">if</span> ( !store_ )</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keyword">auto</span> scopeBlock = store_-&gt;getScopeBlock();</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        store_-&gt;startScope( <span class="keyword">false</span> );</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        AppendHistory&lt;CombinedHistoryActoin&gt;( name_, scopeBlock );</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    std::string name_;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    std::shared_ptr&lt;HistoryStore&gt; store_;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">bool</span> thisScopeStartedScopedMode_ = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;};</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="MRAppendHistory_8h.html#a36cf254c4f1feb0a6f0adaf205a25eaf">   56</a></span>&#160;<span class="preprocessor">#define SCOPED_HISTORY(name) MR::ScopeHistory __startScopedHistoryMode(name)</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordflow">if</span> ( store_-&gt;isInScopeMode() )</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        store_-&gt;startScope( <span class="keyword">true</span> );</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        thisScopeStartedScopedMode_ = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="classMR_1_1ScopeHistory.html#acf9224d4ffb8a6220531e93c8c75a59f">   51</a></span>&#160;    <a class="code" href="classMR_1_1ScopeHistory.html#acf9224d4ffb8a6220531e93c8c75a59f">~ScopeHistory</a>()</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    {</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">if</span> ( !thisScopeStartedScopedMode_ )</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keyword">auto</span> scopeBlock = store_-&gt;getScopeBlock();</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        store_-&gt;startScope( <span class="keyword">false</span> );</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        AppendHistory&lt;CombinedHistoryActoin&gt;( name_, scopeBlock );</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    std::string name_;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    std::shared_ptr&lt;HistoryStore&gt; store_;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">bool</span> thisScopeStartedScopedMode_ = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;};</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="MRAppendHistory_8h.html#a36cf254c4f1feb0a6f0adaf205a25eaf">   66</a></span>&#160;<span class="preprocessor">#define SCOPED_HISTORY(name) MR::ScopeHistory __startScopedHistoryMode(name)</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
 <div class="ttc" id="aMRCombinedHistoryAction_8h_html"><div class="ttname"><a href="MRCombinedHistoryAction_8h.html">MRCombinedHistoryAction.h</a></div></div>
 <div class="ttc" id="aMRMeshViewer_8h_html"><div class="ttname"><a href="MRMeshViewer_8h.html">MRMeshViewer.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1ScopeHistory_html"><div class="ttname"><a href="classMR_1_1ScopeHistory.html">MR::ScopeHistory</a></div><div class="ttdef"><b>Definition:</b> MRAppendHistory.h:24</div></div>
-<div class="ttc" id="aclassMR_1_1ScopeHistory_html_a5ca453a9bf0cd5529f590ce4c6e55069"><div class="ttname"><a href="classMR_1_1ScopeHistory.html#a5ca453a9bf0cd5529f590ce4c6e55069">MR::ScopeHistory::ScopeHistory</a></div><div class="ttdeci">ScopeHistory(const std::string &amp;name)</div><div class="ttdef"><b>Definition:</b> MRAppendHistory.h:26</div></div>
-<div class="ttc" id="aclassMR_1_1ScopeHistory_html_acf9224d4ffb8a6220531e93c8c75a59f"><div class="ttname"><a href="classMR_1_1ScopeHistory.html#acf9224d4ffb8a6220531e93c8c75a59f">MR::ScopeHistory::~ScopeHistory</a></div><div class="ttdeci">~ScopeHistory()</div><div class="ttdef"><b>Definition:</b> MRAppendHistory.h:41</div></div>
+<div class="ttc" id="aclassMR_1_1ScopeHistory_html"><div class="ttname"><a href="classMR_1_1ScopeHistory.html">MR::ScopeHistory</a></div><div class="ttdef"><b>Definition:</b> MRAppendHistory.h:34</div></div>
+<div class="ttc" id="aclassMR_1_1ScopeHistory_html_a5ca453a9bf0cd5529f590ce4c6e55069"><div class="ttname"><a href="classMR_1_1ScopeHistory.html#a5ca453a9bf0cd5529f590ce4c6e55069">MR::ScopeHistory::ScopeHistory</a></div><div class="ttdeci">ScopeHistory(const std::string &amp;name)</div><div class="ttdef"><b>Definition:</b> MRAppendHistory.h:36</div></div>
+<div class="ttc" id="aclassMR_1_1ScopeHistory_html_acf9224d4ffb8a6220531e93c8c75a59f"><div class="ttname"><a href="classMR_1_1ScopeHistory.html#acf9224d4ffb8a6220531e93c8c75a59f">MR::ScopeHistory::~ScopeHistory</a></div><div class="ttdeci">~ScopeHistory()</div><div class="ttdef"><b>Definition:</b> MRAppendHistory.h:51</div></div>
 <div class="ttc" id="aclassMR_1_1Viewer_html_af422dfe9293d78a28787cddd0d9d3e6a"><div class="ttname"><a href="classMR_1_1Viewer.html#af422dfe9293d78a28787cddd0d9d3e6a">MR::Viewer::instance</a></div><div class="ttdeci">static MRVIEWER_API Viewer * instance()</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MR2DContoursTriangulation.h:6</div></div>
 <div class="ttc" id="anamespaceMR_html_a16bb6fdbdb21a92b1fa0da2432cc699a"><div class="ttname"><a href="namespaceMR.html#a16bb6fdbdb21a92b1fa0da2432cc699a">MR::AppendHistory</a></div><div class="ttdeci">void AppendHistory(Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> MRAppendHistory.h:13</div></div>

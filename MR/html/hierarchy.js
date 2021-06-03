@@ -20,6 +20,7 @@ var hierarchy =
     [ "MR::Box< float >", "structMR_1_1Box.html", null ],
     [ "MR::Box< int >", "structMR_1_1Box.html", null ],
     [ "MR::Color", "structMR_1_1Color.html", null ],
+    [ "MR::Config", "classMR_1_1Config.html", null ],
     [ "Connectables", null, [
       [ "MR::MultiListener< LoadListener, DragDropListener >", "structMR_1_1MultiListener.html", [
         [ "MR::Open", "classMR_1_1Open.html", null ]
@@ -122,6 +123,7 @@ var hierarchy =
     [ "MR::CoordinateConverters", "structMR_1_1CoordinateConverters.html", null ],
     [ "MR::MeshSave::CtmSaveOptions", "structMR_1_1MeshSave_1_1CtmSaveOptions.html", null ],
     [ "MR::PointsSave::CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", null ],
+    [ "MR::DenseBox", "structMR_1_1DenseBox.html", null ],
     [ "MR::DistanceMap", "classMR_1_1DistanceMap.html", null ],
     [ "boost::dynamic_bitset", null, [
       [ "MR::BitSet", "classMR_1_1BitSet.html", [
@@ -206,16 +208,12 @@ var hierarchy =
       [ "MR::RenderMeshObject", "classMR_1_1RenderMeshObject.html", null ],
       [ "MR::RenderPointsObject", "classMR_1_1RenderPointsObject.html", null ]
     ] ],
-    [ "std::iterator", null, [
-      [ "MR::RingIterator< N >", "classMR_1_1RingIterator.html", null ],
-      [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", null ],
-      [ "MR::UndirectedEdgeIterator", "classMR_1_1UndirectedEdgeIterator.html", null ]
-    ] ],
     [ "MR::IteratorRange< I >", "structMR_1_1IteratorRange.html", null ],
     [ "MR::IViewerSettingsManager", "classMR_1_1IViewerSettingsManager.html", [
       [ "MR::ViewerSettingsManager", "classMR_1_1ViewerSettingsManager.html", null ]
     ] ],
     [ "MR::Laplacian", "classMR_1_1Laplacian.html", null ],
+    [ "MR::Viewer::LaunchParams", "structMR_1_1Viewer_1_1LaunchParams.html", null ],
     [ "MR::Line3< T >", "structMR_1_1Line3.html", null ],
     [ "MR::LineSegm3< T >", "structMR_1_1LineSegm3.html", null ],
     [ "MR::Logger", "classMR_1_1Logger.html", null ],
@@ -248,6 +246,7 @@ var hierarchy =
       [ "MR::StraightenBoundary", "classMR_1_1StraightenBoundary.html", null ]
     ] ],
     [ "MR::MeshPart", "structMR_1_1MeshPart.html", null ],
+    [ "MR::MeshBuilder::MeshPiece", "structMR_1_1MeshBuilder_1_1MeshPiece.html", null ],
     [ "MR::MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", null ],
     [ "MR::MeshSignedDistanceResult", "structMR_1_1MeshSignedDistanceResult.html", null ],
     [ "MR::MeshTexture", "structMR_1_1MeshTexture.html", null ],
@@ -283,6 +282,7 @@ var hierarchy =
     [ "MR::Pallete", "classMR_1_1Pallete.html", null ],
     [ "MR::MarkedVoxelSlice::Parameters", "structMR_1_1MarkedVoxelSlice_1_1Parameters.html", null ],
     [ "MR::Viewport::Parameters", "structMR_1_1Viewport_1_1Parameters.html", null ],
+    [ "MR::PartMapping", "structMR_1_1PartMapping.html", null ],
     [ "MR::PerformanceTest", "classMR_1_1PerformanceTest.html", [
       [ "MR::DistanceCompareTest", "classMR_1_1DistanceCompareTest.html", null ],
       [ "MR::RenderTest", "classMR_1_1RenderTest.html", null ]
@@ -318,6 +318,7 @@ var hierarchy =
     [ "MR::ScopeHistory", "classMR_1_1ScopeHistory.html", null ],
     [ "MR::SegmEndColors", "structMR_1_1SegmEndColors.html", null ],
     [ "MR::Polyline::Segment", "structMR_1_1Polyline_1_1Segment.html", null ],
+    [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", null ],
     [ "MR::ShadersHolder", "classMR_1_1ShadersHolder.html", null ],
     [ "MR::Viewer::SignalStopHandler", "structMR_1_1Viewer_1_1SignalStopHandler.html", null ],
     [ "MR::SignedDistanceToMeshResult", "structMR_1_1SignedDistanceToMeshResult.html", null ],
@@ -336,6 +337,7 @@ var hierarchy =
     [ "MR::TriIntersectResult", "structMR_1_1TriIntersectResult.html", null ],
     [ "MR::TriPoint< T >", "structMR_1_1TriPoint.html", null ],
     [ "MR::TriPoint< float >", "structMR_1_1TriPoint.html", null ],
+    [ "MR::UndirectedEdgeIterator", "classMR_1_1UndirectedEdgeIterator.html", null ],
     [ "MR::UnionFind< I >", "classMR_1_1UnionFind.html", null ],
     [ "MR::UniqueThreadSafeOwner< T >", "classMR_1_1UniqueThreadSafeOwner.html", null ],
     [ "MR::UniqueThreadSafeOwner< AABBTree >", "classMR_1_1UniqueThreadSafeOwner.html", [
@@ -359,6 +361,7 @@ var hierarchy =
     [ "MR::Vector4< T >", "structMR_1_1Vector4.html", null ],
     [ "MR::Vector4< float >", "structMR_1_1Vector4.html", null ],
     [ "MR::Vector4< int >", "structMR_1_1Vector4.html", null ],
+    [ "MR::Vector< FaceId, FaceId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< HalfEdgeRecord, MR::Id< EdgeTag > >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< I, I >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< int, I >", "classMR_1_1Vector.html", null ],
@@ -371,6 +374,7 @@ var hierarchy =
     [ "MR::Vector< Node, NodeId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< TriangleCornerNormals, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< Vector3f, VertId >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< VertId, VertId >", "classMR_1_1Vector.html", null ],
     [ "MR::VertPair", "structMR_1_1VertPair.html", null ],
     [ "MR::Viewer", "classMR_1_1Viewer.html", null ],
     [ "MR::ViewerPlugin", "classMR_1_1ViewerPlugin.html", [

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['inside_4888',['Inside',['../classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5a21796cca7989a91c8335cd29c782f5be',1,'MR::VolumeSegmenter::Inside()'],['../classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457a4283b93e69f9bf090a59fe6e0fbc24ef',1,'MR::MarkedVoxelSlice::Inside()']]],
-  ['invalid_4889',['Invalid',['../namespaceMR.html#aa7203f0917dc651aa1261d90d266752ea4bbb8f967da6d1a610596d7257179c2b',1,'MR']]],
-  ['invertednormals_4890',['InvertedNormals',['../structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0aa9ab245ec9543cca01132dc23aa905f1',1,'MR::VisualizeMaskType']]]
+  ['hide_5007',['Hide',['../structMR_1_1Viewer_1_1LaunchParams.html#a58a0e80b9c5f9747b331b14cbf0f1215a5cee2a07914ba76f527a4f6969fec614',1,'MR::Viewer::LaunchParams']]],
+  ['hideinit_5008',['HideInit',['../structMR_1_1Viewer_1_1LaunchParams.html#a58a0e80b9c5f9747b331b14cbf0f1215ab0e6ed1e950a38cb9c5e2623b00bbebb',1,'MR::Viewer::LaunchParams']]]
 ];

@@ -73,6 +73,7 @@ var files_dup =
     [ "MRComponentsSeparator.h", "MRComponentsSeparator_8h.html", [
       [ "ComponentsSeparator", "classMR_1_1ComponentsSeparator.html", "classMR_1_1ComponentsSeparator" ]
     ] ],
+    [ "MRConfig.h", "MRConfig_8h.html", "MRConfig_8h" ],
     [ "MRConstants.h", "MRConstants_8h.html", null ],
     [ "MRContoursStitch.h", "MRContoursStitch_8h.html", "MRContoursStitch_8h" ],
     [ "MRCreatePrimitive.h", "MRCreatePrimitive_8h.html", "MRCreatePrimitive_8h" ],
@@ -82,6 +83,9 @@ var files_dup =
     [ "MRCylinder.h", "MRCylinder_8h.html", "MRCylinder_8h" ],
     [ "MRDeleteSelection.h", "MRDeleteSelection_8h.html", "MRDeleteSelection_8h" ],
     [ "MRDemoPlugin.h", "MRDemoPlugin_8h.html", "MRDemoPlugin_8h" ],
+    [ "MRDenseBox.h", "MRDenseBox_8h.html", [
+      [ "DenseBox", "structMR_1_1DenseBox.html", "structMR_1_1DenseBox" ]
+    ] ],
     [ "MRDistanceComparePlugin.h", "MRDistanceComparePlugin_8h.html", "MRDistanceComparePlugin_8h" ],
     [ "MRDistanceCompareTest.h", "MRDistanceCompareTest_8h.html", "MRDistanceCompareTest_8h" ],
     [ "MRDistanceMap.h", "MRDistanceMap_8h.html", "MRDistanceMap_8h" ],
@@ -97,6 +101,7 @@ var files_dup =
       [ "FaceFace", "structMR_1_1FaceFace.html", "structMR_1_1FaceFace" ]
     ] ],
     [ "MRFaceSelectorPlugin.h", "MRFaceSelectorPlugin_8h.html", "MRFaceSelectorPlugin_8h" ],
+    [ "MRFile.h", "MRFile_8h.html", "MRFile_8h" ],
     [ "MRFileDialog.h", "MRFileDialog_8h.html", "MRFileDialog_8h" ],
     [ "MRFillContour.h", "MRFillContour_8h.html", "MRFillContour_8h" ],
     [ "MRFillHolesPlugin.h", "MRFillHolesPlugin_8h.html", "MRFillHolesPlugin_8h" ],
@@ -257,6 +262,9 @@ var files_dup =
     ] ],
     [ "MRPallete.h", "MRPallete_8h.html", [
       [ "Pallete", "classMR_1_1Pallete.html", "classMR_1_1Pallete" ]
+    ] ],
+    [ "MRPartMapping.h", "MRPartMapping_8h.html", [
+      [ "PartMapping", "structMR_1_1PartMapping.html", "structMR_1_1PartMapping" ]
     ] ],
     [ "MRPerformanceTest.h", "MRPerformanceTest_8h.html", [
       [ "PerformanceTest", "classMR_1_1PerformanceTest.html", "classMR_1_1PerformanceTest" ]

@@ -3,6 +3,7 @@ var classMR_1_1Menu =
     [ "add_modifier", "classMR_1_1Menu.html#aa6f9850637909d2a43d5589eac9f1306", null ],
     [ "addMenuFontRanges_", "classMR_1_1Menu.html#a8db5b7b5bd1e623b505a1770713f1a71", null ],
     [ "allowObjectsRemoval", "classMR_1_1Menu.html#af50b2ec29aa6bb002693d46011c00874", null ],
+    [ "allowSceneReorder", "classMR_1_1Menu.html#ad7cf03103d07df52b278be4cfff1bca2", null ],
     [ "draw_custom_plugins", "classMR_1_1Menu.html#ae915f35f9c74e3164e5d349d7f6f2e3c", null ],
     [ "draw_custom_selection_properties", "classMR_1_1Menu.html#a534e09a8c8be0ca39b3b2c54d90e1d69", null ],
     [ "draw_custom_tree_object_properties", "classMR_1_1Menu.html#abfc80bc0e91eda2f14c4a4cff955955a", null ],
