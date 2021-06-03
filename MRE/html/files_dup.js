@@ -83,6 +83,9 @@ var files_dup =
     [ "MRCylinder.h", "MRCylinder_8h.html", "MRCylinder_8h" ],
     [ "MRDeleteSelection.h", "MRDeleteSelection_8h.html", "MRDeleteSelection_8h" ],
     [ "MRDemoPlugin.h", "MRDemoPlugin_8h.html", "MRDemoPlugin_8h" ],
+    [ "MRDenseBox.h", "MRDenseBox_8h.html", [
+      [ "DenseBox", "structMR_1_1DenseBox.html", "structMR_1_1DenseBox" ]
+    ] ],
     [ "MRDistanceComparePlugin.h", "MRDistanceComparePlugin_8h.html", "MRDistanceComparePlugin_8h" ],
     [ "MRDistanceCompareTest.h", "MRDistanceCompareTest_8h.html", "MRDistanceCompareTest_8h" ],
     [ "MRDistanceMap.h", "MRDistanceMap_8h.html", "MRDistanceMap_8h" ],
@@ -98,9 +101,7 @@ var files_dup =
     [ "MREdgePaths.h", "MREdgePaths_8h.html", "MREdgePaths_8h" ],
     [ "MREdgeSelectorPlugin.h", "MREdgeSelectorPlugin_8h.html", "MREdgeSelectorPlugin_8h" ],
     [ "MREFillContourByGraphCut.h", "MREFillContourByGraphCut_8h.html", "MREFillContourByGraphCut_8h" ],
-    [ "MREFillHoleMetrics.h", "MREFillHoleMetrics_8h.html", [
-      [ "ComplexFillMetric", "structMRE_1_1ComplexFillMetric.html", "structMRE_1_1ComplexFillMetric" ]
-    ] ],
+    [ "MREFillHoleMetrics.h", "MREFillHoleMetrics_8h.html", null ],
     [ "MREIntersectionContour.h", "MREIntersectionContour_8h.html", "MREIntersectionContour_8h" ],
     [ "MREMeshBoolean.h", "MREMeshBoolean_8h.html", "MREMeshBoolean_8h" ],
     [ "MREMeshBooleanFacade.h", "MREMeshBooleanFacade_8h.html", "MREMeshBooleanFacade_8h" ],

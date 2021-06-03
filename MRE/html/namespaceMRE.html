@@ -238,6 +238,8 @@ Functions</h2></td></tr>
 <tr class="separator:a4a1b638977f454de1614d2caffc291f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f4ed5382008a7fff13610607c6c5719"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimateResult.html">DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a9f4ed5382008a7fff13610607c6c5719">decimateMesh</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const <a class="el" href="structMRE_1_1DecimateSettings.html">DecimateSettings</a> &amp;settings={})</td></tr>
 <tr class="separator:a9f4ed5382008a7fff13610607c6c5719"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a090e98ab9275f5e5bc3eb8be1e846400"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="namespaceMR.html#a03bea4c1686b4e77a996eb13fd1d4bb7">MR::QuadraticForm3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a090e98ab9275f5e5bc3eb8be1e846400">computeFormAtVertex</a> (const <a class="el" href="structMR_1_1MeshPart.html">MR::MeshPart</a> &amp;mp, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">MR::VertId</a> v, float stabilizer)</td></tr>
+<tr class="separator:a090e98ab9275f5e5bc3eb8be1e846400"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c9b6750549d4bf9a222a9d5bd509a43"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimateResult.html">DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a9c9b6750549d4bf9a222a9d5bd509a43">decimateParallelMesh</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const <a class="el" href="structMRE_1_1DecimateParallelSettings.html">DecimateParallelSettings</a> &amp;settings={})</td></tr>
 <tr class="separator:a9c9b6750549d4bf9a222a9d5bd509a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91f7142ffa3c4fbaaf6fca4e46789664"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a91f7142ffa3c4fbaaf6fca4e46789664">partialOffsetMesh</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float offset, const <a class="el" href="structMR_1_1OffsetParameters.html">OffsetParameters</a> &amp;params={})</td></tr>
@@ -411,6 +413,40 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Perform boolean operation on mesh A and mesh B returns result mesh (space of mesh A) or error out[optional]: mapper - structure for mapping old topology primirives BitSets to new note: input should have no self-intersections in intersecting zone </p>
+
+</div>
+</div>
+<a id="a090e98ab9275f5e5bc3eb8be1e846400"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a090e98ab9275f5e5bc3eb8be1e846400">&#9670;&nbsp;</a></span>computeFormAtVertex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MREALGORITHMS_API <a class="el" href="namespaceMR.html#a03bea4c1686b4e77a996eb13fd1d4bb7">MR::QuadraticForm3f</a> MRE::computeFormAtVertex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MR::MeshPart</a> &amp;&#160;</td>
+          <td class="paramname"><em>mp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">MR::VertId</a>&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>stabilizer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

@@ -7,5 +7,6 @@ var structMRE_1_1DecimateSettings =
     [ "preCollapse", "structMRE_1_1DecimateSettings.html#aa4f17fd96340b37c98219b37f743d44e", null ],
     [ "region", "structMRE_1_1DecimateSettings.html#a5516325279c277f1368546f126ed95c5", null ],
     [ "stabilizer", "structMRE_1_1DecimateSettings.html#a3c40fafa954eac9946ce998467a2449e", null ],
-    [ "touchBdVertices", "structMRE_1_1DecimateSettings.html#a03b7e3ab435504e0885c7f48e9d0bd52", null ]
+    [ "touchBdVertices", "structMRE_1_1DecimateSettings.html#a03b7e3ab435504e0885c7f48e9d0bd52", null ],
+    [ "vertForms", "structMRE_1_1DecimateSettings.html#a23c47583972b3b17dd89bc69cc2094cd", null ]
 ];

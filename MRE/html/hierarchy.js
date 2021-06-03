@@ -141,6 +141,7 @@ var hierarchy =
     [ "MRE::DecimateParallelSettings", "structMRE_1_1DecimateParallelSettings.html", null ],
     [ "MRE::DecimateResult", "structMRE_1_1DecimateResult.html", null ],
     [ "MRE::DecimateSettings", "structMRE_1_1DecimateSettings.html", null ],
+    [ "MR::DenseBox", "structMR_1_1DenseBox.html", null ],
     [ "MR::DistanceMap", "classMR_1_1DistanceMap.html", null ],
     [ "boost::dynamic_bitset", null, [
       [ "MR::BitSet", "classMR_1_1BitSet.html", [
@@ -399,6 +400,7 @@ var hierarchy =
     [ "MR::Vector< MR::Color, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::Id< EdgeTag >, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::Polyline::Segment, MR::Id >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< MR::QuadraticForm3, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::UVCoord, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::Vector3, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< Node, NodeId >", "classMR_1_1Vector.html", null ],

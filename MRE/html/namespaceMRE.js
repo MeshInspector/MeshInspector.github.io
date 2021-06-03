@@ -44,6 +44,7 @@ var namespaceMRE =
       [ "Count", "namespaceMRE.html#acb4a2073036a155fa7f07f2fdc347007ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "boolean", "namespaceMRE.html#ad88fd116eef1ce6930ecfb0a426e0633", null ],
+    [ "computeFormAtVertex", "namespaceMRE.html#a090e98ab9275f5e5bc3eb8be1e846400", null ],
     [ "convertMeshTriPointsToClosedContour", "namespaceMRE.html#a34f46179c96ce39c5ba94580b9fc1151", null ],
     [ "convertSurfacePathsToMeshContours", "namespaceMRE.html#a4691347d3996bcfbf33023cdbc98f754", null ],
     [ "cutMesh", "namespaceMRE.html#a9e479d0d02c34a3f7eaea80c8a8f0aef", null ],

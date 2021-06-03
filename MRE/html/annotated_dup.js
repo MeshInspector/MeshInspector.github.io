@@ -51,6 +51,7 @@ var annotated_dup =
       [ "Color", "structMR_1_1Color.html", "structMR_1_1Color" ],
       [ "CombinedHistoryActoin", "classMR_1_1CombinedHistoryActoin.html", "classMR_1_1CombinedHistoryActoin" ],
       [ "Config", "classMR_1_1Config.html", "classMR_1_1Config" ],
+      [ "DenseBox", "structMR_1_1DenseBox.html", "structMR_1_1DenseBox" ],
       [ "DistanceMap", "classMR_1_1DistanceMap.html", "classMR_1_1DistanceMap" ],
       [ "UndirectedEdgeIterator", "classMR_1_1UndirectedEdgeIterator.html", "classMR_1_1UndirectedEdgeIterator" ],
       [ "FaceFace", "structMR_1_1FaceFace.html", "structMR_1_1FaceFace" ],
