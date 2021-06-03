@@ -171,8 +171,6 @@ var hierarchy =
     [ "MR::FillHoleParams", "structMR_1_1FillHoleParams.html", null ],
     [ "MR::FloatGrid", "classMR_1_1FloatGrid.html", null ],
     [ "MR::FreeFormDeformer", "classMR_1_1FreeFormDeformer.html", null ],
-    [ "std::hash< MR::Id< T > >", "structstd_1_1hash_3_01MR_1_1Id_3_01T_01_4_01_4.html", null ],
-    [ "std::hash< MR::Vector3f >", "structstd_1_1hash_3_01MR_1_1Vector3f_01_4.html", null ],
     [ "MR::Heap< T, I, P >", "classMR_1_1Heap.html", null ],
     [ "MR::Histogram", "classMR_1_1Histogram.html", null ],
     [ "MR::HistoryAction", "classMR_1_1HistoryAction.html", [

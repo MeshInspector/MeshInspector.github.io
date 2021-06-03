@@ -1,7 +1,5 @@
 var NAVTREEINDEX20 =
 {
-"structMR_1_1ViewportGL_1_1PickResult.html#a5436a18c5ecc4c071070e0dabaa2ad8f":[8,0,0,263,2,2],
-"structMR_1_1ViewportGL_1_1PickResult.html#a86b92c0e6a3ecb31f8f02d125a8b489d":[8,0,0,263,2,1],
 "structMR_1_1ViewportGL_1_1PickResult.html#adecc1d7de8fac4ac6efaf33be923ce47":[8,0,0,263,2,0],
 "structMR_1_1ViewportGL_1_1RenderParams.html":[8,0,0,263,3],
 "structMR_1_1ViewportGL_1_1RenderParams.html#a4418936d5182b4b3065dcbd54b9388df":[8,0,0,263,3,3],
@@ -64,9 +62,5 @@ var NAVTREEINDEX20 =
 "structMR_1_1VoxelMetricParameters.html#a56ffd5cce114539b66d53db876518db0":[8,0,0,139,1],
 "structMR_1_1VoxelMetricParameters.html#ab2680e847f9d7f989c60b09700889278":[8,0,0,139,4],
 "structMR_1_1VoxelMetricParameters.html#aba278925c13ad718a8d6ef45eece27bf":[8,0,0,139,2],
-"structMR_1_1VoxelMetricParameters.html#ae851669e25fee95a2b98a79736a529cf":[8,0,0,139,3],
-"structstd_1_1hash_3_01MR_1_1Id_3_01T_01_4_01_4.html":[8,0,2,0],
-"structstd_1_1hash_3_01MR_1_1Id_3_01T_01_4_01_4.html#a611c2b9db57ca53fa0107306e8172044":[8,0,2,0,0],
-"structstd_1_1hash_3_01MR_1_1Vector3f_01_4.html":[8,0,2,1],
-"structstd_1_1hash_3_01MR_1_1Vector3f_01_4.html#a5f02d5d556755281365f1d5edc0f3be5":[8,0,2,1,0]
+"structMR_1_1VoxelMetricParameters.html#ae851669e25fee95a2b98a79736a529cf":[8,0,0,139,3]
 };

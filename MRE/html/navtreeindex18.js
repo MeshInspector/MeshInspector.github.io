@@ -1,7 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"structMR_1_1Mesh.html#a3dc92f0a0c6c4263dceec2fea4f7375e":[8,0,0,60,0],
-"structMR_1_1Mesh.html#a3e4cfa1b0310ac1c5fb5bf8e7f7313eb":[8,0,0,60,4],
 "structMR_1_1Mesh.html#a3f0764fd9acf9f3a4b060a658c656efc":[8,0,0,60,52],
 "structMR_1_1Mesh.html#a4237bb2ee8edbc72aa4189bc2307a544":[8,0,0,60,18],
 "structMR_1_1Mesh.html#a45cc8a4868a2671492e010d86cb408cd":[8,0,0,60,8],
@@ -249,5 +247,7 @@ var NAVTREEINDEX18 =
 "structMR_1_1Polyline.html#af62f57aa32d73e72ee92efcf24542575":[8,0,0,113,3],
 "structMR_1_1PolylineProjectionResult.html":[8,0,0,114],
 "structMR_1_1PolylineProjectionResult.html#abbe15178084689317dfb27a1fd84cea4":[8,0,0,114,1],
-"structMR_1_1PolylineProjectionResult.html#ac55a92925d7636d09e9d7c1267a7d1a7":[8,0,0,114,2]
+"structMR_1_1PolylineProjectionResult.html#ac55a92925d7636d09e9d7c1267a7d1a7":[8,0,0,114,2],
+"structMR_1_1PolylineProjectionResult.html#adf8bf60fae1fa9ffe39d7e0557cc2657":[8,0,0,114,0],
+"structMR_1_1Polyline_1_1Segment.html":[8,0,0,113,0]
 };

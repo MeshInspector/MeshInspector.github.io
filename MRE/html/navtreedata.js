@@ -87,14 +87,14 @@ var NAVTREEINDEX =
 "classMR_1_1ShowLocalBasisPlugin.html#a982a206f0782c3eac9b71b8da97eea97",
 "classMR_1_1Viewer.html#acf9fff42c2dad04353dfdc1943522829",
 "classMR_1_1VisualObject.html#a9709f115307bc66ddc037c9cd3337367",
-"namespaceMR.html#a154178c02f71bf3d4d8d868c9d0bcfee",
-"namespaceMR.html#a7a492156b75bdd4b9dd72acc28ef2b3e",
-"namespaceMR.html#add31d490b1541a9d1ad4edcb11b5d56f",
-"namespacemembers.html",
-"structMR_1_1CoordinateConverters.html#af1cc39b13f2960b4d6386e81c3e57c74",
-"structMR_1_1Mesh.html#a3dc92f0a0c6c4263dceec2fea4f7375e",
-"structMR_1_1PolylineProjectionResult.html#adf8bf60fae1fa9ffe39d7e0557cc2657",
-"structMR_1_1ViewportGL_1_1PickResult.html#a5436a18c5ecc4c071070e0dabaa2ad8f"
+"namespaceMR.html#a1560d541d4bd2041d0f6dc862515d908",
+"namespaceMR.html#a7b4aab811acd94c409df329541ed1e9f",
+"namespaceMR.html#add5d7a687012c2369378263a4e119f79",
+"namespacemembers_b.html",
+"structMR_1_1DragDropListener.html#a14335ad47979c8d5059dc9c8bb2af252",
+"structMR_1_1Mesh.html#a3f0764fd9acf9f3a4b060a658c656efc",
+"structMR_1_1Polyline_1_1Segment.html#a97eba6d057deb6705a5eba710c41e56a",
+"structMR_1_1ViewportGL_1_1PickResult.html#adecc1d7de8fac4ac6efaf33be923ce47"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -143,10 +143,7 @@ var files_dup =
     [ "MRGeodesicPathPlugin.h", "MRGeodesicPathPlugin_8h.html", "MRGeodesicPathPlugin_8h" ],
     [ "MRGLMacro.h", "MRGLMacro_8h.html", "MRGLMacro_8h" ],
     [ "MRGridSampling.h", "MRGridSampling_8h.html", "MRGridSampling_8h" ],
-    [ "MRHash.h", "MRHash_8h.html", [
-      [ "hash< MR::Id< T > >", "structstd_1_1hash_3_01MR_1_1Id_3_01T_01_4_01_4.html", "structstd_1_1hash_3_01MR_1_1Id_3_01T_01_4_01_4" ],
-      [ "hash< MR::Vector3f >", "structstd_1_1hash_3_01MR_1_1Vector3f_01_4.html", "structstd_1_1hash_3_01MR_1_1Vector3f_01_4" ]
-    ] ],
+    [ "MRHash.h", "MRHash_8h.html", null ],
     [ "MRHeap.h", "MRHeap_8h.html", [
       [ "Heap", "classMR_1_1Heap.html", "classMR_1_1Heap" ],
       [ "Element", "structMR_1_1Heap_1_1Element.html", "structMR_1_1Heap_1_1Element" ]

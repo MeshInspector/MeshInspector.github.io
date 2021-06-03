@@ -1,15 +1,11 @@
 var searchData=
 [
-  ['w_2525',['w',['../structMR_1_1Matrix4.html#a9e0640aaf9b368a204fd42127c9e93e3',1,'MR::Matrix4::w()'],['../structMR_1_1Vector4.html#a2a2d849b18944213202e305115b457a6',1,'MR::Vector4::w()']]],
-  ['warptype_2526',['WarpType',['../structMR_1_1MeshTexture.html#a02b38209ef48a938635275b79553f4e8',1,'MR::MeshTexture']]],
-  ['weight_2527',['weight',['../structMR_1_1VertPair.html#a6be4702849ae600ea471ab410b2190f8',1,'MR::VertPair']]],
-  ['white_2528',['white',['../structMR_1_1Color.html#afdf32fadc1e749715ad1911813a76f75',1,'MR::Color']]],
-  ['width_2529',['width',['../structMR_1_1ImmediateGL_1_1RenderParams.html#a1195efacca9ee7f006c5c59c01f5920b',1,'MR::ImmediateGL::RenderParams::width()'],['../structMR_1_1Viewer_1_1LaunchParams.html#a09db42c4c3ea6e62f7ff0bac224efb68',1,'MR::Viewer::LaunchParams::width()'],['../structMR_1_1Viewport_1_1ViewportRectangle.html#aafa872d15f02a805f7d42db1c2d67a2c',1,'MR::Viewport::ViewportRectangle::width()'],['../structMR_1_1ViewportGL_1_1RenderParams.html#ab9dfdbb2fdb3ab678f6b2ff3173c52bd',1,'MR::ViewportGL::RenderParams::width()'],['../structMR_1_1ViewportGL_1_1PickParameters.html#ac712c8a58926345f7fe24cdfcd4691b0',1,'MR::ViewportGL::PickParameters::width()']]],
-  ['window_2530',['window',['../classMR_1_1Viewer.html#adf21364b06943f8b3a27b96c8145bd89',1,'MR::Viewer']]],
-  ['window_5fheight_2531',['window_height',['../classMR_1_1Viewer.html#a4674b2abd599665851e1c1d40dcf2f65',1,'MR::Viewer']]],
-  ['window_5fwidth_2532',['window_width',['../classMR_1_1Viewer.html#a3a4958d213076c09dcd8de8ce49b87fb',1,'MR::Viewer']]],
-  ['worldspace_2533',['worldSpace',['../structMR_1_1Viewer_1_1PointInAllSpaces.html#af0e6467cf5ce1121ba9569986f7d5d53',1,'MR::Viewer::PointInAllSpaces']]],
-  ['worldtocameraspace_2534',['worldToCameraSpace',['../classMR_1_1Viewport.html#abf9bc36eda02472e52c41323484ca493',1,'MR::Viewport::worldToCameraSpace(const Vector3f &amp;p) const'],['../classMR_1_1Viewport.html#ab5835e0ce210eacdfbbbf4cbb25f296e',1,'MR::Viewport::worldToCameraSpace(const std::vector&lt; Vector3f &gt; &amp;p) const']]],
-  ['worldxf_2535',['worldXf',['../classMR_1_1Object.html#a31913dd48c26cd7bef1447b1f891cdf4',1,'MR::Object']]],
-  ['write_2536',['write',['../classMR_1_1MeshTopology.html#a698bdffc6553d99627eff8444ae95cfb',1,'MR::MeshTopology']]]
+  ['x_2533',['x',['../structMR_1_1Matrix3.html#a34220148555a9b57f32f7edb08289ea4',1,'MR::Matrix3::x()'],['../structMR_1_1Matrix4.html#afefd6af8bdb869e88d5062c6aa38c746',1,'MR::Matrix4::x()'],['../structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c',1,'MR::Vector2::x()'],['../structMR_1_1Vector3.html#a3d6f56ed3c525a928116d6c095997c5c',1,'MR::Vector3::x()'],['../structMR_1_1Vector4.html#a2430707dabdc5933eb1c27e622a73c04',1,'MR::Vector4::x()'],['../structMR_1_1Viewport_1_1ViewportRectangle.html#a9fa8d783786079664e9a37130ff804aa',1,'MR::Viewport::ViewportRectangle::x()']]],
+  ['xf_2534',['xf',['../structMRE_1_1TransformedMesh.html#a2709c282925fbe8e9874bd82e30d38ec',1,'MRE::TransformedMesh::xf()'],['../classMR_1_1Object.html#ad71b2a64a23dec31aa80e1aee2069829',1,'MR::Object::xf() const']]],
+  ['xf_5f_2535',['xf_',['../classMR_1_1Object.html#af6c0631e7edf10aa753d844495be0950',1,'MR::Object']]],
+  ['xfaround_2536',['xfAround',['../structMR_1_1AffineXf3.html#afdd7fa382d6880a10269301aec9a58af',1,'MR::AffineXf3']]],
+  ['xx_2537',['xx',['../structMR_1_1SymMatrix3.html#a9bb4e4e398d4c529a5a88c7b95c381c2',1,'MR::SymMatrix3']]],
+  ['xy_2538',['xy',['../structMR_1_1SymMatrix3.html#a338177889f057fdb4fe9ad0781e40582',1,'MR::SymMatrix3']]],
+  ['xy_2539',['XY',['../namespaceMR.html#ae7c8689563553fe7686bd6b71ddf8f18a3629e4a37a6ff95437939d8664d158e9',1,'MR']]],
+  ['xz_2540',['xz',['../structMR_1_1SymMatrix3.html#a975295446a9281ca38f7ff5967875eb8',1,'MR::SymMatrix3']]]
 ];

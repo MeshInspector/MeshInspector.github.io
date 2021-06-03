@@ -132,7 +132,7 @@ $(document).ready(function(){initNavTree('MRObjectFactory_8h_source.html',''); i
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    static_assert( std::is_base_of_v&lt;Object, T&gt;, <span class="stringliteral">&quot;MR::Object is not base of T&quot;</span> );</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
 <div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classMR_1_1ObjectFactory.html#a196468998cd1d0aedd44db61031634d6">   35</a></span>&#160;    <a class="code" href="classMR_1_1ObjectFactory.html#a196468998cd1d0aedd44db61031634d6">ObjectFactory</a>( std::string className ) </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        : <a class="code" href="classMR_1_1ObjectFactoryBase.html">ObjectFactoryBase</a>( <a class="code" href="namespacestd.html">std</a>::move( className ), </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        : <a class="code" href="classMR_1_1ObjectFactoryBase.html">ObjectFactoryBase</a>( std::move( className ), </div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            []() { <span class="keywordflow">return</span> std::static_pointer_cast&lt;Object&gt;( std::make_shared&lt;T&gt;() ); } ) </div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    { }</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;};</div>
@@ -148,7 +148,6 @@ $(document).ready(function(){initNavTree('MRObjectFactory_8h_source.html',''); i
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MREViewerSetup.h:5</div></div>
 <div class="ttc" id="anamespaceMR_html_a1781590b6f7cbab3c21b2bc45dc89a69"><div class="ttname"><a href="namespaceMR.html#a1781590b6f7cbab3c21b2bc45dc89a69">MR::ObjectMakerFunc</a></div><div class="ttdeci">std::shared_ptr&lt; Object &gt;() ObjectMakerFunc</div><div class="ttdef"><b>Definition:</b> MRObjectFactory.h:17</div></div>
 <div class="ttc" id="anamespaceMR_html_a982f58442d37216bb53562e4e1130416"><div class="ttname"><a href="namespaceMR.html#a982f58442d37216bb53562e4e1130416">MR::createObject</a></div><div class="ttdeci">MRMESH_API std::shared_ptr&lt; Object &gt; createObject(const std::string &amp;className)</div></div>
-<div class="ttc" id="anamespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div><div class="ttdef"><b>Definition:</b> MRHash.h:9</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

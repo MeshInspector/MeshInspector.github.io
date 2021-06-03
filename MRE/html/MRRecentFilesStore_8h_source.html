@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('MRRecentFilesStore_8h_source.html','')
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="comment">// Capacity is maximum stored filenames,</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="comment">// it needs app name to store data to correct place in system storage</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classMR_1_1RecentFilesStore.html#a446898aa3d0c6bd022d1d584464b6838">   19</a></span>&#160;    <a class="code" href="classMR_1_1RecentFilesStore.html#a446898aa3d0c6bd022d1d584464b6838">RecentFilesStore</a>( std::string appName, <span class="keywordtype">int</span> capacity = 5 ) :</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        appName_{<a class="code" href="namespacestd.html">std</a>::move(appName)}, capacity_{capacity} {}</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        appName_{std::move(appName)}, capacity_{capacity} {}</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="comment">// Saves filename on top of recently opened stack,</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="comment">// if file is already in the storage put it on top</span></div>
@@ -139,7 +139,6 @@ $(document).ready(function(){initNavTree('MRRecentFilesStore_8h_source.html','')
 <div class="ttc" id="aclassMR_1_1RecentFilesStore_html_aa4d22ecdbcc7621a1e29b650a9a8c7a9"><div class="ttname"><a href="classMR_1_1RecentFilesStore.html#aa4d22ecdbcc7621a1e29b650a9a8c7a9">MR::RecentFilesStore::getStoredFiles</a></div><div class="ttdeci">MRVIEWER_API std::vector&lt; std::filesystem::path &gt; getStoredFiles() const</div></div>
 <div class="ttc" id="aclassMR_1_1RecentFilesStore_html_ab3bdf57745bbf11b5ac6fd1b27edcb68"><div class="ttname"><a href="classMR_1_1RecentFilesStore.html#ab3bdf57745bbf11b5ac6fd1b27edcb68">MR::RecentFilesStore::RecentFilesStore</a></div><div class="ttdeci">RecentFilesStore()=default</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MREViewerSetup.h:5</div></div>
-<div class="ttc" id="anamespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div><div class="ttdef"><b>Definition:</b> MRHash.h:9</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -1,7 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"structMR_1_1PolylineProjectionResult.html#adf8bf60fae1fa9ffe39d7e0557cc2657":[8,0,0,114,0],
-"structMR_1_1Polyline_1_1Segment.html":[8,0,0,113,0],
 "structMR_1_1Polyline_1_1Segment.html#a97eba6d057deb6705a5eba710c41e56a":[8,0,0,113,0,0],
 "structMR_1_1Polyline_1_1Segment.html#aeb082389381a80f54bcd0b2c544ebed3":[8,0,0,113,0,1],
 "structMR_1_1PostDrawListener.html":[8,0,0,252],
@@ -249,5 +247,7 @@ var NAVTREEINDEX19 =
 "structMR_1_1ViewportGL_1_1PickParameters.html#a518b85161ebde2615c4805c8d6edb010":[8,0,0,263,1,0],
 "structMR_1_1ViewportGL_1_1PickParameters.html#ac712c8a58926345f7fe24cdfcd4691b0":[8,0,0,263,1,6],
 "structMR_1_1ViewportGL_1_1PickParameters.html#aff5495af1f46be635d2ffa5c0da47d24":[8,0,0,263,1,1],
-"structMR_1_1ViewportGL_1_1PickResult.html":[8,0,0,263,2]
+"structMR_1_1ViewportGL_1_1PickResult.html":[8,0,0,263,2],
+"structMR_1_1ViewportGL_1_1PickResult.html#a5436a18c5ecc4c071070e0dabaa2ad8f":[8,0,0,263,2,2],
+"structMR_1_1ViewportGL_1_1PickResult.html#a86b92c0e6a3ecb31f8f02d125a8b489d":[8,0,0,263,2,1]
 };
