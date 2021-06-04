@@ -26,13 +26,15 @@ var NAVTREE =
 [
   [ "MeshRusExt", "index.html", [
     [ "Overview", "index.html", [
+      [ "MeshRusExt", "index.html#WhatAreMeshRusExt", null ],
       [ "Build with VS2019 on Windows", "index.html#HomePageBuildWin", null ],
       [ "Build with CMake on Linux", "index.html#HomePageBuildLin", null ]
     ] ],
-    [ "Data model overview", "DataModel.html", null ],
+    [ "Basic usage", "HowToBasic.html", null ],
     [ "Custom plugins overview", "CustomPluginsHelp.html", null ],
-    [ "Spaces and transformations", "SpacesHelp.html", null ],
     [ "Python overview", "EmbendedPythonOverview.html", null ],
+    [ "Data model overview", "DataModel.html", null ],
+    [ "Spaces and transformations", "SpacesHelp.html", null ],
     [ "Supported GPUs", "SupportedGPUs.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", "namespaces.html", [
@@ -75,26 +77,26 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "CustomPluginsHelp.html",
-"MREMeshDecimate_8h.html",
-"MRLine3_8h.html#a447779d2c8919244a5fd34faf563df91",
-"MRMeshLoad_8h.html#ae2c0f2a89be452cadc116c36785c4782",
-"MRRegionBoundary_8h.html#a976372186d14f46e40a794e8363492f4",
-"MRTriangleIntersection_8h.html#a7d697a07d5d0aeac1be7f7a6d85c9773",
-"classMR_1_1AABBTreePolyline.html#aa37967aebd03819d68dc459743441098",
-"classMR_1_1HistoryStore.html#aea1440c49e39cc9ab8e073de63271147",
-"classMR_1_1MeshTopology.html#a55a63965fb321b1f428ca4c3a253d22e",
-"classMR_1_1ObjectTransformation.html#aae0ed0dd3d18159cb733a39076fd59ae",
-"classMR_1_1ShowHomologyBasisPlugin.html#a04e7830dedd5ee52769f2f7d8cf44b09",
-"classMR_1_1Viewer.html#ac7dba1b55dd1f24f07ddac9e8e32e4f7",
-"classMR_1_1VisualObject.html#a8cf68798f947d65d5173c8bbec3059e3",
-"namespaceMR.html#a154178c02f71bf3d4d8d868c9d0bcfee",
-"namespaceMR.html#a7a492156b75bdd4b9dd72acc28ef2b3e",
-"namespaceMR.html#add31d490b1541a9d1ad4edcb11b5d56f",
-"namespacemembers.html",
-"structMR_1_1CoordinateConverters.html#a9c7a896a6e208bd631d8a24dc4dbe5e9",
-"structMR_1_1Mesh.html#a11228a93127a5898b74ad325b40229fc",
-"structMR_1_1PointsSave_1_1CtmSavePointsOptions.html",
-"structMR_1_1Viewer_1_1SignalStopHandler.html#a2081bf492c269c66a3028f263ca499ab"
+"MREMeshDecimateParallel_8h_source.html",
+"MRLine3_8h.html#a2166391f1b02986c9cdcd46f4b3701b0",
+"MRMeshLoad_8h.html#ad7d8fb51b895ee88d13c585b94db3eab",
+"MRRegionBoundary_8h.html#a4d3bc72716887b5d9dfa102464142635",
+"MRTriangleIntersection_8h.html#a5f99a6c651855a83e92d9a5386aa2462",
+"classMR_1_1AABBTreePolyline.html#a95a7c685c3a9990e290d8de4e01154ee",
+"classMR_1_1HistoryStore.html#aafc8981726bdd34892bb0498bbb38ab4",
+"classMR_1_1MeshTopology.html#a5280cca1a7e8cf958ef2856607f87b8b",
+"classMR_1_1ObjectTransformation.html#aa7c3fd374bfa7a447f6b14ab76a2e87d",
+"classMR_1_1ShowHomologyBasisPlugin.html",
+"classMR_1_1Viewer.html#ac51259408b6d7317405a7362d7d8a0e4",
+"classMR_1_1VisualObject.html#a8c9ac961e923f7c61ccf3424413be0fb",
+"namespaceMR.html#a14959b64f656471b4f5a6686917faabc",
+"namespaceMR.html#a77e524e5d35f5f928160b35e3b917fa5",
+"namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80ecac1f6f7fcdbf302503a3aca3a1cecf4c9",
+"namespaceMR_1_1VoxelsSave.html#a6114e0beee562fead196792fa4624a73",
+"structMR_1_1ConnectionHolder.html#afe082892826d9c3fe604a038f3509c70",
+"structMR_1_1Mesh.html#a0c83a5a324f80a18969d786febaee653",
+"structMR_1_1PointToPlaneAligningTransform_1_1Amendment.html#a04a4d1982544bf6d4f2ed32f567ef690",
+"structMR_1_1Viewer_1_1PointInAllSpaces.html#afade13c5486d09b0772392ab694d7831"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

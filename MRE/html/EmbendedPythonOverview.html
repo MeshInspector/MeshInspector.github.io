@@ -99,7 +99,36 @@ $(document).ready(function(){initNavTree('EmbendedPythonOverview.html',''); init
 <div class="contents">
 <div class="textblock"><p>Python is one of the most popular and widely used programming language in scientific researches, machine learning, data analysis and advanced testing.</p>
 <p>MeshRUs library allows you to call python scripts directly from the command line or use particular functions by <code>import mrpy</code>.</p>
-<p><code>MeshRUs/pythonScripts</code> folder contain scripts which could be used as examples for developers or testers. <b>Python</b> <b>boost</b> c++ library allows to list all <code>mrpy.*</code> functions with standart <code>print(dir(mrpy))</code> call. Detailed description is presented in the <code>Functions</code> table below.</p>
+<p><b>Usage</b> </p>
+<p>MeshRUs provides several usage options<br  />
+</p><ol type="1">
+<li>Directly from system python <div class="fragment"><div class="line"><span class="keyword">import</span> mrpy</div>
+<div class="line"> </div>
+<div class="line">mesh = mrpy.load_mesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
+<div class="line"><span class="preprocessor"># ...</span></div>
+<div class="line"><span class="preprocessor"># some mesh modifications can be perform here</span></div>
+<div class="line"><span class="preprocessor"># ...</span></div>
+<div class="line"><span class="preprocessor">mrpy.save_mesh(&quot;mesh.ply&quot;</span>)</div>
+</div><!-- fragment --></li>
+<li>Run scritp with MeshRUs executable file (MeshRUs.exe on windows or ./MRApp on linux) <div class="fragment"><div class="line">$ ./MRApp script_path.py</div>
+</div><!-- fragment --> <dl class="section note"><dt>Note</dt><dd>Script should still import mrpy module</dd></dl>
+</li>
+<li>Run script from c++ code <div class="fragment"><div class="line"><a class="code" href="namespaceMR.html#aacfeb59c7dc32990b29839f1902f4d31">MR::runScript</a>(<span class="stringliteral">&quot;script.py&quot;</span>); <span class="comment">// or MR::runString( stringWithScript )</span></div>
+<div class="ttc" id="anamespaceMR_html_aacfeb59c7dc32990b29839f1902f4d31"><div class="ttname"><a href="namespaceMR.html#aacfeb59c7dc32990b29839f1902f4d31">MR::runScript</a></div><div class="ttdeci">MRMESH_API void runScript(const std::filesystem::path &amp;path)</div></div>
+</div><!-- fragment --></li>
+</ol>
+<p><b>Exposing</b> </p>
+<p>You can expose your c++ functions and classes to python </p><div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="MRPython_8h.html">MRPython.h</a>&quot;</span></div>
+<div class="line"><span class="keywordtype">void</span> pythonExample( <span class="keywordtype">float</span> arg )</div>
+<div class="line">{</div>
+<div class="line">    doSomething(arg);</div>
+<div class="line">}</div>
+<div class="line"><a class="code" href="MRPython_8h.html#a9f4ef07fc4c7a76ae7597ea7b3b56752">ADD_PYTHON_FUNCTION</a> (examplePythonFunc, pythonExample);</div>
+<div class="ttc" id="aMRPython_8h_html"><div class="ttname"><a href="MRPython_8h.html">MRPython.h</a></div></div>
+<div class="ttc" id="aMRPython_8h_html_a9f4ef07fc4c7a76ae7597ea7b3b56752"><div class="ttname"><a href="MRPython_8h.html#a9f4ef07fc4c7a76ae7597ea7b3b56752">ADD_PYTHON_FUNCTION</a></div><div class="ttdeci">#define ADD_PYTHON_FUNCTION(name, func, description)</div><div class="ttdef"><b>Definition:</b> MRPython.h:16</div></div>
+</div><!-- fragment --><p><b>Functions</b> <code>MeshRUs/pythonScripts</code> folder contain scripts which could be used as examples for developers or testers. <b>Python</b> <b>boost</b> c++ library allows to list all <code>mrpy.*</code> functions with standart <code>print(dir(mrpy))</code> call. You can list all available python functuins by running <code>python MeshRUs/python_scripts/functions_list.py</code></p>
+<dl class="section note"><dt>Note</dt><dd>Not all functions are available anytime, for example functions that triggers rendering are not available in direct python call, but available with executable run</dd></dl>
+<p>Some functions are listed here:</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Function name   </th><th class="markdownTableHeadNone">Function name c++   </th><th class="markdownTableHeadNone">Arguments   </th><th class="markdownTableHeadNone">Description    </th></tr>
@@ -126,30 +155,6 @@ $(document).ready(function(){initNavTree('EmbendedPythonOverview.html',''); init
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">clear_scene   </td><td class="markdownTableBodyNone">pythonClearScene   </td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">remove all models   </td></tr>
 </table>
-<p>Example:</p>
-<p>c++ function:</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="MRPython_8h.html">MRPython.h</a>&quot;</span></div>
-<div class="line"><span class="keywordtype">void</span> pythonExample( <span class="keywordtype">float</span> arg )</div>
-<div class="line">{</div>
-<div class="line">    doSomething(arg);</div>
-<div class="line">}</div>
-<div class="line"><a class="code" href="MRPython_8h.html#a9f4ef07fc4c7a76ae7597ea7b3b56752">ADD_PYTHON_FUNCTION</a> (examplePythonFunc, pythonExample);</div>
-<div class="ttc" id="aMRPython_8h_html"><div class="ttname"><a href="MRPython_8h.html">MRPython.h</a></div></div>
-<div class="ttc" id="aMRPython_8h_html_a9f4ef07fc4c7a76ae7597ea7b3b56752"><div class="ttname"><a href="MRPython_8h.html#a9f4ef07fc4c7a76ae7597ea7b3b56752">ADD_PYTHON_FUNCTION</a></div><div class="ttdeci">#define ADD_PYTHON_FUNCTION(name, func, description)</div><div class="ttdef"><b>Definition:</b> MRPython.h:16</div></div>
-</div><!-- fragment --><p>python call</p>
-<div class="fragment"><div class="line"><span class="keyword">import</span> mrpy</div>
-<div class="line"> </div>
-<div class="line">mrpy.load(<span class="stringliteral">&quot;path_to_stl\\example.stl&quot;</span>)</div>
-<div class="line">mrpy.examplePythonFunc(4.3)</div>
-<div class="line">mrpy.save(<span class="stringliteral">&quot;path_to_stl\\example_out.stl&quot;</span>)</div>
-<div class="line">mrpy.clear_scene()</div>
-</div><!-- fragment --><p>How to run in VS2019:</p>
-<p>Set debug command argument: </p><div class="fragment"><div class="line">MRApp <span class="keyword">property</span> pages -&gt; Configuration Properties -&gt; Debugging -&gt; Command Arguments -&gt; &lt;path_to_script&gt;/script.py</div>
-</div><!-- fragment --><p>Run Debug.</p>
-<p>How to run in command line:</p>
-<p>Just use your script as the first argument</p>
-<div class="fragment"><div class="line">./MRApp.exe &lt;path_to_script&gt;/script.py</div>
-</div><!-- fragment --><p>Alternatevly, you could chouse <code><a class="el" href="classMR_1_1Open.html">Open</a></code> <code>with</code> Windows context meny for your script and choose MRApp.exe as the program </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
