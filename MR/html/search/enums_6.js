@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['masktype_4946',['MaskType',['../classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457',1,'MR::MarkedVoxelSlice']]],
-  ['meshcompression_4947',['MeshCompression',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69d',1,'MR::MeshSave::CtmSaveOptions']]],
-  ['mousebutton_4948',['MouseButton',['../classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6',1,'MR::Viewer']]],
-  ['mousemode_4949',['MouseMode',['../classMR_1_1Viewer.html#a1e0f5398c54b70bf130b28dbe6795e37',1,'MR::Viewer']]]
+  ['masktype_4949',['MaskType',['../classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457',1,'MR::MarkedVoxelSlice']]],
+  ['meshcompression_4950',['MeshCompression',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69d',1,'MR::MeshSave::CtmSaveOptions']]],
+  ['mousebutton_4951',['MouseButton',['../classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6',1,'MR::Viewer']]],
+  ['mousemode_4952',['MouseMode',['../classMR_1_1Viewer.html#a1e0f5398c54b70bf130b28dbe6795e37',1,'MR::Viewer']]]
 ];

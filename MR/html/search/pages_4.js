@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['spaces_20and_20transformations_5105',['Spaces and transformations',['../SpacesHelp.html',1,'']]],
-  ['supported_20gpus_5106',['Supported GPUs',['../SupportedGPUs.html',1,'']]]
+  ['python_20overview_5108',['Python overview',['../EmbendedPythonOverview.html',1,'']]]
 ];
