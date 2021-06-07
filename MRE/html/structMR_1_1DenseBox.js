@@ -6,5 +6,5 @@ var structMR_1_1DenseBox =
     [ "box", "structMR_1_1DenseBox.html#aa953d5c10ddb695706b56f0307a3b7f0", null ],
     [ "center", "structMR_1_1DenseBox.html#a7efc7b0a63b1e8c7737349454066d83f", null ],
     [ "contains", "structMR_1_1DenseBox.html#ad6e0ec24db49e4d651459703603a3e4d", null ],
-    [ "corner", "structMR_1_1DenseBox.html#a53d4d07beaa728705e7a042e242c54ca", null ]
+    [ "corner", "structMR_1_1DenseBox.html#ae15fa3079fbe1aae94cb52176e59e802", null ]
 ];

@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('structMRE_1_1CutMeshResult.html',''); 
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMRE_1_1CutMeshResult-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MRE::CutMeshResult Struct Reference</div>  </div>
+<div class="title">MRE::CutMeshResult Struct Reference<div class="ingroups"><a class="el" href="group__BooleanGroup.html">Surface Boolean overview</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -106,11 +106,14 @@ $(document).ready(function(){initNavTree('structMRE_1_1CutMeshResult.html',''); 
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aa22ef8b6936737444f08a98e2c72744a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">MR::EdgePath</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1CutMeshResult.html#aa22ef8b6936737444f08a98e2c72744a">resultCut</a></td></tr>
+<tr class="memdesc:aa22ef8b6936737444f08a98e2c72744a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Paths of new edges on mesh, they represent same contours as input, but already cut.  <a href="structMRE_1_1CutMeshResult.html#aa22ef8b6936737444f08a98e2c72744a">More...</a><br /></td></tr>
 <tr class="separator:aa22ef8b6936737444f08a98e2c72744a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a149dbe30c556abf01448d02b4f26a5cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">MR::FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1CutMeshResult.html#a149dbe30c556abf01448d02b4f26a5cf">fbsWithCountourIntersections</a></td></tr>
 <tr class="separator:a149dbe30c556abf01448d02b4f26a5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This structure contains result of <a class="el" href="group__BooleanGroup.html#ga9e479d0d02c34a3f7eaea80c8a8f0aef" title="Cuts mesh by given contours.">MRE::cutMesh</a> function </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a149dbe30c556abf01448d02b4f26a5cf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a149dbe30c556abf01448d02b4f26a5cf">&#9670;&nbsp;</a></span>fbsWithCountourIntersections</h2>
 
@@ -122,6 +125,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Bitset of bad triangles - triangles where input contours have intersections and can not be cut and filled in a good way </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="structMRE_1_1CutMeshParameters.html">MRE::CutMeshParameters</a> </dd></dl>
 
 </div>
 </div>
@@ -136,6 +140,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Paths of new edges on mesh, they represent same contours as input, but already cut. </p>
 
 </div>
 </div>

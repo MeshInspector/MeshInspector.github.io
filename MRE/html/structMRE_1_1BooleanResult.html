@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('structMRE_1_1BooleanResult.html',''); 
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMRE_1_1BooleanResult-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MRE::BooleanResult Struct Reference</div>  </div>
+<div class="title">MRE::BooleanResult Struct Reference<div class="ingroups"><a class="el" href="group__BooleanGroup.html">Surface Boolean overview</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -110,6 +110,7 @@ $(document).ready(function(){initNavTree('structMRE_1_1BooleanResult.html',''); 
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aeb4c3e20edf6b71ddd3c7145b68f2ca4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1BooleanResult.html#aeb4c3e20edf6b71ddd3c7145b68f2ca4">valid</a> () const</td></tr>
+<tr class="memdesc:aeb4c3e20edf6b71ddd3c7145b68f2ca4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if boolean succeed, false otherwise.  <a href="structMRE_1_1BooleanResult.html#aeb4c3e20edf6b71ddd3c7145b68f2ca4">More...</a><br /></td></tr>
 <tr class="separator:aeb4c3e20edf6b71ddd3c7145b68f2ca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af94480cd40cf00d26d12cc5c1c6b7c6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1BooleanResult.html#af94480cd40cf00d26d12cc5c1c6b7c6b">operator*</a> ()</td></tr>
 <tr class="separator:af94480cd40cf00d26d12cc5c1c6b7c6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,19 +124,21 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a1aac27432ac15cd3c68b3799471ebda3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1BooleanResult.html#a1aac27432ac15cd3c68b3799471ebda3">mesh</a></td></tr>
-<tr class="memdesc:a1aac27432ac15cd3c68b3799471ebda3"><td class="mdescLeft">&#160;</td><td class="mdescRight">result mesh (only if success)  <a href="structMRE_1_1BooleanResult.html#a1aac27432ac15cd3c68b3799471ebda3">More...</a><br /></td></tr>
+<tr class="memdesc:a1aac27432ac15cd3c68b3799471ebda3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Result mesh of boolean operation, if error occurred it would be empty.  <a href="structMRE_1_1BooleanResult.html#a1aac27432ac15cd3c68b3799471ebda3">More...</a><br /></td></tr>
 <tr class="separator:a1aac27432ac15cd3c68b3799471ebda3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab91be46390417cf15b60554fdb3a4833"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">MR::FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1BooleanResult.html#ab91be46390417cf15b60554fdb3a4833">meshABadContourFaces</a></td></tr>
-<tr class="memdesc:ab91be46390417cf15b60554fdb3a4833"><td class="mdescLeft">&#160;</td><td class="mdescRight">faces with contour self-intersection on it  <a href="structMRE_1_1BooleanResult.html#ab91be46390417cf15b60554fdb3a4833">More...</a><br /></td></tr>
+<tr class="memdesc:ab91be46390417cf15b60554fdb3a4833"><td class="mdescLeft">&#160;</td><td class="mdescRight">If input contours have intersections, this face bit set presents faces of mesh <code>A</code> on which contours intersect.  <a href="structMRE_1_1BooleanResult.html#ab91be46390417cf15b60554fdb3a4833">More...</a><br /></td></tr>
 <tr class="separator:ab91be46390417cf15b60554fdb3a4833"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab744a0a943cc6b74351a6a3b7c0edea3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">MR::FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1BooleanResult.html#ab744a0a943cc6b74351a6a3b7c0edea3">meshBBadContourFaces</a></td></tr>
-<tr class="memdesc:ab744a0a943cc6b74351a6a3b7c0edea3"><td class="mdescLeft">&#160;</td><td class="mdescRight">faces with contour self-intersection on it  <a href="structMRE_1_1BooleanResult.html#ab744a0a943cc6b74351a6a3b7c0edea3">More...</a><br /></td></tr>
+<tr class="memdesc:ab744a0a943cc6b74351a6a3b7c0edea3"><td class="mdescLeft">&#160;</td><td class="mdescRight">If input contours have intersections, this face bit set presents faces of mesh <code>B</code> on which contours intersect.  <a href="structMRE_1_1BooleanResult.html#ab744a0a943cc6b74351a6a3b7c0edea3">More...</a><br /></td></tr>
 <tr class="separator:ab744a0a943cc6b74351a6a3b7c0edea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc8f55e74998e9a35222b97a0c367ecd"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1BooleanResult.html#acc8f55e74998e9a35222b97a0c367ecd">errorString</a></td></tr>
+<tr class="memdesc:acc8f55e74998e9a35222b97a0c367ecd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds error message, empty if boolean succeed.  <a href="structMRE_1_1BooleanResult.html#acc8f55e74998e9a35222b97a0c367ecd">More...</a><br /></td></tr>
 <tr class="separator:acc8f55e74998e9a35222b97a0c367ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Structure contain boolean result. </p>
+<p>This structure store result mesh of <a class="el" href="group__BooleanGroup.html#gad88fd116eef1ce6930ecfb0a426e0633" title="Performs CSG operation on two meshes.">MRE::boolean</a> or some error info </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="af94480cd40cf00d26d12cc5c1c6b7c6b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af94480cd40cf00d26d12cc5c1c6b7c6b">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/2]</span></h2>
@@ -260,6 +263,8 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Returns true if boolean succeed, false otherwise. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -275,6 +280,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Holds error message, empty if boolean succeed. </p>
+
 </div>
 </div>
 <a id="a1aac27432ac15cd3c68b3799471ebda3"></a>
@@ -289,7 +296,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>result mesh (only if success) </p>
+<p>Result mesh of boolean operation, if error occurred it would be empty. </p>
 
 </div>
 </div>
@@ -305,7 +312,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>faces with contour self-intersection on it </p>
+<p>If input contours have intersections, this face bit set presents faces of mesh <code>A</code> on which contours intersect. </p>
 
 </div>
 </div>
@@ -321,7 +328,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>faces with contour self-intersection on it </p>
+<p>If input contours have intersections, this face bit set presents faces of mesh <code>B</code> on which contours intersect. </p>
 
 </div>
 </div>

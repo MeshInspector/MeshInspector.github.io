@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['data_20model_20class_20hierarchy_5420',['Data model class hierarchy',['../DataModel.html',1,'']]]
+  ['data_20model_20class_20hierarchy_5458',['Data model class hierarchy',['../DataModel.html',1,'']]]
 ];

@@ -97,9 +97,12 @@ $(document).ready(function(){initNavTree('structMRE_1_1CutMeshParameters.html','
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMRE_1_1CutMeshParameters-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MRE::CutMeshParameters Struct Reference</div>  </div>
+<div class="title">MRE::CutMeshParameters Struct Reference<div class="ingroups"><a class="el" href="group__BooleanGroup.html">Surface Boolean overview</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Parameters of <a class="el" href="group__BooleanGroup.html#ga9e479d0d02c34a3f7eaea80c8a8f0aef" title="Cuts mesh by given contours.">MRE::cutMesh</a>.  
+ <a href="structMRE_1_1CutMeshParameters.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MREContoursCut_8h_source.html">MREContoursCut.h</a>&gt;</code></p>
 <table class="memberdecls">
@@ -108,11 +111,15 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a3cd3039491b80e9d949b6da27485d5fd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMRE_1_1SortIntersectionsData.html">SortIntersectionsData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1CutMeshParameters.html#a3cd3039491b80e9d949b6da27485d5fd">sortData</a> {nullptr}</td></tr>
 <tr class="separator:a3cd3039491b80e9d949b6da27485d5fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adba0f5185348b6cc4e6085db074e0dd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a989bcd374602a615d0acbd6a4988b9b3">MR::FaceMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1CutMeshParameters.html#adba0f5185348b6cc4e6085db074e0dd8">new2OldMap</a> {nullptr}</td></tr>
+<tr class="memdesc:adba0f5185348b6cc4e6085db074e0dd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is optional output - map from newly generated faces to old faces (N-1)  <a href="structMRE_1_1CutMeshParameters.html#adba0f5185348b6cc4e6085db074e0dd8">More...</a><br /></td></tr>
 <tr class="separator:adba0f5185348b6cc4e6085db074e0dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37b72a16f32fb1d4bde5ce89dbdd9200"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1CutMeshParameters.html#a37b72a16f32fb1d4bde5ce89dbdd9200">forceFillAfterBadCut</a> {false}</td></tr>
 <tr class="separator:a37b72a16f32fb1d4bde5ce89dbdd9200"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Parameters of <a class="el" href="group__BooleanGroup.html#ga9e479d0d02c34a3f7eaea80c8a8f0aef" title="Cuts mesh by given contours.">MRE::cutMesh</a>. </p>
+<p>This structure contains some options and optional outputs of <a class="el" href="group__BooleanGroup.html#ga9e479d0d02c34a3f7eaea80c8a8f0aef" title="Cuts mesh by given contours.">MRE::cutMesh</a> function </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="structMRE_1_1CutMeshResult.html">MRE::CutMeshResult</a> </dd></dl>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a37b72a16f32fb1d4bde5ce89dbdd9200"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a37b72a16f32fb1d4bde5ce89dbdd9200">&#9670;&nbsp;</a></span>forceFillAfterBadCut</h2>
 
@@ -124,6 +131,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>If this flag is set, <a class="el" href="group__BooleanGroup.html#ga9e479d0d02c34a3f7eaea80c8a8f0aef" title="Cuts mesh by given contours.">MRE::cutMesh</a> will fill all possible triangles, except bad ones; otherwise it will leave deleted faces on all contours line (only in case of bad triangles) </p><dl class="section note"><dt>Note</dt><dd>Bad triangles here mean faces where contours have intersections and can not be cut and filled in an good way </dd></dl>
 
 </div>
 </div>
@@ -139,6 +147,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>This is optional output - map from newly generated faces to old faces (N-1) </p>
+
 </div>
 </div>
 <a id="a3cd3039491b80e9d949b6da27485d5fd"></a>
@@ -152,6 +162,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>This is optional input for better contours resolving<br  />
+it provides additional info from other mesh used in boolean operation, useful to solve some degeneration </p><dl class="section note"><dt>Note</dt><dd>Most likely you don't need this in case you call <a class="el" href="group__BooleanGroup.html#ga9e479d0d02c34a3f7eaea80c8a8f0aef" title="Cuts mesh by given contours.">MRE::cutMesh</a> manualy, use case of it is <a class="el" href="group__BooleanGroup.html#gad88fd116eef1ce6930ecfb0a426e0633" title="Performs CSG operation on two meshes.">MRE::boolean</a> </dd></dl>
 
 </div>
 </div>
