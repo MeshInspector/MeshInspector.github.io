@@ -88,7 +88,7 @@ var NAVTREEINDEX =
 "classMR_1_1ObjectPoints.html#a2be05118406e1ad2fd63a3a462ddde5e",
 "classMR_1_1SetBitIteratorT.html#ac1a8c3119169e589647d7f09071c406d",
 "classMR_1_1Viewer.html#aa06366b4b567517a7363c7010be2abe0",
-"classMR_1_1VisualObject.html#a42c63ccf2ec13041e1dd693a2533372f",
+"classMR_1_1VisualObject.html#a43bcd013faf296110ba8cb4a94bbe12f",
 "namespaceMR.html#a03255e831f4895337e7cf27d64e51269a2844551064db079a1d3da473c389c9ca",
 "namespaceMR.html#a5ae89c778fe01228f20aa52aa2e160d0",
 "namespaceMR.html#abf686ad64ce95b11f72c37a95d4b736a",

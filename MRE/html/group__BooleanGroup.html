@@ -204,24 +204,52 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Enum class of available CSG operations </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="group__BooleanGroup.html#gad88fd116eef1ce6930ecfb0a426e0633">MRE::boolean</a> </dd></dl>
+<p>Enum class of available CSG operations </p><div class="image">
+<img src="no_bool.png" alt="" width="300cm"/>
+<div class="caption">
+Two separate meshes</div></div>
+ <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__BooleanGroup.html#gad88fd116eef1ce6930ecfb0a426e0633">MRE::boolean</a> </dd></dl>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggacb4a2073036a155fa7f07f2fdc347007a833b7406c91f551bd8502cf76bb95c29"></a>InsideA&#160;</td><td class="fielddoc"><p>Part of mesh <code>A</code> that is inside of mesh <code>B</code> </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggacb4a2073036a155fa7f07f2fdc347007a9f3e5e704c939dff3070cf175df0b75d"></a>InsideB&#160;</td><td class="fielddoc"><p>Part of mesh <code>B</code> that is inside of mesh <code>A</code> </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggacb4a2073036a155fa7f07f2fdc347007a9a03bdff82f27d2bf0997d9c54855711"></a>OutsideA&#160;</td><td class="fielddoc"><p>Part of mesh <code>A</code> that is outside of mesh <code>B</code> </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggacb4a2073036a155fa7f07f2fdc347007a6c72337a335f60bed93678d35bd0165f"></a>OutsideB&#160;</td><td class="fielddoc"><p>Part of mesh <code>B</code> that is outside of mesh <code>A</code> </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggacb4a2073036a155fa7f07f2fdc347007aaef12e903e606a4895a16b393bfdec8c"></a>Union&#160;</td><td class="fielddoc"><p>Union surface of two meshes (outside parts) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggacb4a2073036a155fa7f07f2fdc347007aa06d31c2ee920b4d53e8c9c06d90ba24"></a>Intersection&#160;</td><td class="fielddoc"><p>Intersection surface of two meshes (inside parts) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggacb4a2073036a155fa7f07f2fdc347007ad7e2d5557f4bc77c023a5c3fd8b52aae"></a>DifferenceBA&#160;</td><td class="fielddoc"><p>Surface of mesh <code>B</code> - surface of mesh <code>A</code> (outside <code>B</code> - inside <code>A</code>) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggacb4a2073036a155fa7f07f2fdc347007a676747ace506f0a560e1d99f5da1ab2a"></a>DifferenceAB&#160;</td><td class="fielddoc"><p>Surface of mesh <code>A</code> - surface of mesh <code>B</code> (outside <code>A</code> - inside <code>B</code>) </p>
-</td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggacb4a2073036a155fa7f07f2fdc347007a833b7406c91f551bd8502cf76bb95c29"></a>InsideA&#160;</td><td class="fielddoc"><p>Part of mesh <code>A</code> that is inside of mesh <code>B</code> </p><div class="image">
+<img src="inside_a.png" alt="" width="300cm"/>
+<div class="caption">
+Inside A</div></div>
+ </td></tr>
+<tr><td class="fieldname"><a id="ggacb4a2073036a155fa7f07f2fdc347007a9f3e5e704c939dff3070cf175df0b75d"></a>InsideB&#160;</td><td class="fielddoc"><p>Part of mesh <code>B</code> that is inside of mesh <code>A</code> </p><div class="image">
+<img src="inside_b.png" alt="" width="300cm"/>
+<div class="caption">
+Inside B</div></div>
+ </td></tr>
+<tr><td class="fieldname"><a id="ggacb4a2073036a155fa7f07f2fdc347007a9a03bdff82f27d2bf0997d9c54855711"></a>OutsideA&#160;</td><td class="fielddoc"><p>Part of mesh <code>A</code> that is outside of mesh <code>B</code> </p><div class="image">
+<img src="outside_a.png" alt="" width="300cm"/>
+<div class="caption">
+Outside A</div></div>
+ </td></tr>
+<tr><td class="fieldname"><a id="ggacb4a2073036a155fa7f07f2fdc347007a6c72337a335f60bed93678d35bd0165f"></a>OutsideB&#160;</td><td class="fielddoc"><p>Part of mesh <code>B</code> that is outside of mesh <code>A</code> </p><div class="image">
+<img src="outside_b.png" alt="" width="300cm"/>
+<div class="caption">
+Outside B</div></div>
+ </td></tr>
+<tr><td class="fieldname"><a id="ggacb4a2073036a155fa7f07f2fdc347007aaef12e903e606a4895a16b393bfdec8c"></a>Union&#160;</td><td class="fielddoc"><p>Union surface of two meshes (outside parts) </p><div class="image">
+<img src="union.png" alt="" width="300cm"/>
+<div class="caption">
+Union</div></div>
+ </td></tr>
+<tr><td class="fieldname"><a id="ggacb4a2073036a155fa7f07f2fdc347007aa06d31c2ee920b4d53e8c9c06d90ba24"></a>Intersection&#160;</td><td class="fielddoc"><p>Intersection surface of two meshes (inside parts) </p><div class="image">
+<img src="intersection.png" alt="" width="300cm"/>
+<div class="caption">
+Intersection</div></div>
+ </td></tr>
+<tr><td class="fieldname"><a id="ggacb4a2073036a155fa7f07f2fdc347007ad7e2d5557f4bc77c023a5c3fd8b52aae"></a>DifferenceBA&#160;</td><td class="fielddoc"><p>Surface of mesh <code>B</code> - surface of mesh <code>A</code> (outside <code>B</code> - inside <code>A</code>) </p><div class="image">
+<img src="b-a.png" alt="" width="300cm"/>
+<div class="caption">
+Difference B-A</div></div>
+ </td></tr>
+<tr><td class="fieldname"><a id="ggacb4a2073036a155fa7f07f2fdc347007a676747ace506f0a560e1d99f5da1ab2a"></a>DifferenceAB&#160;</td><td class="fielddoc"><p>Surface of mesh <code>A</code> - surface of mesh <code>B</code> (outside <code>A</code> - inside <code>B</code>) </p><div class="image">
+<img src="a-b.png" alt="" width="300cm"/>
+<div class="caption">
+Difference A-B</div></div>
+ </td></tr>
 <tr><td class="fieldname"><a id="ggacb4a2073036a155fa7f07f2fdc347007ae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc"><p>not a valid operation </p>
 </td></tr>
 </table>

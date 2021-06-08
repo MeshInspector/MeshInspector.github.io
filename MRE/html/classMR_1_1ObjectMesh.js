@@ -28,7 +28,7 @@ var classMR_1_1ObjectMesh =
     [ "getSelectedEdgesColor", "classMR_1_1ObjectMesh.html#ae1048731afb9b15202eb3a31c4cd0689", null ],
     [ "getSelectedFaces", "classMR_1_1ObjectMesh.html#a7102c2524fd32f4f2723dc8b9b9dde8f", null ],
     [ "getSelectedFacesColor", "classMR_1_1ObjectMesh.html#a4db111cfdf6064d4943757025d91bc97", null ],
-    [ "getVisualizePropertyMask_", "classMR_1_1ObjectMesh.html#a176ae4bcb22a721caf76f39c6e06c878", null ],
+    [ "getVisualizePropertyMask", "classMR_1_1ObjectMesh.html#ac5514a62d8d74583d03c16748d77ee28", null ],
     [ "mesh", "classMR_1_1ObjectMesh.html#ae0589401e075bcb217e3b195d8d2be82", null ],
     [ "operator=", "classMR_1_1ObjectMesh.html#a284fff301669cae2ea812e0e11920c2c", null ],
     [ "selectEdges", "classMR_1_1ObjectMesh.html#a84008de218eadc665c3a608a0822d2cf", null ],
