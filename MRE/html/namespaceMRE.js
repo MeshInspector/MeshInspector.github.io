@@ -43,7 +43,7 @@ var namespaceMRE =
       [ "DifferenceAB", "group__BooleanGroup.html#ggacb4a2073036a155fa7f07f2fdc347007a676747ace506f0a560e1d99f5da1ab2a", null ],
       [ "Count", "group__BooleanGroup.html#ggacb4a2073036a155fa7f07f2fdc347007ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
-    [ "boolean", "group__BooleanGroup.html#gad88fd116eef1ce6930ecfb0a426e0633", null ],
+    [ "boolean", "group__BooleanGroup.html#ga09e248fe156925a1560a8bd4a2179370", null ],
     [ "computeFormAtVertex", "namespaceMRE.html#a090e98ab9275f5e5bc3eb8be1e846400", null ],
     [ "convertMeshTriPointsToClosedContour", "group__BooleanGroup.html#ga34f46179c96ce39c5ba94580b9fc1151", null ],
     [ "convertSurfacePathsToMeshContours", "group__BooleanGroup.html#ga4691347d3996bcfbf33023cdbc98f754", null ],

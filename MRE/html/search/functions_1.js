@@ -11,7 +11,7 @@ var searchData=
   ['bitsetparallelforall_3371',['BitSetParallelForAll',['../namespaceMR.html#aec1d8613d38041fae09f290f342a4995',1,'MR']]],
   ['black_3372',['black',['../structMR_1_1Color.html#a5596c66211faa167983f60fb9c684e0c',1,'MR::Color']]],
   ['blue_3373',['blue',['../structMR_1_1Color.html#acd72366575d0f58c29867044c403e34a',1,'MR::Color']]],
-  ['boolean_3374',['boolean',['../group__BooleanGroup.html#gad88fd116eef1ce6930ecfb0a426e0633',1,'MRE']]],
+  ['boolean_3374',['boolean',['../group__BooleanGroup.html#ga09e248fe156925a1560a8bd4a2179370',1,'MRE']]],
   ['booleanplugin_3375',['BooleanPlugin',['../classMR_1_1BooleanPlugin.html#af3f945ca8c7947b37256171a67fae1ac',1,'MR::BooleanPlugin']]],
   ['booleanresultmapper_3376',['BooleanResultMapper',['../structMRE_1_1BooleanResultMapper.html#a4be2397604d009d32fae4ec2a934629d',1,'MRE::BooleanResultMapper']]],
   ['booleantest_3377',['BooleanTest',['../classMRE_1_1BooleanTest.html#ab798cc589931a6c833c6e4f8191d3bd9',1,'MRE::BooleanTest']]],

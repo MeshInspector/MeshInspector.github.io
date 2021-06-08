@@ -30,7 +30,7 @@ var searchData=
   ['bitsetparallelforall_129',['BitSetParallelForAll',['../namespaceMR.html#aec1d8613d38041fae09f290f342a4995',1,'MR']]],
   ['black_130',['black',['../structMR_1_1Color.html#a5596c66211faa167983f60fb9c684e0c',1,'MR::Color']]],
   ['blue_131',['blue',['../structMR_1_1Color.html#acd72366575d0f58c29867044c403e34a',1,'MR::Color']]],
-  ['boolean_132',['boolean',['../group__BooleanGroup.html#gad88fd116eef1ce6930ecfb0a426e0633',1,'MRE']]],
+  ['boolean_132',['boolean',['../group__BooleanGroup.html#ga09e248fe156925a1560a8bd4a2179370',1,'MRE']]],
   ['booleanoperation_133',['BooleanOperation',['../group__BooleanGroup.html#gacb4a2073036a155fa7f07f2fdc347007',1,'MRE']]],
   ['booleanplugin_134',['BooleanPlugin',['../classMR_1_1BooleanPlugin.html#af3f945ca8c7947b37256171a67fae1ac',1,'MR::BooleanPlugin::BooleanPlugin()'],['../classMR_1_1BooleanPlugin.html',1,'MR::BooleanPlugin']]],
   ['booleanplugininstance_135',['BooleanPluginInstance',['../namespaceMR.html#a084fa6b145930b081d0c8544e2f9a19a',1,'MR']]],
