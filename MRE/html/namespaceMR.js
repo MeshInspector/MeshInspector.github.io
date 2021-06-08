@@ -770,7 +770,7 @@ var namespaceMR =
     [ "operator+", "namespaceMR.html#a46572bb3e96a83ad1f85cdfffe7a7411", null ],
     [ "operator+", "namespaceMR.html#addb2d6a70f84a16c2603418cf4f152c3", null ],
     [ "operator+", "namespaceMR.html#ade41b54455ff1f6f103eef3234033257", null ],
-    [ "operator+", "namespaceMR.html#a20509e6e4e14f6bf1aa91bc7b1c77568", null ],
+    [ "operator+", "namespaceMR.html#a06e02f80eecf3e65c82e4d90172ccc7e", null ],
     [ "operator+", "namespaceMR.html#ae34bf76981250158594054136f7faad9", null ],
     [ "operator+", "namespaceMR.html#ae96fba3ab7bc0271c4127f07b272ea79", null ],
     [ "operator+", "namespaceMR.html#a0c9e2d7d2acbe881208517b7ea3dfee4", null ],

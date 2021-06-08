@@ -9,7 +9,7 @@ var MRVector3_8h =
     [ "operator*", "MRVector3_8h.html#af95e5a240f07d0c2aa7359e2d519bcf5", null ],
     [ "operator*", "MRVector3_8h.html#add9f68c16f2636b4a64a35ce80ccd5ca", null ],
     [ "operator*=", "MRVector3_8h.html#a1a7a1ee55631639f7572614a9f6152cf", null ],
-    [ "operator+", "MRVector3_8h.html#a20509e6e4e14f6bf1aa91bc7b1c77568", null ],
+    [ "operator+", "MRVector3_8h.html#a06e02f80eecf3e65c82e4d90172ccc7e", null ],
     [ "operator+", "MRVector3_8h.html#ae34bf76981250158594054136f7faad9", null ],
     [ "operator+=", "MRVector3_8h.html#a3f879ace98a37202b3acc0d01d5b2320", null ],
     [ "operator-", "MRVector3_8h.html#aec4173483ff273c12386136bb7b8be77", null ],

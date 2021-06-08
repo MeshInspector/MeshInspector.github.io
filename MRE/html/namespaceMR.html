@@ -1489,6 +1489,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a92cf19f0c1243c4cf448b8394f694ad5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PolylineProjectionResult.html">PolylineProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a92cf19f0c1243c4cf448b8394f694ad5">findProjectionOnPolyline</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pt, const <a class="el" href="structMR_1_1Polyline.html">Polyline</a> &amp;polyline, float upDistLimitSq=FLT_MAX, <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr)</td></tr>
 <tr class="separator:a92cf19f0c1243c4cf448b8394f694ad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa12e4c4e4ffbedecd3d64a4c5fc4a7a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa12e4c4e4ffbedecd3d64a4c5fc4a7a8">positionVertsSmoothly</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;verts, <a class="el" href="classMR_1_1Laplacian.html#a40fcda9e6b8208959a3204e274784b18">Laplacian::EdgeWeights</a> egdeWeightsType=<a class="el" href="classMR_1_1Laplacian.html#a40fcda9e6b8208959a3204e274784b18af2ccdc14df1f860d7b09661c47cc15c9">Laplacian::EdgeWeights::Cotan</a>)</td></tr>
+<tr class="memdesc:aa12e4c4e4ffbedecd3d64a4c5fc4a7a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts given vertices in such positions to make smooth surface both inside verts-region and on its boundary.  <a href="namespaceMR.html#aa12e4c4e4ffbedecd3d64a4c5fc4a7a8">More...</a><br /></td></tr>
 <tr class="separator:aa12e4c4e4ffbedecd3d64a4c5fc4a7a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af33aff000dfb310f8d4e2b79698c3373"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af33aff000dfb310f8d4e2b79698c3373">orient3d</a> (const <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &amp;a, const <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &amp;b, const <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &amp;c)</td></tr>
 <tr class="separator:af33aff000dfb310f8d4e2b79698c3373"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1920,9 +1921,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aec4173483ff273c12386136bb7b8be77"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:aec4173483ff273c12386136bb7b8be77"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aec4173483ff273c12386136bb7b8be77">operator-</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a)</td></tr>
 <tr class="separator:aec4173483ff273c12386136bb7b8be77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20509e6e4e14f6bf1aa91bc7b1c77568"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a20509e6e4e14f6bf1aa91bc7b1c77568"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a20509e6e4e14f6bf1aa91bc7b1c77568">operator+</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a)</td></tr>
-<tr class="separator:a20509e6e4e14f6bf1aa91bc7b1c77568"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06e02f80eecf3e65c82e4d90172ccc7e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a06e02f80eecf3e65c82e4d90172ccc7e"><td class="memTemplItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a06e02f80eecf3e65c82e4d90172ccc7e">operator+</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a)</td></tr>
+<tr class="separator:a06e02f80eecf3e65c82e4d90172ccc7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac25b857747dcd86539451d0a7c20d69c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ac25b857747dcd86539451d0a7c20d69c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac25b857747dcd86539451d0a7c20d69c">cross</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="separator:ac25b857747dcd86539451d0a7c20d69c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -8006,6 +8007,7 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>All out of region faces that have a common edge with at least one region face </dd></dl>
 
 </div>
 </div>
@@ -12628,8 +12630,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a20509e6e4e14f6bf1aa91bc7b1c77568"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20509e6e4e14f6bf1aa91bc7b1c77568">&#9670;&nbsp;</a></span>operator+() <span class="overload">[7/11]</span></h2>
+<a id="a06e02f80eecf3e65c82e4d90172ccc7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06e02f80eecf3e65c82e4d90172ccc7e">&#9670;&nbsp;</a></span>operator+() <span class="overload">[7/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12640,7 +12642,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt;T&gt;&amp; MR::operator+ </td>
+          <td class="memname">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt;T&gt;&amp; MR::operator+ </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em></td><td>)</td>
@@ -15938,6 +15940,8 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Puts given vertices in such positions to make smooth surface both inside verts-region and on its boundary. </p>
+
 </div>
 </div>
 <a id="ad6cfd0ed032f20380163debadee4dfe1"></a>
@@ -17949,6 +17953,8 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Split edges in mesh region according to the settings;<br  />
+</p><dl class="section return"><dt>Returns</dt><dd>The total number of edge flips performed </dd></dl>
 
 </div>
 </div>

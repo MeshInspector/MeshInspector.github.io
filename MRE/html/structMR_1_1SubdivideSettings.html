@@ -106,14 +106,19 @@ $(document).ready(function(){initNavTree('structMR_1_1SubdivideSettings.html',''
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a36d315cb2aaa92503d1a85c889074250"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#a36d315cb2aaa92503d1a85c889074250">maxEdgeLen</a> = 0</td></tr>
+<tr class="memdesc:a36d315cb2aaa92503d1a85c889074250"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value.  <a href="structMR_1_1SubdivideSettings.html#a36d315cb2aaa92503d1a85c889074250">More...</a><br /></td></tr>
 <tr class="separator:a36d315cb2aaa92503d1a85c889074250"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff0af54aeab721522fe62a3eab94a74d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d">maxEdgeSplits</a> = 1000</td></tr>
+<tr class="memdesc:aff0af54aeab721522fe62a3eab94a74d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of edge splits allowed.  <a href="structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d">More...</a><br /></td></tr>
 <tr class="separator:aff0af54aeab721522fe62a3eab94a74d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf497f2181525852eaeee09ce71fb476"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476">maxDeviationAfterFlip</a> = 1</td></tr>
+<tr class="memdesc:adf497f2181525852eaeee09ce71fb476"><td class="mdescLeft">&#160;</td><td class="mdescRight">Improves local mesh triangulation after each edge flip if it does not make too big surface deviation.  <a href="structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476">More...</a><br /></td></tr>
 <tr class="separator:adf497f2181525852eaeee09ce71fb476"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e24bf5e1bf140cdfac3cc68b9a693fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#a5e24bf5e1bf140cdfac3cc68b9a693fa">region</a> = nullptr</td></tr>
+<tr class="memdesc:a5e24bf5e1bf140cdfac3cc68b9a693fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Region on mesh to be subdivided, it is updated during the operation.  <a href="structMR_1_1SubdivideSettings.html#a5e24bf5e1bf140cdfac3cc68b9a693fa">More...</a><br /></td></tr>
 <tr class="separator:a5e24bf5e1bf140cdfac3cc68b9a693fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4c50e1143edfb7886c734be3226ff9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d">newVerts</a> = nullptr</td></tr>
+<tr class="memdesc:af4c50e1143edfb7886c734be3226ff9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">New vertices appeared during subdivision will be added here.  <a href="structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d">More...</a><br /></td></tr>
 <tr class="separator:af4c50e1143edfb7886c734be3226ff9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9288f9c5670484c0f76b53be1311b3cc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#a9288f9c5670484c0f76b53be1311b3cc">subdivideBorder</a> = true</td></tr>
 <tr class="separator:a9288f9c5670484c0f76b53be1311b3cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -132,6 +137,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>If subdivideBorder is off subdivider can produce narrow triangles near border<br  />
+this parameter prevents subdivision of such triangles </p>
 
 </div>
 </div>
@@ -147,6 +154,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Improves local mesh triangulation after each edge flip if it does not make too big surface deviation. </p>
+
 </div>
 </div>
 <a id="a36d315cb2aaa92503d1a85c889074250"></a>
@@ -160,6 +169,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value. </p>
 
 </div>
 </div>
@@ -175,6 +186,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Maximum number of edge splits allowed. </p>
+
 </div>
 </div>
 <a id="af4c50e1143edfb7886c734be3226ff9d"></a>
@@ -188,6 +201,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>New vertices appeared during subdivision will be added here. </p>
 
 </div>
 </div>
@@ -203,6 +218,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Region on mesh to be subdivided, it is updated during the operation. </p>
+
 </div>
 </div>
 <a id="a9288f9c5670484c0f76b53be1311b3cc"></a>
@@ -216,6 +233,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>If false do not touch border edges (can not subdivide lone faces)<br  />
+use <a class="el" href="namespaceMR.html#a14819584da09eac6df2cab459ab80626">MR::findRegionOuterFaces</a> to find boundary faces </p>
 
 </div>
 </div>
