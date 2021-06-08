@@ -1,5 +1,11 @@
 var NAVTREEINDEX19 =
 {
+"structMR_1_1ViewportLinesWithColors.html#acc2e27115a832552e0ac1e4768ba83cc":[9,0,0,263,0],
+"structMR_1_1ViewportPointsWithColors.html":[9,0,0,262],
+"structMR_1_1ViewportPointsWithColors.html#ac82bf98c749b0bb821e259629bb70b84":[9,0,0,262,1],
+"structMR_1_1ViewportPointsWithColors.html#af0122c41ec3efb5901af84d7a442e268":[9,0,0,262,0],
+"structMR_1_1Viewport_1_1Parameters.html":[9,0,0,192,0],
+"structMR_1_1Viewport_1_1Parameters.html#a05baf80b0d45f2da8f9e5e92cda7c891":[9,0,0,192,0,8],
 "structMR_1_1Viewport_1_1Parameters.html#a1c27a50a950c5531b7b4198a165971f4":[9,0,0,192,0,12],
 "structMR_1_1Viewport_1_1Parameters.html#a1df762dce4c2e6b6f250ab0220bf3429":[9,0,0,192,0,10],
 "structMR_1_1Viewport_1_1Parameters.html#a22334f5bd9465a4b836b6ca117f39068":[9,0,0,192,0,2],

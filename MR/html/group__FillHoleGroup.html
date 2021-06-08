@@ -191,6 +191,18 @@ Functions</h2></td></tr>
 . </p>
 <p>Build cylindrical patch to fill space between two holes represented by one of their edges each,<br  />
 default metric: <a class="el" href="structMR_1_1ComplexStitchMetric.html">ComplexStitchMetric</a></p>
+<div class="image">
+<img src="before_stitch.png" alt="" width="250cm"/>
+<div class="caption">
+Before</div></div>
+ <div class="image">
+<img src="stitch.png" alt="" width="250cm"/>
+<div class="caption">
+After</div></div>
+<p>Next picture show, how newly generated faces can be smoothed <a class="el" href="namespaceMR.html#aa12e4c4e4ffbedecd3d64a4c5fc4a7a8">MR::positionVertsSmoothly</a> <a class="el" href="namespaceMR.html#a8e8a41112544b99ef8f20e3e6b61fab7">MR::subdivideMesh</a> </p><div class="image">
+<img src="stitch_smooth.png" alt="" width="250cm"/>
+<div class="caption">
+Stitch with smooth</div></div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mesh</td><td>mesh with hole </td></tr>
@@ -243,6 +255,18 @@ default metric: <a class="el" href="structMR_1_1ComplexStitchMetric.html">Comple
 <p>Fills given hole represented by one of its edges (having no valid left face),<br  />
 uses fillHoleTrivially if cannot fill hole without multiple edges,<br  />
 default metric: <a class="el" href="structMR_1_1CircumscribedFillMetric.html">CircumscribedFillMetric</a></p>
+<div class="image">
+<img src="before_fill.png" alt="" width="250cm"/>
+<div class="caption">
+Before</div></div>
+ <div class="image">
+<img src="fill.png" alt="" width="250cm"/>
+<div class="caption">
+After</div></div>
+<p>Next picture show, how newly generated faces can be smoothed <a class="el" href="namespaceMR.html#aa12e4c4e4ffbedecd3d64a4c5fc4a7a8">MR::positionVertsSmoothly</a> <a class="el" href="namespaceMR.html#a8e8a41112544b99ef8f20e3e6b61fab7">MR::subdivideMesh</a> </p><div class="image">
+<img src="fill_smooth.png" alt="" width="250cm"/>
+<div class="caption">
+Fill with smooth</div></div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mesh</td><td>mesh with hole </td></tr>
@@ -295,6 +319,18 @@ default metric: <a class="el" href="structMR_1_1CircumscribedFillMetric.html">Ci
 . </p>
 <p>Fills given hole represented by one of its edges (having no valid left face)<br  />
 by creating one new vertex in the centroid of boundary vertices and connecting new vertex with all boundary vertices.</p>
+<div class="image">
+<img src="before_fill.png" alt="" width="250cm"/>
+<div class="caption">
+Before</div></div>
+ <div class="image">
+<img src="fill_triv.png" alt="" width="250cm"/>
+<div class="caption">
+After</div></div>
+<p>Next picture show, how newly generated faces can be smoothed <a class="el" href="namespaceMR.html#aa12e4c4e4ffbedecd3d64a4c5fc4a7a8">MR::positionVertsSmoothly</a> <a class="el" href="namespaceMR.html#a8e8a41112544b99ef8f20e3e6b61fab7">MR::subdivideMesh</a> </p><div class="image">
+<img src="fill_triv_smooth.png" alt="" width="250cm"/>
+<div class="caption">
+Trivial fill with smooth</div></div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mesh</td><td>mesh with hole </td></tr>

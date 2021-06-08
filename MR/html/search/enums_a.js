@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['seedtype_4957',['SeedType',['../classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5',1,'MR::VolumeSegmenter']]],
-  ['shadertype_4958',['ShaderType',['../classMR_1_1ShadersHolder.html#af79d4956571eca0d639217ad9ec89767',1,'MR::ShadersHolder']]],
-  ['sliceplain_4959',['SlicePlain',['../namespaceMR.html#ae7c8689563553fe7686bd6b71ddf8f18',1,'MR']]]
+  ['seedtype_4940',['SeedType',['../classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5',1,'MR::VolumeSegmenter']]],
+  ['shadertype_4941',['ShaderType',['../classMR_1_1ShadersHolder.html#af79d4956571eca0d639217ad9ec89767',1,'MR::ShadersHolder']]],
+  ['sliceplain_4942',['SlicePlain',['../namespaceMR.html#ae7c8689563553fe7686bd6b71ddf8f18',1,'MR']]]
 ];
