@@ -102,6 +102,7 @@ $(document).ready(function(){initNavTree('MREdgePaths_8h.html',''); initResizabl
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<code>#include &lt;cfloat&gt;</code><br />
 <code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 </div>
@@ -145,10 +146,10 @@ Functions</h2></td></tr>
 <tr class="separator:aabc40dcee3ba22d445c0f838f170d549"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0db7342678536825cb6b3bff51d832d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab0db7342678536825cb6b3bff51d832d">MR::addLeftBand</a> (const MeshTopology &amp;topology, const EdgeLoop &amp;loop, FaceBitSet &amp;addHere)</td></tr>
 <tr class="separator:ab0db7342678536825cb6b3bff51d832d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac036c76a671cb37146a58fb7178c5df6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgePath&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac036c76a671cb37146a58fb7178c5df6">MR::buildShortestPath</a> (const Mesh &amp;mesh, VertId start, VertId finish)</td></tr>
-<tr class="separator:ac036c76a671cb37146a58fb7178c5df6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a021d97390669e9ca4d0be9a07042a694"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgePath&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a021d97390669e9ca4d0be9a07042a694">MR::buildSmallestMetricPath</a> (const MeshTopology &amp;topology, const EdgeMetric &amp;metric, VertId start, VertId finish)</td></tr>
-<tr class="separator:a021d97390669e9ca4d0be9a07042a694"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ef10460976331354fd6633529b31b3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgePath&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4ef10460976331354fd6633529b31b3f">MR::buildShortestPath</a> (const Mesh &amp;mesh, VertId start, VertId finish, float maxPathLen=FLT_MAX)</td></tr>
+<tr class="separator:a4ef10460976331354fd6633529b31b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a849a027d86e0a30b1a32b629a14f74f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgePath&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a849a027d86e0a30b1a32b629a14f74f3">MR::buildSmallestMetricPath</a> (const MeshTopology &amp;topology, const EdgeMetric &amp;metric, VertId start, VertId finish, float maxPathMetric=FLT_MAX)</td></tr>
+<tr class="separator:a849a027d86e0a30b1a32b629a14f74f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa072834255798a8171dd1e781d59041f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa072834255798a8171dd1e781d59041f">MR::getVertexOrdering</a> (const MeshTopology &amp;topology, VertBitSet region)</td></tr>
 <tr class="separator:aa072834255798a8171dd1e781d59041f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6aa5768e09a6be4f8f55501a0feeaf5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa6aa5768e09a6be4f8f55501a0feeaf5">MR::dilateRegionByMetric</a> (const MeshTopology &amp;topology, const EdgeMetric &amp;metric, FaceBitSet &amp;region, float dilation)</td></tr>

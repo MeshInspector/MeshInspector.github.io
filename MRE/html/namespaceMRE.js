@@ -63,6 +63,7 @@ var namespaceMRE =
     [ "orderIntersectionContours", "namespaceMRE.html#a87c60fbd4d59c0efc37803a679cf38ae", null ],
     [ "partialOffsetMesh", "namespaceMRE.html#a91f7142ffa3c4fbaaf6fca4e46789664", null ],
     [ "removeLoneContours", "namespaceMRE.html#ac17ef2b176ef194a9212d5bd501aba82", null ],
+    [ "resolveMeshDegenerations", "namespaceMRE.html#a51ab93bf64af79d363344013e7181856", null ],
     [ "separateClosedContour", "namespaceMRE.html#aa560ba5ad80d3d44f9aab77449ea0a21", null ],
     [ "subdivideLoneContours", "namespaceMRE.html#a5a26b776b4772970a00cb1c4aea6c741", null ],
     [ "surroundingContour", "namespaceMRE.html#a77a3bf655fb87f08c40a5a5808bd1de0", null ],

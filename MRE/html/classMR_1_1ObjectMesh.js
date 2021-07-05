@@ -1,5 +1,6 @@
 var classMR_1_1ObjectMesh =
 [
+    [ "MeshChangedSignal", "classMR_1_1ObjectMesh.html#a4ba89c278f58751766ff9e7b8f401786", null ],
     [ "ObjectMesh", "classMR_1_1ObjectMesh.html#a4b6421d9dd0b159304b340e41f0a38ea", null ],
     [ "ObjectMesh", "classMR_1_1ObjectMesh.html#a9c09b360e83f985f206d00239637febf", null ],
     [ "~ObjectMesh", "classMR_1_1ObjectMesh.html#aff624379ff7a90cc2537f483a11dd30b", null ],
@@ -57,6 +58,7 @@ var classMR_1_1ObjectMesh =
     [ "facesColorMap_", "classMR_1_1ObjectMesh.html#a883e446ca89ebd58c7536e6413928fe8", null ],
     [ "flatShading_", "classMR_1_1ObjectMesh.html#aa7bdc0c1c084fa57d12ff92add64f322", null ],
     [ "mesh_", "classMR_1_1ObjectMesh.html#a98aeebee1faabd217b96927e4b2d297d", null ],
+    [ "meshChangedSignal", "classMR_1_1ObjectMesh.html#a9f1c4827307564a1c13839a4cde2868d", null ],
     [ "onlyOddFragments_", "classMR_1_1ObjectMesh.html#a3947121489fe864b5dc0f6d9dd873469", null ],
     [ "showBordersHighlight_", "classMR_1_1ObjectMesh.html#a4053bf13e85f0c7ab8b1d7b32f4c914d", null ],
     [ "showEdges_", "classMR_1_1ObjectMesh.html#a287364e5236c5b361cf45db0b5687211", null ],

@@ -119,9 +119,9 @@ $(document).ready(function(){initNavTree('MRFreeFormTransform_8h_source.html',''
 <div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classMR_1_1FreeFormTransformPlugin.html#a804e7c6ad39b0b6324a5d27044f71797">   20</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1FreeFormTransformPlugin.html#a804e7c6ad39b0b6324a5d27044f71797">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ctx ) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseDown_( <a class="code" href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier );</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseUp_( <a class="code" href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier );</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseMove_( <span class="keywordtype">int</span> mouse_x, <span class="keywordtype">int</span> mouse_y );</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseDown_( <a class="code" href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseUp_( <a class="code" href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseMove_( <span class="keywordtype">int</span> mouse_x, <span class="keywordtype">int</span> mouse_y ) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
@@ -133,82 +133,81 @@ $(document).ready(function(){initNavTree('MRFreeFormTransform_8h_source.html',''
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="structMR_1_1Vector3.html">Vector3i</a> resolution_;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    std::shared_ptr&lt;FreeFormDeformer&gt; deformer_;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">bool</span> sphereIsPicked_{<span class="keyword">false</span>};</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">int</span> pickedSphere_;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">int</span> prevX, prevY;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">int</span> pickedSphere_;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">int</span> prevX, prevY;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keyword">class </span>ResetFreeFormAction : <span class="keyword">public</span> <a class="code" href="classMR_1_1HistoryAction.html">HistoryAction</a></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    {</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        ResetFreeFormAction( <a class="code" href="classMR_1_1FreeFormTransformPlugin.html">FreeFormTransformPlugin</a>&amp; plugin ) :</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            plugin_{ plugin },</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            deformer_{ plugin.deformer_ },</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            pickSpheres_{plugin_.pickSpheres_},</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            resolution_{ plugin_.resolution_ }</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        {</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            <span class="keywordflow">if</span> ( !plugin.deformer_ )</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            resolution_ = plugin.deformer_-&gt;getResolution();</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        };</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keyword">virtual</span> std::string name()<span class="keyword"> const override</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keyword">        </span>{</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Reset FreeForm&quot;</span>;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        }</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> action( Type )<span class="keyword"> override</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keyword">        </span>{</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            std::swap( deformer_, plugin_.deformer_ );</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            std::swap( pickSpheres_, plugin_.pickSpheres_ );</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            std::swap( resolution_, plugin_.resolution_ );</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            plugin_.updateLines_();</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        }</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <a class="code" href="classMR_1_1FreeFormTransformPlugin.html#a00eb4ef922dc34520525cd22fdb8db76">FreeFormTransformPlugin</a>&amp; plugin_;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        std::shared_ptr&lt;FreeFormDeformer&gt; deformer_;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        std::vector&lt;std::shared_ptr&lt;ObjectMesh&gt;&gt; pickSpheres_; </div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> resolution_;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    };</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keyword">class </span>UpdateFreeFormAction : <span class="keyword">public</span> ChangeObjectAction</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    {</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        UpdateFreeFormAction( <a class="code" href="classMR_1_1FreeFormTransformPlugin.html#a00eb4ef922dc34520525cd22fdb8db76">FreeFormTransformPlugin</a>&amp; plugin ) :</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <a class="code" href="classMR_1_1ChangeObjectAction.html#a1fb57757d3858115a5eb58acce570d82">ChangeObjectAction</a>( <span class="stringliteral">&quot;Update FreeForm&quot;</span>, plugin.obj_ ),</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            plugin_{ plugin }</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        {</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="keywordflow">if</span> ( !plugin_.deformer_ )</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            refPos_ = plugin_.deformer_-&gt;getAllRefGridPositions();</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        };</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> action( Type type )<span class="keyword"> override</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="keyword">        </span>{</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <span class="keywordflow">if</span> ( refPos_.empty() || !plugin_.deformer_ )</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="classMR_1_1ChangeObjectAction.html#abae57c93f1aaa324cd73f0dd5a678718">ChangeObjectAction::action</a>( type );</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <span class="keyword">auto</span> tmp = plugin_.deformer_-&gt;getAllRefGridPositions();</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            plugin_.deformer_-&gt;setAllRefGridPositions( refPos_ );</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            refPos_ = std::move( tmp );</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            plugin_.deformer_-&gt;apply();</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            plugin_.obj_-&gt;setDirtyFlags( <a class="code" href="namespaceMR.html#a03255e831f4895337e7cf27d64e51269a13dc959326bf43980af4080c50288110">DIRTY_POSITION</a> );</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            plugin_.updateLines_();</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        }</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <a class="code" href="classMR_1_1FreeFormTransformPlugin.html#a00eb4ef922dc34520525cd22fdb8db76">FreeFormTransformPlugin</a>&amp; plugin_;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        std::vector&lt;Vector3f&gt; refPos_;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    };</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordtype">void</span> setupSpheres_();</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordtype">void</span> clearSpheres_( <span class="keywordtype">bool</span> historySupport = <span class="keyword">true</span> );</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordtype">void</span> updateLines_();</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordtype">int</span> getHoveredSphere_( <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y );</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordtype">void</span> updatePosition_( <span class="keywordtype">int</span> pickedIndex, <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>&amp; diff );</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordtype">bool</span> histUpdated_{ <span class="keyword">false</span> };</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;};</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;MRVIEWER_API <span class="keyword">extern</span> FreeFormTransformPlugin <a class="code" href="namespaceMR.html#a0e1ba4d995ceab044a320698d088580b">FreeFormTransformPluginInstance</a>;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;}</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">class </span>ResetFreeFormAction : <span class="keyword">public</span> <a class="code" href="classMR_1_1HistoryAction.html">HistoryAction</a></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    {</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        ResetFreeFormAction( <a class="code" href="classMR_1_1FreeFormTransformPlugin.html">FreeFormTransformPlugin</a>&amp; plugin ) :</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            plugin_{ plugin },</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            deformer_{ plugin.deformer_ },</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            pickSpheres_{plugin_.pickSpheres_},</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            resolution_{ plugin_.resolution_ }</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        {</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            <span class="keywordflow">if</span> ( !plugin.deformer_ )</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            resolution_ = plugin.deformer_-&gt;getResolution();</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        };</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keyword">virtual</span> std::string name()<span class="keyword"> const override</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keyword">        </span>{</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Reset FreeForm&quot;</span>;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> action( Type )<span class="keyword"> override</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keyword">        </span>{</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            std::swap( deformer_, plugin_.deformer_ );</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            std::swap( pickSpheres_, plugin_.pickSpheres_ );</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            std::swap( resolution_, plugin_.resolution_ );</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            plugin_.updateLines_();</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        }</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <a class="code" href="classMR_1_1FreeFormTransformPlugin.html#a00eb4ef922dc34520525cd22fdb8db76">FreeFormTransformPlugin</a>&amp; plugin_;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        std::shared_ptr&lt;FreeFormDeformer&gt; deformer_;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        std::vector&lt;std::shared_ptr&lt;ObjectMesh&gt;&gt; pickSpheres_; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <a class="code" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> resolution_;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    };</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keyword">class </span>UpdateFreeFormAction : <span class="keyword">public</span> ChangeObjectAction</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        UpdateFreeFormAction( <a class="code" href="classMR_1_1FreeFormTransformPlugin.html#a00eb4ef922dc34520525cd22fdb8db76">FreeFormTransformPlugin</a>&amp; plugin ) :</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            <a class="code" href="classMR_1_1ChangeObjectAction.html#a1fb57757d3858115a5eb58acce570d82">ChangeObjectAction</a>( <span class="stringliteral">&quot;Update FreeForm&quot;</span>, plugin.obj_ ),</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            plugin_{ plugin }</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <span class="keywordflow">if</span> ( !plugin_.deformer_ )</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            refPos_ = plugin_.deformer_-&gt;getAllRefGridPositions();</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        };</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> action( Type type )<span class="keyword"> override</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="keyword">        </span>{</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <span class="keywordflow">if</span> ( refPos_.empty() || !plugin_.deformer_ )</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="classMR_1_1ChangeObjectAction.html#abae57c93f1aaa324cd73f0dd5a678718">ChangeObjectAction::action</a>( type );</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <span class="keyword">auto</span> tmp = plugin_.deformer_-&gt;getAllRefGridPositions();</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            plugin_.deformer_-&gt;setAllRefGridPositions( refPos_ );</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            refPos_ = std::move( tmp );</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            plugin_.deformer_-&gt;apply();</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            plugin_.obj_-&gt;setDirtyFlags( <a class="code" href="namespaceMR.html#a03255e831f4895337e7cf27d64e51269a13dc959326bf43980af4080c50288110">DIRTY_POSITION</a> );</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            plugin_.updateLines_();</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        }</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <a class="code" href="classMR_1_1FreeFormTransformPlugin.html#a00eb4ef922dc34520525cd22fdb8db76">FreeFormTransformPlugin</a>&amp; plugin_;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        std::vector&lt;Vector3f&gt; refPos_;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    };</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordtype">void</span> setupSpheres_();</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordtype">void</span> clearSpheres_( <span class="keywordtype">bool</span> historySupport = <span class="keyword">true</span> );</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordtype">void</span> updateLines_();</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordtype">int</span> getHoveredSphere_( <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y );</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keywordtype">void</span> updatePosition_( <span class="keywordtype">int</span> pickedIndex, <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>&amp; diff );</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordtype">bool</span> histUpdated_{ <span class="keyword">false</span> };</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;};</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;MRVIEWER_API <span class="keyword">extern</span> FreeFormTransformPlugin <a class="code" href="namespaceMR.html#a0e1ba4d995ceab044a320698d088580b">FreeFormTransformPluginInstance</a>;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;}</div>
 <div class="ttc" id="aMRChangeObjectAction_8h_html"><div class="ttname"><a href="MRChangeObjectAction_8h.html">MRChangeObjectAction.h</a></div></div>
 <div class="ttc" id="aMRCustomPlugin_8h_html"><div class="ttname"><a href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a></div></div>
 <div class="ttc" id="aMRFreeFormDeformer_8h_html"><div class="ttname"><a href="MRFreeFormDeformer_8h.html">MRFreeFormDeformer.h</a></div></div>
@@ -222,12 +221,12 @@ $(document).ready(function(){initNavTree('MRFreeFormTransform_8h_source.html',''
 <div class="ttc" id="aclassMR_1_1FreeFormTransformPlugin_html_a804e7c6ad39b0b6324a5d27044f71797"><div class="ttname"><a href="classMR_1_1FreeFormTransformPlugin.html#a804e7c6ad39b0b6324a5d27044f71797">MR::FreeFormTransformPlugin::drawDialog</a></div><div class="ttdeci">virtual void drawDialog(float menuScaling, ImGuiContext *ctx) override</div></div>
 <div class="ttc" id="aclassMR_1_1FreeFormTransformPlugin_html_ae46210b0791f69a2fb74b817220ae522"><div class="ttname"><a href="classMR_1_1FreeFormTransformPlugin.html#ae46210b0791f69a2fb74b817220ae522">MR::FreeFormTransformPlugin::isAvailable</a></div><div class="ttdeci">virtual bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryAction_html"><div class="ttname"><a href="classMR_1_1HistoryAction.html">MR::HistoryAction</a></div><div class="ttdef"><b>Definition:</b> MRHistoryAction.h:9</div></div>
-<div class="ttc" id="aclassMR_1_1Viewer_html_a4e2fd639b52df5ee18d06bb9f4e504f6"><div class="ttname"><a href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition:</b> MRMeshViewer.h:56</div></div>
+<div class="ttc" id="aclassMR_1_1Viewer_html_a4e2fd639b52df5ee18d06bb9f4e504f6"><div class="ttname"><a href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition:</b> MRViewer.h:56</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MREViewerSetup.h:5</div></div>
 <div class="ttc" id="anamespaceMR_html_a03255e831f4895337e7cf27d64e51269a13dc959326bf43980af4080c50288110"><div class="ttname"><a href="namespaceMR.html#a03255e831f4895337e7cf27d64e51269a13dc959326bf43980af4080c50288110">MR::DIRTY_POSITION</a></div><div class="ttdeci">@ DIRTY_POSITION</div><div class="ttdef"><b>Definition:</b> MRVisualObject.h:45</div></div>
 <div class="ttc" id="anamespaceMR_html_a0e1ba4d995ceab044a320698d088580b"><div class="ttname"><a href="namespaceMR.html#a0e1ba4d995ceab044a320698d088580b">MR::FreeFormTransformPluginInstance</a></div><div class="ttdeci">MRVIEWER_API FreeFormTransformPlugin FreeFormTransformPluginInstance</div></div>
-<div class="ttc" id="anamespaceMR_html_a5f4a954ba7d1785cafcb2f7ffe7acf09"><div class="ttname"><a href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">MR::Vector3f</a></div><div class="ttdeci">Vector3&lt; float &gt; Vector3f</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:74</div></div>
-<div class="ttc" id="anamespaceMR_html_af24b71b1cf7ac2e3a63c2d988fd599f0"><div class="ttname"><a href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">MR::Vector3i</a></div><div class="ttdeci">Vector3&lt; int &gt; Vector3i</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:72</div></div>
+<div class="ttc" id="anamespaceMR_html_a5f4a954ba7d1785cafcb2f7ffe7acf09"><div class="ttname"><a href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">MR::Vector3f</a></div><div class="ttdeci">Vector3&lt; float &gt; Vector3f</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:77</div></div>
+<div class="ttc" id="anamespaceMR_html_af24b71b1cf7ac2e3a63c2d988fd599f0"><div class="ttname"><a href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">MR::Vector3i</a></div><div class="ttdeci">Vector3&lt; int &gt; Vector3i</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:75</div></div>
 <div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3&lt; int &gt;</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

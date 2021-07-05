@@ -36,6 +36,7 @@ var NAVTREE =
     [ "Data model overview", "DataModel.html", null ],
     [ "Spaces and transformations", "SpacesHelp.html", null ],
     [ "Supported GPUs", "SupportedGPUs.html", null ],
+    [ "Coding style", "CodingStyleHelp.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -68,6 +69,8 @@ var NAVTREE =
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
         [ "Typedefs", "globals_type.html", null ],
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -76,27 +79,27 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"CustomPluginsHelp.html",
-"MREMeshDecimateParallel_8h_source.html",
-"MRLine3_8h.html#a2166391f1b02986c9cdcd46f4b3701b0",
-"MRMeshLabel_8h.html",
-"MRQuaternion_8h.html#a9f0f27f4418018e1cf07be5d1cba5591",
-"MRTorus_8h.html#a57eb865bddfea0b83ba03d7d424a3589",
-"classMR_1_1AABBTree.html#af8e16ac53a19bceb6054b8ff44ad98cc",
-"classMR_1_1Histogram.html#a4b24588b8a7cd3002558bd4badce7051",
-"classMR_1_1MeshTopology.html#a28d3e1216fe96627b4a3802f9ff48df3",
-"classMR_1_1ObjectPoints.html#a2be05118406e1ad2fd63a3a462ddde5e",
-"classMR_1_1SetBitIteratorT.html#ac1a8c3119169e589647d7f09071c406d",
-"classMR_1_1Viewer.html#ab67bea392a3b6dacf5358f30dceed033",
-"classMR_1_1VisualObject.html#abdb2189a19eb8a9382d57080f89b9b69",
-"namespaceMR.html#a0e1ba4d995ceab044a320698d088580b",
-"namespaceMR.html#a695acdfda1d1ac2dfb788797441ae0eb",
-"namespaceMR.html#ace45a71e6bdb315750cbd38f5e648a56",
-"namespaceMR_1_1MeshSave.html#ad756b3b408e7f4f71e7e0dde3bd57682",
-"structMR_1_1CircumscribedStitchMetric.html#a7973de8f93103c590b4798987c3f1b8b",
-"structMR_1_1Matrix4.html#a7fd96f7ca17e41c5c3339283f87bd651",
-"structMR_1_1PartMapping.html#ac903190648e0aba9ba91ae345d82a1a8",
-"structMR_1_1VertPair.html#af4fe407444bf9be4f182875f6ae070a8"
+"CodingStyleHelp.html",
+"MREMeshBooleanFacade_8h_source.html",
+"MRIteratorRange_8h_source.html",
+"MRMeshFwd_8h.html#ae81ba7994cccc039a9d77b8f0bc84dcf",
+"MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af",
+"MRSystem_8h.html#a5d1ca6e9b05136afa1017b1c60906789",
+"classMRE_1_1CutMeshWithPlanePlugin.html#a4ef8e1f0ae4c2b0cee410dad44cf6d57",
+"classMR_1_1FillTunnelPlugin.html#ae13951ea06492ddd1364734e188b177a",
+"classMR_1_1MeshDiff.html#a65a9fe9422ed5dee5b092c31a59bd145",
+"classMR_1_1ObjectMesh.html",
+"classMR_1_1RelaxPlugin.html",
+"classMR_1_1Viewer.html#a0d931c18f1c5ba9e57ae595db1a20d0b",
+"classMR_1_1ViewportGL.html#ac9e742349c94c9364e1bc78a4a453bdb",
+"group__BooleanGroup.html#ga34f46179c96ce39c5ba94580b9fc1151",
+"namespaceMR.html#a43a4b5c66e820cc90b986a3bfb4c1998",
+"namespaceMR.html#aa7203f0917dc651aa1261d90d266752ea4bbb8f967da6d1a610596d7257179c2b",
+"namespaceMRE.html",
+"structMRE_1_1DecimateSettings.html#a5516325279c277f1368546f126ed95c5",
+"structMR_1_1InterruptCloseListener.html#a9b215bb36d1f025f2b907911acc49542",
+"structMR_1_1MeshLabel.html#a07564d0b6bc8d6e28ce2146c12266754",
+"structMR_1_1SimpleVolume.html#adfc3fd718b740a08aefa0fbb8a096ede"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -39,6 +39,7 @@ var hierarchy =
           [ "MRE::PointsTriangulationPlugin", "classMRE_1_1PointsTriangulationPlugin.html", null ]
         ] ],
         [ "MR::CustomListenerPlugin< DrawListener >", "classMR_1_1CustomListenerPlugin.html", [
+          [ "MR::BestFitPlugin", "classMR_1_1BestFitPlugin.html", null ],
           [ "MR::ObjectLinesVisualizationTest", "classMR_1_1ObjectLinesVisualizationTest.html", null ]
         ] ],
         [ "MR::CustomListenerPlugin< MouseDownListener >", "classMR_1_1CustomListenerPlugin.html", [
@@ -94,6 +95,7 @@ var hierarchy =
           [ "MR::InverseSelection", "classMR_1_1InverseSelection.html", null ],
           [ "MR::LaplacianTest", "classMR_1_1LaplacianTest.html", null ],
           [ "MR::LibraryDistancesTest", "classMR_1_1LibraryDistancesTest.html", null ],
+          [ "MR::MeshFixerPlugin", "classMR_1_1MeshFixerPlugin.html", null ],
           [ "MR::MeshToPointCloudPlugin", "classMR_1_1MeshToPointCloudPlugin.html", null ],
           [ "MR::PointsInBallPlugin", "classMR_1_1PointsInBallPlugin.html", null ],
           [ "MR::PointsSampler", "classMR_1_1PointsSampler.html", null ],
@@ -332,6 +334,7 @@ var hierarchy =
     [ "MR::Object::ProtectedStruct", "structMR_1_1Object_1_1ProtectedStruct.html", null ],
     [ "MR::PythonExport", "classMR_1_1PythonExport.html", null ],
     [ "MR::PythonFunctionAdder", "structMR_1_1PythonFunctionAdder.html", null ],
+    [ "PythonStreamRedirector< T >", "classPythonStreamRedirector.html", null ],
     [ "MR::QuadraticForm3< T >", "structMR_1_1QuadraticForm3.html", null ],
     [ "MR::Quaternion< T >", "structMR_1_1Quaternion.html", null ],
     [ "MR::Quaternion< float >", "structMR_1_1Quaternion.html", null ],
@@ -344,6 +347,7 @@ var hierarchy =
     [ "MR::ScopeHistory", "classMR_1_1ScopeHistory.html", null ],
     [ "MR::SegmEndColors", "structMR_1_1SegmEndColors.html", null ],
     [ "MR::Polyline::Segment", "structMR_1_1Polyline_1_1Segment.html", null ],
+    [ "MR::Polyline::SegmentSequence", "structMR_1_1Polyline_1_1SegmentSequence.html", null ],
     [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", null ],
     [ "MR::ShadersHolder", "classMR_1_1ShadersHolder.html", null ],
     [ "MR::Viewer::SignalStopHandler", "structMR_1_1Viewer_1_1SignalStopHandler.html", null ],
@@ -400,6 +404,7 @@ var hierarchy =
     [ "MR::Vector< MR::Color, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::Id< EdgeTag >, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::Polyline::Segment, MR::Id >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< MR::Polyline::SegmentSequence, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::QuadraticForm3, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::UVCoord, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::Vector3, MR::Id >", "classMR_1_1Vector.html", null ],

@@ -115,8 +115,10 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a08ff09fd7e75c029b08cc255b0734300"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></td></tr>
+<tr class="memitem:a08ff09fd7e75c029b08cc255b0734300"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;&#160;&#160;__attribute__((visibility(&quot;default&quot;)))</td></tr>
 <tr class="separator:a08ff09fd7e75c029b08cc255b0734300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45ed33a118705bfd4aac6d294495276a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>&#160;&#160;&#160;__attribute__((visibility(&quot;default&quot;)))</td></tr>
+<tr class="separator:a45ed33a118705bfd4aac6d294495276a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -234,6 +236,14 @@ Typedefs</h2></td></tr>
 <tr class="separator:a035d7b7275f8cb32da8b363943229dde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af05f8e0379f790612be6a1cabeb08f0f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af05f8e0379f790612be6a1cabeb08f0f">MR::LineSegm3d</a> = LineSegm3&lt; double &gt;</td></tr>
 <tr class="separator:af05f8e0379f790612be6a1cabeb08f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab992b3159bd1e80d8c68d2eaf52970dd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab992b3159bd1e80d8c68d2eaf52970dd">MR::Contour2d</a> = std::vector&lt; Vector2d &gt;</td></tr>
+<tr class="separator:ab992b3159bd1e80d8c68d2eaf52970dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af699bbc0cd4a04e74eb90e09879c7962"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af699bbc0cd4a04e74eb90e09879c7962">MR::Contours2d</a> = std::vector&lt; Contour2d &gt;</td></tr>
+<tr class="separator:af699bbc0cd4a04e74eb90e09879c7962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b1773830bbc5a9b3c86202cd001fd6c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8b1773830bbc5a9b3c86202cd001fd6c">MR::Contour2f</a> = std::vector&lt; Vector2f &gt;</td></tr>
+<tr class="separator:a8b1773830bbc5a9b3c86202cd001fd6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad17a8a285dc0c1609c7ce56e7e65ace9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ad17a8a285dc0c1609c7ce56e7e65ace9">MR::Contours2f</a> = std::vector&lt; Contour2f &gt;</td></tr>
+<tr class="separator:ad17a8a285dc0c1609c7ce56e7e65ace9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14573400a82366d962c77959e69b8646"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">MR::Plane3f</a> = Plane3&lt; float &gt;</td></tr>
 <tr class="separator:a14573400a82366d962c77959e69b8646"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefc470f4b414f779ba5767bef4ca69b4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aefc470f4b414f779ba5767bef4ca69b4">MR::Plane3d</a> = Plane3&lt; double &gt;</td></tr>
@@ -318,7 +328,21 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MRMESH_API</td>
+          <td class="memname">#define MRMESH_API&#160;&#160;&#160;__attribute__((visibility(&quot;default&quot;)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a45ed33a118705bfd4aac6d294495276a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45ed33a118705bfd4aac6d294495276a">&#9670;&nbsp;</a></span>MRMESH_CLASS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MRMESH_CLASS&#160;&#160;&#160;__attribute__((visibility(&quot;default&quot;)))</td>
         </tr>
       </table>
 </div><div class="memdoc">

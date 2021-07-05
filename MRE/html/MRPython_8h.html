@@ -97,6 +97,8 @@ $(document).ready(function(){initNavTree('MRPython_8h.html',''); initResizable()
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">MRPython.h File Reference</div>  </div>
@@ -106,12 +108,15 @@ $(document).ready(function(){initNavTree('MRPython_8h.html',''); initResizable()
 <code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
 <code>#include &lt;boost/python.hpp&gt;</code><br />
+<code>#include &lt;boost/python/numpy.hpp&gt;</code><br />
 <code>#include &lt;boost/python/suite/indexing/vector_indexing_suite.hpp&gt;</code><br />
 </div>
 <p><a href="MRPython_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPythonStreamRedirector.html">PythonStreamRedirector&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PythonExport.html">MR::PythonExport</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></td></tr>
@@ -128,10 +133,24 @@ Macros</h2></td></tr>
 <tr class="separator:ae32d133147b9dd7a9b1bfe370a71b72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f4ef07fc4c7a76ae7597ea7b3b56752"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#a9f4ef07fc4c7a76ae7597ea7b3b56752">ADD_PYTHON_FUNCTION</a>(name,  func,  description)&#160;&#160;&#160;    static <a class="el" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> name##_adder_([](){ boost::python::def(#name, func, description);} );</td></tr>
 <tr class="separator:a9f4ef07fc4c7a76ae7597ea7b3b56752"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb8dd79c44d03787069a4e9556ba8c8e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#aeb8dd79c44d03787069a4e9556ba8c8e">ADD_PYTHON_CUSOM_DEF</a>(name, ...)</td></tr>
-<tr class="separator:aeb8dd79c44d03787069a4e9556ba8c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeabf4206280cf7ba6c214da7c2e9227"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#afeabf4206280cf7ba6c214da7c2e9227">ADD_PYTHON_CUSTOM_DEF</a>(name, ...)</td></tr>
+<tr class="separator:afeabf4206280cf7ba6c214da7c2e9227"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08d9a1646a644b64cbd0842f6efb682d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#a08d9a1646a644b64cbd0842f6efb682d">ADD_PYTHON_VEC</a>(name,  type)</td></tr>
 <tr class="separator:a08d9a1646a644b64cbd0842f6efb682d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a26ab96a77d3875cbc3c3f79cd7ee64ef"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#a26ab96a77d3875cbc3c3f79cd7ee64ef">StdoutPyRedirector</a> = <a class="el" href="classPythonStreamRedirector.html">PythonStreamRedirector</a>&lt; <a class="el" href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101">Stdout</a> &gt;</td></tr>
+<tr class="separator:a26ab96a77d3875cbc3c3f79cd7ee64ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d823176353acbb146f4705c0dcfdf90"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#a7d823176353acbb146f4705c0dcfdf90">StderrPyRedirector</a> = <a class="el" href="classPythonStreamRedirector.html">PythonStreamRedirector</a>&lt; <a class="el" href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af">Stderr</a> &gt;</td></tr>
+<tr class="separator:a7d823176353acbb146f4705c0dcfdf90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a8a65141d9ea4bf9d2e2377ed6b888a1d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1d">StreamType</a> { <a class="el" href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101">Stdout</a>
+, <a class="el" href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af">Stderr</a>
+ }</td></tr>
+<tr class="separator:a8a65141d9ea4bf9d2e2377ed6b888a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -145,14 +164,14 @@ Functions</h2></td></tr>
 <tr class="separator:acd7598d217a12003c1e81d9fa728b1b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="aeb8dd79c44d03787069a4e9556ba8c8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb8dd79c44d03787069a4e9556ba8c8e">&#9670;&nbsp;</a></span>ADD_PYTHON_CUSOM_DEF</h2>
+<a id="afeabf4206280cf7ba6c214da7c2e9227"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afeabf4206280cf7ba6c214da7c2e9227">&#9670;&nbsp;</a></span>ADD_PYTHON_CUSTOM_DEF</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ADD_PYTHON_CUSOM_DEF</td>
+          <td class="memname">#define ADD_PYTHON_CUSTOM_DEF</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">name, </td>
@@ -174,7 +193,7 @@ Functions</h2></td></tr>
 <div class="line">_Pragma(<span class="stringliteral">&quot;warning(disable:4459)&quot;</span>) \</div>
 <div class="line">    static <a class="code" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> name##_adder_( __VA_ARGS__ ); \</div>
 <div class="line">_Pragma(<span class="stringliteral">&quot;warning(pop)&quot;</span>)</div>
-<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></div><div class="ttdef"><b>Definition:</b> MRPython.h:60</div></div>
+<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></div><div class="ttdef"><b>Definition:</b> MRPython.h:79</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -237,7 +256,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="MRPython_8h.html#aeb8dd79c44d03787069a4e9556ba8c8e">ADD_PYTHON_CUSOM_DEF</a>( name, [] ()\</div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="MRPython_8h.html#afeabf4206280cf7ba6c214da7c2e9227">ADD_PYTHON_CUSTOM_DEF</a>( name, [] ()\</div>
 <div class="line">{\</div>
 <div class="line">    using vecType = std::vector&lt;type&gt;;\</div>
 <div class="line">    boost::python::class_&lt;vecType&gt;( #name ).\
@@ -247,7 +266,7 @@ Functions</h2></td></tr>
         def( <span class="stringliteral">&quot;resize&quot;</span>, ( <span class="keywordtype">void</span> ( vecType::* )( <span class="keyword">const</span> vecType::size_type ) )&amp; vecType::resize ).\
         def( <span class="stringliteral">&quot;clear&quot;</span>, &amp;vecType::clear ); \</div>
 <div class="line">} )</div>
-<div class="ttc" id="aMRPython_8h_html_aeb8dd79c44d03787069a4e9556ba8c8e"><div class="ttname"><a href="MRPython_8h.html#aeb8dd79c44d03787069a4e9556ba8c8e">ADD_PYTHON_CUSOM_DEF</a></div><div class="ttdeci">#define ADD_PYTHON_CUSOM_DEF(name,...)</div><div class="ttdef"><b>Definition:</b> MRPython.h:19</div></div>
+<div class="ttc" id="aMRPython_8h_html_afeabf4206280cf7ba6c214da7c2e9227"><div class="ttname"><a href="MRPython_8h.html#afeabf4206280cf7ba6c214da7c2e9227">ADD_PYTHON_CUSTOM_DEF</a></div><div class="ttdeci">#define ADD_PYTHON_CUSTOM_DEF(name,...)</div><div class="ttdef"><b>Definition:</b> MRPython.h:21</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -262,6 +281,54 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a7d823176353acbb146f4705c0dcfdf90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d823176353acbb146f4705c0dcfdf90">&#9670;&nbsp;</a></span>StderrPyRedirector</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="MRPython_8h.html#a7d823176353acbb146f4705c0dcfdf90">StderrPyRedirector</a> =  <a class="el" href="classPythonStreamRedirector.html">PythonStreamRedirector</a>&lt;<a class="el" href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af">Stderr</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a26ab96a77d3875cbc3c3f79cd7ee64ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26ab96a77d3875cbc3c3f79cd7ee64ef">&#9670;&nbsp;</a></span>StdoutPyRedirector</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="MRPython_8h.html#a26ab96a77d3875cbc3c3f79cd7ee64ef">StdoutPyRedirector</a> =  <a class="el" href="classPythonStreamRedirector.html">PythonStreamRedirector</a>&lt;<a class="el" href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101">Stdout</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a8a65141d9ea4bf9d2e2377ed6b888a1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a65141d9ea4bf9d2e2377ed6b888a1d">&#9670;&nbsp;</a></span>StreamType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1d">StreamType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101"></a>Stdout&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af"></a>Stderr&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>
