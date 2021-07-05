@@ -36,6 +36,7 @@ var NAVTREE =
     [ "Data model overview", "DataModel.html", null ],
     [ "Spaces and transformations", "SpacesHelp.html", null ],
     [ "Supported GPUs", "SupportedGPUs.html", null ],
+    [ "Coding style", "CodingStyleHelp.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -68,6 +69,8 @@ var NAVTREE =
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
         [ "Typedefs", "globals_type.html", null ],
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -76,26 +79,26 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"CustomPluginsHelp.html",
-"MRFileDialog_8h.html",
-"MRMeshComponents_8h_source.html",
-"MRObjectFactory_8h.html#a1781590b6f7cbab3c21b2bc45dc89a69",
-"MRSerializer_8h.html#a4c0c62354556511936a0e90a2d4c586e",
-"MRViewportGL_8h.html#a063c104022f7dee6a63efd4b129f4779",
-"classMR_1_1CustomListenerPlugin.html",
-"classMR_1_1MarkedVoxelSlice.html",
-"classMR_1_1Object.html#aa06240f9736a566b00e4541e450b8e57",
-"classMR_1_1ProgressBar.html#a36aeee76aeab91078991d328b4b6de95",
-"classMR_1_1Vector.html#a0e593b171d655e35f554674f88083c76",
-"classMR_1_1Viewport.html#ac46fbd652ee514d031889d120da54424",
-"functions_vars_q.html",
-"namespaceMR.html#a470a3f7ac2db0599541e55edf2baa793",
-"namespaceMR.html#aabc40dcee3ba22d445c0f838f170d549",
-"namespaceMR_1_1MeshComponents.html#a30703933aeb63adcb5156c2a5a146a0e",
-"structMR_1_1EdgeIdAndCoord.html#a377fdae992b26015342d8646160e43d3",
-"structMR_1_1Mesh.html#a584a6ede1ccbc7e9568e03eb8abd4ed5",
-"structMR_1_1PostDrawListener.html#a6d4baebc484718242dcb7de8e2d75b24",
-"structMR_1_1ViewportLinesWithColors.html#acc2e27115a832552e0ac1e4768ba83cc"
+"CodingStyleHelp.html",
+"MRExtractIsolines_8h_source.html",
+"MRMeshComponents_8h.html#a5450c0c87f8b4d575b473f09bc472049",
+"MRMeshViewerPlugin_8h_source.html",
+"MRSelectMultipleEdges_8h.html",
+"MRVector3_8h.html#ae34bf76981250158594054136f7faad9",
+"classMR_1_1CombinedHistoryActoin.html#a2be2178d492b9338e942db338f80fa01",
+"classMR_1_1ImGuiImage.html#a45fefc6f372ef7195d6871caba9cfee2",
+"classMR_1_1MutexOwner.html#a8e3788887677b1c7381950a3aa7dcaac",
+"classMR_1_1Pallete.html#a5051e1a9487609e6dcaea4b2529bcaae",
+"classMR_1_1TaggedBitSet.html#a0e2dd799849e2ded19245ed49b89be0d",
+"classMR_1_1Viewport.html#a0fc1e84a964766414f289905f15aa910",
+"classMR_1_1VoxelsPathPlugin.html#a10de4f7a301ac6c906f7897bbcee9a22",
+"namespaceMR.html#a2ca7591c62441b3d2e2833b49e6ac18e",
+"namespaceMR.html#a883902e603f3311fcd77772b20bfa34d",
+"namespaceMR.html#ae4790b90a3e92918ab1f5c6028697f8b",
+"structMR_1_1AABBTree_1_1Node.html#a89fa097af95eec56b97ef6787b4b8523",
+"structMR_1_1MarkedVoxelSlice_1_1Mark.html#afc0fa59f798e85b81397aba33a9e0ec6",
+"structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aaca7d5f6324346ca4794ef06f1e943c94a7",
+"structMR_1_1Vector2.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -21,7 +21,7 @@ var searchData=
   ['begin_119',['begin',['../namespaceMR.html#a8b70134f3c4bc824a8b88800d5eb4c9c',1,'MR::begin(const IteratorRange&lt; I &gt; &amp;range)'],['../namespaceMR.html#af98212c07ebfc00c3d84f1b850490822',1,'MR::begin(const TaggedBitSet&lt; T &gt; &amp;a)'],['../namespaceMR.html#a25c73b1f9e5d5df34b153869e3cb5515',1,'MR::begin(const BitSet &amp;a)'],['../structMR_1_1Polyline_1_1Segment.html#a97eba6d057deb6705a5eba710c41e56a',1,'MR::Polyline::Segment::begin()'],['../namespaceMR.html#ad4d72fd2721a090560c9d14e0c558e4a',1,'MR::begin(const Vector&lt; T, I &gt; &amp;a)'],['../namespaceMR.html#a23170b94fc8499f60180fce99a9fa755',1,'MR::begin(Vector&lt; T, I &gt; &amp;a)']]],
   ['begin_5f_120',['begin_',['../structMR_1_1IteratorRange.html#a6dc3025499872ade8eaf5f1768b10aa3',1,'MR::IteratorRange']]],
   ['bface_121',['bFace',['../structMR_1_1FaceFace.html#aee3dbbcbddd14dd0707a78411581d0fc',1,'MR::FaceFace']]],
-  ['bindslotcallback_122',['bindSlotCallback',['../MRMeshViewer_8h.html#a4e10ab3e9579ce8ffbd2209497603cbc',1,'MRMeshViewer.h']]],
+  ['bindslotcallback_122',['bindSlotCallback',['../MRViewer_8h.html#a4e10ab3e9579ce8ffbd2209497603cbc',1,'MRViewer.h']]],
   ['bindvertexattribarray_123',['bindVertexAttribArray',['../namespaceMR.html#af3195ad084150a174fda5a64ced01834',1,'MR']]],
   ['bitset_124',['bitset',['../classMR_1_1SetBitIteratorT.html#ac1a8c3119169e589647d7f09071c406d',1,'MR::SetBitIteratorT']]],
   ['bitset_125',['BitSet',['../classMR_1_1BitSet.html',1,'MR']]],
@@ -57,6 +57,6 @@ var searchData=
   ['buildbottom_155',['buildBottom',['../namespaceMR.html#a7bee2d636a1f5f931ac54f6f841c07f7',1,'MR']]],
   ['buildcylinderbetweentwoholes_156',['buildCylinderBetweenTwoHoles',['../group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157',1,'MR::buildCylinderBetweenTwoHoles(Mesh &amp;mesh, EdgeId a, EdgeId b, const StitchHolesParams &amp;params={})'],['../namespaceMR.html#af61677f65331b42d3022a70d4b550a13',1,'MR::buildCylinderBetweenTwoHoles(Mesh &amp;mesh, const StitchHolesParams &amp;params={})']]],
   ['buildpathexponentmodifier_157',['buildPathExponentModifier',['../structMR_1_1VolumeSegmentationParameters.html#af000ea80a099a9de6d4f4f4475580b6c',1,'MR::VolumeSegmentationParameters']]],
-  ['buildshortestpath_158',['buildShortestPath',['../namespaceMR.html#ac036c76a671cb37146a58fb7178c5df6',1,'MR']]],
-  ['buildsmallestmetricpath_159',['buildSmallestMetricPath',['../namespaceMR.html#a021d97390669e9ca4d0be9a07042a694',1,'MR::buildSmallestMetricPath(const MeshTopology &amp;topology, const EdgeMetric &amp;metric, VertId start, VertId finish)'],['../namespaceMR.html#a0ec6d511fe62bd6f17098d56d8570833',1,'MR::buildSmallestMetricPath(const ObjectVoxels &amp;voxels, const VoxelsMetric &amp;metric, size_t start, size_t finish)']]]
+  ['buildshortestpath_158',['buildShortestPath',['../namespaceMR.html#a4ef10460976331354fd6633529b31b3f',1,'MR']]],
+  ['buildsmallestmetricpath_159',['buildSmallestMetricPath',['../namespaceMR.html#a849a027d86e0a30b1a32b629a14f74f3',1,'MR::buildSmallestMetricPath(const MeshTopology &amp;topology, const EdgeMetric &amp;metric, VertId start, VertId finish, float maxPathMetric=FLT_MAX)'],['../namespaceMR.html#a0ec6d511fe62bd6f17098d56d8570833',1,'MR::buildSmallestMetricPath(const ObjectVoxels &amp;voxels, const VoxelsMetric &amp;metric, size_t start, size_t finish)']]]
 ];

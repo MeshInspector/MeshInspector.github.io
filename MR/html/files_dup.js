@@ -113,6 +113,7 @@ var files_dup =
       [ "FlipNormals", "classMR_1_1FlipNormals.html", "classMR_1_1FlipNormals" ]
     ] ],
     [ "MRFloatGrid.h", "MRFloatGrid_8h.html", "MRFloatGrid_8h" ],
+    [ "MRFloatGridComponents.h", "MRFloatGridComponents_8h.html", "MRFloatGridComponents_8h" ],
     [ "MRFreeFormDeformer.h", "MRFreeFormDeformer_8h.html", "MRFreeFormDeformer_8h" ],
     [ "MRFreeFormTransform.h", "MRFreeFormTransform_8h.html", "MRFreeFormTransform_8h" ],
     [ "MRGeodesicPathPlugin.h", "MRGeodesicPathPlugin_8h.html", "MRGeodesicPathPlugin_8h" ],
@@ -193,6 +194,7 @@ var files_dup =
     [ "MRMeshEigen.h", "MRMeshEigen_8h.html", "MRMeshEigen_8h" ],
     [ "MRMeshFillHole.h", "MRMeshFillHole_8h.html", "MRMeshFillHole_8h" ],
     [ "MRMeshFixer.h", "MRMeshFixer_8h.html", "MRMeshFixer_8h" ],
+    [ "MRMeshFixerPlugin.h", "MRMeshFixerPlugin_8h.html", "MRMeshFixerPlugin_8h" ],
     [ "MRMeshFwd.h", "MRMeshFwd_8h.html", "MRMeshFwd_8h" ],
     [ "MRMeshInfoPlugin.h", "MRMeshInfoPlugin_8h.html", "MRMeshInfoPlugin_8h" ],
     [ "MRMeshIntersect.h", "MRMeshIntersect_8h.html", "MRMeshIntersect_8h" ],
@@ -223,11 +225,9 @@ var files_dup =
     [ "MRMeshToPointCloudPlugin.h", "MRMeshToPointCloudPlugin_8h.html", "MRMeshToPointCloudPlugin_8h" ],
     [ "MRMeshTopology.h", "MRMeshTopology_8h.html", "MRMeshTopology_8h" ],
     [ "MRMeshTriPoint.h", "MRMeshTriPoint_8h.html", "MRMeshTriPoint_8h" ],
-    [ "MRMeshViewer.h", "MRMeshViewer_8h.html", "MRMeshViewer_8h" ],
-    [ "MRMeshViewerPlugin.h", "MRMeshViewerPlugin_8h.html", [
-      [ "ViewerPlugin", "classMR_1_1ViewerPlugin.html", "classMR_1_1ViewerPlugin" ]
-    ] ],
-    [ "MRMeshViewport.h", "MRMeshViewport_8h.html", "MRMeshViewport_8h" ],
+    [ "MRMeshViewer.h", "MRMeshViewer_8h.html", null ],
+    [ "MRMeshViewerPlugin.h", "MRMeshViewerPlugin_8h.html", null ],
+    [ "MRMeshViewport.h", "MRMeshViewport_8h.html", null ],
     [ "MRMoveToZero.h", "MRMoveToZero_8h.html", [
       [ "MoveToZero", "classMR_1_1MoveToZero.html", "classMR_1_1MoveToZero" ]
     ] ],
@@ -257,6 +257,7 @@ var files_dup =
     ] ],
     [ "MROffset.h", "MROffset_8h.html", "MROffset_8h" ],
     [ "MROpen.h", "MROpen_8h.html", "MROpen_8h" ],
+    [ "MROpenvdb.h", "MROpenvdb_8h.html", null ],
     [ "MRPack.h", "MRPack_8h.html", [
       [ "Pack", "classMR_1_1Pack.html", "classMR_1_1Pack" ]
     ] ],
@@ -290,7 +291,8 @@ var files_dup =
     [ "MRPointsSave.h", "MRPointsSave_8h.html", "MRPointsSave_8h" ],
     [ "MRPolyline.h", "MRPolyline_8h.html", [
       [ "Polyline", "structMR_1_1Polyline.html", "structMR_1_1Polyline" ],
-      [ "Segment", "structMR_1_1Polyline_1_1Segment.html", "structMR_1_1Polyline_1_1Segment" ]
+      [ "Segment", "structMR_1_1Polyline_1_1Segment.html", "structMR_1_1Polyline_1_1Segment" ],
+      [ "SegmentSequence", "structMR_1_1Polyline_1_1SegmentSequence.html", "structMR_1_1Polyline_1_1SegmentSequence" ]
     ] ],
     [ "MRPolylineProject.h", "MRPolylineProject_8h.html", "MRPolylineProject_8h" ],
     [ "MRPositionVertsSmoothly.h", "MRPositionVertsSmoothly_8h.html", "MRPositionVertsSmoothly_8h" ],
@@ -401,6 +403,7 @@ var files_dup =
     [ "MRVector2.h", "MRVector2_8h.html", "MRVector2_8h" ],
     [ "MRVector3.h", "MRVector3_8h.html", "MRVector3_8h" ],
     [ "MRVector4.h", "MRVector4_8h.html", "MRVector4_8h" ],
+    [ "MRViewer.h", "MRViewer_8h.html", "MRViewer_8h" ],
     [ "MRViewerEventsListener.h", "MRViewerEventsListener_8h.html", [
       [ "IConnectable", "structMR_1_1IConnectable.html", "structMR_1_1IConnectable" ],
       [ "ConnectionHolder", "structMR_1_1ConnectionHolder.html", "structMR_1_1ConnectionHolder" ],
@@ -422,10 +425,14 @@ var files_dup =
       [ "PostResizeListener", "structMR_1_1PostResizeListener.html", "structMR_1_1PostResizeListener" ],
       [ "InterruptCloseListener", "structMR_1_1InterruptCloseListener.html", "structMR_1_1InterruptCloseListener" ]
     ] ],
+    [ "MRViewerPlugin.h", "MRViewerPlugin_8h.html", [
+      [ "ViewerPlugin", "classMR_1_1ViewerPlugin.html", "classMR_1_1ViewerPlugin" ]
+    ] ],
     [ "MRViewerSettingsManager.h", "MRViewerSettingsManager_8h.html", [
       [ "IViewerSettingsManager", "classMR_1_1IViewerSettingsManager.html", "classMR_1_1IViewerSettingsManager" ],
       [ "ViewerSettingsManager", "classMR_1_1ViewerSettingsManager.html", "classMR_1_1ViewerSettingsManager" ]
     ] ],
+    [ "MRViewport.h", "MRViewport_8h.html", "MRViewport_8h" ],
     [ "MRViewportGL.h", "MRViewportGL_8h.html", "MRViewportGL_8h" ],
     [ "MRViewportId.h", "MRViewportId_8h.html", "MRViewportId_8h" ],
     [ "MRVisualizeDCMPlugin.h", "MRVisualizeDCMPlugin_8h.html", "MRVisualizeDCMPlugin_8h" ],

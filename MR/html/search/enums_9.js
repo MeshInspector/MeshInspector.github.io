@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['remembershape_4939',['RememberShape',['../classMR_1_1Laplacian.html#a67c8dfc7669f41712a92d21d5ec99fed',1,'MR::Laplacian']]]
+  ['quarterbit_5053',['QuarterBit',['../namespaceMR.html#a85e60c553cc81b298c4bfeac4a623b79',1,'MR']]]
 ];

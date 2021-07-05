@@ -1,6 +1,7 @@
 var MRMeshFwd_8h =
 [
     [ "MRMESH_API", "MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300", null ],
+    [ "MRMESH_CLASS", "MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a", null ],
     [ "AffineXf3d", "MRMeshFwd_8h.html#ad1f63c53193a27e1cd8a10ebd9bad7d9", null ],
     [ "AffineXf3f", "MRMeshFwd_8h.html#a9cf4b064aa13c5becce6312228c3c03b", null ],
     [ "Box2", "MRMeshFwd_8h.html#ae5e5a14f3143adb782d5b4473bc61f1b", null ],
@@ -13,6 +14,10 @@ var MRMeshFwd_8h =
     [ "Box3f", "MRMeshFwd_8h.html#ada98ebf3fec74759dd46700389a3e556", null ],
     [ "Box3i", "MRMeshFwd_8h.html#abb77b8aff8d862cb60056e4127ba543c", null ],
     [ "Box3ll", "MRMeshFwd_8h.html#a215d172c7f57b159f52f6027ca1867a6", null ],
+    [ "Contour2d", "MRMeshFwd_8h.html#ab992b3159bd1e80d8c68d2eaf52970dd", null ],
+    [ "Contour2f", "MRMeshFwd_8h.html#a8b1773830bbc5a9b3c86202cd001fd6c", null ],
+    [ "Contours2d", "MRMeshFwd_8h.html#af699bbc0cd4a04e74eb90e09879c7962", null ],
+    [ "Contours2f", "MRMeshFwd_8h.html#ad17a8a285dc0c1609c7ce56e7e65ace9", null ],
     [ "EdgeBitSet", "MRMeshFwd_8h.html#afa52f737f1695a9866b22a30a29aefba", null ],
     [ "EdgeHashMap", "MRMeshFwd_8h.html#aeabd542da4035d06055e1b3d9bdba4c5", null ],
     [ "EdgeId", "MRMeshFwd_8h.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1", null ],

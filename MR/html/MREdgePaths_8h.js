@@ -2,8 +2,8 @@ var MREdgePaths_8h =
 [
     [ "EdgeMetric", "MREdgePaths_8h.html#ad2c254a94a3837629d1540a9a1aeda9f", null ],
     [ "addLeftBand", "MREdgePaths_8h.html#ab0db7342678536825cb6b3bff51d832d", null ],
-    [ "buildShortestPath", "MREdgePaths_8h.html#ac036c76a671cb37146a58fb7178c5df6", null ],
-    [ "buildSmallestMetricPath", "MREdgePaths_8h.html#a021d97390669e9ca4d0be9a07042a694", null ],
+    [ "buildShortestPath", "MREdgePaths_8h.html#a4ef10460976331354fd6633529b31b3f", null ],
+    [ "buildSmallestMetricPath", "MREdgePaths_8h.html#a849a027d86e0a30b1a32b629a14f74f3", null ],
     [ "calcPathLength", "MREdgePaths_8h.html#a1792643322d571922601c7286a802f51", null ],
     [ "calcPathMetric", "MREdgePaths_8h.html#a43a4b5c66e820cc90b986a3bfb4c1998", null ],
     [ "dilateRegion", "MREdgePaths_8h.html#a04b2ea135b74cf80dc8a709cd348a4f5", null ],
