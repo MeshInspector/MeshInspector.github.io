@@ -166,6 +166,7 @@ var annotated_dup =
       [ "ScopeHistory", "classMR_1_1ScopeHistory.html", "classMR_1_1ScopeHistory" ],
       [ "ApplyTransform", "classMR_1_1ApplyTransform.html", "classMR_1_1ApplyTransform" ],
       [ "SelectComponentByAreaPlugin", "classMR_1_1SelectComponentByAreaPlugin.html", "classMR_1_1SelectComponentByAreaPlugin" ],
+      [ "BestFitPlugin", "classMR_1_1BestFitPlugin.html", "classMR_1_1BestFitPlugin" ],
       [ "BooleanPlugin", "classMR_1_1BooleanPlugin.html", "classMR_1_1BooleanPlugin" ],
       [ "BoundingBoxPlugin", "classMR_1_1BoundingBoxPlugin.html", "classMR_1_1BoundingBoxPlugin" ],
       [ "CameraFacingSelectOn", "classMR_1_1CameraFacingSelectOn.html", "classMR_1_1CameraFacingSelectOn" ],

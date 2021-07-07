@@ -196,6 +196,7 @@ var namespaceMR =
     [ "ScopeHistory", "classMR_1_1ScopeHistory.html", "classMR_1_1ScopeHistory" ],
     [ "ApplyTransform", "classMR_1_1ApplyTransform.html", "classMR_1_1ApplyTransform" ],
     [ "SelectComponentByAreaPlugin", "classMR_1_1SelectComponentByAreaPlugin.html", "classMR_1_1SelectComponentByAreaPlugin" ],
+    [ "BestFitPlugin", "classMR_1_1BestFitPlugin.html", "classMR_1_1BestFitPlugin" ],
     [ "BooleanPlugin", "classMR_1_1BooleanPlugin.html", "classMR_1_1BooleanPlugin" ],
     [ "BoundingBoxPlugin", "classMR_1_1BoundingBoxPlugin.html", "classMR_1_1BoundingBoxPlugin" ],
     [ "CameraFacingSelectOn", "classMR_1_1CameraFacingSelectOn.html", "classMR_1_1CameraFacingSelectOn" ],
@@ -518,6 +519,7 @@ var namespaceMR =
       [ "XY", "namespaceMR.html#ae7c8689563553fe7686bd6b71ddf8f18a3629e4a37a6ff95437939d8664d158e9", null ],
       [ "None", "namespaceMR.html#ae7c8689563553fe7686bd6b71ddf8f18aa1f9f6e1b4f1f951f67ebeb0c69e1dd4", null ]
     ] ],
+    [ "accumulateFaceCenters", "namespaceMR.html#a431f41a10bf3a8e6da02de4aa5efa819", null ],
     [ "addLeftBand", "namespaceMR.html#ab0db7342678536825cb6b3bff51d832d", null ],
     [ "alignTextToMesh", "namespaceMR.html#ae0d8d6e235e2fed4ab318dc724bde427", null ],
     [ "angle", "namespaceMR.html#adf829229c6dbb01af5d768670c8928a7", null ],
@@ -963,6 +965,7 @@ var namespaceMR =
     [ "voxelsExponentMetric", "namespaceMR.html#a819f3665bd030abd3889caf70d44ca56", null ],
     [ "voxelsSumDiffsMetric", "namespaceMR.html#a6d57b82ebe60f6288efa02bac4848dab", null ],
     [ "AlignManuallyPluginInstance", "namespaceMR.html#ac297eb0c8c2447a0c4eee4cd541dbb09", null ],
+    [ "BestFitPluginInstance", "namespaceMR.html#a9412acf0013705a92f8cb19d021b226a", null ],
     [ "BooleanPluginInstance", "namespaceMR.html#a084fa6b145930b081d0c8544e2f9a19a", null ],
     [ "BoundingBoxPluginInstace", "namespaceMR.html#a71011b6c3642c54b6b66773283f60adf", null ],
     [ "CameraFacingSelectOffInstance", "namespaceMR.html#a56456dfc9851af870c41da41a1394cee", null ],

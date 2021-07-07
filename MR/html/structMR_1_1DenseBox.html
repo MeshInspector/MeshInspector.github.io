@@ -105,8 +105,10 @@ $(document).ready(function(){initNavTree('structMR_1_1DenseBox.html',''); initRe
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a38d6490f9c17daeecbddf5805a1104e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DenseBox.html#a38d6490f9c17daeecbddf5805a1104e3">DenseBox</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart)</td></tr>
-<tr class="separator:a38d6490f9c17daeecbddf5805a1104e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38590d0d422769798b0be5129be63d55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DenseBox.html#a38590d0d422769798b0be5129be63d55">DenseBox</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr)</td></tr>
+<tr class="separator:a38590d0d422769798b0be5129be63d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17190f1948e55f8abe10ffa9d47d2a80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DenseBox.html#a17190f1948e55f8abe10ffa9d47d2a80">include</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr)</td></tr>
+<tr class="separator:a17190f1948e55f8abe10ffa9d47d2a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7efc7b0a63b1e8c7737349454066d83f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DenseBox.html#a7efc7b0a63b1e8c7737349454066d83f">center</a> () const</td></tr>
 <tr class="separator:a7efc7b0a63b1e8c7737349454066d83f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae15fa3079fbe1aae94cb52176e59e802"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DenseBox.html#ae15fa3079fbe1aae94cb52176e59e802">corner</a> (const <a class="el" href="namespaceMR.html#afebc16eb08b4f97979ae9501d8e58ad4">Vector3b</a> &amp;index) const</td></tr>
@@ -121,8 +123,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6060f105f5a9ce96586016b141c9e68a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a38d6490f9c17daeecbddf5805a1104e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38d6490f9c17daeecbddf5805a1104e3">&#9670;&nbsp;</a></span>DenseBox()</h2>
+<a id="a38590d0d422769798b0be5129be63d55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38590d0d422769798b0be5129be63d55">&#9670;&nbsp;</a></span>DenseBox()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -131,8 +133,18 @@ Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR::DenseBox::DenseBox </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
-          <td class="paramname"><em>meshPart</em></td><td>)</td>
+          <td class="paramname"><em>meshPart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *&#160;</td>
+          <td class="paramname"><em>xf</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -262,6 +274,34 @@ Public Member Functions</h2></td></tr>
           <td class="paramtype">const <a class="el" href="namespaceMR.html#afebc16eb08b4f97979ae9501d8e58ad4">Vector3b</a> &amp;&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
           <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17190f1948e55f8abe10ffa9d47d2a80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17190f1948e55f8abe10ffa9d47d2a80">&#9670;&nbsp;</a></span>include()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::DenseBox::include </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
+          <td class="paramname"><em>meshPart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *&#160;</td>
+          <td class="paramname"><em>xf</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">

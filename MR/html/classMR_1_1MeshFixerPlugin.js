@@ -10,5 +10,6 @@ var classMR_1_1MeshFixerPlugin =
     ] ],
     [ "MeshFixerPlugin", "classMR_1_1MeshFixerPlugin.html#a212b83a6af78c33e24e442c398d0d8c1", null ],
     [ "drawDialog", "classMR_1_1MeshFixerPlugin.html#aaf55c7f1c85a1a802c9e9d02726761fe", null ],
-    [ "isAvailable", "classMR_1_1MeshFixerPlugin.html#aed4a3c99f66e8e1fe91f5d64738754cc", null ]
+    [ "isAvailable", "classMR_1_1MeshFixerPlugin.html#aed4a3c99f66e8e1fe91f5d64738754cc", null ],
+    [ "degenerateFacesFixer", "classMR_1_1MeshFixerPlugin.html#a1c5a3eb88dbc79ebd2ecb9e46ea85f9f", null ]
 ];

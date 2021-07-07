@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['quatersmask_4739',['quatersMask',['../structMR_1_1VoxelMetricParameters.html#aba278925c13ad718a8d6ef45eece27bf',1,'MR::VoxelMetricParameters']]]
+  ['quatersmask_4753',['quatersMask',['../structMR_1_1VoxelMetricParameters.html#aba278925c13ad718a8d6ef45eece27bf',1,'MR::VoxelMetricParameters']]]
 ];

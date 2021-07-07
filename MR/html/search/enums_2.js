@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['edgeweights_5040',['EdgeWeights',['../classMR_1_1Laplacian.html#a40fcda9e6b8208959a3204e274784b18',1,'MR::Laplacian']]]
+  ['edgeweights_5054',['EdgeWeights',['../classMR_1_1Laplacian.html#a40fcda9e6b8208959a3204e274784b18',1,'MR::Laplacian']]]
 ];

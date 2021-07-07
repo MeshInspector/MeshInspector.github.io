@@ -34,6 +34,7 @@ var hierarchy =
           [ "MR::TextOnMeshPlugin", "classMR_1_1TextOnMeshPlugin.html", null ]
         ] ],
         [ "MR::CustomListenerPlugin< DrawListener >", "classMR_1_1CustomListenerPlugin.html", [
+          [ "MR::BestFitPlugin", "classMR_1_1BestFitPlugin.html", null ],
           [ "MR::ObjectLinesVisualizationTest", "classMR_1_1ObjectLinesVisualizationTest.html", null ]
         ] ],
         [ "MR::CustomListenerPlugin< MouseDownListener >", "classMR_1_1CustomListenerPlugin.html", [
