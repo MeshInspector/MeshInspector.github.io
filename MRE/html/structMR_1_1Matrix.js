@@ -2,7 +2,7 @@ var structMR_1_1Matrix =
 [
     [ "ValueType", "structMR_1_1Matrix.html#a969b7d6345630cad2fa560cfc8f69965", null ],
     [ "Matrix", "structMR_1_1Matrix.html#a2ad7f900e6b01f0617767997c6b9b640", null ],
-    [ "Matrix", "structMR_1_1Matrix.html#af6c81e5fcaf986e188725835f4e204be", null ],
+    [ "Matrix", "structMR_1_1Matrix.html#ac4bec1c6161b100d4f5e0309b07186cb", null ],
     [ "clear", "structMR_1_1Matrix.html#a9eb1e62339fab559b2cdea38de18d03a", null ],
     [ "fill", "structMR_1_1Matrix.html#afcec7ff199943212099a907797f41293", null ],
     [ "getColsNum", "structMR_1_1Matrix.html#ad76e96f23f3310925b2625b294889291", null ],

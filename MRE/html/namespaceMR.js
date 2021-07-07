@@ -519,6 +519,7 @@ var namespaceMR =
       [ "XY", "namespaceMR.html#ae7c8689563553fe7686bd6b71ddf8f18a3629e4a37a6ff95437939d8664d158e9", null ],
       [ "None", "namespaceMR.html#ae7c8689563553fe7686bd6b71ddf8f18aa1f9f6e1b4f1f951f67ebeb0c69e1dd4", null ]
     ] ],
+    [ "accumulateFaceCenters", "namespaceMR.html#a431f41a10bf3a8e6da02de4aa5efa819", null ],
     [ "addLeftBand", "namespaceMR.html#ab0db7342678536825cb6b3bff51d832d", null ],
     [ "alignTextToMesh", "namespaceMR.html#ae0d8d6e235e2fed4ab318dc724bde427", null ],
     [ "angle", "namespaceMR.html#adf829229c6dbb01af5d768670c8928a7", null ],

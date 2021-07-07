@@ -1,5 +1,15 @@
 var NAVTREEINDEX17 =
 {
+"structMRE_1_1DecimateResult.html":[10,0,1,13],
+"structMRE_1_1DecimateResult.html#a4cc65bd2a287404b8b54db5071ab7068":[10,0,1,13,1],
+"structMRE_1_1DecimateResult.html#aa59bcae3d77f594ccd1ef4c2f44f3af2":[10,0,1,13,0],
+"structMRE_1_1DecimateResult.html#ab3a3a740d5e704f73a85f89e159ba275":[10,0,1,13,2],
+"structMRE_1_1DecimateSettings.html":[10,0,1,12],
+"structMRE_1_1DecimateSettings.html#a03b7e3ab435504e0885c7f48e9d0bd52":[10,0,1,12,7],
+"structMRE_1_1DecimateSettings.html#a0c9612c442978c84b93928b3fd674a40":[10,0,1,12,1],
+"structMRE_1_1DecimateSettings.html#a23c47583972b3b17dd89bc69cc2094cd":[10,0,1,12,8],
+"structMRE_1_1DecimateSettings.html#a38c75c2b0f972f02c4940ce0498487d3":[10,0,1,12,2],
+"structMRE_1_1DecimateSettings.html#a3c40fafa954eac9946ce998467a2449e":[10,0,1,12,6],
 "structMRE_1_1DecimateSettings.html#a5516325279c277f1368546f126ed95c5":[10,0,1,12,5],
 "structMRE_1_1DecimateSettings.html#aa4f17fd96340b37c98219b37f743d44e":[10,0,1,12,4],
 "structMRE_1_1DecimateSettings.html#aa9e747580fa45ea2f0e80a8fcd1a974f":[10,0,1,12,3],
@@ -151,7 +161,8 @@ var NAVTREEINDEX17 =
 "structMR_1_1CoordinateConverters.html#a9c7a896a6e208bd631d8a24dc4dbe5e9":[10,0,0,65,0],
 "structMR_1_1CoordinateConverters.html#af1cc39b13f2960b4d6386e81c3e57c74":[10,0,0,65,1],
 "structMR_1_1DenseBox.html":[10,0,0,31],
-"structMR_1_1DenseBox.html#a38d6490f9c17daeecbddf5805a1104e3":[10,0,0,31,0],
+"structMR_1_1DenseBox.html#a17190f1948e55f8abe10ffa9d47d2a80":[10,0,0,31,7],
+"structMR_1_1DenseBox.html#a38590d0d422769798b0be5129be63d55":[10,0,0,31,0],
 "structMR_1_1DenseBox.html#a51c645530f6f91b019ba3a90824d7d7e":[10,0,0,31,1],
 "structMR_1_1DenseBox.html#a6060f105f5a9ce96586016b141c9e68a":[10,0,0,31,2],
 "structMR_1_1DenseBox.html#a7efc7b0a63b1e8c7737349454066d83f":[10,0,0,31,4],
@@ -238,16 +249,5 @@ var NAVTREEINDEX17 =
 "structMR_1_1ImmediateGL_1_1RenderParams.html":[10,0,0,1,0],
 "structMR_1_1ImmediateGL_1_1RenderParams.html#a1195efacca9ee7f006c5c59c01f5920b":[10,0,0,1,0,1],
 "structMR_1_1ImmediateGL_1_1RenderParams.html#a6dc5ff1cd981e59ff1a5eb3cff0edafd":[10,0,0,1,0,0],
-"structMR_1_1ImmediateGL_1_1Tri.html":[10,0,0,1,2],
-"structMR_1_1ImmediateGL_1_1Tri.html#a89b4b6c451951a3938450284407933fa":[10,0,0,1,2,1],
-"structMR_1_1ImmediateGL_1_1Tri.html#aed1004526c7c1003d0b235187cc16652":[10,0,0,1,2,2],
-"structMR_1_1ImmediateGL_1_1Tri.html#af922f7a6686a159dbeae03d0c8930cdd":[10,0,0,1,2,0],
-"structMR_1_1ImmediateGL_1_1TriCornerColors.html":[10,0,0,1,3],
-"structMR_1_1ImmediateGL_1_1TriCornerColors.html#a4f1ee4885f77dd7612999174bfa666e2":[10,0,0,1,3,2],
-"structMR_1_1ImmediateGL_1_1TriCornerColors.html#a517e55bfb5d9f4c5a14ae6f9c45a5ed6":[10,0,0,1,3,0],
-"structMR_1_1ImmediateGL_1_1TriCornerColors.html#ab368dfc10f30afcd4d654eed56790b23":[10,0,0,1,3,1],
-"structMR_1_1ImmediateGL_1_1TriRenderParams.html":[10,0,0,1,1],
-"structMR_1_1ImmediateGL_1_1TriRenderParams.html#a1c06cf4d09db5aa9ed38a007b91e5c24":[10,0,0,1,1,1],
-"structMR_1_1ImmediateGL_1_1TriRenderParams.html#ac80e374c909fcfeaa3c0225a4b872f10":[10,0,0,1,1,0],
-"structMR_1_1InterruptCloseListener.html":[10,0,0,258]
+"structMR_1_1ImmediateGL_1_1Tri.html":[10,0,0,1,2]
 };

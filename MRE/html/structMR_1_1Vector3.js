@@ -11,6 +11,7 @@ var structMR_1_1Vector3 =
     [ "operator[]", "structMR_1_1Vector3.html#aa88f2693d3073ff853a1a5e2f1f0affb", null ],
     [ "operator[]", "structMR_1_1Vector3.html#ac638b2b68d44cf1255b47713599d402b", null ],
     [ "perpendicular", "structMR_1_1Vector3.html#a6eb67ddb4f03895ca864d26bb55ebcb2", null ],
+    [ "transformed", "structMR_1_1Vector3.html#a12c01f9c90215072af9bd754247ca2db", null ],
     [ "x", "structMR_1_1Vector3.html#a3d6f56ed3c525a928116d6c095997c5c", null ],
     [ "y", "structMR_1_1Vector3.html#a4cbb29e67931176028f57f29b2bd6953", null ],
     [ "z", "structMR_1_1Vector3.html#ae596ea6de55c00124d84150eadecd455", null ]

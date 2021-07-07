@@ -53,6 +53,7 @@ var NAVTREEINDEX0 =
 "MRBestFitPlugin_8h.html#a9412acf0013705a92f8cb19d021b226a":[11,0,16,1],
 "MRBestFitPlugin_8h_source.html":[11,0,16],
 "MRBestFit_8h.html":[11,0,15],
+"MRBestFit_8h.html#a431f41a10bf3a8e6da02de4aa5efa819":[11,0,15,1],
 "MRBestFit_8h_source.html":[11,0,15],
 "MRBitSetParallelFor_8h.html":[11,0,18],
 "MRBitSetParallelFor_8h.html#a6668adaae45af9cbb54e22fff0ef0ab7":[11,0,18,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "MREIntersectionContour_8h_source.html":[11,0,62],
 "MREMeshBooleanFacade_8h.html":[11,0,64],
 "MREMeshBooleanFacade_8h.html#a1a2fe59fb83e145b1951889c62dd45a2":[11,0,64,3],
-"MREMeshBooleanFacade_8h.html#a43ffd04c8e4f0d170bcd728231a8cbac":[11,0,64,4],
-"MREMeshBooleanFacade_8h.html#a4a1b638977f454de1614d2caffc291f3":[11,0,64,2]
+"MREMeshBooleanFacade_8h.html#a43ffd04c8e4f0d170bcd728231a8cbac":[11,0,64,4]
 };

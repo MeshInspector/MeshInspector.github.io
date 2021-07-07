@@ -37,9 +37,7 @@ var files_dup =
     [ "MRAreaSelectorPlugin.h", "MRAreaSelectorPlugin_8h.html", "MRAreaSelectorPlugin_8h" ],
     [ "MRArrow.h", "MRArrow_8h.html", "MRArrow_8h" ],
     [ "MRBase64.h", "MRBase64_8h.html", "MRBase64_8h" ],
-    [ "MRBestFit.h", "MRBestFit_8h.html", [
-      [ "PointAccumulator", "classMR_1_1PointAccumulator.html", "classMR_1_1PointAccumulator" ]
-    ] ],
+    [ "MRBestFit.h", "MRBestFit_8h.html", "MRBestFit_8h" ],
     [ "MRBestFitPlugin.h", "MRBestFitPlugin_8h.html", "MRBestFitPlugin_8h" ],
     [ "MRBitSet.h", "MRBitSet_8h.html", "MRBitSet_8h" ],
     [ "MRBitSetParallelFor.h", "MRBitSetParallelFor_8h.html", "MRBitSetParallelFor_8h" ],
@@ -146,6 +144,7 @@ var files_dup =
     [ "MRGeodesicPathPlugin.h", "MRGeodesicPathPlugin_8h.html", "MRGeodesicPathPlugin_8h" ],
     [ "MRGLMacro.h", "MRGLMacro_8h.html", "MRGLMacro_8h" ],
     [ "MRGridSampling.h", "MRGridSampling_8h.html", "MRGridSampling_8h" ],
+    [ "MRGTest.h", "MRGTest_8h.html", null ],
     [ "MRHash.h", "MRHash_8h.html", null ],
     [ "MRHeap.h", "MRHeap_8h.html", [
       [ "Heap", "classMR_1_1Heap.html", "classMR_1_1Heap" ],

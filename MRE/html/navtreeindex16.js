@@ -1,5 +1,15 @@
 var NAVTREEINDEX16 =
 {
+"namespaceMR.html#af98212c07ebfc00c3d84f1b850490822":[9,0,0,418],
+"namespaceMR.html#af9a5c1118c2c4b0cda030dff8d11ce03":[9,0,0,670],
+"namespaceMR.html#af9a646b3faedd115766838e03b946cc9":[9,0,0,480],
+"namespaceMR.html#afa52f737f1695a9866b22a30a29aefba":[9,0,0,299],
+"namespaceMR.html#afac0380481de66cc94765087e17be65d":[9,0,0,633],
+"namespaceMR.html#afc02233a2faf078043272c3e1fccb080":[9,0,0,319],
+"namespaceMR.html#afc30c356f77febd1de044f555d8154d3":[9,0,0,630],
+"namespaceMR.html#afeb36c822e49fc2b1de5134ea4c0a507":[9,0,0,447],
+"namespaceMR.html#afebc16eb08b4f97979ae9501d8e58ad4":[9,0,0,375],
+"namespaceMR.html#aff16a71ae923e32ce8e45a4d0fb20a45":[9,0,0,822],
 "namespaceMRE.html":[9,0,1],
 "namespaceMRE.html#a090e98ab9275f5e5bc3eb8be1e846400":[9,0,1,32],
 "namespaceMRE.html#a0c025870560680d7879c14b5491a2f8e":[9,0,1,63],
@@ -239,15 +249,5 @@ var NAVTREEINDEX16 =
 "structMRE_1_1DecimateParallelSettings.html#a2a2a5ed1fff302edc4af585b97b47a01":[10,0,1,14,4],
 "structMRE_1_1DecimateParallelSettings.html#a9b2d053f13171cca73579ca16335f6cf":[10,0,1,14,2],
 "structMRE_1_1DecimateParallelSettings.html#ac814d6cc2c655ebca73c58ba4ee50621":[10,0,1,14,0],
-"structMRE_1_1DecimateParallelSettings.html#ae88afe0d766d9a0cd97339a0679e09c4":[10,0,1,14,1],
-"structMRE_1_1DecimateResult.html":[10,0,1,13],
-"structMRE_1_1DecimateResult.html#a4cc65bd2a287404b8b54db5071ab7068":[10,0,1,13,1],
-"structMRE_1_1DecimateResult.html#aa59bcae3d77f594ccd1ef4c2f44f3af2":[10,0,1,13,0],
-"structMRE_1_1DecimateResult.html#ab3a3a740d5e704f73a85f89e159ba275":[10,0,1,13,2],
-"structMRE_1_1DecimateSettings.html":[10,0,1,12],
-"structMRE_1_1DecimateSettings.html#a03b7e3ab435504e0885c7f48e9d0bd52":[10,0,1,12,7],
-"structMRE_1_1DecimateSettings.html#a0c9612c442978c84b93928b3fd674a40":[10,0,1,12,1],
-"structMRE_1_1DecimateSettings.html#a23c47583972b3b17dd89bc69cc2094cd":[10,0,1,12,8],
-"structMRE_1_1DecimateSettings.html#a38c75c2b0f972f02c4940ce0498487d3":[10,0,1,12,2],
-"structMRE_1_1DecimateSettings.html#a3c40fafa954eac9946ce998467a2449e":[10,0,1,12,6]
+"structMRE_1_1DecimateParallelSettings.html#ae88afe0d766d9a0cd97339a0679e09c4":[10,0,1,14,1]
 };
