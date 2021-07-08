@@ -140,9 +140,9 @@ $(document).ready(function(){initNavTree('MRMeshInfoPlugin_8h_source.html',''); 
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> show_selected_vert( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&amp; v );</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> show_face_label( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a>&amp; f );</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> show_edge_label( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&amp; e );</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> show_vert_label( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&amp; v );</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> show_face_label( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a>&amp; f, <span class="keywordtype">bool</span> isNeighbor = <span class="keyword">false</span> );</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> show_edge_label( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&amp; e, <span class="keywordtype">bool</span> isNeighbor = <span class="keyword">false</span> );</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> show_vert_label( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&amp; v, <span class="keywordtype">bool</span> isNeighbor = <span class="keyword">false</span> );</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> find_nearest_edge( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> &amp;f, <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;c );</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> find_nearest_vertex( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> &amp;f, <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;c );</div>
@@ -150,24 +150,25 @@ $(document).ready(function(){initNavTree('MRMeshInfoPlugin_8h_source.html',''); 
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">bool</span> show_face_labels_{ <span class="keyword">false</span> };</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">bool</span> show_edge_labels_{ <span class="keyword">false</span> };</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">bool</span> show_vert_labels_{ <span class="keyword">false</span> };</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">bool</span> show_selected_{ <span class="keyword">true</span> };</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keyword">enum</span> Modes</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    {</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        Face_mode,</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        Edge_mode,</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        Vert_mode</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    } mode_;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    std::shared_ptr&lt;FaceBitSet&gt; original_face_bit_set_;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    std::string corresponded_elements_line_1_  ; </div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    std::string corresponded_elements_line_2_  ;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">bool</span> need_update_{ <span class="keyword">false</span> }; </div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;};</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;MRVIEWER_API <span class="keyword">extern</span> MeshInfoPlugin <a class="code" href="namespaceMR.html#aa4f274a66e800b8bb6f07c042644634d">MeshInfoPluginInstace</a>;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;}</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">bool</span> show_neighbors_{ <span class="keyword">false</span> };</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">bool</span> show_selected_{ <span class="keyword">true</span> };</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keyword">enum</span> Modes</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        Face_mode,</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        Edge_mode,</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        Vert_mode</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    } mode_;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    std::shared_ptr&lt;FaceBitSet&gt; original_face_bit_set_;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    std::string corresponded_elements_line_1_  ; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    std::string corresponded_elements_line_2_  ;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">bool</span> need_update_{ <span class="keyword">false</span> }; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;};</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;MRVIEWER_API <span class="keyword">extern</span> MeshInfoPlugin <a class="code" href="namespaceMR.html#aa4f274a66e800b8bb6f07c042644634d">MeshInfoPluginInstace</a>;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;}</div>
 <div class="ttc" id="aMRCustomPlugin_8h_html"><div class="ttname"><a href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMeshViewer_8h_html"><div class="ttname"><a href="MRMeshViewer_8h.html">MRMeshViewer.h</a></div></div>

@@ -108,16 +108,26 @@ Build with VS2019 on Windows</h1>
 </div><!-- fragment --><p><b>Preparing</b> <b>Third</b> <b>Parties</b> <br  />
 Some third parties are taken from vcpkg, while others (missing in vcpkg) are configured as git submodules. <br  />
  <br  />
-0. If you don't have python3.8 or later with already installed numpy by pip, install it from official site (<a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>). During install add python to PATH <b>Important!</b> <b>Python</b> <b>path</b> <b>should</b> <b>have</b> <b>no</b> <b>spaces!</b>, run </p><div class="fragment"><div class="line">$ python -m pip install numpy</div>
-</div><!-- fragment --><p> If you already have installed vcpkg with boost-python, you have to reinstall it: </p><div class="fragment"><div class="line">$ rm C:\Users\&lt;UserName&gt;\appData\Local\vcpkg\</div>
-<div class="line">$ vcpkg remove boost-uninstall:x64-windows-meshrus --recurse</div>
-</div><!-- fragment --><p> Valid Python with numpy in the PATH force vcpkg boost_python to build numpy lib on stage 3 <b>Vcpkg:</b> </p><ol type="1">
-<li>Please install vcpkg, and integrate it into Visual Studio (note that vcpkg requires English laguage pack installed in Visual Studio): <div class="fragment"><div class="line">$ git clone https:<span class="comment">//github.com/Microsoft/vcpkg.git</span></div>
+0. If you don't have python3.8 or later with already installed numpy by pip, install it from official site (<a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>). During install add python to PATH<br  />
+<b>Important!</b> <b>Python</b> <b>path</b> <b>should</b> <b>have</b> <b>no</b> <b>spaces!</b> </p>
+<p>If it has you should follow next steps: <br  />
+</p><ul>
+<li><a class="el" href="classMR_1_1Open.html">Open</a> <code>regedit</code> <br  />
+</li>
+<li>Go to <code>Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Python\PythonCore\3.8+version\InstallPath</code> <br  />
+</li>
+<li>Modify all paths to be in quotes <br  />
+ <br  />
+ <div class="fragment"><div class="line">$ python -m pip install numpy</div>
+</div><!-- fragment --> If you already have installed vcpkg with boost-python, you have to reinstall it: <div class="fragment"><div class="line">$ vcpkg remove boost-uninstall:x64-windows-meshrus --recurse</div>
+</div><!-- fragment --> Valid Python with numpy in the PATH force vcpkg boost_python to build numpy lib on stage 3 <b>Vcpkg:</b> </li>
+</ul>
+<p>Please install vcpkg, and integrate it into Visual Studio (note that vcpkg requires English laguage pack installed in Visual Studio): </p><div class="fragment"><div class="line">$ git clone https:<span class="comment">//github.com/Microsoft/vcpkg.git</span></div>
 <div class="line">$ cd vcpkg</div>
 <div class="line">$ git checkout ea11604579181b0ff790be223ee3ded3068142f9</div>
 <div class="line">$ .\bootstrap-vcpkg.bat</div>
 <div class="line">$ .\vcpkg integrate install (with admin rights)</div>
-</div><!-- fragment --> More details here: <a href="https://github.com/microsoft/vcpkg">vcpkg</a></li>
+</div><!-- fragment --><p> More details here: <a href="https://github.com/microsoft/vcpkg">vcpkg</a></p><ol type="1">
 <li>Copy <b>thirdparty/vcpkg/triplets/x64-windows-meshrus.cmake</b> to <b>vcpkg/triplets</b> folder of vcpkg installation.</li>
 <li>Execute install.bat <div class="fragment"><div class="line">$ cd vcpkg # or add vcpcg to PATH</div>
 <div class="line">$ work/MeshRUs/thirdparty/install.bat</div>
