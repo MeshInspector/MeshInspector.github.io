@@ -75,6 +75,7 @@ var classMR_1_1Viewport =
     [ "setPreviewPointsDepthTest", "classMR_1_1Viewport.html#a12daa05b4b1e7ef79c420cad8613ed68", null ],
     [ "setRotation", "classMR_1_1Viewport.html#a511d516b1bb61ba54e2b72284b65fceb", null ],
     [ "setSelectable", "classMR_1_1Viewport.html#a3b38a130389402efd292caab868bfd57", null ],
+    [ "setupView", "classMR_1_1Viewport.html#ab4ecbedf6e23c2e1c30a6bff52f5e07a", null ],
     [ "setViewportRect", "classMR_1_1Viewport.html#ab2c0e713c7540bb9c2f53e69607bfed8", null ],
     [ "showAxes", "classMR_1_1Viewport.html#a6d103e17a81a5229a01ae2a67eb05128", null ],
     [ "showClippingPlane", "classMR_1_1Viewport.html#a68b36d6e25e5af04a632f74f526c4cda", null ],

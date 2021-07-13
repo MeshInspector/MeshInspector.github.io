@@ -1,0 +1,23 @@
+var NAVTREEINDEX21 =
+{
+"structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0":[10,0,0,136,0],
+"structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0a177d5fdc637ed99194f4878dee75f4c8":[10,0,0,136,0,5],
+"structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0a3b012823a9cc50e12b9060c0dab3f27d":[10,0,0,136,0,4],
+"structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0a3bc9bab56a374528b3761e8d709366e5":[10,0,0,136,0,7],
+"structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0a6480df85c7d7a657e8a8adc1a1e566a0":[10,0,0,136,0,0],
+"structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0aa0e5d5afb3e35be7f4fe202a2146e687":[10,0,0,136,0,1],
+"structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0aa9ab245ec9543cca01132dc23aa905f1":[10,0,0,136,0,2],
+"structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0ab72b78c3e9e37ca07d93dccb6678f264":[10,0,0,136,0,3],
+"structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0ac7441567a6408dd2fd28b49e2f2d2aaa":[10,0,0,136,0,6],
+"structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0affc553095c89777da911f032d4d686bc":[10,0,0,136,0,8],
+"structMR_1_1VolumeSegmentationParameters.html":[10,0,0,139],
+"structMR_1_1VolumeSegmentationParameters.html#aa059718068f7c4b81e33e2a1a3e7460c":[10,0,0,139,2],
+"structMR_1_1VolumeSegmentationParameters.html#ab07494ac7f1627ecc2dfce39e9502118":[10,0,0,139,1],
+"structMR_1_1VolumeSegmentationParameters.html#af000ea80a099a9de6d4f4f4475580b6c":[10,0,0,139,0],
+"structMR_1_1VoxelMetricParameters.html":[10,0,0,141],
+"structMR_1_1VoxelMetricParameters.html#a3ae620491a9dd4eff4445eb022a73b7e":[10,0,0,141,0],
+"structMR_1_1VoxelMetricParameters.html#a56ffd5cce114539b66d53db876518db0":[10,0,0,141,1],
+"structMR_1_1VoxelMetricParameters.html#ab2680e847f9d7f989c60b09700889278":[10,0,0,141,4],
+"structMR_1_1VoxelMetricParameters.html#aba278925c13ad718a8d6ef45eece27bf":[10,0,0,141,2],
+"structMR_1_1VoxelMetricParameters.html#ae851669e25fee95a2b98a79736a529cf":[10,0,0,141,3]
+};

@@ -75,6 +75,7 @@ var classMR_1_1Viewer =
     [ "screenToViewport", "classMR_1_1Viewer.html#a96283697545235438cbaf16840cb0d36", null ],
     [ "select_hovered_viewport", "classMR_1_1Viewer.html#aa7255da11fe1bd338aa176ee19b15eb7", null ],
     [ "set_root", "classMR_1_1Viewer.html#a69ca584e346396b819a60e894b1d1d14", null ],
+    [ "setupScene", "classMR_1_1Viewer.html#ac8eb7071af575a78eb86abc5114add0f", null ],
     [ "setViewportSettingsManager", "classMR_1_1Viewer.html#a16b5ba2c760da178698660af7cdb25c4", null ],
     [ "swapMRSceneControls", "classMR_1_1Viewer.html#abe3f4d7a50f0ab6c71ec20572fd8b1b4", null ],
     [ "viewport", "classMR_1_1Viewer.html#a125f48ccd1c9b0413d062843d1d91c2b", null ],

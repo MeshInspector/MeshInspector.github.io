@@ -113,16 +113,16 @@ $(document).ready(function(){initNavTree('MRMatrix_8h_source.html',''); initResi
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structMR_1_1Matrix.html#ac4bec1c6161b100d4f5e0309b07186cb">   15</a></span>&#160;    <a class="code" href="structMR_1_1Matrix.html">Matrix</a>( <span class="keywordtype">int</span> numRows, <span class="keywordtype">int</span> numCols )</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    {</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        data_.resize( numCols * numRows );</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        data_.resize( <span class="keywordtype">size_t</span>(numCols) * numRows );</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        rows_ = numRows;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        cols_ = numCols;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    }</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="comment">// main access method</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="structMR_1_1Matrix.html#aaaa1c81c3f1ab6fa5e68d34b65de3aee">   23</a></span>&#160;    constexpr T&amp; <a class="code" href="structMR_1_1Matrix.html#aaaa1c81c3f1ab6fa5e68d34b65de3aee">operator ()</a>( <span class="keywordtype">int</span> row, <span class="keywordtype">int</span> col ) noexcept { <span class="keywordflow">return</span> data_[row * cols_ + col]; }</div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="structMR_1_1Matrix.html#a3c4036b4679347cb9fab5b6d44ad08ff">   24</a></span>&#160;    constexpr T&amp; <a class="code" href="structMR_1_1Matrix.html#aaaa1c81c3f1ab6fa5e68d34b65de3aee">operator ()</a>( <span class="keywordtype">int</span> i ) noexcept { <span class="keywordflow">return</span> data_[i]; }</div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="structMR_1_1Matrix.html#ad9ec72ea5a86d0e8fd39963e18f4b118">   25</a></span>&#160;    constexpr <span class="keyword">const</span> T&amp; <a class="code" href="structMR_1_1Matrix.html#aaaa1c81c3f1ab6fa5e68d34b65de3aee">operator ()</a>( <span class="keywordtype">int</span> row, <span class="keywordtype">int</span> col ) <span class="keyword">const</span> noexcept { <span class="keywordflow">return</span> data_[row * cols_ + col]; }</div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="structMR_1_1Matrix.html#a40e4b20a619320b6f19ad481db37fc54">   26</a></span>&#160;    constexpr <span class="keyword">const</span> T&amp; <a class="code" href="structMR_1_1Matrix.html#aaaa1c81c3f1ab6fa5e68d34b65de3aee">operator ()</a>( <span class="keywordtype">int</span> i ) <span class="keyword">const</span> noexcept { <span class="keywordflow">return</span> data_[i]; }</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="structMR_1_1Matrix.html#aaaa1c81c3f1ab6fa5e68d34b65de3aee">   23</a></span>&#160;    constexpr T&amp; <a class="code" href="structMR_1_1Matrix.html#aaaa1c81c3f1ab6fa5e68d34b65de3aee">operator ()</a>( <span class="keywordtype">int</span> row, <span class="keywordtype">int</span> col ) noexcept { <span class="keywordflow">return</span> data_[row * size_t(cols_) + col]; }</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="structMR_1_1Matrix.html#a64cfe4973ffc8c40e2b4c41e462e5ed9">   24</a></span>&#160;    constexpr T&amp; <a class="code" href="structMR_1_1Matrix.html#aaaa1c81c3f1ab6fa5e68d34b65de3aee">operator ()</a>( <span class="keywordtype">size_t</span> i ) noexcept { <span class="keywordflow">return</span> data_[i]; }</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="structMR_1_1Matrix.html#ad9ec72ea5a86d0e8fd39963e18f4b118">   25</a></span>&#160;    constexpr <span class="keyword">const</span> T&amp; <a class="code" href="structMR_1_1Matrix.html#aaaa1c81c3f1ab6fa5e68d34b65de3aee">operator ()</a>( <span class="keywordtype">int</span> row, <span class="keywordtype">int</span> col ) <span class="keyword">const</span> noexcept { <span class="keywordflow">return</span> data_[row * size_t(cols_) + col]; }</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="structMR_1_1Matrix.html#a9857047a86aaef7b4775b7855006f9a4">   26</a></span>&#160;    constexpr <span class="keyword">const</span> T&amp; <a class="code" href="structMR_1_1Matrix.html#aaaa1c81c3f1ab6fa5e68d34b65de3aee">operator ()</a>(<span class="keywordtype">size_t</span> i ) <span class="keyword">const</span> noexcept { <span class="keywordflow">return</span> data_[i]; }</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
 <div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="structMR_1_1Matrix.html#a126235ce29c906e9ddcb0e40e95bce7b">   28</a></span>&#160;    constexpr <a class="code" href="structMR_1_1Matrix.html">Matrix</a> <a class="code" href="structMR_1_1Matrix.html#a126235ce29c906e9ddcb0e40e95bce7b">getSubMatrix</a>( <span class="keywordtype">int</span> startRow, <span class="keywordtype">int</span> nRow, <span class="keywordtype">int</span> startCol, <span class="keywordtype">int</span> nCol )</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div>
@@ -131,7 +131,7 @@ $(document).ready(function(){initNavTree('MRMatrix_8h_source.html',''); initResi
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        {</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <span class="keywordflow">for</span>( <span class="keywordtype">int</span> c = 0; c &lt; nCol; c++ )</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            {</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                res(r, c) = data_[(startRow + r) * cols_ + startCol + c];</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                res(r, c) = data_[(startRow + r) * <span class="keywordtype">size_t</span>(cols_) + startCol + c];</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            }</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        }</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">return</span> res;</div>
@@ -175,12 +175,17 @@ $(document).ready(function(){initNavTree('MRMatrix_8h_source.html',''); initResi
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordflow">return</span> cols_;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    }</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">int</span> rows_ = 0, cols_ = 0;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    std::vector&lt;T&gt; data_;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;};</div>
+<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="structMR_1_1Matrix.html#ad5d4fd33529ac65ae1f0f49b924d323f">   79</a></span>&#160;    <span class="keywordtype">size_t</span> <a class="code" href="structMR_1_1Matrix.html#ad5d4fd33529ac65ae1f0f49b924d323f">size</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">return</span> rows_ * cols_;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;} <span class="comment">//namespace MR</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">int</span> rows_ = 0, cols_ = 0;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    std::vector&lt;T&gt; data_;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;};</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MREViewerSetup.h:5</div></div>
 <div class="ttc" id="astructMR_1_1Matrix_html"><div class="ttname"><a href="structMR_1_1Matrix.html">MR::Matrix</a></div><div class="ttdef"><b>Definition:</b> MRMatrix.h:10</div></div>
 <div class="ttc" id="astructMR_1_1Matrix_html_a126235ce29c906e9ddcb0e40e95bce7b"><div class="ttname"><a href="structMR_1_1Matrix.html#a126235ce29c906e9ddcb0e40e95bce7b">MR::Matrix::getSubMatrix</a></div><div class="ttdeci">constexpr Matrix getSubMatrix(int startRow, int nRow, int startCol, int nCol)</div><div class="ttdef"><b>Definition:</b> MRMatrix.h:28</div></div>
@@ -190,6 +195,7 @@ $(document).ready(function(){initNavTree('MRMatrix_8h_source.html',''); initResi
 <div class="ttc" id="astructMR_1_1Matrix_html_a9eb1e62339fab559b2cdea38de18d03a"><div class="ttname"><a href="structMR_1_1Matrix.html#a9eb1e62339fab559b2cdea38de18d03a">MR::Matrix::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdef"><b>Definition:</b> MRMatrix.h:63</div></div>
 <div class="ttc" id="astructMR_1_1Matrix_html_aa661fa7d9cb062e96dedc6d24ce8a068"><div class="ttname"><a href="structMR_1_1Matrix.html#aa661fa7d9cb062e96dedc6d24ce8a068">MR::Matrix::transposed</a></div><div class="ttdeci">constexpr Matrix transposed() const noexcept</div><div class="ttdef"><b>Definition:</b> MRMatrix.h:42</div></div>
 <div class="ttc" id="astructMR_1_1Matrix_html_aaaa1c81c3f1ab6fa5e68d34b65de3aee"><div class="ttname"><a href="structMR_1_1Matrix.html#aaaa1c81c3f1ab6fa5e68d34b65de3aee">MR::Matrix::operator()</a></div><div class="ttdeci">constexpr T &amp; operator()(int row, int col) noexcept</div><div class="ttdef"><b>Definition:</b> MRMatrix.h:23</div></div>
+<div class="ttc" id="astructMR_1_1Matrix_html_ad5d4fd33529ac65ae1f0f49b924d323f"><div class="ttname"><a href="structMR_1_1Matrix.html#ad5d4fd33529ac65ae1f0f49b924d323f">MR::Matrix::size</a></div><div class="ttdeci">size_t size() const</div><div class="ttdef"><b>Definition:</b> MRMatrix.h:79</div></div>
 <div class="ttc" id="astructMR_1_1Matrix_html_ad76e96f23f3310925b2625b294889291"><div class="ttname"><a href="structMR_1_1Matrix.html#ad76e96f23f3310925b2625b294889291">MR::Matrix::getColsNum</a></div><div class="ttdeci">int getColsNum() const</div><div class="ttdef"><b>Definition:</b> MRMatrix.h:74</div></div>
 <div class="ttc" id="astructMR_1_1Matrix_html_afcec7ff199943212099a907797f41293"><div class="ttname"><a href="structMR_1_1Matrix.html#afcec7ff199943212099a907797f41293">MR::Matrix::fill</a></div><div class="ttdeci">void fill(T val)</div><div class="ttdef"><b>Definition:</b> MRMatrix.h:55</div></div>
 </div><!-- fragment --></div><!-- contents -->

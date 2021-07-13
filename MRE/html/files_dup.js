@@ -88,6 +88,9 @@ var files_dup =
     [ "MRDistanceComparePlugin.h", "MRDistanceComparePlugin_8h.html", "MRDistanceComparePlugin_8h" ],
     [ "MRDistanceCompareTest.h", "MRDistanceCompareTest_8h.html", "MRDistanceCompareTest_8h" ],
     [ "MRDistanceMap.h", "MRDistanceMap_8h.html", "MRDistanceMap_8h" ],
+    [ "MRDistanceMapParams.h", "MRDistanceMapParams_8h.html", [
+      [ "MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html", "structMR_1_1MeshToDistanceMapParams" ]
+    ] ],
     [ "MRDistanceMapPlugin.h", "MRDistanceMapPlugin_8h.html", "MRDistanceMapPlugin_8h" ],
     [ "MREBooleanOperation.h", "MREBooleanOperation_8h.html", "MREBooleanOperation_8h" ],
     [ "MREBooleanTest.h", "MREBooleanTest_8h.html", "MREBooleanTest_8h" ],
