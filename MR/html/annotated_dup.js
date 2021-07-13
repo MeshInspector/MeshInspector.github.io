@@ -53,6 +53,7 @@ var annotated_dup =
       [ "Config", "classMR_1_1Config.html", "classMR_1_1Config" ],
       [ "DenseBox", "structMR_1_1DenseBox.html", "structMR_1_1DenseBox" ],
       [ "DistanceMap", "classMR_1_1DistanceMap.html", "classMR_1_1DistanceMap" ],
+      [ "MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html", "structMR_1_1MeshToDistanceMapParams" ],
       [ "UndirectedEdgeIterator", "classMR_1_1UndirectedEdgeIterator.html", "classMR_1_1UndirectedEdgeIterator" ],
       [ "FaceFace", "structMR_1_1FaceFace.html", "structMR_1_1FaceFace" ],
       [ "FloatGrid", "classMR_1_1FloatGrid.html", "classMR_1_1FloatGrid" ],

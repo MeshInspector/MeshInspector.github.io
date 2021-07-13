@@ -6,7 +6,6 @@ var MRPython_8h =
     [ "ADD_PYTHON_CUSTOM_DEF", "MRPython_8h.html#afeabf4206280cf7ba6c214da7c2e9227", null ],
     [ "ADD_PYTHON_FUNCTION", "MRPython_8h.html#a9f4ef07fc4c7a76ae7597ea7b3b56752", null ],
     [ "ADD_PYTHON_VEC", "MRPython_8h.html#a08d9a1646a644b64cbd0842f6efb682d", null ],
-    [ "BOOST_BIND_GLOBAL_PLACEHOLDERS", "MRPython_8h.html#ae32d133147b9dd7a9b1bfe370a71b72e", null ],
     [ "StderrPyRedirector", "MRPython_8h.html#a7d823176353acbb146f4705c0dcfdf90", null ],
     [ "StdoutPyRedirector", "MRPython_8h.html#a26ab96a77d3875cbc3c3f79cd7ee64ef", null ],
     [ "StreamType", "MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1d", [

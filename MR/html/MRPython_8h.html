@@ -107,9 +107,10 @@ $(document).ready(function(){initNavTree('MRPython_8h.html',''); initResizable()
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
-<code>#include &lt;boost/python.hpp&gt;</code><br />
-<code>#include &lt;boost/python/numpy.hpp&gt;</code><br />
-<code>#include &lt;boost/python/suite/indexing/vector_indexing_suite.hpp&gt;</code><br />
+<code>#include &lt;pybind11/pybind11.h&gt;</code><br />
+<code>#include &lt;pybind11/operators.h&gt;</code><br />
+<code>#include &lt;pybind11/stl_bind.h&gt;</code><br />
+<code>#include &lt;pybind11/numpy.h&gt;</code><br />
 </div>
 <p><a href="MRPython_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -129,9 +130,7 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ae32d133147b9dd7a9b1bfe370a71b72e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#ae32d133147b9dd7a9b1bfe370a71b72e">BOOST_BIND_GLOBAL_PLACEHOLDERS</a></td></tr>
-<tr class="separator:ae32d133147b9dd7a9b1bfe370a71b72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f4ef07fc4c7a76ae7597ea7b3b56752"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#a9f4ef07fc4c7a76ae7597ea7b3b56752">ADD_PYTHON_FUNCTION</a>(name,  func,  description)&#160;&#160;&#160;    static <a class="el" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> name##_adder_([](){ boost::python::def(#name, func, description);} );</td></tr>
+<tr class="memitem:a9f4ef07fc4c7a76ae7597ea7b3b56752"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#a9f4ef07fc4c7a76ae7597ea7b3b56752">ADD_PYTHON_FUNCTION</a>(name,  func,  description)&#160;&#160;&#160;    static <a class="el" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> name##_adder_([](pybind11::module_&amp; m){ m.def(#name, func, description);} );</td></tr>
 <tr class="separator:a9f4ef07fc4c7a76ae7597ea7b3b56752"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afeabf4206280cf7ba6c214da7c2e9227"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#afeabf4206280cf7ba6c214da7c2e9227">ADD_PYTHON_CUSTOM_DEF</a>(name, ...)</td></tr>
 <tr class="separator:afeabf4206280cf7ba6c214da7c2e9227"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -193,7 +192,7 @@ Functions</h2></td></tr>
 <div class="line">_Pragma(<span class="stringliteral">&quot;warning(disable:4459)&quot;</span>) \</div>
 <div class="line">    static <a class="code" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> name##_adder_( __VA_ARGS__ ); \</div>
 <div class="line">_Pragma(<span class="stringliteral">&quot;warning(pop)&quot;</span>)</div>
-<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></div><div class="ttdef"><b>Definition:</b> MRPython.h:79</div></div>
+<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></div><div class="ttdef"><b>Definition:</b> MRPython.h:71</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -224,7 +223,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;    static <a class="el" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> name##_adder_([](){ boost::python::def(#name, func, description);} );</td>
+          <td></td><td>&#160;&#160;&#160;    static <a class="el" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> name##_adder_([](pybind11::module_&amp; m){ m.def(#name, func, description);} );</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -256,32 +255,17 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="MRPython_8h.html#afeabf4206280cf7ba6c214da7c2e9227">ADD_PYTHON_CUSTOM_DEF</a>( name, [] ()\</div>
+<b>Value:</b><div class="fragment"><div class="line">PYBIND11_MAKE_OPAQUE( std::vector&lt;type&gt; );\</div>
+<div class="line">ADD_PYTHON_CUSTOM_DEF( name, [] (pybind11::module_&amp; m)\</div>
 <div class="line">{\</div>
 <div class="line">    using vecType = std::vector&lt;type&gt;;\</div>
-<div class="line">    boost::python::class_&lt;vecType&gt;( #name ).\
-        def( boost::python::vector_indexing_suite&lt;vecType&gt;() ).\
+<div class="line">    pybind11::bind_vector&lt;vecType&gt;(m, #name ).\
         def( <span class="stringliteral">&quot;empty&quot;</span>, &amp;vecType::empty ).\
         def( <span class="stringliteral">&quot;size&quot;</span>, &amp;vecType::size ).\
         def( <span class="stringliteral">&quot;resize&quot;</span>, ( <span class="keywordtype">void</span> ( vecType::* )( <span class="keyword">const</span> vecType::size_type ) )&amp; vecType::resize ).\
         def( <span class="stringliteral">&quot;clear&quot;</span>, &amp;vecType::clear ); \</div>
 <div class="line">} )</div>
-<div class="ttc" id="aMRPython_8h_html_afeabf4206280cf7ba6c214da7c2e9227"><div class="ttname"><a href="MRPython_8h.html#afeabf4206280cf7ba6c214da7c2e9227">ADD_PYTHON_CUSTOM_DEF</a></div><div class="ttdeci">#define ADD_PYTHON_CUSTOM_DEF(name,...)</div><div class="ttdef"><b>Definition:</b> MRPython.h:21</div></div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="ae32d133147b9dd7a9b1bfe370a71b72e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae32d133147b9dd7a9b1bfe370a71b72e">&#9670;&nbsp;</a></span>BOOST_BIND_GLOBAL_PLACEHOLDERS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define BOOST_BIND_GLOBAL_PLACEHOLDERS</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>

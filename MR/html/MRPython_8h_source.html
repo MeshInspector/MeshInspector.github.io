@@ -101,103 +101,95 @@ $(document).ready(function(){initNavTree('MRPython_8h_source.html',''); initResi
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;functional&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;filesystem&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#pragma warning(push)</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#pragma warning(disable:4244)</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#pragma warning(disable:4456)</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#pragma warning(disable:4267)</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="MRPython_8h.html#ae32d133147b9dd7a9b1bfe370a71b72e">   10</a></span>&#160;<span class="preprocessor">#define BOOST_BIND_GLOBAL_PLACEHOLDERS</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;boost/python.hpp&gt;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;boost/python/numpy.hpp&gt;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">namespace </span>np = boost::python::numpy;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;boost/python/suite/indexing/vector_indexing_suite.hpp&gt;</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#undef BOOST_BIND_GLOBAL_PLACEHOLDERS</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#pragma warning(pop)</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="MRPython_8h.html#a9f4ef07fc4c7a76ae7597ea7b3b56752">   18</a></span>&#160;<span class="preprocessor">#define ADD_PYTHON_FUNCTION( name , func , description ) \</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">    static MR::PythonFunctionAdder name##_adder_([](){ boost::python::def(#name, func, description);} );</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="MRPython_8h.html#afeabf4206280cf7ba6c214da7c2e9227">   21</a></span>&#160;<span class="preprocessor">#define ADD_PYTHON_CUSTOM_DEF( name , ... ) \</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">_Pragma(&quot;warning(push)&quot;</span>) \</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;_Pragma(&quot;warning(disable:4459)&quot;) \</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    static MR::PythonFunctionAdder name##_adder_( __VA_ARGS__ ); \</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;_Pragma(&quot;warning(pop)&quot;)</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="MRPython_8h.html#a08d9a1646a644b64cbd0842f6efb682d">   27</a></span>&#160;<span class="preprocessor">#define ADD_PYTHON_VEC(name,type)\</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">ADD_PYTHON_CUSTOM_DEF( name, [] ()\</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">{\</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">    using vecType = std::vector&lt;type&gt;;\</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">    boost::python::class_&lt;vecType&gt;( #name ).\</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">        def( boost::python::vector_indexing_suite&lt;vecType&gt;() ).\</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">        def( &quot;empty&quot;</span>, &amp;vecType::empty ).\</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        def( &quot;size&quot;, &amp;vecType::size ).\</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        def( &quot;resize&quot;, ( void ( vecType::* )( const vecType::size_type ) )&amp; vecType::resize ).\</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        def( &quot;clear&quot;, &amp;vecType::clear ); \</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;} )</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1d">   39</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1d">StreamType</a></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{</div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101">   41</a></span>&#160;    <a class="code" href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101">Stdout</a>,</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af">Stderr</a></div>
-<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af">   43</a></span>&#160;};</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;pybind11/pybind11.h&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;pybind11/operators.h&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;pybind11/stl_bind.h&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;pybind11/numpy.h&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="MRPython_8h.html#a9f4ef07fc4c7a76ae7597ea7b3b56752">   10</a></span>&#160;<span class="preprocessor">#define ADD_PYTHON_FUNCTION( name , func , description ) \</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">    static MR::PythonFunctionAdder name##_adder_([](pybind11::module_&amp; m){ m.def(#name, func, description);} );</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="MRPython_8h.html#afeabf4206280cf7ba6c214da7c2e9227">   13</a></span>&#160;<span class="preprocessor">#define ADD_PYTHON_CUSTOM_DEF( name , ... ) \</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">_Pragma(&quot;warning(push)&quot;</span>) \</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;_Pragma(&quot;warning(disable:4459)&quot;) \</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    static MR::PythonFunctionAdder name##_adder_( __VA_ARGS__ ); \</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;_Pragma(&quot;warning(pop)&quot;)</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="MRPython_8h.html#a08d9a1646a644b64cbd0842f6efb682d">   19</a></span>&#160;<span class="preprocessor">#define ADD_PYTHON_VEC(name,type)\</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">PYBIND11_MAKE_OPAQUE( std::vector&lt;type&gt; );\</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">ADD_PYTHON_CUSTOM_DEF( name, [] (pybind11::module_&amp; m)\</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">{\</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">    using vecType = std::vector&lt;type&gt;;\</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">    pybind11::bind_vector&lt;vecType&gt;(m, #name ).\</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">        def( &quot;empty&quot;</span>, &amp;vecType::empty ).\</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        def( &quot;size&quot;, &amp;vecType::size ).\</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        def( &quot;resize&quot;, ( void ( vecType::* )( const vecType::size_type ) )&amp; vecType::resize ).\</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        def( &quot;clear&quot;, &amp;vecType::clear ); \</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;} )</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1d">   31</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1d">StreamType</a></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;{</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101">   33</a></span>&#160;    <a class="code" href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101">Stdout</a>,</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af">Stderr</a></div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af">   35</a></span>&#160;};</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">template</span>&lt;StreamType T&gt;</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classPythonStreamRedirector.html">   38</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPythonStreamRedirector.html">PythonStreamRedirector</a></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;{</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classPythonStreamRedirector.html#a2dde8d2c176e672c39dd11e8c356db1e">   41</a></span>&#160;    <a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code" href="classPythonStreamRedirector.html#a2dde8d2c176e672c39dd11e8c356db1e">write</a>( <span class="keyword">const</span> std::string&amp; text );</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classPythonStreamRedirector.html#a02d61762b586011b320d197ca61c5828">   42</a></span>&#160;    <a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="classPythonStreamRedirector.html#a02d61762b586011b320d197ca61c5828">getNumWritten</a>();</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;};</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keyword">template</span>&lt;StreamType T&gt;</div>
-<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="classPythonStreamRedirector.html">   46</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPythonStreamRedirector.html">PythonStreamRedirector</a></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;{</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="classPythonStreamRedirector.html#a2dde8d2c176e672c39dd11e8c356db1e">   49</a></span>&#160;    <a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code" href="classPythonStreamRedirector.html#a2dde8d2c176e672c39dd11e8c356db1e">write</a>( <span class="keyword">const</span> std::string&amp; text );</div>
-<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="classPythonStreamRedirector.html#a02d61762b586011b320d197ca61c5828">   50</a></span>&#160;    <a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="classPythonStreamRedirector.html#a02d61762b586011b320d197ca61c5828">getNumWritten</a>();</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;};</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="MRPython_8h.html#a26ab96a77d3875cbc3c3f79cd7ee64ef">   53</a></span>&#160;<span class="keyword">using</span> <a class="code" href="classPythonStreamRedirector.html">StdoutPyRedirector</a> = <a class="code" href="classPythonStreamRedirector.html">PythonStreamRedirector&lt;Stdout&gt;</a>;</div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="MRPython_8h.html#a7d823176353acbb146f4705c0dcfdf90">   54</a></span>&#160;<span class="keyword">using</span> <a class="code" href="classPythonStreamRedirector.html">StderrPyRedirector</a> = <a class="code" href="classPythonStreamRedirector.html">PythonStreamRedirector&lt;Stderr&gt;</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="MRPython_8h.html#a26ab96a77d3875cbc3c3f79cd7ee64ef">   45</a></span>&#160;<span class="keyword">using</span> <a class="code" href="classPythonStreamRedirector.html">StdoutPyRedirector</a> = <a class="code" href="classPythonStreamRedirector.html">PythonStreamRedirector&lt;Stdout&gt;</a>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="MRPython_8h.html#a7d823176353acbb146f4705c0dcfdf90">   46</a></span>&#160;<span class="keyword">using</span> <a class="code" href="classPythonStreamRedirector.html">StderrPyRedirector</a> = <a class="code" href="classPythonStreamRedirector.html">PythonStreamRedirector&lt;Stderr&gt;</a>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;{</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="classMR_1_1PythonExport.html">   51</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1PythonExport.html">PythonExport</a></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;{</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="classMR_1_1PythonExport.html#acacaa4a8c44ec1d0828f7479119c66d9">   54</a></span>&#160;    <a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">static</span> <a class="code" href="classMR_1_1PythonExport.html">PythonExport</a>&amp; <a class="code" href="classMR_1_1PythonExport.html#acacaa4a8c44ec1d0828f7479119c66d9">instance</a>();</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;{</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="classMR_1_1PythonExport.html">   59</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1PythonExport.html">PythonExport</a></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;{</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="classMR_1_1PythonExport.html#acacaa4a8c44ec1d0828f7479119c66d9">   62</a></span>&#160;    <a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">static</span> <a class="code" href="classMR_1_1PythonExport.html">PythonExport</a>&amp; <a class="code" href="classMR_1_1PythonExport.html#acacaa4a8c44ec1d0828f7479119c66d9">instance</a>();</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="classMR_1_1PythonExport.html#a929bc974758804936620f69db30fdfd0">   64</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMR_1_1PythonExport.html#a929bc974758804936620f69db30fdfd0">addFunc</a>( std::function&lt;<span class="keywordtype">void</span>()&gt; func )</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    {</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        functions_.push_back( func );</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div>
-<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="classMR_1_1PythonExport.html#ad92ee9ca8b0b75191d7d0cbda9e5ea80">   68</a></span>&#160;    <span class="keyword">const</span> std::vector&lt;std::function&lt;void()&gt;&gt;&amp; <a class="code" href="classMR_1_1PythonExport.html#ad92ee9ca8b0b75191d7d0cbda9e5ea80">functions</a>()<span class="keyword"> const</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="keyword">    </span>{</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">return</span> functions_;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="code" href="classMR_1_1PythonExport.html">PythonExport</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    ~<a class="code" href="classMR_1_1PythonExport.html">PythonExport</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    std::vector&lt;std::function&lt;void()&gt;&gt; functions_;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;};</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
-<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="structMR_1_1PythonFunctionAdder.html">   78</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structMR_1_1PythonFunctionAdder.html">PythonFunctionAdder</a></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;{</div>
-<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="structMR_1_1PythonFunctionAdder.html#ab510a295cd7a671cc5c3f4623ddd226d">   80</a></span>&#160;    <a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code" href="structMR_1_1PythonFunctionAdder.html#ab510a295cd7a671cc5c3f4623ddd226d">PythonFunctionAdder</a>( std::function&lt;<span class="keywordtype">void</span>()&gt; func );</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;};</div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="classMR_1_1PythonExport.html#afecd4749c08fd851d939d98b70ca1e82">   56</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMR_1_1PythonExport.html#afecd4749c08fd851d939d98b70ca1e82">addFunc</a>( std::function&lt;<span class="keywordtype">void</span>( pybind11::module_&amp; m )&gt; func )</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    {</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        functions_.push_back( func );</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="classMR_1_1PythonExport.html#ace84d23fb8e32ce9548982b0cd86497b">   60</a></span>&#160;    <span class="keyword">const</span> std::vector&lt;std::function&lt;void( pybind11::module_&amp; m )&gt;&gt;&amp; <a class="code" href="classMR_1_1PythonExport.html#ace84d23fb8e32ce9548982b0cd86497b">functions</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">return</span> functions_;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <a class="code" href="classMR_1_1PythonExport.html">PythonExport</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    ~<a class="code" href="classMR_1_1PythonExport.html">PythonExport</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    std::vector&lt;std::function&lt;void( pybind11::module_&amp; m )&gt;&gt; functions_;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;};</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="structMR_1_1PythonFunctionAdder.html">   70</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structMR_1_1PythonFunctionAdder.html">PythonFunctionAdder</a></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;{</div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="structMR_1_1PythonFunctionAdder.html#acc4b4edce044ac363be0ba2080502c8e">   72</a></span>&#160;    <a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code" href="structMR_1_1PythonFunctionAdder.html#acc4b4edce044ac363be0ba2080502c8e">PythonFunctionAdder</a>( std::function&lt;<span class="keywordtype">void</span>( pybind11::module_&amp; m )&gt; func );</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;};</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="namespaceMR.html#a598595890668bd214e82dab9aac670bb">   75</a></span>&#160;<a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code" href="namespaceMR.html#a598595890668bd214e82dab9aac670bb">initPython</a>();</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="namespaceMR.html#adfb988e7b115dcce3fcb76e04407d792">   77</a></span>&#160;<a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code" href="namespaceMR.html#adfb988e7b115dcce3fcb76e04407d792">runString</a>( <span class="keyword">const</span> std::string&amp; pythonString );</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
+<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="namespaceMR.html#aacfeb59c7dc32990b29839f1902f4d31">   79</a></span>&#160;<a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code" href="namespaceMR.html#aacfeb59c7dc32990b29839f1902f4d31">runScript</a>( <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="namespaceMR.html#acd7598d217a12003c1e81d9fa728b1b0">   81</a></span>&#160;<a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">bool</span> <a class="code" href="namespaceMR.html#acd7598d217a12003c1e81d9fa728b1b0">isPythonScript</a>( <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
-<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="namespaceMR.html#a598595890668bd214e82dab9aac670bb">   83</a></span>&#160;<a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code" href="namespaceMR.html#a598595890668bd214e82dab9aac670bb">initPython</a>();</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
-<div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="namespaceMR.html#adfb988e7b115dcce3fcb76e04407d792">   85</a></span>&#160;<a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code" href="namespaceMR.html#adfb988e7b115dcce3fcb76e04407d792">runString</a>( <span class="keyword">const</span> std::string&amp; pythonString );</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
-<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="namespaceMR.html#aacfeb59c7dc32990b29839f1902f4d31">   87</a></span>&#160;<a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code" href="namespaceMR.html#aacfeb59c7dc32990b29839f1902f4d31">runScript</a>( <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
-<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="namespaceMR.html#acd7598d217a12003c1e81d9fa728b1b0">   89</a></span>&#160;<a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">bool</span> <a class="code" href="namespaceMR.html#acd7598d217a12003c1e81d9fa728b1b0">isPythonScript</a>( <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;}</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;}</div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:14</div></div>
-<div class="ttc" id="aMRPython_8h_html_a8a65141d9ea4bf9d2e2377ed6b888a1d"><div class="ttname"><a href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1d">StreamType</a></div><div class="ttdeci">StreamType</div><div class="ttdef"><b>Definition:</b> MRPython.h:40</div></div>
-<div class="ttc" id="aMRPython_8h_html_a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af"><div class="ttname"><a href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af">Stderr</a></div><div class="ttdeci">@ Stderr</div><div class="ttdef"><b>Definition:</b> MRPython.h:42</div></div>
-<div class="ttc" id="aMRPython_8h_html_a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101"><div class="ttname"><a href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101">Stdout</a></div><div class="ttdeci">@ Stdout</div><div class="ttdef"><b>Definition:</b> MRPython.h:41</div></div>
-<div class="ttc" id="aclassMR_1_1PythonExport_html"><div class="ttname"><a href="classMR_1_1PythonExport.html">MR::PythonExport</a></div><div class="ttdef"><b>Definition:</b> MRPython.h:60</div></div>
-<div class="ttc" id="aclassMR_1_1PythonExport_html_a929bc974758804936620f69db30fdfd0"><div class="ttname"><a href="classMR_1_1PythonExport.html#a929bc974758804936620f69db30fdfd0">MR::PythonExport::addFunc</a></div><div class="ttdeci">void addFunc(std::function&lt; void()&gt; func)</div><div class="ttdef"><b>Definition:</b> MRPython.h:64</div></div>
+<div class="ttc" id="aMRPython_8h_html_a8a65141d9ea4bf9d2e2377ed6b888a1d"><div class="ttname"><a href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1d">StreamType</a></div><div class="ttdeci">StreamType</div><div class="ttdef"><b>Definition:</b> MRPython.h:32</div></div>
+<div class="ttc" id="aMRPython_8h_html_a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af"><div class="ttname"><a href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af">Stderr</a></div><div class="ttdeci">@ Stderr</div><div class="ttdef"><b>Definition:</b> MRPython.h:34</div></div>
+<div class="ttc" id="aMRPython_8h_html_a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101"><div class="ttname"><a href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101">Stdout</a></div><div class="ttdeci">@ Stdout</div><div class="ttdef"><b>Definition:</b> MRPython.h:33</div></div>
+<div class="ttc" id="aclassMR_1_1PythonExport_html"><div class="ttname"><a href="classMR_1_1PythonExport.html">MR::PythonExport</a></div><div class="ttdef"><b>Definition:</b> MRPython.h:52</div></div>
 <div class="ttc" id="aclassMR_1_1PythonExport_html_acacaa4a8c44ec1d0828f7479119c66d9"><div class="ttname"><a href="classMR_1_1PythonExport.html#acacaa4a8c44ec1d0828f7479119c66d9">MR::PythonExport::instance</a></div><div class="ttdeci">static MRMESH_API PythonExport &amp; instance()</div></div>
-<div class="ttc" id="aclassMR_1_1PythonExport_html_ad92ee9ca8b0b75191d7d0cbda9e5ea80"><div class="ttname"><a href="classMR_1_1PythonExport.html#ad92ee9ca8b0b75191d7d0cbda9e5ea80">MR::PythonExport::functions</a></div><div class="ttdeci">const std::vector&lt; std::function&lt; void()&gt; &gt; &amp; functions() const</div><div class="ttdef"><b>Definition:</b> MRPython.h:68</div></div>
-<div class="ttc" id="aclassPythonStreamRedirector_html"><div class="ttname"><a href="classPythonStreamRedirector.html">PythonStreamRedirector</a></div><div class="ttdef"><b>Definition:</b> MRPython.h:47</div></div>
+<div class="ttc" id="aclassMR_1_1PythonExport_html_ace84d23fb8e32ce9548982b0cd86497b"><div class="ttname"><a href="classMR_1_1PythonExport.html#ace84d23fb8e32ce9548982b0cd86497b">MR::PythonExport::functions</a></div><div class="ttdeci">const std::vector&lt; std::function&lt; void(pybind11::module_ &amp;m)&gt; &gt; &amp; functions() const</div><div class="ttdef"><b>Definition:</b> MRPython.h:60</div></div>
+<div class="ttc" id="aclassMR_1_1PythonExport_html_afecd4749c08fd851d939d98b70ca1e82"><div class="ttname"><a href="classMR_1_1PythonExport.html#afecd4749c08fd851d939d98b70ca1e82">MR::PythonExport::addFunc</a></div><div class="ttdeci">void addFunc(std::function&lt; void(pybind11::module_ &amp;m)&gt; func)</div><div class="ttdef"><b>Definition:</b> MRPython.h:56</div></div>
+<div class="ttc" id="aclassPythonStreamRedirector_html"><div class="ttname"><a href="classPythonStreamRedirector.html">PythonStreamRedirector</a></div><div class="ttdef"><b>Definition:</b> MRPython.h:39</div></div>
 <div class="ttc" id="aclassPythonStreamRedirector_html_a02d61762b586011b320d197ca61c5828"><div class="ttname"><a href="classPythonStreamRedirector.html#a02d61762b586011b320d197ca61c5828">PythonStreamRedirector::getNumWritten</a></div><div class="ttdeci">static MRMESH_API int getNumWritten()</div></div>
 <div class="ttc" id="aclassPythonStreamRedirector_html_a2dde8d2c176e672c39dd11e8c356db1e"><div class="ttname"><a href="classPythonStreamRedirector.html#a2dde8d2c176e672c39dd11e8c356db1e">PythonStreamRedirector::write</a></div><div class="ttdeci">MRMESH_API void write(const std::string &amp;text)</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MR2DContoursTriangulation.h:6</div></div>
@@ -205,8 +197,8 @@ $(document).ready(function(){initNavTree('MRPython_8h_source.html',''); initResi
 <div class="ttc" id="anamespaceMR_html_aacfeb59c7dc32990b29839f1902f4d31"><div class="ttname"><a href="namespaceMR.html#aacfeb59c7dc32990b29839f1902f4d31">MR::runScript</a></div><div class="ttdeci">MRMESH_API void runScript(const std::filesystem::path &amp;path)</div></div>
 <div class="ttc" id="anamespaceMR_html_acd7598d217a12003c1e81d9fa728b1b0"><div class="ttname"><a href="namespaceMR.html#acd7598d217a12003c1e81d9fa728b1b0">MR::isPythonScript</a></div><div class="ttdeci">MRMESH_API bool isPythonScript(const std::filesystem::path &amp;path)</div></div>
 <div class="ttc" id="anamespaceMR_html_adfb988e7b115dcce3fcb76e04407d792"><div class="ttname"><a href="namespaceMR.html#adfb988e7b115dcce3fcb76e04407d792">MR::runString</a></div><div class="ttdeci">MRMESH_API void runString(const std::string &amp;pythonString)</div></div>
-<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></div><div class="ttdef"><b>Definition:</b> MRPython.h:79</div></div>
-<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html_ab510a295cd7a671cc5c3f4623ddd226d"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html#ab510a295cd7a671cc5c3f4623ddd226d">MR::PythonFunctionAdder::PythonFunctionAdder</a></div><div class="ttdeci">MRMESH_API PythonFunctionAdder(std::function&lt; void()&gt; func)</div></div>
+<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></div><div class="ttdef"><b>Definition:</b> MRPython.h:71</div></div>
+<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html_acc4b4edce044ac363be0ba2080502c8e"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html#acc4b4edce044ac363be0ba2080502c8e">MR::PythonFunctionAdder::PythonFunctionAdder</a></div><div class="ttdeci">MRMESH_API PythonFunctionAdder(std::function&lt; void(pybind11::module_ &amp;m)&gt; func)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

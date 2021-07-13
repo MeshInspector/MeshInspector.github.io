@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['quarterbit_5071',['QuarterBit',['../namespaceMR.html#a85e60c553cc81b298c4bfeac4a623b79',1,'MR']]]
+  ['quarterbit_5100',['QuarterBit',['../namespaceMR.html#a85e60c553cc81b298c4bfeac4a623b79',1,'MR']]]
 ];

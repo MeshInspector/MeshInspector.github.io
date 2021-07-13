@@ -252,6 +252,7 @@ var hierarchy =
     [ "MR::MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", null ],
     [ "MR::MeshSignedDistanceResult", "structMR_1_1MeshSignedDistanceResult.html", null ],
     [ "MR::MeshTexture", "structMR_1_1MeshTexture.html", null ],
+    [ "MR::MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html", null ],
     [ "MR::MeshTopology", "classMR_1_1MeshTopology.html", null ],
     [ "MR::MeshTriPoint", "structMR_1_1MeshTriPoint.html", null ],
     [ "MR::MeshVoxelsConverter", "structMR_1_1MeshVoxelsConverter.html", null ],
