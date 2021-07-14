@@ -40,7 +40,7 @@ var searchData=
   ['tricenter_4367',['triCenter',['../structMR_1_1Mesh.html#a9fc962b114f068665a1f40c936f26724',1,'MR::Mesh']]],
   ['tridist_4368',['TriDist',['../namespaceMR.html#a068b87fd749129c9bc76263ce77fe9af',1,'MR']]],
   ['triintersectresult_4369',['TriIntersectResult',['../structMR_1_1TriIntersectResult.html#a48df7c0ab186bb4fc08a19d5729ecf0d',1,'MR::TriIntersectResult']]],
-  ['tripoint_4370',['TriPoint',['../structMR_1_1TriPoint.html#ae145ad02214aefc05be85737aa1d6cca',1,'MR::TriPoint::TriPoint(const Vector3&lt; T &gt; &amp;p, const Vector3&lt; T &gt; &amp;v0, const Vector3&lt; T &gt; &amp;v1, const Vector3&lt; T &gt; &amp;v2)'],['../structMR_1_1TriPoint.html#a38305f3769604953fbac39b9fa79f6bc',1,'MR::TriPoint::TriPoint(const Vector3&lt; T &gt; &amp;p, const Vector3&lt; T &gt; &amp;v1, const Vector3&lt; T &gt; &amp;v2)']]],
+  ['tripoint_4370',['TriPoint',['../structMR_1_1TriPoint.html#a648b9fef709cd0e01d68b4bbf359b034',1,'MR::TriPoint::TriPoint(T a, T b)'],['../structMR_1_1TriPoint.html#ae145ad02214aefc05be85737aa1d6cca',1,'MR::TriPoint::TriPoint(const Vector3&lt; T &gt; &amp;p, const Vector3&lt; T &gt; &amp;v0, const Vector3&lt; T &gt; &amp;v1, const Vector3&lt; T &gt; &amp;v2)'],['../structMR_1_1TriPoint.html#a38305f3769604953fbac39b9fa79f6bc',1,'MR::TriPoint::TriPoint(const Vector3&lt; T &gt; &amp;p, const Vector3&lt; T &gt; &amp;v1, const Vector3&lt; T &gt; &amp;v2)']]],
   ['tripoint_4371',['triPoint',['../structMR_1_1Mesh.html#a243ed2368ebb1f7bfaa1d71cef8a3d16',1,'MR::Mesh']]],
-  ['tripoint_4372',['TriPoint',['../structMR_1_1TriPoint.html#aa04c5b69e931998ede5831cfe9b802a8',1,'MR::TriPoint::TriPoint()=default'],['../structMR_1_1TriPoint.html#a648b9fef709cd0e01d68b4bbf359b034',1,'MR::TriPoint::TriPoint(T a, T b)']]]
+  ['tripoint_4372',['TriPoint',['../structMR_1_1TriPoint.html#aa04c5b69e931998ede5831cfe9b802a8',1,'MR::TriPoint']]]
 ];
