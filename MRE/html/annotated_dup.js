@@ -312,7 +312,6 @@ var annotated_dup =
       [ "DecimateResult", "structMRE_1_1DecimateResult.html", "structMRE_1_1DecimateResult" ],
       [ "DecimateParallelSettings", "structMRE_1_1DecimateParallelSettings.html", "structMRE_1_1DecimateParallelSettings" ],
       [ "TriangulationParameters", "structMRE_1_1TriangulationParameters.html", "structMRE_1_1TriangulationParameters" ],
-      [ "ViewerSetup", "classMRE_1_1ViewerSetup.html", "classMRE_1_1ViewerSetup" ],
       [ "BooleanTest", "classMRE_1_1BooleanTest.html", "classMRE_1_1BooleanTest" ],
       [ "CutMeshWithPlanePlugin", "classMRE_1_1CutMeshWithPlanePlugin.html", "classMRE_1_1CutMeshWithPlanePlugin" ],
       [ "DecimateParallelPlugin", "classMRE_1_1DecimateParallelPlugin.html", "classMRE_1_1DecimateParallelPlugin" ],
@@ -320,7 +319,8 @@ var annotated_dup =
       [ "OffsetPlugin", "classMRE_1_1OffsetPlugin.html", "classMRE_1_1OffsetPlugin" ],
       [ "PointsTriangulationPlugin", "classMRE_1_1PointsTriangulationPlugin.html", "classMRE_1_1PointsTriangulationPlugin" ],
       [ "TrueBooleanPlugin", "classMRE_1_1TrueBooleanPlugin.html", "classMRE_1_1TrueBooleanPlugin" ],
-      [ "TwoPointsSegmentation", "classMRE_1_1TwoPointsSegmentation.html", "classMRE_1_1TwoPointsSegmentation" ]
+      [ "TwoPointsSegmentation", "classMRE_1_1TwoPointsSegmentation.html", "classMRE_1_1TwoPointsSegmentation" ],
+      [ "ViewerSetup", "classMRE_1_1ViewerSetup.html", "classMRE_1_1ViewerSetup" ]
     ] ],
     [ "PythonStreamRedirector", "classPythonStreamRedirector.html", "classPythonStreamRedirector" ]
 ];
