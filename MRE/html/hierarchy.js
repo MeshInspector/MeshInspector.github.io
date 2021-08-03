@@ -1,6 +1,7 @@
 var hierarchy =
 [
     [ "MR::AABBTree", "classMR_1_1AABBTree.html", null ],
+    [ "MR::AABBTreeNode< LeafId >", "structMR_1_1AABBTreeNode.html", null ],
     [ "MR::AABBTreePoints", "classMR_1_1AABBTreePoints.html", null ],
     [ "MR::AABBTreePolyline", "classMR_1_1AABBTreePolyline.html", null ],
     [ "MR::AffineXf3< T >", "structMR_1_1AffineXf3.html", null ],
@@ -21,6 +22,7 @@ var hierarchy =
     [ "MR::Box< V >", "structMR_1_1Box.html", null ],
     [ "MR::Box< float >", "structMR_1_1Box.html", null ],
     [ "MR::Box< int >", "structMR_1_1Box.html", null ],
+    [ "MR::BoxedLeaf< LeafId >", "structMR_1_1BoxedLeaf.html", null ],
     [ "MR::Color", "structMR_1_1Color.html", null ],
     [ "MR::Config", "classMR_1_1Config.html", null ],
     [ "Connectables", null, [
@@ -83,6 +85,10 @@ var hierarchy =
           [ "MR::CollisionPlugin", "classMR_1_1CollisionPlugin.html", null ],
           [ "MR::CreatePrimitive", "classMR_1_1CreatePrimitive.html", null ],
           [ "MR::DeleteSelection", "classMR_1_1DeleteSelection.html", null ],
+          [ "MR::DistanceMapBooleanPlugin", "classMR_1_1DistanceMapBooleanPlugin.html", null ],
+          [ "MR::DistanceMapContourDiffPlugin", "classMR_1_1DistanceMapContourDiffPlugin.html", null ],
+          [ "MR::DistanceMapContourPlugin", "classMR_1_1DistanceMapContourPlugin.html", null ],
+          [ "MR::DistanceMapDiffPlugin", "classMR_1_1DistanceMapDiffPlugin.html", null ],
           [ "MR::DistanceMapPlugin", "classMR_1_1DistanceMapPlugin.html", null ],
           [ "MR::ExpandSelectToComponent", "classMR_1_1ExpandSelectToComponent.html", null ],
           [ "MR::ExpandSelection", "classMR_1_1ExpandSelection.html", null ],
@@ -121,6 +127,7 @@ var hierarchy =
           [ "MR::TextMeshPlugin", "classMR_1_1TextMeshPlugin.html", null ],
           [ "MR::Unselector", "classMR_1_1Unselector.html", null ],
           [ "MR::VisualizeDCM", "classMR_1_1VisualizeDCM.html", null ],
+          [ "MRE::CTReconstructionPlugin", "classMRE_1_1CTReconstructionPlugin.html", null ],
           [ "MRE::DecimateParallelPlugin", "classMRE_1_1DecimateParallelPlugin.html", null ],
           [ "MRE::DecimatePlugin", "classMRE_1_1DecimatePlugin.html", null ],
           [ "MRE::OffsetPlugin", "classMRE_1_1OffsetPlugin.html", null ],
@@ -135,6 +142,7 @@ var hierarchy =
       ] ],
       [ "MR::MultiListener< Connectables >", "structMR_1_1MultiListener.html", null ]
     ] ],
+    [ "MR::ContourToDistanceMapParams", "structMR_1_1ContourToDistanceMapParams.html", null ],
     [ "MR::CoordinateConverters", "structMR_1_1CoordinateConverters.html", null ],
     [ "MR::MeshSave::CtmSaveOptions", "structMR_1_1MeshSave_1_1CtmSaveOptions.html", null ],
     [ "MR::PointsSave::CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", null ],
@@ -145,6 +153,7 @@ var hierarchy =
     [ "MRE::DecimateSettings", "structMRE_1_1DecimateSettings.html", null ],
     [ "MR::DenseBox", "structMR_1_1DenseBox.html", null ],
     [ "MR::DistanceMap", "classMR_1_1DistanceMap.html", null ],
+    [ "MR::DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html", null ],
     [ "boost::dynamic_bitset", null, [
       [ "MR::BitSet", "classMR_1_1BitSet.html", [
         [ "MR::TaggedBitSet< VertTag >", "classMR_1_1TaggedBitSet.html", null ],
@@ -154,6 +163,7 @@ var hierarchy =
         [ "MR::TaggedBitSet< T >", "classMR_1_1TaggedBitSet.html", null ]
       ] ]
     ] ],
+    [ "MRE::Cuda::DynamicArray< T >", "classMRE_1_1Cuda_1_1DynamicArray.html", null ],
     [ "MR::EdgeIdAndCoord", "structMR_1_1EdgeIdAndCoord.html", null ],
     [ "MR::EdgeTri", "structMR_1_1EdgeTri.html", [
       [ "MRE::VariableEdgeTri", "structMRE_1_1VariableEdgeTri.html", null ]
@@ -169,7 +179,8 @@ var hierarchy =
       [ "MR::EdgeLengthFillMetric", "structMR_1_1EdgeLengthFillMetric.html", null ],
       [ "MR::EdgeLengthStitchMetric", "structMR_1_1EdgeLengthStitchMetric.html", null ],
       [ "MR::PlaneFillMetric", "structMR_1_1PlaneFillMetric.html", null ],
-      [ "MRE::ComplexFillMetric", "structMRE_1_1ComplexFillMetric.html", null ]
+      [ "MRE::ComplexFillMetric", "structMRE_1_1ComplexFillMetric.html", null ],
+      [ "MRE::ParallelPlaneFillMetric", "structMRE_1_1ParallelPlaneFillMetric.html", null ]
     ] ],
     [ "MR::FillHoleParams", "structMR_1_1FillHoleParams.html", null ],
     [ "MR::FloatGrid", "classMR_1_1FloatGrid.html", null ],
@@ -287,14 +298,13 @@ var hierarchy =
     [ "MR::MeshLoad::NamedMeshLoader", "structMR_1_1MeshLoad_1_1NamedMeshLoader.html", null ],
     [ "MR::NextEdgeSameLeft", "classMR_1_1NextEdgeSameLeft.html", null ],
     [ "MR::NextEdgeSameOrigin", "classMR_1_1NextEdgeSameOrigin.html", null ],
-    [ "MR::AABBTree::Node", "structMR_1_1AABBTree_1_1Node.html", null ],
     [ "MR::AABBTreePoints::Node", "structMR_1_1AABBTreePoints_1_1Node.html", null ],
-    [ "MR::AABBTreePolyline::Node", "structMR_1_1AABBTreePolyline_1_1Node.html", null ],
     [ "MR::ObjectChildrenHolder", "structMR_1_1ObjectChildrenHolder.html", [
       [ "MR::Object", "classMR_1_1Object.html", [
         [ "MR::VisualObject", "classMR_1_1VisualObject.html", [
           [ "MR::ObjectLines", "classMR_1_1ObjectLines.html", null ],
           [ "MR::ObjectMesh", "classMR_1_1ObjectMesh.html", [
+            [ "MR::ObjectDistanceMap", "classMR_1_1ObjectDistanceMap.html", null ],
             [ "MR::ObjectVoxels", "classMR_1_1ObjectVoxels.html", null ]
           ] ],
           [ "MR::ObjectPoints", "classMR_1_1ObjectPoints.html", null ]
@@ -342,8 +352,11 @@ var hierarchy =
     [ "MR::RayOrigin< T >", "structMR_1_1RayOrigin.html", null ],
     [ "MR::RayOrigin< float >", "structMR_1_1RayOrigin_3_01float_01_4.html", null ],
     [ "MR::RecentFilesStore", "classMR_1_1RecentFilesStore.html", null ],
+    [ "MRE::CT::Cuda::Reconstructor", "classMRE_1_1CT_1_1Cuda_1_1Reconstructor.html", null ],
     [ "MR::RegisterRenderObjectConstructor", "classMR_1_1RegisterRenderObjectConstructor.html", null ],
     [ "MR::RegularMapMesher", "classMR_1_1RegularMapMesher.html", null ],
+    [ "MRE::CT::Scan< T >", "structMRE_1_1CT_1_1Scan.html", null ],
+    [ "MRE::CT::Cuda::ScannerSystemParameters", "structMRE_1_1CT_1_1Cuda_1_1ScannerSystemParameters.html", null ],
     [ "MR::SceneRoot", "classMR_1_1SceneRoot.html", null ],
     [ "MR::ScopeHistory", "classMR_1_1ScopeHistory.html", null ],
     [ "MR::SegmEndColors", "structMR_1_1SegmEndColors.html", null ],

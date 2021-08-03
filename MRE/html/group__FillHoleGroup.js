@@ -7,6 +7,13 @@ var group__FillHoleGroup =
       [ "points", "structMRE_1_1ComplexFillMetric.html#ae74475a278058c846dc70d56110f25ef", null ],
       [ "reverseCharacteristicTriArea", "structMRE_1_1ComplexFillMetric.html#a089046ea8b14b5f03ce052ddf754dcb8", null ]
     ] ],
+    [ "ParallelPlaneFillMetric", "structMRE_1_1ParallelPlaneFillMetric.html", [
+      [ "ParallelPlaneFillMetric", "structMRE_1_1ParallelPlaneFillMetric.html#abee14d5368339f27202e6058c55c0bd4", null ],
+      [ "getEdgeMetric", "structMRE_1_1ParallelPlaneFillMetric.html#aa0560339ffccb2bf90f2a6e0fa8b438b", null ],
+      [ "getTriangleMetric", "structMRE_1_1ParallelPlaneFillMetric.html#abfe4e3816e995156e65b7247acff7063", null ],
+      [ "normal", "structMRE_1_1ParallelPlaneFillMetric.html#a428e74505a3605604afa9418346bb834", null ],
+      [ "points", "structMRE_1_1ParallelPlaneFillMetric.html#a417b919467482307eba8f97152578235", null ]
+    ] ],
     [ "FillHoleParams", "structMR_1_1FillHoleParams.html", [
       [ "avoidMultipleEdges", "structMR_1_1FillHoleParams.html#a9e574672d42cb7bdda9f3a54dcc284d1", null ],
       [ "makeDegenerateBand", "structMR_1_1FillHoleParams.html#a48c94df0c8cc044564e0e69c8f692c5a", null ],

@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('MRPython_8h_source.html',''); initResi
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;_Pragma(&quot;warning(pop)&quot;)</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
 <div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="MRPython_8h.html#a08d9a1646a644b64cbd0842f6efb682d">   19</a></span>&#160;<span class="preprocessor">#define ADD_PYTHON_VEC(name,type)\</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">PYBIND11_MAKE_OPAQUE( std::vector&lt;type&gt; );\</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">PYBIND11_MAKE_OPAQUE( std::vector&lt;type&gt; )\</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">ADD_PYTHON_CUSTOM_DEF( name, [] (pybind11::module_&amp; m)\</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">{\</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">    using vecType = std::vector&lt;type&gt;;\</span></div>

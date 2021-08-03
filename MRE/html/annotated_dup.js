@@ -27,6 +27,8 @@ var annotated_dup =
         [ "CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", "structMR_1_1PointsSave_1_1CtmSavePointsOptions" ]
       ] ],
       [ "AABBTree", "classMR_1_1AABBTree.html", "classMR_1_1AABBTree" ],
+      [ "BoxedLeaf", "structMR_1_1BoxedLeaf.html", "structMR_1_1BoxedLeaf" ],
+      [ "AABBTreeNode", "structMR_1_1AABBTreeNode.html", "structMR_1_1AABBTreeNode" ],
       [ "AABBTreeOwner", "classMR_1_1AABBTreeOwner.html", "classMR_1_1AABBTreeOwner" ],
       [ "AABBTreePointsOwner", "classMR_1_1AABBTreePointsOwner.html", "classMR_1_1AABBTreePointsOwner" ],
       [ "AABBTreePolylineOwner", "classMR_1_1AABBTreePolylineOwner.html", "classMR_1_1AABBTreePolylineOwner" ],
@@ -54,6 +56,8 @@ var annotated_dup =
       [ "DenseBox", "structMR_1_1DenseBox.html", "structMR_1_1DenseBox" ],
       [ "DistanceMap", "classMR_1_1DistanceMap.html", "classMR_1_1DistanceMap" ],
       [ "MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html", "structMR_1_1MeshToDistanceMapParams" ],
+      [ "ContourToDistanceMapParams", "structMR_1_1ContourToDistanceMapParams.html", "structMR_1_1ContourToDistanceMapParams" ],
+      [ "DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html", "structMR_1_1DistanceMapToWorld" ],
       [ "UndirectedEdgeIterator", "classMR_1_1UndirectedEdgeIterator.html", "classMR_1_1UndirectedEdgeIterator" ],
       [ "FaceFace", "structMR_1_1FaceFace.html", "structMR_1_1FaceFace" ],
       [ "FloatGrid", "classMR_1_1FloatGrid.html", "classMR_1_1FloatGrid" ],
@@ -124,6 +128,7 @@ var annotated_dup =
       [ "MutexOwner", "classMR_1_1MutexOwner.html", "classMR_1_1MutexOwner" ],
       [ "ObjectChildrenHolder", "structMR_1_1ObjectChildrenHolder.html", "structMR_1_1ObjectChildrenHolder" ],
       [ "Object", "classMR_1_1Object.html", "classMR_1_1Object" ],
+      [ "ObjectDistanceMap", "classMR_1_1ObjectDistanceMap.html", "classMR_1_1ObjectDistanceMap" ],
       [ "ObjectFactoryBase", "classMR_1_1ObjectFactoryBase.html", "classMR_1_1ObjectFactoryBase" ],
       [ "ObjectFactory", "classMR_1_1ObjectFactory.html", "classMR_1_1ObjectFactory" ],
       [ "ObjectLines", "classMR_1_1ObjectLines.html", "classMR_1_1ObjectLines" ],
@@ -183,6 +188,10 @@ var annotated_dup =
       [ "DemoPlugin", "classMR_1_1DemoPlugin.html", "classMR_1_1DemoPlugin" ],
       [ "DistanceComparePlugin", "classMR_1_1DistanceComparePlugin.html", "classMR_1_1DistanceComparePlugin" ],
       [ "DistanceCompareTest", "classMR_1_1DistanceCompareTest.html", "classMR_1_1DistanceCompareTest" ],
+      [ "DistanceMapBooleanPlugin", "classMR_1_1DistanceMapBooleanPlugin.html", "classMR_1_1DistanceMapBooleanPlugin" ],
+      [ "DistanceMapContourDiffPlugin", "classMR_1_1DistanceMapContourDiffPlugin.html", "classMR_1_1DistanceMapContourDiffPlugin" ],
+      [ "DistanceMapContourPlugin", "classMR_1_1DistanceMapContourPlugin.html", "classMR_1_1DistanceMapContourPlugin" ],
+      [ "DistanceMapDiffPlugin", "classMR_1_1DistanceMapDiffPlugin.html", "classMR_1_1DistanceMapDiffPlugin" ],
       [ "DistanceMapPlugin", "classMR_1_1DistanceMapPlugin.html", "classMR_1_1DistanceMapPlugin" ],
       [ "EdgeSelectorPlugin", "classMR_1_1EdgeSelectorPlugin.html", "classMR_1_1EdgeSelectorPlugin" ],
       [ "ExpandSelection", "classMR_1_1ExpandSelection.html", "classMR_1_1ExpandSelection" ],
@@ -294,6 +303,16 @@ var annotated_dup =
       [ "VoxlesSlicePlugin", "classMR_1_1VoxlesSlicePlugin.html", "classMR_1_1VoxlesSlicePlugin" ]
     ] ],
     [ "MRE", "namespaceMRE.html", [
+      [ "CT", "namespaceMRE_1_1CT.html", [
+        [ "Cuda", "namespaceMRE_1_1CT_1_1Cuda.html", [
+          [ "ScannerSystemParameters", "structMRE_1_1CT_1_1Cuda_1_1ScannerSystemParameters.html", "structMRE_1_1CT_1_1Cuda_1_1ScannerSystemParameters" ],
+          [ "Reconstructor", "classMRE_1_1CT_1_1Cuda_1_1Reconstructor.html", "classMRE_1_1CT_1_1Cuda_1_1Reconstructor" ]
+        ] ],
+        [ "Scan", "structMRE_1_1CT_1_1Scan.html", "structMRE_1_1CT_1_1Scan" ]
+      ] ],
+      [ "Cuda", "namespaceMRE_1_1Cuda.html", [
+        [ "DynamicArray", "classMRE_1_1Cuda_1_1DynamicArray.html", "classMRE_1_1Cuda_1_1DynamicArray" ]
+      ] ],
       [ "TriangulationHelpers", "namespaceMRE_1_1TriangulationHelpers.html", [
         [ "TriangulatedFan", "structMRE_1_1TriangulationHelpers_1_1TriangulatedFan.html", "structMRE_1_1TriangulationHelpers_1_1TriangulatedFan" ]
       ] ],
@@ -304,6 +323,7 @@ var annotated_dup =
       [ "CutMeshParameters", "structMRE_1_1CutMeshParameters.html", "structMRE_1_1CutMeshParameters" ],
       [ "CutMeshResult", "structMRE_1_1CutMeshResult.html", "structMRE_1_1CutMeshResult" ],
       [ "ComplexFillMetric", "structMRE_1_1ComplexFillMetric.html", "structMRE_1_1ComplexFillMetric" ],
+      [ "ParallelPlaneFillMetric", "structMRE_1_1ParallelPlaneFillMetric.html", "structMRE_1_1ParallelPlaneFillMetric" ],
       [ "VariableEdgeTri", "structMRE_1_1VariableEdgeTri.html", "structMRE_1_1VariableEdgeTri" ],
       [ "BooleanResult", "structMRE_1_1BooleanResult.html", "structMRE_1_1BooleanResult" ],
       [ "TransformedMesh", "structMRE_1_1TransformedMesh.html", "structMRE_1_1TransformedMesh" ],
@@ -312,6 +332,7 @@ var annotated_dup =
       [ "DecimateResult", "structMRE_1_1DecimateResult.html", "structMRE_1_1DecimateResult" ],
       [ "DecimateParallelSettings", "structMRE_1_1DecimateParallelSettings.html", "structMRE_1_1DecimateParallelSettings" ],
       [ "TriangulationParameters", "structMRE_1_1TriangulationParameters.html", "structMRE_1_1TriangulationParameters" ],
+      [ "CTReconstructionPlugin", "classMRE_1_1CTReconstructionPlugin.html", "classMRE_1_1CTReconstructionPlugin" ],
       [ "BooleanTest", "classMRE_1_1BooleanTest.html", "classMRE_1_1BooleanTest" ],
       [ "CutMeshWithPlanePlugin", "classMRE_1_1CutMeshWithPlanePlugin.html", "classMRE_1_1CutMeshWithPlanePlugin" ],
       [ "DecimateParallelPlugin", "classMRE_1_1DecimateParallelPlugin.html", "classMRE_1_1DecimateParallelPlugin" ],

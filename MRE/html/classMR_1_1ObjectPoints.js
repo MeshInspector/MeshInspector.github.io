@@ -11,6 +11,7 @@ var classMR_1_1ObjectPoints =
     [ "computeBoundingBoxXf_", "classMR_1_1ObjectPoints.html#aaf24f3df3082bb6aa773da9b75e3db69", null ],
     [ "computeVertsNormals_", "classMR_1_1ObjectPoints.html#a0719af942d45dbc56f6f8db5d86b420a", null ],
     [ "deserializeModel_", "classMR_1_1ObjectPoints.html#aabd84579f0c80b64e525e0aa4f0378b0", null ],
+    [ "getInfoLines", "classMR_1_1ObjectPoints.html#a357b79eb18fc3c006825a6be37194919", null ],
     [ "getPointSize", "classMR_1_1ObjectPoints.html#a69eceefc7e1c356a9662eff604d9dcfd", null ],
     [ "operator=", "classMR_1_1ObjectPoints.html#a2be05118406e1ad2fd63a3a462ddde5e", null ],
     [ "pointCloud", "classMR_1_1ObjectPoints.html#a56d0d3b6b461ef3e341a072b90f78ac2", null ],

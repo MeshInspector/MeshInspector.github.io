@@ -1,8 +1,8 @@
 var classMR_1_1AABBTree =
 [
-    [ "Node", "structMR_1_1AABBTree_1_1Node.html", "structMR_1_1AABBTree_1_1Node" ],
-    [ "NodeBitSet", "classMR_1_1AABBTree.html#a2aee3cb1e344c11b23a6fa3080589b77", null ],
-    [ "NodeId", "classMR_1_1AABBTree.html#a1b7f8289b195c07e8882f8b6912e2004", null ],
+    [ "Node", "classMR_1_1AABBTree.html#a1a8d03a1f54342673850cc764377c6bd", null ],
+    [ "NodeBitSet", "classMR_1_1AABBTree.html#ab90d69208fd6d13faeb63b0d301941d4", null ],
+    [ "NodeId", "classMR_1_1AABBTree.html#a615d7083b871a500dec64ede0860f6c0", null ],
     [ "NodeVec", "classMR_1_1AABBTree.html#a3689e736d9bd1cc83c766df27cb69b68", null ],
     [ "AABBTree", "classMR_1_1AABBTree.html#add77d5465c44318f3c02aad6a8b61d2e", null ],
     [ "containsSameNumberOfTris", "classMR_1_1AABBTree.html#a452c88b89ff01231575ab3f12f8de2df", null ],

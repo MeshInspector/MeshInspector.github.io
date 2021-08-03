@@ -2,9 +2,10 @@ var files_dup =
 [
     [ "MR2DContoursTriangulation.h", "MR2DContoursTriangulation_8h.html", "MR2DContoursTriangulation_8h" ],
     [ "MRAABBTree.h", "MRAABBTree_8h.html", [
-      [ "AABBTree", "classMR_1_1AABBTree.html", "classMR_1_1AABBTree" ],
-      [ "Node", "structMR_1_1AABBTree_1_1Node.html", "structMR_1_1AABBTree_1_1Node" ]
+      [ "AABBTree", "classMR_1_1AABBTree.html", "classMR_1_1AABBTree" ]
     ] ],
+    [ "MRAABBTreeMaker.h", "MRAABBTreeMaker_8h.html", "MRAABBTreeMaker_8h" ],
+    [ "MRAABBTreeNode.h", "MRAABBTreeNode_8h.html", "MRAABBTreeNode_8h" ],
     [ "MRAABBTreeOwner.h", "MRAABBTreeOwner_8h.html", [
       [ "AABBTreeOwner", "classMR_1_1AABBTreeOwner.html", "classMR_1_1AABBTreeOwner" ],
       [ "AABBTreePointsOwner", "classMR_1_1AABBTreePointsOwner.html", "classMR_1_1AABBTreePointsOwner" ],
@@ -16,8 +17,7 @@ var files_dup =
       [ "Point", "structMR_1_1AABBTreePoints_1_1Point.html", "structMR_1_1AABBTreePoints_1_1Point" ]
     ] ],
     [ "MRAABBTreePolyline.h", "MRAABBTreePolyline_8h.html", [
-      [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html", "classMR_1_1AABBTreePolyline" ],
-      [ "Node", "structMR_1_1AABBTreePolyline_1_1Node.html", "structMR_1_1AABBTreePolyline_1_1Node" ]
+      [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html", "classMR_1_1AABBTreePolyline" ]
     ] ],
     [ "MRAffineXf3.h", "MRAffineXf3_8h.html", "MRAffineXf3_8h" ],
     [ "MRAligningTransform.h", "MRAligningTransform_8h.html", [
@@ -88,14 +88,32 @@ var files_dup =
     [ "MRDistanceComparePlugin.h", "MRDistanceComparePlugin_8h.html", "MRDistanceComparePlugin_8h" ],
     [ "MRDistanceCompareTest.h", "MRDistanceCompareTest_8h.html", "MRDistanceCompareTest_8h" ],
     [ "MRDistanceMap.h", "MRDistanceMap_8h.html", "MRDistanceMap_8h" ],
+    [ "MRDistanceMapBooleanPlugin.h", "MRDistanceMapBooleanPlugin_8h.html", "MRDistanceMapBooleanPlugin_8h" ],
+    [ "MRDistanceMapContourDiffPlugin.h", "MRDistanceMapContourDiffPlugin_8h.html", "MRDistanceMapContourDiffPlugin_8h" ],
+    [ "MRDistanceMapContourPlugin.h", "MRDistanceMapContourPlugin_8h.html", "MRDistanceMapContourPlugin_8h" ],
+    [ "MRDistanceMapDiffPlugin.h", "MRDistanceMapDiffPlugin_8h.html", "MRDistanceMapDiffPlugin_8h" ],
+    [ "MRDistanceMapLoad.h", "MRDistanceMapLoad_8h.html", "MRDistanceMapLoad_8h" ],
     [ "MRDistanceMapParams.h", "MRDistanceMapParams_8h.html", [
-      [ "MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html", "structMR_1_1MeshToDistanceMapParams" ]
+      [ "MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html", "structMR_1_1MeshToDistanceMapParams" ],
+      [ "ContourToDistanceMapParams", "structMR_1_1ContourToDistanceMapParams.html", "structMR_1_1ContourToDistanceMapParams" ],
+      [ "DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html", "structMR_1_1DistanceMapToWorld" ]
     ] ],
     [ "MRDistanceMapPlugin.h", "MRDistanceMapPlugin_8h.html", "MRDistanceMapPlugin_8h" ],
+    [ "MRDistanceMapSave.h", "MRDistanceMapSave_8h.html", "MRDistanceMapSave_8h" ],
     [ "MREBooleanOperation.h", "MREBooleanOperation_8h.html", "MREBooleanOperation_8h" ],
     [ "MREBooleanTest.h", "MREBooleanTest_8h.html", "MREBooleanTest_8h" ],
     [ "MREContoursCut.h", "MREContoursCut_8h.html", "MREContoursCut_8h" ],
     [ "MREContoursSeparation.h", "MREContoursSeparation_8h.html", "MREContoursSeparation_8h" ],
+    [ "MRECTCuda.h", "MRECTCuda_8h.html", "MRECTCuda_8h" ],
+    [ "MRECTCudaBackProjection.h", "MRECTCudaBackProjection_8h.html", [
+      [ "ScannerSystemParameters", "structMRE_1_1CT_1_1Cuda_1_1ScannerSystemParameters.html", "structMRE_1_1CT_1_1Cuda_1_1ScannerSystemParameters" ],
+      [ "Reconstructor", "classMRE_1_1CT_1_1Cuda_1_1Reconstructor.html", "classMRE_1_1CT_1_1Cuda_1_1Reconstructor" ]
+    ] ],
+    [ "MRECTReconstructionPlugin.h", "MRECTReconstructionPlugin_8h.html", "MRECTReconstructionPlugin_8h" ],
+    [ "MRECTScan.h", "MRECTScan_8h.html", "MRECTScan_8h" ],
+    [ "MRECTScansIO.h", "MRECTScansIO_8h.html", "MRECTScansIO_8h" ],
+    [ "MRECudaBasic.h", "MRECudaBasic_8h.html", "MRECudaBasic_8h" ],
+    [ "MRECudaTest.h", "MRECudaTest_8h.html", "MRECudaTest_8h" ],
     [ "MRECutMeshWithPlanePlugin.h", "MRECutMeshWithPlanePlugin_8h.html", "MRECutMeshWithPlanePlugin_8h" ],
     [ "MREDecimateParallelPlugin.h", "MREDecimateParallelPlugin_8h.html", "MREDecimateParallelPlugin_8h" ],
     [ "MREDecimatePlugin.h", "MREDecimatePlugin_8h.html", "MREDecimatePlugin_8h" ],
@@ -265,6 +283,9 @@ var files_dup =
       [ "ObjectChildrenHolder", "structMR_1_1ObjectChildrenHolder.html", "structMR_1_1ObjectChildrenHolder" ],
       [ "Object", "classMR_1_1Object.html", "classMR_1_1Object" ],
       [ "ProtectedStruct", "structMR_1_1Object_1_1ProtectedStruct.html", "structMR_1_1Object_1_1ProtectedStruct" ]
+    ] ],
+    [ "MRObjectDistanceMap.h", "MRObjectDistanceMap_8h.html", [
+      [ "ObjectDistanceMap", "classMR_1_1ObjectDistanceMap.html", "classMR_1_1ObjectDistanceMap" ]
     ] ],
     [ "MRObjectFactory.h", "MRObjectFactory_8h.html", "MRObjectFactory_8h" ],
     [ "MRObjectLines.h", "MRObjectLines_8h.html", [

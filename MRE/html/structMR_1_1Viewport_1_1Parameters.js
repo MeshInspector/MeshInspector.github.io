@@ -1,7 +1,6 @@
 var structMR_1_1Viewport_1_1Parameters =
 [
     [ "operator==", "structMR_1_1Viewport_1_1Parameters.html#a6737571299351aa58e69d5490ed3e7de", null ],
-    [ "animationMaxFps", "structMR_1_1Viewport_1_1Parameters.html#a2cc9f0d42ebd23110ae12039c07595ef", null ],
     [ "backgroundColor", "structMR_1_1Viewport_1_1Parameters.html#a22334f5bd9465a4b836b6ca117f39068", null ],
     [ "basisAxesXf", "structMR_1_1Viewport_1_1Parameters.html#ac7565c518373bb74b5b46b2762ad9e33", null ],
     [ "borderColor", "structMR_1_1Viewport_1_1Parameters.html#a5812db13d35cbe2ad6ad5bd87c2d30eb", null ],
@@ -17,7 +16,6 @@ var structMR_1_1Viewport_1_1Parameters =
     [ "clippingPlane", "structMR_1_1Viewport_1_1Parameters.html#a784d7971f07e64aba46caec551eeae94", null ],
     [ "depthTest", "structMR_1_1Viewport_1_1Parameters.html#a6f3e434ffe08b1fe1a3d982a052f7f21", null ],
     [ "globalBasisAxesXf", "structMR_1_1Viewport_1_1Parameters.html#ae355618b247d0aecb89d5490afa0dc97", null ],
-    [ "isAnimating", "structMR_1_1Viewport_1_1Parameters.html#ab531eb9bcf2c2d756320e995ab290a18", null ],
     [ "lightPosition", "structMR_1_1Viewport_1_1Parameters.html#a8f5b4aad145854c698416a4ac59ae0f1", null ],
     [ "objectScale", "structMR_1_1Viewport_1_1Parameters.html#af702c49c5d0e216669074795ef81a796", null ],
     [ "orthographic", "structMR_1_1Viewport_1_1Parameters.html#a331a42d9b0fd61e7260642f7ce040342", null ],

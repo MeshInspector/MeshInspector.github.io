@@ -1,5 +1,7 @@
 var namespaceMRE =
 [
+    [ "CT", "namespaceMRE_1_1CT.html", "namespaceMRE_1_1CT" ],
+    [ "Cuda", "namespaceMRE_1_1Cuda.html", "namespaceMRE_1_1Cuda" ],
     [ "MeshLoad", "namespaceMRE_1_1MeshLoad.html", [
       [ "fromDcm", "namespaceMRE_1_1MeshLoad.html#a86ba737c082492f56ffddae17dfb2fd4", null ]
     ] ],
@@ -11,6 +13,7 @@ var namespaceMRE =
     [ "CutMeshParameters", "structMRE_1_1CutMeshParameters.html", "structMRE_1_1CutMeshParameters" ],
     [ "CutMeshResult", "structMRE_1_1CutMeshResult.html", "structMRE_1_1CutMeshResult" ],
     [ "ComplexFillMetric", "structMRE_1_1ComplexFillMetric.html", "structMRE_1_1ComplexFillMetric" ],
+    [ "ParallelPlaneFillMetric", "structMRE_1_1ParallelPlaneFillMetric.html", "structMRE_1_1ParallelPlaneFillMetric" ],
     [ "VariableEdgeTri", "structMRE_1_1VariableEdgeTri.html", "structMRE_1_1VariableEdgeTri" ],
     [ "BooleanResult", "structMRE_1_1BooleanResult.html", "structMRE_1_1BooleanResult" ],
     [ "TransformedMesh", "structMRE_1_1TransformedMesh.html", "structMRE_1_1TransformedMesh" ],
@@ -19,6 +22,7 @@ var namespaceMRE =
     [ "DecimateResult", "structMRE_1_1DecimateResult.html", "structMRE_1_1DecimateResult" ],
     [ "DecimateParallelSettings", "structMRE_1_1DecimateParallelSettings.html", "structMRE_1_1DecimateParallelSettings" ],
     [ "TriangulationParameters", "structMRE_1_1TriangulationParameters.html", "structMRE_1_1TriangulationParameters" ],
+    [ "CTReconstructionPlugin", "classMRE_1_1CTReconstructionPlugin.html", "classMRE_1_1CTReconstructionPlugin" ],
     [ "BooleanTest", "classMRE_1_1BooleanTest.html", "classMRE_1_1BooleanTest" ],
     [ "CutMeshWithPlanePlugin", "classMRE_1_1CutMeshWithPlanePlugin.html", "classMRE_1_1CutMeshWithPlanePlugin" ],
     [ "DecimateParallelPlugin", "classMRE_1_1DecimateParallelPlugin.html", "classMRE_1_1DecimateParallelPlugin" ],
@@ -69,6 +73,7 @@ var namespaceMRE =
     [ "surroundingContour", "namespaceMRE.html#a77a3bf655fb87f08c40a5a5808bd1de0", null ],
     [ "triangulatePointCloud", "namespaceMRE.html#a0e2755dc75c01fe3f58709fb3d0940bf", null ],
     [ "BooleanTestInstance", "namespaceMRE.html#af1479e8b9b3eed3dfd7aa3714d03102f", null ],
+    [ "CTReconstructionPluginInstance", "namespaceMRE.html#afd3a103ac552215ee378332f1a81c0f2", null ],
     [ "CutMeshWithPlanePluginInstance", "namespaceMRE.html#a7fc99abc1386614ae30e01e93a05282e", null ],
     [ "DecimateParallelPluginInstance", "namespaceMRE.html#a414ea930070d1f0230a5d8767b8977fe", null ],
     [ "DecimatePluginInstance", "namespaceMRE.html#a4d60ece6176ce31766c7f20ae360bfda", null ],

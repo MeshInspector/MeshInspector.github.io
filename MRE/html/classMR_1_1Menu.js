@@ -21,5 +21,6 @@ var classMR_1_1Menu =
     [ "onKeyDown_", "classMR_1_1Menu.html#acc40b3ac97b3e4a0aac29dbe46ef2813", null ],
     [ "onKeyUp_", "classMR_1_1Menu.html#aa02d6a7878abad80c8d93919357f4538", null ],
     [ "setObjectTreeState", "classMR_1_1Menu.html#a182b39214958a08848d0d15e7037a355", null ],
-    [ "showErrorModal", "classMR_1_1Menu.html#a71d1b50eb5c48c58caa87391bb2c87a5", null ]
+    [ "showErrorModal", "classMR_1_1Menu.html#a71d1b50eb5c48c58caa87391bb2c87a5", null ],
+    [ "modifiers_", "classMR_1_1Menu.html#ab1901e9cc2dde623b3856874bb217b93", null ]
 ];
