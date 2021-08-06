@@ -103,6 +103,15 @@ $(document).ready(function(){initNavTree('structMR_1_1MeshTexture.html',''); ini
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="MRMeshTexture_8h_source.html">MRMeshTexture.h</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for MR::MeshTexture:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="structMR_1_1MeshTexture.png" usemap="#MR::MeshTexture_map" alt=""/>
+  <map id="MR::MeshTexture_map" name="MR::MeshTexture_map">
+<area href="structMR_1_1Image.html" alt="MR::Image" shape="rect" coords="0,0,110,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -118,16 +127,15 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a365417ae86c7c2a6a8e59d39845d2ddd"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTexture.html#a365417ae86c7c2a6a8e59d39845d2ddd">pixels</a></td></tr>
-<tr class="separator:a365417ae86c7c2a6a8e59d39845d2ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4741a8be14b0e1896b35d3eeaf3c9eb"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTexture.html#ae4741a8be14b0e1896b35d3eeaf3c9eb">uWidth</a> {0}</td></tr>
-<tr class="separator:ae4741a8be14b0e1896b35d3eeaf3c9eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ea527e4230655060f89a1e2f62e37b3"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTexture.html#a1ea527e4230655060f89a1e2f62e37b3">vHeight</a> {0}</td></tr>
-<tr class="separator:a1ea527e4230655060f89a1e2f62e37b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0d958967f00d9b39656dd6d8d33c2f0"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="structMR_1_1MeshTexture.html#af1e3ecc1afaf1be483ef74f020eac23f">MR::MeshTexture::FilterType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTexture.html#aa0d958967f00d9b39656dd6d8d33c2f0">Discrete</a></td></tr>
 <tr class="separator:aa0d958967f00d9b39656dd6d8d33c2f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc707bca15cbed986258f7cbbf7fbb81"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="structMR_1_1MeshTexture.html#a02b38209ef48a938635275b79553f4e8">MR::MeshTexture::WarpType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTexture.html#afc707bca15cbed986258f7cbbf7fbb81">Clamp</a></td></tr>
 <tr class="separator:afc707bca15cbed986258f7cbbf7fbb81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_structMR_1_1Image"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_structMR_1_1Image')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structMR_1_1Image.html">MR::Image</a></td></tr>
+<tr class="memitem:ac507525682328e3e5fec0b85c131c224 inherit pub_attribs_structMR_1_1Image"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Image.html#ac507525682328e3e5fec0b85c131c224">pixels</a></td></tr>
+<tr class="separator:ac507525682328e3e5fec0b85c131c224 inherit pub_attribs_structMR_1_1Image"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39fed2172fc354aeec92cae5942b7151 inherit pub_attribs_structMR_1_1Image"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a414c921e724deba1be8a3f3b5a20af76">Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Image.html#a39fed2172fc354aeec92cae5942b7151">resolution</a></td></tr>
+<tr class="separator:a39fed2172fc354aeec92cae5942b7151 inherit pub_attribs_structMR_1_1Image"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="af1e3ecc1afaf1be483ef74f020eac23f"></a>
@@ -190,48 +198,6 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">enum <a class="el" href="structMR_1_1MeshTexture.html#af1e3ecc1afaf1be483ef74f020eac23f">MR::MeshTexture::FilterType</a> MR::MeshTexture::Discrete</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a365417ae86c7c2a6a8e59d39845d2ddd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a365417ae86c7c2a6a8e59d39845d2ddd">&#9670;&nbsp;</a></span>pixels</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="structMR_1_1Color.html">Color</a>&gt; MR::MeshTexture::pixels</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae4741a8be14b0e1896b35d3eeaf3c9eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4741a8be14b0e1896b35d3eeaf3c9eb">&#9670;&nbsp;</a></span>uWidth</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t MR::MeshTexture::uWidth {0}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1ea527e4230655060f89a1e2f62e37b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ea527e4230655060f89a1e2f62e37b3">&#9670;&nbsp;</a></span>vHeight</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t MR::MeshTexture::vHeight {0}</td>
         </tr>
       </table>
 </div><div class="memdoc">

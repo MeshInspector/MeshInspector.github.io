@@ -105,12 +105,14 @@ $(document).ready(function(){initNavTree('structMR_1_1PythonFunctionAdder.html',
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acc4b4edce044ac363be0ba2080502c8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PythonFunctionAdder.html#acc4b4edce044ac363be0ba2080502c8e">PythonFunctionAdder</a> (std::function&lt; void(pybind11::module_ &amp;m)&gt; func)</td></tr>
-<tr class="separator:acc4b4edce044ac363be0ba2080502c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5627e58d4a274c3e6f63baf463fc4d8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PythonFunctionAdder.html#a5627e58d4a274c3e6f63baf463fc4d8e">PythonFunctionAdder</a> (const std::string &amp;moduleName, std::function&lt; void(pybind11::module_ &amp;m)&gt; func)</td></tr>
+<tr class="separator:a5627e58d4a274c3e6f63baf463fc4d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00fba36c8a93737419f6f3f25524948c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PythonFunctionAdder.html#a00fba36c8a93737419f6f3f25524948c">PythonFunctionAdder</a> (const std::string &amp;moduleName, PyObject *(*initFncPointer)(void))</td></tr>
+<tr class="separator:a00fba36c8a93737419f6f3f25524948c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="acc4b4edce044ac363be0ba2080502c8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc4b4edce044ac363be0ba2080502c8e">&#9670;&nbsp;</a></span>PythonFunctionAdder()</h2>
+<a id="a5627e58d4a274c3e6f63baf463fc4d8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5627e58d4a274c3e6f63baf463fc4d8e">&#9670;&nbsp;</a></span>PythonFunctionAdder() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -118,9 +120,47 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR::PythonFunctionAdder::PythonFunctionAdder </td>
           <td>(</td>
-          <td class="paramtype">std::function&lt; void(pybind11::module_ &amp;m)&gt;&#160;</td>
-          <td class="paramname"><em>func</em></td><td>)</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>moduleName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::function&lt; void(pybind11::module_ &amp;m)&gt;&#160;</td>
+          <td class="paramname"><em>func</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a00fba36c8a93737419f6f3f25524948c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00fba36c8a93737419f6f3f25524948c">&#9670;&nbsp;</a></span>PythonFunctionAdder() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR::PythonFunctionAdder::PythonFunctionAdder </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>moduleName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PyObject *(*)(void)&#160;</td>
+          <td class="paramname"><em>initFncPointer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['scoped_5fhistory_5821',['SCOPED_HISTORY',['../MRAppendHistory_8h.html#a36cf254c4f1feb0a6f0adaf205a25eaf',1,'MRAppendHistory.h']]]
+  ['register_5frender_5fobject_5fimpl_5850',['REGISTER_RENDER_OBJECT_IMPL',['../MRIRenderObject_8h.html#a881d4264960746fb696f4e53bc1a5a23',1,'MRIRenderObject.h']]]
 ];

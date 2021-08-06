@@ -92,6 +92,7 @@ var files_dup =
     [ "MRDistanceMapContourDiffPlugin.h", "MRDistanceMapContourDiffPlugin_8h.html", "MRDistanceMapContourDiffPlugin_8h" ],
     [ "MRDistanceMapContourPlugin.h", "MRDistanceMapContourPlugin_8h.html", "MRDistanceMapContourPlugin_8h" ],
     [ "MRDistanceMapDiffPlugin.h", "MRDistanceMapDiffPlugin_8h.html", "MRDistanceMapDiffPlugin_8h" ],
+    [ "MRDistanceMapIsoLinesPlugin.h", "MRDistanceMapIsoLinesPlugin_8h.html", "MRDistanceMapIsoLinesPlugin_8h" ],
     [ "MRDistanceMapLoad.h", "MRDistanceMapLoad_8h.html", "MRDistanceMapLoad_8h" ],
     [ "MRDistanceMapParams.h", "MRDistanceMapParams_8h.html", [
       [ "MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html", "structMR_1_1MeshToDistanceMapParams" ],
@@ -185,6 +186,10 @@ var files_dup =
     [ "MRICP.h", "MRICP_8h.html", "MRICP_8h" ],
     [ "MRicpPlugin.h", "MRicpPlugin_8h.html", "MRicpPlugin_8h" ],
     [ "MRId.h", "MRId_8h.html", "MRId_8h" ],
+    [ "MRImage.h", "MRImage_8h.html", [
+      [ "Image", "structMR_1_1Image.html", "structMR_1_1Image" ]
+    ] ],
+    [ "MRImageLoad.h", "MRImageLoad_8h.html", "MRImageLoad_8h" ],
     [ "MRImageSave.h", "MRImageSave_8h.html", "MRImageSave_8h" ],
     [ "MRImGuiDemo.h", "MRImGuiDemo_8h.html", "MRImGuiDemo_8h" ],
     [ "MRImGuiImage.h", "MRImGuiImage_8h.html", [
@@ -320,6 +325,7 @@ var files_dup =
     [ "MRPerformanceTest.h", "MRPerformanceTest_8h.html", [
       [ "PerformanceTest", "classMR_1_1PerformanceTest.html", "classMR_1_1PerformanceTest" ]
     ] ],
+    [ "MRPerspectiveAlignPlugin.h", "MRPerspectiveAlignPlugin_8h.html", "MRPerspectiveAlignPlugin_8h" ],
     [ "MRPickerTest.h", "MRPickerTest_8h.html", "MRPickerTest_8h" ],
     [ "MRPlanarPath.h", "MRPlanarPath_8h.html", "MRPlanarPath_8h" ],
     [ "MRPlane3.h", "MRPlane3_8h.html", "MRPlane3_8h" ],
@@ -349,7 +355,7 @@ var files_dup =
     [ "MRPositionVertsSmoothlyPlugin.h", "MRPositionVertsSmoothlyPlugin_8h.html", "MRPositionVertsSmoothlyPlugin_8h" ],
     [ "MRPrecisePredicates.h", "MRPrecisePredicates_8h.html", "MRPrecisePredicates_8h" ],
     [ "MRProgressBar.h", "MRProgressBar_8h.html", [
-      [ "ProgressBar", "classMR_1_1ProgressBar.html", "classMR_1_1ProgressBar" ]
+      [ "ProgressBar", "classMR_1_1ProgressBar.html", null ]
     ] ],
     [ "MRProgressBarTest.h", "MRProgressBarTest_8h.html", "MRProgressBarTest_8h" ],
     [ "MRProgressCallback.h", "MRProgressCallback_8h.html", "MRProgressCallback_8h" ],

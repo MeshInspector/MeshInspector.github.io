@@ -12,7 +12,7 @@ var structMR_1_1MeshToDistanceMapParams =
     [ "direction", "structMR_1_1MeshToDistanceMapParams.html#a251bc8c963a3d914635b6ed3ab80a527", null ],
     [ "maxValue", "structMR_1_1MeshToDistanceMapParams.html#a21d0cfe784245102024dfe44da9bf9de", null ],
     [ "minValue", "structMR_1_1MeshToDistanceMapParams.html#a0a6eecb875a2ecf0083eb4d21451bbad", null ],
-    [ "oriPoint", "structMR_1_1MeshToDistanceMapParams.html#af1a172cd777b26969bd51c839a2c37e4", null ],
+    [ "orgPoint", "structMR_1_1MeshToDistanceMapParams.html#aac1ab78936263c419b3c72a94c08ea99", null ],
     [ "resolution", "structMR_1_1MeshToDistanceMapParams.html#a7f9d8b8e94b257b2bf65aa10104459c9", null ],
     [ "useDistanceLimits", "structMR_1_1MeshToDistanceMapParams.html#ace32ee073907bc00f51a76ba214f6d3c", null ],
     [ "xRange", "structMR_1_1MeshToDistanceMapParams.html#acbd0c885022ae4d52662d581094cee10", null ],

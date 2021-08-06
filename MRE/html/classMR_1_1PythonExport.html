@@ -94,6 +94,8 @@ $(document).ready(function(){initNavTree('classMR_1_1PythonExport.html',''); ini
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classMR_1_1PythonExport-members.html">List of all members</a>  </div>
@@ -104,21 +106,50 @@ $(document).ready(function(){initNavTree('classMR_1_1PythonExport.html',''); ini
 
 <p><code>#include &lt;<a class="el" href="MRPython_8h_source.html">MRPython.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PythonExport_1_1ModuleData.html">ModuleData</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a001e362a5ed99ee391fd182df4571f9c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c">PythonRegisterFuncton</a> = std::function&lt; void(pybind11::module_ &amp;m)&gt;</td></tr>
+<tr class="separator:a001e362a5ed99ee391fd182df4571f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:afecd4749c08fd851d939d98b70ca1e82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PythonExport.html#afecd4749c08fd851d939d98b70ca1e82">addFunc</a> (std::function&lt; void(pybind11::module_ &amp;m)&gt; func)</td></tr>
-<tr class="separator:afecd4749c08fd851d939d98b70ca1e82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace84d23fb8e32ce9548982b0cd86497b"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::function&lt; void(pybind11::module_ &amp;m)&gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PythonExport.html#ace84d23fb8e32ce9548982b0cd86497b">functions</a> () const</td></tr>
-<tr class="separator:ace84d23fb8e32ce9548982b0cd86497b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cf135c764233b7b1e615728c993f934"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PythonExport.html#a8cf135c764233b7b1e615728c993f934">addFunc</a> (const std::string &amp;moduleName, <a class="el" href="classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c">PythonRegisterFuncton</a> func)</td></tr>
+<tr class="separator:a8cf135c764233b7b1e615728c993f934"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1105f4987df7b1b8d9d469115a831880"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PythonExport.html#a1105f4987df7b1b8d9d469115a831880">setInitFuncPtr</a> (const std::string &amp;moduleName, PyObject *(*initFncPointer)(void))</td></tr>
+<tr class="separator:a1105f4987df7b1b8d9d469115a831880"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81ce091f59f3fcf92a200f7d4fdf2053"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c">PythonRegisterFuncton</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PythonExport.html#a81ce091f59f3fcf92a200f7d4fdf2053">functions</a> (const std::string &amp;moduleName) const</td></tr>
+<tr class="separator:a81ce091f59f3fcf92a200f7d4fdf2053"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e2e144b7c7a8d3507486476a0e267b0"><td class="memItemLeft" align="right" valign="top">const std::unordered_map&lt; std::string, <a class="el" href="structMR_1_1PythonExport_1_1ModuleData.html">ModuleData</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PythonExport.html#a6e2e144b7c7a8d3507486476a0e267b0">modules</a> () const</td></tr>
+<tr class="separator:a6e2e144b7c7a8d3507486476a0e267b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:acacaa4a8c44ec1d0828f7479119c66d9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1PythonExport.html">PythonExport</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PythonExport.html#acacaa4a8c44ec1d0828f7479119c66d9">instance</a> ()</td></tr>
 <tr class="separator:acacaa4a8c44ec1d0828f7479119c66d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a001e362a5ed99ee391fd182df4571f9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a001e362a5ed99ee391fd182df4571f9c">&#9670;&nbsp;</a></span>PythonRegisterFuncton</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c">MR::PythonExport::PythonRegisterFuncton</a> =  std::function&lt;void( pybind11::module_&amp; m )&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="afecd4749c08fd851d939d98b70ca1e82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afecd4749c08fd851d939d98b70ca1e82">&#9670;&nbsp;</a></span>addFunc()</h2>
+<a id="a8cf135c764233b7b1e615728c993f934"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cf135c764233b7b1e615728c993f934">&#9670;&nbsp;</a></span>addFunc()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -129,9 +160,19 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void MR::PythonExport::addFunc </td>
           <td>(</td>
-          <td class="paramtype">std::function&lt; void(pybind11::module_ &amp;m)&gt;&#160;</td>
-          <td class="paramname"><em>func</em></td><td>)</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>moduleName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c">PythonRegisterFuncton</a>&#160;</td>
+          <td class="paramname"><em>func</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -143,8 +184,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ace84d23fb8e32ce9548982b0cd86497b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace84d23fb8e32ce9548982b0cd86497b">&#9670;&nbsp;</a></span>functions()</h2>
+<a id="a81ce091f59f3fcf92a200f7d4fdf2053"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81ce091f59f3fcf92a200f7d4fdf2053">&#9670;&nbsp;</a></span>functions()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -153,9 +194,10 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::vector&lt;std::function&lt;void( pybind11::module_&amp; m )&gt; &gt;&amp; MR::PythonExport::functions </td>
+          <td class="memname">const std::vector&lt;<a class="el" href="classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c">PythonRegisterFuncton</a>&gt; MR::PythonExport::functions </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>moduleName</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -187,6 +229,67 @@ Static Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e2e144b7c7a8d3507486476a0e267b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e2e144b7c7a8d3507486476a0e267b0">&#9670;&nbsp;</a></span>modules()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::unordered_map&lt;std::string, <a class="el" href="structMR_1_1PythonExport_1_1ModuleData.html">ModuleData</a>&gt;&amp; MR::PythonExport::modules </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1105f4987df7b1b8d9d469115a831880"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1105f4987df7b1b8d9d469115a831880">&#9670;&nbsp;</a></span>setInitFuncPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::PythonExport::setInitFuncPtr </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>moduleName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PyObject *(*)(void)&#160;</td>
+          <td class="paramname"><em>initFncPointer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

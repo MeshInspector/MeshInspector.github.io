@@ -89,6 +89,7 @@ var hierarchy =
           [ "MR::DistanceMapContourDiffPlugin", "classMR_1_1DistanceMapContourDiffPlugin.html", null ],
           [ "MR::DistanceMapContourPlugin", "classMR_1_1DistanceMapContourPlugin.html", null ],
           [ "MR::DistanceMapDiffPlugin", "classMR_1_1DistanceMapDiffPlugin.html", null ],
+          [ "MR::DistanceMapIsoLinesPlugin", "classMR_1_1DistanceMapIsoLinesPlugin.html", null ],
           [ "MR::DistanceMapPlugin", "classMR_1_1DistanceMapPlugin.html", null ],
           [ "MR::ExpandSelectToComponent", "classMR_1_1ExpandSelectToComponent.html", null ],
           [ "MR::ExpandSelection", "classMR_1_1ExpandSelection.html", null ],
@@ -103,6 +104,7 @@ var hierarchy =
           [ "MR::LibraryDistancesTest", "classMR_1_1LibraryDistancesTest.html", null ],
           [ "MR::MeshFixerPlugin", "classMR_1_1MeshFixerPlugin.html", null ],
           [ "MR::MeshToPointCloudPlugin", "classMR_1_1MeshToPointCloudPlugin.html", null ],
+          [ "MR::PerspectiveAlignPlugin", "classMR_1_1PerspectiveAlignPlugin.html", null ],
           [ "MR::PointsInBallPlugin", "classMR_1_1PointsInBallPlugin.html", null ],
           [ "MR::PointsSampler", "classMR_1_1PointsSampler.html", null ],
           [ "MR::PositionVertsSmoothlyPlugin", "classMR_1_1PositionVertsSmoothlyPlugin.html", null ],
@@ -225,6 +227,9 @@ var hierarchy =
     [ "MR::Id< NodeTag >", "classMR_1_1Id.html", null ],
     [ "MR::Id< UndirectedEdgeTag >", "classMR_1_1Id.html", null ],
     [ "MR::Id< VertTag >", "classMR_1_1Id.html", null ],
+    [ "MR::Image", "structMR_1_1Image.html", [
+      [ "MR::MeshTexture", "structMR_1_1MeshTexture.html", null ]
+    ] ],
     [ "MR::ImGuiImage", "classMR_1_1ImGuiImage.html", [
       [ "MR::MarkedVoxelSlice", "classMR_1_1MarkedVoxelSlice.html", null ]
     ] ],
@@ -285,12 +290,12 @@ var hierarchy =
     [ "MR::MeshBuilder::MeshPiece", "structMR_1_1MeshBuilder_1_1MeshPiece.html", null ],
     [ "MR::MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", null ],
     [ "MR::MeshSignedDistanceResult", "structMR_1_1MeshSignedDistanceResult.html", null ],
-    [ "MR::MeshTexture", "structMR_1_1MeshTexture.html", null ],
     [ "MR::MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html", null ],
     [ "MR::MeshTopology", "classMR_1_1MeshTopology.html", null ],
     [ "MR::MeshTriPoint", "structMR_1_1MeshTriPoint.html", null ],
     [ "MR::MeshVoxelsConverter", "structMR_1_1MeshVoxelsConverter.html", null ],
     [ "MR::MeshWriter", "structMR_1_1MeshWriter.html", null ],
+    [ "MR::PythonExport::ModuleData", "structMR_1_1PythonExport_1_1ModuleData.html", null ],
     [ "MR::MutexOwner", "classMR_1_1MutexOwner.html", null ],
     [ "N", null, [
       [ "MR::RingIterator< N >", "classMR_1_1RingIterator.html", null ]
