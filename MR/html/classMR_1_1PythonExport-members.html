@@ -100,9 +100,12 @@ $(document).ready(function(){initNavTree('classMR_1_1PythonExport.html',''); ini
 
 <p>This is the complete list of members for <a class="el" href="classMR_1_1PythonExport.html">MR::PythonExport</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1PythonExport.html#afecd4749c08fd851d939d98b70ca1e82">addFunc</a>(std::function&lt; void(pybind11::module_ &amp;m)&gt; func)</td><td class="entry"><a class="el" href="classMR_1_1PythonExport.html">MR::PythonExport</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classMR_1_1PythonExport.html#ace84d23fb8e32ce9548982b0cd86497b">functions</a>() const</td><td class="entry"><a class="el" href="classMR_1_1PythonExport.html">MR::PythonExport</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1PythonExport.html#a8cf135c764233b7b1e615728c993f934">addFunc</a>(const std::string &amp;moduleName, PythonRegisterFuncton func)</td><td class="entry"><a class="el" href="classMR_1_1PythonExport.html">MR::PythonExport</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classMR_1_1PythonExport.html#a81ce091f59f3fcf92a200f7d4fdf2053">functions</a>(const std::string &amp;moduleName) const</td><td class="entry"><a class="el" href="classMR_1_1PythonExport.html">MR::PythonExport</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classMR_1_1PythonExport.html#acacaa4a8c44ec1d0828f7479119c66d9">instance</a>()</td><td class="entry"><a class="el" href="classMR_1_1PythonExport.html">MR::PythonExport</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classMR_1_1PythonExport.html#a6e2e144b7c7a8d3507486476a0e267b0">modules</a>() const</td><td class="entry"><a class="el" href="classMR_1_1PythonExport.html">MR::PythonExport</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c">PythonRegisterFuncton</a> typedef</td><td class="entry"><a class="el" href="classMR_1_1PythonExport.html">MR::PythonExport</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classMR_1_1PythonExport.html#a1105f4987df7b1b8d9d469115a831880">setInitFuncPtr</a>(const std::string &amp;moduleName, PyObject *(*initFncPointer)(void))</td><td class="entry"><a class="el" href="classMR_1_1PythonExport.html">MR::PythonExport</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

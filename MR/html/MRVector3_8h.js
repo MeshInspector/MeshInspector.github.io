@@ -2,8 +2,12 @@ var MRVector3_8h =
 [
     [ "Vector3", "structMR_1_1Vector3.html", "structMR_1_1Vector3" ],
     [ "angle", "MRVector3_8h.html#ac6ca9ef9ff67a89791c5357980660068", null ],
+    [ "begin", "MRVector3_8h.html#a918c2f6aca2f4d64ff4224eb2cdc6f92", null ],
+    [ "begin", "MRVector3_8h.html#ad7df120e91d80bd083c959a066e3bbb4", null ],
     [ "cross", "MRVector3_8h.html#ac25b857747dcd86539451d0a7c20d69c", null ],
     [ "dot", "MRVector3_8h.html#a377d65d86b0d4089a7da99688861915c", null ],
+    [ "end", "MRVector3_8h.html#a6b34ac64efd3a07ffb3827f0cbe19326", null ],
+    [ "end", "MRVector3_8h.html#a4689984e2a374cf3649fcdb2c34e5cbb", null ],
     [ "mixed", "MRVector3_8h.html#ae95895bf395ddf0a2165aa1f1f5de069", null ],
     [ "operator!=", "MRVector3_8h.html#a209a15be576f46322982d34a47a52c05", null ],
     [ "operator*", "MRVector3_8h.html#af95e5a240f07d0c2aa7359e2d519bcf5", null ],

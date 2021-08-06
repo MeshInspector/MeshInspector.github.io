@@ -94,9 +94,7 @@ $(document).ready(function(){initNavTree('classMR_1_1ProgressBar.html',''); init
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classMR_1_1ProgressBar-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MR::ProgressBar Class Reference</div>  </div>
@@ -105,44 +103,36 @@ $(document).ready(function(){initNavTree('classMR_1_1ProgressBar.html',''); init
 
 <p><code>#include &lt;<a class="el" href="MRProgressBar_8h_source.html">MRProgressBar.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ab018960dbceb748a937fe230f9443299"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#ab018960dbceb748a937fe230f9443299">Setup</a> ()</td></tr>
-<tr class="separator:ab018960dbceb748a937fe230f9443299"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c5dfa977dae36dbef7661261cb5055f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a2c5dfa977dae36dbef7661261cb5055f">Order</a> (const char *name, const std::function&lt; void()&gt; &amp;task, int taskCount=1)</td></tr>
-<tr class="separator:a2c5dfa977dae36dbef7661261cb5055f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7ca89fdbe18b64133dc908a57b1d435"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#af7ca89fdbe18b64133dc908a57b1d435">OrderWithMainThreadPostProcessing</a> (const char *name, const std::function&lt; std::function&lt; void()&gt;() &gt; &amp;task, int taskCount=1)</td></tr>
-<tr class="separator:af7ca89fdbe18b64133dc908a57b1d435"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d9a935714b1d261a95ada1ece3baf5a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a8d9a935714b1d261a95ada1ece3baf5a">isCanceled</a> ()</td></tr>
-<tr class="separator:a8d9a935714b1d261a95ada1ece3baf5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0d4b2b85fa7685f6d9f5e4abcc2f74d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#aa0d4b2b85fa7685f6d9f5e4abcc2f74d">isFinished</a> ()</td></tr>
-<tr class="separator:aa0d4b2b85fa7685f6d9f5e4abcc2f74d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36aeee76aeab91078991d328b4b6de95"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a36aeee76aeab91078991d328b4b6de95">GetProgress</a> ()</td></tr>
-<tr class="separator:a36aeee76aeab91078991d328b4b6de95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadae237ef0dbc62901d8abd29d68e0f7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#aadae237ef0dbc62901d8abd29d68e0f7">SetProgress</a> (float p)</td></tr>
-<tr class="separator:aadae237ef0dbc62901d8abd29d68e0f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4de9010da3b094739ed0e54319de3f7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a4de9010da3b094739ed0e54319de3f7c">AddProgress</a> (float p)</td></tr>
-<tr class="separator:a4de9010da3b094739ed0e54319de3f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47e9a21859e933d4260d85d6f9fe0268"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a47e9a21859e933d4260d85d6f9fe0268">NextTask</a> ()</td></tr>
-<tr class="separator:a47e9a21859e933d4260d85d6f9fe0268"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbdcbb2b0b898e43445aad7f2bc56d27"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#abbdcbb2b0b898e43445aad7f2bc56d27">NextTask</a> (const char *s)</td></tr>
-<tr class="separator:abbdcbb2b0b898e43445aad7f2bc56d27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a59a7e0f3054b544823b22ae289f7b458"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a59a7e0f3054b544823b22ae289f7b458">CallBackSetProgress</a> (float p)</td></tr>
-<tr class="separator:a59a7e0f3054b544823b22ae289f7b458"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af76d8b627923f22a85dc6b482e83c813"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#af76d8b627923f22a85dc6b482e83c813">CallBackAddProgress</a> (float p)</td></tr>
-<tr class="separator:af76d8b627923f22a85dc6b482e83c813"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a627e5cfd0ab3311f5648cafda1f49ba6"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API <a class="el" href="classMR_1_1ProgressBar.html">ProgressBar</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a627e5cfd0ab3311f5648cafda1f49ba6">the</a></td></tr>
-<tr class="separator:a627e5cfd0ab3311f5648cafda1f49ba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85e5c9af68f53332feaacdae3581dfe7"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a85e5c9af68f53332feaacdae3581dfe7">setup</a> ()</td></tr>
+<tr class="separator:a85e5c9af68f53332feaacdae3581dfe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f0b34ef7192f1f686295f08cef35b8e"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a9f0b34ef7192f1f686295f08cef35b8e">order</a> (const char *name, const std::function&lt; void()&gt; &amp;task, int taskCount=1)</td></tr>
+<tr class="separator:a9f0b34ef7192f1f686295f08cef35b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6236c427fac8e1e55d0c089a803018e"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#ac6236c427fac8e1e55d0c089a803018e">orderWithMainThreadPostProcessing</a> (const char *name, const std::function&lt; std::function&lt; void()&gt;() &gt; &amp;task, int taskCount=1)</td></tr>
+<tr class="separator:ac6236c427fac8e1e55d0c089a803018e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e48b274cb7c3da76568a3a43ccb1318"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a1e48b274cb7c3da76568a3a43ccb1318">isCanceled</a> ()</td></tr>
+<tr class="separator:a1e48b274cb7c3da76568a3a43ccb1318"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af94639c928099155e29f7f38ea7c70f2"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#af94639c928099155e29f7f38ea7c70f2">isFinished</a> ()</td></tr>
+<tr class="separator:af94639c928099155e29f7f38ea7c70f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b00099a952333fe9e8f4d8e1c8554fb"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a2b00099a952333fe9e8f4d8e1c8554fb">getProgress</a> ()</td></tr>
+<tr class="separator:a2b00099a952333fe9e8f4d8e1c8554fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58b005097564ccba1cff07a4a3ca311b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a58b005097564ccba1cff07a4a3ca311b">setProgress</a> (float p)</td></tr>
+<tr class="separator:a58b005097564ccba1cff07a4a3ca311b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a855d0112b668b33eb5419b9297eb2992"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a855d0112b668b33eb5419b9297eb2992">addProgress</a> (float p)</td></tr>
+<tr class="separator:a855d0112b668b33eb5419b9297eb2992"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac842c4a5f15afd31850fdc851607fb2d"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#ac842c4a5f15afd31850fdc851607fb2d">nextTask</a> ()</td></tr>
+<tr class="separator:ac842c4a5f15afd31850fdc851607fb2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0834deaf9e33eb5ce6581bf52300683b"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a0834deaf9e33eb5ce6581bf52300683b">nextTask</a> (const char *s)</td></tr>
+<tr class="separator:a0834deaf9e33eb5ce6581bf52300683b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7732ed3aa649adc99d237e5315f07d84"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a7732ed3aa649adc99d237e5315f07d84">callBackSetProgress</a> (float p)</td></tr>
+<tr class="separator:a7732ed3aa649adc99d237e5315f07d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89e0ff8cc0435b355fa323ba9b8d78f4"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a89e0ff8cc0435b355fa323ba9b8d78f4">callBackAddProgress</a> (float p)</td></tr>
+<tr class="separator:a89e0ff8cc0435b355fa323ba9b8d78f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4de9010da3b094739ed0e54319de3f7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4de9010da3b094739ed0e54319de3f7c">&#9670;&nbsp;</a></span>AddProgress()</h2>
+<a id="a855d0112b668b33eb5419b9297eb2992"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a855d0112b668b33eb5419b9297eb2992">&#9670;&nbsp;</a></span>addProgress()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -151,7 +141,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::ProgressBar::AddProgress </td>
+          <td class="memname">static void MR::ProgressBar::addProgress </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>p</em></td><td>)</td>
@@ -160,15 +150,15 @@ Static Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="af76d8b627923f22a85dc6b482e83c813"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af76d8b627923f22a85dc6b482e83c813">&#9670;&nbsp;</a></span>CallBackAddProgress()</h2>
+<a id="a89e0ff8cc0435b355fa323ba9b8d78f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89e0ff8cc0435b355fa323ba9b8d78f4">&#9670;&nbsp;</a></span>callBackAddProgress()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -177,33 +167,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static MRVIEWER_API bool MR::ProgressBar::CallBackAddProgress </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>p</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a59a7e0f3054b544823b22ae289f7b458"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59a7e0f3054b544823b22ae289f7b458">&#9670;&nbsp;</a></span>CallBackSetProgress()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static MRVIEWER_API bool MR::ProgressBar::CallBackSetProgress </td>
+          <td class="memname">static MRVIEWER_API bool MR::ProgressBar::callBackAddProgress </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>p</em></td><td>)</td>
@@ -219,8 +183,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a36aeee76aeab91078991d328b4b6de95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36aeee76aeab91078991d328b4b6de95">&#9670;&nbsp;</a></span>GetProgress()</h2>
+<a id="a7732ed3aa649adc99d237e5315f07d84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7732ed3aa649adc99d237e5315f07d84">&#9670;&nbsp;</a></span>callBackSetProgress()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229,23 +193,24 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float MR::ProgressBar::GetProgress </td>
+          <td class="memname">static MRVIEWER_API bool MR::ProgressBar::callBackSetProgress </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a8d9a935714b1d261a95ada1ece3baf5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d9a935714b1d261a95ada1ece3baf5a">&#9670;&nbsp;</a></span>isCanceled()</h2>
+<a id="a2b00099a952333fe9e8f4d8e1c8554fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b00099a952333fe9e8f4d8e1c8554fb">&#9670;&nbsp;</a></span>getProgress()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -254,7 +219,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool MR::ProgressBar::isCanceled </td>
+          <td class="memname">static float MR::ProgressBar::getProgress </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -262,15 +227,15 @@ Static Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aa0d4b2b85fa7685f6d9f5e4abcc2f74d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0d4b2b85fa7685f6d9f5e4abcc2f74d">&#9670;&nbsp;</a></span>isFinished()</h2>
+<a id="a1e48b274cb7c3da76568a3a43ccb1318"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e48b274cb7c3da76568a3a43ccb1318">&#9670;&nbsp;</a></span>isCanceled()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -279,7 +244,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool MR::ProgressBar::isFinished </td>
+          <td class="memname">static bool MR::ProgressBar::isCanceled </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -287,56 +252,100 @@ Static Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a47e9a21859e933d4260d85d6f9fe0268"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47e9a21859e933d4260d85d6f9fe0268">&#9670;&nbsp;</a></span>NextTask() <span class="overload">[1/2]</span></h2>
+<a id="af94639c928099155e29f7f38ea7c70f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af94639c928099155e29f7f38ea7c70f2">&#9670;&nbsp;</a></span>isFinished()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API void MR::ProgressBar::NextTask </td>
+          <td class="memname">static bool MR::ProgressBar::isFinished </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="abbdcbb2b0b898e43445aad7f2bc56d27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbdcbb2b0b898e43445aad7f2bc56d27">&#9670;&nbsp;</a></span>NextTask() <span class="overload">[2/2]</span></h2>
+<a id="ac842c4a5f15afd31850fdc851607fb2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac842c4a5f15afd31850fdc851607fb2d">&#9670;&nbsp;</a></span>nextTask() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API void MR::ProgressBar::NextTask </td>
+          <td class="memname">static MRVIEWER_API void MR::ProgressBar::nextTask </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0834deaf9e33eb5ce6581bf52300683b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0834deaf9e33eb5ce6581bf52300683b">&#9670;&nbsp;</a></span>nextTask() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MRVIEWER_API void MR::ProgressBar::nextTask </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>s</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a2c5dfa977dae36dbef7661261cb5055f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c5dfa977dae36dbef7661261cb5055f">&#9670;&nbsp;</a></span>Order()</h2>
+<a id="a9f0b34ef7192f1f686295f08cef35b8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f0b34ef7192f1f686295f08cef35b8e">&#9670;&nbsp;</a></span>order()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API void MR::ProgressBar::Order </td>
+          <td class="memname">static MRVIEWER_API void MR::ProgressBar::order </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>name</em>, </td>
@@ -359,18 +368,26 @@ Static Public Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="af7ca89fdbe18b64133dc908a57b1d435"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7ca89fdbe18b64133dc908a57b1d435">&#9670;&nbsp;</a></span>OrderWithMainThreadPostProcessing()</h2>
+<a id="ac6236c427fac8e1e55d0c089a803018e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6236c427fac8e1e55d0c089a803018e">&#9670;&nbsp;</a></span>orderWithMainThreadPostProcessing()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API void MR::ProgressBar::OrderWithMainThreadPostProcessing </td>
+          <td class="memname">static MRVIEWER_API void MR::ProgressBar::orderWithMainThreadPostProcessing </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>name</em>, </td>
@@ -393,12 +410,17 @@ Static Public Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aadae237ef0dbc62901d8abd29d68e0f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadae237ef0dbc62901d8abd29d68e0f7">&#9670;&nbsp;</a></span>SetProgress()</h2>
+<a id="a58b005097564ccba1cff07a4a3ca311b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58b005097564ccba1cff07a4a3ca311b">&#9670;&nbsp;</a></span>setProgress()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -407,7 +429,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool MR::ProgressBar::SetProgress </td>
+          <td class="memname">static bool MR::ProgressBar::setProgress </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>p</em></td><td>)</td>
@@ -416,33 +438,15 @@ Static Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ab018960dbceb748a937fe230f9443299"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab018960dbceb748a937fe230f9443299">&#9670;&nbsp;</a></span>Setup()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API void MR::ProgressBar::Setup </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a627e5cfd0ab3311f5648cafda1f49ba6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a627e5cfd0ab3311f5648cafda1f49ba6">&#9670;&nbsp;</a></span>the</h2>
+<a id="a85e5c9af68f53332feaacdae3581dfe7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85e5c9af68f53332feaacdae3581dfe7">&#9670;&nbsp;</a></span>setup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -451,7 +455,10 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API <a class="el" href="classMR_1_1ProgressBar.html">ProgressBar</a> MR::ProgressBar::the</td>
+          <td class="memname">static MRVIEWER_API void MR::ProgressBar::setup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>

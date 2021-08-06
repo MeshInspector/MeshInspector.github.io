@@ -189,21 +189,21 @@ C++ Basic Examples</h1>
 <h1><a class="anchor" id="PythonCodeExamples"></a>
 Python Basic Examples</h1>
 <p>In this section we provide the same examples but with python code<br  />
-Load and save example: </p><div class="fragment"><div class="line"><span class="keyword">import</span> mrpy</div>
-<div class="line">mesh = mrpy.load_mesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
-<div class="line">mrpy.save_mesh(<span class="stringliteral">&quot;mesh.ply&quot;</span>)</div>
-</div><!-- fragment --><p><a class="el" href="structMR_1_1Mesh.html">Mesh</a> modification examples </p><div class="fragment"><div class="line"><span class="keyword">import</span> mrpy</div>
-<div class="line">mesh = mrpy.load_mesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
+Load and save example: </p><div class="fragment"><div class="line"><span class="keyword">import</span> mrmesh</div>
+<div class="line">mesh = mrmesh.load_mesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
+<div class="line">mrmesh.save_mesh(<span class="stringliteral">&quot;mesh.ply&quot;</span>)</div>
+</div><!-- fragment --><p><a class="el" href="structMR_1_1Mesh.html">Mesh</a> modification examples </p><div class="fragment"><div class="line"><span class="keyword">import</span> mrmesh</div>
+<div class="line">mesh = mrmesh.load_mesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
 <div class="line"> </div>
-<div class="line">mrpy.relax(mesh,5,Null)</div>
+<div class="line">mrmesh.relax(mesh,5,Null)</div>
 <div class="line"> </div>
-<div class="line">props = mrpy.SubdivideSettings()</div>
+<div class="line">props = mrmesh.SubdivideSettings()</div>
 <div class="line">props.<a class="code" href="structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476">maxDeviationAfterFlip</a> = 0.5</div>
-<div class="line">mrpy.subdivide_mesh(mesh,props)</div>
+<div class="line">mrmesh.subdivide_mesh(mesh,props)</div>
 <div class="line"> </div>
-<div class="line">plusZ = mrpy.Vector3()</div>
+<div class="line">plusZ = mrmesh.Vector3()</div>
 <div class="line">plusZ.z = 1.0</div>
-<div class="line">rotationXf = mrpy.AffineXf3.linear( mrpy.Matrix3.rotation( plusZ, 3.1415*0.5 ) )</div>
+<div class="line">rotationXf = mrmesh.AffineXf3.linear( mrmesh.Matrix3.rotation( plusZ, 3.1415*0.5 ) )</div>
 <div class="line">mesh.transform(rotationXf)</div>
 </div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="EmbendedPythonOverview.html">Python overview</a> </dd></dl>
 </div></div><!-- contents -->

@@ -105,12 +105,14 @@ $(document).ready(function(){initNavTree('MRPython_8h.html',''); initResizable()
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
-<code>#include &lt;functional&gt;</code><br />
-<code>#include &lt;filesystem&gt;</code><br />
 <code>#include &lt;pybind11/pybind11.h&gt;</code><br />
 <code>#include &lt;pybind11/operators.h&gt;</code><br />
 <code>#include &lt;pybind11/stl_bind.h&gt;</code><br />
 <code>#include &lt;pybind11/numpy.h&gt;</code><br />
+<code>#include &lt;boost/preprocessor/cat.hpp&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
+<code>#include &lt;filesystem&gt;</code><br />
+<code>#include &lt;unordered_map&gt;</code><br />
 </div>
 <p><a href="MRPython_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -119,6 +121,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPythonStreamRedirector.html">PythonStreamRedirector&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PythonExport.html">MR::PythonExport</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PythonExport_1_1ModuleData.html">MR::PythonExport::ModuleData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,12 +134,18 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a9f4ef07fc4c7a76ae7597ea7b3b56752"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#a9f4ef07fc4c7a76ae7597ea7b3b56752">ADD_PYTHON_FUNCTION</a>(name,  func,  description)&#160;&#160;&#160;    static <a class="el" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> name##_adder_([](pybind11::module_&amp; m){ m.def(#name, func, description);} );</td></tr>
-<tr class="separator:a9f4ef07fc4c7a76ae7597ea7b3b56752"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afeabf4206280cf7ba6c214da7c2e9227"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#afeabf4206280cf7ba6c214da7c2e9227">ADD_PYTHON_CUSTOM_DEF</a>(name, ...)</td></tr>
-<tr class="separator:afeabf4206280cf7ba6c214da7c2e9227"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08d9a1646a644b64cbd0842f6efb682d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#a08d9a1646a644b64cbd0842f6efb682d">ADD_PYTHON_VEC</a>(name,  type)</td></tr>
-<tr class="separator:a08d9a1646a644b64cbd0842f6efb682d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a7dae545bb03c3e852eff4ac336ec82"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#a0a7dae545bb03c3e852eff4ac336ec82">MODULE_INIT_FN</a>(name)&#160;&#160;&#160;BOOST_PP_CAT(init, name)</td></tr>
+<tr class="separator:a0a7dae545bb03c3e852eff4ac336ec82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affe7011d91b13868693cd68f6f2b3ab6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#affe7011d91b13868693cd68f6f2b3ab6">PYTHON_BUILTINS</a>&#160;&#160;&#160;&quot;__builtin__&quot;</td></tr>
+<tr class="separator:affe7011d91b13868693cd68f6f2b3ab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a315359e8ba3513ba5ecc6da1ae07b1c0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#a315359e8ba3513ba5ecc6da1ae07b1c0">INIT_PYTHON_MODULE</a>(moduleName)</td></tr>
+<tr class="separator:a315359e8ba3513ba5ecc6da1ae07b1c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13654151e7ff83935ab7ada7fa8426ef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#a13654151e7ff83935ab7ada7fa8426ef">ADD_PYTHON_FUNCTION</a>(moduleName,  name,  func,  description)&#160;&#160;&#160;    static <a class="el" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> name##_adder_( #moduleName, [](pybind11::module_&amp; m){ m.def(#name, func, description);} );</td></tr>
+<tr class="separator:a13654151e7ff83935ab7ada7fa8426ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacfba9935ed689b7f3f7cf5d88670ea0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#aacfba9935ed689b7f3f7cf5d88670ea0">ADD_PYTHON_CUSTOM_DEF</a>(moduleName,  name, ...)</td></tr>
+<tr class="separator:aacfba9935ed689b7f3f7cf5d88670ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd46f82b7d3e200122b5c6a69a52635e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#abd46f82b7d3e200122b5c6a69a52635e">ADD_PYTHON_VEC</a>(moduleName,  name,  type)</td></tr>
+<tr class="separator:abd46f82b7d3e200122b5c6a69a52635e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -155,16 +165,16 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a598595890668bd214e82dab9aac670bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a598595890668bd214e82dab9aac670bb">MR::initPython</a> ()</td></tr>
 <tr class="separator:a598595890668bd214e82dab9aac670bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfb988e7b115dcce3fcb76e04407d792"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#adfb988e7b115dcce3fcb76e04407d792">MR::runString</a> (const std::string &amp;pythonString)</td></tr>
-<tr class="separator:adfb988e7b115dcce3fcb76e04407d792"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacfeb59c7dc32990b29839f1902f4d31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aacfeb59c7dc32990b29839f1902f4d31">MR::runScript</a> (const std::filesystem::path &amp;path)</td></tr>
-<tr class="separator:aacfeb59c7dc32990b29839f1902f4d31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6b0ce8bc7bda29ebd97427c3c9dbbdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af6b0ce8bc7bda29ebd97427c3c9dbbdb">MR::runString</a> (const std::string &amp;pythonString)</td></tr>
+<tr class="separator:af6b0ce8bc7bda29ebd97427c3c9dbbdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66aa55ab617d0f2c5e57182fdcf66acc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a66aa55ab617d0f2c5e57182fdcf66acc">MR::runScript</a> (const std::filesystem::path &amp;path)</td></tr>
+<tr class="separator:a66aa55ab617d0f2c5e57182fdcf66acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd7598d217a12003c1e81d9fa728b1b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#acd7598d217a12003c1e81d9fa728b1b0">MR::isPythonScript</a> (const std::filesystem::path &amp;path)</td></tr>
 <tr class="separator:acd7598d217a12003c1e81d9fa728b1b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="afeabf4206280cf7ba6c214da7c2e9227"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afeabf4206280cf7ba6c214da7c2e9227">&#9670;&nbsp;</a></span>ADD_PYTHON_CUSTOM_DEF</h2>
+<a id="aacfba9935ed689b7f3f7cf5d88670ea0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacfba9935ed689b7f3f7cf5d88670ea0">&#9670;&nbsp;</a></span>ADD_PYTHON_CUSTOM_DEF</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -172,6 +182,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">#define ADD_PYTHON_CUSTOM_DEF</td>
           <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">moduleName, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">name, </td>
         </tr>
@@ -190,14 +206,14 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">_Pragma(<span class="stringliteral">&quot;warning(push)&quot;</span>) \</div>
 <div class="line">_Pragma(<span class="stringliteral">&quot;warning(disable:4459)&quot;</span>) \</div>
-<div class="line">    static <a class="code" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> name##_adder_( __VA_ARGS__ ); \</div>
+<div class="line">    static <a class="code" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> name##_adder_( #moduleName, __VA_ARGS__ ); \</div>
 <div class="line">_Pragma(<span class="stringliteral">&quot;warning(pop)&quot;</span>)</div>
-<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></div><div class="ttdef"><b>Definition:</b> MRPython.h:71</div></div>
+<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></div><div class="ttdef"><b>Definition:</b> MRPython.h:113</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a9f4ef07fc4c7a76ae7597ea7b3b56752"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f4ef07fc4c7a76ae7597ea7b3b56752">&#9670;&nbsp;</a></span>ADD_PYTHON_FUNCTION</h2>
+<a id="a13654151e7ff83935ab7ada7fa8426ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13654151e7ff83935ab7ada7fa8426ef">&#9670;&nbsp;</a></span>ADD_PYTHON_FUNCTION</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -205,6 +221,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">#define ADD_PYTHON_FUNCTION</td>
           <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">moduleName, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">name, </td>
         </tr>
@@ -223,15 +245,15 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;    static <a class="el" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> name##_adder_([](pybind11::module_&amp; m){ m.def(#name, func, description);} );</td>
+          <td></td><td>&#160;&#160;&#160;    static <a class="el" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> name##_adder_( #moduleName, [](pybind11::module_&amp; m){ m.def(#name, func, description);} );</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a08d9a1646a644b64cbd0842f6efb682d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08d9a1646a644b64cbd0842f6efb682d">&#9670;&nbsp;</a></span>ADD_PYTHON_VEC</h2>
+<a id="abd46f82b7d3e200122b5c6a69a52635e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd46f82b7d3e200122b5c6a69a52635e">&#9670;&nbsp;</a></span>ADD_PYTHON_VEC</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -239,6 +261,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">#define ADD_PYTHON_VEC</td>
           <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">moduleName, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">name, </td>
         </tr>
@@ -255,8 +283,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">PYBIND11_MAKE_OPAQUE( std::vector&lt;type&gt; );\</div>
-<div class="line">ADD_PYTHON_CUSTOM_DEF( name, [] (pybind11::module_&amp; m)\</div>
+<b>Value:</b><div class="fragment"><div class="line">PYBIND11_MAKE_OPAQUE( std::vector&lt;type&gt; )\</div>
+<div class="line">ADD_PYTHON_CUSTOM_DEF( moduleName, name, [] (pybind11::module_&amp; m)\</div>
 <div class="line">{\</div>
 <div class="line">    using vecType = std::vector&lt;type&gt;;\</div>
 <div class="line">    pybind11::bind_vector&lt;vecType&gt;(m, #name ).\
@@ -266,6 +294,66 @@ Functions</h2></td></tr>
         def( <span class="stringliteral">&quot;clear&quot;</span>, &amp;vecType::clear ); \</div>
 <div class="line">} )</div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="a315359e8ba3513ba5ecc6da1ae07b1c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a315359e8ba3513ba5ecc6da1ae07b1c0">&#9670;&nbsp;</a></span>INIT_PYTHON_MODULE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define INIT_PYTHON_MODULE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">moduleName</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">PYBIND11_MODULE( moduleName, m )\</div>
+<div class="line">{\</div>
+<div class="line">    auto&amp; adders = <a class="code" href="classMR_1_1PythonExport.html#acacaa4a8c44ec1d0828f7479119c66d9">MR::PythonExport::instance</a>().<a class="code" href="classMR_1_1PythonExport.html#a81ce091f59f3fcf92a200f7d4fdf2053">functions</a>( #moduleName );\</div>
+<div class="line">    for ( <span class="keyword">auto</span>&amp; f : adders )\</div>
+<div class="line">        f( m );\</div>
+<div class="line">}\</div>
+<div class="line">static <a class="code" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> moduleName##_init_( #moduleName, &amp;<a class="code" href="MRPython_8h.html#a0a7dae545bb03c3e852eff4ac336ec82">MODULE_INIT_FN</a>(moduleName) );</div>
+<div class="ttc" id="aMRPython_8h_html_a0a7dae545bb03c3e852eff4ac336ec82"><div class="ttname"><a href="MRPython_8h.html#a0a7dae545bb03c3e852eff4ac336ec82">MODULE_INIT_FN</a></div><div class="ttdeci">#define MODULE_INIT_FN(name)</div><div class="ttdef"><b>Definition:</b> MRPython.h:16</div></div>
+<div class="ttc" id="aclassMR_1_1PythonExport_html_a81ce091f59f3fcf92a200f7d4fdf2053"><div class="ttname"><a href="classMR_1_1PythonExport.html#a81ce091f59f3fcf92a200f7d4fdf2053">MR::PythonExport::functions</a></div><div class="ttdeci">const std::vector&lt; PythonRegisterFuncton &gt; functions(const std::string &amp;moduleName) const</div><div class="ttdef"><b>Definition:</b> MRPython.h:93</div></div>
+<div class="ttc" id="aclassMR_1_1PythonExport_html_acacaa4a8c44ec1d0828f7479119c66d9"><div class="ttname"><a href="classMR_1_1PythonExport.html#acacaa4a8c44ec1d0828f7479119c66d9">MR::PythonExport::instance</a></div><div class="ttdeci">static MRMESH_API PythonExport &amp; instance()</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a0a7dae545bb03c3e852eff4ac336ec82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a7dae545bb03c3e852eff4ac336ec82">&#9670;&nbsp;</a></span>MODULE_INIT_FN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MODULE_INIT_FN</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name</td><td>)</td>
+          <td>&#160;&#160;&#160;BOOST_PP_CAT(init, name)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="affe7011d91b13868693cd68f6f2b3ab6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affe7011d91b13868693cd68f6f2b3ab6">&#9670;&nbsp;</a></span>PYTHON_BUILTINS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PYTHON_BUILTINS&#160;&#160;&#160;&quot;__builtin__&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>

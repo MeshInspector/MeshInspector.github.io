@@ -5,7 +5,9 @@ var MRVisualObject_8h =
     [ "AllVisualizeProperties", "MRVisualObject_8h.html#adfa0fd0c37db32411b59a14d4191fe77", null ],
     [ "ColoringType", "MRVisualObject_8h.html#a270a25a8ef13e07e59e7070834efc33f", [
       [ "SolidColor", "MRVisualObject_8h.html#a270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854", null ],
+      [ "PrimitivesColorMap", "MRVisualObject_8h.html#a270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca", null ],
       [ "FacesColorMap", "MRVisualObject_8h.html#a270a25a8ef13e07e59e7070834efc33fa65f3aabfa1c57a829746c547782eb1ba", null ],
+      [ "LinesColorMap", "MRVisualObject_8h.html#a270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197", null ],
       [ "VertsColorMap", "MRVisualObject_8h.html#a270a25a8ef13e07e59e7070834efc33fa4eec2fd5791a957e48b009cdbe2c10dd", null ]
     ] ],
     [ "DirtyFlags", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269", [
@@ -15,10 +17,11 @@ var MRVisualObject_8h =
       [ "DIRTY_RENDER_NORMAL", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a366252d9e296769786b6df63d10ad45b", null ],
       [ "DIRTY_SELECTION", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a1f9525826d3c360ff36177637df2a4d2", null ],
       [ "DIRTY_TEXTURE", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a16187984f5e9329e2eefbdce7ce0585d", null ],
-      [ "DIRTY_FACE", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a32fcd55df4b9420427f5168b5558a4a6", null ],
       [ "DIRTY_PRIMITIVES", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a8a1e8d099f1d302ff6e72082b8546627", null ],
+      [ "DIRTY_FACE", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a32fcd55df4b9420427f5168b5558a4a6", null ],
       [ "DIRTY_BACK_FACES", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a497efbd99f845eb3f162a5efabd97b08", null ],
       [ "DIRTY_VERTS_COLORMAP", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a3a601c32f4902f478919ce2b64a4e475", null ],
+      [ "DIRTY_PRIMITIVE_COLORMAP", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a095a0cbf99eaeafc9e593ee191e48cf3", null ],
       [ "DIRTY_FACES_COLORMAP", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a2844551064db079a1d3da473c389c9ca", null ],
       [ "DIRTY_MESH", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a269c9589c9cb0406be81dcb855532f0b", null ],
       [ "DIRTY_BOUNDING_BOX", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a9db66783aae1f516f71efb3d8e57443a", null ],

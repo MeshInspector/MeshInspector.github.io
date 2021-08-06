@@ -1,8 +1,7 @@
 var classMR_1_1AABBTreePolyline =
 [
-    [ "Node", "structMR_1_1AABBTreePolyline_1_1Node.html", "structMR_1_1AABBTreePolyline_1_1Node" ],
-    [ "NodeBitSet", "classMR_1_1AABBTreePolyline.html#a95a7c685c3a9990e290d8de4e01154ee", null ],
-    [ "NodeId", "classMR_1_1AABBTreePolyline.html#a7502efc185f8a06bd19da6264cbf9cbc", null ],
+    [ "Node", "classMR_1_1AABBTreePolyline.html#a5c69035512b003bb2419d440c022dbb0", null ],
+    [ "NodeId", "classMR_1_1AABBTreePolyline.html#a991ba74cefec7f4e2d57f50f55837a6e", null ],
     [ "NodeVec", "classMR_1_1AABBTreePolyline.html#a3a827b1acbe0879cc5f901a128eb7eae", null ],
     [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html#ab0e59b977e300a9062d9d9fecb89730f", null ],
     [ "getBoundingBox", "classMR_1_1AABBTreePolyline.html#aa37967aebd03819d68dc459743441098", null ],

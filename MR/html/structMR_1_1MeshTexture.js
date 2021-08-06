@@ -10,8 +10,5 @@ var structMR_1_1MeshTexture =
       [ "Clamp", "structMR_1_1MeshTexture.html#a02b38209ef48a938635275b79553f4e8a6874ce3f67f9ae37d72d9d072afa7592", null ]
     ] ],
     [ "Clamp", "structMR_1_1MeshTexture.html#afc707bca15cbed986258f7cbbf7fbb81", null ],
-    [ "Discrete", "structMR_1_1MeshTexture.html#aa0d958967f00d9b39656dd6d8d33c2f0", null ],
-    [ "pixels", "structMR_1_1MeshTexture.html#a365417ae86c7c2a6a8e59d39845d2ddd", null ],
-    [ "uWidth", "structMR_1_1MeshTexture.html#ae4741a8be14b0e1896b35d3eeaf3c9eb", null ],
-    [ "vHeight", "structMR_1_1MeshTexture.html#a1ea527e4230655060f89a1e2f62e37b3", null ]
+    [ "Discrete", "structMR_1_1MeshTexture.html#aa0d958967f00d9b39656dd6d8d33c2f0", null ]
 ];

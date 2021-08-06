@@ -1,6 +1,7 @@
 var hierarchy =
 [
     [ "MR::AABBTree", "classMR_1_1AABBTree.html", null ],
+    [ "MR::AABBTreeNode< LeafId >", "structMR_1_1AABBTreeNode.html", null ],
     [ "MR::AABBTreePoints", "classMR_1_1AABBTreePoints.html", null ],
     [ "MR::AABBTreePolyline", "classMR_1_1AABBTreePolyline.html", null ],
     [ "MR::AffineXf3< T >", "structMR_1_1AffineXf3.html", null ],
@@ -19,6 +20,7 @@ var hierarchy =
     [ "MR::Box< V >", "structMR_1_1Box.html", null ],
     [ "MR::Box< float >", "structMR_1_1Box.html", null ],
     [ "MR::Box< int >", "structMR_1_1Box.html", null ],
+    [ "MR::BoxedLeaf< LeafId >", "structMR_1_1BoxedLeaf.html", null ],
     [ "MR::Color", "structMR_1_1Color.html", null ],
     [ "MR::Config", "classMR_1_1Config.html", null ],
     [ "Connectables", null, [
@@ -74,6 +76,11 @@ var hierarchy =
           [ "MR::CollisionPlugin", "classMR_1_1CollisionPlugin.html", null ],
           [ "MR::CreatePrimitive", "classMR_1_1CreatePrimitive.html", null ],
           [ "MR::DeleteSelection", "classMR_1_1DeleteSelection.html", null ],
+          [ "MR::DistanceMapBooleanPlugin", "classMR_1_1DistanceMapBooleanPlugin.html", null ],
+          [ "MR::DistanceMapContourDiffPlugin", "classMR_1_1DistanceMapContourDiffPlugin.html", null ],
+          [ "MR::DistanceMapContourPlugin", "classMR_1_1DistanceMapContourPlugin.html", null ],
+          [ "MR::DistanceMapDiffPlugin", "classMR_1_1DistanceMapDiffPlugin.html", null ],
+          [ "MR::DistanceMapIsoLinesPlugin", "classMR_1_1DistanceMapIsoLinesPlugin.html", null ],
           [ "MR::DistanceMapPlugin", "classMR_1_1DistanceMapPlugin.html", null ],
           [ "MR::ExpandSelectToComponent", "classMR_1_1ExpandSelectToComponent.html", null ],
           [ "MR::ExpandSelection", "classMR_1_1ExpandSelection.html", null ],
@@ -88,6 +95,7 @@ var hierarchy =
           [ "MR::LibraryDistancesTest", "classMR_1_1LibraryDistancesTest.html", null ],
           [ "MR::MeshFixerPlugin", "classMR_1_1MeshFixerPlugin.html", null ],
           [ "MR::MeshToPointCloudPlugin", "classMR_1_1MeshToPointCloudPlugin.html", null ],
+          [ "MR::PerspectiveAlignPlugin", "classMR_1_1PerspectiveAlignPlugin.html", null ],
           [ "MR::PointsInBallPlugin", "classMR_1_1PointsInBallPlugin.html", null ],
           [ "MR::PointsSampler", "classMR_1_1PointsSampler.html", null ],
           [ "MR::PositionVertsSmoothlyPlugin", "classMR_1_1PositionVertsSmoothlyPlugin.html", null ],
@@ -122,11 +130,13 @@ var hierarchy =
       ] ],
       [ "MR::MultiListener< Connectables >", "structMR_1_1MultiListener.html", null ]
     ] ],
+    [ "MR::ContourToDistanceMapParams", "structMR_1_1ContourToDistanceMapParams.html", null ],
     [ "MR::CoordinateConverters", "structMR_1_1CoordinateConverters.html", null ],
     [ "MR::MeshSave::CtmSaveOptions", "structMR_1_1MeshSave_1_1CtmSaveOptions.html", null ],
     [ "MR::PointsSave::CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", null ],
     [ "MR::DenseBox", "structMR_1_1DenseBox.html", null ],
     [ "MR::DistanceMap", "classMR_1_1DistanceMap.html", null ],
+    [ "MR::DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html", null ],
     [ "boost::dynamic_bitset", null, [
       [ "MR::BitSet", "classMR_1_1BitSet.html", [
         [ "MR::TaggedBitSet< VertTag >", "classMR_1_1TaggedBitSet.html", null ],
@@ -193,6 +203,9 @@ var hierarchy =
     [ "MR::Id< NodeTag >", "classMR_1_1Id.html", null ],
     [ "MR::Id< UndirectedEdgeTag >", "classMR_1_1Id.html", null ],
     [ "MR::Id< VertTag >", "classMR_1_1Id.html", null ],
+    [ "MR::Image", "structMR_1_1Image.html", [
+      [ "MR::MeshTexture", "structMR_1_1MeshTexture.html", null ]
+    ] ],
     [ "MR::ImGuiImage", "classMR_1_1ImGuiImage.html", [
       [ "MR::MarkedVoxelSlice", "classMR_1_1MarkedVoxelSlice.html", null ]
     ] ],
@@ -251,12 +264,12 @@ var hierarchy =
     [ "MR::MeshBuilder::MeshPiece", "structMR_1_1MeshBuilder_1_1MeshPiece.html", null ],
     [ "MR::MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", null ],
     [ "MR::MeshSignedDistanceResult", "structMR_1_1MeshSignedDistanceResult.html", null ],
-    [ "MR::MeshTexture", "structMR_1_1MeshTexture.html", null ],
     [ "MR::MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html", null ],
     [ "MR::MeshTopology", "classMR_1_1MeshTopology.html", null ],
     [ "MR::MeshTriPoint", "structMR_1_1MeshTriPoint.html", null ],
     [ "MR::MeshVoxelsConverter", "structMR_1_1MeshVoxelsConverter.html", null ],
     [ "MR::MeshWriter", "structMR_1_1MeshWriter.html", null ],
+    [ "MR::PythonExport::ModuleData", "structMR_1_1PythonExport_1_1ModuleData.html", null ],
     [ "MR::MutexOwner", "classMR_1_1MutexOwner.html", null ],
     [ "N", null, [
       [ "MR::RingIterator< N >", "classMR_1_1RingIterator.html", null ]
@@ -264,14 +277,13 @@ var hierarchy =
     [ "MR::MeshLoad::NamedMeshLoader", "structMR_1_1MeshLoad_1_1NamedMeshLoader.html", null ],
     [ "MR::NextEdgeSameLeft", "classMR_1_1NextEdgeSameLeft.html", null ],
     [ "MR::NextEdgeSameOrigin", "classMR_1_1NextEdgeSameOrigin.html", null ],
-    [ "MR::AABBTree::Node", "structMR_1_1AABBTree_1_1Node.html", null ],
     [ "MR::AABBTreePoints::Node", "structMR_1_1AABBTreePoints_1_1Node.html", null ],
-    [ "MR::AABBTreePolyline::Node", "structMR_1_1AABBTreePolyline_1_1Node.html", null ],
     [ "MR::ObjectChildrenHolder", "structMR_1_1ObjectChildrenHolder.html", [
       [ "MR::Object", "classMR_1_1Object.html", [
         [ "MR::VisualObject", "classMR_1_1VisualObject.html", [
           [ "MR::ObjectLines", "classMR_1_1ObjectLines.html", null ],
           [ "MR::ObjectMesh", "classMR_1_1ObjectMesh.html", [
+            [ "MR::ObjectDistanceMap", "classMR_1_1ObjectDistanceMap.html", null ],
             [ "MR::ObjectVoxels", "classMR_1_1ObjectVoxels.html", null ]
           ] ],
           [ "MR::ObjectPoints", "classMR_1_1ObjectPoints.html", null ]

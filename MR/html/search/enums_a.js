@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['remembershape_5101',['RememberShape',['../classMR_1_1Laplacian.html#a67c8dfc7669f41712a92d21d5ec99fed',1,'MR::Laplacian']]]
+  ['seedtype_5268',['SeedType',['../classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5',1,'MR::VolumeSegmenter']]],
+  ['shadertype_5269',['ShaderType',['../classMR_1_1ShadersHolder.html#af79d4956571eca0d639217ad9ec89767',1,'MR::ShadersHolder']]],
+  ['sliceplain_5270',['SlicePlain',['../namespaceMR.html#ae7c8689563553fe7686bd6b71ddf8f18',1,'MR']]],
+  ['streamtype_5271',['StreamType',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1d',1,'MRPython.h']]]
 ];
