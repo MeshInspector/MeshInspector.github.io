@@ -97,34 +97,48 @@ $(document).ready(function(){initNavTree('structMRE_1_1DecimateSettings.html',''
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMRE_1_1DecimateSettings-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MRE::DecimateSettings Struct Reference</div>  </div>
+<div class="title">MRE::DecimateSettings Struct Reference<div class="ingroups"><a class="el" href="group__DecimateGroup.html">Decimate overview</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Parameters structure for <a class="el" href="group__DecimateGroup.html#ga9f4ed5382008a7fff13610607c6c5719" title="Collapse edges in mesh region according to the settings.">MRE::decimateMesh</a>.  
+ <a href="structMRE_1_1DecimateSettings.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MREMeshDecimate_8h_source.html">MREMeshDecimate.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a38c75c2b0f972f02c4940ce0498487d3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateSettings.html#a38c75c2b0f972f02c4940ce0498487d3">maxError</a> = 0.001f</td></tr>
+<tr class="memdesc:a38c75c2b0f972f02c4940ce0498487d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Limit from above on the maximum distance from moved vertices to original mesh.  <a href="structMRE_1_1DecimateSettings.html#a38c75c2b0f972f02c4940ce0498487d3">More...</a><br /></td></tr>
 <tr class="separator:a38c75c2b0f972f02c4940ce0498487d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9e747580fa45ea2f0e80a8fcd1a974f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateSettings.html#aa9e747580fa45ea2f0e80a8fcd1a974f">maxTriangleAspectRatio</a> = 20</td></tr>
+<tr class="memdesc:aa9e747580fa45ea2f0e80a8fcd1a974f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximal possible aspect ratio of a triangle introduced during decimation.  <a href="structMRE_1_1DecimateSettings.html#aa9e747580fa45ea2f0e80a8fcd1a974f">More...</a><br /></td></tr>
 <tr class="separator:aa9e747580fa45ea2f0e80a8fcd1a974f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c40fafa954eac9946ce998467a2449e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateSettings.html#a3c40fafa954eac9946ce998467a2449e">stabilizer</a> = 0.001f</td></tr>
 <tr class="separator:a3c40fafa954eac9946ce998467a2449e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c9612c442978c84b93928b3fd674a40"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateSettings.html#a0c9612c442978c84b93928b3fd674a40">maxDeletedVertices</a> = INT_MAX</td></tr>
+<tr class="memdesc:a0c9612c442978c84b93928b3fd674a40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Limit on the number of deleted vertices.  <a href="structMRE_1_1DecimateSettings.html#a0c9612c442978c84b93928b3fd674a40">More...</a><br /></td></tr>
 <tr class="separator:a0c9612c442978c84b93928b3fd674a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf0808d90e559c56f406a3c8b779d1c3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateSettings.html#adf0808d90e559c56f406a3c8b779d1c3">maxDeletedFaces</a> = INT_MAX</td></tr>
+<tr class="memdesc:adf0808d90e559c56f406a3c8b779d1c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Limit on the number of deleted faces.  <a href="structMRE_1_1DecimateSettings.html#adf0808d90e559c56f406a3c8b779d1c3">More...</a><br /></td></tr>
 <tr class="separator:adf0808d90e559c56f406a3c8b779d1c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5516325279c277f1368546f126ed95c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">MR::FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateSettings.html#a5516325279c277f1368546f126ed95c5">region</a> = nullptr</td></tr>
+<tr class="memdesc:a5516325279c277f1368546f126ed95c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Region on mesh to be decimated, it is updated during the operation.  <a href="structMRE_1_1DecimateSettings.html#a5516325279c277f1368546f126ed95c5">More...</a><br /></td></tr>
 <tr class="separator:a5516325279c277f1368546f126ed95c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03b7e3ab435504e0885c7f48e9d0bd52"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateSettings.html#a03b7e3ab435504e0885c7f48e9d0bd52">touchBdVertices</a> = true</td></tr>
+<tr class="memdesc:a03b7e3ab435504e0885c7f48e9d0bd52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to allow collapsing edges having at least one vertex on (region) boundary.  <a href="structMRE_1_1DecimateSettings.html#a03b7e3ab435504e0885c7f48e9d0bd52">More...</a><br /></td></tr>
 <tr class="separator:a03b7e3ab435504e0885c7f48e9d0bd52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4f17fd96340b37c98219b37f743d44e"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">MR::EdgeId</a> edgeToCollapse, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">MR::Vector3f</a> &amp;newEdgeOrgPos)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateSettings.html#aa4f17fd96340b37c98219b37f743d44e">preCollapse</a></td></tr>
+<tr class="memdesc:aa4f17fd96340b37c98219b37f743d44e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can provide this optional callback that is invoked immediately before edge collapse;.  <a href="structMRE_1_1DecimateSettings.html#aa4f17fd96340b37c98219b37f743d44e">More...</a><br /></td></tr>
 <tr class="separator:aa4f17fd96340b37c98219b37f743d44e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23c47583972b3b17dd89bc69cc2094cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; <a class="el" href="namespaceMR.html#a03bea4c1686b4e77a996eb13fd1d4bb7">MR::QuadraticForm3f</a>, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">MR::VertId</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateSettings.html#a23c47583972b3b17dd89bc69cc2094cd">vertForms</a> = nullptr</td></tr>
+<tr class="memdesc:a23c47583972b3b17dd89bc69cc2094cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">If not null, then on input: if the vector is not empty then it is takes for initialization instead of form computation for all vertices; on output: quadratic form for each remaining vertex is returned there.  <a href="structMRE_1_1DecimateSettings.html#a23c47583972b3b17dd89bc69cc2094cd">More...</a><br /></td></tr>
 <tr class="separator:a23c47583972b3b17dd89bc69cc2094cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Parameters structure for <a class="el" href="group__DecimateGroup.html#ga9f4ed5382008a7fff13610607c6c5719" title="Collapse edges in mesh region according to the settings.">MRE::decimateMesh</a>. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__DecimateGroup.html#ga9f4ed5382008a7fff13610607c6c5719">decimateMesh</a> </dd></dl>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="adf0808d90e559c56f406a3c8b779d1c3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adf0808d90e559c56f406a3c8b779d1c3">&#9670;&nbsp;</a></span>maxDeletedFaces</h2>
 
@@ -136,6 +150,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Limit on the number of deleted faces. </p>
 
 </div>
 </div>
@@ -151,6 +167,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Limit on the number of deleted vertices. </p>
+
 </div>
 </div>
 <a id="a38c75c2b0f972f02c4940ce0498487d3"></a>
@@ -164,6 +182,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Limit from above on the maximum distance from moved vertices to original mesh. </p>
 
 </div>
 </div>
@@ -179,6 +199,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Maximal possible aspect ratio of a triangle introduced during decimation. </p>
+
 </div>
 </div>
 <a id="aa4f17fd96340b37c98219b37f743d44e"></a>
@@ -192,6 +214,9 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>The user can provide this optional callback that is invoked immediately before edge collapse;. </p>
+<p>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited </p>
 
 </div>
 </div>
@@ -207,6 +232,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Region on mesh to be decimated, it is updated during the operation. </p>
+
 </div>
 </div>
 <a id="a3c40fafa954eac9946ce998467a2449e"></a>
@@ -220,6 +247,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero </p>
 
 </div>
 </div>
@@ -235,6 +263,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Whether to allow collapsing edges having at least one vertex on (region) boundary. </p>
+
 </div>
 </div>
 <a id="a23c47583972b3b17dd89bc69cc2094cd"></a>
@@ -248,6 +278,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>If not null, then on input: if the vector is not empty then it is takes for initialization instead of form computation for all vertices; on output: quadratic form for each remaining vertex is returned there. </p>
 
 </div>
 </div>

@@ -163,10 +163,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae2617bee9a60314a8c6be669ec4323ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab85b7bf9ec873e3253b2e214ced07544"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ab85b7bf9ec873e3253b2e214ced07544">launchShut</a> ()</td></tr>
 <tr class="separator:ab85b7bf9ec873e3253b2e214ced07544"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dbf8afac0588bdfb31f1236c0632f66"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a0dbf8afac0588bdfb31f1236c0632f66">Viewer</a> ()</td></tr>
-<tr class="separator:a0dbf8afac0588bdfb31f1236c0632f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e842c6a1a61c62ed6ea360d0a115b70"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a9e842c6a1a61c62ed6ea360d0a115b70">~Viewer</a> ()</td></tr>
-<tr class="separator:a9e842c6a1a61c62ed6ea360d0a115b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab07dde78c9102b6d7aa6af7cc9b35957"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ab07dde78c9102b6d7aa6af7cc9b35957">isKnownMeshFile</a> (const std::filesystem::path &amp;file_name)</td></tr>
 <tr class="separator:ab07dde78c9102b6d7aa6af7cc9b35957"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af198143b063621c6f93b2c7e24cd5bff"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#af198143b063621c6f93b2c7e24cd5bff">load_file</a> (const std::filesystem::path &amp;file_name)</td></tr>
@@ -229,6 +225,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab15cbcc76bde57098ea4d4b751dd030b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca51049e3e01fcf772afa0039f059197"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#aca51049e3e01fcf772afa0039f059197">getFPS</a> () const</td></tr>
 <tr class="separator:aca51049e3e01fcf772afa0039f059197"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a790440df3478329e0d2f47f2a8f6462d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a790440df3478329e0d2f47f2a8f6462d">incrementForceRedrawFrames</a> (int i=1, bool swapOnLastOnly=false)</td></tr>
+<tr class="separator:a790440df3478329e0d2f47f2a8f6462d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31d6494e00e43d9afe0c2ca0c089c075"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a31d6494e00e43d9afe0c2ca0c089c075">getPresentViewports</a> () const</td></tr>
 <tr class="separator:a31d6494e00e43d9afe0c2ca0c089c075"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85d1a8c6bfde9c91a691c715da941564"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a85d1a8c6bfde9c91a691c715da941564">captureScreenShot</a> (const std::filesystem::path &amp;file) const</td></tr>
@@ -282,8 +280,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ae36ab6ddeefc3b90d6c2ebcac620525d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af422dfe9293d78a28787cddd0d9d3e6a"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API <a class="el" href="classMR_1_1Viewer.html">Viewer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#af422dfe9293d78a28787cddd0d9d3e6a">instance</a> ()</td></tr>
 <tr class="separator:af422dfe9293d78a28787cddd0d9d3e6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36eb16db77117431a7510a43c13194fb"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API <a class="el" href="classMR_1_1Viewer.html">Viewer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a36eb16db77117431a7510a43c13194fb">instanceRef</a> ()</td></tr>
+<tr class="separator:a36eb16db77117431a7510a43c13194fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0250df0d4b547c47e7107f2f167bf9ef"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API const <a class="el" href="classMR_1_1Viewer.html">Viewer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a0250df0d4b547c47e7107f2f167bf9ef">constInstance</a> ()</td></tr>
 <tr class="separator:a0250df0d4b547c47e7107f2f167bf9ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a378bd6bfde4f5cc7aa2814ebea12203d"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API const <a class="el" href="classMR_1_1Viewer.html">Viewer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a378bd6bfde4f5cc7aa2814ebea12203d">constInstanceRef</a> ()</td></tr>
+<tr class="separator:a378bd6bfde4f5cc7aa2814ebea12203d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -579,41 +581,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a0dbf8afac0588bdfb31f1236c0632f66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0dbf8afac0588bdfb31f1236c0632f66">&#9670;&nbsp;</a></span>Viewer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API MR::Viewer::Viewer </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9e842c6a1a61c62ed6ea360d0a115b70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e842c6a1a61c62ed6ea360d0a115b70">&#9670;&nbsp;</a></span>~Viewer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API MR::Viewer::~Viewer </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ad7cee4558939e02faf2e9e514800c80c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad7cee4558939e02faf2e9e514800c80c">&#9670;&nbsp;</a></span>append_viewport()</h2>
@@ -707,6 +674,31 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">static MRVIEWER_API const <a class="el" href="classMR_1_1Viewer.html">Viewer</a>* MR::Viewer::constInstance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a378bd6bfde4f5cc7aa2814ebea12203d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a378bd6bfde4f5cc7aa2814ebea12203d">&#9670;&nbsp;</a></span>constInstanceRef()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MRVIEWER_API const <a class="el" href="classMR_1_1Viewer.html">Viewer</a>&amp; MR::Viewer::constInstanceRef </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1092,6 +1084,34 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a790440df3478329e0d2f47f2a8f6462d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a790440df3478329e0d2f47f2a8f6462d">&#9670;&nbsp;</a></span>incrementForceRedrawFrames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::Viewer::incrementForceRedrawFrames </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>swapOnLastOnly</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af422dfe9293d78a28787cddd0d9d3e6a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af422dfe9293d78a28787cddd0d9d3e6a">&#9670;&nbsp;</a></span>instance()</h2>
 
@@ -1103,6 +1123,31 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">static MRVIEWER_API <a class="el" href="classMR_1_1Viewer.html">Viewer</a>* MR::Viewer::instance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a36eb16db77117431a7510a43c13194fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36eb16db77117431a7510a43c13194fb">&#9670;&nbsp;</a></span>instanceRef()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MRVIEWER_API <a class="el" href="classMR_1_1Viewer.html">Viewer</a>&amp; MR::Viewer::instanceRef </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>

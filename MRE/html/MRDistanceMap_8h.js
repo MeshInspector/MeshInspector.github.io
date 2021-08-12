@@ -8,7 +8,6 @@ var MRDistanceMap_8h =
     [ "contourSubtract", "MRDistanceMap_8h.html#a9b1dff71a2314ddf15b2c5e061aeb974", null ],
     [ "contourUnion", "MRDistanceMap_8h.html#a8e065b362d2209d635c73c331af6aa86", null ],
     [ "distanceMapFromContours", "MRDistanceMap_8h.html#add27197ab87f7d4018a40aebd88f748f", null ],
-    [ "distanceMapFromContours", "MRDistanceMap_8h.html#a1b86adf6f7ed180b9cb5a65fcf39e870", null ],
     [ "distanceMapTo2DIsoLine", "MRDistanceMap_8h.html#a5a871ca86bb0a0bdf58424f26aa40567", null ],
     [ "distanceMapTo2DIsoLine", "MRDistanceMap_8h.html#af25e70713ecd1614cb4750e23e393758", null ],
     [ "distanceMapTo2DIsoLine", "MRDistanceMap_8h.html#a04533381d1c1a483c5a9f147652ce67f", null ],

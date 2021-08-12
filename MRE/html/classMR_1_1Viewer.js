@@ -26,8 +26,6 @@ var classMR_1_1Viewer =
       [ "Pan", "classMR_1_1Viewer.html#a1e0f5398c54b70bf130b28dbe6795e37af6d4a17b27da35c2d90ce13801f36782", null ],
       [ "Translation", "classMR_1_1Viewer.html#a1e0f5398c54b70bf130b28dbe6795e37a6dd08874f83507e9c7b23f1a46b7fa7c", null ]
     ] ],
-    [ "Viewer", "classMR_1_1Viewer.html#a0dbf8afac0588bdfb31f1236c0632f66", null ],
-    [ "~Viewer", "classMR_1_1Viewer.html#a9e842c6a1a61c62ed6ea360d0a115b70", null ],
     [ "append_viewport", "classMR_1_1Viewer.html#ad7cee4558939e02faf2e9e514800c80c", null ],
     [ "appendHistoryAction", "classMR_1_1Viewer.html#a1a20bdc9d56370d96089ed755fd73ad5", null ],
     [ "captureScreenShot", "classMR_1_1Viewer.html#a85d1a8c6bfde9c91a691c715da941564", null ],
@@ -50,6 +48,7 @@ var classMR_1_1Viewer =
     [ "getViewports", "classMR_1_1Viewer.html#a507502ce28fcd0cb9281da4c20a366b3", null ],
     [ "globalHistoryRedo", "classMR_1_1Viewer.html#ae36f89734b1c96d9a03e4957f38f7b6a", null ],
     [ "globalHistoryUndo", "classMR_1_1Viewer.html#ab8b98e5129d643d9a893c28e17ebe388", null ],
+    [ "incrementForceRedrawFrames", "classMR_1_1Viewer.html#a790440df3478329e0d2f47f2a8f6462d", null ],
     [ "interruptWindowClose", "classMR_1_1Viewer.html#af2b6e2aad9eb5d9f49145edf383690f7", null ],
     [ "isAlphaSortAvailable", "classMR_1_1Viewer.html#a0cd6649b2287a6bfeb70136744689060", null ],
     [ "isAlphaSortEnabled", "classMR_1_1Viewer.html#a734edab571108af641cc046a7fae2b88", null ],

@@ -97,22 +97,35 @@ $(document).ready(function(){initNavTree('structMRE_1_1DecimateResult.html','');
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMRE_1_1DecimateResult-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MRE::DecimateResult Struct Reference</div>  </div>
+<div class="title">MRE::DecimateResult Struct Reference<div class="ingroups"><a class="el" href="group__DecimateGroup.html">Decimate overview</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Results of <a class="el" href="group__DecimateGroup.html#ga9f4ed5382008a7fff13610607c6c5719" title="Collapse edges in mesh region according to the settings.">MRE::decimateMesh</a>.  
+ <a href="structMRE_1_1DecimateResult.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MREMeshDecimate_8h_source.html">MREMeshDecimate.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ab3a3a740d5e704f73a85f89e159ba275"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateResult.html#ab3a3a740d5e704f73a85f89e159ba275">vertsDeleted</a> = 0</td></tr>
+<tr class="memdesc:ab3a3a740d5e704f73a85f89e159ba275"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number deleted verts. Same as the number of performed collapses.  <a href="structMRE_1_1DecimateResult.html#ab3a3a740d5e704f73a85f89e159ba275">More...</a><br /></td></tr>
 <tr class="separator:ab3a3a740d5e704f73a85f89e159ba275"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cc65bd2a287404b8b54db5071ab7068"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateResult.html#a4cc65bd2a287404b8b54db5071ab7068">facesDeleted</a> = 0</td></tr>
+<tr class="memdesc:a4cc65bd2a287404b8b54db5071ab7068"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number deleted faces.  <a href="structMRE_1_1DecimateResult.html#a4cc65bd2a287404b8b54db5071ab7068">More...</a><br /></td></tr>
 <tr class="separator:a4cc65bd2a287404b8b54db5071ab7068"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa59bcae3d77f594ccd1ef4c2f44f3af2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateResult.html#aa59bcae3d77f594ccd1ef4c2f44f3af2">errorIntroduced</a> = 0</td></tr>
+<tr class="memdesc:aa59bcae3d77f594ccd1ef4c2f44f3af2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max different (as distance) between original mesh and result mesh.  <a href="structMRE_1_1DecimateResult.html#aa59bcae3d77f594ccd1ef4c2f44f3af2">More...</a><br /></td></tr>
 <tr class="separator:aa59bcae3d77f594ccd1ef4c2f44f3af2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Results of <a class="el" href="group__DecimateGroup.html#ga9f4ed5382008a7fff13610607c6c5719" title="Collapse edges in mesh region according to the settings.">MRE::decimateMesh</a>. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__DecimateGroup.html#ga9f4ed5382008a7fff13610607c6c5719">decimateMesh</a> </dd>
+<dd>
+<a class="el" href="group__DecimateGroup.html#ga9c9b6750549d4bf9a222a9d5bd509a43">decimateParallelMesh</a> </dd>
+<dd>
+<a class="el" href="group__DecimateGroup.html#ga51ab93bf64af79d363344013e7181856">resolveMeshDegenerations</a> </dd></dl>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="aa59bcae3d77f594ccd1ef4c2f44f3af2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa59bcae3d77f594ccd1ef4c2f44f3af2">&#9670;&nbsp;</a></span>errorIntroduced</h2>
 
@@ -124,6 +137,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Max different (as distance) between original mesh and result mesh. </p>
 
 </div>
 </div>
@@ -139,6 +154,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Number deleted faces. </p>
+
 </div>
 </div>
 <a id="ab3a3a740d5e704f73a85f89e159ba275"></a>
@@ -152,6 +169,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Number deleted verts. Same as the number of performed collapses. </p>
 
 </div>
 </div>

@@ -1,9 +1,11 @@
 var hierarchy =
 [
     [ "MR::AABBTree", "classMR_1_1AABBTree.html", null ],
-    [ "MR::AABBTreeNode< LeafId >", "structMR_1_1AABBTreeNode.html", null ],
+    [ "MR::AABBTreeNode< T >", "structMR_1_1AABBTreeNode.html", null ],
     [ "MR::AABBTreePoints", "classMR_1_1AABBTreePoints.html", null ],
     [ "MR::AABBTreePolyline", "classMR_1_1AABBTreePolyline.html", null ],
+    [ "MR::AABBTreePolyline2", "classMR_1_1AABBTreePolyline2.html", null ],
+    [ "MR::ABBTreeTraits< L, B >", "structMR_1_1ABBTreeTraits.html", null ],
     [ "MR::AffineXf3< T >", "structMR_1_1AffineXf3.html", null ],
     [ "MR::AffineXf3< double >", "structMR_1_1AffineXf3.html", null ],
     [ "MR::AffineXf3< float >", "structMR_1_1AffineXf3.html", null ],
@@ -22,7 +24,7 @@ var hierarchy =
     [ "MR::Box< V >", "structMR_1_1Box.html", null ],
     [ "MR::Box< float >", "structMR_1_1Box.html", null ],
     [ "MR::Box< int >", "structMR_1_1Box.html", null ],
-    [ "MR::BoxedLeaf< LeafId >", "structMR_1_1BoxedLeaf.html", null ],
+    [ "MR::BoxedLeaf< T >", "structMR_1_1BoxedLeaf.html", null ],
     [ "MR::Color", "structMR_1_1Color.html", null ],
     [ "MR::Config", "classMR_1_1Config.html", null ],
     [ "Connectables", null, [
@@ -109,6 +111,7 @@ var hierarchy =
           [ "MR::PointsSampler", "classMR_1_1PointsSampler.html", null ],
           [ "MR::PositionVertsSmoothlyPlugin", "classMR_1_1PositionVertsSmoothlyPlugin.html", null ],
           [ "MR::ProgressBarTest", "classMR_1_1ProgressBarTest.html", null ],
+          [ "MR::PythonPlugin", "classMR_1_1PythonPlugin.html", null ],
           [ "MR::RegularMapMeshingPlugin", "classMR_1_1RegularMapMeshingPlugin.html", null ],
           [ "MR::RelaxPlugin", "classMR_1_1RelaxPlugin.html", null ],
           [ "MR::RemesherPlugin", "classMR_1_1RemesherPlugin.html", null ],
@@ -202,7 +205,9 @@ var hierarchy =
     [ "MR::IConnectable", "structMR_1_1IConnectable.html", [
       [ "MR::ConnectionHolder", "structMR_1_1ConnectionHolder.html", [
         [ "MR::CharPressedListener", "structMR_1_1CharPressedListener.html", null ],
-        [ "MR::DragDropListener", "structMR_1_1DragDropListener.html", null ],
+        [ "MR::DragDropListener", "structMR_1_1DragDropListener.html", [
+          [ "MR::PythonPlugin", "classMR_1_1PythonPlugin.html", null ]
+        ] ],
         [ "MR::DrawListener", "structMR_1_1DrawListener.html", null ],
         [ "MR::InterruptCloseListener", "structMR_1_1InterruptCloseListener.html", null ],
         [ "MR::KeyDownListener", "structMR_1_1KeyDownListener.html", null ],
@@ -342,8 +347,12 @@ var hierarchy =
     [ "MR::PointOnFace", "structMR_1_1PointOnFace.html", null ],
     [ "MR::PointToPlaneAligningTransform", "classMR_1_1PointToPlaneAligningTransform.html", null ],
     [ "MR::PointToPointAligningTransform", "classMR_1_1PointToPointAligningTransform.html", null ],
-    [ "MR::Polyline", "structMR_1_1Polyline.html", null ],
+    [ "MR::Polyline2ProjectionResult", "structMR_1_1Polyline2ProjectionResult.html", null ],
     [ "MR::PolylineProjectionResult", "structMR_1_1PolylineProjectionResult.html", null ],
+    [ "MR::PolylineTopology", "structMR_1_1PolylineTopology.html", [
+      [ "MR::Polyline", "structMR_1_1Polyline.html", null ],
+      [ "MR::Polyline2", "structMR_1_1Polyline2.html", null ]
+    ] ],
     [ "MR::PreciseCollisionResult", "structMR_1_1PreciseCollisionResult.html", null ],
     [ "MR::PreciseVertCoords", "structMR_1_1PreciseVertCoords.html", null ],
     [ "MR::ProgressBar", "classMR_1_1ProgressBar.html", null ],
@@ -365,8 +374,8 @@ var hierarchy =
     [ "MR::SceneRoot", "classMR_1_1SceneRoot.html", null ],
     [ "MR::ScopeHistory", "classMR_1_1ScopeHistory.html", null ],
     [ "MR::SegmEndColors", "structMR_1_1SegmEndColors.html", null ],
-    [ "MR::Polyline::Segment", "structMR_1_1Polyline_1_1Segment.html", null ],
-    [ "MR::Polyline::SegmentSequence", "structMR_1_1Polyline_1_1SegmentSequence.html", null ],
+    [ "MR::PolylineTopology::Segment", "structMR_1_1PolylineTopology_1_1Segment.html", null ],
+    [ "MR::PolylineTopology::SegmentSequence", "structMR_1_1PolylineTopology_1_1SegmentSequence.html", null ],
     [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", null ],
     [ "MR::ShadersHolder", "classMR_1_1ShadersHolder.html", null ],
     [ "MR::Viewer::SignalStopHandler", "structMR_1_1Viewer_1_1SignalStopHandler.html", null ],
@@ -402,6 +411,9 @@ var hierarchy =
     [ "MR::UniqueThreadSafeOwner< AABBTreePolyline >", "classMR_1_1UniqueThreadSafeOwner.html", [
       [ "MR::AABBTreePolylineOwner", "classMR_1_1AABBTreePolylineOwner.html", null ]
     ] ],
+    [ "MR::UniqueThreadSafeOwner< AABBTreePolyline2 >", "classMR_1_1UniqueThreadSafeOwner.html", [
+      [ "MR::AABBTreePolyline2Owner", "classMR_1_1AABBTreePolyline2Owner.html", null ]
+    ] ],
     [ "MR::UVCoord", "structMR_1_1UVCoord.html", null ],
     [ "MR::Vector< T, I >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector2< T >", "structMR_1_1Vector2.html", null ],
@@ -422,10 +434,11 @@ var hierarchy =
     [ "MR::Vector< int, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::Color, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::Id< EdgeTag >, MR::Id >", "classMR_1_1Vector.html", null ],
-    [ "MR::Vector< MR::Polyline::Segment, MR::Id >", "classMR_1_1Vector.html", null ],
-    [ "MR::Vector< MR::Polyline::SegmentSequence, MR::Id >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< MR::PolylineTopology::Segment, MR::Id >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< MR::PolylineTopology::SegmentSequence, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::QuadraticForm3, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::UVCoord, MR::Id >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< MR::Vector2, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::Vector3, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< Node, NodeId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< TriangleCornerNormals, MR::Id >", "classMR_1_1Vector.html", null ],

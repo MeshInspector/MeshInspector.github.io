@@ -1,5 +1,5 @@
 var structMR_1_1BoxedLeaf =
 [
-    [ "box", "structMR_1_1BoxedLeaf.html#a95c2c24de9d26ac3d57f50d1bb54ca89", null ],
-    [ "leafId", "structMR_1_1BoxedLeaf.html#a36500d26e5ac821988bbe9a1191104bb", null ]
+    [ "box", "structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5", null ],
+    [ "leafId", "structMR_1_1BoxedLeaf.html#a94f8ddab16da6ccb873e9ef25f7b116d", null ]
 ];

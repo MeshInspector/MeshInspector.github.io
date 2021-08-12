@@ -128,12 +128,12 @@ Also such scripts can import mrviewer module to have access to rendering functio
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">//init sould be called only once for each module</span></div>
-<div class="line"><a class="code" href="MRPython_8h.html#a315359e8ba3513ba5ecc6da1ae07b1c0">INIT_PYTHON_MODULE</a>( moduleName )</div>
+<div class="line"><a class="code" href="MRPython_8h.html#ae5ca7c53eb569ed9f6cf8fb01846e429">MR_INIT_PYTHON_MODULE</a>( moduleName )</div>
 <div class="line"> </div>
-<div class="line"><a class="code" href="MRPython_8h.html#a13654151e7ff83935ab7ada7fa8426ef">ADD_PYTHON_FUNCTION</a>( moduleName, examplePythonFunc, pythonExample);</div>
+<div class="line"><a class="code" href="MRPython_8h.html#ad3d8d8d2e659e278ea5e86f49078ddae">MR_ADD_PYTHON_FUNCTION</a>( moduleName, examplePythonFunc, pythonExample);</div>
 <div class="ttc" id="aMRPython_8h_html"><div class="ttname"><a href="MRPython_8h.html">MRPython.h</a></div></div>
-<div class="ttc" id="aMRPython_8h_html_a13654151e7ff83935ab7ada7fa8426ef"><div class="ttname"><a href="MRPython_8h.html#a13654151e7ff83935ab7ada7fa8426ef">ADD_PYTHON_FUNCTION</a></div><div class="ttdeci">#define ADD_PYTHON_FUNCTION(moduleName, name, func, description)</div><div class="ttdef"><b>Definition:</b> MRPython.h:29</div></div>
-<div class="ttc" id="aMRPython_8h_html_a315359e8ba3513ba5ecc6da1ae07b1c0"><div class="ttname"><a href="MRPython_8h.html#a315359e8ba3513ba5ecc6da1ae07b1c0">INIT_PYTHON_MODULE</a></div><div class="ttdeci">#define INIT_PYTHON_MODULE(moduleName)</div><div class="ttdef"><b>Definition:</b> MRPython.h:20</div></div>
+<div class="ttc" id="aMRPython_8h_html_ad3d8d8d2e659e278ea5e86f49078ddae"><div class="ttname"><a href="MRPython_8h.html#ad3d8d8d2e659e278ea5e86f49078ddae">MR_ADD_PYTHON_FUNCTION</a></div><div class="ttdeci">#define MR_ADD_PYTHON_FUNCTION(moduleName, name, func, description)</div><div class="ttdef"><b>Definition:</b> MRPython.h:20</div></div>
+<div class="ttc" id="aMRPython_8h_html_ae5ca7c53eb569ed9f6cf8fb01846e429"><div class="ttname"><a href="MRPython_8h.html#ae5ca7c53eb569ed9f6cf8fb01846e429">MR_INIT_PYTHON_MODULE</a></div><div class="ttdeci">#define MR_INIT_PYTHON_MODULE(moduleName)</div><div class="ttdef"><b>Definition:</b> MRPython.h:11</div></div>
 </div><!-- fragment --><p><b>Functions</b> <code>MeshRUs/pythonScripts</code> folder contain scripts which could be used as examples for developers or testers. <b>Python</b> <b>library</b> allows to list all <code>mrmesh.*</code> functions with standart <code>print(dir(mrmesh))</code> call. You can list all available python functuins by running <code>python MeshRUs/python_scripts/functions_list.py</code></p>
 <dl class="section note"><dt>Note</dt><dd>Not all functions are available anytime, for example functions that triggers rendering are not available in direct python call, but available with executable run</dd></dl>
 <p>Some functions are listed here:</p>

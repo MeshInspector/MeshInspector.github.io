@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['surface_20boolean_20overview_5854',['Surface Boolean overview',['../group__BooleanGroup.html',1,'']]]
+  ['fill_2fstitch_20holes_20overview_5761',['Fill/Stitch Holes overview',['../group__FillHoleGroup.html',1,'']]]
 ];
