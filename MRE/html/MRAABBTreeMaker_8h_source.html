@@ -105,11 +105,11 @@ $(document).ready(function(){initNavTree('MRAABBTreeMaker_8h_source.html',''); i
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> LeafId&gt;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
 <div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="structMR_1_1BoxedLeaf.html">   10</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="structMR_1_1BoxedLeaf.html#a95c2c24de9d26ac3d57f50d1bb54ca89">   12</a></span>&#160;    <a class="code" href="structMR_1_1Box.html">Box3f</a> <a class="code" href="structMR_1_1BoxedLeaf.html#a95c2c24de9d26ac3d57f50d1bb54ca89">box</a>;</div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="structMR_1_1BoxedLeaf.html#a36500d26e5ac821988bbe9a1191104bb">   13</a></span>&#160;    LeafId <a class="code" href="structMR_1_1BoxedLeaf.html#a36500d26e5ac821988bbe9a1191104bb">leafId</a>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5">   12</a></span>&#160;    <span class="keyword">typename</span> T::BoxT <a class="code" href="structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5">box</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="structMR_1_1BoxedLeaf.html#a94f8ddab16da6ccb873e9ef25f7b116d">   13</a></span>&#160;    <span class="keyword">typename</span> T::LeafId <a class="code" href="structMR_1_1BoxedLeaf.html#a94f8ddab16da6ccb873e9ef25f7b116d">leafId</a>;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;};</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">// returns the number of nodes in the binary tree with given number of leaves</span></div>
@@ -119,20 +119,19 @@ $(document).ready(function(){initNavTree('MRAABBTreeMaker_8h_source.html',''); i
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> 2 * numLeaves - 1;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> LeafId&gt;</div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="namespaceMR.html#acad370a90f4f24318c69a35ddf6c5bb2">   24</a></span>&#160;<a class="code" href="classMR_1_1Vector.html">AABBTreeNodeVec&lt;LeafId&gt;</a> <a class="code" href="namespaceMR.html#acad370a90f4f24318c69a35ddf6c5bb2">makeAABBTreeNodeVec</a>( std::vector&lt;<a class="code" href="structMR_1_1BoxedLeaf.html">BoxedLeaf&lt;LeafId&gt;</a>&gt; boxedLeaves );</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="namespaceMR.html#a33d7c409b7a64b151be684a478aa7642">   24</a></span>&#160;<a class="code" href="classMR_1_1Vector.html">AABBTreeNodeVec&lt;T&gt;</a> <a class="code" href="namespaceMR.html#a33d7c409b7a64b151be684a478aa7642">makeAABBTreeNodeVec</a>( std::vector&lt;<a class="code" href="structMR_1_1BoxedLeaf.html">BoxedLeaf&lt;T&gt;</a>&gt; boxedLeaves );</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="aMRAABBTreeNode_8h_html"><div class="ttname"><a href="MRAABBTreeNode_8h.html">MRAABBTreeNode.h</a></div></div>
 <div class="ttc" id="aMRVector_8h_html"><div class="ttname"><a href="MRVector_8h.html">MRVector.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdef"><b>Definition:</b> MRVector.h:15</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:7</div></div>
+<div class="ttc" id="anamespaceMR_html_a33d7c409b7a64b151be684a478aa7642"><div class="ttname"><a href="namespaceMR.html#a33d7c409b7a64b151be684a478aa7642">MR::makeAABBTreeNodeVec</a></div><div class="ttdeci">AABBTreeNodeVec&lt; T &gt; makeAABBTreeNodeVec(std::vector&lt; BoxedLeaf&lt; T &gt;&gt; boxedLeaves)</div></div>
 <div class="ttc" id="anamespaceMR_html_a3c1bb6417aaa769fa4156f2edac91749"><div class="ttname"><a href="namespaceMR.html#a3c1bb6417aaa769fa4156f2edac91749">MR::getNumNodes</a></div><div class="ttdeci">int getNumNodes(int numLeaves)</div><div class="ttdef"><b>Definition:</b> MRAABBTreeMaker.h:17</div></div>
-<div class="ttc" id="anamespaceMR_html_acad370a90f4f24318c69a35ddf6c5bb2"><div class="ttname"><a href="namespaceMR.html#acad370a90f4f24318c69a35ddf6c5bb2">MR::makeAABBTreeNodeVec</a></div><div class="ttdeci">AABBTreeNodeVec&lt; LeafId &gt; makeAABBTreeNodeVec(std::vector&lt; BoxedLeaf&lt; LeafId &gt;&gt; boxedLeaves)</div></div>
-<div class="ttc" id="astructMR_1_1Box_html"><div class="ttname"><a href="structMR_1_1Box.html">MR::Box</a></div><div class="ttdef"><b>Definition:</b> MRBox.h:19</div></div>
 <div class="ttc" id="astructMR_1_1BoxedLeaf_html"><div class="ttname"><a href="structMR_1_1BoxedLeaf.html">MR::BoxedLeaf</a></div><div class="ttdef"><b>Definition:</b> MRAABBTreeMaker.h:11</div></div>
-<div class="ttc" id="astructMR_1_1BoxedLeaf_html_a36500d26e5ac821988bbe9a1191104bb"><div class="ttname"><a href="structMR_1_1BoxedLeaf.html#a36500d26e5ac821988bbe9a1191104bb">MR::BoxedLeaf::leafId</a></div><div class="ttdeci">LeafId leafId</div><div class="ttdef"><b>Definition:</b> MRAABBTreeMaker.h:13</div></div>
-<div class="ttc" id="astructMR_1_1BoxedLeaf_html_a95c2c24de9d26ac3d57f50d1bb54ca89"><div class="ttname"><a href="structMR_1_1BoxedLeaf.html#a95c2c24de9d26ac3d57f50d1bb54ca89">MR::BoxedLeaf::box</a></div><div class="ttdeci">Box3f box</div><div class="ttdef"><b>Definition:</b> MRAABBTreeMaker.h:12</div></div>
+<div class="ttc" id="astructMR_1_1BoxedLeaf_html_a7e9f371791aa795b1f0c9525f37e40e5"><div class="ttname"><a href="structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5">MR::BoxedLeaf::box</a></div><div class="ttdeci">T::BoxT box</div><div class="ttdef"><b>Definition:</b> MRAABBTreeMaker.h:12</div></div>
+<div class="ttc" id="astructMR_1_1BoxedLeaf_html_a94f8ddab16da6ccb873e9ef25f7b116d"><div class="ttname"><a href="structMR_1_1BoxedLeaf.html#a94f8ddab16da6ccb873e9ef25f7b116d">MR::BoxedLeaf::leafId</a></div><div class="ttdeci">T::LeafId leafId</div><div class="ttdef"><b>Definition:</b> MRAABBTreeMaker.h:13</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

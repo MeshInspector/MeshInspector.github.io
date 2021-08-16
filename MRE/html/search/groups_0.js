@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fill_2fstitch_20holes_20overview_5853',['Fill/Stitch Holes overview',['../group__FillHoleGroup.html',1,'']]]
+  ['decimate_20overview_5760',['Decimate overview',['../group__DecimateGroup.html',1,'']]]
 ];

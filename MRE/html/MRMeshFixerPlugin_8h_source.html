@@ -107,7 +107,7 @@ $(document).ready(function(){initNavTree('MRMeshFixerPlugin_8h_source.html','');
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">class </span>ObjectMesh;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classMR_1_1MeshFixerPlugin.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1MeshFixerPlugin.html">MeshFixerPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">CustomPlugin</a></div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classMR_1_1MeshFixerPlugin.html">   11</a></span>&#160;<span class="keyword">class </span>MRVIEWER_CLASS <a class="code" href="classMR_1_1MeshFixerPlugin.html">MeshFixerPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">CustomPlugin</a></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classMR_1_1MeshFixerPlugin.html#a212b83a6af78c33e24e442c398d0d8c1">   14</a></span>&#160;    MRVIEWER_API <a class="code" href="classMR_1_1MeshFixerPlugin.html#a212b83a6af78c33e24e442c398d0d8c1">MeshFixerPlugin</a>();</div>
@@ -123,7 +123,7 @@ $(document).ready(function(){initNavTree('MRMeshFixerPlugin_8h_source.html','');
 <div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2dba28982eaa76f93306fbcb898d4973fba9">   24</a></span>&#160;        <a class="code" href="classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2dba28982eaa76f93306fbcb898d4973fba9">SelfIntersections</a>,</div>
 <div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2dba9e2ef4de9e7e19d8609f2bfba0f3b483">   25</a></span>&#160;        <a class="code" href="classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2dba9e2ef4de9e7e19d8609f2bfba0f3b483">Spikes</a>,</div>
 <div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2dba370d22e750ece55c2a5a5daca5647e90">   26</a></span>&#160;        <a class="code" href="classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2dba370d22e750ece55c2a5a5daca5647e90">SmallTunnels</a>,</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2dbab5404ab37835c8073d517a05de47f64e">Count</a></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        Count</div>
 <div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2dbab5404ab37835c8073d517a05de47f64e">   28</a></span>&#160;    };</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="comment">// fixer for degenerate faces, should be present in MRE</span></div>
@@ -155,19 +155,17 @@ $(document).ready(function(){initNavTree('MRMeshFixerPlugin_8h_source.html','');
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    } data_;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">void</span> updateAll_();</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">void</span> updateData_( <a class="code" href="classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2db">DegenerationType</a> type );</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">void</span> updateData_( DegenerationType type );</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">void</span> drawTypedDialog_( <a class="code" href="classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2db">DegenerationType</a> type, <span class="keywordtype">float</span> menuScaling );</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">void</span> drawTypedDialog_( DegenerationType type, <span class="keywordtype">float</span> menuScaling );</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    std::string getTypeLabel_( <a class="code" href="classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2db">DegenerationType</a> type );</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    std::string getTypeLabel_( DegenerationType type );</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    std::shared_ptr&lt;ObjectMesh&gt; obj_;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    boost::signals2::connection meshChangeConnection_;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;};</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;MRVIEWER_API <span class="keyword">extern</span> MeshFixerPlugin <a class="code" href="namespaceMR.html#abf390dd8bf138b0f65418ebe15484f7d">MeshFixerPluginInstance_</a>;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;}</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;}</div>
 <div class="ttc" id="aMRBitSet_8h_html"><div class="ttname"><a href="MRBitSet_8h.html">MRBitSet.h</a></div></div>
 <div class="ttc" id="aMRCustomPlugin_8h_html"><div class="ttname"><a href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a></div></div>
 <div class="ttc" id="aMRMeshFixer_8h_html"><div class="ttname"><a href="MRMeshFixer_8h.html">MRMeshFixer.h</a></div></div>
@@ -180,14 +178,12 @@ $(document).ready(function(){initNavTree('MRMeshFixerPlugin_8h_source.html','');
 <div class="ttc" id="aclassMR_1_1MeshFixerPlugin_html_a24dcce9e1b00298ff4859a83aff4d2dba370d22e750ece55c2a5a5daca5647e90"><div class="ttname"><a href="classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2dba370d22e750ece55c2a5a5daca5647e90">MR::MeshFixerPlugin::SmallTunnels</a></div><div class="ttdeci">@ SmallTunnels</div><div class="ttdef"><b>Definition:</b> MRMeshFixerPlugin.h:26</div></div>
 <div class="ttc" id="aclassMR_1_1MeshFixerPlugin_html_a24dcce9e1b00298ff4859a83aff4d2dba7e5b0a4eb0fdf2871149ce01ad7ac142"><div class="ttname"><a href="classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2dba7e5b0a4eb0fdf2871149ce01ad7ac142">MR::MeshFixerPlugin::MultipleEdges</a></div><div class="ttdeci">@ MultipleEdges</div><div class="ttdef"><b>Definition:</b> MRMeshFixerPlugin.h:23</div></div>
 <div class="ttc" id="aclassMR_1_1MeshFixerPlugin_html_a24dcce9e1b00298ff4859a83aff4d2dba9e2ef4de9e7e19d8609f2bfba0f3b483"><div class="ttname"><a href="classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2dba9e2ef4de9e7e19d8609f2bfba0f3b483">MR::MeshFixerPlugin::Spikes</a></div><div class="ttdeci">@ Spikes</div><div class="ttdef"><b>Definition:</b> MRMeshFixerPlugin.h:25</div></div>
-<div class="ttc" id="aclassMR_1_1MeshFixerPlugin_html_a24dcce9e1b00298ff4859a83aff4d2dbab5404ab37835c8073d517a05de47f64e"><div class="ttname"><a href="classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2dbab5404ab37835c8073d517a05de47f64e">MR::MeshFixerPlugin::Count</a></div><div class="ttdeci">@ Count</div><div class="ttdef"><b>Definition:</b> MRMeshFixerPlugin.h:27</div></div>
 <div class="ttc" id="aclassMR_1_1MeshFixerPlugin_html_a24dcce9e1b00298ff4859a83aff4d2dbae4999e847f8fb9d4206873e2a8a46410"><div class="ttname"><a href="classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2dbae4999e847f8fb9d4206873e2a8a46410">MR::MeshFixerPlugin::DegenerateFaces</a></div><div class="ttdeci">@ DegenerateFaces</div><div class="ttdef"><b>Definition:</b> MRMeshFixerPlugin.h:22</div></div>
 <div class="ttc" id="aclassMR_1_1MeshFixerPlugin_html_aaf55c7f1c85a1a802c9e9d02726761fe"><div class="ttname"><a href="classMR_1_1MeshFixerPlugin.html#aaf55c7f1c85a1a802c9e9d02726761fe">MR::MeshFixerPlugin::drawDialog</a></div><div class="ttdeci">virtual MRVIEWER_API void drawDialog(float menuScaling, ImGuiContext *ctx) override</div></div>
 <div class="ttc" id="aclassMR_1_1MeshFixerPlugin_html_aed4a3c99f66e8e1fe91f5d64738754cc"><div class="ttname"><a href="classMR_1_1MeshFixerPlugin.html#aed4a3c99f66e8e1fe91f5d64738754cc">MR::MeshFixerPlugin::isAvailable</a></div><div class="ttdeci">virtual MRVIEWER_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:7</div></div>
 <div class="ttc" id="anamespaceMR_html_a0e5b61f8edf7a896c3f2f4a6eeb4691d"><div class="ttname"><a href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">MR::FaceBitSet</a></div><div class="ttdeci">TaggedBitSet&lt; FaceTag &gt; FaceBitSet</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:50</div></div>
 <div class="ttc" id="anamespaceMR_html_ab615a9e54d407017abd63d056ce4be66"><div class="ttname"><a href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">MR::VertBitSet</a></div><div class="ttdeci">TaggedBitSet&lt; VertTag &gt; VertBitSet</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:51</div></div>
-<div class="ttc" id="anamespaceMR_html_abf390dd8bf138b0f65418ebe15484f7d"><div class="ttname"><a href="namespaceMR.html#abf390dd8bf138b0f65418ebe15484f7d">MR::MeshFixerPluginInstance_</a></div><div class="ttdeci">MRVIEWER_API MeshFixerPlugin MeshFixerPluginInstance_</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition:</b> MRMesh.h:13</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

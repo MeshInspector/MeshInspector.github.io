@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['coloringtype_5649',['ColoringType',['../namespaceMR.html#a270a25a8ef13e07e59e7070834efc33f',1,'MR']]],
-  ['customplugintabs_5650',['CustomPluginTabs',['../namespaceMR.html#a2d7202863cb05ff9d821e23e1ba3f309',1,'MR']]]
+  ['coloringtype_5558',['ColoringType',['../namespaceMR.html#a270a25a8ef13e07e59e7070834efc33f',1,'MR']]],
+  ['customplugintabs_5559',['CustomPluginTabs',['../namespaceMR.html#a2d7202863cb05ff9d821e23e1ba3f309',1,'MR']]]
 ];

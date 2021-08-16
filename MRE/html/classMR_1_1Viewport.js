@@ -40,7 +40,7 @@ var classMR_1_1Viewport =
     [ "getViewMatrix", "classMR_1_1Viewport.html#a76203c0eb255b984813ef77fbd0c1d7d", null ],
     [ "getViewportRect", "classMR_1_1Viewport.html#a8239c895eb5f00284d87d5dfb22d0406", null ],
     [ "getViewXf", "classMR_1_1Viewport.html#a3b6da13a15a322ebd3ea7c51bd2d4fb4", null ],
-    [ "init", "classMR_1_1Viewport.html#a067ae9b70da8d98fec5d61c022f54a9f", null ],
+    [ "init", "classMR_1_1Viewport.html#a46c4638cf48b92aebc19e3212ec421ec", null ],
     [ "multiPickObjects", "classMR_1_1Viewport.html#a2b1a6e5e68a3123aac5caafba7bf9079", null ],
     [ "operator=", "classMR_1_1Viewport.html#a22f6980c8a9988bc005b98e8d5dde42a", null ],
     [ "pick_render_object", "classMR_1_1Viewport.html#afbd763b1cfd8fceb2d5a66dee6830e70", null ],

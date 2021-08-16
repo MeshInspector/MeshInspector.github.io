@@ -97,22 +97,31 @@ $(document).ready(function(){initNavTree('structMRE_1_1TriangulationParameters.h
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMRE_1_1TriangulationParameters-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MRE::TriangulationParameters Struct Reference</div>  </div>
+<div class="title">MRE::TriangulationParameters Struct Reference<div class="ingroups"><a class="el" href="group__PointCloudTriangulationGroup.html">PointCloud triangulation overview</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Parameters of point cloud triangulation.  
+ <a href="structMRE_1_1TriangulationParameters.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MREPointCloudTriangulation_8h_source.html">MREPointCloudTriangulation.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:af400aee87df5591d4dbec3a2391a5197"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1TriangulationParameters.html#af400aee87df5591d4dbec3a2391a5197">avgNumNeighbours</a> {40}</td></tr>
+<tr class="memdesc:af400aee87df5591d4dbec3a2391a5197"><td class="mdescLeft">&#160;</td><td class="mdescRight">Average number of neighbors for optimazed local triangulation.  <a href="structMRE_1_1TriangulationParameters.html#af400aee87df5591d4dbec3a2391a5197">More...</a><br /></td></tr>
 <tr class="separator:af400aee87df5591d4dbec3a2391a5197"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5b9a619e31c0c6a290f58f7544d5ee7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1TriangulationParameters.html#aa5b9a619e31c0c6a290f58f7544d5ee7">critAngle</a> {MR::PI2_F}</td></tr>
+<tr class="memdesc:aa5b9a619e31c0c6a290f58f7544d5ee7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Critical angle of triangles in local triangulation (angle between triangles in fan should be less then this value)  <a href="structMRE_1_1TriangulationParameters.html#aa5b9a619e31c0c6a290f58f7544d5ee7">More...</a><br /></td></tr>
 <tr class="separator:aa5b9a619e31c0c6a290f58f7544d5ee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb46c0fd74910004b6de69db2ec0c097"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1TriangulationParameters.html#abb46c0fd74910004b6de69db2ec0c097">critHoleLength</a> {-FLT_MAX}</td></tr>
+<tr class="memdesc:abb46c0fd74910004b6de69db2ec0c097"><td class="mdescLeft">&#160;</td><td class="mdescRight">Critical length of hole (all holes with length less then this value will be filled)  <a href="structMRE_1_1TriangulationParameters.html#abb46c0fd74910004b6de69db2ec0c097">More...</a><br /></td></tr>
 <tr class="separator:abb46c0fd74910004b6de69db2ec0c097"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Parameters of point cloud triangulation. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__PointCloudTriangulationGroup.html#ga0e2755dc75c01fe3f58709fb3d0940bf">triangulatePointCloud</a> </dd></dl>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="af400aee87df5591d4dbec3a2391a5197"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af400aee87df5591d4dbec3a2391a5197">&#9670;&nbsp;</a></span>avgNumNeighbours</h2>
 
@@ -124,6 +133,24 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Average number of neighbors for optimazed local triangulation. </p>
+<p>The triangulation calculates the radius at which the average number of neighboring points is closest to this parameter. This radius is used to determine the local triangulation zone. </p><dl class="section note"><dt>Note</dt><dd>Too small value can make not optimal triangulation and additional holes<br  />
+Too big value increases difficulty of optimization and can make local optimum of local triangulation</dd></dl>
+<a class="anchor" id="TriangulationParameters::avgNumNeighbours_examples"></a>
+<table border="0">
+<caption></caption>
+<tr>
+<td><div class="image">
+<img src="triangulate_3.png" alt="" width="350cm"/>
+<div class="caption">
+Good</div></div>
+ </td><td><div class="image">
+<img src="triangulate_2.png" alt="" width="350cm"/>
+<div class="caption">
+Too small value</div></div>
+  </td></tr>
+</table>
 
 </div>
 </div>
@@ -139,6 +166,22 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Critical angle of triangles in local triangulation (angle between triangles in fan should be less then this value) </p>
+<a class="anchor" id="TriangulationParameters::critAngle_examples"></a>
+<table border="0">
+<caption></caption>
+<tr>
+<td><div class="image">
+<img src="triangulate_3.png" alt="" width="350cm"/>
+<div class="caption">
+Good</div></div>
+ </td><td><div class="image">
+<img src="triangulate_4.png" alt="" width="350cm"/>
+<div class="caption">
+Too small value</div></div>
+  </td></tr>
+</table>
+
 </div>
 </div>
 <a id="abb46c0fd74910004b6de69db2ec0c097"></a>
@@ -152,6 +195,9 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Critical length of hole (all holes with length less then this value will be filled) </p>
+<p>If value is subzero it is set automaticly to 0.25*bbox.diagonal() </p>
 
 </div>
 </div>

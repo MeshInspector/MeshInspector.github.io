@@ -147,12 +147,16 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1MeshMeshConverter.html">MeshMeshConverter</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateSettings.html">DecimateSettings</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters structure for <a class="el" href="group__DecimateGroup.html#ga9f4ed5382008a7fff13610607c6c5719" title="Collapse edges in mesh region according to the settings.">MRE::decimateMesh</a>.  <a href="structMRE_1_1DecimateSettings.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateResult.html">DecimateResult</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Results of <a class="el" href="group__DecimateGroup.html#ga9f4ed5382008a7fff13610607c6c5719" title="Collapse edges in mesh region according to the settings.">MRE::decimateMesh</a>.  <a href="structMRE_1_1DecimateResult.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateParallelSettings.html">DecimateParallelSettings</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters structure for <a class="el" href="group__DecimateGroup.html#ga9c9b6750549d4bf9a222a9d5bd509a43" title="Collapse edges in mesh region according to the settings.">MRE::decimateParallelMesh</a>.  <a href="structMRE_1_1DecimateParallelSettings.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1TriangulationParameters.html">TriangulationParameters</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters of point cloud triangulation.  <a href="structMRE_1_1TriangulationParameters.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMRE_1_1CTReconstructionPlugin.html">CTReconstructionPlugin</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -251,18 +255,23 @@ Functions</h2></td></tr>
 <tr class="memitem:a4a1b638977f454de1614d2caffc291f3"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1TransformedMesh.html">TransformedMesh</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a4a1b638977f454de1614d2caffc291f3">operator*=</a> (<a class="el" href="structMRE_1_1TransformedMesh.html">TransformedMesh</a> &amp;a, const <a class="el" href="structMRE_1_1TransformedMesh.html">TransformedMesh</a> &amp;b)</td></tr>
 <tr class="memdesc:a4a1b638977f454de1614d2caffc291f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">intersection operation on two meshes  <a href="namespaceMRE.html#a4a1b638977f454de1614d2caffc291f3">More...</a><br /></td></tr>
 <tr class="separator:a4a1b638977f454de1614d2caffc291f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f4ed5382008a7fff13610607c6c5719"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimateResult.html">DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a9f4ed5382008a7fff13610607c6c5719">decimateMesh</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const <a class="el" href="structMRE_1_1DecimateSettings.html">DecimateSettings</a> &amp;settings={})</td></tr>
-<tr class="separator:a9f4ed5382008a7fff13610607c6c5719"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a090e98ab9275f5e5bc3eb8be1e846400"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="namespaceMR.html#a03bea4c1686b4e77a996eb13fd1d4bb7">MR::QuadraticForm3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a090e98ab9275f5e5bc3eb8be1e846400">computeFormAtVertex</a> (const <a class="el" href="structMR_1_1MeshPart.html">MR::MeshPart</a> &amp;mp, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">MR::VertId</a> v, float stabilizer)</td></tr>
-<tr class="separator:a090e98ab9275f5e5bc3eb8be1e846400"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51ab93bf64af79d363344013e7181856"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimateResult.html">DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a51ab93bf64af79d363344013e7181856">resolveMeshDegenerations</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh)</td></tr>
-<tr class="separator:a51ab93bf64af79d363344013e7181856"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c9b6750549d4bf9a222a9d5bd509a43"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimateResult.html">DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a9c9b6750549d4bf9a222a9d5bd509a43">decimateParallelMesh</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const <a class="el" href="structMRE_1_1DecimateParallelSettings.html">DecimateParallelSettings</a> &amp;settings={})</td></tr>
-<tr class="separator:a9c9b6750549d4bf9a222a9d5bd509a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9f4ed5382008a7fff13610607c6c5719"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimateResult.html">DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga9f4ed5382008a7fff13610607c6c5719">decimateMesh</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const <a class="el" href="structMRE_1_1DecimateSettings.html">DecimateSettings</a> &amp;settings={})</td></tr>
+<tr class="memdesc:ga9f4ed5382008a7fff13610607c6c5719"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collapse edges in mesh region according to the settings.  <a href="group__DecimateGroup.html#ga9f4ed5382008a7fff13610607c6c5719">More...</a><br /></td></tr>
+<tr class="separator:ga9f4ed5382008a7fff13610607c6c5719"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga090e98ab9275f5e5bc3eb8be1e846400"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="namespaceMR.html#a03bea4c1686b4e77a996eb13fd1d4bb7">MR::QuadraticForm3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga090e98ab9275f5e5bc3eb8be1e846400">computeFormAtVertex</a> (const <a class="el" href="structMR_1_1MeshPart.html">MR::MeshPart</a> &amp;mp, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">MR::VertId</a> v, float stabilizer)</td></tr>
+<tr class="memdesc:ga090e98ab9275f5e5bc3eb8be1e846400"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes quadratic form at given vertex of the initial surface before decimation.  <a href="group__DecimateGroup.html#ga090e98ab9275f5e5bc3eb8be1e846400">More...</a><br /></td></tr>
+<tr class="separator:ga090e98ab9275f5e5bc3eb8be1e846400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga51ab93bf64af79d363344013e7181856"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimateResult.html">DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga51ab93bf64af79d363344013e7181856">resolveMeshDegenerations</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh)</td></tr>
+<tr class="memdesc:ga51ab93bf64af79d363344013e7181856"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves degenerate triangles in given mesh.  <a href="group__DecimateGroup.html#ga51ab93bf64af79d363344013e7181856">More...</a><br /></td></tr>
+<tr class="separator:ga51ab93bf64af79d363344013e7181856"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9c9b6750549d4bf9a222a9d5bd509a43"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimateResult.html">DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga9c9b6750549d4bf9a222a9d5bd509a43">decimateParallelMesh</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const <a class="el" href="structMRE_1_1DecimateParallelSettings.html">DecimateParallelSettings</a> &amp;settings={})</td></tr>
+<tr class="memdesc:ga9c9b6750549d4bf9a222a9d5bd509a43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collapse edges in mesh region according to the settings.  <a href="group__DecimateGroup.html#ga9c9b6750549d4bf9a222a9d5bd509a43">More...</a><br /></td></tr>
+<tr class="separator:ga9c9b6750549d4bf9a222a9d5bd509a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91f7142ffa3c4fbaaf6fca4e46789664"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a91f7142ffa3c4fbaaf6fca4e46789664">partialOffsetMesh</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float offset, const <a class="el" href="structMR_1_1OffsetParameters.html">OffsetParameters</a> &amp;params={})</td></tr>
 <tr class="separator:a91f7142ffa3c4fbaaf6fca4e46789664"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e2755dc75c01fe3f58709fb3d0940bf"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a0e2755dc75c01fe3f58709fb3d0940bf">triangulatePointCloud</a> (const <a class="el" href="structMR_1_1PointCloud.html">MR::PointCloud</a> &amp;pointCloud, const <a class="el" href="structMRE_1_1TriangulationParameters.html">TriangulationParameters</a> &amp;params={})</td></tr>
-<tr class="separator:a0e2755dc75c01fe3f58709fb3d0940bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0e2755dc75c01fe3f58709fb3d0940bf"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointCloudTriangulationGroup.html#ga0e2755dc75c01fe3f58709fb3d0940bf">triangulatePointCloud</a> (const <a class="el" href="structMR_1_1PointCloud.html">MR::PointCloud</a> &amp;pointCloud, const <a class="el" href="structMRE_1_1TriangulationParameters.html">TriangulationParameters</a> &amp;params={})</td></tr>
+<tr class="memdesc:ga0e2755dc75c01fe3f58709fb3d0940bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates mesh from given point cloud according params.  <a href="group__PointCloudTriangulationGroup.html#ga0e2755dc75c01fe3f58709fb3d0940bf">More...</a><br /></td></tr>
+<tr class="separator:ga0e2755dc75c01fe3f58709fb3d0940bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77a3bf655fb87f08c40a5a5808bd1de0"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">MR::EdgeId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a77a3bf655fb87f08c40a5a5808bd1de0">surroundingContour</a> (const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">MR::EdgeId</a> &gt; includeEdgeOrgs, const <a class="el" href="namespaceMR.html#ad2c254a94a3837629d1540a9a1aeda9f">MR::EdgeMetric</a> &amp;edgeMetric, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">MR::Vector3f</a> &amp;dir)</td></tr>
 <tr class="separator:a77a3bf655fb87f08c40a5a5808bd1de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -331,96 +340,6 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a090e98ab9275f5e5bc3eb8be1e846400"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a090e98ab9275f5e5bc3eb8be1e846400">&#9670;&nbsp;</a></span>computeFormAtVertex()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MREALGORITHMS_API <a class="el" href="namespaceMR.html#a03bea4c1686b4e77a996eb13fd1d4bb7">MR::QuadraticForm3f</a> MRE::computeFormAtVertex </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MR::MeshPart</a> &amp;&#160;</td>
-          <td class="paramname"><em>mp</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">MR::VertId</a>&#160;</td>
-          <td class="paramname"><em>v</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>stabilizer</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9f4ed5382008a7fff13610607c6c5719"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f4ed5382008a7fff13610607c6c5719">&#9670;&nbsp;</a></span>decimateMesh()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimateResult.html">DecimateResult</a> MRE::decimateMesh </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
-          <td class="paramname"><em>mesh</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMRE_1_1DecimateSettings.html">DecimateSettings</a> &amp;&#160;</td>
-          <td class="paramname"><em>settings</em> = <code>{}</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9c9b6750549d4bf9a222a9d5bd509a43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c9b6750549d4bf9a222a9d5bd509a43">&#9670;&nbsp;</a></span>decimateParallelMesh()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimateResult.html">DecimateResult</a> MRE::decimateParallelMesh </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
-          <td class="paramname"><em>mesh</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMRE_1_1DecimateParallelSettings.html">DecimateParallelSettings</a> &amp;&#160;</td>
-          <td class="paramname"><em>settings</em> = <code>{}</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a2610b22d861bfd4605e806aed98670d1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2610b22d861bfd4605e806aed98670d1">&#9670;&nbsp;</a></span>detectLoneContours()</h2>
 
@@ -813,24 +732,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a51ab93bf64af79d363344013e7181856"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51ab93bf64af79d363344013e7181856">&#9670;&nbsp;</a></span>resolveMeshDegenerations()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimateResult.html">DecimateResult</a> MRE::resolveMeshDegenerations </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
-          <td class="paramname"><em>mesh</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aa560ba5ad80d3d44f9aab77449ea0a21"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa560ba5ad80d3d44f9aab77449ea0a21">&#9670;&nbsp;</a></span>separateClosedContour()</h2>
 
@@ -944,34 +845,6 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a0e2755dc75c01fe3f58709fb3d0940bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e2755dc75c01fe3f58709fb3d0940bf">&#9670;&nbsp;</a></span>triangulatePointCloud()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MREALGORITHMS_API <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> MRE::triangulatePointCloud </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">MR::PointCloud</a> &amp;&#160;</td>
-          <td class="paramname"><em>pointCloud</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMRE_1_1TriangulationParameters.html">TriangulationParameters</a> &amp;&#160;</td>
-          <td class="paramname"><em>params</em> = <code>{}</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
