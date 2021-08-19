@@ -98,82 +98,81 @@ $(document).ready(function(){initNavTree('MRDistanceComparePlugin_8h_source.html
 </div><!--header-->
 <div class="contents">
 <a href="MRDistanceComparePlugin_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRColor_8h.html">MRMesh/MRColor.h</a>&quot;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a>&quot;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRPallete_8h.html">MRPallete.h</a>&quot;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRMeshViewer_8h.html">MRMeshViewer.h</a>&quot;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">class </span>ObjectMesh;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceComparePlugin.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1DistanceComparePlugin.html">DistanceComparePlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">CustomListenerPlugin</a>&lt;MouseDownListener&gt;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceComparePlugin.html#ab5482dbc13fa63e371e6f254d5792300">   14</a></span>&#160;    MRVIEWER_API <a class="code" href="classMR_1_1DistanceComparePlugin.html#ab5482dbc13fa63e371e6f254d5792300">DistanceComparePlugin</a>();</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceComparePlugin.html#a04f1669044fcab7765711bf407ea4e6b">   16</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1DistanceComparePlugin.html#a04f1669044fcab7765711bf407ea4e6b">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceComparePlugin.html#ab7d441beee0be7de0388a76e1e073c87">   18</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1DistanceComparePlugin.html#ab7d441beee0be7de0388a76e1e073c87">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceComparePlugin.html#a236027d329fed9d0c5c72cf273635ba2">   20</a></span>&#160;    MRVIEWER_API <span class="keywordtype">void</span> <a class="code" href="classMR_1_1DistanceComparePlugin.html#a236027d329fed9d0c5c72cf273635ba2">setMax</a>( <span class="keywordtype">float</span> val );</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceComparePlugin.html#afd64fa5b5a916e7dee7bd43686f480a5">   22</a></span>&#160;    MRVIEWER_API <span class="keywordtype">void</span> <a class="code" href="classMR_1_1DistanceComparePlugin.html#afd64fa5b5a916e7dee7bd43686f480a5">update</a>();</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceComparePlugin.html#afd3b21d378446cceccca8e8123fa2617">   24</a></span>&#160;    MRVIEWER_API std::shared_ptr&lt;VisualObject&gt; <a class="code" href="classMR_1_1DistanceComparePlugin.html#afd3b21d378446cceccca8e8123fa2617">getObj</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseDown_( <a class="code" href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="comment">// finds and updates actual distance from each point of the mesh to the reference mesh</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">void</span> computeDistance_();</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">void</span> updatePalleteLabels_();</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> drawPallete_(<span class="keyword">const</span> ImVec2&amp; pose, <span class="keyword">const</span> ImVec2&amp; size);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">void</span> removeLabels_();</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    std::unique_ptr&lt;Pallete&gt; pallete_;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="comment">// stores textures for fast switch useDiscrete_</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="structMR_1_1MeshTexture.html">MeshTexture</a> lowTexture_;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">void</span> updateUV_();</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> updateTexture_();</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    std::shared_ptr&lt;ObjectMesh&gt; objRef_;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    std::shared_ptr&lt;ObjectMesh&gt; obj_;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="structMR_1_1Color.html">Color</a> savedFacesColor_;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">float</span> minVal_{ 0 }, minValPrev_{ 0 }, minMinVal_{ 0 };</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">float</span> maxVal_{ 0 }, maxValPrev_{ 0 }, maxMaxVal_{ 0 };</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">float</span> maxDistance_{FLT_MAX};</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">bool</span> fixZero_ = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">bool</span> useDiscrete_ = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">bool</span> signedDistance_ = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">bool</span> pickerOn_ = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    std::vector&lt;float&gt; vertColorsfloats_;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;};</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;MRVIEWER_API <span class="keyword">extern</span> DistanceComparePlugin <a class="code" href="namespaceMR.html#a1b08b60d10bebcfdf6416b9183c65fe4">DistanceComparePluginInstance</a>;</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;MRPlugins/exports.h&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRColor_8h.html">MRMesh/MRColor.h</a>&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRCustomPlugin_8h.html">MRViewer/MRCustomPlugin.h</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRPallete_8h.html">MRViewer/MRPallete.h</a>&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRViewer_8h.html">MRViewer/MRViewer.h</a>&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">class </span>ObjectMesh;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceComparePlugin.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1DistanceComparePlugin.html">DistanceComparePlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">CustomListenerPlugin</a>&lt;MouseDownListener&gt;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceComparePlugin.html#a05efc55a138b5120d8482116fbb3a987">   15</a></span>&#160;    MRPLUGINS_API <a class="code" href="classMR_1_1DistanceComparePlugin.html#a05efc55a138b5120d8482116fbb3a987">DistanceComparePlugin</a>();</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceComparePlugin.html#a3a17dbd70031ff75242d1d857cafb4d4">   17</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1DistanceComparePlugin.html#a3a17dbd70031ff75242d1d857cafb4d4">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceComparePlugin.html#af6546493e1887e3a33f236d826aea1fd">   19</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1DistanceComparePlugin.html#af6546493e1887e3a33f236d826aea1fd">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceComparePlugin.html#a3c60680e960cb2343acc4efbd7c974d4">   21</a></span>&#160;    MRPLUGINS_API <span class="keywordtype">void</span> <a class="code" href="classMR_1_1DistanceComparePlugin.html#a3c60680e960cb2343acc4efbd7c974d4">setMax</a>( <span class="keywordtype">float</span> val );</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceComparePlugin.html#af8cc25f3399275062fa18bd00a18cc9c">   23</a></span>&#160;    MRPLUGINS_API <span class="keywordtype">void</span> <a class="code" href="classMR_1_1DistanceComparePlugin.html#af8cc25f3399275062fa18bd00a18cc9c">update</a>();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceComparePlugin.html#ad9e091b32b61b020a76452638f89a92c">   25</a></span>&#160;    MRPLUGINS_API std::shared_ptr&lt;VisualObject&gt; <a class="code" href="classMR_1_1DistanceComparePlugin.html#ad9e091b32b61b020a76452638f89a92c">getObj</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseDown_( <a class="code" href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="comment">// finds and updates actual distance from each point of the mesh to the reference mesh</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">void</span> computeDistance_();</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">void</span> updatePalleteLabels_();</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">void</span> drawPallete_(<span class="keyword">const</span> ImVec2&amp; pose, <span class="keyword">const</span> ImVec2&amp; size);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">void</span> removeLabels_();</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    std::unique_ptr&lt;Pallete&gt; pallete_;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="comment">// stores textures for fast switch useDiscrete_</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="structMR_1_1MeshTexture.html">MeshTexture</a> lowTexture_;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> updateUV_();</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> updateTexture_();</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    std::shared_ptr&lt;ObjectMesh&gt; objRef_;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    std::shared_ptr&lt;ObjectMesh&gt; obj_;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="structMR_1_1Color.html">Color</a> savedFacesColor_;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">float</span> minVal_{ 0 }, minValPrev_{ 0 }, minMinVal_{ 0 };</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">float</span> maxVal_{ 0 }, maxValPrev_{ 0 }, maxMaxVal_{ 0 };</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">float</span> maxDistance_{FLT_MAX};</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">bool</span> fixZero_ = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">bool</span> useDiscrete_ = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">bool</span> signedDistance_ = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">bool</span> pickerOn_ = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    std::vector&lt;float&gt; vertColorsfloats_;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;};</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
 <div class="ttc" id="aMRColor_8h_html"><div class="ttname"><a href="MRColor_8h.html">MRColor.h</a></div></div>
 <div class="ttc" id="aMRCustomPlugin_8h_html"><div class="ttname"><a href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a></div></div>
-<div class="ttc" id="aMRMeshViewer_8h_html"><div class="ttname"><a href="MRMeshViewer_8h.html">MRMeshViewer.h</a></div></div>
 <div class="ttc" id="aMRPallete_8h_html"><div class="ttname"><a href="MRPallete_8h.html">MRPallete.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:61</div></div>
-<div class="ttc" id="aclassMR_1_1DistanceComparePlugin_html"><div class="ttname"><a href="classMR_1_1DistanceComparePlugin.html">MR::DistanceComparePlugin</a></div><div class="ttdef"><b>Definition:</b> MRDistanceComparePlugin.h:12</div></div>
-<div class="ttc" id="aclassMR_1_1DistanceComparePlugin_html_a04f1669044fcab7765711bf407ea4e6b"><div class="ttname"><a href="classMR_1_1DistanceComparePlugin.html#a04f1669044fcab7765711bf407ea4e6b">MR::DistanceComparePlugin::drawDialog</a></div><div class="ttdeci">virtual MRVIEWER_API void drawDialog(float menuScaling, ImGuiContext *) override</div></div>
-<div class="ttc" id="aclassMR_1_1DistanceComparePlugin_html_a236027d329fed9d0c5c72cf273635ba2"><div class="ttname"><a href="classMR_1_1DistanceComparePlugin.html#a236027d329fed9d0c5c72cf273635ba2">MR::DistanceComparePlugin::setMax</a></div><div class="ttdeci">MRVIEWER_API void setMax(float val)</div></div>
-<div class="ttc" id="aclassMR_1_1DistanceComparePlugin_html_ab5482dbc13fa63e371e6f254d5792300"><div class="ttname"><a href="classMR_1_1DistanceComparePlugin.html#ab5482dbc13fa63e371e6f254d5792300">MR::DistanceComparePlugin::DistanceComparePlugin</a></div><div class="ttdeci">MRVIEWER_API DistanceComparePlugin()</div></div>
-<div class="ttc" id="aclassMR_1_1DistanceComparePlugin_html_ab7d441beee0be7de0388a76e1e073c87"><div class="ttname"><a href="classMR_1_1DistanceComparePlugin.html#ab7d441beee0be7de0388a76e1e073c87">MR::DistanceComparePlugin::isAvailable</a></div><div class="ttdeci">virtual MRVIEWER_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
-<div class="ttc" id="aclassMR_1_1DistanceComparePlugin_html_afd3b21d378446cceccca8e8123fa2617"><div class="ttname"><a href="classMR_1_1DistanceComparePlugin.html#afd3b21d378446cceccca8e8123fa2617">MR::DistanceComparePlugin::getObj</a></div><div class="ttdeci">MRVIEWER_API std::shared_ptr&lt; VisualObject &gt; getObj() const</div></div>
-<div class="ttc" id="aclassMR_1_1DistanceComparePlugin_html_afd64fa5b5a916e7dee7bd43686f480a5"><div class="ttname"><a href="classMR_1_1DistanceComparePlugin.html#afd64fa5b5a916e7dee7bd43686f480a5">MR::DistanceComparePlugin::update</a></div><div class="ttdeci">MRVIEWER_API void update()</div></div>
-<div class="ttc" id="aclassMR_1_1Viewer_html_a4e2fd639b52df5ee18d06bb9f4e504f6"><div class="ttname"><a href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition:</b> MRViewer.h:56</div></div>
+<div class="ttc" id="aMRViewer_8h_html"><div class="ttname"><a href="MRViewer_8h.html">MRViewer.h</a></div></div>
+<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:64</div></div>
+<div class="ttc" id="aclassMR_1_1DistanceComparePlugin_html"><div class="ttname"><a href="classMR_1_1DistanceComparePlugin.html">MR::DistanceComparePlugin</a></div><div class="ttdef"><b>Definition:</b> MRDistanceComparePlugin.h:13</div></div>
+<div class="ttc" id="aclassMR_1_1DistanceComparePlugin_html_a05efc55a138b5120d8482116fbb3a987"><div class="ttname"><a href="classMR_1_1DistanceComparePlugin.html#a05efc55a138b5120d8482116fbb3a987">MR::DistanceComparePlugin::DistanceComparePlugin</a></div><div class="ttdeci">MRPLUGINS_API DistanceComparePlugin()</div></div>
+<div class="ttc" id="aclassMR_1_1DistanceComparePlugin_html_a3a17dbd70031ff75242d1d857cafb4d4"><div class="ttname"><a href="classMR_1_1DistanceComparePlugin.html#a3a17dbd70031ff75242d1d857cafb4d4">MR::DistanceComparePlugin::drawDialog</a></div><div class="ttdeci">virtual MRPLUGINS_API void drawDialog(float menuScaling, ImGuiContext *) override</div></div>
+<div class="ttc" id="aclassMR_1_1DistanceComparePlugin_html_a3c60680e960cb2343acc4efbd7c974d4"><div class="ttname"><a href="classMR_1_1DistanceComparePlugin.html#a3c60680e960cb2343acc4efbd7c974d4">MR::DistanceComparePlugin::setMax</a></div><div class="ttdeci">MRPLUGINS_API void setMax(float val)</div></div>
+<div class="ttc" id="aclassMR_1_1DistanceComparePlugin_html_ad9e091b32b61b020a76452638f89a92c"><div class="ttname"><a href="classMR_1_1DistanceComparePlugin.html#ad9e091b32b61b020a76452638f89a92c">MR::DistanceComparePlugin::getObj</a></div><div class="ttdeci">MRPLUGINS_API std::shared_ptr&lt; VisualObject &gt; getObj() const</div></div>
+<div class="ttc" id="aclassMR_1_1DistanceComparePlugin_html_af6546493e1887e3a33f236d826aea1fd"><div class="ttname"><a href="classMR_1_1DistanceComparePlugin.html#af6546493e1887e3a33f236d826aea1fd">MR::DistanceComparePlugin::isAvailable</a></div><div class="ttdeci">virtual MRPLUGINS_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
+<div class="ttc" id="aclassMR_1_1DistanceComparePlugin_html_af8cc25f3399275062fa18bd00a18cc9c"><div class="ttname"><a href="classMR_1_1DistanceComparePlugin.html#af8cc25f3399275062fa18bd00a18cc9c">MR::DistanceComparePlugin::update</a></div><div class="ttdeci">MRPLUGINS_API void update()</div></div>
+<div class="ttc" id="aclassMR_1_1Viewer_html_a4e2fd639b52df5ee18d06bb9f4e504f6"><div class="ttname"><a href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition:</b> MRViewer.h:58</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MR2DContoursTriangulation.h:6</div></div>
-<div class="ttc" id="anamespaceMR_html_a1b08b60d10bebcfdf6416b9183c65fe4"><div class="ttname"><a href="namespaceMR.html#a1b08b60d10bebcfdf6416b9183c65fe4">MR::DistanceComparePluginInstance</a></div><div class="ttdeci">MRVIEWER_API DistanceComparePlugin DistanceComparePluginInstance</div></div>
 <div class="ttc" id="astructMR_1_1Color_html"><div class="ttname"><a href="structMR_1_1Color.html">MR::Color</a></div><div class="ttdef"><b>Definition:</b> MRColor.h:9</div></div>
 <div class="ttc" id="astructMR_1_1MeshTexture_html"><div class="ttname"><a href="structMR_1_1MeshTexture.html">MR::MeshTexture</a></div><div class="ttdef"><b>Definition:</b> MRMeshTexture.h:9</div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -181,7 +180,7 @@ $(document).ready(function(){initNavTree('MRDistanceComparePlugin_8h_source.html
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_4c0f52c8eaeab4335405e8027d32c174.html">MeshRUs</a></li><li class="navelem"><a class="el" href="dir_42363ceaf7137d00de0acdca499d56e8.html">source</a></li><li class="navelem"><a class="el" href="dir_f839bb94d4281f3c77b88af9021d1146.html">MRViewer</a></li><li class="navelem"><a class="el" href="MRDistanceComparePlugin_8h.html">MRDistanceComparePlugin.h</a></li>
+    <li class="navelem"><a class="el" href="dir_4c0f52c8eaeab4335405e8027d32c174.html">MeshRUs</a></li><li class="navelem"><a class="el" href="dir_42363ceaf7137d00de0acdca499d56e8.html">source</a></li><li class="navelem"><a class="el" href="dir_7d5c22fd77562b1c7dd009f1c60de851.html">MRPlugins</a></li><li class="navelem"><a class="el" href="dir_d424a0af1ca52b1dbb0c4ede0ad3b498.html">Analysis</a></li><li class="navelem"><a class="el" href="MRDistanceComparePlugin_8h.html">MRDistanceComparePlugin.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

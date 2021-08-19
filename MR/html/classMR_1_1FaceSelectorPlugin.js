@@ -1,6 +1,6 @@
 var classMR_1_1FaceSelectorPlugin =
 [
-    [ "FaceSelectorPlugin", "classMR_1_1FaceSelectorPlugin.html#aff9a34923be6eef421b204a0e4661043", null ],
-    [ "drawDialog", "classMR_1_1FaceSelectorPlugin.html#a0144d3cec565ca50d25b7a4a27de9d3a", null ],
-    [ "isAvailable", "classMR_1_1FaceSelectorPlugin.html#ab37b6c5bfb3b7c9b2d28088442467ed4", null ]
+    [ "FaceSelectorPlugin", "classMR_1_1FaceSelectorPlugin.html#a17f342f599d8baa5c4907f21c7aae96a", null ],
+    [ "drawDialog", "classMR_1_1FaceSelectorPlugin.html#ae3827cd4367b6cbbdec86568f65e2991", null ],
+    [ "isAvailable", "classMR_1_1FaceSelectorPlugin.html#a388b7cb100576fe078511c0cbbc90f02", null ]
 ];

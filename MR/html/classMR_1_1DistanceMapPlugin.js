@@ -1,6 +1,6 @@
 var classMR_1_1DistanceMapPlugin =
 [
-    [ "DistanceMapPlugin", "classMR_1_1DistanceMapPlugin.html#a4c2db728c076cdeaf6f28ba7eb8e9f61", null ],
-    [ "drawDialog", "classMR_1_1DistanceMapPlugin.html#add25de2605fc837393a66ee289765cab", null ],
-    [ "isAvailable", "classMR_1_1DistanceMapPlugin.html#affd1b570c24f3d71b2fc3c812d19a77f", null ]
+    [ "DistanceMapPlugin", "classMR_1_1DistanceMapPlugin.html#a355c5940456038e747470f273cd6db3a", null ],
+    [ "drawDialog", "classMR_1_1DistanceMapPlugin.html#a3260eebc305a8ecf9732ed1e264c9bb7", null ],
+    [ "isAvailable", "classMR_1_1DistanceMapPlugin.html#a670ae9e2d678d574aa80e57569865c51", null ]
 ];

@@ -1,5 +1,5 @@
 var classMR_1_1ShowDenseBBoxPlugin =
 [
-    [ "ShowDenseBBoxPlugin", "classMR_1_1ShowDenseBBoxPlugin.html#abaf5fd345b36bf7a93ad888609b4b680", null ],
-    [ "isAvailable", "classMR_1_1ShowDenseBBoxPlugin.html#a437b59c8bf372d5710cd0b286e5a008a", null ]
+    [ "ShowDenseBBoxPlugin", "classMR_1_1ShowDenseBBoxPlugin.html#a82d816dc84b9a45cd58dec84328080fa", null ],
+    [ "isAvailable", "classMR_1_1ShowDenseBBoxPlugin.html#af38f1ed2e657a22c439c1f072d958e49", null ]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshRUs: MR::AABBTreeNode&lt; LeafId &gt; Struct Template Reference</title>
+<title>MeshRUs: MR::AABBTreeNode&lt; T &gt; Struct Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('structMR_1_1AABBTreeNode.html',''); in
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1AABBTreeNode-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MR::AABBTreeNode&lt; LeafId &gt; Struct Template Reference</div>  </div>
+<div class="title">MR::AABBTreeNode&lt; T &gt; Struct Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -107,38 +107,74 @@ $(document).ready(function(){initNavTree('structMR_1_1AABBTreeNode.html',''); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ac72698a8113f1c4c0b6dcbf8a00a711f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeNode.html#ac72698a8113f1c4c0b6dcbf8a00a711f">NodeId</a> = <a class="el" href="classMR_1_1Id.html">Id</a>&lt; NodeTag &gt;</td></tr>
-<tr class="separator:ac72698a8113f1c4c0b6dcbf8a00a711f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef3874d22f3d10e9e06b745ae1493dbf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeNode.html#aef3874d22f3d10e9e06b745ae1493dbf">NodeId</a> = <a class="el" href="classMR_1_1Id.html">Id</a>&lt; NodeTag &gt;</td></tr>
+<tr class="separator:aef3874d22f3d10e9e06b745ae1493dbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0286485d67d37c6d4f76d7d1f43d13d0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeNode.html#a0286485d67d37c6d4f76d7d1f43d13d0">LeafId</a> = typename T::LeafId</td></tr>
+<tr class="separator:a0286485d67d37c6d4f76d7d1f43d13d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af92cbed18c9ddfbf28d0e86385fc6e01"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeNode.html#af92cbed18c9ddfbf28d0e86385fc6e01">BoxT</a> = typename T::BoxT</td></tr>
+<tr class="separator:af92cbed18c9ddfbf28d0e86385fc6e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af2ebc7554965b68250d750ce895af093"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeNode.html#af2ebc7554965b68250d750ce895af093">leaf</a> () const</td></tr>
-<tr class="separator:af2ebc7554965b68250d750ce895af093"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae31e398e378e73418612f28a72402347"><td class="memItemLeft" align="right" valign="top">LeafId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeNode.html#ae31e398e378e73418612f28a72402347">leafId</a> () const</td></tr>
-<tr class="separator:ae31e398e378e73418612f28a72402347"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06184bb12d302b9f591e40453e6bf70f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeNode.html#a06184bb12d302b9f591e40453e6bf70f">setLeafId</a> (LeafId id)</td></tr>
-<tr class="separator:a06184bb12d302b9f591e40453e6bf70f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50c87fc6c0f27587748dc7f642b5d8a6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeNode.html#a50c87fc6c0f27587748dc7f642b5d8a6">leaf</a> () const</td></tr>
+<tr class="separator:a50c87fc6c0f27587748dc7f642b5d8a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0fe7c78e4582c2e180ff4e052c83d0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1AABBTreeNode.html#a0286485d67d37c6d4f76d7d1f43d13d0">LeafId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeNode.html#ad0fe7c78e4582c2e180ff4e052c83d0b">leafId</a> () const</td></tr>
+<tr class="separator:ad0fe7c78e4582c2e180ff4e052c83d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac745781b04cbfa210bd5d3005b17e084"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeNode.html#ac745781b04cbfa210bd5d3005b17e084">setLeafId</a> (<a class="el" href="structMR_1_1AABBTreeNode.html#a0286485d67d37c6d4f76d7d1f43d13d0">LeafId</a> id)</td></tr>
+<tr class="separator:ac745781b04cbfa210bd5d3005b17e084"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a888448410c496cc922386a91f739aef7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ada98ebf3fec74759dd46700389a3e556">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeNode.html#a888448410c496cc922386a91f739aef7">box</a></td></tr>
-<tr class="separator:a888448410c496cc922386a91f739aef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f48993d2c209616e68a140b90fdc6f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1AABBTreeNode.html#ac72698a8113f1c4c0b6dcbf8a00a711f">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeNode.html#a7f48993d2c209616e68a140b90fdc6f8">l</a></td></tr>
-<tr class="separator:a7f48993d2c209616e68a140b90fdc6f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a840fa6991ffac17c35f1e8f17b3329dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1AABBTreeNode.html#ac72698a8113f1c4c0b6dcbf8a00a711f">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeNode.html#a840fa6991ffac17c35f1e8f17b3329dc">r</a></td></tr>
-<tr class="separator:a840fa6991ffac17c35f1e8f17b3329dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c90c7ee746d8e3f67062655f733dea0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1AABBTreeNode.html#af92cbed18c9ddfbf28d0e86385fc6e01">BoxT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeNode.html#a5c90c7ee746d8e3f67062655f733dea0">box</a></td></tr>
+<tr class="separator:a5c90c7ee746d8e3f67062655f733dea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cbbf05afde5b58b37ff42812595cef9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1AABBTreeNode.html#aef3874d22f3d10e9e06b745ae1493dbf">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeNode.html#a3cbbf05afde5b58b37ff42812595cef9">l</a></td></tr>
+<tr class="separator:a3cbbf05afde5b58b37ff42812595cef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17304ef8e7e0d4062245a747fa45840e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1AABBTreeNode.html#aef3874d22f3d10e9e06b745ae1493dbf">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeNode.html#a17304ef8e7e0d4062245a747fa45840e">r</a></td></tr>
+<tr class="separator:a17304ef8e7e0d4062245a747fa45840e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="ac72698a8113f1c4c0b6dcbf8a00a711f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac72698a8113f1c4c0b6dcbf8a00a711f">&#9670;&nbsp;</a></span>NodeId</h2>
+<a id="af92cbed18c9ddfbf28d0e86385fc6e01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af92cbed18c9ddfbf28d0e86385fc6e01">&#9670;&nbsp;</a></span>BoxT</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename LeafId &gt; </div>
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structMR_1_1AABBTreeNode.html">MR::AABBTreeNode</a>&lt; LeafId &gt;::<a class="el" href="structMR_1_1AABBTreeNode.html#ac72698a8113f1c4c0b6dcbf8a00a711f">NodeId</a> =  <a class="el" href="classMR_1_1Id.html">Id</a>&lt;NodeTag&gt;</td>
+          <td class="memname">using <a class="el" href="structMR_1_1AABBTreeNode.html">MR::AABBTreeNode</a>&lt; T &gt;::<a class="el" href="structMR_1_1AABBTreeNode.html#af92cbed18c9ddfbf28d0e86385fc6e01">BoxT</a> =  typename T::BoxT</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0286485d67d37c6d4f76d7d1f43d13d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0286485d67d37c6d4f76d7d1f43d13d0">&#9670;&nbsp;</a></span>LeafId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structMR_1_1AABBTreeNode.html">MR::AABBTreeNode</a>&lt; T &gt;::<a class="el" href="structMR_1_1AABBTreeNode.html#a0286485d67d37c6d4f76d7d1f43d13d0">LeafId</a> =  typename T::LeafId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef3874d22f3d10e9e06b745ae1493dbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef3874d22f3d10e9e06b745ae1493dbf">&#9670;&nbsp;</a></span>NodeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structMR_1_1AABBTreeNode.html">MR::AABBTreeNode</a>&lt; T &gt;::<a class="el" href="structMR_1_1AABBTreeNode.html#aef3874d22f3d10e9e06b745ae1493dbf">NodeId</a> =  <a class="el" href="classMR_1_1Id.html">Id</a>&lt;NodeTag&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -146,19 +182,19 @@ template&lt;typename LeafId &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="af2ebc7554965b68250d750ce895af093"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2ebc7554965b68250d750ce895af093">&#9670;&nbsp;</a></span>leaf()</h2>
+<a id="a50c87fc6c0f27587748dc7f642b5d8a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50c87fc6c0f27587748dc7f642b5d8a6">&#9670;&nbsp;</a></span>leaf()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename LeafId &gt; </div>
+template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="structMR_1_1AABBTreeNode.html">MR::AABBTreeNode</a>&lt; LeafId &gt;::leaf </td>
+          <td class="memname">bool <a class="el" href="structMR_1_1AABBTreeNode.html">MR::AABBTreeNode</a>&lt; T &gt;::leaf </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -173,19 +209,19 @@ template&lt;typename LeafId &gt; </div>
 
 </div>
 </div>
-<a id="ae31e398e378e73418612f28a72402347"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae31e398e378e73418612f28a72402347">&#9670;&nbsp;</a></span>leafId()</h2>
+<a id="ad0fe7c78e4582c2e180ff4e052c83d0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0fe7c78e4582c2e180ff4e052c83d0b">&#9670;&nbsp;</a></span>leafId()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename LeafId &gt; </div>
+template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">LeafId <a class="el" href="structMR_1_1AABBTreeNode.html">MR::AABBTreeNode</a>&lt; LeafId &gt;::leafId </td>
+          <td class="memname"><a class="el" href="structMR_1_1AABBTreeNode.html#a0286485d67d37c6d4f76d7d1f43d13d0">LeafId</a> <a class="el" href="structMR_1_1AABBTreeNode.html">MR::AABBTreeNode</a>&lt; T &gt;::leafId </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -200,21 +236,21 @@ template&lt;typename LeafId &gt; </div>
 
 </div>
 </div>
-<a id="a06184bb12d302b9f591e40453e6bf70f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06184bb12d302b9f591e40453e6bf70f">&#9670;&nbsp;</a></span>setLeafId()</h2>
+<a id="ac745781b04cbfa210bd5d3005b17e084"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac745781b04cbfa210bd5d3005b17e084">&#9670;&nbsp;</a></span>setLeafId()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename LeafId &gt; </div>
+template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="structMR_1_1AABBTreeNode.html">MR::AABBTreeNode</a>&lt; LeafId &gt;::setLeafId </td>
+          <td class="memname">void <a class="el" href="structMR_1_1AABBTreeNode.html">MR::AABBTreeNode</a>&lt; T &gt;::setLeafId </td>
           <td>(</td>
-          <td class="paramtype">LeafId&#160;</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1AABBTreeNode.html#a0286485d67d37c6d4f76d7d1f43d13d0">LeafId</a>&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
           <td></td>
         </tr>
@@ -229,48 +265,48 @@ template&lt;typename LeafId &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a888448410c496cc922386a91f739aef7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a888448410c496cc922386a91f739aef7">&#9670;&nbsp;</a></span>box</h2>
+<a id="a5c90c7ee746d8e3f67062655f733dea0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c90c7ee746d8e3f67062655f733dea0">&#9670;&nbsp;</a></span>box</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename LeafId &gt; </div>
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#ada98ebf3fec74759dd46700389a3e556">Box3f</a> <a class="el" href="structMR_1_1AABBTreeNode.html">MR::AABBTreeNode</a>&lt; LeafId &gt;::box</td>
+          <td class="memname"><a class="el" href="structMR_1_1AABBTreeNode.html#af92cbed18c9ddfbf28d0e86385fc6e01">BoxT</a> <a class="el" href="structMR_1_1AABBTreeNode.html">MR::AABBTreeNode</a>&lt; T &gt;::box</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a7f48993d2c209616e68a140b90fdc6f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f48993d2c209616e68a140b90fdc6f8">&#9670;&nbsp;</a></span>l</h2>
+<a id="a3cbbf05afde5b58b37ff42812595cef9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cbbf05afde5b58b37ff42812595cef9">&#9670;&nbsp;</a></span>l</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename LeafId &gt; </div>
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1AABBTreeNode.html#ac72698a8113f1c4c0b6dcbf8a00a711f">NodeId</a> <a class="el" href="structMR_1_1AABBTreeNode.html">MR::AABBTreeNode</a>&lt; LeafId &gt;::l</td>
+          <td class="memname"><a class="el" href="structMR_1_1AABBTreeNode.html#aef3874d22f3d10e9e06b745ae1493dbf">NodeId</a> <a class="el" href="structMR_1_1AABBTreeNode.html">MR::AABBTreeNode</a>&lt; T &gt;::l</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a840fa6991ffac17c35f1e8f17b3329dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a840fa6991ffac17c35f1e8f17b3329dc">&#9670;&nbsp;</a></span>r</h2>
+<a id="a17304ef8e7e0d4062245a747fa45840e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17304ef8e7e0d4062245a747fa45840e">&#9670;&nbsp;</a></span>r</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename LeafId &gt; </div>
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1AABBTreeNode.html#ac72698a8113f1c4c0b6dcbf8a00a711f">NodeId</a> <a class="el" href="structMR_1_1AABBTreeNode.html">MR::AABBTreeNode</a>&lt; LeafId &gt;::r</td>
+          <td class="memname"><a class="el" href="structMR_1_1AABBTreeNode.html#aef3874d22f3d10e9e06b745ae1493dbf">NodeId</a> <a class="el" href="structMR_1_1AABBTreeNode.html">MR::AABBTreeNode</a>&lt; T &gt;::r</td>
         </tr>
       </table>
 </div><div class="memdoc">

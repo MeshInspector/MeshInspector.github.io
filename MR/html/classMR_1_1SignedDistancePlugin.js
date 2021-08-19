@@ -1,6 +1,6 @@
 var classMR_1_1SignedDistancePlugin =
 [
-    [ "SignedDistancePlugin", "classMR_1_1SignedDistancePlugin.html#a9965f2e600552768f0a103ae8220cbd6", null ],
-    [ "drawDialog", "classMR_1_1SignedDistancePlugin.html#aab1dbb1fba958b0c137b3978f3f0a652", null ],
-    [ "isAvailable", "classMR_1_1SignedDistancePlugin.html#a47699deb17eab0b2113a80e65fee6fd9", null ]
+    [ "SignedDistancePlugin", "classMR_1_1SignedDistancePlugin.html#a4cb0ff9723e800206f1a03e867ea9169", null ],
+    [ "drawDialog", "classMR_1_1SignedDistancePlugin.html#a959a8042667b4531609343b26f79b43d", null ],
+    [ "isAvailable", "classMR_1_1SignedDistancePlugin.html#abc30f03fdfd16064ce0910cf772bf324", null ]
 ];

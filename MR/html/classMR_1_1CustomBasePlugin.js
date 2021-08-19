@@ -11,6 +11,7 @@ var classMR_1_1CustomBasePlugin =
     [ "onDisable_", "classMR_1_1CustomBasePlugin.html#adaeb946653d5f636824e94c302e75a70", null ],
     [ "onEnable_", "classMR_1_1CustomBasePlugin.html#ac76aeebbcdc88febcd7052852366f65e", null ],
     [ "shutdown", "classMR_1_1CustomBasePlugin.html#a7cde76e28d65c96aca001e1a7ad3b20e", null ],
+    [ "sortString", "classMR_1_1CustomBasePlugin.html#a130c6ddd16d3142b14b500ecf4e1fcfe", null ],
     [ "dialogIsOpen_", "classMR_1_1CustomBasePlugin.html#a3ace3051467eb2a84b687c9ed29c9d13", null ],
     [ "isEnabled_", "classMR_1_1CustomBasePlugin.html#a7c9598b074a319fd6890e83074dc1cd3", null ],
     [ "tab_", "classMR_1_1CustomBasePlugin.html#a8d2ec58b000e4d5e4323ecea2c1c4f83", null ]

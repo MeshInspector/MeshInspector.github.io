@@ -1,6 +1,6 @@
 var classMR_1_1SetActiveVoxelsBoxPlugin =
 [
-    [ "SetActiveVoxelsBoxPlugin", "classMR_1_1SetActiveVoxelsBoxPlugin.html#a0485861e636482185f169d5677b68f17", null ],
-    [ "drawDialog", "classMR_1_1SetActiveVoxelsBoxPlugin.html#af85fbfb06fff8ad7267580d9e6d61dc0", null ],
-    [ "isAvailable", "classMR_1_1SetActiveVoxelsBoxPlugin.html#a1855afa7afdb011bf297397830ca274c", null ]
+    [ "SetActiveVoxelsBoxPlugin", "classMR_1_1SetActiveVoxelsBoxPlugin.html#a07deb725f7a18d1bdf8d452688b6937a", null ],
+    [ "drawDialog", "classMR_1_1SetActiveVoxelsBoxPlugin.html#af9480f0181ff10dd933235611cbaf7a6", null ],
+    [ "isAvailable", "classMR_1_1SetActiveVoxelsBoxPlugin.html#a9c2c0a146278c901b96050d480d5c757", null ]
 ];

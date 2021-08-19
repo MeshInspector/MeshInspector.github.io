@@ -98,57 +98,55 @@ $(document).ready(function(){initNavTree('MRTextMeshPlugin_8h_source.html',''); 
 </div><!--header-->
 <div class="contents">
 <a href="MRTextMeshPlugin_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a>&quot;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">class </span>RenderObject;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classMR_1_1TextMeshPlugin.html">    8</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1TextMeshPlugin.html">TextMeshPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">CustomPlugin</a></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classMR_1_1TextMeshPlugin.html#aebbc615df522ddc36130a9940bca5f8d">   11</a></span>&#160;    MRVIEWER_API <a class="code" href="classMR_1_1TextMeshPlugin.html#aebbc615df522ddc36130a9940bca5f8d">TextMeshPlugin</a>();</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classMR_1_1TextMeshPlugin.html#a1c451b75e88fe8e9990441b26a518607">   13</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1TextMeshPlugin.html#a1c451b75e88fe8e9990441b26a518607">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classMR_1_1TextMeshPlugin.html#a101788ac0d61f0b5f4b816bdd7ec97bb">   15</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1TextMeshPlugin.html#a101788ac0d61f0b5f4b816bdd7ec97bb">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">enum</span> Fonts</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    {</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        Cousine_Regular,</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        DroidSans,</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        Karla_Regular,</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        ProggyClean,</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        ProggyTiny,</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        Roboto_Medium,</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    } font_;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">int</span> details_;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">char</span> buf_[50];</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">void</span> apply_( std::string text, <span class="keywordtype">unsigned</span> details );</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;};</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;MRVIEWER_API <span class="keyword">extern</span> TextMeshPlugin <a class="code" href="namespaceMR.html#aef5d3e512cccbff53d60ddd8ab43a1d7">TextMeshPluginInstance</a>;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;MRPlugins/exports.h&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRCustomPlugin_8h.html">MRViewer/MRCustomPlugin.h</a>&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">class </span>RenderObject;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classMR_1_1TextMeshPlugin.html">    9</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1TextMeshPlugin.html">TextMeshPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">CustomPlugin</a></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classMR_1_1TextMeshPlugin.html#ac43a7c7dbbe906fc898b2f5e3a2324a0">   12</a></span>&#160;    MRPLUGINS_API <a class="code" href="classMR_1_1TextMeshPlugin.html#ac43a7c7dbbe906fc898b2f5e3a2324a0">TextMeshPlugin</a>();</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classMR_1_1TextMeshPlugin.html#a4854c23152ecee89df9a12ac37bfc372">   14</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1TextMeshPlugin.html#a4854c23152ecee89df9a12ac37bfc372">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1TextMeshPlugin.html#ad46659d4f09ae387be6d1527130c6426">   16</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1TextMeshPlugin.html#ad46659d4f09ae387be6d1527130c6426">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">enum</span> Fonts</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        Cousine_Regular,</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        DroidSans,</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        Karla_Regular,</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        ProggyClean,</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        ProggyTiny,</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        Roboto_Medium,</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    } font_;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">int</span> details_;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">char</span> buf_[50];</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">void</span> apply_( std::string text, <span class="keywordtype">unsigned</span> details );</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;};</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
 <div class="ttc" id="aMRCustomPlugin_8h_html"><div class="ttname"><a href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:61</div></div>
-<div class="ttc" id="aclassMR_1_1TextMeshPlugin_html"><div class="ttname"><a href="classMR_1_1TextMeshPlugin.html">MR::TextMeshPlugin</a></div><div class="ttdef"><b>Definition:</b> MRTextMeshPlugin.h:9</div></div>
-<div class="ttc" id="aclassMR_1_1TextMeshPlugin_html_a101788ac0d61f0b5f4b816bdd7ec97bb"><div class="ttname"><a href="classMR_1_1TextMeshPlugin.html#a101788ac0d61f0b5f4b816bdd7ec97bb">MR::TextMeshPlugin::isAvailable</a></div><div class="ttdeci">virtual MRVIEWER_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
-<div class="ttc" id="aclassMR_1_1TextMeshPlugin_html_a1c451b75e88fe8e9990441b26a518607"><div class="ttname"><a href="classMR_1_1TextMeshPlugin.html#a1c451b75e88fe8e9990441b26a518607">MR::TextMeshPlugin::drawDialog</a></div><div class="ttdeci">virtual MRVIEWER_API void drawDialog(float menuScaling, ImGuiContext *) override</div></div>
-<div class="ttc" id="aclassMR_1_1TextMeshPlugin_html_aebbc615df522ddc36130a9940bca5f8d"><div class="ttname"><a href="classMR_1_1TextMeshPlugin.html#aebbc615df522ddc36130a9940bca5f8d">MR::TextMeshPlugin::TextMeshPlugin</a></div><div class="ttdeci">MRVIEWER_API TextMeshPlugin()</div></div>
+<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:64</div></div>
+<div class="ttc" id="aclassMR_1_1TextMeshPlugin_html"><div class="ttname"><a href="classMR_1_1TextMeshPlugin.html">MR::TextMeshPlugin</a></div><div class="ttdef"><b>Definition:</b> MRTextMeshPlugin.h:10</div></div>
+<div class="ttc" id="aclassMR_1_1TextMeshPlugin_html_a4854c23152ecee89df9a12ac37bfc372"><div class="ttname"><a href="classMR_1_1TextMeshPlugin.html#a4854c23152ecee89df9a12ac37bfc372">MR::TextMeshPlugin::drawDialog</a></div><div class="ttdeci">virtual MRPLUGINS_API void drawDialog(float menuScaling, ImGuiContext *) override</div></div>
+<div class="ttc" id="aclassMR_1_1TextMeshPlugin_html_ac43a7c7dbbe906fc898b2f5e3a2324a0"><div class="ttname"><a href="classMR_1_1TextMeshPlugin.html#ac43a7c7dbbe906fc898b2f5e3a2324a0">MR::TextMeshPlugin::TextMeshPlugin</a></div><div class="ttdeci">MRPLUGINS_API TextMeshPlugin()</div></div>
+<div class="ttc" id="aclassMR_1_1TextMeshPlugin_html_ad46659d4f09ae387be6d1527130c6426"><div class="ttname"><a href="classMR_1_1TextMeshPlugin.html#ad46659d4f09ae387be6d1527130c6426">MR::TextMeshPlugin::isAvailable</a></div><div class="ttdeci">virtual MRPLUGINS_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MR2DContoursTriangulation.h:6</div></div>
-<div class="ttc" id="anamespaceMR_html_aef5d3e512cccbff53d60ddd8ab43a1d7"><div class="ttname"><a href="namespaceMR.html#aef5d3e512cccbff53d60ddd8ab43a1d7">MR::TextMeshPluginInstance</a></div><div class="ttdeci">MRVIEWER_API TextMeshPlugin TextMeshPluginInstance</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_4c0f52c8eaeab4335405e8027d32c174.html">MeshRUs</a></li><li class="navelem"><a class="el" href="dir_42363ceaf7137d00de0acdca499d56e8.html">source</a></li><li class="navelem"><a class="el" href="dir_f839bb94d4281f3c77b88af9021d1146.html">MRViewer</a></li><li class="navelem"><a class="el" href="MRTextMeshPlugin_8h.html">MRTextMeshPlugin.h</a></li>
+    <li class="navelem"><a class="el" href="dir_4c0f52c8eaeab4335405e8027d32c174.html">MeshRUs</a></li><li class="navelem"><a class="el" href="dir_42363ceaf7137d00de0acdca499d56e8.html">source</a></li><li class="navelem"><a class="el" href="dir_7d5c22fd77562b1c7dd009f1c60de851.html">MRPlugins</a></li><li class="navelem"><a class="el" href="dir_02b45a85b46cb1e62852958b4dcb17fb.html">Mesh</a></li><li class="navelem"><a class="el" href="MRTextMeshPlugin_8h.html">MRTextMeshPlugin.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

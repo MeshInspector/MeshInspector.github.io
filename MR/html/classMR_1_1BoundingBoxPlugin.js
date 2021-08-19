@@ -1,6 +1,6 @@
 var classMR_1_1BoundingBoxPlugin =
 [
-    [ "BoundingBoxPlugin", "classMR_1_1BoundingBoxPlugin.html#a9f0e4ff4d408993716724f7dffdb7cb1", null ],
-    [ "drawDialog", "classMR_1_1BoundingBoxPlugin.html#ac4add36f6fa2a9dd9ede0b2de41892df", null ],
-    [ "isAvailable", "classMR_1_1BoundingBoxPlugin.html#a4addcdfec04353d68c47d29cf394a7fe", null ]
+    [ "BoundingBoxPlugin", "classMR_1_1BoundingBoxPlugin.html#a265b4190dd98ae9b84b94592c9ad7db6", null ],
+    [ "drawDialog", "classMR_1_1BoundingBoxPlugin.html#a025dabf68259a858d084133640e7f879", null ],
+    [ "isAvailable", "classMR_1_1BoundingBoxPlugin.html#af545d75cc1f8bc95f1106e5a835f4e4b", null ]
 ];

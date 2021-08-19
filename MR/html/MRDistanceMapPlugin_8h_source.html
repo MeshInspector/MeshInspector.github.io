@@ -98,55 +98,53 @@ $(document).ready(function(){initNavTree('MRDistanceMapPlugin_8h_source.html',''
 </div><!--header-->
 <div class="contents">
 <a href="MRDistanceMapPlugin_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a>&quot;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="MRBox_8h.html">MRMesh/MRBox.h</a>&gt;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">class </span>ObjectMesh;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceMapPlugin.html">    9</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1DistanceMapPlugin.html">DistanceMapPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">CustomPlugin</a></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceMapPlugin.html#a4c2db728c076cdeaf6f28ba7eb8e9f61">   12</a></span>&#160;    MRVIEWER_API <a class="code" href="classMR_1_1DistanceMapPlugin.html#a4c2db728c076cdeaf6f28ba7eb8e9f61">DistanceMapPlugin</a>();</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceMapPlugin.html#add25de2605fc837393a66ee289765cab">   14</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1DistanceMapPlugin.html#add25de2605fc837393a66ee289765cab">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceMapPlugin.html#affd1b570c24f3d71b2fc3c812d19a77f">   16</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1DistanceMapPlugin.html#affd1b570c24f3d71b2fc3c812d19a77f">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">void</span> getMesh_();</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">float</span> pixelSize_{1.0f / 20.0f};</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">int</span> xRes_ = 160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">int</span> yRes_ = 100;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="structMR_1_1Box.html">Box3f</a> box_, projBox_;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    std::shared_ptr&lt;ObjectMesh&gt; obj_;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;};</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;MRVIEWER_API <span class="keyword">extern</span> DistanceMapPlugin <a class="code" href="namespaceMR.html#a8414f23d2dc5c20bd7b5bbcd5e5269a1">DistanceMapPluginInstance</a>;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;MRPlugins/exports.h&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRCustomPlugin_8h.html">MRViewer/MRCustomPlugin.h</a>&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="MRBox_8h.html">MRMesh/MRBox.h</a>&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">class </span>ObjectMesh;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceMapPlugin.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1DistanceMapPlugin.html">DistanceMapPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">CustomPlugin</a></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceMapPlugin.html#a355c5940456038e747470f273cd6db3a">   13</a></span>&#160;    MRPLUGINS_API <a class="code" href="classMR_1_1DistanceMapPlugin.html#a355c5940456038e747470f273cd6db3a">DistanceMapPlugin</a>();</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceMapPlugin.html#a3260eebc305a8ecf9732ed1e264c9bb7">   15</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1DistanceMapPlugin.html#a3260eebc305a8ecf9732ed1e264c9bb7">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceMapPlugin.html#a670ae9e2d678d574aa80e57569865c51">   17</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1DistanceMapPlugin.html#a670ae9e2d678d574aa80e57569865c51">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">void</span> getMesh_();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">float</span> pixelSize_{1.0f / 20.0f};</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">int</span> xRes_ = 160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">int</span> yRes_ = 100;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="structMR_1_1Box.html">Box3f</a> box_, projBox_;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    std::shared_ptr&lt;ObjectMesh&gt; obj_;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;};</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
 <div class="ttc" id="aMRBox_8h_html"><div class="ttname"><a href="MRBox_8h.html">MRBox.h</a></div></div>
 <div class="ttc" id="aMRCustomPlugin_8h_html"><div class="ttname"><a href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:61</div></div>
-<div class="ttc" id="aclassMR_1_1DistanceMapPlugin_html"><div class="ttname"><a href="classMR_1_1DistanceMapPlugin.html">MR::DistanceMapPlugin</a></div><div class="ttdef"><b>Definition:</b> MRDistanceMapPlugin.h:10</div></div>
-<div class="ttc" id="aclassMR_1_1DistanceMapPlugin_html_a4c2db728c076cdeaf6f28ba7eb8e9f61"><div class="ttname"><a href="classMR_1_1DistanceMapPlugin.html#a4c2db728c076cdeaf6f28ba7eb8e9f61">MR::DistanceMapPlugin::DistanceMapPlugin</a></div><div class="ttdeci">MRVIEWER_API DistanceMapPlugin()</div></div>
-<div class="ttc" id="aclassMR_1_1DistanceMapPlugin_html_add25de2605fc837393a66ee289765cab"><div class="ttname"><a href="classMR_1_1DistanceMapPlugin.html#add25de2605fc837393a66ee289765cab">MR::DistanceMapPlugin::drawDialog</a></div><div class="ttdeci">virtual MRVIEWER_API void drawDialog(float menuScaling, ImGuiContext *) override</div></div>
-<div class="ttc" id="aclassMR_1_1DistanceMapPlugin_html_affd1b570c24f3d71b2fc3c812d19a77f"><div class="ttname"><a href="classMR_1_1DistanceMapPlugin.html#affd1b570c24f3d71b2fc3c812d19a77f">MR::DistanceMapPlugin::isAvailable</a></div><div class="ttdeci">virtual MRVIEWER_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
+<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:64</div></div>
+<div class="ttc" id="aclassMR_1_1DistanceMapPlugin_html"><div class="ttname"><a href="classMR_1_1DistanceMapPlugin.html">MR::DistanceMapPlugin</a></div><div class="ttdef"><b>Definition:</b> MRDistanceMapPlugin.h:11</div></div>
+<div class="ttc" id="aclassMR_1_1DistanceMapPlugin_html_a3260eebc305a8ecf9732ed1e264c9bb7"><div class="ttname"><a href="classMR_1_1DistanceMapPlugin.html#a3260eebc305a8ecf9732ed1e264c9bb7">MR::DistanceMapPlugin::drawDialog</a></div><div class="ttdeci">virtual MRPLUGINS_API void drawDialog(float menuScaling, ImGuiContext *) override</div></div>
+<div class="ttc" id="aclassMR_1_1DistanceMapPlugin_html_a355c5940456038e747470f273cd6db3a"><div class="ttname"><a href="classMR_1_1DistanceMapPlugin.html#a355c5940456038e747470f273cd6db3a">MR::DistanceMapPlugin::DistanceMapPlugin</a></div><div class="ttdeci">MRPLUGINS_API DistanceMapPlugin()</div></div>
+<div class="ttc" id="aclassMR_1_1DistanceMapPlugin_html_a670ae9e2d678d574aa80e57569865c51"><div class="ttname"><a href="classMR_1_1DistanceMapPlugin.html#a670ae9e2d678d574aa80e57569865c51">MR::DistanceMapPlugin::isAvailable</a></div><div class="ttdeci">virtual MRPLUGINS_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MR2DContoursTriangulation.h:6</div></div>
-<div class="ttc" id="anamespaceMR_html_a8414f23d2dc5c20bd7b5bbcd5e5269a1"><div class="ttname"><a href="namespaceMR.html#a8414f23d2dc5c20bd7b5bbcd5e5269a1">MR::DistanceMapPluginInstance</a></div><div class="ttdeci">MRVIEWER_API DistanceMapPlugin DistanceMapPluginInstance</div></div>
 <div class="ttc" id="astructMR_1_1Box_html"><div class="ttname"><a href="structMR_1_1Box.html">MR::Box</a></div><div class="ttdef"><b>Definition:</b> MRBox.h:19</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_4c0f52c8eaeab4335405e8027d32c174.html">MeshRUs</a></li><li class="navelem"><a class="el" href="dir_42363ceaf7137d00de0acdca499d56e8.html">source</a></li><li class="navelem"><a class="el" href="dir_f839bb94d4281f3c77b88af9021d1146.html">MRViewer</a></li><li class="navelem"><a class="el" href="MRDistanceMapPlugin_8h.html">MRDistanceMapPlugin.h</a></li>
+    <li class="navelem"><a class="el" href="dir_4c0f52c8eaeab4335405e8027d32c174.html">MeshRUs</a></li><li class="navelem"><a class="el" href="dir_42363ceaf7137d00de0acdca499d56e8.html">source</a></li><li class="navelem"><a class="el" href="dir_7d5c22fd77562b1c7dd009f1c60de851.html">MRPlugins</a></li><li class="navelem"><a class="el" href="dir_b7e3ef124147bedd78917c3f545d4988.html">DistanceMap</a></li><li class="navelem"><a class="el" href="MRDistanceMapPlugin_8h.html">MRDistanceMapPlugin.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

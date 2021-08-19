@@ -126,32 +126,34 @@ $(document).ready(function(){initNavTree('MRLog_8h_source.html',''); initResizab
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="comment">// adds custom sink to logger</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classMR_1_1Logger.html#a07fd961518f48457c8f593cb84b583cc">   29</a></span>&#160;    <a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1Logger.html#a07fd961518f48457c8f593cb84b583cc">addSink</a>( <span class="keyword">const</span> spdlog::sink_ptr&amp; sink );</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="comment">// return filename of first found file sink, if there is no one, returns {}</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classMR_1_1Logger.html#a36009f2c90bd53d2e844e3c72c21e554">   32</a></span>&#160;    <a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::filesystem::path <a class="code" href="classMR_1_1Logger.html#a36009f2c90bd53d2e844e3c72c21e554">getLogFileName</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="classMR_1_1Logger.html">Logger</a>();</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    std::shared_ptr&lt;spdlog::logger&gt; logger_;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;};</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">// Setups logger:</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">// 1) makes stdout sink</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">// 2) makes file sink (MRLog.txt)</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">// 3) redirect std streams to logger</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">// log level - trace</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="namespaceMR.html#a6804a7415d5f018fa64bf1b533af3d4f">   43</a></span>&#160;<a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code" href="namespaceMR.html#a6804a7415d5f018fa64bf1b533af3d4f">setupLoggerByDefault</a>();</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">// Redirects stdcout stdcerr stdclog to default logger</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">// note: do not call this function directly if you use MR::setupLoggerByDefault()</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="namespaceMR.html#a52d34a9bbe60f99085e9aab32040499f">   47</a></span>&#160;<a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code" href="namespaceMR.html#a52d34a9bbe60f99085e9aab32040499f">redirectSTDStreamsToLogger</a>();</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classMR_1_1Logger.html#a49397b1c0308f3639e914775ba6d0b38">   30</a></span>&#160;    <a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1Logger.html#a49397b1c0308f3639e914775ba6d0b38">removeSink</a>( <span class="keyword">const</span> spdlog::sink_ptr&amp; sink );</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="comment">// return filename of first found file sink, if there is no one, returns {}</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classMR_1_1Logger.html#a36009f2c90bd53d2e844e3c72c21e554">   33</a></span>&#160;    <a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::filesystem::path <a class="code" href="classMR_1_1Logger.html#a36009f2c90bd53d2e844e3c72c21e554">getLogFileName</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="classMR_1_1Logger.html">Logger</a>();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    std::shared_ptr&lt;spdlog::logger&gt; logger_;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;};</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">// Setups logger:</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">// 1) makes stdout sink</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">// 2) makes file sink (MRLog.txt)</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">// 3) redirect std streams to logger</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">// log level - trace</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="namespaceMR.html#a6804a7415d5f018fa64bf1b533af3d4f">   44</a></span>&#160;<a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code" href="namespaceMR.html#a6804a7415d5f018fa64bf1b533af3d4f">setupLoggerByDefault</a>();</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">// Redirects stdcout stdcerr stdclog to default logger</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">// note: do not call this function directly if you use MR::setupLoggerByDefault()</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="namespaceMR.html#a52d34a9bbe60f99085e9aab32040499f">   48</a></span>&#160;<a class="code" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code" href="namespaceMR.html#a52d34a9bbe60f99085e9aab32040499f">redirectSTDStreamsToLogger</a>();</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:14</div></div>
 <div class="ttc" id="aclassMR_1_1Logger_html"><div class="ttname"><a href="classMR_1_1Logger.html">MR::Logger</a></div><div class="ttdef"><b>Definition:</b> MRLog.h:18</div></div>
 <div class="ttc" id="aclassMR_1_1Logger_html_a0139be775710268fdf34c3b3c852bdd8"><div class="ttname"><a href="classMR_1_1Logger.html#a0139be775710268fdf34c3b3c852bdd8">MR::Logger::instance</a></div><div class="ttdeci">static MRMESH_API Logger &amp; instance()</div></div>
 <div class="ttc" id="aclassMR_1_1Logger_html_a07fd961518f48457c8f593cb84b583cc"><div class="ttname"><a href="classMR_1_1Logger.html#a07fd961518f48457c8f593cb84b583cc">MR::Logger::addSink</a></div><div class="ttdeci">MRMESH_API void addSink(const spdlog::sink_ptr &amp;sink)</div></div>
 <div class="ttc" id="aclassMR_1_1Logger_html_a36009f2c90bd53d2e844e3c72c21e554"><div class="ttname"><a href="classMR_1_1Logger.html#a36009f2c90bd53d2e844e3c72c21e554">MR::Logger::getLogFileName</a></div><div class="ttdeci">MRMESH_API std::filesystem::path getLogFileName() const</div></div>
+<div class="ttc" id="aclassMR_1_1Logger_html_a49397b1c0308f3639e914775ba6d0b38"><div class="ttname"><a href="classMR_1_1Logger.html#a49397b1c0308f3639e914775ba6d0b38">MR::Logger::removeSink</a></div><div class="ttdeci">MRMESH_API void removeSink(const spdlog::sink_ptr &amp;sink)</div></div>
 <div class="ttc" id="aclassMR_1_1Logger_html_a77568a9e2af60ab7d6cbe9e1f5053328"><div class="ttname"><a href="classMR_1_1Logger.html#a77568a9e2af60ab7d6cbe9e1f5053328">MR::Logger::getSpdLogger</a></div><div class="ttdeci">MRMESH_API const std::shared_ptr&lt; spdlog::logger &gt; &amp; getSpdLogger() const</div></div>
 <div class="ttc" id="aclassMR_1_1Logger_html_aedaebeb791f1300a121668a8a525ecb1"><div class="ttname"><a href="classMR_1_1Logger.html#aedaebeb791f1300a121668a8a525ecb1">MR::Logger::getDefaultPattern</a></div><div class="ttdeci">MRMESH_API std::string getDefaultPattern() const</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MR2DContoursTriangulation.h:6</div></div>

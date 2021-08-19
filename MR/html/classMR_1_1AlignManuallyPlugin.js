@@ -1,6 +1,6 @@
 var classMR_1_1AlignManuallyPlugin =
 [
-    [ "AlignManuallyPlugin", "classMR_1_1AlignManuallyPlugin.html#a709bb52db9a64deb3418e4b13a25608c", null ],
-    [ "drawDialog", "classMR_1_1AlignManuallyPlugin.html#a0ba231465665cf03f0acd67f6f19bf9b", null ],
-    [ "isAvailable", "classMR_1_1AlignManuallyPlugin.html#a81efef5605a42c7e66fe51809b4aebba", null ]
+    [ "AlignManuallyPlugin", "classMR_1_1AlignManuallyPlugin.html#af857aef3d8e93e3cd121160a9530e29f", null ],
+    [ "drawDialog", "classMR_1_1AlignManuallyPlugin.html#a35c0982f915f588c266bba05a4525376", null ],
+    [ "isAvailable", "classMR_1_1AlignManuallyPlugin.html#a6c8f28745ad1c114039c3e363a728bfd", null ]
 ];

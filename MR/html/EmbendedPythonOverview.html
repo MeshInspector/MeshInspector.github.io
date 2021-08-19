@@ -99,25 +99,24 @@ $(document).ready(function(){initNavTree('EmbendedPythonOverview.html',''); init
 <div class="contents">
 <div class="textblock"><p>Python is one of the most popular and widely used programming language in scientific researches, machine learning, data analysis and advanced testing.<br  />
 <b>Requires</b> <b>python</b> <b>3.9</b> (3.8 on linux)</p>
-<p>MeshRUs library allows you to call python scripts directly from the command line or use particular functions by <code>import mrmesh</code>.</p>
+<p>MeshRUs library allows you to call python scripts directly from the command line or use particular functions by <code>import mrmeshpy</code>.</p>
 <p><b>Usage</b> </p>
 <p>MeshRUs provides several usage options<br  />
 </p><ol type="1">
-<li>Directly from system python <div class="fragment"><div class="line"><span class="keyword">import</span> mrmesh</div>
+<li>Directly from system python <div class="fragment"><div class="line"><span class="keyword">import</span> mrmeshpy</div>
 <div class="line"> </div>
-<div class="line">mesh = mrmesh.load_mesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
+<div class="line">mesh = mrmeshpy.load_mesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
 <div class="line"><span class="preprocessor"># ...</span></div>
 <div class="line"><span class="preprocessor"># some mesh modifications can be perform here</span></div>
 <div class="line"><span class="preprocessor"># ...</span></div>
-<div class="line"><span class="preprocessor">mrmesh.save_mesh(&quot;mesh.ply&quot;</span>)</div>
+<div class="line"><span class="preprocessor">mrmeshpy.save_mesh(&quot;mesh.ply&quot;</span>)</div>
 </div><!-- fragment --></li>
 <li>Run scritp with MeshRUs executable file (MeshRUs.exe on windows or ./MRApp on linux) <div class="fragment"><div class="line">$ ./MRApp script_path.py</div>
-</div><!-- fragment --> <dl class="section note"><dt>Note</dt><dd>Script should still import mrmesh module </dd>
+</div><!-- fragment --> <dl class="section note"><dt>Note</dt><dd>Script should still import mrmeshpy module </dd>
 <dd>
 Also such scripts can import mrviewer module to have access to rendering functions</dd></dl>
 </li>
-<li>Run script from c++ code <div class="fragment"><div class="line"><a class="code" href="namespaceMR.html#a66aa55ab617d0f2c5e57182fdcf66acc">MR::runScript</a>(<span class="stringliteral">&quot;script.py&quot;</span>); <span class="comment">// or MR::runString( stringWithScript )</span></div>
-<div class="ttc" id="anamespaceMR_html_a66aa55ab617d0f2c5e57182fdcf66acc"><div class="ttname"><a href="namespaceMR.html#a66aa55ab617d0f2c5e57182fdcf66acc">MR::runScript</a></div><div class="ttdeci">MRMESH_API bool runScript(const std::filesystem::path &amp;path)</div></div>
+<li>Run script from c++ code <div class="fragment"><div class="line">MR::runScript(<span class="stringliteral">&quot;script.py&quot;</span>); <span class="comment">// or MR::runString( stringWithScript )</span></div>
 </div><!-- fragment --></li>
 </ol>
 <p><b>Exposing</b> </p>
@@ -128,13 +127,13 @@ Also such scripts can import mrviewer module to have access to rendering functio
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">//init sould be called only once for each module</span></div>
-<div class="line"><a class="code" href="MRPython_8h.html#a315359e8ba3513ba5ecc6da1ae07b1c0">INIT_PYTHON_MODULE</a>( moduleName )</div>
+<div class="line"><a class="code" href="MRPython_8h.html#ae5ca7c53eb569ed9f6cf8fb01846e429">MR_INIT_PYTHON_MODULE</a>( moduleName )</div>
 <div class="line"> </div>
-<div class="line"><a class="code" href="MRPython_8h.html#a13654151e7ff83935ab7ada7fa8426ef">ADD_PYTHON_FUNCTION</a>( moduleName, examplePythonFunc, pythonExample);</div>
+<div class="line"><a class="code" href="MRPython_8h.html#ad3d8d8d2e659e278ea5e86f49078ddae">MR_ADD_PYTHON_FUNCTION</a>( moduleName, examplePythonFunc, pythonExample);</div>
 <div class="ttc" id="aMRPython_8h_html"><div class="ttname"><a href="MRPython_8h.html">MRPython.h</a></div></div>
-<div class="ttc" id="aMRPython_8h_html_a13654151e7ff83935ab7ada7fa8426ef"><div class="ttname"><a href="MRPython_8h.html#a13654151e7ff83935ab7ada7fa8426ef">ADD_PYTHON_FUNCTION</a></div><div class="ttdeci">#define ADD_PYTHON_FUNCTION(moduleName, name, func, description)</div><div class="ttdef"><b>Definition:</b> MRPython.h:29</div></div>
-<div class="ttc" id="aMRPython_8h_html_a315359e8ba3513ba5ecc6da1ae07b1c0"><div class="ttname"><a href="MRPython_8h.html#a315359e8ba3513ba5ecc6da1ae07b1c0">INIT_PYTHON_MODULE</a></div><div class="ttdeci">#define INIT_PYTHON_MODULE(moduleName)</div><div class="ttdef"><b>Definition:</b> MRPython.h:20</div></div>
-</div><!-- fragment --><p><b>Functions</b> <code>MeshRUs/pythonScripts</code> folder contain scripts which could be used as examples for developers or testers. <b>Python</b> <b>library</b> allows to list all <code>mrmesh.*</code> functions with standart <code>print(dir(mrmesh))</code> call. You can list all available python functuins by running <code>python MeshRUs/python_scripts/functions_list.py</code></p>
+<div class="ttc" id="aMRPython_8h_html_ad3d8d8d2e659e278ea5e86f49078ddae"><div class="ttname"><a href="MRPython_8h.html#ad3d8d8d2e659e278ea5e86f49078ddae">MR_ADD_PYTHON_FUNCTION</a></div><div class="ttdeci">#define MR_ADD_PYTHON_FUNCTION(moduleName, name, func, description)</div><div class="ttdef"><b>Definition:</b> MRPython.h:23</div></div>
+<div class="ttc" id="aMRPython_8h_html_ae5ca7c53eb569ed9f6cf8fb01846e429"><div class="ttname"><a href="MRPython_8h.html#ae5ca7c53eb569ed9f6cf8fb01846e429">MR_INIT_PYTHON_MODULE</a></div><div class="ttdeci">#define MR_INIT_PYTHON_MODULE(moduleName)</div><div class="ttdef"><b>Definition:</b> MRPython.h:11</div></div>
+</div><!-- fragment --><p><b>Functions</b> <code>MeshRUs/pythonScripts</code> folder contain scripts which could be used as examples for developers or testers. <b>Python</b> <b>library</b> allows to list all <code>mrmeshpy.*</code> functions with standart <code>print(dir(mrmeshpy))</code> call. You can list all available python functuins by running <code>python MeshRUs/python_scripts/functions_list.py</code></p>
 <dl class="section note"><dt>Note</dt><dd>Not all functions are available anytime, for example functions that triggers rendering are not available in direct python call, but available with executable run</dd></dl>
 <p>Some functions are listed here:</p>
 <table class="markdownTable">

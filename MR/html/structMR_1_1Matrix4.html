@@ -110,6 +110,8 @@ $(document).ready(function(){initNavTree('structMR_1_1Matrix4.html',''); initRes
 Public Types</h2></td></tr>
 <tr class="memitem:a37b7b5c48f473091b3f1489d1651c4f7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Matrix4.html#a37b7b5c48f473091b3f1489d1651c4f7">ValueType</a> = T</td></tr>
 <tr class="separator:a37b7b5c48f473091b3f1489d1651c4f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40a1bbeba85718db9ed906be11c92308"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Matrix4.html#a40a1bbeba85718db9ed906be11c92308">VectorType</a> = <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt;</td></tr>
+<tr class="separator:a40a1bbeba85718db9ed906be11c92308"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -119,7 +121,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abd46e2cdc867cd289cbc0ec5733fa827"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a83e20de940378f00e19b33ac4375d7"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Matrix4.html#a9a83e20de940378f00e19b33ac4375d7">Matrix4</a> (const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;r, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;t)</td></tr>
 <tr class="separator:a9a83e20de940378f00e19b33ac4375d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c8e791018f0a65338dfe67ed598875a"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Matrix4.html#a1c8e791018f0a65338dfe67ed598875a">Matrix4</a> (const <a class="el" href="structMR_1_1AffineXf3.html">AffineXf3</a>&lt; T &gt; &amp;xf)</td></tr>
+<tr class="memitem:a1c8e791018f0a65338dfe67ed598875a"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Matrix4.html#a1c8e791018f0a65338dfe67ed598875a">Matrix4</a> (const <a class="el" href="namespaceMR.html#a497ae0b02290edeaa5275069efc377df">AffineXf3</a>&lt; T &gt; &amp;xf)</td></tr>
 <tr class="separator:a1c8e791018f0a65338dfe67ed598875a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6452ee6d44d0ef12ed6ea165680f171"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
 <tr class="memitem:ac6452ee6d44d0ef12ed6ea165680f171"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structMR_1_1Matrix4.html#ac6452ee6d44d0ef12ed6ea165680f171">Matrix4</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; U &gt; &amp;m)</td></tr>
@@ -196,6 +198,22 @@ template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="structMR_1_1Matrix4.html">MR::Matrix4</a>&lt; T &gt;::<a class="el" href="structMR_1_1Matrix4.html#a37b7b5c48f473091b3f1489d1651c4f7">ValueType</a> =  T</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a40a1bbeba85718db9ed906be11c92308"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40a1bbeba85718db9ed906be11c92308">&#9670;&nbsp;</a></span>VectorType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structMR_1_1Matrix4.html">MR::Matrix4</a>&lt; T &gt;::<a class="el" href="structMR_1_1Matrix4.html#a40a1bbeba85718db9ed906be11c92308">VectorType</a> =  <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt;T&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -332,7 +350,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">constexpr <a class="el" href="structMR_1_1Matrix4.html">MR::Matrix4</a>&lt; T &gt;::<a class="el" href="structMR_1_1Matrix4.html">Matrix4</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1AffineXf3.html">AffineXf3</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a497ae0b02290edeaa5275069efc377df">AffineXf3</a>&lt; T &gt; &amp;&#160;</td>
           <td class="paramname"><em>xf</em></td><td>)</td>
           <td></td>
         </tr>
@@ -570,7 +588,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Matrix4.html">MR::Matrix4</a>&lt; T &gt;::operator <a class="el" href="structMR_1_1AffineXf3.html">AffineXf3</a>&lt; T &gt; </td>
+          <td class="memname"><a class="el" href="structMR_1_1Matrix4.html">MR::Matrix4</a>&lt; T &gt;::operator <a class="el" href="namespaceMR.html#a497ae0b02290edeaa5275069efc377df">AffineXf3</a>&lt; T &gt; </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>

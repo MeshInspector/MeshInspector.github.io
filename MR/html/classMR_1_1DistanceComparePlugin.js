@@ -1,9 +1,9 @@
 var classMR_1_1DistanceComparePlugin =
 [
-    [ "DistanceComparePlugin", "classMR_1_1DistanceComparePlugin.html#ab5482dbc13fa63e371e6f254d5792300", null ],
-    [ "drawDialog", "classMR_1_1DistanceComparePlugin.html#a04f1669044fcab7765711bf407ea4e6b", null ],
-    [ "getObj", "classMR_1_1DistanceComparePlugin.html#afd3b21d378446cceccca8e8123fa2617", null ],
-    [ "isAvailable", "classMR_1_1DistanceComparePlugin.html#ab7d441beee0be7de0388a76e1e073c87", null ],
-    [ "setMax", "classMR_1_1DistanceComparePlugin.html#a236027d329fed9d0c5c72cf273635ba2", null ],
-    [ "update", "classMR_1_1DistanceComparePlugin.html#afd64fa5b5a916e7dee7bd43686f480a5", null ]
+    [ "DistanceComparePlugin", "classMR_1_1DistanceComparePlugin.html#a05efc55a138b5120d8482116fbb3a987", null ],
+    [ "drawDialog", "classMR_1_1DistanceComparePlugin.html#a3a17dbd70031ff75242d1d857cafb4d4", null ],
+    [ "getObj", "classMR_1_1DistanceComparePlugin.html#ad9e091b32b61b020a76452638f89a92c", null ],
+    [ "isAvailable", "classMR_1_1DistanceComparePlugin.html#af6546493e1887e3a33f236d826aea1fd", null ],
+    [ "setMax", "classMR_1_1DistanceComparePlugin.html#a3c60680e960cb2343acc4efbd7c974d4", null ],
+    [ "update", "classMR_1_1DistanceComparePlugin.html#af8cc25f3399275062fa18bd00a18cc9c", null ]
 ];

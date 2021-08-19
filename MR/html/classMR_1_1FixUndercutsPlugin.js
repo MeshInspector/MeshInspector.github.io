@@ -1,6 +1,6 @@
 var classMR_1_1FixUndercutsPlugin =
 [
-    [ "FixUndercutsPlugin", "classMR_1_1FixUndercutsPlugin.html#a22be220c2cbd70053c6144fb13c02121", null ],
-    [ "drawDialog", "classMR_1_1FixUndercutsPlugin.html#a32dccf53ee592c1216026be4d2617210", null ],
-    [ "isAvailable", "classMR_1_1FixUndercutsPlugin.html#a2c2a16ffb7685388718aa50e6e3a806e", null ]
+    [ "FixUndercutsPlugin", "classMR_1_1FixUndercutsPlugin.html#aaec9fda2b6377bf6b530f7ad38330b6c", null ],
+    [ "drawDialog", "classMR_1_1FixUndercutsPlugin.html#a5780ecdf3a586a2de1c34cc61fcaba02", null ],
+    [ "isAvailable", "classMR_1_1FixUndercutsPlugin.html#a27d05cfab160c129b48042217f56f624", null ]
 ];

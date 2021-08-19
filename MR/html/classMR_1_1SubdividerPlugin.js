@@ -1,6 +1,6 @@
 var classMR_1_1SubdividerPlugin =
 [
-    [ "SubdividerPlugin", "classMR_1_1SubdividerPlugin.html#a11f2416c32066a11b0160890a7e82001", null ],
-    [ "drawDialog", "classMR_1_1SubdividerPlugin.html#a167199ecd09ecbbe66c61a7e6c55b545", null ],
-    [ "isAvailable", "classMR_1_1SubdividerPlugin.html#ac16ef548f8712b27d951d464e13fdc2c", null ]
+    [ "SubdividerPlugin", "classMR_1_1SubdividerPlugin.html#a4d2212e099b0dc18999fe2dd8d22857c", null ],
+    [ "drawDialog", "classMR_1_1SubdividerPlugin.html#ad8e74a8d77e0a35c95e2acf2c6bae1f3", null ],
+    [ "isAvailable", "classMR_1_1SubdividerPlugin.html#a7851a62cd8f69826625a48906cdbacbd", null ]
 ];

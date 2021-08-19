@@ -1,6 +1,6 @@
 var classMR_1_1SelectComponentByAreaPlugin =
 [
-    [ "SelectComponentByAreaPlugin", "classMR_1_1SelectComponentByAreaPlugin.html#af2de90ff4c0c28425ed219d2ecf0f281", null ],
-    [ "drawDialog", "classMR_1_1SelectComponentByAreaPlugin.html#a975efb573b303ee1299c859c71834726", null ],
-    [ "isAvailable", "classMR_1_1SelectComponentByAreaPlugin.html#a4f821a331f6585f3470db885c0c50edb", null ]
+    [ "SelectComponentByAreaPlugin", "classMR_1_1SelectComponentByAreaPlugin.html#ab6ea280134bfd6a0203efdbad2e466c4", null ],
+    [ "drawDialog", "classMR_1_1SelectComponentByAreaPlugin.html#ae42ba8553c3f754031ff382122a436aa", null ],
+    [ "isAvailable", "classMR_1_1SelectComponentByAreaPlugin.html#a0fdcf1b64c37625078b434e21d3d58fe", null ]
 ];

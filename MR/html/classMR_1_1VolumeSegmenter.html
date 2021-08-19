@@ -98,9 +98,12 @@ $(document).ready(function(){initNavTree('classMR_1_1VolumeSegmenter.html',''); 
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classMR_1_1VolumeSegmenter-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MR::VolumeSegmenter Class Reference</div>  </div>
+<div class="title">MR::VolumeSegmenter Class Reference<div class="ingroups"><a class="el" href="group__VolumeSegmentationGroup.html">Volume (Voxel) Segmentation overview</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class for voxels segmentation.  
+ <a href="classMR_1_1VolumeSegmenter.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MRVolumeSegment_8h_source.html">MRVolumeSegment.h</a>&gt;</code></p>
 <table class="memberdecls">
@@ -117,23 +120,51 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3b873fd7454ef53287d695e0d2754767"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VolumeSegmenter.html#a3b873fd7454ef53287d695e0d2754767">VolumeSegmenter</a> (const <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &amp;volume)</td></tr>
 <tr class="separator:a3b873fd7454ef53287d695e0d2754767"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2cb8edc62883764857cc7b28e1b10e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VolumeSegmenter.html#aa2cb8edc62883764857cc7b28e1b10e3">addPathSeeds</a> (const <a class="el" href="structMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;metricParameters, <a class="el" href="classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5">SeedType</a> seedType, float exponentModifier=-1.0f)</td></tr>
+<tr class="memdesc:aa2cb8edc62883764857cc7b28e1b10e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds path with given parameters, marks result as seedType seeds.  <a href="classMR_1_1VolumeSegmenter.html#aa2cb8edc62883764857cc7b28e1b10e3">More...</a><br /></td></tr>
 <tr class="separator:aa2cb8edc62883764857cc7b28e1b10e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e2381048221676f7c2c5beadb063dc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VolumeSegmenter.html#a5e2381048221676f7c2c5beadb063dc2">setSeeds</a> (const std::vector&lt; <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &gt; &amp;seeds, <a class="el" href="classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5">SeedType</a> seedType)</td></tr>
+<tr class="memdesc:a5e2381048221676f7c2c5beadb063dc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset seeds with given ones.  <a href="classMR_1_1VolumeSegmenter.html#a5e2381048221676f7c2c5beadb063dc2">More...</a><br /></td></tr>
 <tr class="separator:a5e2381048221676f7c2c5beadb063dc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a482d2182b6aa84abf4311b2adceb495d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VolumeSegmenter.html#a482d2182b6aa84abf4311b2adceb495d">addSeeds</a> (const std::vector&lt; <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &gt; &amp;seeds, <a class="el" href="classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5">SeedType</a> seedType)</td></tr>
+<tr class="memdesc:a482d2182b6aa84abf4311b2adceb495d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds new seeds to stored.  <a href="classMR_1_1VolumeSegmenter.html#a482d2182b6aa84abf4311b2adceb495d">More...</a><br /></td></tr>
 <tr class="separator:a482d2182b6aa84abf4311b2adceb495d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa2f6a062bc84c0ca1d3bf75b38bc98b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const std::vector&lt; <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VolumeSegmenter.html#afa2f6a062bc84c0ca1d3bf75b38bc98b">getSeeds</a> (<a class="el" href="classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5">SeedType</a> seedType) const</td></tr>
+<tr class="memdesc:afa2f6a062bc84c0ca1d3bf75b38bc98b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return currently stored seeds.  <a href="classMR_1_1VolumeSegmenter.html#afa2f6a062bc84c0ca1d3bf75b38bc98b">More...</a><br /></td></tr>
 <tr class="separator:afa2f6a062bc84c0ca1d3bf75b38bc98b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c82088939171da209090d08e531d5b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="namespaceMR.html#a554ecd806e7de55aceb363940928dac0">VoxelBitSet</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VolumeSegmenter.html#a1c82088939171da209090d08e531d5b3">segmentVolume</a> (float segmentationExponentModifier=3000.0f, int voxelsExpansion=25)</td></tr>
+<tr class="memdesc:a1c82088939171da209090d08e531d5b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Segments volume, return inside part segmentation (VoxelBitSet in space of VolumePart)  <a href="classMR_1_1VolumeSegmenter.html#a1c82088939171da209090d08e531d5b3">More...</a><br /></td></tr>
 <tr class="separator:a1c82088939171da209090d08e531d5b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62c7e28949721f2b5db433c25480cdc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VolumeSegmenter.html#a62c7e28949721f2b5db433c25480cdc4">createMeshFromSegmentation</a> (const <a class="el" href="namespaceMR.html#a554ecd806e7de55aceb363940928dac0">VoxelBitSet</a> &amp;segmentation) const</td></tr>
+<tr class="memdesc:a62c7e28949721f2b5db433c25480cdc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns mesh of given segment.  <a href="classMR_1_1VolumeSegmenter.html#a62c7e28949721f2b5db433c25480cdc4">More...</a><br /></td></tr>
 <tr class="separator:a62c7e28949721f2b5db433c25480cdc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9537ebdbb3503b2bce0a12d7c66f0653"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VolumeSegmenter.html#a9537ebdbb3503b2bce0a12d7c66f0653">getVolumePartDimensions</a> () const</td></tr>
+<tr class="memdesc:a9537ebdbb3503b2bce0a12d7c66f0653"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dimensions of volume part, filled after segmentation.  <a href="classMR_1_1VolumeSegmenter.html#a9537ebdbb3503b2bce0a12d7c66f0653">More...</a><br /></td></tr>
 <tr class="separator:a9537ebdbb3503b2bce0a12d7c66f0653"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d51a2174d61ec91963238c4df6bef5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VolumeSegmenter.html#a1d51a2174d61ec91963238c4df6bef5c">getMinVoxel</a> () const</td></tr>
+<tr class="memdesc:a1d51a2174d61ec91963238c4df6bef5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Min voxel of volume part box in whole volume space, filled after segmentation.  <a href="classMR_1_1VolumeSegmenter.html#a1d51a2174d61ec91963238c4df6bef5c">More...</a><br /></td></tr>
 <tr class="separator:a1d51a2174d61ec91963238c4df6bef5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class for voxels segmentation. </p>
+<a class="anchor" id="VolumeSegmenter_examples"></a>
+<table border="0">
+<caption></caption>
+<tr>
+<td><div class="image">
+<img src="voxel_segmentation_0_0.png" alt="" width="350cm"/>
+<div class="caption">
+Before (a)</div></div>
+ </td><td><div class="image">
+<img src="voxel_segmentation_0_1.png" alt="" width="350cm"/>
+<div class="caption">
+Before (b)</div></div>
+ </td><td><div class="image">
+<img src="voxel_segmentation_0_2.png" alt="" width="350cm"/>
+<div class="caption">
+After</div></div>
+ </td></tr>
+</table>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a892a75dc2e76c1953d6968a1cdefe8b5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a892a75dc2e76c1953d6968a1cdefe8b5">&#9670;&nbsp;</a></span>SeedType</h2>
 
@@ -205,6 +236,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Builds path with given parameters, marks result as seedType seeds. </p>
+
 </div>
 </div>
 <a id="a482d2182b6aa84abf4311b2adceb495d"></a>
@@ -233,6 +266,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Adds new seeds to stored. </p>
+
 </div>
 </div>
 <a id="a62c7e28949721f2b5db433c25480cdc4"></a>
@@ -251,6 +286,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Returns mesh of given segment. </p>
+
 </div>
 </div>
 <a id="a1d51a2174d61ec91963238c4df6bef5c"></a>
@@ -267,6 +304,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Min voxel of volume part box in whole volume space, filled after segmentation. </p>
 
 </div>
 </div>
@@ -286,6 +325,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Return currently stored seeds. </p>
+
 </div>
 </div>
 <a id="a9537ebdbb3503b2bce0a12d7c66f0653"></a>
@@ -302,6 +343,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Dimensions of volume part, filled after segmentation. </p>
 
 </div>
 </div>
@@ -331,6 +374,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Segments volume, return inside part segmentation (VoxelBitSet in space of VolumePart) </p>
+
 </div>
 </div>
 <a id="a5e2381048221676f7c2c5beadb063dc2"></a>
@@ -358,6 +403,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Reset seeds with given ones. </p>
 
 </div>
 </div>

@@ -103,13 +103,16 @@ $(document).ready(function(){initNavTree('MRAABBTreeNode_8h.html',''); initResiz
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRBox_8h_source.html">MRBox.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRId_8h_source.html">MRId.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRVector2_8h_source.html">MRVector2.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRVector3_8h_source.html">MRVector3.h</a>&quot;</code><br />
 </div>
 <p><a href="MRAABBTreeNode_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeNode.html">MR::AABBTreeNode&lt; LeafId &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ABBTreeTraits.html">MR::ABBTreeTraits&lt; L, B &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeNode.html">MR::AABBTreeNode&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -119,12 +122,18 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a25cb25c30d88c6dfb3c3402792d1f10d"><td class="memTemplParams" colspan="2">template&lt;typename LeafId &gt; </td></tr>
-<tr class="memitem:a25cb25c30d88c6dfb3c3402792d1f10d"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a25cb25c30d88c6dfb3c3402792d1f10d">MR::AABBTreeNodeId</a> = typename AABBTreeNode&lt; LeafId &gt;::NodeId</td></tr>
-<tr class="separator:a25cb25c30d88c6dfb3c3402792d1f10d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac814192861636e56e37ce5a36ef8531e"><td class="memTemplParams" colspan="2">template&lt;typename LeafId &gt; </td></tr>
-<tr class="memitem:ac814192861636e56e37ce5a36ef8531e"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac814192861636e56e37ce5a36ef8531e">MR::AABBTreeNodeVec</a> = Vector&lt; AABBTreeNode&lt; LeafId &gt;, AABBTreeNodeId&lt; LeafId &gt; &gt;</td></tr>
-<tr class="separator:ac814192861636e56e37ce5a36ef8531e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad692565ba80610283f4322d081a95ef8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ad692565ba80610283f4322d081a95ef8">MR::FaceTreeTraits3</a> = ABBTreeTraits&lt; FaceId, Box3f &gt;</td></tr>
+<tr class="separator:ad692565ba80610283f4322d081a95ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f822b36d842e2853878140944cc3a47"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5f822b36d842e2853878140944cc3a47">MR::LineTreeTraits2</a> = ABBTreeTraits&lt; LineId, Box2f &gt;</td></tr>
+<tr class="separator:a5f822b36d842e2853878140944cc3a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf6bcb45a1f2b00001e9953cfc6971ac"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#acf6bcb45a1f2b00001e9953cfc6971ac">MR::LineTreeTraits3</a> = ABBTreeTraits&lt; LineId, Box3f &gt;</td></tr>
+<tr class="separator:acf6bcb45a1f2b00001e9953cfc6971ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34a8bbcd6701c78c61502a42e3a1dca0"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a34a8bbcd6701c78c61502a42e3a1dca0"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a34a8bbcd6701c78c61502a42e3a1dca0">MR::AABBTreeNodeId</a> = typename AABBTreeNode&lt; T &gt;::NodeId</td></tr>
+<tr class="separator:a34a8bbcd6701c78c61502a42e3a1dca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dc29c20db23419ffc06b5a3a0244204"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a0dc29c20db23419ffc06b5a3a0244204"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0dc29c20db23419ffc06b5a3a0244204">MR::AABBTreeNodeVec</a> = Vector&lt; AABBTreeNode&lt; T &gt;, AABBTreeNodeId&lt; T &gt; &gt;</td></tr>
+<tr class="separator:a0dc29c20db23419ffc06b5a3a0244204"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

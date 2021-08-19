@@ -1,5 +1,6 @@
 var structMR_1_1Vector2 =
 [
+    [ "MatrixType", "structMR_1_1Vector2.html#a74579bfbb9d532d53c66684a02dc8cb5", null ],
     [ "ValueType", "structMR_1_1Vector2.html#a419f18cb7af20ab8455495874cefbd9d", null ],
     [ "Vector2", "structMR_1_1Vector2.html#a3ff02adca3f72858969bfba674ccf9c7", null ],
     [ "Vector2", "structMR_1_1Vector2.html#a9c5f2b992789dba5c6d4e8e80ed28fa0", null ],

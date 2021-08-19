@@ -9,5 +9,6 @@ var MRViewer_8h =
     [ "IGL_MOD_SHIFT", "MRViewer_8h.html#a54f4a56ef4be139878c5e543b25154fe", null ],
     [ "IGL_MOD_SUPER", "MRViewer_8h.html#a90807d1bae1c3f9eeef39f0fe2c19a94", null ],
     [ "MAKE_SLOT", "MRViewer_8h.html#a2c688df55bdadf35189e97880b6dc592", null ],
-    [ "bindSlotCallback", "MRViewer_8h.html#a4e10ab3e9579ce8ffbd2209497603cbc", null ]
+    [ "bindSlotCallback", "MRViewer_8h.html#a4e10ab3e9579ce8ffbd2209497603cbc", null ],
+    [ "launchDefaultViewer", "MRViewer_8h.html#abf0f4c580a56e4a7e297faa1b6de7378", null ]
 ];

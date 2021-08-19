@@ -98,49 +98,47 @@ $(document).ready(function(){initNavTree('MRSelectDegenerateTriangles_8h_source.
 </div><!--header-->
 <div class="contents">
 <a href="MRSelectDegenerateTriangles_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a>&quot;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">class </span>ObjectMesh;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classMR_1_1SelectDegenerateTriangles.html">    9</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1SelectDegenerateTriangles.html">SelectDegenerateTriangles</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">CustomPlugin</a></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classMR_1_1SelectDegenerateTriangles.html#a51117fad51b30e005a4b88b8b2a513fd">   12</a></span>&#160;    MRVIEWER_API <a class="code" href="classMR_1_1SelectDegenerateTriangles.html#a51117fad51b30e005a4b88b8b2a513fd">SelectDegenerateTriangles</a>();</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classMR_1_1SelectDegenerateTriangles.html#ac37efbe5efcf6fab37bd4dafce8b06fa">   14</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1SelectDegenerateTriangles.html#ac37efbe5efcf6fab37bd4dafce8b06fa">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1SelectDegenerateTriangles.html#a2e64ac911e0b689d8225bd23fc55021a">   16</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1SelectDegenerateTriangles.html#a2e64ac911e0b689d8225bd23fc55021a">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ctx ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">void</span> select_();</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    std::shared_ptr&lt;ObjectMesh&gt; obj_;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">float</span> criticalAspectRatio_;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;};</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;MRVIEWER_API <span class="keyword">extern</span> <a class="code" href="classMR_1_1SelectDegenerateTriangles.html">SelectDegenerateTriangles</a> <a class="code" href="namespaceMR.html#a123a07a4cbdbbc7c346e17d28fcc88e1">SelectDegenerateTrianglesInstance</a>;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;MRPlugins/exports.h&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRCustomPlugin_8h.html">MRViewer/MRCustomPlugin.h</a>&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">class </span>ObjectMesh;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classMR_1_1SelectDegenerateTriangles.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1SelectDegenerateTriangles.html">SelectDegenerateTriangles</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">CustomPlugin</a></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classMR_1_1SelectDegenerateTriangles.html#af88b80aa750b737d724e1d24f6545202">   13</a></span>&#160;    MRPLUGINS_API <a class="code" href="classMR_1_1SelectDegenerateTriangles.html#af88b80aa750b737d724e1d24f6545202">SelectDegenerateTriangles</a>();</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classMR_1_1SelectDegenerateTriangles.html#ace8cfd1b3b8e4649565bc56527a9d83f">   15</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1SelectDegenerateTriangles.html#ace8cfd1b3b8e4649565bc56527a9d83f">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classMR_1_1SelectDegenerateTriangles.html#a60197db91d958846db77c6c735ef2e2b">   17</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1SelectDegenerateTriangles.html#a60197db91d958846db77c6c735ef2e2b">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ctx ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">void</span> select_();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    std::shared_ptr&lt;ObjectMesh&gt; obj_;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">float</span> criticalAspectRatio_;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;};</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
 <div class="ttc" id="aMRCustomPlugin_8h_html"><div class="ttname"><a href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:61</div></div>
-<div class="ttc" id="aclassMR_1_1SelectDegenerateTriangles_html"><div class="ttname"><a href="classMR_1_1SelectDegenerateTriangles.html">MR::SelectDegenerateTriangles</a></div><div class="ttdef"><b>Definition:</b> MRSelectDegenerateTriangles.h:10</div></div>
-<div class="ttc" id="aclassMR_1_1SelectDegenerateTriangles_html_a2e64ac911e0b689d8225bd23fc55021a"><div class="ttname"><a href="classMR_1_1SelectDegenerateTriangles.html#a2e64ac911e0b689d8225bd23fc55021a">MR::SelectDegenerateTriangles::drawDialog</a></div><div class="ttdeci">virtual MRVIEWER_API void drawDialog(float menuScaling, ImGuiContext *ctx) override</div></div>
-<div class="ttc" id="aclassMR_1_1SelectDegenerateTriangles_html_a51117fad51b30e005a4b88b8b2a513fd"><div class="ttname"><a href="classMR_1_1SelectDegenerateTriangles.html#a51117fad51b30e005a4b88b8b2a513fd">MR::SelectDegenerateTriangles::SelectDegenerateTriangles</a></div><div class="ttdeci">MRVIEWER_API SelectDegenerateTriangles()</div></div>
-<div class="ttc" id="aclassMR_1_1SelectDegenerateTriangles_html_ac37efbe5efcf6fab37bd4dafce8b06fa"><div class="ttname"><a href="classMR_1_1SelectDegenerateTriangles.html#ac37efbe5efcf6fab37bd4dafce8b06fa">MR::SelectDegenerateTriangles::isAvailable</a></div><div class="ttdeci">virtual MRVIEWER_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
+<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:64</div></div>
+<div class="ttc" id="aclassMR_1_1SelectDegenerateTriangles_html"><div class="ttname"><a href="classMR_1_1SelectDegenerateTriangles.html">MR::SelectDegenerateTriangles</a></div><div class="ttdef"><b>Definition:</b> MRSelectDegenerateTriangles.h:11</div></div>
+<div class="ttc" id="aclassMR_1_1SelectDegenerateTriangles_html_a60197db91d958846db77c6c735ef2e2b"><div class="ttname"><a href="classMR_1_1SelectDegenerateTriangles.html#a60197db91d958846db77c6c735ef2e2b">MR::SelectDegenerateTriangles::drawDialog</a></div><div class="ttdeci">virtual MRPLUGINS_API void drawDialog(float menuScaling, ImGuiContext *ctx) override</div></div>
+<div class="ttc" id="aclassMR_1_1SelectDegenerateTriangles_html_ace8cfd1b3b8e4649565bc56527a9d83f"><div class="ttname"><a href="classMR_1_1SelectDegenerateTriangles.html#ace8cfd1b3b8e4649565bc56527a9d83f">MR::SelectDegenerateTriangles::isAvailable</a></div><div class="ttdeci">virtual MRPLUGINS_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
+<div class="ttc" id="aclassMR_1_1SelectDegenerateTriangles_html_af88b80aa750b737d724e1d24f6545202"><div class="ttname"><a href="classMR_1_1SelectDegenerateTriangles.html#af88b80aa750b737d724e1d24f6545202">MR::SelectDegenerateTriangles::SelectDegenerateTriangles</a></div><div class="ttdeci">MRPLUGINS_API SelectDegenerateTriangles()</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MR2DContoursTriangulation.h:6</div></div>
-<div class="ttc" id="anamespaceMR_html_a123a07a4cbdbbc7c346e17d28fcc88e1"><div class="ttname"><a href="namespaceMR.html#a123a07a4cbdbbc7c346e17d28fcc88e1">MR::SelectDegenerateTrianglesInstance</a></div><div class="ttdeci">MRVIEWER_API SelectDegenerateTriangles SelectDegenerateTrianglesInstance</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_4c0f52c8eaeab4335405e8027d32c174.html">MeshRUs</a></li><li class="navelem"><a class="el" href="dir_42363ceaf7137d00de0acdca499d56e8.html">source</a></li><li class="navelem"><a class="el" href="dir_f839bb94d4281f3c77b88af9021d1146.html">MRViewer</a></li><li class="navelem"><a class="el" href="MRSelectDegenerateTriangles_8h.html">MRSelectDegenerateTriangles.h</a></li>
+    <li class="navelem"><a class="el" href="dir_4c0f52c8eaeab4335405e8027d32c174.html">MeshRUs</a></li><li class="navelem"><a class="el" href="dir_42363ceaf7137d00de0acdca499d56e8.html">source</a></li><li class="navelem"><a class="el" href="dir_7d5c22fd77562b1c7dd009f1c60de851.html">MRPlugins</a></li><li class="navelem"><a class="el" href="dir_62a289364a9db1f98e6e13d575894064.html">Selectors</a></li><li class="navelem"><a class="el" href="MRSelectDegenerateTriangles_8h.html">MRSelectDegenerateTriangles.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
