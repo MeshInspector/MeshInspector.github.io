@@ -159,10 +159,15 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5c5505e0b7ec40651dc41ce35b964c32"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a5c5505e0b7ec40651dc41ce35b964c32">launch</a> (const <a class="el" href="structMR_1_1Viewer_1_1LaunchParams.html">LaunchParams</a> &amp;params)</td></tr>
 <tr class="separator:a5c5505e0b7ec40651dc41ce35b964c32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2617bee9a60314a8c6be669ec4323ab"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ae2617bee9a60314a8c6be669ec4323ab">launchEventLoop</a> ()</td></tr>
-<tr class="separator:ae2617bee9a60314a8c6be669ec4323ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab149079b6cfab119f1d82274c7e54ac6"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ab149079b6cfab119f1d82274c7e54ac6">launchEventLoop</a> ()</td></tr>
+<tr class="separator:ab149079b6cfab119f1d82274c7e54ac6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab85b7bf9ec873e3253b2e214ced07544"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ab85b7bf9ec873e3253b2e214ced07544">launchShut</a> ()</td></tr>
 <tr class="separator:ab85b7bf9ec873e3253b2e214ced07544"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a881f953c9d192cce78219319c2cdf0bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a881f953c9d192cce78219319c2cdf0bb">isLaunched</a> () const</td></tr>
+<tr class="separator:a881f953c9d192cce78219319c2cdf0bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b6baedfca2f052a1a72baae91383c1f"><td class="memTemplParams" colspan="2">template&lt;typename PluginType &gt; </td></tr>
+<tr class="memitem:a1b6baedfca2f052a1a72baae91383c1f"><td class="memTemplItemLeft" align="right" valign="top">PluginType *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a1b6baedfca2f052a1a72baae91383c1f">getPluginInstance</a> ()</td></tr>
+<tr class="separator:a1b6baedfca2f052a1a72baae91383c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab07dde78c9102b6d7aa6af7cc9b35957"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ab07dde78c9102b6d7aa6af7cc9b35957">isKnownMeshFile</a> (const std::filesystem::path &amp;file_name)</td></tr>
 <tr class="separator:ab07dde78c9102b6d7aa6af7cc9b35957"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af198143b063621c6f93b2c7e24cd5bff"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#af198143b063621c6f93b2c7e24cd5bff">load_file</a> (const std::filesystem::path &amp;file_name)</td></tr>
@@ -957,6 +962,33 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a1b6baedfca2f052a1a72baae91383c1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b6baedfca2f052a1a72baae91383c1f">&#9670;&nbsp;</a></span>getPluginInstance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PluginType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PluginType* MR::Viewer::getPluginInstance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a31d6494e00e43d9afe0c2ca0c089c075"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a31d6494e00e43d9afe0c2ca0c089c075">&#9670;&nbsp;</a></span>getPresentViewports()</h2>
 
@@ -1289,6 +1321,31 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a881f953c9d192cce78219319c2cdf0bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a881f953c9d192cce78219319c2cdf0bb">&#9670;&nbsp;</a></span>isLaunched()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::Viewer::isLaunched </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5a33d7e663ee2ec175f39fe6d5618279"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5a33d7e663ee2ec175f39fe6d5618279">&#9670;&nbsp;</a></span>isMRDefaultSceneControlsSet()</h2>
 
@@ -1436,14 +1493,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae2617bee9a60314a8c6be669ec4323ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2617bee9a60314a8c6be669ec4323ab">&#9670;&nbsp;</a></span>launchEventLoop()</h2>
+<a id="ab149079b6cfab119f1d82274c7e54ac6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab149079b6cfab119f1d82274c7e54ac6">&#9670;&nbsp;</a></span>launchEventLoop()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API bool MR::Viewer::launchEventLoop </td>
+          <td class="memname">MRVIEWER_API void MR::Viewer::launchEventLoop </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>

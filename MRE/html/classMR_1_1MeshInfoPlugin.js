@@ -1,6 +1,6 @@
 var classMR_1_1MeshInfoPlugin =
 [
-    [ "MeshInfoPlugin", "classMR_1_1MeshInfoPlugin.html#a505e0b75952b46f1fe3533663365f833", null ],
-    [ "drawDialog", "classMR_1_1MeshInfoPlugin.html#ade0291c5ace0a3e215471e73509303c8", null ],
-    [ "isAvailable", "classMR_1_1MeshInfoPlugin.html#a88986a9ee0070fa1253c40ef8a137a73", null ]
+    [ "MeshInfoPlugin", "classMR_1_1MeshInfoPlugin.html#a8895af092b3befad1a58ba3acc6d43af", null ],
+    [ "drawDialog", "classMR_1_1MeshInfoPlugin.html#a5ed3d5ef0814be32c7702a53de3927f1", null ],
+    [ "isAvailable", "classMR_1_1MeshInfoPlugin.html#a337b0bf8e6f6fd11f5ca5aa7acd5c664", null ]
 ];

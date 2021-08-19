@@ -1,7 +1,9 @@
 var modules =
 [
+    [ "Mesh Segmentation overwiev", "group__MeshSegmentationGroup.html", "group__MeshSegmentationGroup" ],
     [ "Surface Boolean overview", "group__BooleanGroup.html", "group__BooleanGroup" ],
     [ "Decimate overview", "group__DecimateGroup.html", "group__DecimateGroup" ],
     [ "PointCloud triangulation overview", "group__PointCloudTriangulationGroup.html", "group__PointCloudTriangulationGroup" ],
-    [ "Fill/Stitch Holes overview", "group__FillHoleGroup.html", "group__FillHoleGroup" ]
+    [ "Fill/Stitch Holes overview", "group__FillHoleGroup.html", "group__FillHoleGroup" ],
+    [ "Volume (Voxel) Segmentation overview", "group__VolumeSegmentationGroup.html", "group__VolumeSegmentationGroup" ]
 ];

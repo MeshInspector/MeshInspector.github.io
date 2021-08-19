@@ -98,51 +98,52 @@ $(document).ready(function(){initNavTree('MRPickerTest_8h_source.html',''); init
 </div><!--header-->
 <div class="contents">
 <a href="MRPickerTest_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a>&quot;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRMeshViewer_8h.html">MRMeshViewer.h</a>&quot;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRVector2_8h.html">MRMesh/MRVector2.h</a>&quot;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;functional&gt;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">class </span>VisualObject;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classMR_1_1PickerTest.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1PickerTest.html">PickerTest</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a>&lt;MouseDownListener&gt;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classMR_1_1PickerTest.html#a5393c706286565ab3cfbe364f788109d">   15</a></span>&#160;    MRVIEWER_API <a class="code" href="classMR_1_1PickerTest.html#a5393c706286565ab3cfbe364f788109d">PickerTest</a>();</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classMR_1_1PickerTest.html#a32d62857ae9b0a2d90f25ec3ce3903ef">   17</a></span>&#160;    MRVIEWER_API <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1PickerTest.html#a32d62857ae9b0a2d90f25ec3ce3903ef">intersectRay</a>(<a class="code" href="structMR_1_1PointOnFace.html">PointOnFace</a>&amp; point);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classMR_1_1PickerTest.html#af2fcc1d5b1f83591b026fe66f108c1a4">   19</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1PickerTest.html#af2fcc1d5b1f83591b026fe66f108c1a4">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classMR_1_1PickerTest.html#a2d04363b7fc91fbb070481a1c7ad2ce5">   21</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1PickerTest.html#a2d04363b7fc91fbb070481a1c7ad2ce5">drawDialog</a>(<span class="keywordtype">float</span> menuScaling, ImGuiContext*) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">bool</span> onMouseDown_( <a class="code" href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    std::shared_ptr&lt;VisualObject&gt; obj_;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">bool</span> wasLabelsVisible_{<span class="keyword">false</span>};</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">bool</span> useGL_ = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">bool</span> enableGLOutput_{<span class="keyword">false</span>};</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;};</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;MRPlugins/exports.h&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRCustomPlugin_8h.html">MRViewer/MRCustomPlugin.h</a>&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRViewer_8h.html">MRViewer/MRViewer.h</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRVector2_8h.html">MRMesh/MRVector2.h</a>&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;functional&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">class </span>VisualObject;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classMR_1_1PickerTest.html">   13</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1PickerTest.html">PickerTest</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a>&lt;MouseDownListener&gt;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1PickerTest.html#a81258c3c0797d3b74a960adebf0d5c95">   16</a></span>&#160;    MRPLUGINS_API <a class="code" href="classMR_1_1PickerTest.html#a81258c3c0797d3b74a960adebf0d5c95">PickerTest</a>();</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classMR_1_1PickerTest.html#a4987e95c5f45bdd77a5738a5c3c9ba75">   18</a></span>&#160;    MRPLUGINS_API <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1PickerTest.html#a4987e95c5f45bdd77a5738a5c3c9ba75">intersectRay</a>(<a class="code" href="structMR_1_1PointOnFace.html">PointOnFace</a>&amp; point);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classMR_1_1PickerTest.html#a87c244dab45d5f0bcb5d322d21ad3448">   20</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1PickerTest.html#a87c244dab45d5f0bcb5d322d21ad3448">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classMR_1_1PickerTest.html#ab01f8025778b166b4209f6e8280bec4c">   22</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1PickerTest.html#ab01f8025778b166b4209f6e8280bec4c">drawDialog</a>(<span class="keywordtype">float</span> menuScaling, ImGuiContext*) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">bool</span> onMouseDown_( <a class="code" href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    std::shared_ptr&lt;VisualObject&gt; obj_;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">bool</span> wasLabelsVisible_{<span class="keyword">false</span>};</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">bool</span> useGL_ = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">bool</span> enableGLOutput_{<span class="keyword">false</span>};</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;};</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
 <div class="ttc" id="aMRCustomPlugin_8h_html"><div class="ttname"><a href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a></div></div>
-<div class="ttc" id="aMRMeshViewer_8h_html"><div class="ttname"><a href="MRMeshViewer_8h.html">MRMeshViewer.h</a></div></div>
 <div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="MRMesh_8h.html">MRMesh.h</a></div></div>
 <div class="ttc" id="aMRVector2_8h_html"><div class="ttname"><a href="MRVector2_8h.html">MRVector2.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:61</div></div>
-<div class="ttc" id="aclassMR_1_1PickerTest_html"><div class="ttname"><a href="classMR_1_1PickerTest.html">MR::PickerTest</a></div><div class="ttdef"><b>Definition:</b> MRPickerTest.h:13</div></div>
-<div class="ttc" id="aclassMR_1_1PickerTest_html_a2d04363b7fc91fbb070481a1c7ad2ce5"><div class="ttname"><a href="classMR_1_1PickerTest.html#a2d04363b7fc91fbb070481a1c7ad2ce5">MR::PickerTest::drawDialog</a></div><div class="ttdeci">virtual MRVIEWER_API void drawDialog(float menuScaling, ImGuiContext *) override</div></div>
-<div class="ttc" id="aclassMR_1_1PickerTest_html_a32d62857ae9b0a2d90f25ec3ce3903ef"><div class="ttname"><a href="classMR_1_1PickerTest.html#a32d62857ae9b0a2d90f25ec3ce3903ef">MR::PickerTest::intersectRay</a></div><div class="ttdeci">MRVIEWER_API bool intersectRay(PointOnFace &amp;point)</div></div>
-<div class="ttc" id="aclassMR_1_1PickerTest_html_a5393c706286565ab3cfbe364f788109d"><div class="ttname"><a href="classMR_1_1PickerTest.html#a5393c706286565ab3cfbe364f788109d">MR::PickerTest::PickerTest</a></div><div class="ttdeci">MRVIEWER_API PickerTest()</div></div>
-<div class="ttc" id="aclassMR_1_1PickerTest_html_af2fcc1d5b1f83591b026fe66f108c1a4"><div class="ttname"><a href="classMR_1_1PickerTest.html#af2fcc1d5b1f83591b026fe66f108c1a4">MR::PickerTest::isAvailable</a></div><div class="ttdeci">virtual MRVIEWER_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
-<div class="ttc" id="aclassMR_1_1Viewer_html_a4e2fd639b52df5ee18d06bb9f4e504f6"><div class="ttname"><a href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition:</b> MRViewer.h:56</div></div>
+<div class="ttc" id="aMRViewer_8h_html"><div class="ttname"><a href="MRViewer_8h.html">MRViewer.h</a></div></div>
+<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:64</div></div>
+<div class="ttc" id="aclassMR_1_1PickerTest_html"><div class="ttname"><a href="classMR_1_1PickerTest.html">MR::PickerTest</a></div><div class="ttdef"><b>Definition:</b> MRPickerTest.h:14</div></div>
+<div class="ttc" id="aclassMR_1_1PickerTest_html_a4987e95c5f45bdd77a5738a5c3c9ba75"><div class="ttname"><a href="classMR_1_1PickerTest.html#a4987e95c5f45bdd77a5738a5c3c9ba75">MR::PickerTest::intersectRay</a></div><div class="ttdeci">MRPLUGINS_API bool intersectRay(PointOnFace &amp;point)</div></div>
+<div class="ttc" id="aclassMR_1_1PickerTest_html_a81258c3c0797d3b74a960adebf0d5c95"><div class="ttname"><a href="classMR_1_1PickerTest.html#a81258c3c0797d3b74a960adebf0d5c95">MR::PickerTest::PickerTest</a></div><div class="ttdeci">MRPLUGINS_API PickerTest()</div></div>
+<div class="ttc" id="aclassMR_1_1PickerTest_html_a87c244dab45d5f0bcb5d322d21ad3448"><div class="ttname"><a href="classMR_1_1PickerTest.html#a87c244dab45d5f0bcb5d322d21ad3448">MR::PickerTest::isAvailable</a></div><div class="ttdeci">virtual MRPLUGINS_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
+<div class="ttc" id="aclassMR_1_1PickerTest_html_ab01f8025778b166b4209f6e8280bec4c"><div class="ttname"><a href="classMR_1_1PickerTest.html#ab01f8025778b166b4209f6e8280bec4c">MR::PickerTest::drawDialog</a></div><div class="ttdeci">virtual MRPLUGINS_API void drawDialog(float menuScaling, ImGuiContext *) override</div></div>
+<div class="ttc" id="aclassMR_1_1Viewer_html_a4e2fd639b52df5ee18d06bb9f4e504f6"><div class="ttname"><a href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition:</b> MRViewer.h:58</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:7</div></div>
 <div class="ttc" id="astructMR_1_1PointOnFace_html"><div class="ttname"><a href="structMR_1_1PointOnFace.html">MR::PointOnFace</a></div><div class="ttdef"><b>Definition:</b> MRPointOnFace.h:11</div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -150,7 +151,7 @@ $(document).ready(function(){initNavTree('MRPickerTest_8h_source.html',''); init
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_5e4d59245b04e2d858bb4989b0ffa337.html">MeshRusExt</a></li><li class="navelem"><a class="el" href="dir_0ffe293385ae275deae100126c4e561a.html">MeshRUs</a></li><li class="navelem"><a class="el" href="dir_5819d638ccc1b923e32124652b6cf3de.html">source</a></li><li class="navelem"><a class="el" href="dir_c1f9312b24165a3bddebf5b3847c3ef6.html">MRViewer</a></li><li class="navelem"><a class="el" href="MRPickerTest_8h.html">MRPickerTest.h</a></li>
+    <li class="navelem"><a class="el" href="dir_5e4d59245b04e2d858bb4989b0ffa337.html">MeshRusExt</a></li><li class="navelem"><a class="el" href="dir_0ffe293385ae275deae100126c4e561a.html">MeshRUs</a></li><li class="navelem"><a class="el" href="dir_5819d638ccc1b923e32124652b6cf3de.html">source</a></li><li class="navelem"><a class="el" href="dir_4956f2afad90a9cb188b1742f35d8b34.html">MRPlugins</a></li><li class="navelem"><a class="el" href="dir_7131622de4b8bdbc6a602234c8973e85.html">Tests</a></li><li class="navelem"><a class="el" href="MRPickerTest_8h.html">MRPickerTest.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

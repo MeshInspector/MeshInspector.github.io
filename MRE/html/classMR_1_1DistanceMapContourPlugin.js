@@ -1,6 +1,6 @@
 var classMR_1_1DistanceMapContourPlugin =
 [
-    [ "DistanceMapContourPlugin", "classMR_1_1DistanceMapContourPlugin.html#a944edceefbb55152ab8e767da172f24f", null ],
-    [ "drawDialog", "classMR_1_1DistanceMapContourPlugin.html#af1badbce881284ffbd187c69e245f144", null ],
-    [ "isAvailable", "classMR_1_1DistanceMapContourPlugin.html#aef23c903296c18203fa4334d7c0672ec", null ]
+    [ "DistanceMapContourPlugin", "classMR_1_1DistanceMapContourPlugin.html#a23e25668ca41205243af2c2f697099f5", null ],
+    [ "drawDialog", "classMR_1_1DistanceMapContourPlugin.html#a46183919e7236bbae9b275b73f31ff5d", null ],
+    [ "isAvailable", "classMR_1_1DistanceMapContourPlugin.html#a82e84f2c8980c9242a062aa868bacab9", null ]
 ];

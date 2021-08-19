@@ -1,5 +1,5 @@
 var classMR_1_1ShowLocalBasisPlugin =
 [
-    [ "ShowLocalBasisPlugin", "classMR_1_1ShowLocalBasisPlugin.html#a9cd2f53528ecf442a55433e9e6cec0d0", null ],
-    [ "isAvailable", "classMR_1_1ShowLocalBasisPlugin.html#a982a206f0782c3eac9b71b8da97eea97", null ]
+    [ "ShowLocalBasisPlugin", "classMR_1_1ShowLocalBasisPlugin.html#a1811d7a909ecdd7c3c446f7c8d71aa70", null ],
+    [ "isAvailable", "classMR_1_1ShowLocalBasisPlugin.html#aa4c0c38d9cc0ff7582b0ea33f6f28ddf", null ]
 ];

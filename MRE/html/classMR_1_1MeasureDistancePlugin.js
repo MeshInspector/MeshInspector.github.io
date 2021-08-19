@@ -1,5 +1,5 @@
 var classMR_1_1MeasureDistancePlugin =
 [
-    [ "MeasureDistancePlugin", "classMR_1_1MeasureDistancePlugin.html#a221c13347c7a49560258247b247eba51", null ],
-    [ "isAvailable", "classMR_1_1MeasureDistancePlugin.html#a91ba67dbf0b1afb6a1966edd9ff12efb", null ]
+    [ "MeasureDistancePlugin", "classMR_1_1MeasureDistancePlugin.html#af0605b2e6ae0eaca88c98ba6084ebf57", null ],
+    [ "isAvailable", "classMR_1_1MeasureDistancePlugin.html#a99191bf4a2fab9bfb887138712d05fa3", null ]
 ];

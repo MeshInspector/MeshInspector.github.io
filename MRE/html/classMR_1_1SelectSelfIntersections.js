@@ -1,5 +1,5 @@
 var classMR_1_1SelectSelfIntersections =
 [
-    [ "SelectSelfIntersections", "classMR_1_1SelectSelfIntersections.html#acd34c54070c10fcad6eaa33e377f8f0f", null ],
-    [ "isAvailable", "classMR_1_1SelectSelfIntersections.html#a380acccba5d6a1165c01d5558ea5ba12", null ]
+    [ "SelectSelfIntersections", "classMR_1_1SelectSelfIntersections.html#a8b49e22569241d86b236f64ebd9b3df2", null ],
+    [ "isAvailable", "classMR_1_1SelectSelfIntersections.html#a610414c5e9e433e3d37d5263800bff52", null ]
 ];

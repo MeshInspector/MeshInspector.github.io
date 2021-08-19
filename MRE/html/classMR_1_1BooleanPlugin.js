@@ -1,6 +1,6 @@
 var classMR_1_1BooleanPlugin =
 [
-    [ "BooleanPlugin", "classMR_1_1BooleanPlugin.html#af3f945ca8c7947b37256171a67fae1ac", null ],
-    [ "drawDialog", "classMR_1_1BooleanPlugin.html#a363f6d3989e690cd449f075f18b73406", null ],
-    [ "isAvailable", "classMR_1_1BooleanPlugin.html#adcf057c11c24a842d4e3b99dba154978", null ]
+    [ "BooleanPlugin", "classMR_1_1BooleanPlugin.html#acaf575233ea218f9f549494f005536a0", null ],
+    [ "drawDialog", "classMR_1_1BooleanPlugin.html#a71fa1cfb9f268ea1d62893be454d5b2b", null ],
+    [ "isAvailable", "classMR_1_1BooleanPlugin.html#af3a05820331904a66d035ccde80b724b", null ]
 ];

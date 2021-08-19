@@ -1,6 +1,6 @@
 var classMR_1_1RegularMapMeshingPlugin =
 [
-    [ "RegularMapMeshingPlugin", "classMR_1_1RegularMapMeshingPlugin.html#ae498106c356aa2034ca519dd782e6206", null ],
-    [ "drawDialog", "classMR_1_1RegularMapMeshingPlugin.html#ab43e659bb034a2ce51a2eefa3da72934", null ],
-    [ "isAvailable", "classMR_1_1RegularMapMeshingPlugin.html#add08fb2b91f318836513610ba6973cb5", null ]
+    [ "RegularMapMeshingPlugin", "classMR_1_1RegularMapMeshingPlugin.html#aa0e4289e8e16df69337e200b433d381f", null ],
+    [ "drawDialog", "classMR_1_1RegularMapMeshingPlugin.html#a2fd3e101e2b5a6ff376a3abf79908bf7", null ],
+    [ "isAvailable", "classMR_1_1RegularMapMeshingPlugin.html#aadad83759d304b997952723d2fd99bb2", null ]
 ];

@@ -98,86 +98,87 @@ $(document).ready(function(){initNavTree('MRMeshInfoPlugin_8h_source.html',''); 
 </div><!--header-->
 <div class="contents">
 <a href="MRMeshInfoPlugin_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a>&quot;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&quot;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRMeshViewer_8h.html">MRMeshViewer.h</a>&quot;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">class </span>ObjectMesh;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classMR_1_1MeshInfoPlugin.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1MeshInfoPlugin.html">MeshInfoPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a>&lt;MouseDownListener&gt;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classMR_1_1MeshInfoPlugin.html#a505e0b75952b46f1fe3533663365f833">   13</a></span>&#160;    MRVIEWER_API <a class="code" href="classMR_1_1MeshInfoPlugin.html#a505e0b75952b46f1fe3533663365f833">MeshInfoPlugin</a>();</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classMR_1_1MeshInfoPlugin.html#a88986a9ee0070fa1253c40ef8a137a73">   15</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1MeshInfoPlugin.html#a88986a9ee0070fa1253c40ef8a137a73">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1MeshInfoPlugin.html#ade0291c5ace0a3e215471e73509303c8">   16</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1MeshInfoPlugin.html#ade0291c5ace0a3e215471e73509303c8">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseDown_( <a class="code" href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    std::shared_ptr&lt;ObjectMesh&gt; obj_;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">bool</span> wasLabelsVisible_{ <span class="keyword">false</span> };</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="comment">// Pick action reation</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">bool</span> pick_action( <span class="keyword">const</span> <a class="code" href="classMR_1_1Id.html">FaceId</a> &amp;f, <span class="keyword">const</span> <a class="code" href="structMR_1_1Vector3.html">Vector3f</a> &amp;c );   </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="comment">// Picked or selected Id of Face, Edge or Vertex </span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">size_t</span> currentFaceId_{ 0 };</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">size_t</span> currentEdgeId_{ 0 };</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">size_t</span> currentVertexId_{ 0 };</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="comment">// preview function of different modes </span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">void</span> preview_edge_mode( <span class="keywordtype">void</span> );</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> preview_face_mode( <span class="keywordtype">void</span> );  </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">void</span> preview_vert_mode( <span class="keywordtype">void</span> );</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;MRPlugins/exports.h&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRCustomPlugin_8h.html">MRViewer/MRCustomPlugin.h</a>&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRViewer_8h.html">MRViewer/MRViewer.h</a>&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">class </span>ObjectMesh;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classMR_1_1MeshInfoPlugin.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1MeshInfoPlugin.html">MeshInfoPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a>&lt;MouseDownListener&gt;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classMR_1_1MeshInfoPlugin.html#a8895af092b3befad1a58ba3acc6d43af">   14</a></span>&#160;    MRPLUGINS_API <a class="code" href="classMR_1_1MeshInfoPlugin.html#a8895af092b3befad1a58ba3acc6d43af">MeshInfoPlugin</a>();</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1MeshInfoPlugin.html#a337b0bf8e6f6fd11f5ca5aa7acd5c664">   16</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1MeshInfoPlugin.html#a337b0bf8e6f6fd11f5ca5aa7acd5c664">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classMR_1_1MeshInfoPlugin.html#a5ed3d5ef0814be32c7702a53de3927f1">   17</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1MeshInfoPlugin.html#a5ed3d5ef0814be32c7702a53de3927f1">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseDown_( <a class="code" href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    std::shared_ptr&lt;ObjectMesh&gt; obj_;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">bool</span> wasLabelsVisible_{ <span class="keyword">false</span> };</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="comment">// Pick action reation</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">bool</span> pick_action( <span class="keyword">const</span> <a class="code" href="classMR_1_1Id.html">FaceId</a> &amp;f, <span class="keyword">const</span> <a class="code" href="structMR_1_1Vector3.html">Vector3f</a> &amp;c );   </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="comment">// Picked or selected Id of Face, Edge or Vertex </span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">size_t</span> currentFaceId_{ 0 };</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">size_t</span> currentEdgeId_{ 0 };</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">size_t</span> currentVertexId_{ 0 };</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="comment">// preview function of different modes </span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> preview_edge_mode( <span class="keywordtype">void</span> );</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">void</span> preview_face_mode( <span class="keywordtype">void</span> );  </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">void</span> preview_vert_mode( <span class="keywordtype">void</span> );</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">void</span> show_selected_face( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a>&amp; f );</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">void</span> show_selected_edge( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&amp; e );</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> show_selected_vert( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&amp; v );</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">void</span> show_selected_face( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a>&amp; f );</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> show_selected_edge( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&amp; e );</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> show_selected_vert( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&amp; v );</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> show_face_label( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a>&amp; f, <span class="keywordtype">bool</span> isNeighbor = <span class="keyword">false</span> );</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> show_edge_label( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&amp; e, <span class="keywordtype">bool</span> isNeighbor = <span class="keyword">false</span> );</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> show_vert_label( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&amp; v, <span class="keywordtype">bool</span> isNeighbor = <span class="keyword">false</span> );</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> find_nearest_edge( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> &amp;f, <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;c );</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> find_nearest_vertex( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> &amp;f, <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;c );</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">bool</span> show_face_labels_{ <span class="keyword">false</span> };</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">bool</span> show_edge_labels_{ <span class="keyword">false</span> };</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">bool</span> show_vert_labels_{ <span class="keyword">false</span> };</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">bool</span> show_neighbors_{ <span class="keyword">false</span> };</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">bool</span> show_selected_{ <span class="keyword">true</span> };</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keyword">enum</span> Modes</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    {</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        Face_mode,</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        Edge_mode,</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        Vert_mode</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    } mode_;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    std::shared_ptr&lt;FaceBitSet&gt; original_face_bit_set_;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    std::string corresponded_elements_line_1_  ; </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    std::string corresponded_elements_line_2_  ;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">bool</span> need_update_{ <span class="keyword">false</span> }; </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;};</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;}</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> show_face_label( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a>&amp; f, <span class="keywordtype">bool</span> isNeighbor = <span class="keyword">false</span> );</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> show_edge_label( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&amp; e, <span class="keywordtype">bool</span> isNeighbor = <span class="keyword">false</span> );</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> show_vert_label( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&amp; v, <span class="keywordtype">bool</span> isNeighbor = <span class="keyword">false</span> );</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> find_nearest_edge( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> &amp;f, <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;c );</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> find_nearest_vertex( <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> &amp;f, <span class="keyword">const</span> <a class="code" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;c );</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">bool</span> show_face_labels_{ <span class="keyword">false</span> };</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">bool</span> show_edge_labels_{ <span class="keyword">false</span> };</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">bool</span> show_vert_labels_{ <span class="keyword">false</span> };</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">bool</span> show_neighbors_{ <span class="keyword">false</span> };</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">bool</span> show_selected_{ <span class="keyword">true</span> };</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keyword">enum</span> Modes</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    {</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        Face_mode,</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        Edge_mode,</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        Vert_mode</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    } mode_;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    std::shared_ptr&lt;FaceBitSet&gt; original_face_bit_set_;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    std::string corresponded_elements_line_1_  ; </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    std::string corresponded_elements_line_2_  ;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">bool</span> need_update_{ <span class="keyword">false</span> }; </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;};</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;}</div>
 <div class="ttc" id="aMRCustomPlugin_8h_html"><div class="ttname"><a href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
-<div class="ttc" id="aMRMeshViewer_8h_html"><div class="ttname"><a href="MRMeshViewer_8h.html">MRMeshViewer.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:61</div></div>
+<div class="ttc" id="aMRViewer_8h_html"><div class="ttname"><a href="MRViewer_8h.html">MRViewer.h</a></div></div>
+<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:64</div></div>
 <div class="ttc" id="aclassMR_1_1Id_html"><div class="ttname"><a href="classMR_1_1Id.html">MR::Id&lt; FaceTag &gt;</a></div></div>
-<div class="ttc" id="aclassMR_1_1MeshInfoPlugin_html"><div class="ttname"><a href="classMR_1_1MeshInfoPlugin.html">MR::MeshInfoPlugin</a></div><div class="ttdef"><b>Definition:</b> MRMeshInfoPlugin.h:11</div></div>
-<div class="ttc" id="aclassMR_1_1MeshInfoPlugin_html_a505e0b75952b46f1fe3533663365f833"><div class="ttname"><a href="classMR_1_1MeshInfoPlugin.html#a505e0b75952b46f1fe3533663365f833">MR::MeshInfoPlugin::MeshInfoPlugin</a></div><div class="ttdeci">MRVIEWER_API MeshInfoPlugin()</div></div>
-<div class="ttc" id="aclassMR_1_1MeshInfoPlugin_html_a88986a9ee0070fa1253c40ef8a137a73"><div class="ttname"><a href="classMR_1_1MeshInfoPlugin.html#a88986a9ee0070fa1253c40ef8a137a73">MR::MeshInfoPlugin::isAvailable</a></div><div class="ttdeci">virtual MRVIEWER_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
-<div class="ttc" id="aclassMR_1_1MeshInfoPlugin_html_ade0291c5ace0a3e215471e73509303c8"><div class="ttname"><a href="classMR_1_1MeshInfoPlugin.html#ade0291c5ace0a3e215471e73509303c8">MR::MeshInfoPlugin::drawDialog</a></div><div class="ttdeci">virtual MRVIEWER_API void drawDialog(float menuScaling, ImGuiContext *) override</div></div>
-<div class="ttc" id="aclassMR_1_1Viewer_html_a4e2fd639b52df5ee18d06bb9f4e504f6"><div class="ttname"><a href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition:</b> MRViewer.h:56</div></div>
+<div class="ttc" id="aclassMR_1_1MeshInfoPlugin_html"><div class="ttname"><a href="classMR_1_1MeshInfoPlugin.html">MR::MeshInfoPlugin</a></div><div class="ttdef"><b>Definition:</b> MRMeshInfoPlugin.h:12</div></div>
+<div class="ttc" id="aclassMR_1_1MeshInfoPlugin_html_a337b0bf8e6f6fd11f5ca5aa7acd5c664"><div class="ttname"><a href="classMR_1_1MeshInfoPlugin.html#a337b0bf8e6f6fd11f5ca5aa7acd5c664">MR::MeshInfoPlugin::isAvailable</a></div><div class="ttdeci">virtual MRPLUGINS_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
+<div class="ttc" id="aclassMR_1_1MeshInfoPlugin_html_a5ed3d5ef0814be32c7702a53de3927f1"><div class="ttname"><a href="classMR_1_1MeshInfoPlugin.html#a5ed3d5ef0814be32c7702a53de3927f1">MR::MeshInfoPlugin::drawDialog</a></div><div class="ttdeci">virtual MRPLUGINS_API void drawDialog(float menuScaling, ImGuiContext *) override</div></div>
+<div class="ttc" id="aclassMR_1_1MeshInfoPlugin_html_a8895af092b3befad1a58ba3acc6d43af"><div class="ttname"><a href="classMR_1_1MeshInfoPlugin.html#a8895af092b3befad1a58ba3acc6d43af">MR::MeshInfoPlugin::MeshInfoPlugin</a></div><div class="ttdeci">MRPLUGINS_API MeshInfoPlugin()</div></div>
+<div class="ttc" id="aclassMR_1_1Viewer_html_a4e2fd639b52df5ee18d06bb9f4e504f6"><div class="ttname"><a href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition:</b> MRViewer.h:58</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:7</div></div>
 <div class="ttc" id="anamespaceMR_html_a2f4408b5ff9250509a9d18a04d6f1fb5"><div class="ttname"><a href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">MR::VertId</a></div><div class="ttdeci">Id&lt; VertTag &gt; VertId</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:35</div></div>
 <div class="ttc" id="anamespaceMR_html_a4234a65e90443b87f6412b4e681a38ac"><div class="ttname"><a href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">MR::FaceId</a></div><div class="ttdeci">Id&lt; FaceTag &gt; FaceId</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:34</div></div>
@@ -189,7 +190,7 @@ $(document).ready(function(){initNavTree('MRMeshInfoPlugin_8h_source.html',''); 
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_5e4d59245b04e2d858bb4989b0ffa337.html">MeshRusExt</a></li><li class="navelem"><a class="el" href="dir_0ffe293385ae275deae100126c4e561a.html">MeshRUs</a></li><li class="navelem"><a class="el" href="dir_5819d638ccc1b923e32124652b6cf3de.html">source</a></li><li class="navelem"><a class="el" href="dir_c1f9312b24165a3bddebf5b3847c3ef6.html">MRViewer</a></li><li class="navelem"><a class="el" href="MRMeshInfoPlugin_8h.html">MRMeshInfoPlugin.h</a></li>
+    <li class="navelem"><a class="el" href="dir_5e4d59245b04e2d858bb4989b0ffa337.html">MeshRusExt</a></li><li class="navelem"><a class="el" href="dir_0ffe293385ae275deae100126c4e561a.html">MeshRUs</a></li><li class="navelem"><a class="el" href="dir_5819d638ccc1b923e32124652b6cf3de.html">source</a></li><li class="navelem"><a class="el" href="dir_4956f2afad90a9cb188b1742f35d8b34.html">MRPlugins</a></li><li class="navelem"><a class="el" href="dir_9c149ece667079f1d17e8c7089595c67.html">Analysis</a></li><li class="navelem"><a class="el" href="MRMeshInfoPlugin_8h.html">MRMeshInfoPlugin.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

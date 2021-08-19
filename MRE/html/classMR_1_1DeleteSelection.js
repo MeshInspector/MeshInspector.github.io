@@ -1,4 +1,4 @@
 var classMR_1_1DeleteSelection =
 [
-    [ "DeleteSelection", "classMR_1_1DeleteSelection.html#a677792adee5d321b43795344c4b22828", null ]
+    [ "DeleteSelection", "classMR_1_1DeleteSelection.html#a70c87726d7dc34d3a170b2b4ecff5f1f", null ]
 ];

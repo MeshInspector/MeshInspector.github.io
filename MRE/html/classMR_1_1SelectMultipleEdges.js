@@ -1,5 +1,5 @@
 var classMR_1_1SelectMultipleEdges =
 [
-    [ "SelectMultipleEdges", "classMR_1_1SelectMultipleEdges.html#a7e238213afbfc3fd2efb9770f6aaadb8", null ],
-    [ "isAvailable", "classMR_1_1SelectMultipleEdges.html#a54c3cc77fe58061ac182301e4747a100", null ]
+    [ "SelectMultipleEdges", "classMR_1_1SelectMultipleEdges.html#ad071094aa1f27b9b81ff0509899d41cb", null ],
+    [ "isAvailable", "classMR_1_1SelectMultipleEdges.html#a9fe8d48ad8a487a49fb4937ae4e03165", null ]
 ];

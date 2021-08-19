@@ -97,22 +97,31 @@ $(document).ready(function(){initNavTree('structMR_1_1VolumeSegmentationParamete
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1VolumeSegmentationParameters-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MR::VolumeSegmentationParameters Struct Reference</div>  </div>
+<div class="title">MR::VolumeSegmentationParameters Struct Reference<div class="ingroups"><a class="el" href="group__VolumeSegmentationGroup.html">Volume (Voxel) Segmentation overview</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Parameters for volume segmentation.  
+ <a href="structMR_1_1VolumeSegmentationParameters.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MRVolumeSegment_8h_source.html">MRVolumeSegment.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:af000ea80a099a9de6d4f4f4475580b6c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VolumeSegmentationParameters.html#af000ea80a099a9de6d4f4f4475580b6c">buildPathExponentModifier</a> {-1.0f}</td></tr>
+<tr class="memdesc:af000ea80a099a9de6d4f4f4475580b6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exponent modifier of path building metric (paths are built between voxel pairs and then marked as tooth seed)  <a href="structMR_1_1VolumeSegmentationParameters.html#af000ea80a099a9de6d4f4f4475580b6c">More...</a><br /></td></tr>
 <tr class="separator:af000ea80a099a9de6d4f4f4475580b6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab07494ac7f1627ecc2dfce39e9502118"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VolumeSegmentationParameters.html#ab07494ac7f1627ecc2dfce39e9502118">segmentationExponentModifier</a> {3000.0f}</td></tr>
+<tr class="memdesc:ab07494ac7f1627ecc2dfce39e9502118"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exponent modifier of graph cutting metric (volume presents graph with seeds, this graph are min cut)  <a href="structMR_1_1VolumeSegmentationParameters.html#ab07494ac7f1627ecc2dfce39e9502118">More...</a><br /></td></tr>
 <tr class="separator:ab07494ac7f1627ecc2dfce39e9502118"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa059718068f7c4b81e33e2a1a3e7460c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VolumeSegmentationParameters.html#aa059718068f7c4b81e33e2a1a3e7460c">voxelsExpansion</a> {25}</td></tr>
+<tr class="memdesc:aa059718068f7c4b81e33e2a1a3e7460c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Segment box expansion (only part of volume are segmented, this parameter shows how much to expand this part)  <a href="structMR_1_1VolumeSegmentationParameters.html#aa059718068f7c4b81e33e2a1a3e7460c">More...</a><br /></td></tr>
 <tr class="separator:aa059718068f7c4b81e33e2a1a3e7460c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Parameters for volume segmentation. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__VolumeSegmentationGroup.html#gacb48aca14b34eead3ed131d4ff0ab13f">segmentVolume</a> </dd></dl>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="af000ea80a099a9de6d4f4f4475580b6c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af000ea80a099a9de6d4f4f4475580b6c">&#9670;&nbsp;</a></span>buildPathExponentModifier</h2>
 
@@ -124,6 +133,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Exponent modifier of path building metric (paths are built between voxel pairs and then marked as tooth seed) </p>
 
 </div>
 </div>
@@ -139,6 +150,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Exponent modifier of graph cutting metric (volume presents graph with seeds, this graph are min cut) </p>
+
 </div>
 </div>
 <a id="aa059718068f7c4b81e33e2a1a3e7460c"></a>
@@ -152,6 +165,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Segment box expansion (only part of volume are segmented, this parameter shows how much to expand this part) </p>
 
 </div>
 </div>

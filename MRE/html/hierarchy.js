@@ -6,9 +6,9 @@ var hierarchy =
     [ "MR::AABBTreePolyline", "classMR_1_1AABBTreePolyline.html", null ],
     [ "MR::AABBTreePolyline2", "classMR_1_1AABBTreePolyline2.html", null ],
     [ "MR::ABBTreeTraits< L, B >", "structMR_1_1ABBTreeTraits.html", null ],
-    [ "MR::AffineXf3< T >", "structMR_1_1AffineXf3.html", null ],
-    [ "MR::AffineXf3< double >", "structMR_1_1AffineXf3.html", null ],
-    [ "MR::AffineXf3< float >", "structMR_1_1AffineXf3.html", null ],
+    [ "MR::AffineXf< V >", "structMR_1_1AffineXf.html", null ],
+    [ "MR::AffineXf< double >", "structMR_1_1AffineXf.html", null ],
+    [ "MR::AffineXf< float >", "structMR_1_1AffineXf.html", null ],
     [ "MR::AlphaSortGL", "classMR_1_1AlphaSortGL.html", null ],
     [ "MR::PointToPlaneAligningTransform::Amendment", "structMR_1_1PointToPlaneAligningTransform_1_1Amendment.html", null ],
     [ "MR::BaseRenderParams", "structMR_1_1BaseRenderParams.html", [
@@ -26,6 +26,7 @@ var hierarchy =
     [ "MR::Box< int >", "structMR_1_1Box.html", null ],
     [ "MR::BoxedLeaf< T >", "structMR_1_1BoxedLeaf.html", null ],
     [ "MR::Color", "structMR_1_1Color.html", null ],
+    [ "MR::CommandLoop", "classMR_1_1CommandLoop.html", null ],
     [ "MR::Config", "classMR_1_1Config.html", null ],
     [ "Connectables", null, [
       [ "MR::MultiListener< LoadListener, DragDropListener >", "structMR_1_1MultiListener.html", [
@@ -174,6 +175,7 @@ var hierarchy =
       [ "MRE::VariableEdgeTri", "structMRE_1_1VariableEdgeTri.html", null ]
     ] ],
     [ "MR::Heap< T, I, P >::Element", "structMR_1_1Heap_1_1Element.html", null ],
+    [ "MR::EmbeddedPython", "classMR_1_1EmbeddedPython.html", null ],
     [ "MR::FaceFace", "structMR_1_1FaceFace.html", null ],
     [ "MR::MeshBuilder::FaceRecord", "structMR_1_1MeshBuilder_1_1FaceRecord.html", null ],
     [ "MR::FileParameters", "structMR_1_1FileParameters.html", null ],
@@ -264,6 +266,7 @@ var hierarchy =
     [ "MRE::BooleanResultMapper::Maps", "structMRE_1_1BooleanResultMapper_1_1Maps.html", null ],
     [ "MR::MarkedVoxelSlice::Mark", "structMR_1_1MarkedVoxelSlice_1_1Mark.html", null ],
     [ "MR::Matrix< T >", "structMR_1_1Matrix.html", null ],
+    [ "MR::Matrix2< T >", "structMR_1_1Matrix2.html", null ],
     [ "MR::Matrix3< T >", "structMR_1_1Matrix3.html", null ],
     [ "MR::Matrix3< double >", "structMR_1_1Matrix3.html", null ],
     [ "MR::Matrix4< T >", "structMR_1_1Matrix4.html", null ],
@@ -464,9 +467,7 @@ var hierarchy =
       [ "MR::Open", "classMR_1_1Open.html", null ],
       [ "MR::Save", "classMR_1_1Save.html", null ]
     ] ],
-    [ "MR::ViewerSetup", "classMR_1_1ViewerSetup.html", [
-      [ "MRE::ViewerSetup", "classMRE_1_1ViewerSetup.html", null ]
-    ] ],
+    [ "MR::ViewerSetup", "classMR_1_1ViewerSetup.html", null ],
     [ "MR::Viewport", "classMR_1_1Viewport.html", null ],
     [ "MR::ViewportGL", "classMR_1_1ViewportGL.html", null ],
     [ "MR::ViewportId", "classMR_1_1ViewportId.html", null ],

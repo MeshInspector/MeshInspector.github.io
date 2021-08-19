@@ -98,38 +98,39 @@ $(document).ready(function(){initNavTree('MRExpandSelectToComponent_8h_source.ht
 </div><!--header-->
 <div class="contents">
 <a href="MRExpandSelectToComponent_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a>&quot;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">class </span>VisualObject;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">class </span>ObjectMesh;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classMR_1_1ExpandSelectToComponent.html">    9</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1ExpandSelectToComponent.html">ExpandSelectToComponent</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">MR::CustomPlugin</a></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classMR_1_1ExpandSelectToComponent.html#ab2446dbf896f582061ad697e5051bf5f">   12</a></span>&#160;    MRVIEWER_API <a class="code" href="classMR_1_1ExpandSelectToComponent.html#ab2446dbf896f582061ad697e5051bf5f">ExpandSelectToComponent</a>();</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classMR_1_1ExpandSelectToComponent.html#a3b7242f2499d794b1d6140c5b9df0126">   14</a></span>&#160;    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1ExpandSelectToComponent.html#a3b7242f2499d794b1d6140c5b9df0126">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;};</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;MRPlugins/exports.h&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRCustomPlugin_8h.html">MRViewer/MRCustomPlugin.h</a>&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">class </span>VisualObject;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">class </span>ObjectMesh;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classMR_1_1ExpandSelectToComponent.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1ExpandSelectToComponent.html">ExpandSelectToComponent</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">MR::CustomPlugin</a></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classMR_1_1ExpandSelectToComponent.html#a237cb8694998fd0ef438f88500c3a04e">   13</a></span>&#160;    MRPLUGINS_API <a class="code" href="classMR_1_1ExpandSelectToComponent.html#a237cb8694998fd0ef438f88500c3a04e">ExpandSelectToComponent</a>();</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classMR_1_1ExpandSelectToComponent.html#af641e60cf32d67af97071c3c11188b42">   15</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1ExpandSelectToComponent.html#af641e60cf32d67af97071c3c11188b42">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;};</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
 <div class="ttc" id="aMRCustomPlugin_8h_html"><div class="ttname"><a href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:61</div></div>
-<div class="ttc" id="aclassMR_1_1ExpandSelectToComponent_html"><div class="ttname"><a href="classMR_1_1ExpandSelectToComponent.html">MR::ExpandSelectToComponent</a></div><div class="ttdef"><b>Definition:</b> MRExpandSelectToComponent.h:10</div></div>
-<div class="ttc" id="aclassMR_1_1ExpandSelectToComponent_html_a3b7242f2499d794b1d6140c5b9df0126"><div class="ttname"><a href="classMR_1_1ExpandSelectToComponent.html#a3b7242f2499d794b1d6140c5b9df0126">MR::ExpandSelectToComponent::isAvailable</a></div><div class="ttdeci">virtual MRVIEWER_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
-<div class="ttc" id="aclassMR_1_1ExpandSelectToComponent_html_ab2446dbf896f582061ad697e5051bf5f"><div class="ttname"><a href="classMR_1_1ExpandSelectToComponent.html#ab2446dbf896f582061ad697e5051bf5f">MR::ExpandSelectToComponent::ExpandSelectToComponent</a></div><div class="ttdeci">MRVIEWER_API ExpandSelectToComponent()</div></div>
+<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:64</div></div>
+<div class="ttc" id="aclassMR_1_1ExpandSelectToComponent_html"><div class="ttname"><a href="classMR_1_1ExpandSelectToComponent.html">MR::ExpandSelectToComponent</a></div><div class="ttdef"><b>Definition:</b> MRExpandSelectToComponent.h:11</div></div>
+<div class="ttc" id="aclassMR_1_1ExpandSelectToComponent_html_a237cb8694998fd0ef438f88500c3a04e"><div class="ttname"><a href="classMR_1_1ExpandSelectToComponent.html#a237cb8694998fd0ef438f88500c3a04e">MR::ExpandSelectToComponent::ExpandSelectToComponent</a></div><div class="ttdeci">MRPLUGINS_API ExpandSelectToComponent()</div></div>
+<div class="ttc" id="aclassMR_1_1ExpandSelectToComponent_html_af641e60cf32d67af97071c3c11188b42"><div class="ttname"><a href="classMR_1_1ExpandSelectToComponent.html#af641e60cf32d67af97071c3c11188b42">MR::ExpandSelectToComponent::isAvailable</a></div><div class="ttdeci">virtual MRPLUGINS_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_5e4d59245b04e2d858bb4989b0ffa337.html">MeshRusExt</a></li><li class="navelem"><a class="el" href="dir_0ffe293385ae275deae100126c4e561a.html">MeshRUs</a></li><li class="navelem"><a class="el" href="dir_5819d638ccc1b923e32124652b6cf3de.html">source</a></li><li class="navelem"><a class="el" href="dir_c1f9312b24165a3bddebf5b3847c3ef6.html">MRViewer</a></li><li class="navelem"><a class="el" href="MRExpandSelectToComponent_8h.html">MRExpandSelectToComponent.h</a></li>
+    <li class="navelem"><a class="el" href="dir_5e4d59245b04e2d858bb4989b0ffa337.html">MeshRusExt</a></li><li class="navelem"><a class="el" href="dir_0ffe293385ae275deae100126c4e561a.html">MeshRUs</a></li><li class="navelem"><a class="el" href="dir_5819d638ccc1b923e32124652b6cf3de.html">source</a></li><li class="navelem"><a class="el" href="dir_4956f2afad90a9cb188b1742f35d8b34.html">MRPlugins</a></li><li class="navelem"><a class="el" href="dir_81caaa0e842577590b7f5a324bbee1ff.html">Selectors</a></li><li class="navelem"><a class="el" href="MRExpandSelectToComponent_8h.html">MRExpandSelectToComponent.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

@@ -6,6 +6,7 @@ var classMR_1_1AABBTree =
     [ "NodeVec", "classMR_1_1AABBTree.html#a3689e736d9bd1cc83c766df27cb69b68", null ],
     [ "AABBTree", "classMR_1_1AABBTree.html#add77d5465c44318f3c02aad6a8b61d2e", null ],
     [ "containsSameNumberOfTris", "classMR_1_1AABBTree.html#a452c88b89ff01231575ab3f12f8de2df", null ],
+    [ "copyNodes", "classMR_1_1AABBTree.html#a64a1e1870fe0c36ec32918528dc027f4", null ],
     [ "getBoundingBox", "classMR_1_1AABBTree.html#a32fb8d6b891ed1e97bf4532552caa7a4", null ],
     [ "getNodesFromFaces", "classMR_1_1AABBTree.html#a73821036edd8a5a2f9ea4399b225f9d0", null ],
     [ "getSubtreeFaces", "classMR_1_1AABBTree.html#a17c38dc7b5620a352a4648fd8c18612e", null ],

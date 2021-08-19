@@ -23,7 +23,9 @@ var files_dup =
     [ "MRAABBTreePolyline2.h", "MRAABBTreePolyline2_8h.html", [
       [ "AABBTreePolyline2", "classMR_1_1AABBTreePolyline2.html", "classMR_1_1AABBTreePolyline2" ]
     ] ],
-    [ "MRAffineXf3.h", "MRAffineXf3_8h.html", "MRAffineXf3_8h" ],
+    [ "MRAffineXf.h", "MRAffineXf_8h.html", "MRAffineXf_8h" ],
+    [ "MRAffineXf2.h", "MRAffineXf2_8h.html", null ],
+    [ "MRAffineXf3.h", "MRAffineXf3_8h.html", null ],
     [ "MRAligningTransform.h", "MRAligningTransform_8h.html", [
       [ "PointToPointAligningTransform", "classMR_1_1PointToPointAligningTransform.html", "classMR_1_1PointToPointAligningTransform" ],
       [ "PointToPlaneAligningTransform", "classMR_1_1PointToPlaneAligningTransform.html", "classMR_1_1PointToPlaneAligningTransform" ],
@@ -87,6 +89,9 @@ var files_dup =
     [ "MRCombinedHistoryAction.h", "MRCombinedHistoryAction_8h.html", [
       [ "CombinedHistoryActoin", "classMR_1_1CombinedHistoryActoin.html", "classMR_1_1CombinedHistoryActoin" ]
     ] ],
+    [ "MRCommandLoop.h", "MRCommandLoop_8h.html", [
+      [ "CommandLoop", "classMR_1_1CommandLoop.html", "classMR_1_1CommandLoop" ]
+    ] ],
     [ "MRComponentsSeparator.h", "MRComponentsSeparator_8h.html", [
       [ "ComponentsSeparator", "classMR_1_1ComponentsSeparator.html", "classMR_1_1ComponentsSeparator" ]
     ] ],
@@ -123,7 +128,9 @@ var files_dup =
     [ "MRDistanceMapContourPlugin.h", "MRDistanceMapContourPlugin_8h.html", [
       [ "DistanceMapContourPlugin", "classMR_1_1DistanceMapContourPlugin.html", "classMR_1_1DistanceMapContourPlugin" ]
     ] ],
-    [ "MRDistanceMapDiffPlugin.h", "MRDistanceMapDiffPlugin_8h.html", "MRDistanceMapDiffPlugin_8h" ],
+    [ "MRDistanceMapDiffPlugin.h", "MRDistanceMapDiffPlugin_8h.html", [
+      [ "DistanceMapDiffPlugin", "classMR_1_1DistanceMapDiffPlugin.html", "classMR_1_1DistanceMapDiffPlugin" ]
+    ] ],
     [ "MRDistanceMapIsoLinesPlugin.h", "MRDistanceMapIsoLinesPlugin_8h.html", [
       [ "DistanceMapIsoLinesPlugin", "classMR_1_1DistanceMapIsoLinesPlugin.html", "classMR_1_1DistanceMapIsoLinesPlugin" ]
     ] ],
@@ -138,7 +145,9 @@ var files_dup =
     ] ],
     [ "MRDistanceMapSave.h", "MRDistanceMapSave_8h.html", "MRDistanceMapSave_8h" ],
     [ "MREBooleanOperation.h", "MREBooleanOperation_8h.html", "MREBooleanOperation_8h" ],
-    [ "MREBooleanTest.h", "MREBooleanTest_8h.html", "MREBooleanTest_8h" ],
+    [ "MREBooleanTest.h", "MREBooleanTest_8h.html", [
+      [ "BooleanTest", "classMRE_1_1BooleanTest.html", "classMRE_1_1BooleanTest" ]
+    ] ],
     [ "MREContoursCut.h", "MREContoursCut_8h.html", "MREContoursCut_8h" ],
     [ "MREContoursSeparation.h", "MREContoursSeparation_8h.html", "MREContoursSeparation_8h" ],
     [ "MRECTCuda.h", "MRECTCuda_8h.html", "MRECTCuda_8h" ],
@@ -146,14 +155,22 @@ var files_dup =
       [ "ScannerSystemParameters", "structMRE_1_1CT_1_1Cuda_1_1ScannerSystemParameters.html", "structMRE_1_1CT_1_1Cuda_1_1ScannerSystemParameters" ],
       [ "Reconstructor", "classMRE_1_1CT_1_1Cuda_1_1Reconstructor.html", "classMRE_1_1CT_1_1Cuda_1_1Reconstructor" ]
     ] ],
-    [ "MRECTReconstructionPlugin.h", "MRECTReconstructionPlugin_8h.html", "MRECTReconstructionPlugin_8h" ],
+    [ "MRECTReconstructionPlugin.h", "MRECTReconstructionPlugin_8h.html", [
+      [ "CTReconstructionPlugin", "classMRE_1_1CTReconstructionPlugin.html", "classMRE_1_1CTReconstructionPlugin" ]
+    ] ],
     [ "MRECTScan.h", "MRECTScan_8h.html", "MRECTScan_8h" ],
     [ "MRECTScansIO.h", "MRECTScansIO_8h.html", "MRECTScansIO_8h" ],
     [ "MRECudaBasic.h", "MRECudaBasic_8h.html", "MRECudaBasic_8h" ],
     [ "MRECudaTest.h", "MRECudaTest_8h.html", "MRECudaTest_8h" ],
-    [ "MRECutMeshWithPlanePlugin.h", "MRECutMeshWithPlanePlugin_8h.html", "MRECutMeshWithPlanePlugin_8h" ],
-    [ "MREDecimateParallelPlugin.h", "MREDecimateParallelPlugin_8h.html", "MREDecimateParallelPlugin_8h" ],
-    [ "MREDecimatePlugin.h", "MREDecimatePlugin_8h.html", "MREDecimatePlugin_8h" ],
+    [ "MRECutMeshWithPlanePlugin.h", "MRECutMeshWithPlanePlugin_8h.html", [
+      [ "CutMeshWithPlanePlugin", "classMRE_1_1CutMeshWithPlanePlugin.html", "classMRE_1_1CutMeshWithPlanePlugin" ]
+    ] ],
+    [ "MREDecimateParallelPlugin.h", "MREDecimateParallelPlugin_8h.html", [
+      [ "DecimateParallelPlugin", "classMRE_1_1DecimateParallelPlugin.html", "classMRE_1_1DecimateParallelPlugin" ]
+    ] ],
+    [ "MREDecimatePlugin.h", "MREDecimatePlugin_8h.html", [
+      [ "DecimatePlugin", "classMRE_1_1DecimatePlugin.html", "classMRE_1_1DecimatePlugin" ]
+    ] ],
     [ "MREdgeIterator.h", "MREdgeIterator_8h.html", "MREdgeIterator_8h" ],
     [ "MREdgePaths.h", "MREdgePaths_8h.html", "MREdgePaths_8h" ],
     [ "MREdgeSelectorPlugin.h", "MREdgeSelectorPlugin_8h.html", [
@@ -167,16 +184,21 @@ var files_dup =
     [ "MREMeshDecimate.h", "MREMeshDecimate_8h.html", "MREMeshDecimate_8h" ],
     [ "MREMeshDecimateParallel.h", "MREMeshDecimateParallel_8h.html", "MREMeshDecimateParallel_8h" ],
     [ "MREMeshLoadDCM.h", "MREMeshLoadDCM_8h.html", "MREMeshLoadDCM_8h" ],
-    [ "MREOffsetPlugin.h", "MREOffsetPlugin_8h.html", "MREOffsetPlugin_8h" ],
+    [ "MREOffsetPlugin.h", "MREOffsetPlugin_8h.html", [
+      [ "OffsetPlugin", "classMRE_1_1OffsetPlugin.html", "classMRE_1_1OffsetPlugin" ]
+    ] ],
     [ "MREPartialOffset.h", "MREPartialOffset_8h.html", "MREPartialOffset_8h" ],
     [ "MREPointCloudTriangulation.h", "MREPointCloudTriangulation_8h.html", "MREPointCloudTriangulation_8h" ],
     [ "MREPointCloudTriangulationHelpers.h", "MREPointCloudTriangulationHelpers_8h.html", "MREPointCloudTriangulationHelpers_8h" ],
-    [ "MREPointsTriangulationPlugin.h", "MREPointsTriangulationPlugin_8h.html", "MREPointsTriangulationPlugin_8h" ],
+    [ "MREPointsTriangulationPlugin.h", "MREPointsTriangulationPlugin_8h.html", [
+      [ "PointsTriangulationPlugin", "classMRE_1_1PointsTriangulationPlugin.html", "classMRE_1_1PointsTriangulationPlugin" ]
+    ] ],
     [ "MRESurroundingContour.h", "MRESurroundingContour_8h.html", "MRESurroundingContour_8h" ],
-    [ "MRETrueBooleanPlugin.h", "MRETrueBooleanPlugin_8h.html", "MRETrueBooleanPlugin_8h" ],
-    [ "MRETwoPointsSegmentation.h", "MRETwoPointsSegmentation_8h.html", "MRETwoPointsSegmentation_8h" ],
-    [ "MREViewerSetup.h", "MREViewerSetup_8h.html", [
-      [ "ViewerSetup", "classMRE_1_1ViewerSetup.html", "classMRE_1_1ViewerSetup" ]
+    [ "MRETrueBooleanPlugin.h", "MRETrueBooleanPlugin_8h.html", [
+      [ "TrueBooleanPlugin", "classMRE_1_1TrueBooleanPlugin.html", "classMRE_1_1TrueBooleanPlugin" ]
+    ] ],
+    [ "MRETwoPointsSegmentation.h", "MRETwoPointsSegmentation_8h.html", [
+      [ "TwoPointsSegmentation", "classMRE_1_1TwoPointsSegmentation.html", "classMRE_1_1TwoPointsSegmentation" ]
     ] ],
     [ "MRExpandSelection.h", "MRExpandSelection_8h.html", [
       [ "ExpandSelection", "classMR_1_1ExpandSelection.html", "classMR_1_1ExpandSelection" ]
@@ -195,7 +217,9 @@ var files_dup =
     [ "MRFile.h", "MRFile_8h.html", "MRFile_8h" ],
     [ "MRFileDialog.h", "MRFileDialog_8h.html", "MRFileDialog_8h" ],
     [ "MRFillContour.h", "MRFillContour_8h.html", "MRFillContour_8h" ],
-    [ "MRFillHolesPlugin.h", "MRFillHolesPlugin_8h.html", "MRFillHolesPlugin_8h" ],
+    [ "MRFillHolesPlugin.h", "MRFillHolesPlugin_8h.html", [
+      [ "FillHolesPlugin", "classMR_1_1FillHolesPlugin.html", "classMR_1_1FillHolesPlugin" ]
+    ] ],
     [ "MRFillTunnelPlugin.h", "MRFillTunnelPlugin_8h.html", [
       [ "FillTunnelPlugin", "classMR_1_1FillTunnelPlugin.html", "classMR_1_1FillTunnelPlugin" ]
     ] ],
@@ -281,18 +305,23 @@ var files_dup =
     ] ],
     [ "MRLine3.h", "MRLine3_8h.html", "MRLine3_8h" ],
     [ "MRLineSegm3.h", "MRLineSegm3_8h.html", "MRLineSegm3_8h" ],
+    [ "source/mrealgorithmspy/MRLoadModule.h", "source_2mrealgorithmspy_2MRLoadModule_8h.html", "source_2mrealgorithmspy_2MRLoadModule_8h" ],
+    [ "MeshRUs/source/mrmeshpy/MRLoadModule.h", "MeshRUs_2source_2mrmeshpy_2MRLoadModule_8h.html", "MeshRUs_2source_2mrmeshpy_2MRLoadModule_8h" ],
     [ "MRLog.h", "MRLog_8h.html", "MRLog_8h" ],
     [ "MRMakePlane.h", "MRMakePlane_8h.html", "MRMakePlane_8h" ],
     [ "MRMakeRigidXf.h", "MRMakeRigidXf_8h.html", "MRMakeRigidXf_8h" ],
     [ "MRMatrix.h", "MRMatrix_8h.html", [
       [ "Matrix", "structMR_1_1Matrix.html", "structMR_1_1Matrix" ]
     ] ],
+    [ "MRMatrix2.h", "MRMatrix2_8h.html", "MRMatrix2_8h" ],
     [ "MRMatrix3.h", "MRMatrix3_8h.html", "MRMatrix3_8h" ],
     [ "MRMatrix4.h", "MRMatrix4_8h.html", "MRMatrix4_8h" ],
     [ "MRMeasureDistancePlugin.h", "MRMeasureDistancePlugin_8h.html", [
       [ "MeasureDistancePlugin", "classMR_1_1MeasureDistancePlugin.html", "classMR_1_1MeasureDistancePlugin" ]
     ] ],
-    [ "MRMenu.h", "MRMenu_8h.html", "MRMenu_8h" ],
+    [ "MRMenu.h", "MRMenu_8h.html", [
+      [ "Menu", "classMR_1_1Menu.html", "classMR_1_1Menu" ]
+    ] ],
     [ "MRMerger.h", "MRMerger_8h.html", [
       [ "Merger", "classMR_1_1Merger.html", "classMR_1_1Merger" ]
     ] ],
@@ -457,6 +486,7 @@ var files_dup =
     ] ],
     [ "MRProgressCallback.h", "MRProgressCallback_8h.html", "MRProgressCallback_8h" ],
     [ "MRPython.h", "MRPython_8h.html", "MRPython_8h" ],
+    [ "MRPythonAppendCommand.h", "MRPythonAppendCommand_8h.html", "MRPythonAppendCommand_8h" ],
     [ "MRPythonPlugin.h", "MRPythonPlugin_8h.html", [
       [ "PythonPlugin", "classMR_1_1PythonPlugin.html", "classMR_1_1PythonPlugin" ]
     ] ],
@@ -496,7 +526,9 @@ var files_dup =
       [ "RenderTest", "classMR_1_1RenderTest.html", "classMR_1_1RenderTest" ]
     ] ],
     [ "MRRingIterator.h", "MRRingIterator_8h.html", "MRRingIterator_8h" ],
-    [ "MRSave.h", "MRSave_8h.html", "MRSave_8h" ],
+    [ "MRSave.h", "MRSave_8h.html", [
+      [ "Save", "classMR_1_1Save.html", "classMR_1_1Save" ]
+    ] ],
     [ "MRSceneRoot.h", "MRSceneRoot_8h.html", [
       [ "SceneRoot", "classMR_1_1SceneRoot.html", null ]
     ] ],
@@ -555,7 +587,9 @@ var files_dup =
     [ "MRSpacesTest.h", "MRSpacesTest_8h.html", [
       [ "SpacesTest", "classMR_1_1SpacesTest.html", "classMR_1_1SpacesTest" ]
     ] ],
-    [ "MRStitchHolesPlugin.h", "MRStitchHolesPlugin_8h.html", "MRStitchHolesPlugin_8h" ],
+    [ "MRStitchHolesPlugin.h", "MRStitchHolesPlugin_8h.html", [
+      [ "StitchHolesPlugin", "classMR_1_1StitchHolesPlugin.html", "classMR_1_1StitchHolesPlugin" ]
+    ] ],
     [ "MRStraightenBoundary.h", "MRStraightenBoundary_8h.html", [
       [ "StraightenBoundary", "classMR_1_1StraightenBoundary.html", "classMR_1_1StraightenBoundary" ]
     ] ],

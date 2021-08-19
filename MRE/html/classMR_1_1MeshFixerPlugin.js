@@ -8,8 +8,8 @@ var classMR_1_1MeshFixerPlugin =
       [ "SmallTunnels", "classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2dba370d22e750ece55c2a5a5daca5647e90", null ],
       [ "Count", "classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2dbab5404ab37835c8073d517a05de47f64e", null ]
     ] ],
-    [ "MeshFixerPlugin", "classMR_1_1MeshFixerPlugin.html#a212b83a6af78c33e24e442c398d0d8c1", null ],
-    [ "drawDialog", "classMR_1_1MeshFixerPlugin.html#aaf55c7f1c85a1a802c9e9d02726761fe", null ],
-    [ "isAvailable", "classMR_1_1MeshFixerPlugin.html#aed4a3c99f66e8e1fe91f5d64738754cc", null ],
+    [ "MeshFixerPlugin", "classMR_1_1MeshFixerPlugin.html#a8a214096fe24d4717e7871e26f4df28c", null ],
+    [ "drawDialog", "classMR_1_1MeshFixerPlugin.html#a632264ac63c12334decf67f5b57b3857", null ],
+    [ "isAvailable", "classMR_1_1MeshFixerPlugin.html#a2ec25852e35f22e46e5e39087ec0f11a", null ],
     [ "degenerateFacesFixer", "classMR_1_1MeshFixerPlugin.html#a1c5a3eb88dbc79ebd2ecb9e46ea85f9f", null ]
 ];

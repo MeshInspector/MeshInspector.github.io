@@ -8,10 +8,10 @@ var classMR_1_1ObjectTransformation =
       [ "MoveY", "classMR_1_1ObjectTransformation.html#a0ec990cd148969f9adbb191a3c85e5b2adb971f028a446b7ff0c2226bee4c4a9a", null ],
       [ "MoveZ", "classMR_1_1ObjectTransformation.html#a0ec990cd148969f9adbb191a3c85e5b2abfb4b78c62f28e0a5d540f7fe16a8d7a", null ]
     ] ],
-    [ "ObjectTransformation", "classMR_1_1ObjectTransformation.html#aae0ed0dd3d18159cb733a39076fd59ae", null ],
-    [ "drawDialog", "classMR_1_1ObjectTransformation.html#a1e1fb9044f6deebd4477f589aa275d7e", null ],
-    [ "getControlsXf", "classMR_1_1ObjectTransformation.html#af9ffc78452f3f47c425e6c6489a28209", null ],
-    [ "isAvailable", "classMR_1_1ObjectTransformation.html#aa7c3fd374bfa7a447f6b14ab76a2e87d", null ],
-    [ "setControlsXf", "classMR_1_1ObjectTransformation.html#a2578f0d1ffeea75e16c7556cca9519d6", null ],
-    [ "updateTransformMode", "classMR_1_1ObjectTransformation.html#acf68c31ac3365ec8cbf4313e98d78bda", null ]
+    [ "ObjectTransformation", "classMR_1_1ObjectTransformation.html#ae8dd3215900a8d5424fc376ee4fd417f", null ],
+    [ "drawDialog", "classMR_1_1ObjectTransformation.html#af33deaad25b838aa818f8dd17ca3a02e", null ],
+    [ "getControlsXf", "classMR_1_1ObjectTransformation.html#a028b729973a4e981b6cb03e847cf9b19", null ],
+    [ "isAvailable", "classMR_1_1ObjectTransformation.html#aebb9057eade4a883e04389b92e424d51", null ],
+    [ "setControlsXf", "classMR_1_1ObjectTransformation.html#a75cd1af71603298f7bda466705130c8f", null ],
+    [ "updateTransformMode", "classMR_1_1ObjectTransformation.html#a4d6f246cab64d3ed79697bd776b00c59", null ]
 ];

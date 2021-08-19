@@ -1,6 +1,6 @@
 var classMR_1_1EdgeSelectorPlugin =
 [
-    [ "EdgeSelectorPlugin", "classMR_1_1EdgeSelectorPlugin.html#a98c6f4e647899eaf8607235d654874b2", null ],
-    [ "drawDialog", "classMR_1_1EdgeSelectorPlugin.html#af71ffe319b3b3f0eb8f9ddb19bfb942d", null ],
-    [ "isAvailable", "classMR_1_1EdgeSelectorPlugin.html#a9faa92d74c7276f9d444eb4ef562a09c", null ]
+    [ "EdgeSelectorPlugin", "classMR_1_1EdgeSelectorPlugin.html#aa1048932f05b0f89545737676c785c91", null ],
+    [ "drawDialog", "classMR_1_1EdgeSelectorPlugin.html#a0a7648756c6bed986ff1b40d9315e449", null ],
+    [ "isAvailable", "classMR_1_1EdgeSelectorPlugin.html#a35a070f0e1d2198ad1abf3de5a231de6", null ]
 ];
