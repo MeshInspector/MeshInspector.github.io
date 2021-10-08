@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('MRClipObjectsPlugin_8h_source.html',''
 <div class="contents">
 <a href="MRClipObjectsPlugin_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;MRPlugins/exports.h&quot;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRCustomPlugin_8h.html">MRViewer/MRCustomPlugin.h</a>&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRStatePlugin_8h.html">MRViewer/MRStatePlugin.h</a>&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRBox_8h.html">MRMesh/MRBox.h</a>&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRPlane3_8h.html">MRMesh/MRPlane3.h</a>&quot;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRViewer_8h.html">MRViewer/MRViewer.h</a>&quot;</span></div>
@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('MRClipObjectsPlugin_8h_source.html',''
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">class </span>ObjectMesh;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classMR_1_1ClipObjectsPlugin.html">   13</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1ClipObjectsPlugin.html">ClipObjectsPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">CustomListenerPlugin</a>&lt;MouseMoveListener, MouseDownListener, MouseUpListener&gt;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classMR_1_1ClipObjectsPlugin.html">   13</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1ClipObjectsPlugin.html">ClipObjectsPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1StateListenerPlugin.html">StateListenerPlugin</a>&lt;MouseMoveListener, MouseDownListener, MouseUpListener&gt;, <span class="keyword">public</span> <a class="code" href="classMR_1_1SceneStateAtLeastCheck.html">SceneStateAtLeastCheck</a>&lt;1, Object&gt;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">using</span> ImPolyline = std::vector&lt;ImVec2&gt;;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">public</span>:</div>
@@ -117,7 +117,7 @@ $(document).ready(function(){initNavTree('MRClipObjectsPlugin_8h_source.html',''
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
 <div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classMR_1_1ClipObjectsPlugin.html#ab23bf1be8d4fa9ff5938e97b021e3bed">   19</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1ClipObjectsPlugin.html#ab23bf1be8d4fa9ff5938e97b021e3bed">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ctx ) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classMR_1_1ClipObjectsPlugin.html#af998b5021968b38228f4b72f00fdcdaf">   21</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1ClipObjectsPlugin.html#af998b5021968b38228f4b72f00fdcdaf">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classMR_1_1ClipObjectsPlugin.html#af8378aa8937af35a30591260da918831">   21</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> std::string <a class="code" href="classMR_1_1ClipObjectsPlugin.html#af8378aa8937af35a30591260da918831">getTooltip</a>() <span class="keyword">const override</span>;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">private</span>:</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseDown_( <a class="code" href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
@@ -136,58 +136,73 @@ $(document).ready(function(){initNavTree('MRClipObjectsPlugin_8h_source.html',''
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">void</span> updateSections_();</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">void</span> updatePolylines_();</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">void</span> drawSections_();</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> drawSectionLine_();</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> pickDistancePoint_( ImVec2 pick );</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> drawDistance_();</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span> createContour_();</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    std::vector&lt;std::shared_ptr&lt;ObjectMesh&gt;&gt; objects_;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    std::vector&lt;AffineXf3f&gt; objectsWorldXf_;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">void</span> setupFrameBorder();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> updateFrameBorder();</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">void</span> drawSections_();</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> drawSectionLine_();</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> pickDistancePoint_( ImVec2 pick );</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> drawDistance_();</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> createContour_();</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    std::shared_ptr&lt;ObjectMesh&gt; planeObj_;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="structMR_1_1Plane3.html">Plane3f</a> plane_;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <a class="code" href="structMR_1_1Box.html">Box3f</a> objectsBox_;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> resetView();</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> fitFrame();</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    std::vector&lt;ImPolyline&gt; storedPolylines_;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    std::vector&lt;ImPolyline&gt; drawPolylines_;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    std::vector&lt;ImU32&gt; polylinesColors_;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="structMR_1_1AffineXf.html">AffineXf3f</a> lastPlaneTransforam_;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">bool</span> pressed_ = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    ImVec2 startMousePos_;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    ImVec2 endMousePos_;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    std::vector&lt;std::shared_ptr&lt;ObjectMesh&gt;&gt; objects_;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    std::vector&lt;AffineXf3f&gt; objectsWorldXf_;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    std::shared_ptr&lt;ObjectMesh&gt; planeObj_;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="structMR_1_1Plane3.html">Plane3f</a> plane_;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="structMR_1_1Box.html">Box3f</a> objectsBox_;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    std::shared_ptr&lt;ObjectLines&gt; frameBorder_;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    ImVec2 sectionPos_;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">float</span> sectionScale_{0.0f};</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    ImVec2 addSectionPos_;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">float</span> addSectionScale_{1.0f};</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">bool</span> clipObjects_;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">bool</span> showPlane_ = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">bool</span> showDistance_ = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    ImVec2 distancePoint1_;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    ImVec2 distancePoint2_;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">bool</span> pickFirst_ = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordtype">void</span> drawSectionWindow_();</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;};</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    std::vector&lt;ImPolyline&gt; storedPolylines_;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    std::vector&lt;ImPolyline&gt; drawPolylines_;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    std::vector&lt;ImU32&gt; polylinesColors_;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    std::vector&lt;ImU32&gt; polylineReColors_;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="structMR_1_1AffineXf.html">AffineXf3f</a> lastPlaneTransforam_;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">bool</span> isRecolored_{ <span class="keyword">true</span> };</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    std::vector&lt;std::string&gt; polylineNames_;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    std::vector&lt;ImU32&gt; polylineNameColors_;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">bool</span> pressed_ = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    ImVec2 startMousePos_;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    ImVec2 endMousePos_;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    ImVec2 sectionPos_;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">float</span> sectionScale_{0.0f};</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    ImVec2 addSectionPos_;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordtype">float</span> addSectionScale_{1.0f};</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">bool</span> clipObjects_;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">bool</span> showPlane_ = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordtype">bool</span> showDistance_ = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    ImVec2 distancePoint1_;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    ImVec2 distancePoint2_;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordtype">bool</span> pickFirst_ = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordtype">void</span> drawSectionWindow_();</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;};</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;}</div>
 <div class="ttc" id="aMRBox_8h_html"><div class="ttname"><a href="MRBox_8h.html">MRBox.h</a></div></div>
-<div class="ttc" id="aMRCustomPlugin_8h_html"><div class="ttname"><a href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a></div></div>
 <div class="ttc" id="aMRPlane3_8h_html"><div class="ttname"><a href="MRPlane3_8h.html">MRPlane3.h</a></div></div>
+<div class="ttc" id="aMRStatePlugin_8h_html"><div class="ttname"><a href="MRStatePlugin_8h.html">MRStatePlugin.h</a></div></div>
 <div class="ttc" id="aMRViewer_8h_html"><div class="ttname"><a href="MRViewer_8h.html">MRViewer.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1ClipObjectsPlugin_html"><div class="ttname"><a href="classMR_1_1ClipObjectsPlugin.html">MR::ClipObjectsPlugin</a></div><div class="ttdef"><b>Definition:</b> MRClipObjectsPlugin.h:14</div></div>
 <div class="ttc" id="aclassMR_1_1ClipObjectsPlugin_html_ab23bf1be8d4fa9ff5938e97b021e3bed"><div class="ttname"><a href="classMR_1_1ClipObjectsPlugin.html#ab23bf1be8d4fa9ff5938e97b021e3bed">MR::ClipObjectsPlugin::drawDialog</a></div><div class="ttdeci">virtual MRPLUGINS_API void drawDialog(float menuScaling, ImGuiContext *ctx) override</div></div>
 <div class="ttc" id="aclassMR_1_1ClipObjectsPlugin_html_ae8311e3d62ee04aefa6c07d2d26f71b4"><div class="ttname"><a href="classMR_1_1ClipObjectsPlugin.html#ae8311e3d62ee04aefa6c07d2d26f71b4">MR::ClipObjectsPlugin::ClipObjectsPlugin</a></div><div class="ttdeci">MRPLUGINS_API ClipObjectsPlugin()</div></div>
-<div class="ttc" id="aclassMR_1_1ClipObjectsPlugin_html_af998b5021968b38228f4b72f00fdcdaf"><div class="ttname"><a href="classMR_1_1ClipObjectsPlugin.html#af998b5021968b38228f4b72f00fdcdaf">MR::ClipObjectsPlugin::isAvailable</a></div><div class="ttdeci">virtual MRPLUGINS_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
-<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:64</div></div>
-<div class="ttc" id="aclassMR_1_1Viewer_html_a4e2fd639b52df5ee18d06bb9f4e504f6"><div class="ttname"><a href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition:</b> MRViewer.h:58</div></div>
+<div class="ttc" id="aclassMR_1_1ClipObjectsPlugin_html_af8378aa8937af35a30591260da918831"><div class="ttname"><a href="classMR_1_1ClipObjectsPlugin.html#af8378aa8937af35a30591260da918831">MR::ClipObjectsPlugin::getTooltip</a></div><div class="ttdeci">virtual MRPLUGINS_API std::string getTooltip() const override</div></div>
+<div class="ttc" id="aclassMR_1_1SceneStateAtLeastCheck_html"><div class="ttname"><a href="classMR_1_1SceneStateAtLeastCheck.html">MR::SceneStateAtLeastCheck</a></div><div class="ttdef"><b>Definition:</b> MRSceneStateCheck.h:112</div></div>
+<div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRStatePlugin.h:107</div></div>
+<div class="ttc" id="aclassMR_1_1Viewer_html_a4e2fd639b52df5ee18d06bb9f4e504f6"><div class="ttname"><a href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition:</b> MRViewer.h:53</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MR2DContoursTriangulation.h:6</div></div>
 <div class="ttc" id="astructMR_1_1AffineXf_html"><div class="ttname"><a href="structMR_1_1AffineXf.html">MR::AffineXf</a></div><div class="ttdef"><b>Definition:</b> MRAffineXf.h:9</div></div>
 <div class="ttc" id="astructMR_1_1Box_html"><div class="ttname"><a href="structMR_1_1Box.html">MR::Box</a></div><div class="ttdef"><b>Definition:</b> MRBox.h:19</div></div>

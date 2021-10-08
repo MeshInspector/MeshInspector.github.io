@@ -54,6 +54,13 @@ var group__FillHoleGroup =
       [ "getTriangleMetric", "structMR_1_1CircumscribedStitchMetric.html#a7973de8f93103c590b4798987c3f1b8b", null ],
       [ "points", "structMR_1_1CircumscribedStitchMetric.html#ac87c61c318c8534864f9c229997a5576", null ]
     ] ],
+    [ "VerticalStitchMetric", "structMR_1_1VerticalStitchMetric.html", [
+      [ "VerticalStitchMetric", "structMR_1_1VerticalStitchMetric.html#ab3b00fa3848612a5e3bed1e409ce3255", null ],
+      [ "getEdgeMetric", "structMR_1_1VerticalStitchMetric.html#ae0e5324ec9c3fda4a419ae6e222aaa10", null ],
+      [ "getTriangleMetric", "structMR_1_1VerticalStitchMetric.html#a3d7ffc0c856cbcb2624ab9921db8e88f", null ],
+      [ "points", "structMR_1_1VerticalStitchMetric.html#ac1fa479311e46357c382d9157e0a3906", null ],
+      [ "upDirection", "structMR_1_1VerticalStitchMetric.html#a3ee71cdbba129e2bca75cdbd5a2702f3", null ]
+    ] ],
     [ "buildCylinderBetweenTwoHoles", "group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157", null ],
     [ "fillHole", "group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05", null ],
     [ "fillHoleTrivially", "group__FillHoleGroup.html#ga0241a36cc2b1016fd0cf66e9ae71f722", null ]

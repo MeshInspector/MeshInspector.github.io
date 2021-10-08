@@ -103,23 +103,25 @@ $(document).ready(function(){initNavTree('MRDistanceCompareTest_8h_source.html',
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceCompareTest.html">    8</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1DistanceCompareTest.html">DistanceCompareTest</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1PerformanceTest.html">PerformanceTest</a></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceCompareTest.html#af91125aab9d947ddf001f9778d707658">   11</a></span>&#160;    MRPLUGINS_API <a class="code" href="classMR_1_1DistanceCompareTest.html#af91125aab9d947ddf001f9778d707658">DistanceCompareTest</a>();</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceCompareTest.html#a5ecd7504c9bb8e03f4accda2d67681c0">   13</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1DistanceCompareTest.html#a5ecd7504c9bb8e03f4accda2d67681c0">isAvailable</a>() <span class="keyword">const override</span>;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> run_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onStart_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;};</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">class </span>DistanceComparePlugin;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceCompareTest.html">    9</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1DistanceCompareTest.html">DistanceCompareTest</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1PerformanceTest.html">PerformanceTest</a></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceCompareTest.html#af91125aab9d947ddf001f9778d707658">   12</a></span>&#160;    MRPLUGINS_API <a class="code" href="classMR_1_1DistanceCompareTest.html#af91125aab9d947ddf001f9778d707658">DistanceCompareTest</a>();</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classMR_1_1DistanceCompareTest.html#a5ecd7504c9bb8e03f4accda2d67681c0">   14</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1DistanceCompareTest.html#a5ecd7504c9bb8e03f4accda2d67681c0">isAvailable</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> run_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onStart_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="classMR_1_1DistanceComparePlugin.html">DistanceComparePlugin</a>* plugin_{ <span class="keyword">nullptr</span> };</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;};</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
 <div class="ttc" id="aMRPerformanceTest_8h_html"><div class="ttname"><a href="MRPerformanceTest_8h.html">MRPerformanceTest.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1DistanceCompareTest_html"><div class="ttname"><a href="classMR_1_1DistanceCompareTest.html">MR::DistanceCompareTest</a></div><div class="ttdef"><b>Definition:</b> MRDistanceCompareTest.h:9</div></div>
+<div class="ttc" id="aclassMR_1_1DistanceComparePlugin_html"><div class="ttname"><a href="classMR_1_1DistanceComparePlugin.html">MR::DistanceComparePlugin</a></div><div class="ttdef"><b>Definition:</b> MRDistanceComparePlugin.h:13</div></div>
+<div class="ttc" id="aclassMR_1_1DistanceCompareTest_html"><div class="ttname"><a href="classMR_1_1DistanceCompareTest.html">MR::DistanceCompareTest</a></div><div class="ttdef"><b>Definition:</b> MRDistanceCompareTest.h:10</div></div>
 <div class="ttc" id="aclassMR_1_1DistanceCompareTest_html_a5ecd7504c9bb8e03f4accda2d67681c0"><div class="ttname"><a href="classMR_1_1DistanceCompareTest.html#a5ecd7504c9bb8e03f4accda2d67681c0">MR::DistanceCompareTest::isAvailable</a></div><div class="ttdeci">virtual MRPLUGINS_API bool isAvailable() const override</div></div>
 <div class="ttc" id="aclassMR_1_1DistanceCompareTest_html_af91125aab9d947ddf001f9778d707658"><div class="ttname"><a href="classMR_1_1DistanceCompareTest.html#af91125aab9d947ddf001f9778d707658">MR::DistanceCompareTest::DistanceCompareTest</a></div><div class="ttdeci">MRPLUGINS_API DistanceCompareTest()</div></div>
 <div class="ttc" id="aclassMR_1_1PerformanceTest_html"><div class="ttname"><a href="classMR_1_1PerformanceTest.html">MR::PerformanceTest</a></div><div class="ttdef"><b>Definition:</b> MRPerformanceTest.h:11</div></div>

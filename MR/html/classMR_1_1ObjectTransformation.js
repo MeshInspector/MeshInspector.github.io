@@ -11,7 +11,7 @@ var classMR_1_1ObjectTransformation =
     [ "ObjectTransformation", "classMR_1_1ObjectTransformation.html#ae8dd3215900a8d5424fc376ee4fd417f", null ],
     [ "drawDialog", "classMR_1_1ObjectTransformation.html#af33deaad25b838aa818f8dd17ca3a02e", null ],
     [ "getControlsXf", "classMR_1_1ObjectTransformation.html#a028b729973a4e981b6cb03e847cf9b19", null ],
-    [ "isAvailable", "classMR_1_1ObjectTransformation.html#aebb9057eade4a883e04389b92e424d51", null ],
+    [ "getTooltip", "classMR_1_1ObjectTransformation.html#a6ca2f08f3f727074c0304ad694815d74", null ],
     [ "setControlsXf", "classMR_1_1ObjectTransformation.html#a75cd1af71603298f7bda466705130c8f", null ],
     [ "updateTransformMode", "classMR_1_1ObjectTransformation.html#a4d6f246cab64d3ed79697bd776b00c59", null ]
 ];

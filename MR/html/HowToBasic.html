@@ -111,15 +111,15 @@ Basing your application on MeshRUs</h1>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Init the viewer</span></div>
 <div class="line"> </div>
-<div class="line">    <span class="keyword">auto</span> launchParams = <a class="code" href="classMR_1_1Viewer.html#ae36ab6ddeefc3b90d6c2ebcac620525d">MR::Viewer::parseLaunchParams</a>( argc, argv );</div>
+<div class="line">    <span class="keyword">auto</span> launchParams = <a class="code" href="classMR_1_1Viewer.html#a26632c3fff60e6f927d932d86503aa8f">MR::Viewer::parseLaunchParams</a>( argc, argv );</div>
 <div class="line">    launchParams.name = cAppName;</div>
 <div class="line"> </div>
 <div class="line">    <a class="code" href="classMR_1_1Viewer.html">MR::Viewer</a> viewer;</div>
 <div class="line">    <a class="code" href="classMR_1_1ViewerSetup.html">MR::ViewerSetup</a> viewerSetup;</div>
 <div class="line"> </div>
 <div class="line">    viewerSetup.<a class="code" href="classMR_1_1ViewerSetup.html#a68075c17440a99ede74249da2ff6ecd9">setupBasePlugins</a>( &amp;viewer );</div>
-<div class="line">    viewerSetup.<a class="code" href="classMR_1_1ViewerSetup.html#a09a564a2d5de18a6d13fc8a49eee1cea">setupCommonModifiers</a>( &amp;viewer );</div>
-<div class="line">    viewerSetup.<a class="code" href="classMR_1_1ViewerSetup.html#a88a16dd045d052f5be35b831e66fc6b4">setupCommonPlugins</a>( &amp;viewer );</div>
+<div class="line">    viewerSetup.<a class="code" href="classMR_1_1ViewerSetup.html#a66bb762d87286ae7b094f6a59bb96aec">setupCommonModifiers</a>( &amp;viewer );</div>
+<div class="line">    viewerSetup.<a class="code" href="classMR_1_1ViewerSetup.html#a04abb25fb543f1b7f29d33eed34bdb81">setupCommonPlugins</a>( &amp;viewer );</div>
 <div class="line">    viewerSetup.<a class="code" href="classMR_1_1ViewerSetup.html#a9ba29b362190cbfc386b59d8051f8b06">setupSettingsManager</a>( &amp;viewer, cAppName );</div>
 <div class="line">    viewerSetup.<a class="code" href="classMR_1_1ViewerSetup.html#a918f69117bd46f408fda277cad5fde2d">setupConfiguration</a>( &amp;viewer );</div>
 <div class="line"> </div>
@@ -128,16 +128,16 @@ Basing your application on MeshRUs</h1>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html"><div class="ttname"><a href="classMR_1_1ViewerSetup.html">MR::ViewerSetup</a></div><div class="ttdef"><b>Definition:</b> MRSetupViewer.h:10</div></div>
-<div class="ttc" id="aclassMR_1_1ViewerSetup_html_a09a564a2d5de18a6d13fc8a49eee1cea"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a09a564a2d5de18a6d13fc8a49eee1cea">MR::ViewerSetup::setupCommonModifiers</a></div><div class="ttdeci">virtual MRVIEWER_API void setupCommonModifiers(Viewer *viewer) const</div></div>
-<div class="ttc" id="aclassMR_1_1ViewerSetup_html_a68075c17440a99ede74249da2ff6ecd9"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a68075c17440a99ede74249da2ff6ecd9">MR::ViewerSetup::setupBasePlugins</a></div><div class="ttdeci">virtual MRVIEWER_API void setupBasePlugins(Viewer *) const</div><div class="ttdef"><b>Definition:</b> MRSetupViewer.h:14</div></div>
-<div class="ttc" id="aclassMR_1_1ViewerSetup_html_a88a16dd045d052f5be35b831e66fc6b4"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a88a16dd045d052f5be35b831e66fc6b4">MR::ViewerSetup::setupCommonPlugins</a></div><div class="ttdeci">virtual MRVIEWER_API void setupCommonPlugins(Viewer *) const</div><div class="ttdef"><b>Definition:</b> MRSetupViewer.h:18</div></div>
+<div class="ttc" id="aclassMR_1_1ViewerSetup_html_a04abb25fb543f1b7f29d33eed34bdb81"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a04abb25fb543f1b7f29d33eed34bdb81">MR::ViewerSetup::setupCommonPlugins</a></div><div class="ttdeci">virtual void setupCommonPlugins(Viewer *) const</div><div class="ttdef"><b>Definition:</b> MRSetupViewer.h:18</div></div>
+<div class="ttc" id="aclassMR_1_1ViewerSetup_html_a66bb762d87286ae7b094f6a59bb96aec"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a66bb762d87286ae7b094f6a59bb96aec">MR::ViewerSetup::setupCommonModifiers</a></div><div class="ttdeci">virtual void setupCommonModifiers(Viewer *) const</div><div class="ttdef"><b>Definition:</b> MRSetupViewer.h:16</div></div>
+<div class="ttc" id="aclassMR_1_1ViewerSetup_html_a68075c17440a99ede74249da2ff6ecd9"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a68075c17440a99ede74249da2ff6ecd9">MR::ViewerSetup::setupBasePlugins</a></div><div class="ttdeci">virtual MRVIEWER_API void setupBasePlugins(Viewer *) const</div></div>
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html_a918f69117bd46f408fda277cad5fde2d"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a918f69117bd46f408fda277cad5fde2d">MR::ViewerSetup::setupConfiguration</a></div><div class="ttdeci">virtual MRVIEWER_API void setupConfiguration(Viewer *viewer) const</div></div>
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html_a9ba29b362190cbfc386b59d8051f8b06"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a9ba29b362190cbfc386b59d8051f8b06">MR::ViewerSetup::setupSettingsManager</a></div><div class="ttdeci">virtual MRVIEWER_API void setupSettingsManager(Viewer *viewer, const std::string &amp;appName) const</div></div>
-<div class="ttc" id="aclassMR_1_1Viewer_html"><div class="ttname"><a href="classMR_1_1Viewer.html">MR::Viewer</a></div><div class="ttdef"><b>Definition:</b> MRViewer.h:54</div></div>
+<div class="ttc" id="aclassMR_1_1Viewer_html"><div class="ttname"><a href="classMR_1_1Viewer.html">MR::Viewer</a></div><div class="ttdef"><b>Definition:</b> MRViewer.h:49</div></div>
+<div class="ttc" id="aclassMR_1_1Viewer_html_a26632c3fff60e6f927d932d86503aa8f"><div class="ttname"><a href="classMR_1_1Viewer.html#a26632c3fff60e6f927d932d86503aa8f">MR::Viewer::parseLaunchParams</a></div><div class="ttdeci">static MRVIEWER_API void parseLaunchParams(LaunchParams &amp;params)</div></div>
 <div class="ttc" id="aclassMR_1_1Viewer_html_a5c5505e0b7ec40651dc41ce35b964c32"><div class="ttname"><a href="classMR_1_1Viewer.html#a5c5505e0b7ec40651dc41ce35b964c32">MR::Viewer::launch</a></div><div class="ttdeci">MRVIEWER_API int launch(const LaunchParams &amp;params)</div></div>
-<div class="ttc" id="aclassMR_1_1Viewer_html_ae36ab6ddeefc3b90d6c2ebcac620525d"><div class="ttname"><a href="classMR_1_1Viewer.html#ae36ab6ddeefc3b90d6c2ebcac620525d">MR::Viewer::parseLaunchParams</a></div><div class="ttdeci">static MRVIEWER_API LaunchParams parseLaunchParams(int argc, char **argv)</div></div>
 <div class="ttc" id="anamespaceMR_html_a6804a7415d5f018fa64bf1b533af3d4f"><div class="ttname"><a href="namespaceMR.html#a6804a7415d5f018fa64bf1b533af3d4f">MR::setupLoggerByDefault</a></div><div class="ttdeci">MRMESH_API void setupLoggerByDefault()</div></div>
-</div><!-- fragment --><p>Then you should make your plugins, to find how have a look at <a class="el" href="CustomPluginsHelp.html">Custom Plugins overview</a> page</p>
+</div><!-- fragment --><p>Then you should make your plugins, to find how have a look at CustomPluginsHelp page</p>
 <h1><a class="anchor" id="CCodeExamples"></a>
 C++ Basic Examples</h1>
 <p>Following code presents example of loading and saving mesh file</p>
@@ -180,7 +180,7 @@ C++ Basic Examples</h1>
 <div class="ttc" id="astructMR_1_1Mesh_html_a67907b7421edf7c0e8dd29796fbe4688"><div class="ttname"><a href="structMR_1_1Mesh.html#a67907b7421edf7c0e8dd29796fbe4688">MR::Mesh::transform</a></div><div class="ttdeci">MRMESH_API void transform(const AffineXf3f &amp;xf)</div></div>
 <div class="ttc" id="astructMR_1_1SubdivideSettings_html"><div class="ttname"><a href="structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></div><div class="ttdef"><b>Definition:</b> MRMeshSubdivide.h:9</div></div>
 <div class="ttc" id="astructMR_1_1SubdivideSettings_html_adf497f2181525852eaeee09ce71fb476"><div class="ttname"><a href="structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476">MR::SubdivideSettings::maxDeviationAfterFlip</a></div><div class="ttdeci">float maxDeviationAfterFlip</div><div class="ttdoc">Improves local mesh triangulation after each edge flip if it does not make too big surface deviation.</div><div class="ttdef"><b>Definition:</b> MRMeshSubdivide.h:15</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html_aba68004d56f0100e523093390f939910"><div class="ttname"><a href="structMR_1_1Vector3.html#aba68004d56f0100e523093390f939910">MR::Vector3&lt; float &gt;::plusZ</a></div><div class="ttdeci">static constexpr Vector3 plusZ() noexcept</div><div class="ttdef"><b>Definition:</b> MRVector3.h:26</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html_aba68004d56f0100e523093390f939910"><div class="ttname"><a href="structMR_1_1Vector3.html#aba68004d56f0100e523093390f939910">MR::Vector3&lt; float &gt;::plusZ</a></div><div class="ttdeci">static constexpr Vector3 plusZ() noexcept</div><div class="ttdef"><b>Definition:</b> MRVector3.h:27</div></div>
 </div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="namespaceMR.html#a9bdef26a2efaf7bf0d18502d203ea428">MR::relax</a> </dd>
 <dd>
 <a class="el" href="namespaceMR.html#a8e8a41112544b99ef8f20e3e6b61fab7">MR::subdivideMesh</a> </dd>

@@ -113,6 +113,8 @@ Public Types</h2></td></tr>
 <tr class="separator:a8ecb748650561c957b8b73afd24288cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c629d81f031f089ef5fb3ea45689ea5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Vector3.html#a7c629d81f031f089ef5fb3ea45689ea5">MatrixType</a> = <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt;</td></tr>
 <tr class="separator:a7c629d81f031f089ef5fb3ea45689ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1be16f68d003d1fe45b63bd915d50bff"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Vector3.html#a1be16f68d003d1fe45b63bd915d50bff">SymMatrixType</a> = <a class="el" href="structMR_1_1SymMatrix3.html">SymMatrix3</a>&lt; T &gt;</td></tr>
+<tr class="separator:a1be16f68d003d1fe45b63bd915d50bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -123,10 +125,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad61b88bc9db8f4f19652d6fe5f3f6b09"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
 <tr class="memitem:ad61b88bc9db8f4f19652d6fe5f3f6b09"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structMR_1_1Vector3.html#ad61b88bc9db8f4f19652d6fe5f3f6b09">Vector3</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; U &gt; &amp;v) noexcept</td></tr>
 <tr class="separator:ad61b88bc9db8f4f19652d6fe5f3f6b09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac638b2b68d44cf1255b47713599d402b"><td class="memItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Vector3.html#ac638b2b68d44cf1255b47713599d402b">operator[]</a> (int e) const</td></tr>
-<tr class="separator:ac638b2b68d44cf1255b47713599d402b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa88f2693d3073ff853a1a5e2f1f0affb"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Vector3.html#aa88f2693d3073ff853a1a5e2f1f0affb">operator[]</a> (int e)</td></tr>
-<tr class="separator:aa88f2693d3073ff853a1a5e2f1f0affb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09248d69f35969f9213408c5051b4075"><td class="memItemLeft" align="right" valign="top">constexpr const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Vector3.html#a09248d69f35969f9213408c5051b4075">operator[]</a> (int e) const noexcept</td></tr>
+<tr class="separator:a09248d69f35969f9213408c5051b4075"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a55eb48477db87b5448e3c294d07603"><td class="memItemLeft" align="right" valign="top">constexpr T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Vector3.html#a3a55eb48477db87b5448e3c294d07603">operator[]</a> (int e) noexcept</td></tr>
+<tr class="separator:a3a55eb48477db87b5448e3c294d07603"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedb5f8de6324a8ee5e71243c4b67104c"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Vector3.html#aedb5f8de6324a8ee5e71243c4b67104c">lengthSq</a> () const</td></tr>
 <tr class="separator:aedb5f8de6324a8ee5e71243c4b67104c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaaf44bd9fab3deb7e22551e316fc6a7f"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Vector3.html#aaaf44bd9fab3deb7e22551e316fc6a7f">length</a> () const</td></tr>
@@ -182,6 +184,22 @@ template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="structMR_1_1Vector3.html">MR::Vector3</a>&lt; T &gt;::<a class="el" href="structMR_1_1Vector3.html#a7c629d81f031f089ef5fb3ea45689ea5">MatrixType</a> =  <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt;T&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1be16f68d003d1fe45b63bd915d50bff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1be16f68d003d1fe45b63bd915d50bff">&#9670;&nbsp;</a></span>SymMatrixType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structMR_1_1Vector3.html">MR::Vector3</a>&lt; T &gt;::<a class="el" href="structMR_1_1Vector3.html#a1be16f68d003d1fe45b63bd915d50bff">SymMatrixType</a> =  <a class="el" href="structMR_1_1SymMatrix3.html">SymMatrix3</a>&lt;T&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -521,8 +539,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="aa88f2693d3073ff853a1a5e2f1f0affb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa88f2693d3073ff853a1a5e2f1f0affb">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
+<a id="a09248d69f35969f9213408c5051b4075"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09248d69f35969f9213408c5051b4075">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -533,35 +551,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T&amp; <a class="el" href="structMR_1_1Vector3.html">MR::Vector3</a>&lt; T &gt;::operator[] </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>e</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac638b2b68d44cf1255b47713599d402b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac638b2b68d44cf1255b47713599d402b">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const T&amp; <a class="el" href="structMR_1_1Vector3.html">MR::Vector3</a>&lt; T &gt;::operator[] </td>
+          <td class="memname">constexpr const T&amp; <a class="el" href="structMR_1_1Vector3.html">MR::Vector3</a>&lt; T &gt;::operator[] </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>e</em></td><td>)</td>
@@ -570,7 +560,35 @@ template&lt;typename T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3a55eb48477db87b5448e3c294d07603"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a55eb48477db87b5448e3c294d07603">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr T&amp; <a class="el" href="structMR_1_1Vector3.html">MR::Vector3</a>&lt; T &gt;::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

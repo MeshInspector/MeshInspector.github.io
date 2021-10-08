@@ -5,8 +5,9 @@ var classMR_1_1ObjectVoxels =
     [ "~ObjectVoxels", "classMR_1_1ObjectVoxels.html#a205cdfb1f95b74b571b884147dc2581f", null ],
     [ "ObjectVoxels", "classMR_1_1ObjectVoxels.html#ab8414868d177c677e751eae0934bb6d9", null ],
     [ "ObjectVoxels", "classMR_1_1ObjectVoxels.html#a031e8491e43b72005372d6f05dde20d2", null ],
+    [ "applyScale", "classMR_1_1ObjectVoxels.html#a10005db4776c578cf1177bd35bd8abce", null ],
     [ "clone", "classMR_1_1ObjectVoxels.html#a6478dc80aa4e7a333d598fa1ce463439", null ],
-    [ "construct", "classMR_1_1ObjectVoxels.html#ad7cdb6b2e5d4cb5b476646c4ec975947", null ],
+    [ "construct", "classMR_1_1ObjectVoxels.html#acad8e9dc4d1001e3e1741799fb5ca2a6", null ],
     [ "construct", "classMR_1_1ObjectVoxels.html#af783a12fdddd747873af2fc1aab5473b", null ],
     [ "deserializeFields_", "classMR_1_1ObjectVoxels.html#a6d35ab6c35a9ddc26e7bbdb2dab74768", null ],
     [ "deserializeModel_", "classMR_1_1ObjectVoxels.html#a9dedbcc708b1219c6647dcb7da598920", null ],
@@ -30,5 +31,5 @@ var classMR_1_1ObjectVoxels =
     [ "surface", "classMR_1_1ObjectVoxels.html#aa043e9b7eed98bfaf6d1debeb29f087a", null ],
     [ "swap", "classMR_1_1ObjectVoxels.html#a35fd898e135f31476948ede5f82a0895", null ],
     [ "updateHistogramAndSurface", "classMR_1_1ObjectVoxels.html#a607e61443e72bdc0eb881a0d3db9fb8c", null ],
-    [ "voxelSize", "classMR_1_1ObjectVoxels.html#a1c38d67fa1bb3465cb2f5a347b43fbe8", null ]
+    [ "voxelSize", "classMR_1_1ObjectVoxels.html#afb80132cd696ed99ec6e30eaa90333f1", null ]
 ];

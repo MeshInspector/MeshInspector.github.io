@@ -9,6 +9,7 @@ var classMR_1_1Object =
     [ "Object", "classMR_1_1Object.html#aeadedab38b0876317d01593cbee6b9ea", null ],
     [ "addChild", "classMR_1_1Object.html#a867bc4f888c2aa53355413c550658271", null ],
     [ "addChildBefore", "classMR_1_1Object.html#a8eeb1cb21b22db97f20eac75b897f7ae", null ],
+    [ "applyScale", "classMR_1_1Object.html#a0afca40a7c24d33df4e4d7a5c98167a4", null ],
     [ "asType", "classMR_1_1Object.html#a546f5bbe9003c083f723f69dceedd76e", null ],
     [ "asType", "classMR_1_1Object.html#a39318bbc671a77e4cbc19c89dcf216e7", null ],
     [ "children", "classMR_1_1Object.html#aeebefab93deb85a604332bb66336c874", null ],

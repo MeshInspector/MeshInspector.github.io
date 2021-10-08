@@ -1,8 +1,9 @@
 var classMR_1_1MeshModifier =
 [
-    [ "MeshModifier", "classMR_1_1MeshModifier.html#a04b70740c0c8fa0950bfaf4d58cb2bcd", null ],
-    [ "~MeshModifier", "classMR_1_1MeshModifier.html#a1e62a4d0a62a3e387e2e5b4236d0499b", null ],
-    [ "getTab", "classMR_1_1MeshModifier.html#ad5fdf183e39b27cbfba2af4db0940c2c", null ],
-    [ "modify", "classMR_1_1MeshModifier.html#a9e7198a6d3c86e196fa38c43f5419abf", null ],
-    [ "name", "classMR_1_1MeshModifier.html#afbd1b00e8ffdf5b6e336339306a39be1", null ]
+    [ "MeshModifier", "classMR_1_1MeshModifier.html#a0338449c5ee61d0a4f201d678002cfbc", null ],
+    [ "~MeshModifier", "classMR_1_1MeshModifier.html#a78b84722bd2aef0d182ee5eb2fa81686", null ],
+    [ "action", "classMR_1_1MeshModifier.html#ab75122cf4d5edf460bca35ebaae7f1a4", null ],
+    [ "checkStringMask", "classMR_1_1MeshModifier.html#a138bfdaa7e05a5e4e1f42d6ebe501a2a", null ],
+    [ "getTab", "classMR_1_1MeshModifier.html#adfd5e0484ece07523b45d53bcfa6eefd", null ],
+    [ "modify", "classMR_1_1MeshModifier.html#a9e7198a6d3c86e196fa38c43f5419abf", null ]
 ];

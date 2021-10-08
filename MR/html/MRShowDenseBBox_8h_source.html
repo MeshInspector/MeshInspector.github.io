@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('MRShowDenseBBox_8h_source.html',''); i
 <div class="contents">
 <a href="MRShowDenseBBox_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;MRPlugins/exports.h&quot;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRCustomPlugin_8h.html">MRViewer/MRCustomPlugin.h</a>&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRStatePlugin_8h.html">MRViewer/MRStatePlugin.h</a>&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
@@ -107,24 +107,24 @@ $(document).ready(function(){initNavTree('MRShowDenseBBox_8h_source.html',''); i
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">class </span>ObjectMesh;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">class </span>Object;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classMR_1_1ShowDenseBBoxPlugin.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1ShowDenseBBoxPlugin.html">ShowDenseBBoxPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">CustomPlugin</a></div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classMR_1_1ShowDenseBBoxPlugin.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1ShowDenseBBoxPlugin.html">ShowDenseBBoxPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1StateListenerPlugin.html">StatePlugin</a>, <span class="keyword">public</span> <a class="code" href="classMR_1_1SceneStateExactCheck.html">SceneStateExactCheck</a>&lt;1, ObjectMesh&gt;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classMR_1_1ShowDenseBBoxPlugin.html#a82d816dc84b9a45cd58dec84328080fa">   14</a></span>&#160;    MRPLUGINS_API <a class="code" href="classMR_1_1ShowDenseBBoxPlugin.html#a82d816dc84b9a45cd58dec84328080fa">ShowDenseBBoxPlugin</a>();</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1ShowDenseBBoxPlugin.html#af38f1ed2e657a22c439c1f072d958e49">   16</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1ShowDenseBBoxPlugin.html#af38f1ed2e657a22c439c1f072d958e49">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;};</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
-<div class="ttc" id="aMRCustomPlugin_8h_html"><div class="ttname"><a href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:64</div></div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1ShowDenseBBoxPlugin.html#a6e061f604ac985997fb8e73e45cca5ca">   16</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> std::string <a class="code" href="classMR_1_1ShowDenseBBoxPlugin.html#a6e061f604ac985997fb8e73e45cca5ca">getTooltip</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;};</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
+<div class="ttc" id="aMRStatePlugin_8h_html"><div class="ttname"><a href="MRStatePlugin_8h.html">MRStatePlugin.h</a></div></div>
+<div class="ttc" id="aclassMR_1_1SceneStateExactCheck_html"><div class="ttname"><a href="classMR_1_1SceneStateExactCheck.html">MR::SceneStateExactCheck</a></div><div class="ttdef"><b>Definition:</b> MRSceneStateCheck.h:100</div></div>
 <div class="ttc" id="aclassMR_1_1ShowDenseBBoxPlugin_html"><div class="ttname"><a href="classMR_1_1ShowDenseBBoxPlugin.html">MR::ShowDenseBBoxPlugin</a></div><div class="ttdef"><b>Definition:</b> MRShowDenseBBox.h:12</div></div>
+<div class="ttc" id="aclassMR_1_1ShowDenseBBoxPlugin_html_a6e061f604ac985997fb8e73e45cca5ca"><div class="ttname"><a href="classMR_1_1ShowDenseBBoxPlugin.html#a6e061f604ac985997fb8e73e45cca5ca">MR::ShowDenseBBoxPlugin::getTooltip</a></div><div class="ttdeci">virtual MRPLUGINS_API std::string getTooltip() const override</div></div>
 <div class="ttc" id="aclassMR_1_1ShowDenseBBoxPlugin_html_a82d816dc84b9a45cd58dec84328080fa"><div class="ttname"><a href="classMR_1_1ShowDenseBBoxPlugin.html#a82d816dc84b9a45cd58dec84328080fa">MR::ShowDenseBBoxPlugin::ShowDenseBBoxPlugin</a></div><div class="ttdeci">MRPLUGINS_API ShowDenseBBoxPlugin()</div></div>
-<div class="ttc" id="aclassMR_1_1ShowDenseBBoxPlugin_html_af38f1ed2e657a22c439c1f072d958e49"><div class="ttname"><a href="classMR_1_1ShowDenseBBoxPlugin.html#af38f1ed2e657a22c439c1f072d958e49">MR::ShowDenseBBoxPlugin::isAvailable</a></div><div class="ttdeci">virtual MRPLUGINS_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
+<div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRStatePlugin.h:107</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MR2DContoursTriangulation.h:6</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

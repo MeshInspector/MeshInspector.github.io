@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('MRShowNormalsPlugin_8h_source.html',''
 <div class="contents">
 <a href="MRShowNormalsPlugin_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;MRPlugins/exports.h&quot;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRCustomPlugin_8h.html">MRViewer/MRCustomPlugin.h</a>&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRStatePlugin_8h.html">MRViewer/MRStatePlugin.h</a>&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRId_8h.html">MRMesh/MRId.h</a>&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRViewer_8h.html">MRViewer/MRViewer.h</a>&quot;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRMeshTriPoint_8h.html">MRMesh/MRMeshTriPoint.h</a>&quot;</span></div>
@@ -111,61 +111,65 @@ $(document).ready(function(){initNavTree('MRShowNormalsPlugin_8h_source.html',''
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">class </span>VisualObject;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classMR_1_1ShowNormalsPlugin.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1ShowNormalsPlugin.html">ShowNormalsPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">CustomListenerPlugin</a>&lt;MouseDownListener&gt;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classMR_1_1ShowNormalsPlugin.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1ShowNormalsPlugin.html">ShowNormalsPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1StateListenerPlugin.html">StateListenerPlugin</a>&lt;MouseDownListener&gt;, <span class="keyword">public</span> <a class="code" href="classMR_1_1SceneStateOrCheck.html">SceneStateOrCheck</a>&lt;SceneStateExactCheck&lt;1, ObjectMesh&gt;, SceneStateExactCheck&lt;1, ObjectPoints&gt;&gt;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classMR_1_1ShowNormalsPlugin.html#afcdd324ec64f4c432d7ad03b75505d87">   18</a></span>&#160;    MRPLUGINS_API <a class="code" href="classMR_1_1ShowNormalsPlugin.html#afcdd324ec64f4c432d7ad03b75505d87">ShowNormalsPlugin</a>();</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
 <div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classMR_1_1ShowNormalsPlugin.html#acd5985ae67dd21d08d7f9b8c35628e3b">   20</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1ShowNormalsPlugin.html#acd5985ae67dd21d08d7f9b8c35628e3b">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ctx ) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classMR_1_1ShowNormalsPlugin.html#ad72f8a7115e3bb2b05db65d3bb0d3562">   22</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1ShowNormalsPlugin.html#ad72f8a7115e3bb2b05db65d3bb0d3562">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classMR_1_1ShowNormalsPlugin.html#a36b61819980377606ee4e829726cba38">   22</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> std::string <a class="code" href="classMR_1_1ShowNormalsPlugin.html#a36b61819980377606ee4e829726cba38">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">const override</span>;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseDown_( <a class="code" href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classMR_1_1ShowNormalsPlugin.html#a0e525e0311f44e3473472aaeb4dcde04">   24</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> std::string <a class="code" href="classMR_1_1ShowNormalsPlugin.html#a0e525e0311f44e3473472aaeb4dcde04">getTooltip</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseDown_( <a class="code" href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">void</span> initPseudo_();</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">void</span> update_();</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">void</span> initPseudo_();</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    std::shared_ptr&lt;VisualObject&gt; obj_;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> update_();</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">enum</span> PickMode</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    {</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        Vert,</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        Edge,</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        Face</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    } pickMode_{Vert};</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">bool</span> showAll_;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">bool</span> showNeighbors_;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">float</span> lengthStep_;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">float</span> length_;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">bool</span> pseudoNorms_{ <span class="keyword">false</span> };</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5">VertCoords</a> pseudoNormsCache_;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> picked_;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    MeshTriPoint pickedTriPoint_;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;};</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
-<div class="ttc" id="aMRCustomPlugin_8h_html"><div class="ttname"><a href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a></div></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    std::shared_ptr&lt;VisualObject&gt; obj_;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">enum</span> PickMode</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        Vert,</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        Edge,</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        Face</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    } pickMode_{Vert};</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">bool</span> showAll_;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">bool</span> showNeighbors_;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">float</span> lengthStep_;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">float</span> length_;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">bool</span> pseudoNorms_{ <span class="keyword">false</span> };</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5">VertCoords</a> pseudoNormsCache_;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> picked_;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    MeshTriPoint pickedTriPoint_;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;};</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
 <div class="ttc" id="aMRId_8h_html"><div class="ttname"><a href="MRId_8h.html">MRId.h</a></div></div>
 <div class="ttc" id="aMRMeshTriPoint_8h_html"><div class="ttname"><a href="MRMeshTriPoint_8h.html">MRMeshTriPoint.h</a></div></div>
+<div class="ttc" id="aMRStatePlugin_8h_html"><div class="ttname"><a href="MRStatePlugin_8h.html">MRStatePlugin.h</a></div></div>
 <div class="ttc" id="aMRVector3_8h_html"><div class="ttname"><a href="MRVector3_8h.html">MRVector3.h</a></div></div>
 <div class="ttc" id="aMRVector_8h_html"><div class="ttname"><a href="MRVector_8h.html">MRVector.h</a></div></div>
 <div class="ttc" id="aMRViewer_8h_html"><div class="ttname"><a href="MRViewer_8h.html">MRViewer.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:64</div></div>
+<div class="ttc" id="aclassMR_1_1SceneStateOrCheck_html"><div class="ttname"><a href="classMR_1_1SceneStateOrCheck.html">MR::SceneStateOrCheck</a></div><div class="ttdef"><b>Definition:</b> MRSceneStateCheck.h:124</div></div>
 <div class="ttc" id="aclassMR_1_1ShowNormalsPlugin_html"><div class="ttname"><a href="classMR_1_1ShowNormalsPlugin.html">MR::ShowNormalsPlugin</a></div><div class="ttdef"><b>Definition:</b> MRShowNormalsPlugin.h:16</div></div>
+<div class="ttc" id="aclassMR_1_1ShowNormalsPlugin_html_a0e525e0311f44e3473472aaeb4dcde04"><div class="ttname"><a href="classMR_1_1ShowNormalsPlugin.html#a0e525e0311f44e3473472aaeb4dcde04">MR::ShowNormalsPlugin::getTooltip</a></div><div class="ttdeci">virtual MRPLUGINS_API std::string getTooltip() const override</div></div>
+<div class="ttc" id="aclassMR_1_1ShowNormalsPlugin_html_a36b61819980377606ee4e829726cba38"><div class="ttname"><a href="classMR_1_1ShowNormalsPlugin.html#a36b61819980377606ee4e829726cba38">MR::ShowNormalsPlugin::isAvailable</a></div><div class="ttdeci">virtual MRPLUGINS_API std::string isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) const override</div></div>
 <div class="ttc" id="aclassMR_1_1ShowNormalsPlugin_html_acd5985ae67dd21d08d7f9b8c35628e3b"><div class="ttname"><a href="classMR_1_1ShowNormalsPlugin.html#acd5985ae67dd21d08d7f9b8c35628e3b">MR::ShowNormalsPlugin::drawDialog</a></div><div class="ttdeci">virtual MRPLUGINS_API void drawDialog(float menuScaling, ImGuiContext *ctx) override</div></div>
-<div class="ttc" id="aclassMR_1_1ShowNormalsPlugin_html_ad72f8a7115e3bb2b05db65d3bb0d3562"><div class="ttname"><a href="classMR_1_1ShowNormalsPlugin.html#ad72f8a7115e3bb2b05db65d3bb0d3562">MR::ShowNormalsPlugin::isAvailable</a></div><div class="ttdeci">virtual MRPLUGINS_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
 <div class="ttc" id="aclassMR_1_1ShowNormalsPlugin_html_afcdd324ec64f4c432d7ad03b75505d87"><div class="ttname"><a href="classMR_1_1ShowNormalsPlugin.html#afcdd324ec64f4c432d7ad03b75505d87">MR::ShowNormalsPlugin::ShowNormalsPlugin</a></div><div class="ttdeci">MRPLUGINS_API ShowNormalsPlugin()</div></div>
-<div class="ttc" id="aclassMR_1_1Viewer_html_a4e2fd639b52df5ee18d06bb9f4e504f6"><div class="ttname"><a href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition:</b> MRViewer.h:58</div></div>
+<div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRStatePlugin.h:107</div></div>
+<div class="ttc" id="aclassMR_1_1Viewer_html_a4e2fd639b52df5ee18d06bb9f4e504f6"><div class="ttname"><a href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition:</b> MRViewer.h:53</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MR2DContoursTriangulation.h:6</div></div>
-<div class="ttc" id="anamespaceMR_html_a2f4408b5ff9250509a9d18a04d6f1fb5"><div class="ttname"><a href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">MR::VertId</a></div><div class="ttdeci">Id&lt; VertTag &gt; VertId</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:35</div></div>
-<div class="ttc" id="anamespaceMR_html_af5c9eac6bdf7a25e819c5e2653f469f5"><div class="ttname"><a href="namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5">MR::VertCoords</a></div><div class="ttdeci">Vector&lt; Vector3f, VertId &gt; VertCoords</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:181</div></div>
+<div class="ttc" id="anamespaceMR_html_a2f4408b5ff9250509a9d18a04d6f1fb5"><div class="ttname"><a href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">MR::VertId</a></div><div class="ttdeci">Id&lt; VertTag &gt; VertId</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:34</div></div>
+<div class="ttc" id="anamespaceMR_html_af5c9eac6bdf7a25e819c5e2653f469f5"><div class="ttname"><a href="namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5">MR::VertCoords</a></div><div class="ttdeci">Vector&lt; Vector3f, VertId &gt; VertCoords</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:191</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

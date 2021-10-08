@@ -11,6 +11,7 @@ var classMR_1_1Vector =
     [ "autoResizeAt", "classMR_1_1Vector.html#ad299fc3dd6b4e453a459e88fe9aadd31", null ],
     [ "back", "classMR_1_1Vector.html#aa4bcfcbca3642d15aa0cdec1055c4472", null ],
     [ "back", "classMR_1_1Vector.html#afe49f6b723cf6b2b08dfe4d50ddd1c53", null ],
+    [ "backId", "classMR_1_1Vector.html#a8c55eb98bf2596f633ff35ce1f8fe00b", null ],
     [ "capacity", "classMR_1_1Vector.html#af075acc84c5727002344500fed37a80a", null ],
     [ "clear", "classMR_1_1Vector.html#a0e593b171d655e35f554674f88083c76", null ],
     [ "data", "classMR_1_1Vector.html#a8928e2c55ce9f8cb9ffa82f4e947c4f2", null ],

@@ -188,6 +188,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a08e627f8c827dbc1bc085e4a0ad1dd89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51a4276db370b27809ff25575c9a6e5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a51a4276db370b27809ff25575c9a6e5e">dihedralAngleSin</a> (<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e) const</td></tr>
 <tr class="separator:a51a4276db370b27809ff25575c9a6e5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3597555fee6f4964fe1689b0643f7f83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a3597555fee6f4964fe1689b0643f7f83">findCreaseEdges</a> (float angleFromPlanar) const</td></tr>
+<tr class="separator:a3597555fee6f4964fe1689b0643f7f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa347e7c284659d13d5e9ef0df1a52d5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#aa347e7c284659d13d5e9ef0df1a52d5e">leftCotan</a> (<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e) const</td></tr>
 <tr class="separator:aa347e7c284659d13d5e9ef0df1a52d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18e78f0a10a45f536f84e2b5ba4ba4c2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a18e78f0a10a45f536f84e2b5ba4ba4c2">cotan</a> (<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e) const</td></tr>
@@ -208,6 +210,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a67907b7421edf7c0e8dd29796fbe4688"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee64892c6401f2ffc0394a59628cdbb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#aee64892c6401f2ffc0394a59628cdbb5">addPoint</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pos)</td></tr>
 <tr class="separator:aee64892c6401f2ffc0394a59628cdbb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe79fbba41c13a31bd40b10fdff8b5ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#afe79fbba41c13a31bd40b10fdff8b5ee">addSeparateEdgeLoop</a> (const std::vector&lt; <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &gt; &amp;contourPoints)</td></tr>
+<tr class="separator:afe79fbba41c13a31bd40b10fdff8b5ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abab2d759266b7e751ef91845d21afd98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#abab2d759266b7e751ef91845d21afd98">attachEdgeLoopPart</a> (<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> first, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> last, const std::vector&lt; <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &gt; &amp;contourPoints)</td></tr>
+<tr class="separator:abab2d759266b7e751ef91845d21afd98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32f3f55b9c4506e998e7bb3f77893de6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a32f3f55b9c4506e998e7bb3f77893de6">splitEdge</a> (<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e, <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *region=nullptr)</td></tr>
 <tr class="separator:a32f3f55b9c4506e998e7bb3f77893de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadc439c62c253d4703536c27e1652e3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#aadc439c62c253d4703536c27e1652e3e">addPart</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;from, <a class="el" href="namespaceMR.html#a989bcd374602a615d0acbd6a4988b9b3">FaceMap</a> *outFmap=nullptr, <a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> *outVmap=nullptr, <a class="el" href="namespaceMR.html#ae2eea398ad770ec2244a9a9c50714933">EdgeMap</a> *outEmap=nullptr, bool rearrangeTriangles=false)</td></tr>
@@ -234,8 +240,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a973baf90b80dc2696bc083577727d4fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11564a2c64f20ff0f5cfbdbf9d7dff8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a11564a2c64f20ff0f5cfbdbf9d7dff8c">projectPoint</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;point, float maxDistSq=FLT_MAX, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *region=nullptr, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr) const</td></tr>
 <tr class="separator:a11564a2c64f20ff0f5cfbdbf9d7dff8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affaa9692d9dcdd4ee26991fdd6b77307"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#affaa9692d9dcdd4ee26991fdd6b77307">getAABBTree</a> () const</td></tr>
-<tr class="separator:affaa9692d9dcdd4ee26991fdd6b77307"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af82f2a673579dec9cdd081d68e524dc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#af82f2a673579dec9cdd081d68e524dc2">getAABBTree</a> () const</td></tr>
+<tr class="separator:af82f2a673579dec9cdd081d68e524dc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3bb9ba63a2df5ea5b799ea9d2dc3205"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#ac3bb9ba63a2df5ea5b799ea9d2dc3205">invalidateCaches</a> ()</td></tr>
 <tr class="separator:ac3bb9ba63a2df5ea5b799ea9d2dc3205"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -507,6 +513,24 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="afe79fbba41c13a31bd40b10fdff8b5ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe79fbba41c13a31bd40b10fdff8b5ee">&#9670;&nbsp;</a></span>addSeparateEdgeLoop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> MR::Mesh::addSeparateEdgeLoop </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>contourPoints</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0c83a5a324f80a18969d786febaee653"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0c83a5a324f80a18969d786febaee653">&#9670;&nbsp;</a></span>area() <span class="overload">[1/3]</span></h2>
 
@@ -573,6 +597,40 @@ Public Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abab2d759266b7e751ef91845d21afd98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abab2d759266b7e751ef91845d21afd98">&#9670;&nbsp;</a></span>attachEdgeLoopPart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::Mesh::attachEdgeLoopPart </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>contourPoints</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -980,6 +1038,24 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a3597555fee6f4964fe1689b0643f7f83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3597555fee6f4964fe1689b0643f7f83">&#9670;&nbsp;</a></span>findCreaseEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> MR::Mesh::findCreaseEdges </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>angleFromPlanar</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a08e627f8c827dbc1bc085e4a0ad1dd89"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a08e627f8c827dbc1bc085e4a0ad1dd89">&#9670;&nbsp;</a></span>findSpikeVertices()</h2>
 
@@ -1008,27 +1084,19 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="affaa9692d9dcdd4ee26991fdd6b77307"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affaa9692d9dcdd4ee26991fdd6b77307">&#9670;&nbsp;</a></span>getAABBTree()</h2>
+<a id="af82f2a673579dec9cdd081d68e524dc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af82f2a673579dec9cdd081d68e524dc2">&#9670;&nbsp;</a></span>getAABBTree()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a>&amp; MR::Mesh::getAABBTree </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a>&amp; MR::Mesh::getAABBTree </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

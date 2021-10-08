@@ -115,13 +115,16 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:af2c93aa0da8a9748d23340f32349a8b8"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af2c93aa0da8a9748d23340f32349a8b8">MR::PathError</a> { <a class="el" href="namespaceMR.html#af2c93aa0da8a9748d23340f32349a8b8aad309ea76f6bf055e7b62a3dd200631f">MR::StartEndNotConnected</a>
+, <a class="el" href="namespaceMR.html#af2c93aa0da8a9748d23340f32349a8b8a8462b58246e70e5c83e5b939a9332cb5">MR::InternalError</a>
  }</td></tr>
 <tr class="separator:af2c93aa0da8a9748d23340f32349a8b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:afeb36c822e49fc2b1de5134ea4c0a507"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; std::vector&lt; MeshEdgePoint &gt;, PathError &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#afeb36c822e49fc2b1de5134ea4c0a507">MR::computeSurfacePath</a> (const Mesh &amp;mesh, const MeshTriPoint &amp;start, const MeshTriPoint &amp;end, int numPostProcessIters=5)</td></tr>
-<tr class="separator:afeb36c822e49fc2b1de5134ea4c0a507"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abed840edb4e4c6d1d6b642483c6f3b6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; SurfacePath, PathError &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#abed840edb4e4c6d1d6b642483c6f3b6a">MR::computeSurfacePath</a> (const MeshPart &amp;mp, const MeshTriPoint &amp;start, const MeshTriPoint &amp;end, int numPostProcessIters=5, const VertBitSet *vertRegion=nullptr)</td></tr>
+<tr class="separator:abed840edb4e4c6d1d6b642483c6f3b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acebe3b7371a72e49ddfbabc14fd008b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#acebe3b7371a72e49ddfbabc14fd008b4">MR::surfacePathLength</a> (const Mesh &amp;mesh, const SurfacePath &amp;surfacePath)</td></tr>
+<tr class="separator:acebe3b7371a72e49ddfbabc14fd008b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

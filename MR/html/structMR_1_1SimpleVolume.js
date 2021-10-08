@@ -4,5 +4,5 @@ var structMR_1_1SimpleVolume =
     [ "dims", "structMR_1_1SimpleVolume.html#adfc3fd718b740a08aefa0fbb8a096ede", null ],
     [ "max", "structMR_1_1SimpleVolume.html#a736130062c731056adecb3ae2070efa7", null ],
     [ "min", "structMR_1_1SimpleVolume.html#a69b692a68c72aca8806dc2b3af678c9c", null ],
-    [ "voxelSize", "structMR_1_1SimpleVolume.html#af8b23b24f07eade98b05396ed5586055", null ]
+    [ "voxelSize", "structMR_1_1SimpleVolume.html#ab31bcafaf05771b76501d7e60b91861a", null ]
 ];
