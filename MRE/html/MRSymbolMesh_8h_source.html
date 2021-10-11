@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('MRSymbolMesh_8h_source.html',''); init
 </div><!--header-->
 <div class="contents">
 <a href="MRSymbolMesh_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRSystem_8h.html">MRSystem.h</a>&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;filesystem&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
@@ -109,14 +109,14 @@ $(document).ready(function(){initNavTree('MRSymbolMesh_8h_source.html',''); init
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="comment">// Text that will be made mesh</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="structMR_1_1SymbolMeshParams.html#acb1fbf339bac28e29347e8a59589b28b">   12</a></span>&#160;    std::string <a class="code" href="structMR_1_1SymbolMeshParams.html#acb1fbf339bac28e29347e8a59589b28b">text</a>;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="comment">// Detalization of Bezier curves on font glyphs</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="comment">// Detailization of Bezier curves on font glyphs</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="structMR_1_1SymbolMeshParams.html#a862ff23debfa432cd8025d0d39a00868">   14</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structMR_1_1SymbolMeshParams.html#a862ff23debfa432cd8025d0d39a00868">fontDetalization</a>{5};</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="comment">// Additional offset between symbols (in symbol size: 1.0f adds one &quot;space&quot;, 0.5 adds half &quot;space&quot;)</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="comment">// should be &gt;= 0.0f</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="structMR_1_1SymbolMeshParams.html#a01d53033f11b1f864797c36d4b188a1b">   17</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="structMR_1_1SymbolMeshParams.html#a01d53033f11b1f864797c36d4b188a1b">symbolsAdditionalOffset</a>{0.0f};</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#ifdef _WIN32</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="comment">// Path to font file</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    std::filesystem::path <a class="code" href="structMR_1_1SymbolMeshParams.html#a91479aefd75dc365ef6b39108ea22fcf">pathToFontFile</a>{<span class="stringliteral">&quot;C:\\Windows\\Fonts\\Consola.ttf&quot;</span>};</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    std::filesystem::path <a class="code" href="structMR_1_1SymbolMeshParams.html#a91479aefd75dc365ef6b39108ea22fcf">pathToFontFile</a> = GetWindowsInstallDirectory() / <span class="stringliteral">&quot;Fonts&quot;</span> / <span class="stringliteral">&quot;Consola.ttf&quot;</span>;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="comment">// Path to font file</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="structMR_1_1SymbolMeshParams.html#a91479aefd75dc365ef6b39108ea22fcf">   23</a></span>&#160;    std::filesystem::path <a class="code" href="structMR_1_1SymbolMeshParams.html#a91479aefd75dc365ef6b39108ea22fcf">pathToFontFile</a>;</div>
@@ -128,8 +128,8 @@ $(document).ready(function(){initNavTree('MRSymbolMesh_8h_source.html',''); init
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
-<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:14</div></div>
+<div class="ttc" id="aMRSystem_8h_html"><div class="ttname"><a href="MRSystem_8h.html">MRSystem.h</a></div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:7</div></div>
 <div class="ttc" id="anamespaceMR_html_a8aa980cbc31075e77bfb8e0a6f285522"><div class="ttname"><a href="namespaceMR.html#a8aa980cbc31075e77bfb8e0a6f285522">MR::createSymbolsMesh</a></div><div class="ttdeci">MRMESH_API Mesh createSymbolsMesh(const SymbolMeshParams &amp;params)</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition:</b> MRMesh.h:13</div></div>

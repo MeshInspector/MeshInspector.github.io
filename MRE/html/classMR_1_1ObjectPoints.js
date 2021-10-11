@@ -6,6 +6,7 @@ var classMR_1_1ObjectPoints =
     [ "~ObjectPoints", "classMR_1_1ObjectPoints.html#a8d54c8a3353fe7bfbafc3ea5f8bb2659", null ],
     [ "ObjectPoints", "classMR_1_1ObjectPoints.html#a565091fdf7ac04df64dcc926ecf74ffb", null ],
     [ "ObjectPoints", "classMR_1_1ObjectPoints.html#a2115d8e4f880b457969069d6da367e5f", null ],
+    [ "applyScale", "classMR_1_1ObjectPoints.html#a60439204f9c8acae3b504db6edf74d44", null ],
     [ "clone", "classMR_1_1ObjectPoints.html#a2e2ecd332b500b7d12bb4f2cfb07c361", null ],
     [ "computeBoundingBox_", "classMR_1_1ObjectPoints.html#a321d8cf4b8b10b05ec8d714bd5d9c9f5", null ],
     [ "computeBoundingBoxXf_", "classMR_1_1ObjectPoints.html#aaf24f3df3082bb6aa773da9b75e3db69", null ],

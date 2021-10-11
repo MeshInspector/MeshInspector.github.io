@@ -2,7 +2,7 @@ var MRQuaternion_8h =
 [
     [ "Quaternion", "structMR_1_1Quaternion.html", "structMR_1_1Quaternion" ],
     [ "dot", "MRQuaternion_8h.html#a4866eb66f7863909235eab2d1e4dd815", null ],
-    [ "getCanonicalQaternions", "MRQuaternion_8h.html#a3ae7a3c97c4aed8ff4caf0bb06f89dab", null ],
+    [ "getCanonicalQuaternions", "MRQuaternion_8h.html#acae4f0b167834d2146efa240f8b37c6e", null ],
     [ "getClosestCanonicalMatrix", "MRQuaternion_8h.html#a9f0f27f4418018e1cf07be5d1cba5591", null ],
     [ "getClosestCanonicalQuaternion", "MRQuaternion_8h.html#a1521e6e98ee086eff3b6bb58ce70fe40", null ],
     [ "operator!=", "MRQuaternion_8h.html#a6d725d4d1ce8fb67a972561e5f8c6af3", null ],

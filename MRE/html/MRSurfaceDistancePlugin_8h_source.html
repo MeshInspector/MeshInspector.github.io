@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('MRSurfaceDistancePlugin_8h_source.html
 <div class="contents">
 <a href="MRSurfaceDistancePlugin_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;MRPlugins/exports.h&quot;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRCustomPlugin_8h.html">MRViewer/MRCustomPlugin.h</a>&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRStatePlugin_8h.html">MRViewer/MRStatePlugin.h</a>&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRId_8h.html">MRMesh/MRId.h</a>&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRMeshTexture_8h.html">MRMesh/MRMeshTexture.h</a>&quot;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRColor_8h.html">MRMesh/MRColor.h</a>&quot;</span></div>
@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('MRSurfaceDistancePlugin_8h_source.html
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">class </span>RenderObject;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">class </span>Pallete;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classMR_1_1SurfaceDistancePlugin.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1SurfaceDistancePlugin.html">SurfaceDistancePlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">CustomListenerPlugin</a>&lt;MouseDownListener&gt;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classMR_1_1SurfaceDistancePlugin.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1SurfaceDistancePlugin.html">SurfaceDistancePlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1StateListenerPlugin.html">StateListenerPlugin</a>&lt;MouseDownListener&gt;, <span class="keyword">public</span> <a class="code" href="classMR_1_1SceneStateExactCheck.html">SceneStateExactCheck</a>&lt;1, ObjectMesh&gt;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
@@ -121,43 +121,45 @@ $(document).ready(function(){initNavTree('MRSurfaceDistancePlugin_8h_source.html
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
 <div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classMR_1_1SurfaceDistancePlugin.html#a2266d7322762aaf05b922b0eb36a5f37">   23</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1SurfaceDistancePlugin.html#a2266d7322762aaf05b922b0eb36a5f37">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ctx ) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classMR_1_1SurfaceDistancePlugin.html#a3b3eac581b76d20cb2b4122fac4191ca">   25</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1SurfaceDistancePlugin.html#a3b3eac581b76d20cb2b4122fac4191ca">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseDown_( <a class="code" href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">void</span> update_();</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> updateIsoLines_( <span class="keyword">const</span> <a class="code" href="classMR_1_1Vector.html">Vector&lt;float, VertId&gt;</a>&amp; distances );</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">void</span> drawIsoLines_();</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">void</span> updateUV_( <span class="keyword">const</span> <a class="code" href="classMR_1_1Vector.html">Vector&lt;float, VertId&gt;</a>&amp; distances );</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="structMR_1_1Color.html">Color</a> colorBackUp_;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    std::shared_ptr&lt;ObjectMesh&gt; obj_;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    std::unique_ptr&lt;Pallete&gt; pallete;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    std::vector&lt;IsoLines&gt; isoLines_;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="classMR_1_1TaggedBitSet.html">VertBitSet</a> region_;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;};</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classMR_1_1SurfaceDistancePlugin.html#ad862eb5daef08e4bb738d8414df0d9c8">   25</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> std::string <a class="code" href="classMR_1_1SurfaceDistancePlugin.html#ad862eb5daef08e4bb738d8414df0d9c8">getTooltip</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseDown_( <a class="code" href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">void</span> update_();</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">void</span> updateIsoLines_( <span class="keyword">const</span> <a class="code" href="classMR_1_1Vector.html">Vector&lt;float, VertId&gt;</a>&amp; distances );</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">void</span> drawIsoLines_();</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">void</span> updateUV_( <span class="keyword">const</span> <a class="code" href="classMR_1_1Vector.html">Vector&lt;float, VertId&gt;</a>&amp; distances );</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="structMR_1_1Color.html">Color</a> colorBackUp_;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    std::shared_ptr&lt;ObjectMesh&gt; obj_;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    std::unique_ptr&lt;Pallete&gt; pallete;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    std::vector&lt;IsoLines&gt; isoLines_;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="classMR_1_1TaggedBitSet.html">VertBitSet</a> region_;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;};</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
 <div class="ttc" id="aMRBitSet_8h_html"><div class="ttname"><a href="MRBitSet_8h.html">MRBitSet.h</a></div></div>
 <div class="ttc" id="aMRColor_8h_html"><div class="ttname"><a href="MRColor_8h.html">MRColor.h</a></div></div>
-<div class="ttc" id="aMRCustomPlugin_8h_html"><div class="ttname"><a href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a></div></div>
 <div class="ttc" id="aMRExtractIsolines_8h_html"><div class="ttname"><a href="MRExtractIsolines_8h.html">MRExtractIsolines.h</a></div></div>
 <div class="ttc" id="aMRId_8h_html"><div class="ttname"><a href="MRId_8h.html">MRId.h</a></div></div>
 <div class="ttc" id="aMRMeshTexture_8h_html"><div class="ttname"><a href="MRMeshTexture_8h.html">MRMeshTexture.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:64</div></div>
+<div class="ttc" id="aMRStatePlugin_8h_html"><div class="ttname"><a href="MRStatePlugin_8h.html">MRStatePlugin.h</a></div></div>
+<div class="ttc" id="aclassMR_1_1SceneStateExactCheck_html"><div class="ttname"><a href="classMR_1_1SceneStateExactCheck.html">MR::SceneStateExactCheck</a></div><div class="ttdef"><b>Definition:</b> MRSceneStateCheck.h:100</div></div>
+<div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRStatePlugin.h:107</div></div>
 <div class="ttc" id="aclassMR_1_1SurfaceDistancePlugin_html"><div class="ttname"><a href="classMR_1_1SurfaceDistancePlugin.html">MR::SurfaceDistancePlugin</a></div><div class="ttdef"><b>Definition:</b> MRSurfaceDistancePlugin.h:18</div></div>
 <div class="ttc" id="aclassMR_1_1SurfaceDistancePlugin_html_a184b4cd22e0ac425e825987c813a6349"><div class="ttname"><a href="classMR_1_1SurfaceDistancePlugin.html#a184b4cd22e0ac425e825987c813a6349">MR::SurfaceDistancePlugin::SurfaceDistancePlugin</a></div><div class="ttdeci">MRPLUGINS_API SurfaceDistancePlugin()</div></div>
 <div class="ttc" id="aclassMR_1_1SurfaceDistancePlugin_html_a2266d7322762aaf05b922b0eb36a5f37"><div class="ttname"><a href="classMR_1_1SurfaceDistancePlugin.html#a2266d7322762aaf05b922b0eb36a5f37">MR::SurfaceDistancePlugin::drawDialog</a></div><div class="ttdeci">virtual MRPLUGINS_API void drawDialog(float menuScaling, ImGuiContext *ctx) override</div></div>
-<div class="ttc" id="aclassMR_1_1SurfaceDistancePlugin_html_a3b3eac581b76d20cb2b4122fac4191ca"><div class="ttname"><a href="classMR_1_1SurfaceDistancePlugin.html#a3b3eac581b76d20cb2b4122fac4191ca">MR::SurfaceDistancePlugin::isAvailable</a></div><div class="ttdeci">virtual MRPLUGINS_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
+<div class="ttc" id="aclassMR_1_1SurfaceDistancePlugin_html_ad862eb5daef08e4bb738d8414df0d9c8"><div class="ttname"><a href="classMR_1_1SurfaceDistancePlugin.html#ad862eb5daef08e4bb738d8414df0d9c8">MR::SurfaceDistancePlugin::getTooltip</a></div><div class="ttdeci">virtual MRPLUGINS_API std::string getTooltip() const override</div></div>
 <div class="ttc" id="aclassMR_1_1TaggedBitSet_html"><div class="ttname"><a href="classMR_1_1TaggedBitSet.html">MR::TaggedBitSet&lt; VertTag &gt;</a></div></div>
 <div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdef"><b>Definition:</b> MRVector.h:15</div></div>
-<div class="ttc" id="aclassMR_1_1Viewer_html_a4e2fd639b52df5ee18d06bb9f4e504f6"><div class="ttname"><a href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition:</b> MRViewer.h:58</div></div>
+<div class="ttc" id="aclassMR_1_1Viewer_html_a4e2fd639b52df5ee18d06bb9f4e504f6"><div class="ttname"><a href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition:</b> MRViewer.h:53</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:7</div></div>
 <div class="ttc" id="astructMR_1_1Color_html"><div class="ttname"><a href="structMR_1_1Color.html">MR::Color</a></div><div class="ttdef"><b>Definition:</b> MRColor.h:9</div></div>
 </div><!-- fragment --></div><!-- contents -->

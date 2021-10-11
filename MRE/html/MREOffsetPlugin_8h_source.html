@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('MREOffsetPlugin_8h_source.html',''); i
 <div class="contents">
 <a href="MREOffsetPlugin_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;exports.h&quot;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRCustomPlugin_8h.html">MRViewer/MRCustomPlugin.h</a>&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRStatePlugin_8h.html">MRViewer/MRStatePlugin.h</a>&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
@@ -109,38 +109,36 @@ $(document).ready(function(){initNavTree('MREOffsetPlugin_8h_source.html',''); i
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMRE.html">MRE</a></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classMRE_1_1OffsetPlugin.html">   13</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMRE_1_1OffsetPlugin.html">OffsetPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">MR::CustomPlugin</a></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classMRE_1_1OffsetPlugin.html">   13</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMRE_1_1OffsetPlugin.html">OffsetPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1StateListenerPlugin.html">MR::StatePlugin</a>, <span class="keyword">public</span> <a class="code" href="classMR_1_1SceneStateExactCheck.html">MR::SceneStateExactCheck</a>&lt;1, MR::ObjectMesh&gt;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classMRE_1_1OffsetPlugin.html#ad3c07cd82416f0b48e7cc3b38243d9c4">   16</a></span>&#160;    MREPLUGINS_API <a class="code" href="classMRE_1_1OffsetPlugin.html#ad3c07cd82416f0b48e7cc3b38243d9c4">OffsetPlugin</a>();</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classMRE_1_1OffsetPlugin.html#aaec3e09824350d6eb4c1c13a53df6507">   18</a></span>&#160;    MREPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMRE_1_1OffsetPlugin.html#aaec3e09824350d6eb4c1c13a53df6507">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classMRE_1_1OffsetPlugin.html#a2b8b18ab0aa1d08d155285877bdcf4a8">   20</a></span>&#160;    MREPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMRE_1_1OffsetPlugin.html#a2b8b18ab0aa1d08d155285877bdcf4a8">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const MR::Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">private</span>:</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">void</span> apply_();</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span> apply_();</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">float</span> voxelSize_{1.0f / 20.0f};</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">float</span> offset_{0.0f};</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    std::shared_ptr&lt;MR::ObjectMesh&gt; obj_;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">bool</span> isClosed_{<span class="keyword">false</span>};</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">float</span> minVoxelSize_{0.0f};</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">float</span> maxVoxelSize_{0.0f};</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">float</span> step_{0.0f};</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;};</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
-<div class="ttc" id="aMRCustomPlugin_8h_html"><div class="ttname"><a href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a></div></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">float</span> voxelSize_{1.0f / 20.0f};</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">float</span> offset_{0.0f};</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    std::shared_ptr&lt;MR::ObjectMesh&gt; obj_;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">bool</span> isClosed_{<span class="keyword">false</span>};</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">float</span> minVoxelSize_{0.0f};</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">float</span> maxVoxelSize_{0.0f};</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">float</span> step_{0.0f};</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;};</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
+<div class="ttc" id="aMRStatePlugin_8h_html"><div class="ttname"><a href="MRStatePlugin_8h.html">MRStatePlugin.h</a></div></div>
 <div class="ttc" id="aclassMRE_1_1OffsetPlugin_html"><div class="ttname"><a href="classMRE_1_1OffsetPlugin.html">MRE::OffsetPlugin</a></div><div class="ttdef"><b>Definition:</b> MREOffsetPlugin.h:14</div></div>
-<div class="ttc" id="aclassMRE_1_1OffsetPlugin_html_a2b8b18ab0aa1d08d155285877bdcf4a8"><div class="ttname"><a href="classMRE_1_1OffsetPlugin.html#a2b8b18ab0aa1d08d155285877bdcf4a8">MRE::OffsetPlugin::isAvailable</a></div><div class="ttdeci">virtual MREPLUGINS_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const MR::Object &gt;&gt; &amp;selectedObjects) override</div></div>
 <div class="ttc" id="aclassMRE_1_1OffsetPlugin_html_aaec3e09824350d6eb4c1c13a53df6507"><div class="ttname"><a href="classMRE_1_1OffsetPlugin.html#aaec3e09824350d6eb4c1c13a53df6507">MRE::OffsetPlugin::drawDialog</a></div><div class="ttdeci">virtual MREPLUGINS_API void drawDialog(float menuScaling, ImGuiContext *) override</div></div>
 <div class="ttc" id="aclassMRE_1_1OffsetPlugin_html_ad3c07cd82416f0b48e7cc3b38243d9c4"><div class="ttname"><a href="classMRE_1_1OffsetPlugin.html#ad3c07cd82416f0b48e7cc3b38243d9c4">MRE::OffsetPlugin::OffsetPlugin</a></div><div class="ttdeci">MREPLUGINS_API OffsetPlugin()</div></div>
-<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:64</div></div>
+<div class="ttc" id="aclassMR_1_1SceneStateExactCheck_html"><div class="ttname"><a href="classMR_1_1SceneStateExactCheck.html">MR::SceneStateExactCheck</a></div><div class="ttdef"><b>Definition:</b> MRSceneStateCheck.h:100</div></div>
+<div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRStatePlugin.h:107</div></div>
 <div class="ttc" id="anamespaceMRE_html"><div class="ttname"><a href="namespaceMRE.html">MRE</a></div><div class="ttdef"><b>Definition:</b> MREBooleanOperation.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:7</div></div>
 </div><!-- fragment --></div><!-- contents -->

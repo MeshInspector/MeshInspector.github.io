@@ -5,7 +5,7 @@ var classMR_1_1Pallete =
     [ "addLabels", "classMR_1_1Pallete.html#aafeac6635d4ba3cd26525db64ec4eb5c", null ],
     [ "draw", "classMR_1_1Pallete.html#a5051e1a9487609e6dcaea4b2529bcaae", null ],
     [ "getColor", "classMR_1_1Pallete.html#a04bbe8d14fc64403210323f9ecabe752", null ],
-    [ "getTexture", "classMR_1_1Pallete.html#addecc2bfbca12b5489d8219ea8048270", null ],
+    [ "getTexture", "classMR_1_1Pallete.html#ab0f3445bbd79bda9e9702ca966fef95b", null ],
     [ "removeLabels", "classMR_1_1Pallete.html#aa65779a5afc2537e475000365571d1ef", null ],
     [ "setColors", "classMR_1_1Pallete.html#a99199089a215644f58ea4a3ce534f6b0", null ]
 ];

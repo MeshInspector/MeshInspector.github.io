@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('MRFloatGrid_8h.html',''); initResizabl
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">MRFloatGrid.h File Reference</div>  </div>
 </div><!--header-->
@@ -108,7 +108,7 @@ $(document).ready(function(){initNavTree('MRFloatGrid_8h.html',''); initResizabl
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FloatGrid.html">MR::FloatGrid</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1OpenVdbFloatGrid.html">MR::OpenVdbFloatGrid</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -116,58 +116,21 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceMR"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:ae71449b1cc6e6250b91f539153a7a0d3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRFloatGrid_8h.html#ae71449b1cc6e6250b91f539153a7a0d3">M_PI</a>&#160;&#160;&#160;3.1415926535897932384626433832795</td></tr>
-<tr class="separator:ae71449b1cc6e6250b91f539153a7a0d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a958e4508ed28ee5cc04249144312c15f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRFloatGrid_8h.html#a958e4508ed28ee5cc04249144312c15f">M_PI_2</a>&#160;&#160;&#160;1.5707963267948966192313216916398</td></tr>
-<tr class="separator:a958e4508ed28ee5cc04249144312c15f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f41130cb850d9fcf11ba3a25c35ee6d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRFloatGrid_8h.html#a7f41130cb850d9fcf11ba3a25c35ee6d">TBB_SUPPRESS_DEPRECATED_MESSAGES</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:a7f41130cb850d9fcf11ba3a25c35ee6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a42178354e2b258e88b82644232201188"><td class="memItemLeft" align="right" valign="top">openvdb::FloatGrid &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a42178354e2b258e88b82644232201188">MR::ovdb</a> (OpenVdbFloatGrid &amp;v)</td></tr>
+<tr class="separator:a42178354e2b258e88b82644232201188"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58bb8291d92ce1535ce5955297c78fc6"><td class="memItemLeft" align="right" valign="top">const openvdb::FloatGrid &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a58bb8291d92ce1535ce5955297c78fc6">MR::ovdb</a> (const OpenVdbFloatGrid &amp;v)</td></tr>
+<tr class="separator:a58bb8291d92ce1535ce5955297c78fc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad22f4a32c89bdb6e135e9eb94dadef60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FloatGrid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ad22f4a32c89bdb6e135e9eb94dadef60">MR::MakeFloatGrid</a> (openvdb::FloatGrid::Ptr &amp;&amp;)</td></tr>
+<tr class="separator:ad22f4a32c89bdb6e135e9eb94dadef60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f983774830a6e904a28f8477881f39a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FloatGrid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4f983774830a6e904a28f8477881f39a">MR::resampled</a> (const FloatGrid &amp;grid, float voxelScale)</td></tr>
+<tr class="separator:a4f983774830a6e904a28f8477881f39a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada9672bef7b90fbad035953479b256f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FloatGrid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ada9672bef7b90fbad035953479b256f2">MR::resampled</a> (const FloatGrid &amp;grid, const Vector3f &amp;voxelScale)</td></tr>
+<tr class="separator:ada9672bef7b90fbad035953479b256f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a097ca42a99d9a6e02f32e8b460739e40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a097ca42a99d9a6e02f32e8b460739e40">MR::setValue</a> (FloatGrid &amp;grid, const VoxelBitSet &amp;region, float value)</td></tr>
+<tr class="separator:a097ca42a99d9a6e02f32e8b460739e40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ae71449b1cc6e6250b91f539153a7a0d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae71449b1cc6e6250b91f539153a7a0d3">&#9670;&nbsp;</a></span>M_PI</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define M_PI&#160;&#160;&#160;3.1415926535897932384626433832795</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a958e4508ed28ee5cc04249144312c15f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a958e4508ed28ee5cc04249144312c15f">&#9670;&nbsp;</a></span>M_PI_2</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define M_PI_2&#160;&#160;&#160;1.5707963267948966192313216916398</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7f41130cb850d9fcf11ba3a25c35ee6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f41130cb850d9fcf11ba3a25c35ee6d">&#9670;&nbsp;</a></span>TBB_SUPPRESS_DEPRECATED_MESSAGES</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TBB_SUPPRESS_DEPRECATED_MESSAGES&#160;&#160;&#160;1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

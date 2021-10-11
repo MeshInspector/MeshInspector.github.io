@@ -23,8 +23,19 @@ var group__DecimateGroup =
       [ "stabilizer", "structMRE_1_1DecimateParallelSettings.html#a0b61ab1c0f0b8cdfb1227b61538701ed", null ],
       [ "subdivideParts", "structMRE_1_1DecimateParallelSettings.html#a2a2a5ed1fff302edc4af585b97b47a01", null ]
     ] ],
+    [ "DecimatePolylineSettings", "structMRE_1_1DecimatePolylineSettings.html", [
+      [ "maxDeletedVertices", "structMRE_1_1DecimatePolylineSettings.html#a6043a82ec9674dc654c50f53ee40cd49", null ],
+      [ "maxError", "structMRE_1_1DecimatePolylineSettings.html#abb27f15952a0c8535cbc52d5a6c92014", null ],
+      [ "preCollapse", "structMRE_1_1DecimatePolylineSettings.html#af529d418454258636aed2b80ae29e746", null ],
+      [ "region", "structMRE_1_1DecimatePolylineSettings.html#a2a12f26f4bd314d92524d875c5c1fd72", null ],
+      [ "stabilizer", "structMRE_1_1DecimatePolylineSettings.html#a94801c0ed11e7b485a59aa8ef9805609", null ],
+      [ "touchBdVertices", "structMRE_1_1DecimatePolylineSettings.html#a1e1a039c07cbe0312d0ec5559c14d822", null ],
+      [ "vertForms", "structMRE_1_1DecimatePolylineSettings.html#af1894bde6dfbef43e086984547d593bd", null ]
+    ] ],
     [ "computeFormAtVertex", "group__DecimateGroup.html#ga090e98ab9275f5e5bc3eb8be1e846400", null ],
+    [ "decimateContour", "group__DecimateGroup.html#ga467189de3d6b4210ea9b49f27d04b913", null ],
     [ "decimateMesh", "group__DecimateGroup.html#ga9f4ed5382008a7fff13610607c6c5719", null ],
     [ "decimateParallelMesh", "group__DecimateGroup.html#ga9c9b6750549d4bf9a222a9d5bd509a43", null ],
+    [ "decimatePolyline", "group__DecimateGroup.html#ga376a24c8b38706610cb63306f9901a13", null ],
     [ "resolveMeshDegenerations", "group__DecimateGroup.html#ga51ab93bf64af79d363344013e7181856", null ]
 ];

@@ -6,6 +6,7 @@ var classMR_1_1ObjectMesh =
     [ "~ObjectMesh", "classMR_1_1ObjectMesh.html#aff624379ff7a90cc2537f483a11dd30b", null ],
     [ "ObjectMesh", "classMR_1_1ObjectMesh.html#ae38a2d1f95513ca3dff2fe6f1b1d00fc", null ],
     [ "ObjectMesh", "classMR_1_1ObjectMesh.html#a67c34149d9ee28120767c521ee008fa1", null ],
+    [ "applyScale", "classMR_1_1ObjectMesh.html#a25527207acd89eeaab065583b3c10e1d", null ],
     [ "areSelectedFacesShown", "classMR_1_1ObjectMesh.html#a9a5a1b6592046efb49277f52bcbca3b8", null ],
     [ "clone", "classMR_1_1ObjectMesh.html#aced379f06bfbb3963386018cf4f09f95", null ],
     [ "computeBoundingBox_", "classMR_1_1ObjectMesh.html#ae0d45a530192df96e6b3d79d1c69774f", null ],

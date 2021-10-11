@@ -13,7 +13,6 @@ var classMR_1_1Menu =
     [ "draw_scene_list_content", "classMR_1_1Menu.html#a863f63680c5a2b46c0be4756b13bdb3e", null ],
     [ "draw_selection_properties", "classMR_1_1Menu.html#a48aa91a4bc1c5c415127435c76020308", null ],
     [ "draw_selection_properties_content", "classMR_1_1Menu.html#a617406867f65f2ba8a8972f24605eab8", null ],
-    [ "getCurrentContext", "classMR_1_1Menu.html#a132c35fb7808221592854ba09edeeefd", null ],
     [ "getMenuFontPath", "classMR_1_1Menu.html#a9d21a0a8fe660564bec790d657b0b7bb", null ],
     [ "init", "classMR_1_1Menu.html#a9294389b0cf7ab9d43fe4bd9eefcac19", null ],
     [ "load_font", "classMR_1_1Menu.html#a40b941f2cdf37d27fc77fef27c539dc3", null ],

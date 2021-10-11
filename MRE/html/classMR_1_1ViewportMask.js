@@ -3,6 +3,7 @@ var classMR_1_1ViewportMask =
     [ "ViewportMask", "classMR_1_1ViewportMask.html#aac539518744aff765049e25ba538ccdf", null ],
     [ "ViewportMask", "classMR_1_1ViewportMask.html#a5f575fec91c28cf40307c3e5d10a6079", null ],
     [ "ViewportMask", "classMR_1_1ViewportMask.html#a606591b56d6a246352c6d3a68d5cbd28", null ],
+    [ "contains", "classMR_1_1ViewportMask.html#a1e4f802b8acb3eb20a3dab3948f47f5b", null ],
     [ "empty", "classMR_1_1ViewportMask.html#ac6e475b08c70785c6e2c92f8c8696a89", null ],
     [ "operator!=", "classMR_1_1ViewportMask.html#ab1e78cffa7271f2a43c1b2d819c94b49", null ],
     [ "operator&=", "classMR_1_1ViewportMask.html#aec23007573ca5d24406b8b276db01815", null ],

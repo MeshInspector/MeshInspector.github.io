@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['transformmode_5631',['TransformMode',['../classMR_1_1ObjectTransformation.html#a0ec990cd148969f9adbb191a3c85e5b2',1,'MR::ObjectTransformation']]],
-  ['type_5632',['Type',['../classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1',1,'MR::ChangeSceneAction::Type()'],['../classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7',1,'MR::HistoryAction::Type()'],['../structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aac',1,'MR::MeshVisualizePropertyType::Type()'],['../structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0',1,'MR::VisualizeMaskType::Type()']]]
+  ['seedtype_6022',['SeedType',['../classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5',1,'MR::VolumeSegmenter']]],
+  ['shadertype_6023',['ShaderType',['../classMR_1_1ShadersHolder.html#af79d4956571eca0d639217ad9ec89767',1,'MR::ShadersHolder']]],
+  ['sliceplain_6024',['SlicePlain',['../namespaceMR.html#ae7c8689563553fe7686bd6b71ddf8f18',1,'MR']]],
+  ['stateplugintabs_6025',['StatePluginTabs',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37',1,'MR']]],
+  ['streamtype_6026',['StreamType',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1d',1,'MRPython.h']]]
 ];

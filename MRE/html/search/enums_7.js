@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['objectselectivitytype_5622',['ObjectSelectivityType',['../namespaceMR.html#a1ab156c0351dfcd112a67a72e485f123',1,'MR']]],
-  ['outedge_5623',['OutEdge',['../namespaceMR.html#aa7203f0917dc651aa1261d90d266752e',1,'MR']]]
+  ['mapobject_6012',['MapObject',['../structMRE_1_1BooleanResultMapper.html#a156268722390804f6626c9523ed91bf4',1,'MRE::BooleanResultMapper']]],
+  ['masktype_6013',['MaskType',['../classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457',1,'MR::MarkedVoxelSlice']]],
+  ['meshcompression_6014',['MeshCompression',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69d',1,'MR::MeshSave::CtmSaveOptions']]],
+  ['mousebutton_6015',['MouseButton',['../classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6',1,'MR::Viewer']]],
+  ['mousemode_6016',['MouseMode',['../classMR_1_1Viewer.html#a1e0f5398c54b70bf130b28dbe6795e37',1,'MR::Viewer']]]
 ];

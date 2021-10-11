@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('MRProgressBarTest_8h_source.html','');
 <div class="contents">
 <a href="MRProgressBarTest_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;MRPlugins/exports.h&quot;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRCustomPlugin_8h.html">MRViewer/MRCustomPlugin.h</a>&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRStatePlugin_8h.html">MRViewer/MRStatePlugin.h</a>&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;atomic&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;thread&gt;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
@@ -107,26 +107,23 @@ $(document).ready(function(){initNavTree('MRProgressBarTest_8h_source.html','');
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">class </span>RenderObject;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classMR_1_1ProgressBarTest.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1ProgressBarTest.html">ProgressBarTest</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">MR::CustomPlugin</a></div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classMR_1_1ProgressBarTest.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1ProgressBarTest.html">ProgressBarTest</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1StateListenerPlugin.html">MR::StatePlugin</a></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classMR_1_1ProgressBarTest.html#abe9b1c8da68644e6881196024aa9da35">   14</a></span>&#160;    MRPLUGINS_API <a class="code" href="classMR_1_1ProgressBarTest.html#abe9b1c8da68644e6881196024aa9da35">ProgressBarTest</a>();</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    </div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1ProgressBarTest.html#a6ce21c9bf30ca2d2efe6321e75657b7b">   16</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1ProgressBarTest.html#a6ce21c9bf30ca2d2efe6321e75657b7b">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classMR_1_1ProgressBarTest.html#aa55acb668c9582d0e3821e448204cb46">   18</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1ProgressBarTest.html#aa55acb668c9582d0e3821e448204cb46">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;};</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
-<div class="ttc" id="aMRCustomPlugin_8h_html"><div class="ttname"><a href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:64</div></div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1ProgressBarTest.html#aa55acb668c9582d0e3821e448204cb46">   16</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1ProgressBarTest.html#aa55acb668c9582d0e3821e448204cb46">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;};</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
+<div class="ttc" id="aMRStatePlugin_8h_html"><div class="ttname"><a href="MRStatePlugin_8h.html">MRStatePlugin.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1ProgressBarTest_html"><div class="ttname"><a href="classMR_1_1ProgressBarTest.html">MR::ProgressBarTest</a></div><div class="ttdef"><b>Definition:</b> MRProgressBarTest.h:12</div></div>
-<div class="ttc" id="aclassMR_1_1ProgressBarTest_html_a6ce21c9bf30ca2d2efe6321e75657b7b"><div class="ttname"><a href="classMR_1_1ProgressBarTest.html#a6ce21c9bf30ca2d2efe6321e75657b7b">MR::ProgressBarTest::isAvailable</a></div><div class="ttdeci">virtual MRPLUGINS_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
 <div class="ttc" id="aclassMR_1_1ProgressBarTest_html_aa55acb668c9582d0e3821e448204cb46"><div class="ttname"><a href="classMR_1_1ProgressBarTest.html#aa55acb668c9582d0e3821e448204cb46">MR::ProgressBarTest::drawDialog</a></div><div class="ttdeci">virtual MRPLUGINS_API void drawDialog(float menuScaling, ImGuiContext *) override</div></div>
 <div class="ttc" id="aclassMR_1_1ProgressBarTest_html_abe9b1c8da68644e6881196024aa9da35"><div class="ttname"><a href="classMR_1_1ProgressBarTest.html#abe9b1c8da68644e6881196024aa9da35">MR::ProgressBarTest::ProgressBarTest</a></div><div class="ttdeci">MRPLUGINS_API ProgressBarTest()</div></div>
+<div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRStatePlugin.h:107</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

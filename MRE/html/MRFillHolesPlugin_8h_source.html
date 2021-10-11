@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('MRFillHolesPlugin_8h_source.html','');
 <div class="contents">
 <a href="MRFillHolesPlugin_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;MRPlugins/exports.h&quot;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRCustomPlugin_8h.html">MRViewer/MRCustomPlugin.h</a>&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRStatePlugin_8h.html">MRViewer/MRStatePlugin.h</a>&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="MRMeshFillHole_8h.html">MRMesh/MRMeshFillHole.h</a>&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="MRId_8h.html">MRMesh/MRId.h</a>&gt;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRHistoryAction_8h.html">MRMesh/MRHistoryAction.h</a>&quot;</span></div>
@@ -108,63 +108,63 @@ $(document).ready(function(){initNavTree('MRFillHolesPlugin_8h_source.html','');
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">class </span>ObjectMesh;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classMR_1_1FillHolesPlugin.html">   12</a></span>&#160;<span class="keyword">class </span>MRPLUGINS_CLASS <a class="code" href="classMR_1_1FillHolesPlugin.html">FillHolesPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">CustomListenerPlugin</a>&lt;MouseMoveListener,MouseDownListener&gt;</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classMR_1_1FillHolesPlugin.html">   12</a></span>&#160;<span class="keyword">class </span>MRPLUGINS_CLASS <a class="code" href="classMR_1_1FillHolesPlugin.html">FillHolesPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1StateListenerPlugin.html">StateListenerPlugin</a>&lt;MouseMoveListener,MouseDownListener&gt;, <span class="keyword">public</span> <a class="code" href="classMR_1_1SceneStateExactCheck.html">SceneStateExactCheck</a>&lt;1, ObjectMesh&gt;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classMR_1_1FillHolesPlugin.html#a97c9fe519b3d2099a18439516467a868">   15</a></span>&#160;    MRPLUGINS_API <a class="code" href="classMR_1_1FillHolesPlugin.html#a97c9fe519b3d2099a18439516467a868">FillHolesPlugin</a>();</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
 <div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classMR_1_1FillHolesPlugin.html#aa6df7c1fa8542de58908d4bea2bbb7f7">   17</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1FillHolesPlugin.html#aa6df7c1fa8542de58908d4bea2bbb7f7">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classMR_1_1FillHolesPlugin.html#af4d7b397ee936cfae3dbafa87291c8df">   19</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1FillHolesPlugin.html#af4d7b397ee936cfae3dbafa87291c8df">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classMR_1_1FillHolesPlugin.html#a524155b76e2c2ab2920218f2e148cce1">   21</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="classMR_1_1FillHolesPlugin.html#a524155b76e2c2ab2920218f2e148cce1">MetricConstructor</a> = std::function&lt;std::unique_ptr&lt;FillHoleMetric&gt;( <span class="keyword">const</span> <a class="code" href="structMR_1_1Mesh.html">Mesh</a>&amp;, <a class="code" href="classMR_1_1Id_3_01EdgeTag_01_4.html">EdgeId</a> )&gt;;</div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classMR_1_1FillHolesPlugin.html#a24ee8bcba471a46a224f0860bf8855ac">   22</a></span>&#160;    MRPLUGINS_API <span class="keywordtype">void</span> <a class="code" href="classMR_1_1FillHolesPlugin.html#a24ee8bcba471a46a224f0860bf8855ac">addMetricConstructor</a>( <span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> <a class="code" href="classMR_1_1FillHolesPlugin.html#a524155b76e2c2ab2920218f2e148cce1">MetricConstructor</a>&amp; metricConstructor );</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseDown_( <a class="code" href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseMove_( <span class="keywordtype">int</span> mouse_x, <span class="keywordtype">int</span> mouse_y ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">int</span> currMetric_;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    std::vector&lt;std::pair&lt;std::string, MetricConstructor&gt;&gt; metrices_;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">bool</span> fillOneHole_(<a class="code" href="classMR_1_1Id_3_01EdgeTag_01_4.html">EdgeId</a> initEdge);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="classMR_1_1Id_3_01EdgeTag_01_4.html">EdgeId</a> findMousePointedHoleEdge_();</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">bool</span> drawHole_(<a class="code" href="classMR_1_1Id_3_01EdgeTag_01_4.html">EdgeId</a> initEdge);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    std::shared_ptr&lt;ObjectMesh&gt; obj_;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="comment">// if true, fillOneHole_ will not append history actions</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">bool</span> oneHistoryActionForFillAll_{ <span class="keyword">false</span> };</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">float</span> maxEdgeLen_;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">bool</span> smoothCurvature_;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">bool</span> createDegenerateBand_;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> fillAll_();</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span> setAvergeEdgeLength_();</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classMR_1_1FillHolesPlugin.html#a524155b76e2c2ab2920218f2e148cce1">   19</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="classMR_1_1FillHolesPlugin.html#a524155b76e2c2ab2920218f2e148cce1">MetricConstructor</a> = std::function&lt;std::unique_ptr&lt;FillHoleMetric&gt;( <span class="keyword">const</span> <a class="code" href="structMR_1_1Mesh.html">Mesh</a>&amp;, <a class="code" href="classMR_1_1Id_3_01EdgeTag_01_4.html">EdgeId</a> )&gt;;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classMR_1_1FillHolesPlugin.html#a24ee8bcba471a46a224f0860bf8855ac">   20</a></span>&#160;    MRPLUGINS_API <span class="keywordtype">void</span> <a class="code" href="classMR_1_1FillHolesPlugin.html#a24ee8bcba471a46a224f0860bf8855ac">addMetricConstructor</a>( <span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> <a class="code" href="classMR_1_1FillHolesPlugin.html#a524155b76e2c2ab2920218f2e148cce1">MetricConstructor</a>&amp; metricConstructor );</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classMR_1_1FillHolesPlugin.html#a9b316fabf5bfcb4800eced246c9aa684">   22</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> std::string <a class="code" href="classMR_1_1FillHolesPlugin.html#a9b316fabf5bfcb4800eced246c9aa684">getTooltip</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseDown_( <a class="code" href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseMove_( <span class="keywordtype">int</span> mouse_x, <span class="keywordtype">int</span> mouse_y ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">int</span> currMetric_;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    std::vector&lt;std::pair&lt;std::string, MetricConstructor&gt;&gt; metrices_;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">bool</span> fillOneHole_(<a class="code" href="classMR_1_1Id_3_01EdgeTag_01_4.html">EdgeId</a> initEdge);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="classMR_1_1Id_3_01EdgeTag_01_4.html">EdgeId</a> findMousePointedHoleEdge_();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">bool</span> drawHole_(<a class="code" href="classMR_1_1Id_3_01EdgeTag_01_4.html">EdgeId</a> initEdge);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    std::shared_ptr&lt;ObjectMesh&gt; obj_;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="comment">// if true, fillOneHole_ will not append history actions</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">bool</span> oneHistoryActionForFillAll_{ <span class="keyword">false</span> };</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">float</span> maxEdgeLen_;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">bool</span> smoothCurvature_;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">bool</span> createDegenerateBand_;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> fillAll_();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> setAvergeEdgeLength_();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    std::vector&lt;EdgeId&gt; holes_;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    boost::signals2::connection meshChangeConnection_;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;};</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
-<div class="ttc" id="aMRCustomPlugin_8h_html"><div class="ttname"><a href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a></div></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    std::vector&lt;EdgeId&gt; holes_;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    boost::signals2::connection meshChangeConnection_;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;};</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
 <div class="ttc" id="aMRHistoryAction_8h_html"><div class="ttname"><a href="MRHistoryAction_8h.html">MRHistoryAction.h</a></div></div>
 <div class="ttc" id="aMRId_8h_html"><div class="ttname"><a href="MRId_8h.html">MRId.h</a></div></div>
 <div class="ttc" id="aMRMeshFillHole_8h_html"><div class="ttname"><a href="MRMeshFillHole_8h.html">MRMeshFillHole.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:64</div></div>
+<div class="ttc" id="aMRStatePlugin_8h_html"><div class="ttname"><a href="MRStatePlugin_8h.html">MRStatePlugin.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1FillHolesPlugin_html"><div class="ttname"><a href="classMR_1_1FillHolesPlugin.html">MR::FillHolesPlugin</a></div><div class="ttdef"><b>Definition:</b> MRFillHolesPlugin.h:13</div></div>
 <div class="ttc" id="aclassMR_1_1FillHolesPlugin_html_a24ee8bcba471a46a224f0860bf8855ac"><div class="ttname"><a href="classMR_1_1FillHolesPlugin.html#a24ee8bcba471a46a224f0860bf8855ac">MR::FillHolesPlugin::addMetricConstructor</a></div><div class="ttdeci">MRPLUGINS_API void addMetricConstructor(const std::string &amp;name, const MetricConstructor &amp;metricConstructor)</div></div>
-<div class="ttc" id="aclassMR_1_1FillHolesPlugin_html_a524155b76e2c2ab2920218f2e148cce1"><div class="ttname"><a href="classMR_1_1FillHolesPlugin.html#a524155b76e2c2ab2920218f2e148cce1">MR::FillHolesPlugin::MetricConstructor</a></div><div class="ttdeci">std::function&lt; std::unique_ptr&lt; FillHoleMetric &gt;(const Mesh &amp;, EdgeId)&gt; MetricConstructor</div><div class="ttdef"><b>Definition:</b> MRFillHolesPlugin.h:21</div></div>
+<div class="ttc" id="aclassMR_1_1FillHolesPlugin_html_a524155b76e2c2ab2920218f2e148cce1"><div class="ttname"><a href="classMR_1_1FillHolesPlugin.html#a524155b76e2c2ab2920218f2e148cce1">MR::FillHolesPlugin::MetricConstructor</a></div><div class="ttdeci">std::function&lt; std::unique_ptr&lt; FillHoleMetric &gt;(const Mesh &amp;, EdgeId)&gt; MetricConstructor</div><div class="ttdef"><b>Definition:</b> MRFillHolesPlugin.h:19</div></div>
 <div class="ttc" id="aclassMR_1_1FillHolesPlugin_html_a97c9fe519b3d2099a18439516467a868"><div class="ttname"><a href="classMR_1_1FillHolesPlugin.html#a97c9fe519b3d2099a18439516467a868">MR::FillHolesPlugin::FillHolesPlugin</a></div><div class="ttdeci">MRPLUGINS_API FillHolesPlugin()</div></div>
+<div class="ttc" id="aclassMR_1_1FillHolesPlugin_html_a9b316fabf5bfcb4800eced246c9aa684"><div class="ttname"><a href="classMR_1_1FillHolesPlugin.html#a9b316fabf5bfcb4800eced246c9aa684">MR::FillHolesPlugin::getTooltip</a></div><div class="ttdeci">virtual MRPLUGINS_API std::string getTooltip() const override</div></div>
 <div class="ttc" id="aclassMR_1_1FillHolesPlugin_html_aa6df7c1fa8542de58908d4bea2bbb7f7"><div class="ttname"><a href="classMR_1_1FillHolesPlugin.html#aa6df7c1fa8542de58908d4bea2bbb7f7">MR::FillHolesPlugin::drawDialog</a></div><div class="ttdeci">virtual MRPLUGINS_API void drawDialog(float menuScaling, ImGuiContext *) override</div></div>
-<div class="ttc" id="aclassMR_1_1FillHolesPlugin_html_af4d7b397ee936cfae3dbafa87291c8df"><div class="ttname"><a href="classMR_1_1FillHolesPlugin.html#af4d7b397ee936cfae3dbafa87291c8df">MR::FillHolesPlugin::isAvailable</a></div><div class="ttdeci">virtual MRPLUGINS_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
-<div class="ttc" id="aclassMR_1_1Id_3_01EdgeTag_01_4_html"><div class="ttname"><a href="classMR_1_1Id_3_01EdgeTag_01_4.html">MR::Id&lt; EdgeTag &gt;</a></div><div class="ttdef"><b>Definition:</b> MRId.h:50</div></div>
-<div class="ttc" id="aclassMR_1_1Viewer_html_a4e2fd639b52df5ee18d06bb9f4e504f6"><div class="ttname"><a href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition:</b> MRViewer.h:58</div></div>
+<div class="ttc" id="aclassMR_1_1Id_3_01EdgeTag_01_4_html"><div class="ttname"><a href="classMR_1_1Id_3_01EdgeTag_01_4.html">MR::Id&lt; EdgeTag &gt;</a></div><div class="ttdef"><b>Definition:</b> MRId.h:51</div></div>
+<div class="ttc" id="aclassMR_1_1SceneStateExactCheck_html"><div class="ttname"><a href="classMR_1_1SceneStateExactCheck.html">MR::SceneStateExactCheck</a></div><div class="ttdef"><b>Definition:</b> MRSceneStateCheck.h:100</div></div>
+<div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRStatePlugin.h:107</div></div>
+<div class="ttc" id="aclassMR_1_1Viewer_html_a4e2fd639b52df5ee18d06bb9f4e504f6"><div class="ttname"><a href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition:</b> MRViewer.h:53</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:7</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition:</b> MRMesh.h:13</div></div>
 </div><!-- fragment --></div><!-- contents -->

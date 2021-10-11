@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['quarterbit_5625',['QuarterBit',['../namespaceMR.html#a85e60c553cc81b298c4bfeac4a623b79',1,'MR']]]
+  ['patherror_6019',['PathError',['../namespaceMR.html#af2c93aa0da8a9748d23340f32349a8b8',1,'MR']]]
 ];

@@ -99,33 +99,32 @@ $(document).ready(function(){initNavTree('MRImGuiDemo_8h_source.html',''); initR
 <div class="contents">
 <a href="MRImGuiDemo_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;MRPlugins/exports.h&quot;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRCustomPlugin_8h.html">MRViewer/MRCustomPlugin.h</a>&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRStatePlugin_8h.html">MRViewer/MRStatePlugin.h</a>&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">class </span>RenderObject;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classMR_1_1ImGuiDemoPlugin.html">    9</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1ImGuiDemoPlugin.html">ImGuiDemoPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1CustomListenerPlugin.html">CustomPlugin</a></div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classMR_1_1ImGuiDemoPlugin.html">    9</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1ImGuiDemoPlugin.html">ImGuiDemoPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1StateListenerPlugin.html">StatePlugin</a></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classMR_1_1ImGuiDemoPlugin.html#a46e1585dd39e8d3493544403ed2bf26b">   12</a></span>&#160;    MRPLUGINS_API <a class="code" href="classMR_1_1ImGuiDemoPlugin.html#a46e1585dd39e8d3493544403ed2bf26b">ImGuiDemoPlugin</a>();</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
 <div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classMR_1_1ImGuiDemoPlugin.html#a55ca8e110ebfdbd3311a2dabbe547fc5">   14</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1ImGuiDemoPlugin.html#a55ca8e110ebfdbd3311a2dabbe547fc5">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1ImGuiDemoPlugin.html#a5c5621abd488bbb03488dd1e1902b2f9">   16</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1ImGuiDemoPlugin.html#a5c5621abd488bbb03488dd1e1902b2f9">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; selectedObjects ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;};</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
-<div class="ttc" id="aMRCustomPlugin_8h_html"><div class="ttname"><a href="MRCustomPlugin_8h.html">MRCustomPlugin.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1CustomListenerPlugin_html"><div class="ttname"><a href="classMR_1_1CustomListenerPlugin.html">MR::CustomListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRCustomPlugin.h:64</div></div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1ImGuiDemoPlugin.html#a94c502f4c772f5b7936bdaf3da973bab">   16</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> std::string <a class="code" href="classMR_1_1ImGuiDemoPlugin.html#a94c502f4c772f5b7936bdaf3da973bab">getTooltip</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;};</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
+<div class="ttc" id="aMRStatePlugin_8h_html"><div class="ttname"><a href="MRStatePlugin_8h.html">MRStatePlugin.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1ImGuiDemoPlugin_html"><div class="ttname"><a href="classMR_1_1ImGuiDemoPlugin.html">MR::ImGuiDemoPlugin</a></div><div class="ttdef"><b>Definition:</b> MRImGuiDemo.h:10</div></div>
 <div class="ttc" id="aclassMR_1_1ImGuiDemoPlugin_html_a46e1585dd39e8d3493544403ed2bf26b"><div class="ttname"><a href="classMR_1_1ImGuiDemoPlugin.html#a46e1585dd39e8d3493544403ed2bf26b">MR::ImGuiDemoPlugin::ImGuiDemoPlugin</a></div><div class="ttdeci">MRPLUGINS_API ImGuiDemoPlugin()</div></div>
 <div class="ttc" id="aclassMR_1_1ImGuiDemoPlugin_html_a55ca8e110ebfdbd3311a2dabbe547fc5"><div class="ttname"><a href="classMR_1_1ImGuiDemoPlugin.html#a55ca8e110ebfdbd3311a2dabbe547fc5">MR::ImGuiDemoPlugin::drawDialog</a></div><div class="ttdeci">virtual MRPLUGINS_API void drawDialog(float menuScaling, ImGuiContext *) override</div></div>
-<div class="ttc" id="aclassMR_1_1ImGuiDemoPlugin_html_a5c5621abd488bbb03488dd1e1902b2f9"><div class="ttname"><a href="classMR_1_1ImGuiDemoPlugin.html#a5c5621abd488bbb03488dd1e1902b2f9">MR::ImGuiDemoPlugin::isAvailable</a></div><div class="ttdeci">virtual MRPLUGINS_API bool isAvailable(const std::vector&lt; std::shared_ptr&lt; const Object &gt;&gt; &amp;selectedObjects) override</div></div>
+<div class="ttc" id="aclassMR_1_1ImGuiDemoPlugin_html_a94c502f4c772f5b7936bdaf3da973bab"><div class="ttname"><a href="classMR_1_1ImGuiDemoPlugin.html#a94c502f4c772f5b7936bdaf3da973bab">MR::ImGuiDemoPlugin::getTooltip</a></div><div class="ttdeci">virtual MRPLUGINS_API std::string getTooltip() const override</div></div>
+<div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRStatePlugin.h:107</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
