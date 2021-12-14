@@ -98,71 +98,67 @@ $(document).ready(function(){initNavTree('MRHelperPrimitive_8h_source.html','');
 </div><!--header-->
 <div class="contents">
 <a href="MRHelperPrimitive_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;MRPlugins/exports.h&quot;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRStatePlugin_8h.html">MRViewer/MRStatePlugin.h</a>&quot;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMesh//MRMeshFwd.h</a>&quot;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classMR_1_1HelperPrimitive.html">    9</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1HelperPrimitive.html">HelperPrimitive</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1StateListenerPlugin.html">MR::StatePlugin</a></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classMR_1_1HelperPrimitive.html#af777ee0bd5b141dcb83794f1bc1367d4">   12</a></span>&#160;    MRPLUGINS_API <a class="code" href="classMR_1_1HelperPrimitive.html#af777ee0bd5b141dcb83794f1bc1367d4">HelperPrimitive</a>();</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classMR_1_1HelperPrimitive.html#a50b35f439475e17b61ae0e75d145ff43">   14</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1HelperPrimitive.html#a50b35f439475e17b61ae0e75d145ff43">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1HelperPrimitive.html#a000a5d2f973d92c21600cd0e550f60f0">   16</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> std::string <a class="code" href="classMR_1_1HelperPrimitive.html#a000a5d2f973d92c21600cd0e550f60f0">getTooltip</a>() <span class="keyword">const override</span>;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="structMR_1_1Vector3.html">Vector3f</a> activePoint_;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    std::vector&lt;Vector3f&gt; points_;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">int</span> selectedPoint_{ 0 };</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">bool</span> activeConvertToSeg_{ <span class="keyword">false</span> };</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    std::pair&lt;int, int&gt; selectedToConvert_{ -1, -1 };</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="namespaceMR.html#a035d7b7275f8cb32da8b363943229dde">LineSegm3f</a> activeSegment_;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> segmentDir_;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    std::vector&lt;LineSegm3f&gt; segments_;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">int</span> selectedSegment_{ 0 };</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">enum class</span> SegmentSetMethod</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    {</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        Destination,</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        Direction</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    } segmentSetMethod_;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;MRPlugins/exports.h&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRStatePlugin_8h.html">MRViewer/MRStatePlugin.h</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRLineSegm3_8h.html">MRMesh/MRLineSegm3.h</a>&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classMR_1_1HelperPrimitive.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1HelperPrimitive.html">HelperPrimitive</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1StateListenerPlugin.html">MR::StatePlugin</a></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classMR_1_1HelperPrimitive.html#af777ee0bd5b141dcb83794f1bc1367d4">   13</a></span>&#160;    MRPLUGINS_API <a class="code" href="classMR_1_1HelperPrimitive.html#af777ee0bd5b141dcb83794f1bc1367d4">HelperPrimitive</a>();</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classMR_1_1HelperPrimitive.html#a50b35f439475e17b61ae0e75d145ff43">   15</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1HelperPrimitive.html#a50b35f439475e17b61ae0e75d145ff43">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classMR_1_1HelperPrimitive.html#a000a5d2f973d92c21600cd0e550f60f0">   17</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> std::string <a class="code" href="classMR_1_1HelperPrimitive.html#a000a5d2f973d92c21600cd0e550f60f0">getTooltip</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="structMR_1_1Vector3.html">Vector3f</a> activePoint_;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    std::vector&lt;Vector3f&gt; points_;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">int</span> selectedPoint_{ 0 };</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">bool</span> activeConvertToSeg_{ <span class="keyword">false</span> };</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    std::pair&lt;int, int&gt; selectedToConvert_{ -1, -1 };</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="namespaceMR.html#a035d7b7275f8cb32da8b363943229dde">LineSegm3f</a> activeSegment_;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> segmentDir_;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    std::vector&lt;LineSegm3f&gt; segments_;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">int</span> selectedSegment_{ 0 };</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">enum class</span> SegmentSetMethod</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        Destination,</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        Direction</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    } segmentSetMethod_;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> drawDialogPoint();</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> drawPointInputButtons();</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">void</span> drawPointDeleteButtons();</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> drawConvertToSegment();</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> cancelConvertToSegment();</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">void</span> drawDialogPoint();</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">void</span> drawPointInputButtons();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">void</span> drawPointDeleteButtons();</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">void</span> drawConvertToSegment();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> cancelConvertToSegment();</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">void</span> drawDialogSegment();</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> drawSegmentInputButtons();</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> drawSegmentDeleteButtons();</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> drawDialogSegment();</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span> drawSegmentInputButtons();</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> drawSegmentDeleteButtons();</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> drawAll();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> drawAll();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> createObjectPoints();</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">void</span> createObjectLines();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;};</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> createObjectPoints();</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">void</span> createObjectLines();</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;};</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;} <span class="comment">// namespace MR</span></div>
-<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;} <span class="comment">// namespace MR</span></div>
+<div class="ttc" id="aMRLineSegm3_8h_html"><div class="ttname"><a href="MRLineSegm3_8h.html">MRLineSegm3.h</a></div></div>
 <div class="ttc" id="aMRStatePlugin_8h_html"><div class="ttname"><a href="MRStatePlugin_8h.html">MRStatePlugin.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1HelperPrimitive_html"><div class="ttname"><a href="classMR_1_1HelperPrimitive.html">MR::HelperPrimitive</a></div><div class="ttdef"><b>Definition:</b> MRHelperPrimitive.h:10</div></div>
+<div class="ttc" id="aclassMR_1_1HelperPrimitive_html"><div class="ttname"><a href="classMR_1_1HelperPrimitive.html">MR::HelperPrimitive</a></div><div class="ttdef"><b>Definition:</b> MRHelperPrimitive.h:11</div></div>
 <div class="ttc" id="aclassMR_1_1HelperPrimitive_html_a000a5d2f973d92c21600cd0e550f60f0"><div class="ttname"><a href="classMR_1_1HelperPrimitive.html#a000a5d2f973d92c21600cd0e550f60f0">MR::HelperPrimitive::getTooltip</a></div><div class="ttdeci">virtual MRPLUGINS_API std::string getTooltip() const override</div></div>
 <div class="ttc" id="aclassMR_1_1HelperPrimitive_html_a50b35f439475e17b61ae0e75d145ff43"><div class="ttname"><a href="classMR_1_1HelperPrimitive.html#a50b35f439475e17b61ae0e75d145ff43">MR::HelperPrimitive::drawDialog</a></div><div class="ttdeci">virtual MRPLUGINS_API void drawDialog(float menuScaling, ImGuiContext *) override</div></div>
 <div class="ttc" id="aclassMR_1_1HelperPrimitive_html_af777ee0bd5b141dcb83794f1bc1367d4"><div class="ttname"><a href="classMR_1_1HelperPrimitive.html#af777ee0bd5b141dcb83794f1bc1367d4">MR::HelperPrimitive::HelperPrimitive</a></div><div class="ttdeci">MRPLUGINS_API HelperPrimitive()</div></div>
-<div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRStatePlugin.h:107</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:7</div></div>
-<div class="ttc" id="anamespaceMR_html_a035d7b7275f8cb32da8b363943229dde"><div class="ttname"><a href="namespaceMR.html#a035d7b7275f8cb32da8b363943229dde">MR::LineSegm3f</a></div><div class="ttdeci">LineSegm3&lt; float &gt; LineSegm3f</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:133</div></div>
+<div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRStatePlugin.h:110</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a035d7b7275f8cb32da8b363943229dde"><div class="ttname"><a href="namespaceMR.html#a035d7b7275f8cb32da8b363943229dde">MR::LineSegm3f</a></div><div class="ttdeci">LineSegm3&lt; float &gt; LineSegm3f</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:138</div></div>
 <div class="ttc" id="anamespaceMR_html_a5f4a954ba7d1785cafcb2f7ffe7acf09"><div class="ttname"><a href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">MR::Vector3f</a></div><div class="ttdeci">Vector3&lt; float &gt; Vector3f</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:74</div></div>
 <div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3&lt; float &gt;</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

@@ -105,85 +105,86 @@ $(document).ready(function(){initNavTree('MRicpPlugin_8h_source.html',''); initR
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRAffineXf3_8h.html">MRMesh/MRAffineXf3.h</a>&quot;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRId_8h.html">MRMesh/MRId.h</a>&quot;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRICP_8h.html">MRMesh/MRICP.h</a>&quot;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">class </span>ObjectMesh;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">class </span>MeshICP;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1IcpPlugin.html">   16</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1IcpPlugin.html">IcpPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1StateListenerPlugin.html">MR::StatePlugin</a>, <span class="keyword">public</span> <a class="code" href="classMR_1_1SceneStateExactCheck.html">SceneStateExactCheck</a>&lt;2, ObjectMesh&gt;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classMR_1_1IcpPlugin.html#af090e9d3b5f05ad47dd330115e5d646e">   19</a></span>&#160;    MRPLUGINS_API <a class="code" href="classMR_1_1IcpPlugin.html#af090e9d3b5f05ad47dd330115e5d646e">IcpPlugin</a>();</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classMR_1_1IcpPlugin.html#a798a3cfeb68fbd9e61eb7e41ef7819d3">   21</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1IcpPlugin.html#a798a3cfeb68fbd9e61eb7e41ef7819d3">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classMR_1_1IcpPlugin.html#aeaaa82d3e2af7af3c76da77efeb6e8d2">   23</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> std::string <a class="code" href="classMR_1_1IcpPlugin.html#aeaaa82d3e2af7af3c76da77efeb6e8d2">getTooltip</a>() <span class="keyword">const override</span>;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">void</span> runICP_(<span class="keywordtype">int</span> iters);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">void</span> showPairs_();</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    std::shared_ptr&lt;ObjectMesh&gt; objRef_;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    std::shared_ptr&lt;ObjectMesh&gt; obj_;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="structMR_1_1AffineXf.html">AffineXf3f</a> savedObjRefXf_;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="structMR_1_1AffineXf.html">AffineXf3f</a> savedObjXf_;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    std::unique_ptr&lt;MeshICP&gt; icp_;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80ec">ICPMethod</a> method_ = <a class="code" href="namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80eca502cc75251f8ca4a454297be2146ef94">ICPMethod::Combined</a>;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">float</span> cosLimit_;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">float</span> distLimit_;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="comment">// +- 3 sigma is widely used in statistics</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">float</span> distFilterSigmaFactor_ = 3.f;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">float</span> resamplingFloatingModelVoxelSize_ = 0.f;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">bool</span> showLines_{ <span class="keyword">true</span> };</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">bool</span> showPoints_{ <span class="keyword">true</span> };</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">bool</span> showNormals_{ <span class="keyword">true</span> };</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">bool</span> linesDepthTestOff_{ <span class="keyword">false</span> };</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keyword">const</span> ImVec4 refColor_ = { 0.9f,0.7f,0.7f,1.f };</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keyword">const</span> ImVec4 objColor_ = { 0.7f,0.7f,0.9f,1.f };</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">bool</span> showLabelsObjRefSaved_{ <span class="keyword">false</span> };</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">bool</span> showLabelsObjSaved_{ <span class="keyword">false</span> };</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">void</span> recreateICP_();</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">int</span> iters_ = 10;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">int</span> badIters_ = 3;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">float</span> msd_ = 0;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677">ICPMode</a> xfClass_ = <a class="code" href="namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677a1662b3d601f436e62a0bf6529440eaef">ICPMode::AnyRigidXf</a>;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> fixedRotationAxis_{ 1, 0, 0 };</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">bool</span> freezePairs_ = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">float</span> normLen_ = 1.f;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;};</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;}</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;imgui.h&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">class </span>ObjectMesh;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">class </span>MeshICP;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classMR_1_1IcpPlugin.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1IcpPlugin.html">IcpPlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1StateListenerPlugin.html">MR::StatePlugin</a>, <span class="keyword">public</span> <a class="code" href="classMR_1_1SceneStateExactCheck.html">SceneStateExactCheck</a>&lt;2, ObjectMesh&gt;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classMR_1_1IcpPlugin.html#af090e9d3b5f05ad47dd330115e5d646e">   20</a></span>&#160;    MRPLUGINS_API <a class="code" href="classMR_1_1IcpPlugin.html#af090e9d3b5f05ad47dd330115e5d646e">IcpPlugin</a>();</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classMR_1_1IcpPlugin.html#a798a3cfeb68fbd9e61eb7e41ef7819d3">   22</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMR_1_1IcpPlugin.html#a798a3cfeb68fbd9e61eb7e41ef7819d3">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classMR_1_1IcpPlugin.html#aeaaa82d3e2af7af3c76da77efeb6e8d2">   24</a></span>&#160;    MRPLUGINS_API <span class="keyword">virtual</span> std::string <a class="code" href="classMR_1_1IcpPlugin.html#aeaaa82d3e2af7af3c76da77efeb6e8d2">getTooltip</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onDisable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">void</span> runICP_(<span class="keywordtype">int</span> iters);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">void</span> showPairs_();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    std::shared_ptr&lt;ObjectMesh&gt; objRef_;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    std::shared_ptr&lt;ObjectMesh&gt; obj_;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="structMR_1_1AffineXf.html">AffineXf3f</a> savedObjRefXf_;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="structMR_1_1AffineXf.html">AffineXf3f</a> savedObjXf_;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    std::unique_ptr&lt;MeshICP&gt; icp_;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80ec">ICPMethod</a> method_ = <a class="code" href="namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80ecacabf254f8195fce8d901b3cce7092ea9">ICPMethod::PointToPoint</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">float</span> cosLimit_;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">float</span> distLimit_;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="comment">// +- 3 sigma is widely used in statistics</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">float</span> distFilterSigmaFactor_ = 3.f;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">float</span> resamplingFloatingModelVoxelSize_ = 0.f;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">bool</span> showLines_{ <span class="keyword">true</span> };</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">bool</span> showPoints_{ <span class="keyword">true</span> };</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">bool</span> showNormals_{ <span class="keyword">true</span> };</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">bool</span> linesDepthTestOff_{ <span class="keyword">false</span> };</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keyword">const</span> ImVec4 refColor_ = { 0.9f,0.7f,0.7f,1.f };</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keyword">const</span> ImVec4 objColor_ = { 0.7f,0.7f,0.9f,1.f };</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">bool</span> showLabelsObjRefSaved_{ <span class="keyword">false</span> };</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">bool</span> showLabelsObjSaved_{ <span class="keyword">false</span> };</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">void</span> recreateICP_();</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">int</span> iters_ = 10;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">int</span> badIters_ = 3;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">float</span> msd_ = 0;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677">ICPMode</a> xfClass_ = <a class="code" href="namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677a1662b3d601f436e62a0bf6529440eaef">ICPMode::AnyRigidXf</a>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> fixedRotationAxis_{ 1, 0, 0 };</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">bool</span> freezePairs_ = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">float</span> normLen_ = 1.f;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;};</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;}</div>
 <div class="ttc" id="aMRAffineXf3_8h_html"><div class="ttname"><a href="MRAffineXf3_8h.html">MRAffineXf3.h</a></div></div>
 <div class="ttc" id="aMRICP_8h_html"><div class="ttname"><a href="MRICP_8h.html">MRICP.h</a></div></div>
 <div class="ttc" id="aMRId_8h_html"><div class="ttname"><a href="MRId_8h.html">MRId.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRStatePlugin_8h_html"><div class="ttname"><a href="MRStatePlugin_8h.html">MRStatePlugin.h</a></div></div>
 <div class="ttc" id="aMRVector3_8h_html"><div class="ttname"><a href="MRVector3_8h.html">MRVector3.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1IcpPlugin_html"><div class="ttname"><a href="classMR_1_1IcpPlugin.html">MR::IcpPlugin</a></div><div class="ttdef"><b>Definition:</b> MRicpPlugin.h:17</div></div>
+<div class="ttc" id="aclassMR_1_1IcpPlugin_html"><div class="ttname"><a href="classMR_1_1IcpPlugin.html">MR::IcpPlugin</a></div><div class="ttdef"><b>Definition:</b> MRicpPlugin.h:18</div></div>
 <div class="ttc" id="aclassMR_1_1IcpPlugin_html_a798a3cfeb68fbd9e61eb7e41ef7819d3"><div class="ttname"><a href="classMR_1_1IcpPlugin.html#a798a3cfeb68fbd9e61eb7e41ef7819d3">MR::IcpPlugin::drawDialog</a></div><div class="ttdeci">virtual MRPLUGINS_API void drawDialog(float menuScaling, ImGuiContext *) override</div></div>
 <div class="ttc" id="aclassMR_1_1IcpPlugin_html_aeaaa82d3e2af7af3c76da77efeb6e8d2"><div class="ttname"><a href="classMR_1_1IcpPlugin.html#aeaaa82d3e2af7af3c76da77efeb6e8d2">MR::IcpPlugin::getTooltip</a></div><div class="ttdeci">virtual MRPLUGINS_API std::string getTooltip() const override</div></div>
 <div class="ttc" id="aclassMR_1_1IcpPlugin_html_af090e9d3b5f05ad47dd330115e5d646e"><div class="ttname"><a href="classMR_1_1IcpPlugin.html#af090e9d3b5f05ad47dd330115e5d646e">MR::IcpPlugin::IcpPlugin</a></div><div class="ttdeci">MRPLUGINS_API IcpPlugin()</div></div>
 <div class="ttc" id="aclassMR_1_1SceneStateExactCheck_html"><div class="ttname"><a href="classMR_1_1SceneStateExactCheck.html">MR::SceneStateExactCheck</a></div><div class="ttdef"><b>Definition:</b> MRSceneStateCheck.h:100</div></div>
-<div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRStatePlugin.h:107</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:7</div></div>
+<div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRStatePlugin.h:110</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a2f8db848fea33b9619ade1fc1ac08677"><div class="ttname"><a href="namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677">MR::ICPMode</a></div><div class="ttdeci">ICPMode</div><div class="ttdef"><b>Definition:</b> MRICP.h:20</div></div>
 <div class="ttc" id="anamespaceMR_html_a2f8db848fea33b9619ade1fc1ac08677a1662b3d601f436e62a0bf6529440eaef"><div class="ttname"><a href="namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677a1662b3d601f436e62a0bf6529440eaef">MR::ICPMode::AnyRigidXf</a></div><div class="ttdeci">@ AnyRigidXf</div></div>
 <div class="ttc" id="anamespaceMR_html_a5f4a954ba7d1785cafcb2f7ffe7acf09"><div class="ttname"><a href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">MR::Vector3f</a></div><div class="ttdeci">Vector3&lt; float &gt; Vector3f</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:74</div></div>
 <div class="ttc" id="anamespaceMR_html_adc079b022ca7581fe4f508ab8f6a80ec"><div class="ttname"><a href="namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80ec">MR::ICPMethod</a></div><div class="ttdeci">ICPMethod</div><div class="ttdef"><b>Definition:</b> MRICP.h:12</div></div>
-<div class="ttc" id="anamespaceMR_html_adc079b022ca7581fe4f508ab8f6a80eca502cc75251f8ca4a454297be2146ef94"><div class="ttname"><a href="namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80eca502cc75251f8ca4a454297be2146ef94">MR::Combined</a></div><div class="ttdeci">@ Combined</div><div class="ttdef"><b>Definition:</b> MRICP.h:13</div></div>
+<div class="ttc" id="anamespaceMR_html_adc079b022ca7581fe4f508ab8f6a80ecacabf254f8195fce8d901b3cce7092ea9"><div class="ttname"><a href="namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80ecacabf254f8195fce8d901b3cce7092ea9">MR::ICPMethod::PointToPoint</a></div><div class="ttdeci">@ PointToPoint</div></div>
 <div class="ttc" id="astructMR_1_1AffineXf_html"><div class="ttname"><a href="structMR_1_1AffineXf.html">MR::AffineXf</a></div><div class="ttdef"><b>Definition:</b> MRAffineXf.h:9</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

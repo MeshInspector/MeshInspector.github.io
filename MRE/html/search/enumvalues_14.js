@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['zoom_6185',['Zoom',['../classMR_1_1Viewer.html#a1e0f5398c54b70bf130b28dbe6795e37a4252b72e6ebcd4d4b4c2e46a786f03d2',1,'MR::Viewer']]],
-  ['zx_6186',['ZX',['../namespaceMR.html#ae7c8689563553fe7686bd6b71ddf8f18a24b4db35f35f7ebe4a15436010a070d9',1,'MR']]]
+  ['xy_6730',['XY',['../namespaceMR.html#ae7c8689563553fe7686bd6b71ddf8f18a3629e4a37a6ff95437939d8664d158e9',1,'MR']]]
 ];

@@ -151,6 +151,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa6f9850637909d2a43d5589eac9f1306"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d21a0a8fe660564bec790d657b0b7bb"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#a9d21a0a8fe660564bec790d657b0b7bb">getMenuFontPath</a> () const</td></tr>
 <tr class="separator:a9d21a0a8fe660564bec790d657b0b7bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44734e41c1e4af99562d3b5a75da3fb7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#a44734e41c1e4af99562d3b5a75da3fb7">setDrawTimeMillisecThreshold</a> (long long maxGoodTimeMillisec)</td></tr>
+<tr class="separator:a44734e41c1e4af99562d3b5a75da3fb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -162,11 +164,33 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:aa02d6a7878abad80c8d93919357f4538"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8db5b7b5bd1e623b505a1770713f1a71"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#a8db5b7b5bd1e623b505a1770713f1a71">addMenuFontRanges_</a> (ImFontGlyphRangesBuilder &amp;builder) const</td></tr>
 <tr class="separator:a8db5b7b5bd1e623b505a1770713f1a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d17ab81f03cd7f2494a86042a0608aa"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#a5d17ab81f03cd7f2494a86042a0608aa">drawSelectionInformation_</a> ()</td></tr>
+<tr class="separator:a5d17ab81f03cd7f2494a86042a0608aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ab3701626b0fad5bb1823efcc0f290d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#a9ab3701626b0fad5bb1823efcc0f290d">drawTransform_</a> ()</td></tr>
+<tr class="separator:a9ab3701626b0fad5bb1823efcc0f290d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af890e5b75c78650d9a83db3569717330"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#af890e5b75c78650d9a83db3569717330">makeDragDropSource_</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;payload)</td></tr>
+<tr class="separator:af890e5b75c78650d9a83db3569717330"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22055df7443961b3638b0e1020823429"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#a22055df7443961b3638b0e1020823429">makeDragDropTarget_</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;target, bool before, bool betweenLine, int counter)</td></tr>
+<tr class="separator:a22055df7443961b3638b0e1020823429"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa783e0baeadc94f88ef1898ce2180099"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#aa783e0baeadc94f88ef1898ce2180099">reorderSceneIfNeeded_</a> ()</td></tr>
+<tr class="separator:aa783e0baeadc94f88ef1898ce2180099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5029d2f61cde21101878dd93d7d736e6"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#a5029d2f61cde21101878dd93d7d736e6">draw_object_recurse_</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;object, const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&gt; &amp;selected, const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&gt; &amp;all, int &amp;counter)</td></tr>
+<tr class="separator:a5029d2f61cde21101878dd93d7d736e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8aca215140567c89ce0e686679bd1b29"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#a8aca215140567c89ce0e686679bd1b29">drawSceneContextMenu_</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&gt; &amp;)</td></tr>
+<tr class="separator:a8aca215140567c89ce0e686679bd1b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6020708eed68c58c437b26e72af215d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#a6020708eed68c58c437b26e72af215d8">drawRemoveButton_</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&gt; &amp;selectedObjs)</td></tr>
+<tr class="separator:a6020708eed68c58c437b26e72af215d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a224dee253b99846146e39bde886e1d8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#a224dee253b99846146e39bde886e1d8b">drawDrawOptions_</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&gt; &amp;selectedObjs)</td></tr>
+<tr class="separator:a224dee253b99846146e39bde886e1d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60085e8f35598b700fa36caac4be63cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#a60085e8f35598b700fa36caac4be63cc">drawGeneralOptions_</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&gt; &amp;selectedObjs)</td></tr>
+<tr class="separator:a60085e8f35598b700fa36caac4be63cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:ab1901e9cc2dde623b3856874bb217b93"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1MeshModifier.html">MR::MeshModifier</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#ab1901e9cc2dde623b3856874bb217b93">modifiers_</a></td></tr>
 <tr class="separator:ab1901e9cc2dde623b3856874bb217b93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc176aa2d2bbf1198945438532b1f961"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; const <a class="el" href="classMR_1_1Object.html">Object</a> *, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Menu.html#adc176aa2d2bbf1198945438532b1f961">sceneOpenCommands_</a></td></tr>
+<tr class="separator:adc176aa2d2bbf1198945438532b1f961"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="aa6f9850637909d2a43d5589eac9f1306"></a>
@@ -352,6 +376,54 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5029d2f61cde21101878dd93d7d736e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5029d2f61cde21101878dd93d7d736e6">&#9670;&nbsp;</a></span>draw_object_recurse_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::Menu::draw_object_recurse_ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Object.html">Object</a> &amp;&#160;</td>
+          <td class="paramname"><em>object</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>selected</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>all</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>counter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a08dab0e7823f9ed0df9c2ee7920a1b21"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a08dab0e7823f9ed0df9c2ee7920a1b21">&#9670;&nbsp;</a></span>draw_scene_list()</h2>
 
@@ -449,6 +521,162 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a224dee253b99846146e39bde886e1d8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a224dee253b99846146e39bde886e1d8b">&#9670;&nbsp;</a></span>drawDrawOptions_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::Menu::drawDrawOptions_ </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>selectedObjs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a60085e8f35598b700fa36caac4be63cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60085e8f35598b700fa36caac4be63cc">&#9670;&nbsp;</a></span>drawGeneralOptions_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::Menu::drawGeneralOptions_ </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>selectedObjs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6020708eed68c58c437b26e72af215d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6020708eed68c58c437b26e72af215d8">&#9670;&nbsp;</a></span>drawRemoveButton_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::Menu::drawRemoveButton_ </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>selectedObjs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8aca215140567c89ce0e686679bd1b29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8aca215140567c89ce0e686679bd1b29">&#9670;&nbsp;</a></span>drawSceneContextMenu_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MRVIEWER_API void MR::Menu::drawSceneContextMenu_ </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classMR_1_1RibbonMenu.html#a3133035a3ea8f42cdeba64c992283ad6">MR::RibbonMenu</a>.</p>
+
+</div>
+</div>
+<a id="a5d17ab81f03cd7f2494a86042a0608aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d17ab81f03cd7f2494a86042a0608aa">&#9670;&nbsp;</a></span>drawSelectionInformation_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API float MR::Menu::drawSelectionInformation_ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ab3701626b0fad5bb1823efcc0f290d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ab3701626b0fad5bb1823efcc0f290d">&#9670;&nbsp;</a></span>drawTransform_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API float MR::Menu::drawTransform_ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9d21a0a8fe660564bec790d657b0b7bb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9d21a0a8fe660564bec790d657b0b7bb">&#9670;&nbsp;</a></span>getMenuFontPath()</h2>
 
@@ -471,6 +699,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classMR_1_1RibbonMenu.html#ac60708d073d431fe51934044e473b07c">MR::RibbonMenu</a>.</p>
 
 </div>
 </div>
@@ -527,6 +757,80 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="classMR_1_1RibbonMenu.html#a9bbdaa0865f099c7e385ac1ea6b7bbf3">MR::RibbonMenu</a>.</p>
+
+</div>
+</div>
+<a id="af890e5b75c78650d9a83db3569717330"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af890e5b75c78650d9a83db3569717330">&#9670;&nbsp;</a></span>makeDragDropSource_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::Menu::makeDragDropSource_ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Object.html">Object</a> &amp;&#160;</td>
+          <td class="paramname"><em>payload</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a22055df7443961b3638b0e1020823429"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22055df7443961b3638b0e1020823429">&#9670;&nbsp;</a></span>makeDragDropTarget_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::Menu::makeDragDropTarget_ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Object.html">Object</a> &amp;&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>before</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>betweenLine</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>counter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -638,6 +942,49 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aa783e0baeadc94f88ef1898ce2180099"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa783e0baeadc94f88ef1898ce2180099">&#9670;&nbsp;</a></span>reorderSceneIfNeeded_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::Menu::reorderSceneIfNeeded_ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a44734e41c1e4af99562d3b5a75da3fb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44734e41c1e4af99562d3b5a75da3fb7">&#9670;&nbsp;</a></span>setDrawTimeMillisecThreshold()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::Menu::setDrawTimeMillisecThreshold </td>
+          <td>(</td>
+          <td class="paramtype">long long&#160;</td>
+          <td class="paramname"><em>maxGoodTimeMillisec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a182b39214958a08848d0d15e7037a355"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a182b39214958a08848d0d15e7037a355">&#9670;&nbsp;</a></span>setObjectTreeState()</h2>
 
@@ -696,6 +1043,28 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">std::vector&lt;std::shared_ptr&lt;<a class="el" href="classMR_1_1MeshModifier.html">MR::MeshModifier</a>&gt; &gt; MR::Menu::modifiers_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adc176aa2d2bbf1198945438532b1f961"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc176aa2d2bbf1198945438532b1f961">&#9670;&nbsp;</a></span>sceneOpenCommands_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt;const <a class="el" href="classMR_1_1Object.html">Object</a>*, bool&gt; MR::Menu::sceneOpenCommands_</td>
         </tr>
       </table>
   </td>

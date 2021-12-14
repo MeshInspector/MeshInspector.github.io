@@ -119,12 +119,12 @@ $(document).ready(function(){initNavTree('MRETwoPointsSegmentation_8h_source.htm
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
 <div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classMRE_1_1TwoPointsSegmentation.html#acc6dd84a5c4e0051a84b8e3ab4028ace">   21</a></span>&#160;    MREPLUGINS_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classMRE_1_1TwoPointsSegmentation.html#acc6dd84a5c4e0051a84b8e3ab4028ace">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseDown_( <a class="code" href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseUp_( <a class="code" href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseDown_( <a class="code" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MR::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseUp_( <a class="code" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MR::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseMove_( <span class="keywordtype">int</span> mouse_x, <span class="keywordtype">int</span> mouse_y ) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onDisable_() <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">bool</span> findCoordsAndProcessPick_();</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
@@ -140,7 +140,7 @@ $(document).ready(function(){initNavTree('MRETwoPointsSegmentation_8h_source.htm
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> updateDirectionXf_();</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">struct </span>Contour</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">struct </span><a class="code" href="namespaceMR.html#ae60aaea80cf291f744b87b38dd1a8d25">Contour</a></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    {</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        std::vector&lt;MR::EdgeId&gt; pickedEdges;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        std::vector&lt;MR::Vector3f&gt; pickedCoords;</div>
@@ -158,18 +158,20 @@ $(document).ready(function(){initNavTree('MRETwoPointsSegmentation_8h_source.htm
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    std::pair&lt;size_t, size_t&gt; findPicked_( <span class="keyword">const</span> <a class="code" href="structMR_1_1Vector3.html">MR::Vector3f</a>&amp; pick ) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    std::shared_ptr&lt;MR::ObjectMesh&gt; obj_;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="structMR_1_1Vector3.html">MR::Vector3f</a> meshCenter;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">bool</span> wasLabelsVisible_{<span class="keyword">false</span>};</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">float</span> hitBoxRadiusSq_{0.0f};</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">bool</span> enableMove_{<span class="keyword">false</span>};</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">int</span> maxPointsPerCountour_;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="structMR_1_1Vector3.html">MR::Vector3f</a> dir_{0, 0, 1};</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <a class="code" href="namespaceMR.html#ad2c254a94a3837629d1540a9a1aeda9f">MR::EdgeMetric</a> edgeMetric_;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    std::shared_ptr&lt;MR::ObjectMesh&gt; directionObj_;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;};</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;}</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="structMR_1_1Vector3.html">MR::Vector3f</a> meshCenter_;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">bool</span> wasLabelsVisible_{ <span class="keyword">false</span> };</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">float</span> hitBoxRadiusSq_{ 0.0f };</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">float</span> hitBoxDiagonal_{ 0.0f };</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">bool</span> enableMove_{<span class="keyword">false</span>};</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">int</span> maxPointsPerCountour_;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">bool</span> drawDirection_{ <span class="keyword">true</span> };</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="structMR_1_1Vector3.html">MR::Vector3f</a> dir_{0, 0, 1};</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <a class="code" href="namespaceMR.html#ad2c254a94a3837629d1540a9a1aeda9f">MR::EdgeMetric</a> edgeMetric_;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    std::shared_ptr&lt;MR::ObjectMesh&gt; directionObj_;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;};</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;}</div>
 <div class="ttc" id="aMRBox_8h_html"><div class="ttname"><a href="MRBox_8h.html">MRBox.h</a></div></div>
 <div class="ttc" id="aMRESurroundingContour_8h_html"><div class="ttname"><a href="MRESurroundingContour_8h.html">MRESurroundingContour.h</a></div></div>
 <div class="ttc" id="aMREdgePaths_8h_html"><div class="ttname"><a href="MREdgePaths_8h.html">MREdgePaths.h</a></div></div>
@@ -180,12 +182,13 @@ $(document).ready(function(){initNavTree('MRETwoPointsSegmentation_8h_source.htm
 <div class="ttc" id="aclassMRE_1_1TwoPointsSegmentation_html_acc6dd84a5c4e0051a84b8e3ab4028ace"><div class="ttname"><a href="classMRE_1_1TwoPointsSegmentation.html#acc6dd84a5c4e0051a84b8e3ab4028ace">MRE::TwoPointsSegmentation::drawDialog</a></div><div class="ttdeci">virtual MREPLUGINS_API void drawDialog(float menuScaling, ImGuiContext *) override</div></div>
 <div class="ttc" id="aclassMR_1_1Id_html"><div class="ttname"><a href="classMR_1_1Id.html">MR::Id&lt; FaceTag &gt;</a></div></div>
 <div class="ttc" id="aclassMR_1_1SceneStateExactCheck_html"><div class="ttname"><a href="classMR_1_1SceneStateExactCheck.html">MR::SceneStateExactCheck</a></div><div class="ttdef"><b>Definition:</b> MRSceneStateCheck.h:100</div></div>
-<div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRStatePlugin.h:107</div></div>
+<div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRStatePlugin.h:110</div></div>
 <div class="ttc" id="aclassMR_1_1TaggedBitSet_html"><div class="ttname"><a href="classMR_1_1TaggedBitSet.html">MR::TaggedBitSet&lt; FaceTag &gt;</a></div></div>
-<div class="ttc" id="aclassMR_1_1Viewer_html_a4e2fd639b52df5ee18d06bb9f4e504f6"><div class="ttname"><a href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition:</b> MRViewer.h:53</div></div>
 <div class="ttc" id="anamespaceMRE_html"><div class="ttname"><a href="namespaceMRE.html">MRE</a></div><div class="ttdef"><b>Definition:</b> MREBooleanOperation.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:7</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a13f98b7840e7298925ef1770b7cdb62d"><div class="ttname"><a href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MR::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition:</b> MRMouse.h:7</div></div>
 <div class="ttc" id="anamespaceMR_html_ad2c254a94a3837629d1540a9a1aeda9f"><div class="ttname"><a href="namespaceMR.html#ad2c254a94a3837629d1540a9a1aeda9f">MR::EdgeMetric</a></div><div class="ttdeci">std::function&lt; float(EdgeId)&gt; EdgeMetric</div><div class="ttdef"><b>Definition:</b> MREdgePaths.h:11</div></div>
+<div class="ttc" id="anamespaceMR_html_ae60aaea80cf291f744b87b38dd1a8d25"><div class="ttname"><a href="namespaceMR.html#ae60aaea80cf291f744b87b38dd1a8d25">MR::Contour</a></div><div class="ttdeci">std::vector&lt; V &gt; Contour</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:141</div></div>
 <div class="ttc" id="astructMR_1_1Box_html"><div class="ttname"><a href="structMR_1_1Box.html">MR::Box</a></div><div class="ttdef"><b>Definition:</b> MRBox.h:19</div></div>
 <div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3&lt; float &gt;</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

@@ -1,15 +1,15 @@
 var searchData=
 [
-  ['mesh_6109',['Mesh',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37a710fdb6adb881b408116ef95335e1961',1,'MR']]],
-  ['meshborder_6110',['MeshBorder',['../classMR_1_1ShadersHolder.html#af79d4956571eca0d639217ad9ec89767a64778590d92eb3d9ff92434eea76436a',1,'MR::ShadersHolder']]],
-  ['meshvisualizepropscount_6111',['MeshVisualizePropsCount',['../structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aaca47d49bd0b4cc06e95cdf1809edaea35c',1,'MR::MeshVisualizePropertyType']]],
-  ['middle_6112',['Middle',['../classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6ab1ca34f82e83c52b010f86955f264e05',1,'MR::Viewer']]],
-  ['minusx_6113',['MinusX',['../namespaceMR.html#aa7203f0917dc651aa1261d90d266752ea6ee0807f5bf1b3e0a4d52919eb298454',1,'MR']]],
-  ['minusy_6114',['MinusY',['../namespaceMR.html#aa7203f0917dc651aa1261d90d266752ea9cc816b8a2117db796c073f012e78565',1,'MR']]],
-  ['minusz_6115',['MinusZ',['../namespaceMR.html#aa7203f0917dc651aa1261d90d266752ea65661216a3acfdac8c58d97d97fa10cb',1,'MR']]],
-  ['mirror_6116',['Mirror',['../structMR_1_1MeshTexture.html#a02b38209ef48a938635275b79553f4e8a2403def5083f02105e7802b3b315681e',1,'MR::MeshTexture']]],
-  ['movex_6117',['MoveX',['../classMR_1_1ObjectTransformation.html#a0ec990cd148969f9adbb191a3c85e5b2a25b5bb78c8ee248a8ce3bef9fa537420',1,'MR::ObjectTransformation']]],
-  ['movey_6118',['MoveY',['../classMR_1_1ObjectTransformation.html#a0ec990cd148969f9adbb191a3c85e5b2adb971f028a446b7ff0c2226bee4c4a9a',1,'MR::ObjectTransformation']]],
-  ['movez_6119',['MoveZ',['../classMR_1_1ObjectTransformation.html#a0ec990cd148969f9adbb191a3c85e5b2abfb4b78c62f28e0a5d540f7fe16a8d7a',1,'MR::ObjectTransformation']]],
-  ['multipleedges_6120',['MultipleEdges',['../classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2dba7e5b0a4eb0fdf2871149ce01ad7ac142',1,'MR::MeshFixerPlugin']]]
+  ['labels_6617',['Labels',['../structMR_1_1MeshColors.html#af0045416fd1cfb3c18c56db1af4e6b6aabd8d5c490e0dfd15c593fae7e62d8997',1,'MR::MeshColors::Labels()'],['../structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0a3b012823a9cc50e12b9060c0dab3f27d',1,'MR::VisualizeMaskType::Labels()']]],
+  ['left_6618',['Left',['../classMR_1_1Pdf.html#aaaf62b6d295f5aa4aae7734a8d801cbea945d5e233cf7d6240f6b783b36a374ff',1,'MR::Pdf::Left()'],['../namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62da945d5e233cf7d6240f6b783b36a374ff',1,'MR::Left()']]],
+  ['leftleft_6619',['LeftLeft',['../namespaceMR.html#a85e60c553cc81b298c4bfeac4a623b79ae270ac72e33fbdf09168012bc0852677',1,'MR']]],
+  ['leftright_6620',['LeftRight',['../namespaceMR.html#a85e60c553cc81b298c4bfeac4a623b79a203407e92909f81d61b55175a37980cf',1,'MR']]],
+  ['light_6621',['Light',['../classMR_1_1ColorTheme.html#abbecc6afa53db91ada45757b845b5514a9914a0ce04a7b7b6a8e39bec55064b82',1,'MR::ColorTheme']]],
+  ['linear_6622',['Linear',['../structMR_1_1MeshTexture.html#af1e3ecc1afaf1be483ef74f020eac23fa32a843da6ea40ab3b17a3421ccdf671b',1,'MR::MeshTexture']]],
+  ['linearraysize_6623',['LineArraySize',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a28aa4a3d4b852e1cf90b4dcc545d22a7',1,'MR::Viewer']]],
+  ['lineelementsnum_6624',['LineElementsNum',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a0759ec1e233564af378df2c9d823061d',1,'MR::Viewer']]],
+  ['linescolormap_6625',['LinesColorMap',['../namespaceMR.html#a270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197',1,'MR']]],
+  ['linesvisualizepropscount_6626',['LinesVisualizePropsCount',['../structMR_1_1LinesVisualizePropertyType.html#aab5df7db454ff09605f0b0252d48d0e2af43f32caa3c4bae22af118c168b65633',1,'MR::LinesVisualizePropertyType']]],
+  ['lossless_6627',['Lossless',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69dab7048ff6b4f97b9230b2365b31d16713',1,'MR::MeshSave::CtmSaveOptions']]],
+  ['lossy_6628',['Lossy',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69dab71142391f68646086edeadddcf020dc',1,'MR::MeshSave::CtmSaveOptions']]]
 ];

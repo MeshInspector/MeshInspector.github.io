@@ -101,58 +101,59 @@ $(document).ready(function(){initNavTree('MRECutMeshWithPlanePlugin_8h_source.ht
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;exports.h&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRStatePlugin_8h.html">MRViewer/MRStatePlugin.h</a>&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRPlane3_8h.html">MRMesh/MRPlane3.h</a>&quot;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="namespaceMR.html">    6</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1ObjectMesh.html">ObjectMesh</a>;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMRE.html">MRE</a></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classMRE_1_1CutMeshWithPlanePlugin.html">   14</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMRE_1_1CutMeshWithPlanePlugin.html">CutMeshWithPlanePlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a>&lt;MR::MouseDownListener, MR::MouseMoveListener, MR::MouseUpListener&gt;, <span class="keyword">public</span> <a class="code" href="classMR_1_1SceneStateExactCheck.html">MR::SceneStateExactCheck</a>&lt;1,MR::ObjectMesh&gt;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classMRE_1_1CutMeshWithPlanePlugin.html#ab3daa37f811ca889094a7468ac198089">   17</a></span>&#160;    <a class="code" href="classMRE_1_1CutMeshWithPlanePlugin.html#ab3daa37f811ca889094a7468ac198089">CutMeshWithPlanePlugin</a>();</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classMRE_1_1CutMeshWithPlanePlugin.html#a4ef8e1f0ae4c2b0cee410dad44cf6d57">   19</a></span>&#160;    MREPLUGINS_API <span class="keywordtype">void</span> <a class="code" href="classMRE_1_1CutMeshWithPlanePlugin.html#a4ef8e1f0ae4c2b0cee410dad44cf6d57">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ctx ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseDown_( <a class="code" href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseUp_( <a class="code" href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseMove_( <span class="keywordtype">int</span> mouse_x, <span class="keywordtype">int</span> mouse_y ) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">void</span> setupPlane_();</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span> updatePlane_();</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">void</span> onDisable_() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">void</span> cut_();</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    std::shared_ptr&lt;MR::ObjectMesh&gt; obj_;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    std::shared_ptr&lt;MR::ObjectMesh&gt; planeObj_;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="structMR_1_1Plane3.html">MR::Plane3f</a> plane_;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">bool</span> pressed_ = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    ImVec2 startMousePos_;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    ImVec2 endMousePos_;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;};</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;imgui.h&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="namespaceMR.html">    7</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1ObjectMesh.html">ObjectMesh</a>;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMRE.html">MRE</a></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classMRE_1_1CutMeshWithPlanePlugin.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMRE_1_1CutMeshWithPlanePlugin.html">CutMeshWithPlanePlugin</a> : <span class="keyword">public</span> <a class="code" href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a>&lt;MR::MouseDownListener, MR::MouseMoveListener, MR::MouseUpListener&gt;, <span class="keyword">public</span> <a class="code" href="classMR_1_1SceneStateExactCheck.html">MR::SceneStateExactCheck</a>&lt;1,MR::ObjectMesh&gt;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classMRE_1_1CutMeshWithPlanePlugin.html#ab3daa37f811ca889094a7468ac198089">   18</a></span>&#160;    <a class="code" href="classMRE_1_1CutMeshWithPlanePlugin.html#ab3daa37f811ca889094a7468ac198089">CutMeshWithPlanePlugin</a>();</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classMRE_1_1CutMeshWithPlanePlugin.html#a4ef8e1f0ae4c2b0cee410dad44cf6d57">   20</a></span>&#160;    MREPLUGINS_API <span class="keywordtype">void</span> <a class="code" href="classMRE_1_1CutMeshWithPlanePlugin.html#a4ef8e1f0ae4c2b0cee410dad44cf6d57">drawDialog</a>( <span class="keywordtype">float</span> menuScaling, ImGuiContext* ctx ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseDown_( <a class="code" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MR::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseUp_( <a class="code" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MR::MouseButton</a> button, <span class="keywordtype">int</span> modifier ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseMove_( <span class="keywordtype">int</span> mouse_x, <span class="keywordtype">int</span> mouse_y ) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span> setupPlane_();</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">void</span> updatePlane_();</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onDisable_() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">void</span> cut_();</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    std::shared_ptr&lt;MR::ObjectMesh&gt; obj_;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    std::shared_ptr&lt;MR::ObjectMesh&gt; planeObj_;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="structMR_1_1Plane3.html">MR::Plane3f</a> plane_;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">bool</span> pressed_ = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    ImVec2 startMousePos_;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    ImVec2 endMousePos_;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;};</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;}</div>
 <div class="ttc" id="aMRPlane3_8h_html"><div class="ttname"><a href="MRPlane3_8h.html">MRPlane3.h</a></div></div>
 <div class="ttc" id="aMRStatePlugin_8h_html"><div class="ttname"><a href="MRStatePlugin_8h.html">MRStatePlugin.h</a></div></div>
-<div class="ttc" id="aclassMRE_1_1CutMeshWithPlanePlugin_html"><div class="ttname"><a href="classMRE_1_1CutMeshWithPlanePlugin.html">MRE::CutMeshWithPlanePlugin</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:15</div></div>
+<div class="ttc" id="aclassMRE_1_1CutMeshWithPlanePlugin_html"><div class="ttname"><a href="classMRE_1_1CutMeshWithPlanePlugin.html">MRE::CutMeshWithPlanePlugin</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:16</div></div>
 <div class="ttc" id="aclassMRE_1_1CutMeshWithPlanePlugin_html_a4ef8e1f0ae4c2b0cee410dad44cf6d57"><div class="ttname"><a href="classMRE_1_1CutMeshWithPlanePlugin.html#a4ef8e1f0ae4c2b0cee410dad44cf6d57">MRE::CutMeshWithPlanePlugin::drawDialog</a></div><div class="ttdeci">MREPLUGINS_API void drawDialog(float menuScaling, ImGuiContext *ctx) override</div></div>
 <div class="ttc" id="aclassMRE_1_1CutMeshWithPlanePlugin_html_ab3daa37f811ca889094a7468ac198089"><div class="ttname"><a href="classMRE_1_1CutMeshWithPlanePlugin.html#ab3daa37f811ca889094a7468ac198089">MRE::CutMeshWithPlanePlugin::CutMeshWithPlanePlugin</a></div><div class="ttdeci">CutMeshWithPlanePlugin()</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectMesh_html"><div class="ttname"><a href="classMR_1_1ObjectMesh.html">MR::ObjectMesh</a></div><div class="ttdef"><b>Definition:</b> MRObjectMesh.h:24</div></div>
 <div class="ttc" id="aclassMR_1_1SceneStateExactCheck_html"><div class="ttname"><a href="classMR_1_1SceneStateExactCheck.html">MR::SceneStateExactCheck</a></div><div class="ttdef"><b>Definition:</b> MRSceneStateCheck.h:100</div></div>
-<div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRStatePlugin.h:107</div></div>
-<div class="ttc" id="aclassMR_1_1Viewer_html_a4e2fd639b52df5ee18d06bb9f4e504f6"><div class="ttname"><a href="classMR_1_1Viewer.html#a4e2fd639b52df5ee18d06bb9f4e504f6">MR::Viewer::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition:</b> MRViewer.h:53</div></div>
+<div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition:</b> MRStatePlugin.h:110</div></div>
 <div class="ttc" id="anamespaceMRE_html"><div class="ttname"><a href="namespaceMRE.html">MRE</a></div><div class="ttdef"><b>Definition:</b> MREBooleanOperation.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:7</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a13f98b7840e7298925ef1770b7cdb62d"><div class="ttname"><a href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MR::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition:</b> MRMouse.h:7</div></div>
 <div class="ttc" id="astructMR_1_1Plane3_html"><div class="ttname"><a href="structMR_1_1Plane3.html">MR::Plane3&lt; float &gt;</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

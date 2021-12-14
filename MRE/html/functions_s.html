@@ -134,8 +134,11 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>scanRes
 : <a class="el" href="structMRE_1_1CT_1_1Cuda_1_1ScannerSystemParameters.html#a45881428a63b16e7caa42467295b1d5d">MRE::CT::Cuda::ScannerSystemParameters</a>
 </li>
+<li>sceneOpenCommands_
+: <a class="el" href="classMR_1_1Menu.html#adc176aa2d2bbf1198945438532b1f961">MR::Menu</a>
+</li>
 <li>ScopeHistory()
-: <a class="el" href="classMR_1_1ScopeHistory.html#a5ca453a9bf0cd5529f590ce4c6e55069">MR::ScopeHistory</a>
+: <a class="el" href="classMR_1_1ScopeHistory.html#a155a57e24f0f265fa6b27e456b83cec5">MR::ScopeHistory</a>
 </li>
 <li>screenSpace
 : <a class="el" href="structMR_1_1Viewer_1_1PointInAllSpaces.html#a1c1e71b923c9be8e84a60a28daf73ec8">MR::Viewer::PointInAllSpaces</a>
@@ -179,6 +182,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>SelectComponentByAreaPlugin()
 : <a class="el" href="classMR_1_1SelectComponentByAreaPlugin.html#ab6ea280134bfd6a0203efdbad2e466c4">MR::SelectComponentByAreaPlugin</a>
 </li>
+<li>SelectCreasesByAngle()
+: <a class="el" href="classMR_1_1SelectCreasesByAngle.html#a92821cf7ad971a0a90d28eede2e0d08c">MR::SelectCreasesByAngle</a>
+</li>
 <li>SelectDegenerateTriangles()
 : <a class="el" href="classMR_1_1SelectDegenerateTriangles.html#af88b80aa750b737d724e1d24f6545202">MR::SelectDegenerateTriangles</a>
 </li>
@@ -192,19 +198,17 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="classMR_1_1VisualObject.html#a0b981ae239534dd294a2e2a71b36b6df">MR::VisualObject</a>
 </li>
 <li>SelectedEdges
-: <a class="el" href="structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aaca88fb4fba2909a781a4c943d7e5f1b7fd">MR::MeshVisualizePropertyType</a>
+: <a class="el" href="structMR_1_1MeshColors.html#af0045416fd1cfb3c18c56db1af4e6b6aa6107178a1d8680391c1f601bdd42de4b">MR::MeshColors</a>
+, <a class="el" href="structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aaca88fb4fba2909a781a4c943d7e5f1b7fd">MR::MeshVisualizePropertyType</a>
 </li>
-<li>selectedEdgesColor
-: <a class="el" href="structMR_1_1MeshColors.html#ab867137546cdcaf4b13a071ee76abe78">MR::MeshColors</a>
-</li>
-<li>selectedFacesColor
-: <a class="el" href="structMR_1_1MeshColors.html#ae4edcd77494fff36dba0a183f2f2385a">MR::MeshColors</a>
+<li>SelectedFaces
+: <a class="el" href="structMR_1_1MeshColors.html#af0045416fd1cfb3c18c56db1af4e6b6aab074199b07033f770e8b3d574850b140">MR::MeshColors</a>
 </li>
 <li>selectEdges()
 : <a class="el" href="classMR_1_1ObjectMesh.html#a84008de218eadc665c3a608a0822d2cf">MR::ObjectMesh</a>
 </li>
-<li>selectedMeshColor
-: <a class="el" href="structMR_1_1MeshColors.html#a87115d4325e87d3bc57a58d9cad5fefe">MR::MeshColors</a>
+<li>SelectedMesh
+: <a class="el" href="structMR_1_1MeshColors.html#af0045416fd1cfb3c18c56db1af4e6b6aae873ca32e1aca37d4f818375f15ae288">MR::MeshColors</a>
 </li>
 <li>selectFaces()
 : <a class="el" href="classMR_1_1ObjectMesh.html#a770805c81b6aa8d7f6b773ad9d5db1ed">MR::ObjectMesh</a>
@@ -223,6 +227,15 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>SelfIntersections
 : <a class="el" href="classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2dba28982eaa76f93306fbcb898d4973fba9">MR::MeshFixerPlugin</a>
+</li>
+<li>SerializeColorThemeItem()
+: <a class="el" href="classMR_1_1SerializeColorThemeItem.html#a8caa330565a3218871259995eb79a2f7">MR::SerializeColorThemeItem</a>
+</li>
+<li>serializeCurrentToFile()
+: <a class="el" href="classMR_1_1ColorTheme.html#aae306524f7db4b80fc4b4c2a39ccda41">MR::ColorTheme</a>
+</li>
+<li>serializeCurrentToJson()
+: <a class="el" href="classMR_1_1ColorTheme.html#af097c5985c3dcb124375d6767d34f764">MR::ColorTheme</a>
 </li>
 <li>serializeFields_()
 : <a class="el" href="classMR_1_1Object.html#a4b72f2310983a6e40753b5d919d72d35">MR::Object</a>
@@ -245,7 +258,8 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>set()
 : <a class="el" href="classMR_1_1DistanceMap.html#ad6f348bd639abf5491d2d203623c8ec5">MR::DistanceMap</a>
-, <a class="el" href="classMR_1_1TaggedBitSet.html#abed4a734f0b1a61adcb8a655be83b8a5">MR::TaggedBitSet&lt; T &gt;</a>
+, <a class="el" href="structMR_1_1MeshColors.html#aef442c96051d1d411749745ef9c9c9d0">MR::MeshColors</a>
+, <a class="el" href="classMR_1_1TaggedBitSet.html#a1de09e674bc59eb979f415507545d7b4">MR::TaggedBitSet&lt; T &gt;</a>
 </li>
 <li>set_axes_pose()
 : <a class="el" href="classMR_1_1Viewport.html#a599b6c4606bee4526e8f64da89774d79">MR::Viewport</a>
@@ -326,6 +340,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>setControlsXf()
 : <a class="el" href="classMR_1_1ObjectTransformation.html#a75cd1af71603298f7bda466705130c8f">MR::ObjectTransformation</a>
 </li>
+<li>setControlThresholdDot()
+: <a class="el" href="classMR_1_1ObjectTransformation.html#a65920c57b20849cc41c5f550fdab57cc">MR::ObjectTransformation</a>
+</li>
 <li>setCosineLimit()
 : <a class="el" href="classMR_1_1MeshICP.html#ac0e6730f650458a290a7779a7c947c87">MR::MeshICP</a>
 </li>
@@ -369,6 +386,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>setDistances()
 : <a class="el" href="classMR_1_1RegularMapMesher.html#a48f6cd19965602a3fb9f4669c22e3c14">MR::RegularMapMesher</a>
 </li>
+<li>setDrawTimeMillisecThreshold()
+: <a class="el" href="classMR_1_1Menu.html#a44734e41c1e4af99562d3b5a75da3fb7">MR::Menu</a>
+</li>
 <li>setEdgesColor()
 : <a class="el" href="classMR_1_1ObjectMesh.html#af5e20b3c71232481a6ce301819e60457">MR::ObjectMesh</a>
 </li>
@@ -395,6 +415,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>setIsoValue()
 : <a class="el" href="classMR_1_1ObjectVoxels.html#a536c800db0d8fdf664d6403ba3b71257">MR::ObjectVoxels</a>
+</li>
+<li>setJsonValue()
+: <a class="el" href="classMR_1_1Config.html#a79498a0537aaf0b56bfbc5c67772eb0f">MR::Config</a>
 </li>
 <li>setLabels()
 : <a class="el" href="classMR_1_1VisualObject.html#adac344d8915e8b292a20d5c6f04c931e">MR::VisualObject</a>
@@ -482,7 +505,8 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="classMR_1_1ObjectPoints.html#ac7133f9317fd79fe3af1c4c4f58e0865">MR::ObjectPoints</a>
 </li>
 <li>setPointSize()
-: <a class="el" href="classMR_1_1ObjectPoints.html#a3d6061c3de533eb2365f92b43f9ddfb0">MR::ObjectPoints</a>
+: <a class="el" href="classMR_1_1ObjectLines.html#ac6e8a8551ffe1c1158617f2dfe0b181b">MR::ObjectLines</a>
+, <a class="el" href="classMR_1_1ObjectPoints.html#a3d6061c3de533eb2365f92b43f9ddfb0">MR::ObjectPoints</a>
 </li>
 <li>setPointsWithColors()
 : <a class="el" href="classMR_1_1Viewport.html#a949ecd74637533583a00c0831530c1d1">MR::Viewport</a>
@@ -502,6 +526,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>setRefGridPointPosition()
 : <a class="el" href="classMR_1_1FreeFormDeformer.html#a2a9d732a3f8a4e282739319c0a79eb95">MR::FreeFormDeformer</a>
+</li>
+<li>setRibbonColor()
+: <a class="el" href="classMR_1_1ColorTheme.html#a339d8efd1037cbee5aa77d9d68e07c16">MR::ColorTheme</a>
 </li>
 <li>setRotation()
 : <a class="el" href="structMR_1_1Matrix4.html#a8a2bc593ced399beb03969db94ba63af">MR::Matrix4&lt; T &gt;</a>
@@ -525,9 +552,6 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>setSmallerValue()
 : <a class="el" href="classMR_1_1Heap.html#a8b871063e6c314fad7809432d2f74b64">MR::Heap&lt; T, I, P &gt;</a>
 </li>
-<li>setSmoothConnections()
-: <a class="el" href="classMR_1_1ObjectLines.html#a436a4d0e8c9a85e634e22fccc552f4e9">MR::ObjectLines</a>
-</li>
 <li>setSurfacePC()
 : <a class="el" href="classMR_1_1RegularMapMesher.html#a9ed2cde9e77dce74ecb24b16eb4db785">MR::RegularMapMesher</a>
 </li>
@@ -542,6 +566,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>setup()
 : <a class="el" href="classMR_1_1ProgressBar.html#a85e5c9af68f53332feaacdae3581dfe7">MR::ProgressBar</a>
+</li>
+<li>setupArgv()
+: <a class="el" href="classMR_1_1EmbeddedPython.html#a7d23161946b618a80a0765bb30c7f27d">MR::EmbeddedPython</a>
 </li>
 <li>setupBasePlugins()
 : <a class="el" href="classMR_1_1ViewerSetup.html#a68075c17440a99ede74249da2ff6ecd9">MR::ViewerSetup</a>
@@ -558,8 +585,17 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>setupExtendedLibraries()
 : <a class="el" href="classMR_1_1ViewerSetup.html#a189d84a7bbccaaa4f0936339d4e30b5e">MR::ViewerSetup</a>
 </li>
+<li>setupFromFile()
+: <a class="el" href="classMR_1_1ColorTheme.html#ac6c0047ae9f2adf534bdc83c21b3a561">MR::ColorTheme</a>
+</li>
+<li>setupFromJson()
+: <a class="el" href="classMR_1_1ColorTheme.html#abf9e0afa7cb089edab9d3e2a01feb0ca">MR::ColorTheme</a>
+</li>
 <li>setupItemsGroup_()
 : <a class="el" href="classMR_1_1RibbonMenu.html#aa3ac32b8dcb22a9dca4b5446599fd2a1">MR::RibbonMenu</a>
+</li>
+<li>setupPreset()
+: <a class="el" href="classMR_1_1ColorTheme.html#a17e1eea0ff145c53374a9c6f337b4b76">MR::ColorTheme</a>
 </li>
 <li>setupRenderObject_()
 : <a class="el" href="classMR_1_1ObjectLines.html#acc1e14fcca777661a0be4ff3f5faa1a6">MR::ObjectLines</a>
@@ -589,7 +625,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="classMR_1_1Viewport.html#ab2c0e713c7540bb9c2f53e69607bfed8">MR::Viewport</a>
 </li>
 <li>setViewportSettingsManager()
-: <a class="el" href="classMR_1_1Viewer.html#a16b5ba2c760da178698660af7cdb25c4">MR::Viewer</a>
+: <a class="el" href="classMR_1_1Viewer.html#a12df9cd9111455d38ad32806075bfec7">MR::Viewer</a>
 </li>
 <li>setVisibilityMask()
 : <a class="el" href="classMR_1_1Object.html#abd94110891bc5e4715ab564a4912a01a">MR::Object</a>
@@ -686,6 +722,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>ShowNormalsPlugin()
 : <a class="el" href="classMR_1_1ShowNormalsPlugin.html#afcdd324ec64f4c432d7ad03b75505d87">MR::ShowNormalsPlugin</a>
 </li>
+<li>showPoints_
+: <a class="el" href="classMR_1_1ObjectLines.html#ad439cd2f3fc10d733c0bcfeaaa774554">MR::ObjectLines</a>
+</li>
 <li>showRotationCenter()
 : <a class="el" href="classMR_1_1Viewport.html#a069049d89298e103d7c82e1454532734">MR::Viewport</a>
 </li>
@@ -723,6 +762,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>SignedDistancePlugin()
 : <a class="el" href="classMR_1_1SignedDistancePlugin.html#a4cb0ff9723e800206f1a03e867ea9169">MR::SignedDistancePlugin</a>
 </li>
+<li>SimpleLambda
+: <a class="el" href="classMR_1_1LambdaRibbonItem.html#adf0efc0eaab84312e1058ba6f3d8cb95">MR::LambdaRibbonItem</a>
+</li>
 <li>size()
 : <a class="el" href="structMR_1_1Box.html#a71c94df372502f935a239c62e591a70c">MR::Box&lt; V &gt;</a>
 , <a class="el" href="classMR_1_1Heap.html#a1acb484618570167f9125bc023a88796">MR::Heap&lt; T, I, P &gt;</a>
@@ -748,6 +790,12 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>SmallTunnels
 : <a class="el" href="classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2dba370d22e750ece55c2a5a5daca5647e90">MR::MeshFixerPlugin</a>
+</li>
+<li>Smooth
+: <a class="el" href="structMR_1_1LinesVisualizePropertyType.html#aab5df7db454ff09605f0b0252d48d0e2a92edd5447d991ddb22f08259adacfa1c">MR::LinesVisualizePropertyType</a>
+</li>
+<li>smoothConnections_
+: <a class="el" href="classMR_1_1ObjectLines.html#a3882b956741ca4392ecab390144a7359">MR::ObjectLines</a>
 </li>
 <li>sortData
 : <a class="el" href="structMRE_1_1CutMeshParameters.html#a3cd3039491b80e9d949b6da27485d5fd">MRE::CutMeshParameters</a>
@@ -787,14 +835,16 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>src2tgtVerts
 : <a class="el" href="structMR_1_1PartMapping.html#ac903190648e0aba9ba91ae345d82a1a8">MR::PartMapping</a>
 </li>
+<li>srcVert
+: <a class="el" href="structMR_1_1MeshBuilder_1_1VertDuplication.html#af11c3a7954be62b84ca6ea3b824ec5a6">MR::MeshBuilder::VertDuplication</a>
+</li>
 <li>stabilizer
 : <a class="el" href="structMRE_1_1DecimateParallelSettings.html#a0b61ab1c0f0b8cdfb1227b61538701ed">MRE::DecimateParallelSettings</a>
 , <a class="el" href="structMRE_1_1DecimatePolylineSettings.html#a94801c0ed11e7b485a59aa8ef9805609">MRE::DecimatePolylineSettings</a>
 , <a class="el" href="structMRE_1_1DecimateSettings.html#a3c40fafa954eac9946ce998467a2449e">MRE::DecimateSettings</a>
 </li>
 <li>start()
-: <a class="el" href="classMR_1_1PerformanceTest.html#a4f0e897ff27fc718c9cac3bce66d76a0">MR::PerformanceTest</a>
-, <a class="el" href="classMR_1_1SplashWindow.html#af0ce424272b846ce5f6cf1f9116f1742">MR::SplashWindow</a>
+: <a class="el" href="classMR_1_1SplashWindow.html#af0ce424272b846ce5f6cf1f9116f1742">MR::SplashWindow</a>
 , <a class="el" href="structMR_1_1VoxelMetricParameters.html#ae851669e25fee95a2b98a79736a529cf">MR::VoxelMetricParameters</a>
 </li>
 <li>startEventLoop
@@ -841,6 +891,12 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>surface()
 : <a class="el" href="classMR_1_1ObjectVoxels.html#aa043e9b7eed98bfaf6d1debeb29f087a">MR::ObjectVoxels</a>
 </li>
+<li>surfaceDilateRadius
+: <a class="el" href="structMR_1_1MeshApproxRelaxParams.html#aed8137acdd95c73e5606d4ad5fa7e3ae">MR::MeshApproxRelaxParams</a>
+</li>
+<li>SurfaceDistanceBuilder()
+: <a class="el" href="classMR_1_1SurfaceDistanceBuilder.html#af3d50b55a0c2af75bdba0d4eb7dc2e34">MR::SurfaceDistanceBuilder</a>
+</li>
 <li>SurfaceDistancePlugin()
 : <a class="el" href="classMR_1_1SurfaceDistancePlugin.html#a184b4cd22e0ac425e825987c813a6349">MR::SurfaceDistancePlugin</a>
 </li>
@@ -879,8 +935,11 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="classMR_1_1Id_3_01EdgeTag_01_4.html#a32e3002ded40570b4f282d2253a956f8">MR::Id&lt; EdgeTag &gt;</a>
 , <a class="el" href="structMR_1_1MeshEdgePoint.html#a45ef4bf2be1008437a4c9b01d683e5cd">MR::MeshEdgePoint</a>
 </li>
-<li>symbolsAdditionalOffset
-: <a class="el" href="structMR_1_1SymbolMeshParams.html#a01d53033f11b1f864797c36d4b188a1b">MR::SymbolMeshParams</a>
+<li>symbolsDistanceAdditionalOffset
+: <a class="el" href="structMR_1_1SymbolMeshParams.html#ad45022cba1878902761b00f14e6661e0">MR::SymbolMeshParams</a>
+</li>
+<li>symbolsThicknessOffsetModifier
+: <a class="el" href="structMR_1_1SymbolMeshParams.html#a41e3e2a0fe3747d584ee52635c67c307">MR::SymbolMeshParams</a>
 </li>
 <li>SymMatrix2()
 : <a class="el" href="structMR_1_1SymMatrix2.html#a0d7b116cb57858e0b068a33b81aed7a7">MR::SymMatrix2&lt; T &gt;</a>

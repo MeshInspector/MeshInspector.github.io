@@ -144,6 +144,7 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 <li>region()
 : <a class="el" href="classMR_1_1Laplacian.html#a2a9806c1cbfaac15917aa033341f6455">MR::Laplacian</a>
 , <a class="el" href="structMR_1_1MeshPart.html#a36c49e6f3b4a9fe3204d6e253d9aead0">MR::MeshPart</a>
+, <a class="el" href="structMR_1_1RelaxParams.html#abeb08d7e70411cf9ef2826c0f058b909">MR::RelaxParams</a>
 , <a class="el" href="structMR_1_1SubdivideSettings.html#a5e24bf5e1bf140cdfac3cc68b9a693fa">MR::SubdivideSettings</a>
 , <a class="el" href="structMRE_1_1DecimatePolylineSettings.html#a2a12f26f4bd314d92524d875c5c1fd72">MRE::DecimatePolylineSettings</a>
 , <a class="el" href="structMRE_1_1DecimateSettings.html#a5516325279c277f1368546f126ed95c5">MRE::DecimateSettings</a>
@@ -212,11 +213,11 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 <li>RenderSignal
 : <a class="el" href="classMR_1_1Viewer.html#a0feb0d244ebf3015b8ed14e68ebb5f12">MR::Viewer</a>
 </li>
-<li>RenderTest()
-: <a class="el" href="classMR_1_1RenderTest.html#a6606b77f273d0009209e50a673cdccde">MR::RenderTest</a>
-</li>
 <li>renderVector
 : <a class="el" href="structMR_1_1ViewportGL_1_1PickParameters.html#a13eeaecca7df3cd1a7850b23a1fd65f0">MR::ViewportGL::PickParameters</a>
+</li>
+<li>reorderSceneIfNeeded_()
+: <a class="el" href="classMR_1_1Menu.html#aa783e0baeadc94f88ef1898ce2180099">MR::Menu</a>
 </li>
 <li>ReportIssueMenuItem()
 : <a class="el" href="classMR_1_1ReportIssueMenuItem.html#aa67a6362bc31626c8c7c1f597713af09">MR::ReportIssueMenuItem</a>
@@ -230,8 +231,14 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 , <a class="el" href="classMR_1_1UnionFind.html#a6a74089f75f3b88edf1a6fb0beba1e13">MR::UnionFind&lt; I &gt;</a>
 , <a class="el" href="classMR_1_1UniqueThreadSafeOwner.html#ab0b41efc38efad3d6af477942a131ef2">MR::UniqueThreadSafeOwner&lt; T &gt;</a>
 </li>
+<li>resetAllCounters()
+: <a class="el" href="classMR_1_1Viewer.html#ae53206027c75dfd0e188f1d538c4e65f">MR::Viewer</a>
+</li>
 <li>resetDirty()
 : <a class="el" href="classMR_1_1VisualObject.html#a30fe82d49e41f2e7830f58113b295cce">MR::VisualObject</a>
+</li>
+<li>resetDirtyExeptMask()
+: <a class="el" href="classMR_1_1ObjectMesh.html#a047fe82001f43ef5189a007263da78cf">MR::ObjectMesh</a>
 </li>
 <li>resetRedrawFlag()
 : <a class="el" href="classMR_1_1Object.html#a9dc77f3f61430395182e8402e6e6f410">MR::Object</a>
@@ -257,6 +264,9 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 <li>restart()
 : <a class="el" href="classMR_1_1Timer.html#a3c039c473cb5b98b2b31c5ba336ccc6a">MR::Timer</a>
 </li>
+<li>RestoringStreamsSink()
+: <a class="el" href="classMR_1_1RestoringStreamsSink.html#aa423a8c6a70592f7e1b45b5f3255c5c7">MR::RestoringStreamsSink</a>
+</li>
 <li>result_type
 : <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html#a2081bf492c269c66a3028f263ca499ab">MR::Viewer::SignalStopHandler</a>
 </li>
@@ -271,6 +281,12 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 </li>
 <li>reverseCharacteristicTriArea
 : <a class="el" href="structMRE_1_1ComplexFillMetric.html#a089046ea8b14b5f03ce052ddf754dcb8">MRE::ComplexFillMetric</a>
+</li>
+<li>RibbonColorsType
+: <a class="el" href="classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0">MR::ColorTheme</a>
+</li>
+<li>RibbonMenuDropItem()
+: <a class="el" href="classMR_1_1RibbonMenuDropItem.html#ad1a768d02519250ebc689f059f8c27eb">MR::RibbonMenuDropItem</a>
 </li>
 <li>RibbonMenuItem()
 : <a class="el" href="classMR_1_1RibbonMenuItem.html#a45939d4c50c20e1fe0bbfdb77d397ae1">MR::RibbonMenuItem</a>
@@ -296,8 +312,7 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 <li>rootNodeId()
 : <a class="el" href="classMR_1_1AABBTree.html#a74d55bcdbebd6ca3426c235ec60ebdbb">MR::AABBTree</a>
 , <a class="el" href="classMR_1_1AABBTreePoints.html#ad5101a692a96a2152123f35e2aa38098">MR::AABBTreePoints</a>
-, <a class="el" href="classMR_1_1AABBTreePolyline2.html#a0f93b2e64f86e286ae3ae5a51dcdb20f">MR::AABBTreePolyline2</a>
-, <a class="el" href="classMR_1_1AABBTreePolyline3.html#a37c359312085c945576a900620f73254">MR::AABBTreePolyline3</a>
+, <a class="el" href="classMR_1_1AABBTreePolyline.html#acfe11e50d7e9202a3de56834872172c0">MR::AABBTreePolyline&lt; V &gt;</a>
 </li>
 <li>roots()
 : <a class="el" href="classMR_1_1UnionFind.html#a0d0ae9105ee10e6b24cfec38245370cd">MR::UnionFind&lt; I &gt;</a>
@@ -326,12 +341,6 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 </li>
 <li>RotZ
 : <a class="el" href="classMR_1_1ObjectTransformation.html#a0ec990cd148969f9adbb191a3c85e5b2a9259024fcb4506336b5127a40c6406d7">MR::ObjectTransformation</a>
-</li>
-<li>run()
-: <a class="el" href="classMR_1_1PerformanceTest.html#a19cf34ae64468bb415c3495074e61a05">MR::PerformanceTest</a>
-</li>
-<li>run_()
-: <a class="el" href="classMR_1_1PerformanceTest.html#a8bf3e2b3e3c1902db55dab16a8ee68d1">MR::PerformanceTest</a>
 </li>
 <li>runCommandFromGUIThread()
 : <a class="el" href="classMR_1_1CommandLoop.html#a10e006b28fa9dbd3572e3b43c8037640">MR::CommandLoop</a>

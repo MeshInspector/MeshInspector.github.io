@@ -17,6 +17,7 @@ var structMR_1_1Mesh =
     [ "dblArea", "structMR_1_1Mesh.html#a1e2a8eaf7d1882e02a3eea66d1d72349", null ],
     [ "dblArea", "structMR_1_1Mesh.html#ab6d39814aa495e12ba8e388c22a6f12e", null ],
     [ "destPnt", "structMR_1_1Mesh.html#a6241859f835aa7cd22f26c1e40b9791a", null ],
+    [ "dihedralAngleCos", "structMR_1_1Mesh.html#a9c4d65a107852ec64efc339f59866c44", null ],
     [ "dihedralAngleSin", "structMR_1_1Mesh.html#a51a4276db370b27809ff25575c9a6e5e", null ],
     [ "dirDblArea", "structMR_1_1Mesh.html#afd3563494ce9b9a0cf5a7e4346606961", null ],
     [ "dirDblArea", "structMR_1_1Mesh.html#a4237bb2ee8edbc72aa4189bc2307a544", null ],

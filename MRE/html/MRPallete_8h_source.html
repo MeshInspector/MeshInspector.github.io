@@ -98,88 +98,90 @@ $(document).ready(function(){initNavTree('MRPallete_8h_source.html',''); initRes
 </div><!--header-->
 <div class="contents">
 <a href="MRPallete_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRVector4_8h.html">MRMesh/MRVector4.h</a>&quot;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRMeshTexture_8h.html">MRMesh/MRMeshTexture.h</a>&quot;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRColor_8h.html">MRMesh/MRColor.h</a>&quot;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;imgui.h&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;exports.h&quot;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classMR_1_1Pallete.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1Pallete.html">Pallete</a></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="comment">// preset pallete colors</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classMR_1_1Pallete.html#a8b506f89b81adc1d75efec2c5de33290">   15</a></span>&#160;    <span class="keyword">static</span> <span class="keyword">inline</span> <span class="keyword">const</span> std::vector&lt;Color&gt; <a class="code" href="classMR_1_1Pallete.html#a8b506f89b81adc1d75efec2c5de33290">DefaultColors</a> =</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    {</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="structMR_1_1Color.html">Color</a>(<a class="code" href="structMR_1_1Vector4.html">Vector4f</a> { 0.1f, 0.25f, 1.0f, 1.f }),<span class="comment">// almost blue   |</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="structMR_1_1Color.html">Color</a>(<a class="code" href="structMR_1_1Vector4.html">Vector4f</a> { 0.15f, 0.5f, 0.75f,1.f }),<span class="comment">//               | -&gt; &quot;inside&quot; the ref mesh</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="structMR_1_1Color.html">Color</a>(<a class="code" href="structMR_1_1Vector4.html">Vector4f</a> { 0.2f, 0.75f, 0.5f, 1.f }),<span class="comment">//               |</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="structMR_1_1Color.html">Color</a>(<a class="code" href="structMR_1_1Vector4.html">Vector4f</a> { 0.25f, 1.0f, 0.25f,1.f }),<span class="comment">// almost green -&gt; zero distance</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="structMR_1_1Color.html">Color</a>(<a class="code" href="structMR_1_1Vector4.html">Vector4f</a> { 0.5f, 0.75f, 0.2f, 1.f }),<span class="comment">//               |</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="structMR_1_1Color.html">Color</a>(<a class="code" href="structMR_1_1Vector4.html">Vector4f</a> { 0.75f, 0.5f, 0.15f,1.f }),<span class="comment">//               | -&gt; &quot;outside&quot;</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="structMR_1_1Color.html">Color</a>(<a class="code" href="structMR_1_1Vector4.html">Vector4f</a> { 1.0f, 0.25f, 0.1f, 1.f }),<span class="comment">// almost red    |</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    };</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="comment">// Discrete mode will draw rectangle for each color</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="comment">// Continuous mode will draw interpolated color</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classMR_1_1Pallete.html#ac124c0ec87556171a5c50eba40ed2bd7">   28</a></span>&#160;    MRVIEWER_API <a class="code" href="classMR_1_1Pallete.html#ac124c0ec87556171a5c50eba40ed2bd7">Pallete</a>(std::vector&lt;Color&gt; colors);</div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classMR_1_1Pallete.html#a99199089a215644f58ea4a3ce534f6b0">   29</a></span>&#160;    MRVIEWER_API <span class="keywordtype">void</span> <a class="code" href="classMR_1_1Pallete.html#a99199089a215644f58ea4a3ce534f6b0">setColors</a>(std::vector&lt;Color&gt; colors);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="comment">// Discrete: bar consists of single colored rectangles for each initial color</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="comment">// Linear (default): color is changing from one to another during initial color list</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classMR_1_1Pallete.html#a5051e1a9487609e6dcaea4b2529bcaae">   33</a></span>&#160;    MRVIEWER_API <span class="keywordtype">void</span> <a class="code" href="classMR_1_1Pallete.html#a5051e1a9487609e6dcaea4b2529bcaae">draw</a>(<span class="keyword">const</span> ImVec2&amp; pose, <span class="keyword">const</span> ImVec2&amp; size, <a class="code" href="structMR_1_1MeshTexture.html#af1e3ecc1afaf1be483ef74f020eac23f">MeshTexture::FilterType</a> type = <a class="code" href="structMR_1_1MeshTexture.html#af1e3ecc1afaf1be483ef74f020eac23fa32a843da6ea40ab3b17a3421ccdf671b">MeshTexture::FilterType::Linear</a>);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="comment">// automatic fill labels near the color bar</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="comment">// default labels are in the range [0.f-1.f]</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classMR_1_1Pallete.html#aafeac6635d4ba3cd26525db64ec4eb5c">   37</a></span>&#160;    MRVIEWER_API <span class="keywordtype">void</span> <a class="code" href="classMR_1_1Pallete.html#aafeac6635d4ba3cd26525db64ec4eb5c">addLabels</a>(<span class="keyword">const</span> <span class="keywordtype">float</span> minVal, <span class="keyword">const</span> <span class="keywordtype">float</span> maxVal);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="comment">// manual labels set</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="comment">// use it if you have non-linear scaling. Allows to print any string as color label</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classMR_1_1Pallete.html#aee3fb3a0c0f1817525cf8f6c851de692">   40</a></span>&#160;    MRVIEWER_API <span class="keywordtype">void</span> <a class="code" href="classMR_1_1Pallete.html#aee3fb3a0c0f1817525cf8f6c851de692">addCustomLabels</a>(<span class="keyword">const</span> std::vector&lt;std::string&gt; labels);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="comment">// remove labels</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classMR_1_1Pallete.html#aa65779a5afc2537e475000365571d1ef">   42</a></span>&#160;    MRVIEWER_API <span class="keywordtype">void</span> <a class="code" href="classMR_1_1Pallete.html#aa65779a5afc2537e475000365571d1ef">removeLabels</a>();</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="comment">// Discrete: returns color for given value</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="comment">// Linear: get interpolated color from the init vector</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="classMR_1_1Pallete.html#a04bbe8d14fc64403210323f9ecabe752">   46</a></span>&#160;    MRVIEWER_API <a class="code" href="structMR_1_1Color.html">Color</a> <a class="code" href="classMR_1_1Pallete.html#a04bbe8d14fc64403210323f9ecabe752">getColor</a>(<span class="keywordtype">float</span> val, <a class="code" href="structMR_1_1MeshTexture.html#af1e3ecc1afaf1be483ef74f020eac23f">MeshTexture::FilterType</a> type);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="classMR_1_1Pallete.html#ab0f3445bbd79bda9e9702ca966fef95b">   48</a></span>&#160;    <span class="keyword">const</span> <a class="code" href="structMR_1_1MeshTexture.html">MeshTexture</a>&amp; <a class="code" href="classMR_1_1Pallete.html#ab0f3445bbd79bda9e9702ca966fef95b">getTexture</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> texture_; };</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">// first label is equal to min value, last - to the max val</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> fillLabels_();</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="comment">// (0.f-1.f) color channel format</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    std::vector&lt;Color&gt; &amp;colors_ = texture_.pixels;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    std::vector&lt;std::string&gt; labels_;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    std::vector&lt;float&gt; labelsPoses_;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">float</span> minLabelVal_ = 0.f;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">float</span> maxLabelVal_ = 1.f;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">bool</span> showLabels_ = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="comment">// stores OpenGL textures. Change useDiscrete_ to switch between them</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="structMR_1_1MeshTexture.html">MeshTexture</a> texture_;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">bool</span> isWindowOpen_ = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;};</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;}</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRViewerFwd_8h.html">MRViewerFwd.h</a>&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRVector4_8h.html">MRMesh/MRVector4.h</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRMeshTexture_8h.html">MRMesh/MRMeshTexture.h</a>&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRColor_8h.html">MRMesh/MRColor.h</a>&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;imgui.h&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classMR_1_1Pallete.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMR_1_1Pallete.html">Pallete</a></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="comment">// preset pallete colors</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1Pallete.html#a8b506f89b81adc1d75efec2c5de33290">   16</a></span>&#160;    <span class="keyword">static</span> <span class="keyword">inline</span> <span class="keyword">const</span> std::vector&lt;Color&gt; <a class="code" href="classMR_1_1Pallete.html#a8b506f89b81adc1d75efec2c5de33290">DefaultColors</a> =</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="structMR_1_1Color.html">Color</a>(<a class="code" href="structMR_1_1Vector4.html">Vector4f</a> { 0.1f, 0.25f, 1.0f, 1.f }),<span class="comment">// almost blue   |</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="structMR_1_1Color.html">Color</a>(<a class="code" href="structMR_1_1Vector4.html">Vector4f</a> { 0.15f, 0.5f, 0.75f,1.f }),<span class="comment">//               | -&gt; &quot;inside&quot; the ref mesh</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="structMR_1_1Color.html">Color</a>(<a class="code" href="structMR_1_1Vector4.html">Vector4f</a> { 0.2f, 0.75f, 0.5f, 1.f }),<span class="comment">//               |</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="structMR_1_1Color.html">Color</a>(<a class="code" href="structMR_1_1Vector4.html">Vector4f</a> { 0.25f, 1.0f, 0.25f,1.f }),<span class="comment">// almost green -&gt; zero distance</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="structMR_1_1Color.html">Color</a>(<a class="code" href="structMR_1_1Vector4.html">Vector4f</a> { 0.5f, 0.75f, 0.2f, 1.f }),<span class="comment">//               |</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="structMR_1_1Color.html">Color</a>(<a class="code" href="structMR_1_1Vector4.html">Vector4f</a> { 0.75f, 0.5f, 0.15f,1.f }),<span class="comment">//               | -&gt; &quot;outside&quot;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <a class="code" href="structMR_1_1Color.html">Color</a>(<a class="code" href="structMR_1_1Vector4.html">Vector4f</a> { 1.0f, 0.25f, 0.1f, 1.f }),<span class="comment">// almost red    |</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    };</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="comment">// Discrete mode will draw rectangle for each color</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="comment">// Continuous mode will draw interpolated color</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classMR_1_1Pallete.html#ac124c0ec87556171a5c50eba40ed2bd7">   29</a></span>&#160;    MRVIEWER_API <a class="code" href="classMR_1_1Pallete.html#ac124c0ec87556171a5c50eba40ed2bd7">Pallete</a>(std::vector&lt;Color&gt; colors);</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classMR_1_1Pallete.html#a99199089a215644f58ea4a3ce534f6b0">   30</a></span>&#160;    MRVIEWER_API <span class="keywordtype">void</span> <a class="code" href="classMR_1_1Pallete.html#a99199089a215644f58ea4a3ce534f6b0">setColors</a>(std::vector&lt;Color&gt; colors);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="comment">// Discrete: bar consists of single colored rectangles for each initial color</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="comment">// Linear (default): color is changing from one to another during initial color list</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classMR_1_1Pallete.html#a5051e1a9487609e6dcaea4b2529bcaae">   34</a></span>&#160;    MRVIEWER_API <span class="keywordtype">void</span> <a class="code" href="classMR_1_1Pallete.html#a5051e1a9487609e6dcaea4b2529bcaae">draw</a>(<span class="keyword">const</span> ImVec2&amp; pose, <span class="keyword">const</span> ImVec2&amp; size, <a class="code" href="structMR_1_1MeshTexture.html#af1e3ecc1afaf1be483ef74f020eac23f">MeshTexture::FilterType</a> type = <a class="code" href="structMR_1_1MeshTexture.html#af1e3ecc1afaf1be483ef74f020eac23fa32a843da6ea40ab3b17a3421ccdf671b">MeshTexture::FilterType::Linear</a>);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="comment">// automatic fill labels near the color bar</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="comment">// default labels are in the range [0.f-1.f]</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classMR_1_1Pallete.html#aafeac6635d4ba3cd26525db64ec4eb5c">   38</a></span>&#160;    MRVIEWER_API <span class="keywordtype">void</span> <a class="code" href="classMR_1_1Pallete.html#aafeac6635d4ba3cd26525db64ec4eb5c">addLabels</a>(<span class="keyword">const</span> <span class="keywordtype">float</span> minVal, <span class="keyword">const</span> <span class="keywordtype">float</span> maxVal);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="comment">// manual labels set</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="comment">// use it if you have non-linear scaling. Allows to print any string as color label</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classMR_1_1Pallete.html#aee3fb3a0c0f1817525cf8f6c851de692">   41</a></span>&#160;    MRVIEWER_API <span class="keywordtype">void</span> <a class="code" href="classMR_1_1Pallete.html#aee3fb3a0c0f1817525cf8f6c851de692">addCustomLabels</a>(<span class="keyword">const</span> std::vector&lt;std::string&gt; labels);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="comment">// remove labels</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="classMR_1_1Pallete.html#aa65779a5afc2537e475000365571d1ef">   43</a></span>&#160;    MRVIEWER_API <span class="keywordtype">void</span> <a class="code" href="classMR_1_1Pallete.html#aa65779a5afc2537e475000365571d1ef">removeLabels</a>();</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="comment">// Discrete: returns color for given value</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="comment">// Linear: get interpolated color from the init vector</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="classMR_1_1Pallete.html#a04bbe8d14fc64403210323f9ecabe752">   47</a></span>&#160;    MRVIEWER_API <a class="code" href="structMR_1_1Color.html">Color</a> <a class="code" href="classMR_1_1Pallete.html#a04bbe8d14fc64403210323f9ecabe752">getColor</a>(<span class="keywordtype">float</span> val, <a class="code" href="structMR_1_1MeshTexture.html#af1e3ecc1afaf1be483ef74f020eac23f">MeshTexture::FilterType</a> type);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="classMR_1_1Pallete.html#ab0f3445bbd79bda9e9702ca966fef95b">   49</a></span>&#160;    <span class="keyword">const</span> <a class="code" href="structMR_1_1MeshTexture.html">MeshTexture</a>&amp; <a class="code" href="classMR_1_1Pallete.html#ab0f3445bbd79bda9e9702ca966fef95b">getTexture</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> texture_; };</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="comment">// first label is equal to min value, last - to the max val</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> fillLabels_();</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="comment">// (0.f-1.f) color channel format</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    std::vector&lt;Color&gt; &amp;colors_ = texture_.pixels;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    std::vector&lt;std::string&gt; labels_;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    std::vector&lt;float&gt; labelsPoses_;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">float</span> minLabelVal_ = 0.f;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">float</span> maxLabelVal_ = 1.f;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">bool</span> showLabels_ = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="comment">// stores OpenGL textures. Change useDiscrete_ to switch between them</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <a class="code" href="structMR_1_1MeshTexture.html">MeshTexture</a> texture_;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">bool</span> isWindowOpen_ = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;};</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;}</div>
 <div class="ttc" id="aMRColor_8h_html"><div class="ttname"><a href="MRColor_8h.html">MRColor.h</a></div></div>
 <div class="ttc" id="aMRMeshTexture_8h_html"><div class="ttname"><a href="MRMeshTexture_8h.html">MRMeshTexture.h</a></div></div>
 <div class="ttc" id="aMRVector4_8h_html"><div class="ttname"><a href="MRVector4_8h.html">MRVector4.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1Pallete_html"><div class="ttname"><a href="classMR_1_1Pallete.html">MR::Pallete</a></div><div class="ttdef"><b>Definition:</b> MRPallete.h:12</div></div>
+<div class="ttc" id="aMRViewerFwd_8h_html"><div class="ttname"><a href="MRViewerFwd_8h.html">MRViewerFwd.h</a></div></div>
+<div class="ttc" id="aclassMR_1_1Pallete_html"><div class="ttname"><a href="classMR_1_1Pallete.html">MR::Pallete</a></div><div class="ttdef"><b>Definition:</b> MRPallete.h:13</div></div>
 <div class="ttc" id="aclassMR_1_1Pallete_html_a04bbe8d14fc64403210323f9ecabe752"><div class="ttname"><a href="classMR_1_1Pallete.html#a04bbe8d14fc64403210323f9ecabe752">MR::Pallete::getColor</a></div><div class="ttdeci">MRVIEWER_API Color getColor(float val, MeshTexture::FilterType type)</div></div>
 <div class="ttc" id="aclassMR_1_1Pallete_html_a5051e1a9487609e6dcaea4b2529bcaae"><div class="ttname"><a href="classMR_1_1Pallete.html#a5051e1a9487609e6dcaea4b2529bcaae">MR::Pallete::draw</a></div><div class="ttdeci">MRVIEWER_API void draw(const ImVec2 &amp;pose, const ImVec2 &amp;size, MeshTexture::FilterType type=MeshTexture::FilterType::Linear)</div></div>
-<div class="ttc" id="aclassMR_1_1Pallete_html_a8b506f89b81adc1d75efec2c5de33290"><div class="ttname"><a href="classMR_1_1Pallete.html#a8b506f89b81adc1d75efec2c5de33290">MR::Pallete::DefaultColors</a></div><div class="ttdeci">static const std::vector&lt; Color &gt; DefaultColors</div><div class="ttdef"><b>Definition:</b> MRPallete.h:15</div></div>
+<div class="ttc" id="aclassMR_1_1Pallete_html_a8b506f89b81adc1d75efec2c5de33290"><div class="ttname"><a href="classMR_1_1Pallete.html#a8b506f89b81adc1d75efec2c5de33290">MR::Pallete::DefaultColors</a></div><div class="ttdeci">static const std::vector&lt; Color &gt; DefaultColors</div><div class="ttdef"><b>Definition:</b> MRPallete.h:16</div></div>
 <div class="ttc" id="aclassMR_1_1Pallete_html_a99199089a215644f58ea4a3ce534f6b0"><div class="ttname"><a href="classMR_1_1Pallete.html#a99199089a215644f58ea4a3ce534f6b0">MR::Pallete::setColors</a></div><div class="ttdeci">MRVIEWER_API void setColors(std::vector&lt; Color &gt; colors)</div></div>
 <div class="ttc" id="aclassMR_1_1Pallete_html_aa65779a5afc2537e475000365571d1ef"><div class="ttname"><a href="classMR_1_1Pallete.html#aa65779a5afc2537e475000365571d1ef">MR::Pallete::removeLabels</a></div><div class="ttdeci">MRVIEWER_API void removeLabels()</div></div>
 <div class="ttc" id="aclassMR_1_1Pallete_html_aafeac6635d4ba3cd26525db64ec4eb5c"><div class="ttname"><a href="classMR_1_1Pallete.html#aafeac6635d4ba3cd26525db64ec4eb5c">MR::Pallete::addLabels</a></div><div class="ttdeci">MRVIEWER_API void addLabels(const float minVal, const float maxVal)</div></div>
-<div class="ttc" id="aclassMR_1_1Pallete_html_ab0f3445bbd79bda9e9702ca966fef95b"><div class="ttname"><a href="classMR_1_1Pallete.html#ab0f3445bbd79bda9e9702ca966fef95b">MR::Pallete::getTexture</a></div><div class="ttdeci">const MeshTexture &amp; getTexture() const</div><div class="ttdef"><b>Definition:</b> MRPallete.h:48</div></div>
+<div class="ttc" id="aclassMR_1_1Pallete_html_ab0f3445bbd79bda9e9702ca966fef95b"><div class="ttname"><a href="classMR_1_1Pallete.html#ab0f3445bbd79bda9e9702ca966fef95b">MR::Pallete::getTexture</a></div><div class="ttdeci">const MeshTexture &amp; getTexture() const</div><div class="ttdef"><b>Definition:</b> MRPallete.h:49</div></div>
 <div class="ttc" id="aclassMR_1_1Pallete_html_ac124c0ec87556171a5c50eba40ed2bd7"><div class="ttname"><a href="classMR_1_1Pallete.html#ac124c0ec87556171a5c50eba40ed2bd7">MR::Pallete::Pallete</a></div><div class="ttdeci">MRVIEWER_API Pallete(std::vector&lt; Color &gt; colors)</div></div>
 <div class="ttc" id="aclassMR_1_1Pallete_html_aee3fb3a0c0f1817525cf8f6c851de692"><div class="ttname"><a href="classMR_1_1Pallete.html#aee3fb3a0c0f1817525cf8f6c851de692">MR::Pallete::addCustomLabels</a></div><div class="ttdeci">MRVIEWER_API void addCustomLabels(const std::vector&lt; std::string &gt; labels)</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:7</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1Color_html"><div class="ttname"><a href="structMR_1_1Color.html">MR::Color</a></div><div class="ttdef"><b>Definition:</b> MRColor.h:9</div></div>
 <div class="ttc" id="astructMR_1_1MeshTexture_html"><div class="ttname"><a href="structMR_1_1MeshTexture.html">MR::MeshTexture</a></div><div class="ttdef"><b>Definition:</b> MRMeshTexture.h:9</div></div>
 <div class="ttc" id="astructMR_1_1MeshTexture_html_af1e3ecc1afaf1be483ef74f020eac23f"><div class="ttname"><a href="structMR_1_1MeshTexture.html#af1e3ecc1afaf1be483ef74f020eac23f">MR::MeshTexture::FilterType</a></div><div class="ttdeci">FilterType</div><div class="ttdef"><b>Definition:</b> MRMeshTexture.h:11</div></div>

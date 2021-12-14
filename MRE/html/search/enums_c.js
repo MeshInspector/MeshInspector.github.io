@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['seedtype_6022',['SeedType',['../classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5',1,'MR::VolumeSegmenter']]],
-  ['shadertype_6023',['ShaderType',['../classMR_1_1ShadersHolder.html#af79d4956571eca0d639217ad9ec89767',1,'MR::ShadersHolder']]],
-  ['sliceplain_6024',['SlicePlain',['../namespaceMR.html#ae7c8689563553fe7686bd6b71ddf8f18',1,'MR']]],
-  ['stateplugintabs_6025',['StatePluginTabs',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37',1,'MR']]],
-  ['streamtype_6026',['StreamType',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1d',1,'MRPython.h']]]
+  ['relaxapproxtype_6512',['RelaxApproxType',['../namespaceMR.html#a6ab288ae813e1aa688312e31c258df71',1,'MR']]],
+  ['remembershape_6513',['RememberShape',['../classMR_1_1Laplacian.html#a67c8dfc7669f41712a92d21d5ec99fed',1,'MR::Laplacian']]],
+  ['ribboncolorstype_6514',['RibbonColorsType',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0',1,'MR::ColorTheme']]],
+  ['ribbonitemtype_6515',['RibbonItemType',['../namespaceMR.html#a1478e43a90bad95d9ef709807606688a',1,'MR']]]
 ];

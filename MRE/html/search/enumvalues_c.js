@@ -1,14 +1,9 @@
 var searchData=
 [
-  ['pan_6131',['Pan',['../classMR_1_1Viewer.html#a1e0f5398c54b70bf130b28dbe6795e37af6d4a17b27da35c2d90ce13801f36782',1,'MR::Viewer']]],
-  ['peredge_6132',['PerEdge',['../namespaceMR_1_1MeshComponents.html#a7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc',1,'MR::MeshComponents']]],
-  ['pervertex_6133',['PerVertex',['../namespaceMR_1_1MeshComponents.html#a7489c91178e90fdd4200bbb0074e025fa2e9713a46619599c9d68465178a81a4c',1,'MR::MeshComponents']]],
-  ['picker_6134',['Picker',['../classMR_1_1ShadersHolder.html#af79d4956571eca0d639217ad9ec89767ac4dc377ef72564bbd9e10ee3fefbfe46',1,'MR::ShadersHolder']]],
-  ['plusx_6135',['PlusX',['../namespaceMR.html#aa7203f0917dc651aa1261d90d266752eaac53fa7ccf60e6f59512da11975eb8a7',1,'MR']]],
-  ['plusy_6136',['PlusY',['../namespaceMR.html#aa7203f0917dc651aa1261d90d266752ea89241a914ba5d59de9168c4416e69c4a',1,'MR']]],
-  ['plusz_6137',['PlusZ',['../namespaceMR.html#aa7203f0917dc651aa1261d90d266752ea59bb9bd5dd05e7aa8aca793a81266bb9',1,'MR']]],
-  ['pointcloud_6138',['PointCloud',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37aee9349b5cdfd717c7e1234edce6b72fa',1,'MR']]],
-  ['pointtoplane_6139',['PointToPlane',['../namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80ecac1f6f7fcdbf302503a3aca3a1cecf4c9',1,'MR']]],
-  ['pointtopoint_6140',['PointToPoint',['../namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80eca04cf1d449a94c748d561df329e72d3c7',1,'MR']]],
-  ['primitivescolormap_6141',['PrimitivesColorMap',['../namespaceMR.html#a270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca',1,'MR']]]
+  ['onlyoddfragments_6649',['OnlyOddFragments',['../structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aaca144ed9c2ae8054e372ad070e90980599',1,'MR::MeshVisualizePropertyType']]],
+  ['orthogonalaxis_6650',['OrthogonalAxis',['../namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677a9dc639d68610e7c72efff69db6d60b18',1,'MR']]],
+  ['other_6651',['Other',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37a6311ae17c1ee52b36e68aaf4ad066387',1,'MR']]],
+  ['outside_6652',['Outside',['../classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5ac24c0463f4a46b890b5cac084adf0d2f',1,'MR::VolumeSegmenter::Outside()'],['../classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457a6be0b0fff8d33b533481c4ddbadfb310',1,'MR::MarkedVoxelSlice::Outside()']]],
+  ['outsidea_6653',['OutsideA',['../group__BooleanGroup.html#ggacb4a2073036a155fa7f07f2fdc347007a9a03bdff82f27d2bf0997d9c54855711',1,'MRE']]],
+  ['outsideb_6654',['OutsideB',['../group__BooleanGroup.html#ggacb4a2073036a155fa7f07f2fdc347007a6c72337a335f60bed93678d35bd0165f',1,'MRE']]]
 ];

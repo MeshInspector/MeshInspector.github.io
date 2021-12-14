@@ -5,5 +5,6 @@ var classMR_1_1UnionFind =
     [ "find", "classMR_1_1UnionFind.html#a26e79fd903c0229dbd2f66a80549c75b", null ],
     [ "reset", "classMR_1_1UnionFind.html#a6a74089f75f3b88edf1a6fb0beba1e13", null ],
     [ "roots", "classMR_1_1UnionFind.html#a0d0ae9105ee10e6b24cfec38245370cd", null ],
-    [ "unite", "classMR_1_1UnionFind.html#ac55d95c6f3497ebcfe9337bc7d1698d2", null ]
+    [ "unite", "classMR_1_1UnionFind.html#ac55d95c6f3497ebcfe9337bc7d1698d2", null ],
+    [ "united", "classMR_1_1UnionFind.html#aa570cc6f33bbb51fb5859608b9c68fbc", null ]
 ];

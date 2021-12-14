@@ -12,9 +12,11 @@ var MRMeshLoad_8h =
     [ "fromMrmesh", "MRMeshLoad_8h.html#a3d35f9409d23d969567a2190faf3d280", null ],
     [ "fromMrmesh", "MRMeshLoad_8h.html#a7fa1a142e10183b84d495c8c025726a4", null ],
     [ "fromObj", "MRMeshLoad_8h.html#a2b71be800d8ce3c8852554b57333dcc0", null ],
-    [ "fromObj", "MRMeshLoad_8h.html#a211c229705f50944cce2fa9f3427ccba", null ],
+    [ "fromObj", "MRMeshLoad_8h.html#a12ec2ddb943ea779cb26889b6f45dca3", null ],
     [ "fromOff", "MRMeshLoad_8h.html#ad7d8fb51b895ee88d13c585b94db3eab", null ],
     [ "fromOff", "MRMeshLoad_8h.html#afb51764f18423650529a087fe0b8098c", null ],
     [ "fromPly", "MRMeshLoad_8h.html#a264264581b6491c440d54a9ab8c9b5e9", null ],
-    [ "fromPly", "MRMeshLoad_8h.html#a6106df07208f1c7c00e14de7535a7204", null ]
+    [ "fromPly", "MRMeshLoad_8h.html#a6106df07208f1c7c00e14de7535a7204", null ],
+    [ "fromSceneObjFile", "MRMeshLoad_8h.html#aeb4722d1892648326902248970558bbb", null ],
+    [ "isSceneObjFile", "MRMeshLoad_8h.html#ab3db23a1c46d8c4a0abd9baab932e8ed", null ]
 ];

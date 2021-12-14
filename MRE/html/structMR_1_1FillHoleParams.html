@@ -115,7 +115,6 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a1789bd574d007a370fe6164d4f5ca7c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">If not nullptr accumulate new faces.  <a href="structMR_1_1FillHoleParams.html#a1789bd574d007a370fe6164d4f5ca7c4">More...</a><br /></td></tr>
 <tr class="separator:a1789bd574d007a370fe6164d4f5ca7c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e574672d42cb7bdda9f3a54dcc284d1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleParams.html#a9e574672d42cb7bdda9f3a54dcc284d1">avoidMultipleEdges</a> { false }</td></tr>
-<tr class="memdesc:a9e574672d42cb7bdda9f3a54dcc284d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true tries not to make multiple edges.  <a href="structMR_1_1FillHoleParams.html#a9e574672d42cb7bdda9f3a54dcc284d1">More...</a><br /></td></tr>
 <tr class="separator:a9e574672d42cb7bdda9f3a54dcc284d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48c94df0c8cc044564e0e69c8f692c5a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleParams.html#a48c94df0c8cc044564e0e69c8f692c5a">makeDegenerateBand</a> { false }</td></tr>
 <tr class="separator:a48c94df0c8cc044564e0e69c8f692c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,8 +137,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>If true tries not to make multiple edges. </p>
+<p>If true makes additional efforts to avoid creating multiple edges, in some rare cases it is not possible (cases with extremely bad topology), if you faced one try to use <a class="el" href="namespaceMR.html#a030e7fa6218d19042b2a5ae052055192">MR::duplicateMultiHoleVertices</a> before <a class="el" href="group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05">MR::fillHole</a> </p>
 
 </div>
 </div>

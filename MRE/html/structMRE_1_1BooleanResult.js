@@ -1,5 +1,6 @@
 var structMRE_1_1BooleanResult =
 [
+    [ "operator bool", "structMRE_1_1BooleanResult.html#a39bba25bdba2c46ef02c4e41ffa961d5", null ],
     [ "operator*", "structMRE_1_1BooleanResult.html#af94480cd40cf00d26d12cc5c1c6b7c6b", null ],
     [ "operator*", "structMRE_1_1BooleanResult.html#a0e9e369aa671b5eb06187f5fcd6049df", null ],
     [ "operator->", "structMRE_1_1BooleanResult.html#a0ea4fa8ebc4cbd6a97cae561577f42ea", null ],

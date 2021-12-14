@@ -143,48 +143,56 @@ $(document).ready(function(){initNavTree('MRUnionFind_8h_source.html',''); initR
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <span class="keywordflow">return</span> firstRoot;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        }</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="comment">// finds root of element</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="classMR_1_1UnionFind.html#a26e79fd903c0229dbd2f66a80549c75b">   48</a></span>&#160;    I <a class="code" href="classMR_1_1UnionFind.html#a26e79fd903c0229dbd2f66a80549c75b">find</a>( I a )</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="comment">// returns true if given two elements are from one component</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="classMR_1_1UnionFind.html#aa570cc6f33bbb51fb5859608b9c68fbc">   48</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classMR_1_1UnionFind.html#aa570cc6f33bbb51fb5859608b9c68fbc">united</a>( I first, I second )</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    {</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">return</span> getRoot_( a );</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="comment">// gets roots for all elements</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classMR_1_1UnionFind.html#a0d0ae9105ee10e6b24cfec38245370cd">   53</a></span>&#160;    <span class="keyword">const</span> <a class="code" href="classMR_1_1Vector.html">Vector&lt;I, I&gt;</a> &amp; <a class="code" href="classMR_1_1UnionFind.html#a0d0ae9105ee10e6b24cfec38245370cd">roots</a>()</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    {</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">for</span> ( I i{ 0 }; i &lt; roots_.<a class="code" href="classMR_1_1Vector.html#a223d87525f421788d5f56e5022482b98">size</a>(); ++i )</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            roots_[i] = getRoot_( i );</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">return</span> roots_;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keyword">auto</span> firstRoot = getRoot_( first );</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keyword">auto</span> secondRoot = getRoot_( second );</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">return</span> firstRoot == secondRoot;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="comment">// finds root of element</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="classMR_1_1UnionFind.html#a26e79fd903c0229dbd2f66a80549c75b">   55</a></span>&#160;    I <a class="code" href="classMR_1_1UnionFind.html#a26e79fd903c0229dbd2f66a80549c75b">find</a>( I a )</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">return</span> getRoot_( a );</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    I getRoot_( I a )</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="comment">// gets roots for all elements</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="classMR_1_1UnionFind.html#a0d0ae9105ee10e6b24cfec38245370cd">   60</a></span>&#160;    <span class="keyword">const</span> <a class="code" href="classMR_1_1Vector.html">Vector&lt;I, I&gt;</a> &amp; <a class="code" href="classMR_1_1UnionFind.html#a0d0ae9105ee10e6b24cfec38245370cd">roots</a>()</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    {</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">while</span> ( a != roots_[a] )</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        {</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            roots_[a] = roots_[roots_[a]];</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            a = roots_[a];</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        }</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">return</span> a;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="comment">// roots for each element</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    Vector&lt;I, I&gt; roots_;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="comment">// sizes of each set</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    Vector&lt;int, I&gt; sizes_;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;};</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;}</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">for</span> ( I i{ 0 }; i &lt; roots_.<a class="code" href="classMR_1_1Vector.html#a223d87525f421788d5f56e5022482b98">size</a>(); ++i )</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            roots_[i] = getRoot_( i );</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordflow">return</span> roots_;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    I getRoot_( I a )</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">while</span> ( a != roots_[a] )</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            roots_[a] = roots_[roots_[a]];</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            a = roots_[a];</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        }</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">return</span> a;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="comment">// roots for each element</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    Vector&lt;I, I&gt; roots_;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="comment">// sizes of each set</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    Vector&lt;int, I&gt; sizes_;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;};</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;}</div>
 <div class="ttc" id="aMRVector_8h_html"><div class="ttname"><a href="MRVector_8h.html">MRVector.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1UnionFind_html"><div class="ttname"><a href="classMR_1_1UnionFind.html">MR::UnionFind</a></div><div class="ttdef"><b>Definition:</b> MRUnionFind.h:10</div></div>
-<div class="ttc" id="aclassMR_1_1UnionFind_html_a0d0ae9105ee10e6b24cfec38245370cd"><div class="ttname"><a href="classMR_1_1UnionFind.html#a0d0ae9105ee10e6b24cfec38245370cd">MR::UnionFind::roots</a></div><div class="ttdeci">const Vector&lt; I, I &gt; &amp; roots()</div><div class="ttdef"><b>Definition:</b> MRUnionFind.h:53</div></div>
-<div class="ttc" id="aclassMR_1_1UnionFind_html_a26e79fd903c0229dbd2f66a80549c75b"><div class="ttname"><a href="classMR_1_1UnionFind.html#a26e79fd903c0229dbd2f66a80549c75b">MR::UnionFind::find</a></div><div class="ttdeci">I find(I a)</div><div class="ttdef"><b>Definition:</b> MRUnionFind.h:48</div></div>
+<div class="ttc" id="aclassMR_1_1UnionFind_html_a0d0ae9105ee10e6b24cfec38245370cd"><div class="ttname"><a href="classMR_1_1UnionFind.html#a0d0ae9105ee10e6b24cfec38245370cd">MR::UnionFind::roots</a></div><div class="ttdeci">const Vector&lt; I, I &gt; &amp; roots()</div><div class="ttdef"><b>Definition:</b> MRUnionFind.h:60</div></div>
+<div class="ttc" id="aclassMR_1_1UnionFind_html_a26e79fd903c0229dbd2f66a80549c75b"><div class="ttname"><a href="classMR_1_1UnionFind.html#a26e79fd903c0229dbd2f66a80549c75b">MR::UnionFind::find</a></div><div class="ttdeci">I find(I a)</div><div class="ttdef"><b>Definition:</b> MRUnionFind.h:55</div></div>
 <div class="ttc" id="aclassMR_1_1UnionFind_html_a661398df57a710beae6f4b7c19ac3006"><div class="ttname"><a href="classMR_1_1UnionFind.html#a661398df57a710beae6f4b7c19ac3006">MR::UnionFind::UnionFind</a></div><div class="ttdeci">UnionFind(size_t size)</div><div class="ttdef"><b>Definition:</b> MRUnionFind.h:13</div></div>
 <div class="ttc" id="aclassMR_1_1UnionFind_html_a67ccf008e0816480dca10b19c530a7b1"><div class="ttname"><a href="classMR_1_1UnionFind.html#a67ccf008e0816480dca10b19c530a7b1">MR::UnionFind::UnionFind</a></div><div class="ttdeci">UnionFind()=default</div></div>
 <div class="ttc" id="aclassMR_1_1UnionFind_html_a6a74089f75f3b88edf1a6fb0beba1e13"><div class="ttname"><a href="classMR_1_1UnionFind.html#a6a74089f75f3b88edf1a6fb0beba1e13">MR::UnionFind::reset</a></div><div class="ttdeci">void reset(size_t size)</div><div class="ttdef"><b>Definition:</b> MRUnionFind.h:18</div></div>
+<div class="ttc" id="aclassMR_1_1UnionFind_html_aa570cc6f33bbb51fb5859608b9c68fbc"><div class="ttname"><a href="classMR_1_1UnionFind.html#aa570cc6f33bbb51fb5859608b9c68fbc">MR::UnionFind::united</a></div><div class="ttdeci">bool united(I first, I second)</div><div class="ttdef"><b>Definition:</b> MRUnionFind.h:48</div></div>
 <div class="ttc" id="aclassMR_1_1UnionFind_html_ac55d95c6f3497ebcfe9337bc7d1698d2"><div class="ttname"><a href="classMR_1_1UnionFind.html#ac55d95c6f3497ebcfe9337bc7d1698d2">MR::UnionFind::unite</a></div><div class="ttdeci">I unite(I first, I second)</div><div class="ttdef"><b>Definition:</b> MRUnionFind.h:27</div></div>
 <div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector&lt; I, I &gt;</a></div></div>
 <div class="ttc" id="aclassMR_1_1Vector_html_a0e593b171d655e35f554674f88083c76"><div class="ttname"><a href="classMR_1_1Vector.html#a0e593b171d655e35f554674f88083c76">MR::Vector::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdef"><b>Definition:</b> MRVector.h:30</div></div>
 <div class="ttc" id="aclassMR_1_1Vector_html_a223d87525f421788d5f56e5022482b98"><div class="ttname"><a href="classMR_1_1Vector.html#a223d87525f421788d5f56e5022482b98">MR::Vector::size</a></div><div class="ttdeci">auto size() const</div><div class="ttdef"><b>Definition:</b> MRVector.h:33</div></div>
 <div class="ttc" id="aclassMR_1_1Vector_html_acd99deedcb9bcc81fa5eb3ba36cf13d1"><div class="ttname"><a href="classMR_1_1Vector.html#acd99deedcb9bcc81fa5eb3ba36cf13d1">MR::Vector::resize</a></div><div class="ttdeci">void resize(size_t newSize)</div><div class="ttdef"><b>Definition:</b> MRVector.h:35</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:7</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

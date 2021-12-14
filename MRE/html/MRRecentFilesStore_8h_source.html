@@ -98,14 +98,14 @@ $(document).ready(function(){initNavTree('MRRecentFilesStore_8h_source.html','')
 </div><!--header-->
 <div class="contents">
 <a href="MRRecentFilesStore_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;exports.h&quot;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;filesystem&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">class </span>Viewer;</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MRViewerFwd_8h.html">MRViewerFwd.h</a>&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;filesystem&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceMR.html">MR</a></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">// This class exists to store and load recently opened files</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">// from system storage (registry for Windows)</span></div>
@@ -132,13 +132,14 @@ $(document).ready(function(){initNavTree('MRRecentFilesStore_8h_source.html','')
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">int</span> capacity_{5};</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;};</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
+<div class="ttc" id="aMRViewerFwd_8h_html"><div class="ttname"><a href="MRViewerFwd_8h.html">MRViewerFwd.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1RecentFilesStore_html"><div class="ttname"><a href="classMR_1_1RecentFilesStore.html">MR::RecentFilesStore</a></div><div class="ttdef"><b>Definition:</b> MRRecentFilesStore.h:14</div></div>
 <div class="ttc" id="aclassMR_1_1RecentFilesStore_html_a1f48973b157bca4ee2c0e34407310654"><div class="ttname"><a href="classMR_1_1RecentFilesStore.html#a1f48973b157bca4ee2c0e34407310654">MR::RecentFilesStore::getCapacity</a></div><div class="ttdeci">int getCapacity() const</div><div class="ttdef"><b>Definition:</b> MRRecentFilesStore.h:30</div></div>
 <div class="ttc" id="aclassMR_1_1RecentFilesStore_html_a446898aa3d0c6bd022d1d584464b6838"><div class="ttname"><a href="classMR_1_1RecentFilesStore.html#a446898aa3d0c6bd022d1d584464b6838">MR::RecentFilesStore::RecentFilesStore</a></div><div class="ttdeci">RecentFilesStore(std::string appName, int capacity=5)</div><div class="ttdef"><b>Definition:</b> MRRecentFilesStore.h:19</div></div>
 <div class="ttc" id="aclassMR_1_1RecentFilesStore_html_a91c0cee2c949bedab99c902e62d77a9f"><div class="ttname"><a href="classMR_1_1RecentFilesStore.html#a91c0cee2c949bedab99c902e62d77a9f">MR::RecentFilesStore::storeFile</a></div><div class="ttdeci">MRVIEWER_API void storeFile(const std::filesystem::path &amp;file) const</div></div>
 <div class="ttc" id="aclassMR_1_1RecentFilesStore_html_aa4d22ecdbcc7621a1e29b650a9a8c7a9"><div class="ttname"><a href="classMR_1_1RecentFilesStore.html#aa4d22ecdbcc7621a1e29b650a9a8c7a9">MR::RecentFilesStore::getStoredFiles</a></div><div class="ttdeci">MRVIEWER_API std::vector&lt; std::filesystem::path &gt; getStoredFiles() const</div></div>
 <div class="ttc" id="aclassMR_1_1RecentFilesStore_html_ab3bdf57745bbf11b5ac6fd1b27edcb68"><div class="ttname"><a href="classMR_1_1RecentFilesStore.html#ab3bdf57745bbf11b5ac6fd1b27edcb68">MR::RecentFilesStore::RecentFilesStore</a></div><div class="ttdeci">RecentFilesStore()=default</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:7</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRECutMeshWithPlanePlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

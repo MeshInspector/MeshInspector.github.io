@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['onlyoddfragments_6125',['OnlyOddFragments',['../structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aaca144ed9c2ae8054e372ad070e90980599',1,'MR::MeshVisualizePropertyType']]],
-  ['orthogonalaxis_6126',['OrthogonalAxis',['../namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677a9dc639d68610e7c72efff69db6d60b18',1,'MR']]],
-  ['other_6127',['Other',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37a6311ae17c1ee52b36e68aaf4ad066387',1,'MR']]],
-  ['outside_6128',['Outside',['../classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5ac24c0463f4a46b890b5cac084adf0d2f',1,'MR::VolumeSegmenter::Outside()'],['../classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457a6be0b0fff8d33b533481c4ddbadfb310',1,'MR::MarkedVoxelSlice::Outside()']]],
-  ['outsidea_6129',['OutsideA',['../group__BooleanGroup.html#ggacb4a2073036a155fa7f07f2fdc347007a9a03bdff82f27d2bf0997d9c54855711',1,'MRE']]],
-  ['outsideb_6130',['OutsideB',['../group__BooleanGroup.html#ggacb4a2073036a155fa7f07f2fdc347007a6c72337a335f60bed93678d35bd0165f',1,'MRE']]]
+  ['name_6645',['Name',['../structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0ab72b78c3e9e37ca07d93dccb6678f264',1,'MR::VisualizeMaskType']]],
+  ['no_6646',['No',['../classMR_1_1Laplacian.html#a67c8dfc7669f41712a92d21d5ec99fedabafd7322c6e97d25b6299b5d6fe8920b',1,'MR::Laplacian']]],
+  ['none_6647',['None',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69da6adf97f83acf6453d4a6a4b1070f3754',1,'MR::MeshSave::CtmSaveOptions::None()'],['../namespaceMR.html#ae7c8689563553fe7686bd6b71ddf8f18aa1f9f6e1b4f1f951f67ebeb0c69e1dd4',1,'MR::None()'],['../namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75a6adf97f83acf6453d4a6a4b1070f3754',1,'MR::None()']]],
+  ['nowindow_6648',['NoWindow',['../structMR_1_1Viewer_1_1LaunchParams.html#aac8179d29f102d3e7ee5a2d2cf1bfe32a155ca753a8e26b2ad98e353345466aba',1,'MR::Viewer::LaunchParams']]]
 ];

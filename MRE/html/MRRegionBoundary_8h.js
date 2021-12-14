@@ -6,8 +6,12 @@ var MRRegionBoundary_8h =
     [ "getIncidentFaces", "MRRegionBoundary_8h.html#a1c01820370782b8d802d74ce6d038985", null ],
     [ "getIncidentVerts", "MRRegionBoundary_8h.html#a42bfb820a74ca491a32df3c3c86c8053", null ],
     [ "getIncidentVerts", "MRRegionBoundary_8h.html#af1d48285fd30de561620a7c4037d2e2a", null ],
+    [ "getIncidentVerts", "MRRegionBoundary_8h.html#a6bf6e1fe2f574638b1bdfd1eaafd26cb", null ],
+    [ "getIncidentVerts", "MRRegionBoundary_8h.html#a6d0440928f307da62490ef04c5ac9336", null ],
     [ "getInnerFaces", "MRRegionBoundary_8h.html#a4d3bc72716887b5d9dfa102464142635", null ],
     [ "getInnerVerts", "MRRegionBoundary_8h.html#a239a137f92a0b73dfac626d2a8a7bb42", null ],
+    [ "getInnerVerts", "MRRegionBoundary_8h.html#a6fe46de7cb7885b2707a89d2637bfeb0", null ],
+    [ "getRegionEdges", "MRRegionBoundary_8h.html#ad236300492a56bcb9401d780f9a30acf", null ],
     [ "trackRegionBoundaryLoop", "MRRegionBoundary_8h.html#a37e066f5ba68ae8a4b72cc0ed1494326", null ],
     [ "trackRegionBoundaryLoop", "MRRegionBoundary_8h.html#a01e801fbeb3fac19f6385d7834e22e66", null ]
 ];

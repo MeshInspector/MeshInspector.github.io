@@ -1,6 +1,22 @@
 var searchData=
 [
-  ['undo_6173',['Undo',['../classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7a1cdc076b28f70afac5fcedadf99fa119',1,'MR::HistoryAction']]],
-  ['union_6174',['Union',['../group__BooleanGroup.html#ggacb4a2073036a155fa7f07f2fdc347007aaef12e903e606a4895a16b393bfdec8c',1,'MRE']]],
-  ['unit_6175',['Unit',['../classMR_1_1Laplacian.html#a40fcda9e6b8208959a3204e274784b18a19c562a36aeb455d09534f93b4f5236f',1,'MR::Laplacian']]]
+  ['segment_6684',['Segment',['../classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457affb70c18e04a80d228aa7ef4a86e0702',1,'MR::MarkedVoxelSlice']]],
+  ['selectable_6685',['Selectable',['../namespaceMR.html#a1ab156c0351dfcd112a67a72e485f123a8318ce1c96df6ce21eb2ed428c6d0f85',1,'MR']]],
+  ['selected_6686',['Selected',['../namespaceMR.html#a1ab156c0351dfcd112a67a72e485f123a91b442d385b54e1418d81adc34871053',1,'MR']]],
+  ['selectededges_6687',['SelectedEdges',['../structMR_1_1MeshColors.html#af0045416fd1cfb3c18c56db1af4e6b6aa6107178a1d8680391c1f601bdd42de4b',1,'MR::MeshColors::SelectedEdges()'],['../structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aaca88fb4fba2909a781a4c943d7e5f1b7fd',1,'MR::MeshVisualizePropertyType::SelectedEdges()']]],
+  ['selectedfaces_6688',['SelectedFaces',['../structMR_1_1MeshColors.html#af0045416fd1cfb3c18c56db1af4e6b6aab074199b07033f770e8b3d574850b140',1,'MR::MeshColors']]],
+  ['selectedmesh_6689',['SelectedMesh',['../structMR_1_1MeshColors.html#af0045416fd1cfb3c18c56db1af4e6b6aae873ca32e1aca37d4f818375f15ae288',1,'MR::MeshColors']]],
+  ['selection_6690',['Selection',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37a6ff9dd0d34f65181173c1e4bc39939de',1,'MR']]],
+  ['selfintersections_6691',['SelfIntersections',['../classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2dba28982eaa76f93306fbcb898d4973fba9',1,'MR::MeshFixerPlugin']]],
+  ['semibold_6692',['SemiBold',['../classMR_1_1RibbonMenu.html#a9120b1c9aac053e27a68f3a1da822416a57da4df095766e2b4e9012d34ae8e221',1,'MR::RibbonMenu']]],
+  ['show_6693',['Show',['../structMR_1_1Viewer_1_1LaunchParams.html#aac8179d29f102d3e7ee5a2d2cf1bfe32adf76758ec5cb9b09e06f65ea01a58dcf',1,'MR::Viewer::LaunchParams']]],
+  ['small_6694',['Small',['../classMR_1_1RibbonMenu.html#a9120b1c9aac053e27a68f3a1da822416a2660064e68655415da2628c2ae2f7592',1,'MR::RibbonMenu::Small()'],['../structMR_1_1RibbonMenu_1_1DrawButtonParams.html#a05ddfded577f4f53cab78e641033c7c3a2660064e68655415da2628c2ae2f7592',1,'MR::RibbonMenu::DrawButtonParams::Small()']]],
+  ['smalltext_6695',['SmallText',['../structMR_1_1RibbonMenu_1_1DrawButtonParams.html#a05ddfded577f4f53cab78e641033c7c3abc8aecd9a2ab8f581f9b37b78a9083ff',1,'MR::RibbonMenu::DrawButtonParams']]],
+  ['smalltunnels_6696',['SmallTunnels',['../classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2dba370d22e750ece55c2a5a5daca5647e90',1,'MR::MeshFixerPlugin']]],
+  ['smooth_6697',['Smooth',['../structMR_1_1LinesVisualizePropertyType.html#aab5df7db454ff09605f0b0252d48d0e2a92edd5447d991ddb22f08259adacfa1c',1,'MR::LinesVisualizePropertyType']]],
+  ['solidcolor_6698',['SolidColor',['../namespaceMR.html#a270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854',1,'MR']]],
+  ['spikes_6699',['Spikes',['../classMR_1_1MeshFixerPlugin.html#a24dcce9e1b00298ff4859a83aff4d2dba9e2ef4de9e7e19d8609f2bfba0f3b483',1,'MR::MeshFixerPlugin']]],
+  ['startendnotconnected_6700',['StartEndNotConnected',['../namespaceMR.html#af2c93aa0da8a9748d23340f32349a8b8aad309ea76f6bf055e7b62a3dd200631f',1,'MR']]],
+  ['stderr_6701',['Stderr',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af',1,'MRPython.h']]],
+  ['stdout_6702',['Stdout',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101',1,'MRPython.h']]]
 ];

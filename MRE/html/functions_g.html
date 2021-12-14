@@ -109,6 +109,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="classMR_1_1DistanceMap.html#a4de9e7d4c315e711cb6f7967ada735dd">MR::DistanceMap</a>
 , <a class="el" href="classMR_1_1Id.html#ad7d3ac551e305db5ff6d7de23956ce0f">MR::Id&lt; T &gt;</a>
 , <a class="el" href="classMR_1_1Id_3_01EdgeTag_01_4.html#a6bdc030c441f11e69be3afc500911998">MR::Id&lt; EdgeTag &gt;</a>
+, <a class="el" href="structMR_1_1MeshColors.html#a1eec33ce93b7eab900deb1efb1c7a35e">MR::MeshColors</a>
 , <a class="el" href="classMR_1_1SceneRoot.html#ab7556304bab5abe117cb4e19a415f55d">MR::SceneRoot</a>
 </li>
 <li>getAABBTree()
@@ -133,7 +134,8 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="classMR_1_1FreeFormDeformer.html#af74eb31c92e998c32307e3520ed931b0">MR::FreeFormDeformer</a>
 </li>
 <li>getAllVisualizeProperties()
-: <a class="el" href="classMR_1_1ObjectMesh.html#a61448680cd9cefe6005986bf4d46102d">MR::ObjectMesh</a>
+: <a class="el" href="classMR_1_1ObjectLines.html#af1a73f9b9a9627b828772ee1fed0680b">MR::ObjectLines</a>
+, <a class="el" href="classMR_1_1ObjectMesh.html#a61448680cd9cefe6005986bf4d46102d">MR::ObjectMesh</a>
 , <a class="el" href="classMR_1_1VisualObject.html#ab5a7a842052c24ab9b286eafae1bfb8d">MR::VisualObject</a>
 </li>
 <li>getBackColor()
@@ -181,8 +183,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>getBoundingBox()
 : <a class="el" href="classMR_1_1AABBTree.html#a32fb8d6b891ed1e97bf4532552caa7a4">MR::AABBTree</a>
 , <a class="el" href="classMR_1_1AABBTreePoints.html#a9326f1fdd5cacabcf51e5eb51f56e53e">MR::AABBTreePoints</a>
-, <a class="el" href="classMR_1_1AABBTreePolyline2.html#add05b5a169f68872060004f9f6428a96">MR::AABBTreePolyline2</a>
-, <a class="el" href="classMR_1_1AABBTreePolyline3.html#a99008688ffde1d2c7faf7470897dcdf7">MR::AABBTreePolyline3</a>
+, <a class="el" href="classMR_1_1AABBTreePolyline.html#a8c67430ec136717d54148e1fc92517bd">MR::AABBTreePolyline&lt; V &gt;</a>
 , <a class="el" href="structMR_1_1Mesh.html#a6a9114dc0640fc079b18e83625c3464a">MR::Mesh</a>
 , <a class="el" href="structMR_1_1PointCloud.html#a28846bc1f86b18053ff605bd9cdffc26">MR::PointCloud</a>
 , <a class="el" href="structMR_1_1Polyline2.html#a6c072e3a819107ce5ea4bd08b8deb3cf">MR::Polyline2</a>
@@ -260,9 +261,6 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>getDistLimitsSq()
 : <a class="el" href="classMR_1_1MeshICP.html#a3e95b56e56949fa93b1ea068fc47c7f5">MR::MeshICP</a>
 </li>
-<li>getDistToPlaneMean()
-: <a class="el" href="classMR_1_1MeshICP.html#adeb4f8cfb36708123fa0ff8c212c3836">MR::MeshICP</a>
-</li>
 <li>getEdgeMetric()
 : <a class="el" href="structMR_1_1CircumscribedFillMetric.html#aace70ac493bd1e39de88385dbbc724dd">MR::CircumscribedFillMetric</a>
 , <a class="el" href="structMR_1_1CircumscribedStitchMetric.html#a317d904c18c14aa36da0b8c99ddeb3a3">MR::CircumscribedStitchMetric</a>
@@ -283,6 +281,9 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 </li>
 <li>getError()
 : <a class="el" href="classMRE_1_1CT_1_1Cuda_1_1Reconstructor.html#a2f7e370dc71bc0713535d3d017486cc4">MRE::CT::Cuda::Reconstructor</a>
+</li>
+<li>getEventsCount()
+: <a class="el" href="classMR_1_1Viewer.html#a3a012b7e7bb46bac6add3bd52b415ddc">MR::Viewer</a>
 </li>
 <li>getFaceDegree()
 : <a class="el" href="classMR_1_1MeshTopology.html#a6c8db8bf93e14dfbacb28ff9a388e9e1">MR::MeshTopology</a>
@@ -337,14 +338,20 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>getIsoValue()
 : <a class="el" href="classMR_1_1ObjectVoxels.html#a2ce02d5c6f811849926b7409f892983f">MR::ObjectVoxels</a>
 </li>
+<li>getJsonValue()
+: <a class="el" href="classMR_1_1Config.html#ad2eb8802aad4bfd9072566fa434036ce">MR::Config</a>
+</li>
 <li>getLabels()
 : <a class="el" href="classMR_1_1VisualObject.html#a3b925b9190b3ea495839b9065e7f087b">MR::VisualObject</a>
 </li>
 <li>getLabelsColor()
 : <a class="el" href="classMR_1_1VisualObject.html#af9086a6746bce945035abe4da13184cc">MR::VisualObject</a>
 </li>
+<li>getLastFrameGLPrimitivesCount()
+: <a class="el" href="classMR_1_1Viewer.html#ace616c44d943ccb4671a9c5180090bbf">MR::Viewer</a>
+</li>
 <li>getLastICPInfo()
-: <a class="el" href="classMR_1_1MeshICP.html#a0896143e95bfc6555f1a8a9fe35cb22f">MR::MeshICP</a>
+: <a class="el" href="classMR_1_1MeshICP.html#ad5249dd5fcfc31b2a66bd7535fe1c53a">MR::MeshICP</a>
 </li>
 <li>getLeafPointRange()
 : <a class="el" href="structMR_1_1AABBTreePoints_1_1Node.html#ab236ce18f72ae9a6964d0074e94ff1ec">MR::AABBTreePoints::Node</a>
@@ -390,8 +397,15 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>getMaxIndex()
 : <a class="el" href="classMR_1_1DistanceMap.html#af2878d7f1f7097877ed8ef50464acf31">MR::DistanceMap</a>
 </li>
+<li>getMeanSqDistToPlane()
+: <a class="el" href="classMR_1_1MeshICP.html#a795a1a78fe9e187ca8f465daf5bd43ed">MR::MeshICP</a>
+</li>
+<li>getMeanSqDistToPoint()
+: <a class="el" href="classMR_1_1MeshICP.html#adab7b4236293f09f23351a64f682dbff">MR::MeshICP</a>
+</li>
 <li>getMenuFontPath()
 : <a class="el" href="classMR_1_1Menu.html#a9d21a0a8fe660564bec790d657b0b7bb">MR::Menu</a>
+, <a class="el" href="classMR_1_1RibbonMenu.html#ac60708d073d431fe51934044e473b07c">MR::RibbonMenu</a>
 </li>
 <li>getMenuPlugin()
 : <a class="el" href="classMR_1_1Viewer.html#aa76ca67ff4fbc1531b689b4615fd7d55">MR::Viewer</a>
@@ -418,14 +432,17 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>getMousePointInfo()
 : <a class="el" href="classMR_1_1Viewer.html#a1c6d6007f6c14032798d4baa7af0099c">MR::Viewer</a>
 </li>
-<li>getMSD()
-: <a class="el" href="classMR_1_1MeshICP.html#aa3e5e19c4eb6e0737941c6363e2cbd00">MR::MeshICP</a>
-</li>
 <li>getMutex()
 : <a class="el" href="classMR_1_1MutexOwner.html#aabe9de848e50661e633a5299a38650f9">MR::MutexOwner</a>
 </li>
 <li>getNActions()
 : <a class="el" href="classMR_1_1HistoryStore.html#a4c0cb2782254c6c88ecddf61b7decf6c">MR::HistoryStore</a>
+</li>
+<li>getName()
+: <a class="el" href="structMR_1_1MeshColors.html#a901133e466d7e108663bbcb778ffc252">MR::MeshColors</a>
+</li>
+<li>getNeededNormalsRenderDirtyValue()
+: <a class="el" href="classMR_1_1ObjectMesh.html#ac0aa053e6435b604f375fd459d030660">MR::ObjectMesh</a>
 </li>
 <li>getNeighbor()
 : <a class="el" href="classMR_1_1VolumeIndexer.html#a70480624af713d6c33abe8a12d5fa6ef">MR::VolumeIndexer</a>
@@ -449,6 +466,9 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>getParams()
 : <a class="el" href="classMR_1_1MeshICP.html#ae320e89628d88a74aed76063ff9d0c08">MR::MeshICP</a>
 </li>
+<li>getPartMapping()
+: <a class="el" href="classMR_1_1HashToVectorMappingConverter.html#a8de31e77206c6d500ba0f43ca7954546">MR::HashToVectorMappingConverter</a>
+</li>
 <li>getPathLeftFaces()
 : <a class="el" href="classMR_1_1MeshTopology.html#a964fa03536a6e013623d52c8bebfc1fe">MR::MeshTopology</a>
 </li>
@@ -469,7 +489,8 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="classMR_1_1Viewer.html#a1b6baedfca2f052a1a72baae91383c1f">MR::Viewer</a>
 </li>
 <li>getPointSize()
-: <a class="el" href="classMR_1_1ObjectPoints.html#a69eceefc7e1c356a9662eff604d9dcfd">MR::ObjectPoints</a>
+: <a class="el" href="classMR_1_1ObjectLines.html#aa1579ecfdc75fc5355d9940ff406a0c0">MR::ObjectLines</a>
+, <a class="el" href="classMR_1_1ObjectPoints.html#a69eceefc7e1c356a9662eff604d9dcfd">MR::ObjectPoints</a>
 </li>
 <li>getPointsWithColors()
 : <a class="el" href="classMR_1_1Viewport.html#a0865998a407f8e46e8ec82707aabe495">MR::Viewport</a>
@@ -477,6 +498,12 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 </li>
 <li>getPresentViewports()
 : <a class="el" href="classMR_1_1Viewer.html#a31d6494e00e43d9afe0c2ca0c089c075">MR::Viewer</a>
+</li>
+<li>getPreset()
+: <a class="el" href="classMR_1_1ColorTheme.html#a7256014620791ee160d6f0dfc56dde4f">MR::ColorTheme</a>
+</li>
+<li>getPrevFrameDrawTimeMillisec()
+: <a class="el" href="classMR_1_1Viewer.html#a5c48b19028ccba529253fb3dc447f168">MR::Viewer</a>
 </li>
 <li>getPreviewLinesDepthTest()
 : <a class="el" href="classMR_1_1Viewport.html#a505b5fbc58a0e17312cea2e628200467">MR::Viewport</a>
@@ -495,6 +522,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 </li>
 <li>getRedrawFlag()
 : <a class="el" href="classMR_1_1Object.html#a4ae8a13d0528c5937e200015938b6dc5">MR::Object</a>
+, <a class="el" href="classMR_1_1ObjectMesh.html#a51177f9993bcd08ee4032954977424e5">MR::ObjectMesh</a>
 , <a class="el" href="classMR_1_1Viewport.html#a37332cce582bf8cc2203f972a6350a3c">MR::Viewport</a>
 , <a class="el" href="classMR_1_1VisualObject.html#a08a44c8bd562c85361950682c997f752">MR::VisualObject</a>
 </li>
@@ -509,6 +537,9 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 </li>
 <li>getResult()
 : <a class="el" href="classMRE_1_1CT_1_1Cuda_1_1Reconstructor.html#ac28a897492344c5d986eb0099fe3940c">MRE::CT::Cuda::Reconstructor</a>
+</li>
+<li>getRibbonColor()
+: <a class="el" href="classMR_1_1ColorTheme.html#a392e9d1b9527078466ae6301e5924370">MR::ColorTheme</a>
 </li>
 <li>getRibbonSchema()
 : <a class="el" href="classMR_1_1RibbonMenu.html#af3f8c9ebe3ac8b99db237616253272f6">MR::RibbonMenu</a>
@@ -527,6 +558,9 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 </li>
 <li>getScopeBlock()
 : <a class="el" href="classMR_1_1HistoryStore.html#aa63c19f10e6a9705ef93383a4313d381">MR::HistoryStore</a>
+</li>
+<li>getScreenLoop()
+: <a class="el" href="classMR_1_1SelectScreenLasso.html#a5de4dab1223d711fd7e3f0c8a844103c">MR::SelectScreenLasso</a>
 </li>
 <li>getSeeds()
 : <a class="el" href="classMR_1_1VolumeSegmenter.html#afa2f6a062bc84c0ca1d3bf75b38bc98b">MR::VolumeSegmenter</a>
@@ -550,13 +584,10 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="classMR_1_1SceneRoot.html#a15d2ecba997292827366395cf2d1f616">MR::SceneRoot</a>
 </li>
 <li>getShiftVector()
-: <a class="el" href="classMR_1_1MeshICP.html#adcda66df02de3824424198413f214f19">MR::MeshICP</a>
+: <a class="el" href="classMR_1_1MeshICP.html#a2d920a24ae7ef1435720966ad5836229">MR::MeshICP</a>
 </li>
 <li>getShininess()
 : <a class="el" href="classMR_1_1VisualObject.html#a1a152f22b671a1cf98ddcf43db92b1da">MR::VisualObject</a>
-</li>
-<li>getSmoothConnections()
-: <a class="el" href="classMR_1_1ObjectLines.html#ab7439f828d4dc2cfbcacf1177e4da44f">MR::ObjectLines</a>
 </li>
 <li>getSpdLogger()
 : <a class="el" href="classMR_1_1Logger.html#a77568a9e2af60ab7d6cbe9e1f5053328">MR::Logger</a>
@@ -575,6 +606,9 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 </li>
 <li>getSubtrees()
 : <a class="el" href="classMR_1_1AABBTree.html#a48ccf51d2424e5b1d1078cba333e85f8">MR::AABBTree</a>
+</li>
+<li>getSwappedFrames()
+: <a class="el" href="classMR_1_1Viewer.html#a92e42c9709217410c53a0b3c311c537a">MR::Viewer</a>
 </li>
 <li>getTab()
 : <a class="el" href="classMR_1_1MeshModifier.html#adfd5e0484ece07523b45d53bcfa6eefd">MR::MeshModifier</a>
@@ -604,7 +638,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 , <a class="el" href="classMR_1_1DistanceMapPlugin.html#acd8a947ca92b1f3036b2363e7648b57d">MR::DistanceMapPlugin</a>
 , <a class="el" href="classMR_1_1FillHolesPlugin.html#a9b316fabf5bfcb4800eced246c9aa684">MR::FillHolesPlugin</a>
 , <a class="el" href="classMR_1_1FillTunnelPlugin.html#a7d8abd13e9b75495c68406aa776c7e2e">MR::FillTunnelPlugin</a>
-, <a class="el" href="classMR_1_1FixSpikesPlugin.html#aaff3196932b008d8a1bfe9f4dcb74100">MR::FixSpikesPlugin</a>
+, <a class="el" href="classMR_1_1FixSpikesPlugin.html#a789299fba2153bf249cca6c6c73e91ef">MR::FixSpikesPlugin</a>
 , <a class="el" href="classMR_1_1FixUndercutsPlugin.html#abf5746e3722d1edc1c87fb4a4e4afd6a">MR::FixUndercutsPlugin</a>
 , <a class="el" href="classMR_1_1FreeFormTransformPlugin.html#a1efe87c610fcb14b0f876b3295fbadd3">MR::FreeFormTransformPlugin</a>
 , <a class="el" href="classMR_1_1GeodesicPathPlugin.html#a7b6e33e6305c39a4c4f9d56be8ca9bee">MR::GeodesicPathPlugin</a>
@@ -710,14 +744,23 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>getVertsNormals()
 : <a class="el" href="classMR_1_1VisualObject.html#a417936db4a893f3a5190532a24a5d0a3">MR::VisualObject</a>
 </li>
+<li>getViewerInstance
+: <a class="el" href="classMR_1_1Viewer.html#adf592d3c33d658d9d39d7647a825bb86">MR::Viewer</a>
+</li>
 <li>getViewMatrix()
 : <a class="el" href="classMR_1_1Viewport.html#a76203c0eb255b984813ef77fbd0c1d7d">MR::Viewport</a>
+</li>
+<li>getViewportBackgroundColor()
+: <a class="el" href="classMR_1_1ColorTheme.html#a700872894387299eade3ca1f74f9561c">MR::ColorTheme</a>
 </li>
 <li>getViewportRect()
 : <a class="el" href="classMR_1_1Viewport.html#a8239c895eb5f00284d87d5dfb22d0406">MR::Viewport</a>
 </li>
 <li>getViewports()
 : <a class="el" href="classMR_1_1Viewer.html#a507502ce28fcd0cb9281da4c20a366b3">MR::Viewer</a>
+</li>
+<li>getViewportsBounds()
+: <a class="el" href="classMR_1_1Viewer.html#a29b4a0913083878a3db4272e293dfe0f">MR::Viewer</a>
 </li>
 <li>getViewXf()
 : <a class="el" href="classMR_1_1Viewport.html#a3b6da13a15a322ebd3ea7c51bd2d4fb4">MR::Viewport</a>
@@ -726,7 +769,8 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="classMR_1_1VisualObject.html#a9709f115307bc66ddc037c9cd3337367">MR::VisualObject</a>
 </li>
 <li>getVisualizePropertyMask()
-: <a class="el" href="classMR_1_1ObjectMesh.html#ac5514a62d8d74583d03c16748d77ee28">MR::ObjectMesh</a>
+: <a class="el" href="classMR_1_1ObjectLines.html#a241ee3803592c650bbb338a90ea5fd87">MR::ObjectLines</a>
+, <a class="el" href="classMR_1_1ObjectMesh.html#ac5514a62d8d74583d03c16748d77ee28">MR::ObjectMesh</a>
 , <a class="el" href="classMR_1_1VisualObject.html#a470455edc0dde950f910b48cb98977b6">MR::VisualObject</a>
 </li>
 <li>getVisualizePropertyMask_()
@@ -765,6 +809,9 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>globalVisibilty()
 : <a class="el" href="classMR_1_1Object.html#a103bf9954aaca0397244cd744ddf5f3b">MR::Object</a>
 </li>
+<li>GLPrimitivesType
+: <a class="el" href="classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40">MR::Viewer</a>
+</li>
 <li>GLuint
 : <a class="el" href="classMR_1_1AlphaSortGL.html#a29e1a40f8ddae233dc49511e5daa9200">MR::AlphaSortGL</a>
 , <a class="el" href="classMR_1_1ShadersHolder.html#acf67b24591b6b98982dda3f005994996">MR::ShadersHolder</a>
@@ -784,6 +831,9 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 </li>
 <li>groupsMap
 : <a class="el" href="structMR_1_1RibbonMenu_1_1RibbonSchema.html#a1619041c6ce3778e08c66c6aad2e6cc3">MR::RibbonMenu::RibbonSchema</a>
+</li>
+<li>growOne()
+: <a class="el" href="classMR_1_1SurfaceDistanceBuilder.html#a2c536dc87c144291b79132239fe4d967">MR::SurfaceDistanceBuilder</a>
 </li>
 <li>guiContext_
 : <a class="el" href="classMR_1_1SplashWindow.html#a8e1b0c94c0dec969c8476897de435fdb">MR::SplashWindow</a>

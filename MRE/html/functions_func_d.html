@@ -104,8 +104,8 @@ $(document).ready(function(){initNavTree('functions_func_d.html',''); initResiza
 <li>dblArea()
 : <a class="el" href="structMR_1_1Mesh.html#a1e2a8eaf7d1882e02a3eea66d1d72349">MR::Mesh</a>
 </li>
-<li>DecimateParallelPlugin()
-: <a class="el" href="classMRE_1_1DecimateParallelPlugin.html#a5d1c68fcccabd94206ceb54d587122af">MRE::DecimateParallelPlugin</a>
+<li>DecimateAggregatePlugin()
+: <a class="el" href="classMRE_1_1DecimateAggregatePlugin.html#ae3ac08f115a023f716d586215287a577">MRE::DecimateAggregatePlugin</a>
 </li>
 <li>DecimatePlugin()
 : <a class="el" href="classMRE_1_1DecimatePlugin.html#a4f31a4011a2ae911b31abf6a6e30054e">MRE::DecimatePlugin</a>
@@ -167,7 +167,11 @@ $(document).ready(function(){initNavTree('functions_func_d.html',''); initResiza
 , <a class="el" href="structMR_1_1Vector4.html#aae32c22644b25c26b237f41ac439da53">MR::Vector4&lt; T &gt;</a>
 </li>
 <li>dialogIsOpen()
-: <a class="el" href="classMR_1_1StateBasePlugin.html#acabc75a5455850b49b38a141b525d9cc">MR::StateBasePlugin</a>
+: <a class="el" href="classMR_1_1StateBasePlugin.html#ad91197be262f6b569d9234033d73bb8d">MR::StateBasePlugin</a>
+, <a class="el" href="classMRE_1_1DecimateAggregatePlugin.html#ade4e08f0a08162915f8806c95a6ffad2">MRE::DecimateAggregatePlugin</a>
+</li>
+<li>dihedralAngleCos()
+: <a class="el" href="structMR_1_1Mesh.html#a9c4d65a107852ec64efc339f59866c44">MR::Mesh</a>
 </li>
 <li>dihedralAngleSin()
 : <a class="el" href="structMR_1_1Mesh.html#a51a4276db370b27809ff25575c9a6e5e">MR::Mesh</a>
@@ -192,9 +196,6 @@ $(document).ready(function(){initNavTree('functions_func_d.html',''); initResiza
 <li>DistanceComparePlugin()
 : <a class="el" href="classMR_1_1DistanceComparePlugin.html#a05efc55a138b5120d8482116fbb3a987">MR::DistanceComparePlugin</a>
 </li>
-<li>DistanceCompareTest()
-: <a class="el" href="classMR_1_1DistanceCompareTest.html#af91125aab9d947ddf001f9778d707658">MR::DistanceCompareTest</a>
-</li>
 <li>DistanceMap()
 : <a class="el" href="classMR_1_1DistanceMap.html#a4488979d529038d712bb847568b214d1">MR::DistanceMap</a>
 </li>
@@ -210,6 +211,9 @@ $(document).ready(function(){initNavTree('functions_func_d.html',''); initResiza
 <li>DistanceMapDiffPlugin()
 : <a class="el" href="classMR_1_1DistanceMapDiffPlugin.html#ab2ae012bbf98c8314c766f40cd5148d0">MR::DistanceMapDiffPlugin</a>
 </li>
+<li>DistanceMapImagePlugin()
+: <a class="el" href="classMR_1_1DistanceMapImagePlugin.html#ad77f77b5423f46991f91a559eff819ef">MR::DistanceMapImagePlugin</a>
+</li>
 <li>DistanceMapIsoLinesPlugin()
 : <a class="el" href="classMR_1_1DistanceMapIsoLinesPlugin.html#a1ad6323a4e577e0e1afdb82f5c536c8a">MR::DistanceMapIsoLinesPlugin</a>
 </li>
@@ -224,6 +228,12 @@ $(document).ready(function(){initNavTree('functions_func_d.html',''); initResiza
 </li>
 <li>DocumentationMenuItem()
 : <a class="el" href="classMR_1_1DocumentationMenuItem.html#a0eac19ed5fbba8d835debd38428ac87a">MR::DocumentationMenuItem</a>
+</li>
+<li>done()
+: <a class="el" href="classMR_1_1SurfaceDistanceBuilder.html#ac10dab2b68dd9de618eeb1ce16471e23">MR::SurfaceDistanceBuilder</a>
+</li>
+<li>doneDistance()
+: <a class="el" href="classMR_1_1SurfaceDistanceBuilder.html#a66781dd9ecf7009c090fffa4c7d0e6f7">MR::SurfaceDistanceBuilder</a>
 </li>
 <li>drag_drop()
 : <a class="el" href="classMR_1_1Viewer.html#ab67bea392a3b6dacf5358f30dceed033">MR::Viewer</a>
@@ -255,6 +265,9 @@ $(document).ready(function(){initNavTree('functions_func_d.html',''); initResiza
 <li>draw_mr_menu()
 : <a class="el" href="classMR_1_1Menu.html#a5b9f8c2589b67ffc5faaee8ac6f264fa">MR::Menu</a>
 </li>
+<li>draw_object_recurse_()
+: <a class="el" href="classMR_1_1Menu.html#a5029d2f61cde21101878dd93d7d736e6">MR::Menu</a>
+</li>
 <li>draw_scene_list()
 : <a class="el" href="classMR_1_1Menu.html#a08dab0e7823f9ed0df9c2ee7920a1b21">MR::Menu</a>
 </li>
@@ -267,11 +280,23 @@ $(document).ready(function(){initNavTree('functions_func_d.html',''); initResiza
 <li>draw_selection_properties_content()
 : <a class="el" href="classMR_1_1Menu.html#a617406867f65f2ba8a8972f24605eab8">MR::Menu</a>
 </li>
-<li>drawActiveDialog_()
-: <a class="el" href="classMR_1_1RibbonMenu.html#aff0c08c2ad15ea167636ee43c5fa5366">MR::RibbonMenu</a>
+<li>drawActiveBlockingDialog_()
+: <a class="el" href="classMR_1_1RibbonMenu.html#a536aa66aca49a47e58d15a786e574cb9">MR::RibbonMenu</a>
+</li>
+<li>drawActiveNonBlockingDialogs_()
+: <a class="el" href="classMR_1_1RibbonMenu.html#a2b8f24d719c5b2f849c6a2da6a8e6a05">MR::RibbonMenu</a>
+</li>
+<li>drawBigButtonItem_()
+: <a class="el" href="classMR_1_1RibbonMenu.html#a67906df788caa39e03d62d6df651f050">MR::RibbonMenu</a>
 </li>
 <li>drawBorder()
 : <a class="el" href="classMR_1_1ViewportGL.html#a8cc680f180a77f80d11be057c4774371">MR::ViewportGL</a>
+</li>
+<li>drawButtonDropItem_()
+: <a class="el" href="classMR_1_1RibbonMenu.html#a853f5eaf2845ee2929f18d144078205f">MR::RibbonMenu</a>
+</li>
+<li>drawButtonItem_()
+: <a class="el" href="classMR_1_1RibbonMenu.html#a285e7ca56159e70f3c1e42242928b884">MR::RibbonMenu</a>
 </li>
 <li>drawDialog()
 : <a class="el" href="classMR_1_1AlignManuallyPlugin.html#a35c0982f915f588c266bba05a4525376">MR::AlignManuallyPlugin</a>
@@ -317,10 +342,11 @@ $(document).ready(function(){initNavTree('functions_func_d.html',''); initResiza
 , <a class="el" href="classMR_1_1PythonPlugin.html#ab36f965c8f17dfdc5c93dd5da2477fee">MR::PythonPlugin</a>
 , <a class="el" href="classMR_1_1RegularMapMeshingPlugin.html#a2fd3e101e2b5a6ff376a3abf79908bf7">MR::RegularMapMeshingPlugin</a>
 , <a class="el" href="classMR_1_1RelaxPlugin.html#accbca9f092d84b80d5137dbd1aa1c0a4">MR::RelaxPlugin</a>
-, <a class="el" href="classMR_1_1RemesherPlugin.html#aaf65bb6e25a574ed117f61bbde922b46">MR::RemesherPlugin</a>
+, <a class="el" href="classMR_1_1RemesherPlugin.html#ab849d2dc17bf270ba1c06f452101d8a1">MR::RemesherPlugin</a>
 , <a class="el" href="classMR_1_1ScalePlugin.html#ac986fb2b395d9e6265bcc05f3b0f6232">MR::ScalePlugin</a>
 , <a class="el" href="classMR_1_1SelectComponent.html#a95f759910dd17606ce2ed0b431f44a13">MR::SelectComponent</a>
 , <a class="el" href="classMR_1_1SelectComponentByAreaPlugin.html#ae42ba8553c3f754031ff382122a436aa">MR::SelectComponentByAreaPlugin</a>
+, <a class="el" href="classMR_1_1SelectCreasesByAngle.html#a1a378a16679203dfa6980a446d5b0bf1">MR::SelectCreasesByAngle</a>
 , <a class="el" href="classMR_1_1SelectDegenerateTriangles.html#a60197db91d958846db77c6c735ef2e2b">MR::SelectDegenerateTriangles</a>
 , <a class="el" href="classMR_1_1SelfIntersectionHealerPlugin.html#a9b2c0360e9d9cc1cc256e220891e057a">MR::SelfIntersectionHealerPlugin</a>
 , <a class="el" href="classMR_1_1SetActiveVoxelsBoxPlugin.html#af9480f0181ff10dd933235611cbaf7a6">MR::SetActiveVoxelsBoxPlugin</a>
@@ -334,19 +360,32 @@ $(document).ready(function(){initNavTree('functions_func_d.html',''); initResiza
 , <a class="el" href="classMR_1_1SurfaceDistancePlugin.html#a2266d7322762aaf05b922b0eb36a5f37">MR::SurfaceDistancePlugin</a>
 , <a class="el" href="classMR_1_1TextMeshPlugin.html#a4854c23152ecee89df9a12ac37bfc372">MR::TextMeshPlugin</a>
 , <a class="el" href="classMR_1_1TextOnMeshPlugin.html#a8e2de1491d4e28e9e279f77033049009">MR::TextOnMeshPlugin</a>
+, <a class="el" href="classMR_1_1ViewerSettingsPlugin.html#aa3136158e1089ababa4e2e3a902627aa">MR::ViewerSettingsPlugin</a>
 , <a class="el" href="classMR_1_1VisualizeDCM.html#a84bc656a82f4f9366729adc21a5f7feb">MR::VisualizeDCM</a>
 , <a class="el" href="classMR_1_1VoxelsDrawSeedsOnSlicePlugin.html#a50bb692a5c98f47cb2272dfcd9f5ca35">MR::VoxelsDrawSeedsOnSlicePlugin</a>
 , <a class="el" href="classMR_1_1VoxelsPathPlugin.html#a61acafcd516e3497611706c72d95fc58">MR::VoxelsPathPlugin</a>
 , <a class="el" href="classMR_1_1VoxlesSlicePlugin.html#a93476bcd73e5540280073bb1bc0b77de">MR::VoxlesSlicePlugin</a>
 , <a class="el" href="classMRE_1_1CTReconstructionPlugin.html#a59ebab640940a602e66fd2f875578bd2">MRE::CTReconstructionPlugin</a>
 , <a class="el" href="classMRE_1_1CutMeshWithPlanePlugin.html#a4ef8e1f0ae4c2b0cee410dad44cf6d57">MRE::CutMeshWithPlanePlugin</a>
-, <a class="el" href="classMRE_1_1DecimateParallelPlugin.html#aa8cb36de515208a6fa76bcb6fc13ebb4">MRE::DecimateParallelPlugin</a>
+, <a class="el" href="classMRE_1_1DecimateAggregatePlugin.html#a5453bfcdda308f185dcc2c12a282c6e5">MRE::DecimateAggregatePlugin</a>
 , <a class="el" href="classMRE_1_1DecimatePlugin.html#a8b763431661ee86bca9bc6257ca307fe">MRE::DecimatePlugin</a>
 , <a class="el" href="classMRE_1_1DecimatePolylinePlugin.html#a70b23e954355496e59af58229876a444">MRE::DecimatePolylinePlugin</a>
 , <a class="el" href="classMRE_1_1OffsetPlugin.html#aaec3e09824350d6eb4c1c13a53df6507">MRE::OffsetPlugin</a>
 , <a class="el" href="classMRE_1_1PointsTriangulationPlugin.html#ac782317fe3eee25afe2e0f535b37cfed">MRE::PointsTriangulationPlugin</a>
 , <a class="el" href="classMRE_1_1TrueBooleanPlugin.html#a9b3ad249933c8eb4db1b2721b3d78b28">MRE::TrueBooleanPlugin</a>
 , <a class="el" href="classMRE_1_1TwoPointsSegmentation.html#acc6dd84a5c4e0051a84b8e3ab4028ace">MRE::TwoPointsSegmentation</a>
+</li>
+<li>drawDrawOptions_()
+: <a class="el" href="classMR_1_1Menu.html#a224dee253b99846146e39bde886e1d8b">MR::Menu</a>
+</li>
+<li>drawDropList_()
+: <a class="el" href="classMR_1_1RibbonMenu.html#ac60ccf3f5c7e73541291b84686874b40">MR::RibbonMenu</a>
+</li>
+<li>drawGeneralOptions_()
+: <a class="el" href="classMR_1_1Menu.html#a60085e8f35598b700fa36caac4be63cc">MR::Menu</a>
+</li>
+<li>drawItemDialog_()
+: <a class="el" href="classMR_1_1RibbonMenu.html#a842d003c447ddd1af577f4cb2ffb9021">MR::RibbonMenu</a>
 </li>
 <li>drawItemsGroup_()
 : <a class="el" href="classMR_1_1RibbonMenu.html#a8cd4e6e520e59914a7fc6e7abd6319dc">MR::RibbonMenu</a>
@@ -357,17 +396,48 @@ $(document).ready(function(){initNavTree('functions_func_d.html',''); initResiza
 <li>drawPoints()
 : <a class="el" href="classMR_1_1ViewportGL.html#aeacc43c36765bcbe6806cdde7a1062d5">MR::ViewportGL</a>
 </li>
+<li>drawQuickAccessMenu()
+: <a class="el" href="classMR_1_1RibbonMenu.html#ac08275ed5f7a4d217ee28ddf712f918b">MR::RibbonMenu</a>
+</li>
+<li>drawRemoveButton_()
+: <a class="el" href="classMR_1_1Menu.html#a6020708eed68c58c437b26e72af215d8">MR::Menu</a>
+</li>
+<li>drawRibbonSceneInformation()
+: <a class="el" href="classMR_1_1RibbonMenu.html#a8367a664e1a6454829698596927348f2">MR::RibbonMenu</a>
+</li>
+<li>drawRibbonSceneList_()
+: <a class="el" href="classMR_1_1RibbonMenu.html#a6fce627598628e9ccfc665fa375048db">MR::RibbonMenu</a>
+</li>
+<li>drawRibbonSceneListContent()
+: <a class="el" href="classMR_1_1RibbonMenu.html#aac084d287816b46e16630536735b2a57">MR::RibbonMenu</a>
+</li>
 <li>drawScene()
 : <a class="el" href="classMR_1_1Viewer.html#a36809128dc93b900e68be7d81ba79704">MR::Viewer</a>
 </li>
-<li>drawSingleItem_()
-: <a class="el" href="classMR_1_1RibbonMenu.html#a7db01ab698c95a60afa0be0baaef502c">MR::RibbonMenu</a>
+<li>drawSceneContextMenu_()
+: <a class="el" href="classMR_1_1Menu.html#a8aca215140567c89ce0e686679bd1b29">MR::Menu</a>
+, <a class="el" href="classMR_1_1RibbonMenu.html#a3133035a3ea8f42cdeba64c992283ad6">MR::RibbonMenu</a>
+</li>
+<li>drawSelectionInformation_()
+: <a class="el" href="classMR_1_1Menu.html#a5d17ab81f03cd7f2494a86042a0608aa">MR::Menu</a>
+</li>
+<li>drawSmallButtonsSet_()
+: <a class="el" href="classMR_1_1RibbonMenu.html#a894eeab4ec9f88dcd67ece601a94e9ea">MR::RibbonMenu</a>
 </li>
 <li>drawTooltip_()
 : <a class="el" href="classMR_1_1RibbonMenu.html#a905b4b9a8ff8629fbefdcb9480b4794a">MR::RibbonMenu</a>
 </li>
+<li>drawTransform_()
+: <a class="el" href="classMR_1_1Menu.html#a9ab3701626b0fad5bb1823efcc0f290d">MR::Menu</a>
+</li>
 <li>drawTransparencyTextureToScreen()
 : <a class="el" href="classMR_1_1AlphaSortGL.html#a8ce534a2e3836fdcf88ee61badbb7eac">MR::AlphaSortGL</a>
+</li>
+<li>dropItems()
+: <a class="el" href="classMR_1_1OpenFilesMenuItem.html#a05fa5ad2b64772c8c193515f8c8e844b">MR::OpenFilesMenuItem</a>
+, <a class="el" href="classMR_1_1RedoMenuItem.html#afab3b3d1f605536f0496a642ff175c16">MR::RedoMenuItem</a>
+, <a class="el" href="classMR_1_1RibbonMenuDropItem.html#a58e685f88dfe4926605b8be1d69f9fb7">MR::RibbonMenuDropItem</a>
+, <a class="el" href="classMR_1_1UndoMenuItem.html#a284b3c169f7b4e4c2ea32a5ebb70698b">MR::UndoMenuItem</a>
 </li>
 <li>DynamicArray()
 : <a class="el" href="classMRE_1_1Cuda_1_1DynamicArray.html#a3f85ffe528da8c5ae54fce86cb7c80bb">MRE::Cuda::DynamicArray&lt; T &gt;</a>

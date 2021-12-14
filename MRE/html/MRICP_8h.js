@@ -4,9 +4,9 @@ var MRICP_8h =
     [ "ICPProperties", "structMR_1_1ICPProperties.html", "structMR_1_1ICPProperties" ],
     [ "MeshICP", "classMR_1_1MeshICP.html", "classMR_1_1MeshICP" ],
     [ "ICPMethod", "MRICP_8h.html#adc079b022ca7581fe4f508ab8f6a80ec", [
-      [ "Combined", "MRICP_8h.html#adc079b022ca7581fe4f508ab8f6a80eca502cc75251f8ca4a454297be2146ef94", null ],
-      [ "PointToPoint", "MRICP_8h.html#adc079b022ca7581fe4f508ab8f6a80eca04cf1d449a94c748d561df329e72d3c7", null ],
-      [ "PointToPlane", "MRICP_8h.html#adc079b022ca7581fe4f508ab8f6a80ecac1f6f7fcdbf302503a3aca3a1cecf4c9", null ]
+      [ "Combined", "MRICP_8h.html#adc079b022ca7581fe4f508ab8f6a80eca55f4b4a94111759e08b3acb1acd12b8c", null ],
+      [ "PointToPoint", "MRICP_8h.html#adc079b022ca7581fe4f508ab8f6a80ecacabf254f8195fce8d901b3cce7092ea9", null ],
+      [ "PointToPlane", "MRICP_8h.html#adc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed", null ]
     ] ],
     [ "ICPMode", "MRICP_8h.html#a2f8db848fea33b9619ade1fc1ac08677", [
       [ "AnyRigidXf", "MRICP_8h.html#a2f8db848fea33b9619ade1fc1ac08677a1662b3d601f436e62a0bf6529440eaef", null ],

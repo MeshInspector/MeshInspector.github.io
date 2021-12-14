@@ -13,6 +13,7 @@ var structMR_1_1Polyline2 =
     [ "invalidateCaches", "structMR_1_1Polyline2.html#ae3b5ec07e8c6d4622ff0485e7649d735", null ],
     [ "orgPnt", "structMR_1_1Polyline2.html#a2792251fda7e46f038bef5d15cef34d6", null ],
     [ "toPolyline3", "structMR_1_1Polyline2.html#afeedfdefab9f93e934cea574f1e4266c", null ],
+    [ "transform", "structMR_1_1Polyline2.html#a0e94b43bb9c890ef03f89ed5e24b2863", null ],
     [ "points", "structMR_1_1Polyline2.html#aacdfab6d35721f5fcc29e5025c04d61c", null ],
     [ "topology", "structMR_1_1Polyline2.html#a1b11b07f6c85b2e380eebdfab97b0bc9", null ]
 ];

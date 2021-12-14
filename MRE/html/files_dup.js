@@ -11,12 +11,13 @@ var files_dup =
       [ "Node", "structMR_1_1AABBTreePoints_1_1Node.html", "structMR_1_1AABBTreePoints_1_1Node" ],
       [ "Point", "structMR_1_1AABBTreePoints_1_1Point.html", "structMR_1_1AABBTreePoints_1_1Point" ]
     ] ],
-    [ "MRAABBTreePolyline2.h", "MRAABBTreePolyline2_8h.html", [
-      [ "AABBTreePolyline2", "classMR_1_1AABBTreePolyline2.html", "classMR_1_1AABBTreePolyline2" ]
+    [ "MRAABBTreePolyline.h", "MRAABBTreePolyline_8h.html", [
+      [ "PolylineTraits< Vector2f >", "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html", "structMR_1_1PolylineTraits_3_01Vector2f_01_4" ],
+      [ "PolylineTraits< Vector3f >", "structMR_1_1PolylineTraits_3_01Vector3f_01_4.html", "structMR_1_1PolylineTraits_3_01Vector3f_01_4" ],
+      [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html", "classMR_1_1AABBTreePolyline" ]
     ] ],
-    [ "MRAABBTreePolyline3.h", "MRAABBTreePolyline3_8h.html", [
-      [ "AABBTreePolyline3", "classMR_1_1AABBTreePolyline3.html", "classMR_1_1AABBTreePolyline3" ]
-    ] ],
+    [ "MRAABBTreePolyline2.h", "MRAABBTreePolyline2_8h.html", null ],
+    [ "MRAABBTreePolyline3.h", "MRAABBTreePolyline3_8h.html", null ],
     [ "MRAffineXf.h", "MRAffineXf_8h.html", "MRAffineXf_8h" ],
     [ "MRAffineXf2.h", "MRAffineXf2_8h.html", null ],
     [ "MRAffineXf3.h", "MRAffineXf3_8h.html", null ],
@@ -45,6 +46,9 @@ var files_dup =
     [ "MRBestFitPlugin.h", "MRBestFitPlugin_8h.html", [
       [ "BestFitPlugin", "classMR_1_1BestFitPlugin.html", "classMR_1_1BestFitPlugin" ]
     ] ],
+    [ "MRBestFitQuadric.h", "MRBestFitQuadric_8h.html", [
+      [ "QuadricApprox", "classMR_1_1QuadricApprox.html", "classMR_1_1QuadricApprox" ]
+    ] ],
     [ "MRBitSet.h", "MRBitSet_8h.html", "MRBitSet_8h" ],
     [ "MRBitSetParallelFor.h", "MRBitSetParallelFor_8h.html", "MRBitSetParallelFor_8h" ],
     [ "MRBoolean.h", "MRBoolean_8h.html", "MRBoolean_8h" ],
@@ -58,6 +62,9 @@ var files_dup =
     [ "MRCameraFacingSelection.h", "MRCameraFacingSelection_8h.html", "MRCameraFacingSelection_8h" ],
     [ "MRCameraOrientationPlugin.h", "MRCameraOrientationPlugin_8h.html", [
       [ "CameraOrientation", "classMR_1_1CameraOrientation.html", "classMR_1_1CameraOrientation" ]
+    ] ],
+    [ "MRChangeMeshAction.h", "MRChangeMeshAction_8h.html", [
+      [ "ChangeMeshAction", "classMR_1_1ChangeMeshAction.html", "classMR_1_1ChangeMeshAction" ]
     ] ],
     [ "MRChangeObjectAction.h", "MRChangeObjectAction_8h.html", [
       [ "ChangeObjectAction", "classMR_1_1ChangeObjectAction.html", "classMR_1_1ChangeObjectAction" ]
@@ -83,8 +90,15 @@ var files_dup =
       [ "CollisionPlugin", "classMR_1_1CollisionPlugin.html", "classMR_1_1CollisionPlugin" ]
     ] ],
     [ "MRColor.h", "MRColor_8h.html", "MRColor_8h" ],
+    [ "MRColorTheme.h", "MRColorTheme_8h.html", [
+      [ "ColorTheme", "classMR_1_1ColorTheme.html", "classMR_1_1ColorTheme" ]
+    ] ],
+    [ "MRColorThemeItems.h", "MRColorThemeItems_8h.html", [
+      [ "SerializeColorThemeItem", "classMR_1_1SerializeColorThemeItem.html", "classMR_1_1SerializeColorThemeItem" ],
+      [ "ApplyColorThemeItem", "classMR_1_1ApplyColorThemeItem.html", "classMR_1_1ApplyColorThemeItem" ]
+    ] ],
     [ "MRCombinedHistoryAction.h", "MRCombinedHistoryAction_8h.html", [
-      [ "CombinedHistoryActoin", "classMR_1_1CombinedHistoryActoin.html", "classMR_1_1CombinedHistoryActoin" ]
+      [ "CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html", "classMR_1_1CombinedHistoryAction" ]
     ] ],
     [ "MRCommandLoop.h", "MRCommandLoop_8h.html", [
       [ "CommandLoop", "classMR_1_1CommandLoop.html", "classMR_1_1CommandLoop" ]
@@ -94,6 +108,7 @@ var files_dup =
     ] ],
     [ "MRConfig.h", "MRConfig_8h.html", "MRConfig_8h" ],
     [ "MRConstants.h", "MRConstants_8h.html", null ],
+    [ "MRContour.h", "MRContour_8h.html", "MRContour_8h" ],
     [ "MRContoursStitch.h", "MRContoursStitch_8h.html", "MRContoursStitch_8h" ],
     [ "MRCreatePrimitive.h", "MRCreatePrimitive_8h.html", [
       [ "CreatePrimitive", "classMR_1_1CreatePrimitive.html", "classMR_1_1CreatePrimitive" ]
@@ -111,9 +126,6 @@ var files_dup =
     [ "MRDistanceComparePlugin.h", "MRDistanceComparePlugin_8h.html", [
       [ "DistanceComparePlugin", "classMR_1_1DistanceComparePlugin.html", "classMR_1_1DistanceComparePlugin" ]
     ] ],
-    [ "MRDistanceCompareTest.h", "MRDistanceCompareTest_8h.html", [
-      [ "DistanceCompareTest", "classMR_1_1DistanceCompareTest.html", "classMR_1_1DistanceCompareTest" ]
-    ] ],
     [ "MRDistanceMap.h", "MRDistanceMap_8h.html", "MRDistanceMap_8h" ],
     [ "MRDistanceMapBooleanPlugin.h", "MRDistanceMapBooleanPlugin_8h.html", [
       [ "DistanceMapBooleanPlugin", "classMR_1_1DistanceMapBooleanPlugin.html", "classMR_1_1DistanceMapBooleanPlugin" ]
@@ -126,6 +138,9 @@ var files_dup =
     ] ],
     [ "MRDistanceMapDiffPlugin.h", "MRDistanceMapDiffPlugin_8h.html", [
       [ "DistanceMapDiffPlugin", "classMR_1_1DistanceMapDiffPlugin.html", "classMR_1_1DistanceMapDiffPlugin" ]
+    ] ],
+    [ "MRDistanceMapImagePlugin.h", "MRDistanceMapImagePlugin_8h.html", [
+      [ "DistanceMapImagePlugin", "classMR_1_1DistanceMapImagePlugin.html", "classMR_1_1DistanceMapImagePlugin" ]
     ] ],
     [ "MRDistanceMapIsoLinesPlugin.h", "MRDistanceMapIsoLinesPlugin_8h.html", [
       [ "DistanceMapIsoLinesPlugin", "classMR_1_1DistanceMapIsoLinesPlugin.html", "classMR_1_1DistanceMapIsoLinesPlugin" ]
@@ -141,9 +156,6 @@ var files_dup =
     ] ],
     [ "MRDistanceMapSave.h", "MRDistanceMapSave_8h.html", "MRDistanceMapSave_8h" ],
     [ "MREBooleanOperation.h", "MREBooleanOperation_8h.html", "MREBooleanOperation_8h" ],
-    [ "MREBooleanTest.h", "MREBooleanTest_8h.html", [
-      [ "BooleanTest", "classMRE_1_1BooleanTest.html", "classMRE_1_1BooleanTest" ]
-    ] ],
     [ "MREContoursCut.h", "MREContoursCut_8h.html", "MREContoursCut_8h" ],
     [ "MREContoursSeparation.h", "MREContoursSeparation_8h.html", "MREContoursSeparation_8h" ],
     [ "MRECTCuda.h", "MRECTCuda_8h.html", "MRECTCuda_8h" ],
@@ -161,8 +173,8 @@ var files_dup =
     [ "MRECutMeshWithPlanePlugin.h", "MRECutMeshWithPlanePlugin_8h.html", [
       [ "CutMeshWithPlanePlugin", "classMRE_1_1CutMeshWithPlanePlugin.html", "classMRE_1_1CutMeshWithPlanePlugin" ]
     ] ],
-    [ "MREDecimateParallelPlugin.h", "MREDecimateParallelPlugin_8h.html", [
-      [ "DecimateParallelPlugin", "classMRE_1_1DecimateParallelPlugin.html", "classMRE_1_1DecimateParallelPlugin" ]
+    [ "MREDecimateAggregatePlugin.h", "MREDecimateAggregatePlugin_8h.html", [
+      [ "DecimateAggregatePlugin", "classMRE_1_1DecimateAggregatePlugin.html", "classMRE_1_1DecimateAggregatePlugin" ]
     ] ],
     [ "MREDecimatePlugin.h", "MREDecimatePlugin_8h.html", [
       [ "DecimatePlugin", "classMRE_1_1DecimatePlugin.html", "classMRE_1_1DecimatePlugin" ]
@@ -246,6 +258,7 @@ var files_dup =
     [ "MRGeodesicPathPlugin.h", "MRGeodesicPathPlugin_8h.html", [
       [ "GeodesicPathPlugin", "classMR_1_1GeodesicPathPlugin.html", "classMR_1_1GeodesicPathPlugin" ]
     ] ],
+    [ "MRGladGlfw.h", "MRGladGlfw_8h.html", "MRGladGlfw_8h" ],
     [ "MRGLMacro.h", "MRGLMacro_8h.html", "MRGLMacro_8h" ],
     [ "MRGridSampling.h", "MRGridSampling_8h.html", "MRGridSampling_8h" ],
     [ "MRGTest.h", "MRGTest_8h.html", null ],
@@ -265,12 +278,8 @@ var files_dup =
     [ "MRHistogram.h", "MRHistogram_8h.html", [
       [ "Histogram", "classMR_1_1Histogram.html", "classMR_1_1Histogram" ]
     ] ],
-    [ "MRHistoryAction.h", "MRHistoryAction_8h.html", [
-      [ "HistoryAction", "classMR_1_1HistoryAction.html", "classMR_1_1HistoryAction" ]
-    ] ],
-    [ "MRHistoryStore.h", "MRHistoryStore_8h.html", [
-      [ "HistoryStore", "classMR_1_1HistoryStore.html", "classMR_1_1HistoryStore" ]
-    ] ],
+    [ "MRHistoryAction.h", "MRHistoryAction_8h.html", "MRHistoryAction_8h" ],
+    [ "MRHistoryStore.h", "MRHistoryStore_8h.html", "MRHistoryStore_8h" ],
     [ "MRHttpTestPlugin.h", "MRHttpTestPlugin_8h.html", [
       [ "HttpTestPlugin", "classMR_1_1HttpTestPlugin.html", "classMR_1_1HttpTestPlugin" ]
     ] ],
@@ -294,6 +303,7 @@ var files_dup =
       [ "Parameters", "structMR_1_1MarkedVoxelSlice_1_1Parameters.html", "structMR_1_1MarkedVoxelSlice_1_1Parameters" ]
     ] ],
     [ "MRImmediateGL.h", "MRImmediateGL_8h.html", "MRImmediateGL_8h" ],
+    [ "MRIntersection.h", "MRIntersection_8h.html", "MRIntersection_8h" ],
     [ "MRIntersectionPrecomputes.h", "MRIntersectionPrecomputes_8h.html", "MRIntersectionPrecomputes_8h" ],
     [ "MRInverseSelection.h", "MRInverseSelection_8h.html", [
       [ "InverseSelection", "classMR_1_1InverseSelection.html", "classMR_1_1InverseSelection" ]
@@ -322,7 +332,8 @@ var files_dup =
       [ "LibraryDistancesTest", "classMR_1_1LibraryDistancesTest.html", "classMR_1_1LibraryDistancesTest" ]
     ] ],
     [ "MRLine3.h", "MRLine3_8h.html", "MRLine3_8h" ],
-    [ "MRLineSegm3.h", "MRLineSegm3_8h.html", "MRLineSegm3_8h" ],
+    [ "MRLineSegm.h", "MRLineSegm_8h.html", "MRLineSegm_8h" ],
+    [ "MRLineSegm3.h", "MRLineSegm3_8h.html", null ],
     [ "source/mrealgorithmspy/MRLoadModule.h", "source_2mrealgorithmspy_2MRLoadModule_8h.html", "source_2mrealgorithmspy_2MRLoadModule_8h" ],
     [ "MeshRUs/source/mrmeshpy/MRLoadModule.h", "MeshRUs_2source_2mrmeshpy_2MRLoadModule_8h.html", "MeshRUs_2source_2mrmeshpy_2MRLoadModule_8h" ],
     [ "MRLog.h", "MRLog_8h.html", "MRLog_8h" ],
@@ -401,6 +412,7 @@ var files_dup =
     [ "MRMeshViewer.h", "MRMeshViewer_8h.html", null ],
     [ "MRMeshViewerPlugin.h", "MRMeshViewerPlugin_8h.html", null ],
     [ "MRMeshViewport.h", "MRMeshViewport_8h.html", null ],
+    [ "MRMouse.h", "MRMouse_8h.html", "MRMouse_8h" ],
     [ "MRMoveToZero.h", "MRMoveToZero_8h.html", [
       [ "MoveToZero", "classMR_1_1MoveToZero.html", "classMR_1_1MoveToZero" ]
     ] ],
@@ -415,6 +427,7 @@ var files_dup =
     ] ],
     [ "MRObjectFactory.h", "MRObjectFactory_8h.html", "MRObjectFactory_8h" ],
     [ "MRObjectLines.h", "MRObjectLines_8h.html", [
+      [ "LinesVisualizePropertyType", "structMR_1_1LinesVisualizePropertyType.html", "structMR_1_1LinesVisualizePropertyType" ],
       [ "ObjectLines", "classMR_1_1ObjectLines.html", "classMR_1_1ObjectLines" ]
     ] ],
     [ "MRObjectLinesVisualizationTest.h", "MRObjectLinesVisualizationTest_8h.html", [
@@ -445,14 +458,12 @@ var files_dup =
       [ "Pallete", "classMR_1_1Pallete.html", "classMR_1_1Pallete" ]
     ] ],
     [ "MRPartMapping.h", "MRPartMapping_8h.html", [
-      [ "PartMapping", "structMR_1_1PartMapping.html", "structMR_1_1PartMapping" ]
+      [ "PartMapping", "structMR_1_1PartMapping.html", "structMR_1_1PartMapping" ],
+      [ "HashToVectorMappingConverter", "classMR_1_1HashToVectorMappingConverter.html", "classMR_1_1HashToVectorMappingConverter" ]
     ] ],
     [ "MRPdf.h", "MRPdf_8h.html", [
       [ "PdfParameters", "structMR_1_1PdfParameters.html", "structMR_1_1PdfParameters" ],
       [ "Pdf", "classMR_1_1Pdf.html", "classMR_1_1Pdf" ]
-    ] ],
-    [ "MRPerformanceTest.h", "MRPerformanceTest_8h.html", [
-      [ "PerformanceTest", "classMR_1_1PerformanceTest.html", "classMR_1_1PerformanceTest" ]
     ] ],
     [ "MRPerspectiveAlignPlugin.h", "MRPerspectiveAlignPlugin_8h.html", [
       [ "PerspectiveAlignPlugin", "classMR_1_1PerspectiveAlignPlugin.html", "classMR_1_1PerspectiveAlignPlugin" ]
@@ -470,6 +481,7 @@ var files_dup =
     ] ],
     [ "MRPointCloudMakeNormals.h", "MRPointCloudMakeNormals_8h.html", "MRPointCloudMakeNormals_8h" ],
     [ "MRPointCloudRadius.h", "MRPointCloudRadius_8h.html", "MRPointCloudRadius_8h" ],
+    [ "MRPointCloudRelax.h", "MRPointCloudRelax_8h.html", "MRPointCloudRelax_8h" ],
     [ "MRPointOnFace.h", "MRPointOnFace_8h.html", [
       [ "PointOnFace", "structMR_1_1PointOnFace.html", "structMR_1_1PointOnFace" ]
     ] ],
@@ -548,13 +560,12 @@ var files_dup =
     [ "MRRenderPointsObject.h", "MRRenderPointsObject_8h.html", [
       [ "RenderPointsObject", "classMR_1_1RenderPointsObject.html", "classMR_1_1RenderPointsObject" ]
     ] ],
-    [ "MRRenderTest.h", "MRRenderTest_8h.html", [
-      [ "RenderTest", "classMR_1_1RenderTest.html", "classMR_1_1RenderTest" ]
+    [ "MRRestoringStreamsSink.h", "MRRestoringStreamsSink_8h.html", [
+      [ "LoggingStreambuf", "classMR_1_1LoggingStreambuf.html", "classMR_1_1LoggingStreambuf" ],
+      [ "RestoringStreamsSink", "classMR_1_1RestoringStreamsSink.html", "classMR_1_1RestoringStreamsSink" ]
     ] ],
     [ "MRRibbonMenu.h", "MRRibbonMenu_8h.html", "MRRibbonMenu_8h" ],
-    [ "MRRibbonMenuItem.h", "MRRibbonMenuItem_8h.html", [
-      [ "RibbonMenuItem", "classMR_1_1RibbonMenuItem.html", "classMR_1_1RibbonMenuItem" ]
-    ] ],
+    [ "MRRibbonMenuItem.h", "MRRibbonMenuItem_8h.html", "MRRibbonMenuItem_8h" ],
     [ "MRRingIterator.h", "MRRingIterator_8h.html", "MRRingIterator_8h" ],
     [ "MRSave.h", "MRSave_8h.html", [
       [ "Save", "classMR_1_1Save.html", "classMR_1_1Save" ]
@@ -579,6 +590,9 @@ var files_dup =
     [ "MRSelectComponent.h", "MRSelectComponent_8h.html", [
       [ "SelectComponent", "classMR_1_1SelectComponent.html", "classMR_1_1SelectComponent" ]
     ] ],
+    [ "MRSelectCreasesByAngle.h", "MRSelectCreasesByAngle_8h.html", [
+      [ "SelectCreasesByAngle", "classMR_1_1SelectCreasesByAngle.html", "classMR_1_1SelectCreasesByAngle" ]
+    ] ],
     [ "MRSelectDegenerateTriangles.h", "MRSelectDegenerateTriangles_8h.html", [
       [ "SelectDegenerateTriangles", "classMR_1_1SelectDegenerateTriangles.html", "classMR_1_1SelectDegenerateTriangles" ]
     ] ],
@@ -588,6 +602,7 @@ var files_dup =
     [ "MRSelectMultipleEdges.h", "MRSelectMultipleEdges_8h.html", [
       [ "SelectMultipleEdges", "classMR_1_1SelectMultipleEdges.html", "classMR_1_1SelectMultipleEdges" ]
     ] ],
+    [ "MRSelectScreenLasso.h", "MRSelectScreenLasso_8h.html", "MRSelectScreenLasso_8h" ],
     [ "MRSelectSelfIntersections.h", "MRSelectSelfIntersections_8h.html", [
       [ "SelectSelfIntersections", "classMR_1_1SelectSelfIntersections.html", "classMR_1_1SelectSelfIntersections" ]
     ] ],
@@ -646,6 +661,7 @@ var files_dup =
       [ "SubdividerPlugin", "classMR_1_1SubdividerPlugin.html", "classMR_1_1SubdividerPlugin" ]
     ] ],
     [ "MRSurfaceDistance.h", "MRSurfaceDistance_8h.html", "MRSurfaceDistance_8h" ],
+    [ "MRSurfaceDistanceBuilder.h", "MRSurfaceDistanceBuilder_8h.html", "MRSurfaceDistanceBuilder_8h" ],
     [ "MRSurfaceDistancePlugin.h", "MRSurfaceDistancePlugin_8h.html", [
       [ "SurfaceDistancePlugin", "classMR_1_1SurfaceDistancePlugin.html", "classMR_1_1SurfaceDistancePlugin" ]
     ] ],
@@ -710,14 +726,20 @@ var files_dup =
       [ "LoadListener", "structMR_1_1LoadListener.html", "structMR_1_1LoadListener" ],
       [ "DragDropListener", "structMR_1_1DragDropListener.html", "structMR_1_1DragDropListener" ],
       [ "PostResizeListener", "structMR_1_1PostResizeListener.html", "structMR_1_1PostResizeListener" ],
-      [ "InterruptCloseListener", "structMR_1_1InterruptCloseListener.html", "structMR_1_1InterruptCloseListener" ]
+      [ "InterruptCloseListener", "structMR_1_1InterruptCloseListener.html", "structMR_1_1InterruptCloseListener" ],
+      [ "PostRescaleListener", "structMR_1_1PostRescaleListener.html", "structMR_1_1PostRescaleListener" ]
     ] ],
+    [ "MRViewerFwd.h", "MRViewerFwd_8h.html", "MRViewerFwd_8h" ],
+    [ "MRViewerInstance.h", "MRViewerInstance_8h.html", "MRViewerInstance_8h" ],
     [ "MRViewerPlugin.h", "MRViewerPlugin_8h.html", [
       [ "ViewerPlugin", "classMR_1_1ViewerPlugin.html", "classMR_1_1ViewerPlugin" ]
     ] ],
     [ "MRViewerSettingsManager.h", "MRViewerSettingsManager_8h.html", [
       [ "IViewerSettingsManager", "classMR_1_1IViewerSettingsManager.html", "classMR_1_1IViewerSettingsManager" ],
       [ "ViewerSettingsManager", "classMR_1_1ViewerSettingsManager.html", "classMR_1_1ViewerSettingsManager" ]
+    ] ],
+    [ "MRViewerSettingsPlugin.h", "MRViewerSettingsPlugin_8h.html", [
+      [ "ViewerSettingsPlugin", "classMR_1_1ViewerSettingsPlugin.html", "classMR_1_1ViewerSettingsPlugin" ]
     ] ],
     [ "MRViewport.h", "MRViewport_8h.html", "MRViewport_8h" ],
     [ "MRViewportGL.h", "MRViewportGL_8h.html", "MRViewportGL_8h" ],
@@ -740,5 +762,6 @@ var files_dup =
     [ "MRVoxelsSave.h", "MRVoxelsSave_8h.html", "MRVoxelsSave_8h" ],
     [ "MRVoxelsSlicePlugin.h", "MRVoxelsSlicePlugin_8h.html", [
       [ "VoxlesSlicePlugin", "classMR_1_1VoxlesSlicePlugin.html", "classMR_1_1VoxlesSlicePlugin" ]
-    ] ]
+    ] ],
+    [ "MRVoxelsVolume.h", "MRVoxelsVolume_8h.html", "MRVoxelsVolume_8h" ]
 ];

@@ -1,10 +1,13 @@
 var structMR_1_1MeshColors =
 [
-    [ "backFacesColor", "structMR_1_1MeshColors.html#a910276c4127ccad152a7a4bb6f4460dc", null ],
-    [ "edgesColor", "structMR_1_1MeshColors.html#ac07165039b77b8bd997b5fcd35891c09", null ],
-    [ "labelsColor", "structMR_1_1MeshColors.html#a36c2cf2625be5553e769fb2c812575a8", null ],
-    [ "selectedEdgesColor", "structMR_1_1MeshColors.html#ab867137546cdcaf4b13a071ee76abe78", null ],
-    [ "selectedFacesColor", "structMR_1_1MeshColors.html#ae4edcd77494fff36dba0a183f2f2385a", null ],
-    [ "selectedMeshColor", "structMR_1_1MeshColors.html#a87115d4325e87d3bc57a58d9cad5fefe", null ],
-    [ "unselectedMeshColor", "structMR_1_1MeshColors.html#a37d8416a098501df97d0a53b2695fd04", null ]
+    [ "Type", "structMR_1_1MeshColors.html#af0045416fd1cfb3c18c56db1af4e6b6a", [
+      [ "SelectedMesh", "structMR_1_1MeshColors.html#af0045416fd1cfb3c18c56db1af4e6b6aae873ca32e1aca37d4f818375f15ae288", null ],
+      [ "UnselectedMesh", "structMR_1_1MeshColors.html#af0045416fd1cfb3c18c56db1af4e6b6aab971784753e7703f2f69b9006a1014c5", null ],
+      [ "BackFaces", "structMR_1_1MeshColors.html#af0045416fd1cfb3c18c56db1af4e6b6aa696737e3e3a15747cfd898150d13f178", null ],
+      [ "Labels", "structMR_1_1MeshColors.html#af0045416fd1cfb3c18c56db1af4e6b6aabd8d5c490e0dfd15c593fae7e62d8997", null ],
+      [ "Edges", "structMR_1_1MeshColors.html#af0045416fd1cfb3c18c56db1af4e6b6aaab635de454124b378f052335b7d64a7a", null ],
+      [ "SelectedFaces", "structMR_1_1MeshColors.html#af0045416fd1cfb3c18c56db1af4e6b6aab074199b07033f770e8b3d574850b140", null ],
+      [ "SelectedEdges", "structMR_1_1MeshColors.html#af0045416fd1cfb3c18c56db1af4e6b6aa6107178a1d8680391c1f601bdd42de4b", null ],
+      [ "Count", "structMR_1_1MeshColors.html#af0045416fd1cfb3c18c56db1af4e6b6aa70778a706ce274d3e71d01231edc5f90", null ]
+    ] ]
 ];

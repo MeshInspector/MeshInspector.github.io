@@ -1,7 +1,7 @@
 var classMR_1_1ObjectVoxels =
 [
     [ "ObjectVoxels", "classMR_1_1ObjectVoxels.html#adabffd57c47c67ecbdb4b4bec3c53c84", null ],
-    [ "ObjectVoxels", "classMR_1_1ObjectVoxels.html#a4b456c4dafcbee66da841e88b2688bab", null ],
+    [ "ObjectVoxels", "classMR_1_1ObjectVoxels.html#a86927a7f3ce177f9394efc66a87d95bc", null ],
     [ "~ObjectVoxels", "classMR_1_1ObjectVoxels.html#a205cdfb1f95b74b571b884147dc2581f", null ],
     [ "ObjectVoxels", "classMR_1_1ObjectVoxels.html#ab8414868d177c677e751eae0934bb6d9", null ],
     [ "ObjectVoxels", "classMR_1_1ObjectVoxels.html#a031e8491e43b72005372d6f05dde20d2", null ],
@@ -21,7 +21,7 @@ var classMR_1_1ObjectVoxels =
     [ "getVoxelIdByPoint", "classMR_1_1ObjectVoxels.html#a5b3ec655c032d761470ca3b9d7cf410e", null ],
     [ "grid", "classMR_1_1ObjectVoxels.html#ad188b1b923309bb6607f840a78b7280e", null ],
     [ "histogram", "classMR_1_1ObjectVoxels.html#adeba73dbd62b1c396b2153ea3e19d65b", null ],
-    [ "operator=", "classMR_1_1ObjectVoxels.html#acbc05ecba308f64504febf7fd20900c6", null ],
+    [ "operator=", "classMR_1_1ObjectVoxels.html#ac4491db64e917e46674d6b5eeae888a8", null ],
     [ "serializeFields_", "classMR_1_1ObjectVoxels.html#a1b9e402abcba964cf107ae761006fdb3", null ],
     [ "serializeModel_", "classMR_1_1ObjectVoxels.html#a00856f39dd0afe93f3d0c2c621607afd", null ],
     [ "setActiveBounds", "classMR_1_1ObjectVoxels.html#a0a7c3155c47dd6baafcfd2febbd295df", null ],

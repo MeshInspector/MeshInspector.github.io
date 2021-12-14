@@ -13,5 +13,6 @@ var classMR_1_1ObjectTransformation =
     [ "getControlsXf", "classMR_1_1ObjectTransformation.html#a028b729973a4e981b6cb03e847cf9b19", null ],
     [ "getTooltip", "classMR_1_1ObjectTransformation.html#a6ca2f08f3f727074c0304ad694815d74", null ],
     [ "setControlsXf", "classMR_1_1ObjectTransformation.html#a75cd1af71603298f7bda466705130c8f", null ],
+    [ "setControlThresholdDot", "classMR_1_1ObjectTransformation.html#a65920c57b20849cc41c5f550fdab57cc", null ],
     [ "updateTransformMode", "classMR_1_1ObjectTransformation.html#a4d6f246cab64d3ed79697bd776b00c59", null ]
 ];

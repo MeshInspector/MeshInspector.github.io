@@ -2,7 +2,6 @@ var MRStatePlugin_8h =
 [
     [ "StateBasePlugin", "classMR_1_1StateBasePlugin.html", "classMR_1_1StateBasePlugin" ],
     [ "StateListenerPlugin", "classMR_1_1StateListenerPlugin.html", "classMR_1_1StateListenerPlugin" ],
-    [ "StatePlugin", "MRStatePlugin_8h.html#a8ab6eaf7f278cd71efed06a27897122a", null ],
     [ "StatePluginTabs", "MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37", [
       [ "Basic", "MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a972e73b7a882d0802a4e3a16946a2f94", null ],
       [ "Mesh", "MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a710fdb6adb881b408116ef95335e1961", null ],

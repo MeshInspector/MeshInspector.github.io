@@ -149,15 +149,18 @@ Functions</h2></td></tr>
 <tr class="memitem:ga34f46179c96ce39c5ba94580b9fc1151"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1OneMeshContour.html">OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga34f46179c96ce39c5ba94580b9fc1151">MRE::convertMeshTriPointsToClosedContour</a> (const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MR::MeshTriPoint</a> &gt; &amp;meshTriPoints)</td></tr>
 <tr class="memdesc:ga34f46179c96ce39c5ba94580b9fc1151"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes closed continuous contour by mesh tri points.  <a href="group__BooleanGroup.html#ga34f46179c96ce39c5ba94580b9fc1151">More...</a><br /></td></tr>
 <tr class="separator:ga34f46179c96ce39c5ba94580b9fc1151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac1dac30e4d40a6bd5624273038a96e3b"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1OneMeshContour.html">OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#gac1dac30e4d40a6bd5624273038a96e3b">MRE::convertSurfacePathWithEndsToMeshContour</a> (const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MR::MeshTriPoint</a> &amp;start, const <a class="el" href="namespaceMR.html#a6f060a604c3462c7d0b1df7dac703237">MR::SurfacePath</a> &amp;surfacePath, const <a class="el" href="structMR_1_1MeshTriPoint.html">MR::MeshTriPoint</a> &amp;end)</td></tr>
+<tr class="memdesc:gac1dac30e4d40a6bd5624273038a96e3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts SurfacePath to OneMeshContours.  <a href="group__BooleanGroup.html#gac1dac30e4d40a6bd5624273038a96e3b">More...</a><br /></td></tr>
+<tr class="separator:gac1dac30e4d40a6bd5624273038a96e3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4691347d3996bcfbf33023cdbc98f754"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="group__BooleanGroup.html#gacd19dbcaab8b5c59b50149c8d2b330f8">OneMeshContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga4691347d3996bcfbf33023cdbc98f754">MRE::convertSurfacePathsToMeshContours</a> (const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="namespaceMR.html#a6f060a604c3462c7d0b1df7dac703237">MR::SurfacePath</a> &gt; &amp;surfacePaths)</td></tr>
 <tr class="memdesc:ga4691347d3996bcfbf33023cdbc98f754"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts SurfacePaths to OneMeshContours.  <a href="group__BooleanGroup.html#ga4691347d3996bcfbf33023cdbc98f754">More...</a><br /></td></tr>
 <tr class="separator:ga4691347d3996bcfbf33023cdbc98f754"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9e479d0d02c34a3f7eaea80c8a8f0aef"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1CutMeshResult.html">CutMeshResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga9e479d0d02c34a3f7eaea80c8a8f0aef">MRE::cutMesh</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const <a class="el" href="group__BooleanGroup.html#gacd19dbcaab8b5c59b50149c8d2b330f8">OneMeshContours</a> &amp;contours, const <a class="el" href="structMRE_1_1CutMeshParameters.html">CutMeshParameters</a> &amp;params={})</td></tr>
 <tr class="memdesc:ga9e479d0d02c34a3f7eaea80c8a8f0aef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cuts mesh by given contours.  <a href="group__BooleanGroup.html#ga9e479d0d02c34a3f7eaea80c8a8f0aef">More...</a><br /></td></tr>
 <tr class="separator:ga9e479d0d02c34a3f7eaea80c8a8f0aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6a02c9c09c62bd4cefa1b56914360e05"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga6a02c9c09c62bd4cefa1b56914360e05">MRE::cutMeshWithPlane</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">MR::Plane3f</a> &amp;plane)</td></tr>
-<tr class="memdesc:ga6a02c9c09c62bd4cefa1b56914360e05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple cut mesh by plane.  <a href="group__BooleanGroup.html#ga6a02c9c09c62bd4cefa1b56914360e05">More...</a><br /></td></tr>
-<tr class="separator:ga6a02c9c09c62bd4cefa1b56914360e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8ddb7b1ead726127211268542e69b59e"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga8ddb7b1ead726127211268542e69b59e">MRE::cutMeshWithPlane</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">MR::Plane3f</a> &amp;plane, <a class="el" href="namespaceMR.html#a989bcd374602a615d0acbd6a4988b9b3">MR::FaceMap</a> *mapNew2Old=nullptr)</td></tr>
+<tr class="memdesc:ga8ddb7b1ead726127211268542e69b59e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple cut mesh by plane.  <a href="group__BooleanGroup.html#ga8ddb7b1ead726127211268542e69b59e">More...</a><br /></td></tr>
+<tr class="separator:ga8ddb7b1ead726127211268542e69b59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga09e248fe156925a1560a8bd4a2179370"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1BooleanResult.html">BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga09e248fe156925a1560a8bd4a2179370">MRE::boolean</a> (const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;meshB, <a class="el" href="group__BooleanGroup.html#gacb4a2073036a155fa7f07f2fdc347007">BooleanOperation</a> operation, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">MR::AffineXf3f</a> *rigidB2A=nullptr, <a class="el" href="structMRE_1_1BooleanResultMapper.html">BooleanResultMapper</a> *mapper=nullptr)</td></tr>
 <tr class="memdesc:ga09e248fe156925a1560a8bd4a2179370"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs CSG operation on two meshes.  <a href="group__BooleanGroup.html#ga09e248fe156925a1560a8bd4a2179370">More...</a><br /></td></tr>
 <tr class="separator:ga09e248fe156925a1560a8bd4a2179370"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -380,6 +383,51 @@ If meshes are not closed in intersecting zone some boolean operations are not al
 
 </div>
 </div>
+<a id="gac1dac30e4d40a6bd5624273038a96e3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac1dac30e4d40a6bd5624273038a96e3b">&#9670;&nbsp;</a></span>convertSurfacePathWithEndsToMeshContour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MREALGORITHMS_API <a class="el" href="structMRE_1_1OneMeshContour.html">OneMeshContour</a> MRE::convertSurfacePathWithEndsToMeshContour </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MR::MeshTriPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a6f060a604c3462c7d0b1df7dac703237">MR::SurfacePath</a> &amp;&#160;</td>
+          <td class="paramname"><em>surfacePath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MR::MeshTriPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts SurfacePath to OneMeshContours. </p>
+<p>Creates <a class="el" href="structMRE_1_1OneMeshContour.html">MRE::OneMeshContour</a> object from given surface path with ends for <a class="el" href="group__BooleanGroup.html#ga9e479d0d02c34a3f7eaea80c8a8f0aef" title="Cuts mesh by given contours.">MRE::cutMesh</a> input <code>start</code> and surfacePath.front() should be from same face surfacePath.back() and <code>end</code> should be from same face</p>
+<p>note that whole path (including <code>start</code> and <code>end</code>) should not have self-intersections also following case is not supported (vertex -&gt; edge (incident with vertex)):</p>
+<p>vert path edge point path edge end o-------&mdash;o- &ndash; &ndash; &ndash; &ndash; O \ \ / \ \ / \ \ / \/ o path </p>
+
+</div>
+</div>
 <a id="ga9e479d0d02c34a3f7eaea80c8a8f0aef"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga9e479d0d02c34a3f7eaea80c8a8f0aef">&#9670;&nbsp;</a></span>cutMesh()</h2>
 
@@ -428,8 +476,8 @@ so if you can not guarantee contours without intersections better make copy of m
 
 </div>
 </div>
-<a id="ga6a02c9c09c62bd4cefa1b56914360e05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6a02c9c09c62bd4cefa1b56914360e05">&#9670;&nbsp;</a></span>cutMeshWithPlane()</h2>
+<a id="ga8ddb7b1ead726127211268542e69b59e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8ddb7b1ead726127211268542e69b59e">&#9670;&nbsp;</a></span>cutMeshWithPlane()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -444,7 +492,13 @@ so if you can not guarantee contours without intersections better make copy of m
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">MR::Plane3f</a> &amp;&#160;</td>
-          <td class="paramname"><em>plane</em>&#160;</td>
+          <td class="paramname"><em>plane</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a989bcd374602a615d0acbd6a4988b9b3">MR::FaceMap</a> *&#160;</td>
+          <td class="paramname"><em>mapNew2Old</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -459,6 +513,7 @@ so if you can not guarantee contours without intersections better make copy of m
   <table class="params">
     <tr><td class="paramname">mesh</td><td>Input mesh that will be cut </td></tr>
     <tr><td class="paramname">plane</td><td>Input plane to cut mesh with </td></tr>
+    <tr><td class="paramname">mapNew2Old</td><td>(this is optional output) map from newly generated faces to old faces (N-1) </td></tr>
   </table>
   </dd>
 </dl>

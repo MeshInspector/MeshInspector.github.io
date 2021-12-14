@@ -14,7 +14,10 @@ var MRVisualObject_8h =
       [ "DIRTY_NONE", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a162875ffd2234840bdaf002277708668", null ],
       [ "DIRTY_POSITION", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a13dc959326bf43980af4080c50288110", null ],
       [ "DIRTY_UV", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a877972448d284e00b0ce05682f39dbb6", null ],
-      [ "DIRTY_RENDER_NORMAL", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a366252d9e296769786b6df63d10ad45b", null ],
+      [ "DIRTY_VERTS_RENDER_NORMAL", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a7901e85f6ada294be0794acc817a1914", null ],
+      [ "DIRTY_FACES_RENDER_NORMAL", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a23f7dbe9a82e38743db156f56a7b30d3", null ],
+      [ "DIRTY_CORNERS_RENDER_NORMAL", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269ad29e189e07ab368b8c42c681ca3cf611", null ],
+      [ "DIRTY_RENDER_NORMALS", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a48d2a0f89c21288fc6f9acde5fb8338d", null ],
       [ "DIRTY_SELECTION", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a1f9525826d3c360ff36177637df2a4d2", null ],
       [ "DIRTY_TEXTURE", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a16187984f5e9329e2eefbdce7ce0585d", null ],
       [ "DIRTY_PRIMITIVES", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a8a1e8d099f1d302ff6e72082b8546627", null ],
@@ -32,6 +35,7 @@ var MRVisualObject_8h =
       [ "DIRTY_FACES_NORMAL", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a823235d56cedbb5f06b046fb95487de7", null ],
       [ "DIRTY_CORNERS_NORMAL", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a7ba2bb8f314baa9b680001b5c9455f6b", null ],
       [ "DIRTY_ALL_NORMALS", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269ad722ebed39e38be31531eef5e1a3eefe", null ],
+      [ "DIRTY_CACHES", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a7930beec8f8d317d708811012219855a", null ],
       [ "DIRTY_ALL", "MRVisualObject_8h.html#a03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a", null ]
     ] ]
 ];

@@ -15,11 +15,13 @@ var namespaceMR_1_1MeshLoad =
     [ "fromMrmesh", "namespaceMR_1_1MeshLoad.html#a3d35f9409d23d969567a2190faf3d280", null ],
     [ "fromMrmesh", "namespaceMR_1_1MeshLoad.html#a7fa1a142e10183b84d495c8c025726a4", null ],
     [ "fromObj", "namespaceMR_1_1MeshLoad.html#a2b71be800d8ce3c8852554b57333dcc0", null ],
-    [ "fromObj", "namespaceMR_1_1MeshLoad.html#a211c229705f50944cce2fa9f3427ccba", null ],
+    [ "fromObj", "namespaceMR_1_1MeshLoad.html#a12ec2ddb943ea779cb26889b6f45dca3", null ],
     [ "fromOff", "namespaceMR_1_1MeshLoad.html#ad7d8fb51b895ee88d13c585b94db3eab", null ],
     [ "fromOff", "namespaceMR_1_1MeshLoad.html#afb51764f18423650529a087fe0b8098c", null ],
     [ "fromPly", "namespaceMR_1_1MeshLoad.html#a264264581b6491c440d54a9ab8c9b5e9", null ],
     [ "fromPly", "namespaceMR_1_1MeshLoad.html#a6106df07208f1c7c00e14de7535a7204", null ],
+    [ "fromSceneObjFile", "namespaceMR_1_1MeshLoad.html#aeb4722d1892648326902248970558bbb", null ],
     [ "getFilters", "namespaceMR_1_1MeshLoad.html#aca0d649d3cadf6807b1fa3b610368510", null ],
-    [ "getMeshLoader", "namespaceMR_1_1MeshLoad.html#a350b9ad86f759c762c0c4df6371aa036", null ]
+    [ "getMeshLoader", "namespaceMR_1_1MeshLoad.html#a350b9ad86f759c762c0c4df6371aa036", null ],
+    [ "isSceneObjFile", "namespaceMR_1_1MeshLoad.html#ab3db23a1c46d8c4a0abd9baab932e8ed", null ]
 ];

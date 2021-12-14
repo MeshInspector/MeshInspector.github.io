@@ -11,5 +11,6 @@ var classMR_1_1PointAccumulator =
     [ "getBestPlane", "classMR_1_1PointAccumulator.html#a2101603a476d7949c907898b3513fc27", null ],
     [ "getBestPlanef", "classMR_1_1PointAccumulator.html#abee9287110bb3322c9323fa6a5898906", null ],
     [ "getCenteredCovarianceEigen", "classMR_1_1PointAccumulator.html#a9a8db7a86d2e4229d2ff0992aedf7b0f", null ],
-    [ "getCenteredCovarianceEigen", "classMR_1_1PointAccumulator.html#af42457c6f466fbc3a6b45fbae732a846", null ]
+    [ "getCenteredCovarianceEigen", "classMR_1_1PointAccumulator.html#af42457c6f466fbc3a6b45fbae732a846", null ],
+    [ "valid", "classMR_1_1PointAccumulator.html#adedc70600246f5b6b7d1858b9e3fb5eb", null ]
 ];

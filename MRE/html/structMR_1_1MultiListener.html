@@ -113,8 +113,8 @@ Inheritance diagram for MR::MultiListener&lt; Connectables &gt;:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a726f5e2601b7f25e31824a0cac630fb2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MultiListener.html#a726f5e2601b7f25e31824a0cac630fb2">~MultiListener</a> ()=default</td></tr>
 <tr class="separator:a726f5e2601b7f25e31824a0cac630fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1780a55d6737e026900e12cd84d6571"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MultiListener.html#ab1780a55d6737e026900e12cd84d6571">connect</a> (<a class="el" href="classMR_1_1Viewer.html">Viewer</a> *viewer, boost::signals2::connect_position pos=boost::signals2::connect_position::at_back)</td></tr>
-<tr class="separator:ab1780a55d6737e026900e12cd84d6571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3312c12e653a48eaee4680364e72f27"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MultiListener.html#af3312c12e653a48eaee4680364e72f27">connect</a> (<a class="el" href="classMR_1_1Viewer.html">Viewer</a> *viewer, int group=0, boost::signals2::connect_position pos=boost::signals2::connect_position::at_back)</td></tr>
+<tr class="separator:af3312c12e653a48eaee4680364e72f27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfa598489bfbc3b88c84b029213d042c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MultiListener.html#acfa598489bfbc3b88c84b029213d042c">disconnect</a> ()</td></tr>
 <tr class="separator:acfa598489bfbc3b88c84b029213d042c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -147,8 +147,8 @@ template&lt;typename ... Connectables&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab1780a55d6737e026900e12cd84d6571"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1780a55d6737e026900e12cd84d6571">&#9670;&nbsp;</a></span>connect()</h2>
+<a id="af3312c12e653a48eaee4680364e72f27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3312c12e653a48eaee4680364e72f27">&#9670;&nbsp;</a></span>connect()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163,6 +163,12 @@ template&lt;typename ... Connectables&gt; </div>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1Viewer.html">Viewer</a> *&#160;</td>
           <td class="paramname"><em>viewer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>group</em> = <code>0</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

@@ -94,7 +94,9 @@ $(document).ready(function(){initNavTree('MRMeshRelax_8h.html',''); initResizabl
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">MRMeshRelax.h File Reference</div>  </div>
@@ -104,17 +106,33 @@ $(document).ready(function(){initNavTree('MRMeshRelax_8h.html',''); initResizabl
 </div>
 <p><a href="MRMeshRelax_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RelaxParams.html">MR::RelaxParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceMR"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a6ab288ae813e1aa688312e31c258df71"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6ab288ae813e1aa688312e31c258df71">MR::RelaxApproxType</a> { <a class="el" href="namespaceMR.html#a6ab288ae813e1aa688312e31c258df71a93a097009b6443e711996c50b5354adf">MR::Planar</a>
+, <a class="el" href="namespaceMR.html#a6ab288ae813e1aa688312e31c258df71add6dfa467092f93b67f60fb75476b794">MR::Quadric</a>
+ }</td></tr>
+<tr class="separator:a6ab288ae813e1aa688312e31c258df71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9bdef26a2efaf7bf0d18502d203ea428"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a9bdef26a2efaf7bf0d18502d203ea428">MR::relax</a> (Mesh &amp;mesh, int iterations, const VertBitSet *region=nullptr)</td></tr>
-<tr class="separator:a9bdef26a2efaf7bf0d18502d203ea428"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96ad0d77e814231b742ced52879ba51d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a96ad0d77e814231b742ced52879ba51d">MR::relaxKeepVolume</a> (Mesh &amp;mesh, int iterations, const VertBitSet *region=nullptr)</td></tr>
-<tr class="separator:a96ad0d77e814231b742ced52879ba51d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a301cdf266ab0dada8405525878fcfd27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a301cdf266ab0dada8405525878fcfd27">MR::relax</a> (Mesh &amp;mesh, const RelaxParams params={})</td></tr>
+<tr class="separator:a301cdf266ab0dada8405525878fcfd27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a813bd055697c1b4092b1150066522650"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a813bd055697c1b4092b1150066522650">MR::relaxKeepVolume</a> (Mesh &amp;mesh, const RelaxParams params={})</td></tr>
+<tr class="separator:a813bd055697c1b4092b1150066522650"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af32b853b683a2a206af5253c386e1832"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af32b853b683a2a206af5253c386e1832">MR::relaxApprox</a> (Mesh &amp;mesh, const MeshApproxRelaxParams params={})</td></tr>
+<tr class="separator:af32b853b683a2a206af5253c386e1832"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3dd7b36bb56c94c95b1bea9f7546349"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af3dd7b36bb56c94c95b1bea9f7546349">MR::removeSpikes</a> (Mesh &amp;mesh, int maxIterations, float minSumAngle, const VertBitSet *region=nullptr)</td></tr>
 <tr class="separator:af3dd7b36bb56c94c95b1bea9f7546349"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>

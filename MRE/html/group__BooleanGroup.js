@@ -29,6 +29,7 @@ var group__BooleanGroup =
       [ "resultCut", "structMRE_1_1CutMeshResult.html#aa22ef8b6936737444f08a98e2c72744a", null ]
     ] ],
     [ "BooleanResult", "structMRE_1_1BooleanResult.html", [
+      [ "operator bool", "structMRE_1_1BooleanResult.html#a39bba25bdba2c46ef02c4e41ffa961d5", null ],
       [ "operator*", "structMRE_1_1BooleanResult.html#af94480cd40cf00d26d12cc5c1c6b7c6b", null ],
       [ "operator*", "structMRE_1_1BooleanResult.html#a0e9e369aa671b5eb06187f5fcd6049df", null ],
       [ "operator->", "structMRE_1_1BooleanResult.html#a0ea4fa8ebc4cbd6a97cae561577f42ea", null ],
@@ -54,6 +55,7 @@ var group__BooleanGroup =
     [ "boolean", "group__BooleanGroup.html#ga09e248fe156925a1560a8bd4a2179370", null ],
     [ "convertMeshTriPointsToClosedContour", "group__BooleanGroup.html#ga34f46179c96ce39c5ba94580b9fc1151", null ],
     [ "convertSurfacePathsToMeshContours", "group__BooleanGroup.html#ga4691347d3996bcfbf33023cdbc98f754", null ],
+    [ "convertSurfacePathWithEndsToMeshContour", "group__BooleanGroup.html#gac1dac30e4d40a6bd5624273038a96e3b", null ],
     [ "cutMesh", "group__BooleanGroup.html#ga9e479d0d02c34a3f7eaea80c8a8f0aef", null ],
-    [ "cutMeshWithPlane", "group__BooleanGroup.html#ga6a02c9c09c62bd4cefa1b56914360e05", null ]
+    [ "cutMeshWithPlane", "group__BooleanGroup.html#ga8ddb7b1ead726127211268542e69b59e", null ]
 ];

@@ -101,11 +101,12 @@ $(document).ready(function(){initNavTree('MRMeshLoad_8h.html',''); initResizable
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRIOFilters_8h_source.html">MRIOFilters.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRId_8h_source.html">MRId.h</a>&quot;</code><br />
 <code>#include &lt;tl/expected.hpp&gt;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
 <code>#include &lt;istream&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
-<code>#include &quot;<a class="el" href="MRIOFilters_8h_source.html">MRIOFilters.h</a>&quot;</code><br />
 </div>
 <p><a href="MRMeshLoad_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -128,8 +129,12 @@ Functions</h2></td></tr>
 <tr class="separator:afb51764f18423650529a087fe0b8098c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b71be800d8ce3c8852554b57333dcc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Mesh, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#a2b71be800d8ce3c8852554b57333dcc0">MR::MeshLoad::fromObj</a> (const std::filesystem::path &amp;file, std::vector&lt; Color &gt; *colors=nullptr)</td></tr>
 <tr class="separator:a2b71be800d8ce3c8852554b57333dcc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a211c229705f50944cce2fa9f3427ccba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Mesh, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#a211c229705f50944cce2fa9f3427ccba">MR::MeshLoad::fromObj</a> (std::istream &amp;in)</td></tr>
-<tr class="separator:a211c229705f50944cce2fa9f3427ccba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12ec2ddb943ea779cb26889b6f45dca3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Mesh, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#a12ec2ddb943ea779cb26889b6f45dca3">MR::MeshLoad::fromObj</a> (std::istream &amp;in, VertId sceneShift={})</td></tr>
+<tr class="separator:a12ec2ddb943ea779cb26889b6f45dca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3db23a1c46d8c4a0abd9baab932e8ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#ab3db23a1c46d8c4a0abd9baab932e8ed">MR::MeshLoad::isSceneObjFile</a> (const std::filesystem::path &amp;file)</td></tr>
+<tr class="separator:ab3db23a1c46d8c4a0abd9baab932e8ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb4722d1892648326902248970558bbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; std::vector&lt; Mesh &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#aeb4722d1892648326902248970558bbb">MR::MeshLoad::fromSceneObjFile</a> (const std::filesystem::path &amp;file, std::vector&lt; std::string &gt; &amp;names)</td></tr>
+<tr class="separator:aeb4722d1892648326902248970558bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8f74ece34b0ebaf7b5d62f535416291"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Mesh, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#ab8f74ece34b0ebaf7b5d62f535416291">MR::MeshLoad::fromAnyStl</a> (const std::filesystem::path &amp;file, std::vector&lt; Color &gt; *colors=nullptr)</td></tr>
 <tr class="separator:ab8f74ece34b0ebaf7b5d62f535416291"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae77fd699e0f33532fab80ef1e8841d64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Mesh, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#ae77fd699e0f33532fab80ef1e8841d64">MR::MeshLoad::fromAnyStl</a> (std::istream &amp;in)</td></tr>

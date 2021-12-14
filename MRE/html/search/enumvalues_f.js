@@ -1,11 +1,16 @@
 var searchData=
 [
-  ['test_6165',['Test',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37a0cbc6611f5540bd0809a388dc95a615b',1,'MR']]],
-  ['texture_6166',['Texture',['../structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0aa0e5d5afb3e35be7f4fe202a2146e687',1,'MR::VisualizeMaskType']]],
-  ['top_6167',['Top',['../classMR_1_1Pdf.html#a6759e4baff5cfbd5272628bf2a52f253aa4ffdcf0dc1f31b9acaf295d75b51d00',1,'MR::Pdf']]],
-  ['translation_6168',['Translation',['../classMR_1_1Viewer.html#a1e0f5398c54b70bf130b28dbe6795e37a6dd08874f83507e9c7b23f1a46b7fa7c',1,'MR::Viewer']]],
-  ['translationonly_6169',['TranslationOnly',['../namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677a55fae57b90256ccb618322f9a33784ce',1,'MR']]],
-  ['transparencyoverlayquad_6170',['TransparencyOverlayQuad',['../classMR_1_1ShadersHolder.html#af79d4956571eca0d639217ad9ec89767a39753206a617e2151de04f631fb0f864',1,'MR::ShadersHolder']]],
-  ['transparentmesh_6171',['TransparentMesh',['../classMR_1_1ShadersHolder.html#af79d4956571eca0d639217ad9ec89767ae3cc896187ede67e387c7c05f50d0d29',1,'MR::ShadersHolder']]],
-  ['transparentmeshborder_6172',['TransparentMeshBorder',['../classMR_1_1ShadersHolder.html#af79d4956571eca0d639217ad9ec89767a79c4939078d7c6029949a26d8eb2cc44',1,'MR::ShadersHolder']]]
+  ['redo_6671',['Redo',['../classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6',1,'MR::HistoryAction::Redo()'],['../classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a5afeaba074ef570dc720caaa855d49f6',1,'MR::HistoryStore::Redo()']]],
+  ['removeobject_6672',['RemoveObject',['../classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1af0c405ca8e7eb2c3fa3d102bb69b75a9',1,'MR::ChangeSceneAction']]],
+  ['repeat_6673',['Repeat',['../structMR_1_1MeshTexture.html#a02b38209ef48a938635275b79553f4e8a7020426cfb0a204051be4b3053d2acc8',1,'MR::MeshTexture']]],
+  ['ribbonbuttonclicked_6674',['RibbonButtonClicked',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a1f0299955bfa50ff0a40eac8eda3bf8d',1,'MR::ColorTheme']]],
+  ['ribbonbuttonenabled_6675',['RibbonButtonEnabled',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a79f517d5eb997b0a315eea5e83855a7a',1,'MR::ColorTheme']]],
+  ['ribbonbuttonhovered_6676',['RibbonButtonHovered',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a525b14df5462bcd36ab6046c11b74b39',1,'MR::ColorTheme']]],
+  ['right_6677',['Right',['../classMR_1_1Pdf.html#aaaf62b6d295f5aa4aae7734a8d801cbea92b09c7c48c520c3c55e497875da437c',1,'MR::Pdf::Right()'],['../namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62da92b09c7c48c520c3c55e497875da437c',1,'MR::Right()']]],
+  ['rightleft_6678',['RightLeft',['../namespaceMR.html#a85e60c553cc81b298c4bfeac4a623b79a060e258e018b85df7750330be4f807c0',1,'MR']]],
+  ['rightright_6679',['RightRight',['../namespaceMR.html#a85e60c553cc81b298c4bfeac4a623b79a8282c1db2ec5b8780478223365a37438',1,'MR']]],
+  ['rotation_6680',['Rotation',['../namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75af1a42bd417390fc63b030a519624607a',1,'MR']]],
+  ['rotx_6681',['RotX',['../classMR_1_1ObjectTransformation.html#a0ec990cd148969f9adbb191a3c85e5b2a977f9aff7898437d8434e15885f387b0',1,'MR::ObjectTransformation']]],
+  ['roty_6682',['RotY',['../classMR_1_1ObjectTransformation.html#a0ec990cd148969f9adbb191a3c85e5b2aa5fca53d8370e0d208ea027bf1941ff6',1,'MR::ObjectTransformation']]],
+  ['rotz_6683',['RotZ',['../classMR_1_1ObjectTransformation.html#a0ec990cd148969f9adbb191a3c85e5b2a9259024fcb4506336b5127a40c6406d7',1,'MR::ObjectTransformation']]]
 ];

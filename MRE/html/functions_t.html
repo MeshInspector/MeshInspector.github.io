@@ -99,6 +99,7 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 <li>T
 : <a class="el" href="structMR_1_1AffineXf.html#a122798f44f02f88d6fceeddd3f296c0c">MR::AffineXf&lt; V &gt;</a>
 , <a class="el" href="structMR_1_1Box.html#afc09ec552867bc199cca1653871f40eb">MR::Box&lt; V &gt;</a>
+, <a class="el" href="structMR_1_1LineSegm.html#a3257b02c520c257af06a8750951851e6">MR::LineSegm&lt; V &gt;</a>
 , <a class="el" href="structMR_1_1QuadraticForm.html#a040faabf3a0fafc7f0a8afadd3108d2a">MR::QuadraticForm&lt; V &gt;</a>
 </li>
 <li>t
@@ -115,6 +116,9 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 </li>
 <li>tabsOrder
 : <a class="el" href="structMR_1_1RibbonMenu_1_1RibbonSchema.html#a3cd9e65534eb98453a78831730900fe6">MR::RibbonMenu::RibbonSchema</a>
+</li>
+<li>takeDistanceMap()
+: <a class="el" href="classMR_1_1SurfaceDistanceBuilder.html#a0585a7333ace1eb1eacaedca753b994e">MR::SurfaceDistanceBuilder</a>
 </li>
 <li>terminate_
 : <a class="el" href="classMR_1_1SplashWindow.html#a302e1b3310c1ee684e3de1d7a239e964">MR::SplashWindow</a>
@@ -148,14 +152,14 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 <li>texture_
 : <a class="el" href="classMR_1_1VisualObject.html#a42c63ccf2ec13041e1dd693a2533372f">MR::VisualObject</a>
 </li>
-<li>tgt2src2Edges
-: <a class="el" href="structMR_1_1PartMapping.html#a739c29cc1ae68c22f12a8279c83bcd88">MR::PartMapping</a>
+<li>tgt2srcEdges
+: <a class="el" href="structMR_1_1PartMapping.html#a401833b3c30e98c531e0895d731ce332">MR::PartMapping</a>
 </li>
-<li>tgt2src2Faces
-: <a class="el" href="structMR_1_1PartMapping.html#aa295704f0caba30f2f166ab8b6ee554f">MR::PartMapping</a>
+<li>tgt2srcFaces
+: <a class="el" href="structMR_1_1PartMapping.html#a70417f39e610cb4364a4066ba21ecc64">MR::PartMapping</a>
 </li>
-<li>tgt2src2Verts
-: <a class="el" href="structMR_1_1PartMapping.html#a4ccb3cbe9d97082c095f473973264d26">MR::PartMapping</a>
+<li>tgt2srcVerts
+: <a class="el" href="structMR_1_1PartMapping.html#a8b413791e9dab0037f742ede85a8700e">MR::PartMapping</a>
 </li>
 <li>Timer()
 : <a class="el" href="classMR_1_1Timer.html#ae80a6af65498d28b69104f6cba5dae47">MR::Timer</a>
@@ -229,8 +233,13 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 <li>trackBoundaryLoop()
 : <a class="el" href="classMR_1_1MeshTopology.html#a655648f49c42d2a8e0828f10bb3e133d">MR::MeshTopology</a>
 </li>
+<li>Traits
+: <a class="el" href="classMR_1_1AABBTreePolyline.html#a7f96860dc1daeee5853645f1fecdeca7">MR::AABBTreePolyline&lt; V &gt;</a>
+</li>
 <li>transform()
 : <a class="el" href="structMR_1_1Mesh.html#a67907b7421edf7c0e8dd29796fbe4688">MR::Mesh</a>
+, <a class="el" href="structMR_1_1Polyline2.html#a0e94b43bb9c890ef03f89ed5e24b2863">MR::Polyline2</a>
+, <a class="el" href="structMR_1_1Polyline.html#a548e3599338f51b2920402772ad01f16">MR::Polyline</a>
 </li>
 <li>transform_view()
 : <a class="el" href="classMR_1_1Viewport.html#a29f57af14c71b2b8da8d728db3f65aca">MR::Viewport</a>
@@ -278,7 +287,7 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 : <a class="el" href="structMR_1_1Mesh.html#a243ed2368ebb1f7bfaa1d71cef8a3d16">MR::Mesh</a>
 </li>
 <li>TriPoint()
-: <a class="el" href="structMR_1_1TriPoint.html#aa04c5b69e931998ede5831cfe9b802a8">MR::TriPoint&lt; T &gt;</a>
+: <a class="el" href="structMR_1_1TriPoint.html#a648b9fef709cd0e01d68b4bbf359b034">MR::TriPoint&lt; T &gt;</a>
 </li>
 <li>tris
 : <a class="el" href="structMR_1_1MeshBuilder_1_1MeshPiece.html#acaa4e2703d22a3965d91b3e9a58b69ee">MR::MeshBuilder::MeshPiece</a>
@@ -292,8 +301,27 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 <li>Type
 : <a class="el" href="classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1">MR::ChangeSceneAction</a>
 , <a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">MR::HistoryAction</a>
+, <a class="el" href="structMR_1_1LinesVisualizePropertyType.html#aab5df7db454ff09605f0b0252d48d0e2">MR::LinesVisualizePropertyType</a>
+</li>
+<li>type
+: <a class="el" href="structMR_1_1MeshApproxRelaxParams.html#a1cee1338307334369140e04b54f03b51">MR::MeshApproxRelaxParams</a>
+</li>
+<li>Type
+: <a class="el" href="structMR_1_1MeshColors.html#af0045416fd1cfb3c18c56db1af4e6b6a">MR::MeshColors</a>
 , <a class="el" href="structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aac">MR::MeshVisualizePropertyType</a>
-, <a class="el" href="structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0">MR::VisualizeMaskType</a>
+</li>
+<li>type
+: <a class="el" href="structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d">MR::PointCloudApproxRelaxParams</a>
+</li>
+<li>Type
+: <a class="el" href="structMR_1_1RibbonMenu_1_1DrawButtonParams.html#a05ddfded577f4f53cab78e641033c7c3">MR::RibbonMenu::DrawButtonParams</a>
+</li>
+<li>type()
+: <a class="el" href="classMR_1_1RibbonMenuDropItem.html#ae253a7191a7f0dee9fc8b7be13660588">MR::RibbonMenuDropItem</a>
+, <a class="el" href="classMR_1_1RibbonMenuItem.html#a15b6a4b9f191b8716be1199364bb74e0">MR::RibbonMenuItem</a>
+</li>
+<li>Type
+: <a class="el" href="structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0">MR::VisualizeMaskType</a>
 </li>
 <li>TypeName()
 : <a class="el" href="classMR_1_1Object.html#aab45ae5e3eacd84fbe6d76b3c6bbf971">MR::Object</a>
