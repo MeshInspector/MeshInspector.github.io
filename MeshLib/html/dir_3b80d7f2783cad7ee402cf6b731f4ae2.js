@@ -64,6 +64,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRCombinedHistoryAction.h", "MRCombinedHistoryAction_8h.html", [
       [ "MR::CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html", "classMR_1_1CombinedHistoryAction" ]
     ] ],
+    [ "MRComputeBoundingBox.h", "MRComputeBoundingBox_8h.html", "MRComputeBoundingBox_8h" ],
     [ "MRConfig.h", "MRConfig_8h.html", "MRConfig_8h" ],
     [ "MRConstants.h", "MRConstants_8h.html", null ],
     [ "MRContour.h", "MRContour_8h.html", "MRContour_8h" ],
@@ -313,5 +314,8 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRVoxelPath.h", "MRVoxelPath_8h.html", "MRVoxelPath_8h" ],
     [ "MRVoxelsLoad.h", "MRVoxelsLoad_8h.html", "MRVoxelsLoad_8h" ],
     [ "MRVoxelsSave.h", "MRVoxelsSave_8h.html", "MRVoxelsSave_8h" ],
-    [ "MRVoxelsVolume.h", "MRVoxelsVolume_8h.html", "MRVoxelsVolume_8h" ]
+    [ "MRVoxelsVolume.h", "MRVoxelsVolume_8h.html", "MRVoxelsVolume_8h" ],
+    [ "MRXfBasedCache.h", "MRXfBasedCache_8h.html", [
+      [ "MR::XfBasedCache< T >", "classMR_1_1XfBasedCache.html", "classMR_1_1XfBasedCache" ]
+    ] ]
 ];

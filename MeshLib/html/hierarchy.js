@@ -286,5 +286,7 @@ var hierarchy =
     [ "MR::VolumeIndexer", "classMR_1_1VolumeIndexer.html", null ],
     [ "MR::VolumeSegmentationParameters", "structMR_1_1VolumeSegmentationParameters.html", null ],
     [ "MR::VolumeSegmenter", "classMR_1_1VolumeSegmenter.html", null ],
-    [ "MR::VoxelMetricParameters", "structMR_1_1VoxelMetricParameters.html", null ]
+    [ "MR::VoxelMetricParameters", "structMR_1_1VoxelMetricParameters.html", null ],
+    [ "MR::XfBasedCache< T >", "classMR_1_1XfBasedCache.html", null ],
+    [ "MR::XfBasedCache< MR::Box >", "classMR_1_1XfBasedCache.html", null ]
 ];

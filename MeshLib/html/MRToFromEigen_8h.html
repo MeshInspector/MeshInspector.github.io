@@ -105,6 +105,8 @@ $(document).ready(function(){initNavTree('MRToFromEigen_8h.html',''); initResiza
 <code>#include &quot;<a class="el" href="MRVector4_8h_source.html">MRVector4.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRSymMatrix2_8h_source.html">MRSymMatrix2.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRSymMatrix3_8h_source.html">MRSymMatrix3.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMatrix2_8h_source.html">MRMatrix2.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMatrix3_8h_source.html">MRMatrix3.h</a>&quot;</code><br />
 <code>#include &lt;Eigen/Core&gt;</code><br />
 </div>
 <p><a href="MRToFromEigen_8h_source.html">Go to the source code of this file.</a></p>
@@ -122,6 +124,15 @@ Functions</h2></td></tr>
 <tr class="memitem:ac1420892e3e154a187396a8dd5e65291"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ac1420892e3e154a187396a8dd5e65291"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 2, 1 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac1420892e3e154a187396a8dd5e65291">MR::toEigen</a> (const Vector2&lt; T &gt; &amp;v)</td></tr>
 <tr class="separator:ac1420892e3e154a187396a8dd5e65291"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57c0e085976ff3667bcc12e402216d6e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a57c0e085976ff3667bcc12e402216d6e"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 2, 2 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a57c0e085976ff3667bcc12e402216d6e">MR::toEigen</a> (const SymMatrix2&lt; T &gt; &amp;m)</td></tr>
+<tr class="separator:a57c0e085976ff3667bcc12e402216d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8888d3eb79b0414fbc4855426d85cf9c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a8888d3eb79b0414fbc4855426d85cf9c"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 2, 2 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8888d3eb79b0414fbc4855426d85cf9c">MR::toEigen</a> (const Matrix2&lt; T &gt; &amp;m)</td></tr>
+<tr class="separator:a8888d3eb79b0414fbc4855426d85cf9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49129aa06221938faa98e6295f0d790b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a49129aa06221938faa98e6295f0d790b"><td class="memTemplItemLeft" align="right" valign="top">Matrix2&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a49129aa06221938faa98e6295f0d790b">MR::fromEigen</a> (const Eigen::Matrix&lt; T, 2, 2 &gt; &amp;m)</td></tr>
+<tr class="separator:a49129aa06221938faa98e6295f0d790b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2723ebec7d989320e407d70f0e8c00d4"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a2723ebec7d989320e407d70f0e8c00d4"><td class="memTemplItemLeft" align="right" valign="top">Vector3&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a2723ebec7d989320e407d70f0e8c00d4">MR::fromEigen</a> (const Eigen::Matrix&lt; T, 3, 1 &gt; &amp;ev)</td></tr>
 <tr class="separator:a2723ebec7d989320e407d70f0e8c00d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,6 +142,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a20b5ff1415d774bc26055b5734f9b306"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a20b5ff1415d774bc26055b5734f9b306"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 3, 3 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a20b5ff1415d774bc26055b5734f9b306">MR::toEigen</a> (const SymMatrix3&lt; T &gt; &amp;m)</td></tr>
 <tr class="separator:a20b5ff1415d774bc26055b5734f9b306"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd50a577d1934b0c0a0aca008de7d541"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:abd50a577d1934b0c0a0aca008de7d541"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 3, 3 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#abd50a577d1934b0c0a0aca008de7d541">MR::toEigen</a> (const Matrix3&lt; T &gt; &amp;m)</td></tr>
+<tr class="separator:abd50a577d1934b0c0a0aca008de7d541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4374661114398aca454e07dc09a7036c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a4374661114398aca454e07dc09a7036c"><td class="memTemplItemLeft" align="right" valign="top">Matrix3&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4374661114398aca454e07dc09a7036c">MR::fromEigen</a> (const Eigen::Matrix&lt; T, 3, 3 &gt; &amp;m)</td></tr>
+<tr class="separator:a4374661114398aca454e07dc09a7036c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9b8ea723d950187f862ce89900a7534"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ad9b8ea723d950187f862ce89900a7534"><td class="memTemplItemLeft" align="right" valign="top">Vector4&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ad9b8ea723d950187f862ce89900a7534">MR::fromEigen</a> (const Eigen::Matrix&lt; T, 4, 1 &gt; &amp;ev)</td></tr>
 <tr class="separator:ad9b8ea723d950187f862ce89900a7534"><td class="memSeparator" colspan="2">&#160;</td></tr>

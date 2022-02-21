@@ -202,7 +202,8 @@ var annotated_dup =
       [ "VolumeIndexer", "classMR_1_1VolumeIndexer.html", "classMR_1_1VolumeIndexer" ],
       [ "VolumeSegmentationParameters", "structMR_1_1VolumeSegmentationParameters.html", "structMR_1_1VolumeSegmentationParameters" ],
       [ "VolumeSegmenter", "classMR_1_1VolumeSegmenter.html", "classMR_1_1VolumeSegmenter" ],
-      [ "VoxelMetricParameters", "structMR_1_1VoxelMetricParameters.html", "structMR_1_1VoxelMetricParameters" ]
+      [ "VoxelMetricParameters", "structMR_1_1VoxelMetricParameters.html", "structMR_1_1VoxelMetricParameters" ],
+      [ "XfBasedCache", "classMR_1_1XfBasedCache.html", "classMR_1_1XfBasedCache" ]
     ] ],
     [ "MRE", "namespaceMRE.html", [
       [ "TriangulationHelpers", "namespaceMRE_1_1TriangulationHelpers.html", [

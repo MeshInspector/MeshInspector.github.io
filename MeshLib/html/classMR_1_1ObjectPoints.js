@@ -14,6 +14,7 @@ var classMR_1_1ObjectPoints =
     [ "deserializeModel_", "classMR_1_1ObjectPoints.html#a89ff9d5fa4f9f6c9d556c44e2fcec658", null ],
     [ "getInfoLines", "classMR_1_1ObjectPoints.html#a8a5af21a0ab52a2d7f2464ba3e3f8131", null ],
     [ "getPointSize", "classMR_1_1ObjectPoints.html#a69eceefc7e1c356a9662eff604d9dcfd", null ],
+    [ "getWorldBox", "classMR_1_1ObjectPoints.html#a5c7ccfbad537d8ffe0848dd6e4a3f915", null ],
     [ "operator=", "classMR_1_1ObjectPoints.html#a5831e567d62ac9ac7959897b98ee75ae", null ],
     [ "pointCloud", "classMR_1_1ObjectPoints.html#a77bed413e7d6249b41e959368fda1a5e", null ],
     [ "serializeFields_", "classMR_1_1ObjectPoints.html#a6e93d56966cf8c7d956767173ee17eae", null ],

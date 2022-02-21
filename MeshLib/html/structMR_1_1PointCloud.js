@@ -1,5 +1,6 @@
 var structMR_1_1PointCloud =
 [
+    [ "computeBoundingBox", "structMR_1_1PointCloud.html#ac3b1015ea089d93658ff4783c2282c8e", null ],
     [ "getAABBTree", "structMR_1_1PointCloud.html#a645a4b6af1de600172fab56912082219", null ],
     [ "getBoundingBox", "structMR_1_1PointCloud.html#a28846bc1f86b18053ff605bd9cdffc26", null ],
     [ "invalidateCaches", "structMR_1_1PointCloud.html#ab7c257206a284f22b8e2484b87436069", null ],

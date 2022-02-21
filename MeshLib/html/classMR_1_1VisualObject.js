@@ -29,6 +29,7 @@ var classMR_1_1VisualObject =
     [ "getVisualizeProperty", "classMR_1_1VisualObject.html#a9709f115307bc66ddc037c9cd3337367", null ],
     [ "getVisualizePropertyMask", "classMR_1_1VisualObject.html#a2d0de59e16bf45e9564c9353ad7fb746", null ],
     [ "getVisualizePropertyMask_", "classMR_1_1VisualObject.html#a707ecabffd277a2bcaf0c783af412fb4", null ],
+    [ "getWorldBox", "classMR_1_1VisualObject.html#a0738a75d253618ef5c9ca23519c857e2", null ],
     [ "isPickable", "classMR_1_1VisualObject.html#a5e93f8182244dc91a5a4520b1640a00a", null ],
     [ "operator=", "classMR_1_1VisualObject.html#ad5bb82fa6b6b0ea77f0137b975c802f6", null ],
     [ "render", "classMR_1_1VisualObject.html#a2ac2d3fec5be6ed045fb24e5519ff27d", null ],

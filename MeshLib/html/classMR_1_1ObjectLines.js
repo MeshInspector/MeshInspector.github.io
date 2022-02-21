@@ -15,6 +15,7 @@ var classMR_1_1ObjectLines =
     [ "getLineWidth", "classMR_1_1ObjectLines.html#a976e83b996b2efe610a4321a3db019b2", null ],
     [ "getPointSize", "classMR_1_1ObjectLines.html#aa1579ecfdc75fc5355d9940ff406a0c0", null ],
     [ "getVisualizePropertyMask", "classMR_1_1ObjectLines.html#ad203ef0660b6233eaf53bb0b1d8d9095", null ],
+    [ "getWorldBox", "classMR_1_1ObjectLines.html#a61919f177a93bc448855657c98f81e28", null ],
     [ "operator=", "classMR_1_1ObjectLines.html#ae26c6b747a929751fcc5ad90b70b9d66", null ],
     [ "polyline", "classMR_1_1ObjectLines.html#a50658ee20434fa010ccf36cb96f2d58c", null ],
     [ "serializeFields_", "classMR_1_1ObjectLines.html#a6a19d164523cab5fd08ba3bfc3f8a835", null ],
