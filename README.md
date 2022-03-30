@@ -1,4 +1,4 @@
-# MeshRUs.github.io
+# MeshInspector.github.io
 This repository is test documentary holder for https://github.com/MeshInspector/MeshLib
 
 ## Instruction
