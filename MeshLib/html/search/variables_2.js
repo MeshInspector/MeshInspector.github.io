@@ -16,11 +16,13 @@ var searchData=
   ['converter_13',['converter',['../structMRE_1_1SortIntersectionsData.html#a3938fca1f9a108164927c0fe3a3c2e55',1,'MRE::SortIntersectionsData']]],
   ['coord_14',['coord',['../structMR_1_1AABBTreePoints_1_1Point.html#a14a9b34e597a6b504acd6c3ee97e12be',1,'MR::AABBTreePoints::Point::coord()'],['../structMR_1_1EdgeIdAndCoord.html#a377fdae992b26015342d8646160e43d3',1,'MR::EdgeIdAndCoord::coord()']]],
   ['coordinate_15',['coordinate',['../structMRE_1_1OneMeshIntersection.html#a4de6fcf5bafbafab2839abdb6d2a93b7',1,'MRE::OneMeshIntersection']]],
-  ['costreshold_16',['cosTreshold',['../structMR_1_1ICPProperties.html#a97fba10a2234631de5a66c59d1dfd305',1,'MR::ICPProperties']]],
-  ['critangle_17',['critAngle',['../structMRE_1_1TriangulationParameters.html#aa5b9a619e31c0c6a290f58f7544d5ee7',1,'MRE::TriangulationParameters']]],
-  ['critaspectratio_18',['critAspectRatio',['../structMR_1_1SubdivideSettings.html#a9aec10f3fcab4053b13de2d25f10f311',1,'MR::SubdivideSettings']]],
-  ['critholelength_19',['critHoleLength',['../structMRE_1_1TriangulationParameters.html#abb46c0fd74910004b6de69db2ec0c097',1,'MRE::TriangulationParameters']]],
-  ['croplabels_5f_20',['cropLabels_',['../classMR_1_1VisualObject.html#a00c87dfb674938a5d27218e746079782',1,'MR::VisualObject']]],
-  ['cut2newfaces_21',['cut2newFaces',['../structMRE_1_1BooleanResultMapper_1_1Maps.html#a58c57ca47b222a8b7234b94d23c789ec',1,'MRE::BooleanResultMapper::Maps']]],
-  ['cut2origin_22',['cut2origin',['../structMRE_1_1BooleanResultMapper_1_1Maps.html#a446fc879d51d15790368ba4640d252a8',1,'MRE::BooleanResultMapper::Maps']]]
+  ['cornernormalscache_5f_16',['cornerNormalsCache_',['../classMR_1_1ObjectMeshHolder.html#af5de2e84a55270e04fb09e2ca004b484',1,'MR::ObjectMeshHolder']]],
+  ['costreshold_17',['cosTreshold',['../structMR_1_1ICPProperties.html#a97fba10a2234631de5a66c59d1dfd305',1,'MR::ICPProperties']]],
+  ['creases_5f_18',['creases_',['../classMR_1_1ObjectMeshHolder.html#a826739f1401b2e3d3016aeb68c30f59f',1,'MR::ObjectMeshHolder']]],
+  ['critangle_19',['critAngle',['../structMRE_1_1TriangulationParameters.html#aa5b9a619e31c0c6a290f58f7544d5ee7',1,'MRE::TriangulationParameters']]],
+  ['critaspectratio_20',['critAspectRatio',['../structMR_1_1SubdivideSettings.html#a9aec10f3fcab4053b13de2d25f10f311',1,'MR::SubdivideSettings']]],
+  ['critholelength_21',['critHoleLength',['../structMRE_1_1TriangulationParameters.html#abb46c0fd74910004b6de69db2ec0c097',1,'MRE::TriangulationParameters']]],
+  ['croplabels_5f_22',['cropLabels_',['../classMR_1_1VisualObject.html#a00c87dfb674938a5d27218e746079782',1,'MR::VisualObject']]],
+  ['cut2newfaces_23',['cut2newFaces',['../structMRE_1_1BooleanResultMapper_1_1Maps.html#a58c57ca47b222a8b7234b94d23c789ec',1,'MRE::BooleanResultMapper::Maps']]],
+  ['cut2origin_24',['cut2origin',['../structMRE_1_1BooleanResultMapper_1_1Maps.html#a446fc879d51d15790368ba4640d252a8',1,'MRE::BooleanResultMapper::Maps']]]
 ];

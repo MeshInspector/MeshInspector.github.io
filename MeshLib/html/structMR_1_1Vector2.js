@@ -5,6 +5,7 @@ var structMR_1_1Vector2 =
     [ "ValueType", "structMR_1_1Vector2.html#a419f18cb7af20ab8455495874cefbd9d", null ],
     [ "Vector2", "structMR_1_1Vector2.html#a3ff02adca3f72858969bfba674ccf9c7", null ],
     [ "Vector2", "structMR_1_1Vector2.html#a9c5f2b992789dba5c6d4e8e80ed28fa0", null ],
+    [ "Vector2", "structMR_1_1Vector2.html#a5d6364a368131508a540587a1b1428cf", null ],
     [ "Vector2", "structMR_1_1Vector2.html#a1f64d08ffa10b15e43c0a0b1e717715b", null ],
     [ "furthestBasisVector", "structMR_1_1Vector2.html#a4fef9290221d57f1dbc56732ab43d5b7", null ],
     [ "length", "structMR_1_1Vector2.html#a7c5be9748ce1523fb56704ce6aa2f62f", null ],

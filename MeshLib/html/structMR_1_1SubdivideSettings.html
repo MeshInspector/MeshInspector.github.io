@@ -123,6 +123,9 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a9288f9c5670484c0f76b53be1311b3cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9aec10f3fcab4053b13de2d25f10f311"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#a9aec10f3fcab4053b13de2d25f10f311">critAspectRatio</a> = 20.0f</td></tr>
 <tr class="separator:a9aec10f3fcab4053b13de2d25f10f311"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e8653d42d8358f40dca297f675d4111"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#a9e8653d42d8358f40dca297f675d4111">onVertCreated</a></td></tr>
+<tr class="memdesc:a9e8653d42d8358f40dca297f675d4111"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time a new vertex has been created, but before the ring is made Delone  <a href="structMR_1_1SubdivideSettings.html#a9e8653d42d8358f40dca297f675d4111">More...</a><br /></td></tr>
+<tr class="separator:a9e8653d42d8358f40dca297f675d4111"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a9aec10f3fcab4053b13de2d25f10f311" name="a9aec10f3fcab4053b13de2d25f10f311"></a>
@@ -202,6 +205,22 @@ this parameter prevents subdivision of such triangles </p>
 </div><div class="memdoc">
 
 <p>New vertices appeared during subdivision will be added here. </p>
+
+</div>
+</div>
+<a id="a9e8653d42d8358f40dca297f675d4111" name="a9e8653d42d8358f40dca297f675d4111"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e8653d42d8358f40dca297f675d4111">&#9670;&nbsp;</a></span>onVertCreated</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;void(<a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>)&gt; MR::SubdivideSettings::onVertCreated</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>this function is called each time a new vertex has been created, but before the ring is made Delone </p>
 
 </div>
 </div>

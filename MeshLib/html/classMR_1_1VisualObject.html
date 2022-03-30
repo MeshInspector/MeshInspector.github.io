@@ -112,13 +112,19 @@ $(document).ready(function(){initNavTree('classMR_1_1VisualObject.html',''); ini
  <div class="center">
   <img src="classMR_1_1VisualObject.png" usemap="#MR::VisualObject_map" alt=""/>
   <map id="MR::VisualObject_map" name="MR::VisualObject_map">
-<area href="classMR_1_1Object.html" alt="MR::Object" shape="rect" coords="170,56,330,80"/>
-<area href="structMR_1_1ObjectChildrenHolder.html" alt="MR::ObjectChildrenHolder" shape="rect" coords="170,0,330,24"/>
-<area href="classMR_1_1ObjectLines.html" alt="MR::ObjectLines" shape="rect" coords="0,168,160,192"/>
-<area href="classMR_1_1ObjectMesh.html" alt="MR::ObjectMesh" shape="rect" coords="170,168,330,192"/>
-<area href="classMR_1_1ObjectPoints.html" alt="MR::ObjectPoints" shape="rect" coords="340,168,500,192"/>
-<area href="classMR_1_1ObjectDistanceMap.html" alt="MR::ObjectDistanceMap" shape="rect" coords="85,224,245,248"/>
-<area href="classMR_1_1ObjectVoxels.html" alt="MR::ObjectVoxels" shape="rect" coords="255,224,415,248"/>
+<area href="classMR_1_1Object.html" alt="MR::Object" shape="rect" coords="340,56,500,80"/>
+<area href="structMR_1_1ObjectChildrenHolder.html" alt="MR::ObjectChildrenHolder" shape="rect" coords="340,0,500,24"/>
+<area href="classMR_1_1ObjectLinesHolder.html" alt="MR::ObjectLinesHolder" shape="rect" coords="0,168,160,192"/>
+<area href="classMR_1_1ObjectMeshHolder.html" alt="MR::ObjectMeshHolder" shape="rect" coords="340,168,500,192"/>
+<area href="classMR_1_1ObjectPoints.html" alt="MR::ObjectPoints" shape="rect" coords="510,168,670,192"/>
+<area href="classMR_1_1CircleObject.html" alt="MR::CircleObject" shape="rect" coords="170,224,330,248"/>
+<area href="classMR_1_1LineObject.html" alt="MR::LineObject" shape="rect" coords="170,280,330,304"/>
+<area href="classMR_1_1ObjectLines.html" alt="MR::ObjectLines" shape="rect" coords="170,336,330,360"/>
+<area href="classMR_1_1ObjectDistanceMap.html" alt="MR::ObjectDistanceMap" shape="rect" coords="510,224,670,248"/>
+<area href="classMR_1_1ObjectMesh.html" alt="MR::ObjectMesh" shape="rect" coords="510,280,670,304"/>
+<area href="classMR_1_1ObjectVoxels.html" alt="MR::ObjectVoxels" shape="rect" coords="510,336,670,360"/>
+<area href="classMR_1_1PlaneObject.html" alt="MR::PlaneObject" shape="rect" coords="510,392,670,416"/>
+<area href="classMR_1_1SphereObject.html" alt="MR::SphereObject" shape="rect" coords="510,448,670,472"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -220,8 +226,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2ac2d3fec5be6ed045fb24e5519ff27d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af652007b051e9c9408cbb2d25ee9cc57"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#af652007b051e9c9408cbb2d25ee9cc57">renderForPicker</a> (const <a class="el" href="structMR_1_1BaseRenderParams.html">BaseRenderParams</a> &amp;, unsigned) const</td></tr>
 <tr class="separator:af652007b051e9c9408cbb2d25ee9cc57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64aa25a53f4fd54928f155b347cb8f0e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a64aa25a53f4fd54928f155b347cb8f0e">swap</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;other) override</td></tr>
-<tr class="separator:a64aa25a53f4fd54928f155b347cb8f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0738a75d253618ef5c9ca23519c857e2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ada98ebf3fec74759dd46700389a3e556">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a0738a75d253618ef5c9ca23519c857e2">getWorldBox</a> () const</td></tr>
 <tr class="separator:a0738a75d253618ef5c9ca23519c857e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a132f300dcd5614eaaa237b865dc79763"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a132f300dcd5614eaaa237b865dc79763">VisualObject</a> (<a class="el" href="structMR_1_1Object_1_1ProtectedStruct.html">ProtectedStruct</a>, const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;obj)</td></tr>
@@ -334,8 +338,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1084cfb8bca9d7c5f84f2d3d9000d413 inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f57af7720b6f65bc10596e41c3cf772 inherit pub_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a9f57af7720b6f65bc10596e41c3cf772">deserializeRecursive</a> (const std::filesystem::path &amp;path, const Json::Value &amp;root)</td></tr>
 <tr class="separator:a9f57af7720b6f65bc10596e41c3cf772 inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7b3e39506e17fca7ffcfd33e41b2e16 inherit pub_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#ad7b3e39506e17fca7ffcfd33e41b2e16">swap</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;other)</td></tr>
-<tr class="separator:ad7b3e39506e17fca7ffcfd33e41b2e16 inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39e506e0816b1d504e86a2823ee90cf3 inherit pub_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a39e506e0816b1d504e86a2823ee90cf3">swap</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;other)</td></tr>
+<tr class="separator:a39e506e0816b1d504e86a2823ee90cf3 inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a795eb7eeaecc99cf34dabd14ac113e0b inherit pub_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a795eb7eeaecc99cf34dabd14ac113e0b">Object</a> (<a class="el" href="structMR_1_1Object_1_1ProtectedStruct.html">ProtectedStruct</a>, const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;obj)</td></tr>
 <tr class="separator:a795eb7eeaecc99cf34dabd14ac113e0b inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structMR_1_1ObjectChildrenHolder"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structMR_1_1ObjectChildrenHolder')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></td></tr>
@@ -364,6 +368,8 @@ Static Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:aaac191711df9841f6b7fc77cb21844a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#aaac191711df9841f6b7fc77cb21844a6">VisualObject</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;obj)</td></tr>
 <tr class="separator:aaac191711df9841f6b7fc77cb21844a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76b7b6b3bfd7dac31eb1d150afb761f7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a76b7b6b3bfd7dac31eb1d150afb761f7">swapBase_</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;other) override</td></tr>
+<tr class="separator:a76b7b6b3bfd7dac31eb1d150afb761f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c9ac961e923f7c61ccf3424413be0fb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a8c9ac961e923f7c61ccf3424413be0fb">setupRenderObject_</a> () const</td></tr>
 <tr class="separator:a8c9ac961e923f7c61ccf3424413be0fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a707ecabffd277a2bcaf0c783af412fb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a707ecabffd277a2bcaf0c783af412fb4">getVisualizePropertyMask_</a> (unsigned type)</td></tr>
@@ -383,6 +389,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="inherit_header pro_methods_classMR_1_1Object"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
 <tr class="memitem:aeadedab38b0876317d01593cbee6b9ea inherit pro_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#aeadedab38b0876317d01593cbee6b9ea">Object</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;obj)</td></tr>
 <tr class="separator:aeadedab38b0876317d01593cbee6b9ea inherit pro_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ff1262849d62c014b87a26f031aee9a inherit pro_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a8ff1262849d62c014b87a26f031aee9a">swapBase_</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;other)</td></tr>
+<tr class="separator:a8ff1262849d62c014b87a26f031aee9a inherit pro_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82d2749fefb75e38b62dd69a52307680 inherit pro_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a82d2749fefb75e38b62dd69a52307680">swapSignals_</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;other)</td></tr>
+<tr class="separator:a82d2749fefb75e38b62dd69a52307680 inherit pro_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6be7101ff8b1b0be98391ed54dfcaa7 inherit pro_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; std::future&lt; void &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#ae6be7101ff8b1b0be98391ed54dfcaa7">serializeModel_</a> (const std::filesystem::path &amp;path) const</td></tr>
 <tr class="separator:ae6be7101ff8b1b0be98391ed54dfcaa7 inherit pro_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b72f2310983a6e40753b5d919d72d35 inherit pro_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a4b72f2310983a6e40753b5d919d72d35">serializeFields_</a> (Json::Value &amp;root) const</td></tr>
@@ -649,7 +659,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1Object.html#ae0f00298204b65ca49b4daaa9a39f5c5">MR::Object</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1ObjectDistanceMap.html#a5128e28ab5be3c4295cfdbbf344635c5">MR::ObjectDistanceMap</a>, <a class="el" href="classMR_1_1ObjectLines.html#ada224fb3ab391e048a38ca259d333c09">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectMesh.html#a211a396578d24c0f475b44be7d6e5c44">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectPoints.html#ad267de3013f2004552a791899a4d2fb6">MR::ObjectPoints</a>, and <a class="el" href="classMR_1_1ObjectVoxels.html#a058a06524247ee20a310f4ee07d5839b">MR::ObjectVoxels</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1CircleObject.html#a1fcb69f1dd8bdbf42302043d67fb8fa8">MR::CircleObject</a>, <a class="el" href="classMR_1_1LineObject.html#aa9a192c6a7b45287b4e6221e3d5ecb6d">MR::LineObject</a>, <a class="el" href="classMR_1_1ObjectDistanceMap.html#a5128e28ab5be3c4295cfdbbf344635c5">MR::ObjectDistanceMap</a>, <a class="el" href="classMR_1_1ObjectLines.html#ada224fb3ab391e048a38ca259d333c09">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectLinesHolder.html#a8d62fc8248ac41e37620d11e4e326b62">MR::ObjectLinesHolder</a>, <a class="el" href="classMR_1_1ObjectMesh.html#a211a396578d24c0f475b44be7d6e5c44">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectMeshHolder.html#aeaa501dd61dadd0298de0f97c2b4c45d">MR::ObjectMeshHolder</a>, <a class="el" href="classMR_1_1ObjectPoints.html#ad267de3013f2004552a791899a4d2fb6">MR::ObjectPoints</a>, <a class="el" href="classMR_1_1ObjectVoxels.html#a058a06524247ee20a310f4ee07d5839b">MR::ObjectVoxels</a>, <a class="el" href="classMR_1_1PlaneObject.html#a3de6d8962e60d11119a0a510af905f62">MR::PlaneObject</a>, and <a class="el" href="classMR_1_1SphereObject.html#a0f12c8dd3509baa2cb33bf45e476124a">MR::SphereObject</a>.</p>
 
 </div>
 </div>
@@ -676,7 +686,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classMR_1_1ObjectLines.html#a9ad8bbdfdb844624c0805f61692451f4">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectMesh.html#ae0d45a530192df96e6b3d79d1c69774f">MR::ObjectMesh</a>, and <a class="el" href="classMR_1_1ObjectPoints.html#a321d8cf4b8b10b05ec8d714bd5d9c9f5">MR::ObjectPoints</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1ObjectLinesHolder.html#a502ed4a3293b4e8466ef0eacaa0f8d9d">MR::ObjectLinesHolder</a>, <a class="el" href="classMR_1_1ObjectMeshHolder.html#aa05cf4d24dd3776eba6722f5ba23423d">MR::ObjectMeshHolder</a>, and <a class="el" href="classMR_1_1ObjectPoints.html#a321d8cf4b8b10b05ec8d714bd5d9c9f5">MR::ObjectPoints</a>.</p>
 
 </div>
 </div>
@@ -703,7 +713,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classMR_1_1ObjectLines.html#a67e24b17d3ed0623431fd5b560fd0416">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectMesh.html#adc8161f203e18ca4d347479b96798619">MR::ObjectMesh</a>, and <a class="el" href="classMR_1_1ObjectPoints.html#aaf24f3df3082bb6aa773da9b75e3db69">MR::ObjectPoints</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1ObjectLinesHolder.html#ab2c476662206f9b4203251f7a385ff28">MR::ObjectLinesHolder</a>, <a class="el" href="classMR_1_1ObjectMeshHolder.html#a976444761fbae5cf4de72b7472b5379a">MR::ObjectMeshHolder</a>, and <a class="el" href="classMR_1_1ObjectPoints.html#aaf24f3df3082bb6aa773da9b75e3db69">MR::ObjectPoints</a>.</p>
 
 </div>
 </div>
@@ -730,7 +740,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classMR_1_1ObjectMesh.html#a13e4a9f54540b8d0b8d08b866a29ac45">MR::ObjectMesh</a>, and <a class="el" href="classMR_1_1ObjectPoints.html#a8abd38440638ce54243a3298e9c3d0c7">MR::ObjectPoints</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1ObjectMeshHolder.html#a694bc6aee87e0005ac18850a650916d3">MR::ObjectMeshHolder</a>, and <a class="el" href="classMR_1_1ObjectPoints.html#a8abd38440638ce54243a3298e9c3d0c7">MR::ObjectPoints</a>.</p>
 
 </div>
 </div>
@@ -785,7 +795,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classMR_1_1ObjectLines.html#af1a73f9b9a9627b828772ee1fed0680b">MR::ObjectLines</a>, and <a class="el" href="classMR_1_1ObjectMesh.html#a61448680cd9cefe6005986bf4d46102d">MR::ObjectMesh</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1ObjectLinesHolder.html#a2798b1849e8c43f61a65e198db996c38">MR::ObjectLinesHolder</a>, and <a class="el" href="classMR_1_1ObjectMeshHolder.html#a86585f8998b1881037c9ebbcc829c92a">MR::ObjectMeshHolder</a>.</p>
 
 </div>
 </div>
@@ -968,7 +978,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1Object.html#a4ae8a13d0528c5937e200015938b6dc5">MR::Object</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1ObjectMesh.html#a51177f9993bcd08ee4032954977424e5">MR::ObjectMesh</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1ObjectMeshHolder.html#aa095821c8be332dee208deb420d5c7f8">MR::ObjectMeshHolder</a>.</p>
 
 </div>
 </div>
@@ -1141,7 +1151,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classMR_1_1ObjectLines.html#ad203ef0660b6233eaf53bb0b1d8d9095">MR::ObjectLines</a>, and <a class="el" href="classMR_1_1ObjectMesh.html#a78de61c7ce81ff3a8ed7a61c13a8849c">MR::ObjectMesh</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1ObjectLinesHolder.html#a5d13c8c395f958091f374366074439e4">MR::ObjectLinesHolder</a>, and <a class="el" href="classMR_1_1ObjectMeshHolder.html#ac0f13f89df19885b41e35136217f58b8">MR::ObjectMeshHolder</a>.</p>
 
 </div>
 </div>
@@ -1194,7 +1204,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classMR_1_1ObjectLines.html#a61919f177a93bc448855657c98f81e28">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectMesh.html#ad587e167a6d4b8328847773342ec494d">MR::ObjectMesh</a>, and <a class="el" href="classMR_1_1ObjectPoints.html#a5c7ccfbad537d8ffe0848dd6e4a3f915">MR::ObjectPoints</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1ObjectLinesHolder.html#a546c75ca597cce0346167f1a223dc6b5">MR::ObjectLinesHolder</a>, <a class="el" href="classMR_1_1ObjectMeshHolder.html#a00bbd9955813e695a4cf783c075e7398">MR::ObjectMeshHolder</a>, and <a class="el" href="classMR_1_1ObjectPoints.html#a5c7ccfbad537d8ffe0848dd6e4a3f915">MR::ObjectPoints</a>.</p>
 
 </div>
 </div>
@@ -1355,7 +1365,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1Object.html#a4b72f2310983a6e40753b5d919d72d35">MR::Object</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1ObjectDistanceMap.html#a1d68e848504ae3e593e550c51d0b1ddb">MR::ObjectDistanceMap</a>, <a class="el" href="classMR_1_1ObjectLines.html#a6a19d164523cab5fd08ba3bfc3f8a835">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectMesh.html#a03d1a17fadf84a8ad3ec4850334cef11">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectPoints.html#a6e93d56966cf8c7d956767173ee17eae">MR::ObjectPoints</a>, and <a class="el" href="classMR_1_1ObjectVoxels.html#a1b9e402abcba964cf107ae761006fdb3">MR::ObjectVoxels</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1CircleObject.html#a2f2f75df180154bb0a2973c18a588e3f">MR::CircleObject</a>, <a class="el" href="classMR_1_1LineObject.html#a70dc397b963d30654e48c48ef0dbc910">MR::LineObject</a>, <a class="el" href="classMR_1_1ObjectDistanceMap.html#a1d68e848504ae3e593e550c51d0b1ddb">MR::ObjectDistanceMap</a>, <a class="el" href="classMR_1_1ObjectLines.html#ada9a662dc02f094a109afa99afda0e43">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectLinesHolder.html#a595c32a305a50ae33fcac573b462f998">MR::ObjectLinesHolder</a>, <a class="el" href="classMR_1_1ObjectMesh.html#a03d1a17fadf84a8ad3ec4850334cef11">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectMeshHolder.html#a94d5dc0f646051e69cc9e5c89ad68f0d">MR::ObjectMeshHolder</a>, <a class="el" href="classMR_1_1ObjectPoints.html#a6e93d56966cf8c7d956767173ee17eae">MR::ObjectPoints</a>, <a class="el" href="classMR_1_1ObjectVoxels.html#a1b9e402abcba964cf107ae761006fdb3">MR::ObjectVoxels</a>, <a class="el" href="classMR_1_1PlaneObject.html#a5758ae41f2198f2a1bbfb3004a14fd4d">MR::PlaneObject</a>, and <a class="el" href="classMR_1_1SphereObject.html#aad300c4270da25b21556235725b4b8c3">MR::SphereObject</a>.</p>
 
 </div>
 </div>
@@ -1461,7 +1471,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classMR_1_1ObjectLines.html#a585e0f5bb1c43d066c8f11b1955342fc">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectMesh.html#a7f5ea0312443a27e09e0a47e96074bdb">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectPoints.html#a32a35f6550738e18cde9aa21e49ccda1">MR::ObjectPoints</a>, and <a class="el" href="classMR_1_1ObjectVoxels.html#a62f604cd208a8d89e61015edc053d9d2">MR::ObjectVoxels</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1ObjectLines.html#a585e0f5bb1c43d066c8f11b1955342fc">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectLinesHolder.html#aab41d34f2f2047cbc0b3bce7a0a133c9">MR::ObjectLinesHolder</a>, <a class="el" href="classMR_1_1ObjectMesh.html#a7f5ea0312443a27e09e0a47e96074bdb">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectMeshHolder.html#adb4a30214ea70abcd8c4011f5d5fa3cf">MR::ObjectMeshHolder</a>, <a class="el" href="classMR_1_1ObjectPoints.html#a32a35f6550738e18cde9aa21e49ccda1">MR::ObjectPoints</a>, and <a class="el" href="classMR_1_1ObjectVoxels.html#a62f604cd208a8d89e61015edc053d9d2">MR::ObjectVoxels</a>.</p>
 
 </div>
 </div>
@@ -1664,7 +1674,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classMR_1_1ObjectLines.html#acc1e14fcca777661a0be4ff3f5faa1a6">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectMesh.html#a3ba66903290eb301ccf71be7d981ab59">MR::ObjectMesh</a>, and <a class="el" href="classMR_1_1ObjectPoints.html#aec8af7cc53cfcee296e0d54b365fffbd">MR::ObjectPoints</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1ObjectLinesHolder.html#a3a46ff446a508a1e4da51f1a85880461">MR::ObjectLinesHolder</a>, <a class="el" href="classMR_1_1ObjectMeshHolder.html#a0e1f5fb75ff002cd9cf560859663047e">MR::ObjectMeshHolder</a>, and <a class="el" href="classMR_1_1ObjectPoints.html#aec8af7cc53cfcee296e0d54b365fffbd">MR::ObjectPoints</a>.</p>
 
 </div>
 </div>
@@ -1843,7 +1853,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1Object.html#a0d35e02c1f43af6741066f893311266f">MR::Object</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1ObjectDistanceMap.html#a8e077ec531dfa8174d27d9e5a31fa47f">MR::ObjectDistanceMap</a>, <a class="el" href="classMR_1_1ObjectLines.html#aff95536683320ad3bdc54a759afe5e7b">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectMesh.html#a3da846b7d2eebc6602bc67510eb71d34">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectPoints.html#a0204d43ba94c12cd5f8e20ef283315d2">MR::ObjectPoints</a>, and <a class="el" href="classMR_1_1ObjectVoxels.html#a225f04e78475f3534bd49929d9200da1">MR::ObjectVoxels</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1CircleObject.html#a1b666f68cb067916d8b0a10e19c98af6">MR::CircleObject</a>, <a class="el" href="classMR_1_1LineObject.html#a1ee596ccd488d1e2f49a4d690b9b6a32">MR::LineObject</a>, <a class="el" href="classMR_1_1ObjectDistanceMap.html#a8e077ec531dfa8174d27d9e5a31fa47f">MR::ObjectDistanceMap</a>, <a class="el" href="classMR_1_1ObjectLines.html#aff95536683320ad3bdc54a759afe5e7b">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectLinesHolder.html#aa19c36b553adf089ebe87a6220248926">MR::ObjectLinesHolder</a>, <a class="el" href="classMR_1_1ObjectMesh.html#a3da846b7d2eebc6602bc67510eb71d34">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectMeshHolder.html#a5b883e16802b82fc905c2166fba9cbce">MR::ObjectMeshHolder</a>, <a class="el" href="classMR_1_1ObjectPoints.html#a0204d43ba94c12cd5f8e20ef283315d2">MR::ObjectPoints</a>, <a class="el" href="classMR_1_1ObjectVoxels.html#a225f04e78475f3534bd49929d9200da1">MR::ObjectVoxels</a>, <a class="el" href="classMR_1_1PlaneObject.html#abf5ba6293ac5dd5b3019940c71272282">MR::PlaneObject</a>, and <a class="el" href="classMR_1_1SphereObject.html#ae8924769b4847b515a97481b5ac24215">MR::SphereObject</a>.</p>
 
 </div>
 </div>
@@ -1949,8 +1959,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a64aa25a53f4fd54928f155b347cb8f0e" name="a64aa25a53f4fd54928f155b347cb8f0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64aa25a53f4fd54928f155b347cb8f0e">&#9670;&nbsp;</a></span>swap()</h2>
+<a id="a76b7b6b3bfd7dac31eb1d150afb761f7" name="a76b7b6b3bfd7dac31eb1d150afb761f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76b7b6b3bfd7dac31eb1d150afb761f7">&#9670;&nbsp;</a></span>swapBase_()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1959,7 +1969,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::VisualObject::swap </td>
+          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::VisualObject::swapBase_ </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1Object.html">Object</a> &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
@@ -1968,14 +1978,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classMR_1_1Object.html#ad7b3e39506e17fca7ffcfd33e41b2e16">MR::Object</a>.</p>
+<p>Reimplemented from <a class="el" href="classMR_1_1Object.html#a8ff1262849d62c014b87a26f031aee9a">MR::Object</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1ObjectDistanceMap.html#aa4f6e81712145dbe14d9fad19fbb9ff2">MR::ObjectDistanceMap</a>, <a class="el" href="classMR_1_1ObjectLines.html#aa5ce79f5fd6d550419fec5f32e43b8b3">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectMesh.html#a4943d93ba3f6106bb310b3468b6d3089">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectPoints.html#a6632f8cdb6f2dd5fa0b0bc645af11a3b">MR::ObjectPoints</a>, and <a class="el" href="classMR_1_1ObjectVoxels.html#a35fd898e135f31476948ede5f82a0895">MR::ObjectVoxels</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1CircleObject.html#a744c3d9624e8aaae878e393781b1b263">MR::CircleObject</a>, <a class="el" href="classMR_1_1LineObject.html#adec17436488d24c31d8bcfeb2e4d1118">MR::LineObject</a>, <a class="el" href="classMR_1_1ObjectDistanceMap.html#a909bc94c17de8482114192a257f196a6">MR::ObjectDistanceMap</a>, <a class="el" href="classMR_1_1ObjectLines.html#a527fce3c91b8dc02284dab71a95d2ea7">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectLinesHolder.html#a11d75f9e64cd1cec71eff3f65d040259">MR::ObjectLinesHolder</a>, <a class="el" href="classMR_1_1ObjectMesh.html#a58768d2ade5a8da7fdf85c181f2382a1">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectMeshHolder.html#ab787120fcb4837c6d8ef2ec3e62eb935">MR::ObjectMeshHolder</a>, <a class="el" href="classMR_1_1ObjectPoints.html#a7cbf8f6689936307fe71452da91038a4">MR::ObjectPoints</a>, <a class="el" href="classMR_1_1ObjectVoxels.html#acfc82746f998b7430d932547ce473670">MR::ObjectVoxels</a>, <a class="el" href="classMR_1_1PlaneObject.html#afb6fc94d7cbe98896d3b6fea3c1f4ceb">MR::PlaneObject</a>, and <a class="el" href="classMR_1_1SphereObject.html#ab073c7dd40fc01a69a3484338c65f9e0">MR::SphereObject</a>.</p>
 
 </div>
 </div>
@@ -2032,7 +2042,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1Object.html#a46f7be31befc01e09d18deed96127a02">MR::Object</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1ObjectDistanceMap.html#abaac591338fe97a8e55b49601c5c4367">MR::ObjectDistanceMap</a>, <a class="el" href="classMR_1_1ObjectLines.html#a069fc0b9496c10738c79ed84e458c729">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectMesh.html#af9b93365f1a3106e6b452c197251afba">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectPoints.html#af389d74376fb91966716aa2ff7444a5d">MR::ObjectPoints</a>, and <a class="el" href="classMR_1_1ObjectVoxels.html#ad263dcb8982dbf8095729fa3a3d2032e">MR::ObjectVoxels</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1CircleObject.html#a7dd05445d9524f457b174b86526f7917">MR::CircleObject</a>, <a class="el" href="classMR_1_1LineObject.html#afe5e0bae23cb23a4485ddd95a2cb16ca">MR::LineObject</a>, <a class="el" href="classMR_1_1ObjectDistanceMap.html#abaac591338fe97a8e55b49601c5c4367">MR::ObjectDistanceMap</a>, <a class="el" href="classMR_1_1ObjectLines.html#a069fc0b9496c10738c79ed84e458c729">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectLinesHolder.html#a67bbdfa8042874e1a7033f78bb96be59">MR::ObjectLinesHolder</a>, <a class="el" href="classMR_1_1ObjectMesh.html#af9b93365f1a3106e6b452c197251afba">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectMeshHolder.html#a8881d4cf9ed83ffbec3af1d175a0ace2">MR::ObjectMeshHolder</a>, <a class="el" href="classMR_1_1ObjectPoints.html#af389d74376fb91966716aa2ff7444a5d">MR::ObjectPoints</a>, <a class="el" href="classMR_1_1ObjectVoxels.html#ad263dcb8982dbf8095729fa3a3d2032e">MR::ObjectVoxels</a>, <a class="el" href="classMR_1_1PlaneObject.html#a49f838bc215720ee037d22734a7cc987">MR::PlaneObject</a>, and <a class="el" href="classMR_1_1SphereObject.html#a3fe2e258e75828338f7c6f90cd70b09e">MR::SphereObject</a>.</p>
 
 </div>
 </div>

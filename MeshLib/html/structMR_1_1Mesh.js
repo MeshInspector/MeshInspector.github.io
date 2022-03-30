@@ -64,6 +64,7 @@ var structMR_1_1Mesh =
     [ "signedDistance", "structMR_1_1Mesh.html#a8f0190c7655e2427094aead642a0710c", null ],
     [ "signedDistance", "structMR_1_1Mesh.html#a4048484ac2e78090960bc9bbc60cd6b6", null ],
     [ "splitEdge", "structMR_1_1Mesh.html#a32f3f55b9c4506e998e7bb3f77893de6", null ],
+    [ "splitFace", "structMR_1_1Mesh.html#adda5f13339c0d5e0cf0c7d93e2332973", null ],
     [ "sumAngles", "structMR_1_1Mesh.html#a9168ca386aa3a34b0c1b79ddd7f4faa3", null ],
     [ "toEdgePoint", "structMR_1_1Mesh.html#aa96011e8aa47330e9f075bc4ef3a08e2", null ],
     [ "toTriPoint", "structMR_1_1Mesh.html#a98ce30cba5543afc4736d287bfd3d3bc", null ],

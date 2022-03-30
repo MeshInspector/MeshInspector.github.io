@@ -1,6 +1,7 @@
 var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
 [
     [ "MR2DContoursTriangulation.h", "MR2DContoursTriangulation_8h.html", "MR2DContoursTriangulation_8h" ],
+    [ "MR2to3.h", "MR2to3_8h.html", "MR2to3_8h" ],
     [ "MRAABBTree.h", "MRAABBTree_8h.html", [
       [ "MR::AABBTree", "classMR_1_1AABBTree.html", "classMR_1_1AABBTree" ]
     ] ],
@@ -38,7 +39,9 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRBoolean.h", "MRBoolean_8h.html", "MRBoolean_8h" ],
     [ "MRBox.h", "MRBox_8h.html", "MRBox_8h" ],
     [ "MRChangeMeshAction.h", "MRChangeMeshAction_8h.html", [
-      [ "MR::ChangeMeshAction", "classMR_1_1ChangeMeshAction.html", "classMR_1_1ChangeMeshAction" ]
+      [ "MR::ChangeMeshAction", "classMR_1_1ChangeMeshAction.html", "classMR_1_1ChangeMeshAction" ],
+      [ "MR::ChangeMeshPointsAction", "classMR_1_1ChangeMeshPointsAction.html", "classMR_1_1ChangeMeshPointsAction" ],
+      [ "MR::ChangeMeshTopologyAction", "classMR_1_1ChangeMeshTopologyAction.html", "classMR_1_1ChangeMeshTopologyAction" ]
     ] ],
     [ "MRChangeNameAction.h", "MRChangeNameAction_8h.html", [
       [ "MR::ChangeNameAction", "classMR_1_1ChangeNameAction.html", "classMR_1_1ChangeNameAction" ]
@@ -54,10 +57,14 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     ] ],
     [ "MRChangeSelectionAction.h", "MRChangeSelectionAction_8h.html", [
       [ "MR::ChangeSelectionAction", "classMR_1_1ChangeSelectionAction.html", "classMR_1_1ChangeSelectionAction" ],
-      [ "MR::ChangeEdgeSelectionAction", "classMR_1_1ChangeEdgeSelectionAction.html", "classMR_1_1ChangeEdgeSelectionAction" ]
+      [ "MR::ChangeEdgeSelectionAction", "classMR_1_1ChangeEdgeSelectionAction.html", "classMR_1_1ChangeEdgeSelectionAction" ],
+      [ "MR::ChangeCreasesAction", "classMR_1_1ChangeCreasesAction.html", "classMR_1_1ChangeCreasesAction" ]
     ] ],
     [ "MRChangeXfAction.h", "MRChangeXfAction_8h.html", [
       [ "MR::ChangeXfAction", "classMR_1_1ChangeXfAction.html", "classMR_1_1ChangeXfAction" ]
+    ] ],
+    [ "MRCircleObject.h", "MRCircleObject_8h.html", [
+      [ "MR::CircleObject", "classMR_1_1CircleObject.html", "classMR_1_1CircleObject" ]
     ] ],
     [ "MRClosestPointInTriangle.h", "MRClosestPointInTriangle_8h.html", null ],
     [ "MRColor.h", "MRColor_8h.html", "MRColor_8h" ],
@@ -69,6 +76,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRConstants.h", "MRConstants_8h.html", null ],
     [ "MRContour.h", "MRContour_8h.html", "MRContour_8h" ],
     [ "MRContoursStitch.h", "MRContoursStitch_8h.html", "MRContoursStitch_8h" ],
+    [ "MRConvexHull.h", "MRConvexHull_8h.html", "MRConvexHull_8h" ],
     [ "MRCube.h", "MRCube_8h.html", "MRCube_8h" ],
     [ "MRCylinder.h", "MRCylinder_8h.html", "MRCylinder_8h" ],
     [ "MRDenseBox.h", "MRDenseBox_8h.html", [
@@ -90,10 +98,12 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRExpandShrink.h", "MRExpandShrink_8h.html", "MRExpandShrink_8h" ],
     [ "MRExtractIsolines.h", "MRExtractIsolines_8h.html", "MRExtractIsolines_8h" ],
     [ "MRFaceFace.h", "MRFaceFace_8h.html", [
-      [ "MR::FaceFace", "structMR_1_1FaceFace.html", "structMR_1_1FaceFace" ]
+      [ "MR::FaceFace", "structMR_1_1FaceFace.html", "structMR_1_1FaceFace" ],
+      [ "MR::UndirectedEdgeUndirectedEdge", "structMR_1_1UndirectedEdgeUndirectedEdge.html", "structMR_1_1UndirectedEdgeUndirectedEdge" ]
     ] ],
     [ "MRFile.h", "MRFile_8h.html", "MRFile_8h" ],
     [ "MRFillContour.h", "MRFillContour_8h.html", "MRFillContour_8h" ],
+    [ "MRFillContours2D.h", "MRFillContours2D_8h.html", "MRFillContours2D_8h" ],
     [ "MRFixUndercuts.h", "MRFixUndercuts_8h.html", "MRFixUndercuts_8h" ],
     [ "MRFloatGrid.h", "MRFloatGrid_8h.html", "MRFloatGrid_8h" ],
     [ "MRFloatGridComponents.h", "MRFloatGridComponents_8h.html", "MRFloatGridComponents_8h" ],
@@ -128,8 +138,13 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
       [ "MR::Laplacian", "classMR_1_1Laplacian.html", "classMR_1_1Laplacian" ]
     ] ],
     [ "MRLine3.h", "MRLine3_8h.html", "MRLine3_8h" ],
+    [ "MRLineObject.h", "MRLineObject_8h.html", [
+      [ "MR::LineObject", "classMR_1_1LineObject.html", "classMR_1_1LineObject" ]
+    ] ],
     [ "MRLineSegm.h", "MRLineSegm_8h.html", "MRLineSegm_8h" ],
     [ "MRLineSegm3.h", "MRLineSegm3_8h.html", null ],
+    [ "MRLinesLoad.h", "MRLinesLoad_8h.html", "MRLinesLoad_8h" ],
+    [ "MRLinesSave.h", "MRLinesSave_8h.html", "MRLinesSave_8h" ],
     [ "MRLog.h", "MRLog_8h.html", "MRLog_8h" ],
     [ "MRMakePlane.h", "MRMakePlane_8h.html", "MRMakePlane_8h" ],
     [ "MRMakeRigidXf.h", "MRMakeRigidXf_8h.html", "MRMakeRigidXf_8h" ],
@@ -192,13 +207,20 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     ] ],
     [ "MRObjectFactory.h", "MRObjectFactory_8h.html", "MRObjectFactory_8h" ],
     [ "MRObjectLines.h", "MRObjectLines_8h.html", [
-      [ "MR::LinesVisualizePropertyType", "structMR_1_1LinesVisualizePropertyType.html", "structMR_1_1LinesVisualizePropertyType" ],
       [ "MR::ObjectLines", "classMR_1_1ObjectLines.html", "classMR_1_1ObjectLines" ]
+    ] ],
+    [ "MRObjectLinesHolder.h", "MRObjectLinesHolder_8h.html", [
+      [ "MR::LinesVisualizePropertyType", "structMR_1_1LinesVisualizePropertyType.html", "structMR_1_1LinesVisualizePropertyType" ],
+      [ "MR::ObjectLinesHolder", "classMR_1_1ObjectLinesHolder.html", "classMR_1_1ObjectLinesHolder" ]
     ] ],
     [ "MRObjectLoad.h", "MRObjectLoad_8h.html", "MRObjectLoad_8h" ],
     [ "MRObjectMesh.h", "MRObjectMesh_8h.html", [
-      [ "MR::MeshVisualizePropertyType", "structMR_1_1MeshVisualizePropertyType.html", "structMR_1_1MeshVisualizePropertyType" ],
       [ "MR::ObjectMesh", "classMR_1_1ObjectMesh.html", "classMR_1_1ObjectMesh" ]
+    ] ],
+    [ "MRObjectMeshHolder.h", "MRObjectMeshHolder_8h.html", [
+      [ "MR::MeshVisualizePropertyType", "structMR_1_1MeshVisualizePropertyType.html", "structMR_1_1MeshVisualizePropertyType" ],
+      [ "MR::ObjectMeshHolder", "classMR_1_1ObjectMeshHolder.html", "classMR_1_1ObjectMeshHolder" ],
+      [ "MR::ObjectMeshHolder::MeshStat", "structMR_1_1ObjectMeshHolder_1_1MeshStat.html", "structMR_1_1ObjectMeshHolder_1_1MeshStat" ]
     ] ],
     [ "MRObjectPoints.h", "MRObjectPoints_8h.html", [
       [ "MR::ObjectPoints", "classMR_1_1ObjectPoints.html", "classMR_1_1ObjectPoints" ]
@@ -218,6 +240,9 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     ] ],
     [ "MRPlanarPath.h", "MRPlanarPath_8h.html", "MRPlanarPath_8h" ],
     [ "MRPlane3.h", "MRPlane3_8h.html", "MRPlane3_8h" ],
+    [ "MRPlaneObject.h", "MRPlaneObject_8h.html", [
+      [ "MR::PlaneObject", "classMR_1_1PlaneObject.html", "classMR_1_1PlaneObject" ]
+    ] ],
     [ "MRPointCloud.h", "MRPointCloud_8h.html", [
       [ "MR::PointCloud", "structMR_1_1PointCloud.html", "structMR_1_1PointCloud" ]
     ] ],
@@ -231,16 +256,15 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRPointsLoad.h", "MRPointsLoad_8h.html", "MRPointsLoad_8h" ],
     [ "MRPointsSave.h", "MRPointsSave_8h.html", "MRPointsSave_8h" ],
     [ "MRPolyline.h", "MRPolyline_8h.html", [
-      [ "MR::Polyline", "structMR_1_1Polyline.html", "structMR_1_1Polyline" ]
+      [ "MR::Polyline< V >", "structMR_1_1Polyline.html", "structMR_1_1Polyline" ]
     ] ],
-    [ "MRPolyline2.h", "MRPolyline2_8h.html", [
-      [ "MR::Polyline2", "structMR_1_1Polyline2.html", "structMR_1_1Polyline2" ]
-    ] ],
+    [ "MRPolyline2.h", "MRPolyline2_8h.html", null ],
+    [ "MRPolyline2Collide.h", "MRPolyline2Collide_8h.html", "MRPolyline2Collide_8h" ],
     [ "MRPolyline2Project.h", "MRPolyline2Project_8h.html", "MRPolyline2Project_8h" ],
     [ "MRPolylineEdgeIterator.h", "MRPolylineEdgeIterator_8h.html", "MRPolylineEdgeIterator_8h" ],
     [ "MRPolylineProject.h", "MRPolylineProject_8h.html", "MRPolylineProject_8h" ],
     [ "MRPolylineTopology.h", "MRPolylineTopology_8h.html", [
-      [ "MR::PolylineTopology", "structMR_1_1PolylineTopology.html", "structMR_1_1PolylineTopology" ]
+      [ "MR::PolylineTopology", "classMR_1_1PolylineTopology.html", "classMR_1_1PolylineTopology" ]
     ] ],
     [ "MRPositionVertsSmoothly.h", "MRPositionVertsSmoothly_8h.html", "MRPositionVertsSmoothly_8h" ],
     [ "MRPrecisePredicates2.h", "MRPrecisePredicates2_8h.html", "MRPrecisePredicates2_8h" ],
@@ -268,9 +292,16 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRSceneRoot.h", "MRSceneRoot_8h.html", [
       [ "MR::SceneRoot", "classMR_1_1SceneRoot.html", null ]
     ] ],
+    [ "MRSceneSettings.h", "MRSceneSettings_8h.html", [
+      [ "MR::SceneSettings", "classMR_1_1SceneSettings.html", "classMR_1_1SceneSettings" ]
+    ] ],
     [ "MRSerializer.h", "MRSerializer_8h.html", "MRSerializer_8h" ],
     [ "MRSimpleVolume.h", "MRSimpleVolume_8h.html", [
       [ "MR::SimpleVolume", "structMR_1_1SimpleVolume.html", "structMR_1_1SimpleVolume" ]
+    ] ],
+    [ "MRSphere.h", "MRSphere_8h.html", "MRSphere_8h" ],
+    [ "MRSphereObject.h", "MRSphereObject_8h.html", [
+      [ "MR::SphereObject", "classMR_1_1SphereObject.html", "classMR_1_1SphereObject" ]
     ] ],
     [ "MRStreamOperators.h", "MRStreamOperators_8h.html", "MRStreamOperators_8h" ],
     [ "MRString.h", "MRString_8h.html", "MRString_8h" ],

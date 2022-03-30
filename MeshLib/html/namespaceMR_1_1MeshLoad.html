@@ -114,37 +114,41 @@ Classes</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:a45aa3f6a621fff75668512378ba715d8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#a45aa3f6a621fff75668512378ba715d8">MeshLoader</a> = tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string &gt;(*)(const std::filesystem::path &amp;, std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *)</td></tr>
 <tr class="separator:a45aa3f6a621fff75668512378ba715d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e219b8ce33112893995d2e3fc17e705"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#a4e219b8ce33112893995d2e3fc17e705">MeshStreamLoader</a> = tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string &gt;(*)(std::istream &amp;, std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *)</td></tr>
+<tr class="separator:a4e219b8ce33112893995d2e3fc17e705"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a350b9ad86f759c762c0c4df6371aa036"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR_1_1MeshLoad.html#a45aa3f6a621fff75668512378ba715d8">MeshLoader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#a350b9ad86f759c762c0c4df6371aa036">getMeshLoader</a> (<a class="el" href="structMR_1_1IOFilter.html">IOFilter</a> filter)</td></tr>
 <tr class="separator:a350b9ad86f759c762c0c4df6371aa036"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a247f35eb02151e0ce68e863a496609f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR_1_1MeshLoad.html#a4e219b8ce33112893995d2e3fc17e705">MeshStreamLoader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#a247f35eb02151e0ce68e863a496609f6">getMeshStreamLoader</a> (<a class="el" href="structMR_1_1IOFilter.html">IOFilter</a> filter)</td></tr>
+<tr class="separator:a247f35eb02151e0ce68e863a496609f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca0d649d3cadf6807b1fa3b610368510"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a49f63334796a9865d1ecc25d270bf47e">IOFilters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#aca0d649d3cadf6807b1fa3b610368510">getFilters</a> ()</td></tr>
 <tr class="separator:aca0d649d3cadf6807b1fa3b610368510"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1f28f1165eea80b4f88c0de9b96ec17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#af1f28f1165eea80b4f88c0de9b96ec17">fromMrmesh</a> (const std::filesystem::path &amp;file, std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *colors=nullptr)</td></tr>
 <tr class="separator:af1f28f1165eea80b4f88c0de9b96ec17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28265fce776568e2637c0e769a312fde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#a28265fce776568e2637c0e769a312fde">fromMrmesh</a> (std::istream &amp;in)</td></tr>
-<tr class="separator:a28265fce776568e2637c0e769a312fde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb148b747b471bf833a91ba65b2276b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#afb148b747b471bf833a91ba65b2276b7">fromMrmesh</a> (std::istream &amp;in, std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *colors=nullptr)</td></tr>
+<tr class="separator:afb148b747b471bf833a91ba65b2276b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a729d6b2707f6d67f0b6fde4b959344a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#a729d6b2707f6d67f0b6fde4b959344a9">fromOff</a> (const std::filesystem::path &amp;file, std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *colors=nullptr)</td></tr>
 <tr class="separator:a729d6b2707f6d67f0b6fde4b959344a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adae936637ff1e3d0f07113c3a9e10432"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#adae936637ff1e3d0f07113c3a9e10432">fromOff</a> (std::istream &amp;in)</td></tr>
-<tr class="separator:adae936637ff1e3d0f07113c3a9e10432"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d095683778e9f75e7d20c0834398ee5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#a3d095683778e9f75e7d20c0834398ee5">fromOff</a> (std::istream &amp;in, std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *colors=nullptr)</td></tr>
+<tr class="separator:a3d095683778e9f75e7d20c0834398ee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ccc28452f8a1dfdd80caa6504201c4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#a9ccc28452f8a1dfdd80caa6504201c4d">fromObj</a> (const std::filesystem::path &amp;file, std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *colors=nullptr)</td></tr>
 <tr class="separator:a9ccc28452f8a1dfdd80caa6504201c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05ef72250f63e5869ae8cac1f227c3c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#a05ef72250f63e5869ae8cac1f227c3c8">fromObj</a> (std::istream &amp;in)</td></tr>
-<tr class="separator:a05ef72250f63e5869ae8cac1f227c3c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6ba39adce2b42a05eb6de9eb019da2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#ac6ba39adce2b42a05eb6de9eb019da2e">fromObj</a> (std::istream &amp;in, std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *colors=nullptr)</td></tr>
+<tr class="separator:ac6ba39adce2b42a05eb6de9eb019da2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc7902196f432114e2c1e8513b54c2f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#acc7902196f432114e2c1e8513b54c2f8">fromAnyStl</a> (const std::filesystem::path &amp;file, std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *colors=nullptr)</td></tr>
 <tr class="separator:acc7902196f432114e2c1e8513b54c2f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ba8d27090373fdfb161d8e0f3176117"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#a8ba8d27090373fdfb161d8e0f3176117">fromAnyStl</a> (std::istream &amp;in)</td></tr>
-<tr class="separator:a8ba8d27090373fdfb161d8e0f3176117"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed90b8b1da15db28fc8ab284fdda7dac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#aed90b8b1da15db28fc8ab284fdda7dac">fromAnyStl</a> (std::istream &amp;in, std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *colors=nullptr)</td></tr>
+<tr class="separator:aed90b8b1da15db28fc8ab284fdda7dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18f19abd6069ab0369e17876d3d6410e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#a18f19abd6069ab0369e17876d3d6410e">fromBinaryStl</a> (const std::filesystem::path &amp;file, std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *colors=nullptr)</td></tr>
 <tr class="separator:a18f19abd6069ab0369e17876d3d6410e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0c02e8d04add49e217ba532eee1d861"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#af0c02e8d04add49e217ba532eee1d861">fromBinaryStl</a> (std::istream &amp;in)</td></tr>
-<tr class="separator:af0c02e8d04add49e217ba532eee1d861"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40f29b7c35ae0a9825cc214d0a024348"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#a40f29b7c35ae0a9825cc214d0a024348">fromBinaryStl</a> (std::istream &amp;in, std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *colors=nullptr)</td></tr>
+<tr class="separator:a40f29b7c35ae0a9825cc214d0a024348"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a743bbb011abab0de38bbf1ff3fa10319"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#a743bbb011abab0de38bbf1ff3fa10319">fromASCIIStl</a> (const std::filesystem::path &amp;file, std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *colors=nullptr)</td></tr>
 <tr class="separator:a743bbb011abab0de38bbf1ff3fa10319"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b6e7287e24763576737a817ebc9c4e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#a1b6e7287e24763576737a817ebc9c4e9">fromASCIIStl</a> (std::istream &amp;in)</td></tr>
-<tr class="separator:a1b6e7287e24763576737a817ebc9c4e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f00daa4468486908b5e76b21611c75d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#a8f00daa4468486908b5e76b21611c75d">fromASCIIStl</a> (std::istream &amp;in, std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *colors=nullptr)</td></tr>
+<tr class="separator:a8f00daa4468486908b5e76b21611c75d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8295bfb40d5fece158df7aa214008a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#ab8295bfb40d5fece158df7aa214008a2">fromPly</a> (const std::filesystem::path &amp;file, std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *colors=nullptr)</td></tr>
 <tr class="separator:ab8295bfb40d5fece158df7aa214008a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a145c78a2353c36119b2ec7f19bf8e1b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#a145c78a2353c36119b2ec7f19bf8e1b8">fromPly</a> (std::istream &amp;in, std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *colors=nullptr)</td></tr>
@@ -155,6 +159,8 @@ Functions</h2></td></tr>
 <tr class="separator:ad0a32ecf69c5675f8c46910fb8be4d25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0d0499f6ddcd31bac309cb83c1f814d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#aa0d0499f6ddcd31bac309cb83c1f814d">fromAnySupportedFormat</a> (const std::filesystem::path &amp;file, std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *colors=nullptr)</td></tr>
 <tr class="separator:aa0d0499f6ddcd31bac309cb83c1f814d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a865d218e7560fe95f44c8fba1f50bc04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#a865d218e7560fe95f44c8fba1f50bc04">fromAnySupportedFormat</a> (std::istream &amp;in, const std::string &amp;extension, std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *colors=nullptr)</td></tr>
+<tr class="separator:a865d218e7560fe95f44c8fba1f50bc04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab735e24c6b71040351627687dfd1a732"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; std::vector&lt; <a class="el" href="structMR_1_1MeshLoad_1_1NamedMesh.html">NamedMesh</a> &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#ab735e24c6b71040351627687dfd1a732">fromSceneObjFile</a> (const std::filesystem::path &amp;file, bool combineAllObjects)</td></tr>
 <tr class="separator:ab735e24c6b71040351627687dfd1a732"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f196a07890e88883201653f53b0c3ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; std::vector&lt; <a class="el" href="structMR_1_1MeshLoad_1_1NamedMesh.html">NamedMesh</a> &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshLoad.html#a7f196a07890e88883201653f53b0c3ce">fromSceneObjFile</a> (std::istream &amp;in, bool combineAllObjects)</td></tr>
@@ -169,6 +175,20 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="namespaceMR_1_1MeshLoad.html#a45aa3f6a621fff75668512378ba715d8">MR::MeshLoad::MeshLoader</a> = typedef tl::expected&lt;<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string&gt;( * )( const std::filesystem::path&amp;, std::vector&lt;<a class="el" href="structMR_1_1Color.html">Color</a>&gt;* )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e219b8ce33112893995d2e3fc17e705" name="a4e219b8ce33112893995d2e3fc17e705"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e219b8ce33112893995d2e3fc17e705">&#9670;&nbsp;</a></span>MeshStreamLoader</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceMR_1_1MeshLoad.html#a4e219b8ce33112893995d2e3fc17e705">MR::MeshLoad::MeshStreamLoader</a> = typedef tl::expected&lt;<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string&gt;( * )( std::istream&amp;, std::vector&lt;<a class="el" href="structMR_1_1Color.html">Color</a>&gt;* )</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -204,8 +224,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8ba8d27090373fdfb161d8e0f3176117" name="a8ba8d27090373fdfb161d8e0f3176117"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ba8d27090373fdfb161d8e0f3176117">&#9670;&nbsp;</a></span>fromAnyStl() <span class="overload">[2/2]</span></h2>
+<a id="aed90b8b1da15db28fc8ab284fdda7dac" name="aed90b8b1da15db28fc8ab284fdda7dac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed90b8b1da15db28fc8ab284fdda7dac">&#9670;&nbsp;</a></span>fromAnyStl() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -214,8 +234,18 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt; MR::MeshLoad::fromAnyStl </td>
           <td>(</td>
           <td class="paramtype">std::istream &amp;&#160;</td>
-          <td class="paramname"><em>in</em></td><td>)</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *&#160;</td>
+          <td class="paramname"><em>colors</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -223,7 +253,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="aa0d0499f6ddcd31bac309cb83c1f814d" name="aa0d0499f6ddcd31bac309cb83c1f814d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0d0499f6ddcd31bac309cb83c1f814d">&#9670;&nbsp;</a></span>fromAnySupportedFormat()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0d0499f6ddcd31bac309cb83c1f814d">&#9670;&nbsp;</a></span>fromAnySupportedFormat() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -233,6 +263,40 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
           <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *&#160;</td>
+          <td class="paramname"><em>colors</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a865d218e7560fe95f44c8fba1f50bc04" name="a865d218e7560fe95f44c8fba1f50bc04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a865d218e7560fe95f44c8fba1f50bc04">&#9670;&nbsp;</a></span>fromAnySupportedFormat() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt; MR::MeshLoad::fromAnySupportedFormat </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>extension</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -278,8 +342,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1b6e7287e24763576737a817ebc9c4e9" name="a1b6e7287e24763576737a817ebc9c4e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b6e7287e24763576737a817ebc9c4e9">&#9670;&nbsp;</a></span>fromASCIIStl() <span class="overload">[2/2]</span></h2>
+<a id="a8f00daa4468486908b5e76b21611c75d" name="a8f00daa4468486908b5e76b21611c75d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f00daa4468486908b5e76b21611c75d">&#9670;&nbsp;</a></span>fromASCIIStl() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -288,8 +352,18 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt; MR::MeshLoad::fromASCIIStl </td>
           <td>(</td>
           <td class="paramtype">std::istream &amp;&#160;</td>
-          <td class="paramname"><em>in</em></td><td>)</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *&#160;</td>
+          <td class="paramname"><em>colors</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -324,8 +398,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af0c02e8d04add49e217ba532eee1d861" name="af0c02e8d04add49e217ba532eee1d861"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0c02e8d04add49e217ba532eee1d861">&#9670;&nbsp;</a></span>fromBinaryStl() <span class="overload">[2/2]</span></h2>
+<a id="a40f29b7c35ae0a9825cc214d0a024348" name="a40f29b7c35ae0a9825cc214d0a024348"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40f29b7c35ae0a9825cc214d0a024348">&#9670;&nbsp;</a></span>fromBinaryStl() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -334,8 +408,18 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt; MR::MeshLoad::fromBinaryStl </td>
           <td>(</td>
           <td class="paramtype">std::istream &amp;&#160;</td>
-          <td class="paramname"><em>in</em></td><td>)</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *&#160;</td>
+          <td class="paramname"><em>colors</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -426,8 +510,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a28265fce776568e2637c0e769a312fde" name="a28265fce776568e2637c0e769a312fde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28265fce776568e2637c0e769a312fde">&#9670;&nbsp;</a></span>fromMrmesh() <span class="overload">[2/2]</span></h2>
+<a id="afb148b747b471bf833a91ba65b2276b7" name="afb148b747b471bf833a91ba65b2276b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb148b747b471bf833a91ba65b2276b7">&#9670;&nbsp;</a></span>fromMrmesh() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -436,8 +520,18 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt; MR::MeshLoad::fromMrmesh </td>
           <td>(</td>
           <td class="paramtype">std::istream &amp;&#160;</td>
-          <td class="paramname"><em>in</em></td><td>)</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *&#160;</td>
+          <td class="paramname"><em>colors</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -472,8 +566,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a05ef72250f63e5869ae8cac1f227c3c8" name="a05ef72250f63e5869ae8cac1f227c3c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05ef72250f63e5869ae8cac1f227c3c8">&#9670;&nbsp;</a></span>fromObj() <span class="overload">[2/2]</span></h2>
+<a id="ac6ba39adce2b42a05eb6de9eb019da2e" name="ac6ba39adce2b42a05eb6de9eb019da2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6ba39adce2b42a05eb6de9eb019da2e">&#9670;&nbsp;</a></span>fromObj() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -482,8 +576,18 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt; MR::MeshLoad::fromObj </td>
           <td>(</td>
           <td class="paramtype">std::istream &amp;&#160;</td>
-          <td class="paramname"><em>in</em></td><td>)</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *&#160;</td>
+          <td class="paramname"><em>colors</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -518,8 +622,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="adae936637ff1e3d0f07113c3a9e10432" name="adae936637ff1e3d0f07113c3a9e10432"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adae936637ff1e3d0f07113c3a9e10432">&#9670;&nbsp;</a></span>fromOff() <span class="overload">[2/2]</span></h2>
+<a id="a3d095683778e9f75e7d20c0834398ee5" name="a3d095683778e9f75e7d20c0834398ee5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d095683778e9f75e7d20c0834398ee5">&#9670;&nbsp;</a></span>fromOff() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -528,8 +632,18 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt; MR::MeshLoad::fromOff </td>
           <td>(</td>
           <td class="paramtype">std::istream &amp;&#160;</td>
-          <td class="paramname"><em>in</em></td><td>)</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *&#160;</td>
+          <td class="paramname"><em>colors</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -673,6 +787,24 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR_1_1MeshLoad.html#a45aa3f6a621fff75668512378ba715d8">MeshLoader</a> MR::MeshLoad::getMeshLoader </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1IOFilter.html">IOFilter</a>&#160;</td>
+          <td class="paramname"><em>filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a247f35eb02151e0ce68e863a496609f6" name="a247f35eb02151e0ce68e863a496609f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a247f35eb02151e0ce68e863a496609f6">&#9670;&nbsp;</a></span>getMeshStreamLoader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR_1_1MeshLoad.html#a4e219b8ce33112893995d2e3fc17e705">MeshStreamLoader</a> MR::MeshLoad::getMeshStreamLoader </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR_1_1IOFilter.html">IOFilter</a>&#160;</td>
           <td class="paramname"><em>filter</em></td><td>)</td>

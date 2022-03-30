@@ -126,13 +126,13 @@ Functions</h2></td></tr>
 <tr class="memitem:ga090e98ab9275f5e5bc3eb8be1e846400"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="namespaceMR.html#a03bea4c1686b4e77a996eb13fd1d4bb7">MR::QuadraticForm3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga090e98ab9275f5e5bc3eb8be1e846400">MRE::computeFormAtVertex</a> (const <a class="el" href="structMR_1_1MeshPart.html">MR::MeshPart</a> &amp;mp, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">MR::VertId</a> v, float stabilizer)</td></tr>
 <tr class="memdesc:ga090e98ab9275f5e5bc3eb8be1e846400"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes quadratic form at given vertex of the initial surface before decimation.  <a href="group__DecimateGroup.html#ga090e98ab9275f5e5bc3eb8be1e846400">More...</a><br /></td></tr>
 <tr class="separator:ga090e98ab9275f5e5bc3eb8be1e846400"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga51ab93bf64af79d363344013e7181856"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimateResult.html">DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga51ab93bf64af79d363344013e7181856">MRE::resolveMeshDegenerations</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh)</td></tr>
-<tr class="memdesc:ga51ab93bf64af79d363344013e7181856"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves degenerate triangles in given mesh.  <a href="group__DecimateGroup.html#ga51ab93bf64af79d363344013e7181856">More...</a><br /></td></tr>
-<tr class="separator:ga51ab93bf64af79d363344013e7181856"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga77478eed983319b85718b5f833ce89e4"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga77478eed983319b85718b5f833ce89e4">MRE::resolveMeshDegenerations</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, int maxIters=1, float maxDeviation=0)</td></tr>
+<tr class="memdesc:ga77478eed983319b85718b5f833ce89e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves degenerate triangles in given mesh.  <a href="group__DecimateGroup.html#ga77478eed983319b85718b5f833ce89e4">More...</a><br /></td></tr>
+<tr class="separator:ga77478eed983319b85718b5f833ce89e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9c9b6750549d4bf9a222a9d5bd509a43"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimateResult.html">DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga9c9b6750549d4bf9a222a9d5bd509a43">MRE::decimateParallelMesh</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const <a class="el" href="structMRE_1_1DecimateParallelSettings.html">DecimateParallelSettings</a> &amp;settings={})</td></tr>
 <tr class="memdesc:ga9c9b6750549d4bf9a222a9d5bd509a43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collapse edges in mesh region according to the settings.  <a href="group__DecimateGroup.html#ga9c9b6750549d4bf9a222a9d5bd509a43">More...</a><br /></td></tr>
 <tr class="separator:ga9c9b6750549d4bf9a222a9d5bd509a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga376a24c8b38706610cb63306f9901a13"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimatePolylineResult.html">DecimatePolylineResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga376a24c8b38706610cb63306f9901a13">MRE::decimatePolyline</a> (<a class="el" href="structMR_1_1Polyline2.html">MR::Polyline2</a> &amp;polyline, const <a class="el" href="structMRE_1_1DecimatePolylineSettings.html">DecimatePolylineSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:ga376a24c8b38706610cb63306f9901a13"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimatePolylineResult.html">DecimatePolylineResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga376a24c8b38706610cb63306f9901a13">MRE::decimatePolyline</a> (<a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">MR::Polyline2</a> &amp;polyline, const <a class="el" href="structMRE_1_1DecimatePolylineSettings.html">DecimatePolylineSettings</a> &amp;settings={})</td></tr>
 <tr class="memdesc:ga376a24c8b38706610cb63306f9901a13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collapse edges in the polyline according to the settings.  <a href="group__DecimateGroup.html#ga376a24c8b38706610cb63306f9901a13">More...</a><br /></td></tr>
 <tr class="separator:ga376a24c8b38706610cb63306f9901a13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga467189de3d6b4210ea9b49f27d04b913"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimatePolylineResult.html">DecimatePolylineResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga467189de3d6b4210ea9b49f27d04b913">MRE::decimateContour</a> (<a class="el" href="namespaceMR.html#ae4ddf6f4d663b556787e0188500a2521">MR::Contour2f</a> &amp;contour, const <a class="el" href="structMRE_1_1DecimatePolylineSettings.html">DecimatePolylineSettings</a> &amp;settings={})</td></tr>
@@ -246,7 +246,7 @@ Before</div></div>
 After</div></div>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__DecimateGroup.html#ga9c9b6750549d4bf9a222a9d5bd509a43">decimateParallelMesh</a> </dd>
 <dd>
-<a class="el" href="group__DecimateGroup.html#ga51ab93bf64af79d363344013e7181856">resolveMeshDegenerations</a> </dd></dl>
+<a class="el" href="group__DecimateGroup.html#ga77478eed983319b85718b5f833ce89e4">resolveMeshDegenerations</a> </dd></dl>
 
 </div>
 </div>
@@ -291,7 +291,7 @@ After</div></div>
         <tr>
           <td class="memname">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimatePolylineResult.html">DecimatePolylineResult</a> MRE::decimatePolyline </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structMR_1_1Polyline2.html">MR::Polyline2</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">MR::Polyline2</a> &amp;&#160;</td>
           <td class="paramname"><em>polyline</em>, </td>
         </tr>
         <tr>
@@ -312,24 +312,41 @@ After</div></div>
 
 </div>
 </div>
-<a id="ga51ab93bf64af79d363344013e7181856" name="ga51ab93bf64af79d363344013e7181856"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga51ab93bf64af79d363344013e7181856">&#9670;&nbsp;</a></span>resolveMeshDegenerations()</h2>
+<a id="ga77478eed983319b85718b5f833ce89e4" name="ga77478eed983319b85718b5f833ce89e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga77478eed983319b85718b5f833ce89e4">&#9670;&nbsp;</a></span>resolveMeshDegenerations()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimateResult.html">DecimateResult</a> MRE::resolveMeshDegenerations </td>
+          <td class="memname">MREALGORITHMS_API bool MRE::resolveMeshDegenerations </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
-          <td class="paramname"><em>mesh</em></td><td>)</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxIters</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxDeviation</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Resolves degenerate triangles in given mesh. </p>
 <p >This function performs decimation, so it can affect topology</p>
+<dl class="section return"><dt>Returns</dt><dd>true if the mesh has been changed</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__DecimateGroup.html#ga9f4ed5382008a7fff13610607c6c5719">decimateMesh</a> </dd></dl>
 
 </div>

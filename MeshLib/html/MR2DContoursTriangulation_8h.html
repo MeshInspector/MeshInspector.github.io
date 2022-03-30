@@ -100,6 +100,7 @@ $(document).ready(function(){initNavTree('MR2DContoursTriangulation_8h.html','')
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<code>#include &lt;optional&gt;</code><br />
 </div>
 <p><a href="MR2DContoursTriangulation_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -112,10 +113,16 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a62c0d86d539f161a85a669acbf5cc38a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Mesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1PlanarTriangulation.html#a62c0d86d539f161a85a669acbf5cc38a">MR::PlanarTriangulation::triangulateContours</a> (const Contours2d &amp;contours)</td></tr>
-<tr class="separator:a62c0d86d539f161a85a669acbf5cc38a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa10669a1c03c9ee6f9e945cb4663b5cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Mesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1PlanarTriangulation.html#aa10669a1c03c9ee6f9e945cb4663b5cb">MR::PlanarTriangulation::triangulateContours</a> (const Contours2f &amp;contours)</td></tr>
-<tr class="separator:aa10669a1c03c9ee6f9e945cb4663b5cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade5573983d1c9abfbb296573a8635e29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Mesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1PlanarTriangulation.html#ade5573983d1c9abfbb296573a8635e29">MR::PlanarTriangulation::triangulateContours</a> (const Contours2d &amp;contours, bool mergeClosePoints=true)</td></tr>
+<tr class="memdesc:ade5573983d1c9abfbb296573a8635e29"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate 2d contours @detail only closed contours are allowed (first point of each contour should be the same as last point of the contour)  <a href="namespaceMR_1_1PlanarTriangulation.html#ade5573983d1c9abfbb296573a8635e29">More...</a><br /></td></tr>
+<tr class="separator:ade5573983d1c9abfbb296573a8635e29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a853273fdbba8474b7bffb57391d8d8ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Mesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1PlanarTriangulation.html#a853273fdbba8474b7bffb57391d8d8ad">MR::PlanarTriangulation::triangulateContours</a> (const Contours2f &amp;contours, bool mergeClosePoints=true)</td></tr>
+<tr class="separator:a853273fdbba8474b7bffb57391d8d8ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec5d00225efa1b43fcfbc0c51d9e2421"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; Mesh &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1PlanarTriangulation.html#aec5d00225efa1b43fcfbc0c51d9e2421">MR::PlanarTriangulation::triangulateDisjointContours</a> (const Contours2d &amp;contours, bool mergeClosePoints=true)</td></tr>
+<tr class="memdesc:aec5d00225efa1b43fcfbc0c51d9e2421"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate 2d contours @detail only closed contours are allowed (first point of each contour should be the same as last point of the contour)  <a href="namespaceMR_1_1PlanarTriangulation.html#aec5d00225efa1b43fcfbc0c51d9e2421">More...</a><br /></td></tr>
+<tr class="separator:aec5d00225efa1b43fcfbc0c51d9e2421"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4274a3a789ce1dc883bd2d7b4de7a2be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; Mesh &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1PlanarTriangulation.html#a4274a3a789ce1dc883bd2d7b4de7a2be">MR::PlanarTriangulation::triangulateDisjointContours</a> (const Contours2f &amp;contours, bool mergeClosePoints=true)</td></tr>
+<tr class="separator:a4274a3a789ce1dc883bd2d7b4de7a2be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

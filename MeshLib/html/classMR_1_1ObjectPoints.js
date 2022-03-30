@@ -24,7 +24,7 @@ var classMR_1_1ObjectPoints =
     [ "setPointSize", "classMR_1_1ObjectPoints.html#a3d6061c3de533eb2365f92b43f9ddfb0", null ],
     [ "setupRenderObject_", "classMR_1_1ObjectPoints.html#aec8af7cc53cfcee296e0d54b365fffbd", null ],
     [ "shallowClone", "classMR_1_1ObjectPoints.html#a0204d43ba94c12cd5f8e20ef283315d2", null ],
-    [ "swap", "classMR_1_1ObjectPoints.html#a6632f8cdb6f2dd5fa0b0bc645af11a3b", null ],
+    [ "swapBase_", "classMR_1_1ObjectPoints.html#a7cbf8f6689936307fe71452da91038a4", null ],
     [ "typeName", "classMR_1_1ObjectPoints.html#af389d74376fb91966716aa2ff7444a5d", null ],
     [ "varPointCloud", "classMR_1_1ObjectPoints.html#aa134e3602fae441e2eb584f728815c89", null ]
 ];

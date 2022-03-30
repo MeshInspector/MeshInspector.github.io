@@ -76,8 +76,11 @@ var hierarchy =
     [ "MR::Heap< T, I, P >", "classMR_1_1Heap.html", null ],
     [ "MR::Histogram", "classMR_1_1Histogram.html", null ],
     [ "MR::HistoryAction", "classMR_1_1HistoryAction.html", [
+      [ "MR::ChangeCreasesAction", "classMR_1_1ChangeCreasesAction.html", null ],
       [ "MR::ChangeEdgeSelectionAction", "classMR_1_1ChangeEdgeSelectionAction.html", null ],
       [ "MR::ChangeMeshAction", "classMR_1_1ChangeMeshAction.html", null ],
+      [ "MR::ChangeMeshPointsAction", "classMR_1_1ChangeMeshPointsAction.html", null ],
+      [ "MR::ChangeMeshTopologyAction", "classMR_1_1ChangeMeshTopologyAction.html", null ],
       [ "MR::ChangeNameAction", "classMR_1_1ChangeNameAction.html", null ],
       [ "MR::ChangeObjectAction", "classMR_1_1ChangeObjectAction.html", null ],
       [ "MR::ChangeSceneAction", "classMR_1_1ChangeSceneAction.html", null ],
@@ -130,6 +133,7 @@ var hierarchy =
     [ "MR::MeshBuilder::MeshPiece", "structMR_1_1MeshBuilder_1_1MeshPiece.html", null ],
     [ "MR::MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", null ],
     [ "MR::MeshSignedDistanceResult", "structMR_1_1MeshSignedDistanceResult.html", null ],
+    [ "MR::ObjectMeshHolder::MeshStat", "structMR_1_1ObjectMeshHolder_1_1MeshStat.html", null ],
     [ "MR::MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html", null ],
     [ "MR::MeshTopology", "classMR_1_1MeshTopology.html", null ],
     [ "MR::MeshTriPoint", "structMR_1_1MeshTriPoint.html", null ],
@@ -148,10 +152,17 @@ var hierarchy =
     [ "MR::ObjectChildrenHolder", "structMR_1_1ObjectChildrenHolder.html", [
       [ "MR::Object", "classMR_1_1Object.html", [
         [ "MR::VisualObject", "classMR_1_1VisualObject.html", [
-          [ "MR::ObjectLines", "classMR_1_1ObjectLines.html", null ],
-          [ "MR::ObjectMesh", "classMR_1_1ObjectMesh.html", [
+          [ "MR::ObjectLinesHolder", "classMR_1_1ObjectLinesHolder.html", [
+            [ "MR::CircleObject", "classMR_1_1CircleObject.html", null ],
+            [ "MR::LineObject", "classMR_1_1LineObject.html", null ],
+            [ "MR::ObjectLines", "classMR_1_1ObjectLines.html", null ]
+          ] ],
+          [ "MR::ObjectMeshHolder", "classMR_1_1ObjectMeshHolder.html", [
             [ "MR::ObjectDistanceMap", "classMR_1_1ObjectDistanceMap.html", null ],
-            [ "MR::ObjectVoxels", "classMR_1_1ObjectVoxels.html", null ]
+            [ "MR::ObjectMesh", "classMR_1_1ObjectMesh.html", null ],
+            [ "MR::ObjectVoxels", "classMR_1_1ObjectVoxels.html", null ],
+            [ "MR::PlaneObject", "classMR_1_1PlaneObject.html", null ],
+            [ "MR::SphereObject", "classMR_1_1SphereObject.html", null ]
           ] ],
           [ "MR::ObjectPoints", "classMR_1_1ObjectPoints.html", null ]
         ] ]
@@ -174,13 +185,12 @@ var hierarchy =
     [ "MR::PointOnFace", "structMR_1_1PointOnFace.html", null ],
     [ "MR::PointToPlaneAligningTransform", "classMR_1_1PointToPlaneAligningTransform.html", null ],
     [ "MR::PointToPointAligningTransform", "classMR_1_1PointToPointAligningTransform.html", null ],
-    [ "MR::Polyline", "structMR_1_1Polyline.html", null ],
-    [ "MR::Polyline2", "structMR_1_1Polyline2.html", null ],
+    [ "MR::Polyline< V >", "structMR_1_1Polyline.html", null ],
     [ "MR::Polyline2ProjectionResult", "structMR_1_1Polyline2ProjectionResult.html", null ],
     [ "MR::Polyline2ProjectionWithOffsetResult", "structMR_1_1Polyline2ProjectionWithOffsetResult.html", null ],
     [ "MR::PolylineProjectionResult", "structMR_1_1PolylineProjectionResult.html", null ],
     [ "MR::PolylineProjectionWithOffsetResult", "structMR_1_1PolylineProjectionWithOffsetResult.html", null ],
-    [ "MR::PolylineTopology", "structMR_1_1PolylineTopology.html", null ],
+    [ "MR::PolylineTopology", "classMR_1_1PolylineTopology.html", null ],
     [ "MR::PolylineTraits< V >", "structMR_1_1PolylineTraits.html", null ],
     [ "MR::PolylineTraits< Vector2f >", "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html", null ],
     [ "MR::PolylineTraits< Vector3f >", "structMR_1_1PolylineTraits_3_01Vector3f_01_4.html", null ],
@@ -211,11 +221,13 @@ var hierarchy =
     ] ],
     [ "MR::SceneColors", "structMR_1_1SceneColors.html", null ],
     [ "MR::SceneRoot", "classMR_1_1SceneRoot.html", null ],
+    [ "MR::SceneSettings", "classMR_1_1SceneSettings.html", null ],
     [ "MR::SegmentSegmentIntersectResult", "structMR_1_1SegmentSegmentIntersectResult.html", null ],
     [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", null ],
     [ "MR::SignedDistanceToMeshResult", "structMR_1_1SignedDistanceToMeshResult.html", null ],
     [ "MR::SimpleVolume", "structMR_1_1SimpleVolume.html", null ],
     [ "MRE::SortIntersectionsData", "structMRE_1_1SortIntersectionsData.html", null ],
+    [ "MR::SphereParams", "structMR_1_1SphereParams.html", null ],
     [ "MR::StitchHolesParams", "structMR_1_1StitchHolesParams.html", null ],
     [ "std::streambuf", null, [
       [ "MR::LoggingStreambuf", "classMR_1_1LoggingStreambuf.html", null ]
@@ -237,12 +249,13 @@ var hierarchy =
     [ "MR::TriPoint< T >", "structMR_1_1TriPoint.html", null ],
     [ "MR::TriPoint< float >", "structMR_1_1TriPoint.html", null ],
     [ "MR::UndirectedEdgeIterator", "classMR_1_1UndirectedEdgeIterator.html", null ],
+    [ "MR::UndirectedEdgeUndirectedEdge", "structMR_1_1UndirectedEdgeUndirectedEdge.html", null ],
     [ "MR::UnionFind< I >", "classMR_1_1UnionFind.html", null ],
     [ "MR::UniqueTemporaryFolder", "classMR_1_1UniqueTemporaryFolder.html", null ],
     [ "MR::UniqueThreadSafeOwner< T >", "classMR_1_1UniqueThreadSafeOwner.html", null ],
     [ "MR::UniqueThreadSafeOwner< MR::AABBTree >", "classMR_1_1UniqueThreadSafeOwner.html", null ],
     [ "MR::UniqueThreadSafeOwner< MR::AABBTreePoints >", "classMR_1_1UniqueThreadSafeOwner.html", null ],
-    [ "MR::UniqueThreadSafeOwner< MR::AABBTreePolyline >", "classMR_1_1UniqueThreadSafeOwner.html", null ],
+    [ "MR::UniqueThreadSafeOwner< MR::AABBTreePolyline< V > >", "classMR_1_1UniqueThreadSafeOwner.html", null ],
     [ "MR::UVCoord", "structMR_1_1UVCoord.html", null ],
     [ "MR::Vector< T, I >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector2< T >", "structMR_1_1Vector2.html", null ],
@@ -266,10 +279,10 @@ var hierarchy =
     [ "MR::Vector< MR::Id< EdgeTag >, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::QuadraticForm, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::UVCoord, MR::Id >", "classMR_1_1Vector.html", null ],
-    [ "MR::Vector< MR::Vector2, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::Vector3, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< Node, NodeId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< TriangleCornerNormals, MR::Id >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< V, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< Vector3f, FaceId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< Vector3f, VertId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< VertId, VertId >", "classMR_1_1Vector.html", null ],

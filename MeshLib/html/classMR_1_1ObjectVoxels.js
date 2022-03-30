@@ -29,7 +29,7 @@ var classMR_1_1ObjectVoxels =
     [ "setIsoValue", "classMR_1_1ObjectVoxels.html#a536c800db0d8fdf664d6403ba3b71257", null ],
     [ "shallowClone", "classMR_1_1ObjectVoxels.html#a225f04e78475f3534bd49929d9200da1", null ],
     [ "surface", "classMR_1_1ObjectVoxels.html#a31a6e0940a4632729bd5bab336d3b99f", null ],
-    [ "swap", "classMR_1_1ObjectVoxels.html#a35fd898e135f31476948ede5f82a0895", null ],
+    [ "swapBase_", "classMR_1_1ObjectVoxels.html#acfc82746f998b7430d932547ce473670", null ],
     [ "typeName", "classMR_1_1ObjectVoxels.html#ad263dcb8982dbf8095729fa3a3d2032e", null ],
     [ "updateHistogramAndSurface", "classMR_1_1ObjectVoxels.html#a607e61443e72bdc0eb881a0d3db9fb8c", null ],
     [ "voxelSize", "classMR_1_1ObjectVoxels.html#a15d13587d3a07d097c841db2c9face4d", null ]

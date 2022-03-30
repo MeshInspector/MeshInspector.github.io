@@ -2,6 +2,7 @@ var MRMeshSave_8h =
 [
     [ "MR::MeshSave::CtmSaveOptions", "structMR_1_1MeshSave_1_1CtmSaveOptions.html", "structMR_1_1MeshSave_1_1CtmSaveOptions" ],
     [ "toAnySupportedFormat", "MRMeshSave_8h.html#a4ec261bb73e7b1367baa707c1560c999", null ],
+    [ "toAnySupportedFormat", "MRMeshSave_8h.html#a967b552f56f0f15a393fc2368e87b80c", null ],
     [ "toBinaryStl", "MRMeshSave_8h.html#a3c082982f93d38f413897933969dc57b", null ],
     [ "toBinaryStl", "MRMeshSave_8h.html#a3f8622785730889007d64319f43e94fe", null ],
     [ "toCtm", "MRMeshSave_8h.html#a991de61d5fb851236c1a8b8c7ab730c0", null ],

@@ -6,11 +6,13 @@ var searchData=
   ['objectfactory_3',['ObjectFactory',['../classMR_1_1ObjectFactory.html',1,'MR']]],
   ['objectfactorybase_4',['ObjectFactoryBase',['../classMR_1_1ObjectFactoryBase.html',1,'MR']]],
   ['objectlines_5',['ObjectLines',['../classMR_1_1ObjectLines.html',1,'MR']]],
-  ['objectmesh_6',['ObjectMesh',['../classMR_1_1ObjectMesh.html',1,'MR']]],
-  ['objectpoints_7',['ObjectPoints',['../classMR_1_1ObjectPoints.html',1,'MR']]],
-  ['objectvoxels_8',['ObjectVoxels',['../classMR_1_1ObjectVoxels.html',1,'MR']]],
-  ['offsetparameters_9',['OffsetParameters',['../structMR_1_1OffsetParameters.html',1,'MR']]],
-  ['onemeshcontour_10',['OneMeshContour',['../structMRE_1_1OneMeshContour.html',1,'MRE']]],
-  ['onemeshintersection_11',['OneMeshIntersection',['../structMRE_1_1OneMeshIntersection.html',1,'MRE']]],
-  ['openvdbfloatgrid_12',['OpenVdbFloatGrid',['../structMR_1_1OpenVdbFloatGrid.html',1,'MR']]]
+  ['objectlinesholder_6',['ObjectLinesHolder',['../classMR_1_1ObjectLinesHolder.html',1,'MR']]],
+  ['objectmesh_7',['ObjectMesh',['../classMR_1_1ObjectMesh.html',1,'MR']]],
+  ['objectmeshholder_8',['ObjectMeshHolder',['../classMR_1_1ObjectMeshHolder.html',1,'MR']]],
+  ['objectpoints_9',['ObjectPoints',['../classMR_1_1ObjectPoints.html',1,'MR']]],
+  ['objectvoxels_10',['ObjectVoxels',['../classMR_1_1ObjectVoxels.html',1,'MR']]],
+  ['offsetparameters_11',['OffsetParameters',['../structMR_1_1OffsetParameters.html',1,'MR']]],
+  ['onemeshcontour_12',['OneMeshContour',['../structMRE_1_1OneMeshContour.html',1,'MRE']]],
+  ['onemeshintersection_13',['OneMeshIntersection',['../structMRE_1_1OneMeshIntersection.html',1,'MRE']]],
+  ['openvdbfloatgrid_14',['OpenVdbFloatGrid',['../structMR_1_1OpenVdbFloatGrid.html',1,'MR']]]
 ];

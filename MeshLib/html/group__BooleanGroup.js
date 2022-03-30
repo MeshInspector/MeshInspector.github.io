@@ -57,5 +57,5 @@ var group__BooleanGroup =
     [ "MRE::convertSurfacePathsToMeshContours", "group__BooleanGroup.html#ga4691347d3996bcfbf33023cdbc98f754", null ],
     [ "MRE::convertSurfacePathWithEndsToMeshContour", "group__BooleanGroup.html#gac1dac30e4d40a6bd5624273038a96e3b", null ],
     [ "MRE::cutMesh", "group__BooleanGroup.html#ga9e479d0d02c34a3f7eaea80c8a8f0aef", null ],
-    [ "MRE::cutMeshWithPlane", "group__BooleanGroup.html#ga8ddb7b1ead726127211268542e69b59e", null ]
+    [ "MRE::cutMeshWithPlane", "group__BooleanGroup.html#ga6d81b102670d4c9406f27c2b1c58e75b", null ]
 ];

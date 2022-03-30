@@ -17,6 +17,6 @@ var classMR_1_1ObjectDistanceMap =
     [ "serializeModel_", "classMR_1_1ObjectDistanceMap.html#a53924624667d92ffc839b8f9ee30a075", null ],
     [ "setDistanceMap", "classMR_1_1ObjectDistanceMap.html#a2e48e59348dedefb6e57a10e13ab1ce5", null ],
     [ "shallowClone", "classMR_1_1ObjectDistanceMap.html#a8e077ec531dfa8174d27d9e5a31fa47f", null ],
-    [ "swap", "classMR_1_1ObjectDistanceMap.html#aa4f6e81712145dbe14d9fad19fbb9ff2", null ],
+    [ "swapBase_", "classMR_1_1ObjectDistanceMap.html#a909bc94c17de8482114192a257f196a6", null ],
     [ "typeName", "classMR_1_1ObjectDistanceMap.html#abaac591338fe97a8e55b49601c5c4367", null ]
 ];

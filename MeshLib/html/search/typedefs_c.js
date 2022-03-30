@@ -10,7 +10,9 @@ var searchData=
   ['planesection_7',['PlaneSection',['../namespaceMR.html#a76fccc29cf3ab68686fad45a62e17fa2',1,'MR']]],
   ['planesections_8',['PlaneSections',['../namespaceMR.html#ac743a99f776ece0d1aace02cd9c7f561',1,'MR']]],
   ['pointer_9',['pointer',['../classMR_1_1SetBitIteratorT.html#a22e03a8a13140a2e652009346c41c0ba',1,'MR::SetBitIteratorT']]],
-  ['polyline_10',['Polyline',['../structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d',1,'MR::PolylineTraits&lt; Vector2f &gt;::Polyline()'],['../structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a1006c6533fb8ffc89e7c4a8866c80a2c',1,'MR::PolylineTraits&lt; Vector3f &gt;::Polyline()']]],
-  ['progresscallback_11',['ProgressCallback',['../namespaceMR.html#a51ff94746a41880cd06d3272b5bcf710',1,'MR']]],
-  ['pythonregisterfuncton_12',['PythonRegisterFuncton',['../classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c',1,'MR::PythonExport']]]
+  ['polyline_10',['Polyline',['../structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d',1,'MR::PolylineTraits&lt; Vector2f &gt;::Polyline()'],['../structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b',1,'MR::PolylineTraits&lt; Vector3f &gt;::Polyline()']]],
+  ['polyline2_11',['Polyline2',['../namespaceMR.html#ab1ca9892644603a8b29005353e5ada79',1,'MR']]],
+  ['polyline3_12',['Polyline3',['../namespaceMR.html#a58b74f27c86e7e9dee889bfe30f3022a',1,'MR']]],
+  ['progresscallback_13',['ProgressCallback',['../namespaceMR.html#a51ff94746a41880cd06d3272b5bcf710',1,'MR']]],
+  ['pythonregisterfuncton_14',['PythonRegisterFuncton',['../classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c',1,'MR::PythonExport']]]
 ];

@@ -57,7 +57,7 @@ var classMR_1_1VisualObject =
     [ "showLabels", "classMR_1_1VisualObject.html#a8c23bff1d3de131d6cb6acbd7565afeb", null ],
     [ "showName", "classMR_1_1VisualObject.html#a6f691bb814bb6837382b81f60eff14c5", null ],
     [ "showName", "classMR_1_1VisualObject.html#aa23cd40dfdaaebc073129fb1ba57dce7", null ],
-    [ "swap", "classMR_1_1VisualObject.html#a64aa25a53f4fd54928f155b347cb8f0e", null ],
+    [ "swapBase_", "classMR_1_1VisualObject.html#a76b7b6b3bfd7dac31eb1d150afb761f7", null ],
     [ "toggleVisualizeProperty", "classMR_1_1VisualObject.html#aa787c76ffea8854bb9cfdfbca5c33a2d", null ],
     [ "typeName", "classMR_1_1VisualObject.html#a6f629cc6822b206ab9232648fa19dcb6", null ],
     [ "backFacesColor_", "classMR_1_1VisualObject.html#af368bfd4234c8ae032620eb08e7a593b", null ],

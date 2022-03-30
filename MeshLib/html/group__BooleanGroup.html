@@ -157,9 +157,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga9e479d0d02c34a3f7eaea80c8a8f0aef"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1CutMeshResult.html">CutMeshResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga9e479d0d02c34a3f7eaea80c8a8f0aef">MRE::cutMesh</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const <a class="el" href="group__BooleanGroup.html#gacd19dbcaab8b5c59b50149c8d2b330f8">OneMeshContours</a> &amp;contours, const <a class="el" href="structMRE_1_1CutMeshParameters.html">CutMeshParameters</a> &amp;params={})</td></tr>
 <tr class="memdesc:ga9e479d0d02c34a3f7eaea80c8a8f0aef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cuts mesh by given contours.  <a href="group__BooleanGroup.html#ga9e479d0d02c34a3f7eaea80c8a8f0aef">More...</a><br /></td></tr>
 <tr class="separator:ga9e479d0d02c34a3f7eaea80c8a8f0aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8ddb7b1ead726127211268542e69b59e"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga8ddb7b1ead726127211268542e69b59e">MRE::cutMeshWithPlane</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">MR::Plane3f</a> &amp;plane, <a class="el" href="namespaceMR.html#a989bcd374602a615d0acbd6a4988b9b3">MR::FaceMap</a> *mapNew2Old=nullptr)</td></tr>
-<tr class="memdesc:ga8ddb7b1ead726127211268542e69b59e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple cut mesh by plane.  <a href="group__BooleanGroup.html#ga8ddb7b1ead726127211268542e69b59e">More...</a><br /></td></tr>
-<tr class="separator:ga8ddb7b1ead726127211268542e69b59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6d81b102670d4c9406f27c2b1c58e75b"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">MR::EdgePath</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga6d81b102670d4c9406f27c2b1c58e75b">MRE::cutMeshWithPlane</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">MR::Plane3f</a> &amp;plane, <a class="el" href="namespaceMR.html#a989bcd374602a615d0acbd6a4988b9b3">MR::FaceMap</a> *mapNew2Old=nullptr)</td></tr>
+<tr class="memdesc:ga6d81b102670d4c9406f27c2b1c58e75b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple cut mesh by plane.  <a href="group__BooleanGroup.html#ga6d81b102670d4c9406f27c2b1c58e75b">More...</a><br /></td></tr>
+<tr class="separator:ga6d81b102670d4c9406f27c2b1c58e75b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga09e248fe156925a1560a8bd4a2179370"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1BooleanResult.html">BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga09e248fe156925a1560a8bd4a2179370">MRE::boolean</a> (const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;meshB, <a class="el" href="group__BooleanGroup.html#gacb4a2073036a155fa7f07f2fdc347007">BooleanOperation</a> operation, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">MR::AffineXf3f</a> *rigidB2A=nullptr, <a class="el" href="structMRE_1_1BooleanResultMapper.html">BooleanResultMapper</a> *mapper=nullptr)</td></tr>
 <tr class="memdesc:ga09e248fe156925a1560a8bd4a2179370"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs CSG operation on two meshes.  <a href="group__BooleanGroup.html#ga09e248fe156925a1560a8bd4a2179370">More...</a><br /></td></tr>
 <tr class="separator:ga09e248fe156925a1560a8bd4a2179370"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -475,14 +475,14 @@ so if you cannot guarantee contours without intersections better make copy of me
 
 </div>
 </div>
-<a id="ga8ddb7b1ead726127211268542e69b59e" name="ga8ddb7b1ead726127211268542e69b59e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8ddb7b1ead726127211268542e69b59e">&#9670;&nbsp;</a></span>cutMeshWithPlane()</h2>
+<a id="ga6d81b102670d4c9406f27c2b1c58e75b" name="ga6d81b102670d4c9406f27c2b1c58e75b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6d81b102670d4c9406f27c2b1c58e75b">&#9670;&nbsp;</a></span>cutMeshWithPlane()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MREALGORITHMS_API void MRE::cutMeshWithPlane </td>
+          <td class="memname">MREALGORITHMS_API std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">MR::EdgePath</a> &gt; MRE::cutMeshWithPlane </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
           <td class="paramname"><em>mesh</em>, </td>
@@ -517,6 +517,7 @@ so if you cannot guarantee contours without intersections better make copy of me
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>This function changes input mesh </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>New edges that correspond to given contours, find more <a class="el" href="structMRE_1_1CutMeshResult.html">MRE::CutMeshResult</a> </dd></dl>
 
 </div>
 </div>

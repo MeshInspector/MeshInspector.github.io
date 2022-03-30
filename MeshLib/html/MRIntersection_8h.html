@@ -95,12 +95,14 @@ $(document).ready(function(){initNavTree('MRIntersection_8h.html',''); initResiz
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">MRIntersection.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRPlane3_8h_source.html">MRPlane3.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRLine3_8h_source.html">MRLine3.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRLineSegm_8h_source.html">MRLineSegm.h</a>&quot;</code><br />
 <code>#include &lt;optional&gt;</code><br />
 </div>
 <p><a href="MRIntersection_8h_source.html">Go to the source code of this file.</a></p>
@@ -112,9 +114,33 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a221f5a21a7592be1174f2205a9db9419"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a221f5a21a7592be1174f2205a9db9419"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; Vector3&lt; T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a221f5a21a7592be1174f2205a9db9419">MR::intersection</a> (const Plane3&lt; T &gt; &amp;plane, const Line3&lt; T &gt; &amp;line)</td></tr>
-<tr class="separator:a221f5a21a7592be1174f2205a9db9419"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0de20b6f8f6b0d5d0ac0b878f9a3d8f3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a0de20b6f8f6b0d5d0ac0b878f9a3d8f3"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; Line3&lt; T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0de20b6f8f6b0d5d0ac0b878f9a3d8f3">MR::intersection</a> (const Plane3&lt; T &gt; &amp;plane1, const Plane3&lt; T &gt; &amp;plane2, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</td></tr>
+<tr class="separator:a0de20b6f8f6b0d5d0ac0b878f9a3d8f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aa33ccde105060c1f523292e81dfcbf"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a5aa33ccde105060c1f523292e81dfcbf"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; Vector3&lt; T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5aa33ccde105060c1f523292e81dfcbf">MR::intersection</a> (const Plane3&lt; T &gt; &amp;plane, const Line3&lt; T &gt; &amp;line, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</td></tr>
+<tr class="separator:a5aa33ccde105060c1f523292e81dfcbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9c4f2546d1a40da39bccf700c70ee49"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ad9c4f2546d1a40da39bccf700c70ee49"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; Vector3&lt; T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ad9c4f2546d1a40da39bccf700c70ee49">MR::intersection</a> (const Line3&lt; T &gt; &amp;line1, const Line3&lt; T &gt; &amp;line2, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</td></tr>
+<tr class="separator:ad9c4f2546d1a40da39bccf700c70ee49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f71b2c20cd6a91f42d8d76dbc038190"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a9f71b2c20cd6a91f42d8d76dbc038190"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a9f71b2c20cd6a91f42d8d76dbc038190">MR::distance</a> (const Plane3&lt; T &gt; &amp;plane1, const Plane3&lt; T &gt; &amp;plane2, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</td></tr>
+<tr class="separator:a9f71b2c20cd6a91f42d8d76dbc038190"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0687cd4a683d6fecc91850b82a02be37"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a0687cd4a683d6fecc91850b82a02be37"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0687cd4a683d6fecc91850b82a02be37">MR::distance</a> (const Plane3&lt; T &gt; &amp;plane, const Line3&lt; T &gt; &amp;line, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</td></tr>
+<tr class="separator:a0687cd4a683d6fecc91850b82a02be37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69fc667c7b57f4abc5cfa4b3b7e84083"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a69fc667c7b57f4abc5cfa4b3b7e84083"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a69fc667c7b57f4abc5cfa4b3b7e84083">MR::distance</a> (const Line3&lt; T &gt; &amp;line1, const Line3&lt; T &gt; &amp;line2, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</td></tr>
+<tr class="separator:a69fc667c7b57f4abc5cfa4b3b7e84083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91843efb2387268c46c85710cc706398"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a91843efb2387268c46c85710cc706398"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; LineSegm3&lt; T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a91843efb2387268c46c85710cc706398">MR::closestPoints</a> (const Line3&lt; T &gt; &amp;line1, const Line3&lt; T &gt; &amp;line2, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</td></tr>
+<tr class="separator:a91843efb2387268c46c85710cc706398"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a252ad7411326b0092fd6f70e6d88a3a1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a252ad7411326b0092fd6f70e6d88a3a1"><td class="memTemplItemLeft" align="right" valign="top">const T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a252ad7411326b0092fd6f70e6d88a3a1">MR::errorLimit</a> = std::numeric_limits&lt;T&gt;::epsilon() * T( 20 )</td></tr>
+<tr class="separator:a252ad7411326b0092fd6f70e6d88a3a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

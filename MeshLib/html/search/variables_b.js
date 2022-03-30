@@ -12,5 +12,12 @@ var searchData=
   ['normals_9',['normals',['../structMR_1_1PointCloud.html#a754014b3ec644e0e61f1b3c37704065a',1,'MR::PointCloud']]],
   ['normalsanglecos_10',['normalsAngleCos',['../structMR_1_1VertPair.html#aa5935036a40e161c0f835cc0c2ce6e2c',1,'MR::VertPair']]],
   ['normmatrixptr_11',['normMatrixPtr',['../structMR_1_1BaseRenderParams.html#aa5cfab33b5c87b9d0b7f08b677f5eca2',1,'MR::BaseRenderParams']]],
-  ['normref_12',['normRef',['../structMR_1_1VertPair.html#a6f8e131bf9b306b1c0170663da85708c',1,'MR::VertPair']]]
+  ['normref_12',['normRef',['../structMR_1_1VertPair.html#a6f8e131bf9b306b1c0170663da85708c',1,'MR::VertPair']]],
+  ['numcomponents_13',['numComponents',['../structMR_1_1ObjectMeshHolder_1_1MeshStat.html#a4b6c1f3ab5de2b8553fde8f7a785e484',1,'MR::ObjectMeshHolder::MeshStat']]],
+  ['numcreaseedges_5f_14',['numCreaseEdges_',['../classMR_1_1ObjectMeshHolder.html#af410ff87afee85c7978cca07f1616415',1,'MR::ObjectMeshHolder']]],
+  ['numholes_15',['numHoles',['../structMR_1_1ObjectMeshHolder_1_1MeshStat.html#a0e377c784084cc6593ccc131185416dd',1,'MR::ObjectMeshHolder::MeshStat']]],
+  ['nummeshvertices_16',['numMeshVertices',['../structMR_1_1SphereParams.html#a6e99b625718037bc438cd04e6865ac95',1,'MR::SphereParams']]],
+  ['numselectededges_5f_17',['numSelectedEdges_',['../classMR_1_1ObjectMeshHolder.html#a54b15a24e639bc505ad9080bd8128b4c',1,'MR::ObjectMeshHolder']]],
+  ['numselectedfaces_5f_18',['numSelectedFaces_',['../classMR_1_1ObjectMeshHolder.html#a102e4183b2d8571edf565f4dd6e61a94',1,'MR::ObjectMeshHolder']]],
+  ['numundirectededges_19',['numUndirectedEdges',['../structMR_1_1ObjectMeshHolder_1_1MeshStat.html#a9c949d72b4d19f92198faef11507144e',1,'MR::ObjectMeshHolder::MeshStat']]]
 ];

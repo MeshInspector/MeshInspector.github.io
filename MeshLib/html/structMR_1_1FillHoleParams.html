@@ -94,6 +94,7 @@ $(document).ready(function(){initNavTree('structMR_1_1FillHoleParams.html',''); 
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1FillHoleParams-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::FillHoleParams Struct Reference<div class="ingroups"><a class="el" href="group__FillHoleGroup.html">Fill/Stitch Holes overview</a></div></div></div>
@@ -106,6 +107,14 @@ $(document).ready(function(){initNavTree('structMR_1_1FillHoleParams.html',''); 
 
 <p><code>#include &lt;<a class="el" href="MRMeshFillHole_8h_source.html">MRMeshFillHole.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:afe7c6c69a5bf27699758e71d19c43301"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301">MultipleEdgesResolveMode</a> { <a class="el" href="structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a6adf97f83acf6453d4a6a4b1070f3754">None</a>
+, <a class="el" href="structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a1fbb1e3943c2c6c560247ac8f9289780">Simple</a>
+, <a class="el" href="structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9">Strong</a>
+ }</td></tr>
+<tr class="separator:afe7c6c69a5bf27699758e71d19c43301"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aa82c166cb6925a8fda6da015701442ce"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structMR_1_1FillHoleMetric.html">FillHoleMetric</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleParams.html#aa82c166cb6925a8fda6da015701442ce">metric</a> {}</td></tr>
@@ -113,8 +122,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a1789bd574d007a370fe6164d4f5ca7c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleParams.html#a1789bd574d007a370fe6164d4f5ca7c4">outNewFaces</a> { nullptr }</td></tr>
 <tr class="memdesc:a1789bd574d007a370fe6164d4f5ca7c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">If not nullptr accumulate new faces.  <a href="structMR_1_1FillHoleParams.html#a1789bd574d007a370fe6164d4f5ca7c4">More...</a><br /></td></tr>
 <tr class="separator:a1789bd574d007a370fe6164d4f5ca7c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e574672d42cb7bdda9f3a54dcc284d1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleParams.html#a9e574672d42cb7bdda9f3a54dcc284d1">avoidMultipleEdges</a> { false }</td></tr>
-<tr class="separator:a9e574672d42cb7bdda9f3a54dcc284d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2908ad53506526829bedf3831a1de80a"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301">MR::FillHoleParams::MultipleEdgesResolveMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleParams.html#a2908ad53506526829bedf3831a1de80a">Simple</a></td></tr>
+<tr class="separator:a2908ad53506526829bedf3831a1de80a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48c94df0c8cc044564e0e69c8f692c5a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleParams.html#a48c94df0c8cc044564e0e69c8f692c5a">makeDegenerateBand</a> { false }</td></tr>
 <tr class="separator:a48c94df0c8cc044564e0e69c8f692c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -124,22 +133,38 @@ Public Attributes</h2></td></tr>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05">fillHole</a> </dd>
 <dd>
 <a class="el" href="structMR_1_1FillHoleMetric.html">FillHoleMetric</a> </dd></dl>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a9e574672d42cb7bdda9f3a54dcc284d1" name="a9e574672d42cb7bdda9f3a54dcc284d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e574672d42cb7bdda9f3a54dcc284d1">&#9670;&nbsp;</a></span>avoidMultipleEdges</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="afe7c6c69a5bf27699758e71d19c43301" name="afe7c6c69a5bf27699758e71d19c43301"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe7c6c69a5bf27699758e71d19c43301">&#9670;&nbsp;</a></span>MultipleEdgesResolveMode</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool MR::FillHoleParams::avoidMultipleEdges { false }</td>
+          <td class="memname">enum class <a class="el" href="structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301">MR::FillHoleParams::MultipleEdgesResolveMode</a></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<p >If true makes additional efforts to avoid creating multiple edges, in some rare cases it is not possible (cases with extremely bad topology), if you faced one try to use <a class="el" href="namespaceMR.html#a030e7fa6218d19042b2a5ae052055192">MR::duplicateMultiHoleVertices</a> before <a class="el" href="group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05">MR::fillHole</a> </p>
+<p >If Strong makes additional efforts to avoid creating multiple edges, in some rare cases it is not possible (cases with extremely bad topology), if you faced one try to use <a class="el" href="namespaceMR.html#a030e7fa6218d19042b2a5ae052055192">MR::duplicateMultiHoleVertices</a> before <a class="el" href="group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05">MR::fillHole</a></p>
+<p >If Simple avoid creating edges that already exist in topology (default)</p>
+<p >If None do not avoid multiple edges </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afe7c6c69a5bf27699758e71d19c43301a6adf97f83acf6453d4a6a4b1070f3754" name="afe7c6c69a5bf27699758e71d19c43301a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afe7c6c69a5bf27699758e71d19c43301a1fbb1e3943c2c6c560247ac8f9289780" name="afe7c6c69a5bf27699758e71d19c43301a1fbb1e3943c2c6c560247ac8f9289780"></a>Simple&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9" name="afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9"></a>Strong&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
 <a id="a48c94df0c8cc044564e0e69c8f692c5a" name="a48c94df0c8cc044564e0e69c8f692c5a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a48c94df0c8cc044564e0e69c8f692c5a">&#9670;&nbsp;</a></span>makeDegenerateBand</h2>
 
@@ -185,6 +210,20 @@ default for <a class="el" href="group__FillHoleGroup.html#gac972786878ec37756f5a
 </div><div class="memdoc">
 
 <p>If not nullptr accumulate new faces. </p>
+
+</div>
+</div>
+<a id="a2908ad53506526829bedf3831a1de80a" name="a2908ad53506526829bedf3831a1de80a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2908ad53506526829bedf3831a1de80a">&#9670;&nbsp;</a></span>Simple</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301">MR::FillHoleParams::MultipleEdgesResolveMode</a> MR::FillHoleParams::Simple</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

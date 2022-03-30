@@ -221,6 +221,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abab2d759266b7e751ef91845d21afd98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32f3f55b9c4506e998e7bb3f77893de6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a32f3f55b9c4506e998e7bb3f77893de6">splitEdge</a> (<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e, <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *region=nullptr)</td></tr>
 <tr class="separator:a32f3f55b9c4506e998e7bb3f77893de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adda5f13339c0d5e0cf0c7d93e2332973"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#adda5f13339c0d5e0cf0c7d93e2332973">splitFace</a> (<a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> f, <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *region=nullptr)</td></tr>
+<tr class="separator:adda5f13339c0d5e0cf0c7d93e2332973"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadc439c62c253d4703536c27e1652e3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#aadc439c62c253d4703536c27e1652e3e">addPart</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;from, <a class="el" href="namespaceMR.html#a989bcd374602a615d0acbd6a4988b9b3">FaceMap</a> *outFmap=nullptr, <a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> *outVmap=nullptr, <a class="el" href="namespaceMR.html#ae2eea398ad770ec2244a9a9c50714933">EdgeMap</a> *outEmap=nullptr, bool rearrangeTriangles=false)</td></tr>
 <tr class="separator:aadc439c62c253d4703536c27e1652e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e4cfa1b0310ac1c5fb5bf8e7f7313eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a3e4cfa1b0310ac1c5fb5bf8e7f7313eb">addPartByMask</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;from, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;fromFaces, const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;map={})</td></tr>
@@ -2113,6 +2115,34 @@ Public Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td>
           <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td>
+          <td class="paramname"><em>region</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adda5f13339c0d5e0cf0c7d93e2332973" name="adda5f13339c0d5e0cf0c7d93e2332973"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adda5f13339c0d5e0cf0c7d93e2332973">&#9670;&nbsp;</a></span>splitFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> MR::Mesh::splitFace </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a>&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

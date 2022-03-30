@@ -6,7 +6,8 @@ var searchData=
   ['weight_3',['weight',['../structMR_1_1VertPair.html#a6be4702849ae600ea471ab410b2190f8',1,'MR::VertPair']]],
   ['white_4',['white',['../structMR_1_1Color.html#afdf32fadc1e749715ad1911813a76f75',1,'MR::Color']]],
   ['withsign_5',['withSign',['../structMR_1_1ContourToDistanceMapParams.html#afe6ef70a540df80fca43fb338ca681ce',1,'MR::ContourToDistanceMapParams']]],
-  ['worldrayintersection_6',['worldRayIntersection',['../classMR_1_1ObjectMesh.html#a42f008e1d02b82af779b6378ba9402d5',1,'MR::ObjectMesh']]],
-  ['worldxf_7',['worldXf',['../classMR_1_1Object.html#a31913dd48c26cd7bef1447b1f891cdf4',1,'MR::Object']]],
-  ['write_8',['write',['../classMR_1_1MeshTopology.html#a698bdffc6553d99627eff8444ae95cfb',1,'MR::MeshTopology::write()'],['../classPythonStreamRedirector.html#a2dde8d2c176e672c39dd11e8c356db1e',1,'PythonStreamRedirector::write()']]]
+  ['worldbox_5f_6',['worldBox_',['../classMR_1_1ObjectLinesHolder.html#ab981ff2c440ecf1af75a6afb682219ab',1,'MR::ObjectLinesHolder::worldBox_()'],['../classMR_1_1ObjectMeshHolder.html#a5c528b52891a63f20ed7dbc0728f5e65',1,'MR::ObjectMeshHolder::worldBox_()']]],
+  ['worldrayintersection_7',['worldRayIntersection',['../classMR_1_1ObjectMesh.html#a42f008e1d02b82af779b6378ba9402d5',1,'MR::ObjectMesh']]],
+  ['worldxf_8',['worldXf',['../classMR_1_1Object.html#a31913dd48c26cd7bef1447b1f891cdf4',1,'MR::Object']]],
+  ['write_9',['write',['../classMR_1_1MeshTopology.html#a698bdffc6553d99627eff8444ae95cfb',1,'MR::MeshTopology::write()'],['../classMR_1_1PolylineTopology.html#afeacaa2685ac05679afb0b6675a1ff4b',1,'MR::PolylineTopology::write()'],['../classPythonStreamRedirector.html#a2dde8d2c176e672c39dd11e8c356db1e',1,'PythonStreamRedirector::write()']]]
 ];

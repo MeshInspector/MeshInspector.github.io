@@ -20,5 +20,6 @@ var searchData=
   ['meshchangedsignal_17',['MeshChangedSignal',['../classMR_1_1ObjectMesh.html#a4ba89c278f58751766ff9e7b8f401786',1,'MR::ObjectMesh']]],
   ['meshintersectioncallback_18',['MeshIntersectionCallback',['../namespaceMR.html#ab84b0b767274335b6f0f59bbb9537fe3',1,'MR']]],
   ['meshloader_19',['MeshLoader',['../namespaceMR_1_1MeshLoad.html#a45aa3f6a621fff75668512378ba715d8',1,'MR::MeshLoad']]],
-  ['multipleedge_20',['MultipleEdge',['../namespaceMR.html#a807cd3d017d23c56a0f6ea1cb1f7c8cb',1,'MR']]]
+  ['meshstreamloader_20',['MeshStreamLoader',['../namespaceMR_1_1MeshLoad.html#a4e219b8ce33112893995d2e3fc17e705',1,'MR::MeshLoad']]],
+  ['multipleedge_21',['MultipleEdge',['../namespaceMR.html#a807cd3d017d23c56a0f6ea1cb1f7c8cb',1,'MR']]]
 ];

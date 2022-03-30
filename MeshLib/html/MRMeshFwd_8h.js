@@ -77,6 +77,8 @@ var MRMeshFwd_8h =
     [ "PixelId", "MRMeshFwd_8h.html#ad5a62948385ba7ef86a7e97c7bfcff54", null ],
     [ "Plane3d", "MRMeshFwd_8h.html#aefc470f4b414f779ba5767bef4ca69b4", null ],
     [ "Plane3f", "MRMeshFwd_8h.html#a14573400a82366d962c77959e69b8646", null ],
+    [ "Polyline2", "MRMeshFwd_8h.html#ab1ca9892644603a8b29005353e5ada79", null ],
+    [ "Polyline3", "MRMeshFwd_8h.html#a58b74f27c86e7e9dee889bfe30f3022a", null ],
     [ "QuadraticForm2", "MRMeshFwd_8h.html#a678a30e8ebc8b7fabb2836c6dbf5023b", null ],
     [ "QuadraticForm2d", "MRMeshFwd_8h.html#adbe44a0e8d9539bee51a7dae17c26666", null ],
     [ "QuadraticForm2f", "MRMeshFwd_8h.html#a230d3289b57acf5d5f652b55eb24fac8", null ],

@@ -8,7 +8,7 @@ var MREContoursCut_8h =
     [ "convertSurfacePathsToMeshContours", "MREContoursCut_8h.html#ga4691347d3996bcfbf33023cdbc98f754", null ],
     [ "convertSurfacePathWithEndsToMeshContour", "MREContoursCut_8h.html#gac1dac30e4d40a6bd5624273038a96e3b", null ],
     [ "cutMesh", "MREContoursCut_8h.html#ga9e479d0d02c34a3f7eaea80c8a8f0aef", null ],
-    [ "cutMeshWithPlane", "MREContoursCut_8h.html#ga8ddb7b1ead726127211268542e69b59e", null ],
+    [ "cutMeshWithPlane", "MREContoursCut_8h.html#ga6d81b102670d4c9406f27c2b1c58e75b", null ],
     [ "getOneMeshIntersectionContours", "MREContoursCut_8h.html#ab47690743a0ee040b928656dee2d5738", null ],
     [ "subdivideLoneContours", "MREContoursCut_8h.html#a5a26b776b4772970a00cb1c4aea6c741", null ]
 ];
