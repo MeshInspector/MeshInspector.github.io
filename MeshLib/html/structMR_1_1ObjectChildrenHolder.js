@@ -6,6 +6,7 @@ var structMR_1_1ObjectChildrenHolder =
     [ "~ObjectChildrenHolder", "structMR_1_1ObjectChildrenHolder.html#a0d547b2ea371b35b7f6aeb91b0a31ef8", null ],
     [ "operator=", "structMR_1_1ObjectChildrenHolder.html#ae39e06ea3526edf1f280e7158a5a4bd7", null ],
     [ "operator=", "structMR_1_1ObjectChildrenHolder.html#aca1fa4cd4c9ee1cb2e567623c979b26f", null ],
+    [ "bastards_", "structMR_1_1ObjectChildrenHolder.html#a2ba9302240c85bc5dfd78068e7b2e918", null ],
     [ "children_", "structMR_1_1ObjectChildrenHolder.html#a20c010d72c82523c01e5de05910eb34c", null ],
     [ "parent_", "structMR_1_1ObjectChildrenHolder.html#a259c2fd3dbddeb61dda375ff1f4741a5", null ]
 ];

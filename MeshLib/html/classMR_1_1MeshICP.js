@@ -17,5 +17,6 @@ var classMR_1_1MeshICP =
     [ "setDistanceLimit", "classMR_1_1MeshICP.html#afef5a255f461d19656083b7f124b4bbf", null ],
     [ "setPairsWeight", "classMR_1_1MeshICP.html#a429e652cd641c445c817090e9551a3d1", null ],
     [ "setParams", "classMR_1_1MeshICP.html#aaf91b3a9dea34645b3fd065cf44c8c5d", null ],
+    [ "setXfs", "classMR_1_1MeshICP.html#ace0d167d82f7e485e74a5fa0b602f13d", null ],
     [ "updateVertPairs", "classMR_1_1MeshICP.html#aff911d6d53f8e44963f067e7c8ae376e", null ]
 ];

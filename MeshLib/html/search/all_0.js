@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['a_0',['A',['../structMR_1_1QuadraticForm.html#aaa0e315bd432a25ff55c9f30b926ffda',1,'MR::QuadraticForm']]],
-  ['a_1',['a',['../structMR_1_1Quaternion.html#a99d6bff08a40df6a9873566e597b029e',1,'MR::Quaternion::a()'],['../structMR_1_1TriPoint.html#a8b3c5d2f52bedd379a12737883685b69',1,'MR::TriPoint::a()']]],
-  ['a_2',['A',['../structMR_1_1AffineXf.html#ac50d0dfa0b11a916ac644165073713ca',1,'MR::AffineXf::A()'],['../structMRE_1_1BooleanResultMapper.html#a156268722390804f6626c9523ed91bf4a7fc56270e7a70fa81a5935b72eacbe29',1,'MRE::BooleanResultMapper::A()']]],
-  ['a_3',['a',['../structMR_1_1Color.html#a21c5ef511dcf3b636ce3f8a5fd699874',1,'MR::Color::a()'],['../structMR_1_1LineSegm.html#a5a416b6364f2ec163ab839380998b247',1,'MR::LineSegm::a()'],['../structMR_1_1MeshDistanceResult.html#a9e2c27f75cc9e5a7b2bdca70bef1e7db',1,'MR::MeshDistanceResult::a()'],['../structMR_1_1MeshSignedDistanceResult.html#a2729ca0eb5dbcf66477c17547ff78146',1,'MR::MeshSignedDistanceResult::a()'],['../structMR_1_1MeshEdgePoint.html#ab08444816c4bcb528d182bc823cf297d',1,'MR::MeshEdgePoint::a()']]],
+  ['a_0',['a',['../structMR_1_1LineSegm.html#a5a416b6364f2ec163ab839380998b247',1,'MR::LineSegm']]],
+  ['a_1',['A',['../structMR_1_1QuadraticForm.html#aaa0e315bd432a25ff55c9f30b926ffda',1,'MR::QuadraticForm::A()'],['../structMRE_1_1BooleanResultMapper.html#a156268722390804f6626c9523ed91bf4a7fc56270e7a70fa81a5935b72eacbe29',1,'MRE::BooleanResultMapper::A()']]],
+  ['a_2',['a',['../structMR_1_1Color.html#a21c5ef511dcf3b636ce3f8a5fd699874',1,'MR::Color::a()'],['../structMR_1_1MeshDistanceResult.html#a9e2c27f75cc9e5a7b2bdca70bef1e7db',1,'MR::MeshDistanceResult::a()'],['../structMR_1_1MeshSignedDistanceResult.html#a2729ca0eb5dbcf66477c17547ff78146',1,'MR::MeshSignedDistanceResult::a()'],['../structMR_1_1MeshEdgePoint.html#ab08444816c4bcb528d182bc823cf297d',1,'MR::MeshEdgePoint::a()'],['../structMR_1_1Quaternion.html#a99d6bff08a40df6a9873566e597b029e',1,'MR::Quaternion::a()'],['../structMR_1_1TriPoint.html#a8b3c5d2f52bedd379a12737883685b69',1,'MR::TriPoint::a()']]],
+  ['a_3',['A',['../structMR_1_1AffineXf.html#ac50d0dfa0b11a916ac644165073713ca',1,'MR::AffineXf']]],
   ['aabbtree_4',['AABBTree',['../classMR_1_1AABBTree.html#add77d5465c44318f3c02aad6a8b61d2e',1,'MR::AABBTree::AABBTree(const Mesh &amp;mesh)'],['../classMR_1_1AABBTree.html#a299be175c35406bc5c624c524a3221e7',1,'MR::AABBTree::AABBTree(AABBTree &amp;&amp;) noexcept=default'],['../namespaceMR.html#abe7cfa4da2fbf3567857cea149030590',1,'MR::AABBTree()'],['../classMR_1_1AABBTree.html',1,'MR::AABBTree']]],
   ['aabbtreenode_5',['AABBTreeNode',['../structMR_1_1AABBTreeNode.html',1,'MR']]],
   ['aabbtreenodeid_6',['AABBTreeNodeId',['../namespaceMR.html#a34a8bbcd6701c78c61502a42e3a1dca0',1,'MR']]],
@@ -18,7 +18,7 @@ var searchData=
   ['adaptivity_15',['adaptivity',['../structMR_1_1OffsetParameters.html#a1c71a04707962a58d595fa7da22322d7',1,'MR::OffsetParameters::adaptivity()'],['../structMR_1_1MeshVoxelsConverter.html#adaab280c372f3b9aa33c9a6087199957',1,'MR::MeshVoxelsConverter::adaptivity()']]],
   ['add_16',['add',['../classMR_1_1PointToPointAligningTransform.html#a6b0c81b83591abaea22519d6292ba022',1,'MR::PointToPointAligningTransform::add()'],['../classMR_1_1PointToPlaneAligningTransform.html#a1076cb8b60d771a6d40c701177f70d16',1,'MR::PointToPlaneAligningTransform::add()'],['../classMR_1_1PointToPointAligningTransform.html#a46bcab4d55e72fefc72fa30d42593211',1,'MR::PointToPointAligningTransform::add()']]],
   ['addbasetoplanarmesh_17',['addBaseToPlanarMesh',['../namespaceMR.html#a1e3387bb1b143d2554b26e31b8ba4b6d',1,'MR']]],
-  ['addchild_18',['addChild',['../classMR_1_1Object.html#a867bc4f888c2aa53355413c550658271',1,'MR::Object']]],
+  ['addchild_18',['addChild',['../classMR_1_1Object.html#aa6cdc407999b7e829fd23b242cb6346d',1,'MR::Object']]],
   ['addchildbefore_19',['addChildBefore',['../classMR_1_1Object.html#a8eeb1cb21b22db97f20eac75b897f7ae',1,'MR::Object']]],
   ['adddisttoline_20',['addDistToLine',['../structMR_1_1QuadraticForm.html#aa22182ab842edbfd36369edae2063b3c',1,'MR::QuadraticForm::addDistToLine(const V &amp;lineUnitDir)'],['../structMR_1_1QuadraticForm.html#a6aa8242b430ea2a8b0c65ac776f01e69',1,'MR::QuadraticForm::addDistToLine(const V &amp;lineUnitDir, T weight)']]],
   ['adddisttoorigin_21',['addDistToOrigin',['../structMR_1_1QuadraticForm.html#a4612e1bf2a83cf9f8c04bcffd05b8be0',1,'MR::QuadraticForm']]],

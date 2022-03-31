@@ -7,7 +7,7 @@ var classMR_1_1Object =
     [ "~Object", "classMR_1_1Object.html#a89c09f7a1ec5ba173cd21879e3f9953e", null ],
     [ "Object", "classMR_1_1Object.html#a795eb7eeaecc99cf34dabd14ac113e0b", null ],
     [ "Object", "classMR_1_1Object.html#aeadedab38b0876317d01593cbee6b9ea", null ],
-    [ "addChild", "classMR_1_1Object.html#a867bc4f888c2aa53355413c550658271", null ],
+    [ "addChild", "classMR_1_1Object.html#aa6cdc407999b7e829fd23b242cb6346d", null ],
     [ "addChildBefore", "classMR_1_1Object.html#a8eeb1cb21b22db97f20eac75b897f7ae", null ],
     [ "applyScale", "classMR_1_1Object.html#a0afca40a7c24d33df4e4d7a5c98167a4", null ],
     [ "asType", "classMR_1_1Object.html#a1f6de8e94b4cc46c3fd7ba2cb4e6cfb3", null ],

@@ -26,7 +26,7 @@ var NAVTREE =
 [
   [ "MeshLib", "index.html", [
     [ "Overview", "index.html", [
-      [ "MeshLib", "index.html#WhatAreMeshRUs", null ],
+      [ "MeshLib", "index.html#WhatAreMeshLib", null ],
       [ "Build with VS2019 on Windows", "index.html#HomePageBuildWin", null ],
       [ "Build with CMake on Linux", "index.html#HomePageBuildLin", null ]
     ] ],
@@ -86,26 +86,26 @@ var NAVTREEINDEX =
 "classMR_1_1CircleObject.html#af2c5d04b5db14f7ae8cf783c3371ff27",
 "classMR_1_1HistoryStore.html#a94c48f5d68e968747a0df26fdfd64b26",
 "classMR_1_1MeshICP.html#aaf2b3744ee86b847402932e1afe7adec",
-"classMR_1_1Object.html#a103bf9954aaca0397244cd744ddf5f3b",
-"classMR_1_1ObjectLinesHolder.html#a8d62fc8248ac41e37620d11e4e326b62",
-"classMR_1_1ObjectPoints.html#a0204d43ba94c12cd5f8e20ef283315d2",
-"classMR_1_1PointToPlaneAligningTransform.html#a82e717cad207def9e5c926e2c3f49208",
-"classMR_1_1SetBitIteratorT.html#a3ead9e2691fedc1c67d1212721d3a157",
-"classMR_1_1Vector.html#aaa0ee5d98cd26c7e6232195bcda2b459",
-"classMR_1_1VisualObject.html#af652007b051e9c9408cbb2d25ee9cc57",
-"namespaceMR.html#a03255e831f4895337e7cf27d64e51269ad29e189e07ab368b8c42c681ca3cf611",
-"namespaceMR.html#a52390270e3fbf5b7e8766374def17f07",
-"namespaceMR.html#aa7203f0917dc651aa1261d90d266752eae93f994f01c537c4e2f7d8528c3eb5e9",
-"namespaceMR.html#ae85b0e8a0118ada182da4988b1c3fd03",
-"namespacemembers_b.html",
-"structMR_1_1AffineXf.html#abc589d85e328480de8c5972558bd7b3c",
-"structMR_1_1FaceFace.html#adc07e0f4a04d7f00997f5f0836fdbcaf",
-"structMR_1_1Matrix3.html#a34220148555a9b57f32f7edb08289ea4",
-"structMR_1_1Mesh.html#afd3563494ce9b9a0cf5a7e4346606961",
-"structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aaca47d49bd0b4cc06e95cdf1809edaea35c",
-"structMR_1_1Polyline2ProjectionWithOffsetResult.html#a7369e54ea66995ea30e922a14fb4ac70",
-"structMR_1_1SymMatrix2.html#a175876ca220ae2820662151e1024e232",
-"structMR_1_1Vector4.html#aa481d21814fffc6bd32446d55407886a"
+"classMR_1_1Object.html#a0d8ef27f83b47e000093eaa0df9c36f9",
+"classMR_1_1ObjectLinesHolder.html#a866b821cbf1353875759fa45e614249f",
+"classMR_1_1ObjectPoints.html",
+"classMR_1_1PointToPlaneAligningTransform.html#a770a738028c39587fece8a0ac814924c",
+"classMR_1_1SetBitIteratorT.html#a38daf11addb75bcfab304e51d62ba9f8",
+"classMR_1_1Vector.html#aa4bcfcbca3642d15aa0cdec1055c4472",
+"classMR_1_1VisualObject.html#af368bfd4234c8ae032620eb08e7a593b",
+"namespaceMR.html#a03255e831f4895337e7cf27d64e51269a9db66783aae1f516f71efb3d8e57443a",
+"namespaceMR.html#a519c40710866674c7e36402a8570e4c1",
+"namespaceMR.html#aa7203f0917dc651aa1261d90d266752ea9cc816b8a2117db796c073f012e78565",
+"namespaceMR.html#ae7c8689563553fe7686bd6b71ddf8f18aa1f9f6e1b4f1f951f67ebeb0c69e1dd4",
+"namespacemembers.html",
+"structMR_1_1AffineXf.html#ab3b595e5fd83370d9417a0d1e93cf2c1",
+"structMR_1_1FaceFace.html#ac3a31b47e7baa47611ea150254a49fe3",
+"structMR_1_1Matrix3.html#a2ee57b23e7f7718f6800a1769ab30df5",
+"structMR_1_1Mesh.html#af1c5a975cbd95ff470346d693287bb5d",
+"structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aaca412b539d3ec908368c90321358bbec25",
+"structMR_1_1Polyline2ProjectionWithOffsetResult.html",
+"structMR_1_1SymMatrix2.html#a00825772702cbd97018eca7af85866ad",
+"structMR_1_1Vector4.html#a67f187692acd3476394b8db347e86843"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
