@@ -8,5 +8,6 @@ var searchData=
   ['edgemap_5',['EdgeMap',['../namespaceMR.html#ae2eea398ad770ec2244a9a9c50714933',1,'MR']]],
   ['edgemetric_6',['EdgeMetric',['../namespaceMR.html#ad2c254a94a3837629d1540a9a1aeda9f',1,'MR']]],
   ['edgepath_7',['EdgePath',['../namespaceMR.html#a526402792c1d3b8d8903535592613b9f',1,'MR']]],
-  ['edgesetbititerator_8',['EdgeSetBitIterator',['../namespaceMR.html#abbf317d1a00d025c632656ec53dd5869',1,'MR']]]
+  ['edgesetbititerator_8',['EdgeSetBitIterator',['../namespaceMR.html#abbf317d1a00d025c632656ec53dd5869',1,'MR']]],
+  ['elementbitset_9',['ElementBitSet',['../classMR_1_1ColorMapAggregator.html#a29857a8d38bc30a22d092fdc3c8632df',1,'MR::ColorMapAggregator']]]
 ];

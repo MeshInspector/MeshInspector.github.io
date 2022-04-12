@@ -7,7 +7,7 @@ var searchData=
   ['edgescolor_5f_4',['edgesColor_',['../classMR_1_1ObjectMeshHolder.html#a528e88689d9376192b4fee0137e08806',1,'MR::ObjectMeshHolder']]],
   ['edgeselectioncolor_5f_5',['edgeSelectionColor_',['../classMR_1_1ObjectMeshHolder.html#ab000e972d38f57560b2c91404b854586',1,'MR::ObjectMeshHolder']]],
   ['edgewidth_5f_6',['edgeWidth_',['../classMR_1_1ObjectMeshHolder.html#aa1769e8d7559173dc663c5b67a445a07',1,'MR::ObjectMeshHolder']]],
-  ['elements_7',['elements',['../structMR_1_1Vector2.html#a9f88eafa576421903103bdccad9ed23f',1,'MR::Vector2::elements()'],['../structMR_1_1Vector3.html#a5f40bccc013c893ac7558c2262a6eff1',1,'MR::Vector3::elements()'],['../structMR_1_1Vector4.html#ad2688016c72fa4b8f105895bd2532e7c',1,'MR::Vector4::elements()']]],
+  ['elements_7',['elements',['../structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#ac2d631a1f9c3262477e8f19fc818b39a',1,'MR::ColorMapAggregator::PartialColorMap::elements()'],['../structMR_1_1Vector2.html#a9f88eafa576421903103bdccad9ed23f',1,'MR::Vector2::elements()'],['../structMR_1_1Vector3.html#a5f40bccc013c893ac7558c2262a6eff1',1,'MR::Vector3::elements()'],['../structMR_1_1Vector4.html#ad2688016c72fa4b8f105895bd2532e7c',1,'MR::Vector4::elements()']]],
   ['end_5f_8',['end_',['../structMR_1_1IteratorRange.html#af62765e0ec5f90f3aaafe5a6fd50938a',1,'MR::IteratorRange']]],
   ['eps_9',['eps',['../structMR_1_1TriPoint.html#a6ade05d6ba59ed946b54c792822949e4',1,'MR::TriPoint']]],
   ['errorintroduced_10',['errorIntroduced',['../structMRE_1_1DecimateResult.html#aa59bcae3d77f594ccd1ef4c2f44f3af2',1,'MRE::DecimateResult::errorIntroduced()'],['../structMRE_1_1DecimatePolylineResult.html#a5782bfcf5d2c84106f5d7759456e47bb',1,'MRE::DecimatePolylineResult::errorIntroduced()']]],

@@ -4,6 +4,7 @@ var classMR_1_1TaggedBitSet =
     [ "autoResizeSet", "classMR_1_1TaggedBitSet.html#ae8f61c2407c0cf96df45149fb1f549b4", null ],
     [ "autoResizeTestSet", "classMR_1_1TaggedBitSet.html#a462014129d5cd9d3812890a783da6bc9", null ],
     [ "find_first", "classMR_1_1TaggedBitSet.html#a7a0ff1c44e867718e73b44ef887901de", null ],
+    [ "find_last", "classMR_1_1TaggedBitSet.html#a8374b6a3a7629daaabfbc4f82ccd20e0", null ],
     [ "find_next", "classMR_1_1TaggedBitSet.html#a6d0bc13f0fcd3f5278a98c8b9afe6fa8", null ],
     [ "flip", "classMR_1_1TaggedBitSet.html#a53b449a12de4ac9ee78a0d7f030a31c6", null ],
     [ "flip", "classMR_1_1TaggedBitSet.html#a8a67c4f0fe19bf562eb96dc72db1fbe1", null ],

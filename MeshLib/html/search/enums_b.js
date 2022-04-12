@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['relaxapproxtype_0',['RelaxApproxType',['../namespaceMR.html#a6ab288ae813e1aa688312e31c258df71',1,'MR']]],
-  ['remembershape_1',['RememberShape',['../classMR_1_1Laplacian.html#a67c8dfc7669f41712a92d21d5ec99fed',1,'MR::Laplacian']]]
+  ['quarterbit_0',['QuarterBit',['../namespaceMR.html#a85e60c553cc81b298c4bfeac4a623b79',1,'MR']]]
 ];

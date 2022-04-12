@@ -50,6 +50,7 @@ var annotated_dup =
       [ "CircumscribedFillMetric", "structMR_1_1CircumscribedFillMetric.html", "structMR_1_1CircumscribedFillMetric" ],
       [ "CircumscribedStitchMetric", "structMR_1_1CircumscribedStitchMetric.html", "structMR_1_1CircumscribedStitchMetric" ],
       [ "Color", "structMR_1_1Color.html", "structMR_1_1Color" ],
+      [ "ColorMapAggregator", "classMR_1_1ColorMapAggregator.html", "classMR_1_1ColorMapAggregator" ],
       [ "CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html", "classMR_1_1CombinedHistoryAction" ],
       [ "ComplexStitchMetric", "structMR_1_1ComplexStitchMetric.html", "structMR_1_1ComplexStitchMetric" ],
       [ "Config", "classMR_1_1Config.html", "classMR_1_1Config" ],

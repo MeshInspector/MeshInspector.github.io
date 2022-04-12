@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['edgeweights_0',['EdgeWeights',['../classMR_1_1Laplacian.html#a40fcda9e6b8208959a3204e274784b18',1,'MR::Laplacian']]]
+  ['dirtyflags_0',['DirtyFlags',['../namespaceMR.html#a03255e831f4895337e7cf27d64e51269',1,'MR']]]
 ];

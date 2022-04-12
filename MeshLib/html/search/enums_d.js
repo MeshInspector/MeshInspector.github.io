@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['type_0',['Type',['../classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1',1,'MR::ChangeSceneAction::Type()'],['../classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7',1,'MR::HistoryAction::Type()'],['../structMR_1_1LinesVisualizePropertyType.html#aab5df7db454ff09605f0b0252d48d0e2',1,'MR::LinesVisualizePropertyType::Type()'],['../structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aac',1,'MR::MeshVisualizePropertyType::Type()'],['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3a',1,'MR::SceneColors::Type()'],['../classMR_1_1SceneSettings.html#ae472fad9782abf0cb2c7c6526a059911',1,'MR::SceneSettings::Type()'],['../structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0',1,'MR::VisualizeMaskType::Type()']]]
+  ['scalartype_0',['ScalarType',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529b',1,'MR::VoxelsLoad::RawParameters']]],
+  ['seedtype_1',['SeedType',['../classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5',1,'MR::VolumeSegmenter']]],
+  ['sliceplain_2',['SlicePlain',['../namespaceMR.html#ae7c8689563553fe7686bd6b71ddf8f18',1,'MR']]],
+  ['streamtype_3',['StreamType',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1d',1,'MRPython.h']]]
 ];

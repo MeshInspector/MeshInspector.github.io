@@ -22,6 +22,7 @@ var hierarchy =
     [ "MR::Box< int >", "structMR_1_1Box.html", null ],
     [ "MR::BoxedLeaf< T >", "structMR_1_1BoxedLeaf.html", null ],
     [ "MR::Color", "structMR_1_1Color.html", null ],
+    [ "MR::ColorMapAggregator< Tag >", "classMR_1_1ColorMapAggregator.html", null ],
     [ "MR::Config", "classMR_1_1Config.html", null ],
     [ "MR::ContoursDistanceMapOffset", "structMR_1_1ContoursDistanceMapOffset.html", null ],
     [ "MR::ContourToDistanceMapParams", "structMR_1_1ContourToDistanceMapParams.html", null ],
@@ -42,6 +43,7 @@ var hierarchy =
       [ "MR::BitSet", "classMR_1_1BitSet.html", [
         [ "MR::TaggedBitSet< UndirectedEdgeTag >", "classMR_1_1TaggedBitSet.html", null ],
         [ "MR::TaggedBitSet< FaceTag >", "classMR_1_1TaggedBitSet.html", null ],
+        [ "MR::TaggedBitSet< Tag >", "classMR_1_1TaggedBitSet.html", null ],
         [ "MR::TaggedBitSet< VertTag >", "classMR_1_1TaggedBitSet.html", null ],
         [ "MR::TaggedBitSet< T >", "classMR_1_1TaggedBitSet.html", null ]
       ] ]
@@ -174,6 +176,7 @@ var hierarchy =
     [ "MR::OffsetParameters", "structMR_1_1OffsetParameters.html", null ],
     [ "MRE::OneMeshContour", "structMRE_1_1OneMeshContour.html", null ],
     [ "MRE::OneMeshIntersection", "structMRE_1_1OneMeshIntersection.html", null ],
+    [ "MR::ColorMapAggregator< Tag >::PartialColorMap", "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html", null ],
     [ "MR::PartMapping", "structMR_1_1PartMapping.html", null ],
     [ "MR::Pdf", "classMR_1_1Pdf.html", null ],
     [ "MR::PdfParameters", "structMR_1_1PdfParameters.html", null ],
@@ -268,6 +271,7 @@ var hierarchy =
     [ "MR::Vector4< T >", "structMR_1_1Vector4.html", null ],
     [ "MR::Vector4< int >", "structMR_1_1Vector4.html", null ],
     [ "MR::Vector< char, MR::Id >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< Color, Id< Tag > >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< EdgeId, EdgeId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< FaceId, FaceId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< float, MR::Id >", "classMR_1_1Vector.html", null ],

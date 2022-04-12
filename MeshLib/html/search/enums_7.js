@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['mapobject_0',['MapObject',['../structMRE_1_1BooleanResultMapper.html#a156268722390804f6626c9523ed91bf4',1,'MRE::BooleanResultMapper']]],
-  ['meshcompression_1',['MeshCompression',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69d',1,'MR::MeshSave::CtmSaveOptions']]],
-  ['multipleedgesresolvemode_2',['MultipleEdgesResolveMode',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301',1,'MR::FillHoleParams']]]
+  ['icpmethod_0',['ICPMethod',['../namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80ec',1,'MR']]],
+  ['icpmode_1',['ICPMode',['../namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677',1,'MR']]]
 ];

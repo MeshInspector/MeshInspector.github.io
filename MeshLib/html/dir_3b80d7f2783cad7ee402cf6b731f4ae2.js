@@ -68,6 +68,10 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     ] ],
     [ "MRClosestPointInTriangle.h", "MRClosestPointInTriangle_8h.html", null ],
     [ "MRColor.h", "MRColor_8h.html", "MRColor_8h" ],
+    [ "MRColorMapAggregator.h", "MRColorMapAggregator_8h.html", [
+      [ "MR::ColorMapAggregator< Tag >", "classMR_1_1ColorMapAggregator.html", "classMR_1_1ColorMapAggregator" ],
+      [ "MR::ColorMapAggregator< Tag >::PartialColorMap", "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html", "structMR_1_1ColorMapAggregator_1_1PartialColorMap" ]
+    ] ],
     [ "MRCombinedHistoryAction.h", "MRCombinedHistoryAction_8h.html", [
       [ "MR::CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html", "classMR_1_1CombinedHistoryAction" ]
     ] ],

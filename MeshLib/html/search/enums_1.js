@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['changetype_0',['ChangeType',['../classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4',1,'MR::HistoryStore']]],
-  ['coloringtype_1',['ColoringType',['../namespaceMR.html#a270a25a8ef13e07e59e7070834efc33f',1,'MR']]]
+  ['booleanoperation_0',['BooleanOperation',['../group__BooleanGroup.html#gacb4a2073036a155fa7f07f2fdc347007',1,'MRE']]]
 ];
