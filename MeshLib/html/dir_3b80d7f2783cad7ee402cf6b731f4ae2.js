@@ -21,7 +21,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRAABBTreePolyline3.h", "MRAABBTreePolyline3_8h.html", null ],
     [ "MRAffineXf.h", "MRAffineXf_8h.html", "MRAffineXf_8h" ],
     [ "MRAffineXf2.h", "MRAffineXf2_8h.html", null ],
-    [ "MRAffineXf3.h", "MRAffineXf3_8h.html", null ],
+    [ "MRAffineXf3.h", "MRAffineXf3_8h.html", "MRAffineXf3_8h" ],
     [ "MRAligningTransform.h", "MRAligningTransform_8h.html", [
       [ "MR::PointToPointAligningTransform", "classMR_1_1PointToPointAligningTransform.html", "classMR_1_1PointToPointAligningTransform" ],
       [ "MR::PointToPlaneAligningTransform", "classMR_1_1PointToPlaneAligningTransform.html", "classMR_1_1PointToPlaneAligningTransform" ],

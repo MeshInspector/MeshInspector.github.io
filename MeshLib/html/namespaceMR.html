@@ -1035,6 +1035,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a751e24543eb940a50c0a6af553bed696"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
 <tr class="memitem:a751e24543eb940a50c0a6af553bed696"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a751e24543eb940a50c0a6af553bed696">operator!=</a> (const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; &amp;a, const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; &amp;b)</td></tr>
 <tr class="separator:a751e24543eb940a50c0a6af553bed696"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ae923a2855ed035b5d5f74b3162c0da"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a9ae923a2855ed035b5d5f74b3162c0da"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a497ae0b02290edeaa5275069efc377df">AffineXf3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a9ae923a2855ed035b5d5f74b3162c0da">lookAt</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;center, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;eye, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;up)</td></tr>
+<tr class="separator:a9ae923a2855ed035b5d5f74b3162c0da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0c4484e8c8e8f08663ca031dfe6e054"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af0c4484e8c8e8f08663ca031dfe6e054">alignTextToMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;xf, const <a class="el" href="structMR_1_1TextMeshAlignParams.html">TextMeshAlignParams</a> &amp;params)</td></tr>
 <tr class="separator:af0c4484e8c8e8f08663ca031dfe6e054"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbe2dca6a39a0c9dae0abc3d1a6caac4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#abbe2dca6a39a0c9dae0abc3d1a6caac4">makeArrow</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;base, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;vert, const float &amp;thickness=0.05f, const float &amp;coneRadius=0.1f, const float coneSize=0.2f, const int qual=32)</td></tr>
@@ -1047,6 +1050,12 @@ Functions</h2></td></tr>
 <tr class="separator:a1e8a53884a01d95c7779f5f0983fa343"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bca49efd608d5a3ee129ae497696532"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a9bca49efd608d5a3ee129ae497696532">accumulateFaceCenters</a> (<a class="el" href="classMR_1_1PointAccumulator.html">PointAccumulator</a> &amp;accum, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr)</td></tr>
 <tr class="separator:a9bca49efd608d5a3ee129ae497696532"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af22d770b767eff4d37bc4be52ef5032f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:af22d770b767eff4d37bc4be52ef5032f"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af22d770b767eff4d37bc4be52ef5032f">contains</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; *bitset, <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt; id)</td></tr>
+<tr class="separator:af22d770b767eff4d37bc4be52ef5032f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae680d00c7b1337cc8ad166eb5089694"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aae680d00c7b1337cc8ad166eb5089694"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aae680d00c7b1337cc8ad166eb5089694">contains</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;bitset, <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt; id)</td></tr>
+<tr class="separator:aae680d00c7b1337cc8ad166eb5089694"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad714f7ce87e9a75b5d3b24ebd830ff6d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ad714f7ce87e9a75b5d3b24ebd830ff6d"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ad714f7ce87e9a75b5d3b24ebd830ff6d">operator==</a> (const <a class="el" href="classMR_1_1SetBitIteratorT.html">SetBitIteratorT</a>&lt; T &gt; &amp;a, const <a class="el" href="classMR_1_1SetBitIteratorT.html">SetBitIteratorT</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="separator:ad714f7ce87e9a75b5d3b24ebd830ff6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1280,10 +1289,10 @@ Functions</h2></td></tr>
 <tr class="separator:a2193258ddab048b2b194a3ccb5a9f450"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa946ebaaa62a242f328d53fab37011d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa946ebaaa62a242f328d53fab37011d0">shrink</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;region, int hops=1)</td></tr>
 <tr class="separator:aa946ebaaa62a242f328d53fab37011d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a208f4184cdbfc786f36466eb7a470a1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#af5202c81e4413da4510b54fad78951bd">IsoLines</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a208f4184cdbfc786f36466eb7a470a1d">extractIsolines</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; &amp;vertValues, float isoValue)</td></tr>
-<tr class="separator:a208f4184cdbfc786f36466eb7a470a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5573d2866f46313234acca3bb093fde9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac743a99f776ece0d1aace02cd9c7f561">PlaneSections</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5573d2866f46313234acca3bb093fde9">extractPlaneSections</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">Plane3f</a> &amp;plane)</td></tr>
-<tr class="separator:a5573d2866f46313234acca3bb093fde9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b0b55ffe6ea4fe8a68c4cba50f6d39c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#af5202c81e4413da4510b54fad78951bd">IsoLines</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8b0b55ffe6ea4fe8a68c4cba50f6d39c">extractIsolines</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; &amp;vertValues, float isoValue, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *region=nullptr)</td></tr>
+<tr class="separator:a8b0b55ffe6ea4fe8a68c4cba50f6d39c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30037e8ef79442785a34ff61d9a5eb2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac743a99f776ece0d1aace02cd9c7f561">PlaneSections</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a30037e8ef79442785a34ff61d9a5eb2e">extractPlaneSections</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">Plane3f</a> &amp;plane)</td></tr>
+<tr class="separator:a30037e8ef79442785a34ff61d9a5eb2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47ebcb5e83e6625a4a33dd409771ff68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae4ddf6f4d663b556787e0188500a2521">Contour2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a47ebcb5e83e6625a4a33dd409771ff68">planeSectionToContour2f</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a76fccc29cf3ab68686fad45a62e17fa2">PlaneSection</a> &amp;section, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;meshToPlane)</td></tr>
 <tr class="separator:a47ebcb5e83e6625a4a33dd409771ff68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c63c93268260926fe26705e7eba2d53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ad17a8a285dc0c1609c7ce56e7e65ace9">Contours2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6c63c93268260926fe26705e7eba2d53">planeSectionsToContours2f</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#ac743a99f776ece0d1aace02cd9c7f561">PlaneSections</a> &amp;sections, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;meshToPlane)</td></tr>
@@ -1335,25 +1344,25 @@ Functions</h2></td></tr>
 <tr class="memitem:a0820efd8a0fb59fdacc1b48836994041"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespaceMR.html#a65798dca01178b50da3bbd7968fb360e">UndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0820efd8a0fb59fdacc1b48836994041">operator&quot;&quot;_ue</a> (unsigned long long i) noexcept</td></tr>
 <tr class="separator:a0820efd8a0fb59fdacc1b48836994041"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0de20b6f8f6b0d5d0ac0b878f9a3d8f3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a0de20b6f8f6b0d5d0ac0b878f9a3d8f3"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Line3.html">Line3</a>&lt; T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0de20b6f8f6b0d5d0ac0b878f9a3d8f3">intersection</a> (const <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt; &amp;plane1, const <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt; &amp;plane2, T <a class="el" href="namespaceMR.html#a252ad7411326b0092fd6f70e6d88a3a1">errorLimit</a>=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</td></tr>
+<tr class="memitem:a0de20b6f8f6b0d5d0ac0b878f9a3d8f3"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Line3.html">Line3</a>&lt; T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0de20b6f8f6b0d5d0ac0b878f9a3d8f3">intersection</a> (const <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt; &amp;plane1, const <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt; &amp;plane2, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</td></tr>
 <tr class="separator:a0de20b6f8f6b0d5d0ac0b878f9a3d8f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5aa33ccde105060c1f523292e81dfcbf"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a5aa33ccde105060c1f523292e81dfcbf"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5aa33ccde105060c1f523292e81dfcbf">intersection</a> (const <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt; &amp;plane, const <a class="el" href="structMR_1_1Line3.html">Line3</a>&lt; T &gt; &amp;line, T <a class="el" href="namespaceMR.html#a252ad7411326b0092fd6f70e6d88a3a1">errorLimit</a>=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</td></tr>
+<tr class="memitem:a5aa33ccde105060c1f523292e81dfcbf"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5aa33ccde105060c1f523292e81dfcbf">intersection</a> (const <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt; &amp;plane, const <a class="el" href="structMR_1_1Line3.html">Line3</a>&lt; T &gt; &amp;line, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</td></tr>
 <tr class="separator:a5aa33ccde105060c1f523292e81dfcbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9c4f2546d1a40da39bccf700c70ee49"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ad9c4f2546d1a40da39bccf700c70ee49"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ad9c4f2546d1a40da39bccf700c70ee49">intersection</a> (const <a class="el" href="structMR_1_1Line3.html">Line3</a>&lt; T &gt; &amp;line1, const <a class="el" href="structMR_1_1Line3.html">Line3</a>&lt; T &gt; &amp;line2, T <a class="el" href="namespaceMR.html#a252ad7411326b0092fd6f70e6d88a3a1">errorLimit</a>=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</td></tr>
+<tr class="memitem:ad9c4f2546d1a40da39bccf700c70ee49"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ad9c4f2546d1a40da39bccf700c70ee49">intersection</a> (const <a class="el" href="structMR_1_1Line3.html">Line3</a>&lt; T &gt; &amp;line1, const <a class="el" href="structMR_1_1Line3.html">Line3</a>&lt; T &gt; &amp;line2, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</td></tr>
 <tr class="separator:ad9c4f2546d1a40da39bccf700c70ee49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f71b2c20cd6a91f42d8d76dbc038190"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a9f71b2c20cd6a91f42d8d76dbc038190"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a9f71b2c20cd6a91f42d8d76dbc038190">distance</a> (const <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt; &amp;plane1, const <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt; &amp;plane2, T <a class="el" href="namespaceMR.html#a252ad7411326b0092fd6f70e6d88a3a1">errorLimit</a>=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</td></tr>
+<tr class="memitem:a9f71b2c20cd6a91f42d8d76dbc038190"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a9f71b2c20cd6a91f42d8d76dbc038190">distance</a> (const <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt; &amp;plane1, const <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt; &amp;plane2, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</td></tr>
 <tr class="separator:a9f71b2c20cd6a91f42d8d76dbc038190"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0687cd4a683d6fecc91850b82a02be37"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a0687cd4a683d6fecc91850b82a02be37"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0687cd4a683d6fecc91850b82a02be37">distance</a> (const <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt; &amp;plane, const <a class="el" href="structMR_1_1Line3.html">Line3</a>&lt; T &gt; &amp;line, T <a class="el" href="namespaceMR.html#a252ad7411326b0092fd6f70e6d88a3a1">errorLimit</a>=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</td></tr>
+<tr class="memitem:a0687cd4a683d6fecc91850b82a02be37"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0687cd4a683d6fecc91850b82a02be37">distance</a> (const <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt; &amp;plane, const <a class="el" href="structMR_1_1Line3.html">Line3</a>&lt; T &gt; &amp;line, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</td></tr>
 <tr class="separator:a0687cd4a683d6fecc91850b82a02be37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69fc667c7b57f4abc5cfa4b3b7e84083"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a69fc667c7b57f4abc5cfa4b3b7e84083"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a69fc667c7b57f4abc5cfa4b3b7e84083">distance</a> (const <a class="el" href="structMR_1_1Line3.html">Line3</a>&lt; T &gt; &amp;line1, const <a class="el" href="structMR_1_1Line3.html">Line3</a>&lt; T &gt; &amp;line2, T <a class="el" href="namespaceMR.html#a252ad7411326b0092fd6f70e6d88a3a1">errorLimit</a>=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</td></tr>
+<tr class="memitem:a69fc667c7b57f4abc5cfa4b3b7e84083"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a69fc667c7b57f4abc5cfa4b3b7e84083">distance</a> (const <a class="el" href="structMR_1_1Line3.html">Line3</a>&lt; T &gt; &amp;line1, const <a class="el" href="structMR_1_1Line3.html">Line3</a>&lt; T &gt; &amp;line2, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</td></tr>
 <tr class="separator:a69fc667c7b57f4abc5cfa4b3b7e84083"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91843efb2387268c46c85710cc706398"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a91843efb2387268c46c85710cc706398"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="namespaceMR.html#aaa5f73588605d0dd4282be91fa52efe2">LineSegm3</a>&lt; T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a91843efb2387268c46c85710cc706398">closestPoints</a> (const <a class="el" href="structMR_1_1Line3.html">Line3</a>&lt; T &gt; &amp;line1, const <a class="el" href="structMR_1_1Line3.html">Line3</a>&lt; T &gt; &amp;line2, T <a class="el" href="namespaceMR.html#a252ad7411326b0092fd6f70e6d88a3a1">errorLimit</a>=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</td></tr>
+<tr class="memitem:a91843efb2387268c46c85710cc706398"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="namespaceMR.html#aaa5f73588605d0dd4282be91fa52efe2">LineSegm3</a>&lt; T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a91843efb2387268c46c85710cc706398">closestPoints</a> (const <a class="el" href="structMR_1_1Line3.html">Line3</a>&lt; T &gt; &amp;line1, const <a class="el" href="structMR_1_1Line3.html">Line3</a>&lt; T &gt; &amp;line2, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</td></tr>
 <tr class="separator:a91843efb2387268c46c85710cc706398"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fcb33a674ea8b57ac858e40d42e26e3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a7fcb33a674ea8b57ac858e40d42e26e3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a7fcb33a674ea8b57ac858e40d42e26e3">findMaxVectorDim</a> (int &amp;dimX, int &amp;dimY, int &amp;dimZ, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;dir)</td></tr>
@@ -2492,9 +2501,6 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a252ad7411326b0092fd6f70e6d88a3a1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a252ad7411326b0092fd6f70e6d88a3a1"><td class="memTemplItemLeft" align="right" valign="top">const T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a252ad7411326b0092fd6f70e6d88a3a1">errorLimit</a> = std::numeric_limits&lt;T&gt;::epsilon() * T( 20 )</td></tr>
-<tr class="separator:a252ad7411326b0092fd6f70e6d88a3a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8574b2d5fa0c8c75e1fd5c0e983e8a81"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a8574b2d5fa0c8c75e1fd5c0e983e8a81"><td class="memTemplItemLeft" align="right" valign="top">struct <a class="el" href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8574b2d5fa0c8c75e1fd5c0e983e8a81">Vector2</a></td></tr>
 <tr class="separator:a8574b2d5fa0c8c75e1fd5c0e983e8a81"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -7201,6 +7207,82 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
+<a id="aae680d00c7b1337cc8ad166eb5089694" name="aae680d00c7b1337cc8ad166eb5089694"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae680d00c7b1337cc8ad166eb5089694">&#9670;&nbsp;</a></span>contains() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::contains </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>bitset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af22d770b767eff4d37bc4be52ef5032f" name="af22d770b767eff4d37bc4be52ef5032f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af22d770b767eff4d37bc4be52ef5032f">&#9670;&nbsp;</a></span>contains() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::contains </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>bitset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2c548d2a57825e6a23ea1acd5080afc6" name="a2c548d2a57825e6a23ea1acd5080afc6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2c548d2a57825e6a23ea1acd5080afc6">&#9670;&nbsp;</a></span>contourIntersection() <span class="overload">[1/2]</span></h2>
 
@@ -10443,8 +10525,8 @@ template&lt;typename T , typename I &gt; </div>
 
 </div>
 </div>
-<a id="a208f4184cdbfc786f36466eb7a470a1d" name="a208f4184cdbfc786f36466eb7a470a1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a208f4184cdbfc786f36466eb7a470a1d">&#9670;&nbsp;</a></span>extractIsolines()</h2>
+<a id="a8b0b55ffe6ea4fe8a68c4cba50f6d39c" name="a8b0b55ffe6ea4fe8a68c4cba50f6d39c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b0b55ffe6ea4fe8a68c4cba50f6d39c">&#9670;&nbsp;</a></span>extractIsolines()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -10465,7 +10547,13 @@ template&lt;typename T , typename I &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>isoValue</em>&#160;</td>
+          <td class="paramname"><em>isoValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td>
+          <td class="paramname"><em>region</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -10505,8 +10593,8 @@ template&lt;typename T , typename I &gt; </div>
 
 </div>
 </div>
-<a id="a5573d2866f46313234acca3bb093fde9" name="a5573d2866f46313234acca3bb093fde9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5573d2866f46313234acca3bb093fde9">&#9670;&nbsp;</a></span>extractPlaneSections()</h2>
+<a id="a30037e8ef79442785a34ff61d9a5eb2e" name="a30037e8ef79442785a34ff61d9a5eb2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30037e8ef79442785a34ff61d9a5eb2e">&#9670;&nbsp;</a></span>extractPlaneSections()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -10514,8 +10602,8 @@ template&lt;typename T , typename I &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac743a99f776ece0d1aace02cd9c7f561">PlaneSections</a> MR::extractPlaneSections </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
-          <td class="paramname"><em>mesh</em>, </td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
+          <td class="paramname"><em>mp</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -14324,6 +14412,42 @@ template&lt;typename T &gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ae923a2855ed035b5d5f74b3162c0da" name="a9ae923a2855ed035b5d5f74b3162c0da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ae923a2855ed035b5d5f74b3162c0da">&#9670;&nbsp;</a></span>lookAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceMR.html#a497ae0b02290edeaa5275069efc377df">AffineXf3</a>&lt; T &gt; MR::lookAt </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>center</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>eye</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>up</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -25348,22 +25472,6 @@ template&lt;typename... &gt; </div>
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a252ad7411326b0092fd6f70e6d88a3a1" name="a252ad7411326b0092fd6f70e6d88a3a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a252ad7411326b0092fd6f70e6d88a3a1">&#9670;&nbsp;</a></span>errorLimit</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">const T MR::errorLimit = std::numeric_limits&lt;T&gt;::epsilon() * T( 20 )</td>
-        </tr>
-      </table>
 </div><div class="memdoc">
 
 </div>

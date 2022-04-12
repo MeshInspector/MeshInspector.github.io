@@ -32,5 +32,6 @@ var searchData=
   ['loadmrmeshpymodule_29',['loadMRMeshPyModule',['../namespaceMR.html#a36770d341a5bb9b31cbc30d136c0e2e9',1,'MR']]],
   ['loadraw_30',['loadRaw',['../namespaceMR_1_1DistanceMapLoad.html#a2f299e9902553662efce51bcb142d638',1,'MR::DistanceMapLoad::loadRaw()'],['../namespaceMR_1_1VoxelsLoad.html#aa9abed217804416824e973007c8dc6e2',1,'MR::VoxelsLoad::loadRaw(const std::filesystem::path &amp;path, const RawParameters &amp;params, const ProgressCallback &amp;cb={})'],['../namespaceMR_1_1VoxelsLoad.html#a65dfedbe323fb5135adaecbb38bf740e',1,'MR::VoxelsLoad::loadRaw(const std::filesystem::path &amp;path, const ProgressCallback &amp;cb={})']]],
   ['loadsurfacepc_31',['loadSurfacePC',['../classMR_1_1RegularMapMesher.html#ae3e690f9ee38c8774b9663885a8179fa',1,'MR::RegularMapMesher']]],
-  ['loggingstreambuf_32',['LoggingStreambuf',['../classMR_1_1LoggingStreambuf.html#af253d14866ae6530d01634b16042d387',1,'MR::LoggingStreambuf']]]
+  ['loggingstreambuf_32',['LoggingStreambuf',['../classMR_1_1LoggingStreambuf.html#af253d14866ae6530d01634b16042d387',1,'MR::LoggingStreambuf']]],
+  ['lookat_33',['lookAt',['../namespaceMR.html#a9ae923a2855ed035b5d5f74b3162c0da',1,'MR']]]
 ];

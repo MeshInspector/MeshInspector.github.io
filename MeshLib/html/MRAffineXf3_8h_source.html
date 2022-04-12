@@ -100,8 +100,38 @@ $(document).ready(function(){initNavTree('MRAffineXf3_8h_source.html',''); initR
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMatrix3_8h.html">MRMatrix3.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRAffineXf_8h.html">MRAffineXf.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">// computes rigid transformation xf:</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment">// xf.z - directed from center to eye</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">// xf.x - directed orthogonal to up and xf.z</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">// xf.y - directed orthogonal to xf.z and xf.x</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment">// xf(eye) = 0</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="namespaceMR.html#a9ae923a2855ed035b5d5f74b3162c0da">   15</a></span><a class="code hl_struct" href="structMR_1_1AffineXf.html">AffineXf3&lt;T&gt;</a> <a class="code hl_function" href="namespaceMR.html#a9ae923a2855ed035b5d5f74b3162c0da">lookAt</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a>&amp; center, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a>&amp; eye, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a>&amp; up )</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">const</span> <span class="keyword">auto</span> f = (center - eye).normalized();</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keyword">const</span> <span class="keyword">auto</span> s = <a class="code hl_function" href="namespaceMR.html#a36c2d4496e875371608ffd6523b66c36">cross</a>( f, up ).normalized();</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keyword">const</span> <span class="keyword">auto</span> u = <a class="code hl_function" href="namespaceMR.html#a36c2d4496e875371608ffd6523b66c36">cross</a>( s, f );</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordflow">return</span> <a class="code hl_struct" href="structMR_1_1AffineXf.html">AffineXf3f</a>{ </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        <a class="code hl_struct" href="structMR_1_1Matrix3.html">Matrix3f</a>{ s, u, -f },</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        <a class="code hl_class" href="structMR_1_1Vector3.html">Vector3f</a>{ -<a class="code hl_function" href="namespaceMR.html#a4866eb66f7863909235eab2d1e4dd815">dot</a>( s, eye ), -<a class="code hl_function" href="namespaceMR.html#a4866eb66f7863909235eab2d1e4dd815">dot</a>( u, eye ), <a class="code hl_function" href="namespaceMR.html#a4866eb66f7863909235eab2d1e4dd815">dot</a>( f, eye ) }</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    };</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>}</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="aMRAffineXf_8h_html"><div class="ttname"><a href="MRAffineXf_8h.html">MRAffineXf.h</a></div></div>
 <div class="ttc" id="aMRMatrix3_8h_html"><div class="ttname"><a href="MRMatrix3_8h.html">MRMatrix3.h</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MR2DContoursTriangulation.h:6</div></div>
+<div class="ttc" id="anamespaceMR_html_a36c2d4496e875371608ffd6523b66c36"><div class="ttname"><a href="namespaceMR.html#a36c2d4496e875371608ffd6523b66c36">MR::cross</a></div><div class="ttdeci">T cross(const Vector2&lt; T &gt; &amp;a, const Vector2&lt; T &gt; &amp;b)</div><div class="ttdef"><b>Definition:</b> MRVector2.h:68</div></div>
+<div class="ttc" id="anamespaceMR_html_a4866eb66f7863909235eab2d1e4dd815"><div class="ttname"><a href="namespaceMR.html#a4866eb66f7863909235eab2d1e4dd815">MR::dot</a></div><div class="ttdeci">T dot(const Quaternion&lt; T &gt; &amp;a, const Quaternion&lt; T &gt; &amp;b)</div><div class="ttdef"><b>Definition:</b> MRQuaternion.h:196</div></div>
+<div class="ttc" id="anamespaceMR_html_a9ae923a2855ed035b5d5f74b3162c0da"><div class="ttname"><a href="namespaceMR.html#a9ae923a2855ed035b5d5f74b3162c0da">MR::lookAt</a></div><div class="ttdeci">AffineXf3&lt; T &gt; lookAt(const Vector3&lt; T &gt; &amp;center, const Vector3&lt; T &gt; &amp;eye, const Vector3&lt; T &gt; &amp;up)</div><div class="ttdef"><b>Definition:</b> MRAffineXf3.h:15</div></div>
+<div class="ttc" id="astructMR_1_1AffineXf_html"><div class="ttname"><a href="structMR_1_1AffineXf.html">MR::AffineXf</a></div><div class="ttdef"><b>Definition:</b> MRAffineXf.h:9</div></div>
+<div class="ttc" id="astructMR_1_1Matrix3_html"><div class="ttname"><a href="structMR_1_1Matrix3.html">MR::Matrix3</a></div><div class="ttdef"><b>Definition:</b> MRMatrix3.h:12</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition:</b> MRVector3.h:13</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

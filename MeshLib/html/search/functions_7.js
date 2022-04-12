@@ -11,7 +11,7 @@ var searchData=
   ['hasvector2i_8',['hasVector2i',['../classMR_1_1Config.html#a45debdd9e18e1b014caa6a4d1e5eaf16',1,'MR::Config']]],
   ['hasvert_9',['hasVert',['../classMR_1_1MeshTopology.html#a326f13c710a4c0ebf09201838f65c4e9',1,'MR::MeshTopology::hasVert()'],['../classMR_1_1PolylineTopology.html#a2b966e998f03cd7ed4d30898f4542284',1,'MR::PolylineTopology::hasVert()']]],
   ['heap_10',['Heap',['../classMR_1_1Heap.html#a1c3a6bcbeb43f15264907a196f0b96a6',1,'MR::Heap']]],
-  ['histogram_11',['Histogram',['../classMR_1_1Histogram.html#aba207b56824356ab7f80254c5fd34819',1,'MR::Histogram::Histogram()=default'],['../classMR_1_1Histogram.html#a9987d6f205ec5eb085631e1d45e333b7',1,'MR::Histogram::Histogram(float min, float max, size_t size)']]],
-  ['histogram_12',['histogram',['../classMR_1_1ObjectVoxels.html#af4e1350561bc2e71d56741b954562868',1,'MR::ObjectVoxels']]],
+  ['histogram_11',['histogram',['../classMR_1_1ObjectVoxels.html#af4e1350561bc2e71d56741b954562868',1,'MR::ObjectVoxels']]],
+  ['histogram_12',['Histogram',['../classMR_1_1Histogram.html#aba207b56824356ab7f80254c5fd34819',1,'MR::Histogram::Histogram()=default'],['../classMR_1_1Histogram.html#a9987d6f205ec5eb085631e1d45e333b7',1,'MR::Histogram::Histogram(float min, float max, size_t size)']]],
   ['historystore_13',['HistoryStore',['../classMR_1_1HistoryStore.html#a37463f6865be0b80f3c33ab964da7525',1,'MR::HistoryStore']]]
 ];

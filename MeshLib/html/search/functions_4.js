@@ -32,7 +32,7 @@ var searchData=
   ['expandvoxelsmask_29',['expandVoxelsMask',['../namespaceMR.html#a2b294cbfdf1d13f5bb7babef620b361a',1,'MR']]],
   ['extendhole_30',['extendHole',['../namespaceMR.html#a3c7779fd4cc2d941f67da4462b2d0121',1,'MR::extendHole(Mesh &amp;mesh, EdgeId a, const Plane3f &amp;plane, FaceBitSet *outNewFaces=nullptr)'],['../namespaceMR.html#a067cc1eda81ae410fdf9299ca802738a',1,'MR::extendHole(Mesh &amp;mesh, EdgeId a, std::function&lt; Vector3f(const Vector3f &amp;)&gt; getVertPos, FaceBitSet *outNewFaces=nullptr)']]],
   ['extractclosedloops_31',['extractClosedLoops',['../namespaceMR.html#ad555d8d4c714e8afe8e6254a6a671f0c',1,'MR::extractClosedLoops(const MeshTopology &amp;topology, EdgeBitSet &amp;edges)'],['../namespaceMR.html#aa78455fdb147a0790b3838d7d30344f0',1,'MR::extractClosedLoops(const MeshTopology &amp;topology, const std::vector&lt; EdgeId &gt; &amp;inEdges, EdgeBitSet *outNotLoopEdges=nullptr)']]],
-  ['extractisolines_32',['extractIsolines',['../namespaceMR.html#a208f4184cdbfc786f36466eb7a470a1d',1,'MR']]],
+  ['extractisolines_32',['extractIsolines',['../namespaceMR.html#a8b0b55ffe6ea4fe8a68c4cba50f6d39c',1,'MR']]],
   ['extractlongestclosedloop_33',['extractLongestClosedLoop',['../namespaceMR.html#ae2366000776e2dc3664a7940a93576b2',1,'MR']]],
-  ['extractplanesections_34',['extractPlaneSections',['../namespaceMR.html#a5573d2866f46313234acca3bb093fde9',1,'MR']]]
+  ['extractplanesections_34',['extractPlaneSections',['../namespaceMR.html#a30037e8ef79442785a34ff61d9a5eb2e',1,'MR']]]
 ];

@@ -6,6 +6,8 @@ var MRBitSet_8h =
     [ "BOOST_DYNAMIC_BITSET_DONT_USE_FRIENDS", "MRBitSet_8h.html#ab38c1f4b0a6095561c5efffdb9486c15", null ],
     [ "begin", "MRBitSet_8h.html#a25c73b1f9e5d5df34b153869e3cb5515", null ],
     [ "begin", "MRBitSet_8h.html#af98212c07ebfc00c3d84f1b850490822", null ],
+    [ "contains", "MRBitSet_8h.html#aae680d00c7b1337cc8ad166eb5089694", null ],
+    [ "contains", "MRBitSet_8h.html#af22d770b767eff4d37bc4be52ef5032f", null ],
     [ "end", "MRBitSet_8h.html#a3e268aab2816870aa045f278c6bd6ecd", null ],
     [ "end", "MRBitSet_8h.html#ac51195584b74d98329275c384e66a1d9", null ],
     [ "operator!=", "MRBitSet_8h.html#afac0380481de66cc94765087e17be65d", null ],

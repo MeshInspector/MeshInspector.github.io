@@ -39,7 +39,7 @@ var searchData=
   ['isinscopemode_36',['isInScopeMode',['../classMR_1_1HistoryStore.html#af145c9ac9643f835f3ad25fadf037814',1,'MR::HistoryStore']]],
   ['isinside_37',['isInside',['../namespaceMR.html#aa8d770560279dcdaa48764810b77c30d',1,'MR::isInside(const Polyline2 &amp;a, const Polyline2 &amp;b, const AffineXf2f *rigidB2A=nullptr)'],['../namespaceMR.html#a3c4d304b28fd4695d20dc454318f5660',1,'MR::isInside(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr)']]],
   ['isleftbdedge_38',['isLeftBdEdge',['../classMR_1_1MeshTopology.html#a71f39944d4eea5bdb00d37da53ae1882',1,'MR::MeshTopology']]],
-  ['isleftinregion_39',['isLeftInRegion',['../classMR_1_1MeshTopology.html#a512984b5f87dcf8c7667237cccdabefb',1,'MR::MeshTopology']]],
+  ['isleftinregion_39',['isLeftInRegion',['../classMR_1_1MeshTopology.html#a26fb1755e53d61c7a438428f27b95f78',1,'MR::MeshTopology']]],
   ['isleftquad_40',['isLeftQuad',['../classMR_1_1MeshTopology.html#a43d2bcbe6b6dc95cf6eb7fd1c0f8457b',1,'MR::MeshTopology']]],
   ['islefttri_41',['isLeftTri',['../classMR_1_1MeshTopology.html#a3d34196ea43bcf08fefe69868c170818',1,'MR::MeshTopology']]],
   ['islocked_42',['isLocked',['../classMR_1_1Object.html#a6eccb1e855dd69fee11e337c65b467ec',1,'MR::Object']]],
