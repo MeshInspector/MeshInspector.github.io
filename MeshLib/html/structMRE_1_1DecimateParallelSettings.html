@@ -107,8 +107,9 @@ $(document).ready(function(){initNavTree('structMRE_1_1DecimateParallelSettings.
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a6f3f522b23ee46a45b410dc55b6003a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMRE.html#a8c76431f5906608e28ce45ed93297e66">DecimateStrategy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateParallelSettings.html#a6f3f522b23ee46a45b410dc55b6003a9">strategy</a> = DecimateStrategy::MinimizeError</td></tr>
+<tr class="separator:a6f3f522b23ee46a45b410dc55b6003a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac814d6cc2c655ebca73c58ba4ee50621"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateParallelSettings.html#ac814d6cc2c655ebca73c58ba4ee50621">maxError</a> = 0.001f</td></tr>
-<tr class="memdesc:ac814d6cc2c655ebca73c58ba4ee50621"><td class="mdescLeft">&#160;</td><td class="mdescRight">Limit from above on the maximum distance from moved vertices to original mesh.  <a href="structMRE_1_1DecimateParallelSettings.html#ac814d6cc2c655ebca73c58ba4ee50621">More...</a><br /></td></tr>
 <tr class="separator:ac814d6cc2c655ebca73c58ba4ee50621"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae88afe0d766d9a0cd97339a0679e09c4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateParallelSettings.html#ae88afe0d766d9a0cd97339a0679e09c4">maxTriangleAspectRatio</a> = 20</td></tr>
 <tr class="memdesc:ae88afe0d766d9a0cd97339a0679e09c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximal possible aspect ratio of a triangle introduced during decimation.  <a href="structMRE_1_1DecimateParallelSettings.html#ae88afe0d766d9a0cd97339a0679e09c4">More...</a><br /></td></tr>
@@ -137,8 +138,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Limit from above on the maximum distance from moved vertices to original mesh. </p>
+<p >for DecimateStrategy::MinimizeError: stop the decimation as soon as the estimated distance deviation from the original mesh is more than this value for DecimateStrategy::ShortestEdgeFirst only: stop the decimation as soon as the longest edge in the mesh is greater than this value </p>
 
 </div>
 </div>
@@ -187,6 +187,20 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero </p>
+
+</div>
+</div>
+<a id="a6f3f522b23ee46a45b410dc55b6003a9" name="a6f3f522b23ee46a45b410dc55b6003a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f3f522b23ee46a45b410dc55b6003a9">&#9670;&nbsp;</a></span>strategy</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceMRE.html#a8c76431f5906608e28ce45ed93297e66">DecimateStrategy</a> MRE::DecimateParallelSettings::strategy = DecimateStrategy::MinimizeError</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

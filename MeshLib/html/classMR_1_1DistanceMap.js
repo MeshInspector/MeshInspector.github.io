@@ -17,6 +17,7 @@ var classMR_1_1DistanceMap =
     [ "getValue", "classMR_1_1DistanceMap.html#aa7d63616e89a2dff0379ef4fe48b2c08", null ],
     [ "getValue", "classMR_1_1DistanceMap.html#a44e3e39d8848d52746a65a044453a974", null ],
     [ "getXYDerivativeMaps", "classMR_1_1DistanceMap.html#aaaf57f68fae4b550eaab60acb61871b3", null ],
+    [ "heapBytes", "classMR_1_1DistanceMap.html#a9a2b0e5b026e2046b9d68412671d9f8a", null ],
     [ "invalidateAll", "classMR_1_1DistanceMap.html#ad5b12268ebb7ac7c56982566845c0e08", null ],
     [ "isValid", "classMR_1_1DistanceMap.html#af1b7ab47803d2d2e93f40336ba1e06f7", null ],
     [ "isValid", "classMR_1_1DistanceMap.html#a1eaf3f29a82b7eb2528f578d2f9e8f34", null ],

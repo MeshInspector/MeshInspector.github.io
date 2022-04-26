@@ -21,6 +21,7 @@ var classMR_1_1PolylineTopology =
     [ "getVertIds", "classMR_1_1PolylineTopology.html#a935054375c8e68e3e708b38a91b1260a", null ],
     [ "hasEdge", "classMR_1_1PolylineTopology.html#ae20a806936450b9f38d28938a2721f47", null ],
     [ "hasVert", "classMR_1_1PolylineTopology.html#a2b966e998f03cd7ed4d30898f4542284", null ],
+    [ "heapBytes", "classMR_1_1PolylineTopology.html#a6963aa721648b337a9389e17079da6fb", null ],
     [ "isClosed", "classMR_1_1PolylineTopology.html#ae17cec60bbb52533d23d162f050ed1f8", null ],
     [ "isConsistentlyOriented", "classMR_1_1PolylineTopology.html#a3a8e8e933ae69de8cd01c7f60a1e6e87", null ],
     [ "isLoneEdge", "classMR_1_1PolylineTopology.html#a0a9412a90e63fc7a356cd7098e1f8ad6", null ],

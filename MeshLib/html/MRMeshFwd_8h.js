@@ -139,7 +139,13 @@ var MRMeshFwd_8h =
     [ "ChangeSceneAction", "MRMeshFwd_8h.html#a78658d7e2559b2c2ecccd1003dc75e04", null ],
     [ "ColorMapAggregator", "MRMeshFwd_8h.html#ad936edeb5d535d4e181bb99178c6bb6a", null ],
     [ "dependent_false", "MRMeshFwd_8h.html#ac090ec24cc989c66ab1dbc182cb43c87", null ],
+    [ "EdgeTag", "MRMeshFwd_8h.html#ac8c2508941fcd4ad714cdf50c45aa41c", null ],
+    [ "FaceTag", "MRMeshFwd_8h.html#a7a4a96848eb4b1524be699a7adcd8017", null ],
     [ "HistoryStore", "MRMeshFwd_8h.html#a13289bb0637fbc667dab347fd46dbbbb", null ],
+    [ "PixelTag", "MRMeshFwd_8h.html#a7eb54b4688d90e090b75bbf0efc2fec5", null ],
+    [ "UndirectedEdgeTag", "MRMeshFwd_8h.html#a1bbe6aa7d7136f740286af86f591c19b", null ],
     [ "Vector2", "MRMeshFwd_8h.html#a8574b2d5fa0c8c75e1fd5c0e983e8a81", null ],
-    [ "Vector3", "MRMeshFwd_8h.html#a0ca1e3843eef2c4f88b6c11546a15540", null ]
+    [ "Vector3", "MRMeshFwd_8h.html#a0ca1e3843eef2c4f88b6c11546a15540", null ],
+    [ "VertTag", "MRMeshFwd_8h.html#aa92378bf233fad3fbb22ac30f72ea71e", null ],
+    [ "VoxelTag", "MRMeshFwd_8h.html#a643d3f06a57ec77e78fffeee6a27fc3d", null ]
 ];

@@ -30,6 +30,7 @@ var classMR_1_1Object =
     [ "getWorldTreeBox", "classMR_1_1Object.html#a00a7adc1628adee0971cc752e87244c8", null ],
     [ "globalVisibilityMask", "classMR_1_1Object.html#a16b01c9f31dc2c3ab06b702718e9c7cb", null ],
     [ "globalVisibilty", "classMR_1_1Object.html#aa21a7331f0104ac037efede365c241ac", null ],
+    [ "heapBytes", "classMR_1_1Object.html#adc5d7c1d86bb8b8afe345a35b7c9a6bc", null ],
     [ "isAncestor", "classMR_1_1Object.html#a7c970b0fa099d812c04978d33c4b624e", null ],
     [ "isAncillary", "classMR_1_1Object.html#a3dcf68a5faec85e8e753e34ab77eb1b9", null ],
     [ "isLocked", "classMR_1_1Object.html#a6eccb1e855dd69fee11e337c65b467ec", null ],

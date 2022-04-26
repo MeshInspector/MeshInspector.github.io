@@ -5,9 +5,11 @@ var group__DecimateGroup =
       [ "maxDeletedVertices", "structMRE_1_1DecimateSettings.html#a0c9612c442978c84b93928b3fd674a40", null ],
       [ "maxError", "structMRE_1_1DecimateSettings.html#a38c75c2b0f972f02c4940ce0498487d3", null ],
       [ "maxTriangleAspectRatio", "structMRE_1_1DecimateSettings.html#aa9e747580fa45ea2f0e80a8fcd1a974f", null ],
+      [ "packMesh", "structMRE_1_1DecimateSettings.html#ad5726ea05c0bd01b3a824d535002eee7", null ],
       [ "preCollapse", "structMRE_1_1DecimateSettings.html#aa4f17fd96340b37c98219b37f743d44e", null ],
       [ "region", "structMRE_1_1DecimateSettings.html#a5516325279c277f1368546f126ed95c5", null ],
       [ "stabilizer", "structMRE_1_1DecimateSettings.html#a3c40fafa954eac9946ce998467a2449e", null ],
+      [ "strategy", "structMRE_1_1DecimateSettings.html#a1fdbdb7cb9434db208678182882be0aa", null ],
       [ "touchBdVertices", "structMRE_1_1DecimateSettings.html#a03b7e3ab435504e0885c7f48e9d0bd52", null ],
       [ "vertForms", "structMRE_1_1DecimateSettings.html#a23c47583972b3b17dd89bc69cc2094cd", null ]
     ] ],
@@ -21,6 +23,7 @@ var group__DecimateGroup =
       [ "maxTriangleAspectRatio", "structMRE_1_1DecimateParallelSettings.html#ae88afe0d766d9a0cd97339a0679e09c4", null ],
       [ "preCollapse", "structMRE_1_1DecimateParallelSettings.html#a9b2d053f13171cca73579ca16335f6cf", null ],
       [ "stabilizer", "structMRE_1_1DecimateParallelSettings.html#a0b61ab1c0f0b8cdfb1227b61538701ed", null ],
+      [ "strategy", "structMRE_1_1DecimateParallelSettings.html#a6f3f522b23ee46a45b410dc55b6003a9", null ],
       [ "subdivideParts", "structMRE_1_1DecimateParallelSettings.html#a2a2a5ed1fff302edc4af585b97b47a01", null ]
     ] ],
     [ "MRE::DecimatePolylineSettings", "structMRE_1_1DecimatePolylineSettings.html", [

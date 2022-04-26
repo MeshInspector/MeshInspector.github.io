@@ -120,18 +120,20 @@ $(document).ready(function(){initNavTree('MRChangeSceneAction_8h_source.html',''
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeSceneAction.html#abe4134fb5816e6ed341b5b84526fe6c0">   23</a></span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ChangeSceneAction.html#abe4134fb5816e6ed341b5b84526fe6c0">action</a>( <a class="code hl_enumeration" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a> actionType ) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="comment">// updates parent and next child if it was not preset before</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">void</span> updateParent_();</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <a class="code hl_class" href="classMR_1_1Object.html">Object</a>* parent_{ <span class="keyword">nullptr</span> };</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    std::shared_ptr&lt;Object&gt; nextObj_; <span class="comment">// next child of parent (needed to insert child to correct place of tree)</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    std::shared_ptr&lt;Object&gt; obj_;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    std::string name_;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    Type type_;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>};</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>}</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeSceneAction.html#afc8063a119e30688b93c3e6d04cb77d2">   25</a></span>    [[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="classMR_1_1ChangeSceneAction.html#afc8063a119e30688b93c3e6d04cb77d2">heapBytes</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="comment">// updates parent and next child if it was not preset before</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">void</span> updateParent_();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <a class="code hl_class" href="classMR_1_1Object.html">Object</a>* parent_{ <span class="keyword">nullptr</span> };</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    std::shared_ptr&lt;Object&gt; nextObj_; <span class="comment">// next child of parent (needed to insert child to correct place of tree)</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    std::shared_ptr&lt;Object&gt; obj_;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    std::string name_;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    Type type_;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>};</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>}</div>
 <div class="ttc" id="aMRHistoryAction_8h_html"><div class="ttname"><a href="MRHistoryAction_8h.html">MRHistoryAction.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:14</div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a45ed33a118705bfd4aac6d294495276a"><div class="ttname"><a href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a></div><div class="ttdeci">#define MRMESH_CLASS</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:16</div></div>
@@ -141,9 +143,10 @@ $(document).ready(function(){initNavTree('MRChangeSceneAction_8h_source.html',''
 <div class="ttc" id="aclassMR_1_1ChangeSceneAction_html_abe4134fb5816e6ed341b5b84526fe6c0"><div class="ttname"><a href="classMR_1_1ChangeSceneAction.html#abe4134fb5816e6ed341b5b84526fe6c0">MR::ChangeSceneAction::action</a></div><div class="ttdeci">virtual MRMESH_API void action(HistoryAction::Type actionType) override</div></div>
 <div class="ttc" id="aclassMR_1_1ChangeSceneAction_html_ad1dec660d1132592b4ea2eb4ad53dda0"><div class="ttname"><a href="classMR_1_1ChangeSceneAction.html#ad1dec660d1132592b4ea2eb4ad53dda0">MR::ChangeSceneAction::name</a></div><div class="ttdeci">virtual std::string name() const override</div><div class="ttdef"><b>Definition:</b> MRChangeSceneAction.h:21</div></div>
 <div class="ttc" id="aclassMR_1_1ChangeSceneAction_html_ae23bede5fadd45b799171e142607c1d1"><div class="ttname"><a href="classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1">MR::ChangeSceneAction::Type</a></div><div class="ttdeci">Type</div><div class="ttdef"><b>Definition:</b> MRChangeSceneAction.h:14</div></div>
+<div class="ttc" id="aclassMR_1_1ChangeSceneAction_html_afc8063a119e30688b93c3e6d04cb77d2"><div class="ttname"><a href="classMR_1_1ChangeSceneAction.html#afc8063a119e30688b93c3e6d04cb77d2">MR::ChangeSceneAction::heapBytes</a></div><div class="ttdeci">virtual MRMESH_API size_t heapBytes() const override</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryAction_html"><div class="ttname"><a href="classMR_1_1HistoryAction.html">MR::HistoryAction</a></div><div class="ttdef"><b>Definition:</b> MRHistoryAction.h:10</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryAction_html_ac16eb31dd26d35cfc18bac8a05983aa7"><div class="ttname"><a href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">MR::HistoryAction::Type</a></div><div class="ttdeci">Type</div><div class="ttdef"><b>Definition:</b> MRHistoryAction.h:17</div></div>
-<div class="ttc" id="aclassMR_1_1Object_html"><div class="ttname"><a href="classMR_1_1Object.html">MR::Object</a></div><div class="ttdef"><b>Definition:</b> MRObject.h:59</div></div>
+<div class="ttc" id="aclassMR_1_1Object_html"><div class="ttname"><a href="classMR_1_1Object.html">MR::Object</a></div><div class="ttdef"><b>Definition:</b> MRObject.h:64</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MR2DContoursTriangulation.h:6</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

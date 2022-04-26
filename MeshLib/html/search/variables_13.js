@@ -14,11 +14,13 @@ var searchData=
   ['vertnormals_11',['vertNormals',['../structMR_1_1MeshNormals.html#a9415ae7311347805d0b725c9a07ef5ea',1,'MR::MeshNormals']]],
   ['vertscolormap_5f_12',['vertsColorMap_',['../classMR_1_1VisualObject.html#abe95051135f3ebbc784ad854b11cb36e',1,'MR::VisualObject']]],
   ['vertsdeleted_13',['vertsDeleted',['../structMRE_1_1DecimateResult.html#ab3a3a740d5e704f73a85f89e159ba275',1,'MRE::DecimateResult::vertsDeleted()'],['../structMRE_1_1DecimatePolylineResult.html#a0de315964cbf6a0ed872e5f693c1f80d',1,'MRE::DecimatePolylineResult::vertsDeleted()']]],
-  ['viewmatrixptr_14',['viewMatrixPtr',['../structMR_1_1BaseRenderParams.html#a59f415d54441db86c692ce64d7dfa52e',1,'MR::BaseRenderParams']]],
-  ['viewport_15',['viewport',['../structMR_1_1BaseRenderParams.html#aabb1d7dfa544bd6cb1d98a79a8d036a9',1,'MR::BaseRenderParams']]],
-  ['viewportid_16',['viewportId',['../structMR_1_1BaseRenderParams.html#adf952473500110be7f693c5d725f6fde',1,'MR::BaseRenderParams']]],
-  ['visibilitymask_5f_17',['visibilityMask_',['../classMR_1_1Object.html#ae98466115f6fa8989c8628ff6ec54e9e',1,'MR::Object']]],
-  ['vmap_18',['vmap',['../structMR_1_1MeshBuilder_1_1MeshPiece.html#a0e2772f29127c4ade3e9c174019fa545',1,'MR::MeshBuilder::MeshPiece']]],
-  ['voxelsexpansion_19',['voxelsExpansion',['../structMR_1_1VolumeSegmentationParameters.html#aa059718068f7c4b81e33e2a1a3e7460c',1,'MR::VolumeSegmentationParameters']]],
-  ['voxelsize_20',['voxelSize',['../structMR_1_1MeshVoxelsConverter.html#aff9a0bc144c30c521df635ba7c3ae056',1,'MR::MeshVoxelsConverter::voxelSize()'],['../structMR_1_1OffsetParameters.html#a0baf758ad446a49b4f48cc5838c2fce8',1,'MR::OffsetParameters::voxelSize()'],['../structMR_1_1SimpleVolume.html#ab31bcafaf05771b76501d7e60b91861a',1,'MR::SimpleVolume::voxelSize()'],['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afd3e66a2e50b601320d9254e884691dd',1,'MR::VoxelsLoad::RawParameters::voxelSize()']]]
+  ['verttag_14',['VertTag',['../namespaceMR.html#aa92378bf233fad3fbb22ac30f72ea71e',1,'MR']]],
+  ['viewmatrixptr_15',['viewMatrixPtr',['../structMR_1_1BaseRenderParams.html#a59f415d54441db86c692ce64d7dfa52e',1,'MR::BaseRenderParams']]],
+  ['viewport_16',['viewport',['../structMR_1_1BaseRenderParams.html#aabb1d7dfa544bd6cb1d98a79a8d036a9',1,'MR::BaseRenderParams']]],
+  ['viewportid_17',['viewportId',['../structMR_1_1BaseRenderParams.html#adf952473500110be7f693c5d725f6fde',1,'MR::BaseRenderParams']]],
+  ['visibilitymask_5f_18',['visibilityMask_',['../classMR_1_1Object.html#ae98466115f6fa8989c8628ff6ec54e9e',1,'MR::Object']]],
+  ['vmap_19',['vmap',['../structMR_1_1MeshBuilder_1_1MeshPiece.html#a0e2772f29127c4ade3e9c174019fa545',1,'MR::MeshBuilder::MeshPiece']]],
+  ['voxelsexpansion_20',['voxelsExpansion',['../structMR_1_1VolumeSegmentationParameters.html#aa059718068f7c4b81e33e2a1a3e7460c',1,'MR::VolumeSegmentationParameters']]],
+  ['voxelsize_21',['voxelSize',['../structMR_1_1MeshVoxelsConverter.html#aff9a0bc144c30c521df635ba7c3ae056',1,'MR::MeshVoxelsConverter::voxelSize()'],['../structMR_1_1OffsetParameters.html#a0baf758ad446a49b4f48cc5838c2fce8',1,'MR::OffsetParameters::voxelSize()'],['../structMR_1_1SimpleVolume.html#ab31bcafaf05771b76501d7e60b91861a',1,'MR::SimpleVolume::voxelSize()'],['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afd3e66a2e50b601320d9254e884691dd',1,'MR::VoxelsLoad::RawParameters::voxelSize()']]],
+  ['voxeltag_22',['VoxelTag',['../namespaceMR.html#a643d3f06a57ec77e78fffeee6a27fc3d',1,'MR']]]
 ];

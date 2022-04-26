@@ -8,5 +8,6 @@ var classMR_1_1Histogram =
     [ "getBinMinMax", "classMR_1_1Histogram.html#a77d44fead356e682cf2c30805722b59c", null ],
     [ "getBins", "classMR_1_1Histogram.html#a489a0a4c59abc3a2d4a5b3382fd7e4b3", null ],
     [ "getMax", "classMR_1_1Histogram.html#a827e85fc6dbb381db1ecdd86cc85efc8", null ],
-    [ "getMin", "classMR_1_1Histogram.html#a46da7c1b719682c2e39bfb89ee04eca3", null ]
+    [ "getMin", "classMR_1_1Histogram.html#a46da7c1b719682c2e39bfb89ee04eca3", null ],
+    [ "heapBytes", "classMR_1_1Histogram.html#a4666262b73e1f92125d26cb27d2d5eca", null ]
 ];

@@ -49,6 +49,9 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRChangeObjectAction.h", "MRChangeObjectAction_8h.html", [
       [ "MR::ChangeObjectAction", "classMR_1_1ChangeObjectAction.html", "classMR_1_1ChangeObjectAction" ]
     ] ],
+    [ "MRChangePointCloudAction.h", "MRChangePointCloudAction_8h.html", [
+      [ "MR::ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html", "classMR_1_1ChangePointCloudAction" ]
+    ] ],
     [ "MRChangeSceneAction.h", "MRChangeSceneAction_8h.html", [
       [ "MR::ChangeSceneAction", "classMR_1_1ChangeSceneAction.html", "classMR_1_1ChangeSceneAction" ]
     ] ],
@@ -56,9 +59,10 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
       [ "MR::ChangeSceneObjectsOrder", "classMR_1_1ChangeSceneObjectsOrder.html", "classMR_1_1ChangeSceneObjectsOrder" ]
     ] ],
     [ "MRChangeSelectionAction.h", "MRChangeSelectionAction_8h.html", [
-      [ "MR::ChangeSelectionAction", "classMR_1_1ChangeSelectionAction.html", "classMR_1_1ChangeSelectionAction" ],
-      [ "MR::ChangeEdgeSelectionAction", "classMR_1_1ChangeEdgeSelectionAction.html", "classMR_1_1ChangeEdgeSelectionAction" ],
-      [ "MR::ChangeCreasesAction", "classMR_1_1ChangeCreasesAction.html", "classMR_1_1ChangeCreasesAction" ]
+      [ "MR::ChangeMeshFaceSelectionAction", "classMR_1_1ChangeMeshFaceSelectionAction.html", "classMR_1_1ChangeMeshFaceSelectionAction" ],
+      [ "MR::ChangeMeshEdgeSelectionAction", "classMR_1_1ChangeMeshEdgeSelectionAction.html", "classMR_1_1ChangeMeshEdgeSelectionAction" ],
+      [ "MR::ChangeMeshCreasesAction", "classMR_1_1ChangeMeshCreasesAction.html", "classMR_1_1ChangeMeshCreasesAction" ],
+      [ "MR::ChangePointPointSelectionAction", "classMR_1_1ChangePointPointSelectionAction.html", "classMR_1_1ChangePointPointSelectionAction" ]
     ] ],
     [ "MRChangeXfAction.h", "MRChangeXfAction_8h.html", [
       [ "MR::ChangeXfAction", "classMR_1_1ChangeXfAction.html", "classMR_1_1ChangeXfAction" ]
@@ -119,6 +123,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
       [ "MR::Heap< T, I, P >", "classMR_1_1Heap.html", "classMR_1_1Heap" ],
       [ "MR::Heap< T, I, P >::Element", "structMR_1_1Heap_1_1Element.html", "structMR_1_1Heap_1_1Element" ]
     ] ],
+    [ "MRHeapBytes.h", "MRHeapBytes_8h.html", "MRHeapBytes_8h" ],
     [ "MRHighPrecision.h", "MRHighPrecision_8h.html", "MRHighPrecision_8h" ],
     [ "MRHistogram.h", "MRHistogram_8h.html", [
       [ "MR::Histogram", "classMR_1_1Histogram.html", "classMR_1_1Histogram" ]
@@ -228,6 +233,10 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     ] ],
     [ "MRObjectPoints.h", "MRObjectPoints_8h.html", [
       [ "MR::ObjectPoints", "classMR_1_1ObjectPoints.html", "classMR_1_1ObjectPoints" ]
+    ] ],
+    [ "MRObjectPointsHolder.h", "MRObjectPointsHolder_8h.html", [
+      [ "MR::PointsVisualizePropertyType", "structMR_1_1PointsVisualizePropertyType.html", "structMR_1_1PointsVisualizePropertyType" ],
+      [ "MR::ObjectPointsHolder", "classMR_1_1ObjectPointsHolder.html", "classMR_1_1ObjectPointsHolder" ]
     ] ],
     [ "MRObjectsAccess.h", "MRObjectsAccess_8h.html", "MRObjectsAccess_8h" ],
     [ "MRObjectVoxels.h", "MRObjectVoxels_8h.html", [

@@ -18,13 +18,14 @@ var searchData=
   ['_7eobjectmesh_15',['~ObjectMesh',['../classMR_1_1ObjectMesh.html#aff624379ff7a90cc2537f483a11dd30b',1,'MR::ObjectMesh']]],
   ['_7eobjectmeshholder_16',['~ObjectMeshHolder',['../classMR_1_1ObjectMeshHolder.html#a7b3f0ee10d087f1f0314005f3b45ca0a',1,'MR::ObjectMeshHolder']]],
   ['_7eobjectpoints_17',['~ObjectPoints',['../classMR_1_1ObjectPoints.html#a8d54c8a3353fe7bfbafc3ea5f8bb2659',1,'MR::ObjectPoints']]],
-  ['_7eobjectvoxels_18',['~ObjectVoxels',['../classMR_1_1ObjectVoxels.html#a205cdfb1f95b74b571b884147dc2581f',1,'MR::ObjectVoxels']]],
-  ['_7epdf_19',['~Pdf',['../classMR_1_1Pdf.html#a090b3c5ac231e1790093fa95d60fa1cf',1,'MR::Pdf']]],
-  ['_7eplaneobject_20',['~PlaneObject',['../classMR_1_1PlaneObject.html#abc253cbbeb95dcf700ae65c4efbe0e50',1,'MR::PlaneObject']]],
-  ['_7erestoringstreamssink_21',['~RestoringStreamsSink',['../classMR_1_1RestoringStreamsSink.html#a618c5f626a98c04e3f583577f1a0be03',1,'MR::RestoringStreamsSink']]],
-  ['_7esphereobject_22',['~SphereObject',['../classMR_1_1SphereObject.html#ab2ee14bb812387830dcb6426d4a63b1f',1,'MR::SphereObject']]],
-  ['_7etimer_23',['~Timer',['../classMR_1_1Timer.html#a566c11ef9ebd550e2fa3cc5d71166218',1,'MR::Timer']]],
-  ['_7euniquetemporaryfolder_24',['~UniqueTemporaryFolder',['../classMR_1_1UniqueTemporaryFolder.html#a175a2246818aaee34d1f1be05f2d3256',1,'MR::UniqueTemporaryFolder']]],
-  ['_7euniquethreadsafeowner_25',['~UniqueThreadSafeOwner',['../classMR_1_1UniqueThreadSafeOwner.html#a3d73291f1f47c3b4d4a33166f8d09a6a',1,'MR::UniqueThreadSafeOwner']]],
-  ['_7evisualobject_26',['~VisualObject',['../classMR_1_1VisualObject.html#a32d2019eae016848083a25a159b3b058',1,'MR::VisualObject']]]
+  ['_7eobjectpointsholder_18',['~ObjectPointsHolder',['../classMR_1_1ObjectPointsHolder.html#a838f4bd017fa64d22869ba8fedf75344',1,'MR::ObjectPointsHolder']]],
+  ['_7eobjectvoxels_19',['~ObjectVoxels',['../classMR_1_1ObjectVoxels.html#a205cdfb1f95b74b571b884147dc2581f',1,'MR::ObjectVoxels']]],
+  ['_7epdf_20',['~Pdf',['../classMR_1_1Pdf.html#a090b3c5ac231e1790093fa95d60fa1cf',1,'MR::Pdf']]],
+  ['_7eplaneobject_21',['~PlaneObject',['../classMR_1_1PlaneObject.html#abc253cbbeb95dcf700ae65c4efbe0e50',1,'MR::PlaneObject']]],
+  ['_7erestoringstreamssink_22',['~RestoringStreamsSink',['../classMR_1_1RestoringStreamsSink.html#a618c5f626a98c04e3f583577f1a0be03',1,'MR::RestoringStreamsSink']]],
+  ['_7esphereobject_23',['~SphereObject',['../classMR_1_1SphereObject.html#ab2ee14bb812387830dcb6426d4a63b1f',1,'MR::SphereObject']]],
+  ['_7etimer_24',['~Timer',['../classMR_1_1Timer.html#a566c11ef9ebd550e2fa3cc5d71166218',1,'MR::Timer']]],
+  ['_7euniquetemporaryfolder_25',['~UniqueTemporaryFolder',['../classMR_1_1UniqueTemporaryFolder.html#a175a2246818aaee34d1f1be05f2d3256',1,'MR::UniqueTemporaryFolder']]],
+  ['_7euniquethreadsafeowner_26',['~UniqueThreadSafeOwner',['../classMR_1_1UniqueThreadSafeOwner.html#a3d73291f1f47c3b4d4a33166f8d09a6a',1,'MR::UniqueThreadSafeOwner']]],
+  ['_7evisualobject_27',['~VisualObject',['../classMR_1_1VisualObject.html#a32d2019eae016848083a25a159b3b058',1,'MR::VisualObject']]]
 ];

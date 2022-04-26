@@ -11,6 +11,7 @@ var classMR_1_1AABBTree =
     [ "getNodesFromFaces", "classMR_1_1AABBTree.html#a73821036edd8a5a2f9ea4399b225f9d0", null ],
     [ "getSubtreeFaces", "classMR_1_1AABBTree.html#a17c38dc7b5620a352a4648fd8c18612e", null ],
     [ "getSubtrees", "classMR_1_1AABBTree.html#afad536a6dcb131bca201c0d5d385937b", null ],
+    [ "heapBytes", "classMR_1_1AABBTree.html#aade2800253ef88428cbf989ee073e2c5", null ],
     [ "nodes", "classMR_1_1AABBTree.html#a417b2def8f134a7f62981cc0ff5f33dc", null ],
     [ "operator=", "classMR_1_1AABBTree.html#a3d03064881df6e739bd9f815c909abe5", null ],
     [ "operator[]", "classMR_1_1AABBTree.html#a5898495ce47a17254d7287769559d81b", null ],

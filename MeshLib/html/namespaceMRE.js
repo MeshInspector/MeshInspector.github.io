@@ -15,6 +15,7 @@ var namespaceMRE =
     [ "OneMeshContour", "structMRE_1_1OneMeshContour.html", "structMRE_1_1OneMeshContour" ],
     [ "OneMeshIntersection", "structMRE_1_1OneMeshIntersection.html", "structMRE_1_1OneMeshIntersection" ],
     [ "ParallelPlaneFillMetric", "structMRE_1_1ParallelPlaneFillMetric.html", "structMRE_1_1ParallelPlaneFillMetric" ],
+    [ "RemeshSettings", "structMRE_1_1RemeshSettings.html", "structMRE_1_1RemeshSettings" ],
     [ "SortIntersectionsData", "structMRE_1_1SortIntersectionsData.html", "structMRE_1_1SortIntersectionsData" ],
     [ "TransformedMesh", "structMRE_1_1TransformedMesh.html", "structMRE_1_1TransformedMesh" ],
     [ "TriangulationParameters", "structMRE_1_1TriangulationParameters.html", "structMRE_1_1TriangulationParameters" ],
@@ -33,6 +34,10 @@ var namespaceMRE =
       [ "DifferenceBA", "group__BooleanGroup.html#ggacb4a2073036a155fa7f07f2fdc347007ad7e2d5557f4bc77c023a5c3fd8b52aae", null ],
       [ "DifferenceAB", "group__BooleanGroup.html#ggacb4a2073036a155fa7f07f2fdc347007a676747ace506f0a560e1d99f5da1ab2a", null ],
       [ "Count", "group__BooleanGroup.html#ggacb4a2073036a155fa7f07f2fdc347007ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
+    [ "DecimateStrategy", "namespaceMRE.html#a8c76431f5906608e28ce45ed93297e66", [
+      [ "MinimizeError", "namespaceMRE.html#a8c76431f5906608e28ce45ed93297e66afde7f90aeed454afbe5461841edf4c4e", null ],
+      [ "ShortestEdgeFirst", "namespaceMRE.html#a8c76431f5906608e28ce45ed93297e66a550fbe60c7eb2513d34b01a35d5cdb0f", null ]
     ] ],
     [ "boolean", "group__BooleanGroup.html#ga09e248fe156925a1560a8bd4a2179370", null ],
     [ "computeFormAtVertex", "group__DecimateGroup.html#ga090e98ab9275f5e5bc3eb8be1e846400", null ],
@@ -57,6 +62,7 @@ var namespaceMRE =
     [ "operator-=", "namespaceMRE.html#a7d015e60532fdf3652b46eb5d3eacef7", null ],
     [ "orderIntersectionContours", "namespaceMRE.html#a87c60fbd4d59c0efc37803a679cf38ae", null ],
     [ "partialOffsetMesh", "namespaceMRE.html#a91f7142ffa3c4fbaaf6fca4e46789664", null ],
+    [ "remesh", "namespaceMRE.html#a274b28b7a1ac883e562356a49e3d47e8", null ],
     [ "removeLoneContours", "namespaceMRE.html#ac17ef2b176ef194a9212d5bd501aba82", null ],
     [ "resolveMeshDegenerations", "group__DecimateGroup.html#ga77478eed983319b85718b5f833ce89e4", null ],
     [ "separateClosedContour", "namespaceMRE.html#a2fe4d952ab91ea64a3acf777a1f2f96d", null ],

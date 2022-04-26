@@ -20,6 +20,7 @@ var classMR_1_1ObjectVoxels =
     [ "getVoxelIdByCoordinate", "classMR_1_1ObjectVoxels.html#ac13b231e31f37fbd53d30d8a9aeb4e33", null ],
     [ "getVoxelIdByPoint", "classMR_1_1ObjectVoxels.html#a5b3ec655c032d761470ca3b9d7cf410e", null ],
     [ "grid", "classMR_1_1ObjectVoxels.html#a47bee6e3a0ea9a036e59d7857f8f43b4", null ],
+    [ "heapBytes", "classMR_1_1ObjectVoxels.html#a345d4438fb7808f95b3ca2dc9a1ad33b", null ],
     [ "histogram", "classMR_1_1ObjectVoxels.html#af4e1350561bc2e71d56741b954562868", null ],
     [ "operator=", "classMR_1_1ObjectVoxels.html#a2f2260ca64565ffbedc9236f28e19b98", null ],
     [ "serializeFields_", "classMR_1_1ObjectVoxels.html#a1b9e402abcba964cf107ae761006fdb3", null ],

@@ -111,8 +111,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a28846bc1f86b18053ff605bd9cdffc26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3b1015ea089d93658ff4783c2282c8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ada98ebf3fec74759dd46700389a3e556">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#ac3b1015ea089d93658ff4783c2282c8e">computeBoundingBox</a> (const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *toWorld=nullptr) const</td></tr>
 <tr class="separator:ac3b1015ea089d93658ff4783c2282c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6950a1538eb4974ba77f2e478f8e328"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#aa6950a1538eb4974ba77f2e478f8e328">addPartByMask</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;from, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;fromVerts, <a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> *oldToNewMap=nullptr)</td></tr>
+<tr class="separator:aa6950a1538eb4974ba77f2e478f8e328"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7c257206a284f22b8e2484b87436069"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#ab7c257206a284f22b8e2484b87436069">invalidateCaches</a> ()</td></tr>
 <tr class="separator:ab7c257206a284f22b8e2484b87436069"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25842b53d739f9841d97e66dd8221d59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#a25842b53d739f9841d97e66dd8221d59">heapBytes</a> () const</td></tr>
+<tr class="separator:a25842b53d739f9841d97e66dd8221d59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -124,6 +128,41 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a99cd2bd3f8fa8482032603f382ab9a03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa6950a1538eb4974ba77f2e478f8e328" name="aa6950a1538eb4974ba77f2e478f8e328"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6950a1538eb4974ba77f2e478f8e328">&#9670;&nbsp;</a></span>addPartByMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::PointCloud::addPartByMask </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;&#160;</td>
+          <td class="paramname"><em>from</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>fromVerts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> *&#160;</td>
+          <td class="paramname"><em>oldToNewMap</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >appends points (and normals if it possible) (from) in addition to this points if this obj have normals and from obj has not it then don't do anything </p>
+
+</div>
+</div>
 <a id="ac3b1015ea089d93658ff4783c2282c8e" name="ac3b1015ea089d93658ff4783c2282c8e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac3b1015ea089d93658ff4783c2282c8e">&#9670;&nbsp;</a></span>computeBoundingBox()</h2>
 
@@ -167,6 +206,23 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ada98ebf3fec74759dd46700389a3e556">Box3f</a> MR::PointCloud::getBoundingBox </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a25842b53d739f9841d97e66dd8221d59" name="a25842b53d739f9841d97e66dd8221d59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25842b53d739f9841d97e66dd8221d59">&#9670;&nbsp;</a></span>heapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t MR::PointCloud::heapBytes </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>

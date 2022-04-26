@@ -4,5 +4,5 @@ var searchData=
   ['warp_1',['warp',['../structMR_1_1MeshTexture.html#a3a8eb424031f0ac05e897d983fa827fc',1,'MR::MeshTexture']]],
   ['weight_2',['weight',['../structMR_1_1VertPair.html#a6be4702849ae600ea471ab410b2190f8',1,'MR::VertPair']]],
   ['withsign_3',['withSign',['../structMR_1_1ContourToDistanceMapParams.html#afe6ef70a540df80fca43fb338ca681ce',1,'MR::ContourToDistanceMapParams']]],
-  ['worldbox_5f_4',['worldBox_',['../classMR_1_1ObjectLinesHolder.html#ab981ff2c440ecf1af75a6afb682219ab',1,'MR::ObjectLinesHolder::worldBox_()'],['../classMR_1_1ObjectMeshHolder.html#a5c528b52891a63f20ed7dbc0728f5e65',1,'MR::ObjectMeshHolder::worldBox_()']]]
+  ['worldbox_5f_4',['worldBox_',['../classMR_1_1ObjectLinesHolder.html#ab981ff2c440ecf1af75a6afb682219ab',1,'MR::ObjectLinesHolder::worldBox_()'],['../classMR_1_1ObjectMeshHolder.html#a5c528b52891a63f20ed7dbc0728f5e65',1,'MR::ObjectMeshHolder::worldBox_()'],['../classMR_1_1ObjectPointsHolder.html#acab8755592e3b28cdcecbcf452c921e5',1,'MR::ObjectPointsHolder::worldBox_()']]]
 ];

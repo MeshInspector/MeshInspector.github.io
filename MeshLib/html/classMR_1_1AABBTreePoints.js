@@ -7,6 +7,7 @@ var classMR_1_1AABBTreePoints =
     [ "AABBTreePoints", "classMR_1_1AABBTreePoints.html#afe5c12db028de0c7152524376a92c38b", null ],
     [ "AABBTreePoints", "classMR_1_1AABBTreePoints.html#a65f478734833e01a7796565862c32038", null ],
     [ "getBoundingBox", "classMR_1_1AABBTreePoints.html#a9326f1fdd5cacabcf51e5eb51f56e53e", null ],
+    [ "heapBytes", "classMR_1_1AABBTreePoints.html#a1a8a3bec838147878ea5d896d024d881", null ],
     [ "nodes", "classMR_1_1AABBTreePoints.html#a6f80276e2b9c2f30d60c17bf896f6137", null ],
     [ "operator=", "classMR_1_1AABBTreePoints.html#a0f0edac8d95fa30b01aeb66950911da9", null ],
     [ "operator[]", "classMR_1_1AABBTreePoints.html#a067a3df7f5d829eb589583ac6cd370b4", null ],

@@ -43,8 +43,8 @@ var hierarchy =
       [ "MR::BitSet", "classMR_1_1BitSet.html", [
         [ "MR::TaggedBitSet< UndirectedEdgeTag >", "classMR_1_1TaggedBitSet.html", null ],
         [ "MR::TaggedBitSet< FaceTag >", "classMR_1_1TaggedBitSet.html", null ],
-        [ "MR::TaggedBitSet< Tag >", "classMR_1_1TaggedBitSet.html", null ],
         [ "MR::TaggedBitSet< VertTag >", "classMR_1_1TaggedBitSet.html", null ],
+        [ "MR::TaggedBitSet< Tag >", "classMR_1_1TaggedBitSet.html", null ],
         [ "MR::TaggedBitSet< T >", "classMR_1_1TaggedBitSet.html", null ]
       ] ]
     ] ],
@@ -78,16 +78,18 @@ var hierarchy =
     [ "MR::Heap< T, I, P >", "classMR_1_1Heap.html", null ],
     [ "MR::Histogram", "classMR_1_1Histogram.html", null ],
     [ "MR::HistoryAction", "classMR_1_1HistoryAction.html", [
-      [ "MR::ChangeCreasesAction", "classMR_1_1ChangeCreasesAction.html", null ],
-      [ "MR::ChangeEdgeSelectionAction", "classMR_1_1ChangeEdgeSelectionAction.html", null ],
       [ "MR::ChangeMeshAction", "classMR_1_1ChangeMeshAction.html", null ],
+      [ "MR::ChangeMeshCreasesAction", "classMR_1_1ChangeMeshCreasesAction.html", null ],
+      [ "MR::ChangeMeshEdgeSelectionAction", "classMR_1_1ChangeMeshEdgeSelectionAction.html", null ],
+      [ "MR::ChangeMeshFaceSelectionAction", "classMR_1_1ChangeMeshFaceSelectionAction.html", null ],
       [ "MR::ChangeMeshPointsAction", "classMR_1_1ChangeMeshPointsAction.html", null ],
       [ "MR::ChangeMeshTopologyAction", "classMR_1_1ChangeMeshTopologyAction.html", null ],
       [ "MR::ChangeNameAction", "classMR_1_1ChangeNameAction.html", null ],
       [ "MR::ChangeObjectAction", "classMR_1_1ChangeObjectAction.html", null ],
+      [ "MR::ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html", null ],
+      [ "MR::ChangePointPointSelectionAction", "classMR_1_1ChangePointPointSelectionAction.html", null ],
       [ "MR::ChangeSceneAction", "classMR_1_1ChangeSceneAction.html", null ],
       [ "MR::ChangeSceneObjectsOrder", "classMR_1_1ChangeSceneObjectsOrder.html", null ],
-      [ "MR::ChangeSelectionAction", "classMR_1_1ChangeSelectionAction.html", null ],
       [ "MR::ChangeXfAction", "classMR_1_1ChangeXfAction.html", null ],
       [ "MR::CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html", null ]
     ] ],
@@ -166,7 +168,9 @@ var hierarchy =
             [ "MR::PlaneObject", "classMR_1_1PlaneObject.html", null ],
             [ "MR::SphereObject", "classMR_1_1SphereObject.html", null ]
           ] ],
-          [ "MR::ObjectPoints", "classMR_1_1ObjectPoints.html", null ]
+          [ "MR::ObjectPointsHolder", "classMR_1_1ObjectPointsHolder.html", [
+            [ "MR::ObjectPoints", "classMR_1_1ObjectPoints.html", null ]
+          ] ]
         ] ]
       ] ]
     ] ],
@@ -222,6 +226,7 @@ var hierarchy =
         [ "MR::PointCloudApproxRelaxParams", "structMR_1_1PointCloudApproxRelaxParams.html", null ]
       ] ]
     ] ],
+    [ "MRE::RemeshSettings", "structMRE_1_1RemeshSettings.html", null ],
     [ "MR::SceneColors", "structMR_1_1SceneColors.html", null ],
     [ "MR::SceneRoot", "classMR_1_1SceneRoot.html", null ],
     [ "MR::SceneSettings", "classMR_1_1SceneSettings.html", null ],
@@ -298,7 +303,8 @@ var hierarchy =
     [ "MR::ViewportMask", "classMR_1_1ViewportMask.html", null ],
     [ "MR::VisualizeMaskType", "structMR_1_1VisualizeMaskType.html", [
       [ "MR::LinesVisualizePropertyType", "structMR_1_1LinesVisualizePropertyType.html", null ],
-      [ "MR::MeshVisualizePropertyType", "structMR_1_1MeshVisualizePropertyType.html", null ]
+      [ "MR::MeshVisualizePropertyType", "structMR_1_1MeshVisualizePropertyType.html", null ],
+      [ "MR::PointsVisualizePropertyType", "structMR_1_1PointsVisualizePropertyType.html", null ]
     ] ],
     [ "MR::VolumeIndexer", "classMR_1_1VolumeIndexer.html", null ],
     [ "MR::VolumeSegmentationParameters", "structMR_1_1VolumeSegmentationParameters.html", null ],

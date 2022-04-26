@@ -33,6 +33,7 @@ var classMR_1_1ObjectMeshHolder =
     [ "getSelectedFacesColor", "classMR_1_1ObjectMeshHolder.html#ac5d1270d9720639174e70a7245dc8416", null ],
     [ "getVisualizePropertyMask", "classMR_1_1ObjectMeshHolder.html#ac0f13f89df19885b41e35136217f58b8", null ],
     [ "getWorldBox", "classMR_1_1ObjectMeshHolder.html#a00bbd9955813e695a4cf783c075e7398", null ],
+    [ "heapBytes", "classMR_1_1ObjectMeshHolder.html#a5e7e533cdcddd1d2a4fbf5fba6b9d607", null ],
     [ "isMeshClosed", "classMR_1_1ObjectMeshHolder.html#adc32b4c9b303a885eadfbde1f3b7eeb0", null ],
     [ "mesh", "classMR_1_1ObjectMeshHolder.html#af6739310dc9f9e21c461819ea47dc086", null ],
     [ "numCreaseEdges", "classMR_1_1ObjectMeshHolder.html#a65d1cacc3a9399d6727312a92af6dd6d", null ],

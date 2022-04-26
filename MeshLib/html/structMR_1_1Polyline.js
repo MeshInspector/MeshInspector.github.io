@@ -15,6 +15,7 @@ var structMR_1_1Polyline =
     [ "edgeVector", "structMR_1_1Polyline.html#ab9e9cb920eced56be83119d6d268691f", null ],
     [ "getAABBTree", "structMR_1_1Polyline.html#addf7be82ffec83205ba7adcd66001c5b", null ],
     [ "getBoundingBox", "structMR_1_1Polyline.html#a3dcacffc0e913721847e9e77ca00dc4b", null ],
+    [ "heapBytes", "structMR_1_1Polyline.html#adb4149d3e094b89744f9831dac1103dd", null ],
     [ "invalidateCaches", "structMR_1_1Polyline.html#a31c2d8e3b6a9e6729084fbb4221d8d57", null ],
     [ "makePolyline", "structMR_1_1Polyline.html#ab7f481ac3a43a7702eaab7d4dbe1274b", null ],
     [ "makePolyline", "structMR_1_1Polyline.html#aa9ff852d8ee1c3278656a751a2f783e6", null ],

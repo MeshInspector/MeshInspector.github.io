@@ -49,6 +49,7 @@ var classMR_1_1MeshTopology =
     [ "hasEdge", "classMR_1_1MeshTopology.html#ad9e70ac7c77ef21e21af1c1565ef338b", null ],
     [ "hasFace", "classMR_1_1MeshTopology.html#a574527159466523496e62ae160aa9d02", null ],
     [ "hasVert", "classMR_1_1MeshTopology.html#a326f13c710a4c0ebf09201838f65c4e9", null ],
+    [ "heapBytes", "classMR_1_1MeshTopology.html#a4ef44e4f7fa459fc2c3ae923db1cdf2c", null ],
     [ "isBdEdge", "classMR_1_1MeshTopology.html#a3153a23344cee0bb2abae5328361f9e9", null ],
     [ "isBdVertex", "classMR_1_1MeshTopology.html#ae366073a1bcb50b567a89f69a755913d", null ],
     [ "isBdVertexInOrg", "classMR_1_1MeshTopology.html#ae4619557230f1c2141ac2e06274d3ba3", null ],

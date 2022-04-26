@@ -16,7 +16,7 @@ var searchData=
   ['plusx_13',['plusX',['../structMR_1_1Vector2.html#aa539f9e8253f087d0cd5f38388000a28',1,'MR::Vector2::plusX()'],['../structMR_1_1Vector3.html#a048dcca2da540bf2d429cbca37e41092',1,'MR::Vector3::plusX()']]],
   ['plusy_14',['plusY',['../structMR_1_1Vector2.html#a15b1c265bfbd5b70193e766a274ca1d5',1,'MR::Vector2::plusY()'],['../structMR_1_1Vector3.html#aedf66abcd7c315536ba2e512839885d0',1,'MR::Vector3::plusY() noexcept']]],
   ['plusz_15',['plusZ',['../structMR_1_1Vector3.html#aba68004d56f0100e523093390f939910',1,'MR::Vector3']]],
-  ['pointcloud_16',['pointCloud',['../classMR_1_1ObjectPoints.html#a77bed413e7d6249b41e959368fda1a5e',1,'MR::ObjectPoints']]],
+  ['pointcloud_16',['pointCloud',['../classMR_1_1ObjectPointsHolder.html#a1e4577ab2bb24e7600c98bc550668b06',1,'MR::ObjectPointsHolder']]],
   ['pointgridsampling_17',['pointGridSampling',['../namespaceMR.html#a0d650519d00d9732a3624486cac05ae3',1,'MR']]],
   ['pointsfromeigen_18',['pointsFromEigen',['../namespaceMR.html#a62bfd766666c0d5eeb73faa3bee1735d',1,'MR']]],
   ['pointtoplanealigningtransform_19',['PointToPlaneAligningTransform',['../classMR_1_1PointToPlaneAligningTransform.html#aba9e32cb32cd10ced838966b040794bf',1,'MR::PointToPlaneAligningTransform']]],

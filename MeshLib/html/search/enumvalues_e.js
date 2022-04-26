@@ -9,12 +9,14 @@ var searchData=
   ['selectedobjectmesh_6',['SelectedObjectMesh',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa17965fcffe887a1ca6981a1818d44f6f',1,'MR::SceneColors']]],
   ['selectedobjectpoints_7',['SelectedObjectPoints',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa9f119aa11d1fc9a1e5ed2047fbe7da9c',1,'MR::SceneColors']]],
   ['selectedobjectvoxels_8',['SelectedObjectVoxels',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa02ea243d26ba88b944774b0dd860cca9',1,'MR::SceneColors']]],
-  ['shell_9',['Shell',['../structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178aea89b68c34ce4a63c0f77e17413c6e30',1,'MR::ContoursDistanceMapOffset']]],
-  ['simple_10',['Simple',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a1fbb1e3943c2c6c560247ac8f9289780',1,'MR::FillHoleParams']]],
-  ['smooth_11',['Smooth',['../structMR_1_1LinesVisualizePropertyType.html#aab5df7db454ff09605f0b0252d48d0e2a92edd5447d991ddb22f08259adacfa1c',1,'MR::LinesVisualizePropertyType']]],
-  ['solidcolor_12',['SolidColor',['../namespaceMR.html#a270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854',1,'MR']]],
-  ['startendnotconnected_13',['StartEndNotConnected',['../namespaceMR.html#af2c93aa0da8a9748d23340f32349a8b8aad309ea76f6bf055e7b62a3dd200631f',1,'MR']]],
-  ['stderr_14',['Stderr',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af',1,'MRPython.h']]],
-  ['stdout_15',['Stdout',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101',1,'MRPython.h']]],
-  ['strong_16',['Strong',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9',1,'MR::FillHoleParams']]]
+  ['selectedvertices_9',['SelectedVertices',['../structMR_1_1PointsVisualizePropertyType.html#af868fa83ffd7b3432b83e45dad431efea77dc38e401313dd2bc528244534b38a9',1,'MR::PointsVisualizePropertyType']]],
+  ['shell_10',['Shell',['../structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178aea89b68c34ce4a63c0f77e17413c6e30',1,'MR::ContoursDistanceMapOffset']]],
+  ['shortestedgefirst_11',['ShortestEdgeFirst',['../namespaceMRE.html#a8c76431f5906608e28ce45ed93297e66a550fbe60c7eb2513d34b01a35d5cdb0f',1,'MRE']]],
+  ['simple_12',['Simple',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a1fbb1e3943c2c6c560247ac8f9289780',1,'MR::FillHoleParams']]],
+  ['smooth_13',['Smooth',['../structMR_1_1LinesVisualizePropertyType.html#aab5df7db454ff09605f0b0252d48d0e2a92edd5447d991ddb22f08259adacfa1c',1,'MR::LinesVisualizePropertyType']]],
+  ['solidcolor_14',['SolidColor',['../namespaceMR.html#a270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854',1,'MR']]],
+  ['startendnotconnected_15',['StartEndNotConnected',['../namespaceMR.html#af2c93aa0da8a9748d23340f32349a8b8aad309ea76f6bf055e7b62a3dd200631f',1,'MR']]],
+  ['stderr_16',['Stderr',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af',1,'MRPython.h']]],
+  ['stdout_17',['Stdout',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101',1,'MRPython.h']]],
+  ['strong_18',['Strong',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9',1,'MR::FillHoleParams']]]
 ];

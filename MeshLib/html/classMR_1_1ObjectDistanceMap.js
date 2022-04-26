@@ -12,6 +12,7 @@ var classMR_1_1ObjectDistanceMap =
     [ "getDistanceMap", "classMR_1_1ObjectDistanceMap.html#a463f875d9e091e1359c64df6d98d058d", null ],
     [ "getInfoLines", "classMR_1_1ObjectDistanceMap.html#a769f47ff3df3a3e6aff07639c62a4f50", null ],
     [ "getToWorldParameters", "classMR_1_1ObjectDistanceMap.html#a8fda531bb1a4521289117561385875e2", null ],
+    [ "heapBytes", "classMR_1_1ObjectDistanceMap.html#a9788925d8f072383a35145d4b13cbb92", null ],
     [ "operator=", "classMR_1_1ObjectDistanceMap.html#adf86e3267eaf731978a882003b39b9b6", null ],
     [ "serializeFields_", "classMR_1_1ObjectDistanceMap.html#a1d68e848504ae3e593e550c51d0b1ddb", null ],
     [ "serializeModel_", "classMR_1_1ObjectDistanceMap.html#a53924624667d92ffc839b8f9ee30a075", null ],

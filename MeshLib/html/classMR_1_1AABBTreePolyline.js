@@ -8,6 +8,7 @@ var classMR_1_1AABBTreePolyline =
     [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html#a0da0a8d855b1e2981083b1e681398a8b", null ],
     [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html#aaf1c13f7909dc226ed6e0a332e61ba4c", null ],
     [ "getBoundingBox", "classMR_1_1AABBTreePolyline.html#a7f8a4d54141ef1646577deda4e8a1e16", null ],
+    [ "heapBytes", "classMR_1_1AABBTreePolyline.html#aacdd30033d496c586d4985ee6c2ab4f8", null ],
     [ "nodes", "classMR_1_1AABBTreePolyline.html#a4dc8ecf3b678123defb81c16f21687bb", null ],
     [ "operator=", "classMR_1_1AABBTreePolyline.html#a82f5feeca891be31840c7bba4a85cb1a", null ],
     [ "operator[]", "classMR_1_1AABBTreePolyline.html#aa157a7603fc51ecd20d4aaf5f14ad957", null ],

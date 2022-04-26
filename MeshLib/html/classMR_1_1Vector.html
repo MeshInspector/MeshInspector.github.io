@@ -157,9 +157,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afc885715482436dc55e4e61a60ef05dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06fae7c424bf43fc3c4cbbf624496400"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Vector.html#a06fae7c424bf43fc3c4cbbf624496400">pop_back</a> ()</td></tr>
 <tr class="separator:a06fae7c424bf43fc3c4cbbf624496400"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a973277e102f9a6138fb2881f0bc5110c"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
-<tr class="memitem:a973277e102f9a6138fb2881f0bc5110c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMR_1_1Vector.html#a973277e102f9a6138fb2881f0bc5110c">emplace_back</a> (Args &amp;&amp;... args)</td></tr>
-<tr class="separator:a973277e102f9a6138fb2881f0bc5110c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16aee2ac4714e592dc7b10ecdde0dc11"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:a16aee2ac4714e592dc7b10ecdde0dc11"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMR_1_1Vector.html#a16aee2ac4714e592dc7b10ecdde0dc11">emplace_back</a> (Args &amp;&amp;... args)</td></tr>
+<tr class="separator:a16aee2ac4714e592dc7b10ecdde0dc11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6959f781909eba002ffffbc6fe37c1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html#aaa0ee5d98cd26c7e6232195bcda2b459">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Vector.html#af6959f781909eba002ffffbc6fe37c1f">front</a> () const</td></tr>
 <tr class="separator:af6959f781909eba002ffffbc6fe37c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19509cb3f6dbf95c9f90c51a0b1c5a3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Vector.html#a19509cb3f6dbf95c9f90c51a0b1c5a3c">front</a> ()</td></tr>
@@ -178,6 +178,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7719d06597d7ec89809c668471760863"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae03333f72ab69a79829ae5f0d6d426ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Vector.html#ae03333f72ab69a79829ae5f0d6d426ef">swap</a> (<a class="el" href="classMR_1_1Vector.html">Vector</a> &amp;b)</td></tr>
 <tr class="separator:ae03333f72ab69a79829ae5f0d6d426ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8adb58b328ca5465266d3859a7bc1d72"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Vector.html#a8adb58b328ca5465266d3859a7bc1d72">heapBytes</a> () const</td></tr>
+<tr class="separator:a8adb58b328ca5465266d3859a7bc1d72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -589,8 +591,8 @@ template&lt;typename T , typename I &gt; </div>
 
 </div>
 </div>
-<a id="a973277e102f9a6138fb2881f0bc5110c" name="a973277e102f9a6138fb2881f0bc5110c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a973277e102f9a6138fb2881f0bc5110c">&#9670;&nbsp;</a></span>emplace_back()</h2>
+<a id="a16aee2ac4714e592dc7b10ecdde0dc11" name="a16aee2ac4714e592dc7b10ecdde0dc11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16aee2ac4714e592dc7b10ecdde0dc11">&#9670;&nbsp;</a></span>emplace_back()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -603,7 +605,7 @@ template&lt;typename... Args&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, I &gt;::emplace_back </td>
+          <td class="memname">auto <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, I &gt;::emplace_back </td>
           <td>(</td>
           <td class="paramtype">Args &amp;&amp;...&#160;</td>
           <td class="paramname"><em>args</em></td><td>)</td>
@@ -713,6 +715,33 @@ template&lt;typename T , typename I &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classMR_1_1Vector.html#aaa0ee5d98cd26c7e6232195bcda2b459">const_reference</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, I &gt;::front </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8adb58b328ca5465266d3859a7bc1d72" name="a8adb58b328ca5465266d3859a7bc1d72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8adb58b328ca5465266d3859a7bc1d72">&#9670;&nbsp;</a></span>heapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename I &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, I &gt;::heapBytes </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>

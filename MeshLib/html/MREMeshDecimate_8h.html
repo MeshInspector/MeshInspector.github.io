@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('MREMeshDecimate_8h.html',''); initResi
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MREMeshDecimate.h File Reference</div></div>
 </div><!--header-->
@@ -115,11 +116,21 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateResult.html">MRE::DecimateResult</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Results of <a class="el" href="group__DecimateGroup.html#ga9f4ed5382008a7fff13610607c6c5719" title="Collapse edges in mesh region according to the settings.">MRE::decimateMesh</a>.  <a href="structMRE_1_1DecimateResult.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1RemeshSettings.html">MRE::RemeshSettings</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceMRE"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html">MRE</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a8c76431f5906608e28ce45ed93297e66"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a8c76431f5906608e28ce45ed93297e66">MRE::DecimateStrategy</a> { <a class="el" href="namespaceMRE.html#a8c76431f5906608e28ce45ed93297e66afde7f90aeed454afbe5461841edf4c4e">MRE::MinimizeError</a>
+, <a class="el" href="namespaceMRE.html#a8c76431f5906608e28ce45ed93297e66a550fbe60c7eb2513d34b01a35d5cdb0f">MRE::ShortestEdgeFirst</a>
+ }</td></tr>
+<tr class="memdesc:a8c76431f5906608e28ce45ed93297e66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the order of edge collapses inside Decimate algorithm.  <a href="namespaceMRE.html#a8c76431f5906608e28ce45ed93297e66">More...</a><br /></td></tr>
+<tr class="separator:a8c76431f5906608e28ce45ed93297e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -132,6 +143,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga77478eed983319b85718b5f833ce89e4"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga77478eed983319b85718b5f833ce89e4">MRE::resolveMeshDegenerations</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, int maxIters=1, float maxDeviation=0)</td></tr>
 <tr class="memdesc:ga77478eed983319b85718b5f833ce89e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves degenerate triangles in given mesh.  <a href="group__DecimateGroup.html#ga77478eed983319b85718b5f833ce89e4">More...</a><br /></td></tr>
 <tr class="separator:ga77478eed983319b85718b5f833ce89e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a274b28b7a1ac883e562356a49e3d47e8"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a274b28b7a1ac883e562356a49e3d47e8">MRE::remesh</a> (<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const RemeshSettings &amp;settings)</td></tr>
+<tr class="separator:a274b28b7a1ac883e562356a49e3d47e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

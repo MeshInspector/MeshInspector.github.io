@@ -1,4 +1,4 @@
 var MRString_8h =
 [
-    [ "findSubstring", "MRString_8h.html#a770e5511458149184a707d809b735cca", null ]
+    [ "findSubstringCaseInsensitive", "MRString_8h.html#a245584b85505ab9157d346bb3d8caf53", null ]
 ];

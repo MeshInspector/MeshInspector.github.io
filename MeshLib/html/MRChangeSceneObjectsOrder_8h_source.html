@@ -97,10 +97,10 @@ $(document).ready(function(){initNavTree('MRChangeSceneObjectsOrder_8h_source.ht
 </div><!--header-->
 <div class="contents">
 <a href="MRChangeSceneObjectsOrder_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRHistoryAction_8h.html">MRHistoryAction.h</a>&quot;</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRObject_8h.html">MRObject.h</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">//#include &lt;memory&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRHistoryAction_8h.html">MRHistoryAction.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRObject_8h.html">MRObject.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRHeapBytes_8h.html">MRHeapBytes.h</a>&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
@@ -138,13 +138,20 @@ $(document).ready(function(){initNavTree('MRChangeSceneObjectsOrder_8h_source.ht
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        childrenOrder_ = std::move( oldOrder );</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    };</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    std::vector&lt;std::shared_ptr&lt;Object&gt;&gt; childrenOrder_;</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    std::shared_ptr&lt;Object&gt; obj_;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    std::string name_;</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>};</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeSceneObjectsOrder.html#ae5412f501f79caacfb257cd392119c50">   43</a></span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="classMR_1_1ChangeSceneObjectsOrder.html#ae5412f501f79caacfb257cd392119c50">heapBytes</a>()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="namespaceMR.html#a2442ef2afa7012af6ca21ebcb6604536">MR::heapBytes</a>( childrenOrder_ )</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            + name_.capacity();</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    }</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>}</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    std::vector&lt;std::shared_ptr&lt;Object&gt;&gt; childrenOrder_;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    std::shared_ptr&lt;Object&gt; obj_;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    std::string name_;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>};</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>}</div>
+<div class="ttc" id="aMRHeapBytes_8h_html"><div class="ttname"><a href="MRHeapBytes_8h.html">MRHeapBytes.h</a></div></div>
 <div class="ttc" id="aMRHistoryAction_8h_html"><div class="ttname"><a href="MRHistoryAction_8h.html">MRHistoryAction.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a45ed33a118705bfd4aac6d294495276a"><div class="ttname"><a href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a></div><div class="ttdeci">#define MRMESH_CLASS</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:16</div></div>
 <div class="ttc" id="aMRObject_8h_html"><div class="ttname"><a href="MRObject_8h.html">MRObject.h</a></div></div>
@@ -152,9 +159,11 @@ $(document).ready(function(){initNavTree('MRChangeSceneObjectsOrder_8h_source.ht
 <div class="ttc" id="aclassMR_1_1ChangeSceneObjectsOrder_html_a48cb146f899e3b77bed59f4bd1073e11"><div class="ttname"><a href="classMR_1_1ChangeSceneObjectsOrder.html#a48cb146f899e3b77bed59f4bd1073e11">MR::ChangeSceneObjectsOrder::action</a></div><div class="ttdeci">virtual void action(HistoryAction::Type) override</div><div class="ttdef"><b>Definition:</b> MRChangeSceneObjectsOrder.h:24</div></div>
 <div class="ttc" id="aclassMR_1_1ChangeSceneObjectsOrder_html_ac98e7e6f6de1cbc791db5f23b6409542"><div class="ttname"><a href="classMR_1_1ChangeSceneObjectsOrder.html#ac98e7e6f6de1cbc791db5f23b6409542">MR::ChangeSceneObjectsOrder::ChangeSceneObjectsOrder</a></div><div class="ttdeci">ChangeSceneObjectsOrder(const std::string &amp;name, const std::shared_ptr&lt; Object &gt; &amp;obj)</div><div class="ttdef"><b>Definition:</b> MRChangeSceneObjectsOrder.h:14</div></div>
 <div class="ttc" id="aclassMR_1_1ChangeSceneObjectsOrder_html_ad692afbfc325fae56914094bc8b1f71d"><div class="ttname"><a href="classMR_1_1ChangeSceneObjectsOrder.html#ad692afbfc325fae56914094bc8b1f71d">MR::ChangeSceneObjectsOrder::name</a></div><div class="ttdeci">virtual std::string name() const override</div><div class="ttdef"><b>Definition:</b> MRChangeSceneObjectsOrder.h:22</div></div>
+<div class="ttc" id="aclassMR_1_1ChangeSceneObjectsOrder_html_ae5412f501f79caacfb257cd392119c50"><div class="ttname"><a href="classMR_1_1ChangeSceneObjectsOrder.html#ae5412f501f79caacfb257cd392119c50">MR::ChangeSceneObjectsOrder::heapBytes</a></div><div class="ttdeci">virtual size_t heapBytes() const override</div><div class="ttdef"><b>Definition:</b> MRChangeSceneObjectsOrder.h:43</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryAction_html"><div class="ttname"><a href="classMR_1_1HistoryAction.html">MR::HistoryAction</a></div><div class="ttdef"><b>Definition:</b> MRHistoryAction.h:10</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryAction_html_ac16eb31dd26d35cfc18bac8a05983aa7"><div class="ttname"><a href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">MR::HistoryAction::Type</a></div><div class="ttdeci">Type</div><div class="ttdef"><b>Definition:</b> MRHistoryAction.h:17</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MR2DContoursTriangulation.h:6</div></div>
+<div class="ttc" id="anamespaceMR_html_a2442ef2afa7012af6ca21ebcb6604536"><div class="ttname"><a href="namespaceMR.html#a2442ef2afa7012af6ca21ebcb6604536">MR::heapBytes</a></div><div class="ttdeci">size_t heapBytes(const std::vector&lt; T &gt; &amp;vec)</div><div class="ttdef"><b>Definition:</b> MRHeapBytes.h:12</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
