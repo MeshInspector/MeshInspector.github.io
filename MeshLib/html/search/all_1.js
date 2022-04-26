@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['b_0',['b',['../structMR_1_1MeshDistanceResult.html#a70f797f8444d6eb6f1c80155729379ef',1,'MR::MeshDistanceResult::b()'],['../structMR_1_1Quaternion.html#a9c92b4bc72a2fd317f159c70c50e441c',1,'MR::Quaternion::b()'],['../structMR_1_1TriPoint.html#a7ad9a3fd75d2c4414e75599a4eb0d497',1,'MR::TriPoint::b()']]],
+  ['b_0',['b',['../structMR_1_1LineSegm.html#afcb4423f5becc13fff968c531455f4e8',1,'MR::LineSegm::b()'],['../structMR_1_1MeshSignedDistanceResult.html#abe0b16c30aa4025bbe11104b5f6873b4',1,'MR::MeshSignedDistanceResult::b()'],['../structMR_1_1Quaternion.html#a9c92b4bc72a2fd317f159c70c50e441c',1,'MR::Quaternion::b()'],['../structMR_1_1TriPoint.html#a7ad9a3fd75d2c4414e75599a4eb0d497',1,'MR::TriPoint::b()'],['../structMR_1_1Color.html#ad69a83b856320cef2a9d1f2ef968dbfd',1,'MR::Color::b()']]],
   ['b_1',['B',['../structMRE_1_1BooleanResultMapper.html#a156268722390804f6626c9523ed91bf4a9d5ed678fe57bcca610140957afab571',1,'MRE::BooleanResultMapper']]],
-  ['b_2',['b',['../structMR_1_1LineSegm.html#afcb4423f5becc13fff968c531455f4e8',1,'MR::LineSegm::b()'],['../structMR_1_1AffineXf.html#abc589d85e328480de8c5972558bd7b3c',1,'MR::AffineXf::b()'],['../structMR_1_1Color.html#ad69a83b856320cef2a9d1f2ef968dbfd',1,'MR::Color::b()'],['../structMR_1_1MeshSignedDistanceResult.html#abe0b16c30aa4025bbe11104b5f6873b4',1,'MR::MeshSignedDistanceResult::b()']]],
+  ['b_2',['b',['../structMR_1_1AffineXf.html#abc589d85e328480de8c5972558bd7b3c',1,'MR::AffineXf::b()'],['../structMR_1_1MeshDistanceResult.html#a70f797f8444d6eb6f1c80155729379ef',1,'MR::MeshDistanceResult::b()']]],
   ['back_3',['back',['../classMR_1_1Vector.html#afe49f6b723cf6b2b08dfe4d50ddd1c53',1,'MR::Vector::back() const'],['../classMR_1_1Vector.html#aa4bcfcbca3642d15aa0cdec1055c4472',1,'MR::Vector::back()']]],
   ['backfaces_4',['BackFaces',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa9a1cde7d2aa80a2631f4925686757e53',1,'MR::SceneColors']]],
   ['backfacescolor_5f_5',['backFacesColor_',['../classMR_1_1VisualObject.html#af368bfd4234c8ae032620eb08e7a593b',1,'MR::VisualObject']]],

@@ -1,8 +1,8 @@
 var searchData=
 [
   ['f_0',['f',['../structMR_1_1MeshBuilder_1_1Triangle.html#ae1a5aa6c5e37175f3bebd45ab1014e5b',1,'MR::MeshBuilder::Triangle']]],
-  ['face_1',['face',['../structMR_1_1MeshBuilder_1_1FaceRecord.html#a654472da903d19397efd53ad4c56b6ed',1,'MR::MeshBuilder::FaceRecord::face()'],['../structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53',1,'MR::PointOnFace::face()']]],
-  ['face_2',['Face',['../structMRE_1_1OneMeshIntersection.html#a08a10cf00795b944d042652aee847a6ca8b5a908d56e6e9a46ad2d629272bc050',1,'MRE::OneMeshIntersection']]],
+  ['face_1',['Face',['../structMRE_1_1OneMeshIntersection.html#a08a10cf00795b944d042652aee847a6ca8b5a908d56e6e9a46ad2d629272bc050',1,'MRE::OneMeshIntersection']]],
+  ['face_2',['face',['../structMR_1_1MeshBuilder_1_1FaceRecord.html#a654472da903d19397efd53ad4c56b6ed',1,'MR::MeshBuilder::FaceRecord::face()'],['../structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53',1,'MR::PointOnFace::face()']]],
   ['facebitset_3',['FaceBitSet',['../namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d',1,'MR']]],
   ['facecolormapaggregator_4',['FaceColorMapAggregator',['../namespaceMR.html#a5ec1dd46460b2209b0d25a4872118c99',1,'MR']]],
   ['faceface_5',['FaceFace',['../structMR_1_1FaceFace.html#a8e856ba4f380bb43a7a4efe0f1dc02bc',1,'MR::FaceFace::FaceFace()'],['../structMR_1_1FaceFace.html#ac3a31b47e7baa47611ea150254a49fe3',1,'MR::FaceFace::FaceFace(FaceId a, FaceId b)'],['../structMR_1_1FaceFace.html',1,'MR::FaceFace']]],
@@ -104,8 +104,8 @@ var searchData=
   ['fixmultipleedges_101',['fixMultipleEdges',['../namespaceMR.html#af36265bde92b52d2e7bc0142abd82206',1,'MR::fixMultipleEdges(Mesh &amp;mesh, const std::vector&lt; MultipleEdge &gt; &amp;multipleEdges)'],['../namespaceMR.html#a52390270e3fbf5b7e8766374def17f07',1,'MR::fixMultipleEdges(Mesh &amp;mesh)']]],
   ['fixundercuts_102',['fixUndercuts',['../namespaceMR_1_1FixUndercuts.html#a54461b025162d586e9093a74f69e7d31',1,'MR::FixUndercuts::fixUndercuts(Mesh &amp;mesh, const FaceBitSet &amp;selectedArea, const Vector3f &amp;upDirection, float voxelSize=0.0f, float bottomExtension=0.0f)'],['../namespaceMR_1_1FixUndercuts.html#afe2ee8987e48ee419a3724cbbc17e691',1,'MR::FixUndercuts::fixUndercuts(Mesh &amp;mesh, const Vector3f &amp;upDirection, float voxelSize=0.0f, float bottomExtension=0.0f)']]],
   ['fixvertex_103',['fixVertex',['../classMR_1_1Laplacian.html#a42204d2e883a0041010250649d635122',1,'MR::Laplacian::fixVertex(VertId v, const Vector3f &amp;fixedPos)'],['../classMR_1_1Laplacian.html#ac28ff4fada8cae5f921cdcbc3619bab7',1,'MR::Laplacian::fixVertex(VertId v)']]],
-  ['flatshading_104',['flatShading',['../classMR_1_1ObjectMeshHolder.html#aadf8f8358c5a229c964aa46e1e991a52',1,'MR::ObjectMeshHolder']]],
-  ['flatshading_105',['FlatShading',['../structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aaca7d5f6324346ca4794ef06f1e943c94a7',1,'MR::MeshVisualizePropertyType']]],
+  ['flatshading_104',['FlatShading',['../structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aaca7d5f6324346ca4794ef06f1e943c94a7',1,'MR::MeshVisualizePropertyType']]],
+  ['flatshading_105',['flatShading',['../classMR_1_1ObjectMeshHolder.html#aadf8f8358c5a229c964aa46e1e991a52',1,'MR::ObjectMeshHolder']]],
   ['flatshading_5f_106',['flatShading_',['../classMR_1_1ObjectMeshHolder.html#a24fe3e12e40596c73eb4986aa7e32b75',1,'MR::ObjectMeshHolder']]],
   ['flip_107',['flip',['../classMR_1_1PolylineTopology.html#a712f0d64d5d5c5700ab29936be4bf517',1,'MR::PolylineTopology::flip()'],['../classMR_1_1TaggedBitSet.html#a53b449a12de4ac9ee78a0d7f030a31c6',1,'MR::TaggedBitSet::flip()'],['../classMR_1_1TaggedBitSet.html#afc2b41f1ab59e3ba965e9ab8da10ccff',1,'MR::TaggedBitSet::flip(IndexType n, size_type len)'],['../classMR_1_1TaggedBitSet.html#a8a67c4f0fe19bf562eb96dc72db1fbe1',1,'MR::TaggedBitSet::flip(IndexType n)']]],
   ['flipedge_108',['flipEdge',['../classMR_1_1MeshTopology.html#a3feb7377bb8fa3011bf24ee10f5d4ba4',1,'MR::MeshTopology']]],
