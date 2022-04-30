@@ -18,6 +18,6 @@ var searchData=
   ['updateneighborsradius_15',['updateNeighborsRadius',['../group__TriangulationHelpersGroup.html#ga4666ab0962adfa54f1b547221f3c4005',1,'MRE::TriangulationHelpers']]],
   ['updatesolver_16',['updateSolver',['../classMR_1_1Laplacian.html#a3e7bb340acaa3ef81fe7ed9f5eaaf226',1,'MR::Laplacian']]],
   ['updatevertpairs_17',['updateVertPairs',['../classMR_1_1MeshICP.html#aff911d6d53f8e44963f067e7c8ae376e',1,'MR::MeshICP']]],
-  ['utf8string_18',['utf8string',['../namespaceMR.html#a98812dc656fac3fb9c565e7fc0c7922d',1,'MR']]],
-  ['utf8towide_19',['utf8ToWide',['../namespaceMR.html#a543d43a804760961ac67ad3689330c1d',1,'MR']]]
+  ['utf8string_18',['utf8string',['../group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d',1,'MR']]],
+  ['utf8towide_19',['utf8ToWide',['../group__BasicGroup.html#ga543d43a804760961ac67ad3689330c1d',1,'MR']]]
 ];

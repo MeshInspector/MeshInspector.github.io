@@ -21,7 +21,7 @@ var searchData=
   ['showselectedfaces_5f_18',['showSelectedFaces_',['../classMR_1_1ObjectMeshHolder.html#ab0bf0b80cfcbea1dbaa1b6756875f04d',1,'MR::ObjectMeshHolder']]],
   ['showselectedvertices_5f_19',['showSelectedVertices_',['../classMR_1_1ObjectPointsHolder.html#a48270cb125e897505184be1003eb4500',1,'MR::ObjectPointsHolder']]],
   ['showtexture_5f_20',['showTexture_',['../classMR_1_1VisualObject.html#a759161b9c40d88abc973d031af126167',1,'MR::VisualObject']]],
-  ['sign_21',['sign',['../structMR_1_1IntersectionPrecomputes.html#a28372a635ba67b43220bc9067be6560d',1,'MR::IntersectionPrecomputes']]],
+  ['sign_21',['sign',['../group__AABBTreeGroup.html#ga28372a635ba67b43220bc9067be6560d',1,'MR::IntersectionPrecomputes']]],
   ['signeddist_22',['signedDist',['../structMR_1_1MeshSignedDistanceResult.html#af52a779c7b5cddf4d738350edb3012b5',1,'MR::MeshSignedDistanceResult']]],
   ['simple_23',['Simple',['../structMR_1_1FillHoleParams.html#a2908ad53506526829bedf3831a1de80a',1,'MR::FillHoleParams']]],
   ['size_5f_24',['size_',['../classMR_1_1RectIndexer.html#af3cae594fa09e2f9517846460b7ab08a',1,'MR::RectIndexer::size_()'],['../classMR_1_1VolumeIndexer.html#a8e13ff7ca749a229d273701ff2b833c0',1,'MR::VolumeIndexer::size_()']]],
@@ -42,9 +42,9 @@ var searchData=
   ['subdivideparts_39',['subdivideParts',['../structMRE_1_1DecimateParallelSettings.html#a2a2a5ed1fff302edc4af585b97b47a01',1,'MRE::DecimateParallelSettings']]],
   ['surfacedilateradius_40',['surfaceDilateRadius',['../structMR_1_1MeshApproxRelaxParams.html#aed8137acdd95c73e5606d4ad5fa7e3ae',1,'MR::MeshApproxRelaxParams']]],
   ['surfaceoffset_41',['surfaceOffset',['../structMR_1_1TextMeshAlignParams.html#ad309350466777ef5beda3e012bc43222',1,'MR::TextMeshAlignParams::surfaceOffset()'],['../structMR_1_1MeshVoxelsConverter.html#ab2f0c91461973d3a5fbb2ef07a4d3596',1,'MR::MeshVoxelsConverter::surfaceOffset()']]],
-  ['sx_42',['Sx',['../structMR_1_1IntersectionPrecomputes.html#a21465bc7d67177777744f39ac171940c',1,'MR::IntersectionPrecomputes']]],
-  ['sy_43',['Sy',['../structMR_1_1IntersectionPrecomputes.html#af95502c89221bba3187782d4ed18199b',1,'MR::IntersectionPrecomputes']]],
+  ['sx_42',['Sx',['../group__AABBTreeGroup.html#ga21465bc7d67177777744f39ac171940c',1,'MR::IntersectionPrecomputes']]],
+  ['sy_43',['Sy',['../group__AABBTreeGroup.html#gaf95502c89221bba3187782d4ed18199b',1,'MR::IntersectionPrecomputes']]],
   ['symbolsdistanceadditionaloffset_44',['symbolsDistanceAdditionalOffset',['../structMR_1_1SymbolMeshParams.html#ad45022cba1878902761b00f14e6661e0',1,'MR::SymbolMeshParams']]],
   ['symbolsthicknessoffsetmodifier_45',['symbolsThicknessOffsetModifier',['../structMR_1_1SymbolMeshParams.html#a41e3e2a0fe3747d584ee52635c67c307',1,'MR::SymbolMeshParams']]],
-  ['sz_46',['Sz',['../structMR_1_1IntersectionPrecomputes.html#a6159c869b0afc38ccf26091c1681194a',1,'MR::IntersectionPrecomputes']]]
+  ['sz_46',['Sz',['../group__AABBTreeGroup.html#ga6159c869b0afc38ccf26091c1681194a',1,'MR::IntersectionPrecomputes']]]
 ];

@@ -97,9 +97,12 @@ $(document).ready(function(){initNavTree('classMR_1_1BitSet.html',''); initResiz
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classMR_1_1BitSet-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::BitSet Class Reference</div></div>
+  <div class="headertitle"><div class="title">MR::BitSet Class Reference<div class="ingroups"><a class="el" href="group__BasicGroup.html">Basic elements overview</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>container of bits  
+ <a href="classMR_1_1BitSet.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MRBitSet_8h_source.html">MRBitSet.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -114,7 +117,7 @@ $(document).ready(function(){initNavTree('classMR_1_1BitSet.html',''); initResiz
 <area href="classMR_1_1TaggedBitSet.html" alt="MR::TaggedBitSet&lt; FaceTag &gt;" shape="rect" coords="256,112,502,136"/>
 <area href="classMR_1_1TaggedBitSet.html" alt="MR::TaggedBitSet&lt; VertTag &gt;" shape="rect" coords="512,112,758,136"/>
 <area href="classMR_1_1TaggedBitSet.html" alt="MR::TaggedBitSet&lt; Tag &gt;" shape="rect" coords="768,112,1014,136"/>
-<area href="classMR_1_1TaggedBitSet.html" alt="MR::TaggedBitSet&lt; T &gt;" shape="rect" coords="1024,112,1270,136"/>
+<area href="classMR_1_1TaggedBitSet.html" title="container of bits representing specific indices (faces, verts or edges)" alt="MR::TaggedBitSet&lt; T &gt;" shape="rect" coords="1024,112,1270,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -139,13 +142,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a21e124c25421599977ed1fc9874016e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the highest index i such as bit i is set, or npos if *this has no on bits.  <a href="classMR_1_1BitSet.html#a21e124c25421599977ed1fc9874016e3">More...</a><br /></td></tr>
 <tr class="separator:a21e124c25421599977ed1fc9874016e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a737f8cc71944c7c750f8eeba4028ac17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html#a737f8cc71944c7c750f8eeba4028ac17">autoResizeSet</a> (size_t pos, bool val=true)</td></tr>
+<tr class="memdesc:a737f8cc71944c7c750f8eeba4028ac17"><td class="mdescLeft">&#160;</td><td class="mdescRight">this accessor automatically adjusts the size of the set to include i-th element  <a href="classMR_1_1BitSet.html#a737f8cc71944c7c750f8eeba4028ac17">More...</a><br /></td></tr>
 <tr class="separator:a737f8cc71944c7c750f8eeba4028ac17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84a9273303ae000bcf94b893a298eb95"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html#a84a9273303ae000bcf94b893a298eb95">autoResizeTestSet</a> (size_t pos, bool val=true)</td></tr>
+<tr class="memdesc:a84a9273303ae000bcf94b893a298eb95"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as <a class="el" href="classMR_1_1BitSet.html#a737f8cc71944c7c750f8eeba4028ac17">autoResizeSet</a> and returns previous value of pos-bit  <a href="classMR_1_1BitSet.html#a84a9273303ae000bcf94b893a298eb95">More...</a><br /></td></tr>
 <tr class="separator:a84a9273303ae000bcf94b893a298eb95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5007749dadb7430dc9dedb73114f9a6"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html#ae5007749dadb7430dc9dedb73114f9a6">heapBytes</a> () const</td></tr>
+<tr class="memdesc:ae5007749dadb7430dc9dedb73114f9a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <a href="classMR_1_1BitSet.html#ae5007749dadb7430dc9dedb73114f9a6">More...</a><br /></td></tr>
 <tr class="separator:ae5007749dadb7430dc9dedb73114f9a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >container of bits </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a0427884dece1dde1fa25caaa7b2aaba9" name="a0427884dece1dde1fa25caaa7b2aaba9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0427884dece1dde1fa25caaa7b2aaba9">&#9670;&nbsp;</a></span>IndexType</h2>
 
@@ -195,6 +203,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>this accessor automatically adjusts the size of the set to include i-th element </p>
+
 </div>
 </div>
 <a id="a84a9273303ae000bcf94b893a298eb95" name="a84a9273303ae000bcf94b893a298eb95"></a>
@@ -230,6 +240,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>same as <a class="el" href="classMR_1_1BitSet.html#a737f8cc71944c7c750f8eeba4028ac17">autoResizeSet</a> and returns previous value of pos-bit </p>
 
 </div>
 </div>
@@ -274,6 +286,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>returns the amount of memory this object occupies on heap </p>
 
 </div>
 </div>

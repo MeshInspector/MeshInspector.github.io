@@ -106,15 +106,19 @@ $(document).ready(function(){initNavTree('structMR_1_1AABBTreePoints_1_1Node.htm
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a56b80dcc65ea72cecfafa260d4f8300a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreePoints_1_1Node.html#a56b80dcc65ea72cecfafa260d4f8300a">leaf</a> () const</td></tr>
+<tr class="memdesc:a56b80dcc65ea72cecfafa260d4f8300a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if node represent real points, false if it has child nodes  <a href="structMR_1_1AABBTreePoints_1_1Node.html#a56b80dcc65ea72cecfafa260d4f8300a">More...</a><br /></td></tr>
 <tr class="separator:a56b80dcc65ea72cecfafa260d4f8300a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4706c948a08613c970dd47e89dfc42b8"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreePoints_1_1Node.html#a4706c948a08613c970dd47e89dfc42b8">getLeafPointRange</a> () const</td></tr>
+<tr class="memdesc:a4706c948a08613c970dd47e89dfc42b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns [first,last) indices of leaf points  <a href="structMR_1_1AABBTreePoints_1_1Node.html#a4706c948a08613c970dd47e89dfc42b8">More...</a><br /></td></tr>
 <tr class="separator:a4706c948a08613c970dd47e89dfc42b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0951e423adb41a83132b36c18125f02b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreePoints_1_1Node.html#a0951e423adb41a83132b36c18125f02b">setLeafPointRange</a> (int first, int last)</td></tr>
+<tr class="memdesc:a0951e423adb41a83132b36c18125f02b"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets [first,last) to this node (leaf)  <a href="structMR_1_1AABBTreePoints_1_1Node.html#a0951e423adb41a83132b36c18125f02b">More...</a><br /></td></tr>
 <tr class="separator:a0951e423adb41a83132b36c18125f02b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a2153d4fd7d12b27618511103c9080df3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ada98ebf3fec74759dd46700389a3e556">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreePoints_1_1Node.html#a2153d4fd7d12b27618511103c9080df3">box</a></td></tr>
+<tr class="memdesc:a2153d4fd7d12b27618511103c9080df3"><td class="mdescLeft">&#160;</td><td class="mdescRight">bounding box of whole subtree  <a href="structMR_1_1AABBTreePoints_1_1Node.html#a2153d4fd7d12b27618511103c9080df3">More...</a><br /></td></tr>
 <tr class="separator:a2153d4fd7d12b27618511103c9080df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8421156508934dc148c12b4ca83f9eec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1AABBTreePoints.html#a2a41148fa2fd02aaf0c32270b28b11e8">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreePoints_1_1Node.html#a8421156508934dc148c12b4ca83f9eec">leftOrFirst</a></td></tr>
 <tr class="separator:a8421156508934dc148c12b4ca83f9eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,6 +149,8 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>returns [first,last) indices of leaf points </p>
+
 </div>
 </div>
 <a id="a56b80dcc65ea72cecfafa260d4f8300a" name="a56b80dcc65ea72cecfafa260d4f8300a"></a>
@@ -169,6 +175,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>returns true if node represent real points, false if it has child nodes </p>
 
 </div>
 </div>
@@ -206,6 +214,8 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>sets [first,last) to this node (leaf) </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -220,6 +230,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>bounding box of whole subtree </p>
 
 </div>
 </div>
@@ -248,6 +260,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >child nodes indices if &gt;=0, points indices if &lt; 0 </p>
 
 </div>
 </div>

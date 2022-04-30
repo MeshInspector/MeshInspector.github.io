@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['decimate_20overview_0',['Decimate overview',['../group__DecimateGroup.html',1,'']]]
+  ['aabb_20tree_20overview_0',['AABB Tree overview',['../group__AABBTreeGroup.html',1,'']]]
 ];

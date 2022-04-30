@@ -96,9 +96,12 @@ $(document).ready(function(){initNavTree('classMR_1_1File.html',''); initResizab
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classMR_1_1File-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::File Class Reference</div></div>
+  <div class="headertitle"><div class="title">MR::File Class Reference<div class="ingroups"><a class="el" href="group__BasicGroup.html">Basic elements overview</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>the class to open C FILE handle and automatically close it in the destructor  
+ <a href="classMR_1_1File.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MRFile_8h_source.html">MRFile.h</a>&gt;</code></p>
 <table class="memberdecls">
@@ -121,11 +124,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a94bc33654229a7cd797fe79baac1faaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1File.html#a94bc33654229a7cd797fe79baac1faaa">close</a> ()</td></tr>
 <tr class="separator:a94bc33654229a7cd797fe79baac1faaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46f305b6331088acfe8c1f8bc4076837"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1File.html#a46f305b6331088acfe8c1f8bc4076837">detach</a> ()</td></tr>
+<tr class="memdesc:a46f305b6331088acfe8c1f8bc4076837"><td class="mdescLeft">&#160;</td><td class="mdescRight">the user takes control over the handle  <a href="classMR_1_1File.html#a46f305b6331088acfe8c1f8bc4076837">More...</a><br /></td></tr>
 <tr class="separator:a46f305b6331088acfe8c1f8bc4076837"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1da05c5461ae76cfb46367697be9f18e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1File.html#a1da05c5461ae76cfb46367697be9f18e">attach</a> (FILE *h)</td></tr>
+<tr class="memdesc:a1da05c5461ae76cfb46367697be9f18e"><td class="mdescLeft">&#160;</td><td class="mdescRight">gives control over the handle to this object  <a href="classMR_1_1File.html#a1da05c5461ae76cfb46367697be9f18e">More...</a><br /></td></tr>
 <tr class="separator:a1da05c5461ae76cfb46367697be9f18e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >the class to open C FILE handle and automatically close it in the destructor </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae5ad252a0ab97ff1ee3a263e11199315" name="ae5ad252a0ab97ff1ee3a263e11199315"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae5ad252a0ab97ff1ee3a263e11199315">&#9670;&nbsp;</a></span>File() <span class="overload">[1/4]</span></h2>
 
@@ -289,6 +296,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>gives control over the handle to this object </p>
+
 </div>
 </div>
 <a id="a94bc33654229a7cd797fe79baac1faaa" name="a94bc33654229a7cd797fe79baac1faaa"></a>
@@ -330,6 +339,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>the user takes control over the handle </p>
 
 </div>
 </div>

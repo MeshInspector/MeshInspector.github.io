@@ -8,7 +8,7 @@ var searchData=
   ['maxdeletedvertices_5',['maxDeletedVertices',['../structMRE_1_1DecimateSettings.html#a0c9612c442978c84b93928b3fd674a40',1,'MRE::DecimateSettings::maxDeletedVertices()'],['../structMRE_1_1DecimatePolylineSettings.html#a6043a82ec9674dc654c50f53ee40cd49',1,'MRE::DecimatePolylineSettings::maxDeletedVertices()']]],
   ['maxdeviation_6',['maxDeviation',['../structMRE_1_1RemeshSettings.html#ac369b2bd29793557e514231f2461392a',1,'MRE::RemeshSettings']]],
   ['maxdeviationafterflip_7',['maxDeviationAfterFlip',['../structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476',1,'MR::SubdivideSettings']]],
-  ['maxdimidxz_8',['maxDimIdxZ',['../structMR_1_1IntersectionPrecomputes.html#affa5bcb7a516c4dda421ace86e2597c2',1,'MR::IntersectionPrecomputes']]],
+  ['maxdimidxz_8',['maxDimIdxZ',['../group__AABBTreeGroup.html#gaffa5bcb7a516c4dda421ace86e2597c2',1,'MR::IntersectionPrecomputes']]],
   ['maxdistratio_9',['maxDistRatio',['../structMR_1_1VoxelMetricParameters.html#a3ae620491a9dd4eff4445eb022a73b7e',1,'MR::VoxelMetricParameters']]],
   ['maxedgelen_10',['maxEdgeLen',['../structMR_1_1SubdivideSettings.html#a36d315cb2aaa92503d1a85c889074250',1,'MR::SubdivideSettings']]],
   ['maxedgesplits_11',['maxEdgeSplits',['../structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d',1,'MR::SubdivideSettings']]],

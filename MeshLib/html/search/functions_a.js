@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['makeaabbtreenodevec_0',['makeAABBTreeNodeVec',['../namespaceMR.html#a01799644f1a3d947c775abde97f570f1',1,'MR']]],
+  ['makeaabbtreenodevec_0',['makeAABBTreeNodeVec',['../group__AABBTreeGroup.html#ga01799644f1a3d947c775abde97f570f1',1,'MR']]],
   ['makearrow_1',['makeArrow',['../namespaceMR.html#abbe2dca6a39a0c9dae0abc3d1a6caac4',1,'MR']]],
   ['makebasisaxes_2',['makeBasisAxes',['../namespaceMR.html#aec1e78671b78ab66f38733f0ee0cc3ef',1,'MR']]],
   ['makebridge_3',['makeBridge',['../namespaceMR.html#a5b018c101d16b1695c0a3152e89ecdb3',1,'MR']]],
@@ -13,7 +13,7 @@ var searchData=
   ['makedeloneedgeflips_10',['makeDeloneEdgeFlips',['../namespaceMR.html#a447f48e7e564ffdc6086affed6235ce0',1,'MR']]],
   ['makedeloneoriginring_11',['makeDeloneOriginRing',['../namespaceMR.html#ac988550b40118ca0259350e32fb0620b',1,'MR']]],
   ['makeedge_12',['makeEdge',['../classMR_1_1MeshTopology.html#a636b971e53c7ec4023bdae88a924c24b',1,'MR::MeshTopology::makeEdge()'],['../classMR_1_1PolylineTopology.html#a45f9c4c6c22c11a8dc7eae9eefc3e265',1,'MR::PolylineTopology::makeEdge()'],['../classMR_1_1PolylineTopology.html#a5005a1cdb9c4df70f91b51b0813ecd68',1,'MR::PolylineTopology::makeEdge(VertId a, VertId b)']]],
-  ['makefloatgrid_13',['MakeFloatGrid',['../namespaceMR.html#ad22f4a32c89bdb6e135e9eb94dadef60',1,'MR']]],
+  ['makefloatgrid_13',['MakeFloatGrid',['../group__BasicStructuresGroup.html#gad22f4a32c89bdb6e135e9eb94dadef60',1,'MR']]],
   ['makenormals_14',['makeNormals',['../namespaceMR.html#a695acdfda1d1ac2dfb788797441ae0eb',1,'MR']]],
   ['makeobjectlinesfromfile_15',['makeObjectLinesFromFile',['../namespaceMR.html#a7718cc54066e22e7849b104ccfb0abeb',1,'MR']]],
   ['makeobjectmeshfromfile_16',['makeObjectMeshFromFile',['../namespaceMR.html#ab4fb801e351b1f650a84e5c11036f5c5',1,'MR']]],

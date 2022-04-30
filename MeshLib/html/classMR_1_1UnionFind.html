@@ -96,9 +96,12 @@ $(document).ready(function(){initNavTree('classMR_1_1UnionFind.html',''); initRe
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classMR_1_1UnionFind-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::UnionFind&lt; I &gt; Class Template Reference</div></div>
+  <div class="headertitle"><div class="title">MR::UnionFind&lt; I &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__BasicGroup.html">Basic elements overview</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Simple union find data structure.  
+ <a href="classMR_1_1UnionFind.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MRUnionFind_8h_source.html">MRUnionFind.h</a>&gt;</code></p>
 <table class="memberdecls">
@@ -109,17 +112,31 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a661398df57a710beae6f4b7c19ac3006"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UnionFind.html#a661398df57a710beae6f4b7c19ac3006">UnionFind</a> (size_t size)</td></tr>
 <tr class="separator:a661398df57a710beae6f4b7c19ac3006"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a74089f75f3b88edf1a6fb0beba1e13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UnionFind.html#a6a74089f75f3b88edf1a6fb0beba1e13">reset</a> (size_t size)</td></tr>
+<tr class="memdesc:a6a74089f75f3b88edf1a6fb0beba1e13"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset roots to represent each element as disjoint set of rank 0  <a href="classMR_1_1UnionFind.html#a6a74089f75f3b88edf1a6fb0beba1e13">More...</a><br /></td></tr>
 <tr class="separator:a6a74089f75f3b88edf1a6fb0beba1e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac55d95c6f3497ebcfe9337bc7d1698d2"><td class="memItemLeft" align="right" valign="top">I&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UnionFind.html#ac55d95c6f3497ebcfe9337bc7d1698d2">unite</a> (I first, I second)</td></tr>
+<tr class="memdesc:ac55d95c6f3497ebcfe9337bc7d1698d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">unite two elements, returns new common root  <a href="classMR_1_1UnionFind.html#ac55d95c6f3497ebcfe9337bc7d1698d2">More...</a><br /></td></tr>
 <tr class="separator:ac55d95c6f3497ebcfe9337bc7d1698d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa570cc6f33bbb51fb5859608b9c68fbc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UnionFind.html#aa570cc6f33bbb51fb5859608b9c68fbc">united</a> (I first, I second)</td></tr>
+<tr class="memdesc:aa570cc6f33bbb51fb5859608b9c68fbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if given two elements are from one component  <a href="classMR_1_1UnionFind.html#aa570cc6f33bbb51fb5859608b9c68fbc">More...</a><br /></td></tr>
 <tr class="separator:aa570cc6f33bbb51fb5859608b9c68fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26e79fd903c0229dbd2f66a80549c75b"><td class="memItemLeft" align="right" valign="top">I&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UnionFind.html#a26e79fd903c0229dbd2f66a80549c75b">find</a> (I a)</td></tr>
+<tr class="memdesc:a26e79fd903c0229dbd2f66a80549c75b"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds root of element  <a href="classMR_1_1UnionFind.html#a26e79fd903c0229dbd2f66a80549c75b">More...</a><br /></td></tr>
 <tr class="separator:a26e79fd903c0229dbd2f66a80549c75b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b1ee758f69d77277361f8cbe1e0d77e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; I, I &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UnionFind.html#a5b1ee758f69d77277361f8cbe1e0d77e">roots</a> ()</td></tr>
+<tr class="memdesc:a5b1ee758f69d77277361f8cbe1e0d77e"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets roots for all elements  <a href="classMR_1_1UnionFind.html#a5b1ee758f69d77277361f8cbe1e0d77e">More...</a><br /></td></tr>
 <tr class="separator:a5b1ee758f69d77277361f8cbe1e0d77e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename I&gt;<br />
+class MR::UnionFind&lt; I &gt;</div><p >Simple union find data structure. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">I</td><td>is an id type, e.g. FaceId </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a67ccf008e0816480dca10b19c530a7b1" name="a67ccf008e0816480dca10b19c530a7b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a67ccf008e0816480dca10b19c530a7b1">&#9670;&nbsp;</a></span>UnionFind() <span class="overload">[1/2]</span></h2>
 
@@ -202,6 +219,8 @@ template&lt;typename I &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>finds root of element </p>
+
 </div>
 </div>
 <a id="a6a74089f75f3b88edf1a6fb0beba1e13" name="a6a74089f75f3b88edf1a6fb0beba1e13"></a>
@@ -230,6 +249,8 @@ template&lt;typename I &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>reset roots to represent each element as disjoint set of rank 0 </p>
+
 </div>
 </div>
 <a id="a5b1ee758f69d77277361f8cbe1e0d77e" name="a5b1ee758f69d77277361f8cbe1e0d77e"></a>
@@ -256,6 +277,8 @@ template&lt;typename I &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>gets roots for all elements </p>
 
 </div>
 </div>
@@ -295,6 +318,9 @@ template&lt;typename I &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>unite two elements, returns new common root </p>
+<p >select root by size for best performance</p>
+
 </div>
 </div>
 <a id="aa570cc6f33bbb51fb5859608b9c68fbc" name="aa570cc6f33bbb51fb5859608b9c68fbc"></a>
@@ -332,6 +358,8 @@ template&lt;typename I &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>returns true if given two elements are from one component </p>
 
 </div>
 </div>

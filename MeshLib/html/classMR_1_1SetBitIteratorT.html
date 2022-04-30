@@ -97,9 +97,12 @@ $(document).ready(function(){initNavTree('classMR_1_1SetBitIteratorT.html',''); 
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classMR_1_1SetBitIteratorT-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::SetBitIteratorT&lt; T &gt; Class Template Reference</div></div>
+  <div class="headertitle"><div class="title">MR::SetBitIteratorT&lt; T &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__BasicGroup.html">Basic elements overview</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>iterator to enumerate all indices with set bits in <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> class or its derivatives  
+ <a href="classMR_1_1SetBitIteratorT.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MRBitSet_8h_source.html">MRBitSet.h</a>&gt;</code></p>
 <table class="memberdecls">
@@ -114,6 +117,7 @@ Public Types</h2></td></tr>
 <tr class="memitem:af520ca8fde7b2302d963bb596a4e326b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SetBitIteratorT.html#af520ca8fde7b2302d963bb596a4e326b">difference_type</a> = std::ptrdiff_t</td></tr>
 <tr class="separator:af520ca8fde7b2302d963bb596a4e326b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a680dec55a3b2c4c1c9bf339ab88fe367"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SetBitIteratorT.html#a680dec55a3b2c4c1c9bf339ab88fe367">reference</a> = const <a class="el" href="classMR_1_1SetBitIteratorT.html#a819b9dc59c1187b38e0a0793779bb8b0">IndexType</a></td></tr>
+<tr class="memdesc:a680dec55a3b2c4c1c9bf339ab88fe367"><td class="mdescLeft">&#160;</td><td class="mdescRight">intentionally not a reference  <a href="classMR_1_1SetBitIteratorT.html#a680dec55a3b2c4c1c9bf339ab88fe367">More...</a><br /></td></tr>
 <tr class="separator:a680dec55a3b2c4c1c9bf339ab88fe367"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22e03a8a13140a2e652009346c41c0ba"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SetBitIteratorT.html#a22e03a8a13140a2e652009346c41c0ba">pointer</a> = const <a class="el" href="classMR_1_1SetBitIteratorT.html#a819b9dc59c1187b38e0a0793779bb8b0">IndexType</a> *</td></tr>
 <tr class="separator:a22e03a8a13140a2e652009346c41c0ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -121,8 +125,10 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a38daf11addb75bcfab304e51d62ba9f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SetBitIteratorT.html#a38daf11addb75bcfab304e51d62ba9f8">SetBitIteratorT</a> ()=default</td></tr>
+<tr class="memdesc:a38daf11addb75bcfab304e51d62ba9f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs end iterator  <a href="classMR_1_1SetBitIteratorT.html#a38daf11addb75bcfab304e51d62ba9f8">More...</a><br /></td></tr>
 <tr class="separator:a38daf11addb75bcfab304e51d62ba9f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6e4b92cd100336048e5869d8fadc6ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SetBitIteratorT.html#ab6e4b92cd100336048e5869d8fadc6ca">SetBitIteratorT</a> (const T &amp;<a class="el" href="classMR_1_1SetBitIteratorT.html#a4462188d7adb7134739834723a0e405e">bitset</a>)</td></tr>
+<tr class="memdesc:ab6e4b92cd100336048e5869d8fadc6ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs begin iterator  <a href="classMR_1_1SetBitIteratorT.html#ab6e4b92cd100336048e5869d8fadc6ca">More...</a><br /></td></tr>
 <tr class="separator:ab6e4b92cd100336048e5869d8fadc6ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad821003890f84db390e9a4011c8d37d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1SetBitIteratorT.html">SetBitIteratorT</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SetBitIteratorT.html#aad821003890f84db390e9a4011c8d37d">operator++</a> ()</td></tr>
 <tr class="separator:aad821003890f84db390e9a4011c8d37d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,7 +139,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa231d32ed4abe7e732adfff36d5e267b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1SetBitIteratorT.html#a680dec55a3b2c4c1c9bf339ab88fe367">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SetBitIteratorT.html#aa231d32ed4abe7e732adfff36d5e267b">operator*</a> () const</td></tr>
 <tr class="separator:aa231d32ed4abe7e732adfff36d5e267b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
+class MR::SetBitIteratorT&lt; T &gt;</div><p >iterator to enumerate all indices with set bits in <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> class or its derivatives </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="af520ca8fde7b2302d963bb596a4e326b" name="af520ca8fde7b2302d963bb596a4e326b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af520ca8fde7b2302d963bb596a4e326b">&#9670;&nbsp;</a></span>difference_type</h2>
 
@@ -212,6 +221,8 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>intentionally not a reference </p>
+
 </div>
 </div>
 <a id="a65326d51ccb6cea126d404534ea2a329" name="a65326d51ccb6cea126d404534ea2a329"></a>
@@ -256,6 +267,8 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>constructs end iterator </p>
+
 </div>
 </div>
 <a id="ab6e4b92cd100336048e5869d8fadc6ca" name="ab6e4b92cd100336048e5869d8fadc6ca"></a>
@@ -283,6 +296,8 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>constructs begin iterator </p>
 
 </div>
 </div>

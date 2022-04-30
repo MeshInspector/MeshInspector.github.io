@@ -46,8 +46,8 @@ var searchData=
   ['updatevertpairs_43',['updateVertPairs',['../classMR_1_1MeshICP.html#aff911d6d53f8e44963f067e7c8ae376e',1,'MR::MeshICP']]],
   ['updirection_44',['upDirection',['../structMR_1_1VerticalStitchMetric.html#a3ee71cdbba129e2bca75cdbd5a2702f3',1,'MR::VerticalStitchMetric']]],
   ['usedistancelimits_45',['useDistanceLimits',['../structMR_1_1MeshToDistanceMapParams.html#ace32ee073907bc00f51a76ba214f6d3c',1,'MR::MeshToDistanceMapParams']]],
-  ['utf8string_46',['utf8string',['../namespaceMR.html#a98812dc656fac3fb9c565e7fc0c7922d',1,'MR']]],
-  ['utf8towide_47',['utf8ToWide',['../namespaceMR.html#a543d43a804760961ac67ad3689330c1d',1,'MR']]],
+  ['utf8string_46',['utf8string',['../group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d',1,'MR']]],
+  ['utf8towide_47',['utf8ToWide',['../group__BasicGroup.html#ga543d43a804760961ac67ad3689330c1d',1,'MR']]],
   ['uvcoord_48',['UVCoord',['../structMR_1_1UVCoord.html',1,'MR']]],
   ['uvcoordinates_5f_49',['uvCoordinates_',['../classMR_1_1VisualObject.html#a458d4860efbd07424863c743f8f0774f',1,'MR::VisualObject']]]
 ];

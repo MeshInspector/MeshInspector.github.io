@@ -169,7 +169,8 @@ var hierarchy =
             [ "MR::SphereObject", "classMR_1_1SphereObject.html", null ]
           ] ],
           [ "MR::ObjectPointsHolder", "classMR_1_1ObjectPointsHolder.html", [
-            [ "MR::ObjectPoints", "classMR_1_1ObjectPoints.html", null ]
+            [ "MR::ObjectPoints", "classMR_1_1ObjectPoints.html", null ],
+            [ "MR::PointObject", "classMR_1_1PointObject.html", null ]
           ] ]
         ] ]
       ] ]

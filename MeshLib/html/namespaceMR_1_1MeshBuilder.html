@@ -126,8 +126,8 @@ Functions</h2></td></tr>
 <tr class="separator:a356920034893f3c5b5fcd0831704203c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0e760dd12cdd7138d4d443bf0fb61f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshBuilder.html#ab0e760dd12cdd7138d4d443bf0fb61f8">fromDisjointMeshPieces</a> (const std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1MeshPiece.html">MeshPiece</a> &gt; &amp;pieces, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> maxVertId, <a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> maxFaceId, std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1Triangle.html">Triangle</a> &gt; &amp;borderTris)</td></tr>
 <tr class="separator:ab0e760dd12cdd7138d4d443bf0fb61f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93fc1cc532ee5165f75473969639ce4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshBuilder.html#a93fc1cc532ee5165f75473969639ce4f">addTriangles</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;res, std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1Triangle.html">Triangle</a> &gt; &amp;tris)</td></tr>
-<tr class="separator:a93fc1cc532ee5165f75473969639ce4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74cf8201a47a6336d82f6b02ece8d52f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshBuilder.html#a74cf8201a47a6336d82f6b02ece8d52f">addTriangles</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;res, std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1Triangle.html">Triangle</a> &gt; &amp;tris, bool allowNonManifoldEdge=true)</td></tr>
+<tr class="separator:a74cf8201a47a6336d82f6b02ece8d52f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affd71ea7a77ed4c02be34778c0923804"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshBuilder.html#affd71ea7a77ed4c02be34778c0923804">addTriangles</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;res, std::vector&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; &amp;vertTriples, <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *createdFaces=nullptr)</td></tr>
 <tr class="separator:affd71ea7a77ed4c02be34778c0923804"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ad33f9aabd679a58811fb3f954f3e8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshBuilder.html#a3ad33f9aabd679a58811fb3f954f3e8b">fromFaceSoup</a> (const std::vector&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; &amp;verts, std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1FaceRecord.html">FaceRecord</a> &gt; &amp;faces)</td></tr>
@@ -147,8 +147,8 @@ Functions</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>It is better to store topology directly in mesh</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a93fc1cc532ee5165f75473969639ce4f" name="a93fc1cc532ee5165f75473969639ce4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93fc1cc532ee5165f75473969639ce4f">&#9670;&nbsp;</a></span>addTriangles() <span class="overload">[1/2]</span></h2>
+<a id="a74cf8201a47a6336d82f6b02ece8d52f" name="a74cf8201a47a6336d82f6b02ece8d52f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74cf8201a47a6336d82f6b02ece8d52f">&#9670;&nbsp;</a></span>addTriangles() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163,7 +163,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1Triangle.html">Triangle</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>tris</em>&#160;</td>
+          <td class="paramname"><em>tris</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>allowNonManifoldEdge</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

@@ -146,6 +146,7 @@ var annotated_dup =
       [ "PointCloud", "structMR_1_1PointCloud.html", "structMR_1_1PointCloud" ],
       [ "PointCloudApproxRelaxParams", "structMR_1_1PointCloudApproxRelaxParams.html", "structMR_1_1PointCloudApproxRelaxParams" ],
       [ "PointCloudRelaxParams", "structMR_1_1PointCloudRelaxParams.html", "structMR_1_1PointCloudRelaxParams" ],
+      [ "PointObject", "classMR_1_1PointObject.html", "classMR_1_1PointObject" ],
       [ "PointOnFace", "structMR_1_1PointOnFace.html", "structMR_1_1PointOnFace" ],
       [ "PointsVisualizePropertyType", "structMR_1_1PointsVisualizePropertyType.html", "structMR_1_1PointsVisualizePropertyType" ],
       [ "PointToPlaneAligningTransform", "classMR_1_1PointToPlaneAligningTransform.html", "classMR_1_1PointToPlaneAligningTransform" ],
