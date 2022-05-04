@@ -6,10 +6,12 @@ var annotated_dup =
         [ "ImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters" ]
       ] ],
       [ "MeshBuilder", "namespaceMR_1_1MeshBuilder.html", [
+        [ "equalVector3f", "structMR_1_1MeshBuilder_1_1equalVector3f.html", "structMR_1_1MeshBuilder_1_1equalVector3f" ],
         [ "FaceRecord", "structMR_1_1MeshBuilder_1_1FaceRecord.html", "structMR_1_1MeshBuilder_1_1FaceRecord" ],
         [ "MeshPiece", "structMR_1_1MeshBuilder_1_1MeshPiece.html", "structMR_1_1MeshBuilder_1_1MeshPiece" ],
         [ "Triangle", "structMR_1_1MeshBuilder_1_1Triangle.html", "structMR_1_1MeshBuilder_1_1Triangle" ],
-        [ "VertDuplication", "structMR_1_1MeshBuilder_1_1VertDuplication.html", "structMR_1_1MeshBuilder_1_1VertDuplication" ]
+        [ "VertDuplication", "structMR_1_1MeshBuilder_1_1VertDuplication.html", "structMR_1_1MeshBuilder_1_1VertDuplication" ],
+        [ "VertexIdentifier", "classMR_1_1MeshBuilder_1_1VertexIdentifier.html", "classMR_1_1MeshBuilder_1_1VertexIdentifier" ]
       ] ],
       [ "MeshLoad", "namespaceMR_1_1MeshLoad.html", [
         [ "MeshLoaderAdder", "classMR_1_1MeshLoad_1_1MeshLoaderAdder.html", "classMR_1_1MeshLoad_1_1MeshLoaderAdder" ],

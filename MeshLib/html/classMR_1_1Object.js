@@ -23,7 +23,7 @@ var classMR_1_1Object =
     [ "find", "classMR_1_1Object.html#a639d2e0d72c82c1efd9dc00ecaa0d3da", null ],
     [ "find", "classMR_1_1Object.html#a7dc1382248ea0ff99064282167614a4b", null ],
     [ "find", "classMR_1_1Object.html#abcc984d346790cbe1a13d6ee87daffd0", null ],
-    [ "find", "classMR_1_1Object.html#a595c5f842600963ee11cd5e9a3a0a7f8", null ],
+    [ "find", "group__DataModelGroup.html#ga595c5f842600963ee11cd5e9a3a0a7f8", null ],
     [ "getInfoLines", "classMR_1_1Object.html#a7f2ed80a457d4cb01790c861267af3be", null ],
     [ "getRedrawFlag", "classMR_1_1Object.html#a4ae8a13d0528c5937e200015938b6dc5", null ],
     [ "getWorldBox", "classMR_1_1Object.html#a2108dae4247d13e2657f1a99259156a4", null ],

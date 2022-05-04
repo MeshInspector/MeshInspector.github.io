@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['selectable_0',['Selectable',['../namespaceMR.html#a1ab156c0351dfcd112a67a72e485f123a8318ce1c96df6ce21eb2ed428c6d0f85',1,'MR']]],
-  ['selected_1',['Selected',['../namespaceMR.html#a1ab156c0351dfcd112a67a72e485f123a91b442d385b54e1418d81adc34871053',1,'MR']]],
+  ['selectable_0',['Selectable',['../group__DataModelGroup.html#gga1ab156c0351dfcd112a67a72e485f123a8318ce1c96df6ce21eb2ed428c6d0f85',1,'MR']]],
+  ['selected_1',['Selected',['../group__DataModelGroup.html#gga1ab156c0351dfcd112a67a72e485f123a91b442d385b54e1418d81adc34871053',1,'MR']]],
   ['selectededges_2',['SelectedEdges',['../structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aaca88fb4fba2909a781a4c943d7e5f1b7fd',1,'MR::MeshVisualizePropertyType::SelectedEdges()'],['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aac0df0200072fe04b4bdc85cc051c800f',1,'MR::SceneColors::SelectedEdges()']]],
   ['selectedfaces_3',['SelectedFaces',['../structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aaca6d341a362301b9df14e3b541532c32be',1,'MR::MeshVisualizePropertyType::SelectedFaces()'],['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa9acc3cb3e4646fab501e1b4cac8e867f',1,'MR::SceneColors::SelectedFaces()']]],
   ['selectedobjectdistancemap_4',['SelectedObjectDistanceMap',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa5ff4b586e3128dc5c62c8f602ae14a9a',1,'MR::SceneColors']]],
@@ -14,7 +14,7 @@ var searchData=
   ['shortestedgefirst_11',['ShortestEdgeFirst',['../namespaceMRE.html#a8c76431f5906608e28ce45ed93297e66a550fbe60c7eb2513d34b01a35d5cdb0f',1,'MRE']]],
   ['simple_12',['Simple',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a1fbb1e3943c2c6c560247ac8f9289780',1,'MR::FillHoleParams']]],
   ['smooth_13',['Smooth',['../structMR_1_1LinesVisualizePropertyType.html#aab5df7db454ff09605f0b0252d48d0e2a92edd5447d991ddb22f08259adacfa1c',1,'MR::LinesVisualizePropertyType']]],
-  ['solidcolor_14',['SolidColor',['../namespaceMR.html#a270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854',1,'MR']]],
+  ['solidcolor_14',['SolidColor',['../group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854',1,'MR']]],
   ['startendnotconnected_15',['StartEndNotConnected',['../namespaceMR.html#af2c93aa0da8a9748d23340f32349a8b8aad309ea76f6bf055e7b62a3dd200631f',1,'MR']]],
   ['stderr_16',['Stderr',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af',1,'MRPython.h']]],
   ['stdout_17',['Stdout',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101',1,'MRPython.h']]],

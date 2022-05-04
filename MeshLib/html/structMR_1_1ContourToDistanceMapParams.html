@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('structMR_1_1ContourToDistanceMapParams
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1ContourToDistanceMapParams-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::ContourToDistanceMapParams Struct Reference</div></div>
+  <div class="headertitle"><div class="title">MR::ContourToDistanceMapParams Struct Reference<div class="ingroups"><a class="el" href="group__DistanceMapGroup.html">Distance Map group</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -131,15 +131,16 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:af6e89dcef8c3cd2419a4cd2dbb77015f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ContourToDistanceMapParams.html#af6e89dcef8c3cd2419a4cd2dbb77015f">pixelSize</a> { 1.F, 1.F }</td></tr>
+<tr class="memdesc:af6e89dcef8c3cd2419a4cd2dbb77015f"><td class="mdescLeft">&#160;</td><td class="mdescRight">pixel size  <a href="structMR_1_1ContourToDistanceMapParams.html#af6e89dcef8c3cd2419a4cd2dbb77015f">More...</a><br /></td></tr>
 <tr class="separator:af6e89dcef8c3cd2419a4cd2dbb77015f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a777f64d2a02e161c0c2d62ceb280a2e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a414c921e724deba1be8a3f3b5a20af76">Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ContourToDistanceMapParams.html#a777f64d2a02e161c0c2d62ceb280a2e4">resolution</a> { 1, 1 }</td></tr>
-<tr class="memdesc:a777f64d2a02e161c0c2d62ceb280a2e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">pixel size  <a href="structMR_1_1ContourToDistanceMapParams.html#a777f64d2a02e161c0c2d62ceb280a2e4">More...</a><br /></td></tr>
+<tr class="memdesc:a777f64d2a02e161c0c2d62ceb280a2e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">distance map size  <a href="structMR_1_1ContourToDistanceMapParams.html#a777f64d2a02e161c0c2d62ceb280a2e4">More...</a><br /></td></tr>
 <tr class="separator:a777f64d2a02e161c0c2d62ceb280a2e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a018eb39177bd2bf920601b6a61d8b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ContourToDistanceMapParams.html#a7a018eb39177bd2bf920601b6a61d8b6">orgPoint</a> { 0.F, 0.F }</td></tr>
-<tr class="memdesc:a7a018eb39177bd2bf920601b6a61d8b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">distance map size  <a href="structMR_1_1ContourToDistanceMapParams.html#a7a018eb39177bd2bf920601b6a61d8b6">More...</a><br /></td></tr>
+<tr class="memdesc:a7a018eb39177bd2bf920601b6a61d8b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">coordinates of origin area corner  <a href="structMR_1_1ContourToDistanceMapParams.html#a7a018eb39177bd2bf920601b6a61d8b6">More...</a><br /></td></tr>
 <tr class="separator:a7a018eb39177bd2bf920601b6a61d8b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe6ef70a540df80fca43fb338ca681ce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ContourToDistanceMapParams.html#afe6ef70a540df80fca43fb338ca681ce">withSign</a> { false }</td></tr>
-<tr class="memdesc:afe6ef70a540df80fca43fb338ca681ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">coordinates of origin area corner  <a href="structMR_1_1ContourToDistanceMapParams.html#afe6ef70a540df80fca43fb338ca681ce">More...</a><br /></td></tr>
+<tr class="memdesc:afe6ef70a540df80fca43fb338ca681ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">allows calculate negative values of distance (inside closed and correctly oriented (CW) contours)  <a href="structMR_1_1ContourToDistanceMapParams.html#afe6ef70a540df80fca43fb338ca681ce">More...</a><br /></td></tr>
 <tr class="separator:afe6ef70a540df80fca43fb338ca681ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -384,6 +385,7 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >get world 2d coordinate (respects origin point and pixel size) point - coordinate on distance map </p>
 
 </div>
 </div>
@@ -400,7 +402,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>distance map size </p>
+<p>coordinates of origin area corner </p>
 
 </div>
 </div>
@@ -416,6 +418,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>pixel size </p>
+
 </div>
 </div>
 <a id="a777f64d2a02e161c0c2d62ceb280a2e4" name="a777f64d2a02e161c0c2d62ceb280a2e4"></a>
@@ -430,7 +434,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>pixel size </p>
+<p>distance map size </p>
 
 </div>
 </div>
@@ -446,7 +450,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>coordinates of origin area corner </p>
+<p>allows calculate negative values of distance (inside closed and correctly oriented (CW) contours) </p>
 
 </div>
 </div>

@@ -17,6 +17,7 @@ var searchData=
   ['numselectededges_14',['numSelectedEdges',['../classMR_1_1ObjectMeshHolder.html#ac079f513ed46863aa2e8e1b1ad09ef8d',1,'MR::ObjectMeshHolder']]],
   ['numselectedfaces_15',['numSelectedFaces',['../classMR_1_1ObjectMeshHolder.html#ac66f8710ce4b8991eb62b48ee5c94585',1,'MR::ObjectMeshHolder']]],
   ['numselectedvertices_16',['numSelectedVertices',['../classMR_1_1ObjectPointsHolder.html#aed9fd238523eaf45d0e972e39bcc2d4a',1,'MR::ObjectPointsHolder']]],
-  ['numvalidfaces_17',['numValidFaces',['../classMR_1_1MeshTopology.html#a94378f70606fda1a41eb0605de0c8cbe',1,'MR::MeshTopology']]],
-  ['numvalidverts_18',['numValidVerts',['../classMR_1_1MeshTopology.html#a720c7a299f00a1e717e4bd34ce86591f',1,'MR::MeshTopology::numValidVerts()'],['../classMR_1_1PolylineTopology.html#aaee85cff1aa5cf38699daeb3669b0cf7',1,'MR::PolylineTopology::numValidVerts()']]]
+  ['numtris_17',['numTris',['../classMR_1_1MeshBuilder_1_1VertexIdentifier.html#aa5e3191cd4ff080dc3f960e8763c0069',1,'MR::MeshBuilder::VertexIdentifier']]],
+  ['numvalidfaces_18',['numValidFaces',['../classMR_1_1MeshTopology.html#a94378f70606fda1a41eb0605de0c8cbe',1,'MR::MeshTopology']]],
+  ['numvalidverts_19',['numValidVerts',['../classMR_1_1MeshTopology.html#a720c7a299f00a1e717e4bd34ce86591f',1,'MR::MeshTopology::numValidVerts()'],['../classMR_1_1PolylineTopology.html#aaee85cff1aa5cf38699daeb3669b0cf7',1,'MR::PolylineTopology::numValidVerts()']]]
 ];

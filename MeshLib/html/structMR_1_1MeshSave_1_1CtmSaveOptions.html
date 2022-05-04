@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('structMR_1_1MeshSave_1_1CtmSaveOptions
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1MeshSave_1_1CtmSaveOptions-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::MeshSave::CtmSaveOptions Struct Reference</div></div>
+  <div class="headertitle"><div class="title">MR::MeshSave::CtmSaveOptions Struct Reference<div class="ingroups"><a class="el" href="group__IOGroup.html">IOGroup</a> &raquo; <a class="el" href="group__MeshSaveGroup.html">Mesh Save</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -118,10 +118,13 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a391e0a1e39f79dd41b9a003e251360c4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshSave_1_1CtmSaveOptions.html#a391e0a1e39f79dd41b9a003e251360c4">vertexPrecision</a> = 1.0f / 1024.0f</td></tr>
 <tr class="separator:a391e0a1e39f79dd41b9a003e251360c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09f020b5c907033a5e7b25073effacf5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshSave_1_1CtmSaveOptions.html#a09f020b5c907033a5e7b25073effacf5">compressionLevel</a> = 1</td></tr>
+<tr class="memdesc:a09f020b5c907033a5e7b25073effacf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">LZMA compression: 0 - minimal compression, but fast; 9 - maximal compression, but slow.  <a href="structMR_1_1MeshSave_1_1CtmSaveOptions.html#a09f020b5c907033a5e7b25073effacf5">More...</a><br /></td></tr>
 <tr class="separator:a09f020b5c907033a5e7b25073effacf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cd38b6719768ec5fd27c13a0a6d5452"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshSave_1_1CtmSaveOptions.html#a8cd38b6719768ec5fd27c13a0a6d5452">rearrangeTriangles</a> = false</td></tr>
+<tr class="memdesc:a8cd38b6719768ec5fd27c13a0a6d5452"><td class="mdescLeft">&#160;</td><td class="mdescRight">if it is turned on, then higher compression ratios are reached but the order of triangles is changed  <a href="structMR_1_1MeshSave_1_1CtmSaveOptions.html#a8cd38b6719768ec5fd27c13a0a6d5452">More...</a><br /></td></tr>
 <tr class="separator:a8cd38b6719768ec5fd27c13a0a6d5452"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19694f1e7c36428c2d0e206560be24a3"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshSave_1_1CtmSaveOptions.html#a19694f1e7c36428c2d0e206560be24a3">comment</a> = &quot;MeshRUs&quot;</td></tr>
+<tr class="memdesc:a19694f1e7c36428c2d0e206560be24a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">comment saved in the file  <a href="structMR_1_1MeshSave_1_1CtmSaveOptions.html#a19694f1e7c36428c2d0e206560be24a3">More...</a><br /></td></tr>
 <tr class="separator:a19694f1e7c36428c2d0e206560be24a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
@@ -145,9 +148,12 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae11e0573781455904bb818493c2ad69da6adf97f83acf6453d4a6a4b1070f3754" name="ae11e0573781455904bb818493c2ad69da6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae11e0573781455904bb818493c2ad69dab7048ff6b4f97b9230b2365b31d16713" name="ae11e0573781455904bb818493c2ad69dab7048ff6b4f97b9230b2365b31d16713"></a>Lossless&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae11e0573781455904bb818493c2ad69dab71142391f68646086edeadddcf020dc" name="ae11e0573781455904bb818493c2ad69dab71142391f68646086edeadddcf020dc"></a>Lossy&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae11e0573781455904bb818493c2ad69da6adf97f83acf6453d4a6a4b1070f3754" name="ae11e0573781455904bb818493c2ad69da6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"><p >no compression at all, fast but not effective </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae11e0573781455904bb818493c2ad69dab7048ff6b4f97b9230b2365b31d16713" name="ae11e0573781455904bb818493c2ad69dab7048ff6b4f97b9230b2365b31d16713"></a>Lossless&#160;</td><td class="fielddoc"><p >compression without any loss in vertex coordinates </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae11e0573781455904bb818493c2ad69dab71142391f68646086edeadddcf020dc" name="ae11e0573781455904bb818493c2ad69dab71142391f68646086edeadddcf020dc"></a>Lossy&#160;</td><td class="fielddoc"><p >compression with loss in vertex coordinates </p>
+</td></tr>
 </table>
 
 </div>
@@ -165,6 +171,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>comment saved in the file </p>
+
 </div>
 </div>
 <a id="a09f020b5c907033a5e7b25073effacf5" name="a09f020b5c907033a5e7b25073effacf5"></a>
@@ -178,6 +186,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>LZMA compression: 0 - minimal compression, but fast; 9 - maximal compression, but slow. </p>
 
 </div>
 </div>
@@ -207,6 +217,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>if it is turned on, then higher compression ratios are reached but the order of triangles is changed </p>
+
 </div>
 </div>
 <a id="a391e0a1e39f79dd41b9a003e251360c4" name="a391e0a1e39f79dd41b9a003e251360c4"></a>
@@ -220,6 +232,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >fixed point precision for vertex coordinates in case of <a class="el" href="structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69dab71142391f68646086edeadddcf020dc" title="compression with loss in vertex coordinates">MeshCompression::Lossy</a>. For instance, if this value is 0.001, all vertex coordinates will be rounded to three decimals </p>
 
 </div>
 </div>

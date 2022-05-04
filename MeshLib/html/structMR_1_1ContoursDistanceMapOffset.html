@@ -97,9 +97,12 @@ $(document).ready(function(){initNavTree('structMR_1_1ContoursDistanceMapOffset.
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1ContoursDistanceMapOffset-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::ContoursDistanceMapOffset Struct Reference</div></div>
+  <div class="headertitle"><div class="title">MR::ContoursDistanceMapOffset Struct Reference<div class="ingroups"><a class="el" href="group__DistanceMapGroup.html">Distance Map group</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Structure with parameters for optional offset in <code>distanceMapFromContours</code> function.  
+ <a href="structMR_1_1ContoursDistanceMapOffset.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MRDistanceMap_8h_source.html">MRDistanceMap.h</a>&gt;</code></p>
 <table class="memberdecls">
@@ -113,11 +116,14 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:adedbc97955e245ed2441465fc386f0c5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="el" href="namespaceMR.html#a65798dca01178b50da3bbd7968fb360e">UndirectedEdgeId</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ContoursDistanceMapOffset.html#adedbc97955e245ed2441465fc386f0c5">perEdgeOffset</a></td></tr>
+<tr class="memdesc:adedbc97955e245ed2441465fc386f0c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">offset values for each undirected edge of given polyline  <a href="structMR_1_1ContoursDistanceMapOffset.html#adedbc97955e245ed2441465fc386f0c5">More...</a><br /></td></tr>
 <tr class="separator:adedbc97955e245ed2441465fc386f0c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68a80dcbb5c3dc5175cdb355315dd038"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178">MR::ContoursDistanceMapOffset::OffsetType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ContoursDistanceMapOffset.html#a68a80dcbb5c3dc5175cdb355315dd038">Shell</a></td></tr>
 <tr class="separator:a68a80dcbb5c3dc5175cdb355315dd038"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >Structure with parameters for optional offset in <code>distanceMapFromContours</code> function. </p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="ae4253ef0c3b8227af4acd442f2567178" name="ae4253ef0c3b8227af4acd442f2567178"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae4253ef0c3b8227af4acd442f2567178">&#9670;&nbsp;</a></span>OffsetType</h2>
 
@@ -138,8 +144,10 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae4253ef0c3b8227af4acd442f2567178a960b44c579bc2f6818d2daaf9e4c16f0" name="ae4253ef0c3b8227af4acd442f2567178a960b44c579bc2f6818d2daaf9e4c16f0"></a>Normal&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae4253ef0c3b8227af4acd442f2567178aea89b68c34ce4a63c0f77e17413c6e30" name="ae4253ef0c3b8227af4acd442f2567178aea89b68c34ce4a63c0f77e17413c6e30"></a>Shell&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae4253ef0c3b8227af4acd442f2567178a960b44c579bc2f6818d2daaf9e4c16f0" name="ae4253ef0c3b8227af4acd442f2567178a960b44c579bc2f6818d2daaf9e4c16f0"></a>Normal&#160;</td><td class="fielddoc"><p >distance map from given polyline with values offset </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae4253ef0c3b8227af4acd442f2567178aea89b68c34ce4a63c0f77e17413c6e30" name="ae4253ef0c3b8227af4acd442f2567178aea89b68c34ce4a63c0f77e17413c6e30"></a>Shell&#160;</td><td class="fielddoc"><p >distance map from shell of given polyline (perEdgeOffset should not have negative values ) </p>
+</td></tr>
 </table>
 
 </div>
@@ -156,6 +164,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>offset values for each undirected edge of given polyline </p>
 
 </div>
 </div>

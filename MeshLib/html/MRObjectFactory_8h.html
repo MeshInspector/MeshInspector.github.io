@@ -95,10 +95,7 @@ $(document).ready(function(){initNavTree('MRObjectFactory_8h.html',''); initResi
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle"><div class="title">MRObjectFactory.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -119,21 +116,14 @@ Classes</h2></td></tr>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceMR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
 <tr class="memitem:a24de4e89ad2309dac978ce2ca22604e0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRObjectFactory_8h.html#a24de4e89ad2309dac978ce2ca22604e0">MR_ADD_CLASS_FACTORY</a>(className)&#160;&#160;&#160;    static <a class="el" href="classMR_1_1ObjectFactory.html">MR::ObjectFactory</a>&lt;className&gt; className##_Factory_{ #className };</td></tr>
+<tr class="memdesc:a24de4e89ad2309dac978ce2ca22604e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this macro to register a class in the factory before calling createObject  <a href="MRObjectFactory_8h.html#a24de4e89ad2309dac978ce2ca22604e0">More...</a><br /></td></tr>
 <tr class="separator:a24de4e89ad2309dac978ce2ca22604e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
 <tr class="memitem:a1781590b6f7cbab3c21b2bc45dc89a69"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a1781590b6f7cbab3c21b2bc45dc89a69">MR::ObjectMakerFunc</a> = std::shared_ptr&lt; Object &gt;()</td></tr>
 <tr class="separator:a1781590b6f7cbab3c21b2bc45dc89a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a085d7d3412f6d94799496d313c33276f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; Object &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a085d7d3412f6d94799496d313c33276f">MR::createObject</a> (const std::string &amp;className)</td></tr>
-<tr class="separator:a085d7d3412f6d94799496d313c33276f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga085d7d3412f6d94799496d313c33276f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; Object &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga085d7d3412f6d94799496d313c33276f">MR::createObject</a> (const std::string &amp;className)</td></tr>
+<tr class="memdesc:ga085d7d3412f6d94799496d313c33276f"><td class="mdescLeft">&#160;</td><td class="mdescRight">the function to create new object instance by registered class name  <a href="group__DataModelGroup.html#ga085d7d3412f6d94799496d313c33276f">More...</a><br /></td></tr>
+<tr class="separator:ga085d7d3412f6d94799496d313c33276f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a24de4e89ad2309dac978ce2ca22604e0" name="a24de4e89ad2309dac978ce2ca22604e0"></a>
@@ -151,6 +141,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>use this macro to register a class in the factory before calling createObject </p>
 
 </div>
 </div>

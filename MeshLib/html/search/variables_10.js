@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['scenefilefilters_0',['SceneFileFilters',['../namespaceMR.html#a23013624dd00042658c503443e5d3ffb',1,'MR']]],
+  ['scenefilefilters_0',['SceneFileFilters',['../group__SerializerGroup.html#ga23013624dd00042658c503443e5d3ffb',1,'MR']]],
   ['segmentationexponentmodifier_1',['segmentationExponentModifier',['../structMR_1_1VolumeSegmentationParameters.html#ab07494ac7f1627ecc2dfce39e9502118',1,'MR::VolumeSegmentationParameters']]],
   ['selected_5f_2',['selected_',['../classMR_1_1Object.html#a0d8ef27f83b47e000093eaa0df9c36f9',1,'MR::Object']]],
   ['selectedcolor_5f_3',['selectedColor_',['../classMR_1_1VisualObject.html#a0b981ae239534dd294a2e2a71b36b6df',1,'MR::VisualObject']]],

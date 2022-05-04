@@ -20,12 +20,13 @@ var searchData=
   ['hintdirection_17',['hintDirection',['../structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ab5009f894a6360e076076d4379d340f2',1,'MR::FixUndercuts::ImproveDirectionParameters']]],
   ['histogram_18',['histogram',['../classMR_1_1ObjectVoxels.html#af4e1350561bc2e71d56741b954562868',1,'MR::ObjectVoxels']]],
   ['histogram_19',['Histogram',['../classMR_1_1Histogram.html#aba207b56824356ab7f80254c5fd34819',1,'MR::Histogram::Histogram()=default'],['../classMR_1_1Histogram.html#a9987d6f205ec5eb085631e1d45e333b7',1,'MR::Histogram::Histogram(float min, float max, size_t size)'],['../classMR_1_1Histogram.html',1,'MR::Histogram']]],
-  ['historyaction_20',['HistoryAction',['../classMR_1_1HistoryAction.html',1,'MR']]],
-  ['historyactionsvector_21',['HistoryActionsVector',['../namespaceMR.html#af3dc1bb8e4ca66f348d79f492f812233',1,'MR']]],
-  ['historystackfilter_22',['HistoryStackFilter',['../namespaceMR.html#ab273f85bdfe475fcbca1b38992b44580',1,'MR']]],
-  ['historystore_23',['HistoryStore',['../classMR_1_1HistoryStore.html#a37463f6865be0b80f3c33ab964da7525',1,'MR::HistoryStore::HistoryStore()'],['../namespaceMR.html#a13289bb0637fbc667dab347fd46dbbbb',1,'MR::HistoryStore()'],['../classMR_1_1HistoryStore.html',1,'MR::HistoryStore']]],
-  ['historystorechangedsignal_24',['HistoryStoreChangedSignal',['../classMR_1_1HistoryStore.html#a440531fdee4c587daae1e792a6c62410',1,'MR::HistoryStore']]],
-  ['homepage_2edox_25',['HomePage.dox',['../HomePage_8dox.html',1,'']]],
-  ['horalignment_26',['HorAlignment',['../classMR_1_1Pdf.html#aaaf62b6d295f5aa4aae7734a8d801cbe',1,'MR::Pdf']]],
-  ['howtoexamples_2edox_27',['HowToExamples.dox',['../HowToExamples_8dox.html',1,'']]]
+  ['history_20group_20',['History group',['../group__HistoryGroup.html',1,'']]],
+  ['historyaction_21',['HistoryAction',['../classMR_1_1HistoryAction.html',1,'MR']]],
+  ['historyactionsvector_22',['HistoryActionsVector',['../namespaceMR.html#af3dc1bb8e4ca66f348d79f492f812233',1,'MR']]],
+  ['historystackfilter_23',['HistoryStackFilter',['../namespaceMR.html#ab273f85bdfe475fcbca1b38992b44580',1,'MR']]],
+  ['historystore_24',['HistoryStore',['../classMR_1_1HistoryStore.html#a37463f6865be0b80f3c33ab964da7525',1,'MR::HistoryStore::HistoryStore()'],['../namespaceMR.html#a13289bb0637fbc667dab347fd46dbbbb',1,'MR::HistoryStore()'],['../classMR_1_1HistoryStore.html',1,'MR::HistoryStore']]],
+  ['historystorechangedsignal_25',['HistoryStoreChangedSignal',['../classMR_1_1HistoryStore.html#a440531fdee4c587daae1e792a6c62410',1,'MR::HistoryStore']]],
+  ['homepage_2edox_26',['HomePage.dox',['../HomePage_8dox.html',1,'']]],
+  ['horalignment_27',['HorAlignment',['../classMR_1_1Pdf.html#aaaf62b6d295f5aa4aae7734a8d801cbe',1,'MR::Pdf']]],
+  ['howtoexamples_2edox_28',['HowToExamples.dox',['../HowToExamples_8dox.html',1,'']]]
 ];

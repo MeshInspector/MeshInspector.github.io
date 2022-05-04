@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['iteratorrange_0',['IteratorRange',['../group__IteratorRange.html',1,'']]]
+  ['history_20group_0',['History group',['../group__HistoryGroup.html',1,'']]]
 ];

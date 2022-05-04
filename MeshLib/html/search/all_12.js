@@ -41,7 +41,7 @@ var searchData=
   ['unselectedobjectvoxels_38',['UnselectedObjectVoxels',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa815ab0979a59272abd51680de3a55ab0',1,'MR::SceneColors']]],
   ['unset_39',['unset',['../classMR_1_1DistanceMap.html#accb80725a2b8dca649a538bcf090f98f',1,'MR::DistanceMap::unset(size_t x, size_t y)'],['../classMR_1_1DistanceMap.html#ae9daffb9c88428b1354e37aa4c55fb9d',1,'MR::DistanceMap::unset(size_t i)']]],
   ['updatehistogramandsurface_40',['updateHistogramAndSurface',['../classMR_1_1ObjectVoxels.html#a607e61443e72bdc0eb881a0d3db9fb8c',1,'MR::ObjectVoxels']]],
-  ['updateneighborsradius_41',['updateNeighborsRadius',['../group__TriangulationHelpersGroup.html#ga4666ab0962adfa54f1b547221f3c4005',1,'MRE::TriangulationHelpers']]],
+  ['updateneighborsradius_41',['updateNeighborsRadius',['../group__TriangulationHelpersGroup.html#ga1e033a64bf82c4f821dc0767cd02c2ce',1,'MRE::TriangulationHelpers']]],
   ['updatesolver_42',['updateSolver',['../classMR_1_1Laplacian.html#a3e7bb340acaa3ef81fe7ed9f5eaaf226',1,'MR::Laplacian']]],
   ['updatevertpairs_43',['updateVertPairs',['../classMR_1_1MeshICP.html#aff911d6d53f8e44963f067e7c8ae376e',1,'MR::MeshICP']]],
   ['updirection_44',['upDirection',['../structMR_1_1VerticalStitchMetric.html#a3ee71cdbba129e2bca75cdbd5a2702f3',1,'MR::VerticalStitchMetric']]],

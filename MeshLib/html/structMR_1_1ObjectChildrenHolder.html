@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('structMR_1_1ObjectChildrenHolder.html'
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="structMR_1_1ObjectChildrenHolder-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::ObjectChildrenHolder Struct Reference</div></div>
+  <div class="headertitle"><div class="title">MR::ObjectChildrenHolder Struct Reference<div class="ingroups"><a class="el" href="group__DataModelGroup.html">Data Model</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -110,8 +110,8 @@ $(document).ready(function(){initNavTree('structMR_1_1ObjectChildrenHolder.html'
  <div class="center">
   <img src="structMR_1_1ObjectChildrenHolder.png" usemap="#MR::ObjectChildrenHolder_map" alt=""/>
   <map id="MR::ObjectChildrenHolder_map" name="MR::ObjectChildrenHolder_map">
-<area href="classMR_1_1Object.html" alt="MR::Object" shape="rect" coords="340,56,500,80"/>
-<area href="classMR_1_1VisualObject.html" alt="MR::VisualObject" shape="rect" coords="340,112,500,136"/>
+<area href="classMR_1_1Object.html" title="named object in the data model" alt="MR::Object" shape="rect" coords="340,56,500,80"/>
+<area href="classMR_1_1VisualObject.html" title="Visual Object." alt="MR::VisualObject" shape="rect" coords="340,112,500,136"/>
 <area href="classMR_1_1ObjectLinesHolder.html" alt="MR::ObjectLinesHolder" shape="rect" coords="0,168,160,192"/>
 <area href="classMR_1_1ObjectMeshHolder.html" alt="MR::ObjectMeshHolder" shape="rect" coords="340,168,500,192"/>
 <area href="classMR_1_1ObjectPointsHolder.html" alt="MR::ObjectPointsHolder" shape="rect" coords="680,168,840,192"/>
@@ -152,9 +152,12 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a20c010d72c82523c01e5de05910eb34c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ObjectChildrenHolder.html#a20c010d72c82523c01e5de05910eb34c">children_</a></td></tr>
 <tr class="separator:a20c010d72c82523c01e5de05910eb34c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ba9302240c85bc5dfd78068e7b2e918"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::weak_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ObjectChildrenHolder.html#a2ba9302240c85bc5dfd78068e7b2e918">bastards_</a></td></tr>
+<tr class="memdesc:a2ba9302240c85bc5dfd78068e7b2e918"><td class="mdescLeft">&#160;</td><td class="mdescRight">recognized ones  <a href="structMR_1_1ObjectChildrenHolder.html#a2ba9302240c85bc5dfd78068e7b2e918">More...</a><br /></td></tr>
 <tr class="separator:a2ba9302240c85bc5dfd78068e7b2e918"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >since every object stores a pointer on its parent, copying of this object is prohibited and moving is taken with care </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="acad4a073a2e703743e01e2e5cce9e285" name="acad4a073a2e703743e01e2e5cce9e285"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acad4a073a2e703743e01e2e5cce9e285">&#9670;&nbsp;</a></span>ObjectChildrenHolder() <span class="overload">[1/3]</span></h2>
 
@@ -264,6 +267,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >returns the amount of memory this object occupies on heap, including the memory of all recognized children </p>
 
 </div>
 </div>
@@ -339,6 +343,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>recognized ones </p>
 
 </div>
 </div>

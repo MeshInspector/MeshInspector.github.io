@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('classMR_1_1XfBasedCache.html',''); ini
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classMR_1_1XfBasedCache-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::XfBasedCache&lt; T &gt; Class Template Reference</div></div>
+  <div class="headertitle"><div class="title">MR::XfBasedCache&lt; T &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__DataModelGroup.html">Data Model</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -105,13 +105,19 @@ $(document).ready(function(){initNavTree('classMR_1_1XfBasedCache.html',''); ini
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4cb9593831740a31e6a6933644435799"><td class="memItemLeft" align="right" valign="top">const std::optional&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1XfBasedCache.html#a4cb9593831740a31e6a6933644435799">get</a> (const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;xf) const</td></tr>
+<tr class="memdesc:a4cb9593831740a31e6a6933644435799"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns stored object only if requested transformation is the same as stored one  <a href="classMR_1_1XfBasedCache.html#a4cb9593831740a31e6a6933644435799">More...</a><br /></td></tr>
 <tr class="separator:a4cb9593831740a31e6a6933644435799"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b3e82656a92381f41f435da52178562"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1XfBasedCache.html#a3b3e82656a92381f41f435da52178562">set</a> (const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;xf, T t)</td></tr>
+<tr class="memdesc:a3b3e82656a92381f41f435da52178562"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets new transformation and the object  <a href="classMR_1_1XfBasedCache.html#a3b3e82656a92381f41f435da52178562">More...</a><br /></td></tr>
 <tr class="separator:a3b3e82656a92381f41f435da52178562"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6341f3c9b4f6ccb5bcf18cc28ccf5efc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1XfBasedCache.html#a6341f3c9b4f6ccb5bcf18cc28ccf5efc">reset</a> ()</td></tr>
+<tr class="memdesc:a6341f3c9b4f6ccb5bcf18cc28ccf5efc"><td class="mdescLeft">&#160;</td><td class="mdescRight">clears stored object  <a href="classMR_1_1XfBasedCache.html#a6341f3c9b4f6ccb5bcf18cc28ccf5efc">More...</a><br /></td></tr>
 <tr class="separator:a6341f3c9b4f6ccb5bcf18cc28ccf5efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class T&gt;<br />
+class MR::XfBasedCache&lt; T &gt;</div><p >optional T-object container, which stores a transformation as well for which the object is valid </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a4cb9593831740a31e6a6933644435799" name="a4cb9593831740a31e6a6933644435799"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4cb9593831740a31e6a6933644435799">&#9670;&nbsp;</a></span>get()</h2>
 
@@ -137,6 +143,8 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>returns stored object only if requested transformation is the same as stored one </p>
 
 </div>
 </div>
@@ -164,6 +172,8 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>clears stored object </p>
 
 </div>
 </div>
@@ -202,6 +212,8 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>sets new transformation and the object </p>
 
 </div>
 </div>
