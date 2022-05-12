@@ -1,17 +1,14 @@
 var searchData=
 [
-  ['x_0',['x',['../structMR_1_1Matrix2.html#a07a97bdc2d9081ca6bb3f61742dd1074',1,'MR::Matrix2::x()'],['../structMR_1_1Matrix3.html#a34220148555a9b57f32f7edb08289ea4',1,'MR::Matrix3::x()'],['../structMR_1_1Matrix4.html#afefd6af8bdb869e88d5062c6aa38c746',1,'MR::Matrix4::x()'],['../structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c',1,'MR::Vector2::x()'],['../structMR_1_1Vector3.html#a3d6f56ed3c525a928116d6c095997c5c',1,'MR::Vector3::x()'],['../structMR_1_1Vector4.html#a2430707dabdc5933eb1c27e622a73c04',1,'MR::Vector4::x()']]],
-  ['xf_1',['xf',['../structMRE_1_1TransformedMesh.html#a2709c282925fbe8e9874bd82e30d38ec',1,'MRE::TransformedMesh::xf()'],['../classMR_1_1Object.html#a7f09e08ac20f846fdbc9295001109428',1,'MR::Object::xf() const']]],
-  ['xf_5f_2',['xf_',['../classMR_1_1Object.html#af6c0631e7edf10aa753d844495be0950',1,'MR::Object']]],
-  ['xfaround_3',['xfAround',['../structMR_1_1AffineXf.html#a55cf315823a39d0647333ca27a0b8e98',1,'MR::AffineXf']]],
-  ['xfbasedcache_4',['XfBasedCache',['../classMR_1_1XfBasedCache.html',1,'MR']]],
-  ['xfbasedcache_3c_20mr_3a_3abox_20_3e_5',['XfBasedCache&lt; MR::Box &gt;',['../classMR_1_1XfBasedCache.html',1,'MR']]],
-  ['xfchangedsignal_6',['xfChangedSignal',['../classMR_1_1Object.html#a53b1ca36265166bd0b311aead0529867',1,'MR::Object']]],
-  ['xfchangedsignal_7',['XfChangedSignal',['../classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c',1,'MR::Object']]],
-  ['xrange_8',['xRange',['../structMR_1_1MeshToDistanceMapParams.html#acbd0c885022ae4d52662d581094cee10',1,'MR::MeshToDistanceMapParams']]],
-  ['xsputn_9',['xsputn',['../classMR_1_1LoggingStreambuf.html#ad3da2990b79129af6e4cb2426b138860',1,'MR::LoggingStreambuf']]],
-  ['xx_10',['xx',['../structMR_1_1SymMatrix2.html#af527509f666f1f4e66becbf773677189',1,'MR::SymMatrix2::xx()'],['../structMR_1_1SymMatrix3.html#a9bb4e4e398d4c529a5a88c7b95c381c2',1,'MR::SymMatrix3::xx()']]],
-  ['xy_11',['xy',['../structMR_1_1SymMatrix2.html#a298176c6fdc19f53dcf4b4c5e9624b01',1,'MR::SymMatrix2::xy()'],['../structMR_1_1SymMatrix3.html#a338177889f057fdb4fe9ad0781e40582',1,'MR::SymMatrix3::xy()']]],
-  ['xy_12',['XY',['../namespaceMR.html#ae7c8689563553fe7686bd6b71ddf8f18a3629e4a37a6ff95437939d8664d158e9',1,'MR']]],
-  ['xz_13',['xz',['../structMR_1_1SymMatrix3.html#a975295446a9281ca38f7ff5967875eb8',1,'MR::SymMatrix3']]]
+  ['w_0',['w',['../structMR_1_1Matrix4.html#a9e0640aaf9b368a204fd42127c9e93e3',1,'MR::Matrix4::w()'],['../structMR_1_1Vector4.html#a2a2d849b18944213202e305115b457a6',1,'MR::Vector4::w()']]],
+  ['warp_1',['warp',['../structMR_1_1MeshTexture.html#a3a8eb424031f0ac05e897d983fa827fc',1,'MR::MeshTexture']]],
+  ['warptype_2',['WarpType',['../structMR_1_1MeshTexture.html#a02b38209ef48a938635275b79553f4e8',1,'MR::MeshTexture']]],
+  ['weight_3',['weight',['../structMR_1_1VertPair.html#a6be4702849ae600ea471ab410b2190f8',1,'MR::VertPair']]],
+  ['white_4',['white',['../structMR_1_1Color.html#afdf32fadc1e749715ad1911813a76f75',1,'MR::Color']]],
+  ['width_5',['width',['../group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af',1,'MR']]],
+  ['withsign_6',['withSign',['../structMR_1_1ContourToDistanceMapParams.html#afe6ef70a540df80fca43fb338ca681ce',1,'MR::ContourToDistanceMapParams']]],
+  ['worldbox_5f_7',['worldBox_',['../classMR_1_1ObjectLinesHolder.html#ab981ff2c440ecf1af75a6afb682219ab',1,'MR::ObjectLinesHolder::worldBox_()'],['../classMR_1_1ObjectMeshHolder.html#a5c528b52891a63f20ed7dbc0728f5e65',1,'MR::ObjectMeshHolder::worldBox_()'],['../classMR_1_1ObjectPointsHolder.html#acab8755592e3b28cdcecbcf452c921e5',1,'MR::ObjectPointsHolder::worldBox_()']]],
+  ['worldrayintersection_8',['worldRayIntersection',['../classMR_1_1ObjectMesh.html#a42f008e1d02b82af779b6378ba9402d5',1,'MR::ObjectMesh']]],
+  ['worldxf_9',['worldXf',['../classMR_1_1Object.html#a31913dd48c26cd7bef1447b1f891cdf4',1,'MR::Object']]],
+  ['write_10',['write',['../classMR_1_1MeshTopology.html#a698bdffc6553d99627eff8444ae95cfb',1,'MR::MeshTopology::write()'],['../classMR_1_1PolylineTopology.html#afeacaa2685ac05679afb0b6675a1ff4b',1,'MR::PolylineTopology::write()'],['../classPythonStreamRedirector.html#a2dde8d2c176e672c39dd11e8c356db1e',1,'PythonStreamRedirector::write()']]]
 ];

@@ -33,5 +33,5 @@ var searchData=
   ['loadraw_30',['loadRaw',['../group__DistanceMapLoadGroup.html#ga2f299e9902553662efce51bcb142d638',1,'MR::DistanceMapLoad::loadRaw()'],['../group__VoxelsLoadGroup.html#gaa9abed217804416824e973007c8dc6e2',1,'MR::VoxelsLoad::loadRaw(const std::filesystem::path &amp;path, const RawParameters &amp;params, const ProgressCallback &amp;cb={})'],['../group__VoxelsLoadGroup.html#ga65dfedbe323fb5135adaecbb38bf740e',1,'MR::VoxelsLoad::loadRaw(const std::filesystem::path &amp;path, const ProgressCallback &amp;cb={})']]],
   ['loadsurfacepc_31',['loadSurfacePC',['../classMR_1_1RegularMapMesher.html#ae3e690f9ee38c8774b9663885a8179fa',1,'MR::RegularMapMesher']]],
   ['loggingstreambuf_32',['LoggingStreambuf',['../classMR_1_1LoggingStreambuf.html#af253d14866ae6530d01634b16042d387',1,'MR::LoggingStreambuf']]],
-  ['lookat_33',['lookAt',['../namespaceMR.html#a9ae923a2855ed035b5d5f74b3162c0da',1,'MR']]]
+  ['lookat_33',['lookAt',['../group__MathGroup.html#ga9ae923a2855ed035b5d5f74b3162c0da',1,'MR']]]
 ];

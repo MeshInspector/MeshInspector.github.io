@@ -23,10 +23,10 @@ var searchData=
   ['visibilitymask_20',['visibilityMask',['../classMR_1_1Object.html#aa06240f9736a566b00e4541e450b8e57',1,'MR::Object']]],
   ['visualobject_21',['VisualObject',['../classMR_1_1VisualObject.html#a248a0efabc82874bd29ca605c2fb7481',1,'MR::VisualObject::VisualObject()'],['../classMR_1_1VisualObject.html#a95016bb1aefebfa8952ac3457cc57ee4',1,'MR::VisualObject::VisualObject(VisualObject &amp;&amp;)=default'],['../classMR_1_1VisualObject.html#a132f300dcd5614eaaa237b865dc79763',1,'MR::VisualObject::VisualObject(ProtectedStruct, const VisualObject &amp;obj)'],['../classMR_1_1VisualObject.html#aaac191711df9841f6b7fc77cb21844a6',1,'MR::VisualObject::VisualObject(const VisualObject &amp;obj)']]],
   ['volume_22',['volume',['../structMR_1_1Box.html#aaf8c494ec86f9a6ef904299b78f1cc23',1,'MR::Box::volume()'],['../structMR_1_1Mesh.html#a952176d5bcd16b91d26dc6fa2a0bdc6c',1,'MR::Mesh::volume()']]],
-  ['volumeindexer_23',['VolumeIndexer',['../classMR_1_1VolumeIndexer.html#ad64c0feac5a4c85334c9de7dda628dfb',1,'MR::VolumeIndexer']]],
+  ['volumeindexer_23',['VolumeIndexer',['../group__VoxelGroup.html#gad64c0feac5a4c85334c9de7dda628dfb',1,'MR::VolumeIndexer']]],
   ['volumesegmenter_24',['VolumeSegmenter',['../classMR_1_1VolumeSegmenter.html#a3b873fd7454ef53287d695e0d2754767',1,'MR::VolumeSegmenter']]],
   ['voxelizeandcomputevolume_25',['voxelizeAndComputeVolume',['../namespaceMR.html#a95448d86b9e9dc01e6f9391c76bd06f6',1,'MR']]],
-  ['voxelsexponentmetric_26',['voxelsExponentMetric',['../namespaceMR.html#a819f3665bd030abd3889caf70d44ca56',1,'MR']]],
+  ['voxelsexponentmetric_26',['voxelsExponentMetric',['../group__VoxelPathGroup.html#ga819f3665bd030abd3889caf70d44ca56',1,'MR']]],
   ['voxelsize_27',['voxelSize',['../classMR_1_1ObjectVoxels.html#a15d13587d3a07d097c841db2c9face4d',1,'MR::ObjectVoxels']]],
-  ['voxelssumdiffsmetric_28',['voxelsSumDiffsMetric',['../namespaceMR.html#a6d57b82ebe60f6288efa02bac4848dab',1,'MR']]]
+  ['voxelssumdiffsmetric_28',['voxelsSumDiffsMetric',['../group__VoxelPathGroup.html#ga6d57b82ebe60f6288efa02bac4848dab',1,'MR']]]
 ];

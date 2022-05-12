@@ -21,5 +21,5 @@ var searchData=
   ['meshintersectioncallback_18',['MeshIntersectionCallback',['../group__AABBTreeGroup.html#gab84b0b767274335b6f0f59bbb9537fe3',1,'MR']]],
   ['meshloader_19',['MeshLoader',['../group__IOFormatsRegistryGroup.html#ga45aa3f6a621fff75668512378ba715d8',1,'MR::MeshLoad']]],
   ['meshstreamloader_20',['MeshStreamLoader',['../group__IOFormatsRegistryGroup.html#ga4e219b8ce33112893995d2e3fc17e705',1,'MR::MeshLoad']]],
-  ['multipleedge_21',['MultipleEdge',['../namespaceMR.html#a807cd3d017d23c56a0f6ea1cb1f7c8cb',1,'MR']]]
+  ['multipleedge_21',['MultipleEdge',['../group__MeshFixerGroup.html#ga807cd3d017d23c56a0f6ea1cb1f7c8cb',1,'MR']]]
 ];

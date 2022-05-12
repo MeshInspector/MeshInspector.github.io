@@ -9,6 +9,8 @@ var structMR_1_1SymMatrix2 =
     [ "operator+=", "structMR_1_1SymMatrix2.html#aadb5fa684446a94e5c5b1148543e7761", null ],
     [ "operator-=", "structMR_1_1SymMatrix2.html#a00825772702cbd97018eca7af85866ad", null ],
     [ "operator/=", "structMR_1_1SymMatrix2.html#a841408afb3b039fd491f2c3078d9ad99", null ],
+    [ "operator*", "structMR_1_1SymMatrix2.html#a794820de02de93d89f45517747122e36", null ],
+    [ "outerSquare", "structMR_1_1SymMatrix2.html#a7023f18d2ffbf60a3eb3b4cd2fe1ce18", null ],
     [ "xx", "structMR_1_1SymMatrix2.html#af527509f666f1f4e66becbf773677189", null ],
     [ "xy", "structMR_1_1SymMatrix2.html#a298176c6fdc19f53dcf4b4c5e9624b01", null ],
     [ "yy", "structMR_1_1SymMatrix2.html#a3f9de72646e2a2bbf46b9eb3a2691fc2", null ]

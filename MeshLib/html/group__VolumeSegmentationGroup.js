@@ -21,6 +21,5 @@ var group__VolumeSegmentationGroup =
       [ "segmentVolume", "classMR_1_1VolumeSegmenter.html#a24898941623ddbd2e37ec6cf3c3ca761", null ],
       [ "setSeeds", "classMR_1_1VolumeSegmenter.html#a5e2381048221676f7c2c5beadb063dc2", null ]
     ] ],
-    [ "MR::segmentVolume", "group__VolumeSegmentationGroup.html#gae66d4204eadd90d95a5ea795a2029dbc", null ],
-    [ "MR::segmentVolumeByGraphCut", "group__VolumeSegmentationGroup.html#ga65373b46691c5beac19d1782aa377b0a", null ]
+    [ "MR::segmentVolume", "group__VolumeSegmentationGroup.html#gae66d4204eadd90d95a5ea795a2029dbc", null ]
 ];

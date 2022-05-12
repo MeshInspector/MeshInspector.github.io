@@ -1,19 +1,5 @@
 var group__FillHoleGroup =
 [
-    [ "MRE::ComplexFillMetric", "structMRE_1_1ComplexFillMetric.html", [
-      [ "ComplexFillMetric", "structMRE_1_1ComplexFillMetric.html#af0967a47a0af6f4ab8fdc3799d331931", null ],
-      [ "getEdgeMetric", "structMRE_1_1ComplexFillMetric.html#a3453396b6b8731ca2c55a179303465fe", null ],
-      [ "getTriangleMetric", "structMRE_1_1ComplexFillMetric.html#a6bb6cbfd5b536d2fdc5dcb5e8d3d0a3f", null ],
-      [ "points", "structMRE_1_1ComplexFillMetric.html#ae74475a278058c846dc70d56110f25ef", null ],
-      [ "reverseCharacteristicTriArea", "structMRE_1_1ComplexFillMetric.html#a089046ea8b14b5f03ce052ddf754dcb8", null ]
-    ] ],
-    [ "MRE::ParallelPlaneFillMetric", "structMRE_1_1ParallelPlaneFillMetric.html", [
-      [ "ParallelPlaneFillMetric", "structMRE_1_1ParallelPlaneFillMetric.html#abee14d5368339f27202e6058c55c0bd4", null ],
-      [ "getEdgeMetric", "structMRE_1_1ParallelPlaneFillMetric.html#aa0560339ffccb2bf90f2a6e0fa8b438b", null ],
-      [ "getTriangleMetric", "structMRE_1_1ParallelPlaneFillMetric.html#abfe4e3816e995156e65b7247acff7063", null ],
-      [ "normal", "structMRE_1_1ParallelPlaneFillMetric.html#a428e74505a3605604afa9418346bb834", null ],
-      [ "points", "structMRE_1_1ParallelPlaneFillMetric.html#a417b919467482307eba8f97152578235", null ]
-    ] ],
     [ "MR::FillHoleParams", "structMR_1_1FillHoleParams.html", [
       [ "MultipleEdgesResolveMode", "structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301", [
         [ "None", "structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a6adf97f83acf6453d4a6a4b1070f3754", null ],
@@ -49,7 +35,13 @@ var group__FillHoleGroup =
       [ "norm", "structMR_1_1PlaneFillMetric.html#a25d967d69400be8760afb0e149acdd10", null ],
       [ "points", "structMR_1_1PlaneFillMetric.html#a4759f3479dbf66764343661555b6a0b8", null ]
     ] ],
-    [ "PlaneNormalizedFillMetricPlaneNormalizedFillMetric", "structMR_1_1PlaneNormalizedFillMetricPlaneNormalizedFillMetric.html", null ],
+    [ "MR::PlaneNormalizedFillMetric", "structMR_1_1PlaneNormalizedFillMetric.html", [
+      [ "PlaneNormalizedFillMetric", "structMR_1_1PlaneNormalizedFillMetric.html#a1a9dfee53e2d108fdbe8c0e12edb6fc2", null ],
+      [ "getEdgeMetric", "structMR_1_1PlaneNormalizedFillMetric.html#a02f47104c3af75517a775cf9eeb9d48f", null ],
+      [ "getTriangleMetric", "structMR_1_1PlaneNormalizedFillMetric.html#ac9df9b143eb9f67b23de63f51c4c6c0b", null ],
+      [ "norm", "structMR_1_1PlaneNormalizedFillMetric.html#a1070a96b0feb49cfdde3993961146229", null ],
+      [ "points", "structMR_1_1PlaneNormalizedFillMetric.html#a2d46260dbacf7812d9e50f2c0b2b7110", null ]
+    ] ],
     [ "MR::ComplexStitchMetric", "structMR_1_1ComplexStitchMetric.html", [
       [ "ComplexStitchMetric", "structMR_1_1ComplexStitchMetric.html#ad108051abdcc66e3b21cec75b0ab9adf", null ],
       [ "getEdgeMetric", "structMR_1_1ComplexStitchMetric.html#a112c17d68a267185e2524893eeb87b6c", null ],
@@ -81,7 +73,29 @@ var group__FillHoleGroup =
       [ "points", "structMR_1_1VerticalStitchMetric.html#ac1fa479311e46357c382d9157e0a3906", null ],
       [ "upDirection", "structMR_1_1VerticalStitchMetric.html#a3ee71cdbba129e2bca75cdbd5a2702f3", null ]
     ] ],
+    [ "MRE::ComplexFillMetric", "structMRE_1_1ComplexFillMetric.html", [
+      [ "ComplexFillMetric", "structMRE_1_1ComplexFillMetric.html#af0967a47a0af6f4ab8fdc3799d331931", null ],
+      [ "getEdgeMetric", "structMRE_1_1ComplexFillMetric.html#a3453396b6b8731ca2c55a179303465fe", null ],
+      [ "getTriangleMetric", "structMRE_1_1ComplexFillMetric.html#a6bb6cbfd5b536d2fdc5dcb5e8d3d0a3f", null ],
+      [ "points", "structMRE_1_1ComplexFillMetric.html#ae74475a278058c846dc70d56110f25ef", null ],
+      [ "reverseCharacteristicTriArea", "structMRE_1_1ComplexFillMetric.html#a089046ea8b14b5f03ce052ddf754dcb8", null ]
+    ] ],
+    [ "MRE::ParallelPlaneFillMetric", "structMRE_1_1ParallelPlaneFillMetric.html", [
+      [ "ParallelPlaneFillMetric", "structMRE_1_1ParallelPlaneFillMetric.html#abee14d5368339f27202e6058c55c0bd4", null ],
+      [ "getEdgeMetric", "structMRE_1_1ParallelPlaneFillMetric.html#aa0560339ffccb2bf90f2a6e0fa8b438b", null ],
+      [ "getTriangleMetric", "structMRE_1_1ParallelPlaneFillMetric.html#abfe4e3816e995156e65b7247acff7063", null ],
+      [ "normal", "structMRE_1_1ParallelPlaneFillMetric.html#a428e74505a3605604afa9418346bb834", null ],
+      [ "points", "structMRE_1_1ParallelPlaneFillMetric.html#a417b919467482307eba8f97152578235", null ]
+    ] ],
+    [ "PlaneNormalizedFillMetricPlaneNormalizedFillMetric", "structMR_1_1PlaneNormalizedFillMetricPlaneNormalizedFillMetric.html", null ],
+    [ "MR::buildBottom", "group__FillHoleGroup.html#ga7bee2d636a1f5f931ac54f6f841c07f7", null ],
+    [ "MR::buildCylinderBetweenTwoHoles", "group__FillHoleGroup.html#gaf61677f65331b42d3022a70d4b550a13", null ],
     [ "MR::buildCylinderBetweenTwoHoles", "group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157", null ],
+    [ "MR::extendHole", "group__FillHoleGroup.html#ga3c7779fd4cc2d941f67da4462b2d0121", null ],
+    [ "MR::extendHole", "group__FillHoleGroup.html#ga067cc1eda81ae410fdf9299ca802738a", null ],
     [ "MR::fillHole", "group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05", null ],
-    [ "MR::fillHoleTrivially", "group__FillHoleGroup.html#ga0241a36cc2b1016fd0cf66e9ae71f722", null ]
+    [ "MR::fillHoleTrivially", "group__FillHoleGroup.html#ga0241a36cc2b1016fd0cf66e9ae71f722", null ],
+    [ "MR::makeBridge", "group__FillHoleGroup.html#ga5b018c101d16b1695c0a3152e89ecdb3", null ],
+    [ "MR::makeBridgeEdge", "group__FillHoleGroup.html#ga86668640c827d61e8ee92b7a74dc558d", null ],
+    [ "MR::makeDegenerateBandAroundHole", "group__FillHoleGroup.html#ga10d97d0e9b001fe0d4915154d1945e77", null ]
 ];

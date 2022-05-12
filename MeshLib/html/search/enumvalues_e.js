@@ -15,7 +15,7 @@ var searchData=
   ['simple_12',['Simple',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a1fbb1e3943c2c6c560247ac8f9289780',1,'MR::FillHoleParams']]],
   ['smooth_13',['Smooth',['../structMR_1_1LinesVisualizePropertyType.html#aab5df7db454ff09605f0b0252d48d0e2a92edd5447d991ddb22f08259adacfa1c',1,'MR::LinesVisualizePropertyType']]],
   ['solidcolor_14',['SolidColor',['../group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854',1,'MR']]],
-  ['startendnotconnected_15',['StartEndNotConnected',['../namespaceMR.html#af2c93aa0da8a9748d23340f32349a8b8aad309ea76f6bf055e7b62a3dd200631f',1,'MR']]],
+  ['startendnotconnected_15',['StartEndNotConnected',['../group__SurfacePathSubgroup.html#ggaf2c93aa0da8a9748d23340f32349a8b8aad309ea76f6bf055e7b62a3dd200631f',1,'MR']]],
   ['stderr_16',['Stderr',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af',1,'MRPython.h']]],
   ['stdout_17',['Stdout',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101',1,'MRPython.h']]],
   ['strong_18',['Strong',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9',1,'MR::FillHoleParams']]]

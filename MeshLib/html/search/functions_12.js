@@ -2,7 +2,7 @@ var searchData=
 [
   ['undirected_0',['undirected',['../classMR_1_1Id_3_01EdgeTag_01_4.html#a4e6940aab1e16781dc5c4d8a8097f87a',1,'MR::Id&lt; EdgeTag &gt;']]],
   ['undirectededgeiterator_1',['UndirectedEdgeIterator',['../classMR_1_1UndirectedEdgeIterator.html#a909a01b0735f738d785b0d1688d8b7d6',1,'MR::UndirectedEdgeIterator::UndirectedEdgeIterator(const MeshTopology &amp;topology)'],['../classMR_1_1UndirectedEdgeIterator.html#ac2f62dff10799ac6dca52798a4b22a9f',1,'MR::UndirectedEdgeIterator::UndirectedEdgeIterator()=default']]],
-  ['undirectededges_2',['undirectedEdges',['../namespaceMR.html#a6de91a42354f4257ba3081c18a497828',1,'MR::undirectedEdges(const MeshTopology &amp;topology)'],['../namespaceMR.html#a0ac0c8d010d477c9843b5309fd96827d',1,'MR::undirectedEdges(const PolylineTopology &amp;topology)']]],
+  ['undirectededges_2',['undirectedEdges',['../namespaceMR.html#a6de91a42354f4257ba3081c18a497828',1,'MR']]],
   ['undirectededgesize_3',['undirectedEdgeSize',['../classMR_1_1MeshTopology.html#ac98224de2783697878fbe01eb90c1f13',1,'MR::MeshTopology::undirectedEdgeSize()'],['../classMR_1_1PolylineTopology.html#a061dd907ada10af2d8ed533c49f4b0ab',1,'MR::PolylineTopology::undirectedEdgeSize()']]],
   ['undirectededgeundirectededge_4',['UndirectedEdgeUndirectedEdge',['../structMR_1_1UndirectedEdgeUndirectedEdge.html#a76340cad705f0262c4adba8d2e051524',1,'MR::UndirectedEdgeUndirectedEdge::UndirectedEdgeUndirectedEdge(UndirectedEdgeId a, UndirectedEdgeId b)'],['../structMR_1_1UndirectedEdgeUndirectedEdge.html#afc38d24da2e811fd6d7ae9a05045b2d0',1,'MR::UndirectedEdgeUndirectedEdge::UndirectedEdgeUndirectedEdge()']]],
   ['undo_5',['undo',['../classMR_1_1HistoryStore.html#aea1440c49e39cc9ab8e073de63271147',1,'MR::HistoryStore']]],

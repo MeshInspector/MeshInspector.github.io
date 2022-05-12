@@ -20,6 +20,9 @@ var structMR_1_1Matrix3 =
     [ "toScale", "structMR_1_1Matrix3.html#a7497550607521f88a825f8d4ad5c5d2c", null ],
     [ "trace", "structMR_1_1Matrix3.html#a8da74330f294845348d2dee9fdf81eb4", null ],
     [ "transposed", "structMR_1_1Matrix3.html#a112f3a49d572819df2602fdfb0bcbcfb", null ],
+    [ "operator*", "structMR_1_1Matrix3.html#a18f8d16df7841a2662e8d45bcdd59559", null ],
+    [ "operator*", "structMR_1_1Matrix3.html#a89507838627c0de2cf92697264d27e02", null ],
+    [ "outer", "structMR_1_1Matrix3.html#a02a7e818581b6cd47f887b32c11edc5b", null ],
     [ "x", "structMR_1_1Matrix3.html#a34220148555a9b57f32f7edb08289ea4", null ],
     [ "y", "structMR_1_1Matrix3.html#aafd25b0c56a5f7a67abb2afa5d652912", null ],
     [ "z", "structMR_1_1Matrix3.html#ae0145a330e7ad72bfdb5e8813c7ee37f", null ]

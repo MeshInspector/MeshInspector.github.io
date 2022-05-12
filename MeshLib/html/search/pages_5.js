@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['thirdparty_20list_0',['Thirdparty list',['../ThirdParty.html',1,'']]]
+  ['python_20overview_0',['Python overview',['../EmbendedPythonOverview.html',1,'']]]
 ];

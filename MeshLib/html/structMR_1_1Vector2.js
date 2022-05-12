@@ -7,7 +7,7 @@ var structMR_1_1Vector2 =
     [ "Vector2", "structMR_1_1Vector2.html#a9c5f2b992789dba5c6d4e8e80ed28fa0", null ],
     [ "Vector2", "structMR_1_1Vector2.html#a5d6364a368131508a540587a1b1428cf", null ],
     [ "Vector2", "structMR_1_1Vector2.html#a1f64d08ffa10b15e43c0a0b1e717715b", null ],
-    [ "furthestBasisVector", "structMR_1_1Vector2.html#a4fef9290221d57f1dbc56732ab43d5b7", null ],
+    [ "furthestBasisVector", "structMR_1_1Vector2.html#a121879d96138102e1471613ca1ac2815", null ],
     [ "length", "structMR_1_1Vector2.html#a7c5be9748ce1523fb56704ce6aa2f62f", null ],
     [ "lengthSq", "structMR_1_1Vector2.html#ad798818540cd3ad9d2c98a4f978f8e5c", null ],
     [ "normalized", "structMR_1_1Vector2.html#ab4e40155ff2cca5786fd9aa586efb49c", null ],
@@ -19,6 +19,9 @@ var structMR_1_1Vector2 =
     [ "operator/=", "structMR_1_1Vector2.html#ab7fcc36a4aed6877f53de2be29034e67", null ],
     [ "operator[]", "structMR_1_1Vector2.html#a689355b8d3f06c842bf414b949c7510e", null ],
     [ "operator[]", "structMR_1_1Vector2.html#ac44db7ddb1694b996824036c9f755b9e", null ],
+    [ "angle", "structMR_1_1Vector2.html#af97f888d41c35987fa2e24cfdf696621", null ],
+    [ "cross", "structMR_1_1Vector2.html#a07bafe90fc0230d0cef79991e7858dff", null ],
+    [ "dot", "structMR_1_1Vector2.html#a6c8408d5ef7e501f160602528912a167", null ],
     [ "x", "structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c", null ],
     [ "y", "structMR_1_1Vector2.html#a5186451c51a4f421a0b810a3f836fae8", null ]
 ];

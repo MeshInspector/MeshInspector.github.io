@@ -11,6 +11,9 @@ var group__BasicGroup =
       [ "operator-=", "classMR_1_1BitSet.html#a2b67ad8030f22aa236b64a04fb2459dc", null ],
       [ "operator^=", "classMR_1_1BitSet.html#aeb7bb0c8ddc8cb0b9a917fe43a2cc514", null ],
       [ "operator|=", "classMR_1_1BitSet.html#ae73a641818182660d303a4b2db7d34a4", null ],
+      [ "reset", "classMR_1_1BitSet.html#a247ac2e0767fad340477836233e87cb8", null ],
+      [ "reset", "classMR_1_1BitSet.html#aa2267b11bc02d8a216df148fdccc02a3", null ],
+      [ "reset", "classMR_1_1BitSet.html#a784dcb0f29bf20a645a4267b68d0d6ae", null ],
       [ "test", "classMR_1_1BitSet.html#aab6d4690169ae21969bc5f538fc8fbff", null ]
     ] ],
     [ "MR::TaggedBitSet< T >", "classMR_1_1TaggedBitSet.html", [
@@ -165,7 +168,9 @@ var group__BasicGroup =
     [ "MR::begin", "group__BasicGroup.html#ga25c73b1f9e5d5df34b153869e3cb5515", null ],
     [ "MR::begin", "group__BasicGroup.html#gaf98212c07ebfc00c3d84f1b850490822", null ],
     [ "MR::BitSetParallelFor", "group__BasicGroup.html#ga6668adaae45af9cbb54e22fff0ef0ab7", null ],
+    [ "MR::BitSetParallelFor", "group__BasicGroup.html#gae77c4012b81bb297783a8026328929d1", null ],
     [ "MR::BitSetParallelForAll", "group__BasicGroup.html#gaec1d8613d38041fae09f290f342a4995", null ],
+    [ "MR::BitSetParallelForAll", "group__BasicGroup.html#gac9c30dc2587e0a52a1fbec21269703aa", null ],
     [ "MR::contains", "group__BasicGroup.html#gaae680d00c7b1337cc8ad166eb5089694", null ],
     [ "MR::contains", "group__BasicGroup.html#gaf22d770b767eff4d37bc4be52ef5032f", null ],
     [ "MR::edgeMapsComposition", "group__BasicGroup.html#gaa8261f1d45e6d92532c31f3e4ca98614", null ],

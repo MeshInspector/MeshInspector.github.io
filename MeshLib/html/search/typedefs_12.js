@@ -5,13 +5,13 @@ var searchData=
   ['vector2b_2',['Vector2b',['../namespaceMR.html#a449ae936a00d0bc105ed11369953010f',1,'MR']]],
   ['vector2d_3',['Vector2d',['../namespaceMR.html#ac040a083d9643faaf7679e4447ec7af9',1,'MR']]],
   ['vector2f_4',['Vector2f',['../namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7',1,'MR']]],
-  ['vector2hp_5',['Vector2hp',['../namespaceMR.html#a8982f3947958d8a01d5db4677c4a3622',1,'MR']]],
+  ['vector2hp_5',['Vector2hp',['../group__HighPrecisionGroup.html#ga8982f3947958d8a01d5db4677c4a3622',1,'MR']]],
   ['vector2i_6',['Vector2i',['../namespaceMR.html#a414c921e724deba1be8a3f3b5a20af76',1,'MR']]],
   ['vector2ll_7',['Vector2ll',['../namespaceMR.html#aa8b7b567a395934968886e5a0295b16b',1,'MR']]],
   ['vector3b_8',['Vector3b',['../namespaceMR.html#afebc16eb08b4f97979ae9501d8e58ad4',1,'MR']]],
   ['vector3d_9',['Vector3d',['../namespaceMR.html#acdf274ca41944bedb1adac9e432d5f5c',1,'MR']]],
   ['vector3f_10',['Vector3f',['../namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09',1,'MR']]],
-  ['vector3hp_11',['Vector3hp',['../namespaceMR.html#a3b2ebc6537a1321986128202c2cceb43',1,'MR']]],
+  ['vector3hp_11',['Vector3hp',['../group__HighPrecisionGroup.html#ga3b2ebc6537a1321986128202c2cceb43',1,'MR']]],
   ['vector3i_12',['Vector3i',['../namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0',1,'MR']]],
   ['vector3ll_13',['Vector3ll',['../namespaceMR.html#ad8ec459924f0d309ac3f60d2982d7578',1,'MR']]],
   ['vector4b_14',['Vector4b',['../namespaceMR.html#ab714a35855b0bf32d44187bf69683f5e',1,'MR']]],
@@ -23,7 +23,7 @@ var searchData=
   ['vertbitset_20',['VertBitSet',['../namespaceMR.html#ab615a9e54d407017abd63d056ce4be66',1,'MR']]],
   ['vertcolormapaggregator_21',['VertColorMapAggregator',['../namespaceMR.html#af82fb4e4d7f3d76b7c3c077ee2e3e311',1,'MR']]],
   ['vertcoords_22',['VertCoords',['../namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5',1,'MR']]],
-  ['vertexnormals_23',['VertexNormals',['../namespaceMR.html#a765ca59e8953cff5f1c1974983b8a9f0',1,'MR']]],
+  ['vertexnormals_23',['VertexNormals',['../group__MeshNormalsGroup.html#ga765ca59e8953cff5f1c1974983b8a9f0',1,'MR']]],
   ['verthashmap_24',['VertHashMap',['../namespaceMR.html#aca7804536940d80ecca97e03674b1609',1,'MR']]],
   ['verthashset_25',['VertHashSet',['../namespaceMR.html#ab8d88941e8ba796c6c58cba2040ab70d',1,'MR']]],
   ['vertid_26',['VertId',['../namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5',1,'MR']]],
@@ -31,5 +31,5 @@ var searchData=
   ['vertsetbititerator_28',['VertSetBitIterator',['../namespaceMR.html#a781eba660f55f4745e1770f2b1c8b003',1,'MR']]],
   ['voxelbitset_29',['VoxelBitSet',['../namespaceMR.html#a554ecd806e7de55aceb363940928dac0',1,'MR']]],
   ['voxelid_30',['VoxelId',['../namespaceMR.html#a9ccb1b94958c98c5b5971b94fbfdb761',1,'MR']]],
-  ['voxelsmetric_31',['VoxelsMetric',['../namespaceMR.html#ae41700d0c2fa75bd2e40f439a846a3b2',1,'MR']]]
+  ['voxelsmetric_31',['VoxelsMetric',['../group__VoxelPathGroup.html#gae41700d0c2fa75bd2e40f439a846a3b2',1,'MR']]]
 ];

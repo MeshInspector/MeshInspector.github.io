@@ -9,5 +9,8 @@ var classMR_1_1BitSet =
     [ "operator-=", "classMR_1_1BitSet.html#a2b67ad8030f22aa236b64a04fb2459dc", null ],
     [ "operator^=", "classMR_1_1BitSet.html#aeb7bb0c8ddc8cb0b9a917fe43a2cc514", null ],
     [ "operator|=", "classMR_1_1BitSet.html#ae73a641818182660d303a4b2db7d34a4", null ],
+    [ "reset", "classMR_1_1BitSet.html#a247ac2e0767fad340477836233e87cb8", null ],
+    [ "reset", "classMR_1_1BitSet.html#aa2267b11bc02d8a216df148fdccc02a3", null ],
+    [ "reset", "classMR_1_1BitSet.html#a784dcb0f29bf20a645a4267b68d0d6ae", null ],
     [ "test", "classMR_1_1BitSet.html#aab6d4690169ae21969bc5f538fc8fbff", null ]
 ];

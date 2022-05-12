@@ -6,7 +6,7 @@ var searchData=
   ['depthtest_5f_3',['depthTest_',['../classMR_1_1VisualObject.html#a3c81a910d1fdd5c1f1b413c185bf750d',1,'MR::VisualObject']]],
   ['dimensions_4',['dimensions',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#ab1db96ec60477ec788bfe5aeb3596da2',1,'MR::VoxelsLoad::RawParameters']]],
   ['dims_5',['dims',['../structMR_1_1SimpleVolume.html#adfc3fd718b740a08aefa0fbb8a096ede',1,'MR::SimpleVolume']]],
-  ['dims_5f_6',['dims_',['../classMR_1_1RectIndexer.html#ab4a6c53f72e0260996768505672d9052',1,'MR::RectIndexer::dims_()'],['../classMR_1_1VolumeIndexer.html#aa1c0e0f0f1418ecbd002c094e0d42e13',1,'MR::VolumeIndexer::dims_()']]],
+  ['dims_5f_6',['dims_',['../classMR_1_1RectIndexer.html#ab4a6c53f72e0260996768505672d9052',1,'MR::RectIndexer::dims_()'],['../group__VoxelGroup.html#gaa1c0e0f0f1418ecbd002c094e0d42e13',1,'MR::VolumeIndexer::dims_()']]],
   ['direction_7',['direction',['../structMR_1_1TextMeshAlignParams.html#a414e391a4aef8d9ffc82bdd050a469aa',1,'MR::TextMeshAlignParams::direction()'],['../structMR_1_1MeshToDistanceMapParams.html#a251bc8c963a3d914635b6ed3ab80a527',1,'MR::MeshToDistanceMapParams::direction()'],['../structMR_1_1DistanceMapToWorld.html#a866ac1e7f146d2a868527a502d376c74',1,'MR::DistanceMapToWorld::direction()']]],
   ['dirty_5f_8',['dirty_',['../classMR_1_1VisualObject.html#a524e4774c9f4c85f7b81bb0f2524536f',1,'MR::VisualObject']]],
   ['disleftfromabc_9',['dIsLeftFromABC',['../structMR_1_1TriangleSegmentIntersectResult.html#ad6af3b8ab26b46c4d6592c534e9b59c8',1,'MR::TriangleSegmentIntersectResult']]],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['history_20group_0',['History group',['../group__HistoryGroup.html',1,'']]]
+  ['edge_20paths_0',['Edge Paths',['../group__EdgePathsGroup.html',1,'']]]
 ];

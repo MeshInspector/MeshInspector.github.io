@@ -68,5 +68,5 @@ var namespaceMRE =
     [ "separateClosedContour", "namespaceMRE.html#a2fe4d952ab91ea64a3acf777a1f2f96d", null ],
     [ "subdivideLoneContours", "namespaceMRE.html#a5a26b776b4772970a00cb1c4aea6c741", null ],
     [ "surroundingContour", "group__MeshSegmentationGroup.html#ga5e9e662eb2230c3e31c1177515f28173", null ],
-    [ "triangulatePointCloud", "group__PointCloudTriangulationGroup.html#ga0e2755dc75c01fe3f58709fb3d0940bf", null ]
+    [ "triangulatePointCloud", "group__PointCloudTriangulationGroup.html#ga2dc16a09a127bf3b4b40cd228c6706d8", null ]
 ];
