@@ -106,7 +106,7 @@ var searchData=
   ['distsq_103',['distSq',['../structMR_1_1MeshDistanceResult.html#a944ef6a7b3e48c9fc07f0d5a70a56bf3',1,'MR::MeshDistanceResult::distSq()'],['../structMR_1_1MeshProjectionResult.html#a685a3370c122d23e376f36b0ebb9fa29',1,'MR::MeshProjectionResult::distSq()'],['../structMR_1_1Polyline2ProjectionResult.html#a0d662797298c7075e8d035d1478818ec',1,'MR::Polyline2ProjectionResult::distSq()'],['../structMR_1_1PolylineProjectionResult.html#adf8bf60fae1fa9ffe39d7e0557cc2657',1,'MR::PolylineProjectionResult::distSq()']]],
   ['diststatisticsigmafactor_104',['distStatisticSigmaFactor',['../structMR_1_1ICPProperties.html#a3e55178e8a5383531552c5dc25be4817',1,'MR::ICPProperties']]],
   ['disttresholdsq_105',['distTresholdSq',['../structMR_1_1ICPProperties.html#abf0d9a236c177005330098a88f909eb4',1,'MR::ICPProperties']]],
-  ['dobooleanoperation_106',['doBooleanOperation',['../namespaceMRE.html#a52d2bfec3749af2cf0fbd6fb459f6c32',1,'MRE']]],
+  ['dobooleanoperation_106',['doBooleanOperation',['../group__BooleanGroup.html#ga52d2bfec3749af2cf0fbd6fb459f6c32',1,'MRE']]],
   ['doesedgexyseparate_107',['doesEdgeXySeparate',['../group__TriangleIntersectionGroup.html#ga56e080b75b029cd99c5de48a2ae1c305',1,'MR']]],
   ['dointersect_108',['doIntersect',['../structMR_1_1SegmentSegmentIntersectResult.html#ad55a194e9fc76257f3bb95f35d4495c5',1,'MR::SegmentSegmentIntersectResult::doIntersect()'],['../structMR_1_1TriangleSegmentIntersectResult.html#a8676a2019b59ed30aa2204aef62a8ff8',1,'MR::TriangleSegmentIntersectResult::doIntersect()']]],
   ['done_109',['done',['../classMR_1_1SurfaceDistanceBuilder.html#ac10dab2b68dd9de618eeb1ce16471e23',1,'MR::SurfaceDistanceBuilder']]],

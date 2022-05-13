@@ -145,6 +145,8 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ga52d2bfec3749af2cf0fbd6fb459f6c32"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga52d2bfec3749af2cf0fbd6fb459f6c32">MRE::doBooleanOperation</a> (const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;meshACut, const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;meshBCut, const std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">MR::EdgePath</a> &gt; &amp;cutEdgesA, const std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">MR::EdgePath</a> &gt; &amp;cutEdgesB, <a class="el" href="group__BooleanGroup.html#gacb4a2073036a155fa7f07f2fdc347007">BooleanOperation</a> operation, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">MR::AffineXf3f</a> *rigidB2A=nullptr, <a class="el" href="structMRE_1_1BooleanResultMapper.html">BooleanResultMapper</a> *mapper=nullptr)</td></tr>
+<tr class="separator:ga52d2bfec3749af2cf0fbd6fb459f6c32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga34f46179c96ce39c5ba94580b9fc1151"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1OneMeshContour.html">OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga34f46179c96ce39c5ba94580b9fc1151">MRE::convertMeshTriPointsToClosedContour</a> (const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MR::MeshTriPoint</a> &gt; &amp;meshTriPoints)</td></tr>
 <tr class="memdesc:ga34f46179c96ce39c5ba94580b9fc1151"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes closed continuous contour by mesh tri points.  <a href="group__BooleanGroup.html#ga34f46179c96ce39c5ba94580b9fc1151">More...</a><br /></td></tr>
 <tr class="separator:ga34f46179c96ce39c5ba94580b9fc1151"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -518,6 +520,66 @@ so if you cannot guarantee contours without intersections better make copy of me
 </dl>
 <dl class="section note"><dt>Note</dt><dd>This function changes input mesh </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>New edges that correspond to given contours, find more <a class="el" href="structMRE_1_1CutMeshResult.html">MRE::CutMeshResult</a> </dd></dl>
+
+</div>
+</div>
+<a id="ga52d2bfec3749af2cf0fbd6fb459f6c32" name="ga52d2bfec3749af2cf0fbd6fb459f6c32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga52d2bfec3749af2cf0fbd6fb459f6c32">&#9670;&nbsp;</a></span>doBooleanOperation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MREALGORITHMS_API tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string &gt; MRE::doBooleanOperation </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>meshACut</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>meshBCut</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">MR::EdgePath</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>cutEdgesA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">MR::EdgePath</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>cutEdgesB</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BooleanGroup.html#gacb4a2073036a155fa7f07f2fdc347007">BooleanOperation</a>&#160;</td>
+          <td class="paramname"><em>operation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">MR::AffineXf3f</a> *&#160;</td>
+          <td class="paramname"><em>rigidB2A</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMRE_1_1BooleanResultMapper.html">BooleanResultMapper</a> *&#160;</td>
+          <td class="paramname"><em>mapper</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Perform boolean operation on cut meshes </p><dl class="section return"><dt>Returns</dt><dd>mesh in space of meshA or error. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>: actually this function is meant to be internal, use "boolean" instead </dd></dl>
 
 </div>
 </div>

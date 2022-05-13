@@ -47,7 +47,7 @@ var searchData=
   ['distancemaptoworld_44',['DistanceMapToWorld',['../structMR_1_1DistanceMapToWorld.html#a45d71d4ab5dd33dbd4ef7b7b6eb16468',1,'MR::DistanceMapToWorld::DistanceMapToWorld(const ContourToDistanceMapParams &amp;params)'],['../structMR_1_1DistanceMapToWorld.html#aee6ea73dd4b8ce002eaa164c6d5e45f5',1,'MR::DistanceMapToWorld::DistanceMapToWorld(const MeshToDistanceMapParams &amp;params)'],['../structMR_1_1DistanceMapToWorld.html#a118712037e7a77efe4bad0bf7ee6d591',1,'MR::DistanceMapToWorld::DistanceMapToWorld()=default']]],
   ['distancesq_45',['distanceSq',['../structMR_1_1Line3.html#a4d38049dba7477599c8099ca03727087',1,'MR::Line3']]],
   ['distmapimprovedirection_46',['distMapImproveDirection',['../namespaceMR_1_1FixUndercuts.html#a96732d95fa0a85f228755bc3ee627480',1,'MR::FixUndercuts']]],
-  ['dobooleanoperation_47',['doBooleanOperation',['../namespaceMRE.html#a52d2bfec3749af2cf0fbd6fb459f6c32',1,'MRE']]],
+  ['dobooleanoperation_47',['doBooleanOperation',['../group__BooleanGroup.html#ga52d2bfec3749af2cf0fbd6fb459f6c32',1,'MRE']]],
   ['doesedgexyseparate_48',['doesEdgeXySeparate',['../group__TriangleIntersectionGroup.html#ga56e080b75b029cd99c5de48a2ae1c305',1,'MR']]],
   ['done_49',['done',['../classMR_1_1SurfaceDistanceBuilder.html#ac10dab2b68dd9de618eeb1ce16471e23',1,'MR::SurfaceDistanceBuilder']]],
   ['donedistance_50',['doneDistance',['../classMR_1_1SurfaceDistanceBuilder.html#a66781dd9ecf7009c090fffa4c7d0e6f7',1,'MR::SurfaceDistanceBuilder']]],

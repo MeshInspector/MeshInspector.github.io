@@ -130,7 +130,6 @@ var NAVTREEINDEX0 =
 "MRDistanceMap_8h.html":[10,0,0,1,2,44],
 "MRDistanceMap_8h_source.html":[10,0,0,1,2,44],
 "MREBooleanOperation_8h.html":[10,0,0,1,0,0],
-"MREBooleanOperation_8h.html#a52d2bfec3749af2cf0fbd6fb459f6c32":[10,0,0,1,0,0,2],
 "MREBooleanOperation_8h_source.html":[10,0,0,1,0,0],
 "MREContoursCut_8h.html":[10,0,0,1,0,1],
 "MREContoursCut_8h.html#a5a26b776b4772970a00cb1c4aea6c741":[10,0,0,1,0,1,10],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "MRHeap_8h_source.html":[10,0,0,1,2,64],
 "MRHighPrecision_8h.html":[10,0,0,1,2,66],
 "MRHighPrecision_8h_source.html":[10,0,0,1,2,66],
-"MRHistogram_8h.html":[10,0,0,1,2,67]
+"MRHistogram_8h.html":[10,0,0,1,2,67],
+"MRHistogram_8h_source.html":[10,0,0,1,2,67]
 };

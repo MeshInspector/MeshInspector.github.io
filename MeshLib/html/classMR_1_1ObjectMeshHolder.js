@@ -36,6 +36,7 @@ var classMR_1_1ObjectMeshHolder =
     [ "heapBytes", "classMR_1_1ObjectMeshHolder.html#a5e7e533cdcddd1d2a4fbf5fba6b9d607", null ],
     [ "isMeshClosed", "classMR_1_1ObjectMeshHolder.html#adc32b4c9b303a885eadfbde1f3b7eeb0", null ],
     [ "mesh", "classMR_1_1ObjectMeshHolder.html#af6739310dc9f9e21c461819ea47dc086", null ],
+    [ "meshPart", "classMR_1_1ObjectMeshHolder.html#a5f17cf78de5c594d2941f35bd82197f1", null ],
     [ "numCreaseEdges", "classMR_1_1ObjectMeshHolder.html#a65d1cacc3a9399d6727312a92af6dd6d", null ],
     [ "numSelectedEdges", "classMR_1_1ObjectMeshHolder.html#ac079f513ed46863aa2e8e1b1ad09ef8d", null ],
     [ "numSelectedFaces", "classMR_1_1ObjectMeshHolder.html#ac66f8710ce4b8991eb62b48ee5c94585", null ],

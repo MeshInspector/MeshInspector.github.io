@@ -51,7 +51,7 @@ var namespaceMRE =
     [ "decimateParallelMesh", "group__DecimateGroup.html#ga9c9b6750549d4bf9a222a9d5bd509a43", null ],
     [ "decimatePolyline", "group__DecimateGroup.html#ga376a24c8b38706610cb63306f9901a13", null ],
     [ "detectLoneContours", "namespaceMRE.html#aa2e88c8f62039e5d0ee250c47d72012c", null ],
-    [ "doBooleanOperation", "namespaceMRE.html#a52d2bfec3749af2cf0fbd6fb459f6c32", null ],
+    [ "doBooleanOperation", "group__BooleanGroup.html#ga52d2bfec3749af2cf0fbd6fb459f6c32", null ],
     [ "fillContourLeftByGraphCut", "group__MeshSegmentationGroup.html#gabcebc86d2e702ef5e817c20a30a4943c", null ],
     [ "fillContourLeftByGraphCut", "group__MeshSegmentationGroup.html#gaa33ac4215490b00cf9b5acec1abaf8a5", null ],
     [ "getOneMeshIntersectionContours", "namespaceMRE.html#ab47690743a0ee040b928656dee2d5738", null ],

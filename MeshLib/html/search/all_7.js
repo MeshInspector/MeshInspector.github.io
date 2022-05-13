@@ -142,7 +142,7 @@ var searchData=
   ['getselectededgescolor_139',['getSelectedEdgesColor',['../classMR_1_1ObjectMeshHolder.html#ac7efa23703bb20c6750c60428078568a',1,'MR::ObjectMeshHolder']]],
   ['getselectedfaces_140',['getSelectedFaces',['../classMR_1_1ObjectMeshHolder.html#a697b65bd9396e5efa3f7a8645c661485',1,'MR::ObjectMeshHolder']]],
   ['getselectedfacescolor_141',['getSelectedFacesColor',['../classMR_1_1ObjectMeshHolder.html#ac5d1270d9720639174e70a7245dc8416',1,'MR::ObjectMeshHolder']]],
-  ['getselectedvertices_142',['getSelectedVertices',['../classMR_1_1ObjectPointsHolder.html#a68cc180127c6f14518ab5ef9d9a128d8',1,'MR::ObjectPointsHolder']]],
+  ['getselectedpoints_142',['getSelectedPoints',['../classMR_1_1ObjectPointsHolder.html#ad8bde1f8aa5e5c2b7abd5eaa069f4cba',1,'MR::ObjectPointsHolder']]],
   ['getselectedverticescolor_143',['getSelectedVerticesColor',['../classMR_1_1ObjectPointsHolder.html#aaeb7aaee6d86b069875588880b0a322f',1,'MR::ObjectPointsHolder']]],
   ['getsharedptr_144',['getSharedPtr',['../classMR_1_1SceneRoot.html#ac583afc3941d8983e747e6bdc136ac08',1,'MR::SceneRoot']]],
   ['getshiftvector_145',['getShiftVector',['../classMR_1_1MeshICP.html#a2d920a24ae7ef1435720966ad5836229',1,'MR::MeshICP']]],

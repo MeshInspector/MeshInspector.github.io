@@ -19,6 +19,7 @@ var searchData=
   ['nummeshvertices_16',['numMeshVertices',['../structMR_1_1SphereParams.html#a6e99b625718037bc438cd04e6865ac95',1,'MR::SphereParams']]],
   ['numselectededges_5f_17',['numSelectedEdges_',['../classMR_1_1ObjectMeshHolder.html#a54b15a24e639bc505ad9080bd8128b4c',1,'MR::ObjectMeshHolder']]],
   ['numselectedfaces_5f_18',['numSelectedFaces_',['../classMR_1_1ObjectMeshHolder.html#a102e4183b2d8571edf565f4dd6e61a94',1,'MR::ObjectMeshHolder']]],
-  ['numselectedvertices_5f_19',['numSelectedVertices_',['../classMR_1_1ObjectPointsHolder.html#a7cc7d272b7eaff79418213ffc8184546',1,'MR::ObjectPointsHolder']]],
-  ['numundirectededges_20',['numUndirectedEdges',['../structMR_1_1ObjectMeshHolder_1_1MeshStat.html#a9c949d72b4d19f92198faef11507144e',1,'MR::ObjectMeshHolder::MeshStat']]]
+  ['numselectedpoints_5f_19',['numSelectedPoints_',['../classMR_1_1ObjectPointsHolder.html#af7ab9f32dcef65ad1a79fde9078c19af',1,'MR::ObjectPointsHolder']]],
+  ['numundirectededges_20',['numUndirectedEdges',['../structMR_1_1ObjectMeshHolder_1_1MeshStat.html#a9c949d72b4d19f92198faef11507144e',1,'MR::ObjectMeshHolder::MeshStat']]],
+  ['numvalidpoints_5f_21',['numValidPoints_',['../classMR_1_1ObjectPointsHolder.html#a20b26902cdfc19f4bd28762ec7add76e',1,'MR::ObjectPointsHolder']]]
 ];

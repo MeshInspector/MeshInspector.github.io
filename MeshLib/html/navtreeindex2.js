@@ -1,6 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"MRMeshFwd_8h.html#ae2eea398ad770ec2244a9a9c50714933":[10,0,0,1,2,112,36],
 "MRMeshFwd_8h.html#ae4ddf6f4d663b556787e0188500a2521":[10,0,0,1,2,112,23],
 "MRMeshFwd_8h.html#ae5a4467feb7b60cd337643529597aaaa":[10,0,0,1,2,112,102],
 "MRMeshFwd_8h.html#ae5e5a14f3143adb782d5b4473bc61f1b":[10,0,0,1,2,112,10],
@@ -249,5 +248,6 @@ var NAVTREEINDEX2 =
 "MRSurfaceDistanceBuilder_8h.html":[10,0,0,1,2,188],
 "MRSurfaceDistanceBuilder_8h_source.html":[10,0,0,1,2,188],
 "MRSurfaceDistance_8h.html":[10,0,0,1,2,187],
-"MRSurfaceDistance_8h_source.html":[10,0,0,1,2,187]
+"MRSurfaceDistance_8h_source.html":[10,0,0,1,2,187],
+"MRSurfacePath_8h.html":[10,0,0,1,2,189]
 };

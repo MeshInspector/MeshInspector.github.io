@@ -1,6 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"MRSurfacePath_8h.html":[10,0,0,1,2,189],
 "MRSurfacePath_8h_source.html":[10,0,0,1,2,189],
 "MRSymMatrix2_8h.html":[10,0,0,1,2,191],
 "MRSymMatrix2_8h_source.html":[10,0,0,1,2,191],
@@ -249,5 +248,6 @@ var NAVTREEINDEX3 =
 "classMR_1_1ChangeSceneObjectsOrder.html#ad692afbfc325fae56914094bc8b1f71d":[7,8,7,3],
 "classMR_1_1ChangeSceneObjectsOrder.html#ae5412f501f79caacfb257cd392119c50":[7,8,7,2],
 "classMR_1_1ChangeXfAction.html":[7,8,12],
-"classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc":[7,8,12,3]
+"classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc":[7,8,12,3],
+"classMR_1_1ChangeXfAction.html#a92b9d01bccf043de100f19110630ce24":[7,8,12,2]
 };
