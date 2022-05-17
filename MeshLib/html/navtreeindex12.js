@@ -1,5 +1,13 @@
 var NAVTREEINDEX12 =
 {
+"group__MeshNormalsGroup.html#ga9d74c5dbc254d3fdb328a8ac37ba7529":[7,14,5,4],
+"group__MeshNormalsGroup.html#gaadd26fa2561ab2ec3b62b2dea079161c":[7,14,5,5],
+"group__MeshNormalsGroup.html#gab8d9ad3d41ea00136ac9d8c59766ab0c":[7,14,5,6],
+"group__MeshRelaxGroup.html":[7,14,6],
+"group__MeshRelaxGroup.html#ga6ab288ae813e1aa688312e31c258df71":[7,14,6,2],
+"group__MeshRelaxGroup.html#ga7509cbc90c4649947565ee5635cd083e":[7,14,6,3],
+"group__MeshRelaxGroup.html#gaadbce394c3a021484d7a76b0cf958f8b":[7,14,6,4],
+"group__MeshRelaxGroup.html#gaea75c22accc7572d92e208e0e744b3d2":[7,14,6,5],
 "group__MeshRelaxGroup.html#gaf3dd7b36bb56c94c95b1bea9f7546349":[7,14,6,6],
 "group__MeshRelaxGroup.html#gga6ab288ae813e1aa688312e31c258df71a93a097009b6443e711996c50b5354adf":[7,14,6,2,0],
 "group__MeshRelaxGroup.html#gga6ab288ae813e1aa688312e31c258df71add6dfa467092f93b67f60fb75476b794":[7,14,6,2,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX12 =
 "group__VoxelPathGroup.html#ga85e60c553cc81b298c4bfeac4a623b79":[7,19,2,2],
 "group__VoxelPathGroup.html#gae41700d0c2fa75bd2e40f439a846a3b2":[7,19,2,1],
 "group__VoxelPathGroup.html#gae7c8689563553fe7686bd6b71ddf8f18":[7,19,2,3],
-"group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a060e258e018b85df7750330be4f807c0":[7,19,2,2,2],
-"group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a203407e92909f81d61b55175a37980cf":[7,19,2,2,1],
-"group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a2b387b6cc4a4d4d822afc0cea2c205ec":[7,19,2,2,4],
-"group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a8282c1db2ec5b8780478223365a37438":[7,19,2,2,3],
-"group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79ae270ac72e33fbdf09168012bc0852677":[7,19,2,2,0],
-"group__VoxelPathGroup.html#ggae7c8689563553fe7686bd6b71ddf8f18a24b4db35f35f7ebe4a15436010a070d9":[7,19,2,3,1],
-"group__VoxelPathGroup.html#ggae7c8689563553fe7686bd6b71ddf8f18a3629e4a37a6ff95437939d8664d158e9":[7,19,2,3,2],
-"group__VoxelPathGroup.html#ggae7c8689563553fe7686bd6b71ddf8f18a848c5fe5a26f3330bcbedda94181fc74":[7,19,2,3,0],
-"group__VoxelPathGroup.html#ggae7c8689563553fe7686bd6b71ddf8f18aa1f9f6e1b4f1f951f67ebeb0c69e1dd4":[7,19,2,3,3]
+"group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a060e258e018b85df7750330be4f807c0":[7,19,2,2,2]
 };

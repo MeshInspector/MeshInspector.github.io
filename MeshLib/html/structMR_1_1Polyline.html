@@ -107,9 +107,12 @@ $(document).ready(function(){initNavTree('structMR_1_1Polyline.html',''); initRe
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5b3f0a6dabe52200adbd05fce503069a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#a5b3f0a6dabe52200adbd05fce503069a">Polyline</a> ()=default</td></tr>
 <tr class="separator:a5b3f0a6dabe52200adbd05fce503069a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6304c2e704e188b2072b3bfc74d4a9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#af6304c2e704e188b2072b3bfc74d4a9a">Polyline</a> (const <a class="el" href="namespaceMR.html#ad17a8a285dc0c1609c7ce56e7e65ace9">Contours2f</a> &amp;<a class="el" href="structMR_1_1Polyline.html#adadffd60e3c3100efc0e6b9e80c8b027">contours</a>)</td></tr>
-<tr class="memdesc:af6304c2e704e188b2072b3bfc74d4a9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates polyline from 2d contours  <a href="structMR_1_1Polyline.html#af6304c2e704e188b2072b3bfc74d4a9a">More...</a><br /></td></tr>
+<tr class="memitem:af6304c2e704e188b2072b3bfc74d4a9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#af6304c2e704e188b2072b3bfc74d4a9a">Polyline</a> (const <a class="el" href="namespaceMR.html#a50e8714d42cba4acf038efe5c4bd491a">Contours2f</a> &amp;<a class="el" href="structMR_1_1Polyline.html#a583dc32f13f0e3cede180ee9df664622">contours</a>)</td></tr>
+<tr class="memdesc:af6304c2e704e188b2072b3bfc74d4a9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates polyline from 2D contours, 3D polyline will get zero z-component  <a href="structMR_1_1Polyline.html#af6304c2e704e188b2072b3bfc74d4a9a">More...</a><br /></td></tr>
 <tr class="separator:af6304c2e704e188b2072b3bfc74d4a9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45f4e47f567de8900614578bf0becc56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#a45f4e47f567de8900614578bf0becc56">Polyline</a> (const <a class="el" href="namespaceMR.html#a2a2594ddaa82363e43334fa708f48be0">Contours3f</a> &amp;<a class="el" href="structMR_1_1Polyline.html#a583dc32f13f0e3cede180ee9df664622">contours</a>)</td></tr>
+<tr class="memdesc:a45f4e47f567de8900614578bf0becc56"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates polyline from 3D contours, 2D polyline will lose z-component  <a href="structMR_1_1Polyline.html#a45f4e47f567de8900614578bf0becc56">More...</a><br /></td></tr>
+<tr class="separator:a45f4e47f567de8900614578bf0becc56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae40d1c6ba0e12c47a855747d44d40ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#aae40d1c6ba0e12c47a855747d44d40ea">addFromPoints</a> (const V *vs, size_t num, bool closed)</td></tr>
 <tr class="separator:aae40d1c6ba0e12c47a855747d44d40ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9ff852d8ee1c3278656a751a2f783e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#aa9ff852d8ee1c3278656a751a2f783e6">makePolyline</a> (const V *vs, size_t num, bool closed)</td></tr>
@@ -153,8 +156,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a31c2d8e3b6a9e6729084fbb4221d8d57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#a31c2d8e3b6a9e6729084fbb4221d8d57">invalidateCaches</a> ()</td></tr>
 <tr class="memdesc:a31c2d8e3b6a9e6729084fbb4221d8d57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidates caches (e.g. aabb-tree) after a change in polyline.  <a href="structMR_1_1Polyline.html#a31c2d8e3b6a9e6729084fbb4221d8d57">More...</a><br /></td></tr>
 <tr class="separator:a31c2d8e3b6a9e6729084fbb4221d8d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adadffd60e3c3100efc0e6b9e80c8b027"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ad17a8a285dc0c1609c7ce56e7e65ace9">Contours2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#adadffd60e3c3100efc0e6b9e80c8b027">contours</a> () const</td></tr>
-<tr class="separator:adadffd60e3c3100efc0e6b9e80c8b027"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a583dc32f13f0e3cede180ee9df664622"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a56c6b31f911ee61ed71dd8c9f71c315b">Contours</a>&lt; V &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#a583dc32f13f0e3cede180ee9df664622">contours</a> () const</td></tr>
+<tr class="separator:a583dc32f13f0e3cede180ee9df664622"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58efd08304a25a74fb54922764ac4a1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a50e8714d42cba4acf038efe5c4bd491a">Contours2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#a58efd08304a25a74fb54922764ac4a1a">contours2</a> () const</td></tr>
+<tr class="separator:a58efd08304a25a74fb54922764ac4a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4247ea43b01e686c29028046ad50fe6a"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
 <tr class="memitem:a4247ea43b01e686c29028046ad50fe6a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Polyline.html">Polyline</a>&lt; U &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#a4247ea43b01e686c29028046ad50fe6a">toPolyline</a> () const</td></tr>
 <tr class="memdesc:a4247ea43b01e686c29028046ad50fe6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert Polyline3 to Polyline2 or vice versa  <a href="structMR_1_1Polyline.html#a4247ea43b01e686c29028046ad50fe6a">More...</a><br /></td></tr>
@@ -179,7 +184,7 @@ Public Attributes</h2></td></tr>
 struct MR::Polyline&lt; V &gt;</div><p >polyline that stores points of type V </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5b3f0a6dabe52200adbd05fce503069a" name="a5b3f0a6dabe52200adbd05fce503069a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b3f0a6dabe52200adbd05fce503069a">&#9670;&nbsp;</a></span>Polyline() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b3f0a6dabe52200adbd05fce503069a">&#9670;&nbsp;</a></span>Polyline() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206,7 +211,7 @@ template&lt;typename V &gt; </div>
 </div>
 </div>
 <a id="af6304c2e704e188b2072b3bfc74d4a9a" name="af6304c2e704e188b2072b3bfc74d4a9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6304c2e704e188b2072b3bfc74d4a9a">&#9670;&nbsp;</a></span>Polyline() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af6304c2e704e188b2072b3bfc74d4a9a">&#9670;&nbsp;</a></span>Polyline() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -216,14 +221,36 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::Polyline </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#ad17a8a285dc0c1609c7ce56e7e65ace9">Contours2f</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a50e8714d42cba4acf038efe5c4bd491a">Contours2f</a> &amp;&#160;</td>
           <td class="paramname"><em>contours</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>creates polyline from 2d contours </p>
+<p>creates polyline from 2D contours, 3D polyline will get zero z-component </p>
+
+</div>
+</div>
+<a id="a45f4e47f567de8900614578bf0becc56" name="a45f4e47f567de8900614578bf0becc56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45f4e47f567de8900614578bf0becc56">&#9670;&nbsp;</a></span>Polyline() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::Polyline </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a2a2594ddaa82363e43334fa708f48be0">Contours3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>contours</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>creates polyline from 3D contours, 2D polyline will lose z-component </p>
 
 </div>
 </div>
@@ -383,8 +410,8 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
-<a id="adadffd60e3c3100efc0e6b9e80c8b027" name="adadffd60e3c3100efc0e6b9e80c8b027"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adadffd60e3c3100efc0e6b9e80c8b027">&#9670;&nbsp;</a></span>contours()</h2>
+<a id="a583dc32f13f0e3cede180ee9df664622" name="a583dc32f13f0e3cede180ee9df664622"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a583dc32f13f0e3cede180ee9df664622">&#9670;&nbsp;</a></span>contours()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -392,7 +419,7 @@ template&lt;typename V &gt; </div>
 template&lt;typename V &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ad17a8a285dc0c1609c7ce56e7e65ace9">Contours2f</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::contours </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a56c6b31f911ee61ed71dd8c9f71c315b">Contours</a>&lt; V &gt; <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::contours </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -400,6 +427,27 @@ template&lt;typename V &gt; </div>
       </table>
 </div><div class="memdoc">
 <p >convert <a class="el" href="structMR_1_1Polyline.html">Polyline</a> to simple contour structures with vector of points inside</p>
+<p >if all even edges are consistently oriented, then the output contours will be oriented the same </p>
+
+</div>
+</div>
+<a id="a58efd08304a25a74fb54922764ac4a1a" name="a58efd08304a25a74fb54922764ac4a1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58efd08304a25a74fb54922764ac4a1a">&#9670;&nbsp;</a></span>contours2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a50e8714d42cba4acf038efe5c4bd491a">Contours2f</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::contours2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >convert <a class="el" href="structMR_1_1Polyline.html">Polyline</a> to simple 2D contour structures with vector of points inside</p>
 <p >if all even edges are consistently oriented, then the output contours will be oriented the same </p>
 
 </div>

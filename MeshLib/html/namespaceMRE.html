@@ -127,10 +127,10 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters structure for <a class="el" href="group__DecimateGroup.html#ga9c9b6750549d4bf9a222a9d5bd509a43" title="Collapse edges in mesh region according to the settings.">MRE::decimateParallelMesh</a>.  <a href="structMRE_1_1DecimateParallelSettings.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimatePolylineResult.html">DecimatePolylineResult</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Results of <a class="el" href="group__DecimateGroup.html#ga467189de3d6b4210ea9b49f27d04b913" title="Collapse edges in the contour according to the settings.">MRE::decimateContour</a>.  <a href="structMRE_1_1DecimatePolylineResult.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Results of <a class="el" href="group__DecimateGroup.html#ga72925edcfb7e048d1e427ef66d9ce6c5" title="Collapse edges in the contour according to the settings.">MRE::decimateContour</a>.  <a href="structMRE_1_1DecimatePolylineResult.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimatePolylineSettings.html">DecimatePolylineSettings</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters structure for <a class="el" href="group__DecimateGroup.html#ga376a24c8b38706610cb63306f9901a13" title="Collapse edges in the polyline according to the settings.">MRE::decimatePolyline</a>.  <a href="structMRE_1_1DecimatePolylineSettings.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters structure for <a class="el" href="group__DecimateGroup.html#gaeb625f7c52691112aa5e4dd338b3ecd2" title="Collapse edges in the polyline according to the settings.">MRE::decimatePolyline</a>.  <a href="structMRE_1_1DecimatePolylineSettings.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateResult.html">DecimateResult</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Results of <a class="el" href="group__DecimateGroup.html#ga9f4ed5382008a7fff13610607c6c5719" title="Collapse edges in mesh region according to the settings.">MRE::decimateMesh</a>.  <a href="structMRE_1_1DecimateResult.html#details">More...</a><br /></td></tr>
@@ -170,6 +170,10 @@ Typedefs</h2></td></tr>
 <tr class="separator:a89a8a3bb0b2bf3e3d03f57a2743d24df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14acccada5510bacf19d15af21bf2d79"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a14acccada5510bacf19d15af21bf2d79">ContinuousContours</a> = std::vector&lt; <a class="el" href="namespaceMRE.html#a89a8a3bb0b2bf3e3d03f57a2743d24df">ContinuousContour</a> &gt;</td></tr>
 <tr class="separator:a14acccada5510bacf19d15af21bf2d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e7a3ce9a584c8a7380eda5334a74690"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a6e7a3ce9a584c8a7380eda5334a74690">DecimatePolylineSettings2</a> = <a class="el" href="structMRE_1_1DecimatePolylineSettings.html">DecimatePolylineSettings</a>&lt; <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">MR::Vector2f</a> &gt;</td></tr>
+<tr class="separator:a6e7a3ce9a584c8a7380eda5334a74690"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3342fed509972c31b058e2f030030274"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a3342fed509972c31b058e2f030030274">DecimatePolylineSettings3</a> = <a class="el" href="structMRE_1_1DecimatePolylineSettings.html">DecimatePolylineSettings</a>&lt; <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">MR::Vector3f</a> &gt;</td></tr>
+<tr class="separator:a3342fed509972c31b058e2f030030274"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -264,12 +268,16 @@ Functions</h2></td></tr>
 <tr class="memitem:ga2dc16a09a127bf3b4b40cd228c6706d8"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API std::optional&lt; <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointCloudTriangulationGroup.html#ga2dc16a09a127bf3b4b40cd228c6706d8">triangulatePointCloud</a> (const <a class="el" href="structMR_1_1PointCloud.html">MR::PointCloud</a> &amp;pointCloud, const <a class="el" href="structMRE_1_1TriangulationParameters.html">TriangulationParameters</a> &amp;params={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a> progressCb={})</td></tr>
 <tr class="memdesc:ga2dc16a09a127bf3b4b40cd228c6706d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates mesh from given point cloud according params Returns empty optional if was interrupted by progress bar.  <a href="group__PointCloudTriangulationGroup.html#ga2dc16a09a127bf3b4b40cd228c6706d8">More...</a><br /></td></tr>
 <tr class="separator:ga2dc16a09a127bf3b4b40cd228c6706d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga376a24c8b38706610cb63306f9901a13"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimatePolylineResult.html">DecimatePolylineResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga376a24c8b38706610cb63306f9901a13">decimatePolyline</a> (<a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">MR::Polyline2</a> &amp;polyline, const <a class="el" href="structMRE_1_1DecimatePolylineSettings.html">DecimatePolylineSettings</a> &amp;settings={})</td></tr>
-<tr class="memdesc:ga376a24c8b38706610cb63306f9901a13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collapse edges in the polyline according to the settings.  <a href="group__DecimateGroup.html#ga376a24c8b38706610cb63306f9901a13">More...</a><br /></td></tr>
-<tr class="separator:ga376a24c8b38706610cb63306f9901a13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga467189de3d6b4210ea9b49f27d04b913"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimatePolylineResult.html">DecimatePolylineResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga467189de3d6b4210ea9b49f27d04b913">decimateContour</a> (<a class="el" href="namespaceMR.html#ae4ddf6f4d663b556787e0188500a2521">MR::Contour2f</a> &amp;contour, const <a class="el" href="structMRE_1_1DecimatePolylineSettings.html">DecimatePolylineSettings</a> &amp;settings={})</td></tr>
-<tr class="memdesc:ga467189de3d6b4210ea9b49f27d04b913"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collapse edges in the contour according to the settings.  <a href="group__DecimateGroup.html#ga467189de3d6b4210ea9b49f27d04b913">More...</a><br /></td></tr>
-<tr class="separator:ga467189de3d6b4210ea9b49f27d04b913"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeb625f7c52691112aa5e4dd338b3ecd2"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimatePolylineResult.html">DecimatePolylineResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#gaeb625f7c52691112aa5e4dd338b3ecd2">decimatePolyline</a> (<a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">MR::Polyline2</a> &amp;polyline, const <a class="el" href="namespaceMRE.html#a6e7a3ce9a584c8a7380eda5334a74690">DecimatePolylineSettings2</a> &amp;settings={})</td></tr>
+<tr class="memdesc:gaeb625f7c52691112aa5e4dd338b3ecd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collapse edges in the polyline according to the settings.  <a href="group__DecimateGroup.html#gaeb625f7c52691112aa5e4dd338b3ecd2">More...</a><br /></td></tr>
+<tr class="separator:gaeb625f7c52691112aa5e4dd338b3ecd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a987cea1762b9976ff3d651cfefba747b"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimatePolylineResult.html">DecimatePolylineResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#a987cea1762b9976ff3d651cfefba747b">decimatePolyline</a> (<a class="el" href="namespaceMR.html#a58b74f27c86e7e9dee889bfe30f3022a">MR::Polyline3</a> &amp;polyline, const <a class="el" href="namespaceMRE.html#a3342fed509972c31b058e2f030030274">DecimatePolylineSettings3</a> &amp;settings={})</td></tr>
+<tr class="separator:a987cea1762b9976ff3d651cfefba747b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga72925edcfb7e048d1e427ef66d9ce6c5"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimatePolylineResult.html">DecimatePolylineResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga72925edcfb7e048d1e427ef66d9ce6c5">decimateContour</a> (<a class="el" href="namespaceMR.html#ae4ddf6f4d663b556787e0188500a2521">MR::Contour2f</a> &amp;contour, const <a class="el" href="namespaceMRE.html#a6e7a3ce9a584c8a7380eda5334a74690">DecimatePolylineSettings2</a> &amp;settings={})</td></tr>
+<tr class="memdesc:ga72925edcfb7e048d1e427ef66d9ce6c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collapse edges in the contour according to the settings.  <a href="group__DecimateGroup.html#ga72925edcfb7e048d1e427ef66d9ce6c5">More...</a><br /></td></tr>
+<tr class="separator:ga72925edcfb7e048d1e427ef66d9ce6c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade7b142118a0b99dfd80b7e19682ca0a"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimatePolylineResult.html">DecimatePolylineResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMRE.html#ade7b142118a0b99dfd80b7e19682ca0a">decimateContour</a> (<a class="el" href="namespaceMR.html#a5df3dc09edb09436a99a28c4ddcf76d6">MR::Contour3f</a> &amp;contour, const <a class="el" href="namespaceMRE.html#a3342fed509972c31b058e2f030030274">DecimatePolylineSettings3</a> &amp;settings={})</td></tr>
+<tr class="separator:ade7b142118a0b99dfd80b7e19682ca0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5e9e662eb2230c3e31c1177515f28173"><td class="memItemLeft" align="right" valign="top">MREALGORITHMS_API std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">MR::EdgeId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshSegmentationGroup.html#ga5e9e662eb2230c3e31c1177515f28173">surroundingContour</a> (const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">MR::EdgeId</a> &gt; includeEdgeOrgs, const <a class="el" href="group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">MR::EdgeMetric</a> &amp;edgeMetric, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">MR::Vector3f</a> &amp;dir)</td></tr>
 <tr class="memdesc:ga5e9e662eb2230c3e31c1177515f28173"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creating contour passing through given edges in given mesh.  <a href="group__MeshSegmentationGroup.html#ga5e9e662eb2230c3e31c1177515f28173">More...</a><br /></td></tr>
 <tr class="separator:ga5e9e662eb2230c3e31c1177515f28173"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -299,6 +307,34 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="namespaceMRE.html#a14acccada5510bacf19d15af21bf2d79">MRE::ContinuousContours</a> = typedef std::vector&lt;<a class="el" href="namespaceMRE.html#a89a8a3bb0b2bf3e3d03f57a2743d24df">ContinuousContour</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e7a3ce9a584c8a7380eda5334a74690" name="a6e7a3ce9a584c8a7380eda5334a74690"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e7a3ce9a584c8a7380eda5334a74690">&#9670;&nbsp;</a></span>DecimatePolylineSettings2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceMRE.html#a6e7a3ce9a584c8a7380eda5334a74690">MRE::DecimatePolylineSettings2</a> = typedef <a class="el" href="structMRE_1_1DecimatePolylineSettings.html">DecimatePolylineSettings</a>&lt;<a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">MR::Vector2f</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3342fed509972c31b058e2f030030274" name="a3342fed509972c31b058e2f030030274"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3342fed509972c31b058e2f030030274">&#9670;&nbsp;</a></span>DecimatePolylineSettings3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceMRE.html#a3342fed509972c31b058e2f030030274">MRE::DecimatePolylineSettings3</a> = typedef <a class="el" href="structMRE_1_1DecimatePolylineSettings.html">DecimatePolylineSettings</a>&lt;<a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">MR::Vector3f</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -341,6 +377,62 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ade7b142118a0b99dfd80b7e19682ca0a" name="ade7b142118a0b99dfd80b7e19682ca0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade7b142118a0b99dfd80b7e19682ca0a">&#9670;&nbsp;</a></span>decimateContour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimatePolylineResult.html">DecimatePolylineResult</a> MRE::decimateContour </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a5df3dc09edb09436a99a28c4ddcf76d6">MR::Contour3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>contour</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMRE.html#a3342fed509972c31b058e2f030030274">DecimatePolylineSettings3</a> &amp;&#160;</td>
+          <td class="paramname"><em>settings</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a987cea1762b9976ff3d651cfefba747b" name="a987cea1762b9976ff3d651cfefba747b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a987cea1762b9976ff3d651cfefba747b">&#9670;&nbsp;</a></span>decimatePolyline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MREALGORITHMS_API <a class="el" href="structMRE_1_1DecimatePolylineResult.html">DecimatePolylineResult</a> MRE::decimatePolyline </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a58b74f27c86e7e9dee889bfe30f3022a">MR::Polyline3</a> &amp;&#160;</td>
+          <td class="paramname"><em>polyline</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMRE.html#a3342fed509972c31b058e2f030030274">DecimatePolylineSettings3</a> &amp;&#160;</td>
+          <td class="paramname"><em>settings</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa2e88c8f62039e5d0ee250c47d72012c" name="aa2e88c8f62039e5d0ee250c47d72012c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa2e88c8f62039e5d0ee250c47d72012c">&#9670;&nbsp;</a></span>detectLoneContours()</h2>
 

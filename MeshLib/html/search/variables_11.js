@@ -15,7 +15,7 @@ var searchData=
   ['topology_12',['topology',['../structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4',1,'MR::Mesh::topology()'],['../structMR_1_1MeshBuilder_1_1MeshPiece.html#a9a4c27d8994760be58bd44c477f0a1d9',1,'MR::MeshBuilder::MeshPiece::topology()'],['../structMR_1_1Polyline.html#a92d855c680b2d29a825203463bd926fe',1,'MR::Polyline::topology()']]],
   ['totalarea_5f_13',['totalArea_',['../classMR_1_1ObjectMeshHolder.html#abfac8fd9808955939be1f0186cbdb896',1,'MR::ObjectMeshHolder']]],
   ['totallength_5f_14',['totalLength_',['../classMR_1_1ObjectLinesHolder.html#aee46157cb8a669b29f698f0ea9688264',1,'MR::ObjectLinesHolder']]],
-  ['touchbdvertices_15',['touchBdVertices',['../structMRE_1_1DecimateSettings.html#a03b7e3ab435504e0885c7f48e9d0bd52',1,'MRE::DecimateSettings::touchBdVertices()'],['../structMRE_1_1DecimatePolylineSettings.html#a1e1a039c07cbe0312d0ec5559c14d822',1,'MRE::DecimatePolylineSettings::touchBdVertices()']]],
+  ['touchbdvertices_15',['touchBdVertices',['../structMRE_1_1DecimateSettings.html#a03b7e3ab435504e0885c7f48e9d0bd52',1,'MRE::DecimateSettings::touchBdVertices()'],['../structMRE_1_1DecimatePolylineSettings.html#aa778523863e7034485267a396c2a792d',1,'MRE::DecimatePolylineSettings::touchBdVertices()']]],
   ['tree_16',['tree',['../structMR_1_1Line3Mesh.html#a993c546c36a0d4723de3bdaffd1d769e',1,'MR::Line3Mesh']]],
   ['tri_17',['tri',['../structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318',1,'MR::EdgeTri']]],
   ['tris_18',['tris',['../structMR_1_1MeshBuilder_1_1MeshPiece.html#acaa4e2703d22a3965d91b3e9a58b69ee',1,'MR::MeshBuilder::MeshPiece']]],

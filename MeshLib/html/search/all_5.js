@@ -1,8 +1,8 @@
 var searchData=
 [
   ['e_0',['e',['../structMR_1_1MeshEdgePoint.html#a72f48a205244f5c3966aaa8e3c6af285',1,'MR::MeshEdgePoint::e()'],['../structMR_1_1MeshTriPoint.html#afb2e8376855431a09626f25ffe6039bc',1,'MR::MeshTriPoint::e()']]],
-  ['edge_1',['edge',['../structMR_1_1EdgeTri.html#a75d3cbfc185bb135fa0ecacfa0eea64e',1,'MR::EdgeTri']]],
-  ['edge_2',['Edge',['../structMRE_1_1OneMeshIntersection.html#a08a10cf00795b944d042652aee847a6ca215dc216474512346220e8621f76e2ee',1,'MRE::OneMeshIntersection']]],
+  ['edge_1',['Edge',['../structMRE_1_1OneMeshIntersection.html#a08a10cf00795b944d042652aee847a6ca215dc216474512346220e8621f76e2ee',1,'MRE::OneMeshIntersection']]],
+  ['edge_2',['edge',['../structMR_1_1EdgeTri.html#a75d3cbfc185bb135fa0ecacfa0eea64e',1,'MR::EdgeTri']]],
   ['edge_20paths_3',['Edge Paths',['../group__EdgePathsGroup.html',1,'']]],
   ['edgebitset_4',['EdgeBitSet',['../namespaceMR.html#afa52f737f1695a9866b22a30a29aefba',1,'MR']]],
   ['edgecurvmetric_5',['edgeCurvMetric',['../group__EdgePathsGroup.html#ga215f966d7ad4e48210e0de178cb43a06',1,'MR']]],

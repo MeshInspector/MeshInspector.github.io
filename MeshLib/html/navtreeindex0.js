@@ -174,6 +174,10 @@ var NAVTREEINDEX0 =
 "MREPointCloudTriangulation_8h.html":[10,0,0,1,0,11],
 "MREPointCloudTriangulation_8h_source.html":[10,0,0,1,0,11],
 "MREPolylineDecimate_8h.html":[10,0,0,1,0,13],
+"MREPolylineDecimate_8h.html#a3342fed509972c31b058e2f030030274":[10,0,0,1,0,13,2],
+"MREPolylineDecimate_8h.html#a6e7a3ce9a584c8a7380eda5334a74690":[10,0,0,1,0,13,1],
+"MREPolylineDecimate_8h.html#a987cea1762b9976ff3d651cfefba747b":[10,0,0,1,0,13,6],
+"MREPolylineDecimate_8h.html#ade7b142118a0b99dfd80b7e19682ca0a":[10,0,0,1,0,13,4],
 "MREPolylineDecimate_8h_source.html":[10,0,0,1,0,13],
 "MRESurroundingContour_8h.html":[10,0,0,1,0,14],
 "MRESurroundingContour_8h_source.html":[10,0,0,1,0,14],
@@ -245,9 +249,5 @@ var NAVTREEINDEX0 =
 "MRHeapBytes_8h.html":[10,0,0,1,2,65],
 "MRHeapBytes_8h_source.html":[10,0,0,1,2,65],
 "MRHeap_8h.html":[10,0,0,1,2,64],
-"MRHeap_8h_source.html":[10,0,0,1,2,64],
-"MRHighPrecision_8h.html":[10,0,0,1,2,66],
-"MRHighPrecision_8h_source.html":[10,0,0,1,2,66],
-"MRHistogram_8h.html":[10,0,0,1,2,67],
-"MRHistogram_8h_source.html":[10,0,0,1,2,67]
+"MRHeap_8h_source.html":[10,0,0,1,2,64]
 };

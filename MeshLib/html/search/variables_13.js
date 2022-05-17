@@ -9,7 +9,7 @@ var searchData=
   ['vert_6',['vert',['../structMR_1_1VertDistance.html#ab32da452523a0d3cd61407d73b038145',1,'MR::VertDistance']]],
   ['vertdist2_7',['vertDist2',['../structMR_1_1VertPair.html#a9877259bf186487a6ae646bba6602ce4',1,'MR::VertPair']]],
   ['vertexprecision_8',['vertexPrecision',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#a391e0a1e39f79dd41b9a003e251360c4',1,'MR::MeshSave::CtmSaveOptions']]],
-  ['vertforms_9',['vertForms',['../structMRE_1_1DecimateSettings.html#a23c47583972b3b17dd89bc69cc2094cd',1,'MRE::DecimateSettings::vertForms()'],['../structMRE_1_1DecimatePolylineSettings.html#af1894bde6dfbef43e086984547d593bd',1,'MRE::DecimatePolylineSettings::vertForms()']]],
+  ['vertforms_9',['vertForms',['../structMRE_1_1DecimateSettings.html#a23c47583972b3b17dd89bc69cc2094cd',1,'MRE::DecimateSettings::vertForms()'],['../structMRE_1_1DecimatePolylineSettings.html#a2ec04e8cdab4c2586531eb473660596e',1,'MRE::DecimatePolylineSettings::vertForms()']]],
   ['vertid_10',['vertId',['../structMR_1_1VertPair.html#ae6239c50e9f906f24298e97baafcfd73',1,'MR::VertPair']]],
   ['vertnormals_11',['vertNormals',['../structMR_1_1MeshNormals.html#a9415ae7311347805d0b725c9a07ef5ea',1,'MR::MeshNormals']]],
   ['vertscolormap_5f_12',['vertsColorMap_',['../classMR_1_1VisualObject.html#abe95051135f3ebbc784ad854b11cb36e',1,'MR::VisualObject']]],

@@ -32,7 +32,7 @@ var searchData=
   ['src2tgtfaces_29',['src2tgtFaces',['../structMR_1_1PartMapping.html#a17c114a164e936949a12ed9160b8643a',1,'MR::PartMapping']]],
   ['src2tgtverts_30',['src2tgtVerts',['../structMR_1_1PartMapping.html#ac903190648e0aba9ba91ae345d82a1a8',1,'MR::PartMapping']]],
   ['srcvert_31',['srcVert',['../structMR_1_1MeshBuilder_1_1VertDuplication.html#af11c3a7954be62b84ca6ea3b824ec5a6',1,'MR::MeshBuilder::VertDuplication']]],
-  ['stabilizer_32',['stabilizer',['../structMRE_1_1DecimateSettings.html#a3c40fafa954eac9946ce998467a2449e',1,'MRE::DecimateSettings::stabilizer()'],['../structMRE_1_1DecimateParallelSettings.html#a0b61ab1c0f0b8cdfb1227b61538701ed',1,'MRE::DecimateParallelSettings::stabilizer()'],['../structMRE_1_1DecimatePolylineSettings.html#a94801c0ed11e7b485a59aa8ef9805609',1,'MRE::DecimatePolylineSettings::stabilizer()']]],
+  ['stabilizer_32',['stabilizer',['../structMRE_1_1DecimateSettings.html#a3c40fafa954eac9946ce998467a2449e',1,'MRE::DecimateSettings::stabilizer()'],['../structMRE_1_1DecimateParallelSettings.html#a0b61ab1c0f0b8cdfb1227b61538701ed',1,'MRE::DecimateParallelSettings::stabilizer()'],['../structMRE_1_1DecimatePolylineSettings.html#a154b28714fe352d956b00321cdaf3880',1,'MRE::DecimatePolylineSettings::stabilizer()']]],
   ['start_33',['start',['../structMR_1_1VoxelMetricParameters.html#ae851669e25fee95a2b98a79736a529cf',1,'MR::VoxelMetricParameters']]],
   ['startpoint_34',['startPoint',['../structMR_1_1TextMeshAlignParams.html#a6df9edf87f62b28da46ec442e5097834',1,'MR::TextMeshAlignParams']]],
   ['stop_35',['stop',['../structMR_1_1VoxelMetricParameters.html#ab2680e847f9d7f989c60b09700889278',1,'MR::VoxelMetricParameters']]],

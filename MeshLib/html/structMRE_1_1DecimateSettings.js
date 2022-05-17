@@ -6,6 +6,7 @@ var structMRE_1_1DecimateSettings =
     [ "maxTriangleAspectRatio", "structMRE_1_1DecimateSettings.html#aa9e747580fa45ea2f0e80a8fcd1a974f", null ],
     [ "packMesh", "structMRE_1_1DecimateSettings.html#ad5726ea05c0bd01b3a824d535002eee7", null ],
     [ "preCollapse", "structMRE_1_1DecimateSettings.html#aa4f17fd96340b37c98219b37f743d44e", null ],
+    [ "progressCallback", "structMRE_1_1DecimateSettings.html#aecfebf60aa3a6bd27ba4692cc7c4d40c", null ],
     [ "region", "structMRE_1_1DecimateSettings.html#a5516325279c277f1368546f126ed95c5", null ],
     [ "stabilizer", "structMRE_1_1DecimateSettings.html#a3c40fafa954eac9946ce998467a2449e", null ],
     [ "strategy", "structMRE_1_1DecimateSettings.html#a1fdbdb7cb9434db208678182882be0aa", null ],

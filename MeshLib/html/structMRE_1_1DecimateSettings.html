@@ -137,6 +137,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ad5726ea05c0bd01b3a824d535002eee7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateSettings.html#ad5726ea05c0bd01b3a824d535002eee7">packMesh</a> = false</td></tr>
 <tr class="memdesc:ad5726ea05c0bd01b3a824d535002eee7"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether to pack mesh at the end  <a href="structMRE_1_1DecimateSettings.html#ad5726ea05c0bd01b3a824d535002eee7">More...</a><br /></td></tr>
 <tr class="separator:ad5726ea05c0bd01b3a824d535002eee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecfebf60aa3a6bd27ba4692cc7c4d40c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRE_1_1DecimateSettings.html#aecfebf60aa3a6bd27ba4692cc7c4d40c">progressCallback</a> = {}</td></tr>
+<tr class="memdesc:aecfebf60aa3a6bd27ba4692cc7c4d40c"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback to report algorithm progress and cancel it by user request  <a href="structMRE_1_1DecimateSettings.html#aecfebf60aa3a6bd27ba4692cc7c4d40c">More...</a><br /></td></tr>
+<tr class="separator:aecfebf60aa3a6bd27ba4692cc7c4d40c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Parameters structure for <a class="el" href="group__DecimateGroup.html#ga9f4ed5382008a7fff13610607c6c5719" title="Collapse edges in mesh region according to the settings.">MRE::decimateMesh</a>. </p>
@@ -235,6 +238,22 @@ Public Attributes</h2></td></tr>
 
 <p>The user can provide this optional callback that is invoked immediately before edge collapse;. </p>
 <p >It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited </p>
+
+</div>
+</div>
+<a id="aecfebf60aa3a6bd27ba4692cc7c4d40c" name="aecfebf60aa3a6bd27ba4692cc7c4d40c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecfebf60aa3a6bd27ba4692cc7c4d40c">&#9670;&nbsp;</a></span>progressCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a> MRE::DecimateSettings::progressCallback = {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>callback to report algorithm progress and cancel it by user request </p>
 
 </div>
 </div>
