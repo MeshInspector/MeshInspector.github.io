@@ -11,5 +11,6 @@ var MRMeshBuilder_8h =
     [ "fromPointTriples", "MRMeshBuilder_8h.html#a56a8be33e28c205871eca5453cafde9a", null ],
     [ "fromTriangles", "MRMeshBuilder_8h.html#add019b83c5daf672400d9454be6747cb", null ],
     [ "fromTrianglesDuplicatingNonManifoldVertices", "MRMeshBuilder_8h.html#aa257adc4a7d87dc6bf94c52fc56960dd", null ],
-    [ "fromVertexTriples", "MRMeshBuilder_8h.html#a356920034893f3c5b5fcd0831704203c", null ]
+    [ "fromVertexTriples", "MRMeshBuilder_8h.html#a356920034893f3c5b5fcd0831704203c", null ],
+    [ "uniteCloseVertices", "MRMeshBuilder_8h.html#adbca7caa523fcdb27f944a48e8ed220a", null ]
 ];

@@ -13,11 +13,11 @@ var searchData=
   ['meshload_10',['MeshLoad',['../namespaceMR_1_1MeshLoad.html',1,'MR']]],
   ['meshsave_11',['MeshSave',['../namespaceMR_1_1MeshSave.html',1,'MR']]],
   ['mr_12',['MR',['../namespaceMR.html',1,'']]],
-  ['mre_13',['MRE',['../namespaceMRE.html',1,'']]],
-  ['planartriangulation_14',['PlanarTriangulation',['../namespaceMR_1_1PlanarTriangulation.html',1,'MR']]],
-  ['pointsload_15',['PointsLoad',['../namespaceMR_1_1PointsLoad.html',1,'MR']]],
-  ['pointssave_16',['PointsSave',['../namespaceMR_1_1PointsSave.html',1,'MR']]],
-  ['triangulationhelpers_17',['TriangulationHelpers',['../namespaceMRE_1_1TriangulationHelpers.html',1,'MRE']]],
+  ['planartriangulation_13',['PlanarTriangulation',['../namespaceMR_1_1PlanarTriangulation.html',1,'MR']]],
+  ['pointsload_14',['PointsLoad',['../namespaceMR_1_1PointsLoad.html',1,'MR']]],
+  ['pointssave_15',['PointsSave',['../namespaceMR_1_1PointsSave.html',1,'MR']]],
+  ['polylinecomponents_16',['PolylineComponents',['../namespaceMR_1_1PolylineComponents.html',1,'MR']]],
+  ['triangulationhelpers_17',['TriangulationHelpers',['../namespaceMR_1_1TriangulationHelpers.html',1,'MR']]],
   ['voxelsload_18',['VoxelsLoad',['../namespaceMR_1_1VoxelsLoad.html',1,'MR']]],
   ['voxelssave_19',['VoxelsSave',['../namespaceMR_1_1VoxelsSave.html',1,'MR']]]
 ];

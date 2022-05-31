@@ -8,7 +8,7 @@ var searchData=
   ['bastards_5f_5',['bastards_',['../structMR_1_1ObjectChildrenHolder.html#a2ba9302240c85bc5dfd78068e7b2e918',1,'MR::ObjectChildrenHolder']]],
   ['begin_5f_6',['begin_',['../structMR_1_1IteratorRange.html#a6dc3025499872ade8eaf5f1768b10aa3',1,'MR::IteratorRange']]],
   ['bface_7',['bFace',['../structMR_1_1FaceFace.html#aee3dbbcbddd14dd0707a78411581d0fc',1,'MR::FaceFace']]],
-  ['border_8',['border',['../structMRE_1_1TriangulationHelpers_1_1TriangulatedFan.html#afad2f7e14b57ffa789257410a3693daf',1,'MRE::TriangulationHelpers::TriangulatedFan']]],
+  ['border_8',['border',['../structMR_1_1TriangulationHelpers_1_1TriangulatedFan.html#aaae19578fac62dcb2e7c2457ef0cfcf6',1,'MR::TriangulationHelpers::TriangulatedFan']]],
   ['borderscolor_5f_9',['bordersColor_',['../classMR_1_1ObjectMeshHolder.html#a2d5ce6978ed2e32054c5af2ab070ec11',1,'MR::ObjectMeshHolder']]],
   ['box_10',['box',['../structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5',1,'MR::BoxedLeaf::box()'],['../structMR_1_1AABBTreeNode.html#a5c90c7ee746d8e3f67062655f733dea0',1,'MR::AABBTreeNode::box()'],['../structMR_1_1AABBTreePoints_1_1Node.html#a2153d4fd7d12b27618511103c9080df3',1,'MR::AABBTreePoints::Node::box()']]],
   ['buildpathexponentmodifier_11',['buildPathExponentModifier',['../structMR_1_1VolumeSegmentationParameters.html#af000ea80a099a9de6d4f4f4475580b6c',1,'MR::VolumeSegmentationParameters']]],

@@ -108,6 +108,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ContoursDistanceMapOffset.html">MR::ContoursDistanceMapOffset</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure with parameters for optional offset in <code>distanceMapFromContours</code> function.  <a href="structMR_1_1ContoursDistanceMapOffset.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ContourToDistanceMapParams.html">MR::ContourToDistanceMapParams</a></td></tr>
@@ -143,9 +145,9 @@ Functions</h2></td></tr>
 <tr class="separator:gade9da1de9798f7342d306e1329380c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga870efb6b46cc879b8655dd943e201459"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#ga870efb6b46cc879b8655dd943e201459">MR::computeDistanceMapD</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="structMR_1_1MeshToDistanceMapParams.html">MeshToDistanceMapParams</a> &amp;params)</td></tr>
 <tr class="separator:ga870efb6b46cc879b8655dd943e201459"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0027ab54c61291872ff223f12071e442"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#ga0027ab54c61291872ff223f12071e442">MR::distanceMapFromContours</a> (const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;contours, const <a class="el" href="structMR_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a> &amp;params, const <a class="el" href="structMR_1_1ContoursDistanceMapOffset.html">ContoursDistanceMapOffset</a> *offsetParameters=nullptr, std::vector&lt; <a class="el" href="namespaceMR.html#a65798dca01178b50da3bbd7968fb360e">UndirectedEdgeId</a> &gt; *outClosestEdges=nullptr, const <a class="el" href="namespaceMR.html#ac51f194c1eecf72bdabdbab8732d7f38">PixelBitSet</a> *region=nullptr)</td></tr>
-<tr class="memdesc:ga0027ab54c61291872ff223f12071e442"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes distance of 2d contours according <a class="el" href="structMR_1_1ContourToDistanceMapParams.html" title="Structure with parameters to generate DistanceMap by Contours.">ContourToDistanceMapParams</a>.  <a href="group__DistanceMapGroup.html#ga0027ab54c61291872ff223f12071e442">More...</a><br /></td></tr>
-<tr class="separator:ga0027ab54c61291872ff223f12071e442"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6ba988d1173a8800e2ccfc5ac30d2a68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#ga6ba988d1173a8800e2ccfc5ac30d2a68">MR::distanceMapFromContours</a> (const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;contours, const <a class="el" href="structMR_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a> &amp;params, const <a class="el" href="structMR_1_1ContoursDistanceMapOptions.html">ContoursDistanceMapOptions</a> &amp;options={})</td></tr>
+<tr class="memdesc:ga6ba988d1173a8800e2ccfc5ac30d2a68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes distance of 2d contours according <a class="el" href="structMR_1_1ContourToDistanceMapParams.html" title="Structure with parameters to generate DistanceMap by Contours.">ContourToDistanceMapParams</a>.  <a href="group__DistanceMapGroup.html#ga6ba988d1173a8800e2ccfc5ac30d2a68">More...</a><br /></td></tr>
+<tr class="separator:ga6ba988d1173a8800e2ccfc5ac30d2a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga24734ef2060f40a2638ace7c7f2ac54e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#ga24734ef2060f40a2638ace7c7f2ac54e">MR::edgePointsFromContours</a> (const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;contour, float pixelSize, float threshold)</td></tr>
 <tr class="separator:ga24734ef2060f40a2638ace7c7f2ac54e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga91dadb5d280efea2e31e4620ed69cf56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#ga91dadb5d280efea2e31e4620ed69cf56">MR::distanceMapTo2DIsoPolyline</a> (const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;distMap, float isoValue)</td></tr>
@@ -614,8 +616,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga0027ab54c61291872ff223f12071e442" name="ga0027ab54c61291872ff223f12071e442"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0027ab54c61291872ff223f12071e442">&#9670;&nbsp;</a></span>distanceMapFromContours() <span class="overload">[2/2]</span></h2>
+<a id="ga6ba988d1173a8800e2ccfc5ac30d2a68" name="ga6ba988d1173a8800e2ccfc5ac30d2a68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6ba988d1173a8800e2ccfc5ac30d2a68">&#9670;&nbsp;</a></span>distanceMapFromContours() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -635,20 +637,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1ContoursDistanceMapOffset.html">ContoursDistanceMapOffset</a> *&#160;</td>
-          <td class="paramname"><em>offsetParameters</em> = <code>nullptr</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="namespaceMR.html#a65798dca01178b50da3bbd7968fb360e">UndirectedEdgeId</a> &gt; *&#160;</td>
-          <td class="paramname"><em>outClosestEdges</em> = <code>nullptr</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#ac51f194c1eecf72bdabdbab8732d7f38">PixelBitSet</a> *&#160;</td>
-          <td class="paramname"><em>region</em> = <code>nullptr</code>&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ContoursDistanceMapOptions.html">ContoursDistanceMapOptions</a> &amp;&#160;</td>
+          <td class="paramname"><em>options</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -661,12 +651,10 @@ Functions</h2></td></tr>
 <p>Computes distance of 2d contours according <a class="el" href="structMR_1_1ContourToDistanceMapParams.html" title="Structure with parameters to generate DistanceMap by Contours.">ContourToDistanceMapParams</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">offsetParameters</td><td>- optional input offset for each edges of polyline, find more on <code><a class="el" href="structMR_1_1ContoursDistanceMapOffset.html" title="Structure with parameters for optional offset in distanceMapFromContours function.">ContoursDistanceMapOffset</a></code> structure description </td></tr>
-    <tr><td class="paramname">outClosestEdges</td><td>- optional output vector of closest polyline edge per each pixel of distance map </td></tr>
+    <tr><td class="paramname">options</td><td>- optional input and output options for distance map calculation, find more <a class="el" href="structMR_1_1ContoursDistanceMapOptions.html">ContoursDistanceMapOptions</a> </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>that polyline topology should be consistently oriented if pointer is valid, then only these pixels will be filled </dd></dl>
 
 </div>
 </div>

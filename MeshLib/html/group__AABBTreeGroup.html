@@ -278,6 +278,8 @@ Functions</h2></td></tr>
 <tr class="separator:gacf732ad65b2c27ccad7fc43e75293c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadb026730b0df98aa305e2721e46fc495"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gadb026730b0df98aa305e2721e46fc495">MR::findPointsInBall</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;center, float radius, const <a class="el" href="namespaceMR.html#ac4f1361c3362959c175d914a777b236d">FoundPointCallback</a> &amp;foundCallback)</td></tr>
 <tr class="separator:gadb026730b0df98aa305e2721e46fc495"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf7090d7297e7990875bac76b780daadf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaf7090d7297e7990875bac76b780daadf">MR::findPointsInBall</a> (const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;tree, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;center, float radius, const <a class="el" href="namespaceMR.html#ac4f1361c3362959c175d914a777b236d">FoundPointCallback</a> &amp;foundCallback)</td></tr>
+<tr class="separator:gaf7090d7297e7990875bac76b780daadf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga44c8af10ceaf3059a77647d7b6f2ca8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1UndirectedEdgeUndirectedEdge.html">UndirectedEdgeUndirectedEdge</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga44c8af10ceaf3059a77647d7b6f2ca8b">MR::findCollidingEdges</a> (const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;a, const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;b, const <a class="el" href="namespaceMR.html#aaf5a1eb99830c5d7196aa5bf3a05f70e">AffineXf2f</a> *rigidB2A=nullptr, bool firstIntersectionOnly=false)</td></tr>
 <tr class="memdesc:ga44c8af10ceaf3059a77647d7b6f2ca8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding edges from two 2d polylines  <a href="group__AABBTreeGroup.html#ga44c8af10ceaf3059a77647d7b6f2ca8b">More...</a><br /></td></tr>
 <tr class="separator:ga44c8af10ceaf3059a77647d7b6f2ca8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -293,6 +295,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa8d770560279dcdaa48764810b77c30d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaa8d770560279dcdaa48764810b77c30d">MR::isInside</a> (const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;a, const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;b, const <a class="el" href="namespaceMR.html#aaf5a1eb99830c5d7196aa5bf3a05f70e">AffineXf2f</a> *rigidB2A=nullptr)</td></tr>
 <tr class="memdesc:gaa8d770560279dcdaa48764810b77c30d"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary 2d polyline A is inside of closed 2d polyline B  <a href="group__AABBTreeGroup.html#gaa8d770560279dcdaa48764810b77c30d">More...</a><br /></td></tr>
 <tr class="separator:gaa8d770560279dcdaa48764810b77c30d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2aba3040bbdbbafb7d8e38803b955524"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga2aba3040bbdbbafb7d8e38803b955524">MR::isPointInsidePolyline</a> (const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;polyline, const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;point)</td></tr>
+<tr class="memdesc:ga2aba3040bbdbbafb7d8e38803b955524"><td class="mdescLeft">&#160;</td><td class="mdescRight">detect if given point is inside polyline, by counting ray intersections  <a href="group__AABBTreeGroup.html#ga2aba3040bbdbbafb7d8e38803b955524">More...</a><br /></td></tr>
+<tr class="separator:ga2aba3040bbdbbafb7d8e38803b955524"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1c3a835211885d9a101eb4c7344b1954"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga1c3a835211885d9a101eb4c7344b1954">MR::closestPointOnLine</a> (const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;pt, const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;a, const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;b)</td></tr>
 <tr class="memdesc:ga1c3a835211885d9a101eb4c7344b1954"><td class="mdescLeft">&#160;</td><td class="mdescRight">return closest point on ab segment, use closestPointOnLineSegm( const Vector3&lt;T&gt;&amp; pt, const LineSegm3&lt;T&gt; &amp; l ) instead  <a href="group__AABBTreeGroup.html#ga1c3a835211885d9a101eb4c7344b1954">More...</a><br /></td></tr>
 <tr class="separator:ga1c3a835211885d9a101eb4c7344b1954"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1033,8 +1038,49 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="gaf7090d7297e7990875bac76b780daadf" name="gaf7090d7297e7990875bac76b780daadf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf7090d7297e7990875bac76b780daadf">&#9670;&nbsp;</a></span>findPointsInBall() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::findPointsInBall </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;&#160;</td>
+          <td class="paramname"><em>tree</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>center</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ac4f1361c3362959c175d914a777b236d">FoundPointCallback</a> &amp;&#160;</td>
+          <td class="paramname"><em>foundCallback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Finds all points in tree that are inside given ball (distance to center are lower then radius) </p>
+
+</div>
+</div>
 <a id="gadb026730b0df98aa305e2721e46fc495" name="gadb026730b0df98aa305e2721e46fc495"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadb026730b0df98aa305e2721e46fc495">&#9670;&nbsp;</a></span>findPointsInBall()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadb026730b0df98aa305e2721e46fc495">&#9670;&nbsp;</a></span>findPointsInBall() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1809,6 +1855,43 @@ template&lt;typename T &gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-polyline space to A polyline space, nullptr considered as identity transformation </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga2aba3040bbdbbafb7d8e38803b955524" name="ga2aba3040bbdbbafb7d8e38803b955524"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2aba3040bbdbbafb7d8e38803b955524">&#9670;&nbsp;</a></span>isPointInsidePolyline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::isPointInsidePolyline </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;&#160;</td>
+          <td class="paramname"><em>polyline</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;&#160;</td>
+          <td class="paramname"><em>point</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>detect if given point is inside polyline, by counting ray intersections </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">polyline</td><td>input polyline </td></tr>
+    <tr><td class="paramname">point</td><td>input point </td></tr>
   </table>
   </dd>
 </dl>

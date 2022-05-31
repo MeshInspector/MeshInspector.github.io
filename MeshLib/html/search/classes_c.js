@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['parallelplanefillmetric_0',['ParallelPlaneFillMetric',['../structMRE_1_1ParallelPlaneFillMetric.html',1,'MRE']]],
+  ['parallelplanefillmetric_0',['ParallelPlaneFillMetric',['../structMR_1_1ParallelPlaneFillMetric.html',1,'MR']]],
   ['partialcolormap_1',['PartialColorMap',['../structMR_1_1ColorMapAggregator_1_1PartialColorMap.html',1,'MR::ColorMapAggregator']]],
   ['partmapping_2',['PartMapping',['../structMR_1_1PartMapping.html',1,'MR']]],
   ['pdf_3',['Pdf',['../classMR_1_1Pdf.html',1,'MR']]],

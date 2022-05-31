@@ -138,6 +138,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afe5c12db028de0c7152524376a92c38b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTreePoints.html#afe5c12db028de0c7152524376a92c38b">AABBTreePoints</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud)</td></tr>
 <tr class="memdesc:afe5c12db028de0c7152524376a92c38b"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree for given point cloud  <a href="classMR_1_1AABBTreePoints.html#afe5c12db028de0c7152524376a92c38b">More...</a><br /></td></tr>
 <tr class="separator:afe5c12db028de0c7152524376a92c38b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab159b10db8a36b63387eb1149c826dbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTreePoints.html#ab159b10db8a36b63387eb1149c826dbd">AABBTreePoints</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="memdesc:ab159b10db8a36b63387eb1149c826dbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree for vertices of given mesh  <a href="classMR_1_1AABBTreePoints.html#ab159b10db8a36b63387eb1149c826dbd">More...</a><br /></td></tr>
+<tr class="separator:ab159b10db8a36b63387eb1149c826dbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ebff44171f89a91cadbee771a5d5368"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTreePoints.html#a4ebff44171f89a91cadbee771a5d5368">AABBTreePoints</a> (const <a class="el" href="namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5">VertCoords</a> &amp;points, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;validPoints)</td></tr>
+<tr class="memdesc:a4ebff44171f89a91cadbee771a5d5368"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree from given valid points  <a href="classMR_1_1AABBTreePoints.html#a4ebff44171f89a91cadbee771a5d5368">More...</a><br /></td></tr>
+<tr class="separator:a4ebff44171f89a91cadbee771a5d5368"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65f478734833e01a7796565862c32038"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTreePoints.html#a65f478734833e01a7796565862c32038">AABBTreePoints</a> (<a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="separator:a65f478734833e01a7796565862c32038"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f0edac8d95fa30b01aeb66950911da9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTreePoints.html#a0f0edac8d95fa30b01aeb66950911da9">operator=</a> (<a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;&amp;) noexcept=default</td></tr>
@@ -195,7 +201,7 @@ Friends</h2></td></tr>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afe5c12db028de0c7152524376a92c38b" name="afe5c12db028de0c7152524376a92c38b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe5c12db028de0c7152524376a92c38b">&#9670;&nbsp;</a></span>AABBTreePoints() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afe5c12db028de0c7152524376a92c38b">&#9670;&nbsp;</a></span>AABBTreePoints() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -214,8 +220,58 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="ab159b10db8a36b63387eb1149c826dbd" name="ab159b10db8a36b63387eb1149c826dbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab159b10db8a36b63387eb1149c826dbd">&#9670;&nbsp;</a></span>AABBTreePoints() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR::AABBTreePoints::AABBTreePoints </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>creates tree for vertices of given mesh </p>
+
+</div>
+</div>
+<a id="a4ebff44171f89a91cadbee771a5d5368" name="a4ebff44171f89a91cadbee771a5d5368"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ebff44171f89a91cadbee771a5d5368">&#9670;&nbsp;</a></span>AABBTreePoints() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR::AABBTreePoints::AABBTreePoints </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5">VertCoords</a> &amp;&#160;</td>
+          <td class="paramname"><em>points</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>validPoints</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>creates tree from given valid points </p>
+
+</div>
+</div>
 <a id="a65f478734833e01a7796565862c32038" name="a65f478734833e01a7796565862c32038"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65f478734833e01a7796565862c32038">&#9670;&nbsp;</a></span>AABBTreePoints() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a65f478734833e01a7796565862c32038">&#9670;&nbsp;</a></span>AABBTreePoints() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

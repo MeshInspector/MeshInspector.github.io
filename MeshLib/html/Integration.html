@@ -109,17 +109,27 @@ Please install vcpkg, and integrate it into Visual Studio (note that vcpkg requi
 <div class="line">$ git checkout 5c54cc06554e450829d72013c4b9e4baae41529a</div>
 <div class="line">$ .\bootstrap-vcpkg.bat</div>
 <div class="line">$ .\vcpkg integrate install (with admin rights)</div>
+<div class="line">$ cd ..</div>
 </div><!-- fragment --><p> More details here: <a href="https://github.com/microsoft/vcpkg">vcpkg</a></p><ol type="1">
-<li>Copy <b>thirdparty/vcpkg/triplets/x64-windows-meshrus.cmake</b> to <b>vcpkg/triplets</b> folder of vcpkg installation.</li>
+<li>Copy <b>MeshLib/thirdparty/vcpkg/triplets/x64-windows-meshrus.cmake</b> to <b>vcpkg/triplets</b> folder of vcpkg installation.</li>
 <li>Execute install.bat <div class="fragment"><div class="line">$ cd vcpkg # or add vcpcg to PATH</div>
-<div class="line">$ work/MeshLib/thirdparty/install.bat</div>
+<div class="line">$ ../MeshLib/thirdparty/install.bat</div>
 </div><!-- fragment --></li>
 </ol>
 <p ><b>Submodule:</b> <br  />
-You can have MeshLib as submodule in your repository, and inculde MeshLib's projects to your solution. <dl class="section note"><dt>Note</dt><dd>You should use <code>MeshLib/source/common.props</code> in other projects of your solution. </dd></dl>
+You can have MeshLib as submodule in your repository, and inculde all MeshLib's projects to your solution. <dl class="section note"><dt>Note</dt><dd>You should use <code>MeshLib/source/common.props</code> in other projects of your solution. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>You can customize props by defining <code>CustomMRProps.props</code> in directory above <code>common.props</code> </dd></dl>
 <p ><b>Distribution:</b> <br  />
-You can download <a href="https://github.com/MeshInspector/MeshLib/releases">distribution</a> and integrate it in your projects </p><dl class="section note"><dt>Note</dt><dd>Distribution is build with ITERATOR_DEBUG_LEVEL=0 in debug so you will need to setup this for your projects</dd></dl>
+You can download <a href="https://github.com/MeshInspector/MeshLib/releases">distribution</a> and integrate it in your projects.<br  />
+Project settings:</p><ol type="1">
+<li><code>C/C++ -&gt; General -&gt; Additional Include Directories</code> add <code>distribution\install\include;</code></li>
+<li><code>Linker -&gt; General -&gt; Additional Library Directories</code> add <code>distribution\install\app\;</code></li>
+<li><code>Linker -&gt; Input -&gt; Additional Dependencies</code> add <code>distribution\install\lib\\*.lib;</code></li>
+<li>Debug: <code>C/C++ -&gt; Preprocessor -&gt; Preprocessor Defenitions</code> add <code>_ITERATOR_DEBUG_LEVEL=0;</code></li>
+<li>'vcpkg -&gt; Triplet' set <code>x64-windows-meshrus</code></li>
+</ol>
+<p >Make sure you copy all dlls from <code>distribution\install\app\;</code> to your <code></code> <dl class="section note"><dt>Note</dt><dd>MeshLib distribution has x64 build only </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Distribution is build with ITERATOR_DEBUG_LEVEL=0 in debug so you will need to setup this for your projects </dd></dl>
 <h1><a class="anchor" id="Linux"></a>
 Ubuntu/Fedora</h1>
 <p >You can download <a href="https://github.com/MeshInspector/MeshLib/releases">dev package</a> and install it with your Linux OS package manager </p>

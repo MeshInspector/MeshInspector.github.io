@@ -15,8 +15,8 @@ var hierarchy =
     [ "MR::BaseRenderParams", "structMR_1_1BaseRenderParams.html", [
       [ "MR::RenderParams", "structMR_1_1RenderParams.html", null ]
     ] ],
-    [ "MRE::BooleanResult", "structMRE_1_1BooleanResult.html", null ],
-    [ "MRE::BooleanResultMapper", "structMRE_1_1BooleanResultMapper.html", null ],
+    [ "MR::BooleanResult", "structMR_1_1BooleanResult.html", null ],
+    [ "MR::BooleanResultMapper", "structMR_1_1BooleanResultMapper.html", null ],
     [ "MR::Box< V >", "structMR_1_1Box.html", null ],
     [ "MR::Box< float >", "structMR_1_1Box.html", null ],
     [ "MR::Box< int >", "structMR_1_1Box.html", null ],
@@ -25,24 +25,25 @@ var hierarchy =
     [ "MR::ColorMapAggregator< Tag >", "classMR_1_1ColorMapAggregator.html", null ],
     [ "MR::Config", "classMR_1_1Config.html", null ],
     [ "MR::ContoursDistanceMapOffset", "structMR_1_1ContoursDistanceMapOffset.html", null ],
+    [ "MR::ContoursDistanceMapOptions", "structMR_1_1ContoursDistanceMapOptions.html", null ],
     [ "MR::ContourToDistanceMapParams", "structMR_1_1ContourToDistanceMapParams.html", null ],
     [ "MR::CoordinateConverters", "structMR_1_1CoordinateConverters.html", null ],
     [ "MR::CoordinateConverters2", "structMR_1_1CoordinateConverters2.html", null ],
     [ "MR::MeshSave::CtmSaveOptions", "structMR_1_1MeshSave_1_1CtmSaveOptions.html", null ],
     [ "MR::PointsSave::CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", null ],
-    [ "MRE::CutMeshParameters", "structMRE_1_1CutMeshParameters.html", null ],
-    [ "MRE::CutMeshResult", "structMRE_1_1CutMeshResult.html", null ],
-    [ "MRE::DecimateParallelSettings", "structMRE_1_1DecimateParallelSettings.html", null ],
-    [ "MRE::DecimatePolylineResult", "structMRE_1_1DecimatePolylineResult.html", null ],
-    [ "MRE::DecimatePolylineSettings< V >", "structMRE_1_1DecimatePolylineSettings.html", null ],
-    [ "MRE::DecimateResult", "structMRE_1_1DecimateResult.html", null ],
-    [ "MRE::DecimateSettings", "structMRE_1_1DecimateSettings.html", null ],
+    [ "MR::CutMeshParameters", "structMR_1_1CutMeshParameters.html", null ],
+    [ "MR::CutMeshResult", "structMR_1_1CutMeshResult.html", null ],
+    [ "MR::DecimateParallelSettings", "structMR_1_1DecimateParallelSettings.html", null ],
+    [ "MR::DecimatePolylineResult", "structMR_1_1DecimatePolylineResult.html", null ],
+    [ "MR::DecimatePolylineSettings< V >", "structMR_1_1DecimatePolylineSettings.html", null ],
+    [ "MR::DecimateResult", "structMR_1_1DecimateResult.html", null ],
+    [ "MR::DecimateSettings", "structMR_1_1DecimateSettings.html", null ],
     [ "MR::DenseBox", "structMR_1_1DenseBox.html", null ],
     [ "MR::DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html", null ],
     [ "boost::dynamic_bitset", null, [
       [ "MR::BitSet", "classMR_1_1BitSet.html", [
-        [ "MR::TaggedBitSet< UndirectedEdgeTag >", "classMR_1_1TaggedBitSet.html", null ],
         [ "MR::TaggedBitSet< FaceTag >", "classMR_1_1TaggedBitSet.html", null ],
+        [ "MR::TaggedBitSet< UndirectedEdgeTag >", "classMR_1_1TaggedBitSet.html", null ],
         [ "MR::TaggedBitSet< VertTag >", "classMR_1_1TaggedBitSet.html", null ],
         [ "MR::TaggedBitSet< Tag >", "classMR_1_1TaggedBitSet.html", null ],
         [ "MR::TaggedBitSet< T >", "classMR_1_1TaggedBitSet.html", null ]
@@ -50,7 +51,7 @@ var hierarchy =
     ] ],
     [ "MR::EdgeIdAndCoord", "structMR_1_1EdgeIdAndCoord.html", null ],
     [ "MR::EdgeTri", "structMR_1_1EdgeTri.html", [
-      [ "MRE::VariableEdgeTri", "structMRE_1_1VariableEdgeTri.html", null ]
+      [ "MR::VariableEdgeTri", "structMR_1_1VariableEdgeTri.html", null ]
     ] ],
     [ "MR::Heap< T, I, P >::Element", "structMR_1_1Heap_1_1Element.html", null ],
     [ "MR::EmbeddedPython", "classMR_1_1EmbeddedPython.html", null ],
@@ -61,14 +62,14 @@ var hierarchy =
     [ "MR::FillHoleMetric", "structMR_1_1FillHoleMetric.html", [
       [ "MR::CircumscribedFillMetric", "structMR_1_1CircumscribedFillMetric.html", null ],
       [ "MR::CircumscribedStitchMetric", "structMR_1_1CircumscribedStitchMetric.html", null ],
+      [ "MR::ComplexFillMetric", "structMR_1_1ComplexFillMetric.html", null ],
       [ "MR::ComplexStitchMetric", "structMR_1_1ComplexStitchMetric.html", null ],
       [ "MR::EdgeLengthFillMetric", "structMR_1_1EdgeLengthFillMetric.html", null ],
       [ "MR::EdgeLengthStitchMetric", "structMR_1_1EdgeLengthStitchMetric.html", null ],
+      [ "MR::ParallelPlaneFillMetric", "structMR_1_1ParallelPlaneFillMetric.html", null ],
       [ "MR::PlaneFillMetric", "structMR_1_1PlaneFillMetric.html", null ],
       [ "MR::PlaneNormalizedFillMetric", "structMR_1_1PlaneNormalizedFillMetric.html", null ],
-      [ "MR::VerticalStitchMetric", "structMR_1_1VerticalStitchMetric.html", null ],
-      [ "MRE::ComplexFillMetric", "structMRE_1_1ComplexFillMetric.html", null ],
-      [ "MRE::ParallelPlaneFillMetric", "structMRE_1_1ParallelPlaneFillMetric.html", null ]
+      [ "MR::VerticalStitchMetric", "structMR_1_1VerticalStitchMetric.html", null ]
     ] ],
     [ "MR::FillHoleParams", "structMR_1_1FillHoleParams.html", null ],
     [ "openvdb::FloatGrid", null, [
@@ -117,7 +118,7 @@ var hierarchy =
     [ "MR::Line3Mesh< T >", "structMR_1_1Line3Mesh.html", null ],
     [ "MR::LineSegm< V >", "structMR_1_1LineSegm.html", null ],
     [ "MR::Logger", "classMR_1_1Logger.html", null ],
-    [ "MRE::BooleanResultMapper::Maps", "structMRE_1_1BooleanResultMapper_1_1Maps.html", null ],
+    [ "MR::BooleanResultMapper::Maps", "structMR_1_1BooleanResultMapper_1_1Maps.html", null ],
     [ "MR::Matrix2< T >", "structMR_1_1Matrix2.html", null ],
     [ "MR::Matrix3< T >", "structMR_1_1Matrix3.html", null ],
     [ "MR::Matrix3< double >", "structMR_1_1Matrix3.html", null ],
@@ -132,7 +133,7 @@ var hierarchy =
     ] ],
     [ "MR::MeshLabel", "structMR_1_1MeshLabel.html", null ],
     [ "MR::MeshLoad::MeshLoaderAdder", "classMR_1_1MeshLoad_1_1MeshLoaderAdder.html", null ],
-    [ "MRE::MeshMeshConverter", "structMRE_1_1MeshMeshConverter.html", null ],
+    [ "MR::MeshMeshConverter", "structMR_1_1MeshMeshConverter.html", null ],
     [ "MR::MeshNormals", "structMR_1_1MeshNormals.html", null ],
     [ "MR::MeshPart", "structMR_1_1MeshPart.html", null ],
     [ "MR::MeshBuilder::MeshPiece", "structMR_1_1MeshBuilder_1_1MeshPiece.html", null ],
@@ -180,8 +181,8 @@ var hierarchy =
       [ "MR::ObjectFactory< T >", "classMR_1_1ObjectFactory.html", null ]
     ] ],
     [ "MR::OffsetParameters", "structMR_1_1OffsetParameters.html", null ],
-    [ "MRE::OneMeshContour", "structMRE_1_1OneMeshContour.html", null ],
-    [ "MRE::OneMeshIntersection", "structMRE_1_1OneMeshIntersection.html", null ],
+    [ "MR::OneMeshContour", "structMR_1_1OneMeshContour.html", null ],
+    [ "MR::OneMeshIntersection", "structMR_1_1OneMeshIntersection.html", null ],
     [ "MR::ColorMapAggregator< Tag >::PartialColorMap", "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html", null ],
     [ "MR::PartMapping", "structMR_1_1PartMapping.html", null ],
     [ "MR::Pdf", "classMR_1_1Pdf.html", null ],
@@ -223,12 +224,14 @@ var hierarchy =
     [ "MR::RegisterRenderObjectConstructor", "classMR_1_1RegisterRenderObjectConstructor.html", null ],
     [ "MR::RegularMapMesher", "classMR_1_1RegularMapMesher.html", null ],
     [ "MR::RelaxParams", "structMR_1_1RelaxParams.html", [
-      [ "MR::MeshApproxRelaxParams", "structMR_1_1MeshApproxRelaxParams.html", null ],
+      [ "MR::MeshRelaxParams", "structMR_1_1MeshRelaxParams.html", [
+        [ "MR::MeshApproxRelaxParams", "structMR_1_1MeshApproxRelaxParams.html", null ]
+      ] ],
       [ "MR::PointCloudRelaxParams", "structMR_1_1PointCloudRelaxParams.html", [
         [ "MR::PointCloudApproxRelaxParams", "structMR_1_1PointCloudApproxRelaxParams.html", null ]
       ] ]
     ] ],
-    [ "MRE::RemeshSettings", "structMRE_1_1RemeshSettings.html", null ],
+    [ "MR::RemeshSettings", "structMR_1_1RemeshSettings.html", null ],
     [ "MR::SceneColors", "structMR_1_1SceneColors.html", null ],
     [ "MR::SceneRoot", "classMR_1_1SceneRoot.html", null ],
     [ "MR::SceneSettings", "classMR_1_1SceneSettings.html", null ],
@@ -236,7 +239,7 @@ var hierarchy =
     [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", null ],
     [ "MR::SignedDistanceToMeshResult", "structMR_1_1SignedDistanceToMeshResult.html", null ],
     [ "MR::SimpleVolume", "structMR_1_1SimpleVolume.html", null ],
-    [ "MRE::SortIntersectionsData", "structMRE_1_1SortIntersectionsData.html", null ],
+    [ "MR::SortIntersectionsData", "structMR_1_1SortIntersectionsData.html", null ],
     [ "MR::SphereParams", "structMR_1_1SphereParams.html", null ],
     [ "MR::StitchHolesParams", "structMR_1_1StitchHolesParams.html", null ],
     [ "std::streambuf", null, [
@@ -250,11 +253,11 @@ var hierarchy =
     [ "MR::SymMatrix2< T >", "structMR_1_1SymMatrix2.html", null ],
     [ "MR::SymMatrix3< T >", "structMR_1_1SymMatrix3.html", null ],
     [ "MR::Timer", "classMR_1_1Timer.html", null ],
-    [ "MRE::TransformedMesh", "structMRE_1_1TransformedMesh.html", null ],
+    [ "MR::TransformedMesh", "structMR_1_1TransformedMesh.html", null ],
     [ "MR::MeshBuilder::Triangle", "structMR_1_1MeshBuilder_1_1Triangle.html", null ],
     [ "MR::TriangleSegmentIntersectResult", "structMR_1_1TriangleSegmentIntersectResult.html", null ],
-    [ "MRE::TriangulationHelpers::TriangulatedFan", "structMRE_1_1TriangulationHelpers_1_1TriangulatedFan.html", null ],
-    [ "MRE::TriangulationParameters", "structMRE_1_1TriangulationParameters.html", null ],
+    [ "MR::TriangulationHelpers::TriangulatedFan", "structMR_1_1TriangulationHelpers_1_1TriangulatedFan.html", null ],
+    [ "MR::TriangulationParameters", "structMR_1_1TriangulationParameters.html", null ],
     [ "MR::TriIntersectResult", "structMR_1_1TriIntersectResult.html", null ],
     [ "MR::TriPoint< T >", "structMR_1_1TriPoint.html", null ],
     [ "MR::TriPoint< float >", "structMR_1_1TriPoint.html", null ],

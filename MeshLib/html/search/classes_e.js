@@ -6,7 +6,7 @@ var searchData=
   ['registerrenderobjectconstructor_3',['RegisterRenderObjectConstructor',['../classMR_1_1RegisterRenderObjectConstructor.html',1,'MR']]],
   ['regularmapmesher_4',['RegularMapMesher',['../classMR_1_1RegularMapMesher.html',1,'MR']]],
   ['relaxparams_5',['RelaxParams',['../structMR_1_1RelaxParams.html',1,'MR']]],
-  ['remeshsettings_6',['RemeshSettings',['../structMRE_1_1RemeshSettings.html',1,'MRE']]],
+  ['remeshsettings_6',['RemeshSettings',['../structMR_1_1RemeshSettings.html',1,'MR']]],
   ['renderparams_7',['RenderParams',['../structMR_1_1RenderParams.html',1,'MR']]],
   ['restoringstreamssink_8',['RestoringStreamsSink',['../classMR_1_1RestoringStreamsSink.html',1,'MR']]],
   ['ringiterator_9',['RingIterator',['../classMR_1_1RingIterator.html',1,'MR']]]

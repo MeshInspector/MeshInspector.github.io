@@ -12,7 +12,7 @@ var searchData=
   ['selectedpoints_9',['SelectedPoints',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aaf0e894d9fdff84113b5dd6c028335cce',1,'MR::SceneColors']]],
   ['selectedvertices_10',['SelectedVertices',['../structMR_1_1PointsVisualizePropertyType.html#af868fa83ffd7b3432b83e45dad431efea77dc38e401313dd2bc528244534b38a9',1,'MR::PointsVisualizePropertyType']]],
   ['shell_11',['Shell',['../structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178aea89b68c34ce4a63c0f77e17413c6e30',1,'MR::ContoursDistanceMapOffset']]],
-  ['shortestedgefirst_12',['ShortestEdgeFirst',['../namespaceMRE.html#a8c76431f5906608e28ce45ed93297e66a550fbe60c7eb2513d34b01a35d5cdb0f',1,'MRE']]],
+  ['shortestedgefirst_12',['ShortestEdgeFirst',['../namespaceMR.html#a216960c15f7b00558ab28053967a9615a701726fb0205943f4567e09bcebd0552',1,'MR']]],
   ['simple_13',['Simple',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a1fbb1e3943c2c6c560247ac8f9289780',1,'MR::FillHoleParams']]],
   ['smooth_14',['Smooth',['../structMR_1_1LinesVisualizePropertyType.html#aab5df7db454ff09605f0b0252d48d0e2a92edd5447d991ddb22f08259adacfa1c',1,'MR::LinesVisualizePropertyType']]],
   ['solidcolor_15',['SolidColor',['../group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854',1,'MR']]],

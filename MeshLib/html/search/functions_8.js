@@ -38,7 +38,7 @@ var searchData=
   ['isinneredge_35',['isInnerEdge',['../classMR_1_1MeshTopology.html#a9149621788f57af5be92126cf7e5f24e',1,'MR::MeshTopology']]],
   ['isinnerorbdedge_36',['isInnerOrBdEdge',['../classMR_1_1MeshTopology.html#a68d4b2d56fbb76bfc31e2d8a2672fc1c',1,'MR::MeshTopology']]],
   ['isinscopemode_37',['isInScopeMode',['../classMR_1_1HistoryStore.html#af145c9ac9643f835f3ad25fadf037814',1,'MR::HistoryStore']]],
-  ['isinside_38',['isInside',['../group__AABBTreeGroup.html#gaa8d770560279dcdaa48764810b77c30d',1,'MR::isInside(const Polyline2 &amp;a, const Polyline2 &amp;b, const AffineXf2f *rigidB2A=nullptr)'],['../group__AABBTreeGroup.html#ga3c4d304b28fd4695d20dc454318f5660',1,'MR::isInside(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr)']]],
+  ['isinside_38',['isInside',['../group__AABBTreeGroup.html#ga3c4d304b28fd4695d20dc454318f5660',1,'MR::isInside(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr)'],['../group__AABBTreeGroup.html#gaa8d770560279dcdaa48764810b77c30d',1,'MR::isInside(const Polyline2 &amp;a, const Polyline2 &amp;b, const AffineXf2f *rigidB2A=nullptr)']]],
   ['isleftbdedge_39',['isLeftBdEdge',['../classMR_1_1MeshTopology.html#a71f39944d4eea5bdb00d37da53ae1882',1,'MR::MeshTopology']]],
   ['isleftinregion_40',['isLeftInRegion',['../classMR_1_1MeshTopology.html#a26fb1755e53d61c7a438428f27b95f78',1,'MR::MeshTopology']]],
   ['isleftquad_41',['isLeftQuad',['../classMR_1_1MeshTopology.html#a43d2bcbe6b6dc95cf6eb7fd1c0f8457b',1,'MR::MeshTopology']]],
@@ -47,10 +47,11 @@ var searchData=
   ['isloneedge_44',['isLoneEdge',['../classMR_1_1MeshTopology.html#a79fd3cd33fb58d779528540fa7403b7f',1,'MR::MeshTopology::isLoneEdge()'],['../classMR_1_1PolylineTopology.html#a0a9412a90e63fc7a356cd7098e1f8ad6',1,'MR::PolylineTopology::isLoneEdge()']]],
   ['ismeshclosed_45',['isMeshClosed',['../classMR_1_1ObjectMeshHolder.html#adc32b4c9b303a885eadfbde1f3b7eeb0',1,'MR::ObjectMeshHolder']]],
   ['ispickable_46',['isPickable',['../classMR_1_1VisualObject.html#a5e93f8182244dc91a5a4520b1640a00a',1,'MR::VisualObject']]],
-  ['ispythonscript_47',['isPythonScript',['../classMR_1_1EmbeddedPython.html#a9e3b18ea98dd30f829ff860da98364c6',1,'MR::EmbeddedPython']]],
-  ['isscenemodified_48',['isSceneModified',['../classMR_1_1HistoryStore.html#af2142010702571f062becfaf361b015c',1,'MR::HistoryStore']]],
-  ['isselected_49',['isSelected',['../classMR_1_1Object.html#a38fe398a8045849e40fb934dd6a2ddd5',1,'MR::Object']]],
-  ['isvalid_50',['isValid',['../classMR_1_1DistanceMap.html#a1eaf3f29a82b7eb2528f578d2f9e8f34',1,'MR::DistanceMap::isValid(size_t x, size_t y) const'],['../classMR_1_1DistanceMap.html#af1b7ab47803d2d2e93f40336ba1e06f7',1,'MR::DistanceMap::isValid(size_t i) const']]],
-  ['isvisible_51',['isVisible',['../classMR_1_1Object.html#a98c9e0d07b736d2b86c4d3d340b77844',1,'MR::Object']]],
-  ['iteratorrange_52',['IteratorRange',['../structMR_1_1IteratorRange.html#ac08ae5922c624c9f08c65c8ecbb4bd61',1,'MR::IteratorRange']]]
+  ['ispointinsidepolyline_47',['isPointInsidePolyline',['../group__AABBTreeGroup.html#ga2aba3040bbdbbafb7d8e38803b955524',1,'MR']]],
+  ['ispythonscript_48',['isPythonScript',['../classMR_1_1EmbeddedPython.html#a9e3b18ea98dd30f829ff860da98364c6',1,'MR::EmbeddedPython']]],
+  ['isscenemodified_49',['isSceneModified',['../classMR_1_1HistoryStore.html#af2142010702571f062becfaf361b015c',1,'MR::HistoryStore']]],
+  ['isselected_50',['isSelected',['../classMR_1_1Object.html#a38fe398a8045849e40fb934dd6a2ddd5',1,'MR::Object']]],
+  ['isvalid_51',['isValid',['../classMR_1_1DistanceMap.html#a1eaf3f29a82b7eb2528f578d2f9e8f34',1,'MR::DistanceMap::isValid(size_t x, size_t y) const'],['../classMR_1_1DistanceMap.html#af1b7ab47803d2d2e93f40336ba1e06f7',1,'MR::DistanceMap::isValid(size_t i) const']]],
+  ['isvisible_52',['isVisible',['../classMR_1_1Object.html#a98c9e0d07b736d2b86c4d3d340b77844',1,'MR::Object']]],
+  ['iteratorrange_53',['IteratorRange',['../structMR_1_1IteratorRange.html#ac08ae5922c624c9f08c65c8ecbb4bd61',1,'MR::IteratorRange']]]
 ];

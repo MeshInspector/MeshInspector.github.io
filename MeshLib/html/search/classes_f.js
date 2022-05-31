@@ -7,7 +7,7 @@ var searchData=
   ['setbititeratort_4',['SetBitIteratorT',['../classMR_1_1SetBitIteratorT.html',1,'MR']]],
   ['signeddistancetomeshresult_5',['SignedDistanceToMeshResult',['../structMR_1_1SignedDistanceToMeshResult.html',1,'MR']]],
   ['simplevolume_6',['SimpleVolume',['../structMR_1_1SimpleVolume.html',1,'MR']]],
-  ['sortintersectionsdata_7',['SortIntersectionsData',['../structMRE_1_1SortIntersectionsData.html',1,'MRE']]],
+  ['sortintersectionsdata_7',['SortIntersectionsData',['../structMR_1_1SortIntersectionsData.html',1,'MR']]],
   ['sphereobject_8',['SphereObject',['../classMR_1_1SphereObject.html',1,'MR']]],
   ['sphereparams_9',['SphereParams',['../structMR_1_1SphereParams.html',1,'MR']]],
   ['stitchholesparams_10',['StitchHolesParams',['../structMR_1_1StitchHolesParams.html',1,'MR']]],

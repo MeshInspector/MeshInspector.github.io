@@ -1,7 +1,7 @@
 var searchData=
 [
   ['e_0',['e',['../structMR_1_1MeshEdgePoint.html#a72f48a205244f5c3966aaa8e3c6af285',1,'MR::MeshEdgePoint::e()'],['../structMR_1_1MeshTriPoint.html#afb2e8376855431a09626f25ffe6039bc',1,'MR::MeshTriPoint::e()']]],
-  ['edge_1',['Edge',['../structMRE_1_1OneMeshIntersection.html#a08a10cf00795b944d042652aee847a6ca215dc216474512346220e8621f76e2ee',1,'MRE::OneMeshIntersection']]],
+  ['edge_1',['Edge',['../structMR_1_1OneMeshIntersection.html#aa8be4cdd05697b725ee7e1ae05833f82a2f7402dedcbccbb66d152940301cab25',1,'MR::OneMeshIntersection']]],
   ['edge_2',['edge',['../structMR_1_1EdgeTri.html#a75d3cbfc185bb135fa0ecacfa0eea64e',1,'MR::EdgeTri']]],
   ['edge_20paths_3',['Edge Paths',['../group__EdgePathsGroup.html',1,'']]],
   ['edgebitset_4',['EdgeBitSet',['../namespaceMR.html#afa52f737f1695a9866b22a30a29aefba',1,'MR']]],
@@ -56,8 +56,8 @@ var searchData=
   ['erase_53',['erase',['../classMR_1_1ColorMapAggregator.html#a78eb8e8142767bcf110f70d3ff23e194',1,'MR::ColorMapAggregator']]],
   ['eroderegion_54',['erodeRegion',['../group__EdgePathsGroup.html#gae5c34e3cd79ffa0bd051b0e3f38f8e06',1,'MR::erodeRegion(const Mesh &amp;mesh, FaceBitSet &amp;region, float dilation)'],['../group__EdgePathsGroup.html#ga14959b64f656471b4f5a6686917faabc',1,'MR::erodeRegion(const Mesh &amp;mesh, VertBitSet &amp;region, float dilation)']]],
   ['eroderegionbymetric_55',['erodeRegionByMetric',['../group__EdgePathsGroup.html#ga3e1a689a0df920a4f3ba240eee9b7ba7',1,'MR::erodeRegionByMetric(const MeshTopology &amp;topology, const EdgeMetric &amp;metric, FaceBitSet &amp;region, float dilation)'],['../group__EdgePathsGroup.html#ga4c1e55c4bd871ec3b79cca60628b56f8',1,'MR::erodeRegionByMetric(const MeshTopology &amp;topology, const EdgeMetric &amp;metric, VertBitSet &amp;region, float dilation)']]],
-  ['errorintroduced_56',['errorIntroduced',['../structMRE_1_1DecimatePolylineResult.html#a5782bfcf5d2c84106f5d7759456e47bb',1,'MRE::DecimatePolylineResult::errorIntroduced()'],['../structMRE_1_1DecimateResult.html#aa59bcae3d77f594ccd1ef4c2f44f3af2',1,'MRE::DecimateResult::errorIntroduced()']]],
-  ['errorstring_57',['errorString',['../structMRE_1_1BooleanResult.html#acc8f55e74998e9a35222b97a0c367ecd',1,'MRE::BooleanResult']]],
+  ['errorintroduced_56',['errorIntroduced',['../structMR_1_1DecimatePolylineResult.html#a5e4317d37968dd6016c8fc5826f9e8f5',1,'MR::DecimatePolylineResult::errorIntroduced()'],['../structMR_1_1DecimateResult.html#a4080c2ae3d9e15c04989c161cacb96d8',1,'MR::DecimateResult::errorIntroduced()']]],
+  ['errorstring_57',['errorString',['../structMR_1_1BooleanResult.html#a78e59aeca9497a9c74d7512157fcf5df',1,'MR::BooleanResult']]],
   ['eval_58',['eval',['../structMR_1_1QuadraticForm.html#ab0c3bc061463b886469241c7c3b17cd2',1,'MR::QuadraticForm']]],
   ['even_59',['even',['../classMR_1_1Id_3_01EdgeTag_01_4.html#a27a35f80c33223527f34286f067caffe',1,'MR::Id&lt; EdgeTag &gt;']]],
   ['examples_60',['Examples',['../HowToBasic.html',1,'']]],

@@ -148,6 +148,8 @@ Functions</h2></td></tr>
 <tr class="separator:affd71ea7a77ed4c02be34778c0923804"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ad33f9aabd679a58811fb3f954f3e8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshBuilder.html#a3ad33f9aabd679a58811fb3f954f3e8b">fromFaceSoup</a> (const std::vector&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; &amp;verts, std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1FaceRecord.html">FaceRecord</a> &gt; &amp;faces)</td></tr>
 <tr class="separator:a3ad33f9aabd679a58811fb3f954f3e8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbca7caa523fcdb27f944a48e8ed220a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1MeshBuilder.html#adbca7caa523fcdb27f944a48e8ed220a">uniteCloseVertices</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, float closeDist, bool uniteOnlyBd=true, <a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> *optionalVertOldToNew=nullptr)</td></tr>
+<tr class="separator:adbca7caa523fcdb27f944a48e8ed220a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Building topologies by triangles. </p>
@@ -439,6 +441,54 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="adbca7caa523fcdb27f944a48e8ed220a" name="adbca7caa523fcdb27f944a48e8ed220a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbca7caa523fcdb27f944a48e8ed220a">&#9670;&nbsp;</a></span>uniteCloseVertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int MR::MeshBuilder::uniteCloseVertices </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>closeDist</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>uniteOnlyBd</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> *&#160;</td>
+          <td class="paramname"><em>optionalVertOldToNew</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >the function finds groups of mesh vertices located closer to each other than closeDist, and unites such vertices in one; then the mesh is rebuilt from the remaining triangles </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">optionalVertOldToNew</td><td>is the mapping of vertices: before -&gt; after </td></tr>
+    <tr><td class="paramname">uniteOnlyBd</td><td>if true then only boundary vertices can be united, all internal vertices (even close ones) will remain </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the number of vertices united, 0 means no change in the mesh </dd></dl>
 
 </div>
 </div>

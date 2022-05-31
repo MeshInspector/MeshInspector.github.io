@@ -207,6 +207,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af78b050e4e666469d5d2043751c00c3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22e5f6c91eac5ca4d57589194a860d10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PolylineTopology.html#a22e5f6c91eac5ca4d57589194a860d10">makePolyline</a> (const <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> *vs, size_t num)</td></tr>
 <tr class="separator:a22e5f6c91eac5ca4d57589194a860d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd964eb898eab563867d4b84cc4af69d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PolylineTopology.html#acd964eb898eab563867d4b84cc4af69d">addPartByMask</a> (const <a class="el" href="classMR_1_1PolylineTopology.html">PolylineTopology</a> &amp;from, const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;mask, <a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> *outVmap=nullptr, <a class="el" href="namespaceMR.html#ae2eea398ad770ec2244a9a9c50714933">EdgeMap</a> *outEmap=nullptr)</td></tr>
+<tr class="memdesc:acd964eb898eab563867d4b84cc4af69d"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends polyline topology (from) in addition to the current topology: creates new edges, verts;  <a href="classMR_1_1PolylineTopology.html#acd964eb898eab563867d4b84cc4af69d">More...</a><br /></td></tr>
+<tr class="separator:acd964eb898eab563867d4b84cc4af69d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afeacaa2685ac05679afb0b6675a1ff4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PolylineTopology.html#afeacaa2685ac05679afb0b6675a1ff4b">write</a> (std::ostream &amp;s) const</td></tr>
 <tr class="memdesc:afeacaa2685ac05679afb0b6675a1ff4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves and loads in binary stream  <a href="classMR_1_1PolylineTopology.html#afeacaa2685ac05679afb0b6675a1ff4b">More...</a><br /></td></tr>
 <tr class="separator:afeacaa2685ac05679afb0b6675a1ff4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -236,6 +239,48 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >topology of one or several polylines (how line segments are connected in lines) common for 2D and 3D polylines </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="acd964eb898eab563867d4b84cc4af69d" name="acd964eb898eab563867d4b84cc4af69d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd964eb898eab563867d4b84cc4af69d">&#9670;&nbsp;</a></span>addPartByMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::PolylineTopology::addPartByMask </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1PolylineTopology.html">PolylineTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>from</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>mask</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> *&#160;</td>
+          <td class="paramname"><em>outVmap</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ae2eea398ad770ec2244a9a9c50714933">EdgeMap</a> *&#160;</td>
+          <td class="paramname"><em>outEmap</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>appends polyline topology (from) in addition to the current topology: creates new edges, verts; </p>
+
+</div>
+</div>
 <a id="abfb6e0044fbe8c29dd9114c691a687a7" name="abfb6e0044fbe8c29dd9114c691a687a7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abfb6e0044fbe8c29dd9114c691a687a7">&#9670;&nbsp;</a></span>addVertId()</h2>
 

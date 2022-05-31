@@ -1,10 +1,10 @@
 var group__PointCloudTriangulationGroup =
 [
     [ "TriangulationHelpers", "group__TriangulationHelpersGroup.html", "group__TriangulationHelpersGroup" ],
-    [ "MRE::TriangulationParameters", "structMRE_1_1TriangulationParameters.html", [
-      [ "avgNumNeighbours", "structMRE_1_1TriangulationParameters.html#af400aee87df5591d4dbec3a2391a5197", null ],
-      [ "critAngle", "structMRE_1_1TriangulationParameters.html#aa5b9a619e31c0c6a290f58f7544d5ee7", null ],
-      [ "critHoleLength", "structMRE_1_1TriangulationParameters.html#abb46c0fd74910004b6de69db2ec0c097", null ]
+    [ "MR::TriangulationParameters", "structMR_1_1TriangulationParameters.html", [
+      [ "avgNumNeighbours", "structMR_1_1TriangulationParameters.html#aa4ccfb848c69c38a9307eae1232adcbe", null ],
+      [ "critAngle", "structMR_1_1TriangulationParameters.html#aebe6d2d03a26dccb4842f001e3506202", null ],
+      [ "critHoleLength", "structMR_1_1TriangulationParameters.html#a18b9e4beb720ba7134c197142243b529", null ]
     ] ],
-    [ "MRE::triangulatePointCloud", "group__PointCloudTriangulationGroup.html#ga2dc16a09a127bf3b4b40cd228c6706d8", null ]
+    [ "MR::triangulatePointCloud", "group__PointCloudTriangulationGroup.html#ga9d337ad4ab25ed0b9ad75512670ca1df", null ]
 ];

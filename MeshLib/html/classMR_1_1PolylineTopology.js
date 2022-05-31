@@ -1,5 +1,6 @@
 var classMR_1_1PolylineTopology =
 [
+    [ "addPartByMask", "classMR_1_1PolylineTopology.html#acd964eb898eab563867d4b84cc4af69d", null ],
     [ "addVertId", "classMR_1_1PolylineTopology.html#abfb6e0044fbe8c29dd9114c691a687a7", null ],
     [ "buildFromContours", "classMR_1_1PolylineTopology.html#aab7fc1ff330a8a3945824279673d2311", null ],
     [ "checkValidity", "classMR_1_1PolylineTopology.html#a84bb5e00b49548f555d22c95a849a62a", null ],

@@ -1,6 +1,6 @@
 var group__MeshSegmentationGroup =
 [
-    [ "MRE::fillContourLeftByGraphCut", "group__MeshSegmentationGroup.html#gabcebc86d2e702ef5e817c20a30a4943c", null ],
-    [ "MRE::fillContourLeftByGraphCut", "group__MeshSegmentationGroup.html#gaa33ac4215490b00cf9b5acec1abaf8a5", null ],
-    [ "MRE::surroundingContour", "group__MeshSegmentationGroup.html#ga5e9e662eb2230c3e31c1177515f28173", null ]
+    [ "MR::fillContourLeftByGraphCut", "group__MeshSegmentationGroup.html#ga6411ded50ca303d4fa4228137d695d43", null ],
+    [ "MR::fillContourLeftByGraphCut", "group__MeshSegmentationGroup.html#ga771908317b966d8e9e45af1cc448756e", null ],
+    [ "MR::surroundingContour", "group__MeshSegmentationGroup.html#ga635b87d754602f3f8a05f5bdd0abf61b", null ]
 ];

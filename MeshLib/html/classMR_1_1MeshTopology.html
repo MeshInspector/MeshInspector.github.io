@@ -243,6 +243,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab2810fe9c6b38f4a0926069ab58120ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#ab2810fe9c6b38f4a0926069ab58120ea">addFaceId</a> ()</td></tr>
 <tr class="memdesc:ab2810fe9c6b38f4a0926069ab58120ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates new face-id not associated with any edge yet  <a href="classMR_1_1MeshTopology.html#ab2810fe9c6b38f4a0926069ab58120ea">More...</a><br /></td></tr>
 <tr class="separator:ab2810fe9c6b38f4a0926069ab58120ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2fca39af2a4892fd27d2345d561d688"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#ab2fca39af2a4892fd27d2345d561d688">deleteFace</a> (<a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> f)</td></tr>
+<tr class="memdesc:ab2fca39af2a4892fd27d2345d561d688"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes the face, also deletes its edges and vertices if they were not shared with other faces  <a href="classMR_1_1MeshTopology.html#ab2fca39af2a4892fd27d2345d561d688">More...</a><br /></td></tr>
+<tr class="separator:ab2fca39af2a4892fd27d2345d561d688"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab882ba6250859e1ba7437149efd6a4a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#ab882ba6250859e1ba7437149efd6a4a7">deleteFaces</a> (const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;fs)</td></tr>
+<tr class="memdesc:ab882ba6250859e1ba7437149efd6a4a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes multiple given faces  <a href="classMR_1_1MeshTopology.html#ab882ba6250859e1ba7437149efd6a4a7">More...</a><br /></td></tr>
+<tr class="separator:ab882ba6250859e1ba7437149efd6a4a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a22972e251180aa6466d2ea6c6f6b80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a2a22972e251180aa6466d2ea6c6f6b80">faceResize</a> (size_t newSize)</td></tr>
 <tr class="memdesc:a2a22972e251180aa6466d2ea6c6f6b80"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicitly increases the size of faces vector  <a href="classMR_1_1MeshTopology.html#a2a22972e251180aa6466d2ea6c6f6b80">More...</a><br /></td></tr>
 <tr class="separator:a2a22972e251180aa6466d2ea6c6f6b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -864,6 +870,46 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >after all packed parts have been added, compute 1) numValidVerts_ and validVerts_ from edgePerVertex_ 2) numValidFaces_ and validFaces_ from edgePerFace_ </p>
+
+</div>
+</div>
+<a id="ab2fca39af2a4892fd27d2345d561d688" name="ab2fca39af2a4892fd27d2345d561d688"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2fca39af2a4892fd27d2345d561d688">&#9670;&nbsp;</a></span>deleteFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::MeshTopology::deleteFace </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a>&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>deletes the face, also deletes its edges and vertices if they were not shared with other faces </p>
+
+</div>
+</div>
+<a id="ab882ba6250859e1ba7437149efd6a4a7" name="ab882ba6250859e1ba7437149efd6a4a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab882ba6250859e1ba7437149efd6a4a7">&#9670;&nbsp;</a></span>deleteFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::MeshTopology::deleteFaces </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>fs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>deletes multiple given faces </p>
 
 </div>
 </div>

@@ -1,9 +1,9 @@
 var searchData=
 [
   ['pack_0',['pack',['../structMR_1_1Mesh.html#a324a461e5dfc29cb2925eafdc2697448',1,'MR::Mesh::pack()'],['../classMR_1_1MeshTopology.html#ae9ab7c918a9f18e59ab128442bf656e0',1,'MR::MeshTopology::pack()']]],
-  ['parallelplanefillmetric_1',['ParallelPlaneFillMetric',['../structMRE_1_1ParallelPlaneFillMetric.html#abee14d5368339f27202e6058c55c0bd4',1,'MRE::ParallelPlaneFillMetric']]],
+  ['parallelplanefillmetric_1',['ParallelPlaneFillMetric',['../structMR_1_1ParallelPlaneFillMetric.html#abef24c27067e4a765f64358dfceed1cd',1,'MR::ParallelPlaneFillMetric']]],
   ['parent_2',['parent',['../classMR_1_1Object.html#a68500213a1d6e4f3b7f9fc3806fcacd1',1,'MR::Object::parent() const'],['../classMR_1_1Object.html#a04aa027ee39ae2bc0f084534a946c9f5',1,'MR::Object::parent()']]],
-  ['partialoffsetmesh_3',['partialOffsetMesh',['../namespaceMRE.html#a91f7142ffa3c4fbaaf6fca4e46789664',1,'MRE']]],
+  ['partialoffsetmesh_3',['partialOffsetMesh',['../namespaceMR.html#a5c460c951bdee07353eb08a156573627',1,'MR']]],
   ['pathfromutf8_4',['pathFromUtf8',['../group__BasicGroup.html#gabe699ad65df9788d6c5c76856ddbf259',1,'MR']]],
   ['pdf_5',['Pdf',['../classMR_1_1Pdf.html#a792ed8b8f3c74c384fcf31e63a44a951',1,'MR::Pdf::Pdf(const std::filesystem::path &amp;documentPath, const PdfParameters &amp;params=PdfParameters())'],['../classMR_1_1Pdf.html#a0664af870ccab6786c23651b331270a2',1,'MR::Pdf::Pdf(const Pdf &amp;rhs)=delete']]],
   ['perpendicular_6',['perpendicular',['../structMR_1_1Vector3.html#a850a38ce3943bd9da515c2ad86ed017c',1,'MR::Vector3']]],

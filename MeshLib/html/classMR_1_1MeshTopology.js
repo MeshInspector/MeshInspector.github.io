@@ -13,6 +13,8 @@ var classMR_1_1MeshTopology =
     [ "checkValidity", "classMR_1_1MeshTopology.html#a74337ea5646f2fe028f8c0a119650d07", null ],
     [ "computeNotLoneUndirectedEdges", "classMR_1_1MeshTopology.html#ad5f8fa011c9333c1cf67743993b91d5c", null ],
     [ "computeValidsFromEdges", "classMR_1_1MeshTopology.html#af19c92f6819a1a4d6faf64695dc8f7c1", null ],
+    [ "deleteFace", "classMR_1_1MeshTopology.html#ab2fca39af2a4892fd27d2345d561d688", null ],
+    [ "deleteFaces", "classMR_1_1MeshTopology.html#ab882ba6250859e1ba7437149efd6a4a7", null ],
     [ "dest", "classMR_1_1MeshTopology.html#a4249f7a97c745af922214ed2ca58f20d", null ],
     [ "edgePerFace", "classMR_1_1MeshTopology.html#adf1bd2c727b615b99908a7a3d4464bee", null ],
     [ "edgePerVertex", "classMR_1_1MeshTopology.html#a32f0aeb4415b1d5b7e5176ea6051bdc3", null ],

@@ -1,8 +1,8 @@
 var searchData=
 [
   ['depthtest_0',['DepthTest',['../structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0a3bc9bab56a374528b3761e8d709366e5',1,'MR::VisualizeMaskType']]],
-  ['differenceab_1',['DifferenceAB',['../group__BooleanGroup.html#ggacb4a2073036a155fa7f07f2fdc347007a676747ace506f0a560e1d99f5da1ab2a',1,'MRE']]],
-  ['differenceba_2',['DifferenceBA',['../group__BooleanGroup.html#ggacb4a2073036a155fa7f07f2fdc347007ad7e2d5557f4bc77c023a5c3fd8b52aae',1,'MRE']]],
+  ['differenceab_1',['DifferenceAB',['../group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda676747ace506f0a560e1d99f5da1ab2a',1,'MR']]],
+  ['differenceba_2',['DifferenceBA',['../group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdad7e2d5557f4bc77c023a5c3fd8b52aae',1,'MR']]],
   ['dirty_5fall_3',['DIRTY_ALL',['../group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a',1,'MR']]],
   ['dirty_5fall_5fnormals_4',['DIRTY_ALL_NORMALS',['../group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269ad722ebed39e38be31531eef5e1a3eefe',1,'MR']]],
   ['dirty_5fback_5ffaces_5',['DIRTY_BACK_FACES',['../group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a497efbd99f845eb3f162a5efabd97b08',1,'MR']]],

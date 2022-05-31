@@ -47,6 +47,16 @@ var group__DistanceMapGroup =
       [ "perEdgeOffset", "structMR_1_1ContoursDistanceMapOffset.html#adedbc97955e245ed2441465fc386f0c5", null ],
       [ "Shell", "structMR_1_1ContoursDistanceMapOffset.html#a68a80dcbb5c3dc5175cdb355315dd038", null ]
     ] ],
+    [ "MR::ContoursDistanceMapOptions", "structMR_1_1ContoursDistanceMapOptions.html", [
+      [ "SignedDetectionMethod", "structMR_1_1ContoursDistanceMapOptions.html#a8338b4b187db812314a5890ccf5e6ec6", [
+        [ "ContourOrientation", "structMR_1_1ContoursDistanceMapOptions.html#a8338b4b187db812314a5890ccf5e6ec6ac0f03fce7a18db1b1d8c8c977e711727", null ],
+        [ "WindingRule", "structMR_1_1ContoursDistanceMapOptions.html#a8338b4b187db812314a5890ccf5e6ec6af3521ec7c51139960b7e21cef6b936df", null ]
+      ] ],
+      [ "ContourOrientation", "structMR_1_1ContoursDistanceMapOptions.html#ada938644fd6754f567016b529b5f7340", null ],
+      [ "offsetParameters", "structMR_1_1ContoursDistanceMapOptions.html#a5015f92ab6db453e909083c2c9486054", null ],
+      [ "outClosestEdges", "structMR_1_1ContoursDistanceMapOptions.html#ab4eb6c6f113595f62886ed7e689760ae", null ],
+      [ "region", "structMR_1_1ContoursDistanceMapOptions.html#ad970162a0cd7b031b6f1394f856f5ba0", null ]
+    ] ],
     [ "MR::MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html", [
       [ "MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html#acea3bbf8d8d0c8750d496ed6934725de", null ],
       [ "MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html#acd9523a7ea030a77856bbadf789bd132", null ],
@@ -124,7 +134,7 @@ var group__DistanceMapGroup =
     [ "MR::contourUnion", "group__DistanceMapGroup.html#gab1812592b1e9bf581f606edd0985c2f2", null ],
     [ "MR::contourUnion", "group__DistanceMapGroup.html#ga59af0939e79330f4ef6bcc99c74c196b", null ],
     [ "MR::distanceMapFromContours", "group__DistanceMapGroup.html#gadd27197ab87f7d4018a40aebd88f748f", null ],
-    [ "MR::distanceMapFromContours", "group__DistanceMapGroup.html#ga0027ab54c61291872ff223f12071e442", null ],
+    [ "MR::distanceMapFromContours", "group__DistanceMapGroup.html#ga6ba988d1173a8800e2ccfc5ac30d2a68", null ],
     [ "MR::distanceMapTo2DIsoLine", "group__DistanceMapGroup.html#ga5a871ca86bb0a0bdf58424f26aa40567", null ],
     [ "MR::distanceMapTo2DIsoLine", "group__DistanceMapGroup.html#ga19564637b985826121397a9c0b127817", null ],
     [ "MR::distanceMapTo2DIsoLine", "group__DistanceMapGroup.html#ga04533381d1c1a483c5a9f147652ce67f", null ],

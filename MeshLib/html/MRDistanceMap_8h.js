@@ -10,7 +10,7 @@ var MRDistanceMap_8h =
     [ "contourUnion", "MRDistanceMap_8h.html#gab1812592b1e9bf581f606edd0985c2f2", null ],
     [ "contourUnion", "MRDistanceMap_8h.html#ga59af0939e79330f4ef6bcc99c74c196b", null ],
     [ "distanceMapFromContours", "MRDistanceMap_8h.html#gadd27197ab87f7d4018a40aebd88f748f", null ],
-    [ "distanceMapFromContours", "MRDistanceMap_8h.html#ga0027ab54c61291872ff223f12071e442", null ],
+    [ "distanceMapFromContours", "MRDistanceMap_8h.html#ga6ba988d1173a8800e2ccfc5ac30d2a68", null ],
     [ "distanceMapTo2DIsoLine", "MRDistanceMap_8h.html#ga5a871ca86bb0a0bdf58424f26aa40567", null ],
     [ "distanceMapTo2DIsoLine", "MRDistanceMap_8h.html#ga19564637b985826121397a9c0b127817", null ],
     [ "distanceMapTo2DIsoLine", "MRDistanceMap_8h.html#ga04533381d1c1a483c5a9f147652ce67f", null ],

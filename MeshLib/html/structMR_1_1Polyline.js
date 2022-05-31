@@ -7,6 +7,7 @@ var structMR_1_1Polyline =
     [ "addFromPoints", "structMR_1_1Polyline.html#ad1f0bc764cd99c848a21add405261785", null ],
     [ "addFromPoints", "structMR_1_1Polyline.html#aae40d1c6ba0e12c47a855747d44d40ea", null ],
     [ "addFromSurfacePath", "structMR_1_1Polyline.html#a2fe57b9155d70fe6fa8ff56803b5425c", null ],
+    [ "addPartByMask", "structMR_1_1Polyline.html#a3c415d06f60c7ddc956d9c1f5b4b9609", null ],
     [ "computeBoundingBox", "structMR_1_1Polyline.html#af1debf021b9bc68d02c2905e0527ab11", null ],
     [ "contours", "structMR_1_1Polyline.html#a583dc32f13f0e3cede180ee9df664622", null ],
     [ "contours2", "structMR_1_1Polyline.html#a58efd08304a25a74fb54922764ac4a1a", null ],

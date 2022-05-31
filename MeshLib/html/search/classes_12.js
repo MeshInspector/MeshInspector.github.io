@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['variableedgetri_0',['VariableEdgeTri',['../structMRE_1_1VariableEdgeTri.html',1,'MRE']]],
+  ['variableedgetri_0',['VariableEdgeTri',['../structMR_1_1VariableEdgeTri.html',1,'MR']]],
   ['vector_1',['Vector',['../classMR_1_1Vector.html',1,'MR']]],
   ['vector2_2',['Vector2',['../structMR_1_1Vector2.html',1,'MR']]],
   ['vector2_3c_20float_20_3e_3',['Vector2&lt; float &gt;',['../structMR_1_1Vector2.html',1,'MR']]],

@@ -124,6 +124,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gaf70d3980b61ebfb1a33e37ac2f969b54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#gaf70d3980b61ebfb1a33e37ac2f969b54">MR::findDegenerateFaces</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, float criticalAspectRatio=FLT_MAX)</td></tr>
 <tr class="memdesc:gaf70d3980b61ebfb1a33e37ac2f969b54"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds faces which aspect ratio &gt;= criticalAspectRatio  <a href="group__MeshFixerGroup.html#gaf70d3980b61ebfb1a33e37ac2f969b54">More...</a><br /></td></tr>
 <tr class="separator:gaf70d3980b61ebfb1a33e37ac2f969b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga248c2b6b8c9d3915cc4d7e94a2727734"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga248c2b6b8c9d3915cc4d7e94a2727734">MR::findNRingVerts</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, int n, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *region=nullptr)</td></tr>
+<tr class="memdesc:ga248c2b6b8c9d3915cc4d7e94a2727734"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds vertices in region with complete ring of N edges  <a href="group__MeshFixerGroup.html#ga248c2b6b8c9d3915cc4d7e94a2727734">More...</a><br /></td></tr>
+<tr class="separator:ga248c2b6b8c9d3915cc4d7e94a2727734"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -209,6 +212,42 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga248c2b6b8c9d3915cc4d7e94a2727734" name="ga248c2b6b8c9d3915cc4d7e94a2727734"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga248c2b6b8c9d3915cc4d7e94a2727734">&#9670;&nbsp;</a></span>findNRingVerts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> MR::findNRingVerts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *&#160;</td>
+          <td class="paramname"><em>region</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds vertices in region with complete ring of N edges </p>
 
 </div>
 </div>

@@ -1,62 +1,62 @@
 var group__BooleanGroup =
 [
-    [ "MRE::BooleanResultMapper", "structMRE_1_1BooleanResultMapper.html", [
-      [ "Maps", "structMRE_1_1BooleanResultMapper_1_1Maps.html", [
-        [ "cut2newFaces", "structMRE_1_1BooleanResultMapper_1_1Maps.html#a58c57ca47b222a8b7234b94d23c789ec", null ],
-        [ "cut2origin", "structMRE_1_1BooleanResultMapper_1_1Maps.html#a446fc879d51d15790368ba4640d252a8", null ],
-        [ "identity", "structMRE_1_1BooleanResultMapper_1_1Maps.html#a012ef2e9095f4934603ea131681a5aaf", null ],
-        [ "old2newEdges", "structMRE_1_1BooleanResultMapper_1_1Maps.html#a9235c47e7c35460c23489e497a98ebbe", null ],
-        [ "old2newVerts", "structMRE_1_1BooleanResultMapper_1_1Maps.html#a2f17e56f557ecdb6ca41e39a7509fa2c", null ]
+    [ "MR::BooleanResultMapper", "structMR_1_1BooleanResultMapper.html", [
+      [ "Maps", "structMR_1_1BooleanResultMapper_1_1Maps.html", [
+        [ "cut2newFaces", "structMR_1_1BooleanResultMapper_1_1Maps.html#a759f148ae9dcef7ecb6908d19f726e7c", null ],
+        [ "cut2origin", "structMR_1_1BooleanResultMapper_1_1Maps.html#a854bf26bb7bda5effd4d5f1be56f0aa9", null ],
+        [ "identity", "structMR_1_1BooleanResultMapper_1_1Maps.html#abb0760c2ba75ba32b9fcf2d5e36fe803", null ],
+        [ "old2newEdges", "structMR_1_1BooleanResultMapper_1_1Maps.html#a6f120491dfc3e13114f8c6dee3b99570", null ],
+        [ "old2newVerts", "structMR_1_1BooleanResultMapper_1_1Maps.html#accfdff73b6e9b6265313ff04878b8973", null ]
       ] ],
-      [ "MapObject", "structMRE_1_1BooleanResultMapper.html#a156268722390804f6626c9523ed91bf4", [
-        [ "A", "structMRE_1_1BooleanResultMapper.html#a156268722390804f6626c9523ed91bf4a7fc56270e7a70fa81a5935b72eacbe29", null ],
-        [ "B", "structMRE_1_1BooleanResultMapper.html#a156268722390804f6626c9523ed91bf4a9d5ed678fe57bcca610140957afab571", null ],
-        [ "Count", "structMRE_1_1BooleanResultMapper.html#a156268722390804f6626c9523ed91bf4ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+      [ "MapObject", "structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587", [
+        [ "A", "structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587a7fc56270e7a70fa81a5935b72eacbe29", null ],
+        [ "B", "structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587a9d5ed678fe57bcca610140957afab571", null ],
+        [ "Count", "structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
       ] ],
-      [ "BooleanResultMapper", "structMRE_1_1BooleanResultMapper.html#a4be2397604d009d32fae4ec2a934629d", null ],
-      [ "map", "structMRE_1_1BooleanResultMapper.html#a0bda1180214d178e344d39ee32a0b0de", null ],
-      [ "map", "structMRE_1_1BooleanResultMapper.html#a8ac361751c73df6dd5e1486defa3a0ce", null ],
-      [ "map", "structMRE_1_1BooleanResultMapper.html#a357b530c455a54976ff29cadcc494908", null ],
-      [ "maps", "structMRE_1_1BooleanResultMapper.html#a0f9f1f285538d51415ccbb262a34298b", null ]
+      [ "BooleanResultMapper", "structMR_1_1BooleanResultMapper.html#a00bac3eecd35b44f05f28f7cb1f3c0d9", null ],
+      [ "map", "structMR_1_1BooleanResultMapper.html#ac5f5c7f84c16ba4d08fd3b45d06c5914", null ],
+      [ "map", "structMR_1_1BooleanResultMapper.html#a730a4aa776837ed09143d106e54c085b", null ],
+      [ "map", "structMR_1_1BooleanResultMapper.html#ac601634b2fe9f6fe7b9531d6c8bf6d7c", null ],
+      [ "maps", "structMR_1_1BooleanResultMapper.html#a3a2abc280314da83919063aff2e0490f", null ]
     ] ],
-    [ "MRE::CutMeshParameters", "structMRE_1_1CutMeshParameters.html", [
-      [ "forceFillAfterBadCut", "structMRE_1_1CutMeshParameters.html#a37b72a16f32fb1d4bde5ce89dbdd9200", null ],
-      [ "new2OldMap", "structMRE_1_1CutMeshParameters.html#adba0f5185348b6cc4e6085db074e0dd8", null ],
-      [ "sortData", "structMRE_1_1CutMeshParameters.html#a3cd3039491b80e9d949b6da27485d5fd", null ]
+    [ "MR::CutMeshParameters", "structMR_1_1CutMeshParameters.html", [
+      [ "forceFillAfterBadCut", "structMR_1_1CutMeshParameters.html#a1ccb0c5475c36ea2534973f424d95cbc", null ],
+      [ "new2OldMap", "structMR_1_1CutMeshParameters.html#a75222f670fe00aaef7a945b8ccbb3ea9", null ],
+      [ "sortData", "structMR_1_1CutMeshParameters.html#a3aaef62dde9c7e4727195071089e409f", null ]
     ] ],
-    [ "MRE::CutMeshResult", "structMRE_1_1CutMeshResult.html", [
-      [ "fbsWithCountourIntersections", "structMRE_1_1CutMeshResult.html#a149dbe30c556abf01448d02b4f26a5cf", null ],
-      [ "resultCut", "structMRE_1_1CutMeshResult.html#aa22ef8b6936737444f08a98e2c72744a", null ]
+    [ "MR::CutMeshResult", "structMR_1_1CutMeshResult.html", [
+      [ "fbsWithCountourIntersections", "structMR_1_1CutMeshResult.html#acc676bb755e4af3c177664745a989954", null ],
+      [ "resultCut", "structMR_1_1CutMeshResult.html#a5fd92baa79aac5e503e3310ab91fb400", null ]
     ] ],
-    [ "MRE::BooleanResult", "structMRE_1_1BooleanResult.html", [
-      [ "operator bool", "structMRE_1_1BooleanResult.html#a39bba25bdba2c46ef02c4e41ffa961d5", null ],
-      [ "operator*", "structMRE_1_1BooleanResult.html#a9810eb84060fedb412585c9491cbc35f", null ],
-      [ "operator*", "structMRE_1_1BooleanResult.html#a9f147f061d1a17b802831c0a62b897d6", null ],
-      [ "operator->", "structMRE_1_1BooleanResult.html#a6b5da05ad6767f9da68568d67e068fdb", null ],
-      [ "operator->", "structMRE_1_1BooleanResult.html#ac6ec2d44e02281ccd8797ac9ad6742b6", null ],
-      [ "valid", "structMRE_1_1BooleanResult.html#aeb4c3e20edf6b71ddd3c7145b68f2ca4", null ],
-      [ "errorString", "structMRE_1_1BooleanResult.html#acc8f55e74998e9a35222b97a0c367ecd", null ],
-      [ "mesh", "structMRE_1_1BooleanResult.html#a1aac27432ac15cd3c68b3799471ebda3", null ],
-      [ "meshABadContourFaces", "structMRE_1_1BooleanResult.html#ab91be46390417cf15b60554fdb3a4833", null ],
-      [ "meshBBadContourFaces", "structMRE_1_1BooleanResult.html#ab744a0a943cc6b74351a6a3b7c0edea3", null ]
+    [ "MR::BooleanResult", "structMR_1_1BooleanResult.html", [
+      [ "operator bool", "structMR_1_1BooleanResult.html#ab6a130e652e944be8b2d65e3ea1c273a", null ],
+      [ "operator*", "structMR_1_1BooleanResult.html#ac0af7e2df53a77da2787428be4cc77d8", null ],
+      [ "operator*", "structMR_1_1BooleanResult.html#ac98caba27fe5a9fdbaa3e4aafff41f2a", null ],
+      [ "operator->", "structMR_1_1BooleanResult.html#aa632af00548f4dfb2a5e70d9518e874f", null ],
+      [ "operator->", "structMR_1_1BooleanResult.html#ad2591d2b1ef80f9dc169034f419d83e4", null ],
+      [ "valid", "structMR_1_1BooleanResult.html#a48ebd7d576c05349da5aab0f92e0d289", null ],
+      [ "errorString", "structMR_1_1BooleanResult.html#a78e59aeca9497a9c74d7512157fcf5df", null ],
+      [ "mesh", "structMR_1_1BooleanResult.html#a2d3a10c35e289abf78a95bd3005b9486", null ],
+      [ "meshABadContourFaces", "structMR_1_1BooleanResult.html#a9e97978ae79fbc9acc8c2bdb8ef40c12", null ],
+      [ "meshBBadContourFaces", "structMR_1_1BooleanResult.html#a5158c930dad94ff45198508c2b01788a", null ]
     ] ],
-    [ "MRE::OneMeshContours", "group__BooleanGroup.html#gacd19dbcaab8b5c59b50149c8d2b330f8", null ],
-    [ "MRE::BooleanOperation", "group__BooleanGroup.html#gacb4a2073036a155fa7f07f2fdc347007", [
-      [ "MRE::BooleanOperation::InsideA", "group__BooleanGroup.html#ggacb4a2073036a155fa7f07f2fdc347007a833b7406c91f551bd8502cf76bb95c29", null ],
-      [ "MRE::BooleanOperation::InsideB", "group__BooleanGroup.html#ggacb4a2073036a155fa7f07f2fdc347007a9f3e5e704c939dff3070cf175df0b75d", null ],
-      [ "MRE::BooleanOperation::OutsideA", "group__BooleanGroup.html#ggacb4a2073036a155fa7f07f2fdc347007a9a03bdff82f27d2bf0997d9c54855711", null ],
-      [ "MRE::BooleanOperation::OutsideB", "group__BooleanGroup.html#ggacb4a2073036a155fa7f07f2fdc347007a6c72337a335f60bed93678d35bd0165f", null ],
-      [ "MRE::BooleanOperation::Union", "group__BooleanGroup.html#ggacb4a2073036a155fa7f07f2fdc347007aaef12e903e606a4895a16b393bfdec8c", null ],
-      [ "MRE::BooleanOperation::Intersection", "group__BooleanGroup.html#ggacb4a2073036a155fa7f07f2fdc347007aa06d31c2ee920b4d53e8c9c06d90ba24", null ],
-      [ "MRE::BooleanOperation::DifferenceBA", "group__BooleanGroup.html#ggacb4a2073036a155fa7f07f2fdc347007ad7e2d5557f4bc77c023a5c3fd8b52aae", null ],
-      [ "MRE::BooleanOperation::DifferenceAB", "group__BooleanGroup.html#ggacb4a2073036a155fa7f07f2fdc347007a676747ace506f0a560e1d99f5da1ab2a", null ],
-      [ "MRE::BooleanOperation::Count", "group__BooleanGroup.html#ggacb4a2073036a155fa7f07f2fdc347007ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    [ "MR::OneMeshContours", "group__BooleanGroup.html#ga87dec72216e17b645acd21a32245237f", null ],
+    [ "MR::BooleanOperation", "group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbd", [
+      [ "MR::BooleanOperation::InsideA", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda833b7406c91f551bd8502cf76bb95c29", null ],
+      [ "MR::BooleanOperation::InsideB", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda9f3e5e704c939dff3070cf175df0b75d", null ],
+      [ "MR::BooleanOperation::OutsideA", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda9a03bdff82f27d2bf0997d9c54855711", null ],
+      [ "MR::BooleanOperation::OutsideB", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda6c72337a335f60bed93678d35bd0165f", null ],
+      [ "MR::BooleanOperation::Union", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdaaef12e903e606a4895a16b393bfdec8c", null ],
+      [ "MR::BooleanOperation::Intersection", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdaa06d31c2ee920b4d53e8c9c06d90ba24", null ],
+      [ "MR::BooleanOperation::DifferenceBA", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdad7e2d5557f4bc77c023a5c3fd8b52aae", null ],
+      [ "MR::BooleanOperation::DifferenceAB", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda676747ace506f0a560e1d99f5da1ab2a", null ],
+      [ "MR::BooleanOperation::Count", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
-    [ "MRE::boolean", "group__BooleanGroup.html#ga09e248fe156925a1560a8bd4a2179370", null ],
-    [ "MRE::convertMeshTriPointsToClosedContour", "group__BooleanGroup.html#ga34f46179c96ce39c5ba94580b9fc1151", null ],
-    [ "MRE::convertSurfacePathsToMeshContours", "group__BooleanGroup.html#ga4691347d3996bcfbf33023cdbc98f754", null ],
-    [ "MRE::convertSurfacePathWithEndsToMeshContour", "group__BooleanGroup.html#gac1dac30e4d40a6bd5624273038a96e3b", null ],
-    [ "MRE::cutMesh", "group__BooleanGroup.html#ga9e479d0d02c34a3f7eaea80c8a8f0aef", null ],
-    [ "MRE::cutMeshWithPlane", "group__BooleanGroup.html#ga6d81b102670d4c9406f27c2b1c58e75b", null ],
-    [ "MRE::doBooleanOperation", "group__BooleanGroup.html#ga52d2bfec3749af2cf0fbd6fb459f6c32", null ]
+    [ "MR::boolean", "group__BooleanGroup.html#ga8159a4df1640c93525412ae2b8882a67", null ],
+    [ "MR::convertMeshTriPointsToClosedContour", "group__BooleanGroup.html#ga7e074bf5b96da15f65f8eba043230e52", null ],
+    [ "MR::convertSurfacePathsToMeshContours", "group__BooleanGroup.html#ga9d5cd0e3c54003e08c1884a7895b3e74", null ],
+    [ "MR::convertSurfacePathWithEndsToMeshContour", "group__BooleanGroup.html#ga4415eacd7a732188919def7411ee0245", null ],
+    [ "MR::cutMesh", "group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc", null ],
+    [ "MR::cutMeshWithPlane", "group__BooleanGroup.html#gae70921f8b670333f08291597996a1dbf", null ],
+    [ "MR::doBooleanOperation", "group__BooleanGroup.html#ga136d5f035ec87489a76b2232bc71ad85", null ]
 ];

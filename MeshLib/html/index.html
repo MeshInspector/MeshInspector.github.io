@@ -104,6 +104,7 @@ Build with VS2019 on Windows</h1>
 <div class="fragment"><div class="line">$ git clone https:<span class="comment">//github.com/MeshInspector/MeshLib.git</span></div>
 <div class="line">$ cd MeshLib</div>
 <div class="line">$ git submodule update --init --recursive</div>
+<div class="line">$ cd ..</div>
 </div><!-- fragment --><p ><b>Preparing</b> <b>Third</b> <b>Parties</b> <br  />
 Some third parties are taken from vcpkg, while others (missing in vcpkg) are configured as git submodules. <br  />
  <br  />
@@ -113,10 +114,12 @@ Some third parties are taken from vcpkg, while others (missing in vcpkg) are con
 <div class="line">$ git checkout 5c54cc06554e450829d72013c4b9e4baae41529a</div>
 <div class="line">$ .\bootstrap-vcpkg.bat</div>
 <div class="line">$ .\vcpkg integrate install (with admin rights)</div>
+<div class="line">$ cd ..</div>
 </div><!-- fragment --> More details here: <a href="https://github.com/microsoft/vcpkg">vcpkg</a></li>
-<li>Copy <b>thirdparty/vcpkg/triplets/x64-windows-meshrus.cmake</b> to <b>vcpkg/triplets</b> folder of vcpkg installation.</li>
+<li>Copy <b>MeshLib/thirdparty/vcpkg/triplets/x64-windows-meshrus.cmake</b> to <b>vcpkg/triplets</b> folder of vcpkg installation.</li>
 <li>Execute install.bat <div class="fragment"><div class="line">$ cd vcpkg # or add vcpcg to PATH</div>
-<div class="line">$ work/MeshLib/thirdparty/install.bat</div>
+<div class="line">$ ../MeshLib/thirdparty/install.bat</div>
+<div class="line">$ cd ..</div>
 </div><!-- fragment --></li>
 </ol>
 <h1><a class="anchor" id="HomePageBuildLin"></a>

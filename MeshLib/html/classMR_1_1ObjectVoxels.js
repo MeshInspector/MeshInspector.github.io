@@ -1,5 +1,6 @@
 var classMR_1_1ObjectVoxels =
 [
+    [ "IsoChangedSignal", "classMR_1_1ObjectVoxels.html#ab5fadd8a2bb85f8657865aa5c3e28034", null ],
     [ "ObjectVoxels", "classMR_1_1ObjectVoxels.html#aba3acadd736c99c402f687aaecfba7fa", null ],
     [ "ObjectVoxels", "classMR_1_1ObjectVoxels.html#a86927a7f3ce177f9394efc66a87d95bc", null ],
     [ "~ObjectVoxels", "classMR_1_1ObjectVoxels.html#a205cdfb1f95b74b571b884147dc2581f", null ],
@@ -31,7 +32,9 @@ var classMR_1_1ObjectVoxels =
     [ "shallowClone", "classMR_1_1ObjectVoxels.html#a225f04e78475f3534bd49929d9200da1", null ],
     [ "surface", "classMR_1_1ObjectVoxels.html#a31a6e0940a4632729bd5bab336d3b99f", null ],
     [ "swapBase_", "classMR_1_1ObjectVoxels.html#acfc82746f998b7430d932547ce473670", null ],
+    [ "swapSignals_", "classMR_1_1ObjectVoxels.html#a9140f71dff0cf1b259c7927035dff81a", null ],
     [ "typeName", "classMR_1_1ObjectVoxels.html#ad263dcb8982dbf8095729fa3a3d2032e", null ],
     [ "updateHistogramAndSurface", "classMR_1_1ObjectVoxels.html#a607e61443e72bdc0eb881a0d3db9fb8c", null ],
-    [ "voxelSize", "classMR_1_1ObjectVoxels.html#a15d13587d3a07d097c841db2c9face4d", null ]
+    [ "voxelSize", "classMR_1_1ObjectVoxels.html#a15d13587d3a07d097c841db2c9face4d", null ],
+    [ "isoChangedSignal", "classMR_1_1ObjectVoxels.html#a26d2bdf16916a4f5a47d4ed54dbde744", null ]
 ];

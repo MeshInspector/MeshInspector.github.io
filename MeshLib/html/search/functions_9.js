@@ -27,11 +27,9 @@ var searchData=
   ['loaddirectionspc_24',['loadDirectionsPC',['../classMR_1_1RegularMapMesher.html#abeab011390e0b43c3b44699746d33e00',1,'MR::RegularMapMesher']]],
   ['loaddistances_25',['loadDistances',['../classMR_1_1RegularMapMesher.html#aaf2141c6d162911fac0bba5ed532c9e1',1,'MR::RegularMapMesher']]],
   ['loadmeshdll_26',['loadMeshDll',['../namespaceMR.html#a756a2b786fd51099db1c7e2f13be0620',1,'MR']]],
-  ['loadmrealgorithmsdll_27',['loadMREAlgorithmsDll',['../namespaceMRE.html#a82b23ad477df2fb4f8d071a28f503723',1,'MRE']]],
-  ['loadmrealgorithmspymodule_28',['loadMREAlgorithmsPyModule',['../namespaceMRE.html#a4017cc4ae18341e5751954af9ad8d336',1,'MRE']]],
-  ['loadmrmeshpymodule_29',['loadMRMeshPyModule',['../namespaceMR.html#a36770d341a5bb9b31cbc30d136c0e2e9',1,'MR']]],
-  ['loadraw_30',['loadRaw',['../group__DistanceMapLoadGroup.html#ga2f299e9902553662efce51bcb142d638',1,'MR::DistanceMapLoad::loadRaw()'],['../group__VoxelsLoadGroup.html#gaa9abed217804416824e973007c8dc6e2',1,'MR::VoxelsLoad::loadRaw(const std::filesystem::path &amp;path, const RawParameters &amp;params, const ProgressCallback &amp;cb={})'],['../group__VoxelsLoadGroup.html#ga65dfedbe323fb5135adaecbb38bf740e',1,'MR::VoxelsLoad::loadRaw(const std::filesystem::path &amp;path, const ProgressCallback &amp;cb={})']]],
-  ['loadsurfacepc_31',['loadSurfacePC',['../classMR_1_1RegularMapMesher.html#ae3e690f9ee38c8774b9663885a8179fa',1,'MR::RegularMapMesher']]],
-  ['loggingstreambuf_32',['LoggingStreambuf',['../classMR_1_1LoggingStreambuf.html#af253d14866ae6530d01634b16042d387',1,'MR::LoggingStreambuf']]],
-  ['lookat_33',['lookAt',['../group__MathGroup.html#ga9ae923a2855ed035b5d5f74b3162c0da',1,'MR']]]
+  ['loadmrmeshpymodule_27',['loadMRMeshPyModule',['../namespaceMR.html#a36770d341a5bb9b31cbc30d136c0e2e9',1,'MR']]],
+  ['loadraw_28',['loadRaw',['../group__DistanceMapLoadGroup.html#ga2f299e9902553662efce51bcb142d638',1,'MR::DistanceMapLoad::loadRaw()'],['../group__VoxelsLoadGroup.html#gaa9abed217804416824e973007c8dc6e2',1,'MR::VoxelsLoad::loadRaw(const std::filesystem::path &amp;path, const RawParameters &amp;params, const ProgressCallback &amp;cb={})'],['../group__VoxelsLoadGroup.html#ga65dfedbe323fb5135adaecbb38bf740e',1,'MR::VoxelsLoad::loadRaw(const std::filesystem::path &amp;path, const ProgressCallback &amp;cb={})']]],
+  ['loadsurfacepc_29',['loadSurfacePC',['../classMR_1_1RegularMapMesher.html#ae3e690f9ee38c8774b9663885a8179fa',1,'MR::RegularMapMesher']]],
+  ['loggingstreambuf_30',['LoggingStreambuf',['../classMR_1_1LoggingStreambuf.html#af253d14866ae6530d01634b16042d387',1,'MR::LoggingStreambuf']]],
+  ['lookat_31',['lookAt',['../group__MathGroup.html#ga9ae923a2855ed035b5d5f74b3162c0da',1,'MR']]]
 ];
