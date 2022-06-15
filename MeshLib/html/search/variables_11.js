@@ -2,7 +2,7 @@ var searchData=
 [
   ['t_0',['t',['../structMR_1_1TriIntersectResult.html#afcfc8df6cc0634cb7eee48bd5186099f',1,'MR::TriIntersectResult']]],
   ['targetedgelen_1',['targetEdgeLen',['../structMR_1_1RemeshSettings.html#a4742691117b65ee01c742f25180e17a7',1,'MR::RemeshSettings']]],
-  ['text_2',['text',['../structMR_1_1MeshLabel.html#a2fe446252fe80a12705c28e9e76dae4a',1,'MR::MeshLabel::text()'],['../structMR_1_1SymbolMeshParams.html#acb1fbf339bac28e29347e8a59589b28b',1,'MR::SymbolMeshParams::text()']]],
+  ['text_2',['text',['../structMR_1_1PositionedText.html#a0361f418c9fa0c8257d7148d219fe4c6',1,'MR::PositionedText::text()'],['../structMR_1_1SymbolMeshParams.html#acb1fbf339bac28e29347e8a59589b28b',1,'MR::SymbolMeshParams::text()']]],
   ['textmaximummovement_3',['textMaximumMovement',['../structMR_1_1TextMeshAlignParams.html#aba750f8cdad04940e2d9871e488b5463',1,'MR::TextMeshAlignParams']]],
   ['textsize_4',['textSize',['../structMR_1_1PdfParameters.html#a7e22b490f619a059c622635844a59e4b',1,'MR::PdfParameters']]],
   ['texture_5f_5',['texture_',['../classMR_1_1VisualObject.html#a42c63ccf2ec13041e1dd693a2533372f',1,'MR::VisualObject']]],
@@ -16,8 +16,9 @@ var searchData=
   ['totalarea_5f_13',['totalArea_',['../classMR_1_1ObjectMeshHolder.html#abfac8fd9808955939be1f0186cbdb896',1,'MR::ObjectMeshHolder']]],
   ['totallength_5f_14',['totalLength_',['../classMR_1_1ObjectLinesHolder.html#aee46157cb8a669b29f698f0ea9688264',1,'MR::ObjectLinesHolder']]],
   ['touchbdvertices_15',['touchBdVertices',['../structMR_1_1DecimateSettings.html#aa7b755cd5bad251398508eb99a3fe806',1,'MR::DecimateSettings::touchBdVertices()'],['../structMR_1_1DecimatePolylineSettings.html#af5825891f4645db66db82c3b6aa2cffe',1,'MR::DecimatePolylineSettings::touchBdVertices()']]],
-  ['tree_16',['tree',['../structMR_1_1Line3Mesh.html#a993c546c36a0d4723de3bdaffd1d769e',1,'MR::Line3Mesh']]],
-  ['tri_17',['tri',['../structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318',1,'MR::EdgeTri']]],
-  ['tris_18',['tris',['../structMR_1_1MeshBuilder_1_1MeshPiece.html#acaa4e2703d22a3965d91b3e9a58b69ee',1,'MR::MeshBuilder::MeshPiece']]],
-  ['type_19',['type',['../structMR_1_1MeshApproxRelaxParams.html#a1cee1338307334369140e04b54f03b51',1,'MR::MeshApproxRelaxParams::type()'],['../structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d',1,'MR::PointCloudApproxRelaxParams::type()']]]
+  ['toworld_16',['toWorld',['../structMR_1_1MeshSave_1_1NamedXfMesh.html#ac966a0534972ef8bcc25ee2d926a5703',1,'MR::MeshSave::NamedXfMesh']]],
+  ['tree_17',['tree',['../structMR_1_1Line3Mesh.html#a993c546c36a0d4723de3bdaffd1d769e',1,'MR::Line3Mesh']]],
+  ['tri_18',['tri',['../structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318',1,'MR::EdgeTri']]],
+  ['tris_19',['tris',['../structMR_1_1MeshBuilder_1_1MeshPiece.html#acaa4e2703d22a3965d91b3e9a58b69ee',1,'MR::MeshBuilder::MeshPiece']]],
+  ['type_20',['type',['../structMR_1_1MeshApproxRelaxParams.html#a1cee1338307334369140e04b54f03b51',1,'MR::MeshApproxRelaxParams::type()'],['../structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d',1,'MR::PointCloudApproxRelaxParams::type()']]]
 ];

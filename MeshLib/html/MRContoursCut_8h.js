@@ -3,7 +3,7 @@ var MRContoursCut_8h =
     [ "MR::SortIntersectionsData", "structMR_1_1SortIntersectionsData.html", "structMR_1_1SortIntersectionsData" ],
     [ "MR::OneMeshIntersection", "structMR_1_1OneMeshIntersection.html", "structMR_1_1OneMeshIntersection" ],
     [ "MR::OneMeshContour", "structMR_1_1OneMeshContour.html", "structMR_1_1OneMeshContour" ],
-    [ "OneMeshContours", "MRContoursCut_8h.html#ga87dec72216e17b645acd21a32245237f", null ],
+    [ "OneMeshContours", "MRContoursCut_8h.html#ga97b0e17fbf5a8ae17f107cf937d0b86b", null ],
     [ "convertMeshTriPointsToClosedContour", "MRContoursCut_8h.html#ga7e074bf5b96da15f65f8eba043230e52", null ],
     [ "convertSurfacePathsToMeshContours", "MRContoursCut_8h.html#ga9d5cd0e3c54003e08c1884a7895b3e74", null ],
     [ "convertSurfacePathWithEndsToMeshContour", "MRContoursCut_8h.html#ga4415eacd7a732188919def7411ee0245", null ],

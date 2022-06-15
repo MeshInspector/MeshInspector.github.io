@@ -30,11 +30,12 @@ var searchData=
   ['polylinetraits_3c_20vector2f_20_3e_27',['PolylineTraits&lt; Vector2f &gt;',['../structMR_1_1PolylineTraits_3_01Vector2f_01_4.html',1,'MR']]],
   ['polylinetraits_3c_20vector3f_20_3e_28',['PolylineTraits&lt; Vector3f &gt;',['../structMR_1_1PolylineTraits_3_01Vector3f_01_4.html',1,'MR']]],
   ['polylineundirectededgeiterator_29',['PolylineUndirectedEdgeIterator',['../classMR_1_1PolylineUndirectedEdgeIterator.html',1,'MR']]],
-  ['precisecollisionresult_30',['PreciseCollisionResult',['../structMR_1_1PreciseCollisionResult.html',1,'MR']]],
-  ['precisevertcoords_31',['PreciseVertCoords',['../structMR_1_1PreciseVertCoords.html',1,'MR']]],
-  ['precisevertcoords2_32',['PreciseVertCoords2',['../structMR_1_1PreciseVertCoords2.html',1,'MR']]],
-  ['protectedstruct_33',['ProtectedStruct',['../structMR_1_1Object_1_1ProtectedStruct.html',1,'MR::Object']]],
-  ['pythonexport_34',['PythonExport',['../classMR_1_1PythonExport.html',1,'MR']]],
-  ['pythonfunctionadder_35',['PythonFunctionAdder',['../structMR_1_1PythonFunctionAdder.html',1,'MR']]],
-  ['pythonstreamredirector_36',['PythonStreamRedirector',['../classPythonStreamRedirector.html',1,'']]]
+  ['positionedtext_30',['PositionedText',['../structMR_1_1PositionedText.html',1,'MR']]],
+  ['precisecollisionresult_31',['PreciseCollisionResult',['../structMR_1_1PreciseCollisionResult.html',1,'MR']]],
+  ['precisevertcoords_32',['PreciseVertCoords',['../structMR_1_1PreciseVertCoords.html',1,'MR']]],
+  ['precisevertcoords2_33',['PreciseVertCoords2',['../structMR_1_1PreciseVertCoords2.html',1,'MR']]],
+  ['protectedstruct_34',['ProtectedStruct',['../structMR_1_1Object_1_1ProtectedStruct.html',1,'MR::Object']]],
+  ['pythonexport_35',['PythonExport',['../classMR_1_1PythonExport.html',1,'MR']]],
+  ['pythonfunctionadder_36',['PythonFunctionAdder',['../structMR_1_1PythonFunctionAdder.html',1,'MR']]],
+  ['pythonstreamredirector_37',['PythonStreamRedirector',['../classPythonStreamRedirector.html',1,'']]]
 ];

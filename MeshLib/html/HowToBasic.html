@@ -108,11 +108,11 @@ C++ Basic Examples</h1>
 <div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line">{</div>
 <div class="line">    std::filesystem::path inFilePath = <span class="stringliteral">&quot;mesh.stl&quot;</span>;</div>
-<div class="line">    <span class="keyword">auto</span> loadRes = <a class="code hl_function" href="group__MeshLoadGroup.html#gaa0d0499f6ddcd31bac309cb83c1f814d">MR::MeshLoad::fromAnySupportedFormat</a>( inFilePath );</div>
+<div class="line">    <span class="keyword">auto</span> loadRes = <a class="code hl_function" href="group__MeshLoadGroup.html#ga8021ecd3005024d4b16ca5951d089dec">MR::MeshLoad::fromAnySupportedFormat</a>( inFilePath );</div>
 <div class="line">    <span class="keywordflow">if</span> ( loadRes.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::filesystem::path outFilePath = <span class="stringliteral">&quot;mesh.ply&quot;</span>;</div>
-<div class="line">        <span class="keyword">auto</span> saveRes = <a class="code hl_function" href="group__MeshSaveGroup.html#ga4ec261bb73e7b1367baa707c1560c999">MR::MeshSave::toAnySupportedFormat</a>( loadRes.value(), outFilePath );</div>
+<div class="line">        <span class="keyword">auto</span> saveRes = <a class="code hl_function" href="group__MeshSaveGroup.html#gad407fae423a9d08bce62b0be8a590db4">MR::MeshSave::toAnySupportedFormat</a>( loadRes.value(), outFilePath );</div>
 <div class="line">        <span class="keywordflow">if</span> ( !saveRes.has_value() )</div>
 <div class="line">            std::cerr &lt;&lt; saveRes.error() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">    }</div>
@@ -122,8 +122,8 @@ C++ Basic Examples</h1>
 <div class="line">}</div>
 <div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
 <div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
-<div class="ttc" id="agroup__MeshLoadGroup_html_gaa0d0499f6ddcd31bac309cb83c1f814d"><div class="ttname"><a href="group__MeshLoadGroup.html#gaa0d0499f6ddcd31bac309cb83c1f814d">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API tl::expected&lt; Mesh, std::string &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, std::vector&lt; Color &gt; *colors=nullptr)</div><div class="ttdoc">detects the format from file extension and loads mesh from it</div></div>
-<div class="ttc" id="agroup__MeshSaveGroup_html_ga4ec261bb73e7b1367baa707c1560c999"><div class="ttname"><a href="group__MeshSaveGroup.html#ga4ec261bb73e7b1367baa707c1560c999">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API tl::expected&lt; void, std::string &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const std::vector&lt; Color &gt; *perVertColors=nullptr)</div><div class="ttdoc">detects the format from file extension and save mesh to it</div></div>
+<div class="ttc" id="agroup__MeshLoadGroup_html_ga8021ecd3005024d4b16ca5951d089dec"><div class="ttname"><a href="group__MeshLoadGroup.html#ga8021ecd3005024d4b16ca5951d089dec">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API tl::expected&lt; Mesh, std::string &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, Vector&lt; Color, VertId &gt; *colors=nullptr)</div><div class="ttdoc">detects the format from file extension and loads mesh from it</div></div>
+<div class="ttc" id="agroup__MeshSaveGroup_html_gad407fae423a9d08bce62b0be8a590db4"><div class="ttname"><a href="group__MeshSaveGroup.html#gad407fae423a9d08bce62b0be8a590db4">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API tl::expected&lt; void, std::string &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const Vector&lt; Color, VertId &gt; *colors=nullptr)</div><div class="ttdoc">detects the format from file extension and save mesh to it</div></div>
 </div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="namespaceMR_1_1MeshLoad.html">MR::MeshLoad</a> </dd>
 <dd>
 <a class="el" href="namespaceMR_1_1MeshSave.html">MR::MeshSave</a></dd></dl>
@@ -137,7 +137,7 @@ C++ Basic Examples</h1>
 <div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// load mesh</span></div>
-<div class="line">    <a class="code hl_struct" href="structMR_1_1Mesh.html">MR::Mesh</a> mesh = <a class="code hl_function" href="group__MeshLoadGroup.html#gaa0d0499f6ddcd31bac309cb83c1f814d">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;mesh.stl&quot;</span> ).value();</div>
+<div class="line">    <a class="code hl_struct" href="structMR_1_1Mesh.html">MR::Mesh</a> mesh = <a class="code hl_function" href="group__MeshLoadGroup.html#ga8021ecd3005024d4b16ca5951d089dec">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;mesh.stl&quot;</span> ).value();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// relax mesh (5 iterations)</span></div>
 <div class="line">    <a class="code hl_function" href="group__MeshRelaxGroup.html#ga82c8571f065eff9a7403c41093b44a53">MR::relax</a>( mesh, {{5}} );</div>

@@ -8,7 +8,7 @@ var structMR_1_1QuadraticForm =
     [ "addDistToPlane", "structMR_1_1QuadraticForm.html#abd84de324207ec889e01f594968dd8a1", null ],
     [ "addDistToPlane", "structMR_1_1QuadraticForm.html#afacdc7d86d21e277ea2c254a90c29b61", null ],
     [ "eval", "structMR_1_1QuadraticForm.html#ab0c3bc061463b886469241c7c3b17cd2", null ],
-    [ "sum", "structMR_1_1QuadraticForm.html#ad6bb3be1366cf5ebc8752f66069d868d", null ],
+    [ "sum", "structMR_1_1QuadraticForm.html#a613642585592285c402e51d9af48651a", null ],
     [ "A", "structMR_1_1QuadraticForm.html#aaa0e315bd432a25ff55c9f30b926ffda", null ],
     [ "c", "structMR_1_1QuadraticForm.html#a0b59f3e15f491ff0d64f1121a8b0a463", null ]
 ];

@@ -24,7 +24,6 @@ var classMR_1_1ObjectMeshHolder =
     [ "getEdgeWidth", "classMR_1_1ObjectMeshHolder.html#ad65f6d1258779e47bfb25301f328516c", null ],
     [ "getFacesColorMap", "classMR_1_1ObjectMeshHolder.html#a70e26c82a7668b02f6098a7111009bd2", null ],
     [ "getFacesNormals", "classMR_1_1ObjectMeshHolder.html#a33b20ca39abc1e95bd8e28945ae0ef78", null ],
-    [ "getInfoLines", "classMR_1_1ObjectMeshHolder.html#aec5f1df98b56e7053c6f9f6d0cd228f1", null ],
     [ "getNeededNormalsRenderDirtyValue", "classMR_1_1ObjectMeshHolder.html#a2bcb9fd68dc89ba14cf857ef890a3f6b", null ],
     [ "getRedrawFlag", "classMR_1_1ObjectMeshHolder.html#aa095821c8be332dee208deb420d5c7f8", null ],
     [ "getSelectedEdges", "classMR_1_1ObjectMeshHolder.html#a79856827ecd3b0b2406f09572b88c904", null ],

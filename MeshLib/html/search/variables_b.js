@@ -1,7 +1,7 @@
 var searchData=
 [
   ['n_0',['n',['../structMR_1_1Plane3.html#a6e5e2b0ad95eae3a0388468db8a83a63',1,'MR::Plane3']]],
-  ['name_1',['name',['../structMR_1_1IOFilter.html#ad4426ebb26f3474b6d69ca07c8e35980',1,'MR::IOFilter::name()'],['../structMR_1_1MeshLoad_1_1NamedMesh.html#a05826b92a46319385603f88ae180c23a',1,'MR::MeshLoad::NamedMesh::name()']]],
+  ['name_1',['name',['../structMR_1_1IOFilter.html#ad4426ebb26f3474b6d69ca07c8e35980',1,'MR::IOFilter::name()'],['../structMR_1_1MeshLoad_1_1NamedMesh.html#a05826b92a46319385603f88ae180c23a',1,'MR::MeshLoad::NamedMesh::name()'],['../structMR_1_1MeshSave_1_1NamedXfMesh.html#a8075df44d9587ee2fd2ee32f18d22f0b',1,'MR::MeshSave::NamedXfMesh::name()']]],
   ['name_5f_2',['name_',['../classMR_1_1Object.html#a3d6d27065a13a0a262df4b74ff82e538',1,'MR::Object']]],
   ['needredraw_5f_3',['needRedraw_',['../classMR_1_1Object.html#a92a390dc7570098981912529e341433d',1,'MR::Object']]],
   ['neighborhoodradius_4',['neighborhoodRadius',['../structMR_1_1PointCloudRelaxParams.html#ab8de6ecb0effc2fb5ae7f053955d6caf',1,'MR::PointCloudRelaxParams']]],

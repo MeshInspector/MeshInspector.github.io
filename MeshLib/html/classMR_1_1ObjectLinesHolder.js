@@ -11,7 +11,6 @@ var classMR_1_1ObjectLinesHolder =
     [ "computeBoundingBoxXf_", "classMR_1_1ObjectLinesHolder.html#ab2c476662206f9b4203251f7a385ff28", null ],
     [ "deserializeFields_", "classMR_1_1ObjectLinesHolder.html#ab23dddd3e9b8f97eae6c128343604c73", null ],
     [ "getAllVisualizeProperties", "classMR_1_1ObjectLinesHolder.html#a2798b1849e8c43f61a65e198db996c38", null ],
-    [ "getInfoLines", "classMR_1_1ObjectLinesHolder.html#a76ecedbe360ea9eec5597749a9889623", null ],
     [ "getLinesColorMap", "classMR_1_1ObjectLinesHolder.html#af659e26d1d6c824466aba14b5ae8104e", null ],
     [ "getLineWidth", "classMR_1_1ObjectLinesHolder.html#a1973470e52b14c804f3c6c0898d32904", null ],
     [ "getPointSize", "classMR_1_1ObjectLinesHolder.html#afade546b380f165250bd73157dae1fbd", null ],

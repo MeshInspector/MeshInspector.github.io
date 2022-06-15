@@ -19,7 +19,8 @@ var annotated_dup =
         [ "NamedMeshLoader", "structMR_1_1MeshLoad_1_1NamedMeshLoader.html", "structMR_1_1MeshLoad_1_1NamedMeshLoader" ]
       ] ],
       [ "MeshSave", "namespaceMR_1_1MeshSave.html", [
-        [ "CtmSaveOptions", "structMR_1_1MeshSave_1_1CtmSaveOptions.html", "structMR_1_1MeshSave_1_1CtmSaveOptions" ]
+        [ "CtmSaveOptions", "structMR_1_1MeshSave_1_1CtmSaveOptions.html", "structMR_1_1MeshSave_1_1CtmSaveOptions" ],
+        [ "NamedXfMesh", "structMR_1_1MeshSave_1_1NamedXfMesh.html", "structMR_1_1MeshSave_1_1NamedXfMesh" ]
       ] ],
       [ "PointsSave", "namespaceMR_1_1PointsSave.html", [
         [ "CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", "structMR_1_1PointsSave_1_1CtmSavePointsOptions" ]
@@ -121,7 +122,6 @@ var annotated_dup =
       [ "MeshEdgePoint", "structMR_1_1MeshEdgePoint.html", "structMR_1_1MeshEdgePoint" ],
       [ "MeshICP", "classMR_1_1MeshICP.html", "classMR_1_1MeshICP" ],
       [ "MeshIntersectionResult", "structMR_1_1MeshIntersectionResult.html", "structMR_1_1MeshIntersectionResult" ],
-      [ "MeshLabel", "structMR_1_1MeshLabel.html", "structMR_1_1MeshLabel" ],
       [ "MeshMeshConverter", "structMR_1_1MeshMeshConverter.html", "structMR_1_1MeshMeshConverter" ],
       [ "MeshNormals", "structMR_1_1MeshNormals.html", "structMR_1_1MeshNormals" ],
       [ "MeshPart", "structMR_1_1MeshPart.html", "structMR_1_1MeshPart" ],
@@ -144,6 +144,7 @@ var annotated_dup =
       [ "ObjectDistanceMap", "classMR_1_1ObjectDistanceMap.html", "classMR_1_1ObjectDistanceMap" ],
       [ "ObjectFactory", "classMR_1_1ObjectFactory.html", "classMR_1_1ObjectFactory" ],
       [ "ObjectFactoryBase", "classMR_1_1ObjectFactoryBase.html", "classMR_1_1ObjectFactoryBase" ],
+      [ "ObjectLabel", "classMR_1_1ObjectLabel.html", "classMR_1_1ObjectLabel" ],
       [ "ObjectLines", "classMR_1_1ObjectLines.html", "classMR_1_1ObjectLines" ],
       [ "ObjectLinesHolder", "classMR_1_1ObjectLinesHolder.html", "classMR_1_1ObjectLinesHolder" ],
       [ "ObjectMesh", "classMR_1_1ObjectMesh.html", "classMR_1_1ObjectMesh" ],
@@ -182,6 +183,7 @@ var annotated_dup =
       [ "PolylineTraits< Vector2f >", "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html", "structMR_1_1PolylineTraits_3_01Vector2f_01_4" ],
       [ "PolylineTraits< Vector3f >", "structMR_1_1PolylineTraits_3_01Vector3f_01_4.html", "structMR_1_1PolylineTraits_3_01Vector3f_01_4" ],
       [ "PolylineUndirectedEdgeIterator", "classMR_1_1PolylineUndirectedEdgeIterator.html", "classMR_1_1PolylineUndirectedEdgeIterator" ],
+      [ "PositionedText", "structMR_1_1PositionedText.html", "structMR_1_1PositionedText" ],
       [ "PreciseCollisionResult", "structMR_1_1PreciseCollisionResult.html", "structMR_1_1PreciseCollisionResult" ],
       [ "PreciseVertCoords", "structMR_1_1PreciseVertCoords.html", "structMR_1_1PreciseVertCoords" ],
       [ "PreciseVertCoords2", "structMR_1_1PreciseVertCoords2.html", "structMR_1_1PreciseVertCoords2" ],

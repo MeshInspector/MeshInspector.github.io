@@ -131,7 +131,6 @@ var hierarchy =
     [ "MR::MeshIntersectionResult", "structMR_1_1MeshIntersectionResult.html", [
       [ "MR::MultiMeshIntersectionResult", "structMR_1_1MultiMeshIntersectionResult.html", null ]
     ] ],
-    [ "MR::MeshLabel", "structMR_1_1MeshLabel.html", null ],
     [ "MR::MeshLoad::MeshLoaderAdder", "classMR_1_1MeshLoad_1_1MeshLoaderAdder.html", null ],
     [ "MR::MeshMeshConverter", "structMR_1_1MeshMeshConverter.html", null ],
     [ "MR::MeshNormals", "structMR_1_1MeshNormals.html", null ],
@@ -152,12 +151,14 @@ var hierarchy =
     ] ],
     [ "MR::MeshLoad::NamedMesh", "structMR_1_1MeshLoad_1_1NamedMesh.html", null ],
     [ "MR::MeshLoad::NamedMeshLoader", "structMR_1_1MeshLoad_1_1NamedMeshLoader.html", null ],
+    [ "MR::MeshSave::NamedXfMesh", "structMR_1_1MeshSave_1_1NamedXfMesh.html", null ],
     [ "MR::NextEdgeSameLeft", "classMR_1_1NextEdgeSameLeft.html", null ],
     [ "MR::NextEdgeSameOrigin", "classMR_1_1NextEdgeSameOrigin.html", null ],
     [ "MR::AABBTreePoints::Node", "structMR_1_1AABBTreePoints_1_1Node.html", null ],
     [ "MR::ObjectChildrenHolder", "structMR_1_1ObjectChildrenHolder.html", [
       [ "MR::Object", "classMR_1_1Object.html", [
         [ "MR::VisualObject", "classMR_1_1VisualObject.html", [
+          [ "MR::ObjectLabel", "classMR_1_1ObjectLabel.html", null ],
           [ "MR::ObjectLinesHolder", "classMR_1_1ObjectLinesHolder.html", [
             [ "MR::CircleObject", "classMR_1_1CircleObject.html", null ],
             [ "MR::LineObject", "classMR_1_1LineObject.html", null ],
@@ -205,6 +206,7 @@ var hierarchy =
     [ "MR::PolylineTraits< Vector2f >", "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html", null ],
     [ "MR::PolylineTraits< Vector3f >", "structMR_1_1PolylineTraits_3_01Vector3f_01_4.html", null ],
     [ "MR::PolylineUndirectedEdgeIterator", "classMR_1_1PolylineUndirectedEdgeIterator.html", null ],
+    [ "MR::PositionedText", "structMR_1_1PositionedText.html", null ],
     [ "MR::PreciseCollisionResult", "structMR_1_1PreciseCollisionResult.html", null ],
     [ "MR::PreciseVertCoords", "structMR_1_1PreciseVertCoords.html", null ],
     [ "MR::PreciseVertCoords2", "structMR_1_1PreciseVertCoords2.html", null ],
@@ -282,6 +284,7 @@ var hierarchy =
     [ "MR::Vector4< int >", "structMR_1_1Vector4.html", null ],
     [ "MR::Vector< char, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< Color, Id< Tag > >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< Color, VertId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< EdgeId, EdgeId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< FaceId, FaceId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< float, MR::Id >", "classMR_1_1Vector.html", null ],

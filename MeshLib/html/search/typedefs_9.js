@@ -19,7 +19,8 @@ var searchData=
   ['matrixtype_16',['MatrixType',['../structMR_1_1Vector2.html#a74579bfbb9d532d53c66684a02dc8cb5',1,'MR::Vector2::MatrixType()'],['../structMR_1_1Vector3.html#a7c629d81f031f089ef5fb3ea45689ea5',1,'MR::Vector3::MatrixType()'],['../structMR_1_1Vector4.html#aecd18b3e13e9b87796242a04883f0592',1,'MR::Vector4::MatrixType()']]],
   ['meshchangedsignal_17',['MeshChangedSignal',['../classMR_1_1ObjectMesh.html#a4ba89c278f58751766ff9e7b8f401786',1,'MR::ObjectMesh']]],
   ['meshintersectioncallback_18',['MeshIntersectionCallback',['../group__AABBTreeGroup.html#gab84b0b767274335b6f0f59bbb9537fe3',1,'MR']]],
-  ['meshloader_19',['MeshLoader',['../group__IOFormatsRegistryGroup.html#ga45aa3f6a621fff75668512378ba715d8',1,'MR::MeshLoad']]],
-  ['meshstreamloader_20',['MeshStreamLoader',['../group__IOFormatsRegistryGroup.html#ga4e219b8ce33112893995d2e3fc17e705',1,'MR::MeshLoad']]],
-  ['multipleedge_21',['MultipleEdge',['../group__MeshFixerGroup.html#ga807cd3d017d23c56a0f6ea1cb1f7c8cb',1,'MR']]]
+  ['meshlabel_19',['MeshLabel',['../namespaceMR.html#a982cd6fff1d0180a620b11bb007db1d2',1,'MR']]],
+  ['meshloader_20',['MeshLoader',['../group__IOFormatsRegistryGroup.html#gad4bc1a150cf6b5dbec778cc11074ce75',1,'MR::MeshLoad']]],
+  ['meshstreamloader_21',['MeshStreamLoader',['../group__IOFormatsRegistryGroup.html#ga9c909798598d20fd0aae2cfd4b13575c',1,'MR::MeshLoad']]],
+  ['multipleedge_22',['MultipleEdge',['../group__MeshFixerGroup.html#ga807cd3d017d23c56a0f6ea1cb1f7c8cb',1,'MR']]]
 ];

@@ -1,9 +1,12 @@
 var structMR_1_1DecimateSettings =
 [
+    [ "adjustCollapse", "structMR_1_1DecimateSettings.html#a21d7c6d9122286b4edf7bd531d38b72b", null ],
     [ "maxDeletedFaces", "structMR_1_1DecimateSettings.html#a38bbdf3c479e6edea3b93ca7a7b52084", null ],
     [ "maxDeletedVertices", "structMR_1_1DecimateSettings.html#abb741e47d580e75e37b13adcad8a362e", null ],
+    [ "maxEdgeLen", "structMR_1_1DecimateSettings.html#ac98cbfa367475605fa88982f55dc9a61", null ],
     [ "maxError", "structMR_1_1DecimateSettings.html#ab97888b6d597260226ade61b4e542ef0", null ],
     [ "maxTriangleAspectRatio", "structMR_1_1DecimateSettings.html#af1fd605860fa7a20931506008f29daa9", null ],
+    [ "optimizeVertexPos", "structMR_1_1DecimateSettings.html#ac4cfcdf2807788f5914a0640372d4a07", null ],
     [ "packMesh", "structMR_1_1DecimateSettings.html#a320a08e8abf402aa6a0dae956ad9be0e", null ],
     [ "preCollapse", "structMR_1_1DecimateSettings.html#a4eab7dd113486daa41a2272bac1b8a2f", null ],
     [ "progressCallback", "structMR_1_1DecimateSettings.html#aa54526c521844dcca8dc5aa91e3628de", null ],

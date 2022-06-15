@@ -13,7 +13,6 @@ var classMR_1_1ObjectPointsHolder =
     [ "deserializeFields_", "classMR_1_1ObjectPointsHolder.html#a6188f5d044e81a3a0e220618684fa515", null ],
     [ "deserializeModel_", "classMR_1_1ObjectPointsHolder.html#a1e4ce9bbdea2859778ffa7533ce0e731", null ],
     [ "getAllVisualizeProperties", "classMR_1_1ObjectPointsHolder.html#a101816077775340afe3a15f30133d1d2", null ],
-    [ "getInfoLines", "classMR_1_1ObjectPointsHolder.html#addfd850bdf9ebb2945e35d81e3e03ca3", null ],
     [ "getPointSize", "classMR_1_1ObjectPointsHolder.html#aaeb12e690818f069c529e5924999b71a", null ],
     [ "getSelectedPoints", "classMR_1_1ObjectPointsHolder.html#ad8bde1f8aa5e5c2b7abd5eaa069f4cba", null ],
     [ "getSelectedVerticesColor", "classMR_1_1ObjectPointsHolder.html#aaeb7aaee6d86b069875588880b0a322f", null ],

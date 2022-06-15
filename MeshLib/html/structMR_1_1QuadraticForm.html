@@ -142,9 +142,10 @@ Public Attributes</h2></td></tr>
 Related Functions</h2></td></tr>
 <tr><td class="ititle" colspan="2"><p >(Note that these are not member functions.) </p>
 </td></tr>
-<tr class="memitem:ad6bb3be1366cf5ebc8752f66069d868d"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:ad6bb3be1366cf5ebc8752f66069d868d"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::pair&lt; <a class="el" href="structMR_1_1QuadraticForm.html">QuadraticForm</a>&lt; V &gt;, V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structMR_1_1QuadraticForm.html#ad6bb3be1366cf5ebc8752f66069d868d">sum</a> (const <a class="el" href="structMR_1_1QuadraticForm.html">QuadraticForm</a>&lt; V &gt; &amp;q0, const V &amp;x0, const <a class="el" href="structMR_1_1QuadraticForm.html">QuadraticForm</a>&lt; V &gt; &amp;q1, const V &amp;x1)</td></tr>
-<tr class="separator:ad6bb3be1366cf5ebc8752f66069d868d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a613642585592285c402e51d9af48651a"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:a613642585592285c402e51d9af48651a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::pair&lt; <a class="el" href="structMR_1_1QuadraticForm.html">QuadraticForm</a>&lt; V &gt;, V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structMR_1_1QuadraticForm.html#a613642585592285c402e51d9af48651a">sum</a> (const <a class="el" href="structMR_1_1QuadraticForm.html">QuadraticForm</a>&lt; V &gt; &amp;q0, const V &amp;x0, const <a class="el" href="structMR_1_1QuadraticForm.html">QuadraticForm</a>&lt; V &gt; &amp;q1, const V &amp;x1, bool minAmong01=false)</td></tr>
+<tr class="memdesc:a613642585592285c402e51d9af48651a"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true then the minimum is selected only between points x0 and x1  <a href="structMR_1_1QuadraticForm.html#a613642585592285c402e51d9af48651a">More...</a><br /></td></tr>
+<tr class="separator:a613642585592285c402e51d9af48651a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename V&gt;<br />
@@ -380,8 +381,8 @@ template&lt;typename V &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="ad6bb3be1366cf5ebc8752f66069d868d" name="ad6bb3be1366cf5ebc8752f66069d868d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6bb3be1366cf5ebc8752f66069d868d">&#9670;&nbsp;</a></span>sum()</h2>
+<a id="a613642585592285c402e51d9af48651a" name="a613642585592285c402e51d9af48651a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a613642585592285c402e51d9af48651a">&#9670;&nbsp;</a></span>sum()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -413,7 +414,13 @@ template&lt;typename V &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const V &amp;&#160;</td>
-          <td class="paramname"><em>x1</em>&#160;</td>
+          <td class="paramname"><em>x1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>minAmong01</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -427,6 +434,8 @@ template&lt;typename V &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>if true then the minimum is selected only between points x0 and x1 </p>
 <p >given two quadratic forms with points where they reach minima, computes sum quadratic form and the point where it reaches minimum </p>
 
 </div>
