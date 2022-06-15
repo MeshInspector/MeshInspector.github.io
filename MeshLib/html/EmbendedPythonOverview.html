@@ -100,8 +100,8 @@ $(document).ready(function(){initNavTree('EmbendedPythonOverview.html',''); init
 <b>Requires</b> <b>python</b> <b>3.10</b> (3.9 on linux)</p>
 <p >MeshLib library allows you to call python scripts directly from the command line or use particular functions by <code>import mrmeshpy</code>.</p>
 <p ><b>Usage</b> </p>
-<p >On windows path to MeshLib modules should be added to python before importing </p><div class="fragment"><div class="line"><span class="keyword">import</span> sys</div>
-<div class="line">sys.path.append(<span class="stringliteral">&#39;C:\\Program Files\\MeshInspector\\MeshInspector&#39;</span>)</div>
+<p >On Windows: path to the directory that contains MeshLib python modules (mrmeshpy.pyd, mrmeshnumpy.pyd ...) should be added to python before importing the modules </p><div class="fragment"><div class="line"><span class="keyword">import</span> sys</div>
+<div class="line">sys.path.append(<span class="stringliteral">&#39;path_to_modules_directory&#39;</span>)</div>
 </div><!-- fragment --><p >MeshLib provides several usage options<br  />
 </p><ol type="1">
 <li>Directly from system python <div class="fragment"><div class="line"><span class="keyword">import</span> mrmeshpy</div>
