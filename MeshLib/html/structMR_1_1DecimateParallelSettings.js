@@ -10,5 +10,6 @@ var structMR_1_1DecimateParallelSettings =
     [ "region", "structMR_1_1DecimateParallelSettings.html#a6e41465250059b31e3c4806da1d55fea", null ],
     [ "stabilizer", "structMR_1_1DecimateParallelSettings.html#a737db1b3e50fc4961a8416f00bf3f49e", null ],
     [ "strategy", "structMR_1_1DecimateParallelSettings.html#a17d076a1c92c22ee1eaf23dd6edcb19e", null ],
-    [ "subdivideParts", "structMR_1_1DecimateParallelSettings.html#abe984fd10e92e60449cdb1c3e409bdbc", null ]
+    [ "subdivideParts", "structMR_1_1DecimateParallelSettings.html#abe984fd10e92e60449cdb1c3e409bdbc", null ],
+    [ "touchBdVertices", "structMR_1_1DecimateParallelSettings.html#a6e1e192817007b17434540ed6c973249", null ]
 ];

@@ -12,7 +12,7 @@ var classMR_1_1Config =
     [ "hasJsonValue", "classMR_1_1Config.html#af8762966496b6267975c855b7b47d3ca", null ],
     [ "hasVector2i", "classMR_1_1Config.html#a45debdd9e18e1b014caa6a4d1e5eaf16", null ],
     [ "operator=", "classMR_1_1Config.html#ae8bd5243efd5066d7b24657c23126e25", null ],
-    [ "reset", "classMR_1_1Config.html#a355933f4606275eadf9eda9658b1f765", null ],
+    [ "reset", "classMR_1_1Config.html#a32bff2be653e661c81d59903489382f3", null ],
     [ "setBool", "classMR_1_1Config.html#ae57d1ec5709dc7fc1a7115f4f745955d", null ],
     [ "setColor", "classMR_1_1Config.html#aefbf21b76d9f87667c9313e310f8fe9b", null ],
     [ "setFileStack", "classMR_1_1Config.html#ae9eaec2c0bade737afbf64156d5a6ca8", null ],

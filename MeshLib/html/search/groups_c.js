@@ -6,6 +6,7 @@ var searchData=
   ['points_20load_3',['Points Load',['../group__PointsLoadGroup.html',1,'']]],
   ['points_20save_4',['Points Save',['../group__PointsSaveGroup.html',1,'']]],
   ['polyline_5',['Polyline',['../group__PolylineGroup.html',1,'']]],
-  ['precisepredicates2_6',['PrecisePredicates2',['../group__PrecisePredicates2.html',1,'']]],
-  ['precisepredicates3_7',['PrecisePredicates3',['../group__PrecisePredicates3.html',1,'']]]
+  ['polyline_20subdivide_6',['Polyline Subdivide',['../group__PolylineSubdivideGroup.html',1,'']]],
+  ['precisepredicates2_7',['PrecisePredicates2',['../group__PrecisePredicates2.html',1,'']]],
+  ['precisepredicates3_8',['PrecisePredicates3',['../group__PrecisePredicates3.html',1,'']]]
 ];

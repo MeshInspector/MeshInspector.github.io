@@ -115,6 +115,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a183e7f78dfae636f44de186d488f8a4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a183e7f78dfae636f44de186d488f8a4b">lastNotLoneEdge</a> () const</td></tr>
 <tr class="memdesc:a183e7f78dfae636f44de186d488f8a4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns last not lone edge id, or invalid id if no such edge exists  <a href="classMR_1_1MeshTopology.html#a183e7f78dfae636f44de186d488f8a4b">More...</a><br /></td></tr>
 <tr class="separator:a183e7f78dfae636f44de186d488f8a4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addcf4c5e6460cd0ef1247b87c0a080a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#addcf4c5e6460cd0ef1247b87c0a080a5">excludeLoneEdges</a> (<a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;edges) const</td></tr>
+<tr class="memdesc:addcf4c5e6460cd0ef1247b87c0a080a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove all lone edges from given set  <a href="classMR_1_1MeshTopology.html#addcf4c5e6460cd0ef1247b87c0a080a5">More...</a><br /></td></tr>
+<tr class="separator:addcf4c5e6460cd0ef1247b87c0a080a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59e61393e26970b19791a726b212a1b8"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a59e61393e26970b19791a726b212a1b8">edgeSize</a> () const</td></tr>
 <tr class="memdesc:a59e61393e26970b19791a726b212a1b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of half-edge records including lone ones  <a href="classMR_1_1MeshTopology.html#a59e61393e26970b19791a726b212a1b8">More...</a><br /></td></tr>
 <tr class="separator:a59e61393e26970b19791a726b212a1b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -443,7 +446,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p >copies topology (from) into this; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">from</td><td>edges must be tightly packes without any lone edges, and they are mapped [0, from.edges.size()) -&gt; [toEdgeId, toEdgeId + from.edges.size()); </td></tr>
+    <tr><td class="paramname">from</td><td>edges must be tightly packes without any lone edges, and they are mapped [0, <a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">from.edges.size()</a>) -&gt; [toEdgeId, toEdgeId + <a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">from.edges.size()</a>); </td></tr>
     <tr><td class="paramname">fmap,vmap</td><td>mapping of vertices and faces if it is given ( from.id -&gt; this.id ) </td></tr>
   </table>
   </dd>
@@ -1103,6 +1106,26 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns valid edge if given vertex is present in the mesh </p>
+
+</div>
+</div>
+<a id="addcf4c5e6460cd0ef1247b87c0a080a5" name="addcf4c5e6460cd0ef1247b87c0a080a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addcf4c5e6460cd0ef1247b87c0a080a5">&#9670;&nbsp;</a></span>excludeLoneEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::MeshTopology::excludeLoneEdges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>edges</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>remove all lone edges from given set </p>
 
 </div>
 </div>

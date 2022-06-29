@@ -1,26 +1,10 @@
 var searchData=
 [
-  ['v_0',['v',['../structMR_1_1MeshBuilder_1_1Triangle.html#ac839d50978af7b874175c76597ad082f',1,'MR::MeshBuilder::Triangle::v()'],['../structMR_1_1UVCoord.html#a20cf23adbafada8943e6d752e5c8d2c1',1,'MR::UVCoord::v()']]],
-  ['val_1',['val',['../structMR_1_1Heap_1_1Element.html#a7bd4aa28de0c5142c7149308ec9da563',1,'MR::Heap::Element']]],
-  ['validpoints_2',['validPoints',['../structMR_1_1PointCloud.html#a99cd2bd3f8fa8482032603f382ab9a03',1,'MR::PointCloud']]],
-  ['vec_5f_3',['vec_',['../classMR_1_1Vector.html#ad4c1a76a727c0e52830149df75a87a0f',1,'MR::Vector']]],
-  ['vector2_4',['Vector2',['../namespaceMR.html#a8574b2d5fa0c8c75e1fd5c0e983e8a81',1,'MR']]],
-  ['vector3_5',['Vector3',['../namespaceMR.html#a0ca1e3843eef2c4f88b6c11546a15540',1,'MR']]],
-  ['vert_6',['vert',['../structMR_1_1VertDistance.html#ab32da452523a0d3cd61407d73b038145',1,'MR::VertDistance']]],
-  ['vertdist2_7',['vertDist2',['../structMR_1_1VertPair.html#a9877259bf186487a6ae646bba6602ce4',1,'MR::VertPair']]],
-  ['vertexprecision_8',['vertexPrecision',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#a391e0a1e39f79dd41b9a003e251360c4',1,'MR::MeshSave::CtmSaveOptions']]],
-  ['vertforms_9',['vertForms',['../structMR_1_1DecimateSettings.html#a8a682d43b723098485a748e97bd12111',1,'MR::DecimateSettings::vertForms()'],['../structMR_1_1DecimatePolylineSettings.html#a3b25e672e4446e2af56927c0cf0237db',1,'MR::DecimatePolylineSettings::vertForms()']]],
-  ['vertid_10',['vertId',['../structMR_1_1VertPair.html#ae6239c50e9f906f24298e97baafcfd73',1,'MR::VertPair']]],
-  ['vertnormals_11',['vertNormals',['../structMR_1_1MeshNormals.html#a9415ae7311347805d0b725c9a07ef5ea',1,'MR::MeshNormals']]],
-  ['vertscolormap_5f_12',['vertsColorMap_',['../classMR_1_1VisualObject.html#abe95051135f3ebbc784ad854b11cb36e',1,'MR::VisualObject']]],
-  ['vertsdeleted_13',['vertsDeleted',['../structMR_1_1DecimateResult.html#a0150f587c1f6e81b22cf7cf1194daedd',1,'MR::DecimateResult::vertsDeleted()'],['../structMR_1_1DecimatePolylineResult.html#af042d52b52cb89cb1dbf4a779d82f3c6',1,'MR::DecimatePolylineResult::vertsDeleted()']]],
-  ['verttag_14',['VertTag',['../namespaceMR.html#aa92378bf233fad3fbb22ac30f72ea71e',1,'MR']]],
-  ['viewmatrixptr_15',['viewMatrixPtr',['../structMR_1_1BaseRenderParams.html#a59f415d54441db86c692ce64d7dfa52e',1,'MR::BaseRenderParams']]],
-  ['viewport_16',['viewport',['../structMR_1_1BaseRenderParams.html#aabb1d7dfa544bd6cb1d98a79a8d036a9',1,'MR::BaseRenderParams']]],
-  ['viewportid_17',['viewportId',['../structMR_1_1BaseRenderParams.html#adf952473500110be7f693c5d725f6fde',1,'MR::BaseRenderParams']]],
-  ['visibilitymask_5f_18',['visibilityMask_',['../classMR_1_1Object.html#ae98466115f6fa8989c8628ff6ec54e9e',1,'MR::Object']]],
-  ['vmap_19',['vmap',['../structMR_1_1MeshBuilder_1_1MeshPiece.html#a0e2772f29127c4ade3e9c174019fa545',1,'MR::MeshBuilder::MeshPiece']]],
-  ['voxelsexpansion_20',['voxelsExpansion',['../structMR_1_1VolumeSegmentationParameters.html#aa059718068f7c4b81e33e2a1a3e7460c',1,'MR::VolumeSegmentationParameters']]],
-  ['voxelsize_21',['voxelSize',['../structMR_1_1MeshVoxelsConverter.html#aff9a0bc144c30c521df635ba7c3ae056',1,'MR::MeshVoxelsConverter::voxelSize()'],['../structMR_1_1OffsetParameters.html#a0baf758ad446a49b4f48cc5838c2fce8',1,'MR::OffsetParameters::voxelSize()'],['../structMR_1_1SimpleVolume.html#ab31bcafaf05771b76501d7e60b91861a',1,'MR::SimpleVolume::voxelSize()'],['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afd3e66a2e50b601320d9254e884691dd',1,'MR::VoxelsLoad::RawParameters::voxelSize()']]],
-  ['voxeltag_22',['VoxelTag',['../namespaceMR.html#a643d3f06a57ec77e78fffeee6a27fc3d',1,'MR']]]
+  ['u_0',['u',['../structMR_1_1UVCoord.html#a0f90ace88686619cd04ca86effa03b96',1,'MR::UVCoord']]],
+  ['undirectededgetag_1',['UndirectedEdgeTag',['../namespaceMR.html#a1bbe6aa7d7136f740286af86f591c19b',1,'MR']]],
+  ['unselectedcolor_5f_2',['unselectedColor_',['../classMR_1_1VisualObject.html#a35b78ae6c06077adc7f315d67e362824',1,'MR::VisualObject']]],
+  ['updirection_3',['upDirection',['../structMR_1_1VerticalStitchMetric.html#a3ee71cdbba129e2bca75cdbd5a2702f3',1,'MR::VerticalStitchMetric']]],
+  ['usecurvature_4',['useCurvature',['../structMR_1_1RemeshSettings.html#a58fc77c6b836083eab39f95b271080e8',1,'MR::RemeshSettings::useCurvature()'],['../structMR_1_1SubdivideSettings.html#ae427cb9cf0998a6a40ac2e3904a27c4d',1,'MR::SubdivideSettings::useCurvature()']]],
+  ['usedistancelimits_5',['useDistanceLimits',['../structMR_1_1MeshToDistanceMapParams.html#ace32ee073907bc00f51a76ba214f6d3c',1,'MR::MeshToDistanceMapParams']]],
+  ['uvcoordinates_5f_6',['uvCoordinates_',['../classMR_1_1VisualObject.html#a458d4860efbd07424863c743f8f0774f',1,'MR::VisualObject']]]
 ];

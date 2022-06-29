@@ -8,5 +8,7 @@ var searchData=
   ['affinexf_5',['AffineXf',['../structMR_1_1AffineXf.html',1,'MR']]],
   ['affinexf_3c_20double_20_3e_6',['AffineXf&lt; double &gt;',['../structMR_1_1AffineXf.html',1,'MR']]],
   ['affinexf_3c_20float_20_3e_7',['AffineXf&lt; float &gt;',['../structMR_1_1AffineXf.html',1,'MR']]],
-  ['amendment_8',['Amendment',['../structMR_1_1PointToPlaneAligningTransform_1_1Amendment.html',1,'MR::PointToPlaneAligningTransform']]]
+  ['alphasortgl_8',['AlphaSortGL',['../classMR_1_1AlphaSortGL.html',1,'MR']]],
+  ['amendment_9',['Amendment',['../structMR_1_1PointToPlaneAligningTransform_1_1Amendment.html',1,'MR::PointToPlaneAligningTransform']]],
+  ['asynctimer_10',['AsyncTimer',['../classMR_1_1AsyncTimer.html',1,'MR']]]
 ];

@@ -5,8 +5,15 @@ var searchData=
   ['decimatepolylinesettings_2',['DecimatePolylineSettings',['../structMR_1_1DecimatePolylineSettings.html',1,'MR']]],
   ['decimateresult_3',['DecimateResult',['../structMR_1_1DecimateResult.html',1,'MR']]],
   ['decimatesettings_4',['DecimateSettings',['../structMR_1_1DecimateSettings.html',1,'MR']]],
-  ['densebox_5',['DenseBox',['../structMR_1_1DenseBox.html',1,'MR']]],
-  ['distancemap_6',['DistanceMap',['../classMR_1_1DistanceMap.html',1,'MR']]],
-  ['distancemaptoworld_7',['DistanceMapToWorld',['../structMR_1_1DistanceMapToWorld.html',1,'MR']]],
-  ['distmapimprovedirectionparameters_8',['DistMapImproveDirectionParameters',['../structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html',1,'MR::FixUndercuts']]]
+  ['defaultsplashwindow_5',['DefaultSplashWindow',['../classMR_1_1DefaultSplashWindow.html',1,'MR']]],
+  ['demoplugin_6',['DemoPlugin',['../classMR_1_1DemoPlugin.html',1,'MR']]],
+  ['densebox_7',['DenseBox',['../structMR_1_1DenseBox.html',1,'MR']]],
+  ['dialogitemptr_8',['DialogItemPtr',['../structMR_1_1RibbonMenu_1_1DialogItemPtr.html',1,'MR::RibbonMenu']]],
+  ['distancemap_9',['DistanceMap',['../classMR_1_1DistanceMap.html',1,'MR']]],
+  ['distancemaptoworld_10',['DistanceMapToWorld',['../structMR_1_1DistanceMapToWorld.html',1,'MR']]],
+  ['distmapimprovedirectionparameters_11',['DistMapImproveDirectionParameters',['../structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html',1,'MR::FixUndercuts']]],
+  ['dragdroplistener_12',['DragDropListener',['../structMR_1_1DragDropListener.html',1,'MR']]],
+  ['drawbuttonparams_13',['DrawButtonParams',['../structMR_1_1DrawButtonParams.html',1,'MR']]],
+  ['drawgroupconfig_14',['DrawGroupConfig',['../structMR_1_1RibbonMenu_1_1DrawGroupConfig.html',1,'MR::RibbonMenu']]],
+  ['drawlistener_15',['DrawListener',['../structMR_1_1DrawListener.html',1,'MR']]]
 ];

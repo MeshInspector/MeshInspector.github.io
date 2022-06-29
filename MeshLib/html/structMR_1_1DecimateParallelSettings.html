@@ -124,6 +124,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a6e41465250059b31e3c4806da1d55fea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateParallelSettings.html#a6e41465250059b31e3c4806da1d55fea">region</a> = nullptr</td></tr>
 <tr class="memdesc:a6e41465250059b31e3c4806da1d55fea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Region on mesh to be decimated, it is updated during the operation.  <a href="structMR_1_1DecimateParallelSettings.html#a6e41465250059b31e3c4806da1d55fea">More...</a><br /></td></tr>
 <tr class="separator:a6e41465250059b31e3c4806da1d55fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e1e192817007b17434540ed6c973249"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateParallelSettings.html#a6e1e192817007b17434540ed6c973249">touchBdVertices</a> = true</td></tr>
+<tr class="memdesc:a6e1e192817007b17434540ed6c973249"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to allow collapsing edges having at least one vertex on (region) boundary.  <a href="structMR_1_1DecimateParallelSettings.html#a6e1e192817007b17434540ed6c973249">More...</a><br /></td></tr>
+<tr class="separator:a6e1e192817007b17434540ed6c973249"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe984fd10e92e60449cdb1c3e409bdbc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateParallelSettings.html#abe984fd10e92e60449cdb1c3e409bdbc">subdivideParts</a> = 32</td></tr>
 <tr class="memdesc:abe984fd10e92e60449cdb1c3e409bdbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subdivides mesh on given number of parts to process them in parallel.  <a href="structMR_1_1DecimateParallelSettings.html#abe984fd10e92e60449cdb1c3e409bdbc">More...</a><br /></td></tr>
 <tr class="separator:abe984fd10e92e60449cdb1c3e409bdbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -311,6 +314,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Subdivides mesh on given number of parts to process them in parallel. </p>
+
+</div>
+</div>
+<a id="a6e1e192817007b17434540ed6c973249" name="a6e1e192817007b17434540ed6c973249"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e1e192817007b17434540ed6c973249">&#9670;&nbsp;</a></span>touchBdVertices</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::DecimateParallelSettings::touchBdVertices = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Whether to allow collapsing edges having at least one vertex on (region) boundary. </p>
 
 </div>
 </div>

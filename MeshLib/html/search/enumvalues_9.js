@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['name_0',['Name',['../structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0ab72b78c3e9e37ca07d93dccb6678f264',1,'MR::VisualizeMaskType']]],
-  ['no_1',['No',['../classMR_1_1Laplacian.html#a67c8dfc7669f41712a92d21d5ec99fedabafd7322c6e97d25b6299b5d6fe8920b',1,'MR::Laplacian']]],
-  ['none_2',['None',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a6adf97f83acf6453d4a6a4b1070f3754',1,'MR::FillHoleParams::None()'],['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69da6adf97f83acf6453d4a6a4b1070f3754',1,'MR::MeshSave::CtmSaveOptions::None()'],['../group__VoxelPathGroup.html#ggae7c8689563553fe7686bd6b71ddf8f18aa1f9f6e1b4f1f951f67ebeb0c69e1dd4',1,'MR::None()']]],
-  ['normal_3',['Normal',['../structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178a960b44c579bc2f6818d2daaf9e4c16f0',1,'MR::ContoursDistanceMapOffset']]]
+  ['keydown_0',['KeyDown',['../classMR_1_1ShortcutManager.html#a1a85baae28af51cf7825c2099b693c1bacfd07bf1effd88bca04a12a087777354',1,'MR::ShortcutManager::KeyDown()'],['../classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0acfd07bf1effd88bca04a12a087777354',1,'MR::Viewer::KeyDown()']]],
+  ['keyrepeat_1',['KeyRepeat',['../classMR_1_1ShortcutManager.html#a1a85baae28af51cf7825c2099b693c1ba4a18f6017ff7015424784e907c933572',1,'MR::ShortcutManager::KeyRepeat()'],['../classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0a4a18f6017ff7015424784e907c933572',1,'MR::Viewer::KeyRepeat()']]],
+  ['keyup_2',['KeyUp',['../classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0a0f8baa14654b1f6ef00fed708c7f198a',1,'MR::Viewer']]]
 ];

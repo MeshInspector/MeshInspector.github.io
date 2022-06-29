@@ -22,6 +22,7 @@ var classMR_1_1MeshTopology =
     [ "edgeSize", "classMR_1_1MeshTopology.html#a59e61393e26970b19791a726b212a1b8", null ],
     [ "edgeWithLeft", "classMR_1_1MeshTopology.html#a75ce403909333e95eca530fcf3d62e2b", null ],
     [ "edgeWithOrg", "classMR_1_1MeshTopology.html#a9b3a2bd65395c6f2d0aff6bb16c8a3b6", null ],
+    [ "excludeLoneEdges", "classMR_1_1MeshTopology.html#addcf4c5e6460cd0ef1247b87c0a080a5", null ],
     [ "faceReserve", "classMR_1_1MeshTopology.html#a26bf81ee58d7f26387953a726a08f0a7", null ],
     [ "faceResize", "classMR_1_1MeshTopology.html#a2a22972e251180aa6466d2ea6c6f6b80", null ],
     [ "faceSize", "classMR_1_1MeshTopology.html#a9caed84ef0fe1c701ce090f00d05593a", null ],

@@ -1,19 +1,11 @@
 var searchData=
 [
-  ['setbititerator_0',['SetBitIterator',['../namespaceMR.html#a72121ddf3f962182a0cd896a72cbce55',1,'MR']]],
-  ['sm_1',['SM',['../structMR_1_1QuadraticForm.html#adea6aa750372ae79cb7d305a5f939f50',1,'MR::QuadraticForm']]],
-  ['stderrpyredirector_2',['StderrPyRedirector',['../MRPython_8h.html#a7d823176353acbb146f4705c0dcfdf90',1,'MRPython.h']]],
-  ['stdoutpyredirector_3',['StdoutPyRedirector',['../MRPython_8h.html#a26ab96a77d3875cbc3c3f79cd7ee64ef',1,'MRPython.h']]],
-  ['surfacepath_4',['SurfacePath',['../namespaceMR.html#a6f060a604c3462c7d0b1df7dac703237',1,'MR']]],
-  ['symmatrix2b_5',['SymMatrix2b',['../namespaceMR.html#a5c5b52f873a2b408d77c388c89241af7',1,'MR']]],
-  ['symmatrix2d_6',['SymMatrix2d',['../namespaceMR.html#a4af2c95556762f91dfcfc42c3579d358',1,'MR']]],
-  ['symmatrix2f_7',['SymMatrix2f',['../namespaceMR.html#ad30743f12ed98db94cd0dea39ebdcdd4',1,'MR']]],
-  ['symmatrix2i_8',['SymMatrix2i',['../namespaceMR.html#a062ee1f24ededa5cc84820a0b5722425',1,'MR']]],
-  ['symmatrix2ll_9',['SymMatrix2ll',['../namespaceMR.html#a7a9dc3b8baf0deefef791e8c5fa73026',1,'MR']]],
-  ['symmatrix3b_10',['SymMatrix3b',['../namespaceMR.html#a2e91810c6515f3d4f6b0174b770b51a8',1,'MR']]],
-  ['symmatrix3d_11',['SymMatrix3d',['../namespaceMR.html#ac29d48e7aec683ecb8b312ae5fe44c6f',1,'MR']]],
-  ['symmatrix3f_12',['SymMatrix3f',['../namespaceMR.html#a7eb9d5ed9d7a2dfe0b2b02305f150223',1,'MR']]],
-  ['symmatrix3i_13',['SymMatrix3i',['../namespaceMR.html#a3d58fd19741842a8b4279de73692c004',1,'MR']]],
-  ['symmatrix3ll_14',['SymMatrix3ll',['../namespaceMR.html#a2ebb8410aff0ae6e4457f4b994b2db0f',1,'MR']]],
-  ['symmatrixtype_15',['SymMatrixType',['../structMR_1_1Vector2.html#aad35960bf4d5a0eefd7945e6e6bf768c',1,'MR::Vector2::SymMatrixType()'],['../structMR_1_1Vector3.html#a1be16f68d003d1fe45b63bd915d50bff',1,'MR::Vector3::SymMatrixType()']]]
+  ['quadraticform2_0',['QuadraticForm2',['../namespaceMR.html#a678a30e8ebc8b7fabb2836c6dbf5023b',1,'MR']]],
+  ['quadraticform2d_1',['QuadraticForm2d',['../namespaceMR.html#adbe44a0e8d9539bee51a7dae17c26666',1,'MR']]],
+  ['quadraticform2f_2',['QuadraticForm2f',['../namespaceMR.html#a230d3289b57acf5d5f652b55eb24fac8',1,'MR']]],
+  ['quadraticform3_3',['QuadraticForm3',['../namespaceMR.html#a9763e18ece139535348fd6da581b43d9',1,'MR']]],
+  ['quadraticform3d_4',['QuadraticForm3d',['../namespaceMR.html#a05e6d8111368df7e2e58344ee4074fc9',1,'MR']]],
+  ['quadraticform3f_5',['QuadraticForm3f',['../namespaceMR.html#a03bea4c1686b4e77a996eb13fd1d4bb7',1,'MR']]],
+  ['quaterniond_6',['Quaterniond',['../namespaceMR.html#ad60a2db75b523a56062be012471ae85d',1,'MR']]],
+  ['quaternionf_7',['Quaternionf',['../namespaceMR.html#ad42cb243cfba827bb9d521ba1f9a0a70',1,'MR']]]
 ];

@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['t_0',['T',['../structMR_1_1AffineXf.html#a122798f44f02f88d6fceeddd3f296c0c',1,'MR::AffineXf::T()'],['../structMR_1_1Box.html#afc09ec552867bc199cca1653871f40eb',1,'MR::Box::T()'],['../structMR_1_1LineSegm.html#a3257b02c520c257af06a8750951851e6',1,'MR::LineSegm::T()'],['../structMR_1_1QuadraticForm.html#a040faabf3a0fafc7f0a8afadd3108d2a',1,'MR::QuadraticForm::T()']]],
-  ['threepoints_1',['ThreePoints',['../namespaceMR_1_1MeshBuilder.html#a0e065a70cebc7ee264073abe27652c86',1,'MR::MeshBuilder']]],
-  ['traits_2',['Traits',['../classMR_1_1AABBTreePolyline.html#a7f96860dc1daeee5853645f1fecdeca7',1,'MR::AABBTreePolyline']]],
-  ['trianglecornernormals_3',['TriangleCornerNormals',['../group__MeshNormalsGroup.html#ga3c2d5e3b20c6317d67f3a3e5847a13d9',1,'MR']]],
-  ['tripointd_4',['TriPointd',['../namespaceMR.html#a3928bf55d6ab85ff0bc8ff5accfe4d0c',1,'MR']]],
-  ['tripointf_5',['TriPointf',['../namespaceMR.html#abe916bf46259db0a67f17649f44a47d4',1,'MR']]]
+  ['reference_0',['reference',['../classMR_1_1SetBitIteratorT.html#a680dec55a3b2c4c1c9bf339ab88fe367',1,'MR::SetBitIteratorT::reference()'],['../classMR_1_1Vector.html#a3e5aedaea3719bcb3fd6e41e9c9225ff',1,'MR::Vector::reference()']]],
+  ['regulargridlatticepositioner_1',['RegularGridLatticePositioner',['../namespaceMR.html#a897aaf7b23431c42ebdbe70fcfdf3e04',1,'MR']]],
+  ['regulargridlatticevalidator_2',['RegularGridLatticeValidator',['../namespaceMR.html#a9588eb75c9c1eabf3705ee7fea8958a8',1,'MR']]],
+  ['rendersignal_3',['RenderSignal',['../classMR_1_1Viewer.html#a0feb0d244ebf3015b8ed14e68ebb5f12',1,'MR::Viewer']]],
+  ['result_5ftype_4',['result_type',['../structMR_1_1Viewer_1_1SignalStopHandler.html#a2081bf492c269c66a3028f263ca499ab',1,'MR::Viewer::SignalStopHandler']]]
 ];

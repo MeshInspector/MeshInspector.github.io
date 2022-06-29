@@ -7,8 +7,6 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRAABBTreeNode.h", "MRAABBTreeNode_8h.html", "MRAABBTreeNode_8h" ],
     [ "MRAABBTreePoints.h", "MRAABBTreePoints_8h.html", "MRAABBTreePoints_8h" ],
     [ "MRAABBTreePolyline.h", "MRAABBTreePolyline_8h.html", null ],
-    [ "MRAABBTreePolyline2.h", "MRAABBTreePolyline2_8h.html", null ],
-    [ "MRAABBTreePolyline3.h", "MRAABBTreePolyline3_8h.html", null ],
     [ "MRAffineXf.h", "MRAffineXf_8h.html", null ],
     [ "MRAffineXf2.h", "MRAffineXf2_8h.html", null ],
     [ "MRAffineXf3.h", "MRAffineXf3_8h.html", "MRAffineXf3_8h" ],
@@ -178,6 +176,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRPolylineDecimate.h", "MRPolylineDecimate_8h.html", "MRPolylineDecimate_8h" ],
     [ "MRPolylineEdgeIterator.h", "MRPolylineEdgeIterator_8h.html", null ],
     [ "MRPolylineProject.h", "MRPolylineProject_8h.html", "MRPolylineProject_8h" ],
+    [ "MRPolylineSubdivide.h", "MRPolylineSubdivide_8h.html", "MRPolylineSubdivide_8h" ],
     [ "MRPolylineTopology.h", "MRPolylineTopology_8h.html", null ],
     [ "MRPositionedText.h", "MRPositionedText_8h.html", "MRPositionedText_8h" ],
     [ "MRPositionVertsSmoothly.h", "MRPositionVertsSmoothly_8h.html", "MRPositionVertsSmoothly_8h" ],
@@ -240,5 +239,6 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRVoxelsLoad.h", "MRVoxelsLoad_8h.html", "MRVoxelsLoad_8h" ],
     [ "MRVoxelsSave.h", "MRVoxelsSave_8h.html", "MRVoxelsSave_8h" ],
     [ "MRVoxelsVolume.h", "MRVoxelsVolume_8h.html", "MRVoxelsVolume_8h" ],
+    [ "MRWriter.h", "MRWriter_8h.html", "MRWriter_8h" ],
     [ "MRXfBasedCache.h", "MRXfBasedCache_8h.html", null ]
 ];

@@ -18,6 +18,7 @@ var modules =
     [ "PointCloud", "group__PointCloudGroup.html", "group__PointCloudGroup" ],
     [ "PointCloud triangulation overview", "group__PointCloudTriangulationGroup.html", "group__PointCloudTriangulationGroup" ],
     [ "Polyline", "group__PolylineGroup.html", "group__PolylineGroup" ],
+    [ "Polyline Subdivide", "group__PolylineSubdivideGroup.html", "group__PolylineSubdivideGroup" ],
     [ "PrecisePredicates3", "group__PrecisePredicates3.html", "group__PrecisePredicates3" ],
     [ "Voxel", "group__VoxelGroup.html", "group__VoxelGroup" ],
     [ "Points Load", "group__PointsLoadGroup.html", null ]

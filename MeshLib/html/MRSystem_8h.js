@@ -7,8 +7,8 @@ var MRSystem_8h =
     [ "GetMRVersionString", "MRSystem_8h.html#ac6f40535c1b612f6ce24e70b7ee28a36", null ],
     [ "GetResourcesDirectory", "MRSystem_8h.html#a1d6fd316711783f671ffebc9eac9042a", null ],
     [ "GetTempDirectory", "MRSystem_8h.html#a4ba1f8b8dda149d741c79f6ca5c6f2ba", null ],
-    [ "getUserConfigDir", "MRSystem_8h.html#a9df721b257c3a3c29042e768155b830e", null ],
-    [ "getUserConfigFilePath", "MRSystem_8h.html#a4d72bfdb102446c0d9d35b97c9132184", null ],
+    [ "getUserConfigDir", "MRSystem_8h.html#ac8ef1e5eb550d8cb502e7a5a5ac8c038", null ],
+    [ "getUserConfigFilePath", "MRSystem_8h.html#a77dbe991d4f1d8a2b0ffd3ed1e1320bb", null ],
     [ "OpenLink", "MRSystem_8h.html#aec820d50ac448217d66131a079fce39a", null ],
     [ "SetCurrentThreadName", "MRSystem_8h.html#abc117ae5bf8ce3683d73b2fc8e37cde1", null ]
 ];

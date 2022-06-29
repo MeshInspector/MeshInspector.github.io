@@ -111,8 +111,11 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:aff0af54aeab721522fe62a3eab94a74d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of edge splits allowed.  <a href="structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d">More...</a><br /></td></tr>
 <tr class="separator:aff0af54aeab721522fe62a3eab94a74d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf497f2181525852eaeee09ce71fb476"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476">maxDeviationAfterFlip</a> = 1</td></tr>
-<tr class="memdesc:adf497f2181525852eaeee09ce71fb476"><td class="mdescLeft">&#160;</td><td class="mdescRight">Improves local mesh triangulation after each edge flip if it does not make too big surface deviation.  <a href="structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476">More...</a><br /></td></tr>
+<tr class="memdesc:adf497f2181525852eaeee09ce71fb476"><td class="mdescLeft">&#160;</td><td class="mdescRight">Improves local mesh triangulation by doing edge flips if it does not make too big surface deviation.  <a href="structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476">More...</a><br /></td></tr>
 <tr class="separator:adf497f2181525852eaeee09ce71fb476"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac22dd26860cd94e68e46004cd88fc7ce"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#ac22dd26860cd94e68e46004cd88fc7ce">maxAngleChangeAfterFlip</a> = 10</td></tr>
+<tr class="memdesc:ac22dd26860cd94e68e46004cd88fc7ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Improves local mesh triangulation by doing edge flips if it does change dihedral angle more than on this value.  <a href="structMR_1_1SubdivideSettings.html#ac22dd26860cd94e68e46004cd88fc7ce">More...</a><br /></td></tr>
+<tr class="separator:ac22dd26860cd94e68e46004cd88fc7ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e24bf5e1bf140cdfac3cc68b9a693fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#a5e24bf5e1bf140cdfac3cc68b9a693fa">region</a> = nullptr</td></tr>
 <tr class="memdesc:a5e24bf5e1bf140cdfac3cc68b9a693fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Region on mesh to be subdivided, it is updated during the operation.  <a href="structMR_1_1SubdivideSettings.html#a5e24bf5e1bf140cdfac3cc68b9a693fa">More...</a><br /></td></tr>
 <tr class="separator:a5e24bf5e1bf140cdfac3cc68b9a693fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,6 +126,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a9288f9c5670484c0f76b53be1311b3cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9aec10f3fcab4053b13de2d25f10f311"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#a9aec10f3fcab4053b13de2d25f10f311">critAspectRatio</a> = 20.0f</td></tr>
 <tr class="separator:a9aec10f3fcab4053b13de2d25f10f311"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae427cb9cf0998a6a40ac2e3904a27c4d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#ae427cb9cf0998a6a40ac2e3904a27c4d">useCurvature</a> = false</td></tr>
+<tr class="separator:ae427cb9cf0998a6a40ac2e3904a27c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e8653d42d8358f40dca297f675d4111"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#a9e8653d42d8358f40dca297f675d4111">onVertCreated</a></td></tr>
 <tr class="memdesc:a9e8653d42d8358f40dca297f675d4111"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time a new vertex has been created, but before the ring is made Delone  <a href="structMR_1_1SubdivideSettings.html#a9e8653d42d8358f40dca297f675d4111">More...</a><br /></td></tr>
 <tr class="separator:a9e8653d42d8358f40dca297f675d4111"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,6 +149,22 @@ this parameter prevents subdivision of such triangles </p>
 
 </div>
 </div>
+<a id="ac22dd26860cd94e68e46004cd88fc7ce" name="ac22dd26860cd94e68e46004cd88fc7ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac22dd26860cd94e68e46004cd88fc7ce">&#9670;&nbsp;</a></span>maxAngleChangeAfterFlip</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::SubdivideSettings::maxAngleChangeAfterFlip = 10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Improves local mesh triangulation by doing edge flips if it does change dihedral angle more than on this value. </p>
+
+</div>
+</div>
 <a id="adf497f2181525852eaeee09ce71fb476" name="adf497f2181525852eaeee09ce71fb476"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adf497f2181525852eaeee09ce71fb476">&#9670;&nbsp;</a></span>maxDeviationAfterFlip</h2>
 
@@ -156,7 +177,7 @@ this parameter prevents subdivision of such triangles </p>
       </table>
 </div><div class="memdoc">
 
-<p>Improves local mesh triangulation after each edge flip if it does not make too big surface deviation. </p>
+<p>Improves local mesh triangulation by doing edge flips if it does not make too big surface deviation. </p>
 
 </div>
 </div>
@@ -253,6 +274,21 @@ this parameter prevents subdivision of such triangles </p>
 </div><div class="memdoc">
 <p >If false do not touch border edges (cannot subdivide lone faces)<br  />
 use <a class="el" href="namespaceMR.html#a14819584da09eac6df2cab459ab80626">MR::findRegionOuterFaces</a> to find boundary faces </p>
+
+</div>
+</div>
+<a id="ae427cb9cf0998a6a40ac2e3904a27c4d" name="ae427cb9cf0998a6a40ac2e3904a27c4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae427cb9cf0998a6a40ac2e3904a27c4d">&#9670;&nbsp;</a></span>useCurvature</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::SubdivideSettings::useCurvature = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >This option works best for natural surfaces, where all triangles are close to equilateral and have similar area, and no sharp edges in between </p>
 
 </div>
 </div>

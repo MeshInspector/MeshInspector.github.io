@@ -8,6 +8,7 @@ var classMR_1_1Vector =
     [ "Vector", "classMR_1_1Vector.html#a82b8f4fd65647fe41d621389b1935c6a", null ],
     [ "Vector", "classMR_1_1Vector.html#ac68e153a1cf7d72f90f9af6be0555d6e", null ],
     [ "Vector", "classMR_1_1Vector.html#a68a6c5f7f0cebdd11e11ced071dad1bd", null ],
+    [ "Vector", "classMR_1_1Vector.html#a677df0d98b9a3abfc0733796f1c56c7d", null ],
     [ "autoResizeAt", "classMR_1_1Vector.html#ad299fc3dd6b4e453a459e88fe9aadd31", null ],
     [ "back", "classMR_1_1Vector.html#aa4bcfcbca3642d15aa0cdec1055c4472", null ],
     [ "back", "classMR_1_1Vector.html#afe49f6b723cf6b2b08dfe4d50ddd1c53", null ],

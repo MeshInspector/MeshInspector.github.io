@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['objectselectivitytype_0',['ObjectSelectivityType',['../group__DataModelGroup.html#ga1ab156c0351dfcd112a67a72e485f123',1,'MR']]],
-  ['offsettype_1',['OffsetType',['../structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178',1,'MR::ContoursDistanceMapOffset']]],
-  ['outedge_2',['OutEdge',['../group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e',1,'MR']]],
-  ['outedge2_3',['OutEdge2',['../group__DistanceMapGroup.html#gab7acb4543154d042c297e5823fb633b6',1,'MR']]]
+  ['mapobject_0',['MapObject',['../structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587',1,'MR::BooleanResultMapper']]],
+  ['masktype_1',['MaskType',['../classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457',1,'MR::MarkedVoxelSlice']]],
+  ['meshcompression_2',['MeshCompression',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69d',1,'MR::MeshSave::CtmSaveOptions']]],
+  ['mousebutton_3',['MouseButton',['../namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d',1,'MR']]],
+  ['mousemode_4',['MouseMode',['../namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75',1,'MR']]],
+  ['multipleedgesresolvemode_5',['MultipleEdgesResolveMode',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301',1,'MR::FillHoleParams']]]
 ];

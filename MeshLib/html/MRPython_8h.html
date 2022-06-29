@@ -273,10 +273,11 @@ Enumerations</h2></td></tr>
 <div class="line">    using vecType = std::vector&lt;type&gt;;\</div>
 <div class="line">    pybind11::bind_vector&lt;vecType&gt;(m, #name ).\</div>
 <div class="line">        def( <span class="stringliteral">&quot;empty&quot;</span>, &amp;vecType::empty ).\</div>
-<div class="line">        def( <span class="stringliteral">&quot;size&quot;</span>, &amp;vecType::size ).\</div>
+<div class="line">        def( <span class="stringliteral">&quot;size&quot;</span>, &amp;<a class="code hl_function" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">vecType::size</a> ).\</div>
 <div class="line">        def( <span class="stringliteral">&quot;resize&quot;</span>, ( <span class="keywordtype">void</span> ( vecType::* )( <span class="keyword">const</span> vecType::size_type ) )&amp; vecType::resize ).\</div>
 <div class="line">        def( <span class="stringliteral">&quot;clear&quot;</span>, &amp;vecType::clear ); \</div>
 <div class="line">} )</div>
+<div class="ttc" id="anamespaceMR_html_a306ff1f62992b3eb33c446913b64188a"><div class="ttname"><a href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">MR::size</a></div><div class="ttdeci">ImVec2 size(const ViewportRectangle &amp;rect)</div><div class="ttdef"><b>Definition:</b> MRViewport.h:91</div></div>
 </div><!-- fragment -->
 </div>
 </div>

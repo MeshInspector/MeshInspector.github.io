@@ -1,26 +1,4 @@
 var searchData=
 [
-  ['m_0',['M',['../structMR_1_1AffineXf.html#a60960f9da874c4087c143336fbbd23ee',1,'MR::AffineXf']]],
-  ['matrix2b_1',['Matrix2b',['../namespaceMR.html#ac716f573fc88259d2707e4228ee9e1eb',1,'MR']]],
-  ['matrix2d_2',['Matrix2d',['../namespaceMR.html#aea7cd13a8f7d71423521538865bb834e',1,'MR']]],
-  ['matrix2f_3',['Matrix2f',['../namespaceMR.html#af6a806d77496ecb1dee341076326d52a',1,'MR']]],
-  ['matrix2i_4',['Matrix2i',['../namespaceMR.html#a2c6024bfa1adf4be53e84f243b42780e',1,'MR']]],
-  ['matrix2ll_5',['Matrix2ll',['../namespaceMR.html#ae6903552fade5f7b2fc757f7e3b05145',1,'MR']]],
-  ['matrix3b_6',['Matrix3b',['../namespaceMR.html#a6ffbb0d7c87e87125dbf45f1e265eb31',1,'MR']]],
-  ['matrix3d_7',['Matrix3d',['../namespaceMR.html#a564eaaa20140828d6dffbb80625b9f85',1,'MR']]],
-  ['matrix3f_8',['Matrix3f',['../namespaceMR.html#a74baff465e4766087e453565c29e0e20',1,'MR']]],
-  ['matrix3i_9',['Matrix3i',['../namespaceMR.html#ab8d59ac12ebe8e23fa7d44736b76ad58',1,'MR']]],
-  ['matrix3ll_10',['Matrix3ll',['../namespaceMR.html#a41d0c57745257bf847b53f0035f6c565',1,'MR']]],
-  ['matrix4b_11',['Matrix4b',['../namespaceMR.html#ad3f0136040263375ba1cb3eea4e4b1e3',1,'MR']]],
-  ['matrix4d_12',['Matrix4d',['../namespaceMR.html#acbb6908a1b743b5093e0b02d298c9108',1,'MR']]],
-  ['matrix4f_13',['Matrix4f',['../namespaceMR.html#a43ef0764cd83746eed388c528aae8bae',1,'MR']]],
-  ['matrix4i_14',['Matrix4i',['../namespaceMR.html#a2e362f2653d79f0afb4b153e91c68f85',1,'MR']]],
-  ['matrix4ll_15',['Matrix4ll',['../namespaceMR.html#ae81ba7994cccc039a9d77b8f0bc84dcf',1,'MR']]],
-  ['matrixtype_16',['MatrixType',['../structMR_1_1Vector2.html#a74579bfbb9d532d53c66684a02dc8cb5',1,'MR::Vector2::MatrixType()'],['../structMR_1_1Vector3.html#a7c629d81f031f089ef5fb3ea45689ea5',1,'MR::Vector3::MatrixType()'],['../structMR_1_1Vector4.html#aecd18b3e13e9b87796242a04883f0592',1,'MR::Vector4::MatrixType()']]],
-  ['meshchangedsignal_17',['MeshChangedSignal',['../classMR_1_1ObjectMesh.html#a4ba89c278f58751766ff9e7b8f401786',1,'MR::ObjectMesh']]],
-  ['meshintersectioncallback_18',['MeshIntersectionCallback',['../group__AABBTreeGroup.html#gab84b0b767274335b6f0f59bbb9537fe3',1,'MR']]],
-  ['meshlabel_19',['MeshLabel',['../namespaceMR.html#a982cd6fff1d0180a620b11bb007db1d2',1,'MR']]],
-  ['meshloader_20',['MeshLoader',['../group__IOFormatsRegistryGroup.html#gad4bc1a150cf6b5dbec778cc11074ce75',1,'MR::MeshLoad']]],
-  ['meshstreamloader_21',['MeshStreamLoader',['../group__IOFormatsRegistryGroup.html#ga9c909798598d20fd0aae2cfd4b13575c',1,'MR::MeshLoad']]],
-  ['multipleedge_22',['MultipleEdge',['../group__MeshFixerGroup.html#ga807cd3d017d23c56a0f6ea1cb1f7c8cb',1,'MR']]]
+  ['keysignal_0',['KeySignal',['../classMR_1_1Viewer.html#a1e7b5d040663db04b5ee435db17f41df',1,'MR::Viewer']]]
 ];

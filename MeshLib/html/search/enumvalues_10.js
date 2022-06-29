@@ -1,15 +1,20 @@
 var searchData=
 [
-  ['uint16_0',['UInt16',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529ba8bd950a9d7779b83f5c30046c9aaf1cf',1,'MR::VoxelsLoad::RawParameters']]],
-  ['uint32_1',['UInt32',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bae7956ed7be1c5025a27ed3cb42a396bd',1,'MR::VoxelsLoad::RawParameters']]],
-  ['uint64_2',['UInt64',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529baaf71234725f0470ccf993e263a8b820a',1,'MR::VoxelsLoad::RawParameters']]],
-  ['uint8_3',['UInt8',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bab31df9c476d20e85ff898121efe11b5a',1,'MR::VoxelsLoad::RawParameters']]],
-  ['undo_4',['Undo',['../classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7a1cdc076b28f70afac5fcedadf99fa119',1,'MR::HistoryAction::Undo()'],['../classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a1cdc076b28f70afac5fcedadf99fa119',1,'MR::HistoryStore::Undo()']]],
-  ['union_5',['Union',['../group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdaaef12e903e606a4895a16b393bfdec8c',1,'MR']]],
-  ['unit_6',['Unit',['../classMR_1_1Laplacian.html#a40fcda9e6b8208959a3204e274784b18a19c562a36aeb455d09534f93b4f5236f',1,'MR::Laplacian']]],
-  ['unselectedobjectdistancemap_7',['UnselectedObjectDistanceMap',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aad2861ea5be4d6def67d2bf7855296343',1,'MR::SceneColors']]],
-  ['unselectedobjectlines_8',['UnselectedObjectLines',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa67751013dcf075c12bcc178994f75a36',1,'MR::SceneColors']]],
-  ['unselectedobjectmesh_9',['UnselectedObjectMesh',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa736ebf30fa5a88ee5cbede49aecbc3ef',1,'MR::SceneColors']]],
-  ['unselectedobjectpoints_10',['UnselectedObjectPoints',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa4cd917c98a34d56b402a2c2e3e6e83cb',1,'MR::SceneColors']]],
-  ['unselectedobjectvoxels_11',['UnselectedObjectVoxels',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa815ab0979a59272abd51680de3a55ab0',1,'MR::SceneColors']]]
+  ['redo_0',['Redo',['../classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6',1,'MR::HistoryAction::Redo()'],['../classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a5afeaba074ef570dc720caaa855d49f6',1,'MR::HistoryStore::Redo()']]],
+  ['removeobject_1',['RemoveObject',['../classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1af0c405ca8e7eb2c3fa3d102bb69b75a9',1,'MR::ChangeSceneAction']]],
+  ['repeat_2',['Repeat',['../structMR_1_1MeshTexture.html#a02b38209ef48a938635275b79553f4e8a7020426cfb0a204051be4b3053d2acc8',1,'MR::MeshTexture']]],
+  ['ribbon_3',['Ribbon',['../structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daead60045a2874c5c25a5faec2bcb288fe3',1,'MR::DrawButtonParams']]],
+  ['ribbonbuttonactive_4',['RibbonButtonActive',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a405ab182bbac4b79edbf8cc4acd5bcd6',1,'MR::ColorTheme']]],
+  ['ribbonbuttonactiveclicked_5',['RibbonButtonActiveClicked',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a1a3f051475bc0b988d3cd5015105bf33',1,'MR::ColorTheme']]],
+  ['ribbonbuttonactivehovered_6',['RibbonButtonActiveHovered',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a0954e2b27971721016aea8cbc8220933',1,'MR::ColorTheme']]],
+  ['ribbonbuttonclicked_7',['RibbonButtonClicked',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a1f0299955bfa50ff0a40eac8eda3bf8d',1,'MR::ColorTheme']]],
+  ['ribbonbuttonhovered_8',['RibbonButtonHovered',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a525b14df5462bcd36ab6046c11b74b39',1,'MR::ColorTheme']]],
+  ['ribbonitemicon_9',['RibbonItemIcon',['../classMR_1_1RibbonIcons.html#a2d10e82f8fd5c6cc53279374e9bd3931a35e029f5ff6bcc67b6ecc2e445c498f2',1,'MR::RibbonIcons']]],
+  ['right_10',['Right',['../classMR_1_1Pdf.html#aaaf62b6d295f5aa4aae7734a8d801cbea92b09c7c48c520c3c55e497875da437c',1,'MR::Pdf::Right()'],['../namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62da92b09c7c48c520c3c55e497875da437c',1,'MR::Right()']]],
+  ['rightleft_11',['RightLeft',['../group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a060e258e018b85df7750330be4f807c0',1,'MR']]],
+  ['rightright_12',['RightRight',['../group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a8282c1db2ec5b8780478223365a37438',1,'MR']]],
+  ['rotation_13',['Rotation',['../namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75af1a42bd417390fc63b030a519624607a',1,'MR']]],
+  ['rotx_14',['RotX',['../classMR_1_1ObjectTransformWidget.html#a4ab6c5281aca51196492f7ac931414c1ad05cfee0ffd19c64dddb38deca4cb8f2',1,'MR::ObjectTransformWidget']]],
+  ['roty_15',['RotY',['../classMR_1_1ObjectTransformWidget.html#a4ab6c5281aca51196492f7ac931414c1a71c7b4ef00aed95219751af3851f3880',1,'MR::ObjectTransformWidget']]],
+  ['rotz_16',['RotZ',['../classMR_1_1ObjectTransformWidget.html#a4ab6c5281aca51196492f7ac931414c1a86bf90d2598f3819af280841b8a555d5',1,'MR::ObjectTransformWidget']]]
 ];

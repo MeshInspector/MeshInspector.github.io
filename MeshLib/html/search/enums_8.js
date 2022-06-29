@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['mapobject_0',['MapObject',['../structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587',1,'MR::BooleanResultMapper']]],
-  ['meshcompression_1',['MeshCompression',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69d',1,'MR::MeshSave::CtmSaveOptions']]],
-  ['multipleedgesresolvemode_2',['MultipleEdgesResolveMode',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301',1,'MR::FillHoleParams']]]
+  ['icontype_0',['IconType',['../classMR_1_1RibbonIcons.html#a2d10e82f8fd5c6cc53279374e9bd3931',1,'MR::RibbonIcons']]],
+  ['icpmethod_1',['ICPMethod',['../namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80ec',1,'MR']]],
+  ['icpmode_2',['ICPMode',['../namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677',1,'MR']]]
 ];

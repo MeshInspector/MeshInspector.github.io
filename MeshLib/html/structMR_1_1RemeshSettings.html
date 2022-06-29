@@ -106,8 +106,11 @@ $(document).ready(function(){initNavTree('structMR_1_1RemeshSettings.html',''); 
 Public Attributes</h2></td></tr>
 <tr class="memitem:a4742691117b65ee01c742f25180e17a7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#a4742691117b65ee01c742f25180e17a7">targetEdgeLen</a> = 0.001f</td></tr>
 <tr class="separator:a4742691117b65ee01c742f25180e17a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a802c4822e55d58a7f58ae0e644ecad21"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#a802c4822e55d58a7f58ae0e644ecad21">maxDeviation</a> = 1e-5f</td></tr>
-<tr class="separator:a802c4822e55d58a7f58ae0e644ecad21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a719cad8f8428301214682399c497bbc1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#a719cad8f8428301214682399c497bbc1">maxAngleChangeAfterFlip</a> = 30 * PI_F / 180.0f</td></tr>
+<tr class="memdesc:a719cad8f8428301214682399c497bbc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Improves local mesh triangulation by doing edge flips if it does change dihedral angle more than on this value.  <a href="structMR_1_1RemeshSettings.html#a719cad8f8428301214682399c497bbc1">More...</a><br /></td></tr>
+<tr class="separator:a719cad8f8428301214682399c497bbc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58fc77c6b836083eab39f95b271080e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#a58fc77c6b836083eab39f95b271080e8">useCurvature</a> = false</td></tr>
+<tr class="separator:a58fc77c6b836083eab39f95b271080e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba67372080b3650ca0d9a939e8b5526a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#aba67372080b3650ca0d9a939e8b5526a">region</a> = nullptr</td></tr>
 <tr class="memdesc:aba67372080b3650ca0d9a939e8b5526a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Region on mesh to be changed, it is updated during the operation.  <a href="structMR_1_1RemeshSettings.html#aba67372080b3650ca0d9a939e8b5526a">More...</a><br /></td></tr>
 <tr class="separator:aba67372080b3650ca0d9a939e8b5526a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -116,17 +119,19 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aed5e02a684c4323c9ad3143c3dfdb24d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a802c4822e55d58a7f58ae0e644ecad21" name="a802c4822e55d58a7f58ae0e644ecad21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a802c4822e55d58a7f58ae0e644ecad21">&#9670;&nbsp;</a></span>maxDeviation</h2>
+<a id="a719cad8f8428301214682399c497bbc1" name="a719cad8f8428301214682399c497bbc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a719cad8f8428301214682399c497bbc1">&#9670;&nbsp;</a></span>maxAngleChangeAfterFlip</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float MR::RemeshSettings::maxDeviation = 1e-5f</td>
+          <td class="memname">float MR::RemeshSettings::maxAngleChangeAfterFlip = 30 * PI_F / 180.0f</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Improves local mesh triangulation by doing edge flips if it does change dihedral angle more than on this value. </p>
 
 </div>
 </div>
@@ -173,6 +178,21 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a58fc77c6b836083eab39f95b271080e8" name="a58fc77c6b836083eab39f95b271080e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58fc77c6b836083eab39f95b271080e8">&#9670;&nbsp;</a></span>useCurvature</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::RemeshSettings::useCurvature = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >This option in subdivision works best for natural surfaces, where all triangles are close to equilateral and have similar area, and no sharp edges in between </p>
 
 </div>
 </div>
