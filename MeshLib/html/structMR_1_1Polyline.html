@@ -115,12 +115,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a45f4e47f567de8900614578bf0becc56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae40d1c6ba0e12c47a855747d44d40ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#aae40d1c6ba0e12c47a855747d44d40ea">addFromPoints</a> (const V *vs, size_t num, bool closed)</td></tr>
 <tr class="separator:aae40d1c6ba0e12c47a855747d44d40ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9ff852d8ee1c3278656a751a2f783e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#aa9ff852d8ee1c3278656a751a2f783e6">makePolyline</a> (const V *vs, size_t num, bool closed)</td></tr>
-<tr class="separator:aa9ff852d8ee1c3278656a751a2f783e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1f0bc764cd99c848a21add405261785"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#ad1f0bc764cd99c848a21add405261785">addFromPoints</a> (const V *vs, size_t num)</td></tr>
 <tr class="separator:ad1f0bc764cd99c848a21add405261785"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7f481ac3a43a7702eaab7d4dbe1274b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#ab7f481ac3a43a7702eaab7d4dbe1274b">makePolyline</a> (const V *vs, size_t num)</td></tr>
-<tr class="separator:ab7f481ac3a43a7702eaab7d4dbe1274b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c415d06f60c7ddc956d9c1f5b4b9609"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#a3c415d06f60c7ddc956d9c1f5b4b9609">addPartByMask</a> (const <a class="el" href="structMR_1_1Polyline.html">Polyline</a>&lt; V &gt; &amp;from, const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;mask, <a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> *outVmap=nullptr, <a class="el" href="namespaceMR.html#ae2eea398ad770ec2244a9a9c50714933">EdgeMap</a> *outEmap=nullptr)</td></tr>
 <tr class="memdesc:a3c415d06f60c7ddc956d9c1f5b4b9609"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends polyline (from) in addition to this polyline: creates new edges, faces, verts and points  <a href="structMR_1_1Polyline.html#a3c415d06f60c7ddc956d9c1f5b4b9609">More...</a><br /></td></tr>
 <tr class="separator:a3c415d06f60c7ddc956d9c1f5b4b9609"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -786,88 +782,6 @@ template&lt;typename V &gt; </div>
 </div><div class="memdoc">
 
 <p>Invalidates caches (e.g. aabb-tree) after a change in polyline. </p>
-
-</div>
-</div>
-<a id="ab7f481ac3a43a7702eaab7d4dbe1274b" name="ab7f481ac3a43a7702eaab7d4dbe1274b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7f481ac3a43a7702eaab7d4dbe1274b">&#9670;&nbsp;</a></span>makePolyline() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename V &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::makePolyline </td>
-          <td>(</td>
-          <td class="paramtype">const V *&#160;</td>
-          <td class="paramname"><em>vs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>num</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa9ff852d8ee1c3278656a751a2f783e6" name="aa9ff852d8ee1c3278656a751a2f783e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9ff852d8ee1c3278656a751a2f783e6">&#9670;&nbsp;</a></span>makePolyline() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename V &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::makePolyline </td>
-          <td>(</td>
-          <td class="paramtype">const V *&#160;</td>
-          <td class="paramname"><em>vs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>num</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>closed</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>

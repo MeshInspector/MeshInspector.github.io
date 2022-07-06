@@ -17,16 +17,20 @@ var classMR_1_1ObjectTransformWidget =
     [ "create", "classMR_1_1ObjectTransformWidget.html#a1dd22084ca653e7cba201e5a4b8bb24a", null ],
     [ "followObjVisibility", "classMR_1_1ObjectTransformWidget.html#ae251d733beed21672b8754f369937dca", null ],
     [ "getPickThrough", "classMR_1_1ObjectTransformWidget.html#aadc74bc9486e7d16c324e8c32d6f14da", null ],
+    [ "getRadius", "classMR_1_1ObjectTransformWidget.html#a34f02f94d8973877fe04a2b582057b7d", null ],
     [ "getRootObject", "classMR_1_1ObjectTransformWidget.html#aaaadf59451391760eaa2882c90d79f5b", null ],
     [ "getThresholdDot", "classMR_1_1ObjectTransformWidget.html#af2fd63c3bbfd15a6ab958bf74720ed10", null ],
     [ "getTransformModeMask", "classMR_1_1ObjectTransformWidget.html#a4c0c3d429a808250ac9474d08ddcc1e2", null ],
+    [ "getWidth", "classMR_1_1ObjectTransformWidget.html#ac59f75362d19a6f37e048670b08a80c8", null ],
     [ "reset", "classMR_1_1ObjectTransformWidget.html#ac815cb12bfdb99a8a650143d34de17ad", null ],
     [ "setAddXfCallback", "classMR_1_1ObjectTransformWidget.html#a3134eccba5998667c2b96764ceb6d88f", null ],
     [ "setPickThrough", "classMR_1_1ObjectTransformWidget.html#affacee843dc6b1eda7e3692d42d74f75", null ],
+    [ "setRadius", "classMR_1_1ObjectTransformWidget.html#a59326afc19c80e440d0b0a4fe08d4c7a", null ],
     [ "setRotateTooltipCallback", "classMR_1_1ObjectTransformWidget.html#a3582cec258b537faa908e62e50ca0eb8", null ],
     [ "setStartModifyCallback", "classMR_1_1ObjectTransformWidget.html#a2d16d1f66d6e6a84e9ca9d18e68d2a03", null ],
     [ "setStopModifyCallback", "classMR_1_1ObjectTransformWidget.html#a955e4e19a2da3a72cc42d41baaa73ad2", null ],
     [ "setThresholdDot", "classMR_1_1ObjectTransformWidget.html#ab7a258b143dccbe4c71a1e52288b0892", null ],
     [ "setTransformMode", "classMR_1_1ObjectTransformWidget.html#a4920b6c1405603a61c6a098f1e8114e4", null ],
-    [ "setTranslateTooltipCallback", "classMR_1_1ObjectTransformWidget.html#acd0c05bb93bc949b222c2721ad1d4b70", null ]
+    [ "setTranslateTooltipCallback", "classMR_1_1ObjectTransformWidget.html#acd0c05bb93bc949b222c2721ad1d4b70", null ],
+    [ "setWidth", "classMR_1_1ObjectTransformWidget.html#af134f42e53d13a8690f9a682d3b86ec4", null ]
 ];

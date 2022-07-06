@@ -40,6 +40,27 @@ var group__HistoryGroup =
       [ "heapBytes", "classMR_1_1ChangePointCloudAction.html#aea2ce2e41b3850a18e72e5766ccb86f5", null ],
       [ "name", "classMR_1_1ChangePointCloudAction.html#a3d96f0fc00a2d6d30b4807712b3793b6", null ]
     ] ],
+    [ "MR::ChangePolylineAction", "classMR_1_1ChangePolylineAction.html", [
+      [ "Obj", "classMR_1_1ChangePolylineAction.html#aeb94c9f13be0f037086e0296e2beea62", null ],
+      [ "ChangePolylineAction", "classMR_1_1ChangePolylineAction.html#a0e79a47922ed59fc36b1a8e44df24fa4", null ],
+      [ "action", "classMR_1_1ChangePolylineAction.html#aa4ff323c3b6e6f7a7fdeeefbc5142f98", null ],
+      [ "heapBytes", "classMR_1_1ChangePolylineAction.html#a6535b7267f88efaea117f9461932612e", null ],
+      [ "name", "classMR_1_1ChangePolylineAction.html#a3d8479b53f1823d464d18ee027faec56", null ]
+    ] ],
+    [ "MR::ChangePolylinePointsAction", "classMR_1_1ChangePolylinePointsAction.html", [
+      [ "Obj", "classMR_1_1ChangePolylinePointsAction.html#a304a69e07ee11c1bf44b60b2c38a8f12", null ],
+      [ "ChangePolylinePointsAction", "classMR_1_1ChangePolylinePointsAction.html#a506a1c3421dec57c85ee978ba69a0591", null ],
+      [ "action", "classMR_1_1ChangePolylinePointsAction.html#a4524618733bcefbd17c242f49c3112e1", null ],
+      [ "heapBytes", "classMR_1_1ChangePolylinePointsAction.html#a63e6b7f8c45895a7781661ac76232a24", null ],
+      [ "name", "classMR_1_1ChangePolylinePointsAction.html#ae04072e7453616bbbf69ed34589627f2", null ]
+    ] ],
+    [ "MR::ChangePolylineTopologyAction", "classMR_1_1ChangePolylineTopologyAction.html", [
+      [ "Obj", "classMR_1_1ChangePolylineTopologyAction.html#ad03adcbdb1b3e090ef0d0a8aa6b0d319", null ],
+      [ "ChangePolylineTopologyAction", "classMR_1_1ChangePolylineTopologyAction.html#aab07f50bc5fb59a1da47d13e888a1256", null ],
+      [ "action", "classMR_1_1ChangePolylineTopologyAction.html#a02bda3639e986d6a99bd8f2f5cfa05ad", null ],
+      [ "heapBytes", "classMR_1_1ChangePolylineTopologyAction.html#a200b7e85b19209b3dec9b96249b9fbef", null ],
+      [ "name", "classMR_1_1ChangePolylineTopologyAction.html#a30e1c62f488885411792ad5acc75da7b", null ]
+    ] ],
     [ "MR::ChangeSceneAction", "classMR_1_1ChangeSceneAction.html", [
       [ "Type", "classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1", [
         [ "AddObject", "classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1a650a024818e022f05f44766109a5f846", null ],

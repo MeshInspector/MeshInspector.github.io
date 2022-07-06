@@ -25,6 +25,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRChangeNameAction.h", "MRChangeNameAction_8h.html", null ],
     [ "MRChangeObjectAction.h", "MRChangeObjectAction_8h.html", null ],
     [ "MRChangePointCloudAction.h", "MRChangePointCloudAction_8h.html", null ],
+    [ "MRChangePolylineAction.h", "MRChangePolylineAction_8h.html", null ],
     [ "MRChangeSceneAction.h", "MRChangeSceneAction_8h.html", null ],
     [ "MRChangeSceneObjectsOrder.h", "MRChangeSceneObjectsOrder_8h.html", null ],
     [ "MRChangeSelectionAction.h", "MRChangeSelectionAction_8h.html", null ],

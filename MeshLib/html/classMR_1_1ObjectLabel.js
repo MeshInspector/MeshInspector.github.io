@@ -14,6 +14,8 @@ var classMR_1_1ObjectLabel =
     [ "getFontHeight", "classMR_1_1ObjectLabel.html#abad194094703dd1d925c246090f8acf6", null ],
     [ "getFontPath", "classMR_1_1ObjectLabel.html#a23afe1ab31ee4d005fddf5ec6c0b8e89", null ],
     [ "getLabel", "classMR_1_1ObjectLabel.html#a1d72e7f4d72cb5498d8ef35a334c7d49", null ],
+    [ "getPivotPoint", "classMR_1_1ObjectLabel.html#a4749aa36f962e97efaaa445c260e36b8", null ],
+    [ "getPivotShift", "classMR_1_1ObjectLabel.html#a243d48c407076f946e1366e8cc43231d", null ],
     [ "getWorldBox", "classMR_1_1ObjectLabel.html#a44af17e1d538dfdce42402641a7f7b83", null ],
     [ "heapBytes", "classMR_1_1ObjectLabel.html#abc209976351234f51bc3726fb7386107", null ],
     [ "labelRepresentingMesh", "classMR_1_1ObjectLabel.html#a2b5155ef1e07c779cf760515b4653c08", null ],
@@ -23,6 +25,7 @@ var classMR_1_1ObjectLabel =
     [ "setFontHeight", "classMR_1_1ObjectLabel.html#a13a7e95f277fc6708a28fd442871f9f3", null ],
     [ "setFontPath", "classMR_1_1ObjectLabel.html#a069e7c9db47b15c874f479344b1aa2cc", null ],
     [ "setLabel", "classMR_1_1ObjectLabel.html#ab7b45e4eff95dff9e2353c709a593059", null ],
+    [ "setPivotPoint", "classMR_1_1ObjectLabel.html#a29e781ca572b258e703bb4d2e5179545", null ],
     [ "setupRenderObject_", "classMR_1_1ObjectLabel.html#a4d598e74dc0f42ceecf25720d6ea544c", null ],
     [ "shallowClone", "classMR_1_1ObjectLabel.html#a3fa4c5025dfe9cff7b6b167ed61f6877", null ],
     [ "swapBase_", "classMR_1_1ObjectLabel.html#acdc8c19d185235427011882430949f2f", null ],
@@ -30,5 +33,7 @@ var classMR_1_1ObjectLabel =
     [ "fontHeight_", "classMR_1_1ObjectLabel.html#aa11557f43ed662feb8a618c2df1db1e7", null ],
     [ "label_", "classMR_1_1ObjectLabel.html#ae0172aed4b4967b65006a635afff2d6b", null ],
     [ "mesh_", "classMR_1_1ObjectLabel.html#aff2541725116733d21e4a8dc286f437b", null ],
-    [ "pathToFont_", "classMR_1_1ObjectLabel.html#ad15dc682a4c68f588608e3690da71f81", null ]
+    [ "pathToFont_", "classMR_1_1ObjectLabel.html#ad15dc682a4c68f588608e3690da71f81", null ],
+    [ "pivotPoint_", "classMR_1_1ObjectLabel.html#a0378ca9fa08bdab3d867515998f544ea", null ],
+    [ "pivotShift_", "classMR_1_1ObjectLabel.html#a8ec8f174d0cd7cbd62ceeefb4ef80b62", null ]
 ];

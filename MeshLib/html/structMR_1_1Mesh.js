@@ -1,10 +1,8 @@
 var structMR_1_1Mesh =
 [
     [ "addPart", "structMR_1_1Mesh.html#aadc439c62c253d4703536c27e1652e3e", null ],
-    [ "addPartByMask", "structMR_1_1Mesh.html#a8daf63ffad4b76f844e062886b562381", null ],
     [ "addPartByMask", "structMR_1_1Mesh.html#a70a31d2ef4c8dd2b5da929c9d66f42f5", null ],
     [ "addPartByMask", "structMR_1_1Mesh.html#a3e4cfa1b0310ac1c5fb5bf8e7f7313eb", null ],
-    [ "addPartByMask", "structMR_1_1Mesh.html#a11228a93127a5898b74ad325b40229fc", null ],
     [ "addPoint", "structMR_1_1Mesh.html#aee64892c6401f2ffc0394a59628cdbb5", null ],
     [ "addSeparateEdgeLoop", "structMR_1_1Mesh.html#afe79fbba41c13a31bd40b10fdff8b5ee", null ],
     [ "area", "structMR_1_1Mesh.html#a0c83a5a324f80a18969d786febaee653", null ],
@@ -63,7 +61,6 @@ var structMR_1_1Mesh =
     [ "pseudonormal", "structMR_1_1Mesh.html#a3f0764fd9acf9f3a4b060a658c656efc", null ],
     [ "signedDistance", "structMR_1_1Mesh.html#a879abd4325e74e6c17acebe255877c83", null ],
     [ "signedDistance", "structMR_1_1Mesh.html#a24304bcd9afe5cdb84be4ee761a8fb2f", null ],
-    [ "signedDistance", "structMR_1_1Mesh.html#a8f0190c7655e2427094aead642a0710c", null ],
     [ "signedDistance", "structMR_1_1Mesh.html#a4048484ac2e78090960bc9bbc60cd6b6", null ],
     [ "splitEdge", "structMR_1_1Mesh.html#a2d1e11cd2a329b1d7dc439fa99a32867", null ],
     [ "splitEdge", "structMR_1_1Mesh.html#ad0ef7a9b4c9cfff7cbceeba6096fb681", null ],

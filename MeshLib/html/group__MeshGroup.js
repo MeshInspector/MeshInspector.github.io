@@ -2,10 +2,8 @@ var group__MeshGroup =
 [
     [ "MR::Mesh", "structMR_1_1Mesh.html", [
       [ "addPart", "structMR_1_1Mesh.html#aadc439c62c253d4703536c27e1652e3e", null ],
-      [ "addPartByMask", "structMR_1_1Mesh.html#a8daf63ffad4b76f844e062886b562381", null ],
       [ "addPartByMask", "structMR_1_1Mesh.html#a70a31d2ef4c8dd2b5da929c9d66f42f5", null ],
       [ "addPartByMask", "structMR_1_1Mesh.html#a3e4cfa1b0310ac1c5fb5bf8e7f7313eb", null ],
-      [ "addPartByMask", "structMR_1_1Mesh.html#a11228a93127a5898b74ad325b40229fc", null ],
       [ "addPoint", "structMR_1_1Mesh.html#aee64892c6401f2ffc0394a59628cdbb5", null ],
       [ "addSeparateEdgeLoop", "structMR_1_1Mesh.html#afe79fbba41c13a31bd40b10fdff8b5ee", null ],
       [ "area", "structMR_1_1Mesh.html#a0c83a5a324f80a18969d786febaee653", null ],
@@ -64,7 +62,6 @@ var group__MeshGroup =
       [ "pseudonormal", "structMR_1_1Mesh.html#a3f0764fd9acf9f3a4b060a658c656efc", null ],
       [ "signedDistance", "structMR_1_1Mesh.html#a879abd4325e74e6c17acebe255877c83", null ],
       [ "signedDistance", "structMR_1_1Mesh.html#a24304bcd9afe5cdb84be4ee761a8fb2f", null ],
-      [ "signedDistance", "structMR_1_1Mesh.html#a8f0190c7655e2427094aead642a0710c", null ],
       [ "signedDistance", "structMR_1_1Mesh.html#a4048484ac2e78090960bc9bbc60cd6b6", null ],
       [ "splitEdge", "structMR_1_1Mesh.html#a2d1e11cd2a329b1d7dc439fa99a32867", null ],
       [ "splitEdge", "structMR_1_1Mesh.html#ad0ef7a9b4c9cfff7cbceeba6096fb681", null ],
@@ -97,9 +94,7 @@ var group__MeshGroup =
       [ "addPackedPart", "classMR_1_1MeshTopology.html#aa2eb901ee1810c11a63762618f27d854", null ],
       [ "addPart", "classMR_1_1MeshTopology.html#a6e62401e20ffdae14b123dfcb0f7dc02", null ],
       [ "addPartByMask", "classMR_1_1MeshTopology.html#aa3bcb59d13ff2d25b284f63652d0e12e", null ],
-      [ "addPartByMask", "classMR_1_1MeshTopology.html#afd1f60ebb357d9a12d3cc150f6512bc2", null ],
       [ "addPartByMask", "classMR_1_1MeshTopology.html#a8abe180839f4d1b30cc35fa52318db7b", null ],
-      [ "addPartByMask", "classMR_1_1MeshTopology.html#aeb8f941fef644a1746d7ccf47a96cf0a", null ],
       [ "addVertId", "classMR_1_1MeshTopology.html#a087e309d5f0b9a28c106038d206f8d53", null ],
       [ "bdEdgeSameOrigin", "classMR_1_1MeshTopology.html#a6777589fb02426e8b2d40cf6e576e503", null ],
       [ "bdEdgeWithOrigin", "classMR_1_1MeshTopology.html#a3074ca02ebcce08012144224818cf970", null ],

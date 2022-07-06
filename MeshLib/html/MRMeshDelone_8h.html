@@ -94,6 +94,7 @@ $(document).ready(function(){initNavTree('MRMeshDelone_8h.html',''); initResizab
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
@@ -101,10 +102,16 @@ $(document).ready(function(){initNavTree('MRMeshDelone_8h.html',''); initResizab
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
 <code>#include &quot;MRMeshDelone.hpp&quot;</code><br />
 </div>
 <p><a href="MRMeshDelone_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceMR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
@@ -122,17 +129,17 @@ Functions</h2></td></tr>
 <tr class="separator:ga1ec4380e546867f3bf9809066ffecd3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga634b4466f071575c73db96f1ac703ac3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#ga634b4466f071575c73db96f1ac703ac3">MR::checkDeloneQuadrangleInMesh</a> (const Mesh &amp;mesh, EdgeId edge, float maxDeviationAfterFlip, float maxAngleChange=NoAngleChangeLimit, const FaceBitSet *region=nullptr)</td></tr>
 <tr class="separator:ga634b4466f071575c73db96f1ac703ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac7b8618cd3260f8870ce0a413ffa6d48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#gac7b8618cd3260f8870ce0a413ffa6d48">MR::makeDeloneEdgeFlips</a> (Mesh &amp;mesh, int numIters, float maxDeviationAfterFlip, float maxAngleChange=NoAngleChangeLimit, const FaceBitSet *region=nullptr)</td></tr>
-<tr class="memdesc:gac7b8618cd3260f8870ce0a413ffa6d48"><td class="mdescLeft">&#160;</td><td class="mdescRight">false can be returned only for inner edge of the region  <a href="group__MeshDeloneGroup.html#gac7b8618cd3260f8870ce0a413ffa6d48">More...</a><br /></td></tr>
-<tr class="separator:gac7b8618cd3260f8870ce0a413ffa6d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7d87ccf93a95e0626e05979103ba5b5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#ga7d87ccf93a95e0626e05979103ba5b5f">MR::makeDeloneEdgeFlips</a> (Mesh &amp;mesh, const DeloneSettings &amp;settings)</td></tr>
+<tr class="memdesc:ga7d87ccf93a95e0626e05979103ba5b5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">false can be returned only for inner edge of the region  <a href="group__MeshDeloneGroup.html#ga7d87ccf93a95e0626e05979103ba5b5f">More...</a><br /></td></tr>
+<tr class="separator:ga7d87ccf93a95e0626e05979103ba5b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf08905c5d7702381e813332368b643ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#gaf08905c5d7702381e813332368b643ab">MR::makeDeloneOriginRing</a> (Mesh &amp;mesh, EdgeId e, float maxDeviationAfterFlip, float maxAngleChange=NoAngleChangeLimit, const FaceBitSet *region=nullptr)</td></tr>
 <tr class="memdesc:gaf08905c5d7702381e813332368b643ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">improves mesh triangulation in a ring of vertices with common origin and represented by edge e  <a href="group__MeshDeloneGroup.html#gaf08905c5d7702381e813332368b643ab">More...</a><br /></td></tr>
 <tr class="separator:gaf08905c5d7702381e813332368b643ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ga500d4f823bf14e54d3aa73d4761a66d6"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#ga500d4f823bf14e54d3aa73d4761a66d6">MR::NoAngleChangeLimit</a> = 10</td></tr>
-<tr class="separator:ga500d4f823bf14e54d3aa73d4761a66d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a500d4f823bf14e54d3aa73d4761a66d6"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a500d4f823bf14e54d3aa73d4761a66d6">MR::NoAngleChangeLimit</a> = 10</td></tr>
+<tr class="separator:a500d4f823bf14e54d3aa73d4761a66d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

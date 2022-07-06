@@ -22,8 +22,6 @@ var group__PolylineGroup =
       [ "getBoundingBox", "structMR_1_1Polyline.html#a3dcacffc0e913721847e9e77ca00dc4b", null ],
       [ "heapBytes", "structMR_1_1Polyline.html#adb4149d3e094b89744f9831dac1103dd", null ],
       [ "invalidateCaches", "structMR_1_1Polyline.html#a31c2d8e3b6a9e6729084fbb4221d8d57", null ],
-      [ "makePolyline", "structMR_1_1Polyline.html#ab7f481ac3a43a7702eaab7d4dbe1274b", null ],
-      [ "makePolyline", "structMR_1_1Polyline.html#aa9ff852d8ee1c3278656a751a2f783e6", null ],
       [ "orgPnt", "structMR_1_1Polyline.html#a403ab94ad27b1766b1ef3043546ee01d", null ],
       [ "splitEdge", "structMR_1_1Polyline.html#a094cad55761096310268a91c9ed0fc7c", null ],
       [ "splitEdge", "structMR_1_1Polyline.html#a240c49038436935c3a3b12b63285f2c3", null ],

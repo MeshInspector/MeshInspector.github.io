@@ -14,9 +14,9 @@ var classMR_1_1ObjectMesh =
     [ "setMesh", "classMR_1_1ObjectMesh.html#aee361968c7d91db0ce5b93b65f003d8a", null ],
     [ "shallowClone", "classMR_1_1ObjectMesh.html#a3da846b7d2eebc6602bc67510eb71d34", null ],
     [ "swapBase_", "classMR_1_1ObjectMesh.html#a58768d2ade5a8da7fdf85c181f2382a1", null ],
-    [ "swapMesh", "classMR_1_1ObjectMesh.html#ab2045385f2179bde4c36ee96f1d9da1a", null ],
     [ "swapSignals_", "classMR_1_1ObjectMesh.html#aa796e5b6f295b8ef5e724d75ce581e62", null ],
     [ "typeName", "classMR_1_1ObjectMesh.html#af9b93365f1a3106e6b452c197251afba", null ],
+    [ "updateMesh", "classMR_1_1ObjectMesh.html#a839774fb8213ddc2a1e9c51160ad5d01", null ],
     [ "varMesh", "classMR_1_1ObjectMesh.html#ab3bb6cba075e46e077c30ed748202d77", null ],
     [ "worldRayIntersection", "classMR_1_1ObjectMesh.html#a42f008e1d02b82af779b6378ba9402d5", null ],
     [ "meshChangedSignal", "classMR_1_1ObjectMesh.html#a9f1c4827307564a1c13839a4cde2868d", null ]

@@ -21,10 +21,12 @@ var searchData=
   ['update_18',['update',['../classMR_1_1ImGuiImage.html#aa1bd137d3093a9f7422dc445457b692f',1,'MR::ImGuiImage']]],
   ['updatehistogramandsurface_19',['updateHistogramAndSurface',['../classMR_1_1ObjectVoxels.html#a607e61443e72bdc0eb881a0d3db9fb8c',1,'MR::ObjectVoxels']]],
   ['updateitemstatus_20',['updateItemStatus',['../classMR_1_1RibbonMenu.html#afc750c1fa4b01d0cdf604d601194f436',1,'MR::RibbonMenu']]],
-  ['updateneighborsradius_21',['updateNeighborsRadius',['../group__TriangulationHelpersGroup.html#gadf020267269df9c27ccfd8a4f5f4c03c',1,'MR::TriangulationHelpers']]],
-  ['updatesolver_22',['updateSolver',['../classMR_1_1Laplacian.html#a3e7bb340acaa3ef81fe7ed9f5eaaf226',1,'MR::Laplacian']]],
-  ['updatetransparencytexturessize_23',['updateTransparencyTexturesSize',['../classMR_1_1AlphaSortGL.html#aab9cdfaf33634bcf9bae0eec5a82ebb9',1,'MR::AlphaSortGL']]],
-  ['updatevertpairs_24',['updateVertPairs',['../classMR_1_1MeshICP.html#aff911d6d53f8e44963f067e7c8ae376e',1,'MR::MeshICP']]],
-  ['utf8string_25',['utf8string',['../group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d',1,'MR']]],
-  ['utf8towide_26',['utf8ToWide',['../group__BasicGroup.html#ga543d43a804760961ac67ad3689330c1d',1,'MR']]]
+  ['updatemesh_21',['updateMesh',['../classMR_1_1ObjectMesh.html#a839774fb8213ddc2a1e9c51160ad5d01',1,'MR::ObjectMesh']]],
+  ['updateneighborsradius_22',['updateNeighborsRadius',['../group__TriangulationHelpersGroup.html#gadf020267269df9c27ccfd8a4f5f4c03c',1,'MR::TriangulationHelpers']]],
+  ['updatepolyline_23',['updatePolyline',['../classMR_1_1ObjectLines.html#a14ea493e0ce2d1ce42a9385fa43abfc1',1,'MR::ObjectLines']]],
+  ['updatesolver_24',['updateSolver',['../classMR_1_1Laplacian.html#a3e7bb340acaa3ef81fe7ed9f5eaaf226',1,'MR::Laplacian']]],
+  ['updatetransparencytexturessize_25',['updateTransparencyTexturesSize',['../classMR_1_1AlphaSortGL.html#aab9cdfaf33634bcf9bae0eec5a82ebb9',1,'MR::AlphaSortGL']]],
+  ['updatevertpairs_26',['updateVertPairs',['../classMR_1_1MeshICP.html#aff911d6d53f8e44963f067e7c8ae376e',1,'MR::MeshICP']]],
+  ['utf8string_27',['utf8string',['../group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d',1,'MR']]],
+  ['utf8towide_28',['utf8ToWide',['../group__BasicGroup.html#ga543d43a804760961ac67ad3689330c1d',1,'MR']]]
 ];

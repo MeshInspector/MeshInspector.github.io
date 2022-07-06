@@ -148,8 +148,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aee361968c7d91db0ce5b93b65f003d8a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMesh.html#aee361968c7d91db0ce5b93b65f003d8a">setMesh</a> (std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; <a class="el" href="classMR_1_1ObjectMeshHolder.html#af6739310dc9f9e21c461819ea47dc086">mesh</a>)</td></tr>
 <tr class="memdesc:aee361968c7d91db0ce5b93b65f003d8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets given mesh to this, resets selection and creases  <a href="classMR_1_1ObjectMesh.html#aee361968c7d91db0ce5b93b65f003d8a">More...</a><br /></td></tr>
 <tr class="separator:aee361968c7d91db0ce5b93b65f003d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2045385f2179bde4c36ee96f1d9da1a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMesh.html#ab2045385f2179bde4c36ee96f1d9da1a">swapMesh</a> (std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; &amp;<a class="el" href="classMR_1_1ObjectMeshHolder.html#af6739310dc9f9e21c461819ea47dc086">mesh</a>)</td></tr>
-<tr class="separator:ab2045385f2179bde4c36ee96f1d9da1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a839774fb8213ddc2a1e9c51160ad5d01"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMesh.html#a839774fb8213ddc2a1e9c51160ad5d01">updateMesh</a> (std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; <a class="el" href="classMR_1_1ObjectMeshHolder.html#af6739310dc9f9e21c461819ea47dc086">mesh</a>)</td></tr>
+<tr class="separator:a839774fb8213ddc2a1e9c51160ad5d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b6c4c31b11e372dea9237b6f9fcf5c6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMesh.html#a0b6c4c31b11e372dea9237b6f9fcf5c6">getInfoLines</a> () const override</td></tr>
 <tr class="memdesc:a0b6c4c31b11e372dea9237b6f9fcf5c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">return several info lines that can better describe object in the UI  <a href="classMR_1_1ObjectMesh.html#a0b6c4c31b11e372dea9237b6f9fcf5c6">More...</a><br /></td></tr>
 <tr class="separator:a0b6c4c31b11e372dea9237b6f9fcf5c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1176,33 +1176,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ab2045385f2179bde4c36ee96f1d9da1a" name="ab2045385f2179bde4c36ee96f1d9da1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2045385f2179bde4c36ee96f1d9da1a">&#9670;&nbsp;</a></span>swapMesh()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectMesh::swapMesh </td>
-          <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>mesh</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >sets given mesh to this, and returns back previous mesh of this; does not touch selection or creases </p>
-
-</div>
-</div>
 <a id="aa796e5b6f295b8ef5e724d75ce581e62" name="aa796e5b6f295b8ef5e724d75ce581e62"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa796e5b6f295b8ef5e724d75ce581e62">&#9670;&nbsp;</a></span>swapSignals_()</h2>
 
@@ -1281,6 +1254,33 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a839774fb8213ddc2a1e9c51160ad5d01" name="a839774fb8213ddc2a1e9c51160ad5d01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a839774fb8213ddc2a1e9c51160ad5d01">&#9670;&nbsp;</a></span>updateMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::ObjectMesh::updateMesh </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td>
+          <td class="paramname"><em>mesh</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >sets given mesh to this, and returns back previous mesh of this; does not touch selection or creases </p>
 
 </div>
 </div>

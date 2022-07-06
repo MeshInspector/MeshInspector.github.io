@@ -13,6 +13,7 @@ var structMR_1_1Color =
     [ "operator/=", "structMR_1_1Color.html#a9f21a5ed60bd2e9b0ab50266610e35f6", null ],
     [ "operator[]", "structMR_1_1Color.html#a30e8afba2ca683c433ab83718048a41e", null ],
     [ "operator[]", "structMR_1_1Color.html#a3671d8320e6244266951f9a5ea6ef33e", null ],
+    [ "scaledAlpha", "structMR_1_1Color.html#ab12a1e450b868138a87d0feb4f9e3d8b", null ],
     [ "a", "structMR_1_1Color.html#a21c5ef511dcf3b636ce3f8a5fd699874", null ],
     [ "b", "structMR_1_1Color.html#ad69a83b856320cef2a9d1f2ef968dbfd", null ],
     [ "g", "structMR_1_1Color.html#a88b7f7b16582811c68398fcb60488717", null ],

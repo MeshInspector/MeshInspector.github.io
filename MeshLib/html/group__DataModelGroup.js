@@ -140,6 +140,8 @@ var group__DataModelGroup =
       [ "getFontHeight", "classMR_1_1ObjectLabel.html#abad194094703dd1d925c246090f8acf6", null ],
       [ "getFontPath", "classMR_1_1ObjectLabel.html#a23afe1ab31ee4d005fddf5ec6c0b8e89", null ],
       [ "getLabel", "classMR_1_1ObjectLabel.html#a1d72e7f4d72cb5498d8ef35a334c7d49", null ],
+      [ "getPivotPoint", "classMR_1_1ObjectLabel.html#a4749aa36f962e97efaaa445c260e36b8", null ],
+      [ "getPivotShift", "classMR_1_1ObjectLabel.html#a243d48c407076f946e1366e8cc43231d", null ],
       [ "getWorldBox", "classMR_1_1ObjectLabel.html#a44af17e1d538dfdce42402641a7f7b83", null ],
       [ "heapBytes", "classMR_1_1ObjectLabel.html#abc209976351234f51bc3726fb7386107", null ],
       [ "labelRepresentingMesh", "classMR_1_1ObjectLabel.html#a2b5155ef1e07c779cf760515b4653c08", null ],
@@ -149,6 +151,7 @@ var group__DataModelGroup =
       [ "setFontHeight", "classMR_1_1ObjectLabel.html#a13a7e95f277fc6708a28fd442871f9f3", null ],
       [ "setFontPath", "classMR_1_1ObjectLabel.html#a069e7c9db47b15c874f479344b1aa2cc", null ],
       [ "setLabel", "classMR_1_1ObjectLabel.html#ab7b45e4eff95dff9e2353c709a593059", null ],
+      [ "setPivotPoint", "classMR_1_1ObjectLabel.html#a29e781ca572b258e703bb4d2e5179545", null ],
       [ "setupRenderObject_", "classMR_1_1ObjectLabel.html#a4d598e74dc0f42ceecf25720d6ea544c", null ],
       [ "shallowClone", "classMR_1_1ObjectLabel.html#a3fa4c5025dfe9cff7b6b167ed61f6877", null ],
       [ "swapBase_", "classMR_1_1ObjectLabel.html#acdc8c19d185235427011882430949f2f", null ],
@@ -156,7 +159,9 @@ var group__DataModelGroup =
       [ "fontHeight_", "classMR_1_1ObjectLabel.html#aa11557f43ed662feb8a618c2df1db1e7", null ],
       [ "label_", "classMR_1_1ObjectLabel.html#ae0172aed4b4967b65006a635afff2d6b", null ],
       [ "mesh_", "classMR_1_1ObjectLabel.html#aff2541725116733d21e4a8dc286f437b", null ],
-      [ "pathToFont_", "classMR_1_1ObjectLabel.html#ad15dc682a4c68f588608e3690da71f81", null ]
+      [ "pathToFont_", "classMR_1_1ObjectLabel.html#ad15dc682a4c68f588608e3690da71f81", null ],
+      [ "pivotPoint_", "classMR_1_1ObjectLabel.html#a0378ca9fa08bdab3d867515998f544ea", null ],
+      [ "pivotShift_", "classMR_1_1ObjectLabel.html#a8ec8f174d0cd7cbd62ceeefb4ef80b62", null ]
     ] ],
     [ "MR::ObjectLines", "classMR_1_1ObjectLines.html", [
       [ "ObjectLines", "classMR_1_1ObjectLines.html#a47a26f174a8e83d1f431c49792932ec9", null ],
@@ -173,6 +178,7 @@ var group__DataModelGroup =
       [ "shallowClone", "classMR_1_1ObjectLines.html#aff95536683320ad3bdc54a759afe5e7b", null ],
       [ "swapBase_", "classMR_1_1ObjectLines.html#a527fce3c91b8dc02284dab71a95d2ea7", null ],
       [ "typeName", "classMR_1_1ObjectLines.html#a069fc0b9496c10738c79ed84e458c729", null ],
+      [ "updatePolyline", "classMR_1_1ObjectLines.html#a14ea493e0ce2d1ce42a9385fa43abfc1", null ],
       [ "varPolyline", "classMR_1_1ObjectLines.html#a61e5d8f8d6bbc2fcc374ac9e856431ac", null ]
     ] ],
     [ "MR::ObjectMesh", "classMR_1_1ObjectMesh.html", [
@@ -190,9 +196,9 @@ var group__DataModelGroup =
       [ "setMesh", "classMR_1_1ObjectMesh.html#aee361968c7d91db0ce5b93b65f003d8a", null ],
       [ "shallowClone", "classMR_1_1ObjectMesh.html#a3da846b7d2eebc6602bc67510eb71d34", null ],
       [ "swapBase_", "classMR_1_1ObjectMesh.html#a58768d2ade5a8da7fdf85c181f2382a1", null ],
-      [ "swapMesh", "classMR_1_1ObjectMesh.html#ab2045385f2179bde4c36ee96f1d9da1a", null ],
       [ "swapSignals_", "classMR_1_1ObjectMesh.html#aa796e5b6f295b8ef5e724d75ce581e62", null ],
       [ "typeName", "classMR_1_1ObjectMesh.html#af9b93365f1a3106e6b452c197251afba", null ],
+      [ "updateMesh", "classMR_1_1ObjectMesh.html#a839774fb8213ddc2a1e9c51160ad5d01", null ],
       [ "varMesh", "classMR_1_1ObjectMesh.html#ab3bb6cba075e46e077c30ed748202d77", null ],
       [ "worldRayIntersection", "classMR_1_1ObjectMesh.html#a42f008e1d02b82af779b6378ba9402d5", null ],
       [ "meshChangedSignal", "classMR_1_1ObjectMesh.html#a9f1c4827307564a1c13839a4cde2868d", null ]
