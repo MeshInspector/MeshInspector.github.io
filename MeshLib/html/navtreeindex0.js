@@ -177,6 +177,7 @@ var NAVTREEINDEX0 =
 "MRExpandShrink_8h.html#ad2e283ffde3e68d5a41e0a832bb41060":[12,0,0,1,0,53,2],
 "MRExpandShrink_8h_source.html":[12,0,0,1,0,53],
 "MRExtractIsolines_8h.html":[12,0,0,1,0,54],
+"MRExtractIsolines_8h.html#a2fc738fcb74adad1003e324c209a09d3":[12,0,0,1,0,54,8],
 "MRExtractIsolines_8h.html#a30037e8ef79442785a34ff61d9a5eb2e":[12,0,0,1,0,54,5],
 "MRExtractIsolines_8h.html#a47ebcb5e83e6625a4a33dd409771ff68":[12,0,0,1,0,54,7],
 "MRExtractIsolines_8h.html#a6c63c93268260926fe26705e7eba2d53":[12,0,0,1,0,54,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "MRHeap_8h.html":[12,0,0,1,0,68],
 "MRHeap_8h_source.html":[12,0,0,1,0,68],
 "MRHighPrecision_8h.html":[12,0,0,1,0,70],
-"MRHighPrecision_8h_source.html":[12,0,0,1,0,70],
-"MRHistogram_8h.html":[12,0,0,1,0,71]
+"MRHighPrecision_8h_source.html":[12,0,0,1,0,70]
 };

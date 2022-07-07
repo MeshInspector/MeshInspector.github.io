@@ -1777,6 +1777,8 @@ Functions</h2></td></tr>
 <tr class="separator:a8b0b55ffe6ea4fe8a68c4cba50f6d39c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30037e8ef79442785a34ff61d9a5eb2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac743a99f776ece0d1aace02cd9c7f561">PlaneSections</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a30037e8ef79442785a34ff61d9a5eb2e">extractPlaneSections</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">Plane3f</a> &amp;plane)</td></tr>
 <tr class="separator:a30037e8ef79442785a34ff61d9a5eb2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fc738fcb74adad1003e324c209a09d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a76fccc29cf3ab68686fad45a62e17fa2">PlaneSection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a2fc738fcb74adad1003e324c209a09d3">trackSection</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;direction, float <a class="el" href="group__IntersectionGroup.html#ga9f71b2c20cd6a91f42d8d76dbc038190">distance</a>)</td></tr>
+<tr class="separator:a2fc738fcb74adad1003e324c209a09d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47ebcb5e83e6625a4a33dd409771ff68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae4ddf6f4d663b556787e0188500a2521">Contour2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a47ebcb5e83e6625a4a33dd409771ff68">planeSectionToContour2f</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a76fccc29cf3ab68686fad45a62e17fa2">PlaneSection</a> &amp;section, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;meshToPlane)</td></tr>
 <tr class="separator:a47ebcb5e83e6625a4a33dd409771ff68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c63c93268260926fe26705e7eba2d53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a50e8714d42cba4acf038efe5c4bd491a">Contours2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6c63c93268260926fe26705e7eba2d53">planeSectionsToContours2f</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#ac743a99f776ece0d1aace02cd9c7f561">PlaneSections</a> &amp;sections, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;meshToPlane)</td></tr>
@@ -11850,6 +11852,53 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2fc738fcb74adad1003e324c209a09d3" name="a2fc738fcb74adad1003e324c209a09d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fc738fcb74adad1003e324c209a09d3">&#9670;&nbsp;</a></span>trackSection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a76fccc29cf3ab68686fad45a62e17fa2">PlaneSection</a> MR::trackSection </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
+          <td class="paramname"><em>mp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>direction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>distance</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >track section of plane set by start point, direction and surface normal in start point in given direction while given distance or mesh boundary is not reached, or track looped negative distance means moving in opposite direction returns track on surface and end point (same as start if path has looped) </p>
 
 </div>
 </div>

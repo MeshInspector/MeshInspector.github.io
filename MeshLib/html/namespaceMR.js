@@ -1298,6 +1298,7 @@ var namespaceMR =
     [ "topologyToEigen", "group__MeshEigenGroup.html#ga727db2d8f5e385de0f96721bfca39790", null ],
     [ "trackRegionBoundaryLoop", "namespaceMR.html#a37e066f5ba68ae8a4b72cc0ed1494326", null ],
     [ "trackRegionBoundaryLoop", "namespaceMR.html#a01e801fbeb3fac19f6385d7834e22e66", null ],
+    [ "trackSection", "namespaceMR.html#a2fc738fcb74adad1003e324c209a09d3", null ],
     [ "transformed", "group__BoxGroup.html#gab17e73512e12f2ab50b0c688ad52ebd5", null ],
     [ "transformed", "group__BoxGroup.html#gae1a724a1801d1bf348bf471329645cf3", null ],
     [ "transformed", "namespaceMR.html#ad59cd8524b08afcc5b6fad13005d72d4", null ],
