@@ -115,6 +115,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac3b1015ea089d93658ff4783c2282c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6950a1538eb4974ba77f2e478f8e328"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#aa6950a1538eb4974ba77f2e478f8e328">addPartByMask</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;from, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;fromVerts, <a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> *oldToNewMap=nullptr)</td></tr>
 <tr class="separator:aa6950a1538eb4974ba77f2e478f8e328"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78808a7ef1e8232c61b442f9ea9bc9c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#a78808a7ef1e8232c61b442f9ea9bc9c8">addPoint</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;point)</td></tr>
+<tr class="memdesc:a78808a7ef1e8232c61b442f9ea9bc9c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends a point and returns its VertId  <a href="structMR_1_1PointCloud.html#a78808a7ef1e8232c61b442f9ea9bc9c8">More...</a><br /></td></tr>
+<tr class="separator:a78808a7ef1e8232c61b442f9ea9bc9c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada79e353b7a72ed40a42bc08b60cc225"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#ada79e353b7a72ed40a42bc08b60cc225">addPoint</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;point, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;normal)</td></tr>
+<tr class="memdesc:ada79e353b7a72ed40a42bc08b60cc225"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends a point with normal and returns its VertId  <a href="structMR_1_1PointCloud.html#ada79e353b7a72ed40a42bc08b60cc225">More...</a><br /></td></tr>
+<tr class="separator:ada79e353b7a72ed40a42bc08b60cc225"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7c257206a284f22b8e2484b87436069"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#ab7c257206a284f22b8e2484b87436069">invalidateCaches</a> ()</td></tr>
 <tr class="memdesc:ab7c257206a284f22b8e2484b87436069"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidates caches (e.g. aabb-tree) after a change in point cloud.  <a href="structMR_1_1PointCloud.html#ab7c257206a284f22b8e2484b87436069">More...</a><br /></td></tr>
 <tr class="separator:ab7c257206a284f22b8e2484b87436069"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,6 +169,56 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a78808a7ef1e8232c61b442f9ea9bc9c8" name="a78808a7ef1e8232c61b442f9ea9bc9c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78808a7ef1e8232c61b442f9ea9bc9c8">&#9670;&nbsp;</a></span>addPoint() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> MR::PointCloud::addPoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>point</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>appends a point and returns its VertId </p>
+
+</div>
+</div>
+<a id="ada79e353b7a72ed40a42bc08b60cc225" name="ada79e353b7a72ed40a42bc08b60cc225"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada79e353b7a72ed40a42bc08b60cc225">&#9670;&nbsp;</a></span>addPoint() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> MR::PointCloud::addPoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>point</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>normal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>appends a point with normal and returns its VertId </p>
 
 </div>
 </div>

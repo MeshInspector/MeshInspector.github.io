@@ -21,6 +21,7 @@ var structMR_1_1Mesh =
     [ "dihedralAngleSin", "structMR_1_1Mesh.html#a51a4276db370b27809ff25575c9a6e5e", null ],
     [ "dirDblArea", "structMR_1_1Mesh.html#afd3563494ce9b9a0cf5a7e4346606961", null ],
     [ "dirDblArea", "structMR_1_1Mesh.html#a4237bb2ee8edbc72aa4189bc2307a544", null ],
+    [ "discreteGaussianCurvature", "structMR_1_1Mesh.html#a18e24b802c039dde02eeb902045cdb20", null ],
     [ "discreteMeanCurvature", "structMR_1_1Mesh.html#ab555df576a4de372990fabcac596979f", null ],
     [ "edgeCenter", "structMR_1_1Mesh.html#a8793297051a32ae06c6a34fb6f715122", null ],
     [ "edgeLength", "structMR_1_1Mesh.html#af19fca287ede2948f78eaac60401e822", null ],

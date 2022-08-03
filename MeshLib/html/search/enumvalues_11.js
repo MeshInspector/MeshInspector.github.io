@@ -18,16 +18,17 @@ var searchData=
   ['selectedvertices_15',['SelectedVertices',['../structMR_1_1PointsVisualizePropertyType.html#af868fa83ffd7b3432b83e45dad431efea77dc38e401313dd2bc528244534b38a9',1,'MR::PointsVisualizePropertyType']]],
   ['selection_16',['Selection',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37a6ff9dd0d34f65181173c1e4bc39939de',1,'MR']]],
   ['semibold_17',['SemiBold',['../classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4a57da4df095766e2b4e9012d34ae8e221',1,'MR::RibbonFontManager']]],
-  ['shell_18',['Shell',['../structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178aea89b68c34ce4a63c0f77e17413c6e30',1,'MR::ContoursDistanceMapOffset']]],
+  ['shell_18',['Shell',['../structMR_1_1OffsetParameters.html#a34ac54dac63d30b0fae75a941b9b3fcdaea89b68c34ce4a63c0f77e17413c6e30',1,'MR::OffsetParameters::Shell()'],['../structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178aea89b68c34ce4a63c0f77e17413c6e30',1,'MR::ContoursDistanceMapOffset::Shell()']]],
   ['shortestedgefirst_19',['ShortestEdgeFirst',['../namespaceMR.html#a216960c15f7b00558ab28053967a9615a701726fb0205943f4567e09bcebd0552',1,'MR']]],
   ['show_20',['Show',['../structMR_1_1Viewer_1_1LaunchParams.html#aac8179d29f102d3e7ee5a2d2cf1bfe32adf76758ec5cb9b09e06f65ea01a58dcf',1,'MR::Viewer::LaunchParams']]],
   ['simple_21',['Simple',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a1fbb1e3943c2c6c560247ac8f9289780',1,'MR::FillHoleParams']]],
-  ['small_22',['Small',['../structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aea2660064e68655415da2628c2ae2f7592',1,'MR::DrawButtonParams::Small()'],['../classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4a2660064e68655415da2628c2ae2f7592',1,'MR::RibbonFontManager::Small()']]],
+  ['small_22',['Small',['../classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4a2660064e68655415da2628c2ae2f7592',1,'MR::RibbonFontManager::Small()'],['../structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aea2660064e68655415da2628c2ae2f7592',1,'MR::DrawButtonParams::Small()']]],
   ['smalltext_23',['SmallText',['../structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aeabc8aecd9a2ab8f581f9b37b78a9083ff',1,'MR::DrawButtonParams']]],
   ['smooth_24',['Smooth',['../structMR_1_1LinesVisualizePropertyType.html#aab5df7db454ff09605f0b0252d48d0e2a92edd5447d991ddb22f08259adacfa1c',1,'MR::LinesVisualizePropertyType']]],
   ['solidcolor_25',['SolidColor',['../group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854',1,'MR']]],
-  ['startendnotconnected_26',['StartEndNotConnected',['../group__SurfacePathSubgroup.html#ggaf2c93aa0da8a9748d23340f32349a8b8aad309ea76f6bf055e7b62a3dd200631f',1,'MR']]],
-  ['stderr_27',['Stderr',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af',1,'MRPython.h']]],
-  ['stdout_28',['Stdout',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101',1,'MRPython.h']]],
-  ['strong_29',['Strong',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9',1,'MR::FillHoleParams']]]
+  ['sourcepoint_26',['SourcePoint',['../structMR_1_1LabelVisualizePropertyType.html#a3dfb248be461d6b83251c1e8a3a36d2ca37e4b3e9d3385409aaabec26371c2dd6',1,'MR::LabelVisualizePropertyType']]],
+  ['startendnotconnected_27',['StartEndNotConnected',['../group__SurfacePathSubgroup.html#ggaf2c93aa0da8a9748d23340f32349a8b8aad309ea76f6bf055e7b62a3dd200631f',1,'MR']]],
+  ['stderr_28',['Stderr',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af',1,'MRPython.h']]],
+  ['stdout_29',['Stdout',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101',1,'MRPython.h']]],
+  ['strong_30',['Strong',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9',1,'MR::FillHoleParams']]]
 ];

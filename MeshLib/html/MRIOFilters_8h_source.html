@@ -98,48 +98,49 @@ $(document).ready(function(){initNavTree('MRIOFilters_8h_source.html',''); initR
 <div class="contents">
 <a href="MRIOFilters_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="structMR_1_1IOFilter.html">   13</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1IOFilter.html">IOFilter</a></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="structMR_1_1IOFilter.html#a5f6f14f66f3758e05a9ca414470b17e3">   15</a></span>    <a class="code hl_function" href="structMR_1_1IOFilter.html#a5f6f14f66f3758e05a9ca414470b17e3">IOFilter</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structMR_1_1IOFilter.html#a9aca4fa8f2e0f08b987dcf58cb316c82">   16</a></span>    <a class="code hl_function" href="structMR_1_1IOFilter.html#a9aca4fa8f2e0f08b987dcf58cb316c82">IOFilter</a>( <span class="keyword">const</span> std::string&amp; _name, <span class="keyword">const</span> std::string&amp; _ext ) :</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        <a class="code hl_variable" href="structMR_1_1IOFilter.html#ad4426ebb26f3474b6d69ca07c8e35980">name</a>{_name}, <a class="code hl_variable" href="structMR_1_1IOFilter.html#ac848191e419fe3ec6fa17b4d4eb4cbe2">extension</a>{_ext}{}</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="structMR_1_1IOFilter.html#ad4426ebb26f3474b6d69ca07c8e35980">   18</a></span>    std::string <a class="code hl_variable" href="structMR_1_1IOFilter.html#ad4426ebb26f3474b6d69ca07c8e35980">name</a>;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="structMR_1_1IOFilter.html#ac848191e419fe3ec6fa17b4d4eb4cbe2">   19</a></span>    std::string <a class="code hl_variable" href="structMR_1_1IOFilter.html#ac848191e419fe3ec6fa17b4d4eb4cbe2">extension</a>; <span class="comment">// &quot;*.ext&quot;</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>};</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="group__IOFiltersGroup.html#ga49f63334796a9865d1ecc25d270bf47e">   22</a></span><span class="keyword">using </span><a class="code hl_typedef" href="group__IOFiltersGroup.html#ga49f63334796a9865d1ecc25d270bf47e">IOFilters</a> = std::vector&lt;IOFilter&gt;;</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="group__IOFiltersGroup.html#gae94abfb9874900b0fa66d3383ea8489b">   24</a></span><span class="keyword">inline</span> <a class="code hl_typedef" href="group__IOFiltersGroup.html#ga49f63334796a9865d1ecc25d270bf47e">IOFilters</a> <a class="code hl_function" href="group__BasicGroup.html#ga8e5910c21dd8d185e8c21a9691826314">operator | </a>( <span class="keyword">const</span> <a class="code hl_typedef" href="group__IOFiltersGroup.html#ga49f63334796a9865d1ecc25d270bf47e">IOFilters</a>&amp; a, <span class="keyword">const</span> <a class="code hl_typedef" href="group__IOFiltersGroup.html#ga49f63334796a9865d1ecc25d270bf47e">IOFilters</a>&amp; b )</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>{</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <a class="code hl_typedef" href="group__IOFiltersGroup.html#ga49f63334796a9865d1ecc25d270bf47e">IOFilters</a> copy = a;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordflow">for</span> ( <span class="keyword">const</span> <span class="keyword">auto</span>&amp; bElem : b )</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    {</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keywordflow">if</span> ( std::find_if( a.begin(), a.end(), [&amp;] ( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1IOFilter.html">IOFilter</a>&amp; aF )</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        {</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>            return aF.extension == bElem.extension;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        } ) == a.end() )</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>            copy.push_back( bElem );</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    }</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordflow">return</span> copy;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>}</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>}</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;algorithm&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="structMR_1_1IOFilter.html">   14</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1IOFilter.html">IOFilter</a></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structMR_1_1IOFilter.html#a5f6f14f66f3758e05a9ca414470b17e3">   16</a></span>    <a class="code hl_function" href="structMR_1_1IOFilter.html#a5f6f14f66f3758e05a9ca414470b17e3">IOFilter</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="structMR_1_1IOFilter.html#a9aca4fa8f2e0f08b987dcf58cb316c82">   17</a></span>    <a class="code hl_function" href="structMR_1_1IOFilter.html#a9aca4fa8f2e0f08b987dcf58cb316c82">IOFilter</a>( <span class="keyword">const</span> std::string&amp; _name, <span class="keyword">const</span> std::string&amp; _ext ) :</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        <a class="code hl_variable" href="structMR_1_1IOFilter.html#ad4426ebb26f3474b6d69ca07c8e35980">name</a>{_name}, <a class="code hl_variable" href="structMR_1_1IOFilter.html#ac848191e419fe3ec6fa17b4d4eb4cbe2">extension</a>{_ext}{}</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="structMR_1_1IOFilter.html#ad4426ebb26f3474b6d69ca07c8e35980">   19</a></span>    std::string <a class="code hl_variable" href="structMR_1_1IOFilter.html#ad4426ebb26f3474b6d69ca07c8e35980">name</a>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="structMR_1_1IOFilter.html#ac848191e419fe3ec6fa17b4d4eb4cbe2">   20</a></span>    std::string <a class="code hl_variable" href="structMR_1_1IOFilter.html#ac848191e419fe3ec6fa17b4d4eb4cbe2">extension</a>; <span class="comment">// &quot;*.ext&quot;</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>};</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="group__IOFiltersGroup.html#ga49f63334796a9865d1ecc25d270bf47e">   23</a></span><span class="keyword">using </span><a class="code hl_typedef" href="group__IOFiltersGroup.html#ga49f63334796a9865d1ecc25d270bf47e">IOFilters</a> = std::vector&lt;IOFilter&gt;;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="group__IOFiltersGroup.html#gae94abfb9874900b0fa66d3383ea8489b">   25</a></span><span class="keyword">inline</span> <a class="code hl_typedef" href="group__IOFiltersGroup.html#ga49f63334796a9865d1ecc25d270bf47e">IOFilters</a> <a class="code hl_function" href="group__BasicGroup.html#ga8e5910c21dd8d185e8c21a9691826314">operator | </a>( <span class="keyword">const</span> <a class="code hl_typedef" href="group__IOFiltersGroup.html#ga49f63334796a9865d1ecc25d270bf47e">IOFilters</a>&amp; a, <span class="keyword">const</span> <a class="code hl_typedef" href="group__IOFiltersGroup.html#ga49f63334796a9865d1ecc25d270bf47e">IOFilters</a>&amp; b )</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>{</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <a class="code hl_typedef" href="group__IOFiltersGroup.html#ga49f63334796a9865d1ecc25d270bf47e">IOFilters</a> copy = a;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordflow">for</span> ( <span class="keyword">const</span> <span class="keyword">auto</span>&amp; bElem : b )</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    {</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <span class="keywordflow">if</span> ( std::find_if( a.begin(), a.end(), [&amp;] ( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1IOFilter.html">IOFilter</a>&amp; aF )</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        {</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>            return aF.extension == bElem.extension;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        } ) == a.end() )</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>            copy.push_back( bElem );</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    }</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordflow">return</span> copy;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>}</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>}</div>
 <div class="ttc" id="agroup__BasicGroup_html_ga8e5910c21dd8d185e8c21a9691826314"><div class="ttname"><a href="group__BasicGroup.html#ga8e5910c21dd8d185e8c21a9691826314">MR::operator|</a></div><div class="ttdeci">BitSet operator|(const BitSet &amp;a, const BitSet &amp;b)</div><div class="ttdef"><b>Definition:</b> MRBitSet.h:234</div></div>
-<div class="ttc" id="agroup__IOFiltersGroup_html_ga49f63334796a9865d1ecc25d270bf47e"><div class="ttname"><a href="group__IOFiltersGroup.html#ga49f63334796a9865d1ecc25d270bf47e">MR::IOFilters</a></div><div class="ttdeci">std::vector&lt; IOFilter &gt; IOFilters</div><div class="ttdef"><b>Definition:</b> MRIOFilters.h:22</div></div>
+<div class="ttc" id="agroup__IOFiltersGroup_html_ga49f63334796a9865d1ecc25d270bf47e"><div class="ttname"><a href="group__IOFiltersGroup.html#ga49f63334796a9865d1ecc25d270bf47e">MR::IOFilters</a></div><div class="ttdeci">std::vector&lt; IOFilter &gt; IOFilters</div><div class="ttdef"><b>Definition:</b> MRIOFilters.h:23</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MR2DContoursTriangulation.h:6</div></div>
-<div class="ttc" id="astructMR_1_1IOFilter_html"><div class="ttname"><a href="structMR_1_1IOFilter.html">MR::IOFilter</a></div><div class="ttdef"><b>Definition:</b> MRIOFilters.h:14</div></div>
+<div class="ttc" id="astructMR_1_1IOFilter_html"><div class="ttname"><a href="structMR_1_1IOFilter.html">MR::IOFilter</a></div><div class="ttdef"><b>Definition:</b> MRIOFilters.h:15</div></div>
 <div class="ttc" id="astructMR_1_1IOFilter_html_a5f6f14f66f3758e05a9ca414470b17e3"><div class="ttname"><a href="structMR_1_1IOFilter.html#a5f6f14f66f3758e05a9ca414470b17e3">MR::IOFilter::IOFilter</a></div><div class="ttdeci">IOFilter()=default</div></div>
-<div class="ttc" id="astructMR_1_1IOFilter_html_a9aca4fa8f2e0f08b987dcf58cb316c82"><div class="ttname"><a href="structMR_1_1IOFilter.html#a9aca4fa8f2e0f08b987dcf58cb316c82">MR::IOFilter::IOFilter</a></div><div class="ttdeci">IOFilter(const std::string &amp;_name, const std::string &amp;_ext)</div><div class="ttdef"><b>Definition:</b> MRIOFilters.h:16</div></div>
-<div class="ttc" id="astructMR_1_1IOFilter_html_ac848191e419fe3ec6fa17b4d4eb4cbe2"><div class="ttname"><a href="structMR_1_1IOFilter.html#ac848191e419fe3ec6fa17b4d4eb4cbe2">MR::IOFilter::extension</a></div><div class="ttdeci">std::string extension</div><div class="ttdef"><b>Definition:</b> MRIOFilters.h:19</div></div>
-<div class="ttc" id="astructMR_1_1IOFilter_html_ad4426ebb26f3474b6d69ca07c8e35980"><div class="ttname"><a href="structMR_1_1IOFilter.html#ad4426ebb26f3474b6d69ca07c8e35980">MR::IOFilter::name</a></div><div class="ttdeci">std::string name</div><div class="ttdef"><b>Definition:</b> MRIOFilters.h:18</div></div>
+<div class="ttc" id="astructMR_1_1IOFilter_html_a9aca4fa8f2e0f08b987dcf58cb316c82"><div class="ttname"><a href="structMR_1_1IOFilter.html#a9aca4fa8f2e0f08b987dcf58cb316c82">MR::IOFilter::IOFilter</a></div><div class="ttdeci">IOFilter(const std::string &amp;_name, const std::string &amp;_ext)</div><div class="ttdef"><b>Definition:</b> MRIOFilters.h:17</div></div>
+<div class="ttc" id="astructMR_1_1IOFilter_html_ac848191e419fe3ec6fa17b4d4eb4cbe2"><div class="ttname"><a href="structMR_1_1IOFilter.html#ac848191e419fe3ec6fa17b4d4eb4cbe2">MR::IOFilter::extension</a></div><div class="ttdeci">std::string extension</div><div class="ttdef"><b>Definition:</b> MRIOFilters.h:20</div></div>
+<div class="ttc" id="astructMR_1_1IOFilter_html_ad4426ebb26f3474b6d69ca07c8e35980"><div class="ttname"><a href="structMR_1_1IOFilter.html#ad4426ebb26f3474b6d69ca07c8e35980">MR::IOFilter::name</a></div><div class="ttdeci">std::string name</div><div class="ttdef"><b>Definition:</b> MRIOFilters.h:19</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

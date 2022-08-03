@@ -1,6 +1,7 @@
 var classMR_1_1Config =
 [
     [ "Config", "classMR_1_1Config.html#af88a45374cdd7fba22942c053afb27e5", null ],
+    [ "getAppName", "classMR_1_1Config.html#a764b20b21302265b3e6dd60b2efdf035", null ],
     [ "getBool", "classMR_1_1Config.html#a1a1c1e3afa9a60434b3b7a17eaa402c4", null ],
     [ "getColor", "classMR_1_1Config.html#a264c1a7b8aa598635f2500ae12c29606", null ],
     [ "getFileStack", "classMR_1_1Config.html#aad8c7c3589d77d0ed1c091938cd14ca9", null ],
@@ -12,7 +13,7 @@ var classMR_1_1Config =
     [ "hasJsonValue", "classMR_1_1Config.html#af8762966496b6267975c855b7b47d3ca", null ],
     [ "hasVector2i", "classMR_1_1Config.html#a45debdd9e18e1b014caa6a4d1e5eaf16", null ],
     [ "operator=", "classMR_1_1Config.html#ae8bd5243efd5066d7b24657c23126e25", null ],
-    [ "reset", "classMR_1_1Config.html#a32bff2be653e661c81d59903489382f3", null ],
+    [ "reset", "classMR_1_1Config.html#a3b36a74eccd9dd120a1e85983e8f64e3", null ],
     [ "setBool", "classMR_1_1Config.html#ae57d1ec5709dc7fc1a7115f4f745955d", null ],
     [ "setColor", "classMR_1_1Config.html#aefbf21b76d9f87667c9313e310f8fe9b", null ],
     [ "setFileStack", "classMR_1_1Config.html#ae9eaec2c0bade737afbf64156d5a6ca8", null ],

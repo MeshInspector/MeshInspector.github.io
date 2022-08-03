@@ -118,8 +118,6 @@ $(document).ready(function(){initNavTree('MRViewport_8h.html',''); initResizable
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ViewportRectangle.html">MR::ViewportRectangle</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewport.html">MR::Viewport</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Viewport_1_1Parameters.html">MR::Viewport::Parameters</a></td></tr>
@@ -138,21 +136,18 @@ Typedefs</h2></td></tr>
 <tr class="separator:af85934a86dc22ba72bd4c0e3ef20c19a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a644688f2af4d550fac6d7bbeb67423a7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRViewport_8h.html#a644688f2af4d550fac6d7bbeb67423a7">ConstObjAndPick</a> = std::pair&lt; std::shared_ptr&lt; const <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a> &gt;, <a class="el" href="structMR_1_1PointOnFace.html">MR::PointOnFace</a> &gt;</td></tr>
 <tr class="separator:a644688f2af4d550fac6d7bbeb67423a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3970a3c191ff7a139d0e2ed05f27eeb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af3970a3c191ff7a139d0e2ed05f27eeb">MR::ViewportRectangle</a> = Box2f</td></tr>
+<tr class="separator:af3970a3c191ff7a139d0e2ed05f27eeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab0230a1c39bfe2da1a6bb5e2415e8ddd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab0230a1c39bfe2da1a6bb5e2415e8ddd">MR::width</a> (const ViewportRectangle &amp;rect)</td></tr>
-<tr class="separator:ab0230a1c39bfe2da1a6bb5e2415e8ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cf212fa3bb0a01ed54874162a431d38"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3cf212fa3bb0a01ed54874162a431d38">MR::height</a> (const ViewportRectangle &amp;rect)</td></tr>
-<tr class="separator:a3cf212fa3bb0a01ed54874162a431d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4184759d297490847d6bd3b21ad7558d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4184759d297490847d6bd3b21ad7558d">MR::setWidth</a> (ViewportRectangle &amp;rect, float width)</td></tr>
-<tr class="separator:a4184759d297490847d6bd3b21ad7558d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88399bc2d107831f5ca526acde79917d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a88399bc2d107831f5ca526acde79917d">MR::setHeight</a> (ViewportRectangle &amp;rect, float height)</td></tr>
-<tr class="separator:a88399bc2d107831f5ca526acde79917d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ca61d3fae40bcd7a9e8ce848bf0362d"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0ca61d3fae40bcd7a9e8ce848bf0362d">MR::position</a> (const ViewportRectangle &amp;rect)</td></tr>
 <tr class="separator:a0ca61d3fae40bcd7a9e8ce848bf0362d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a306ff1f62992b3eb33c446913b64188a"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">MR::size</a> (const ViewportRectangle &amp;rect)</td></tr>
 <tr class="separator:a306ff1f62992b3eb33c446913b64188a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f5fb86a1540069cb56260e0edbde09e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a8f5fb86a1540069cb56260e0edbde09e"><td class="memTemplItemLeft" align="right" valign="top">Vector4&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8f5fb86a1540069cb56260e0edbde09e">MR::toVec4</a> (const ViewportRectangle &amp;rect)</td></tr>
+<tr class="separator:a8f5fb86a1540069cb56260e0edbde09e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a644688f2af4d550fac6d7bbeb67423a7" name="a644688f2af4d550fac6d7bbeb67423a7"></a>

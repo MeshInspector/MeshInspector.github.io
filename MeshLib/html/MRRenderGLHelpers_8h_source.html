@@ -120,23 +120,41 @@ $(document).ready(function(){initNavTree('MRRenderGLHelpers_8h_source.html','');
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <a class="code hl_define" href="MRGLMacro_8h.html#adc011fd498ecf9829c60217bec650101">GL_EXEC</a>( glBindBuffer( GL_ARRAY_BUFFER, bufferID ) );</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordflow">if</span> ( refresh )</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    {</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <a class="code hl_define" href="MRGLMacro_8h.html#adc011fd498ecf9829c60217bec650101">GL_EXEC</a>( glBufferData( GL_ARRAY_BUFFER, <span class="keyword">sizeof</span>( T ) * V.size(), V.data(), GL_DYNAMIC_DRAW ) );</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    }</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="comment">// GL_FLOAT is left here consciously </span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordflow">if</span> <span class="keyword">constexpr</span> ( std::is_same_v&lt;Color, T&gt; )</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    {</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <a class="code hl_define" href="MRGLMacro_8h.html#adc011fd498ecf9829c60217bec650101">GL_EXEC</a>( glVertexAttribPointer( <span class="keywordtype">id</span>, baseTypeElementsNumber, GL_UNSIGNED_BYTE, GL_TRUE, 0, 0 ) );</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    }</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    {</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <a class="code hl_define" href="MRGLMacro_8h.html#adc011fd498ecf9829c60217bec650101">GL_EXEC</a>( glVertexAttribPointer( <span class="keywordtype">id</span>, baseTypeElementsNumber, GL_FLOAT, GL_FALSE, 0, 0 ) );</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    }</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <a class="code hl_define" href="MRGLMacro_8h.html#adc011fd498ecf9829c60217bec650101">GL_EXEC</a>( glEnableVertexAttribArray( <span class="keywordtype">id</span> ) );</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordflow">return</span> id;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>}</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>}</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        GLint64 bufSize = <span class="keyword">sizeof</span>( T ) * V.size();</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="keyword">auto</span> maxUploadSize = ( GLint64( 1 ) &lt;&lt; 32 ) - 4096; <span class="comment">//4Gb - 4096, 4Gb is already too much</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="keywordflow">if</span> ( bufSize &lt;= maxUploadSize )</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        {</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>            <span class="comment">// buffers less than 4Gb are ok to load immediately</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>            <a class="code hl_define" href="MRGLMacro_8h.html#adc011fd498ecf9829c60217bec650101">GL_EXEC</a>( glBufferData( GL_ARRAY_BUFFER, bufSize, V.data(), GL_DYNAMIC_DRAW ) );</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        }</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        {</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>            <span class="comment">// buffers more than 4Gb are better to split on chunks to avoid strange errors from GL or drivers</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>            <a class="code hl_define" href="MRGLMacro_8h.html#adc011fd498ecf9829c60217bec650101">GL_EXEC</a>( glBufferData( GL_ARRAY_BUFFER, bufSize, <span class="keyword">nullptr</span>, GL_DYNAMIC_DRAW ) );</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            GLint64 remStart = 0;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>            <span class="keyword">auto</span> remSize = bufSize;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>            <span class="keywordflow">for</span> ( ; remSize &gt; maxUploadSize; remSize -= maxUploadSize, remStart += maxUploadSize )</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>            {</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>                <a class="code hl_define" href="MRGLMacro_8h.html#adc011fd498ecf9829c60217bec650101">GL_EXEC</a>( glBufferSubData( GL_ARRAY_BUFFER, remStart, maxUploadSize, (<span class="keyword">const</span> <span class="keywordtype">char</span> *)V.data() + remStart ) );</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            }</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>            <a class="code hl_define" href="MRGLMacro_8h.html#adc011fd498ecf9829c60217bec650101">GL_EXEC</a>( glBufferSubData( GL_ARRAY_BUFFER, remStart, remSize, (<span class="keyword">const</span> <span class="keywordtype">char</span> *)V.data() + remStart ) );</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        }</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    }</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="comment">// GL_FLOAT is left here consciously </span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordflow">if</span> <span class="keyword">constexpr</span> ( std::is_same_v&lt;Color, T&gt; )</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    {</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <a class="code hl_define" href="MRGLMacro_8h.html#adc011fd498ecf9829c60217bec650101">GL_EXEC</a>( glVertexAttribPointer( <span class="keywordtype">id</span>, baseTypeElementsNumber, GL_UNSIGNED_BYTE, GL_TRUE, 0, 0 ) );</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    }</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    {</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <a class="code hl_define" href="MRGLMacro_8h.html#adc011fd498ecf9829c60217bec650101">GL_EXEC</a>( glVertexAttribPointer( <span class="keywordtype">id</span>, baseTypeElementsNumber, GL_FLOAT, GL_FALSE, 0, 0 ) );</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    }</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <a class="code hl_define" href="MRGLMacro_8h.html#adc011fd498ecf9829c60217bec650101">GL_EXEC</a>( glEnableVertexAttribArray( <span class="keywordtype">id</span> ) );</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordflow">return</span> id;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>}</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>}</div>
 <div class="ttc" id="aMRGLMacro_8h_html_adc011fd498ecf9829c60217bec650101"><div class="ttname"><a href="MRGLMacro_8h.html#adc011fd498ecf9829c60217bec650101">GL_EXEC</a></div><div class="ttdeci">#define GL_EXEC(func)</div><div class="ttdef"><b>Definition:</b> MRGLMacro.h:4</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MR2DContoursTriangulation.h:6</div></div>
 <div class="ttc" id="anamespaceMR_html_af3195ad084150a174fda5a64ced01834"><div class="ttname"><a href="namespaceMR.html#af3195ad084150a174fda5a64ced01834">MR::bindVertexAttribArray</a></div><div class="ttdeci">GLint bindVertexAttribArray(const GLuint program_shader, const std::string &amp;name, GLuint bufferID, const std::vector&lt; T &gt; &amp;V, int baseTypeElementsNumber, bool refresh)</div><div class="ttdef"><b>Definition:</b> MRRenderGLHelpers.h:6</div></div>

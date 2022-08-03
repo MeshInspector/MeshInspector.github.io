@@ -104,18 +104,7 @@ var hierarchy =
     [ "MR::MeshBuilder::FaceRecord", "structMR_1_1MeshBuilder_1_1FaceRecord.html", null ],
     [ "MR::File", "classMR_1_1File.html", null ],
     [ "MR::FileParameters", "structMR_1_1FileParameters.html", null ],
-    [ "MR::FillHoleMetric", "structMR_1_1FillHoleMetric.html", [
-      [ "MR::CircumscribedFillMetric", "structMR_1_1CircumscribedFillMetric.html", null ],
-      [ "MR::CircumscribedStitchMetric", "structMR_1_1CircumscribedStitchMetric.html", null ],
-      [ "MR::ComplexFillMetric", "structMR_1_1ComplexFillMetric.html", null ],
-      [ "MR::ComplexStitchMetric", "structMR_1_1ComplexStitchMetric.html", null ],
-      [ "MR::EdgeLengthFillMetric", "structMR_1_1EdgeLengthFillMetric.html", null ],
-      [ "MR::EdgeLengthStitchMetric", "structMR_1_1EdgeLengthStitchMetric.html", null ],
-      [ "MR::ParallelPlaneFillMetric", "structMR_1_1ParallelPlaneFillMetric.html", null ],
-      [ "MR::PlaneFillMetric", "structMR_1_1PlaneFillMetric.html", null ],
-      [ "MR::PlaneNormalizedFillMetric", "structMR_1_1PlaneNormalizedFillMetric.html", null ],
-      [ "MR::VerticalStitchMetric", "structMR_1_1VerticalStitchMetric.html", null ]
-    ] ],
+    [ "MR::FillHoleMetric", "structMR_1_1FillHoleMetric.html", null ],
     [ "MR::FillHoleParams", "structMR_1_1FillHoleParams.html", null ],
     [ "MR::Viewport::FitDataParams", "structMR_1_1Viewport_1_1FitDataParams.html", null ],
     [ "openvdb::FloatGrid", null, [
@@ -127,6 +116,7 @@ var hierarchy =
     [ "MR::Histogram", "classMR_1_1Histogram.html", null ],
     [ "MR::Historian< HistoryActionType >", "classMR_1_1Historian.html", null ],
     [ "MR::HistoryAction", "classMR_1_1HistoryAction.html", [
+      [ "MR::ChangeLabelAction", "classMR_1_1ChangeLabelAction.html", null ],
       [ "MR::ChangeMeshAction", "classMR_1_1ChangeMeshAction.html", null ],
       [ "MR::ChangeMeshCreasesAction", "classMR_1_1ChangeMeshCreasesAction.html", null ],
       [ "MR::ChangeMeshEdgeSelectionAction", "classMR_1_1ChangeMeshEdgeSelectionAction.html", null ],
@@ -183,9 +173,8 @@ var hierarchy =
       [ "MR::MarkedVoxelSlice", "classMR_1_1MarkedVoxelSlice.html", null ]
     ] ],
     [ "MR::ImGuiMenu", null, [
-      [ "MR::Menu", "classMR_1_1Menu.html", [
-        [ "MR::RibbonMenu", "classMR_1_1RibbonMenu.html", null ]
-      ] ]
+      [ "MR::Menu", "classMR_1_1Menu.html", null ],
+      [ "MR::RibbonMenu", "classMR_1_1RibbonMenu.html", null ]
     ] ],
     [ "MR::FixUndercuts::ImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html", [
       [ "MR::FixUndercuts::DistMapImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html", null ]
@@ -310,7 +299,6 @@ var hierarchy =
     [ "MR::ViewportGL::PickResult", "structMR_1_1ViewportGL_1_1PickResult.html", null ],
     [ "MR::Plane3< T >", "structMR_1_1Plane3.html", null ],
     [ "MR::Plane3< float >", "structMR_1_1Plane3.html", null ],
-    [ "PlaneNormalizedFillMetricPlaneNormalizedFillMetric", "structMR_1_1PlaneNormalizedFillMetricPlaneNormalizedFillMetric.html", null ],
     [ "MR::AABBTreePoints::Point", "structMR_1_1AABBTreePoints_1_1Point.html", null ],
     [ "MR::PointAccumulator", "classMR_1_1PointAccumulator.html", null ],
     [ "MR::PointCloud", "structMR_1_1PointCloud.html", null ],
@@ -472,8 +460,8 @@ var hierarchy =
     [ "MR::ViewportLinesWithColors", "structMR_1_1ViewportLinesWithColors.html", null ],
     [ "MR::ViewportMask", "classMR_1_1ViewportMask.html", null ],
     [ "MR::ViewportPointsWithColors", "structMR_1_1ViewportPointsWithColors.html", null ],
-    [ "MR::ViewportRectangle", "structMR_1_1ViewportRectangle.html", null ],
     [ "MR::VisualizeMaskType", "structMR_1_1VisualizeMaskType.html", [
+      [ "MR::LabelVisualizePropertyType", "structMR_1_1LabelVisualizePropertyType.html", null ],
       [ "MR::LinesVisualizePropertyType", "structMR_1_1LinesVisualizePropertyType.html", null ],
       [ "MR::MeshVisualizePropertyType", "structMR_1_1MeshVisualizePropertyType.html", null ],
       [ "MR::PointsVisualizePropertyType", "structMR_1_1PointsVisualizePropertyType.html", null ]

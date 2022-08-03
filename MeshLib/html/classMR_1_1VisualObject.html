@@ -465,6 +465,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:ad08fa216d19200df10b480b90eb36d23 inherit pro_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa7de2dfba47f9766bfa741f01f73e42 inherit pro_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#afa7de2dfba47f9766bfa741f01f73e42">deserializeFields_</a> (const Json::Value &amp;root)</td></tr>
 <tr class="separator:afa7de2dfba47f9766bfa741f01f73e42 inherit pro_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a086e646a07cc3e96ca62e35d82ea8de7 inherit pro_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a086e646a07cc3e96ca62e35d82ea8de7">propagateWorldXfChangedSignal_</a> ()</td></tr>
+<tr class="separator:a086e646a07cc3e96ca62e35d82ea8de7 inherit pro_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -546,11 +548,11 @@ Protected Attributes</h2></td></tr>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_types_classMR_1_1Object"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
 <tr class="memitem:a881447c499a3df3c3718efd430c0637c inherit pub_types_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c">XfChangedSignal</a> = boost::signals2::signal&lt; void() &gt;</td></tr>
-<tr class="memdesc:a881447c499a3df3c3718efd430c0637c inherit pub_types_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about xf changing, triggered in setXf and setWorldXf  <a href="classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c">More...</a><br /></td></tr>
+<tr class="memdesc:a881447c499a3df3c3718efd430c0637c inherit pub_types_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about xf changing, triggered in setXf and setWorldXf, it is called for children too  <a href="classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c">More...</a><br /></td></tr>
 <tr class="separator:a881447c499a3df3c3718efd430c0637c inherit pub_types_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classMR_1_1Object"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
-<tr class="memitem:a53b1ca36265166bd0b311aead0529867 inherit pub_attribs_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c">XfChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a53b1ca36265166bd0b311aead0529867">xfChangedSignal</a></td></tr>
-<tr class="separator:a53b1ca36265166bd0b311aead0529867 inherit pub_attribs_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c">XfChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964">worldXfChangedSignal</a></td></tr>
+<tr class="separator:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Visual <a class="el" href="classMR_1_1Object.html" title="named object in the data model">Object</a>. </p>
@@ -882,7 +884,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>get all visualize properties masks as array </p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1ObjectLinesHolder.html#a2798b1849e8c43f61a65e198db996c38">MR::ObjectLinesHolder</a>, <a class="el" href="classMR_1_1ObjectMeshHolder.html#a86585f8998b1881037c9ebbcc829c92a">MR::ObjectMeshHolder</a>, and <a class="el" href="classMR_1_1ObjectPointsHolder.html#a101816077775340afe3a15f30133d1d2">MR::ObjectPointsHolder</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1ObjectLabel.html#a5b10cc10b02a2ed853b584b4bfac0683">MR::ObjectLabel</a>, <a class="el" href="classMR_1_1ObjectLinesHolder.html#a2798b1849e8c43f61a65e198db996c38">MR::ObjectLinesHolder</a>, <a class="el" href="classMR_1_1ObjectMeshHolder.html#a86585f8998b1881037c9ebbcc829c92a">MR::ObjectMeshHolder</a>, and <a class="el" href="classMR_1_1ObjectPointsHolder.html#a101816077775340afe3a15f30133d1d2">MR::ObjectPointsHolder</a>.</p>
 
 </div>
 </div>
@@ -1245,7 +1247,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>returns mask of viewports where given property is set </p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1ObjectLinesHolder.html#a5d13c8c395f958091f374366074439e4">MR::ObjectLinesHolder</a>, <a class="el" href="classMR_1_1ObjectMeshHolder.html#ac0f13f89df19885b41e35136217f58b8">MR::ObjectMeshHolder</a>, and <a class="el" href="classMR_1_1ObjectPointsHolder.html#afbc2556aa91e8d7295d05f97ae0b7ed8">MR::ObjectPointsHolder</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1ObjectLabel.html#ae3e0686d66023af689f1fb43fca5f83c">MR::ObjectLabel</a>, <a class="el" href="classMR_1_1ObjectLinesHolder.html#a5d13c8c395f958091f374366074439e4">MR::ObjectLinesHolder</a>, <a class="el" href="classMR_1_1ObjectMeshHolder.html#ac0f13f89df19885b41e35136217f58b8">MR::ObjectMeshHolder</a>, and <a class="el" href="classMR_1_1ObjectPointsHolder.html#afbc2556aa91e8d7295d05f97ae0b7ed8">MR::ObjectPointsHolder</a>.</p>
 
 </div>
 </div>

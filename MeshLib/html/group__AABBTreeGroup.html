@@ -255,10 +255,15 @@ Functions</h2></td></tr>
 <tr class="memitem:ga66ee7b0ec534fcfe70ef96f8f3d3b545"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshSignedDistanceResult.html">MeshSignedDistanceResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga66ee7b0ec534fcfe70ef96f8f3d3b545">MR::findSignedDistance</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;a, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;b, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *rigidB2A=nullptr, float upDistLimitSq=FLT_MAX)</td></tr>
 <tr class="memdesc:ga66ee7b0ec534fcfe70ef96f8f3d3b545"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes minimal distance between two meshes  <a href="group__AABBTreeGroup.html#ga66ee7b0ec534fcfe70ef96f8f3d3b545">More...</a><br /></td></tr>
 <tr class="separator:ga66ee7b0ec534fcfe70ef96f8f3d3b545"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga375d9c9dcfb1fd7d9a254a73370d71ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga375d9c9dcfb1fd7d9a254a73370d71ba">MR::findMaxDistanceSqOneWay</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;a, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;b, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *rigidB2A=nullptr, float maxDistanceSq=FLT_MAX)</td></tr>
+<tr class="memdesc:ga375d9c9dcfb1fd7d9a254a73370d71ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximum of the distances from each B-mesh point to A-mesh  <a href="group__AABBTreeGroup.html#ga375d9c9dcfb1fd7d9a254a73370d71ba">More...</a><br /></td></tr>
+<tr class="separator:ga375d9c9dcfb1fd7d9a254a73370d71ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3672072155e3f272d13a40ccd4645d02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga3672072155e3f272d13a40ccd4645d02">MR::findMaxDistanceSq</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;a, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;b, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *rigidB2A=nullptr, float maxDistanceSq=FLT_MAX)</td></tr>
+<tr class="memdesc:ga3672072155e3f272d13a40ccd4645d02"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximum of the distances from each mesh point to another mesh in both directions  <a href="group__AABBTreeGroup.html#ga3672072155e3f272d13a40ccd4645d02">More...</a><br /></td></tr>
+<tr class="separator:ga3672072155e3f272d13a40ccd4645d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabc0eec956303a3e852dd8f7e07f55d12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1MeshIntersectionResult.html">MeshIntersectionResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gabc0eec956303a3e852dd8f7e07f55d12">MR::rayMeshIntersect</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, const <a class="el" href="namespaceMR.html#acfd96aa6798933e1a002144fb0dc22af">Line3f</a> &amp;line, float rayStart=0.0f, float rayEnd=FLT_MAX, const <a class="el" href="structMR_1_1IntersectionPrecomputes.html">IntersectionPrecomputes</a>&lt; float &gt; *prec=nullptr, bool closestIntersect=true)</td></tr>
 <tr class="separator:gabc0eec956303a3e852dd8f7e07f55d12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga046de9351673df9583898d31c01e297c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1MeshIntersectionResult.html">MeshIntersectionResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga046de9351673df9583898d31c01e297c">MR::rayMeshIntersect</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, const <a class="el" href="namespaceMR.html#ad78dde2996d3a2b85bb7fd22db18efb6">Line3d</a> &amp;line, double rayStart=0.0, double rayEnd=DBL_MAX, const <a class="el" href="structMR_1_1IntersectionPrecomputes.html">IntersectionPrecomputes</a>&lt; double &gt; *prec=nullptr, bool closestIntersect=true)</td></tr>
-<tr class="memdesc:ga046de9351673df9583898d31c01e297c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <a class="el" href="group__AABBTreeGroup.html#rayMeshIntersectF">rayMeshIntersectF</a>, but use double precision.  <a href="group__AABBTreeGroup.html#ga046de9351673df9583898d31c01e297c">More...</a><br /></td></tr>
 <tr class="separator:ga046de9351673df9583898d31c01e297c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga541656ec925c37fde32a91a25444e35f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1MultiMeshIntersectionResult.html">MultiMeshIntersectionResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga541656ec925c37fde32a91a25444e35f">MR::rayMultiMeshAnyIntersect</a> (const std::vector&lt; <a class="el" href="group__AABBTreeGroup.html#ga5ab271790117f87421a1332a6c3e9d95">Line3fMesh</a> &gt; &amp;lineMeshes, float rayStart=0.0f, float rayEnd=FLT_MAX)</td></tr>
 <tr class="separator:ga541656ec925c37fde32a91a25444e35f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -298,18 +303,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga2aba3040bbdbbafb7d8e38803b955524"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga2aba3040bbdbbafb7d8e38803b955524">MR::isPointInsidePolyline</a> (const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;polyline, const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;point)</td></tr>
 <tr class="memdesc:ga2aba3040bbdbbafb7d8e38803b955524"><td class="mdescLeft">&#160;</td><td class="mdescRight">detect if given point is inside polyline, by counting ray intersections  <a href="group__AABBTreeGroup.html#ga2aba3040bbdbbafb7d8e38803b955524">More...</a><br /></td></tr>
 <tr class="separator:ga2aba3040bbdbbafb7d8e38803b955524"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1c3a835211885d9a101eb4c7344b1954"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga1c3a835211885d9a101eb4c7344b1954">MR::closestPointOnLine</a> (const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;pt, const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;a, const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;b)</td></tr>
-<tr class="memdesc:ga1c3a835211885d9a101eb4c7344b1954"><td class="mdescLeft">&#160;</td><td class="mdescRight">return closest point on ab segment, use closestPointOnLineSegm( const Vector3&lt;T&gt;&amp; pt, const LineSegm3&lt;T&gt; &amp; l ) instead  <a href="group__AABBTreeGroup.html#ga1c3a835211885d9a101eb4c7344b1954">More...</a><br /></td></tr>
-<tr class="separator:ga1c3a835211885d9a101eb4c7344b1954"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaca9e8826ee187bd7337149bd1b75f3d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Polyline2ProjectionResult.html">Polyline2ProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaca9e8826ee187bd7337149bd1b75f3d5">MR::findProjectionOnPolyline2</a> (const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;pt, const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;polyline, float upDistLimitSq=FLT_MAX, <a class="el" href="namespaceMR.html#aaf5a1eb99830c5d7196aa5bf3a05f70e">AffineXf2f</a> *xf=nullptr)</td></tr>
 <tr class="memdesc:gaca9e8826ee187bd7337149bd1b75f3d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on two dimensional polyline to given point  <a href="group__AABBTreeGroup.html#gaca9e8826ee187bd7337149bd1b75f3d5">More...</a><br /></td></tr>
 <tr class="separator:gaca9e8826ee187bd7337149bd1b75f3d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad4d1904259196cbfcb2d9fe4bf4c02a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Polyline2ProjectionWithOffsetResult.html">Polyline2ProjectionWithOffsetResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gad4d1904259196cbfcb2d9fe4bf4c02a2">MR::findProjectionOnPolyline2WithOffset</a> (const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;pt, const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;polyline, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="el" href="namespaceMR.html#a65798dca01178b50da3bbd7968fb360e">UndirectedEdgeId</a> &gt; &amp;offsetPerEdge, float upDistLimit=FLT_MAX, <a class="el" href="namespaceMR.html#aaf5a1eb99830c5d7196aa5bf3a05f70e">AffineXf2f</a> *xf=nullptr)</td></tr>
 <tr class="memdesc:gad4d1904259196cbfcb2d9fe4bf4c02a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on polyline to given point, respecting each edge offset  <a href="group__AABBTreeGroup.html#gad4d1904259196cbfcb2d9fe4bf4c02a2">More...</a><br /></td></tr>
 <tr class="separator:gad4d1904259196cbfcb2d9fe4bf4c02a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga519c40710866674c7e36402a8570e4c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga519c40710866674c7e36402a8570e4c1">MR::closestPointOnLine</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pt, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;a, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;b)</td></tr>
-<tr class="memdesc:ga519c40710866674c7e36402a8570e4c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">return closest point on ab segment, use closestPointOnLineSegm( const Vector3&lt;T&gt;&amp; pt, const LineSegm3&lt;T&gt; &amp; l ) instead  <a href="group__AABBTreeGroup.html#ga519c40710866674c7e36402a8570e4c1">More...</a><br /></td></tr>
-<tr class="separator:ga519c40710866674c7e36402a8570e4c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaebaaaa7cf53de1be9f59d9526b95c920"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PolylineProjectionResult.html">PolylineProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaebaaaa7cf53de1be9f59d9526b95c920">MR::findProjectionOnPolyline</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pt, const <a class="el" href="namespaceMR.html#a58b74f27c86e7e9dee889bfe30f3022a">Polyline3</a> &amp;polyline, float upDistLimitSq=FLT_MAX, <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr)</td></tr>
 <tr class="memdesc:gaebaaaa7cf53de1be9f59d9526b95c920"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on polyline to given point  <a href="group__AABBTreeGroup.html#gaebaaaa7cf53de1be9f59d9526b95c920">More...</a><br /></td></tr>
 <tr class="separator:gaebaaaa7cf53de1be9f59d9526b95c920"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -510,78 +509,6 @@ template&lt;typename V &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga1c3a835211885d9a101eb4c7344b1954" name="ga1c3a835211885d9a101eb4c7344b1954"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1c3a835211885d9a101eb4c7344b1954">&#9670;&nbsp;</a></span>closestPointOnLine() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> MR::closestPointOnLine </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;&#160;</td>
-          <td class="paramname"><em>pt</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>return closest point on ab segment, use closestPointOnLineSegm( const Vector3&lt;T&gt;&amp; pt, const LineSegm3&lt;T&gt; &amp; l ) instead </p>
-
-</div>
-</div>
-<a id="ga519c40710866674c7e36402a8570e4c1" name="ga519c40710866674c7e36402a8570e4c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga519c40710866674c7e36402a8570e4c1">&#9670;&nbsp;</a></span>closestPointOnLine() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> MR::closestPointOnLine </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
-          <td class="paramname"><em>pt</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>return closest point on ab segment, use closestPointOnLineSegm( const Vector3&lt;T&gt;&amp; pt, const LineSegm3&lt;T&gt; &amp; l ) instead </p>
-
-</div>
-</div>
 <a id="ga44c8af10ceaf3059a77647d7b6f2ca8b" name="ga44c8af10ceaf3059a77647d7b6f2ca8b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga44c8af10ceaf3059a77647d7b6f2ca8b">&#9670;&nbsp;</a></span>findCollidingEdges()</h2>
 
@@ -980,6 +907,104 @@ template&lt;typename V &gt; </div>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
     <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the distance in question, if the real distance is larger than the function exists returning upDistLimitSq and no valid points </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga3672072155e3f272d13a40ccd4645d02" name="ga3672072155e3f272d13a40ccd4645d02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3672072155e3f272d13a40ccd4645d02">&#9670;&nbsp;</a></span>findMaxDistanceSq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::findMaxDistanceSq </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *&#160;</td>
+          <td class="paramname"><em>rigidB2A</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxDistanceSq</em> = <code>FLT_MAX</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns the maximum of the distances from each mesh point to another mesh in both directions </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga375d9c9dcfb1fd7d9a254a73370d71ba" name="ga375d9c9dcfb1fd7d9a254a73370d71ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga375d9c9dcfb1fd7d9a254a73370d71ba">&#9670;&nbsp;</a></span>findMaxDistanceSqOneWay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::findMaxDistanceSqOneWay </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *&#160;</td>
+          <td class="paramname"><em>rigidB2A</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxDistanceSq</em> = <code>FLT_MAX</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns the maximum of the distances from each B-mesh point to A-mesh </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq </td></tr>
   </table>
   </dd>
 </dl>
@@ -2003,8 +2028,7 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Same as <a class="el" href="group__AABBTreeGroup.html#rayMeshIntersectF">rayMeshIntersectF</a>, but use double precision. </p>
+<p >Finds ray and mesh intersection in double-precision. <code>rayStart</code> and <code>rayEnd</code> define the interval on the ray to detect an intersection. <code>prec</code> can be specified to reuse some precomputations (e.g. for checking many parallel rays). Finds the closest to ray origin intersection (or any intersection for better performance if <code>!closestIntersect</code>). </p>
 
 </div>
 </div>
@@ -2057,7 +2081,7 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Intersects ray with mesh. Finds the closest to origin intersection (or any intersection for better performance if !closestIntersect) <a class="anchor" id="rayMeshIntersectF"></a> </p>
+<p >Finds ray and mesh intersection in float-precision. <code>rayStart</code> and <code>rayEnd</code> define the interval on the ray to detect an intersection. <code>prec</code> can be specified to reuse some precomputations (e.g. for checking many parallel rays). Finds the closest to ray origin intersection (or any intersection for better performance if <code>!closestIntersect</code>). </p>
 
 </div>
 </div>

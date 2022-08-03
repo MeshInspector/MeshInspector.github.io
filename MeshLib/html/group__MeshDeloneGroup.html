@@ -101,10 +101,6 @@ $(document).ready(function(){initNavTree('group__MeshDeloneGroup.html',''); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaba44f8d705d9bc1b98f635bdabe488ae"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gaba44f8d705d9bc1b98f635bdabe488ae"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#gaba44f8d705d9bc1b98f635bdabe488ae">MR::circumcircleDiameter</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c)</td></tr>
-<tr class="memdesc:gaba44f8d705d9bc1b98f635bdabe488ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the diameter of the triangle's ABC circumcircle  <a href="group__MeshDeloneGroup.html#gaba44f8d705d9bc1b98f635bdabe488ae">More...</a><br /></td></tr>
-<tr class="separator:gaba44f8d705d9bc1b98f635bdabe488ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad14fb2301479fa1ddd15437fb3ae0a67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#gad14fb2301479fa1ddd15437fb3ae0a67">MR::checkDeloneQuadrangle</a> (const <a class="el" href="namespaceMR.html#acdf274ca41944bedb1adac9e432d5f5c">Vector3d</a> &amp;a, const <a class="el" href="namespaceMR.html#acdf274ca41944bedb1adac9e432d5f5c">Vector3d</a> &amp;b, const <a class="el" href="namespaceMR.html#acdf274ca41944bedb1adac9e432d5f5c">Vector3d</a> &amp;c, const <a class="el" href="namespaceMR.html#acdf274ca41944bedb1adac9e432d5f5c">Vector3d</a> &amp;d, double maxAngleChange=<a class="el" href="namespaceMR.html#a500d4f823bf14e54d3aa73d4761a66d6">NoAngleChangeLimit</a>)</td></tr>
 <tr class="separator:gad14fb2301479fa1ddd15437fb3ae0a67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1ec4380e546867f3bf9809066ffecd3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#ga1ec4380e546867f3bf9809066ffecd3d">MR::checkDeloneQuadrangle</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;a, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;b, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;c, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;d, float maxAngleChange=<a class="el" href="namespaceMR.html#a500d4f823bf14e54d3aa73d4761a66d6">NoAngleChangeLimit</a>)</td></tr>
@@ -258,44 +254,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >consider quadrangle formed by left and right triangles of given edge, and checks whether this edge satisfies Delone's condition in the quadrangle; </p><dl class="section return"><dt>Returns</dt><dd>false otherwise if flipping the edge does not introduce too large surface deviation </dd></dl>
-
-</div>
-</div>
-<a id="gaba44f8d705d9bc1b98f635bdabe488ae" name="gaba44f8d705d9bc1b98f635bdabe488ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaba44f8d705d9bc1b98f635bdabe488ae">&#9670;&nbsp;</a></span>circumcircleDiameter()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">T MR::circumcircleDiameter </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>b</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>c</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>computes the diameter of the triangle's ABC circumcircle </p>
 
 </div>
 </div>

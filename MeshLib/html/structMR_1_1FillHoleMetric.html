@@ -94,249 +94,95 @@ $(document).ready(function(){initNavTree('structMR_1_1FillHoleMetric.html',''); 
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1FillHoleMetric-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::FillHoleMetric Struct Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__MeshAlgorithmGroup.html">Mesh Algorithm</a> &raquo; <a class="el" href="group__FillHoleGroup.html">Fill/Stitch Holes overview</a></div></div></div>
+  <div class="headertitle"><div class="title">MR::FillHoleMetric Struct Reference<div class="ingroups"><a class="el" href="group__MeshAlgorithmGroup.html">Mesh Algorithm</a> &raquo; <a class="el" href="group__FillHoleGroup.html">Fill/Stitch Holes overview</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Provides interface for controlling fillHole and buildCylinderBetweenTwoHoles triangulation<br  />
+<p>Holds metrics for fillHole and buildCylinderBetweenTwoHoles triangulation<br  />
 .  
  <a href="structMR_1_1FillHoleMetric.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MRMeshMetrics_8h_source.html">MRMeshMetrics.h</a>&gt;</code></p>
-<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for MR::FillHoleMetric:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="structMR_1_1FillHoleMetric.png" usemap="#MR::FillHoleMetric_map" alt=""/>
-  <map id="MR::FillHoleMetric_map" name="MR::FillHoleMetric_map">
-<area href="structMR_1_1CircumscribedFillMetric.html" alt="MR::CircumscribedFillMetric" shape="rect" coords="196,56,382,80"/>
-<area href="structMR_1_1CircumscribedStitchMetric.html" alt="MR::CircumscribedStitchMetric" shape="rect" coords="196,112,382,136"/>
-<area href="structMR_1_1ComplexFillMetric.html" alt="MR::ComplexFillMetric" shape="rect" coords="196,168,382,192"/>
-<area href="structMR_1_1ComplexStitchMetric.html" alt="MR::ComplexStitchMetric" shape="rect" coords="196,224,382,248"/>
-<area href="structMR_1_1EdgeLengthFillMetric.html" alt="MR::EdgeLengthFillMetric" shape="rect" coords="196,280,382,304"/>
-<area href="structMR_1_1EdgeLengthStitchMetric.html" alt="MR::EdgeLengthStitchMetric" shape="rect" coords="196,336,382,360"/>
-<area href="structMR_1_1ParallelPlaneFillMetric.html" alt="MR::ParallelPlaneFillMetric" shape="rect" coords="196,392,382,416"/>
-<area href="structMR_1_1PlaneFillMetric.html" alt="MR::PlaneFillMetric" shape="rect" coords="196,448,382,472"/>
-<area href="structMR_1_1PlaneNormalizedFillMetric.html" alt="MR::PlaneNormalizedFillMetric" shape="rect" coords="196,504,382,528"/>
-<area href="structMR_1_1VerticalStitchMetric.html" alt="MR::VerticalStitchMetric" shape="rect" coords="196,560,382,584"/>
-  </map>
-</div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a4991e0a781f368792f956297a8ecc282"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleMetric.html#a4991e0a781f368792f956297a8ecc282">FillHoleMetric</a> ()=default</td></tr>
-<tr class="separator:a4991e0a781f368792f956297a8ecc282"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c82a9c96f8777128365398a69942361"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleMetric.html#a1c82a9c96f8777128365398a69942361">~FillHoleMetric</a> ()=default</td></tr>
-<tr class="separator:a1c82a9c96f8777128365398a69942361"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a165dbcec9721689e22f1f1dbed5fc4c3"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleMetric.html#a165dbcec9721689e22f1f1dbed5fc4c3">getTriangleMetric</a> (const <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &amp;a, const <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &amp;b, const <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &amp;c, const <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &amp;aOpposit, const <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &amp;cOpposit) const =0</td></tr>
-<tr class="separator:a165dbcec9721689e22f1f1dbed5fc4c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1486e40b9d2807f8b92bada10328f68f"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleMetric.html#a1486e40b9d2807f8b92bada10328f68f">getEdgeMetric</a> (const <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &amp;a, const <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &amp;b, const <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &amp;left, const <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &amp;right) const =0</td></tr>
-<tr class="separator:a1486e40b9d2807f8b92bada10328f68f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a2adaa9cd49a1857d7740bf19bb65298e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleMetric.html#a2adaa9cd49a1857d7740bf19bb65298e">hasEdgeMetric</a> { true }</td></tr>
-<tr class="memdesc:a2adaa9cd49a1857d7740bf19bb65298e"><td class="mdescLeft">&#160;</td><td class="mdescRight">if metric's <code>getEdgeMetric</code> returns constant this flag should be false  <a href="structMR_1_1FillHoleMetric.html#a2adaa9cd49a1857d7740bf19bb65298e">More...</a><br /></td></tr>
-<tr class="separator:a2adaa9cd49a1857d7740bf19bb65298e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc8ef5c37515d91d9c3cb3fbcaa1fd22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__FillHoleGroup.html#gafe78a2b0e0d220415809095d9a17e3a6">FillTriangleMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleMetric.html#acc8ef5c37515d91d9c3cb3fbcaa1fd22">triangleMetric</a></td></tr>
+<tr class="memdesc:acc8ef5c37515d91d9c3cb3fbcaa1fd22"><td class="mdescLeft">&#160;</td><td class="mdescRight">is called for each triangle, if it is set  <a href="structMR_1_1FillHoleMetric.html#acc8ef5c37515d91d9c3cb3fbcaa1fd22">More...</a><br /></td></tr>
+<tr class="separator:acc8ef5c37515d91d9c3cb3fbcaa1fd22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3048bcf785194be02ce20b5d6e6bfd61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__FillHoleGroup.html#ga378874f711e86b9642d05e7fd8cce1bc">FillEdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleMetric.html#a3048bcf785194be02ce20b5d6e6bfd61">edgeMetric</a></td></tr>
+<tr class="memdesc:a3048bcf785194be02ce20b5d6e6bfd61"><td class="mdescLeft">&#160;</td><td class="mdescRight">is called for each edge, if it is set  <a href="structMR_1_1FillHoleMetric.html#a3048bcf785194be02ce20b5d6e6bfd61">More...</a><br /></td></tr>
+<tr class="separator:a3048bcf785194be02ce20b5d6e6bfd61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b6a69b1fc9a24862156d40b44ff814c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__FillHoleGroup.html#gaad066e7bae2a07aca2ad0dfe7dd4e6db">FillCombineMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleMetric.html#a7b6a69b1fc9a24862156d40b44ff814c">combineMetric</a></td></tr>
+<tr class="memdesc:a7b6a69b1fc9a24862156d40b44ff814c"><td class="mdescLeft">&#160;</td><td class="mdescRight">is called to combine metrics from different candidates, if it is not set it just summarizes input  <a href="structMR_1_1FillHoleMetric.html#a7b6a69b1fc9a24862156d40b44ff814c">More...</a><br /></td></tr>
+<tr class="separator:a7b6a69b1fc9a24862156d40b44ff814c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Provides interface for controlling fillHole and buildCylinderBetweenTwoHoles triangulation<br  />
+<div class="textblock"><p >Holds metrics for fillHole and buildCylinderBetweenTwoHoles triangulation<br  />
 . </p>
-<p >This is abstract struct used as optimization metric of fillHole and buildCylinderBetweenTwoHoles functions<br  />
- getTriangleMetric is called for each new triangle candidate and its two known neighbors<br  />
-getEdgeMetric is called only once when two part of triangulation are merging (edge between two last triangles)</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="structMR_1_1CircumscribedFillMetric.html">CircumscribedFillMetric</a> </dd>
+<p >This is struct used as optimization metric of fillHole and buildCylinderBetweenTwoHoles functions<br  />
+ </p><dl class="section see"><dt>See also</dt><dd>getCircumscribedFillMetric </dd>
 <dd>
-<a class="el" href="structMR_1_1PlaneFillMetric.html">PlaneFillMetric</a> </dd>
+<a class="el" href="group__FillHoleGroup.html#gaa490c6225ad37e5491af1ed61365e774">getPlaneFillMetric</a> </dd>
 <dd>
-<a class="el" href="structMR_1_1EdgeLengthFillMetric.html">EdgeLengthFillMetric</a> </dd>
+<a class="el" href="group__FillHoleGroup.html#ga2bc1cb5bc1aba5dea400fb1ea6cc8a63">getEdgeLengthFillMetric</a> </dd>
 <dd>
-<a class="el" href="structMR_1_1ComplexStitchMetric.html">ComplexStitchMetric</a> </dd>
+<a class="el" href="group__FillHoleGroup.html#ga21177488c5c69bed8eba38677306be0b">getEdgeLengthStitchMetric</a> </dd>
 <dd>
-<a class="el" href="structMR_1_1CircumscribedStitchMetric.html">CircumscribedStitchMetric</a> </dd>
+<a class="el" href="group__FillHoleGroup.html#ga254a08307d5300b9bc3843d7c8acf653">getComplexStitchMetric</a> </dd>
 <dd>
-<a class="el" href="structMR_1_1EdgeLengthStitchMetric.html">EdgeLengthStitchMetric</a> </dd>
+getCircumscribedStitchMetric </dd>
 <dd>
 <a class="el" href="group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05">fillHole</a> </dd>
 <dd>
 <a class="el" href="group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157">buildCylinderBetweenTwoHoles</a> </dd></dl>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a4991e0a781f368792f956297a8ecc282" name="a4991e0a781f368792f956297a8ecc282"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4991e0a781f368792f956297a8ecc282">&#9670;&nbsp;</a></span>FillHoleMetric()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MR::FillHoleMetric::FillHoleMetric </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1c82a9c96f8777128365398a69942361" name="a1c82a9c96f8777128365398a69942361"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c82a9c96f8777128365398a69942361">&#9670;&nbsp;</a></span>~FillHoleMetric()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual MR::FillHoleMetric::~FillHoleMetric </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a1486e40b9d2807f8b92bada10328f68f" name="a1486e40b9d2807f8b92bada10328f68f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1486e40b9d2807f8b92bada10328f68f">&#9670;&nbsp;</a></span>getEdgeMetric()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual double MR::FillHoleMetric::getEdgeMetric </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &amp;&#160;</td>
-          <td class="paramname"><em>left</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &amp;&#160;</td>
-          <td class="paramname"><em>right</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="structMR_1_1CircumscribedStitchMetric.html#a317d904c18c14aa36da0b8c99ddeb3a3">MR::CircumscribedStitchMetric</a>, <a class="el" href="structMR_1_1VerticalStitchMetric.html#ae0e5324ec9c3fda4a419ae6e222aaa10">MR::VerticalStitchMetric</a>, <a class="el" href="structMR_1_1EdgeLengthFillMetric.html#a6bce73f86721ae78f020122a07e4e44f">MR::EdgeLengthFillMetric</a>, <a class="el" href="structMR_1_1EdgeLengthStitchMetric.html#a71658e2fe509bc851b424f3cfca12d23">MR::EdgeLengthStitchMetric</a>, <a class="el" href="structMR_1_1ComplexFillMetric.html#a12c9349e8d40b9a9d6110521fd24192a">MR::ComplexFillMetric</a>, <a class="el" href="structMR_1_1ParallelPlaneFillMetric.html#a352fede7b161f71d85b26551403d44f2">MR::ParallelPlaneFillMetric</a>, <a class="el" href="structMR_1_1CircumscribedFillMetric.html#aace70ac493bd1e39de88385dbbc724dd">MR::CircumscribedFillMetric</a>, <a class="el" href="structMR_1_1PlaneFillMetric.html#afb3c96e97c2cd971815b1ecbd3d8d493">MR::PlaneFillMetric</a>, <a class="el" href="structMR_1_1PlaneNormalizedFillMetric.html#a02f47104c3af75517a775cf9eeb9d48f">MR::PlaneNormalizedFillMetric</a>, and <a class="el" href="structMR_1_1ComplexStitchMetric.html#a112c17d68a267185e2524893eeb87b6c">MR::ComplexStitchMetric</a>.</p>
-
-</div>
-</div>
-<a id="a165dbcec9721689e22f1f1dbed5fc4c3" name="a165dbcec9721689e22f1f1dbed5fc4c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a165dbcec9721689e22f1f1dbed5fc4c3">&#9670;&nbsp;</a></span>getTriangleMetric()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual double MR::FillHoleMetric::getTriangleMetric </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &amp;&#160;</td>
-          <td class="paramname"><em>c</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &amp;&#160;</td>
-          <td class="paramname"><em>aOpposit</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &amp;&#160;</td>
-          <td class="paramname"><em>cOpposit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="structMR_1_1CircumscribedFillMetric.html#a23fc7dbe76a231320e027267715ee7b6">MR::CircumscribedFillMetric</a>, <a class="el" href="structMR_1_1PlaneFillMetric.html#aef2e699da609c9f541d9fc33a142a293">MR::PlaneFillMetric</a>, <a class="el" href="structMR_1_1PlaneNormalizedFillMetric.html#ac9df9b143eb9f67b23de63f51c4c6c0b">MR::PlaneNormalizedFillMetric</a>, <a class="el" href="structMR_1_1EdgeLengthFillMetric.html#a143de9e586e8558bbc58a2addd993c29">MR::EdgeLengthFillMetric</a>, <a class="el" href="structMR_1_1EdgeLengthStitchMetric.html#a9c717bcc2e8f4bfb9b0598c5166e158f">MR::EdgeLengthStitchMetric</a>, <a class="el" href="structMR_1_1CircumscribedStitchMetric.html#a7973de8f93103c590b4798987c3f1b8b">MR::CircumscribedStitchMetric</a>, <a class="el" href="structMR_1_1VerticalStitchMetric.html#a3d7ffc0c856cbcb2624ab9921db8e88f">MR::VerticalStitchMetric</a>, <a class="el" href="structMR_1_1ComplexFillMetric.html#a59e35c3f9f75ca0202afdf5a270bb9e8">MR::ComplexFillMetric</a>, <a class="el" href="structMR_1_1ParallelPlaneFillMetric.html#aad99d9ffdb52755dc431cb33f4c86462">MR::ParallelPlaneFillMetric</a>, and <a class="el" href="structMR_1_1ComplexStitchMetric.html#ad15ccd86fff77e74c049a839b902b6d8">MR::ComplexStitchMetric</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a2adaa9cd49a1857d7740bf19bb65298e" name="a2adaa9cd49a1857d7740bf19bb65298e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2adaa9cd49a1857d7740bf19bb65298e">&#9670;&nbsp;</a></span>hasEdgeMetric</h2>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a7b6a69b1fc9a24862156d40b44ff814c" name="a7b6a69b1fc9a24862156d40b44ff814c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b6a69b1fc9a24862156d40b44ff814c">&#9670;&nbsp;</a></span>combineMetric</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool MR::FillHoleMetric::hasEdgeMetric { true }</td>
+          <td class="memname"><a class="el" href="group__FillHoleGroup.html#gaad066e7bae2a07aca2ad0dfe7dd4e6db">FillCombineMetric</a> MR::FillHoleMetric::combineMetric</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>if metric's <code>getEdgeMetric</code> returns constant this flag should be false </p>
+<p>is called to combine metrics from different candidates, if it is not set it just summarizes input </p>
+
+</div>
+</div>
+<a id="a3048bcf785194be02ce20b5d6e6bfd61" name="a3048bcf785194be02ce20b5d6e6bfd61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3048bcf785194be02ce20b5d6e6bfd61">&#9670;&nbsp;</a></span>edgeMetric</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__FillHoleGroup.html#ga378874f711e86b9642d05e7fd8cce1bc">FillEdgeMetric</a> MR::FillHoleMetric::edgeMetric</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>is called for each edge, if it is set </p>
+
+</div>
+</div>
+<a id="acc8ef5c37515d91d9c3cb3fbcaa1fd22" name="acc8ef5c37515d91d9c3cb3fbcaa1fd22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc8ef5c37515d91d9c3cb3fbcaa1fd22">&#9670;&nbsp;</a></span>triangleMetric</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__FillHoleGroup.html#gafe78a2b0e0d220415809095d9a17e3a6">FillTriangleMetric</a> MR::FillHoleMetric::triangleMetric</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>is called for each triangle, if it is set </p>
 
 </div>
 </div>

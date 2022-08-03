@@ -86,5 +86,7 @@ var group__PolylineGroup =
       [ "vertResize", "classMR_1_1PolylineTopology.html#a84ccf7860cc1f6ffbfaffe6f0b603593", null ],
       [ "vertSize", "classMR_1_1PolylineTopology.html#a9574f81615523ac5fe203e1648765942", null ],
       [ "write", "classMR_1_1PolylineTopology.html#afeacaa2685ac05679afb0b6675a1ff4b", null ]
-    ] ]
+    ] ],
+    [ "MR::relax", "group__PolylineGroup.html#ga349201f5ba6a4ad7fe91d113e0d0d2ec", null ],
+    [ "MR::relaxKeepArea", "group__PolylineGroup.html#gaf8d65b66fff9354b3bc66388ced2283c", null ]
 ];

@@ -145,7 +145,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a881447c499a3df3c3718efd430c0637c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c">XfChangedSignal</a> = boost::signals2::signal&lt; void() &gt;</td></tr>
-<tr class="memdesc:a881447c499a3df3c3718efd430c0637c"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about xf changing, triggered in setXf and setWorldXf  <a href="classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c">More...</a><br /></td></tr>
+<tr class="memdesc:a881447c499a3df3c3718efd430c0637c"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about xf changing, triggered in setXf and setWorldXf, it is called for children too  <a href="classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c">More...</a><br /></td></tr>
 <tr class="separator:a881447c499a3df3c3718efd430c0637c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -318,8 +318,8 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a53b1ca36265166bd0b311aead0529867"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c">XfChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a53b1ca36265166bd0b311aead0529867">xfChangedSignal</a></td></tr>
-<tr class="separator:a53b1ca36265166bd0b311aead0529867"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84debbb8e5d281139acb86024c2f7964"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c">XfChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964">worldXfChangedSignal</a></td></tr>
+<tr class="separator:a84debbb8e5d281139acb86024c2f7964"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -340,6 +340,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:ad08fa216d19200df10b480b90eb36d23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa7de2dfba47f9766bfa741f01f73e42"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#afa7de2dfba47f9766bfa741f01f73e42">deserializeFields_</a> (const Json::Value &amp;root)</td></tr>
 <tr class="separator:afa7de2dfba47f9766bfa741f01f73e42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a086e646a07cc3e96ca62e35d82ea8de7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a086e646a07cc3e96ca62e35d82ea8de7">propagateWorldXfChangedSignal_</a> ()</td></tr>
+<tr class="separator:a086e646a07cc3e96ca62e35d82ea8de7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -383,7 +385,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>signal about xf changing, triggered in setXf and setWorldXf </p>
+<p>signal about xf changing, triggered in setXf and setWorldXf, it is called for children too </p>
 
 </div>
 </div>
@@ -1389,6 +1391,31 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a086e646a07cc3e96ca62e35d82ea8de7" name="a086e646a07cc3e96ca62e35d82ea8de7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a086e646a07cc3e96ca62e35d82ea8de7">&#9670;&nbsp;</a></span>propagateWorldXfChangedSignal_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::Object::propagateWorldXfChangedSignal_ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1b5609ba616723794aea4dda67727865" name="a1b5609ba616723794aea4dda67727865"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1b5609ba616723794aea4dda67727865">&#9670;&nbsp;</a></span>removeAllChildren()</h2>
 
@@ -2257,6 +2284,20 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a84debbb8e5d281139acb86024c2f7964" name="a84debbb8e5d281139acb86024c2f7964"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84debbb8e5d281139acb86024c2f7964">&#9670;&nbsp;</a></span>worldXfChangedSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c">XfChangedSignal</a> MR::Object::worldXfChangedSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af6c0631e7edf10aa753d844495be0950" name="af6c0631e7edf10aa753d844495be0950"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af6c0631e7edf10aa753d844495be0950">&#9670;&nbsp;</a></span>xf_</h2>
 
@@ -2275,20 +2316,6 @@ template&lt;typename T &gt; </div>
 <span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a53b1ca36265166bd0b311aead0529867" name="a53b1ca36265166bd0b311aead0529867"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53b1ca36265166bd0b311aead0529867">&#9670;&nbsp;</a></span>xfChangedSignal</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c">XfChangedSignal</a> MR::Object::xfChangedSignal</td>
-        </tr>
-      </table>
 </div><div class="memdoc">
 
 </div>

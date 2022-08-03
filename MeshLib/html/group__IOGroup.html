@@ -172,8 +172,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga4504d1eb5a0975b3a25ffec795497de9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga4504d1eb5a0975b3a25ffec795497de9">MR::PointsLoad::fromAnySupportedFormat</a> (std::istream &amp;in, const std::string &amp;extension, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1Color.html">Color</a>, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; *colors=nullptr)</td></tr>
 <tr class="memdesc:ga4504d1eb5a0975b3a25ffec795497de9"><td class="mdescLeft">&#160;</td><td class="mdescRight">extension in <code>*.ext</code> format  <a href="group__IOGroup.html#ga4504d1eb5a0975b3a25ffec795497de9">More...</a><br /></td></tr>
 <tr class="separator:ga4504d1eb5a0975b3a25ffec795497de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac3a3f165e612f68ee4fe4e18441846b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#gac3a3f165e612f68ee4fe4e18441846b6">MR::VoxelsSave::saveRAW</a> (const std::filesystem::path &amp;path, const <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &amp;voxelsObject)</td></tr>
-<tr class="separator:gac3a3f165e612f68ee4fe4e18441846b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga07e15c317aa4520f6414d8aa01226c75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga07e15c317aa4520f6414d8aa01226c75">MR::VoxelsSave::saveRAW</a> (const std::filesystem::path &amp;path, const <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &amp;voxelsObject, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="separator:ga07e15c317aa4520f6414d8aa01226c75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -480,8 +480,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="gac3a3f165e612f68ee4fe4e18441846b6" name="gac3a3f165e612f68ee4fe4e18441846b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac3a3f165e612f68ee4fe4e18441846b6">&#9670;&nbsp;</a></span>saveRAW()</h2>
+<a id="ga07e15c317aa4520f6414d8aa01226c75" name="ga07e15c317aa4520f6414d8aa01226c75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga07e15c317aa4520f6414d8aa01226c75">&#9670;&nbsp;</a></span>saveRAW()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -496,7 +496,13 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &amp;&#160;</td>
-          <td class="paramname"><em>voxelsObject</em>&#160;</td>
+          <td class="paramname"><em>voxelsObject</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

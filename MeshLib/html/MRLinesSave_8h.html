@@ -106,6 +106,7 @@ $(document).ready(function(){initNavTree('MRLinesSave_8h.html',''); initResizabl
 <code>#include &lt;ostream&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 <code>#include &quot;<a class="el" href="MRIOFilters_8h_source.html">MRIOFilters.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
 </div>
 <p><a href="MRLinesSave_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -118,17 +119,17 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga56fbeeedf079c0319aa1839b5c5f4f4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LinesSaveGroup.html#ga56fbeeedf079c0319aa1839b5c5f4f4c">MR::LinesSave::toMrLines</a> (const Polyline3 &amp;polyline, const std::filesystem::path &amp;file)</td></tr>
-<tr class="memdesc:ga56fbeeedf079c0319aa1839b5c5f4f4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .mrlines file  <a href="group__LinesSaveGroup.html#ga56fbeeedf079c0319aa1839b5c5f4f4c">More...</a><br /></td></tr>
-<tr class="separator:ga56fbeeedf079c0319aa1839b5c5f4f4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1d5072bb9d2ec1a60b86e78f5f179bf6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LinesSaveGroup.html#ga1d5072bb9d2ec1a60b86e78f5f179bf6">MR::LinesSave::toMrLines</a> (const Polyline3 &amp;polyline, std::ostream &amp;out)</td></tr>
-<tr class="separator:ga1d5072bb9d2ec1a60b86e78f5f179bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga38c3f8245ee7fe1f1326269812013fb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LinesSaveGroup.html#ga38c3f8245ee7fe1f1326269812013fb1">MR::LinesSave::toAnySupportedFormat</a> (const Polyline3 &amp;polyline, const std::filesystem::path &amp;file)</td></tr>
-<tr class="memdesc:ga38c3f8245ee7fe1f1326269812013fb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">detects the format from file extension and saves polyline in it  <a href="group__LinesSaveGroup.html#ga38c3f8245ee7fe1f1326269812013fb1">More...</a><br /></td></tr>
-<tr class="separator:ga38c3f8245ee7fe1f1326269812013fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5144d343365411635de32ce092b75b9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LinesSaveGroup.html#ga5144d343365411635de32ce092b75b9d">MR::LinesSave::toAnySupportedFormat</a> (const Polyline3 &amp;polyline, std::ostream &amp;out, const std::string &amp;extension)</td></tr>
-<tr class="memdesc:ga5144d343365411635de32ce092b75b9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">extension in <code>*.ext</code> format  <a href="group__LinesSaveGroup.html#ga5144d343365411635de32ce092b75b9d">More...</a><br /></td></tr>
-<tr class="separator:ga5144d343365411635de32ce092b75b9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf952949b7e3411a9363d418a213498ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LinesSaveGroup.html#gaf952949b7e3411a9363d418a213498ea">MR::LinesSave::toMrLines</a> (const Polyline3 &amp;polyline, const std::filesystem::path &amp;file, ProgressCallback callback={})</td></tr>
+<tr class="memdesc:gaf952949b7e3411a9363d418a213498ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .mrlines file  <a href="group__LinesSaveGroup.html#gaf952949b7e3411a9363d418a213498ea">More...</a><br /></td></tr>
+<tr class="separator:gaf952949b7e3411a9363d418a213498ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad746f3be1777c605f9d7f43525691a88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LinesSaveGroup.html#gad746f3be1777c605f9d7f43525691a88">MR::LinesSave::toMrLines</a> (const Polyline3 &amp;polyline, std::ostream &amp;out, ProgressCallback callback={})</td></tr>
+<tr class="separator:gad746f3be1777c605f9d7f43525691a88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga38f42a5e3ecf34c306ddcab0ebcef5c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LinesSaveGroup.html#ga38f42a5e3ecf34c306ddcab0ebcef5c1">MR::LinesSave::toAnySupportedFormat</a> (const Polyline3 &amp;polyline, const std::filesystem::path &amp;file, ProgressCallback callback={})</td></tr>
+<tr class="memdesc:ga38f42a5e3ecf34c306ddcab0ebcef5c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">detects the format from file extension and saves polyline in it  <a href="group__LinesSaveGroup.html#ga38f42a5e3ecf34c306ddcab0ebcef5c1">More...</a><br /></td></tr>
+<tr class="separator:ga38f42a5e3ecf34c306ddcab0ebcef5c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad0831fe061897301e32192c9cab74b9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LinesSaveGroup.html#gad0831fe061897301e32192c9cab74b9f">MR::LinesSave::toAnySupportedFormat</a> (const Polyline3 &amp;polyline, std::ostream &amp;out, const std::string &amp;extension, ProgressCallback callback={})</td></tr>
+<tr class="memdesc:gad0831fe061897301e32192c9cab74b9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">extension in <code>*.ext</code> format  <a href="group__LinesSaveGroup.html#gad0831fe061897301e32192c9cab74b9f">More...</a><br /></td></tr>
+<tr class="separator:gad0831fe061897301e32192c9cab74b9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>

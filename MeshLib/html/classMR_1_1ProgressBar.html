@@ -94,6 +94,7 @@ $(document).ready(function(){initNavTree('classMR_1_1ProgressBar.html',''); init
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classMR_1_1ProgressBar-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::ProgressBar Class Reference</div></div>
@@ -102,14 +103,19 @@ $(document).ready(function(){initNavTree('classMR_1_1ProgressBar.html',''); init
 
 <p><code>#include &lt;<a class="el" href="MRProgressBar_8h_source.html">MRProgressBar.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a096de280a40715b2c4db2b4ccfeb821d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a096de280a40715b2c4db2b4ccfeb821d">TaskWithMainThreadPostProcessing</a> = std::function&lt; std::function&lt; void()&gt;() &gt;</td></tr>
+<tr class="separator:a096de280a40715b2c4db2b4ccfeb821d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:adc4f66889e538a9abf42689028f649c8"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#adc4f66889e538a9abf42689028f649c8">setup</a> (float scaling)</td></tr>
 <tr class="separator:adc4f66889e538a9abf42689028f649c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f0b34ef7192f1f686295f08cef35b8e"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a9f0b34ef7192f1f686295f08cef35b8e">order</a> (const char *name, const std::function&lt; void()&gt; &amp;task, int taskCount=1)</td></tr>
 <tr class="separator:a9f0b34ef7192f1f686295f08cef35b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6236c427fac8e1e55d0c089a803018e"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#ac6236c427fac8e1e55d0c089a803018e">orderWithMainThreadPostProcessing</a> (const char *name, const std::function&lt; std::function&lt; void()&gt;() &gt; &amp;task, int taskCount=1)</td></tr>
-<tr class="separator:ac6236c427fac8e1e55d0c089a803018e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fb8ec5550d87e4fe4703c76b46cb777"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a3fb8ec5550d87e4fe4703c76b46cb777">orderWithMainThreadPostProcessing</a> (const char *name, <a class="el" href="classMR_1_1ProgressBar.html#a096de280a40715b2c4db2b4ccfeb821d">TaskWithMainThreadPostProcessing</a> task, int taskCount=1)</td></tr>
+<tr class="separator:a3fb8ec5550d87e4fe4703c76b46cb777"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c764e9adb7623456e991773ae726b8f"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a9c764e9adb7623456e991773ae726b8f">isCanceled</a> ()</td></tr>
 <tr class="separator:a9c764e9adb7623456e991773ae726b8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a009d09c70beb26bb2764e8ba9b7f0a0b"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a009d09c70beb26bb2764e8ba9b7f0a0b">isFinished</a> ()</td></tr>
@@ -135,6 +141,21 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a0b425995dae2cc9bd1d2387166fb1a37"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a0b425995dae2cc9bd1d2387166fb1a37">simpleCallBackAddProgress</a> (float p)</td></tr>
 <tr class="separator:a0b425995dae2cc9bd1d2387166fb1a37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a096de280a40715b2c4db2b4ccfeb821d" name="a096de280a40715b2c4db2b4ccfeb821d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a096de280a40715b2c4db2b4ccfeb821d">&#9670;&nbsp;</a></span>TaskWithMainThreadPostProcessing</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classMR_1_1ProgressBar.html#a096de280a40715b2c4db2b4ccfeb821d">MR::ProgressBar::TaskWithMainThreadPostProcessing</a> =  std::function&lt; std::function&lt;void()&gt;() &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a7503a8dde91bc025079b36b34382bf00" name="a7503a8dde91bc025079b36b34382bf00"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7503a8dde91bc025079b36b34382bf00">&#9670;&nbsp;</a></span>addProgress()</h2>
@@ -382,8 +403,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac6236c427fac8e1e55d0c089a803018e" name="ac6236c427fac8e1e55d0c089a803018e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6236c427fac8e1e55d0c089a803018e">&#9670;&nbsp;</a></span>orderWithMainThreadPostProcessing()</h2>
+<a id="a3fb8ec5550d87e4fe4703c76b46cb777" name="a3fb8ec5550d87e4fe4703c76b46cb777"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fb8ec5550d87e4fe4703c76b46cb777">&#9670;&nbsp;</a></span>orderWithMainThreadPostProcessing()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -400,7 +421,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::function&lt; std::function&lt; void()&gt;() &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ProgressBar.html#a096de280a40715b2c4db2b4ccfeb821d">TaskWithMainThreadPostProcessing</a>&#160;</td>
           <td class="paramname"><em>task</em>, </td>
         </tr>
         <tr>

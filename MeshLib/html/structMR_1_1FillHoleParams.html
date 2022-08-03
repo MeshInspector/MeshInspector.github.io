@@ -117,8 +117,8 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aa82c166cb6925a8fda6da015701442ce"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structMR_1_1FillHoleMetric.html">FillHoleMetric</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleParams.html#aa82c166cb6925a8fda6da015701442ce">metric</a> {}</td></tr>
-<tr class="separator:aa82c166cb6925a8fda6da015701442ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ab1c2d2eb0cbb97455c747713f2371d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1FillHoleMetric.html">FillHoleMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleParams.html#a6ab1c2d2eb0cbb97455c747713f2371d">metric</a></td></tr>
+<tr class="separator:a6ab1c2d2eb0cbb97455c747713f2371d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1789bd574d007a370fe6164d4f5ca7c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleParams.html#a1789bd574d007a370fe6164d4f5ca7c4">outNewFaces</a> { nullptr }</td></tr>
 <tr class="memdesc:a1789bd574d007a370fe6164d4f5ca7c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">If not nullptr accumulate new faces.  <a href="structMR_1_1FillHoleParams.html#a1789bd574d007a370fe6164d4f5ca7c4">More...</a><br /></td></tr>
 <tr class="separator:a1789bd574d007a370fe6164d4f5ca7c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,6 +126,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a2908ad53506526829bedf3831a1de80a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48c94df0c8cc044564e0e69c8f692c5a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleParams.html#a48c94df0c8cc044564e0e69c8f692c5a">makeDegenerateBand</a> { false }</td></tr>
 <tr class="separator:a48c94df0c8cc044564e0e69c8f692c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fd7e4eb05eb26aa28ba98a886d22ce9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleParams.html#a2fd7e4eb05eb26aa28ba98a886d22ce9">maxPolygonSubdivisions</a> { 20 }</td></tr>
+<tr class="separator:a2fd7e4eb05eb26aa28ba98a886d22ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Parameters structure for <a class="el" href="group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05" title="Fills hole in mesh .">MR::fillHole</a><br  />
@@ -180,19 +182,34 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 
 </div>
 </div>
-<a id="aa82c166cb6925a8fda6da015701442ce" name="aa82c166cb6925a8fda6da015701442ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa82c166cb6925a8fda6da015701442ce">&#9670;&nbsp;</a></span>metric</h2>
+<a id="a2fd7e4eb05eb26aa28ba98a886d22ce9" name="a2fd7e4eb05eb26aa28ba98a886d22ce9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fd7e4eb05eb26aa28ba98a886d22ce9">&#9670;&nbsp;</a></span>maxPolygonSubdivisions</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="structMR_1_1FillHoleMetric.html">FillHoleMetric</a>&gt; MR::FillHoleParams::metric {}</td>
+          <td class="memname">int MR::FillHoleParams::maxPolygonSubdivisions { 20 }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >The maximum number of polygon subdivisions on a triangle and two smaller polygons, must be 2 or larger </p>
+
+</div>
+</div>
+<a id="a6ab1c2d2eb0cbb97455c747713f2371d" name="a6ab1c2d2eb0cbb97455c747713f2371d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ab1c2d2eb0cbb97455c747713f2371d">&#9670;&nbsp;</a></span>metric</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1FillHoleMetric.html">FillHoleMetric</a> MR::FillHoleParams::metric</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p >Specifies triangulation metric<br  />
-default for <a class="el" href="group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05" title="Fills hole in mesh .">MR::fillHole</a>: <a class="el" href="structMR_1_1CircumscribedFillMetric.html">CircumscribedFillMetric</a><br  />
+default for <a class="el" href="group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05" title="Fills hole in mesh .">MR::fillHole</a>: getCircumscribedFillMetric<br  />
 </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="structMR_1_1FillHoleMetric.html">FillHoleMetric</a> </dd></dl>
 
 </div>

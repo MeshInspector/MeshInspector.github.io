@@ -94,7 +94,8 @@ $(document).ready(function(){initNavTree('group__PolylineGroup.html',''); initRe
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">Polyline</div></div>
 </div><!--header-->
 <div class="contents">
@@ -107,8 +108,92 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga349201f5ba6a4ad7fe91d113e0d0d2ec"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:ga349201f5ba6a4ad7fe91d113e0d0d2ec"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__PolylineGroup.html#ga349201f5ba6a4ad7fe91d113e0d0d2ec">MR::relax</a> (<a class="el" href="structMR_1_1Polyline.html">Polyline</a>&lt; V &gt; &amp;polyline, const <a class="el" href="structMR_1_1RelaxParams.html">RelaxParams</a> &amp;params={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:ga349201f5ba6a4ad7fe91d113e0d0d2ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf8d65b66fff9354b3bc66388ced2283c"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:gaf8d65b66fff9354b3bc66388ced2283c"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__PolylineGroup.html#gaf8d65b66fff9354b3bc66388ced2283c">MR::relaxKeepArea</a> (<a class="el" href="structMR_1_1Polyline.html">Polyline</a>&lt; V &gt; &amp;polyline, const <a class="el" href="structMR_1_1RelaxParams.html">RelaxParams</a> &amp;params={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:gaf8d65b66fff9354b3bc66388ced2283c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ga349201f5ba6a4ad7fe91d113e0d0d2ec" name="ga349201f5ba6a4ad7fe91d113e0d0d2ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga349201f5ba6a4ad7fe91d113e0d0d2ec">&#9670;&nbsp;</a></span>relax()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::relax </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Polyline.html">Polyline</a>&lt; V &gt; &amp;&#160;</td>
+          <td class="paramname"><em>polyline</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1RelaxParams.html">RelaxParams</a> &amp;&#160;</td>
+          <td class="paramname"><em>params</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>cb</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >applies given number of relaxation iterations to the whole polyline ( or some region if it is specified ) </p><dl class="section return"><dt>Returns</dt><dd>true if was finished successfully, false if was interrupted by progress callback </dd></dl>
+
+</div>
+</div>
+<a id="gaf8d65b66fff9354b3bc66388ced2283c" name="gaf8d65b66fff9354b3bc66388ced2283c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf8d65b66fff9354b3bc66388ced2283c">&#9670;&nbsp;</a></span>relaxKeepArea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::relaxKeepArea </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Polyline.html">Polyline</a>&lt; V &gt; &amp;&#160;</td>
+          <td class="paramname"><em>polyline</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1RelaxParams.html">RelaxParams</a> &amp;&#160;</td>
+          <td class="paramname"><em>params</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>cb</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >applies given number of relaxation iterations to the whole polyline ( or some region if it is specified ) do not really keeps area but tries hard </p><dl class="section return"><dt>Returns</dt><dd>true if was finished successfully, false if was interrupted by progress callback </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -7,7 +7,7 @@ var classMR_1_1ViewerSettingsManager =
       [ "Voxels", "classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76a59637ce14182065617d85623a588b6f0", null ],
       [ "Count", "classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
-    [ "ViewerSettingsManager", "classMR_1_1ViewerSettingsManager.html#a0b2ec3771cb3493fd8a83acbed70c818", null ],
+    [ "ViewerSettingsManager", "classMR_1_1ViewerSettingsManager.html#a73a1b054bbf40224c9f01e6aff8af7af", null ],
     [ "getLastExtentionNum", "classMR_1_1ViewerSettingsManager.html#a79f070e05ed93a75c289913cb3c93aa0", null ],
     [ "loadSettings", "classMR_1_1ViewerSettingsManager.html#aae039b8200dd053aec8632ae57be5880", null ],
     [ "saveSettings", "classMR_1_1ViewerSettingsManager.html#a770118627bfaf87c25ea5054d8accd6b", null ],

@@ -95,43 +95,69 @@ $(document).ready(function(){initNavTree('MRMeshMetrics_8h.html',''); initResiza
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRMeshMetrics.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRVector3_8h_source.html">MRVector3.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMesh_8h_source.html">MRMesh.h</a>&quot;</code><br />
+<code>#include &lt;functional&gt;</code><br />
 </div>
 <p><a href="MRMeshMetrics_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleMetric.html">MR::FillHoleMetric</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides interface for controlling fillHole and buildCylinderBetweenTwoHoles triangulation<br  />
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds metrics for fillHole and buildCylinderBetweenTwoHoles triangulation<br  />
 .  <a href="structMR_1_1FillHoleMetric.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CircumscribedFillMetric.html">MR::CircumscribedFillMetric</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PlaneFillMetric.html">MR::PlaneFillMetric</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PlaneNormalizedFillMetric.html">MR::PlaneNormalizedFillMetric</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ComplexStitchMetric.html">MR::ComplexStitchMetric</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1EdgeLengthFillMetric.html">MR::EdgeLengthFillMetric</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1EdgeLengthStitchMetric.html">MR::EdgeLengthStitchMetric</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CircumscribedStitchMetric.html">MR::CircumscribedStitchMetric</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VerticalStitchMetric.html">MR::VerticalStitchMetric</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceMR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:gafe78a2b0e0d220415809095d9a17e3a6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gafe78a2b0e0d220415809095d9a17e3a6">MR::FillTriangleMetric</a> = std::function&lt; double(VertId, VertId, VertId)&gt;</td></tr>
+<tr class="separator:gafe78a2b0e0d220415809095d9a17e3a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga378874f711e86b9642d05e7fd8cce1bc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#ga378874f711e86b9642d05e7fd8cce1bc">MR::FillEdgeMetric</a> = std::function&lt; double(VertId, VertId, VertId, VertId)&gt;</td></tr>
+<tr class="separator:ga378874f711e86b9642d05e7fd8cce1bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaad066e7bae2a07aca2ad0dfe7dd4e6db"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gaad066e7bae2a07aca2ad0dfe7dd4e6db">MR::FillCombineMetric</a> = std::function&lt; double(double, double)&gt;</td></tr>
+<tr class="separator:gaad066e7bae2a07aca2ad0dfe7dd4e6db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga1f8991ed600a3fc8cec5258a75d5edb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FillHoleMetric&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#ga1f8991ed600a3fc8cec5258a75d5edb5">MR::getCircumscribedMetric</a> (const Mesh &amp;mesh)</td></tr>
+<tr class="separator:ga1f8991ed600a3fc8cec5258a75d5edb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa490c6225ad37e5491af1ed61365e774"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FillHoleMetric&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gaa490c6225ad37e5491af1ed61365e774">MR::getPlaneFillMetric</a> (const Mesh &amp;mesh, EdgeId e)</td></tr>
+<tr class="separator:gaa490c6225ad37e5491af1ed61365e774"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga57ca3e797d9308a5db4461b06d773c01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FillHoleMetric&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#ga57ca3e797d9308a5db4461b06d773c01">MR::getPlaneNormalizedFillMetric</a> (const Mesh &amp;mesh, EdgeId e)</td></tr>
+<tr class="separator:ga57ca3e797d9308a5db4461b06d773c01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga254a08307d5300b9bc3843d7c8acf653"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FillHoleMetric&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#ga254a08307d5300b9bc3843d7c8acf653">MR::getComplexStitchMetric</a> (const Mesh &amp;mesh)</td></tr>
+<tr class="separator:ga254a08307d5300b9bc3843d7c8acf653"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2bc1cb5bc1aba5dea400fb1ea6cc8a63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FillHoleMetric&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#ga2bc1cb5bc1aba5dea400fb1ea6cc8a63">MR::getEdgeLengthFillMetric</a> (const Mesh &amp;mesh)</td></tr>
+<tr class="memdesc:ga2bc1cb5bc1aba5dea400fb1ea6cc8a63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple metric minimizing the sum of all edge lengths.  <a href="group__FillHoleGroup.html#ga2bc1cb5bc1aba5dea400fb1ea6cc8a63">More...</a><br /></td></tr>
+<tr class="separator:ga2bc1cb5bc1aba5dea400fb1ea6cc8a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga21177488c5c69bed8eba38677306be0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FillHoleMetric&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#ga21177488c5c69bed8eba38677306be0b">MR::getEdgeLengthStitchMetric</a> (const Mesh &amp;mesh)</td></tr>
+<tr class="separator:ga21177488c5c69bed8eba38677306be0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf5fc59fe1db6fed34f037ff6dad6bc44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FillHoleMetric&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gaf5fc59fe1db6fed34f037ff6dad6bc44">MR::getVerticalStitchMetric</a> (const Mesh &amp;mesh, const Vector3f &amp;upDir)</td></tr>
+<tr class="separator:gaf5fc59fe1db6fed34f037ff6dad6bc44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa01960d0a269898638030197df262046"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FillHoleMetric&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gaa01960d0a269898638030197df262046">MR::getComplexFillMetric</a> (const Mesh &amp;mesh, EdgeId e)</td></tr>
+<tr class="separator:gaa01960d0a269898638030197df262046"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9a4b77571e011a0b74c0a419e76ef332"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FillHoleMetric&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#ga9a4b77571e011a0b74c0a419e76ef332">MR::getParallelPlaneFillMetric</a> (const Mesh &amp;mesh, EdgeId e, const Plane3f *plane=nullptr)</td></tr>
+<tr class="memdesc:ga9a4b77571e011a0b74c0a419e76ef332"><td class="mdescLeft">&#160;</td><td class="mdescRight">This metric minimizes summary projection of new edges to plane normal, (try do produce edges parallel to plane)  <a href="group__FillHoleGroup.html#ga9a4b77571e011a0b74c0a419e76ef332">More...</a><br /></td></tr>
+<tr class="separator:ga9a4b77571e011a0b74c0a419e76ef332"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab35620a56c8b1a4eb772c84e4dd9907b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FillHoleMetric&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gab35620a56c8b1a4eb772c84e4dd9907b">MR::getMaxDihedralAngleMetric</a> (const Mesh &amp;mesh)</td></tr>
+<tr class="separator:gab35620a56c8b1a4eb772c84e4dd9907b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga16a9d70b647d9b9f745ab650b21a975e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FillHoleMetric&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#ga16a9d70b647d9b9f745ab650b21a975e">MR::getUniversalMetric</a> (const Mesh &amp;mesh)</td></tr>
+<tr class="separator:ga16a9d70b647d9b9f745ab650b21a975e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga338fbef1b80c5730fcdc31a93c980781"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FillHoleMetric&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#ga338fbef1b80c5730fcdc31a93c980781">MR::getMinTriAngleMetric</a> (const Mesh &amp;mesh)</td></tr>
+<tr class="memdesc:ga338fbef1b80c5730fcdc31a93c980781"><td class="mdescLeft">&#160;</td><td class="mdescRight">This metric maximizes the minimal angle among all faces in the triangulation.  <a href="group__FillHoleGroup.html#ga338fbef1b80c5730fcdc31a93c980781">More...</a><br /></td></tr>
+<tr class="separator:ga338fbef1b80c5730fcdc31a93c980781"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

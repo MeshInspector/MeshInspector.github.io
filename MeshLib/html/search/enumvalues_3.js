@@ -1,7 +1,7 @@
 var searchData=
 [
   ['dark_0',['Dark',['../classMR_1_1ColorTheme.html#abbecc6afa53db91ada45757b845b5514aa18366b217ebf811ad1886e4f4f865b2',1,'MR::ColorTheme']]],
-  ['default_1',['Default',['../classMR_1_1ColorTheme.html#ad14d75ef685e439c80487ba1d4c41ecaa7a1920d61156abc05a60135aefe8bc67',1,'MR::ColorTheme::Default()'],['../classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4a7a1920d61156abc05a60135aefe8bc67',1,'MR::RibbonFontManager::Default()']]],
+  ['default_1',['Default',['../classMR_1_1ColorTheme.html#abbecc6afa53db91ada45757b845b5514a7a1920d61156abc05a60135aefe8bc67',1,'MR::ColorTheme::Default()'],['../classMR_1_1ColorTheme.html#ad14d75ef685e439c80487ba1d4c41ecaa7a1920d61156abc05a60135aefe8bc67',1,'MR::ColorTheme::Default()'],['../classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4a7a1920d61156abc05a60135aefe8bc67',1,'MR::RibbonFontManager::Default()']]],
   ['depthtest_2',['DepthTest',['../structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0a3bc9bab56a374528b3761e8d709366e5',1,'MR::VisualizeMaskType']]],
   ['differenceab_3',['DifferenceAB',['../group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda676747ace506f0a560e1d99f5da1ab2a',1,'MR']]],
   ['differenceba_4',['DifferenceBA',['../group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdad7e2d5557f4bc77c023a5c3fd8b52aae',1,'MR']]],

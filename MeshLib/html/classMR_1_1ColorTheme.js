@@ -2,6 +2,7 @@ var classMR_1_1ColorTheme =
 [
     [ "Preset", "classMR_1_1ColorTheme.html#abbecc6afa53db91ada45757b845b5514", [
       [ "Dark", "classMR_1_1ColorTheme.html#abbecc6afa53db91ada45757b845b5514aa18366b217ebf811ad1886e4f4f865b2", null ],
+      [ "Default", "classMR_1_1ColorTheme.html#abbecc6afa53db91ada45757b845b5514a7a1920d61156abc05a60135aefe8bc67", null ],
       [ "Light", "classMR_1_1ColorTheme.html#abbecc6afa53db91ada45757b845b5514a9914a0ce04a7b7b6a8e39bec55064b82", null ],
       [ "Count", "classMR_1_1ColorTheme.html#abbecc6afa53db91ada45757b845b5514ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],

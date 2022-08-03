@@ -10,7 +10,10 @@ var searchData=
   ['facesetbititerator_7',['FaceSetBitIterator',['../namespaceMR.html#ad84902284ca76326987bc4c6ccca31cd',1,'MR']]],
   ['facetreetraits3_8',['FaceTreeTraits3',['../group__AABBTreeGroup.html#gad692565ba80610283f4322d081a95ef8',1,'MR']]],
   ['filenamesstack_9',['FileNamesStack',['../namespaceMR.html#af2f452ad2431378d3b3a95114e14b761',1,'MR']]],
-  ['floatgrid_10',['FloatGrid',['../namespaceMR.html#a9890285ad43692fd93527cf824b1b9bf',1,'MR']]],
-  ['foldercallback_11',['FolderCallback',['../group__SerializerGroup.html#gab9e59b28eb470dd0c3c4b8e4edaf488b',1,'MR']]],
-  ['foundpointcallback_12',['FoundPointCallback',['../namespaceMR.html#ac4f1361c3362959c175d914a777b236d',1,'MR']]]
+  ['fillcombinemetric_10',['FillCombineMetric',['../group__FillHoleGroup.html#gaad066e7bae2a07aca2ad0dfe7dd4e6db',1,'MR']]],
+  ['filledgemetric_11',['FillEdgeMetric',['../group__FillHoleGroup.html#ga378874f711e86b9642d05e7fd8cce1bc',1,'MR']]],
+  ['filltrianglemetric_12',['FillTriangleMetric',['../group__FillHoleGroup.html#gafe78a2b0e0d220415809095d9a17e3a6',1,'MR']]],
+  ['floatgrid_13',['FloatGrid',['../namespaceMR.html#a9890285ad43692fd93527cf824b1b9bf',1,'MR']]],
+  ['foldercallback_14',['FolderCallback',['../group__SerializerGroup.html#gab9e59b28eb470dd0c3c4b8e4edaf488b',1,'MR']]],
+  ['foundpointcallback_15',['FoundPointCallback',['../namespaceMR.html#ac4f1361c3362959c175d914a777b236d',1,'MR']]]
 ];

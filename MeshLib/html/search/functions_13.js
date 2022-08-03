@@ -22,11 +22,12 @@ var searchData=
   ['updatehistogramandsurface_19',['updateHistogramAndSurface',['../classMR_1_1ObjectVoxels.html#a607e61443e72bdc0eb881a0d3db9fb8c',1,'MR::ObjectVoxels']]],
   ['updateitemstatus_20',['updateItemStatus',['../classMR_1_1RibbonMenu.html#afc750c1fa4b01d0cdf604d601194f436',1,'MR::RibbonMenu']]],
   ['updatemesh_21',['updateMesh',['../classMR_1_1ObjectMesh.html#a839774fb8213ddc2a1e9c51160ad5d01',1,'MR::ObjectMesh']]],
-  ['updateneighborsradius_22',['updateNeighborsRadius',['../group__TriangulationHelpersGroup.html#gadf020267269df9c27ccfd8a4f5f4c03c',1,'MR::TriangulationHelpers']]],
-  ['updatepolyline_23',['updatePolyline',['../classMR_1_1ObjectLines.html#a14ea493e0ce2d1ce42a9385fa43abfc1',1,'MR::ObjectLines']]],
-  ['updatesolver_24',['updateSolver',['../classMR_1_1Laplacian.html#a3e7bb340acaa3ef81fe7ed9f5eaaf226',1,'MR::Laplacian']]],
-  ['updatetransparencytexturessize_25',['updateTransparencyTexturesSize',['../classMR_1_1AlphaSortGL.html#aab9cdfaf33634bcf9bae0eec5a82ebb9',1,'MR::AlphaSortGL']]],
-  ['updatevertpairs_26',['updateVertPairs',['../classMR_1_1MeshICP.html#aff911d6d53f8e44963f067e7c8ae376e',1,'MR::MeshICP']]],
-  ['utf8string_27',['utf8string',['../group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d',1,'MR']]],
-  ['utf8towide_28',['utf8ToWide',['../group__BasicGroup.html#ga543d43a804760961ac67ad3689330c1d',1,'MR']]]
+  ['updatemeshstat_5f_22',['updateMeshStat_',['../classMR_1_1ObjectMeshHolder.html#a38ace14ffae52e1804b68e9600affb40',1,'MR::ObjectMeshHolder']]],
+  ['updateneighborsradius_23',['updateNeighborsRadius',['../group__TriangulationHelpersGroup.html#gadf020267269df9c27ccfd8a4f5f4c03c',1,'MR::TriangulationHelpers']]],
+  ['updatepolyline_24',['updatePolyline',['../classMR_1_1ObjectLines.html#a14ea493e0ce2d1ce42a9385fa43abfc1',1,'MR::ObjectLines']]],
+  ['updatesolver_25',['updateSolver',['../classMR_1_1Laplacian.html#a3e7bb340acaa3ef81fe7ed9f5eaaf226',1,'MR::Laplacian']]],
+  ['updatetransparencytexturessize_26',['updateTransparencyTexturesSize',['../classMR_1_1AlphaSortGL.html#aab9cdfaf33634bcf9bae0eec5a82ebb9',1,'MR::AlphaSortGL']]],
+  ['updatevertpairs_27',['updateVertPairs',['../classMR_1_1MeshICP.html#aff911d6d53f8e44963f067e7c8ae376e',1,'MR::MeshICP']]],
+  ['utf8string_28',['utf8string',['../group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d',1,'MR']]],
+  ['utf8towide_29',['utf8ToWide',['../group__BasicGroup.html#ga543d43a804760961ac67ad3689330c1d',1,'MR']]]
 ];

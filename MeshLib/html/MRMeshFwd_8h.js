@@ -103,6 +103,7 @@ var MRMeshFwd_8h =
     [ "SymMatrix3f", "MRMeshFwd_8h.html#a7eb9d5ed9d7a2dfe0b2b02305f150223", null ],
     [ "SymMatrix3i", "MRMeshFwd_8h.html#a3d58fd19741842a8b4279de73692c004", null ],
     [ "SymMatrix3ll", "MRMeshFwd_8h.html#a2ebb8410aff0ae6e4457f4b994b2db0f", null ],
+    [ "ThreeVertIds", "MRMeshFwd_8h.html#a9e937625238100e3e8b736126ccf5700", null ],
     [ "TriPointd", "MRMeshFwd_8h.html#a3928bf55d6ab85ff0bc8ff5accfe4d0c", null ],
     [ "TriPointf", "MRMeshFwd_8h.html#abe916bf46259db0a67f17649f44a47d4", null ],
     [ "UndirectedEdgeBitSet", "MRMeshFwd_8h.html#ae5a4467feb7b60cd337643529597aaaa", null ],

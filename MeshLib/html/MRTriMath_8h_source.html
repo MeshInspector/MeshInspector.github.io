@@ -100,30 +100,96 @@ $(document).ready(function(){initNavTree('MRTriMath_8h_source.html',''); initRes
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">// triangle-related mathematical functions are here</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRVector3_8h.html">MRVector3.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;limits&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="group__MathGroup.html#ga2fbcc5b76ec7e12da86bc99895ac6fc9">   13</a></span>T <a class="code hl_function" href="group__MathGroup.html#ga2fbcc5b76ec7e12da86bc99895ac6fc9">triangleAspectRatio</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a> &amp; a, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a> &amp; b, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a> &amp; c )</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keyword">const</span> <span class="keyword">auto</span> bc = ( c - b ).length();</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keyword">const</span> <span class="keyword">auto</span> ca = ( a - c ).length(); </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;algorithm&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;limits&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;cmath&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="group__MathGroup.html#gaba44f8d705d9bc1b98f635bdabe488ae">   15</a></span>T <a class="code hl_function" href="group__MathGroup.html#gaba44f8d705d9bc1b98f635bdabe488ae">circumcircleDiameter</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a> &amp; a, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a> &amp; b, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a> &amp; c )</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">const</span> <span class="keyword">auto</span> ab = ( b - a ).length();</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keyword">auto</span> halfPerimeter = ( bc + ca + ab ) / 2;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keyword">auto</span> den = 8 * ( halfPerimeter - bc ) * ( halfPerimeter - ca ) * ( halfPerimeter - ab );</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordflow">if</span> ( den &lt;= 0 )</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <span class="keywordflow">return</span> std::numeric_limits&lt;T&gt;::max();</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordflow">return</span> bc * ca * ab / den;</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>}</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>} <span class="comment">// namespace MR</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keyword">const</span> <span class="keyword">auto</span> ca = ( a - c ).length();</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keyword">const</span> <span class="keyword">auto</span> bc = ( c - b ).length();</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordflow">if</span> ( ab &lt;= 0 )</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <span class="keywordflow">return</span> ca;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordflow">if</span> ( ca &lt;= 0 )</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        <span class="keywordflow">return</span> bc;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordflow">if</span> ( bc &lt;= 0 )</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <span class="keywordflow">return</span> ab;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keyword">const</span> <span class="keyword">auto</span> f = cross( b - a, c - a ).length();</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordflow">if</span> ( f &lt;= 0 )</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <span class="keywordflow">return</span> std::numeric_limits&lt;T&gt;::max();</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordflow">return</span> ab * ca * bc / f;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>}</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="group__MathGroup.html#gaf5af7058ce54bba6fc77a344d28b9826">   35</a></span>T <a class="code hl_function" href="group__MathGroup.html#gaf5af7058ce54bba6fc77a344d28b9826">minTriangleAngleSin</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a> &amp; a, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a> &amp; b, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a> &amp; c )</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>{</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keyword">const</span> <span class="keyword">auto</span> ab = ( b - a ).length();</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keyword">const</span> <span class="keyword">auto</span> ca = ( a - c ).length();</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keyword">const</span> <span class="keyword">auto</span> bc = ( c - b ).length();</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordflow">if</span> ( ab &lt;= 0  || ca &lt;= 0 || bc &lt;= 0 )</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keyword">const</span> <span class="keyword">auto</span> f = cross( b - a, c - a ).length();</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordflow">return</span> f * std::min( { ab, ca, bc } ) / ( ab * ca * bc );</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>}</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="namespaceMR.html#ac317aae7fbe013869599d57c76389e8b">   47</a></span>T <a class="code hl_function" href="namespaceMR.html#ac317aae7fbe013869599d57c76389e8b">minTriangleAngle</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a> &amp; a, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a> &amp; b, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a> &amp; c )</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>{</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordflow">return</span> std::asin( <a class="code hl_function" href="group__MathGroup.html#gaf5af7058ce54bba6fc77a344d28b9826">minTriangleAngleSin</a>( a, b, c ) );</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>}</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="group__MathGroup.html#ga2fbcc5b76ec7e12da86bc99895ac6fc9">   55</a></span>T <a class="code hl_function" href="group__MathGroup.html#ga2fbcc5b76ec7e12da86bc99895ac6fc9">triangleAspectRatio</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a> &amp; a, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a> &amp; b, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a> &amp; c )</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>{</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keyword">const</span> <span class="keyword">auto</span> bc = ( c - b ).length();</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keyword">const</span> <span class="keyword">auto</span> ca = ( a - c ).length(); </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keyword">const</span> <span class="keyword">auto</span> ab = ( b - a ).length();</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keyword">auto</span> halfPerimeter = ( bc + ca + ab ) / 2;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keyword">auto</span> den = 8 * ( halfPerimeter - bc ) * ( halfPerimeter - ca ) * ( halfPerimeter - ab );</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordflow">if</span> ( den &lt;= 0 )</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        <span class="keywordflow">return</span> std::numeric_limits&lt;T&gt;::max();</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordflow">return</span> bc * ca * ab / den;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>}</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="group__MathGroup.html#ga92b796fca017138671758654b2838d56">   74</a></span>T <a class="code hl_function" href="group__MathGroup.html#ga92b796fca017138671758654b2838d56">dihedralAngleSin</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a>&amp; leftNorm, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a>&amp; rightNorm, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a>&amp; edgeVec )</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>{</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keyword">auto</span> edgeDir = edgeVec.<a class="code hl_function" href="structMR_1_1Vector3.html#ac61c07811df0f193e3462b3201ef1daf">normalized</a>();</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keywordflow">return</span> dot( edgeDir, cross( leftNorm, rightNorm ) );</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>}</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="group__MathGroup.html#gaa45975718eae0ae8c5500147ee8c27d1">   86</a></span>T <a class="code hl_function" href="group__MathGroup.html#gaa45975718eae0ae8c5500147ee8c27d1">dihedralAngleCos</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a>&amp; leftNorm, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a>&amp; rightNorm )</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>{</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="keywordflow">return</span> dot( leftNorm, rightNorm );</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>}</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno"><a class="line" href="group__MathGroup.html#ga84b1b2dc1c73856fecb9b8617c174b04">   98</a></span>T <a class="code hl_function" href="group__MathGroup.html#ga84b1b2dc1c73856fecb9b8617c174b04">dihedralAngle</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a>&amp; leftNorm, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a>&amp; rightNorm, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a>&amp; edgeVec )</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>{</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keyword">auto</span> sin = <a class="code hl_function" href="group__MathGroup.html#ga92b796fca017138671758654b2838d56">dihedralAngleSin</a>( leftNorm, rightNorm, edgeVec );</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keyword">auto</span> cos = <a class="code hl_function" href="group__MathGroup.html#gaa45975718eae0ae8c5500147ee8c27d1">dihedralAngleCos</a>( leftNorm, rightNorm );</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="keywordflow">return</span> std::atan2( sin, cos );</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>}</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>} <span class="comment">// namespace MR</span></div>
 <div class="ttc" id="aMRVector3_8h_html"><div class="ttname"><a href="MRVector3_8h.html">MRVector3.h</a></div></div>
-<div class="ttc" id="agroup__MathGroup_html_ga2fbcc5b76ec7e12da86bc99895ac6fc9"><div class="ttname"><a href="group__MathGroup.html#ga2fbcc5b76ec7e12da86bc99895ac6fc9">MR::triangleAspectRatio</a></div><div class="ttdeci">T triangleAspectRatio(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c)</div><div class="ttdef"><b>Definition:</b> MRTriMath.h:13</div></div>
+<div class="ttc" id="agroup__MathGroup_html_ga2fbcc5b76ec7e12da86bc99895ac6fc9"><div class="ttname"><a href="group__MathGroup.html#ga2fbcc5b76ec7e12da86bc99895ac6fc9">MR::triangleAspectRatio</a></div><div class="ttdeci">T triangleAspectRatio(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c)</div><div class="ttdef"><b>Definition:</b> MRTriMath.h:55</div></div>
+<div class="ttc" id="agroup__MathGroup_html_ga84b1b2dc1c73856fecb9b8617c174b04"><div class="ttname"><a href="group__MathGroup.html#ga84b1b2dc1c73856fecb9b8617c174b04">MR::dihedralAngle</a></div><div class="ttdeci">T dihedralAngle(const Vector3&lt; T &gt; &amp;leftNorm, const Vector3&lt; T &gt; &amp;rightNorm, const Vector3&lt; T &gt; &amp;edgeVec)</div><div class="ttdef"><b>Definition:</b> MRTriMath.h:98</div></div>
+<div class="ttc" id="agroup__MathGroup_html_ga92b796fca017138671758654b2838d56"><div class="ttname"><a href="group__MathGroup.html#ga92b796fca017138671758654b2838d56">MR::dihedralAngleSin</a></div><div class="ttdeci">T dihedralAngleSin(const Vector3&lt; T &gt; &amp;leftNorm, const Vector3&lt; T &gt; &amp;rightNorm, const Vector3&lt; T &gt; &amp;edgeVec)</div><div class="ttdef"><b>Definition:</b> MRTriMath.h:74</div></div>
+<div class="ttc" id="agroup__MathGroup_html_gaa45975718eae0ae8c5500147ee8c27d1"><div class="ttname"><a href="group__MathGroup.html#gaa45975718eae0ae8c5500147ee8c27d1">MR::dihedralAngleCos</a></div><div class="ttdeci">T dihedralAngleCos(const Vector3&lt; T &gt; &amp;leftNorm, const Vector3&lt; T &gt; &amp;rightNorm)</div><div class="ttdef"><b>Definition:</b> MRTriMath.h:86</div></div>
+<div class="ttc" id="agroup__MathGroup_html_gaba44f8d705d9bc1b98f635bdabe488ae"><div class="ttname"><a href="group__MathGroup.html#gaba44f8d705d9bc1b98f635bdabe488ae">MR::circumcircleDiameter</a></div><div class="ttdeci">T circumcircleDiameter(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c)</div><div class="ttdef"><b>Definition:</b> MRTriMath.h:15</div></div>
+<div class="ttc" id="agroup__MathGroup_html_gaf5af7058ce54bba6fc77a344d28b9826"><div class="ttname"><a href="group__MathGroup.html#gaf5af7058ce54bba6fc77a344d28b9826">MR::minTriangleAngleSin</a></div><div class="ttdeci">T minTriangleAngleSin(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c)</div><div class="ttdef"><b>Definition:</b> MRTriMath.h:35</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MR2DContoursTriangulation.h:6</div></div>
+<div class="ttc" id="anamespaceMR_html_ac317aae7fbe013869599d57c76389e8b"><div class="ttname"><a href="namespaceMR.html#ac317aae7fbe013869599d57c76389e8b">MR::minTriangleAngle</a></div><div class="ttdeci">T minTriangleAngle(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c)</div><div class="ttdef"><b>Definition:</b> MRTriMath.h:47</div></div>
 <div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition:</b> MRVector3.h:14</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html_ac61c07811df0f193e3462b3201ef1daf"><div class="ttname"><a href="structMR_1_1Vector3.html#ac61c07811df0f193e3462b3201ef1daf">MR::Vector3::normalized</a></div><div class="ttdeci">Vector3 normalized() const</div><div class="ttdef"><b>Definition:</b> MRVector3.h:43</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

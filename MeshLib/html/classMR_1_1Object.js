@@ -40,6 +40,7 @@ var classMR_1_1Object =
     [ "operator=", "classMR_1_1Object.html#aaa2378c439796ceb7a28ad41322cb8d7", null ],
     [ "parent", "classMR_1_1Object.html#a04aa027ee39ae2bc0f084534a946c9f5", null ],
     [ "parent", "classMR_1_1Object.html#a68500213a1d6e4f3b7f9fc3806fcacd1", null ],
+    [ "propagateWorldXfChangedSignal_", "classMR_1_1Object.html#a086e646a07cc3e96ca62e35d82ea8de7", null ],
     [ "removeAllChildren", "classMR_1_1Object.html#a1b5609ba616723794aea4dda67727865", null ],
     [ "removeChild", "classMR_1_1Object.html#aa988bb552650c9d30e888e456f458d46", null ],
     [ "removeChild", "classMR_1_1Object.html#a291d8e281e83a1199d6da8484e798fd5", null ],
@@ -73,6 +74,6 @@ var classMR_1_1Object =
     [ "readCacheMutex_", "classMR_1_1Object.html#ab5c30ca819cb53c99818a6c64adfa1e3", null ],
     [ "selected_", "classMR_1_1Object.html#a0d8ef27f83b47e000093eaa0df9c36f9", null ],
     [ "visibilityMask_", "classMR_1_1Object.html#ae98466115f6fa8989c8628ff6ec54e9e", null ],
-    [ "xf_", "classMR_1_1Object.html#af6c0631e7edf10aa753d844495be0950", null ],
-    [ "xfChangedSignal", "classMR_1_1Object.html#a53b1ca36265166bd0b311aead0529867", null ]
+    [ "worldXfChangedSignal", "classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964", null ],
+    [ "xf_", "classMR_1_1Object.html#af6c0631e7edf10aa753d844495be0950", null ]
 ];

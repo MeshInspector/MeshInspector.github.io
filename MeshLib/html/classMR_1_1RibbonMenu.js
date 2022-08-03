@@ -3,6 +3,7 @@ var classMR_1_1RibbonMenu =
     [ "DialogItemPtr", "structMR_1_1RibbonMenu_1_1DialogItemPtr.html", "structMR_1_1RibbonMenu_1_1DialogItemPtr" ],
     [ "DrawGroupConfig", "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html", "structMR_1_1RibbonMenu_1_1DrawGroupConfig" ],
     [ "DrawTabConfig", "classMR_1_1RibbonMenu.html#ad0d582e1904c2ad88eee5f4bfe814f83", null ],
+    [ "TabChangedSignal", "classMR_1_1RibbonMenu.html#ad03e656d4344c5a4266fa1ae56827d6c", null ],
     [ "RibbonMenu", "classMR_1_1RibbonMenu.html#aa34b69e6496e1988fcf4618bd5275b26", null ],
     [ "~RibbonMenu", "classMR_1_1RibbonMenu.html#a7cc4845440764fd04b7c8fad80ed8938", null ],
     [ "drawActiveBlockingDialog_", "classMR_1_1RibbonMenu.html#a536aa66aca49a47e58d15a786e574cb9", null ],
@@ -19,6 +20,8 @@ var classMR_1_1RibbonMenu =
     [ "drawSceneContextMenu_", "classMR_1_1RibbonMenu.html#ac4a586522bc6b428e2f71fa844cc08e7", null ],
     [ "drawSmallButtonsSet_", "classMR_1_1RibbonMenu.html#a3d177f8768aa87645a633f7e5e3dd0ba", null ],
     [ "drawTopPanel_", "classMR_1_1RibbonMenu.html#aa73c014dbd2902888c6d2ec4c8adaeef", null ],
+    [ "drawTransformContextMenu_", "classMR_1_1RibbonMenu.html#aed3d5ce11a8471f66e67bb6997bd6e54", null ],
+    [ "getActiveTabIndex", "classMR_1_1RibbonMenu.html#af87aa13ddadb0bc96103d7ce892a88b9", null ],
     [ "getFontManager", "classMR_1_1RibbonMenu.html#a48f926e7787a1d3aa0d399beb2fc1a67", null ],
     [ "getMenuFontPath", "classMR_1_1RibbonMenu.html#ac60708d073d431fe51934044e473b07c", null ],
     [ "getQuickAccessList", "classMR_1_1RibbonMenu.html#ad56a5d187443fd876bd66cde5358329d", null ],
@@ -48,5 +51,6 @@ var classMR_1_1RibbonMenu =
     [ "updateItemStatus", "classMR_1_1RibbonMenu.html#afc750c1fa4b01d0cdf604d601194f436", null ],
     [ "activeBlockingItem_", "classMR_1_1RibbonMenu.html#a2f639a83635dfb22ba89545a6dc9d85e", null ],
     [ "activeNonBlockingItems_", "classMR_1_1RibbonMenu.html#acf628a7bb9081d2c4b3d3405e96e85b4", null ],
-    [ "selectedObjectsCache_", "classMR_1_1RibbonMenu.html#a995a11b9ef6d9d367ceff73955651a41", null ]
+    [ "selectedObjectsCache_", "classMR_1_1RibbonMenu.html#a995a11b9ef6d9d367ceff73955651a41", null ],
+    [ "tabChangedSignal", "classMR_1_1RibbonMenu.html#afd52ffe86f76c1dcae019262f3722fd3", null ]
 ];

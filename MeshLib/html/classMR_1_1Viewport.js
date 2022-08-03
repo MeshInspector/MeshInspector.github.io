@@ -57,7 +57,6 @@ var classMR_1_1Viewport =
     [ "postDraw", "classMR_1_1Viewport.html#ace8d34917dcc01ffe64f0bccef923f96", null ],
     [ "preciseFitDataToScreenBorder", "classMR_1_1Viewport.html#a4ce56c17b29dbcb0186c4f34c414eb78", null ],
     [ "preDraw", "classMR_1_1Viewport.html#a7a9cbb562bb5d64b2a7f412527c3f0bc", null ],
-    [ "projectStaticToClipSpace", "classMR_1_1Viewport.html#a77fafd463b3cf871447d7c0ff7721efe", null ],
     [ "projectToClipSpace", "classMR_1_1Viewport.html#af84b449c6ac06983b1cc77946aeb75e2", null ],
     [ "projectToClipSpace", "classMR_1_1Viewport.html#a00da2d719e774e11cc2c5b367e1caa97", null ],
     [ "projectToViewportSpace", "classMR_1_1Viewport.html#a98fa71f145a3139ddd609e7a4b7dd818", null ],

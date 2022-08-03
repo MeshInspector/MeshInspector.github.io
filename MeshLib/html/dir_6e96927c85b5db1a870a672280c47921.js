@@ -59,6 +59,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRViewerEventsListener.h", "MRViewerEventsListener_8h.html", "MRViewerEventsListener_8h" ],
     [ "MRViewerFwd.h", "MRViewerFwd_8h.html", "MRViewerFwd_8h" ],
     [ "MRViewerInstance.h", "MRViewerInstance_8h.html", "MRViewerInstance_8h" ],
+    [ "MRViewerIO.h", "MRViewerIO_8h.html", "MRViewerIO_8h" ],
     [ "MRViewerPlugin.h", "MRViewerPlugin_8h.html", "MRViewerPlugin_8h" ],
     [ "MRViewerSettingsManager.h", "MRViewerSettingsManager_8h.html", "MRViewerSettingsManager_8h" ],
     [ "MRViewport.h", "MRViewport_8h.html", "MRViewport_8h" ],

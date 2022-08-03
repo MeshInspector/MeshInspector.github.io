@@ -103,6 +103,8 @@ $(document).ready(function(){initNavTree('MROffset_8h.html',''); initResizable()
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMeshPart_8h_source.html">MRMeshPart.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
+<code>#include &lt;tl/expected.hpp&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
 </div>
 <p><a href="MROffset_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -118,10 +120,12 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8235827e593e71a94b98eb4b23d371d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Mesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8235827e593e71a94b98eb4b23d371d2">MR::offsetMesh</a> (const MeshPart &amp;mp, float offset, const OffsetParameters &amp;params={})</td></tr>
-<tr class="separator:a8235827e593e71a94b98eb4b23d371d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dc5a27dd590698c3ced7187f709ff81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Mesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0dc5a27dd590698c3ced7187f709ff81">MR::offsetPolyline</a> (const Polyline3 &amp;polyline, float offset, const OffsetParameters &amp;params={})</td></tr>
-<tr class="separator:a0dc5a27dd590698c3ced7187f709ff81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a053c2f0474b2a38aa198be52dbed1bdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Mesh, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a053c2f0474b2a38aa198be52dbed1bdb">MR::offsetMesh</a> (const MeshPart &amp;mp, float offset, const OffsetParameters &amp;params={})</td></tr>
+<tr class="separator:a053c2f0474b2a38aa198be52dbed1bdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78fd417d2a5046b4f8a517be36b6bc89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Mesh, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a78fd417d2a5046b4f8a517be36b6bc89">MR::doubleOffsetMesh</a> (const MeshPart &amp;mp, float offsetA, float offsetB, const OffsetParameters &amp;params={})</td></tr>
+<tr class="separator:a78fd417d2a5046b4f8a517be36b6bc89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af30fa76ca9fac029ce66a5f3eea9552e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Mesh, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af30fa76ca9fac029ce66a5f3eea9552e">MR::offsetPolyline</a> (const Polyline3 &amp;polyline, float offset, const OffsetParameters &amp;params={})</td></tr>
+<tr class="separator:af30fa76ca9fac029ce66a5f3eea9552e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

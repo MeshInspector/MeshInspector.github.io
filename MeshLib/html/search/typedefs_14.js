@@ -29,7 +29,7 @@ var searchData=
   ['vertid_26',['VertId',['../namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5',1,'MR']]],
   ['vertmap_27',['VertMap',['../namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba',1,'MR']]],
   ['vertsetbititerator_28',['VertSetBitIterator',['../namespaceMR.html#a781eba660f55f4745e1770f2b1c8b003',1,'MR']]],
-  ['viewportrectangle_29',['ViewportRectangle',['../classMR_1_1Viewport.html#a4ffdd066d297db0b871f78fa572166a3',1,'MR::Viewport']]],
+  ['viewportrectangle_29',['ViewportRectangle',['../classMR_1_1Viewport.html#a4ffdd066d297db0b871f78fa572166a3',1,'MR::Viewport::ViewportRectangle()'],['../namespaceMR.html#af3970a3c191ff7a139d0e2ed05f27eeb',1,'MR::ViewportRectangle()']]],
   ['voxelbitset_30',['VoxelBitSet',['../namespaceMR.html#a554ecd806e7de55aceb363940928dac0',1,'MR']]],
   ['voxelid_31',['VoxelId',['../namespaceMR.html#a9ccb1b94958c98c5b5971b94fbfdb761',1,'MR']]],
   ['voxelsmetric_32',['VoxelsMetric',['../group__VoxelPathGroup.html#gae41700d0c2fa75bd2e40f439a846a3b2',1,'MR']]]

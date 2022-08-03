@@ -53,6 +53,7 @@ var classMR_1_1Viewer =
     [ "getEventsCount", "classMR_1_1Viewer.html#a3a012b7e7bb46bac6add3bd52b415ddc", null ],
     [ "getFPS", "classMR_1_1Viewer.html#aca51049e3e01fcf772afa0039f059197", null ],
     [ "getGlobalHistoryStore", "classMR_1_1Viewer.html#a447c125eeac88a0873b6416d0c4d5772", null ],
+    [ "getHoveredViewportId", "classMR_1_1Viewer.html#a0e5111171595097dcb08f6e009450d7f", null ],
     [ "getLastFrameGLPrimitivesCount", "classMR_1_1Viewer.html#ace616c44d943ccb4671a9c5180090bbf", null ],
     [ "getMenuPlugin", "classMR_1_1Viewer.html#a1ea0d4cf159f1ff54b6b1e8819180c9b", null ],
     [ "getMenuPluginAs", "classMR_1_1Viewer.html#a44471d66496b4d2184d8604af087598e", null ],

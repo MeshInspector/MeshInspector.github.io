@@ -1,8 +1,6 @@
 var structMR_1_1FillHoleMetric =
 [
-    [ "FillHoleMetric", "structMR_1_1FillHoleMetric.html#a4991e0a781f368792f956297a8ecc282", null ],
-    [ "~FillHoleMetric", "structMR_1_1FillHoleMetric.html#a1c82a9c96f8777128365398a69942361", null ],
-    [ "getEdgeMetric", "structMR_1_1FillHoleMetric.html#a1486e40b9d2807f8b92bada10328f68f", null ],
-    [ "getTriangleMetric", "structMR_1_1FillHoleMetric.html#a165dbcec9721689e22f1f1dbed5fc4c3", null ],
-    [ "hasEdgeMetric", "structMR_1_1FillHoleMetric.html#a2adaa9cd49a1857d7740bf19bb65298e", null ]
+    [ "combineMetric", "structMR_1_1FillHoleMetric.html#a7b6a69b1fc9a24862156d40b44ff814c", null ],
+    [ "edgeMetric", "structMR_1_1FillHoleMetric.html#a3048bcf785194be02ce20b5d6e6bfd61", null ],
+    [ "triangleMetric", "structMR_1_1FillHoleMetric.html#acc8ef5c37515d91d9c3cb3fbcaa1fd22", null ]
 ];
