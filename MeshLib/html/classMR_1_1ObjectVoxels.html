@@ -123,7 +123,7 @@ $(document).ready(function(){initNavTree('classMR_1_1ObjectVoxels.html',''); ini
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:ab5fadd8a2bb85f8657865aa5c3e28034"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#ab5fadd8a2bb85f8657865aa5c3e28034">IsoChangedSignal</a> = boost::signals2::signal&lt; void()&gt;</td></tr>
-<tr class="memdesc:ab5fadd8a2bb85f8657865aa5c3e28034"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about ISO changing, triggered in setIsoValue  <a href="classMR_1_1ObjectVoxels.html#ab5fadd8a2bb85f8657865aa5c3e28034">More...</a><br /></td></tr>
+<tr class="memdesc:ab5fadd8a2bb85f8657865aa5c3e28034"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about ISO changing, triggered in when iso surface updates (setIsoValue, updateIsoSurface)  <a href="classMR_1_1ObjectVoxels.html#ab5fadd8a2bb85f8657865aa5c3e28034">More...</a><br /></td></tr>
 <tr class="separator:ab5fadd8a2bb85f8657865aa5c3e28034"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classMR_1_1Object"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
 <tr class="memitem:a881447c499a3df3c3718efd430c0637c inherit pub_types_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c">XfChangedSignal</a> = boost::signals2::signal&lt; void() &gt;</td></tr>
@@ -173,8 +173,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acad8e9dc4d1001e3e1741799fb5ca2a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a607e61443e72bdc0eb881a0d3db9fb8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a607e61443e72bdc0eb881a0d3db9fb8c">updateHistogramAndSurface</a> (const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="separator:a607e61443e72bdc0eb881a0d3db9fb8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a536c800db0d8fdf664d6403ba3b71257"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a536c800db0d8fdf664d6403ba3b71257">setIsoValue</a> (float iso, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
-<tr class="separator:a536c800db0d8fdf664d6403ba3b71257"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09ae4d52267bc28d2b5ece34c241337b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a09ae4d52267bc28d2b5ece34c241337b">setIsoValue</a> (float iso, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={}, bool updateSurface=true)</td></tr>
+<tr class="separator:a09ae4d52267bc28d2b5ece34c241337b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabef8e164fd456b133249ea31024af4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#aabef8e164fd456b133249ea31024af4e">updateIsoSurface</a> (std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; <a class="el" href="classMR_1_1ObjectMeshHolder.html#af6739310dc9f9e21c461819ea47dc086">mesh</a>)</td></tr>
+<tr class="separator:aabef8e164fd456b133249ea31024af4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bde9f5b95addf42acf264b6802f79a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a5bde9f5b95addf42acf264b6802f79a7">recalculateIsoSurface</a> (float iso, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:a5bde9f5b95addf42acf264b6802f79a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a7c3155c47dd6baafcfd2febbd295df"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a0a7c3155c47dd6baafcfd2febbd295df">setActiveBounds</a> (const <a class="el" href="namespaceMR.html#abb77b8aff8d862cb60056e4127ba543c">Box3i</a> &amp;activeBox)</td></tr>
 <tr class="separator:a0a7c3155c47dd6baafcfd2febbd295df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21fac797124aacbda1e3226395b7203f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#abb77b8aff8d862cb60056e4127ba543c">Box3i</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a21fac797124aacbda1e3226395b7203f">getActiveBounds</a> () const</td></tr>
@@ -615,8 +619,8 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a26d2bdf16916a4f5a47d4ed54dbde744"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ObjectVoxels.html#ab5fadd8a2bb85f8657865aa5c3e28034">IsoChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a26d2bdf16916a4f5a47d4ed54dbde744">isoChangedSignal</a></td></tr>
-<tr class="separator:a26d2bdf16916a4f5a47d4ed54dbde744"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af857395916951ea4b3e9a111f194499b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ObjectVoxels.html#ab5fadd8a2bb85f8657865aa5c3e28034">IsoChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#af857395916951ea4b3e9a111f194499b">isoSurfaceChangedSignal</a></td></tr>
+<tr class="separator:af857395916951ea4b3e9a111f194499b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classMR_1_1Object"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
 <tr class="memitem:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c">XfChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964">worldXfChangedSignal</a></td></tr>
 <tr class="separator:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -858,7 +862,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>signal about ISO changing, triggered in setIsoValue </p>
+<p>signal about ISO changing, triggered in when iso surface updates (setIsoValue, updateIsoSurface) </p>
 
 </div>
 </div>
@@ -1505,6 +1509,35 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a5bde9f5b95addf42acf264b6802f79a7" name="a5bde9f5b95addf42acf264b6802f79a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bde9f5b95addf42acf264b6802f79a7">&#9670;&nbsp;</a></span>recalculateIsoSurface()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::ObjectVoxels::recalculateIsoSurface </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>iso</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;&#160;</td>
+          <td class="paramname"><em>cb</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Calculates and return new mesh returns empty pointer if no volume is present </p>
+
+</div>
+</div>
 <a id="a1b9e402abcba964cf107ae761006fdb3" name="a1b9e402abcba964cf107ae761006fdb3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1b9e402abcba964cf107ae761006fdb3">&#9670;&nbsp;</a></span>serializeFields_()</h2>
 
@@ -1619,8 +1652,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a536c800db0d8fdf664d6403ba3b71257" name="a536c800db0d8fdf664d6403ba3b71257"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a536c800db0d8fdf664d6403ba3b71257">&#9670;&nbsp;</a></span>setIsoValue()</h2>
+<a id="a09ae4d52267bc28d2b5ece34c241337b" name="a09ae4d52267bc28d2b5ece34c241337b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09ae4d52267bc28d2b5ece34c241337b">&#9670;&nbsp;</a></span>setIsoValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1638,7 +1671,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;&#160;</td>
-          <td class="paramname"><em>cb</em> = <code>{}</code>&#160;</td>
+          <td class="paramname"><em>cb</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>updateSurface</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1859,6 +1898,25 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aabef8e164fd456b133249ea31024af4e" name="aabef8e164fd456b133249ea31024af4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabef8e164fd456b133249ea31024af4e">&#9670;&nbsp;</a></span>updateIsoSurface()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::ObjectVoxels::updateIsoSurface </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td>
+          <td class="paramname"><em>mesh</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Sets external surface mesh for this object and returns back previous mesh of this </p>
+
+</div>
+</div>
 <a id="a15d13587d3a07d097c841db2c9face4d" name="a15d13587d3a07d097c841db2c9face4d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a15d13587d3a07d097c841db2c9face4d">&#9670;&nbsp;</a></span>voxelSize()</h2>
 
@@ -1885,14 +1943,14 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a26d2bdf16916a4f5a47d4ed54dbde744" name="a26d2bdf16916a4f5a47d4ed54dbde744"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26d2bdf16916a4f5a47d4ed54dbde744">&#9670;&nbsp;</a></span>isoChangedSignal</h2>
+<a id="af857395916951ea4b3e9a111f194499b" name="af857395916951ea4b3e9a111f194499b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af857395916951ea4b3e9a111f194499b">&#9670;&nbsp;</a></span>isoSurfaceChangedSignal</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1ObjectVoxels.html#ab5fadd8a2bb85f8657865aa5c3e28034">IsoChangedSignal</a> MR::ObjectVoxels::isoChangedSignal</td>
+          <td class="memname"><a class="el" href="classMR_1_1ObjectVoxels.html#ab5fadd8a2bb85f8657865aa5c3e28034">IsoChangedSignal</a> MR::ObjectVoxels::isoSurfaceChangedSignal</td>
         </tr>
       </table>
 </div><div class="memdoc">

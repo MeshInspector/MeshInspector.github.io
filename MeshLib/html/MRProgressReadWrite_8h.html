@@ -102,6 +102,7 @@ $(document).ready(function(){initNavTree('MRProgressReadWrite_8h.html',''); init
 <div class="textblock"><code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRMesh/MRProgressCallback.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &lt;ostream&gt;</code><br />
+<code>#include &lt;istream&gt;</code><br />
 </div>
 <p><a href="MRProgressReadWrite_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -115,6 +116,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a60a133e9f349b9183017b2b4abaf1b9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a60a133e9f349b9183017b2b4abaf1b9b">MR::writeByBlocks</a> (std::ostream &amp;out, const char *data, size_t dataSize, ProgressCallback callback={}, size_t blockSize=(size_t(1)&lt;&lt; 16))</td></tr>
 <tr class="memdesc:a60a133e9f349b9183017b2b4abaf1b9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">write dataSize bytes from data to out stream by blocks blockSize bytes  <a href="namespaceMR.html#a60a133e9f349b9183017b2b4abaf1b9b">More...</a><br /></td></tr>
 <tr class="separator:a60a133e9f349b9183017b2b4abaf1b9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43da20cc5f0077147d57b1af6226aa53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a43da20cc5f0077147d57b1af6226aa53">MR::readByBlocks</a> (std::istream &amp;in, char *data, size_t dataSize, ProgressCallback callback={}, size_t blockSize=(size_t(1)&lt;&lt; 16))</td></tr>
+<tr class="memdesc:a43da20cc5f0077147d57b1af6226aa53"><td class="mdescLeft">&#160;</td><td class="mdescRight">read dataSize bytes from in stream to data by blocks blockSize bytes  <a href="namespaceMR.html#a43da20cc5f0077147d57b1af6226aa53">More...</a><br /></td></tr>
+<tr class="separator:a43da20cc5f0077147d57b1af6226aa53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

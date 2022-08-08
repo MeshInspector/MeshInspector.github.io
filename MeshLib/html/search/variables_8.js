@@ -15,7 +15,7 @@ var searchData=
   ['isanimating_12',['isAnimating',['../structMR_1_1Viewer_1_1LaunchParams.html#a82398397e33cb7dae2f4ce837ff93774',1,'MR::Viewer::LaunchParams::isAnimating()'],['../classMR_1_1Viewer.html#a7ccea0f47c749b27fc3a4ab8dc91026c',1,'MR::Viewer::isAnimating()']]],
   ['isedgeatrib_13',['isEdgeATriB',['../structMR_1_1VariableEdgeTri.html#aaf806bd6bbc163135641f8a5ca2a6f5f',1,'MR::VariableEdgeTri']]],
   ['isenabled_5f_14',['isEnabled_',['../classMR_1_1StateBasePlugin.html#a239e7ea5887cf228c8ea6a7eef781a2c',1,'MR::StateBasePlugin']]],
-  ['isochangedsignal_15',['isoChangedSignal',['../classMR_1_1ObjectVoxels.html#a26d2bdf16916a4f5a47d4ed54dbde744',1,'MR::ObjectVoxels']]],
+  ['isosurfacechangedsignal_15',['isoSurfaceChangedSignal',['../classMR_1_1ObjectVoxels.html#af857395916951ea4b3e9a111f194499b',1,'MR::ObjectVoxels']]],
   ['isothera_16',['isOtherA',['../structMR_1_1SortIntersectionsData.html#a64cd77d679e163bbff985d79336ae2c4',1,'MR::SortIntersectionsData']]],
   ['item_17',['item',['../structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b',1,'MR::RibbonMenu::DialogItemPtr::item()'],['../structMR_1_1MenuItemInfo.html#a926a6449190c31f77c5b88b8c236958e',1,'MR::MenuItemInfo::item()']]],
   ['items_18',['items',['../structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1',1,'MR::RibbonSchema']]],

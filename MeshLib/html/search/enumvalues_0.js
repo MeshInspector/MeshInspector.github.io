@@ -11,5 +11,7 @@ var searchData=
   ['analysis_8',['Analysis',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37a739e6d2a73723ec7b1919fa5a51f9b07',1,'MR']]],
   ['any_9',['Any',['../group__DataModelGroup.html#gga1ab156c0351dfcd112a67a72e485f123aed36a1ef76a59ee3f15180e0441188ad',1,'MR']]],
   ['anyrigidxf_10',['AnyRigidXf',['../namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677a1662b3d601f436e62a0bf6529440eaef',1,'MR']]],
-  ['appendaction_11',['AppendAction',['../classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4aa1f9274fc711d6a07979894ed2bfe727',1,'MR::HistoryStore']]]
+  ['appendaction_11',['AppendAction',['../classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4aa1f9274fc711d6a07979894ed2bfe727',1,'MR::HistoryStore']]],
+  ['axisscaling_12',['AxisScaling',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935',1,'MR::ObjectTransformWidget']]],
+  ['axistranslation_13',['AxisTranslation',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510',1,'MR::ObjectTransformWidget']]]
 ];

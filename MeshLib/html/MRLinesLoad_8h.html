@@ -102,6 +102,7 @@ $(document).ready(function(){initNavTree('MRLinesLoad_8h.html',''); initResizabl
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRIOFilters_8h_source.html">MRIOFilters.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
 <code>#include &lt;tl/expected.hpp&gt;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
 <code>#include &lt;istream&gt;</code><br />
@@ -118,17 +119,17 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaf92ab44806467f739d51cf63181e81f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Polyline3, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LinesLoad.html#gaf92ab44806467f739d51cf63181e81f4">MR::LinesLoad::fromMrLines</a> (const std::filesystem::path &amp;file)</td></tr>
-<tr class="memdesc:gaf92ab44806467f739d51cf63181e81f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .mrlines file  <a href="group__LinesLoad.html#gaf92ab44806467f739d51cf63181e81f4">More...</a><br /></td></tr>
-<tr class="separator:gaf92ab44806467f739d51cf63181e81f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0a190f03187c9df7f9f0b6afa5f78da9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Polyline3, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LinesLoad.html#ga0a190f03187c9df7f9f0b6afa5f78da9">MR::LinesLoad::fromMrLines</a> (std::istream &amp;in)</td></tr>
-<tr class="separator:ga0a190f03187c9df7f9f0b6afa5f78da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5411ba9783c64db7887156eeb600d68f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Polyline3, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LinesLoad.html#ga5411ba9783c64db7887156eeb600d68f">MR::LinesLoad::fromAnySupportedFormat</a> (const std::filesystem::path &amp;file)</td></tr>
-<tr class="memdesc:ga5411ba9783c64db7887156eeb600d68f"><td class="mdescLeft">&#160;</td><td class="mdescRight">detects the format from file extension and loads polyline from it  <a href="group__LinesLoad.html#ga5411ba9783c64db7887156eeb600d68f">More...</a><br /></td></tr>
-<tr class="separator:ga5411ba9783c64db7887156eeb600d68f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafc991f1c5f3897dcf906817c1ef697bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Polyline3, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LinesLoad.html#gafc991f1c5f3897dcf906817c1ef697bd">MR::LinesLoad::fromAnySupportedFormat</a> (std::istream &amp;in, const std::string &amp;extension)</td></tr>
-<tr class="memdesc:gafc991f1c5f3897dcf906817c1ef697bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">extension in <code>*.ext</code> format  <a href="group__LinesLoad.html#gafc991f1c5f3897dcf906817c1ef697bd">More...</a><br /></td></tr>
-<tr class="separator:gafc991f1c5f3897dcf906817c1ef697bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8cf65d3f5494d4b718dee8fcf23bf87f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Polyline3, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LinesLoad.html#ga8cf65d3f5494d4b718dee8fcf23bf87f">MR::LinesLoad::fromMrLines</a> (const std::filesystem::path &amp;file, ProgressCallback callback={})</td></tr>
+<tr class="memdesc:ga8cf65d3f5494d4b718dee8fcf23bf87f"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .mrlines file  <a href="group__LinesLoad.html#ga8cf65d3f5494d4b718dee8fcf23bf87f">More...</a><br /></td></tr>
+<tr class="separator:ga8cf65d3f5494d4b718dee8fcf23bf87f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga71432964eaa842a67533f4e50d50420c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Polyline3, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LinesLoad.html#ga71432964eaa842a67533f4e50d50420c">MR::LinesLoad::fromMrLines</a> (std::istream &amp;in, ProgressCallback callback={})</td></tr>
+<tr class="separator:ga71432964eaa842a67533f4e50d50420c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga01f1c25cbb77badf0340c00c8e317567"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Polyline3, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LinesLoad.html#ga01f1c25cbb77badf0340c00c8e317567">MR::LinesLoad::fromAnySupportedFormat</a> (const std::filesystem::path &amp;file, ProgressCallback callback={})</td></tr>
+<tr class="memdesc:ga01f1c25cbb77badf0340c00c8e317567"><td class="mdescLeft">&#160;</td><td class="mdescRight">detects the format from file extension and loads polyline from it  <a href="group__LinesLoad.html#ga01f1c25cbb77badf0340c00c8e317567">More...</a><br /></td></tr>
+<tr class="separator:ga01f1c25cbb77badf0340c00c8e317567"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadc38fb217b6fc2cd1bcdf5922380cc25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Polyline3, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LinesLoad.html#gadc38fb217b6fc2cd1bcdf5922380cc25">MR::LinesLoad::fromAnySupportedFormat</a> (std::istream &amp;in, const std::string &amp;extension, ProgressCallback callback={})</td></tr>
+<tr class="memdesc:gadc38fb217b6fc2cd1bcdf5922380cc25"><td class="mdescLeft">&#160;</td><td class="mdescRight">extension in <code>*.ext</code> format  <a href="group__LinesLoad.html#gadc38fb217b6fc2cd1bcdf5922380cc25">More...</a><br /></td></tr>
+<tr class="separator:gadc38fb217b6fc2cd1bcdf5922380cc25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>

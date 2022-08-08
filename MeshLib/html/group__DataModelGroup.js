@@ -268,11 +268,12 @@ var group__DataModelGroup =
       [ "heapBytes", "classMR_1_1ObjectVoxels.html#a345d4438fb7808f95b3ca2dc9a1ad33b", null ],
       [ "histogram", "classMR_1_1ObjectVoxels.html#af4e1350561bc2e71d56741b954562868", null ],
       [ "operator=", "classMR_1_1ObjectVoxels.html#a2f2260ca64565ffbedc9236f28e19b98", null ],
+      [ "recalculateIsoSurface", "classMR_1_1ObjectVoxels.html#a5bde9f5b95addf42acf264b6802f79a7", null ],
       [ "serializeFields_", "classMR_1_1ObjectVoxels.html#a1b9e402abcba964cf107ae761006fdb3", null ],
       [ "serializeModel_", "classMR_1_1ObjectVoxels.html#a56b13d3ff08ee4d3d3ee64fb2e51fe16", null ],
       [ "setActiveBounds", "classMR_1_1ObjectVoxels.html#a0a7c3155c47dd6baafcfd2febbd295df", null ],
       [ "setDirtyFlags", "classMR_1_1ObjectVoxels.html#a62f604cd208a8d89e61015edc053d9d2", null ],
-      [ "setIsoValue", "classMR_1_1ObjectVoxels.html#a536c800db0d8fdf664d6403ba3b71257", null ],
+      [ "setIsoValue", "classMR_1_1ObjectVoxels.html#a09ae4d52267bc28d2b5ece34c241337b", null ],
       [ "setMaxSurfaceTriangles", "classMR_1_1ObjectVoxels.html#afc8d902cf6122deba11b7fd9105e144d", null ],
       [ "shallowClone", "classMR_1_1ObjectVoxels.html#a225f04e78475f3534bd49929d9200da1", null ],
       [ "surface", "classMR_1_1ObjectVoxels.html#a31a6e0940a4632729bd5bab336d3b99f", null ],
@@ -280,8 +281,9 @@ var group__DataModelGroup =
       [ "swapSignals_", "classMR_1_1ObjectVoxels.html#a9140f71dff0cf1b259c7927035dff81a", null ],
       [ "typeName", "classMR_1_1ObjectVoxels.html#ad263dcb8982dbf8095729fa3a3d2032e", null ],
       [ "updateHistogramAndSurface", "classMR_1_1ObjectVoxels.html#a607e61443e72bdc0eb881a0d3db9fb8c", null ],
+      [ "updateIsoSurface", "classMR_1_1ObjectVoxels.html#aabef8e164fd456b133249ea31024af4e", null ],
       [ "voxelSize", "classMR_1_1ObjectVoxels.html#a15d13587d3a07d097c841db2c9face4d", null ],
-      [ "isoChangedSignal", "classMR_1_1ObjectVoxels.html#a26d2bdf16916a4f5a47d4ed54dbde744", null ]
+      [ "isoSurfaceChangedSignal", "classMR_1_1ObjectVoxels.html#af857395916951ea4b3e9a111f194499b", null ]
     ] ],
     [ "MR::SceneRoot", "classMR_1_1SceneRoot.html", null ],
     [ "MR::XfBasedCache< T >", "classMR_1_1XfBasedCache.html", [
@@ -303,8 +305,8 @@ var group__DataModelGroup =
     [ "MR::getDepthFirstObject", "group__DataModelGroup.html#gafa3e42d954c50c383af5c20a059e34d2", null ],
     [ "MR::getTopmostVisibleObjects", "group__DataModelGroup.html#ga014b6029e38a8f6003e2a3d941e2ca9f", null ],
     [ "MR::getTopmostVisibleObjects", "group__DataModelGroup.html#ga7afd4c6187926b10b71f8631961165a0", null ],
-    [ "MR::makeObjectLinesFromFile", "group__DataModelGroup.html#ga7718cc54066e22e7849b104ccfb0abeb", null ],
-    [ "MR::makeObjectMeshFromFile", "group__DataModelGroup.html#gab4fb801e351b1f650a84e5c11036f5c5", null ],
-    [ "MR::makeObjectPointsFromFile", "group__DataModelGroup.html#ga9dd882ec9e5dd084d168198dda098e7b", null ],
+    [ "MR::makeObjectLinesFromFile", "group__DataModelGroup.html#gae9f26bcb772ba7f36c09511eb583c23f", null ],
+    [ "MR::makeObjectMeshFromFile", "group__DataModelGroup.html#ga49139a191d999bd254234e875bc94035", null ],
+    [ "MR::makeObjectPointsFromFile", "group__DataModelGroup.html#ga2c9f97da5f015bc83b81da71e050d2d6", null ],
     [ "MR::makeObjectTreeFromFolder", "group__DataModelGroup.html#gac4370cce625d7230616d42d939ddc7ca", null ]
 ];

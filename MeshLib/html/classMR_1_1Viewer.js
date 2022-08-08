@@ -76,6 +76,7 @@ var classMR_1_1Viewer =
     [ "isAlphaSortAvailable", "classMR_1_1Viewer.html#a0cd6649b2287a6bfeb70136744689060", null ],
     [ "isAlphaSortEnabled", "classMR_1_1Viewer.html#a734edab571108af641cc046a7fae2b88", null ],
     [ "isCurrentFrameSwapping", "classMR_1_1Viewer.html#a5a5979dba1caca6f934f1e351d649e4e", null ],
+    [ "isDeveloperFeaturesEnabled", "classMR_1_1Viewer.html#ae7a9c6915969b7a87a3ec7056aa1df56", null ],
     [ "isGLInitialized", "classMR_1_1Viewer.html#a44dcab99aafe4a71d2890df4698179a1", null ],
     [ "isGlobalHistoryEnabled", "classMR_1_1Viewer.html#af783e511fab48488cefa29c151e6dca4", null ],
     [ "isKnownMeshFile", "classMR_1_1Viewer.html#ab07dde78c9102b6d7aa6af7cc9b35957", null ],

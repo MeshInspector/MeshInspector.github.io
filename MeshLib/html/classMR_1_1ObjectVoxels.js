@@ -25,11 +25,12 @@ var classMR_1_1ObjectVoxels =
     [ "heapBytes", "classMR_1_1ObjectVoxels.html#a345d4438fb7808f95b3ca2dc9a1ad33b", null ],
     [ "histogram", "classMR_1_1ObjectVoxels.html#af4e1350561bc2e71d56741b954562868", null ],
     [ "operator=", "classMR_1_1ObjectVoxels.html#a2f2260ca64565ffbedc9236f28e19b98", null ],
+    [ "recalculateIsoSurface", "classMR_1_1ObjectVoxels.html#a5bde9f5b95addf42acf264b6802f79a7", null ],
     [ "serializeFields_", "classMR_1_1ObjectVoxels.html#a1b9e402abcba964cf107ae761006fdb3", null ],
     [ "serializeModel_", "classMR_1_1ObjectVoxels.html#a56b13d3ff08ee4d3d3ee64fb2e51fe16", null ],
     [ "setActiveBounds", "classMR_1_1ObjectVoxels.html#a0a7c3155c47dd6baafcfd2febbd295df", null ],
     [ "setDirtyFlags", "classMR_1_1ObjectVoxels.html#a62f604cd208a8d89e61015edc053d9d2", null ],
-    [ "setIsoValue", "classMR_1_1ObjectVoxels.html#a536c800db0d8fdf664d6403ba3b71257", null ],
+    [ "setIsoValue", "classMR_1_1ObjectVoxels.html#a09ae4d52267bc28d2b5ece34c241337b", null ],
     [ "setMaxSurfaceTriangles", "classMR_1_1ObjectVoxels.html#afc8d902cf6122deba11b7fd9105e144d", null ],
     [ "shallowClone", "classMR_1_1ObjectVoxels.html#a225f04e78475f3534bd49929d9200da1", null ],
     [ "surface", "classMR_1_1ObjectVoxels.html#a31a6e0940a4632729bd5bab336d3b99f", null ],
@@ -37,6 +38,7 @@ var classMR_1_1ObjectVoxels =
     [ "swapSignals_", "classMR_1_1ObjectVoxels.html#a9140f71dff0cf1b259c7927035dff81a", null ],
     [ "typeName", "classMR_1_1ObjectVoxels.html#ad263dcb8982dbf8095729fa3a3d2032e", null ],
     [ "updateHistogramAndSurface", "classMR_1_1ObjectVoxels.html#a607e61443e72bdc0eb881a0d3db9fb8c", null ],
+    [ "updateIsoSurface", "classMR_1_1ObjectVoxels.html#aabef8e164fd456b133249ea31024af4e", null ],
     [ "voxelSize", "classMR_1_1ObjectVoxels.html#a15d13587d3a07d097c841db2c9face4d", null ],
-    [ "isoChangedSignal", "classMR_1_1ObjectVoxels.html#a26d2bdf16916a4f5a47d4ed54dbde744", null ]
+    [ "isoSurfaceChangedSignal", "classMR_1_1ObjectVoxels.html#af857395916951ea4b3e9a111f194499b", null ]
 ];

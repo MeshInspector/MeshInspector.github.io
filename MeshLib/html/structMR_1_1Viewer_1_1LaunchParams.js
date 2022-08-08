@@ -12,6 +12,7 @@ var structMR_1_1Viewer_1_1LaunchParams =
     [ "argv", "structMR_1_1Viewer_1_1LaunchParams.html#a3c91f9982d39c99a507bb69eb2b9a8d0", null ],
     [ "close", "structMR_1_1Viewer_1_1LaunchParams.html#af7fe726570727cb05ae7d108b8158bd3", null ],
     [ "console", "structMR_1_1Viewer_1_1LaunchParams.html#abe88fe4a6e75b03386f8cdcabe64d8c9", null ],
+    [ "developerFeatures", "structMR_1_1Viewer_1_1LaunchParams.html#a4d2dd6bdde4e13733c3f7bb2591b30a6", null ],
     [ "enableTransparentBackground", "structMR_1_1Viewer_1_1LaunchParams.html#a52bf2071a32b2ba1e6e91d85fdba001a", null ],
     [ "fullscreen", "structMR_1_1Viewer_1_1LaunchParams.html#ae68c3108b917b700abfed68226df4941", null ],
     [ "height", "structMR_1_1Viewer_1_1LaunchParams.html#a01ee995f48e4c9ae9e9e647802e95d92", null ],

@@ -186,6 +186,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ChangeIsoAction.html">ChangeIsoAction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undo action for <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> iso change.  <a href="classMR_1_1ChangeIsoAction.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ChangeLabelAction.html">ChangeLabelAction</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ChangeMeshAction.html">ChangeMeshAction</a></td></tr>
@@ -1429,6 +1432,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ga9ae923a2855ed035b5d5f74b3162c0da"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a497ae0b02290edeaa5275069efc377df">AffineXf3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga9ae923a2855ed035b5d5f74b3162c0da">lookAt</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;center, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;eye, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;up)</td></tr>
 <tr class="memdesc:ga9ae923a2855ed035b5d5f74b3162c0da"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes rigid transformation xf  <a href="group__MathGroup.html#ga9ae923a2855ed035b5d5f74b3162c0da">More...</a><br /></td></tr>
 <tr class="separator:ga9ae923a2855ed035b5d5f74b3162c0da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9733fffeb2acc9d988bddb1c02c1369d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a9733fffeb2acc9d988bddb1c02c1369d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a9733fffeb2acc9d988bddb1c02c1369d">decomposeXf</a> (const <a class="el" href="namespaceMR.html#a497ae0b02290edeaa5275069efc377df">AffineXf3</a>&lt; T &gt; &amp;xf, <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;rotation, <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;scaling)</td></tr>
+<tr class="memdesc:a9733fffeb2acc9d988bddb1c02c1369d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decomposes affine transformation matrix into rotation and scaling matrices.  <a href="namespaceMR.html#a9733fffeb2acc9d988bddb1c02c1369d">More...</a><br /></td></tr>
+<tr class="separator:a9733fffeb2acc9d988bddb1c02c1369d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0c4484e8c8e8f08663ca031dfe6e054"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af0c4484e8c8e8f08663ca031dfe6e054">alignTextToMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;xf, const <a class="el" href="structMR_1_1TextMeshAlignParams.html">TextMeshAlignParams</a> &amp;params)</td></tr>
 <tr class="separator:af0c4484e8c8e8f08663ca031dfe6e054"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbe2dca6a39a0c9dae0abc3d1a6caac4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#abbe2dca6a39a0c9dae0abc3d1a6caac4">makeArrow</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;base, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;vert, const float &amp;thickness=0.05f, const float &amp;coneRadius=0.1f, const float coneSize=0.2f, const int qual=32)</td></tr>
@@ -2257,6 +2264,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a60a133e9f349b9183017b2b4abaf1b9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a60a133e9f349b9183017b2b4abaf1b9b">writeByBlocks</a> (std::ostream &amp;out, const char *data, size_t dataSize, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={}, size_t blockSize=(size_t(1)&lt;&lt; 16))</td></tr>
 <tr class="memdesc:a60a133e9f349b9183017b2b4abaf1b9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">write dataSize bytes from data to out stream by blocks blockSize bytes  <a href="namespaceMR.html#a60a133e9f349b9183017b2b4abaf1b9b">More...</a><br /></td></tr>
 <tr class="separator:a60a133e9f349b9183017b2b4abaf1b9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43da20cc5f0077147d57b1af6226aa53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a43da20cc5f0077147d57b1af6226aa53">readByBlocks</a> (std::istream &amp;in, char *data, size_t dataSize, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={}, size_t blockSize=(size_t(1)&lt;&lt; 16))</td></tr>
+<tr class="memdesc:a43da20cc5f0077147d57b1af6226aa53"><td class="mdescLeft">&#160;</td><td class="mdescRight">read dataSize bytes from in stream to data by blocks blockSize bytes  <a href="namespaceMR.html#a43da20cc5f0077147d57b1af6226aa53">More...</a><br /></td></tr>
+<tr class="separator:a43da20cc5f0077147d57b1af6226aa53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga361352e96b137fc817a494bb07601fa8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga361352e96b137fc817a494bb07601fa8"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__RayBoxIntersectionGroup.html#ga361352e96b137fc817a494bb07601fa8">rayBoxIntersect</a> (const <a class="el" href="namespaceMR.html#ada98ebf3fec74759dd46700389a3e556">Box3f</a> &amp;box, const <a class="el" href="structMR_1_1RayOrigin.html">RayOrigin</a>&lt; T &gt; &amp;rayOrigin, T &amp;t0, T &amp;t1, const <a class="el" href="structMR_1_1IntersectionPrecomputes.html">IntersectionPrecomputes</a>&lt; T &gt; &amp;prec)</td></tr>
 <tr class="separator:ga361352e96b137fc817a494bb07601fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2835,6 +2845,8 @@ Functions</h2></td></tr>
 <tr class="separator:af3195ad084150a174fda5a64ced01834"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e2133ce2c97407560f6e7ff9e770c4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a414c921e724deba1be8a3f3b5a20af76">Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3e2133ce2c97407560f6e7ff9e770c4a">calcTextureRes</a> (int bufferSize, int maxTextWidth)</td></tr>
 <tr class="separator:a3e2133ce2c97407560f6e7ff9e770c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf818ad78dcf1287b09182b71c21927c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aaf818ad78dcf1287b09182b71c21927c">GetAvailableLineWidthRange</a> ()</td></tr>
+<tr class="separator:aaf818ad78dcf1287b09182b71c21927c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab025bab051930aa719d8fe3785f34be3"><td class="memTemplParams" colspan="2">template&lt;typename ObjectT &gt; </td></tr>
 <tr class="memitem:ab025bab051930aa719d8fe3785f34be3"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab025bab051930aa719d8fe3785f34be3">sceneSelectedExactly</a> (const std::vector&lt; std::shared_ptr&lt; const <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;objs, unsigned n)</td></tr>
 <tr class="separator:ab025bab051930aa719d8fe3785f34be3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2871,15 +2883,15 @@ Functions</h2></td></tr>
 <tr class="memitem:ad6132828de807e2a186015c0e53b45cf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ad6132828de807e2a186015c0e53b45cf">operator==</a> (const <a class="el" href="structMR_1_1ViewportLinesWithColors.html">ViewportLinesWithColors</a> &amp;a, const <a class="el" href="structMR_1_1ViewportLinesWithColors.html">ViewportLinesWithColors</a> &amp;b)</td></tr>
 <tr class="separator:ad6132828de807e2a186015c0e53b45cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
-<tr class="memitem:gab4fb801e351b1f650a84e5c11036f5c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#gab4fb801e351b1f650a84e5c11036f5c5">makeObjectMeshFromFile</a> (const std::filesystem::path &amp;file)</td></tr>
-<tr class="memdesc:gab4fb801e351b1f650a84e5c11036f5c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads mesh from given file in new object  <a href="group__DataModelGroup.html#gab4fb801e351b1f650a84e5c11036f5c5">More...</a><br /></td></tr>
-<tr class="separator:gab4fb801e351b1f650a84e5c11036f5c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7718cc54066e22e7849b104ccfb0abeb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga7718cc54066e22e7849b104ccfb0abeb">makeObjectLinesFromFile</a> (const std::filesystem::path &amp;file)</td></tr>
-<tr class="memdesc:ga7718cc54066e22e7849b104ccfb0abeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads lines from given file in new object  <a href="group__DataModelGroup.html#ga7718cc54066e22e7849b104ccfb0abeb">More...</a><br /></td></tr>
-<tr class="separator:ga7718cc54066e22e7849b104ccfb0abeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9dd882ec9e5dd084d168198dda098e7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga9dd882ec9e5dd084d168198dda098e7b">makeObjectPointsFromFile</a> (const std::filesystem::path &amp;file)</td></tr>
-<tr class="memdesc:ga9dd882ec9e5dd084d168198dda098e7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads points from given file in new object  <a href="group__DataModelGroup.html#ga9dd882ec9e5dd084d168198dda098e7b">More...</a><br /></td></tr>
-<tr class="separator:ga9dd882ec9e5dd084d168198dda098e7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga49139a191d999bd254234e875bc94035"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga49139a191d999bd254234e875bc94035">makeObjectMeshFromFile</a> (const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="memdesc:ga49139a191d999bd254234e875bc94035"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads mesh from given file in new object  <a href="group__DataModelGroup.html#ga49139a191d999bd254234e875bc94035">More...</a><br /></td></tr>
+<tr class="separator:ga49139a191d999bd254234e875bc94035"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae9f26bcb772ba7f36c09511eb583c23f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#gae9f26bcb772ba7f36c09511eb583c23f">makeObjectLinesFromFile</a> (const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="memdesc:gae9f26bcb772ba7f36c09511eb583c23f"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads lines from given file in new object  <a href="group__DataModelGroup.html#gae9f26bcb772ba7f36c09511eb583c23f">More...</a><br /></td></tr>
+<tr class="separator:gae9f26bcb772ba7f36c09511eb583c23f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2c9f97da5f015bc83b81da71e050d2d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga2c9f97da5f015bc83b81da71e050d2d6">makeObjectPointsFromFile</a> (const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="memdesc:ga2c9f97da5f015bc83b81da71e050d2d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads points from given file in new object  <a href="group__DataModelGroup.html#ga2c9f97da5f015bc83b81da71e050d2d6">More...</a><br /></td></tr>
+<tr class="separator:ga2c9f97da5f015bc83b81da71e050d2d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac4370cce625d7230616d42d939ddc7ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1Object.html">Object</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#gac4370cce625d7230616d42d939ddc7ca">makeObjectTreeFromFolder</a> (const std::filesystem::path &amp;folder)</td></tr>
 <tr class="memdesc:gac4370cce625d7230616d42d939ddc7ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads meshes from given folder in new container object  <a href="group__DataModelGroup.html#gac4370cce625d7230616d42d939ddc7ca">More...</a><br /></td></tr>
 <tr class="separator:gac4370cce625d7230616d42d939ddc7ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2942,7 +2954,7 @@ Variables</h2></td></tr>
 <tr class="separator:a8a3c1e07f9e74f5a6f9079cc9067fb3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a891aa25e4677772edfd0f99db3fc556a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="classMR_1_1Open.html">Open</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a891aa25e4677772edfd0f99db3fc556a">OpenInstance</a></td></tr>
 <tr class="separator:a891aa25e4677772edfd0f99db3fc556a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3980e45b7cc71e35412820615644bca6"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3980e45b7cc71e35412820615644bca6">cGradientButtonFramePadding</a> = 7.0f</td></tr>
+<tr class="memitem:a3980e45b7cc71e35412820615644bca6"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3980e45b7cc71e35412820615644bca6">cGradientButtonFramePadding</a> = 9.0f</td></tr>
 <tr class="separator:a3980e45b7cc71e35412820615644bca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f5560d361aaab79fc35a8418362345d"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6f5560d361aaab79fc35a8418362345d">cTabYOffset</a> = 4.0f</td></tr>
 <tr class="separator:a6f5560d361aaab79fc35a8418362345d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2962,6 +2974,8 @@ Variables</h2></td></tr>
 <tr class="separator:a2fbf8a5ae5179bb822e29a7c5966fdd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24400b0c1a9e56cafb8abf4c9725633d"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a24400b0c1a9e56cafb8abf4c9725633d">cTopPanelAditionalButtonSize</a> = <a class="el" href="namespaceMR.html#aaaac3eef6fa84776b2bf2bcd9c77e1fd">cTabHeight</a> - <a class="el" href="namespaceMR.html#a6f5560d361aaab79fc35a8418362345d">cTabYOffset</a></td></tr>
 <tr class="separator:a24400b0c1a9e56cafb8abf4c9725633d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3111d6c67340775339a2b320ca618a6a"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3111d6c67340775339a2b320ca618a6a">cSeparateBlocksSpacing</a> = 16.0f</td></tr>
+<tr class="separator:a3111d6c67340775339a2b320ca618a6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2e6e25a903280bb16257d5eade3d674"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ad2e6e25a903280bb16257d5eade3d674">cRibbonItemInterval</a> = 4.0f</td></tr>
 <tr class="separator:ad2e6e25a903280bb16257d5eade3d674"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbae2e800a57d6abde1fb15532241615"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#adbae2e800a57d6abde1fb15532241615">cRibbonItemMinWidth</a> = 86.0f</td></tr>
@@ -2970,6 +2984,18 @@ Variables</h2></td></tr>
 <tr class="separator:aa1ae7e72880bd59893da014002b30c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a502df3899fddea88b5d81bacebed7b2e"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a502df3899fddea88b5d81bacebed7b2e">cRibbonButtonWindowPaddingY</a> = 4.0f</td></tr>
 <tr class="separator:a502df3899fddea88b5d81bacebed7b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a136b0ce6a3406a0d3b4e6a152e51247a"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a136b0ce6a3406a0d3b4e6a152e51247a">cCheckboxPadding</a> = 3.0f</td></tr>
+<tr class="separator:a136b0ce6a3406a0d3b4e6a152e51247a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaded4cd4767b56cafcef761970128104"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aaded4cd4767b56cafcef761970128104">cButtonPadding</a> = 8.0f</td></tr>
+<tr class="separator:aaded4cd4767b56cafcef761970128104"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0f25876ce272b7da3ae953cd1469376"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ae0f25876ce272b7da3ae953cd1469376">cDefaultItemSpacing</a> = 8.0f</td></tr>
+<tr class="separator:ae0f25876ce272b7da3ae953cd1469376"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a830a2da862354c816887a7862a190ce1"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a830a2da862354c816887a7862a190ce1">cDefaultInnerSpacing</a> = 8.0f</td></tr>
+<tr class="separator:a830a2da862354c816887a7862a190ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a862b30077baf437e28b842a18c3997e4"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a862b30077baf437e28b842a18c3997e4">cDefaultWindowPaddingX</a> = 8.0f</td></tr>
+<tr class="separator:a862b30077baf437e28b842a18c3997e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bee00a475fada33c76a0bb71f8cbadd"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a1bee00a475fada33c76a0bb71f8cbadd">cDefaultWindowPaddingY</a> = 12.0f</td></tr>
+<tr class="separator:a1bee00a475fada33c76a0bb71f8cbadd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c83bbfbdb840f0b895746f9904ec159"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5c83bbfbdb840f0b895746f9904ec159">cSmallItemDropSizeModifier</a> = 0.5f</td></tr>
 <tr class="separator:a5c83bbfbdb840f0b895746f9904ec159"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96fbf6ff116f2ef3003d0511ee978d18"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a96fbf6ff116f2ef3003d0511ee978d18">cHeaderQuickAccessFrameRounding</a> = 3.0f</td></tr>
@@ -2996,6 +3022,8 @@ Variables</h2></td></tr>
 <tr class="separator:a9c921093c85c2da2608e2dfbac0456d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8857be62711395545ca59a54a590e17f"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8857be62711395545ca59a54a590e17f">cBigFontSize</a> = 15</td></tr>
 <tr class="separator:a8857be62711395545ca59a54a590e17f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0077684be5ee0912d20ee7b7d775d53"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af0077684be5ee0912d20ee7b7d775d53">cPaletteDiscretizationScaling</a> = 5.0f / 18.0f</td></tr>
+<tr class="separator:af0077684be5ee0912d20ee7b7d775d53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1ab156c0351dfcd112a67a72e485f123"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga1ab156c0351dfcd112a67a72e485f123">ObjectSelectivityType</a> { <a class="el" href="group__DataModelGroup.html#gga1ab156c0351dfcd112a67a72e485f123a8318ce1c96df6ce21eb2ed428c6d0f85">ObjectSelectivityType::Selectable</a>
 , <a class="el" href="group__DataModelGroup.html#gga1ab156c0351dfcd112a67a72e485f123a91b442d385b54e1418d81adc34871053">ObjectSelectivityType::Selected</a>
 , <a class="el" href="group__DataModelGroup.html#gga1ab156c0351dfcd112a67a72e485f123aed36a1ef76a59ee3f15180e0441188ad">ObjectSelectivityType::Any</a>
@@ -6018,6 +6046,44 @@ template&lt;typename ObjectType &gt; </div>
 
 </div>
 </div>
+<a id="a9733fffeb2acc9d988bddb1c02c1369d" name="a9733fffeb2acc9d988bddb1c02c1369d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9733fffeb2acc9d988bddb1c02c1369d">&#9670;&nbsp;</a></span>decomposeXf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::decomposeXf </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a497ae0b02290edeaa5275069efc377df">AffineXf3</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>xf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rotation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>scaling</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Decomposes affine transformation matrix into rotation and scaling matrices. </p>
+
+</div>
+</div>
 <a id="a8b096e49296af19ff8c88104eedeb8d1" name="a8b096e49296af19ff8c88104eedeb8d1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8b096e49296af19ff8c88104eedeb8d1">&#9670;&nbsp;</a></span>destroyShader()</h2>
 
@@ -6945,6 +7011,23 @@ template&lt;typename T &gt; </div>
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf818ad78dcf1287b09182b71c21927c" name="aaf818ad78dcf1287b09182b71c21927c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf818ad78dcf1287b09182b71c21927c">&#9670;&nbsp;</a></span>GetAvailableLineWidthRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp; MR::GetAvailableLineWidthRange </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -11358,6 +11441,55 @@ template&lt;typename R , typename... Args&gt; </div>
 
 </div>
 </div>
+<a id="a43da20cc5f0077147d57b1af6226aa53" name="a43da20cc5f0077147d57b1af6226aa53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43da20cc5f0077147d57b1af6226aa53">&#9670;&nbsp;</a></span>readByBlocks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::readByBlocks </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>dataSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>blockSize</em> = <code>(size_t(1)&lt;&lt;&#160;16)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>read dataSize bytes from in stream to data by blocks blockSize bytes </p>
+<p >if progress callback is not set, read all data by one block </p><dl class="section return"><dt>Returns</dt><dd>false if process was canceled (callback is set and return false ) </dd></dl>
+
+</div>
+</div>
 <a id="a3ad7ad795dcc0b694f3029f8b27fc863" name="a3ad7ad795dcc0b694f3029f8b27fc863"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3ad7ad795dcc0b694f3029f8b27fc863">&#9670;&nbsp;</a></span>remesh()</h2>
 
@@ -12586,6 +12718,50 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
+<a id="aaded4cd4767b56cafcef761970128104" name="aaded4cd4767b56cafcef761970128104"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaded4cd4767b56cafcef761970128104">&#9670;&nbsp;</a></span>cButtonPadding</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr float MR::cButtonPadding = 8.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a136b0ce6a3406a0d3b4e6a152e51247a" name="a136b0ce6a3406a0d3b4e6a152e51247a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a136b0ce6a3406a0d3b4e6a152e51247a">&#9670;&nbsp;</a></span>cCheckboxPadding</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr float MR::cCheckboxPadding = 3.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9c921093c85c2da2608e2dfbac0456d1" name="a9c921093c85c2da2608e2dfbac0456d1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9c921093c85c2da2608e2dfbac0456d1">&#9670;&nbsp;</a></span>cDefaultFontSize</h2>
 
@@ -12608,6 +12784,94 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
+<a id="a830a2da862354c816887a7862a190ce1" name="a830a2da862354c816887a7862a190ce1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a830a2da862354c816887a7862a190ce1">&#9670;&nbsp;</a></span>cDefaultInnerSpacing</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr float MR::cDefaultInnerSpacing = 8.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae0f25876ce272b7da3ae953cd1469376" name="ae0f25876ce272b7da3ae953cd1469376"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0f25876ce272b7da3ae953cd1469376">&#9670;&nbsp;</a></span>cDefaultItemSpacing</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr float MR::cDefaultItemSpacing = 8.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a862b30077baf437e28b842a18c3997e4" name="a862b30077baf437e28b842a18c3997e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a862b30077baf437e28b842a18c3997e4">&#9670;&nbsp;</a></span>cDefaultWindowPaddingX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr float MR::cDefaultWindowPaddingX = 8.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1bee00a475fada33c76a0bb71f8cbadd" name="a1bee00a475fada33c76a0bb71f8cbadd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bee00a475fada33c76a0bb71f8cbadd">&#9670;&nbsp;</a></span>cDefaultWindowPaddingY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr float MR::cDefaultWindowPaddingY = 12.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3980e45b7cc71e35412820615644bca6" name="a3980e45b7cc71e35412820615644bca6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3980e45b7cc71e35412820615644bca6">&#9670;&nbsp;</a></span>cGradientButtonFramePadding</h2>
 
@@ -12618,7 +12882,7 @@ template&lt;typename V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr float MR::cGradientButtonFramePadding = 7.0f</td>
+          <td class="memname">constexpr float MR::cGradientButtonFramePadding = 9.0f</td>
         </tr>
       </table>
   </td>
@@ -12770,6 +13034,28 @@ template&lt;typename Tag &gt; </div>
 
 </div>
 </div>
+<a id="af0077684be5ee0912d20ee7b7d775d53" name="af0077684be5ee0912d20ee7b7d775d53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0077684be5ee0912d20ee7b7d775d53">&#9670;&nbsp;</a></span>cPaletteDiscretizationScaling</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr float MR::cPaletteDiscretizationScaling = 5.0f / 18.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a11cefc41d465d94791aaa0484ecde389" name="a11cefc41d465d94791aaa0484ecde389"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a11cefc41d465d94791aaa0484ecde389">&#9670;&nbsp;</a></span>cQuickAccessBarHeight</h2>
 
@@ -12891,6 +13177,28 @@ template&lt;typename Tag &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">constexpr float MR::cScrollBarSize = 10.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3111d6c67340775339a2b320ca618a6a" name="a3111d6c67340775339a2b320ca618a6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3111d6c67340775339a2b320ca618a6a">&#9670;&nbsp;</a></span>cSeparateBlocksSpacing</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr float MR::cSeparateBlocksSpacing = 16.0f</td>
         </tr>
       </table>
   </td>

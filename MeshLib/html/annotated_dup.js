@@ -51,6 +51,7 @@ var annotated_dup =
       [ "BooleanResultMapper", "structMR_1_1BooleanResultMapper.html", "structMR_1_1BooleanResultMapper" ],
       [ "Box", "structMR_1_1Box.html", "structMR_1_1Box" ],
       [ "BoxedLeaf", "structMR_1_1BoxedLeaf.html", "structMR_1_1BoxedLeaf" ],
+      [ "ChangeIsoAction", "classMR_1_1ChangeIsoAction.html", "classMR_1_1ChangeIsoAction" ],
       [ "ChangeLabelAction", "classMR_1_1ChangeLabelAction.html", "classMR_1_1ChangeLabelAction" ],
       [ "ChangeMeshAction", "classMR_1_1ChangeMeshAction.html", "classMR_1_1ChangeMeshAction" ],
       [ "ChangeMeshCreasesAction", "classMR_1_1ChangeMeshCreasesAction.html", "classMR_1_1ChangeMeshCreasesAction" ],

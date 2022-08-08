@@ -116,6 +116,7 @@ var hierarchy =
     [ "MR::Histogram", "classMR_1_1Histogram.html", null ],
     [ "MR::Historian< HistoryActionType >", "classMR_1_1Historian.html", null ],
     [ "MR::HistoryAction", "classMR_1_1HistoryAction.html", [
+      [ "MR::ChangeIsoAction", "classMR_1_1ChangeIsoAction.html", null ],
       [ "MR::ChangeLabelAction", "classMR_1_1ChangeLabelAction.html", null ],
       [ "MR::ChangeMeshAction", "classMR_1_1ChangeMeshAction.html", null ],
       [ "MR::ChangeMeshCreasesAction", "classMR_1_1ChangeMeshCreasesAction.html", null ],
