@@ -8,5 +8,6 @@ var searchData=
   ['box_3c_20float_20_3e_5',['Box&lt; float &gt;',['../structMR_1_1Box.html',1,'MR']]],
   ['box_3c_20int_20_3e_6',['Box&lt; int &gt;',['../structMR_1_1Box.html',1,'MR']]],
   ['boxedleaf_7',['BoxedLeaf',['../structMR_1_1BoxedLeaf.html',1,'MR']]],
-  ['buttonitemwidth_8',['ButtonItemWidth',['../structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html',1,'MR::RibbonButtonDrawer']]]
+  ['buildsettings_8',['BuildSettings',['../structMR_1_1MeshBuilder_1_1BuildSettings.html',1,'MR::MeshBuilder']]],
+  ['buttonitemwidth_9',['ButtonItemWidth',['../structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html',1,'MR::RibbonButtonDrawer']]]
 ];

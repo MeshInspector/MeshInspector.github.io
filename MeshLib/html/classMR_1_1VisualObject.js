@@ -30,6 +30,7 @@ var classMR_1_1VisualObject =
     [ "getVisualizePropertyMask", "classMR_1_1VisualObject.html#a2d0de59e16bf45e9564c9353ad7fb746", null ],
     [ "getVisualizePropertyMask_", "classMR_1_1VisualObject.html#a707ecabffd277a2bcaf0c783af412fb4", null ],
     [ "getWorldBox", "classMR_1_1VisualObject.html#a0dc554fc910dfe7b2df7002685ff5fe2", null ],
+    [ "hasVisualRepresentation", "classMR_1_1VisualObject.html#a6fbac44c3310221cc666888718834ca6", null ],
     [ "heapBytes", "classMR_1_1VisualObject.html#a1c54cde8d69f13962e4e64bf839f3111", null ],
     [ "isPickable", "classMR_1_1VisualObject.html#a5e93f8182244dc91a5a4520b1640a00a", null ],
     [ "operator=", "classMR_1_1VisualObject.html#ad5bb82fa6b6b0ea77f0137b975c802f6", null ],

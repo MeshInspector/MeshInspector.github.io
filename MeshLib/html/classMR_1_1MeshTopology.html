@@ -357,9 +357,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a698bdffc6553d99627eff8444ae95cfb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a698bdffc6553d99627eff8444ae95cfb">write</a> (std::ostream &amp;s) const</td></tr>
 <tr class="memdesc:a698bdffc6553d99627eff8444ae95cfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in binary stream  <a href="classMR_1_1MeshTopology.html#a698bdffc6553d99627eff8444ae95cfb">More...</a><br /></td></tr>
 <tr class="separator:a698bdffc6553d99627eff8444ae95cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40efbbf70a3ef945491e474088a4db30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a40efbbf70a3ef945491e474088a4db30">read</a> (std::istream &amp;s)</td></tr>
-<tr class="memdesc:a40efbbf70a3ef945491e474088a4db30"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from binary stream  <a href="classMR_1_1MeshTopology.html#a40efbbf70a3ef945491e474088a4db30">More...</a><br /></td></tr>
-<tr class="separator:a40efbbf70a3ef945491e474088a4db30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adec570ff9fc018aef2c58cb5bd17f1e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#adec570ff9fc018aef2c58cb5bd17f1e8">read</a> (std::istream &amp;s, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="separator:adec570ff9fc018aef2c58cb5bd17f1e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adaf57d8b41c5f38c2bf17310ac1d8b78"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#adaf57d8b41c5f38c2bf17310ac1d8b78">operator==</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;b) const</td></tr>
 <tr class="memdesc:adaf57d8b41c5f38c2bf17310ac1d8b78"><td class="mdescLeft">&#160;</td><td class="mdescRight">comparison via edges (all other members are considered as not important caches)  <a href="classMR_1_1MeshTopology.html#adaf57d8b41c5f38c2bf17310ac1d8b78">More...</a><br /></td></tr>
 <tr class="separator:adaf57d8b41c5f38c2bf17310ac1d8b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2599,23 +2598,32 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a40efbbf70a3ef945491e474088a4db30" name="a40efbbf70a3ef945491e474088a4db30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40efbbf70a3ef945491e474088a4db30">&#9670;&nbsp;</a></span>read()</h2>
+<a id="adec570ff9fc018aef2c58cb5bd17f1e8" name="adec570ff9fc018aef2c58cb5bd17f1e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adec570ff9fc018aef2c58cb5bd17f1e8">&#9670;&nbsp;</a></span>read()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::MeshTopology::read </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt; MR::MeshTopology::read </td>
           <td>(</td>
           <td class="paramtype">std::istream &amp;&#160;</td>
-          <td class="paramname"><em>s</em></td><td>)</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>loads from binary stream </p>
+<p >loads from binary stream </p><dl class="section return"><dt>Returns</dt><dd>text of error if any </dd></dl>
 
 </div>
 </div>

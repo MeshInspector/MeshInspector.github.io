@@ -14,6 +14,7 @@ var MRRibbonConstants_8h =
     [ "cHeaderQuickAccessFrameSize", "MRRibbonConstants_8h.html#a211bab9b03c29b67594f01a79be6b4b9", null ],
     [ "cHeaderQuickAccessIconSize", "MRRibbonConstants_8h.html#aa11041a14963784ef3f797b273afdcd0", null ],
     [ "cHeaderQuickAccessXSpacing", "MRRibbonConstants_8h.html#a8d4c96ab0082d0546992371e2ac83c29", null ],
+    [ "cHeadlineFontSize", "MRRibbonConstants_8h.html#a8ba309adbf075ead954ae080a7f9b0d1", null ],
     [ "cMiddleIconSize", "MRRibbonConstants_8h.html#a8a7826f17744adf420a5075847c99e9e", null ],
     [ "cPaletteDiscretizationScaling", "MRRibbonConstants_8h.html#af0077684be5ee0912d20ee7b7d775d53", null ],
     [ "cQuickAccessBarHeight", "MRRibbonConstants_8h.html#a11cefc41d465d94791aaa0484ecde389", null ],

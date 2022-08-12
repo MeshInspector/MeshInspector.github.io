@@ -13,6 +13,7 @@ var classMR_1_1HistoryStore =
     [ "appendAction", "classMR_1_1HistoryStore.html#a567334bd2d093c338ced3ee9eae572d6", null ],
     [ "clear", "classMR_1_1HistoryStore.html#aafc8981726bdd34892bb0498bbb38ab4", null ],
     [ "filterStack", "classMR_1_1HistoryStore.html#af364f758f8c2ef66f70b83c0b8875885", null ],
+    [ "getLastActionName", "classMR_1_1HistoryStore.html#a7b6245b811406cce1c50ed2792df6300", null ],
     [ "getMemoryLimit", "classMR_1_1HistoryStore.html#a45b3529c2a011c9abd585452550ac145", null ],
     [ "getNActions", "classMR_1_1HistoryStore.html#ae1573259fb6a2bba49b63916ad7e2d91", null ],
     [ "getScopeBlock", "classMR_1_1HistoryStore.html#a6cdd2cc9754a9d7f0f8a5ddbe057fb09", null ],

@@ -28,6 +28,7 @@ var hierarchy =
     [ "MR::Box< float >", "structMR_1_1Box.html", null ],
     [ "MR::Box< int >", "structMR_1_1Box.html", null ],
     [ "MR::BoxedLeaf< T >", "structMR_1_1BoxedLeaf.html", null ],
+    [ "MR::MeshBuilder::BuildSettings", "structMR_1_1MeshBuilder_1_1BuildSettings.html", null ],
     [ "MR::RibbonButtonDrawer::ButtonItemWidth", "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html", null ],
     [ "MR::Color", "structMR_1_1Color.html", null ],
     [ "MR::ColorMapAggregator< Tag >", "classMR_1_1ColorMapAggregator.html", null ],
@@ -116,6 +117,7 @@ var hierarchy =
     [ "MR::Histogram", "classMR_1_1Histogram.html", null ],
     [ "MR::Historian< HistoryActionType >", "classMR_1_1Historian.html", null ],
     [ "MR::HistoryAction", "classMR_1_1HistoryAction.html", [
+      [ "MR::ChangeActiveBoxAction", "classMR_1_1ChangeActiveBoxAction.html", null ],
       [ "MR::ChangeIsoAction", "classMR_1_1ChangeIsoAction.html", null ],
       [ "MR::ChangeLabelAction", "classMR_1_1ChangeLabelAction.html", null ],
       [ "MR::ChangeMeshAction", "classMR_1_1ChangeMeshAction.html", null ],
@@ -133,6 +135,7 @@ var hierarchy =
       [ "MR::ChangePolylineTopologyAction", "classMR_1_1ChangePolylineTopologyAction.html", null ],
       [ "MR::ChangeSceneAction", "classMR_1_1ChangeSceneAction.html", null ],
       [ "MR::ChangeSceneObjectsOrder", "classMR_1_1ChangeSceneObjectsOrder.html", null ],
+      [ "MR::ChangeSurfaceAction", "classMR_1_1ChangeSurfaceAction.html", null ],
       [ "MR::ChangeXfAction", "classMR_1_1ChangeXfAction.html", null ],
       [ "MR::CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html", null ],
       [ "MR::SwapRootAction", "classMR_1_1SwapRootAction.html", null ]
@@ -200,8 +203,10 @@ var hierarchy =
         [ "MR::MeshModifier", "classMR_1_1MeshModifier.html", null ],
         [ "MR::StateBasePlugin", "classMR_1_1StateBasePlugin.html", null ]
       ] ],
-      [ "MR::SceneStateAtLeastCheck< N, ObjectT >", "classMR_1_1SceneStateAtLeastCheck.html", null ],
-      [ "MR::SceneStateExactCheck< N, ObjectT >", "classMR_1_1SceneStateExactCheck.html", null ]
+      [ "MR::SceneStateAtLeastCheck< N, ObjectT, typename >", "classMR_1_1SceneStateAtLeastCheck.html", null ],
+      [ "MR::SceneStateAtLeastCheck< N, ObjectT, NoVisualRepresentationCheck >", "classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html", null ],
+      [ "MR::SceneStateExactCheck< N, ObjectT, typename >", "classMR_1_1SceneStateExactCheck.html", null ],
+      [ "MR::SceneStateExactCheck< N, ObjectT, NoVisualRepresentationCheck >", "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html", null ]
     ] ],
     [ "MR::IteratorRange< I >", "structMR_1_1IteratorRange.html", null ],
     [ "MR::IViewerSettingsManager", "classMR_1_1IViewerSettingsManager.html", [
@@ -257,6 +262,7 @@ var hierarchy =
     [ "MR::NextEdgeSameLeft", "classMR_1_1NextEdgeSameLeft.html", null ],
     [ "MR::NextEdgeSameOrigin", "classMR_1_1NextEdgeSameOrigin.html", null ],
     [ "MR::AABBTreePoints::Node", "structMR_1_1AABBTreePoints_1_1Node.html", null ],
+    [ "MR::NoVisualRepresentationCheck", "structMR_1_1NoVisualRepresentationCheck.html", null ],
     [ "MR::ObjectChildrenHolder", "structMR_1_1ObjectChildrenHolder.html", [
       [ "MR::Object", "classMR_1_1Object.html", [
         [ "MR::VisualObject", "classMR_1_1VisualObject.html", [
@@ -436,6 +442,7 @@ var hierarchy =
     [ "MR::Vector< MR::UVCoord, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::Vector3, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< Node, NodeId >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< ThreeVertIds, FaceId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< TriangleCornerNormals, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< V, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< Vector3f, FaceId >", "classMR_1_1Vector.html", null ],

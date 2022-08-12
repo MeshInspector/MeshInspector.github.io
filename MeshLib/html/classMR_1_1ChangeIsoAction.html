@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('classMR_1_1ChangeIsoAction.html',''); 
 <p>Undo action for <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> iso change.  
  <a href="classMR_1_1ChangeIsoAction.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="MRChangeIsoAction_8h_source.html">MRChangeIsoAction.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="MRChangeVoxelsAction_8h_source.html">MRChangeVoxelsAction.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for MR::ChangeIsoAction:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -131,7 +131,7 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa092c6c8626b2f08f27c88210a2df02e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ChangeIsoAction.html#aa092c6c8626b2f08f27c88210a2df02e">ChangeIsoAction</a> (std::string <a class="el" href="classMR_1_1ChangeIsoAction.html#a2a614036297c1082f74843b12d425b0f">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &gt; &amp;obj)</td></tr>
-<tr class="memdesc:aa092c6c8626b2f08f27c88210a2df02e"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's surface and iso before making any changes in it  <a href="classMR_1_1ChangeIsoAction.html#aa092c6c8626b2f08f27c88210a2df02e">More...</a><br /></td></tr>
+<tr class="memdesc:aa092c6c8626b2f08f27c88210a2df02e"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's iso before making any changes in it  <a href="classMR_1_1ChangeIsoAction.html#aa092c6c8626b2f08f27c88210a2df02e">More...</a><br /></td></tr>
 <tr class="separator:aa092c6c8626b2f08f27c88210a2df02e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a614036297c1082f74843b12d425b0f"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ChangeIsoAction.html#a2a614036297c1082f74843b12d425b0f">name</a> () const override</td></tr>
 <tr class="separator:a2a614036297c1082f74843b12d425b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,8 +155,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a7c9e2a40a5c7b0bd91ba15351a86e404"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ChangeIsoAction.html#a7c9e2a40a5c7b0bd91ba15351a86e404">setObjectDirty</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1ChangeIsoAction.html#a87c8f47bac3f2dd7b904a9d9497f7fb7">Obj</a> &gt; &amp;obj)</td></tr>
-<tr class="separator:a7c9e2a40a5c7b0bd91ba15351a86e404"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b71839721e6f85a7267c6593843e35d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ChangeIsoAction.html#a9b71839721e6f85a7267c6593843e35d">setObjectDirty</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1ChangeIsoAction.html#a87c8f47bac3f2dd7b904a9d9497f7fb7">Obj</a> &gt; &amp;)</td></tr>
+<tr class="separator:a9b71839721e6f85a7267c6593843e35d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Undo action for <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> iso change. </p>
@@ -210,7 +210,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>use this constructor to remember object's surface and iso before making any changes in it </p>
+<p>use this constructor to remember object's iso before making any changes in it </p>
 
 </div>
 </div>
@@ -301,8 +301,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7c9e2a40a5c7b0bd91ba15351a86e404" name="a7c9e2a40a5c7b0bd91ba15351a86e404"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c9e2a40a5c7b0bd91ba15351a86e404">&#9670;&nbsp;</a></span>setObjectDirty()</h2>
+<a id="a9b71839721e6f85a7267c6593843e35d" name="a9b71839721e6f85a7267c6593843e35d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b71839721e6f85a7267c6593843e35d">&#9670;&nbsp;</a></span>setObjectDirty()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -314,7 +314,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">static void MR::ChangeIsoAction::setObjectDirty </td>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ChangeIsoAction.html#a87c8f47bac3f2dd7b904a9d9497f7fb7">Obj</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -328,7 +328,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="MRChangeIsoAction_8h_source.html">MRChangeIsoAction.h</a></li>
+<li><a class="el" href="MRChangeVoxelsAction_8h_source.html">MRChangeVoxelsAction.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

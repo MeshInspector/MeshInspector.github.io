@@ -64,7 +64,7 @@ var classMR_1_1Viewport =
     [ "remove_lines", "classMR_1_1Viewport.html#a92da1b066416a29236d943e1bde058a0", null ],
     [ "remove_points", "classMR_1_1Viewport.html#a21ebe9a2e505f38a43115e1928c1d2c1", null ],
     [ "resetRedrawFlag", "classMR_1_1Viewport.html#a833e41e2fc04f88a3ea7ce80dbc31fb6", null ],
-    [ "saveRotationPosition", "classMR_1_1Viewport.html#aab1b3ce287e4bf8dc3f5472dd4215ce3", null ],
+    [ "rotationCenterMode", "classMR_1_1Viewport.html#af9e6c144fff12c1d75af0be0b6ed5650", null ],
     [ "set_axes_pose", "classMR_1_1Viewport.html#a599b6c4606bee4526e8f64da89774d79", null ],
     [ "set_axes_size", "classMR_1_1Viewport.html#a123db8af0e9d3f12d4281a223c964344", null ],
     [ "setBackgroundColor", "classMR_1_1Viewport.html#add402fe6a91aa235f98db029c80be9b9", null ],

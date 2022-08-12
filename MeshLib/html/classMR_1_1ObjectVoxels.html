@@ -179,8 +179,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aabef8e164fd456b133249ea31024af4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5bde9f5b95addf42acf264b6802f79a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a5bde9f5b95addf42acf264b6802f79a7">recalculateIsoSurface</a> (float iso, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="separator:a5bde9f5b95addf42acf264b6802f79a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a7c3155c47dd6baafcfd2febbd295df"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a0a7c3155c47dd6baafcfd2febbd295df">setActiveBounds</a> (const <a class="el" href="namespaceMR.html#abb77b8aff8d862cb60056e4127ba543c">Box3i</a> &amp;activeBox)</td></tr>
-<tr class="separator:a0a7c3155c47dd6baafcfd2febbd295df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae495dd34ce33c5f6dfb753eb92cc5c0d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#ae495dd34ce33c5f6dfb753eb92cc5c0d">setActiveBounds</a> (const <a class="el" href="namespaceMR.html#abb77b8aff8d862cb60056e4127ba543c">Box3i</a> &amp;activeBox, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={}, bool updateSurface=true)</td></tr>
+<tr class="separator:ae495dd34ce33c5f6dfb753eb92cc5c0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21fac797124aacbda1e3226395b7203f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#abb77b8aff8d862cb60056e4127ba543c">Box3i</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a21fac797124aacbda1e3226395b7203f">getActiveBounds</a> () const</td></tr>
 <tr class="separator:a21fac797124aacbda1e3226395b7203f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac13b231e31f37fbd53d30d8a9aeb4e33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9ccb1b94958c98c5b5971b94fbfdb761">VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#ac13b231e31f37fbd53d30d8a9aeb4e33">getVoxelIdByCoordinate</a> (const <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &amp;coord) const</td></tr>
@@ -222,6 +222,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afb9471c0d9422d4474378ed1fd622724 inherit pub_methods_classMR_1_1ObjectMeshHolder"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#afb9471c0d9422d4474378ed1fd622724">applyScale</a> (float scaleFactor) override</td></tr>
 <tr class="memdesc:afb9471c0d9422d4474378ed1fd622724 inherit pub_methods_classMR_1_1ObjectMeshHolder"><td class="mdescLeft">&#160;</td><td class="mdescRight">scale object size (all point positions)  <a href="classMR_1_1ObjectMeshHolder.html#afb9471c0d9422d4474378ed1fd622724">More...</a><br /></td></tr>
 <tr class="separator:afb9471c0d9422d4474378ed1fd622724 inherit pub_methods_classMR_1_1ObjectMeshHolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a549b865eb174f604dfc2c5e9039e4c49 inherit pub_methods_classMR_1_1ObjectMeshHolder"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a549b865eb174f604dfc2c5e9039e4c49">hasVisualRepresentation</a> () const override</td></tr>
+<tr class="memdesc:a549b865eb174f604dfc2c5e9039e4c49 inherit pub_methods_classMR_1_1ObjectMeshHolder"><td class="mdescLeft">&#160;</td><td class="mdescRight">is object has visual representation (faces, edges, etc.)  <a href="classMR_1_1ObjectMeshHolder.html#a549b865eb174f604dfc2c5e9039e4c49">More...</a><br /></td></tr>
+<tr class="separator:a549b865eb174f604dfc2c5e9039e4c49 inherit pub_methods_classMR_1_1ObjectMeshHolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6739310dc9f9e21c461819ea47dc086 inherit pub_methods_classMR_1_1ObjectMeshHolder"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#af6739310dc9f9e21c461819ea47dc086">mesh</a> () const</td></tr>
 <tr class="separator:af6739310dc9f9e21c461819ea47dc086 inherit pub_methods_classMR_1_1ObjectMeshHolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f17cf78de5c594d2941f35bd82197f1 inherit pub_methods_classMR_1_1ObjectMeshHolder"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshPart.html">MeshPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a5f17cf78de5c594d2941f35bd82197f1">meshPart</a> () const</td></tr>
@@ -433,6 +436,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2ac2d3fec5be6ed045fb24e5519ff27d inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af652007b051e9c9408cbb2d25ee9cc57 inherit pub_methods_classMR_1_1VisualObject"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#af652007b051e9c9408cbb2d25ee9cc57">renderForPicker</a> (const <a class="el" href="structMR_1_1BaseRenderParams.html">BaseRenderParams</a> &amp;, unsigned) const</td></tr>
 <tr class="separator:af652007b051e9c9408cbb2d25ee9cc57 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fbac44c3310221cc666888718834ca6 inherit pub_methods_classMR_1_1VisualObject"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a6fbac44c3310221cc666888718834ca6">hasVisualRepresentation</a> () const</td></tr>
+<tr class="memdesc:a6fbac44c3310221cc666888718834ca6 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">is object has visual representation (faces, edges, etc.)  <a href="classMR_1_1VisualObject.html#a6fbac44c3310221cc666888718834ca6">More...</a><br /></td></tr>
+<tr class="separator:a6fbac44c3310221cc666888718834ca6 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0dc554fc910dfe7b2df7002685ff5fe2 inherit pub_methods_classMR_1_1VisualObject"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ada98ebf3fec74759dd46700389a3e556">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a0dc554fc910dfe7b2df7002685ff5fe2">getWorldBox</a> () const override</td></tr>
 <tr class="separator:a0dc554fc910dfe7b2df7002685ff5fe2 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a132f300dcd5614eaaa237b865dc79763 inherit pub_methods_classMR_1_1VisualObject"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a132f300dcd5614eaaa237b865dc79763">VisualObject</a> (<a class="el" href="structMR_1_1Object_1_1ProtectedStruct.html">ProtectedStruct</a>, const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;obj)</td></tr>
@@ -1596,8 +1602,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a0a7c3155c47dd6baafcfd2febbd295df" name="a0a7c3155c47dd6baafcfd2febbd295df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a7c3155c47dd6baafcfd2febbd295df">&#9670;&nbsp;</a></span>setActiveBounds()</h2>
+<a id="ae495dd34ce33c5f6dfb753eb92cc5c0d" name="ae495dd34ce33c5f6dfb753eb92cc5c0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae495dd34ce33c5f6dfb753eb92cc5c0d">&#9670;&nbsp;</a></span>setActiveBounds()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1609,8 +1615,24 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectVoxels::setActiveBounds </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespaceMR.html#abb77b8aff8d862cb60056e4127ba543c">Box3i</a> &amp;&#160;</td>
-          <td class="paramname"><em>activeBox</em></td><td>)</td>
+          <td class="paramname"><em>activeBox</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;&#160;</td>
+          <td class="paramname"><em>cb</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>updateSurface</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>

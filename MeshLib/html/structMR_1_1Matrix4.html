@@ -148,11 +148,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a61d081cbcb96e39fb7279a55c0b57996"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbbfb8ca3d8678f48374c3c38105af5a"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Matrix4.html#abbbfb8ca3d8678f48374c3c38105af5a">norm</a> () const noexcept</td></tr>
 <tr class="separator:abbbfb8ca3d8678f48374c3c38105af5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5408e4a71f68a738707aa7706fd9c81b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Matrix4.html#a5408e4a71f68a738707aa7706fd9c81b">submatrix3</a> (int i, int j) const noexcept</td></tr>
+<tr class="memdesc:a5408e4a71f68a738707aa7706fd9c81b"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes submatrix of the matrix with excluded i-th row and j-th column  <a href="structMR_1_1Matrix4.html#a5408e4a71f68a738707aa7706fd9c81b">More...</a><br /></td></tr>
+<tr class="separator:a5408e4a71f68a738707aa7706fd9c81b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cfc9d9ade4367b39f5eec17c75bdd5d"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Matrix4.html#a9cfc9d9ade4367b39f5eec17c75bdd5d">det</a> () const noexcept</td></tr>
+<tr class="memdesc:a9cfc9d9ade4367b39f5eec17c75bdd5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes determinant of the matrix  <a href="structMR_1_1Matrix4.html#a9cfc9d9ade4367b39f5eec17c75bdd5d">More...</a><br /></td></tr>
+<tr class="separator:a9cfc9d9ade4367b39f5eec17c75bdd5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7db341476ea39c09db9484ee3516d8a"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Matrix4.html#ae7db341476ea39c09db9484ee3516d8a">inverse</a> () const noexcept</td></tr>
+<tr class="memdesc:ae7db341476ea39c09db9484ee3516d8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes inverse matrix  <a href="structMR_1_1Matrix4.html#ae7db341476ea39c09db9484ee3516d8a">More...</a><br /></td></tr>
+<tr class="separator:ae7db341476ea39c09db9484ee3516d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3ccb709598578bbc7108e8ec0e686a9"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Matrix4.html#aa3ccb709598578bbc7108e8ec0e686a9">transposed</a> () const noexcept</td></tr>
 <tr class="memdesc:aa3ccb709598578bbc7108e8ec0e686a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes transposed matrix  <a href="structMR_1_1Matrix4.html#aa3ccb709598578bbc7108e8ec0e686a9">More...</a><br /></td></tr>
 <tr class="separator:aa3ccb709598578bbc7108e8ec0e686a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7db341476ea39c09db9484ee3516d8a"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Matrix4.html#ae7db341476ea39c09db9484ee3516d8a">inverse</a> () const noexcept</td></tr>
-<tr class="separator:ae7db341476ea39c09db9484ee3516d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94060d7e07f5c48155555c0bac0194d9"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Matrix4.html#a94060d7e07f5c48155555c0bac0194d9">getRotation</a> () const noexcept</td></tr>
 <tr class="separator:a94060d7e07f5c48155555c0bac0194d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a2bc593ced399beb03969db94ba63af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Matrix4.html#a8a2bc593ced399beb03969db94ba63af">setRotation</a> (const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;rot) noexcept</td></tr>
@@ -486,6 +493,35 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a9cfc9d9ade4367b39f5eec17c75bdd5d" name="a9cfc9d9ade4367b39f5eec17c75bdd5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cfc9d9ade4367b39f5eec17c75bdd5d">&#9670;&nbsp;</a></span>det()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="structMR_1_1Matrix4.html">MR::Matrix4</a>&lt; T &gt;::det </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes determinant of the matrix </p>
+
+</div>
+</div>
 <a id="a94060d7e07f5c48155555c0bac0194d9" name="a94060d7e07f5c48155555c0bac0194d9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a94060d7e07f5c48155555c0bac0194d9">&#9670;&nbsp;</a></span>getRotation()</h2>
 
@@ -564,6 +600,8 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>computes inverse matrix </p>
 
 </div>
 </div>
@@ -1002,6 +1040,46 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5408e4a71f68a738707aa7706fd9c81b" name="a5408e4a71f68a738707aa7706fd9c81b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5408e4a71f68a738707aa7706fd9c81b">&#9670;&nbsp;</a></span>submatrix3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; <a class="el" href="structMR_1_1Matrix4.html">MR::Matrix4</a>&lt; T &gt;::submatrix3 </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>j</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes submatrix of the matrix with excluded i-th row and j-th column </p>
 
 </div>
 </div>

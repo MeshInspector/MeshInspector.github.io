@@ -26,7 +26,6 @@ var searchData=
   ['tree_23',['tree',['../structMR_1_1Line3Mesh.html#a993c546c36a0d4723de3bdaffd1d769e',1,'MR::Line3Mesh']]],
   ['tri_24',['tri',['../structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318',1,'MR::EdgeTri']]],
   ['trianglemetric_25',['triangleMetric',['../structMR_1_1FillHoleMetric.html#acc8ef5c37515d91d9c3cb3fbcaa1fd22',1,'MR::FillHoleMetric']]],
-  ['tris_26',['tris',['../structMR_1_1MeshBuilder_1_1MeshPiece.html#acaa4e2703d22a3965d91b3e9a58b69ee',1,'MR::MeshBuilder::MeshPiece']]],
-  ['type_27',['type',['../structMR_1_1MeshApproxRelaxParams.html#a1cee1338307334369140e04b54f03b51',1,'MR::MeshApproxRelaxParams::type()'],['../structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d',1,'MR::PointCloudApproxRelaxParams::type()'],['../structMR_1_1Viewer_1_1MouseQueueEvent.html#a86975eeae67e13c6a087df3affd56741',1,'MR::Viewer::MouseQueueEvent::type()']]],
-  ['type_5f_28',['type_',['../classMR_1_1RibbonMenuItem.html#a00b402da6dbcec7d6c97b5c6a16e3924',1,'MR::RibbonMenuItem']]]
+  ['type_26',['type',['../structMR_1_1MeshApproxRelaxParams.html#a1cee1338307334369140e04b54f03b51',1,'MR::MeshApproxRelaxParams::type()'],['../structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d',1,'MR::PointCloudApproxRelaxParams::type()'],['../structMR_1_1Viewer_1_1MouseQueueEvent.html#a86975eeae67e13c6a087df3affd56741',1,'MR::Viewer::MouseQueueEvent::type()']]],
+  ['type_5f_27',['type_',['../classMR_1_1RibbonMenuItem.html#a00b402da6dbcec7d6c97b5c6a16e3924',1,'MR::RibbonMenuItem']]]
 ];

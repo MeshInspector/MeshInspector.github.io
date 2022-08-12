@@ -1,12 +1,5 @@
 var group__HistoryGroup =
 [
-    [ "MR::ChangeIsoAction", "classMR_1_1ChangeIsoAction.html", [
-      [ "Obj", "classMR_1_1ChangeIsoAction.html#a87c8f47bac3f2dd7b904a9d9497f7fb7", null ],
-      [ "ChangeIsoAction", "classMR_1_1ChangeIsoAction.html#aa092c6c8626b2f08f27c88210a2df02e", null ],
-      [ "action", "classMR_1_1ChangeIsoAction.html#ac42a58b81acf452e6673fc739cdd14d0", null ],
-      [ "heapBytes", "classMR_1_1ChangeIsoAction.html#ae32cc04931a20fc9ae75cdcabad0b018", null ],
-      [ "name", "classMR_1_1ChangeIsoAction.html#a2a614036297c1082f74843b12d425b0f", null ]
-    ] ],
     [ "MR::ChangeMeshAction", "classMR_1_1ChangeMeshAction.html", [
       [ "Obj", "classMR_1_1ChangeMeshAction.html#af714055379496f5d4d7cc0762f755fea", null ],
       [ "ChangeMeshAction", "classMR_1_1ChangeMeshAction.html#aa047c1990777d68d6c09a53db29e6d61", null ],
@@ -116,6 +109,27 @@ var group__HistoryGroup =
       [ "name", "classMR_1_1ChangePointPointSelectionAction.html#a7ebe140792b37c16fdd8f129492ad4c8", null ],
       [ "selection", "classMR_1_1ChangePointPointSelectionAction.html#a3d3f98681572b719c29e2acd8ef99619", null ]
     ] ],
+    [ "MR::ChangeIsoAction", "classMR_1_1ChangeIsoAction.html", [
+      [ "Obj", "classMR_1_1ChangeIsoAction.html#a87c8f47bac3f2dd7b904a9d9497f7fb7", null ],
+      [ "ChangeIsoAction", "classMR_1_1ChangeIsoAction.html#aa092c6c8626b2f08f27c88210a2df02e", null ],
+      [ "action", "classMR_1_1ChangeIsoAction.html#ac42a58b81acf452e6673fc739cdd14d0", null ],
+      [ "heapBytes", "classMR_1_1ChangeIsoAction.html#ae32cc04931a20fc9ae75cdcabad0b018", null ],
+      [ "name", "classMR_1_1ChangeIsoAction.html#a2a614036297c1082f74843b12d425b0f", null ]
+    ] ],
+    [ "MR::ChangeActiveBoxAction", "classMR_1_1ChangeActiveBoxAction.html", [
+      [ "Obj", "classMR_1_1ChangeActiveBoxAction.html#a897d1a8335367c58278f3a6da3a6c59f", null ],
+      [ "ChangeActiveBoxAction", "classMR_1_1ChangeActiveBoxAction.html#a2caa2474b0606297a2f58c69be0994e4", null ],
+      [ "action", "classMR_1_1ChangeActiveBoxAction.html#a83fd8175728c350029784aa802749d90", null ],
+      [ "heapBytes", "classMR_1_1ChangeActiveBoxAction.html#a7fdeabeadb9c2e89e83a34c52576dba3", null ],
+      [ "name", "classMR_1_1ChangeActiveBoxAction.html#a25b3ab2e8226cb91171a0128777eea34", null ]
+    ] ],
+    [ "MR::ChangeSurfaceAction", "classMR_1_1ChangeSurfaceAction.html", [
+      [ "Obj", "classMR_1_1ChangeSurfaceAction.html#aea6aeaec06fc16a8b7114feb5bbe7ca0", null ],
+      [ "ChangeSurfaceAction", "classMR_1_1ChangeSurfaceAction.html#a468b0ff0cd862ea414e340dc4bfbd249", null ],
+      [ "action", "classMR_1_1ChangeSurfaceAction.html#ae9190bfd7891e5a5cc1229fb42d4efd5", null ],
+      [ "heapBytes", "classMR_1_1ChangeSurfaceAction.html#a8d95a8625e6cbeb9f194a629de34610d", null ],
+      [ "name", "classMR_1_1ChangeSurfaceAction.html#a10e342f28635a448b68e1e8d60a56b54", null ]
+    ] ],
     [ "MR::ChangeXfAction", "classMR_1_1ChangeXfAction.html", [
       [ "ChangeXfAction", "classMR_1_1ChangeXfAction.html#adc90b8207a85c52060b965692645d95b", null ],
       [ "action", "classMR_1_1ChangeXfAction.html#ae0205231d9c1c0389daaa03a05b302e2", null ],
@@ -154,6 +168,7 @@ var group__HistoryGroup =
       [ "appendAction", "classMR_1_1HistoryStore.html#a567334bd2d093c338ced3ee9eae572d6", null ],
       [ "clear", "classMR_1_1HistoryStore.html#aafc8981726bdd34892bb0498bbb38ab4", null ],
       [ "filterStack", "classMR_1_1HistoryStore.html#af364f758f8c2ef66f70b83c0b8875885", null ],
+      [ "getLastActionName", "classMR_1_1HistoryStore.html#a7b6245b811406cce1c50ed2792df6300", null ],
       [ "getMemoryLimit", "classMR_1_1HistoryStore.html#a45b3529c2a011c9abd585452550ac145", null ],
       [ "getNActions", "classMR_1_1HistoryStore.html#ae1573259fb6a2bba49b63916ad7e2d91", null ],
       [ "getScopeBlock", "classMR_1_1HistoryStore.html#a6cdd2cc9754a9d7f0f8a5ddbe057fb09", null ],

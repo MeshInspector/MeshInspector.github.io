@@ -117,9 +117,15 @@ $(document).ready(function(){initNavTree('MRSceneStateCheck_8h.html',''); initRe
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ISceneStateCheck.html">MR::ISceneStateCheck</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SceneStateExactCheck.html">MR::SceneStateExactCheck&lt; N, ObjectT &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1NoVisualRepresentationCheck.html">MR::NoVisualRepresentationCheck</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SceneStateAtLeastCheck.html">MR::SceneStateAtLeastCheck&lt; N, ObjectT &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SceneStateExactCheck.html">MR::SceneStateExactCheck&lt; N, ObjectT, typename &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html">MR::SceneStateExactCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SceneStateAtLeastCheck.html">MR::SceneStateAtLeastCheck&lt; N, ObjectT, typename &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html">MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SceneStateOrCheck.html">MR::SceneStateOrCheck&lt; Checks &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -147,12 +153,16 @@ Functions</h2></td></tr>
 <tr class="separator:a511a34ad284006971f3a6f72fa50aa5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71ca3706f0f357363681410a323c5d76"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ModelCheck.html#a71ca3706f0f357363681410a323c5d76">MR::ModelCheck::model</a> (const ObjectDistanceMap &amp;obj)</td></tr>
 <tr class="separator:a71ca3706f0f357363681410a323c5d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab025bab051930aa719d8fe3785f34be3"><td class="memTemplParams" colspan="2">template&lt;typename ObjectT &gt; </td></tr>
-<tr class="memitem:ab025bab051930aa719d8fe3785f34be3"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab025bab051930aa719d8fe3785f34be3">MR::sceneSelectedExactly</a> (const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;objs, unsigned n)</td></tr>
-<tr class="separator:ab025bab051930aa719d8fe3785f34be3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f6f822f62fa044432636e43468ef71a"><td class="memTemplParams" colspan="2">template&lt;typename ObjectT &gt; </td></tr>
-<tr class="memitem:a0f6f822f62fa044432636e43468ef71a"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0f6f822f62fa044432636e43468ef71a">MR::sceneSelectedAtLeast</a> (const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;objs, unsigned n)</td></tr>
-<tr class="separator:a0f6f822f62fa044432636e43468ef71a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ee35de4441c2d3adc67ccd631f117ca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a1ee35de4441c2d3adc67ccd631f117ca">MR::hasVisualRepresentation</a> (const Object &amp;)</td></tr>
+<tr class="separator:a1ee35de4441c2d3adc67ccd631f117ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd86569d2628c554e342de21bc176b2e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#abd86569d2628c554e342de21bc176b2e">MR::hasVisualRepresentation</a> (const VisualObject &amp;obj)</td></tr>
+<tr class="separator:abd86569d2628c554e342de21bc176b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35e87c506866f155c9c41b19e065fb6f"><td class="memTemplParams" colspan="2">template&lt;typename ObjectT , bool visualRepresentationCheck&gt; </td></tr>
+<tr class="memitem:a35e87c506866f155c9c41b19e065fb6f"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a35e87c506866f155c9c41b19e065fb6f">MR::sceneSelectedExactly</a> (const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;objs, unsigned n)</td></tr>
+<tr class="separator:a35e87c506866f155c9c41b19e065fb6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86c0390d3762ecfc32a6dbdacf346b4d"><td class="memTemplParams" colspan="2">template&lt;typename ObjectT , bool visualRepresentationCheck&gt; </td></tr>
+<tr class="memitem:a86c0390d3762ecfc32a6dbdacf346b4d"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a86c0390d3762ecfc32a6dbdacf346b4d">MR::sceneSelectedAtLeast</a> (const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;objs, unsigned n)</td></tr>
+<tr class="separator:a86c0390d3762ecfc32a6dbdacf346b4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

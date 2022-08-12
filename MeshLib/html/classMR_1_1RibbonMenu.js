@@ -18,6 +18,7 @@ var classMR_1_1RibbonMenu =
     [ "drawRibbonSceneListContent_", "classMR_1_1RibbonMenu.html#acc35a2ef664e0d89024d675cc3c9f2d8", null ],
     [ "drawRibbonViewportsLabels_", "classMR_1_1RibbonMenu.html#afc3d25a8a8f6b8f82503f575646ee430", null ],
     [ "drawSceneContextMenu_", "classMR_1_1RibbonMenu.html#ac4a586522bc6b428e2f71fa844cc08e7", null ],
+    [ "drawShortcutsWindow_", "classMR_1_1RibbonMenu.html#a361cde7981902393e0db66ef54bf937e", null ],
     [ "drawSmallButtonsSet_", "classMR_1_1RibbonMenu.html#a3d177f8768aa87645a633f7e5e3dd0ba", null ],
     [ "drawTopPanel_", "classMR_1_1RibbonMenu.html#aa73c014dbd2902888c6d2ec4c8adaeef", null ],
     [ "drawTransformContextMenu_", "classMR_1_1RibbonMenu.html#aed3d5ce11a8471f66e67bb6997bd6e54", null ],

@@ -18,6 +18,7 @@ var classMR_1_1ObjectPointsHolder =
     [ "getSelectedVerticesColor", "classMR_1_1ObjectPointsHolder.html#aaeb7aaee6d86b069875588880b0a322f", null ],
     [ "getVisualizePropertyMask", "classMR_1_1ObjectPointsHolder.html#afbc2556aa91e8d7295d05f97ae0b7ed8", null ],
     [ "getWorldBox", "classMR_1_1ObjectPointsHolder.html#a840e99284a25e2d13fcd07ea825fb07b", null ],
+    [ "hasVisualRepresentation", "classMR_1_1ObjectPointsHolder.html#aaf5a84fb8a05f5651aee309a512efb74", null ],
     [ "heapBytes", "classMR_1_1ObjectPointsHolder.html#a2646bd14bb792576389645ad9483bc0a", null ],
     [ "numSelectedPoints", "classMR_1_1ObjectPointsHolder.html#a54c093ecf7ef8fa2397f85b65631c47a", null ],
     [ "numValidPoints", "classMR_1_1ObjectPointsHolder.html#aba48075cc3847fbce801558843fc38d1", null ],

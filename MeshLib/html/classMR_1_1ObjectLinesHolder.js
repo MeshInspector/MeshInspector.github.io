@@ -16,6 +16,7 @@ var classMR_1_1ObjectLinesHolder =
     [ "getPointSize", "classMR_1_1ObjectLinesHolder.html#afade546b380f165250bd73157dae1fbd", null ],
     [ "getVisualizePropertyMask", "classMR_1_1ObjectLinesHolder.html#a5d13c8c395f958091f374366074439e4", null ],
     [ "getWorldBox", "classMR_1_1ObjectLinesHolder.html#a546c75ca597cce0346167f1a223dc6b5", null ],
+    [ "hasVisualRepresentation", "classMR_1_1ObjectLinesHolder.html#ab254bdde22e806161d869d150ac181b8", null ],
     [ "heapBytes", "classMR_1_1ObjectLinesHolder.html#ad64322425bc9354238fc990bff3e2b10", null ],
     [ "operator=", "classMR_1_1ObjectLinesHolder.html#a399c6bd6321c060f5c6faffab0095bed", null ],
     [ "polyline", "classMR_1_1ObjectLinesHolder.html#ae0b496042ca65d7b8bdb862c9e984ff7", null ],

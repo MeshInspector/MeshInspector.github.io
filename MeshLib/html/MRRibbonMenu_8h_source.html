@@ -228,117 +228,118 @@ $(document).ready(function(){initNavTree('MRRibbonMenu_8h_source.html',''); init
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>    <span class="comment">// return icon (now it is symbol in icons font) based on typename</span></div>
 <div class="line"><a id="l00140" name="l00140"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonMenu.html#a08cfddbcdf2067399261696955c7276a">  140</a></span>    MRVIEWER_API <span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="classMR_1_1RibbonMenu.html#a08cfddbcdf2067399261696955c7276a">getSceneItemIconByTypeName_</a>( <span class="keyword">const</span> std::string&amp; typeName ) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span> </div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonMenu.html#aba97528933cb192040c755a2c5de049f">  142</a></span>    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonMenu.html#aba97528933cb192040c755a2c5de049f">drawCustomObjectPrefixInScene_</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1Object.html">Object</a>&amp; obj ) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonMenu.html#aba97528933cb192040c755a2c5de049f">  142</a></span>    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonMenu.html#aba97528933cb192040c755a2c5de049f">drawCustomObjectPrefixInScene_</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1Object.html">Object</a>&amp; obj ) <span class="keyword">override</span>;   </div>
 <div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span> </div>
 <div class="line"><a id="l00144" name="l00144"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonMenu.html#a1d80aef71da13b99c1360a4180110f25">  144</a></span>    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonMenu.html#a1d80aef71da13b99c1360a4180110f25">setupShortcuts_</a>() <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span> </div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    <span class="comment">// reads files with panel description</span></div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonMenu.html#a566e74703b12f0c2cd8873fe0ca33e50">  147</a></span>    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonMenu.html#a566e74703b12f0c2cd8873fe0ca33e50">readMenuItemsStructure_</a>();</div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span> </div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonMenu.html#a995a11b9ef6d9d367ceff73955651a41">  149</a></span>    std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt; <a class="code hl_variable" href="classMR_1_1RibbonMenu.html#a995a11b9ef6d9d367ceff73955651a41">selectedObjectsCache_</a>;</div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    <span class="keywordtype">void</span> changeTab_( <span class="keywordtype">int</span> newTab );</div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span> </div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>    std::string getRequirements_( <span class="keyword">const</span> std::shared_ptr&lt;RibbonMenuItem&gt;&amp; item ) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span> </div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>    <span class="comment">// draw scene list buttons</span></div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>    <span class="keywordtype">void</span> drawSceneListButtons_();</div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span> </div>
-<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>    <span class="comment">// struct to hold information for search result presentation</span></div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>    <span class="keyword">struct </span>SearchResult</div>
-<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>    {</div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>        <span class="keywordtype">int</span> tabIndex{ -1 }; <span class="comment">// -1 is default value if item has no tab</span></div>
-<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>        <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MenuItemInfo.html">MenuItemInfo</a>* item{ <span class="keyword">nullptr</span> }; <span class="comment">// item info to show correct caption</span></div>
-<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    };</div>
-<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>    <span class="comment">// does look up in ribbon schema for `searchLine_`</span></div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    std::vector&lt;SearchResult&gt; search_();</div>
-<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>    std::string searchLine_;</div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    std::vector&lt;SearchResult&gt; searchResult_;</div>
-<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>    <span class="keywordtype">void</span> drawSearchButton_();</div>
-<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>    <span class="keywordtype">void</span> drawCollapseButton_();</div>
-<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span> </div>
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>    <span class="keywordtype">void</span> sortObjectsRecursive_( std::shared_ptr&lt;Object&gt; <span class="keywordtype">object</span> );</div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span> </div>
-<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>    <span class="comment">// part of top panel</span></div>
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>    <span class="keywordtype">void</span> drawHeaderQuickAccess_();</div>
-<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>    <span class="keywordtype">void</span> drawHeaderPannel_();</div>
-<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>    <span class="keywordtype">void</span> drawActiveListButton_( <span class="keyword">const</span> ImVec2&amp; basePos, <span class="keywordtype">float</span> btnSize, <span class="keywordtype">float</span> textSize );</div>
-<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span> </div>
-<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>    <span class="keywordtype">bool</span> drawGroupUngroupButton_( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp; selected );</div>
-<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span> </div>
-<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>    <span class="keywordtype">void</span> beginTopPanel_();</div>
-<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>    <span class="keywordtype">void</span> endTopPanel_();</div>
-<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>    <span class="keywordtype">void</span> drawTopPanelOpened_();</div>
-<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span> </div>
-<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>    <span class="keywordtype">void</span> fixViewportsSize_( <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h );</div>
-<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span> </div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>    <span class="keywordtype">int</span> currentTopPanelHeight_ = 111;</div>
-<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    <span class="keywordtype">int</span> topPanelOpenedHeight_ = 111;</div>
-<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>    <span class="keywordtype">int</span> topPanelHiddenHeight_ = 33;</div>
-<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span> </div>
-<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>    <span class="keywordtype">bool</span> fixFirstGetSize_{ <span class="keyword">false</span> };</div>
-<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>    ImVec2 sceneSize_{ 310, 0 };</div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>    <span class="keywordtype">float</span> informationHeight_{ 0.f };</div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>    <span class="keywordtype">float</span> transformHeight_{ 0.f };</div>
-<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span> </div>
-<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>    <span class="comment">// current scroll position of tabs panel</span></div>
-<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>    <span class="keywordtype">float</span> tabPanelScroll_{ 0.0f };</div>
-<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span> </div>
-<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>    <span class="keyword">enum class</span> CollapseState</div>
-<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>    {</div>
-<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>        Closed,</div>
-<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>        Opened,</div>
-<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>        Pinned</div>
-<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>    } collapseState_{ CollapseState::Pinned };</div>
-<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>    <span class="comment">// seconds to stay opened if not pinned</span></div>
-<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>    <span class="keywordtype">float</span> openedMaxSecs_{ 2.0f };</div>
-<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>    <span class="keywordtype">float</span> openedTimer_{ openedMaxSecs_ };</div>
-<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span> </div>
-<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>    <span class="keywordtype">int</span> activeTabIndex_{ 0 };</div>
-<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>    <a class="code hl_typedef" href="namespaceMR.html#a84781b4b8d661ed6a8619f3db2d05a72">MenuItemsList</a> quickAccessList_;</div>
-<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>    RibbonFontManager fontManager_;</div>
-<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>    RibbonButtonDrawer buttonDrawer_;</div>
-<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span> </div>
-<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>    AsyncTimer asyncTimer_;</div>
-<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>    std::thread timerThread_;</div>
-<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>};</div>
-<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span> </div>
-<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a id="l00218" name="l00218"></a><span class="lineno"><a class="line" href="structMR_1_1RibbonMenuItemAdder.html">  218</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1RibbonMenuItemAdder.html">RibbonMenuItemAdder</a></div>
-<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>{</div>
-<div class="line"><a id="l00220" name="l00220"></a><span class="lineno"><a class="line" href="structMR_1_1RibbonMenuItemAdder.html#ac9e373fad8fe85ad8aa8d5ae2a51437e">  220</a></span>    <a class="code hl_function" href="structMR_1_1RibbonMenuItemAdder.html#ac9e373fad8fe85ad8aa8d5ae2a51437e">RibbonMenuItemAdder</a>()</div>
-<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>    {</div>
-<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>        <span class="keyword">static_assert</span>( std::is_base_of_v&lt;RibbonMenuItem, T&gt; );</div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>        <a class="code hl_function" href="classMR_1_1RibbonSchemaHolder.html#a1c3460f89faa5279890fe5b080a5726e">RibbonSchemaHolder::addItem</a>( std::make_shared&lt;T&gt;() );</div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>    }</div>
-<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>};</div>
-<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span> </div>
-<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno"><a class="line" href="structMR_1_1RibbonMenuItemCall.html">  228</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1RibbonMenuItemCall.html">RibbonMenuItemCall</a></div>
-<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>{</div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> Func&gt;</div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno"><a class="line" href="structMR_1_1RibbonMenuItemCall.html#a28920e01005bb5e0cb49786e36d3b0f8">  231</a></span>    <a class="code hl_function" href="structMR_1_1RibbonMenuItemCall.html#a28920e01005bb5e0cb49786e36d3b0f8">RibbonMenuItemCall</a>( Func f )</div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>    {</div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>        <span class="keyword">static_assert</span>( std::is_base_of_v&lt;RibbonMenuItem, T&gt; );</div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>        <span class="keyword">const</span> <span class="keyword">auto</span>&amp; items = <a class="code hl_function" href="classMR_1_1RibbonSchemaHolder.html#a07e8558bf86dd569ca7acedfbce55d9a">RibbonSchemaHolder::schema</a>().<a class="code hl_variable" href="structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1">items</a>;</div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>        <span class="keywordflow">for</span> ( <span class="keyword">const</span> <span class="keyword">auto</span>&amp; item : items )</div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>        {</div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>            <span class="keyword">auto</span> plugin = std::dynamic_pointer_cast&lt;T&gt;( item.second.item );</div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>            <span class="keywordflow">if</span> ( !plugin )</div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>            f( plugin );</div>
-<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>        }</div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>    }</div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>};</div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span> </div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno"><a class="line" href="MRRibbonMenu_8h.html#ad1709955819b9d2eb38aa06ebd34272c">  245</a></span><span class="preprocessor">#define MR_REGISTER_RIBBON_ITEM(pluginType) \</span></div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span><span class="preprocessor">    static MR::RibbonMenuItemAdder&lt;pluginType&gt; ribbonMenuItemAdder##pluginType##_;</span></div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span> </div>
-<div class="line"><a id="l00248" name="l00248"></a><span class="lineno"><a class="line" href="MRRibbonMenu_8h.html#a4ea105d3ac17c4b1cb3ac6451a5163fc">  248</a></span><span class="preprocessor">#define MR_RIBBON_ITEM_CALL(pluginType,func) \</span></div>
-<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span><span class="preprocessor">    static MR::RibbonMenuItemCall&lt;pluginType&gt; ribbonMenuItemCall##func##pluginType##_( func );</span></div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span> </div>
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>}</div>
-<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span> </div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonMenu.html#a361cde7981902393e0db66ef54bf937e">  146</a></span>    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonMenu.html#a361cde7981902393e0db66ef54bf937e">drawShortcutsWindow_</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    <span class="comment">// reads files with panel description</span></div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonMenu.html#a566e74703b12f0c2cd8873fe0ca33e50">  148</a></span>    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonMenu.html#a566e74703b12f0c2cd8873fe0ca33e50">readMenuItemsStructure_</a>();</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span> </div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonMenu.html#a995a11b9ef6d9d367ceff73955651a41">  150</a></span>    std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt; <a class="code hl_variable" href="classMR_1_1RibbonMenu.html#a995a11b9ef6d9d367ceff73955651a41">selectedObjectsCache_</a>;</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    <span class="keywordtype">void</span> changeTab_( <span class="keywordtype">int</span> newTab );</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span> </div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    std::string getRequirements_( <span class="keyword">const</span> std::shared_ptr&lt;RibbonMenuItem&gt;&amp; item ) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span> </div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>    <span class="comment">// draw scene list buttons</span></div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>    <span class="keywordtype">void</span> drawSceneListButtons_();</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span> </div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>    <span class="comment">// struct to hold information for search result presentation</span></div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>    <span class="keyword">struct </span>SearchResult</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>    {</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>        <span class="keywordtype">int</span> tabIndex{ -1 }; <span class="comment">// -1 is default value if item has no tab</span></div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>        <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MenuItemInfo.html">MenuItemInfo</a>* item{ <span class="keyword">nullptr</span> }; <span class="comment">// item info to show correct caption</span></div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>    };</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    <span class="comment">// does look up in ribbon schema for `searchLine_`</span></div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>    std::vector&lt;SearchResult&gt; search_();</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    std::string searchLine_;</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>    std::vector&lt;SearchResult&gt; searchResult_;</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>    <span class="keywordtype">void</span> drawSearchButton_();</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>    <span class="keywordtype">void</span> drawCollapseButton_();</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span> </div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    <span class="keywordtype">void</span> sortObjectsRecursive_( std::shared_ptr&lt;Object&gt; <span class="keywordtype">object</span> );</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span> </div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>    <span class="comment">// part of top panel</span></div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>    <span class="keywordtype">void</span> drawHeaderQuickAccess_();</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>    <span class="keywordtype">void</span> drawHeaderPannel_();</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>    <span class="keywordtype">void</span> drawActiveListButton_( <span class="keyword">const</span> ImVec2&amp; basePos, <span class="keywordtype">float</span> btnSize, <span class="keywordtype">float</span> textSize );</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span> </div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>    <span class="keywordtype">bool</span> drawGroupUngroupButton_( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;Object&gt;&gt;&amp; selected );</div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span> </div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>    <span class="keywordtype">void</span> beginTopPanel_();</div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>    <span class="keywordtype">void</span> endTopPanel_();</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>    <span class="keywordtype">void</span> drawTopPanelOpened_();</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span> </div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>    <span class="keywordtype">void</span> fixViewportsSize_( <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h );</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span> </div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    <span class="keywordtype">int</span> currentTopPanelHeight_ = 111;</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>    <span class="keywordtype">int</span> topPanelOpenedHeight_ = 111;</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>    <span class="keywordtype">int</span> topPanelHiddenHeight_ = 33;</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span> </div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>    <span class="keywordtype">bool</span> fixFirstGetSize_{ <span class="keyword">false</span> };</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>    ImVec2 sceneSize_{ 310, 0 };</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>    <span class="keywordtype">float</span> informationHeight_{ 0.f };</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>    <span class="keywordtype">float</span> transformHeight_{ 0.f };</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span> </div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>    <span class="comment">// current scroll position of tabs panel</span></div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>    <span class="keywordtype">float</span> tabPanelScroll_{ 0.0f };</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span> </div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>    <span class="keyword">enum class</span> CollapseState</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>    {</div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>        Closed,</div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>        Opened,</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>        Pinned</div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>    } collapseState_{ CollapseState::Pinned };</div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>    <span class="comment">// seconds to stay opened if not pinned</span></div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>    <span class="keywordtype">float</span> openedMaxSecs_{ 2.0f };</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>    <span class="keywordtype">float</span> openedTimer_{ openedMaxSecs_ };</div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span> </div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>    <span class="keywordtype">int</span> activeTabIndex_{ 0 };</div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>    <a class="code hl_typedef" href="namespaceMR.html#a84781b4b8d661ed6a8619f3db2d05a72">MenuItemsList</a> quickAccessList_;</div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>    RibbonFontManager fontManager_;</div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>    RibbonButtonDrawer buttonDrawer_;</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span> </div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>    AsyncTimer asyncTimer_;</div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>    std::thread timerThread_;</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>};</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span> </div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno"><a class="line" href="structMR_1_1RibbonMenuItemAdder.html">  219</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1RibbonMenuItemAdder.html">RibbonMenuItemAdder</a></div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>{</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno"><a class="line" href="structMR_1_1RibbonMenuItemAdder.html#ac9e373fad8fe85ad8aa8d5ae2a51437e">  221</a></span>    <a class="code hl_function" href="structMR_1_1RibbonMenuItemAdder.html#ac9e373fad8fe85ad8aa8d5ae2a51437e">RibbonMenuItemAdder</a>()</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>    {</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>        <span class="keyword">static_assert</span>( std::is_base_of_v&lt;RibbonMenuItem, T&gt; );</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>        <a class="code hl_function" href="classMR_1_1RibbonSchemaHolder.html#a1c3460f89faa5279890fe5b080a5726e">RibbonSchemaHolder::addItem</a>( std::make_shared&lt;T&gt;() );</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>    }</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>};</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span> </div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno"><a class="line" href="structMR_1_1RibbonMenuItemCall.html">  229</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1RibbonMenuItemCall.html">RibbonMenuItemCall</a></div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>{</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> Func&gt;</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno"><a class="line" href="structMR_1_1RibbonMenuItemCall.html#a28920e01005bb5e0cb49786e36d3b0f8">  232</a></span>    <a class="code hl_function" href="structMR_1_1RibbonMenuItemCall.html#a28920e01005bb5e0cb49786e36d3b0f8">RibbonMenuItemCall</a>( Func f )</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>    {</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>        <span class="keyword">static_assert</span>( std::is_base_of_v&lt;RibbonMenuItem, T&gt; );</div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>        <span class="keyword">const</span> <span class="keyword">auto</span>&amp; items = <a class="code hl_function" href="classMR_1_1RibbonSchemaHolder.html#a07e8558bf86dd569ca7acedfbce55d9a">RibbonSchemaHolder::schema</a>().<a class="code hl_variable" href="structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1">items</a>;</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>        <span class="keywordflow">for</span> ( <span class="keyword">const</span> <span class="keyword">auto</span>&amp; item : items )</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>        {</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>            <span class="keyword">auto</span> plugin = std::dynamic_pointer_cast&lt;T&gt;( item.second.item );</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>            <span class="keywordflow">if</span> ( !plugin )</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>            f( plugin );</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>        }</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>    }</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>};</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span> </div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno"><a class="line" href="MRRibbonMenu_8h.html#ad1709955819b9d2eb38aa06ebd34272c">  246</a></span><span class="preprocessor">#define MR_REGISTER_RIBBON_ITEM(pluginType) \</span></div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span><span class="preprocessor">    static MR::RibbonMenuItemAdder&lt;pluginType&gt; ribbonMenuItemAdder##pluginType##_;</span></div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span> </div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno"><a class="line" href="MRRibbonMenu_8h.html#a4ea105d3ac17c4b1cb3ac6451a5163fc">  249</a></span><span class="preprocessor">#define MR_RIBBON_ITEM_CALL(pluginType,func) \</span></div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span><span class="preprocessor">    static MR::RibbonMenuItemCall&lt;pluginType&gt; ribbonMenuItemCall##func##pluginType##_( func );</span></div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span> </div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>}</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span> </div>
 <div class="ttc" id="aMRAsyncTimer_8h_html"><div class="ttname"><a href="MRAsyncTimer_8h.html">MRAsyncTimer.h</a></div></div>
 <div class="ttc" id="aMRMenu_8h_html"><div class="ttname"><a href="MRMenu_8h.html">MRMenu.h</a></div></div>
 <div class="ttc" id="aMRRibbonButtonDrawer_8h_html"><div class="ttname"><a href="MRRibbonButtonDrawer_8h.html">MRRibbonButtonDrawer.h</a></div></div>
@@ -357,6 +358,7 @@ $(document).ready(function(){initNavTree('MRRibbonMenu_8h_source.html',''); init
 <div class="ttc" id="aclassMR_1_1RibbonMenu_html_a2b8f24d719c5b2f849c6a2da6a8e6a05"><div class="ttname"><a href="classMR_1_1RibbonMenu.html#a2b8f24d719c5b2f849c6a2da6a8e6a05">MR::RibbonMenu::drawActiveNonBlockingDialogs_</a></div><div class="ttdeci">virtual MRVIEWER_API void drawActiveNonBlockingDialogs_()</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonMenu_html_a2f639a83635dfb22ba89545a6dc9d85e"><div class="ttname"><a href="classMR_1_1RibbonMenu.html#a2f639a83635dfb22ba89545a6dc9d85e">MR::RibbonMenu::activeBlockingItem_</a></div><div class="ttdeci">DialogItemPtr activeBlockingItem_</div><div class="ttdef"><b>Definition:</b> MRRibbonMenu.h:119</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonMenu_html_a304f2add3b4e9221b6accdcf46c2bb68"><div class="ttname"><a href="classMR_1_1RibbonMenu.html#a304f2add3b4e9221b6accdcf46c2bb68">MR::RibbonMenu::shutdown</a></div><div class="ttdeci">virtual MRVIEWER_API void shutdown() override</div></div>
+<div class="ttc" id="aclassMR_1_1RibbonMenu_html_a361cde7981902393e0db66ef54bf937e"><div class="ttname"><a href="classMR_1_1RibbonMenu.html#a361cde7981902393e0db66ef54bf937e">MR::RibbonMenu::drawShortcutsWindow_</a></div><div class="ttdeci">virtual MRVIEWER_API void drawShortcutsWindow_() override</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonMenu_html_a3d177f8768aa87645a633f7e5e3dd0ba"><div class="ttname"><a href="classMR_1_1RibbonMenu.html#a3d177f8768aa87645a633f7e5e3dd0ba">MR::RibbonMenu::drawSmallButtonsSet_</a></div><div class="ttdeci">virtual MRVIEWER_API void drawSmallButtonsSet_(const std::vector&lt; std::string &gt; &amp;group, int setFrontIndex, int setLength, bool withText)</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonMenu_html_a44506d22fa2c6befeaf375791931282e"><div class="ttname"><a href="classMR_1_1RibbonMenu.html#a44506d22fa2c6befeaf375791931282e">MR::RibbonMenu::isTopPannelPinned</a></div><div class="ttdeci">MRVIEWER_API bool isTopPannelPinned() const</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonMenu_html_a48f926e7787a1d3aa0d399beb2fc1a67"><div class="ttname"><a href="classMR_1_1RibbonMenu.html#a48f926e7787a1d3aa0d399beb2fc1a67">MR::RibbonMenu::getFontManager</a></div><div class="ttdeci">const RibbonFontManager &amp; getFontManager()</div><div class="ttdoc">get access to Ribbon font manager</div><div class="ttdef"><b>Definition:</b> MRRibbonMenu.h:65</div></div>
@@ -373,7 +375,7 @@ $(document).ready(function(){initNavTree('MRRibbonMenu_8h_source.html',''); init
 <div class="ttc" id="aclassMR_1_1RibbonMenu_html_a7cc4845440764fd04b7c8fad80ed8938"><div class="ttname"><a href="classMR_1_1RibbonMenu.html#a7cc4845440764fd04b7c8fad80ed8938">MR::RibbonMenu::~RibbonMenu</a></div><div class="ttdeci">virtual MRVIEWER_API ~RibbonMenu()</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonMenu_html_a842d003c447ddd1af577f4cb2ffb9021"><div class="ttname"><a href="classMR_1_1RibbonMenu.html#a842d003c447ddd1af577f4cb2ffb9021">MR::RibbonMenu::drawItemDialog_</a></div><div class="ttdeci">virtual MRVIEWER_API void drawItemDialog_(DialogItemPtr &amp;itemPtr)</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonMenu_html_a9435ce4367ec159b1b5746aaafcc5652"><div class="ttname"><a href="classMR_1_1RibbonMenu.html#a9435ce4367ec159b1b5746aaafcc5652">MR::RibbonMenu::postResize_</a></div><div class="ttdeci">virtual MRVIEWER_API void postResize_(int width, int height) override</div></div>
-<div class="ttc" id="aclassMR_1_1RibbonMenu_html_a995a11b9ef6d9d367ceff73955651a41"><div class="ttname"><a href="classMR_1_1RibbonMenu.html#a995a11b9ef6d9d367ceff73955651a41">MR::RibbonMenu::selectedObjectsCache_</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; selectedObjectsCache_</div><div class="ttdef"><b>Definition:</b> MRRibbonMenu.h:149</div></div>
+<div class="ttc" id="aclassMR_1_1RibbonMenu_html_a995a11b9ef6d9d367ceff73955651a41"><div class="ttname"><a href="classMR_1_1RibbonMenu.html#a995a11b9ef6d9d367ceff73955651a41">MR::RibbonMenu::selectedObjectsCache_</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; selectedObjectsCache_</div><div class="ttdef"><b>Definition:</b> MRRibbonMenu.h:150</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonMenu_html_a9bbdaa0865f099c7e385ac1ea6b7bbf3"><div class="ttname"><a href="classMR_1_1RibbonMenu.html#a9bbdaa0865f099c7e385ac1ea6b7bbf3">MR::RibbonMenu::load_font</a></div><div class="ttdeci">virtual MRVIEWER_API void load_font(int font_size=13) override</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonMenu_html_aa074446a9a5446cd760d9246633c5045"><div class="ttname"><a href="classMR_1_1RibbonMenu.html#aa074446a9a5446cd760d9246633c5045">MR::RibbonMenu::resetQuickAccessList</a></div><div class="ttdeci">MRVIEWER_API void resetQuickAccessList()</div><div class="ttdoc">reset quick access menu items list to default</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonMenu_html_aa34b69e6496e1988fcf4618bd5275b26"><div class="ttname"><a href="classMR_1_1RibbonMenu.html#aa34b69e6496e1988fcf4618bd5275b26">MR::RibbonMenu::RibbonMenu</a></div><div class="ttdeci">MRVIEWER_API RibbonMenu()</div></div>
@@ -407,13 +409,13 @@ $(document).ready(function(){initNavTree('MRRibbonMenu_8h_source.html',''); init
 <div class="ttc" id="agroup__BoxGroup_html_ga61ed695588449d6c852c0bbe38b273ae"><div class="ttname"><a href="group__BoxGroup.html#ga61ed695588449d6c852c0bbe38b273ae">MR::height</a></div><div class="ttdeci">auto height(const Box&lt; V &gt; &amp;box)</div><div class="ttdoc">returns size along y axis</div><div class="ttdef"><b>Definition:</b> MRBox.h:218</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MR2DContoursTriangulation.h:6</div></div>
 <div class="ttc" id="anamespaceMR_html_a306ff1f62992b3eb33c446913b64188a"><div class="ttname"><a href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">MR::size</a></div><div class="ttdeci">ImVec2 size(const ViewportRectangle &amp;rect)</div><div class="ttdef"><b>Definition:</b> MRViewport.h:30</div></div>
-<div class="ttc" id="anamespaceMR_html_a414c921e724deba1be8a3f3b5a20af76"><div class="ttname"><a href="namespaceMR.html#a414c921e724deba1be8a3f3b5a20af76">MR::Vector2i</a></div><div class="ttdeci">Vector2&lt; int &gt; Vector2i</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:89</div></div>
+<div class="ttc" id="anamespaceMR_html_a414c921e724deba1be8a3f3b5a20af76"><div class="ttname"><a href="namespaceMR.html#a414c921e724deba1be8a3f3b5a20af76">MR::Vector2i</a></div><div class="ttdeci">Vector2&lt; int &gt; Vector2i</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:92</div></div>
 <div class="ttc" id="anamespaceMR_html_a84781b4b8d661ed6a8619f3db2d05a72"><div class="ttname"><a href="namespaceMR.html#a84781b4b8d661ed6a8619f3db2d05a72">MR::MenuItemsList</a></div><div class="ttdeci">std::vector&lt; std::string &gt; MenuItemsList</div><div class="ttdef"><b>Definition:</b> MRRibbonMenuItem.h:10</div></div>
 <div class="ttc" id="astructMR_1_1MenuItemInfo_html"><div class="ttname"><a href="structMR_1_1MenuItemInfo.html">MR::MenuItemInfo</a></div><div class="ttdef"><b>Definition:</b> MRRibbonSchema.h:24</div></div>
-<div class="ttc" id="astructMR_1_1RibbonMenuItemAdder_html"><div class="ttname"><a href="structMR_1_1RibbonMenuItemAdder.html">MR::RibbonMenuItemAdder</a></div><div class="ttdef"><b>Definition:</b> MRRibbonMenu.h:219</div></div>
-<div class="ttc" id="astructMR_1_1RibbonMenuItemAdder_html_ac9e373fad8fe85ad8aa8d5ae2a51437e"><div class="ttname"><a href="structMR_1_1RibbonMenuItemAdder.html#ac9e373fad8fe85ad8aa8d5ae2a51437e">MR::RibbonMenuItemAdder::RibbonMenuItemAdder</a></div><div class="ttdeci">RibbonMenuItemAdder()</div><div class="ttdef"><b>Definition:</b> MRRibbonMenu.h:220</div></div>
-<div class="ttc" id="astructMR_1_1RibbonMenuItemCall_html"><div class="ttname"><a href="structMR_1_1RibbonMenuItemCall.html">MR::RibbonMenuItemCall</a></div><div class="ttdef"><b>Definition:</b> MRRibbonMenu.h:229</div></div>
-<div class="ttc" id="astructMR_1_1RibbonMenuItemCall_html_a28920e01005bb5e0cb49786e36d3b0f8"><div class="ttname"><a href="structMR_1_1RibbonMenuItemCall.html#a28920e01005bb5e0cb49786e36d3b0f8">MR::RibbonMenuItemCall::RibbonMenuItemCall</a></div><div class="ttdeci">RibbonMenuItemCall(Func f)</div><div class="ttdef"><b>Definition:</b> MRRibbonMenu.h:231</div></div>
+<div class="ttc" id="astructMR_1_1RibbonMenuItemAdder_html"><div class="ttname"><a href="structMR_1_1RibbonMenuItemAdder.html">MR::RibbonMenuItemAdder</a></div><div class="ttdef"><b>Definition:</b> MRRibbonMenu.h:220</div></div>
+<div class="ttc" id="astructMR_1_1RibbonMenuItemAdder_html_ac9e373fad8fe85ad8aa8d5ae2a51437e"><div class="ttname"><a href="structMR_1_1RibbonMenuItemAdder.html#ac9e373fad8fe85ad8aa8d5ae2a51437e">MR::RibbonMenuItemAdder::RibbonMenuItemAdder</a></div><div class="ttdeci">RibbonMenuItemAdder()</div><div class="ttdef"><b>Definition:</b> MRRibbonMenu.h:221</div></div>
+<div class="ttc" id="astructMR_1_1RibbonMenuItemCall_html"><div class="ttname"><a href="structMR_1_1RibbonMenuItemCall.html">MR::RibbonMenuItemCall</a></div><div class="ttdef"><b>Definition:</b> MRRibbonMenu.h:230</div></div>
+<div class="ttc" id="astructMR_1_1RibbonMenuItemCall_html_a28920e01005bb5e0cb49786e36d3b0f8"><div class="ttname"><a href="structMR_1_1RibbonMenuItemCall.html#a28920e01005bb5e0cb49786e36d3b0f8">MR::RibbonMenuItemCall::RibbonMenuItemCall</a></div><div class="ttdeci">RibbonMenuItemCall(Func f)</div><div class="ttdef"><b>Definition:</b> MRRibbonMenu.h:232</div></div>
 <div class="ttc" id="astructMR_1_1RibbonMenu_1_1DialogItemPtr_html"><div class="ttname"><a href="structMR_1_1RibbonMenu_1_1DialogItemPtr.html">MR::RibbonMenu::DialogItemPtr</a></div><div class="ttdef"><b>Definition:</b> MRRibbonMenu.h:114</div></div>
 <div class="ttc" id="astructMR_1_1RibbonMenu_1_1DialogItemPtr_html_aeb25a7d0ddadeeeda6f7ca36d711642b"><div class="ttname"><a href="structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b">MR::RibbonMenu::DialogItemPtr::item</a></div><div class="ttdeci">std::shared_ptr&lt; RibbonMenuItem &gt; item</div><div class="ttdef"><b>Definition:</b> MRRibbonMenu.h:115</div></div>
 <div class="ttc" id="astructMR_1_1RibbonMenu_1_1DrawGroupConfig_html"><div class="ttname"><a href="structMR_1_1RibbonMenu_1_1DrawGroupConfig.html">MR::RibbonMenu::DrawGroupConfig</a></div><div class="ttdef"><b>Definition:</b> MRRibbonMenu.h:93</div></div>

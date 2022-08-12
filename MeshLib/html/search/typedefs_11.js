@@ -2,7 +2,7 @@ var searchData=
 [
   ['saveloadsignal_0',['SaveLoadSignal',['../classMR_1_1Viewer.html#a1abb03460a529f21732d7bc008647e8e',1,'MR::Viewer']]],
   ['setbititerator_1',['SetBitIterator',['../namespaceMR.html#a72121ddf3f962182a0cd896a72cbce55',1,'MR']]],
-  ['shortcutlist_2',['ShortcutList',['../classMR_1_1ShortcutManager.html#a414c12a20f0c9b64634fb163c187465e',1,'MR::ShortcutManager']]],
+  ['shortcutlist_2',['ShortcutList',['../classMR_1_1ShortcutManager.html#a1b6141c52bc058b4b485765ea6092d22',1,'MR::ShortcutManager']]],
   ['shourtcutsbackmap_3',['ShourtcutsBackMap',['../classMR_1_1ShortcutManager.html#a12fa153bb2f0df72498264f840eeef6c',1,'MR::ShortcutManager']]],
   ['shourtcutsmap_4',['ShourtcutsMap',['../classMR_1_1ShortcutManager.html#aa3f924fb2d8d08321689742094b61a10',1,'MR::ShortcutManager']]],
   ['simplelambda_5',['SimpleLambda',['../classMR_1_1LambdaRibbonItem.html#adf0efc0eaab84312e1058ba6f3d8cb95',1,'MR::LambdaRibbonItem']]],

@@ -24,6 +24,7 @@ var classMR_1_1ObjectLabel =
     [ "getSourcePointSize", "classMR_1_1ObjectLabel.html#a2ef821f8b318ac94b1c38cd17b7fec28", null ],
     [ "getVisualizePropertyMask", "classMR_1_1ObjectLabel.html#ae3e0686d66023af689f1fb43fca5f83c", null ],
     [ "getWorldBox", "classMR_1_1ObjectLabel.html#a44af17e1d538dfdce42402641a7f7b83", null ],
+    [ "hasVisualRepresentation", "classMR_1_1ObjectLabel.html#ab8661825d2a0395152d6fb6b82d994f1", null ],
     [ "heapBytes", "classMR_1_1ObjectLabel.html#abc209976351234f51bc3726fb7386107", null ],
     [ "labelRepresentingMesh", "classMR_1_1ObjectLabel.html#a2b5155ef1e07c779cf760515b4653c08", null ],
     [ "operator=", "classMR_1_1ObjectLabel.html#a50aaf3757356ccffb73f014770fa24e4", null ],

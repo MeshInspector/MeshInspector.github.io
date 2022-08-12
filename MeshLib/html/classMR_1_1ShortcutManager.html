@@ -98,6 +98,7 @@ $(document).ready(function(){initNavTree('classMR_1_1ShortcutManager.html',''); 
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-types">Protected Types</a> &#124;
 <a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
@@ -117,12 +118,24 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:aabb8bd907bcd6c09162eb7771fa592e6"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6">Category</a> { <br />
+&#160;&#160;<a class="el" href="classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6a4059b0251f66a18cb56f544728796875">Info</a>
+, <a class="el" href="classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6a7dce122004969d56ae2e0245cb754d35">Edit</a>
+, <a class="el" href="classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6a4351cfebe4b61d8aa5efa1d020710005">View</a>
+, <a class="el" href="classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6a9ead0d38e06ec253ca0ecbf6ea56e59b">Scene</a>
+, <br />
+&#160;&#160;<a class="el" href="classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6ac8308b1eba7ba926a61b8fd802194386">Objects</a>
+, <a class="el" href="classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6a6ff9dd0d34f65181173c1e4bc39939de">Selection</a>
+, <a class="el" href="classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>
+<br />
+ }</td></tr>
+<tr class="separator:aabb8bd907bcd6c09162eb7771fa592e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a85baae28af51cf7825c2099b693c1b"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#a1a85baae28af51cf7825c2099b693c1b">Reason</a> { <a class="el" href="classMR_1_1ShortcutManager.html#a1a85baae28af51cf7825c2099b693c1bacfd07bf1effd88bca04a12a087777354">KeyDown</a>
 , <a class="el" href="classMR_1_1ShortcutManager.html#a1a85baae28af51cf7825c2099b693c1ba4a18f6017ff7015424784e907c933572">KeyRepeat</a>
  }</td></tr>
 <tr class="separator:a1a85baae28af51cf7825c2099b693c1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a414c12a20f0c9b64634fb163c187465e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#a414c12a20f0c9b64634fb163c187465e">ShortcutList</a> = std::vector&lt; std::pair&lt; <a class="el" href="structMR_1_1ShortcutManager_1_1ShortcutKey.html">ShortcutKey</a>, std::string &gt; &gt;</td></tr>
-<tr class="separator:a414c12a20f0c9b64634fb163c187465e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b6141c52bc058b4b485765ea6092d22"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#a1b6141c52bc058b4b485765ea6092d22">ShortcutList</a> = std::vector&lt; std::tuple&lt; <a class="el" href="structMR_1_1ShortcutManager_1_1ShortcutKey.html">ShortcutKey</a>, <a class="el" href="classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6">Category</a>, std::string &gt; &gt;</td></tr>
+<tr class="separator:a1b6141c52bc058b4b485765ea6092d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -130,7 +143,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac5d35f9b0ea4c909a2e0e182b46ca18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70996e2b27f24841fb75376870328103"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#a70996e2b27f24841fb75376870328103">setShortcut</a> (const <a class="el" href="structMR_1_1ShortcutManager_1_1ShortcutKey.html">ShortcutKey</a> &amp;key, const <a class="el" href="structMR_1_1ShortcutManager_1_1ShortcutCommand.html">ShortcutCommand</a> &amp;command)</td></tr>
 <tr class="separator:a70996e2b27f24841fb75376870328103"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d5470fbe42101af3a425b0108338a10"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const <a class="el" href="classMR_1_1ShortcutManager.html#a414c12a20f0c9b64634fb163c187465e">ShortcutList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#a0d5470fbe42101af3a425b0108338a10">getShortcutList</a> () const</td></tr>
+<tr class="memitem:a0d5470fbe42101af3a425b0108338a10"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const <a class="el" href="classMR_1_1ShortcutManager.html#a1b6141c52bc058b4b485765ea6092d22">ShortcutList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#a0d5470fbe42101af3a425b0108338a10">getShortcutList</a> () const</td></tr>
 <tr class="separator:a0d5470fbe42101af3a425b0108338a10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4342c4301200e65be8eb010636b8db8e"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#a4342c4301200e65be8eb010636b8db8e">processShortcut</a> (const <a class="el" href="structMR_1_1ShortcutManager_1_1ShortcutKey.html">ShortcutKey</a> &amp;key, <a class="el" href="classMR_1_1ShortcutManager.html#a1a85baae28af51cf7825c2099b693c1b">Reason</a>=<a class="el" href="classMR_1_1ShortcutManager.html#a1a85baae28af51cf7825c2099b693c1bacfd07bf1effd88bca04a12a087777354">Reason::KeyDown</a>) const</td></tr>
 <tr class="separator:a4342c4301200e65be8eb010636b8db8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,8 +152,17 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a963e16321ce83727cab5a24bc6472348"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#a963e16321ce83727cab5a24bc6472348">getKeyString</a> (const <a class="el" href="structMR_1_1ShortcutManager_1_1ShortcutKey.html">ShortcutKey</a> &amp;key)</td></tr>
-<tr class="separator:a963e16321ce83727cab5a24bc6472348"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accb01bbfb277ff3ef3cff57f9e177051"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#accb01bbfb277ff3ef3cff57f9e177051">getModifierString</a> (int mod)</td></tr>
+<tr class="separator:accb01bbfb277ff3ef3cff57f9e177051"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a289b280e2a0b231a0820aa8d2fc2a4b3"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#a289b280e2a0b231a0820aa8d2fc2a4b3">getKeyString</a> (int key)</td></tr>
+<tr class="separator:a289b280e2a0b231a0820aa8d2fc2a4b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8411027e895d06475915a2acf0951ce"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#ad8411027e895d06475915a2acf0951ce">getKeyFullString</a> (const <a class="el" href="structMR_1_1ShortcutManager_1_1ShortcutKey.html">ShortcutKey</a> &amp;key, bool respectKey=true)</td></tr>
+<tr class="separator:ad8411027e895d06475915a2acf0951ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a32f51a9bb8d5a8f0ef57375bf98c2ce1"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#a32f51a9bb8d5a8f0ef57375bf98c2ce1">categoryNames</a> [6] = { &quot;Info&quot;, &quot;Edit&quot;, &quot;View&quot;, &quot;Scene&quot;, &quot;Objects&quot;, &quot;Selection &quot; }</td></tr>
+<tr class="separator:a32f51a9bb8d5a8f0ef57375bf98c2ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
 Protected Types</h2></td></tr>
@@ -162,18 +184,18 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:aac7a5049ef27e6c01ce4352af5405141"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa81ce4c0f43334be0c680e28346fce2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ShortcutManager.html#a12fa153bb2f0df72498264f840eeef6c">ShourtcutsBackMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#aa81ce4c0f43334be0c680e28346fce2e">backMap_</a></td></tr>
 <tr class="separator:aa81ce4c0f43334be0c680e28346fce2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf3fea364a499a2b41b73fb7fa94b301"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classMR_1_1ShortcutManager.html#a414c12a20f0c9b64634fb163c187465e">ShortcutList</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#adf3fea364a499a2b41b73fb7fa94b301">listCache_</a></td></tr>
+<tr class="memitem:adf3fea364a499a2b41b73fb7fa94b301"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classMR_1_1ShortcutManager.html#a1b6141c52bc058b4b485765ea6092d22">ShortcutList</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#adf3fea364a499a2b41b73fb7fa94b301">listCache_</a></td></tr>
 <tr class="separator:adf3fea364a499a2b41b73fb7fa94b301"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a414c12a20f0c9b64634fb163c187465e" name="a414c12a20f0c9b64634fb163c187465e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a414c12a20f0c9b64634fb163c187465e">&#9670;&nbsp;</a></span>ShortcutList</h2>
+<a id="a1b6141c52bc058b4b485765ea6092d22" name="a1b6141c52bc058b4b485765ea6092d22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b6141c52bc058b4b485765ea6092d22">&#9670;&nbsp;</a></span>ShortcutList</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1ShortcutManager.html#a414c12a20f0c9b64634fb163c187465e">MR::ShortcutManager::ShortcutList</a> =  std::vector&lt;std::pair&lt;<a class="el" href="structMR_1_1ShortcutManager_1_1ShortcutKey.html">ShortcutKey</a>, std::string&gt; &gt;</td>
+          <td class="memname">using <a class="el" href="classMR_1_1ShortcutManager.html#a1b6141c52bc058b4b485765ea6092d22">MR::ShortcutManager::ShortcutList</a> =  std::vector&lt;std::tuple&lt;<a class="el" href="structMR_1_1ShortcutManager_1_1ShortcutKey.html">ShortcutKey</a>, <a class="el" href="classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6">Category</a>, std::string&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -225,6 +247,37 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="aabb8bd907bcd6c09162eb7771fa592e6" name="aabb8bd907bcd6c09162eb7771fa592e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabb8bd907bcd6c09162eb7771fa592e6">&#9670;&nbsp;</a></span>Category</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6">MR::ShortcutManager::Category</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aabb8bd907bcd6c09162eb7771fa592e6a4059b0251f66a18cb56f544728796875" name="aabb8bd907bcd6c09162eb7771fa592e6a4059b0251f66a18cb56f544728796875"></a>Info&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aabb8bd907bcd6c09162eb7771fa592e6a7dce122004969d56ae2e0245cb754d35" name="aabb8bd907bcd6c09162eb7771fa592e6a7dce122004969d56ae2e0245cb754d35"></a>Edit&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aabb8bd907bcd6c09162eb7771fa592e6a4351cfebe4b61d8aa5efa1d020710005" name="aabb8bd907bcd6c09162eb7771fa592e6a4351cfebe4b61d8aa5efa1d020710005"></a>View&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aabb8bd907bcd6c09162eb7771fa592e6a9ead0d38e06ec253ca0ecbf6ea56e59b" name="aabb8bd907bcd6c09162eb7771fa592e6a9ead0d38e06ec253ca0ecbf6ea56e59b"></a>Scene&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aabb8bd907bcd6c09162eb7771fa592e6ac8308b1eba7ba926a61b8fd802194386" name="aabb8bd907bcd6c09162eb7771fa592e6ac8308b1eba7ba926a61b8fd802194386"></a>Objects&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aabb8bd907bcd6c09162eb7771fa592e6a6ff9dd0d34f65181173c1e4bc39939de" name="aabb8bd907bcd6c09162eb7771fa592e6a6ff9dd0d34f65181173c1e4bc39939de"></a>Selection&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aabb8bd907bcd6c09162eb7771fa592e6ae93f994f01c537c4e2f7d8528c3eb5e9" name="aabb8bd907bcd6c09162eb7771fa592e6ae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="a1a85baae28af51cf7825c2099b693c1b" name="a1a85baae28af51cf7825c2099b693c1b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1a85baae28af51cf7825c2099b693c1b">&#9670;&nbsp;</a></span>Reason</h2>
 
@@ -296,8 +349,44 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a963e16321ce83727cab5a24bc6472348" name="a963e16321ce83727cab5a24bc6472348"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a963e16321ce83727cab5a24bc6472348">&#9670;&nbsp;</a></span>getKeyString()</h2>
+<a id="ad8411027e895d06475915a2acf0951ce" name="ad8411027e895d06475915a2acf0951ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8411027e895d06475915a2acf0951ce">&#9670;&nbsp;</a></span>getKeyFullString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MRVIEWER_API std::string MR::ShortcutManager::getKeyFullString </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ShortcutManager_1_1ShortcutKey.html">ShortcutKey</a> &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>respectKey</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a289b280e2a0b231a0820aa8d2fc2a4b3" name="a289b280e2a0b231a0820aa8d2fc2a4b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a289b280e2a0b231a0820aa8d2fc2a4b3">&#9670;&nbsp;</a></span>getKeyString()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -308,8 +397,34 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">static MRVIEWER_API std::string MR::ShortcutManager::getKeyString </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1ShortcutManager_1_1ShortcutKey.html">ShortcutKey</a> &amp;&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="accb01bbfb277ff3ef3cff57f9e177051" name="accb01bbfb277ff3ef3cff57f9e177051"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accb01bbfb277ff3ef3cff57f9e177051">&#9670;&nbsp;</a></span>getModifierString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MRVIEWER_API std::string MR::ShortcutManager::getModifierString </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mod</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -329,7 +444,7 @@ Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API const <a class="el" href="classMR_1_1ShortcutManager.html#a414c12a20f0c9b64634fb163c187465e">ShortcutList</a> &amp; MR::ShortcutManager::getShortcutList </td>
+          <td class="memname">MRVIEWER_API const <a class="el" href="classMR_1_1ShortcutManager.html#a1b6141c52bc058b4b485765ea6092d22">ShortcutList</a> &amp; MR::ShortcutManager::getShortcutList </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -486,6 +601,28 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a32f51a9bb8d5a8f0ef57375bf98c2ce1" name="a32f51a9bb8d5a8f0ef57375bf98c2ce1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32f51a9bb8d5a8f0ef57375bf98c2ce1">&#9670;&nbsp;</a></span>categoryNames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string MR::ShortcutManager::categoryNames[6] = { &quot;Info&quot;, &quot;Edit&quot;, &quot;View&quot;, &quot;Scene&quot;, &quot;Objects&quot;, &quot;Selection &quot; }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="adf3fea364a499a2b41b73fb7fa94b301" name="adf3fea364a499a2b41b73fb7fa94b301"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adf3fea364a499a2b41b73fb7fa94b301">&#9670;&nbsp;</a></span>listCache_</h2>
 
@@ -496,7 +633,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::optional&lt;<a class="el" href="classMR_1_1ShortcutManager.html#a414c12a20f0c9b64634fb163c187465e">ShortcutList</a>&gt; MR::ShortcutManager::listCache_</td>
+          <td class="memname">std::optional&lt;<a class="el" href="classMR_1_1ShortcutManager.html#a1b6141c52bc058b4b485765ea6092d22">ShortcutList</a>&gt; MR::ShortcutManager::listCache_</td>
         </tr>
       </table>
   </td>

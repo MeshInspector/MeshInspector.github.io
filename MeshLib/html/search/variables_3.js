@@ -17,7 +17,7 @@ var searchData=
   ['dimensions_14',['dimensions',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#ab1db96ec60477ec788bfe5aeb3596da2',1,'MR::VoxelsLoad::RawParameters']]],
   ['dims_15',['dims',['../structMR_1_1SimpleVolume.html#adfc3fd718b740a08aefa0fbb8a096ede',1,'MR::SimpleVolume']]],
   ['dims_5f_16',['dims_',['../classMR_1_1RectIndexer.html#ab4a6c53f72e0260996768505672d9052',1,'MR::RectIndexer::dims_()'],['../group__VoxelGroup.html#gaa1c0e0f0f1418ecbd002c094e0d42e13',1,'MR::VolumeIndexer::dims_()']]],
-  ['direction_17',['direction',['../structMR_1_1DistanceMapToWorld.html#a866ac1e7f146d2a868527a502d376c74',1,'MR::DistanceMapToWorld::direction()'],['../structMR_1_1TextMeshAlignParams.html#a414e391a4aef8d9ffc82bdd050a469aa',1,'MR::TextMeshAlignParams::direction()'],['../structMR_1_1MeshToDistanceMapParams.html#a251bc8c963a3d914635b6ed3ab80a527',1,'MR::MeshToDistanceMapParams::direction()']]],
+  ['direction_17',['direction',['../structMR_1_1TextMeshAlignParams.html#a414e391a4aef8d9ffc82bdd050a469aa',1,'MR::TextMeshAlignParams::direction()'],['../structMR_1_1MeshToDistanceMapParams.html#a251bc8c963a3d914635b6ed3ab80a527',1,'MR::MeshToDistanceMapParams::direction()'],['../structMR_1_1DistanceMapToWorld.html#a866ac1e7f146d2a868527a502d376c74',1,'MR::DistanceMapToWorld::direction()']]],
   ['dirty_5f_18',['dirty_',['../classMR_1_1VisualObject.html#a524e4774c9f4c85f7b81bb0f2524536f',1,'MR::VisualObject']]],
   ['discretization_19',['discretization',['../structMR_1_1Palette_1_1Parameters.html#a25a6807ebee10dcb03a9e00733288113',1,'MR::Palette::Parameters']]],
   ['disleftfromabc_20',['dIsLeftFromABC',['../structMR_1_1TriangleSegmentIntersectResult.html#ad6af3b8ab26b46c4d6592c534e9b59c8',1,'MR::TriangleSegmentIntersectResult']]],
@@ -25,12 +25,13 @@ var searchData=
   ['distance_22',['distance',['../structMR_1_1VertDistance.html#a6a8273bff57db797404893811ae3f24a',1,'MR::VertDistance']]],
   ['distancealongline_23',['distanceAlongLine',['../structMR_1_1MeshIntersectionResult.html#a701e1414a45534a29d2ad1f7074c3c61',1,'MR::MeshIntersectionResult']]],
   ['distancemapresolution_24',['distanceMapResolution',['../structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#a865b6dc16827bcf5024f2e675a74e8e0',1,'MR::FixUndercuts::DistMapImproveDirectionParameters']]],
-  ['distsq_25',['distSq',['../structMR_1_1MeshDistanceResult.html#a944ef6a7b3e48c9fc07f0d5a70a56bf3',1,'MR::MeshDistanceResult::distSq()'],['../structMR_1_1MeshProjectionResult.html#a685a3370c122d23e376f36b0ebb9fa29',1,'MR::MeshProjectionResult::distSq()'],['../structMR_1_1Polyline2ProjectionResult.html#a0d662797298c7075e8d035d1478818ec',1,'MR::Polyline2ProjectionResult::distSq()'],['../structMR_1_1PolylineProjectionResult.html#adf8bf60fae1fa9ffe39d7e0557cc2657',1,'MR::PolylineProjectionResult::distSq()']]],
+  ['distsq_25',['distSq',['../structMR_1_1MeshDistanceResult.html#a944ef6a7b3e48c9fc07f0d5a70a56bf3',1,'MR::MeshDistanceResult::distSq()'],['../structMR_1_1MeshProjectionResult.html#a685a3370c122d23e376f36b0ebb9fa29',1,'MR::MeshProjectionResult::distSq()'],['../structMR_1_1PolylineProjectionResult.html#adf8bf60fae1fa9ffe39d7e0557cc2657',1,'MR::PolylineProjectionResult::distSq()'],['../structMR_1_1Polyline2ProjectionResult.html#a0d662797298c7075e8d035d1478818ec',1,'MR::Polyline2ProjectionResult::distSq()']]],
   ['diststatisticsigmafactor_26',['distStatisticSigmaFactor',['../structMR_1_1ICPProperties.html#a3e55178e8a5383531552c5dc25be4817',1,'MR::ICPProperties']]],
   ['disttresholdsq_27',['distTresholdSq',['../structMR_1_1ICPProperties.html#abf0d9a236c177005330098a88f909eb4',1,'MR::ICPProperties']]],
   ['dointersect_28',['doIntersect',['../structMR_1_1SegmentSegmentIntersectResult.html#ad55a194e9fc76257f3bb95f35d4495c5',1,'MR::SegmentSegmentIntersectResult::doIntersect()'],['../structMR_1_1TriangleSegmentIntersectResult.html#a8676a2019b59ed30aa2204aef62a8ff8',1,'MR::TriangleSegmentIntersectResult::doIntersect()']]],
   ['dragdropsignal_29',['dragDropSignal',['../classMR_1_1Viewer.html#ab2c82473f02c741b3be29cb4ff10daa0',1,'MR::Viewer']]],
   ['drawsignal_30',['drawSignal',['../classMR_1_1Viewer.html#a299cf1cccfffbe714ff8369008be4659',1,'MR::Viewer']]],
   ['droplist_5f_31',['dropList_',['../classMR_1_1RibbonMenuItem.html#a2f25401d4b94a752bd63b79152673ab5',1,'MR::RibbonMenuItem']]],
-  ['dupvert_32',['dupVert',['../structMR_1_1MeshBuilder_1_1VertDuplication.html#a304fd55bb8ea2a456b8fdf00cce9e14c',1,'MR::MeshBuilder::VertDuplication']]]
+  ['dupvert_32',['dupVert',['../structMR_1_1MeshBuilder_1_1VertDuplication.html#a304fd55bb8ea2a456b8fdf00cce9e14c',1,'MR::MeshBuilder::VertDuplication']]],
+  ['dynamic_33',['Dynamic',['../structMR_1_1Viewport_1_1Parameters.html#ab86532888b668d97ffd4c158c84ad63d',1,'MR::Viewport::Parameters']]]
 ];

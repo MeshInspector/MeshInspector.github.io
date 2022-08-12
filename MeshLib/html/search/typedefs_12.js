@@ -8,6 +8,7 @@ var searchData=
   ['threevertids_5',['ThreeVertIds',['../namespaceMR.html#a9e937625238100e3e8b736126ccf5700',1,'MR']]],
   ['traits_6',['Traits',['../classMR_1_1AABBTreePolyline.html#a7f96860dc1daeee5853645f1fecdeca7',1,'MR::AABBTreePolyline']]],
   ['trianglecornernormals_7',['TriangleCornerNormals',['../group__MeshNormalsGroup.html#ga3c2d5e3b20c6317d67f3a3e5847a13d9',1,'MR']]],
-  ['tripointd_8',['TriPointd',['../namespaceMR.html#a3928bf55d6ab85ff0bc8ff5accfe4d0c',1,'MR']]],
-  ['tripointf_9',['TriPointf',['../namespaceMR.html#abe916bf46259db0a67f17649f44a47d4',1,'MR']]]
+  ['triangulation_8',['Triangulation',['../namespaceMR.html#abc818339a903cbfd1435e507f3085075',1,'MR']]],
+  ['tripointd_9',['TriPointd',['../namespaceMR.html#a3928bf55d6ab85ff0bc8ff5accfe4d0c',1,'MR']]],
+  ['tripointf_10',['TriPointf',['../namespaceMR.html#abe916bf46259db0a67f17649f44a47d4',1,'MR']]]
 ];

@@ -1,5 +1,6 @@
 var namespaceMR_1_1MeshBuilder =
 [
+    [ "BuildSettings", "structMR_1_1MeshBuilder_1_1BuildSettings.html", "structMR_1_1MeshBuilder_1_1BuildSettings" ],
     [ "equalVector3f", "structMR_1_1MeshBuilder_1_1equalVector3f.html", "structMR_1_1MeshBuilder_1_1equalVector3f" ],
     [ "FaceRecord", "structMR_1_1MeshBuilder_1_1FaceRecord.html", "structMR_1_1MeshBuilder_1_1FaceRecord" ],
     [ "MeshPiece", "structMR_1_1MeshBuilder_1_1MeshPiece.html", "structMR_1_1MeshBuilder_1_1MeshPiece" ],
@@ -7,14 +8,15 @@ var namespaceMR_1_1MeshBuilder =
     [ "VertDuplication", "structMR_1_1MeshBuilder_1_1VertDuplication.html", "structMR_1_1MeshBuilder_1_1VertDuplication" ],
     [ "VertexIdentifier", "classMR_1_1MeshBuilder_1_1VertexIdentifier.html", "classMR_1_1MeshBuilder_1_1VertexIdentifier" ],
     [ "ThreePoints", "namespaceMR_1_1MeshBuilder.html#a0e065a70cebc7ee264073abe27652c86", null ],
-    [ "addTriangles", "namespaceMR_1_1MeshBuilder.html#a74cf8201a47a6336d82f6b02ece8d52f", null ],
+    [ "addTriangles", "namespaceMR_1_1MeshBuilder.html#a338de61ac0a911470d50fe0f14af05d5", null ],
     [ "addTriangles", "namespaceMR_1_1MeshBuilder.html#affd71ea7a77ed4c02be34778c0923804", null ],
-    [ "duplicateNonManifoldVertices", "namespaceMR_1_1MeshBuilder.html#a9a4e8ffa44b226fb00de952c9ce5500a", null ],
-    [ "fromDisjointMeshPieces", "namespaceMR_1_1MeshBuilder.html#ab0e760dd12cdd7138d4d443bf0fb61f8", null ],
+    [ "duplicateNonManifoldVertices", "namespaceMR_1_1MeshBuilder.html#a490e7688bd91a7df375c29f2bd7633a4", null ],
+    [ "fromDisjointMeshPieces", "namespaceMR_1_1MeshBuilder.html#ac89608a8862a7f497172398df6ccaf30", null ],
     [ "fromFaceSoup", "namespaceMR_1_1MeshBuilder.html#a3ad33f9aabd679a58811fb3f954f3e8b", null ],
     [ "fromPointTriples", "namespaceMR_1_1MeshBuilder.html#a56a8be33e28c205871eca5453cafde9a", null ],
     [ "fromTriangles", "namespaceMR_1_1MeshBuilder.html#add019b83c5daf672400d9454be6747cb", null ],
-    [ "fromTrianglesDuplicatingNonManifoldVertices", "namespaceMR_1_1MeshBuilder.html#ac9299980703914e041fe32e95d87a781", null ],
+    [ "fromTriangles", "namespaceMR_1_1MeshBuilder.html#a44250a1653787fb114ceac63460f34d8", null ],
+    [ "fromTrianglesDuplicatingNonManifoldVertices", "namespaceMR_1_1MeshBuilder.html#aa308a697fa44ab178932733fdab79f16", null ],
     [ "fromVertexTriples", "namespaceMR_1_1MeshBuilder.html#a356920034893f3c5b5fcd0831704203c", null ],
     [ "uniteCloseVertices", "namespaceMR_1_1MeshBuilder.html#adbca7caa523fcdb27f944a48e8ed220a", null ]
 ];

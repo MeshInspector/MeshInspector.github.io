@@ -1,5 +1,10 @@
 var structMR_1_1Viewport_1_1Parameters =
 [
+    [ "RotationCenterMode", "structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780b", [
+      [ "Static", "structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba84a8921b25f505d0d2077aeb5db4bc16", null ],
+      [ "DynamicStatic", "structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba5ca4f2430f49ee813f846bbcdc0e575e", null ],
+      [ "Dynamic", "structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba971fd8cc345d8bd9f92e9f7d88fdf20c", null ]
+    ] ],
     [ "operator==", "structMR_1_1Viewport_1_1Parameters.html#a6737571299351aa58e69d5490ed3e7de", null ],
     [ "backgroundColor", "structMR_1_1Viewport_1_1Parameters.html#a22334f5bd9465a4b836b6ca117f39068", null ],
     [ "basisAxesXf", "structMR_1_1Viewport_1_1Parameters.html#ac7565c518373bb74b5b46b2762ad9e33", null ],
@@ -15,10 +20,10 @@ var structMR_1_1Viewport_1_1Parameters =
     [ "cameraZoom", "structMR_1_1Viewport_1_1Parameters.html#a899380f5e0c8dac5d5d3f4045a1b9790", null ],
     [ "clippingPlane", "structMR_1_1Viewport_1_1Parameters.html#a784d7971f07e64aba46caec551eeae94", null ],
     [ "depthTest", "structMR_1_1Viewport_1_1Parameters.html#a6f3e434ffe08b1fe1a3d982a052f7f21", null ],
+    [ "Dynamic", "structMR_1_1Viewport_1_1Parameters.html#ab86532888b668d97ffd4c158c84ad63d", null ],
     [ "globalBasisAxesXf", "structMR_1_1Viewport_1_1Parameters.html#ae355618b247d0aecb89d5490afa0dc97", null ],
     [ "lightPosition", "structMR_1_1Viewport_1_1Parameters.html#a8f5b4aad145854c698416a4ac59ae0f1", null ],
     [ "objectScale", "structMR_1_1Viewport_1_1Parameters.html#af702c49c5d0e216669074795ef81a796", null ],
     [ "orthographic", "structMR_1_1Viewport_1_1Parameters.html#a331a42d9b0fd61e7260642f7ce040342", null ],
-    [ "saveRotationPosition", "structMR_1_1Viewport_1_1Parameters.html#af8fc5c0a33917316e310345cf608865e", null ],
     [ "selectable", "structMR_1_1Viewport_1_1Parameters.html#ab1f95c9313aac4dc9276cd0a0a4071d2", null ]
 ];
