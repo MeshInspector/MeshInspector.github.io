@@ -147,6 +147,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:addf7be82ffec83205ba7adcd66001c5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="classMR_1_1AABBTreePolyline.html">AABBTreePolyline</a>&lt; V &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#addf7be82ffec83205ba7adcd66001c5b">getAABBTree</a> () const</td></tr>
 <tr class="memdesc:addf7be82ffec83205ba7adcd66001c5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached aabb-tree for this polyline, creating it if it did not exist in a thread-safe manner  <a href="structMR_1_1Polyline.html#addf7be82ffec83205ba7adcd66001c5b">More...</a><br /></td></tr>
 <tr class="separator:addf7be82ffec83205ba7adcd66001c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a363c6648b8fe1702f69d019676856179"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1AABBTreePolyline.html">AABBTreePolyline</a>&lt; V &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#a363c6648b8fe1702f69d019676856179">getAABBTreeNotCreate</a> () const</td></tr>
+<tr class="memdesc:a363c6648b8fe1702f69d019676856179"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached aabb-tree for this polyline, but does not create it if it did not exist  <a href="structMR_1_1Polyline.html#a363c6648b8fe1702f69d019676856179">More...</a><br /></td></tr>
+<tr class="separator:a363c6648b8fe1702f69d019676856179"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3dcacffc0e913721847e9e77ca00dc4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Box.html">Box</a>&lt; V &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#a3dcacffc0e913721847e9e77ca00dc4b">getBoundingBox</a> () const</td></tr>
 <tr class="memdesc:a3dcacffc0e913721847e9e77ca00dc4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the minimal bounding box containing all valid vertices (implemented via <a class="el" href="structMR_1_1Polyline.html#addf7be82ffec83205ba7adcd66001c5b" title="returns cached aabb-tree for this polyline, creating it if it did not exist in a thread-safe manner">getAABBTree()</a>)  <a href="structMR_1_1Polyline.html#a3dcacffc0e913721847e9e77ca00dc4b">More...</a><br /></td></tr>
 <tr class="separator:a3dcacffc0e913721847e9e77ca00dc4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -711,6 +714,35 @@ template&lt;typename V &gt; </div>
 </div><div class="memdoc">
 
 <p>returns cached aabb-tree for this polyline, creating it if it did not exist in a thread-safe manner </p>
+
+</div>
+</div>
+<a id="a363c6648b8fe1702f69d019676856179" name="a363c6648b8fe1702f69d019676856179"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a363c6648b8fe1702f69d019676856179">&#9670;&nbsp;</a></span>getAABBTreeNotCreate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classMR_1_1AABBTreePolyline.html">AABBTreePolyline</a>&lt; V &gt; * <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::getAABBTreeNotCreate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns cached aabb-tree for this polyline, but does not create it if it did not exist </p>
 
 </div>
 </div>

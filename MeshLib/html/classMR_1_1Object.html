@@ -275,13 +275,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac8e64c569d24d04c1dfcfe7cb1511580"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d35e02c1f43af6741066f893311266f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a0d35e02c1f43af6741066f893311266f">shallowClone</a> () const</td></tr>
 <tr class="separator:a0d35e02c1f43af6741066f893311266f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f2ed80a457d4cb01790c861267af3be"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a7f2ed80a457d4cb01790c861267af3be">getInfoLines</a> () const</td></tr>
-<tr class="memdesc:a7f2ed80a457d4cb01790c861267af3be"><td class="mdescLeft">&#160;</td><td class="mdescRight">return several info lines that can better describe object in the UI  <a href="classMR_1_1Object.html#a7f2ed80a457d4cb01790c861267af3be">More...</a><br /></td></tr>
-<tr class="separator:a7f2ed80a457d4cb01790c861267af3be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad99d5459862ef664776cb3dde87df0ee"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#ad99d5459862ef664776cb3dde87df0ee">getInfoLines</a> () const</td></tr>
+<tr class="memdesc:ad99d5459862ef664776cb3dde87df0ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">return several info lines that can better describe object in the UI  <a href="classMR_1_1Object.html#ad99d5459862ef664776cb3dde87df0ee">More...</a><br /></td></tr>
+<tr class="separator:ad99d5459862ef664776cb3dde87df0ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad21ab63debcbf8deb1102471a42fd619"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#ad21ab63debcbf8deb1102471a42fd619">getClassName</a> () const</td></tr>
+<tr class="memdesc:ad21ab63debcbf8deb1102471a42fd619"><td class="mdescLeft">&#160;</td><td class="mdescRight">return human readable name of subclass  <a href="classMR_1_1Object.html#ad21ab63debcbf8deb1102471a42fd619">More...</a><br /></td></tr>
+<tr class="separator:ad21ab63debcbf8deb1102471a42fd619"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1084cfb8bca9d7c5f84f2d3d9000d413"><td class="memItemLeft" align="right" valign="top">tl::expected&lt; std::vector&lt; std::future&lt; void &gt; &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a1084cfb8bca9d7c5f84f2d3d9000d413">serializeRecursive</a> (const std::filesystem::path &amp;path, Json::Value &amp;root, int childId) const</td></tr>
 <tr class="separator:a1084cfb8bca9d7c5f84f2d3d9000d413"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f57af7720b6f65bc10596e41c3cf772"><td class="memItemLeft" align="right" valign="top">tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a9f57af7720b6f65bc10596e41c3cf772">deserializeRecursive</a> (const std::filesystem::path &amp;path, const Json::Value &amp;root)</td></tr>
-<tr class="separator:a9f57af7720b6f65bc10596e41c3cf772"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc9405c08007c8618588ac08526db14f"><td class="memItemLeft" align="right" valign="top">tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#afc9405c08007c8618588ac08526db14f">deserializeRecursive</a> (const std::filesystem::path &amp;path, const Json::Value &amp;root, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={}, int *objCounter=nullptr)</td></tr>
+<tr class="separator:afc9405c08007c8618588ac08526db14f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39e506e0816b1d504e86a2823ee90cf3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a39e506e0816b1d504e86a2823ee90cf3">swap</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;other)</td></tr>
 <tr class="separator:a39e506e0816b1d504e86a2823ee90cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2108dae4247d13e2657f1a99259156a4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceMR.html#ada98ebf3fec74759dd46700389a3e556">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a2108dae4247d13e2657f1a99259156a4">getWorldBox</a> () const</td></tr>
@@ -335,9 +338,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:ae6be7101ff8b1b0be98391ed54dfcaa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b72f2310983a6e40753b5d919d72d35"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a4b72f2310983a6e40753b5d919d72d35">serializeFields_</a> (Json::Value &amp;root) const</td></tr>
 <tr class="separator:a4b72f2310983a6e40753b5d919d72d35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad08fa216d19200df10b480b90eb36d23"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#ad08fa216d19200df10b480b90eb36d23">deserializeModel_</a> (const std::filesystem::path &amp;path)</td></tr>
-<tr class="memdesc:ad08fa216d19200df10b480b90eb36d23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads model from file.  <a href="classMR_1_1Object.html#ad08fa216d19200df10b480b90eb36d23">More...</a><br /></td></tr>
-<tr class="separator:ad08fa216d19200df10b480b90eb36d23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb66b18ce9bd15f7ea372c457fafd66a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#aeb66b18ce9bd15f7ea372c457fafd66a">deserializeModel_</a> (const std::filesystem::path &amp;path, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={})</td></tr>
+<tr class="memdesc:aeb66b18ce9bd15f7ea372c457fafd66a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads model from file.  <a href="classMR_1_1Object.html#aeb66b18ce9bd15f7ea372c457fafd66a">More...</a><br /></td></tr>
+<tr class="separator:aeb66b18ce9bd15f7ea372c457fafd66a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa7de2dfba47f9766bfa741f01f73e42"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#afa7de2dfba47f9766bfa741f01f73e42">deserializeFields_</a> (const Json::Value &amp;root)</td></tr>
 <tr class="separator:afa7de2dfba47f9766bfa741f01f73e42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a086e646a07cc3e96ca62e35d82ea8de7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a086e646a07cc3e96ca62e35d82ea8de7">propagateWorldXfChangedSignal_</a> ()</td></tr>
@@ -819,8 +822,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ad08fa216d19200df10b480b90eb36d23" name="ad08fa216d19200df10b480b90eb36d23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad08fa216d19200df10b480b90eb36d23">&#9670;&nbsp;</a></span>deserializeModel_()</h2>
+<a id="aeb66b18ce9bd15f7ea372c457fafd66a" name="aeb66b18ce9bd15f7ea372c457fafd66a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb66b18ce9bd15f7ea372c457fafd66a">&#9670;&nbsp;</a></span>deserializeModel_()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -832,8 +835,18 @@ template&lt;typename T &gt; </div>
           <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt; MR::Object::deserializeModel_ </td>
           <td>(</td>
           <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
-          <td class="paramname"><em>path</em></td><td>)</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>progressCb</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -845,12 +858,12 @@ template&lt;typename T &gt; </div>
 
 <p>Reads model from file. </p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1CircleObject.html#abcd2f02d38a17611e00a0b52bbd732cf">MR::CircleObject</a>, <a class="el" href="classMR_1_1LineObject.html#ad4e5daa10deb2210efe69ff562212afa">MR::LineObject</a>, <a class="el" href="classMR_1_1PlaneObject.html#a1044eecc451890f37a4fe575f7f75d31">MR::PlaneObject</a>, <a class="el" href="classMR_1_1PointObject.html#ae9d19c06286ea3e0b62e8a62d127601e">MR::PointObject</a>, <a class="el" href="classMR_1_1SphereObject.html#ab1a5717d998aadc76e82b3810bd90d7e">MR::SphereObject</a>, <a class="el" href="classMR_1_1ObjectDistanceMap.html#a440d23f92f3fe746bb3b0c5853080b93">MR::ObjectDistanceMap</a>, <a class="el" href="classMR_1_1ObjectLabel.html#aae4b9e24204a6bfc98efac71f5878b37">MR::ObjectLabel</a>, <a class="el" href="classMR_1_1ObjectMeshHolder.html#a2633f938dcc2d0e2835c19af0d3a2502">MR::ObjectMeshHolder</a>, <a class="el" href="classMR_1_1ObjectPointsHolder.html#a1e4ce9bbdea2859778ffa7533ce0e731">MR::ObjectPointsHolder</a>, and <a class="el" href="classMR_1_1ObjectVoxels.html#a7b93e53467ca3382d423c3594492c4ad">MR::ObjectVoxels</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1CircleObject.html#a79f472a79c4c468d7bcd71bc4f5416cb">MR::CircleObject</a>, <a class="el" href="classMR_1_1LineObject.html#aac479898daa9c79a3801e1e8d66c009a">MR::LineObject</a>, <a class="el" href="classMR_1_1PlaneObject.html#a7bd8466849d8e1339e55fc1aecc12240">MR::PlaneObject</a>, <a class="el" href="classMR_1_1PointObject.html#a7cab40510ce33020d97de3eb9d3245fd">MR::PointObject</a>, <a class="el" href="classMR_1_1SphereObject.html#a6dae3e54fcc00aa8f146cc593182fab7">MR::SphereObject</a>, <a class="el" href="classMR_1_1ObjectDistanceMap.html#a42c2bcbf69d1ff4d3693bf1a852d497d">MR::ObjectDistanceMap</a>, <a class="el" href="classMR_1_1ObjectLabel.html#a3e91a64959690e008aea129d41b5d8d1">MR::ObjectLabel</a>, <a class="el" href="classMR_1_1ObjectMeshHolder.html#a2b3f41800015b8db1eeb6cbd112f51d2">MR::ObjectMeshHolder</a>, <a class="el" href="classMR_1_1ObjectPointsHolder.html#ad5fd6acbd95255ca108e1ea4c655d414">MR::ObjectPointsHolder</a>, and <a class="el" href="classMR_1_1ObjectVoxels.html#a9408c865078bb51b16fa1f8f8686767e">MR::ObjectVoxels</a>.</p>
 
 </div>
 </div>
-<a id="a9f57af7720b6f65bc10596e41c3cf772" name="a9f57af7720b6f65bc10596e41c3cf772"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f57af7720b6f65bc10596e41c3cf772">&#9670;&nbsp;</a></span>deserializeRecursive()</h2>
+<a id="afc9405c08007c8618588ac08526db14f" name="afc9405c08007c8618588ac08526db14f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc9405c08007c8618588ac08526db14f">&#9670;&nbsp;</a></span>deserializeRecursive()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -865,7 +878,19 @@ template&lt;typename T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const Json::Value &amp;&#160;</td>
-          <td class="paramname"><em>root</em>&#160;</td>
+          <td class="paramname"><em>root</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>progressCb</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>objCounter</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -978,8 +1003,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a7f2ed80a457d4cb01790c861267af3be" name="a7f2ed80a457d4cb01790c861267af3be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f2ed80a457d4cb01790c861267af3be">&#9670;&nbsp;</a></span>getInfoLines()</h2>
+<a id="ad21ab63debcbf8deb1102471a42fd619" name="ad21ab63debcbf8deb1102471a42fd619"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad21ab63debcbf8deb1102471a42fd619">&#9670;&nbsp;</a></span>getClassName()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -988,7 +1013,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::vector&lt; std::string &gt; MR::Object::getInfoLines </td>
+          <td class="memname">virtual std::string MR::Object::getClassName </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1001,9 +1026,38 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>return human readable name of subclass </p>
+
+<p>Reimplemented in <a class="el" href="classMR_1_1CircleObject.html#aeaaf88b33c15f525f690a986a6b8e4b2">MR::CircleObject</a>, <a class="el" href="classMR_1_1LineObject.html#a58d1ddeed9b8239cf14d4c47de7f6361">MR::LineObject</a>, <a class="el" href="classMR_1_1ObjectDistanceMap.html#ab68c3e721d3bd37dc6a085f40ecd825c">MR::ObjectDistanceMap</a>, <a class="el" href="classMR_1_1ObjectLines.html#ac7792895b65e5aa19f751b31507a32c3">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectMesh.html#ad913c04754e2d8364f0042efa5c1fffd">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectPoints.html#a9b538af544fb079b16e86b72414c4b2a">MR::ObjectPoints</a>, <a class="el" href="classMR_1_1ObjectVoxels.html#a5cf0d7357ed28e21c95574c86d0cdbad">MR::ObjectVoxels</a>, <a class="el" href="classMR_1_1PlaneObject.html#acccbe2fde9c8cb30a4c0a73ab99d2283">MR::PlaneObject</a>, <a class="el" href="classMR_1_1PointObject.html#a3f2703413f04d8a050906c159caf02fc">MR::PointObject</a>, and <a class="el" href="classMR_1_1SphereObject.html#a1e97d8fea065449a5da3f204f8230678">MR::SphereObject</a>.</p>
+
+</div>
+</div>
+<a id="ad99d5459862ef664776cb3dde87df0ee" name="ad99d5459862ef664776cb3dde87df0ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad99d5459862ef664776cb3dde87df0ee">&#9670;&nbsp;</a></span>getInfoLines()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; std::string &gt; MR::Object::getInfoLines </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 <p>return several info lines that can better describe object in the UI </p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1CircleObject.html#a1e47b2b02be42b1c202c2f8458867630">MR::CircleObject</a>, <a class="el" href="classMR_1_1LineObject.html#af58fdf1ffe73491d31782b6ef7fd8b5f">MR::LineObject</a>, <a class="el" href="classMR_1_1ObjectDistanceMap.html#a769f47ff3df3a3e6aff07639c62a4f50">MR::ObjectDistanceMap</a>, <a class="el" href="classMR_1_1ObjectLines.html#aef5e76ee8e7d04576faa2912fc3de4d0">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectMesh.html#a0b6c4c31b11e372dea9237b6f9fcf5c6">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectPoints.html#a8a5af21a0ab52a2d7f2464ba3e3f8131">MR::ObjectPoints</a>, <a class="el" href="classMR_1_1ObjectVoxels.html#ac26f70113086646e20d03ac10f4bac71">MR::ObjectVoxels</a>, <a class="el" href="classMR_1_1PlaneObject.html#aa4b2f291c2e4318d79ddc0d86c803991">MR::PlaneObject</a>, <a class="el" href="classMR_1_1PointObject.html#a3d77e683febff2d780da2d7575e2d3c2">MR::PointObject</a>, and <a class="el" href="classMR_1_1SphereObject.html#ab436f1fa5faf879457838e4c1281c2db">MR::SphereObject</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1ObjectDistanceMap.html#a769f47ff3df3a3e6aff07639c62a4f50">MR::ObjectDistanceMap</a>, <a class="el" href="classMR_1_1ObjectLines.html#aef5e76ee8e7d04576faa2912fc3de4d0">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectMesh.html#a0b6c4c31b11e372dea9237b6f9fcf5c6">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectPoints.html#a8a5af21a0ab52a2d7f2464ba3e3f8131">MR::ObjectPoints</a>, and <a class="el" href="classMR_1_1ObjectVoxels.html#ac26f70113086646e20d03ac10f4bac71">MR::ObjectVoxels</a>.</p>
 
 </div>
 </div>

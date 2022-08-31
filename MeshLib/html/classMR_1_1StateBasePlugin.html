@@ -112,11 +112,19 @@ $(document).ready(function(){initNavTree('classMR_1_1StateBasePlugin.html',''); 
  <div class="center">
   <img src="classMR_1_1StateBasePlugin.png" usemap="#MR::StateBasePlugin_map" alt=""/>
   <map id="MR::StateBasePlugin_map" name="MR::StateBasePlugin_map">
-<area href="classMR_1_1ViewerPlugin.html" alt="MR::ViewerPlugin" shape="rect" coords="0,56,246,80"/>
-<area href="classMR_1_1RibbonMenuItem.html" alt="MR::RibbonMenuItem" shape="rect" coords="256,56,502,80"/>
-<area href="classMR_1_1IPluginCloseCheck.html" alt="MR::IPluginCloseCheck" shape="rect" coords="512,56,758,80"/>
-<area href="classMR_1_1ISceneStateCheck.html" alt="MR::ISceneStateCheck" shape="rect" coords="256,0,502,24"/>
-<area href="classMR_1_1StateListenerPlugin.html" alt="MR::StateListenerPlugin&lt; Connectables &gt;" shape="rect" coords="256,168,502,192"/>
+<area href="classMR_1_1ViewerPlugin.html" alt="MR::ViewerPlugin" shape="rect" coords="0,56,515,80"/>
+<area href="classMR_1_1RibbonMenuItem.html" alt="MR::RibbonMenuItem" shape="rect" coords="525,56,1040,80"/>
+<area href="classMR_1_1IPluginCloseCheck.html" alt="MR::IPluginCloseCheck" shape="rect" coords="1050,56,1565,80"/>
+<area href="classMR_1_1ISceneStateCheck.html" alt="MR::ISceneStateCheck" shape="rect" coords="525,0,1040,24"/>
+<area href="classMR_1_1StateListenerPlugin.html" alt="MR::StateListenerPlugin&lt; MouseDownListener, MouseMoveListener, MouseUpListener &gt;" shape="rect" coords="0,168,515,192"/>
+<area href="classMR_1_1StateListenerPlugin.html" alt="MR::StateListenerPlugin&lt; MouseDownListener, MouseUpListener, MouseMoveListener &gt;" shape="rect" coords="525,168,1040,192"/>
+<area href="classMR_1_1StateListenerPlugin.html" alt="MR::StateListenerPlugin&lt; Connectables &gt;" shape="rect" coords="1837,168,2352,192"/>
+<area href="classMR_1_1MoveObjectByMouse.html" alt="MR::MoveObjectByMouse" shape="rect" coords="0,224,515,248"/>
+<area href="classMR_1_1SelectObjectByClick.html" alt="MR::SelectObjectByClick" shape="rect" coords="525,224,1040,248"/>
+<area href="classMR_1_1AddCustomThemePlugin.html" alt="MR::AddCustomThemePlugin" shape="rect" coords="1050,224,1565,248"/>
+<area href="classMR_1_1CameraOrientation.html" alt="MR::CameraOrientation" shape="rect" coords="1575,224,2090,248"/>
+<area href="classMR_1_1OpenRawVoxelsPlugin.html" alt="MR::OpenRawVoxelsPlugin" shape="rect" coords="2100,224,2615,248"/>
+<area href="classMR_1_1ViewerSettingsPlugin.html" alt="MR::ViewerSettingsPlugin" shape="rect" coords="2625,224,3140,248"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -218,6 +226,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a239e7ea5887cf228c8ea6a7eef781a2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d97f71a0f325fbe29b0bbec3e564204"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1StateBasePlugin.html#a1d97f71a0f325fbe29b0bbec3e564204">dialogIsOpen_</a> {false}</td></tr>
 <tr class="separator:a1d97f71a0f325fbe29b0bbec3e564204"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55b362aee5989fe359aadd33c9be78b4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1StateBasePlugin.html#a55b362aee5989fe359aadd33c9be78b4">dialogIsCollapsed_</a> { false }</td></tr>
+<tr class="separator:a55b362aee5989fe359aadd33c9be78b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3e8d3db81bf9d8a316c46e82f369980"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37">StatePluginTabs</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1StateBasePlugin.html#ac3e8d3db81bf9d8a316c46e82f369980">tab_</a> {<a class="el" href="namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37a6311ae17c1ee52b36e68aaf4ad066387">StatePluginTabs::Other</a>}</td></tr>
 <tr class="separator:ac3e8d3db81bf9d8a316c46e82f369980"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classMR_1_1ViewerPlugin"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classMR_1_1ViewerPlugin')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1ViewerPlugin.html">MR::ViewerPlugin</a></td></tr>
@@ -345,6 +355,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1RibbonMenuItem.html#ac9fd2cbdcf5356c6fbb093464568afdc">MR::RibbonMenuItem</a>.</p>
 
+<p>Reimplemented in <a class="el" href="classMR_1_1CameraOrientation.html#aded26055d65895c92ebe389028088749">MR::CameraOrientation</a>, <a class="el" href="classMR_1_1MoveObjectByMouse.html#af8619e80df46a41878d35b50d427ef0c">MR::MoveObjectByMouse</a>, <a class="el" href="classMR_1_1SelectObjectByClick.html#a4e224981a48ecad3ccd0f3644cfeecd5">MR::SelectObjectByClick</a>, and <a class="el" href="classMR_1_1ViewerSettingsPlugin.html#ac31f0ed7c0847408208b9cd59d7a9c40">MR::ViewerSettingsPlugin</a>.</p>
+
 </div>
 </div>
 <a id="a730c0edb5aead3d67519512f5545bd63" name="a730c0edb5aead3d67519512f5545bd63"></a>
@@ -424,6 +436,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Reimplemented in <a class="el" href="classMR_1_1CameraOrientation.html#a84d255ab4e7f8f30f34eb6f6dd2d155a">MR::CameraOrientation</a>, <a class="el" href="classMR_1_1MoveObjectByMouse.html#ab775a884acc63bcc7e19e3415fcea268">MR::MoveObjectByMouse</a>, <a class="el" href="classMR_1_1AddCustomThemePlugin.html#a42feeea3eec96cb3a13ca752f83a03a5">MR::AddCustomThemePlugin</a>, <a class="el" href="classMR_1_1OpenRawVoxelsPlugin.html#af78be70f41e4878019b08c17d7d862cb">MR::OpenRawVoxelsPlugin</a>, <a class="el" href="classMR_1_1ViewerSettingsPlugin.html#ab07645da2528b86e8844b18dd97c93a9">MR::ViewerSettingsPlugin</a>, and <a class="el" href="classMR_1_1SelectObjectByClick.html#a2a30b5e16efad50fc9ee0f3a38a87296">MR::SelectObjectByClick</a>.</p>
+
 </div>
 </div>
 <a id="a12b5e139ab1d9458373e61c275e80457" name="a12b5e139ab1d9458373e61c275e80457"></a>
@@ -450,7 +464,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classMR_1_1StateListenerPlugin.html#a7dd63f0fe42b793001a53a4e76b94255">MR::StateListenerPlugin&lt; Connectables &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1StateListenerPlugin.html#a7dd63f0fe42b793001a53a4e76b94255">MR::StateListenerPlugin&lt; Connectables &gt;</a>, <a class="el" href="classMR_1_1StateListenerPlugin.html#a7dd63f0fe42b793001a53a4e76b94255">MR::StateListenerPlugin&lt; MouseDownListener, MouseMoveListener, MouseUpListener &gt;</a>, and <a class="el" href="classMR_1_1StateListenerPlugin.html#a7dd63f0fe42b793001a53a4e76b94255">MR::StateListenerPlugin&lt; MouseDownListener, MouseUpListener, MouseMoveListener &gt;</a>.</p>
 
 </div>
 </div>
@@ -669,6 +683,28 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a55b362aee5989fe359aadd33c9be78b4" name="a55b362aee5989fe359aadd33c9be78b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55b362aee5989fe359aadd33c9be78b4">&#9670;&nbsp;</a></span>dialogIsCollapsed_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::StateBasePlugin::dialogIsCollapsed_ { false }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1d97f71a0f325fbe29b0bbec3e564204" name="a1d97f71a0f325fbe29b0bbec3e564204"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1d97f71a0f325fbe29b0bbec3e564204">&#9670;&nbsp;</a></span>dialogIsOpen_</h2>
 

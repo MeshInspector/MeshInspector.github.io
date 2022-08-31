@@ -11,13 +11,15 @@ var classMR_1_1ObjectVoxels =
     [ "construct", "classMR_1_1ObjectVoxels.html#acad8e9dc4d1001e3e1741799fb5ca2a6", null ],
     [ "construct", "classMR_1_1ObjectVoxels.html#af783a12fdddd747873af2fc1aab5473b", null ],
     [ "deserializeFields_", "classMR_1_1ObjectVoxels.html#a6d35ab6c35a9ddc26e7bbdb2dab74768", null ],
-    [ "deserializeModel_", "classMR_1_1ObjectVoxels.html#a7b93e53467ca3382d423c3594492c4ad", null ],
+    [ "deserializeModel_", "classMR_1_1ObjectVoxels.html#a9408c865078bb51b16fa1f8f8686767e", null ],
     [ "dimensions", "classMR_1_1ObjectVoxels.html#a1077ee7fda27e5924dd707c93bffafba", null ],
     [ "getActiveBounds", "classMR_1_1ObjectVoxels.html#a21fac797124aacbda1e3226395b7203f", null ],
+    [ "getClassName", "classMR_1_1ObjectVoxels.html#a5cf0d7357ed28e21c95574c86d0cdbad", null ],
     [ "getCoordinateByVoxelId", "classMR_1_1ObjectVoxels.html#a3aec064775f6fff2a8d9bd7fe27fd877", null ],
     [ "getInfoLines", "classMR_1_1ObjectVoxels.html#ac26f70113086646e20d03ac10f4bac71", null ],
     [ "getIsoValue", "classMR_1_1ObjectVoxels.html#a2ce02d5c6f811849926b7409f892983f", null ],
     [ "getMaxSurfaceTriangles", "classMR_1_1ObjectVoxels.html#a2d44d3c50b2825b0662d43a553e54cd1", null ],
+    [ "getSelectedVoxels", "classMR_1_1ObjectVoxels.html#a2474b64ee36bdd0c3cbb7c2688559071", null ],
     [ "getVolumeIndexer", "classMR_1_1ObjectVoxels.html#a5d0809111b5537e09fcc341afb335c7f", null ],
     [ "getVoxelIdByCoordinate", "classMR_1_1ObjectVoxels.html#ac13b231e31f37fbd53d30d8a9aeb4e33", null ],
     [ "getVoxelIdByPoint", "classMR_1_1ObjectVoxels.html#a5b3ec655c032d761470ca3b9d7cf410e", null ],
@@ -26,6 +28,7 @@ var classMR_1_1ObjectVoxels =
     [ "histogram", "classMR_1_1ObjectVoxels.html#af4e1350561bc2e71d56741b954562868", null ],
     [ "operator=", "classMR_1_1ObjectVoxels.html#a2f2260ca64565ffbedc9236f28e19b98", null ],
     [ "recalculateIsoSurface", "classMR_1_1ObjectVoxels.html#a5bde9f5b95addf42acf264b6802f79a7", null ],
+    [ "selectVoxels", "classMR_1_1ObjectVoxels.html#a4333c77a23030251df09a35b3432fdd6", null ],
     [ "serializeFields_", "classMR_1_1ObjectVoxels.html#a1b9e402abcba964cf107ae761006fdb3", null ],
     [ "serializeModel_", "classMR_1_1ObjectVoxels.html#a56b13d3ff08ee4d3d3ee64fb2e51fe16", null ],
     [ "setActiveBounds", "classMR_1_1ObjectVoxels.html#ae495dd34ce33c5f6dfb753eb92cc5c0d", null ],
@@ -40,5 +43,6 @@ var classMR_1_1ObjectVoxels =
     [ "updateHistogramAndSurface", "classMR_1_1ObjectVoxels.html#a607e61443e72bdc0eb881a0d3db9fb8c", null ],
     [ "updateIsoSurface", "classMR_1_1ObjectVoxels.html#aabef8e164fd456b133249ea31024af4e", null ],
     [ "voxelSize", "classMR_1_1ObjectVoxels.html#a15d13587d3a07d097c841db2c9face4d", null ],
-    [ "isoSurfaceChangedSignal", "classMR_1_1ObjectVoxels.html#af857395916951ea4b3e9a111f194499b", null ]
+    [ "isoSurfaceChangedSignal", "classMR_1_1ObjectVoxels.html#af857395916951ea4b3e9a111f194499b", null ],
+    [ "selectedVoxels_", "classMR_1_1ObjectVoxels.html#ac93a94170b78edb3958c03c152eddf69", null ]
 ];

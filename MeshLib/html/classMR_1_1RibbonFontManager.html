@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('classMR_1_1RibbonFontManager.html','')
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classMR_1_1RibbonFontManager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::RibbonFontManager Class Reference</div></div>
 </div><!--header-->
@@ -133,6 +134,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af67d4ecfff6fa832444a2a214a3f471a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonFontManager.html#af67d4ecfff6fa832444a2a214a3f471a">getMenuFontPath</a> () const</td></tr>
 <tr class="memdesc:af67d4ecfff6fa832444a2a214a3f471a"><td class="mdescLeft">&#160;</td><td class="mdescRight">get ribbon menu font path  <a href="classMR_1_1RibbonFontManager.html#af67d4ecfff6fa832444a2a214a3f471a">More...</a><br /></td></tr>
 <tr class="separator:af67d4ecfff6fa832444a2a214a3f471a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0582f5e74067f346e7aa0ce538cf9b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonFontManager.html#ac0582f5e74067f346e7aa0ce538cf9b2">initFontManagerInstance</a> (<a class="el" href="classMR_1_1RibbonFontManager.html">RibbonFontManager</a> *ribbonFontManager)</td></tr>
+<tr class="separator:ac0582f5e74067f346e7aa0ce538cf9b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a97355af20e7429bbe3a9d0b3f7c209a9"><td class="memItemLeft" align="right" valign="top">static ImFont *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonFontManager.html#a97355af20e7429bbe3a9d0b3f7c209a9">getFontByTypeStatic</a> (<a class="el" href="classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4">FontType</a> type)</td></tr>
+<tr class="separator:a97355af20e7429bbe3a9d0b3f7c209a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="aba42ec493818f2de36d60f069b34cee4" name="aba42ec493818f2de36d60f069b34cee4"></a>
@@ -188,6 +196,33 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a97355af20e7429bbe3a9d0b3f7c209a9" name="a97355af20e7429bbe3a9d0b3f7c209a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97355af20e7429bbe3a9d0b3f7c209a9">&#9670;&nbsp;</a></span>getFontByTypeStatic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static ImFont * MR::RibbonFontManager::getFontByTypeStatic </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4">FontType</a>&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >get font by font type (need to avoid dynamic cast menu to ribbon menu) </p>
+
+</div>
+</div>
 <a id="abebf23c2d8da785340dc374ea6c3cfbf" name="abebf23c2d8da785340dc374ea6c3cfbf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abebf23c2d8da785340dc374ea6c3cfbf">&#9670;&nbsp;</a></span>getFontSizeByType()</h2>
 
@@ -224,6 +259,25 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get ribbon menu font path </p>
+
+</div>
+</div>
+<a id="ac0582f5e74067f346e7aa0ce538cf9b2" name="ac0582f5e74067f346e7aa0ce538cf9b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0582f5e74067f346e7aa0ce538cf9b2">&#9670;&nbsp;</a></span>initFontManagerInstance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::RibbonFontManager::initFontManagerInstance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1RibbonFontManager.html">RibbonFontManager</a> *&#160;</td>
+          <td class="paramname"><em>ribbonFontManager</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >initialize static holder for easier access to ribbon fonts (need to avoid dynamic cast menu to ribbon menu) </p>
 
 </div>
 </div>

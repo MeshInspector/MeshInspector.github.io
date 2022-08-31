@@ -2,7 +2,7 @@ var searchData=
 [
   ['peredge_0',['PerEdge',['../group__MeshComponentsGroup.html#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc',1,'MR::MeshComponents']]],
   ['pervertex_1',['PerVertex',['../group__MeshComponentsGroup.html#gga7489c91178e90fdd4200bbb0074e025fa2e9713a46619599c9d68465178a81a4c',1,'MR::MeshComponents']]],
-  ['picker_2',['Picker',['../classMR_1_1ShadersHolder.html#af79d4956571eca0d639217ad9ec89767ac4dc377ef72564bbd9e10ee3fefbfe46',1,'MR::ShadersHolder']]],
+  ['picker_2',['Picker',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a053f32c954efcc79e4f09a4a38c33394',1,'MR::GLStaticHolder']]],
   ['planar_3',['Planar',['../namespaceMR.html#a6ab288ae813e1aa688312e31c258df71a93a097009b6443e711996c50b5354adf',1,'MR']]],
   ['plusx_4',['PlusX',['../group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6aac53fa7ccf60e6f59512da11975eb8a7',1,'MR::PlusX()'],['../group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752eaac53fa7ccf60e6f59512da11975eb8a7',1,'MR::PlusX()']]],
   ['plusy_5',['PlusY',['../group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6a89241a914ba5d59de9168c4416e69c4a',1,'MR::PlusY()'],['../group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea89241a914ba5d59de9168c4416e69c4a',1,'MR::PlusY()']]],

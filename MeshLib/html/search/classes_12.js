@@ -1,12 +1,22 @@
 var searchData=
 [
-  ['undirectededgeiterator_0',['UndirectedEdgeIterator',['../classMR_1_1UndirectedEdgeIterator.html',1,'MR']]],
-  ['undirectededgeundirectededge_1',['UndirectedEdgeUndirectedEdge',['../structMR_1_1UndirectedEdgeUndirectedEdge.html',1,'MR']]],
-  ['unionfind_2',['UnionFind',['../classMR_1_1UnionFind.html',1,'MR']]],
-  ['uniquetemporaryfolder_3',['UniqueTemporaryFolder',['../classMR_1_1UniqueTemporaryFolder.html',1,'MR']]],
-  ['uniquethreadsafeowner_4',['UniqueThreadSafeOwner',['../classMR_1_1UniqueThreadSafeOwner.html',1,'MR']]],
-  ['uniquethreadsafeowner_3c_20mr_3a_3aaabbtree_20_3e_5',['UniqueThreadSafeOwner&lt; MR::AABBTree &gt;',['../classMR_1_1UniqueThreadSafeOwner.html',1,'MR']]],
-  ['uniquethreadsafeowner_3c_20mr_3a_3aaabbtreepoints_20_3e_6',['UniqueThreadSafeOwner&lt; MR::AABBTreePoints &gt;',['../classMR_1_1UniqueThreadSafeOwner.html',1,'MR']]],
-  ['uniquethreadsafeowner_3c_20mr_3a_3aaabbtreepolyline_3c_20v_20_3e_20_3e_7',['UniqueThreadSafeOwner&lt; MR::AABBTreePolyline&lt; V &gt; &gt;',['../classMR_1_1UniqueThreadSafeOwner.html',1,'MR']]],
-  ['uvcoord_8',['UVCoord',['../structMR_1_1UVCoord.html',1,'MR']]]
+  ['taggedbitset_0',['TaggedBitSet',['../classMR_1_1TaggedBitSet.html',1,'MR']]],
+  ['taggedbitset_3c_20facetag_20_3e_1',['TaggedBitSet&lt; FaceTag &gt;',['../classMR_1_1TaggedBitSet.html',1,'MR']]],
+  ['taggedbitset_3c_20tag_20_3e_2',['TaggedBitSet&lt; Tag &gt;',['../classMR_1_1TaggedBitSet.html',1,'MR']]],
+  ['taggedbitset_3c_20undirectededgetag_20_3e_3',['TaggedBitSet&lt; UndirectedEdgeTag &gt;',['../classMR_1_1TaggedBitSet.html',1,'MR']]],
+  ['taggedbitset_3c_20verttag_20_3e_4',['TaggedBitSet&lt; VertTag &gt;',['../classMR_1_1TaggedBitSet.html',1,'MR']]],
+  ['taggedbitset_3c_20voxeltag_20_3e_5',['TaggedBitSet&lt; VoxelTag &gt;',['../classMR_1_1TaggedBitSet.html',1,'MR']]],
+  ['textmeshalignparams_6',['TextMeshAlignParams',['../structMR_1_1TextMeshAlignParams.html',1,'MR']]],
+  ['timer_7',['Timer',['../classMR_1_1Timer.html',1,'MR']]],
+  ['transformedmesh_8',['TransformedMesh',['../structMR_1_1TransformedMesh.html',1,'MR']]],
+  ['tri_9',['Tri',['../structMR_1_1ImmediateGL_1_1Tri.html',1,'MR::ImmediateGL']]],
+  ['triangle_10',['Triangle',['../structMR_1_1MeshBuilder_1_1Triangle.html',1,'MR::MeshBuilder']]],
+  ['trianglesegmentintersectresult_11',['TriangleSegmentIntersectResult',['../structMR_1_1TriangleSegmentIntersectResult.html',1,'MR']]],
+  ['triangulatedfan_12',['TriangulatedFan',['../structMR_1_1TriangulationHelpers_1_1TriangulatedFan.html',1,'MR::TriangulationHelpers']]],
+  ['triangulationparameters_13',['TriangulationParameters',['../structMR_1_1TriangulationParameters.html',1,'MR']]],
+  ['tricornercolors_14',['TriCornerColors',['../structMR_1_1ImmediateGL_1_1TriCornerColors.html',1,'MR::ImmediateGL']]],
+  ['triintersectresult_15',['TriIntersectResult',['../structMR_1_1TriIntersectResult.html',1,'MR']]],
+  ['tripoint_16',['TriPoint',['../structMR_1_1TriPoint.html',1,'MR']]],
+  ['tripoint_3c_20float_20_3e_17',['TriPoint&lt; float &gt;',['../structMR_1_1TriPoint.html',1,'MR']]],
+  ['trirenderparams_18',['TriRenderParams',['../structMR_1_1ImmediateGL_1_1TriRenderParams.html',1,'MR::ImmediateGL']]]
 ];

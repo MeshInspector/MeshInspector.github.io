@@ -95,6 +95,7 @@ $(document).ready(function(){initNavTree('group__HistoryGroup.html',''); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">History group</div></div>
 </div><!--header-->
@@ -149,6 +150,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ChangeSurfaceAction.html">MR::ChangeSurfaceAction</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ChangVoxelSelectionAction.html">MR::ChangVoxelSelectionAction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undo action for <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> face selection.  <a href="classMR_1_1ChangVoxelSelectionAction.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ChangeXfAction.html">MR::ChangeXfAction</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1CombinedHistoryAction.html">MR::CombinedHistoryAction</a></td></tr>
@@ -159,14 +163,118 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class stores history stack for undo/redo.  <a href="classMR_1_1HistoryStore.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ga2bc62e359f5e804a60171abdd7939bd7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__HistoryGroup.html#ga2bc62e359f5e804a60171abdd7939bd7">MR::ChangVoxelSelectionAction::Obj</a> = <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a></td></tr>
+<tr class="separator:ga2bc62e359f5e804a60171abdd7939bd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:gacd0912663f58360180bc863ab572daf4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__HistoryGroup.html#gacd0912663f58360180bc863ab572daf4">MR::ChangVoxelSelectionAction::ChangVoxelSelectionAction</a> (const std::string &amp;<a class="el" href="group__HistoryGroup.html#ga4613d2480c87b60c6d32385f80849bbe">name</a>, const std::shared_ptr&lt; <a class="el" href="group__HistoryGroup.html#ga2bc62e359f5e804a60171abdd7939bd7">Obj</a> &gt; &amp;objVoxels)</td></tr>
+<tr class="memdesc:gacd0912663f58360180bc863ab572daf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's face selection before making any changes in it  <a href="group__HistoryGroup.html#gacd0912663f58360180bc863ab572daf4">More...</a><br /></td></tr>
+<tr class="separator:gacd0912663f58360180bc863ab572daf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4613d2480c87b60c6d32385f80849bbe"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__HistoryGroup.html#ga4613d2480c87b60c6d32385f80849bbe">MR::ChangVoxelSelectionAction::name</a> () const override</td></tr>
+<tr class="separator:ga4613d2480c87b60c6d32385f80849bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaebcfdaaba426fea5c32f5ca836a7085f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__HistoryGroup.html#gaebcfdaaba426fea5c32f5ca836a7085f">MR::ChangVoxelSelectionAction::action</a> (<a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">Type</a>) override</td></tr>
+<tr class="memdesc:gaebcfdaaba426fea5c32f5ca836a7085f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called on history action (undo, redo, etc.)  <a href="group__HistoryGroup.html#gaebcfdaaba426fea5c32f5ca836a7085f">More...</a><br /></td></tr>
+<tr class="separator:gaebcfdaaba426fea5c32f5ca836a7085f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga639784e559a258dafd067f1e374d0ae2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a554ecd806e7de55aceb363940928dac0">VoxelBitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__HistoryGroup.html#ga639784e559a258dafd067f1e374d0ae2">MR::ChangVoxelSelectionAction::selection</a> () const</td></tr>
+<tr class="separator:ga639784e559a258dafd067f1e374d0ae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga54f4bbe409819b2a781e9d559f22298e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__HistoryGroup.html#ga54f4bbe409819b2a781e9d559f22298e">MR::ChangVoxelSelectionAction::setObjectDirty</a> (const std::shared_ptr&lt; <a class="el" href="group__HistoryGroup.html#ga2bc62e359f5e804a60171abdd7939bd7">Obj</a> &gt; &amp;)</td></tr>
+<tr class="memdesc:ga54f4bbe409819b2a781e9d559f22298e"><td class="mdescLeft">&#160;</td><td class="mdescRight">empty because set dirty is inside selectFaces  <a href="group__HistoryGroup.html#ga54f4bbe409819b2a781e9d559f22298e">More...</a><br /></td></tr>
+<tr class="separator:ga54f4bbe409819b2a781e9d559f22298e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga970e3207174343bffc6f631586e4f59d"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__HistoryGroup.html#ga970e3207174343bffc6f631586e4f59d">MR::ChangVoxelSelectionAction::heapBytes</a> () const override</td></tr>
+<tr class="memdesc:ga970e3207174343bffc6f631586e4f59d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <a href="group__HistoryGroup.html#ga970e3207174343bffc6f631586e4f59d">More...</a><br /></td></tr>
+<tr class="separator:ga970e3207174343bffc6f631586e4f59d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad816d7f5445309140db275f8f14c8ba1"><td class="memItemLeft" align="right" valign="top">std::pair&lt; bool, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__HistoryGroup.html#gad816d7f5445309140db275f8f14c8ba1">MR::filterHistoryActionsVector</a> (<a class="el" href="namespaceMR.html#af3dc1bb8e4ca66f348d79f492f812233">HistoryActionsVector</a> &amp;historyVector, <a class="el" href="namespaceMR.html#ab273f85bdfe475fcbca1b38992b44580">HistoryStackFilter</a> filteringCondition, size_t firstRedoIndex=0, bool deepFiltering=true)</td></tr>
 <tr class="memdesc:gad816d7f5445309140db275f8f14c8ba1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove actions from history actions vector that match the condition.  <a href="group__HistoryGroup.html#gad816d7f5445309140db275f8f14c8ba1">More...</a><br /></td></tr>
 <tr class="separator:gad816d7f5445309140db275f8f14c8ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="ga2bc62e359f5e804a60171abdd7939bd7" name="ga2bc62e359f5e804a60171abdd7939bd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2bc62e359f5e804a60171abdd7939bd7">&#9670;&nbsp;</a></span>Obj</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="group__HistoryGroup.html#ga2bc62e359f5e804a60171abdd7939bd7">MR::ChangVoxelSelectionAction::Obj</a> =  <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="gaebcfdaaba426fea5c32f5ca836a7085f" name="gaebcfdaaba426fea5c32f5ca836a7085f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaebcfdaaba426fea5c32f5ca836a7085f">&#9670;&nbsp;</a></span>action()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MR::ChangVoxelSelectionAction::action </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">Type</a>&#160;</td>
+          <td class="paramname"><em>actionType</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This function is called on history action (undo, redo, etc.) </p>
+
+<p>Implements <a class="el" href="classMR_1_1HistoryAction.html#aecfce349736beaf17a23a6817c86f3bb">MR::HistoryAction</a>.</p>
+
+</div>
+</div>
+<a id="gacd0912663f58360180bc863ab572daf4" name="gacd0912663f58360180bc863ab572daf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacd0912663f58360180bc863ab572daf4">&#9670;&nbsp;</a></span>ChangVoxelSelectionAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::ChangVoxelSelectionAction::ChangVoxelSelectionAction </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="group__HistoryGroup.html#ga2bc62e359f5e804a60171abdd7939bd7">Obj</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>objVoxels</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>use this constructor to remember object's face selection before making any changes in it </p>
+
+</div>
+</div>
 <a id="gad816d7f5445309140db275f8f14c8ba1" name="gad816d7f5445309140db275f8f14c8ba1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gad816d7f5445309140db275f8f14c8ba1">&#9670;&nbsp;</a></span>filterHistoryActionsVector()</h2>
 
@@ -214,6 +322,115 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>pair (anything removed, how many removed before firstRedoIndex) </dd></dl>
+
+</div>
+</div>
+<a id="ga970e3207174343bffc6f631586e4f59d" name="ga970e3207174343bffc6f631586e4f59d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga970e3207174343bffc6f631586e4f59d">&#9670;&nbsp;</a></span>heapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual size_t MR::ChangVoxelSelectionAction::heapBytes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the amount of memory this object occupies on heap </p>
+
+<p>Implements <a class="el" href="classMR_1_1HistoryAction.html#ad6df54da6a63ed83f15053507e8569de">MR::HistoryAction</a>.</p>
+
+</div>
+</div>
+<a id="ga4613d2480c87b60c6d32385f80849bbe" name="ga4613d2480c87b60c6d32385f80849bbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4613d2480c87b60c6d32385f80849bbe">&#9670;&nbsp;</a></span>name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string MR::ChangVoxelSelectionAction::name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classMR_1_1HistoryAction.html#a9daa0b79de161f676f6283e3804dc8ce">MR::HistoryAction</a>.</p>
+
+</div>
+</div>
+<a id="ga639784e559a258dafd067f1e374d0ae2" name="ga639784e559a258dafd067f1e374d0ae2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga639784e559a258dafd067f1e374d0ae2">&#9670;&nbsp;</a></span>selection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="namespaceMR.html#a554ecd806e7de55aceb363940928dac0">VoxelBitSet</a> &amp; MR::ChangVoxelSelectionAction::selection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga54f4bbe409819b2a781e9d559f22298e" name="ga54f4bbe409819b2a781e9d559f22298e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga54f4bbe409819b2a781e9d559f22298e">&#9670;&nbsp;</a></span>setObjectDirty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void MR::ChangVoxelSelectionAction::setObjectDirty </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="group__HistoryGroup.html#ga2bc62e359f5e804a60171abdd7939bd7">Obj</a> &gt; &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>empty because set dirty is inside selectFaces </p>
 
 </div>
 </div>

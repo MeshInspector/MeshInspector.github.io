@@ -58,11 +58,12 @@ var searchData=
   ['updatesolver_55',['updateSolver',['../classMR_1_1Laplacian.html#a3e7bb340acaa3ef81fe7ed9f5eaaf226',1,'MR::Laplacian']]],
   ['updatetransparencytexturessize_56',['updateTransparencyTexturesSize',['../classMR_1_1AlphaSortGL.html#aab9cdfaf33634bcf9bae0eec5a82ebb9',1,'MR::AlphaSortGL']]],
   ['updatevertpairs_57',['updateVertPairs',['../classMR_1_1MeshICP.html#aff911d6d53f8e44963f067e7c8ae376e',1,'MR::MeshICP']]],
-  ['usecurvature_58',['useCurvature',['../structMR_1_1RemeshSettings.html#a58fc77c6b836083eab39f95b271080e8',1,'MR::RemeshSettings::useCurvature()'],['../structMR_1_1SubdivideSettings.html#ae427cb9cf0998a6a40ac2e3904a27c4d',1,'MR::SubdivideSettings::useCurvature()'],['../structMR_1_1PolylineSubdivideSettings.html#abaf36082a394e79118a87b09054964e3',1,'MR::PolylineSubdivideSettings::useCurvature()']]],
-  ['usedistancelimits_59',['useDistanceLimits',['../structMR_1_1MeshToDistanceMapParams.html#ace32ee073907bc00f51a76ba214f6d3c',1,'MR::MeshToDistanceMapParams']]],
-  ['user_60',['User',['../classMR_1_1ColorTheme.html#ad14d75ef685e439c80487ba1d4c41ecaa8f9bfe9d1345237cb3b2b205864da075',1,'MR::ColorTheme']]],
-  ['utf8string_61',['utf8string',['../group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d',1,'MR']]],
-  ['utf8towide_62',['utf8ToWide',['../group__BasicGroup.html#ga543d43a804760961ac67ad3689330c1d',1,'MR']]],
-  ['uvcoord_63',['UVCoord',['../structMR_1_1UVCoord.html',1,'MR']]],
-  ['uvcoordinates_5f_64',['uvCoordinates_',['../classMR_1_1VisualObject.html#a458d4860efbd07424863c743f8f0774f',1,'MR::VisualObject']]]
+  ['useaabbtree_58',['UseAABBTree',['../namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeff',1,'MR']]],
+  ['usecurvature_59',['useCurvature',['../structMR_1_1RemeshSettings.html#a58fc77c6b836083eab39f95b271080e8',1,'MR::RemeshSettings::useCurvature()'],['../structMR_1_1SubdivideSettings.html#ae427cb9cf0998a6a40ac2e3904a27c4d',1,'MR::SubdivideSettings::useCurvature()'],['../structMR_1_1PolylineSubdivideSettings.html#abaf36082a394e79118a87b09054964e3',1,'MR::PolylineSubdivideSettings::useCurvature()']]],
+  ['usedistancelimits_60',['useDistanceLimits',['../structMR_1_1MeshToDistanceMapParams.html#ace32ee073907bc00f51a76ba214f6d3c',1,'MR::MeshToDistanceMapParams']]],
+  ['user_61',['User',['../classMR_1_1ColorTheme.html#ad14d75ef685e439c80487ba1d4c41ecaa8f9bfe9d1345237cb3b2b205864da075',1,'MR::ColorTheme']]],
+  ['utf8string_62',['utf8string',['../group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d',1,'MR']]],
+  ['utf8towide_63',['utf8ToWide',['../group__BasicGroup.html#ga543d43a804760961ac67ad3689330c1d',1,'MR']]],
+  ['uvcoord_64',['UVCoord',['../structMR_1_1UVCoord.html',1,'MR']]],
+  ['uvcoordinates_5f_65',['uvCoordinates_',['../classMR_1_1VisualObject.html#a458d4860efbd07424863c743f8f0774f',1,'MR::VisualObject']]]
 ];

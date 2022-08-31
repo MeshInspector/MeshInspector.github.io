@@ -103,6 +103,7 @@ $(document).ready(function(){initNavTree('MRFileDialog_8h.html',''); initResizab
 <div class="textblock"><code>#include &quot;exports.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRIOFilters_8h_source.html">MRMesh/MRIOFilters.h</a>&quot;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
 </div>
 <p><a href="MRFileDialog_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -120,14 +121,20 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a0a4bcce4daa4d3b3423c31dff3a881bb"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0a4bcce4daa4d3b3423c31dff3a881bb">MR::openFileDialog</a> (const FileParameters &amp;params={})</td></tr>
 <tr class="separator:a0a4bcce4daa4d3b3423c31dff3a881bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cb1fd46b50301553853ea480cee32b3"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5cb1fd46b50301553853ea480cee32b3">MR::openFileDialogAsync</a> (std::function&lt; void(const std::filesystem::path &amp;)&gt; callback, const FileParameters &amp;params={})</td></tr>
+<tr class="separator:a5cb1fd46b50301553853ea480cee32b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fc3a0fb211326213beb41fb1ecd8d71"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::vector&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a9fc3a0fb211326213beb41fb1ecd8d71">MR::openFilesDialog</a> (const FileParameters &amp;params={})</td></tr>
 <tr class="separator:a9fc3a0fb211326213beb41fb1ecd8d71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3654bd75dee95f4fbb08dcb1e75af8da"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3654bd75dee95f4fbb08dcb1e75af8da">MR::openFilesDialogAsync</a> (std::function&lt; void(const std::vector&lt; std::filesystem::path &gt; &amp;)&gt; callback, const FileParameters &amp;params={})</td></tr>
+<tr class="separator:a3654bd75dee95f4fbb08dcb1e75af8da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8614fe4e6c04bcdc38ea5cfdf301743a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8614fe4e6c04bcdc38ea5cfdf301743a">MR::openFolderDialog</a> (std::filesystem::path baseFolder={})</td></tr>
 <tr class="separator:a8614fe4e6c04bcdc38ea5cfdf301743a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d9e3b8996c4a924319accda1afc4afe"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::vector&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0d9e3b8996c4a924319accda1afc4afe">MR::openFoldersDialog</a> (std::filesystem::path baseFolder={})</td></tr>
 <tr class="separator:a0d9e3b8996c4a924319accda1afc4afe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5840a11e5e60139f9bbbf678072379e2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5840a11e5e60139f9bbbf678072379e2">MR::saveFileDialog</a> (const FileParameters &amp;params={})</td></tr>
 <tr class="separator:a5840a11e5e60139f9bbbf678072379e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9296b50297d1b2d93a8f2f08c495eef"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa9296b50297d1b2d93a8f2f08c495eef">MR::saveFileDialogAsync</a> (std::function&lt; void(const std::filesystem::path &amp;)&gt; callback, const FileParameters &amp;params={})</td></tr>
+<tr class="separator:aa9296b50297d1b2d93a8f2f08c495eef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

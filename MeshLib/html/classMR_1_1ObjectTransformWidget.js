@@ -31,6 +31,7 @@ var classMR_1_1ObjectTransformWidget =
     [ "getWidth", "classMR_1_1ObjectTransformWidget.html#ac59f75362d19a6f37e048670b08a80c8", null ],
     [ "reset", "classMR_1_1ObjectTransformWidget.html#ac815cb12bfdb99a8a650143d34de17ad", null ],
     [ "setAddXfCallback", "classMR_1_1ObjectTransformWidget.html#a3134eccba5998667c2b96764ceb6d88f", null ],
+    [ "setApproveXfCallback", "classMR_1_1ObjectTransformWidget.html#af009bd74e0f49b4a2efc1ddcf659e58a", null ],
     [ "setAxisTransformMode", "classMR_1_1ObjectTransformWidget.html#aec0ff434beabde629460e566c23beb5c", null ],
     [ "setControlsXf", "classMR_1_1ObjectTransformWidget.html#ad6f27885426788f59bd6cf608407d23c", null ],
     [ "setPickThrough", "classMR_1_1ObjectTransformWidget.html#affacee843dc6b1eda7e3692d42d74f75", null ],

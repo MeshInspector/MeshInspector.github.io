@@ -35,6 +35,7 @@ var structMR_1_1Mesh =
     [ "findCreaseEdges", "structMR_1_1Mesh.html#a3597555fee6f4964fe1689b0643f7f83", null ],
     [ "findSpikeVertices", "structMR_1_1Mesh.html#a08e627f8c827dbc1bc085e4a0ad1dd89", null ],
     [ "getAABBTree", "structMR_1_1Mesh.html#a1684c253364cffbe817aebd50bdf711f", null ],
+    [ "getAABBTreeNotCreate", "structMR_1_1Mesh.html#a3a4be0475ee77042c23f150bf522aae7", null ],
     [ "getBoundingBox", "structMR_1_1Mesh.html#a6a9114dc0640fc079b18e83625c3464a", null ],
     [ "getClosestEdge", "structMR_1_1Mesh.html#a1b6db3be66aadef6658a7692c9181713", null ],
     [ "getClosestVertex", "structMR_1_1Mesh.html#a4fe5788ff7927b5a1b5f70b157353ab6", null ],

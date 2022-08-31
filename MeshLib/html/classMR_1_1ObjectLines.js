@@ -6,6 +6,7 @@ var classMR_1_1ObjectLines =
     [ "ObjectLines", "classMR_1_1ObjectLines.html#a5fdb9ba748cb7e2c3d3a791362c88fa9", null ],
     [ "ObjectLines", "classMR_1_1ObjectLines.html#a76283134defbe29ceb9bd6a1ab0c62ba", null ],
     [ "clone", "classMR_1_1ObjectLines.html#ada224fb3ab391e048a38ca259d333c09", null ],
+    [ "getClassName", "classMR_1_1ObjectLines.html#ac7792895b65e5aa19f751b31507a32c3", null ],
     [ "getInfoLines", "classMR_1_1ObjectLines.html#aef5e76ee8e7d04576faa2912fc3de4d0", null ],
     [ "operator=", "classMR_1_1ObjectLines.html#ae26c6b747a929751fcc5ad90b70b9d66", null ],
     [ "serializeFields_", "classMR_1_1ObjectLines.html#ada9a662dc02f094a109afa99afda0e43", null ],

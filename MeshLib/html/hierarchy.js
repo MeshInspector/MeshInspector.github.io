@@ -22,12 +22,14 @@ var hierarchy =
       [ "MR::ImmediateGL::TriRenderParams", "structMR_1_1ImmediateGL_1_1TriRenderParams.html", null ],
       [ "MR::ViewportGL::RenderParams", "structMR_1_1ViewportGL_1_1RenderParams.html", null ]
     ] ],
+    [ "MR::BindVertexAttribArraySettings", "structMR_1_1BindVertexAttribArraySettings.html", null ],
     [ "MR::BooleanResult", "structMR_1_1BooleanResult.html", null ],
     [ "MR::BooleanResultMapper", "structMR_1_1BooleanResultMapper.html", null ],
     [ "MR::Box< V >", "structMR_1_1Box.html", null ],
     [ "MR::Box< float >", "structMR_1_1Box.html", null ],
     [ "MR::Box< int >", "structMR_1_1Box.html", null ],
     [ "MR::BoxedLeaf< T >", "structMR_1_1BoxedLeaf.html", null ],
+    [ "MR::Buffer< T >", "classMR_1_1Buffer.html", null ],
     [ "MR::MeshBuilder::BuildSettings", "structMR_1_1MeshBuilder_1_1BuildSettings.html", null ],
     [ "MR::RibbonButtonDrawer::ButtonItemWidth", "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html", null ],
     [ "MR::Color", "structMR_1_1Color.html", null ],
@@ -39,20 +41,37 @@ var hierarchy =
       [ "MR::MultiListener< PreDrawListener, DrawListener, InterruptCloseListener >", "structMR_1_1MultiListener.html", [
         [ "MR::DemoPlugin", "classMR_1_1DemoPlugin.html", null ]
       ] ],
+      [ "MR::MultiListener< Connectables... >", "structMR_1_1MultiListener.html", [
+        [ "MR::StateListenerPlugin< MouseDownListener, MouseMoveListener, MouseUpListener >", "classMR_1_1StateListenerPlugin.html", [
+          [ "MR::MoveObjectByMouse", "classMR_1_1MoveObjectByMouse.html", null ]
+        ] ],
+        [ "MR::StateListenerPlugin< MouseDownListener, MouseUpListener, MouseMoveListener >", "classMR_1_1StateListenerPlugin.html", [
+          [ "MR::SelectObjectByClick", "classMR_1_1SelectObjectByClick.html", null ]
+        ] ],
+        [ "MR::StateListenerPlugin< Connectables >", "classMR_1_1StateListenerPlugin.html", [
+          [ "MR::AddCustomThemePlugin", "classMR_1_1AddCustomThemePlugin.html", null ],
+          [ "MR::CameraOrientation", "classMR_1_1CameraOrientation.html", null ],
+          [ "MR::OpenRawVoxelsPlugin", "classMR_1_1OpenRawVoxelsPlugin.html", null ],
+          [ "MR::ViewerSettingsPlugin", "classMR_1_1ViewerSettingsPlugin.html", null ]
+        ] ]
+      ] ],
       [ "MR::MultiListener< MouseDownListener, MouseMoveListener, MouseUpListener, PreDrawListener, DrawListener >", "structMR_1_1MultiListener.html", [
         [ "MR::ObjectTransformWidget", "classMR_1_1ObjectTransformWidget.html", null ]
       ] ],
       [ "MR::MultiListener< LoadListener, DragDropListener >", "structMR_1_1MultiListener.html", [
         [ "MR::Open", "classMR_1_1Open.html", null ]
       ] ],
+      [ "MR::MultiListener< DragDropListener >", "structMR_1_1MultiListener.html", [
+        [ "MR::OpenFilesMenuItem", "classMR_1_1OpenFilesMenuItem.html", null ]
+      ] ],
+      [ "MR::MultiListener< PreDrawListener >", "structMR_1_1MultiListener.html", [
+        [ "MR::ResetSceneMenuItem", "classMR_1_1ResetSceneMenuItem.html", null ]
+      ] ],
       [ "MR::MultiListener< SaveListener >", "structMR_1_1MultiListener.html", [
         [ "MR::Save", "classMR_1_1Save.html", null ]
       ] ],
       [ "MR::MultiListener< PreDrawListener, InterruptCloseListener >", "structMR_1_1MultiListener.html", [
         [ "MR::SaveOnClosePlugin", "classMR_1_1SaveOnClosePlugin.html", null ]
-      ] ],
-      [ "MR::MultiListener< Connectables... >", "structMR_1_1MultiListener.html", [
-        [ "MR::StateListenerPlugin< Connectables >", "classMR_1_1StateListenerPlugin.html", null ]
       ] ],
       [ "MR::MultiListener< MouseDownListener, MouseMoveListener, MouseUpListener >", "structMR_1_1MultiListener.html", [
         [ "MR::SurfacePointWidget", "classMR_1_1SurfacePointWidget.html", null ]
@@ -87,10 +106,10 @@ var hierarchy =
     [ "boost::dynamic_bitset", null, [
       [ "MR::BitSet", "classMR_1_1BitSet.html", [
         [ "MR::TaggedBitSet< FaceTag >", "classMR_1_1TaggedBitSet.html", null ],
+        [ "MR::TaggedBitSet< VoxelTag >", "classMR_1_1TaggedBitSet.html", null ],
         [ "MR::TaggedBitSet< UndirectedEdgeTag >", "classMR_1_1TaggedBitSet.html", null ],
         [ "MR::TaggedBitSet< VertTag >", "classMR_1_1TaggedBitSet.html", null ],
         [ "MR::TaggedBitSet< Tag >", "classMR_1_1TaggedBitSet.html", null ],
-        [ "MR::TaggedBitSet< VoxelTag >", "classMR_1_1TaggedBitSet.html", null ],
         [ "MR::TaggedBitSet< T >", "classMR_1_1TaggedBitSet.html", null ]
       ] ]
     ] ],
@@ -112,11 +131,14 @@ var hierarchy =
       [ "MR::OpenVdbFloatGrid", "structMR_1_1OpenVdbFloatGrid.html", null ]
     ] ],
     [ "MR::FreeFormDeformer", "classMR_1_1FreeFormDeformer.html", null ],
+    [ "MR::GlBuffer", "classMR_1_1GlBuffer.html", null ],
+    [ "MR::GLStaticHolder", "classMR_1_1GLStaticHolder.html", null ],
     [ "MR::HashToVectorMappingConverter", "classMR_1_1HashToVectorMappingConverter.html", null ],
     [ "MR::Heap< T, I, P >", "classMR_1_1Heap.html", null ],
     [ "MR::Histogram", "classMR_1_1Histogram.html", null ],
     [ "MR::Historian< HistoryActionType >", "classMR_1_1Historian.html", null ],
     [ "MR::HistoryAction", "classMR_1_1HistoryAction.html", [
+      [ "MR::ChangVoxelSelectionAction", "classMR_1_1ChangVoxelSelectionAction.html", null ],
       [ "MR::ChangeActiveBoxAction", "classMR_1_1ChangeActiveBoxAction.html", null ],
       [ "MR::ChangeIsoAction", "classMR_1_1ChangeIsoAction.html", null ],
       [ "MR::ChangeLabelAction", "classMR_1_1ChangeLabelAction.html", null ],
@@ -188,6 +210,8 @@ var hierarchy =
     [ "MR::IPluginCloseCheck", "classMR_1_1IPluginCloseCheck.html", [
       [ "MR::PluginCloseOnSelectedObjectRemove", "classMR_1_1PluginCloseOnSelectedObjectRemove.html", null ],
       [ "MR::StateBasePlugin", "classMR_1_1StateBasePlugin.html", [
+        [ "MR::StateListenerPlugin< MouseDownListener, MouseMoveListener, MouseUpListener >", "classMR_1_1StateListenerPlugin.html", null ],
+        [ "MR::StateListenerPlugin< MouseDownListener, MouseUpListener, MouseMoveListener >", "classMR_1_1StateListenerPlugin.html", null ],
         [ "MR::StateListenerPlugin< Connectables >", "classMR_1_1StateListenerPlugin.html", null ]
       ] ]
     ] ],
@@ -198,9 +222,44 @@ var hierarchy =
       [ "MR::RenderPointsObject", "classMR_1_1RenderPointsObject.html", null ]
     ] ],
     [ "MR::ISceneStateCheck", "classMR_1_1ISceneStateCheck.html", [
+      [ "MR::SceneStateAtLeastCheck< 1, Object >", "classMR_1_1SceneStateAtLeastCheck.html", [
+        [ "MR::RibbonSceneRemoveSelected", "classMR_1_1RibbonSceneRemoveSelected.html", null ],
+        [ "MR::RibbonSceneUnselectAll", "classMR_1_1RibbonSceneUnselectAll.html", null ],
+        [ "MR::SaveSelectedMenuItem", "classMR_1_1SaveSelectedMenuItem.html", null ]
+      ] ],
+      [ "MR::SceneStateExactCheck< 1, Object >", "classMR_1_1SceneStateExactCheck.html", [
+        [ "MR::RibbonSceneRename", "classMR_1_1RibbonSceneRename.html", null ]
+      ] ],
+      [ "MR::SceneStateExactCheck< 1, VisualObject >", "classMR_1_1SceneStateExactCheck.html", [
+        [ "MR::SaveObjectMenuItem", "classMR_1_1SaveObjectMenuItem.html", null ]
+      ] ],
       [ "MR::RibbonMenuItem", "classMR_1_1RibbonMenuItem.html", [
+        [ "MR::CaptureScreenshotMenuItem", "classMR_1_1CaptureScreenshotMenuItem.html", null ],
+        [ "MR::CaptureScreenshotToClipBoardMenuItem", "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html", null ],
+        [ "MR::CaptureUIScreenshotMenuItem", "classMR_1_1CaptureUIScreenshotMenuItem.html", null ],
+        [ "MR::FitDataMenuItem", "classMR_1_1FitDataMenuItem.html", null ],
+        [ "MR::FitSelectedObjectsMenuItem", "classMR_1_1FitSelectedObjectsMenuItem.html", null ],
+        [ "MR::FitSelectedPrimitivesMenuItem", "classMR_1_1FitSelectedPrimitivesMenuItem.html", null ],
         [ "MR::LambdaRibbonItem", "classMR_1_1LambdaRibbonItem.html", null ],
         [ "MR::MeshModifier", "classMR_1_1MeshModifier.html", null ],
+        [ "MR::OpenDICOMsMenuItem", "classMR_1_1OpenDICOMsMenuItem.html", null ],
+        [ "MR::OpenDirectoryMenuItem", "classMR_1_1OpenDirectoryMenuItem.html", null ],
+        [ "MR::OpenFilesMenuItem", "classMR_1_1OpenFilesMenuItem.html", null ],
+        [ "MR::ResetSceneMenuItem", "classMR_1_1ResetSceneMenuItem.html", null ],
+        [ "MR::RibbonSceneRemoveSelected", "classMR_1_1RibbonSceneRemoveSelected.html", null ],
+        [ "MR::RibbonSceneRename", "classMR_1_1RibbonSceneRename.html", null ],
+        [ "MR::RibbonSceneSelectAll", "classMR_1_1RibbonSceneSelectAll.html", null ],
+        [ "MR::RibbonSceneShowOnlyNext", "classMR_1_1RibbonSceneShowOnlyNext.html", null ],
+        [ "MR::RibbonSceneShowOnlyPrev", "classMR_1_1RibbonSceneShowOnlyPrev.html", null ],
+        [ "MR::RibbonSceneSortByName", "classMR_1_1RibbonSceneSortByName.html", null ],
+        [ "MR::RibbonSceneUnselectAll", "classMR_1_1RibbonSceneUnselectAll.html", null ],
+        [ "MR::SaveObjectMenuItem", "classMR_1_1SaveObjectMenuItem.html", null ],
+        [ "MR::SaveSceneAsMenuItem", "classMR_1_1SaveSceneAsMenuItem.html", [
+          [ "MR::SaveSceneMenuItem", "classMR_1_1SaveSceneMenuItem.html", null ]
+        ] ],
+        [ "MR::SaveSelectedMenuItem", "classMR_1_1SaveSelectedMenuItem.html", null ],
+        [ "MR::SetViewPresetMenuItem", "classMR_1_1SetViewPresetMenuItem.html", null ],
+        [ "MR::SetViewportConfigPresetMenuItem", "classMR_1_1SetViewportConfigPresetMenuItem.html", null ],
         [ "MR::StateBasePlugin", "classMR_1_1StateBasePlugin.html", null ]
       ] ],
       [ "MR::SceneStateAtLeastCheck< N, ObjectT, typename >", "classMR_1_1SceneStateAtLeastCheck.html", null ],
@@ -224,6 +283,7 @@ var hierarchy =
     [ "MR::Matrix2< T >", "structMR_1_1Matrix2.html", null ],
     [ "MR::Matrix3< T >", "structMR_1_1Matrix3.html", null ],
     [ "MR::Matrix3< double >", "structMR_1_1Matrix3.html", null ],
+    [ "MR::Matrix3< float >", "structMR_1_1Matrix3.html", null ],
     [ "MR::Matrix4< T >", "structMR_1_1Matrix4.html", null ],
     [ "MR::Matrix4< float >", "structMR_1_1Matrix4.html", null ],
     [ "MR::MenuItemCaptionSize", "structMR_1_1MenuItemCaptionSize.html", null ],
@@ -355,6 +415,8 @@ var hierarchy =
       ] ]
     ] ],
     [ "MR::RemeshSettings", "structMR_1_1RemeshSettings.html", null ],
+    [ "MR::RenderBufferRef< T >", "classMR_1_1RenderBufferRef.html", null ],
+    [ "MR::RenderObjectBuffer", "classMR_1_1RenderObjectBuffer.html", null ],
     [ "MR::RibbonButtonDrawer", "classMR_1_1RibbonButtonDrawer.html", null ],
     [ "MR::RibbonFontManager", "classMR_1_1RibbonFontManager.html", null ],
     [ "MR::RibbonIcons", "classMR_1_1RibbonIcons.html", null ],
@@ -371,7 +433,6 @@ var hierarchy =
     [ "MR::SegmentSegmentIntersectResult", "structMR_1_1SegmentSegmentIntersectResult.html", null ],
     [ "MR::SelectScreenLasso", "classMR_1_1SelectScreenLasso.html", null ],
     [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", null ],
-    [ "MR::ShadersHolder", "classMR_1_1ShadersHolder.html", null ],
     [ "MR::ShortcutManager::ShortcutCommand", "structMR_1_1ShortcutManager_1_1ShortcutCommand.html", null ],
     [ "MR::ShortcutManager::ShortcutKey", "structMR_1_1ShortcutManager_1_1ShortcutKey.html", null ],
     [ "MR::ShortcutManager", "classMR_1_1ShortcutManager.html", null ],
@@ -443,7 +504,6 @@ var hierarchy =
     [ "MR::Vector< MR::Vector3, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< Node, NodeId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< ThreeVertIds, FaceId >", "classMR_1_1Vector.html", null ],
-    [ "MR::Vector< TriangleCornerNormals, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< V, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< Vector3f, FaceId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< Vector3f, VertId >", "classMR_1_1Vector.html", null ],

@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['labels_0',['Labels',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aab77a9984caf569880644435a85b17f0b',1,'MR::SceneColors::Labels()'],['../structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0a3b012823a9cc50e12b9060c0dab3f27d',1,'MR::VisualizeMaskType::Labels()'],['../classMR_1_1ShadersHolder.html#af79d4956571eca0d639217ad9ec89767ae9b16c5e173b7950321df7b6779a24a6',1,'MR::ShadersHolder::Labels()']]],
+  ['labels_0',['Labels',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aab77a9984caf569880644435a85b17f0b',1,'MR::SceneColors::Labels()'],['../structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0a3b012823a9cc50e12b9060c0dab3f27d',1,'MR::VisualizeMaskType::Labels()'],['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a5bdf19b16004802eb4e3e8cd2332f110',1,'MR::GLStaticHolder::Labels()']]],
   ['labelvisualizepropscount_1',['LabelVisualizePropsCount',['../structMR_1_1LabelVisualizePropertyType.html#a3dfb248be461d6b83251c1e8a3a36d2cab053f286024b466640ca85a7fabcb71a',1,'MR::LabelVisualizePropertyType']]],
   ['leaderline_2',['LeaderLine',['../structMR_1_1LabelVisualizePropertyType.html#a3dfb248be461d6b83251c1e8a3a36d2caf49413bc521942321cfa255c15a9c0b4',1,'MR::LabelVisualizePropertyType']]],
-  ['left_3',['Left',['../classMR_1_1Pdf.html#aaaf62b6d295f5aa4aae7734a8d801cbea945d5e233cf7d6240f6b783b36a374ff',1,'MR::Pdf::Left()'],['../namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62da945d5e233cf7d6240f6b783b36a374ff',1,'MR::Left()']]],
+  ['left_3',['Left',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca945d5e233cf7d6240f6b783b36a374ff',1,'MR::SetViewPresetMenuItem::Left()'],['../classMR_1_1Pdf.html#aaaf62b6d295f5aa4aae7734a8d801cbea945d5e233cf7d6240f6b783b36a374ff',1,'MR::Pdf::Left()'],['../namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62da945d5e233cf7d6240f6b783b36a374ff',1,'MR::Left()']]],
   ['leftleft_4',['LeftLeft',['../group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79ae270ac72e33fbdf09168012bc0852677',1,'MR']]],
   ['leftright_5',['LeftRight',['../group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a203407e92909f81d61b55175a37980cf',1,'MR']]],
   ['light_6',['Light',['../classMR_1_1ColorTheme.html#abbecc6afa53db91ada45757b845b5514a9914a0ce04a7b7b6a8e39bec55064b82',1,'MR::ColorTheme']]],

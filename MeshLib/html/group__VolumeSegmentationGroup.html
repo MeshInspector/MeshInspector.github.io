@@ -114,6 +114,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:gab899b826b7895effc493e14eb3d27a86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VolumeSegmentationGroup.html#gab899b826b7895effc493e14eb3d27a86">MR::meshFromVoxelsMask</a> (const <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &amp;volume, const <a class="el" href="namespaceMR.html#a554ecd806e7de55aceb363940928dac0">VoxelBitSet</a> &amp;mask)</td></tr>
+<tr class="memdesc:gab899b826b7895effc493e14eb3d27a86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates mesh from voxels mask.  <a href="group__VolumeSegmentationGroup.html#gab899b826b7895effc493e14eb3d27a86">More...</a><br /></td></tr>
+<tr class="separator:gab899b826b7895effc493e14eb3d27a86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae66d4204eadd90d95a5ea795a2029dbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VolumeSegmentationGroup.html#gae66d4204eadd90d95a5ea795a2029dbc">MR::segmentVolume</a> (const <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &amp;volume, const std::vector&lt; std::pair&lt; <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>, <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &gt; &gt; &amp;pairs, const <a class="el" href="structMR_1_1VolumeSegmentationParameters.html">VolumeSegmentationParameters</a> &amp;params=<a class="el" href="structMR_1_1VolumeSegmentationParameters.html">VolumeSegmentationParameters</a>())</td></tr>
 <tr class="memdesc:gae66d4204eadd90d95a5ea795a2029dbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple segment volume.  <a href="group__VolumeSegmentationGroup.html#gae66d4204eadd90d95a5ea795a2029dbc">More...</a><br /></td></tr>
 <tr class="separator:gae66d4204eadd90d95a5ea795a2029dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -121,6 +124,42 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p >This chapter represents documentation about Volume (Voxel) Segmentation. </p>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="gab899b826b7895effc493e14eb3d27a86" name="gab899b826b7895effc493e14eb3d27a86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab899b826b7895effc493e14eb3d27a86">&#9670;&nbsp;</a></span>meshFromVoxelsMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string &gt; MR::meshFromVoxelsMask </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &amp;&#160;</td>
+          <td class="paramname"><em>volume</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a554ecd806e7de55aceb363940928dac0">VoxelBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>mask</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates mesh from voxels mask. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mask</td><td>in space of whole volume density inside mask is expected to be higher then outside </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="gae66d4204eadd90d95a5ea795a2029dbc" name="gae66d4204eadd90d95a5ea795a2029dbc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gae66d4204eadd90d95a5ea795a2029dbc">&#9670;&nbsp;</a></span>segmentVolume()</h2>
 

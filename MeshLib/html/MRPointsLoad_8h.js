@@ -10,7 +10,5 @@ var MRPointsLoad_8h =
     [ "fromObj", "MRPointsLoad_8h.html#gaa5a6c97fdf30da2d8b2997b052a0657e", null ],
     [ "fromPly", "MRPointsLoad_8h.html#gaf85111e97ab8a080b220efe4a9f6b0b6", null ],
     [ "fromPly", "MRPointsLoad_8h.html#gafeb80f2b53906e5cef7d5f4e7250a0ea", null ],
-    [ "fromPts", "MRPointsLoad_8h.html#ga75298b10d81daea44fb516492791e822", null ],
-    [ "fromPts", "MRPointsLoad_8h.html#ga637ef1d9260079d2365b8bcde31b9cce", null ],
     [ "Filters", "MRPointsLoad_8h.html#ga78bba5f59da26b22b8f18e15440cfccd", null ]
 ];

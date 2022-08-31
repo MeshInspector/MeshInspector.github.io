@@ -27,8 +27,6 @@ var group__IOGroup =
     [ "MR::PointsLoad::fromObj", "group__IOGroup.html#gaa5a6c97fdf30da2d8b2997b052a0657e", null ],
     [ "MR::PointsLoad::fromPly", "group__IOGroup.html#gaf85111e97ab8a080b220efe4a9f6b0b6", null ],
     [ "MR::PointsLoad::fromPly", "group__IOGroup.html#gafeb80f2b53906e5cef7d5f4e7250a0ea", null ],
-    [ "MR::PointsLoad::fromPts", "group__IOGroup.html#ga75298b10d81daea44fb516492791e822", null ],
-    [ "MR::PointsLoad::fromPts", "group__IOGroup.html#ga637ef1d9260079d2365b8bcde31b9cce", null ],
     [ "MR::VoxelsSave::saveRAW", "group__IOGroup.html#ga07e15c317aa4520f6414d8aa01226c75", null ],
     [ "MR::PointsLoad::Filters", "group__IOGroup.html#ga78bba5f59da26b22b8f18e15440cfccd", null ],
     [ "MR::VoxelsSave::Filters", "group__IOGroup.html#gacac28aabd07c32301c3074201c91ec04", null ]

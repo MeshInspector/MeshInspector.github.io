@@ -7,6 +7,7 @@ var classMR_1_1ObjectPoints =
     [ "ObjectPoints", "classMR_1_1ObjectPoints.html#a565091fdf7ac04df64dcc926ecf74ffb", null ],
     [ "ObjectPoints", "classMR_1_1ObjectPoints.html#a5d13d0d83ed6829a3def6224dd5fd465", null ],
     [ "clone", "classMR_1_1ObjectPoints.html#ad267de3013f2004552a791899a4d2fb6", null ],
+    [ "getClassName", "classMR_1_1ObjectPoints.html#a9b538af544fb079b16e86b72414c4b2a", null ],
     [ "getInfoLines", "classMR_1_1ObjectPoints.html#a8a5af21a0ab52a2d7f2464ba3e3f8131", null ],
     [ "operator=", "classMR_1_1ObjectPoints.html#a5831e567d62ac9ac7959897b98ee75ae", null ],
     [ "serializeFields_", "classMR_1_1ObjectPoints.html#a6e93d56966cf8c7d956767173ee17eae", null ],

@@ -13,13 +13,14 @@ var searchData=
   ['invdir_10',['invDir',['../group__AABBTreeGroup.html#ga5e3f58e5a000086f4df8523da65c9b4f',1,'MR::IntersectionPrecomputes']]],
   ['invertnormals_5f_11',['invertNormals_',['../classMR_1_1VisualObject.html#af6cd63e72a721fbe39cdff002950bce4',1,'MR::VisualObject']]],
   ['isanimating_12',['isAnimating',['../structMR_1_1Viewer_1_1LaunchParams.html#a82398397e33cb7dae2f4ce837ff93774',1,'MR::Viewer::LaunchParams::isAnimating()'],['../classMR_1_1Viewer.html#a7ccea0f47c749b27fc3a4ab8dc91026c',1,'MR::Viewer::isAnimating()']]],
-  ['isedgeatrib_13',['isEdgeATriB',['../structMR_1_1VariableEdgeTri.html#aaf806bd6bbc163135641f8a5ca2a6f5f',1,'MR::VariableEdgeTri']]],
-  ['isenabled_5f_14',['isEnabled_',['../classMR_1_1StateBasePlugin.html#a239e7ea5887cf228c8ea6a7eef781a2c',1,'MR::StateBasePlugin']]],
-  ['isosurfacechangedsignal_15',['isoSurfaceChangedSignal',['../classMR_1_1ObjectVoxels.html#af857395916951ea4b3e9a111f194499b',1,'MR::ObjectVoxels']]],
-  ['isothera_16',['isOtherA',['../structMR_1_1SortIntersectionsData.html#a64cd77d679e163bbff985d79336ae2c4',1,'MR::SortIntersectionsData']]],
-  ['item_17',['item',['../structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b',1,'MR::RibbonMenu::DialogItemPtr::item()'],['../structMR_1_1MenuItemInfo.html#a926a6449190c31f77c5b88b8c236958e',1,'MR::MenuItemInfo::item()']]],
-  ['items_18',['items',['../structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1',1,'MR::RibbonSchema']]],
-  ['itemsize_19',['itemSize',['../structMR_1_1DrawButtonParams.html#ab8f3d59cb2dfd82cae6a79ab6746ee09',1,'MR::DrawButtonParams']]],
-  ['iterations_20',['iterations',['../structMR_1_1RelaxParams.html#af6f0f001e98c26c2b38d1d51b3f3ef1f',1,'MR::RelaxParams']]],
-  ['iterlimit_21',['iterLimit',['../structMR_1_1ICPProperties.html#a4b5daff61d36ce0e211995eee0f2507f',1,'MR::ICPProperties']]]
+  ['iscolor_13',['isColor',['../structMR_1_1BindVertexAttribArraySettings.html#ae47afc7641f6193b867cc7f5bb42f07d',1,'MR::BindVertexAttribArraySettings']]],
+  ['isedgeatrib_14',['isEdgeATriB',['../structMR_1_1VariableEdgeTri.html#aaf806bd6bbc163135641f8a5ca2a6f5f',1,'MR::VariableEdgeTri']]],
+  ['isenabled_5f_15',['isEnabled_',['../classMR_1_1StateBasePlugin.html#a239e7ea5887cf228c8ea6a7eef781a2c',1,'MR::StateBasePlugin']]],
+  ['isosurfacechangedsignal_16',['isoSurfaceChangedSignal',['../classMR_1_1ObjectVoxels.html#af857395916951ea4b3e9a111f194499b',1,'MR::ObjectVoxels']]],
+  ['isothera_17',['isOtherA',['../structMR_1_1SortIntersectionsData.html#a64cd77d679e163bbff985d79336ae2c4',1,'MR::SortIntersectionsData']]],
+  ['item_18',['item',['../structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b',1,'MR::RibbonMenu::DialogItemPtr::item()'],['../structMR_1_1MenuItemInfo.html#a926a6449190c31f77c5b88b8c236958e',1,'MR::MenuItemInfo::item()']]],
+  ['items_19',['items',['../structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1',1,'MR::RibbonSchema']]],
+  ['itemsize_20',['itemSize',['../structMR_1_1DrawButtonParams.html#ab8f3d59cb2dfd82cae6a79ab6746ee09',1,'MR::DrawButtonParams']]],
+  ['iterations_21',['iterations',['../structMR_1_1RelaxParams.html#af6f0f001e98c26c2b38d1d51b3f3ef1f',1,'MR::RelaxParams']]],
+  ['iterlimit_22',['iterLimit',['../structMR_1_1ICPProperties.html#a4b5daff61d36ce0e211995eee0f2507f',1,'MR::ICPProperties']]]
 ];

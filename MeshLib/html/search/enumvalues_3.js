@@ -34,9 +34,9 @@ var searchData=
   ['discrete_31',['Discrete',['../structMR_1_1MeshTexture.html#af1e3ecc1afaf1be483ef74f020eac23fa4984667940802dedc139aa7a430a6553',1,'MR::MeshTexture']]],
   ['distancemap_32',['DistanceMap',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37ae76139f4dbe2f91f14577bcccc1baf77',1,'MR']]],
   ['down_33',['Down',['../structMR_1_1Viewer_1_1MouseQueueEvent.html#a408c087cfb8bee1a4169184831ff53fba436a20a4bf902f70f83a802c0f5614a2',1,'MR::Viewer::MouseQueueEvent']]],
-  ['drawlines_34',['DrawLines',['../classMR_1_1ShadersHolder.html#af79d4956571eca0d639217ad9ec89767ac3fa45040be6182803c9890682bede75',1,'MR::ShadersHolder']]],
-  ['drawmesh_35',['DrawMesh',['../classMR_1_1ShadersHolder.html#af79d4956571eca0d639217ad9ec89767a8b03312c4fe829fcb78c1deb80453485',1,'MR::ShadersHolder']]],
-  ['drawpoints_36',['DrawPoints',['../classMR_1_1ShadersHolder.html#af79d4956571eca0d639217ad9ec89767a8da8e1c62e5a76fe0163d4d2dfa21018',1,'MR::ShadersHolder']]],
+  ['drawlines_34',['DrawLines',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748ae053c76994a82962daf6fe83c6cb7dfd',1,'MR::GLStaticHolder']]],
+  ['drawmesh_35',['DrawMesh',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748af88383910a618cd0170299f68ccffb08',1,'MR::GLStaticHolder']]],
+  ['drawpoints_36',['DrawPoints',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a728b308f6da64718dc5c89ca67715213',1,'MR::GLStaticHolder']]],
   ['drop_37',['Drop',['../structMR_1_1Viewer_1_1MouseQueueEvent.html#a408c087cfb8bee1a4169184831ff53fba99a96c59ae096b1dbab65f08f00a2f7e',1,'MR::Viewer::MouseQueueEvent']]],
   ['dynamic_38',['Dynamic',['../structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba971fd8cc345d8bd9f92e9f7d88fdf20c',1,'MR::Viewport::Parameters']]],
   ['dynamicstatic_39',['DynamicStatic',['../structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba5ca4f2430f49ee813f846bbcdc0e575e',1,'MR::Viewport::Parameters']]]

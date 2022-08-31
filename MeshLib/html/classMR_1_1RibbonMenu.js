@@ -6,6 +6,7 @@ var classMR_1_1RibbonMenu =
     [ "TabChangedSignal", "classMR_1_1RibbonMenu.html#ad03e656d4344c5a4266fa1ae56827d6c", null ],
     [ "RibbonMenu", "classMR_1_1RibbonMenu.html#aa34b69e6496e1988fcf4618bd5275b26", null ],
     [ "~RibbonMenu", "classMR_1_1RibbonMenu.html#a7cc4845440764fd04b7c8fad80ed8938", null ],
+    [ "addRibbonItemShortcut_", "classMR_1_1RibbonMenu.html#a5ebb48e953b4f88e69f713b28b0f7f21", null ],
     [ "drawActiveBlockingDialog_", "classMR_1_1RibbonMenu.html#a536aa66aca49a47e58d15a786e574cb9", null ],
     [ "drawActiveNonBlockingDialogs_", "classMR_1_1RibbonMenu.html#a2b8f24d719c5b2f849c6a2da6a8e6a05", null ],
     [ "drawBigButtonItem_", "classMR_1_1RibbonMenu.html#a67906df788caa39e03d62d6df651f050", null ],

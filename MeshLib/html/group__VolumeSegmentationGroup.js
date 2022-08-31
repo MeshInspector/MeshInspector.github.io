@@ -21,5 +21,6 @@ var group__VolumeSegmentationGroup =
       [ "segmentVolume", "classMR_1_1VolumeSegmenter.html#a24898941623ddbd2e37ec6cf3c3ca761", null ],
       [ "setSeeds", "classMR_1_1VolumeSegmenter.html#a5e2381048221676f7c2c5beadb063dc2", null ]
     ] ],
+    [ "MR::meshFromVoxelsMask", "group__VolumeSegmentationGroup.html#gab899b826b7895effc493e14eb3d27a86", null ],
     [ "MR::segmentVolume", "group__VolumeSegmentationGroup.html#gae66d4204eadd90d95a5ea795a2029dbc", null ]
 ];

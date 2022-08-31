@@ -6,7 +6,8 @@ var classMR_1_1Viewport =
     [ "FitMode", "classMR_1_1Viewport.html#a0e9d17d92737e700a33cdeff165b9384", [
       [ "Visible", "classMR_1_1Viewport.html#a0e9d17d92737e700a33cdeff165b9384aec24d78ce33048dc73a2b6b1a0690192", null ],
       [ "SelectedPrimitives", "classMR_1_1Viewport.html#a0e9d17d92737e700a33cdeff165b9384a5e6ec7d73c67853669ec7f19208bc4f3", null ],
-      [ "SelectedObjects", "classMR_1_1Viewport.html#a0e9d17d92737e700a33cdeff165b9384a59ebaac912e88dcadf4c1963af0724a1", null ]
+      [ "SelectedObjects", "classMR_1_1Viewport.html#a0e9d17d92737e700a33cdeff165b9384a59ebaac912e88dcadf4c1963af0724a1", null ],
+      [ "CustomObjectsList", "classMR_1_1Viewport.html#a0e9d17d92737e700a33cdeff165b9384ab217a711be13c7b44993261f88a6b070", null ]
     ] ],
     [ "Viewport", "classMR_1_1Viewport.html#adc0a625e7bd0d7fecf55699b470659ac", null ],
     [ "~Viewport", "classMR_1_1Viewport.html#a1d65bf318796ffdc96002b5d70d984a7", null ],
@@ -68,6 +69,7 @@ var classMR_1_1Viewport =
     [ "set_axes_pose", "classMR_1_1Viewport.html#a599b6c4606bee4526e8f64da89774d79", null ],
     [ "set_axes_size", "classMR_1_1Viewport.html#a123db8af0e9d3f12d4281a223c964344", null ],
     [ "setBackgroundColor", "classMR_1_1Viewport.html#add402fe6a91aa235f98db029c80be9b9", null ],
+    [ "setCameraPoint", "classMR_1_1Viewport.html#af2fe6abc9e300a389c2a303f836f20d5", null ],
     [ "setCameraTrackballAngle", "classMR_1_1Viewport.html#a7992f00d88f9468b7378bb264a6c7126", null ],
     [ "setCameraTranslation", "classMR_1_1Viewport.html#a359181a4adccaea790fc8d2ace945198", null ],
     [ "setCameraViewAngle", "classMR_1_1Viewport.html#a08e78306b6826a1e5a7cb961115406a2", null ],

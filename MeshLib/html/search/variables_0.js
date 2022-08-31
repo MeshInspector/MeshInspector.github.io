@@ -12,7 +12,7 @@ var searchData=
   ['activenonblockingitems_5f_9',['activeNonBlockingItems_',['../classMR_1_1RibbonMenu.html#acf628a7bb9081d2c4b3d3405e96e85b4',1,'MR::RibbonMenu']]],
   ['activeplane_10',['activePlane',['../structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a32932c55d7b00a55f64e819b5ec8d970',1,'MR::MarkedVoxelSlice::Parameters']]],
   ['activevoxel_11',['activeVoxel',['../structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a835e91b9fdac74516e50eb00d5a582f0',1,'MR::MarkedVoxelSlice::Parameters']]],
-  ['adaptivity_12',['adaptivity',['../structMR_1_1OffsetParameters.html#a1c71a04707962a58d595fa7da22322d7',1,'MR::OffsetParameters::adaptivity()'],['../structMR_1_1MeshVoxelsConverter.html#adaab280c372f3b9aa33c9a6087199957',1,'MR::MeshVoxelsConverter::adaptivity()']]],
+  ['adaptivity_12',['adaptivity',['../structMR_1_1MeshVoxelsConverter.html#adaab280c372f3b9aa33c9a6087199957',1,'MR::MeshVoxelsConverter::adaptivity()'],['../structMR_1_1OffsetParameters.html#a1c71a04707962a58d595fa7da22322d7',1,'MR::OffsetParameters::adaptivity()']]],
   ['additionalwidth_13',['additionalWidth',['../structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a9048532b67f8ae6a79ec42cf2a196ddf',1,'MR::RibbonButtonDrawer::ButtonItemWidth']]],
   ['adjustcollapse_14',['adjustCollapse',['../structMR_1_1DecimateSettings.html#a21d7c6d9122286b4edf7bd531d38b72b',1,'MR::DecimateSettings::adjustCollapse()'],['../structMR_1_1DecimateParallelSettings.html#af75f33318f6dbbd19e4e3c0005feaa39',1,'MR::DecimateParallelSettings::adjustCollapse()'],['../structMR_1_1DecimatePolylineSettings.html#ad58496f8458d8d5a517ba34926cb0c61',1,'MR::DecimatePolylineSettings::adjustCollapse()']]],
   ['aface_15',['aFace',['../structMR_1_1FaceFace.html#aec8e3edd8159870a77814db603ba8c5d',1,'MR::FaceFace']]],
@@ -23,6 +23,8 @@ var searchData=
   ['animationmaxfps_20',['animationMaxFps',['../structMR_1_1Viewer_1_1LaunchParams.html#a7d9e66d45e454491fc4d4c95a35035d5',1,'MR::Viewer::LaunchParams::animationMaxFps()'],['../classMR_1_1Viewer.html#a1747b85f1a561ad143a87af606bf91ac',1,'MR::Viewer::animationMaxFps()']]],
   ['argc_21',['argc',['../structMR_1_1Viewer_1_1LaunchParams.html#a5a86591917d9bf8a882ecadbcf95487f',1,'MR::Viewer::LaunchParams']]],
   ['argv_22',['argv',['../structMR_1_1Viewer_1_1LaunchParams.html#a3c91f9982d39c99a507bb69eb2b9a8d0',1,'MR::Viewer::LaunchParams']]],
-  ['aundiredge_23',['aUndirEdge',['../structMR_1_1UndirectedEdgeUndirectedEdge.html#aaf55dde37dfa59f981e1bc41ee3ac74a',1,'MR::UndirectedEdgeUndirectedEdge']]],
-  ['avgnumneighbours_24',['avgNumNeighbours',['../structMR_1_1TriangulationParameters.html#aa4ccfb848c69c38a9307eae1232adcbe',1,'MR::TriangulationParameters']]]
+  ['arr_23',['arr',['../structMR_1_1BindVertexAttribArraySettings.html#a1e06765a94d24f632c968c4d04f8280a',1,'MR::BindVertexAttribArraySettings']]],
+  ['arrsize_24',['arrSize',['../structMR_1_1BindVertexAttribArraySettings.html#a65f898d899c6fff2f308bfd6fd24a129',1,'MR::BindVertexAttribArraySettings']]],
+  ['aundiredge_25',['aUndirEdge',['../structMR_1_1UndirectedEdgeUndirectedEdge.html#aaf55dde37dfa59f981e1bc41ee3ac74a',1,'MR::UndirectedEdgeUndirectedEdge']]],
+  ['avgnumneighbours_26',['avgNumNeighbours',['../structMR_1_1TriangulationParameters.html#aa4ccfb848c69c38a9307eae1232adcbe',1,'MR::TriangulationParameters']]]
 ];

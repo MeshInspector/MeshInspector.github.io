@@ -130,6 +130,14 @@ var group__HistoryGroup =
       [ "heapBytes", "classMR_1_1ChangeSurfaceAction.html#a8d95a8625e6cbeb9f194a629de34610d", null ],
       [ "name", "classMR_1_1ChangeSurfaceAction.html#a10e342f28635a448b68e1e8d60a56b54", null ]
     ] ],
+    [ "MR::ChangVoxelSelectionAction", "classMR_1_1ChangVoxelSelectionAction.html", [
+      [ "Obj", "group__HistoryGroup.html#ga2bc62e359f5e804a60171abdd7939bd7", null ],
+      [ "ChangVoxelSelectionAction", "group__HistoryGroup.html#gacd0912663f58360180bc863ab572daf4", null ],
+      [ "action", "group__HistoryGroup.html#gaebcfdaaba426fea5c32f5ca836a7085f", null ],
+      [ "heapBytes", "group__HistoryGroup.html#ga970e3207174343bffc6f631586e4f59d", null ],
+      [ "name", "group__HistoryGroup.html#ga4613d2480c87b60c6d32385f80849bbe", null ],
+      [ "selection", "group__HistoryGroup.html#ga639784e559a258dafd067f1e374d0ae2", null ]
+    ] ],
     [ "MR::ChangeXfAction", "classMR_1_1ChangeXfAction.html", [
       [ "ChangeXfAction", "classMR_1_1ChangeXfAction.html#adc90b8207a85c52060b965692645d95b", null ],
       [ "action", "classMR_1_1ChangeXfAction.html#ae0205231d9c1c0389daaa03a05b302e2", null ],
@@ -181,5 +189,12 @@ var group__HistoryGroup =
       [ "undo", "classMR_1_1HistoryStore.html#aea1440c49e39cc9ab8e073de63271147", null ],
       [ "changedSignal", "classMR_1_1HistoryStore.html#afcedddcbe7c972d3a5b239e53a0f17ee", null ]
     ] ],
-    [ "MR::filterHistoryActionsVector", "group__HistoryGroup.html#gad816d7f5445309140db275f8f14c8ba1", null ]
+    [ "MR::ChangVoxelSelectionAction::Obj", "group__HistoryGroup.html#ga2bc62e359f5e804a60171abdd7939bd7", null ],
+    [ "MR::ChangVoxelSelectionAction::action", "group__HistoryGroup.html#gaebcfdaaba426fea5c32f5ca836a7085f", null ],
+    [ "MR::ChangVoxelSelectionAction::ChangVoxelSelectionAction", "group__HistoryGroup.html#gacd0912663f58360180bc863ab572daf4", null ],
+    [ "MR::filterHistoryActionsVector", "group__HistoryGroup.html#gad816d7f5445309140db275f8f14c8ba1", null ],
+    [ "MR::ChangVoxelSelectionAction::heapBytes", "group__HistoryGroup.html#ga970e3207174343bffc6f631586e4f59d", null ],
+    [ "MR::ChangVoxelSelectionAction::name", "group__HistoryGroup.html#ga4613d2480c87b60c6d32385f80849bbe", null ],
+    [ "MR::ChangVoxelSelectionAction::selection", "group__HistoryGroup.html#ga639784e559a258dafd067f1e374d0ae2", null ],
+    [ "MR::ChangVoxelSelectionAction::setObjectDirty", "group__HistoryGroup.html#ga54f4bbe409819b2a781e9d559f22298e", null ]
 ];

@@ -9,5 +9,7 @@ var classMR_1_1File =
     [ "close", "classMR_1_1File.html#a94bc33654229a7cd797fe79baac1faaa", null ],
     [ "detach", "classMR_1_1File.html#a46f305b6331088acfe8c1f8bc4076837", null ],
     [ "open", "classMR_1_1File.html#a20254d5bbf7df8159f1c75a0de21f819", null ],
-    [ "operator FILE *", "classMR_1_1File.html#a94af7ee95f2e3b7d2f88bbdc71df69a3", null ]
+    [ "operator FILE *", "classMR_1_1File.html#a94af7ee95f2e3b7d2f88bbdc71df69a3", null ],
+    [ "operator=", "classMR_1_1File.html#a0e75b59b59d0598284793e8509995bfe", null ],
+    [ "operator=", "classMR_1_1File.html#a9ca34a6881807130cc132c87a37daf12", null ]
 ];
