@@ -1,5 +1,6 @@
 var classMR_1_1ObjectTransformWidget =
 [
+    [ "ChangeXfAction", "classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html", "classMR_1_1ObjectTransformWidget_1_1ChangeXfAction" ],
     [ "Axis", "classMR_1_1ObjectTransformWidget.html#a68b9b25ab7ecc4861ee34b7b4221b29a", [
       [ "X", "classMR_1_1ObjectTransformWidget.html#a68b9b25ab7ecc4861ee34b7b4221b29aac0e303493426fb7b31a2082b82f5117f", null ],
       [ "Y", "classMR_1_1ObjectTransformWidget.html#a68b9b25ab7ecc4861ee34b7b4221b29aacb4596c64977156fc1968c3f191743f7", null ],

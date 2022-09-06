@@ -12,7 +12,7 @@ var searchData=
   ['vertexprecision_9',['vertexPrecision',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#a391e0a1e39f79dd41b9a003e251360c4',1,'MR::MeshSave::CtmSaveOptions']]],
   ['vertforms_10',['vertForms',['../structMR_1_1DecimateSettings.html#a8a682d43b723098485a748e97bd12111',1,'MR::DecimateSettings::vertForms()'],['../structMR_1_1DecimatePolylineSettings.html#a3b25e672e4446e2af56927c0cf0237db',1,'MR::DecimatePolylineSettings::vertForms()']]],
   ['vertid_11',['vertId',['../structMR_1_1VertPair.html#ae6239c50e9f906f24298e97baafcfd73',1,'MR::VertPair']]],
-  ['vertnormals_12',['vertNormals',['../structMR_1_1MeshNormals.html#a9415ae7311347805d0b725c9a07ef5ea',1,'MR::MeshNormals']]],
+  ['vertnormals_12',['vertNormals',['../structMR_1_1MeshNormals.html#a9a227c6a8fb08eab31f2c5f3a8b86a27',1,'MR::MeshNormals']]],
   ['vertscolormap_5f_13',['vertsColorMap_',['../classMR_1_1VisualObject.html#abe95051135f3ebbc784ad854b11cb36e',1,'MR::VisualObject']]],
   ['vertsdeleted_14',['vertsDeleted',['../structMR_1_1DecimateResult.html#a0150f587c1f6e81b22cf7cf1194daedd',1,'MR::DecimateResult::vertsDeleted()'],['../structMR_1_1DecimatePolylineResult.html#af042d52b52cb89cb1dbf4a779d82f3c6',1,'MR::DecimatePolylineResult::vertsDeleted()']]],
   ['verttag_15',['VertTag',['../namespaceMR.html#aa92378bf233fad3fbb22ac30f72ea71e',1,'MR']]],

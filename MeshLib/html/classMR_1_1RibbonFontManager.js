@@ -11,8 +11,6 @@ var classMR_1_1RibbonFontManager =
       [ "Count", "classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "getFontByType", "classMR_1_1RibbonFontManager.html#ad3f9e2f7788079bfaece40298c022f53", null ],
-    [ "getFontSizeByType", "classMR_1_1RibbonFontManager.html#abebf23c2d8da785340dc374ea6c3cfbf", null ],
     [ "getMenuFontPath", "classMR_1_1RibbonFontManager.html#af67d4ecfff6fa832444a2a214a3f471a", null ],
-    [ "initFontManagerInstance", "classMR_1_1RibbonFontManager.html#ac0582f5e74067f346e7aa0ce538cf9b2", null ],
     [ "loadAllFonts", "classMR_1_1RibbonFontManager.html#ae09d386249e4a713206d066697fe57b0", null ]
 ];

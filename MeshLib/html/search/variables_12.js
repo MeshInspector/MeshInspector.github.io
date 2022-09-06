@@ -26,6 +26,6 @@ var searchData=
   ['tree_23',['tree',['../structMR_1_1Line3Mesh.html#a993c546c36a0d4723de3bdaffd1d769e',1,'MR::Line3Mesh']]],
   ['tri_24',['tri',['../structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318',1,'MR::EdgeTri']]],
   ['trianglemetric_25',['triangleMetric',['../structMR_1_1FillHoleMetric.html#acc8ef5c37515d91d9c3cb3fbcaa1fd22',1,'MR::FillHoleMetric']]],
-  ['type_26',['type',['../structMR_1_1MeshApproxRelaxParams.html#a1cee1338307334369140e04b54f03b51',1,'MR::MeshApproxRelaxParams::type()'],['../structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d',1,'MR::PointCloudApproxRelaxParams::type()'],['../structMR_1_1Viewer_1_1MouseQueueEvent.html#a86975eeae67e13c6a087df3affd56741',1,'MR::Viewer::MouseQueueEvent::type()']]],
+  ['type_26',['type',['../structMR_1_1MeshApproxRelaxParams.html#a1cee1338307334369140e04b54f03b51',1,'MR::MeshApproxRelaxParams::type()'],['../structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d',1,'MR::PointCloudApproxRelaxParams::type()'],['../structMR_1_1GlTexture2_1_1Settings.html#a033676db6a45fe279bd1de9f0bd0fab1',1,'MR::GlTexture2::Settings::type()'],['../structMR_1_1Viewer_1_1MouseQueueEvent.html#a86975eeae67e13c6a087df3affd56741',1,'MR::Viewer::MouseQueueEvent::type()']]],
   ['type_5f_27',['type_',['../classMR_1_1RibbonMenuItem.html#a00b402da6dbcec7d6c97b5c6a16e3924',1,'MR::RibbonMenuItem']]]
 ];

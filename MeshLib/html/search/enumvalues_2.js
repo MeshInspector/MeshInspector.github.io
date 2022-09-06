@@ -2,7 +2,7 @@ var searchData=
 [
   ['center_0',['Center',['../classMR_1_1Pdf.html#aaaf62b6d295f5aa4aae7734a8d801cbea4f1f6016fc9f3f2353c0cc7c67b292bd',1,'MR::Pdf::Center()'],['../classMR_1_1Pdf.html#a6759e4baff5cfbd5272628bf2a52f253a4f1f6016fc9f3f2353c0cc7c67b292bd',1,'MR::Pdf::Center()']]],
   ['charpressed_1',['CharPressed',['../classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0afa986eb06aa86f1d47366acb1d84bc46',1,'MR::Viewer']]],
-  ['clamp_2',['Clamp',['../structMR_1_1MeshTexture.html#a02b38209ef48a938635275b79553f4e8a08825280e3f8137556325061ba67ff8c',1,'MR::MeshTexture']]],
+  ['clamp_2',['Clamp',['../structMR_1_1MeshTexture.html#a11f041ef98b2603cdb58860fbd2bd7bfa08825280e3f8137556325061ba67ff8c',1,'MR::MeshTexture']]],
   ['clear_3',['Clear',['../classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4adc30bc0c7914db5918da4263fce93ad2',1,'MR::HistoryStore']]],
   ['clippedbyplane_4',['ClippedByPlane',['../structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0ac7441567a6408dd2fd28b49e2f2d2aaa',1,'MR::VisualizeMaskType']]],
   ['collapseheaderbackground_5',['CollapseHeaderBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ae26407610c1540ad5648f9496a2f5e8b',1,'MR::ColorTheme']]],

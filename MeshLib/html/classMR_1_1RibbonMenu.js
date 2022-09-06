@@ -10,6 +10,7 @@ var classMR_1_1RibbonMenu =
     [ "drawActiveBlockingDialog_", "classMR_1_1RibbonMenu.html#a536aa66aca49a47e58d15a786e574cb9", null ],
     [ "drawActiveNonBlockingDialogs_", "classMR_1_1RibbonMenu.html#a2b8f24d719c5b2f849c6a2da6a8e6a05", null ],
     [ "drawBigButtonItem_", "classMR_1_1RibbonMenu.html#a67906df788caa39e03d62d6df651f050", null ],
+    [ "drawCollapsingHeader_", "classMR_1_1RibbonMenu.html#a49282539dbdead7ced3a92ce1409d0c3", null ],
     [ "drawCustomObjectPrefixInScene_", "classMR_1_1RibbonMenu.html#aba97528933cb192040c755a2c5de049f", null ],
     [ "drawItemDialog_", "classMR_1_1RibbonMenu.html#a842d003c447ddd1af577f4cb2ffb9021", null ],
     [ "drawItemsGroup_", "classMR_1_1RibbonMenu.html#aa55c3fbd9f75acc5b51ecba5402c8fb6", null ],

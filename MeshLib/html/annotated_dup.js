@@ -125,6 +125,7 @@ var annotated_dup =
       [ "FreeFormDeformer", "classMR_1_1FreeFormDeformer.html", "classMR_1_1FreeFormDeformer" ],
       [ "GlBuffer", "classMR_1_1GlBuffer.html", "classMR_1_1GlBuffer" ],
       [ "GLStaticHolder", "classMR_1_1GLStaticHolder.html", "classMR_1_1GLStaticHolder" ],
+      [ "GlTexture2", "classMR_1_1GlTexture2.html", "classMR_1_1GlTexture2" ],
       [ "HashToVectorMappingConverter", "classMR_1_1HashToVectorMappingConverter.html", "classMR_1_1HashToVectorMappingConverter" ],
       [ "Heap", "classMR_1_1Heap.html", "classMR_1_1Heap" ],
       [ "Histogram", "classMR_1_1Histogram.html", "classMR_1_1Histogram" ],

@@ -8,7 +8,6 @@ var classMR_1_1ObjectLinesHolder =
     [ "applyScale", "classMR_1_1ObjectLinesHolder.html#a866b821cbf1353875759fa45e614249f", null ],
     [ "clone", "classMR_1_1ObjectLinesHolder.html#a8d62fc8248ac41e37620d11e4e326b62", null ],
     [ "computeBoundingBox_", "classMR_1_1ObjectLinesHolder.html#a502ed4a3293b4e8466ef0eacaa0f8d9d", null ],
-    [ "computeBoundingBoxXf_", "classMR_1_1ObjectLinesHolder.html#ab2c476662206f9b4203251f7a385ff28", null ],
     [ "deserializeFields_", "classMR_1_1ObjectLinesHolder.html#ab23dddd3e9b8f97eae6c128343604c73", null ],
     [ "getAllVisualizeProperties", "classMR_1_1ObjectLinesHolder.html#a2798b1849e8c43f61a65e198db996c38", null ],
     [ "getLinesColorMap", "classMR_1_1ObjectLinesHolder.html#af659e26d1d6c824466aba14b5ae8104e", null ],

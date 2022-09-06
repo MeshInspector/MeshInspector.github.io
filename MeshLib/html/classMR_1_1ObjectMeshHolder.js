@@ -9,8 +9,6 @@ var classMR_1_1ObjectMeshHolder =
     [ "applyScale", "classMR_1_1ObjectMeshHolder.html#afb9471c0d9422d4474378ed1fd622724", null ],
     [ "clone", "classMR_1_1ObjectMeshHolder.html#aeaa501dd61dadd0298de0f97c2b4c45d", null ],
     [ "computeBoundingBox_", "classMR_1_1ObjectMeshHolder.html#aa05cf4d24dd3776eba6722f5ba23423d", null ],
-    [ "computeBoundingBoxXf_", "classMR_1_1ObjectMeshHolder.html#a976444761fbae5cf4de72b7472b5379a", null ],
-    [ "computeVertsNormals_", "classMR_1_1ObjectMeshHolder.html#a694bc6aee87e0005ac18850a650916d3", null ],
     [ "creases", "classMR_1_1ObjectMeshHolder.html#ab3f35c8b6e713ad9cd367208c6f5a576", null ],
     [ "deserializeFields_", "classMR_1_1ObjectMeshHolder.html#a1b86e3e4fa2644b7400ebe0d64e4b6bc", null ],
     [ "deserializeModel_", "classMR_1_1ObjectMeshHolder.html#a2b3f41800015b8db1eeb6cbd112f51d2", null ],

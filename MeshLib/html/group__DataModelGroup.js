@@ -137,7 +137,6 @@ var group__DataModelGroup =
       [ "applyScale", "classMR_1_1ObjectLabel.html#aa117f91f421380e38f7cc43a42f28370", null ],
       [ "clone", "classMR_1_1ObjectLabel.html#a9a2482344a868ee18da6ce8682b81a35", null ],
       [ "computeBoundingBox_", "classMR_1_1ObjectLabel.html#aef8442bcefbb31142bd3fa7628a54a0e", null ],
-      [ "computeBoundingBoxXf_", "classMR_1_1ObjectLabel.html#a24da66d338da1940e02a676cf742bc91", null ],
       [ "deserializeFields_", "classMR_1_1ObjectLabel.html#a648f9c3cf5b8ed1e5aae2fcca216e22a", null ],
       [ "deserializeModel_", "classMR_1_1ObjectLabel.html#a3e91a64959690e008aea129d41b5d8d1", null ],
       [ "getAllVisualizeProperties", "classMR_1_1ObjectLabel.html#a5b10cc10b02a2ed853b584b4bfac0683", null ],

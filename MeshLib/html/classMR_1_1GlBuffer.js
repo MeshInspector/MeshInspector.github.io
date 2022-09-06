@@ -7,6 +7,7 @@ var classMR_1_1GlBuffer =
     [ "bind", "classMR_1_1GlBuffer.html#afa1fac5904dc4a6ef7735c83fc02c28f", null ],
     [ "del", "classMR_1_1GlBuffer.html#a213b2b08ce055e61d230e5020a0bac8a", null ],
     [ "gen", "classMR_1_1GlBuffer.html#a1f35ddfc7d404d24361e0b09e32c538d", null ],
+    [ "getId", "classMR_1_1GlBuffer.html#a7ae1352fab61b091036e19f28f540e1c", null ],
     [ "loadData", "classMR_1_1GlBuffer.html#a39877281390de95c6295a7705ebecdf8", null ],
     [ "loadData", "classMR_1_1GlBuffer.html#a206827c171c7856ea4a9095be1c2297c", null ],
     [ "loadData", "classMR_1_1GlBuffer.html#a33dad630406717f4906415d48468fd4c", null ],

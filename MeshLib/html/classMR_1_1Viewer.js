@@ -62,6 +62,7 @@ var classMR_1_1Viewer =
     [ "getPluginInstance", "classMR_1_1Viewer.html#a85ad500aab48ce2471d2715030ff667a", null ],
     [ "getPresentViewports", "classMR_1_1Viewer.html#a31d6494e00e43d9afe0c2ca0c089c075", null ],
     [ "getPrevFrameDrawTimeMillisec", "classMR_1_1Viewer.html#a5c48b19028ccba529253fb3dc447f168", null ],
+    [ "getStaticGLBufferSize", "classMR_1_1Viewer.html#aca894260269798e399369b529d7ba3b0", null ],
     [ "getStopEventLoopFlag", "classMR_1_1Viewer.html#aff7d7329c84d85a009790d68eeb8661d", null ],
     [ "getSwappedFrames", "classMR_1_1Viewer.html#a92e42c9709217410c53a0b3c311c537a", null ],
     [ "getTotalFrames", "classMR_1_1Viewer.html#ab15cbcc76bde57098ea4d4b751dd030b", null ],

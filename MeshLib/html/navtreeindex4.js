@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a0cbc6611f5540bd0809a388dc95a615b":[12,0,0,1,3,51,2,7],
+"MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a59637ce14182065617d85623a588b6f0":[12,0,0,1,3,51,2,5],
 "MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a6311ae17c1ee52b36e68aaf4ad066387":[12,0,0,1,3,51,2,8],
 "MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a6ff9dd0d34f65181173c1e4bc39939de":[12,0,0,1,3,51,2,4],
 "MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a710fdb6adb881b408116ef95335e1961":[12,0,0,1,3,51,2,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "classMR_1_1AABBTreePoints.html#a9326f1fdd5cacabcf51e5eb51f56e53e":[9,1,4,8],
 "classMR_1_1AABBTreePoints.html#ab159b10db8a36b63387eb1149c826dbd":[9,1,4,5],
 "classMR_1_1AABBTreePoints.html#ab727b425d862eaa2f2f61e6b1e287174":[9,1,4,14],
-"classMR_1_1AABBTreePoints.html#afe5c12db028de0c7152524376a92c38b":[9,1,4,4],
-"classMR_1_1AABBTreePolyline.html":[9,1,8],
-"classMR_1_1AABBTreePolyline.html#a0da0a8d855b1e2981083b1e681398a8b":[9,1,8,5]
+"classMR_1_1AABBTreePoints.html#afe5c12db028de0c7152524376a92c38b":[9,1,4,4]
 };

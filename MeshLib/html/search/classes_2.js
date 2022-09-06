@@ -23,7 +23,7 @@ var searchData=
   ['changesceneaction_20',['ChangeSceneAction',['../classMR_1_1ChangeSceneAction.html',1,'MR']]],
   ['changesceneobjectsorder_21',['ChangeSceneObjectsOrder',['../classMR_1_1ChangeSceneObjectsOrder.html',1,'MR']]],
   ['changesurfaceaction_22',['ChangeSurfaceAction',['../classMR_1_1ChangeSurfaceAction.html',1,'MR']]],
-  ['changexfaction_23',['ChangeXfAction',['../classMR_1_1ChangeXfAction.html',1,'MR']]],
+  ['changexfaction_23',['ChangeXfAction',['../classMR_1_1ChangeXfAction.html',1,'MR::ChangeXfAction'],['../classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html',1,'MR::ObjectTransformWidget::ChangeXfAction']]],
   ['changvoxelselectionaction_24',['ChangVoxelSelectionAction',['../classMR_1_1ChangVoxelSelectionAction.html',1,'MR']]],
   ['charpressedlistener_25',['CharPressedListener',['../structMR_1_1CharPressedListener.html',1,'MR']]],
   ['circleobject_26',['CircleObject',['../classMR_1_1CircleObject.html',1,'MR']]],
