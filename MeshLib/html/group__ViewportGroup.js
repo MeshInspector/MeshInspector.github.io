@@ -36,6 +36,16 @@ var group__ViewportGroup =
       [ "operator*", "classMR_1_1ViewportIterator.html#a6f97d3f576cf064d443b135f305f68ac", null ],
       [ "operator++", "classMR_1_1ViewportIterator.html#a1da127569258f48e6aa775d9d866b29e", null ]
     ] ],
+    [ "MR::ViewportProperty< T >", "classMR_1_1ViewportProperty.html", [
+      [ "get", "classMR_1_1ViewportProperty.html#a2bd23f5da1c45f3e3883a09d930aa408", null ],
+      [ "get", "classMR_1_1ViewportProperty.html#a84c311368b6811ab85337014147411cd", null ],
+      [ "get", "classMR_1_1ViewportProperty.html#aa0bc0587aca60d445e368fe7c746ef01", null ],
+      [ "operator[]", "classMR_1_1ViewportProperty.html#a60baa3c068605f833fbcdadd3ad908e7", null ],
+      [ "reset", "classMR_1_1ViewportProperty.html#ab7e94f2d0f3a20692500763dc1e160e2", null ],
+      [ "reset", "classMR_1_1ViewportProperty.html#ae8ca1fb6bc59e88d43f1d96bd4c17034", null ],
+      [ "set", "classMR_1_1ViewportProperty.html#ad54a5352850df53cbcbd00002e92b00e", null ],
+      [ "set", "classMR_1_1ViewportProperty.html#a47e346ad25a2c7948afa750f53070d5b", null ]
+    ] ],
     [ "MR::begin", "group__ViewportGroup.html#ga9ae1fa58375f92080d1a1546f2c43660", null ],
     [ "MR::end", "group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d", null ],
     [ "MR::operator&", "group__ViewportGroup.html#gaab3f3280e9df3ad6b0ae88ee01f28286", null ],

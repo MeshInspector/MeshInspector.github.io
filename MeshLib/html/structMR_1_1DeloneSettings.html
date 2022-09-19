@@ -108,9 +108,6 @@ $(document).ready(function(){initNavTree('structMR_1_1DeloneSettings.html',''); 
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a552bc7174a0c7e583d96eb87e5b052ec"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DeloneSettings.html#a552bc7174a0c7e583d96eb87e5b052ec">numIters</a> = 1</td></tr>
-<tr class="memdesc:a552bc7174a0c7e583d96eb87e5b052ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximal iteration count.  <a href="structMR_1_1DeloneSettings.html#a552bc7174a0c7e583d96eb87e5b052ec">More...</a><br /></td></tr>
-<tr class="separator:a552bc7174a0c7e583d96eb87e5b052ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc54a4a2c29214632bccda65b6e0cba0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0">maxDeviationAfterFlip</a> = 0.0f</td></tr>
 <tr class="memdesc:acc54a4a2c29214632bccda65b6e0cba0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximal allowed surface deviation during every individual flip.  <a href="structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0">More...</a><br /></td></tr>
 <tr class="separator:acc54a4a2c29214632bccda65b6e0cba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -121,9 +118,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a0f1d4b68cf91c9aebfb8f580d7ab6610"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610">region</a> = nullptr</td></tr>
 <tr class="memdesc:a0f1d4b68cf91c9aebfb8f580d7ab6610"><td class="mdescLeft">&#160;</td><td class="mdescRight">Region on mesh to be processed, it is constant and not updated,.  <a href="structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610">More...</a><br /></td></tr>
 <tr class="separator:a0f1d4b68cf91c9aebfb8f580d7ab6610"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a302c9f86c3b7312e8a2c53c31db39381"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DeloneSettings.html#a302c9f86c3b7312e8a2c53c31db39381">progressCallback</a></td></tr>
-<tr class="memdesc:a302c9f86c3b7312e8a2c53c31db39381"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback to report algorithm progress and cancel it by user request.  <a href="structMR_1_1DeloneSettings.html#a302c9f86c3b7312e8a2c53c31db39381">More...</a><br /></td></tr>
-<tr class="separator:a302c9f86c3b7312e8a2c53c31db39381"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a513ebe0c472b1ac5cdfa1226d4f52e27"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27">notFlippable</a> = nullptr</td></tr>
+<tr class="memdesc:a513ebe0c472b1ac5cdfa1226d4f52e27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edges specified by this bit-set will never be flipped.  <a href="structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27">More...</a><br /></td></tr>
+<tr class="separator:a513ebe0c472b1ac5cdfa1226d4f52e27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a2d89f7e52be83dd63ce7daed50c40c90" name="a2d89f7e52be83dd63ce7daed50c40c90"></a>
@@ -159,35 +156,19 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a552bc7174a0c7e583d96eb87e5b052ec" name="a552bc7174a0c7e583d96eb87e5b052ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a552bc7174a0c7e583d96eb87e5b052ec">&#9670;&#160;</a></span>numIters</h2>
+<a id="a513ebe0c472b1ac5cdfa1226d4f52e27" name="a513ebe0c472b1ac5cdfa1226d4f52e27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a513ebe0c472b1ac5cdfa1226d4f52e27">&#9670;&#160;</a></span>notFlippable</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int MR::DeloneSettings::numIters = 1</td>
+          <td class="memname">const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a>* MR::DeloneSettings::notFlippable = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Maximal iteration count. </p>
-
-</div>
-</div>
-<a id="a302c9f86c3b7312e8a2c53c31db39381" name="a302c9f86c3b7312e8a2c53c31db39381"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a302c9f86c3b7312e8a2c53c31db39381">&#9670;&#160;</a></span>progressCallback</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> MR::DeloneSettings::progressCallback</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Callback to report algorithm progress and cancel it by user request. </p>
+<p>Edges specified by this bit-set will never be flipped. </p>
 
 </div>
 </div>

@@ -9,5 +9,6 @@ var structMR_1_1FillHoleParams =
     [ "maxPolygonSubdivisions", "structMR_1_1FillHoleParams.html#a2fd7e4eb05eb26aa28ba98a886d22ce9", null ],
     [ "metric", "structMR_1_1FillHoleParams.html#a6ab1c2d2eb0cbb97455c747713f2371d", null ],
     [ "outNewFaces", "structMR_1_1FillHoleParams.html#a1789bd574d007a370fe6164d4f5ca7c4", null ],
-    [ "Simple", "structMR_1_1FillHoleParams.html#a2908ad53506526829bedf3831a1de80a", null ]
+    [ "Simple", "structMR_1_1FillHoleParams.html#a2908ad53506526829bedf3831a1de80a", null ],
+    [ "stopBeforeBadTriangulation", "structMR_1_1FillHoleParams.html#a61b0c71def508e84cfa3359e34b6029e", null ]
 ];

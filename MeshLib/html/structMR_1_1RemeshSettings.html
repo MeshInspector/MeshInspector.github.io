@@ -118,9 +118,15 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aba67372080b3650ca0d9a939e8b5526a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#aba67372080b3650ca0d9a939e8b5526a">region</a> = nullptr</td></tr>
 <tr class="memdesc:aba67372080b3650ca0d9a939e8b5526a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Region on mesh to be changed, it is updated during the operation.  <a href="structMR_1_1RemeshSettings.html#aba67372080b3650ca0d9a939e8b5526a">More...</a><br /></td></tr>
 <tr class="separator:aba67372080b3650ca0d9a939e8b5526a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1629080d08e27d81f953b64589e06434"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#a1629080d08e27d81f953b64589e06434">notFlippable</a> = nullptr</td></tr>
+<tr class="memdesc:a1629080d08e27d81f953b64589e06434"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edges specified by this bit-set will never be flipped.  <a href="structMR_1_1RemeshSettings.html#a1629080d08e27d81f953b64589e06434">More...</a><br /></td></tr>
+<tr class="separator:a1629080d08e27d81f953b64589e06434"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed5e02a684c4323c9ad3143c3dfdb24d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#aed5e02a684c4323c9ad3143c3dfdb24d">packMesh</a> = false</td></tr>
 <tr class="memdesc:aed5e02a684c4323c9ad3143c3dfdb24d"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether to pack mesh at the end  <a href="structMR_1_1RemeshSettings.html#aed5e02a684c4323c9ad3143c3dfdb24d">More...</a><br /></td></tr>
 <tr class="separator:aed5e02a684c4323c9ad3143c3dfdb24d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2302742bd2200fd6a5f9e078015705c1"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e1, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#a2302742bd2200fd6a5f9e078015705c1">onEdgeSplit</a></td></tr>
+<tr class="memdesc:a2302742bd2200fd6a5f9e078015705c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone  <a href="structMR_1_1RemeshSettings.html#a2302742bd2200fd6a5f9e078015705c1">More...</a><br /></td></tr>
+<tr class="separator:a2302742bd2200fd6a5f9e078015705c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac65eb4c2e1f090a756362df72b272d6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#ac65eb4c2e1f090a756362df72b272d6e">progressCallback</a></td></tr>
 <tr class="memdesc:ac65eb4c2e1f090a756362df72b272d6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback to report algorithm progress and cancel it by user request  <a href="structMR_1_1RemeshSettings.html#ac65eb4c2e1f090a756362df72b272d6e">More...</a><br /></td></tr>
 <tr class="separator:ac65eb4c2e1f090a756362df72b272d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,6 +145,38 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Improves local mesh triangulation by doing edge flips if it does change dihedral angle more than on this value. </p>
+
+</div>
+</div>
+<a id="a1629080d08e27d81f953b64589e06434" name="a1629080d08e27d81f953b64589e06434"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1629080d08e27d81f953b64589e06434">&#9670;&#160;</a></span>notFlippable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a>* MR::RemeshSettings::notFlippable = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Edges specified by this bit-set will never be flipped. </p>
+
+</div>
+</div>
+<a id="a2302742bd2200fd6a5f9e078015705c1" name="a2302742bd2200fd6a5f9e078015705c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2302742bd2200fd6a5f9e078015705c1">&#9670;&#160;</a></span>onEdgeSplit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;void(<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e1, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e)&gt; MR::RemeshSettings::onEdgeSplit</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone </p>
 
 </div>
 </div>

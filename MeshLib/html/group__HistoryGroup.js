@@ -40,6 +40,13 @@ var group__HistoryGroup =
       [ "heapBytes", "classMR_1_1ChangePointCloudAction.html#aea2ce2e41b3850a18e72e5766ccb86f5", null ],
       [ "name", "classMR_1_1ChangePointCloudAction.html#a3d96f0fc00a2d6d30b4807712b3793b6", null ]
     ] ],
+    [ "MR::ChangePointCloudNormalsAction", "classMR_1_1ChangePointCloudNormalsAction.html", [
+      [ "Obj", "classMR_1_1ChangePointCloudNormalsAction.html#ab1318bc8719ca89bb19cd901f204ad49", null ],
+      [ "ChangePointCloudNormalsAction", "classMR_1_1ChangePointCloudNormalsAction.html#aa3fc74b29ef4cc3ed08c0e8f0a5f342e", null ],
+      [ "action", "classMR_1_1ChangePointCloudNormalsAction.html#a3f4a62aa8bcd5d820f520ab6dea9a48d", null ],
+      [ "heapBytes", "classMR_1_1ChangePointCloudNormalsAction.html#a2bcd7434c87c613e94dd6c3ea18b541e", null ],
+      [ "name", "classMR_1_1ChangePointCloudNormalsAction.html#aec6f4ff965e50adb3b9f2605fa2662a8", null ]
+    ] ],
     [ "MR::ChangePolylineAction", "classMR_1_1ChangePolylineAction.html", [
       [ "Obj", "classMR_1_1ChangePolylineAction.html#aeb94c9f13be0f037086e0296e2beea62", null ],
       [ "ChangePolylineAction", "classMR_1_1ChangePolylineAction.html#a0e79a47922ed59fc36b1a8e44df24fa4", null ],

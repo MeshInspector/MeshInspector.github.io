@@ -26,6 +26,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MROpen.h", "MROpen_8h.html", "MROpen_8h" ],
     [ "MRPalette.h", "MRPalette_8h.html", "MRPalette_8h" ],
     [ "MRPickHoleBorderElement.h", "MRPickHoleBorderElement_8h.html", "MRPickHoleBorderElement_8h" ],
+    [ "MRPlaneWidget.h", "MRPlaneWidget_8h.html", "MRPlaneWidget_8h" ],
     [ "MRProgressBar.h", "MRProgressBar_8h.html", "MRProgressBar_8h" ],
     [ "MRPythonAppendCommand.h", "MRPythonAppendCommand_8h.html", "MRPythonAppendCommand_8h" ],
     [ "MRRecentFilesStore.h", "MRRecentFilesStore_8h.html", "MRRecentFilesStore_8h" ],

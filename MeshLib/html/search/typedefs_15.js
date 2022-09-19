@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['xfchangedsignal_0',['XfChangedSignal',['../classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c',1,'MR::Object']]]
+  ['wholeedgehashmap_0',['WholeEdgeHashMap',['../namespaceMR.html#ab2730d7016e74f0d069e3f5791ae76dc',1,'MR']]],
+  ['wholeedgemap_1',['WholeEdgeMap',['../namespaceMR.html#ab8a64e1ae478a6733cc6c0ab4441d0b9',1,'MR']]]
 ];

@@ -7,7 +7,7 @@ var searchData=
   ['leftleft_4',['LeftLeft',['../group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79ae270ac72e33fbdf09168012bc0852677',1,'MR']]],
   ['leftright_5',['LeftRight',['../group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a203407e92909f81d61b55175a37980cf',1,'MR']]],
   ['light_6',['Light',['../classMR_1_1ColorTheme.html#abbecc6afa53db91ada45757b845b5514a9914a0ce04a7b7b6a8e39bec55064b82',1,'MR::ColorTheme']]],
-  ['linear_7',['Linear',['../structMR_1_1MeshTexture.html#af1e3ecc1afaf1be483ef74f020eac23fa32a843da6ea40ab3b17a3421ccdf671b',1,'MR::MeshTexture']]],
+  ['linear_7',['Linear',['../namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925aa32a843da6ea40ab3b17a3421ccdf671b',1,'MR']]],
   ['linearraysize_8',['LineArraySize',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a28aa4a3d4b852e1cf90b4dcc545d22a7',1,'MR::Viewer']]],
   ['lineelementsnum_9',['LineElementsNum',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a0759ec1e233564af378df2c9d823061d',1,'MR::Viewer']]],
   ['lines_10',['Lines',['../classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76aa0b0293a2db49f5f93c15a62e095c819',1,'MR::ViewerSettingsManager']]],

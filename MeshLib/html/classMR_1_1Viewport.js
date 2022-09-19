@@ -28,6 +28,7 @@ var classMR_1_1Viewport =
     [ "constMultiPickObjects", "classMR_1_1Viewport.html#ac14fb13300d3dcf19a0baf3ae59163c6", null ],
     [ "draw", "classMR_1_1Viewport.html#ae795312b102cdf23db4b0355b391010d", null ],
     [ "findObjectsInRect", "classMR_1_1Viewport.html#ae8d2d1ebf05bdfac6a830fc7ccb9c76c", null ],
+    [ "fitBox", "classMR_1_1Viewport.html#a6ac594d0dfd749cdb836fe216d2f63a9", null ],
     [ "fitData", "classMR_1_1Viewport.html#a9a3a641b649270fae26cb2659d47a756", null ],
     [ "getBackwardDirection", "classMR_1_1Viewport.html#a794aba08108a4fb8cb9d4e65565ddf5f", null ],
     [ "getBaseRenderParams", "classMR_1_1Viewport.html#a8529ec46203de1874a3bf995fea1d97a", null ],

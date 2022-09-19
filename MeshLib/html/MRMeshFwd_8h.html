@@ -101,6 +101,7 @@ $(document).ready(function(){initNavTree('MRMeshFwd_8h.html',''); initResizable(
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">MRMeshFwd.h File Reference</div></div>
@@ -377,6 +378,9 @@ Typedefs</h2></td></tr>
 <tr class="separator:ae2eea398ad770ec2244a9a9c50714933"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd82628c134a94d75af8473678e5c843"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#abd82628c134a94d75af8473678e5c843">MR::UndirectedEdgeMap</a> = Vector&lt; UndirectedEdgeId, UndirectedEdgeId &gt;</td></tr>
 <tr class="separator:abd82628c134a94d75af8473678e5c843"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8a64e1ae478a6733cc6c0ab4441d0b9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab8a64e1ae478a6733cc6c0ab4441d0b9">MR::WholeEdgeMap</a> = Vector&lt; EdgeId, UndirectedEdgeId &gt;</td></tr>
+<tr class="memdesc:ab8a64e1ae478a6733cc6c0ab4441d0b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">mapping of whole edges: map[e]-&gt;f, map[e.sym()]-&gt;f.sym(), where only map[e] for even edges is stored  <a href="namespaceMR.html#ab8a64e1ae478a6733cc6c0ab4441d0b9">More...</a><br /></td></tr>
+<tr class="separator:ab8a64e1ae478a6733cc6c0ab4441d0b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5c9eac6bdf7a25e819c5e2653f469f5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5">MR::VertCoords</a> = Vector&lt; Vector3f, VertId &gt;</td></tr>
 <tr class="separator:af5c9eac6bdf7a25e819c5e2653f469f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1aa03e2767de0adc6154f5419a78e9df"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df">MR::VertNormals</a> = Vector&lt; Vector3f, VertId &gt;</td></tr>
@@ -407,6 +411,11 @@ Typedefs</h2></td></tr>
 <tr class="separator:aca7804536940d80ecca97e03674b1609"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeabd542da4035d06055e1b3d9bdba4c5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aeabd542da4035d06055e1b3d9bdba4c5">MR::EdgeHashMap</a> = HashMap&lt; EdgeId, EdgeId &gt;</td></tr>
 <tr class="separator:aeabd542da4035d06055e1b3d9bdba4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4333356dc2e6a2c01aca10772141dbb8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4333356dc2e6a2c01aca10772141dbb8">MR::UndirectedEdgeHashMap</a> = HashMap&lt; UndirectedEdgeId, UndirectedEdgeId &gt;</td></tr>
+<tr class="separator:a4333356dc2e6a2c01aca10772141dbb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2730d7016e74f0d069e3f5791ae76dc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab2730d7016e74f0d069e3f5791ae76dc">MR::WholeEdgeHashMap</a> = HashMap&lt; UndirectedEdgeId, EdgeId &gt;</td></tr>
+<tr class="memdesc:ab2730d7016e74f0d069e3f5791ae76dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">mapping of whole edges: map[e]-&gt;f, map[e.sym()]-&gt;f.sym(), where only map[e] for even edges is stored  <a href="namespaceMR.html#ab2730d7016e74f0d069e3f5791ae76dc">More...</a><br /></td></tr>
+<tr class="separator:ab2730d7016e74f0d069e3f5791ae76dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1ca9892644603a8b29005353e5ada79"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">MR::Polyline2</a> = Polyline&lt; Vector2f &gt;</td></tr>
 <tr class="separator:ab1ca9892644603a8b29005353e5ada79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58b74f27c86e7e9dee889bfe30f3022a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a58b74f27c86e7e9dee889bfe30f3022a">MR::Polyline3</a> = Polyline&lt; Vector3f &gt;</td></tr>
@@ -423,6 +432,18 @@ Typedefs</h2></td></tr>
 <tr class="separator:aa7174e9d37303115ef05fbd236722baa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ec1dd46460b2209b0d25a4872118c99"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5ec1dd46460b2209b0d25a4872118c99">MR::FaceColorMapAggregator</a> = ColorMapAggregator&lt; FaceTag &gt;</td></tr>
 <tr class="separator:a5ec1dd46460b2209b0d25a4872118c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a6b6dd7eadc1056fc5ffd8af1810d925a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925a">MR::FilterType</a> : char { <a class="el" href="namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925aa32a843da6ea40ab3b17a3421ccdf671b">MR::Linear</a>
+, <a class="el" href="namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925aa4984667940802dedc139aa7a430a6553">MR::Discrete</a>
+ }</td></tr>
+<tr class="separator:a6b6dd7eadc1056fc5ffd8af1810d925a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e519d6a7c053c5d86dac33ecd0fa00c"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00c">MR::WrapType</a> : char { <a class="el" href="namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00ca7020426cfb0a204051be4b3053d2acc8">MR::Repeat</a>
+, <a class="el" href="namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00ca2403def5083f02105e7802b3b315681e">MR::Mirror</a>
+, <a class="el" href="namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00ca08825280e3f8137556325061ba67ff8c">MR::Clamp</a>
+ }</td></tr>
+<tr class="separator:a0e519d6a7c053c5d86dac33ecd0fa00c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>

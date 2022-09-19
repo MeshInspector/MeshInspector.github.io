@@ -14,7 +14,7 @@ var classMR_1_1ObjectLinesHolder =
     [ "getLineWidth", "classMR_1_1ObjectLinesHolder.html#a1973470e52b14c804f3c6c0898d32904", null ],
     [ "getPointSize", "classMR_1_1ObjectLinesHolder.html#afade546b380f165250bd73157dae1fbd", null ],
     [ "getVisualizePropertyMask", "classMR_1_1ObjectLinesHolder.html#a5d13c8c395f958091f374366074439e4", null ],
-    [ "getWorldBox", "classMR_1_1ObjectLinesHolder.html#a546c75ca597cce0346167f1a223dc6b5", null ],
+    [ "getWorldBox", "classMR_1_1ObjectLinesHolder.html#abf4784be6ef8c3ce90625490765084dd", null ],
     [ "hasVisualRepresentation", "classMR_1_1ObjectLinesHolder.html#ab254bdde22e806161d869d150ac181b8", null ],
     [ "heapBytes", "classMR_1_1ObjectLinesHolder.html#ad64322425bc9354238fc990bff3e2b10", null ],
     [ "operator=", "classMR_1_1ObjectLinesHolder.html#a399c6bd6321c060f5c6faffab0095bed", null ],
@@ -35,5 +35,5 @@ var classMR_1_1ObjectLinesHolder =
     [ "showPoints_", "classMR_1_1ObjectLinesHolder.html#ac97e60fe1e8a87ff8905e571fd47bbd1", null ],
     [ "smoothConnections_", "classMR_1_1ObjectLinesHolder.html#a5e2decefeb68afc04d745403e70da92f", null ],
     [ "totalLength_", "classMR_1_1ObjectLinesHolder.html#aee46157cb8a669b29f698f0ea9688264", null ],
-    [ "worldBox_", "classMR_1_1ObjectLinesHolder.html#ab981ff2c440ecf1af75a6afb682219ab", null ]
+    [ "worldBox_", "classMR_1_1ObjectLinesHolder.html#af3f76f7286057cda0116754b663cf340", null ]
 ];

@@ -26,7 +26,7 @@ var searchData=
   ['dirty_5fuv_23',['DIRTY_UV',['../group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a877972448d284e00b0ce05682f39dbb6',1,'MR']]],
   ['dirty_5fverts_5fcolormap_24',['DIRTY_VERTS_COLORMAP',['../group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a3a601c32f4902f478919ce2b64a4e475',1,'MR']]],
   ['dirty_5fverts_5frender_5fnormal_25',['DIRTY_VERTS_RENDER_NORMAL',['../group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a7901e85f6ada294be0794acc817a1914',1,'MR']]],
-  ['discrete_26',['Discrete',['../structMR_1_1MeshTexture.html#af1e3ecc1afaf1be483ef74f020eac23fa4984667940802dedc139aa7a430a6553',1,'MR::MeshTexture']]],
+  ['discrete_26',['Discrete',['../namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925aa4984667940802dedc139aa7a430a6553',1,'MR']]],
   ['distancemap_27',['DistanceMap',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37ae76139f4dbe2f91f14577bcccc1baf77',1,'MR']]],
   ['down_28',['Down',['../structMR_1_1Viewer_1_1MouseQueueEvent.html#a408c087cfb8bee1a4169184831ff53fba436a20a4bf902f70f83a802c0f5614a2',1,'MR::Viewer::MouseQueueEvent']]],
   ['drawlines_29',['DrawLines',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748ae053c76994a82962daf6fe83c6cb7dfd',1,'MR::GLStaticHolder']]],

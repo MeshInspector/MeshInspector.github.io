@@ -15,7 +15,7 @@ var group__ModelHolderGroup =
       [ "getLineWidth", "classMR_1_1ObjectLinesHolder.html#a1973470e52b14c804f3c6c0898d32904", null ],
       [ "getPointSize", "classMR_1_1ObjectLinesHolder.html#afade546b380f165250bd73157dae1fbd", null ],
       [ "getVisualizePropertyMask", "classMR_1_1ObjectLinesHolder.html#a5d13c8c395f958091f374366074439e4", null ],
-      [ "getWorldBox", "classMR_1_1ObjectLinesHolder.html#a546c75ca597cce0346167f1a223dc6b5", null ],
+      [ "getWorldBox", "classMR_1_1ObjectLinesHolder.html#abf4784be6ef8c3ce90625490765084dd", null ],
       [ "hasVisualRepresentation", "classMR_1_1ObjectLinesHolder.html#ab254bdde22e806161d869d150ac181b8", null ],
       [ "heapBytes", "classMR_1_1ObjectLinesHolder.html#ad64322425bc9354238fc990bff3e2b10", null ],
       [ "operator=", "classMR_1_1ObjectLinesHolder.html#a399c6bd6321c060f5c6faffab0095bed", null ],
@@ -36,7 +36,7 @@ var group__ModelHolderGroup =
       [ "showPoints_", "classMR_1_1ObjectLinesHolder.html#ac97e60fe1e8a87ff8905e571fd47bbd1", null ],
       [ "smoothConnections_", "classMR_1_1ObjectLinesHolder.html#a5e2decefeb68afc04d745403e70da92f", null ],
       [ "totalLength_", "classMR_1_1ObjectLinesHolder.html#aee46157cb8a669b29f698f0ea9688264", null ],
-      [ "worldBox_", "classMR_1_1ObjectLinesHolder.html#ab981ff2c440ecf1af75a6afb682219ab", null ]
+      [ "worldBox_", "classMR_1_1ObjectLinesHolder.html#af3f76f7286057cda0116754b663cf340", null ]
     ] ],
     [ "MR::ObjectMeshHolder", "classMR_1_1ObjectMeshHolder.html", [
       [ "MeshStat", "structMR_1_1ObjectMeshHolder_1_1MeshStat.html", [
@@ -68,7 +68,7 @@ var group__ModelHolderGroup =
       [ "getSelectedFaces", "classMR_1_1ObjectMeshHolder.html#a697b65bd9396e5efa3f7a8645c661485", null ],
       [ "getSelectedFacesColor", "classMR_1_1ObjectMeshHolder.html#ac5d1270d9720639174e70a7245dc8416", null ],
       [ "getVisualizePropertyMask", "classMR_1_1ObjectMeshHolder.html#ac0f13f89df19885b41e35136217f58b8", null ],
-      [ "getWorldBox", "classMR_1_1ObjectMeshHolder.html#a00bbd9955813e695a4cf783c075e7398", null ],
+      [ "getWorldBox", "classMR_1_1ObjectMeshHolder.html#a2f0c431e946a273dfa9a2bb927206291", null ],
       [ "hasVisualRepresentation", "classMR_1_1ObjectMeshHolder.html#a549b865eb174f604dfc2c5e9039e4c49", null ],
       [ "heapBytes", "classMR_1_1ObjectMeshHolder.html#a5e7e533cdcddd1d2a4fbf5fba6b9d607", null ],
       [ "isMeshClosed", "classMR_1_1ObjectMeshHolder.html#adc32b4c9b303a885eadfbde1f3b7eeb0", null ],
@@ -80,7 +80,7 @@ var group__ModelHolderGroup =
       [ "numSelectedFaces", "classMR_1_1ObjectMeshHolder.html#ac66f8710ce4b8991eb62b48ee5c94585", null ],
       [ "operator=", "classMR_1_1ObjectMeshHolder.html#a9b6725a731d27509c295fc3a0acd2bfd", null ],
       [ "resetDirtyExeptMask", "classMR_1_1ObjectMeshHolder.html#a88a38468df719c7fd273aa92b2fea426", null ],
-      [ "selectEdges", "classMR_1_1ObjectMeshHolder.html#af42e9d3306f41c8d9d5036242be42c07", null ],
+      [ "selectEdges", "classMR_1_1ObjectMeshHolder.html#a6d9dce6f8274d0a26509ac4ec953985f", null ],
       [ "selectFaces", "classMR_1_1ObjectMeshHolder.html#a9dd8c2355f747dedea3a0f888c09e6da", null ],
       [ "serializeFields_", "classMR_1_1ObjectMeshHolder.html#a94d5dc0f646051e69cc9e5c89ad68f0d", null ],
       [ "serializeModel_", "classMR_1_1ObjectMeshHolder.html#a3fc65ebf1db830952a0f58c249d77dd5", null ],
@@ -122,7 +122,7 @@ var group__ModelHolderGroup =
       [ "showSelectedEdges_", "classMR_1_1ObjectMeshHolder.html#ad879a1f93bfd6cabaa301a5c100bba0c", null ],
       [ "showSelectedFaces_", "classMR_1_1ObjectMeshHolder.html#ab0bf0b80cfcbea1dbaa1b6756875f04d", null ],
       [ "totalArea_", "classMR_1_1ObjectMeshHolder.html#abfac8fd9808955939be1f0186cbdb896", null ],
-      [ "worldBox_", "classMR_1_1ObjectMeshHolder.html#a5c528b52891a63f20ed7dbc0728f5e65", null ]
+      [ "worldBox_", "classMR_1_1ObjectMeshHolder.html#a33c3cd830b02b4b20f5c72a8bf2f7a47", null ]
     ] ],
     [ "MR::ObjectPointsHolder", "classMR_1_1ObjectPointsHolder.html", [
       [ "ObjectPointsHolder", "classMR_1_1ObjectPointsHolder.html#a18cfe61ccf4c9bfd32aa9b16db4e68ce", null ],
@@ -140,7 +140,7 @@ var group__ModelHolderGroup =
       [ "getSelectedPoints", "classMR_1_1ObjectPointsHolder.html#ad8bde1f8aa5e5c2b7abd5eaa069f4cba", null ],
       [ "getSelectedVerticesColor", "classMR_1_1ObjectPointsHolder.html#aaeb7aaee6d86b069875588880b0a322f", null ],
       [ "getVisualizePropertyMask", "classMR_1_1ObjectPointsHolder.html#afbc2556aa91e8d7295d05f97ae0b7ed8", null ],
-      [ "getWorldBox", "classMR_1_1ObjectPointsHolder.html#a840e99284a25e2d13fcd07ea825fb07b", null ],
+      [ "getWorldBox", "classMR_1_1ObjectPointsHolder.html#ac7185971e31bea27e35f17cf9c4254d9", null ],
       [ "hasVisualRepresentation", "classMR_1_1ObjectPointsHolder.html#aaf5a84fb8a05f5651aee309a512efb74", null ],
       [ "heapBytes", "classMR_1_1ObjectPointsHolder.html#a2646bd14bb792576389645ad9483bc0a", null ],
       [ "numSelectedPoints", "classMR_1_1ObjectPointsHolder.html#a54c093ecf7ef8fa2397f85b65631c47a", null ],
@@ -164,6 +164,6 @@ var group__ModelHolderGroup =
       [ "selectedPoints_", "classMR_1_1ObjectPointsHolder.html#a63b094a393073c94e180aece5eeb0729", null ],
       [ "selectedVerticesColor_", "classMR_1_1ObjectPointsHolder.html#a7fc50245fcddeca01b14d36eb0c3342a", null ],
       [ "showSelectedVertices_", "classMR_1_1ObjectPointsHolder.html#a48270cb125e897505184be1003eb4500", null ],
-      [ "worldBox_", "classMR_1_1ObjectPointsHolder.html#acab8755592e3b28cdcecbcf452c921e5", null ]
+      [ "worldBox_", "classMR_1_1ObjectPointsHolder.html#a896a4967afa85824de6ebc22a609a95d", null ]
     ] ]
 ];

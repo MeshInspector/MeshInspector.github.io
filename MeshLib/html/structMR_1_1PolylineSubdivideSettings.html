@@ -124,6 +124,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a99ce30c33108d826ab31a84dcfb796e9"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PolylineSubdivideSettings.html#a99ce30c33108d826ab31a84dcfb796e9">onVertCreated</a></td></tr>
 <tr class="memdesc:a99ce30c33108d826ab31a84dcfb796e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time a new vertex has been created  <a href="structMR_1_1PolylineSubdivideSettings.html#a99ce30c33108d826ab31a84dcfb796e9">More...</a><br /></td></tr>
 <tr class="separator:a99ce30c33108d826ab31a84dcfb796e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fb7e5a3cc422db6b191956e2e931bff"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e1, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PolylineSubdivideSettings.html#a6fb7e5a3cc422db6b191956e2e931bff">onEdgeSplit</a></td></tr>
+<tr class="memdesc:a6fb7e5a3cc422db6b191956e2e931bff"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time edge (e) is split into (e1-&gt;e)  <a href="structMR_1_1PolylineSubdivideSettings.html#a6fb7e5a3cc422db6b191956e2e931bff">More...</a><br /></td></tr>
+<tr class="separator:a6fb7e5a3cc422db6b191956e2e931bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd1b05e15df328d6581de39d05ef0ba2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PolylineSubdivideSettings.html#afd1b05e15df328d6581de39d05ef0ba2">progressCallback</a> = {}</td></tr>
 <tr class="memdesc:afd1b05e15df328d6581de39d05ef0ba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback to report algorithm progress and cancel it by user request  <a href="structMR_1_1PolylineSubdivideSettings.html#afd1b05e15df328d6581de39d05ef0ba2">More...</a><br /></td></tr>
 <tr class="separator:afd1b05e15df328d6581de39d05ef0ba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,6 +177,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>New vertices appeared during subdivision will be added here. </p>
+
+</div>
+</div>
+<a id="a6fb7e5a3cc422db6b191956e2e931bff" name="a6fb7e5a3cc422db6b191956e2e931bff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fb7e5a3cc422db6b191956e2e931bff">&#9670;&#160;</a></span>onEdgeSplit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;void(<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e1, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e)&gt; MR::PolylineSubdivideSettings::onEdgeSplit</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>this function is called each time edge (e) is split into (e1-&gt;e) </p>
 
 </div>
 </div>

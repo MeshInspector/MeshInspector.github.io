@@ -25,7 +25,7 @@ var classMR_1_1ObjectMeshHolder =
     [ "getSelectedFaces", "classMR_1_1ObjectMeshHolder.html#a697b65bd9396e5efa3f7a8645c661485", null ],
     [ "getSelectedFacesColor", "classMR_1_1ObjectMeshHolder.html#ac5d1270d9720639174e70a7245dc8416", null ],
     [ "getVisualizePropertyMask", "classMR_1_1ObjectMeshHolder.html#ac0f13f89df19885b41e35136217f58b8", null ],
-    [ "getWorldBox", "classMR_1_1ObjectMeshHolder.html#a00bbd9955813e695a4cf783c075e7398", null ],
+    [ "getWorldBox", "classMR_1_1ObjectMeshHolder.html#a2f0c431e946a273dfa9a2bb927206291", null ],
     [ "hasVisualRepresentation", "classMR_1_1ObjectMeshHolder.html#a549b865eb174f604dfc2c5e9039e4c49", null ],
     [ "heapBytes", "classMR_1_1ObjectMeshHolder.html#a5e7e533cdcddd1d2a4fbf5fba6b9d607", null ],
     [ "isMeshClosed", "classMR_1_1ObjectMeshHolder.html#adc32b4c9b303a885eadfbde1f3b7eeb0", null ],
@@ -37,7 +37,7 @@ var classMR_1_1ObjectMeshHolder =
     [ "numSelectedFaces", "classMR_1_1ObjectMeshHolder.html#ac66f8710ce4b8991eb62b48ee5c94585", null ],
     [ "operator=", "classMR_1_1ObjectMeshHolder.html#a9b6725a731d27509c295fc3a0acd2bfd", null ],
     [ "resetDirtyExeptMask", "classMR_1_1ObjectMeshHolder.html#a88a38468df719c7fd273aa92b2fea426", null ],
-    [ "selectEdges", "classMR_1_1ObjectMeshHolder.html#af42e9d3306f41c8d9d5036242be42c07", null ],
+    [ "selectEdges", "classMR_1_1ObjectMeshHolder.html#a6d9dce6f8274d0a26509ac4ec953985f", null ],
     [ "selectFaces", "classMR_1_1ObjectMeshHolder.html#a9dd8c2355f747dedea3a0f888c09e6da", null ],
     [ "serializeFields_", "classMR_1_1ObjectMeshHolder.html#a94d5dc0f646051e69cc9e5c89ad68f0d", null ],
     [ "serializeModel_", "classMR_1_1ObjectMeshHolder.html#a3fc65ebf1db830952a0f58c249d77dd5", null ],
@@ -79,5 +79,5 @@ var classMR_1_1ObjectMeshHolder =
     [ "showSelectedEdges_", "classMR_1_1ObjectMeshHolder.html#ad879a1f93bfd6cabaa301a5c100bba0c", null ],
     [ "showSelectedFaces_", "classMR_1_1ObjectMeshHolder.html#ab0bf0b80cfcbea1dbaa1b6756875f04d", null ],
     [ "totalArea_", "classMR_1_1ObjectMeshHolder.html#abfac8fd9808955939be1f0186cbdb896", null ],
-    [ "worldBox_", "classMR_1_1ObjectMeshHolder.html#a5c528b52891a63f20ed7dbc0728f5e65", null ]
+    [ "worldBox_", "classMR_1_1ObjectMeshHolder.html#a33c3cd830b02b4b20f5c72a8bf2f7a47", null ]
 ];

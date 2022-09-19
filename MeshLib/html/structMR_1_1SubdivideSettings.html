@@ -123,6 +123,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a5e24bf5e1bf140cdfac3cc68b9a693fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#a5e24bf5e1bf140cdfac3cc68b9a693fa">region</a> = nullptr</td></tr>
 <tr class="memdesc:a5e24bf5e1bf140cdfac3cc68b9a693fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Region on mesh to be subdivided, it is updated during the operation.  <a href="structMR_1_1SubdivideSettings.html#a5e24bf5e1bf140cdfac3cc68b9a693fa">More...</a><br /></td></tr>
 <tr class="separator:a5e24bf5e1bf140cdfac3cc68b9a693fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a688163b4d6a35f5b8af9748a92167d62"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#a688163b4d6a35f5b8af9748a92167d62">notFlippable</a> = nullptr</td></tr>
+<tr class="memdesc:a688163b4d6a35f5b8af9748a92167d62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edges specified by this bit-set will never be flipped.  <a href="structMR_1_1SubdivideSettings.html#a688163b4d6a35f5b8af9748a92167d62">More...</a><br /></td></tr>
+<tr class="separator:a688163b4d6a35f5b8af9748a92167d62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4c50e1143edfb7886c734be3226ff9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d">newVerts</a> = nullptr</td></tr>
 <tr class="memdesc:af4c50e1143edfb7886c734be3226ff9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">New vertices appeared during subdivision will be added here.  <a href="structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d">More...</a><br /></td></tr>
 <tr class="separator:af4c50e1143edfb7886c734be3226ff9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,6 +138,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a9e8653d42d8358f40dca297f675d4111"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#a9e8653d42d8358f40dca297f675d4111">onVertCreated</a></td></tr>
 <tr class="memdesc:a9e8653d42d8358f40dca297f675d4111"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time a new vertex has been created, but before the ring is made Delone  <a href="structMR_1_1SubdivideSettings.html#a9e8653d42d8358f40dca297f675d4111">More...</a><br /></td></tr>
 <tr class="separator:a9e8653d42d8358f40dca297f675d4111"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcfc1a9eeddefe49c96b100fce1be413"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e1, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413">onEdgeSplit</a></td></tr>
+<tr class="memdesc:afcfc1a9eeddefe49c96b100fce1be413"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone  <a href="structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413">More...</a><br /></td></tr>
+<tr class="separator:afcfc1a9eeddefe49c96b100fce1be413"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad044782ba14d1d93d9140190393d28ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#ad044782ba14d1d93d9140190393d28ce">progressCallback</a> = {}</td></tr>
 <tr class="memdesc:ad044782ba14d1d93d9140190393d28ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback to report algorithm progress and cancel it by user request  <a href="structMR_1_1SubdivideSettings.html#ad044782ba14d1d93d9140190393d28ce">More...</a><br /></td></tr>
 <tr class="separator:ad044782ba14d1d93d9140190393d28ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -233,6 +239,38 @@ this parameter prevents subdivision of such triangles </p>
 </div><div class="memdoc">
 
 <p>New vertices appeared during subdivision will be added here. </p>
+
+</div>
+</div>
+<a id="a688163b4d6a35f5b8af9748a92167d62" name="a688163b4d6a35f5b8af9748a92167d62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a688163b4d6a35f5b8af9748a92167d62">&#9670;&#160;</a></span>notFlippable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a>* MR::SubdivideSettings::notFlippable = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Edges specified by this bit-set will never be flipped. </p>
+
+</div>
+</div>
+<a id="afcfc1a9eeddefe49c96b100fce1be413" name="afcfc1a9eeddefe49c96b100fce1be413"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcfc1a9eeddefe49c96b100fce1be413">&#9670;&#160;</a></span>onEdgeSplit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;void(<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e1, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e)&gt; MR::SubdivideSettings::onEdgeSplit</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone </p>
 
 </div>
 </div>

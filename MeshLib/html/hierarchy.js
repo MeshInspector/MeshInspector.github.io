@@ -64,6 +64,10 @@ var hierarchy =
       [ "MR::MultiListener< DragDropListener >", "structMR_1_1MultiListener.html", [
         [ "MR::OpenFilesMenuItem", "classMR_1_1OpenFilesMenuItem.html", null ]
       ] ],
+      [ "MR::MultiListener< MouseDownListener, MouseMoveListener, MouseUpListener >", "structMR_1_1MultiListener.html", [
+        [ "MR::PlaneWidget", "classMR_1_1PlaneWidget.html", null ],
+        [ "MR::SurfacePointWidget", "classMR_1_1SurfacePointWidget.html", null ]
+      ] ],
       [ "MR::MultiListener< PreDrawListener >", "structMR_1_1MultiListener.html", [
         [ "MR::ResetSceneMenuItem", "classMR_1_1ResetSceneMenuItem.html", null ]
       ] ],
@@ -72,9 +76,6 @@ var hierarchy =
       ] ],
       [ "MR::MultiListener< PreDrawListener, InterruptCloseListener >", "structMR_1_1MultiListener.html", [
         [ "MR::SaveOnClosePlugin", "classMR_1_1SaveOnClosePlugin.html", null ]
-      ] ],
-      [ "MR::MultiListener< MouseDownListener, MouseMoveListener, MouseUpListener >", "structMR_1_1MultiListener.html", [
-        [ "MR::SurfacePointWidget", "classMR_1_1SurfacePointWidget.html", null ]
       ] ],
       [ "MR::MultiListener< Connectables >", "structMR_1_1MultiListener.html", null ]
     ] ],
@@ -124,6 +125,7 @@ var hierarchy =
     [ "MR::MeshBuilder::FaceRecord", "structMR_1_1MeshBuilder_1_1FaceRecord.html", null ],
     [ "MR::File", "classMR_1_1File.html", null ],
     [ "MR::FileParameters", "structMR_1_1FileParameters.html", null ],
+    [ "MR::FillHoleItem", "structMR_1_1FillHoleItem.html", null ],
     [ "MR::FillHoleMetric", "structMR_1_1FillHoleMetric.html", null ],
     [ "MR::FillHoleParams", "structMR_1_1FillHoleParams.html", null ],
     [ "MR::Viewport::FitDataParams", "structMR_1_1Viewport_1_1FitDataParams.html", null ],
@@ -152,6 +154,7 @@ var hierarchy =
       [ "MR::ChangeNameAction", "classMR_1_1ChangeNameAction.html", null ],
       [ "MR::ChangeObjectAction", "classMR_1_1ChangeObjectAction.html", null ],
       [ "MR::ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html", null ],
+      [ "MR::ChangePointCloudNormalsAction", "classMR_1_1ChangePointCloudNormalsAction.html", null ],
       [ "MR::ChangePointPointSelectionAction", "classMR_1_1ChangePointPointSelectionAction.html", null ],
       [ "MR::ChangePolylineAction", "classMR_1_1ChangePolylineAction.html", null ],
       [ "MR::ChangePolylinePointsAction", "classMR_1_1ChangePolylinePointsAction.html", null ],
@@ -491,7 +494,7 @@ var hierarchy =
     [ "MR::Vector< char, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< Color, Id< Tag > >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< Color, VertId >", "classMR_1_1Vector.html", null ],
-    [ "MR::Vector< EdgeId, EdgeId >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< EdgeId, UndirectedEdgeId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< FaceId, FaceId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< float, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< HalfEdgeRecord, MR::Id< EdgeTag > >", "classMR_1_1Vector.html", null ],
@@ -530,6 +533,9 @@ var hierarchy =
     [ "MR::ViewportLinesWithColors", "structMR_1_1ViewportLinesWithColors.html", null ],
     [ "MR::ViewportMask", "classMR_1_1ViewportMask.html", null ],
     [ "MR::ViewportPointsWithColors", "structMR_1_1ViewportPointsWithColors.html", null ],
+    [ "MR::ViewportProperty< T >", "classMR_1_1ViewportProperty.html", null ],
+    [ "MR::ViewportProperty< MR::AffineXf >", "classMR_1_1ViewportProperty.html", null ],
+    [ "MR::ViewportProperty< MR::XfBasedCache< MR::Box > >", "classMR_1_1ViewportProperty.html", null ],
     [ "MR::VisualizeMaskType", "structMR_1_1VisualizeMaskType.html", [
       [ "MR::LabelVisualizePropertyType", "structMR_1_1LabelVisualizePropertyType.html", null ],
       [ "MR::LinesVisualizePropertyType", "structMR_1_1LinesVisualizePropertyType.html", null ],

@@ -128,6 +128,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ada79e353b7a72ed40a42bc08b60cc225"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#ada79e353b7a72ed40a42bc08b60cc225">addPoint</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;point, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;normal)</td></tr>
 <tr class="memdesc:ada79e353b7a72ed40a42bc08b60cc225"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends a point with normal and returns its VertId  <a href="structMR_1_1PointCloud.html#ada79e353b7a72ed40a42bc08b60cc225">More...</a><br /></td></tr>
 <tr class="separator:ada79e353b7a72ed40a42bc08b60cc225"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74fb469992209dc4114c864cd3cb38a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#a74fb469992209dc4114c864cd3cb38a5">mirror</a> (const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">Plane3f</a> &amp;plane)</td></tr>
+<tr class="memdesc:a74fb469992209dc4114c864cd3cb38a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">reflects the points from a given plane  <a href="structMR_1_1PointCloud.html#a74fb469992209dc4114c864cd3cb38a5">More...</a><br /></td></tr>
+<tr class="separator:a74fb469992209dc4114c864cd3cb38a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7c257206a284f22b8e2484b87436069"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#ab7c257206a284f22b8e2484b87436069">invalidateCaches</a> ()</td></tr>
 <tr class="memdesc:ab7c257206a284f22b8e2484b87436069"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidates caches (e.g. aabb-tree) after a change in point cloud.  <a href="structMR_1_1PointCloud.html#ab7c257206a284f22b8e2484b87436069">More...</a><br /></td></tr>
 <tr class="separator:ab7c257206a284f22b8e2484b87436069"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -356,6 +359,26 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Invalidates caches (e.g. aabb-tree) after a change in point cloud. </p>
+
+</div>
+</div>
+<a id="a74fb469992209dc4114c864cd3cb38a5" name="a74fb469992209dc4114c864cd3cb38a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74fb469992209dc4114c864cd3cb38a5">&#9670;&#160;</a></span>mirror()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::PointCloud::mirror </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">Plane3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>plane</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>reflects the points from a given plane </p>
 
 </div>
 </div>

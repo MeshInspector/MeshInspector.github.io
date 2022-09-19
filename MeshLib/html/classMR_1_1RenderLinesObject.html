@@ -130,6 +130,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a25db5445ddf1fea48fe51be05daa5605"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RenderLinesObject.html#a25db5445ddf1fea48fe51be05daa5605">heapBytes</a> () const override</td></tr>
 <tr class="memdesc:a25db5445ddf1fea48fe51be05daa5605"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <a href="classMR_1_1RenderLinesObject.html#a25db5445ddf1fea48fe51be05daa5605">More...</a><br /></td></tr>
 <tr class="separator:a25db5445ddf1fea48fe51be05daa5605"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a536334f5c2028c4b2480759621cc6e9a"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RenderLinesObject.html#a536334f5c2028c4b2480759621cc6e9a">glBytes</a> () const override</td></tr>
+<tr class="memdesc:a536334f5c2028c4b2480759621cc6e9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object allocated in OpenGL  <a href="classMR_1_1RenderLinesObject.html#a536334f5c2028c4b2480759621cc6e9a">More...</a><br /></td></tr>
+<tr class="separator:a536334f5c2028c4b2480759621cc6e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84c3a8d6e9caedfefff441da8809dec0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RenderLinesObject.html#a84c3a8d6e9caedfefff441da8809dec0">forceBindAll</a> () override</td></tr>
+<tr class="memdesc:a84c3a8d6e9caedfefff441da8809dec0"><td class="mdescLeft">&#160;</td><td class="mdescRight">binds all data for this render object, not to bind ever again (until object becomes dirty)  <a href="classMR_1_1RenderLinesObject.html#a84c3a8d6e9caedfefff441da8809dec0">More...</a><br /></td></tr>
+<tr class="separator:a84c3a8d6e9caedfefff441da8809dec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a767892d3e11b58dbea9d84cccd1a494f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RenderLinesObject.html#a767892d3e11b58dbea9d84cccd1a494f">actualLineWidth</a> () const</td></tr>
 <tr class="separator:a767892d3e11b58dbea9d84cccd1a494f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1IRenderObject"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classMR_1_1IRenderObject')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMR_1_1IRenderObject.html">MR::IRenderObject</a></td></tr>
@@ -142,24 +148,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1dc3333e9c2b95b66b8a37cd4e04d699 inherit pub_methods_classMR_1_1IRenderObject"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IRenderObject.html#a1dc3333e9c2b95b66b8a37cd4e04d699">heapBytes</a> () const =0</td></tr>
 <tr class="memdesc:a1dc3333e9c2b95b66b8a37cd4e04d699 inherit pub_methods_classMR_1_1IRenderObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <a href="classMR_1_1IRenderObject.html#a1dc3333e9c2b95b66b8a37cd4e04d699">More...</a><br /></td></tr>
 <tr class="separator:a1dc3333e9c2b95b66b8a37cd4e04d699 inherit pub_methods_classMR_1_1IRenderObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3cd8ddb58da89d31edd3159a4e59e76 inherit pub_methods_classMR_1_1IRenderObject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1IRenderObject.html#a27edc70c26bab9e3e15050099566ed3c">BufferMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IRenderObject.html#aa3cd8ddb58da89d31edd3159a4e59e76">getBufferMode</a> () const</td></tr>
-<tr class="memdesc:aa3cd8ddb58da89d31edd3159a4e59e76 inherit pub_methods_classMR_1_1IRenderObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns internal buffer mode  <a href="classMR_1_1IRenderObject.html#aa3cd8ddb58da89d31edd3159a4e59e76">More...</a><br /></td></tr>
-<tr class="separator:aa3cd8ddb58da89d31edd3159a4e59e76 inherit pub_methods_classMR_1_1IRenderObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25bc8d19706f0ce74445bb75f3bc2ec5 inherit pub_methods_classMR_1_1IRenderObject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IRenderObject.html#a25bc8d19706f0ce74445bb75f3bc2ec5">setBufferMode</a> (<a class="el" href="classMR_1_1IRenderObject.html#a27edc70c26bab9e3e15050099566ed3c">BufferMode</a> bufferMode)</td></tr>
-<tr class="memdesc:a25bc8d19706f0ce74445bb75f3bc2ec5 inherit pub_methods_classMR_1_1IRenderObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets internal buffer mode  <a href="classMR_1_1IRenderObject.html#a25bc8d19706f0ce74445bb75f3bc2ec5">More...</a><br /></td></tr>
-<tr class="separator:a25bc8d19706f0ce74445bb75f3bc2ec5 inherit pub_methods_classMR_1_1IRenderObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_types_classMR_1_1IRenderObject"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classMR_1_1IRenderObject')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classMR_1_1IRenderObject.html">MR::IRenderObject</a></td></tr>
-<tr class="memitem:a27edc70c26bab9e3e15050099566ed3c inherit pub_types_classMR_1_1IRenderObject"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IRenderObject.html#a27edc70c26bab9e3e15050099566ed3c">BufferMode</a> { <a class="el" href="classMR_1_1IRenderObject.html#a27edc70c26bab9e3e15050099566ed3ca54567c8b51090adcc92a5a63aeac58c0">AllocationEfficient</a>
-, <a class="el" href="classMR_1_1IRenderObject.html#a27edc70c26bab9e3e15050099566ed3ca9fbfa3026b434858721a4e6b702fd85d">MemoryEfficient</a>
- }</td></tr>
-<tr class="memdesc:a27edc70c26bab9e3e15050099566ed3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">the way the internal buffers are dealt with  <a href="classMR_1_1IRenderObject.html#a27edc70c26bab9e3e15050099566ed3c">More...</a><br /></td></tr>
-<tr class="separator:a27edc70c26bab9e3e15050099566ed3c inherit pub_types_classMR_1_1IRenderObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1IRenderObject"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classMR_1_1IRenderObject')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1IRenderObject.html">MR::IRenderObject</a></td></tr>
-<tr class="memitem:af01e1906ce2d508d0486ad488c920abb inherit pro_attribs_classMR_1_1IRenderObject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1IRenderObject.html#a27edc70c26bab9e3e15050099566ed3c">BufferMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IRenderObject.html#af01e1906ce2d508d0486ad488c920abb">bufferMode_</a> { <a class="el" href="classMR_1_1IRenderObject.html#a27edc70c26bab9e3e15050099566ed3ca54567c8b51090adcc92a5a63aeac58c0">AllocationEfficient</a> }</td></tr>
-<tr class="separator:af01e1906ce2d508d0486ad488c920abb inherit pro_attribs_classMR_1_1IRenderObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae83a35d34104416076644577c45f084b inherit pub_methods_classMR_1_1IRenderObject"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IRenderObject.html#ae83a35d34104416076644577c45f084b">glBytes</a> () const =0</td></tr>
+<tr class="memdesc:ae83a35d34104416076644577c45f084b inherit pub_methods_classMR_1_1IRenderObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object allocated in OpenGL  <a href="classMR_1_1IRenderObject.html#ae83a35d34104416076644577c45f084b">More...</a><br /></td></tr>
+<tr class="separator:ae83a35d34104416076644577c45f084b inherit pub_methods_classMR_1_1IRenderObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cc3204a31145ab371e129da393b7215 inherit pub_methods_classMR_1_1IRenderObject"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IRenderObject.html#a6cc3204a31145ab371e129da393b7215">forceBindAll</a> ()</td></tr>
+<tr class="memdesc:a6cc3204a31145ab371e129da393b7215 inherit pub_methods_classMR_1_1IRenderObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">binds all data for this render object, not to bind ever again (until object becomes dirty)  <a href="classMR_1_1IRenderObject.html#a6cc3204a31145ab371e129da393b7215">More...</a><br /></td></tr>
+<tr class="separator:a6cc3204a31145ab371e129da393b7215 inherit pub_methods_classMR_1_1IRenderObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a58baf835fad2015a8cef32639cd2115d" name="a58baf835fad2015a8cef32639cd2115d"></a>
@@ -212,6 +206,64 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a84c3a8d6e9caedfefff441da8809dec0" name="a84c3a8d6e9caedfefff441da8809dec0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84c3a8d6e9caedfefff441da8809dec0">&#9670;&#160;</a></span>forceBindAll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MR::RenderLinesObject::forceBindAll </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>binds all data for this render object, not to bind ever again (until object becomes dirty) </p>
+
+<p>Reimplemented from <a class="el" href="classMR_1_1IRenderObject.html#a6cc3204a31145ab371e129da393b7215">MR::IRenderObject</a>.</p>
+
+</div>
+</div>
+<a id="a536334f5c2028c4b2480759621cc6e9a" name="a536334f5c2028c4b2480759621cc6e9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a536334f5c2028c4b2480759621cc6e9a">&#9670;&#160;</a></span>glBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual size_t MR::RenderLinesObject::glBytes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the amount of memory this object allocated in OpenGL </p>
+
+<p>Implements <a class="el" href="classMR_1_1IRenderObject.html#ae83a35d34104416076644577c45f084b">MR::IRenderObject</a>.</p>
 
 </div>
 </div>

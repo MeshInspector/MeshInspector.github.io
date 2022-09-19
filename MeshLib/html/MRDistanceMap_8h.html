@@ -110,6 +110,7 @@ $(document).ready(function(){initNavTree('MRDistanceMap_8h.html',''); initResiza
 <code>#include &quot;<a class="el" href="MRDistanceMapParams_8h_source.html">MRDistanceMapParams.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRPolyline2_8h_source.html">MRPolyline2.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRHeapBytes_8h_source.html">MRHeapBytes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRImage_8h_source.html">MRImage.h</a>&quot;</code><br />
 <code>#include &lt;tl/expected.hpp&gt;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
@@ -166,8 +167,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga14e2ca40329157ab1e6505de903fee55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Mesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#ga14e2ca40329157ab1e6505de903fee55">MR::distanceMapToMesh</a> (const DistanceMap &amp;distMap, const DistanceMapToWorld &amp;toWorldStruct)</td></tr>
 <tr class="memdesc:ga14e2ca40329157ab1e6505de903fee55"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts distance map back to the mesh fragment with presented params  <a href="group__DistanceMapGroup.html#ga14e2ca40329157ab1e6505de903fee55">More...</a><br /></td></tr>
 <tr class="separator:ga14e2ca40329157ab1e6505de903fee55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaced7621941d605b806e9e2e807be7d5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#gaced7621941d605b806e9e2e807be7d5f">MR::saveDistanceMapToImage</a> (const DistanceMap &amp;distMap, const std::filesystem::path &amp;filename)</td></tr>
-<tr class="separator:gaced7621941d605b806e9e2e807be7d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabfcd1289c0caec5d6a362c2784b8c984"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#gabfcd1289c0caec5d6a362c2784b8c984">MR::saveDistanceMapToImage</a> (const DistanceMap &amp;distMap, const std::filesystem::path &amp;filename, float threshold=1.f/255)</td></tr>
+<tr class="separator:gabfcd1289c0caec5d6a362c2784b8c984"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga93d62805114cb67a6ca8e1f9698dae51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; DistanceMap, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#ga93d62805114cb67a6ca8e1f9698dae51">MR::convertImageToDistanceMap</a> (const Image &amp;image, float threshold=1.f/255)</td></tr>
+<tr class="separator:ga93d62805114cb67a6ca8e1f9698dae51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadbee6a2fc88cfd473ca9702fe2e1e4b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; DistanceMap, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#gadbee6a2fc88cfd473ca9702fe2e1e4b5">MR::loadDistanceMapFromImage</a> (const std::filesystem::path &amp;filename, float threshold=1.f/255)</td></tr>
+<tr class="separator:gadbee6a2fc88cfd473ca9702fe2e1e4b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

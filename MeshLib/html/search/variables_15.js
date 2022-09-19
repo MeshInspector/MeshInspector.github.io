@@ -12,8 +12,8 @@ var searchData=
   ['windowsavepos_9',['windowSavePos',['../classMR_1_1Viewer.html#ace49ac281b241eab9e8e5f1aae4bcdbe',1,'MR::Viewer']]],
   ['windowsavesize_10',['windowSaveSize',['../classMR_1_1Viewer.html#a2b4fb1e2f21f33e213858ab579eb8620',1,'MR::Viewer']]],
   ['withsign_11',['withSign',['../structMR_1_1ContourToDistanceMapParams.html#afe6ef70a540df80fca43fb338ca681ce',1,'MR::ContourToDistanceMapParams']]],
-  ['worldbox_5f_12',['worldBox_',['../classMR_1_1ObjectLinesHolder.html#ab981ff2c440ecf1af75a6afb682219ab',1,'MR::ObjectLinesHolder::worldBox_()'],['../classMR_1_1ObjectMeshHolder.html#a5c528b52891a63f20ed7dbc0728f5e65',1,'MR::ObjectMeshHolder::worldBox_()'],['../classMR_1_1ObjectPointsHolder.html#acab8755592e3b28cdcecbcf452c921e5',1,'MR::ObjectPointsHolder::worldBox_()']]],
+  ['worldbox_5f_12',['worldBox_',['../classMR_1_1ObjectLinesHolder.html#af3f76f7286057cda0116754b663cf340',1,'MR::ObjectLinesHolder::worldBox_()'],['../classMR_1_1ObjectMeshHolder.html#a33c3cd830b02b4b20f5c72a8bf2f7a47',1,'MR::ObjectMeshHolder::worldBox_()'],['../classMR_1_1ObjectPointsHolder.html#a896a4967afa85824de6ebc22a609a95d',1,'MR::ObjectPointsHolder::worldBox_()']]],
   ['worldspace_13',['worldSpace',['../structMR_1_1Viewer_1_1PointInAllSpaces.html#af0e6467cf5ce1121ba9569986f7d5d53',1,'MR::Viewer::PointInAllSpaces']]],
   ['worldxfchangedsignal_14',['worldXfChangedSignal',['../classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964',1,'MR::Object']]],
-  ['wrap_15',['wrap',['../structMR_1_1MeshTexture.html#a9f0080cf57dd390d999bf20218ad378a',1,'MR::MeshTexture::wrap()'],['../structMR_1_1GlTexture2_1_1Settings.html#aa038ce265e444abd9154a7fbf4798ca3',1,'MR::GlTexture2::Settings::wrap()']]]
+  ['wrap_15',['wrap',['../structMR_1_1MeshTexture.html#ab1d9b311e280516bb81e8749bfb440bc',1,'MR::MeshTexture::wrap()'],['../structMR_1_1GlTexture2_1_1Settings.html#a42b6be0c848d4bbc069954aee39871d9',1,'MR::GlTexture2::Settings::wrap()']]]
 ];

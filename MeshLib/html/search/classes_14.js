@@ -15,7 +15,7 @@ var searchData=
   ['vector_3c_20char_2c_20mr_3a_3aid_20_3e_12',['Vector&lt; char, MR::Id &gt;',['../classMR_1_1Vector.html',1,'MR']]],
   ['vector_3c_20color_2c_20id_3c_20tag_20_3e_20_3e_13',['Vector&lt; Color, Id&lt; Tag &gt; &gt;',['../classMR_1_1Vector.html',1,'MR']]],
   ['vector_3c_20color_2c_20vertid_20_3e_14',['Vector&lt; Color, VertId &gt;',['../classMR_1_1Vector.html',1,'MR']]],
-  ['vector_3c_20edgeid_2c_20edgeid_20_3e_15',['Vector&lt; EdgeId, EdgeId &gt;',['../classMR_1_1Vector.html',1,'MR']]],
+  ['vector_3c_20edgeid_2c_20undirectededgeid_20_3e_15',['Vector&lt; EdgeId, UndirectedEdgeId &gt;',['../classMR_1_1Vector.html',1,'MR']]],
   ['vector_3c_20faceid_2c_20faceid_20_3e_16',['Vector&lt; FaceId, FaceId &gt;',['../classMR_1_1Vector.html',1,'MR']]],
   ['vector_3c_20float_2c_20mr_3a_3aid_20_3e_17',['Vector&lt; float, MR::Id &gt;',['../classMR_1_1Vector.html',1,'MR']]],
   ['vector_3c_20halfedgerecord_2c_20mr_3a_3aid_3c_20edgetag_20_3e_20_3e_18',['Vector&lt; HalfEdgeRecord, MR::Id&lt; EdgeTag &gt; &gt;',['../classMR_1_1Vector.html',1,'MR']]],
@@ -50,10 +50,13 @@ var searchData=
   ['viewportlineswithcolors_47',['ViewportLinesWithColors',['../structMR_1_1ViewportLinesWithColors.html',1,'MR']]],
   ['viewportmask_48',['ViewportMask',['../classMR_1_1ViewportMask.html',1,'MR']]],
   ['viewportpointswithcolors_49',['ViewportPointsWithColors',['../structMR_1_1ViewportPointsWithColors.html',1,'MR']]],
-  ['visualizemasktype_50',['VisualizeMaskType',['../structMR_1_1VisualizeMaskType.html',1,'MR']]],
-  ['visualobject_51',['VisualObject',['../classMR_1_1VisualObject.html',1,'MR']]],
-  ['volumeindexer_52',['VolumeIndexer',['../classMR_1_1VolumeIndexer.html',1,'MR']]],
-  ['volumesegmentationparameters_53',['VolumeSegmentationParameters',['../structMR_1_1VolumeSegmentationParameters.html',1,'MR']]],
-  ['volumesegmenter_54',['VolumeSegmenter',['../classMR_1_1VolumeSegmenter.html',1,'MR']]],
-  ['voxelmetricparameters_55',['VoxelMetricParameters',['../structMR_1_1VoxelMetricParameters.html',1,'MR']]]
+  ['viewportproperty_50',['ViewportProperty',['../classMR_1_1ViewportProperty.html',1,'MR']]],
+  ['viewportproperty_3c_20mr_3a_3aaffinexf_20_3e_51',['ViewportProperty&lt; MR::AffineXf &gt;',['../classMR_1_1ViewportProperty.html',1,'MR']]],
+  ['viewportproperty_3c_20mr_3a_3axfbasedcache_3c_20mr_3a_3abox_20_3e_20_3e_52',['ViewportProperty&lt; MR::XfBasedCache&lt; MR::Box &gt; &gt;',['../classMR_1_1ViewportProperty.html',1,'MR']]],
+  ['visualizemasktype_53',['VisualizeMaskType',['../structMR_1_1VisualizeMaskType.html',1,'MR']]],
+  ['visualobject_54',['VisualObject',['../classMR_1_1VisualObject.html',1,'MR']]],
+  ['volumeindexer_55',['VolumeIndexer',['../classMR_1_1VolumeIndexer.html',1,'MR']]],
+  ['volumesegmentationparameters_56',['VolumeSegmentationParameters',['../structMR_1_1VolumeSegmentationParameters.html',1,'MR']]],
+  ['volumesegmenter_57',['VolumeSegmenter',['../classMR_1_1VolumeSegmenter.html',1,'MR']]],
+  ['voxelmetricparameters_58',['VoxelMetricParameters',['../structMR_1_1VoxelMetricParameters.html',1,'MR']]]
 ];

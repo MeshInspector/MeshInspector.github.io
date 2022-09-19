@@ -109,6 +109,7 @@ var MRMeshFwd_8h =
     [ "TriPointd", "MRMeshFwd_8h.html#a3928bf55d6ab85ff0bc8ff5accfe4d0c", null ],
     [ "TriPointf", "MRMeshFwd_8h.html#abe916bf46259db0a67f17649f44a47d4", null ],
     [ "UndirectedEdgeBitSet", "MRMeshFwd_8h.html#ae5a4467feb7b60cd337643529597aaaa", null ],
+    [ "UndirectedEdgeHashMap", "MRMeshFwd_8h.html#a4333356dc2e6a2c01aca10772141dbb8", null ],
     [ "UndirectedEdgeId", "MRMeshFwd_8h.html#a65798dca01178b50da3bbd7968fb360e", null ],
     [ "UndirectedEdgeMap", "MRMeshFwd_8h.html#abd82628c134a94d75af8473678e5c843", null ],
     [ "UndirectedEdgeSetBitIterator", "MRMeshFwd_8h.html#a5e1e7c1a6c9b6bef82ecf335077705f4", null ],
@@ -139,6 +140,17 @@ var MRMeshFwd_8h =
     [ "VertSetBitIterator", "MRMeshFwd_8h.html#a781eba660f55f4745e1770f2b1c8b003", null ],
     [ "VoxelBitSet", "MRMeshFwd_8h.html#a554ecd806e7de55aceb363940928dac0", null ],
     [ "VoxelId", "MRMeshFwd_8h.html#a9ccb1b94958c98c5b5971b94fbfdb761", null ],
+    [ "WholeEdgeHashMap", "MRMeshFwd_8h.html#ab2730d7016e74f0d069e3f5791ae76dc", null ],
+    [ "WholeEdgeMap", "MRMeshFwd_8h.html#ab8a64e1ae478a6733cc6c0ab4441d0b9", null ],
+    [ "FilterType", "MRMeshFwd_8h.html#a6b6dd7eadc1056fc5ffd8af1810d925a", [
+      [ "Linear", "MRMeshFwd_8h.html#a6b6dd7eadc1056fc5ffd8af1810d925aa32a843da6ea40ab3b17a3421ccdf671b", null ],
+      [ "Discrete", "MRMeshFwd_8h.html#a6b6dd7eadc1056fc5ffd8af1810d925aa4984667940802dedc139aa7a430a6553", null ]
+    ] ],
+    [ "WrapType", "MRMeshFwd_8h.html#a0e519d6a7c053c5d86dac33ecd0fa00c", [
+      [ "Repeat", "MRMeshFwd_8h.html#a0e519d6a7c053c5d86dac33ecd0fa00ca7020426cfb0a204051be4b3053d2acc8", null ],
+      [ "Mirror", "MRMeshFwd_8h.html#a0e519d6a7c053c5d86dac33ecd0fa00ca2403def5083f02105e7802b3b315681e", null ],
+      [ "Clamp", "MRMeshFwd_8h.html#a0e519d6a7c053c5d86dac33ecd0fa00ca08825280e3f8137556325061ba67ff8c", null ]
+    ] ],
     [ "sgn", "MRMeshFwd_8h.html#a86bf24d57f63afab9354505400a0e82c", null ],
     [ "sqr", "MRMeshFwd_8h.html#a1bdf9f3c718616502649bc34a80ac976", null ],
     [ "AABBTree", "MRMeshFwd_8h.html#abe7cfa4da2fbf3567857cea149030590", null ],

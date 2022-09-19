@@ -117,27 +117,27 @@ $(document).ready(function(){initNavTree('MRRenderPointsObject_8h_source.html','
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="classMR_1_1RenderPointsObject.html#aedbffc6238f986d2a8dee3c0ffe5c2ca">   15</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RenderPointsObject.html#aedbffc6238f986d2a8dee3c0ffe5c2ca">render</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1RenderParams.html">RenderParams</a>&amp; params ) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1RenderPointsObject.html#a369d7006f1bd114c8050334e83033b06">   16</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RenderPointsObject.html#a369d7006f1bd114c8050334e83033b06">renderPicker</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1BaseRenderParams.html">BaseRenderParams</a>&amp; params, <span class="keywordtype">unsigned</span> geomId ) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="classMR_1_1RenderPointsObject.html#ac57d8a541df401cff5ddf7566f0b9bb4">   17</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="classMR_1_1RenderPointsObject.html#ac57d8a541df401cff5ddf7566f0b9bb4">heapBytes</a>() <span class="keyword">const override</span>;</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1ObjectPointsHolder.html">ObjectPointsHolder</a>* objPoints_;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordtype">int</span> validIndicesSize_{ 0 };</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <a class="code hl_class" href="structMR_1_1Vector2.html">Vector2i</a> vertSelectionTextureSize_;</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <a class="code hl_class" href="classMR_1_1RenderBufferRef.html">RenderBufferRef&lt;VertId&gt;</a> loadValidIndicesBuffer_();</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <a class="code hl_class" href="classMR_1_1RenderBufferRef.html">RenderBufferRef&lt;unsigned&gt;</a> loadVertSelectionTextureBuffer_();</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keyword">typedef</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> GLuint;</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    GLuint pointsArrayObjId_{ 0 };</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    GLuint pointsPickerArrayObjId_{ 0 };</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    GlBuffer vertPosBuffer_;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    GlBuffer vertNormalsBuffer_;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    GlBuffer vertColorsBuffer_;</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="classMR_1_1RenderPointsObject.html#ae58d2cc13f9eff9285ade09909b14ec7">   18</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="classMR_1_1RenderPointsObject.html#ae58d2cc13f9eff9285ade09909b14ec7">glBytes</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="classMR_1_1RenderPointsObject.html#a84ee58e0127a952e60ebcae7ee3a712a">   19</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RenderPointsObject.html#a84ee58e0127a952e60ebcae7ee3a712a">forceBindAll</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1ObjectPointsHolder.html">ObjectPointsHolder</a>* objPoints_;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">int</span> validIndicesSize_{ 0 };</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <a class="code hl_class" href="structMR_1_1Vector2.html">Vector2i</a> vertSelectionTextureSize_;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <a class="code hl_class" href="classMR_1_1RenderBufferRef.html">RenderBufferRef&lt;VertId&gt;</a> loadValidIndicesBuffer_();</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <a class="code hl_class" href="classMR_1_1RenderBufferRef.html">RenderBufferRef&lt;unsigned&gt;</a> loadVertSelectionTextureBuffer_();</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keyword">typedef</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> GLuint;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    GLuint pointsArrayObjId_{ 0 };</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    GLuint pointsPickerArrayObjId_{ 0 };</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    GlBuffer vertPosBuffer_;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    GlBuffer vertNormalsBuffer_;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    GlBuffer vertColorsBuffer_;</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    GlBuffer validIndicesBuffer_;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    GLuint vertSelectionTex_{ 0 };</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    GlTexture2 vertSelectionTex_;</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordtype">int</span> maxTexSize_{ 0 };</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
@@ -152,11 +152,13 @@ $(document).ready(function(){initNavTree('MRRenderPointsObject_8h_source.html','
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordtype">void</span> update_();</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="comment">// Marks dirty buffers that need to be uploaded to OpenGL</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    uint32_t dirty_;</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>};</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>}</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keywordtype">bool</span> hasNormalsBackup_{ <span class="keyword">false</span> };</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="comment">// Marks dirty buffers that need to be uploaded to OpenGL</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    uint32_t dirty_;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>};</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>}</div>
 <div class="ttc" id="aMRIRenderObject_8h_html"><div class="ttname"><a href="MRIRenderObject_8h.html">MRIRenderObject.h</a></div></div>
 <div class="ttc" id="aMRRenderGLHelpers_8h_html"><div class="ttname"><a href="MRRenderGLHelpers_8h.html">MRRenderGLHelpers.h</a></div></div>
 <div class="ttc" id="aMRRenderHelpers_8h_html"><div class="ttname"><a href="MRRenderHelpers_8h.html">MRRenderHelpers.h</a></div></div>
@@ -166,8 +168,10 @@ $(document).ready(function(){initNavTree('MRRenderPointsObject_8h_source.html','
 <div class="ttc" id="aclassMR_1_1RenderPointsObject_html"><div class="ttname"><a href="classMR_1_1RenderPointsObject.html">MR::RenderPointsObject</a></div><div class="ttdef"><b>Definition:</b> MRRenderPointsObject.h:10</div></div>
 <div class="ttc" id="aclassMR_1_1RenderPointsObject_html_a15d475f3d61005249719bb402493d9d8"><div class="ttname"><a href="classMR_1_1RenderPointsObject.html#a15d475f3d61005249719bb402493d9d8">MR::RenderPointsObject::~RenderPointsObject</a></div><div class="ttdeci">~RenderPointsObject()</div></div>
 <div class="ttc" id="aclassMR_1_1RenderPointsObject_html_a369d7006f1bd114c8050334e83033b06"><div class="ttname"><a href="classMR_1_1RenderPointsObject.html#a369d7006f1bd114c8050334e83033b06">MR::RenderPointsObject::renderPicker</a></div><div class="ttdeci">virtual void renderPicker(const BaseRenderParams &amp;params, unsigned geomId) override</div></div>
+<div class="ttc" id="aclassMR_1_1RenderPointsObject_html_a84ee58e0127a952e60ebcae7ee3a712a"><div class="ttname"><a href="classMR_1_1RenderPointsObject.html#a84ee58e0127a952e60ebcae7ee3a712a">MR::RenderPointsObject::forceBindAll</a></div><div class="ttdeci">virtual void forceBindAll() override</div><div class="ttdoc">binds all data for this render object, not to bind ever again (until object becomes dirty)</div></div>
 <div class="ttc" id="aclassMR_1_1RenderPointsObject_html_ab99ca8621e3c55c14e02d3452bbdd239"><div class="ttname"><a href="classMR_1_1RenderPointsObject.html#ab99ca8621e3c55c14e02d3452bbdd239">MR::RenderPointsObject::RenderPointsObject</a></div><div class="ttdeci">RenderPointsObject(const VisualObject &amp;visObj)</div></div>
 <div class="ttc" id="aclassMR_1_1RenderPointsObject_html_ac57d8a541df401cff5ddf7566f0b9bb4"><div class="ttname"><a href="classMR_1_1RenderPointsObject.html#ac57d8a541df401cff5ddf7566f0b9bb4">MR::RenderPointsObject::heapBytes</a></div><div class="ttdeci">virtual size_t heapBytes() const override</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div></div>
+<div class="ttc" id="aclassMR_1_1RenderPointsObject_html_ae58d2cc13f9eff9285ade09909b14ec7"><div class="ttname"><a href="classMR_1_1RenderPointsObject.html#ae58d2cc13f9eff9285ade09909b14ec7">MR::RenderPointsObject::glBytes</a></div><div class="ttdeci">virtual size_t glBytes() const override</div><div class="ttdoc">returns the amount of memory this object allocated in OpenGL</div></div>
 <div class="ttc" id="aclassMR_1_1RenderPointsObject_html_aedbffc6238f986d2a8dee3c0ffe5c2ca"><div class="ttname"><a href="classMR_1_1RenderPointsObject.html#aedbffc6238f986d2a8dee3c0ffe5c2ca">MR::RenderPointsObject::render</a></div><div class="ttdeci">virtual void render(const RenderParams &amp;params) override</div></div>
 <div class="ttc" id="aclassMR_1_1VisualObject_html"><div class="ttname"><a href="classMR_1_1VisualObject.html">MR::VisualObject</a></div><div class="ttdoc">Visual Object.</div><div class="ttdef"><b>Definition:</b> MRVisualObject.h:74</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRCameraOrientationPlugin.h:7</div></div>

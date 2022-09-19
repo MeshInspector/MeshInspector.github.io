@@ -111,12 +111,12 @@ Functions</h2></td></tr>
 <tr class="separator:ga1ec4380e546867f3bf9809066ffecd3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga634b4466f071575c73db96f1ac703ac3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#ga634b4466f071575c73db96f1ac703ac3">MR::checkDeloneQuadrangleInMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> edge, float maxDeviationAfterFlip, float maxAngleChange=<a class="el" href="namespaceMR.html#a500d4f823bf14e54d3aa73d4761a66d6">NoAngleChangeLimit</a>, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *region=nullptr)</td></tr>
 <tr class="separator:ga634b4466f071575c73db96f1ac703ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7d87ccf93a95e0626e05979103ba5b5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#ga7d87ccf93a95e0626e05979103ba5b5f">MR::makeDeloneEdgeFlips</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;settings)</td></tr>
-<tr class="memdesc:ga7d87ccf93a95e0626e05979103ba5b5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">false can be returned only for inner edge of the region  <a href="group__MeshDeloneGroup.html#ga7d87ccf93a95e0626e05979103ba5b5f">More...</a><br /></td></tr>
-<tr class="separator:ga7d87ccf93a95e0626e05979103ba5b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf08905c5d7702381e813332368b643ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#gaf08905c5d7702381e813332368b643ab">MR::makeDeloneOriginRing</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e, float maxDeviationAfterFlip, float maxAngleChange=<a class="el" href="namespaceMR.html#a500d4f823bf14e54d3aa73d4761a66d6">NoAngleChangeLimit</a>, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *region=nullptr)</td></tr>
-<tr class="memdesc:gaf08905c5d7702381e813332368b643ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">improves mesh triangulation in a ring of vertices with common origin and represented by edge e  <a href="group__MeshDeloneGroup.html#gaf08905c5d7702381e813332368b643ab">More...</a><br /></td></tr>
-<tr class="separator:gaf08905c5d7702381e813332368b643ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1c91382501f42936363363e26c560218"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#ga1c91382501f42936363363e26c560218">MR::makeDeloneEdgeFlips</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;settings={}, int numIters=1, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCallback={})</td></tr>
+<tr class="memdesc:ga1c91382501f42936363363e26c560218"><td class="mdescLeft">&#160;</td><td class="mdescRight">false can be returned only for inner edge of the region  <a href="group__MeshDeloneGroup.html#ga1c91382501f42936363363e26c560218">More...</a><br /></td></tr>
+<tr class="separator:ga1c91382501f42936363363e26c560218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabeff8ba7d73b606469f46a5c0248606d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#gabeff8ba7d73b606469f46a5c0248606d">MR::makeDeloneOriginRing</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e, const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;settings={})</td></tr>
+<tr class="memdesc:gabeff8ba7d73b606469f46a5c0248606d"><td class="mdescLeft">&#160;</td><td class="mdescRight">improves mesh triangulation in a ring of vertices with common origin and represented by edge e  <a href="group__MeshDeloneGroup.html#gabeff8ba7d73b606469f46a5c0248606d">More...</a><br /></td></tr>
+<tr class="separator:gabeff8ba7d73b606469f46a5c0248606d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p ><a href="https:///en.wikipedia.org/wiki/Boris_Delaunay">https:///en.wikipedia.org/wiki/Boris_Delaunay</a> </p>
@@ -261,8 +261,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga7d87ccf93a95e0626e05979103ba5b5f" name="ga7d87ccf93a95e0626e05979103ba5b5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7d87ccf93a95e0626e05979103ba5b5f">&#9670;&#160;</a></span>makeDeloneEdgeFlips()</h2>
+<a id="ga1c91382501f42936363363e26c560218" name="ga1c91382501f42936363363e26c560218"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1c91382501f42936363363e26c560218">&#9670;&#160;</a></span>makeDeloneEdgeFlips()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -277,7 +277,19 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;&#160;</td>
-          <td class="paramname"><em>settings</em>&#160;</td>
+          <td class="paramname"><em>settings</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numIters</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>progressCallback</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -289,11 +301,18 @@ Functions</h2></td></tr>
 
 <p>false can be returned only for inner edge of the region </p>
 <p >improves mesh triangulation by performing flipping of edges to satisfy Delone local property, consider every edge at most numIters times, and allow surface deviation at most on given value during every individual flip, </p><dl class="section return"><dt>Returns</dt><dd>the number of flips done </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">numIters</td><td>Maximal iteration count </td></tr>
+    <tr><td class="paramname">progressCallback</td><td>Callback to report algorithm progress and cancel it by user request </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
-<a id="gaf08905c5d7702381e813332368b643ab" name="gaf08905c5d7702381e813332368b643ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf08905c5d7702381e813332368b643ab">&#9670;&#160;</a></span>makeDeloneOriginRing()</h2>
+<a id="gabeff8ba7d73b606469f46a5c0248606d" name="gabeff8ba7d73b606469f46a5c0248606d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabeff8ba7d73b606469f46a5c0248606d">&#9670;&#160;</a></span>makeDeloneOriginRing()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -313,20 +332,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>maxDeviationAfterFlip</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>maxAngleChange</em> = <code><a class="el" href="namespaceMR.html#a500d4f823bf14e54d3aa73d4761a66d6">NoAngleChangeLimit</a></code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td>
-          <td class="paramname"><em>region</em> = <code>nullptr</code>&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>settings</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
