@@ -153,6 +153,16 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ga300a438da6440ee7d2e92933bcfa6018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga300a438da6440ee7d2e92933bcfa6018">MR::operator==</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b)</td></tr>
+<tr class="memdesc:ga300a438da6440ee7d2e92933bcfa6018"><td class="mdescLeft">&#160;</td><td class="mdescRight">compare that two bit sets have the same set bits (they can be equal even if sizes are distinct but last bits are off)  <a href="group__BasicGroup.html#ga300a438da6440ee7d2e92933bcfa6018">More...</a><br /></td></tr>
+<tr class="separator:ga300a438da6440ee7d2e92933bcfa6018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3cb32d170d480a2efd86849814c074fb"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga3cb32d170d480a2efd86849814c074fb"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga3cb32d170d480a2efd86849814c074fb">MR::operator==</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;a, const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:ga3cb32d170d480a2efd86849814c074fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1098f1bd4059de8fc518f620c7e556a7"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
+<tr class="memitem:ga1098f1bd4059de8fc518f620c7e556a7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga1098f1bd4059de8fc518f620c7e556a7">MR::operator==</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;a, const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; U &gt; &amp;b)=delete</td></tr>
+<tr class="memdesc:ga1098f1bd4059de8fc518f620c7e556a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">prohibit comparison of unrelated sets  <a href="group__BasicGroup.html#ga1098f1bd4059de8fc518f620c7e556a7">More...</a><br /></td></tr>
+<tr class="separator:ga1098f1bd4059de8fc518f620c7e556a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf22d770b767eff4d37bc4be52ef5032f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gaf22d770b767eff4d37bc4be52ef5032f"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gaf22d770b767eff4d37bc4be52ef5032f">MR::contains</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; *bitset, <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt; id)</td></tr>
 <tr class="separator:gaf22d770b767eff4d37bc4be52ef5032f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1322,8 +1332,38 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="ga300a438da6440ee7d2e92933bcfa6018" name="ga300a438da6440ee7d2e92933bcfa6018"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga300a438da6440ee7d2e92933bcfa6018">&#9670;&#160;</a></span>operator==() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>compare that two bit sets have the same set bits (they can be equal even if sizes are distinct but last bits are off) </p>
+
+</div>
+</div>
 <a id="gad714f7ce87e9a75b5d3b24ebd830ff6d" name="gad714f7ce87e9a75b5d3b24ebd830ff6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad714f7ce87e9a75b5d3b24ebd830ff6d">&#9670;&#160;</a></span>operator==()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad714f7ce87e9a75b5d3b24ebd830ff6d">&#9670;&#160;</a></span>operator==() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1357,6 +1397,84 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga3cb32d170d480a2efd86849814c074fb" name="ga3cb32d170d480a2efd86849814c074fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3cb32d170d480a2efd86849814c074fb">&#9670;&#160;</a></span>operator==() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga1098f1bd4059de8fc518f620c7e556a7" name="ga1098f1bd4059de8fc518f620c7e556a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1098f1bd4059de8fc518f620c7e556a7">&#9670;&#160;</a></span>operator==() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; U &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>prohibit comparison of unrelated sets </p>
 
 </div>
 </div>

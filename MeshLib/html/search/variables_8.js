@@ -20,7 +20,7 @@ var searchData=
   ['isosurfacechangedsignal_17',['isoSurfaceChangedSignal',['../classMR_1_1ObjectVoxels.html#af857395916951ea4b3e9a111f194499b',1,'MR::ObjectVoxels']]],
   ['isothera_18',['isOtherA',['../structMR_1_1SortIntersectionsData.html#a64cd77d679e163bbff985d79336ae2c4',1,'MR::SortIntersectionsData']]],
   ['item_19',['item',['../structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b',1,'MR::RibbonMenu::DialogItemPtr::item()'],['../structMR_1_1MenuItemInfo.html#a926a6449190c31f77c5b88b8c236958e',1,'MR::MenuItemInfo::item()']]],
-  ['items_20',['items',['../structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1',1,'MR::RibbonSchema']]],
+  ['items_20',['items',['../structMR_1_1FillHolePlan.html#a65ba916a62c352d7f2d5dd40d132ed59',1,'MR::FillHolePlan::items()'],['../structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1',1,'MR::RibbonSchema::items()']]],
   ['itemsize_21',['itemSize',['../structMR_1_1DrawButtonParams.html#ab8f3d59cb2dfd82cae6a79ab6746ee09',1,'MR::DrawButtonParams']]],
   ['iterations_22',['iterations',['../structMR_1_1RelaxParams.html#af6f0f001e98c26c2b38d1d51b3f3ef1f',1,'MR::RelaxParams']]],
   ['iterlimit_23',['iterLimit',['../structMR_1_1ICPProperties.html#a4b5daff61d36ce0e211995eee0f2507f',1,'MR::ICPProperties']]]

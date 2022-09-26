@@ -54,7 +54,7 @@ var group__VisualObjectGroup =
       [ "setBackColor", "classMR_1_1VisualObject.html#a4fb9c5264554d0480782711e3db7eef9", null ],
       [ "setColoringType", "classMR_1_1VisualObject.html#a8d339ad1cf1735f90773b4f8b89e9059", null ],
       [ "setDirtyFlags", "classMR_1_1VisualObject.html#a8cf68798f947d65d5173c8bbec3059e3", null ],
-      [ "setFrontColor", "classMR_1_1VisualObject.html#abc291fa127985fd6129efa209527e801", null ],
+      [ "setFrontColor", "classMR_1_1VisualObject.html#a9573eb7174c0d299b82840cc748cc551", null ],
       [ "setLabels", "classMR_1_1VisualObject.html#abc385dbd4feb205cf762f43d1f25c2f0", null ],
       [ "setLabelsColor", "classMR_1_1VisualObject.html#a5f66b26c9d9b5592f2bedbb9a3b7fb4f", null ],
       [ "setPickable", "classMR_1_1VisualObject.html#add21d6793f336877707d5ed7b4785ce6", null ],

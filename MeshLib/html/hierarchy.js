@@ -32,6 +32,13 @@ var hierarchy =
     [ "MR::Buffer< T >", "classMR_1_1Buffer.html", null ],
     [ "MR::MeshBuilder::BuildSettings", "structMR_1_1MeshBuilder_1_1BuildSettings.html", null ],
     [ "MR::RibbonButtonDrawer::ButtonItemWidth", "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html", null ],
+    [ "Checks", null, [
+      [ "MR::SceneStateOrCheck< SceneStateExactCheck< 1, ObjectMesh >, SceneStateExactCheck< 1, ObjectLines >, SceneStateExactCheck< 1, ObjectPoints > >", "classMR_1_1SceneStateOrCheck.html", [
+        [ "MR::SaveObjectMenuItem", "classMR_1_1SaveObjectMenuItem.html", null ]
+      ] ],
+      [ "MR::SceneStateAndCheck< Checks >", "classMR_1_1SceneStateAndCheck.html", null ],
+      [ "MR::SceneStateOrCheck< Checks >", "classMR_1_1SceneStateOrCheck.html", null ]
+    ] ],
     [ "MR::Color", "structMR_1_1Color.html", null ],
     [ "MR::ColorMapAggregator< Tag >", "classMR_1_1ColorMapAggregator.html", null ],
     [ "MR::ColorTheme", "classMR_1_1ColorTheme.html", null ],
@@ -128,6 +135,7 @@ var hierarchy =
     [ "MR::FillHoleItem", "structMR_1_1FillHoleItem.html", null ],
     [ "MR::FillHoleMetric", "structMR_1_1FillHoleMetric.html", null ],
     [ "MR::FillHoleParams", "structMR_1_1FillHoleParams.html", null ],
+    [ "MR::FillHolePlan", "structMR_1_1FillHolePlan.html", null ],
     [ "MR::Viewport::FitDataParams", "structMR_1_1Viewport_1_1FitDataParams.html", null ],
     [ "openvdb::FloatGrid", null, [
       [ "MR::OpenVdbFloatGrid", "structMR_1_1OpenVdbFloatGrid.html", null ]
@@ -234,9 +242,6 @@ var hierarchy =
       ] ],
       [ "MR::SceneStateExactCheck< 1, Object >", "classMR_1_1SceneStateExactCheck.html", [
         [ "MR::RibbonSceneRename", "classMR_1_1RibbonSceneRename.html", null ]
-      ] ],
-      [ "MR::SceneStateExactCheck< 1, VisualObject >", "classMR_1_1SceneStateExactCheck.html", [
-        [ "MR::SaveObjectMenuItem", "classMR_1_1SaveObjectMenuItem.html", null ]
       ] ],
       [ "MR::RibbonMenuItem", "classMR_1_1RibbonMenuItem.html", [
         [ "MR::CaptureScreenshotMenuItem", "classMR_1_1CaptureScreenshotMenuItem.html", null ],
@@ -548,9 +553,5 @@ var hierarchy =
     [ "MR::VoxelMetricParameters", "structMR_1_1VoxelMetricParameters.html", null ],
     [ "MR::Writer< T >", "structMR_1_1Writer.html", null ],
     [ "MR::XfBasedCache< T >", "classMR_1_1XfBasedCache.html", null ],
-    [ "MR::XfBasedCache< MR::Box >", "classMR_1_1XfBasedCache.html", null ],
-    [ "MR::Checks", null, [
-      [ "MR::SceneStateAndCheck< Checks >", "classMR_1_1SceneStateAndCheck.html", null ],
-      [ "MR::SceneStateOrCheck< Checks >", "classMR_1_1SceneStateOrCheck.html", null ]
-    ] ]
+    [ "MR::XfBasedCache< MR::Box >", "classMR_1_1XfBasedCache.html", null ]
 ];

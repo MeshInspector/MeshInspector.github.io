@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"MRMeshFwd_8h.html#a564eaaa20140828d6dffbb80625b9f85":[12,0,0,1,1,126,67],
+"MRMeshFwd_8h.html#a56c6b31f911ee61ed71dd8c9f71c315b":[12,0,0,1,1,126,27],
 "MRMeshFwd_8h.html#a57cc7ead56a9815481a5d3ab73a0a0b6":[12,0,0,1,1,126,5],
 "MRMeshFwd_8h.html#a58b74f27c86e7e9dee889bfe30f3022a":[12,0,0,1,1,126,83],
 "MRMeshFwd_8h.html#a5c5b52f873a2b408d77c388c89241af7":[12,0,0,1,1,126,94],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "MRPointCloudRelax_8h.html":[12,0,0,1,1,165],
 "MRPointCloudRelax_8h_source.html":[12,0,0,1,1,165],
 "MRPointCloudTriangulationHelpers_8h.html":[12,0,0,1,1,167],
-"MRPointCloudTriangulationHelpers_8h_source.html":[12,0,0,1,1,167],
-"MRPointCloudTriangulation_8h.html":[12,0,0,1,1,166],
-"MRPointCloudTriangulation_8h_source.html":[12,0,0,1,1,166]
+"MRPointCloudTriangulationHelpers_8h_source.html":[12,0,0,1,1,167]
 };

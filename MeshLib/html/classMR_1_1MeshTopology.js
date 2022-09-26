@@ -45,6 +45,8 @@ var classMR_1_1MeshTopology =
     [ "getPathLeftFaces", "classMR_1_1MeshTopology.html#a964fa03536a6e013623d52c8bebfc1fe", null ],
     [ "getPathRightFaces", "classMR_1_1MeshTopology.html#aa6c22dff08760121aab8fa1985789ad3", null ],
     [ "getPathVertices", "classMR_1_1MeshTopology.html#aacf6c1f096fab25e975527557e03119d", null ],
+    [ "getTriEdges", "classMR_1_1MeshTopology.html#a33c932c823162337449be920b180f374", null ],
+    [ "getTriEdges", "classMR_1_1MeshTopology.html#a7f5a570a10b151f981269ba65470df41", null ],
     [ "getTriVerts", "classMR_1_1MeshTopology.html#ace0e3be1697a60c54a5f9fe91db3a30d", null ],
     [ "getTriVerts", "classMR_1_1MeshTopology.html#a1505aee9d1b0cdf3c24139b5e97bc187", null ],
     [ "getTriVerts", "classMR_1_1MeshTopology.html#afd804d235b0585c9f0cc0ef81a5d70f4", null ],

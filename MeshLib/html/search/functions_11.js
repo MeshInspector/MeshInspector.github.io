@@ -107,7 +107,7 @@ var searchData=
   ['setflatshading_104',['setFlatShading',['../classMR_1_1ObjectMeshHolder.html#a70efb013b248cdab3b4c5d509cd74d8a',1,'MR::ObjectMeshHolder']]],
   ['setfontheight_105',['setFontHeight',['../classMR_1_1ObjectLabel.html#a13a7e95f277fc6708a28fd442871f9f3',1,'MR::ObjectLabel']]],
   ['setfontpath_106',['setFontPath',['../classMR_1_1ObjectLabel.html#a069e7c9db47b15c874f479344b1aa2cc',1,'MR::ObjectLabel']]],
-  ['setfrontcolor_107',['setFrontColor',['../classMR_1_1VisualObject.html#abc291fa127985fd6129efa209527e801',1,'MR::VisualObject']]],
+  ['setfrontcolor_107',['setFrontColor',['../classMR_1_1VisualObject.html#a9573eb7174c0d299b82840cc748cc551',1,'MR::VisualObject']]],
   ['setgetterrequirements_108',['setGetterRequirements',['../classMR_1_1RibbonButtonDrawer.html#a5b4dc1d1236d8173cf3d4d5d54a2ef77',1,'MR::RibbonButtonDrawer']]],
   ['setglobalvisibilty_109',['setGlobalVisibilty',['../classMR_1_1Object.html#a77ac63ad5b9ead0077f437ede206b31b',1,'MR::Object']]],
   ['sethovered_110',['setHovered',['../classMR_1_1SurfacePointWidget.html#a4023f6d9ae5235d692afad4374b6134e',1,'MR::SurfacePointWidget']]],

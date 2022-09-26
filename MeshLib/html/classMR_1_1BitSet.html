@@ -128,6 +128,8 @@ $(document).ready(function(){initNavTree('classMR_1_1BitSet.html',''); initResiz
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:a21c4aa1d25292ca929dc095286685853"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html#a21c4aa1d25292ca929dc095286685853">base</a> = boost::dynamic_bitset&lt; std::uint64_t &gt;</td></tr>
+<tr class="separator:a21c4aa1d25292ca929dc095286685853"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0427884dece1dde1fa25caaa7b2aaba9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> = size_t</td></tr>
 <tr class="separator:a0427884dece1dde1fa25caaa7b2aaba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -152,11 +154,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a21e124c25421599977ed1fc9874016e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html#a21e124c25421599977ed1fc9874016e3">find_last</a> () const</td></tr>
 <tr class="memdesc:a21e124c25421599977ed1fc9874016e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the highest index i such as bit i is set, or npos if *this has no on bits.  <a href="classMR_1_1BitSet.html#a21e124c25421599977ed1fc9874016e3">More...</a><br /></td></tr>
 <tr class="separator:a21e124c25421599977ed1fc9874016e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7929d81a23ad4ff51c472f0d1c992d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html#ac7929d81a23ad4ff51c472f0d1c992d5">resizeWithReserve</a> (size_t newSize)</td></tr>
+<tr class="memdesc:ac7929d81a23ad4ff51c472f0d1c992d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize) can be done without reallocation  <a href="classMR_1_1BitSet.html#ac7929d81a23ad4ff51c472f0d1c992d5">More...</a><br /></td></tr>
+<tr class="separator:ac7929d81a23ad4ff51c472f0d1c992d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab61cde9e7da6d5d6c75fefd11e2e6a24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html#ab61cde9e7da6d5d6c75fefd11e2e6a24">autoResizeSet</a> (size_t pos, size_type len, bool val=true)</td></tr>
+<tr class="memdesc:ab61cde9e7da6d5d6c75fefd11e2e6a24"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements  <a href="classMR_1_1BitSet.html#ab61cde9e7da6d5d6c75fefd11e2e6a24">More...</a><br /></td></tr>
+<tr class="separator:ab61cde9e7da6d5d6c75fefd11e2e6a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a737f8cc71944c7c750f8eeba4028ac17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html#a737f8cc71944c7c750f8eeba4028ac17">autoResizeSet</a> (size_t pos, bool val=true)</td></tr>
-<tr class="memdesc:a737f8cc71944c7c750f8eeba4028ac17"><td class="mdescLeft">&#160;</td><td class="mdescRight">this accessor automatically adjusts the size of the set to include i-th element  <a href="classMR_1_1BitSet.html#a737f8cc71944c7c750f8eeba4028ac17">More...</a><br /></td></tr>
 <tr class="separator:a737f8cc71944c7c750f8eeba4028ac17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84a9273303ae000bcf94b893a298eb95"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html#a84a9273303ae000bcf94b893a298eb95">autoResizeTestSet</a> (size_t pos, bool val=true)</td></tr>
-<tr class="memdesc:a84a9273303ae000bcf94b893a298eb95"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as <a class="el" href="classMR_1_1BitSet.html#a737f8cc71944c7c750f8eeba4028ac17">autoResizeSet</a> and returns previous value of pos-bit  <a href="classMR_1_1BitSet.html#a84a9273303ae000bcf94b893a298eb95">More...</a><br /></td></tr>
+<tr class="memdesc:a84a9273303ae000bcf94b893a298eb95"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as <a class="el" href="classMR_1_1BitSet.html#ab61cde9e7da6d5d6c75fefd11e2e6a24">autoResizeSet</a> and returns previous value of pos-bit  <a href="classMR_1_1BitSet.html#a84a9273303ae000bcf94b893a298eb95">More...</a><br /></td></tr>
 <tr class="separator:a84a9273303ae000bcf94b893a298eb95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5007749dadb7430dc9dedb73114f9a6"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html#ae5007749dadb7430dc9dedb73114f9a6">heapBytes</a> () const</td></tr>
 <tr class="memdesc:ae5007749dadb7430dc9dedb73114f9a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <a href="classMR_1_1BitSet.html#ae5007749dadb7430dc9dedb73114f9a6">More...</a><br /></td></tr>
@@ -165,6 +172,20 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >container of bits </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a21c4aa1d25292ca929dc095286685853" name="a21c4aa1d25292ca929dc095286685853"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21c4aa1d25292ca929dc095286685853">&#9670;&#160;</a></span>base</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classMR_1_1BitSet.html#a21c4aa1d25292ca929dc095286685853">MR::BitSet::base</a> =  boost::dynamic_bitset&lt;std::uint64_t&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0427884dece1dde1fa25caaa7b2aaba9" name="a0427884dece1dde1fa25caaa7b2aaba9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0427884dece1dde1fa25caaa7b2aaba9">&#9670;&#160;</a></span>IndexType</h2>
 
@@ -181,7 +202,7 @@ Public Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a737f8cc71944c7c750f8eeba4028ac17" name="a737f8cc71944c7c750f8eeba4028ac17"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a737f8cc71944c7c750f8eeba4028ac17">&#9670;&#160;</a></span>autoResizeSet()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a737f8cc71944c7c750f8eeba4028ac17">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -214,7 +235,49 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>this accessor automatically adjusts the size of the set to include i-th element </p>
+</div>
+</div>
+<a id="ab61cde9e7da6d5d6c75fefd11e2e6a24" name="ab61cde9e7da6d5d6c75fefd11e2e6a24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab61cde9e7da6d5d6c75fefd11e2e6a24">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::BitSet::autoResizeSet </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_type&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>val</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements </p>
 
 </div>
 </div>
@@ -252,7 +315,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>same as <a class="el" href="classMR_1_1BitSet.html#a737f8cc71944c7c750f8eeba4028ac17">autoResizeSet</a> and returns previous value of pos-bit </p>
+<p>same as <a class="el" href="classMR_1_1BitSet.html#ab61cde9e7da6d5d6c75fefd11e2e6a24">autoResizeSet</a> and returns previous value of pos-bit </p>
 
 </div>
 </div>
@@ -458,6 +521,34 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7929d81a23ad4ff51c472f0d1c992d5" name="ac7929d81a23ad4ff51c472f0d1c992d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7929d81a23ad4ff51c472f0d1c992d5">&#9670;&#160;</a></span>resizeWithReserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::BitSet::resizeWithReserve </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>newSize</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>doubles reserved memory until resize(newSize) can be done without reallocation </p>
 
 </div>
 </div>

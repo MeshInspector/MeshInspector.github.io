@@ -101,7 +101,7 @@ $(document).ready(function(){initNavTree('EmbendedPythonOverview.html',''); init
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p >Python is one of the most popular and widely used programming language in scientific researches, machine learning, data analysis and advanced testing.<br  />
-<b>Requires</b> <b>python</b> <b>3.10</b> (3.9 on linux)</p>
+<b>Requires</b> <b>python</b> <b>3.10</b> (3.8 on Ubuntu 20.04)</p>
 <p >MeshLib library allows you to call python scripts directly from the command line or use particular functions by <code>import mrmeshpy</code>.</p>
 <p ><b>Usage</b> </p>
 <p >On Windows: path to the directory that contains MeshLib python modules (mrmeshpy.pyd, mrmeshnumpy.pyd ...) should be added to python before importing the modules </p><div class="fragment"><div class="line"><span class="keyword">import</span> sys</div>
@@ -110,11 +110,13 @@ $(document).ready(function(){initNavTree('EmbendedPythonOverview.html',''); init
 </p><ol type="1">
 <li>Directly from system python <div class="fragment"><div class="line"><span class="keyword">import</span> mrmeshpy</div>
 <div class="line"> </div>
-<div class="line">mesh = mrmeshpy.load_mesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
+<div class="line">expMesh = mrmeshpy.loadMesh(mrmeshpy.Path(<span class="stringliteral">&quot;mesh.stl&quot;</span>))</div>
+<div class="line">assert(expMesh.has_value())</div>
+<div class="line">mesh = expMesh.value()</div>
 <div class="line"><span class="preprocessor"># ...</span></div>
 <div class="line"><span class="preprocessor"># some mesh modifications can be perform here</span></div>
 <div class="line"><span class="preprocessor"># ...</span></div>
-<div class="line">mrmeshpy.save_mesh(<span class="stringliteral">&quot;mesh.ply&quot;</span>)</div>
+<div class="line">mrmeshpy.saveMesh(mesh, mrmeshpy.Path(<span class="stringliteral">&quot;mesh.ply&quot;</span>))</div>
 </div><!-- fragment --></li>
 <li>Run scritp with MeshInspector executable file (MeshInspector.exe on windows or ./MRApp on linux) <div class="fragment"><div class="line">$ ./MRApp script_path.py</div>
 </div><!-- fragment --> <dl class="section note"><dt>Note</dt><dd>Script should still import mrmeshpy module</dd></dl>
@@ -134,8 +136,8 @@ $(document).ready(function(){initNavTree('EmbendedPythonOverview.html',''); init
 <div class="line"> </div>
 <div class="line"><a class="code hl_define" href="MRPython_8h.html#ad3d8d8d2e659e278ea5e86f49078ddae">MR_ADD_PYTHON_FUNCTION</a>( moduleName, examplePythonFunc, pythonExample);</div>
 <div class="ttc" id="aMRPython_8h_html"><div class="ttname"><a href="MRPython_8h.html">MRPython.h</a></div></div>
-<div class="ttc" id="aMRPython_8h_html_ad3d8d8d2e659e278ea5e86f49078ddae"><div class="ttname"><a href="MRPython_8h.html#ad3d8d8d2e659e278ea5e86f49078ddae">MR_ADD_PYTHON_FUNCTION</a></div><div class="ttdeci">#define MR_ADD_PYTHON_FUNCTION(moduleName, name, func, description)</div><div class="ttdef"><b>Definition:</b> MRPython.h:25</div></div>
-<div class="ttc" id="aMRPython_8h_html_ae5ca7c53eb569ed9f6cf8fb01846e429"><div class="ttname"><a href="MRPython_8h.html#ae5ca7c53eb569ed9f6cf8fb01846e429">MR_INIT_PYTHON_MODULE</a></div><div class="ttdeci">#define MR_INIT_PYTHON_MODULE(moduleName)</div><div class="ttdef"><b>Definition:</b> MRPython.h:13</div></div>
+<div class="ttc" id="aMRPython_8h_html_ad3d8d8d2e659e278ea5e86f49078ddae"><div class="ttname"><a href="MRPython_8h.html#ad3d8d8d2e659e278ea5e86f49078ddae">MR_ADD_PYTHON_FUNCTION</a></div><div class="ttdeci">#define MR_ADD_PYTHON_FUNCTION(moduleName, name, func, description)</div><div class="ttdef"><b>Definition:</b> MRPython.h:26</div></div>
+<div class="ttc" id="aMRPython_8h_html_ae5ca7c53eb569ed9f6cf8fb01846e429"><div class="ttname"><a href="MRPython_8h.html#ae5ca7c53eb569ed9f6cf8fb01846e429">MR_INIT_PYTHON_MODULE</a></div><div class="ttdeci">#define MR_INIT_PYTHON_MODULE(moduleName)</div><div class="ttdef"><b>Definition:</b> MRPython.h:14</div></div>
 </div><!-- fragment --><p ><b>Functions</b> <code>MeshLib/python_scripts</code> folder contain scripts which could be used as examples for developers or testers. <b>Python</b> <b>library</b> allows to list all <code>mrmeshpy.*</code> functions with standart <code>print(dir(mrmeshpy))</code> call. You can list all available python functuins by running <code>python MeshLib/python_scripts/functions_list.py</code></p>
 <dl class="section note"><dt>Note</dt><dd>Not all functions are available anytime, for example functions that triggers rendering are not available in direct python call, but available with executable run </dd></dl>
 </div></div><!-- contents -->

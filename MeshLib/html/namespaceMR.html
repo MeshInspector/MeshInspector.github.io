@@ -357,6 +357,9 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters structure for <a class="el" href="group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05" title="Fills hole in mesh .">MR::fillHole</a><br  />
 Structure has some options to control <a class="el" href="group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05" title="Fills hole in mesh .">MR::fillHole</a>.  <a href="structMR_1_1FillHoleParams.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHolePlan.html">FillHolePlan</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">concise representation of proposed hole triangulation  <a href="structMR_1_1FillHolePlan.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FitDataMenuItem.html">FitDataMenuItem</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FitSelectedObjectsMenuItem.html">FitSelectedObjectsMenuItem</a></td></tr>
@@ -982,8 +985,6 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga4835cdcf7f575fd6b4381c29fc920269"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga4835cdcf7f575fd6b4381c29fc920269">ConvertToFloatVector</a> = std::function&lt; <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>(const <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &amp;)&gt;</td></tr>
 <tr class="memdesc:ga4835cdcf7f575fd6b4381c29fc920269"><td class="mdescLeft">&#160;</td><td class="mdescRight">int-to-float coordinate converter  <a href="group__AABBTreeGroup.html#ga4835cdcf7f575fd6b4381c29fc920269">More...</a><br /></td></tr>
 <tr class="separator:ga4835cdcf7f575fd6b4381c29fc920269"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf8b277c654b4ec0352c38e9223c0fcbd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gaf8b277c654b4ec0352c38e9223c0fcbd">FillHolePlan</a> = std::vector&lt; <a class="el" href="structMR_1_1FillHoleItem.html">FillHoleItem</a> &gt;</td></tr>
-<tr class="separator:gaf8b277c654b4ec0352c38e9223c0fcbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga807cd3d017d23c56a0f6ea1cb1f7c8cb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga807cd3d017d23c56a0f6ea1cb1f7c8cb">MultipleEdge</a> = std::pair&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt;</td></tr>
 <tr class="memdesc:ga807cd3d017d23c56a0f6ea1cb1f7c8cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds multiple edges in the mesh  <a href="group__MeshFixerGroup.html#ga807cd3d017d23c56a0f6ea1cb1f7c8cb">More...</a><br /></td></tr>
 <tr class="separator:ga807cd3d017d23c56a0f6ea1cb1f7c8cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1566,6 +1567,16 @@ Functions</h2></td></tr>
 <tr class="memitem:ga9bca49efd608d5a3ee129ae497696532"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BestFitGroup.html#ga9bca49efd608d5a3ee129ae497696532">accumulateFaceCenters</a> (<a class="el" href="classMR_1_1PointAccumulator.html">PointAccumulator</a> &amp;accum, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr)</td></tr>
 <tr class="memdesc:ga9bca49efd608d5a3ee129ae497696532"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function accumulate all mesh face centers added there with the weight equal to face area in existing <code><a class="el" href="classMR_1_1PointAccumulator.html" title="Class to accumulate points and make best line / plane approximation.">PointAccumulator</a></code>  <a href="group__BestFitGroup.html#ga9bca49efd608d5a3ee129ae497696532">More...</a><br /></td></tr>
 <tr class="separator:ga9bca49efd608d5a3ee129ae497696532"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga300a438da6440ee7d2e92933bcfa6018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga300a438da6440ee7d2e92933bcfa6018">operator==</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b)</td></tr>
+<tr class="memdesc:ga300a438da6440ee7d2e92933bcfa6018"><td class="mdescLeft">&#160;</td><td class="mdescRight">compare that two bit sets have the same set bits (they can be equal even if sizes are distinct but last bits are off)  <a href="group__BasicGroup.html#ga300a438da6440ee7d2e92933bcfa6018">More...</a><br /></td></tr>
+<tr class="separator:ga300a438da6440ee7d2e92933bcfa6018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3cb32d170d480a2efd86849814c074fb"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga3cb32d170d480a2efd86849814c074fb"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga3cb32d170d480a2efd86849814c074fb">operator==</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;a, const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:ga3cb32d170d480a2efd86849814c074fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1098f1bd4059de8fc518f620c7e556a7"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
+<tr class="memitem:ga1098f1bd4059de8fc518f620c7e556a7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga1098f1bd4059de8fc518f620c7e556a7">operator==</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;a, const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; U &gt; &amp;b)=delete</td></tr>
+<tr class="memdesc:ga1098f1bd4059de8fc518f620c7e556a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">prohibit comparison of unrelated sets  <a href="group__BasicGroup.html#ga1098f1bd4059de8fc518f620c7e556a7">More...</a><br /></td></tr>
+<tr class="separator:ga1098f1bd4059de8fc518f620c7e556a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf22d770b767eff4d37bc4be52ef5032f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gaf22d770b767eff4d37bc4be52ef5032f"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gaf22d770b767eff4d37bc4be52ef5032f">contains</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; *bitset, <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt; id)</td></tr>
 <tr class="separator:gaf22d770b767eff4d37bc4be52ef5032f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1884,12 +1895,21 @@ Functions</h2></td></tr>
 <tr class="memitem:aa946ebaaa62a242f328d53fab37011d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa946ebaaa62a242f328d53fab37011d0">shrink</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;region, int hops=1)</td></tr>
 <tr class="separator:aa946ebaaa62a242f328d53fab37011d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b0b55ffe6ea4fe8a68c4cba50f6d39c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#af5202c81e4413da4510b54fad78951bd">IsoLines</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8b0b55ffe6ea4fe8a68c4cba50f6d39c">extractIsolines</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; &amp;vertValues, float isoValue, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *region=nullptr)</td></tr>
+<tr class="memdesc:a8b0b55ffe6ea4fe8a68c4cba50f6d39c"><td class="mdescLeft">&#160;</td><td class="mdescRight">extracts all iso-lines from given scalar field and iso-value  <a href="namespaceMR.html#a8b0b55ffe6ea4fe8a68c4cba50f6d39c">More...</a><br /></td></tr>
 <tr class="separator:a8b0b55ffe6ea4fe8a68c4cba50f6d39c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a934ddae2a04dfddd920098e8e1f87b0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a934ddae2a04dfddd920098e8e1f87b0a">hasAnyIsoline</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; &amp;vertValues, float isoValue, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *region=nullptr)</td></tr>
+<tr class="memdesc:a934ddae2a04dfddd920098e8e1f87b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">quickly returns true if extractIsolines produce not-empty set for the same arguments  <a href="namespaceMR.html#a934ddae2a04dfddd920098e8e1f87b0a">More...</a><br /></td></tr>
+<tr class="separator:a934ddae2a04dfddd920098e8e1f87b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30037e8ef79442785a34ff61d9a5eb2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac743a99f776ece0d1aace02cd9c7f561">PlaneSections</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a30037e8ef79442785a34ff61d9a5eb2e">extractPlaneSections</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">Plane3f</a> &amp;plane)</td></tr>
+<tr class="memdesc:a30037e8ef79442785a34ff61d9a5eb2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">extracts all plane sections of given mesh  <a href="namespaceMR.html#a30037e8ef79442785a34ff61d9a5eb2e">More...</a><br /></td></tr>
 <tr class="separator:a30037e8ef79442785a34ff61d9a5eb2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74ce12fdba188fa1269745db15f59116"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a74ce12fdba188fa1269745db15f59116">hasAnyPlaneSection</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">Plane3f</a> &amp;plane)</td></tr>
+<tr class="memdesc:a74ce12fdba188fa1269745db15f59116"><td class="mdescLeft">&#160;</td><td class="mdescRight">quickly returns true if extractPlaneSections produce not-empty set for the same arguments  <a href="namespaceMR.html#a74ce12fdba188fa1269745db15f59116">More...</a><br /></td></tr>
+<tr class="separator:a74ce12fdba188fa1269745db15f59116"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fc738fcb74adad1003e324c209a09d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a76fccc29cf3ab68686fad45a62e17fa2">PlaneSection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a2fc738fcb74adad1003e324c209a09d3">trackSection</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;direction, float <a class="el" href="group__IntersectionGroup.html#ga9f71b2c20cd6a91f42d8d76dbc038190">distance</a>)</td></tr>
 <tr class="separator:a2fc738fcb74adad1003e324c209a09d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47ebcb5e83e6625a4a33dd409771ff68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae4ddf6f4d663b556787e0188500a2521">Contour2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a47ebcb5e83e6625a4a33dd409771ff68">planeSectionToContour2f</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a76fccc29cf3ab68686fad45a62e17fa2">PlaneSection</a> &amp;section, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;meshToPlane)</td></tr>
+<tr class="memdesc:a47ebcb5e83e6625a4a33dd409771ff68"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts PlaneSections in 2D contours by computing coordinate of each point, applying given xf to it, and retaining only x and y  <a href="namespaceMR.html#a47ebcb5e83e6625a4a33dd409771ff68">More...</a><br /></td></tr>
 <tr class="separator:a47ebcb5e83e6625a4a33dd409771ff68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c63c93268260926fe26705e7eba2d53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a50e8714d42cba4acf038efe5c4bd491a">Contours2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6c63c93268260926fe26705e7eba2d53">planeSectionsToContours2f</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#ac743a99f776ece0d1aace02cd9c7f561">PlaneSections</a> &amp;sections, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;meshToPlane)</td></tr>
 <tr class="separator:a6c63c93268260926fe26705e7eba2d53"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2154,10 +2174,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:gac972786878ec37756f5a95814b657a05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills hole in mesh<br  />
 .  <a href="group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05">More...</a><br /></td></tr>
 <tr class="separator:gac972786878ec37756f5a95814b657a05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab7ae6ca67613ed60f65489d77e288d61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__FillHoleGroup.html#gaf8b277c654b4ec0352c38e9223c0fcbd">FillHolePlan</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gab7ae6ca67613ed60f65489d77e288d61">getFillHolePlan</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> a0, const <a class="el" href="structMR_1_1FillHoleParams.html">FillHoleParams</a> &amp;params={})</td></tr>
+<tr class="memitem:gab7ae6ca67613ed60f65489d77e288d61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1FillHolePlan.html">FillHolePlan</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gab7ae6ca67613ed60f65489d77e288d61">getFillHolePlan</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> a0, const <a class="el" href="structMR_1_1FillHoleParams.html">FillHoleParams</a> &amp;params={})</td></tr>
 <tr class="memdesc:gab7ae6ca67613ed60f65489d77e288d61"><td class="mdescLeft">&#160;</td><td class="mdescRight">similar to fillHole function, but only gets the plan how to fill given hole, not filling it immediately  <a href="group__FillHoleGroup.html#gab7ae6ca67613ed60f65489d77e288d61">More...</a><br /></td></tr>
 <tr class="separator:gab7ae6ca67613ed60f65489d77e288d61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeb85fd620b295d0f3179fd85b78c5480"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gaeb85fd620b295d0f3179fd85b78c5480">executeFillHolePlan</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> a0, <a class="el" href="group__FillHoleGroup.html#gaf8b277c654b4ec0352c38e9223c0fcbd">FillHolePlan</a> &amp;plan, <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *outNewFaces=nullptr)</td></tr>
+<tr class="memitem:gaeb85fd620b295d0f3179fd85b78c5480"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gaeb85fd620b295d0f3179fd85b78c5480">executeFillHolePlan</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> a0, <a class="el" href="structMR_1_1FillHolePlan.html">FillHolePlan</a> &amp;plan, <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *outNewFaces=nullptr)</td></tr>
 <tr class="memdesc:gaeb85fd620b295d0f3179fd85b78c5480"><td class="mdescLeft">&#160;</td><td class="mdescRight">quickly fills the hole given the plan (quickly compared to fillHole function)  <a href="group__FillHoleGroup.html#gaeb85fd620b295d0f3179fd85b78c5480">More...</a><br /></td></tr>
 <tr class="separator:gaeb85fd620b295d0f3179fd85b78c5480"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0241a36cc2b1016fd0cf66e9ae71f722"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#ga0241a36cc2b1016fd0cf66e9ae71f722">fillHoleTrivially</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> a, <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *outNewFaces=nullptr)</td></tr>
@@ -3171,7 +3191,7 @@ Variables</h2></td></tr>
 <tr class="separator:a136b0ce6a3406a0d3b4e6a152e51247a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaded4cd4767b56cafcef761970128104"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aaded4cd4767b56cafcef761970128104">cButtonPadding</a> = 8.0f</td></tr>
 <tr class="separator:aaded4cd4767b56cafcef761970128104"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6af57435d9acbae46e95d40e73edc24"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa6af57435d9acbae46e95d40e73edc24">cInputPadding</a> = 10.0f</td></tr>
+<tr class="memitem:aa6af57435d9acbae46e95d40e73edc24"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa6af57435d9acbae46e95d40e73edc24">cInputPadding</a> = 9.0f</td></tr>
 <tr class="separator:aa6af57435d9acbae46e95d40e73edc24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0f25876ce272b7da3ae953cd1469376"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ae0f25876ce272b7da3ae953cd1469376">cDefaultItemSpacing</a> = 8.0f</td></tr>
 <tr class="separator:ae0f25876ce272b7da3ae953cd1469376"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -7011,6 +7031,8 @@ template&lt;typename T , typename I &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>extracts all iso-lines from given scalar field and iso-value </p>
+
 </div>
 </div>
 <a id="a30037e8ef79442785a34ff61d9a5eb2e" name="a30037e8ef79442785a34ff61d9a5eb2e"></a>
@@ -7038,6 +7060,8 @@ template&lt;typename T , typename I &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>extracts all plane sections of given mesh </p>
 
 </div>
 </div>
@@ -8367,6 +8391,78 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a934ddae2a04dfddd920098e8e1f87b0a" name="a934ddae2a04dfddd920098e8e1f87b0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a934ddae2a04dfddd920098e8e1f87b0a">&#9670;&#160;</a></span>hasAnyIsoline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::hasAnyIsoline </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>vertValues</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>isoValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td>
+          <td class="paramname"><em>region</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>quickly returns true if extractIsolines produce not-empty set for the same arguments </p>
+
+</div>
+</div>
+<a id="a74ce12fdba188fa1269745db15f59116" name="a74ce12fdba188fa1269745db15f59116"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74ce12fdba188fa1269745db15f59116">&#9670;&#160;</a></span>hasAnyPlaneSection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::hasAnyPlaneSection </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
+          <td class="paramname"><em>mp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">Plane3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>plane</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>quickly returns true if extractPlaneSections produce not-empty set for the same arguments </p>
 
 </div>
 </div>
@@ -12088,6 +12184,8 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>converts PlaneSections in 2D contours by computing coordinate of each point, applying given xf to it, and retaining only x and y </p>
+
 </div>
 </div>
 <a id="a0d650519d00d9732a3624486cac05ae3" name="a0d650519d00d9732a3624486cac05ae3"></a>
@@ -13916,7 +14014,7 @@ template&lt;typename V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr float MR::cInputPadding = 10.0f</td>
+          <td class="memname">constexpr float MR::cInputPadding = 9.0f</td>
         </tr>
       </table>
   </td>

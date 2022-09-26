@@ -1,5 +1,8 @@
 var NAVTREEINDEX4 =
 {
+"MRSelectScreenLasso_8h.html#a076eb0510d6a86ac672aea467b5fb388":[12,0,0,1,3,48,2],
+"MRSelectScreenLasso_8h.html#a8cb0be6723831c2cce4eaab8b35e509d":[12,0,0,1,3,48,1],
+"MRSelectScreenLasso_8h_source.html":[12,0,0,1,3,48],
 "MRSerializer_8h.html":[12,0,0,1,1,207],
 "MRSerializer_8h_source.html":[12,0,0,1,1,207],
 "MRSetupViewer_8h.html":[12,0,0,1,3,49],
@@ -246,8 +249,5 @@ var NAVTREEINDEX4 =
 "classMR_1_1AABBTree.html#a17c38dc7b5620a352a4648fd8c18612e":[9,1,0,9],
 "classMR_1_1AABBTree.html#a299be175c35406bc5c624c524a3221e7":[9,1,0,5],
 "classMR_1_1AABBTree.html#a32fb8d6b891ed1e97bf4532552caa7a4":[9,1,0,7],
-"classMR_1_1AABBTree.html#a3689e736d9bd1cc83c766df27cb69b68":[9,1,0,3],
-"classMR_1_1AABBTree.html#a3d03064881df6e739bd9f815c909abe5":[9,1,0,13],
-"classMR_1_1AABBTree.html#a417b2def8f134a7f62981cc0ff5f33dc":[9,1,0,12],
-"classMR_1_1AABBTree.html#a452c88b89ff01231575ab3f12f8de2df":[9,1,0,6]
+"classMR_1_1AABBTree.html#a3689e736d9bd1cc83c766df27cb69b68":[9,1,0,3]
 };

@@ -111,6 +111,7 @@ $(document).ready(function(){initNavTree('MRPython_8h.html',''); initResizable()
 <code>#include &lt;pybind11/operators.h&gt;</code><br />
 <code>#include &lt;pybind11/stl_bind.h&gt;</code><br />
 <code>#include &lt;pybind11/numpy.h&gt;</code><br />
+<code>#include &lt;tl/expected.hpp&gt;</code><br />
 <code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
 <code>#include &lt;unordered_map&gt;</code><br />
@@ -145,6 +146,8 @@ Macros</h2></td></tr>
 <tr class="separator:a4c2f86ab418002ae88c7465c2804c7f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a970813ca4d787c0bbe1ca6b1bd231cf9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#a970813ca4d787c0bbe1ca6b1bd231cf9">MR_ADD_PYTHON_VEC</a>(moduleName,  name,  type)</td></tr>
 <tr class="separator:a970813ca4d787c0bbe1ca6b1bd231cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a066f4ba30a78670e5297434557c362db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRPython_8h.html#a066f4ba30a78670e5297434557c362db">MR_ADD_PYTHON_EXPECTED</a>(moduleName,  name,  type,  errorType)</td></tr>
+<tr class="separator:a066f4ba30a78670e5297434557c362db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -196,7 +199,56 @@ Enumerations</h2></td></tr>
 <div class="line">_Pragma(<span class="stringliteral">&quot;warning(disable:4459)&quot;</span>) \</div>
 <div class="line">    <span class="keyword">static</span> <a class="code hl_struct" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> name##_adder_( #moduleName, __VA_ARGS__ ); \</div>
 <div class="line">_Pragma(<span class="stringliteral">&quot;warning(pop)&quot;</span>)</div>
-<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></div><div class="ttdef"><b>Definition:</b> MRPython.h:112</div></div>
+<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></div><div class="ttdef"><b>Definition:</b> MRPython.h:123</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a066f4ba30a78670e5297434557c362db" name="a066f4ba30a78670e5297434557c362db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a066f4ba30a78670e5297434557c362db">&#9670;&#160;</a></span>MR_ADD_PYTHON_EXPECTED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_ADD_PYTHON_EXPECTED</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">moduleName, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">type, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">errorType&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="MRPython_8h.html#a4c2f86ab418002ae88c7465c2804c7f1">MR_ADD_PYTHON_CUSTOM_DEF</a>( moduleName, name, [] (pybind11::module_&amp; m)\</div>
+<div class="line">{\</div>
+<div class="line">    <span class="keyword">using </span>expectedType = tl::expected&lt;type,errorType&gt;;\</div>
+<div class="line">    pybind11::class_&lt;expectedType&gt;(m, #name ).\</div>
+<div class="line">        def( <span class="stringliteral">&quot;has_value&quot;</span>, &amp;expectedType::has_value ).\</div>
+<div class="line">        def( <span class="stringliteral">&quot;value&quot;</span>, ( type&amp; ( expectedType::* )( )&amp; )&amp; expectedType::value, pybind11::return_value_policy::reference ).\</div>
+<div class="line">        def( <span class="stringliteral">&quot;error&quot;</span>, ( <span class="keyword">const</span> errorType&amp; ( expectedType::* )( )<span class="keyword">const</span>&amp; )&amp; expectedType::error );\</div>
+<div class="line">} )</div>
+<div class="ttc" id="aMRPython_8h_html_a4c2f86ab418002ae88c7465c2804c7f1"><div class="ttname"><a href="MRPython_8h.html#a4c2f86ab418002ae88c7465c2804c7f1">MR_ADD_PYTHON_CUSTOM_DEF</a></div><div class="ttdeci">#define MR_ADD_PYTHON_CUSTOM_DEF(moduleName, name,...)</div><div class="ttdef"><b>Definition:</b> MRPython.h:29</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -335,7 +387,7 @@ Enumerations</h2></td></tr>
 <div class="line">        f( m );\</div>
 <div class="line">}\</div>
 <div class="line"><span class="keyword">static</span> <a class="code hl_struct" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> moduleName##_init_( #moduleName, &amp;PyInit_##moduleName );</div>
-<div class="ttc" id="aclassMR_1_1PythonExport_html_a8cfca7aa55bd847bc13f0e46985d51cc"><div class="ttname"><a href="classMR_1_1PythonExport.html#a8cfca7aa55bd847bc13f0e46985d51cc">MR::PythonExport::functions</a></div><div class="ttdeci">const std::vector&lt; PythonRegisterFuncton &gt; functions(const std::string &amp;moduleName) const</div><div class="ttdef"><b>Definition:</b> MRPython.h:92</div></div>
+<div class="ttc" id="aclassMR_1_1PythonExport_html_a8cfca7aa55bd847bc13f0e46985d51cc"><div class="ttname"><a href="classMR_1_1PythonExport.html#a8cfca7aa55bd847bc13f0e46985d51cc">MR::PythonExport::functions</a></div><div class="ttdeci">const std::vector&lt; PythonRegisterFuncton &gt; functions(const std::string &amp;moduleName) const</div><div class="ttdef"><b>Definition:</b> MRPython.h:103</div></div>
 <div class="ttc" id="aclassMR_1_1PythonExport_html_ab58dad33304df0cdee3c53d47d161ade"><div class="ttname"><a href="classMR_1_1PythonExport.html#ab58dad33304df0cdee3c53d47d161ade">MR::PythonExport::instance</a></div><div class="ttdeci">static MRMESH_API PythonExport &amp; instance()</div></div>
 </div><!-- fragment -->
 </div>

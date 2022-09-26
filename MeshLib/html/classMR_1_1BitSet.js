@@ -1,7 +1,9 @@
 var classMR_1_1BitSet =
 [
+    [ "base", "classMR_1_1BitSet.html#a21c4aa1d25292ca929dc095286685853", null ],
     [ "IndexType", "classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9", null ],
     [ "autoResizeSet", "classMR_1_1BitSet.html#a737f8cc71944c7c750f8eeba4028ac17", null ],
+    [ "autoResizeSet", "classMR_1_1BitSet.html#ab61cde9e7da6d5d6c75fefd11e2e6a24", null ],
     [ "autoResizeTestSet", "classMR_1_1BitSet.html#a84a9273303ae000bcf94b893a298eb95", null ],
     [ "find_last", "classMR_1_1BitSet.html#a21e124c25421599977ed1fc9874016e3", null ],
     [ "heapBytes", "classMR_1_1BitSet.html#ae5007749dadb7430dc9dedb73114f9a6", null ],
@@ -12,5 +14,6 @@ var classMR_1_1BitSet =
     [ "reset", "classMR_1_1BitSet.html#a247ac2e0767fad340477836233e87cb8", null ],
     [ "reset", "classMR_1_1BitSet.html#aa2267b11bc02d8a216df148fdccc02a3", null ],
     [ "reset", "classMR_1_1BitSet.html#a784dcb0f29bf20a645a4267b68d0d6ae", null ],
+    [ "resizeWithReserve", "classMR_1_1BitSet.html#ac7929d81a23ad4ff51c472f0d1c992d5", null ],
     [ "test", "classMR_1_1BitSet.html#aab6d4690169ae21969bc5f538fc8fbff", null ]
 ];

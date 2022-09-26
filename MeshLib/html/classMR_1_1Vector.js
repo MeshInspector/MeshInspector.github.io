@@ -11,6 +11,8 @@ var classMR_1_1Vector =
     [ "Vector", "classMR_1_1Vector.html#a677df0d98b9a3abfc0733796f1c56c7d", null ],
     [ "Vector", "classMR_1_1Vector.html#a8f77e1876cab4b371446e7913cb25121", null ],
     [ "autoResizeAt", "classMR_1_1Vector.html#ad299fc3dd6b4e453a459e88fe9aadd31", null ],
+    [ "autoResizeSet", "classMR_1_1Vector.html#a23ebf45bd6eb2c59e3f8ac7c4aa70dad", null ],
+    [ "autoResizeSet", "classMR_1_1Vector.html#a437a50cfbe5ad619bc23e94b1a6664ea", null ],
     [ "back", "classMR_1_1Vector.html#aa4bcfcbca3642d15aa0cdec1055c4472", null ],
     [ "back", "classMR_1_1Vector.html#afe49f6b723cf6b2b08dfe4d50ddd1c53", null ],
     [ "backId", "classMR_1_1Vector.html#a8c55eb98bf2596f633ff35ce1f8fe00b", null ],
@@ -34,7 +36,7 @@ var classMR_1_1Vector =
     [ "reserve", "classMR_1_1Vector.html#a74f2d276465f6183ec4068d124cbb596", null ],
     [ "resize", "classMR_1_1Vector.html#acd99deedcb9bcc81fa5eb3ba36cf13d1", null ],
     [ "resize", "classMR_1_1Vector.html#adf40b3783f92dfcaf4a65c1a9686b386", null ],
-    [ "resizeWithReserve", "classMR_1_1Vector.html#a3464de487f7675ec46a9dbde42f9350c", null ],
+    [ "resizeWithReserve", "classMR_1_1Vector.html#ae24a0747d63aca37f9e65f5619944252", null ],
     [ "size", "classMR_1_1Vector.html#a223d87525f421788d5f56e5022482b98", null ],
     [ "swap", "classMR_1_1Vector.html#ae03333f72ab69a79829ae5f0d6d426ef", null ],
     [ "vec_", "classMR_1_1Vector.html#ad4c1a76a727c0e52830149df75a87a0f", null ]

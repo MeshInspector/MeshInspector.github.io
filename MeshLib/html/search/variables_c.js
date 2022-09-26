@@ -19,11 +19,12 @@ var searchData=
   ['numcreaseedges_5f_16',['numCreaseEdges_',['../classMR_1_1ObjectMeshHolder.html#af410ff87afee85c7978cca07f1616415',1,'MR::ObjectMeshHolder']]],
   ['numholes_17',['numHoles',['../structMR_1_1ObjectMeshHolder_1_1MeshStat.html#a0e377c784084cc6593ccc131185416dd',1,'MR::ObjectMeshHolder::MeshStat']]],
   ['nummeshvertices_18',['numMeshVertices',['../structMR_1_1SphereParams.html#a6e99b625718037bc438cd04e6865ac95',1,'MR::SphereParams']]],
-  ['numselectededges_5f_19',['numSelectedEdges_',['../classMR_1_1ObjectMeshHolder.html#a54b15a24e639bc505ad9080bd8128b4c',1,'MR::ObjectMeshHolder']]],
-  ['numselectedfaces_5f_20',['numSelectedFaces_',['../classMR_1_1ObjectMeshHolder.html#a102e4183b2d8571edf565f4dd6e61a94',1,'MR::ObjectMeshHolder']]],
-  ['numselectedpoints_5f_21',['numSelectedPoints_',['../classMR_1_1ObjectPointsHolder.html#af7ab9f32dcef65ad1a79fde9078c19af',1,'MR::ObjectPointsHolder']]],
-  ['numsmall_22',['numSmall',['../structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a0b1bb44ee2f0cfdbab7b516b3ce2a6f8',1,'MR::RibbonMenu::DrawGroupConfig']]],
-  ['numsmalltext_23',['numSmallText',['../structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a2c5115679d5b077be3479e377e7951b1',1,'MR::RibbonMenu::DrawGroupConfig']]],
-  ['numundirectededges_24',['numUndirectedEdges',['../structMR_1_1ObjectMeshHolder_1_1MeshStat.html#a9c949d72b4d19f92198faef11507144e',1,'MR::ObjectMeshHolder::MeshStat']]],
-  ['numvalidpoints_5f_25',['numValidPoints_',['../classMR_1_1ObjectPointsHolder.html#a20b26902cdfc19f4bd28762ec7add76e',1,'MR::ObjectPointsHolder']]]
+  ['numnewtris_19',['numNewTris',['../structMR_1_1FillHolePlan.html#a5fc6fe83c8a7d9a18919d438892ea6e4',1,'MR::FillHolePlan']]],
+  ['numselectededges_5f_20',['numSelectedEdges_',['../classMR_1_1ObjectMeshHolder.html#a54b15a24e639bc505ad9080bd8128b4c',1,'MR::ObjectMeshHolder']]],
+  ['numselectedfaces_5f_21',['numSelectedFaces_',['../classMR_1_1ObjectMeshHolder.html#a102e4183b2d8571edf565f4dd6e61a94',1,'MR::ObjectMeshHolder']]],
+  ['numselectedpoints_5f_22',['numSelectedPoints_',['../classMR_1_1ObjectPointsHolder.html#af7ab9f32dcef65ad1a79fde9078c19af',1,'MR::ObjectPointsHolder']]],
+  ['numsmall_23',['numSmall',['../structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a0b1bb44ee2f0cfdbab7b516b3ce2a6f8',1,'MR::RibbonMenu::DrawGroupConfig']]],
+  ['numsmalltext_24',['numSmallText',['../structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a2c5115679d5b077be3479e377e7951b1',1,'MR::RibbonMenu::DrawGroupConfig']]],
+  ['numundirectededges_25',['numUndirectedEdges',['../structMR_1_1ObjectMeshHolder_1_1MeshStat.html#a9c949d72b4d19f92198faef11507144e',1,'MR::ObjectMeshHolder::MeshStat']]],
+  ['numvalidpoints_5f_26',['numValidPoints_',['../classMR_1_1ObjectPointsHolder.html#a20b26902cdfc19f4bd28762ec7add76e',1,'MR::ObjectPointsHolder']]]
 ];

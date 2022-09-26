@@ -159,9 +159,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8b3429bd5756af47e08186ebef6acd7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a03ee463d5f6122ac940a592ac9ec88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Vector.html#a3a03ee463d5f6122ac940a592ac9ec88">operator[]</a> (I i)</td></tr>
 <tr class="separator:a3a03ee463d5f6122ac940a592ac9ec88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3464de487f7675ec46a9dbde42f9350c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Vector.html#a3464de487f7675ec46a9dbde42f9350c">resizeWithReserve</a> (size_t newSize)</td></tr>
-<tr class="memdesc:a3464de487f7675ec46a9dbde42f9350c"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize) can be done without reallocation  <a href="classMR_1_1Vector.html#a3464de487f7675ec46a9dbde42f9350c">More...</a><br /></td></tr>
-<tr class="separator:a3464de487f7675ec46a9dbde42f9350c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae24a0747d63aca37f9e65f5619944252"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Vector.html#ae24a0747d63aca37f9e65f5619944252">resizeWithReserve</a> (size_t newSize, T value=T())</td></tr>
+<tr class="memdesc:ae24a0747d63aca37f9e65f5619944252"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize) can be done without reallocation  <a href="classMR_1_1Vector.html#ae24a0747d63aca37f9e65f5619944252">More...</a><br /></td></tr>
+<tr class="separator:ae24a0747d63aca37f9e65f5619944252"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a437a50cfbe5ad619bc23e94b1a6664ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Vector.html#a437a50cfbe5ad619bc23e94b1a6664ea">autoResizeSet</a> (I pos, size_t len, T val)</td></tr>
+<tr class="memdesc:a437a50cfbe5ad619bc23e94b1a6664ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets elements [pos, pos+len) to given value, adjusting the size of the vector to include new elements  <a href="classMR_1_1Vector.html#a437a50cfbe5ad619bc23e94b1a6664ea">More...</a><br /></td></tr>
+<tr class="separator:a437a50cfbe5ad619bc23e94b1a6664ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23ebf45bd6eb2c59e3f8ac7c4aa70dad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Vector.html#a23ebf45bd6eb2c59e3f8ac7c4aa70dad">autoResizeSet</a> (I i, T val)</td></tr>
+<tr class="separator:a23ebf45bd6eb2c59e3f8ac7c4aa70dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad299fc3dd6b4e453a459e88fe9aadd31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Vector.html#ad299fc3dd6b4e453a459e88fe9aadd31">autoResizeAt</a> (I i)</td></tr>
 <tr class="memdesc:ad299fc3dd6b4e453a459e88fe9aadd31"><td class="mdescLeft">&#160;</td><td class="mdescRight">this accessor automatically adjusts the size of the vector  <a href="classMR_1_1Vector.html#ad299fc3dd6b4e453a459e88fe9aadd31">More...</a><br /></td></tr>
 <tr class="separator:ad299fc3dd6b4e453a459e88fe9aadd31"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -497,6 +502,90 @@ template&lt;typename T , typename I &gt; </div>
 </div><div class="memdoc">
 
 <p>this accessor automatically adjusts the size of the vector </p>
+
+</div>
+</div>
+<a id="a23ebf45bd6eb2c59e3f8ac7c4aa70dad" name="a23ebf45bd6eb2c59e3f8ac7c4aa70dad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23ebf45bd6eb2c59e3f8ac7c4aa70dad">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename I &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, I &gt;::autoResizeSet </td>
+          <td>(</td>
+          <td class="paramtype">I&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a437a50cfbe5ad619bc23e94b1a6664ea" name="a437a50cfbe5ad619bc23e94b1a6664ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a437a50cfbe5ad619bc23e94b1a6664ea">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename I &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, I &gt;::autoResizeSet </td>
+          <td>(</td>
+          <td class="paramtype">I&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>sets elements [pos, pos+len) to given value, adjusting the size of the vector to include new elements </p>
 
 </div>
 </div>
@@ -1149,8 +1238,8 @@ template&lt;typename T , typename I &gt; </div>
 
 </div>
 </div>
-<a id="a3464de487f7675ec46a9dbde42f9350c" name="a3464de487f7675ec46a9dbde42f9350c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3464de487f7675ec46a9dbde42f9350c">&#9670;&#160;</a></span>resizeWithReserve()</h2>
+<a id="ae24a0747d63aca37f9e65f5619944252" name="ae24a0747d63aca37f9e65f5619944252"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae24a0747d63aca37f9e65f5619944252">&#9670;&#160;</a></span>resizeWithReserve()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1164,8 +1253,18 @@ template&lt;typename T , typename I &gt; </div>
           <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, I &gt;::resizeWithReserve </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>newSize</em></td><td>)</td>
+          <td class="paramname"><em>newSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>value</em> = <code>T()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>

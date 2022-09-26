@@ -120,6 +120,7 @@ var annotated_dup =
       [ "FillHoleItem", "structMR_1_1FillHoleItem.html", "structMR_1_1FillHoleItem" ],
       [ "FillHoleMetric", "structMR_1_1FillHoleMetric.html", "structMR_1_1FillHoleMetric" ],
       [ "FillHoleParams", "structMR_1_1FillHoleParams.html", "structMR_1_1FillHoleParams" ],
+      [ "FillHolePlan", "structMR_1_1FillHolePlan.html", "structMR_1_1FillHolePlan" ],
       [ "FitDataMenuItem", "classMR_1_1FitDataMenuItem.html", "classMR_1_1FitDataMenuItem" ],
       [ "FitSelectedObjectsMenuItem", "classMR_1_1FitSelectedObjectsMenuItem.html", "classMR_1_1FitSelectedObjectsMenuItem" ],
       [ "FitSelectedPrimitivesMenuItem", "classMR_1_1FitSelectedPrimitivesMenuItem.html", "classMR_1_1FitSelectedPrimitivesMenuItem" ],
