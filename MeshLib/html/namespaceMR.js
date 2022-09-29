@@ -1298,6 +1298,8 @@ var namespaceMR =
     [ "pointUniformSampling", "group__PointCloudGroup.html#gadd5d7a687012c2369378263a4e119f79", null ],
     [ "position", "namespaceMR.html#a0ca61d3fae40bcd7a9e8ce848bf0362d", null ],
     [ "positionVertsSmoothly", "namespaceMR.html#aa12e4c4e4ffbedecd3d64a4c5fc4a7a8", null ],
+    [ "printCurrentTimerBranch", "group__BasicGroup.html#ga92715abafbf0ac9f1aef87f2cff3088a", null ],
+    [ "printStacktraceOnCrash", "group__BasicGroup.html#ga49107746ea2415c9c89d28a9e0f56112", null ],
     [ "printTimingTreeAndStop", "group__BasicGroup.html#gae36b2b01a85065febe3108e1f94aafa6", null ],
     [ "printTimingTreeAtEnd", "group__BasicGroup.html#gad6cfd0ed032f20380163debadee4dfe1", null ],
     [ "pythonAppendOrRun", "namespaceMR.html#af07768b4409c36a0b8cc9b9849f82691", null ],

@@ -244,11 +244,11 @@ C++ Basic Examples</h1>
 </div><!-- fragment --><h1><a class="anchor" id="PythonCodeExamples"></a>
 Python Basic Examples</h1>
 <p >In this section we provide the same examples but with python code<br  />
-Load and save example: </p><div class="fragment"><div class="line"><span class="keyword">import</span> mrmeshpy</div>
+Load and save example: </p><div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy as mrmeshpy</div>
 <div class="line">expectedMesh = mrmeshpy.loadMesh(mrmeshpy.Path(<span class="stringliteral">&quot;mesh.stl&quot;</span>))</div>
 <div class="line"><span class="keywordflow">if</span> expectedMesh.has_value():</div>
 <div class="line">    mrmeshpy.saveMesh(expectedMesh.value(),mrmeshpy.Path(<span class="stringliteral">&quot;mesh.ply&quot;</span>))</div>
-</div><!-- fragment --><p ><a class="el" href="structMR_1_1Mesh.html">Mesh</a> modification examples </p><div class="fragment"><div class="line"><span class="keyword">import</span> mrmeshpy</div>
+</div><!-- fragment --><p ><a class="el" href="structMR_1_1Mesh.html">Mesh</a> modification examples </p><div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy as mrmeshpy</div>
 <div class="line">expectedMesh = mrmeshpy.loadMesh(mrmeshpy.Path(<span class="stringliteral">&quot;mesh.stl&quot;</span>))</div>
 <div class="line">assert(expectedMesh.has_value())</div>
 <div class="line">mesh = expectedMesh.value()</div>

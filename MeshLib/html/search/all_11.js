@@ -99,7 +99,7 @@ var searchData=
   ['resizewithreserve_96',['resizeWithReserve',['../classMR_1_1Vector.html#ae24a0747d63aca37f9e65f5619944252',1,'MR::Vector::resizeWithReserve()'],['../classMR_1_1BitSet.html#ac7929d81a23ad4ff51c472f0d1c992d5',1,'MR::BitSet::resizeWithReserve()']]],
   ['resolution_97',['resolution',['../structMR_1_1MeshToDistanceMapParams.html#a7f9d8b8e94b257b2bf65aa10104459c9',1,'MR::MeshToDistanceMapParams::resolution()'],['../structMR_1_1ContourToDistanceMapParams.html#a777f64d2a02e161c0c2d62ceb280a2e4',1,'MR::ContourToDistanceMapParams::resolution()'],['../structMR_1_1Image.html#a39fed2172fc354aeec92cae5942b7151',1,'MR::Image::resolution()'],['../structMR_1_1GlTexture2_1_1Settings.html#aaa371acf8d5cc048412a9a5da0bcdc4e',1,'MR::GlTexture2::Settings::resolution()']]],
   ['resolvemeshdegenerations_98',['resolveMeshDegenerations',['../group__DecimateGroup.html#ga0794cb3413d960d7e0f802714d1b9c31',1,'MR']]],
-  ['restart_99',['restart',['../classMR_1_1Timer.html#a3c039c473cb5b98b2b31c5ba336ccc6a',1,'MR::Timer']]],
+  ['restart_99',['restart',['../classMR_1_1Timer.html#ad7ee969ecfcfa61cbd777db48c283fab',1,'MR::Timer']]],
   ['restoringstreamssink_100',['RestoringStreamsSink',['../classMR_1_1RestoringStreamsSink.html',1,'MR::RestoringStreamsSink'],['../classMR_1_1RestoringStreamsSink.html#aa423a8c6a70592f7e1b45b5f3255c5c7',1,'MR::RestoringStreamsSink::RestoringStreamsSink()']]],
   ['result_5ftype_101',['result_type',['../structMR_1_1Viewer_1_1SignalStopHandler.html#a2081bf492c269c66a3028f263ca499ab',1,'MR::Viewer::SignalStopHandler']]],
   ['resultcut_102',['resultCut',['../structMR_1_1CutMeshResult.html#a5fd92baa79aac5e503e3310ab91fb400',1,'MR::CutMeshResult']]],
