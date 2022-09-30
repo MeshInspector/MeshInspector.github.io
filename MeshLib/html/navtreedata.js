@@ -28,7 +28,8 @@ var NAVTREE =
     [ "Overview", "index.html", [
       [ "MeshLib", "index.html#WhatAreMeshLib", null ],
       [ "Build with VS2019 on Windows", "index.html#HomePageBuildWin", null ],
-      [ "Build with CMake on Linux", "index.html#HomePageBuildLin", null ]
+      [ "Build with CMake on Linux", "index.html#HomePageBuildLin", null ],
+      [ "Python integration", "index.html#PythonIntegration", null ]
     ] ],
     [ "Integration", "Integration.html", null ],
     [ "Basic usage", "HowToBasic.html", null ],
@@ -104,17 +105,17 @@ var NAVTREEINDEX =
 "group__BasicGroup.html#ga8b871063e6c314fad7809432d2f74b64",
 "group__IOGroup.html#gafc43894b540c74745569c073d816c069",
 "group__SurfaceDistanceBuilder.html",
-"namespaceMR.html#a2b0f23f1de30eee9a428674217f22d62",
-"namespaceMR.html#aaa5f73588605d0dd4282be91fa52efe2",
-"namespacemembers_func_w.html",
-"structMR_1_1CutMeshResult.html#a5fd92baa79aac5e503e3310ab91fb400",
-"structMR_1_1Image.html#a39fed2172fc354aeec92cae5942b7151",
-"structMR_1_1Matrix4.html#a9cfc9d9ade4367b39f5eec17c75bdd5d",
-"structMR_1_1MeshToDistanceMapParams.html#ace32ee073907bc00f51a76ba214f6d3c",
-"structMR_1_1PointsVisualizePropertyType.html",
-"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#acb4f5276bb05eca21c715df15a42b6e5",
-"structMR_1_1Vector2.html#a22a30fa24fb87ce9794b8008a976b937",
-"structMR_1_1Viewport_1_1Parameters.html#a1c27a50a950c5531b7b4198a165971f4"
+"namespaceMR.html#a2a2594ddaa82363e43334fa708f48be0",
+"namespaceMR.html#aa9a6636cb17e8fa436649e79bdc76aeb",
+"namespacemembers_func_v.html",
+"structMR_1_1CutMeshResult.html",
+"structMR_1_1Image.html",
+"structMR_1_1Matrix4.html#a9a83e20de940378f00e19b33ac4375d7",
+"structMR_1_1MeshToDistanceMapParams.html#acd9523a7ea030a77856bbadf789bd132",
+"structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a93bcbf8ddd9c5a89210bf3cf9f8acbef",
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a2c5115679d5b077be3479e377e7951b1",
+"structMR_1_1Vector2.html#a1f64d08ffa10b15e43c0a0b1e717715b",
+"structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba971fd8cc345d8bd9f92e9f7d88fdf20c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

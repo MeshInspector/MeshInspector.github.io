@@ -139,6 +139,16 @@ Installation process is automated, but takes ~40 minutes if no required packages
 <div class="line">$ ./build/Release/bin/MRTest</div>
 </div><!-- fragment --> <dl class="section note"><dt>Note</dt><dd>./scripts/install*.sh scripts required root access sometimes during installation. However, it's not recommended to run the whole script with sudo. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>You could specify build type to Debug by <code>export</code> <code>MESHRUS_BUILD_TYPE=Debug</code> , <em>Release</em> is default. </dd></dl>
+<h1><a class="anchor" id="PythonIntegration"></a>
+Python integration</h1>
+<p >Although MeshLib is written in C++, all functions are exposed to Python as well. Python code can be executed both from within a MeshLib-based C++ application (embedded mode) and from python interpreter directly, which imports MeshLib modules.<br  />
+Moreover, MeshLib can be easily installed as a python package using <code>pip install</code>:<br  />
+</p><ul>
+<li>On Windows in Python 3.10 via <div class="fragment"><div class="line">py -3.10 -m pip install --upgrade pip meshlib</div>
+</div><!-- fragment --></li>
+<li>On Ubuntu 20.04 Linux in Python 3.8 via <div class="fragment"><div class="line">python3 -m pip install --upgrade pip meshlib</div>
+</div><!-- fragment --> Support for <code>pip install</code> on MacOS X is coming.</li>
+</ul>
 <p >Find more:</p><ul>
 <li><a class="el" href="DataModel.html">Data model overview </a></li>
 <li><a class="el" href="EmbendedPythonOverview.html">Python overview </a></li>

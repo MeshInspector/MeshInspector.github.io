@@ -245,7 +245,7 @@ Enumerations</h2></td></tr>
 <div class="line">    <span class="keyword">using </span>expectedType = tl::expected&lt;type,errorType&gt;;\</div>
 <div class="line">    pybind11::class_&lt;expectedType&gt;(m, #name ).\</div>
 <div class="line">        def( <span class="stringliteral">&quot;has_value&quot;</span>, &amp;expectedType::has_value ).\</div>
-<div class="line">        def( <span class="stringliteral">&quot;value&quot;</span>, ( type&amp; ( expectedType::* )( )&amp; )&amp; expectedType::value, pybind11::return_value_policy::reference ).\</div>
+<div class="line">        def( <span class="stringliteral">&quot;value&quot;</span>, ( type&amp; ( expectedType::* )( )&amp; )&amp; expectedType::value, pybind11::return_value_policy::reference_internal ).\</div>
 <div class="line">        def( <span class="stringliteral">&quot;error&quot;</span>, ( <span class="keyword">const</span> errorType&amp; ( expectedType::* )( )<span class="keyword">const</span>&amp; )&amp; expectedType::error );\</div>
 <div class="line">} )</div>
 <div class="ttc" id="aMRPython_8h_html_a4c2f86ab418002ae88c7465c2804c7f1"><div class="ttname"><a href="MRPython_8h.html#a4c2f86ab418002ae88c7465c2804c7f1">MR_ADD_PYTHON_CUSTOM_DEF</a></div><div class="ttdeci">#define MR_ADD_PYTHON_CUSTOM_DEF(moduleName, name,...)</div><div class="ttdef"><b>Definition:</b> MRPython.h:29</div></div>

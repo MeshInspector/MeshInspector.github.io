@@ -154,7 +154,7 @@ $(document).ready(function(){initNavTree('MRPython_8h_source.html',''); initResi
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">    using expectedType = tl::expected&lt;type,errorType&gt;;\</span></div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">    pybind11::class_&lt;expectedType&gt;(m, #name ).\</span></div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">        def( &quot;has_value&quot;</span>, &amp;expectedType::has_value ).\</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        def( &quot;value&quot;, ( type&amp; ( expectedType::* )( )&amp; )&amp; expectedType::value, pybind11::return_value_policy::reference ).\</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        def( &quot;value&quot;, ( type&amp; ( expectedType::* )( )&amp; )&amp; expectedType::value, pybind11::return_value_policy::reference_internal ).\</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        def( &quot;error&quot;, ( const errorType&amp; ( expectedType::* )( )const&amp; )&amp; expectedType::error );\</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>} )</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
