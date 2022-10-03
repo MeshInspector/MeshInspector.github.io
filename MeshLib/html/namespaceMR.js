@@ -1105,6 +1105,7 @@ var namespaceMR =
     [ "getPluginLibraryList", "namespaceMR.html#a97748253eab663b5a20395b61da50b3f", null ],
     [ "getRegionEdges", "namespaceMR.html#ad236300492a56bcb9401d780f9a30acf", null ],
     [ "GetResourcesDirectory", "namespaceMR.html#a1d6fd316711783f671ffebc9eac9042a", null ],
+    [ "GetSystemInfoJson", "namespaceMR.html#ace8b49286f2496a8e43901176b83780b", null ],
     [ "GetTempDirectory", "namespaceMR.html#a4ba1f8b8dda149d741c79f6ca5c6f2ba", null ],
     [ "getToFloatConverter", "group__AABBTreeGroup.html#ga2096ace9292b40c55421517434fd8bd8", null ],
     [ "getToIntConverter", "group__AABBTreeGroup.html#ga9736a434a7f001c05b9a7d23675ca257", null ],
