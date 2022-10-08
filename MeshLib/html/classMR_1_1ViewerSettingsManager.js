@@ -5,6 +5,7 @@ var classMR_1_1ViewerSettingsManager =
       [ "Lines", "classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76aa0b0293a2db49f5f93c15a62e095c819", null ],
       [ "Points", "classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76a75dd5f1160a3f02b6fae89c54361a1b3", null ],
       [ "Voxels", "classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76a59637ce14182065617d85623a588b6f0", null ],
+      [ "DistanceMap", "classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76ae76139f4dbe2f91f14577bcccc1baf77", null ],
       [ "Count", "classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "ViewerSettingsManager", "classMR_1_1ViewerSettingsManager.html#a73a1b054bbf40224c9f01e6aff8af7af", null ],

@@ -108,21 +108,37 @@ $(document).ready(function(){initNavTree('structMR_1_1DeloneSettings.html',''); 
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:acc54a4a2c29214632bccda65b6e0cba0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0">maxDeviationAfterFlip</a> = 0.0f</td></tr>
+<tr class="memitem:acc54a4a2c29214632bccda65b6e0cba0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0">maxDeviationAfterFlip</a> = FLT_MAX</td></tr>
 <tr class="memdesc:acc54a4a2c29214632bccda65b6e0cba0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximal allowed surface deviation during every individual flip.  <a href="structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0">More...</a><br /></td></tr>
 <tr class="separator:acc54a4a2c29214632bccda65b6e0cba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d89f7e52be83dd63ce7daed50c40c90"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90">maxAngleChange</a> = <a class="el" href="namespaceMR.html#a500d4f823bf14e54d3aa73d4761a66d6">NoAngleChangeLimit</a></td></tr>
-<tr class="memdesc:a2d89f7e52be83dd63ce7daed50c40c90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximal allowed angle change <br  />
-  <a href="structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90">More...</a><br /></td></tr>
+<tr class="memdesc:a2d89f7e52be83dd63ce7daed50c40c90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximal allowed dihedral angle change over the flipped edge.  <a href="structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90">More...</a><br /></td></tr>
 <tr class="separator:a2d89f7e52be83dd63ce7daed50c40c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1d8b0d536be2f423ac9a2d1b2bce7d2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2">criticalTriAspectRatio</a> = FLT_MAX</td></tr>
+<tr class="separator:ac1d8b0d536be2f423ac9a2d1b2bce7d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f1d4b68cf91c9aebfb8f580d7ab6610"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610">region</a> = nullptr</td></tr>
-<tr class="memdesc:a0f1d4b68cf91c9aebfb8f580d7ab6610"><td class="mdescLeft">&#160;</td><td class="mdescRight">Region on mesh to be processed, it is constant and not updated,.  <a href="structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610">More...</a><br /></td></tr>
+<tr class="memdesc:a0f1d4b68cf91c9aebfb8f580d7ab6610"><td class="mdescLeft">&#160;</td><td class="mdescRight">Region on mesh to be processed, it is constant and not updated.  <a href="structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610">More...</a><br /></td></tr>
 <tr class="separator:a0f1d4b68cf91c9aebfb8f580d7ab6610"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a513ebe0c472b1ac5cdfa1226d4f52e27"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27">notFlippable</a> = nullptr</td></tr>
 <tr class="memdesc:a513ebe0c472b1ac5cdfa1226d4f52e27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edges specified by this bit-set will never be flipped.  <a href="structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27">More...</a><br /></td></tr>
 <tr class="separator:a513ebe0c472b1ac5cdfa1226d4f52e27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac1d8b0d536be2f423ac9a2d1b2bce7d2" name="ac1d8b0d536be2f423ac9a2d1b2bce7d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1d8b0d536be2f423ac9a2d1b2bce7d2">&#9670;&#160;</a></span>criticalTriAspectRatio</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::DeloneSettings::criticalTriAspectRatio = FLT_MAX</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >if this value is less than FLT_MAX then the algorithm will try to minimize maximal triangle aspect ratio, and ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value </p>
+
+</div>
+</div>
 <a id="a2d89f7e52be83dd63ce7daed50c40c90" name="a2d89f7e52be83dd63ce7daed50c40c90"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2d89f7e52be83dd63ce7daed50c40c90">&#9670;&#160;</a></span>maxAngleChange</h2>
 
@@ -135,8 +151,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Maximal allowed angle change <br  />
- </p>
+<p>Maximal allowed dihedral angle change over the flipped edge. </p>
 
 </div>
 </div>
@@ -147,7 +162,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float MR::DeloneSettings::maxDeviationAfterFlip = 0.0f</td>
+          <td class="memname">float MR::DeloneSettings::maxDeviationAfterFlip = FLT_MAX</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -184,7 +199,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Region on mesh to be processed, it is constant and not updated,. </p>
+<p>Region on mesh to be processed, it is constant and not updated. </p>
 
 </div>
 </div>

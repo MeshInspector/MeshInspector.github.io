@@ -17,10 +17,9 @@ var searchData=
   ['offsetparameters_14',['OffsetParameters',['../structMR_1_1OffsetParameters.html',1,'MR']]],
   ['onemeshcontour_15',['OneMeshContour',['../structMR_1_1OneMeshContour.html',1,'MR']]],
   ['onemeshintersection_16',['OneMeshIntersection',['../structMR_1_1OneMeshIntersection.html',1,'MR']]],
-  ['open_17',['Open',['../classMR_1_1Open.html',1,'MR']]],
-  ['opendicomsmenuitem_18',['OpenDICOMsMenuItem',['../classMR_1_1OpenDICOMsMenuItem.html',1,'MR']]],
-  ['opendirectorymenuitem_19',['OpenDirectoryMenuItem',['../classMR_1_1OpenDirectoryMenuItem.html',1,'MR']]],
-  ['openfilesmenuitem_20',['OpenFilesMenuItem',['../classMR_1_1OpenFilesMenuItem.html',1,'MR']]],
-  ['openrawvoxelsplugin_21',['OpenRawVoxelsPlugin',['../classMR_1_1OpenRawVoxelsPlugin.html',1,'MR']]],
-  ['openvdbfloatgrid_22',['OpenVdbFloatGrid',['../structMR_1_1OpenVdbFloatGrid.html',1,'MR']]]
+  ['opendicomsmenuitem_17',['OpenDICOMsMenuItem',['../classMR_1_1OpenDICOMsMenuItem.html',1,'MR']]],
+  ['opendirectorymenuitem_18',['OpenDirectoryMenuItem',['../classMR_1_1OpenDirectoryMenuItem.html',1,'MR']]],
+  ['openfilesmenuitem_19',['OpenFilesMenuItem',['../classMR_1_1OpenFilesMenuItem.html',1,'MR']]],
+  ['openrawvoxelsplugin_20',['OpenRawVoxelsPlugin',['../classMR_1_1OpenRawVoxelsPlugin.html',1,'MR']]],
+  ['openvdbfloatgrid_21',['OpenVdbFloatGrid',['../structMR_1_1OpenVdbFloatGrid.html',1,'MR']]]
 ];

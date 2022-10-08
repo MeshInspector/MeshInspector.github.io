@@ -30,6 +30,8 @@ var classMR_1_1MeshTopology =
     [ "findBoundaryVerts", "classMR_1_1MeshTopology.html#aa0c8f33292c4d9bde7ce0051941b7932", null ],
     [ "findEdge", "classMR_1_1MeshTopology.html#a5280cca1a7e8cf958ef2856607f87b8b", null ],
     [ "findHoleRepresentiveEdges", "classMR_1_1MeshTopology.html#ac8e27800a0bbad8038ed49623f7836fc", null ],
+    [ "flip", "classMR_1_1MeshTopology.html#ae796d1297cfc530ad544c5ced51b82fd", null ],
+    [ "flip", "classMR_1_1MeshTopology.html#acb037b0d20b8897728886d4405e62252", null ],
     [ "flipEdge", "classMR_1_1MeshTopology.html#a3feb7377bb8fa3011bf24ee10f5d4ba4", null ],
     [ "flipOrientation", "classMR_1_1MeshTopology.html#ac4201a4b533bfb603ca27d6a032348e3", null ],
     [ "fromSameLeftRing", "classMR_1_1MeshTopology.html#a0a202e2c957daafe1bd159f949f4189a", null ],

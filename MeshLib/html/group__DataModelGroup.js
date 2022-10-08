@@ -317,6 +317,7 @@ var group__DataModelGroup =
     [ "MR::getDepthFirstObject", "group__DataModelGroup.html#gafa3e42d954c50c383af5c20a059e34d2", null ],
     [ "MR::getTopmostVisibleObjects", "group__DataModelGroup.html#ga014b6029e38a8f6003e2a3d941e2ca9f", null ],
     [ "MR::getTopmostVisibleObjects", "group__DataModelGroup.html#ga7afd4c6187926b10b71f8631961165a0", null ],
+    [ "MR::makeObjectDistanceMapFromFile", "group__DataModelGroup.html#ga76bb7958ef2900006f29b9a81fc6e8f4", null ],
     [ "MR::makeObjectLinesFromFile", "group__DataModelGroup.html#gae9f26bcb772ba7f36c09511eb583c23f", null ],
     [ "MR::makeObjectMeshFromFile", "group__DataModelGroup.html#ga49139a191d999bd254234e875bc94035", null ],
     [ "MR::makeObjectPointsFromFile", "group__DataModelGroup.html#ga2c9f97da5f015bc83b81da71e050d2d6", null ],

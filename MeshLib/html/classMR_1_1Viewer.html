@@ -167,8 +167,6 @@ Public Types</h2></td></tr>
 <tr class="separator:a1e7b5d040663db04b5ee435db17f41df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0feb0d244ebf3015b8ed14e68ebb5f12"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a0feb0d244ebf3015b8ed14e68ebb5f12">RenderSignal</a> = boost::signals2::signal&lt; void()&gt;</td></tr>
 <tr class="separator:a0feb0d244ebf3015b8ed14e68ebb5f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1abb03460a529f21732d7bc008647e8e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a1abb03460a529f21732d7bc008647e8e">SaveLoadSignal</a> = boost::signals2::signal&lt; bool(const std::filesystem::path &amp;path), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a> &gt;</td></tr>
-<tr class="separator:a1abb03460a529f21732d7bc008647e8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae75b061c70e140f41530c73ec2879d99"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ae75b061c70e140f41530c73ec2879d99">DragDropSignal</a> = boost::signals2::signal&lt; bool(const std::vector&lt; std::filesystem::path &gt; &amp;paths), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a> &gt;</td></tr>
 <tr class="separator:ae75b061c70e140f41530c73ec2879d99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7f0983455b1dfa5ccae593d205470d9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ab7f0983455b1dfa5ccae593d205470d9">PostResizeSignal</a> = boost::signals2::signal&lt; void(int x, int y)&gt;</td></tr>
@@ -191,12 +189,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a85ad500aab48ce2471d2715030ff667a"><td class="memTemplParams" colspan="2">template&lt;typename PluginType &gt; </td></tr>
 <tr class="memitem:a85ad500aab48ce2471d2715030ff667a"><td class="memTemplItemLeft" align="right" valign="top">PluginType *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a85ad500aab48ce2471d2715030ff667a">getPluginInstance</a> ()</td></tr>
 <tr class="separator:a85ad500aab48ce2471d2715030ff667a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab07dde78c9102b6d7aa6af7cc9b35957"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ab07dde78c9102b6d7aa6af7cc9b35957">isKnownMeshFile</a> (const std::filesystem::path &amp;file_name)</td></tr>
-<tr class="separator:ab07dde78c9102b6d7aa6af7cc9b35957"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af198143b063621c6f93b2c7e24cd5bff"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#af198143b063621c6f93b2c7e24cd5bff">load_file</a> (const std::filesystem::path &amp;file_name)</td></tr>
-<tr class="separator:af198143b063621c6f93b2c7e24cd5bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a625b6e256c714f0ccb3280ffdab86ee3"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a625b6e256c714f0ccb3280ffdab86ee3">save_mesh_to_file</a> (const std::filesystem::path &amp;mesh_file_name)</td></tr>
-<tr class="separator:a625b6e256c714f0ccb3280ffdab86ee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae569c352cb211766d2e095c78b668853"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ae569c352cb211766d2e095c78b668853">isSupportedFormat</a> (const std::filesystem::path &amp;file_name)</td></tr>
+<tr class="separator:ae569c352cb211766d2e095c78b668853"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39db8dc33e990245c490ea5434c1a53a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a39db8dc33e990245c490ea5434c1a53a">loadFile</a> (const std::filesystem::path &amp;file_name)</td></tr>
+<tr class="separator:a39db8dc33e990245c490ea5434c1a53a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01c76d68cd7eda7aa58d1e04f5ba1604"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a01c76d68cd7eda7aa58d1e04f5ba1604">saveToFile</a> (const std::filesystem::path &amp;mesh_file_name)</td></tr>
+<tr class="separator:a01c76d68cd7eda7aa58d1e04f5ba1604"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8927cbb8dfb3e8201f106472e4b9377b"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a8927cbb8dfb3e8201f106472e4b9377b">key_pressed</a> (unsigned int unicode_key, int modifier)</td></tr>
 <tr class="separator:a8927cbb8dfb3e8201f106472e4b9377b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e12793bb253caaeb67e7c34023a41b3"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a9e12793bb253caaeb67e7c34023a41b3">key_down</a> (int key, int modifier)</td></tr>
@@ -432,10 +430,6 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a299cf1cccfffbe714ff8369008be4659"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35db98c7c205589452ad91374c79186d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#a0feb0d244ebf3015b8ed14e68ebb5f12">RenderSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a35db98c7c205589452ad91374c79186d">postDrawSignal</a></td></tr>
 <tr class="separator:a35db98c7c205589452ad91374c79186d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3de65a7411b9c9f4c4a56b5f8cd6b0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#a1abb03460a529f21732d7bc008647e8e">SaveLoadSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ae3de65a7411b9c9f4c4a56b5f8cd6b0a">saveSignal</a></td></tr>
-<tr class="separator:ae3de65a7411b9c9f4c4a56b5f8cd6b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb01d0f716fe5c36ed504d9e81efa476"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#a1abb03460a529f21732d7bc008647e8e">SaveLoadSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#abb01d0f716fe5c36ed504d9e81efa476">loadSignal</a></td></tr>
-<tr class="separator:abb01d0f716fe5c36ed504d9e81efa476"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2c82473f02c741b3be29cb4ff10daa0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#ae75b061c70e140f41530c73ec2879d99">DragDropSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ab2c82473f02c741b3be29cb4ff10daa0">dragDropSignal</a></td></tr>
 <tr class="separator:ab2c82473f02c741b3be29cb4ff10daa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07e273d6252afe70606479ed9fb35cd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#ab7f0983455b1dfa5ccae593d205470d9">PostResizeSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a07e273d6252afe70606479ed9fb35cd2">postResizeSignal</a></td></tr>
@@ -615,20 +609,6 @@ Friends</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classMR_1_1Viewer.html#a0feb0d244ebf3015b8ed14e68ebb5f12">MR::Viewer::RenderSignal</a> =  boost::signals2::signal&lt;void()&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1abb03460a529f21732d7bc008647e8e" name="a1abb03460a529f21732d7bc008647e8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1abb03460a529f21732d7bc008647e8e">&#9670;&#160;</a></span>SaveLoadSignal</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1Viewer.html#a1abb03460a529f21732d7bc008647e8e">MR::Viewer::SaveLoadSignal</a> =  boost::signals2::signal&lt;bool( const std::filesystem::path&amp; path ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1792,24 +1772,6 @@ template&lt;typename PluginType &gt; </div>
 
 </div>
 </div>
-<a id="ab07dde78c9102b6d7aa6af7cc9b35957" name="ab07dde78c9102b6d7aa6af7cc9b35957"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab07dde78c9102b6d7aa6af7cc9b35957">&#9670;&#160;</a></span>isKnownMeshFile()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API bool MR::Viewer::isKnownMeshFile </td>
-          <td>(</td>
-          <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
-          <td class="paramname"><em>file_name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a881f953c9d192cce78219319c2cdf0bb" name="a881f953c9d192cce78219319c2cdf0bb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a881f953c9d192cce78219319c2cdf0bb">&#9670;&#160;</a></span>isLaunched()</h2>
 
@@ -1831,6 +1793,24 @@ template&lt;typename PluginType &gt; </div>
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae569c352cb211766d2e095c78b668853" name="ae569c352cb211766d2e095c78b668853"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae569c352cb211766d2e095c78b668853">&#9670;&#160;</a></span>isSupportedFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::isSupportedFormat </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>file_name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -1999,14 +1979,14 @@ template&lt;typename PluginType &gt; </div>
 
 </div>
 </div>
-<a id="af198143b063621c6f93b2c7e24cd5bff" name="af198143b063621c6f93b2c7e24cd5bff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af198143b063621c6f93b2c7e24cd5bff">&#9670;&#160;</a></span>load_file()</h2>
+<a id="a39db8dc33e990245c490ea5434c1a53a" name="a39db8dc33e990245c490ea5434c1a53a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39db8dc33e990245c490ea5434c1a53a">&#9670;&#160;</a></span>loadFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API bool MR::Viewer::load_file </td>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::loadFile </td>
           <td>(</td>
           <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
           <td class="paramname"><em>file_name</em></td><td>)</td>
@@ -2391,14 +2371,14 @@ template&lt;typename PluginType &gt; </div>
 
 </div>
 </div>
-<a id="a625b6e256c714f0ccb3280ffdab86ee3" name="a625b6e256c714f0ccb3280ffdab86ee3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a625b6e256c714f0ccb3280ffdab86ee3">&#9670;&#160;</a></span>save_mesh_to_file()</h2>
+<a id="a01c76d68cd7eda7aa58d1e04f5ba1604" name="a01c76d68cd7eda7aa58d1e04f5ba1604"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01c76d68cd7eda7aa58d1e04f5ba1604">&#9670;&#160;</a></span>saveToFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API bool MR::Viewer::save_mesh_to_file </td>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::saveToFile </td>
           <td>(</td>
           <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
           <td class="paramname"><em>mesh_file_name</em></td><td>)</td>
@@ -2904,20 +2884,6 @@ template&lt;typename PluginType &gt; </div>
 
 </div>
 </div>
-<a id="abb01d0f716fe5c36ed504d9e81efa476" name="abb01d0f716fe5c36ed504d9e81efa476"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb01d0f716fe5c36ed504d9e81efa476">&#9670;&#160;</a></span>loadSignal</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Viewer.html#a1abb03460a529f21732d7bc008647e8e">SaveLoadSignal</a> MR::Viewer::loadSignal</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a29608d2703608c58e0f6bc86841b9eac" name="a29608d2703608c58e0f6bc86841b9eac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a29608d2703608c58e0f6bc86841b9eac">&#9670;&#160;</a></span>mouseController</h2>
 
@@ -3094,20 +3060,6 @@ template&lt;typename PluginType &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">std::unique_ptr&lt;<a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a>&gt; MR::Viewer::rotationSphere</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae3de65a7411b9c9f4c4a56b5f8cd6b0a" name="ae3de65a7411b9c9f4c4a56b5f8cd6b0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3de65a7411b9c9f4c4a56b5f8cd6b0a">&#9670;&#160;</a></span>saveSignal</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Viewer.html#a1abb03460a529f21732d7bc008647e8e">SaveLoadSignal</a> MR::Viewer::saveSignal</td>
         </tr>
       </table>
 </div><div class="memdoc">

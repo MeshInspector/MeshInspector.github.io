@@ -101,14 +101,27 @@ $(document).ready(function(){initNavTree('EmbendedPythonOverview.html',''); init
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p >Python is one of the most popular and widely used programming language in scientific researches, machine learning, data analysis and advanced testing.<br  />
-<b>Requires</b> <b>python</b> <b>3.10</b> (3.8 on Ubuntu 20.04)</p>
-<p >MeshLib library allows you to call python scripts directly from the command line or use particular functions by <code>import mrmeshpy</code>.</p>
+ </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadCenter">Distribution   </th><th class="markdownTableHeadCenter">Python version    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter">Windows x64   </td><td class="markdownTableBodyCenter">3.10    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyCenter">Ubuntu 20 x64   </td><td class="markdownTableBodyCenter">3.8    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter">Ubuntu 22 x64   </td><td class="markdownTableBodyCenter">3.10    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyCenter">Fedora 35 x64   </td><td class="markdownTableBodyCenter">3.9    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter">pip install meshlib   </td><td class="markdownTableBodyCenter">3.8, 3.9, 3.10   </td></tr>
+</table>
+<p >MeshLib library allows you to call python scripts directly from the command line or use particular functions by <code>from meshlib import mrmeshpy</code>.</p>
 <p ><b>Usage</b> </p>
 <p >On Windows: path to the directory that contains MeshLib python modules (mrmeshpy.pyd, mrmeshnumpy.pyd ...) should be added to python before importing the modules </p><div class="fragment"><div class="line"><span class="keyword">import</span> sys</div>
 <div class="line">sys.path.append(<span class="stringliteral">&#39;path_to_modules_directory&#39;</span>)</div>
 </div><!-- fragment --><p >MeshLib provides several usage options<br  />
 </p><ol type="1">
-<li>Directly from system python <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy as mrmeshpy</div>
+<li>Directly from system python <div class="fragment"><div class="line">from meshlib <span class="keyword">import</span> mrmeshpy</div>
 <div class="line"> </div>
 <div class="line">expMesh = mrmeshpy.loadMesh(mrmeshpy.Path(<span class="stringliteral">&quot;mesh.stl&quot;</span>))</div>
 <div class="line">assert(expMesh.has_value())</div>

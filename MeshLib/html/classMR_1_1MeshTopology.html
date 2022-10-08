@@ -229,6 +229,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae63ac568ee78898e47a22b30ec475e26"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#ae63ac568ee78898e47a22b30ec475e26">getValidVerts</a> () const</td></tr>
 <tr class="memdesc:ae63ac568ee78898e47a22b30ec475e26"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached set of all valid vertices  <a href="classMR_1_1MeshTopology.html#ae63ac568ee78898e47a22b30ec475e26">More...</a><br /></td></tr>
 <tr class="separator:ae63ac568ee78898e47a22b30ec475e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb037b0d20b8897728886d4405e62252"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#acb037b0d20b8897728886d4405e62252">flip</a> (<a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;vs) const</td></tr>
+<tr class="memdesc:acb037b0d20b8897728886d4405e62252"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets in (vs) all valid vertices that were not selected before the call, and resets other bits  <a href="classMR_1_1MeshTopology.html#acb037b0d20b8897728886d4405e62252">More...</a><br /></td></tr>
+<tr class="separator:acb037b0d20b8897728886d4405e62252"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add09a87837da71bfad4fc61ebcf887bd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#add09a87837da71bfad4fc61ebcf887bd">getVertIds</a> (const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *region) const</td></tr>
 <tr class="memdesc:add09a87837da71bfad4fc61ebcf887bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">if region pointer is not null then converts it in reference, otherwise returns all valid vertices in the mesh  <a href="classMR_1_1MeshTopology.html#add09a87837da71bfad4fc61ebcf887bd">More...</a><br /></td></tr>
 <tr class="separator:add09a87837da71bfad4fc61ebcf887bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -274,6 +277,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af4e844ba63490bc5f09757e2a4f35319"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#af4e844ba63490bc5f09757e2a4f35319">getValidFaces</a> () const</td></tr>
 <tr class="memdesc:af4e844ba63490bc5f09757e2a4f35319"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached set of all valid faces  <a href="classMR_1_1MeshTopology.html#af4e844ba63490bc5f09757e2a4f35319">More...</a><br /></td></tr>
 <tr class="separator:af4e844ba63490bc5f09757e2a4f35319"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae796d1297cfc530ad544c5ced51b82fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#ae796d1297cfc530ad544c5ced51b82fd">flip</a> (<a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;fs) const</td></tr>
+<tr class="memdesc:ae796d1297cfc530ad544c5ced51b82fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets in (fs) all valid faces that were not selected before the call, and resets other bits  <a href="classMR_1_1MeshTopology.html#ae796d1297cfc530ad544c5ced51b82fd">More...</a><br /></td></tr>
+<tr class="separator:ae796d1297cfc530ad544c5ced51b82fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afacf72825c9fa6fc3c32c4206677608e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#afacf72825c9fa6fc3c32c4206677608e">getFaceIds</a> (const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *region) const</td></tr>
 <tr class="memdesc:afacf72825c9fa6fc3c32c4206677608e"><td class="mdescLeft">&#160;</td><td class="mdescRight">if region pointer is not null then converts it in reference, otherwise returns all valid faces in the mesh  <a href="classMR_1_1MeshTopology.html#afacf72825c9fa6fc3c32c4206677608e">More...</a><br /></td></tr>
 <tr class="separator:afacf72825c9fa6fc3c32c4206677608e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1218,6 +1224,62 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns one edge with no valid left face for every boundary in the mesh </p>
+
+</div>
+</div>
+<a id="ae796d1297cfc530ad544c5ced51b82fd" name="ae796d1297cfc530ad544c5ced51b82fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae796d1297cfc530ad544c5ced51b82fd">&#9670;&#160;</a></span>flip() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::MeshTopology::flip </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>fs</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>sets in (fs) all valid faces that were not selected before the call, and resets other bits </p>
+
+</div>
+</div>
+<a id="acb037b0d20b8897728886d4405e62252" name="acb037b0d20b8897728886d4405e62252"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb037b0d20b8897728886d4405e62252">&#9670;&#160;</a></span>flip() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::MeshTopology::flip </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>vs</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>sets in (vs) all valid vertices that were not selected before the call, and resets other bits </p>
 
 </div>
 </div>

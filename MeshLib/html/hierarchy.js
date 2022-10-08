@@ -33,7 +33,7 @@ var hierarchy =
     [ "MR::MeshBuilder::BuildSettings", "structMR_1_1MeshBuilder_1_1BuildSettings.html", null ],
     [ "MR::RibbonButtonDrawer::ButtonItemWidth", "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html", null ],
     [ "Checks", null, [
-      [ "MR::SceneStateOrCheck< SceneStateExactCheck< 1, ObjectMesh >, SceneStateExactCheck< 1, ObjectLines >, SceneStateExactCheck< 1, ObjectPoints >, SceneStateExactCheck< 1, ObjectVoxels > >", "classMR_1_1SceneStateOrCheck.html", [
+      [ "MR::SceneStateOrCheck< SceneStateExactCheck< 1, ObjectMesh >, SceneStateExactCheck< 1, ObjectLines >, SceneStateExactCheck< 1, ObjectPoints >, SceneStateExactCheck< 1, ObjectDistanceMap >, SceneStateExactCheck< 1, ObjectVoxels > >", "classMR_1_1SceneStateOrCheck.html", [
         [ "MR::SaveObjectMenuItem", "classMR_1_1SaveObjectMenuItem.html", null ]
       ] ],
       [ "MR::SceneStateAndCheck< Checks >", "classMR_1_1SceneStateAndCheck.html", null ],
@@ -65,9 +65,6 @@ var hierarchy =
       [ "MR::MultiListener< MouseDownListener, MouseMoveListener, MouseUpListener, PreDrawListener, DrawListener >", "structMR_1_1MultiListener.html", [
         [ "MR::ObjectTransformWidget", "classMR_1_1ObjectTransformWidget.html", null ]
       ] ],
-      [ "MR::MultiListener< LoadListener, DragDropListener >", "structMR_1_1MultiListener.html", [
-        [ "MR::Open", "classMR_1_1Open.html", null ]
-      ] ],
       [ "MR::MultiListener< DragDropListener >", "structMR_1_1MultiListener.html", [
         [ "MR::OpenFilesMenuItem", "classMR_1_1OpenFilesMenuItem.html", null ]
       ] ],
@@ -77,9 +74,6 @@ var hierarchy =
       ] ],
       [ "MR::MultiListener< PreDrawListener >", "structMR_1_1MultiListener.html", [
         [ "MR::ResetSceneMenuItem", "classMR_1_1ResetSceneMenuItem.html", null ]
-      ] ],
-      [ "MR::MultiListener< SaveListener >", "structMR_1_1MultiListener.html", [
-        [ "MR::Save", "classMR_1_1Save.html", null ]
       ] ],
       [ "MR::MultiListener< PreDrawListener, InterruptCloseListener >", "structMR_1_1MultiListener.html", [
         [ "MR::SaveOnClosePlugin", "classMR_1_1SaveOnClosePlugin.html", null ]
@@ -186,7 +180,6 @@ var hierarchy =
         [ "MR::KeyDownListener", "structMR_1_1KeyDownListener.html", null ],
         [ "MR::KeyRepeatListener", "structMR_1_1KeyRepeatListener.html", null ],
         [ "MR::KeyUpListener", "structMR_1_1KeyUpListener.html", null ],
-        [ "MR::LoadListener", "structMR_1_1LoadListener.html", null ],
         [ "MR::MouseDownListener", "structMR_1_1MouseDownListener.html", null ],
         [ "MR::MouseMoveListener", "structMR_1_1MouseMoveListener.html", null ],
         [ "MR::MouseScrollListener", "structMR_1_1MouseScrollListener.html", null ],
@@ -194,8 +187,7 @@ var hierarchy =
         [ "MR::PostDrawListener", "structMR_1_1PostDrawListener.html", null ],
         [ "MR::PostRescaleListener", "structMR_1_1PostRescaleListener.html", null ],
         [ "MR::PostResizeListener", "structMR_1_1PostResizeListener.html", null ],
-        [ "MR::PreDrawListener", "structMR_1_1PreDrawListener.html", null ],
-        [ "MR::SaveListener", "structMR_1_1SaveListener.html", null ]
+        [ "MR::PreDrawListener", "structMR_1_1PreDrawListener.html", null ]
       ] ]
     ] ],
     [ "MR::ICPProperties", "structMR_1_1ICPProperties.html", null ],
@@ -484,6 +476,7 @@ var hierarchy =
     [ "MR::UniqueThreadSafeOwner< MR::AABBTree >", "classMR_1_1UniqueThreadSafeOwner.html", null ],
     [ "MR::UniqueThreadSafeOwner< MR::AABBTreePoints >", "classMR_1_1UniqueThreadSafeOwner.html", null ],
     [ "MR::UniqueThreadSafeOwner< MR::AABBTreePolyline< V > >", "classMR_1_1UniqueThreadSafeOwner.html", null ],
+    [ "MR::UniteManyMeshesParams", "structMR_1_1UniteManyMeshesParams.html", null ],
     [ "MR::UVCoord", "structMR_1_1UVCoord.html", null ],
     [ "MR::Vector< T, I >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector2< T >", "structMR_1_1Vector2.html", null ],
@@ -525,8 +518,6 @@ var hierarchy =
     [ "MR::Viewer", "classMR_1_1Viewer.html", null ],
     [ "MR::ViewerPlugin", "classMR_1_1ViewerPlugin.html", [
       [ "MR::DemoPlugin", "classMR_1_1DemoPlugin.html", null ],
-      [ "MR::Open", "classMR_1_1Open.html", null ],
-      [ "MR::Save", "classMR_1_1Save.html", null ],
       [ "MR::SaveOnClosePlugin", "classMR_1_1SaveOnClosePlugin.html", null ],
       [ "MR::StateBasePlugin", "classMR_1_1StateBasePlugin.html", null ]
     ] ],

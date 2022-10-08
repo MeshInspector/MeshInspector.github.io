@@ -234,6 +234,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRUniformSampling.h", "MRUniformSampling_8h.html", "MRUniformSampling_8h" ],
     [ "MRUnionFind.h", "MRUnionFind_8h.html", null ],
     [ "MRUniqueThreadSafeOwner.h", "MRUniqueThreadSafeOwner_8h.html", null ],
+    [ "MRUniteManyMeshes.h", "MRUniteManyMeshes_8h.html", "MRUniteManyMeshes_8h" ],
     [ "MRUVSphere.h", "MRUVSphere_8h.html", "MRUVSphere_8h" ],
     [ "MRVDBConversions.h", "MRVDBConversions_8h.html", "MRVDBConversions_8h" ],
     [ "MRVector.h", "MRVector_8h.html", "MRVector_8h" ],

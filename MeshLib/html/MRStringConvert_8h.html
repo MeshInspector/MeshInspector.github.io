@@ -106,6 +106,7 @@ $(document).ready(function(){initNavTree('MRStringConvert_8h.html',''); initResi
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
+<code>#include &lt;tl/expected.hpp&gt;</code><br />
 </div>
 <p><a href="MRStringConvert_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -137,6 +138,10 @@ Functions</h2></td></tr>
 <tr class="separator:ga98812dc656fac3fb9c565e7fc0c7922d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3dac1179ee1b7a147e78045a27c4e13d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3dac1179ee1b7a147e78045a27c4e13d">MR::bytesString</a> (size_t size)</td></tr>
 <tr class="separator:a3dac1179ee1b7a147e78045a27c4e13d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ae799a764f547e17f6314f24bbaad03"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a0ae799a764f547e17f6314f24bbaad03"><td class="memTemplItemLeft" align="right" valign="top">tl::expected&lt; T, std::string &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0ae799a764f547e17f6314f24bbaad03">MR::addFileNameInError</a> (tl::expected&lt; T, std::string &gt; v, const std::filesystem::path &amp;file)</td></tr>
+<tr class="memdesc:a0ae799a764f547e17f6314f24bbaad03"><td class="mdescLeft">&#160;</td><td class="mdescRight">if (v) contains an error, then appends given file name to that error  <a href="namespaceMR.html#a0ae799a764f547e17f6314f24bbaad03">More...</a><br /></td></tr>
+<tr class="separator:a0ae799a764f547e17f6314f24bbaad03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

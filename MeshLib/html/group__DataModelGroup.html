@@ -193,6 +193,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga2c9f97da5f015bc83b81da71e050d2d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga2c9f97da5f015bc83b81da71e050d2d6">MR::makeObjectPointsFromFile</a> (const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
 <tr class="memdesc:ga2c9f97da5f015bc83b81da71e050d2d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads points from given file in new object  <a href="group__DataModelGroup.html#ga2c9f97da5f015bc83b81da71e050d2d6">More...</a><br /></td></tr>
 <tr class="separator:ga2c9f97da5f015bc83b81da71e050d2d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga76bb7958ef2900006f29b9a81fc6e8f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1ObjectDistanceMap.html">ObjectDistanceMap</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga76bb7958ef2900006f29b9a81fc6e8f4">MR::makeObjectDistanceMapFromFile</a> (const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="memdesc:ga76bb7958ef2900006f29b9a81fc6e8f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads distance map from given file in new object  <a href="group__DataModelGroup.html#ga76bb7958ef2900006f29b9a81fc6e8f4">More...</a><br /></td></tr>
+<tr class="separator:ga76bb7958ef2900006f29b9a81fc6e8f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac4370cce625d7230616d42d939ddc7ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1Object.html">Object</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#gac4370cce625d7230616d42d939ddc7ca">MR::makeObjectTreeFromFolder</a> (const std::filesystem::path &amp;folder)</td></tr>
 <tr class="memdesc:gac4370cce625d7230616d42d939ddc7ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads meshes from given folder in new container object  <a href="group__DataModelGroup.html#gac4370cce625d7230616d42d939ddc7ca">More...</a><br /></td></tr>
 <tr class="separator:gac4370cce625d7230616d42d939ddc7ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -508,6 +511,36 @@ template&lt;typename ObjectT  = Object&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root. </p>
+
+</div>
+</div>
+<a id="ga76bb7958ef2900006f29b9a81fc6e8f4" name="ga76bb7958ef2900006f29b9a81fc6e8f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga76bb7958ef2900006f29b9a81fc6e8f4">&#9670;&#160;</a></span>makeObjectDistanceMapFromFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1ObjectDistanceMap.html">ObjectDistanceMap</a>, std::string &gt; MR::makeObjectDistanceMapFromFile </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>loads distance map from given file in new object </p>
 
 </div>
 </div>
