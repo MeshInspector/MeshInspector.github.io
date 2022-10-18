@@ -12,5 +12,6 @@ var classMR_1_1ViewportMask =
     [ "operator^=", "classMR_1_1ViewportMask.html#a202e9ac31341f0a2e7185a814bf1779f", null ],
     [ "operator|=", "classMR_1_1ViewportMask.html#a20e47934161cd5e1b3d9c20ef81117a9", null ],
     [ "operator~", "classMR_1_1ViewportMask.html#a248e3f0431d42d1ac2933236093ef69d", null ],
+    [ "set", "classMR_1_1ViewportMask.html#a38422daf68e574090fc13e66a188ef95", null ],
     [ "value", "classMR_1_1ViewportMask.html#ae1fc607d938397dac12f6acafd1de9e7", null ]
 ];

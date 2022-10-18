@@ -326,9 +326,9 @@ var annotated_dup =
       [ "SetBitIteratorT", "classMR_1_1SetBitIteratorT.html", "classMR_1_1SetBitIteratorT" ],
       [ "SetViewportConfigPresetMenuItem", "classMR_1_1SetViewportConfigPresetMenuItem.html", "classMR_1_1SetViewportConfigPresetMenuItem" ],
       [ "SetViewPresetMenuItem", "classMR_1_1SetViewPresetMenuItem.html", "classMR_1_1SetViewPresetMenuItem" ],
+      [ "ShadowsGL", "classMR_1_1ShadowsGL.html", "classMR_1_1ShadowsGL" ],
       [ "ShortcutManager", "classMR_1_1ShortcutManager.html", "classMR_1_1ShortcutManager" ],
       [ "SignedDistanceToMeshResult", "structMR_1_1SignedDistanceToMeshResult.html", "structMR_1_1SignedDistanceToMeshResult" ],
-      [ "SimpleVolume", "structMR_1_1SimpleVolume.html", "structMR_1_1SimpleVolume" ],
       [ "SortIntersectionsData", "structMR_1_1SortIntersectionsData.html", "structMR_1_1SortIntersectionsData" ],
       [ "SphereObject", "classMR_1_1SphereObject.html", "classMR_1_1SphereObject" ],
       [ "SphereParams", "structMR_1_1SphereParams.html", "structMR_1_1SphereParams" ],
@@ -384,6 +384,7 @@ var annotated_dup =
       [ "VolumeSegmentationParameters", "structMR_1_1VolumeSegmentationParameters.html", "structMR_1_1VolumeSegmentationParameters" ],
       [ "VolumeSegmenter", "classMR_1_1VolumeSegmenter.html", "classMR_1_1VolumeSegmenter" ],
       [ "VoxelMetricParameters", "structMR_1_1VoxelMetricParameters.html", "structMR_1_1VoxelMetricParameters" ],
+      [ "VoxelsVolume", "structMR_1_1VoxelsVolume.html", "structMR_1_1VoxelsVolume" ],
       [ "Writer", "structMR_1_1Writer.html", "structMR_1_1Writer" ],
       [ "XfBasedCache", "classMR_1_1XfBasedCache.html", "classMR_1_1XfBasedCache" ]
     ] ],

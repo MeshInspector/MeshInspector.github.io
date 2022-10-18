@@ -66,7 +66,7 @@ var searchData=
   ['resize_63',['resize',['../group__BasicGroup.html#ga2cc98b992438b4b7323386776a433110',1,'MR::Heap::resize()'],['../group__DistanceMapGroup.html#ga901329f8c2956e6baeb440b154c9907f',1,'MR::RectIndexer::resize()'],['../classMR_1_1Vector.html#acd99deedcb9bcc81fa5eb3ba36cf13d1',1,'MR::Vector::resize(size_t newSize)'],['../classMR_1_1Vector.html#adf40b3783f92dfcaf4a65c1a9686b386',1,'MR::Vector::resize(size_t newSize, const T &amp;t)'],['../classMR_1_1Viewer.html#a22ff1c4c5a948c6f04e69b2e70bc9600',1,'MR::Viewer::resize()'],['../classMR_1_1Buffer.html#a6ca7320f4709c5bde509b995d15f5bac',1,'MR::Buffer::resize()']]],
   ['resizebeforeparalleladd_64',['resizeBeforeParallelAdd',['../classMR_1_1MeshTopology.html#a16d8c613652e38545fb0fd05ee1cd033',1,'MR::MeshTopology']]],
   ['resizewithreserve_65',['resizeWithReserve',['../classMR_1_1BitSet.html#ac7929d81a23ad4ff51c472f0d1c992d5',1,'MR::BitSet::resizeWithReserve()'],['../classMR_1_1Vector.html#ae24a0747d63aca37f9e65f5619944252',1,'MR::Vector::resizeWithReserve()']]],
-  ['resolvemeshdegenerations_66',['resolveMeshDegenerations',['../group__DecimateGroup.html#ga0794cb3413d960d7e0f802714d1b9c31',1,'MR']]],
+  ['resolvemeshdegenerations_66',['resolveMeshDegenerations',['../group__DecimateGroup.html#gad7e3b8f0b2ed74a1df07e9cc3c6a6e90',1,'MR']]],
   ['restart_67',['restart',['../classMR_1_1Timer.html#ad7ee969ecfcfa61cbd777db48c283fab',1,'MR::Timer']]],
   ['restoringstreamssink_68',['RestoringStreamsSink',['../classMR_1_1RestoringStreamsSink.html#aa423a8c6a70592f7e1b45b5f3255c5c7',1,'MR::RestoringStreamsSink']]],
   ['resx_69',['resX',['../classMR_1_1DistanceMap.html#a86f99e58434c2a70fb27a552d08ba50f',1,'MR::DistanceMap']]],

@@ -1,6 +1,7 @@
 var structMR_1_1DecimateSettings =
 [
     [ "adjustCollapse", "structMR_1_1DecimateSettings.html#a21d7c6d9122286b4edf7bd531d38b72b", null ],
+    [ "criticalTriAspectRatio", "structMR_1_1DecimateSettings.html#a5f0e2ae094cddee1b490103a349feda5", null ],
     [ "maxDeletedFaces", "structMR_1_1DecimateSettings.html#a38bbdf3c479e6edea3b93ca7a7b52084", null ],
     [ "maxDeletedVertices", "structMR_1_1DecimateSettings.html#abb741e47d580e75e37b13adcad8a362e", null ],
     [ "maxEdgeLen", "structMR_1_1DecimateSettings.html#ac98cbfa367475605fa88982f55dc9a61", null ],

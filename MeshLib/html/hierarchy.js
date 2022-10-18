@@ -435,12 +435,12 @@ var hierarchy =
     [ "MR::SelectScreenLasso", "classMR_1_1SelectScreenLasso.html", null ],
     [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", null ],
     [ "MR::GlTexture2::Settings", "structMR_1_1GlTexture2_1_1Settings.html", null ],
+    [ "MR::ShadowsGL", "classMR_1_1ShadowsGL.html", null ],
     [ "MR::ShortcutManager::ShortcutCommand", "structMR_1_1ShortcutManager_1_1ShortcutCommand.html", null ],
     [ "MR::ShortcutManager::ShortcutKey", "structMR_1_1ShortcutManager_1_1ShortcutKey.html", null ],
     [ "MR::ShortcutManager", "classMR_1_1ShortcutManager.html", null ],
     [ "MR::Viewer::SignalStopHandler", "structMR_1_1Viewer_1_1SignalStopHandler.html", null ],
     [ "MR::SignedDistanceToMeshResult", "structMR_1_1SignedDistanceToMeshResult.html", null ],
-    [ "MR::SimpleVolume", "structMR_1_1SimpleVolume.html", null ],
     [ "MR::SortIntersectionsData", "structMR_1_1SortIntersectionsData.html", null ],
     [ "MR::SphereParams", "structMR_1_1SphereParams.html", null ],
     [ "MR::SplashWindow", "classMR_1_1SplashWindow.html", [
@@ -542,6 +542,8 @@ var hierarchy =
     [ "MR::VolumeSegmentationParameters", "structMR_1_1VolumeSegmentationParameters.html", null ],
     [ "MR::VolumeSegmenter", "classMR_1_1VolumeSegmenter.html", null ],
     [ "MR::VoxelMetricParameters", "structMR_1_1VoxelMetricParameters.html", null ],
+    [ "MR::VoxelsVolume< T >", "structMR_1_1VoxelsVolume.html", null ],
+    [ "MR::VoxelsVolume< FloatGrid >", "structMR_1_1VoxelsVolume.html", null ],
     [ "MR::Writer< T >", "structMR_1_1Writer.html", null ],
     [ "MR::XfBasedCache< T >", "classMR_1_1XfBasedCache.html", null ],
     [ "MR::XfBasedCache< MR::Box >", "classMR_1_1XfBasedCache.html", null ]

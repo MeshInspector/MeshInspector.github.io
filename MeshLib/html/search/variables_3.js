@@ -1,7 +1,7 @@
 var searchData=
 [
   ['d_0',['d',['../structMR_1_1Line3.html#aaa6c96121c336f253ee4e0ed5ef66567',1,'MR::Line3::d()'],['../structMR_1_1Plane3.html#aa721053621e7ed2a54dc3f05081f7c04',1,'MR::Plane3::d()'],['../structMR_1_1Quaternion.html#a14d0a626cbd31413d550eea26b9e3303',1,'MR::Quaternion::d()']]],
-  ['data_1',['data',['../structMR_1_1SimpleVolume.html#a2683f594113357f239d8f3efac6dc1cb',1,'MR::SimpleVolume']]],
+  ['data_1',['data',['../structMR_1_1VoxelsVolume.html#a6ea81e0ad21fc888dfa262fb957f3c2e',1,'MR::VoxelsVolume']]],
   ['defaultcolors_2',['DefaultColors',['../classMR_1_1Palette.html#abfdf377e10c2bf0babc22965290920cb',1,'MR::Palette']]],
   ['defaultlabelsbasisaxes_3',['defaultLabelsBasisAxes',['../classMR_1_1Viewer.html#a6de554d37fc55f074f5a84b839f41338',1,'MR::Viewer']]],
   ['defaultlabelsglobalbasisaxes_4',['defaultLabelsGlobalBasisAxes',['../classMR_1_1Viewer.html#a3e243010a1e5c3f085775d8bdd37c990',1,'MR::Viewer']]],
@@ -16,7 +16,7 @@ var searchData=
   ['dialogisopen_5f_13',['dialogIsOpen_',['../classMR_1_1StateBasePlugin.html#a1d97f71a0f325fbe29b0bbec3e564204',1,'MR::StateBasePlugin']]],
   ['dialogpositionfixed_14',['dialogPositionFixed',['../structMR_1_1RibbonMenu_1_1DialogItemPtr.html#a81cacb5c7aa2d35d0b873c9a48145777',1,'MR::RibbonMenu::DialogItemPtr']]],
   ['dimensions_15',['dimensions',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#ab1db96ec60477ec788bfe5aeb3596da2',1,'MR::VoxelsLoad::RawParameters']]],
-  ['dims_16',['dims',['../structMR_1_1SimpleVolume.html#adfc3fd718b740a08aefa0fbb8a096ede',1,'MR::SimpleVolume']]],
+  ['dims_16',['dims',['../structMR_1_1VoxelsVolume.html#aec69290a92637368e463e39fadfea701',1,'MR::VoxelsVolume']]],
   ['dims_5f_17',['dims_',['../classMR_1_1RectIndexer.html#ab4a6c53f72e0260996768505672d9052',1,'MR::RectIndexer::dims_()'],['../group__VoxelGroup.html#gaa1c0e0f0f1418ecbd002c094e0d42e13',1,'MR::VolumeIndexer::dims_()']]],
   ['direction_18',['direction',['../structMR_1_1DistanceMapToWorld.html#a866ac1e7f146d2a868527a502d376c74',1,'MR::DistanceMapToWorld::direction()'],['../structMR_1_1TextMeshAlignParams.html#a414e391a4aef8d9ffc82bdd050a469aa',1,'MR::TextMeshAlignParams::direction()'],['../structMR_1_1MeshToDistanceMapParams.html#a251bc8c963a3d914635b6ed3ab80a527',1,'MR::MeshToDistanceMapParams::direction()']]],
   ['dirty_5f_19',['dirty_',['../classMR_1_1VisualObject.html#a524e4774c9f4c85f7b81bb0f2524536f',1,'MR::VisualObject']]],

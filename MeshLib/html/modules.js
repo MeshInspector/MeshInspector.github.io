@@ -6,7 +6,7 @@ var modules =
     [ "Basic elements overview", "group__BasicGroup.html", "group__BasicGroup" ],
     [ "History group", "group__HistoryGroup.html", "group__HistoryGroup" ],
     [ "Distance Map group", "group__DistanceMapGroup.html", "group__DistanceMapGroup" ],
-    [ "SurfacePathGroup", "group__SurfacePathGroup.html", "group__SurfacePathGroup" ],
+    [ "Surface Path", "group__SurfacePathGroup.html", "group__SurfacePathGroup" ],
     [ "Mesh Segmentation overwiev", "group__MeshSegmentationGroup.html", "group__MeshSegmentationGroup" ],
     [ "Basic Structures", "group__BasicStructuresGroup.html", "group__BasicStructuresGroup" ],
     [ "Components", "group__ComponentsGroup.html", "group__ComponentsGroup" ],

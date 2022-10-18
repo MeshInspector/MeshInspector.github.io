@@ -171,8 +171,15 @@ Functions</h2></td></tr>
 <tr class="memitem:ga4bd1779f20b75d557bf76286013dae42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga4bd1779f20b75d557bf76286013dae42">MR::PointsLoad::fromAnySupportedFormat</a> (std::istream &amp;in, const std::string &amp;extension, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1Color.html">Color</a>, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; *colors=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
 <tr class="memdesc:ga4bd1779f20b75d557bf76286013dae42"><td class="mdescLeft">&#160;</td><td class="mdescRight">extension in <code>*.ext</code> format  <a href="group__IOGroup.html#ga4bd1779f20b75d557bf76286013dae42">More...</a><br /></td></tr>
 <tr class="separator:ga4bd1779f20b75d557bf76286013dae42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga07e15c317aa4520f6414d8aa01226c75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga07e15c317aa4520f6414d8aa01226c75">MR::VoxelsSave::saveRAW</a> (const std::filesystem::path &amp;path, const <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &amp;voxelsObject, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="separator:ga07e15c317aa4520f6414d8aa01226c75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac5ffa519200d6d14143d0aaffa7f96ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#gac5ffa519200d6d14143d0aaffa7f96ad">MR::VoxelsSave::saveRaw</a> (const std::filesystem::path &amp;path, const <a class="el" href="namespaceMR.html#a3048dff41173426f92713cbb8cf3784a">VdbVolume</a> &amp;vdbVolume, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="memdesc:gac5ffa519200d6d14143d0aaffa7f96ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save raw voxels file, writing parameters in name.  <a href="group__IOGroup.html#gac5ffa519200d6d14143d0aaffa7f96ad">More...</a><br /></td></tr>
+<tr class="separator:gac5ffa519200d6d14143d0aaffa7f96ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacd61441c40d6c82b4d41e5fc00041731"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#gacd61441c40d6c82b4d41e5fc00041731">MR::VoxelsSave::saveSliceToImage</a> (const std::filesystem::path &amp;path, const <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &amp;voxelsObject, <a class="el" href="group__VoxelPathGroup.html#gae7c8689563553fe7686bd6b71ddf8f18">SlicePlain</a> slicePlain, int sliceNumber, float min, float max, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="memdesc:gacd61441c40d6c82b4d41e5fc00041731"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the slice by the active plane through the sliceNumber to an image file  <a href="group__IOGroup.html#gacd61441c40d6c82b4d41e5fc00041731">More...</a><br /></td></tr>
+<tr class="separator:gacd61441c40d6c82b4d41e5fc00041731"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga602c4e14d23835831e4f43985baa8322"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga602c4e14d23835831e4f43985baa8322">MR::VoxelsSave::saveAllSlicesToImage</a> (const std::filesystem::path &amp;path, const <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &amp;voxelsObject, <a class="el" href="group__VoxelPathGroup.html#gae7c8689563553fe7686bd6b71ddf8f18">SlicePlain</a> slicePlain, float min, float max, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="memdesc:ga602c4e14d23835831e4f43985baa8322"><td class="mdescLeft">&#160;</td><td class="mdescRight">save all slices by the active plane through all voxel planes along the active axis to an image file  <a href="group__IOGroup.html#ga602c4e14d23835831e4f43985baa8322">More...</a><br /></td></tr>
+<tr class="separator:ga602c4e14d23835831e4f43985baa8322"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -517,14 +524,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ga07e15c317aa4520f6414d8aa01226c75" name="ga07e15c317aa4520f6414d8aa01226c75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga07e15c317aa4520f6414d8aa01226c75">&#9670;&#160;</a></span>saveRAW()</h2>
+<a id="ga602c4e14d23835831e4f43985baa8322" name="ga602c4e14d23835831e4f43985baa8322"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga602c4e14d23835831e4f43985baa8322">&#9670;&#160;</a></span>saveAllSlicesToImage()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt; MR::VoxelsSave::saveRAW </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt; MR::VoxelsSave::saveAllSlicesToImage </td>
           <td>(</td>
           <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
           <td class="paramname"><em>path</em>, </td>
@@ -534,6 +541,24 @@ Variables</h2></td></tr>
           <td></td>
           <td class="paramtype">const <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &amp;&#160;</td>
           <td class="paramname"><em>voxelsObject</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__VoxelPathGroup.html#gae7c8689563553fe7686bd6b71ddf8f18">SlicePlain</a>&#160;</td>
+          <td class="paramname"><em>slicePlain</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>max</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -548,6 +573,104 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>save all slices by the active plane through all voxel planes along the active axis to an image file </p>
+
+</div>
+</div>
+<a id="gac5ffa519200d6d14143d0aaffa7f96ad" name="gac5ffa519200d6d14143d0aaffa7f96ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac5ffa519200d6d14143d0aaffa7f96ad">&#9670;&#160;</a></span>saveRaw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt; MR::VoxelsSave::saveRaw </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a3048dff41173426f92713cbb8cf3784a">VdbVolume</a> &amp;&#160;</td>
+          <td class="paramname"><em>vdbVolume</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Save raw voxels file, writing parameters in name. </p>
+
+</div>
+</div>
+<a id="gacd61441c40d6c82b4d41e5fc00041731" name="gacd61441c40d6c82b4d41e5fc00041731"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacd61441c40d6c82b4d41e5fc00041731">&#9670;&#160;</a></span>saveSliceToImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt; MR::VoxelsSave::saveSliceToImage </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &amp;&#160;</td>
+          <td class="paramname"><em>voxelsObject</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__VoxelPathGroup.html#gae7c8689563553fe7686bd6b71ddf8f18">SlicePlain</a>&#160;</td>
+          <td class="paramname"><em>slicePlain</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sliceNumber</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>max</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>save the slice by the active plane through the sliceNumber to an image file </p>
 
 </div>
 </div>

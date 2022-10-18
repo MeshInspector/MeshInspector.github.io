@@ -121,6 +121,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a3c23bc0e06e4658789c9a372752be560"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateParallelSettings.html#a3c23bc0e06e4658789c9a372752be560">maxTriangleAspectRatio</a> = 20</td></tr>
 <tr class="memdesc:a3c23bc0e06e4658789c9a372752be560"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximal possible aspect ratio of a triangle introduced during decimation.  <a href="structMR_1_1DecimateParallelSettings.html#a3c23bc0e06e4658789c9a372752be560">More...</a><br /></td></tr>
 <tr class="separator:a3c23bc0e06e4658789c9a372752be560"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a275c6c639a8f4489cb392eacf2bd6214"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateParallelSettings.html#a275c6c639a8f4489cb392eacf2bd6214">criticalTriAspectRatio</a> = FLT_MAX</td></tr>
+<tr class="memdesc:a275c6c639a8f4489cb392eacf2bd6214"><td class="mdescLeft">&#160;</td><td class="mdescRight">the algorithm will try to eliminate triangles with equal or larger aspect ratio, ignoring normal orientation checks  <a href="structMR_1_1DecimateParallelSettings.html#a275c6c639a8f4489cb392eacf2bd6214">More...</a><br /></td></tr>
+<tr class="separator:a275c6c639a8f4489cb392eacf2bd6214"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a737db1b3e50fc4961a8416f00bf3f49e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateParallelSettings.html#a737db1b3e50fc4961a8416f00bf3f49e">stabilizer</a> = 0.001f</td></tr>
 <tr class="separator:a737db1b3e50fc4961a8416f00bf3f49e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d9257bfeb394f132782017fc4dc632c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateParallelSettings.html#a7d9257bfeb394f132782017fc4dc632c">optimizeVertexPos</a> = true</td></tr>
@@ -162,6 +165,22 @@ Public Attributes</h2></td></tr>
 
 <p>The user can provide this optional callback for adjusting error introduced by edge collapse between vertices v0 and v1 of the original mesh, and the collapse position. </p>
 <p >On input the callback gets the squared error and position computed by standard means, and callback can modify any of them. The larger the error, the later this edge will be collapsed. This callback can be called from many threads in parallel and must be thread-safe. This callback can be called many times for each edge before real collapsing, and it is important to make the same adjustment. </p>
+
+</div>
+</div>
+<a id="a275c6c639a8f4489cb392eacf2bd6214" name="a275c6c639a8f4489cb392eacf2bd6214"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a275c6c639a8f4489cb392eacf2bd6214">&#9670;&#160;</a></span>criticalTriAspectRatio</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::DecimateParallelSettings::criticalTriAspectRatio = FLT_MAX</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the algorithm will try to eliminate triangles with equal or larger aspect ratio, ignoring normal orientation checks </p>
 
 </div>
 </div>

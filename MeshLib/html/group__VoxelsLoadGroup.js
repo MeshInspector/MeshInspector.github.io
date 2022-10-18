@@ -16,13 +16,14 @@ var group__VoxelsLoadGroup =
       ] ],
       [ "dimensions", "structMR_1_1VoxelsLoad_1_1RawParameters.html#ab1db96ec60477ec788bfe5aeb3596da2", null ],
       [ "Float32", "structMR_1_1VoxelsLoad_1_1RawParameters.html#a9e312b72c2d2fcc457ece979ad10093d", null ],
+      [ "gridLevelSet", "structMR_1_1VoxelsLoad_1_1RawParameters.html#a5d28afdbdf8874a171bdaa3da9a77db7", null ],
       [ "voxelSize", "structMR_1_1VoxelsLoad_1_1RawParameters.html#afd3e66a2e50b601320d9254e884691dd", null ]
     ] ],
     [ "MR::VoxelsLoad::loadDCMFile", "group__VoxelsLoadGroup.html#ga0737727ada61b47c4e8768561b89c6f9", null ],
     [ "MR::VoxelsLoad::loadDCMFolder", "group__VoxelsLoadGroup.html#gaba3450c2b6bac91367ad6b126c7bcc4a", null ],
     [ "MR::VoxelsLoad::loadDCMFolderTree", "group__VoxelsLoadGroup.html#gaeb8363b82c43a6b541c5c33c11444d5d", null ],
-    [ "MR::VoxelsLoad::loadRaw", "group__VoxelsLoadGroup.html#ga65dfedbe323fb5135adaecbb38bf740e", null ],
-    [ "MR::VoxelsLoad::loadRaw", "group__VoxelsLoadGroup.html#gaa9abed217804416824e973007c8dc6e2", null ],
+    [ "MR::VoxelsLoad::loadRaw", "group__VoxelsLoadGroup.html#gad41c12bc0863d099fe4d4a80c5ef5772", null ],
+    [ "MR::VoxelsLoad::loadRaw", "group__VoxelsLoadGroup.html#ga480d7e43375cf991141d906733b85002", null ],
     [ "MR::VoxelsLoad::sortFilesByName", "group__VoxelsLoadGroup.html#ga9dea5760f438e7cd068a17cd2fba73d3", null ],
     [ "MR::VoxelsLoad::Filters", "group__VoxelsLoadGroup.html#gaf1ddae6fda30ae38508797dc691653d3", null ]
 ];

@@ -2,6 +2,7 @@ var group__DecimateGroup =
 [
     [ "MR::DecimateSettings", "structMR_1_1DecimateSettings.html", [
       [ "adjustCollapse", "structMR_1_1DecimateSettings.html#a21d7c6d9122286b4edf7bd531d38b72b", null ],
+      [ "criticalTriAspectRatio", "structMR_1_1DecimateSettings.html#a5f0e2ae094cddee1b490103a349feda5", null ],
       [ "maxDeletedFaces", "structMR_1_1DecimateSettings.html#a38bbdf3c479e6edea3b93ca7a7b52084", null ],
       [ "maxDeletedVertices", "structMR_1_1DecimateSettings.html#abb741e47d580e75e37b13adcad8a362e", null ],
       [ "maxEdgeLen", "structMR_1_1DecimateSettings.html#ac98cbfa367475605fa88982f55dc9a61", null ],
@@ -25,6 +26,7 @@ var group__DecimateGroup =
     ] ],
     [ "MR::DecimateParallelSettings", "structMR_1_1DecimateParallelSettings.html", [
       [ "adjustCollapse", "structMR_1_1DecimateParallelSettings.html#af75f33318f6dbbd19e4e3c0005feaa39", null ],
+      [ "criticalTriAspectRatio", "structMR_1_1DecimateParallelSettings.html#a275c6c639a8f4489cb392eacf2bd6214", null ],
       [ "maxEdgeLen", "structMR_1_1DecimateParallelSettings.html#a1c7ecd000b4f7cffca0e5f0312073ae4", null ],
       [ "maxError", "structMR_1_1DecimateParallelSettings.html#ad90b28eea121f1eb8d2153a5c87b69a6", null ],
       [ "maxTriangleAspectRatio", "structMR_1_1DecimateParallelSettings.html#a3c23bc0e06e4658789c9a372752be560", null ],
@@ -54,5 +56,5 @@ var group__DecimateGroup =
     [ "MR::decimateMesh", "group__DecimateGroup.html#ga16a994862b0ba8f6a68c61463be0ed4e", null ],
     [ "MR::decimateParallelMesh", "group__DecimateGroup.html#gab0b1827b05aa2ba71b50b8793f989e03", null ],
     [ "MR::decimatePolyline", "group__DecimateGroup.html#gaf0964e80dba508fbc0d34272d3192cb8", null ],
-    [ "MR::resolveMeshDegenerations", "group__DecimateGroup.html#ga0794cb3413d960d7e0f802714d1b9c31", null ]
+    [ "MR::resolveMeshDegenerations", "group__DecimateGroup.html#gad7e3b8f0b2ed74a1df07e9cc3c6a6e90", null ]
 ];

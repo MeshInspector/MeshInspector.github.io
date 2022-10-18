@@ -49,6 +49,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRSceneStateCheck.h", "MRSceneStateCheck_8h.html", "MRSceneStateCheck_8h" ],
     [ "MRSelectScreenLasso.h", "MRSelectScreenLasso_8h.html", "MRSelectScreenLasso_8h" ],
     [ "MRSetupViewer.h", "MRSetupViewer_8h.html", "MRSetupViewer_8h" ],
+    [ "MRShadowsGL.h", "MRShadowsGL_8h.html", "MRShadowsGL_8h" ],
     [ "MRShortcutManager.h", "MRShortcutManager_8h.html", "MRShortcutManager_8h" ],
     [ "MRSplashWindow.h", "MRSplashWindow_8h.html", "MRSplashWindow_8h" ],
     [ "MRStatePlugin.h", "MRStatePlugin_8h.html", "MRStatePlugin_8h" ],

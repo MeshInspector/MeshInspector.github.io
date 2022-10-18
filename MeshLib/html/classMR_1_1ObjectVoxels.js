@@ -42,6 +42,7 @@ var classMR_1_1ObjectVoxels =
     [ "typeName", "classMR_1_1ObjectVoxels.html#ad263dcb8982dbf8095729fa3a3d2032e", null ],
     [ "updateHistogramAndSurface", "classMR_1_1ObjectVoxels.html#a607e61443e72bdc0eb881a0d3db9fb8c", null ],
     [ "updateIsoSurface", "classMR_1_1ObjectVoxels.html#aabef8e164fd456b133249ea31024af4e", null ],
+    [ "vdbVolume", "classMR_1_1ObjectVoxels.html#a40a8a10a59c84f407f0b8cbdec7bedb1", null ],
     [ "voxelSize", "classMR_1_1ObjectVoxels.html#a15d13587d3a07d097c841db2c9face4d", null ],
     [ "isoSurfaceChangedSignal", "classMR_1_1ObjectVoxels.html#af857395916951ea4b3e9a111f194499b", null ],
     [ "selectedVoxels_", "classMR_1_1ObjectVoxels.html#ac93a94170b78edb3958c03c152eddf69", null ]

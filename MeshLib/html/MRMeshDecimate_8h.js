@@ -8,5 +8,5 @@ var MRMeshDecimate_8h =
     [ "computeFormAtVertex", "MRMeshDecimate_8h.html#ga308d4bf16030f5f21f31de620318074a", null ],
     [ "decimateMesh", "MRMeshDecimate_8h.html#ga16a994862b0ba8f6a68c61463be0ed4e", null ],
     [ "remesh", "MRMeshDecimate_8h.html#a08dd1bb898ae6ccea21b3ccb5feb209f", null ],
-    [ "resolveMeshDegenerations", "MRMeshDecimate_8h.html#ga0794cb3413d960d7e0f802714d1b9c31", null ]
+    [ "resolveMeshDegenerations", "MRMeshDecimate_8h.html#gad7e3b8f0b2ed74a1df07e9cc3c6a6e90", null ]
 ];

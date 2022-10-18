@@ -19,7 +19,7 @@ var searchData=
   ['edgewithorg_16',['edgeWithOrg',['../classMR_1_1MeshTopology.html#a9b3a2bd65395c6f2d0aff6bb16c8a3b6',1,'MR::MeshTopology::edgeWithOrg()'],['../classMR_1_1PolylineTopology.html#a2ebdc3893e2fbb0963c302c1361dfe3b',1,'MR::PolylineTopology::edgeWithOrg()']]],
   ['emplace_5fback_17',['emplace_back',['../classMR_1_1Vector.html#a16aee2ac4714e592dc7b10ecdde0dc11',1,'MR::Vector']]],
   ['empty_18',['empty',['../classMR_1_1ViewportMask.html#ac6e475b08c70785c6e2c92f8c8696a89',1,'MR::ViewportMask::empty()'],['../classMR_1_1CombinedHistoryAction.html#a24336720e6ef2e49fe759978a653cd93',1,'MR::CombinedHistoryAction::empty()'],['../classMR_1_1Vector.html#ac4b153c69fb7b5e1466b10723dd2f35b',1,'MR::Vector::empty()']]],
-  ['enable_19',['enable',['../classMR_1_1StateBasePlugin.html#a12b5e139ab1d9458373e61c275e80457',1,'MR::StateBasePlugin::enable()'],['../classMR_1_1StateListenerPlugin.html#a7dd63f0fe42b793001a53a4e76b94255',1,'MR::StateListenerPlugin::enable()']]],
+  ['enable_19',['enable',['../classMR_1_1ShadowsGL.html#aa49107de3327a7c3585b3d42b97fbfb1',1,'MR::ShadowsGL::enable()'],['../classMR_1_1StateBasePlugin.html#a12b5e139ab1d9458373e61c275e80457',1,'MR::StateBasePlugin::enable()'],['../classMR_1_1StateListenerPlugin.html#a7dd63f0fe42b793001a53a4e76b94255',1,'MR::StateListenerPlugin::enable()']]],
   ['enablealphasort_20',['enableAlphaSort',['../classMR_1_1Viewer.html#a8487684b5cd02ab06da1de9e06c8744f',1,'MR::Viewer']]],
   ['enableglobalhistory_21',['enableGlobalHistory',['../classMR_1_1Viewer.html#a5acf533169d66d16a01d49084d887c51',1,'MR::Viewer']]],
   ['encode64_22',['encode64',['../group__Base64Group.html#gabd2c1022cef53452d3ad25131091a323',1,'MR']]],

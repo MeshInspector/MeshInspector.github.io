@@ -109,6 +109,7 @@ $(document).ready(function(){initNavTree('MRVoxelsSave_8h.html',''); initResizab
 <code>#include &lt;tl/expected.hpp&gt;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
 <code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRVoxelPath_8h_source.html">MRVoxelPath.h</a>&quot;</code><br />
 </div>
 <p><a href="MRVoxelsSave_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -121,8 +122,15 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga07e15c317aa4520f6414d8aa01226c75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga07e15c317aa4520f6414d8aa01226c75">MR::VoxelsSave::saveRAW</a> (const std::filesystem::path &amp;path, const ObjectVoxels &amp;voxelsObject, ProgressCallback callback={})</td></tr>
-<tr class="separator:ga07e15c317aa4520f6414d8aa01226c75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac5ffa519200d6d14143d0aaffa7f96ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#gac5ffa519200d6d14143d0aaffa7f96ad">MR::VoxelsSave::saveRaw</a> (const std::filesystem::path &amp;path, const VdbVolume &amp;vdbVolume, ProgressCallback callback={})</td></tr>
+<tr class="memdesc:gac5ffa519200d6d14143d0aaffa7f96ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save raw voxels file, writing parameters in name.  <a href="group__IOGroup.html#gac5ffa519200d6d14143d0aaffa7f96ad">More...</a><br /></td></tr>
+<tr class="separator:gac5ffa519200d6d14143d0aaffa7f96ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacd61441c40d6c82b4d41e5fc00041731"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#gacd61441c40d6c82b4d41e5fc00041731">MR::VoxelsSave::saveSliceToImage</a> (const std::filesystem::path &amp;path, const ObjectVoxels &amp;voxelsObject, SlicePlain slicePlain, int sliceNumber, float min, float max, ProgressCallback callback={})</td></tr>
+<tr class="memdesc:gacd61441c40d6c82b4d41e5fc00041731"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the slice by the active plane through the sliceNumber to an image file  <a href="group__IOGroup.html#gacd61441c40d6c82b4d41e5fc00041731">More...</a><br /></td></tr>
+<tr class="separator:gacd61441c40d6c82b4d41e5fc00041731"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga602c4e14d23835831e4f43985baa8322"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga602c4e14d23835831e4f43985baa8322">MR::VoxelsSave::saveAllSlicesToImage</a> (const std::filesystem::path &amp;path, const ObjectVoxels &amp;voxelsObject, SlicePlain slicePlain, float min, float max, ProgressCallback callback={})</td></tr>
+<tr class="memdesc:ga602c4e14d23835831e4f43985baa8322"><td class="mdescLeft">&#160;</td><td class="mdescRight">save all slices by the active plane through all voxel planes along the active axis to an image file  <a href="group__IOGroup.html#ga602c4e14d23835831e4f43985baa8322">More...</a><br /></td></tr>
+<tr class="separator:ga602c4e14d23835831e4f43985baa8322"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>

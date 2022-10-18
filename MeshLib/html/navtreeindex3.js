@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"MRPointCloudRelax_8h_source.html":[12,0,0,1,1,165],
+"MRPointCloudTriangulationHelpers_8h.html":[12,0,0,1,1,167],
 "MRPointCloudTriangulationHelpers_8h_source.html":[12,0,0,1,1,167],
 "MRPointCloudTriangulation_8h.html":[12,0,0,1,1,166],
 "MRPointCloudTriangulation_8h_source.html":[12,0,0,1,1,166],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "MRSceneStateCheck_8h.html#ae0ea5f7896017d517519893fa446ac7b":[12,0,0,1,3,46,10],
 "MRSceneStateCheck_8h_source.html":[12,0,0,1,3,46],
 "MRSelectObjectByClick_8h.html":[12,0,0,1,0,1,0],
-"MRSelectObjectByClick_8h_source.html":[12,0,0,1,0,1,0],
-"MRSelectScreenLasso_8h.html":[12,0,0,1,3,47],
-"MRSelectScreenLasso_8h.html#a076eb0510d6a86ac672aea467b5fb388":[12,0,0,1,3,47,2]
+"MRSelectObjectByClick_8h_source.html":[12,0,0,1,0,1,0]
 };

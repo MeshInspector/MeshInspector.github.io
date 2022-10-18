@@ -58,5 +58,8 @@ var searchData=
   ['volumeindexer_55',['VolumeIndexer',['../classMR_1_1VolumeIndexer.html',1,'MR']]],
   ['volumesegmentationparameters_56',['VolumeSegmentationParameters',['../structMR_1_1VolumeSegmentationParameters.html',1,'MR']]],
   ['volumesegmenter_57',['VolumeSegmenter',['../classMR_1_1VolumeSegmenter.html',1,'MR']]],
-  ['voxelmetricparameters_58',['VoxelMetricParameters',['../structMR_1_1VoxelMetricParameters.html',1,'MR']]]
+  ['voxelmetricparameters_58',['VoxelMetricParameters',['../structMR_1_1VoxelMetricParameters.html',1,'MR']]],
+  ['voxelsvolume_59',['VoxelsVolume',['../structMR_1_1VoxelsVolume.html',1,'MR']]],
+  ['voxelsvolume_3c_20floatgrid_20_3e_60',['VoxelsVolume&lt; FloatGrid &gt;',['../structMR_1_1VoxelsVolume.html',1,'MR']]],
+  ['voxelsvolume_3c_20std_3a_3avector_3c_20float_20_3e_20_3e_61',['VoxelsVolume&lt; std::vector&lt; float &gt; &gt;',['../structMR_1_1VoxelsVolume.html',1,'MR']]]
 ];

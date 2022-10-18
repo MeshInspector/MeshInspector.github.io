@@ -15,5 +15,6 @@ var structMR_1_1VoxelsLoad_1_1RawParameters =
     ] ],
     [ "dimensions", "structMR_1_1VoxelsLoad_1_1RawParameters.html#ab1db96ec60477ec788bfe5aeb3596da2", null ],
     [ "Float32", "structMR_1_1VoxelsLoad_1_1RawParameters.html#a9e312b72c2d2fcc457ece979ad10093d", null ],
+    [ "gridLevelSet", "structMR_1_1VoxelsLoad_1_1RawParameters.html#a5d28afdbdf8874a171bdaa3da9a77db7", null ],
     [ "voxelSize", "structMR_1_1VoxelsLoad_1_1RawParameters.html#afd3e66a2e50b601320d9254e884691dd", null ]
 ];

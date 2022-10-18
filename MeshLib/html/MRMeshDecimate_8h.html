@@ -108,6 +108,7 @@ $(document).ready(function(){initNavTree('MRMeshDecimate_8h.html',''); initResiz
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRConstants_8h_source.html">MRConstants.h</a>&quot;</code><br />
+<code>#include &lt;cfloat&gt;</code><br />
 <code>#include &lt;climits&gt;</code><br />
 <code>#include &lt;functional&gt;</code><br />
 </div>
@@ -145,9 +146,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga308d4bf16030f5f21f31de620318074a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> QuadraticForm3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga308d4bf16030f5f21f31de620318074a">MR::computeFormAtVertex</a> (const MeshPart &amp;mp, VertId v, float stabilizer)</td></tr>
 <tr class="memdesc:ga308d4bf16030f5f21f31de620318074a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes quadratic form at given vertex of the initial surface before decimation.  <a href="group__DecimateGroup.html#ga308d4bf16030f5f21f31de620318074a">More...</a><br /></td></tr>
 <tr class="separator:ga308d4bf16030f5f21f31de620318074a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0794cb3413d960d7e0f802714d1b9c31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga0794cb3413d960d7e0f802714d1b9c31">MR::resolveMeshDegenerations</a> (Mesh &amp;mesh, int maxIters=1, float maxDeviation=0)</td></tr>
-<tr class="memdesc:ga0794cb3413d960d7e0f802714d1b9c31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves degenerate triangles in given mesh.  <a href="group__DecimateGroup.html#ga0794cb3413d960d7e0f802714d1b9c31">More...</a><br /></td></tr>
-<tr class="separator:ga0794cb3413d960d7e0f802714d1b9c31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad7e3b8f0b2ed74a1df07e9cc3c6a6e90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#gad7e3b8f0b2ed74a1df07e9cc3c6a6e90">MR::resolveMeshDegenerations</a> (Mesh &amp;mesh, int maxIters=1, float maxDeviation=0, float maxAngleChange=PI_F/3, float criticalAspectRatio=1e7)</td></tr>
+<tr class="memdesc:gad7e3b8f0b2ed74a1df07e9cc3c6a6e90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves degenerate triangles in given mesh.  <a href="group__DecimateGroup.html#gad7e3b8f0b2ed74a1df07e9cc3c6a6e90">More...</a><br /></td></tr>
+<tr class="separator:gad7e3b8f0b2ed74a1df07e9cc3c6a6e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08dd1bb898ae6ccea21b3ccb5feb209f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a08dd1bb898ae6ccea21b3ccb5feb209f">MR::remesh</a> (Mesh &amp;mesh, const RemeshSettings &amp;settings)</td></tr>
 <tr class="separator:a08dd1bb898ae6ccea21b3ccb5feb209f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>

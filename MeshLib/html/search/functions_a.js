@@ -48,7 +48,7 @@ var searchData=
   ['loadmrviewerdll_45',['loadMRViewerDll',['../namespaceMR.html#a03d769eae4675e20e6b50c3fddaf8eba',1,'MR']]],
   ['loadobjectfromfile_46',['loadObjectFromFile',['../namespaceMR.html#a9e60b59a61e1ad42bd65eee7177428c1',1,'MR']]],
   ['loadpreset_47',['loadPreset',['../classMR_1_1PalettePresets.html#abfc0b877261efaf989795949936003df',1,'MR::PalettePresets']]],
-  ['loadraw_48',['loadRaw',['../group__VoxelsLoadGroup.html#ga65dfedbe323fb5135adaecbb38bf740e',1,'MR::VoxelsLoad::loadRaw(const std::filesystem::path &amp;path, const ProgressCallback &amp;cb={})'],['../group__VoxelsLoadGroup.html#gaa9abed217804416824e973007c8dc6e2',1,'MR::VoxelsLoad::loadRaw(const std::filesystem::path &amp;path, const RawParameters &amp;params, const ProgressCallback &amp;cb={})']]],
+  ['loadraw_48',['loadRaw',['../group__VoxelsLoadGroup.html#gad41c12bc0863d099fe4d4a80c5ef5772',1,'MR::VoxelsLoad::loadRaw(const std::filesystem::path &amp;path, const ProgressCallback &amp;cb={})'],['../group__VoxelsLoadGroup.html#ga480d7e43375cf991141d906733b85002',1,'MR::VoxelsLoad::loadRaw(const std::filesystem::path &amp;path, const RawParameters &amp;params, const ProgressCallback &amp;cb={})']]],
   ['loadschema_49',['loadSchema',['../classMR_1_1RibbonSchemaLoader.html#ad9dde65427b1793ba6f4fa13663a5ec5',1,'MR::RibbonSchemaLoader']]],
   ['loadsettings_50',['loadSettings',['../classMR_1_1IViewerSettingsManager.html#a7bd0929348c284a027cc6bed035f2b84',1,'MR::IViewerSettingsManager::loadSettings()'],['../classMR_1_1ViewerSettingsManager.html#aae039b8200dd053aec8632ae57be5880',1,'MR::ViewerSettingsManager::loadSettings()']]],
   ['loadsurfacepc_51',['loadSurfacePC',['../classMR_1_1RegularMapMesher.html#ae3e690f9ee38c8774b9663885a8179fa',1,'MR::RegularMapMesher']]],
