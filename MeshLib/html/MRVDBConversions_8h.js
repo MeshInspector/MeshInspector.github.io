@@ -1,9 +1,16 @@
 var MRVDBConversions_8h =
 [
-    [ "gridToMesh", "MRVDBConversions_8h.html#a4a92aa477d3d565714f09f190e2c8c05", null ],
-    [ "gridToMesh", "MRVDBConversions_8h.html#a7c6ebbf899557c7560d5191e742451e7", null ],
-    [ "levelSetDoubleConvertion", "MRVDBConversions_8h.html#a110ad8fd0bc4c7d17ba02e5844b62754", null ],
-    [ "meshToDistanceField", "MRVDBConversions_8h.html#ac9efe716d67f76c27530f38e724ec5d6", null ],
-    [ "meshToLevelSet", "MRVDBConversions_8h.html#a65bb4065521202b11351d7a631ca62d6", null ],
-    [ "simpleVolumeToDenseGrid", "MRVDBConversions_8h.html#a0f86058cd2468382f78fe172bd2adbf2", null ]
+    [ "MR::MeshToVolumeParams", "structMR_1_1MeshToVolumeParams.html", "structMR_1_1MeshToVolumeParams" ],
+    [ "evalGridMinMax", "MRVDBConversions_8h.html#a2e6444f6867bfa54d04d95f86200e5c0", null ],
+    [ "floatGridToVdbVolume", "MRVDBConversions_8h.html#ae716e7a1520f3b8199070715f9ef65db", null ],
+    [ "gridToMesh", "MRVDBConversions_8h.html#a762fb71d630a644ef843b1677768131c", null ],
+    [ "gridToMesh", "MRVDBConversions_8h.html#aa5b67500b150bd2773afff32ef0b6c89", null ],
+    [ "gridToMesh", "MRVDBConversions_8h.html#a4a55548734c2d8fc044c50b7584b5ab1", null ],
+    [ "gridToMesh", "MRVDBConversions_8h.html#a852f2b0e5a98125b103fc9b31ed20d82", null ],
+    [ "levelSetDoubleConvertion", "MRVDBConversions_8h.html#a841edb266cf1e056637d35c94efac107", null ],
+    [ "meshToDistanceField", "MRVDBConversions_8h.html#a9b93c7f2b2607e84f9cfc0475558e2e7", null ],
+    [ "meshToLevelSet", "MRVDBConversions_8h.html#af4b4b05402c9592be6ca5d29ed852e87", null ],
+    [ "meshToVolume", "MRVDBConversions_8h.html#a2c1bdd6ced44afe323ed00f85baef0e7", null ],
+    [ "simpleVolumeToDenseGrid", "MRVDBConversions_8h.html#ab66e31274d0a0f78da3e483300b47b0a", null ],
+    [ "simpleVolumeToVdbVolume", "MRVDBConversions_8h.html#a83200b03aed71f06d979c9f07d36a96d", null ]
 ];

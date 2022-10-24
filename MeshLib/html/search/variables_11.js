@@ -61,7 +61,7 @@ var searchData=
   ['subdivideborder_58',['subdivideBorder',['../structMR_1_1SubdivideSettings.html#a9288f9c5670484c0f76b53be1311b3cc',1,'MR::SubdivideSettings']]],
   ['subdivideparts_59',['subdivideParts',['../structMR_1_1DecimateParallelSettings.html#abe984fd10e92e60449cdb1c3e409bdbc',1,'MR::DecimateParallelSettings']]],
   ['surfacedilateradius_60',['surfaceDilateRadius',['../structMR_1_1MeshApproxRelaxParams.html#aed8137acdd95c73e5606d4ad5fa7e3ae',1,'MR::MeshApproxRelaxParams']]],
-  ['surfaceoffset_61',['surfaceOffset',['../structMR_1_1TextMeshAlignParams.html#ad309350466777ef5beda3e012bc43222',1,'MR::TextMeshAlignParams::surfaceOffset()'],['../structMR_1_1MeshVoxelsConverter.html#ab2f0c91461973d3a5fbb2ef07a4d3596',1,'MR::MeshVoxelsConverter::surfaceOffset()']]],
+  ['surfaceoffset_61',['surfaceOffset',['../structMR_1_1MeshVoxelsConverter.html#ab2f0c91461973d3a5fbb2ef07a4d3596',1,'MR::MeshVoxelsConverter::surfaceOffset()'],['../structMR_1_1MeshToVolumeParams.html#a9453e71b6c68cba5c643d8c233b4e12e',1,'MR::MeshToVolumeParams::surfaceOffset()'],['../structMR_1_1TextMeshAlignParams.html#ad309350466777ef5beda3e012bc43222',1,'MR::TextMeshAlignParams::surfaceOffset()']]],
   ['swaponlastposteventsredraw_62',['swapOnLastPostEventsRedraw',['../classMR_1_1Viewer.html#a297a4daffc230ff2379b7c69f2312089',1,'MR::Viewer']]],
   ['sx_63',['Sx',['../group__AABBTreeGroup.html#ga21465bc7d67177777744f39ac171940c',1,'MR::IntersectionPrecomputes']]],
   ['sy_64',['Sy',['../group__AABBTreeGroup.html#gaf95502c89221bba3187782d4ed18199b',1,'MR::IntersectionPrecomputes']]],

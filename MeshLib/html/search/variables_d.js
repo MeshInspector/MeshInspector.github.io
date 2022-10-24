@@ -18,5 +18,6 @@ var searchData=
   ['orthographic_15',['orthographic',['../structMR_1_1Viewport_1_1Parameters.html#a331a42d9b0fd61e7260642f7ce040342',1,'MR::Viewport::Parameters']]],
   ['othermesh_16',['otherMesh',['../structMR_1_1SortIntersectionsData.html#ac190f44f37a1e2b9ece5d869fe02015d',1,'MR::SortIntersectionsData']]],
   ['outclosestedges_17',['outClosestEdges',['../structMR_1_1ContoursDistanceMapOptions.html#ab4eb6c6f113595f62886ed7e689760ae',1,'MR::ContoursDistanceMapOptions']]],
-  ['outnewfaces_18',['outNewFaces',['../structMR_1_1FillHoleParams.html#a1789bd574d007a370fe6164d4f5ca7c4',1,'MR::FillHoleParams::outNewFaces()'],['../structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66',1,'MR::StitchHolesParams::outNewFaces()']]]
+  ['outnewfaces_18',['outNewFaces',['../structMR_1_1FillHoleParams.html#a1789bd574d007a370fe6164d4f5ca7c4',1,'MR::FillHoleParams::outNewFaces()'],['../structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66',1,'MR::StitchHolesParams::outNewFaces()']]],
+  ['outxf_19',['outXf',['../structMR_1_1MeshToVolumeParams.html#a216b138081139f4900c546a416a39e0c',1,'MR::MeshToVolumeParams']]]
 ];

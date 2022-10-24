@@ -98,6 +98,7 @@ $(document).ready(function(){initNavTree('MRVDBConversions_8h.html',''); initRes
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRVDBConversions.h File Reference</div></div>
@@ -106,11 +107,17 @@ $(document).ready(function(){initNavTree('MRVDBConversions_8h.html',''); initRes
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMeshPart_8h_source.html">MRMeshPart.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRAffineXf3_8h_source.html">MRAffineXf3.h</a>&quot;</code><br />
 <code>#include &lt;tl/expected.hpp&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 </div>
 <p><a href="MRVDBConversions_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshToVolumeParams.html">MR::MeshToVolumeParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceMR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
@@ -118,18 +125,30 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a65bb4065521202b11351d7a631ca62d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FloatGrid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a65bb4065521202b11351d7a631ca62d6">MR::meshToLevelSet</a> (const MeshPart &amp;mp, const AffineXf3f &amp;xf, const Vector3f &amp;voxelSize, float surfaceOffset=3, const ProgressCallback &amp;cb={})</td></tr>
-<tr class="separator:a65bb4065521202b11351d7a631ca62d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9efe716d67f76c27530f38e724ec5d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FloatGrid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac9efe716d67f76c27530f38e724ec5d6">MR::meshToDistanceField</a> (const MeshPart &amp;mp, const AffineXf3f &amp;xf, const Vector3f &amp;voxelSize, float surfaceOffset=3, const ProgressCallback &amp;cb={})</td></tr>
-<tr class="separator:ac9efe716d67f76c27530f38e724ec5d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f86058cd2468382f78fe172bd2adbf2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FloatGrid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0f86058cd2468382f78fe172bd2adbf2">MR::simpleVolumeToDenseGrid</a> (const SimpleVolume &amp;simpleVolue, const ProgressCallback &amp;cb={})</td></tr>
-<tr class="separator:a0f86058cd2468382f78fe172bd2adbf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a92aa477d3d565714f09f190e2c8c05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Mesh, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4a92aa477d3d565714f09f190e2c8c05">MR::gridToMesh</a> (const FloatGrid &amp;grid, const Vector3f &amp;voxelSize, float isoValue=0.0f, float adaptivity=0.0f, const ProgressCallback &amp;cb={})</td></tr>
-<tr class="separator:a4a92aa477d3d565714f09f190e2c8c05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c6ebbf899557c7560d5191e742451e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Mesh, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a7c6ebbf899557c7560d5191e742451e7">MR::gridToMesh</a> (const FloatGrid &amp;grid, const Vector3f &amp;voxelSize, int maxFaces, float isoValue=0.0f, float adaptivity=0.0f, const ProgressCallback &amp;cb={})</td></tr>
-<tr class="separator:a7c6ebbf899557c7560d5191e742451e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a110ad8fd0bc4c7d17ba02e5844b62754"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Mesh, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a110ad8fd0bc4c7d17ba02e5844b62754">MR::levelSetDoubleConvertion</a> (const MeshPart &amp;mp, const AffineXf3f &amp;xf, float voxelSize, float offsetA, float offsetB, float adaptivity=0.0f, const ProgressCallback &amp;cb={})</td></tr>
-<tr class="separator:a110ad8fd0bc4c7d17ba02e5844b62754"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4b4b05402c9592be6ca5d29ed852e87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FloatGrid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af4b4b05402c9592be6ca5d29ed852e87">MR::meshToLevelSet</a> (const MeshPart &amp;mp, const AffineXf3f &amp;xf, const Vector3f &amp;voxelSize, float surfaceOffset=3, ProgressCallback cb={})</td></tr>
+<tr class="separator:af4b4b05402c9592be6ca5d29ed852e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b93c7f2b2607e84f9cfc0475558e2e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FloatGrid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a9b93c7f2b2607e84f9cfc0475558e2e7">MR::meshToDistanceField</a> (const MeshPart &amp;mp, const AffineXf3f &amp;xf, const Vector3f &amp;voxelSize, float surfaceOffset=3, ProgressCallback cb={})</td></tr>
+<tr class="separator:a9b93c7f2b2607e84f9cfc0475558e2e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e6444f6867bfa54d04d95f86200e5c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a2e6444f6867bfa54d04d95f86200e5c0">MR::evalGridMinMax</a> (const FloatGrid &amp;grid, float &amp;min, float &amp;max)</td></tr>
+<tr class="separator:a2e6444f6867bfa54d04d95f86200e5c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c1bdd6ced44afe323ed00f85baef0e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; VdbVolume, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a2c1bdd6ced44afe323ed00f85baef0e7">MR::meshToVolume</a> (const Mesh &amp;mesh, const MeshToVolumeParams &amp;params={})</td></tr>
+<tr class="separator:a2c1bdd6ced44afe323ed00f85baef0e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae716e7a1520f3b8199070715f9ef65db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VdbVolume&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ae716e7a1520f3b8199070715f9ef65db">MR::floatGridToVdbVolume</a> (const FloatGrid &amp;grid)</td></tr>
+<tr class="separator:ae716e7a1520f3b8199070715f9ef65db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab66e31274d0a0f78da3e483300b47b0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FloatGrid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab66e31274d0a0f78da3e483300b47b0a">MR::simpleVolumeToDenseGrid</a> (const SimpleVolume &amp;simpleVolume, ProgressCallback cb={})</td></tr>
+<tr class="separator:ab66e31274d0a0f78da3e483300b47b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83200b03aed71f06d979c9f07d36a96d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VdbVolume&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a83200b03aed71f06d979c9f07d36a96d">MR::simpleVolumeToVdbVolume</a> (const SimpleVolume &amp;simpleVolume, ProgressCallback cb={})</td></tr>
+<tr class="separator:a83200b03aed71f06d979c9f07d36a96d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a762fb71d630a644ef843b1677768131c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Mesh, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a762fb71d630a644ef843b1677768131c">MR::gridToMesh</a> (const FloatGrid &amp;grid, const Vector3f &amp;voxelSize, float isoValue=0.0f, float adaptivity=0.0f, ProgressCallback cb={})</td></tr>
+<tr class="separator:a762fb71d630a644ef843b1677768131c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a55548734c2d8fc044c50b7584b5ab1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Mesh, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4a55548734c2d8fc044c50b7584b5ab1">MR::gridToMesh</a> (const VdbVolume &amp;vdbVolume, float isoValue=0.0f, float adaptivity=0.0f, ProgressCallback cb={})</td></tr>
+<tr class="separator:a4a55548734c2d8fc044c50b7584b5ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5b67500b150bd2773afff32ef0b6c89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Mesh, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa5b67500b150bd2773afff32ef0b6c89">MR::gridToMesh</a> (const FloatGrid &amp;grid, const Vector3f &amp;voxelSize, int maxFaces, float isoValue=0.0f, float adaptivity=0.0f, ProgressCallback cb={})</td></tr>
+<tr class="separator:aa5b67500b150bd2773afff32ef0b6c89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a852f2b0e5a98125b103fc9b31ed20d82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Mesh, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a852f2b0e5a98125b103fc9b31ed20d82">MR::gridToMesh</a> (const VdbVolume &amp;vdbVolume, int maxFaces, float isoValue=0.0f, float adaptivity=0.0f, ProgressCallback cb={})</td></tr>
+<tr class="separator:a852f2b0e5a98125b103fc9b31ed20d82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a841edb266cf1e056637d35c94efac107"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Mesh, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a841edb266cf1e056637d35c94efac107">MR::levelSetDoubleConvertion</a> (const MeshPart &amp;mp, const AffineXf3f &amp;xf, float voxelSize, float offsetA, float offsetB, float adaptivity=0.0f, ProgressCallback cb={})</td></tr>
+<tr class="separator:a841edb266cf1e056637d35c94efac107"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

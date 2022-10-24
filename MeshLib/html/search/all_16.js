@@ -24,7 +24,7 @@ var searchData=
   ['worldrayintersection_21',['worldRayIntersection',['../classMR_1_1ObjectMesh.html#a42f008e1d02b82af779b6378ba9402d5',1,'MR::ObjectMesh']]],
   ['worldspace_22',['worldSpace',['../structMR_1_1Viewer_1_1PointInAllSpaces.html#af0e6467cf5ce1121ba9569986f7d5d53',1,'MR::Viewer::PointInAllSpaces']]],
   ['worldtocameraspace_23',['worldToCameraSpace',['../classMR_1_1Viewport.html#abf9bc36eda02472e52c41323484ca493',1,'MR::Viewport::worldToCameraSpace(const Vector3f &amp;p) const'],['../classMR_1_1Viewport.html#a71dda2baf413b787d9b0fb12035d3827',1,'MR::Viewport::worldToCameraSpace(const std::vector&lt; Vector3f &gt; &amp;p) const']]],
-  ['worldxf_24',['worldXf',['../classMR_1_1Object.html#adf99bf3b0a5a59452a7e4efd6f48b657',1,'MR::Object']]],
+  ['worldxf_24',['worldXf',['../structMR_1_1MeshToVolumeParams.html#a160d9c2171039308aa5a181a76575967',1,'MR::MeshToVolumeParams::worldXf()'],['../classMR_1_1Object.html#adf99bf3b0a5a59452a7e4efd6f48b657',1,'MR::Object::worldXf(ViewportId id={}, bool *isDef=nullptr) const']]],
   ['worldxfchangedsignal_25',['worldXfChangedSignal',['../classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964',1,'MR::Object']]],
   ['wrap_26',['wrap',['../structMR_1_1MeshTexture.html#ab1d9b311e280516bb81e8749bfb440bc',1,'MR::MeshTexture::wrap()'],['../structMR_1_1GlTexture2_1_1Settings.html#a42b6be0c848d4bbc069954aee39871d9',1,'MR::GlTexture2::Settings::wrap()']]],
   ['wraptype_27',['WrapType',['../namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00c',1,'MR']]],

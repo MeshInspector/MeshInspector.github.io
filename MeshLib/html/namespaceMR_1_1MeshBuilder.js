@@ -14,7 +14,6 @@ var namespaceMR_1_1MeshBuilder =
     [ "fromDisjointMeshPieces", "namespaceMR_1_1MeshBuilder.html#ac89608a8862a7f497172398df6ccaf30", null ],
     [ "fromFaceSoup", "namespaceMR_1_1MeshBuilder.html#a3ad33f9aabd679a58811fb3f954f3e8b", null ],
     [ "fromPointTriples", "namespaceMR_1_1MeshBuilder.html#a56a8be33e28c205871eca5453cafde9a", null ],
-    [ "fromTriangles", "namespaceMR_1_1MeshBuilder.html#add019b83c5daf672400d9454be6747cb", null ],
     [ "fromTriangles", "namespaceMR_1_1MeshBuilder.html#ad94b16318381f04c306f214d07b59c3d", null ],
     [ "fromTrianglesDuplicatingNonManifoldVertices", "namespaceMR_1_1MeshBuilder.html#aa308a697fa44ab178932733fdab79f16", null ],
     [ "fromVertexTriples", "namespaceMR_1_1MeshBuilder.html#a1b3503d2d9d217c518c9004116f00b07", null ],
