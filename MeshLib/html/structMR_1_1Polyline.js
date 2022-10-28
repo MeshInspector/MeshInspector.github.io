@@ -16,6 +16,7 @@ var structMR_1_1Polyline =
     [ "edgeLength", "structMR_1_1Polyline.html#a2c547895888165d873db848b161cb5c0", null ],
     [ "edgeLengthSq", "structMR_1_1Polyline.html#ab3de745fc249ab0b56e00796cf740f97", null ],
     [ "edgePoint", "structMR_1_1Polyline.html#a09efa3e658e95b29f1dea8f362d18289", null ],
+    [ "edgeSegment", "structMR_1_1Polyline.html#ae6187af336b61283c5118d9aca6f0a12", null ],
     [ "edgeVector", "structMR_1_1Polyline.html#ab9e9cb920eced56be83119d6d268691f", null ],
     [ "getAABBTree", "structMR_1_1Polyline.html#addf7be82ffec83205ba7adcd66001c5b", null ],
     [ "getAABBTreeNotCreate", "structMR_1_1Polyline.html#a363c6648b8fe1702f69d019676856179", null ],

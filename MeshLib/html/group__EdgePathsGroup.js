@@ -4,6 +4,7 @@ var group__EdgePathsGroup =
     [ "MR::addLeftBand", "group__EdgePathsGroup.html#gab0db7342678536825cb6b3bff51d832d", null ],
     [ "MR::buildShortestPath", "group__EdgePathsGroup.html#gadb0985d5186608aa8786111eead3c759", null ],
     [ "MR::buildShortestPath", "group__EdgePathsGroup.html#ga4ef10460976331354fd6633529b31b3f", null ],
+    [ "MR::buildShortestPathAStar", "group__EdgePathsGroup.html#gab942014729767c2449b988a793eea5a7", null ],
     [ "MR::buildShortestPathBiDir", "group__EdgePathsGroup.html#ga8611d32ddf9b64606412154e843658b3", null ],
     [ "MR::buildSmallestMetricPath", "group__EdgePathsGroup.html#gae74cdeb663c4f5c46bb0107a8b1b5c47", null ],
     [ "MR::buildSmallestMetricPath", "group__EdgePathsGroup.html#ga849a027d86e0a30b1a32b629a14f74f3", null ],

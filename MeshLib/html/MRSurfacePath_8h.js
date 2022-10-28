@@ -6,5 +6,6 @@ var MRSurfacePath_8h =
     ] ],
     [ "computeClosestSurfacePathTargets", "MRSurfacePath_8h.html#ga7e3d9de81e88a578e04e1157148c1a6a", null ],
     [ "computeSurfacePath", "MRSurfacePath_8h.html#gaf468f5619b07f5fe556391f890e7c593", null ],
+    [ "computeSurfacePathApprox", "MRSurfacePath_8h.html#ga16fd10e60c5f470fa55468533846fcd3", null ],
     [ "surfacePathLength", "MRSurfacePath_8h.html#gacebe3b7371a72e49ddfbabc14fd008b4", null ]
 ];

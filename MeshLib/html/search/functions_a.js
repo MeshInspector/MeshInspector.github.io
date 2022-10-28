@@ -40,7 +40,7 @@ var searchData=
   ['loaddirectionspc_37',['loadDirectionsPC',['../classMR_1_1RegularMapMesher.html#abeab011390e0b43c3b44699746d33e00',1,'MR::RegularMapMesher']]],
   ['loaddistancemapfromimage_38',['loadDistanceMapFromImage',['../group__DistanceMapGroup.html#gadbee6a2fc88cfd473ca9702fe2e1e4b5',1,'MR']]],
   ['loaddistances_39',['loadDistances',['../classMR_1_1RegularMapMesher.html#aaf2141c6d162911fac0bba5ed532c9e1',1,'MR::RegularMapMesher']]],
-  ['loadfile_40',['loadFile',['../classMR_1_1Viewer.html#a39db8dc33e990245c490ea5434c1a53a',1,'MR::Viewer']]],
+  ['loadfiles_40',['loadFiles',['../classMR_1_1Viewer.html#ad31742000517e1bfa864d9b557eca6f4',1,'MR::Viewer']]],
   ['loadfromjson_41',['loadFromJson',['../classMR_1_1Palette.html#a1a549aec745f16e9336ae7fcf4271d88',1,'MR::Palette']]],
   ['loadgl_42',['loadGL',['../namespaceMR.html#aea8b2bf2b592657af506fb5517e0c1d9',1,'MR']]],
   ['loadmeshdll_43',['loadMeshDll',['../namespaceMR.html#a756a2b786fd51099db1c7e2f13be0620',1,'MR']]],

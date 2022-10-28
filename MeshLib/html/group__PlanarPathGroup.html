@@ -107,20 +107,19 @@ $(document).ready(function(){initNavTree('group__PlanarPathGroup.html',''); init
 Functions</h2></td></tr>
 <tr class="memitem:ga78ceb249092f5942289ea1aa0dfe9ccf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PlanarPathGroup.html#ga78ceb249092f5942289ea1aa0dfe9ccf">MR::reducePathViaVertex</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> v, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, std::vector&lt; <a class="el" href="structMR_1_1MeshEdgePoint.html">MeshEdgePoint</a> &gt; &amp;outPath, std::vector&lt; <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &gt; &amp;tmp, std::vector&lt; <a class="el" href="structMR_1_1MeshEdgePoint.html">MeshEdgePoint</a> &gt; &amp;cachePath)</td></tr>
 <tr class="separator:ga78ceb249092f5942289ea1aa0dfe9ccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga46cb63f78d57e3a61bd26c4cc2e00f38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PlanarPathGroup.html#ga46cb63f78d57e3a61bd26c4cc2e00f38">MR::reducePath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, std::vector&lt; <a class="el" href="structMR_1_1MeshEdgePoint.html">MeshEdgePoint</a> &gt; &amp;path, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, int maxIter=5)</td></tr>
-<tr class="memdesc:ga46cb63f78d57e3a61bd26c4cc2e00f38"><td class="mdescLeft">&#160;</td><td class="mdescRight">reduces the length of given surface path: start-path-end  <a href="group__PlanarPathGroup.html#ga46cb63f78d57e3a61bd26c4cc2e00f38">More...</a><br /></td></tr>
-<tr class="separator:ga46cb63f78d57e3a61bd26c4cc2e00f38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga96eecca9caad0991b7708eceadbd1e5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PlanarPathGroup.html#ga96eecca9caad0991b7708eceadbd1e5f">MR::reducePath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, std::vector&lt; <a class="el" href="structMR_1_1MeshEdgePoint.html">MeshEdgePoint</a> &gt; &amp;path, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, int maxIter=5)</td></tr>
+<tr class="separator:ga96eecca9caad0991b7708eceadbd1e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga46cb63f78d57e3a61bd26c4cc2e00f38" name="ga46cb63f78d57e3a61bd26c4cc2e00f38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga46cb63f78d57e3a61bd26c4cc2e00f38">&#9670;&#160;</a></span>reducePath()</h2>
+<a id="ga96eecca9caad0991b7708eceadbd1e5f" name="ga96eecca9caad0991b7708eceadbd1e5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga96eecca9caad0991b7708eceadbd1e5f">&#9670;&#160;</a></span>reducePath()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::reducePath </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int MR::reducePath </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
           <td class="paramname"><em>mesh</em>, </td>
@@ -156,8 +155,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>reduces the length of given surface path: start-path-end </p>
+<p >converts any input surface path into geodesic path (so reduces its length): start-path-end; returns actual number of iterations performed </p>
 
 </div>
 </div>

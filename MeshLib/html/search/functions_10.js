@@ -22,7 +22,7 @@ var searchData=
   ['red_19',['red',['../structMR_1_1Color.html#a9f743712af5597ae9e55d338143d10c6',1,'MR::Color']]],
   ['redirectstdstreamstologger_20',['redirectSTDStreamsToLogger',['../group__BasicGroup.html#ga52d34a9bbe60f99085e9aab32040499f',1,'MR']]],
   ['redo_21',['redo',['../classMR_1_1HistoryStore.html#aa598b54efef16035705a815e4481ef65',1,'MR::HistoryStore']]],
-  ['reducepath_22',['reducePath',['../group__PlanarPathGroup.html#ga46cb63f78d57e3a61bd26c4cc2e00f38',1,'MR']]],
+  ['reducepath_22',['reducePath',['../group__PlanarPathGroup.html#ga96eecca9caad0991b7708eceadbd1e5f',1,'MR']]],
   ['reducepathviavertex_23',['reducePathViaVertex',['../group__PlanarPathGroup.html#ga78ceb249092f5942289ea1aa0dfe9ccf',1,'MR']]],
   ['region_24',['region',['../classMR_1_1Laplacian.html#a9ad9ba866f86e02979c7ad6b6af3331c',1,'MR::Laplacian']]],
   ['registerrenderobjectconstructor_25',['RegisterRenderObjectConstructor',['../classMR_1_1RegisterRenderObjectConstructor.html#a68b36d5a17409d933e14092222e0ff3e',1,'MR::RegisterRenderObjectConstructor']]],

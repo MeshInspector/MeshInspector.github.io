@@ -131,8 +131,8 @@ var searchData=
   ['autoresizetestset_128',['autoResizeTestSet',['../classMR_1_1TaggedBitSet.html#a462014129d5cd9d3812890a783da6bc9',1,'MR::TaggedBitSet::autoResizeTestSet()'],['../classMR_1_1BitSet.html#a84a9273303ae000bcf94b893a298eb95',1,'MR::BitSet::autoResizeTestSet()']]],
   ['averageedgelength_129',['averageEdgeLength',['../structMR_1_1Mesh.html#ace0fa1663015706fa78dc52fe840b4a9',1,'MR::Mesh']]],
   ['avgnumneighbours_130',['avgNumNeighbours',['../structMR_1_1TriangulationParameters.html#aa4ccfb848c69c38a9307eae1232adcbe',1,'MR::TriangulationParameters']]],
-  ['axis_131',['axis',['../structMR_1_1Quaternion.html#a4c3f74509e12b10d84316ce54058bd05',1,'MR::Quaternion']]],
-  ['axis_132',['Axis',['../classMR_1_1ObjectTransformWidget.html#a68b9b25ab7ecc4861ee34b7b4221b29a',1,'MR::ObjectTransformWidget']]],
+  ['axis_131',['Axis',['../classMR_1_1ObjectTransformWidget.html#a68b9b25ab7ecc4861ee34b7b4221b29a',1,'MR::ObjectTransformWidget']]],
+  ['axis_132',['axis',['../structMR_1_1Quaternion.html#a4c3f74509e12b10d84316ce54058bd05',1,'MR::Quaternion']]],
   ['axisscaling_133',['AxisScaling',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935',1,'MR::ObjectTransformWidget']]],
   ['axistransformmode_134',['AxisTransformMode',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8',1,'MR::ObjectTransformWidget']]],
   ['axistranslation_135',['AxisTranslation',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510',1,'MR::ObjectTransformWidget']]]

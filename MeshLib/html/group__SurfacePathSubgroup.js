@@ -6,5 +6,6 @@ var group__SurfacePathSubgroup =
     ] ],
     [ "MR::computeClosestSurfacePathTargets", "group__SurfacePathSubgroup.html#ga7e3d9de81e88a578e04e1157148c1a6a", null ],
     [ "MR::computeSurfacePath", "group__SurfacePathSubgroup.html#gaf468f5619b07f5fe556391f890e7c593", null ],
+    [ "MR::computeSurfacePathApprox", "group__SurfacePathSubgroup.html#ga16fd10e60c5f470fa55468533846fcd3", null ],
     [ "MR::surfacePathLength", "group__SurfacePathSubgroup.html#gacebe3b7371a72e49ddfbabc14fd008b4", null ]
 ];

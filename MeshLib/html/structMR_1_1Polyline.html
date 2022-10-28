@@ -139,6 +139,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab9e9cb920eced56be83119d6d268691f"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#ab9e9cb920eced56be83119d6d268691f">edgeVector</a> (<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e) const</td></tr>
 <tr class="memdesc:ab9e9cb920eced56be83119d6d268691f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns vector equal to edge destination point minus edge origin point  <a href="structMR_1_1Polyline.html#ab9e9cb920eced56be83119d6d268691f">More...</a><br /></td></tr>
 <tr class="separator:ab9e9cb920eced56be83119d6d268691f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6187af336b61283c5118d9aca6f0a12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1LineSegm.html">LineSegm</a>&lt; V &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#ae6187af336b61283c5118d9aca6f0a12">edgeSegment</a> (<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e) const</td></tr>
+<tr class="memdesc:ae6187af336b61283c5118d9aca6f0a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns line segment of given edge  <a href="structMR_1_1Polyline.html#ae6187af336b61283c5118d9aca6f0a12">More...</a><br /></td></tr>
+<tr class="separator:ae6187af336b61283c5118d9aca6f0a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c547895888165d873db848b161cb5c0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#a2c547895888165d873db848b161cb5c0">edgeLength</a> (<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e) const</td></tr>
 <tr class="memdesc:a2c547895888165d873db848b161cb5c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns Euclidean length of the edge  <a href="structMR_1_1Polyline.html#a2c547895888165d873db848b161cb5c0">More...</a><br /></td></tr>
 <tr class="separator:a2c547895888165d873db848b161cb5c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -670,6 +673,36 @@ template&lt;typename V &gt; </div>
 </div><div class="memdoc">
 
 <p>returns a point on the edge: origin point for f=0 and destination point for f=1 </p>
+
+</div>
+</div>
+<a id="ae6187af336b61283c5118d9aca6f0a12" name="ae6187af336b61283c5118d9aca6f0a12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6187af336b61283c5118d9aca6f0a12">&#9670;&#160;</a></span>edgeSegment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1LineSegm.html">LineSegm</a>&lt; V &gt; <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::edgeSegment </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns line segment of given edge </p>
 
 </div>
 </div>
