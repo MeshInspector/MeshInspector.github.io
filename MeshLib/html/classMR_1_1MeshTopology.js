@@ -90,6 +90,7 @@ var classMR_1_1MeshTopology =
     [ "setLeft", "classMR_1_1MeshTopology.html#a33b7ccf57090eb2dafe52a1086608ad1", null ],
     [ "setOrg", "classMR_1_1MeshTopology.html#a9627aa734a312d96e109fba26be22ef2", null ],
     [ "sharedEdge", "classMR_1_1MeshTopology.html#a96ff53e0e36d8b633603a213af4b2579", null ],
+    [ "sharedFace", "classMR_1_1MeshTopology.html#a2f9723359c03f8cc3b6b73f485a960f5", null ],
     [ "sharedVertInOrg", "classMR_1_1MeshTopology.html#a48ff82f9ecdf38e6b1b79c2f84ec88b6", null ],
     [ "splice", "classMR_1_1MeshTopology.html#a08c1dc2c9e7f3a29a2b313cf8886bff4", null ],
     [ "splitEdge", "classMR_1_1MeshTopology.html#ac48b87e30f7bfba39e16ba150b486b79", null ],

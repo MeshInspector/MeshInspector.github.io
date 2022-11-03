@@ -10,5 +10,6 @@ var structMR_1_1BooleanResultMapper =
     [ "map", "structMR_1_1BooleanResultMapper.html#ac5f5c7f84c16ba4d08fd3b45d06c5914", null ],
     [ "map", "structMR_1_1BooleanResultMapper.html#a730a4aa776837ed09143d106e54c085b", null ],
     [ "map", "structMR_1_1BooleanResultMapper.html#ac601634b2fe9f6fe7b9531d6c8bf6d7c", null ],
+    [ "newFaces", "structMR_1_1BooleanResultMapper.html#a965145c8345c2af57bdd338b3fd038b4", null ],
     [ "maps", "structMR_1_1BooleanResultMapper.html#a3a2abc280314da83919063aff2e0490f", null ]
 ];

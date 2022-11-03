@@ -21,9 +21,9 @@ var searchData=
   ['viewerplugin_18',['ViewerPlugin',['../classMR_1_1ViewerPlugin.html#a636d02d4388ea712a7e5e60ce572fabc',1,'MR::ViewerPlugin']]],
   ['viewersettingsmanager_19',['ViewerSettingsManager',['../classMR_1_1ViewerSettingsManager.html#a73a1b054bbf40224c9f01e6aff8af7af',1,'MR::ViewerSettingsManager']]],
   ['viewersettingsplugin_20',['ViewerSettingsPlugin',['../classMR_1_1ViewerSettingsPlugin.html#a4fda238acd33621d265e12dff2282e03',1,'MR::ViewerSettingsPlugin']]],
-  ['viewport_21',['viewport',['../classMR_1_1Viewer.html#a98e839976ec3394275ee4c8a96c6dc27',1,'MR::Viewer']]],
-  ['viewport_22',['Viewport',['../classMR_1_1Viewport.html#adc0a625e7bd0d7fecf55699b470659ac',1,'MR::Viewport::Viewport()'],['../classMR_1_1Viewport.html#ab2c9307e0042dfba8ab64f861356ad72',1,'MR::Viewport::Viewport(Viewport &amp;&amp;) noexcept=default']]],
-  ['viewport_23',['viewport',['../classMR_1_1Viewer.html#ac79f24b566036522e5b7f21e642c9439',1,'MR::Viewer']]],
+  ['viewport_21',['Viewport',['../classMR_1_1Viewport.html#ab2c9307e0042dfba8ab64f861356ad72',1,'MR::Viewport']]],
+  ['viewport_22',['viewport',['../classMR_1_1Viewer.html#ac79f24b566036522e5b7f21e642c9439',1,'MR::Viewer::viewport(ViewportId viewportId={})'],['../classMR_1_1Viewer.html#a98e839976ec3394275ee4c8a96c6dc27',1,'MR::Viewer::viewport(ViewportId viewportId={}) const']]],
+  ['viewport_23',['Viewport',['../classMR_1_1Viewport.html#adc0a625e7bd0d7fecf55699b470659ac',1,'MR::Viewport']]],
   ['viewport_5findex_24',['viewport_index',['../classMR_1_1Viewer.html#ae910a1a6019718a777afe452d58802a5',1,'MR::Viewer']]],
   ['viewportgl_25',['ViewportGL',['../classMR_1_1ViewportGL.html#a97a437675447882da60c694f40cc9e56',1,'MR::ViewportGL::ViewportGL()=default'],['../classMR_1_1ViewportGL.html#a376cf69e021d79c6a54e63168253e3c0',1,'MR::ViewportGL::ViewportGL(const ViewportGL &amp;)'],['../classMR_1_1ViewportGL.html#a16c05e1b059689d7bc4ed8d5e6673ac0',1,'MR::ViewportGL::ViewportGL(ViewportGL &amp;&amp;other) noexcept']]],
   ['viewportid_26',['ViewportId',['../classMR_1_1ViewportId.html#a2dc04ca2718571d5d0685777467353ab',1,'MR::ViewportId::ViewportId() noexcept=default'],['../classMR_1_1ViewportId.html#a15d4db4d1c4f3df25ca2e3b42584cdc5',1,'MR::ViewportId::ViewportId(unsigned i) noexcept']]],
@@ -35,9 +35,9 @@ var searchData=
   ['visualobject_32',['VisualObject',['../classMR_1_1VisualObject.html#a248a0efabc82874bd29ca605c2fb7481',1,'MR::VisualObject::VisualObject()'],['../classMR_1_1VisualObject.html#a95016bb1aefebfa8952ac3457cc57ee4',1,'MR::VisualObject::VisualObject(VisualObject &amp;&amp;)=default'],['../classMR_1_1VisualObject.html#a132f300dcd5614eaaa237b865dc79763',1,'MR::VisualObject::VisualObject(ProtectedStruct, const VisualObject &amp;obj)'],['../classMR_1_1VisualObject.html#aaac191711df9841f6b7fc77cb21844a6',1,'MR::VisualObject::VisualObject(const VisualObject &amp;obj)']]],
   ['volume_33',['volume',['../structMR_1_1Box.html#aaf8c494ec86f9a6ef904299b78f1cc23',1,'MR::Box::volume()'],['../structMR_1_1Mesh.html#a952176d5bcd16b91d26dc6fa2a0bdc6c',1,'MR::Mesh::volume()']]],
   ['volumeindexer_34',['VolumeIndexer',['../group__VoxelGroup.html#gad64c0feac5a4c85334c9de7dda628dfb',1,'MR::VolumeIndexer']]],
-  ['volumesegmenter_35',['VolumeSegmenter',['../classMR_1_1VolumeSegmenter.html#a3b873fd7454ef53287d695e0d2754767',1,'MR::VolumeSegmenter']]],
+  ['volumesegmenter_35',['VolumeSegmenter',['../classMR_1_1VolumeSegmenter.html#a41b495dd66f5ad9eaa656a20be4ae95c',1,'MR::VolumeSegmenter']]],
   ['voxelizeandcomputevolume_36',['voxelizeAndComputeVolume',['../namespaceMR.html#a95448d86b9e9dc01e6f9391c76bd06f6',1,'MR']]],
-  ['voxelsexponentmetric_37',['voxelsExponentMetric',['../group__VoxelPathGroup.html#ga819f3665bd030abd3889caf70d44ca56',1,'MR']]],
+  ['voxelsexponentmetric_37',['voxelsExponentMetric',['../group__VoxelPathGroup.html#ga5807f72a84c52af1fd50c83bceef9e63',1,'MR']]],
   ['voxelsize_38',['voxelSize',['../classMR_1_1ObjectVoxels.html#a15d13587d3a07d097c841db2c9face4d',1,'MR::ObjectVoxels']]],
-  ['voxelssumdiffsmetric_39',['voxelsSumDiffsMetric',['../group__VoxelPathGroup.html#ga6d57b82ebe60f6288efa02bac4848dab',1,'MR']]]
+  ['voxelssumdiffsmetric_39',['voxelsSumDiffsMetric',['../group__VoxelPathGroup.html#gac6f3fb235421b043711103935866d07c',1,'MR']]]
 ];

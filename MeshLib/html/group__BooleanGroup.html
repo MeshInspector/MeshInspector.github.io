@@ -169,6 +169,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga8159a4df1640c93525412ae2b8882a67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1BooleanResult.html">BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga8159a4df1640c93525412ae2b8882a67">MR::boolean</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshB, <a class="el" href="group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> operation, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *rigidB2A=nullptr, <a class="el" href="structMR_1_1BooleanResultMapper.html">BooleanResultMapper</a> *mapper=nullptr)</td></tr>
 <tr class="memdesc:ga8159a4df1640c93525412ae2b8882a67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs CSG operation on two meshes.  <a href="group__BooleanGroup.html#ga8159a4df1640c93525412ae2b8882a67">More...</a><br /></td></tr>
 <tr class="separator:ga8159a4df1640c93525412ae2b8882a67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad184d1a90dfcda5223f1b00af39c5b74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1BooleanResultPoints.html">BooleanResultPoints</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#gad184d1a90dfcda5223f1b00af39c5b74">MR::getIntersectionAndInnerPoints</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshB, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *rigidB2A=nullptr)</td></tr>
+<tr class="memdesc:gad184d1a90dfcda5223f1b00af39c5b74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the points of mesh intersection's result mesh.  <a href="group__BooleanGroup.html#gad184d1a90dfcda5223f1b00af39c5b74">More...</a><br /></td></tr>
+<tr class="separator:gad184d1a90dfcda5223f1b00af39c5b74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p >Chapter about Constructive Solid Geometry operations. </p>
@@ -584,6 +587,50 @@ so if you cannot guarantee contours without intersections better make copy of me
 </div><div class="memdoc">
 <p >Perform boolean operation on cut meshes </p><dl class="section return"><dt>Returns</dt><dd>mesh in space of meshA or error. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>: actually this function is meant to be internal, use "boolean" instead </dd></dl>
+
+</div>
+</div>
+<a id="gad184d1a90dfcda5223f1b00af39c5b74" name="gad184d1a90dfcda5223f1b00af39c5b74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad184d1a90dfcda5223f1b00af39c5b74">&#9670;&#160;</a></span>getIntersectionAndInnerPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1BooleanResultPoints.html">BooleanResultPoints</a> MR::getIntersectionAndInnerPoints </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>meshA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>meshB</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *&#160;</td>
+          <td class="paramname"><em>rigidB2A</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the points of mesh intersection's result mesh. </p>
+<p >Returns vertices and intersection points of mesh that is result of intersection of mesh <code>A</code> and mesh <code>B</code>. Can be used as fast alternative for cases where the mesh topology can be ignored (bounding box, convex hull, etc.) </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">meshA</td><td>Input mesh <code>A</code> </td></tr>
+    <tr><td class="paramname">meshB</td><td>Input mesh <code>B</code> </td></tr>
+    <tr><td class="paramname">rigidB2A</td><td>Transform from mesh <code>B</code> space to mesh <code>A</code> space </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

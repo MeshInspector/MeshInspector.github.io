@@ -21,7 +21,7 @@ var group__VoxelPathGroup =
       [ "MR::XY", "group__VoxelPathGroup.html#ggae7c8689563553fe7686bd6b71ddf8f18a3629e4a37a6ff95437939d8664d158e9", null ],
       [ "MR::None", "group__VoxelPathGroup.html#ggae7c8689563553fe7686bd6b71ddf8f18aa1f9f6e1b4f1f951f67ebeb0c69e1dd4", null ]
     ] ],
-    [ "MR::buildSmallestMetricPath", "group__VoxelPathGroup.html#ga7562d3ff04d860873b9448ad7e60b0c7", null ],
-    [ "MR::voxelsExponentMetric", "group__VoxelPathGroup.html#ga819f3665bd030abd3889caf70d44ca56", null ],
-    [ "MR::voxelsSumDiffsMetric", "group__VoxelPathGroup.html#ga6d57b82ebe60f6288efa02bac4848dab", null ]
+    [ "MR::buildSmallestMetricPath", "group__VoxelPathGroup.html#gad4c388212308e83d20a32e0771a60bd6", null ],
+    [ "MR::voxelsExponentMetric", "group__VoxelPathGroup.html#ga5807f72a84c52af1fd50c83bceef9e63", null ],
+    [ "MR::voxelsSumDiffsMetric", "group__VoxelPathGroup.html#gac6f3fb235421b043711103935866d07c", null ]
 ];

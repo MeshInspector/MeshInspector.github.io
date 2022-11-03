@@ -1,5 +1,8 @@
 var NAVTREEINDEX4 =
 {
+"MRSceneStateCheck_8h_source.html":[12,0,0,1,3,46],
+"MRSelectObjectByClick_8h.html":[12,0,0,1,0,1,0],
+"MRSelectObjectByClick_8h_source.html":[12,0,0,1,0,1,0],
 "MRSelectScreenLasso_8h.html":[12,0,0,1,3,47],
 "MRSelectScreenLasso_8h.html#a076eb0510d6a86ac672aea467b5fb388":[12,0,0,1,3,47,2],
 "MRSelectScreenLasso_8h.html#a8cb0be6723831c2cce4eaab8b35e509d":[12,0,0,1,3,47,1],
@@ -133,7 +136,8 @@ var NAVTREEINDEX4 =
 "MRTorus_8h.html#aa43fcb51024712003fd0d5fff1df9301":[12,0,0,1,1,224,0],
 "MRTorus_8h_source.html":[12,0,0,1,1,224],
 "MRTriDist_8h.html":[12,0,0,1,1,226],
-"MRTriDist_8h.html#a068b87fd749129c9bc76263ce77fe9af":[12,0,0,1,1,226,0],
+"MRTriDist_8h.html#a068b87fd749129c9bc76263ce77fe9af":[12,0,0,1,1,226,1],
+"MRTriDist_8h.html#aaf4d239a6cdece7da03913ad2b3a6efe":[12,0,0,1,1,226,0],
 "MRTriDist_8h_source.html":[12,0,0,1,1,226],
 "MRTriMath_8h.html":[12,0,0,1,1,227],
 "MRTriMath_8h.html#ac317aae7fbe013869599d57c76389e8b":[12,0,0,1,1,227,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX4 =
 "MRVoxelsSave_8h.html":[12,0,0,1,1,250],
 "MRVoxelsSave_8h_source.html":[12,0,0,1,1,250],
 "MRVoxelsVolume_8h.html":[12,0,0,1,1,251],
-"MRVoxelsVolume_8h.html#a95448d86b9e9dc01e6f9391c76bd06f6":[12,0,0,1,1,251,0],
-"MRVoxelsVolume_8h_source.html":[12,0,0,1,1,251],
-"MRWriter_8h.html":[12,0,0,1,1,252],
-"MRWriter_8h.html#a76ba7d688be2473881f1f42c2f685060":[12,0,0,1,1,252,1],
-"MRWriter_8h_source.html":[12,0,0,1,1,252]
+"MRVoxelsVolume_8h.html#a95448d86b9e9dc01e6f9391c76bd06f6":[12,0,0,1,1,251,0]
 };

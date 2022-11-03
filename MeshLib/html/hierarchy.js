@@ -25,6 +25,7 @@ var hierarchy =
     [ "MR::BindVertexAttribArraySettings", "structMR_1_1BindVertexAttribArraySettings.html", null ],
     [ "MR::BooleanResult", "structMR_1_1BooleanResult.html", null ],
     [ "MR::BooleanResultMapper", "structMR_1_1BooleanResultMapper.html", null ],
+    [ "MR::BooleanResultPoints", "structMR_1_1BooleanResultPoints.html", null ],
     [ "MR::Box< V >", "structMR_1_1Box.html", null ],
     [ "MR::Box< float >", "structMR_1_1Box.html", null ],
     [ "MR::Box< int >", "structMR_1_1Box.html", null ],
@@ -108,9 +109,9 @@ var hierarchy =
     [ "boost::dynamic_bitset", null, [
       [ "MR::BitSet", "classMR_1_1BitSet.html", [
         [ "MR::TaggedBitSet< FaceTag >", "classMR_1_1TaggedBitSet.html", null ],
+        [ "MR::TaggedBitSet< VertTag >", "classMR_1_1TaggedBitSet.html", null ],
         [ "MR::TaggedBitSet< VoxelTag >", "classMR_1_1TaggedBitSet.html", null ],
         [ "MR::TaggedBitSet< UndirectedEdgeTag >", "classMR_1_1TaggedBitSet.html", null ],
-        [ "MR::TaggedBitSet< VertTag >", "classMR_1_1TaggedBitSet.html", null ],
         [ "MR::TaggedBitSet< Tag >", "classMR_1_1TaggedBitSet.html", null ],
         [ "MR::TaggedBitSet< T >", "classMR_1_1TaggedBitSet.html", null ]
       ] ]
@@ -420,6 +421,7 @@ var hierarchy =
     [ "MR::RemeshSettings", "structMR_1_1RemeshSettings.html", null ],
     [ "MR::RenderBufferRef< T >", "classMR_1_1RenderBufferRef.html", null ],
     [ "MR::RenderObjectBuffer", "classMR_1_1RenderObjectBuffer.html", null ],
+    [ "MR::ResolveMeshDegenSettings", "structMR_1_1ResolveMeshDegenSettings.html", null ],
     [ "MR::RibbonButtonDrawer", "classMR_1_1RibbonButtonDrawer.html", null ],
     [ "MR::RibbonFontManager", "classMR_1_1RibbonFontManager.html", null ],
     [ "MR::RibbonIcons", "classMR_1_1RibbonIcons.html", null ],

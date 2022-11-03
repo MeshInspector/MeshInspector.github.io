@@ -250,6 +250,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a48ff82f9ecdf38e6b1b79c2f84ec88b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a48ff82f9ecdf38e6b1b79c2f84ec88b6">sharedVertInOrg</a> (<a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> l, <a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> r) const</td></tr>
 <tr class="memdesc:a48ff82f9ecdf38e6b1b79c2f84ec88b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">if two valid faces share the same vertex then it is found and returned as Edge with this vertex in origin  <a href="classMR_1_1MeshTopology.html#a48ff82f9ecdf38e6b1b79c2f84ec88b6">More...</a><br /></td></tr>
 <tr class="separator:a48ff82f9ecdf38e6b1b79c2f84ec88b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f9723359c03f8cc3b6b73f485a960f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a2f9723359c03f8cc3b6b73f485a960f5">sharedFace</a> (<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> a, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> b) const</td></tr>
+<tr class="memdesc:a2f9723359c03f8cc3b6b73f485a960f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">if two valid edges belong to same valid face then it is found and returned  <a href="classMR_1_1MeshTopology.html#a2f9723359c03f8cc3b6b73f485a960f5">More...</a><br /></td></tr>
+<tr class="separator:a2f9723359c03f8cc3b6b73f485a960f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94378f70606fda1a41eb0605de0c8cbe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a94378f70606fda1a41eb0605de0c8cbe">numValidFaces</a> () const</td></tr>
 <tr class="memdesc:a94378f70606fda1a41eb0605de0c8cbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of valid faces  <a href="classMR_1_1MeshTopology.html#a94378f70606fda1a41eb0605de0c8cbe">More...</a><br /></td></tr>
 <tr class="separator:a94378f70606fda1a41eb0605de0c8cbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2906,6 +2909,36 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>if two valid faces share the same edge then it is found and returned </p>
+
+</div>
+</div>
+<a id="a2f9723359c03f8cc3b6b73f485a960f5" name="a2f9723359c03f8cc3b6b73f485a960f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f9723359c03f8cc3b6b73f485a960f5">&#9670;&#160;</a></span>sharedFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> MR::MeshTopology::sharedFace </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if two valid edges belong to same valid face then it is found and returned </p>
 
 </div>
 </div>

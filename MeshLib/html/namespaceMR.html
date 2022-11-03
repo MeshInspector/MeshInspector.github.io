@@ -189,6 +189,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BooleanResultMapper.html">BooleanResultMapper</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure to map old mesh BitSets to new.  <a href="structMR_1_1BooleanResultMapper.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BooleanResultPoints.html">BooleanResultPoints</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">vertices and points representing mesh intersection result  <a href="structMR_1_1BooleanResultPoints.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Box.html">Box</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structMR_1_1Box.html" title="Box given by its min- and max- corners.">Box</a> given by its min- and max- corners.  <a href="structMR_1_1Box.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -704,6 +707,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RenderPointsObject.html">RenderPointsObject</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ResetSceneMenuItem.html">ResetSceneMenuItem</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ResolveMeshDegenSettings.html">ResolveMeshDegenSettings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RestoringStreamsSink.html">RestoringStreamsSink</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2074,6 +2079,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga8159a4df1640c93525412ae2b8882a67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1BooleanResult.html">BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga8159a4df1640c93525412ae2b8882a67">boolean</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshB, <a class="el" href="group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> operation, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *rigidB2A=nullptr, <a class="el" href="structMR_1_1BooleanResultMapper.html">BooleanResultMapper</a> *mapper=nullptr)</td></tr>
 <tr class="memdesc:ga8159a4df1640c93525412ae2b8882a67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs CSG operation on two meshes.  <a href="group__BooleanGroup.html#ga8159a4df1640c93525412ae2b8882a67">More...</a><br /></td></tr>
 <tr class="separator:ga8159a4df1640c93525412ae2b8882a67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad184d1a90dfcda5223f1b00af39c5b74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1BooleanResultPoints.html">BooleanResultPoints</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#gad184d1a90dfcda5223f1b00af39c5b74">getIntersectionAndInnerPoints</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshB, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *rigidB2A=nullptr)</td></tr>
+<tr class="memdesc:gad184d1a90dfcda5223f1b00af39c5b74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the points of mesh intersection's result mesh.  <a href="group__BooleanGroup.html#gad184d1a90dfcda5223f1b00af39c5b74">More...</a><br /></td></tr>
+<tr class="separator:gad184d1a90dfcda5223f1b00af39c5b74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37a45fe3367e0420cb18c30593415498"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1TransformedMesh.html">TransformedMesh</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a37a45fe3367e0420cb18c30593415498">operator+=</a> (<a class="el" href="structMR_1_1TransformedMesh.html">TransformedMesh</a> &amp;a, const <a class="el" href="structMR_1_1TransformedMesh.html">TransformedMesh</a> &amp;b)</td></tr>
 <tr class="memdesc:a37a45fe3367e0420cb18c30593415498"><td class="mdescLeft">&#160;</td><td class="mdescRight">union operation on two meshes  <a href="namespaceMR.html#a37a45fe3367e0420cb18c30593415498">More...</a><br /></td></tr>
 <tr class="separator:a37a45fe3367e0420cb18c30593415498"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2126,9 +2134,11 @@ Functions</h2></td></tr>
 <tr class="memitem:ga308d4bf16030f5f21f31de620318074a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a03bea4c1686b4e77a996eb13fd1d4bb7">QuadraticForm3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga308d4bf16030f5f21f31de620318074a">computeFormAtVertex</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> v, float stabilizer)</td></tr>
 <tr class="memdesc:ga308d4bf16030f5f21f31de620318074a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes quadratic form at given vertex of the initial surface before decimation.  <a href="group__DecimateGroup.html#ga308d4bf16030f5f21f31de620318074a">More...</a><br /></td></tr>
 <tr class="separator:ga308d4bf16030f5f21f31de620318074a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad7e3b8f0b2ed74a1df07e9cc3c6a6e90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#gad7e3b8f0b2ed74a1df07e9cc3c6a6e90">resolveMeshDegenerations</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, int maxIters=1, float maxDeviation=0, float maxAngleChange=PI_F/3, float criticalAspectRatio=1e7)</td></tr>
-<tr class="memdesc:gad7e3b8f0b2ed74a1df07e9cc3c6a6e90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves degenerate triangles in given mesh.  <a href="group__DecimateGroup.html#gad7e3b8f0b2ed74a1df07e9cc3c6a6e90">More...</a><br /></td></tr>
-<tr class="separator:gad7e3b8f0b2ed74a1df07e9cc3c6a6e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga881bb2eecb81e65b51d1cb8a52340637"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga881bb2eecb81e65b51d1cb8a52340637">resolveMeshDegenerations</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1ResolveMeshDegenSettings.html">ResolveMeshDegenSettings</a> &amp;settings={})</td></tr>
+<tr class="memdesc:ga881bb2eecb81e65b51d1cb8a52340637"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves degenerate triangles in given mesh.  <a href="group__DecimateGroup.html#ga881bb2eecb81e65b51d1cb8a52340637">More...</a><br /></td></tr>
+<tr class="separator:ga881bb2eecb81e65b51d1cb8a52340637"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5c549221eed8ffd6ea931784d4ac5e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ae5c549221eed8ffd6ea931784d4ac5e2">resolveMeshDegenerations</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, int maxIters, float maxDeviation=0, float maxAngleChange=PI_F/3, float criticalAspectRatio=1e7)</td></tr>
+<tr class="separator:ae5c549221eed8ffd6ea931784d4ac5e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08dd1bb898ae6ccea21b3ccb5feb209f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a08dd1bb898ae6ccea21b3ccb5feb209f">remesh</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1RemeshSettings.html">RemeshSettings</a> &amp;settings)</td></tr>
 <tr class="separator:a08dd1bb898ae6ccea21b3ccb5feb209f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab0b1827b05aa2ba71b50b8793f989e03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1DecimateResult.html">DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#gab0b1827b05aa2ba71b50b8793f989e03">decimateParallelMesh</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1DecimateParallelSettings.html">DecimateParallelSettings</a> &amp;settings={})</td></tr>
@@ -2331,6 +2341,9 @@ Functions</h2></td></tr>
 <tr class="separator:af30fa76ca9fac029ce66a5f3eea9552e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af17d27eb299ddf42c199adbce4f5f586"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af17d27eb299ddf42c199adbce4f5f586">partialOffsetMesh</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float offset, const <a class="el" href="structMR_1_1OffsetParameters.html">OffsetParameters</a> &amp;params={})</td></tr>
 <tr class="separator:af17d27eb299ddf42c199adbce4f5f586"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc3a801f48da79fea27b2c5a60579ddb"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:afc3a801f48da79fea27b2c5a60579ddb"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#afc3a801f48da79fea27b2c5a60579ddb">unfoldOnPlane</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c, const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;d, bool toLeftFrom0d)</td></tr>
+<tr class="separator:afc3a801f48da79fea27b2c5a60579ddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga78ceb249092f5942289ea1aa0dfe9ccf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PlanarPathGroup.html#ga78ceb249092f5942289ea1aa0dfe9ccf">reducePathViaVertex</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> v, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, std::vector&lt; <a class="el" href="structMR_1_1MeshEdgePoint.html">MeshEdgePoint</a> &gt; &amp;outPath, std::vector&lt; <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &gt; &amp;tmp, std::vector&lt; <a class="el" href="structMR_1_1MeshEdgePoint.html">MeshEdgePoint</a> &gt; &amp;cachePath)</td></tr>
 <tr class="separator:ga78ceb249092f5942289ea1aa0dfe9ccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga96eecca9caad0991b7708eceadbd1e5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PlanarPathGroup.html#ga96eecca9caad0991b7708eceadbd1e5f">reducePath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, std::vector&lt; <a class="el" href="structMR_1_1MeshEdgePoint.html">MeshEdgePoint</a> &gt; &amp;path, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, int maxIter=5)</td></tr>
@@ -2857,6 +2870,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a068b87fd749129c9bc76263ce77fe9af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a068b87fd749129c9bc76263ce77fe9af">TriDist</a> (<a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;p, <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;q, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> s[3], const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> t[3])</td></tr>
 <tr class="memdesc:a068b87fd749129c9bc76263ce77fe9af"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest points on two triangles, and returns the squared distance between them.  <a href="namespaceMR.html#a068b87fd749129c9bc76263ce77fe9af">More...</a><br /></td></tr>
 <tr class="separator:a068b87fd749129c9bc76263ce77fe9af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf4d239a6cdece7da03913ad2b3a6efe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aaf4d239a6cdece7da03913ad2b3a6efe">SegPoints</a> (<a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;VEC, <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;X, <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;Y, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;P, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;A, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;Q, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;B)</td></tr>
+<tr class="memdesc:aaf4d239a6cdece7da03913ad2b3a6efe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns closest points between an segment pair.  <a href="namespaceMR.html#aaf4d239a6cdece7da03913ad2b3a6efe">More...</a><br /></td></tr>
+<tr class="separator:aaf4d239a6cdece7da03913ad2b3a6efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaba44f8d705d9bc1b98f635bdabe488ae"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gaba44f8d705d9bc1b98f635bdabe488ae"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#gaba44f8d705d9bc1b98f635bdabe488ae">circumcircleDiameter</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c)</td></tr>
 <tr class="separator:gaba44f8d705d9bc1b98f635bdabe488ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3002,24 +3018,24 @@ Functions</h2></td></tr>
 <tr class="memitem:gaae181e34db4d5ebb6f2cc68194b69c18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VolumeIndexerGroup.html#gaae181e34db4d5ebb6f2cc68194b69c18">shrinkVoxelsMask</a> (<a class="el" href="namespaceMR.html#a554ecd806e7de55aceb363940928dac0">VoxelBitSet</a> &amp;mask, const <a class="el" href="classMR_1_1VolumeIndexer.html">VolumeIndexer</a> &amp;indexer, int shrinkage=1)</td></tr>
 <tr class="memdesc:gaae181e34db4d5ebb6f2cc68194b69c18"><td class="mdescLeft">&#160;</td><td class="mdescRight">shrinks VoxelBitSet with given number of steps  <a href="group__VolumeIndexerGroup.html#gaae181e34db4d5ebb6f2cc68194b69c18">More...</a><br /></td></tr>
 <tr class="separator:gaae181e34db4d5ebb6f2cc68194b69c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab899b826b7895effc493e14eb3d27a86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VolumeSegmentationGroup.html#gab899b826b7895effc493e14eb3d27a86">meshFromVoxelsMask</a> (const <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &amp;volume, const <a class="el" href="namespaceMR.html#a554ecd806e7de55aceb363940928dac0">VoxelBitSet</a> &amp;mask)</td></tr>
-<tr class="memdesc:gab899b826b7895effc493e14eb3d27a86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates mesh from voxels mask.  <a href="group__VolumeSegmentationGroup.html#gab899b826b7895effc493e14eb3d27a86">More...</a><br /></td></tr>
-<tr class="separator:gab899b826b7895effc493e14eb3d27a86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae66d4204eadd90d95a5ea795a2029dbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VolumeSegmentationGroup.html#gae66d4204eadd90d95a5ea795a2029dbc">segmentVolume</a> (const <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &amp;volume, const std::vector&lt; std::pair&lt; <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>, <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &gt; &gt; &amp;pairs, const <a class="el" href="structMR_1_1VolumeSegmentationParameters.html">VolumeSegmentationParameters</a> &amp;params=<a class="el" href="structMR_1_1VolumeSegmentationParameters.html">VolumeSegmentationParameters</a>())</td></tr>
-<tr class="memdesc:gae66d4204eadd90d95a5ea795a2029dbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple segment volume.  <a href="group__VolumeSegmentationGroup.html#gae66d4204eadd90d95a5ea795a2029dbc">More...</a><br /></td></tr>
-<tr class="separator:gae66d4204eadd90d95a5ea795a2029dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5482173db77fdf8202ff43de1133100c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VolumeSegmentationGroup.html#ga5482173db77fdf8202ff43de1133100c">meshFromVoxelsMask</a> (const <a class="el" href="namespaceMR.html#a3048dff41173426f92713cbb8cf3784a">VdbVolume</a> &amp;volume, const <a class="el" href="namespaceMR.html#a554ecd806e7de55aceb363940928dac0">VoxelBitSet</a> &amp;mask)</td></tr>
+<tr class="memdesc:ga5482173db77fdf8202ff43de1133100c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates mesh from voxels mask.  <a href="group__VolumeSegmentationGroup.html#ga5482173db77fdf8202ff43de1133100c">More...</a><br /></td></tr>
+<tr class="separator:ga5482173db77fdf8202ff43de1133100c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga17772599ec5e81b56105ad7e0da874cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VolumeSegmentationGroup.html#ga17772599ec5e81b56105ad7e0da874cc">segmentVolume</a> (const <a class="el" href="namespaceMR.html#a3048dff41173426f92713cbb8cf3784a">VdbVolume</a> &amp;volume, const std::vector&lt; std::pair&lt; <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>, <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &gt; &gt; &amp;pairs, const <a class="el" href="structMR_1_1VolumeSegmentationParameters.html">VolumeSegmentationParameters</a> &amp;params=<a class="el" href="structMR_1_1VolumeSegmentationParameters.html">VolumeSegmentationParameters</a>())</td></tr>
+<tr class="memdesc:ga17772599ec5e81b56105ad7e0da874cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple segment volume.  <a href="group__VolumeSegmentationGroup.html#ga17772599ec5e81b56105ad7e0da874cc">More...</a><br /></td></tr>
+<tr class="separator:ga17772599ec5e81b56105ad7e0da874cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga65373b46691c5beac19d1782aa377b0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a554ecd806e7de55aceb363940928dac0">VoxelBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga65373b46691c5beac19d1782aa377b0a">segmentVolumeByGraphCut</a> (const <a class="el" href="namespaceMR.html#a7ad75de4317308dd9e905cc79369ab6b">SimpleVolume</a> &amp;densityVolume, float k, const <a class="el" href="namespaceMR.html#a554ecd806e7de55aceb363940928dac0">VoxelBitSet</a> &amp;sourceSeeds, const <a class="el" href="namespaceMR.html#a554ecd806e7de55aceb363940928dac0">VoxelBitSet</a> &amp;sinkSeeds)</td></tr>
 <tr class="memdesc:ga65373b46691c5beac19d1782aa377b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Segment voxels of given volume on two sets using graph-cut, returning source set.  <a href="group__VoxelGroup.html#ga65373b46691c5beac19d1782aa377b0a">More...</a><br /></td></tr>
 <tr class="separator:ga65373b46691c5beac19d1782aa377b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga819f3665bd030abd3889caf70d44ca56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__VoxelPathGroup.html#gae41700d0c2fa75bd2e40f439a846a3b2">VoxelsMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelPathGroup.html#ga819f3665bd030abd3889caf70d44ca56">voxelsExponentMetric</a> (const <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &amp;voxels, const <a class="el" href="structMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;parameters, float modifier=-1.0f)</td></tr>
-<tr class="memdesc:ga819f3665bd030abd3889caf70d44ca56"><td class="mdescLeft">&#160;</td><td class="mdescRight">e^(modifier*(dens1+dens2))  <a href="group__VoxelPathGroup.html#ga819f3665bd030abd3889caf70d44ca56">More...</a><br /></td></tr>
-<tr class="separator:ga819f3665bd030abd3889caf70d44ca56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6d57b82ebe60f6288efa02bac4848dab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__VoxelPathGroup.html#gae41700d0c2fa75bd2e40f439a846a3b2">VoxelsMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelPathGroup.html#ga6d57b82ebe60f6288efa02bac4848dab">voxelsSumDiffsMetric</a> (const <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &amp;voxels, const <a class="el" href="structMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;parameters)</td></tr>
-<tr class="memdesc:ga6d57b82ebe60f6288efa02bac4848dab"><td class="mdescLeft">&#160;</td><td class="mdescRight">sum of dense differences with start and stop voxels  <a href="group__VoxelPathGroup.html#ga6d57b82ebe60f6288efa02bac4848dab">More...</a><br /></td></tr>
-<tr class="separator:ga6d57b82ebe60f6288efa02bac4848dab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7562d3ff04d860873b9448ad7e60b0c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelPathGroup.html#ga7562d3ff04d860873b9448ad7e60b0c7">buildSmallestMetricPath</a> (const <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &amp;voxels, const <a class="el" href="group__VoxelPathGroup.html#gae41700d0c2fa75bd2e40f439a846a3b2">VoxelsMetric</a> &amp;metric, size_t start, size_t finish)</td></tr>
-<tr class="memdesc:ga7562d3ff04d860873b9448ad7e60b0c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds shortest path in given metric from start to finish voxels; if no path can be found then empty path is returned  <a href="group__VoxelPathGroup.html#ga7562d3ff04d860873b9448ad7e60b0c7">More...</a><br /></td></tr>
-<tr class="separator:ga7562d3ff04d860873b9448ad7e60b0c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5807f72a84c52af1fd50c83bceef9e63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__VoxelPathGroup.html#gae41700d0c2fa75bd2e40f439a846a3b2">VoxelsMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelPathGroup.html#ga5807f72a84c52af1fd50c83bceef9e63">voxelsExponentMetric</a> (const <a class="el" href="namespaceMR.html#a3048dff41173426f92713cbb8cf3784a">VdbVolume</a> &amp;voxels, const <a class="el" href="structMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;parameters, float modifier=-1.0f)</td></tr>
+<tr class="memdesc:ga5807f72a84c52af1fd50c83bceef9e63"><td class="mdescLeft">&#160;</td><td class="mdescRight">e^(modifier*(dens1+dens2))  <a href="group__VoxelPathGroup.html#ga5807f72a84c52af1fd50c83bceef9e63">More...</a><br /></td></tr>
+<tr class="separator:ga5807f72a84c52af1fd50c83bceef9e63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac6f3fb235421b043711103935866d07c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__VoxelPathGroup.html#gae41700d0c2fa75bd2e40f439a846a3b2">VoxelsMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelPathGroup.html#gac6f3fb235421b043711103935866d07c">voxelsSumDiffsMetric</a> (const <a class="el" href="namespaceMR.html#a3048dff41173426f92713cbb8cf3784a">VdbVolume</a> &amp;voxels, const <a class="el" href="structMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;parameters)</td></tr>
+<tr class="memdesc:gac6f3fb235421b043711103935866d07c"><td class="mdescLeft">&#160;</td><td class="mdescRight">sum of dense differences with start and stop voxels  <a href="group__VoxelPathGroup.html#gac6f3fb235421b043711103935866d07c">More...</a><br /></td></tr>
+<tr class="separator:gac6f3fb235421b043711103935866d07c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad4c388212308e83d20a32e0771a60bd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelPathGroup.html#gad4c388212308e83d20a32e0771a60bd6">buildSmallestMetricPath</a> (const <a class="el" href="namespaceMR.html#a3048dff41173426f92713cbb8cf3784a">VdbVolume</a> &amp;voxels, const <a class="el" href="group__VoxelPathGroup.html#gae41700d0c2fa75bd2e40f439a846a3b2">VoxelsMetric</a> &amp;metric, size_t start, size_t finish)</td></tr>
+<tr class="memdesc:gad4c388212308e83d20a32e0771a60bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds shortest path in given metric from start to finish voxels; if no path can be found then empty path is returned  <a href="group__VoxelPathGroup.html#gad4c388212308e83d20a32e0771a60bd6">More...</a><br /></td></tr>
+<tr class="separator:gad4c388212308e83d20a32e0771a60bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95448d86b9e9dc01e6f9391c76bd06f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a95448d86b9e9dc01e6f9391c76bd06f6">voxelizeAndComputeVolume</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; &gt; &amp;meshes, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;xf, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;voxelSize)</td></tr>
 <tr class="separator:a95448d86b9e9dc01e6f9391c76bd06f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36770d341a5bb9b31cbc30d136c0e2e9"><td class="memItemLeft" align="right" valign="top">MRMESHPY_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a36770d341a5bb9b31cbc30d136c0e2e9">loadMRMeshPyModule</a> ()</td></tr>
@@ -3206,7 +3222,7 @@ Variables</h2></td></tr>
 <tr class="separator:ga23013624dd00042658c503443e5d3ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a3c1e07f9e74f5a6f9079cc9067fb3a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="classMR_1_1DemoPlugin.html">DemoPlugin</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8a3c1e07f9e74f5a6f9079cc9067fb3a">DemoPluginInstance</a></td></tr>
 <tr class="separator:a8a3c1e07f9e74f5a6f9079cc9067fb3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3980e45b7cc71e35412820615644bca6"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3980e45b7cc71e35412820615644bca6">cGradientButtonFramePadding</a> = 9.0f</td></tr>
+<tr class="memitem:a3980e45b7cc71e35412820615644bca6"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3980e45b7cc71e35412820615644bca6">cGradientButtonFramePadding</a> = 7.5f</td></tr>
 <tr class="separator:a3980e45b7cc71e35412820615644bca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f5560d361aaab79fc35a8418362345d"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6f5560d361aaab79fc35a8418362345d">cTabYOffset</a> = 4.0f</td></tr>
 <tr class="separator:a6f5560d361aaab79fc35a8418362345d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3226,7 +3242,7 @@ Variables</h2></td></tr>
 <tr class="separator:a2fbf8a5ae5179bb822e29a7c5966fdd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24400b0c1a9e56cafb8abf4c9725633d"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a24400b0c1a9e56cafb8abf4c9725633d">cTopPanelAditionalButtonSize</a> = <a class="el" href="namespaceMR.html#aaaac3eef6fa84776b2bf2bcd9c77e1fd">cTabHeight</a> - <a class="el" href="namespaceMR.html#a6f5560d361aaab79fc35a8418362345d">cTabYOffset</a></td></tr>
 <tr class="separator:a24400b0c1a9e56cafb8abf4c9725633d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3111d6c67340775339a2b320ca618a6a"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3111d6c67340775339a2b320ca618a6a">cSeparateBlocksSpacing</a> = 16.0f</td></tr>
+<tr class="memitem:a3111d6c67340775339a2b320ca618a6a"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3111d6c67340775339a2b320ca618a6a">cSeparateBlocksSpacing</a> = 12.0f</td></tr>
 <tr class="separator:a3111d6c67340775339a2b320ca618a6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2e6e25a903280bb16257d5eade3d674"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ad2e6e25a903280bb16257d5eade3d674">cRibbonItemInterval</a> = 4.0f</td></tr>
 <tr class="separator:ad2e6e25a903280bb16257d5eade3d674"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3236,7 +3252,7 @@ Variables</h2></td></tr>
 <tr class="separator:aa1ae7e72880bd59893da014002b30c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a502df3899fddea88b5d81bacebed7b2e"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a502df3899fddea88b5d81bacebed7b2e">cRibbonButtonWindowPaddingY</a> = 4.0f</td></tr>
 <tr class="separator:a502df3899fddea88b5d81bacebed7b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a136b0ce6a3406a0d3b4e6a152e51247a"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a136b0ce6a3406a0d3b4e6a152e51247a">cCheckboxPadding</a> = 3.0f</td></tr>
+<tr class="memitem:a136b0ce6a3406a0d3b4e6a152e51247a"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a136b0ce6a3406a0d3b4e6a152e51247a">cCheckboxPadding</a> = 2.0f</td></tr>
 <tr class="separator:a136b0ce6a3406a0d3b4e6a152e51247a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaded4cd4767b56cafcef761970128104"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aaded4cd4767b56cafcef761970128104">cButtonPadding</a> = 8.0f</td></tr>
 <tr class="separator:aaded4cd4767b56cafcef761970128104"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3280,6 +3296,8 @@ Variables</h2></td></tr>
 <tr class="separator:a8ba309adbf075ead954ae080a7f9b0d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0077684be5ee0912d20ee7b7d775d53"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af0077684be5ee0912d20ee7b7d775d53">cPaletteDiscretizationScaling</a> = 5.0f / 18.0f</td></tr>
 <tr class="separator:af0077684be5ee0912d20ee7b7d775d53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e91f2b6e23986c1b6506a29afbc961c"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5e91f2b6e23986c1b6506a29afbc961c">cRadioButtonSize</a> = 20.0f</td></tr>
+<tr class="separator:a5e91f2b6e23986c1b6506a29afbc961c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1ab156c0351dfcd112a67a72e485f123"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga1ab156c0351dfcd112a67a72e485f123">ObjectSelectivityType</a> { <a class="el" href="group__DataModelGroup.html#gga1ab156c0351dfcd112a67a72e485f123a8318ce1c96df6ce21eb2ed428c6d0f85">ObjectSelectivityType::Selectable</a>
 , <a class="el" href="group__DataModelGroup.html#gga1ab156c0351dfcd112a67a72e485f123a91b442d385b54e1418d81adc34871053">ObjectSelectivityType::Selected</a>
 , <a class="el" href="group__DataModelGroup.html#gga1ab156c0351dfcd112a67a72e485f123aed36a1ef76a59ee3f15180e0441188ad">ObjectSelectivityType::Any</a>
@@ -12782,6 +12800,52 @@ template&lt;typename R , typename... Args&gt; </div>
 
 </div>
 </div>
+<a id="ae5c549221eed8ffd6ea931784d4ac5e2" name="ae5c549221eed8ffd6ea931784d4ac5e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5c549221eed8ffd6ea931784d4ac5e2">&#9670;&#160;</a></span>resolveMeshDegenerations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::resolveMeshDegenerations </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxIters</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxDeviation</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxAngleChange</em> = <code>PI_F/3</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>criticalAspectRatio</em> = <code>1e7</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5840a11e5e60139f9bbbf678072379e2" name="a5840a11e5e60139f9bbbf678072379e2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5840a11e5e60139f9bbbf678072379e2">&#9670;&#160;</a></span>saveFileDialog()</h2>
 
@@ -12928,6 +12992,66 @@ template&lt;typename ObjectT , bool visualRepresentationCheck&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf4d239a6cdece7da03913ad2b3a6efe" name="aaf4d239a6cdece7da03913ad2b3a6efe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf4d239a6cdece7da03913ad2b3a6efe">&#9670;&#160;</a></span>SegPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::SegPoints </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>VEC</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>P</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>Q</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>B</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns closest points between an segment pair. </p>
 
 </div>
 </div>
@@ -13802,6 +13926,49 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="afc3a801f48da79fea27b2c5a60579ddb" name="afc3a801f48da79fea27b2c5a60579ddb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc3a801f48da79fea27b2c5a60579ddb">&#9670;&#160;</a></span>unfoldOnPlane()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; MR::unfoldOnPlane </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>toLeftFrom0d</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >given triangle 0bc in 3D and line segment 0d in 2D, and |0b|=|0d|; finds e, such that triangle 0bc is equal to 0de; returns (0,0) if |0b|=0 </p>
+
+</div>
+</div>
 <a id="a91c773f9c327d2144acbee3c00d4895a" name="a91c773f9c327d2144acbee3c00d4895a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a91c773f9c327d2144acbee3c00d4895a">&#9670;&#160;</a></span>uniteManyMeshes()</h2>
 
@@ -14092,7 +14259,7 @@ template&lt;typename V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr float MR::cCheckboxPadding = 3.0f</td>
+          <td class="memname">constexpr float MR::cCheckboxPadding = 2.0f</td>
         </tr>
       </table>
   </td>
@@ -14224,7 +14391,7 @@ template&lt;typename V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr float MR::cGradientButtonFramePadding = 9.0f</td>
+          <td class="memname">constexpr float MR::cGradientButtonFramePadding = 7.5f</td>
         </tr>
       </table>
   </td>
@@ -14464,6 +14631,28 @@ template&lt;typename Tag &gt; </div>
 
 </div>
 </div>
+<a id="a5e91f2b6e23986c1b6506a29afbc961c" name="a5e91f2b6e23986c1b6506a29afbc961c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e91f2b6e23986c1b6506a29afbc961c">&#9670;&#160;</a></span>cRadioButtonSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr float MR::cRadioButtonSize = 20.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa1ae7e72880bd59893da014002b30c09" name="aa1ae7e72880bd59893da014002b30c09"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa1ae7e72880bd59893da014002b30c09">&#9670;&#160;</a></span>cRibbonButtonWindowPaddingX</h2>
 
@@ -14584,7 +14773,7 @@ template&lt;typename Tag &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr float MR::cSeparateBlocksSpacing = 16.0f</td>
+          <td class="memname">constexpr float MR::cSeparateBlocksSpacing = 12.0f</td>
         </tr>
       </table>
   </td>

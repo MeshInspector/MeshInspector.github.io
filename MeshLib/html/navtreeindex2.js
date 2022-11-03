@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"MRMeshFwd_8h.html#a50e8714d42cba4acf038efe5c4bd491a":[12,0,0,1,1,126,30],
 "MRMeshFwd_8h.html#a5118187c1702041e05e1ea408d9a61de":[12,0,0,1,1,126,2],
 "MRMeshFwd_8h.html#a526402792c1d3b8d8903535592613b9f":[12,0,0,1,1,126,40],
 "MRMeshFwd_8h.html#a541101026a91e2d030e38813c6d1333e":[12,0,0,1,1,126,45],
@@ -234,6 +235,7 @@ var NAVTREEINDEX2 =
 "MRPickHoleBorderElement_8h.html#a6086c28fefbb5850ed67f58737fcc84b":[12,0,0,1,3,25,1],
 "MRPickHoleBorderElement_8h_source.html":[12,0,0,1,3,25],
 "MRPlanarPath_8h.html":[12,0,0,1,1,159],
+"MRPlanarPath_8h.html#afc3a801f48da79fea27b2c5a60579ddb":[12,0,0,1,1,159,2],
 "MRPlanarPath_8h_source.html":[12,0,0,1,1,159],
 "MRPlane3_8h.html":[12,0,0,1,1,160],
 "MRPlane3_8h.html#a08770a33090347df2081de9a4ff25703":[12,0,0,1,1,160,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "MRPlaneWidget_8h_source.html":[12,0,0,1,3,26],
 "MRPointCloudMakeNormals_8h.html":[12,0,0,1,1,163],
 "MRPointCloudMakeNormals_8h_source.html":[12,0,0,1,1,163],
-"MRPointCloudRadius_8h.html":[12,0,0,1,1,164],
-"MRPointCloudRadius_8h_source.html":[12,0,0,1,1,164],
-"MRPointCloudRelax_8h.html":[12,0,0,1,1,165]
+"MRPointCloudRadius_8h.html":[12,0,0,1,1,164]
 };
