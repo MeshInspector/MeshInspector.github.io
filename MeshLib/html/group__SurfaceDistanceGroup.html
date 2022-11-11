@@ -113,12 +113,14 @@ Functions</h2></td></tr>
 <tr class="separator:gabc3a95121783ca387681e5b06a2687da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga43feb50d5715a58a5169b5085c016396"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceGroup.html#ga43feb50d5715a58a5169b5085c016396">MR::computeSurfaceDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *region=nullptr, bool *endReached=nullptr)</td></tr>
 <tr class="separator:ga43feb50d5715a58a5169b5085c016396"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8f3b1e4095e4ffbf7a947cd0275da0ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceGroup.html#ga8f3b1e4095e4ffbf7a947cd0275da0ad">MR::computeSurfaceDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, float maxDist=FLT_MAX, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *region=nullptr)</td></tr>
+<tr class="separator:ga8f3b1e4095e4ffbf7a947cd0275da0ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p >The functions in this group implement Fast marching method for approximately solving Eikonal equation on mesh. </p>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="gabc3a95121783ca387681e5b06a2687da" name="gabc3a95121783ca387681e5b06a2687da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabc3a95121783ca387681e5b06a2687da">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabc3a95121783ca387681e5b06a2687da">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -159,7 +161,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="ga43feb50d5715a58a5169b5085c016396" name="ga43feb50d5715a58a5169b5085c016396"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga43feb50d5715a58a5169b5085c016396">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga43feb50d5715a58a5169b5085c016396">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -211,8 +213,49 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ga8f3b1e4095e4ffbf7a947cd0275da0ad" name="ga8f3b1e4095e4ffbf7a947cd0275da0ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8f3b1e4095e4ffbf7a947cd0275da0ad">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; MR::computeSurfaceDistances </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxDist</em> = <code>FLT_MAX</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *&#160;</td>
+          <td class="paramname"><em>region</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >computes path distances in mesh vertices from given start point, stopping when maxDist is reached; considered paths can go either along edges or straightly within triangles </p>
+
+</div>
+</div>
 <a id="ga25cd15b17e4779609b8a14f541c459f5" name="ga25cd15b17e4779609b8a14f541c459f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga25cd15b17e4779609b8a14f541c459f5">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga25cd15b17e4779609b8a14f541c459f5">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,7 +302,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="gad1b13943717ca1b14cff9bcf790a6279" name="gad1b13943717ca1b14cff9bcf790a6279"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad1b13943717ca1b14cff9bcf790a6279">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad1b13943717ca1b14cff9bcf790a6279">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

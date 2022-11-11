@@ -1,11 +1,18 @@
 var MRSurfacePath_8h =
 [
+    [ "GeodesicPathApprox", "MRSurfacePath_8h.html#ga0d52c069a53aab9d22c0f2c4e3f262a2", [
+      [ "DijkstraBiDir", "MRSurfacePath_8h.html#gga0d52c069a53aab9d22c0f2c4e3f262a2a688de737bb8774938c023e0f0a373184", null ],
+      [ "DijkstraAStar", "MRSurfacePath_8h.html#gga0d52c069a53aab9d22c0f2c4e3f262a2aa9132a8a9b3c0d8c70e577b23e01e70d", null ],
+      [ "FastMarching", "MRSurfacePath_8h.html#gga0d52c069a53aab9d22c0f2c4e3f262a2aa379190d516779f65bad72b240e81435", null ]
+    ] ],
     [ "PathError", "MRSurfacePath_8h.html#gaf2c93aa0da8a9748d23340f32349a8b8", [
       [ "StartEndNotConnected", "MRSurfacePath_8h.html#ggaf2c93aa0da8a9748d23340f32349a8b8aad309ea76f6bf055e7b62a3dd200631f", null ],
       [ "InternalError", "MRSurfacePath_8h.html#ggaf2c93aa0da8a9748d23340f32349a8b8a8462b58246e70e5c83e5b939a9332cb5", null ]
     ] ],
     [ "computeClosestSurfacePathTargets", "MRSurfacePath_8h.html#ga7e3d9de81e88a578e04e1157148c1a6a", null ],
-    [ "computeSurfacePath", "MRSurfacePath_8h.html#gaf468f5619b07f5fe556391f890e7c593", null ],
-    [ "computeSurfacePathApprox", "MRSurfacePath_8h.html#ga16fd10e60c5f470fa55468533846fcd3", null ],
+    [ "computeFastMarchingPath", "MRSurfacePath_8h.html#gad964c6227bde507543310afa1d472d3b", null ],
+    [ "computeGeodesicPath", "MRSurfacePath_8h.html#ga638e686176d317a1e2a2e8b9690cb349", null ],
+    [ "computeGeodesicPathApprox", "MRSurfacePath_8h.html#ga6909e1b4983f244975a576f9fe9b063b", null ],
+    [ "computeSurfacePath", "MRSurfacePath_8h.html#gabfd45e2e051615658baa5e1bda2234ee", null ],
     [ "surfacePathLength", "MRSurfacePath_8h.html#gacebe3b7371a72e49ddfbabc14fd008b4", null ]
 ];

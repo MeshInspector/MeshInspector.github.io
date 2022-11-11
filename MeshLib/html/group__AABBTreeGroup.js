@@ -240,6 +240,7 @@ var group__AABBTreeGroup =
     [ "MR::IntersectionPrecomputes::IntersectionPrecomputes", "group__AABBTreeGroup.html#gac2a5a2178c875139ca3e402c1a46324c", null ],
     [ "MR::isInside", "group__AABBTreeGroup.html#ga3c4d304b28fd4695d20dc454318f5660", null ],
     [ "MR::isInside", "group__AABBTreeGroup.html#gaa8d770560279dcdaa48764810b77c30d", null ],
+    [ "MR::isNonIntersectingInside", "group__AABBTreeGroup.html#ga30d53ebf69ce150861f17e4695543778", null ],
     [ "MR::isPointInsidePolyline", "group__AABBTreeGroup.html#ga2aba3040bbdbbafb7d8e38803b955524", null ],
     [ "MR::makeAABBTreeNodeVec", "group__AABBTreeGroup.html#ga01799644f1a3d947c775abde97f570f1", null ],
     [ "MR::operator==", "group__AABBTreeGroup.html#ga8f7cfd40975f9648e9785f72d75ff92d", null ],

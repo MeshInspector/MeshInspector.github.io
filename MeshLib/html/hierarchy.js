@@ -146,6 +146,7 @@ var hierarchy =
     [ "MR::HistoryAction", "classMR_1_1HistoryAction.html", [
       [ "MR::ChangVoxelSelectionAction", "classMR_1_1ChangVoxelSelectionAction.html", null ],
       [ "MR::ChangeActiveBoxAction", "classMR_1_1ChangeActiveBoxAction.html", null ],
+      [ "MR::ChangeGridAction", "classMR_1_1ChangeGridAction.html", null ],
       [ "MR::ChangeIsoAction", "classMR_1_1ChangeIsoAction.html", null ],
       [ "MR::ChangeLabelAction", "classMR_1_1ChangeLabelAction.html", null ],
       [ "MR::ChangeMeshAction", "classMR_1_1ChangeMeshAction.html", null ],

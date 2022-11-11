@@ -137,6 +137,13 @@ var group__HistoryGroup =
       [ "heapBytes", "classMR_1_1ChangeSurfaceAction.html#a8d95a8625e6cbeb9f194a629de34610d", null ],
       [ "name", "classMR_1_1ChangeSurfaceAction.html#a10e342f28635a448b68e1e8d60a56b54", null ]
     ] ],
+    [ "MR::ChangeGridAction", "classMR_1_1ChangeGridAction.html", [
+      [ "Obj", "classMR_1_1ChangeGridAction.html#ad7d5725801275be74a08469ec04b18ca", null ],
+      [ "ChangeGridAction", "classMR_1_1ChangeGridAction.html#a1f23e5db03c650766a3e405f207e32ba", null ],
+      [ "action", "classMR_1_1ChangeGridAction.html#a09423374eaa05f95dd0af7575fe17e62", null ],
+      [ "heapBytes", "classMR_1_1ChangeGridAction.html#ac2009abf4b8a560744458f59f5bc9328", null ],
+      [ "name", "classMR_1_1ChangeGridAction.html#abff717b27ad5da1a8a0048172c8397ef", null ]
+    ] ],
     [ "MR::ChangVoxelSelectionAction", "classMR_1_1ChangVoxelSelectionAction.html", [
       [ "Obj", "group__HistoryGroup.html#ga2bc62e359f5e804a60171abdd7939bd7", null ],
       [ "ChangVoxelSelectionAction", "group__HistoryGroup.html#gacd0912663f58360180bc863ab572daf4", null ],

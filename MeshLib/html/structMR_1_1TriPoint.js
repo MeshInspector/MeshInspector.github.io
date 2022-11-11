@@ -2,6 +2,7 @@ var structMR_1_1TriPoint =
 [
     [ "TriPoint", "structMR_1_1TriPoint.html#aa04c5b69e931998ede5831cfe9b802a8", null ],
     [ "TriPoint", "structMR_1_1TriPoint.html#a648b9fef709cd0e01d68b4bbf359b034", null ],
+    [ "TriPoint", "structMR_1_1TriPoint.html#ad5d8fe853e1221c4107ed8de3823361d", null ],
     [ "TriPoint", "structMR_1_1TriPoint.html#ae145ad02214aefc05be85737aa1d6cca", null ],
     [ "TriPoint", "structMR_1_1TriPoint.html#a38305f3769604953fbac39b9fa79f6bc", null ],
     [ "interpolate", "structMR_1_1TriPoint.html#a443eb1cdffa8cf6269dce8d4f7712a3b", null ],

@@ -61,6 +61,7 @@ var annotated_dup =
       [ "CaptureScreenshotToClipBoardMenuItem", "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html", "classMR_1_1CaptureScreenshotToClipBoardMenuItem" ],
       [ "CaptureUIScreenshotMenuItem", "classMR_1_1CaptureUIScreenshotMenuItem.html", "classMR_1_1CaptureUIScreenshotMenuItem" ],
       [ "ChangeActiveBoxAction", "classMR_1_1ChangeActiveBoxAction.html", "classMR_1_1ChangeActiveBoxAction" ],
+      [ "ChangeGridAction", "classMR_1_1ChangeGridAction.html", "classMR_1_1ChangeGridAction" ],
       [ "ChangeIsoAction", "classMR_1_1ChangeIsoAction.html", "classMR_1_1ChangeIsoAction" ],
       [ "ChangeLabelAction", "classMR_1_1ChangeLabelAction.html", "classMR_1_1ChangeLabelAction" ],
       [ "ChangeMeshAction", "classMR_1_1ChangeMeshAction.html", "classMR_1_1ChangeMeshAction" ],

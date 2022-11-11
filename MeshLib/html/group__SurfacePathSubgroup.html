@@ -110,13 +110,24 @@ Enumerations</h2></td></tr>
 , <a class="el" href="group__SurfacePathSubgroup.html#ggaf2c93aa0da8a9748d23340f32349a8b8a8462b58246e70e5c83e5b939a9332cb5">MR::PathError::InternalError</a>
  }</td></tr>
 <tr class="separator:gaf2c93aa0da8a9748d23340f32349a8b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0d52c069a53aab9d22c0f2c4e3f262a2"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathSubgroup.html#ga0d52c069a53aab9d22c0f2c4e3f262a2">MR::GeodesicPathApprox</a> : char { <a class="el" href="group__SurfacePathSubgroup.html#gga0d52c069a53aab9d22c0f2c4e3f262a2a688de737bb8774938c023e0f0a373184">MR::GeodesicPathApprox::DijkstraBiDir</a>
+, <a class="el" href="group__SurfacePathSubgroup.html#gga0d52c069a53aab9d22c0f2c4e3f262a2aa9132a8a9b3c0d8c70e577b23e01e70d">MR::GeodesicPathApprox::DijkstraAStar</a>
+, <a class="el" href="group__SurfacePathSubgroup.html#gga0d52c069a53aab9d22c0f2c4e3f262a2aa379190d516779f65bad72b240e81435">MR::GeodesicPathApprox::FastMarching</a>
+ }</td></tr>
+<tr class="memdesc:ga0d52c069a53aab9d22c0f2c4e3f262a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">the algorithm to compute approximately geodesic path  <a href="group__SurfacePathSubgroup.html#ga0d52c069a53aab9d22c0f2c4e3f262a2">More...</a><br /></td></tr>
+<tr class="separator:ga0d52c069a53aab9d22c0f2c4e3f262a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaf468f5619b07f5fe556391f890e7c593"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="namespaceMR.html#a6f060a604c3462c7d0b1df7dac703237">SurfacePath</a>, <a class="el" href="group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathSubgroup.html#gaf468f5619b07f5fe556391f890e7c593">MR::computeSurfacePath</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, int numPostProcessIters=5, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *vertRegion=nullptr, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; *outSurfaceDistances=nullptr)</td></tr>
-<tr class="separator:gaf468f5619b07f5fe556391f890e7c593"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga16fd10e60c5f470fa55468533846fcd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="namespaceMR.html#a6f060a604c3462c7d0b1df7dac703237">SurfacePath</a>, <a class="el" href="group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathSubgroup.html#ga16fd10e60c5f470fa55468533846fcd3">MR::computeSurfacePathApprox</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *vertRegion=nullptr, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; *outSurfaceDistances=nullptr)</td></tr>
-<tr class="separator:ga16fd10e60c5f470fa55468533846fcd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabfd45e2e051615658baa5e1bda2234ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="namespaceMR.html#a6f060a604c3462c7d0b1df7dac703237">SurfacePath</a>, <a class="el" href="group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathSubgroup.html#gabfd45e2e051615658baa5e1bda2234ee">MR::computeSurfacePath</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, int maxGeodesicIters=5, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *vertRegion=nullptr, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; *outSurfaceDistances=nullptr)</td></tr>
+<tr class="separator:gabfd45e2e051615658baa5e1bda2234ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga638e686176d317a1e2a2e8b9690cb349"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="namespaceMR.html#a6f060a604c3462c7d0b1df7dac703237">SurfacePath</a>, <a class="el" href="group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathSubgroup.html#ga638e686176d317a1e2a2e8b9690cb349">MR::computeGeodesicPath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, <a class="el" href="group__SurfacePathSubgroup.html#ga0d52c069a53aab9d22c0f2c4e3f262a2">GeodesicPathApprox</a> atype, int maxGeodesicIters=100)</td></tr>
+<tr class="memdesc:ga638e686176d317a1e2a2e8b9690cb349"><td class="mdescLeft">&#160;</td><td class="mdescRight">the maximum number of iterations to reduce approximate path length and convert it in geodesic path  <a href="group__SurfacePathSubgroup.html#ga638e686176d317a1e2a2e8b9690cb349">More...</a><br /></td></tr>
+<tr class="separator:ga638e686176d317a1e2a2e8b9690cb349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6909e1b4983f244975a576f9fe9b063b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="namespaceMR.html#a6f060a604c3462c7d0b1df7dac703237">SurfacePath</a>, <a class="el" href="group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathSubgroup.html#ga6909e1b4983f244975a576f9fe9b063b">MR::computeGeodesicPathApprox</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, <a class="el" href="group__SurfacePathSubgroup.html#ga0d52c069a53aab9d22c0f2c4e3f262a2">GeodesicPathApprox</a> atype)</td></tr>
+<tr class="separator:ga6909e1b4983f244975a576f9fe9b063b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad964c6227bde507543310afa1d472d3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="namespaceMR.html#a6f060a604c3462c7d0b1df7dac703237">SurfacePath</a>, <a class="el" href="group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathSubgroup.html#gad964c6227bde507543310afa1d472d3b">MR::computeFastMarchingPath</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *vertRegion=nullptr, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; *outSurfaceDistances=nullptr)</td></tr>
+<tr class="separator:gad964c6227bde507543310afa1d472d3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7e3d9de81e88a578e04e1157148c1a6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae992c100813594ea6369139389c5b3fa">HashMap</a>&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathSubgroup.html#ga7e3d9de81e88a578e04e1157148c1a6a">MR::computeClosestSurfacePathTargets</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;starts, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;ends, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *vertRegion=nullptr, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; *outSurfaceDistances=nullptr)</td></tr>
 <tr class="separator:ga7e3d9de81e88a578e04e1157148c1a6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gacebe3b7371a72e49ddfbabc14fd008b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathSubgroup.html#gacebe3b7371a72e49ddfbabc14fd008b4">MR::surfacePathLength</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a6f060a604c3462c7d0b1df7dac703237">SurfacePath</a> &amp;surfacePath)</td></tr>
@@ -125,6 +136,38 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ga0d52c069a53aab9d22c0f2c4e3f262a2" name="ga0d52c069a53aab9d22c0f2c4e3f262a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0d52c069a53aab9d22c0f2c4e3f262a2">&#9670;&#160;</a></span>GeodesicPathApprox</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="group__SurfacePathSubgroup.html#ga0d52c069a53aab9d22c0f2c4e3f262a2">MR::GeodesicPathApprox</a> : char</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the algorithm to compute approximately geodesic path </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga0d52c069a53aab9d22c0f2c4e3f262a2a688de737bb8774938c023e0f0a373184" name="gga0d52c069a53aab9d22c0f2c4e3f262a2a688de737bb8774938c023e0f0a373184"></a>DijkstraBiDir&#160;</td><td class="fielddoc"><p >compute edge-only path by building it from start and end simultaneously </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga0d52c069a53aab9d22c0f2c4e3f262a2aa9132a8a9b3c0d8c70e577b23e01e70d" name="gga0d52c069a53aab9d22c0f2c4e3f262a2aa9132a8a9b3c0d8c70e577b23e01e70d"></a>DijkstraAStar&#160;</td><td class="fielddoc"><p >compute edge-only path using A*-search algorithm </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga0d52c069a53aab9d22c0f2c4e3f262a2aa379190d516779f65bad72b240e81435" name="gga0d52c069a53aab9d22c0f2c4e3f262a2aa379190d516779f65bad72b240e81435"></a>FastMarching&#160;</td><td class="fielddoc"><p >use Fast Marching algorithm </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a id="gaf2c93aa0da8a9748d23340f32349a8b8" name="gaf2c93aa0da8a9748d23340f32349a8b8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaf2c93aa0da8a9748d23340f32349a8b8">&#9670;&#160;</a></span>PathError</h2>
 
@@ -206,8 +249,145 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="gaf468f5619b07f5fe556391f890e7c593" name="gaf468f5619b07f5fe556391f890e7c593"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf468f5619b07f5fe556391f890e7c593">&#9670;&#160;</a></span>computeSurfacePath()</h2>
+<a id="gad964c6227bde507543310afa1d472d3b" name="gad964c6227bde507543310afa1d472d3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad964c6227bde507543310afa1d472d3b">&#9670;&#160;</a></span>computeFastMarchingPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="namespaceMR.html#a6f060a604c3462c7d0b1df7dac703237">SurfacePath</a>, <a class="el" href="group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt; MR::computeFastMarchingPath </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
+          <td class="paramname"><em>mp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *&#160;</td>
+          <td class="paramname"><em>vertRegion</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; *&#160;</td>
+          <td class="paramname"><em>outSurfaceDistances</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >computes by Fast Marching method and returns intermediate points of approximately geodesic path from start to end, where it crosses mesh edges; the path can be limited to given region: in face-format inside mp, or in vert-format in vertRegion argument </p>
+
+</div>
+</div>
+<a id="ga638e686176d317a1e2a2e8b9690cb349" name="ga638e686176d317a1e2a2e8b9690cb349"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga638e686176d317a1e2a2e8b9690cb349">&#9670;&#160;</a></span>computeGeodesicPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="namespaceMR.html#a6f060a604c3462c7d0b1df7dac703237">SurfacePath</a>, <a class="el" href="group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt; MR::computeGeodesicPath </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__SurfacePathSubgroup.html#ga0d52c069a53aab9d22c0f2c4e3f262a2">GeodesicPathApprox</a>&#160;</td>
+          <td class="paramname"><em>atype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxGeodesicIters</em> = <code>100</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the maximum number of iterations to reduce approximate path length and convert it in geodesic path </p>
+<p >returns intermediate points of the geodesic path from start to end, where it crosses mesh edges; It is the same as calling <a class="el" href="group__SurfacePathSubgroup.html#ga6909e1b4983f244975a576f9fe9b063b">computeGeodesicPathApprox()</a> then <a class="el" href="group__PlanarPathGroup.html#ga96eecca9caad0991b7708eceadbd1e5f">reducePath()</a> </p>
+
+</div>
+</div>
+<a id="ga6909e1b4983f244975a576f9fe9b063b" name="ga6909e1b4983f244975a576f9fe9b063b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6909e1b4983f244975a576f9fe9b063b">&#9670;&#160;</a></span>computeGeodesicPathApprox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="namespaceMR.html#a6f060a604c3462c7d0b1df7dac703237">SurfacePath</a>, <a class="el" href="group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt; MR::computeGeodesicPathApprox </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__SurfacePathSubgroup.html#ga0d52c069a53aab9d22c0f2c4e3f262a2">GeodesicPathApprox</a>&#160;</td>
+          <td class="paramname"><em>atype</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >computes by given method and returns intermediate points of approximately geodesic path from start to end, every next point is located in the same triangle with the previous point </p>
+
+</div>
+</div>
+<a id="gabfd45e2e051615658baa5e1bda2234ee" name="gabfd45e2e051615658baa5e1bda2234ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabfd45e2e051615658baa5e1bda2234ee">&#9670;&#160;</a></span>computeSurfacePath()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -234,7 +414,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>numPostProcessIters</em> = <code>5</code>, </td>
+          <td class="paramname"><em>maxGeodesicIters</em> = <code>5</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -255,54 +435,13 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >returns intermediate points of the geodesic path from start to end, where it crosses mesh edges; the path can be limited to given region: in face-format inside mp, or in vert-format in vertRegion argument. It is the same as calling <a class="el" href="group__SurfacePathSubgroup.html#ga16fd10e60c5f470fa55468533846fcd3">computeSurfacePathApprox()</a> then <a class="el" href="group__PlanarPathGroup.html#ga96eecca9caad0991b7708eceadbd1e5f">reducePath()</a> </p>
-
-</div>
-</div>
-<a id="ga16fd10e60c5f470fa55468533846fcd3" name="ga16fd10e60c5f470fa55468533846fcd3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga16fd10e60c5f470fa55468533846fcd3">&#9670;&#160;</a></span>computeSurfacePathApprox()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="namespaceMR.html#a6f060a604c3462c7d0b1df7dac703237">SurfacePath</a>, <a class="el" href="group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt; MR::computeSurfacePathApprox </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
-          <td class="paramname"><em>mp</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;&#160;</td>
-          <td class="paramname"><em>start</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;&#160;</td>
-          <td class="paramname"><em>end</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *&#160;</td>
-          <td class="paramname"><em>vertRegion</em> = <code>nullptr</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; *&#160;</td>
-          <td class="paramname"><em>outSurfaceDistances</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p >returns intermediate points of approximately geodesic path from start to end, where it crosses mesh edges; the path can be limited to given region: in face-format inside mp, or in vert-format in vertRegion argument </p>
+<p >returns intermediate points of the geodesic path from start to end, where it crosses mesh edges; the path can be limited to given region: in face-format inside mp, or in vert-format in vertRegion argument. It is the same as calling <a class="el" href="group__SurfacePathSubgroup.html#gad964c6227bde507543310afa1d472d3b">computeFastMarchingPath()</a> then <a class="el" href="group__PlanarPathGroup.html#ga96eecca9caad0991b7708eceadbd1e5f">reducePath()</a> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">maxGeodesicIters</td><td>the maximum number of iterations to reduce approximate path length and convert it in geodesic path </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

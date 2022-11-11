@@ -114,6 +114,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a92257bf9a6d1e3a6de3bfe6c2e89d88d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d6d144f120b0f62173cdfcd71a104db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshEdgePoint.html#a2d6d144f120b0f62173cdfcd71a104db">MeshEdgePoint</a> (<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> <a class="el" href="structMR_1_1MeshEdgePoint.html#a72f48a205244f5c3966aaa8e3c6af285">e</a>, float <a class="el" href="structMR_1_1MeshEdgePoint.html#ab08444816c4bcb528d182bc823cf297d">a</a>)</td></tr>
 <tr class="separator:a2d6d144f120b0f62173cdfcd71a104db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e79d7dbecaf10cbd69a22e550ca276b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshEdgePoint.html#a1e79d7dbecaf10cbd69a22e550ca276b">MeshEdgePoint</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> v)</td></tr>
+<tr class="separator:a1e79d7dbecaf10cbd69a22e550ca276b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cc55dfd13d281bfa78f39f32d74fcda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshEdgePoint.html#a1cc55dfd13d281bfa78f39f32d74fcda">inVertex</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology) const</td></tr>
 <tr class="memdesc:a1cc55dfd13d281bfa78f39f32d74fcda"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns valid vertex id if the point is in vertex, otherwise returns invalid id  <a href="structMR_1_1MeshEdgePoint.html#a1cc55dfd13d281bfa78f39f32d74fcda">More...</a><br /></td></tr>
 <tr class="separator:a1cc55dfd13d281bfa78f39f32d74fcda"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,12 +145,14 @@ Related Functions</h2></td></tr>
 </td></tr>
 <tr class="memitem:a6b9b9bc9fade6fe74cc9d6ed628fb73e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshEdgePoint.html#a6b9b9bc9fade6fe74cc9d6ed628fb73e">fromSameTriangle</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="structMR_1_1MeshEdgePoint.html">MeshEdgePoint</a> &amp;<a class="el" href="structMR_1_1MeshEdgePoint.html#ab08444816c4bcb528d182bc823cf297d">a</a>, <a class="el" href="structMR_1_1MeshEdgePoint.html">MeshEdgePoint</a> &amp;b)</td></tr>
 <tr class="separator:a6b9b9bc9fade6fe74cc9d6ed628fb73e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad14fe29cf90ac08eef8e21795bc38fd2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshEdgePoint.html#ad14fe29cf90ac08eef8e21795bc38fd2">fromSameTriangle</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="structMR_1_1MeshEdgePoint.html">MeshEdgePoint</a> &amp;&amp;<a class="el" href="structMR_1_1MeshEdgePoint.html#ab08444816c4bcb528d182bc823cf297d">a</a>, <a class="el" href="structMR_1_1MeshEdgePoint.html">MeshEdgePoint</a> &amp;&amp;b)</td></tr>
+<tr class="separator:ad14fe29cf90ac08eef8e21795bc38fd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >encodes a point on a mesh edge </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a92257bf9a6d1e3a6de3bfe6c2e89d88d" name="a92257bf9a6d1e3a6de3bfe6c2e89d88d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92257bf9a6d1e3a6de3bfe6c2e89d88d">&#9670;&#160;</a></span>MeshEdgePoint() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a92257bf9a6d1e3a6de3bfe6c2e89d88d">&#9670;&#160;</a></span>MeshEdgePoint() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -173,7 +177,7 @@ Related Functions</h2></td></tr>
 </div>
 </div>
 <a id="a2d6d144f120b0f62173cdfcd71a104db" name="a2d6d144f120b0f62173cdfcd71a104db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d6d144f120b0f62173cdfcd71a104db">&#9670;&#160;</a></span>MeshEdgePoint() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d6d144f120b0f62173cdfcd71a104db">&#9670;&#160;</a></span>MeshEdgePoint() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204,6 +208,34 @@ Related Functions</h2></td></tr>
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1e79d7dbecaf10cbd69a22e550ca276b" name="a1e79d7dbecaf10cbd69a22e550ca276b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e79d7dbecaf10cbd69a22e550ca276b">&#9670;&#160;</a></span>MeshEdgePoint() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR::MeshEdgePoint::MeshEdgePoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -322,8 +354,52 @@ Related Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="ad14fe29cf90ac08eef8e21795bc38fd2" name="ad14fe29cf90ac08eef8e21795bc38fd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad14fe29cf90ac08eef8e21795bc38fd2">&#9670;&#160;</a></span>fromSameTriangle() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool fromSameTriangle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1MeshEdgePoint.html">MeshEdgePoint</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1MeshEdgePoint.html">MeshEdgePoint</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">related</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >returns true if points a and b are located on a boundary of the same triangle;</p>
+<p >if true a.e and b.e are updated to have that triangle on the left </p>
+
+</div>
+</div>
 <a id="a6b9b9bc9fade6fe74cc9d6ed628fb73e" name="a6b9b9bc9fade6fe74cc9d6ed628fb73e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b9b9bc9fade6fe74cc9d6ed628fb73e">&#9670;&#160;</a></span>fromSameTriangle()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b9b9bc9fade6fe74cc9d6ed628fb73e">&#9670;&#160;</a></span>fromSameTriangle() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

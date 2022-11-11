@@ -43,6 +43,7 @@ var classMR_1_1Viewport =
     [ "getRatio", "classMR_1_1Viewport.html#a3b2eb984c0ab39709c45d27d3de876de", null ],
     [ "getRedrawFlag", "classMR_1_1Viewport.html#a37332cce582bf8cc2203f972a6350a3c", null ],
     [ "getRightDirection", "classMR_1_1Viewport.html#ab9af1436e56b14ad56c4f7ff35a8a443", null ],
+    [ "getRotationPivot", "classMR_1_1Viewport.html#ae40ae5c9f29454b90b26b6e21495b1ce", null ],
     [ "getSceneBox", "classMR_1_1Viewport.html#aa0a55f6269ae743f49c2fde95869cab4", null ],
     [ "getUnscaledViewXf", "classMR_1_1Viewport.html#ac2aaf8088000285ded9ea6caa36de96c", null ],
     [ "getUpDirection", "classMR_1_1Viewport.html#a676550f2d095cd975bd7f5671b0d47b8", null ],

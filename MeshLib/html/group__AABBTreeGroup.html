@@ -231,6 +231,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga3c4d304b28fd4695d20dc454318f5660"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga3c4d304b28fd4695d20dc454318f5660">MR::isInside</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;a, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;b, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *rigidB2A=nullptr)</td></tr>
 <tr class="memdesc:ga3c4d304b28fd4695d20dc454318f5660"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary mesh part A is inside of closed mesh part B  <a href="group__AABBTreeGroup.html#ga3c4d304b28fd4695d20dc454318f5660">More...</a><br /></td></tr>
 <tr class="separator:ga3c4d304b28fd4695d20dc454318f5660"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga30d53ebf69ce150861f17e4695543778"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga30d53ebf69ce150861f17e4695543778">MR::isNonIntersectingInside</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;a, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;b, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *rigidB2A=nullptr)</td></tr>
+<tr class="memdesc:ga30d53ebf69ce150861f17e4695543778"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary mesh part A is inside of closed mesh part B The version of <code>isInside</code> without collision check; it is user's responsibility to guarantee that the meshes don't collide  <a href="group__AABBTreeGroup.html#ga30d53ebf69ce150861f17e4695543778">More...</a><br /></td></tr>
+<tr class="separator:ga30d53ebf69ce150861f17e4695543778"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8f7cfd40975f9648e9785f72d75ff92d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga8f7cfd40975f9648e9785f72d75ff92d">MR::operator==</a> (const <a class="el" href="structMR_1_1EdgeTri.html">EdgeTri</a> &amp;a, const <a class="el" href="structMR_1_1EdgeTri.html">EdgeTri</a> &amp;b)</td></tr>
 <tr class="separator:ga8f7cfd40975f9648e9785f72d75ff92d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga11d4ca955f1a62e15ebea578ffa83454"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PreciseCollisionResult.html">PreciseCollisionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga11d4ca955f1a62e15ebea578ffa83454">MR::findCollidingEdgeTrisPrecise</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;a, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;b, <a class="el" href="group__AABBTreeGroup.html#gaa1341f2eec34b89f628200697d1c55a1">ConvertToIntVector</a> conv, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *rigidB2A=nullptr, bool anyIntersection=false)</td></tr>
@@ -1897,6 +1900,48 @@ template&lt;typename T &gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-polyline space to A polyline space, nullptr considered as identity transformation </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga30d53ebf69ce150861f17e4695543778" name="ga30d53ebf69ce150861f17e4695543778"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga30d53ebf69ce150861f17e4695543778">&#9670;&#160;</a></span>isNonIntersectingInside()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::isNonIntersectingInside </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *&#160;</td>
+          <td class="paramname"><em>rigidB2A</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>checks that arbitrary mesh part A is inside of closed mesh part B The version of <code>isInside</code> without collision check; it is user's responsibility to guarantee that the meshes don't collide </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
   </table>
   </dd>
 </dl>
