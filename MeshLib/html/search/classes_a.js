@@ -10,6 +10,7 @@ var searchData=
   ['lineobject_7',['LineObject',['../classMR_1_1LineObject.html',1,'MR']]],
   ['linesegm_8',['LineSegm',['../structMR_1_1LineSegm.html',1,'MR']]],
   ['linesvisualizepropertytype_9',['LinesVisualizePropertyType',['../structMR_1_1LinesVisualizePropertyType.html',1,'MR']]],
-  ['logger_10',['Logger',['../classMR_1_1Logger.html',1,'MR']]],
-  ['loggingstreambuf_11',['LoggingStreambuf',['../classMR_1_1LoggingStreambuf.html',1,'MR']]]
+  ['loaddcmresult_10',['LoadDCMResult',['../structMR_1_1VoxelsLoad_1_1LoadDCMResult.html',1,'MR::VoxelsLoad']]],
+  ['logger_11',['Logger',['../classMR_1_1Logger.html',1,'MR']]],
+  ['loggingstreambuf_12',['LoggingStreambuf',['../classMR_1_1LoggingStreambuf.html',1,'MR']]]
 ];

@@ -8,6 +8,7 @@ var group__SurfaceDistanceBuilder =
     ] ],
     [ "MR::SurfaceDistanceBuilder", "classMR_1_1SurfaceDistanceBuilder.html", [
       [ "SurfaceDistanceBuilder", "classMR_1_1SurfaceDistanceBuilder.html#af3d50b55a0c2af75bdba0d4eb7dc2e34", null ],
+      [ "SurfaceDistanceBuilder", "classMR_1_1SurfaceDistanceBuilder.html#ae5aba85dbb1efdefdea87c31c4c4a624", null ],
       [ "addStart", "classMR_1_1SurfaceDistanceBuilder.html#a35fe09c0ed56d9b10178d9099cef9204", null ],
       [ "addStartRegion", "classMR_1_1SurfaceDistanceBuilder.html#a1e5bc477a09b77b99e2ad82ac95adc91", null ],
       [ "addStartVertices", "classMR_1_1SurfaceDistanceBuilder.html#a370f90033c096568d58a18d399102064", null ],

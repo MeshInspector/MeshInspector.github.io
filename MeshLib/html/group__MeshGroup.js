@@ -64,6 +64,7 @@ var group__MeshGroup =
       [ "pseudonormal", "structMR_1_1Mesh.html#ada333ee4f3b0edfa859e5f8ee5a1c1f1", null ],
       [ "pseudonormal", "structMR_1_1Mesh.html#a70d7fe8522fdc74b9d90e8c7605cc5d1", null ],
       [ "pseudonormal", "structMR_1_1Mesh.html#a3f0764fd9acf9f3a4b060a658c656efc", null ],
+      [ "quadraticForm", "structMR_1_1Mesh.html#af7f3a4380bdaa085be82e06ef24c47b9", null ],
       [ "signedDistance", "structMR_1_1Mesh.html#a879abd4325e74e6c17acebe255877c83", null ],
       [ "signedDistance", "structMR_1_1Mesh.html#a24304bcd9afe5cdb84be4ee761a8fb2f", null ],
       [ "signedDistance", "structMR_1_1Mesh.html#a4048484ac2e78090960bc9bbc60cd6b6", null ],

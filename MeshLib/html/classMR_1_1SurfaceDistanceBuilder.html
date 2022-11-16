@@ -113,6 +113,8 @@ $(document).ready(function(){initNavTree('classMR_1_1SurfaceDistanceBuilder.html
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af3d50b55a0c2af75bdba0d4eb7dc2e34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SurfaceDistanceBuilder.html#af3d50b55a0c2af75bdba0d4eb7dc2e34">SurfaceDistanceBuilder</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *region)</td></tr>
 <tr class="separator:af3d50b55a0c2af75bdba0d4eb7dc2e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5aba85dbb1efdefdea87c31c4c4a624"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SurfaceDistanceBuilder.html#ae5aba85dbb1efdefdea87c31c4c4a624">SurfaceDistanceBuilder</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;target, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *region)</td></tr>
+<tr class="separator:ae5aba85dbb1efdefdea87c31c4c4a624"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e5bc477a09b77b99e2ad82ac95adc91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SurfaceDistanceBuilder.html#a1e5bc477a09b77b99e2ad82ac95adc91">addStartRegion</a> (const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;region, float startDistance)</td></tr>
 <tr class="memdesc:a1e5bc477a09b77b99e2ad82ac95adc91"><td class="mdescLeft">&#160;</td><td class="mdescRight">initiates distance construction from given vertices with known start distance in all of them (region vertices will NOT be returned by growOne)  <a href="classMR_1_1SurfaceDistanceBuilder.html#a1e5bc477a09b77b99e2ad82ac95adc91">More...</a><br /></td></tr>
 <tr class="separator:a1e5bc477a09b77b99e2ad82ac95adc91"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,7 +141,7 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p >this class is responsible for iterative construction of distance map along the surface </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af3d50b55a0c2af75bdba0d4eb7dc2e34" name="af3d50b55a0c2af75bdba0d4eb7dc2e34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3d50b55a0c2af75bdba0d4eb7dc2e34">&#9670;&#160;</a></span>SurfaceDistanceBuilder()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af3d50b55a0c2af75bdba0d4eb7dc2e34">&#9670;&#160;</a></span>SurfaceDistanceBuilder() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -162,6 +164,48 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae5aba85dbb1efdefdea87c31c4c4a624" name="ae5aba85dbb1efdefdea87c31c4c4a624"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5aba85dbb1efdefdea87c31c4c4a624">&#9670;&#160;</a></span>SurfaceDistanceBuilder() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::SurfaceDistanceBuilder::SurfaceDistanceBuilder </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *&#160;</td>
+          <td class="paramname"><em>region</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

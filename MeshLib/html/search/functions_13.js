@@ -24,7 +24,7 @@ var searchData=
   ['update_21',['update',['../classMR_1_1ImGuiImage.html#aa1bd137d3093a9f7422dc445457b692f',1,'MR::ImGuiImage']]],
   ['updatebox_22',['updateBox',['../classMR_1_1PlaneWidget.html#a8ae56fec0c4c5e422a127b1db23a053d',1,'MR::PlaneWidget']]],
   ['updatehistogram_23',['updateHistogram',['../classMR_1_1ObjectVoxels.html#a3533698959c9a9f2a9b2298549fa16da',1,'MR::ObjectVoxels']]],
-  ['updatehistogramandsurface_24',['updateHistogramAndSurface',['../classMR_1_1ObjectVoxels.html#a607e61443e72bdc0eb881a0d3db9fb8c',1,'MR::ObjectVoxels']]],
+  ['updatehistogramandsurface_24',['updateHistogramAndSurface',['../classMR_1_1ObjectVoxels.html#a12c2bd9463d6a8649df26d87060f7974',1,'MR::ObjectVoxels']]],
   ['updateisosurface_25',['updateIsoSurface',['../classMR_1_1ObjectVoxels.html#aabef8e164fd456b133249ea31024af4e',1,'MR::ObjectVoxels']]],
   ['updateitemstatus_26',['updateItemStatus',['../classMR_1_1RibbonMenu.html#afc750c1fa4b01d0cdf604d601194f436',1,'MR::RibbonMenu']]],
   ['updatemesh_27',['updateMesh',['../classMR_1_1ObjectMesh.html#a839774fb8213ddc2a1e9c51160ad5d01',1,'MR::ObjectMesh']]],

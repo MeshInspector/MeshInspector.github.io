@@ -836,6 +836,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">container of bits representing specific indices (faces, verts or edges)  <a href="classMR_1_1TaggedBitSet.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TerminalVertex.html">TerminalVertex</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TextMeshAlignParams.html">TextMeshAlignParams</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Timer.html">Timer</a></td></tr>
@@ -1849,8 +1851,12 @@ Functions</h2></td></tr>
 <tr class="separator:ga4ef10460976331354fd6633529b31b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8611d32ddf9b64606412154e843658b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EdgePathsGroup.html#ga8611d32ddf9b64606412154e843658b3">buildShortestPathBiDir</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> start, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> finish, float maxPathLen=FLT_MAX)</td></tr>
 <tr class="separator:ga8611d32ddf9b64606412154e843658b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga406af44e44bb84c41cc380a6ecedc6af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EdgePathsGroup.html#ga406af44e44bb84c41cc380a6ecedc6af">buildShortestPathBiDir</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;finish, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> *outPathStart=nullptr, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> *outPathFinish=nullptr, float maxPathLen=FLT_MAX)</td></tr>
+<tr class="separator:ga406af44e44bb84c41cc380a6ecedc6af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab942014729767c2449b988a793eea5a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EdgePathsGroup.html#gab942014729767c2449b988a793eea5a7">buildShortestPathAStar</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> start, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> finish, float maxPathLen=FLT_MAX)</td></tr>
 <tr class="separator:gab942014729767c2449b988a793eea5a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadb5f50d4c624b947f1cce23f36c65361"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EdgePathsGroup.html#gadb5f50d4c624b947f1cce23f36c65361">buildShortestPathAStar</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;finish, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> *outPathStart=nullptr, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> *outPathFinish=nullptr, float maxPathLen=FLT_MAX)</td></tr>
+<tr class="separator:gadb5f50d4c624b947f1cce23f36c65361"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadb0985d5186608aa8786111eead3c759"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EdgePathsGroup.html#gadb0985d5186608aa8786111eead3c759">buildShortestPath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> start, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;finish, float maxPathLen=FLT_MAX)</td></tr>
 <tr class="memdesc:gadb0985d5186608aa8786111eead3c759"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds shortest path in euclidean metric from start to finish vertices; if no path can be found then empty path is returned  <a href="group__EdgePathsGroup.html#gadb0985d5186608aa8786111eead3c759">More...</a><br /></td></tr>
 <tr class="separator:gadb0985d5186608aa8786111eead3c759"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1858,8 +1864,9 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga849a027d86e0a30b1a32b629a14f74f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds shortest path in given metric from start to finish vertices; if no path can be found then empty path is returned  <a href="group__EdgePathsGroup.html#ga849a027d86e0a30b1a32b629a14f74f3">More...</a><br /></td></tr>
 <tr class="separator:ga849a027d86e0a30b1a32b629a14f74f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga31d65cbf03d734606eecb79ae37c605c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EdgePathsGroup.html#ga31d65cbf03d734606eecb79ae37c605c">buildSmallestMetricPathBiDir</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;metric, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> start, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> finish, float maxPathMetric=FLT_MAX)</td></tr>
-<tr class="memdesc:ga31d65cbf03d734606eecb79ae37c605c"><td class="mdescLeft">&#160;</td><td class="mdescRight">same, but constructs the path from both start and finish, which is faster for long paths  <a href="group__EdgePathsGroup.html#ga31d65cbf03d734606eecb79ae37c605c">More...</a><br /></td></tr>
 <tr class="separator:ga31d65cbf03d734606eecb79ae37c605c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf64ac38f04f25f28a4a46ae2fc06ff8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EdgePathsGroup.html#gaf64ac38f04f25f28a4a46ae2fc06ff8a">buildSmallestMetricPathBiDir</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;metric, const <a class="el" href="structMR_1_1TerminalVertex.html">TerminalVertex</a> *starts, int numStarts, const <a class="el" href="structMR_1_1TerminalVertex.html">TerminalVertex</a> *finishes, int numFinishes, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> *outPathStart=nullptr, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> *outPathFinish=nullptr, float maxPathMetric=FLT_MAX)</td></tr>
+<tr class="separator:gaf64ac38f04f25f28a4a46ae2fc06ff8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae74cdeb663c4f5c46bb0107a8b1b5c47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EdgePathsGroup.html#gae74cdeb663c4f5c46bb0107a8b1b5c47">buildSmallestMetricPath</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;metric, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> start, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;finish, float maxPathMetric=FLT_MAX)</td></tr>
 <tr class="memdesc:gae74cdeb663c4f5c46bb0107a8b1b5c47"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds shortest path in given metric from start to finish vertices; if no path can be found then empty path is returned  <a href="group__EdgePathsGroup.html#gae74cdeb663c4f5c46bb0107a8b1b5c47">More...</a><br /></td></tr>
 <tr class="separator:gae74cdeb663c4f5c46bb0107a8b1b5c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2438,7 +2445,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga7f91969af2bfe0c0487b2811d32925c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PolylineSubdivideGroup.html#ga7f91969af2bfe0c0487b2811d32925c9">subdividePolyline</a> (<a class="el" href="namespaceMR.html#a58b74f27c86e7e9dee889bfe30f3022a">Polyline3</a> &amp;polyline, const <a class="el" href="structMR_1_1PolylineSubdivideSettings.html">PolylineSubdivideSettings</a> &amp;settings={})</td></tr>
 <tr class="separator:ga7f91969af2bfe0c0487b2811d32925c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa12e4c4e4ffbedecd3d64a4c5fc4a7a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa12e4c4e4ffbedecd3d64a4c5fc4a7a8">positionVertsSmoothly</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;verts, <a class="el" href="classMR_1_1Laplacian.html#a40fcda9e6b8208959a3204e274784b18">Laplacian::EdgeWeights</a> egdeWeightsType=<a class="el" href="classMR_1_1Laplacian.html#a40fcda9e6b8208959a3204e274784b18af2ccdc14df1f860d7b09661c47cc15c9">Laplacian::EdgeWeights::Cotan</a>)</td></tr>
-<tr class="memdesc:aa12e4c4e4ffbedecd3d64a4c5fc4a7a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts given vertices in such positions to make smooth surface both inside verts-region and on its boundary.  <a href="namespaceMR.html#aa12e4c4e4ffbedecd3d64a4c5fc4a7a8">More...</a><br /></td></tr>
 <tr class="separator:aa12e4c4e4ffbedecd3d64a4c5fc4a7a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga04b9e51953d898cf85e76c05d426366a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PrecisePredicates2.html#ga04b9e51953d898cf85e76c05d426366a">ccw</a> (const <a class="el" href="namespaceMR.html#a414c921e724deba1be8a3f3b5a20af76">Vector2i</a> &amp;a, const <a class="el" href="namespaceMR.html#a414c921e724deba1be8a3f3b5a20af76">Vector2i</a> &amp;b)</td></tr>
 <tr class="separator:ga04b9e51953d898cf85e76c05d426366a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3290,6 +3296,8 @@ Variables</h2></td></tr>
 <tr class="separator:a862b30077baf437e28b842a18c3997e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bee00a475fada33c76a0bb71f8cbadd"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a1bee00a475fada33c76a0bb71f8cbadd">cDefaultWindowPaddingY</a> = 12.0f</td></tr>
 <tr class="separator:a1bee00a475fada33c76a0bb71f8cbadd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70bcc4098e7e70c56a659aa92a28fa66"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a70bcc4098e7e70c56a659aa92a28fa66">cItemInfoIndent</a> = 16.0f</td></tr>
+<tr class="separator:a70bcc4098e7e70c56a659aa92a28fa66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c83bbfbdb840f0b895746f9904ec159"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5c83bbfbdb840f0b895746f9904ec159">cSmallItemDropSizeModifier</a> = 0.5f</td></tr>
 <tr class="separator:a5c83bbfbdb840f0b895746f9904ec159"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96fbf6ff116f2ef3003d0511ee978d18"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a96fbf6ff116f2ef3003d0511ee978d18">cHeaderQuickAccessFrameRounding</a> = 3.0f</td></tr>
@@ -12615,8 +12623,12 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Puts given vertices in such positions to make smooth surface both inside verts-region and on its boundary. </p>
+<p >Puts given vertices in such positions to make smooth surface both inside verts-region and on its boundary; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">verts</td><td>must not include all vertices of a mesh connected component </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -14519,6 +14531,28 @@ template&lt;typename V &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">constexpr float MR::cInputPadding = 9.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a70bcc4098e7e70c56a659aa92a28fa66" name="a70bcc4098e7e70c56a659aa92a28fa66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70bcc4098e7e70c56a659aa92a28fa66">&#9670;&#160;</a></span>cItemInfoIndent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr float MR::cItemInfoIndent = 16.0f</td>
         </tr>
       </table>
   </td>

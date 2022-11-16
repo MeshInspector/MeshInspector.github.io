@@ -176,16 +176,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5cf0d7357ed28e21c95574c86d0cdbad"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a5cf0d7357ed28e21c95574c86d0cdbad">getClassName</a> () const override</td></tr>
 <tr class="memdesc:a5cf0d7357ed28e21c95574c86d0cdbad"><td class="mdescLeft">&#160;</td><td class="mdescRight">return human readable name of subclass  <a href="classMR_1_1ObjectVoxels.html#a5cf0d7357ed28e21c95574c86d0cdbad">More...</a><br /></td></tr>
 <tr class="separator:a5cf0d7357ed28e21c95574c86d0cdbad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af783a12fdddd747873af2fc1aab5473b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#af783a12fdddd747873af2fc1aab5473b">construct</a> (const <a class="el" href="namespaceMR.html#a7ad75de4317308dd9e905cc79369ab6b">SimpleVolume</a> &amp;volume, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
-<tr class="memdesc:af783a12fdddd747873af2fc1aab5473b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears all internal data and then creates grid and calculates histogram.  <a href="classMR_1_1ObjectVoxels.html#af783a12fdddd747873af2fc1aab5473b">More...</a><br /></td></tr>
-<tr class="separator:af783a12fdddd747873af2fc1aab5473b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acad8e9dc4d1001e3e1741799fb5ca2a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#acad8e9dc4d1001e3e1741799fb5ca2a6">construct</a> (const <a class="el" href="namespaceMR.html#a9890285ad43692fd93527cf824b1b9bf">FloatGrid</a> &amp;<a class="el" href="classMR_1_1ObjectVoxels.html#a47bee6e3a0ea9a036e59d7857f8f43b4">grid</a>, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;<a class="el" href="classMR_1_1ObjectVoxels.html#a15d13587d3a07d097c841db2c9face4d">voxelSize</a>, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
-<tr class="memdesc:acad8e9dc4d1001e3e1741799fb5ca2a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears all internal data and calculates histogram.  <a href="classMR_1_1ObjectVoxels.html#acad8e9dc4d1001e3e1741799fb5ca2a6">More...</a><br /></td></tr>
-<tr class="separator:acad8e9dc4d1001e3e1741799fb5ca2a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a607e61443e72bdc0eb881a0d3db9fb8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a607e61443e72bdc0eb881a0d3db9fb8c">updateHistogramAndSurface</a> (const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
-<tr class="separator:a607e61443e72bdc0eb881a0d3db9fb8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09ae4d52267bc28d2b5ece34c241337b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a09ae4d52267bc28d2b5ece34c241337b">setIsoValue</a> (float iso, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={}, bool updateSurface=true)</td></tr>
-<tr class="separator:a09ae4d52267bc28d2b5ece34c241337b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a177ba1817a56a83359ebb13a8a6d1db6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a177ba1817a56a83359ebb13a8a6d1db6">construct</a> (const <a class="el" href="namespaceMR.html#a7ad75de4317308dd9e905cc79369ab6b">SimpleVolume</a> &amp;simpleVolume, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memdesc:a177ba1817a56a83359ebb13a8a6d1db6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears all internal data and then creates grid and calculates histogram.  <a href="classMR_1_1ObjectVoxels.html#a177ba1817a56a83359ebb13a8a6d1db6">More...</a><br /></td></tr>
+<tr class="separator:a177ba1817a56a83359ebb13a8a6d1db6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56a62794a13792269225110fc91573e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a56a62794a13792269225110fc91573e8">construct</a> (const <a class="el" href="namespaceMR.html#a9890285ad43692fd93527cf824b1b9bf">FloatGrid</a> &amp;<a class="el" href="classMR_1_1ObjectVoxels.html#a47bee6e3a0ea9a036e59d7857f8f43b4">grid</a>, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;<a class="el" href="classMR_1_1ObjectVoxels.html#a15d13587d3a07d097c841db2c9face4d">voxelSize</a>, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memdesc:a56a62794a13792269225110fc91573e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears all internal data and calculates histogram.  <a href="classMR_1_1ObjectVoxels.html#a56a62794a13792269225110fc91573e8">More...</a><br /></td></tr>
+<tr class="separator:a56a62794a13792269225110fc91573e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a993523239cef6ebee7c0bf96c966900a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a993523239cef6ebee7c0bf96c966900a">construct</a> (const <a class="el" href="namespaceMR.html#a3048dff41173426f92713cbb8cf3784a">VdbVolume</a> &amp;<a class="el" href="classMR_1_1ObjectVoxels.html#a40a8a10a59c84f407f0b8cbdec7bedb1">vdbVolume</a>, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memdesc:a993523239cef6ebee7c0bf96c966900a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears all internal data and calculates histogram.  <a href="classMR_1_1ObjectVoxels.html#a993523239cef6ebee7c0bf96c966900a">More...</a><br /></td></tr>
+<tr class="separator:a993523239cef6ebee7c0bf96c966900a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12c2bd9463d6a8649df26d87060f7974"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a12c2bd9463d6a8649df26d87060f7974">updateHistogramAndSurface</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:a12c2bd9463d6a8649df26d87060f7974"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfaf0c1dab0e9b434d5db4dbc4e82b41"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#acfaf0c1dab0e9b434d5db4dbc4e82b41">setIsoValue</a> (float iso, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={}, bool updateSurface=true)</td></tr>
+<tr class="separator:acfaf0c1dab0e9b434d5db4dbc4e82b41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabef8e164fd456b133249ea31024af4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#aabef8e164fd456b133249ea31024af4e">updateIsoSurface</a> (std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; <a class="el" href="classMR_1_1ObjectMeshHolder.html#af6739310dc9f9e21c461819ea47dc086">mesh</a>)</td></tr>
 <tr class="separator:aabef8e164fd456b133249ea31024af4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2cc2fe9f238d2f29c8dffb80ebc675f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a3048dff41173426f92713cbb8cf3784a">VdbVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#aa2cc2fe9f238d2f29c8dffb80ebc675f">updateVdbVolume</a> (<a class="el" href="namespaceMR.html#a3048dff41173426f92713cbb8cf3784a">VdbVolume</a> <a class="el" href="classMR_1_1ObjectVoxels.html#a40a8a10a59c84f407f0b8cbdec7bedb1">vdbVolume</a>)</td></tr>
@@ -193,10 +196,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3533698959c9a9f2a9b2298549fa16da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Histogram.html">Histogram</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a3533698959c9a9f2a9b2298549fa16da">updateHistogram</a> (<a class="el" href="classMR_1_1Histogram.html">Histogram</a> <a class="el" href="classMR_1_1ObjectVoxels.html#af4e1350561bc2e71d56741b954562868">histogram</a>)</td></tr>
 <tr class="memdesc:a3533698959c9a9f2a9b2298549fa16da"><td class="mdescLeft">&#160;</td><td class="mdescRight">and returns back previous histogram of this  <a href="classMR_1_1ObjectVoxels.html#a3533698959c9a9f2a9b2298549fa16da">More...</a><br /></td></tr>
 <tr class="separator:a3533698959c9a9f2a9b2298549fa16da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bde9f5b95addf42acf264b6802f79a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a5bde9f5b95addf42acf264b6802f79a7">recalculateIsoSurface</a> (float iso, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
-<tr class="separator:a5bde9f5b95addf42acf264b6802f79a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae495dd34ce33c5f6dfb753eb92cc5c0d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#ae495dd34ce33c5f6dfb753eb92cc5c0d">setActiveBounds</a> (const <a class="el" href="namespaceMR.html#abb77b8aff8d862cb60056e4127ba543c">Box3i</a> &amp;activeBox, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={}, bool updateSurface=true)</td></tr>
-<tr class="separator:ae495dd34ce33c5f6dfb753eb92cc5c0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac271d7661d05892a888111b04ef92179"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#ac271d7661d05892a888111b04ef92179">recalculateIsoSurface</a> (float iso, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:ac271d7661d05892a888111b04ef92179"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e16d8a108f465ccb925e3e36886739e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a7e16d8a108f465ccb925e3e36886739e">setActiveBounds</a> (const <a class="el" href="namespaceMR.html#abb77b8aff8d862cb60056e4127ba543c">Box3i</a> &amp;activeBox, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={}, bool updateSurface=true)</td></tr>
+<tr class="separator:a7e16d8a108f465ccb925e3e36886739e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21fac797124aacbda1e3226395b7203f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#abb77b8aff8d862cb60056e4127ba543c">Box3i</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a21fac797124aacbda1e3226395b7203f">getActiveBounds</a> () const</td></tr>
 <tr class="separator:a21fac797124aacbda1e3226395b7203f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2474b64ee36bdd0c3cbb7c2688559071"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a554ecd806e7de55aceb363940928dac0">VoxelBitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a2474b64ee36bdd0c3cbb7c2688559071">getSelectedVoxels</a> () const</td></tr>
@@ -1075,8 +1078,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="acad8e9dc4d1001e3e1741799fb5ca2a6" name="acad8e9dc4d1001e3e1741799fb5ca2a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acad8e9dc4d1001e3e1741799fb5ca2a6">&#9670;&#160;</a></span>construct() <span class="overload">[1/2]</span></h2>
+<a id="a56a62794a13792269225110fc91573e8" name="a56a62794a13792269225110fc91573e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56a62794a13792269225110fc91573e8">&#9670;&#160;</a></span>construct() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1096,7 +1099,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
           <td class="paramname"><em>cb</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
@@ -1111,8 +1114,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af783a12fdddd747873af2fc1aab5473b" name="af783a12fdddd747873af2fc1aab5473b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af783a12fdddd747873af2fc1aab5473b">&#9670;&#160;</a></span>construct() <span class="overload">[2/2]</span></h2>
+<a id="a177ba1817a56a83359ebb13a8a6d1db6" name="a177ba1817a56a83359ebb13a8a6d1db6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a177ba1817a56a83359ebb13a8a6d1db6">&#9670;&#160;</a></span>construct() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1121,12 +1124,12 @@ Protected Attributes</h2></td></tr>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectVoxels::construct </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespaceMR.html#a7ad75de4317308dd9e905cc79369ab6b">SimpleVolume</a> &amp;&#160;</td>
-          <td class="paramname"><em>volume</em>, </td>
+          <td class="paramname"><em>simpleVolume</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
           <td class="paramname"><em>cb</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
@@ -1138,6 +1141,36 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Clears all internal data and then creates grid and calculates histogram. </p>
+
+</div>
+</div>
+<a id="a993523239cef6ebee7c0bf96c966900a" name="a993523239cef6ebee7c0bf96c966900a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a993523239cef6ebee7c0bf96c966900a">&#9670;&#160;</a></span>construct() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectVoxels::construct </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a3048dff41173426f92713cbb8cf3784a">VdbVolume</a> &amp;&#160;</td>
+          <td class="paramname"><em>vdbVolume</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>cb</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clears all internal data and calculates histogram. </p>
 
 </div>
 </div>
@@ -1590,8 +1623,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a5bde9f5b95addf42acf264b6802f79a7" name="a5bde9f5b95addf42acf264b6802f79a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5bde9f5b95addf42acf264b6802f79a7">&#9670;&#160;</a></span>recalculateIsoSurface()</h2>
+<a id="ac271d7661d05892a888111b04ef92179" name="ac271d7661d05892a888111b04ef92179"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac271d7661d05892a888111b04ef92179">&#9670;&#160;</a></span>recalculateIsoSurface()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1605,7 +1638,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
           <td class="paramname"><em>cb</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
@@ -1703,8 +1736,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae495dd34ce33c5f6dfb753eb92cc5c0d" name="ae495dd34ce33c5f6dfb753eb92cc5c0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae495dd34ce33c5f6dfb753eb92cc5c0d">&#9670;&#160;</a></span>setActiveBounds()</h2>
+<a id="a7e16d8a108f465ccb925e3e36886739e" name="a7e16d8a108f465ccb925e3e36886739e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e16d8a108f465ccb925e3e36886739e">&#9670;&#160;</a></span>setActiveBounds()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1721,7 +1754,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
           <td class="paramname"><em>cb</em> = <code>{}</code>, </td>
         </tr>
         <tr>
@@ -1775,8 +1808,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a09ae4d52267bc28d2b5ece34c241337b" name="a09ae4d52267bc28d2b5ece34c241337b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09ae4d52267bc28d2b5ece34c241337b">&#9670;&#160;</a></span>setIsoValue()</h2>
+<a id="acfaf0c1dab0e9b434d5db4dbc4e82b41" name="acfaf0c1dab0e9b434d5db4dbc4e82b41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfaf0c1dab0e9b434d5db4dbc4e82b41">&#9670;&#160;</a></span>setIsoValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1793,7 +1826,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
           <td class="paramname"><em>cb</em> = <code>{}</code>, </td>
         </tr>
         <tr>
@@ -2023,8 +2056,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a607e61443e72bdc0eb881a0d3db9fb8c" name="a607e61443e72bdc0eb881a0d3db9fb8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a607e61443e72bdc0eb881a0d3db9fb8c">&#9670;&#160;</a></span>updateHistogramAndSurface()</h2>
+<a id="a12c2bd9463d6a8649df26d87060f7974" name="a12c2bd9463d6a8649df26d87060f7974"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12c2bd9463d6a8649df26d87060f7974">&#9670;&#160;</a></span>updateHistogramAndSurface()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2032,7 +2065,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectVoxels::updateHistogramAndSurface </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
           <td class="paramname"><em>cb</em> = <code>{}</code></td><td>)</td>
           <td></td>
         </tr>

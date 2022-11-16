@@ -276,7 +276,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >computes distance map for presented projection parameters use <a class="el" href="structMR_1_1MeshToDistanceMapParams.html">MeshToDistanceMapParams</a> constructor instead of overloads of this function <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> - input 3d model general call. You could customize params manually </p>
+<p >computes distance (height) map for given projection parameters using float-precision for finding ray-mesh intersections, which is faster but less reliable </p>
 
 </div>
 </div>
@@ -305,6 +305,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >computes distance (height) map for given projection parameters using double-precision for finding ray-mesh intersections, which is slower but more reliable </p>
 
 </div>
 </div>

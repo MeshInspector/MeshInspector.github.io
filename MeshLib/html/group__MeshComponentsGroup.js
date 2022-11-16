@@ -21,5 +21,6 @@ var group__MeshComponentsGroup =
     [ "MR::MeshComponents::getUnionFindStructureVerts", "group__MeshComponentsGroup.html#ga03c8c808b4ba34501215afe74c09330f", null ],
     [ "MR::MeshComponents::getUnionFindStructureVerts", "group__MeshComponentsGroup.html#ga0c25b3e3697cc2efad3f13c664fc87ec", null ],
     [ "MR::MeshComponents::getUnionFindStructureVertsEx", "group__MeshComponentsGroup.html#gace26e67d5d5067fe90238bc336ac1101", null ],
-    [ "MR::MeshComponents::getUnionFindStructureVertsSeparatedByPath", "group__MeshComponentsGroup.html#ga397973d9e4d6ee73a9d3ceaeb494102a", null ]
+    [ "MR::MeshComponents::getUnionFindStructureVertsSeparatedByPath", "group__MeshComponentsGroup.html#ga397973d9e4d6ee73a9d3ceaeb494102a", null ],
+    [ "MR::MeshComponents::hasFullySelectedComponent", "group__MeshComponentsGroup.html#gac4401b9655de3a844caf1234d8f453cf", null ]
 ];

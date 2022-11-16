@@ -15,7 +15,7 @@ var searchData=
   ['readquickaccesslist_12',['readQuickAccessList',['../classMR_1_1RibbonMenu.html#ac80823b6e10ba2e99fca77006ffb7dc4',1,'MR::RibbonMenu']]],
   ['readuijson_5f_13',['readUIJson_',['../classMR_1_1RibbonSchemaLoader.html#a6ab581434c5e1a94a44c8d1307a9ba5e',1,'MR::RibbonSchemaLoader']]],
   ['recalcitemsizes_14',['recalcItemSizes',['../classMR_1_1RibbonSchemaLoader.html#a41b33cc8ea85e93c4afed1e130fbd709',1,'MR::RibbonSchemaLoader']]],
-  ['recalculateisosurface_15',['recalculateIsoSurface',['../classMR_1_1ObjectVoxels.html#a5bde9f5b95addf42acf264b6802f79a7',1,'MR::ObjectVoxels']]],
+  ['recalculateisosurface_15',['recalculateIsoSurface',['../classMR_1_1ObjectVoxels.html#ac271d7661d05892a888111b04ef92179',1,'MR::ObjectVoxels']]],
   ['recentfilesstore_16',['RecentFilesStore',['../classMR_1_1RecentFilesStore.html#ab3bdf57745bbf11b5ac6fd1b27edcb68',1,'MR::RecentFilesStore::RecentFilesStore()=default'],['../classMR_1_1RecentFilesStore.html#a446898aa3d0c6bd022d1d584464b6838',1,'MR::RecentFilesStore::RecentFilesStore(std::string appName, int capacity=5)']]],
   ['recomputebitset_17',['recomputeBitSet',['../classMR_1_1MeshICP.html#a4070a6cf0c2d67cd54dc5227c9bf34e3',1,'MR::MeshICP']]],
   ['rectindexer_18',['RectIndexer',['../classMR_1_1RectIndexer.html#a801b588e260d6fa3432f296855de6f29',1,'MR::RectIndexer::RectIndexer() noexcept=default'],['../group__DistanceMapGroup.html#ga239b9939936c38ad89df91dd649ab13d',1,'MR::RectIndexer::RectIndexer(const Vector2i &amp;dims)']]],

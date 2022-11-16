@@ -36,6 +36,7 @@ var annotated_dup =
         [ "TriangulatedFan", "structMR_1_1TriangulationHelpers_1_1TriangulatedFan.html", "structMR_1_1TriangulationHelpers_1_1TriangulatedFan" ]
       ] ],
       [ "VoxelsLoad", "namespaceMR_1_1VoxelsLoad.html", [
+        [ "LoadDCMResult", "structMR_1_1VoxelsLoad_1_1LoadDCMResult.html", "structMR_1_1VoxelsLoad_1_1LoadDCMResult" ],
         [ "RawParameters", "structMR_1_1VoxelsLoad_1_1RawParameters.html", "structMR_1_1VoxelsLoad_1_1RawParameters" ]
       ] ],
       [ "AABBTree", "classMR_1_1AABBTree.html", "classMR_1_1AABBTree" ],
@@ -349,6 +350,7 @@ var annotated_dup =
       [ "SymMatrix2", "structMR_1_1SymMatrix2.html", "structMR_1_1SymMatrix2" ],
       [ "SymMatrix3", "structMR_1_1SymMatrix3.html", "structMR_1_1SymMatrix3" ],
       [ "TaggedBitSet", "classMR_1_1TaggedBitSet.html", "classMR_1_1TaggedBitSet" ],
+      [ "TerminalVertex", "structMR_1_1TerminalVertex.html", "structMR_1_1TerminalVertex" ],
       [ "TextMeshAlignParams", "structMR_1_1TextMeshAlignParams.html", "structMR_1_1TextMeshAlignParams" ],
       [ "Timer", "classMR_1_1Timer.html", "classMR_1_1Timer" ],
       [ "TransformedMesh", "structMR_1_1TransformedMesh.html", "structMR_1_1TransformedMesh" ],

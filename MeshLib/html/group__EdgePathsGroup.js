@@ -1,13 +1,20 @@
 var group__EdgePathsGroup =
 [
+    [ "MR::TerminalVertex", "structMR_1_1TerminalVertex.html", [
+      [ "metric", "structMR_1_1TerminalVertex.html#ab851f9e73d6568c7bda22cae8c669238", null ],
+      [ "v", "structMR_1_1TerminalVertex.html#ae7c419aebb40aa7937984ceba3489254", null ]
+    ] ],
     [ "MR::EdgeMetric", "group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f", null ],
     [ "MR::addLeftBand", "group__EdgePathsGroup.html#gab0db7342678536825cb6b3bff51d832d", null ],
     [ "MR::buildShortestPath", "group__EdgePathsGroup.html#gadb0985d5186608aa8786111eead3c759", null ],
     [ "MR::buildShortestPath", "group__EdgePathsGroup.html#ga4ef10460976331354fd6633529b31b3f", null ],
+    [ "MR::buildShortestPathAStar", "group__EdgePathsGroup.html#gadb5f50d4c624b947f1cce23f36c65361", null ],
     [ "MR::buildShortestPathAStar", "group__EdgePathsGroup.html#gab942014729767c2449b988a793eea5a7", null ],
+    [ "MR::buildShortestPathBiDir", "group__EdgePathsGroup.html#ga406af44e44bb84c41cc380a6ecedc6af", null ],
     [ "MR::buildShortestPathBiDir", "group__EdgePathsGroup.html#ga8611d32ddf9b64606412154e843658b3", null ],
     [ "MR::buildSmallestMetricPath", "group__EdgePathsGroup.html#gae74cdeb663c4f5c46bb0107a8b1b5c47", null ],
     [ "MR::buildSmallestMetricPath", "group__EdgePathsGroup.html#ga849a027d86e0a30b1a32b629a14f74f3", null ],
+    [ "MR::buildSmallestMetricPathBiDir", "group__EdgePathsGroup.html#gaf64ac38f04f25f28a4a46ae2fc06ff8a", null ],
     [ "MR::buildSmallestMetricPathBiDir", "group__EdgePathsGroup.html#ga31d65cbf03d734606eecb79ae37c605c", null ],
     [ "MR::calcPathLength", "group__EdgePathsGroup.html#ga1792643322d571922601c7286a802f51", null ],
     [ "MR::calcPathMetric", "group__EdgePathsGroup.html#ga43a4b5c66e820cc90b986a3bfb4c1998", null ],
