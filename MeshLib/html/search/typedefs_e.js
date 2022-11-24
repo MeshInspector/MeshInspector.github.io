@@ -14,9 +14,13 @@ var searchData=
   ['pointer_11',['pointer',['../classMR_1_1SetBitIteratorT.html#a22e03a8a13140a2e652009346c41c0ba',1,'MR::SetBitIteratorT']]],
   ['polyline_12',['Polyline',['../structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d',1,'MR::PolylineTraits&lt; Vector2f &gt;::Polyline()'],['../structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b',1,'MR::PolylineTraits&lt; Vector3f &gt;::Polyline()']]],
   ['polyline2_13',['Polyline2',['../namespaceMR.html#ab1ca9892644603a8b29005353e5ada79',1,'MR']]],
-  ['polyline3_14',['Polyline3',['../namespaceMR.html#a58b74f27c86e7e9dee889bfe30f3022a',1,'MR']]],
-  ['postrescalesignal_15',['PostRescaleSignal',['../classMR_1_1Viewer.html#a448a65e5c8e0f80950482647b4d8a786',1,'MR::Viewer']]],
-  ['postresizesignal_16',['PostResizeSignal',['../classMR_1_1Viewer.html#ab7f0983455b1dfa5ccae593d205470d9',1,'MR::Viewer']]],
-  ['progresscallback_17',['ProgressCallback',['../group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710',1,'MR']]],
-  ['pythonregisterfuncton_18',['PythonRegisterFuncton',['../classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c',1,'MR::PythonExport']]]
+  ['polyline2projectionwithoffsetresult_14',['Polyline2ProjectionWithOffsetResult',['../namespaceMR.html#aa9c24bbb5a16bcc2d1385bdbd2340aae',1,'MR']]],
+  ['polyline3_15',['Polyline3',['../namespaceMR.html#a58b74f27c86e7e9dee889bfe30f3022a',1,'MR']]],
+  ['polylineprojectionresult2_16',['PolylineProjectionResult2',['../namespaceMR.html#a0898ca7d08b2fb73875b21bf4921f4fd',1,'MR']]],
+  ['polylineprojectionresult3_17',['PolylineProjectionResult3',['../namespaceMR.html#a847af1551a9dcab4a5a333b6607522a7',1,'MR']]],
+  ['polylineprojectionwithoffsetresult3_18',['PolylineProjectionWithOffsetResult3',['../namespaceMR.html#a2488a5918dcbf78bcbf511ea6c93a185',1,'MR']]],
+  ['postrescalesignal_19',['PostRescaleSignal',['../classMR_1_1Viewer.html#a448a65e5c8e0f80950482647b4d8a786',1,'MR::Viewer']]],
+  ['postresizesignal_20',['PostResizeSignal',['../classMR_1_1Viewer.html#ab7f0983455b1dfa5ccae593d205470d9',1,'MR::Viewer']]],
+  ['progresscallback_21',['ProgressCallback',['../group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710',1,'MR']]],
+  ['pythonregisterfuncton_22',['PythonRegisterFuncton',['../classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c',1,'MR::PythonExport']]]
 ];

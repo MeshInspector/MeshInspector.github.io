@@ -1,12 +1,18 @@
 var searchData=
 [
-  ['y_0',['y',['../structMR_1_1Matrix2.html#a71548cad8d3164c3d8d15d3e5bbd0b01',1,'MR::Matrix2::y()'],['../structMR_1_1Matrix3.html#aafd25b0c56a5f7a67abb2afa5d652912',1,'MR::Matrix3::y()'],['../structMR_1_1Matrix4.html#a75f9e05ce8b540c5e85bd3f79ba19381',1,'MR::Matrix4::y()'],['../structMR_1_1Vector2.html#a5186451c51a4f421a0b810a3f836fae8',1,'MR::Vector2::y()'],['../structMR_1_1Vector3.html#a4cbb29e67931176028f57f29b2bd6953',1,'MR::Vector3::y()'],['../structMR_1_1Vector4.html#a0e6c5be3afc64d0b545923575087bb78',1,'MR::Vector4::y()']]],
-  ['y_1',['Y',['../classMR_1_1ObjectTransformWidget.html#a68b9b25ab7ecc4861ee34b7b4221b29aacb4596c64977156fc1968c3f191743f7',1,'MR::ObjectTransformWidget']]],
-  ['yellow_2',['yellow',['../structMR_1_1Color.html#a7a15e2053da20914d242d21eb1486f30',1,'MR::Color']]],
-  ['yes_3',['Yes',['../classMR_1_1Laplacian.html#a67c8dfc7669f41712a92d21d5ec99feda93cba07454f06a4a960172bbd6e2a435',1,'MR::Laplacian::Yes()'],['../namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435',1,'MR::Yes()']]],
-  ['yesifalreadyconstructed_4',['YesIfAlreadyConstructed',['../namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffa15e26f8fa2b40c5f5855790886c51a83',1,'MR']]],
-  ['yrange_5',['yRange',['../structMR_1_1MeshToDistanceMapParams.html#a3273bae2c4c112688b441a6aa4d0e811',1,'MR::MeshToDistanceMapParams']]],
-  ['yy_6',['yy',['../structMR_1_1SymMatrix2.html#a3f9de72646e2a2bbf46b9eb3a2691fc2',1,'MR::SymMatrix2::yy()'],['../structMR_1_1SymMatrix3.html#ae811049caca3dc4cda97eb36c1b118a7',1,'MR::SymMatrix3::yy()']]],
-  ['yz_7',['yz',['../structMR_1_1SymMatrix3.html#a6ebdff1e289a9153c5bef3e6a7683b25',1,'MR::SymMatrix3']]],
-  ['yz_8',['YZ',['../group__VoxelPathGroup.html#ggae7c8689563553fe7686bd6b71ddf8f18a848c5fe5a26f3330bcbedda94181fc74',1,'MR']]]
+  ['x_0',['X',['../classMR_1_1ObjectTransformWidget.html#a68b9b25ab7ecc4861ee34b7b4221b29aac0e303493426fb7b31a2082b82f5117f',1,'MR::ObjectTransformWidget']]],
+  ['x_1',['x',['../structMR_1_1Matrix2.html#a07a97bdc2d9081ca6bb3f61742dd1074',1,'MR::Matrix2::x()'],['../structMR_1_1Matrix3.html#a34220148555a9b57f32f7edb08289ea4',1,'MR::Matrix3::x()'],['../structMR_1_1Matrix4.html#afefd6af8bdb869e88d5062c6aa38c746',1,'MR::Matrix4::x()'],['../structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c',1,'MR::Vector2::x()'],['../structMR_1_1Vector3.html#a3d6f56ed3c525a928116d6c095997c5c',1,'MR::Vector3::x()'],['../structMR_1_1Vector4.html#a2430707dabdc5933eb1c27e622a73c04',1,'MR::Vector4::x()']]],
+  ['xf_2',['xf',['../structMR_1_1TransformedMesh.html#a643b404d35e9496c6ee8d3382c80ee18',1,'MR::TransformedMesh::xf()'],['../classMR_1_1Object.html#a603c094ba75fe76c397b93e84d1cb129',1,'MR::Object::xf(ViewportId id={}, bool *isDef=nullptr) const']]],
+  ['xf_5f_3',['xf_',['../classMR_1_1Object.html#a5f512c4898f6a69b782b8647109ff8e0',1,'MR::Object']]],
+  ['xfaround_4',['xfAround',['../structMR_1_1AffineXf.html#a55cf315823a39d0647333ca27a0b8e98',1,'MR::AffineXf']]],
+  ['xfbasedcache_5',['XfBasedCache',['../classMR_1_1XfBasedCache.html',1,'MR']]],
+  ['xfbasedcache_3c_20mr_3a_3abox_20_3e_6',['XfBasedCache&lt; MR::Box &gt;',['../classMR_1_1XfBasedCache.html',1,'MR']]],
+  ['xfchangedsignal_7',['XfChangedSignal',['../classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c',1,'MR::Object']]],
+  ['xfsforallviewports_8',['xfsForAllViewports',['../classMR_1_1Object.html#a695ed8027820a6f982adf8a3e393503d',1,'MR::Object']]],
+  ['xrange_9',['xRange',['../structMR_1_1MeshToDistanceMapParams.html#acbd0c885022ae4d52662d581094cee10',1,'MR::MeshToDistanceMapParams']]],
+  ['xsputn_10',['xsputn',['../classMR_1_1LoggingStreambuf.html#ad3da2990b79129af6e4cb2426b138860',1,'MR::LoggingStreambuf']]],
+  ['xx_11',['xx',['../structMR_1_1SymMatrix2.html#af527509f666f1f4e66becbf773677189',1,'MR::SymMatrix2::xx()'],['../structMR_1_1SymMatrix3.html#a9bb4e4e398d4c529a5a88c7b95c381c2',1,'MR::SymMatrix3::xx()']]],
+  ['xy_12',['xy',['../structMR_1_1SymMatrix2.html#a298176c6fdc19f53dcf4b4c5e9624b01',1,'MR::SymMatrix2::xy()'],['../structMR_1_1SymMatrix3.html#a338177889f057fdb4fe9ad0781e40582',1,'MR::SymMatrix3::xy()']]],
+  ['xy_13',['XY',['../group__VoxelPathGroup.html#ggae7c8689563553fe7686bd6b71ddf8f18a3629e4a37a6ff95437939d8664d158e9',1,'MR']]],
+  ['xz_14',['xz',['../structMR_1_1SymMatrix3.html#a975295446a9281ca38f7ff5967875eb8',1,'MR::SymMatrix3']]]
 ];

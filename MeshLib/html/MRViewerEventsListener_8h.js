@@ -17,5 +17,11 @@ var MRViewerEventsListener_8h =
     [ "MR::DragDropListener", "structMR_1_1DragDropListener.html", "structMR_1_1DragDropListener" ],
     [ "MR::PostResizeListener", "structMR_1_1PostResizeListener.html", "structMR_1_1PostResizeListener" ],
     [ "MR::InterruptCloseListener", "structMR_1_1InterruptCloseListener.html", "structMR_1_1InterruptCloseListener" ],
-    [ "MR::PostRescaleListener", "structMR_1_1PostRescaleListener.html", "structMR_1_1PostRescaleListener" ]
+    [ "MR::PostRescaleListener", "structMR_1_1PostRescaleListener.html", "structMR_1_1PostRescaleListener" ],
+    [ "MR::TouchStartListener", "structMR_1_1TouchStartListener.html", "structMR_1_1TouchStartListener" ],
+    [ "MR::TouchMoveListener", "structMR_1_1TouchMoveListener.html", "structMR_1_1TouchMoveListener" ],
+    [ "MR::TouchEndListener", "structMR_1_1TouchEndListener.html", "structMR_1_1TouchEndListener" ],
+    [ "MR::SpaceMouseMoveListener", "structMR_1_1SpaceMouseMoveListener.html", "structMR_1_1SpaceMouseMoveListener" ],
+    [ "MR::SpaceMouseDownListener", "structMR_1_1SpaceMouseDownListener.html", "structMR_1_1SpaceMouseDownListener" ],
+    [ "MR::SpaceMouseUpListener", "structMR_1_1SpaceMouseUpListener.html", "structMR_1_1SpaceMouseUpListener" ]
 ];

@@ -17,6 +17,13 @@ var group__IOGroup =
     [ "Serializer", "group__SerializerGroup.html", "group__SerializerGroup" ],
     [ "Stream Operators", "group__StreamOperatorsGroup.html", "group__StreamOperatorsGroup" ],
     [ "Voxels Load", "group__VoxelsLoadGroup.html", "group__VoxelsLoadGroup" ],
+    [ "MR::VoxelsSave::SavingSettings", "structMR_1_1VoxelsSave_1_1SavingSettings.html", [
+      [ "cb", "structMR_1_1VoxelsSave_1_1SavingSettings.html#a61495391ee95acbc5462893baceab323", null ],
+      [ "format", "structMR_1_1VoxelsSave_1_1SavingSettings.html#abc7da521abdd392c79be9602cde3dc64", null ],
+      [ "path", "structMR_1_1VoxelsSave_1_1SavingSettings.html#a8415f6dc84ccf8061fd256e2420cd4fd", null ],
+      [ "slicePlain", "structMR_1_1VoxelsSave_1_1SavingSettings.html#a65353942b3333a6b1d382307a7db318a", null ],
+      [ "vdbVolume", "structMR_1_1VoxelsSave_1_1SavingSettings.html#a4235106a7bbeb7e3cb6e67568eb12b14", null ]
+    ] ],
     [ "MR::PointsLoad::fromAnySupportedFormat", "group__IOGroup.html#gafc43894b540c74745569c073d816c069", null ],
     [ "MR::PointsLoad::fromAnySupportedFormat", "group__IOGroup.html#ga4bd1779f20b75d557bf76286013dae42", null ],
     [ "MR::PointsLoad::fromAsc", "group__IOGroup.html#gac513a70eec9142efc53e934f49776aca", null ],
@@ -27,7 +34,7 @@ var group__IOGroup =
     [ "MR::PointsLoad::fromObj", "group__IOGroup.html#gaa5a6c97fdf30da2d8b2997b052a0657e", null ],
     [ "MR::PointsLoad::fromPly", "group__IOGroup.html#gaf85111e97ab8a080b220efe4a9f6b0b6", null ],
     [ "MR::PointsLoad::fromPly", "group__IOGroup.html#gafeb80f2b53906e5cef7d5f4e7250a0ea", null ],
-    [ "MR::VoxelsSave::saveAllSlicesToImage", "group__IOGroup.html#gab7df6ace26288fb08bfc289f6f39ab99", null ],
+    [ "MR::VoxelsSave::saveAllSlicesToImage", "group__IOGroup.html#gaa9aeede267fba03c6e62e1afd2b06473", null ],
     [ "MR::VoxelsSave::saveRaw", "group__IOGroup.html#gac5ffa519200d6d14143d0aaffa7f96ad", null ],
     [ "MR::VoxelsSave::saveSliceToImage", "group__IOGroup.html#ga3b13418997536f70a56cb66b46e108fe", null ],
     [ "MR::PointsLoad::Filters", "group__IOGroup.html#ga78bba5f59da26b22b8f18e15440cfccd", null ],

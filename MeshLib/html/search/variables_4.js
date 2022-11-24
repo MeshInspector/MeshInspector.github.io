@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['e_0',['e',['../structMR_1_1MeshEdgePoint.html#a72f48a205244f5c3966aaa8e3c6af285',1,'MR::MeshEdgePoint::e()'],['../structMR_1_1MeshTriPoint.html#afb2e8376855431a09626f25ffe6039bc',1,'MR::MeshTriPoint::e()']]],
+  ['e_0',['e',['../structMR_1_1EdgePoint.html#aa0fb43077718779351b94f5a803498a6',1,'MR::EdgePoint::e()'],['../structMR_1_1MeshTriPoint.html#afb2e8376855431a09626f25ffe6039bc',1,'MR::MeshTriPoint::e()']]],
   ['edge_1',['edge',['../structMR_1_1EdgeTri.html#a75d3cbfc185bb135fa0ecacfa0eea64e',1,'MR::EdgeTri']]],
   ['edgecode1_2',['edgeCode1',['../structMR_1_1FillHoleItem.html#a93e897d7d608458643fa5ba8a08d2ea2',1,'MR::FillHoleItem']]],
   ['edgecode2_3',['edgeCode2',['../structMR_1_1FillHoleItem.html#a56124e5a79e5cbe2b1b617d2e142aaa1',1,'MR::FillHoleItem']]],
   ['edgemetric_4',['edgeMetric',['../structMR_1_1FillHoleMetric.html#a3048bcf785194be02ce20b5d6e6bfd61',1,'MR::FillHoleMetric']]],
-  ['edgepoint_5',['edgePoint',['../structMR_1_1HoleEdgePoint.html#ae793addf9016abcd83646bb9e2243142',1,'MR::HoleEdgePoint']]],
+  ['edgepoint_5',['edgePoint',['../structMR_1_1PolylineIntersectionResult2.html#a50c61aceb6ee726418c11dd484bbd071',1,'MR::PolylineIntersectionResult2::edgePoint()'],['../structMR_1_1HoleEdgePoint.html#ae793addf9016abcd83646bb9e2243142',1,'MR::HoleEdgePoint::edgePoint()']]],
   ['edgesatrisb_6',['edgesAtrisB',['../structMR_1_1PreciseCollisionResult.html#ad604bf35dc957a8d01733d58d9704ba2',1,'MR::PreciseCollisionResult']]],
   ['edgesbtrisa_7',['edgesBtrisA',['../structMR_1_1PreciseCollisionResult.html#a9b010a738a4b9a8757b61838ce33e92f',1,'MR::PreciseCollisionResult']]],
   ['edgescolor_5f_8',['edgesColor_',['../classMR_1_1ObjectMeshHolder.html#a528e88689d9376192b4fee0137e08806',1,'MR::ObjectMeshHolder']]],
@@ -18,6 +18,7 @@ var searchData=
   ['eps_15',['eps',['../structMR_1_1TriPoint.html#a6ade05d6ba59ed946b54c792822949e4',1,'MR::TriPoint']]],
   ['errorintroduced_16',['errorIntroduced',['../structMR_1_1DecimateResult.html#a4080c2ae3d9e15c04989c161cacb96d8',1,'MR::DecimateResult::errorIntroduced()'],['../structMR_1_1DecimatePolylineResult.html#a5e4317d37968dd6016c8fc5826f9e8f5',1,'MR::DecimatePolylineResult::errorIntroduced()']]],
   ['errorstring_17',['errorString',['../structMR_1_1BooleanResult.html#a78e59aeca9497a9c74d7512157fcf5df',1,'MR::BooleanResult']]],
-  ['exitval_18',['exitVal',['../structMR_1_1ICPProperties.html#afe075e9e4944999f30c142f357d071d7',1,'MR::ICPProperties']]],
-  ['extension_19',['extension',['../structMR_1_1IOFilter.html#ac848191e419fe3ec6fa17b4d4eb4cbe2',1,'MR::IOFilter']]]
+  ['eventqueue_18',['eventQueue',['../classMR_1_1Viewer.html#ac739b038385e105c918f19a5f0620aae',1,'MR::Viewer']]],
+  ['exitval_19',['exitVal',['../structMR_1_1ICPProperties.html#afe075e9e4944999f30c142f357d071d7',1,'MR::ICPProperties']]],
+  ['extension_20',['extension',['../structMR_1_1IOFilter.html#ac848191e419fe3ec6fa17b4d4eb4cbe2',1,'MR::IOFilter']]]
 ];

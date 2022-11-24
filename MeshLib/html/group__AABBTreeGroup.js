@@ -112,6 +112,16 @@ var group__AABBTreeGroup =
       [ "Sy", "group__AABBTreeGroup.html#gaf95502c89221bba3187782d4ed18199b", null ],
       [ "Sz", "group__AABBTreeGroup.html#ga6159c869b0afc38ccf26091c1681194a", null ]
     ] ],
+    [ "MR::IntersectionPrecomputes2< T >", "structMR_1_1IntersectionPrecomputes2.html", [
+      [ "IntersectionPrecomputes2", "structMR_1_1IntersectionPrecomputes2.html#a8dc8336a41d3f8aa6342f55f92aaba1b", null ],
+      [ "IntersectionPrecomputes2", "structMR_1_1IntersectionPrecomputes2.html#a5f4ae33fcf963d2ccab283fcadff212b", null ],
+      [ "idxX", "structMR_1_1IntersectionPrecomputes2.html#a4570f366fea168e1a0346c51fe5108c8", null ],
+      [ "invDir", "structMR_1_1IntersectionPrecomputes2.html#aa9162110be6b5840cd870eb551a292fd", null ],
+      [ "maxDimIdxY", "structMR_1_1IntersectionPrecomputes2.html#a97745f96da021de236ed1d33cc89c73f", null ],
+      [ "sign", "structMR_1_1IntersectionPrecomputes2.html#a802abc712cfba3867b04a4f8a9ba4f60", null ],
+      [ "Sx", "structMR_1_1IntersectionPrecomputes2.html#a5f59c134b3ba556dea499973669c2f5f", null ],
+      [ "Sy", "structMR_1_1IntersectionPrecomputes2.html#a48da57b1568b50155d61042128d457de", null ]
+    ] ],
     [ "MR::EdgeTri", "structMR_1_1EdgeTri.html", [
       [ "EdgeTri", "structMR_1_1EdgeTri.html#abc6f03d4ca7344789c80a99a10605739", null ],
       [ "EdgeTri", "structMR_1_1EdgeTri.html#a45de5d714a586bda433f476169bb81ef", null ],
@@ -161,25 +171,15 @@ var group__AABBTreeGroup =
       [ "mtp", "structMR_1_1SignedDistanceToMeshResult.html#aec6c1291f51d451f8ab2bcf2d9371c41", null ],
       [ "proj", "structMR_1_1SignedDistanceToMeshResult.html#adb459805ccfb452c3a5c82fe673bbfec", null ]
     ] ],
-    [ "MR::Polyline2ProjectionResult", "structMR_1_1Polyline2ProjectionResult.html", [
-      [ "distSq", "structMR_1_1Polyline2ProjectionResult.html#a0d662797298c7075e8d035d1478818ec", null ],
-      [ "line", "structMR_1_1Polyline2ProjectionResult.html#a3bc77ee028ce7bd0dc8b08c5e53f9e24", null ],
-      [ "point", "structMR_1_1Polyline2ProjectionResult.html#a31299384d5362258f16e26c15356a86e", null ]
+    [ "MR::PolylineProjectionResult< V >", "structMR_1_1PolylineProjectionResult.html", [
+      [ "distSq", "structMR_1_1PolylineProjectionResult.html#a81f4cd1607e7835a737edcf9011740d8", null ],
+      [ "line", "structMR_1_1PolylineProjectionResult.html#a575d694a03d4903a8b460aeba47cfe1c", null ],
+      [ "point", "structMR_1_1PolylineProjectionResult.html#a954df3a650cf8eeea5e253acae8126bd", null ]
     ] ],
-    [ "MR::Polyline2ProjectionWithOffsetResult", "structMR_1_1Polyline2ProjectionWithOffsetResult.html", [
-      [ "dist", "structMR_1_1Polyline2ProjectionWithOffsetResult.html#a7369e54ea66995ea30e922a14fb4ac70", null ],
-      [ "line", "structMR_1_1Polyline2ProjectionWithOffsetResult.html#a144909d9dbdbfe1b454f5fe609d9477c", null ],
-      [ "point", "structMR_1_1Polyline2ProjectionWithOffsetResult.html#a8f7d28674c2c7a5ba7b06ad1d54c9ad6", null ]
-    ] ],
-    [ "MR::PolylineProjectionResult", "structMR_1_1PolylineProjectionResult.html", [
-      [ "distSq", "structMR_1_1PolylineProjectionResult.html#adf8bf60fae1fa9ffe39d7e0557cc2657", null ],
-      [ "line", "structMR_1_1PolylineProjectionResult.html#a603fa66cd33b52eae43e2e1cbb4493b8", null ],
-      [ "point", "structMR_1_1PolylineProjectionResult.html#ac55a92925d7636d09e9d7c1267a7d1a7", null ]
-    ] ],
-    [ "MR::PolylineProjectionWithOffsetResult", "structMR_1_1PolylineProjectionWithOffsetResult.html", [
-      [ "dist", "structMR_1_1PolylineProjectionWithOffsetResult.html#a80aa913da53d832b6cc9bca284433907", null ],
-      [ "line", "structMR_1_1PolylineProjectionWithOffsetResult.html#a4895c88c7829fe2109d11df6bfad701a", null ],
-      [ "point", "structMR_1_1PolylineProjectionWithOffsetResult.html#a6e6cce5b1803a8a8f8c8bc0b63803e3a", null ]
+    [ "MR::PolylineProjectionWithOffsetResult< V >", "structMR_1_1PolylineProjectionWithOffsetResult.html", [
+      [ "dist", "structMR_1_1PolylineProjectionWithOffsetResult.html#af9b6fe85013195dcada09f829b2c552d", null ],
+      [ "line", "structMR_1_1PolylineProjectionWithOffsetResult.html#a11d0a9e4090b200e7152c1d2000db9c3", null ],
+      [ "point", "structMR_1_1PolylineProjectionWithOffsetResult.html#ac03c6975d60108034bbd6964a751d08d", null ]
     ] ],
     [ "MR::UniqueThreadSafeOwner< T >", "classMR_1_1UniqueThreadSafeOwner.html", [
       [ "UniqueThreadSafeOwner", "classMR_1_1UniqueThreadSafeOwner.html#aeef82c61856472cfd39c42fe30004d4a", null ],
@@ -200,12 +200,16 @@ var group__AABBTreeGroup =
     [ "MR::ConvertToFloatVector", "group__AABBTreeGroup.html#ga4835cdcf7f575fd6b4381c29fc920269", null ],
     [ "MR::ConvertToIntVector", "group__AABBTreeGroup.html#gaa1341f2eec34b89f628200697d1c55a1", null ],
     [ "MR::FaceTreeTraits3", "group__AABBTreeGroup.html#gad692565ba80610283f4322d081a95ef8", null ],
+    [ "MR::FoundEdgeCallback", "group__AABBTreeGroup.html#ga6567418169a65826fd82b440411a4fc4", null ],
+    [ "MR::FoundEdgeCallback2", "group__AABBTreeGroup.html#ga4f844f73b163343e67f73579ee60eb3b", null ],
+    [ "MR::FoundEdgeCallback3", "group__AABBTreeGroup.html#gaf77c51a2927a660589bbe050fdbd6ac8", null ],
     [ "MR::Line3dMesh", "group__AABBTreeGroup.html#gaaf317c41824870416408c08346c2171e", null ],
     [ "MR::Line3fMesh", "group__AABBTreeGroup.html#ga5ab271790117f87421a1332a6c3e9d95", null ],
     [ "MR::LineTreeTraits", "group__AABBTreeGroup.html#ga17af3e1b79216c9f09669326d43cf22d", null ],
     [ "MR::LineTreeTraits2", "group__AABBTreeGroup.html#gae0095cba19362d8f40a9beaedc20b142", null ],
     [ "MR::LineTreeTraits3", "group__AABBTreeGroup.html#ga9e0548c1f8dc47ae420a227a56165c7c", null ],
     [ "MR::MeshIntersectionCallback", "group__AABBTreeGroup.html#gab84b0b767274335b6f0f59bbb9537fe3", null ],
+    [ "MR::findCollidingEdgePairs", "group__AABBTreeGroup.html#ga15a3e18d2098f8ff33e67776a221e6fb", null ],
     [ "MR::findCollidingEdges", "group__AABBTreeGroup.html#ga44c8af10ceaf3059a77647d7b6f2ca8b", null ],
     [ "MR::findCollidingEdgesBitsets", "group__AABBTreeGroup.html#ga0f3404724c88f935957c8c3c8962ea3a", null ],
     [ "MR::findCollidingEdgeTrisPrecise", "group__AABBTreeGroup.html#ga8c7d357b072699f62023d97ea1c81f45", null ],
@@ -215,17 +219,21 @@ var group__AABBTreeGroup =
     [ "MR::findCollidingTriangles", "group__AABBTreeGroup.html#gaaeb209f0c917451a03debbf058fc39e6", null ],
     [ "MR::findDirMax", "group__AABBTreeGroup.html#gaf49d29fe114a45e7ba44769ed23e07a7", null ],
     [ "MR::findDistance", "group__AABBTreeGroup.html#gae8acc67c54f5f060c954bb3528a0c581", null ],
+    [ "MR::findEdgesInBall", "group__AABBTreeGroup.html#ga5ce436376c8036ec99459d3ccea88788", null ],
+    [ "MR::findEdgesInBall", "group__AABBTreeGroup.html#ga799578a1ff64417ca5aa5c72fa15bb2f", null ],
     [ "MR::findMaxDistanceSq", "group__AABBTreeGroup.html#ga3672072155e3f272d13a40ccd4645d02", null ],
     [ "MR::findMaxDistanceSqOneWay", "group__AABBTreeGroup.html#ga375d9c9dcfb1fd7d9a254a73370d71ba", null ],
+    [ "MR::findMaxVectorDim", "group__AABBTreeGroup.html#ga562052fddd56327be07ffe8c0cc7f7af", null ],
     [ "MR::findMaxVectorDim", "group__AABBTreeGroup.html#ga7fcb33a674ea8b57ac858e40d42e26e3", null ],
     [ "MR::findPointsInBall", "group__AABBTreeGroup.html#gaf7090d7297e7990875bac76b780daadf", null ],
     [ "MR::findPointsInBall", "group__AABBTreeGroup.html#gadb026730b0df98aa305e2721e46fc495", null ],
     [ "MR::findProjection", "group__AABBTreeGroup.html#ga0e691011d7ee0d6072b80fce5e997efe", null ],
-    [ "MR::findProjectionOnMeshEdges", "group__AABBTreeGroup.html#ga32c963490569c6a8fd10a660a14ed793", null ],
-    [ "MR::findProjectionOnPolyline", "group__AABBTreeGroup.html#gaebaaaa7cf53de1be9f59d9526b95c920", null ],
-    [ "MR::findProjectionOnPolyline2", "group__AABBTreeGroup.html#gaca9e8826ee187bd7337149bd1b75f3d5", null ],
+    [ "MR::findProjectionOnMeshEdges", "group__AABBTreeGroup.html#ga9579e42177a203fdedf9729717891dab", null ],
+    [ "MR::findProjectionOnPolyline", "group__AABBTreeGroup.html#gab4e6d7044960ec9381bbdba568c131b8", null ],
+    [ "MR::findProjectionOnPolyline2", "group__AABBTreeGroup.html#gad6115056e8f7fed8388025d6299387f7", null ],
     [ "MR::findProjectionOnPolyline2WithOffset", "group__AABBTreeGroup.html#gad4d1904259196cbfcb2d9fe4bf4c02a2", null ],
-    [ "MR::findProjectionOnPolylineWithOffset", "group__AABBTreeGroup.html#gacf41cadb01cd572946917f4cec59b465", null ],
+    [ "MR::findProjectionOnPolylineWithOffset", "group__AABBTreeGroup.html#ga4f4aa2277484058fc04ead8259165c66", null ],
+    [ "MR::findSelfCollidingEdgePairs", "group__AABBTreeGroup.html#ga4fca223a68dac564f66af0224c0ec3ec", null ],
     [ "MR::findSelfCollidingEdges", "group__AABBTreeGroup.html#gad89aed99c2cba4cd08e06d896b839841", null ],
     [ "MR::findSelfCollidingEdgesBS", "group__AABBTreeGroup.html#ga8658f18b6b0489c1dafa4903c64c0165", null ],
     [ "MR::findSelfCollidingTriangles", "group__AABBTreeGroup.html#gae0a13336f89b8fc2e74813c428b8df9f", null ],

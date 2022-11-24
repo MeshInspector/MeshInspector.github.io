@@ -154,6 +154,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a21e124c25421599977ed1fc9874016e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html#a21e124c25421599977ed1fc9874016e3">find_last</a> () const</td></tr>
 <tr class="memdesc:a21e124c25421599977ed1fc9874016e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the highest index i such as bit i is set, or npos if *this has no on bits.  <a href="classMR_1_1BitSet.html#a21e124c25421599977ed1fc9874016e3">More...</a><br /></td></tr>
 <tr class="separator:a21e124c25421599977ed1fc9874016e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add7456b9f19f1c5722b428a88eb87241"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html#add7456b9f19f1c5722b428a88eb87241">nthSetBit</a> (size_t n) const</td></tr>
+<tr class="memdesc:add7456b9f19f1c5722b428a88eb87241"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the location of nth set bit (where the first bit corresponds to n=0) or npos if there are less bit set  <a href="classMR_1_1BitSet.html#add7456b9f19f1c5722b428a88eb87241">More...</a><br /></td></tr>
+<tr class="separator:add7456b9f19f1c5722b428a88eb87241"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7929d81a23ad4ff51c472f0d1c992d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html#ac7929d81a23ad4ff51c472f0d1c992d5">resizeWithReserve</a> (size_t newSize)</td></tr>
 <tr class="memdesc:ac7929d81a23ad4ff51c472f0d1c992d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize) can be done without reallocation  <a href="classMR_1_1BitSet.html#ac7929d81a23ad4ff51c472f0d1c992d5">More...</a><br /></td></tr>
 <tr class="separator:ac7929d81a23ad4ff51c472f0d1c992d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -362,6 +365,26 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns the amount of memory this object occupies on heap </p>
+
+</div>
+</div>
+<a id="add7456b9f19f1c5722b428a88eb87241" name="add7456b9f19f1c5722b428a88eb87241"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add7456b9f19f1c5722b428a88eb87241">&#9670;&#160;</a></span>nthSetBit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::BitSet::nthSetBit </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns the location of nth set bit (where the first bit corresponds to n=0) or npos if there are less bit set </p>
 
 </div>
 </div>

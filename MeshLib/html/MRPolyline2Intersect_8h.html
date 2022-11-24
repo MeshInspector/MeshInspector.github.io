@@ -98,15 +98,24 @@ $(document).ready(function(){initNavTree('MRPolyline2Intersect_8h.html',''); ini
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRPolyline2Intersect.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="MRId_8h_source.html">MRId.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MREdgePoint_8h_source.html">MREdgePoint.h</a>&quot;</code><br />
+<code>#include &lt;cfloat&gt;</code><br />
+<code>#include &lt;optional&gt;</code><br />
 </div>
 <p><a href="MRPolyline2Intersect_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PolylineIntersectionResult2.html">MR::PolylineIntersectionResult2</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceMR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
@@ -117,6 +126,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ga2aba3040bbdbbafb7d8e38803b955524"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga2aba3040bbdbbafb7d8e38803b955524">MR::isPointInsidePolyline</a> (const Polyline2 &amp;polyline, const Vector2f &amp;point)</td></tr>
 <tr class="memdesc:ga2aba3040bbdbbafb7d8e38803b955524"><td class="mdescLeft">&#160;</td><td class="mdescRight">detect if given point is inside polyline, by counting ray intersections  <a href="group__AABBTreeGroup.html#ga2aba3040bbdbbafb7d8e38803b955524">More...</a><br /></td></tr>
 <tr class="separator:ga2aba3040bbdbbafb7d8e38803b955524"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aced4d907b5fe7e8492db1e0168969ef0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; PolylineIntersectionResult2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aced4d907b5fe7e8492db1e0168969ef0">MR::rayPolylineIntersect</a> (const Polyline2 &amp;polyline, const Line2f &amp;line, float rayStart=0, float rayEnd=FLT_MAX, const IntersectionPrecomputes2&lt; float &gt; *prec=nullptr, bool closestIntersect=true)</td></tr>
+<tr class="separator:aced4d907b5fe7e8492db1e0168969ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6676a2ad828681c05e6c1fccdf52553e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; PolylineIntersectionResult2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6676a2ad828681c05e6c1fccdf52553e">MR::rayPolylineIntersect</a> (const Polyline2 &amp;polyline, const Line2d &amp;line, double rayStart=0, double rayEnd=DBL_MAX, const IntersectionPrecomputes2&lt; double &gt; *prec=nullptr, bool closestIntersect=true)</td></tr>
+<tr class="separator:a6676a2ad828681c05e6c1fccdf52553e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

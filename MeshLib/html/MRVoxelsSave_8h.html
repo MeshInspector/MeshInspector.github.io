@@ -98,6 +98,7 @@ $(document).ready(function(){initNavTree('MRVoxelsSave_8h.html',''); initResizab
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
@@ -110,9 +111,16 @@ $(document).ready(function(){initNavTree('MRVoxelsSave_8h.html',''); initResizab
 <code>#include &lt;filesystem&gt;</code><br />
 <code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRVoxelPath_8h_source.html">MRVoxelPath.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRSimpleVolume_8h_source.html">MRSimpleVolume.h</a>&quot;</code><br />
+<code>#include &lt;fmt/format.h&gt;</code><br />
 </div>
 <p><a href="MRVoxelsSave_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceMR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
@@ -128,9 +136,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga3b13418997536f70a56cb66b46e108fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga3b13418997536f70a56cb66b46e108fe">MR::VoxelsSave::saveSliceToImage</a> (const std::filesystem::path &amp;path, const VdbVolume &amp;vdbVolume, const SlicePlain &amp;slicePlain, int sliceNumber, ProgressCallback callback={})</td></tr>
 <tr class="memdesc:ga3b13418997536f70a56cb66b46e108fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the slice by the active plane through the sliceNumber to an image file  <a href="group__IOGroup.html#ga3b13418997536f70a56cb66b46e108fe">More...</a><br /></td></tr>
 <tr class="separator:ga3b13418997536f70a56cb66b46e108fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab7df6ace26288fb08bfc289f6f39ab99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#gab7df6ace26288fb08bfc289f6f39ab99">MR::VoxelsSave::saveAllSlicesToImage</a> (const std::filesystem::path &amp;path, const VdbVolume &amp;vdbVolume, const SlicePlain &amp;slicePlain, ProgressCallback callback={})</td></tr>
-<tr class="memdesc:gab7df6ace26288fb08bfc289f6f39ab99"><td class="mdescLeft">&#160;</td><td class="mdescRight">save all slices by the active plane through all voxel planes along the active axis to an image file  <a href="group__IOGroup.html#gab7df6ace26288fb08bfc289f6f39ab99">More...</a><br /></td></tr>
-<tr class="separator:gab7df6ace26288fb08bfc289f6f39ab99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa9aeede267fba03c6e62e1afd2b06473"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#gaa9aeede267fba03c6e62e1afd2b06473">MR::VoxelsSave::saveAllSlicesToImage</a> (const SavingSettings &amp;settings)</td></tr>
+<tr class="memdesc:gaa9aeede267fba03c6e62e1afd2b06473"><td class="mdescLeft">&#160;</td><td class="mdescRight">save all slices by the active plane through all voxel planes along the active axis to an image file  <a href="group__IOGroup.html#gaa9aeede267fba03c6e62e1afd2b06473">More...</a><br /></td></tr>
+<tr class="separator:gaa9aeede267fba03c6e62e1afd2b06473"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>

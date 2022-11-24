@@ -92,7 +92,7 @@ var classMR_1_1Viewport =
     [ "showGlobalBasis", "classMR_1_1Viewport.html#a2da00f8d67bdd913870c371eab44dc24", null ],
     [ "showRotationCenter", "classMR_1_1Viewport.html#a069049d89298e103d7c82e1454532734", null ],
     [ "shut", "classMR_1_1Viewport.html#a0fc1e84a964766414f289905f15aa910", null ],
-    [ "transform_view", "classMR_1_1Viewport.html#a29f57af14c71b2b8da8d728db3f65aca", null ],
+    [ "transformView", "classMR_1_1Viewport.html#ab977a36a5474fc72fb2a9370f1a892aa", null ],
     [ "unprojectFromClipSpace", "classMR_1_1Viewport.html#a840a18b408675ea0b3d9b662916d8969", null ],
     [ "unprojectFromClipSpace", "classMR_1_1Viewport.html#a280af5b0f24b3003b52b66b9bdf70705", null ],
     [ "unprojectFromViewportSpace", "classMR_1_1Viewport.html#a1f1335831c811df8d399d4bf4a7dfad2", null ],

@@ -11,6 +11,7 @@ var classMR_1_1ViewportGL =
     [ "ViewportGL", "classMR_1_1ViewportGL.html#a376cf69e021d79c6a54e63168253e3c0", null ],
     [ "ViewportGL", "classMR_1_1ViewportGL.html#a16c05e1b059689d7bc4ed8d5e6673ac0", null ],
     [ "~ViewportGL", "classMR_1_1ViewportGL.html#a33a67bdad47aeacb17a644f0c65f53ec", null ],
+    [ "checkInit", "classMR_1_1ViewportGL.html#a4b2f4b4002b1881eca93bde98fe86979", null ],
     [ "drawBorder", "classMR_1_1ViewportGL.html#a8cc680f180a77f80d11be057c4774371", null ],
     [ "drawLines", "classMR_1_1ViewportGL.html#af5cfc3d8b159aa054c97697e2864a605", null ],
     [ "drawPoints", "classMR_1_1ViewportGL.html#aeacc43c36765bcbe6806cdde7a1062d5", null ],

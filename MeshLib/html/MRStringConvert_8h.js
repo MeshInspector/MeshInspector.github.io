@@ -7,6 +7,7 @@ var MRStringConvert_8h =
     [ "asU8String", "MRStringConvert_8h.html#gaa010d1f339c974fa6ff486c6cad89c7d", null ],
     [ "bytesString", "MRStringConvert_8h.html#a3dac1179ee1b7a147e78045a27c4e13d", null ],
     [ "pathFromUtf8", "MRStringConvert_8h.html#gabe699ad65df9788d6c5c76856ddbf259", null ],
+    [ "pathFromUtf8", "MRStringConvert_8h.html#ga20dc9bc9caabc76a8ed03696488fbd2c", null ],
     [ "systemToUtf8", "MRStringConvert_8h.html#ga96c01778dc5791451d62c355f4d665af", null ],
     [ "utf8string", "MRStringConvert_8h.html#ga98812dc656fac3fb9c565e7fc0c7922d", null ],
     [ "utf8ToWide", "MRStringConvert_8h.html#ga543d43a804760961ac67ad3689330c1d", null ]

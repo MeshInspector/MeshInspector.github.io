@@ -100,6 +100,7 @@ $(document).ready(function(){initNavTree('MRVoxelsLoad_8h.html',''); initResizab
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">MRVoxelsLoad.h File Reference</div></div>
@@ -121,6 +122,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html">MR::VoxelsLoad::RawParameters</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html">MR::VoxelsLoad::LoadingTiffSettings</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -128,6 +131,13 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceMR_1_1VoxelsLoad"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1VoxelsLoad.html">MR::VoxelsLoad</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a5a3e4b96e9ddb9678f554fe8a8d56a19"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19">MR::VoxelsLoad::GridType</a> { <a class="el" href="namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7">MR::VoxelsLoad::DenseGrid</a> = 0
+, <a class="el" href="namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e">MR::VoxelsLoad::LevelSet</a> = 1
+ }</td></tr>
+<tr class="separator:a5a3e4b96e9ddb9678f554fe8a8d56a19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -147,6 +157,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gad41c12bc0863d099fe4d4a80c5ef5772"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; VdbVolume, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gad41c12bc0863d099fe4d4a80c5ef5772">MR::VoxelsLoad::loadRaw</a> (const std::filesystem::path &amp;path, const ProgressCallback &amp;cb={})</td></tr>
 <tr class="memdesc:gad41c12bc0863d099fe4d4a80c5ef5772"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels file, parsing parameters from name.  <a href="group__VoxelsLoadGroup.html#gad41c12bc0863d099fe4d4a80c5ef5772">More...</a><br /></td></tr>
 <tr class="separator:gad41c12bc0863d099fe4d4a80c5ef5772"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0df0eea4c7e0d21bc2fcfc4a9d0c523"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; VdbVolume, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1VoxelsLoad.html#ab0df0eea4c7e0d21bc2fcfc4a9d0c523">MR::VoxelsLoad::loadTiffDir</a> (const LoadingTiffSettings &amp;settings)</td></tr>
+<tr class="memdesc:ab0df0eea4c7e0d21bc2fcfc4a9d0c523"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load voxels from a set of TIFF files.  <a href="namespaceMR_1_1VoxelsLoad.html#ab0df0eea4c7e0d21bc2fcfc4a9d0c523">More...</a><br /></td></tr>
+<tr class="separator:ab0df0eea4c7e0d21bc2fcfc4a9d0c523"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>

@@ -57,18 +57,20 @@ var group__MathGroup =
       [ "getMin", "classMR_1_1Histogram.html#a46da7c1b719682c2e39bfb89ee04eca3", null ],
       [ "heapBytes", "classMR_1_1Histogram.html#a4666262b73e1f92125d26cb27d2d5eca", null ]
     ] ],
-    [ "MR::Line3< T >", "structMR_1_1Line3.html", [
-      [ "Line3", "structMR_1_1Line3.html#a60e8475da888499becc982f1c218b58e", null ],
-      [ "Line3", "structMR_1_1Line3.html#a212fcfb900a7bc30fb663ca586ce09da", null ],
-      [ "Line3", "structMR_1_1Line3.html#a8ca1c3a85d1cd98b353c8fc3b1b2976d", null ],
-      [ "distanceSq", "structMR_1_1Line3.html#a4d38049dba7477599c8099ca03727087", null ],
-      [ "normalized", "structMR_1_1Line3.html#a98f8d66c1e1b674eb25cc6978f1ecfe2", null ],
-      [ "operator+", "structMR_1_1Line3.html#af471e77bb08497219b5dbe1c09d59b3d", null ],
-      [ "operator-", "structMR_1_1Line3.html#a3a0f9777f6ce1aa83fabf77e262fdfd8", null ],
-      [ "project", "structMR_1_1Line3.html#afc8da8b6fe2bafd46450bdebb95ea6f3", null ],
-      [ "transformed", "structMR_1_1Line3.html#abd56c75503979c4fca25213b6826aff2", null ],
-      [ "d", "structMR_1_1Line3.html#aaa6c96121c336f253ee4e0ed5ef66567", null ],
-      [ "p", "structMR_1_1Line3.html#a8772865083df0f580ab6498f46ef828b", null ]
+    [ "MR::Line< V >", "structMR_1_1Line.html", [
+      [ "T", "structMR_1_1Line.html#a1fe712212ce4ea1421578c647f2fe8be", null ],
+      [ "Line", "structMR_1_1Line.html#a46b55b474c21ce6047ee165c8543e568", null ],
+      [ "Line", "structMR_1_1Line.html#a47dd14270d81a152f0ddafb8db8c67a9", null ],
+      [ "Line", "structMR_1_1Line.html#a3e6a2a122b1e2bbfdff25a2c650cdf59", null ],
+      [ "distanceSq", "structMR_1_1Line.html#a33b2b7a0c2b8520be3e29171461a15d4", null ],
+      [ "normalized", "structMR_1_1Line.html#ac585c978cc27553cbfeb69676516a853", null ],
+      [ "operator()", "structMR_1_1Line.html#a5ef14139402c930f2404b09edf71284a", null ],
+      [ "operator+", "structMR_1_1Line.html#a2f882c3172da6745aba3d98e89629ae9", null ],
+      [ "operator-", "structMR_1_1Line.html#a3f4a448699ee8bd5922285794b4d64df", null ],
+      [ "project", "structMR_1_1Line.html#ad80390a7c278a694e5d5be75f7679025", null ],
+      [ "transformed", "structMR_1_1Line.html#ac37f58d4c89d15f57d79214d25d5bf27", null ],
+      [ "d", "structMR_1_1Line.html#a8b3c7d000e9148d5f14f3c7d0325c95b", null ],
+      [ "p", "structMR_1_1Line.html#aca04c91be84f9b11da19a3e455b5a28a", null ]
     ] ],
     [ "MR::Plane3< T >", "structMR_1_1Plane3.html", [
       [ "Plane3", "structMR_1_1Plane3.html#a29f7ab9c3671dc6904b3a79d854445ad", null ],

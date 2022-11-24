@@ -5,12 +5,14 @@ var searchData=
   ['lambdaribbonitem_2',['LambdaRibbonItem',['../classMR_1_1LambdaRibbonItem.html',1,'MR']]],
   ['laplacian_3',['Laplacian',['../classMR_1_1Laplacian.html',1,'MR']]],
   ['launchparams_4',['LaunchParams',['../structMR_1_1Viewer_1_1LaunchParams.html',1,'MR::Viewer']]],
-  ['line3_5',['Line3',['../structMR_1_1Line3.html',1,'MR']]],
+  ['line_5',['Line',['../structMR_1_1Line.html',1,'MR']]],
   ['line3mesh_6',['Line3Mesh',['../structMR_1_1Line3Mesh.html',1,'MR']]],
-  ['lineobject_7',['LineObject',['../classMR_1_1LineObject.html',1,'MR']]],
-  ['linesegm_8',['LineSegm',['../structMR_1_1LineSegm.html',1,'MR']]],
-  ['linesvisualizepropertytype_9',['LinesVisualizePropertyType',['../structMR_1_1LinesVisualizePropertyType.html',1,'MR']]],
-  ['loaddcmresult_10',['LoadDCMResult',['../structMR_1_1VoxelsLoad_1_1LoadDCMResult.html',1,'MR::VoxelsLoad']]],
-  ['logger_11',['Logger',['../classMR_1_1Logger.html',1,'MR']]],
-  ['loggingstreambuf_12',['LoggingStreambuf',['../classMR_1_1LoggingStreambuf.html',1,'MR']]]
+  ['line_3c_20t_20_3e_7',['Line&lt; T &gt;',['../structMR_1_1Line.html',1,'MR']]],
+  ['lineobject_8',['LineObject',['../classMR_1_1LineObject.html',1,'MR']]],
+  ['linesegm_9',['LineSegm',['../structMR_1_1LineSegm.html',1,'MR']]],
+  ['linesvisualizepropertytype_10',['LinesVisualizePropertyType',['../structMR_1_1LinesVisualizePropertyType.html',1,'MR']]],
+  ['loaddcmresult_11',['LoadDCMResult',['../structMR_1_1VoxelsLoad_1_1LoadDCMResult.html',1,'MR::VoxelsLoad']]],
+  ['loadingtiffsettings_12',['LoadingTiffSettings',['../structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html',1,'MR::VoxelsLoad']]],
+  ['logger_13',['Logger',['../classMR_1_1Logger.html',1,'MR']]],
+  ['loggingstreambuf_14',['LoggingStreambuf',['../classMR_1_1LoggingStreambuf.html',1,'MR']]]
 ];

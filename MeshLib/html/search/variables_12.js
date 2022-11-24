@@ -22,10 +22,14 @@ var searchData=
   ['totalarea_5f_19',['totalArea_',['../classMR_1_1ObjectMeshHolder.html#abfac8fd9808955939be1f0186cbdb896',1,'MR::ObjectMeshHolder']]],
   ['totallength_5f_20',['totalLength_',['../classMR_1_1ObjectLinesHolder.html#aee46157cb8a669b29f698f0ea9688264',1,'MR::ObjectLinesHolder']]],
   ['touchbdvertices_21',['touchBdVertices',['../structMR_1_1DecimateSettings.html#aa7b755cd5bad251398508eb99a3fe806',1,'MR::DecimateSettings::touchBdVertices()'],['../structMR_1_1DecimateParallelSettings.html#a6e1e192817007b17434540ed6c973249',1,'MR::DecimateParallelSettings::touchBdVertices()'],['../structMR_1_1DecimatePolylineSettings.html#af5825891f4645db66db82c3b6aa2cffe',1,'MR::DecimatePolylineSettings::touchBdVertices()']]],
-  ['toworld_22',['toWorld',['../structMR_1_1MeshSave_1_1NamedXfMesh.html#ac966a0534972ef8bcc25ee2d926a5703',1,'MR::MeshSave::NamedXfMesh']]],
-  ['tree_23',['tree',['../structMR_1_1Line3Mesh.html#a993c546c36a0d4723de3bdaffd1d769e',1,'MR::Line3Mesh']]],
-  ['tri_24',['tri',['../structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318',1,'MR::EdgeTri']]],
-  ['trianglemetric_25',['triangleMetric',['../structMR_1_1FillHoleMetric.html#acc8ef5c37515d91d9c3cb3fbcaa1fd22',1,'MR::FillHoleMetric']]],
-  ['type_26',['type',['../structMR_1_1MeshApproxRelaxParams.html#a1cee1338307334369140e04b54f03b51',1,'MR::MeshApproxRelaxParams::type()'],['../structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d',1,'MR::PointCloudApproxRelaxParams::type()'],['../structMR_1_1GlTexture2_1_1Settings.html#a033676db6a45fe279bd1de9f0bd0fab1',1,'MR::GlTexture2::Settings::type()'],['../structMR_1_1Viewer_1_1MouseQueueEvent.html#a86975eeae67e13c6a087df3affd56741',1,'MR::Viewer::MouseQueueEvent::type()']]],
-  ['type_5f_27',['type_',['../classMR_1_1RibbonMenuItem.html#a00b402da6dbcec7d6c97b5c6a16e3924',1,'MR::RibbonMenuItem']]]
+  ['touchendsignal_22',['touchEndSignal',['../classMR_1_1Viewer.html#a60764bea45c4611d5503e08c56343884',1,'MR::Viewer']]],
+  ['touchescontroller_23',['touchesController',['../classMR_1_1Viewer.html#aae590e587493538b3b3763b639bb3359',1,'MR::Viewer']]],
+  ['touchmovesignal_24',['touchMoveSignal',['../classMR_1_1Viewer.html#af7ea8952ac1b288e433a45fab542197f',1,'MR::Viewer']]],
+  ['touchstartsignal_25',['touchStartSignal',['../classMR_1_1Viewer.html#ad8629fdd3c1cf178772229aee161f0f1',1,'MR::Viewer']]],
+  ['toworld_26',['toWorld',['../structMR_1_1MeshSave_1_1NamedXfMesh.html#ac966a0534972ef8bcc25ee2d926a5703',1,'MR::MeshSave::NamedXfMesh']]],
+  ['tree_27',['tree',['../structMR_1_1Line3Mesh.html#a993c546c36a0d4723de3bdaffd1d769e',1,'MR::Line3Mesh']]],
+  ['tri_28',['tri',['../structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318',1,'MR::EdgeTri']]],
+  ['trianglemetric_29',['triangleMetric',['../structMR_1_1FillHoleMetric.html#acc8ef5c37515d91d9c3cb3fbcaa1fd22',1,'MR::FillHoleMetric']]],
+  ['type_30',['type',['../structMR_1_1MeshApproxRelaxParams.html#a1cee1338307334369140e04b54f03b51',1,'MR::MeshApproxRelaxParams::type()'],['../structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d',1,'MR::PointCloudApproxRelaxParams::type()'],['../structMR_1_1GlTexture2_1_1Settings.html#a033676db6a45fe279bd1de9f0bd0fab1',1,'MR::GlTexture2::Settings::type()']]],
+  ['type_5f_31',['type_',['../classMR_1_1RibbonMenuItem.html#a00b402da6dbcec7d6c97b5c6a16e3924',1,'MR::RibbonMenuItem']]]
 ];

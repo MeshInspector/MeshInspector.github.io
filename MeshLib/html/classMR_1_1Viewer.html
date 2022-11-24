@@ -113,9 +113,9 @@ $(document).ready(function(){initNavTree('classMR_1_1Viewer.html',''); initResiz
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Viewer_1_1LaunchParams.html">LaunchParams</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer_1_1EventQueue.html">EventQueue</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Viewer_1_1MouseQueueEvent.html">MouseQueueEvent</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Viewer_1_1LaunchParams.html">LaunchParams</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Viewer_1_1PointInAllSpaces.html">PointInAllSpaces</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,6 +167,10 @@ Public Types</h2></td></tr>
 <tr class="separator:a568a2e57dd51e0ea9a8f4dc581695762"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e7b5d040663db04b5ee435db17f41df"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a1e7b5d040663db04b5ee435db17f41df">KeySignal</a> = boost::signals2::signal&lt; bool(int key, int modifier), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a> &gt;</td></tr>
 <tr class="separator:a1e7b5d040663db04b5ee435db17f41df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a005ec95118bcf872af734950909d0a9b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a005ec95118bcf872af734950909d0a9b">SpaceMouseMoveSignal</a> = boost::signals2::signal&lt; bool(const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;translate, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;rotate), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a> &gt;</td></tr>
+<tr class="separator:a005ec95118bcf872af734950909d0a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ddbf48e08044f241c126505d2914ce1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a4ddbf48e08044f241c126505d2914ce1">SpaceMouseKeySignal</a> = boost::signals2::signal&lt; bool(int), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a> &gt;</td></tr>
+<tr class="separator:a4ddbf48e08044f241c126505d2914ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0feb0d244ebf3015b8ed14e68ebb5f12"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a0feb0d244ebf3015b8ed14e68ebb5f12">RenderSignal</a> = boost::signals2::signal&lt; void()&gt;</td></tr>
 <tr class="separator:a0feb0d244ebf3015b8ed14e68ebb5f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae75b061c70e140f41530c73ec2879d99"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ae75b061c70e140f41530c73ec2879d99">DragDropSignal</a> = boost::signals2::signal&lt; bool(const std::vector&lt; std::filesystem::path &gt; &amp;paths), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a> &gt;</td></tr>
@@ -177,6 +181,8 @@ Public Types</h2></td></tr>
 <tr class="separator:a448a65e5c8e0f80950482647b4d8a786"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d931c18f1c5ba9e57ae595db1a20d0b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a0d931c18f1c5ba9e57ae595db1a20d0b">InterruptCloseSignal</a> = boost::signals2::signal&lt; bool(), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a> &gt;</td></tr>
 <tr class="separator:a0d931c18f1c5ba9e57ae595db1a20d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96cbf0a63696ed1b370277034184b276"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a96cbf0a63696ed1b370277034184b276">TouchSignal</a> = boost::signals2::signal&lt; bool(int, int, int), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a> &gt;</td></tr>
+<tr class="separator:a96cbf0a63696ed1b370277034184b276"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -213,10 +219,26 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4b83b6b437c54b924fb899be6d452d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a874ef8410c1288964219fb79289c1d55"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a874ef8410c1288964219fb79289c1d55">mouseScroll</a> (float delta_y)</td></tr>
 <tr class="separator:a874ef8410c1288964219fb79289c1d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2f674380fd12c20f4a4fa1ce7ff3f7d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#af2f674380fd12c20f4a4fa1ce7ff3f7d">spaceMouseMove</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;translate, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;rotate)</td></tr>
+<tr class="separator:af2f674380fd12c20f4a4fa1ce7ff3f7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c978a70cf92edbbc251490bb4126a94"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a6c978a70cf92edbbc251490bb4126a94">spaceMouseDown</a> (int key)</td></tr>
+<tr class="separator:a6c978a70cf92edbbc251490bb4126a94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a789c1e2d71489d6fb562b457cb2bd2db"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a789c1e2d71489d6fb562b457cb2bd2db">spaceMouseUp</a> (int key)</td></tr>
+<tr class="separator:a789c1e2d71489d6fb562b457cb2bd2db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8daa2433ac6552c7964714e4fb54d75"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#aa8daa2433ac6552c7964714e4fb54d75">spaceMouseRepeat</a> (int key)</td></tr>
+<tr class="separator:aa8daa2433ac6552c7964714e4fb54d75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69116527e6d1bb79a5231d928ccf9bb9"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a69116527e6d1bb79a5231d928ccf9bb9">dragDrop</a> (const std::vector&lt; std::filesystem::path &gt; &amp;paths)</td></tr>
 <tr class="separator:a69116527e6d1bb79a5231d928ccf9bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a477a9c818f621b480bfe6bceb017d06e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a477a9c818f621b480bfe6bceb017d06e">touchStart</a> (int id, int x, int y)</td></tr>
+<tr class="separator:a477a9c818f621b480bfe6bceb017d06e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a618fa955d63e2e54e7d36d0b5488fe79"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a618fa955d63e2e54e7d36d0b5488fe79">touchMove</a> (int id, int x, int y)</td></tr>
+<tr class="separator:a618fa955d63e2e54e7d36d0b5488fe79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec4246d383cee0778606dc52faf8c0f0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#aec4246d383cee0778606dc52faf8c0f0">touchEnd</a> (int id, int x, int y)</td></tr>
+<tr class="separator:aec4246d383cee0778606dc52faf8c0f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2b6e2aad9eb5d9f49145edf383690f7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#af2b6e2aad9eb5d9f49145edf383690f7">interruptWindowClose</a> ()</td></tr>
 <tr class="separator:af2b6e2aad9eb5d9f49145edf383690f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76cf67a7300f775b7852b4749e7da446"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a76cf67a7300f775b7852b4749e7da446">joystickUpdateConnected</a> (int jid, int event)</td></tr>
+<tr class="separator:a76cf67a7300f775b7852b4749e7da446"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8671eecc60d8e0d8585683df92ea007"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ae8671eecc60d8e0d8585683df92ea007">draw</a> (bool force=false)</td></tr>
 <tr class="separator:ae8671eecc60d8e0d8585683df92ea007"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36809128dc93b900e68be7d81ba79704"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a36809128dc93b900e68be7d81ba79704">drawScene</a> () const</td></tr>
@@ -291,6 +313,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a31d6494e00e43d9afe0c2ca0c089c075"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae53206027c75dfd0e188f1d538c4e65f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ae53206027c75dfd0e188f1d538c4e65f">resetAllCounters</a> ()</td></tr>
 <tr class="separator:ae53206027c75dfd0e188f1d538c4e65f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad46ab4f89c272df9a7ec54dc4ae78fee"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ad46ab4f89c272df9a7ec54dc4ae78fee">setMouseScroll</a> (bool active)</td></tr>
+<tr class="separator:ad46ab4f89c272df9a7ec54dc4ae78fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac754983b2fc171f8fbfbf7ecde9ab0a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1Image.html">Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#aac754983b2fc171f8fbfbf7ecde9ab0a">captureScreenShot</a> (const <a class="el" href="namespaceMR.html#a414c921e724deba1be8a3f3b5a20af76">Vector2i</a> &amp;pos=<a class="el" href="namespaceMR.html#a414c921e724deba1be8a3f3b5a20af76">Vector2i</a>(), const <a class="el" href="namespaceMR.html#a414c921e724deba1be8a3f3b5a20af76">Vector2i</a> &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>=<a class="el" href="namespaceMR.html#a414c921e724deba1be8a3f3b5a20af76">Vector2i</a>())</td></tr>
 <tr class="separator:aac754983b2fc171f8fbfbf7ecde9ab0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5c3982fd523193e4b8a83ebde609f85"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ab5c3982fd523193e4b8a83ebde609f85">captureUIScreenShot</a> (std::function&lt; void(const <a class="el" href="structMR_1_1Image.html">Image</a> &amp;)&gt; callback, const <a class="el" href="namespaceMR.html#a414c921e724deba1be8a3f3b5a20af76">Vector2i</a> &amp;pos=<a class="el" href="namespaceMR.html#a414c921e724deba1be8a3f3b5a20af76">Vector2i</a>(), const <a class="el" href="namespaceMR.html#a414c921e724deba1be8a3f3b5a20af76">Vector2i</a> &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>=<a class="el" href="namespaceMR.html#a414c921e724deba1be8a3f3b5a20af76">Vector2i</a>())</td></tr>
@@ -378,6 +402,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:adf831263fb24913eceac036283c3fd7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29608d2703608c58e0f6bc86841b9eac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1MouseController.html">MouseController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a29608d2703608c58e0f6bc86841b9eac">mouseController</a></td></tr>
 <tr class="separator:a29608d2703608c58e0f6bc86841b9eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae590e587493538b3b3763b639bb3359"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1TouchesController.html">TouchesController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#aae590e587493538b3b3763b639bb3359">touchesController</a></td></tr>
+<tr class="separator:aae590e587493538b3b3763b639bb3359"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f134f639d0626adc4a40ebaede425af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1SpaceMouseController.html">SpaceMouseController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a4f134f639d0626adc4a40ebaede425af">spaceMouseController</a></td></tr>
+<tr class="separator:a4f134f639d0626adc4a40ebaede425af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a4958d213076c09dcd8de8ce49b87fb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a3a4958d213076c09dcd8de8ce49b87fb">window_width</a></td></tr>
 <tr class="separator:a3a4958d213076c09dcd8de8ce49b87fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4674b2abd599665851e1c1d40dcf2f65"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a4674b2abd599665851e1c1d40dcf2f65">window_height</a></td></tr>
@@ -428,6 +456,14 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a596ee67961e83af9e077ed76b480f2b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af78d0258ee2b2a1aa2078b66fa1852f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#a1e7b5d040663db04b5ee435db17f41df">KeySignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#af78d0258ee2b2a1aa2078b66fa1852f0">keyRepeatSignal</a></td></tr>
 <tr class="separator:af78d0258ee2b2a1aa2078b66fa1852f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67b0852013a8982e21e1906a70853a76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#a005ec95118bcf872af734950909d0a9b">SpaceMouseMoveSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a67b0852013a8982e21e1906a70853a76">spaceMouseMoveSignal</a></td></tr>
+<tr class="separator:a67b0852013a8982e21e1906a70853a76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0c3dbf98f78f81257766c462ed35950"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#a4ddbf48e08044f241c126505d2914ce1">SpaceMouseKeySignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ae0c3dbf98f78f81257766c462ed35950">spaceMouseDownSignal</a></td></tr>
+<tr class="separator:ae0c3dbf98f78f81257766c462ed35950"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6d46b28b5762441f32aaa728c6e17db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#a4ddbf48e08044f241c126505d2914ce1">SpaceMouseKeySignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ad6d46b28b5762441f32aaa728c6e17db">spaceMouseUpSignal</a></td></tr>
+<tr class="separator:ad6d46b28b5762441f32aaa728c6e17db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeddbff531ed133ebcca09d1d1d71b1b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#a4ddbf48e08044f241c126505d2914ce1">SpaceMouseKeySignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#aeddbff531ed133ebcca09d1d1d71b1b7">spaceMouseRepeatSignal</a></td></tr>
+<tr class="separator:aeddbff531ed133ebcca09d1d1d71b1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d5250e84d2551d0a55d55851ed8904f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#a0feb0d244ebf3015b8ed14e68ebb5f12">RenderSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a8d5250e84d2551d0a55d55851ed8904f">preDrawSignal</a></td></tr>
 <tr class="separator:a8d5250e84d2551d0a55d55851ed8904f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a189e303426332fa5073bbe325ff96089"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#a0feb0d244ebf3015b8ed14e68ebb5f12">RenderSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a189e303426332fa5073bbe325ff96089">preDrawPostViewportSignal</a></td></tr>
@@ -446,8 +482,14 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ab2409f30621eb315fb17072cbc831daf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3422160febbc395d966e7a4fcfc5207f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#a0d931c18f1c5ba9e57ae595db1a20d0b">InterruptCloseSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a3422160febbc395d966e7a4fcfc5207f">interruptCloseSignal</a></td></tr>
 <tr class="separator:a3422160febbc395d966e7a4fcfc5207f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3e9963249d0d4ac2162fc36f9d9f1f9"><td class="memItemLeft" align="right" valign="top">std::queue&lt; <a class="el" href="structMR_1_1Viewer_1_1MouseQueueEvent.html">MouseQueueEvent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#aa3e9963249d0d4ac2162fc36f9d9f1f9">mouseEventQueue</a></td></tr>
-<tr class="separator:aa3e9963249d0d4ac2162fc36f9d9f1f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8629fdd3c1cf178772229aee161f0f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#a96cbf0a63696ed1b370277034184b276">TouchSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ad8629fdd3c1cf178772229aee161f0f1">touchStartSignal</a></td></tr>
+<tr class="separator:ad8629fdd3c1cf178772229aee161f0f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7ea8952ac1b288e433a45fab542197f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#a96cbf0a63696ed1b370277034184b276">TouchSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#af7ea8952ac1b288e433a45fab542197f">touchMoveSignal</a></td></tr>
+<tr class="separator:af7ea8952ac1b288e433a45fab542197f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60764bea45c4611d5503e08c56343884"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#a96cbf0a63696ed1b370277034184b276">TouchSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a60764bea45c4611d5503e08c56343884">touchEndSignal</a></td></tr>
+<tr class="separator:a60764bea45c4611d5503e08c56343884"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac739b038385e105c918f19a5f0620aae"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="classMR_1_1Viewer_1_1EventQueue.html">MR::Viewer::EventQueue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ac739b038385e105c918f19a5f0620aae">eventQueue</a></td></tr>
+<tr class="separator:ac739b038385e105c918f19a5f0620aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -631,6 +673,48 @@ Friends</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classMR_1_1Viewer.html#a0feb0d244ebf3015b8ed14e68ebb5f12">MR::Viewer::RenderSignal</a> =  boost::signals2::signal&lt;void()&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ddbf48e08044f241c126505d2914ce1" name="a4ddbf48e08044f241c126505d2914ce1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ddbf48e08044f241c126505d2914ce1">&#9670;&#160;</a></span>SpaceMouseKeySignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classMR_1_1Viewer.html#a4ddbf48e08044f241c126505d2914ce1">MR::Viewer::SpaceMouseKeySignal</a> =  boost::signals2::signal&lt;bool( int ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a005ec95118bcf872af734950909d0a9b" name="a005ec95118bcf872af734950909d0a9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a005ec95118bcf872af734950909d0a9b">&#9670;&#160;</a></span>SpaceMouseMoveSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classMR_1_1Viewer.html#a005ec95118bcf872af734950909d0a9b">MR::Viewer::SpaceMouseMoveSignal</a> =  boost::signals2::signal&lt;bool( const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>&amp; translate, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>&amp; rotate ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a96cbf0a63696ed1b370277034184b276" name="a96cbf0a63696ed1b370277034184b276"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96cbf0a63696ed1b370277034184b276">&#9670;&#160;</a></span>TouchSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classMR_1_1Viewer.html#a96cbf0a63696ed1b370277034184b276">MR::Viewer::TouchSignal</a> =  boost::signals2::signal&lt;bool(int,int,int), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1837,6 +1921,34 @@ template&lt;typename PluginType &gt; </div>
 
 </div>
 </div>
+<a id="a76cf67a7300f775b7852b4749e7da446" name="a76cf67a7300f775b7852b4749e7da446"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76cf67a7300f775b7852b4749e7da446">&#9670;&#160;</a></span>joystickUpdateConnected()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::Viewer::joystickUpdateConnected </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>jid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>event</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abfbfee4369c2e3f34fa8bbf6a45bbf40" name="abfbfee4369c2e3f34fa8bbf6a45bbf40"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abfbfee4369c2e3f34fa8bbf6a45bbf40">&#9670;&#160;</a></span>keyDown()</h2>
 
@@ -2510,6 +2622,24 @@ template&lt;typename PluginType &gt; </div>
 
 </div>
 </div>
+<a id="ad46ab4f89c272df9a7ec54dc4ae78fee" name="ad46ab4f89c272df9a7ec54dc4ae78fee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad46ab4f89c272df9a7ec54dc4ae78fee">&#9670;&#160;</a></span>setMouseScroll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::Viewer::setMouseScroll </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>active</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac8eb7071af575a78eb86abc5114add0f" name="ac8eb7071af575a78eb86abc5114add0f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac8eb7071af575a78eb86abc5114add0f">&#9670;&#160;</a></span>setupScene()</h2>
 
@@ -2545,6 +2675,88 @@ template&lt;typename PluginType &gt; </div>
 
 </div>
 </div>
+<a id="a6c978a70cf92edbbc251490bb4126a94" name="a6c978a70cf92edbbc251490bb4126a94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c978a70cf92edbbc251490bb4126a94">&#9670;&#160;</a></span>spaceMouseDown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::spaceMouseDown </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af2f674380fd12c20f4a4fa1ce7ff3f7d" name="af2f674380fd12c20f4a4fa1ce7ff3f7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2f674380fd12c20f4a4fa1ce7ff3f7d">&#9670;&#160;</a></span>spaceMouseMove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::spaceMouseMove </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>translate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>rotate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa8daa2433ac6552c7964714e4fb54d75" name="aa8daa2433ac6552c7964714e4fb54d75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8daa2433ac6552c7964714e4fb54d75">&#9670;&#160;</a></span>spaceMouseRepeat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::spaceMouseRepeat </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a789c1e2d71489d6fb562b457cb2bd2db" name="a789c1e2d71489d6fb562b457cb2bd2db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a789c1e2d71489d6fb562b457cb2bd2db">&#9670;&#160;</a></span>spaceMouseUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::spaceMouseUp </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae29c947bfa15c43f777ab468990ff716" name="ae29c947bfa15c43f777ab468990ff716"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae29c947bfa15c43f777ab468990ff716">&#9670;&#160;</a></span>stopEventLoop()</h2>
 
@@ -2566,6 +2778,108 @@ template&lt;typename PluginType &gt; </div>
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec4246d383cee0778606dc52faf8c0f0" name="aec4246d383cee0778606dc52faf8c0f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec4246d383cee0778606dc52faf8c0f0">&#9670;&#160;</a></span>touchEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::touchEnd </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a618fa955d63e2e54e7d36d0b5488fe79" name="a618fa955d63e2e54e7d36d0b5488fe79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a618fa955d63e2e54e7d36d0b5488fe79">&#9670;&#160;</a></span>touchMove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::touchMove </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a477a9c818f621b480bfe6bceb017d06e" name="a477a9c818f621b480bfe6bceb017d06e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a477a9c818f621b480bfe6bceb017d06e">&#9670;&#160;</a></span>touchStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::touchStart </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -2836,6 +3150,20 @@ template&lt;typename PluginType &gt; </div>
 
 </div>
 </div>
+<a id="ac739b038385e105c918f19a5f0620aae" name="ac739b038385e105c918f19a5f0620aae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac739b038385e105c918f19a5f0620aae">&#9670;&#160;</a></span>eventQueue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">class <a class="el" href="classMR_1_1Viewer_1_1EventQueue.html">MR::Viewer::EventQueue</a> MR::Viewer::eventQueue</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a001f35f7fc983544a5af14e38a07a450" name="a001f35f7fc983544a5af14e38a07a450"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a001f35f7fc983544a5af14e38a07a450">&#9670;&#160;</a></span>globalBasisAxes</h2>
 
@@ -2942,20 +3270,6 @@ template&lt;typename PluginType &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classMR_1_1Viewer.html#a1aecfd029115f7b6327183d3d313297a">MouseUpDownSignal</a> MR::Viewer::mouseDownSignal</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa3e9963249d0d4ac2162fc36f9d9f1f9" name="aa3e9963249d0d4ac2162fc36f9d9f1f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3e9963249d0d4ac2162fc36f9d9f1f9">&#9670;&#160;</a></span>mouseEventQueue</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::queue&lt;<a class="el" href="structMR_1_1Viewer_1_1MouseQueueEvent.html">MouseQueueEvent</a>&gt; MR::Viewer::mouseEventQueue</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3158,6 +3472,76 @@ template&lt;typename PluginType &gt; </div>
 
 </div>
 </div>
+<a id="a4f134f639d0626adc4a40ebaede425af" name="a4f134f639d0626adc4a40ebaede425af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f134f639d0626adc4a40ebaede425af">&#9670;&#160;</a></span>spaceMouseController</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1SpaceMouseController.html">SpaceMouseController</a> MR::Viewer::spaceMouseController</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae0c3dbf98f78f81257766c462ed35950" name="ae0c3dbf98f78f81257766c462ed35950"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0c3dbf98f78f81257766c462ed35950">&#9670;&#160;</a></span>spaceMouseDownSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Viewer.html#a4ddbf48e08044f241c126505d2914ce1">SpaceMouseKeySignal</a> MR::Viewer::spaceMouseDownSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a67b0852013a8982e21e1906a70853a76" name="a67b0852013a8982e21e1906a70853a76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67b0852013a8982e21e1906a70853a76">&#9670;&#160;</a></span>spaceMouseMoveSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Viewer.html#a005ec95118bcf872af734950909d0a9b">SpaceMouseMoveSignal</a> MR::Viewer::spaceMouseMoveSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeddbff531ed133ebcca09d1d1d71b1b7" name="aeddbff531ed133ebcca09d1d1d71b1b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeddbff531ed133ebcca09d1d1d71b1b7">&#9670;&#160;</a></span>spaceMouseRepeatSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Viewer.html#a4ddbf48e08044f241c126505d2914ce1">SpaceMouseKeySignal</a> MR::Viewer::spaceMouseRepeatSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad6d46b28b5762441f32aaa728c6e17db" name="ad6d46b28b5762441f32aaa728c6e17db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6d46b28b5762441f32aaa728c6e17db">&#9670;&#160;</a></span>spaceMouseUpSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Viewer.html#a4ddbf48e08044f241c126505d2914ce1">SpaceMouseKeySignal</a> MR::Viewer::spaceMouseUpSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a297a4daffc230ff2379b7c69f2312089" name="a297a4daffc230ff2379b7c69f2312089"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a297a4daffc230ff2379b7c69f2312089">&#9670;&#160;</a></span>swapOnLastPostEventsRedraw</h2>
 
@@ -3166,6 +3550,62 @@ template&lt;typename PluginType &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">bool MR::Viewer::swapOnLastPostEventsRedraw { true }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a60764bea45c4611d5503e08c56343884" name="a60764bea45c4611d5503e08c56343884"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60764bea45c4611d5503e08c56343884">&#9670;&#160;</a></span>touchEndSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Viewer.html#a96cbf0a63696ed1b370277034184b276">TouchSignal</a> MR::Viewer::touchEndSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aae590e587493538b3b3763b639bb3359" name="aae590e587493538b3b3763b639bb3359"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae590e587493538b3b3763b639bb3359">&#9670;&#160;</a></span>touchesController</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1TouchesController.html">TouchesController</a> MR::Viewer::touchesController</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af7ea8952ac1b288e433a45fab542197f" name="af7ea8952ac1b288e433a45fab542197f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7ea8952ac1b288e433a45fab542197f">&#9670;&#160;</a></span>touchMoveSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Viewer.html#a96cbf0a63696ed1b370277034184b276">TouchSignal</a> MR::Viewer::touchMoveSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad8629fdd3c1cf178772229aee161f0f1" name="ad8629fdd3c1cf178772229aee161f0f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8629fdd3c1cf178772229aee161f0f1">&#9670;&#160;</a></span>touchStartSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Viewer.html#a96cbf0a63696ed1b370277034184b276">TouchSignal</a> MR::Viewer::touchStartSignal</td>
         </tr>
       </table>
 </div><div class="memdoc">

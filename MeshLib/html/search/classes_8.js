@@ -13,10 +13,11 @@ var searchData=
   ['improvedirectionparameters_10',['ImproveDirectionParameters',['../structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html',1,'MR::FixUndercuts']]],
   ['interruptcloselistener_11',['InterruptCloseListener',['../structMR_1_1InterruptCloseListener.html',1,'MR']]],
   ['intersectionprecomputes_12',['IntersectionPrecomputes',['../structMR_1_1IntersectionPrecomputes.html',1,'MR']]],
-  ['iofilter_13',['IOFilter',['../structMR_1_1IOFilter.html',1,'MR']]],
-  ['ipluginclosecheck_14',['IPluginCloseCheck',['../classMR_1_1IPluginCloseCheck.html',1,'MR']]],
-  ['irenderobject_15',['IRenderObject',['../classMR_1_1IRenderObject.html',1,'MR']]],
-  ['iscenestatecheck_16',['ISceneStateCheck',['../classMR_1_1ISceneStateCheck.html',1,'MR']]],
-  ['iteratorrange_17',['IteratorRange',['../structMR_1_1IteratorRange.html',1,'MR']]],
-  ['iviewersettingsmanager_18',['IViewerSettingsManager',['../classMR_1_1IViewerSettingsManager.html',1,'MR']]]
+  ['intersectionprecomputes2_13',['IntersectionPrecomputes2',['../structMR_1_1IntersectionPrecomputes2.html',1,'MR']]],
+  ['iofilter_14',['IOFilter',['../structMR_1_1IOFilter.html',1,'MR']]],
+  ['ipluginclosecheck_15',['IPluginCloseCheck',['../classMR_1_1IPluginCloseCheck.html',1,'MR']]],
+  ['irenderobject_16',['IRenderObject',['../classMR_1_1IRenderObject.html',1,'MR']]],
+  ['iscenestatecheck_17',['ISceneStateCheck',['../classMR_1_1ISceneStateCheck.html',1,'MR']]],
+  ['iteratorrange_18',['IteratorRange',['../structMR_1_1IteratorRange.html',1,'MR']]],
+  ['iviewersettingsmanager_19',['IViewerSettingsManager',['../classMR_1_1IViewerSettingsManager.html',1,'MR']]]
 ];

@@ -12,17 +12,17 @@ var group__DataModelGroup =
       [ "operator=", "classMR_1_1MutexOwner.html#a30d3eced338bc5a6d50839e0dd3c3796", null ],
       [ "operator=", "classMR_1_1MutexOwner.html#accbf59471a9ce12f038a0358ae18405b", null ]
     ] ],
-    [ "MR::ObjectChildrenHolder", "structMR_1_1ObjectChildrenHolder.html", [
-      [ "ObjectChildrenHolder", "structMR_1_1ObjectChildrenHolder.html#acad4a073a2e703743e01e2e5cce9e285", null ],
-      [ "ObjectChildrenHolder", "structMR_1_1ObjectChildrenHolder.html#abe5fd651687475c08a436dbd64c86915", null ],
-      [ "ObjectChildrenHolder", "structMR_1_1ObjectChildrenHolder.html#a89b1fff6ebde3c5a71a530e3c8cddfb6", null ],
-      [ "~ObjectChildrenHolder", "structMR_1_1ObjectChildrenHolder.html#a0d547b2ea371b35b7f6aeb91b0a31ef8", null ],
-      [ "heapBytes", "structMR_1_1ObjectChildrenHolder.html#a1e6d0779adf4e149515a0404d3cf4276", null ],
-      [ "operator=", "structMR_1_1ObjectChildrenHolder.html#ae39e06ea3526edf1f280e7158a5a4bd7", null ],
-      [ "operator=", "structMR_1_1ObjectChildrenHolder.html#aca1fa4cd4c9ee1cb2e567623c979b26f", null ],
-      [ "bastards_", "structMR_1_1ObjectChildrenHolder.html#a2ba9302240c85bc5dfd78068e7b2e918", null ],
-      [ "children_", "structMR_1_1ObjectChildrenHolder.html#a20c010d72c82523c01e5de05910eb34c", null ],
-      [ "parent_", "structMR_1_1ObjectChildrenHolder.html#a259c2fd3dbddeb61dda375ff1f4741a5", null ]
+    [ "MR::ObjectChildrenHolder", "classMR_1_1ObjectChildrenHolder.html", [
+      [ "ObjectChildrenHolder", "classMR_1_1ObjectChildrenHolder.html#acad4a073a2e703743e01e2e5cce9e285", null ],
+      [ "ObjectChildrenHolder", "classMR_1_1ObjectChildrenHolder.html#abe5fd651687475c08a436dbd64c86915", null ],
+      [ "ObjectChildrenHolder", "classMR_1_1ObjectChildrenHolder.html#a89b1fff6ebde3c5a71a530e3c8cddfb6", null ],
+      [ "~ObjectChildrenHolder", "classMR_1_1ObjectChildrenHolder.html#a0d547b2ea371b35b7f6aeb91b0a31ef8", null ],
+      [ "heapBytes", "classMR_1_1ObjectChildrenHolder.html#a1e6d0779adf4e149515a0404d3cf4276", null ],
+      [ "operator=", "classMR_1_1ObjectChildrenHolder.html#ae39e06ea3526edf1f280e7158a5a4bd7", null ],
+      [ "operator=", "classMR_1_1ObjectChildrenHolder.html#aca1fa4cd4c9ee1cb2e567623c979b26f", null ],
+      [ "bastards_", "classMR_1_1ObjectChildrenHolder.html#a2ba9302240c85bc5dfd78068e7b2e918", null ],
+      [ "children_", "classMR_1_1ObjectChildrenHolder.html#a20c010d72c82523c01e5de05910eb34c", null ],
+      [ "parent_", "classMR_1_1ObjectChildrenHolder.html#a79a7197e0981d1da1b59f5fa0d858f7d", null ]
     ] ],
     [ "MR::Object", "classMR_1_1Object.html", [
       [ "ProtectedStruct", "structMR_1_1Object_1_1ProtectedStruct.html", [
@@ -279,13 +279,13 @@ var group__DataModelGroup =
       [ "heapBytes", "classMR_1_1ObjectVoxels.html#a345d4438fb7808f95b3ca2dc9a1ad33b", null ],
       [ "histogram", "classMR_1_1ObjectVoxels.html#af4e1350561bc2e71d56741b954562868", null ],
       [ "operator=", "classMR_1_1ObjectVoxels.html#a2f2260ca64565ffbedc9236f28e19b98", null ],
-      [ "recalculateIsoSurface", "classMR_1_1ObjectVoxels.html#ac271d7661d05892a888111b04ef92179", null ],
+      [ "recalculateIsoSurface", "classMR_1_1ObjectVoxels.html#ab8a626a9952572ac9955268ffc1e5413", null ],
       [ "selectVoxels", "classMR_1_1ObjectVoxels.html#a4333c77a23030251df09a35b3432fdd6", null ],
       [ "serializeFields_", "classMR_1_1ObjectVoxels.html#a1b9e402abcba964cf107ae761006fdb3", null ],
       [ "serializeModel_", "classMR_1_1ObjectVoxels.html#a56b13d3ff08ee4d3d3ee64fb2e51fe16", null ],
       [ "setActiveBounds", "classMR_1_1ObjectVoxels.html#a7e16d8a108f465ccb925e3e36886739e", null ],
       [ "setDirtyFlags", "classMR_1_1ObjectVoxels.html#a62f604cd208a8d89e61015edc053d9d2", null ],
-      [ "setIsoValue", "classMR_1_1ObjectVoxels.html#acfaf0c1dab0e9b434d5db4dbc4e82b41", null ],
+      [ "setIsoValue", "classMR_1_1ObjectVoxels.html#af09743d1824ef1e0f83efa7ce8afc0a4", null ],
       [ "setMaxSurfaceTriangles", "classMR_1_1ObjectVoxels.html#afc8d902cf6122deba11b7fd9105e144d", null ],
       [ "shallowClone", "classMR_1_1ObjectVoxels.html#a225f04e78475f3534bd49929d9200da1", null ],
       [ "surface", "classMR_1_1ObjectVoxels.html#a31a6e0940a4632729bd5bab336d3b99f", null ],

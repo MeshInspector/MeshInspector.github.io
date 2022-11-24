@@ -14,8 +14,7 @@ var searchData=
   ['mousemove_11',['MouseMove',['../classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0afd060c0c157323f1e43e0704d4f3ffc8',1,'MR::Viewer']]],
   ['mousescroll_12',['MouseScroll',['../classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0ab4efa1e1d0671dddbd78735a0bd24274',1,'MR::Viewer']]],
   ['mouseup_13',['MouseUp',['../classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0a5c55840fe2a83a886590c780f0aa7031',1,'MR::Viewer']]],
-  ['move_14',['Move',['../structMR_1_1Viewer_1_1MouseQueueEvent.html#a408c087cfb8bee1a4169184831ff53fba7e037d931c74a25d2e254565aa99b492',1,'MR::Viewer::MouseQueueEvent']]],
-  ['movex_15',['MoveX',['../classMR_1_1ObjectTransformWidget.html#a4ab6c5281aca51196492f7ac931414c1a562146a2dd8761ec5953b86788f0e2ad',1,'MR::ObjectTransformWidget']]],
-  ['movey_16',['MoveY',['../classMR_1_1ObjectTransformWidget.html#a4ab6c5281aca51196492f7ac931414c1a72ebc70f01c82ebbb2aefe1086876d52',1,'MR::ObjectTransformWidget']]],
-  ['movez_17',['MoveZ',['../classMR_1_1ObjectTransformWidget.html#a4ab6c5281aca51196492f7ac931414c1a626165e8669c9131d34d3b4e586067a3',1,'MR::ObjectTransformWidget']]]
+  ['movex_14',['MoveX',['../classMR_1_1ObjectTransformWidget.html#a4ab6c5281aca51196492f7ac931414c1a562146a2dd8761ec5953b86788f0e2ad',1,'MR::ObjectTransformWidget']]],
+  ['movey_15',['MoveY',['../classMR_1_1ObjectTransformWidget.html#a4ab6c5281aca51196492f7ac931414c1a72ebc70f01c82ebbb2aefe1086876d52',1,'MR::ObjectTransformWidget']]],
+  ['movez_16',['MoveZ',['../classMR_1_1ObjectTransformWidget.html#a4ab6c5281aca51196492f7ac931414c1a626165e8669c9131d34d3b4e586067a3',1,'MR::ObjectTransformWidget']]]
 ];

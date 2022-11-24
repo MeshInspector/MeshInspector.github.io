@@ -137,6 +137,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1IntersectionPrecomputes2.html">MR::IntersectionPrecomputes2&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1EdgeTri.html">MR::EdgeTri</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">edge from one mesh and triangle from another mesh  <a href="structMR_1_1EdgeTri.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,13 +161,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SignedDistanceToMeshResult.html">MR::SignedDistanceToMeshResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline2ProjectionResult.html">MR::Polyline2ProjectionResult</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PolylineProjectionResult.html">MR::PolylineProjectionResult&lt; V &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline2ProjectionWithOffsetResult.html">MR::Polyline2ProjectionWithOffsetResult</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PolylineProjectionResult.html">MR::PolylineProjectionResult</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PolylineProjectionWithOffsetResult.html">MR::PolylineProjectionWithOffsetResult</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PolylineProjectionWithOffsetResult.html">MR::PolylineProjectionWithOffsetResult&lt; V &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -199,6 +197,13 @@ Typedefs</h2></td></tr>
 <tr class="separator:gaaf317c41824870416408c08346c2171e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab84b0b767274335b6f0f59bbb9537fe3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gab84b0b767274335b6f0f59bbb9537fe3">MR::MeshIntersectionCallback</a> = std::function&lt; bool(const <a class="el" href="structMR_1_1MeshIntersectionResult.html">MeshIntersectionResult</a> &amp;)&gt;</td></tr>
 <tr class="separator:gab84b0b767274335b6f0f59bbb9537fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6567418169a65826fd82b440411a4fc4"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:ga6567418169a65826fd82b440411a4fc4"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga6567418169a65826fd82b440411a4fc4">MR::FoundEdgeCallback</a> = std::function&lt; void(<a class="el" href="namespaceMR.html#a65798dca01178b50da3bbd7968fb360e">UndirectedEdgeId</a>, const V &amp;closestPt, float distSq)&gt;</td></tr>
+<tr class="separator:ga6567418169a65826fd82b440411a4fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4f844f73b163343e67f73579ee60eb3b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga4f844f73b163343e67f73579ee60eb3b">MR::FoundEdgeCallback2</a> = <a class="el" href="group__AABBTreeGroup.html#ga6567418169a65826fd82b440411a4fc4">FoundEdgeCallback</a>&lt; <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &gt;</td></tr>
+<tr class="separator:ga4f844f73b163343e67f73579ee60eb3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf77c51a2927a660589bbe050fdbd6ac8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaf77c51a2927a660589bbe050fdbd6ac8">MR::FoundEdgeCallback3</a> = <a class="el" href="group__AABBTreeGroup.html#ga6567418169a65826fd82b440411a4fc4">FoundEdgeCallback</a>&lt; <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &gt;</td></tr>
+<tr class="separator:gaf77c51a2927a660589bbe050fdbd6ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -216,6 +221,10 @@ Functions</h2></td></tr>
 <tr class="separator:ga9984ed4cff38cd012243e835f02e0e92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac2a5a2178c875139ca3e402c1a46324c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gac2a5a2178c875139ca3e402c1a46324c">MR::IntersectionPrecomputes&lt; T &gt;::IntersectionPrecomputes</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;dir)</td></tr>
 <tr class="separator:gac2a5a2178c875139ca3e402c1a46324c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga562052fddd56327be07ffe8c0cc7f7af"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga562052fddd56327be07ffe8c0cc7f7af"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga562052fddd56327be07ffe8c0cc7f7af">MR::findMaxVectorDim</a> (int &amp;dimX, int &amp;dimY, const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;dir)</td></tr>
+<tr class="memdesc:ga562052fddd56327be07ffe8c0cc7f7af"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds index of maximum axis and stores it into dimY  <a href="group__AABBTreeGroup.html#ga562052fddd56327be07ffe8c0cc7f7af">More...</a><br /></td></tr>
+<tr class="separator:ga562052fddd56327be07ffe8c0cc7f7af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaaeb209f0c917451a03debbf058fc39e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1FaceFace.html">FaceFace</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaaeb209f0c917451a03debbf058fc39e6">MR::findCollidingTriangles</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;a, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;b, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *rigidB2A=nullptr, bool firstIntersectionOnly=false)</td></tr>
 <tr class="memdesc:gaaeb209f0c917451a03debbf058fc39e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding triangles from two meshes or two mesh regions  <a href="group__AABBTreeGroup.html#gaaeb209f0c917451a03debbf058fc39e6">More...</a><br /></td></tr>
 <tr class="separator:gaaeb209f0c917451a03debbf058fc39e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -292,17 +301,23 @@ Functions</h2></td></tr>
 <tr class="separator:gadb026730b0df98aa305e2721e46fc495"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf7090d7297e7990875bac76b780daadf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaf7090d7297e7990875bac76b780daadf">MR::findPointsInBall</a> (const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;tree, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;center, float radius, const <a class="el" href="namespaceMR.html#ac4f1361c3362959c175d914a777b236d">FoundPointCallback</a> &amp;foundCallback)</td></tr>
 <tr class="separator:gaf7090d7297e7990875bac76b780daadf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga15a3e18d2098f8ff33e67776a221e6fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1EdgePointPair.html">EdgePointPair</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga15a3e18d2098f8ff33e67776a221e6fb">MR::findCollidingEdgePairs</a> (const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;a, const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;b, const <a class="el" href="namespaceMR.html#aaf5a1eb99830c5d7196aa5bf3a05f70e">AffineXf2f</a> *rigidB2A=nullptr, bool firstIntersectionOnly=false)</td></tr>
+<tr class="memdesc:ga15a3e18d2098f8ff33e67776a221e6fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding edges from two 2d polylines  <a href="group__AABBTreeGroup.html#ga15a3e18d2098f8ff33e67776a221e6fb">More...</a><br /></td></tr>
+<tr class="separator:ga15a3e18d2098f8ff33e67776a221e6fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga44c8af10ceaf3059a77647d7b6f2ca8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1UndirectedEdgeUndirectedEdge.html">UndirectedEdgeUndirectedEdge</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga44c8af10ceaf3059a77647d7b6f2ca8b">MR::findCollidingEdges</a> (const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;a, const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;b, const <a class="el" href="namespaceMR.html#aaf5a1eb99830c5d7196aa5bf3a05f70e">AffineXf2f</a> *rigidB2A=nullptr, bool firstIntersectionOnly=false)</td></tr>
 <tr class="memdesc:ga44c8af10ceaf3059a77647d7b6f2ca8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding edges from two 2d polylines  <a href="group__AABBTreeGroup.html#ga44c8af10ceaf3059a77647d7b6f2ca8b">More...</a><br /></td></tr>
 <tr class="separator:ga44c8af10ceaf3059a77647d7b6f2ca8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0f3404724c88f935957c8c3c8962ea3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::pair&lt; <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a>, <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga0f3404724c88f935957c8c3c8962ea3a">MR::findCollidingEdgesBitsets</a> (const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;a, const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;b, const <a class="el" href="namespaceMR.html#aaf5a1eb99830c5d7196aa5bf3a05f70e">AffineXf2f</a> *rigidB2A=nullptr)</td></tr>
-<tr class="memdesc:ga0f3404724c88f935957c8c3c8962ea3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same as <a class="el" href="group__AABBTreeGroup.html#ga44c8af10ceaf3059a77647d7b6f2ca8b">findCollidingEdges</a>, but returns one bitset per polyline with colliding edges  <a href="group__AABBTreeGroup.html#ga0f3404724c88f935957c8c3c8962ea3a">More...</a><br /></td></tr>
+<tr class="memdesc:ga0f3404724c88f935957c8c3c8962ea3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds bitset per polyline with colliding edges  <a href="group__AABBTreeGroup.html#ga0f3404724c88f935957c8c3c8962ea3a">More...</a><br /></td></tr>
 <tr class="separator:ga0f3404724c88f935957c8c3c8962ea3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4fca223a68dac564f66af0224c0ec3ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1EdgePointPair.html">EdgePointPair</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga4fca223a68dac564f66af0224c0ec3ec">MR::findSelfCollidingEdgePairs</a> (const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;polyline)</td></tr>
+<tr class="memdesc:ga4fca223a68dac564f66af0224c0ec3ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding edges from 2d polyline  <a href="group__AABBTreeGroup.html#ga4fca223a68dac564f66af0224c0ec3ec">More...</a><br /></td></tr>
+<tr class="separator:ga4fca223a68dac564f66af0224c0ec3ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad89aed99c2cba4cd08e06d896b839841"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1UndirectedEdgeUndirectedEdge.html">UndirectedEdgeUndirectedEdge</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gad89aed99c2cba4cd08e06d896b839841">MR::findSelfCollidingEdges</a> (const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;polyline)</td></tr>
 <tr class="memdesc:gad89aed99c2cba4cd08e06d896b839841"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding edges from 2d polyline  <a href="group__AABBTreeGroup.html#gad89aed99c2cba4cd08e06d896b839841">More...</a><br /></td></tr>
 <tr class="separator:gad89aed99c2cba4cd08e06d896b839841"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8658f18b6b0489c1dafa4903c64c0165"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga8658f18b6b0489c1dafa4903c64c0165">MR::findSelfCollidingEdgesBS</a> (const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;polyline)</td></tr>
-<tr class="memdesc:ga8658f18b6b0489c1dafa4903c64c0165"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same as <a class="el" href="group__AABBTreeGroup.html#gad89aed99c2cba4cd08e06d896b839841">findSelfCollidingEdges</a>, but returns the union of all self-intersecting edges  <a href="group__AABBTreeGroup.html#ga8658f18b6b0489c1dafa4903c64c0165">More...</a><br /></td></tr>
+<tr class="memdesc:ga8658f18b6b0489c1dafa4903c64c0165"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the union of all self-intersecting edges  <a href="group__AABBTreeGroup.html#ga8658f18b6b0489c1dafa4903c64c0165">More...</a><br /></td></tr>
 <tr class="separator:ga8658f18b6b0489c1dafa4903c64c0165"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa8d770560279dcdaa48764810b77c30d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaa8d770560279dcdaa48764810b77c30d">MR::isInside</a> (const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;a, const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;b, const <a class="el" href="namespaceMR.html#aaf5a1eb99830c5d7196aa5bf3a05f70e">AffineXf2f</a> *rigidB2A=nullptr)</td></tr>
 <tr class="memdesc:gaa8d770560279dcdaa48764810b77c30d"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary 2d polyline A is inside of closed 2d polyline B  <a href="group__AABBTreeGroup.html#gaa8d770560279dcdaa48764810b77c30d">More...</a><br /></td></tr>
@@ -310,21 +325,27 @@ Functions</h2></td></tr>
 <tr class="memitem:ga2aba3040bbdbbafb7d8e38803b955524"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga2aba3040bbdbbafb7d8e38803b955524">MR::isPointInsidePolyline</a> (const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;polyline, const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;point)</td></tr>
 <tr class="memdesc:ga2aba3040bbdbbafb7d8e38803b955524"><td class="mdescLeft">&#160;</td><td class="mdescRight">detect if given point is inside polyline, by counting ray intersections  <a href="group__AABBTreeGroup.html#ga2aba3040bbdbbafb7d8e38803b955524">More...</a><br /></td></tr>
 <tr class="separator:ga2aba3040bbdbbafb7d8e38803b955524"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaca9e8826ee187bd7337149bd1b75f3d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Polyline2ProjectionResult.html">Polyline2ProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaca9e8826ee187bd7337149bd1b75f3d5">MR::findProjectionOnPolyline2</a> (const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;pt, const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;polyline, float upDistLimitSq=FLT_MAX, <a class="el" href="namespaceMR.html#aaf5a1eb99830c5d7196aa5bf3a05f70e">AffineXf2f</a> *xf=nullptr)</td></tr>
-<tr class="memdesc:gaca9e8826ee187bd7337149bd1b75f3d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on two dimensional polyline to given point  <a href="group__AABBTreeGroup.html#gaca9e8826ee187bd7337149bd1b75f3d5">More...</a><br /></td></tr>
-<tr class="separator:gaca9e8826ee187bd7337149bd1b75f3d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad4d1904259196cbfcb2d9fe4bf4c02a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Polyline2ProjectionWithOffsetResult.html">Polyline2ProjectionWithOffsetResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gad4d1904259196cbfcb2d9fe4bf4c02a2">MR::findProjectionOnPolyline2WithOffset</a> (const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;pt, const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;polyline, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="el" href="namespaceMR.html#a65798dca01178b50da3bbd7968fb360e">UndirectedEdgeId</a> &gt; &amp;offsetPerEdge, float upDistLimit=FLT_MAX, <a class="el" href="namespaceMR.html#aaf5a1eb99830c5d7196aa5bf3a05f70e">AffineXf2f</a> *xf=nullptr)</td></tr>
+<tr class="memitem:gad6115056e8f7fed8388025d6299387f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a0898ca7d08b2fb73875b21bf4921f4fd">PolylineProjectionResult2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gad6115056e8f7fed8388025d6299387f7">MR::findProjectionOnPolyline2</a> (const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;pt, const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;polyline, float upDistLimitSq=FLT_MAX, <a class="el" href="namespaceMR.html#aaf5a1eb99830c5d7196aa5bf3a05f70e">AffineXf2f</a> *xf=nullptr)</td></tr>
+<tr class="memdesc:gad6115056e8f7fed8388025d6299387f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on polyline to given point  <a href="group__AABBTreeGroup.html#gad6115056e8f7fed8388025d6299387f7">More...</a><br /></td></tr>
+<tr class="separator:gad6115056e8f7fed8388025d6299387f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab4e6d7044960ec9381bbdba568c131b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a847af1551a9dcab4a5a333b6607522a7">PolylineProjectionResult3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gab4e6d7044960ec9381bbdba568c131b8">MR::findProjectionOnPolyline</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pt, const <a class="el" href="namespaceMR.html#a58b74f27c86e7e9dee889bfe30f3022a">Polyline3</a> &amp;polyline, float upDistLimitSq=FLT_MAX, <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr)</td></tr>
+<tr class="memdesc:gab4e6d7044960ec9381bbdba568c131b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on polyline to given point  <a href="group__AABBTreeGroup.html#gab4e6d7044960ec9381bbdba568c131b8">More...</a><br /></td></tr>
+<tr class="separator:gab4e6d7044960ec9381bbdba568c131b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad4d1904259196cbfcb2d9fe4bf4c02a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#aa9c24bbb5a16bcc2d1385bdbd2340aae">Polyline2ProjectionWithOffsetResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gad4d1904259196cbfcb2d9fe4bf4c02a2">MR::findProjectionOnPolyline2WithOffset</a> (const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;pt, const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;polyline, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="el" href="namespaceMR.html#a65798dca01178b50da3bbd7968fb360e">UndirectedEdgeId</a> &gt; &amp;offsetPerEdge, float upDistLimit=FLT_MAX, <a class="el" href="namespaceMR.html#aaf5a1eb99830c5d7196aa5bf3a05f70e">AffineXf2f</a> *xf=nullptr)</td></tr>
 <tr class="memdesc:gad4d1904259196cbfcb2d9fe4bf4c02a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on polyline to given point, respecting each edge offset  <a href="group__AABBTreeGroup.html#gad4d1904259196cbfcb2d9fe4bf4c02a2">More...</a><br /></td></tr>
 <tr class="separator:gad4d1904259196cbfcb2d9fe4bf4c02a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaebaaaa7cf53de1be9f59d9526b95c920"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PolylineProjectionResult.html">PolylineProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaebaaaa7cf53de1be9f59d9526b95c920">MR::findProjectionOnPolyline</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pt, const <a class="el" href="namespaceMR.html#a58b74f27c86e7e9dee889bfe30f3022a">Polyline3</a> &amp;polyline, float upDistLimitSq=FLT_MAX, <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr)</td></tr>
-<tr class="memdesc:gaebaaaa7cf53de1be9f59d9526b95c920"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on polyline to given point  <a href="group__AABBTreeGroup.html#gaebaaaa7cf53de1be9f59d9526b95c920">More...</a><br /></td></tr>
-<tr class="separator:gaebaaaa7cf53de1be9f59d9526b95c920"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacf41cadb01cd572946917f4cec59b465"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PolylineProjectionWithOffsetResult.html">PolylineProjectionWithOffsetResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gacf41cadb01cd572946917f4cec59b465">MR::findProjectionOnPolylineWithOffset</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pt, const <a class="el" href="namespaceMR.html#a58b74f27c86e7e9dee889bfe30f3022a">Polyline3</a> &amp;polyline, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="el" href="namespaceMR.html#a65798dca01178b50da3bbd7968fb360e">UndirectedEdgeId</a> &gt; &amp;offsetPerEdge, float upDistLimit=FLT_MAX, <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr)</td></tr>
-<tr class="memdesc:gacf41cadb01cd572946917f4cec59b465"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on polyline to given point, respecting each edge offset  <a href="group__AABBTreeGroup.html#gacf41cadb01cd572946917f4cec59b465">More...</a><br /></td></tr>
-<tr class="separator:gacf41cadb01cd572946917f4cec59b465"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga32c963490569c6a8fd10a660a14ed793"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PolylineProjectionResult.html">PolylineProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga32c963490569c6a8fd10a660a14ed793">MR::findProjectionOnMeshEdges</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pt, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#aef16e8bcd64e7d95e00ad05f1a333c43">AABBTreePolyline3</a> &amp;tree, float upDistLimitSq=FLT_MAX, <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr)</td></tr>
-<tr class="memdesc:ga32c963490569c6a8fd10a660a14ed793"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on the mesh edges (specified by the tree) to given point  <a href="group__AABBTreeGroup.html#ga32c963490569c6a8fd10a660a14ed793">More...</a><br /></td></tr>
-<tr class="separator:ga32c963490569c6a8fd10a660a14ed793"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4f4aa2277484058fc04ead8259165c66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a2488a5918dcbf78bcbf511ea6c93a185">PolylineProjectionWithOffsetResult3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga4f4aa2277484058fc04ead8259165c66">MR::findProjectionOnPolylineWithOffset</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pt, const <a class="el" href="namespaceMR.html#a58b74f27c86e7e9dee889bfe30f3022a">Polyline3</a> &amp;polyline, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="el" href="namespaceMR.html#a65798dca01178b50da3bbd7968fb360e">UndirectedEdgeId</a> &gt; &amp;offsetPerEdge, float upDistLimit=FLT_MAX, <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr)</td></tr>
+<tr class="memdesc:ga4f4aa2277484058fc04ead8259165c66"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on polyline to given point, respecting each edge offset  <a href="group__AABBTreeGroup.html#ga4f4aa2277484058fc04ead8259165c66">More...</a><br /></td></tr>
+<tr class="separator:ga4f4aa2277484058fc04ead8259165c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5ce436376c8036ec99459d3ccea88788"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga5ce436376c8036ec99459d3ccea88788">MR::findEdgesInBall</a> (const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;polyline, const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;center, float radius, const <a class="el" href="group__AABBTreeGroup.html#ga4f844f73b163343e67f73579ee60eb3b">FoundEdgeCallback2</a> &amp;foundCallback, <a class="el" href="namespaceMR.html#aaf5a1eb99830c5d7196aa5bf3a05f70e">AffineXf2f</a> *xf=nullptr)</td></tr>
+<tr class="memdesc:ga5ce436376c8036ec99459d3ccea88788"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds all edges of given polyline that cross or touch given ball (center, radius)  <a href="group__AABBTreeGroup.html#ga5ce436376c8036ec99459d3ccea88788">More...</a><br /></td></tr>
+<tr class="separator:ga5ce436376c8036ec99459d3ccea88788"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga799578a1ff64417ca5aa5c72fa15bb2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga799578a1ff64417ca5aa5c72fa15bb2f">MR::findEdgesInBall</a> (const <a class="el" href="namespaceMR.html#a58b74f27c86e7e9dee889bfe30f3022a">Polyline3</a> &amp;polyline, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;center, float radius, const <a class="el" href="group__AABBTreeGroup.html#gaf77c51a2927a660589bbe050fdbd6ac8">FoundEdgeCallback3</a> &amp;foundCallback, <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr)</td></tr>
+<tr class="memdesc:ga799578a1ff64417ca5aa5c72fa15bb2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds all edges of given polyline that cross or touch given ball (center, radius)  <a href="group__AABBTreeGroup.html#ga799578a1ff64417ca5aa5c72fa15bb2f">More...</a><br /></td></tr>
+<tr class="separator:ga799578a1ff64417ca5aa5c72fa15bb2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9579e42177a203fdedf9729717891dab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a847af1551a9dcab4a5a333b6607522a7">PolylineProjectionResult3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga9579e42177a203fdedf9729717891dab">MR::findProjectionOnMeshEdges</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pt, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#aef16e8bcd64e7d95e00ad05f1a333c43">AABBTreePolyline3</a> &amp;tree, float upDistLimitSq=FLT_MAX, <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr)</td></tr>
+<tr class="memdesc:ga9579e42177a203fdedf9729717891dab"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on the mesh edges (specified by the tree) to given point  <a href="group__AABBTreeGroup.html#ga9579e42177a203fdedf9729717891dab">More...</a><br /></td></tr>
+<tr class="separator:ga9579e42177a203fdedf9729717891dab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -428,6 +449,50 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="ga6567418169a65826fd82b440411a4fc4" name="ga6567418169a65826fd82b440411a4fc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6567418169a65826fd82b440411a4fc4">&#9670;&#160;</a></span>FoundEdgeCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="group__AABBTreeGroup.html#ga6567418169a65826fd82b440411a4fc4">MR::FoundEdgeCallback</a> = typedef std::function&lt;void( <a class="el" href="namespaceMR.html#a65798dca01178b50da3bbd7968fb360e">UndirectedEdgeId</a>, const V&amp; closestPt, float distSq )&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga4f844f73b163343e67f73579ee60eb3b" name="ga4f844f73b163343e67f73579ee60eb3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4f844f73b163343e67f73579ee60eb3b">&#9670;&#160;</a></span>FoundEdgeCallback2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="group__AABBTreeGroup.html#ga4f844f73b163343e67f73579ee60eb3b">MR::FoundEdgeCallback2</a> = typedef <a class="el" href="group__AABBTreeGroup.html#ga6567418169a65826fd82b440411a4fc4">FoundEdgeCallback</a>&lt;<a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaf77c51a2927a660589bbe050fdbd6ac8" name="gaf77c51a2927a660589bbe050fdbd6ac8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf77c51a2927a660589bbe050fdbd6ac8">&#9670;&#160;</a></span>FoundEdgeCallback3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="group__AABBTreeGroup.html#gaf77c51a2927a660589bbe050fdbd6ac8">MR::FoundEdgeCallback3</a> = typedef <a class="el" href="group__AABBTreeGroup.html#ga6567418169a65826fd82b440411a4fc4">FoundEdgeCallback</a>&lt;<a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="gaaf317c41824870416408c08346c2171e" name="gaaf317c41824870416408c08346c2171e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaaf317c41824870416408c08346c2171e">&#9670;&#160;</a></span>Line3dMesh</h2>
 
@@ -516,6 +581,55 @@ template&lt;typename V &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ga15a3e18d2098f8ff33e67776a221e6fb" name="ga15a3e18d2098f8ff33e67776a221e6fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga15a3e18d2098f8ff33e67776a221e6fb">&#9670;&#160;</a></span>findCollidingEdgePairs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1EdgePointPair.html">EdgePointPair</a> &gt; MR::findCollidingEdgePairs </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#aaf5a1eb99830c5d7196aa5bf3a05f70e">AffineXf2f</a> *&#160;</td>
+          <td class="paramname"><em>rigidB2A</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>firstIntersectionOnly</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds all pairs of colliding edges from two 2d polylines </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-polyline space to A polyline space, nullptr considered as identity transformation </td></tr>
+    <tr><td class="paramname">firstIntersectionOnly</td><td>if true then the function returns at most one pair of intersecting edges and returns faster </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ga44c8af10ceaf3059a77647d7b6f2ca8b" name="ga44c8af10ceaf3059a77647d7b6f2ca8b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga44c8af10ceaf3059a77647d7b6f2ca8b">&#9670;&#160;</a></span>findCollidingEdges()</h2>
 
@@ -597,7 +711,14 @@ template&lt;typename V &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>the same as <a class="el" href="group__AABBTreeGroup.html#ga44c8af10ceaf3059a77647d7b6f2ca8b">findCollidingEdges</a>, but returns one bitset per polyline with colliding edges </p>
+<p>finds bitset per polyline with colliding edges </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-polyline space to A polyline space, nullptr considered as identity transformation </td></tr>
+    <tr><td class="paramname">firstIntersectionOnly</td><td>if true then the function returns at most one pair of intersecting edges and returns faster </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -933,6 +1054,102 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
+<a id="ga5ce436376c8036ec99459d3ccea88788" name="ga5ce436376c8036ec99459d3ccea88788"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5ce436376c8036ec99459d3ccea88788">&#9670;&#160;</a></span>findEdgesInBall() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::findEdgesInBall </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;&#160;</td>
+          <td class="paramname"><em>polyline</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;&#160;</td>
+          <td class="paramname"><em>center</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__AABBTreeGroup.html#ga4f844f73b163343e67f73579ee60eb3b">FoundEdgeCallback2</a> &amp;&#160;</td>
+          <td class="paramname"><em>foundCallback</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#aaf5a1eb99830c5d7196aa5bf3a05f70e">AffineXf2f</a> *&#160;</td>
+          <td class="paramname"><em>xf</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Finds all edges of given polyline that cross or touch given ball (center, radius) </p>
+
+</div>
+</div>
+<a id="ga799578a1ff64417ca5aa5c72fa15bb2f" name="ga799578a1ff64417ca5aa5c72fa15bb2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga799578a1ff64417ca5aa5c72fa15bb2f">&#9670;&#160;</a></span>findEdgesInBall() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::findEdgesInBall </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a58b74f27c86e7e9dee889bfe30f3022a">Polyline3</a> &amp;&#160;</td>
+          <td class="paramname"><em>polyline</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>center</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__AABBTreeGroup.html#gaf77c51a2927a660589bbe050fdbd6ac8">FoundEdgeCallback3</a> &amp;&#160;</td>
+          <td class="paramname"><em>foundCallback</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *&#160;</td>
+          <td class="paramname"><em>xf</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Finds all edges of given polyline that cross or touch given ball (center, radius) </p>
+
+</div>
+</div>
 <a id="ga3672072155e3f272d13a40ccd4645d02" name="ga3672072155e3f272d13a40ccd4645d02"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga3672072155e3f272d13a40ccd4645d02">&#9670;&#160;</a></span>findMaxDistanceSq()</h2>
 
@@ -1031,8 +1248,53 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
+<a id="ga562052fddd56327be07ffe8c0cc7f7af" name="ga562052fddd56327be07ffe8c0cc7f7af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga562052fddd56327be07ffe8c0cc7f7af">&#9670;&#160;</a></span>findMaxVectorDim() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::findMaxVectorDim </td>
+          <td>(</td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>dimX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>dimY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>dir</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds index of maximum axis and stores it into dimY </p>
+<p ><a href="http://jcgt.org/published/0002/01/05/paper.pdf">http://jcgt.org/published/0002/01/05/paper.pdf</a> Example input: dir = (1,-2). Result: dimY = 1, dimX = 0. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">dimX</td><td>index of minimum axis </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">dimY</td><td>index of maximum axis </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ga7fcb33a674ea8b57ac858e40d42e26e3" name="ga7fcb33a674ea8b57ac858e40d42e26e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7fcb33a674ea8b57ac858e40d42e26e3">&#9670;&#160;</a></span>findMaxVectorDim()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7fcb33a674ea8b57ac858e40d42e26e3">&#9670;&#160;</a></span>findMaxVectorDim() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1120,7 +1382,7 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Finds all points in tree that are inside given ball (distance to center are lower then radius) </p>
+<p >Finds all points in tree that are inside or on the surface of given ball (center, radius) </p>
 
 </div>
 </div>
@@ -1161,7 +1423,7 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Finds all valid points of pointCloud that are inside given ball (distance to center are lower then radius) </p>
+<p >Finds all valid points of pointCloud that are inside or on the surface of given ball (center, radius) </p>
 
 </div>
 </div>
@@ -1221,14 +1483,14 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ga32c963490569c6a8fd10a660a14ed793" name="ga32c963490569c6a8fd10a660a14ed793"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga32c963490569c6a8fd10a660a14ed793">&#9670;&#160;</a></span>findProjectionOnMeshEdges()</h2>
+<a id="ga9579e42177a203fdedf9729717891dab" name="ga9579e42177a203fdedf9729717891dab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9579e42177a203fdedf9729717891dab">&#9670;&#160;</a></span>findProjectionOnMeshEdges()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PolylineProjectionResult.html">PolylineProjectionResult</a> MR::findProjectionOnMeshEdges </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a847af1551a9dcab4a5a333b6607522a7">PolylineProjectionResult3</a> MR::findProjectionOnMeshEdges </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
           <td class="paramname"><em>pt</em>, </td>
@@ -1276,14 +1538,14 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="gaebaaaa7cf53de1be9f59d9526b95c920" name="gaebaaaa7cf53de1be9f59d9526b95c920"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaebaaaa7cf53de1be9f59d9526b95c920">&#9670;&#160;</a></span>findProjectionOnPolyline()</h2>
+<a id="gab4e6d7044960ec9381bbdba568c131b8" name="gab4e6d7044960ec9381bbdba568c131b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab4e6d7044960ec9381bbdba568c131b8">&#9670;&#160;</a></span>findProjectionOnPolyline()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PolylineProjectionResult.html">PolylineProjectionResult</a> MR::findProjectionOnPolyline </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a847af1551a9dcab4a5a333b6607522a7">PolylineProjectionResult3</a> MR::findProjectionOnPolyline </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
           <td class="paramname"><em>pt</em>, </td>
@@ -1325,14 +1587,14 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="gaca9e8826ee187bd7337149bd1b75f3d5" name="gaca9e8826ee187bd7337149bd1b75f3d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaca9e8826ee187bd7337149bd1b75f3d5">&#9670;&#160;</a></span>findProjectionOnPolyline2()</h2>
+<a id="gad6115056e8f7fed8388025d6299387f7" name="gad6115056e8f7fed8388025d6299387f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad6115056e8f7fed8388025d6299387f7">&#9670;&#160;</a></span>findProjectionOnPolyline2()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Polyline2ProjectionResult.html">Polyline2ProjectionResult</a> MR::findProjectionOnPolyline2 </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a0898ca7d08b2fb73875b21bf4921f4fd">PolylineProjectionResult2</a> MR::findProjectionOnPolyline2 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;&#160;</td>
           <td class="paramname"><em>pt</em>, </td>
@@ -1363,11 +1625,11 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>computes the closest point on two dimensional polyline to given point </p>
+<p>computes the closest point on polyline to given point </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the distance in question, if the real distance is larger than the function exists returning upDistLimitSq and no valid point </td></tr>
-    <tr><td class="paramname">xf</td><td>mesh-to-point transformation, if not specified then identity transformation is assumed </td></tr>
+    <tr><td class="paramname">xf</td><td>polyline-to-point transformation, if not specified then identity transformation is assumed </td></tr>
   </table>
   </dd>
 </dl>
@@ -1381,7 +1643,7 @@ template&lt;typename T &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Polyline2ProjectionWithOffsetResult.html">Polyline2ProjectionWithOffsetResult</a> MR::findProjectionOnPolyline2WithOffset </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#aa9c24bbb5a16bcc2d1385bdbd2340aae">Polyline2ProjectionWithOffsetResult</a> MR::findProjectionOnPolyline2WithOffset </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;&#160;</td>
           <td class="paramname"><em>pt</em>, </td>
@@ -1421,7 +1683,7 @@ template&lt;typename T &gt; </div>
 <p>computes the closest point on polyline to given point, respecting each edge offset </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">offsetPerEdge</td><td>offsetPerEdge offset for each edge of polyline </td></tr>
+    <tr><td class="paramname">offsetPerEdge</td><td>offset for each edge of polyline </td></tr>
     <tr><td class="paramname">upDistLimit</td><td>upper limit on the distance in question, if the real distance is larger than the function exists returning upDistLimit and no valid point </td></tr>
     <tr><td class="paramname">xf</td><td>polyline-to-point transformation, if not specified then identity transformation is assumed </td></tr>
   </table>
@@ -1430,14 +1692,14 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="gacf41cadb01cd572946917f4cec59b465" name="gacf41cadb01cd572946917f4cec59b465"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacf41cadb01cd572946917f4cec59b465">&#9670;&#160;</a></span>findProjectionOnPolylineWithOffset()</h2>
+<a id="ga4f4aa2277484058fc04ead8259165c66" name="ga4f4aa2277484058fc04ead8259165c66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4f4aa2277484058fc04ead8259165c66">&#9670;&#160;</a></span>findProjectionOnPolylineWithOffset()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PolylineProjectionWithOffsetResult.html">PolylineProjectionWithOffsetResult</a> MR::findProjectionOnPolylineWithOffset </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a2488a5918dcbf78bcbf511ea6c93a185">PolylineProjectionWithOffsetResult3</a> MR::findProjectionOnPolylineWithOffset </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
           <td class="paramname"><em>pt</em>, </td>
@@ -1486,6 +1748,26 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="ga4fca223a68dac564f66af0224c0ec3ec" name="ga4fca223a68dac564f66af0224c0ec3ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4fca223a68dac564f66af0224c0ec3ec">&#9670;&#160;</a></span>findSelfCollidingEdgePairs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1EdgePointPair.html">EdgePointPair</a> &gt; MR::findSelfCollidingEdgePairs </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;&#160;</td>
+          <td class="paramname"><em>polyline</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds all pairs of colliding edges from 2d polyline </p>
+
+</div>
+</div>
 <a id="gad89aed99c2cba4cd08e06d896b839841" name="gad89aed99c2cba4cd08e06d896b839841"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gad89aed99c2cba4cd08e06d896b839841">&#9670;&#160;</a></span>findSelfCollidingEdges()</h2>
 
@@ -1522,7 +1804,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>the same as <a class="el" href="group__AABBTreeGroup.html#gad89aed99c2cba4cd08e06d896b839841">findSelfCollidingEdges</a>, but returns the union of all self-intersecting edges </p>
+<p>finds the union of all self-intersecting edges </p>
 
 </div>
 </div>

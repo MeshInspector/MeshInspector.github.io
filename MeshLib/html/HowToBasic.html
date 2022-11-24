@@ -136,7 +136,7 @@ Basing your application on MeshLib</h1>
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html_a68075c17440a99ede74249da2ff6ecd9"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a68075c17440a99ede74249da2ff6ecd9">MR::ViewerSetup::setupBasePlugins</a></div><div class="ttdeci">virtual MRVIEWER_API void setupBasePlugins(Viewer *) const</div></div>
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html_a918f69117bd46f408fda277cad5fde2d"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a918f69117bd46f408fda277cad5fde2d">MR::ViewerSetup::setupConfiguration</a></div><div class="ttdeci">virtual MRVIEWER_API void setupConfiguration(Viewer *viewer) const</div></div>
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html_a9ba29b362190cbfc386b59d8051f8b06"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a9ba29b362190cbfc386b59d8051f8b06">MR::ViewerSetup::setupSettingsManager</a></div><div class="ttdeci">virtual MRVIEWER_API void setupSettingsManager(Viewer *viewer, const std::string &amp;appName) const</div></div>
-<div class="ttc" id="aclassMR_1_1Viewer_html"><div class="ttname"><a href="classMR_1_1Viewer.html">MR::Viewer</a></div><div class="ttdef"><b>Definition:</b> MRViewer.h:44</div></div>
+<div class="ttc" id="aclassMR_1_1Viewer_html"><div class="ttname"><a href="classMR_1_1Viewer.html">MR::Viewer</a></div><div class="ttdef"><b>Definition:</b> MRViewer.h:48</div></div>
 <div class="ttc" id="aclassMR_1_1Viewer_html_a26632c3fff60e6f927d932d86503aa8f"><div class="ttname"><a href="classMR_1_1Viewer.html#a26632c3fff60e6f927d932d86503aa8f">MR::Viewer::parseLaunchParams</a></div><div class="ttdeci">static MRVIEWER_API void parseLaunchParams(LaunchParams &amp;params)</div></div>
 <div class="ttc" id="aclassMR_1_1Viewer_html_a5c5505e0b7ec40651dc41ce35b964c32"><div class="ttname"><a href="classMR_1_1Viewer.html#a5c5505e0b7ec40651dc41ce35b964c32">MR::Viewer::launch</a></div><div class="ttdeci">MRVIEWER_API int launch(const LaunchParams &amp;params)</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_ga6804a7415d5f018fa64bf1b533af3d4f"><div class="ttname"><a href="group__BasicGroup.html#ga6804a7415d5f018fa64bf1b533af3d4f">MR::setupLoggerByDefault</a></div><div class="ttdeci">MRMESH_API void setupLoggerByDefault()</div></div>
@@ -248,6 +248,21 @@ Load and save example: </p><div class="fragment"><div class="line"><span class="
 <div class="line">expectedMesh = mrmeshpy.loadMesh(mrmeshpy.Path(<span class="stringliteral">&quot;mesh.stl&quot;</span>))</div>
 <div class="line"><span class="keywordflow">if</span> expectedMesh.has_value():</div>
 <div class="line">    mrmeshpy.saveMesh(expectedMesh.value(),mrmeshpy.Path(<span class="stringliteral">&quot;mesh.ply&quot;</span>))</div>
+</div><!-- fragment --><p >Using numpy to create mesh and get back its primitives </p><div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy as mrmeshpy</div>
+<div class="line"><span class="keyword">import</span> meshlib.mrmeshnumpy as mrmeshnumpy</div>
+<div class="line"> </div>
+<div class="line">faces = np.ndarray(shape=(2,3), dtype=np.int32, buffer=np.array([[0,1,2],[2,3,0]], dtype=np.int32))</div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor"># mrmesh uses float32 for vertex coordinates</span></div>
+<div class="line"><span class="preprocessor"># however, you could also use float64</span></div>
+<div class="line">verts = np.ndarray(shape=(4,3), dtype=np.float32, buffer=np.array([[0.0,0.0,0.0],[1.0,0.0,0.0],[1.0,1.0,0.0],[0.0,1.0,0.0]], dtype=np.float32))</div>
+<div class="line"> </div>
+<div class="line">mesh = mrmeshnumpy.meshFromFacesVerts(faces, verts)</div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor"># some mesh manipulations</span></div>
+<div class="line"> </div>
+<div class="line">outVerts = mrmeshnumpy.getNumpyVerts(mesh)</div>
+<div class="line">outFaces = mrmeshnumpy.getNumpyFaces(mesh.<a class="code hl_variable" href="structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">topology</a>)</div>
 </div><!-- fragment --><p ><a class="el" href="structMR_1_1Mesh.html">Mesh</a> modification examples </p><div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy as mrmeshpy</div>
 <div class="line">expectedMesh = mrmeshpy.loadMesh(mrmeshpy.Path(<span class="stringliteral">&quot;mesh.stl&quot;</span>))</div>
 <div class="line">assert(expectedMesh.has_value())</div>

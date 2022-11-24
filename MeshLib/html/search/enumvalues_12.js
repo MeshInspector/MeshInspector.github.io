@@ -20,12 +20,13 @@ var searchData=
   ['toolbarhovered_17',['ToolbarHovered',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a76851ceee06bccd61e3f181d29dac532',1,'MR::ColorTheme']]],
   ['top_18',['Top',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dcaa4ffdcf0dc1f31b9acaf295d75b51d00',1,'MR::SetViewPresetMenuItem::Top()'],['../classMR_1_1Pdf.html#a6759e4baff5cfbd5272628bf2a52f253aa4ffdcf0dc1f31b9acaf295d75b51d00',1,'MR::Pdf::Top()']]],
   ['toppanelbackground_19',['TopPanelBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2d838f579eb9b302faa00ef4fbc90172',1,'MR::ColorTheme']]],
-  ['translation_20',['Translation',['../namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75a6dd08874f83507e9c7b23f1a46b7fa7c',1,'MR']]],
-  ['translationonly_21',['TranslationOnly',['../namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677a55fae57b90256ccb618322f9a33784ce',1,'MR']]],
-  ['transparencyoverlayquad_22',['TransparencyOverlayQuad',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748af36d97ba03abaa5e19ee63ca6e0e13aa',1,'MR::GLStaticHolder']]],
-  ['transparentmesh_23',['TransparentMesh',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a0aceddd1bbfe40ef001c096d89ff39c5',1,'MR::GLStaticHolder']]],
-  ['transparentmeshborder_24',['TransparentMeshBorder',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748aa825a48c883424e808dd65cb4b41d3b6',1,'MR::GLStaticHolder']]],
-  ['trianglearraysize_25',['TriangleArraySize',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a50966bab9526b25864172b96b6f49ee1',1,'MR::Viewer']]],
-  ['triangleelementsnum_26',['TriangleElementsNum',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a49dfc480ddddefd459fb49ff08a102dc',1,'MR::Viewer']]],
-  ['tryhidden_27',['TryHidden',['../structMR_1_1Viewer_1_1LaunchParams.html#aac8179d29f102d3e7ee5a2d2cf1bfe32aaeb5b428a8bcc97d04daa978a75cd1f1',1,'MR::Viewer::LaunchParams']]]
+  ['translate_20',['Translate',['../classMR_1_1TouchesController.html#a5138dbae1e6c3d6ffdf6ea36f836f3e5a8879b98f319f3999b6c5b330afb673a1',1,'MR::TouchesController']]],
+  ['translation_21',['Translation',['../namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75a6dd08874f83507e9c7b23f1a46b7fa7c',1,'MR']]],
+  ['translationonly_22',['TranslationOnly',['../namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677a55fae57b90256ccb618322f9a33784ce',1,'MR']]],
+  ['transparencyoverlayquad_23',['TransparencyOverlayQuad',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748af36d97ba03abaa5e19ee63ca6e0e13aa',1,'MR::GLStaticHolder']]],
+  ['transparentmesh_24',['TransparentMesh',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a0aceddd1bbfe40ef001c096d89ff39c5',1,'MR::GLStaticHolder']]],
+  ['transparentmeshborder_25',['TransparentMeshBorder',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748aa825a48c883424e808dd65cb4b41d3b6',1,'MR::GLStaticHolder']]],
+  ['trianglearraysize_26',['TriangleArraySize',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a50966bab9526b25864172b96b6f49ee1',1,'MR::Viewer']]],
+  ['triangleelementsnum_27',['TriangleElementsNum',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a49dfc480ddddefd459fb49ff08a102dc',1,'MR::Viewer']]],
+  ['tryhidden_28',['TryHidden',['../structMR_1_1Viewer_1_1LaunchParams.html#aac8179d29f102d3e7ee5a2d2cf1bfe32aaeb5b428a8bcc97d04daa978a75cd1f1',1,'MR::Viewer::LaunchParams']]]
 ];

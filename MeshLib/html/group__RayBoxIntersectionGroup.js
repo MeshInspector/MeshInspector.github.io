@@ -5,5 +5,5 @@ var group__RayBoxIntersectionGroup =
       [ "p", "structMR_1_1RayOrigin.html#aa0427aa4f82a36dda692826d18df40c9", null ]
     ] ],
     [ "MR::rayBoxIntersect", "group__RayBoxIntersectionGroup.html#ga710fb3f98b472e45efdd6c3671f90581", null ],
-    [ "MR::rayBoxIntersect", "group__RayBoxIntersectionGroup.html#ga361352e96b137fc817a494bb07601fa8", null ]
+    [ "MR::rayBoxIntersect", "group__RayBoxIntersectionGroup.html#ga774d7b2ef218b7634faca3e3300f13b9", null ]
 ];

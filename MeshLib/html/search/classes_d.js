@@ -1,7 +1,7 @@
 var searchData=
 [
   ['object_0',['Object',['../classMR_1_1Object.html',1,'MR']]],
-  ['objectchildrenholder_1',['ObjectChildrenHolder',['../structMR_1_1ObjectChildrenHolder.html',1,'MR']]],
+  ['objectchildrenholder_1',['ObjectChildrenHolder',['../classMR_1_1ObjectChildrenHolder.html',1,'MR']]],
   ['objectdistancemap_2',['ObjectDistanceMap',['../classMR_1_1ObjectDistanceMap.html',1,'MR']]],
   ['objectfactory_3',['ObjectFactory',['../classMR_1_1ObjectFactory.html',1,'MR']]],
   ['objectfactorybase_4',['ObjectFactoryBase',['../classMR_1_1ObjectFactoryBase.html',1,'MR']]],

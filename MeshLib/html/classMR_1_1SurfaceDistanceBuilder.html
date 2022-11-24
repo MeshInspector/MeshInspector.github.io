@@ -124,6 +124,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a35fe09c0ed56d9b10178d9099cef9204"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SurfaceDistanceBuilder.html#a35fe09c0ed56d9b10178d9099cef9204">addStart</a> (const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start)</td></tr>
 <tr class="memdesc:a35fe09c0ed56d9b10178d9099cef9204"><td class="mdescLeft">&#160;</td><td class="mdescRight">initiates distance construction from triangle vertices surrounding given start point (they all will be returned by growOne)  <a href="classMR_1_1SurfaceDistanceBuilder.html#a35fe09c0ed56d9b10178d9099cef9204">More...</a><br /></td></tr>
 <tr class="separator:a35fe09c0ed56d9b10178d9099cef9204"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b1547c200aedacf976a12ff582e729a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SurfaceDistanceBuilder.html#a9b1547c200aedacf976a12ff582e729a">setMaxVertUpdates</a> (int v)</td></tr>
+<tr class="separator:a9b1547c200aedacf976a12ff582e729a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c536dc87c144291b79132239fe4d967"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SurfaceDistanceBuilder.html#a2c536dc87c144291b79132239fe4d967">growOne</a> ()</td></tr>
 <tr class="memdesc:a2c536dc87c144291b79132239fe4d967"><td class="mdescLeft">&#160;</td><td class="mdescRight">processes one more candidate vertex, which is returned  <a href="classMR_1_1SurfaceDistanceBuilder.html#a2c536dc87c144291b79132239fe4d967">More...</a><br /></td></tr>
 <tr class="separator:a2c536dc87c144291b79132239fe4d967"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -351,6 +353,25 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>processes one more candidate vertex, which is returned </p>
+
+</div>
+</div>
+<a id="a9b1547c200aedacf976a12ff582e729a" name="a9b1547c200aedacf976a12ff582e729a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b1547c200aedacf976a12ff582e729a">&#9670;&#160;</a></span>setMaxVertUpdates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::SurfaceDistanceBuilder::setMaxVertUpdates </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >the maximum amount of times vertex distance can be updated in [1,255], 3 by default; the more the better obtuse triangles are handled </p>
 
 </div>
 </div>
