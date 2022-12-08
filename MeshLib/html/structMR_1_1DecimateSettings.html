@@ -140,6 +140,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aa7b755cd5bad251398508eb99a3fe806"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#aa7b755cd5bad251398508eb99a3fe806">touchBdVertices</a> = true</td></tr>
 <tr class="memdesc:aa7b755cd5bad251398508eb99a3fe806"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to allow collapsing edges having at least one vertex on (region) boundary.  <a href="structMR_1_1DecimateSettings.html#aa7b755cd5bad251398508eb99a3fe806">More...</a><br /></td></tr>
 <tr class="separator:aa7b755cd5bad251398508eb99a3fe806"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebecde304889b67910dd05d032cb8d07"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#aebecde304889b67910dd05d032cb8d07">maxAngleChange</a> = -1</td></tr>
+<tr class="separator:aebecde304889b67910dd05d032cb8d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4eab7dd113486daa41a2272bac1b8a2f"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> edgeToCollapse, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;newEdgeOrgPos)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#a4eab7dd113486daa41a2272bac1b8a2f">preCollapse</a></td></tr>
 <tr class="memdesc:a4eab7dd113486daa41a2272bac1b8a2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can provide this optional callback that is invoked immediately before edge collapse;.  <a href="structMR_1_1DecimateSettings.html#a4eab7dd113486daa41a2272bac1b8a2f">More...</a><br /></td></tr>
 <tr class="separator:a4eab7dd113486daa41a2272bac1b8a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -147,7 +149,7 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a21d7c6d9122286b4edf7bd531d38b72b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can provide this optional callback for adjusting error introduced by this edge collapse and the collapse position.  <a href="structMR_1_1DecimateSettings.html#a21d7c6d9122286b4edf7bd531d38b72b">More...</a><br /></td></tr>
 <tr class="separator:a21d7c6d9122286b4edf7bd531d38b72b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a682d43b723098485a748e97bd12111"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="namespaceMR.html#a03bea4c1686b4e77a996eb13fd1d4bb7">QuadraticForm3f</a>, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#a8a682d43b723098485a748e97bd12111">vertForms</a> = nullptr</td></tr>
-<tr class="memdesc:a8a682d43b723098485a748e97bd12111"><td class="mdescLeft">&#160;</td><td class="mdescRight">If not null, then on input: if the vector is not empty then it is takes for initialization instead of form computation for all vertices; on output: quadratic form for each remaining vertex is returned there.  <a href="structMR_1_1DecimateSettings.html#a8a682d43b723098485a748e97bd12111">More...</a><br /></td></tr>
+<tr class="memdesc:a8a682d43b723098485a748e97bd12111"><td class="mdescLeft">&#160;</td><td class="mdescRight">If not null, then vertex quadratic forms are stored there; if on input the vector is not empty then initialization is skipped in favor of values from there; on output: quadratic form for each remaining vertex is returned there.  <a href="structMR_1_1DecimateSettings.html#a8a682d43b723098485a748e97bd12111">More...</a><br /></td></tr>
 <tr class="separator:a8a682d43b723098485a748e97bd12111"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a320a08e8abf402aa6a0dae956ad9be0e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#a320a08e8abf402aa6a0dae956ad9be0e">packMesh</a> = false</td></tr>
 <tr class="memdesc:a320a08e8abf402aa6a0dae956ad9be0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether to pack mesh at the end  <a href="structMR_1_1DecimateSettings.html#a320a08e8abf402aa6a0dae956ad9be0e">More...</a><br /></td></tr>
@@ -190,6 +192,21 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>the algorithm will try to eliminate triangles with equal or larger aspect ratio, ignoring normal orientation checks </p>
+
+</div>
+</div>
+<a id="aebecde304889b67910dd05d032cb8d07" name="aebecde304889b67910dd05d032cb8d07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebecde304889b67910dd05d032cb8d07">&#9670;&#160;</a></span>maxAngleChange</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::DecimateSettings::maxAngleChange = -1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Permit edge flips (in addition to collapsing) to improve Delone quality of the mesh if it does change dihedral angle more than on this value (negative value prohibits any edge flips) </p>
 
 </div>
 </div>
@@ -409,7 +426,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>If not null, then on input: if the vector is not empty then it is takes for initialization instead of form computation for all vertices; on output: quadratic form for each remaining vertex is returned there. </p>
+<p>If not null, then vertex quadratic forms are stored there; if on input the vector is not empty then initialization is skipped in favor of values from there; on output: quadratic form for each remaining vertex is returned there. </p>
 
 </div>
 </div>

@@ -107,6 +107,7 @@ $(document).ready(function(){initNavTree('MRVoxelPath_8h.html',''); initResizabl
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
 <code>#include &lt;functional&gt;</code><br />
 </div>
 <p><a href="MRVoxelPath_8h_source.html">Go to the source code of this file.</a></p>
@@ -155,9 +156,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gac6f3fb235421b043711103935866d07c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VoxelsMetric&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelPathGroup.html#gac6f3fb235421b043711103935866d07c">MR::voxelsSumDiffsMetric</a> (const VdbVolume &amp;voxels, const VoxelMetricParameters &amp;parameters)</td></tr>
 <tr class="memdesc:gac6f3fb235421b043711103935866d07c"><td class="mdescLeft">&#160;</td><td class="mdescRight">sum of dense differences with start and stop voxels  <a href="group__VoxelPathGroup.html#gac6f3fb235421b043711103935866d07c">More...</a><br /></td></tr>
 <tr class="separator:gac6f3fb235421b043711103935866d07c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad4c388212308e83d20a32e0771a60bd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelPathGroup.html#gad4c388212308e83d20a32e0771a60bd6">MR::buildSmallestMetricPath</a> (const VdbVolume &amp;voxels, const VoxelsMetric &amp;metric, size_t start, size_t finish)</td></tr>
-<tr class="memdesc:gad4c388212308e83d20a32e0771a60bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds shortest path in given metric from start to finish voxels; if no path can be found then empty path is returned  <a href="group__VoxelPathGroup.html#gad4c388212308e83d20a32e0771a60bd6">More...</a><br /></td></tr>
-<tr class="separator:gad4c388212308e83d20a32e0771a60bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4861d9b71a36e6d4cf625471751c5dfb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelPathGroup.html#ga4861d9b71a36e6d4cf625471751c5dfb">MR::buildSmallestMetricPath</a> (const VdbVolume &amp;voxels, const VoxelsMetric &amp;metric, size_t start, size_t finish, ProgressCallback cb={})</td></tr>
+<tr class="memdesc:ga4861d9b71a36e6d4cf625471751c5dfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds shortest path in given metric from start to finish voxels; if no path can be found then empty path is returned  <a href="group__VoxelPathGroup.html#ga4861d9b71a36e6d4cf625471751c5dfb">More...</a><br /></td></tr>
+<tr class="separator:ga4861d9b71a36e6d4cf625471751c5dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

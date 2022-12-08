@@ -2,6 +2,7 @@ var MRRibbonSchema_8h =
 [
     [ "MR::MenuItemCaptionSize", "structMR_1_1MenuItemCaptionSize.html", "structMR_1_1MenuItemCaptionSize" ],
     [ "MR::MenuItemInfo", "structMR_1_1MenuItemInfo.html", "structMR_1_1MenuItemInfo" ],
+    [ "MR::TabNamePriority", "structMR_1_1TabNamePriority.html", "structMR_1_1TabNamePriority" ],
     [ "MR::RibbonSchema", "structMR_1_1RibbonSchema.html", "structMR_1_1RibbonSchema" ],
     [ "MR::RibbonSchemaHolder", "classMR_1_1RibbonSchemaHolder.html", null ],
     [ "MR::RibbonSchemaLoader", "classMR_1_1RibbonSchemaLoader.html", "classMR_1_1RibbonSchemaLoader" ],

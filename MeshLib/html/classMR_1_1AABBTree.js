@@ -8,6 +8,7 @@ var classMR_1_1AABBTree =
     [ "AABBTree", "classMR_1_1AABBTree.html#a299be175c35406bc5c624c524a3221e7", null ],
     [ "containsSameNumberOfTris", "classMR_1_1AABBTree.html#a452c88b89ff01231575ab3f12f8de2df", null ],
     [ "getBoundingBox", "classMR_1_1AABBTree.html#a32fb8d6b891ed1e97bf4532552caa7a4", null ],
+    [ "getLeafOrderAndReset", "classMR_1_1AABBTree.html#a3aae5151bb7775539ee46938c902df16", null ],
     [ "getNodesFromFaces", "classMR_1_1AABBTree.html#a73821036edd8a5a2f9ea4399b225f9d0", null ],
     [ "getSubtreeFaces", "classMR_1_1AABBTree.html#a17c38dc7b5620a352a4648fd8c18612e", null ],
     [ "getSubtrees", "classMR_1_1AABBTree.html#afad536a6dcb131bca201c0d5d385937b", null ],

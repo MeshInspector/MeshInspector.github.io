@@ -18,7 +18,7 @@ var group__VolumeSegmentationGroup =
       [ "getMinVoxel", "classMR_1_1VolumeSegmenter.html#adc06aedf7017f2edd618bb81ac1ef0ca", null ],
       [ "getSeeds", "classMR_1_1VolumeSegmenter.html#a82b9aec22f82c431f0ac7a193031f2da", null ],
       [ "getVolumePartDimensions", "classMR_1_1VolumeSegmenter.html#a1e60835e895738ed66679e5f39acf19f", null ],
-      [ "segmentVolume", "classMR_1_1VolumeSegmenter.html#a24898941623ddbd2e37ec6cf3c3ca761", null ],
+      [ "segmentVolume", "classMR_1_1VolumeSegmenter.html#a061bc0a609ed4163ac1bd2082f786674", null ],
       [ "setSeeds", "classMR_1_1VolumeSegmenter.html#a5e2381048221676f7c2c5beadb063dc2", null ]
     ] ],
     [ "MR::meshFromVoxelsMask", "group__VolumeSegmentationGroup.html#ga5482173db77fdf8202ff43de1133100c", null ],

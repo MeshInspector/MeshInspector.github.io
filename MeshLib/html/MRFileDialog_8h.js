@@ -1,6 +1,7 @@
 var MRFileDialog_8h =
 [
     [ "MR::FileParameters", "structMR_1_1FileParameters.html", "structMR_1_1FileParameters" ],
+    [ "getCancelMessage", "MRFileDialog_8h.html#aa17831c43fe221cc988cc624c3823111", null ],
     [ "openFileDialog", "MRFileDialog_8h.html#a0a4bcce4daa4d3b3423c31dff3a881bb", null ],
     [ "openFileDialogAsync", "MRFileDialog_8h.html#a5cb1fd46b50301553853ea480cee32b3", null ],
     [ "openFilesDialog", "MRFileDialog_8h.html#a9fc3a0fb211326213beb41fb1ecd8d71", null ],

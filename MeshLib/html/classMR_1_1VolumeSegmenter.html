@@ -134,9 +134,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a82b9aec22f82c431f0ac7a193031f2da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const std::vector&lt; <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VolumeSegmenter.html#a82b9aec22f82c431f0ac7a193031f2da">getSeeds</a> (<a class="el" href="classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5">SeedType</a> seedType) const</td></tr>
 <tr class="memdesc:a82b9aec22f82c431f0ac7a193031f2da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return currently stored seeds.  <a href="classMR_1_1VolumeSegmenter.html#a82b9aec22f82c431f0ac7a193031f2da">More...</a><br /></td></tr>
 <tr class="separator:a82b9aec22f82c431f0ac7a193031f2da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24898941623ddbd2e37ec6cf3c3ca761"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="namespaceMR.html#a554ecd806e7de55aceb363940928dac0">VoxelBitSet</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VolumeSegmenter.html#a24898941623ddbd2e37ec6cf3c3ca761">segmentVolume</a> (float segmentationExponentModifier=3000.0f, int voxelsExpansion=25)</td></tr>
-<tr class="memdesc:a24898941623ddbd2e37ec6cf3c3ca761"><td class="mdescLeft">&#160;</td><td class="mdescRight">Segments volume, return inside part segmentation (VoxelBitSet in space of VolumePart)  <a href="classMR_1_1VolumeSegmenter.html#a24898941623ddbd2e37ec6cf3c3ca761">More...</a><br /></td></tr>
-<tr class="separator:a24898941623ddbd2e37ec6cf3c3ca761"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a061bc0a609ed4163ac1bd2082f786674"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="namespaceMR.html#a554ecd806e7de55aceb363940928dac0">VoxelBitSet</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VolumeSegmenter.html#a061bc0a609ed4163ac1bd2082f786674">segmentVolume</a> (float segmentationExponentModifier=3000.0f, int voxelsExpansion=25, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memdesc:a061bc0a609ed4163ac1bd2082f786674"><td class="mdescLeft">&#160;</td><td class="mdescRight">Segments volume, return inside part segmentation (VoxelBitSet in space of VolumePart)  <a href="classMR_1_1VolumeSegmenter.html#a061bc0a609ed4163ac1bd2082f786674">More...</a><br /></td></tr>
+<tr class="separator:a061bc0a609ed4163ac1bd2082f786674"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d88a8f18e40c9778e41a4b3cd56e10c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VolumeSegmenter.html#a0d88a8f18e40c9778e41a4b3cd56e10c">createMeshFromSegmentation</a> (const <a class="el" href="namespaceMR.html#a554ecd806e7de55aceb363940928dac0">VoxelBitSet</a> &amp;segmentation) const</td></tr>
 <tr class="memdesc:a0d88a8f18e40c9778e41a4b3cd56e10c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns mesh of given segment.  <a href="classMR_1_1VolumeSegmenter.html#a0d88a8f18e40c9778e41a4b3cd56e10c">More...</a><br /></td></tr>
 <tr class="separator:a0d88a8f18e40c9778e41a4b3cd56e10c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -351,8 +351,8 @@ After</div></div>
 
 </div>
 </div>
-<a id="a24898941623ddbd2e37ec6cf3c3ca761" name="a24898941623ddbd2e37ec6cf3c3ca761"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24898941623ddbd2e37ec6cf3c3ca761">&#9670;&#160;</a></span>segmentVolume()</h2>
+<a id="a061bc0a609ed4163ac1bd2082f786674" name="a061bc0a609ed4163ac1bd2082f786674"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a061bc0a609ed4163ac1bd2082f786674">&#9670;&#160;</a></span>segmentVolume()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,7 +367,13 @@ After</div></div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>voxelsExpansion</em> = <code>25</code>&#160;</td>
+          <td class="paramname"><em>voxelsExpansion</em> = <code>25</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>cb</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

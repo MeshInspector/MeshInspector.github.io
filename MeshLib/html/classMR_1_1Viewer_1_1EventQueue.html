@@ -98,6 +98,7 @@ $(document).ready(function(){initNavTree('classMR_1_1Viewer_1_1EventQueue.html',
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classMR_1_1Viewer_1_1EventQueue-members.html">List of all members</a>  </div>
@@ -107,6 +108,11 @@ $(document).ready(function(){initNavTree('classMR_1_1Viewer_1_1EventQueue.html',
 
 <p><code>#include &lt;<a class="el" href="MRViewer_8h_source.html">MRViewer.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Viewer_1_1EventQueue_1_1NamedEvent.html">NamedEvent</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:abfcd84b3f22c3b19aa6bcc04c8a12a6c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer_1_1EventQueue.html#abfcd84b3f22c3b19aa6bcc04c8a12a6c">EventCallback</a> = std::function&lt; void()&gt;</td></tr>
@@ -114,10 +120,14 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:afc27c1d223efee882e5bdf263c7078e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer_1_1EventQueue.html#afc27c1d223efee882e5bdf263c7078e7">emplace</a> (<a class="el" href="classMR_1_1Viewer_1_1EventQueue.html#abfcd84b3f22c3b19aa6bcc04c8a12a6c">EventCallback</a> callEvent, bool skipable=false)</td></tr>
-<tr class="separator:afc27c1d223efee882e5bdf263c7078e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60d2ab684ef047e089f171ee6e3d45e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer_1_1EventQueue.html#a60d2ab684ef047e089f171ee6e3d45e2">execute</a> ()</td></tr>
-<tr class="separator:a60d2ab684ef047e089f171ee6e3d45e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d2c72d3d805d498bb47b57fe02b530c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer_1_1EventQueue.html#a7d2c72d3d805d498bb47b57fe02b530c">emplace</a> (<a class="el" href="structMR_1_1Viewer_1_1EventQueue_1_1NamedEvent.html">NamedEvent</a> event, bool skipable=false)</td></tr>
+<tr class="separator:a7d2c72d3d805d498bb47b57fe02b530c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae41b795382e47ad46839e443608afac5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer_1_1EventQueue.html#ae41b795382e47ad46839e443608afac5">execute</a> ()</td></tr>
+<tr class="separator:ae41b795382e47ad46839e443608afac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76dddcc3e0888d31e942173d829bc31a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer_1_1EventQueue.html#a76dddcc3e0888d31e942173d829bc31a">popByName</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:a76dddcc3e0888d31e942173d829bc31a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a208a24e8ecd1e725f81f89f8a62ab49b"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer_1_1EventQueue.html#a208a24e8ecd1e725f81f89f8a62ab49b">empty</a> () const</td></tr>
+<tr class="separator:a208a24e8ecd1e725f81f89f8a62ab49b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="abfcd84b3f22c3b19aa6bcc04c8a12a6c" name="abfcd84b3f22c3b19aa6bcc04c8a12a6c"></a>
@@ -135,17 +145,17 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="afc27c1d223efee882e5bdf263c7078e7" name="afc27c1d223efee882e5bdf263c7078e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc27c1d223efee882e5bdf263c7078e7">&#9670;&#160;</a></span>emplace()</h2>
+<a id="a7d2c72d3d805d498bb47b57fe02b530c" name="a7d2c72d3d805d498bb47b57fe02b530c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d2c72d3d805d498bb47b57fe02b530c">&#9670;&#160;</a></span>emplace()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::Viewer::EventQueue::emplace </td>
+          <td class="memname">MRVIEWER_API void MR::Viewer::EventQueue::emplace </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Viewer_1_1EventQueue.html#abfcd84b3f22c3b19aa6bcc04c8a12a6c">EventCallback</a>&#160;</td>
-          <td class="paramname"><em>callEvent</em>, </td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Viewer_1_1EventQueue_1_1NamedEvent.html">NamedEvent</a>&#160;</td>
+          <td class="paramname"><em>event</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -163,16 +173,51 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a60d2ab684ef047e089f171ee6e3d45e2" name="a60d2ab684ef047e089f171ee6e3d45e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60d2ab684ef047e089f171ee6e3d45e2">&#9670;&#160;</a></span>execute()</h2>
+<a id="a208a24e8ecd1e725f81f89f8a62ab49b" name="a208a24e8ecd1e725f81f89f8a62ab49b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a208a24e8ecd1e725f81f89f8a62ab49b">&#9670;&#160;</a></span>empty()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::Viewer::EventQueue::execute </td>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::EventQueue::empty </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae41b795382e47ad46839e443608afac5" name="ae41b795382e47ad46839e443608afac5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae41b795382e47ad46839e443608afac5">&#9670;&#160;</a></span>execute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::Viewer::EventQueue::execute </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a76dddcc3e0888d31e942173d829bc31a" name="a76dddcc3e0888d31e942173d829bc31a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76dddcc3e0888d31e942173d829bc31a">&#9670;&#160;</a></span>popByName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::Viewer::EventQueue::popByName </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
           <td></td>
         </tr>
       </table>

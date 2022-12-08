@@ -19,8 +19,9 @@ var searchData=
   ['polylineprojectionresult2_16',['PolylineProjectionResult2',['../namespaceMR.html#a0898ca7d08b2fb73875b21bf4921f4fd',1,'MR']]],
   ['polylineprojectionresult3_17',['PolylineProjectionResult3',['../namespaceMR.html#a847af1551a9dcab4a5a333b6607522a7',1,'MR']]],
   ['polylineprojectionwithoffsetresult3_18',['PolylineProjectionWithOffsetResult3',['../namespaceMR.html#a2488a5918dcbf78bcbf511ea6c93a185',1,'MR']]],
-  ['postrescalesignal_19',['PostRescaleSignal',['../classMR_1_1Viewer.html#a448a65e5c8e0f80950482647b4d8a786',1,'MR::Viewer']]],
-  ['postresizesignal_20',['PostResizeSignal',['../classMR_1_1Viewer.html#ab7f0983455b1dfa5ccae593d205470d9',1,'MR::Viewer']]],
-  ['progresscallback_21',['ProgressCallback',['../group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710',1,'MR']]],
-  ['pythonregisterfuncton_22',['PythonRegisterFuncton',['../classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c',1,'MR::PythonExport']]]
+  ['postfocussignal_19',['PostFocusSignal',['../classMR_1_1Viewer.html#a56a4069031303c5161df2d5e4155ae22',1,'MR::Viewer']]],
+  ['postrescalesignal_20',['PostRescaleSignal',['../classMR_1_1Viewer.html#a448a65e5c8e0f80950482647b4d8a786',1,'MR::Viewer']]],
+  ['postresizesignal_21',['PostResizeSignal',['../classMR_1_1Viewer.html#ab7f0983455b1dfa5ccae593d205470d9',1,'MR::Viewer']]],
+  ['progresscallback_22',['ProgressCallback',['../group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710',1,'MR']]],
+  ['pythonregisterfuncton_23',['PythonRegisterFuncton',['../classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c',1,'MR::PythonExport']]]
 ];

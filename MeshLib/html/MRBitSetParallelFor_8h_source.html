@@ -166,37 +166,38 @@ $(document).ready(function(){initNavTree('MRBitSetParallelFor_8h_source.html',''
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="keywordflow">return</span> keepGoing.load( std::memory_order_relaxed );</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>}</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> BS, <span class="keyword">typename</span> F&gt;</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="group__BasicGroup.html#ga6668adaae45af9cbb54e22fff0ef0ab7">   78</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group__BasicGroup.html#ga6668adaae45af9cbb54e22fff0ef0ab7">BitSetParallelFor</a>( <span class="keyword">const</span> BS&amp; bs, F f )</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> BS, <span class="keyword">typename</span> F, <span class="keyword">typename</span> ...Cb&gt;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="group__BasicGroup.html#ga37f9eccb6fe939fd6694e99a2258a723">   78</a></span><span class="keyword">auto</span> <a class="code hl_function" href="group__BasicGroup.html#ga37f9eccb6fe939fd6694e99a2258a723">BitSetParallelFor</a>( <span class="keyword">const</span> BS&amp; bs, F f, Cb&amp;&amp;... cb )</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>{</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keyword">using </span>IndexType = <span class="keyword">typename</span> BS::IndexType;</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <a class="code hl_function" href="group__BasicGroup.html#gaec1d8613d38041fae09f290f342a4995">BitSetParallelForAll</a>( bs, [&amp;]( IndexType <span class="keywordtype">id</span> )</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="group__BasicGroup.html#gaec1d8613d38041fae09f290f342a4995">BitSetParallelForAll</a>( bs, [&amp;]( IndexType <span class="keywordtype">id</span> )</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    {</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        <span class="keywordflow">if</span> ( bs.test( <span class="keywordtype">id</span> ) )</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        {</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>            f( id );</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        }</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    } );</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    }, std::forward&lt;Cb&gt;( cb )... );</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>}</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> BS, <span class="keyword">typename</span> F&gt;</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="group__BasicGroup.html#gae77c4012b81bb297783a8026328929d1">   95</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="group__BasicGroup.html#ga6668adaae45af9cbb54e22fff0ef0ab7">BitSetParallelFor</a>( <span class="keyword">const</span> BS&amp; bs, F f, <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb )</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>{</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keyword">using </span>IndexType = <span class="keyword">typename</span> BS::IndexType;</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="group__BasicGroup.html#gaec1d8613d38041fae09f290f342a4995">BitSetParallelForAll</a>( bs, [&amp;] ( IndexType <span class="keywordtype">id</span> )</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    {</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        <span class="keywordflow">if</span> ( bs.test( <span class="keywordtype">id</span> ) )</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>        {</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>            f( id );</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        }</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    }, progressCb );</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>}</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> BS, <span class="keyword">typename</span> F, <span class="keyword">typename</span> ...Cb&gt;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="group__BasicGroup.html#ga8811984137354f9cbae35e3774f58bd7">   93</a></span><span class="keyword">auto</span> <a class="code hl_function" href="group__BasicGroup.html#ga8811984137354f9cbae35e3774f58bd7">BitSetParallelForReset</a>( <span class="keyword">const</span> BS&amp; bs, F f, Cb&amp;&amp;... cb )</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>{</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keyword">using </span>IndexType = <span class="keyword">typename</span> BS::IndexType;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="group__BasicGroup.html#gaec1d8613d38041fae09f290f342a4995">BitSetParallelForAll</a>( bs, [&amp;]( IndexType <span class="keywordtype">id</span> )</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    {</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        <span class="keywordflow">if</span> ( !bs.test( <span class="keywordtype">id</span> ) )</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        {</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>            f( id );</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>        }</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    }, std::forward&lt;Cb&gt;( cb )... );</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>}</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>} <span class="comment">// namespace MR</span></div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>} <span class="comment">// namespace MR</span></div>
 <div class="ttc" id="aMRBitSet_8h_html"><div class="ttname"><a href="MRBitSet_8h.html">MRBitSet.h</a></div></div>
 <div class="ttc" id="aMRProgressCallback_8h_html"><div class="ttname"><a href="MRProgressCallback_8h.html">MRProgressCallback.h</a></div></div>
-<div class="ttc" id="agroup__BasicGroup_html_ga6668adaae45af9cbb54e22fff0ef0ab7"><div class="ttname"><a href="group__BasicGroup.html#ga6668adaae45af9cbb54e22fff0ef0ab7">MR::BitSetParallelFor</a></div><div class="ttdeci">void BitSetParallelFor(const BS &amp;bs, F f)</div><div class="ttdef"><b>Definition:</b> MRBitSetParallelFor.h:78</div></div>
+<div class="ttc" id="agroup__BasicGroup_html_ga37f9eccb6fe939fd6694e99a2258a723"><div class="ttname"><a href="group__BasicGroup.html#ga37f9eccb6fe939fd6694e99a2258a723">MR::BitSetParallelFor</a></div><div class="ttdeci">auto BitSetParallelFor(const BS &amp;bs, F f, Cb &amp;&amp;... cb)</div><div class="ttdef"><b>Definition:</b> MRBitSetParallelFor.h:78</div></div>
+<div class="ttc" id="agroup__BasicGroup_html_ga8811984137354f9cbae35e3774f58bd7"><div class="ttname"><a href="group__BasicGroup.html#ga8811984137354f9cbae35e3774f58bd7">MR::BitSetParallelForReset</a></div><div class="ttdeci">auto BitSetParallelForReset(const BS &amp;bs, F f, Cb &amp;&amp;... cb)</div><div class="ttdef"><b>Definition:</b> MRBitSetParallelFor.h:93</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_gaec1d8613d38041fae09f290f342a4995"><div class="ttname"><a href="group__BasicGroup.html#gaec1d8613d38041fae09f290f342a4995">MR::BitSetParallelForAll</a></div><div class="ttdeci">void BitSetParallelForAll(const BS &amp;bs, F f)</div><div class="ttdef"><b>Definition:</b> MRBitSetParallelFor.h:18</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition:</b> MRProgressCallback.h:10</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRCameraOrientationPlugin.h:7</div></div>

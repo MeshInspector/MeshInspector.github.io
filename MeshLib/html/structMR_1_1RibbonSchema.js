@@ -6,5 +6,5 @@ var structMR_1_1RibbonSchema =
     [ "items", "structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1", null ],
     [ "sceneButtonsList", "structMR_1_1RibbonSchema.html#a10236edecf0d4d4b8fe8a8cec7faee6b", null ],
     [ "tabsMap", "structMR_1_1RibbonSchema.html#a21a3586ebedfeb4b958b58b82d741fb8", null ],
-    [ "tabsOrder", "structMR_1_1RibbonSchema.html#a90acff3eccc1a5e5b13cce38817ee9fc", null ]
+    [ "tabsOrder", "structMR_1_1RibbonSchema.html#a53101aa864244b93742e14c437206f0f", null ]
 ];

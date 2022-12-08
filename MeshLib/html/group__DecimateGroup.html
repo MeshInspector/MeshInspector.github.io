@@ -130,6 +130,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga308d4bf16030f5f21f31de620318074a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a03bea4c1686b4e77a996eb13fd1d4bb7">QuadraticForm3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga308d4bf16030f5f21f31de620318074a">MR::computeFormAtVertex</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> v, float stabilizer)</td></tr>
 <tr class="memdesc:ga308d4bf16030f5f21f31de620318074a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes quadratic form at given vertex of the initial surface before decimation.  <a href="group__DecimateGroup.html#ga308d4bf16030f5f21f31de620318074a">More...</a><br /></td></tr>
 <tr class="separator:ga308d4bf16030f5f21f31de620318074a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga272fbd9ac4386d374e477cce8e394ab7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="namespaceMR.html#a03bea4c1686b4e77a996eb13fd1d4bb7">QuadraticForm3f</a>, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga272fbd9ac4386d374e477cce8e394ab7">MR::computeFormsAtVertices</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float stabilizer)</td></tr>
+<tr class="memdesc:ga272fbd9ac4386d374e477cce8e394ab7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes quadratic forms at every vertex of mesh part before decimation.  <a href="group__DecimateGroup.html#ga272fbd9ac4386d374e477cce8e394ab7">More...</a><br /></td></tr>
+<tr class="separator:ga272fbd9ac4386d374e477cce8e394ab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga881bb2eecb81e65b51d1cb8a52340637"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga881bb2eecb81e65b51d1cb8a52340637">MR::resolveMeshDegenerations</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1ResolveMeshDegenSettings.html">ResolveMeshDegenSettings</a> &amp;settings={})</td></tr>
 <tr class="memdesc:ga881bb2eecb81e65b51d1cb8a52340637"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves degenerate triangles in given mesh.  <a href="group__DecimateGroup.html#ga881bb2eecb81e65b51d1cb8a52340637">More...</a><br /></td></tr>
 <tr class="separator:ga881bb2eecb81e65b51d1cb8a52340637"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -179,6 +182,36 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Computes quadratic form at given vertex of the initial surface before decimation. </p>
+
+</div>
+</div>
+<a id="ga272fbd9ac4386d374e477cce8e394ab7" name="ga272fbd9ac4386d374e477cce8e394ab7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga272fbd9ac4386d374e477cce8e394ab7">&#9670;&#160;</a></span>computeFormsAtVertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="namespaceMR.html#a03bea4c1686b4e77a996eb13fd1d4bb7">QuadraticForm3f</a>, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; MR::computeFormsAtVertices </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
+          <td class="paramname"><em>mp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>stabilizer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes quadratic forms at every vertex of mesh part before decimation. </p>
 
 </div>
 </div>

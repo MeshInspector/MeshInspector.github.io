@@ -229,6 +229,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1576164a9505c9f8c28e16dc288bcca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ef2784fa43035776fad3e85ac252642"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a7ef2784fa43035776fad3e85ac252642">findCenterFromBBox</a> () const</td></tr>
 <tr class="separator:a7ef2784fa43035776fad3e85ac252642"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a540a6eef456f6c54c214766fc0a7c3fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a540a6eef456f6c54c214766fc0a7c3fb">zeroUnusedPoints</a> ()</td></tr>
+<tr class="separator:a540a6eef456f6c54c214766fc0a7c3fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67907b7421edf7c0e8dd29796fbe4688"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a67907b7421edf7c0e8dd29796fbe4688">transform</a> (const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;xf)</td></tr>
 <tr class="separator:a67907b7421edf7c0e8dd29796fbe4688"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee64892c6401f2ffc0394a59628cdbb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#aee64892c6401f2ffc0394a59628cdbb5">addPoint</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pos)</td></tr>
@@ -245,12 +247,21 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:adda5f13339c0d5e0cf0c7d93e2332973"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ceec437a01ce063998c0f63f339f246"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a8ceec437a01ce063998c0f63f339f246">addPart</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;from, <a class="el" href="namespaceMR.html#a989bcd374602a615d0acbd6a4988b9b3">FaceMap</a> *outFmap=nullptr, <a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> *outVmap=nullptr, <a class="el" href="namespaceMR.html#ab8a64e1ae478a6733cc6c0ab4441d0b9">WholeEdgeMap</a> *outEmap=nullptr, bool rearrangeTriangles=false)</td></tr>
 <tr class="separator:a8ceec437a01ce063998c0f63f339f246"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e4cfa1b0310ac1c5fb5bf8e7f7313eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a3e4cfa1b0310ac1c5fb5bf8e7f7313eb">addPartByMask</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;from, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;fromFaces, const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;map={})</td></tr>
-<tr class="separator:a3e4cfa1b0310ac1c5fb5bf8e7f7313eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70a31d2ef4c8dd2b5da929c9d66f42f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a70a31d2ef4c8dd2b5da929c9d66f42f5">addPartByMask</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;from, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;fromFaces, bool flipOrientation, const std::vector&lt; std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; &gt; &amp;thisContours, const std::vector&lt; std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; &gt; &amp;fromContours, <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> map={})</td></tr>
-<tr class="separator:a70a31d2ef4c8dd2b5da929c9d66f42f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5fb0761925dbb24dbb414e74fd881bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#ae5fb0761925dbb24dbb414e74fd881bc">addPartByMask</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;from, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;fromFaces, const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;map)</td></tr>
+<tr class="separator:ae5fb0761925dbb24dbb414e74fd881bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c11f3f324873aafcd72923c0ce58570"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a5c11f3f324873aafcd72923c0ce58570">addPartByMask</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;from, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;fromFaces, bool flipOrientation=false, const std::vector&lt; std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; &gt; &amp;thisContours={}, const std::vector&lt; std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; &gt; &amp;fromContours={}, const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;map={})</td></tr>
+<tr class="separator:a5c11f3f324873aafcd72923c0ce58570"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af177b0e864f23a7fbcbb04e3e6510436"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#af177b0e864f23a7fbcbb04e3e6510436">addPartByFaceMap</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;from, const <a class="el" href="namespaceMR.html#a989bcd374602a615d0acbd6a4988b9b3">FaceMap</a> &amp;fromFaces, bool flipOrientation=false, const std::vector&lt; std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; &gt; &amp;thisContours={}, const std::vector&lt; std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; &gt; &amp;fromContours={}, const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;map={})</td></tr>
+<tr class="memdesc:af177b0e864f23a7fbcbb04e3e6510436"><td class="mdescLeft">&#160;</td><td class="mdescRight">fromFaces contains mapping from this-mesh (considering it is empty) to from-mesh  <a href="structMR_1_1Mesh.html#af177b0e864f23a7fbcbb04e3e6510436">More...</a><br /></td></tr>
+<tr class="separator:af177b0e864f23a7fbcbb04e3e6510436"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa547a4a977bca3a8828d605a720bf892"><td class="memTemplParams" colspan="2">template&lt;typename I &gt; </td></tr>
+<tr class="memitem:aa547a4a977bca3a8828d605a720bf892"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#aa547a4a977bca3a8828d605a720bf892">addPartBy</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;from, I fbegin, I fend, size_t fcount, bool flipOrientation=false, const std::vector&lt; std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; &gt; &amp;thisContours={}, const std::vector&lt; std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; &gt; &amp;fromContours={}, <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> map={})</td></tr>
+<tr class="memdesc:aa547a4a977bca3a8828d605a720bf892"><td class="mdescLeft">&#160;</td><td class="mdescRight">both addPartByMask and addPartByFaceMap call this general implementation  <a href="structMR_1_1Mesh.html#aa547a4a977bca3a8828d605a720bf892">More...</a><br /></td></tr>
+<tr class="separator:aa547a4a977bca3a8828d605a720bf892"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d8e2d55d67e606f0129377d0d14aa4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a6d8e2d55d67e606f0129377d0d14aa4a">pack</a> (<a class="el" href="namespaceMR.html#a989bcd374602a615d0acbd6a4988b9b3">FaceMap</a> *outFmap=nullptr, <a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> *outVmap=nullptr, <a class="el" href="namespaceMR.html#ab8a64e1ae478a6733cc6c0ab4441d0b9">WholeEdgeMap</a> *outEmap=nullptr, bool rearrangeTriangles=false)</td></tr>
 <tr class="separator:a6d8e2d55d67e606f0129377d0d14aa4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af07814b0f272ced76037e99506415414"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#af07814b0f272ced76037e99506415414">packOptimally</a> (const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;map={})</td></tr>
+<tr class="separator:af07814b0f272ced76037e99506415414"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a726a27c8dbdef71902d1031424bea5cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a726a27c8dbdef71902d1031424bea5cf">projectPoint</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;point, <a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a> &amp;res, float maxDistSq=FLT_MAX, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *region=nullptr, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr) const</td></tr>
 <tr class="separator:a726a27c8dbdef71902d1031424bea5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a973baf90b80dc2696bc083577727d4fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a973baf90b80dc2696bc083577727d4fc">projectPoint</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;point, <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;res, float maxDistSq=FLT_MAX, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *region=nullptr, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr) const</td></tr>
@@ -333,8 +344,130 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a70a31d2ef4c8dd2b5da929c9d66f42f5" name="a70a31d2ef4c8dd2b5da929c9d66f42f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70a31d2ef4c8dd2b5da929c9d66f42f5">&#9670;&#160;</a></span>addPartByMask() <span class="overload">[1/2]</span></h2>
+<a id="aa547a4a977bca3a8828d605a720bf892" name="aa547a4a977bca3a8828d605a720bf892"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa547a4a977bca3a8828d605a720bf892">&#9670;&#160;</a></span>addPartBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::Mesh::addPartBy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>from</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">I&#160;</td>
+          <td class="paramname"><em>fbegin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">I&#160;</td>
+          <td class="paramname"><em>fend</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>fcount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>flipOrientation</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>thisContours</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>fromContours</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1PartMapping.html">PartMapping</a>&#160;</td>
+          <td class="paramname"><em>map</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>both addPartByMask and addPartByFaceMap call this general implementation </p>
+
+</div>
+</div>
+<a id="af177b0e864f23a7fbcbb04e3e6510436" name="af177b0e864f23a7fbcbb04e3e6510436"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af177b0e864f23a7fbcbb04e3e6510436">&#9670;&#160;</a></span>addPartByFaceMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::Mesh::addPartByFaceMap </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>from</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a989bcd374602a615d0acbd6a4988b9b3">FaceMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>fromFaces</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>flipOrientation</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>thisContours</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>fromContours</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;&#160;</td>
+          <td class="paramname"><em>map</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>fromFaces contains mapping from this-mesh (considering it is empty) to from-mesh </p>
+
+</div>
+</div>
+<a id="a5c11f3f324873aafcd72923c0ce58570" name="a5c11f3f324873aafcd72923c0ce58570"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c11f3f324873aafcd72923c0ce58570">&#9670;&#160;</a></span>addPartByMask() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -355,24 +488,24 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>flipOrientation</em>, </td>
+          <td class="paramname"><em>flipOrientation</em> = <code>false</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::vector&lt; std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>thisContours</em>, </td>
+          <td class="paramname"><em>thisContours</em> = <code>{}</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::vector&lt; std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>fromContours</em>, </td>
+          <td class="paramname"><em>fromContours</em> = <code>{}</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1PartMapping.html">PartMapping</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;&#160;</td>
           <td class="paramname"><em>map</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
@@ -385,8 +518,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3e4cfa1b0310ac1c5fb5bf8e7f7313eb" name="a3e4cfa1b0310ac1c5fb5bf8e7f7313eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e4cfa1b0310ac1c5fb5bf8e7f7313eb">&#9670;&#160;</a></span>addPartByMask() <span class="overload">[2/2]</span></h2>
+<a id="ae5fb0761925dbb24dbb414e74fd881bc" name="ae5fb0761925dbb24dbb414e74fd881bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5fb0761925dbb24dbb414e74fd881bc">&#9670;&#160;</a></span>addPartByMask() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -407,7 +540,7 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;&#160;</td>
-          <td class="paramname"><em>map</em> = <code>{}</code>&#160;</td>
+          <td class="paramname"><em>map</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1814,6 +1947,24 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="af07814b0f272ced76037e99506415414" name="af07814b0f272ced76037e99506415414"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af07814b0f272ced76037e99506415414">&#9670;&#160;</a></span>packOptimally()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::Mesh::packOptimally </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;&#160;</td>
+          <td class="paramname"><em>map</em> = <code>{}</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1a481d355dcb64efa6d98bf8cf8fac6e" name="a1a481d355dcb64efa6d98bf8cf8fac6e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1a481d355dcb64efa6d98bf8cf8fac6e">&#9670;&#160;</a></span>projectPoint() <span class="overload">[1/3]</span></h2>
 
@@ -2410,6 +2561,23 @@ Public Attributes</h2></td></tr>
           <td class="paramtype">const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td>
           <td class="paramname"><em>region</em> = <code>nullptr</code></td><td>)</td>
           <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a540a6eef456f6c54c214766fc0a7c3fb" name="a540a6eef456f6c54c214766fc0a7c3fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a540a6eef456f6c54c214766fc0a7c3fb">&#9670;&#160;</a></span>zeroUnusedPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::Mesh::zeroUnusedPoints </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">

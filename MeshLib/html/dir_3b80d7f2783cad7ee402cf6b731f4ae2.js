@@ -227,6 +227,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRSymMatrix3.h", "MRSymMatrix3_8h.html", null ],
     [ "MRSystem.h", "MRSystem_8h.html", "MRSystem_8h" ],
     [ "MRTimer.h", "MRTimer_8h.html", "MRTimer_8h" ],
+    [ "MRTimeRecord.h", "MRTimeRecord_8h.html", "MRTimeRecord_8h" ],
     [ "MRToFromEigen.h", "MRToFromEigen_8h.html", "MRToFromEigen_8h" ],
     [ "MRTorus.h", "MRTorus_8h.html", "MRTorus_8h" ],
     [ "MRTriangleIntersection.h", "MRTriangleIntersection_8h.html", "MRTriangleIntersection_8h" ],

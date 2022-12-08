@@ -6,8 +6,9 @@ var searchData=
   ['zero_3',['zero',['../structMR_1_1Matrix2.html#aee919fa6d0f9a5cbfb9cd5303c6439a8',1,'MR::Matrix2::zero()'],['../structMR_1_1Matrix3.html#ab150121e08f70a3229e617a4c06a5d6a',1,'MR::Matrix3::zero()'],['../structMR_1_1Matrix4.html#a58830bef10087e37b89c0e3e53a796ab',1,'MR::Matrix4::zero()']]],
   ['zeroonmove_4',['ZeroOnMove',['../structMR_1_1ZeroOnMove.html',1,'MR::ZeroOnMove&lt; T &gt;'],['../structMR_1_1ZeroOnMove.html#af504ba39107aabf4c055c1a1f651c586',1,'MR::ZeroOnMove::ZeroOnMove() noexcept'],['../structMR_1_1ZeroOnMove.html#a6c54d017113955a26465a32443707c9f',1,'MR::ZeroOnMove::ZeroOnMove(const ZeroOnMove &amp;) noexcept=delete'],['../structMR_1_1ZeroOnMove.html#a1eb512d1aea6742b0d8392f71ce425a2',1,'MR::ZeroOnMove::ZeroOnMove(ZeroOnMove &amp;&amp;z) noexcept']]],
   ['zeroonmove_3c_20size_5ft_20_3e_5',['ZeroOnMove&lt; size_t &gt;',['../structMR_1_1ZeroOnMove.html',1,'MR']]],
-  ['zoffset_6',['zOffset',['../structMR_1_1ViewportGL_1_1RenderParams.html#a4418936d5182b4b3065dcbd54b9388df',1,'MR::ViewportGL::RenderParams']]],
-  ['zoom_7',['Zoom',['../classMR_1_1TouchesController.html#a5138dbae1e6c3d6ffdf6ea36f836f3e5aec731e18cc7bf5f80ae6e195004cbf74',1,'MR::TouchesController']]],
-  ['zx_8',['ZX',['../group__VoxelPathGroup.html#ggae7c8689563553fe7686bd6b71ddf8f18a24b4db35f35f7ebe4a15436010a070d9',1,'MR']]],
-  ['zz_9',['zz',['../structMR_1_1SymMatrix3.html#ae0bca6271c1e0d370210fcd54da942ba',1,'MR::SymMatrix3']]]
+  ['zerounusedpoints_6',['zeroUnusedPoints',['../structMR_1_1Mesh.html#a540a6eef456f6c54c214766fc0a7c3fb',1,'MR::Mesh']]],
+  ['zoffset_7',['zOffset',['../structMR_1_1ViewportGL_1_1RenderParams.html#a4418936d5182b4b3065dcbd54b9388df',1,'MR::ViewportGL::RenderParams']]],
+  ['zoom_8',['Zoom',['../classMR_1_1TouchesController.html#a5138dbae1e6c3d6ffdf6ea36f836f3e5aec731e18cc7bf5f80ae6e195004cbf74',1,'MR::TouchesController']]],
+  ['zx_9',['ZX',['../group__VoxelPathGroup.html#ggae7c8689563553fe7686bd6b71ddf8f18a24b4db35f35f7ebe4a15436010a070d9',1,'MR']]],
+  ['zz_10',['zz',['../structMR_1_1SymMatrix3.html#ae0bca6271c1e0d370210fcd54da942ba',1,'MR::SymMatrix3']]]
 ];

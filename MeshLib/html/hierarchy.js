@@ -193,6 +193,7 @@ var hierarchy =
         [ "MR::MouseScrollListener", "structMR_1_1MouseScrollListener.html", null ],
         [ "MR::MouseUpListener", "structMR_1_1MouseUpListener.html", null ],
         [ "MR::PostDrawListener", "structMR_1_1PostDrawListener.html", null ],
+        [ "MR::PostFocusListener", "structMR_1_1PostFocusListener.html", null ],
         [ "MR::PostRescaleListener", "structMR_1_1PostRescaleListener.html", null ],
         [ "MR::PostResizeListener", "structMR_1_1PostResizeListener.html", null ],
         [ "MR::PreDrawListener", "structMR_1_1PreDrawListener.html", null ],
@@ -334,6 +335,7 @@ var hierarchy =
     [ "N", null, [
       [ "MR::RingIterator< N >", "classMR_1_1RingIterator.html", null ]
     ] ],
+    [ "MR::Viewer::EventQueue::NamedEvent", "structMR_1_1Viewer_1_1EventQueue_1_1NamedEvent.html", null ],
     [ "MR::MeshLoad::NamedMesh", "structMR_1_1MeshLoad_1_1NamedMesh.html", null ],
     [ "MR::MeshLoad::NamedMeshLoader", "structMR_1_1MeshLoad_1_1NamedMeshLoader.html", null ],
     [ "MR::MeshSave::NamedXfMesh", "structMR_1_1MeshSave_1_1NamedXfMesh.html", null ],
@@ -377,6 +379,7 @@ var hierarchy =
     [ "MR::Palette::Parameters", "structMR_1_1Palette_1_1Parameters.html", null ],
     [ "MR::SurfacePointWidget::Parameters", "structMR_1_1SurfacePointWidget_1_1Parameters.html", null ],
     [ "MR::Viewport::Parameters", "structMR_1_1Viewport_1_1Parameters.html", null ],
+    [ "MR::SpaceMouseController::Params", "structMR_1_1SpaceMouseController_1_1Params.html", null ],
     [ "MR::ColorMapAggregator< Tag >::PartialColorMap", "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html", null ],
     [ "MR::PartMapping", "structMR_1_1PartMapping.html", null ],
     [ "MR::Pdf", "classMR_1_1Pdf.html", null ],
@@ -460,6 +463,11 @@ var hierarchy =
     [ "MR::ShortcutManager", "classMR_1_1ShortcutManager.html", null ],
     [ "MR::Viewer::SignalStopHandler", "structMR_1_1Viewer_1_1SignalStopHandler.html", null ],
     [ "MR::SignedDistanceToMeshResult", "structMR_1_1SignedDistanceToMeshResult.html", null ],
+    [ "MR::SimpleTimeRecord", "structMR_1_1SimpleTimeRecord.html", [
+      [ "MR::TimeRecord", "structMR_1_1TimeRecord.html", [
+        [ "MR::ThreadRootTimeRecord", "structMR_1_1ThreadRootTimeRecord.html", null ]
+      ] ]
+    ] ],
     [ "MR::SortIntersectionsData", "structMR_1_1SortIntersectionsData.html", null ],
     [ "MR::SpaceMouseController", "classMR_1_1SpaceMouseController.html", null ],
     [ "MR::SpaceMouseHandler", "classMR_1_1SpaceMouseHandler.html", null ],
@@ -478,6 +486,7 @@ var hierarchy =
     ] ],
     [ "MR::SymMatrix2< T >", "structMR_1_1SymMatrix2.html", null ],
     [ "MR::SymMatrix3< T >", "structMR_1_1SymMatrix3.html", null ],
+    [ "MR::TabNamePriority", "structMR_1_1TabNamePriority.html", null ],
     [ "MR::TerminalVertex", "structMR_1_1TerminalVertex.html", null ],
     [ "MR::Timer", "classMR_1_1Timer.html", null ],
     [ "MR::TransformedMesh", "structMR_1_1TransformedMesh.html", null ],

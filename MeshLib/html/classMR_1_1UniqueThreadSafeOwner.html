@@ -124,12 +124,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab0b41efc38efad3d6af477942a131ef2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UniqueThreadSafeOwner.html#ab0b41efc38efad3d6af477942a131ef2">reset</a> ()</td></tr>
 <tr class="memdesc:ab0b41efc38efad3d6af477942a131ef2"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes owned object  <a href="classMR_1_1UniqueThreadSafeOwner.html#ab0b41efc38efad3d6af477942a131ef2">More...</a><br /></td></tr>
 <tr class="separator:ab0b41efc38efad3d6af477942a131ef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acda3172973d7f8a2920ef9b7c18113f5"><td class="memItemLeft" align="right" valign="top">const T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UniqueThreadSafeOwner.html#acda3172973d7f8a2920ef9b7c18113f5">get</a> ()</td></tr>
-<tr class="memdesc:acda3172973d7f8a2920ef9b7c18113f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns existing owned object and does not create new one  <a href="classMR_1_1UniqueThreadSafeOwner.html#acda3172973d7f8a2920ef9b7c18113f5">More...</a><br /></td></tr>
-<tr class="separator:acda3172973d7f8a2920ef9b7c18113f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3c450f3ec831b31601703e6de1c8541"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UniqueThreadSafeOwner.html#ae3c450f3ec831b31601703e6de1c8541">getOrCreate</a> (const std::function&lt; T()&gt; &amp;creator)</td></tr>
-<tr class="memdesc:ae3c450f3ec831b31601703e6de1c8541"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns existing owned object or creates new one using creator function  <a href="classMR_1_1UniqueThreadSafeOwner.html#ae3c450f3ec831b31601703e6de1c8541">More...</a><br /></td></tr>
-<tr class="separator:ae3c450f3ec831b31601703e6de1c8541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ab481f5b5794550188bd3bc3557b15f"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UniqueThreadSafeOwner.html#a6ab481f5b5794550188bd3bc3557b15f">get</a> ()</td></tr>
+<tr class="memdesc:a6ab481f5b5794550188bd3bc3557b15f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns existing owned object and does not create new one  <a href="classMR_1_1UniqueThreadSafeOwner.html#a6ab481f5b5794550188bd3bc3557b15f">More...</a><br /></td></tr>
+<tr class="separator:a6ab481f5b5794550188bd3bc3557b15f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae534b2090bbb82c6fee33efc2f3c0c34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UniqueThreadSafeOwner.html#ae534b2090bbb82c6fee33efc2f3c0c34">getOrCreate</a> (const std::function&lt; T()&gt; &amp;creator)</td></tr>
+<tr class="memdesc:ae534b2090bbb82c6fee33efc2f3c0c34"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns existing owned object or creates new one using creator function  <a href="classMR_1_1UniqueThreadSafeOwner.html#ae534b2090bbb82c6fee33efc2f3c0c34">More...</a><br /></td></tr>
+<tr class="separator:ae534b2090bbb82c6fee33efc2f3c0c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a6144337b7f7991fae893818231e943"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UniqueThreadSafeOwner.html#a6a6144337b7f7991fae893818231e943">heapBytes</a> () const</td></tr>
 <tr class="memdesc:a6a6144337b7f7991fae893818231e943"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <a href="classMR_1_1UniqueThreadSafeOwner.html#a6a6144337b7f7991fae893818231e943">More...</a><br /></td></tr>
 <tr class="separator:a6a6144337b7f7991fae893818231e943"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -232,8 +232,8 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="acda3172973d7f8a2920ef9b7c18113f5" name="acda3172973d7f8a2920ef9b7c18113f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acda3172973d7f8a2920ef9b7c18113f5">&#9670;&#160;</a></span>get()</h2>
+<a id="a6ab481f5b5794550188bd3bc3557b15f" name="a6ab481f5b5794550188bd3bc3557b15f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ab481f5b5794550188bd3bc3557b15f">&#9670;&#160;</a></span>get()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -244,7 +244,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const T * <a class="el" href="classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a>&lt; T &gt;::get </td>
+          <td class="memname">T * <a class="el" href="classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a>&lt; T &gt;::get </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -261,8 +261,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ae3c450f3ec831b31601703e6de1c8541" name="ae3c450f3ec831b31601703e6de1c8541"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3c450f3ec831b31601703e6de1c8541">&#9670;&#160;</a></span>getOrCreate()</h2>
+<a id="ae534b2090bbb82c6fee33efc2f3c0c34" name="ae534b2090bbb82c6fee33efc2f3c0c34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae534b2090bbb82c6fee33efc2f3c0c34">&#9670;&#160;</a></span>getOrCreate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -270,7 +270,7 @@ template&lt;typename T &gt; </div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const T &amp; <a class="el" href="classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a>&lt; T &gt;::getOrCreate </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> T &amp; <a class="el" href="classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a>&lt; T &gt;::getOrCreate </td>
           <td>(</td>
           <td class="paramtype">const std::function&lt; T()&gt; &amp;&#160;</td>
           <td class="paramname"><em>creator</em></td><td>)</td>

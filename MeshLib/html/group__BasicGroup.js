@@ -26,6 +26,8 @@ var group__BasicGroup =
       [ "autoResizeSet", "classMR_1_1TaggedBitSet.html#ae8f61c2407c0cf96df45149fb1f549b4", null ],
       [ "autoResizeSet", "classMR_1_1TaggedBitSet.html#a549d518b018f126420c7403ef5633a1c", null ],
       [ "autoResizeTestSet", "classMR_1_1TaggedBitSet.html#a462014129d5cd9d3812890a783da6bc9", null ],
+      [ "backId", "classMR_1_1TaggedBitSet.html#ab725ec6fd53b6324a399c461a3e183ce", null ],
+      [ "endId", "classMR_1_1TaggedBitSet.html#a466c048c7d3bce7b5b0386b2ca76187b", null ],
       [ "find_first", "classMR_1_1TaggedBitSet.html#a7a0ff1c44e867718e73b44ef887901de", null ],
       [ "find_last", "classMR_1_1TaggedBitSet.html#a8374b6a3a7629daaabfbc4f82ccd20e0", null ],
       [ "find_next", "classMR_1_1TaggedBitSet.html#a6d0bc13f0fcd3f5278a98c8b9afe6fa8", null ],
@@ -142,6 +144,28 @@ var group__BasicGroup =
       [ "secondsPassed", "classMR_1_1Timer.html#a732ca995a77c5930f0a5abe57ab4bc43", null ],
       [ "start", "classMR_1_1Timer.html#aaf14ca9ea06e15ba2d1ec028c8c345c6", null ]
     ] ],
+    [ "MR::SimpleTimeRecord", "structMR_1_1SimpleTimeRecord.html", [
+      [ "seconds", "structMR_1_1SimpleTimeRecord.html#a5bc2244721bb50d4a1d54c4d3cedd459", null ],
+      [ "count", "structMR_1_1SimpleTimeRecord.html#a2baac0fd5930644e7eff1dcb301703ca", null ],
+      [ "time", "structMR_1_1SimpleTimeRecord.html#a783bd5b3455191ffcbf6c59363d9e81e", null ]
+    ] ],
+    [ "MR::TimeRecord", "structMR_1_1TimeRecord.html", [
+      [ "childTime", "structMR_1_1TimeRecord.html#a7fcf403676ad98c8772e03ebec6d37de", null ],
+      [ "mySeconds", "structMR_1_1TimeRecord.html#a80d3da8e260d6c62716855a674a2bc46", null ],
+      [ "myTime", "structMR_1_1TimeRecord.html#ae2011c61063c65e0a8f63688cb97f6af", null ],
+      [ "children", "structMR_1_1TimeRecord.html#aefc29a1b393cb4e47eec9c964a56b8f9", null ],
+      [ "parent", "structMR_1_1TimeRecord.html#aa4ecd25889d637813c8abcc75610cf51", null ]
+    ] ],
+    [ "MR::ThreadRootTimeRecord", "structMR_1_1ThreadRootTimeRecord.html", [
+      [ "ThreadRootTimeRecord", "structMR_1_1ThreadRootTimeRecord.html#a4c09c418632cc98c124ec0bf7ad1c6de", null ],
+      [ "~ThreadRootTimeRecord", "structMR_1_1ThreadRootTimeRecord.html#a3651985f131934c6036be279a0f01b58", null ],
+      [ "printTree", "structMR_1_1ThreadRootTimeRecord.html#ab1a1265af16cac54bd16adf7e8c44c27", null ],
+      [ "loggerHandle", "structMR_1_1ThreadRootTimeRecord.html#aeda7fbd28acbffe32fb39f0fd9098965", null ],
+      [ "minTimeSec", "structMR_1_1ThreadRootTimeRecord.html#afcc5ed565036ccc1c8fb6062fe2b4405", null ],
+      [ "printTreeInDtor", "structMR_1_1ThreadRootTimeRecord.html#a5de581b2d12ca1b28b07d904c6bc000b", null ],
+      [ "started", "structMR_1_1ThreadRootTimeRecord.html#ab11d7cc5223e4f0ed8b6d247c3eb5f88", null ],
+      [ "threadName", "structMR_1_1ThreadRootTimeRecord.html#ae29d85986eb71cbb8e09862f174fee16", null ]
+    ] ],
     [ "MR::UnionFind< I >", "classMR_1_1UnionFind.html", [
       [ "UnionFind", "classMR_1_1UnionFind.html#a67ccf008e0816480dca10b19c530a7b1", null ],
       [ "UnionFind", "classMR_1_1UnionFind.html#a661398df57a710beae6f4b7c19ac3006", null ],
@@ -199,10 +223,10 @@ var group__BasicGroup =
     [ "MR::asU8String", "group__BasicGroup.html#gaa010d1f339c974fa6ff486c6cad89c7d", null ],
     [ "MR::begin", "group__BasicGroup.html#ga25c73b1f9e5d5df34b153869e3cb5515", null ],
     [ "MR::begin", "group__BasicGroup.html#gaf98212c07ebfc00c3d84f1b850490822", null ],
-    [ "MR::BitSetParallelFor", "group__BasicGroup.html#ga6668adaae45af9cbb54e22fff0ef0ab7", null ],
-    [ "MR::BitSetParallelFor", "group__BasicGroup.html#gae77c4012b81bb297783a8026328929d1", null ],
+    [ "MR::BitSetParallelFor", "group__BasicGroup.html#ga37f9eccb6fe939fd6694e99a2258a723", null ],
     [ "MR::BitSetParallelForAll", "group__BasicGroup.html#gaec1d8613d38041fae09f290f342a4995", null ],
     [ "MR::BitSetParallelForAll", "group__BasicGroup.html#gac9c30dc2587e0a52a1fbec21269703aa", null ],
+    [ "MR::BitSetParallelForReset", "group__BasicGroup.html#ga8811984137354f9cbae35e3774f58bd7", null ],
     [ "MR::contains", "group__BasicGroup.html#gaae680d00c7b1337cc8ad166eb5089694", null ],
     [ "MR::contains", "group__BasicGroup.html#gaf22d770b767eff4d37bc4be52ef5032f", null ],
     [ "MR::edgeMapsComposition", "group__BasicGroup.html#gaa8261f1d45e6d92532c31f3e4ca98614", null ],
@@ -241,6 +265,7 @@ var group__BasicGroup =
     [ "MR::printTimingTreeAndStop", "group__BasicGroup.html#gab32915ca171bafe6752bb0a93f15a19f", null ],
     [ "MR::printTimingTreeAtEnd", "group__BasicGroup.html#ga52ef6e1208fe1f50e79f683d8f04fd15", null ],
     [ "MR::redirectSTDStreamsToLogger", "group__BasicGroup.html#ga52d34a9bbe60f99085e9aab32040499f", null ],
+    [ "MR::registerThreadRootTimeRecord", "group__BasicGroup.html#ga3d791692d52c8b5cf77a9c5e6002cef1", null ],
     [ "MR::Heap::resize", "group__BasicGroup.html#ga2cc98b992438b4b7323386776a433110", null ],
     [ "MR::Heap::setLargerValue", "group__BasicGroup.html#ga967a46dde0718e3a1b167f25dfc62251", null ],
     [ "MR::Heap::setSmallerValue", "group__BasicGroup.html#ga8b871063e6c314fad7809432d2f74b64", null ],
@@ -248,6 +273,7 @@ var group__BasicGroup =
     [ "MR::Heap::setValue", "group__BasicGroup.html#ga4dedcc9253b2c45a7d8a9417d1c19362", null ],
     [ "MR::split", "group__BasicGroup.html#ga4a32fd3117efa96b71c220bfc13c359b", null ],
     [ "MR::systemToUtf8", "group__BasicGroup.html#ga96c01778dc5791451d62c355f4d665af", null ],
+    [ "MR::unregisterThreadRootTimeRecord", "group__BasicGroup.html#gac017b35cedae37be54b10e3302c6c71d", null ],
     [ "MR::utf8string", "group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d", null ],
     [ "MR::utf8ToWide", "group__BasicGroup.html#ga543d43a804760961ac67ad3689330c1d", null ],
     [ "MR::vertMapsComposition", "group__BasicGroup.html#gad522c5e76d8252c0c5a3bc55818ce589", null ],

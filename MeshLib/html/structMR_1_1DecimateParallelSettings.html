@@ -134,6 +134,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a6e1e192817007b17434540ed6c973249"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateParallelSettings.html#a6e1e192817007b17434540ed6c973249">touchBdVertices</a> = true</td></tr>
 <tr class="memdesc:a6e1e192817007b17434540ed6c973249"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to allow collapsing edges having at least one vertex on (region) boundary.  <a href="structMR_1_1DecimateParallelSettings.html#a6e1e192817007b17434540ed6c973249">More...</a><br /></td></tr>
 <tr class="separator:a6e1e192817007b17434540ed6c973249"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14f764f19d8a56d1b1931e084ed1df4e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateParallelSettings.html#a14f764f19d8a56d1b1931e084ed1df4e">maxAngleChange</a> = -1</td></tr>
+<tr class="separator:a14f764f19d8a56d1b1931e084ed1df4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe984fd10e92e60449cdb1c3e409bdbc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateParallelSettings.html#abe984fd10e92e60449cdb1c3e409bdbc">subdivideParts</a> = 32</td></tr>
 <tr class="memdesc:abe984fd10e92e60449cdb1c3e409bdbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subdivides mesh on given number of parts to process them in parallel.  <a href="structMR_1_1DecimateParallelSettings.html#abe984fd10e92e60449cdb1c3e409bdbc">More...</a><br /></td></tr>
 <tr class="separator:abe984fd10e92e60449cdb1c3e409bdbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -181,6 +183,21 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>the algorithm will try to eliminate triangles with equal or larger aspect ratio, ignoring normal orientation checks </p>
+
+</div>
+</div>
+<a id="a14f764f19d8a56d1b1931e084ed1df4e" name="a14f764f19d8a56d1b1931e084ed1df4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14f764f19d8a56d1b1931e084ed1df4e">&#9670;&#160;</a></span>maxAngleChange</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::DecimateParallelSettings::maxAngleChange = -1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Permit edge flips (in addition to collapsing) to improve Delone quality of the mesh if it does change dihedral angle more than on this value (negative value prohibits any edge flips) </p>
 
 </div>
 </div>

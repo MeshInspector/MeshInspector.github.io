@@ -113,8 +113,9 @@ Functions</h2></td></tr>
 <tr class="separator:gaae13d983587fc1a70a8aa89e4a5796d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4f64aa8d3ac4ef7792cefcd53555d175"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#ga4f64aa8d3ac4ef7792cefcd53555d175">MR::checkAspectRatiosInQuadrangle</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;a, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;b, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;c, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;d, float maxAngleChange, float criticalTriAspectRatio)</td></tr>
 <tr class="separator:ga4f64aa8d3ac4ef7792cefcd53555d175"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad8fa36472bbcfbd51618f68d2ff2a08f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#gad8fa36472bbcfbd51618f68d2ff2a08f">MR::checkDeloneQuadrangleInMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> edge, const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;settings={})</td></tr>
-<tr class="separator:gad8fa36472bbcfbd51618f68d2ff2a08f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2d74fa7fe6b7d35734db515d33ba1f3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#ga2d74fa7fe6b7d35734db515d33ba1f3f">MR::checkDeloneQuadrangleInMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> edge, const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;settings={}, float *deviationSqAfterFlip=nullptr)</td></tr>
+<tr class="memdesc:ga2d74fa7fe6b7d35734db515d33ba1f3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared surface deviation after flip is written here (at least when the function returns false)  <a href="group__MeshDeloneGroup.html#ga2d74fa7fe6b7d35734db515d33ba1f3f">More...</a><br /></td></tr>
+<tr class="separator:ga2d74fa7fe6b7d35734db515d33ba1f3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1c91382501f42936363363e26c560218"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#ga1c91382501f42936363363e26c560218">MR::makeDeloneEdgeFlips</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;settings={}, int numIters=1, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCallback={})</td></tr>
 <tr class="separator:ga1c91382501f42936363363e26c560218"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabeff8ba7d73b606469f46a5c0248606d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#gabeff8ba7d73b606469f46a5c0248606d">MR::makeDeloneOriginRing</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e, const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;settings={})</td></tr>
@@ -322,8 +323,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="gad8fa36472bbcfbd51618f68d2ff2a08f" name="gad8fa36472bbcfbd51618f68d2ff2a08f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad8fa36472bbcfbd51618f68d2ff2a08f">&#9670;&#160;</a></span>checkDeloneQuadrangleInMesh()</h2>
+<a id="ga2d74fa7fe6b7d35734db515d33ba1f3f" name="ga2d74fa7fe6b7d35734db515d33ba1f3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2d74fa7fe6b7d35734db515d33ba1f3f">&#9670;&#160;</a></span>checkDeloneQuadrangleInMesh()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -344,7 +345,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;&#160;</td>
-          <td class="paramname"><em>settings</em> = <code>{}</code>&#160;</td>
+          <td class="paramname"><em>settings</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>deviationSqAfterFlip</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -353,6 +360,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>squared surface deviation after flip is written here (at least when the function returns false) </p>
 <p >consider quadrangle formed by left and right triangles of given edge, and checks whether this edge satisfies Delone's condition in the quadrangle; </p><dl class="section return"><dt>Returns</dt><dd>false otherwise if flipping the edge does not introduce too large surface deviation (can be returned only for inner edge of the region) </dd></dl>
 
 </div>

@@ -8,7 +8,7 @@ var group__VoxelGroup =
     [ "MR::VolumeIndexer::dims", "group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f", null ],
     [ "MR::VolumeIndexer::getNeighbor", "group__VoxelGroup.html#ga30a6db6800770e3e6795a1cbf7a92eb5", null ],
     [ "MR::VolumeIndexer::getNeighbor", "group__VoxelGroup.html#ga70480624af713d6c33abe8a12d5fa6ef", null ],
-    [ "MR::segmentVolumeByGraphCut", "group__VoxelGroup.html#ga65373b46691c5beac19d1782aa377b0a", null ],
+    [ "MR::segmentVolumeByGraphCut", "group__VoxelGroup.html#ga2f1e01d3e770ab11429d74413c833dee", null ],
     [ "MR::VolumeIndexer::size", "group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985", null ],
     [ "MR::VolumeIndexer::sizeXY", "group__VoxelGroup.html#gaf0d94fe95fbc290e175743a06ad3d1c6", null ],
     [ "MR::VolumeIndexer::toPos", "group__VoxelGroup.html#gaf972ceaa48b72a552781412be0e49eb6", null ],

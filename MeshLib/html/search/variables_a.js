@@ -21,5 +21,6 @@ var searchData=
   ['linewidth_5f_18',['lineWidth_',['../classMR_1_1ObjectLinesHolder.html#ab981ac159b7e944aef46d972503003e7',1,'MR::ObjectLinesHolder']]],
   ['listcache_5f_19',['listCache_',['../classMR_1_1ShortcutManager.html#adf3fea364a499a2b41b73fb7fa94b301',1,'MR::ShortcutManager']]],
   ['loader_20',['loader',['../structMR_1_1MeshLoad_1_1NamedMeshLoader.html#a6fc94fe5c725de4855afa6f87142be12',1,'MR::MeshLoad::NamedMeshLoader']]],
-  ['locked_5f_21',['locked_',['../classMR_1_1Object.html#a958714fb7d616e608cb16223e052052b',1,'MR::Object']]]
+  ['locked_5f_21',['locked_',['../classMR_1_1Object.html#a958714fb7d616e608cb16223e052052b',1,'MR::Object']]],
+  ['loggerhandle_22',['loggerHandle',['../structMR_1_1ThreadRootTimeRecord.html#aeda7fbd28acbffe32fb39f0fd9098965',1,'MR::ThreadRootTimeRecord']]]
 ];

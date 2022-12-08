@@ -1,8 +1,10 @@
 var structMR_1_1Mesh =
 [
     [ "addPart", "structMR_1_1Mesh.html#a8ceec437a01ce063998c0f63f339f246", null ],
-    [ "addPartByMask", "structMR_1_1Mesh.html#a70a31d2ef4c8dd2b5da929c9d66f42f5", null ],
-    [ "addPartByMask", "structMR_1_1Mesh.html#a3e4cfa1b0310ac1c5fb5bf8e7f7313eb", null ],
+    [ "addPartBy", "structMR_1_1Mesh.html#aa547a4a977bca3a8828d605a720bf892", null ],
+    [ "addPartByFaceMap", "structMR_1_1Mesh.html#af177b0e864f23a7fbcbb04e3e6510436", null ],
+    [ "addPartByMask", "structMR_1_1Mesh.html#a5c11f3f324873aafcd72923c0ce58570", null ],
+    [ "addPartByMask", "structMR_1_1Mesh.html#ae5fb0761925dbb24dbb414e74fd881bc", null ],
     [ "addPoint", "structMR_1_1Mesh.html#aee64892c6401f2ffc0394a59628cdbb5", null ],
     [ "addSeparateEdgeLoop", "structMR_1_1Mesh.html#afe79fbba41c13a31bd40b10fdff8b5ee", null ],
     [ "area", "structMR_1_1Mesh.html#a0c83a5a324f80a18969d786febaee653", null ],
@@ -57,6 +59,7 @@ var structMR_1_1Mesh =
     [ "operator==", "structMR_1_1Mesh.html#a994943959e77b3bc34449639c1dfcb6f", null ],
     [ "orgPnt", "structMR_1_1Mesh.html#a5fab8c28312fa8c3ac69c2f63d345f20", null ],
     [ "pack", "structMR_1_1Mesh.html#a6d8e2d55d67e606f0129377d0d14aa4a", null ],
+    [ "packOptimally", "structMR_1_1Mesh.html#af07814b0f272ced76037e99506415414", null ],
     [ "projectPoint", "structMR_1_1Mesh.html#a1a481d355dcb64efa6d98bf8cf8fac6e", null ],
     [ "projectPoint", "structMR_1_1Mesh.html#a973baf90b80dc2696bc083577727d4fc", null ],
     [ "projectPoint", "structMR_1_1Mesh.html#a726a27c8dbdef71902d1031424bea5cf", null ],
@@ -78,6 +81,7 @@ var structMR_1_1Mesh =
     [ "triCenter", "structMR_1_1Mesh.html#a9fc962b114f068665a1f40c936f26724", null ],
     [ "triPoint", "structMR_1_1Mesh.html#a243ed2368ebb1f7bfaa1d71cef8a3d16", null ],
     [ "volume", "structMR_1_1Mesh.html#a952176d5bcd16b91d26dc6fa2a0bdc6c", null ],
+    [ "zeroUnusedPoints", "structMR_1_1Mesh.html#a540a6eef456f6c54c214766fc0a7c3fb", null ],
     [ "points", "structMR_1_1Mesh.html#a9c8ead50efe2f8a111848b488f0a6aca", null ],
     [ "topology", "structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4", null ]
 ];

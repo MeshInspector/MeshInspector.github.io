@@ -20,5 +20,6 @@ var searchData=
   ['rightorlast_17',['rightOrLast',['../structMR_1_1AABBTreePoints_1_1Node.html#a3cf322fb918d8114b9298d36ab60f30f',1,'MR::AABBTreePoints::Node']]],
   ['rigidb2a_18',['rigidB2A',['../structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0',1,'MR::SortIntersectionsData']]],
   ['rotangles_19',['rotAngles',['../structMR_1_1PointToPlaneAligningTransform_1_1Amendment.html#abc3ac9ecd9cd388aff8e3bc56940f80a',1,'MR::PointToPlaneAligningTransform::Amendment']]],
-  ['rotationsphere_20',['rotationSphere',['../classMR_1_1Viewer.html#a73342d4ca83f292c18e3174035e61d2e',1,'MR::Viewer']]]
+  ['rotatescale_20',['rotateScale',['../structMR_1_1SpaceMouseController_1_1Params.html#ace83fc4d9751e862ec88cbefbbe512df',1,'MR::SpaceMouseController::Params']]],
+  ['rotationsphere_21',['rotationSphere',['../classMR_1_1Viewer.html#a73342d4ca83f292c18e3174035e61d2e',1,'MR::Viewer']]]
 ];

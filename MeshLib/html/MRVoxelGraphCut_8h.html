@@ -104,6 +104,8 @@ $(document).ready(function(){initNavTree('MRVoxelGraphCut_8h.html',''); initResi
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
+<code>#include &lt;tl/expected.hpp&gt;</code><br />
 </div>
 <p><a href="MRVoxelGraphCut_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -114,9 +116,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga65373b46691c5beac19d1782aa377b0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VoxelBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga65373b46691c5beac19d1782aa377b0a">MR::segmentVolumeByGraphCut</a> (const SimpleVolume &amp;densityVolume, float k, const VoxelBitSet &amp;sourceSeeds, const VoxelBitSet &amp;sinkSeeds)</td></tr>
-<tr class="memdesc:ga65373b46691c5beac19d1782aa377b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Segment voxels of given volume on two sets using graph-cut, returning source set.  <a href="group__VoxelGroup.html#ga65373b46691c5beac19d1782aa377b0a">More...</a><br /></td></tr>
-<tr class="separator:ga65373b46691c5beac19d1782aa377b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2f1e01d3e770ab11429d74413c833dee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; VoxelBitSet, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga2f1e01d3e770ab11429d74413c833dee">MR::segmentVolumeByGraphCut</a> (const SimpleVolume &amp;densityVolume, float k, const VoxelBitSet &amp;sourceSeeds, const VoxelBitSet &amp;sinkSeeds, ProgressCallback cb={})</td></tr>
+<tr class="memdesc:ga2f1e01d3e770ab11429d74413c833dee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Segment voxels of given volume on two sets using graph-cut, returning source set.  <a href="group__VoxelGroup.html#ga2f1e01d3e770ab11429d74413c833dee">More...</a><br /></td></tr>
+<tr class="separator:ga2f1e01d3e770ab11429d74413c833dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
