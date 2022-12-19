@@ -399,6 +399,16 @@ Typedefs</h2></td></tr>
 <tr class="separator:a1aa03e2767de0adc6154f5419a78e9df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f7f21ab968d632b6b6f4e9575fd7fc3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a7f7f21ab968d632b6b6f4e9575fd7fc3">MR::FaceNormals</a> = Vector&lt; Vector3f, FaceId &gt;</td></tr>
 <tr class="separator:a7f7f21ab968d632b6b6f4e9575fd7fc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ff8538fbd804e0f9c7aa814bbb3ed80"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a9ff8538fbd804e0f9c7aa814bbb3ed80">MR::FaceBMap</a> = BMap&lt; FaceId, FaceId &gt;</td></tr>
+<tr class="separator:a9ff8538fbd804e0f9c7aa814bbb3ed80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae49732f6a4549f859a39da1454ff483f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ae49732f6a4549f859a39da1454ff483f">MR::VertBMap</a> = BMap&lt; VertId, VertId &gt;</td></tr>
+<tr class="separator:ae49732f6a4549f859a39da1454ff483f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ab443a95d2bf6d29c9fc03f38ec750b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6ab443a95d2bf6d29c9fc03f38ec750b">MR::EdgeBMap</a> = BMap&lt; EdgeId, EdgeId &gt;</td></tr>
+<tr class="separator:a6ab443a95d2bf6d29c9fc03f38ec750b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dfa62cab48a2e5965060201a796da44"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4dfa62cab48a2e5965060201a796da44">MR::UndirectedEdgeBMap</a> = BMap&lt; UndirectedEdgeId, UndirectedEdgeId &gt;</td></tr>
+<tr class="separator:a4dfa62cab48a2e5965060201a796da44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad21579a7ce5a5e21a5f258ee8ff5fabc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ad21579a7ce5a5e21a5f258ee8ff5fabc">MR::WholeEdgeBMap</a> = BMap&lt; EdgeId, UndirectedEdgeId &gt;</td></tr>
+<tr class="separator:ad21579a7ce5a5e21a5f258ee8ff5fabc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a490b04495f0c61e2bc6b9a14bd6e48e2"><td class="memTemplParams" colspan="2">template&lt;typename K &gt; </td></tr>
 <tr class="memitem:a490b04495f0c61e2bc6b9a14bd6e48e2"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a490b04495f0c61e2bc6b9a14bd6e48e2">MR::HashSet</a> = phmap::flat_hash_set&lt; K &gt;</td></tr>
 <tr class="separator:a490b04495f0c61e2bc6b9a14bd6e48e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -498,9 +508,9 @@ Variables</h2></td></tr>
 <tr class="memitem:a6443f2f35b37c75d9872125777f9df18"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
 <tr class="memitem:a6443f2f35b37c75d9872125777f9df18"><td class="memTemplItemLeft" align="right" valign="top">class <a class="el" href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6443f2f35b37c75d9872125777f9df18">MR::Vector</a></td></tr>
 <tr class="separator:a6443f2f35b37c75d9872125777f9df18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79ab8abaefdfccabd2f3358ee036199f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a79ab8abaefdfccabd2f3358ee036199f"><td class="memTemplItemLeft" align="right" valign="top">class <a class="el" href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a79ab8abaefdfccabd2f3358ee036199f">MR::Buffer</a></td></tr>
-<tr class="separator:a79ab8abaefdfccabd2f3358ee036199f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0e64b96206dcc7e32053b671c6b2c1b"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I  = size_t&gt; </td></tr>
+<tr class="memitem:ac0e64b96206dcc7e32053b671c6b2c1b"><td class="memTemplItemLeft" align="right" valign="top">class <a class="el" href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac0e64b96206dcc7e32053b671c6b2c1b">MR::Buffer</a></td></tr>
+<tr class="separator:ac0e64b96206dcc7e32053b671c6b2c1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0644533afbeab941be3a4178a8feb4fe"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0644533afbeab941be3a4178a8feb4fe">MR::BitSet</a></td></tr>
 <tr class="separator:a0644533afbeab941be3a4178a8feb4fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9bc4356bc00a782b8b9e577a40da6a5"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
@@ -515,6 +525,9 @@ Variables</h2></td></tr>
 <tr class="memitem:a0ca1e3843eef2c4f88b6c11546a15540"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a0ca1e3843eef2c4f88b6c11546a15540"><td class="memTemplItemLeft" align="right" valign="top">struct <a class="el" href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0ca1e3843eef2c4f88b6c11546a15540">MR::Vector3</a></td></tr>
 <tr class="separator:a0ca1e3843eef2c4f88b6c11546a15540"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94888580c3dee1529c46303f33c6681f"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
+<tr class="memitem:a94888580c3dee1529c46303f33c6681f"><td class="memTemplItemLeft" align="right" valign="top">struct <a class="el" href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a94888580c3dee1529c46303f33c6681f">MR::BMap</a></td></tr>
+<tr class="separator:a94888580c3dee1529c46303f33c6681f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70998e19114b7179469682c1c31c77ae"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a70998e19114b7179469682c1c31c77ae">MR::MeshTopology</a></td></tr>
 <tr class="separator:a70998e19114b7179469682c1c31c77ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49165bcb87a59752b8f02f19ea7f2424"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a49165bcb87a59752b8f02f19ea7f2424">MR::Mesh</a></td></tr>

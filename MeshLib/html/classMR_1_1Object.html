@@ -579,7 +579,12 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >adds given object at the end of children (recognized or not); returns false if it was already child of this, of if given pointer is empty </p>
+<p >adds given object at the end of children (recognized or not); returns false if it was already child of this, of if given pointer is empty; child object will always report this as parent after the call; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">recognizedChild</td><td>if set to false then child object will be excluded from <a class="el" href="classMR_1_1Object.html#a918f27844d6d9aae269008f0036bc671" title="an object can hold other sub-objects">children()</a> and it will be stored by weak_ptr </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

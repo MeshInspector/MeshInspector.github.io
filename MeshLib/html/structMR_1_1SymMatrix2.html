@@ -121,6 +121,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa8f1ff6e1f39c591d1ca7dd6c12baa91"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
 <tr class="memitem:aa8f1ff6e1f39c591d1ca7dd6c12baa91"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structMR_1_1SymMatrix2.html#aa8f1ff6e1f39c591d1ca7dd6c12baa91">SymMatrix2</a> (const <a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a>&lt; U &gt; &amp;m)</td></tr>
 <tr class="separator:aa8f1ff6e1f39c591d1ca7dd6c12baa91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a261caca745c8a5998fe4599fd9031b43"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SymMatrix2.html#a261caca745c8a5998fe4599fd9031b43">trace</a> () const noexcept</td></tr>
+<tr class="memdesc:a261caca745c8a5998fe4599fd9031b43"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes trace of the matrix  <a href="structMR_1_1SymMatrix2.html#a261caca745c8a5998fe4599fd9031b43">More...</a><br /></td></tr>
+<tr class="separator:a261caca745c8a5998fe4599fd9031b43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac088520c9f121e179524c9eb9b86ff3b"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SymMatrix2.html#ac088520c9f121e179524c9eb9b86ff3b">normSq</a> () const noexcept</td></tr>
+<tr class="memdesc:ac088520c9f121e179524c9eb9b86ff3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the squared norm of the matrix, which is equal to the sum of 4 squared elements  <a href="structMR_1_1SymMatrix2.html#ac088520c9f121e179524c9eb9b86ff3b">More...</a><br /></td></tr>
+<tr class="separator:ac088520c9f121e179524c9eb9b86ff3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c194918f3cde06811faecbb15daad9c"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SymMatrix2.html#a9c194918f3cde06811faecbb15daad9c">det</a> () const noexcept</td></tr>
 <tr class="memdesc:a9c194918f3cde06811faecbb15daad9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes determinant of the matrix  <a href="structMR_1_1SymMatrix2.html#a9c194918f3cde06811faecbb15daad9c">More...</a><br /></td></tr>
 <tr class="separator:a9c194918f3cde06811faecbb15daad9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,6 +141,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a55a77d7f0bbf6b2221a68f1b76439079"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a841408afb3b039fd491f2c3078d9ad99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SymMatrix2.html#a841408afb3b039fd491f2c3078d9ad99">operator/=</a> (T b)</td></tr>
 <tr class="separator:a841408afb3b039fd491f2c3078d9ad99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60e49e5bc0d3433cc7f57f72dd639257"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SymMatrix2.html#a60e49e5bc0d3433cc7f57f72dd639257">eigens</a> (<a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; T &gt; *eigenvectors=nullptr) const</td></tr>
+<tr class="separator:a60e49e5bc0d3433cc7f57f72dd639257"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f11254bd96f9ca0ab9b93bcb11a7506"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SymMatrix2.html#a3f11254bd96f9ca0ab9b93bcb11a7506">eigenvector</a> (T eigenvalue) const</td></tr>
+<tr class="memdesc:a3f11254bd96f9ca0ab9b93bcb11a7506"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes not-unit eigenvector corresponding to a not-repeating eigenvalue  <a href="structMR_1_1SymMatrix2.html#a3f11254bd96f9ca0ab9b93bcb11a7506">More...</a><br /></td></tr>
+<tr class="separator:a3f11254bd96f9ca0ab9b93bcb11a7506"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17537ee7967adbbe1756fe6c37545e38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SymMatrix2.html#a17537ee7967adbbe1756fe6c37545e38">solve</a> (const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;b) const</td></tr>
+<tr class="separator:a17537ee7967adbbe1756fe6c37545e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -303,6 +316,49 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a60e49e5bc0d3433cc7f57f72dd639257" name="a60e49e5bc0d3433cc7f57f72dd639257"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60e49e5bc0d3433cc7f57f72dd639257">&#9670;&#160;</a></span>eigens()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; <a class="el" href="structMR_1_1SymMatrix2.html">MR::SymMatrix2</a>&lt; T &gt;::eigens </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>eigenvectors</em> = <code>nullptr</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >returns eigenvalues of the matrix in ascending order (diagonal matrix L), and optionally returns corresponding unit eigenvectors in the rows of orthogonal matrix V, M*V^T = V^T*L; M = V^T*L*V </p>
+
+</div>
+</div>
+<a id="a3f11254bd96f9ca0ab9b93bcb11a7506" name="a3f11254bd96f9ca0ab9b93bcb11a7506"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f11254bd96f9ca0ab9b93bcb11a7506">&#9670;&#160;</a></span>eigenvector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; <a class="el" href="structMR_1_1SymMatrix2.html">MR::SymMatrix2</a>&lt; T &gt;::eigenvector </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>eigenvalue</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>computes not-unit eigenvector corresponding to a not-repeating eigenvalue </p>
+
+</div>
+</div>
 <a id="a4bfb70d898e1d782b1743ab3bf6c9068" name="a4bfb70d898e1d782b1743ab3bf6c9068"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4bfb70d898e1d782b1743ab3bf6c9068">&#9670;&#160;</a></span>identity()</h2>
 
@@ -356,6 +412,35 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>computes inverse matrix </p>
+
+</div>
+</div>
+<a id="ac088520c9f121e179524c9eb9b86ff3b" name="ac088520c9f121e179524c9eb9b86ff3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac088520c9f121e179524c9eb9b86ff3b">&#9670;&#160;</a></span>normSq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr T <a class="el" href="structMR_1_1SymMatrix2.html">MR::SymMatrix2</a>&lt; T &gt;::normSq </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes the squared norm of the matrix, which is equal to the sum of 4 squared elements </p>
 
 </div>
 </div>
@@ -468,6 +553,56 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17537ee7967adbbe1756fe6c37545e38" name="a17537ee7967adbbe1756fe6c37545e38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17537ee7967adbbe1756fe6c37545e38">&#9670;&#160;</a></span>solve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; <a class="el" href="structMR_1_1SymMatrix2.html">MR::SymMatrix2</a>&lt; T &gt;::solve </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >solves the equation M*x = b and returns x; if M is degenerate then returns the solution closest to origin point </p>
+
+</div>
+</div>
+<a id="a261caca745c8a5998fe4599fd9031b43" name="a261caca745c8a5998fe4599fd9031b43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a261caca745c8a5998fe4599fd9031b43">&#9670;&#160;</a></span>trace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr T <a class="el" href="structMR_1_1SymMatrix2.html">MR::SymMatrix2</a>&lt; T &gt;::trace </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes trace of the matrix </p>
 
 </div>
 </div>

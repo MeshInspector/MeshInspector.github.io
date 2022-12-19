@@ -140,9 +140,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afad536a6dcb131bca201c0d5d385937b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="classMR_1_1AABBTree.html#a0d5bc51d4a13d2ff4bda0d7669a6098e">NodeId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTree.html#afad536a6dcb131bca201c0d5d385937b">getSubtrees</a> (int minNum) const</td></tr>
 <tr class="memdesc:afad536a6dcb131bca201c0d5d385937b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns at least given number of top-level not-intersecting subtrees, union of which contain all tree leaves  <a href="classMR_1_1AABBTree.html#afad536a6dcb131bca201c0d5d385937b">More...</a><br /></td></tr>
 <tr class="separator:afad536a6dcb131bca201c0d5d385937b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3aae5151bb7775539ee46938c902df16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a989bcd374602a615d0acbd6a4988b9b3">FaceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTree.html#a3aae5151bb7775539ee46938c902df16">getLeafOrderAndReset</a> ()</td></tr>
-<tr class="memdesc:a3aae5151bb7775539ee46938c902df16"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns FaceIds in the order as they stored in the nodes, then resets this order to 0,1,2,...  <a href="classMR_1_1AABBTree.html#a3aae5151bb7775539ee46938c902df16">More...</a><br /></td></tr>
-<tr class="separator:a3aae5151bb7775539ee46938c902df16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06b0074f8c3d597ebed5608323ecba21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTree.html#a06b0074f8c3d597ebed5608323ecba21">getLeafOrderAndReset</a> (<a class="el" href="namespaceMR.html#a9ff8538fbd804e0f9c7aa814bbb3ed80">FaceBMap</a> &amp;faceMap)</td></tr>
+<tr class="separator:a06b0074f8c3d597ebed5608323ecba21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73821036edd8a5a2f9ea4399b225f9d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1AABBTree.html#a14be9f478ec6272d18dc330bd8c94b38">NodeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTree.html#a73821036edd8a5a2f9ea4399b225f9d0">getNodesFromFaces</a> (const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;faces) const</td></tr>
 <tr class="memdesc:a73821036edd8a5a2f9ea4399b225f9d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns set of nodes containing among direct or indirect children given faces  <a href="classMR_1_1AABBTree.html#a73821036edd8a5a2f9ea4399b225f9d0">More...</a><br /></td></tr>
 <tr class="separator:a73821036edd8a5a2f9ea4399b225f9d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -317,22 +316,27 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a3aae5151bb7775539ee46938c902df16" name="a3aae5151bb7775539ee46938c902df16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3aae5151bb7775539ee46938c902df16">&#9670;&#160;</a></span>getLeafOrderAndReset()</h2>
+<a id="a06b0074f8c3d597ebed5608323ecba21" name="a06b0074f8c3d597ebed5608323ecba21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06b0074f8c3d597ebed5608323ecba21">&#9670;&#160;</a></span>getLeafOrderAndReset()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a989bcd374602a615d0acbd6a4988b9b3">FaceMap</a> MR::AABBTree::getLeafOrderAndReset </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::AABBTree::getLeafOrderAndReset </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a9ff8538fbd804e0f9c7aa814bbb3ed80">FaceBMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>faceMap</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>returns FaceIds in the order as they stored in the nodes, then resets this order to 0,1,2,... </p>
+<p >returns FaceId -&gt; leaf#, then resets leaf order to 0,1,2,...; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buffer</td><td>in faceMap must be resized before the call </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

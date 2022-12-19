@@ -140,6 +140,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aa7b755cd5bad251398508eb99a3fe806"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#aa7b755cd5bad251398508eb99a3fe806">touchBdVertices</a> = true</td></tr>
 <tr class="memdesc:aa7b755cd5bad251398508eb99a3fe806"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to allow collapsing edges having at least one vertex on (region) boundary.  <a href="structMR_1_1DecimateSettings.html#aa7b755cd5bad251398508eb99a3fe806">More...</a><br /></td></tr>
 <tr class="separator:aa7b755cd5bad251398508eb99a3fe806"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc44005d50714fe75f875a25f3a59f66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#abc44005d50714fe75f875a25f3a59f66">bdVerts</a> = nullptr</td></tr>
+<tr class="separator:abc44005d50714fe75f875a25f3a59f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebecde304889b67910dd05d032cb8d07"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#aebecde304889b67910dd05d032cb8d07">maxAngleChange</a> = -1</td></tr>
 <tr class="separator:aebecde304889b67910dd05d032cb8d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4eab7dd113486daa41a2272bac1b8a2f"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> edgeToCollapse, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;newEdgeOrgPos)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#a4eab7dd113486daa41a2272bac1b8a2f">preCollapse</a></td></tr>
@@ -176,6 +178,21 @@ Public Attributes</h2></td></tr>
 
 <p>The user can provide this optional callback for adjusting error introduced by this edge collapse and the collapse position. </p>
 <p >On input the callback gets the squared error and position computed by standard means, and callback can modify any of them. The larger the error, the later this edge will be collapsed. This callback can be called from many threads in parallel and must be thread-safe. This callback can be called many times for each edge before real collapsing, and it is important to make the same adjustment. </p>
+
+</div>
+</div>
+<a id="abc44005d50714fe75f875a25f3a59f66" name="abc44005d50714fe75f875a25f3a59f66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc44005d50714fe75f875a25f3a59f66">&#9670;&#160;</a></span>bdVerts</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a>* MR::DecimateSettings::bdVerts = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >if touchBdVertices=false then the algorithm needs to know about all boundary vertices; if bdVerts is not null, then they are output there; if on input the set is not empty then initialization is skipped in favor of values from there; </p>
 
 </div>
 </div>

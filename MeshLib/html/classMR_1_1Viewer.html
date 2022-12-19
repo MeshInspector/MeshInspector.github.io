@@ -295,12 +295,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a92e42c9709217410c53a0b3c311c537a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca51049e3e01fcf772afa0039f059197"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#aca51049e3e01fcf772afa0039f059197">getFPS</a> () const</td></tr>
 <tr class="separator:aca51049e3e01fcf772afa0039f059197"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c48b19028ccba529253fb3dc447f168"><td class="memItemLeft" align="right" valign="top">long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a5c48b19028ccba529253fb3dc447f168">getPrevFrameDrawTimeMillisec</a> () const</td></tr>
-<tr class="separator:a5c48b19028ccba529253fb3dc447f168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fd7f5345850eb4c927834dad221a0df"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a7fd7f5345850eb4c927834dad221a0df">getPrevFrameDrawTimeMillisec</a> () const</td></tr>
+<tr class="separator:a7fd7f5345850eb4c927834dad221a0df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca894260269798e399369b529d7ba3b0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#aca894260269798e399369b529d7ba3b0">getStaticGLBufferSize</a> () const</td></tr>
 <tr class="separator:aca894260269798e399369b529d7ba3b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44cbae38c17e8bd12f6e523c14418c88"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a44cbae38c17e8bd12f6e523c14418c88">setMinimumForceRedrawFramesAfterEvents</a> (int minimumIncrement)</td></tr>
-<tr class="separator:a44cbae38c17e8bd12f6e523c14418c88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a790440df3478329e0d2f47f2a8f6462d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a790440df3478329e0d2f47f2a8f6462d">incrementForceRedrawFrames</a> (int i=1, bool swapOnLastOnly=false)</td></tr>
 <tr class="separator:a790440df3478329e0d2f47f2a8f6462d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a5979dba1caca6f934f1e351d649e4e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a5a5979dba1caca6f934f1e351d649e4e">isCurrentFrameSwapping</a> () const</td></tr>
@@ -392,6 +390,8 @@ Static Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a297a4daffc230ff2379b7c69f2312089"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a297a4daffc230ff2379b7c69f2312089">swapOnLastPostEventsRedraw</a> { true }</td></tr>
 <tr class="separator:a297a4daffc230ff2379b7c69f2312089"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6ad84943b0d9f49dbd4b22e3129216d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#af6ad84943b0d9f49dbd4b22e3129216d">forceRedrawMinimumIncrementAfterEvents</a> { 4 }</td></tr>
+<tr class="separator:af6ad84943b0d9f49dbd4b22e3129216d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf21364b06943f8b3a27b96c8145bd89"><td class="memItemLeft" align="right" valign="top">GLFWwindow *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#adf21364b06943f8b3a27b96c8145bd89">window</a></td></tr>
 <tr class="separator:adf21364b06943f8b3a27b96c8145bd89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc8ad30c033c6e7346948b81416c26eb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classMR_1_1Viewport.html">Viewport</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#afc8ad30c033c6e7346948b81416c26eb">viewport_list</a></td></tr>
@@ -1428,8 +1428,8 @@ template&lt;typename PluginType &gt; </div>
 
 </div>
 </div>
-<a id="a5c48b19028ccba529253fb3dc447f168" name="a5c48b19028ccba529253fb3dc447f168"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c48b19028ccba529253fb3dc447f168">&#9670;&#160;</a></span>getPrevFrameDrawTimeMillisec()</h2>
+<a id="a7fd7f5345850eb4c927834dad221a0df" name="a7fd7f5345850eb4c927834dad221a0df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fd7f5345850eb4c927834dad221a0df">&#9670;&#160;</a></span>getPrevFrameDrawTimeMillisec()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1438,7 +1438,7 @@ template&lt;typename PluginType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">long long MR::Viewer::getPrevFrameDrawTimeMillisec </td>
+          <td class="memname">double MR::Viewer::getPrevFrameDrawTimeMillisec </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2639,24 +2639,6 @@ template&lt;typename PluginType &gt; </div>
 
 </div>
 </div>
-<a id="a44cbae38c17e8bd12f6e523c14418c88" name="a44cbae38c17e8bd12f6e523c14418c88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44cbae38c17e8bd12f6e523c14418c88">&#9670;&#160;</a></span>setMinimumForceRedrawFramesAfterEvents()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API void MR::Viewer::setMinimumForceRedrawFramesAfterEvents </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>minimumIncrement</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ac8eb7071af575a78eb86abc5114add0f" name="ac8eb7071af575a78eb86abc5114add0f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac8eb7071af575a78eb86abc5114add0f">&#9670;&#160;</a></span>setupScene()</h2>
 
@@ -3175,6 +3157,20 @@ template&lt;typename PluginType &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">class MRVIEWER_CLASS <a class="el" href="classMR_1_1Viewer_1_1EventQueue.html">MR::Viewer::EventQueue</a> MR::Viewer::eventQueue</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af6ad84943b0d9f49dbd4b22e3129216d" name="af6ad84943b0d9f49dbd4b22e3129216d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6ad84943b0d9f49dbd4b22e3129216d">&#9670;&#160;</a></span>forceRedrawMinimumIncrementAfterEvents</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::Viewer::forceRedrawMinimumIncrementAfterEvents { 4 }</td>
         </tr>
       </table>
 </div><div class="memdoc">

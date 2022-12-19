@@ -10,7 +10,9 @@ var classMR_1_1ViewerSettingsManager =
     ] ],
     [ "ViewerSettingsManager", "classMR_1_1ViewerSettingsManager.html#a73a1b054bbf40224c9f01e6aff8af7af", null ],
     [ "getLastExtentionNum", "classMR_1_1ViewerSettingsManager.html#a79f070e05ed93a75c289913cb3c93aa0", null ],
+    [ "loadInt", "classMR_1_1ViewerSettingsManager.html#a0dca5c0c64723897642af29dc8fef964", null ],
     [ "loadSettings", "classMR_1_1ViewerSettingsManager.html#aae039b8200dd053aec8632ae57be5880", null ],
+    [ "saveInt", "classMR_1_1ViewerSettingsManager.html#a51cede7ab3c024e08577094a584e7512", null ],
     [ "saveSettings", "classMR_1_1ViewerSettingsManager.html#a770118627bfaf87c25ea5054d8accd6b", null ],
     [ "setLastExtentionNum", "classMR_1_1ViewerSettingsManager.html#a86491e8c69792c3c7ca0fd3d7ce35913", null ]
 ];

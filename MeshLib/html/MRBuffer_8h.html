@@ -114,8 +114,13 @@ $(document).ready(function(){initNavTree('MRBuffer_8h.html',''); initResizable()
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ZeroOnMove.html">MR::ZeroOnMove&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html">MR::Buffer&lt; T &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html">MR::Buffer&lt; T, I &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods  <a href="classMR_1_1Buffer.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BMap.html">MR::BMap&lt; T, I &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">flat map: I -&gt; T  <a href="structMR_1_1BMap.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PackMapping.html">MR::PackMapping</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -125,6 +130,10 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a6210dabfb050a70351fc28943644e0ec"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
+<tr class="memitem:a6210dabfb050a70351fc28943644e0ec"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6210dabfb050a70351fc28943644e0ec">MR::getAt</a> (const Buffer&lt; T, I &gt; &amp;bmap, I key)</td></tr>
+<tr class="memdesc:a6210dabfb050a70351fc28943644e0ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">given some buffer map and a key, returns the value associated with the key, or default value if key is invalid  <a href="namespaceMR.html#a6210dabfb050a70351fc28943644e0ec">More...</a><br /></td></tr>
+<tr class="separator:a6210dabfb050a70351fc28943644e0ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b5dcf4b2f351c70d85b34fbeb387322"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
 <tr class="memitem:a8b5dcf4b2f351c70d85b34fbeb387322"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8b5dcf4b2f351c70d85b34fbeb387322">MR::begin</a> (const Buffer&lt; T &gt; &amp;a)</td></tr>
 <tr class="separator:a8b5dcf4b2f351c70d85b34fbeb387322"><td class="memSeparator" colspan="2">&#160;</td></tr>

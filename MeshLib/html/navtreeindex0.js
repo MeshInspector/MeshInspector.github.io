@@ -71,10 +71,11 @@ var NAVTREEINDEX0 =
 "MRBox_8h.html":[12,0,0,1,1,20],
 "MRBox_8h_source.html":[12,0,0,1,1,20],
 "MRBuffer_8h.html":[12,0,0,1,1,21],
-"MRBuffer_8h.html#a0ff044294f3a5058359ce574906959e0":[12,0,0,1,1,21,1],
-"MRBuffer_8h.html#a3a5f00f44e7959717df54ad46bd7a76c":[12,0,0,1,1,21,3],
-"MRBuffer_8h.html#a7f62941e67ede5f73cc2130cf209d573":[12,0,0,1,1,21,4],
-"MRBuffer_8h.html#a8b5dcf4b2f351c70d85b34fbeb387322":[12,0,0,1,1,21,2],
+"MRBuffer_8h.html#a0ff044294f3a5058359ce574906959e0":[12,0,0,1,1,21,3],
+"MRBuffer_8h.html#a3a5f00f44e7959717df54ad46bd7a76c":[12,0,0,1,1,21,5],
+"MRBuffer_8h.html#a6210dabfb050a70351fc28943644e0ec":[12,0,0,1,1,21,7],
+"MRBuffer_8h.html#a7f62941e67ede5f73cc2130cf209d573":[12,0,0,1,1,21,6],
+"MRBuffer_8h.html#a8b5dcf4b2f351c70d85b34fbeb387322":[12,0,0,1,1,21,4],
 "MRBuffer_8h_source.html":[12,0,0,1,1,21],
 "MRCameraOrientationPlugin_8h.html":[12,0,0,1,0,0,0],
 "MRCameraOrientationPlugin_8h_source.html":[12,0,0,1,0,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "MRFixUndercuts_8h_source.html":[12,0,0,1,1,66],
 "MRFloatGridComponents_8h.html":[12,0,0,1,1,68],
 "MRFloatGridComponents_8h_source.html":[12,0,0,1,1,68],
-"MRFloatGrid_8h.html":[12,0,0,1,1,67],
-"MRFloatGrid_8h_source.html":[12,0,0,1,1,67]
+"MRFloatGrid_8h.html":[12,0,0,1,1,67]
 };

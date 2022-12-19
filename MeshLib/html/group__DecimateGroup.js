@@ -2,6 +2,7 @@ var group__DecimateGroup =
 [
     [ "MR::DecimateSettings", "structMR_1_1DecimateSettings.html", [
       [ "adjustCollapse", "structMR_1_1DecimateSettings.html#a21d7c6d9122286b4edf7bd531d38b72b", null ],
+      [ "bdVerts", "structMR_1_1DecimateSettings.html#abc44005d50714fe75f875a25f3a59f66", null ],
       [ "criticalTriAspectRatio", "structMR_1_1DecimateSettings.html#a5f0e2ae094cddee1b490103a349feda5", null ],
       [ "maxAngleChange", "structMR_1_1DecimateSettings.html#aebecde304889b67910dd05d032cb8d07", null ],
       [ "maxDeletedFaces", "structMR_1_1DecimateSettings.html#a38bbdf3c479e6edea3b93ca7a7b52084", null ],

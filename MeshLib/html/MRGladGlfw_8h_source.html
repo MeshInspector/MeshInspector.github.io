@@ -120,14 +120,15 @@ $(document).ready(function(){initNavTree('MRGladGlfw_8h_source.html',''); initRe
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#ifndef __EMSCRIPTEN__</span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#pragma warning(push)</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#pragma warning(disable: 4191) </span><span class="comment">//&#39;type cast&#39;: unsafe conversion from &#39;GLFWglproc (__cdecl *)(const char *)&#39; to &#39;GLADloadproc&#39;</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordflow">return</span> gladLoadGLLoader( (GLADloadproc)glfwGetProcAddress );</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#pragma warning(pop)</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keywordflow">return</span> 1;</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>}</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keyword">static</span> <span class="keyword">auto</span> loadRes = gladLoadGLLoader( ( GLADloadproc )glfwGetProcAddress );</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordflow">return</span> loadRes;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#pragma warning(pop)</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keywordflow">return</span> 1;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>}</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRCameraOrientationPlugin.h:7</div></div>
 <div class="ttc" id="anamespaceMR_html_aea8b2bf2b592657af506fb5517e0c1d9"><div class="ttname"><a href="namespaceMR.html#aea8b2bf2b592657af506fb5517e0c1d9">MR::loadGL</a></div><div class="ttdeci">int loadGL()</div><div class="ttdef"><b>Definition:</b> MRGladGlfw.h:16</div></div>
 </div><!-- fragment --></div><!-- contents -->

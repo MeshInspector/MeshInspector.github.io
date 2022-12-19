@@ -13,6 +13,7 @@ var classMR_1_1TaggedBitSet =
     [ "flip", "classMR_1_1TaggedBitSet.html#a53b449a12de4ac9ee78a0d7f030a31c6", null ],
     [ "flip", "classMR_1_1TaggedBitSet.html#a8a67c4f0fe19bf562eb96dc72db1fbe1", null ],
     [ "flip", "classMR_1_1TaggedBitSet.html#afc2b41f1ab59e3ba965e9ab8da10ccff", null ],
+    [ "getMapping", "group__BasicGroup.html#ga558c4b9a0ee013c55d3287a5bb2606c8", null ],
     [ "getMapping", "group__BasicGroup.html#ga6206857c0e584caf25ffd7443b6e3adc", null ],
     [ "getMapping", "group__BasicGroup.html#gaa1559a9f62b475c04360d1fdd999a60d", null ],
     [ "getMapping", "group__BasicGroup.html#ga47657b05e08eab8b2ec33ca6ad037d89", null ],
