@@ -2,6 +2,7 @@ var MRRegionBoundary_8h =
 [
     [ "findRegionBoundary", "MRRegionBoundary_8h.html#ae7c14aed03a3b460fcd94099af44851b", null ],
     [ "findRegionBoundary", "MRRegionBoundary_8h.html#a2b0f23f1de30eee9a428674217f22d62", null ],
+    [ "findRegionBoundaryInsideMesh", "MRRegionBoundary_8h.html#aa4b7c63c7d01b36c734fe55539c3c09a", null ],
     [ "findRegionOuterFaces", "MRRegionBoundary_8h.html#a14819584da09eac6df2cab459ab80626", null ],
     [ "getBoundaryVerts", "MRRegionBoundary_8h.html#a2ea3516bc5bd31a954ef5cea5edd4ae5", null ],
     [ "getIncidentEdges", "MRRegionBoundary_8h.html#a917717848776c5bef68005e7fbdf24ff", null ],

@@ -117,8 +117,12 @@ Public Types</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6ae7e4c5020652a1dda97dc3664b2bbf"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1CommandLoop.html#a6ae7e4c5020652a1dda97dc3664b2bbf">setMainThreadId</a> (const std::thread::id &amp;id)</td></tr>
 <tr class="separator:a6ae7e4c5020652a1dda97dc3664b2bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a392f4a55ea88cfc95fe32024b6c703b0"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1CommandLoop.html#a392f4a55ea88cfc95fe32024b6c703b0">setWindowAppeared</a> ()</td></tr>
+<tr class="separator:a392f4a55ea88cfc95fe32024b6c703b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02959e54688bc27ce4d5df66a2d6e81f"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1CommandLoop.html#a02959e54688bc27ce4d5df66a2d6e81f">appendCommand</a> (<a class="el" href="classMR_1_1CommandLoop.html#a517bdd4c876165f0896a0780d5fea918">CommandFunc</a> func)</td></tr>
 <tr class="separator:a02959e54688bc27ce4d5df66a2d6e81f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91f6d41bebd44bdde8cae7577456f9a6"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1CommandLoop.html#a91f6d41bebd44bdde8cae7577456f9a6">appendCommandAfterWindowAppear</a> (<a class="el" href="classMR_1_1CommandLoop.html#a517bdd4c876165f0896a0780d5fea918">CommandFunc</a> func)</td></tr>
+<tr class="separator:a91f6d41bebd44bdde8cae7577456f9a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10e006b28fa9dbd3572e3b43c8037640"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1CommandLoop.html#a10e006b28fa9dbd3572e3b43c8037640">runCommandFromGUIThread</a> (<a class="el" href="classMR_1_1CommandLoop.html#a517bdd4c876165f0896a0780d5fea918">CommandFunc</a> func)</td></tr>
 <tr class="separator:a10e006b28fa9dbd3572e3b43c8037640"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f948b137288b0e6e94ca32809166869"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1CommandLoop.html#a2f948b137288b0e6e94ca32809166869">processCommands</a> ()</td></tr>
@@ -151,6 +155,32 @@ Static Public Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">static MRVIEWER_API void MR::CommandLoop::appendCommand </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1CommandLoop.html#a517bdd4c876165f0896a0780d5fea918">CommandFunc</a>&#160;</td>
+          <td class="paramname"><em>func</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a91f6d41bebd44bdde8cae7577456f9a6" name="a91f6d41bebd44bdde8cae7577456f9a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91f6d41bebd44bdde8cae7577456f9a6">&#9670;&#160;</a></span>appendCommandAfterWindowAppear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MRVIEWER_API void MR::CommandLoop::appendCommandAfterWindowAppear </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1CommandLoop.html#a517bdd4c876165f0896a0780d5fea918">CommandFunc</a>&#160;</td>
           <td class="paramname"><em>func</em></td><td>)</td>
@@ -231,6 +261,31 @@ Static Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">const std::thread::id &amp;&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a392f4a55ea88cfc95fe32024b6c703b0" name="a392f4a55ea88cfc95fe32024b6c703b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a392f4a55ea88cfc95fe32024b6c703b0">&#9670;&#160;</a></span>setWindowAppeared()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MRVIEWER_API void MR::CommandLoop::setWindowAppeared </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>

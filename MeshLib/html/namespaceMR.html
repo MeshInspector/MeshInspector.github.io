@@ -2509,6 +2509,11 @@ Functions</h2></td></tr>
 <tr class="separator:a41ced3058fe68e59ccd27b7b81bf5e3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a756a2b786fd51099db1c7e2f13be0620"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a756a2b786fd51099db1c7e2f13be0620">loadMeshDll</a> ()</td></tr>
 <tr class="separator:a756a2b786fd51099db1c7e2f13be0620"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d7b01fa0466dc1f02575fc2022aadcd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4d7b01fa0466dc1f02575fc2022aadcd">subdivideWithPlane</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">Plane3f</a> &amp;plane)</td></tr>
+<tr class="separator:a4d7b01fa0466dc1f02575fc2022aadcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e790c340d0ce4518c5ff5215e1481fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a9e790c340d0ce4518c5ff5215e1481fd">trimWithPlane</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">Plane3f</a> &amp;plane, std::vector&lt; <a class="el" href="namespaceMR.html#aee05ada6f56e0075cc157732cae41543">EdgeLoop</a> &gt; *outCutContours=nullptr)</td></tr>
+<tr class="memdesc:a9e790c340d0ce4518c5ff5215e1481fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">trim mesh by plane  <a href="namespaceMR.html#a9e790c340d0ce4518c5ff5215e1481fd">More...</a><br /></td></tr>
+<tr class="separator:a9e790c340d0ce4518c5ff5215e1481fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a053c2f0474b2a38aa198be52dbed1bdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a053c2f0474b2a38aa198be52dbed1bdb">offsetMesh</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float offset, const <a class="el" href="structMR_1_1OffsetParameters.html">OffsetParameters</a> &amp;params={})</td></tr>
 <tr class="separator:a053c2f0474b2a38aa198be52dbed1bdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78fd417d2a5046b4f8a517be36b6bc89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a78fd417d2a5046b4f8a517be36b6bc89">doubleOffsetMesh</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float offsetA, float offsetB, const <a class="el" href="structMR_1_1OffsetParameters.html">OffsetParameters</a> &amp;params={})</td></tr>
@@ -2691,6 +2696,8 @@ Functions</h2></td></tr>
 <tr class="separator:a2b0f23f1de30eee9a428674217f22d62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7c14aed03a3b460fcd94099af44851b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespaceMR.html#aee05ada6f56e0075cc157732cae41543">EdgeLoop</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ae7c14aed03a3b460fcd94099af44851b">findRegionBoundary</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;region)</td></tr>
 <tr class="separator:ae7c14aed03a3b460fcd94099af44851b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4b7c63c7d01b36c734fe55539c3c09a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa4b7c63c7d01b36c734fe55539c3c09a">findRegionBoundaryInsideMesh</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;region)</td></tr>
+<tr class="separator:aa4b7c63c7d01b36c734fe55539c3c09a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14819584da09eac6df2cab459ab80626"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a14819584da09eac6df2cab459ab80626">findRegionOuterFaces</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;region)</td></tr>
 <tr class="separator:a14819584da09eac6df2cab459ab80626"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42bfb820a74ca491a32df3c3c86c8053"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a42bfb820a74ca491a32df3c3c86c8053">getIncidentVerts</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;faces)</td></tr>
@@ -2922,6 +2929,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a13a3902f4af22aaa5fcd0817f8d925fd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a13a3902f4af22aaa5fcd0817f8d925fd">roundToPrecision</a> (float v, int precision)</td></tr>
 <tr class="memdesc:a13a3902f4af22aaa5fcd0817f8d925fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns given value rounded to given number of decimal digits  <a href="namespaceMR.html#a13a3902f4af22aaa5fcd0817f8d925fd">More...</a><br /></td></tr>
 <tr class="separator:a13a3902f4af22aaa5fcd0817f8d925fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f9f82f9571d4a67b586f1e38d93afe9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0f9f82f9571d4a67b586f1e38d93afe9">getCancelMessage</a> (const std::filesystem::path &amp;path)</td></tr>
+<tr class="separator:a0f9f82f9571d4a67b586f1e38d93afe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga86210d234d2f6f20db94e80984dde008"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceGroup.html#ga86210d234d2f6f20db94e80984dde008">computeSurfaceDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;startVertices, float maxDist=FLT_MAX, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *region=nullptr, int maxVertUpdates=3)</td></tr>
 <tr class="separator:ga86210d234d2f6f20db94e80984dde008"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae9aec6793532286462bdcd4a30cfdb47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceGroup.html#gae9aec6793532286462bdcd4a30cfdb47">computeSurfaceDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;startVertices, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;targetVertices, float maxDist=FLT_MAX, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *region=nullptr, int maxVertUpdates=3)</td></tr>
@@ -3295,8 +3304,6 @@ Functions</h2></td></tr>
 <tr class="separator:a5840a11e5e60139f9bbbf678072379e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9296b50297d1b2d93a8f2f08c495eef"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa9296b50297d1b2d93a8f2f08c495eef">saveFileDialogAsync</a> (std::function&lt; void(const std::filesystem::path &amp;)&gt; callback, const <a class="el" href="structMR_1_1FileParameters.html">FileParameters</a> &amp;params={})</td></tr>
 <tr class="separator:aa9296b50297d1b2d93a8f2f08c495eef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa17831c43fe221cc988cc624c3823111"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa17831c43fe221cc988cc624c3823111">getCancelMessage</a> (const std::filesystem::path &amp;path)</td></tr>
-<tr class="separator:aa17831c43fe221cc988cc624c3823111"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace8b49286f2496a8e43901176b83780b"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API Json::Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ace8b49286f2496a8e43901176b83780b">GetSystemInfoJson</a> ()</td></tr>
 <tr class="separator:ace8b49286f2496a8e43901176b83780b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea8b2bf2b592657af506fb5517e0c1d9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aea8b2bf2b592657af506fb5517e0c1d9">loadGL</a> ()</td></tr>
@@ -3391,9 +3398,11 @@ Functions</h2></td></tr>
 <tr class="memitem:ga76bb7958ef2900006f29b9a81fc6e8f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1ObjectDistanceMap.html">ObjectDistanceMap</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga76bb7958ef2900006f29b9a81fc6e8f4">makeObjectDistanceMapFromFile</a> (const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
 <tr class="memdesc:ga76bb7958ef2900006f29b9a81fc6e8f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads distance map from given file in new object  <a href="group__DataModelGroup.html#ga76bb7958ef2900006f29b9a81fc6e8f4">More...</a><br /></td></tr>
 <tr class="separator:ga76bb7958ef2900006f29b9a81fc6e8f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac4370cce625d7230616d42d939ddc7ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1Object.html">Object</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#gac4370cce625d7230616d42d939ddc7ca">makeObjectTreeFromFolder</a> (const std::filesystem::path &amp;folder)</td></tr>
-<tr class="memdesc:gac4370cce625d7230616d42d939ddc7ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads meshes from given folder in new container object  <a href="group__DataModelGroup.html#gac4370cce625d7230616d42d939ddc7ca">More...</a><br /></td></tr>
-<tr class="separator:gac4370cce625d7230616d42d939ddc7ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa2082792bceb5a2dd3b18ff5693f0441"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#gaa2082792bceb5a2dd3b18ff5693f0441">isSupportedFileInSubfolders</a> (const std::filesystem::path &amp;folder)</td></tr>
+<tr class="separator:gaa2082792bceb5a2dd3b18ff5693f0441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad3e2c813d6830f2cf1a805b23ed307f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1Object.html">Object</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#gad3e2c813d6830f2cf1a805b23ed307f1">makeObjectTreeFromFolder</a> (const std::filesystem::path &amp;folder, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="memdesc:gad3e2c813d6830f2cf1a805b23ed307f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads meshes from given folder in new container object  <a href="group__DataModelGroup.html#gad3e2c813d6830f2cf1a805b23ed307f1">More...</a><br /></td></tr>
+<tr class="separator:gad3e2c813d6830f2cf1a805b23ed307f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:a127176dad91a97ffd17b738d435471c2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a127176dad91a97ffd17b738d435471c2"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a127176dad91a97ffd17b738d435471c2">invTransformed</a> (const <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt; &amp;pl, const <a class="el" href="namespaceMR.html#a497ae0b02290edeaa5275069efc377df">AffineXf3</a>&lt; T &gt; &amp;ixf)</td></tr>
@@ -8186,6 +8195,34 @@ template&lt;typename T , typename I &gt; </div>
 
 </div>
 </div>
+<a id="aa4b7c63c7d01b36c734fe55539c3c09a" name="aa4b7c63c7d01b36c734fe55539c3c09a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4b7c63c7d01b36c734fe55539c3c09a">&#9670;&#160;</a></span>findRegionBoundaryInsideMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &gt; MR::findRegionBoundaryInsideMesh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>region</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a14819584da09eac6df2cab459ab80626" name="a14819584da09eac6df2cab459ab80626"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a14819584da09eac6df2cab459ab80626">&#9670;&#160;</a></span>findRegionOuterFaces()</h2>
 
@@ -8582,20 +8619,28 @@ template&lt;typename T , typename I &gt; </div>
 
 </div>
 </div>
-<a id="aa17831c43fe221cc988cc624c3823111" name="aa17831c43fe221cc988cc624c3823111"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa17831c43fe221cc988cc624c3823111">&#9670;&#160;</a></span>getCancelMessage()</h2>
+<a id="a0f9f82f9571d4a67b586f1e38d93afe9" name="a0f9f82f9571d4a67b586f1e38d93afe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f9f82f9571d4a67b586f1e38d93afe9">&#9670;&#160;</a></span>getCancelMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API std::string MR::getCancelMessage </td>
+          <td class="memname">std::string MR::getCancelMessage </td>
           <td>(</td>
           <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
           <td class="paramname"><em>path</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -14739,6 +14784,35 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a4d7b01fa0466dc1f02575fc2022aadcd" name="a4d7b01fa0466dc1f02575fc2022aadcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d7b01fa0466dc1f02575fc2022aadcd">&#9670;&#160;</a></span>subdivideWithPlane()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> MR::subdivideWithPlane </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">Plane3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>plane</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >subdivides all triangles intersected by given plane, leaving smaller triangles that only touch the plane; </p><dl class="section return"><dt>Returns</dt><dd>all triangles on the positive side of the plane </dd></dl>
+
+</div>
+</div>
 <a id="a8888d3eb79b0414fbc4855426d85cf9c" name="a8888d3eb79b0414fbc4855426d85cf9c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8888d3eb79b0414fbc4855426d85cf9c">&#9670;&#160;</a></span>toEigen() <span class="overload">[1/9]</span></h2>
 
@@ -15237,6 +15311,50 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <p>If the triangles are disjoint, p and q give the closest points of s and t respectively. However, if the triangles overlap, p and q are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. </p>
+
+</div>
+</div>
+<a id="a9e790c340d0ce4518c5ff5215e1481fd" name="a9e790c340d0ce4518c5ff5215e1481fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e790c340d0ce4518c5ff5215e1481fd">&#9670;&#160;</a></span>trimWithPlane()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::trimWithPlane </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">Plane3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>plane</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="namespaceMR.html#aee05ada6f56e0075cc157732cae41543">EdgeLoop</a> &gt; *&#160;</td>
+          <td class="paramname"><em>outCutContours</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>trim mesh by plane </p>
+<p >This function cuts mesh with plane, leaving only part of mesh that lay in positive direction of normal </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mesh</td><td>Input mesh that will be cut </td></tr>
+    <tr><td class="paramname">plane</td><td>Input plane to cut mesh with </td></tr>
+    <tr><td class="paramname">outCutContours</td><td>optionally return newly appeared hole contours where each edge does not have right face </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

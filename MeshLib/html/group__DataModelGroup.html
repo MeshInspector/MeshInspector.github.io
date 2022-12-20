@@ -196,9 +196,11 @@ Functions</h2></td></tr>
 <tr class="memitem:ga76bb7958ef2900006f29b9a81fc6e8f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1ObjectDistanceMap.html">ObjectDistanceMap</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga76bb7958ef2900006f29b9a81fc6e8f4">MR::makeObjectDistanceMapFromFile</a> (const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
 <tr class="memdesc:ga76bb7958ef2900006f29b9a81fc6e8f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads distance map from given file in new object  <a href="group__DataModelGroup.html#ga76bb7958ef2900006f29b9a81fc6e8f4">More...</a><br /></td></tr>
 <tr class="separator:ga76bb7958ef2900006f29b9a81fc6e8f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac4370cce625d7230616d42d939ddc7ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1Object.html">Object</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#gac4370cce625d7230616d42d939ddc7ca">MR::makeObjectTreeFromFolder</a> (const std::filesystem::path &amp;folder)</td></tr>
-<tr class="memdesc:gac4370cce625d7230616d42d939ddc7ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads meshes from given folder in new container object  <a href="group__DataModelGroup.html#gac4370cce625d7230616d42d939ddc7ca">More...</a><br /></td></tr>
-<tr class="separator:gac4370cce625d7230616d42d939ddc7ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa2082792bceb5a2dd3b18ff5693f0441"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#gaa2082792bceb5a2dd3b18ff5693f0441">MR::isSupportedFileInSubfolders</a> (const std::filesystem::path &amp;folder)</td></tr>
+<tr class="separator:gaa2082792bceb5a2dd3b18ff5693f0441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad3e2c813d6830f2cf1a805b23ed307f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1Object.html">Object</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#gad3e2c813d6830f2cf1a805b23ed307f1">MR::makeObjectTreeFromFolder</a> (const std::filesystem::path &amp;folder, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="memdesc:gad3e2c813d6830f2cf1a805b23ed307f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads meshes from given folder in new container object  <a href="group__DataModelGroup.html#gad3e2c813d6830f2cf1a805b23ed307f1">More...</a><br /></td></tr>
+<tr class="separator:gad3e2c813d6830f2cf1a805b23ed307f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p >This chapter represents documentation about data models. </p>
@@ -514,6 +516,24 @@ template&lt;typename ObjectT  = Object&gt; </div>
 
 </div>
 </div>
+<a id="gaa2082792bceb5a2dd3b18ff5693f0441" name="gaa2082792bceb5a2dd3b18ff5693f0441"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa2082792bceb5a2dd3b18ff5693f0441">&#9670;&#160;</a></span>isSupportedFileInSubfolders()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::isSupportedFileInSubfolders </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>folder</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ga76bb7958ef2900006f29b9a81fc6e8f4" name="ga76bb7958ef2900006f29b9a81fc6e8f4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga76bb7958ef2900006f29b9a81fc6e8f4">&#9670;&#160;</a></span>makeObjectDistanceMapFromFile()</h2>
 
@@ -634,8 +654,8 @@ template&lt;typename ObjectT  = Object&gt; </div>
 
 </div>
 </div>
-<a id="gac4370cce625d7230616d42d939ddc7ca" name="gac4370cce625d7230616d42d939ddc7ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac4370cce625d7230616d42d939ddc7ca">&#9670;&#160;</a></span>makeObjectTreeFromFolder()</h2>
+<a id="gad3e2c813d6830f2cf1a805b23ed307f1" name="gad3e2c813d6830f2cf1a805b23ed307f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad3e2c813d6830f2cf1a805b23ed307f1">&#9670;&#160;</a></span>makeObjectTreeFromFolder()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -644,8 +664,18 @@ template&lt;typename ObjectT  = Object&gt; </div>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1Object.html">Object</a>, std::string &gt; MR::makeObjectTreeFromFolder </td>
           <td>(</td>
           <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
-          <td class="paramname"><em>folder</em></td><td>)</td>
+          <td class="paramname"><em>folder</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">

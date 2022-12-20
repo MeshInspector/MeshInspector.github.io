@@ -145,6 +145,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRMeshTexture.h", "MRMeshTexture_8h.html", null ],
     [ "MRMeshToPointCloud.h", "MRMeshToPointCloud_8h.html", "MRMeshToPointCloud_8h" ],
     [ "MRMeshTopology.h", "MRMeshTopology_8h.html", "MRMeshTopology_8h" ],
+    [ "MRMeshTrimWithPlane.h", "MRMeshTrimWithPlane_8h.html", "MRMeshTrimWithPlane_8h" ],
     [ "MRMeshTriPoint.h", "MRMeshTriPoint_8h.html", null ],
     [ "MRObject.h", "MRObject_8h.html", "MRObject_8h" ],
     [ "MRObjectDistanceMap.h", "MRObjectDistanceMap_8h.html", null ],
