@@ -1,7 +1,8 @@
 var structMR_1_1Box =
 [
     [ "T", "structMR_1_1Box.html#afc09ec552867bc199cca1653871f40eb", null ],
-    [ "Box", "structMR_1_1Box.html#a62c88d46c3b08094932f463f48bc6ee3", null ],
+    [ "Box", "structMR_1_1Box.html#ab72759c3d199697fa09474bba5c5284c", null ],
+    [ "Box", "structMR_1_1Box.html#ae74992c32e34243852ae9a27ce2c9554", null ],
     [ "Box", "structMR_1_1Box.html#a0b1e0b6b95e8b735eda8de2bb06fd987", null ],
     [ "Box", "structMR_1_1Box.html#add72022e19ae28da8dec0a61eae00e35", null ],
     [ "center", "structMR_1_1Box.html#a5edd7e58dce05a67482b2c179f6abc6e", null ],

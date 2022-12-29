@@ -13,7 +13,7 @@ var classMR_1_1ObjectPointsHolder =
     [ "getAllVisualizeProperties", "classMR_1_1ObjectPointsHolder.html#a101816077775340afe3a15f30133d1d2", null ],
     [ "getPointSize", "classMR_1_1ObjectPointsHolder.html#aaeb12e690818f069c529e5924999b71a", null ],
     [ "getSelectedPoints", "classMR_1_1ObjectPointsHolder.html#ad8bde1f8aa5e5c2b7abd5eaa069f4cba", null ],
-    [ "getSelectedVerticesColor", "classMR_1_1ObjectPointsHolder.html#aaeb7aaee6d86b069875588880b0a322f", null ],
+    [ "getSelectedVerticesColor", "classMR_1_1ObjectPointsHolder.html#a4bc2febb79ba59f6cf1a1567e8530a7f", null ],
     [ "getVisualizePropertyMask", "classMR_1_1ObjectPointsHolder.html#afbc2556aa91e8d7295d05f97ae0b7ed8", null ],
     [ "getWorldBox", "classMR_1_1ObjectPointsHolder.html#ac7185971e31bea27e35f17cf9c4254d9", null ],
     [ "hasVisualRepresentation", "classMR_1_1ObjectPointsHolder.html#aaf5a84fb8a05f5651aee309a512efb74", null ],
@@ -27,7 +27,7 @@ var classMR_1_1ObjectPointsHolder =
     [ "serializeModel_", "classMR_1_1ObjectPointsHolder.html#acb76fb2212a6ecc8b3b686ad8cd1209b", null ],
     [ "setDirtyFlags", "classMR_1_1ObjectPointsHolder.html#a544fb3212bc89e7b126276349ee43b59", null ],
     [ "setPointSize", "classMR_1_1ObjectPointsHolder.html#aa7f91dadfb276318513e5f3022078c63", null ],
-    [ "setSelectedVerticesColor", "classMR_1_1ObjectPointsHolder.html#a121eab4b65a154410a7c27bb0a43eb97", null ],
+    [ "setSelectedVerticesColor", "classMR_1_1ObjectPointsHolder.html#a9cb5c91de776239dbfc1ee5ff9c6715e", null ],
     [ "setupRenderObject_", "classMR_1_1ObjectPointsHolder.html#a3188b1f7d0a671ba6542d8d7e27174c1", null ],
     [ "shallowClone", "classMR_1_1ObjectPointsHolder.html#aafeb7e582463b9ab47d0465ddb7e8758", null ],
     [ "swapBase_", "classMR_1_1ObjectPointsHolder.html#aea1d998484c820abf8d0f350e035f139", null ],
@@ -37,7 +37,7 @@ var classMR_1_1ObjectPointsHolder =
     [ "points_", "classMR_1_1ObjectPointsHolder.html#abfa588fa9e443c6c2bb637a1e9ad98cb", null ],
     [ "pointSize_", "classMR_1_1ObjectPointsHolder.html#aff82edcc80eafd10cf373c842d0c3b8e", null ],
     [ "selectedPoints_", "classMR_1_1ObjectPointsHolder.html#a63b094a393073c94e180aece5eeb0729", null ],
-    [ "selectedVerticesColor_", "classMR_1_1ObjectPointsHolder.html#a7fc50245fcddeca01b14d36eb0c3342a", null ],
+    [ "selectedVerticesColor_", "classMR_1_1ObjectPointsHolder.html#a045c0320f1489b9374254b9dd00aeb51", null ],
     [ "showSelectedVertices_", "classMR_1_1ObjectPointsHolder.html#a48270cb125e897505184be1003eb4500", null ],
     [ "worldBox_", "classMR_1_1ObjectPointsHolder.html#a896a4967afa85824de6ebc22a609a95d", null ]
 ];

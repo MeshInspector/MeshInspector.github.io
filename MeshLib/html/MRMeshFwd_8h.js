@@ -1,5 +1,6 @@
 var MRMeshFwd_8h =
 [
+    [ "MR::NoInit", "structMR_1_1NoInit.html", null ],
     [ "MRMESH_API", "MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300", null ],
     [ "MRMESH_CLASS", "MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a", null ],
     [ "AABBTreePolyline2", "MRMeshFwd_8h.html#a5118187c1702041e05e1ea408d9a61de", null ],
@@ -185,6 +186,8 @@ var MRMeshFwd_8h =
     [ "Mesh", "MRMeshFwd_8h.html#a49165bcb87a59752b8f02f19ea7f2424", null ],
     [ "MeshPart", "MRMeshFwd_8h.html#aae74f48ca7d92982c20c610095970149", null ],
     [ "MeshTopology", "MRMeshFwd_8h.html#a70998e19114b7179469682c1c31c77ae", null ],
+    [ "NoDefInit", "MRMeshFwd_8h.html#ae14e1033b3de0c30a6bb404e940dc424", null ],
+    [ "noInit", "MRMeshFwd_8h.html#aaa8f63a4fb4dcabf0f8f1dc79cdeee90", null ],
     [ "PartMapping", "MRMeshFwd_8h.html#a206d2359088d7de67554ae5420f14ab2", null ],
     [ "PixelTag", "MRMeshFwd_8h.html#a7eb54b4688d90e090b75bbf0efc2fec5", null ],
     [ "PointCloud", "MRMeshFwd_8h.html#a1bfc73c4801d5127d8be21699dc9f590", null ],

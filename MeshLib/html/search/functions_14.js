@@ -39,6 +39,7 @@ var searchData=
   ['updatetransparencytexturessize_36',['updateTransparencyTexturesSize',['../classMR_1_1AlphaSortGL.html#aab9cdfaf33634bcf9bae0eec5a82ebb9',1,'MR::AlphaSortGL']]],
   ['updatevdbvolume_37',['updateVdbVolume',['../classMR_1_1ObjectVoxels.html#aa2cc2fe9f238d2f29c8dffb80ebc675f',1,'MR::ObjectVoxels']]],
   ['updatevertpairs_38',['updateVertPairs',['../classMR_1_1MeshICP.html#aff911d6d53f8e44963f067e7c8ae376e',1,'MR::MeshICP']]],
-  ['utf8string_39',['utf8string',['../group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d',1,'MR']]],
-  ['utf8towide_40',['utf8ToWide',['../group__BasicGroup.html#ga543d43a804760961ac67ad3689330c1d',1,'MR']]]
+  ['updatingvalids_39',['updatingValids',['../classMR_1_1MeshTopology.html#a45129b46fde8337018f14ecc690ddb81',1,'MR::MeshTopology']]],
+  ['utf8string_40',['utf8string',['../group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d',1,'MR']]],
+  ['utf8towide_41',['utf8ToWide',['../group__BasicGroup.html#ga543d43a804760961ac67ad3689330c1d',1,'MR']]]
 ];

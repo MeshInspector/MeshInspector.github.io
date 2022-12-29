@@ -349,8 +349,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae36f89734b1c96d9a03e4957f38f7b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a447c125eeac88a0873b6416d0c4d5772"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; <a class="el" href="classMR_1_1HistoryStore.html">HistoryStore</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a447c125eeac88a0873b6416d0c4d5772">getGlobalHistoryStore</a> () const</td></tr>
 <tr class="separator:a447c125eeac88a0873b6416d0c4d5772"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8ac4aff23161585dfdea91c4b741c1c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ad8ac4aff23161585dfdea91c4b741c1c">onSceneSaved</a> (const std::filesystem::path &amp;savePath)</td></tr>
-<tr class="separator:ad8ac4aff23161585dfdea91c4b741c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fa9e45768d4ede2c36f43231fcd9bb4"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; <a class="el" href="classMR_1_1SpaceMouseHandler.html">SpaceMouseHandler</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a7fa9e45768d4ede2c36f43231fcd9bb4">getSpaceMouseHandler</a> () const</td></tr>
+<tr class="separator:a7fa9e45768d4ede2c36f43231fcd9bb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45e00f21d3408c12427477ab6d312382"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a45e00f21d3408c12427477ab6d312382">onSceneSaved</a> (const std::filesystem::path &amp;savePath, bool storeInRecent=true)</td></tr>
+<tr class="separator:a45e00f21d3408c12427477ab6d312382"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ea0d4cf159f1ff54b6b1e8819180c9b"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const std::shared_ptr&lt; ImGuiMenu &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a1ea0d4cf159f1ff54b6b1e8819180c9b">getMenuPlugin</a> () const</td></tr>
 <tr class="separator:a1ea0d4cf159f1ff54b6b1e8819180c9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6fc20d043d1999ebac0b4fcce9397e2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ac6fc20d043d1999ebac0b4fcce9397e2">setMenuPlugin</a> (std::shared_ptr&lt; ImGuiMenu &gt; menu)</td></tr>
@@ -1453,6 +1455,31 @@ template&lt;typename PluginType &gt; </div>
 
 </div>
 </div>
+<a id="a7fa9e45768d4ede2c36f43231fcd9bb4" name="a7fa9e45768d4ede2c36f43231fcd9bb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fa9e45768d4ede2c36f43231fcd9bb4">&#9670;&#160;</a></span>getSpaceMouseHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::shared_ptr&lt; <a class="el" href="classMR_1_1SpaceMouseHandler.html">SpaceMouseHandler</a> &gt; &amp; MR::Viewer::getSpaceMouseHandler </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aca894260269798e399369b529d7ba3b0" name="aca894260269798e399369b529d7ba3b0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aca894260269798e399369b529d7ba3b0">&#9670;&#160;</a></span>getStaticGLBufferSize()</h2>
 
@@ -2268,8 +2295,8 @@ template&lt;typename PluginType &gt; </div>
 
 </div>
 </div>
-<a id="ad8ac4aff23161585dfdea91c4b741c1c" name="ad8ac4aff23161585dfdea91c4b741c1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8ac4aff23161585dfdea91c4b741c1c">&#9670;&#160;</a></span>onSceneSaved()</h2>
+<a id="a45e00f21d3408c12427477ab6d312382" name="a45e00f21d3408c12427477ab6d312382"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45e00f21d3408c12427477ab6d312382">&#9670;&#160;</a></span>onSceneSaved()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2278,8 +2305,18 @@ template&lt;typename PluginType &gt; </div>
           <td class="memname">MRVIEWER_API void MR::Viewer::onSceneSaved </td>
           <td>(</td>
           <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
-          <td class="paramname"><em>savePath</em></td><td>)</td>
+          <td class="paramname"><em>savePath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>storeInRecent</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">

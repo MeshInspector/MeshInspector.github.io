@@ -140,8 +140,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aa7b755cd5bad251398508eb99a3fe806"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#aa7b755cd5bad251398508eb99a3fe806">touchBdVertices</a> = true</td></tr>
 <tr class="memdesc:aa7b755cd5bad251398508eb99a3fe806"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to allow collapsing edges having at least one vertex on (region) boundary.  <a href="structMR_1_1DecimateSettings.html#aa7b755cd5bad251398508eb99a3fe806">More...</a><br /></td></tr>
 <tr class="separator:aa7b755cd5bad251398508eb99a3fe806"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc44005d50714fe75f875a25f3a59f66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#abc44005d50714fe75f875a25f3a59f66">bdVerts</a> = nullptr</td></tr>
-<tr class="separator:abc44005d50714fe75f875a25f3a59f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bc3106034dd8abdbb3067c7868ca6dd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#a9bc3106034dd8abdbb3067c7868ca6dd">bdVerts</a> = nullptr</td></tr>
+<tr class="separator:a9bc3106034dd8abdbb3067c7868ca6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebecde304889b67910dd05d032cb8d07"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#aebecde304889b67910dd05d032cb8d07">maxAngleChange</a> = -1</td></tr>
 <tr class="separator:aebecde304889b67910dd05d032cb8d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4eab7dd113486daa41a2272bac1b8a2f"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> edgeToCollapse, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;newEdgeOrgPos)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#a4eab7dd113486daa41a2272bac1b8a2f">preCollapse</a></td></tr>
@@ -159,6 +159,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aa54526c521844dcca8dc5aa91e3628de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#aa54526c521844dcca8dc5aa91e3628de">progressCallback</a> = {}</td></tr>
 <tr class="memdesc:aa54526c521844dcca8dc5aa91e3628de"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback to report algorithm progress and cancel it by user request  <a href="structMR_1_1DecimateSettings.html#aa54526c521844dcca8dc5aa91e3628de">More...</a><br /></td></tr>
 <tr class="separator:aa54526c521844dcca8dc5aa91e3628de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f97c534c28993195cc07d01e1721fe4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#a8f97c534c28993195cc07d01e1721fe4">subdivideParts</a> = 1</td></tr>
+<tr class="separator:a8f97c534c28993195cc07d01e1721fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Parameters structure for <a class="el" href="group__DecimateGroup.html#ga16a994862b0ba8f6a68c61463be0ed4e" title="Collapse edges in mesh region according to the settings.">MR::decimateMesh</a>. </p>
@@ -181,18 +183,18 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abc44005d50714fe75f875a25f3a59f66" name="abc44005d50714fe75f875a25f3a59f66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc44005d50714fe75f875a25f3a59f66">&#9670;&#160;</a></span>bdVerts</h2>
+<a id="a9bc3106034dd8abdbb3067c7868ca6dd" name="a9bc3106034dd8abdbb3067c7868ca6dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bc3106034dd8abdbb3067c7868ca6dd">&#9670;&#160;</a></span>bdVerts</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a>* MR::DecimateSettings::bdVerts = nullptr</td>
+          <td class="memname">const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a>* MR::DecimateSettings::bdVerts = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >if touchBdVertices=false then the algorithm needs to know about all boundary vertices; if bdVerts is not null, then they are output there; if on input the set is not empty then initialization is skipped in favor of values from there; </p>
+<p >if touchBdVertices=false then the algorithm needs to know about all boundary vertices; if the pointer is not null then boundary vertices detection is skipped in favor of values from there </p>
 
 </div>
 </div>
@@ -412,6 +414,21 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8f97c534c28993195cc07d01e1721fe4" name="a8f97c534c28993195cc07d01e1721fe4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f97c534c28993195cc07d01e1721fe4">&#9670;&#160;</a></span>subdivideParts</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::DecimateSettings::subdivideParts = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); unlike <a class="el" href="group__DecimateGroup.html#gab0b1827b05aa2ba71b50b8793f989e03">decimateParallelMesh</a> it does not create copies of mesh regions, so may take less memory to operate; IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad </p>
 
 </div>
 </div>

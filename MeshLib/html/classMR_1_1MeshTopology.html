@@ -345,6 +345,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac8e27800a0bbad8038ed49623f7836fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#ac8e27800a0bbad8038ed49623f7836fc">findHoleRepresentiveEdges</a> () const</td></tr>
 <tr class="memdesc:ac8e27800a0bbad8038ed49623f7836fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns one edge with no valid left face for every boundary in the mesh  <a href="classMR_1_1MeshTopology.html#ac8e27800a0bbad8038ed49623f7836fc">More...</a><br /></td></tr>
 <tr class="separator:ac8e27800a0bbad8038ed49623f7836fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a721112966697a07587b90d97441acc09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a721112966697a07587b90d97441acc09">findNumHoles</a> () const</td></tr>
+<tr class="memdesc:a721112966697a07587b90d97441acc09"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of hole loops in the mesh  <a href="classMR_1_1MeshTopology.html#a721112966697a07587b90d97441acc09">More...</a><br /></td></tr>
+<tr class="separator:a721112966697a07587b90d97441acc09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a003b769e8bf22c99726d375fc83867bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#aee05ada6f56e0075cc157732cae41543">EdgeLoop</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a003b769e8bf22c99726d375fc83867bc">getLeftRing</a> (<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e) const</td></tr>
 <tr class="memdesc:a003b769e8bf22c99726d375fc83867bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns full edge-loop of left face from (e) starting from (e) itself  <a href="classMR_1_1MeshTopology.html#a003b769e8bf22c99726d375fc83867bc">More...</a><br /></td></tr>
 <tr class="separator:a003b769e8bf22c99726d375fc83867bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -398,6 +401,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2b4f0faeeea52693e21242d4cab6751b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a865291df4238041455de8be28cabf71f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a865291df4238041455de8be28cabf71f">pack</a> (const <a class="el" href="structMR_1_1PackMapping.html">PackMapping</a> &amp;map)</td></tr>
 <tr class="separator:a865291df4238041455de8be28cabf71f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8be845ea58450ba890fa66f29f7d587"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#ac8be845ea58450ba890fa66f29f7d587">packMinMem</a> (const <a class="el" href="structMR_1_1PackMapping.html">PackMapping</a> &amp;map)</td></tr>
+<tr class="separator:ac8be845ea58450ba890fa66f29f7d587"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a698bdffc6553d99627eff8444ae95cfb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a698bdffc6553d99627eff8444ae95cfb">write</a> (std::ostream &amp;s) const</td></tr>
 <tr class="memdesc:a698bdffc6553d99627eff8444ae95cfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in binary stream  <a href="classMR_1_1MeshTopology.html#a698bdffc6553d99627eff8444ae95cfb">More...</a><br /></td></tr>
 <tr class="separator:a698bdffc6553d99627eff8444ae95cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -412,6 +417,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa2eb901ee1810c11a63762618f27d854"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af19c92f6819a1a4d6faf64695dc8f7c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#af19c92f6819a1a4d6faf64695dc8f7c1">computeValidsFromEdges</a> ()</td></tr>
 <tr class="separator:af19c92f6819a1a4d6faf64695dc8f7c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bf84894c6573c08bb9e01a278e1a2cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a4bf84894c6573c08bb9e01a278e1a2cf">stopUpdatingValids</a> ()</td></tr>
+<tr class="memdesc:a4bf84894c6573c08bb9e01a278e1a2cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">stops updating validVerts(), validFaces(), <a class="el" href="classMR_1_1MeshTopology.html#a720c7a299f00a1e717e4bd34ce86591f" title="returns the number of valid vertices">numValidVerts()</a>, <a class="el" href="classMR_1_1MeshTopology.html#a94378f70606fda1a41eb0605de0c8cbe" title="returns the number of valid faces">numValidFaces()</a> for parallel processing of mesh parts  <a href="classMR_1_1MeshTopology.html#a4bf84894c6573c08bb9e01a278e1a2cf">More...</a><br /></td></tr>
+<tr class="separator:a4bf84894c6573c08bb9e01a278e1a2cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45129b46fde8337018f14ecc690ddb81"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a45129b46fde8337018f14ecc690ddb81">updatingValids</a> () const</td></tr>
+<tr class="memdesc:a45129b46fde8337018f14ecc690ddb81"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns whether the methods validVerts(), validFaces(), <a class="el" href="classMR_1_1MeshTopology.html#a720c7a299f00a1e717e4bd34ce86591f" title="returns the number of valid vertices">numValidVerts()</a>, <a class="el" href="classMR_1_1MeshTopology.html#a94378f70606fda1a41eb0605de0c8cbe" title="returns the number of valid faces">numValidFaces()</a> can be called  <a href="classMR_1_1MeshTopology.html#a45129b46fde8337018f14ecc690ddb81">More...</a><br /></td></tr>
+<tr class="separator:a45129b46fde8337018f14ecc690ddb81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a497deb522cc50b59372ecb8523ea3d44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a497deb522cc50b59372ecb8523ea3d44">preferEdges</a> (const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;stableEdges)</td></tr>
+<tr class="separator:a497deb522cc50b59372ecb8523ea3d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74337ea5646f2fe028f8c0a119650d07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a74337ea5646f2fe028f8c0a119650d07">checkValidity</a> () const</td></tr>
 <tr class="memdesc:a74337ea5646f2fe028f8c0a119650d07"><td class="mdescLeft">&#160;</td><td class="mdescRight">verifies that all internal data structures are valid  <a href="classMR_1_1MeshTopology.html#a74337ea5646f2fe028f8c0a119650d07">More...</a><br /></td></tr>
 <tr class="separator:a74337ea5646f2fe028f8c0a119650d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -914,7 +927,7 @@ template&lt;typename I &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >after all packed parts have been added, compute 1) numValidVerts_ and validVerts_ from edgePerVertex_ 2) numValidFaces_ and validFaces_ from edgePerFace_ </p>
+<p >compute 1) numValidVerts_ and validVerts_ from edgePerVertex_ 2) numValidFaces_ and validFaces_ from edgePerFace_ and activates their auto-update </p>
 
 </div>
 </div>
@@ -1430,6 +1443,25 @@ template&lt;typename I &gt; </div>
 </div><div class="memdoc">
 
 <p>returns one edge with no valid left face for every boundary in the mesh </p>
+
+</div>
+</div>
+<a id="a721112966697a07587b90d97441acc09" name="a721112966697a07587b90d97441acc09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a721112966697a07587b90d97441acc09">&#9670;&#160;</a></span>findNumHoles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int MR::MeshTopology::findNumHoles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns the number of hole loops in the mesh </p>
 
 </div>
 </div>
@@ -2937,6 +2969,44 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="ac8be845ea58450ba890fa66f29f7d587" name="ac8be845ea58450ba890fa66f29f7d587"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8be845ea58450ba890fa66f29f7d587">&#9670;&#160;</a></span>packMinMem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::MeshTopology::packMinMem </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PackMapping.html">PackMapping</a> &amp;&#160;</td>
+          <td class="paramname"><em>map</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces, vertices and edges according to given maps, each containing old id -&gt; new id mapping; unlike <a class="el" href="classMR_1_1MeshTopology.html#a2b4f0faeeea52693e21242d4cab6751b">pack</a> method, this method allocates minimal amount of memory for its operation but works much slower </p>
+
+</div>
+</div>
+<a id="a497deb522cc50b59372ecb8523ea3d44" name="a497deb522cc50b59372ecb8523ea3d44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a497deb522cc50b59372ecb8523ea3d44">&#9670;&#160;</a></span>preferEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::MeshTopology::preferEdges </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>stableEdges</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >for incident vertices and faces of given edges, remember one of them as edgeWithOrg and edgeWithLeft; this is important in parallel algorithms where other edges may change but stable ones will survive </p>
+
+</div>
+</div>
 <a id="a7b32ade5428d261aa511099eff6788c0" name="a7b32ade5428d261aa511099eff6788c0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7b32ade5428d261aa511099eff6788c0">&#9670;&#160;</a></span>prev()</h2>
 
@@ -3344,6 +3414,25 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a4bf84894c6573c08bb9e01a278e1a2cf" name="a4bf84894c6573c08bb9e01a278e1a2cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bf84894c6573c08bb9e01a278e1a2cf">&#9670;&#160;</a></span>stopUpdatingValids()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::MeshTopology::stopUpdatingValids </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>stops updating validVerts(), validFaces(), <a class="el" href="classMR_1_1MeshTopology.html#a720c7a299f00a1e717e4bd34ce86591f" title="returns the number of valid vertices">numValidVerts()</a>, <a class="el" href="classMR_1_1MeshTopology.html#a94378f70606fda1a41eb0605de0c8cbe" title="returns the number of valid faces">numValidFaces()</a> for parallel processing of mesh parts </p>
+
+</div>
+</div>
 <a id="a655648f49c42d2a8e0828f10bb3e133d" name="a655648f49c42d2a8e0828f10bb3e133d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a655648f49c42d2a8e0828f10bb3e133d">&#9670;&#160;</a></span>trackBoundaryLoop()</h2>
 
@@ -3424,6 +3513,33 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>returns the number of undirected edges (pairs of half-edges) including lone ones </p>
+
+</div>
+</div>
+<a id="a45129b46fde8337018f14ecc690ddb81" name="a45129b46fde8337018f14ecc690ddb81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45129b46fde8337018f14ecc690ddb81">&#9670;&#160;</a></span>updatingValids()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::MeshTopology::updatingValids </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns whether the methods validVerts(), validFaces(), <a class="el" href="classMR_1_1MeshTopology.html#a720c7a299f00a1e717e4bd34ce86591f" title="returns the number of valid vertices">numValidVerts()</a>, <a class="el" href="classMR_1_1MeshTopology.html#a94378f70606fda1a41eb0605de0c8cbe" title="returns the number of valid faces">numValidFaces()</a> can be called </p>
 
 </div>
 </div>

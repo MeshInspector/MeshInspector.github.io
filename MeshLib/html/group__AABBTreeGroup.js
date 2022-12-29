@@ -9,6 +9,7 @@ var group__AABBTreeGroup =
       [ "AABBTree", "classMR_1_1AABBTree.html#a299be175c35406bc5c624c524a3221e7", null ],
       [ "containsSameNumberOfTris", "classMR_1_1AABBTree.html#a452c88b89ff01231575ab3f12f8de2df", null ],
       [ "getBoundingBox", "classMR_1_1AABBTree.html#a32fb8d6b891ed1e97bf4532552caa7a4", null ],
+      [ "getLeafOrder", "classMR_1_1AABBTree.html#a820e2cabb54dfb40bc6a879b60d1c26b", null ],
       [ "getLeafOrderAndReset", "classMR_1_1AABBTree.html#a06b0074f8c3d597ebed5608323ecba21", null ],
       [ "getNodesFromFaces", "classMR_1_1AABBTree.html#a73821036edd8a5a2f9ea4399b225f9d0", null ],
       [ "getSubtreeFaces", "classMR_1_1AABBTree.html#a17c38dc7b5620a352a4648fd8c18612e", null ],
@@ -20,6 +21,8 @@ var group__AABBTreeGroup =
       [ "UniqueThreadSafeOwner< AABBTree >", "classMR_1_1AABBTree.html#aed6e78485032d75bf97587de91224aaf", null ]
     ] ],
     [ "MR::BoxedLeaf< T >", "structMR_1_1BoxedLeaf.html", [
+      [ "BoxedLeaf", "structMR_1_1BoxedLeaf.html#a0b4e56c5de1bf6b3fd5a6a6896e66d46", null ],
+      [ "BoxedLeaf", "structMR_1_1BoxedLeaf.html#a20f98852bf25f7268e73b993bd26a8d7", null ],
       [ "box", "structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5", null ],
       [ "leafId", "structMR_1_1BoxedLeaf.html#a94f8ddab16da6ccb873e9ef25f7b116d", null ]
     ] ],

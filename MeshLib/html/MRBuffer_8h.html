@@ -104,9 +104,12 @@ $(document).ready(function(){initNavTree('MRBuffer_8h.html',''); initResizable()
   <div class="headertitle"><div class="title">MRBuffer.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="MRNoDefInit_8h_source.html">MRNoDefInit.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRId_8h_source.html">MRId.h</a>&quot;</code><br />
 <code>#include &lt;cassert&gt;</code><br />
+<code>#include &lt;concepts&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;type_traits&gt;</code><br />
 </div>
 <p><a href="MRBuffer_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -114,8 +117,10 @@ $(document).ready(function(){initNavTree('MRBuffer_8h.html',''); initResizable()
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ZeroOnMove.html">MR::ZeroOnMove&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html">MR::Buffer&lt; T, I &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods  <a href="classMR_1_1Buffer.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1NoCtor_3_01T_01_4.html">MR::NoCtor&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html">MR::Buffer&lt; V, I &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods  <a href="classMR_1_1Buffer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BMap.html">MR::BMap&lt; T, I &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">flat map: I -&gt; T  <a href="structMR_1_1BMap.html#details">More...</a><br /></td></tr>
@@ -134,18 +139,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a6210dabfb050a70351fc28943644e0ec"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6210dabfb050a70351fc28943644e0ec">MR::getAt</a> (const Buffer&lt; T, I &gt; &amp;bmap, I key)</td></tr>
 <tr class="memdesc:a6210dabfb050a70351fc28943644e0ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">given some buffer map and a key, returns the value associated with the key, or default value if key is invalid  <a href="namespaceMR.html#a6210dabfb050a70351fc28943644e0ec">More...</a><br /></td></tr>
 <tr class="separator:a6210dabfb050a70351fc28943644e0ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b5dcf4b2f351c70d85b34fbeb387322"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
-<tr class="memitem:a8b5dcf4b2f351c70d85b34fbeb387322"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8b5dcf4b2f351c70d85b34fbeb387322">MR::begin</a> (const Buffer&lt; T &gt; &amp;a)</td></tr>
-<tr class="separator:a8b5dcf4b2f351c70d85b34fbeb387322"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ff044294f3a5058359ce574906959e0"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
-<tr class="memitem:a0ff044294f3a5058359ce574906959e0"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0ff044294f3a5058359ce574906959e0">MR::begin</a> (Buffer&lt; T &gt; &amp;a)</td></tr>
-<tr class="separator:a0ff044294f3a5058359ce574906959e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f62941e67ede5f73cc2130cf209d573"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
-<tr class="memitem:a7f62941e67ede5f73cc2130cf209d573"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a7f62941e67ede5f73cc2130cf209d573">MR::end</a> (const Buffer&lt; T &gt; &amp;a)</td></tr>
-<tr class="separator:a7f62941e67ede5f73cc2130cf209d573"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a5f00f44e7959717df54ad46bd7a76c"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
-<tr class="memitem:a3a5f00f44e7959717df54ad46bd7a76c"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3a5f00f44e7959717df54ad46bd7a76c">MR::end</a> (Buffer&lt; T &gt; &amp;a)</td></tr>
-<tr class="separator:a3a5f00f44e7959717df54ad46bd7a76c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bd81207bb5dccdfe9533eae31414e16"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
+<tr class="memitem:a3bd81207bb5dccdfe9533eae31414e16"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3bd81207bb5dccdfe9533eae31414e16">MR::begin</a> (const Buffer&lt; T, I &gt; &amp;a)</td></tr>
+<tr class="separator:a3bd81207bb5dccdfe9533eae31414e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff3156c83a0cd4f80c755c47b577c1c9"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
+<tr class="memitem:aff3156c83a0cd4f80c755c47b577c1c9"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aff3156c83a0cd4f80c755c47b577c1c9">MR::begin</a> (Buffer&lt; T, I &gt; &amp;a)</td></tr>
+<tr class="separator:aff3156c83a0cd4f80c755c47b577c1c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a484bb1d73bd93c876842593fe3441211"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
+<tr class="memitem:a484bb1d73bd93c876842593fe3441211"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a484bb1d73bd93c876842593fe3441211">MR::end</a> (const Buffer&lt; T, I &gt; &amp;a)</td></tr>
+<tr class="separator:a484bb1d73bd93c876842593fe3441211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78839ede3780b97bcce02af755e7e577"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
+<tr class="memitem:a78839ede3780b97bcce02af755e7e577"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a78839ede3780b97bcce02af755e7e577">MR::end</a> (Buffer&lt; T, I &gt; &amp;a)</td></tr>
+<tr class="separator:a78839ede3780b97bcce02af755e7e577"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -47,7 +47,7 @@ var searchData=
   ['loadmeshdll_44',['loadMeshDll',['../namespaceMR.html#a756a2b786fd51099db1c7e2f13be0620',1,'MR']]],
   ['loadmrmeshpymodule_45',['loadMRMeshPyModule',['../namespaceMR.html#a36770d341a5bb9b31cbc30d136c0e2e9',1,'MR']]],
   ['loadmrviewerdll_46',['loadMRViewerDll',['../namespaceMR.html#a03d769eae4675e20e6b50c3fddaf8eba',1,'MR']]],
-  ['loadobjectfromfile_47',['loadObjectFromFile',['../namespaceMR.html#a9e60b59a61e1ad42bd65eee7177428c1',1,'MR']]],
+  ['loadobjectfromfile_47',['loadObjectFromFile',['../group__DataModelGroup.html#gafadea3b2027ddc499c99f290196216dd',1,'MR']]],
   ['loadpreset_48',['loadPreset',['../classMR_1_1PalettePresets.html#abfc0b877261efaf989795949936003df',1,'MR::PalettePresets']]],
   ['loadraw_49',['loadRaw',['../group__VoxelsLoadGroup.html#ga480d7e43375cf991141d906733b85002',1,'MR::VoxelsLoad::loadRaw(const std::filesystem::path &amp;path, const RawParameters &amp;params, const ProgressCallback &amp;cb={})'],['../group__VoxelsLoadGroup.html#gad41c12bc0863d099fe4d4a80c5ef5772',1,'MR::VoxelsLoad::loadRaw(const std::filesystem::path &amp;path, const ProgressCallback &amp;cb={})']]],
   ['loadschema_50',['loadSchema',['../classMR_1_1RibbonSchemaLoader.html#ad9dde65427b1793ba6f4fa13663a5ec5',1,'MR::RibbonSchemaLoader']]],

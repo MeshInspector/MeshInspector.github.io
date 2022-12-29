@@ -17,8 +17,9 @@ var searchData=
   ['buffer_14',['Buffer',['../classMR_1_1Buffer.html',1,'MR']]],
   ['buffer_3c_20faceid_2c_20faceid_20_3e_15',['Buffer&lt; FaceId, FaceId &gt;',['../classMR_1_1Buffer.html',1,'MR']]],
   ['buffer_3c_20std_3a_3abyte_20_3e_16',['Buffer&lt; std::byte &gt;',['../classMR_1_1Buffer.html',1,'MR']]],
-  ['buffer_3c_20undirectededgeid_2c_20undirectededgeid_20_3e_17',['Buffer&lt; UndirectedEdgeId, UndirectedEdgeId &gt;',['../classMR_1_1Buffer.html',1,'MR']]],
-  ['buffer_3c_20vertid_2c_20vertid_20_3e_18',['Buffer&lt; VertId, VertId &gt;',['../classMR_1_1Buffer.html',1,'MR']]],
-  ['buildsettings_19',['BuildSettings',['../structMR_1_1MeshBuilder_1_1BuildSettings.html',1,'MR::MeshBuilder']]],
-  ['buttonitemwidth_20',['ButtonItemWidth',['../structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html',1,'MR::RibbonButtonDrawer']]]
+  ['buffer_3c_20t_2c_20i_20_3e_17',['Buffer&lt; T, I &gt;',['../classMR_1_1Buffer.html',1,'MR']]],
+  ['buffer_3c_20undirectededgeid_2c_20undirectededgeid_20_3e_18',['Buffer&lt; UndirectedEdgeId, UndirectedEdgeId &gt;',['../classMR_1_1Buffer.html',1,'MR']]],
+  ['buffer_3c_20vertid_2c_20vertid_20_3e_19',['Buffer&lt; VertId, VertId &gt;',['../classMR_1_1Buffer.html',1,'MR']]],
+  ['buildsettings_20',['BuildSettings',['../structMR_1_1MeshBuilder_1_1BuildSettings.html',1,'MR::MeshBuilder']]],
+  ['buttonitemwidth_21',['ButtonItemWidth',['../structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html',1,'MR::RibbonButtonDrawer']]]
 ];

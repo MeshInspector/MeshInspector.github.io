@@ -201,7 +201,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html">Buffer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods  <a href="classMR_1_1Buffer.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods  <a href="classMR_1_1Buffer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1CameraOrientation.html">CameraOrientation</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -542,6 +542,12 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1NextEdgeSameLeft.html">NextEdgeSameLeft</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1NextEdgeSameOrigin.html">NextEdgeSameOrigin</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1NoCtor.html">NoCtor</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1NoCtor_3_01T_01_4.html">NoCtor&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1NoDefInit.html">NoDefInit</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1NoInit.html">NoInit</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1781,8 +1787,8 @@ Functions</h2></td></tr>
 <tr class="separator:a7cebbc9efac83aca0b5e4d747a0e9483"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e5ef38d39a3f24bd7f3db886f8b18a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9890285ad43692fd93527cf824b1b9bf">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a9e5ef38d39a3f24bd7f3db886f8b18a4">operator*=</a> (<a class="el" href="namespaceMR.html#a9890285ad43692fd93527cf824b1b9bf">FloatGrid</a> &amp;a, const <a class="el" href="namespaceMR.html#a9890285ad43692fd93527cf824b1b9bf">FloatGrid</a> &amp;b)</td></tr>
 <tr class="separator:a9e5ef38d39a3f24bd7f3db886f8b18a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga136d5f035ec87489a76b2232bc71ad85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga136d5f035ec87489a76b2232bc71ad85">doBooleanOperation</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshACut, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshBCut, const std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &gt; &amp;cutEdgesA, const std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &gt; &amp;cutEdgesB, <a class="el" href="group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> operation, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *rigidB2A=nullptr, <a class="el" href="structMR_1_1BooleanResultMapper.html">BooleanResultMapper</a> *mapper=nullptr)</td></tr>
-<tr class="separator:ga136d5f035ec87489a76b2232bc71ad85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8b16fc3518e76a2cc2553820bfaa676a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga8b16fc3518e76a2cc2553820bfaa676a">doBooleanOperation</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;meshACut, <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;meshBCut, const std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &gt; &amp;cutEdgesA, const std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &gt; &amp;cutEdgesB, <a class="el" href="group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> operation, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *rigidB2A=nullptr, <a class="el" href="structMR_1_1BooleanResultMapper.html">BooleanResultMapper</a> *mapper=nullptr)</td></tr>
+<tr class="separator:ga8b16fc3518e76a2cc2553820bfaa676a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga38298a22be771a329c44d148ff2cb3c8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga38298a22be771a329c44d148ff2cb3c8"><td class="memTemplItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;, 8 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BoxGroup.html#ga38298a22be771a329c44d148ff2cb3c8">getCorners</a> (const <a class="el" href="structMR_1_1Box.html">Box</a>&lt; <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &gt; &amp;box)</td></tr>
 <tr class="memdesc:ga38298a22be771a329c44d148ff2cb3c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all corners of given box  <a href="group__BoxGroup.html#ga38298a22be771a329c44d148ff2cb3c8">More...</a><br /></td></tr>
@@ -1814,18 +1820,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a6210dabfb050a70351fc28943644e0ec"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6210dabfb050a70351fc28943644e0ec">getAt</a> (const <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; T, I &gt; &amp;bmap, I key)</td></tr>
 <tr class="memdesc:a6210dabfb050a70351fc28943644e0ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">given some buffer map and a key, returns the value associated with the key, or default value if key is invalid  <a href="namespaceMR.html#a6210dabfb050a70351fc28943644e0ec">More...</a><br /></td></tr>
 <tr class="separator:a6210dabfb050a70351fc28943644e0ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b5dcf4b2f351c70d85b34fbeb387322"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
-<tr class="memitem:a8b5dcf4b2f351c70d85b34fbeb387322"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8b5dcf4b2f351c70d85b34fbeb387322">begin</a> (const <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; T &gt; &amp;a)</td></tr>
-<tr class="separator:a8b5dcf4b2f351c70d85b34fbeb387322"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ff044294f3a5058359ce574906959e0"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
-<tr class="memitem:a0ff044294f3a5058359ce574906959e0"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0ff044294f3a5058359ce574906959e0">begin</a> (<a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; T &gt; &amp;a)</td></tr>
-<tr class="separator:a0ff044294f3a5058359ce574906959e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f62941e67ede5f73cc2130cf209d573"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
-<tr class="memitem:a7f62941e67ede5f73cc2130cf209d573"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a7f62941e67ede5f73cc2130cf209d573">end</a> (const <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; T &gt; &amp;a)</td></tr>
-<tr class="separator:a7f62941e67ede5f73cc2130cf209d573"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a5f00f44e7959717df54ad46bd7a76c"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
-<tr class="memitem:a3a5f00f44e7959717df54ad46bd7a76c"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3a5f00f44e7959717df54ad46bd7a76c">end</a> (<a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; T &gt; &amp;a)</td></tr>
-<tr class="separator:a3a5f00f44e7959717df54ad46bd7a76c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bd81207bb5dccdfe9533eae31414e16"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
+<tr class="memitem:a3bd81207bb5dccdfe9533eae31414e16"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3bd81207bb5dccdfe9533eae31414e16">begin</a> (const <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; T, I &gt; &amp;a)</td></tr>
+<tr class="separator:a3bd81207bb5dccdfe9533eae31414e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff3156c83a0cd4f80c755c47b577c1c9"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
+<tr class="memitem:aff3156c83a0cd4f80c755c47b577c1c9"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aff3156c83a0cd4f80c755c47b577c1c9">begin</a> (<a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; T, I &gt; &amp;a)</td></tr>
+<tr class="separator:aff3156c83a0cd4f80c755c47b577c1c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a484bb1d73bd93c876842593fe3441211"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
+<tr class="memitem:a484bb1d73bd93c876842593fe3441211"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a484bb1d73bd93c876842593fe3441211">end</a> (const <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; T, I &gt; &amp;a)</td></tr>
+<tr class="separator:a484bb1d73bd93c876842593fe3441211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78839ede3780b97bcce02af755e7e577"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
+<tr class="memitem:a78839ede3780b97bcce02af755e7e577"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a78839ede3780b97bcce02af755e7e577">end</a> (<a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; T, I &gt; &amp;a)</td></tr>
+<tr class="separator:a78839ede3780b97bcce02af755e7e577"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11adbe77a0a789151fa888fe153d4933"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a11adbe77a0a789151fa888fe153d4933">operator==</a> (const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;a, const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;b)</td></tr>
 <tr class="separator:a11adbe77a0a789151fa888fe153d4933"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5534d2437ed57cabae82ae75a441b224"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5534d2437ed57cabae82ae75a441b224">operator!=</a> (const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;a, const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;b)</td></tr>
@@ -2123,10 +2129,10 @@ Functions</h2></td></tr>
 <tr class="separator:ga78ceb249092f5942289ea1aa0dfe9ccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga96eecca9caad0991b7708eceadbd1e5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PlanarPathGroup.html#ga96eecca9caad0991b7708eceadbd1e5f">reducePath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, std::vector&lt; <a class="el" href="namespaceMR.html#abb8769b04d42ac01c6844c688f855da9">MeshEdgePoint</a> &gt; &amp;path, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, int maxIter=5)</td></tr>
 <tr class="separator:ga96eecca9caad0991b7708eceadbd1e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7382d3fb8195d4ffb1c9a8f9a84d5e20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a7382d3fb8195d4ffb1c9a8f9a84d5e20">verticesGridSampling</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float voxelSize)</td></tr>
-<tr class="separator:a7382d3fb8195d4ffb1c9a8f9a84d5e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d650519d00d9732a3624486cac05ae3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0d650519d00d9732a3624486cac05ae3">pointGridSampling</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, float voxelSize)</td></tr>
-<tr class="separator:a0d650519d00d9732a3624486cac05ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb9cb76b3a80c45dafeb3744f75df05d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#abb9cb76b3a80c45dafeb3744f75df05d">verticesGridSampling</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float voxelSize, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:abb9cb76b3a80c45dafeb3744f75df05d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96e10d3ddbcd64ca6b5fd0055bfe914d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a96e10d3ddbcd64ca6b5fd0055bfe914d">pointGridSampling</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, float voxelSize, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:a96e10d3ddbcd64ca6b5fd0055bfe914d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2442ef2afa7012af6ca21ebcb6604536"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga2442ef2afa7012af6ca21ebcb6604536"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga2442ef2afa7012af6ca21ebcb6604536">heapBytes</a> (const std::vector&lt; T &gt; &amp;vec)</td></tr>
 <tr class="memdesc:ga2442ef2afa7012af6ca21ebcb6604536"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory given vector occupies on heap  <a href="group__BasicGroup.html#ga2442ef2afa7012af6ca21ebcb6604536">More...</a><br /></td></tr>
@@ -2246,9 +2252,11 @@ Functions</h2></td></tr>
 <tr class="memitem:ga8159a4df1640c93525412ae2b8882a67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1BooleanResult.html">BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga8159a4df1640c93525412ae2b8882a67">boolean</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshB, <a class="el" href="group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> operation, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *rigidB2A=nullptr, <a class="el" href="structMR_1_1BooleanResultMapper.html">BooleanResultMapper</a> *mapper=nullptr)</td></tr>
 <tr class="memdesc:ga8159a4df1640c93525412ae2b8882a67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs CSG operation on two meshes.  <a href="group__BooleanGroup.html#ga8159a4df1640c93525412ae2b8882a67">More...</a><br /></td></tr>
 <tr class="separator:ga8159a4df1640c93525412ae2b8882a67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad184d1a90dfcda5223f1b00af39c5b74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1BooleanResultPoints.html">BooleanResultPoints</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#gad184d1a90dfcda5223f1b00af39c5b74">getIntersectionAndInnerPoints</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshB, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *rigidB2A=nullptr)</td></tr>
-<tr class="memdesc:gad184d1a90dfcda5223f1b00af39c5b74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the points of mesh intersection's result mesh.  <a href="group__BooleanGroup.html#gad184d1a90dfcda5223f1b00af39c5b74">More...</a><br /></td></tr>
-<tr class="separator:gad184d1a90dfcda5223f1b00af39c5b74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac11fec1e372993b5a1c922535b34eb47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1BooleanResult.html">BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac11fec1e372993b5a1c922535b34eb47">boolean</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;meshA, <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;meshB, <a class="el" href="group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> operation, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *rigidB2A=nullptr, <a class="el" href="structMR_1_1BooleanResultMapper.html">BooleanResultMapper</a> *mapper=nullptr)</td></tr>
+<tr class="separator:ac11fec1e372993b5a1c922535b34eb47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5d9384bd80149a523b327c2a55110ca9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1BooleanResultPoints.html">BooleanResultPoints</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga5d9384bd80149a523b327c2a55110ca9">getBooleanPoints</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshB, <a class="el" href="group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> operation, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *rigidB2A=nullptr)</td></tr>
+<tr class="memdesc:ga5d9384bd80149a523b327c2a55110ca9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the points of mesh boolean's result mesh.  <a href="group__BooleanGroup.html#ga5d9384bd80149a523b327c2a55110ca9">More...</a><br /></td></tr>
+<tr class="separator:ga5d9384bd80149a523b327c2a55110ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37a45fe3367e0420cb18c30593415498"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1TransformedMesh.html">TransformedMesh</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a37a45fe3367e0420cb18c30593415498">operator+=</a> (<a class="el" href="structMR_1_1TransformedMesh.html">TransformedMesh</a> &amp;a, const <a class="el" href="structMR_1_1TransformedMesh.html">TransformedMesh</a> &amp;b)</td></tr>
 <tr class="memdesc:a37a45fe3367e0420cb18c30593415498"><td class="mdescLeft">&#160;</td><td class="mdescRight">union operation on two meshes  <a href="namespaceMR.html#a37a45fe3367e0420cb18c30593415498">More...</a><br /></td></tr>
 <tr class="separator:a37a45fe3367e0420cb18c30593415498"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2520,6 +2528,8 @@ Functions</h2></td></tr>
 <tr class="separator:a78fd417d2a5046b4f8a517be36b6bc89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af30fa76ca9fac029ce66a5f3eea9552e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af30fa76ca9fac029ce66a5f3eea9552e">offsetPolyline</a> (const <a class="el" href="namespaceMR.html#a58b74f27c86e7e9dee889bfe30f3022a">Polyline3</a> &amp;polyline, float offset, const <a class="el" href="structMR_1_1OffsetParameters.html">OffsetParameters</a> &amp;params={})</td></tr>
 <tr class="separator:af30fa76ca9fac029ce66a5f3eea9552e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30f8a681dc92effd39120ba76d84daa5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9ff8538fbd804e0f9c7aa814bbb3ed80">FaceBMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a30f8a681dc92effd39120ba76d84daa5">getOptimalFaceOrdering</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="separator:a30f8a681dc92effd39120ba76d84daa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf96c4ae6f54b13630e2800975f7b4c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae49732f6a4549f859a39da1454ff483f">VertBMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aaf96c4ae6f54b13630e2800975f7b4c7">getVertexOrdering</a> (const <a class="el" href="namespaceMR.html#a9ff8538fbd804e0f9c7aa814bbb3ed80">FaceBMap</a> &amp;faceMap, const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology)</td></tr>
 <tr class="separator:aaf96c4ae6f54b13630e2800975f7b4c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92ff5703efae9bb282ac16c6d9876e01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a4dfa62cab48a2e5965060201a796da44">UndirectedEdgeBMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a92ff5703efae9bb282ac16c6d9876e01">getEdgeOrdering</a> (const <a class="el" href="namespaceMR.html#a9ff8538fbd804e0f9c7aa814bbb3ed80">FaceBMap</a> &amp;faceMap, const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology)</td></tr>
@@ -2722,6 +2732,8 @@ Functions</h2></td></tr>
 <tr class="separator:abafdefdb52d1edc03627291ad5e33b60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afadfa7c61c73e9a699449d9a2828496d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#afadfa7c61c73e9a699449d9a2828496d">getInnerEdges</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;verts)</td></tr>
 <tr class="separator:afadfa7c61c73e9a699449d9a2828496d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a440a487c036b6e5d41f4552c42d5f32a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a440a487c036b6e5d41f4552c42d5f32a">getInnerEdges</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;region)</td></tr>
+<tr class="separator:a440a487c036b6e5d41f4552c42d5f32a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9734d42f2f7628bbf6a24ea8b87aab05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a9734d42f2f7628bbf6a24ea8b87aab05">getIncidentVerts</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> *edges, <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;store)</td></tr>
 <tr class="separator:a9734d42f2f7628bbf6a24ea8b87aab05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fe46de7cb7885b2707a89d2637bfeb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6fe46de7cb7885b2707a89d2637bfeb0">getInnerVerts</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;edges)</td></tr>
@@ -3181,8 +3193,8 @@ Functions</h2></td></tr>
 <tr class="memitem:gaae733878440cead52d3fc2fd6c4429b9"><td class="memTemplParams" colspan="2">template&lt;size_t I&gt; </td></tr>
 <tr class="memitem:gaae733878440cead52d3fc2fd6c4429b9"><td class="memTemplItemLeft" align="right" valign="top">constexpr uint8_t &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__TupleBindingsGroup.html#gaae733878440cead52d3fc2fd6c4429b9">get</a> (<a class="el" href="structMR_1_1Color.html">Color</a> &amp;c) noexcept</td></tr>
 <tr class="separator:gaae733878440cead52d3fc2fd6c4429b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadd5d7a687012c2369378263a4e119f79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointCloudGroup.html#gadd5d7a687012c2369378263a4e119f79">pointUniformSampling</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, float <a class="el" href="group__IntersectionGroup.html#ga9f71b2c20cd6a91f42d8d76dbc038190">distance</a>)</td></tr>
-<tr class="separator:gadd5d7a687012c2369378263a4e119f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4cbd5bab206407c7f5f9b2fed9456bcd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointCloudGroup.html#ga4cbd5bab206407c7f5f9b2fed9456bcd">pointUniformSampling</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, float <a class="el" href="group__IntersectionGroup.html#ga9f71b2c20cd6a91f42d8d76dbc038190">distance</a>, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:ga4cbd5bab206407c7f5f9b2fed9456bcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91c773f9c327d2144acbee3c00d4895a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a91c773f9c327d2144acbee3c00d4895a">uniteManyMeshes</a> (const std::vector&lt; const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> * &gt; &amp;meshes, const <a class="el" href="structMR_1_1UniteManyMeshesParams.html">UniteManyMeshesParams</a> &amp;params={})</td></tr>
 <tr class="separator:a91c773f9c327d2144acbee3c00d4895a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace0cdcde3803687956bdf0612a44cf83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ace0cdcde3803687956bdf0612a44cf83">makeUVSphere</a> (float radius=1.0, int horisontalResolution=16, int verticalResolution=16)</td></tr>
@@ -3369,9 +3381,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a51033c9af8102db8874604928f6f8de6"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a51033c9af8102db8874604928f6f8de6">saveObjectToFile</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;obj, const std::filesystem::path &amp;filename, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
 <tr class="memdesc:a51033c9af8102db8874604928f6f8de6"><td class="mdescLeft">&#160;</td><td class="mdescRight">save visual object (mesh, lines, points or voxels) to file  <a href="namespaceMR.html#a51033c9af8102db8874604928f6f8de6">More...</a><br /></td></tr>
 <tr class="separator:a51033c9af8102db8874604928f6f8de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e60b59a61e1ad42bd65eee7177428c1"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API tl::expected&lt; std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a9e60b59a61e1ad42bd65eee7177428c1">loadObjectFromFile</a> (const std::filesystem::path &amp;filename, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
-<tr class="memdesc:a9e60b59a61e1ad42bd65eee7177428c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">load object (mesh, lines, points, voxels or scene) from file  <a href="namespaceMR.html#a9e60b59a61e1ad42bd65eee7177428c1">More...</a><br /></td></tr>
-<tr class="separator:a9e60b59a61e1ad42bd65eee7177428c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ca61d3fae40bcd7a9e8ce848bf0362d"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0ca61d3fae40bcd7a9e8ce848bf0362d">position</a> (const <a class="el" href="namespaceMR.html#af3970a3c191ff7a139d0e2ed05f27eeb">ViewportRectangle</a> &amp;rect)</td></tr>
 <tr class="separator:a0ca61d3fae40bcd7a9e8ce848bf0362d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a306ff1f62992b3eb33c446913b64188a"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a> (const <a class="el" href="namespaceMR.html#af3970a3c191ff7a139d0e2ed05f27eeb">ViewportRectangle</a> &amp;rect)</td></tr>
@@ -3398,6 +3407,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga76bb7958ef2900006f29b9a81fc6e8f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1ObjectDistanceMap.html">ObjectDistanceMap</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga76bb7958ef2900006f29b9a81fc6e8f4">makeObjectDistanceMapFromFile</a> (const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
 <tr class="memdesc:ga76bb7958ef2900006f29b9a81fc6e8f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads distance map from given file in new object  <a href="group__DataModelGroup.html#ga76bb7958ef2900006f29b9a81fc6e8f4">More...</a><br /></td></tr>
 <tr class="separator:ga76bb7958ef2900006f29b9a81fc6e8f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafadea3b2027ddc499c99f290196216dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#gafadea3b2027ddc499c99f290196216dd">loadObjectFromFile</a> (const std::filesystem::path &amp;filename, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="memdesc:gafadea3b2027ddc499c99f290196216dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">load object (mesh, lines, points, voxels or scene) from file  <a href="group__DataModelGroup.html#gafadea3b2027ddc499c99f290196216dd">More...</a><br /></td></tr>
+<tr class="separator:gafadea3b2027ddc499c99f290196216dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa2082792bceb5a2dd3b18ff5693f0441"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#gaa2082792bceb5a2dd3b18ff5693f0441">isSupportedFileInSubfolders</a> (const std::filesystem::path &amp;folder)</td></tr>
 <tr class="separator:gaa2082792bceb5a2dd3b18ff5693f0441"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad3e2c813d6830f2cf1a805b23ed307f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1Object.html">Object</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#gad3e2c813d6830f2cf1a805b23ed307f1">makeObjectTreeFromFolder</a> (const std::filesystem::path &amp;folder, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
@@ -3419,10 +3431,13 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:aaa8f63a4fb4dcabf0f8f1dc79cdeee90"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1NoInit.html">NoInit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aaa8f63a4fb4dcabf0f8f1dc79cdeee90">noInit</a></td></tr>
-<tr class="separator:aaa8f63a4fb4dcabf0f8f1dc79cdeee90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a500d4f823bf14e54d3aa73d4761a66d6"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a500d4f823bf14e54d3aa73d4761a66d6">NoAngleChangeLimit</a> = 10</td></tr>
 <tr class="separator:a500d4f823bf14e54d3aa73d4761a66d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa8f63a4fb4dcabf0f8f1dc79cdeee90"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1NoInit.html">NoInit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aaa8f63a4fb4dcabf0f8f1dc79cdeee90">noInit</a></td></tr>
+<tr class="separator:aaa8f63a4fb4dcabf0f8f1dc79cdeee90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae14e1033b3de0c30a6bb404e940dc424"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ae14e1033b3de0c30a6bb404e940dc424"><td class="memTemplItemLeft" align="right" valign="top">struct <a class="el" href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ae14e1033b3de0c30a6bb404e940dc424">NoDefInit</a></td></tr>
+<tr class="separator:ae14e1033b3de0c30a6bb404e940dc424"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8c2508941fcd4ad714cdf50c45aa41c"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a></td></tr>
 <tr class="separator:ac8c2508941fcd4ad714cdf50c45aa41c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bbe6aa7d7136f740286af86f591c19b"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a1bbe6aa7d7136f740286af86f591c19b">UndirectedEdgeTag</a></td></tr>
@@ -6723,8 +6738,8 @@ template&lt;class HistoryActionType &gt; </div>
 
 </div>
 </div>
-<a id="a0ff044294f3a5058359ce574906959e0" name="a0ff044294f3a5058359ce574906959e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ff044294f3a5058359ce574906959e0">&#9670;&#160;</a></span>begin() <span class="overload">[1/4]</span></h2>
+<a id="aff3156c83a0cd4f80c755c47b577c1c9" name="aff3156c83a0cd4f80c755c47b577c1c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff3156c83a0cd4f80c755c47b577c1c9">&#9670;&#160;</a></span>begin() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6737,7 +6752,7 @@ template&lt;typename T , typename I &gt; </div>
         <tr>
           <td class="memname">auto MR::begin </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; T, I &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em></td><td>)</td>
           <td></td>
         </tr>
@@ -6751,8 +6766,8 @@ template&lt;typename T , typename I &gt; </div>
 
 </div>
 </div>
-<a id="a8b5dcf4b2f351c70d85b34fbeb387322" name="a8b5dcf4b2f351c70d85b34fbeb387322"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b5dcf4b2f351c70d85b34fbeb387322">&#9670;&#160;</a></span>begin() <span class="overload">[2/4]</span></h2>
+<a id="a3bd81207bb5dccdfe9533eae31414e16" name="a3bd81207bb5dccdfe9533eae31414e16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bd81207bb5dccdfe9533eae31414e16">&#9670;&#160;</a></span>begin() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6765,7 +6780,7 @@ template&lt;typename T , typename I &gt; </div>
         <tr>
           <td class="memname">auto MR::begin </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; T, I &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em></td><td>)</td>
           <td></td>
         </tr>
@@ -6985,6 +7000,52 @@ template&lt;typename T , std::size_t N&gt; </div>
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac11fec1e372993b5a1c922535b34eb47" name="ac11fec1e372993b5a1c922535b34eb47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac11fec1e372993b5a1c922535b34eb47">&#9670;&#160;</a></span>boolean()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1BooleanResult.html">BooleanResult</a> MR::boolean </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>meshA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>meshB</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a>&#160;</td>
+          <td class="paramname"><em>operation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *&#160;</td>
+          <td class="paramname"><em>rigidB2A</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1BooleanResultMapper.html">BooleanResultMapper</a> *&#160;</td>
+          <td class="paramname"><em>mapper</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -7452,8 +7513,8 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
-<a id="a3a5f00f44e7959717df54ad46bd7a76c" name="a3a5f00f44e7959717df54ad46bd7a76c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a5f00f44e7959717df54ad46bd7a76c">&#9670;&#160;</a></span>end() <span class="overload">[1/4]</span></h2>
+<a id="a78839ede3780b97bcce02af755e7e577" name="a78839ede3780b97bcce02af755e7e577"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78839ede3780b97bcce02af755e7e577">&#9670;&#160;</a></span>end() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7466,7 +7527,7 @@ template&lt;typename T , typename I &gt; </div>
         <tr>
           <td class="memname">auto MR::end </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; T, I &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em></td><td>)</td>
           <td></td>
         </tr>
@@ -7480,8 +7541,8 @@ template&lt;typename T , typename I &gt; </div>
 
 </div>
 </div>
-<a id="a7f62941e67ede5f73cc2130cf209d573" name="a7f62941e67ede5f73cc2130cf209d573"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f62941e67ede5f73cc2130cf209d573">&#9670;&#160;</a></span>end() <span class="overload">[2/4]</span></h2>
+<a id="a484bb1d73bd93c876842593fe3441211" name="a484bb1d73bd93c876842593fe3441211"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a484bb1d73bd93c876842593fe3441211">&#9670;&#160;</a></span>end() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7494,7 +7555,7 @@ template&lt;typename T , typename I &gt; </div>
         <tr>
           <td class="memname">auto MR::end </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; T, I &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em></td><td>)</td>
           <td></td>
         </tr>
@@ -8972,8 +9033,36 @@ template&lt;typename T , typename I &gt; </div>
 
 </div>
 </div>
+<a id="a440a487c036b6e5d41f4552c42d5f32a" name="a440a487c036b6e5d41f4552c42d5f32a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a440a487c036b6e5d41f4552c42d5f32a">&#9670;&#160;</a></span>getInnerEdges() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> MR::getInnerEdges </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>region</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afadfa7c61c73e9a699449d9a2828496d" name="afadfa7c61c73e9a699449d9a2828496d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afadfa7c61c73e9a699449d9a2828496d">&#9670;&#160;</a></span>getInnerEdges()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afadfa7c61c73e9a699449d9a2828496d">&#9670;&#160;</a></span>getInnerEdges() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9193,6 +9282,25 @@ template&lt;typename T , typename I &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a30f8a681dc92effd39120ba76d84daa5" name="a30f8a681dc92effd39120ba76d84daa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30f8a681dc92effd39120ba76d84daa5">&#9670;&#160;</a></span>getOptimalFaceOrdering()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9ff8538fbd804e0f9c7aa814bbb3ed80">FaceBMap</a> MR::getOptimalFaceOrdering </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >computes optimal order of faces: old face id -&gt; new face id, the order is similar as in AABB tree, but faster to compute </p>
 
 </div>
 </div>
@@ -10175,43 +10283,6 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9e60b59a61e1ad42bd65eee7177428c1" name="a9e60b59a61e1ad42bd65eee7177428c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e60b59a61e1ad42bd65eee7177428c1">&#9670;&#160;</a></span>loadObjectFromFile()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API tl::expected&lt; std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;, std::string &gt; MR::loadObjectFromFile </td>
-          <td>(</td>
-          <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
-          <td class="paramname"><em>filename</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
-          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>load object (mesh, lines, points, voxels or scene) from file </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">callback</td><td>- callback function to set progress (for progress bar) </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>empty string if no error or error text </dd></dl>
 
 </div>
 </div>
@@ -13623,8 +13694,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a0d650519d00d9732a3624486cac05ae3" name="a0d650519d00d9732a3624486cac05ae3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d650519d00d9732a3624486cac05ae3">&#9670;&#160;</a></span>pointGridSampling()</h2>
+<a id="a96e10d3ddbcd64ca6b5fd0055bfe914d" name="a96e10d3ddbcd64ca6b5fd0055bfe914d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96e10d3ddbcd64ca6b5fd0055bfe914d">&#9670;&#160;</a></span>pointGridSampling()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13639,7 +13710,13 @@ template&lt;typename T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>voxelSize</em>&#160;</td>
+          <td class="paramname"><em>voxelSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>cb</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -15442,8 +15519,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a7382d3fb8195d4ffb1c9a8f9a84d5e20" name="a7382d3fb8195d4ffb1c9a8f9a84d5e20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7382d3fb8195d4ffb1c9a8f9a84d5e20">&#9670;&#160;</a></span>verticesGridSampling()</h2>
+<a id="abb9cb76b3a80c45dafeb3744f75df05d" name="abb9cb76b3a80c45dafeb3744f75df05d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb9cb76b3a80c45dafeb3744f75df05d">&#9670;&#160;</a></span>verticesGridSampling()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -15458,7 +15535,13 @@ template&lt;typename T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>voxelSize</em>&#160;</td>
+          <td class="paramname"><em>voxelSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>cb</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -16696,6 +16779,22 @@ template&lt;typename T &gt; </div>
 <span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae14e1033b3de0c30a6bb404e940dc424" name="ae14e1033b3de0c30a6bb404e940dc424"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae14e1033b3de0c30a6bb404e940dc424">&#9670;&#160;</a></span>NoDefInit</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a> <a class="el" href="structMR_1_1NoDefInit.html">MR::NoDefInit</a></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

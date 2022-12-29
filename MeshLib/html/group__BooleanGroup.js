@@ -59,6 +59,6 @@ var group__BooleanGroup =
     [ "MR::convertSurfacePathWithEndsToMeshContour", "group__BooleanGroup.html#ga4415eacd7a732188919def7411ee0245", null ],
     [ "MR::cutMesh", "group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc", null ],
     [ "MR::cutMeshWithPlane", "group__BooleanGroup.html#gae70921f8b670333f08291597996a1dbf", null ],
-    [ "MR::doBooleanOperation", "group__BooleanGroup.html#ga136d5f035ec87489a76b2232bc71ad85", null ],
-    [ "MR::getIntersectionAndInnerPoints", "group__BooleanGroup.html#gad184d1a90dfcda5223f1b00af39c5b74", null ]
+    [ "MR::doBooleanOperation", "group__BooleanGroup.html#ga8b16fc3518e76a2cc2553820bfaa676a", null ],
+    [ "MR::getBooleanPoints", "group__BooleanGroup.html#ga5d9384bd80149a523b327c2a55110ca9", null ]
 ];

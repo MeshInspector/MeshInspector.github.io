@@ -1,4 +1,4 @@
 var MRUniformSampling_8h =
 [
-    [ "pointUniformSampling", "MRUniformSampling_8h.html#gadd5d7a687012c2369378263a4e119f79", null ]
+    [ "pointUniformSampling", "MRUniformSampling_8h.html#ga4cbd5bab206407c7f5f9b2fed9456bcd", null ]
 ];

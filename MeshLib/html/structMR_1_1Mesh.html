@@ -263,8 +263,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2e9331e1cd987b8dab1bceac8a73c5f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d8e2d55d67e606f0129377d0d14aa4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a6d8e2d55d67e606f0129377d0d14aa4a">pack</a> (<a class="el" href="namespaceMR.html#a989bcd374602a615d0acbd6a4988b9b3">FaceMap</a> *outFmap=nullptr, <a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> *outVmap=nullptr, <a class="el" href="namespaceMR.html#ab8a64e1ae478a6733cc6c0ab4441d0b9">WholeEdgeMap</a> *outEmap=nullptr, bool rearrangeTriangles=false)</td></tr>
 <tr class="separator:a6d8e2d55d67e606f0129377d0d14aa4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a243bfe4c0b34363e25760b5016f4d31c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PackMapping.html">PackMapping</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a243bfe4c0b34363e25760b5016f4d31c">packOptimally</a> ()</td></tr>
-<tr class="separator:a243bfe4c0b34363e25760b5016f4d31c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac790be9d7fbcbf9f765ebdd90f761c71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PackMapping.html">PackMapping</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#ac790be9d7fbcbf9f765ebdd90f761c71">packOptimally</a> (bool preserveAABBTree=true)</td></tr>
+<tr class="separator:ac790be9d7fbcbf9f765ebdd90f761c71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a726a27c8dbdef71902d1031424bea5cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a726a27c8dbdef71902d1031424bea5cf">projectPoint</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;point, <a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a> &amp;res, float maxDistSq=FLT_MAX, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *region=nullptr, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr) const</td></tr>
 <tr class="separator:a726a27c8dbdef71902d1031424bea5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a973baf90b80dc2696bc083577727d4fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a973baf90b80dc2696bc083577727d4fc">projectPoint</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;point, <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;res, float maxDistSq=FLT_MAX, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *region=nullptr, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr) const</td></tr>
@@ -1986,8 +1986,8 @@ template&lt;typename I &gt; </div>
 
 </div>
 </div>
-<a id="a243bfe4c0b34363e25760b5016f4d31c" name="a243bfe4c0b34363e25760b5016f4d31c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a243bfe4c0b34363e25760b5016f4d31c">&#9670;&#160;</a></span>packOptimally()</h2>
+<a id="ac790be9d7fbcbf9f765ebdd90f761c71" name="ac790be9d7fbcbf9f765ebdd90f761c71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac790be9d7fbcbf9f765ebdd90f761c71">&#9670;&#160;</a></span>packOptimally()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1995,11 +1995,18 @@ template&lt;typename I &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PackMapping.html">PackMapping</a> MR::Mesh::packOptimally </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>preserveAABBTree</em> = <code>true</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >packs tightly and rearranges vertices, triangles and edges to put close in space elements in close indices </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">preserveAABBTree</td><td>whether to keep valid mesh's AABB tree after return (it will take longer to compute and it will occupy more memory) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

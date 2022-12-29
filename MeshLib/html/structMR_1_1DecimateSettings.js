@@ -1,7 +1,7 @@
 var structMR_1_1DecimateSettings =
 [
     [ "adjustCollapse", "structMR_1_1DecimateSettings.html#a21d7c6d9122286b4edf7bd531d38b72b", null ],
-    [ "bdVerts", "structMR_1_1DecimateSettings.html#abc44005d50714fe75f875a25f3a59f66", null ],
+    [ "bdVerts", "structMR_1_1DecimateSettings.html#a9bc3106034dd8abdbb3067c7868ca6dd", null ],
     [ "criticalTriAspectRatio", "structMR_1_1DecimateSettings.html#a5f0e2ae094cddee1b490103a349feda5", null ],
     [ "maxAngleChange", "structMR_1_1DecimateSettings.html#aebecde304889b67910dd05d032cb8d07", null ],
     [ "maxDeletedFaces", "structMR_1_1DecimateSettings.html#a38bbdf3c479e6edea3b93ca7a7b52084", null ],
@@ -16,6 +16,7 @@ var structMR_1_1DecimateSettings =
     [ "region", "structMR_1_1DecimateSettings.html#a9359f9da0b131c164d942b1361bd9644", null ],
     [ "stabilizer", "structMR_1_1DecimateSettings.html#ab8a313e9caff73dd179f03a9c7b80baa", null ],
     [ "strategy", "structMR_1_1DecimateSettings.html#a7b024d2a905ecd6515a263ec20d35dc6", null ],
+    [ "subdivideParts", "structMR_1_1DecimateSettings.html#a8f97c534c28993195cc07d01e1721fe4", null ],
     [ "touchBdVertices", "structMR_1_1DecimateSettings.html#aa7b755cd5bad251398508eb99a3fe806", null ],
     [ "vertForms", "structMR_1_1DecimateSettings.html#a8a682d43b723098485a748e97bd12111", null ]
 ];

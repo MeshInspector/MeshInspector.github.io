@@ -34,8 +34,9 @@ var hierarchy =
     [ "MR::Box< float >", "structMR_1_1Box.html", null ],
     [ "MR::Box< int >", "structMR_1_1Box.html", null ],
     [ "MR::BoxedLeaf< T >", "structMR_1_1BoxedLeaf.html", null ],
-    [ "MR::Buffer< T, I >", "classMR_1_1Buffer.html", null ],
+    [ "MR::Buffer< V, I >", "classMR_1_1Buffer.html", null ],
     [ "MR::Buffer< FaceId, FaceId >", "classMR_1_1Buffer.html", null ],
+    [ "MR::Buffer< T, I >", "classMR_1_1Buffer.html", null ],
     [ "MR::Buffer< UndirectedEdgeId, UndirectedEdgeId >", "classMR_1_1Buffer.html", null ],
     [ "MR::Buffer< VertId, VertId >", "classMR_1_1Buffer.html", null ],
     [ "MR::MeshBuilder::BuildSettings", "structMR_1_1MeshBuilder_1_1BuildSettings.html", null ],
@@ -348,6 +349,8 @@ var hierarchy =
     [ "MR::MeshSave::NamedXfMesh", "structMR_1_1MeshSave_1_1NamedXfMesh.html", null ],
     [ "MR::NextEdgeSameLeft", "classMR_1_1NextEdgeSameLeft.html", null ],
     [ "MR::NextEdgeSameOrigin", "classMR_1_1NextEdgeSameOrigin.html", null ],
+    [ "MR::NoCtor< T >", "structMR_1_1NoCtor.html", null ],
+    [ "MR::NoCtor< T >", "structMR_1_1NoCtor_3_01T_01_4.html", null ],
     [ "MR::AABBTreePoints::Node", "structMR_1_1AABBTreePoints_1_1Node.html", null ],
     [ "MR::NoInit", "structMR_1_1NoInit.html", null ],
     [ "MR::NoVisualRepresentationCheck", "structMR_1_1NoVisualRepresentationCheck.html", null ],
@@ -494,6 +497,9 @@ var hierarchy =
     ] ],
     [ "MR::SymMatrix2< T >", "structMR_1_1SymMatrix2.html", null ],
     [ "MR::SymMatrix3< T >", "structMR_1_1SymMatrix3.html", null ],
+    [ "T", null, [
+      [ "MR::NoDefInit< T >", "structMR_1_1NoDefInit.html", null ]
+    ] ],
     [ "MR::TabNamePriority", "structMR_1_1TabNamePriority.html", null ],
     [ "MR::TerminalVertex", "structMR_1_1TerminalVertex.html", null ],
     [ "MR::Timer", "classMR_1_1Timer.html", null ],
@@ -570,6 +576,7 @@ var hierarchy =
     [ "MR::ViewportPointsWithColors", "structMR_1_1ViewportPointsWithColors.html", null ],
     [ "MR::ViewportProperty< T >", "classMR_1_1ViewportProperty.html", null ],
     [ "MR::ViewportProperty< MR::AffineXf >", "classMR_1_1ViewportProperty.html", null ],
+    [ "MR::ViewportProperty< MR::Color >", "classMR_1_1ViewportProperty.html", null ],
     [ "MR::ViewportProperty< MR::XfBasedCache< MR::Box > >", "classMR_1_1ViewportProperty.html", null ],
     [ "MR::VisualizeMaskType", "structMR_1_1VisualizeMaskType.html", [
       [ "MR::LabelVisualizePropertyType", "structMR_1_1LabelVisualizePropertyType.html", null ],

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MR::Buffer&lt; T, I &gt; Class Template Reference</title>
+<title>MeshLib: MR::Buffer&lt; V, I &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -101,129 +101,147 @@ $(document).ready(function(){initNavTree('classMR_1_1Buffer.html',''); initResiz
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classMR_1_1Buffer-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::Buffer&lt; T, I &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__BasicGroup.html">Basic elements overview</a></div></div></div>
+  <div class="headertitle"><div class="title">MR::Buffer&lt; V, I &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__BasicGroup.html">Basic elements overview</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>std::vector&lt;T&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods  
+<p>std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods  
  <a href="classMR_1_1Buffer.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MRBuffer_8h_source.html">MRBuffer.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a4df7598a39d07c7d9ae50904d7234054"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#a4df7598a39d07c7d9ae50904d7234054">reference</a> = T &amp;</td></tr>
-<tr class="separator:a4df7598a39d07c7d9ae50904d7234054"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89df74c7f4d4af07089b78c060237e7b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#a89df74c7f4d4af07089b78c060237e7b">const_reference</a> = const T &amp;</td></tr>
-<tr class="separator:a89df74c7f4d4af07089b78c060237e7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafce8f6455592b9f2f5460492d6b72e3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#aafce8f6455592b9f2f5460492d6b72e3">iterator</a> = T *</td></tr>
-<tr class="separator:aafce8f6455592b9f2f5460492d6b72e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f923a08fd7ff1c88fb0941eda8be2f1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#a9f923a08fd7ff1c88fb0941eda8be2f1">const_iterator</a> = const T *</td></tr>
-<tr class="separator:a9f923a08fd7ff1c88fb0941eda8be2f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b6a0d86e31b5f12076c72778352a6a8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#a5b6a0d86e31b5f12076c72778352a6a8">T</a> = typename <a class="el" href="structMR_1_1NoCtor.html">NoCtor</a>&lt; V &gt;::type</td></tr>
+<tr class="separator:a5b6a0d86e31b5f12076c72778352a6a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0e2029752634265e64418bec35cd18e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#aa0e2029752634265e64418bec35cd18e">reference</a> = <a class="el" href="classMR_1_1Buffer.html#a5b6a0d86e31b5f12076c72778352a6a8">T</a> &amp;</td></tr>
+<tr class="separator:aa0e2029752634265e64418bec35cd18e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada2b50e2318e59c2eacdf962114ab3ce"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#ada2b50e2318e59c2eacdf962114ab3ce">const_reference</a> = const <a class="el" href="classMR_1_1Buffer.html#a5b6a0d86e31b5f12076c72778352a6a8">T</a> &amp;</td></tr>
+<tr class="separator:ada2b50e2318e59c2eacdf962114ab3ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa13cb6ef3db757db3c9c7e75957e061"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#afa13cb6ef3db757db3c9c7e75957e061">iterator</a> = <a class="el" href="classMR_1_1Buffer.html#a5b6a0d86e31b5f12076c72778352a6a8">T</a> *</td></tr>
+<tr class="separator:afa13cb6ef3db757db3c9c7e75957e061"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae59d432ebfdf2ba3aa9e626357dcc0a3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#ae59d432ebfdf2ba3aa9e626357dcc0a3">const_iterator</a> = const <a class="el" href="classMR_1_1Buffer.html#a5b6a0d86e31b5f12076c72778352a6a8">T</a> *</td></tr>
+<tr class="separator:ae59d432ebfdf2ba3aa9e626357dcc0a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0ed404cee8a61f0ee30db07e5e01bc4e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#a0ed404cee8a61f0ee30db07e5e01bc4e">Buffer</a> ()=default</td></tr>
-<tr class="separator:a0ed404cee8a61f0ee30db07e5e01bc4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aead29675813178b63abd0ad35b75a4cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#aead29675813178b63abd0ad35b75a4cb">Buffer</a> (size_t <a class="el" href="classMR_1_1Buffer.html#a3a1f559a2e35e2b5075f547a457e1372">size</a>)</td></tr>
-<tr class="separator:aead29675813178b63abd0ad35b75a4cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a040f0c7787325f2e5608a3cc890dbf0c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#a040f0c7787325f2e5608a3cc890dbf0c">capacity</a> () const</td></tr>
-<tr class="separator:a040f0c7787325f2e5608a3cc890dbf0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a1f559a2e35e2b5075f547a457e1372"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#a3a1f559a2e35e2b5075f547a457e1372">size</a> () const</td></tr>
-<tr class="separator:a3a1f559a2e35e2b5075f547a457e1372"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8ddf2e9efbbd87439c22e81c7992a79"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#ae8ddf2e9efbbd87439c22e81c7992a79">empty</a> () const</td></tr>
-<tr class="separator:ae8ddf2e9efbbd87439c22e81c7992a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7973da0aa79063397fa045cf1475a9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#aa7973da0aa79063397fa045cf1475a9e">clear</a> ()</td></tr>
-<tr class="separator:aa7973da0aa79063397fa045cf1475a9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0ba4c6acd891635ab056e340c658f95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#ad0ba4c6acd891635ab056e340c658f95">resize</a> (size_t newSize)</td></tr>
-<tr class="separator:ad0ba4c6acd891635ab056e340c658f95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15ae9722be41e6257347c7ec74c26c34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Buffer.html#a89df74c7f4d4af07089b78c060237e7b">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#a15ae9722be41e6257347c7ec74c26c34">operator[]</a> (I i) const</td></tr>
-<tr class="separator:a15ae9722be41e6257347c7ec74c26c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acad7864a640256561b709d72ac0d20c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Buffer.html#a4df7598a39d07c7d9ae50904d7234054">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#acad7864a640256561b709d72ac0d20c5">operator[]</a> (I i)</td></tr>
-<tr class="separator:acad7864a640256561b709d72ac0d20c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43e1f82b5d2d30eb13336babee142499"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#a43e1f82b5d2d30eb13336babee142499">data</a> ()</td></tr>
-<tr class="separator:a43e1f82b5d2d30eb13336babee142499"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90e492be7ebfb79b3924b10a4e8c56e8"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#a90e492be7ebfb79b3924b10a4e8c56e8">data</a> () const</td></tr>
-<tr class="separator:a90e492be7ebfb79b3924b10a4e8c56e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaaeaa9aeb5eabc905715f45ea187ae72"><td class="memItemLeft" align="right" valign="top">I&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#aaaeaa9aeb5eabc905715f45ea187ae72">backId</a> () const</td></tr>
-<tr class="memdesc:aaaeaa9aeb5eabc905715f45ea187ae72"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the identifier of the back() element  <a href="classMR_1_1Buffer.html#aaaeaa9aeb5eabc905715f45ea187ae72">More...</a><br /></td></tr>
-<tr class="separator:aaaeaa9aeb5eabc905715f45ea187ae72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a262bfeca051e660d4123d82e4132a56a"><td class="memItemLeft" align="right" valign="top">I&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#a262bfeca051e660d4123d82e4132a56a">endId</a> () const</td></tr>
-<tr class="memdesc:a262bfeca051e660d4123d82e4132a56a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns <a class="el" href="classMR_1_1Buffer.html#aaaeaa9aeb5eabc905715f45ea187ae72" title="returns the identifier of the back() element">backId()</a> + 1  <a href="classMR_1_1Buffer.html#a262bfeca051e660d4123d82e4132a56a">More...</a><br /></td></tr>
-<tr class="separator:a262bfeca051e660d4123d82e4132a56a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b1b4796cba5c0a60997d640af7d9251"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#a9b1b4796cba5c0a60997d640af7d9251">heapBytes</a> () const</td></tr>
-<tr class="memdesc:a9b1b4796cba5c0a60997d640af7d9251"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <a href="classMR_1_1Buffer.html#a9b1b4796cba5c0a60997d640af7d9251">More...</a><br /></td></tr>
-<tr class="separator:a9b1b4796cba5c0a60997d640af7d9251"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad14f8729b4b1bf29927db584ffb5b052"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#ad14f8729b4b1bf29927db584ffb5b052">Buffer</a> ()=default</td></tr>
+<tr class="separator:ad14f8729b4b1bf29927db584ffb5b052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcf3d90225b34639d9eb1017164d7c18"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#afcf3d90225b34639d9eb1017164d7c18">Buffer</a> (size_t <a class="el" href="classMR_1_1Buffer.html#a40bf924b784b4438431f70517b950d70">size</a>)</td></tr>
+<tr class="separator:afcf3d90225b34639d9eb1017164d7c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6b75ad9972a297c57f5ac949f0062ef"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#af6b75ad9972a297c57f5ac949f0062ef">capacity</a> () const</td></tr>
+<tr class="separator:af6b75ad9972a297c57f5ac949f0062ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40bf924b784b4438431f70517b950d70"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#a40bf924b784b4438431f70517b950d70">size</a> () const</td></tr>
+<tr class="separator:a40bf924b784b4438431f70517b950d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a639284e16d0d26e25ac330e5e04651ca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#a639284e16d0d26e25ac330e5e04651ca">empty</a> () const</td></tr>
+<tr class="separator:a639284e16d0d26e25ac330e5e04651ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f01b559e5cafefd57bef4c73f59b669"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#a2f01b559e5cafefd57bef4c73f59b669">clear</a> ()</td></tr>
+<tr class="separator:a2f01b559e5cafefd57bef4c73f59b669"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1bc4a40918912e001d6da1bf1595d36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#ab1bc4a40918912e001d6da1bf1595d36">resize</a> (size_t newSize)</td></tr>
+<tr class="separator:ab1bc4a40918912e001d6da1bf1595d36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9db6d53dd2501eb585f56eb189af4340"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Buffer.html#ada2b50e2318e59c2eacdf962114ab3ce">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#a9db6d53dd2501eb585f56eb189af4340">operator[]</a> (I i) const</td></tr>
+<tr class="separator:a9db6d53dd2501eb585f56eb189af4340"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac20d3e206804590699b1e944ebe0bb1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Buffer.html#aa0e2029752634265e64418bec35cd18e">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#ac20d3e206804590699b1e944ebe0bb1d">operator[]</a> (I i)</td></tr>
+<tr class="separator:ac20d3e206804590699b1e944ebe0bb1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41da905f71d8b9c53aa517dae7af261a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#a41da905f71d8b9c53aa517dae7af261a">data</a> ()</td></tr>
+<tr class="separator:a41da905f71d8b9c53aa517dae7af261a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68a63a004e6c105cbf0daf5ec4b1ec96"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#a68a63a004e6c105cbf0daf5ec4b1ec96">data</a> () const</td></tr>
+<tr class="separator:a68a63a004e6c105cbf0daf5ec4b1ec96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aae7e1ae916ef6da5cd9f342f93207c"><td class="memItemLeft" align="right" valign="top">I&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#a0aae7e1ae916ef6da5cd9f342f93207c">backId</a> () const</td></tr>
+<tr class="memdesc:a0aae7e1ae916ef6da5cd9f342f93207c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the identifier of the back() element  <a href="classMR_1_1Buffer.html#a0aae7e1ae916ef6da5cd9f342f93207c">More...</a><br /></td></tr>
+<tr class="separator:a0aae7e1ae916ef6da5cd9f342f93207c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfa0b936734c36dff600039214adb66f"><td class="memItemLeft" align="right" valign="top">I&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#abfa0b936734c36dff600039214adb66f">endId</a> () const</td></tr>
+<tr class="memdesc:abfa0b936734c36dff600039214adb66f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns <a class="el" href="classMR_1_1Buffer.html#a0aae7e1ae916ef6da5cd9f342f93207c" title="returns the identifier of the back() element">backId()</a> + 1  <a href="classMR_1_1Buffer.html#abfa0b936734c36dff600039214adb66f">More...</a><br /></td></tr>
+<tr class="separator:abfa0b936734c36dff600039214adb66f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7351432c6f65b963c17560ef8054076c"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html#a7351432c6f65b963c17560ef8054076c">heapBytes</a> () const</td></tr>
+<tr class="memdesc:a7351432c6f65b963c17560ef8054076c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <a href="classMR_1_1Buffer.html#a7351432c6f65b963c17560ef8054076c">More...</a><br /></td></tr>
+<tr class="separator:a7351432c6f65b963c17560ef8054076c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;typename T, typename I&gt;<br />
-class MR::Buffer&lt; T, I &gt;</div><p >std::vector&lt;T&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods </p>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename V, typename I&gt;<br />
+class MR::Buffer&lt; V, I &gt;</div><p >std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
+    <tr><td class="paramname">V</td><td>type of stored elements </td></tr>
     <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) </td></tr>
   </table>
   </dd>
 </dl>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a9f923a08fd7ff1c88fb0941eda8be2f1" name="a9f923a08fd7ff1c88fb0941eda8be2f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f923a08fd7ff1c88fb0941eda8be2f1">&#9670;&#160;</a></span>const_iterator</h2>
+<a id="ae59d432ebfdf2ba3aa9e626357dcc0a3" name="ae59d432ebfdf2ba3aa9e626357dcc0a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae59d432ebfdf2ba3aa9e626357dcc0a3">&#9670;&#160;</a></span>const_iterator</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I &gt; </div>
+template&lt;typename V , typename I &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; T, I &gt;::const_iterator =  const T*</td>
+          <td class="memname">using <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; V, I &gt;::const_iterator =  const <a class="el" href="classMR_1_1Buffer.html#a5b6a0d86e31b5f12076c72778352a6a8">T</a>*</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a89df74c7f4d4af07089b78c060237e7b" name="a89df74c7f4d4af07089b78c060237e7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89df74c7f4d4af07089b78c060237e7b">&#9670;&#160;</a></span>const_reference</h2>
+<a id="ada2b50e2318e59c2eacdf962114ab3ce" name="ada2b50e2318e59c2eacdf962114ab3ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada2b50e2318e59c2eacdf962114ab3ce">&#9670;&#160;</a></span>const_reference</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I &gt; </div>
+template&lt;typename V , typename I &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; T, I &gt;::const_reference =  const T&amp;</td>
+          <td class="memname">using <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; V, I &gt;::const_reference =  const <a class="el" href="classMR_1_1Buffer.html#a5b6a0d86e31b5f12076c72778352a6a8">T</a>&amp;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aafce8f6455592b9f2f5460492d6b72e3" name="aafce8f6455592b9f2f5460492d6b72e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aafce8f6455592b9f2f5460492d6b72e3">&#9670;&#160;</a></span>iterator</h2>
+<a id="afa13cb6ef3db757db3c9c7e75957e061" name="afa13cb6ef3db757db3c9c7e75957e061"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa13cb6ef3db757db3c9c7e75957e061">&#9670;&#160;</a></span>iterator</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I &gt; </div>
+template&lt;typename V , typename I &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; T, I &gt;::iterator =  T*</td>
+          <td class="memname">using <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; V, I &gt;::iterator =  <a class="el" href="classMR_1_1Buffer.html#a5b6a0d86e31b5f12076c72778352a6a8">T</a>*</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a4df7598a39d07c7d9ae50904d7234054" name="a4df7598a39d07c7d9ae50904d7234054"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4df7598a39d07c7d9ae50904d7234054">&#9670;&#160;</a></span>reference</h2>
+<a id="aa0e2029752634265e64418bec35cd18e" name="aa0e2029752634265e64418bec35cd18e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0e2029752634265e64418bec35cd18e">&#9670;&#160;</a></span>reference</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I &gt; </div>
+template&lt;typename V , typename I &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; T, I &gt;::reference =  T&amp;</td>
+          <td class="memname">using <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; V, I &gt;::reference =  <a class="el" href="classMR_1_1Buffer.html#a5b6a0d86e31b5f12076c72778352a6a8">T</a>&amp;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5b6a0d86e31b5f12076c72778352a6a8" name="a5b6a0d86e31b5f12076c72778352a6a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b6a0d86e31b5f12076c72778352a6a8">&#9670;&#160;</a></span>T</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V , typename I &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; V, I &gt;::T =  typename <a class="el" href="structMR_1_1NoCtor.html">NoCtor</a>&lt;V&gt;::type</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -231,19 +249,19 @@ template&lt;typename T , typename I &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a0ed404cee8a61f0ee30db07e5e01bc4e" name="a0ed404cee8a61f0ee30db07e5e01bc4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ed404cee8a61f0ee30db07e5e01bc4e">&#9670;&#160;</a></span>Buffer() <span class="overload">[1/2]</span></h2>
+<a id="ad14f8729b4b1bf29927db584ffb5b052" name="ad14f8729b4b1bf29927db584ffb5b052"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad14f8729b4b1bf29927db584ffb5b052">&#9670;&#160;</a></span>Buffer() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I &gt; </div>
+template&lt;typename V , typename I &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; T, I &gt;::Buffer </td>
+          <td class="memname"><a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; V, I &gt;::Buffer </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -258,19 +276,19 @@ template&lt;typename T , typename I &gt; </div>
 
 </div>
 </div>
-<a id="aead29675813178b63abd0ad35b75a4cb" name="aead29675813178b63abd0ad35b75a4cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aead29675813178b63abd0ad35b75a4cb">&#9670;&#160;</a></span>Buffer() <span class="overload">[2/2]</span></h2>
+<a id="afcf3d90225b34639d9eb1017164d7c18" name="afcf3d90225b34639d9eb1017164d7c18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcf3d90225b34639d9eb1017164d7c18">&#9670;&#160;</a></span>Buffer() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I &gt; </div>
+template&lt;typename V , typename I &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; T, I &gt;::Buffer </td>
+          <td class="memname"><a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; V, I &gt;::Buffer </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>size</em></td><td>)</td>
@@ -287,19 +305,19 @@ template&lt;typename T , typename I &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aaaeaa9aeb5eabc905715f45ea187ae72" name="aaaeaa9aeb5eabc905715f45ea187ae72"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaaeaa9aeb5eabc905715f45ea187ae72">&#9670;&#160;</a></span>backId()</h2>
+<a id="a0aae7e1ae916ef6da5cd9f342f93207c" name="a0aae7e1ae916ef6da5cd9f342f93207c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0aae7e1ae916ef6da5cd9f342f93207c">&#9670;&#160;</a></span>backId()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I &gt; </div>
+template&lt;typename V , typename I &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">I <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; T, I &gt;::backId </td>
+          <td class="memname">I <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; V, I &gt;::backId </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -316,19 +334,19 @@ template&lt;typename T , typename I &gt; </div>
 
 </div>
 </div>
-<a id="a040f0c7787325f2e5608a3cc890dbf0c" name="a040f0c7787325f2e5608a3cc890dbf0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a040f0c7787325f2e5608a3cc890dbf0c">&#9670;&#160;</a></span>capacity()</h2>
+<a id="af6b75ad9972a297c57f5ac949f0062ef" name="af6b75ad9972a297c57f5ac949f0062ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6b75ad9972a297c57f5ac949f0062ef">&#9670;&#160;</a></span>capacity()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I &gt; </div>
+template&lt;typename V , typename I &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; T, I &gt;::capacity </td>
+          <td class="memname">auto <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; V, I &gt;::capacity </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -343,19 +361,19 @@ template&lt;typename T , typename I &gt; </div>
 
 </div>
 </div>
-<a id="aa7973da0aa79063397fa045cf1475a9e" name="aa7973da0aa79063397fa045cf1475a9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7973da0aa79063397fa045cf1475a9e">&#9670;&#160;</a></span>clear()</h2>
+<a id="a2f01b559e5cafefd57bef4c73f59b669" name="a2f01b559e5cafefd57bef4c73f59b669"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f01b559e5cafefd57bef4c73f59b669">&#9670;&#160;</a></span>clear()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I &gt; </div>
+template&lt;typename V , typename I &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; T, I &gt;::clear </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; V, I &gt;::clear </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -370,19 +388,19 @@ template&lt;typename T , typename I &gt; </div>
 
 </div>
 </div>
-<a id="a43e1f82b5d2d30eb13336babee142499" name="a43e1f82b5d2d30eb13336babee142499"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43e1f82b5d2d30eb13336babee142499">&#9670;&#160;</a></span>data() <span class="overload">[1/2]</span></h2>
+<a id="a41da905f71d8b9c53aa517dae7af261a" name="a41da905f71d8b9c53aa517dae7af261a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41da905f71d8b9c53aa517dae7af261a">&#9670;&#160;</a></span>data() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I &gt; </div>
+template&lt;typename V , typename I &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; T, I &gt;::data </td>
+          <td class="memname">auto <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; V, I &gt;::data </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -397,19 +415,19 @@ template&lt;typename T , typename I &gt; </div>
 
 </div>
 </div>
-<a id="a90e492be7ebfb79b3924b10a4e8c56e8" name="a90e492be7ebfb79b3924b10a4e8c56e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90e492be7ebfb79b3924b10a4e8c56e8">&#9670;&#160;</a></span>data() <span class="overload">[2/2]</span></h2>
+<a id="a68a63a004e6c105cbf0daf5ec4b1ec96" name="a68a63a004e6c105cbf0daf5ec4b1ec96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68a63a004e6c105cbf0daf5ec4b1ec96">&#9670;&#160;</a></span>data() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I &gt; </div>
+template&lt;typename V , typename I &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; T, I &gt;::data </td>
+          <td class="memname">auto <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; V, I &gt;::data </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -424,19 +442,19 @@ template&lt;typename T , typename I &gt; </div>
 
 </div>
 </div>
-<a id="ae8ddf2e9efbbd87439c22e81c7992a79" name="ae8ddf2e9efbbd87439c22e81c7992a79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8ddf2e9efbbd87439c22e81c7992a79">&#9670;&#160;</a></span>empty()</h2>
+<a id="a639284e16d0d26e25ac330e5e04651ca" name="a639284e16d0d26e25ac330e5e04651ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a639284e16d0d26e25ac330e5e04651ca">&#9670;&#160;</a></span>empty()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I &gt; </div>
+template&lt;typename V , typename I &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; T, I &gt;::empty </td>
+          <td class="memname">bool <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; V, I &gt;::empty </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -451,19 +469,19 @@ template&lt;typename T , typename I &gt; </div>
 
 </div>
 </div>
-<a id="a262bfeca051e660d4123d82e4132a56a" name="a262bfeca051e660d4123d82e4132a56a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a262bfeca051e660d4123d82e4132a56a">&#9670;&#160;</a></span>endId()</h2>
+<a id="abfa0b936734c36dff600039214adb66f" name="abfa0b936734c36dff600039214adb66f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfa0b936734c36dff600039214adb66f">&#9670;&#160;</a></span>endId()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I &gt; </div>
+template&lt;typename V , typename I &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">I <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; T, I &gt;::endId </td>
+          <td class="memname">I <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; V, I &gt;::endId </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -476,23 +494,23 @@ template&lt;typename T , typename I &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>returns <a class="el" href="classMR_1_1Buffer.html#aaaeaa9aeb5eabc905715f45ea187ae72" title="returns the identifier of the back() element">backId()</a> + 1 </p>
+<p>returns <a class="el" href="classMR_1_1Buffer.html#a0aae7e1ae916ef6da5cd9f342f93207c" title="returns the identifier of the back() element">backId()</a> + 1 </p>
 
 </div>
 </div>
-<a id="a9b1b4796cba5c0a60997d640af7d9251" name="a9b1b4796cba5c0a60997d640af7d9251"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b1b4796cba5c0a60997d640af7d9251">&#9670;&#160;</a></span>heapBytes()</h2>
+<a id="a7351432c6f65b963c17560ef8054076c" name="a7351432c6f65b963c17560ef8054076c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7351432c6f65b963c17560ef8054076c">&#9670;&#160;</a></span>heapBytes()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I &gt; </div>
+template&lt;typename V , typename I &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; T, I &gt;::heapBytes </td>
+          <td class="memname">size_t <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; V, I &gt;::heapBytes </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -509,19 +527,19 @@ template&lt;typename T , typename I &gt; </div>
 
 </div>
 </div>
-<a id="acad7864a640256561b709d72ac0d20c5" name="acad7864a640256561b709d72ac0d20c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acad7864a640256561b709d72ac0d20c5">&#9670;&#160;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
+<a id="ac20d3e206804590699b1e944ebe0bb1d" name="ac20d3e206804590699b1e944ebe0bb1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac20d3e206804590699b1e944ebe0bb1d">&#9670;&#160;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I &gt; </div>
+template&lt;typename V , typename I &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Buffer.html#a4df7598a39d07c7d9ae50904d7234054">reference</a> <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; T, I &gt;::operator[] </td>
+          <td class="memname"><a class="el" href="classMR_1_1Buffer.html#aa0e2029752634265e64418bec35cd18e">reference</a> <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; V, I &gt;::operator[] </td>
           <td>(</td>
           <td class="paramtype">I&#160;</td>
           <td class="paramname"><em>i</em></td><td>)</td>
@@ -537,19 +555,19 @@ template&lt;typename T , typename I &gt; </div>
 
 </div>
 </div>
-<a id="a15ae9722be41e6257347c7ec74c26c34" name="a15ae9722be41e6257347c7ec74c26c34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15ae9722be41e6257347c7ec74c26c34">&#9670;&#160;</a></span>operator[]() <span class="overload">[2/2]</span></h2>
+<a id="a9db6d53dd2501eb585f56eb189af4340" name="a9db6d53dd2501eb585f56eb189af4340"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9db6d53dd2501eb585f56eb189af4340">&#9670;&#160;</a></span>operator[]() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I &gt; </div>
+template&lt;typename V , typename I &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Buffer.html#a89df74c7f4d4af07089b78c060237e7b">const_reference</a> <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; T, I &gt;::operator[] </td>
+          <td class="memname"><a class="el" href="classMR_1_1Buffer.html#ada2b50e2318e59c2eacdf962114ab3ce">const_reference</a> <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; V, I &gt;::operator[] </td>
           <td>(</td>
           <td class="paramtype">I&#160;</td>
           <td class="paramname"><em>i</em></td><td>)</td>
@@ -565,19 +583,19 @@ template&lt;typename T , typename I &gt; </div>
 
 </div>
 </div>
-<a id="ad0ba4c6acd891635ab056e340c658f95" name="ad0ba4c6acd891635ab056e340c658f95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0ba4c6acd891635ab056e340c658f95">&#9670;&#160;</a></span>resize()</h2>
+<a id="ab1bc4a40918912e001d6da1bf1595d36" name="ab1bc4a40918912e001d6da1bf1595d36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1bc4a40918912e001d6da1bf1595d36">&#9670;&#160;</a></span>resize()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I &gt; </div>
+template&lt;typename V , typename I &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; T, I &gt;::resize </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; V, I &gt;::resize </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>newSize</em></td><td>)</td>
@@ -593,19 +611,19 @@ template&lt;typename T , typename I &gt; </div>
 
 </div>
 </div>
-<a id="a3a1f559a2e35e2b5075f547a457e1372" name="a3a1f559a2e35e2b5075f547a457e1372"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a1f559a2e35e2b5075f547a457e1372">&#9670;&#160;</a></span>size()</h2>
+<a id="a40bf924b784b4438431f70517b950d70" name="a40bf924b784b4438431f70517b950d70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40bf924b784b4438431f70517b950d70">&#9670;&#160;</a></span>size()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I &gt; </div>
+template&lt;typename V , typename I &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; T, I &gt;::size </td>
+          <td class="memname">auto <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; V, I &gt;::size </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>

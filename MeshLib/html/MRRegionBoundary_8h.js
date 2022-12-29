@@ -12,6 +12,7 @@ var MRRegionBoundary_8h =
     [ "getIncidentVerts", "MRRegionBoundary_8h.html#a1ef0e2bf47e966acc6a32e33beeb9fe7", null ],
     [ "getIncidentVerts", "MRRegionBoundary_8h.html#a6bf6e1fe2f574638b1bdfd1eaafd26cb", null ],
     [ "getIncidentVerts", "MRRegionBoundary_8h.html#a9734d42f2f7628bbf6a24ea8b87aab05", null ],
+    [ "getInnerEdges", "MRRegionBoundary_8h.html#a440a487c036b6e5d41f4552c42d5f32a", null ],
     [ "getInnerEdges", "MRRegionBoundary_8h.html#afadfa7c61c73e9a699449d9a2828496d", null ],
     [ "getInnerFaces", "MRRegionBoundary_8h.html#a4d3bc72716887b5d9dfa102464142635", null ],
     [ "getInnerVerts", "MRRegionBoundary_8h.html#a239a137f92a0b73dfac626d2a8a7bb42", null ],

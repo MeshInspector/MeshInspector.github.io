@@ -12,7 +12,8 @@ var indexSectionsWithContent =
   9: "gmu",
   10: "bgms",
   11: "2abcdefghilmprstv",
-  12: "cdeiopst"
+  12: "cdeiopst",
+  13: "m"
 };
 
 var indexSectionNames =
@@ -29,7 +30,8 @@ var indexSectionNames =
   9: "related",
   10: "defines",
   11: "groups",
-  12: "pages"
+  12: "pages",
+  13: "concepts"
 };
 
 var indexSectionLabels =
@@ -46,6 +48,7 @@ var indexSectionLabels =
   9: "Friends",
   10: "Macros",
   11: "Modules",
-  12: "Pages"
+  12: "Pages",
+  13: "Concepts"
 };
 

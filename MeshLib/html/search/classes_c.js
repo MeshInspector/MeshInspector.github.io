@@ -6,7 +6,10 @@ var searchData=
   ['namedxfmesh_3',['NamedXfMesh',['../structMR_1_1MeshSave_1_1NamedXfMesh.html',1,'MR::MeshSave']]],
   ['nextedgesameleft_4',['NextEdgeSameLeft',['../classMR_1_1NextEdgeSameLeft.html',1,'MR']]],
   ['nextedgesameorigin_5',['NextEdgeSameOrigin',['../classMR_1_1NextEdgeSameOrigin.html',1,'MR']]],
-  ['node_6',['Node',['../structMR_1_1AABBTreePoints_1_1Node.html',1,'MR::AABBTreePoints']]],
-  ['noinit_7',['NoInit',['../structMR_1_1NoInit.html',1,'MR']]],
-  ['novisualrepresentationcheck_8',['NoVisualRepresentationCheck',['../structMR_1_1NoVisualRepresentationCheck.html',1,'MR']]]
+  ['noctor_6',['NoCtor',['../structMR_1_1NoCtor.html',1,'MR']]],
+  ['noctor_3c_20t_20_3e_7',['NoCtor&lt; T &gt;',['../structMR_1_1NoCtor_3_01T_01_4.html',1,'MR']]],
+  ['node_8',['Node',['../structMR_1_1AABBTreePoints_1_1Node.html',1,'MR::AABBTreePoints']]],
+  ['nodefinit_9',['NoDefInit',['../structMR_1_1NoDefInit.html',1,'MR']]],
+  ['noinit_10',['NoInit',['../structMR_1_1NoInit.html',1,'MR']]],
+  ['novisualrepresentationcheck_11',['NoVisualRepresentationCheck',['../structMR_1_1NoVisualRepresentationCheck.html',1,'MR']]]
 ];

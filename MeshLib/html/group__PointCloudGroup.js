@@ -32,7 +32,7 @@ var group__PointCloudGroup =
     ] ],
     [ "MR::findAvgPointsRadius", "group__PointCloudGroup.html#ga4a89d60a46db4f5461bda741c72574eb", null ],
     [ "MR::makeNormals", "group__PointCloudGroup.html#ga695acdfda1d1ac2dfb788797441ae0eb", null ],
-    [ "MR::pointUniformSampling", "group__PointCloudGroup.html#gadd5d7a687012c2369378263a4e119f79", null ],
+    [ "MR::pointUniformSampling", "group__PointCloudGroup.html#ga4cbd5bab206407c7f5f9b2fed9456bcd", null ],
     [ "MR::relax", "group__PointCloudGroup.html#ga6ba9ffdcab693b6baea21220474723b3", null ],
     [ "MR::relaxApprox", "group__PointCloudGroup.html#ga6aed8553ea931bbcc8e56d557e037f83", null ],
     [ "MR::relaxKeepVolume", "group__PointCloudGroup.html#ga43e77151f7880a37daf34ec986060115", null ]
