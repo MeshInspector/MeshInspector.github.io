@@ -125,8 +125,8 @@ var group__DistanceMapGroup =
       [ "MR::OutEdge2::Count", "group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "MR::combineXYderivativeMaps", "group__DistanceMapGroup.html#ga27435b7d8c5a7876aa45b60ea840b353", null ],
-    [ "MR::computeDistanceMap", "group__DistanceMapGroup.html#gade9da1de9798f7342d306e1329380c69", null ],
-    [ "MR::computeDistanceMapD", "group__DistanceMapGroup.html#ga870efb6b46cc879b8655dd943e201459", null ],
+    [ "MR::computeDistanceMap", "group__DistanceMapGroup.html#ga60d4a6a9da9891fba210467cdcef62d5", null ],
+    [ "MR::computeDistanceMapD", "group__DistanceMapGroup.html#gac217bd3e043a81e7657143256a6ded75", null ],
     [ "MR::contourIntersection", "group__DistanceMapGroup.html#ga8461963f3447f163979179222275114c", null ],
     [ "MR::contourSubtract", "group__DistanceMapGroup.html#ga9ec7f0e4e736da31de012ad0e33f6b33", null ],
     [ "MR::contourUnion", "group__DistanceMapGroup.html#ga59af0939e79330f4ef6bcc99c74c196b", null ],

@@ -128,6 +128,10 @@ var hierarchy =
       ] ]
     ] ],
     [ "MR::EdgeIdAndCoord", "structMR_1_1EdgeIdAndCoord.html", null ],
+    [ "MR::EdgePathsBuilderT< MetricToPenalty >", "classMR_1_1EdgePathsBuilderT.html", null ],
+    [ "MR::EdgePathsBuilderT< MetricToAStarPenalty >", "classMR_1_1EdgePathsBuilderT.html", [
+      [ "MR::EdgePathsAStarBuilder", "classMR_1_1EdgePathsAStarBuilder.html", null ]
+    ] ],
     [ "MR::EdgePoint", "structMR_1_1EdgePoint.html", null ],
     [ "MR::EdgePointPair", "structMR_1_1EdgePointPair.html", null ],
     [ "MR::EdgeTri", "structMR_1_1EdgeTri.html", [
@@ -336,6 +340,7 @@ var hierarchy =
     [ "MR::MeshToVolumeParams", "structMR_1_1MeshToVolumeParams.html", null ],
     [ "MR::MeshTriPoint", "structMR_1_1MeshTriPoint.html", null ],
     [ "MR::MeshVoxelsConverter", "structMR_1_1MeshVoxelsConverter.html", null ],
+    [ "MR::MetricToAStarPenalty", "structMR_1_1MetricToAStarPenalty.html", null ],
     [ "MR::PythonExport::ModuleData", "structMR_1_1PythonExport_1_1ModuleData.html", null ],
     [ "MR::MouseController::MouseControlKey", "structMR_1_1MouseController_1_1MouseControlKey.html", null ],
     [ "MR::MouseController", "classMR_1_1MouseController.html", null ],
@@ -431,6 +436,7 @@ var hierarchy =
     [ "MR::Quaternion< float >", "structMR_1_1Quaternion.html", null ],
     [ "MR::VoxelsLoad::RawParameters", "structMR_1_1VoxelsLoad_1_1RawParameters.html", null ],
     [ "MR::RayOrigin< T >", "structMR_1_1RayOrigin.html", null ],
+    [ "MR::EdgePathsBuilderT< MetricToPenalty >::ReachedVert", "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html", null ],
     [ "MR::RecentFilesStore", "classMR_1_1RecentFilesStore.html", null ],
     [ "MR::RectIndexer", "classMR_1_1RectIndexer.html", [
       [ "MR::DistanceMap", "classMR_1_1DistanceMap.html", null ],
@@ -513,6 +519,7 @@ var hierarchy =
     [ "MR::TriIntersectResult", "structMR_1_1TriIntersectResult.html", null ],
     [ "MR::TriPoint< T >", "structMR_1_1TriPoint.html", null ],
     [ "MR::TriPoint< float >", "structMR_1_1TriPoint.html", null ],
+    [ "MR::TrivialMetricToPenalty", "structMR_1_1TrivialMetricToPenalty.html", null ],
     [ "MR::UndirectedEdgeIterator", "classMR_1_1UndirectedEdgeIterator.html", null ],
     [ "MR::UndirectedEdgeUndirectedEdge", "structMR_1_1UndirectedEdgeUndirectedEdge.html", null ],
     [ "MR::UnionFind< I >", "classMR_1_1UnionFind.html", null ],
@@ -560,6 +567,7 @@ var hierarchy =
     [ "MR::MeshBuilder::VertDuplication", "structMR_1_1MeshBuilder_1_1VertDuplication.html", null ],
     [ "MR::MeshBuilder::VertexIdentifier", "classMR_1_1MeshBuilder_1_1VertexIdentifier.html", null ],
     [ "MR::VertPair", "structMR_1_1VertPair.html", null ],
+    [ "MR::VertPathInfo", "structMR_1_1VertPathInfo.html", null ],
     [ "MR::Viewer", "classMR_1_1Viewer.html", null ],
     [ "MR::ViewerPlugin", "classMR_1_1ViewerPlugin.html", [
       [ "MR::DemoPlugin", "classMR_1_1DemoPlugin.html", null ],

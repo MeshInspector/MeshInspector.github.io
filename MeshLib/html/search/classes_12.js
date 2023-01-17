@@ -26,5 +26,6 @@ var searchData=
   ['triintersectresult_23',['TriIntersectResult',['../structMR_1_1TriIntersectResult.html',1,'MR']]],
   ['tripoint_24',['TriPoint',['../structMR_1_1TriPoint.html',1,'MR']]],
   ['tripoint_3c_20float_20_3e_25',['TriPoint&lt; float &gt;',['../structMR_1_1TriPoint.html',1,'MR']]],
-  ['trirenderparams_26',['TriRenderParams',['../structMR_1_1ImmediateGL_1_1TriRenderParams.html',1,'MR::ImmediateGL']]]
+  ['trirenderparams_26',['TriRenderParams',['../structMR_1_1ImmediateGL_1_1TriRenderParams.html',1,'MR::ImmediateGL']]],
+  ['trivialmetrictopenalty_27',['TrivialMetricToPenalty',['../structMR_1_1TrivialMetricToPenalty.html',1,'MR']]]
 ];

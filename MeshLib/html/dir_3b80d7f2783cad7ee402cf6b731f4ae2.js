@@ -57,6 +57,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRDistanceMapSave.h", "MRDistanceMapSave_8h.html", "MRDistanceMapSave_8h" ],
     [ "MREdgeIterator.h", "MREdgeIterator_8h.html", "MREdgeIterator_8h" ],
     [ "MREdgePaths.h", "MREdgePaths_8h.html", "MREdgePaths_8h" ],
+    [ "MREdgePathsBuilder.h", "MREdgePathsBuilder_8h.html", "MREdgePathsBuilder_8h" ],
     [ "MREdgePoint.h", "MREdgePoint_8h.html", "MREdgePoint_8h" ],
     [ "MREmbeddedPython.h", "MREmbeddedPython_8h.html", "MREmbeddedPython_8h" ],
     [ "MRExpandShrink.h", "MRExpandShrink_8h.html", "MRExpandShrink_8h" ],

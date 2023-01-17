@@ -13,7 +13,7 @@ var MRMeshMetrics_8h =
     [ "getParallelPlaneFillMetric", "MRMeshMetrics_8h.html#ga9a4b77571e011a0b74c0a419e76ef332", null ],
     [ "getPlaneFillMetric", "MRMeshMetrics_8h.html#gaa490c6225ad37e5491af1ed61365e774", null ],
     [ "getPlaneNormalizedFillMetric", "MRMeshMetrics_8h.html#ga57ca3e797d9308a5db4461b06d773c01", null ],
-    [ "getSimplePlanarMetric", "MRMeshMetrics_8h.html#ga2e67ef45d04e0ed46d67ac9f5f6c0e52", null ],
+    [ "getSimpleAreaMetric", "MRMeshMetrics_8h.html#ga048bae3a8aa98e40f01e2d51ce41e3fb", null ],
     [ "getUniversalMetric", "MRMeshMetrics_8h.html#ga16a9d70b647d9b9f745ab650b21a975e", null ],
     [ "getVerticalStitchMetric", "MRMeshMetrics_8h.html#gaf5fc59fe1db6fed34f037ff6dad6bc44", null ],
     [ "BadTriangulationMetric", "MRMeshMetrics_8h.html#gac632bf42924389cba000b725ef53d7bc", null ]

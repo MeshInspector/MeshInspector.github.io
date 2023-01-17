@@ -143,6 +143,7 @@ var group__MathGroup =
       [ "b", "structMR_1_1TriPoint.html#a7ad9a3fd75d2c4414e75599a4eb0d497", null ]
     ] ],
     [ "MR::circumcircleDiameter", "group__MathGroup.html#gaba44f8d705d9bc1b98f635bdabe488ae", null ],
+    [ "MR::circumcircleDiameterSq", "group__MathGroup.html#ga97b0c226492f4561c1a2c13831433bed", null ],
     [ "MR::computeBoundingBox", "group__MathGroup.html#ga2db3b6f4ed7e234751a207d9216953a5", null ],
     [ "MR::dihedralAngle", "group__MathGroup.html#ga84b1b2dc1c73856fecb9b8617c174b04", null ],
     [ "MR::dihedralAngleCos", "group__MathGroup.html#gaa45975718eae0ae8c5500147ee8c27d1", null ],

@@ -30,9 +30,10 @@ var searchData=
   ['vertid_27',['VertId',['../namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5',1,'MR']]],
   ['vertmap_28',['VertMap',['../namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba',1,'MR']]],
   ['vertnormals_29',['VertNormals',['../namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df',1,'MR']]],
-  ['vertsetbititerator_30',['VertSetBitIterator',['../namespaceMR.html#a781eba660f55f4745e1770f2b1c8b003',1,'MR']]],
-  ['viewportrectangle_31',['ViewportRectangle',['../classMR_1_1Viewport.html#a4ffdd066d297db0b871f78fa572166a3',1,'MR::Viewport::ViewportRectangle()'],['../namespaceMR.html#af3970a3c191ff7a139d0e2ed05f27eeb',1,'MR::ViewportRectangle()']]],
-  ['voxelbitset_32',['VoxelBitSet',['../namespaceMR.html#a554ecd806e7de55aceb363940928dac0',1,'MR']]],
-  ['voxelid_33',['VoxelId',['../namespaceMR.html#a9ccb1b94958c98c5b5971b94fbfdb761',1,'MR']]],
-  ['voxelsmetric_34',['VoxelsMetric',['../group__VoxelPathGroup.html#gae41700d0c2fa75bd2e40f439a846a3b2',1,'MR']]]
+  ['vertpathinfomap_30',['VertPathInfoMap',['../group__EdgePathsGroup.html#ga573845ac08bb53e9eaf80a696577c962',1,'MR']]],
+  ['vertsetbititerator_31',['VertSetBitIterator',['../namespaceMR.html#a781eba660f55f4745e1770f2b1c8b003',1,'MR']]],
+  ['viewportrectangle_32',['ViewportRectangle',['../classMR_1_1Viewport.html#a4ffdd066d297db0b871f78fa572166a3',1,'MR::Viewport::ViewportRectangle()'],['../namespaceMR.html#af3970a3c191ff7a139d0e2ed05f27eeb',1,'MR::ViewportRectangle()']]],
+  ['voxelbitset_33',['VoxelBitSet',['../namespaceMR.html#a554ecd806e7de55aceb363940928dac0',1,'MR']]],
+  ['voxelid_34',['VoxelId',['../namespaceMR.html#a9ccb1b94958c98c5b5971b94fbfdb761',1,'MR']]],
+  ['voxelsmetric_35',['VoxelsMetric',['../group__VoxelPathGroup.html#gae41700d0c2fa75bd2e40f439a846a3b2',1,'MR']]]
 ];

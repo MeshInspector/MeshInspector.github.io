@@ -1,9 +1,5 @@
 var MRExtractIsolines_8h =
 [
-    [ "IsoLine", "MRExtractIsolines_8h.html#ae5fc1a595f918d9d56aad8305795a21c", null ],
-    [ "IsoLines", "MRExtractIsolines_8h.html#af5202c81e4413da4510b54fad78951bd", null ],
-    [ "PlaneSection", "MRExtractIsolines_8h.html#a76fccc29cf3ab68686fad45a62e17fa2", null ],
-    [ "PlaneSections", "MRExtractIsolines_8h.html#ac743a99f776ece0d1aace02cd9c7f561", null ],
     [ "extractIsolines", "MRExtractIsolines_8h.html#a8b0b55ffe6ea4fe8a68c4cba50f6d39c", null ],
     [ "extractPlaneSections", "MRExtractIsolines_8h.html#a30037e8ef79442785a34ff61d9a5eb2e", null ],
     [ "hasAnyIsoline", "MRExtractIsolines_8h.html#a934ddae2a04dfddd920098e8e1f87b0a", null ],

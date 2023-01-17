@@ -14,5 +14,8 @@ var MRSurfacePath_8h =
     [ "computeGeodesicPath", "MRSurfacePath_8h.html#ga638e686176d317a1e2a2e8b9690cb349", null ],
     [ "computeGeodesicPathApprox", "MRSurfacePath_8h.html#ga6909e1b4983f244975a576f9fe9b063b", null ],
     [ "computeSurfacePath", "MRSurfacePath_8h.html#gabfd45e2e051615658baa5e1bda2234ee", null ],
-    [ "surfacePathLength", "MRSurfacePath_8h.html#gacebe3b7371a72e49ddfbabc14fd008b4", null ]
+    [ "getSurfacePathsViaVertices", "MRSurfacePath_8h.html#gaaa4dc30756e93cfc4cd2f88758193360", null ],
+    [ "surfacePathLength", "MRSurfacePath_8h.html#gacebe3b7371a72e49ddfbabc14fd008b4", null ],
+    [ "surfacePathsToContours3f", "MRSurfacePath_8h.html#ga8dbc7e2393ed3d315467293b5b2ba1e2", null ],
+    [ "surfacePathToContour3f", "MRSurfacePath_8h.html#ga874e90d25d0cf437f34834d739fa588c", null ]
 ];
