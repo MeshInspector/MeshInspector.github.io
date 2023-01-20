@@ -123,9 +123,10 @@ $(document).ready(function(){initNavTree('EmbendedPythonOverview.html',''); init
 </p><ol type="1">
 <li>Directly from system python <div class="fragment"><div class="line">from meshlib <span class="keyword">import</span> mrmeshpy</div>
 <div class="line"> </div>
-<div class="line">expMesh = mrmeshpy.loadMesh(mrmeshpy.Path(<span class="stringliteral">&quot;mesh.stl&quot;</span>))</div>
-<div class="line">assert(expMesh.has_value())</div>
-<div class="line">mesh = expMesh.value()</div>
+<div class="line"><span class="keywordflow">try</span>:</div>
+<div class="line">    mesh = mrmeshpy.loadMesh(mrmeshpy.Path(<span class="stringliteral">&quot;mesh.stl&quot;</span>))</div>
+<div class="line">except ValueError as e:</div>
+<div class="line">    print(e)</div>
 <div class="line"><span class="preprocessor"># ...</span></div>
 <div class="line"><span class="preprocessor"># some mesh modifications can be perform here</span></div>
 <div class="line"><span class="preprocessor"># ...</span></div>

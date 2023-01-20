@@ -17,5 +17,6 @@ var group__SurfacePathSubgroup =
     [ "MR::getSurfacePathsViaVertices", "group__SurfacePathSubgroup.html#gaaa4dc30756e93cfc4cd2f88758193360", null ],
     [ "MR::surfacePathLength", "group__SurfacePathSubgroup.html#gacebe3b7371a72e49ddfbabc14fd008b4", null ],
     [ "MR::surfacePathsToContours3f", "group__SurfacePathSubgroup.html#ga8dbc7e2393ed3d315467293b5b2ba1e2", null ],
-    [ "MR::surfacePathToContour3f", "group__SurfacePathSubgroup.html#ga874e90d25d0cf437f34834d739fa588c", null ]
+    [ "MR::surfacePathToContour3f", "group__SurfacePathSubgroup.html#ga874e90d25d0cf437f34834d739fa588c", null ],
+    [ "MR::toString", "group__SurfacePathSubgroup.html#gac84bc08e1e95706c67d413f315fcf9d7", null ]
 ];

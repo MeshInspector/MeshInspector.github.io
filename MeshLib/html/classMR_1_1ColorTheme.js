@@ -22,6 +22,7 @@ var classMR_1_1ColorTheme =
       [ "TabActiveText", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a766f7faeb0a4d7a594238c300876813a", null ],
       [ "ToolbarHovered", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a76851ceee06bccd61e3f181d29dac532", null ],
       [ "ToolbarClicked", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ac85fcec1e15f3735fc91801590d0b609", null ],
+      [ "ToolbarCustomizeBg", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2921ca80b0c1fc4084aa23a17ed28bae", null ],
       [ "Text", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a9dffbf69ffba8bc38bc4e01abf4b1675", null ],
       [ "TextEnabled", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0aa83cd867d8cf60320dd3948eb15f7192", null ],
       [ "TextDisabled", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ae3a96937ea651675ce06873eb8398ac0", null ],

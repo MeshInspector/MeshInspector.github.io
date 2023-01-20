@@ -139,6 +139,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a9359f9da0b131c164d942b1361bd9644"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#a9359f9da0b131c164d942b1361bd9644">region</a> = nullptr</td></tr>
 <tr class="memdesc:a9359f9da0b131c164d942b1361bd9644"><td class="mdescLeft">&#160;</td><td class="mdescRight">Region on mesh to be decimated, it is updated during the operation.  <br /></td></tr>
 <tr class="separator:a9359f9da0b131c164d942b1361bd9644"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e2b45d957cafc32245b3ee812ed80d0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#a4e2b45d957cafc32245b3ee812ed80d0">edgesToCollapse</a> = nullptr</td></tr>
+<tr class="memdesc:a4e2b45d957cafc32245b3ee812ed80d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">If pointer is not null, then only edges from here can be collapsed (and some nearby edges can disappear)  <br /></td></tr>
+<tr class="separator:a4e2b45d957cafc32245b3ee812ed80d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7b755cd5bad251398508eb99a3fe806"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#aa7b755cd5bad251398508eb99a3fe806">touchBdVertices</a> = true</td></tr>
 <tr class="memdesc:aa7b755cd5bad251398508eb99a3fe806"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to allow collapsing edges having at least one vertex on (region) boundary.  <br /></td></tr>
 <tr class="separator:aa7b755cd5bad251398508eb99a3fe806"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,6 +215,22 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio </p>
+
+</div>
+</div>
+<a id="a4e2b45d957cafc32245b3ee812ed80d0" name="a4e2b45d957cafc32245b3ee812ed80d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e2b45d957cafc32245b3ee812ed80d0">&#9670;&#160;</a></span>edgesToCollapse</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a>* MR::DecimateSettings::edgesToCollapse = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>If pointer is not null, then only edges from here can be collapsed (and some nearby edges can disappear) </p>
 
 </div>
 </div>

@@ -29,6 +29,7 @@ var classMR_1_1RibbonMenu =
     [ "getMenuFontPath", "classMR_1_1RibbonMenu.html#ac60708d073d431fe51934044e473b07c", null ],
     [ "getQuickAccessList", "classMR_1_1RibbonMenu.html#ad56a5d187443fd876bd66cde5358329d", null ],
     [ "getQuickAccessMaxSize", "classMR_1_1RibbonMenu.html#a57ad5efd56354485e6a6430681d12d80", null ],
+    [ "getRibbonButtonDrawer", "classMR_1_1RibbonMenu.html#a1fe79691d160fcd5b661af27f7a56a06", null ],
     [ "getSceneItemIconByTypeName_", "classMR_1_1RibbonMenu.html#a08cfddbcdf2067399261696955c7276a", null ],
     [ "getSceneSize", "classMR_1_1RibbonMenu.html#a5904f7f7bd80695bec495d8079cd9e42", null ],
     [ "getTopPanelCurrentHeight", "classMR_1_1RibbonMenu.html#ae0972a03e4e4507e77657b90ec8b08fd", null ],

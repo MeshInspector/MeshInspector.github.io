@@ -15,5 +15,9 @@ var MRPython_8h =
     [ "StreamType", "MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1d", [
       [ "Stdout", "MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101", null ],
       [ "Stderr", "MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af", null ]
-    ] ]
+    ] ],
+    [ "decorateExpected", "MRPython_8h.html#a5fcb58debd182644f22e1ea6eac867b6", null ],
+    [ "decorateExpected", "MRPython_8h.html#abf106ad4f6e3e81079b7698a30f31e20", null ],
+    [ "decorateExpected", "MRPython_8h.html#af838cee46b037638bc67688cfa7c8964", null ],
+    [ "throwExceptionFromExpected", "MRPython_8h.html#a396596cb5cea6d2f8fec7b7838ae2bc5", null ]
 ];

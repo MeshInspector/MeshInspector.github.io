@@ -17,5 +17,6 @@ var MRSurfacePath_8h =
     [ "getSurfacePathsViaVertices", "MRSurfacePath_8h.html#gaaa4dc30756e93cfc4cd2f88758193360", null ],
     [ "surfacePathLength", "MRSurfacePath_8h.html#gacebe3b7371a72e49ddfbabc14fd008b4", null ],
     [ "surfacePathsToContours3f", "MRSurfacePath_8h.html#ga8dbc7e2393ed3d315467293b5b2ba1e2", null ],
-    [ "surfacePathToContour3f", "MRSurfacePath_8h.html#ga874e90d25d0cf437f34834d739fa588c", null ]
+    [ "surfacePathToContour3f", "MRSurfacePath_8h.html#ga874e90d25d0cf437f34834d739fa588c", null ],
+    [ "toString", "MRSurfacePath_8h.html#gac84bc08e1e95706c67d413f315fcf9d7", null ]
 ];

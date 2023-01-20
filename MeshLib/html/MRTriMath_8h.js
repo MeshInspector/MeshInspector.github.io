@@ -1,8 +1,10 @@
 var MRTriMath_8h =
 [
+    [ "area", "MRTriMath_8h.html#a5db5640e628bfb98d046695d1bf378af", null ],
     [ "area", "MRTriMath_8h.html#ad0da44181dd40e142f6e464e276c6c03", null ],
     [ "circumcircleDiameter", "MRTriMath_8h.html#gaba44f8d705d9bc1b98f635bdabe488ae", null ],
     [ "circumcircleDiameterSq", "MRTriMath_8h.html#ga97b0c226492f4561c1a2c13831433bed", null ],
+    [ "dblArea", "MRTriMath_8h.html#ae3bb1f96cee445baf5867b057f5d6b73", null ],
     [ "dblArea", "MRTriMath_8h.html#a8cf43b097e552b51cea5e2fa012eb286", null ],
     [ "dblAreaSq", "MRTriMath_8h.html#af848b7a93acc5e03bfea1f8bcc3ffdb7", null ],
     [ "dihedralAngle", "MRTriMath_8h.html#ga84b1b2dc1c73856fecb9b8617c174b04", null ],

@@ -102,7 +102,8 @@ $(document).ready(function(){initNavTree('MRPython_8h.html',''); initResizable()
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRPython.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -162,6 +163,21 @@ Enumerations</h2></td></tr>
 , <a class="el" href="MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af">Stderr</a>
  }</td></tr>
 <tr class="separator:a8a65141d9ea4bf9d2e2377ed6b888a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a396596cb5cea6d2f8fec7b7838ae2bc5"><td class="memTemplParams" colspan="2">template&lt;typename E &gt; </td></tr>
+<tr class="memitem:a396596cb5cea6d2f8fec7b7838ae2bc5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a396596cb5cea6d2f8fec7b7838ae2bc5">MR::throwExceptionFromExpected</a> (const E &amp;err)</td></tr>
+<tr class="separator:a396596cb5cea6d2f8fec7b7838ae2bc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af838cee46b037638bc67688cfa7c8964"><td class="memTemplParams" colspan="2">template&lt;typename R , typename E , typename... Args&gt; </td></tr>
+<tr class="memitem:af838cee46b037638bc67688cfa7c8964"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af838cee46b037638bc67688cfa7c8964">MR::decorateExpected</a> (std::function&lt; tl::expected&lt; R, E &gt;(Args...)&gt; &amp;&amp;f) -&gt; std::function&lt; R(Args...)&gt;</td></tr>
+<tr class="separator:af838cee46b037638bc67688cfa7c8964"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fcb58debd182644f22e1ea6eac867b6"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:a5fcb58debd182644f22e1ea6eac867b6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5fcb58debd182644f22e1ea6eac867b6">MR::decorateExpected</a> (F &amp;&amp;f)</td></tr>
+<tr class="separator:a5fcb58debd182644f22e1ea6eac867b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf106ad4f6e3e81079b7698a30f31e20"><td class="memTemplParams" colspan="2">template&lt;typename R , typename T , typename... Args&gt; </td></tr>
+<tr class="memitem:abf106ad4f6e3e81079b7698a30f31e20"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#abf106ad4f6e3e81079b7698a30f31e20">MR::decorateExpected</a> (R(T::*memFunction)(Args...))</td></tr>
+<tr class="separator:abf106ad4f6e3e81079b7698a30f31e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a4c2f86ab418002ae88c7465c2804c7f1" name="a4c2f86ab418002ae88c7465c2804c7f1"></a>
@@ -199,7 +215,7 @@ Enumerations</h2></td></tr>
 <div class="line">_Pragma(<span class="stringliteral">&quot;warning(disable:4459)&quot;</span>) \</div>
 <div class="line">    <span class="keyword">static</span> <a class="code hl_struct" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> name##_adder_( #moduleName, __VA_ARGS__ ); \</div>
 <div class="line">_Pragma(<span class="stringliteral">&quot;warning(pop)&quot;</span>)</div>
-<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></div><div class="ttdef"><b>Definition:</b> MRPython.h:125</div></div>
+<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></div><div class="ttdef"><b>Definition:</b> MRPython.h:136</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -244,9 +260,20 @@ Enumerations</h2></td></tr>
 <div class="line">{\</div>
 <div class="line">    <span class="keyword">using </span>expectedType = tl::expected&lt;type,errorType&gt;;\</div>
 <div class="line">    pybind11::class_&lt;expectedType&gt;(m, #name ).\</div>
-<div class="line">        def( <span class="stringliteral">&quot;has_value&quot;</span>, &amp;expectedType::has_value ).\</div>
-<div class="line">        def( <span class="stringliteral">&quot;value&quot;</span>, ( type&amp; ( expectedType::* )( )&amp; )&amp; expectedType::value, pybind11::return_value_policy::reference_internal ).\</div>
-<div class="line">        def( <span class="stringliteral">&quot;error&quot;</span>, ( <span class="keyword">const</span> errorType&amp; ( expectedType::* )( )<span class="keyword">const</span>&amp; )&amp; expectedType::error );\</div>
+<div class="line">        def( <span class="stringliteral">&quot;has_value&quot;</span>, []() \</div>
+<div class="line">        { PyErr_WarnEx(PyExc_DeprecationWarning, <span class="stringliteral">&quot;.has_value is deprecated. Please use &#39;try - except ValueError&#39;&quot;</span>, 1); \</div>
+<div class="line">            <span class="keywordflow">return</span> &amp;expectedType::has_value; \</div>
+<div class="line">        }).\</div>
+<div class="line">        def( <span class="stringliteral">&quot;value&quot;</span>, []() \</div>
+<div class="line">        { \</div>
+<div class="line">            PyErr_WarnEx(PyExc_DeprecationWarning, <span class="stringliteral">&quot;.value is deprecated. Please use &#39;try - except ValueError&#39;&quot;</span>, 1); \</div>
+<div class="line">            return ( type&amp; ( expectedType::* )( )&amp; )&amp; expectedType::value; \</div>
+<div class="line">        }, pybind11::return_value_policy::reference_internal ).\</div>
+<div class="line">        def( <span class="stringliteral">&quot;error&quot;</span>, []() \</div>
+<div class="line">        { \</div>
+<div class="line">            PyErr_WarnEx(PyExc_DeprecationWarning, <span class="stringliteral">&quot;.error is deprecated. Please use &#39;try - except ValueError&#39;&quot;</span>, 1); \</div>
+<div class="line">            return ( <span class="keyword">const</span> errorType&amp; ( expectedType::* )( )<span class="keyword">const</span>&amp; )&amp; expectedType::error; \</div>
+<div class="line">        } );\</div>
 <div class="line">} )</div>
 <div class="ttc" id="aMRPython_8h_html_a4c2f86ab418002ae88c7465c2804c7f1"><div class="ttname"><a href="MRPython_8h.html#a4c2f86ab418002ae88c7465c2804c7f1">MR_ADD_PYTHON_CUSTOM_DEF</a></div><div class="ttdeci">#define MR_ADD_PYTHON_CUSTOM_DEF(moduleName, name,...)</div><div class="ttdef"><b>Definition:</b> MRPython.h:29</div></div>
 </div><!-- fragment -->
@@ -389,7 +416,7 @@ Enumerations</h2></td></tr>
 <div class="line">        f( m );\</div>
 <div class="line">}\</div>
 <div class="line"><span class="keyword">static</span> <a class="code hl_struct" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> moduleName##_init_( #moduleName, &amp;PyInit_##moduleName );</div>
-<div class="ttc" id="aclassMR_1_1PythonExport_html_a8cfca7aa55bd847bc13f0e46985d51cc"><div class="ttname"><a href="classMR_1_1PythonExport.html#a8cfca7aa55bd847bc13f0e46985d51cc">MR::PythonExport::functions</a></div><div class="ttdeci">const std::vector&lt; PythonRegisterFuncton &gt; functions(const std::string &amp;moduleName) const</div><div class="ttdef"><b>Definition:</b> MRPython.h:105</div></div>
+<div class="ttc" id="aclassMR_1_1PythonExport_html_a8cfca7aa55bd847bc13f0e46985d51cc"><div class="ttname"><a href="classMR_1_1PythonExport.html#a8cfca7aa55bd847bc13f0e46985d51cc">MR::PythonExport::functions</a></div><div class="ttdeci">const std::vector&lt; PythonRegisterFuncton &gt; functions(const std::string &amp;moduleName) const</div><div class="ttdef"><b>Definition:</b> MRPython.h:116</div></div>
 <div class="ttc" id="aclassMR_1_1PythonExport_html_ab58dad33304df0cdee3c53d47d161ade"><div class="ttname"><a href="classMR_1_1PythonExport.html#ab58dad33304df0cdee3c53d47d161ade">MR::PythonExport::instance</a></div><div class="ttdeci">static MRMESH_API PythonExport &amp; instance()</div></div>
 </div><!-- fragment -->
 </div>

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['calcbestcoefficients_0',['calcBestCoefficients',['../classMR_1_1QuadricApprox.html#a0cea7a7005e02a997a52d3b6cb12c0e3',1,'MR::QuadricApprox']]],
-  ['calcitemwidth_1',['calcItemWidth',['../classMR_1_1RibbonButtonDrawer.html#afac6061ed12e3a3ec64343447c10fc92',1,'MR::RibbonButtonDrawer']]],
+  ['calcitemwidth_1',['calcItemWidth',['../classMR_1_1RibbonButtonDrawer.html#a873e857624709ee46ec0487169fd1e87',1,'MR::RibbonButtonDrawer']]],
   ['calcorientedarea_2',['calcOrientedArea',['../group__ContourGroup.html#ga63c4064b2101e045fff282197ff239c3',1,'MR::calcOrientedArea(const Contour2&lt; T &gt; &amp;contour)'],['../group__ContourGroup.html#ga26c30f9854727f0939ed682d6715fb95',1,'MR::calcOrientedArea(const Contour3&lt; T &gt; &amp;contour)']]],
   ['calcpathlength_3',['calcPathLength',['../group__EdgePathsGroup.html#ga1792643322d571922601c7286a802f51',1,'MR']]],
   ['calcpathmetric_4',['calcPathMetric',['../group__EdgePathsGroup.html#ga43a4b5c66e820cc90b986a3bfb4c1998',1,'MR']]],

@@ -9,11 +9,11 @@ var MRMeshMetrics_8h =
     [ "getEdgeLengthFillMetric", "MRMeshMetrics_8h.html#ga2bc1cb5bc1aba5dea400fb1ea6cc8a63", null ],
     [ "getEdgeLengthStitchMetric", "MRMeshMetrics_8h.html#ga21177488c5c69bed8eba38677306be0b", null ],
     [ "getMaxDihedralAngleMetric", "MRMeshMetrics_8h.html#gab35620a56c8b1a4eb772c84e4dd9907b", null ],
+    [ "getMinAreaMetric", "MRMeshMetrics_8h.html#gac98959b47ab6fdfe548671b1416e6043", null ],
     [ "getMinTriAngleMetric", "MRMeshMetrics_8h.html#ga338fbef1b80c5730fcdc31a93c980781", null ],
     [ "getParallelPlaneFillMetric", "MRMeshMetrics_8h.html#ga9a4b77571e011a0b74c0a419e76ef332", null ],
     [ "getPlaneFillMetric", "MRMeshMetrics_8h.html#gaa490c6225ad37e5491af1ed61365e774", null ],
     [ "getPlaneNormalizedFillMetric", "MRMeshMetrics_8h.html#ga57ca3e797d9308a5db4461b06d773c01", null ],
-    [ "getSimpleAreaMetric", "MRMeshMetrics_8h.html#ga048bae3a8aa98e40f01e2d51ce41e3fb", null ],
     [ "getUniversalMetric", "MRMeshMetrics_8h.html#ga16a9d70b647d9b9f745ab650b21a975e", null ],
     [ "getVerticalStitchMetric", "MRMeshMetrics_8h.html#gaf5fc59fe1db6fed34f037ff6dad6bc44", null ],
     [ "BadTriangulationMetric", "MRMeshMetrics_8h.html#gac632bf42924389cba000b725ef53d7bc", null ]
