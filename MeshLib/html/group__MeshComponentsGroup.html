@@ -128,6 +128,14 @@ Functions</h2></td></tr>
 <tr class="memitem:ga8f81b4ebe1c3e81477dce9f30b755a5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshComponentsGroup.html#ga8f81b4ebe1c3e81477dce9f30b755a5b">MR::MeshComponents::getComponents</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;seeds, <a class="el" href="group__MeshComponentsGroup.html#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="group__MeshComponentsGroup.html#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>)</td></tr>
 <tr class="memdesc:ga8f81b4ebe1c3e81477dce9f30b755a5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns union of connected components, each of which contains at least one seed face  <br /></td></tr>
 <tr class="separator:ga8f81b4ebe1c3e81477dce9f30b755a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1dde9fd5bbb34f71fea9573d86700df0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshComponentsGroup.html#ga1dde9fd5bbb34f71fea9573d86700df0">MR::MeshComponents::getLargeByAreaComponents</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, float minArea)</td></tr>
+<tr class="memdesc:ga1dde9fd5bbb34f71fea9573d86700df0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the union of connected components, each having at least given area  <br /></td></tr>
+<tr class="separator:ga1dde9fd5bbb34f71fea9573d86700df0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad31af32bf051b509a22ca4ada3ae4bbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshComponentsGroup.html#gad31af32bf051b509a22ca4ada3ae4bbb">MR::MeshComponents::getLargeByAreaComponents</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, <a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; <a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> &gt; &amp;unionFind, float minArea, <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> *bdEdgesBetweenLargeComps=nullptr)</td></tr>
+<tr class="memdesc:gad31af32bf051b509a22ca4ada3ae4bbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">given prepared union-find structure returns the union of connected components, each having at least given area  <br /></td></tr>
+<tr class="separator:gad31af32bf051b509a22ca4ada3ae4bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga25df067346e365dbeb758e19323aa57e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshComponentsGroup.html#ga25df067346e365dbeb758e19323aa57e">MR::MeshComponents::getLargeByAreaSmoothComponents</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, float minArea, float angleFromPlanar, <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> *bdEdgesBetweenLargeComps=nullptr)</td></tr>
+<tr class="separator:ga25df067346e365dbeb758e19323aa57e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae360882572a82620a889fa7315e143f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshComponentsGroup.html#gae360882572a82620a889fa7315e143f9">MR::MeshComponents::getComponentsVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;seeds, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *region=nullptr)</td></tr>
 <tr class="memdesc:gae360882572a82620a889fa7315e143f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns union of connected components, each of which contains at least one seed vert  <br /></td></tr>
 <tr class="separator:gae360882572a82620a889fa7315e143f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,9 +157,13 @@ Functions</h2></td></tr>
 <tr class="memdesc:gac4401b9655de3a844caf1234d8f453cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if all vertices of a mesh connected component are present in selection  <br /></td></tr>
 <tr class="separator:gac4401b9655de3a844caf1234d8f453cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga50e77ff04fab3eb9a318fbd237889692"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; <a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshComponentsGroup.html#ga50e77ff04fab3eb9a318fbd237889692">MR::MeshComponents::getUnionFindStructureFaces</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, <a class="el" href="group__MeshComponentsGroup.html#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="group__MeshComponentsGroup.html#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>)</td></tr>
-<tr class="memdesc:ga50e77ff04fab3eb9a318fbd237889692"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets union-find structure for given mesh part  <br /></td></tr>
+<tr class="memdesc:ga50e77ff04fab3eb9a318fbd237889692"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets union-find structure for faces with different options of face-connectivity  <br /></td></tr>
 <tr class="separator:ga50e77ff04fab3eb9a318fbd237889692"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga876e9dd4779a962b6c777a83a3df017d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; <a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshComponentsGroup.html#ga876e9dd4779a962b6c777a83a3df017d">MR::MeshComponents::getUnionFindStructureFacesPerEdge</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, std::function&lt; bool(<a class="el" href="namespaceMR.html#a65798dca01178b50da3bbd7968fb360e">UndirectedEdgeId</a>)&gt; uniteOverEdge={})</td></tr>
+<tr class="memdesc:ga876e9dd4779a962b6c777a83a3df017d"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets union-find structure for faces with connectivity by shared edge, and optional edge predicate whether to unite components over it  <br /></td></tr>
+<tr class="separator:ga876e9dd4779a962b6c777a83a3df017d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0c25b3e3697cc2efad3f13c664fc87ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshComponentsGroup.html#ga0c25b3e3697cc2efad3f13c664fc87ec">MR::MeshComponents::getUnionFindStructureVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *region=nullptr)</td></tr>
+<tr class="memdesc:ga0c25b3e3697cc2efad3f13c664fc87ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets union-find structure for vertices  <br /></td></tr>
 <tr class="separator:ga0c25b3e3697cc2efad3f13c664fc87ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga03c8c808b4ba34501215afe74c09330f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshComponentsGroup.html#ga03c8c808b4ba34501215afe74c09330f">MR::MeshComponents::getUnionFindStructureVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#afa52f737f1695a9866b22a30a29aefba">EdgeBitSet</a> &amp;edges)</td></tr>
 <tr class="memdesc:ga03c8c808b4ba34501215afe74c09330f"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets union-find structure for vertices, considering connections by given edges only  <br /></td></tr>
@@ -448,6 +460,119 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ga1dde9fd5bbb34f71fea9573d86700df0" name="ga1dde9fd5bbb34f71fea9573d86700df0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1dde9fd5bbb34f71fea9573d86700df0">&#9670;&#160;</a></span>getLargeByAreaComponents() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> MR::MeshComponents::getLargeByAreaComponents </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
+          <td class="paramname"><em>meshPart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>minArea</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns the union of connected components, each having at least given area </p>
+
+</div>
+</div>
+<a id="gad31af32bf051b509a22ca4ada3ae4bbb" name="gad31af32bf051b509a22ca4ada3ae4bbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad31af32bf051b509a22ca4ada3ae4bbb">&#9670;&#160;</a></span>getLargeByAreaComponents() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> MR::MeshComponents::getLargeByAreaComponents </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
+          <td class="paramname"><em>meshPart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; <a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>unionFind</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>minArea</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> *&#160;</td>
+          <td class="paramname"><em>bdEdgesBetweenLargeComps</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>given prepared union-find structure returns the union of connected components, each having at least given area </p>
+
+</div>
+</div>
+<a id="ga25df067346e365dbeb758e19323aa57e" name="ga25df067346e365dbeb758e19323aa57e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga25df067346e365dbeb758e19323aa57e">&#9670;&#160;</a></span>getLargeByAreaSmoothComponents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> MR::MeshComponents::getLargeByAreaSmoothComponents </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
+          <td class="paramname"><em>meshPart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>minArea</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>angleFromPlanar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> *&#160;</td>
+          <td class="paramname"><em>bdEdgesBetweenLargeComps</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the union of connected components, each having at least given area, and any two faces in a connected component have a path along the surface across the edges, where surface does not deviate from plane more than on given angle </p>
+
+</div>
+</div>
 <a id="ga420a272fdf60550a88eee029818a2812" name="ga420a272fdf60550a88eee029818a2812"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga420a272fdf60550a88eee029818a2812">&#9670;&#160;</a></span>getLargestComponent()</h2>
 
@@ -564,7 +689,37 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>gets union-find structure for given mesh part </p>
+<p>gets union-find structure for faces with different options of face-connectivity </p>
+
+</div>
+</div>
+<a id="ga876e9dd4779a962b6c777a83a3df017d" name="ga876e9dd4779a962b6c777a83a3df017d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga876e9dd4779a962b6c777a83a3df017d">&#9670;&#160;</a></span>getUnionFindStructureFacesPerEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; <a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> &gt; MR::MeshComponents::getUnionFindStructureFacesPerEdge </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
+          <td class="paramname"><em>meshPart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; bool(<a class="el" href="namespaceMR.html#a65798dca01178b50da3bbd7968fb360e">UndirectedEdgeId</a>)&gt;&#160;</td>
+          <td class="paramname"><em>uniteOverEdge</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>gets union-find structure for faces with connectivity by shared edge, and optional edge predicate whether to unite components over it </p>
 
 </div>
 </div>
@@ -623,6 +778,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>gets union-find structure for vertices </p>
 
 </div>
 </div>

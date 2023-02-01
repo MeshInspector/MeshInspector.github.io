@@ -4,7 +4,7 @@ var searchData=
   ['tabchangedsignal_1',['TabChangedSignal',['../classMR_1_1RibbonMenu.html#ad03e656d4344c5a4266fa1ae56827d6c',1,'MR::RibbonMenu']]],
   ['tabsgroupsmap_2',['TabsGroupsMap',['../namespaceMR.html#aa67ad485dae41f58b3a25b48cc53ce9b',1,'MR']]],
   ['taskwithmainthreadpostprocessing_3',['TaskWithMainThreadPostProcessing',['../classMR_1_1ProgressBar.html#a096de280a40715b2c4db2b4ccfeb821d',1,'MR::ProgressBar']]],
-  ['threepoints_4',['ThreePoints',['../namespaceMR_1_1MeshBuilder.html#a0e065a70cebc7ee264073abe27652c86',1,'MR::MeshBuilder']]],
+  ['threepoints_4',['ThreePoints',['../namespaceMR.html#a3096169b87f4e1254d077d2a0418ec07',1,'MR']]],
   ['threevertids_5',['ThreeVertIds',['../namespaceMR.html#a9e937625238100e3e8b736126ccf5700',1,'MR']]],
   ['touchsignal_6',['TouchSignal',['../classMR_1_1Viewer.html#a96cbf0a63696ed1b370277034184b276',1,'MR::Viewer']]],
   ['traits_7',['Traits',['../classMR_1_1AABBTreePolyline.html#a7f96860dc1daeee5853645f1fecdeca7',1,'MR::AABBTreePolyline']]],

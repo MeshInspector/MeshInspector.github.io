@@ -7,7 +7,6 @@ var namespaceMR_1_1MeshBuilder =
     [ "Triangle", "structMR_1_1MeshBuilder_1_1Triangle.html", "structMR_1_1MeshBuilder_1_1Triangle" ],
     [ "VertDuplication", "structMR_1_1MeshBuilder_1_1VertDuplication.html", "structMR_1_1MeshBuilder_1_1VertDuplication" ],
     [ "VertexIdentifier", "classMR_1_1MeshBuilder_1_1VertexIdentifier.html", "classMR_1_1MeshBuilder_1_1VertexIdentifier" ],
-    [ "ThreePoints", "namespaceMR_1_1MeshBuilder.html#a0e065a70cebc7ee264073abe27652c86", null ],
     [ "addTriangles", "namespaceMR_1_1MeshBuilder.html#a338de61ac0a911470d50fe0f14af05d5", null ],
     [ "addTriangles", "namespaceMR_1_1MeshBuilder.html#affd71ea7a77ed4c02be34778c0923804", null ],
     [ "duplicateNonManifoldVertices", "namespaceMR_1_1MeshBuilder.html#a490e7688bd91a7df375c29f2bd7633a4", null ],

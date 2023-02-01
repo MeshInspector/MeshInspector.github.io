@@ -115,7 +115,7 @@ Please install vcpkg, and integrate it into Visual Studio (note that vcpkg requi
 <div class="line">$ .\vcpkg integrate install (with admin rights)</div>
 <div class="line">$ cd ..</div>
 </div><!-- fragment --><p> More details here: <a href="https://github.com/microsoft/vcpkg">vcpkg</a></p><ol type="1">
-<li>Copy <b>MeshLib/thirdparty/vcpkg/triplets/x64-windows-meshrus.cmake</b> to <b>vcpkg/triplets</b> folder of vcpkg installation.</li>
+<li>Copy <b>MeshLib/thirdparty/vcpkg/triplets/x64-windows-meshlib.cmake</b> to <b>vcpkg/triplets</b> folder of vcpkg installation.</li>
 <li>Execute install.bat <div class="fragment"><div class="line">$ cd vcpkg # or add vcpcg to PATH</div>
 <div class="line">$ ../MeshLib/thirdparty/install.bat</div>
 </div><!-- fragment --></li>
@@ -130,7 +130,7 @@ Project settings:</p><ol type="1">
 <li><code>Linker -&gt; General -&gt; Additional Library Directories</code> add <code>distribution\install\app\$(Configuration);</code></li>
 <li><code>Linker -&gt; Input -&gt; Additional Dependencies</code> add <code>distribution\install\lib\$(Configuration)\*.lib;</code></li>
 <li>Debug: <code>C/C++ -&gt; Preprocessor -&gt; Preprocessor Defenitions</code> add <code>_ITERATOR_DEBUG_LEVEL=0;</code></li>
-<li>'vcpkg -&gt; Triplet' set <code>x64-windows-meshrus</code></li>
+<li>'vcpkg -&gt; Triplet' set <code>x64-windows-meshlib</code></li>
 </ol>
 <p>Make sure you copy all dlls from <code>distribution\install\app\$(Configuration);</code> to your <code>$(TargetDir)</code> <dl class="section note"><dt>Note</dt><dd>MeshLib distribution has x64 build only </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Distribution is build with ITERATOR_DEBUG_LEVEL=0 in debug so you will need to setup this for your projects </dd></dl>

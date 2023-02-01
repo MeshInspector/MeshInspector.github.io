@@ -118,6 +118,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a03260a91e807aaf97b4ab78d255d34f7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonButtonDrawer.html#a03260a91e807aaf97b4ab78d255d34f7">GradientCheckboxItem</a> (const <a class="el" href="structMR_1_1MenuItemInfo.html">MenuItemInfo</a> &amp;item, bool *value)</td></tr>
+<tr class="memdesc:a03260a91e807aaf97b4ab78d255d34f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw gradient checkbox with icon (for menu item)  <br /></td></tr>
+<tr class="separator:a03260a91e807aaf97b4ab78d255d34f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a873e857624709ee46ec0487169fd1e87"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html">ButtonItemWidth</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonButtonDrawer.html#a873e857624709ee46ec0487169fd1e87">calcItemWidth</a> (const <a class="el" href="structMR_1_1MenuItemInfo.html">MenuItemInfo</a> &amp;item, <a class="el" href="structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785ae">DrawButtonParams::SizeType</a> sizeType) const</td></tr>
 <tr class="separator:a873e857624709ee46ec0487169fd1e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88e9dab920cc65df3ceeb3332d6508e3"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonButtonDrawer.html#a88e9dab920cc65df3ceeb3332d6508e3">drawButtonItem</a> (const <a class="el" href="structMR_1_1MenuItemInfo.html">MenuItemInfo</a> &amp;item, const <a class="el" href="structMR_1_1DrawButtonParams.html">DrawButtonParams</a> &amp;params) const</td></tr>
@@ -168,9 +171,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aab22fd687a0c3b25ddb71531706aee70"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonButtonDrawer.html#aab22fd687a0c3b25ddb71531706aee70">GradientRadioButton</a> (const char *label, int *v, int valButton)</td></tr>
 <tr class="memdesc:aab22fd687a0c3b25ddb71531706aee70"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw gradient radio button  <br /></td></tr>
 <tr class="separator:aab22fd687a0c3b25ddb71531706aee70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a341cd3504010c19eac65243f1a94a049"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonButtonDrawer.html#a341cd3504010c19eac65243f1a94a049">CustomCombo</a> (const char *label, int *v, const std::vector&lt; std::string &gt; &amp;options, bool showPreview=true, const std::vector&lt; std::string &gt; &amp;tooltips={})</td></tr>
-<tr class="memdesc:a341cd3504010c19eac65243f1a94a049"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw custom combo box  <br /></td></tr>
-<tr class="separator:a341cd3504010c19eac65243f1a94a049"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add48e1bfa52d49626c865ca01ef356b4"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonButtonDrawer.html#add48e1bfa52d49626c865ca01ef356b4">CustomCombo</a> (const char *label, int *v, const std::vector&lt; std::string &gt; &amp;options, bool showPreview=true, const std::vector&lt; std::string &gt; &amp;tooltips={}, const std::string &amp;defaultText=&quot;Not selected&quot;)</td></tr>
+<tr class="memdesc:add48e1bfa52d49626c865ca01ef356b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw custom combo box  <br /></td></tr>
+<tr class="separator:add48e1bfa52d49626c865ca01ef356b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5b683f03b5e974884ae287c61dfb12b"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonButtonDrawer.html#ae5b683f03b5e974884ae287c61dfb12b">CustomCollapsingHeader</a> (const char *label, ImGuiTreeNodeFlags flags=0)</td></tr>
 <tr class="memdesc:ae5b683f03b5e974884ae287c61dfb12b"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw custom collapsing header  <br /></td></tr>
 <tr class="separator:ae5b683f03b5e974884ae287c61dfb12b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -244,8 +247,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a341cd3504010c19eac65243f1a94a049" name="a341cd3504010c19eac65243f1a94a049"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a341cd3504010c19eac65243f1a94a049">&#9670;&#160;</a></span>CustomCombo()</h2>
+<a id="add48e1bfa52d49626c865ca01ef356b4" name="add48e1bfa52d49626c865ca01ef356b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add48e1bfa52d49626c865ca01ef356b4">&#9670;&#160;</a></span>CustomCombo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -281,7 +284,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
-          <td class="paramname"><em>tooltips</em> = <code>{}</code>&#160;</td>
+          <td class="paramname"><em>tooltips</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>defaultText</em> = <code>&quot;Not&#160;selected&quot;</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -632,6 +641,36 @@ template&lt;typename Getter , typename Setter &gt; </div>
 </div><div class="memdoc">
 
 <p>draw gradient checkbox </p>
+
+</div>
+</div>
+<a id="a03260a91e807aaf97b4ab78d255d34f7" name="a03260a91e807aaf97b4ab78d255d34f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03260a91e807aaf97b4ab78d255d34f7">&#9670;&#160;</a></span>GradientCheckboxItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::RibbonButtonDrawer::GradientCheckboxItem </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MenuItemInfo.html">MenuItemInfo</a> &amp;&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>draw gradient checkbox with icon (for menu item) </p>
 
 </div>
 </div>

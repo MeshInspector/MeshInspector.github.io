@@ -8,11 +8,12 @@ var searchData=
   ['uniformscaling_5',['UniformScaling',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8ae3086e312b06e7d525b05c5fe88c3454',1,'MR::ObjectTransformWidget']]],
   ['union_6',['Union',['../group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdaaef12e903e606a4895a16b393bfdec8c',1,'MR']]],
   ['unit_7',['Unit',['../classMR_1_1Laplacian.html#a40fcda9e6b8208959a3204e274784b18a19c562a36aeb455d09534f93b4f5236f',1,'MR::Laplacian']]],
-  ['unselectedobjectdistancemap_8',['UnselectedObjectDistanceMap',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aad2861ea5be4d6def67d2bf7855296343',1,'MR::SceneColors']]],
-  ['unselectedobjectlines_9',['UnselectedObjectLines',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa67751013dcf075c12bcc178994f75a36',1,'MR::SceneColors']]],
-  ['unselectedobjectmesh_10',['UnselectedObjectMesh',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa736ebf30fa5a88ee5cbede49aecbc3ef',1,'MR::SceneColors']]],
-  ['unselectedobjectpoints_11',['UnselectedObjectPoints',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa4cd917c98a34d56b402a2c2e3e6e83cb',1,'MR::SceneColors']]],
-  ['unselectedobjectvoxels_12',['UnselectedObjectVoxels',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa815ab0979a59272abd51680de3a55ab0',1,'MR::SceneColors']]],
-  ['unsigned_13',['Unsigned',['../structMR_1_1MeshToVolumeParams.html#a47dacbc5ca80bd9591ffea69c43b022eaa1a914735b205424ba6c40b85528d78a',1,'MR::MeshToVolumeParams']]],
-  ['user_14',['User',['../classMR_1_1ColorTheme.html#ad14d75ef685e439c80487ba1d4c41ecaa8f9bfe9d1345237cb3b2b205864da075',1,'MR::ColorTheme']]]
+  ['unknown_8',['Unknown',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529ba88183b946cc5f0e8c96b2e66e1c74a7e',1,'MR::VoxelsLoad::RawParameters']]],
+  ['unselectedobjectdistancemap_9',['UnselectedObjectDistanceMap',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aad2861ea5be4d6def67d2bf7855296343',1,'MR::SceneColors']]],
+  ['unselectedobjectlines_10',['UnselectedObjectLines',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa67751013dcf075c12bcc178994f75a36',1,'MR::SceneColors']]],
+  ['unselectedobjectmesh_11',['UnselectedObjectMesh',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa736ebf30fa5a88ee5cbede49aecbc3ef',1,'MR::SceneColors']]],
+  ['unselectedobjectpoints_12',['UnselectedObjectPoints',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa4cd917c98a34d56b402a2c2e3e6e83cb',1,'MR::SceneColors']]],
+  ['unselectedobjectvoxels_13',['UnselectedObjectVoxels',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa815ab0979a59272abd51680de3a55ab0',1,'MR::SceneColors']]],
+  ['unsigned_14',['Unsigned',['../structMR_1_1MeshToSimpleVolumeParams.html#ab15af59c6852f96228d5e78b00cdba8cac6831534824fbde60268448cc711c6fc',1,'MR::MeshToSimpleVolumeParams::Unsigned()'],['../structMR_1_1MeshToVolumeParams.html#a47dacbc5ca80bd9591ffea69c43b022eaa1a914735b205424ba6c40b85528d78a',1,'MR::MeshToVolumeParams::Unsigned()']]],
+  ['user_15',['User',['../classMR_1_1ColorTheme.html#ad14d75ef685e439c80487ba1d4c41ecaa8f9bfe9d1345237cb3b2b205864da075',1,'MR::ColorTheme']]]
 ];

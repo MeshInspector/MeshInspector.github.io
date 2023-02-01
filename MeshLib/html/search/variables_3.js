@@ -15,7 +15,7 @@ var searchData=
   ['dialogiscollapsed_5f_12',['dialogIsCollapsed_',['../classMR_1_1StateBasePlugin.html#a55b362aee5989fe359aadd33c9be78b4',1,'MR::StateBasePlugin']]],
   ['dialogisopen_5f_13',['dialogIsOpen_',['../classMR_1_1StateBasePlugin.html#a1d97f71a0f325fbe29b0bbec3e564204',1,'MR::StateBasePlugin']]],
   ['dialogpositionfixed_14',['dialogPositionFixed',['../structMR_1_1RibbonMenu_1_1DialogItemPtr.html#a81cacb5c7aa2d35d0b873c9a48145777',1,'MR::RibbonMenu::DialogItemPtr']]],
-  ['dimensions_15',['dimensions',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#ab1db96ec60477ec788bfe5aeb3596da2',1,'MR::VoxelsLoad::RawParameters']]],
+  ['dimensions_15',['dimensions',['../structMR_1_1MeshToSimpleVolumeParams.html#a0d4f7e4478454002578eccb55bbcd4a2',1,'MR::MeshToSimpleVolumeParams::dimensions()'],['../structMR_1_1VoxelsLoad_1_1RawParameters.html#ab1db96ec60477ec788bfe5aeb3596da2',1,'MR::VoxelsLoad::RawParameters::dimensions()']]],
   ['dims_16',['dims',['../structMR_1_1VoxelsVolume.html#aec69290a92637368e463e39fadfea701',1,'MR::VoxelsVolume']]],
   ['dims_5f_17',['dims_',['../classMR_1_1RectIndexer.html#ab4a6c53f72e0260996768505672d9052',1,'MR::RectIndexer::dims_()'],['../group__VoxelGroup.html#gaa1c0e0f0f1418ecbd002c094e0d42e13',1,'MR::VolumeIndexer::dims_()']]],
   ['dir_18',['dir',['../structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#aafca990d1d688a3f2f9ce8ba0a67a3c5',1,'MR::VoxelsLoad::LoadingTiffSettings']]],

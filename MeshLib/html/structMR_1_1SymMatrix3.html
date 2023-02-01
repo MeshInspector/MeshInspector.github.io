@@ -146,8 +146,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aceb75dc50186b2d1ed1f0f7a98c6123b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SymMatrix3.html#aceb75dc50186b2d1ed1f0f7a98c6123b">eigenvector</a> (T eigenvalue) const</td></tr>
 <tr class="memdesc:aceb75dc50186b2d1ed1f0f7a98c6123b"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes not-unit eigenvector corresponding to a not-repeating eigenvalue  <br /></td></tr>
 <tr class="separator:aceb75dc50186b2d1ed1f0f7a98c6123b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54fe5ff551ab5be39b5edcbdd6b1aea0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SymMatrix3.html#a54fe5ff551ab5be39b5edcbdd6b1aea0">solve</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b) const</td></tr>
-<tr class="separator:a54fe5ff551ab5be39b5edcbdd6b1aea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a433b05f413f611759361f97ca34d4d15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SymMatrix3.html#a433b05f413f611759361f97ca34d4d15">solve</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, T tol=std::numeric_limits&lt; T &gt;::epsilon()) const</td></tr>
+<tr class="separator:a433b05f413f611759361f97ca34d4d15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -562,8 +562,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a54fe5ff551ab5be39b5edcbdd6b1aea0" name="a54fe5ff551ab5be39b5edcbdd6b1aea0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54fe5ff551ab5be39b5edcbdd6b1aea0">&#9670;&#160;</a></span>solve()</h2>
+<a id="a433b05f413f611759361f97ca34d4d15" name="a433b05f413f611759361f97ca34d4d15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a433b05f413f611759361f97ca34d4d15">&#9670;&#160;</a></span>solve()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -574,8 +574,18 @@ template&lt;typename T &gt; </div>
           <td class="memname"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; <a class="el" href="structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt; T &gt;::solve </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>b</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>tol</em> = <code>std::numeric_limits&lt;&#160;T&#160;&gt;::epsilon()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">

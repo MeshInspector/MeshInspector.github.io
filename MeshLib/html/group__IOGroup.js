@@ -37,6 +37,8 @@ var group__IOGroup =
     [ "MR::VoxelsSave::saveAllSlicesToImage", "group__IOGroup.html#gaa9aeede267fba03c6e62e1afd2b06473", null ],
     [ "MR::VoxelsSave::saveRaw", "group__IOGroup.html#gac5ffa519200d6d14143d0aaffa7f96ad", null ],
     [ "MR::VoxelsSave::saveSliceToImage", "group__IOGroup.html#ga3b13418997536f70a56cb66b46e108fe", null ],
+    [ "MR::VoxelsSave::toAnySupportedFormat", "group__IOGroup.html#ga72f0ad08ef9c23d763c6b86a89914e42", null ],
+    [ "MR::VoxelsSave::toVdb", "group__IOGroup.html#ga6bec56b58e3f9e53d95a3a66bd133100", null ],
     [ "MR::PointsLoad::Filters", "group__IOGroup.html#ga78bba5f59da26b22b8f18e15440cfccd", null ],
     [ "MR::VoxelsSave::Filters", "group__IOGroup.html#gacac28aabd07c32301c3074201c91ec04", null ]
 ];

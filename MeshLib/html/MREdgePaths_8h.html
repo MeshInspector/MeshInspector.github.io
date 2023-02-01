@@ -100,15 +100,14 @@ $(document).ready(function(){initNavTree('MREdgePaths_8h.html',''); initResizabl
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MREdgePaths.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRId_8h_source.html">MRId.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MREdgeMetric_8h_source.html">MREdgeMetric.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
 <code>#include &lt;cfloat&gt;</code><br />
-<code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="MREdgePaths_8h_source.html">Go to the source code of this file.</a></p>
@@ -123,11 +122,6 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceMR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:gad2c254a94a3837629d1540a9a1aeda9f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">MR::EdgeMetric</a> = std::function&lt; float(EdgeId)&gt;</td></tr>
-<tr class="separator:gad2c254a94a3837629d1540a9a1aeda9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga7a492156b75bdd4b9dd72acc28ef2b3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EdgePathsGroup.html#ga7a492156b75bdd4b9dd72acc28ef2b3e">MR::isEdgePath</a> (const MeshTopology &amp;topology, const std::vector&lt; EdgeId &gt; &amp;edges)</td></tr>
@@ -141,17 +135,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga0f7d06cbd7188f3681347a12699a9cba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EdgePathsGroup.html#ga0f7d06cbd7188f3681347a12699a9cba">MR::reverse</a> (std::vector&lt; EdgePath &gt; &amp;paths)</td></tr>
 <tr class="memdesc:ga0f7d06cbd7188f3681347a12699a9cba"><td class="mdescLeft">&#160;</td><td class="mdescRight">reverse every path in the vector  <br /></td></tr>
 <tr class="separator:ga0f7d06cbd7188f3681347a12699a9cba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadd9e6c77ae3fdf22797b82342a1ee1f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeMetric&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EdgePathsGroup.html#gadd9e6c77ae3fdf22797b82342a1ee1f3">MR::identityMetric</a> ()</td></tr>
-<tr class="memdesc:gadd9e6c77ae3fdf22797b82342a1ee1f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">metric returning 1 for every edge  <br /></td></tr>
-<tr class="separator:gadd9e6c77ae3fdf22797b82342a1ee1f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab0c6bfd4f01e28a6c034a2195143e410"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeMetric&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EdgePathsGroup.html#gab0c6bfd4f01e28a6c034a2195143e410">MR::edgeLengthMetric</a> (const Mesh &amp;mesh)</td></tr>
-<tr class="memdesc:gab0c6bfd4f01e28a6c034a2195143e410"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns edge's length as a metric  <br /></td></tr>
-<tr class="separator:gab0c6bfd4f01e28a6c034a2195143e410"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga215f966d7ad4e48210e0de178cb43a06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeMetric&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EdgePathsGroup.html#ga215f966d7ad4e48210e0de178cb43a06">MR::edgeCurvMetric</a> (const Mesh &amp;mesh, float angleSinFactor=2, float angleSinForBoundary=0)</td></tr>
-<tr class="separator:ga215f966d7ad4e48210e0de178cb43a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga92e1133b735a94c3b261a754eda1d12a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeMetric&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EdgePathsGroup.html#ga92e1133b735a94c3b261a754eda1d12a">MR::edgeTableMetric</a> (const MeshTopology &amp;topology, const EdgeMetric &amp;metric)</td></tr>
-<tr class="memdesc:ga92e1133b735a94c3b261a754eda1d12a"><td class="mdescLeft">&#160;</td><td class="mdescRight">pre-computes the metric for all mesh edges to quickly return it later for any edge  <br /></td></tr>
-<tr class="separator:ga92e1133b735a94c3b261a754eda1d12a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga43a4b5c66e820cc90b986a3bfb4c1998"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EdgePathsGroup.html#ga43a4b5c66e820cc90b986a3bfb4c1998">MR::calcPathMetric</a> (const EdgePath &amp;path, EdgeMetric metric)</td></tr>
 <tr class="memdesc:ga43a4b5c66e820cc90b986a3bfb4c1998"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes summed metric of all edges in the path  <br /></td></tr>
 <tr class="separator:ga43a4b5c66e820cc90b986a3bfb4c1998"><td class="memSeparator" colspan="2">&#160;</td></tr>

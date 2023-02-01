@@ -196,6 +196,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga76bb7958ef2900006f29b9a81fc6e8f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1ObjectDistanceMap.html">ObjectDistanceMap</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga76bb7958ef2900006f29b9a81fc6e8f4">MR::makeObjectDistanceMapFromFile</a> (const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
 <tr class="memdesc:ga76bb7958ef2900006f29b9a81fc6e8f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads distance map from given file in new object  <br /></td></tr>
 <tr class="separator:ga76bb7958ef2900006f29b9a81fc6e8f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1b8f58d6a7739751afc5ad6581cd0330"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga1b8f58d6a7739751afc5ad6581cd0330">MR::makeObjectVoxelsFromFile</a> (const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="memdesc:ga1b8f58d6a7739751afc5ad6581cd0330"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads voxels from given file in new object  <br /></td></tr>
+<tr class="separator:ga1b8f58d6a7739751afc5ad6581cd0330"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gafadea3b2027ddc499c99f290196216dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#gafadea3b2027ddc499c99f290196216dd">MR::loadObjectFromFile</a> (const std::filesystem::path &amp;filename, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
 <tr class="memdesc:gafadea3b2027ddc499c99f290196216dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">load object (mesh, lines, points, voxels or scene) from file  <br /></td></tr>
 <tr class="separator:gafadea3b2027ddc499c99f290196216dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -721,6 +724,36 @@ template&lt;typename ObjectT  = Object&gt; </div>
 </div><div class="memdoc">
 
 <p>loads meshes from given folder in new container object </p>
+
+</div>
+</div>
+<a id="ga1b8f58d6a7739751afc5ad6581cd0330" name="ga1b8f58d6a7739751afc5ad6581cd0330"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1b8f58d6a7739751afc5ad6581cd0330">&#9670;&#160;</a></span>makeObjectVoxelsFromFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a>, std::string &gt; MR::makeObjectVoxelsFromFile </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>loads voxels from given file in new object </p>
 
 </div>
 </div>

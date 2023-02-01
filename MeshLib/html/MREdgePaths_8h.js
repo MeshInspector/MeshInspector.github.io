@@ -1,6 +1,5 @@
 var MREdgePaths_8h =
 [
-    [ "EdgeMetric", "MREdgePaths_8h.html#gad2c254a94a3837629d1540a9a1aeda9f", null ],
     [ "addLeftBand", "MREdgePaths_8h.html#gab0db7342678536825cb6b3bff51d832d", null ],
     [ "buildShortestPath", "MREdgePaths_8h.html#gadb0985d5186608aa8786111eead3c759", null ],
     [ "buildShortestPath", "MREdgePaths_8h.html#ga4ef10460976331354fd6633529b31b3f", null ],
@@ -20,9 +19,6 @@ var MREdgePaths_8h =
     [ "dilateRegionByMetric", "MREdgePaths_8h.html#ga66d97db02721f28995b008655b007858", null ],
     [ "dilateRegionByMetric", "MREdgePaths_8h.html#ga171493fcbadfb73a4d6a78c595e3bf3f", null ],
     [ "dilateRegionByMetric", "MREdgePaths_8h.html#ga82a5afb8de3902550a10da9e2444b423", null ],
-    [ "edgeCurvMetric", "MREdgePaths_8h.html#ga215f966d7ad4e48210e0de178cb43a06", null ],
-    [ "edgeLengthMetric", "MREdgePaths_8h.html#gab0c6bfd4f01e28a6c034a2195143e410", null ],
-    [ "edgeTableMetric", "MREdgePaths_8h.html#ga92e1133b735a94c3b261a754eda1d12a", null ],
     [ "erodeRegion", "MREdgePaths_8h.html#gab00d0047df6c6bddad2ce44ad87eecb0", null ],
     [ "erodeRegion", "MREdgePaths_8h.html#ga49b66a35e3e4f02f4034d338471be491", null ],
     [ "erodeRegion", "MREdgePaths_8h.html#ga8cc6869db37a7f25eab14ffe0f83f4e8", null ],
@@ -35,7 +31,6 @@ var MREdgePaths_8h =
     [ "getPathEdgesInPlane", "MREdgePaths_8h.html#ga0fe533dcbd844a89077b18ebd4dda8fe", null ],
     [ "getPathPlaneIntersections", "MREdgePaths_8h.html#ga6e5b3c68fdd285e2d6000b6a83bf9ecd", null ],
     [ "getVertexOrdering", "MREdgePaths_8h.html#ga6fdee8dc184f919e5ad6ef399faf48ba", null ],
-    [ "identityMetric", "MREdgePaths_8h.html#gadd9e6c77ae3fdf22797b82342a1ee1f3", null ],
     [ "isEdgeLoop", "MREdgePaths_8h.html#gaf669cb8f71c0282ec6c839e2e481dc64", null ],
     [ "isEdgePath", "MREdgePaths_8h.html#ga7a492156b75bdd4b9dd72acc28ef2b3e", null ],
     [ "reverse", "MREdgePaths_8h.html#ga5ae89c778fe01228f20aa52aa2e160d0", null ],

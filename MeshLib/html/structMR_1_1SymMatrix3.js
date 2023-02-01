@@ -12,7 +12,7 @@ var structMR_1_1SymMatrix3 =
     [ "operator+=", "structMR_1_1SymMatrix3.html#a7ea2ac738a97ccd6c1480da40d655c52", null ],
     [ "operator-=", "structMR_1_1SymMatrix3.html#abbcd8728baa9b50327af2ffcb090bc0a", null ],
     [ "operator/=", "structMR_1_1SymMatrix3.html#afb6ed3ffe4bdda5d6267cc44ef816e9c", null ],
-    [ "solve", "structMR_1_1SymMatrix3.html#a54fe5ff551ab5be39b5edcbdd6b1aea0", null ],
+    [ "solve", "structMR_1_1SymMatrix3.html#a433b05f413f611759361f97ca34d4d15", null ],
     [ "trace", "structMR_1_1SymMatrix3.html#ab0c7c7d05d0592ff42fd599103bd5143", null ],
     [ "operator*", "structMR_1_1SymMatrix3.html#afc689ce07450f684b99051e555894ee7", null ],
     [ "outerSquare", "structMR_1_1SymMatrix3.html#a607435c965ee7d4fabb2f1a0c7b779f2", null ],

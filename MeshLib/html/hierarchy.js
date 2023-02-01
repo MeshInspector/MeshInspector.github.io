@@ -22,6 +22,10 @@ var hierarchy =
       [ "MR::ImmediateGL::TriRenderParams", "structMR_1_1ImmediateGL_1_1TriRenderParams.html", null ],
       [ "MR::ViewportGL::RenderParams", "structMR_1_1ViewportGL_1_1RenderParams.html", null ]
     ] ],
+    [ "MR::BaseVolumeConversionParams", "structMR_1_1BaseVolumeConversionParams.html", [
+      [ "MR::MeshToSimpleVolumeParams", "structMR_1_1MeshToSimpleVolumeParams.html", null ],
+      [ "MR::VdbVolumeToMeshParams", "structMR_1_1VdbVolumeToMeshParams.html", null ]
+    ] ],
     [ "MR::BindVertexAttribArraySettings", "structMR_1_1BindVertexAttribArraySettings.html", null ],
     [ "MR::BMap< T, I >", "structMR_1_1BMap.html", null ],
     [ "MR::BMap< FaceId, FaceId >", "structMR_1_1BMap.html", null ],
@@ -127,7 +131,6 @@ var hierarchy =
         [ "MR::TaggedBitSet< T >", "classMR_1_1TaggedBitSet.html", null ]
       ] ]
     ] ],
-    [ "MR::EdgeIdAndCoord", "structMR_1_1EdgeIdAndCoord.html", null ],
     [ "MR::EdgePathsBuilderT< MetricToPenalty >", "classMR_1_1EdgePathsBuilderT.html", null ],
     [ "MR::EdgePathsBuilderT< MetricToAStarPenalty >", "classMR_1_1EdgePathsBuilderT.html", [
       [ "MR::EdgePathsAStarBuilder", "classMR_1_1EdgePathsAStarBuilder.html", null ]
@@ -404,6 +407,7 @@ var hierarchy =
     [ "MR::ViewportGL::PickResult", "structMR_1_1ViewportGL_1_1PickResult.html", null ],
     [ "MR::Plane3< T >", "structMR_1_1Plane3.html", null ],
     [ "MR::Plane3< float >", "structMR_1_1Plane3.html", null ],
+    [ "MR::PlaneAccumulator", "classMR_1_1PlaneAccumulator.html", null ],
     [ "MR::AABBTreePoints::Point", "structMR_1_1AABBTreePoints_1_1Point.html", null ],
     [ "MR::PointAccumulator", "classMR_1_1PointAccumulator.html", null ],
     [ "MR::PointCloud", "structMR_1_1PointCloud.html", null ],
@@ -475,6 +479,7 @@ var hierarchy =
     [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", null ],
     [ "MR::GlTexture2::Settings", "structMR_1_1GlTexture2_1_1Settings.html", null ],
     [ "MR::ShadowsGL", "classMR_1_1ShadowsGL.html", null ],
+    [ "MR::SharpenMarchingCubesMeshSettings", "structMR_1_1SharpenMarchingCubesMeshSettings.html", null ],
     [ "MR::ShortcutManager::ShortcutCommand", "structMR_1_1ShortcutManager_1_1ShortcutCommand.html", null ],
     [ "MR::ShortcutManager::ShortcutKey", "structMR_1_1ShortcutManager_1_1ShortcutKey.html", null ],
     [ "MR::ShortcutManager", "classMR_1_1ShortcutManager.html", null ],
@@ -503,6 +508,7 @@ var hierarchy =
     ] ],
     [ "MR::SymMatrix2< T >", "structMR_1_1SymMatrix2.html", null ],
     [ "MR::SymMatrix3< T >", "structMR_1_1SymMatrix3.html", null ],
+    [ "MR::SymMatrix3< double >", "structMR_1_1SymMatrix3.html", null ],
     [ "T", null, [
       [ "MR::NoDefInit< T >", "structMR_1_1NoDefInit.html", null ]
     ] ],
@@ -552,6 +558,7 @@ var hierarchy =
     [ "MR::Vector< int, I >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< int, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::Color, MR::Id >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< MR::Id, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::Id< EdgeTag >, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::QuadraticForm, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::QuadraticForm< V >, MR::Id >", "classMR_1_1Vector.html", null ],
