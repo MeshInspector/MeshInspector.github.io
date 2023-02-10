@@ -20,7 +20,7 @@ var searchData=
   ['othermesh_17',['otherMesh',['../structMR_1_1SortIntersectionsData.html#ac190f44f37a1e2b9ece5d869fe02015d',1,'MR::SortIntersectionsData']]],
   ['outclosestedges_18',['outClosestEdges',['../structMR_1_1ContoursDistanceMapOptions.html#ab4eb6c6f113595f62886ed7e689760ae',1,'MR::ContoursDistanceMapOptions']]],
   ['outnewfaces_19',['outNewFaces',['../structMR_1_1FillHoleParams.html#a1789bd574d007a370fe6164d4f5ca7c4',1,'MR::FillHoleParams::outNewFaces()'],['../structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66',1,'MR::StitchHolesParams::outNewFaces()']]],
-  ['outsharpedges_20',['outSharpEdges',['../structMR_1_1SharpenMarchingCubesMeshSettings.html#a0f708a94c94e32aa8001fe2cf18960d4',1,'MR::SharpenMarchingCubesMeshSettings']]],
+  ['outsharpedges_20',['outSharpEdges',['../structMR_1_1SharpOffsetParameters.html#a662db16653ae12258fec109e1a4b4357',1,'MR::SharpOffsetParameters::outSharpEdges()'],['../structMR_1_1SharpenMarchingCubesMeshSettings.html#a0f708a94c94e32aa8001fe2cf18960d4',1,'MR::SharpenMarchingCubesMeshSettings::outSharpEdges()']]],
   ['outvoxelperfacemap_21',['outVoxelPerFaceMap',['../structMR_1_1VdbVolumeToMeshParams.html#a47f9386ca125f022e5fec777833a72ad',1,'MR::VdbVolumeToMeshParams']]],
   ['outxf_22',['outXf',['../structMR_1_1MeshToVolumeParams.html#a216b138081139f4900c546a416a39e0c',1,'MR::MeshToVolumeParams']]]
 ];

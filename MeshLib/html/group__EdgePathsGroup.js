@@ -64,6 +64,8 @@ var group__EdgePathsGroup =
     [ "MR::dilateRegionByMetric", "group__EdgePathsGroup.html#ga66d97db02721f28995b008655b007858", null ],
     [ "MR::dilateRegionByMetric", "group__EdgePathsGroup.html#ga171493fcbadfb73a4d6a78c595e3bf3f", null ],
     [ "MR::dilateRegionByMetric", "group__EdgePathsGroup.html#ga82a5afb8de3902550a10da9e2444b423", null ],
+    [ "MR::discreteAbsMeanCurvatureMetric", "group__EdgePathsGroup.html#gae4866fbd4ec0921d6eed211cbef0e8aa", null ],
+    [ "MR::discreteMinusAbsMeanCurvatureMetric", "group__EdgePathsGroup.html#ga8e15c502056407a36c6d495799f0aa7d", null ],
     [ "MR::edgeCurvMetric", "group__EdgePathsGroup.html#ga215f966d7ad4e48210e0de178cb43a06", null ],
     [ "MR::edgeLengthMetric", "group__EdgePathsGroup.html#gab0c6bfd4f01e28a6c034a2195143e410", null ],
     [ "MR::EdgePathsBuilderT::EdgePathsBuilderT", "group__EdgePathsGroup.html#gaa58748ee3e1ceb34e2ff8b8d2ab58d6b", null ],

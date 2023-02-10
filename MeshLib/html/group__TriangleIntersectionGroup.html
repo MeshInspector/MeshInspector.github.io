@@ -122,6 +122,10 @@ Functions</h2></td></tr>
 <tr class="memitem:gad2f32d1f571dde6434e36df0a4357290"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gad2f32d1f571dde6434e36df0a4357290"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__TriangleIntersectionGroup.html#gad2f32d1f571dde6434e36df0a4357290">MR::doTrianglesIntersectExt</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;d, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;e, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;f)</td></tr>
 <tr class="separator:gad2f32d1f571dde6434e36df0a4357290"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab7bfc61216e86c7e985c25378fcc7bdb"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gab7bfc61216e86c7e985c25378fcc7bdb"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__TriangleIntersectionGroup.html#gab7bfc61216e86c7e985c25378fcc7bdb">MR::doTriangleLineIntersect</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;d, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;e)</td></tr>
+<tr class="memdesc:gab7bfc61216e86c7e985c25378fcc7bdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether triangle ABC and infinite line DE intersect  <br /></td></tr>
+<tr class="separator:gab7bfc61216e86c7e985c25378fcc7bdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gacaf1c69550575145e170779a5d620b42"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gacaf1c69550575145e170779a5d620b42"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__TriangleIntersectionGroup.html#gacaf1c69550575145e170779a5d620b42">MR::doTriangleSegmentIntersect</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;d, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;e)</td></tr>
 <tr class="memdesc:gacaf1c69550575145e170779a5d620b42"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether triangle ABC and segment DE intersect  <br /></td></tr>
@@ -203,6 +207,56 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>returns true if a plane containing edge XY separates point Z from triangle UVW </p>
+
+</div>
+</div>
+<a id="gab7bfc61216e86c7e985c25378fcc7bdb" name="gab7bfc61216e86c7e985c25378fcc7bdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab7bfc61216e86c7e985c25378fcc7bdb">&#9670;&#160;</a></span>doTriangleLineIntersect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::doTriangleLineIntersect </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>checks whether triangle ABC and infinite line DE intersect </p>
 
 </div>
 </div>

@@ -26,6 +26,7 @@ var group__SerializerGroup =
     [ "MR::deserializeJsonValue", "group__SerializerGroup.html#ga6cc9fe6640d9e4989786ccdab295e928", null ],
     [ "MR::deserializeObjectTree", "group__SerializerGroup.html#gaf9ad9bef4c35be31d4c379ddff6f117f", null ],
     [ "MR::deserializeObjectTreeFromFolder", "group__SerializerGroup.html#ga35ad2510a96f5b22a7b3d7db6e8e67ae", null ],
+    [ "MR::deserializeViaVerticesFromJson", "group__SerializerGroup.html#gab74247c70d34bac9da9d1e8c421b0703", null ],
     [ "MR::serializeMesh", "group__SerializerGroup.html#ga92bd915b5df61616c812b9778248831f", null ],
     [ "MR::serializeObjectTree", "group__SerializerGroup.html#ga6c00d4dba91cd75cd47256ac88827ce5", null ],
     [ "MR::serializeToJson", "group__SerializerGroup.html#ga810f72ff4bfd3f308bf159660074e79c", null ],
@@ -42,5 +43,6 @@ var group__SerializerGroup =
     [ "MR::serializeToJson", "group__SerializerGroup.html#ga01084ea4b91576f192aeb68017e8e45e", null ],
     [ "MR::serializeToJson", "group__SerializerGroup.html#ga73da1f89ff79644868f29b66a89aa3ef", null ],
     [ "MR::serializeToJson", "group__SerializerGroup.html#ga2460b57ac19911dbba07d61927a47ece", null ],
+    [ "MR::serializeViaVerticesToJson", "group__SerializerGroup.html#ga890eacf2c6391cbf6dbb98c6bbb0fa28", null ],
     [ "MR::SceneFileFilters", "group__SerializerGroup.html#ga23013624dd00042658c503443e5d3ffb", null ]
 ];

@@ -6,12 +6,15 @@ var searchData=
   ['additionalpointsnooffset_3',['AdditionalPointsNoOffset',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a9803632f2ffd6df4b9c59affbd0ee7c9',1,'MR::GLStaticHolder']]],
   ['additionalquad_4',['AdditionalQuad',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a7ad2916ddd2b56f175adb1d02889d8e8',1,'MR::GLStaticHolder']]],
   ['addobject_5',['AddObject',['../classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1a650a024818e022f05f44766109a5f846',1,'MR::ChangeSceneAction']]],
-  ['alerttimereached_6',['AlertTimeReached',['../classMR_1_1AsyncTimer.html#ad1582b16bb15b7032af648423d3dd002ab9f34773f28edd59e08c2bee5bcb5a0a',1,'MR::AsyncTimer']]],
-  ['all_7',['All',['../classMR_1_1TouchesController.html#a5138dbae1e6c3d6ffdf6ea36f836f3e5aee695b81c1d90022e504371ba49fe804',1,'MR::TouchesController::All()'],['../group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a2b387b6cc4a4d4d822afc0cea2c205ec',1,'MR::All()']]],
-  ['analysis_8',['Analysis',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37a739e6d2a73723ec7b1919fa5a51f9b07',1,'MR']]],
-  ['any_9',['Any',['../classMR_1_1TouchesController.html#a5138dbae1e6c3d6ffdf6ea36f836f3e5ada257fd743c5fc266ffde7dfd4f8ff6c',1,'MR::TouchesController::Any()'],['../group__DataModelGroup.html#gga1ab156c0351dfcd112a67a72e485f123aed36a1ef76a59ee3f15180e0441188ad',1,'MR::Any()']]],
-  ['anyrigidxf_10',['AnyRigidXf',['../namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677a1662b3d601f436e62a0bf6529440eaef',1,'MR']]],
-  ['appendaction_11',['AppendAction',['../classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4aa1f9274fc711d6a07979894ed2bfe727',1,'MR::HistoryStore']]],
-  ['axisscaling_12',['AxisScaling',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935',1,'MR::ObjectTransformWidget']]],
-  ['axistranslation_13',['AxisTranslation',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510',1,'MR::ObjectTransformWidget']]]
+  ['afterplugininit_6',['AfterPluginInit',['../classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39a06431eb0f93d82e51c38a39e608780a0',1,'MR::CommandLoop']]],
+  ['aftersplash_7',['AfterSplash',['../classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39a55585580ed9accef0b51dcb897278dd7',1,'MR::CommandLoop']]],
+  ['afterwindowappear_8',['AfterWindowAppear',['../classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39a626474288d65a719abc0bb3d279c2d7a',1,'MR::CommandLoop']]],
+  ['alerttimereached_9',['AlertTimeReached',['../classMR_1_1AsyncTimer.html#ad1582b16bb15b7032af648423d3dd002ab9f34773f28edd59e08c2bee5bcb5a0a',1,'MR::AsyncTimer']]],
+  ['all_10',['All',['../classMR_1_1TouchesController.html#a5138dbae1e6c3d6ffdf6ea36f836f3e5aee695b81c1d90022e504371ba49fe804',1,'MR::TouchesController::All()'],['../group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a2b387b6cc4a4d4d822afc0cea2c205ec',1,'MR::All()']]],
+  ['analysis_11',['Analysis',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37a739e6d2a73723ec7b1919fa5a51f9b07',1,'MR']]],
+  ['any_12',['Any',['../classMR_1_1TouchesController.html#a5138dbae1e6c3d6ffdf6ea36f836f3e5ada257fd743c5fc266ffde7dfd4f8ff6c',1,'MR::TouchesController::Any()'],['../group__DataModelGroup.html#gga1ab156c0351dfcd112a67a72e485f123aed36a1ef76a59ee3f15180e0441188ad',1,'MR::Any()']]],
+  ['anyrigidxf_13',['AnyRigidXf',['../namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677a1662b3d601f436e62a0bf6529440eaef',1,'MR']]],
+  ['appendaction_14',['AppendAction',['../classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4aa1f9274fc711d6a07979894ed2bfe727',1,'MR::HistoryStore']]],
+  ['axisscaling_15',['AxisScaling',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935',1,'MR::ObjectTransformWidget']]],
+  ['axistranslation_16',['AxisTranslation',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510',1,'MR::ObjectTransformWidget']]]
 ];

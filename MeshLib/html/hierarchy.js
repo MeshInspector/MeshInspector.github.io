@@ -14,6 +14,10 @@ var hierarchy =
     [ "spdlog::sinks::base_sink", null, [
       [ "MR::RestoringStreamsSink", "classMR_1_1RestoringStreamsSink.html", null ]
     ] ],
+    [ "MR::BaseOffsetParameters", "structMR_1_1BaseOffsetParameters.html", [
+      [ "MR::OffsetParameters", "structMR_1_1OffsetParameters.html", null ],
+      [ "MR::SharpOffsetParameters", "structMR_1_1SharpOffsetParameters.html", null ]
+    ] ],
     [ "MR::BaseRenderParams", "structMR_1_1BaseRenderParams.html", [
       [ "MR::RenderParams", "structMR_1_1RenderParams.html", null ]
     ] ],
@@ -49,6 +53,7 @@ var hierarchy =
       [ "MR::SceneStateOrCheck< SceneStateExactCheck< 1, ObjectMesh >, SceneStateExactCheck< 1, ObjectLines >, SceneStateExactCheck< 1, ObjectPoints >, SceneStateExactCheck< 1, ObjectDistanceMap >, SceneStateExactCheck< 1, ObjectVoxels > >", "classMR_1_1SceneStateOrCheck.html", [
         [ "MR::SaveObjectMenuItem", "classMR_1_1SaveObjectMenuItem.html", null ]
       ] ],
+      [ "MR::PluginCloseOrCheck< Checks >", "classMR_1_1PluginCloseOrCheck.html", null ],
       [ "MR::SceneStateAndCheck< Checks >", "classMR_1_1SceneStateAndCheck.html", null ],
       [ "MR::SceneStateOrCheck< Checks >", "classMR_1_1SceneStateOrCheck.html", null ]
     ] ],
@@ -244,6 +249,7 @@ var hierarchy =
     [ "MR::IntersectionPrecomputes2< T >", "structMR_1_1IntersectionPrecomputes2.html", null ],
     [ "MR::IOFilter", "structMR_1_1IOFilter.html", null ],
     [ "MR::IPluginCloseCheck", "classMR_1_1IPluginCloseCheck.html", [
+      [ "MR::PluginCloseOnChangeMesh", "classMR_1_1PluginCloseOnChangeMesh.html", null ],
       [ "MR::PluginCloseOnSelectedObjectRemove", "classMR_1_1PluginCloseOnSelectedObjectRemove.html", null ],
       [ "MR::StateBasePlugin", "classMR_1_1StateBasePlugin.html", [
         [ "MR::StateListenerPlugin< MouseDownListener, MouseMoveListener, MouseUpListener >", "classMR_1_1StateListenerPlugin.html", null ],
@@ -388,7 +394,6 @@ var hierarchy =
     [ "MR::ObjectFactoryBase", "classMR_1_1ObjectFactoryBase.html", [
       [ "MR::ObjectFactory< T >", "classMR_1_1ObjectFactory.html", null ]
     ] ],
-    [ "MR::OffsetParameters", "structMR_1_1OffsetParameters.html", null ],
     [ "MR::OneMeshContour", "structMR_1_1OneMeshContour.html", null ],
     [ "MR::OneMeshIntersection", "structMR_1_1OneMeshIntersection.html", null ],
     [ "MR::PackMapping", "structMR_1_1PackMapping.html", null ],
@@ -605,6 +610,7 @@ var hierarchy =
     [ "MR::VoxelMetricParameters", "structMR_1_1VoxelMetricParameters.html", null ],
     [ "MR::VoxelsVolume< T >", "structMR_1_1VoxelsVolume.html", null ],
     [ "MR::VoxelsVolume< FloatGrid >", "structMR_1_1VoxelsVolume.html", null ],
+    [ "MR::WebRequest", "classMR_1_1WebRequest.html", null ],
     [ "MR::Writer< T >", "structMR_1_1Writer.html", null ],
     [ "MR::XfBasedCache< T >", "classMR_1_1XfBasedCache.html", null ],
     [ "MR::XfBasedCache< MR::Box >", "classMR_1_1XfBasedCache.html", null ],

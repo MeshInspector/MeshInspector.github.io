@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('MRTunnelDetector_8h.html',''); initRes
   <div class="headertitle"><div class="title">MRTunnelDetector.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="MREdgeMetric_8h_source.html">MREdgeMetric.h</a>&quot;</code><br />
 </div>
 <p><a href="MRTunnelDetector_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -114,11 +114,10 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaace83f2b258d6424bb65b34460672f76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; EdgeLoop &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__TunnelDetectorGroup.html#gaace83f2b258d6424bb65b34460672f76">MR::detectBasisTunnels</a> (const MeshPart &amp;mp)</td></tr>
-<tr class="memdesc:gaace83f2b258d6424bb65b34460672f76"><td class="mdescLeft">&#160;</td><td class="mdescRight">detects all not-contractible-in-point and not-equivalent tunnel loops on the mesh  <br /></td></tr>
-<tr class="separator:gaace83f2b258d6424bb65b34460672f76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf9a646b3faedd115766838e03b946cc9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__TunnelDetectorGroup.html#gaf9a646b3faedd115766838e03b946cc9">MR::detectTunnelFaces</a> (const MeshPart &amp;mp, float maxTunnelLength)</td></tr>
-<tr class="separator:gaf9a646b3faedd115766838e03b946cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga398ee5e613d9fdc3f0c80ed1ca645d07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; EdgeLoop &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__TunnelDetectorGroup.html#ga398ee5e613d9fdc3f0c80ed1ca645d07">MR::detectBasisTunnels</a> (const MeshPart &amp;mp, EdgeMetric metric={})</td></tr>
+<tr class="separator:ga398ee5e613d9fdc3f0c80ed1ca645d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga538255260afc3615516fd0beac3b4094"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__TunnelDetectorGroup.html#ga538255260afc3615516fd0beac3b4094">MR::detectTunnelFaces</a> (const MeshPart &amp;mp, float maxTunnelLength, const EdgeMetric &amp;metric={})</td></tr>
+<tr class="separator:ga538255260afc3615516fd0beac3b4094"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

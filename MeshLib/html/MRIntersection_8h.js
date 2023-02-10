@@ -1,7 +1,7 @@
 var MRIntersection_8h =
 [
-    [ "closestPoints", "MRIntersection_8h.html#ga91843efb2387268c46c85710cc706398", null ],
-    [ "distance", "MRIntersection_8h.html#ga69fc667c7b57f4abc5cfa4b3b7e84083", null ],
+    [ "closestPoints", "MRIntersection_8h.html#gaab24181e6c7cccda09f6e6fc5045f3a4", null ],
+    [ "distance", "MRIntersection_8h.html#ga0f0b937096b22ab17bd4b23f55295d11", null ],
     [ "distance", "MRIntersection_8h.html#ga0687cd4a683d6fecc91850b82a02be37", null ],
     [ "distance", "MRIntersection_8h.html#ga9f71b2c20cd6a91f42d8d76dbc038190", null ],
     [ "intersection", "MRIntersection_8h.html#gad9c4f2546d1a40da39bccf700c70ee49", null ],

@@ -7,6 +7,7 @@ var MRSystem_8h =
     [ "GetHomeDirectory", "MRSystem_8h.html#a2ddb2bd9b31853c37146f070b0b472c1", null ],
     [ "GetLibsDirectory", "MRSystem_8h.html#a9f6ba5cc665b972c4cec59f7eab2c13e", null ],
     [ "GetMRVersionString", "MRSystem_8h.html#ac6f40535c1b612f6ce24e70b7ee28a36", null ],
+    [ "getOSNoSpaces", "MRSystem_8h.html#a4495a70f291d11bdf905106b2a3856b5", null ],
     [ "GetResourcesDirectory", "MRSystem_8h.html#a1d6fd316711783f671ffebc9eac9042a", null ],
     [ "GetTempDirectory", "MRSystem_8h.html#a4ba1f8b8dda149d741c79f6ca5c6f2ba", null ],
     [ "getUserConfigDir", "MRSystem_8h.html#ac8ef1e5eb550d8cb502e7a5a5ac8c038", null ],

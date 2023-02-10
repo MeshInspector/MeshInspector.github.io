@@ -105,16 +105,15 @@ $(document).ready(function(){initNavTree('group__TunnelDetectorGroup.html',''); 
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaace83f2b258d6424bb65b34460672f76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#aee05ada6f56e0075cc157732cae41543">EdgeLoop</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__TunnelDetectorGroup.html#gaace83f2b258d6424bb65b34460672f76">MR::detectBasisTunnels</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp)</td></tr>
-<tr class="memdesc:gaace83f2b258d6424bb65b34460672f76"><td class="mdescLeft">&#160;</td><td class="mdescRight">detects all not-contractible-in-point and not-equivalent tunnel loops on the mesh  <br /></td></tr>
-<tr class="separator:gaace83f2b258d6424bb65b34460672f76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf9a646b3faedd115766838e03b946cc9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__TunnelDetectorGroup.html#gaf9a646b3faedd115766838e03b946cc9">MR::detectTunnelFaces</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float maxTunnelLength)</td></tr>
-<tr class="separator:gaf9a646b3faedd115766838e03b946cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga398ee5e613d9fdc3f0c80ed1ca645d07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#aee05ada6f56e0075cc157732cae41543">EdgeLoop</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__TunnelDetectorGroup.html#ga398ee5e613d9fdc3f0c80ed1ca645d07">MR::detectBasisTunnels</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, <a class="el" href="group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> metric={})</td></tr>
+<tr class="separator:ga398ee5e613d9fdc3f0c80ed1ca645d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga538255260afc3615516fd0beac3b4094"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__TunnelDetectorGroup.html#ga538255260afc3615516fd0beac3b4094">MR::detectTunnelFaces</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float maxTunnelLength, const <a class="el" href="group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;metric={})</td></tr>
+<tr class="separator:ga538255260afc3615516fd0beac3b4094"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="gaace83f2b258d6424bb65b34460672f76" name="gaace83f2b258d6424bb65b34460672f76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaace83f2b258d6424bb65b34460672f76">&#9670;&#160;</a></span>detectBasisTunnels()</h2>
+<a id="ga398ee5e613d9fdc3f0c80ed1ca645d07" name="ga398ee5e613d9fdc3f0c80ed1ca645d07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga398ee5e613d9fdc3f0c80ed1ca645d07">&#9670;&#160;</a></span>detectBasisTunnels()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -123,18 +122,27 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#aee05ada6f56e0075cc157732cae41543">EdgeLoop</a> &gt; MR::detectBasisTunnels </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
-          <td class="paramname"><em>mp</em></td><td>)</td>
+          <td class="paramname"><em>mp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a>&#160;</td>
+          <td class="paramname"><em>metric</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>detects all not-contractible-in-point and not-equivalent tunnel loops on the mesh </p>
+<p>detects all not-contractible-in-point and not-equivalent tunnel loops on the mesh; trying to include in the loops the edges with the smallest metric; if no metric is given then discreteMinusAbsMeanCurvatureMetric will be used </p>
 
 </div>
 </div>
-<a id="gaf9a646b3faedd115766838e03b946cc9" name="gaf9a646b3faedd115766838e03b946cc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf9a646b3faedd115766838e03b946cc9">&#9670;&#160;</a></span>detectTunnelFaces()</h2>
+<a id="ga538255260afc3615516fd0beac3b4094" name="ga538255260afc3615516fd0beac3b4094"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga538255260afc3615516fd0beac3b4094">&#9670;&#160;</a></span>detectTunnelFaces()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -149,7 +157,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>maxTunnelLength</em>&#160;</td>
+          <td class="paramname"><em>maxTunnelLength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;&#160;</td>
+          <td class="paramname"><em>metric</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

@@ -141,6 +141,10 @@ Functions</h2></td></tr>
 <tr class="memitem:gab0c6bfd4f01e28a6c034a2195143e410"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EdgePathsGroup.html#gab0c6bfd4f01e28a6c034a2195143e410">MR::edgeLengthMetric</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="memdesc:gab0c6bfd4f01e28a6c034a2195143e410"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns edge's length as a metric  <br /></td></tr>
 <tr class="separator:gab0c6bfd4f01e28a6c034a2195143e410"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae4866fbd4ec0921d6eed211cbef0e8aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EdgePathsGroup.html#gae4866fbd4ec0921d6eed211cbef0e8aa">MR::discreteAbsMeanCurvatureMetric</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="separator:gae4866fbd4ec0921d6eed211cbef0e8aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8e15c502056407a36c6d495799f0aa7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EdgePathsGroup.html#ga8e15c502056407a36c6d495799f0aa7d">MR::discreteMinusAbsMeanCurvatureMetric</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="separator:ga8e15c502056407a36c6d495799f0aa7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga215f966d7ad4e48210e0de178cb43a06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EdgePathsGroup.html#ga215f966d7ad4e48210e0de178cb43a06">MR::edgeCurvMetric</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, float angleSinFactor=2, float angleSinForBoundary=0)</td></tr>
 <tr class="separator:ga215f966d7ad4e48210e0de178cb43a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga92e1133b735a94c3b261a754eda1d12a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EdgePathsGroup.html#ga92e1133b735a94c3b261a754eda1d12a">MR::edgeTableMetric</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;metric)</td></tr>
@@ -1195,6 +1199,44 @@ template&lt;class MetricToPenalty &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="gae4866fbd4ec0921d6eed211cbef0e8aa" name="gae4866fbd4ec0921d6eed211cbef0e8aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae4866fbd4ec0921d6eed211cbef0e8aa">&#9670;&#160;</a></span>discreteAbsMeanCurvatureMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> MR::discreteAbsMeanCurvatureMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns edge's absolute discrete mean curvature as a metric; the metric is minimal in the planar regions of mesh </p>
+
+</div>
+</div>
+<a id="ga8e15c502056407a36c6d495799f0aa7d" name="ga8e15c502056407a36c6d495799f0aa7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8e15c502056407a36c6d495799f0aa7d">&#9670;&#160;</a></span>discreteMinusAbsMeanCurvatureMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> MR::discreteMinusAbsMeanCurvatureMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns minus of edge's absolute discrete mean curvature as a metric; the metric is minimal in the most curved regions of mesh </p>
 
 </div>
 </div>

@@ -168,6 +168,10 @@ Functions</h2></td></tr>
 <tr class="separator:ga332fb7d3339d515c107f05a5f3e4d251"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5a10f75cc5e4d7e14e17a21e9e8ddb0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#ga5a10f75cc5e4d7e14e17a21e9e8ddb0f">MR::serializeToJson</a> (const <a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a> &amp;pf, Json::Value &amp;root)</td></tr>
 <tr class="separator:ga5a10f75cc5e4d7e14e17a21e9e8ddb0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga890eacf2c6391cbf6dbb98c6bbb0fa28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#ga890eacf2c6391cbf6dbb98c6bbb0fa28">MR::serializeViaVerticesToJson</a> (const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;edges, const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, Json::Value &amp;root)</td></tr>
+<tr class="separator:ga890eacf2c6391cbf6dbb98c6bbb0fa28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab74247c70d34bac9da9d1e8c421b0703"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#gab74247c70d34bac9da9d1e8c421b0703">MR::deserializeViaVerticesFromJson</a> (const Json::Value &amp;root, <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;edges, const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology)</td></tr>
+<tr class="separator:gab74247c70d34bac9da9d1e8c421b0703"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga61a7230e0fffb1f10c81a359762186d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#ga61a7230e0fffb1f10c81a359762186d2">MR::deserializeFromJson</a> (const Json::Value &amp;root, <a class="el" href="namespaceMR.html#a414c921e724deba1be8a3f3b5a20af76">Vector2i</a> &amp;vec)</td></tr>
 <tr class="memdesc:ga61a7230e0fffb1f10c81a359762186d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads an object from json value  <br /></td></tr>
 <tr class="separator:ga61a7230e0fffb1f10c81a359762186d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -802,6 +806,40 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="gab74247c70d34bac9da9d1e8c421b0703" name="gab74247c70d34bac9da9d1e8c421b0703"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab74247c70d34bac9da9d1e8c421b0703">&#9670;&#160;</a></span>deserializeViaVerticesFromJson()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::deserializeViaVerticesFromJson </td>
+          <td>(</td>
+          <td class="paramtype">const Json::Value &amp;&#160;</td>
+          <td class="paramname"><em>root</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>edges</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ga92bd915b5df61616c812b9778248831f" name="ga92bd915b5df61616c812b9778248831f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga92bd915b5df61616c812b9778248831f">&#9670;&#160;</a></span>serializeMesh()</h2>
 
@@ -1292,6 +1330,41 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga890eacf2c6391cbf6dbb98c6bbb0fa28" name="ga890eacf2c6391cbf6dbb98c6bbb0fa28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga890eacf2c6391cbf6dbb98c6bbb0fa28">&#9670;&#160;</a></span>serializeViaVerticesToJson()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::serializeViaVerticesToJson </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>edges</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Json::Value &amp;&#160;</td>
+          <td class="paramname"><em>root</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>serialize given edges into json first converting them into pairs of vertices, which is safer when edge ids change after saving/loading, but vertex ids are not </p>
 
 </div>
 </div>

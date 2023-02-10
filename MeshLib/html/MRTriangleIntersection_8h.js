@@ -1,6 +1,7 @@
 var MRTriangleIntersection_8h =
 [
     [ "doesEdgeXySeparate", "MRTriangleIntersection_8h.html#ga56e080b75b029cd99c5de48a2ae1c305", null ],
+    [ "doTriangleLineIntersect", "MRTriangleIntersection_8h.html#gab7bfc61216e86c7e985c25378fcc7bdb", null ],
     [ "doTriangleSegmentIntersect", "MRTriangleIntersection_8h.html#gacaf1c69550575145e170779a5d620b42", null ],
     [ "doTrianglesIntersect", "MRTriangleIntersection_8h.html#ga356b1104c8bddd98afba39fcbe5ee803", null ],
     [ "doTrianglesIntersectExt", "MRTriangleIntersection_8h.html#gad2f32d1f571dde6434e36df0a4357290", null ],

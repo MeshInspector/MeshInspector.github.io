@@ -1,5 +1,5 @@
 var group__TunnelDetectorGroup =
 [
-    [ "MR::detectBasisTunnels", "group__TunnelDetectorGroup.html#gaace83f2b258d6424bb65b34460672f76", null ],
-    [ "MR::detectTunnelFaces", "group__TunnelDetectorGroup.html#gaf9a646b3faedd115766838e03b946cc9", null ]
+    [ "MR::detectBasisTunnels", "group__TunnelDetectorGroup.html#ga398ee5e613d9fdc3f0c80ed1ca645d07", null ],
+    [ "MR::detectTunnelFaces", "group__TunnelDetectorGroup.html#ga538255260afc3615516fd0beac3b4094", null ]
 ];

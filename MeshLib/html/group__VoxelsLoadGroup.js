@@ -24,8 +24,8 @@ var group__VoxelsLoadGroup =
       [ "gridLevelSet", "structMR_1_1VoxelsLoad_1_1RawParameters.html#a5d28afdbdf8874a171bdaa3da9a77db7", null ],
       [ "voxelSize", "structMR_1_1VoxelsLoad_1_1RawParameters.html#afd3e66a2e50b601320d9254e884691dd", null ]
     ] ],
-    [ "MR::VoxelsLoad::fromAnySupportedFormat", "group__VoxelsLoadGroup.html#ga2e2389506f91091382b9faa3bb9e80d2", null ],
-    [ "MR::VoxelsLoad::fromVdb", "group__VoxelsLoadGroup.html#gad717b3b20321b1da6a656f105db18a8f", null ],
+    [ "MR::VoxelsLoad::fromAnySupportedFormat", "group__VoxelsLoadGroup.html#ga1ed28e5bf9b35c693e139f0371d73259", null ],
+    [ "MR::VoxelsLoad::fromVdb", "group__VoxelsLoadGroup.html#ga178b35fdc0cd832052415755bf7bfdea", null ],
     [ "MR::VoxelsLoad::loadDCMFile", "group__VoxelsLoadGroup.html#ga5d4ef6e1461442b265eb8dd76ee4439b", null ],
     [ "MR::VoxelsLoad::loadDCMFolder", "group__VoxelsLoadGroup.html#ga8956bf1e7728989d5e44e8c2848c9e84", null ],
     [ "MR::VoxelsLoad::loadDCMFolderTree", "group__VoxelsLoadGroup.html#ga8fa3ce2473c0f885b7ce6b332a1c6886", null ],
