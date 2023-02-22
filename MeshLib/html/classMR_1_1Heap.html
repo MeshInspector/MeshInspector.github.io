@@ -117,15 +117,15 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ga1c3a6bcbeb43f15264907a196f0b96a6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga1c3a6bcbeb43f15264907a196f0b96a6">Heap</a> (int <a class="el" href="classMR_1_1Heap.html#a1acb484618570167f9125bc023a88796">size</a>, T def={}, P pred={})</td></tr>
-<tr class="memdesc:ga1c3a6bcbeb43f15264907a196f0b96a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs heap for given number of elements, assigning given default value to each element  <br /></td></tr>
-<tr class="separator:ga1c3a6bcbeb43f15264907a196f0b96a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1acb484618570167f9125bc023a88796"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Heap.html#a1acb484618570167f9125bc023a88796">size</a> () const</td></tr>
-<tr class="memdesc:a1acb484618570167f9125bc023a88796"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the size of the heap  <br /></td></tr>
-<tr class="separator:a1acb484618570167f9125bc023a88796"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2cc98b992438b4b7323386776a433110"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga2cc98b992438b4b7323386776a433110">resize</a> (int <a class="el" href="classMR_1_1Heap.html#a1acb484618570167f9125bc023a88796">size</a>, T def={})</td></tr>
-<tr class="memdesc:ga2cc98b992438b4b7323386776a433110"><td class="mdescLeft">&#160;</td><td class="mdescRight">increases the size of the heap by adding elements at the end  <br /></td></tr>
-<tr class="separator:ga2cc98b992438b4b7323386776a433110"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga484758be506c83b8a42bbb37f7761507"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga484758be506c83b8a42bbb37f7761507">Heap</a> (size_t <a class="el" href="classMR_1_1Heap.html#a516d00eb9620f9cdb1f5c43c0810f744">size</a>, T def={}, P pred={})</td></tr>
+<tr class="memdesc:ga484758be506c83b8a42bbb37f7761507"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs heap for given number of elements, assigning given default value to each element  <br /></td></tr>
+<tr class="separator:ga484758be506c83b8a42bbb37f7761507"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a516d00eb9620f9cdb1f5c43c0810f744"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Heap.html#a516d00eb9620f9cdb1f5c43c0810f744">size</a> () const</td></tr>
+<tr class="memdesc:a516d00eb9620f9cdb1f5c43c0810f744"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the size of the heap  <br /></td></tr>
+<tr class="separator:a516d00eb9620f9cdb1f5c43c0810f744"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1850d4188a12bb75802dc364f7309bd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga1850d4188a12bb75802dc364f7309bd6">resize</a> (size_t <a class="el" href="classMR_1_1Heap.html#a516d00eb9620f9cdb1f5c43c0810f744">size</a>, T def={})</td></tr>
+<tr class="memdesc:ga1850d4188a12bb75802dc364f7309bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">increases the size of the heap by adding elements at the end  <br /></td></tr>
+<tr class="separator:ga1850d4188a12bb75802dc364f7309bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc98f8ae44b5055bed877900deb567d6"><td class="memItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Heap.html#abc98f8ae44b5055bed877900deb567d6">value</a> (I elemId) const</td></tr>
 <tr class="memdesc:abc98f8ae44b5055bed877900deb567d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the value associated with given element  <br /></td></tr>
 <tr class="separator:abc98f8ae44b5055bed877900deb567d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -222,8 +222,8 @@ template&lt;typename T , typename I , typename P  = std::less&lt;T&gt;&gt; </div
 
 </div>
 </div>
-<a id="a1acb484618570167f9125bc023a88796" name="a1acb484618570167f9125bc023a88796"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1acb484618570167f9125bc023a88796">&#9670;&#160;</a></span>size()</h2>
+<a id="a516d00eb9620f9cdb1f5c43c0810f744" name="a516d00eb9620f9cdb1f5c43c0810f744"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a516d00eb9620f9cdb1f5c43c0810f744">&#9670;&#160;</a></span>size()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -234,7 +234,7 @@ template&lt;typename T , typename I , typename P  = std::less&lt;T&gt;&gt; </div
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::size </td>
+          <td class="memname">size_t <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::size </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>

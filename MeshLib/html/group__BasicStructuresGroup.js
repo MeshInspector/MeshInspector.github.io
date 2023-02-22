@@ -13,10 +13,6 @@ var group__BasicStructuresGroup =
       [ "filter", "structMR_1_1MeshTexture.html#a624eb3f0792caeac64bd958de43405ba", null ],
       [ "wrap", "structMR_1_1MeshTexture.html#ab1d9b311e280516bb81e8749bfb440bc", null ]
     ] ],
-    [ "MR::UVCoord", "structMR_1_1UVCoord.html", [
-      [ "u", "structMR_1_1UVCoord.html#a0f90ace88686619cd04ca86effa03b96", null ],
-      [ "v", "structMR_1_1UVCoord.html#a20cf23adbafada8943e6d752e5c8d2c1", null ]
-    ] ],
     [ "MR::SceneColors", "structMR_1_1SceneColors.html", [
       [ "Type", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3a", [
         [ "SelectedObjectMesh", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa17965fcffe887a1ca6981a1818d44f6f", null ],

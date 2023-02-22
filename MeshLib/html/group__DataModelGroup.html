@@ -207,6 +207,8 @@ Functions</h2></td></tr>
 <tr class="memitem:gad3e2c813d6830f2cf1a805b23ed307f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="classMR_1_1Object.html">Object</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#gad3e2c813d6830f2cf1a805b23ed307f1">MR::makeObjectTreeFromFolder</a> (const std::filesystem::path &amp;folder, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
 <tr class="memdesc:gad3e2c813d6830f2cf1a805b23ed307f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads meshes from given folder in new container object  <br /></td></tr>
 <tr class="separator:gad3e2c813d6830f2cf1a805b23ed307f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga352eee0a343e93a21960efde4061df1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DataModelGroup.html#ga352eee0a343e93a21960efde4061df1c">MR::loadSceneFromAnySupportedFormat</a> (const std::filesystem::path &amp;path, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="separator:ga352eee0a343e93a21960efde4061df1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>This chapter represents documentation about data models. </p>
@@ -574,6 +576,34 @@ template&lt;typename ObjectT  = Object&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>empty string if no error or error text </dd></dl>
+
+</div>
+</div>
+<a id="ga352eee0a343e93a21960efde4061df1c" name="ga352eee0a343e93a21960efde4061df1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga352eee0a343e93a21960efde4061df1c">&#9670;&#160;</a></span>loadSceneFromAnySupportedFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;, std::string &gt; MR::loadSceneFromAnySupportedFormat </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

@@ -9,6 +9,6 @@ var searchData=
   ['zerounusedpoints_6',['zeroUnusedPoints',['../structMR_1_1Mesh.html#a540a6eef456f6c54c214766fc0a7c3fb',1,'MR::Mesh']]],
   ['zoffset_7',['zOffset',['../structMR_1_1ViewportGL_1_1RenderParams.html#a4418936d5182b4b3065dcbd54b9388df',1,'MR::ViewportGL::RenderParams']]],
   ['zoom_8',['Zoom',['../classMR_1_1TouchesController.html#a5138dbae1e6c3d6ffdf6ea36f836f3e5aec731e18cc7bf5f80ae6e195004cbf74',1,'MR::TouchesController']]],
-  ['zx_9',['ZX',['../group__VoxelPathGroup.html#ggae7c8689563553fe7686bd6b71ddf8f18a24b4db35f35f7ebe4a15436010a070d9',1,'MR']]],
+  ['zx_9',['ZX',['../group__VoxelPathGroup.html#gga4412ea17fd4bcca4ad23e987f61c20aba24b4db35f35f7ebe4a15436010a070d9',1,'MR']]],
   ['zz_10',['zz',['../structMR_1_1SymMatrix3.html#ae0bca6271c1e0d370210fcd54da942ba',1,'MR::SymMatrix3']]]
 ];

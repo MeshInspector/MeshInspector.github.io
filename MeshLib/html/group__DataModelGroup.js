@@ -333,6 +333,7 @@ var group__DataModelGroup =
     [ "MR::getTopmostVisibleObjects", "group__DataModelGroup.html#ga7afd4c6187926b10b71f8631961165a0", null ],
     [ "MR::isSupportedFileInSubfolders", "group__DataModelGroup.html#gaa2082792bceb5a2dd3b18ff5693f0441", null ],
     [ "MR::loadObjectFromFile", "group__DataModelGroup.html#gafadea3b2027ddc499c99f290196216dd", null ],
+    [ "MR::loadSceneFromAnySupportedFormat", "group__DataModelGroup.html#ga352eee0a343e93a21960efde4061df1c", null ],
     [ "MR::makeObjectDistanceMapFromFile", "group__DataModelGroup.html#ga76bb7958ef2900006f29b9a81fc6e8f4", null ],
     [ "MR::makeObjectLinesFromFile", "group__DataModelGroup.html#gae9f26bcb772ba7f36c09511eb583c23f", null ],
     [ "MR::makeObjectMeshFromFile", "group__DataModelGroup.html#ga49139a191d999bd254234e875bc94035", null ],

@@ -104,6 +104,11 @@ var group__AABBTreeGroup =
       [ "aUndirEdge", "structMR_1_1UndirectedEdgeUndirectedEdge.html#aaf55dde37dfa59f981e1bc41ee3ac74a", null ],
       [ "bUndirEdge", "structMR_1_1UndirectedEdgeUndirectedEdge.html#a535f1290920a2d84945d8cc8989397c6", null ]
     ] ],
+    [ "MR::FastWindingNumber", "classMR_1_1FastWindingNumber.html", [
+      [ "NodeId", "classMR_1_1FastWindingNumber.html#ab473858eb2040691d2defbe50942bcfb", null ],
+      [ "FastWindingNumber", "classMR_1_1FastWindingNumber.html#a6af89b7c93e4591719b2ffd0eeeffd07", null ],
+      [ "calc", "classMR_1_1FastWindingNumber.html#ae3c3f07913afccead157b1316c06dff7", null ]
+    ] ],
     [ "MR::IntersectionPrecomputes< T >", "structMR_1_1IntersectionPrecomputes.html", [
       [ "IntersectionPrecomputes", "group__AABBTreeGroup.html#ga9984ed4cff38cd012243e835f02e0e92", null ],
       [ "IntersectionPrecomputes", "group__AABBTreeGroup.html#gac2a5a2178c875139ca3e402c1a46324c", null ],

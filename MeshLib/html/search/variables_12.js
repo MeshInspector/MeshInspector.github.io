@@ -13,7 +13,7 @@ var searchData=
   ['textmaximummovement_10',['textMaximumMovement',['../structMR_1_1TextMeshAlignParams.html#aba750f8cdad04940e2d9871e488b5463',1,'MR::TextMeshAlignParams']]],
   ['textnormal_11',['textNormal',['../structMR_1_1TextMeshAlignParams.html#a1e66f8a73876d514551ec9d621f7f82c',1,'MR::TextMeshAlignParams']]],
   ['textsize_12',['textSize',['../structMR_1_1PdfParameters.html#a7e22b490f619a059c622635844a59e4b',1,'MR::PdfParameters']]],
-  ['texture_5f_13',['texture_',['../classMR_1_1VisualObject.html#a42c63ccf2ec13041e1dd693a2533372f',1,'MR::VisualObject']]],
+  ['texture_5f_13',['texture_',['../classMR_1_1ObjectMeshHolder.html#a0ff214a19e9d18e8aab6649f9891f9c6',1,'MR::ObjectMeshHolder']]],
   ['tgt2srcedges_14',['tgt2srcEdges',['../structMR_1_1PartMapping.html#a20669df343e579537b8003fbbe141fb5',1,'MR::PartMapping']]],
   ['tgt2srcfaces_15',['tgt2srcFaces',['../structMR_1_1PartMapping.html#a70417f39e610cb4364a4066ba21ecc64',1,'MR::PartMapping']]],
   ['tgt2srcverts_16',['tgt2srcVerts',['../structMR_1_1PartMapping.html#a8b413791e9dab0037f742ede85a8700e',1,'MR::PartMapping']]],

@@ -270,9 +270,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga543d43a804760961ac67ad3689330c1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::wstring&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga543d43a804760961ac67ad3689330c1d">MR::utf8ToWide</a> (const char *utf8)</td></tr>
 <tr class="memdesc:ga543d43a804760961ac67ad3689330c1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts UTF8-encoded string into UTF16-encoded string  <br /></td></tr>
 <tr class="separator:ga543d43a804760961ac67ad3689330c1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga96c01778dc5791451d62c355f4d665af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::u8string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga96c01778dc5791451d62c355f4d665af">MR::systemToUtf8</a> (const char *system)</td></tr>
-<tr class="memdesc:ga96c01778dc5791451d62c355f4d665af"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts system encoded string to UTF8-encoded string  <br /></td></tr>
-<tr class="separator:ga96c01778dc5791451d62c355f4d665af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9a6b64a85d116ca32c7ff8b93ca80da1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga9a6b64a85d116ca32c7ff8b93ca80da1">MR::systemToUtf8</a> (const std::string &amp;system)</td></tr>
+<tr class="memdesc:ga9a6b64a85d116ca32c7ff8b93ca80da1"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts system encoded string to UTF8-encoded string  <br /></td></tr>
+<tr class="separator:ga9a6b64a85d116ca32c7ff8b93ca80da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga772133dc76f16920332b4b0074da394e"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga772133dc76f16920332b4b0074da394e">MR::asString</a> (const std::string &amp;s)</td></tr>
 <tr class="separator:ga772133dc76f16920332b4b0074da394e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga37f4340272986dcbde4f0fb5503a0912"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga37f4340272986dcbde4f0fb5503a0912">MR::asU8String</a> (const std::string &amp;s)</td></tr>
@@ -313,12 +313,12 @@ Functions</h2></td></tr>
 <tr class="separator:gabff963301d513cbf7023057a1069d778"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa1559a9f62b475c04360d1fdd999a60d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gaa1559a9f62b475c04360d1fdd999a60d">MR::TaggedBitSet&lt; T &gt;::getMapping</a> (const <a class="el" href="namespaceMR.html#ae992c100813594ea6369139389c5b3fa">HashMap</a>&lt; <a class="el" href="classMR_1_1TaggedBitSet.html#aee1dc472d197dae5a76f707615ccf080">IndexType</a>, <a class="el" href="classMR_1_1TaggedBitSet.html#aee1dc472d197dae5a76f707615ccf080">IndexType</a> &gt; &amp;map, size_t resSize) const</td></tr>
 <tr class="separator:gaa1559a9f62b475c04360d1fdd999a60d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1c3a6bcbeb43f15264907a196f0b96a6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga1c3a6bcbeb43f15264907a196f0b96a6">MR::Heap&lt; T, I, P &gt;::Heap</a> (int <a class="el" href="classMR_1_1Heap.html#a1acb484618570167f9125bc023a88796">size</a>, T def={}, P pred={})</td></tr>
-<tr class="memdesc:ga1c3a6bcbeb43f15264907a196f0b96a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs heap for given number of elements, assigning given default value to each element  <br /></td></tr>
-<tr class="separator:ga1c3a6bcbeb43f15264907a196f0b96a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2cc98b992438b4b7323386776a433110"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga2cc98b992438b4b7323386776a433110">MR::Heap&lt; T, I, P &gt;::resize</a> (int <a class="el" href="classMR_1_1Heap.html#a1acb484618570167f9125bc023a88796">size</a>, T def={})</td></tr>
-<tr class="memdesc:ga2cc98b992438b4b7323386776a433110"><td class="mdescLeft">&#160;</td><td class="mdescRight">increases the size of the heap by adding elements at the end  <br /></td></tr>
-<tr class="separator:ga2cc98b992438b4b7323386776a433110"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga484758be506c83b8a42bbb37f7761507"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga484758be506c83b8a42bbb37f7761507">MR::Heap&lt; T, I, P &gt;::Heap</a> (size_t <a class="el" href="classMR_1_1Heap.html#a516d00eb9620f9cdb1f5c43c0810f744">size</a>, T def={}, P pred={})</td></tr>
+<tr class="memdesc:ga484758be506c83b8a42bbb37f7761507"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs heap for given number of elements, assigning given default value to each element  <br /></td></tr>
+<tr class="separator:ga484758be506c83b8a42bbb37f7761507"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1850d4188a12bb75802dc364f7309bd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga1850d4188a12bb75802dc364f7309bd6">MR::Heap&lt; T, I, P &gt;::resize</a> (size_t <a class="el" href="classMR_1_1Heap.html#a516d00eb9620f9cdb1f5c43c0810f744">size</a>, T def={})</td></tr>
+<tr class="memdesc:ga1850d4188a12bb75802dc364f7309bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">increases the size of the heap by adding elements at the end  <br /></td></tr>
+<tr class="separator:ga1850d4188a12bb75802dc364f7309bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4dedcc9253b2c45a7d8a9417d1c19362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga4dedcc9253b2c45a7d8a9417d1c19362">MR::Heap&lt; T, I, P &gt;::setValue</a> (I elemId, const T &amp;newVal)</td></tr>
 <tr class="memdesc:ga4dedcc9253b2c45a7d8a9417d1c19362"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets new value to given element  <br /></td></tr>
 <tr class="separator:ga4dedcc9253b2c45a7d8a9417d1c19362"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1064,8 +1064,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ga1c3a6bcbeb43f15264907a196f0b96a6" name="ga1c3a6bcbeb43f15264907a196f0b96a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1c3a6bcbeb43f15264907a196f0b96a6">&#9670;&#160;</a></span>Heap()</h2>
+<a id="ga484758be506c83b8a42bbb37f7761507" name="ga484758be506c83b8a42bbb37f7761507"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga484758be506c83b8a42bbb37f7761507">&#9670;&#160;</a></span>Heap()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1078,7 +1078,7 @@ template&lt;typename T , typename I , typename P &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::Heap </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>size</em>, </td>
         </tr>
         <tr>
@@ -1866,8 +1866,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ga2cc98b992438b4b7323386776a433110" name="ga2cc98b992438b4b7323386776a433110"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2cc98b992438b4b7323386776a433110">&#9670;&#160;</a></span>resize()</h2>
+<a id="ga1850d4188a12bb75802dc364f7309bd6" name="ga1850d4188a12bb75802dc364f7309bd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1850d4188a12bb75802dc364f7309bd6">&#9670;&#160;</a></span>resize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1877,7 +1877,7 @@ template&lt;typename T , typename I , typename P &gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::resize </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>size</em>, </td>
         </tr>
         <tr>
@@ -2039,16 +2039,16 @@ template&lt;typename T , typename I , typename P &gt; </div>
 
 </div>
 </div>
-<a id="ga96c01778dc5791451d62c355f4d665af" name="ga96c01778dc5791451d62c355f4d665af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga96c01778dc5791451d62c355f4d665af">&#9670;&#160;</a></span>systemToUtf8()</h2>
+<a id="ga9a6b64a85d116ca32c7ff8b93ca80da1" name="ga9a6b64a85d116ca32c7ff8b93ca80da1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9a6b64a85d116ca32c7ff8b93ca80da1">&#9670;&#160;</a></span>systemToUtf8()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::u8string MR::systemToUtf8 </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string MR::systemToUtf8 </td>
           <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>system</em></td><td>)</td>
           <td></td>
         </tr>

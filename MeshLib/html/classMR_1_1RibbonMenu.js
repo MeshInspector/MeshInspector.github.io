@@ -38,6 +38,7 @@ var classMR_1_1RibbonMenu =
     [ "getTopPanelHeight", "classMR_1_1RibbonMenu.html#a13d8a125a0524f37fea9deee7e7168e6", null ],
     [ "getTopPanelHiddenHeight", "classMR_1_1RibbonMenu.html#a527fe41687fdc31790622eff98c59402", null ],
     [ "getTopPanelOpenedHeight", "classMR_1_1RibbonMenu.html#a079f402544435dce5e38c654ca9c604c", null ],
+    [ "hasActiveBlockingItem", "classMR_1_1RibbonMenu.html#a42ad9dbceb71795dfcc7faec3a4fada5", null ],
     [ "init", "classMR_1_1RibbonMenu.html#a75ae516e9ba2cc3916a137c3b723da57", null ],
     [ "isTopPannelPinned", "classMR_1_1RibbonMenu.html#a44506d22fa2c6befeaf375791931282e", null ],
     [ "itemPressed_", "classMR_1_1RibbonMenu.html#a644e42efc4fd8f8bfa421f02bd847805", null ],

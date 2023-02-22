@@ -133,6 +133,7 @@ var MRMeshFwd_8h =
     [ "UndirectedEdgeMap", "MRMeshFwd_8h.html#abd82628c134a94d75af8473678e5c843", null ],
     [ "UndirectedEdgeSetBitIterator", "MRMeshFwd_8h.html#a5e1e7c1a6c9b6bef82ecf335077705f4", null ],
     [ "UndirEdgeColorMapAggregator", "MRMeshFwd_8h.html#aa7174e9d37303115ef05fbd236722baa", null ],
+    [ "UVCoord", "MRMeshFwd_8h.html#a3812e89f4928ec18dffc8cf01e267019", null ],
     [ "VdbVolume", "MRMeshFwd_8h.html#a3048dff41173426f92713cbb8cf3784a", null ],
     [ "Vector2b", "MRMeshFwd_8h.html#a449ae936a00d0bc105ed11369953010f", null ],
     [ "Vector2d", "MRMeshFwd_8h.html#ac040a083d9643faaf7679e4447ec7af9", null ],

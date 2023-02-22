@@ -118,7 +118,7 @@ $(document).ready(function(){initNavTree('MRUnionFind_8h_source.html',''); initR
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    {</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        roots_.<a class="code hl_function" href="classMR_1_1Vector.html#a0e593b171d655e35f554674f88083c76">clear</a>();</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        roots_.<a class="code hl_function" href="classMR_1_1Vector.html#a74f2d276465f6183ec4068d124cbb596">reserve</a>( <a class="code hl_function" href="classMR_1_1UnionFind.html#ab0d01d793fad21820791310d7318235e">size</a> );</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <span class="keywordflow">for</span> ( I i{ 0 }; i &lt; <a class="code hl_function" href="classMR_1_1UnionFind.html#ab0d01d793fad21820791310d7318235e">size</a>; ++i )</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <span class="keywordflow">for</span> ( I i{ size_t( 0 ) }; i &lt; <a class="code hl_function" href="classMR_1_1UnionFind.html#ab0d01d793fad21820791310d7318235e">size</a>; ++i )</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>            roots_.<a class="code hl_function" href="classMR_1_1Vector.html#a78fa1b6365aa64b3aec65883530dc735">push_back</a>( i );</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        sizes_.<a class="code hl_function" href="classMR_1_1Vector.html#a0e593b171d655e35f554674f88083c76">clear</a>();</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        sizes_.<a class="code hl_function" href="classMR_1_1Vector.html#acd99deedcb9bcc81fa5eb3ba36cf13d1">resize</a>( <a class="code hl_function" href="classMR_1_1UnionFind.html#ab0d01d793fad21820791310d7318235e">size</a>, 1 );</div>
@@ -158,7 +158,7 @@ $(document).ready(function(){initNavTree('MRUnionFind_8h_source.html',''); initR
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    }</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="classMR_1_1UnionFind.html#a5b1ee758f69d77277361f8cbe1e0d77e">   69</a></span>    <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1Vector.html">Vector&lt;I, I&gt;</a> &amp; <a class="code hl_function" href="classMR_1_1UnionFind.html#a5b1ee758f69d77277361f8cbe1e0d77e">roots</a>()</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    {</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        <span class="keywordflow">for</span> ( I i{ 0 }; i &lt; roots_.<a class="code hl_function" href="classMR_1_1Vector.html#a223d87525f421788d5f56e5022482b98">size</a>(); ++i )</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        <span class="keywordflow">for</span> ( I i{ size_t( 0 ) }; i &lt; roots_.<a class="code hl_function" href="classMR_1_1Vector.html#a223d87525f421788d5f56e5022482b98">size</a>(); ++i )</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>            updateRoot_( i, findRootNoUpdate_( i ) );</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        <span class="keywordflow">return</span> roots_;</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    }</div>
@@ -202,7 +202,7 @@ $(document).ready(function(){initNavTree('MRUnionFind_8h_source.html',''); initR
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>        <span class="keywordflow">return</span> r;</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    }</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    Vector&lt;I, I&gt; roots_;</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    Vector&lt;int, I&gt; sizes_;</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    Vector&lt;size_t, I&gt; sizes_;</div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>};</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span> </div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>}</div>

@@ -3,7 +3,8 @@ var classMR_1_1Laplacian =
     [ "EdgeWeights", "classMR_1_1Laplacian.html#a40fcda9e6b8208959a3204e274784b18", [
       [ "Unit", "classMR_1_1Laplacian.html#a40fcda9e6b8208959a3204e274784b18a19c562a36aeb455d09534f93b4f5236f", null ],
       [ "Cotan", "classMR_1_1Laplacian.html#a40fcda9e6b8208959a3204e274784b18af2ccdc14df1f860d7b09661c47cc15c9", null ],
-      [ "CotanTimesLength", "classMR_1_1Laplacian.html#a40fcda9e6b8208959a3204e274784b18ada0895f7442dc0c233726d89ac9f75fa", null ]
+      [ "CotanTimesLength", "classMR_1_1Laplacian.html#a40fcda9e6b8208959a3204e274784b18ada0895f7442dc0c233726d89ac9f75fa", null ],
+      [ "CotanWithAreaEqWeight", "classMR_1_1Laplacian.html#a40fcda9e6b8208959a3204e274784b18aabeda66621ed8130672ce5e9276fd49e", null ]
     ] ],
     [ "RememberShape", "classMR_1_1Laplacian.html#a67c8dfc7669f41712a92d21d5ec99fed", [
       [ "Yes", "classMR_1_1Laplacian.html#a67c8dfc7669f41712a92d21d5ec99feda93cba07454f06a4a960172bbd6e2a435", null ],

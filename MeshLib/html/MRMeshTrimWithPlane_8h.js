@@ -1,6 +1,6 @@
 var MRMeshTrimWithPlane_8h =
 [
-    [ "subdivideWithPlane", "MRMeshTrimWithPlane_8h.html#a04d4d54d0b6eb3b8867916f765bc4f64", null ],
-    [ "trimWithPlane", "MRMeshTrimWithPlane_8h.html#a1a4302e9011c6f34e263975c1f7dc4f2", null ],
-    [ "trimWithPlane", "MRMeshTrimWithPlane_8h.html#a9a039efaf96a7d5c4838a40a44b275dd", null ]
+    [ "subdivideWithPlane", "MRMeshTrimWithPlane_8h.html#ab8323f1238e8d5576750109a4a9a85e0", null ],
+    [ "trimWithPlane", "MRMeshTrimWithPlane_8h.html#a46d4fa570fe15b03ee955b6ee26a6f30", null ],
+    [ "trimWithPlane", "MRMeshTrimWithPlane_8h.html#a5439d8d6b09738579e762f0c26ac2326", null ]
 ];

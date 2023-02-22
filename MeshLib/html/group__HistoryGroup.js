@@ -7,6 +7,13 @@ var group__HistoryGroup =
       [ "heapBytes", "classMR_1_1ChangeMeshAction.html#ad0dbdadda7bb2d160c77aa14e2eea201", null ],
       [ "name", "classMR_1_1ChangeMeshAction.html#a6e73aebdc0c2a7d4d2273eed02ad84ab", null ]
     ] ],
+    [ "MR::ChangeMeshUVCoordsAction", "classMR_1_1ChangeMeshUVCoordsAction.html", [
+      [ "Obj", "classMR_1_1ChangeMeshUVCoordsAction.html#a71e71fb8ddf5148187548ff3986eeefb", null ],
+      [ "ChangeMeshUVCoordsAction", "classMR_1_1ChangeMeshUVCoordsAction.html#ad327260aaddcee63efc73810a93b386f", null ],
+      [ "action", "classMR_1_1ChangeMeshUVCoordsAction.html#a8251a4c060d3538d58564c3429c9afda", null ],
+      [ "heapBytes", "classMR_1_1ChangeMeshUVCoordsAction.html#a8ada93551abd3f590f7e4a2d9c093351", null ],
+      [ "name", "classMR_1_1ChangeMeshUVCoordsAction.html#aa8f2ca30bbf02500362d5bc387ecbcf8", null ]
+    ] ],
     [ "MR::ChangeMeshPointsAction", "classMR_1_1ChangeMeshPointsAction.html", [
       [ "Obj", "classMR_1_1ChangeMeshPointsAction.html#a340cefe2c61d0fb443d69100d5373a74", null ],
       [ "ChangeMeshPointsAction", "classMR_1_1ChangeMeshPointsAction.html#a085ebc78393d430d040423cca12c98f7", null ],

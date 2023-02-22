@@ -50,10 +50,11 @@ var searchData=
   ['loadobjectfromfile_47',['loadObjectFromFile',['../group__DataModelGroup.html#gafadea3b2027ddc499c99f290196216dd',1,'MR']]],
   ['loadpreset_48',['loadPreset',['../classMR_1_1PalettePresets.html#abfc0b877261efaf989795949936003df',1,'MR::PalettePresets']]],
   ['loadraw_49',['loadRaw',['../group__VoxelsLoadGroup.html#ga480d7e43375cf991141d906733b85002',1,'MR::VoxelsLoad::loadRaw(const std::filesystem::path &amp;path, const RawParameters &amp;params, const ProgressCallback &amp;cb={})'],['../group__VoxelsLoadGroup.html#gad41c12bc0863d099fe4d4a80c5ef5772',1,'MR::VoxelsLoad::loadRaw(const std::filesystem::path &amp;path, const ProgressCallback &amp;cb={})']]],
-  ['loadschema_50',['loadSchema',['../classMR_1_1RibbonSchemaLoader.html#ad9dde65427b1793ba6f4fa13663a5ec5',1,'MR::RibbonSchemaLoader']]],
-  ['loadsettings_51',['loadSettings',['../classMR_1_1IViewerSettingsManager.html#a7bd0929348c284a027cc6bed035f2b84',1,'MR::IViewerSettingsManager::loadSettings()'],['../classMR_1_1ViewerSettingsManager.html#aae039b8200dd053aec8632ae57be5880',1,'MR::ViewerSettingsManager::loadSettings()']]],
-  ['loadsurfacepc_52',['loadSurfacePC',['../classMR_1_1RegularMapMesher.html#ae3e690f9ee38c8774b9663885a8179fa',1,'MR::RegularMapMesher']]],
-  ['loadtiffdir_53',['loadTiffDir',['../namespaceMR_1_1VoxelsLoad.html#ab0df0eea4c7e0d21bc2fcfc4a9d0c523',1,'MR::VoxelsLoad']]],
-  ['loggingstreambuf_54',['LoggingStreambuf',['../classMR_1_1LoggingStreambuf.html#af253d14866ae6530d01634b16042d387',1,'MR::LoggingStreambuf']]],
-  ['lookat_55',['lookAt',['../group__MathGroup.html#ga9ae923a2855ed035b5d5f74b3162c0da',1,'MR']]]
+  ['loadscenefromanysupportedformat_50',['loadSceneFromAnySupportedFormat',['../group__DataModelGroup.html#ga352eee0a343e93a21960efde4061df1c',1,'MR']]],
+  ['loadschema_51',['loadSchema',['../classMR_1_1RibbonSchemaLoader.html#ad9dde65427b1793ba6f4fa13663a5ec5',1,'MR::RibbonSchemaLoader']]],
+  ['loadsettings_52',['loadSettings',['../classMR_1_1IViewerSettingsManager.html#a7bd0929348c284a027cc6bed035f2b84',1,'MR::IViewerSettingsManager::loadSettings()'],['../classMR_1_1ViewerSettingsManager.html#aae039b8200dd053aec8632ae57be5880',1,'MR::ViewerSettingsManager::loadSettings()']]],
+  ['loadsurfacepc_53',['loadSurfacePC',['../classMR_1_1RegularMapMesher.html#ae3e690f9ee38c8774b9663885a8179fa',1,'MR::RegularMapMesher']]],
+  ['loadtiffdir_54',['loadTiffDir',['../namespaceMR_1_1VoxelsLoad.html#ab0df0eea4c7e0d21bc2fcfc4a9d0c523',1,'MR::VoxelsLoad']]],
+  ['loggingstreambuf_55',['LoggingStreambuf',['../classMR_1_1LoggingStreambuf.html#af253d14866ae6530d01634b16042d387',1,'MR::LoggingStreambuf']]],
+  ['lookat_56',['lookAt',['../group__MathGroup.html#ga9ae923a2855ed035b5d5f74b3162c0da',1,'MR']]]
 ];

@@ -137,18 +137,17 @@ Functions</h2></td></tr>
 <tr class="memitem:ga68b96907fdec5d90f6c4d1771ae0563e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga68b96907fdec5d90f6c4d1771ae0563e">MR::isEdgeBetweenDoubleTris</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e)</td></tr>
 <tr class="memdesc:ga68b96907fdec5d90f6c4d1771ae0563e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the edge e has both left and right triangular faces and the degree of dest( e ) is 2  <br /></td></tr>
 <tr class="separator:ga68b96907fdec5d90f6c4d1771ae0563e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8727a78adf808ba7e85f326ae19adb26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga8727a78adf808ba7e85f326ae19adb26">MR::eliminateDoubleTris</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e)</td></tr>
-<tr class="separator:ga8727a78adf808ba7e85f326ae19adb26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7e417159b303af7cbfa5ceabdd053a88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga7e417159b303af7cbfa5ceabdd053a88">MR::eliminateDoubleTrisAround</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> v)</td></tr>
-<tr class="memdesc:ga7e417159b303af7cbfa5ceabdd053a88"><td class="mdescLeft">&#160;</td><td class="mdescRight">eliminates all double triangles around given vertex preserving vertex valid  <br /></td></tr>
-<tr class="separator:ga7e417159b303af7cbfa5ceabdd053a88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabfc8ebc79bf55b2a8e8bcb36f2c884c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#gabfc8ebc79bf55b2a8e8bcb36f2c884c1">MR::eliminateDoubleTris</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e, <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *region=nullptr)</td></tr>
+<tr class="separator:gabfc8ebc79bf55b2a8e8bcb36f2c884c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf38de39619c863041d1acc307a36642a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#gaf38de39619c863041d1acc307a36642a">MR::eliminateDoubleTrisAround</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> v, <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *region=nullptr)</td></tr>
+<tr class="separator:gaf38de39619c863041d1acc307a36642a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4864464472d6d92da87a2501cb99db2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga4864464472d6d92da87a2501cb99db2b">MR::isDegree3Dest</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e)</td></tr>
 <tr class="memdesc:ga4864464472d6d92da87a2501cb99db2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the destination of given edge has degree 3 and 3 incident triangles  <br /></td></tr>
 <tr class="separator:ga4864464472d6d92da87a2501cb99db2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5f8beb3b67ee4cb9b937d2068f449264"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga5f8beb3b67ee4cb9b937d2068f449264">MR::eliminateDegree3Dest</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e)</td></tr>
-<tr class="separator:ga5f8beb3b67ee4cb9b937d2068f449264"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab1b854bebeb64fa5f82e1b00607e95e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#gab1b854bebeb64fa5f82e1b00607e95e8">MR::eliminateDegree3Vertices</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;region)</td></tr>
-<tr class="separator:gab1b854bebeb64fa5f82e1b00607e95e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gace895a89502cb6fbf11e26b8c3e9773e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#gace895a89502cb6fbf11e26b8c3e9773e">MR::eliminateDegree3Dest</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e, <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *region=nullptr)</td></tr>
+<tr class="separator:gace895a89502cb6fbf11e26b8c3e9773e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga819c36bfa5ce60675533f6e6eceeb7d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga819c36bfa5ce60675533f6e6eceeb7d9">MR::eliminateDegree3Vertices</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;region, <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *fs=nullptr)</td></tr>
+<tr class="separator:ga819c36bfa5ce60675533f6e6eceeb7d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -189,8 +188,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga5f8beb3b67ee4cb9b937d2068f449264" name="ga5f8beb3b67ee4cb9b937d2068f449264"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5f8beb3b67ee4cb9b937d2068f449264">&#9670;&#160;</a></span>eliminateDegree3Dest()</h2>
+<a id="gace895a89502cb6fbf11e26b8c3e9773e" name="gace895a89502cb6fbf11e26b8c3e9773e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gace895a89502cb6fbf11e26b8c3e9773e">&#9670;&#160;</a></span>eliminateDegree3Dest()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -205,7 +204,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td>
-          <td class="paramname"><em>e</em>&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td>
+          <td class="paramname"><em>region</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -214,12 +219,12 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if the destination of given edge has degree 3 and 3 incident triangles, then eliminates the destination vertex with all its edges and all but one faces, and returns valid remaining edge with same origin as e; otherwise returns invalid edge </p>
+<p>if the destination of given edge has degree 3 and 3 incident triangles, then eliminates the destination vertex with all its edges and all but one faces, and returns valid remaining edge with same origin as e; if region is provided then eliminated triangles are excluded from it; otherwise returns invalid edge </p>
 
 </div>
 </div>
-<a id="gab1b854bebeb64fa5f82e1b00607e95e8" name="gab1b854bebeb64fa5f82e1b00607e95e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab1b854bebeb64fa5f82e1b00607e95e8">&#9670;&#160;</a></span>eliminateDegree3Vertices()</h2>
+<a id="ga819c36bfa5ce60675533f6e6eceeb7d9" name="ga819c36bfa5ce60675533f6e6eceeb7d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga819c36bfa5ce60675533f6e6eceeb7d9">&#9670;&#160;</a></span>eliminateDegree3Vertices()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -234,7 +239,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;&#160;</td>
-          <td class="paramname"><em>region</em>&#160;</td>
+          <td class="paramname"><em>region</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td>
+          <td class="paramname"><em>fs</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -243,12 +254,18 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>eliminates from the mesh all vertices having degree 3 and 3 incident triangles from given region (which is updated); </p><dl class="section return"><dt>Returns</dt><dd>the number of vertices eliminated </dd></dl>
+<p>eliminates from the mesh all vertices having degree 3 and 3 incident triangles from given region (which is updated); if</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fs</td><td>is provided then eliminated triangles are excluded from it; </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the number of vertices eliminated </dd></dl>
 
 </div>
 </div>
-<a id="ga8727a78adf808ba7e85f326ae19adb26" name="ga8727a78adf808ba7e85f326ae19adb26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8727a78adf808ba7e85f326ae19adb26">&#9670;&#160;</a></span>eliminateDoubleTris()</h2>
+<a id="gabfc8ebc79bf55b2a8e8bcb36f2c884c1" name="gabfc8ebc79bf55b2a8e8bcb36f2c884c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabfc8ebc79bf55b2a8e8bcb36f2c884c1">&#9670;&#160;</a></span>eliminateDoubleTris()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -263,7 +280,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td>
-          <td class="paramname"><em>e</em>&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td>
+          <td class="paramname"><em>region</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -272,12 +295,12 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if the edge e has both left and right triangular faces and the degree of dest( e ) is 2, then eliminates left( e ), right( e ), e, e.sym(), next( e ), dest( e ), and returns prev( e ); otherwise returns invalid edge </p>
+<p>if the edge e has both left and right triangular faces and the degree of dest( e ) is 2, then eliminates left( e ), right( e ), e, e.sym(), next( e ), dest( e ), and returns prev( e ); if region is provided then eliminated faces are excluded from it; otherwise returns invalid edge </p>
 
 </div>
 </div>
-<a id="ga7e417159b303af7cbfa5ceabdd053a88" name="ga7e417159b303af7cbfa5ceabdd053a88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7e417159b303af7cbfa5ceabdd053a88">&#9670;&#160;</a></span>eliminateDoubleTrisAround()</h2>
+<a id="gaf38de39619c863041d1acc307a36642a" name="gaf38de39619c863041d1acc307a36642a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf38de39619c863041d1acc307a36642a">&#9670;&#160;</a></span>eliminateDoubleTrisAround()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -292,7 +315,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td>
-          <td class="paramname"><em>v</em>&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td>
+          <td class="paramname"><em>region</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -301,8 +330,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>eliminates all double triangles around given vertex preserving vertex valid </p>
+<p>eliminates all double triangles around given vertex preserving vertex valid; if region is provided then eliminated triangles are excluded from it </p>
 
 </div>
 </div>

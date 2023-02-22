@@ -20,7 +20,7 @@ var searchData=
   ['pixeltag_17',['PixelTag',['../namespaceMR.html#a7eb54b4688d90e090b75bbf0efc2fec5',1,'MR']]],
   ['pixelxvec_18',['pixelXVec',['../structMR_1_1DistanceMapToWorld.html#a5ff6040f3379ccf4fa8afcb7d12a0d5c',1,'MR::DistanceMapToWorld']]],
   ['pixelyvec_19',['pixelYVec',['../structMR_1_1DistanceMapToWorld.html#ac20206aa1ac29437ea53266ea70723dc',1,'MR::DistanceMapToWorld']]],
-  ['plane_20',['plane',['../structMR_1_1VoxelMetricParameters.html#a56ffd5cce114539b66d53db876518db0',1,'MR::VoxelMetricParameters']]],
+  ['plane_20',['plane',['../structMR_1_1VoxelMetricParameters.html#a5fae9a4b03e837ee2d487ce8e8dae34e',1,'MR::VoxelMetricParameters']]],
   ['plugin_5fname_21',['plugin_name',['../classMR_1_1ViewerPlugin.html#aea3243e52b3ddd4094ee9f25accf6912',1,'MR::ViewerPlugin']]],
   ['plugins_22',['plugins',['../classMR_1_1Viewer.html#a25d26ec62da3276a69b3f8c516c98887',1,'MR::Viewer']]],
   ['pof_23',['pof',['../structMR_1_1Viewer_1_1PointInAllSpaces.html#a126f2a712b8697e059b7e6539d43dc0c',1,'MR::Viewer::PointInAllSpaces']]],

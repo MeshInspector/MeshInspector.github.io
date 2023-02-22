@@ -8,11 +8,11 @@ var MRVoxelPath_8h =
       [ "RightRight", "MRVoxelPath_8h.html#gga85e60c553cc81b298c4bfeac4a623b79a8282c1db2ec5b8780478223365a37438", null ],
       [ "All", "MRVoxelPath_8h.html#gga85e60c553cc81b298c4bfeac4a623b79a2b387b6cc4a4d4d822afc0cea2c205ec", null ]
     ] ],
-    [ "SlicePlain", "MRVoxelPath_8h.html#gae7c8689563553fe7686bd6b71ddf8f18", [
-      [ "YZ", "MRVoxelPath_8h.html#ggae7c8689563553fe7686bd6b71ddf8f18a848c5fe5a26f3330bcbedda94181fc74", null ],
-      [ "ZX", "MRVoxelPath_8h.html#ggae7c8689563553fe7686bd6b71ddf8f18a24b4db35f35f7ebe4a15436010a070d9", null ],
-      [ "XY", "MRVoxelPath_8h.html#ggae7c8689563553fe7686bd6b71ddf8f18a3629e4a37a6ff95437939d8664d158e9", null ],
-      [ "None", "MRVoxelPath_8h.html#ggae7c8689563553fe7686bd6b71ddf8f18aa1f9f6e1b4f1f951f67ebeb0c69e1dd4", null ]
+    [ "SlicePlane", "MRVoxelPath_8h.html#ga4412ea17fd4bcca4ad23e987f61c20ab", [
+      [ "YZ", "MRVoxelPath_8h.html#gga4412ea17fd4bcca4ad23e987f61c20aba848c5fe5a26f3330bcbedda94181fc74", null ],
+      [ "ZX", "MRVoxelPath_8h.html#gga4412ea17fd4bcca4ad23e987f61c20aba24b4db35f35f7ebe4a15436010a070d9", null ],
+      [ "XY", "MRVoxelPath_8h.html#gga4412ea17fd4bcca4ad23e987f61c20aba3629e4a37a6ff95437939d8664d158e9", null ],
+      [ "None", "MRVoxelPath_8h.html#gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4", null ]
     ] ],
     [ "buildSmallestMetricPath", "MRVoxelPath_8h.html#ga4861d9b71a36e6d4cf625471751c5dfb", null ],
     [ "voxelsExponentMetric", "MRVoxelPath_8h.html#ga5807f72a84c52af1fd50c83bceef9e63", null ],

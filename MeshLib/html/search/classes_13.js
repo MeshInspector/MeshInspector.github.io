@@ -8,6 +8,5 @@ var searchData=
   ['uniquethreadsafeowner_3c_20mr_3a_3aaabbtree_20_3e_5',['UniqueThreadSafeOwner&lt; MR::AABBTree &gt;',['../classMR_1_1UniqueThreadSafeOwner.html',1,'MR']]],
   ['uniquethreadsafeowner_3c_20mr_3a_3aaabbtreepoints_20_3e_6',['UniqueThreadSafeOwner&lt; MR::AABBTreePoints &gt;',['../classMR_1_1UniqueThreadSafeOwner.html',1,'MR']]],
   ['uniquethreadsafeowner_3c_20mr_3a_3aaabbtreepolyline_3c_20v_20_3e_20_3e_7',['UniqueThreadSafeOwner&lt; MR::AABBTreePolyline&lt; V &gt; &gt;',['../classMR_1_1UniqueThreadSafeOwner.html',1,'MR']]],
-  ['unitemanymeshesparams_8',['UniteManyMeshesParams',['../structMR_1_1UniteManyMeshesParams.html',1,'MR']]],
-  ['uvcoord_9',['UVCoord',['../structMR_1_1UVCoord.html',1,'MR']]]
+  ['unitemanymeshesparams_8',['UniteManyMeshesParams',['../structMR_1_1UniteManyMeshesParams.html',1,'MR']]]
 ];

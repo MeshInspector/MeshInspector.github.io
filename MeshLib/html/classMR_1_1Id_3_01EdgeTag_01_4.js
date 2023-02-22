@@ -10,6 +10,7 @@ var classMR_1_1Id_3_01EdgeTag_01_4 =
     [ "odd", "classMR_1_1Id_3_01EdgeTag_01_4.html#a35aa88076abea5d41a72353fdc770610", null ],
     [ "operator bool", "classMR_1_1Id_3_01EdgeTag_01_4.html#aa1fc3e5e2a0b28eb01dc9637e0f47ff1", null ],
     [ "operator int", "classMR_1_1Id_3_01EdgeTag_01_4.html#a238e87f1bb7d337e57d6c47ac08e6196", null ],
+    [ "operator UndirectedEdgeId", "classMR_1_1Id_3_01EdgeTag_01_4.html#a8362831d25360211025c8d19dc6f951e", null ],
     [ "operator!=", "classMR_1_1Id_3_01EdgeTag_01_4.html#a1db50c3aebd900b87de84802babbc369", null ],
     [ "operator!=", "classMR_1_1Id_3_01EdgeTag_01_4.html#ab0b2924c1a39cdbd51b9e6ba15071b96", null ],
     [ "operator++", "classMR_1_1Id_3_01EdgeTag_01_4.html#a921fef5cf96e4dc657253c65f772ccb1", null ],

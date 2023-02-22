@@ -2,6 +2,7 @@ var structMR_1_1MeshVisualizePropertyType =
 [
     [ "Type", "structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aac", [
       [ "Faces", "structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aaca412b539d3ec908368c90321358bbec25", null ],
+      [ "Texture", "structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aacadd670dae16171623f1b97e32e9124113", null ],
       [ "Edges", "structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aaca3c708a2975a8ac0d9194ded6a862d5c1", null ],
       [ "SelectedFaces", "structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aaca6d341a362301b9df14e3b541532c32be", null ],
       [ "SelectedEdges", "structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aaca88fb4fba2909a781a4c943d7e5f1b7fd", null ],

@@ -108,6 +108,7 @@ var classMR_1_1MeshTopology =
     [ "sharedFace", "classMR_1_1MeshTopology.html#a2f9723359c03f8cc3b6b73f485a960f5", null ],
     [ "sharedVertInOrg", "classMR_1_1MeshTopology.html#a173158279b948d780f1705eaccf66106", null ],
     [ "sharedVertInOrg", "classMR_1_1MeshTopology.html#a48ff82f9ecdf38e6b1b79c2f84ec88b6", null ],
+    [ "shrinkToFit", "classMR_1_1MeshTopology.html#a57af4bd5bfad76fc5291e84032111b30", null ],
     [ "splice", "classMR_1_1MeshTopology.html#a08c1dc2c9e7f3a29a2b313cf8886bff4", null ],
     [ "splitEdge", "classMR_1_1MeshTopology.html#a87859e568a1f9b3265e42c6529c492e2", null ],
     [ "splitFace", "classMR_1_1MeshTopology.html#a7e4d185aad3bebe218568e028e9f6c48", null ],

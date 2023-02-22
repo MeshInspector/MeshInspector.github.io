@@ -146,6 +146,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4ef44e4f7fa459fc2c3ae923db1cdf2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a4ef44e4f7fa459fc2c3ae923db1cdf2c">heapBytes</a> () const</td></tr>
 <tr class="memdesc:a4ef44e4f7fa459fc2c3ae923db1cdf2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:a4ef44e4f7fa459fc2c3ae923db1cdf2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57af4bd5bfad76fc5291e84032111b30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a57af4bd5bfad76fc5291e84032111b30">shrinkToFit</a> ()</td></tr>
+<tr class="memdesc:a57af4bd5bfad76fc5291e84032111b30"><td class="mdescLeft">&#160;</td><td class="mdescRight">requests the removal of unused capacity  <br /></td></tr>
+<tr class="separator:a57af4bd5bfad76fc5291e84032111b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08c1dc2c9e7f3a29a2b313cf8886bff4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a08c1dc2c9e7f3a29a2b313cf8886bff4">splice</a> (<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> a, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> b)</td></tr>
 <tr class="separator:a08c1dc2c9e7f3a29a2b313cf8886bff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2dad4d8d3af9888d8bd8303195aad3b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a2dad4d8d3af9888d8bd8303195aad3b9">next</a> (<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> he) const</td></tr>
@@ -3528,6 +3531,25 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>if two valid faces share the same vertex then it is found and returned as Edge with this vertex in origin </p>
+
+</div>
+</div>
+<a id="a57af4bd5bfad76fc5291e84032111b30" name="a57af4bd5bfad76fc5291e84032111b30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57af4bd5bfad76fc5291e84032111b30">&#9670;&#160;</a></span>shrinkToFit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::MeshTopology::shrinkToFit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>requests the removal of unused capacity </p>
 
 </div>
 </div>

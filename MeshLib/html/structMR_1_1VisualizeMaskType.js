@@ -2,7 +2,6 @@ var structMR_1_1VisualizeMaskType =
 [
     [ "Type", "structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0", [
       [ "Visibility", "structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0a6480df85c7d7a657e8a8adc1a1e566a0", null ],
-      [ "Texture", "structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0aa0e5d5afb3e35be7f4fe202a2146e687", null ],
       [ "InvertedNormals", "structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0aa9ab245ec9543cca01132dc23aa905f1", null ],
       [ "Name", "structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0ab72b78c3e9e37ca07d93dccb6678f264", null ],
       [ "Labels", "structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0a3b012823a9cc50e12b9060c0dab3f27d", null ],
