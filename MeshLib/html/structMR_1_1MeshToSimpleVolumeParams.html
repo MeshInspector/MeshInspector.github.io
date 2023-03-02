@@ -98,7 +98,6 @@ $(document).ready(function(){initNavTree('structMR_1_1MeshToSimpleVolumeParams.h
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1MeshToSimpleVolumeParams-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::MeshToSimpleVolumeParams Struct Reference</div></div>
@@ -118,48 +117,26 @@ $(document).ready(function(){initNavTree('structMR_1_1MeshToSimpleVolumeParams.h
   </map>
 </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:ab15af59c6852f96228d5e78b00cdba8c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshToSimpleVolumeParams.html#ab15af59c6852f96228d5e78b00cdba8c">SignDetectionMode</a> { <a class="el" href="structMR_1_1MeshToSimpleVolumeParams.html#ab15af59c6852f96228d5e78b00cdba8cac6831534824fbde60268448cc711c6fc">Unsigned</a>
-, <a class="el" href="structMR_1_1MeshToSimpleVolumeParams.html#ab15af59c6852f96228d5e78b00cdba8cac535f84fe7199ebdfe80d01453220b95">TopologyOrientation</a>
-, <a class="el" href="structMR_1_1MeshToSimpleVolumeParams.html#ab15af59c6852f96228d5e78b00cdba8ca9e848a3e85fb5832ab2af97c3dfbcf8b">WindingRule</a>
- }</td></tr>
-<tr class="separator:ab15af59c6852f96228d5e78b00cdba8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a0d4f7e4478454002578eccb55bbcd4a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshToSimpleVolumeParams.html#a0d4f7e4478454002578eccb55bbcd4a2">dimensions</a> { 100,100,100 }</td></tr>
+<tr class="memdesc:a0d4f7e4478454002578eccb55bbcd4a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">num voxels along each axis  <br /></td></tr>
 <tr class="separator:a0d4f7e4478454002578eccb55bbcd4a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2503a9edc12ddb76e9f283962da05c19"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshToSimpleVolumeParams.html#a2503a9edc12ddb76e9f283962da05c19">minDistSq</a> { 0 }</td></tr>
+<tr class="memdesc:a2503a9edc12ddb76e9f283962da05c19"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum squared value in a voxel  <br /></td></tr>
+<tr class="separator:a2503a9edc12ddb76e9f283962da05c19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadeb042e1e8932db68f90e7190f60eb4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshToSimpleVolumeParams.html#aadeb042e1e8932db68f90e7190f60eb4">maxDistSq</a> { FLT_MAX }</td></tr>
+<tr class="memdesc:aadeb042e1e8932db68f90e7190f60eb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum squared value in a voxel  <br /></td></tr>
 <tr class="separator:aadeb042e1e8932db68f90e7190f60eb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4060b0d867a3781e86da36628622356b"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="structMR_1_1MeshToSimpleVolumeParams.html#ab15af59c6852f96228d5e78b00cdba8c">MR::MeshToSimpleVolumeParams::SignDetectionMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshToSimpleVolumeParams.html#a4060b0d867a3781e86da36628622356b">TopologyOrientation</a></td></tr>
-<tr class="separator:a4060b0d867a3781e86da36628622356b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef5ffdfa74b7c7ce040287f74b061666"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309">SignDetectionMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshToSimpleVolumeParams.html#aef5ffdfa74b7c7ce040287f74b061666">signMode</a> { <a class="el" href="namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9">SignDetectionMode::ProjectionNormal</a> }</td></tr>
+<tr class="memdesc:aef5ffdfa74b7c7ce040287f74b061666"><td class="mdescLeft">&#160;</td><td class="mdescRight">the method to compute distance sign  <br /></td></tr>
+<tr class="separator:aef5ffdfa74b7c7ce040287f74b061666"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_structMR_1_1BaseVolumeConversionParams"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_structMR_1_1BaseVolumeConversionParams')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structMR_1_1BaseVolumeConversionParams.html">MR::BaseVolumeConversionParams</a></td></tr>
 <tr class="memitem:aa52ab53a893fe1572f64ffd3f9188339 inherit pub_attribs_structMR_1_1BaseVolumeConversionParams"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BaseVolumeConversionParams.html#aa52ab53a893fe1572f64ffd3f9188339">basis</a></td></tr>
 <tr class="separator:aa52ab53a893fe1572f64ffd3f9188339 inherit pub_attribs_structMR_1_1BaseVolumeConversionParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab114448795ec3cb896ebc8754cf5eb16 inherit pub_attribs_structMR_1_1BaseVolumeConversionParams"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BaseVolumeConversionParams.html#ab114448795ec3cb896ebc8754cf5eb16">cb</a> {}</td></tr>
 <tr class="separator:ab114448795ec3cb896ebc8754cf5eb16 inherit pub_attribs_structMR_1_1BaseVolumeConversionParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="ab15af59c6852f96228d5e78b00cdba8c" name="ab15af59c6852f96228d5e78b00cdba8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab15af59c6852f96228d5e78b00cdba8c">&#9670;&#160;</a></span>SignDetectionMode</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="structMR_1_1MeshToSimpleVolumeParams.html#ab15af59c6852f96228d5e78b00cdba8c">MR::MeshToSimpleVolumeParams::SignDetectionMode</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab15af59c6852f96228d5e78b00cdba8cac6831534824fbde60268448cc711c6fc" name="ab15af59c6852f96228d5e78b00cdba8cac6831534824fbde60268448cc711c6fc"></a>Unsigned&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab15af59c6852f96228d5e78b00cdba8cac535f84fe7199ebdfe80d01453220b95" name="ab15af59c6852f96228d5e78b00cdba8cac535f84fe7199ebdfe80d01453220b95"></a>TopologyOrientation&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab15af59c6852f96228d5e78b00cdba8ca9e848a3e85fb5832ab2af97c3dfbcf8b" name="ab15af59c6852f96228d5e78b00cdba8ca9e848a3e85fb5832ab2af97c3dfbcf8b"></a>WindingRule&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a0d4f7e4478454002578eccb55bbcd4a2" name="a0d4f7e4478454002578eccb55bbcd4a2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0d4f7e4478454002578eccb55bbcd4a2">&#9670;&#160;</a></span>dimensions</h2>
@@ -172,6 +149,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>num voxels along each axis </p>
 
 </div>
 </div>
@@ -187,19 +166,39 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>maximum squared value in a voxel </p>
+
 </div>
 </div>
-<a id="a4060b0d867a3781e86da36628622356b" name="a4060b0d867a3781e86da36628622356b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4060b0d867a3781e86da36628622356b">&#9670;&#160;</a></span>TopologyOrientation</h2>
+<a id="a2503a9edc12ddb76e9f283962da05c19" name="a2503a9edc12ddb76e9f283962da05c19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2503a9edc12ddb76e9f283962da05c19">&#9670;&#160;</a></span>minDistSq</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="structMR_1_1MeshToSimpleVolumeParams.html#ab15af59c6852f96228d5e78b00cdba8c">MR::MeshToSimpleVolumeParams::SignDetectionMode</a> MR::MeshToSimpleVolumeParams::TopologyOrientation</td>
+          <td class="memname">float MR::MeshToSimpleVolumeParams::minDistSq { 0 }</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>minimum squared value in a voxel </p>
+
+</div>
+</div>
+<a id="aef5ffdfa74b7c7ce040287f74b061666" name="aef5ffdfa74b7c7ce040287f74b061666"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef5ffdfa74b7c7ce040287f74b061666">&#9670;&#160;</a></span>signMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309">SignDetectionMode</a> MR::MeshToSimpleVolumeParams::signMode { <a class="el" href="namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9">SignDetectionMode::ProjectionNormal</a> }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the method to compute distance sign </p>
 
 </div>
 </div>

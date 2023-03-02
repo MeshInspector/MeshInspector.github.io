@@ -117,8 +117,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6af89b7c93e4591719b2ffd0eeeffd07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FastWindingNumber.html#a6af89b7c93e4591719b2ffd0eeeffd07">FastWindingNumber</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="separator:a6af89b7c93e4591719b2ffd0eeeffd07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3c3f07913afccead157b1316c06dff7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FastWindingNumber.html#ae3c3f07913afccead157b1316c06dff7">calc</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;q, float beta) const</td></tr>
-<tr class="separator:ae3c3f07913afccead157b1316c06dff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03be0613f5f63cea05547e78110bdd10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FastWindingNumber.html#a03be0613f5f63cea05547e78110bdd10">calc</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;q, float beta, <a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> skipFace={}) const</td></tr>
+<tr class="separator:a03be0613f5f63cea05547e78110bdd10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>the class for fast approximate computation of winding number for a mesh (using its AABB tree) </p>
@@ -158,14 +158,14 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae3c3f07913afccead157b1316c06dff7" name="ae3c3f07913afccead157b1316c06dff7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3c3f07913afccead157b1316c06dff7">&#9670;&#160;</a></span>calc()</h2>
+<a id="a03be0613f5f63cea05547e78110bdd10" name="a03be0613f5f63cea05547e78110bdd10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03be0613f5f63cea05547e78110bdd10">&#9670;&#160;</a></span>calc()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float MR::FastWindingNumber::calc </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::FastWindingNumber::calc </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
           <td class="paramname"><em>q</em>, </td>
@@ -174,7 +174,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>beta</em>&#160;</td>
+          <td class="paramname"><em>beta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a>&#160;</td>
+          <td class="paramname"><em>skipFace</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -187,6 +193,8 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">q;</td><td></td></tr>
     <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more; if distance from q to the center of some triangle group is more than beta times the distance from the center to most distance triangle in the group then we use approximate formula </td></tr>
+    <tr><td class="paramname">skipFace</td><td>this triangle (if it is close to</td></tr>
+    <tr><td class="paramname">q)</td><td>will be skipped from summation </td></tr>
   </table>
   </dd>
 </dl>

@@ -108,7 +108,7 @@ $(document).ready(function(){initNavTree('MRVDBConversions_8h.html',''); initRes
 <code>#include &quot;<a class="el" href="MRMeshPart_8h_source.html">MRMeshPart.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRAffineXf3_8h_source.html">MRAffineXf3.h</a>&quot;</code><br />
-<code>#include &lt;tl/expected.hpp&gt;</code><br />
+<code>#include &quot;<a class="el" href="MRExpected_8h_source.html">MRExpected.h</a>&quot;</code><br />
 <code>#include &lt;string&gt;</code><br />
 </div>
 <p><a href="MRVDBConversions_8h_source.html">Go to the source code of this file.</a></p>
@@ -155,6 +155,8 @@ Functions</h2></td></tr>
 <tr class="separator:a852f2b0e5a98125b103fc9b31ed20d82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f4142ce56635a4d11deda7730a7fb00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Mesh, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3f4142ce56635a4d11deda7730a7fb00">MR::gridToMesh</a> (VdbVolume &amp;&amp;vdbVolume, int maxFaces, float isoValue=0.0f, float adaptivity=0.0f, ProgressCallback cb={})</td></tr>
 <tr class="separator:a3f4142ce56635a4d11deda7730a7fb00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae799821853b15fea3d01f0b5ed7d313f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VoidOrErrStr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ae799821853b15fea3d01f0b5ed7d313f">MR::makeSignedWithFastWinding</a> (FloatGrid &amp;grid, const Vector3f &amp;voxelSize, const Mesh &amp;refMesh, ProgressCallback cb={})</td></tr>
+<tr class="separator:ae799821853b15fea3d01f0b5ed7d313f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a841edb266cf1e056637d35c94efac107"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; Mesh, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a841edb266cf1e056637d35c94efac107">MR::levelSetDoubleConvertion</a> (const MeshPart &amp;mp, const AffineXf3f &amp;xf, float voxelSize, float offsetA, float offsetB, float adaptivity=0.0f, ProgressCallback cb={})</td></tr>
 <tr class="separator:a841edb266cf1e056637d35c94efac107"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>

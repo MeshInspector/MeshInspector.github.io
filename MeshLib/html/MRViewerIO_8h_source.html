@@ -101,28 +101,31 @@ $(document).ready(function(){initNavTree('MRViewerIO_8h_source.html',''); initRe
 </div><!--header-->
 <div class="contents">
 <a href="MRViewerIO_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;exports.h&quot;</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRProgressCallback_8h.html">MRMesh/MRProgressCallback.h</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;filesystem&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;cstring&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;tl/expected.hpp&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">class </span>Object;</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="namespaceMR.html#a51033c9af8102db8874604928f6f8de6">   17</a></span>MRVIEWER_API tl::expected&lt;void, std::string&gt; <a class="code hl_function" href="namespaceMR.html#a51033c9af8102db8874604928f6f8de6">saveObjectToFile</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1Object.html">Object</a>&amp; obj, <span class="keyword">const</span> std::filesystem::path&amp; filename,</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>                                                               <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback = {} );</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;exports.h&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRExpected_8h.html">MRMesh/MRExpected.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRProgressCallback_8h.html">MRMesh/MRProgressCallback.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;filesystem&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;cstring&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">class </span>Object;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="namespaceMR.html#a73920061bf168999f6b9778ff9b02b3e">   18</a></span>MRVIEWER_API <a class="code hl_typedef" href="namespaceMR.html#abc0c7c90dd12e914016d628ab674d1ae">VoidOrErrStr</a> <a class="code hl_function" href="namespaceMR.html#a73920061bf168999f6b9778ff9b02b3e">saveObjectToFile</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1Object.html">Object</a>&amp; obj, <span class="keyword">const</span> std::filesystem::path&amp; filename,</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>                                                               <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback = {} );</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>}</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>}</div>
+<div class="ttc" id="aMRExpected_8h_html"><div class="ttname"><a href="MRExpected_8h.html">MRExpected.h</a></div></div>
 <div class="ttc" id="aMRProgressCallback_8h_html"><div class="ttname"><a href="MRProgressCallback_8h.html">MRProgressCallback.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1Object_html"><div class="ttname"><a href="classMR_1_1Object.html">MR::Object</a></div><div class="ttdoc">named object in the data model</div><div class="ttdef"><b>Definition:</b> MRObject.h:74</div></div>
+<div class="ttc" id="aclassMR_1_1Object_html"><div class="ttname"><a href="classMR_1_1Object.html">MR::Object</a></div><div class="ttdoc">named object in the data model</div><div class="ttdef"><b>Definition:</b> MRObject.h:73</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition:</b> MRProgressCallback.h:11</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRCameraOrientationPlugin.h:7</div></div>
-<div class="ttc" id="anamespaceMR_html_a51033c9af8102db8874604928f6f8de6"><div class="ttname"><a href="namespaceMR.html#a51033c9af8102db8874604928f6f8de6">MR::saveObjectToFile</a></div><div class="ttdeci">MRVIEWER_API tl::expected&lt; void, std::string &gt; saveObjectToFile(const Object &amp;obj, const std::filesystem::path &amp;filename, ProgressCallback callback={})</div><div class="ttdoc">save visual object (mesh, lines, points or voxels) to file</div></div>
+<div class="ttc" id="anamespaceMR_html_a73920061bf168999f6b9778ff9b02b3e"><div class="ttname"><a href="namespaceMR.html#a73920061bf168999f6b9778ff9b02b3e">MR::saveObjectToFile</a></div><div class="ttdeci">MRVIEWER_API VoidOrErrStr saveObjectToFile(const Object &amp;obj, const std::filesystem::path &amp;filename, ProgressCallback callback={})</div><div class="ttdoc">save visual object (mesh, lines, points or voxels) to file</div></div>
+<div class="ttc" id="anamespaceMR_html_abc0c7c90dd12e914016d628ab674d1ae"><div class="ttname"><a href="namespaceMR.html#abc0c7c90dd12e914016d628ab674d1ae">MR::VoidOrErrStr</a></div><div class="ttdeci">tl::expected&lt; void, std::string &gt; VoidOrErrStr</div><div class="ttdoc">return type for a void function that can produce an error string</div><div class="ttdef"><b>Definition:</b> MRExpected.h:11</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

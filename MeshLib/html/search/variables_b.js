@@ -48,9 +48,9 @@ var searchData=
   ['method_45',['method',['../structMR_1_1ICPProperties.html#aaebab641b9a81a0d03d0a64d155ea22f',1,'MR::ICPProperties']]],
   ['metric_46',['metric',['../structMR_1_1TerminalVertex.html#ab851f9e73d6568c7bda22cae8c669238',1,'MR::TerminalVertex::metric()'],['../structMR_1_1VertPathInfo.html#a2530c5bd3051baea96398e09ade9e59e',1,'MR::VertPathInfo::metric()'],['../structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a86bbb1910bc530c8f88287ede3605c5f',1,'MR::EdgePathsBuilderT::ReachedVert::metric()'],['../structMR_1_1FillHoleParams.html#a6ab1c2d2eb0cbb97455c747713f2371d',1,'MR::FillHoleParams::metric()'],['../structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020',1,'MR::StitchHolesParams::metric()']]],
   ['metrictopenalty_5f_47',['metricToPenalty_',['../classMR_1_1EdgePathsBuilderT.html#a951e1aef2547463398bfb912b6224dbf',1,'MR::EdgePathsBuilderT']]],
-  ['min_48',['min',['../structMR_1_1VoxelsVolume.html#a4fbcc865f20f28b1e80031ce1cc5263c',1,'MR::VoxelsVolume::min()'],['../structMR_1_1MarkedVoxelSlice_1_1Parameters.html#aa1adf8bb92d44c2f71e211d90450d693',1,'MR::MarkedVoxelSlice::Parameters::min()'],['../structMR_1_1Box.html#acc1e8e06848f35838481ee10e0308cda',1,'MR::Box::min()']]],
-  ['minnewvertdev_49',['minNewVertDev',['../structMR_1_1SharpenMarchingCubesMeshSettings.html#ac280940d9748f10a71a06ffc496d1802',1,'MR::SharpenMarchingCubesMeshSettings::minNewVertDev()'],['../structMR_1_1SharpOffsetParameters.html#af01c8832be1a64bae952f261154116cf',1,'MR::SharpOffsetParameters::minNewVertDev()']]],
-  ['minnormaldot_50',['minNormalDot',['../structMR_1_1SharpenMarchingCubesMeshSettings.html#a09ace82e9d383eddd90d17973d47666b',1,'MR::SharpenMarchingCubesMeshSettings']]],
+  ['min_48',['min',['../structMR_1_1Box.html#acc1e8e06848f35838481ee10e0308cda',1,'MR::Box::min()'],['../structMR_1_1MarkedVoxelSlice_1_1Parameters.html#aa1adf8bb92d44c2f71e211d90450d693',1,'MR::MarkedVoxelSlice::Parameters::min()'],['../structMR_1_1VoxelsVolume.html#a4fbcc865f20f28b1e80031ce1cc5263c',1,'MR::VoxelsVolume::min()']]],
+  ['mindistsq_49',['minDistSq',['../structMR_1_1MeshToSimpleVolumeParams.html#a2503a9edc12ddb76e9f283962da05c19',1,'MR::MeshToSimpleVolumeParams']]],
+  ['minnewvertdev_50',['minNewVertDev',['../structMR_1_1SharpenMarchingCubesMeshSettings.html#ac280940d9748f10a71a06ffc496d1802',1,'MR::SharpenMarchingCubesMeshSettings::minNewVertDev()'],['../structMR_1_1SharpOffsetParameters.html#af01c8832be1a64bae952f261154116cf',1,'MR::SharpOffsetParameters::minNewVertDev()']]],
   ['minsharpdihedralangle_51',['minSharpDihedralAngle',['../structMR_1_1SubdivideSettings.html#a55b830f7823b4a74b6891945bafa12a5',1,'MR::SubdivideSettings']]],
   ['mintimesec_52',['minTimeSec',['../structMR_1_1ThreadRootTimeRecord.html#afcc5ed565036ccc1c8fb6062fe2b4405',1,'MR::ThreadRootTimeRecord']]],
   ['minvalue_53',['minValue',['../structMR_1_1MeshToDistanceMapParams.html#a0a6eecb875a2ecf0083eb4d21451bbad',1,'MR::MeshToDistanceMapParams']]],
@@ -62,6 +62,7 @@ var searchData=
   ['mousemovesignal_59',['mouseMoveSignal',['../classMR_1_1Viewer.html#a64f16d29c9e05a7d11895a72ee949b40',1,'MR::Viewer']]],
   ['mousescrollsignal_60',['mouseScrollSignal',['../classMR_1_1Viewer.html#a5d2a1b3b7a99b0da26c4c32607f77f43',1,'MR::Viewer']]],
   ['mouseupsignal_61',['mouseUpSignal',['../classMR_1_1Viewer.html#ac925807dff05cad2a8645c439e27583b',1,'MR::Viewer']]],
-  ['mtp_62',['mtp',['../structMR_1_1MeshIntersectionResult.html#aa6767f8fee0dd3f9883b1657e2d9fcb2',1,'MR::MeshIntersectionResult::mtp()'],['../structMR_1_1SignedDistanceToMeshResult.html#aec6c1291f51d451f8ab2bcf2d9371c41',1,'MR::SignedDistanceToMeshResult::mtp()'],['../structMR_1_1MeshProjectionResult.html#ab598491c26bf32f15bbd10cbb2bfb7a1',1,'MR::MeshProjectionResult::mtp()']]],
-  ['mutex_5f_63',['mutex_',['../classMR_1_1UniqueThreadSafeOwner.html#a94e7f67a2b000245c485e031e80f2f76',1,'MR::UniqueThreadSafeOwner']]]
+  ['mproc_62',['mProc',['../classMR_1_1RangeProcessorSingle.html#a264a04656289a9abfa5a0ce6ff0a9b96',1,'MR::RangeProcessorSingle']]],
+  ['mtp_63',['mtp',['../structMR_1_1MeshIntersectionResult.html#aa6767f8fee0dd3f9883b1657e2d9fcb2',1,'MR::MeshIntersectionResult::mtp()'],['../structMR_1_1SignedDistanceToMeshResult.html#aec6c1291f51d451f8ab2bcf2d9371c41',1,'MR::SignedDistanceToMeshResult::mtp()'],['../structMR_1_1MeshProjectionResult.html#ab598491c26bf32f15bbd10cbb2bfb7a1',1,'MR::MeshProjectionResult::mtp()']]],
+  ['mutex_5f_64',['mutex_',['../classMR_1_1UniqueThreadSafeOwner.html#a94e7f67a2b000245c485e031e80f2f76',1,'MR::UniqueThreadSafeOwner']]]
 ];

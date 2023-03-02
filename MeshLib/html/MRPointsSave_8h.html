@@ -105,14 +105,12 @@ $(document).ready(function(){initNavTree('MRPointsSave_8h.html',''); initResizab
   <div class="headertitle"><div class="title">MRPointsSave.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
-<code>#include &lt;tl/expected.hpp&gt;</code><br />
-<code>#include &lt;filesystem&gt;</code><br />
-<code>#include &lt;ostream&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="MRExpected_8h_source.html">MRExpected.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRPointCloud_8h_source.html">MRPointCloud.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRIOFilters_8h_source.html">MRIOFilters.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
+<code>#include &lt;filesystem&gt;</code><br />
+<code>#include &lt;ostream&gt;</code><br />
 </div>
 <p><a href="MRPointsSave_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -130,22 +128,22 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gae3cf2975e9bb5fc0ae37f67d36f8a8cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointsSaveGroup.html#gae3cf2975e9bb5fc0ae37f67d36f8a8cd">MR::PointsSave::toPly</a> (const PointCloud &amp;points, const std::filesystem::path &amp;file, const Vector&lt; Color, VertId &gt; *colors=nullptr, ProgressCallback callback={})</td></tr>
-<tr class="memdesc:gae3cf2975e9bb5fc0ae37f67d36f8a8cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .ply file  <br /></td></tr>
-<tr class="separator:gae3cf2975e9bb5fc0ae37f67d36f8a8cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad66665cc70cb5b5f88bb663b5594f14b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointsSaveGroup.html#gad66665cc70cb5b5f88bb663b5594f14b">MR::PointsSave::toPly</a> (const PointCloud &amp;points, std::ostream &amp;out, const Vector&lt; Color, VertId &gt; *colors=nullptr, ProgressCallback callback={})</td></tr>
-<tr class="separator:gad66665cc70cb5b5f88bb663b5594f14b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8ef11234b59da5439e90cb0df43b7726"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointsSaveGroup.html#ga8ef11234b59da5439e90cb0df43b7726">MR::PointsSave::toCtm</a> (const PointCloud &amp;points, const std::filesystem::path &amp;file, const Vector&lt; Color, VertId &gt; *colors=nullptr, const CtmSavePointsOptions &amp;options={}, ProgressCallback callback={})</td></tr>
-<tr class="memdesc:ga8ef11234b59da5439e90cb0df43b7726"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .ctm file  <br /></td></tr>
-<tr class="separator:ga8ef11234b59da5439e90cb0df43b7726"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga73f2e916046723bdc6a249222f537ad8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointsSaveGroup.html#ga73f2e916046723bdc6a249222f537ad8">MR::PointsSave::toCtm</a> (const PointCloud &amp;points, std::ostream &amp;out, const Vector&lt; Color, VertId &gt; *colors=nullptr, const CtmSavePointsOptions &amp;options={}, ProgressCallback callback={})</td></tr>
-<tr class="separator:ga73f2e916046723bdc6a249222f537ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4bd4bf3541f5b10c5ab7fda3fdeebc48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointsSaveGroup.html#ga4bd4bf3541f5b10c5ab7fda3fdeebc48">MR::PointsSave::toAnySupportedFormat</a> (const PointCloud &amp;points, const std::filesystem::path &amp;file, const Vector&lt; Color, VertId &gt; *colors=nullptr, ProgressCallback callback={})</td></tr>
-<tr class="memdesc:ga4bd4bf3541f5b10c5ab7fda3fdeebc48"><td class="mdescLeft">&#160;</td><td class="mdescRight">detects the format from file extension and save points to it  <br /></td></tr>
-<tr class="separator:ga4bd4bf3541f5b10c5ab7fda3fdeebc48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae3f3adaca22e0cde0be5ae3f421340d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointsSaveGroup.html#gae3f3adaca22e0cde0be5ae3f421340d5">MR::PointsSave::toAnySupportedFormat</a> (const PointCloud &amp;points, std::ostream &amp;out, const std::string &amp;extension, const Vector&lt; Color, VertId &gt; *colors=nullptr, ProgressCallback callback={})</td></tr>
-<tr class="memdesc:gae3f3adaca22e0cde0be5ae3f421340d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">extension in <code>*.ext</code> format  <br /></td></tr>
-<tr class="separator:gae3f3adaca22e0cde0be5ae3f421340d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga64c48a9df77e6fe07d71161bccd5c50f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VoidOrErrStr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointsSaveGroup.html#ga64c48a9df77e6fe07d71161bccd5c50f">MR::PointsSave::toPly</a> (const PointCloud &amp;points, const std::filesystem::path &amp;file, const Vector&lt; Color, VertId &gt; *colors=nullptr, ProgressCallback callback={})</td></tr>
+<tr class="memdesc:ga64c48a9df77e6fe07d71161bccd5c50f"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .ply file  <br /></td></tr>
+<tr class="separator:ga64c48a9df77e6fe07d71161bccd5c50f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga71652fb3c28e6f4bad4b602a5884c58d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VoidOrErrStr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointsSaveGroup.html#ga71652fb3c28e6f4bad4b602a5884c58d">MR::PointsSave::toPly</a> (const PointCloud &amp;points, std::ostream &amp;out, const Vector&lt; Color, VertId &gt; *colors=nullptr, ProgressCallback callback={})</td></tr>
+<tr class="separator:ga71652fb3c28e6f4bad4b602a5884c58d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7fdbfbcd9ecbe482e963f42eb1c249e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VoidOrErrStr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointsSaveGroup.html#ga7fdbfbcd9ecbe482e963f42eb1c249e2">MR::PointsSave::toCtm</a> (const PointCloud &amp;points, const std::filesystem::path &amp;file, const Vector&lt; Color, VertId &gt; *colors=nullptr, const CtmSavePointsOptions &amp;options={}, ProgressCallback callback={})</td></tr>
+<tr class="memdesc:ga7fdbfbcd9ecbe482e963f42eb1c249e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .ctm file  <br /></td></tr>
+<tr class="separator:ga7fdbfbcd9ecbe482e963f42eb1c249e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8ac3babc59fe6ec54e21123c3ec34443"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VoidOrErrStr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointsSaveGroup.html#ga8ac3babc59fe6ec54e21123c3ec34443">MR::PointsSave::toCtm</a> (const PointCloud &amp;points, std::ostream &amp;out, const Vector&lt; Color, VertId &gt; *colors=nullptr, const CtmSavePointsOptions &amp;options={}, ProgressCallback callback={})</td></tr>
+<tr class="separator:ga8ac3babc59fe6ec54e21123c3ec34443"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga24d9bd740eb37698844005a81814cbdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VoidOrErrStr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointsSaveGroup.html#ga24d9bd740eb37698844005a81814cbdd">MR::PointsSave::toAnySupportedFormat</a> (const PointCloud &amp;points, const std::filesystem::path &amp;file, const Vector&lt; Color, VertId &gt; *colors=nullptr, ProgressCallback callback={})</td></tr>
+<tr class="memdesc:ga24d9bd740eb37698844005a81814cbdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">detects the format from file extension and save points to it  <br /></td></tr>
+<tr class="separator:ga24d9bd740eb37698844005a81814cbdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaccba34ba58f31d9248da4d1834b29aee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VoidOrErrStr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointsSaveGroup.html#gaccba34ba58f31d9248da4d1834b29aee">MR::PointsSave::toAnySupportedFormat</a> (const PointCloud &amp;points, std::ostream &amp;out, const std::string &amp;extension, const Vector&lt; Color, VertId &gt; *colors=nullptr, ProgressCallback callback={})</td></tr>
+<tr class="memdesc:gaccba34ba58f31d9248da4d1834b29aee"><td class="mdescLeft">&#160;</td><td class="mdescRight">extension in <code>*.ext</code> format  <br /></td></tr>
+<tr class="separator:gaccba34ba58f31d9248da4d1834b29aee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>

@@ -123,6 +123,13 @@ var group__HistoryGroup =
       [ "name", "classMR_1_1ChangePointPointSelectionAction.html#a7ebe140792b37c16fdd8f129492ad4c8", null ],
       [ "selection", "classMR_1_1ChangePointPointSelectionAction.html#a3d3f98681572b719c29e2acd8ef99619", null ]
     ] ],
+    [ "MR::ChangeVertsColorMapAction", "classMR_1_1ChangeVertsColorMapAction.html", [
+      [ "Obj", "classMR_1_1ChangeVertsColorMapAction.html#acbea3a354ac04c83aac4d24b63c108a7", null ],
+      [ "ChangeVertsColorMapAction", "classMR_1_1ChangeVertsColorMapAction.html#a85820c2fb1b34f635d51b6ca5b5b626a", null ],
+      [ "action", "classMR_1_1ChangeVertsColorMapAction.html#a1a95d1d7e2662430d2a44131bb888751", null ],
+      [ "heapBytes", "classMR_1_1ChangeVertsColorMapAction.html#a5b053d5d184fadd40dde5737102c208f", null ],
+      [ "name", "classMR_1_1ChangeVertsColorMapAction.html#afab050a8026282cb3ade8eff783f95e4", null ]
+    ] ],
     [ "MR::ChangeIsoAction", "classMR_1_1ChangeIsoAction.html", [
       [ "Obj", "classMR_1_1ChangeIsoAction.html#a87c8f47bac3f2dd7b904a9d9497f7fb7", null ],
       [ "ChangeIsoAction", "classMR_1_1ChangeIsoAction.html#aa092c6c8626b2f08f27c88210a2df02e", null ],

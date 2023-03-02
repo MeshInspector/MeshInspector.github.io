@@ -127,6 +127,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a2302742bd2200fd6a5f9e078015705c1"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e1, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#a2302742bd2200fd6a5f9e078015705c1">onEdgeSplit</a></td></tr>
 <tr class="memdesc:a2302742bd2200fd6a5f9e078015705c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone  <br /></td></tr>
 <tr class="separator:a2302742bd2200fd6a5f9e078015705c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae47bb1dc61a019d8b23cdfd9d0343018"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> edgeToCollapse, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;newEdgeOrgPos)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#ae47bb1dc61a019d8b23cdfd9d0343018">preCollapse</a></td></tr>
+<tr class="memdesc:ae47bb1dc61a019d8b23cdfd9d0343018"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can provide this optional callback that is invoked immediately before edge collapse;.  <br /></td></tr>
+<tr class="separator:ae47bb1dc61a019d8b23cdfd9d0343018"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac65eb4c2e1f090a756362df72b272d6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#ac65eb4c2e1f090a756362df72b272d6e">progressCallback</a></td></tr>
 <tr class="memdesc:ac65eb4c2e1f090a756362df72b272d6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback to report algorithm progress and cancel it by user request  <br /></td></tr>
 <tr class="separator:ac65eb4c2e1f090a756362df72b272d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -193,6 +196,23 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>whether to pack mesh at the end </p>
+
+</div>
+</div>
+<a id="ae47bb1dc61a019d8b23cdfd9d0343018" name="ae47bb1dc61a019d8b23cdfd9d0343018"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae47bb1dc61a019d8b23cdfd9d0343018">&#9670;&#160;</a></span>preCollapse</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;bool( <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> edgeToCollapse, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>&amp; newEdgeOrgPos )&gt; MR::RemeshSettings::preCollapse</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The user can provide this optional callback that is invoked immediately before edge collapse;. </p>
+<p>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited </p>
 
 </div>
 </div>

@@ -38,6 +38,8 @@ var group__ViewportGroup =
       [ "operator++", "classMR_1_1ViewportIterator.html#a1da127569258f48e6aa775d9d866b29e", null ]
     ] ],
     [ "MR::ViewportProperty< T >", "classMR_1_1ViewportProperty.html", [
+      [ "ViewportProperty", "classMR_1_1ViewportProperty.html#a08a3a7775fba5eb3fce855a27cf8d586", null ],
+      [ "ViewportProperty", "classMR_1_1ViewportProperty.html#a2586f5567b0637427c76e0c13b0bfa95", null ],
       [ "get", "classMR_1_1ViewportProperty.html#a2bd23f5da1c45f3e3883a09d930aa408", null ],
       [ "get", "classMR_1_1ViewportProperty.html#a84c311368b6811ab85337014147411cd", null ],
       [ "get", "classMR_1_1ViewportProperty.html#aa0bc0587aca60d445e368fe7c746ef01", null ],

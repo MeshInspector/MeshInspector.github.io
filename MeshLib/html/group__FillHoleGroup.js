@@ -36,6 +36,7 @@ var group__FillHoleGroup =
     [ "MR::buildBottom", "group__FillHoleGroup.html#ga7bee2d636a1f5f931ac54f6f841c07f7", null ],
     [ "MR::buildCylinderBetweenTwoHoles", "group__FillHoleGroup.html#gaf61677f65331b42d3022a70d4b550a13", null ],
     [ "MR::buildCylinderBetweenTwoHoles", "group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157", null ],
+    [ "MR::calcCombinedFillMetric", "group__FillHoleGroup.html#ga42f6ba6ec6bdfa6f27d1045e79b9346e", null ],
     [ "MR::executeFillHolePlan", "group__FillHoleGroup.html#gaeb85fd620b295d0f3179fd85b78c5480", null ],
     [ "MR::extendHole", "group__FillHoleGroup.html#ga3c7779fd4cc2d941f67da4462b2d0121", null ],
     [ "MR::extendHole", "group__FillHoleGroup.html#ga067cc1eda81ae410fdf9299ca802738a", null ],

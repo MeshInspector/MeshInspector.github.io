@@ -15,5 +15,5 @@ var MRDistanceMap_8h =
     [ "distanceMapToMesh", "MRDistanceMap_8h.html#ga14e2ca40329157ab1e6505de903fee55", null ],
     [ "edgePointsFromContours", "MRDistanceMap_8h.html#ga24734ef2060f40a2638ace7c7f2ac54e", null ],
     [ "loadDistanceMapFromImage", "MRDistanceMap_8h.html#gadbee6a2fc88cfd473ca9702fe2e1e4b5", null ],
-    [ "saveDistanceMapToImage", "MRDistanceMap_8h.html#gabfcd1289c0caec5d6a362c2784b8c984", null ]
+    [ "saveDistanceMapToImage", "MRDistanceMap_8h.html#gad32dba15de75a916f90af8e79efca23c", null ]
 ];

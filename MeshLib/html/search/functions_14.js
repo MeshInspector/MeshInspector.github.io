@@ -22,7 +22,7 @@ var searchData=
   ['unprojectinterpolated_19',['unprojectInterpolated',['../classMR_1_1DistanceMap.html#aac75468f5688d9ad183f855f7eb007e8',1,'MR::DistanceMap']]],
   ['unprojectpixelray_20',['unprojectPixelRay',['../classMR_1_1Viewport.html#a82a8f9d0d4ea9aee8a0cd3a742059cbc',1,'MR::Viewport']]],
   ['unregisterthreadroottimerecord_21',['unregisterThreadRootTimeRecord',['../group__BasicGroup.html#gac017b35cedae37be54b10e3302c6c71d',1,'MR']]],
-  ['unset_22',['unset',['../classMR_1_1DistanceMap.html#ae9daffb9c88428b1354e37aa4c55fb9d',1,'MR::DistanceMap::unset(size_t i)'],['../classMR_1_1DistanceMap.html#accb80725a2b8dca649a538bcf090f98f',1,'MR::DistanceMap::unset(size_t x, size_t y)']]],
+  ['unset_22',['unset',['../classMR_1_1DistanceMap.html#accb80725a2b8dca649a538bcf090f98f',1,'MR::DistanceMap::unset(size_t x, size_t y)'],['../classMR_1_1DistanceMap.html#ae9daffb9c88428b1354e37aa4c55fb9d',1,'MR::DistanceMap::unset(size_t i)']]],
   ['update_23',['update',['../classMR_1_1ImGuiImage.html#aa1bd137d3093a9f7422dc445457b692f',1,'MR::ImGuiImage']]],
   ['updateancillaryuvcoords_24',['updateAncillaryUVCoords',['../classMR_1_1ObjectMeshHolder.html#ab99d3a9166b0ae7c1981a3d74292aecc',1,'MR::ObjectMeshHolder']]],
   ['updatebox_25',['updateBox',['../classMR_1_1PlaneWidget.html#a8ae56fec0c4c5e422a127b1db23a053d',1,'MR::PlaneWidget']]],
@@ -41,7 +41,8 @@ var searchData=
   ['updateuvcoords_38',['updateUVCoords',['../classMR_1_1ObjectMeshHolder.html#aa60920a2b1e8b33531c9cf306ff8e831',1,'MR::ObjectMeshHolder']]],
   ['updatevdbvolume_39',['updateVdbVolume',['../classMR_1_1ObjectVoxels.html#aa2cc2fe9f238d2f29c8dffb80ebc675f',1,'MR::ObjectVoxels']]],
   ['updatevertpairs_40',['updateVertPairs',['../classMR_1_1MeshICP.html#aff911d6d53f8e44963f067e7c8ae376e',1,'MR::MeshICP']]],
-  ['updatingvalids_41',['updatingValids',['../classMR_1_1MeshTopology.html#a45129b46fde8337018f14ecc690ddb81',1,'MR::MeshTopology']]],
-  ['utf8string_42',['utf8string',['../group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d',1,'MR']]],
-  ['utf8towide_43',['utf8ToWide',['../group__BasicGroup.html#ga543d43a804760961ac67ad3689330c1d',1,'MR']]]
+  ['updatevertscolormap_41',['updateVertsColorMap',['../classMR_1_1VisualObject.html#a4e23dbd1c76dc995d978b275d3ac7ecf',1,'MR::VisualObject']]],
+  ['updatingvalids_42',['updatingValids',['../classMR_1_1MeshTopology.html#a45129b46fde8337018f14ecc690ddb81',1,'MR::MeshTopology']]],
+  ['utf8string_43',['utf8string',['../group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d',1,'MR']]],
+  ['utf8towide_44',['utf8ToWide',['../group__BasicGroup.html#ga543d43a804760961ac67ad3689330c1d',1,'MR']]]
 ];

@@ -19,7 +19,7 @@ var searchData=
   ['iscolor_16',['isColor',['../structMR_1_1BindVertexAttribArraySettings.html#ae47afc7641f6193b867cc7f5bb42f07d',1,'MR::BindVertexAttribArraySettings']]],
   ['isedgeatrib_17',['isEdgeATriB',['../structMR_1_1VariableEdgeTri.html#aaf806bd6bbc163135641f8a5ca2a6f5f',1,'MR::VariableEdgeTri']]],
   ['isenabled_5f_18',['isEnabled_',['../classMR_1_1StateBasePlugin.html#a239e7ea5887cf228c8ea6a7eef781a2c',1,'MR::StateBasePlugin']]],
-  ['iso_19',['iso',['../structMR_1_1VdbVolumeToMeshParams.html#a718939f55275094bef7d05a2b90f529d',1,'MR::VdbVolumeToMeshParams']]],
+  ['iso_19',['iso',['../structMR_1_1VolumeToMeshParams.html#a01b5ec33b66fe3d6926793ca017d3e4a',1,'MR::VolumeToMeshParams']]],
   ['isosurfacechangedsignal_20',['isoSurfaceChangedSignal',['../classMR_1_1ObjectVoxels.html#af857395916951ea4b3e9a111f194499b',1,'MR::ObjectVoxels']]],
   ['isothera_21',['isOtherA',['../structMR_1_1SortIntersectionsData.html#a64cd77d679e163bbff985d79336ae2c4',1,'MR::SortIntersectionsData']]],
   ['item_22',['item',['../structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b',1,'MR::RibbonMenu::DialogItemPtr::item()'],['../structMR_1_1MenuItemInfo.html#a926a6449190c31f77c5b88b8c236958e',1,'MR::MenuItemInfo::item()']]],

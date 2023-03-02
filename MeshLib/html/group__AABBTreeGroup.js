@@ -107,7 +107,7 @@ var group__AABBTreeGroup =
     [ "MR::FastWindingNumber", "classMR_1_1FastWindingNumber.html", [
       [ "NodeId", "classMR_1_1FastWindingNumber.html#ab473858eb2040691d2defbe50942bcfb", null ],
       [ "FastWindingNumber", "classMR_1_1FastWindingNumber.html#a6af89b7c93e4591719b2ffd0eeeffd07", null ],
-      [ "calc", "classMR_1_1FastWindingNumber.html#ae3c3f07913afccead157b1316c06dff7", null ]
+      [ "calc", "classMR_1_1FastWindingNumber.html#a03be0613f5f63cea05547e78110bdd10", null ]
     ] ],
     [ "MR::IntersectionPrecomputes< T >", "structMR_1_1IntersectionPrecomputes.html", [
       [ "IntersectionPrecomputes", "group__AABBTreeGroup.html#ga9984ed4cff38cd012243e835f02e0e92", null ],
@@ -248,7 +248,7 @@ var group__AABBTreeGroup =
     [ "MR::findSelfCollidingTriangles", "group__AABBTreeGroup.html#gae0a13336f89b8fc2e74813c428b8df9f", null ],
     [ "MR::findSelfCollidingTrianglesBS", "group__AABBTreeGroup.html#gae171579b28303ea0b9ed1b00beada46d", null ],
     [ "MR::findSignedDistance", "group__AABBTreeGroup.html#ga66ee7b0ec534fcfe70ef96f8f3d3b545", null ],
-    [ "MR::findSignedDistance", "group__AABBTreeGroup.html#gacf732ad65b2c27ccad7fc43e75293c7d", null ],
+    [ "MR::findSignedDistance", "group__AABBTreeGroup.html#ga44d0cb5151cae38d27130277c50301bc", null ],
     [ "MR::getNumNodes", "group__AABBTreeGroup.html#ga3c1bb6417aaa769fa4156f2edac91749", null ],
     [ "MR::getToFloatConverter", "group__AABBTreeGroup.html#ga2096ace9292b40c55421517434fd8bd8", null ],
     [ "MR::getToIntConverter", "group__AABBTreeGroup.html#ga9736a434a7f001c05b9a7d23675ca257", null ],

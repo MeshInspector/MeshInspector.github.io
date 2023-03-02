@@ -104,6 +104,7 @@ $(document).ready(function(){initNavTree('MRMeshTrimWithPlane_8h.html',''); init
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<code>#include &lt;functional&gt;</code><br />
 </div>
 <p><a href="MRMeshTrimWithPlane_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -114,14 +115,14 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab8323f1238e8d5576750109a4a9a85e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab8323f1238e8d5576750109a4a9a85e0">MR::subdivideWithPlane</a> (Mesh &amp;mesh, const Plane3f &amp;plane, FaceHashMap *new2Old=nullptr, float eps=0, Vector&lt; UVCoord, VertId &gt; *uvCoords=nullptr)</td></tr>
-<tr class="separator:ab8323f1238e8d5576750109a4a9a85e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5439d8d6b09738579e762f0c26ac2326"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5439d8d6b09738579e762f0c26ac2326">MR::trimWithPlane</a> (Mesh &amp;mesh, const Plane3f &amp;plane, UndirectedEdgeBitSet *outCutEdges=nullptr, FaceHashMap *new2Old=nullptr, float eps=0, Vector&lt; UVCoord, VertId &gt; *uvCoords=nullptr)</td></tr>
-<tr class="memdesc:a5439d8d6b09738579e762f0c26ac2326"><td class="mdescLeft">&#160;</td><td class="mdescRight">trim mesh by plane  <br /></td></tr>
-<tr class="separator:a5439d8d6b09738579e762f0c26ac2326"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46d4fa570fe15b03ee955b6ee26a6f30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a46d4fa570fe15b03ee955b6ee26a6f30">MR::trimWithPlane</a> (Mesh &amp;mesh, const Plane3f &amp;plane, std::vector&lt; EdgeLoop &gt; *outCutContours, FaceHashMap *new2Old=nullptr, float eps=0, Vector&lt; UVCoord, VertId &gt; *uvCoords=nullptr)</td></tr>
-<tr class="memdesc:a46d4fa570fe15b03ee955b6ee26a6f30"><td class="mdescLeft">&#160;</td><td class="mdescRight">trim mesh by plane  <br /></td></tr>
-<tr class="separator:a46d4fa570fe15b03ee955b6ee26a6f30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7600509b91ab7f6d7ed6fa1b8c7844a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a7600509b91ab7f6d7ed6fa1b8c7844a2">MR::subdivideWithPlane</a> (Mesh &amp;mesh, const Plane3f &amp;plane, FaceHashMap *new2Old=nullptr, float eps=0, std::function&lt; void(EdgeId, EdgeId, float)&gt; onEdgeSplitCallback=nullptr)</td></tr>
+<tr class="separator:a7600509b91ab7f6d7ed6fa1b8c7844a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae11b2e799c8ac0a4a0308bdf021b1600"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ae11b2e799c8ac0a4a0308bdf021b1600">MR::trimWithPlane</a> (Mesh &amp;mesh, const Plane3f &amp;plane, UndirectedEdgeBitSet *outCutEdges=nullptr, FaceHashMap *new2Old=nullptr, float eps=0, std::function&lt; void(EdgeId, EdgeId, float)&gt; onEdgeSplitCallback=nullptr)</td></tr>
+<tr class="memdesc:ae11b2e799c8ac0a4a0308bdf021b1600"><td class="mdescLeft">&#160;</td><td class="mdescRight">trim mesh by plane  <br /></td></tr>
+<tr class="separator:ae11b2e799c8ac0a4a0308bdf021b1600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78e47a236b40c37e37f62d6571c3f1b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a78e47a236b40c37e37f62d6571c3f1b4">MR::trimWithPlane</a> (Mesh &amp;mesh, const Plane3f &amp;plane, std::vector&lt; EdgeLoop &gt; *outCutContours, FaceHashMap *new2Old=nullptr, float eps=0, std::function&lt; void(EdgeId, EdgeId, float)&gt; onEdgeSplitCallback=nullptr)</td></tr>
+<tr class="memdesc:a78e47a236b40c37e37f62d6571c3f1b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">trim mesh by plane  <br /></td></tr>
+<tr class="separator:a78e47a236b40c37e37f62d6571c3f1b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

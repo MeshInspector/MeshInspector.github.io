@@ -28,7 +28,7 @@ var hierarchy =
     ] ],
     [ "MR::BaseVolumeConversionParams", "structMR_1_1BaseVolumeConversionParams.html", [
       [ "MR::MeshToSimpleVolumeParams", "structMR_1_1MeshToSimpleVolumeParams.html", null ],
-      [ "MR::VdbVolumeToMeshParams", "structMR_1_1VdbVolumeToMeshParams.html", null ]
+      [ "MR::VolumeToMeshParams", "structMR_1_1VolumeToMeshParams.html", null ]
     ] ],
     [ "MR::BindVertexAttribArraySettings", "structMR_1_1BindVertexAttribArraySettings.html", null ],
     [ "MR::BMap< T, I >", "structMR_1_1BMap.html", null ],
@@ -194,6 +194,7 @@ var hierarchy =
       [ "MR::ChangeSceneAction", "classMR_1_1ChangeSceneAction.html", null ],
       [ "MR::ChangeSceneObjectsOrder", "classMR_1_1ChangeSceneObjectsOrder.html", null ],
       [ "MR::ChangeSurfaceAction", "classMR_1_1ChangeSurfaceAction.html", null ],
+      [ "MR::ChangeVertsColorMapAction", "classMR_1_1ChangeVertsColorMapAction.html", null ],
       [ "MR::ChangeXfAction", "classMR_1_1ChangeXfAction.html", null ],
       [ "MR::CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html", null ],
       [ "MR::ObjectTransformWidget::ChangeXfAction", "classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html", null ],
@@ -446,7 +447,10 @@ var hierarchy =
     [ "MR::QuadricApprox", "classMR_1_1QuadricApprox.html", null ],
     [ "MR::Quaternion< T >", "structMR_1_1Quaternion.html", null ],
     [ "MR::Quaternion< float >", "structMR_1_1Quaternion.html", null ],
+    [ "MR::RangeCounter< TreeT >", "classMR_1_1RangeCounter.html", null ],
     [ "MR::RangeProcessor< TreeT, Transformer >", "classMR_1_1RangeProcessor.html", null ],
+    [ "MR::RangeProcessorSingle< TreeT, Proc >", "classMR_1_1RangeProcessorSingle.html", null ],
+    [ "MR::RangeSize", "structMR_1_1RangeSize.html", null ],
     [ "MR::VoxelsLoad::RawParameters", "structMR_1_1VoxelsLoad_1_1RawParameters.html", null ],
     [ "MR::RayOrigin< T >", "structMR_1_1RayOrigin.html", null ],
     [ "MR::EdgePathsBuilderT< MetricToPenalty >::ReachedVert", "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html", null ],
@@ -603,6 +607,7 @@ var hierarchy =
     [ "MR::ViewportProperty< MR::AffineXf >", "classMR_1_1ViewportProperty.html", null ],
     [ "MR::ViewportProperty< MR::Color >", "classMR_1_1ViewportProperty.html", null ],
     [ "MR::ViewportProperty< MR::XfBasedCache< MR::Box > >", "classMR_1_1ViewportProperty.html", null ],
+    [ "MR::ViewportProperty< uint8_t >", "classMR_1_1ViewportProperty.html", null ],
     [ "MR::VisualizeMaskType", "structMR_1_1VisualizeMaskType.html", [
       [ "MR::LabelVisualizePropertyType", "structMR_1_1LabelVisualizePropertyType.html", null ],
       [ "MR::LinesVisualizePropertyType", "structMR_1_1LinesVisualizePropertyType.html", null ],

@@ -173,6 +173,9 @@ Functions</h2></td></tr>
 <tr class="separator:ga5b018c101d16b1695c0a3152e89ecdb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga86668640c827d61e8ee92b7a74dc558d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#ga86668640c827d61e8ee92b7a74dc558d">MR::makeBridgeEdge</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> a, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> b)</td></tr>
 <tr class="separator:ga86668640c827d61e8ee92b7a74dc558d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga42f6ba6ec6bdfa6f27d1045e79b9346e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#ga42f6ba6ec6bdfa6f27d1045e79b9346e">MR::calcCombinedFillMetric</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;filledRegion, const <a class="el" href="structMR_1_1FillHoleMetric.html">FillHoleMetric</a> &amp;metric)</td></tr>
+<tr class="memdesc:ga42f6ba6ec6bdfa6f27d1045e79b9346e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes combined metric after filling a hole.  <br /></td></tr>
+<tr class="separator:ga42f6ba6ec6bdfa6f27d1045e79b9346e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1f8991ed600a3fc8cec5258a75d5edb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1FillHoleMetric.html">FillHoleMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#ga1f8991ed600a3fc8cec5258a75d5edb5">MR::getCircumscribedMetric</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="separator:ga1f8991ed600a3fc8cec5258a75d5edb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa490c6225ad37e5491af1ed61365e774"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1FillHoleMetric.html">FillHoleMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FillHoleGroup.html#gaa490c6225ad37e5491af1ed61365e774">MR::getPlaneFillMetric</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e)</td></tr>
@@ -397,6 +400,42 @@ Stitch with smooth</div></div>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05">fillHole</a> </dd>
 <dd>
 <a class="el" href="structMR_1_1StitchHolesParams.html">StitchHolesParams</a> </dd></dl>
+
+</div>
+</div>
+<a id="ga42f6ba6ec6bdfa6f27d1045e79b9346e" name="ga42f6ba6ec6bdfa6f27d1045e79b9346e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga42f6ba6ec6bdfa6f27d1045e79b9346e">&#9670;&#160;</a></span>calcCombinedFillMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> double MR::calcCombinedFillMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>filledRegion</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1FillHoleMetric.html">FillHoleMetric</a> &amp;&#160;</td>
+          <td class="paramname"><em>metric</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes combined metric after filling a hole. </p>
 
 </div>
 </div>

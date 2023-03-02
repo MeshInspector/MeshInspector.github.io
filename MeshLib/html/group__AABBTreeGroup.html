@@ -296,9 +296,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga0e691011d7ee0d6072b80fce5e997efe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga0e691011d7ee0d6072b80fce5e997efe">MR::findProjection</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pt, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float upDistLimitSq=FLT_MAX, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr, float loDistLimitSq=0)</td></tr>
 <tr class="memdesc:ga0e691011d7ee0d6072b80fce5e997efe"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point  <br /></td></tr>
 <tr class="separator:ga0e691011d7ee0d6072b80fce5e997efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacf732ad65b2c27ccad7fc43e75293c7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1SignedDistanceToMeshResult.html">SignedDistanceToMeshResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gacf732ad65b2c27ccad7fc43e75293c7d">MR::findSignedDistance</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pt, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float upDistLimitSq=FLT_MAX)</td></tr>
-<tr class="memdesc:gacf732ad65b2c27ccad7fc43e75293c7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point, and finds the distance with sign to it (positive - outside, negative - inside the mesh)  <br /></td></tr>
-<tr class="separator:gacf732ad65b2c27ccad7fc43e75293c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga44d0cb5151cae38d27130277c50301bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1SignedDistanceToMeshResult.html">SignedDistanceToMeshResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga44d0cb5151cae38d27130277c50301bc">MR::findSignedDistance</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pt, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float upDistLimitSq=FLT_MAX, float loDistLimitSq=0)</td></tr>
+<tr class="memdesc:ga44d0cb5151cae38d27130277c50301bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point, and finds the distance with sign to it (positive - outside, negative - inside the mesh)  <br /></td></tr>
+<tr class="separator:ga44d0cb5151cae38d27130277c50301bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadb026730b0df98aa305e2721e46fc495"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gadb026730b0df98aa305e2721e46fc495">MR::findPointsInBall</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;center, float radius, const <a class="el" href="namespaceMR.html#ac4f1361c3362959c175d914a777b236d">FoundPointCallback</a> &amp;foundCallback)</td></tr>
 <tr class="separator:gadb026730b0df98aa305e2721e46fc495"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf7090d7297e7990875bac76b780daadf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaf7090d7297e7990875bac76b780daadf">MR::findPointsInBall</a> (const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;tree, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;center, float radius, const <a class="el" href="namespaceMR.html#ac4f1361c3362959c175d914a777b236d">FoundPointCallback</a> &amp;foundCallback)</td></tr>
@@ -1899,8 +1899,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="gacf732ad65b2c27ccad7fc43e75293c7d" name="gacf732ad65b2c27ccad7fc43e75293c7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacf732ad65b2c27ccad7fc43e75293c7d">&#9670;&#160;</a></span>findSignedDistance() <span class="overload">[2/2]</span></h2>
+<a id="ga44d0cb5151cae38d27130277c50301bc" name="ga44d0cb5151cae38d27130277c50301bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga44d0cb5151cae38d27130277c50301bc">&#9670;&#160;</a></span>findSignedDistance() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1921,7 +1921,13 @@ template&lt;typename T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>upDistLimitSq</em> = <code>FLT_MAX</code>&#160;</td>
+          <td class="paramname"><em>upDistLimitSq</em> = <code>FLT_MAX</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>loDistLimitSq</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1934,7 +1940,8 @@ template&lt;typename T &gt; </div>
 <p>computes the closest point on mesh (or its region) to given point, and finds the distance with sign to it (positive - outside, negative - inside the mesh) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the distance in question, if the real distance is larger than the function exits returning nullopt </td></tr>
+    <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the distance in question, if the real distance is larger then the function exits returning nullopt </td></tr>
+    <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, if the real distance smaller then the function exits returning nullopt </td></tr>
   </table>
   </dd>
 </dl>

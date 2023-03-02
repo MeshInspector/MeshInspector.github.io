@@ -1,8 +1,8 @@
 var searchData=
 [
   ['leafid_0',['LeafId',['../structMR_1_1ABBTreeTraits.html#a4b6228a9496f89b1486c84b5be513b6e',1,'MR::ABBTreeTraits::LeafId()'],['../structMR_1_1AABBTreeNode.html#a0286485d67d37c6d4f76d7d1f43d13d0',1,'MR::AABBTreeNode::LeafId()']]],
-  ['leafitert_1',['LeafIterT',['../classMR_1_1RangeProcessor.html#a27433ecb4e5aa6a2663efbfd38500f73',1,'MR::RangeProcessor']]],
-  ['leafrange_2',['LeafRange',['../classMR_1_1RangeProcessor.html#a905bd220d552b994aaa85fd00c4de321',1,'MR::RangeProcessor']]],
+  ['leafitert_1',['LeafIterT',['../classMR_1_1RangeProcessor.html#a27433ecb4e5aa6a2663efbfd38500f73',1,'MR::RangeProcessor::LeafIterT()'],['../classMR_1_1RangeProcessorSingle.html#a27245f92c4924f6d589bb260006327b4',1,'MR::RangeProcessorSingle::LeafIterT()'],['../classMR_1_1RangeCounter.html#a2843b3697415f694e48b3921d0b244d8',1,'MR::RangeCounter::LeafIterT()']]],
+  ['leafrange_2',['LeafRange',['../classMR_1_1RangeProcessor.html#a905bd220d552b994aaa85fd00c4de321',1,'MR::RangeProcessor::LeafRange()'],['../classMR_1_1RangeProcessorSingle.html#a4230fb4bf134d204266d7a36e6eaa54c',1,'MR::RangeProcessorSingle::LeafRange()']]],
   ['leftringiterator_3',['LeftRingIterator',['../namespaceMR.html#ac24b6349fbb4f364ade4e824e0c650b6',1,'MR']]],
   ['line2_4',['Line2',['../namespaceMR.html#a2c8cd9648ea010941b48b3ee99f6df9a',1,'MR']]],
   ['line2d_5',['Line2d',['../namespaceMR.html#a0065c4e3d8fae366064792c9f5c53ff8',1,'MR']]],

@@ -107,7 +107,7 @@ $(document).ready(function(){initNavTree('MRDistanceMapSave_8h.html',''); initRe
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRIOFilters_8h_source.html">MRIOFilters.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRDistanceMapParams_8h_source.html">MRDistanceMapParams.h</a>&quot;</code><br />
-<code>#include &lt;tl/expected.hpp&gt;</code><br />
+<code>#include &quot;<a class="el" href="MRExpected_8h_source.html">MRExpected.h</a>&quot;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
 </div>
 <p><a href="MRDistanceMapSave_8h_source.html">Go to the source code of this file.</a></p>
@@ -121,13 +121,13 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga958b9818ca3d6c41817de0ec283055f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapSaveGroup.html#ga958b9818ca3d6c41817de0ec283055f1">MR::DistanceMapSave::toRAW</a> (const std::filesystem::path &amp;path, const DistanceMap &amp;dmap)</td></tr>
-<tr class="memdesc:ga958b9818ca3d6c41817de0ec283055f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> to binary file @detail Format: 2 integer - <a class="el" href="classMR_1_1DistanceMap.html#a86f99e58434c2a70fb27a552d08ba50f" title="returns X resolution">DistanceMap.resX</a> &amp; <a class="el" href="classMR_1_1DistanceMap.html#ab7ce297c0b79b57dba812e3c7511fb56" title="returns Y resolution">DistanceMap.resY</a> [resX * resY] float - matrix of values.  <br /></td></tr>
-<tr class="separator:ga958b9818ca3d6c41817de0ec283055f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6a0d0fe8bbfb37dfe66c9992f4f619c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapSaveGroup.html#ga6a0d0fe8bbfb37dfe66c9992f4f619c8">MR::DistanceMapSave::toMrDistanceMap</a> (const std::filesystem::path &amp;path, const DistanceMap &amp;dmapObject, const DistanceMapToWorld &amp;params)</td></tr>
-<tr class="separator:ga6a0d0fe8bbfb37dfe66c9992f4f619c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf70092aa2e5f02ea42459749ed09a6cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; void, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapSaveGroup.html#gaf70092aa2e5f02ea42459749ed09a6cb">MR::DistanceMapSave::toAnySupportedFormat</a> (const std::filesystem::path &amp;path, const DistanceMap &amp;dmapObject, const DistanceMapToWorld *params=nullptr)</td></tr>
-<tr class="separator:gaf70092aa2e5f02ea42459749ed09a6cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga599318ede33b885b052bc43c912f7e4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VoidOrErrStr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapSaveGroup.html#ga599318ede33b885b052bc43c912f7e4b">MR::DistanceMapSave::toRAW</a> (const std::filesystem::path &amp;path, const DistanceMap &amp;dmap)</td></tr>
+<tr class="memdesc:ga599318ede33b885b052bc43c912f7e4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> to binary file @detail Format: 2 integer - <a class="el" href="classMR_1_1DistanceMap.html#a86f99e58434c2a70fb27a552d08ba50f" title="returns X resolution">DistanceMap.resX</a> &amp; <a class="el" href="classMR_1_1DistanceMap.html#ab7ce297c0b79b57dba812e3c7511fb56" title="returns Y resolution">DistanceMap.resY</a> [resX * resY] float - matrix of values.  <br /></td></tr>
+<tr class="separator:ga599318ede33b885b052bc43c912f7e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae0098ad09ec37dc8f602da3a7488ba14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VoidOrErrStr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapSaveGroup.html#gae0098ad09ec37dc8f602da3a7488ba14">MR::DistanceMapSave::toMrDistanceMap</a> (const std::filesystem::path &amp;path, const DistanceMap &amp;dmapObject, const DistanceMapToWorld &amp;params)</td></tr>
+<tr class="separator:gae0098ad09ec37dc8f602da3a7488ba14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8f7b31d301819d15c8ea4b4dc8f596e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VoidOrErrStr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapSaveGroup.html#ga8f7b31d301819d15c8ea4b4dc8f596e3">MR::DistanceMapSave::toAnySupportedFormat</a> (const std::filesystem::path &amp;path, const DistanceMap &amp;dmapObject, const DistanceMapToWorld *params=nullptr)</td></tr>
+<tr class="separator:ga8f7b31d301819d15c8ea4b4dc8f596e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
