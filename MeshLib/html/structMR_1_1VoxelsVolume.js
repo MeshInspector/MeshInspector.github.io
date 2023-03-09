@@ -1,5 +1,6 @@
 var structMR_1_1VoxelsVolume =
 [
+    [ "heapBytes", "structMR_1_1VoxelsVolume.html#a6098927f3eb1a5ae05be948dd3ddf6ea", null ],
     [ "data", "structMR_1_1VoxelsVolume.html#a6ea81e0ad21fc888dfa262fb957f3c2e", null ],
     [ "dims", "structMR_1_1VoxelsVolume.html#aec69290a92637368e463e39fadfea701", null ],
     [ "max", "structMR_1_1VoxelsVolume.html#aaedc1bfd3316c26260656a2b2d93a1cb", null ],

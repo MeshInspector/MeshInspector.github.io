@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"MRNoDefInit_8h.html":[12,0,0,1,1,153],
+"MRNoDefInit_8h_source.html":[12,0,0,1,1,153],
 "MRObjectDistanceMap_8h.html":[12,0,0,1,1,155],
 "MRObjectDistanceMap_8h_source.html":[12,0,0,1,1,155],
 "MRObjectFactory_8h.html":[12,0,0,1,1,156],
@@ -238,16 +240,14 @@ var NAVTREEINDEX3 =
 "MRRemesherPlugin_8h.html":[12,0,0,1,3,31],
 "MRRemesherPlugin_8h_source.html":[12,0,0,1,3,31],
 "MRRenderGLHelpers_8h.html":[12,0,0,1,3,32],
-"MRRenderGLHelpers_8h.html#a079f28d3be3f3a62901df8df69f1dc9c":[12,0,0,1,3,32,4],
-"MRRenderGLHelpers_8h.html#a44858c7093ecce05e414dad5e83ea270":[12,0,0,1,3,32,6],
-"MRRenderGLHelpers_8h.html#a96c0afdf384671d181d6111113d5bf35":[12,0,0,1,3,32,5],
+"MRRenderGLHelpers_8h.html#a079f28d3be3f3a62901df8df69f1dc9c":[12,0,0,1,3,32,6],
+"MRRenderGLHelpers_8h.html#a44858c7093ecce05e414dad5e83ea270":[12,0,0,1,3,32,8],
+"MRRenderGLHelpers_8h.html#a96c0afdf384671d181d6111113d5bf35":[12,0,0,1,3,32,7],
 "MRRenderGLHelpers_8h_source.html":[12,0,0,1,3,32],
 "MRRenderHelpers_8h.html":[12,0,0,1,3,33],
 "MRRenderHelpers_8h.html#a3e2133ce2c97407560f6e7ff9e770c4a":[12,0,0,1,3,33,2],
 "MRRenderHelpers_8h_source.html":[12,0,0,1,3,33],
 "MRRenderLabelObject_8h.html":[12,0,0,1,3,34],
 "MRRenderLabelObject_8h_source.html":[12,0,0,1,3,34],
-"MRRenderLinesObject_8h.html":[12,0,0,1,3,35],
-"MRRenderLinesObject_8h.html#aaf818ad78dcf1287b09182b71c21927c":[12,0,0,1,3,35,1],
-"MRRenderLinesObject_8h_source.html":[12,0,0,1,3,35]
+"MRRenderLinesObject_8h.html":[12,0,0,1,3,35]
 };

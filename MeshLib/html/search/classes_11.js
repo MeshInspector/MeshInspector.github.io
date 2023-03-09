@@ -24,7 +24,7 @@ var searchData=
   ['selectobjectbyclick_21',['SelectObjectByClick',['../classMR_1_1SelectObjectByClick.html',1,'MR']]],
   ['selectscreenlasso_22',['SelectScreenLasso',['../classMR_1_1SelectScreenLasso.html',1,'MR']]],
   ['setbititeratort_23',['SetBitIteratorT',['../classMR_1_1SetBitIteratorT.html',1,'MR']]],
-  ['settings_24',['Settings',['../structMR_1_1GlTexture2_1_1Settings.html',1,'MR::GlTexture2']]],
+  ['settings_24',['Settings',['../structMR_1_1GlTexture2_1_1Settings.html',1,'MR::GlTexture2::Settings'],['../structMR_1_1GlTexture3_1_1Settings.html',1,'MR::GlTexture3::Settings']]],
   ['setviewportconfigpresetmenuitem_25',['SetViewportConfigPresetMenuItem',['../classMR_1_1SetViewportConfigPresetMenuItem.html',1,'MR']]],
   ['setviewpresetmenuitem_26',['SetViewPresetMenuItem',['../classMR_1_1SetViewPresetMenuItem.html',1,'MR']]],
   ['shadowsgl_27',['ShadowsGL',['../classMR_1_1ShadowsGL.html',1,'MR']]],

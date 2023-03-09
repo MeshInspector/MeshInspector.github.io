@@ -19,6 +19,7 @@ var group__PolylineGroup =
       [ "edgePoint", "structMR_1_1Polyline.html#a09efa3e658e95b29f1dea8f362d18289", null ],
       [ "edgeSegment", "structMR_1_1Polyline.html#ae6187af336b61283c5118d9aca6f0a12", null ],
       [ "edgeVector", "structMR_1_1Polyline.html#ab9e9cb920eced56be83119d6d268691f", null ],
+      [ "findCenterFromPoints", "structMR_1_1Polyline.html#a6e23e900e2959a7be3356ae3e71c017a", null ],
       [ "getAABBTree", "structMR_1_1Polyline.html#addf7be82ffec83205ba7adcd66001c5b", null ],
       [ "getAABBTreeNotCreate", "structMR_1_1Polyline.html#a363c6648b8fe1702f69d019676856179", null ],
       [ "getBoundingBox", "structMR_1_1Polyline.html#a3dcacffc0e913721847e9e77ca00dc4b", null ],

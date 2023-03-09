@@ -23,9 +23,9 @@ var namespaceMR_1_1MeshLoad =
     [ "fromOff", "group__MeshLoadGroup.html#ga79384eb452028dab6dcde8b102cb19a3", null ],
     [ "fromPly", "group__MeshLoadGroup.html#ga759852323a9a5941d74085aa28685591", null ],
     [ "fromPly", "group__MeshLoadGroup.html#ga7242756af6202df4d79e5d38ceaac595", null ],
-    [ "fromSceneObjFile", "group__MeshLoadObjGroup.html#gaedea8e6892abc68355f3209d21bbb049", null ],
+    [ "fromSceneObjFile", "group__MeshLoadObjGroup.html#gac15b8e85fa1216859a9b9968aecc6b74", null ],
     [ "fromSceneObjFile", "group__MeshLoadObjGroup.html#ga882b0d1989601578dca5420605abcce4", null ],
-    [ "fromSceneObjFile", "group__MeshLoadObjGroup.html#gaec30f61cdd2e4fcf446d632c04f3bdaa", null ],
+    [ "fromSceneObjFile", "group__MeshLoadObjGroup.html#ga947830a1141be33a5080e8462906c02c", null ],
     [ "getFilters", "group__IOFormatsRegistryGroup.html#gaca0d649d3cadf6807b1fa3b610368510", null ],
     [ "getMeshLoader", "group__IOFormatsRegistryGroup.html#ga350b9ad86f759c762c0c4df6371aa036", null ],
     [ "getMeshStreamLoader", "group__IOFormatsRegistryGroup.html#ga247f35eb02151e0ce68e863a496609f6", null ]

@@ -110,6 +110,7 @@ var MRMeshFwd_8h =
     [ "Quaternionf", "MRMeshFwd_8h.html#ad42cb243cfba827bb9d521ba1f9a0a70", null ],
     [ "SetBitIterator", "MRMeshFwd_8h.html#a72121ddf3f962182a0cd896a72cbce55", null ],
     [ "SimpleVolume", "MRMeshFwd_8h.html#a7ad75de4317308dd9e905cc79369ab6b", null ],
+    [ "SimpleVolumeU8", "MRMeshFwd_8h.html#af1886e23b858590aaf7d50f8ed531961", null ],
     [ "SurfacePath", "MRMeshFwd_8h.html#a6f060a604c3462c7d0b1df7dac703237", null ],
     [ "SurfacePaths", "MRMeshFwd_8h.html#a787dc7095d33cb31e282f0d018c047e0", null ],
     [ "SymMatrix2b", "MRMeshFwd_8h.html#a5c5b52f873a2b408d77c388c89241af7", null ],

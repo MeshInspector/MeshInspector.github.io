@@ -42,5 +42,7 @@ var MRRibbonConstants_8h =
     [ "cTabYOffset", "MRRibbonConstants_8h.html#a6f5560d361aaab79fc35a8418362345d", null ],
     [ "cTopPanelAditionalButtonSize", "MRRibbonConstants_8h.html#a24400b0c1a9e56cafb8abf4c9725633d", null ],
     [ "cTopPanelScrollBtnSize", "MRRibbonConstants_8h.html#a2fbf8a5ae5179bb822e29a7c5966fdd0", null ],
-    [ "cTopPanelScrollStep", "MRRibbonConstants_8h.html#a1cb547836ab1506cf81cab06b24a9532", null ]
+    [ "cTopPanelScrollStep", "MRRibbonConstants_8h.html#a1cb547836ab1506cf81cab06b24a9532", null ],
+    [ "framePadding", "MRRibbonConstants_8h.html#a56058d3872b6d96205debc3305df78a8", null ],
+    [ "pluginItemSpacing", "MRRibbonConstants_8h.html#a4d6326d10565774441d1db3512941c0d", null ]
 ];

@@ -6,5 +6,6 @@ var searchData=
   ['usecurvature_3',['useCurvature',['../structMR_1_1RemeshSettings.html#a58fc77c6b836083eab39f95b271080e8',1,'MR::RemeshSettings::useCurvature()'],['../structMR_1_1PolylineSubdivideSettings.html#abaf36082a394e79118a87b09054964e3',1,'MR::PolylineSubdivideSettings::useCurvature()']]],
   ['usedistancelimits_4',['useDistanceLimits',['../structMR_1_1MeshToDistanceMapParams.html#ace32ee073907bc00f51a76ba214f6d3c',1,'MR::MeshToDistanceMapParams']]],
   ['userandomshifts_5',['useRandomShifts',['../structMR_1_1UniteManyMeshesParams.html#ad905aa665d2879e62cb41d03eb580eab',1,'MR::UniteManyMeshesParams']]],
-  ['uvcoordinates_5f_6',['uvCoordinates_',['../classMR_1_1ObjectMeshHolder.html#aeb830a3131e6ce64965bd8279c387ec4',1,'MR::ObjectMeshHolder']]]
+  ['uvcoordinates_5f_6',['uvCoordinates_',['../classMR_1_1ObjectMeshHolder.html#aeb830a3131e6ce64965bd8279c387ec4',1,'MR::ObjectMeshHolder']]],
+  ['uvcoords_7',['uvCoords',['../group__MeshLoadObjGroup.html#gaa8e929608fd61a6114e323feaf5313e6',1,'MR::MeshLoad::NamedMesh']]]
 ];

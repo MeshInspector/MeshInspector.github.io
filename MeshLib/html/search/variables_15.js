@@ -16,5 +16,5 @@ var searchData=
   ['worldspace_13',['worldSpace',['../structMR_1_1Viewer_1_1PointInAllSpaces.html#af0e6467cf5ce1121ba9569986f7d5d53',1,'MR::Viewer::PointInAllSpaces']]],
   ['worldxf_14',['worldXf',['../structMR_1_1MeshToVolumeParams.html#a160d9c2171039308aa5a181a76575967',1,'MR::MeshToVolumeParams']]],
   ['worldxfchangedsignal_15',['worldXfChangedSignal',['../classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964',1,'MR::Object']]],
-  ['wrap_16',['wrap',['../structMR_1_1MeshTexture.html#ab1d9b311e280516bb81e8749bfb440bc',1,'MR::MeshTexture::wrap()'],['../structMR_1_1GlTexture2_1_1Settings.html#a42b6be0c848d4bbc069954aee39871d9',1,'MR::GlTexture2::Settings::wrap()']]]
+  ['wrap_16',['wrap',['../structMR_1_1MeshTexture.html#ab1d9b311e280516bb81e8749bfb440bc',1,'MR::MeshTexture::wrap()'],['../structMR_1_1GlTexture2_1_1Settings.html#a42b6be0c848d4bbc069954aee39871d9',1,'MR::GlTexture2::Settings::wrap()'],['../structMR_1_1GlTexture3_1_1Settings.html#a547edb4b74285f59a062181fc029fb79',1,'MR::GlTexture3::Settings::wrap()']]]
 ];

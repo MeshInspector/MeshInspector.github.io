@@ -38,6 +38,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRRenderLinesObject.h", "MRRenderLinesObject_8h.html", "MRRenderLinesObject_8h" ],
     [ "MRRenderMeshObject.h", "MRRenderMeshObject_8h.html", "MRRenderMeshObject_8h" ],
     [ "MRRenderPointsObject.h", "MRRenderPointsObject_8h.html", "MRRenderPointsObject_8h" ],
+    [ "MRRenderVolumeObject.h", "MRRenderVolumeObject_8h.html", "MRRenderVolumeObject_8h" ],
     [ "MRRibbonButtonDrawer.h", "MRRibbonButtonDrawer_8h.html", "MRRibbonButtonDrawer_8h" ],
     [ "MRRibbonConstants.h", "MRRibbonConstants_8h.html", "MRRibbonConstants_8h" ],
     [ "MRRibbonFontManager.h", "MRRibbonFontManager_8h.html", "MRRibbonFontManager_8h" ],
@@ -69,5 +70,6 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRViewerSettingsManager.h", "MRViewerSettingsManager_8h.html", "MRViewerSettingsManager_8h" ],
     [ "MRViewport.h", "MRViewport_8h.html", "MRViewport_8h" ],
     [ "MRViewportGL.h", "MRViewportGL_8h.html", "MRViewportGL_8h" ],
+    [ "MRVolumeShader.h", "MRVolumeShader_8h.html", "MRVolumeShader_8h" ],
     [ "MRWebRequest.h", "MRWebRequest_8h.html", "MRWebRequest_8h" ]
 ];

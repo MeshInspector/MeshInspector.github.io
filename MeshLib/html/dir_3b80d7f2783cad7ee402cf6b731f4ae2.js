@@ -166,7 +166,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRObjectPoints.h", "MRObjectPoints_8h.html", null ],
     [ "MRObjectPointsHolder.h", "MRObjectPointsHolder_8h.html", "MRObjectPointsHolder_8h" ],
     [ "MRObjectsAccess.h", "MRObjectsAccess_8h.html", "MRObjectsAccess_8h" ],
-    [ "MRObjectVoxels.h", "MRObjectVoxels_8h.html", null ],
+    [ "MRObjectVoxels.h", "MRObjectVoxels_8h.html", "MRObjectVoxels_8h" ],
     [ "MROffset.h", "MROffset_8h.html", "MROffset_8h" ],
     [ "MROpenVDBHelper.h", "MROpenVDBHelper_8h.html", "MROpenVDBHelper_8h" ],
     [ "MROrder.h", "MROrder_8h.html", "MROrder_8h" ],

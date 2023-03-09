@@ -61,11 +61,12 @@ var searchData=
   ['visualizemasktype_58',['VisualizeMaskType',['../structMR_1_1VisualizeMaskType.html',1,'MR']]],
   ['visualobject_59',['VisualObject',['../classMR_1_1VisualObject.html',1,'MR']]],
   ['volumeindexer_60',['VolumeIndexer',['../classMR_1_1VolumeIndexer.html',1,'MR']]],
-  ['volumesegmentationparameters_61',['VolumeSegmentationParameters',['../structMR_1_1VolumeSegmentationParameters.html',1,'MR']]],
-  ['volumesegmenter_62',['VolumeSegmenter',['../classMR_1_1VolumeSegmenter.html',1,'MR']]],
-  ['volumetomeshparams_63',['VolumeToMeshParams',['../structMR_1_1VolumeToMeshParams.html',1,'MR']]],
-  ['voxelmetricparameters_64',['VoxelMetricParameters',['../structMR_1_1VoxelMetricParameters.html',1,'MR']]],
-  ['voxelsvolume_65',['VoxelsVolume',['../structMR_1_1VoxelsVolume.html',1,'MR']]],
-  ['voxelsvolume_3c_20floatgrid_20_3e_66',['VoxelsVolume&lt; FloatGrid &gt;',['../structMR_1_1VoxelsVolume.html',1,'MR']]],
-  ['voxelsvolume_3c_20std_3a_3avector_3c_20float_20_3e_20_3e_67',['VoxelsVolume&lt; std::vector&lt; float &gt; &gt;',['../structMR_1_1VoxelsVolume.html',1,'MR']]]
+  ['volumerenderingparams_61',['VolumeRenderingParams',['../structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html',1,'MR::ObjectVoxels']]],
+  ['volumesegmentationparameters_62',['VolumeSegmentationParameters',['../structMR_1_1VolumeSegmentationParameters.html',1,'MR']]],
+  ['volumesegmenter_63',['VolumeSegmenter',['../classMR_1_1VolumeSegmenter.html',1,'MR']]],
+  ['volumetomeshparams_64',['VolumeToMeshParams',['../structMR_1_1VolumeToMeshParams.html',1,'MR']]],
+  ['voxelmetricparameters_65',['VoxelMetricParameters',['../structMR_1_1VoxelMetricParameters.html',1,'MR']]],
+  ['voxelsvolume_66',['VoxelsVolume',['../structMR_1_1VoxelsVolume.html',1,'MR']]],
+  ['voxelsvolume_3c_20floatgrid_20_3e_67',['VoxelsVolume&lt; FloatGrid &gt;',['../structMR_1_1VoxelsVolume.html',1,'MR']]],
+  ['voxelsvolume_3c_20std_3a_3avector_3c_20float_20_3e_20_3e_68',['VoxelsVolume&lt; std::vector&lt; float &gt; &gt;',['../structMR_1_1VoxelsVolume.html',1,'MR']]]
 ];

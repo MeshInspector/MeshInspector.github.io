@@ -166,6 +166,7 @@ var hierarchy =
     [ "MR::GlBuffer", "classMR_1_1GlBuffer.html", null ],
     [ "MR::GLStaticHolder", "classMR_1_1GLStaticHolder.html", null ],
     [ "MR::GlTexture2", "classMR_1_1GlTexture2.html", null ],
+    [ "MR::GlTexture3", "classMR_1_1GlTexture3.html", null ],
     [ "MR::HashToVectorMappingConverter", "classMR_1_1HashToVectorMappingConverter.html", null ],
     [ "MR::Heap< T, I, P >", "classMR_1_1Heap.html", null ],
     [ "MR::Histogram", "classMR_1_1Histogram.html", null ],
@@ -265,7 +266,8 @@ var hierarchy =
       [ "MR::RenderLabelObject", "classMR_1_1RenderLabelObject.html", null ],
       [ "MR::RenderLinesObject", "classMR_1_1RenderLinesObject.html", null ],
       [ "MR::RenderMeshObject", "classMR_1_1RenderMeshObject.html", null ],
-      [ "MR::RenderPointsObject", "classMR_1_1RenderPointsObject.html", null ]
+      [ "MR::RenderPointsObject", "classMR_1_1RenderPointsObject.html", null ],
+      [ "MR::RenderVolumeObject", "classMR_1_1RenderVolumeObject.html", null ]
     ] ],
     [ "MR::ISceneStateCheck", "classMR_1_1ISceneStateCheck.html", [
       [ "MR::SceneStateAtLeastCheck< 1, Object >", "classMR_1_1SceneStateAtLeastCheck.html", [
@@ -491,6 +493,7 @@ var hierarchy =
     [ "MR::SelectScreenLasso", "classMR_1_1SelectScreenLasso.html", null ],
     [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", null ],
     [ "MR::GlTexture2::Settings", "structMR_1_1GlTexture2_1_1Settings.html", null ],
+    [ "MR::GlTexture3::Settings", "structMR_1_1GlTexture3_1_1Settings.html", null ],
     [ "MR::ShadowsGL", "classMR_1_1ShadowsGL.html", null ],
     [ "MR::SharpenMarchingCubesMeshSettings", "structMR_1_1SharpenMarchingCubesMeshSettings.html", null ],
     [ "MR::ShiftTransformer< TreeT >", "classMR_1_1ShiftTransformer.html", null ],
@@ -615,6 +618,7 @@ var hierarchy =
       [ "MR::PointsVisualizePropertyType", "structMR_1_1PointsVisualizePropertyType.html", null ]
     ] ],
     [ "MR::VolumeIndexer", "classMR_1_1VolumeIndexer.html", null ],
+    [ "MR::ObjectVoxels::VolumeRenderingParams", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html", null ],
     [ "MR::VolumeSegmentationParameters", "structMR_1_1VolumeSegmentationParameters.html", null ],
     [ "MR::VolumeSegmenter", "classMR_1_1VolumeSegmenter.html", null ],
     [ "MR::VoxelMetricParameters", "structMR_1_1VoxelMetricParameters.html", null ],

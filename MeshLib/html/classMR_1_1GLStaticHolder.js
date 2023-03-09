@@ -18,6 +18,8 @@ var classMR_1_1GLStaticHolder =
       [ "TransparencyOverlayQuad", "classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748af36d97ba03abaa5e19ee63ca6e0e13aa", null ],
       [ "ShadowOverlayQuad", "classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a878764d5da2f9dcefa74fe1d43db0896", null ],
       [ "SimpleOverlayQuad", "classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a6efd2be0f88716d1ecd218c3c506e07b", null ],
+      [ "Volume", "classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a0b127ccf018299560090f1f8804bd676", null ],
+      [ "VolumePicker", "classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748aa694e960e5a16235a6b954cd634c87ce", null ],
       [ "Count", "classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a25ed7f59a7647bce0c99b37006a616b3", null ]
     ] ]
 ];

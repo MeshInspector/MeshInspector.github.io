@@ -391,8 +391,8 @@ Stitch with smooth</div></div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mesh</td><td>mesh with hole </td></tr>
-    <tr><td class="paramname">a</td><td>EdgeId which represents 1st hole </td></tr>
-    <tr><td class="paramname">b</td><td>EdgeId which represents 2nd hole </td></tr>
+    <tr><td class="paramname">a</td><td>EdgeId which represents 1st hole (should not have valid left FaceId) </td></tr>
+    <tr><td class="paramname">b</td><td>EdgeId which represents 2nd hole (should not have valid left FaceId) </td></tr>
     <tr><td class="paramname">params</td><td>parameters of holes stitching</td></tr>
   </table>
   </dd>
@@ -615,7 +615,7 @@ Fill with smooth</div></div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mesh</td><td>mesh with hole </td></tr>
-    <tr><td class="paramname">a</td><td>EdgeId which represents hole </td></tr>
+    <tr><td class="paramname">a</td><td>EdgeId which represents hole (should not have valid left FaceId) </td></tr>
     <tr><td class="paramname">params</td><td>parameters of hole filling</td></tr>
   </table>
   </dd>
