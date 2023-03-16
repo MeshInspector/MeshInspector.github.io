@@ -149,6 +149,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a70996e2b27f24841fb75376870328103"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d5470fbe42101af3a425b0108338a10"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const <a class="el" href="classMR_1_1ShortcutManager.html#a1b6141c52bc058b4b485765ea6092d22">ShortcutList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#a0d5470fbe42101af3a425b0108338a10">getShortcutList</a> () const</td></tr>
 <tr class="separator:a0d5470fbe42101af3a425b0108338a10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf51fc21fb54cb1e8d7b1734c0d4c0e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#aaf51fc21fb54cb1e8d7b1734c0d4c0e9">isEnabled</a> () const</td></tr>
+<tr class="separator:aaf51fc21fb54cb1e8d7b1734c0d4c0e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e5ccda452d5473a8328af4b7003e4f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#a5e5ccda452d5473a8328af4b7003e4f3">enable</a> (bool on)</td></tr>
+<tr class="separator:a5e5ccda452d5473a8328af4b7003e4f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4342c4301200e65be8eb010636b8db8e"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#a4342c4301200e65be8eb010636b8db8e">processShortcut</a> (const <a class="el" href="structMR_1_1ShortcutManager_1_1ShortcutKey.html">ShortcutKey</a> &amp;key, <a class="el" href="classMR_1_1ShortcutManager.html#a1a85baae28af51cf7825c2099b693c1b">Reason</a>=<a class="el" href="classMR_1_1ShortcutManager.html#a1a85baae28af51cf7825c2099b693c1bacfd07bf1effd88bca04a12a087777354">Reason::KeyDown</a>) const</td></tr>
 <tr class="separator:a4342c4301200e65be8eb010636b8db8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf200a338401cd7994a122ba61bfce47"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::optional&lt; <a class="el" href="structMR_1_1ShortcutManager_1_1ShortcutKey.html">ShortcutKey</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#adf200a338401cd7994a122ba61bfce47">findShortcutByName</a> (const std::string &amp;name) const</td></tr>
@@ -184,6 +188,8 @@ Static Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr class="memitem:af0dd4d072b92bf237ce72e80f357d475"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#af0dd4d072b92bf237ce72e80f357d475">enabled_</a> { true }</td></tr>
+<tr class="separator:af0dd4d072b92bf237ce72e80f357d475"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac7a5049ef27e6c01ce4352af5405141"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ShortcutManager.html#aa3f924fb2d8d08321689742094b61a10">ShourtcutsMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#aac7a5049ef27e6c01ce4352af5405141">map_</a></td></tr>
 <tr class="separator:aac7a5049ef27e6c01ce4352af5405141"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa81ce4c0f43334be0c680e28346fce2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ShortcutManager.html#a12fa153bb2f0df72498264f840eeef6c">ShourtcutsBackMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ShortcutManager.html#aa81ce4c0f43334be0c680e28346fce2e">backMap_</a></td></tr>
@@ -335,6 +341,32 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a5e5ccda452d5473a8328af4b7003e4f3" name="a5e5ccda452d5473a8328af4b7003e4f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e5ccda452d5473a8328af4b7003e4f3">&#9670;&#160;</a></span>enable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::ShortcutManager::enable </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>on</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="adf200a338401cd7994a122ba61bfce47" name="adf200a338401cd7994a122ba61bfce47"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adf200a338401cd7994a122ba61bfce47">&#9670;&#160;</a></span>findShortcutByName()</h2>
 
@@ -454,6 +486,31 @@ Protected Attributes</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf51fc21fb54cb1e8d7b1734c0d4c0e9" name="aaf51fc21fb54cb1e8d7b1734c0d4c0e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf51fc21fb54cb1e8d7b1734c0d4c0e9">&#9670;&#160;</a></span>isEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::ShortcutManager::isEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -621,6 +678,28 @@ Protected Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af0dd4d072b92bf237ce72e80f357d475" name="af0dd4d072b92bf237ce72e80f357d475"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0dd4d072b92bf237ce72e80f357d475">&#9670;&#160;</a></span>enabled_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::ShortcutManager::enabled_ { true }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

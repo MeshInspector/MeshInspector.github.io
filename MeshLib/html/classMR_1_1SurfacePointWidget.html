@@ -159,12 +159,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4023f6d9ae5235d692afad4374b6134e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7f44a7819d74d48d2e6ca4a33594dce"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SurfacePointWidget.html#aa7f44a7819d74d48d2e6ca4a33594dce">getCurrentPosition</a> () const</td></tr>
 <tr class="separator:aa7f44a7819d74d48d2e6ca4a33594dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3545c43b4dfa909a395b86ca4630582"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SurfacePointWidget.html#ad3545c43b4dfa909a395b86ca4630582">updateCurrentPosition</a> (<a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;pos)</td></tr>
+<tr class="separator:ad3545c43b4dfa909a395b86ca4630582"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cdbf2259f81a22d3d7389b4ce081727"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SurfacePointWidget.html#a6cdbf2259f81a22d3d7389b4ce081727">setStartMoveCallback</a> (std::function&lt; void(const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;)&gt; startMove)</td></tr>
 <tr class="separator:a6cdbf2259f81a22d3d7389b4ce081727"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d86d1d31a5ae4492387c8a5d9e24a06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SurfacePointWidget.html#a4d86d1d31a5ae4492387c8a5d9e24a06">setOnMoveCallback</a> (std::function&lt; void(const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;)&gt; onMove)</td></tr>
 <tr class="separator:a4d86d1d31a5ae4492387c8a5d9e24a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01a5e8b35832f174a9d10c328cd96958"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SurfacePointWidget.html#a01a5e8b35832f174a9d10c328cd96958">setEndMoveCallback</a> (std::function&lt; void(const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;)&gt; endMove)</td></tr>
 <tr class="separator:a01a5e8b35832f174a9d10c328cd96958"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade210457fb828d04663955ec7a5154ce"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SurfacePointWidget.html#ade210457fb828d04663955ec7a5154ce">getBaseSurface</a> ()</td></tr>
+<tr class="separator:ade210457fb828d04663955ec7a5154ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structMR_1_1MultiListener"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structMR_1_1MultiListener')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structMR_1_1MultiListener.html">MR::MultiListener&lt; MouseDownListener, MouseMoveListener, MouseUpListener &gt;</a></td></tr>
 <tr class="memitem:a726f5e2601b7f25e31824a0cac630fb2 inherit pub_methods_structMR_1_1MultiListener"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MultiListener.html#a726f5e2601b7f25e31824a0cac630fb2">~MultiListener</a> ()=default</td></tr>
 <tr class="separator:a726f5e2601b7f25e31824a0cac630fb2 inherit pub_methods_structMR_1_1MultiListener"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -264,6 +268,31 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ade210457fb828d04663955ec7a5154ce" name="ade210457fb828d04663955ec7a5154ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade210457fb828d04663955ec7a5154ce">&#9670;&#160;</a></span>getBaseSurface()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; MR::SurfacePointWidget::getBaseSurface </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -503,6 +532,24 @@ Public Member Functions</h2></td></tr>
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad3545c43b4dfa909a395b86ca4630582" name="ad3545c43b4dfa909a395b86ca4630582"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3545c43b4dfa909a395b86ca4630582">&#9670;&#160;</a></span>updateCurrentPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::SurfacePointWidget::updateCurrentPosition </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

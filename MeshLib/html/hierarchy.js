@@ -269,6 +269,11 @@ var hierarchy =
       [ "MR::RenderPointsObject", "classMR_1_1RenderPointsObject.html", null ],
       [ "MR::RenderVolumeObject", "classMR_1_1RenderVolumeObject.html", null ]
     ] ],
+    [ "MR::ISceneSelectionChange", "classMR_1_1ISceneSelectionChange.html", [
+      [ "MR::SceneSelectionChangeClose", "classMR_1_1SceneSelectionChangeClose.html", null ],
+      [ "MR::SceneSelectionChangeRestart", "classMR_1_1SceneSelectionChangeRestart.html", null ],
+      [ "MR::StateBasePlugin", "classMR_1_1StateBasePlugin.html", null ]
+    ] ],
     [ "MR::ISceneStateCheck", "classMR_1_1ISceneStateCheck.html", [
       [ "MR::SceneStateAtLeastCheck< 1, Object >", "classMR_1_1SceneStateAtLeastCheck.html", [
         [ "MR::RibbonSceneRemoveSelected", "classMR_1_1RibbonSceneRemoveSelected.html", null ],
@@ -409,6 +414,7 @@ var hierarchy =
     [ "MR::Palette::Parameters", "structMR_1_1Palette_1_1Parameters.html", null ],
     [ "MR::SurfacePointWidget::Parameters", "structMR_1_1SurfacePointWidget_1_1Parameters.html", null ],
     [ "MR::Viewport::Parameters", "structMR_1_1Viewport_1_1Parameters.html", null ],
+    [ "MR::ObjectTransformWidget::Params", "structMR_1_1ObjectTransformWidget_1_1Params.html", null ],
     [ "MR::SpaceMouseController::Params", "structMR_1_1SpaceMouseController_1_1Params.html", null ],
     [ "MR::ColorMapAggregator< Tag >::PartialColorMap", "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html", null ],
     [ "MR::PartMapping", "structMR_1_1PartMapping.html", null ],

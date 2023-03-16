@@ -1,6 +1,7 @@
 var classMR_1_1ObjectTransformWidget =
 [
     [ "ChangeXfAction", "classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html", "classMR_1_1ObjectTransformWidget_1_1ChangeXfAction" ],
+    [ "Params", "structMR_1_1ObjectTransformWidget_1_1Params.html", "structMR_1_1ObjectTransformWidget_1_1Params" ],
     [ "Axis", "classMR_1_1ObjectTransformWidget.html#a68b9b25ab7ecc4861ee34b7b4221b29a", [
       [ "X", "classMR_1_1ObjectTransformWidget.html#a68b9b25ab7ecc4861ee34b7b4221b29aac0e303493426fb7b31a2082b82f5117f", null ],
       [ "Y", "classMR_1_1ObjectTransformWidget.html#a68b9b25ab7ecc4861ee34b7b4221b29aacb4596c64977156fc1968c3f191743f7", null ],
@@ -24,6 +25,7 @@ var classMR_1_1ObjectTransformWidget =
     [ "followObjVisibility", "classMR_1_1ObjectTransformWidget.html#ae251d733beed21672b8754f369937dca", null ],
     [ "getAxisTransformMode", "classMR_1_1ObjectTransformWidget.html#a80fb43258823d107074fb68a3f1c411d", null ],
     [ "getControlsXf", "classMR_1_1ObjectTransformWidget.html#a1010ca302a266f98b14450145b726efe", null ],
+    [ "getParams", "classMR_1_1ObjectTransformWidget.html#a301b9fe5fe92f5857b59e0958a9c9b8b", null ],
     [ "getPickThrough", "classMR_1_1ObjectTransformWidget.html#aadc74bc9486e7d16c324e8c32d6f14da", null ],
     [ "getRadius", "classMR_1_1ObjectTransformWidget.html#a34f02f94d8973877fe04a2b582057b7d", null ],
     [ "getRootObject", "classMR_1_1ObjectTransformWidget.html#aaaadf59451391760eaa2882c90d79f5b", null ],
@@ -35,6 +37,7 @@ var classMR_1_1ObjectTransformWidget =
     [ "setApproveXfCallback", "classMR_1_1ObjectTransformWidget.html#af009bd74e0f49b4a2efc1ddcf659e58a", null ],
     [ "setAxisTransformMode", "classMR_1_1ObjectTransformWidget.html#aec0ff434beabde629460e566c23beb5c", null ],
     [ "setControlsXf", "classMR_1_1ObjectTransformWidget.html#ab22daeb26cd1e936593d97d63cc407b5", null ],
+    [ "setParams", "classMR_1_1ObjectTransformWidget.html#a0787bb005003ad30a224184591603ad9", null ],
     [ "setPickThrough", "classMR_1_1ObjectTransformWidget.html#affacee843dc6b1eda7e3692d42d74f75", null ],
     [ "setRadius", "classMR_1_1ObjectTransformWidget.html#a59326afc19c80e440d0b0a4fe08d4c7a", null ],
     [ "setRotateTooltipCallback", "classMR_1_1ObjectTransformWidget.html#a3582cec258b537faa908e62e50ca0eb8", null ],

@@ -54,7 +54,7 @@ var searchData=
   ['isedgebetweendoubletris_51',['isEdgeBetweenDoubleTris',['../group__MeshFixerGroup.html#ga68b96907fdec5d90f6c4d1771ae0563e',1,'MR']]],
   ['isedgeloop_52',['isEdgeLoop',['../group__EdgePathsGroup.html#gaf669cb8f71c0282ec6c839e2e481dc64',1,'MR']]],
   ['isedgepath_53',['isEdgePath',['../group__EdgePathsGroup.html#ga7a492156b75bdd4b9dd72acc28ef2b3e',1,'MR']]],
-  ['isenabled_54',['isEnabled',['../classMR_1_1ShadowsGL.html#afbfb18c734f6d41741dcdd84a9031e95',1,'MR::ShadowsGL::isEnabled()'],['../classMR_1_1StateBasePlugin.html#ae7da0ed13a069a29ec8fac496e7aa065',1,'MR::StateBasePlugin::isEnabled()']]],
+  ['isenabled_54',['isEnabled',['../classMR_1_1ShadowsGL.html#afbfb18c734f6d41741dcdd84a9031e95',1,'MR::ShadowsGL::isEnabled()'],['../classMR_1_1StateBasePlugin.html#ae7da0ed13a069a29ec8fac496e7aa065',1,'MR::StateBasePlugin::isEnabled()'],['../classMR_1_1ShortcutManager.html#aaf51fc21fb54cb1e8d7b1734c0d4c0e9',1,'MR::ShortcutManager::isEnabled()']]],
   ['isfinished_55',['isFinished',['../classMR_1_1ProgressBar.html#a009d09c70beb26bb2764e8ba9b7f0a0b',1,'MR::ProgressBar']]],
   ['isglinitialized_56',['isGLInitialized',['../classMR_1_1Viewer.html#a44dcab99aafe4a71d2890df4698179a1',1,'MR::Viewer']]],
   ['isglobalhistoryenabled_57',['isGlobalHistoryEnabled',['../classMR_1_1Viewer.html#af783e511fab48488cefa29c151e6dca4',1,'MR::Viewer']]],

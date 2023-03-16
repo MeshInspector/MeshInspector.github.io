@@ -1,7 +1,7 @@
 var searchData=
 [
   ['r_0',['r',['../structMR_1_1AABBTreeNode.html#a17304ef8e7e0d4062245a747fa45840e',1,'MR::AABBTreeNode::r()'],['../structMR_1_1Color.html#aaa379f38f05825d099fa1a11b4fa9b32',1,'MR::Color::r()']]],
-  ['radius_1',['radius',['../structMR_1_1SphereParams.html#aa39f9a9bdcc770f1cd4abffcf9594f51',1,'MR::SphereParams::radius()'],['../structMR_1_1SurfacePointWidget_1_1Parameters.html#ac072b93be7d076a5ecab7a5447632d0b',1,'MR::SurfacePointWidget::Parameters::radius()']]],
+  ['radius_1',['radius',['../structMR_1_1SphereParams.html#aa39f9a9bdcc770f1cd4abffcf9594f51',1,'MR::SphereParams::radius()'],['../structMR_1_1ObjectTransformWidget_1_1Params.html#abcec01fe64c96b7e0fb7d5e9ff267179',1,'MR::ObjectTransformWidget::Params::radius()'],['../structMR_1_1SurfacePointWidget_1_1Parameters.html#ac072b93be7d076a5ecab7a5447632d0b',1,'MR::SurfacePointWidget::Parameters::radius()']]],
   ['rainbow_2',['Rainbow',['../structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ae46d69073ca5fd816bbd4a15b582d8a8',1,'MR::ObjectVoxels::VolumeRenderingParams']]],
   ['randomshiftsseed_3',['randomShiftsSeed',['../structMR_1_1UniteManyMeshesParams.html#a3a9dfe0c8c99c3913373200d1cb1ddfc',1,'MR::UniteManyMeshesParams']]],
   ['ranges_4',['ranges',['../structMR_1_1Palette_1_1Parameters.html#a9a1c14b8de7d2c34b832c70062d489b9',1,'MR::Palette::Parameters']]],
@@ -22,5 +22,6 @@ var searchData=
   ['rigidb2a_19',['rigidB2A',['../structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0',1,'MR::SortIntersectionsData']]],
   ['rotangles_20',['rotAngles',['../structMR_1_1PointToPlaneAligningTransform_1_1Amendment.html#abc3ac9ecd9cd388aff8e3bc56940f80a',1,'MR::PointToPlaneAligningTransform::Amendment']]],
   ['rotatescale_21',['rotateScale',['../structMR_1_1SpaceMouseController_1_1Params.html#ace83fc4d9751e862ec88cbefbbe512df',1,'MR::SpaceMouseController::Params']]],
-  ['rotationsphere_22',['rotationSphere',['../classMR_1_1Viewer.html#a73342d4ca83f292c18e3174035e61d2e',1,'MR::Viewer']]]
+  ['rotationcolors_22',['rotationColors',['../structMR_1_1ObjectTransformWidget_1_1Params.html#af2761b86dd5b3accdbc50470642ab702',1,'MR::ObjectTransformWidget::Params']]],
+  ['rotationsphere_23',['rotationSphere',['../classMR_1_1Viewer.html#a73342d4ca83f292c18e3174035e61d2e',1,'MR::Viewer']]]
 ];

@@ -29,7 +29,7 @@ var searchData=
   ['makeregulargridmesh_26',['makeRegularGridMesh',['../namespaceMR.html#a69326a12abca0a9fdf17e55e4b449dd5',1,'MR']]],
   ['makerenderobjectconstructor_27',['makeRenderObjectConstructor',['../namespaceMR.html#a328bb54e142966b09b529c5ed868e453',1,'MR']]],
   ['makerigidxf_28',['makeRigidXf',['../namespaceMR.html#a433a8d6bdf429a6aeef4abc1a9f05798',1,'MR::makeRigidXf(const MeshPart &amp;mp, const AffineXf3f &amp;meshXf)'],['../group__MathGroup.html#gaf420bd1285dda4239d2ac0fac2eff1f9',1,'MR::makeRigidXf(const MeshPart &amp;mp, const AffineXf3d &amp;meshXf)']]],
-  ['makesignedwithfastwinding_29',['makeSignedWithFastWinding',['../namespaceMR.html#ae799821853b15fea3d01f0b5ed7d313f',1,'MR']]],
+  ['makesignedwithfastwinding_29',['makeSignedWithFastWinding',['../namespaceMR.html#a66f0ac0becf319472a05f5f6cf7cf93f',1,'MR']]],
   ['makesphere_30',['makeSphere',['../namespaceMR.html#a63679b306dbff600a8f7c5008a489d9d',1,'MR']]],
   ['maketitlefromscenerootpath_31',['makeTitleFromSceneRootPath',['../classMR_1_1Viewer.html#ae46fc463954326092580c6471226d371',1,'MR::Viewer']]],
   ['maketorus_32',['makeTorus',['../namespaceMR.html#a9c4abf9ec20745c55a6825637894668c',1,'MR']]],

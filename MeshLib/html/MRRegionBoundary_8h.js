@@ -1,10 +1,14 @@
 var MRRegionBoundary_8h =
 [
+    [ "findLeftBoundary", "MRRegionBoundary_8h.html#a5dafea3426ba8ddf443b86c99fd1b3e9", null ],
+    [ "findLeftBoundary", "MRRegionBoundary_8h.html#a1fc4b7cc580d42260b45c0af3ff2fd12", null ],
+    [ "findLeftBoundaryInsideMesh", "MRRegionBoundary_8h.html#ae00243e83bb9017aa03fcb42bd7f524d", null ],
     [ "findRegionBoundary", "MRRegionBoundary_8h.html#ae7c14aed03a3b460fcd94099af44851b", null ],
     [ "findRegionBoundary", "MRRegionBoundary_8h.html#a2b0f23f1de30eee9a428674217f22d62", null ],
-    [ "findRegionBoundaryInsideMesh", "MRRegionBoundary_8h.html#aa4b7c63c7d01b36c734fe55539c3c09a", null ],
     [ "findRegionBoundaryUndirectedEdgesInsideMesh", "MRRegionBoundary_8h.html#acb8bc789d5f982acca80ec85c34cfca6", null ],
     [ "findRegionOuterFaces", "MRRegionBoundary_8h.html#a14819584da09eac6df2cab459ab80626", null ],
+    [ "findRightBoundary", "MRRegionBoundary_8h.html#a0e07c37da72aba07d9f560de8e27f8a2", null ],
+    [ "findRightBoundary", "MRRegionBoundary_8h.html#a25514d4f7efbcece3bf2daa5fa1bff62", null ],
     [ "getBoundaryVerts", "MRRegionBoundary_8h.html#a2ea3516bc5bd31a954ef5cea5edd4ae5", null ],
     [ "getIncidentEdges", "MRRegionBoundary_8h.html#a917717848776c5bef68005e7fbdf24ff", null ],
     [ "getIncidentFaces", "MRRegionBoundary_8h.html#abafdefdb52d1edc03627291ad5e33b60", null ],
@@ -19,6 +23,10 @@ var MRRegionBoundary_8h =
     [ "getInnerVerts", "MRRegionBoundary_8h.html#a239a137f92a0b73dfac626d2a8a7bb42", null ],
     [ "getInnerVerts", "MRRegionBoundary_8h.html#a6fe46de7cb7885b2707a89d2637bfeb0", null ],
     [ "getRegionEdges", "MRRegionBoundary_8h.html#ad236300492a56bcb9401d780f9a30acf", null ],
+    [ "trackLeftBoundaryLoop", "MRRegionBoundary_8h.html#ae9b63ef49be21d9e7e1a4e8065073ce2", null ],
+    [ "trackLeftBoundaryLoop", "MRRegionBoundary_8h.html#a0deb53e0a4ba2c6305e86e1874919f11", null ],
     [ "trackRegionBoundaryLoop", "MRRegionBoundary_8h.html#a37e066f5ba68ae8a4b72cc0ed1494326", null ],
-    [ "trackRegionBoundaryLoop", "MRRegionBoundary_8h.html#a01e801fbeb3fac19f6385d7834e22e66", null ]
+    [ "trackRegionBoundaryLoop", "MRRegionBoundary_8h.html#a01e801fbeb3fac19f6385d7834e22e66", null ],
+    [ "trackRightBoundaryLoop", "MRRegionBoundary_8h.html#a3b22e5774df978e54ffd890ac6a8a0ba", null ],
+    [ "trackRightBoundaryLoop", "MRRegionBoundary_8h.html#a10723dc5e9c17648ce207691c6c0f547", null ]
 ];

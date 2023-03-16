@@ -10,11 +10,12 @@ var searchData=
   ['minusy_7',['MinusY',['../group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6a9cc816b8a2117db796c073f012e78565',1,'MR::MinusY()'],['../group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea9cc816b8a2117db796c073f012e78565',1,'MR::MinusY()']]],
   ['minusz_8',['MinusZ',['../group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea65661216a3acfdac8c58d97d97fa10cb',1,'MR']]],
   ['mirror_9',['Mirror',['../namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00ca2403def5083f02105e7802b3b315681e',1,'MR']]],
-  ['mousedown_10',['MouseDown',['../classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0abf90db242043990aa80fde01f233665d',1,'MR::Viewer']]],
-  ['mousemove_11',['MouseMove',['../classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0afd060c0c157323f1e43e0704d4f3ffc8',1,'MR::Viewer']]],
-  ['mousescroll_12',['MouseScroll',['../classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0ab4efa1e1d0671dddbd78735a0bd24274',1,'MR::Viewer']]],
-  ['mouseup_13',['MouseUp',['../classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0a5c55840fe2a83a886590c780f0aa7031',1,'MR::Viewer']]],
-  ['movex_14',['MoveX',['../classMR_1_1ObjectTransformWidget.html#a4ab6c5281aca51196492f7ac931414c1a562146a2dd8761ec5953b86788f0e2ad',1,'MR::ObjectTransformWidget']]],
-  ['movey_15',['MoveY',['../classMR_1_1ObjectTransformWidget.html#a4ab6c5281aca51196492f7ac931414c1a72ebc70f01c82ebbb2aefe1086876d52',1,'MR::ObjectTransformWidget']]],
-  ['movez_16',['MoveZ',['../classMR_1_1ObjectTransformWidget.html#a4ab6c5281aca51196492f7ac931414c1a626165e8669c9131d34d3b4e586067a3',1,'MR::ObjectTransformWidget']]]
+  ['mono_10',['Mono',['../classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368a5d9b47bd3b65072e0d5daf55f01da086',1,'MR::RibbonButtonDrawer']]],
+  ['mousedown_11',['MouseDown',['../classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0abf90db242043990aa80fde01f233665d',1,'MR::Viewer']]],
+  ['mousemove_12',['MouseMove',['../classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0afd060c0c157323f1e43e0704d4f3ffc8',1,'MR::Viewer']]],
+  ['mousescroll_13',['MouseScroll',['../classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0ab4efa1e1d0671dddbd78735a0bd24274',1,'MR::Viewer']]],
+  ['mouseup_14',['MouseUp',['../classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0a5c55840fe2a83a886590c780f0aa7031',1,'MR::Viewer']]],
+  ['movex_15',['MoveX',['../classMR_1_1ObjectTransformWidget.html#a4ab6c5281aca51196492f7ac931414c1a562146a2dd8761ec5953b86788f0e2ad',1,'MR::ObjectTransformWidget']]],
+  ['movey_16',['MoveY',['../classMR_1_1ObjectTransformWidget.html#a4ab6c5281aca51196492f7ac931414c1a72ebc70f01c82ebbb2aefe1086876d52',1,'MR::ObjectTransformWidget']]],
+  ['movez_17',['MoveZ',['../classMR_1_1ObjectTransformWidget.html#a4ab6c5281aca51196492f7ac931414c1a626165e8669c9131d34d3b4e586067a3',1,'MR::ObjectTransformWidget']]]
 ];

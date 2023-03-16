@@ -11,6 +11,7 @@ var classMR_1_1SurfacePointWidget =
     [ "~SurfacePointWidget", "classMR_1_1SurfacePointWidget.html#a7d9c8acabf47d730f83f1d17944e7462", null ],
     [ "create", "classMR_1_1SurfacePointWidget.html#af9c68b54df7a14d3b865147a30bed2ca", null ],
     [ "getAutoHover", "classMR_1_1SurfacePointWidget.html#a798cfe4e8403435129f4788dbfe0604b", null ],
+    [ "getBaseSurface", "classMR_1_1SurfacePointWidget.html#ade210457fb828d04663955ec7a5154ce", null ],
     [ "getCurrentPosition", "classMR_1_1SurfacePointWidget.html#aa7f44a7819d74d48d2e6ca4a33594dce", null ],
     [ "getParameters", "classMR_1_1SurfacePointWidget.html#aaf1b995da6798f3caa166aff48dd0958", null ],
     [ "getPickSphere", "classMR_1_1SurfacePointWidget.html#aa8c6ffb5b20ff526434fba6f30176a10", null ],
@@ -20,5 +21,6 @@ var classMR_1_1SurfacePointWidget =
     [ "setHovered", "classMR_1_1SurfacePointWidget.html#a4023f6d9ae5235d692afad4374b6134e", null ],
     [ "setOnMoveCallback", "classMR_1_1SurfacePointWidget.html#a4d86d1d31a5ae4492387c8a5d9e24a06", null ],
     [ "setParameters", "classMR_1_1SurfacePointWidget.html#a7490f0d419228b077322177f164a2552", null ],
-    [ "setStartMoveCallback", "classMR_1_1SurfacePointWidget.html#a6cdbf2259f81a22d3d7389b4ce081727", null ]
+    [ "setStartMoveCallback", "classMR_1_1SurfacePointWidget.html#a6cdbf2259f81a22d3d7389b4ce081727", null ],
+    [ "updateCurrentPosition", "classMR_1_1SurfacePointWidget.html#ad3545c43b4dfa909a395b86ca4630582", null ]
 ];

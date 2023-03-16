@@ -1,5 +1,5 @@
 var MRTunnelDetector_8h =
 [
-    [ "detectBasisTunnels", "MRTunnelDetector_8h.html#ga398ee5e613d9fdc3f0c80ed1ca645d07", null ],
-    [ "detectTunnelFaces", "MRTunnelDetector_8h.html#ga538255260afc3615516fd0beac3b4094", null ]
+    [ "detectBasisTunnels", "MRTunnelDetector_8h.html#gab0fa236a97481597101cae40e8593cd8", null ],
+    [ "detectTunnelFaces", "MRTunnelDetector_8h.html#ga1328c9fbf4ccfe82c9293b515a1564ab", null ]
 ];

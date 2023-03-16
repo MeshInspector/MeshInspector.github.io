@@ -47,6 +47,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRRibbonMenuItem.h", "MRRibbonMenuItem_8h.html", "MRRibbonMenuItem_8h" ],
     [ "MRRibbonSchema.h", "MRRibbonSchema_8h.html", "MRRibbonSchema_8h" ],
     [ "MRSaveOnClose.h", "MRSaveOnClose_8h.html", "MRSaveOnClose_8h" ],
+    [ "MRSceneSelectionChange.h", "MRSceneSelectionChange_8h.html", "MRSceneSelectionChange_8h" ],
     [ "MRSceneStateCheck.h", "MRSceneStateCheck_8h.html", "MRSceneStateCheck_8h" ],
     [ "MRSelectScreenLasso.h", "MRSelectScreenLasso_8h.html", "MRSelectScreenLasso_8h" ],
     [ "MRSetupViewer.h", "MRSetupViewer_8h.html", "MRSetupViewer_8h" ],

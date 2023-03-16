@@ -248,6 +248,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a196d4d3d97c500f172693c4987530ff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bd271c33ddccecb029cb0142a185311"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonMenu.html#a8bd271c33ddccecb029cb0142a185311">drawToolbarCustomizeWindow_</a> ()</td></tr>
 <tr class="separator:a8bd271c33ddccecb029cb0142a185311"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03a98cb8c3fb50681950df4c80e0cf8b"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonMenu.html#a03a98cb8c3fb50681950df4c80e0cf8b">drawToolbarCustomizeTabsList_</a> ()</td></tr>
+<tr class="separator:a03a98cb8c3fb50681950df4c80e0cf8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3c412f34a31700b3eafe270f1c49511"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonMenu.html#ac3c412f34a31700b3eafe270f1c49511">drawToolbarCustomizeItemsList_</a> ()</td></tr>
 <tr class="separator:ac3c412f34a31700b3eafe270f1c49511"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08cfddbcdf2067399261696955c7276a"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonMenu.html#a08cfddbcdf2067399261696955c7276a">getSceneItemIconByTypeName_</a> (const std::string &amp;typeName) const</td></tr>
@@ -271,6 +273,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a2f639a83635dfb22ba89545a6dc9d85e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf628a7bb9081d2c4b3d3405e96e85b4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structMR_1_1RibbonMenu_1_1DialogItemPtr.html">DialogItemPtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonMenu.html#acf628a7bb9081d2c4b3d3405e96e85b4">activeNonBlockingItems_</a></td></tr>
 <tr class="separator:acf628a7bb9081d2c4b3d3405e96e85b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aa5eb2e4bc030d43ad741876d8768b8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; const <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonMenu.html#a4aa5eb2e4bc030d43ad741876d8768b8">prevFrameObjectsCache_</a></td></tr>
+<tr class="separator:a4aa5eb2e4bc030d43ad741876d8768b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a995a11b9ef6d9d367ceff73955651a41"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; const <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonMenu.html#a995a11b9ef6d9d367ceff73955651a41">selectedObjectsCache_</a></td></tr>
 <tr class="separator:a995a11b9ef6d9d367ceff73955651a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -825,6 +829,31 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">virtual MRVIEWER_API void MR::RibbonMenu::drawToolbarCustomizeItemsList_ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a03a98cb8c3fb50681950df4c80e0cf8b" name="a03a98cb8c3fb50681950df4c80e0cf8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03a98cb8c3fb50681950df4c80e0cf8b">&#9670;&#160;</a></span>drawToolbarCustomizeTabsList_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MRVIEWER_API void MR::RibbonMenu::drawToolbarCustomizeTabsList_ </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1784,6 +1813,28 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">std::vector&lt;<a class="el" href="structMR_1_1RibbonMenu_1_1DialogItemPtr.html">DialogItemPtr</a>&gt; MR::RibbonMenu::activeNonBlockingItems_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4aa5eb2e4bc030d43ad741876d8768b8" name="a4aa5eb2e4bc030d43ad741876d8768b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4aa5eb2e4bc030d43ad741876d8768b8">&#9670;&#160;</a></span>prevFrameObjectsCache_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::shared_ptr&lt;const <a class="el" href="classMR_1_1Object.html">Object</a>&gt; &gt; MR::RibbonMenu::prevFrameObjectsCache_</td>
         </tr>
       </table>
   </td>

@@ -105,21 +105,21 @@ $(document).ready(function(){initNavTree('group__TunnelDetectorGroup.html',''); 
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga398ee5e613d9fdc3f0c80ed1ca645d07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#aee05ada6f56e0075cc157732cae41543">EdgeLoop</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__TunnelDetectorGroup.html#ga398ee5e613d9fdc3f0c80ed1ca645d07">MR::detectBasisTunnels</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, <a class="el" href="group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> metric={})</td></tr>
-<tr class="separator:ga398ee5e613d9fdc3f0c80ed1ca645d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga538255260afc3615516fd0beac3b4094"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__TunnelDetectorGroup.html#ga538255260afc3615516fd0beac3b4094">MR::detectTunnelFaces</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float maxTunnelLength, const <a class="el" href="group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;metric={})</td></tr>
-<tr class="separator:ga538255260afc3615516fd0beac3b4094"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab0fa236a97481597101cae40e8593cd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; std::vector&lt; <a class="el" href="namespaceMR.html#aee05ada6f56e0075cc157732cae41543">EdgeLoop</a> &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__TunnelDetectorGroup.html#gab0fa236a97481597101cae40e8593cd8">MR::detectBasisTunnels</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, <a class="el" href="group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> metric={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCallback={})</td></tr>
+<tr class="separator:gab0fa236a97481597101cae40e8593cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1328c9fbf4ccfe82c9293b515a1564ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__TunnelDetectorGroup.html#ga1328c9fbf4ccfe82c9293b515a1564ab">MR::detectTunnelFaces</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float maxTunnelLength, const <a class="el" href="group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;metric={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCallback={})</td></tr>
+<tr class="separator:ga1328c9fbf4ccfe82c9293b515a1564ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga398ee5e613d9fdc3f0c80ed1ca645d07" name="ga398ee5e613d9fdc3f0c80ed1ca645d07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga398ee5e613d9fdc3f0c80ed1ca645d07">&#9670;&#160;</a></span>detectBasisTunnels()</h2>
+<a id="gab0fa236a97481597101cae40e8593cd8" name="gab0fa236a97481597101cae40e8593cd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab0fa236a97481597101cae40e8593cd8">&#9670;&#160;</a></span>detectBasisTunnels()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#aee05ada6f56e0075cc157732cae41543">EdgeLoop</a> &gt; MR::detectBasisTunnels </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; std::vector&lt; <a class="el" href="namespaceMR.html#aee05ada6f56e0075cc157732cae41543">EdgeLoop</a> &gt;, std::string &gt; MR::detectBasisTunnels </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
           <td class="paramname"><em>mp</em>, </td>
@@ -128,7 +128,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a>&#160;</td>
-          <td class="paramname"><em>metric</em> = <code>{}</code>&#160;</td>
+          <td class="paramname"><em>metric</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>progressCallback</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -141,14 +147,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga538255260afc3615516fd0beac3b4094" name="ga538255260afc3615516fd0beac3b4094"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga538255260afc3615516fd0beac3b4094">&#9670;&#160;</a></span>detectTunnelFaces()</h2>
+<a id="ga1328c9fbf4ccfe82c9293b515a1564ab" name="ga1328c9fbf4ccfe82c9293b515a1564ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1328c9fbf4ccfe82c9293b515a1564ab">&#9670;&#160;</a></span>detectTunnelFaces()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> MR::detectTunnelFaces </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a>, std::string &gt; MR::detectTunnelFaces </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
           <td class="paramname"><em>mp</em>, </td>
@@ -163,7 +169,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;&#160;</td>
-          <td class="paramname"><em>metric</em> = <code>{}</code>&#160;</td>
+          <td class="paramname"><em>metric</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>progressCallback</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

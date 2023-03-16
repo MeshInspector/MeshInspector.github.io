@@ -22,6 +22,7 @@ var classMR_1_1RibbonMenu =
     [ "drawShortcutsWindow_", "classMR_1_1RibbonMenu.html#a361cde7981902393e0db66ef54bf937e", null ],
     [ "drawSmallButtonsSet_", "classMR_1_1RibbonMenu.html#a3d177f8768aa87645a633f7e5e3dd0ba", null ],
     [ "drawToolbarCustomizeItemsList_", "classMR_1_1RibbonMenu.html#ac3c412f34a31700b3eafe270f1c49511", null ],
+    [ "drawToolbarCustomizeTabsList_", "classMR_1_1RibbonMenu.html#a03a98cb8c3fb50681950df4c80e0cf8b", null ],
     [ "drawToolbarCustomizeWindow_", "classMR_1_1RibbonMenu.html#a8bd271c33ddccecb029cb0142a185311", null ],
     [ "drawToolbarWindow_", "classMR_1_1RibbonMenu.html#a196d4d3d97c500f172693c4987530ff3", null ],
     [ "drawTopPanel_", "classMR_1_1RibbonMenu.html#aa73c014dbd2902888c6d2ec4c8adaeef", null ],
@@ -59,6 +60,7 @@ var classMR_1_1RibbonMenu =
     [ "updateItemStatus", "classMR_1_1RibbonMenu.html#afc750c1fa4b01d0cdf604d601194f436", null ],
     [ "activeBlockingItem_", "classMR_1_1RibbonMenu.html#a2f639a83635dfb22ba89545a6dc9d85e", null ],
     [ "activeNonBlockingItems_", "classMR_1_1RibbonMenu.html#acf628a7bb9081d2c4b3d3405e96e85b4", null ],
+    [ "prevFrameObjectsCache_", "classMR_1_1RibbonMenu.html#a4aa5eb2e4bc030d43ad741876d8768b8", null ],
     [ "selectedObjectsCache_", "classMR_1_1RibbonMenu.html#a995a11b9ef6d9d367ceff73955651a41", null ],
     [ "tabChangedSignal", "classMR_1_1RibbonMenu.html#afd52ffe86f76c1dcae019262f3722fd3", null ]
 ];

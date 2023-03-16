@@ -99,6 +99,7 @@ $(document).ready(function(){initNavTree('classMR_1_1RibbonButtonDrawer.html',''
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classMR_1_1RibbonButtonDrawer-members.html">List of all members</a>  </div>
@@ -115,6 +116,15 @@ $(document).ready(function(){initNavTree('classMR_1_1RibbonButtonDrawer.html',''
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html">ButtonItemWidth</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a23c5f0f08b0b93d907d363936c36f368"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368">TextureType</a> { <a class="el" href="classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368a5d9b47bd3b65072e0d5daf55f01da086">Mono</a>
+, <a class="el" href="classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368a5e59525cb7d1d1cd93be0b9f36e9d09a">Gradient</a>
+, <a class="el" href="classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368a5f623490490b088611156df973163f7f">RainbowRect</a>
+, <a class="el" href="classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>
+ }</td></tr>
+<tr class="separator:a23c5f0f08b0b93d907d363936c36f368"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -149,8 +159,8 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aaf522f84deade12174104cfd9ab2c384"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonButtonDrawer.html#aaf522f84deade12174104cfd9ab2c384">InitGradientTexture</a> ()</td></tr>
 <tr class="separator:aaf522f84deade12174104cfd9ab2c384"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a162a40c23104ea5b009918b7977838ae"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::unique_ptr&lt; <a class="el" href="classMR_1_1ImGuiImage.html">ImGuiImage</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonButtonDrawer.html#a162a40c23104ea5b009918b7977838ae">GetGradientTexture</a> ()</td></tr>
-<tr class="separator:a162a40c23104ea5b009918b7977838ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83dd3384388f9328b4a90cf1a166a111"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::unique_ptr&lt; <a class="el" href="classMR_1_1ImGuiImage.html">ImGuiImage</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonButtonDrawer.html#a83dd3384388f9328b4a90cf1a166a111">GetTexture</a> (<a class="el" href="classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368">TextureType</a> type)</td></tr>
+<tr class="separator:a83dd3384388f9328b4a90cf1a166a111"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d785cf58a6604f64a940317c080ee6d"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonButtonDrawer.html#a4d785cf58a6604f64a940317c080ee6d">GradientButton</a> (const char *label, const ImVec2 &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>=ImVec2(0, 0), ImGuiKey key=ImGuiKey_None)</td></tr>
 <tr class="separator:a4d785cf58a6604f64a940317c080ee6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a7cc3c165c9213f2f5c4b153c6eb1e0"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonButtonDrawer.html#a8a7cc3c165c9213f2f5c4b153c6eb1e0">GradientButtonCommonSize</a> (const char *label, const ImVec2 &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>=ImVec2(0, 0), ImGuiKey key=ImGuiKey_None)</td></tr>
@@ -183,7 +193,36 @@ Static Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>class for drawing ribbon menu buttons </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a23c5f0f08b0b93d907d363936c36f368" name="a23c5f0f08b0b93d907d363936c36f368"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23c5f0f08b0b93d907d363936c36f368">&#9670;&#160;</a></span>TextureType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368">MR::RibbonButtonDrawer::TextureType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a23c5f0f08b0b93d907d363936c36f368a5d9b47bd3b65072e0d5daf55f01da086" name="a23c5f0f08b0b93d907d363936c36f368a5d9b47bd3b65072e0d5daf55f01da086"></a>Mono&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a23c5f0f08b0b93d907d363936c36f368a5e59525cb7d1d1cd93be0b9f36e9d09a" name="a23c5f0f08b0b93d907d363936c36f368a5e59525cb7d1d1cd93be0b9f36e9d09a"></a>Gradient&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a23c5f0f08b0b93d907d363936c36f368a5f623490490b088611156df973163f7f" name="a23c5f0f08b0b93d907d363936c36f368a5f623490490b088611156df973163f7f"></a>RainbowRect&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a23c5f0f08b0b93d907d363936c36f368ae93f994f01c537c4e2f7d8528c3eb5e9" name="a23c5f0f08b0b93d907d363936c36f368ae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a873e857624709ee46ec0487169fd1e87" name="a873e857624709ee46ec0487169fd1e87"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a873e857624709ee46ec0487169fd1e87">&#9670;&#160;</a></span>calcItemWidth()</h2>
 
@@ -408,8 +447,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a162a40c23104ea5b009918b7977838ae" name="a162a40c23104ea5b009918b7977838ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a162a40c23104ea5b009918b7977838ae">&#9670;&#160;</a></span>GetGradientTexture()</h2>
+<a id="a83dd3384388f9328b4a90cf1a166a111" name="a83dd3384388f9328b4a90cf1a166a111"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83dd3384388f9328b4a90cf1a166a111">&#9670;&#160;</a></span>GetTexture()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -418,9 +457,10 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static MRVIEWER_API std::unique_ptr&lt; <a class="el" href="classMR_1_1ImGuiImage.html">ImGuiImage</a> &gt; &amp; MR::RibbonButtonDrawer::GetGradientTexture </td>
+          <td class="memname">static MRVIEWER_API std::unique_ptr&lt; <a class="el" href="classMR_1_1ImGuiImage.html">ImGuiImage</a> &gt; &amp; MR::RibbonButtonDrawer::GetTexture </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368">TextureType</a>&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
