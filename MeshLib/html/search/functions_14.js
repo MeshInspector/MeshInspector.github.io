@@ -39,12 +39,13 @@ var searchData=
   ['updatepolyline_36',['updatePolyline',['../classMR_1_1ObjectLines.html#a14ea493e0ce2d1ce42a9385fa43abfc1',1,'MR::ObjectLines']]],
   ['updateselection_37',['updateSelection',['../classMR_1_1ISceneSelectionChange.html#a0e5a18c4e15ba23a7536d1511cb823b6',1,'MR::ISceneSelectionChange::updateSelection()'],['../classMR_1_1SceneSelectionChangeClose.html#accb011d3020704157238d133e6ac990d',1,'MR::SceneSelectionChangeClose::updateSelection()'],['../classMR_1_1SceneSelectionChangeRestart.html#ae03b497a188281988804ecd125fd8f7c',1,'MR::SceneSelectionChangeRestart::updateSelection()']]],
   ['updatesolver_38',['updateSolver',['../classMR_1_1Laplacian.html#a3e7bb340acaa3ef81fe7ed9f5eaaf226',1,'MR::Laplacian']]],
-  ['updatetransparencytexturessize_39',['updateTransparencyTexturesSize',['../classMR_1_1AlphaSortGL.html#aab9cdfaf33634bcf9bae0eec5a82ebb9',1,'MR::AlphaSortGL']]],
-  ['updateuvcoords_40',['updateUVCoords',['../classMR_1_1ObjectMeshHolder.html#aa60920a2b1e8b33531c9cf306ff8e831',1,'MR::ObjectMeshHolder']]],
-  ['updatevdbvolume_41',['updateVdbVolume',['../classMR_1_1ObjectVoxels.html#aa2cc2fe9f238d2f29c8dffb80ebc675f',1,'MR::ObjectVoxels']]],
-  ['updatevertpairs_42',['updateVertPairs',['../classMR_1_1MeshICP.html#aff911d6d53f8e44963f067e7c8ae376e',1,'MR::MeshICP']]],
-  ['updatevertscolormap_43',['updateVertsColorMap',['../classMR_1_1VisualObject.html#a4e23dbd1c76dc995d978b275d3ac7ecf',1,'MR::VisualObject']]],
-  ['updatingvalids_44',['updatingValids',['../classMR_1_1MeshTopology.html#a45129b46fde8337018f14ecc690ddb81',1,'MR::MeshTopology']]],
-  ['utf8string_45',['utf8string',['../group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d',1,'MR']]],
-  ['utf8towide_46',['utf8ToWide',['../group__BasicGroup.html#ga543d43a804760961ac67ad3689330c1d',1,'MR']]]
+  ['updatethemes_39',['updateThemes',['../classMR_1_1ViewerSettingsPlugin.html#abb15c0c1b70bb9ff91021e28f50a7b15',1,'MR::ViewerSettingsPlugin']]],
+  ['updatetransparencytexturessize_40',['updateTransparencyTexturesSize',['../classMR_1_1AlphaSortGL.html#aab9cdfaf33634bcf9bae0eec5a82ebb9',1,'MR::AlphaSortGL']]],
+  ['updateuvcoords_41',['updateUVCoords',['../classMR_1_1ObjectMeshHolder.html#aa60920a2b1e8b33531c9cf306ff8e831',1,'MR::ObjectMeshHolder']]],
+  ['updatevdbvolume_42',['updateVdbVolume',['../classMR_1_1ObjectVoxels.html#aa2cc2fe9f238d2f29c8dffb80ebc675f',1,'MR::ObjectVoxels']]],
+  ['updatevertpairs_43',['updateVertPairs',['../classMR_1_1MeshICP.html#aff911d6d53f8e44963f067e7c8ae376e',1,'MR::MeshICP']]],
+  ['updatevertscolormap_44',['updateVertsColorMap',['../classMR_1_1VisualObject.html#a4e23dbd1c76dc995d978b275d3ac7ecf',1,'MR::VisualObject']]],
+  ['updatingvalids_45',['updatingValids',['../classMR_1_1MeshTopology.html#a45129b46fde8337018f14ecc690ddb81',1,'MR::MeshTopology']]],
+  ['utf8string_46',['utf8string',['../group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d',1,'MR']]],
+  ['utf8towide_47',['utf8ToWide',['../group__BasicGroup.html#ga543d43a804760961ac67ad3689330c1d',1,'MR']]]
 ];

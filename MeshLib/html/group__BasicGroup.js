@@ -219,6 +219,7 @@ var group__BasicGroup =
       [ "reserve", "classMR_1_1Vector.html#a74f2d276465f6183ec4068d124cbb596", null ],
       [ "resize", "classMR_1_1Vector.html#acd99deedcb9bcc81fa5eb3ba36cf13d1", null ],
       [ "resize", "classMR_1_1Vector.html#adf40b3783f92dfcaf4a65c1a9686b386", null ],
+      [ "resizeNoInit", "classMR_1_1Vector.html#a77f581e48148a907daa10f7ba1b4dbe2", null ],
       [ "resizeWithReserve", "classMR_1_1Vector.html#ae24a0747d63aca37f9e65f5619944252", null ],
       [ "size", "classMR_1_1Vector.html#a223d87525f421788d5f56e5022482b98", null ],
       [ "swap", "classMR_1_1Vector.html#ae03333f72ab69a79829ae5f0d6d426ef", null ],

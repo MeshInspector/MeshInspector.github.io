@@ -494,6 +494,7 @@ var hierarchy =
     [ "MR::SceneRoot", "classMR_1_1SceneRoot.html", null ],
     [ "MR::SceneSettings", "classMR_1_1SceneSettings.html", null ],
     [ "MR::ScopeHistory", "classMR_1_1ScopeHistory.html", null ],
+    [ "MR::RibbonSchemaHolder::SearchResult", "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html", null ],
     [ "MR::SegmEndColors", "structMR_1_1SegmEndColors.html", null ],
     [ "MR::SegmentSegmentIntersectResult", "structMR_1_1SegmentSegmentIntersectResult.html", null ],
     [ "MR::SelectScreenLasso", "classMR_1_1SelectScreenLasso.html", null ],
@@ -515,7 +516,9 @@ var hierarchy =
     ] ],
     [ "MR::SortIntersectionsData", "structMR_1_1SortIntersectionsData.html", null ],
     [ "MR::SpaceMouseController", "classMR_1_1SpaceMouseController.html", null ],
-    [ "MR::SpaceMouseHandler", "classMR_1_1SpaceMouseHandler.html", null ],
+    [ "MR::SpaceMouseHandler", "classMR_1_1SpaceMouseHandler.html", [
+      [ "MR::SpaceMouseHandlerHidapi", "classMR_1_1SpaceMouseHandlerHidapi.html", null ]
+    ] ],
     [ "MR::SphereParams", "structMR_1_1SphereParams.html", null ],
     [ "MR::SplashWindow", "classMR_1_1SplashWindow.html", [
       [ "MR::DefaultSplashWindow", "classMR_1_1DefaultSplashWindow.html", null ]
@@ -538,6 +541,7 @@ var hierarchy =
     [ "MR::TabNamePriority", "structMR_1_1TabNamePriority.html", null ],
     [ "MR::TerminalVertex", "structMR_1_1TerminalVertex.html", null ],
     [ "MR::Timer", "classMR_1_1Timer.html", null ],
+    [ "MR::Toolbar", "classMR_1_1Toolbar.html", null ],
     [ "MR::TransformedMesh", "structMR_1_1TransformedMesh.html", null ],
     [ "MR::ImmediateGL::Tri", "structMR_1_1ImmediateGL_1_1Tri.html", null ],
     [ "MR::MeshBuilder::Triangle", "structMR_1_1MeshBuilder_1_1Triangle.html", null ],

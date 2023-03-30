@@ -9,5 +9,6 @@ var classMR_1_1TouchesController =
     ] ],
     [ "getModeMask", "classMR_1_1TouchesController.html#abbe87844441a89b5f43778629be9286d", null ],
     [ "MR_ADD_CTOR_DELETE_MOVE", "classMR_1_1TouchesController.html#aa1d3c155ace8377d9a8faa1234a0eee0", null ],
-    [ "setModeMask", "classMR_1_1TouchesController.html#aa5f8e019655019e5cad0cc2bd7847104", null ]
+    [ "setModeMask", "classMR_1_1TouchesController.html#aa5f8e019655019e5cad0cc2bd7847104", null ],
+    [ "setTrasformModifierCb", "classMR_1_1TouchesController.html#ae56f9f544af1474b71a68848efdbe18c", null ]
 ];

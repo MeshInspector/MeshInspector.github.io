@@ -201,8 +201,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4048484ac2e78090960bc9bbc60cd6b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9168ca386aa3a34b0c1b79ddd7f4faa3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a9168ca386aa3a34b0c1b79ddd7f4faa3">sumAngles</a> (<a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> v, bool *outBoundaryVert=nullptr) const</td></tr>
 <tr class="separator:a9168ca386aa3a34b0c1b79ddd7f4faa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08e627f8c827dbc1bc085e4a0ad1dd89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a08e627f8c827dbc1bc085e4a0ad1dd89">findSpikeVertices</a> (float minSumAngle, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *region=nullptr) const</td></tr>
-<tr class="separator:a08e627f8c827dbc1bc085e4a0ad1dd89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ef3f65f775a534923601c34ebbdba98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a8ef3f65f775a534923601c34ebbdba98">findSpikeVertices</a> (float minSumAngle, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *region=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={}) const</td></tr>
+<tr class="separator:a8ef3f65f775a534923601c34ebbdba98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08a599e9255943ae4fab5935502d2f21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a08a599e9255943ae4fab5935502d2f21">dihedralAngleSin</a> (<a class="el" href="namespaceMR.html#a65798dca01178b50da3bbd7968fb360e">UndirectedEdgeId</a> e) const</td></tr>
 <tr class="separator:a08a599e9255943ae4fab5935502d2f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbc9fe4f12054a0171667825056fe457"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#afbc9fe4f12054a0171667825056fe457">dihedralAngleCos</a> (<a class="el" href="namespaceMR.html#a65798dca01178b50da3bbd7968fb360e">UndirectedEdgeId</a> e) const</td></tr>
@@ -1314,14 +1314,14 @@ template&lt;typename I &gt; </div>
 
 </div>
 </div>
-<a id="a08e627f8c827dbc1bc085e4a0ad1dd89" name="a08e627f8c827dbc1bc085e4a0ad1dd89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08e627f8c827dbc1bc085e4a0ad1dd89">&#9670;&#160;</a></span>findSpikeVertices()</h2>
+<a id="a8ef3f65f775a534923601c34ebbdba98" name="a8ef3f65f775a534923601c34ebbdba98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ef3f65f775a534923601c34ebbdba98">&#9670;&#160;</a></span>findSpikeVertices()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> MR::Mesh::findSpikeVertices </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a>, std::string &gt; MR::Mesh::findSpikeVertices </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>minSumAngle</em>, </td>
@@ -1330,7 +1330,13 @@ template&lt;typename I &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *&#160;</td>
-          <td class="paramname"><em>region</em> = <code>nullptr</code>&#160;</td>
+          <td class="paramname"><em>region</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>cb</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

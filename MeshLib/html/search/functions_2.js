@@ -147,7 +147,7 @@ var searchData=
   ['createsymbolcontours_144',['createSymbolContours',['../namespaceMR.html#ac6ace2b3a2d589ebd773a8780ac755ed',1,'MR']]],
   ['createsymbolsmesh_145',['createSymbolsMesh',['../namespaceMR.html#a8aa980cbc31075e77bfb8e0a6f285522',1,'MR']]],
   ['cross_146',['cross',['../structMR_1_1Vector2.html#a07bafe90fc0230d0cef79991e7858dff',1,'MR::Vector2::cross()'],['../structMR_1_1Vector3.html#af9065ae414e0307701366e479519540d',1,'MR::Vector3::cross()']]],
-  ['customcollapsingheader_147',['CustomCollapsingHeader',['../classMR_1_1RibbonButtonDrawer.html#ae5b683f03b5e974884ae287c61dfb12b',1,'MR::RibbonButtonDrawer']]],
+  ['customcollapsingheader_147',['CustomCollapsingHeader',['../classMR_1_1RibbonButtonDrawer.html#a9b54da453af494ce3c80120f8463f0ef',1,'MR::RibbonButtonDrawer']]],
   ['customcombo_148',['CustomCombo',['../classMR_1_1RibbonButtonDrawer.html#add48e1bfa52d49626c865ca01ef356b4',1,'MR::RibbonButtonDrawer']]],
   ['cutmesh_149',['cutMesh',['../group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc',1,'MR']]],
   ['cutmeshwithplane_150',['cutMeshWithPlane',['../group__BooleanGroup.html#gae70921f8b670333f08291597996a1dbf',1,'MR']]]

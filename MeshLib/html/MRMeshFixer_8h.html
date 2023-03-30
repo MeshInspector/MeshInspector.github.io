@@ -105,7 +105,10 @@ $(document).ready(function(){initNavTree('MRMeshFixer_8h.html',''); initResizabl
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRId_8h_source.html">MRId.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
 <code>#include &lt;cfloat&gt;</code><br />
+<code>#include &lt;tl/expected.hpp&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
 </div>
 <p><a href="MRMeshFixer_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -125,8 +128,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga030e7fa6218d19042b2a5ae052055192"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga030e7fa6218d19042b2a5ae052055192">MR::duplicateMultiHoleVertices</a> (Mesh &amp;mesh)</td></tr>
 <tr class="memdesc:ga030e7fa6218d19042b2a5ae052055192"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duplicates all vertices having more than two boundary edges (and returns the number of duplications);.  <br /></td></tr>
 <tr class="separator:ga030e7fa6218d19042b2a5ae052055192"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga55399f6038655672beb721801559a68b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; MultipleEdge &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga55399f6038655672beb721801559a68b">MR::findMultipleEdges</a> (const MeshTopology &amp;topology)</td></tr>
-<tr class="separator:ga55399f6038655672beb721801559a68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga596f1bc7e1adb32fbda398f45ddcf258"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; std::vector&lt; MultipleEdge &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga596f1bc7e1adb32fbda398f45ddcf258">MR::findMultipleEdges</a> (const MeshTopology &amp;topology, ProgressCallback cb={})</td></tr>
+<tr class="separator:ga596f1bc7e1adb32fbda398f45ddcf258"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1aa9c53dc2ae474fe6c0c6d90d347f3e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga1aa9c53dc2ae474fe6c0c6d90d347f3e">MR::hasMultipleEdges</a> (const MeshTopology &amp;topology)</td></tr>
 <tr class="separator:ga1aa9c53dc2ae474fe6c0c6d90d347f3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf36265bde92b52d2e7bc0142abd82206"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#gaf36265bde92b52d2e7bc0142abd82206">MR::fixMultipleEdges</a> (Mesh &amp;mesh, const std::vector&lt; MultipleEdge &gt; &amp;multipleEdges)</td></tr>
@@ -135,12 +138,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga52390270e3fbf5b7e8766374def17f07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga52390270e3fbf5b7e8766374def17f07">MR::fixMultipleEdges</a> (Mesh &amp;mesh)</td></tr>
 <tr class="memdesc:ga52390270e3fbf5b7e8766374def17f07"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds and resolves multiple edges  <br /></td></tr>
 <tr class="separator:ga52390270e3fbf5b7e8766374def17f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf11ee0e5b6adea0ab0dfd545b16a306f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#gaf11ee0e5b6adea0ab0dfd545b16a306f">MR::findDegenerateFaces</a> (const MeshPart &amp;mp, float criticalAspectRatio=FLT_MAX)</td></tr>
-<tr class="memdesc:gaf11ee0e5b6adea0ab0dfd545b16a306f"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds faces having aspect ratio &gt;= criticalAspectRatio  <br /></td></tr>
-<tr class="separator:gaf11ee0e5b6adea0ab0dfd545b16a306f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa962406c0d2bfd229a893f65104b4715"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#gaa962406c0d2bfd229a893f65104b4715">MR::findShortEdges</a> (const MeshPart &amp;mp, float criticalLength)</td></tr>
-<tr class="memdesc:gaa962406c0d2bfd229a893f65104b4715"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds edges having length &lt;= criticalLength  <br /></td></tr>
-<tr class="separator:gaa962406c0d2bfd229a893f65104b4715"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabf1c5debddebe0e076a1c041a8268d02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; FaceBitSet, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#gabf1c5debddebe0e076a1c041a8268d02">MR::findDegenerateFaces</a> (const MeshPart &amp;mp, float criticalAspectRatio=FLT_MAX, ProgressCallback cb={})</td></tr>
+<tr class="memdesc:gabf1c5debddebe0e076a1c041a8268d02"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds faces having aspect ratio &gt;= criticalAspectRatio  <br /></td></tr>
+<tr class="separator:gabf1c5debddebe0e076a1c041a8268d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6219853d3bd2c5f26ddc59fe6660718a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; UndirectedEdgeBitSet, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga6219853d3bd2c5f26ddc59fe6660718a">MR::findShortEdges</a> (const MeshPart &amp;mp, float criticalLength, ProgressCallback cb={})</td></tr>
+<tr class="memdesc:ga6219853d3bd2c5f26ddc59fe6660718a"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds edges having length &lt;= criticalLength  <br /></td></tr>
+<tr class="separator:ga6219853d3bd2c5f26ddc59fe6660718a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga248c2b6b8c9d3915cc4d7e94a2727734"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga248c2b6b8c9d3915cc4d7e94a2727734">MR::findNRingVerts</a> (const MeshTopology &amp;topology, int n, const VertBitSet *region=nullptr)</td></tr>
 <tr class="memdesc:ga248c2b6b8c9d3915cc4d7e94a2727734"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds vertices in region with complete ring of N edges  <br /></td></tr>
 <tr class="separator:ga248c2b6b8c9d3915cc4d7e94a2727734"><td class="memSeparator" colspan="2">&#160;</td></tr>

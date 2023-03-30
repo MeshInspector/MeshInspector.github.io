@@ -115,8 +115,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga030e7fa6218d19042b2a5ae052055192"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga030e7fa6218d19042b2a5ae052055192">MR::duplicateMultiHoleVertices</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="memdesc:ga030e7fa6218d19042b2a5ae052055192"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duplicates all vertices having more than two boundary edges (and returns the number of duplications);.  <br /></td></tr>
 <tr class="separator:ga030e7fa6218d19042b2a5ae052055192"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga55399f6038655672beb721801559a68b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="group__MeshFixerGroup.html#ga807cd3d017d23c56a0f6ea1cb1f7c8cb">MultipleEdge</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga55399f6038655672beb721801559a68b">MR::findMultipleEdges</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology)</td></tr>
-<tr class="separator:ga55399f6038655672beb721801559a68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga596f1bc7e1adb32fbda398f45ddcf258"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; std::vector&lt; <a class="el" href="group__MeshFixerGroup.html#ga807cd3d017d23c56a0f6ea1cb1f7c8cb">MultipleEdge</a> &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga596f1bc7e1adb32fbda398f45ddcf258">MR::findMultipleEdges</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:ga596f1bc7e1adb32fbda398f45ddcf258"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1aa9c53dc2ae474fe6c0c6d90d347f3e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga1aa9c53dc2ae474fe6c0c6d90d347f3e">MR::hasMultipleEdges</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology)</td></tr>
 <tr class="separator:ga1aa9c53dc2ae474fe6c0c6d90d347f3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf36265bde92b52d2e7bc0142abd82206"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#gaf36265bde92b52d2e7bc0142abd82206">MR::fixMultipleEdges</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="group__MeshFixerGroup.html#ga807cd3d017d23c56a0f6ea1cb1f7c8cb">MultipleEdge</a> &gt; &amp;multipleEdges)</td></tr>
@@ -125,12 +125,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga52390270e3fbf5b7e8766374def17f07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga52390270e3fbf5b7e8766374def17f07">MR::fixMultipleEdges</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="memdesc:ga52390270e3fbf5b7e8766374def17f07"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds and resolves multiple edges  <br /></td></tr>
 <tr class="separator:ga52390270e3fbf5b7e8766374def17f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf11ee0e5b6adea0ab0dfd545b16a306f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#gaf11ee0e5b6adea0ab0dfd545b16a306f">MR::findDegenerateFaces</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float criticalAspectRatio=FLT_MAX)</td></tr>
-<tr class="memdesc:gaf11ee0e5b6adea0ab0dfd545b16a306f"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds faces having aspect ratio &gt;= criticalAspectRatio  <br /></td></tr>
-<tr class="separator:gaf11ee0e5b6adea0ab0dfd545b16a306f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa962406c0d2bfd229a893f65104b4715"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#gaa962406c0d2bfd229a893f65104b4715">MR::findShortEdges</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float criticalLength)</td></tr>
-<tr class="memdesc:gaa962406c0d2bfd229a893f65104b4715"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds edges having length &lt;= criticalLength  <br /></td></tr>
-<tr class="separator:gaa962406c0d2bfd229a893f65104b4715"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabf1c5debddebe0e076a1c041a8268d02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#gabf1c5debddebe0e076a1c041a8268d02">MR::findDegenerateFaces</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float criticalAspectRatio=FLT_MAX, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memdesc:gabf1c5debddebe0e076a1c041a8268d02"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds faces having aspect ratio &gt;= criticalAspectRatio  <br /></td></tr>
+<tr class="separator:gabf1c5debddebe0e076a1c041a8268d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6219853d3bd2c5f26ddc59fe6660718a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga6219853d3bd2c5f26ddc59fe6660718a">MR::findShortEdges</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float criticalLength, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memdesc:ga6219853d3bd2c5f26ddc59fe6660718a"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds edges having length &lt;= criticalLength  <br /></td></tr>
+<tr class="separator:ga6219853d3bd2c5f26ddc59fe6660718a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga248c2b6b8c9d3915cc4d7e94a2727734"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga248c2b6b8c9d3915cc4d7e94a2727734">MR::findNRingVerts</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, int n, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *region=nullptr)</td></tr>
 <tr class="memdesc:ga248c2b6b8c9d3915cc4d7e94a2727734"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds vertices in region with complete ring of N edges  <br /></td></tr>
 <tr class="separator:ga248c2b6b8c9d3915cc4d7e94a2727734"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -334,14 +334,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="gaf11ee0e5b6adea0ab0dfd545b16a306f" name="gaf11ee0e5b6adea0ab0dfd545b16a306f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf11ee0e5b6adea0ab0dfd545b16a306f">&#9670;&#160;</a></span>findDegenerateFaces()</h2>
+<a id="gabf1c5debddebe0e076a1c041a8268d02" name="gabf1c5debddebe0e076a1c041a8268d02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabf1c5debddebe0e076a1c041a8268d02">&#9670;&#160;</a></span>findDegenerateFaces()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> MR::findDegenerateFaces </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a>, std::string &gt; MR::findDegenerateFaces </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
           <td class="paramname"><em>mp</em>, </td>
@@ -350,7 +350,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>criticalAspectRatio</em> = <code>FLT_MAX</code>&#160;</td>
+          <td class="paramname"><em>criticalAspectRatio</em> = <code>FLT_MAX</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>cb</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -364,18 +370,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga55399f6038655672beb721801559a68b" name="ga55399f6038655672beb721801559a68b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga55399f6038655672beb721801559a68b">&#9670;&#160;</a></span>findMultipleEdges()</h2>
+<a id="ga596f1bc7e1adb32fbda398f45ddcf258" name="ga596f1bc7e1adb32fbda398f45ddcf258"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga596f1bc7e1adb32fbda398f45ddcf258">&#9670;&#160;</a></span>findMultipleEdges()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="group__MeshFixerGroup.html#ga807cd3d017d23c56a0f6ea1cb1f7c8cb">MultipleEdge</a> &gt; MR::findMultipleEdges </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; std::vector&lt; <a class="el" href="group__MeshFixerGroup.html#ga807cd3d017d23c56a0f6ea1cb1f7c8cb">MultipleEdge</a> &gt;, std::string &gt; MR::findMultipleEdges </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
-          <td class="paramname"><em>topology</em></td><td>)</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>cb</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -418,14 +434,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="gaa962406c0d2bfd229a893f65104b4715" name="gaa962406c0d2bfd229a893f65104b4715"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa962406c0d2bfd229a893f65104b4715">&#9670;&#160;</a></span>findShortEdges()</h2>
+<a id="ga6219853d3bd2c5f26ddc59fe6660718a" name="ga6219853d3bd2c5f26ddc59fe6660718a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6219853d3bd2c5f26ddc59fe6660718a">&#9670;&#160;</a></span>findShortEdges()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> MR::findShortEdges </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a>, std::string &gt; MR::findShortEdges </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
           <td class="paramname"><em>mp</em>, </td>
@@ -434,7 +450,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>criticalLength</em>&#160;</td>
+          <td class="paramname"><em>criticalLength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>cb</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

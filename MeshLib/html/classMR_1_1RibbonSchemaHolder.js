@@ -1,0 +1,4 @@
+var classMR_1_1RibbonSchemaHolder =
+[
+    [ "SearchResult", "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html", "structMR_1_1RibbonSchemaHolder_1_1SearchResult" ]
+];

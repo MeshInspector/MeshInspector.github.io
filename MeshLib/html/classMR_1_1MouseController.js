@@ -10,6 +10,8 @@ var classMR_1_1MouseController =
     [ "isDropOldEventOnNewActive", "classMR_1_1MouseController.html#aa1030d7031685c5fff336b1a7e01e08b", null ],
     [ "isPressed", "classMR_1_1MouseController.html#a2a1971571d792ac671837f6658315096", null ],
     [ "MR_ADD_CTOR_DELETE_MOVE", "classMR_1_1MouseController.html#af91ecfb07e0863d000af4ebedc49c763", null ],
+    [ "setFOVModifierCb", "classMR_1_1MouseController.html#ae1ce84791f0d7205fd00e67c96b257b1", null ],
     [ "setMouseControl", "classMR_1_1MouseController.html#a658d96148a2b7e4d19231d7801569723", null ],
-    [ "setMouseScroll", "classMR_1_1MouseController.html#aec55192b1658167e5a4718c594606fa7", null ]
+    [ "setMouseScroll", "classMR_1_1MouseController.html#aec55192b1658167e5a4718c594606fa7", null ],
+    [ "setTrasformModifierCb", "classMR_1_1MouseController.html#aad7e4bd9f3d1de6069e852940644b5e9", null ]
 ];
