@@ -1,6 +1,9 @@
 var annotated_dup =
 [
     [ "MR", "namespaceMR.html", [
+      [ "Cuda", "namespaceMR_1_1Cuda.html", [
+        [ "DynamicArray", "classMR_1_1Cuda_1_1DynamicArray.html", "classMR_1_1Cuda_1_1DynamicArray" ]
+      ] ],
       [ "FixUndercuts", "namespaceMR_1_1FixUndercuts.html", [
         [ "DistMapImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" ],
         [ "ImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters" ]
@@ -146,6 +149,7 @@ var annotated_dup =
       [ "GLStaticHolder", "classMR_1_1GLStaticHolder.html", "classMR_1_1GLStaticHolder" ],
       [ "GlTexture2", "classMR_1_1GlTexture2.html", "classMR_1_1GlTexture2" ],
       [ "GlTexture3", "classMR_1_1GlTexture3.html", "classMR_1_1GlTexture3" ],
+      [ "GridSettings", "structMR_1_1GridSettings.html", "structMR_1_1GridSettings" ],
       [ "HashToVectorMappingConverter", "classMR_1_1HashToVectorMappingConverter.html", "classMR_1_1HashToVectorMappingConverter" ],
       [ "Heap", "classMR_1_1Heap.html", "classMR_1_1Heap" ],
       [ "Histogram", "classMR_1_1Histogram.html", "classMR_1_1Histogram" ],
@@ -364,6 +368,7 @@ var annotated_dup =
       [ "SetBitIteratorT", "classMR_1_1SetBitIteratorT.html", "classMR_1_1SetBitIteratorT" ],
       [ "SetViewportConfigPresetMenuItem", "classMR_1_1SetViewportConfigPresetMenuItem.html", "classMR_1_1SetViewportConfigPresetMenuItem" ],
       [ "SetViewPresetMenuItem", "classMR_1_1SetViewPresetMenuItem.html", "classMR_1_1SetViewPresetMenuItem" ],
+      [ "ShaderWarning", "structMR_1_1ShaderWarning.html", "structMR_1_1ShaderWarning" ],
       [ "ShadowsGL", "classMR_1_1ShadowsGL.html", "classMR_1_1ShadowsGL" ],
       [ "SharpenMarchingCubesMeshSettings", "structMR_1_1SharpenMarchingCubesMeshSettings.html", "structMR_1_1SharpenMarchingCubesMeshSettings" ],
       [ "SharpOffsetParameters", "structMR_1_1SharpOffsetParameters.html", "structMR_1_1SharpOffsetParameters" ],

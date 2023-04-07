@@ -127,6 +127,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5af9b5613a5158a835792759b5058f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab430c40e09189d949fa9195c31787702"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PlaneWidget.html#ab430c40e09189d949fa9195c31787702">undefinePlane</a> ()</td></tr>
 <tr class="separator:ab430c40e09189d949fa9195c31787702"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf199dcf2c914f0c5584c3703355e7ae"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PlaneWidget.html#adf199dcf2c914f0c5584c3703355e7ae">setLocalMode</a> (bool on)</td></tr>
+<tr class="separator:adf199dcf2c914f0c5584c3703355e7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a834649aad5bbd6ae1247ffa8a4afecce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PlaneWidget.html#a834649aad5bbd6ae1247ffa8a4afecce">isInLocalMode</a> () const</td></tr>
+<tr class="separator:a834649aad5bbd6ae1247ffa8a4afecce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e5888ffe0449bd3506d380684a6d9d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PlaneWidget.html#a5e5888ffe0449bd3506d380684a6d9d2">setLocalShift</a> (float shift)</td></tr>
+<tr class="separator:a5e5888ffe0449bd3506d380684a6d9d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cf8968515531c2adac47a2f1b342235"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PlaneWidget.html#a5cf8968515531c2adac47a2f1b342235">getLocalShift</a> () const</td></tr>
+<tr class="separator:a5cf8968515531c2adac47a2f1b342235"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02b1ad4d4554be85b3e272be50cd7095"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">Plane3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PlaneWidget.html#a02b1ad4d4554be85b3e272be50cd7095">getPlane</a> () const</td></tr>
 <tr class="separator:a02b1ad4d4554be85b3e272be50cd7095"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a56b6913aee0effc91844e49f42275c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PlaneWidget.html#a5a56b6913aee0effc91844e49f42275c">getPlaneObject</a> () const</td></tr>
@@ -182,6 +190,31 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a5cf8968515531c2adac47a2f1b342235" name="a5cf8968515531c2adac47a2f1b342235"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cf8968515531c2adac47a2f1b342235">&#9670;&#160;</a></span>getLocalShift()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::PlaneWidget::getLocalShift </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a02b1ad4d4554be85b3e272be50cd7095" name="a02b1ad4d4554be85b3e272be50cd7095"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a02b1ad4d4554be85b3e272be50cd7095">&#9670;&#160;</a></span>getPlane()</h2>
 
@@ -233,6 +266,31 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a834649aad5bbd6ae1247ffa8a4afecce" name="a834649aad5bbd6ae1247ffa8a4afecce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a834649aad5bbd6ae1247ffa8a4afecce">&#9670;&#160;</a></span>isInLocalMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::PlaneWidget::isInLocalMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1734d155421e7bea066ad89085f451af" name="a1734d155421e7bea066ad89085f451af"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1734d155421e7bea066ad89085f451af">&#9670;&#160;</a></span>setImportPlaneMode()</h2>
 
@@ -247,6 +305,50 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adf199dcf2c914f0c5584c3703355e7ae" name="adf199dcf2c914f0c5584c3703355e7ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf199dcf2c914f0c5584c3703355e7ae">&#9670;&#160;</a></span>setLocalMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::PlaneWidget::setLocalMode </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>on</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5e5888ffe0449bd3506d380684a6d9d2" name="a5e5888ffe0449bd3506d380684a6d9d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e5888ffe0449bd3506d380684a6d9d2">&#9670;&#160;</a></span>setLocalShift()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::PlaneWidget::setLocalShift </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>shift</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

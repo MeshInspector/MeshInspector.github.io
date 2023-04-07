@@ -15,5 +15,6 @@ var searchData=
   ['linescolormap_12',['LinesColorMap',['../group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197',1,'MR']]],
   ['linesvisualizepropscount_13',['LinesVisualizePropsCount',['../structMR_1_1LinesVisualizePropertyType.html#aab5df7db454ff09605f0b0252d48d0e2af43f32caa3c4bae22af118c168b65633',1,'MR::LinesVisualizePropertyType']]],
   ['lossless_14',['Lossless',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69dab7048ff6b4f97b9230b2365b31d16713',1,'MR::MeshSave::CtmSaveOptions']]],
-  ['lossy_15',['Lossy',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69dab71142391f68646086edeadddcf020dc',1,'MR::MeshSave::CtmSaveOptions']]]
+  ['lossy_15',['Lossy',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69dab71142391f68646086edeadddcf020dc',1,'MR::MeshSave::CtmSaveOptions']]],
+  ['lower_16',['Lower',['../structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685ab75fcdd2d72d9e000beab48622402d93',1,'MR::GridSettings']]]
 ];

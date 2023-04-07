@@ -119,9 +119,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a183e7f78dfae636f44de186d488f8a4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a183e7f78dfae636f44de186d488f8a4b">lastNotLoneEdge</a> () const</td></tr>
 <tr class="memdesc:a183e7f78dfae636f44de186d488f8a4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns last not lone edge id, or invalid id if no such edge exists  <br /></td></tr>
 <tr class="separator:a183e7f78dfae636f44de186d488f8a4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addcf4c5e6460cd0ef1247b87c0a080a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#addcf4c5e6460cd0ef1247b87c0a080a5">excludeLoneEdges</a> (<a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;edges) const</td></tr>
+<tr class="memitem:addcf4c5e6460cd0ef1247b87c0a080a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#addcf4c5e6460cd0ef1247b87c0a080a5">excludeLoneEdges</a> (<a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;<a class="el" href="classMR_1_1MeshTopology.html#a5334c3e48b9b3ca25c93bd06b356ba64">edges</a>) const</td></tr>
 <tr class="memdesc:addcf4c5e6460cd0ef1247b87c0a080a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove all lone edges from given set  <br /></td></tr>
 <tr class="separator:addcf4c5e6460cd0ef1247b87c0a080a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5334c3e48b9b3ca25c93bd06b356ba64"><td class="memItemLeft" align="right" valign="top">const auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a5334c3e48b9b3ca25c93bd06b356ba64">edges</a> () const</td></tr>
+<tr class="memdesc:a5334c3e48b9b3ca25c93bd06b356ba64"><td class="mdescLeft">&#160;</td><td class="mdescRight">allows to copy edges data when necessary  <br /></td></tr>
+<tr class="separator:a5334c3e48b9b3ca25c93bd06b356ba64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59e61393e26970b19791a726b212a1b8"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a59e61393e26970b19791a726b212a1b8">edgeSize</a> () const</td></tr>
 <tr class="memdesc:a59e61393e26970b19791a726b212a1b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of half-edge records including lone ones  <br /></td></tr>
 <tr class="separator:a59e61393e26970b19791a726b212a1b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -446,6 +449,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a45129b46fde8337018f14ecc690ddb81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a497deb522cc50b59372ecb8523ea3d44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a497deb522cc50b59372ecb8523ea3d44">preferEdges</a> (const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;stableEdges)</td></tr>
 <tr class="separator:a497deb522cc50b59372ecb8523ea3d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24f91892667dffb86d21717c62876bed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a24f91892667dffb86d21717c62876bed">buildGridMesh</a> (const <a class="el" href="structMR_1_1GridSettings.html">GridSettings</a> &amp;settings)</td></tr>
+<tr class="separator:a24f91892667dffb86d21717c62876bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74337ea5646f2fe028f8c0a119650d07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a74337ea5646f2fe028f8c0a119650d07">checkValidity</a> () const</td></tr>
 <tr class="memdesc:a74337ea5646f2fe028f8c0a119650d07"><td class="mdescLeft">&#160;</td><td class="mdescRight">verifies that all internal data structures are valid  <br /></td></tr>
 <tr class="separator:a74337ea5646f2fe028f8c0a119650d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -896,6 +901,24 @@ template&lt;typename I &gt; </div>
 
 </div>
 </div>
+<a id="a24f91892667dffb86d21717c62876bed" name="a24f91892667dffb86d21717c62876bed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24f91892667dffb86d21717c62876bed">&#9670;&#160;</a></span>buildGridMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::MeshTopology::buildGridMesh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1GridSettings.html">GridSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>settings</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a74337ea5646f2fe028f8c0a119650d07" name="a74337ea5646f2fe028f8c0a119650d07"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a74337ea5646f2fe028f8c0a119650d07">&#9670;&#160;</a></span>checkValidity()</h2>
 
@@ -1126,6 +1149,33 @@ template&lt;typename I &gt; </div>
 </div><div class="memdoc">
 
 <p>sets the capacity of half-edges vector </p>
+
+</div>
+</div>
+<a id="a5334c3e48b9b3ca25c93bd06b356ba64" name="a5334c3e48b9b3ca25c93bd06b356ba64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5334c3e48b9b3ca25c93bd06b356ba64">&#9670;&#160;</a></span>edges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const auto &amp; MR::MeshTopology::edges </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>allows to copy edges data when necessary </p>
 
 </div>
 </div>

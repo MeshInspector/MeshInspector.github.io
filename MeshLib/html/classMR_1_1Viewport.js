@@ -1,5 +1,7 @@
 var classMR_1_1Viewport =
 [
+    [ "BaseFitParams", "structMR_1_1Viewport_1_1BaseFitParams.html", "structMR_1_1Viewport_1_1BaseFitParams" ],
+    [ "FitBoxParams", "structMR_1_1Viewport_1_1FitBoxParams.html", "structMR_1_1Viewport_1_1FitBoxParams" ],
     [ "FitDataParams", "structMR_1_1Viewport_1_1FitDataParams.html", "structMR_1_1Viewport_1_1FitDataParams" ],
     [ "Parameters", "structMR_1_1Viewport_1_1Parameters.html", "structMR_1_1Viewport_1_1Parameters" ],
     [ "ViewportRectangle", "classMR_1_1Viewport.html#a4ffdd066d297db0b871f78fa572166a3", null ],
@@ -58,6 +60,7 @@ var classMR_1_1Viewport =
     [ "pick_render_object", "classMR_1_1Viewport.html#a190a1a73b0c964dd18d83d248e27b26f", null ],
     [ "pick_render_object", "classMR_1_1Viewport.html#aeea675f914f282d4bb811e8e4c771bb9", null ],
     [ "postDraw", "classMR_1_1Viewport.html#ace8d34917dcc01ffe64f0bccef923f96", null ],
+    [ "preciseFitBoxToScreenBorder", "classMR_1_1Viewport.html#ac7e39309c7a603790ebc1bafaa1c1d4b", null ],
     [ "preciseFitDataToScreenBorder", "classMR_1_1Viewport.html#a4ce56c17b29dbcb0186c4f34c414eb78", null ],
     [ "preDraw", "classMR_1_1Viewport.html#a7a9cbb562bb5d64b2a7f412527c3f0bc", null ],
     [ "projectToClipSpace", "classMR_1_1Viewport.html#af84b449c6ac06983b1cc77946aeb75e2", null ],

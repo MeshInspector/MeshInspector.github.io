@@ -44,7 +44,7 @@ var searchData=
   ['sliceplane_41',['slicePlane',['../structMR_1_1VoxelsSave_1_1SavingSettings.html#a8194c36117ac4d7ace9f1070ce398953',1,'MR::VoxelsSave::SavingSettings']]],
   ['smoothconnections_5f_42',['smoothConnections_',['../classMR_1_1ObjectLinesHolder.html#a5e2decefeb68afc04d745403e70da92f',1,'MR::ObjectLinesHolder']]],
   ['smoothmode_43',['smoothMode',['../structMR_1_1SubdivideSettings.html#a757c0278a48bf06117256165bec538c0',1,'MR::SubdivideSettings']]],
-  ['snapview_44',['snapView',['../structMR_1_1Viewport_1_1FitDataParams.html#ae11f94492fabe7985c33e4c4e559dca3',1,'MR::Viewport::FitDataParams']]],
+  ['snapview_44',['snapView',['../structMR_1_1Viewport_1_1BaseFitParams.html#a8221998e3b5d4c84daa7de10b87b8ddd',1,'MR::Viewport::BaseFitParams']]],
   ['sortdata_45',['sortData',['../structMR_1_1CutMeshParameters.html#a3aaef62dde9c7e4727195071089e409f',1,'MR::CutMeshParameters']]],
   ['sourcepoint_5f_46',['sourcePoint_',['../classMR_1_1ObjectLabel.html#a46b25ed3275d1a41588168f24ae385d9',1,'MR::ObjectLabel']]],
   ['sourcepointcolor_5f_47',['sourcePointColor_',['../classMR_1_1ObjectLabel.html#a5d2d7ba2d1452d4ea652d46428d7c8d3',1,'MR::ObjectLabel']]],

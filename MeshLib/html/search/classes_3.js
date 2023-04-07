@@ -16,5 +16,6 @@ var searchData=
   ['dragdroplistener_13',['DragDropListener',['../structMR_1_1DragDropListener.html',1,'MR']]],
   ['drawbuttonparams_14',['DrawButtonParams',['../structMR_1_1DrawButtonParams.html',1,'MR']]],
   ['drawgroupconfig_15',['DrawGroupConfig',['../structMR_1_1RibbonMenu_1_1DrawGroupConfig.html',1,'MR::RibbonMenu']]],
-  ['drawlistener_16',['DrawListener',['../structMR_1_1DrawListener.html',1,'MR']]]
+  ['drawlistener_16',['DrawListener',['../structMR_1_1DrawListener.html',1,'MR']]],
+  ['dynamicarray_17',['DynamicArray',['../classMR_1_1Cuda_1_1DynamicArray.html',1,'MR::Cuda']]]
 ];

@@ -57,6 +57,7 @@ var group__PolylineGroup =
       [ "dest", "classMR_1_1PolylineTopology.html#abd4c389cdede17b6366df788ab591739", null ],
       [ "edgePerVertex", "classMR_1_1PolylineTopology.html#a838e6a01b85575bf999c154f00ba9a90", null ],
       [ "edgeReserve", "classMR_1_1PolylineTopology.html#aa5cb50f06372f350dcdd3dbc747a0615", null ],
+      [ "edges", "classMR_1_1PolylineTopology.html#a5dfe4a707cda2ba624da7ad96452f669", null ],
       [ "edgeSize", "classMR_1_1PolylineTopology.html#a7308421016a4a943460946176b524bc8", null ],
       [ "edgeWithOrg", "classMR_1_1PolylineTopology.html#a2ebdc3893e2fbb0963c302c1361dfe3b", null ],
       [ "findEdge", "classMR_1_1PolylineTopology.html#a545252ec8468378f5bc6f71e18ccaad9", null ],

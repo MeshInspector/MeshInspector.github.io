@@ -128,6 +128,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ab4eb6c6f113595f62886ed7e689760ae"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespaceMR.html#a65798dca01178b50da3bbd7968fb360e">UndirectedEdgeId</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ContoursDistanceMapOptions.html#ab4eb6c6f113595f62886ed7e689760ae">outClosestEdges</a> { nullptr }</td></tr>
 <tr class="memdesc:ab4eb6c6f113595f62886ed7e689760ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output vector of closest polyline edge per each pixel of distance map  <br /></td></tr>
 <tr class="separator:ab4eb6c6f113595f62886ed7e689760ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaa6a767d5ebd7c04e839e485898634f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ContoursDistanceMapOptions.html#abaa6a767d5ebd7c04e839e485898634f">minDist</a> { 0 }</td></tr>
+<tr class="memdesc:abaa6a767d5ebd7c04e839e485898634f"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (lower values can be present but they are not precise)  <br /></td></tr>
+<tr class="separator:abaa6a767d5ebd7c04e839e485898634f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37e6ab24d4bd5bee82c4ff4cfded2aec"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ContoursDistanceMapOptions.html#a37e6ab24d4bd5bee82c4ff4cfded2aec">maxDist</a> { FLT_MAX }</td></tr>
+<tr class="memdesc:a37e6ab24d4bd5bee82c4ff4cfded2aec"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (larger values cannot be present)  <br /></td></tr>
+<tr class="separator:a37e6ab24d4bd5bee82c4ff4cfded2aec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a8338b4b187db812314a5890ccf5e6ec6" name="a8338b4b187db812314a5890ccf5e6ec6"></a>
@@ -167,6 +173,38 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a37e6ab24d4bd5bee82c4ff4cfded2aec" name="a37e6ab24d4bd5bee82c4ff4cfded2aec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37e6ab24d4bd5bee82c4ff4cfded2aec">&#9670;&#160;</a></span>maxDist</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::ContoursDistanceMapOptions::maxDist { FLT_MAX }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>maximum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (larger values cannot be present) </p>
+
+</div>
+</div>
+<a id="abaa6a767d5ebd7c04e839e485898634f" name="abaa6a767d5ebd7c04e839e485898634f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaa6a767d5ebd7c04e839e485898634f">&#9670;&#160;</a></span>minDist</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::ContoursDistanceMapOptions::minDist { 0 }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>minimum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (lower values can be present but they are not precise) </p>
 
 </div>
 </div>

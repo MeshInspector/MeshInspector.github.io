@@ -64,6 +64,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRSwapRootAction.h", "MRSwapRootAction_8h.html", "MRSwapRootAction_8h" ],
     [ "MRToolbar.h", "MRToolbar_8h.html", "MRToolbar_8h" ],
     [ "MRTouchesController.h", "MRTouchesController_8h.html", "MRTouchesController_8h" ],
+    [ "MRUIStyle.h", "MRUIStyle_8h.html", "MRUIStyle_8h" ],
     [ "MRViewer.h", "MRViewer_8h.html", "MRViewer_8h" ],
     [ "MRViewerEventsListener.h", "MRViewerEventsListener_8h.html", "MRViewerEventsListener_8h" ],
     [ "MRViewerFwd.h", "MRViewerFwd_8h.html", "MRViewerFwd_8h" ],

@@ -15,5 +15,6 @@ var searchData=
   ['unselectedobjectpoints_12',['UnselectedObjectPoints',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa4cd917c98a34d56b402a2c2e3e6e83cb',1,'MR::SceneColors']]],
   ['unselectedobjectvoxels_13',['UnselectedObjectVoxels',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa815ab0979a59272abd51680de3a55ab0',1,'MR::SceneColors']]],
   ['unsigned_14',['Unsigned',['../structMR_1_1MeshToVolumeParams.html#a47dacbc5ca80bd9591ffea69c43b022eaa1a914735b205424ba6c40b85528d78a',1,'MR::MeshToVolumeParams::Unsigned()'],['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309aa1a914735b205424ba6c40b85528d78a',1,'MR::Unsigned()']]],
-  ['user_15',['User',['../classMR_1_1ColorTheme.html#ad14d75ef685e439c80487ba1d4c41ecaa8f9bfe9d1345237cb3b2b205864da075',1,'MR::ColorTheme']]]
+  ['upper_15',['Upper',['../structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685a19de5b94f7b83900d4b296d9fa491aec',1,'MR::GridSettings']]],
+  ['user_16',['User',['../classMR_1_1ColorTheme.html#ad14d75ef685e439c80487ba1d4c41ecaa8f9bfe9d1345237cb3b2b205864da075',1,'MR::ColorTheme']]]
 ];

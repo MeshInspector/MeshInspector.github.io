@@ -98,8 +98,10 @@ $(document).ready(function(){initNavTree('classMR_1_1ObjectPoints.html',''); ini
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classMR_1_1ObjectPoints-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::ObjectPoints Class Reference<div class="ingroups"><a class="el" href="group__DataModelGroup.html">Data Model</a></div></div></div>
@@ -122,6 +124,16 @@ $(document).ready(function(){initNavTree('classMR_1_1ObjectPoints.html',''); ini
   </map>
 </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:ae378dbf50ff8277cc7fd064ffb661e9d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectPoints.html#ae378dbf50ff8277cc7fd064ffb661e9d">PointsChangedSignal</a> = boost::signals2::signal&lt; void(uint32_t mask)&gt;</td></tr>
+<tr class="memdesc:ae378dbf50ff8277cc7fd064ffb661e9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about points changing, triggered in setDirtyFlag  <br /></td></tr>
+<tr class="separator:ae378dbf50ff8277cc7fd064ffb661e9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classMR_1_1Object"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
+<tr class="memitem:a881447c499a3df3c3718efd430c0637c inherit pub_types_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c">XfChangedSignal</a> = boost::signals2::signal&lt; void() &gt;</td></tr>
+<tr class="memdesc:a881447c499a3df3c3718efd430c0637c inherit pub_types_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about xf changing, triggered in setXf and setWorldXf, it is called for children too  <br /></td></tr>
+<tr class="separator:a881447c499a3df3c3718efd430c0637c inherit pub_types_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7add507ed0f2abe3843cec2e9f387f8c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectPoints.html#a7add507ed0f2abe3843cec2e9f387f8c">ObjectPoints</a> ()=default</td></tr>
@@ -151,11 +163,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a565091fdf7ac04df64dcc926ecf74ffb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectPoints.html#a565091fdf7ac04df64dcc926ecf74ffb">ObjectPoints</a> (<a class="el" href="structMR_1_1Object_1_1ProtectedStruct.html">ProtectedStruct</a>, const <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &amp;obj)</td></tr>
 <tr class="separator:a565091fdf7ac04df64dcc926ecf74ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a5af21a0ab52a2d7f2464ba3e3f8131"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectPoints.html#a8a5af21a0ab52a2d7f2464ba3e3f8131">getInfoLines</a> () const override</td></tr>
-<tr class="memdesc:a8a5af21a0ab52a2d7f2464ba3e3f8131"><td class="mdescLeft">&#160;</td><td class="mdescRight">return several info lines that can better describe object in the UI  <br /></td></tr>
+<tr class="memdesc:a8a5af21a0ab52a2d7f2464ba3e3f8131"><td class="mdescLeft">&#160;</td><td class="mdescRight">return several info lines that can better describe object in the <a class="el" href="namespaceMR_1_1UI.html">UI</a>  <br /></td></tr>
 <tr class="separator:a8a5af21a0ab52a2d7f2464ba3e3f8131"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b538af544fb079b16e86b72414c4b2a"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectPoints.html#a9b538af544fb079b16e86b72414c4b2a">getClassName</a> () const override</td></tr>
 <tr class="memdesc:a9b538af544fb079b16e86b72414c4b2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">return human readable name of subclass  <br /></td></tr>
 <tr class="separator:a9b538af544fb079b16e86b72414c4b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32a35f6550738e18cde9aa21e49ccda1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectPoints.html#a32a35f6550738e18cde9aa21e49ccda1">setDirtyFlags</a> (uint32_t mask) override</td></tr>
+<tr class="separator:a32a35f6550738e18cde9aa21e49ccda1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1ObjectPointsHolder"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classMR_1_1ObjectPointsHolder')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMR_1_1ObjectPointsHolder.html">MR::ObjectPointsHolder</a></td></tr>
 <tr class="memitem:a18cfe61ccf4c9bfd32aa9b16db4e68ce inherit pub_methods_classMR_1_1ObjectPointsHolder"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectPointsHolder.html#a18cfe61ccf4c9bfd32aa9b16db4e68ce">ObjectPointsHolder</a> ()</td></tr>
 <tr class="separator:a18cfe61ccf4c9bfd32aa9b16db4e68ce inherit pub_methods_classMR_1_1ObjectPointsHolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -365,7 +379,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1c54cde8d69f13962e4e64bf839f3111 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:a1c54cde8d69f13962e4e64bf839f3111 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76988bf72aa3be996e864fec3ab47ed2 inherit pub_methods_classMR_1_1VisualObject"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a76988bf72aa3be996e864fec3ab47ed2">getInfoLines</a> () const override</td></tr>
-<tr class="memdesc:a76988bf72aa3be996e864fec3ab47ed2 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">return several info lines that can better describe object in the UI  <br /></td></tr>
+<tr class="memdesc:a76988bf72aa3be996e864fec3ab47ed2 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">return several info lines that can better describe object in the <a class="el" href="namespaceMR_1_1UI.html">UI</a>  <br /></td></tr>
 <tr class="separator:a76988bf72aa3be996e864fec3ab47ed2 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1Object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
 <tr class="memitem:ac2ef0a60f0cb9b488534014376ccd38d inherit pub_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#ac2ef0a60f0cb9b488534014376ccd38d">Object</a> ()=default</td></tr>
@@ -430,7 +444,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a77ac63ad5b9ead0077f437ede206b31b inherit pub_methods_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true sets all predecessors visible, otherwise sets this object invisible  <br /></td></tr>
 <tr class="separator:a77ac63ad5b9ead0077f437ede206b31b inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6eccb1e855dd69fee11e337c65b467ec inherit pub_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a6eccb1e855dd69fee11e337c65b467ec">isLocked</a> () const</td></tr>
-<tr class="memdesc:a6eccb1e855dd69fee11e337c65b467ec inherit pub_methods_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">object properties lock for UI  <br /></td></tr>
+<tr class="memdesc:a6eccb1e855dd69fee11e337c65b467ec inherit pub_methods_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">object properties lock for <a class="el" href="namespaceMR_1_1UI.html">UI</a>  <br /></td></tr>
 <tr class="separator:a6eccb1e855dd69fee11e337c65b467ec inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac427b5b1a99a87eac1305683801fc850 inherit pub_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#ac427b5b1a99a87eac1305683801fc850">setLocked</a> (bool on)</td></tr>
 <tr class="separator:ac427b5b1a99a87eac1305683801fc850 inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -501,7 +515,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0d35e02c1f43af6741066f893311266f inherit pub_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a0d35e02c1f43af6741066f893311266f">shallowClone</a> () const</td></tr>
 <tr class="separator:a0d35e02c1f43af6741066f893311266f inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad99d5459862ef664776cb3dde87df0ee inherit pub_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#ad99d5459862ef664776cb3dde87df0ee">getInfoLines</a> () const</td></tr>
-<tr class="memdesc:ad99d5459862ef664776cb3dde87df0ee inherit pub_methods_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">return several info lines that can better describe object in the UI  <br /></td></tr>
+<tr class="memdesc:ad99d5459862ef664776cb3dde87df0ee inherit pub_methods_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">return several info lines that can better describe object in the <a class="el" href="namespaceMR_1_1UI.html">UI</a>  <br /></td></tr>
 <tr class="separator:ad99d5459862ef664776cb3dde87df0ee inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad21ab63debcbf8deb1102471a42fd619 inherit pub_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#ad21ab63debcbf8deb1102471a42fd619">getClassName</a> () const</td></tr>
 <tr class="memdesc:ad21ab63debcbf8deb1102471a42fd619 inherit pub_methods_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">return human readable name of subclass  <br /></td></tr>
@@ -553,6 +567,14 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4fcb6d60f1a306cb2d13c878cd83fa63 inherit pub_static_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a4fcb6d60f1a306cb2d13c878cd83fa63">TypeName</a> () noexcept</td></tr>
 <tr class="separator:a4fcb6d60f1a306cb2d13c878cd83fa63 inherit pub_static_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ace2d21b6df7d6e7f457b469428560410"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ObjectPoints.html#ae378dbf50ff8277cc7fd064ffb661e9d">PointsChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectPoints.html#ace2d21b6df7d6e7f457b469428560410">pointsChangedSignal</a></td></tr>
+<tr class="separator:ace2d21b6df7d6e7f457b469428560410"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_classMR_1_1Object"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
+<tr class="memitem:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c">XfChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964">worldXfChangedSignal</a></td></tr>
+<tr class="separator:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a5d13d0d83ed6829a3def6224dd5fd465"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectPoints.html#a5d13d0d83ed6829a3def6224dd5fd465">ObjectPoints</a> (const <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &amp;other)</td></tr>
@@ -560,6 +582,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a7cbf8f6689936307fe71452da91038a4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectPoints.html#a7cbf8f6689936307fe71452da91038a4">swapBase_</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;other) override</td></tr>
 <tr class="memdesc:a7cbf8f6689936307fe71452da91038a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">swaps this object with other  <br /></td></tr>
 <tr class="separator:a7cbf8f6689936307fe71452da91038a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecd3842d0074e2705c003461b6c785d4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectPoints.html#aecd3842d0074e2705c003461b6c785d4">swapSignals_</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;other) override</td></tr>
+<tr class="separator:aecd3842d0074e2705c003461b6c785d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e93d56966cf8c7d956767173ee17eae"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectPoints.html#a6e93d56966cf8c7d956767173ee17eae">serializeFields_</a> (Json::Value &amp;root) const override</td></tr>
 <tr class="separator:a6e93d56966cf8c7d956767173ee17eae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classMR_1_1ObjectPointsHolder"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classMR_1_1ObjectPointsHolder')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classMR_1_1ObjectPointsHolder.html">MR::ObjectPointsHolder</a></td></tr>
@@ -623,13 +647,6 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_types_classMR_1_1Object"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
-<tr class="memitem:a881447c499a3df3c3718efd430c0637c inherit pub_types_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c">XfChangedSignal</a> = boost::signals2::signal&lt; void() &gt;</td></tr>
-<tr class="memdesc:a881447c499a3df3c3718efd430c0637c inherit pub_types_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about xf changing, triggered in setXf and setWorldXf, it is called for children too  <br /></td></tr>
-<tr class="separator:a881447c499a3df3c3718efd430c0637c inherit pub_types_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_attribs_classMR_1_1Object"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
-<tr class="memitem:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c">XfChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964">worldXfChangedSignal</a></td></tr>
-<tr class="separator:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classMR_1_1ObjectPointsHolder"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classMR_1_1ObjectPointsHolder')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1ObjectPointsHolder.html">MR::ObjectPointsHolder</a></td></tr>
 <tr class="memitem:a63b094a393073c94e180aece5eeb0729 inherit pro_attribs_classMR_1_1ObjectPointsHolder"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectPointsHolder.html#a63b094a393073c94e180aece5eeb0729">selectedPoints_</a></td></tr>
 <tr class="separator:a63b094a393073c94e180aece5eeb0729 inherit pro_attribs_classMR_1_1ObjectPointsHolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -723,7 +740,24 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>an object that stores a points </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="ae378dbf50ff8277cc7fd064ffb661e9d" name="ae378dbf50ff8277cc7fd064ffb661e9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae378dbf50ff8277cc7fd064ffb661e9d">&#9670;&#160;</a></span>PointsChangedSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classMR_1_1ObjectPoints.html#ae378dbf50ff8277cc7fd064ffb661e9d">MR::ObjectPoints::PointsChangedSignal</a> =  boost::signals2::signal&lt;void( uint32_t mask )&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>signal about points changing, triggered in setDirtyFlag </p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7add507ed0f2abe3843cec2e9f387f8c" name="a7add507ed0f2abe3843cec2e9f387f8c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7add507ed0f2abe3843cec2e9f387f8c">&#9670;&#160;</a></span>ObjectPoints() <span class="overload">[1/5]</span></h2>
 
@@ -973,7 +1007,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>return several info lines that can better describe object in the UI </p>
+<p>return several info lines that can better describe object in the <a class="el" href="namespaceMR_1_1UI.html">UI</a> </p>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1VisualObject.html#a76988bf72aa3be996e864fec3ab47ed2">MR::VisualObject</a>.</p>
 
@@ -1031,6 +1065,34 @@ Additional Inherited Members</h2></td></tr>
 <p>Write parameters to given Json::Value, </p><dl class="section note"><dt>Note</dt><dd>if you override this method, please call Base::serializeFields_(root) in the beginning </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1ObjectPointsHolder.html#ae0b780196658ba9017ae41f3ab2dd195">MR::ObjectPointsHolder</a>.</p>
+
+</div>
+</div>
+<a id="a32a35f6550738e18cde9aa21e49ccda1" name="a32a35f6550738e18cde9aa21e49ccda1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32a35f6550738e18cde9aa21e49ccda1">&#9670;&#160;</a></span>setDirtyFlags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectPoints::setDirtyFlags </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>mask</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classMR_1_1ObjectPointsHolder.html#a544fb3212bc89e7b126276349ee43b59">MR::ObjectPointsHolder</a>.</p>
 
 </div>
 </div>
@@ -1145,6 +1207,35 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aecd3842d0074e2705c003461b6c785d4" name="aecd3842d0074e2705c003461b6c785d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecd3842d0074e2705c003461b6c785d4">&#9670;&#160;</a></span>swapSignals_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectPoints::swapSignals_ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Object.html">Object</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>swaps signals, used in <code>swap</code> function to return back signals after <code>swapBase_</code> pls call Parent::swapSignals_ first when overriding this function </p>
+
+<p>Reimplemented from <a class="el" href="classMR_1_1Object.html#a82d2749fefb75e38b62dd69a52307680">MR::Object</a>.</p>
+
+</div>
+</div>
 <a id="af389d74376fb91966716aa2ff7444a5d" name="af389d74376fb91966716aa2ff7444a5d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af389d74376fb91966716aa2ff7444a5d">&#9670;&#160;</a></span>typeName()</h2>
 
@@ -1221,6 +1312,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns variable point cloud, if const point cloud is needed use <code><a class="el" href="classMR_1_1ObjectPointsHolder.html#a1e4577ab2bb24e7600c98bc550668b06">pointCloud()</a></code> instead </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ace2d21b6df7d6e7f457b469428560410" name="ace2d21b6df7d6e7f457b469428560410"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace2d21b6df7d6e7f457b469428560410">&#9670;&#160;</a></span>pointsChangedSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1ObjectPoints.html#ae378dbf50ff8277cc7fd064ffb661e9d">PointsChangedSignal</a> MR::ObjectPoints::pointsChangedSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

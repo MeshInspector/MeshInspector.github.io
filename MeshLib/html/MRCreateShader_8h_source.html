@@ -109,23 +109,34 @@ $(document).ready(function(){initNavTree('MRCreateShader_8h_source.html',''); in
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="namespaceMR.html#a4f38850f8eb581bfec1823f5e875d8e4">   10</a></span><span class="keyword">using </span><a class="code hl_typedef" href="namespaceMR.html#a4f38850f8eb581bfec1823f5e875d8e4">DisabledWarnings</a> = std::vector&lt;int&gt;;</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">// This function creates shader and logs output</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="namespaceMR.html#a64cf6b9277515ab399a88caf26a922bd">   13</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespaceMR.html#a64cf6b9277515ab399a88caf26a922bd">createShader</a>( <span class="keyword">const</span> std::string&amp; shader_name,</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keyword">const</span> std::string&amp; vert_source,</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keyword">const</span> std::string&amp; frag_source,</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    GLuint&amp; prog_id,</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a4f38850f8eb581bfec1823f5e875d8e4">DisabledWarnings</a>&amp; suppressedWarns = {} );</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="comment">// Destroys shader program</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="namespaceMR.html#a8b096e49296af19ff8c88104eedeb8d1">   20</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespaceMR.html#a8b096e49296af19ff8c88104eedeb8d1">destroyShader</a>( GLuint <span class="keywordtype">id</span> );</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>}</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="structMR_1_1ShaderWarning.html">   10</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1ShaderWarning.html">ShaderWarning</a></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <span class="comment">// number is presented in some of gpu shader compilations output</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="structMR_1_1ShaderWarning.html#abb95321aeb350840573cff7f04e36f33">   13</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structMR_1_1ShaderWarning.html#abb95321aeb350840573cff7f04e36f33">number</a>{0};</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="comment">// some part of warning line to find</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="structMR_1_1ShaderWarning.html#a930eaa6dc15670480191448c07138e81">   15</a></span>    std::string <a class="code hl_variable" href="structMR_1_1ShaderWarning.html#a930eaa6dc15670480191448c07138e81">line</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>};</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="namespaceMR.html#ae259a7fcdeec57a00c96703d4f12e28e">   18</a></span><span class="keyword">using </span><a class="code hl_typedef" href="namespaceMR.html#ae259a7fcdeec57a00c96703d4f12e28e">DisabledWarnings</a> = std::vector&lt;ShaderWarning&gt;;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="comment">// This function creates shader and logs output</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="namespaceMR.html#a64cf6b9277515ab399a88caf26a922bd">   21</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespaceMR.html#a64cf6b9277515ab399a88caf26a922bd">createShader</a>( <span class="keyword">const</span> std::string&amp; shader_name,</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keyword">const</span> std::string&amp; vert_source,</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keyword">const</span> std::string&amp; frag_source,</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    GLuint&amp; prog_id,</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#ae259a7fcdeec57a00c96703d4f12e28e">DisabledWarnings</a>&amp; suppressedWarns = {} );</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment">// Destroys shader program</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="namespaceMR.html#a8b096e49296af19ff8c88104eedeb8d1">   28</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespaceMR.html#a8b096e49296af19ff8c88104eedeb8d1">destroyShader</a>( GLuint <span class="keywordtype">id</span> );</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>}</div>
 <div class="ttc" id="aMRGladGlfw_8h_html"><div class="ttname"><a href="MRGladGlfw_8h.html">MRGladGlfw.h</a></div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRCameraOrientationPlugin.h:7</div></div>
-<div class="ttc" id="anamespaceMR_html_a4f38850f8eb581bfec1823f5e875d8e4"><div class="ttname"><a href="namespaceMR.html#a4f38850f8eb581bfec1823f5e875d8e4">MR::DisabledWarnings</a></div><div class="ttdeci">std::vector&lt; int &gt; DisabledWarnings</div><div class="ttdef"><b>Definition:</b> MRCreateShader.h:10</div></div>
 <div class="ttc" id="anamespaceMR_html_a64cf6b9277515ab399a88caf26a922bd"><div class="ttname"><a href="namespaceMR.html#a64cf6b9277515ab399a88caf26a922bd">MR::createShader</a></div><div class="ttdeci">void createShader(const std::string &amp;shader_name, const std::string &amp;vert_source, const std::string &amp;frag_source, GLuint &amp;prog_id, const DisabledWarnings &amp;suppressedWarns={})</div></div>
 <div class="ttc" id="anamespaceMR_html_a8b096e49296af19ff8c88104eedeb8d1"><div class="ttname"><a href="namespaceMR.html#a8b096e49296af19ff8c88104eedeb8d1">MR::destroyShader</a></div><div class="ttdeci">void destroyShader(GLuint id)</div></div>
+<div class="ttc" id="anamespaceMR_html_ae259a7fcdeec57a00c96703d4f12e28e"><div class="ttname"><a href="namespaceMR.html#ae259a7fcdeec57a00c96703d4f12e28e">MR::DisabledWarnings</a></div><div class="ttdeci">std::vector&lt; ShaderWarning &gt; DisabledWarnings</div><div class="ttdef"><b>Definition:</b> MRCreateShader.h:18</div></div>
+<div class="ttc" id="astructMR_1_1ShaderWarning_html"><div class="ttname"><a href="structMR_1_1ShaderWarning.html">MR::ShaderWarning</a></div><div class="ttdef"><b>Definition:</b> MRCreateShader.h:11</div></div>
+<div class="ttc" id="astructMR_1_1ShaderWarning_html_a930eaa6dc15670480191448c07138e81"><div class="ttname"><a href="structMR_1_1ShaderWarning.html#a930eaa6dc15670480191448c07138e81">MR::ShaderWarning::line</a></div><div class="ttdeci">std::string line</div><div class="ttdef"><b>Definition:</b> MRCreateShader.h:15</div></div>
+<div class="ttc" id="astructMR_1_1ShaderWarning_html_abb95321aeb350840573cff7f04e36f33"><div class="ttname"><a href="structMR_1_1ShaderWarning.html#abb95321aeb350840573cff7f04e36f33">MR::ShaderWarning::number</a></div><div class="ttdeci">int number</div><div class="ttdef"><b>Definition:</b> MRCreateShader.h:13</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -238,6 +238,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae17cec60bbb52533d23d162f050ed1f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PolylineTopology.html#ae17cec60bbb52533d23d162f050ed1f8">isClosed</a> () const</td></tr>
 <tr class="memdesc:ae17cec60bbb52533d23d162f050ed1f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the polyline does not have any holes  <br /></td></tr>
 <tr class="separator:ae17cec60bbb52533d23d162f050ed1f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dfe4a707cda2ba624da7ad96452f669"><td class="memItemLeft" align="right" valign="top">const auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PolylineTopology.html#a5dfe4a707cda2ba624da7ad96452f669">edges</a> () const</td></tr>
+<tr class="memdesc:a5dfe4a707cda2ba624da7ad96452f669"><td class="mdescLeft">&#160;</td><td class="mdescRight">allows to copy EdgeId -&gt; edge data when necessary  <br /></td></tr>
+<tr class="separator:a5dfe4a707cda2ba624da7ad96452f669"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>topology of one or several polylines (how line segments are connected in lines) common for 2D and 3D polylines </p>
@@ -551,6 +554,33 @@ template&lt;typename T , typename F &gt; </div>
 </div><div class="memdoc">
 
 <p>sets the capacity of half-edges vector </p>
+
+</div>
+</div>
+<a id="a5dfe4a707cda2ba624da7ad96452f669" name="a5dfe4a707cda2ba624da7ad96452f669"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dfe4a707cda2ba624da7ad96452f669">&#9670;&#160;</a></span>edges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const auto &amp; MR::PolylineTopology::edges </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>allows to copy EdgeId -&gt; edge data when necessary </p>
 
 </div>
 </div>

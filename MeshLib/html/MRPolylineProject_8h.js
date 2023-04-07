@@ -5,9 +5,9 @@ var MRPolylineProject_8h =
     [ "FoundEdgeCallback3", "MRPolylineProject_8h.html#gaf77c51a2927a660589bbe050fdbd6ac8", null ],
     [ "findEdgesInBall", "MRPolylineProject_8h.html#ga5ce436376c8036ec99459d3ccea88788", null ],
     [ "findEdgesInBall", "MRPolylineProject_8h.html#ga799578a1ff64417ca5aa5c72fa15bb2f", null ],
-    [ "findProjectionOnMeshEdges", "MRPolylineProject_8h.html#ga9579e42177a203fdedf9729717891dab", null ],
-    [ "findProjectionOnPolyline", "MRPolylineProject_8h.html#gab4e6d7044960ec9381bbdba568c131b8", null ],
-    [ "findProjectionOnPolyline2", "MRPolylineProject_8h.html#gad6115056e8f7fed8388025d6299387f7", null ],
-    [ "findProjectionOnPolyline2WithOffset", "MRPolylineProject_8h.html#gad4d1904259196cbfcb2d9fe4bf4c02a2", null ],
-    [ "findProjectionOnPolylineWithOffset", "MRPolylineProject_8h.html#ga4f4aa2277484058fc04ead8259165c66", null ]
+    [ "findProjectionOnMeshEdges", "MRPolylineProject_8h.html#ga64c37b9a7a04aa567390955a50891b57", null ],
+    [ "findProjectionOnPolyline", "MRPolylineProject_8h.html#ga5e71a300face382a26ba8596d9b19820", null ],
+    [ "findProjectionOnPolyline2", "MRPolylineProject_8h.html#ga7f7211a85409018fd8ee71495646faa3", null ],
+    [ "findProjectionOnPolyline2WithOffset", "MRPolylineProject_8h.html#gaf2ef419d4414bb6d0efa0c918b21bddf", null ],
+    [ "findProjectionOnPolylineWithOffset", "MRPolylineProject_8h.html#ga834d7e50b54b1b8c511990fc9d14c09c", null ]
 ];

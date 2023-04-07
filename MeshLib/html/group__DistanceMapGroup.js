@@ -34,6 +34,7 @@ var group__DistanceMapGroup =
       [ "resY", "classMR_1_1DistanceMap.html#ab7ce297c0b79b57dba812e3c7511fb56", null ],
       [ "set", "classMR_1_1DistanceMap.html#a00a3638fd3d285e192befb047bf95db2", null ],
       [ "set", "classMR_1_1DistanceMap.html#ad6f348bd639abf5491d2d203623c8ec5", null ],
+      [ "set", "classMR_1_1DistanceMap.html#a55389356dd0df5de1c041e73baa076f7", null ],
       [ "unproject", "classMR_1_1DistanceMap.html#ae655b3727c55cd58c480fc33272ef0eb", null ],
       [ "unprojectInterpolated", "classMR_1_1DistanceMap.html#aac75468f5688d9ad183f855f7eb007e8", null ],
       [ "unset", "classMR_1_1DistanceMap.html#ae9daffb9c88428b1354e37aa4c55fb9d", null ],
@@ -53,6 +54,8 @@ var group__DistanceMapGroup =
         [ "WindingRule", "structMR_1_1ContoursDistanceMapOptions.html#a8338b4b187db812314a5890ccf5e6ec6af3521ec7c51139960b7e21cef6b936df", null ]
       ] ],
       [ "ContourOrientation", "structMR_1_1ContoursDistanceMapOptions.html#ada938644fd6754f567016b529b5f7340", null ],
+      [ "maxDist", "structMR_1_1ContoursDistanceMapOptions.html#a37e6ab24d4bd5bee82c4ff4cfded2aec", null ],
+      [ "minDist", "structMR_1_1ContoursDistanceMapOptions.html#abaa6a767d5ebd7c04e839e485898634f", null ],
       [ "offsetParameters", "structMR_1_1ContoursDistanceMapOptions.html#a5015f92ab6db453e909083c2c9486054", null ],
       [ "outClosestEdges", "structMR_1_1ContoursDistanceMapOptions.html#ab4eb6c6f113595f62886ed7e689760ae", null ],
       [ "region", "structMR_1_1ContoursDistanceMapOptions.html#ad970162a0cd7b031b6f1394f856f5ba0", null ]
@@ -141,6 +144,7 @@ var group__DistanceMapGroup =
     [ "MR::expandPixelMask", "group__DistanceMapGroup.html#ga6c5838a3065551d1adbcde13e5cf895b", null ],
     [ "MR::loadDistanceMapFromImage", "group__DistanceMapGroup.html#gadbee6a2fc88cfd473ca9702fe2e1e4b5", null ],
     [ "MR::opposite", "group__DistanceMapGroup.html#ga91a308e751ba7d6ace30ea1a895eb3fb", null ],
+    [ "MR::polylineOffset", "group__DistanceMapGroup.html#gaf720ea7221e6ad284c8b0b80e5c58364", null ],
     [ "MR::RectIndexer::RectIndexer", "group__DistanceMapGroup.html#ga239b9939936c38ad89df91dd649ab13d", null ],
     [ "MR::RectIndexer::resize", "group__DistanceMapGroup.html#ga901329f8c2956e6baeb440b154c9907f", null ],
     [ "MR::saveDistanceMapToImage", "group__DistanceMapGroup.html#gad32dba15de75a916f90af8e79efca23c", null ],

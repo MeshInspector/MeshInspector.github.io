@@ -78,6 +78,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRGeodesicPath.h", "MRGeodesicPath_8h.html", "MRGeodesicPath_8h" ],
     [ "MRGltfSerializer.h", "MRGltfSerializer_8h.html", "MRGltfSerializer_8h" ],
     [ "MRGridSampling.h", "MRGridSampling_8h.html", "MRGridSampling_8h" ],
+    [ "MRGridSettings.h", "MRGridSettings_8h.html", "MRGridSettings_8h" ],
     [ "MRGTest.h", "MRGTest_8h.html", null ],
     [ "MRHash.h", "MRHash_8h.html", null ],
     [ "MRHeap.h", "MRHeap_8h.html", "MRHeap_8h" ],

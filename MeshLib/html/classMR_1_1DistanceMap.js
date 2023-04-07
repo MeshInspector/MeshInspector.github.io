@@ -33,6 +33,7 @@ var classMR_1_1DistanceMap =
     [ "resY", "classMR_1_1DistanceMap.html#ab7ce297c0b79b57dba812e3c7511fb56", null ],
     [ "set", "classMR_1_1DistanceMap.html#a00a3638fd3d285e192befb047bf95db2", null ],
     [ "set", "classMR_1_1DistanceMap.html#ad6f348bd639abf5491d2d203623c8ec5", null ],
+    [ "set", "classMR_1_1DistanceMap.html#a55389356dd0df5de1c041e73baa076f7", null ],
     [ "unproject", "classMR_1_1DistanceMap.html#ae655b3727c55cd58c480fc33272ef0eb", null ],
     [ "unprojectInterpolated", "classMR_1_1DistanceMap.html#aac75468f5688d9ad183f855f7eb007e8", null ],
     [ "unset", "classMR_1_1DistanceMap.html#ae9daffb9c88428b1354e37aa4c55fb9d", null ],

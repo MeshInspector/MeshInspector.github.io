@@ -42,7 +42,7 @@ var group__EdgePathsGroup =
     ] ],
     [ "MR::EdgeMetric", "group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f", null ],
     [ "MR::EdgePathsBuilder", "group__EdgePathsGroup.html#ga804e531aba31d3b33c8698791b90bf70", null ],
-    [ "MR::VertPathInfoMap", "group__EdgePathsGroup.html#ga573845ac08bb53e9eaf80a696577c962", null ],
+    [ "MR::VertPathInfoMap", "group__EdgePathsGroup.html#gab7fd988c9637a0fb9985015051bced49", null ],
     [ "MR::addLeftBand", "group__EdgePathsGroup.html#gab0db7342678536825cb6b3bff51d832d", null ],
     [ "MR::EdgePathsBuilderT::addOrgRingSteps", "group__EdgePathsGroup.html#ga7567736873ea92c6a2359d13bdf9ff52", null ],
     [ "MR::EdgePathsBuilderT::addStart", "group__EdgePathsGroup.html#ga424ce31cf3ac73240ffd491872efa6fb", null ],

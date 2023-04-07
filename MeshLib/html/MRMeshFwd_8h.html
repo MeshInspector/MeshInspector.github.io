@@ -398,6 +398,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:abe916bf46259db0a67f17649f44a47d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3928bf55d6ab85ff0bc8ff5accfe4d0c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3928bf55d6ab85ff0bc8ff5accfe4d0c">MR::TriPointd</a> = TriPoint&lt; double &gt;</td></tr>
 <tr class="separator:a3928bf55d6ab85ff0bc8ff5accfe4d0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3812e89f4928ec18dffc8cf01e267019"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3812e89f4928ec18dffc8cf01e267019">MR::UVCoord</a> = Vector2f</td></tr>
+<tr class="separator:a3812e89f4928ec18dffc8cf01e267019"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a989bcd374602a615d0acbd6a4988b9b3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a989bcd374602a615d0acbd6a4988b9b3">MR::FaceMap</a> = Vector&lt; FaceId, FaceId &gt;</td></tr>
 <tr class="separator:a989bcd374602a615d0acbd6a4988b9b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2c30ce6c537a9a5625236715ca5faba"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">MR::VertMap</a> = Vector&lt; VertId, VertId &gt;</td></tr>
@@ -413,6 +415,10 @@ Typedefs</h2></td></tr>
 <tr class="separator:af5c9eac6bdf7a25e819c5e2653f469f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1aa03e2767de0adc6154f5419a78e9df"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df">MR::VertNormals</a> = Vector&lt; Vector3f, VertId &gt;</td></tr>
 <tr class="separator:a1aa03e2767de0adc6154f5419a78e9df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59dd016293920ad941a9aeb6e67b6186"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a59dd016293920ad941a9aeb6e67b6186">MR::VertColors</a> = Vector&lt; Color, VertId &gt;</td></tr>
+<tr class="separator:a59dd016293920ad941a9aeb6e67b6186"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e18a7dd593dcc4571d5cfe82c4f3c1b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4e18a7dd593dcc4571d5cfe82c4f3c1b">MR::VertUVCoords</a> = Vector&lt; UVCoord, VertId &gt;</td></tr>
+<tr class="separator:a4e18a7dd593dcc4571d5cfe82c4f3c1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f7f21ab968d632b6b6f4e9575fd7fc3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a7f7f21ab968d632b6b6f4e9575fd7fc3">MR::FaceNormals</a> = Vector&lt; Vector3f, FaceId &gt;</td></tr>
 <tr class="separator:a7f7f21ab968d632b6b6f4e9575fd7fc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ff8538fbd804e0f9c7aa814bbb3ed80"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a9ff8538fbd804e0f9c7aa814bbb3ed80">MR::FaceBMap</a> = BMap&lt; FaceId, FaceId &gt;</td></tr>
@@ -454,8 +460,6 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ab2730d7016e74f0d069e3f5791ae76dc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab2730d7016e74f0d069e3f5791ae76dc">MR::WholeEdgeHashMap</a> = HashMap&lt; UndirectedEdgeId, EdgeId &gt;</td></tr>
 <tr class="memdesc:ab2730d7016e74f0d069e3f5791ae76dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">mapping of whole edges: map[e]-&gt;f, map[e.sym()]-&gt;f.sym(), where only map[e] for even edges is stored  <br /></td></tr>
 <tr class="separator:ab2730d7016e74f0d069e3f5791ae76dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3812e89f4928ec18dffc8cf01e267019"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3812e89f4928ec18dffc8cf01e267019">MR::UVCoord</a> = Vector2f</td></tr>
-<tr class="separator:a3812e89f4928ec18dffc8cf01e267019"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1ca9892644603a8b29005353e5ada79"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">MR::Polyline2</a> = Polyline&lt; Vector2f &gt;</td></tr>
 <tr class="separator:ab1ca9892644603a8b29005353e5ada79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58b74f27c86e7e9dee889bfe30f3022a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a58b74f27c86e7e9dee889bfe30f3022a">MR::Polyline3</a> = Polyline&lt; Vector3f &gt;</td></tr>

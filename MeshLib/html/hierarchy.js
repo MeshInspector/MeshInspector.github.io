@@ -14,6 +14,10 @@ var hierarchy =
     [ "spdlog::sinks::base_sink", null, [
       [ "MR::RestoringStreamsSink", "classMR_1_1RestoringStreamsSink.html", null ]
     ] ],
+    [ "MR::Viewport::BaseFitParams", "structMR_1_1Viewport_1_1BaseFitParams.html", [
+      [ "MR::Viewport::FitBoxParams", "structMR_1_1Viewport_1_1FitBoxParams.html", null ],
+      [ "MR::Viewport::FitDataParams", "structMR_1_1Viewport_1_1FitDataParams.html", null ]
+    ] ],
     [ "MR::BaseOffsetParameters", "structMR_1_1BaseOffsetParameters.html", [
       [ "MR::OffsetParameters", "structMR_1_1OffsetParameters.html", null ],
       [ "MR::SharpOffsetParameters", "structMR_1_1SharpOffsetParameters.html", null ]
@@ -33,6 +37,7 @@ var hierarchy =
     [ "MR::BindVertexAttribArraySettings", "structMR_1_1BindVertexAttribArraySettings.html", null ],
     [ "MR::BMap< T, I >", "structMR_1_1BMap.html", null ],
     [ "MR::BMap< FaceId, FaceId >", "structMR_1_1BMap.html", null ],
+    [ "MR::BMap< MR::Id, size_t >", "structMR_1_1BMap.html", null ],
     [ "MR::BMap< UndirectedEdgeId, UndirectedEdgeId >", "structMR_1_1BMap.html", null ],
     [ "MR::BMap< VertId, VertId >", "structMR_1_1BMap.html", null ],
     [ "MR::BooleanResult", "structMR_1_1BooleanResult.html", null ],
@@ -44,6 +49,7 @@ var hierarchy =
     [ "MR::BoxedLeaf< T >", "structMR_1_1BoxedLeaf.html", null ],
     [ "MR::Buffer< V, I >", "classMR_1_1Buffer.html", null ],
     [ "MR::Buffer< FaceId, FaceId >", "classMR_1_1Buffer.html", null ],
+    [ "MR::Buffer< MR::Id, size_t >", "classMR_1_1Buffer.html", null ],
     [ "MR::Buffer< T, I >", "classMR_1_1Buffer.html", null ],
     [ "MR::Buffer< UndirectedEdgeId, UndirectedEdgeId >", "classMR_1_1Buffer.html", null ],
     [ "MR::Buffer< VertId, VertId >", "classMR_1_1Buffer.html", null ],
@@ -136,6 +142,7 @@ var hierarchy =
         [ "MR::TaggedBitSet< T >", "classMR_1_1TaggedBitSet.html", null ]
       ] ]
     ] ],
+    [ "MR::Cuda::DynamicArray< T >", "classMR_1_1Cuda_1_1DynamicArray.html", null ],
     [ "MR::EdgePathsBuilderT< MetricToPenalty >", "classMR_1_1EdgePathsBuilderT.html", null ],
     [ "MR::EdgePathsBuilderT< MetricToAStarPenalty >", "classMR_1_1EdgePathsBuilderT.html", [
       [ "MR::EdgePathsAStarBuilder", "classMR_1_1EdgePathsAStarBuilder.html", null ]
@@ -158,7 +165,6 @@ var hierarchy =
     [ "MR::FillHoleMetric", "structMR_1_1FillHoleMetric.html", null ],
     [ "MR::FillHoleParams", "structMR_1_1FillHoleParams.html", null ],
     [ "MR::FillHolePlan", "structMR_1_1FillHolePlan.html", null ],
-    [ "MR::Viewport::FitDataParams", "structMR_1_1Viewport_1_1FitDataParams.html", null ],
     [ "openvdb::FloatGrid", null, [
       [ "MR::OpenVdbFloatGrid", "structMR_1_1OpenVdbFloatGrid.html", null ]
     ] ],
@@ -167,6 +173,7 @@ var hierarchy =
     [ "MR::GLStaticHolder", "classMR_1_1GLStaticHolder.html", null ],
     [ "MR::GlTexture2", "classMR_1_1GlTexture2.html", null ],
     [ "MR::GlTexture3", "classMR_1_1GlTexture3.html", null ],
+    [ "MR::GridSettings", "structMR_1_1GridSettings.html", null ],
     [ "MR::HashToVectorMappingConverter", "classMR_1_1HashToVectorMappingConverter.html", null ],
     [ "MR::Heap< T, I, P >", "classMR_1_1Heap.html", null ],
     [ "MR::Histogram", "classMR_1_1Histogram.html", null ],
@@ -501,6 +508,7 @@ var hierarchy =
     [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", null ],
     [ "MR::GlTexture2::Settings", "structMR_1_1GlTexture2_1_1Settings.html", null ],
     [ "MR::GlTexture3::Settings", "structMR_1_1GlTexture3_1_1Settings.html", null ],
+    [ "MR::ShaderWarning", "structMR_1_1ShaderWarning.html", null ],
     [ "MR::ShadowsGL", "classMR_1_1ShadowsGL.html", null ],
     [ "MR::SharpenMarchingCubesMeshSettings", "structMR_1_1SharpenMarchingCubesMeshSettings.html", null ],
     [ "MR::ShiftTransformer< TreeT >", "classMR_1_1ShiftTransformer.html", null ],
@@ -593,6 +601,7 @@ var hierarchy =
     [ "MR::Vector< Node, NodeId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< size_t, I >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< ThreeVertIds, FaceId >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< UVCoord, VertId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< V, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< Vector3f, FaceId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< Vector3f, VertId >", "classMR_1_1Vector.html", null ],

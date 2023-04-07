@@ -2,7 +2,9 @@ var MRViewport_8h =
 [
     [ "MR::Viewport", "classMR_1_1Viewport.html", "classMR_1_1Viewport" ],
     [ "MR::Viewport::Parameters", "structMR_1_1Viewport_1_1Parameters.html", "structMR_1_1Viewport_1_1Parameters" ],
+    [ "MR::Viewport::BaseFitParams", "structMR_1_1Viewport_1_1BaseFitParams.html", "structMR_1_1Viewport_1_1BaseFitParams" ],
     [ "MR::Viewport::FitDataParams", "structMR_1_1Viewport_1_1FitDataParams.html", "structMR_1_1Viewport_1_1FitDataParams" ],
+    [ "MR::Viewport::FitBoxParams", "structMR_1_1Viewport_1_1FitBoxParams.html", "structMR_1_1Viewport_1_1FitBoxParams" ],
     [ "ConstObjAndPick", "MRViewport_8h.html#a644688f2af4d550fac6d7bbeb67423a7", null ],
     [ "ObjAndPick", "MRViewport_8h.html#af85934a86dc22ba72bd4c0e3ef20c19a", null ],
     [ "ViewportRectangle", "MRViewport_8h.html#af3970a3c191ff7a139d0e2ed05f27eeb", null ],

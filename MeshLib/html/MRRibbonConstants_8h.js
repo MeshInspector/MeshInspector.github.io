@@ -25,6 +25,7 @@ var MRRibbonConstants_8h =
     [ "cPaletteDiscretizationScaling", "MRRibbonConstants_8h.html#af0077684be5ee0912d20ee7b7d775d53", null ],
     [ "cQuickAccessBarHeight", "MRRibbonConstants_8h.html#a11cefc41d465d94791aaa0484ecde389", null ],
     [ "cRadioButtonSize", "MRRibbonConstants_8h.html#a5e91f2b6e23986c1b6506a29afbc961c", null ],
+    [ "cRadioInnerSpacingX", "MRRibbonConstants_8h.html#afe49e137af70c8aaef17a39366b4bd32", null ],
     [ "cRibbonButtonWindowPaddingX", "MRRibbonConstants_8h.html#aa1ae7e72880bd59893da014002b30c09", null ],
     [ "cRibbonButtonWindowPaddingY", "MRRibbonConstants_8h.html#a502df3899fddea88b5d81bacebed7b2e", null ],
     [ "cRibbonItemInterval", "MRRibbonConstants_8h.html#ad2e6e25a903280bb16257d5eade3d674", null ],

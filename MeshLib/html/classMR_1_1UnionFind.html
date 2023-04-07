@@ -120,9 +120,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6a74089f75f3b88edf1a6fb0beba1e13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UnionFind.html#a6a74089f75f3b88edf1a6fb0beba1e13">reset</a> (size_t <a class="el" href="classMR_1_1UnionFind.html#ab0d01d793fad21820791310d7318235e">size</a>)</td></tr>
 <tr class="memdesc:a6a74089f75f3b88edf1a6fb0beba1e13"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset roots to represent each element as disjoint set of rank 0  <br /></td></tr>
 <tr class="separator:a6a74089f75f3b88edf1a6fb0beba1e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac55d95c6f3497ebcfe9337bc7d1698d2"><td class="memItemLeft" align="right" valign="top">I&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UnionFind.html#ac55d95c6f3497ebcfe9337bc7d1698d2">unite</a> (I first, I second)</td></tr>
-<tr class="memdesc:ac55d95c6f3497ebcfe9337bc7d1698d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">unite two elements, returns new common root  <br /></td></tr>
-<tr class="separator:ac55d95c6f3497ebcfe9337bc7d1698d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0739ab9258f8fc25ef45ce06106fffce"><td class="memItemLeft" align="right" valign="top">std::pair&lt; I, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UnionFind.html#a0739ab9258f8fc25ef45ce06106fffce">unite</a> (I first, I second)</td></tr>
+<tr class="separator:a0739ab9258f8fc25ef45ce06106fffce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa570cc6f33bbb51fb5859608b9c68fbc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UnionFind.html#aa570cc6f33bbb51fb5859608b9c68fbc">united</a> (I first, I second)</td></tr>
 <tr class="memdesc:aa570cc6f33bbb51fb5859608b9c68fbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if given two elements are from one component  <br /></td></tr>
 <tr class="separator:aa570cc6f33bbb51fb5859608b9c68fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -396,8 +395,8 @@ template&lt;typename I &gt; </div>
 
 </div>
 </div>
-<a id="ac55d95c6f3497ebcfe9337bc7d1698d2" name="ac55d95c6f3497ebcfe9337bc7d1698d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac55d95c6f3497ebcfe9337bc7d1698d2">&#9670;&#160;</a></span>unite()</h2>
+<a id="a0739ab9258f8fc25ef45ce06106fffce" name="a0739ab9258f8fc25ef45ce06106fffce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0739ab9258f8fc25ef45ce06106fffce">&#9670;&#160;</a></span>unite()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -408,7 +407,7 @@ template&lt;typename I &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">I <a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind</a>&lt; I &gt;::unite </td>
+          <td class="memname">std::pair&lt; I, bool &gt; <a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind</a>&lt; I &gt;::unite </td>
           <td>(</td>
           <td class="paramtype">I&#160;</td>
           <td class="paramname"><em>first</em>, </td>
@@ -431,8 +430,7 @@ template&lt;typename I &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>unite two elements, returns new common root </p>
+<p>unite two elements, </p><dl class="section return"><dt>Returns</dt><dd>first: new common root, second: true = union was done, false = first and second were already united </dd></dl>
 <p>select root by size for best performance</p>
 
 </div>
