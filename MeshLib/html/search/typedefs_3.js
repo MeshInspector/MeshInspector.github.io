@@ -6,7 +6,5 @@ var searchData=
   ['disabledwarnings_3',['DisabledWarnings',['../namespaceMR.html#ae259a7fcdeec57a00c96703d4f12e28e',1,'MR']]],
   ['dragdropsignal_4',['DragDropSignal',['../classMR_1_1Viewer.html#ae75b061c70e140f41530c73ec2879d99',1,'MR::Viewer']]],
   ['drawtabconfig_5',['DrawTabConfig',['../classMR_1_1RibbonMenu.html#ad0d582e1904c2ad88eee5f4bfe814f83',1,'MR::RibbonMenu']]],
-  ['dropitemslist_6',['DropItemsList',['../classMR_1_1RibbonMenuItem.html#a45c76e29be045ce448077faf40b1e986',1,'MR::RibbonMenuItem']]],
-  ['dynamicarrayf_7',['DynamicArrayF',['../namespaceMR_1_1Cuda.html#ae49e04eeccbbd335b7a2bf6a7e5cfbf9',1,'MR::Cuda']]],
-  ['dynamicarrayu16_8',['DynamicArrayU16',['../namespaceMR_1_1Cuda.html#ac7d33c0e279f932d15f00334f8018420',1,'MR::Cuda']]]
+  ['dropitemslist_6',['DropItemsList',['../classMR_1_1RibbonMenuItem.html#a45c76e29be045ce448077faf40b1e986',1,'MR::RibbonMenuItem']]]
 ];

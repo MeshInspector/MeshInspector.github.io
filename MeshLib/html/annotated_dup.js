@@ -1,9 +1,6 @@
 var annotated_dup =
 [
     [ "MR", "namespaceMR.html", [
-      [ "Cuda", "namespaceMR_1_1Cuda.html", [
-        [ "DynamicArray", "classMR_1_1Cuda_1_1DynamicArray.html", "classMR_1_1Cuda_1_1DynamicArray" ]
-      ] ],
       [ "FixUndercuts", "namespaceMR_1_1FixUndercuts.html", [
         [ "DistMapImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" ],
         [ "ImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters" ]

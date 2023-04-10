@@ -136,6 +136,23 @@ Functions</h2></td></tr>
 <tr class="memitem:a820aa2a94b65ad7536194e8527f89a12"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#a820aa2a94b65ad7536194e8527f89a12">combo</a> (const char *label, int *v, const std::vector&lt; std::string &gt; &amp;options, bool showPreview=true, const std::vector&lt; std::string &gt; &amp;tooltips={}, const std::string &amp;defaultText=&quot;Not selected&quot;)</td></tr>
 <tr class="memdesc:a820aa2a94b65ad7536194e8527f89a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw combo box  <br /></td></tr>
 <tr class="separator:a820aa2a94b65ad7536194e8527f89a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a026c1e5c2917366011537ab2ff019ef1"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#a026c1e5c2917366011537ab2ff019ef1">inputTextCentered</a> (const char *label, std::string &amp;str, float <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>=0.0f, ImGuiInputTextFlags flags=0, ImGuiInputTextCallback callback=NULL, void *user_data=NULL)</td></tr>
+<tr class="memdesc:a026c1e5c2917366011537ab2ff019ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw input text box with text aligned by center  <br /></td></tr>
+<tr class="separator:a026c1e5c2917366011537ab2ff019ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5363e552c8bef6450cdfad583af18e0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#aa5363e552c8bef6450cdfad583af18e0">inputTextCenteredReadOnly</a> (const char *label, const std::string &amp;str, float <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>=0.0f, const std::optional&lt; ImVec4 &gt; &amp;textColor={})</td></tr>
+<tr class="memdesc:aa5363e552c8bef6450cdfad583af18e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw read-only text box with text aligned by center  <br /></td></tr>
+<tr class="separator:aa5363e552c8bef6450cdfad583af18e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94309985ed89c89e0d6199e0c6a2e333"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#a94309985ed89c89e0d6199e0c6a2e333">transparentText</a> (const char *fmt,...)</td></tr>
+<tr class="memdesc:a94309985ed89c89e0d6199e0c6a2e333"><td class="mdescLeft">&#160;</td><td class="mdescRight">similar to ImGui::Text but use current text color with alpha channel = 0.5  <br /></td></tr>
+<tr class="separator:a94309985ed89c89e0d6199e0c6a2e333"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e82aeb6c8dcd97dab6e1f0e68d4fed4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#a2e82aeb6c8dcd97dab6e1f0e68d4fed4">transparentTextWrapped</a> (const char *fmt,...)</td></tr>
+<tr class="memdesc:a2e82aeb6c8dcd97dab6e1f0e68d4fed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">similar to ImGui::TextWrapped but use current text color with alpha channel = 0.5  <br /></td></tr>
+<tr class="separator:a2e82aeb6c8dcd97dab6e1f0e68d4fed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a872e637e1fc6bb7aa391dc842b565ed0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#a872e637e1fc6bb7aa391dc842b565ed0">setTooltipIfHovered</a> (const std::string &amp;text, float scaling)</td></tr>
+<tr class="memdesc:a872e637e1fc6bb7aa391dc842b565ed0"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw tooltip only if current item is hovered  <br /></td></tr>
+<tr class="separator:a872e637e1fc6bb7aa391dc842b565ed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17f2b30eb00e5aa94812541ac268a30f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#a17f2b30eb00e5aa94812541ac268a30f">separator</a> (float scaling, const std::string &amp;text=&quot;&quot;, int issueCount=-1)</td></tr>
+<tr class="separator:a17f2b30eb00e5aa94812541ac268a30f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ae14306471133180f84a3a02650ced599" name="ae14306471133180f84a3a02650ced599"></a>
@@ -520,6 +537,102 @@ template&lt;typename Getter , typename Setter &gt; </div>
 
 </div>
 </div>
+<a id="a026c1e5c2917366011537ab2ff019ef1" name="a026c1e5c2917366011537ab2ff019ef1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a026c1e5c2917366011537ab2ff019ef1">&#9670;&#160;</a></span>inputTextCentered()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::UI::inputTextCentered </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>label</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>width</em> = <code>0.0f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImGuiInputTextFlags&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImGuiInputTextCallback&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>NULL</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>user_data</em> = <code>NULL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>draw input text box with text aligned by center </p>
+
+</div>
+</div>
+<a id="aa5363e552c8bef6450cdfad583af18e0" name="aa5363e552c8bef6450cdfad583af18e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5363e552c8bef6450cdfad583af18e0">&#9670;&#160;</a></span>inputTextCenteredReadOnly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::UI::inputTextCenteredReadOnly </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>label</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>width</em> = <code>0.0f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::optional&lt; ImVec4 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>textColor</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>draw read-only text box with text aligned by center </p>
+
+</div>
+</div>
 <a id="a8475dd1f1a29f5bb0edc0fcd7c53d115" name="a8475dd1f1a29f5bb0edc0fcd7c53d115"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8475dd1f1a29f5bb0edc0fcd7c53d115">&#9670;&#160;</a></span>radioButton()</h2>
 
@@ -553,6 +666,131 @@ template&lt;typename Getter , typename Setter &gt; </div>
 </div><div class="memdoc">
 
 <p>draw gradient radio button </p>
+
+</div>
+</div>
+<a id="a17f2b30eb00e5aa94812541ac268a30f" name="a17f2b30eb00e5aa94812541ac268a30f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17f2b30eb00e5aa94812541ac268a30f">&#9670;&#160;</a></span>separator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::UI::separator </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scaling</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>text</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>issueCount</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>add text with separator line if issueCount is greater than zero, this number will be displayed in red color after the text. If it equals zero - in green color Otherwise it will not be displayed </p>
+
+</div>
+</div>
+<a id="a872e637e1fc6bb7aa391dc842b565ed0" name="a872e637e1fc6bb7aa391dc842b565ed0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a872e637e1fc6bb7aa391dc842b565ed0">&#9670;&#160;</a></span>setTooltipIfHovered()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::UI::setTooltipIfHovered </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scaling</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>draw tooltip only if current item is hovered </p>
+
+</div>
+</div>
+<a id="a94309985ed89c89e0d6199e0c6a2e333" name="a94309985ed89c89e0d6199e0c6a2e333"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94309985ed89c89e0d6199e0c6a2e333">&#9670;&#160;</a></span>transparentText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::UI::transparentText </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>fmt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>similar to ImGui::Text but use current text color with alpha channel = 0.5 </p>
+
+</div>
+</div>
+<a id="a2e82aeb6c8dcd97dab6e1f0e68d4fed4" name="a2e82aeb6c8dcd97dab6e1f0e68d4fed4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e82aeb6c8dcd97dab6e1f0e68d4fed4">&#9670;&#160;</a></span>transparentTextWrapped()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::UI::transparentTextWrapped </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>fmt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>similar to ImGui::TextWrapped but use current text color with alpha channel = 0.5 </p>
 
 </div>
 </div>

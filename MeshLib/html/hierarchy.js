@@ -142,7 +142,6 @@ var hierarchy =
         [ "MR::TaggedBitSet< T >", "classMR_1_1TaggedBitSet.html", null ]
       ] ]
     ] ],
-    [ "MR::Cuda::DynamicArray< T >", "classMR_1_1Cuda_1_1DynamicArray.html", null ],
     [ "MR::EdgePathsBuilderT< MetricToPenalty >", "classMR_1_1EdgePathsBuilderT.html", null ],
     [ "MR::EdgePathsBuilderT< MetricToAStarPenalty >", "classMR_1_1EdgePathsBuilderT.html", [
       [ "MR::EdgePathsAStarBuilder", "classMR_1_1EdgePathsAStarBuilder.html", null ]

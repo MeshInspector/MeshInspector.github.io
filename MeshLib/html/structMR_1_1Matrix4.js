@@ -9,6 +9,7 @@ var structMR_1_1Matrix4 =
     [ "Matrix4", "structMR_1_1Matrix4.html#ac6452ee6d44d0ef12ed6ea165680f171", null ],
     [ "col", "structMR_1_1Matrix4.html#ad44d7c3967100d5828818e59d4b57563", null ],
     [ "data", "structMR_1_1Matrix4.html#a2968fcaeb275c69d69adefdaec46f32c", null ],
+    [ "data", "structMR_1_1Matrix4.html#ae14dd0c11d00774b57b26477176eaf75", null ],
     [ "det", "structMR_1_1Matrix4.html#a9cfc9d9ade4367b39f5eec17c75bdd5d", null ],
     [ "getRotation", "structMR_1_1Matrix4.html#a94060d7e07f5c48155555c0bac0194d9", null ],
     [ "getTranslation", "structMR_1_1Matrix4.html#afdaea6c4914f797f5028508fc4660a71", null ],

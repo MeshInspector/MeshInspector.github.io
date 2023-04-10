@@ -1,8 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"MRStreamOperators_8h.html#aa6c4fc5ecafa6360793420eff8ab251e":[12,0,0,1,2,228,2],
-"MRStreamOperators_8h.html#abeae10f00619d98a6b9bb7bf7a06b322":[12,0,0,1,2,228,8],
-"MRStreamOperators_8h.html#ac3d2f2d86659c075b46b5e16dd7a1788":[12,0,0,1,2,228,21],
 "MRStreamOperators_8h.html#aca3c19b890aa7fc06a27b77bbd2166dd":[12,0,0,1,2,228,7],
 "MRStreamOperators_8h.html#ad85d26b0a95cdf398372e9564135b4ba":[12,0,0,1,2,228,18],
 "MRStreamOperators_8h.html#ad99ac1ebe76b35b655adb5b8f25c4378":[12,0,0,1,2,228,20],
@@ -124,12 +121,18 @@ var NAVTREEINDEX5 =
 "MRTupleBindings_8h.html":[12,0,0,1,2,248],
 "MRTupleBindings_8h_source.html":[12,0,0,1,2,248],
 "MRUIStyle_8h.html":[12,0,0,1,4,64],
+"MRUIStyle_8h.html#a026c1e5c2917366011537ab2ff019ef1":[12,0,0,1,4,64,10],
+"MRUIStyle_8h.html#a17f2b30eb00e5aa94812541ac268a30f":[12,0,0,1,4,64,13],
 "MRUIStyle_8h.html#a2881f3d703930012d8720a0bfaf71dd1":[12,0,0,1,4,64,3],
+"MRUIStyle_8h.html#a2e82aeb6c8dcd97dab6e1f0e68d4fed4":[12,0,0,1,4,64,16],
 "MRUIStyle_8h.html#a53a8b0ecd1302a3bda2f1df01ef818a8":[12,0,0,1,4,64,4],
 "MRUIStyle_8h.html#a820aa2a94b65ad7536194e8527f89a12":[12,0,0,1,4,64,8],
-"MRUIStyle_8h.html#a8475dd1f1a29f5bb0edc0fcd7c53d115":[12,0,0,1,4,64,10],
+"MRUIStyle_8h.html#a8475dd1f1a29f5bb0edc0fcd7c53d115":[12,0,0,1,4,64,12],
+"MRUIStyle_8h.html#a872e637e1fc6bb7aa391dc842b565ed0":[12,0,0,1,4,64,14],
+"MRUIStyle_8h.html#a94309985ed89c89e0d6199e0c6a2e333":[12,0,0,1,4,64,15],
 "MRUIStyle_8h.html#a9542cf007c0f98d41fea874268894222":[12,0,0,1,4,64,5],
 "MRUIStyle_8h.html#a986e400ed59dea0ae3e54284d9b8d110":[12,0,0,1,4,64,9],
+"MRUIStyle_8h.html#aa5363e552c8bef6450cdfad583af18e0":[12,0,0,1,4,64,11],
 "MRUIStyle_8h.html#aaa136c1366383c9c03db4f4b7520c2a6":[12,0,0,1,4,64,7],
 "MRUIStyle_8h.html#ab4909c09a4671c9b042825346cf6f637":[12,0,0,1,4,64,6],
 "MRUIStyle_8h.html#ad13b9be4aa5cae65c61e91ac1ab04ecd":[12,0,0,1,4,64,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX5 =
 "MRVoxelsConversions_8h.html#ac595e45c15fc1d1677d48df60550c8e3":[12,0,0,1,2,267,3],
 "MRVoxelsConversions_8h.html#af102f28f315f13f9712b24b4ddc61881":[12,0,0,1,2,267,5],
 "MRVoxelsConversions_8h.html#af1273ca739f3201c40be1786974bf67c":[12,0,0,1,2,267,6],
-"MRVoxelsConversions_8h_source.html":[12,0,0,1,2,267],
-"MRVoxelsLoad_8h.html":[12,0,0,1,2,268],
-"MRVoxelsLoad_8h.html#a5a3e4b96e9ddb9678f554fe8a8d56a19":[12,0,0,1,2,268,1],
-"MRVoxelsLoad_8h.html#a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7":[12,0,0,1,2,268,1,0]
+"MRVoxelsConversions_8h_source.html":[12,0,0,1,2,267]
 };

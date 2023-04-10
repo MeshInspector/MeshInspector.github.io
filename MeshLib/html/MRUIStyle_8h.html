@@ -106,6 +106,7 @@ $(document).ready(function(){initNavTree('MRUIStyle_8h.html',''); initResizable(
 <div class="textblock"><code>#include &quot;exports.h&quot;</code><br />
 <code>#include &quot;imgui.h&quot;</code><br />
 <code>#include &lt;string&gt;</code><br />
+<code>#include &lt;optional&gt;</code><br />
 </div>
 <p><a href="MRUIStyle_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -149,6 +150,23 @@ Functions</h2></td></tr>
 <tr class="memitem:a820aa2a94b65ad7536194e8527f89a12"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#a820aa2a94b65ad7536194e8527f89a12">MR::UI::combo</a> (const char *label, int *v, const std::vector&lt; std::string &gt; &amp;options, bool showPreview=true, const std::vector&lt; std::string &gt; &amp;tooltips={}, const std::string &amp;defaultText=&quot;Not selected&quot;)</td></tr>
 <tr class="memdesc:a820aa2a94b65ad7536194e8527f89a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw combo box  <br /></td></tr>
 <tr class="separator:a820aa2a94b65ad7536194e8527f89a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a026c1e5c2917366011537ab2ff019ef1"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#a026c1e5c2917366011537ab2ff019ef1">MR::UI::inputTextCentered</a> (const char *label, std::string &amp;str, float width=0.0f, ImGuiInputTextFlags flags=0, ImGuiInputTextCallback callback=NULL, void *user_data=NULL)</td></tr>
+<tr class="memdesc:a026c1e5c2917366011537ab2ff019ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw input text box with text aligned by center  <br /></td></tr>
+<tr class="separator:a026c1e5c2917366011537ab2ff019ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5363e552c8bef6450cdfad583af18e0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#aa5363e552c8bef6450cdfad583af18e0">MR::UI::inputTextCenteredReadOnly</a> (const char *label, const std::string &amp;str, float width=0.0f, const std::optional&lt; ImVec4 &gt; &amp;textColor={})</td></tr>
+<tr class="memdesc:aa5363e552c8bef6450cdfad583af18e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw read-only text box with text aligned by center  <br /></td></tr>
+<tr class="separator:aa5363e552c8bef6450cdfad583af18e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94309985ed89c89e0d6199e0c6a2e333"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#a94309985ed89c89e0d6199e0c6a2e333">MR::UI::transparentText</a> (const char *fmt,...)</td></tr>
+<tr class="memdesc:a94309985ed89c89e0d6199e0c6a2e333"><td class="mdescLeft">&#160;</td><td class="mdescRight">similar to ImGui::Text but use current text color with alpha channel = 0.5  <br /></td></tr>
+<tr class="separator:a94309985ed89c89e0d6199e0c6a2e333"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e82aeb6c8dcd97dab6e1f0e68d4fed4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#a2e82aeb6c8dcd97dab6e1f0e68d4fed4">MR::UI::transparentTextWrapped</a> (const char *fmt,...)</td></tr>
+<tr class="memdesc:a2e82aeb6c8dcd97dab6e1f0e68d4fed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">similar to ImGui::TextWrapped but use current text color with alpha channel = 0.5  <br /></td></tr>
+<tr class="separator:a2e82aeb6c8dcd97dab6e1f0e68d4fed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a872e637e1fc6bb7aa391dc842b565ed0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#a872e637e1fc6bb7aa391dc842b565ed0">MR::UI::setTooltipIfHovered</a> (const std::string &amp;text, float scaling)</td></tr>
+<tr class="memdesc:a872e637e1fc6bb7aa391dc842b565ed0"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw tooltip only if current item is hovered  <br /></td></tr>
+<tr class="separator:a872e637e1fc6bb7aa391dc842b565ed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17f2b30eb00e5aa94812541ac268a30f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#a17f2b30eb00e5aa94812541ac268a30f">MR::UI::separator</a> (float scaling, const std::string &amp;text=&quot;&quot;, int issueCount=-1)</td></tr>
+<tr class="separator:a17f2b30eb00e5aa94812541ac268a30f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

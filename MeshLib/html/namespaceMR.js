@@ -1,6 +1,12 @@
 var namespaceMR =
 [
-    [ "Cuda", "namespaceMR_1_1Cuda.html", "namespaceMR_1_1Cuda" ],
+    [ "Cuda", "namespaceMR_1_1Cuda.html", [
+      [ "distanceMapFromContours", "namespaceMR_1_1Cuda.html#ad257bedcdc1831b1df160989c3047f7d", null ],
+      [ "findProjections", "namespaceMR_1_1Cuda.html#a67e404104ea7e768a7b71978103ded94", null ],
+      [ "getCudaAvailableMemory", "namespaceMR_1_1Cuda.html#ae3d6344c4c9b5959665fdde2ddc4a838", null ],
+      [ "isCudaAvailable", "namespaceMR_1_1Cuda.html#ac2aac2d47fad78d92edaf5751790f90f", null ],
+      [ "negatePicture", "namespaceMR_1_1Cuda.html#a049377206c74eb42b8d99eb0f9475876", null ]
+    ] ],
     [ "DistanceMapLoad", "namespaceMR_1_1DistanceMapLoad.html", [
       [ "fromAnySupportedFormat", "group__DistanceMapLoadGroup.html#gafe79f0c17e74b37453c657e43d190453", null ],
       [ "fromMrDistanceMap", "group__DistanceMapLoadGroup.html#gaa4e88914e644a1f394976034c4a3c039", null ],
@@ -134,7 +140,13 @@ var namespaceMR =
       [ "colorEdit4", "namespaceMR_1_1UI.html#aaa136c1366383c9c03db4f4b7520c2a6", null ],
       [ "combo", "namespaceMR_1_1UI.html#a820aa2a94b65ad7536194e8527f89a12", null ],
       [ "init", "namespaceMR_1_1UI.html#a986e400ed59dea0ae3e54284d9b8d110", null ],
-      [ "radioButton", "namespaceMR_1_1UI.html#a8475dd1f1a29f5bb0edc0fcd7c53d115", null ]
+      [ "inputTextCentered", "namespaceMR_1_1UI.html#a026c1e5c2917366011537ab2ff019ef1", null ],
+      [ "inputTextCenteredReadOnly", "namespaceMR_1_1UI.html#aa5363e552c8bef6450cdfad583af18e0", null ],
+      [ "radioButton", "namespaceMR_1_1UI.html#a8475dd1f1a29f5bb0edc0fcd7c53d115", null ],
+      [ "separator", "namespaceMR_1_1UI.html#a17f2b30eb00e5aa94812541ac268a30f", null ],
+      [ "setTooltipIfHovered", "namespaceMR_1_1UI.html#a872e637e1fc6bb7aa391dc842b565ed0", null ],
+      [ "transparentText", "namespaceMR_1_1UI.html#a94309985ed89c89e0d6199e0c6a2e333", null ],
+      [ "transparentTextWrapped", "namespaceMR_1_1UI.html#a2e82aeb6c8dcd97dab6e1f0e68d4fed4", null ]
     ] ],
     [ "VoxelsLoad", "namespaceMR_1_1VoxelsLoad.html", "namespaceMR_1_1VoxelsLoad" ],
     [ "VoxelsSave", "namespaceMR_1_1VoxelsSave.html", "namespaceMR_1_1VoxelsSave" ],

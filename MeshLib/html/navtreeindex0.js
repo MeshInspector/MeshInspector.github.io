@@ -166,11 +166,8 @@ var NAVTREEINDEX0 =
 "MRCube_8h.html#ac19d6db4200945b6861959bd421a41e1":[12,0,0,1,2,49,0],
 "MRCube_8h_source.html":[12,0,0,1,2,49],
 "MRCudaBasic_8h.html":[12,0,0,1,1,0],
-"MRCudaBasic_8h.html#a034a3fa2b2208b51551470b2728df7ec":[12,0,0,1,1,0,5],
-"MRCudaBasic_8h.html#ac2aac2d47fad78d92edaf5751790f90f":[12,0,0,1,1,0,4],
-"MRCudaBasic_8h.html#ac7d33c0e279f932d15f00334f8018420":[12,0,0,1,1,0,2],
-"MRCudaBasic_8h.html#ae3d6344c4c9b5959665fdde2ddc4a838":[12,0,0,1,1,0,3],
-"MRCudaBasic_8h.html#ae49e04eeccbbd335b7a2bf6a7e5cfbf9":[12,0,0,1,1,0,1],
+"MRCudaBasic_8h.html#ac2aac2d47fad78d92edaf5751790f90f":[12,0,0,1,1,0,1],
+"MRCudaBasic_8h.html#ae3d6344c4c9b5959665fdde2ddc4a838":[12,0,0,1,1,0,0],
 "MRCudaBasic_8h_source.html":[12,0,0,1,1,0],
 "MRCudaContoursDistanceMap_8h.html":[12,0,0,1,1,1],
 "MRCudaContoursDistanceMap_8h.html#ad257bedcdc1831b1df160989c3047f7d":[12,0,0,1,1,1,0],
@@ -249,5 +246,8 @@ var NAVTREEINDEX0 =
 "MRFileDialog_8h.html#aa9296b50297d1b2d93a8f2f08c495eef":[12,0,0,1,4,7,8],
 "MRFileDialog_8h_source.html":[12,0,0,1,4,7],
 "MRFile_8h.html":[12,0,0,1,2,67],
-"MRFile_8h_source.html":[12,0,0,1,2,67]
+"MRFile_8h_source.html":[12,0,0,1,2,67],
+"MRFillContourByGraphCut_8h.html":[12,0,0,1,2,69],
+"MRFillContourByGraphCut_8h_source.html":[12,0,0,1,2,69],
+"MRFillContour_8h.html":[12,0,0,1,2,68]
 };

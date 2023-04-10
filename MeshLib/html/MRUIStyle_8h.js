@@ -10,5 +10,11 @@ var MRUIStyle_8h =
     [ "colorEdit4", "MRUIStyle_8h.html#aaa136c1366383c9c03db4f4b7520c2a6", null ],
     [ "combo", "MRUIStyle_8h.html#a820aa2a94b65ad7536194e8527f89a12", null ],
     [ "init", "MRUIStyle_8h.html#a986e400ed59dea0ae3e54284d9b8d110", null ],
-    [ "radioButton", "MRUIStyle_8h.html#a8475dd1f1a29f5bb0edc0fcd7c53d115", null ]
+    [ "inputTextCentered", "MRUIStyle_8h.html#a026c1e5c2917366011537ab2ff019ef1", null ],
+    [ "inputTextCenteredReadOnly", "MRUIStyle_8h.html#aa5363e552c8bef6450cdfad583af18e0", null ],
+    [ "radioButton", "MRUIStyle_8h.html#a8475dd1f1a29f5bb0edc0fcd7c53d115", null ],
+    [ "separator", "MRUIStyle_8h.html#a17f2b30eb00e5aa94812541ac268a30f", null ],
+    [ "setTooltipIfHovered", "MRUIStyle_8h.html#a872e637e1fc6bb7aa391dc842b565ed0", null ],
+    [ "transparentText", "MRUIStyle_8h.html#a94309985ed89c89e0d6199e0c6a2e333", null ],
+    [ "transparentTextWrapped", "MRUIStyle_8h.html#a2e82aeb6c8dcd97dab6e1f0e68d4fed4", null ]
 ];
