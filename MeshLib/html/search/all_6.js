@@ -1,8 +1,8 @@
 var searchData=
 [
   ['f_0',['f',['../structMR_1_1PackMapping.html#a53564598fd272bd72bf4ea9a97a2340a',1,'MR::PackMapping::f()'],['../structMR_1_1MeshBuilder_1_1Triangle.html#ae1a5aa6c5e37175f3bebd45ab1014e5b',1,'MR::MeshBuilder::Triangle::f()']]],
-  ['face_1',['Face',['../structMR_1_1OneMeshIntersection.html#aa8be4cdd05697b725ee7e1ae05833f82a94b51ce1acd528ad113406c334425167',1,'MR::OneMeshIntersection']]],
-  ['face_2',['face',['../structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53',1,'MR::PointOnFace::face()'],['../structMR_1_1MeshBuilder_1_1FaceRecord.html#a654472da903d19397efd53ad4c56b6ed',1,'MR::MeshBuilder::FaceRecord::face()']]],
+  ['face_1',['face',['../structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53',1,'MR::PointOnFace::face()'],['../structMR_1_1MeshBuilder_1_1FaceRecord.html#a654472da903d19397efd53ad4c56b6ed',1,'MR::MeshBuilder::FaceRecord::face()']]],
+  ['face_2',['Face',['../structMR_1_1OneMeshIntersection.html#aa8be4cdd05697b725ee7e1ae05833f82a94b51ce1acd528ad113406c334425167',1,'MR::OneMeshIntersection']]],
   ['facebitset_3',['FaceBitSet',['../namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d',1,'MR']]],
   ['facebmap_4',['FaceBMap',['../namespaceMR.html#a9ff8538fbd804e0f9c7aa814bbb3ed80',1,'MR']]],
   ['facecapacity_5',['faceCapacity',['../classMR_1_1MeshTopology.html#a061c9ff212341377b260f4fc4881f378',1,'MR::MeshTopology']]],
@@ -158,8 +158,8 @@ var searchData=
   ['fixspikesplugin_155',['FixSpikesPlugin',['../classMR_1_1FixSpikesPlugin.html#a2e2c20dd3f904d11e214adcd15faaf4d',1,'MR::FixSpikesPlugin::FixSpikesPlugin()'],['../classMR_1_1FixSpikesPlugin.html',1,'MR::FixSpikesPlugin']]],
   ['fixundercuts_156',['fixUndercuts',['../namespaceMR_1_1FixUndercuts.html#a54461b025162d586e9093a74f69e7d31',1,'MR::FixUndercuts::fixUndercuts(Mesh &amp;mesh, const FaceBitSet &amp;selectedArea, const Vector3f &amp;upDirection, float voxelSize=0.0f, float bottomExtension=0.0f)'],['../namespaceMR_1_1FixUndercuts.html#afe2ee8987e48ee419a3724cbbc17e691',1,'MR::FixUndercuts::fixUndercuts(Mesh &amp;mesh, const Vector3f &amp;upDirection, float voxelSize=0.0f, float bottomExtension=0.0f)']]],
   ['fixvertex_157',['fixVertex',['../classMR_1_1Laplacian.html#abde407cebf38b19019235ca25c82309e',1,'MR::Laplacian::fixVertex(VertId v, bool smooth=true)'],['../classMR_1_1Laplacian.html#a215e845242a349800e84d63d629cd76f',1,'MR::Laplacian::fixVertex(VertId v, const Vector3f &amp;fixedPos, bool smooth=true)']]],
-  ['flatshading_158',['FlatShading',['../structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aaca7d5f6324346ca4794ef06f1e943c94a7',1,'MR::MeshVisualizePropertyType']]],
-  ['flatshading_159',['flatShading',['../classMR_1_1ObjectMeshHolder.html#aadf8f8358c5a229c964aa46e1e991a52',1,'MR::ObjectMeshHolder']]],
+  ['flatshading_158',['flatShading',['../classMR_1_1ObjectMeshHolder.html#aadf8f8358c5a229c964aa46e1e991a52',1,'MR::ObjectMeshHolder']]],
+  ['flatshading_159',['FlatShading',['../structMR_1_1MeshVisualizePropertyType.html#a9ec0cd66d9cf24cabb246bb56cd42aaca7d5f6324346ca4794ef06f1e943c94a7',1,'MR::MeshVisualizePropertyType']]],
   ['flatshading_5f_160',['flatShading_',['../classMR_1_1ObjectMeshHolder.html#a24fe3e12e40596c73eb4986aa7e32b75',1,'MR::ObjectMeshHolder']]],
   ['flip_161',['flip',['../classMR_1_1TaggedBitSet.html#afc2b41f1ab59e3ba965e9ab8da10ccff',1,'MR::TaggedBitSet::flip(IndexType n, size_type len)'],['../classMR_1_1TaggedBitSet.html#a8a67c4f0fe19bf562eb96dc72db1fbe1',1,'MR::TaggedBitSet::flip(IndexType n)'],['../classMR_1_1TaggedBitSet.html#a53b449a12de4ac9ee78a0d7f030a31c6',1,'MR::TaggedBitSet::flip()'],['../classMR_1_1MeshTopology.html#acb037b0d20b8897728886d4405e62252',1,'MR::MeshTopology::flip(VertBitSet &amp;vs) const'],['../classMR_1_1MeshTopology.html#ae796d1297cfc530ad544c5ced51b82fd',1,'MR::MeshTopology::flip(FaceBitSet &amp;fs) const'],['../classMR_1_1PolylineTopology.html#a712f0d64d5d5c5700ab29936be4bf517',1,'MR::PolylineTopology::flip()']]],
   ['flipedge_162',['flipEdge',['../classMR_1_1MeshTopology.html#a3feb7377bb8fa3011bf24ee10f5d4ba4',1,'MR::MeshTopology']]],
@@ -234,10 +234,9 @@ var searchData=
   ['fromtrianglesduplicatingnonmanifoldvertices_231',['fromTrianglesDuplicatingNonManifoldVertices',['../structMR_1_1Mesh.html#a5c3189b1e26154d13fa969a44545916c',1,'MR::Mesh::fromTrianglesDuplicatingNonManifoldVertices()'],['../namespaceMR_1_1MeshBuilder.html#aa308a697fa44ab178932733fdab79f16',1,'MR::MeshBuilder::fromTrianglesDuplicatingNonManifoldVertices()']]],
   ['fromvdb_232',['fromVdb',['../group__VoxelsLoadGroup.html#ga178b35fdc0cd832052415755bf7bfdea',1,'MR::VoxelsLoad']]],
   ['fromvertextriples_233',['fromVertexTriples',['../namespaceMR_1_1MeshBuilder.html#a1b3503d2d9d217c518c9004116f00b07',1,'MR::MeshBuilder']]],
-  ['front_234',['front',['../classMR_1_1Vector.html#a19509cb3f6dbf95c9f90c51a0b1c5a3c',1,'MR::Vector']]],
-  ['front_235',['Front',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca5835bab1ade0060909e31a06af2e2cde',1,'MR::SetViewPresetMenuItem']]],
-  ['front_236',['front',['../classMR_1_1Vector.html#af6959f781909eba002ffffbc6fe37c1f',1,'MR::Vector']]],
-  ['fullscreen_237',['fullscreen',['../structMR_1_1Viewer_1_1LaunchParams.html#ae68c3108b917b700abfed68226df4941',1,'MR::Viewer::LaunchParams']]],
-  ['functions_238',['functions',['../structMR_1_1PythonExport_1_1ModuleData.html#ac4d6da8b7775421f33e87e0a6dff3c1d',1,'MR::PythonExport::ModuleData::functions()'],['../classMR_1_1PythonExport.html#a8cfca7aa55bd847bc13f0e46985d51cc',1,'MR::PythonExport::functions()']]],
-  ['furthestbasisvector_239',['furthestBasisVector',['../structMR_1_1Vector2.html#a121879d96138102e1471613ca1ac2815',1,'MR::Vector2::furthestBasisVector()'],['../structMR_1_1Vector3.html#aef52fe557a6a536a11a3fbfcd18eaf16',1,'MR::Vector3::furthestBasisVector()']]]
+  ['front_234',['Front',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca5835bab1ade0060909e31a06af2e2cde',1,'MR::SetViewPresetMenuItem']]],
+  ['front_235',['front',['../classMR_1_1Vector.html#af6959f781909eba002ffffbc6fe37c1f',1,'MR::Vector::front() const'],['../classMR_1_1Vector.html#a19509cb3f6dbf95c9f90c51a0b1c5a3c',1,'MR::Vector::front()']]],
+  ['fullscreen_236',['fullscreen',['../structMR_1_1Viewer_1_1LaunchParams.html#ae68c3108b917b700abfed68226df4941',1,'MR::Viewer::LaunchParams']]],
+  ['functions_237',['functions',['../structMR_1_1PythonExport_1_1ModuleData.html#ac4d6da8b7775421f33e87e0a6dff3c1d',1,'MR::PythonExport::ModuleData::functions()'],['../classMR_1_1PythonExport.html#a8cfca7aa55bd847bc13f0e46985d51cc',1,'MR::PythonExport::functions()']]],
+  ['furthestbasisvector_238',['furthestBasisVector',['../structMR_1_1Vector2.html#a121879d96138102e1471613ca1ac2815',1,'MR::Vector2::furthestBasisVector()'],['../structMR_1_1Vector3.html#aef52fe557a6a536a11a3fbfcd18eaf16',1,'MR::Vector3::furthestBasisVector()']]]
 ];

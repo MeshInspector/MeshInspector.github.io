@@ -18,11 +18,12 @@ var searchData=
   ['line_5fwidth_15',['line_width',['../classMR_1_1Viewport.html#a076349a48c4ce15770d714789adf024f',1,'MR::Viewport']]],
   ['lines_16',['lines',['../structMR_1_1ViewportLinesWithColors.html#abf826cb45cee8138394957baf185c4cc',1,'MR::ViewportLinesWithColors']]],
   ['lines_5fdirty_17',['lines_dirty',['../classMR_1_1ViewportGL.html#a1b2d6651a304c59c74052fd1d65806a9',1,'MR::ViewportGL']]],
-  ['linescolormap_5f_18',['linesColorMap_',['../classMR_1_1ObjectLinesHolder.html#aac6998dc0337733d65bcbfbbb069b307',1,'MR::ObjectLinesHolder']]],
-  ['lineszoffset_19',['linesZoffset',['../classMR_1_1Viewport.html#a2346ac90a64608a1e7b61a66ce790e47',1,'MR::Viewport']]],
-  ['linewidth_5f_20',['lineWidth_',['../classMR_1_1ObjectLinesHolder.html#ab981ac159b7e944aef46d972503003e7',1,'MR::ObjectLinesHolder']]],
-  ['listcache_5f_21',['listCache_',['../classMR_1_1ShortcutManager.html#adf3fea364a499a2b41b73fb7fa94b301',1,'MR::ShortcutManager']]],
-  ['loader_22',['loader',['../structMR_1_1MeshLoad_1_1NamedMeshLoader.html#a6fc94fe5c725de4855afa6f87142be12',1,'MR::MeshLoad::NamedMeshLoader']]],
-  ['locked_5f_23',['locked_',['../classMR_1_1Object.html#a958714fb7d616e608cb16223e052052b',1,'MR::Object']]],
-  ['loggerhandle_24',['loggerHandle',['../structMR_1_1ThreadRootTimeRecord.html#aeda7fbd28acbffe32fb39f0fd9098965',1,'MR::ThreadRootTimeRecord']]]
+  ['lineschangedsignal_18',['linesChangedSignal',['../classMR_1_1ObjectLines.html#aa84cc622ce61b383e6065cf2a3ebf3ac',1,'MR::ObjectLines']]],
+  ['linescolormap_5f_19',['linesColorMap_',['../classMR_1_1ObjectLinesHolder.html#aac6998dc0337733d65bcbfbbb069b307',1,'MR::ObjectLinesHolder']]],
+  ['lineszoffset_20',['linesZoffset',['../classMR_1_1Viewport.html#a2346ac90a64608a1e7b61a66ce790e47',1,'MR::Viewport']]],
+  ['linewidth_5f_21',['lineWidth_',['../classMR_1_1ObjectLinesHolder.html#ab981ac159b7e944aef46d972503003e7',1,'MR::ObjectLinesHolder']]],
+  ['listcache_5f_22',['listCache_',['../classMR_1_1ShortcutManager.html#adf3fea364a499a2b41b73fb7fa94b301',1,'MR::ShortcutManager']]],
+  ['loader_23',['loader',['../structMR_1_1MeshLoad_1_1NamedMeshLoader.html#a6fc94fe5c725de4855afa6f87142be12',1,'MR::MeshLoad::NamedMeshLoader']]],
+  ['locked_5f_24',['locked_',['../classMR_1_1Object.html#a958714fb7d616e608cb16223e052052b',1,'MR::Object']]],
+  ['loggerhandle_25',['loggerHandle',['../structMR_1_1ThreadRootTimeRecord.html#aeda7fbd28acbffe32fb39f0fd9098965',1,'MR::ThreadRootTimeRecord']]]
 ];

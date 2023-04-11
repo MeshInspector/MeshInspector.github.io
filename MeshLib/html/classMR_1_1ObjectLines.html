@@ -98,8 +98,10 @@ $(document).ready(function(){initNavTree('classMR_1_1ObjectLines.html',''); init
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classMR_1_1ObjectLines-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::ObjectLines Class Reference<div class="ingroups"><a class="el" href="group__DataModelGroup.html">Data Model</a></div></div></div>
@@ -122,6 +124,16 @@ $(document).ready(function(){initNavTree('classMR_1_1ObjectLines.html',''); init
   </map>
 </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a7cf0afaa9c64dd9cf89eb07738078b11"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectLines.html#a7cf0afaa9c64dd9cf89eb07738078b11">LinesChangedSignal</a> = boost::signals2::signal&lt; void(uint32_t mask)&gt;</td></tr>
+<tr class="memdesc:a7cf0afaa9c64dd9cf89eb07738078b11"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about lines changing, triggered in setDirtyFlag  <br /></td></tr>
+<tr class="separator:a7cf0afaa9c64dd9cf89eb07738078b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classMR_1_1Object"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
+<tr class="memitem:a881447c499a3df3c3718efd430c0637c inherit pub_types_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c">XfChangedSignal</a> = boost::signals2::signal&lt; void() &gt;</td></tr>
+<tr class="memdesc:a881447c499a3df3c3718efd430c0637c inherit pub_types_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about xf changing, triggered in setXf and setWorldXf, it is called for children too  <br /></td></tr>
+<tr class="separator:a881447c499a3df3c3718efd430c0637c inherit pub_types_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a47a26f174a8e83d1f431c49792932ec9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectLines.html#a47a26f174a8e83d1f431c49792932ec9">ObjectLines</a> ()=default</td></tr>
@@ -542,6 +554,14 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4fcb6d60f1a306cb2d13c878cd83fa63 inherit pub_static_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a4fcb6d60f1a306cb2d13c878cd83fa63">TypeName</a> () noexcept</td></tr>
 <tr class="separator:a4fcb6d60f1a306cb2d13c878cd83fa63 inherit pub_static_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aa84cc622ce61b383e6065cf2a3ebf3ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ObjectLines.html#a7cf0afaa9c64dd9cf89eb07738078b11">LinesChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectLines.html#aa84cc622ce61b383e6065cf2a3ebf3ac">linesChangedSignal</a></td></tr>
+<tr class="separator:aa84cc622ce61b383e6065cf2a3ebf3ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_classMR_1_1Object"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
+<tr class="memitem:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c">XfChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964">worldXfChangedSignal</a></td></tr>
+<tr class="separator:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a76283134defbe29ceb9bd6a1ab0c62ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectLines.html#a76283134defbe29ceb9bd6a1ab0c62ba">ObjectLines</a> (const <a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a> &amp;other)</td></tr>
@@ -549,6 +569,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a527fce3c91b8dc02284dab71a95d2ea7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectLines.html#a527fce3c91b8dc02284dab71a95d2ea7">swapBase_</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;other) override</td></tr>
 <tr class="memdesc:a527fce3c91b8dc02284dab71a95d2ea7"><td class="mdescLeft">&#160;</td><td class="mdescRight">swaps this object with other  <br /></td></tr>
 <tr class="separator:a527fce3c91b8dc02284dab71a95d2ea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a299d066dfb17e665e3a75b405162aee3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectLines.html#a299d066dfb17e665e3a75b405162aee3">swapSignals_</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;other) override</td></tr>
+<tr class="separator:a299d066dfb17e665e3a75b405162aee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada9a662dc02f094a109afa99afda0e43"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectLines.html#ada9a662dc02f094a109afa99afda0e43">serializeFields_</a> (Json::Value &amp;root) const override</td></tr>
 <tr class="separator:ada9a662dc02f094a109afa99afda0e43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classMR_1_1ObjectLinesHolder"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classMR_1_1ObjectLinesHolder')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classMR_1_1ObjectLinesHolder.html">MR::ObjectLinesHolder</a></td></tr>
@@ -607,13 +629,6 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_types_classMR_1_1Object"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
-<tr class="memitem:a881447c499a3df3c3718efd430c0637c inherit pub_types_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c">XfChangedSignal</a> = boost::signals2::signal&lt; void() &gt;</td></tr>
-<tr class="memdesc:a881447c499a3df3c3718efd430c0637c inherit pub_types_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about xf changing, triggered in setXf and setWorldXf, it is called for children too  <br /></td></tr>
-<tr class="separator:a881447c499a3df3c3718efd430c0637c inherit pub_types_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_attribs_classMR_1_1Object"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
-<tr class="memitem:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c">XfChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964">worldXfChangedSignal</a></td></tr>
-<tr class="separator:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classMR_1_1ObjectLinesHolder"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classMR_1_1ObjectLinesHolder')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1ObjectLinesHolder.html">MR::ObjectLinesHolder</a></td></tr>
 <tr class="memitem:ac4657e92207e28ae97a59ce816f15f2e inherit pro_attribs_classMR_1_1ObjectLinesHolder"><td class="memItemLeft" align="right" valign="top">std::optional&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectLinesHolder.html#ac4657e92207e28ae97a59ce816f15f2e">numComponents_</a></td></tr>
 <tr class="separator:ac4657e92207e28ae97a59ce816f15f2e inherit pro_attribs_classMR_1_1ObjectLinesHolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -709,7 +724,24 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This object type has not visual representation, just holder for lines in scene </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a7cf0afaa9c64dd9cf89eb07738078b11" name="a7cf0afaa9c64dd9cf89eb07738078b11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cf0afaa9c64dd9cf89eb07738078b11">&#9670;&#160;</a></span>LinesChangedSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classMR_1_1ObjectLines.html#a7cf0afaa9c64dd9cf89eb07738078b11">MR::ObjectLines::LinesChangedSignal</a> =  boost::signals2::signal&lt;void( uint32_t mask )&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>signal about lines changing, triggered in setDirtyFlag </p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a47a26f174a8e83d1f431c49792932ec9" name="a47a26f174a8e83d1f431c49792932ec9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a47a26f174a8e83d1f431c49792932ec9">&#9670;&#160;</a></span>ObjectLines() <span class="overload">[1/4]</span></h2>
 
@@ -1104,6 +1136,35 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a299d066dfb17e665e3a75b405162aee3" name="a299d066dfb17e665e3a75b405162aee3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a299d066dfb17e665e3a75b405162aee3">&#9670;&#160;</a></span>swapSignals_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectLines::swapSignals_ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Object.html">Object</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>swaps signals, used in <code>swap</code> function to return back signals after <code>swapBase_</code> pls call Parent::swapSignals_ first when overriding this function </p>
+
+<p>Reimplemented from <a class="el" href="classMR_1_1Object.html#a82d2749fefb75e38b62dd69a52307680">MR::Object</a>.</p>
+
+</div>
+</div>
 <a id="a069fc0b9496c10738c79ed84e458c729" name="a069fc0b9496c10738c79ed84e458c729"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a069fc0b9496c10738c79ed84e458c729">&#9670;&#160;</a></span>typeName()</h2>
 
@@ -1205,6 +1266,21 @@ Additional Inherited Members</h2></td></tr>
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa84cc622ce61b383e6065cf2a3ebf3ac" name="aa84cc622ce61b383e6065cf2a3ebf3ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa84cc622ce61b383e6065cf2a3ebf3ac">&#9670;&#160;</a></span>linesChangedSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1ObjectLines.html#a7cf0afaa9c64dd9cf89eb07738078b11">LinesChangedSignal</a> MR::ObjectLines::linesChangedSignal</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

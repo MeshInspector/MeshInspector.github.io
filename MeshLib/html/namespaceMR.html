@@ -2222,6 +2222,10 @@ Functions</h2></td></tr>
 <tr class="memitem:add2e95f21c4e812705659326b48763fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#abc0c7c90dd12e914016d628ab674d1ae">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#add2e95f21c4e812705659326b48763fe">fillContours2D</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; &amp;holeRepresentativeEdges)</td></tr>
 <tr class="memdesc:add2e95f21c4e812705659326b48763fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">fill holes with border in same plane (i.e. after cut by plane)  <br /></td></tr>
 <tr class="separator:add2e95f21c4e812705659326b48763fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af020d4cf8cd8147487627fe82c03a9a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af020d4cf8cd8147487627fe82c03a9a1">getXfFromOxyPlane</a> (const <a class="el" href="namespaceMR.html#a2a2594ddaa82363e43334fa708f48be0">Contours3f</a> &amp;contours)</td></tr>
+<tr class="separator:af020d4cf8cd8147487627fe82c03a9a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4a1dbdb9aedd7fadc599adb576b16da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af4a1dbdb9aedd7fadc599adb576b16da">getXfFromOxyPlane</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &gt; &amp;paths)</td></tr>
+<tr class="separator:af4a1dbdb9aedd7fadc599adb576b16da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga246979333d5c270926967fe27cf98e61"><td class="memItemLeft" align="right" valign="top">openvdb::FloatGrid &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicStructuresGroup.html#ga246979333d5c270926967fe27cf98e61">ovdb</a> (<a class="el" href="structMR_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a> &amp;v)</td></tr>
 <tr class="separator:ga246979333d5c270926967fe27cf98e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7605330c27d603a37009cbe6ed253cf9"><td class="memItemLeft" align="right" valign="top">const openvdb::FloatGrid &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicStructuresGroup.html#ga7605330c27d603a37009cbe6ed253cf9">ovdb</a> (const <a class="el" href="structMR_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a> &amp;v)</td></tr>
@@ -10630,6 +10634,53 @@ template&lt;typename T , typename I &gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af020d4cf8cd8147487627fe82c03a9a1" name="af020d4cf8cd8147487627fe82c03a9a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af020d4cf8cd8147487627fe82c03a9a1">&#9670;&#160;</a></span>getXfFromOxyPlane() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> MR::getXfFromOxyPlane </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a2a2594ddaa82363e43334fa708f48be0">Contours3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>contours</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes the transformation that maps O into center mass of contours' points OXY into best plane containing the points </p>
+
+</div>
+</div>
+<a id="af4a1dbdb9aedd7fadc599adb576b16da" name="af4a1dbdb9aedd7fadc599adb576b16da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4a1dbdb9aedd7fadc599adb576b16da">&#9670;&#160;</a></span>getXfFromOxyPlane() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> MR::getXfFromOxyPlane </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>paths</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">

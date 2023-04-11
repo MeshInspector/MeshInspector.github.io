@@ -1364,6 +1364,8 @@ var namespaceMR =
     [ "getViewerInstance", "namespaceMR.html#a3e7c908172571071d6796d054d25a4f4", null ],
     [ "getVolumeFragmentShader", "namespaceMR.html#a8abf3c8833fd7f0b7ea0e91be2623585", null ],
     [ "getVolumePickerFragmentShader", "namespaceMR.html#a7cd770884ee9036ce3c6e163a719edfa", null ],
+    [ "getXfFromOxyPlane", "namespaceMR.html#af020d4cf8cd8147487627fe82c03a9a1", null ],
+    [ "getXfFromOxyPlane", "namespaceMR.html#af4a1dbdb9aedd7fadc599adb576b16da", null ],
     [ "gridToMesh", "namespaceMR.html#a762fb71d630a644ef843b1677768131c", null ],
     [ "gridToMesh", "namespaceMR.html#aa5b67500b150bd2773afff32ef0b6c89", null ],
     [ "gridToMesh", "namespaceMR.html#a4a55548734c2d8fc044c50b7584b5ab1", null ],

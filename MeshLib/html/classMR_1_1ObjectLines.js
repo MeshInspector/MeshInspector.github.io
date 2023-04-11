@@ -1,5 +1,6 @@
 var classMR_1_1ObjectLines =
 [
+    [ "LinesChangedSignal", "classMR_1_1ObjectLines.html#a7cf0afaa9c64dd9cf89eb07738078b11", null ],
     [ "ObjectLines", "classMR_1_1ObjectLines.html#a47a26f174a8e83d1f431c49792932ec9", null ],
     [ "ObjectLines", "classMR_1_1ObjectLines.html#ad89a3b7043e91bfde384c2544ada18d4", null ],
     [ "~ObjectLines", "classMR_1_1ObjectLines.html#ab03f3b5f8b4cce4f917ebb3735d3504f", null ],
@@ -14,7 +15,9 @@ var classMR_1_1ObjectLines =
     [ "setPolyline", "classMR_1_1ObjectLines.html#a5697d7333d8c54ee1fa7cb0d0db16c79", null ],
     [ "shallowClone", "classMR_1_1ObjectLines.html#aff95536683320ad3bdc54a759afe5e7b", null ],
     [ "swapBase_", "classMR_1_1ObjectLines.html#a527fce3c91b8dc02284dab71a95d2ea7", null ],
+    [ "swapSignals_", "classMR_1_1ObjectLines.html#a299d066dfb17e665e3a75b405162aee3", null ],
     [ "typeName", "classMR_1_1ObjectLines.html#a069fc0b9496c10738c79ed84e458c729", null ],
     [ "updatePolyline", "classMR_1_1ObjectLines.html#a14ea493e0ce2d1ce42a9385fa43abfc1", null ],
-    [ "varPolyline", "classMR_1_1ObjectLines.html#a61e5d8f8d6bbc2fcc374ac9e856431ac", null ]
+    [ "varPolyline", "classMR_1_1ObjectLines.html#a61e5d8f8d6bbc2fcc374ac9e856431ac", null ],
+    [ "linesChangedSignal", "classMR_1_1ObjectLines.html#aa84cc622ce61b383e6065cf2a3ebf3ac", null ]
 ];
