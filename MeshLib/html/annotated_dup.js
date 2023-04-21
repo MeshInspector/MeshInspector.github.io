@@ -1,6 +1,9 @@
 var annotated_dup =
 [
     [ "MR", "namespaceMR.html", [
+      [ "Cuda", "namespaceMR_1_1Cuda.html", [
+        [ "PointsToMeshProjector", "classMR_1_1Cuda_1_1PointsToMeshProjector.html", "classMR_1_1Cuda_1_1PointsToMeshProjector" ]
+      ] ],
       [ "FixUndercuts", "namespaceMR_1_1FixUndercuts.html", [
         [ "DistMapImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" ],
         [ "ImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters" ]
@@ -51,6 +54,7 @@ var annotated_dup =
       [ "AddCustomThemePlugin", "classMR_1_1AddCustomThemePlugin.html", "classMR_1_1AddCustomThemePlugin" ],
       [ "AffineXf", "structMR_1_1AffineXf.html", "structMR_1_1AffineXf" ],
       [ "AlphaSortGL", "classMR_1_1AlphaSortGL.html", "classMR_1_1AlphaSortGL" ],
+      [ "AsyncRequest", "classMR_1_1AsyncRequest.html", "classMR_1_1AsyncRequest" ],
       [ "AsyncTimer", "classMR_1_1AsyncTimer.html", "classMR_1_1AsyncTimer" ],
       [ "BaseOffsetParameters", "structMR_1_1BaseOffsetParameters.html", "structMR_1_1BaseOffsetParameters" ],
       [ "BaseRenderParams", "structMR_1_1BaseRenderParams.html", "structMR_1_1BaseRenderParams" ],
@@ -166,6 +170,7 @@ var annotated_dup =
       [ "IntersectionPrecomputes2", "structMR_1_1IntersectionPrecomputes2.html", "structMR_1_1IntersectionPrecomputes2" ],
       [ "IOFilter", "structMR_1_1IOFilter.html", "structMR_1_1IOFilter" ],
       [ "IPluginCloseCheck", "classMR_1_1IPluginCloseCheck.html", "classMR_1_1IPluginCloseCheck" ],
+      [ "IPointsToMeshProjector", "classMR_1_1IPointsToMeshProjector.html", "classMR_1_1IPointsToMeshProjector" ],
       [ "IRenderObject", "classMR_1_1IRenderObject.html", "classMR_1_1IRenderObject" ],
       [ "ISceneSelectionChange", "classMR_1_1ISceneSelectionChange.html", "classMR_1_1ISceneSelectionChange" ],
       [ "ISceneStateCheck", "classMR_1_1ISceneStateCheck.html", "classMR_1_1ISceneStateCheck" ],
@@ -271,6 +276,7 @@ var annotated_dup =
       [ "PointCloudRelaxParams", "structMR_1_1PointCloudRelaxParams.html", "structMR_1_1PointCloudRelaxParams" ],
       [ "PointObject", "classMR_1_1PointObject.html", "classMR_1_1PointObject" ],
       [ "PointOnFace", "structMR_1_1PointOnFace.html", "structMR_1_1PointOnFace" ],
+      [ "PointsToMeshProjector", "classMR_1_1PointsToMeshProjector.html", "classMR_1_1PointsToMeshProjector" ],
       [ "PointsVisualizePropertyType", "structMR_1_1PointsVisualizePropertyType.html", "structMR_1_1PointsVisualizePropertyType" ],
       [ "PointToPlaneAligningTransform", "classMR_1_1PointToPlaneAligningTransform.html", "classMR_1_1PointToPlaneAligningTransform" ],
       [ "PointToPointAligningTransform", "classMR_1_1PointToPointAligningTransform.html", "classMR_1_1PointToPointAligningTransform" ],

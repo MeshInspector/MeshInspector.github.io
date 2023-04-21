@@ -98,11 +98,18 @@ $(document).ready(function(){initNavTree('namespaceMR_1_1Cuda.html',''); initRes
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MR::Cuda Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Cuda_1_1PointsToMeshProjector.html">PointsToMeshProjector</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the closest point on mesh to each of given points on GPU. It caches data that necessary for computing.  <a href="classMR_1_1Cuda_1_1PointsToMeshProjector.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ac2aac2d47fad78d92edaf5751790f90f"><td class="memItemLeft" align="right" valign="top">MRCUDA_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Cuda.html#ac2aac2d47fad78d92edaf5751790f90f">isCudaAvailable</a> ()</td></tr>
@@ -112,9 +119,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ad257bedcdc1831b1df160989c3047f7d"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Cuda.html#ad257bedcdc1831b1df160989c3047f7d">distanceMapFromContours</a> (const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">MR::Polyline2</a> &amp;polyline, const <a class="el" href="structMR_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a> &amp;params)</td></tr>
 <tr class="memdesc:ad257bedcdc1831b1df160989c3047f7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes distance of 2d contours according to <a class="el" href="structMR_1_1ContourToDistanceMapParams.html" title="Structure with parameters to generate DistanceMap by Contours.">ContourToDistanceMapParams</a> (works correctly only when withSign==false)  <br /></td></tr>
 <tr class="separator:ad257bedcdc1831b1df160989c3047f7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67e404104ea7e768a7b71978103ded94"><td class="memItemLeft" align="right" valign="top">MRCUDA_API std::vector&lt; <a class="el" href="structMR_1_1MeshProjectionResult.html">MR::MeshProjectionResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Cuda.html#a67e404104ea7e768a7b71978103ded94">findProjections</a> (const std::vector&lt; <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &gt; &amp;points, const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, float upDistLimitSq=FLT_MAX, float loDistLimitSq=0)</td></tr>
-<tr class="memdesc:a67e404104ea7e768a7b71978103ded94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes distance of 2d contours according to <a class="el" href="structMR_1_1ContourToDistanceMapParams.html" title="Structure with parameters to generate DistanceMap by Contours.">ContourToDistanceMapParams</a> (works correctly only when withSign==false)  <br /></td></tr>
-<tr class="separator:a67e404104ea7e768a7b71978103ded94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a049377206c74eb42b8d99eb0f9475876"><td class="memItemLeft" align="right" valign="top">MRCUDA_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Cuda.html#a049377206c74eb42b8d99eb0f9475876">negatePicture</a> (<a class="el" href="structMR_1_1Image.html">MR::Image</a> &amp;image)</td></tr>
 <tr class="separator:a049377206c74eb42b8d99eb0f9475876"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -136,48 +140,6 @@ Functions</h2></td></tr>
           <td></td>
           <td class="paramtype">const <a class="el" href="structMR_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a> &amp;&#160;</td>
           <td class="paramname"><em>params</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Computes distance of 2d contours according to <a class="el" href="structMR_1_1ContourToDistanceMapParams.html" title="Structure with parameters to generate DistanceMap by Contours.">ContourToDistanceMapParams</a> (works correctly only when withSign==false) </p>
-
-</div>
-</div>
-<a id="a67e404104ea7e768a7b71978103ded94" name="a67e404104ea7e768a7b71978103ded94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67e404104ea7e768a7b71978103ded94">&#9670;&#160;</a></span>findProjections()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRCUDA_API std::vector&lt; <a class="el" href="structMR_1_1MeshProjectionResult.html">MR::MeshProjectionResult</a> &gt; MR::Cuda::findProjections </td>
-          <td>(</td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>points</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;&#160;</td>
-          <td class="paramname"><em>mesh</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>upDistLimitSq</em> = <code>FLT_MAX</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>loDistLimitSq</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

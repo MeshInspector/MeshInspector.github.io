@@ -121,6 +121,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:gaf972ceaa48b72a552781412be0e49eb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1e9ca6412f80a5ce4751fb16cad4ce2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a9ccb1b94958c98c5b5971b94fbfdb761">VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga1e9ca6412f80a5ce4751fb16cad4ce2c">toVoxelId</a> (const <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &amp;pos) const</td></tr>
 <tr class="separator:ga1e9ca6412f80a5ce4751fb16cad4ce2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6e3749e3a300fa4eda0a5dc1eb875a4a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga6e3749e3a300fa4eda0a5dc1eb875a4a">isBdVoxel</a> (const <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &amp;pos) const</td></tr>
+<tr class="memdesc:ga6e3749e3a300fa4eda0a5dc1eb875a4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if this voxel is on the boundary of the volume  <br /></td></tr>
+<tr class="separator:ga6e3749e3a300fa4eda0a5dc1eb875a4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad83baf7155c4c4be0ffa42c4de418e6b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#gad83baf7155c4c4be0ffa42c4de418e6b">areNeigbors</a> (<a class="el" href="namespaceMR.html#a9ccb1b94958c98c5b5971b94fbfdb761">VoxelId</a> v0, <a class="el" href="namespaceMR.html#a9ccb1b94958c98c5b5971b94fbfdb761">VoxelId</a> v1) const</td></tr>
 <tr class="memdesc:gad83baf7155c4c4be0ffa42c4de418e6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if v1 is within at most 6 neighbors of v0  <br /></td></tr>
 <tr class="separator:gad83baf7155c4c4be0ffa42c4de418e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,6 +134,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ga70480624af713d6c33abe8a12d5fa6ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga30a6db6800770e3e6795a1cbf7a92eb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9ccb1b94958c98c5b5971b94fbfdb761">VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga30a6db6800770e3e6795a1cbf7a92eb5">getNeighbor</a> (<a class="el" href="namespaceMR.html#a9ccb1b94958c98c5b5971b94fbfdb761">VoxelId</a> v, const <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &amp;pos, <a class="el" href="group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a> toNei) const</td></tr>
 <tr class="separator:ga30a6db6800770e3e6795a1cbf7a92eb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9278508392604ed5b02779e63a573555"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a9ccb1b94958c98c5b5971b94fbfdb761">VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga9278508392604ed5b02779e63a573555">getExistingNeighbor</a> (<a class="el" href="namespaceMR.html#a9ccb1b94958c98c5b5971b94fbfdb761">VoxelId</a> v, <a class="el" href="group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a> toNei) const</td></tr>
+<tr class="memdesc:ga9278508392604ed5b02779e63a573555"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id of v's neighbor specified by the edge, which is known to exist (so skipping a lot of checks)  <br /></td></tr>
+<tr class="separator:ga9278508392604ed5b02779e63a573555"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacc3f28e9566b6b9fb9fe666e09034075"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a9ccb1b94958c98c5b5971b94fbfdb761">VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#gacc3f28e9566b6b9fb9fe666e09034075">getNeighbor</a> (<a class="el" href="namespaceMR.html#a9ccb1b94958c98c5b5971b94fbfdb761">VoxelId</a> v, const <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &amp;pos, bool bdPos, <a class="el" href="group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a> toNei) const</td></tr>
+<tr class="separator:gacc3f28e9566b6b9fb9fe666e09034075"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -142,6 +150,8 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ga8e13ff7ca749a229d273701ff2b833c0"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga8e13ff7ca749a229d273701ff2b833c0">size_</a> = 0</td></tr>
 <tr class="memdesc:ga8e13ff7ca749a229d273701ff2b833c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">= dims_.x * dims_.y * dims_.z  <br /></td></tr>
 <tr class="separator:ga8e13ff7ca749a229d273701ff2b833c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa969e84361224c40ebdaea70a2942ea6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#gaa969e84361224c40ebdaea70a2942ea6">neiInc_</a> [OutEdgeCount] = {}</td></tr>
+<tr class="separator:gaa969e84361224c40ebdaea70a2942ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="MRVolumeIndexer_8h_source.html">MRVolumeIndexer.h</a></li>

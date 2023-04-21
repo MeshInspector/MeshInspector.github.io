@@ -140,6 +140,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad5f8fa011c9333c1cf67743993b91d5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#ad5f8fa011c9333c1cf67743993b91d5c">computeNotLoneUndirectedEdges</a> () const</td></tr>
 <tr class="memdesc:ad5f8fa011c9333c1cf67743993b91d5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the number of not-lone (valid) undirected edges  <br /></td></tr>
 <tr class="separator:ad5f8fa011c9333c1cf67743993b91d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9046b9659efa4318343c11980fd65336"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a9046b9659efa4318343c11980fd65336">findNotLoneUndirectedEdges</a> () const</td></tr>
+<tr class="memdesc:a9046b9659efa4318343c11980fd65336"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds and returns all not-lone (valid) undirected edges  <br /></td></tr>
+<tr class="separator:a9046b9659efa4318343c11980fd65336"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f51a101a9532359e94df8a25560980b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a9f51a101a9532359e94df8a25560980b">edgeReserve</a> (size_t newCapacity)</td></tr>
 <tr class="memdesc:a9f51a101a9532359e94df8a25560980b"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the capacity of half-edges vector  <br /></td></tr>
 <tr class="separator:a9f51a101a9532359e94df8a25560980b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,8 +207,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ace0e3be1697a60c54a5f9fe91db3a30d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#ace0e3be1697a60c54a5f9fe91db3a30d">getTriVerts</a> (<a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> f, <a class="el" href="namespaceMR.html#a9e937625238100e3e8b736126ccf5700">ThreeVertIds</a> &amp;v) const</td></tr>
 <tr class="separator:ace0e3be1697a60c54a5f9fe91db3a30d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b13b128c8398cb07fa91de5068f71d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a9e937625238100e3e8b736126ccf5700">ThreeVertIds</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a0b13b128c8398cb07fa91de5068f71d9">getAllTriVerts</a> () const</td></tr>
-<tr class="memdesc:a0b13b128c8398cb07fa91de5068f71d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all valid triangle vertices  <br /></td></tr>
+<tr class="memdesc:a0b13b128c8398cb07fa91de5068f71d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns three vertex ids for valid triangles, invalid triangles are skipped  <br /></td></tr>
 <tr class="separator:a0b13b128c8398cb07fa91de5068f71d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad1332dd8dcb5313669c153e84c812be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#abc818339a903cbfd1435e507f3085075">Triangulation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#aad1332dd8dcb5313669c153e84c812be">getTriangulation</a> () const</td></tr>
+<tr class="separator:aad1332dd8dcb5313669c153e84c812be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17820a4dfe0d723e13b05547d2c01104"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a17820a4dfe0d723e13b05547d2c01104">getLeftTriVerts</a> (<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> a, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &amp;v0, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &amp;v1, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &amp;v2) const</td></tr>
 <tr class="separator:a17820a4dfe0d723e13b05547d2c01104"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fccfe1622677fefb07960613f09f20d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a1fccfe1622677fefb07960613f09f20d">getLeftTriVerts</a> (<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> a, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>(&amp;v)[3]) const</td></tr>
@@ -1517,6 +1522,25 @@ template&lt;typename I &gt; </div>
 
 </div>
 </div>
+<a id="a9046b9659efa4318343c11980fd65336" name="a9046b9659efa4318343c11980fd65336"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9046b9659efa4318343c11980fd65336">&#9670;&#160;</a></span>findNotLoneUndirectedEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> MR::MeshTopology::findNotLoneUndirectedEdges </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds and returns all not-lone (valid) undirected edges </p>
+
+</div>
+</div>
 <a id="a721112966697a07587b90d97441acc09" name="a721112966697a07587b90d97441acc09"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a721112966697a07587b90d97441acc09">&#9670;&#160;</a></span>findNumHoles()</h2>
 
@@ -1876,7 +1900,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>returns all valid triangle vertices </p>
+<p>returns three vertex ids for valid triangles, invalid triangles are skipped </p>
 
 </div>
 </div>
@@ -2149,6 +2173,24 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>returns all vertices incident to path edges </p>
+
+</div>
+</div>
+<a id="aad1332dd8dcb5313669c153e84c812be" name="aad1332dd8dcb5313669c153e84c812be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad1332dd8dcb5313669c153e84c812be">&#9670;&#160;</a></span>getTriangulation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#abc818339a903cbfd1435e507f3085075">Triangulation</a> MR::MeshTopology::getTriangulation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns three vertex ids for valid triangles (which can be accessed by FaceId), vertex ids for invalid triangles are undefined, and shall not be read </p>
 
 </div>
 </div>

@@ -10,6 +10,7 @@ var hierarchy =
     [ "MR::AffineXf< float >", "structMR_1_1AffineXf.html", null ],
     [ "MR::AlphaSortGL", "classMR_1_1AlphaSortGL.html", null ],
     [ "MR::PointToPlaneAligningTransform::Amendment", "structMR_1_1PointToPlaneAligningTransform_1_1Amendment.html", null ],
+    [ "MR::AsyncRequest", "classMR_1_1AsyncRequest.html", null ],
     [ "MR::AsyncTimer", "classMR_1_1AsyncTimer.html", null ],
     [ "spdlog::sinks::base_sink", null, [
       [ "MR::RestoringStreamsSink", "classMR_1_1RestoringStreamsSink.html", null ]
@@ -56,7 +57,7 @@ var hierarchy =
     [ "MR::MeshBuilder::BuildSettings", "structMR_1_1MeshBuilder_1_1BuildSettings.html", null ],
     [ "MR::RibbonButtonDrawer::ButtonItemWidth", "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html", null ],
     [ "Checks", null, [
-      [ "MR::SceneStateOrCheck< SceneStateExactCheck< 1, ObjectMesh >, SceneStateExactCheck< 1, ObjectLines >, SceneStateExactCheck< 1, ObjectPoints >, SceneStateExactCheck< 1, ObjectDistanceMap >, SceneStateExactCheck< 1, ObjectVoxels > >", "classMR_1_1SceneStateOrCheck.html", [
+      [ "MR::SceneStateOrCheck< SceneStateExactCheck< 1, ObjectMesh >, SceneStateExactCheck< 1, ObjectLines >, SceneStateExactCheck< 1, ObjectPoints >, SceneStateExactCheck< 1, ObjectDistanceMap >, SceneStateExactCheck< 1, ObjectVoxels, NoVisualRepresentationCheck > >", "classMR_1_1SceneStateOrCheck.html", [
         [ "MR::SaveObjectMenuItem", "classMR_1_1SaveObjectMenuItem.html", null ]
       ] ],
       [ "MR::PluginCloseOrCheck< Checks >", "classMR_1_1PluginCloseOrCheck.html", null ],
@@ -267,6 +268,10 @@ var hierarchy =
         [ "MR::StateListenerPlugin< MouseDownListener, MouseUpListener, MouseMoveListener >", "classMR_1_1StateListenerPlugin.html", null ],
         [ "MR::StateListenerPlugin< Connectables >", "classMR_1_1StateListenerPlugin.html", null ]
       ] ]
+    ] ],
+    [ "MR::IPointsToMeshProjector", "classMR_1_1IPointsToMeshProjector.html", [
+      [ "MR::Cuda::PointsToMeshProjector", "classMR_1_1Cuda_1_1PointsToMeshProjector.html", null ],
+      [ "MR::PointsToMeshProjector", "classMR_1_1PointsToMeshProjector.html", null ]
     ] ],
     [ "MR::IRenderObject", "classMR_1_1IRenderObject.html", [
       [ "MR::RenderLabelObject", "classMR_1_1RenderLabelObject.html", null ],

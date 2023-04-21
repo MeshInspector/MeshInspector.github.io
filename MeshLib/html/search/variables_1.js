@@ -32,12 +32,15 @@ var searchData=
   ['blurradius_29',['blurRadius',['../classMR_1_1ShadowsGL.html#a58e56c748c4a4f1717dca0f0ee199de9',1,'MR::ShadowsGL']]],
   ['bmap_30',['BMap',['../namespaceMR.html#a94888580c3dee1529c46303f33c6681f',1,'MR']]],
   ['border_31',['border',['../structMR_1_1TriangulationHelpers_1_1TriangulatedFan.html#aaae19578fac62dcb2e7c2457ef0cfcf6',1,'MR::TriangulationHelpers::TriangulatedFan']]],
-  ['bordercolor_32',['borderColor',['../structMR_1_1Viewport_1_1Parameters.html#a5812db13d35cbe2ad6ad5bd87c2d30eb',1,'MR::Viewport::Parameters']]],
-  ['borderscolor_5f_33',['bordersColor_',['../classMR_1_1ObjectMeshHolder.html#ab7fd1ed5927f5fc5a4c51cfa56bf2012',1,'MR::ObjectMeshHolder']]],
-  ['box_34',['box',['../structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5',1,'MR::BoxedLeaf::box()'],['../structMR_1_1AABBTreeNode.html#a5c90c7ee746d8e3f67062655f733dea0',1,'MR::AABBTreeNode::box()'],['../structMR_1_1AABBTreePoints_1_1Node.html#a2153d4fd7d12b27618511103c9080df3',1,'MR::AABBTreePoints::Node::box()']]],
-  ['btn_35',['btn',['../structMR_1_1MouseController_1_1MouseControlKey.html#a13a368ef25048dff50e694ce949484e6',1,'MR::MouseController::MouseControlKey']]],
-  ['buf_36',['buf',['../structMR_1_1BindVertexAttribArraySettings.html#a3ec552b76a650ac289114916c2714188',1,'MR::BindVertexAttribArraySettings']]],
-  ['buffer_37',['Buffer',['../namespaceMR.html#ac0e64b96206dcc7e32053b671c6b2c1b',1,'MR']]],
-  ['buildpathexponentmodifier_38',['buildPathExponentModifier',['../structMR_1_1VolumeSegmentationParameters.html#af000ea80a099a9de6d4f4f4475580b6c',1,'MR::VolumeSegmentationParameters']]],
-  ['bundiredge_39',['bUndirEdge',['../structMR_1_1UndirectedEdgeUndirectedEdge.html#a535f1290920a2d84945d8cc8989397c6',1,'MR::UndirectedEdgeUndirectedEdge']]]
+  ['borderarrayobjid_5f_32',['borderArrayObjId_',['../classMR_1_1RenderMeshObject.html#a1a9f41cc9d68f81801374e9f18c6b195',1,'MR::RenderMeshObject']]],
+  ['borderbuffer_5f_33',['borderBuffer_',['../classMR_1_1RenderMeshObject.html#a4dd4c30b4f09367586d6f0b6e520e85c',1,'MR::RenderMeshObject']]],
+  ['bordercolor_34',['borderColor',['../structMR_1_1Viewport_1_1Parameters.html#a5812db13d35cbe2ad6ad5bd87c2d30eb',1,'MR::Viewport::Parameters']]],
+  ['borderhighlightpointssize_5f_35',['borderHighlightPointsSize_',['../classMR_1_1RenderMeshObject.html#af34cba0d352a6d83f6fcfab595b6be01',1,'MR::RenderMeshObject']]],
+  ['borderscolor_5f_36',['bordersColor_',['../classMR_1_1ObjectMeshHolder.html#ab7fd1ed5927f5fc5a4c51cfa56bf2012',1,'MR::ObjectMeshHolder']]],
+  ['box_37',['box',['../structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5',1,'MR::BoxedLeaf::box()'],['../structMR_1_1AABBTreeNode.html#a5c90c7ee746d8e3f67062655f733dea0',1,'MR::AABBTreeNode::box()'],['../structMR_1_1AABBTreePoints_1_1Node.html#a2153d4fd7d12b27618511103c9080df3',1,'MR::AABBTreePoints::Node::box()']]],
+  ['btn_38',['btn',['../structMR_1_1MouseController_1_1MouseControlKey.html#a13a368ef25048dff50e694ce949484e6',1,'MR::MouseController::MouseControlKey']]],
+  ['buf_39',['buf',['../structMR_1_1BindVertexAttribArraySettings.html#a3ec552b76a650ac289114916c2714188',1,'MR::BindVertexAttribArraySettings']]],
+  ['buffer_40',['Buffer',['../namespaceMR.html#ac0e64b96206dcc7e32053b671c6b2c1b',1,'MR']]],
+  ['buildpathexponentmodifier_41',['buildPathExponentModifier',['../structMR_1_1VolumeSegmentationParameters.html#af000ea80a099a9de6d4f4f4475580b6c',1,'MR::VolumeSegmentationParameters']]],
+  ['bundiredge_42',['bUndirEdge',['../structMR_1_1UndirectedEdgeUndirectedEdge.html#a535f1290920a2d84945d8cc8989397c6',1,'MR::UndirectedEdgeUndirectedEdge']]]
 ];

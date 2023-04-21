@@ -11,5 +11,6 @@ var searchData=
   ['float32_8',['Float32',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529ba166495adc0d0f53bee6baecc577f5204',1,'MR::VoxelsLoad::RawParameters']]],
   ['float64_9',['Float64',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bad2b556d8a8f5c8ac323f51a4b82e79a0',1,'MR::VoxelsLoad::RawParameters']]],
   ['framebackground_10',['FrameBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ab7645d391763ab26ea48e51c80c3837e',1,'MR::ColorTheme']]],
-  ['front_11',['Front',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca5835bab1ade0060909e31a06af2e2cde',1,'MR::SetViewPresetMenuItem']]]
+  ['front_11',['Front',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca5835bab1ade0060909e31a06af2e2cde',1,'MR::SetViewPresetMenuItem']]],
+  ['fullmask_12',['FullMask',['../classMR_1_1ObjectTransformWidget.html#a4ab6c5281aca51196492f7ac931414c1abb34fe622d0078c9142be55f068e241c',1,'MR::ObjectTransformWidget']]]
 ];

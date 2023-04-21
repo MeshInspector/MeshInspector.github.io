@@ -101,21 +101,23 @@ $(document).ready(function(){initNavTree('MRCudaBasic_8h_source.html',''); initR
 </div><!--header-->
 <div class="contents">
 <a href="MRCudaBasic_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;exports.h&quot;</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &lt;cstddef&gt;</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>{</div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="namespaceMR_1_1Cuda.html">    7</a></span><span class="keyword">namespace </span>Cuda</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">// Returns true if Cuda is present on this GPU</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="namespaceMR_1_1Cuda.html#ac2aac2d47fad78d92edaf5751790f90f">   10</a></span>MRCUDA_API <span class="keywordtype">bool</span> <a class="code hl_function" href="namespaceMR_1_1Cuda.html#ac2aac2d47fad78d92edaf5751790f90f">isCudaAvailable</a>();</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">// Returns available GPU memory in bytes</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="namespaceMR_1_1Cuda.html#ae3d6344c4c9b5959665fdde2ddc4a838">   13</a></span>MRCUDA_API <span class="keywordtype">size_t</span> <a class="code hl_function" href="namespaceMR_1_1Cuda.html#ae3d6344c4c9b5959665fdde2ddc4a838">getCudaAvailableMemory</a>();</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>}</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;exports.h&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="namespaceMR_1_1Cuda.html">    9</a></span><span class="keyword">namespace </span>Cuda</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">// Returns true if Cuda is present on this GPU</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="namespaceMR_1_1Cuda.html#ac2aac2d47fad78d92edaf5751790f90f">   12</a></span>MRCUDA_API <span class="keywordtype">bool</span> <a class="code hl_function" href="namespaceMR_1_1Cuda.html#ac2aac2d47fad78d92edaf5751790f90f">isCudaAvailable</a>();</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">// Returns available GPU memory in bytes</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="namespaceMR_1_1Cuda.html#ae3d6344c4c9b5959665fdde2ddc4a838">   15</a></span>MRCUDA_API <span class="keywordtype">size_t</span> <a class="code hl_function" href="namespaceMR_1_1Cuda.html#ae3d6344c4c9b5959665fdde2ddc4a838">getCudaAvailableMemory</a>();</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>}</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>}</div>
 <div class="ttc" id="anamespaceMR_1_1Cuda_html_ac2aac2d47fad78d92edaf5751790f90f"><div class="ttname"><a href="namespaceMR_1_1Cuda.html#ac2aac2d47fad78d92edaf5751790f90f">MR::Cuda::isCudaAvailable</a></div><div class="ttdeci">MRCUDA_API bool isCudaAvailable()</div></div>
 <div class="ttc" id="anamespaceMR_1_1Cuda_html_ae3d6344c4c9b5959665fdde2ddc4a838"><div class="ttname"><a href="namespaceMR_1_1Cuda.html#ae3d6344c4c9b5959665fdde2ddc4a838">MR::Cuda::getCudaAvailableMemory</a></div><div class="ttdeci">MRCUDA_API size_t getCudaAvailableMemory()</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition:</b> MRCameraOrientationPlugin.h:7</div></div>

@@ -101,6 +101,7 @@ $(document).ready(function(){initNavTree('classMR_1_1ObjectTransformWidget.html'
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classMR_1_1ObjectTransformWidget-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::ObjectTransformWidget Class Reference</div></div>
 </div><!--header-->
@@ -142,6 +143,7 @@ Public Types</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="classMR_1_1ObjectTransformWidget.html#a4ab6c5281aca51196492f7ac931414c1a72ebc70f01c82ebbb2aefe1086876d52">MoveY</a> = 0x10
 , <a class="el" href="classMR_1_1ObjectTransformWidget.html#a4ab6c5281aca51196492f7ac931414c1a626165e8669c9131d34d3b4e586067a3">MoveZ</a> = 0x20
+, <a class="el" href="classMR_1_1ObjectTransformWidget.html#a4ab6c5281aca51196492f7ac931414c1abb34fe622d0078c9142be55f068e241c">FullMask</a> = 0x3f
 <br />
  }</td></tr>
 <tr class="separator:a4ab6c5281aca51196492f7ac931414c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,6 +152,8 @@ Public Types</h2></td></tr>
 , <a class="el" href="classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8ae3086e312b06e7d525b05c5fe88c3454">UniformScaling</a>
  }</td></tr>
 <tr class="separator:ae637cb1b88edaa19f6495ccbb94d8ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae786f167d80610f82cfa84e13840ba28"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectTransformWidget.html#ae786f167d80610f82cfa84e13840ba28">ModesValidator</a> = std::function&lt; uint8_t(const <a class="el" href="classMR_1_1ObjectTransformWidget.html">ObjectTransformWidget</a> &amp;, <a class="el" href="classMR_1_1ViewportId.html">ViewportId</a>)&gt;</td></tr>
+<tr class="separator:ae786f167d80610f82cfa84e13840ba28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -169,10 +173,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a59326afc19c80e440d0b0a4fe08d4c7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0787bb005003ad30a224184591603ad9"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectTransformWidget.html#a0787bb005003ad30a224184591603ad9">setParams</a> (const <a class="el" href="structMR_1_1ObjectTransformWidget_1_1Params.html">Params</a> &amp;)</td></tr>
 <tr class="separator:a0787bb005003ad30a224184591603ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c0c3d429a808250ac9474d08ddcc1e2"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectTransformWidget.html#a4c0c3d429a808250ac9474d08ddcc1e2">getTransformModeMask</a> () const</td></tr>
-<tr class="separator:a4c0c3d429a808250ac9474d08ddcc1e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4920b6c1405603a61c6a098f1e8114e4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectTransformWidget.html#a4920b6c1405603a61c6a098f1e8114e4">setTransformMode</a> (uint8_t mask)</td></tr>
-<tr class="separator:a4920b6c1405603a61c6a098f1e8114e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98f467ac429168a77af36fbea6a79ca1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectTransformWidget.html#a98f467ac429168a77af36fbea6a79ca1">getCenter</a> () const</td></tr>
+<tr class="separator:a98f467ac429168a77af36fbea6a79ca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed4dd275bdbf9ebc05bb6c1aab6ae92d"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectTransformWidget.html#aed4dd275bdbf9ebc05bb6c1aab6ae92d">getTransformModeMask</a> (<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> id={}) const</td></tr>
+<tr class="separator:aed4dd275bdbf9ebc05bb6c1aab6ae92d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74bce09a133358ad4a8388a1d03caf07"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectTransformWidget.html#a74bce09a133358ad4a8388a1d03caf07">setTransformMode</a> (uint8_t mask, <a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> id={})</td></tr>
+<tr class="separator:a74bce09a133358ad4a8388a1d03caf07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affacee843dc6b1eda7e3692d42d74f75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectTransformWidget.html#affacee843dc6b1eda7e3692d42d74f75">setPickThrough</a> (bool on)</td></tr>
 <tr class="separator:affacee843dc6b1eda7e3692d42d74f75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadc74bc9486e7d16c324e8c32d6f14da"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectTransformWidget.html#aadc74bc9486e7d16c324e8c32d6f14da">getPickThrough</a> () const</td></tr>
@@ -187,10 +193,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab22daeb26cd1e936593d97d63cc407b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1010ca302a266f98b14450145b726efe"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectTransformWidget.html#a1010ca302a266f98b14450145b726efe">getControlsXf</a> (<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> id={}) const</td></tr>
 <tr class="separator:a1010ca302a266f98b14450145b726efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2fd63c3bbfd15a6ab958bf74720ed10"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectTransformWidget.html#af2fd63c3bbfd15a6ab958bf74720ed10">getThresholdDot</a> () const</td></tr>
-<tr class="separator:af2fd63c3bbfd15a6ab958bf74720ed10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7a258b143dccbe4c71a1e52288b0892"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectTransformWidget.html#ab7a258b143dccbe4c71a1e52288b0892">setThresholdDot</a> (float thresholdDot)</td></tr>
-<tr class="separator:ab7a258b143dccbe4c71a1e52288b0892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcbe65e2fe66d5c76fbfa97bb461baeb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectTransformWidget.html#abcbe65e2fe66d5c76fbfa97bb461baeb">setTransformModesValidator</a> (<a class="el" href="classMR_1_1ObjectTransformWidget.html#ae786f167d80610f82cfa84e13840ba28">ModesValidator</a> validator)</td></tr>
+<tr class="separator:abcbe65e2fe66d5c76fbfa97bb461baeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae251d733beed21672b8754f369937dca"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectTransformWidget.html#ae251d733beed21672b8754f369937dca">followObjVisibility</a> (const std::weak_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &amp;obj)</td></tr>
 <tr class="separator:ae251d733beed21672b8754f369937dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0815d7c982b35b0dbe7f2e0abc9d583"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectTransformWidget.html#af0815d7c982b35b0dbe7f2e0abc9d583">setScaleTooltipCallback</a> (std::function&lt; void(float)&gt; callback)</td></tr>
@@ -214,7 +218,27 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af3312c12e653a48eaee4680364e72f27 inherit pub_methods_structMR_1_1MultiListener"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfa598489bfbc3b88c84b029213d042c inherit pub_methods_structMR_1_1MultiListener"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MultiListener.html#acfa598489bfbc3b88c84b029213d042c">disconnect</a> ()</td></tr>
 <tr class="separator:acfa598489bfbc3b88c84b029213d042c inherit pub_methods_structMR_1_1MultiListener"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a375c5a204c3d05b2133688f12b156fc0"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API <a class="el" href="classMR_1_1ObjectTransformWidget.html#ae786f167d80610f82cfa84e13840ba28">ModesValidator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectTransformWidget.html#a375c5a204c3d05b2133688f12b156fc0">ThresholdDotValidator</a> (float thresholdDot)</td></tr>
+<tr class="separator:a375c5a204c3d05b2133688f12b156fc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="ae786f167d80610f82cfa84e13840ba28" name="ae786f167d80610f82cfa84e13840ba28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae786f167d80610f82cfa84e13840ba28">&#9670;&#160;</a></span>ModesValidator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classMR_1_1ObjectTransformWidget.html#ae786f167d80610f82cfa84e13840ba28">MR::ObjectTransformWidget::ModesValidator</a> =  std::function&lt;uint8_t( const <a class="el" href="classMR_1_1ObjectTransformWidget.html">ObjectTransformWidget</a>&amp;, <a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> )&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a68b9b25ab7ecc4861ee34b7b4221b29a" name="a68b9b25ab7ecc4861ee34b7b4221b29a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a68b9b25ab7ecc4861ee34b7b4221b29a">&#9670;&#160;</a></span>Axis</h2>
@@ -273,6 +297,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a4ab6c5281aca51196492f7ac931414c1a562146a2dd8761ec5953b86788f0e2ad" name="a4ab6c5281aca51196492f7ac931414c1a562146a2dd8761ec5953b86788f0e2ad"></a>MoveX&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a4ab6c5281aca51196492f7ac931414c1a72ebc70f01c82ebbb2aefe1086876d52" name="a4ab6c5281aca51196492f7ac931414c1a72ebc70f01c82ebbb2aefe1086876d52"></a>MoveY&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a4ab6c5281aca51196492f7ac931414c1a626165e8669c9131d34d3b4e586067a3" name="a4ab6c5281aca51196492f7ac931414c1a626165e8669c9131d34d3b4e586067a3"></a>MoveZ&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4ab6c5281aca51196492f7ac931414c1abb34fe622d0078c9142be55f068e241c" name="a4ab6c5281aca51196492f7ac931414c1abb34fe622d0078c9142be55f068e241c"></a>FullMask&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -335,6 +360,31 @@ Public Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8">AxisTransformMode</a> MR::ObjectTransformWidget::getAxisTransformMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a98f467ac429168a77af36fbea6a79ca1" name="a98f467ac429168a77af36fbea6a79ca1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98f467ac429168a77af36fbea6a79ca1">&#9670;&#160;</a></span>getCenter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp; MR::ObjectTransformWidget::getCenter </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -467,33 +517,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af2fd63c3bbfd15a6ab958bf74720ed10" name="af2fd63c3bbfd15a6ab958bf74720ed10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2fd63c3bbfd15a6ab958bf74720ed10">&#9670;&#160;</a></span>getThresholdDot()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::ObjectTransformWidget::getThresholdDot </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4c0c3d429a808250ac9474d08ddcc1e2" name="a4c0c3d429a808250ac9474d08ddcc1e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c0c3d429a808250ac9474d08ddcc1e2">&#9670;&#160;</a></span>getTransformModeMask()</h2>
+<a id="aed4dd275bdbf9ebc05bb6c1aab6ae92d" name="aed4dd275bdbf9ebc05bb6c1aab6ae92d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed4dd275bdbf9ebc05bb6c1aab6ae92d">&#9670;&#160;</a></span>getTransformModeMask()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -504,7 +529,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">uint8_t MR::ObjectTransformWidget::getTransformModeMask </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ViewportId.html">ViewportId</a>&#160;</td>
+          <td class="paramname"><em>id</em> = <code>{}</code></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -831,34 +857,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab7a258b143dccbe4c71a1e52288b0892" name="ab7a258b143dccbe4c71a1e52288b0892"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7a258b143dccbe4c71a1e52288b0892">&#9670;&#160;</a></span>setThresholdDot()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::ObjectTransformWidget::setThresholdDot </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>thresholdDot</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4920b6c1405603a61c6a098f1e8114e4" name="a4920b6c1405603a61c6a098f1e8114e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4920b6c1405603a61c6a098f1e8114e4">&#9670;&#160;</a></span>setTransformMode()</h2>
+<a id="a74bce09a133358ad4a8388a1d03caf07" name="a74bce09a133358ad4a8388a1d03caf07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74bce09a133358ad4a8388a1d03caf07">&#9670;&#160;</a></span>setTransformMode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -867,10 +867,46 @@ Public Member Functions</h2></td></tr>
           <td class="memname">MRVIEWER_API void MR::ObjectTransformWidget::setTransformMode </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>mask</em></td><td>)</td>
+          <td class="paramname"><em>mask</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ViewportId.html">ViewportId</a>&#160;</td>
+          <td class="paramname"><em>id</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abcbe65e2fe66d5c76fbfa97bb461baeb" name="abcbe65e2fe66d5c76fbfa97bb461baeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcbe65e2fe66d5c76fbfa97bb461baeb">&#9670;&#160;</a></span>setTransformModesValidator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::ObjectTransformWidget::setTransformModesValidator </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ObjectTransformWidget.html#ae786f167d80610f82cfa84e13840ba28">ModesValidator</a>&#160;</td>
+          <td class="paramname"><em>validator</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -915,6 +951,32 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a375c5a204c3d05b2133688f12b156fc0" name="a375c5a204c3d05b2133688f12b156fc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a375c5a204c3d05b2133688f12b156fc0">&#9670;&#160;</a></span>ThresholdDotValidator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MRVIEWER_API <a class="el" href="classMR_1_1ObjectTransformWidget.html#ae786f167d80610f82cfa84e13840ba28">ModesValidator</a> MR::ObjectTransformWidget::ThresholdDotValidator </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>thresholdDot</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

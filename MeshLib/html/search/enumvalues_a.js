@@ -9,12 +9,14 @@ var searchData=
   ['levelset_6',['LevelSet',['../namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e',1,'MR::VoxelsLoad']]],
   ['light_7',['Light',['../classMR_1_1ColorTheme.html#abbecc6afa53db91ada45757b845b5514a9914a0ce04a7b7b6a8e39bec55064b82',1,'MR::ColorTheme']]],
   ['linear_8',['Linear',['../namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925aa32a843da6ea40ab3b17a3421ccdf671b',1,'MR']]],
-  ['linearraysize_9',['LineArraySize',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a28aa4a3d4b852e1cf90b4dcc545d22a7',1,'MR::Viewer']]],
-  ['lineelementsnum_10',['LineElementsNum',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a0759ec1e233564af378df2c9d823061d',1,'MR::Viewer']]],
-  ['lines_11',['Lines',['../classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76aa0b0293a2db49f5f93c15a62e095c819',1,'MR::ViewerSettingsManager']]],
-  ['linescolormap_12',['LinesColorMap',['../group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197',1,'MR']]],
-  ['linesvisualizepropscount_13',['LinesVisualizePropsCount',['../structMR_1_1LinesVisualizePropertyType.html#aab5df7db454ff09605f0b0252d48d0e2af43f32caa3c4bae22af118c168b65633',1,'MR::LinesVisualizePropertyType']]],
-  ['lossless_14',['Lossless',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69dab7048ff6b4f97b9230b2365b31d16713',1,'MR::MeshSave::CtmSaveOptions']]],
-  ['lossy_15',['Lossy',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69dab71142391f68646086edeadddcf020dc',1,'MR::MeshSave::CtmSaveOptions']]],
-  ['lower_16',['Lower',['../structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685ab75fcdd2d72d9e000beab48622402d93',1,'MR::GridSettings']]]
+  ['lineardecreasing_9',['LinearDecreasing',['../structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2af785e2bbf1c0b5b8e23622aa1d72d3ae',1,'MR::ObjectVoxels::VolumeRenderingParams']]],
+  ['linearincreasing_10',['LinearIncreasing',['../structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2a204920d9c25d6e032d9d19319ae675dd',1,'MR::ObjectVoxels::VolumeRenderingParams']]],
+  ['linearraysize_11',['LineArraySize',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a28aa4a3d4b852e1cf90b4dcc545d22a7',1,'MR::Viewer']]],
+  ['lineelementsnum_12',['LineElementsNum',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a0759ec1e233564af378df2c9d823061d',1,'MR::Viewer']]],
+  ['lines_13',['Lines',['../classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76aa0b0293a2db49f5f93c15a62e095c819',1,'MR::ViewerSettingsManager']]],
+  ['linescolormap_14',['LinesColorMap',['../group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa27c297dc9b8643caebe6c2888f08f197',1,'MR']]],
+  ['linesvisualizepropscount_15',['LinesVisualizePropsCount',['../structMR_1_1LinesVisualizePropertyType.html#aab5df7db454ff09605f0b0252d48d0e2af43f32caa3c4bae22af118c168b65633',1,'MR::LinesVisualizePropertyType']]],
+  ['lossless_16',['Lossless',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69dab7048ff6b4f97b9230b2365b31d16713',1,'MR::MeshSave::CtmSaveOptions']]],
+  ['lossy_17',['Lossy',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69dab71142391f68646086edeadddcf020dc',1,'MR::MeshSave::CtmSaveOptions']]],
+  ['lower_18',['Lower',['../structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685ab75fcdd2d72d9e000beab48622402d93',1,'MR::GridSettings']]]
 ];

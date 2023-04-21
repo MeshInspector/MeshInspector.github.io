@@ -24,13 +24,16 @@ var group__VoxelsLoadGroup =
       [ "gridLevelSet", "structMR_1_1VoxelsLoad_1_1RawParameters.html#a5d28afdbdf8874a171bdaa3da9a77db7", null ],
       [ "voxelSize", "structMR_1_1VoxelsLoad_1_1RawParameters.html#afd3e66a2e50b601320d9254e884691dd", null ]
     ] ],
-    [ "MR::VoxelsLoad::fromAnySupportedFormat", "group__VoxelsLoadGroup.html#ga1ed28e5bf9b35c693e139f0371d73259", null ],
-    [ "MR::VoxelsLoad::fromVdb", "group__VoxelsLoadGroup.html#ga178b35fdc0cd832052415755bf7bfdea", null ],
+    [ "MR::VoxelsLoad::fromAnySupportedFormat", "group__VoxelsLoadGroup.html#ga7d68084284bcdbcace2326d648c2c083", null ],
+    [ "MR::VoxelsLoad::fromGav", "group__VoxelsLoadGroup.html#ga5d49efff9bf639d29dff6d1acb809180", null ],
+    [ "MR::VoxelsLoad::fromGav", "group__VoxelsLoadGroup.html#ga245564978f647e5089f89772d6d10a9f", null ],
+    [ "MR::VoxelsLoad::fromRaw", "group__VoxelsLoadGroup.html#gaf01848c7b4ff670b94d7b628bf7d7788", null ],
+    [ "MR::VoxelsLoad::fromRaw", "group__VoxelsLoadGroup.html#ga5b4378df9f101407bec6afd66aaedf44", null ],
+    [ "MR::VoxelsLoad::fromRaw", "group__VoxelsLoadGroup.html#gaa68f95ea5ae9cac4242602891502796a", null ],
+    [ "MR::VoxelsLoad::fromVdb", "group__VoxelsLoadGroup.html#ga10a67c6a1ada16cbdff347d58f17f8f9", null ],
     [ "MR::VoxelsLoad::loadDCMFile", "group__VoxelsLoadGroup.html#ga5d4ef6e1461442b265eb8dd76ee4439b", null ],
     [ "MR::VoxelsLoad::loadDCMFolder", "group__VoxelsLoadGroup.html#ga8956bf1e7728989d5e44e8c2848c9e84", null ],
     [ "MR::VoxelsLoad::loadDCMFolderTree", "group__VoxelsLoadGroup.html#ga8fa3ce2473c0f885b7ce6b332a1c6886", null ],
-    [ "MR::VoxelsLoad::loadRaw", "group__VoxelsLoadGroup.html#gad41c12bc0863d099fe4d4a80c5ef5772", null ],
-    [ "MR::VoxelsLoad::loadRaw", "group__VoxelsLoadGroup.html#ga480d7e43375cf991141d906733b85002", null ],
     [ "MR::VoxelsLoad::sortFilesByName", "group__VoxelsLoadGroup.html#ga9dea5760f438e7cd068a17cd2fba73d3", null ],
     [ "MR::VoxelsLoad::Filters", "group__VoxelsLoadGroup.html#gaf1ddae6fda30ae38508797dc691653d3", null ]
 ];

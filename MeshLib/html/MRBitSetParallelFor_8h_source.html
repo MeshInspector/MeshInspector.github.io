@@ -117,9 +117,9 @@ $(document).ready(function(){initNavTree('MRBitSetParallelFor_8h_source.html',''
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keyword">using </span>IndexType = <span class="keyword">typename</span> BS::IndexType;</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keyword">const</span> <span class="keywordtype">int</span> endBlock = int( bs.size() + BS::bits_per_block - 1 ) / BS::bits_per_block;</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    tbb::parallel_for( tbb::blocked_range&lt;int&gt;( 0, endBlock ), </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        [&amp;]( <span class="keyword">const</span> tbb::blocked_range&lt;int&gt; &amp; range )</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keyword">const</span> <span class="keywordtype">size_t</span> endBlock = ( bs.size() + BS::bits_per_block - 1 ) / BS::bits_per_block;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    tbb::parallel_for( tbb::blocked_range&lt;size_t&gt;( 0, endBlock ), </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        [&amp;]( <span class="keyword">const</span> tbb::blocked_range&lt;size_t&gt; &amp; range )</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        {</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>            IndexType <span class="keywordtype">id</span>{ range.begin() * BitSet::bits_per_block };</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>            <span class="keyword">const</span> IndexType idEnd{ range.end() &lt; endBlock ? range.end() * BS::bits_per_block : bs.size() };</div>
@@ -141,16 +141,16 @@ $(document).ready(function(){initNavTree('MRBitSetParallelFor_8h_source.html',''
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">using </span>IndexType = <span class="keyword">typename</span> BS::IndexType;</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keyword">const</span> <span class="keywordtype">int</span> endBlock = int( bs.size() + BS::bits_per_block - 1 ) / BS::bits_per_block;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keyword">const</span> <span class="keywordtype">size_t</span> endBlock = ( bs.size() + BS::bits_per_block - 1 ) / BS::bits_per_block;</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keyword">auto</span> mainThreadId = std::this_thread::get_id();</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    std::atomic&lt;bool&gt; keepGoing{ <span class="keyword">true</span> };</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    tbb::parallel_for( tbb::blocked_range&lt;int&gt;( 0, endBlock ),</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        [&amp;] ( <span class="keyword">const</span> tbb::blocked_range&lt;int&gt;&amp; range )</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    tbb::parallel_for( tbb::blocked_range&lt;size_t&gt;( 0, endBlock ),</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        [&amp;] ( <span class="keyword">const</span> tbb::blocked_range&lt;size_t&gt;&amp; range )</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    {</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        IndexType <span class="keywordtype">id</span>{ range.begin() * BitSet::bits_per_block };</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keyword">const</span> IndexType idEnd{ range.end() &lt; endBlock ? range.end() * BS::bits_per_block : bs.size() };</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keyword">auto</span> idBegin = int( <span class="keywordtype">id</span> );</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="keyword">auto</span> idRange = float( <span class="keywordtype">int</span>( idEnd ) - idBegin );</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keyword">auto</span> idBegin = size_t( <span class="keywordtype">id</span> );</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="keyword">auto</span> idRange = float( <span class="keywordtype">size_t</span>( idEnd ) - idBegin );</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        <span class="keywordflow">for</span> ( ; <span class="keywordtype">id</span> &lt; idEnd; ++id )</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        {</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>            <span class="keywordflow">if</span> ( !keepGoing.load( std::memory_order_relaxed ) )</div>
@@ -158,7 +158,7 @@ $(document).ready(function(){initNavTree('MRBitSetParallelFor_8h_source.html',''
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            f( <span class="keywordtype">id</span> );</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>            <span class="keywordflow">if</span> ( std::this_thread::get_id() == mainThreadId )</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>            {</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>                <span class="keywordflow">if</span> ( !progressCb( <span class="keywordtype">float</span>( <span class="keywordtype">int</span>( <span class="keywordtype">id</span> ) - idBegin ) / idRange ) )</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>                <span class="keywordflow">if</span> ( !progressCb( <span class="keywordtype">float</span>( <span class="keywordtype">size_t</span>( <span class="keywordtype">id</span> ) - idBegin ) / idRange ) )</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>                    keepGoing.store( <span class="keyword">false</span>, std::memory_order_relaxed );</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            }</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        }</div>

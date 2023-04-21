@@ -24,11 +24,12 @@ var searchData=
   ['meshlabel_21',['MeshLabel',['../namespaceMR.html#a982cd6fff1d0180a620b11bb007db1d2',1,'MR']]],
   ['meshloader_22',['MeshLoader',['../group__IOFormatsRegistryGroup.html#gae2150323e7ab2db0ed03a96d5416a457',1,'MR::MeshLoad']]],
   ['meshstreamloader_23',['MeshStreamLoader',['../group__IOFormatsRegistryGroup.html#gad7257edf0f2d1414280fc5d43e414e74',1,'MR::MeshLoad']]],
-  ['mousebutton_24',['MouseButton',['../classMR_1_1Viewer.html#acbb855ef51e627a2fd2b111d9d65277e',1,'MR::Viewer']]],
-  ['mousemode_25',['MouseMode',['../classMR_1_1Viewer.html#a8fda1ccb2d6d517de3047c2fd65203ea',1,'MR::Viewer']]],
-  ['mousemovesignal_26',['MouseMoveSignal',['../classMR_1_1Viewer.html#a12789e9a254227b600592bce4d442758',1,'MR::Viewer']]],
-  ['mousescrollsignal_27',['MouseScrollSignal',['../classMR_1_1Viewer.html#aec690d0dd00cd849a736c3436ed2e546',1,'MR::Viewer']]],
-  ['mouseupdownsignal_28',['MouseUpDownSignal',['../classMR_1_1Viewer.html#a1aecfd029115f7b6327183d3d313297a',1,'MR::Viewer']]],
-  ['multilistenerbase_29',['MultiListenerBase',['../classMR_1_1StateListenerPlugin.html#a700dee77fa82afbe743aa424eb782e2d',1,'MR::StateListenerPlugin']]],
-  ['multipleedge_30',['MultipleEdge',['../group__MeshFixerGroup.html#ga807cd3d017d23c56a0f6ea1cb1f7c8cb',1,'MR']]]
+  ['modesvalidator_24',['ModesValidator',['../classMR_1_1ObjectTransformWidget.html#ae786f167d80610f82cfa84e13840ba28',1,'MR::ObjectTransformWidget']]],
+  ['mousebutton_25',['MouseButton',['../classMR_1_1Viewer.html#acbb855ef51e627a2fd2b111d9d65277e',1,'MR::Viewer']]],
+  ['mousemode_26',['MouseMode',['../classMR_1_1Viewer.html#a8fda1ccb2d6d517de3047c2fd65203ea',1,'MR::Viewer']]],
+  ['mousemovesignal_27',['MouseMoveSignal',['../classMR_1_1Viewer.html#a12789e9a254227b600592bce4d442758',1,'MR::Viewer']]],
+  ['mousescrollsignal_28',['MouseScrollSignal',['../classMR_1_1Viewer.html#aec690d0dd00cd849a736c3436ed2e546',1,'MR::Viewer']]],
+  ['mouseupdownsignal_29',['MouseUpDownSignal',['../classMR_1_1Viewer.html#a1aecfd029115f7b6327183d3d313297a',1,'MR::Viewer']]],
+  ['multilistenerbase_30',['MultiListenerBase',['../classMR_1_1StateListenerPlugin.html#a700dee77fa82afbe743aa424eb782e2d',1,'MR::StateListenerPlugin']]],
+  ['multipleedge_31',['MultipleEdge',['../group__MeshFixerGroup.html#ga807cd3d017d23c56a0f6ea1cb1f7c8cb',1,'MR']]]
 ];

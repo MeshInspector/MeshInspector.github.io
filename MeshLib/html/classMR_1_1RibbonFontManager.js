@@ -8,6 +8,7 @@ var classMR_1_1RibbonFontManager =
       [ "Big", "classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4ad491538da818a2ba11a3195ba035cfd3", null ],
       [ "BigSemiBold", "classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4a10ebea8e9815247e884f1ad9a35ef32c", null ],
       [ "Headline", "classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4ac6568e77f61109390e82d035aaacaef0", null ],
+      [ "Monospace", "classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4aa3fd27e2bbcda0c7be0037ee70829384", null ],
       [ "Count", "classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "getFontByType", "classMR_1_1RibbonFontManager.html#ad3f9e2f7788079bfaece40298c022f53", null ],

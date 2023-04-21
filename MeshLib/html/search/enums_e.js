@@ -1,14 +1,10 @@
 var searchData=
 [
-  ['scalartype_0',['ScalarType',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529b',1,'MR::VoxelsLoad::RawParameters']]],
-  ['seedtype_1',['SeedType',['../classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5',1,'MR::VolumeSegmenter']]],
-  ['shadertype_2',['ShaderType',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748',1,'MR::GLStaticHolder']]],
-  ['signdetectionmode_3',['SignDetectionMode',['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309',1,'MR']]],
-  ['signeddetectionmethod_4',['SignedDetectionMethod',['../structMR_1_1ContoursDistanceMapOptions.html#a8338b4b187db812314a5890ccf5e6ec6',1,'MR::ContoursDistanceMapOptions']]],
-  ['sizetype_5',['SizeType',['../structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785ae',1,'MR::DrawButtonParams']]],
-  ['sliceplane_6',['SlicePlane',['../group__VoxelPathGroup.html#ga4412ea17fd4bcca4ad23e987f61c20ab',1,'MR']]],
-  ['spacemousebuttons_7',['SpaceMouseButtons',['../namespaceMR.html#acad54447072489545d11f4ee251429e6',1,'MR']]],
-  ['startposition_8',['StartPosition',['../classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39',1,'MR::CommandLoop']]],
-  ['stateplugintabs_9',['StatePluginTabs',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37',1,'MR']]],
-  ['streamtype_10',['StreamType',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1d',1,'MRPython.h']]]
+  ['reason_0',['Reason',['../classMR_1_1ShortcutManager.html#a1a85baae28af51cf7825c2099b693c1b',1,'MR::ShortcutManager']]],
+  ['relaxapproxtype_1',['RelaxApproxType',['../namespaceMR.html#a6ab288ae813e1aa688312e31c258df71',1,'MR']]],
+  ['remembershape_2',['RememberShape',['../classMR_1_1Laplacian.html#a67c8dfc7669f41712a92d21d5ec99fed',1,'MR::Laplacian']]],
+  ['ribboncolorstype_3',['RibbonColorsType',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0',1,'MR::ColorTheme']]],
+  ['ribbonitemtype_4',['RibbonItemType',['../namespaceMR.html#a1478e43a90bad95d9ef709807606688a',1,'MR']]],
+  ['roottype_5',['RootType',['../structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84dae',1,'MR::DrawButtonParams']]],
+  ['rotationcentermode_6',['RotationCenterMode',['../structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780b',1,'MR::Viewport::Parameters']]]
 ];
