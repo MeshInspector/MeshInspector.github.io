@@ -237,7 +237,7 @@ C++ Basic Examples</h1>
 <div class="line">}</div>
 <div class="ttc" id="aMRCube_8h_html"><div class="ttname"><a href="MRCube_8h.html">MRCube.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html_a0b13b128c8398cb07fa91de5068f71d9"><div class="ttname"><a href="classMR_1_1MeshTopology.html#a0b13b128c8398cb07fa91de5068f71d9">MR::MeshTopology::getAllTriVerts</a></div><div class="ttdeci">MRMESH_API std::vector&lt; ThreeVertIds &gt; getAllTriVerts() const</div><div class="ttdoc">returns three vertex ids for valid triangles, invalid triangles are skipped</div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html_ad4c1a76a727c0e52830149df75a87a0f"><div class="ttname"><a href="classMR_1_1Vector.html#ad4c1a76a727c0e52830149df75a87a0f">MR::Vector::vec_</a></div><div class="ttdeci">std::vector&lt; T &gt; vec_</div><div class="ttdoc">the user can directly manipulate the vector, anyway she cannot break anything</div><div class="ttdef"><b>Definition:</b> MRVector.h:133</div></div>
+<div class="ttc" id="aclassMR_1_1Vector_html_ad4c1a76a727c0e52830149df75a87a0f"><div class="ttname"><a href="classMR_1_1Vector.html#ad4c1a76a727c0e52830149df75a87a0f">MR::Vector::vec_</a></div><div class="ttdeci">std::vector&lt; T &gt; vec_</div><div class="ttdoc">the user can directly manipulate the vector, anyway she cannot break anything</div><div class="ttdef"><b>Definition:</b> MRVector.h:135</div></div>
 <div class="ttc" id="anamespaceMR_html_ac19d6db4200945b6861959bd421a41e1"><div class="ttname"><a href="namespaceMR.html#ac19d6db4200945b6861959bd421a41e1">MR::makeCube</a></div><div class="ttdeci">MRMESH_API Mesh makeCube(const Vector3f &amp;size=Vector3f::diagonal(1.0f), const Vector3f &amp;base=Vector3f::diagonal(-0.5f))</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html_a91b13898794821d7f88845ebaa6cc1c4"><div class="ttname"><a href="structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">MR::Mesh::topology</a></div><div class="ttdeci">MeshTopology topology</div><div class="ttdef"><b>Definition:</b> MRMesh.h:22</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html_a9c8ead50efe2f8a111848b488f0a6aca"><div class="ttname"><a href="structMR_1_1Mesh.html#a9c8ead50efe2f8a111848b488f0a6aca">MR::Mesh::points</a></div><div class="ttdeci">VertCoords points</div><div class="ttdef"><b>Definition:</b> MRMesh.h:23</div></div>
@@ -287,7 +287,71 @@ Load and save example: </p><div class="fragment"><div class="line"><span class="
 <div class="ttc" id="anamespaceMR_html_a5f4a954ba7d1785cafcb2f7ffe7acf09"><div class="ttname"><a href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">MR::Vector3f</a></div><div class="ttdeci">Vector3&lt; float &gt; Vector3f</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:108</div></div>
 <div class="ttc" id="anamespaceMR_html_a74baff465e4766087e453565c29e0e20"><div class="ttname"><a href="namespaceMR.html#a74baff465e4766087e453565c29e0e20">MR::Matrix3f</a></div><div class="ttdeci">Matrix3&lt; float &gt; Matrix3f</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:129</div></div>
 <div class="ttc" id="anamespaceMR_html_a9cf4b064aa13c5becce6312228c3c03b"><div class="ttname"><a href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">MR::AffineXf3f</a></div><div class="ttdeci">AffineXf3&lt; float &gt; AffineXf3f</div><div class="ttdef"><b>Definition:</b> MRMeshFwd.h:159</div></div>
-</div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="EmbendedPythonOverview.html">Python overview</a> </dd></dl>
+</div><!-- fragment --><p>Simple triangulation </p><div class="fragment"><div class="line">from meshlib <span class="keyword">import</span> mrmeshpy as mm</div>
+<div class="line">from meshlib <span class="keyword">import</span> mrmeshnumpy as mn</div>
+<div class="line"><span class="keyword">import</span> numpy as np</div>
+<div class="line"> </div>
+<div class="line">u, v = np.mgrid[0:2 * np.pi:100j, 0:np.pi:100j]</div>
+<div class="line">x = np.cos(u) * np.sin(v)</div>
+<div class="line">y = np.sin(u) * np.sin(v)</div>
+<div class="line">z = np.cos(v)</div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor"># Prepare for MeshLib PointCloud</span></div>
+<div class="line">verts = np.stack((x.flatten(),y.flatten(),z.flatten()),axis=-1).reshape(-1,3)</div>
+<div class="line"><span class="preprocessor"># Create MeshLib PointCloud from np ndarray</span></div>
+<div class="line">pc = mn.pointCloudFromPoints(verts)</div>
+<div class="line"><span class="preprocessor"># Remove duplicate points</span></div>
+<div class="line">pc.validPoints = mm.pointUniformSampling(pc,1e-3)</div>
+<div class="line">pc.invalidateCaches()</div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor"># Triangulate it</span></div>
+<div class="line">triangulatedPC = mm.triangulatePointCloud(pc)</div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor"># Fix possible issues</span></div>
+<div class="line">triangulatedPC = mm.offsetMesh(triangulatedPC, 0.0)</div>
+</div><!-- fragment --><p>Tirangulation of regular numpy grid </p><div class="fragment"><div class="line">from meshlib <span class="keyword">import</span> mrmeshpy as mm</div>
+<div class="line">from meshlib <span class="keyword">import</span> mrmeshnumpy as mn</div>
+<div class="line"><span class="keyword">import</span> numpy as np</div>
+<div class="line"> </div>
+<div class="line">u, v = np.mgrid[0:2 * np.pi:50j, 0:np.pi:100j]</div>
+<div class="line">x = np.cos(u) * np.sin(v)</div>
+<div class="line">y = np.sin(u) * np.sin(v)</div>
+<div class="line">z = np.cos(v)</div>
+<div class="line">    </div>
+<div class="line">mesh = mn.meshFromUVPoints(x,y,z)</div>
+</div><!-- fragment --><p>Using plotly to visualize mesh </p><div class="fragment"><div class="line">from meshlib <span class="keyword">import</span> mrmeshpy as mm</div>
+<div class="line">from meshlib <span class="keyword">import</span> mrmeshnumpy as mn</div>
+<div class="line"><span class="keyword">import</span> numpy as np</div>
+<div class="line"><span class="keyword">import</span> plotly.graph_objects as go</div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor"># load mesh</span></div>
+<div class="line">mesh = mm.loadMesh(mm.Path(<span class="stringliteral">&quot;mesh.stl&quot;</span>))</div>
+<div class="line"><span class="preprocessor"># extract numpy arrays</span></div>
+<div class="line">verts = mn.getNumpyVerts(mesh)</div>
+<div class="line">faces = mn.getNumpyFaces(mesh.topology)</div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor"># prepare data for plotly</span></div>
+<div class="line">vertsT = np.transpose(verts)</div>
+<div class="line">facesT = np.transpose(faces)</div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor"># draw</span></div>
+<div class="line">fig = go.Figure(data=[</div>
+<div class="line">    go.Mesh3d(</div>
+<div class="line">        x = vertsT[0],</div>
+<div class="line">        y = vertsT[1],</div>
+<div class="line">        z = vertsT[2],</div>
+<div class="line">        i = facesT[0],</div>
+<div class="line">        j = facesT[1],</div>
+<div class="line">        k = facesT[2]</div>
+<div class="line">    )</div>
+<div class="line">])</div>
+<div class="line"> </div>
+<div class="line">fig.show()</div>
+</div><!-- fragment --> <div class="image">
+<img src="plotly_visualization.png" alt="" width="300cm"/>
+<div class="caption">
+Plotly visualization</div></div>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="EmbendedPythonOverview.html">Python overview</a> </dd></dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

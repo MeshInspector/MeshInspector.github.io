@@ -115,8 +115,8 @@ $(document).ready(function(){initNavTree('classMR_1_1RangeProcessorSingle.html',
 Public Types</h2></td></tr>
 <tr class="memitem:a3dd22e8ad777958bc8dd5ca24697cab1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RangeProcessorSingle.html#a3dd22e8ad777958bc8dd5ca24697cab1">InterruptFunc</a> = std::function&lt; bool(void)&gt;</td></tr>
 <tr class="separator:a3dd22e8ad777958bc8dd5ca24697cab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2951162b5e155047dba82773dc248a7b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RangeProcessorSingle.html#a2951162b5e155047dba82773dc248a7b">ProgressFunc</a> = std::function&lt; bool(size_t, size_t)&gt;</td></tr>
-<tr class="separator:a2951162b5e155047dba82773dc248a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18c7b1c6f5f3eb4ab1f683819ab2526b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RangeProcessorSingle.html#a18c7b1c6f5f3eb4ab1f683819ab2526b">ProgressHolder</a> = std::shared_ptr&lt; <a class="el" href="classMR_1_1RangeProgress.html">RangeProgress</a> &gt;</td></tr>
+<tr class="separator:a18c7b1c6f5f3eb4ab1f683819ab2526b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06885853a633af8e30ee961ef1ae4c1e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RangeProcessorSingle.html#a06885853a633af8e30ee961ef1ae4c1e">ValueT</a> = typename TreeT::ValueType</td></tr>
 <tr class="separator:a06885853a633af8e30ee961ef1ae4c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27245f92c4924f6d589bb260006327b4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RangeProcessorSingle.html#a27245f92c4924f6d589bb260006327b4">LeafIterT</a> = typename TreeT::LeafCIter</td></tr>
@@ -139,8 +139,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a67512a2e5762df8020c0384cf31acbf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6099e8aa9329dd7b246301cc97f161b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RangeProcessorSingle.html#ad6099e8aa9329dd7b246301cc97f161b">setInterrupt</a> (const <a class="el" href="classMR_1_1RangeProcessorSingle.html#a3dd22e8ad777958bc8dd5ca24697cab1">InterruptFunc</a> &amp;f)</td></tr>
 <tr class="separator:ad6099e8aa9329dd7b246301cc97f161b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a9939ed73bce3f9ad5ed9321b264736"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RangeProcessorSingle.html#a4a9939ed73bce3f9ad5ed9321b264736">setProgressFn</a> (const <a class="el" href="classMR_1_1RangeProcessorSingle.html#a2951162b5e155047dba82773dc248a7b">ProgressFunc</a> &amp;f)</td></tr>
-<tr class="separator:a4a9939ed73bce3f9ad5ed9321b264736"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f5ff3966e98c9b5929ff84cabf90fb0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RangeProcessorSingle.html#a3f5ff3966e98c9b5929ff84cabf90fb0">setProgressHolder</a> (<a class="el" href="classMR_1_1RangeProcessorSingle.html#a18c7b1c6f5f3eb4ab1f683819ab2526b">ProgressHolder</a> progressHolder)</td></tr>
+<tr class="separator:a3f5ff3966e98c9b5929ff84cabf90fb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a51228138a8994ccaa8fab17ec60f75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RangeProcessorSingle.html#a2a51228138a8994ccaa8fab17ec60f75">operator()</a> (const <a class="el" href="classMR_1_1RangeProcessorSingle.html#a4230fb4bf134d204266d7a36e6eaa54c">LeafRange</a> &amp;rCRef)</td></tr>
 <tr class="memdesc:a2a51228138a8994ccaa8fab17ec60f75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform each leaf node in the given range.  <br /></td></tr>
 <tr class="separator:a2a51228138a8994ccaa8fab17ec60f75"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,8 +215,8 @@ template&lt;typename TreeT , typename Proc &gt; </div>
 
 </div>
 </div>
-<a id="a2951162b5e155047dba82773dc248a7b" name="a2951162b5e155047dba82773dc248a7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2951162b5e155047dba82773dc248a7b">&#9670;&#160;</a></span>ProgressFunc</h2>
+<a id="a18c7b1c6f5f3eb4ab1f683819ab2526b" name="a18c7b1c6f5f3eb4ab1f683819ab2526b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18c7b1c6f5f3eb4ab1f683819ab2526b">&#9670;&#160;</a></span>ProgressHolder</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -224,7 +224,7 @@ template&lt;typename TreeT , typename Proc &gt; </div>
 template&lt;typename TreeT , typename Proc &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1RangeProcessorSingle.html">MR::RangeProcessorSingle</a>&lt; TreeT, Proc &gt;::ProgressFunc =  std::function&lt;bool( size_t, size_t )&gt;</td>
+          <td class="memname">using <a class="el" href="classMR_1_1RangeProcessorSingle.html">MR::RangeProcessorSingle</a>&lt; TreeT, Proc &gt;::ProgressHolder =  std::shared_ptr&lt;<a class="el" href="classMR_1_1RangeProgress.html">RangeProgress</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -499,8 +499,8 @@ template&lt;typename TreeT , typename Proc &gt; </div>
 
 </div>
 </div>
-<a id="a4a9939ed73bce3f9ad5ed9321b264736" name="a4a9939ed73bce3f9ad5ed9321b264736"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a9939ed73bce3f9ad5ed9321b264736">&#9670;&#160;</a></span>setProgressFn()</h2>
+<a id="a3f5ff3966e98c9b5929ff84cabf90fb0" name="a3f5ff3966e98c9b5929ff84cabf90fb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f5ff3966e98c9b5929ff84cabf90fb0">&#9670;&#160;</a></span>setProgressHolder()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -511,10 +511,10 @@ template&lt;typename TreeT , typename Proc &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1RangeProcessorSingle.html">MR::RangeProcessorSingle</a>&lt; TreeT, Proc &gt;::setProgressFn </td>
+          <td class="memname">void <a class="el" href="classMR_1_1RangeProcessorSingle.html">MR::RangeProcessorSingle</a>&lt; TreeT, Proc &gt;::setProgressHolder </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1RangeProcessorSingle.html#a2951162b5e155047dba82773dc248a7b">ProgressFunc</a> &amp;&#160;</td>
-          <td class="paramname"><em>f</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1RangeProcessorSingle.html#a18c7b1c6f5f3eb4ab1f683819ab2526b">ProgressHolder</a>&#160;</td>
+          <td class="paramname"><em>progressHolder</em></td><td>)</td>
           <td></td>
         </tr>
       </table>

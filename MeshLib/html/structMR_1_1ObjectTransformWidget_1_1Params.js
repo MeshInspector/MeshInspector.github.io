@@ -1,6 +1,7 @@
 var structMR_1_1ObjectTransformWidget_1_1Params =
 [
     [ "activeLineColor", "structMR_1_1ObjectTransformWidget_1_1Params.html#a519a7b39ddbcf0a9f7f25f30f0a4d46a", null ],
+    [ "center", "structMR_1_1ObjectTransformWidget_1_1Params.html#ab7f80d52607d744f0fe178fcf98ab9ce", null ],
     [ "coneRadiusFactor", "structMR_1_1ObjectTransformWidget_1_1Params.html#ad4304943b83b92d788e6f33407c2b5e4", null ],
     [ "coneSizeFactor", "structMR_1_1ObjectTransformWidget_1_1Params.html#a94e0594ec6c4d4b2bd31a3945147caac", null ],
     [ "helperLineColor", "structMR_1_1ObjectTransformWidget_1_1Params.html#a44a3b1a131dd8767904da56eb4b0a513", null ],

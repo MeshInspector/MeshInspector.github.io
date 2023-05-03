@@ -151,6 +151,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aeb7bb0c8ddc8cb0b9a917fe43a2cc514"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b67ad8030f22aa236b64a04fb2459dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html#a2b67ad8030f22aa236b64a04fb2459dc">operator-=</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b)</td></tr>
 <tr class="separator:a2b67ad8030f22aa236b64a04fb2459dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a50b06c0c6ba58204d191f3b900439c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html#a2a50b06c0c6ba58204d191f3b900439c">subtract</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b, int bShiftInBlocks)</td></tr>
+<tr class="memdesc:a2a50b06c0c6ba58204d191f3b900439c"><td class="mdescLeft">&#160;</td><td class="mdescRight">subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block  <br /></td></tr>
+<tr class="separator:a2a50b06c0c6ba58204d191f3b900439c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21e124c25421599977ed1fc9874016e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html#a21e124c25421599977ed1fc9874016e3">find_last</a> () const</td></tr>
 <tr class="memdesc:a21e124c25421599977ed1fc9874016e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the highest index i such as bit i is set, or npos if *this has no on bits.  <br /></td></tr>
 <tr class="separator:a21e124c25421599977ed1fc9874016e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -572,6 +575,36 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>doubles reserved memory until resize(newSize) can be done without reallocation </p>
+
+</div>
+</div>
+<a id="a2a50b06c0c6ba58204d191f3b900439c" name="a2a50b06c0c6ba58204d191f3b900439c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a50b06c0c6ba58204d191f3b900439c">&#9670;&#160;</a></span>subtract()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp; MR::BitSet::subtract </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bShiftInBlocks</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block </p>
 
 </div>
 </div>

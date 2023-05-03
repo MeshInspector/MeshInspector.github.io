@@ -211,6 +211,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gac6d17c4184b537a5ae4eb116c1948fc7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gac6d17c4184b537a5ae4eb116c1948fc7"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gac6d17c4184b537a5ae4eb116c1948fc7">MR::operator-</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;a, const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="separator:gac6d17c4184b537a5ae4eb116c1948fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga07688e626ceb45b29291dc809fed5038"><td class="memTemplParams" colspan="2">template&lt;typename IndexType , typename F &gt; </td></tr>
+<tr class="memitem:ga07688e626ceb45b29291dc809fed5038"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga07688e626ceb45b29291dc809fed5038">MR::BitSetParallelForAll</a> (IndexType <a class="el" href="group__BasicGroup.html#ga25c73b1f9e5d5df34b153869e3cb5515">begin</a>, IndexType <a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, F f)</td></tr>
+<tr class="separator:ga07688e626ceb45b29291dc809fed5038"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaec1d8613d38041fae09f290f342a4995"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F &gt; </td></tr>
 <tr class="memitem:gaec1d8613d38041fae09f290f342a4995"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gaec1d8613d38041fae09f290f342a4995">MR::BitSetParallelForAll</a> (const BS &amp;bs, F f)</td></tr>
 <tr class="separator:gaec1d8613d38041fae09f290f342a4995"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -245,6 +248,18 @@ Functions</h2></td></tr>
 <tr class="memitem:ga49107746ea2415c9c89d28a9e0f56112"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga49107746ea2415c9c89d28a9e0f56112">MR::printStacktraceOnCrash</a> ()</td></tr>
 <tr class="memdesc:ga49107746ea2415c9c89d28a9e0f56112"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print stacktrace on application crash.  <br /></td></tr>
 <tr class="separator:ga49107746ea2415c9c89d28a9e0f56112"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0f1d9c02d9be540b9ebb830334428fe5"><td class="memTemplParams" colspan="2">template&lt;typename I , typename F &gt; </td></tr>
+<tr class="memitem:ga0f1d9c02d9be540b9ebb830334428fe5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga0f1d9c02d9be540b9ebb830334428fe5">MR::ParallelFor</a> (I <a class="el" href="group__BasicGroup.html#ga25c73b1f9e5d5df34b153869e3cb5515">begin</a>, I <a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, F &amp;&amp;f)</td></tr>
+<tr class="memdesc:ga0f1d9c02d9be540b9ebb830334428fe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">executes given function f for each span element [begin, end)  <br /></td></tr>
+<tr class="separator:ga0f1d9c02d9be540b9ebb830334428fe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaf3accb22f578d08b9b0eba2e269f857"><td class="memTemplParams" colspan="2">template&lt;typename T , typename F &gt; </td></tr>
+<tr class="memitem:gaaf3accb22f578d08b9b0eba2e269f857"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gaaf3accb22f578d08b9b0eba2e269f857">MR::ParallelFor</a> (const std::vector&lt; T &gt; &amp;v, F &amp;&amp;f)</td></tr>
+<tr class="memdesc:gaaf3accb22f578d08b9b0eba2e269f857"><td class="mdescLeft">&#160;</td><td class="mdescRight">executes given function f for each vector element in parallel threads  <br /></td></tr>
+<tr class="separator:gaaf3accb22f578d08b9b0eba2e269f857"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaef0ac65102a308d1ecacb7e2b3a65093"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I , typename F &gt; </td></tr>
+<tr class="memitem:gaef0ac65102a308d1ecacb7e2b3a65093"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gaef0ac65102a308d1ecacb7e2b3a65093">MR::ParallelFor</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;v, F &amp;&amp;f)</td></tr>
+<tr class="memdesc:gaef0ac65102a308d1ecacb7e2b3a65093"><td class="mdescLeft">&#160;</td><td class="mdescRight">executes given function f for each vector element in parallel threads  <br /></td></tr>
+<tr class="separator:gaef0ac65102a308d1ecacb7e2b3a65093"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4accadafe09c169e3742b72d1e5e5733"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga4accadafe09c169e3742b72d1e5e5733">MR::vertMapsComposition</a> (<a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> &amp;a2b, const <a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> &amp;b2c)</td></tr>
 <tr class="memdesc:ga4accadafe09c169e3742b72d1e5e5733"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates a2b map to a2c map using b2c map  <br /></td></tr>
 <tr class="separator:ga4accadafe09c169e3742b72d1e5e5733"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -527,7 +542,7 @@ template&lt;typename BS , typename F , typename ... Cb&gt; </div>
 </div>
 </div>
 <a id="gaec1d8613d38041fae09f290f342a4995" name="gaec1d8613d38041fae09f290f342a4995"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaec1d8613d38041fae09f290f342a4995">&#9670;&#160;</a></span>BitSetParallelForAll() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaec1d8613d38041fae09f290f342a4995">&#9670;&#160;</a></span>BitSetParallelForAll() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -558,7 +573,7 @@ template&lt;typename BS , typename F &gt; </div>
 </div>
 </div>
 <a id="gac9c30dc2587e0a52a1fbec21269703aa" name="gac9c30dc2587e0a52a1fbec21269703aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac9c30dc2587e0a52a1fbec21269703aa">&#9670;&#160;</a></span>BitSetParallelForAll() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac9c30dc2587e0a52a1fbec21269703aa">&#9670;&#160;</a></span>BitSetParallelForAll() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -591,6 +606,43 @@ template&lt;typename BS , typename F &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>executes given function f for each bit in bs in parallel threads; it is guaranteed that every individual block in bit-set is processed by one thread only uses tbb::static_partitioner for uniform distribution of ids; </p><dl class="section return"><dt>Returns</dt><dd>false if the processing was canceled by progressCb </dd></dl>
+
+</div>
+</div>
+<a id="ga07688e626ceb45b29291dc809fed5038" name="ga07688e626ceb45b29291dc809fed5038"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga07688e626ceb45b29291dc809fed5038">&#9670;&#160;</a></span>BitSetParallelForAll() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename IndexType , typename F &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::BitSetParallelForAll </td>
+          <td>(</td>
+          <td class="paramtype">IndexType&#160;</td>
+          <td class="paramname"><em>begin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IndexType&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">F&#160;</td>
+          <td class="paramname"><em>f</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>executes given function f for each index in [begin, end) in parallel threads; it is guaranteed that every individual block in <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> is processed by one thread only </p>
 
 </div>
 </div>
@@ -1677,6 +1729,108 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaaf3accb22f578d08b9b0eba2e269f857" name="gaaf3accb22f578d08b9b0eba2e269f857"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaf3accb22f578d08b9b0eba2e269f857">&#9670;&#160;</a></span>ParallelFor() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename F &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::ParallelFor </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>executes given function f for each vector element in parallel threads </p>
+
+</div>
+</div>
+<a id="gaef0ac65102a308d1ecacb7e2b3a65093" name="gaef0ac65102a308d1ecacb7e2b3a65093"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaef0ac65102a308d1ecacb7e2b3a65093">&#9670;&#160;</a></span>ParallelFor() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename I , typename F &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::ParallelFor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>executes given function f for each vector element in parallel threads </p>
+
+</div>
+</div>
+<a id="ga0f1d9c02d9be540b9ebb830334428fe5" name="ga0f1d9c02d9be540b9ebb830334428fe5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0f1d9c02d9be540b9ebb830334428fe5">&#9670;&#160;</a></span>ParallelFor() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I , typename F &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::ParallelFor </td>
+          <td>(</td>
+          <td class="paramtype">I&#160;</td>
+          <td class="paramname"><em>begin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">I&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>executes given function f for each span element [begin, end) </p>
 
 </div>
 </div>

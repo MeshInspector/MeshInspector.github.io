@@ -1,5 +1,6 @@
 var classMR_1_1ObjectTransformWidget =
 [
+    [ "ChangeParamsAction", "classMR_1_1ObjectTransformWidget_1_1ChangeParamsAction.html", "classMR_1_1ObjectTransformWidget_1_1ChangeParamsAction" ],
     [ "ChangeXfAction", "classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html", "classMR_1_1ObjectTransformWidget_1_1ChangeXfAction" ],
     [ "Params", "structMR_1_1ObjectTransformWidget_1_1Params.html", "structMR_1_1ObjectTransformWidget_1_1Params" ],
     [ "ModesValidator", "classMR_1_1ObjectTransformWidget.html#ae786f167d80610f82cfa84e13840ba28", null ],
@@ -38,6 +39,7 @@ var classMR_1_1ObjectTransformWidget =
     [ "setAddXfCallback", "classMR_1_1ObjectTransformWidget.html#a3134eccba5998667c2b96764ceb6d88f", null ],
     [ "setApproveXfCallback", "classMR_1_1ObjectTransformWidget.html#af009bd74e0f49b4a2efc1ddcf659e58a", null ],
     [ "setAxisTransformMode", "classMR_1_1ObjectTransformWidget.html#aec0ff434beabde629460e566c23beb5c", null ],
+    [ "setCenter", "classMR_1_1ObjectTransformWidget.html#aaf91fd129d451fcba43db51aed079b2e", null ],
     [ "setControlsXf", "classMR_1_1ObjectTransformWidget.html#ab22daeb26cd1e936593d97d63cc407b5", null ],
     [ "setParams", "classMR_1_1ObjectTransformWidget.html#a0787bb005003ad30a224184591603ad9", null ],
     [ "setPickThrough", "classMR_1_1ObjectTransformWidget.html#affacee843dc6b1eda7e3692d42d74f75", null ],

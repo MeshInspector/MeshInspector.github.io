@@ -10,11 +10,12 @@ var searchData=
   ['demoplugin_7',['DemoPlugin',['../classMR_1_1DemoPlugin.html',1,'MR']]],
   ['densebox_8',['DenseBox',['../structMR_1_1DenseBox.html',1,'MR']]],
   ['dialogitemptr_9',['DialogItemPtr',['../structMR_1_1RibbonMenu_1_1DialogItemPtr.html',1,'MR::RibbonMenu']]],
-  ['distancemap_10',['DistanceMap',['../classMR_1_1DistanceMap.html',1,'MR']]],
-  ['distancemaptoworld_11',['DistanceMapToWorld',['../structMR_1_1DistanceMapToWorld.html',1,'MR']]],
-  ['distmapimprovedirectionparameters_12',['DistMapImproveDirectionParameters',['../structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html',1,'MR::FixUndercuts']]],
-  ['dragdroplistener_13',['DragDropListener',['../structMR_1_1DragDropListener.html',1,'MR']]],
-  ['drawbuttonparams_14',['DrawButtonParams',['../structMR_1_1DrawButtonParams.html',1,'MR']]],
-  ['drawgroupconfig_15',['DrawGroupConfig',['../structMR_1_1RibbonMenu_1_1DrawGroupConfig.html',1,'MR::RibbonMenu']]],
-  ['drawlistener_16',['DrawListener',['../structMR_1_1DrawListener.html',1,'MR']]]
+  ['dipole_10',['Dipole',['../structMR_1_1IFastWindingNumber_1_1Dipole.html',1,'MR::IFastWindingNumber']]],
+  ['distancemap_11',['DistanceMap',['../classMR_1_1DistanceMap.html',1,'MR']]],
+  ['distancemaptoworld_12',['DistanceMapToWorld',['../structMR_1_1DistanceMapToWorld.html',1,'MR']]],
+  ['distmapimprovedirectionparameters_13',['DistMapImproveDirectionParameters',['../structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html',1,'MR::FixUndercuts']]],
+  ['dragdroplistener_14',['DragDropListener',['../structMR_1_1DragDropListener.html',1,'MR']]],
+  ['drawbuttonparams_15',['DrawButtonParams',['../structMR_1_1DrawButtonParams.html',1,'MR']]],
+  ['drawgroupconfig_16',['DrawGroupConfig',['../structMR_1_1RibbonMenu_1_1DrawGroupConfig.html',1,'MR::RibbonMenu']]],
+  ['drawlistener_17',['DrawListener',['../structMR_1_1DrawListener.html',1,'MR']]]
 ];

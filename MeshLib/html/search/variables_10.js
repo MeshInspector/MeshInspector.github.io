@@ -23,5 +23,6 @@ var searchData=
   ['rotangles_20',['rotAngles',['../structMR_1_1PointToPlaneAligningTransform_1_1Amendment.html#abc3ac9ecd9cd388aff8e3bc56940f80a',1,'MR::PointToPlaneAligningTransform::Amendment']]],
   ['rotatescale_21',['rotateScale',['../structMR_1_1SpaceMouseController_1_1Params.html#ace83fc4d9751e862ec88cbefbbe512df',1,'MR::SpaceMouseController::Params']]],
   ['rotationcolors_22',['rotationColors',['../structMR_1_1ObjectTransformWidget_1_1Params.html#af2761b86dd5b3accdbc50470642ab702',1,'MR::ObjectTransformWidget::Params']]],
-  ['rotationsphere_23',['rotationSphere',['../classMR_1_1Viewer.html#a73342d4ca83f292c18e3174035e61d2e',1,'MR::Viewer']]]
+  ['rotationsphere_23',['rotationSphere',['../classMR_1_1Viewer.html#a73342d4ca83f292c18e3174035e61d2e',1,'MR::Viewer']]],
+  ['rr_24',['rr',['../structMR_1_1IFastWindingNumber_1_1Dipole.html#a4b469c484add438fa0abf1468e967b53',1,'MR::IFastWindingNumber::Dipole']]]
 ];

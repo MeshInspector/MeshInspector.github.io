@@ -2,6 +2,7 @@ var annotated_dup =
 [
     [ "MR", "namespaceMR.html", [
       [ "Cuda", "namespaceMR_1_1Cuda.html", [
+        [ "FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", "classMR_1_1Cuda_1_1FastWindingNumber" ],
         [ "PointsToMeshProjector", "classMR_1_1Cuda_1_1PointsToMeshProjector.html", "classMR_1_1Cuda_1_1PointsToMeshProjector" ]
       ] ],
       [ "FixUndercuts", "namespaceMR_1_1FixUndercuts.html", [
@@ -163,6 +164,7 @@ var annotated_dup =
       [ "Id", "classMR_1_1Id.html", "classMR_1_1Id" ],
       [ "Id< EdgeTag >", "classMR_1_1Id_3_01EdgeTag_01_4.html", "classMR_1_1Id_3_01EdgeTag_01_4" ],
       [ "Id< VoxelTag >", "classMR_1_1Id_3_01VoxelTag_01_4.html", "classMR_1_1Id_3_01VoxelTag_01_4" ],
+      [ "IFastWindingNumber", "classMR_1_1IFastWindingNumber.html", "classMR_1_1IFastWindingNumber" ],
       [ "Image", "structMR_1_1Image.html", "structMR_1_1Image" ],
       [ "ImGuiImage", "classMR_1_1ImGuiImage.html", "classMR_1_1ImGuiImage" ],
       [ "InterruptCloseListener", "structMR_1_1InterruptCloseListener.html", "structMR_1_1InterruptCloseListener" ],
@@ -308,6 +310,7 @@ var annotated_dup =
       [ "RangeCounter", "classMR_1_1RangeCounter.html", "classMR_1_1RangeCounter" ],
       [ "RangeProcessor", "classMR_1_1RangeProcessor.html", "classMR_1_1RangeProcessor" ],
       [ "RangeProcessorSingle", "classMR_1_1RangeProcessorSingle.html", "classMR_1_1RangeProcessorSingle" ],
+      [ "RangeProgress", "classMR_1_1RangeProgress.html", "classMR_1_1RangeProgress" ],
       [ "RangeSize", "structMR_1_1RangeSize.html", "structMR_1_1RangeSize" ],
       [ "RayOrigin", "structMR_1_1RayOrigin.html", "structMR_1_1RayOrigin" ],
       [ "RecentFilesStore", "classMR_1_1RecentFilesStore.html", "classMR_1_1RecentFilesStore" ],

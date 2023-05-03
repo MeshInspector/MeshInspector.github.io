@@ -443,6 +443,9 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Id_3_01VoxelTag_01_4.html">Id&lt; VoxelTag &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IFastWindingNumber.html">IFastWindingNumber</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract class for fast approximate computation of winding number for a mesh (using its AABB tree). Pure virtual finctions must be implemented.  <a href="classMR_1_1IFastWindingNumber.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Image.html">Image</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ImGuiImage.html">ImGuiImage</a></td></tr>
@@ -748,6 +751,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RangeProcessorSingle.html">RangeProcessorSingle</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to use in tbb::parallel_reduce for tree operations that do not require an output tree.  <a href="classMR_1_1RangeProcessorSingle.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RangeProgress.html">RangeProgress</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RangeSize.html">RangeSize</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1895,6 +1900,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gac6d17c4184b537a5ae4eb116c1948fc7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gac6d17c4184b537a5ae4eb116c1948fc7"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gac6d17c4184b537a5ae4eb116c1948fc7">operator-</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;a, const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="separator:gac6d17c4184b537a5ae4eb116c1948fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga07688e626ceb45b29291dc809fed5038"><td class="memTemplParams" colspan="2">template&lt;typename IndexType , typename F &gt; </td></tr>
+<tr class="memitem:ga07688e626ceb45b29291dc809fed5038"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga07688e626ceb45b29291dc809fed5038">BitSetParallelForAll</a> (IndexType <a class="el" href="group__BasicGroup.html#ga25c73b1f9e5d5df34b153869e3cb5515">begin</a>, IndexType <a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, F f)</td></tr>
+<tr class="separator:ga07688e626ceb45b29291dc809fed5038"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaec1d8613d38041fae09f290f342a4995"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F &gt; </td></tr>
 <tr class="memitem:gaec1d8613d38041fae09f290f342a4995"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gaec1d8613d38041fae09f290f342a4995">BitSetParallelForAll</a> (const BS &amp;bs, F f)</td></tr>
 <tr class="separator:gaec1d8613d38041fae09f290f342a4995"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2711,6 +2719,18 @@ Functions</h2></td></tr>
 <tr class="separator:aaf96c4ae6f54b13630e2800975f7b4c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92ff5703efae9bb282ac16c6d9876e01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a4dfa62cab48a2e5965060201a796da44">UndirectedEdgeBMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a92ff5703efae9bb282ac16c6d9876e01">getEdgeOrdering</a> (const <a class="el" href="namespaceMR.html#a9ff8538fbd804e0f9c7aa814bbb3ed80">FaceBMap</a> &amp;faceMap, const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology)</td></tr>
 <tr class="separator:a92ff5703efae9bb282ac16c6d9876e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0f1d9c02d9be540b9ebb830334428fe5"><td class="memTemplParams" colspan="2">template&lt;typename I , typename F &gt; </td></tr>
+<tr class="memitem:ga0f1d9c02d9be540b9ebb830334428fe5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga0f1d9c02d9be540b9ebb830334428fe5">ParallelFor</a> (I <a class="el" href="group__BasicGroup.html#ga25c73b1f9e5d5df34b153869e3cb5515">begin</a>, I <a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, F &amp;&amp;f)</td></tr>
+<tr class="memdesc:ga0f1d9c02d9be540b9ebb830334428fe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">executes given function f for each span element [begin, end)  <br /></td></tr>
+<tr class="separator:ga0f1d9c02d9be540b9ebb830334428fe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaf3accb22f578d08b9b0eba2e269f857"><td class="memTemplParams" colspan="2">template&lt;typename T , typename F &gt; </td></tr>
+<tr class="memitem:gaaf3accb22f578d08b9b0eba2e269f857"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gaaf3accb22f578d08b9b0eba2e269f857">ParallelFor</a> (const std::vector&lt; T &gt; &amp;v, F &amp;&amp;f)</td></tr>
+<tr class="memdesc:gaaf3accb22f578d08b9b0eba2e269f857"><td class="mdescLeft">&#160;</td><td class="mdescRight">executes given function f for each vector element in parallel threads  <br /></td></tr>
+<tr class="separator:gaaf3accb22f578d08b9b0eba2e269f857"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaef0ac65102a308d1ecacb7e2b3a65093"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I , typename F &gt; </td></tr>
+<tr class="memitem:gaef0ac65102a308d1ecacb7e2b3a65093"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gaef0ac65102a308d1ecacb7e2b3a65093">ParallelFor</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;v, F &amp;&amp;f)</td></tr>
+<tr class="memdesc:gaef0ac65102a308d1ecacb7e2b3a65093"><td class="mdescLeft">&#160;</td><td class="mdescRight">executes given function f for each vector element in parallel threads  <br /></td></tr>
+<tr class="separator:gaef0ac65102a308d1ecacb7e2b3a65093"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af17d27eb299ddf42c199adbce4f5f586"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af17d27eb299ddf42c199adbce4f5f586">partialOffsetMesh</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float offset, const <a class="el" href="structMR_1_1OffsetParameters.html">OffsetParameters</a> &amp;params={})</td></tr>
 <tr class="separator:af17d27eb299ddf42c199adbce4f5f586"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga695acdfda1d1ac2dfb788797441ae0eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5">VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointCloudGroup.html#ga695acdfda1d1ac2dfb788797441ae0eb">makeNormals</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, int avgNeighborhoodSize=3 *<a class="el" href="classMR_1_1AABBTreePoints.html#a797d5bcdfaacbc53e37b10ddac496527">AABBTreePoints::MaxNumPointsInLeaf</a>)</td></tr>
@@ -3527,10 +3547,10 @@ Functions</h2></td></tr>
 <tr class="separator:a852f2b0e5a98125b103fc9b31ed20d82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f4142ce56635a4d11deda7730a7fb00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3f4142ce56635a4d11deda7730a7fb00">gridToMesh</a> (<a class="el" href="namespaceMR.html#a3048dff41173426f92713cbb8cf3784a">VdbVolume</a> &amp;&amp;vdbVolume, int maxFaces, float isoValue=0.0f, float adaptivity=0.0f, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="separator:a3f4142ce56635a4d11deda7730a7fb00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66f0ac0becf319472a05f5f6cf7cf93f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#abc0c7c90dd12e914016d628ab674d1ae">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a66f0ac0becf319472a05f5f6cf7cf93f">makeSignedWithFastWinding</a> (<a class="el" href="namespaceMR.html#a9890285ad43692fd93527cf824b1b9bf">FloatGrid</a> &amp;grid, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;voxelSize, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;refMesh, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;meshToGridXf={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
-<tr class="separator:a66f0ac0becf319472a05f5f6cf7cf93f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a841edb266cf1e056637d35c94efac107"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a841edb266cf1e056637d35c94efac107">levelSetDoubleConvertion</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;xf, float voxelSize, float offsetA, float offsetB, float adaptivity=0.0f, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
-<tr class="separator:a841edb266cf1e056637d35c94efac107"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6a177a323808905b0cd3ed3e25d2480"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#abc0c7c90dd12e914016d628ab674d1ae">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa6a177a323808905b0cd3ed3e25d2480">makeSignedWithFastWinding</a> (<a class="el" href="namespaceMR.html#a9890285ad43692fd93527cf824b1b9bf">FloatGrid</a> &amp;grid, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;voxelSize, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;refMesh, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;meshToGridXf={}, std::shared_ptr&lt; <a class="el" href="classMR_1_1IFastWindingNumber.html">IFastWindingNumber</a> &gt; fwn={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:aa6a177a323808905b0cd3ed3e25d2480"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb2da4eeef8715a8d492df8f29a6cbbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aeb2da4eeef8715a8d492df8f29a6cbbb">levelSetDoubleConvertion</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;xf, float voxelSize, float offsetA, float offsetB, float adaptivity=0.0f, std::shared_ptr&lt; <a class="el" href="classMR_1_1IFastWindingNumber.html">IFastWindingNumber</a> &gt; fwn={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:aeb2da4eeef8715a8d492df8f29a6cbbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4d72fd2721a090560c9d14e0c558e4a"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
 <tr class="memitem:ad4d72fd2721a090560c9d14e0c558e4a"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ad4d72fd2721a090560c9d14e0c558e4a">begin</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;a)</td></tr>
 <tr class="separator:ad4d72fd2721a090560c9d14e0c558e4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -11401,8 +11421,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a841edb266cf1e056637d35c94efac107" name="a841edb266cf1e056637d35c94efac107"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a841edb266cf1e056637d35c94efac107">&#9670;&#160;</a></span>levelSetDoubleConvertion()</h2>
+<a id="aeb2da4eeef8715a8d492df8f29a6cbbb" name="aeb2da4eeef8715a8d492df8f29a6cbbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb2da4eeef8715a8d492df8f29a6cbbb">&#9670;&#160;</a></span>levelSetDoubleConvertion()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -11446,6 +11466,12 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classMR_1_1IFastWindingNumber.html">IFastWindingNumber</a> &gt;&#160;</td>
+          <td class="paramname"><em>fwn</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
           <td class="paramname"><em>cb</em> = <code>{}</code>&#160;</td>
         </tr>
@@ -11456,6 +11482,12 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fwn</td><td>defines particular implementation of <a class="el" href="classMR_1_1IFastWindingNumber.html" title="Abstract class for fast approximate computation of winding number for a mesh (using its AABB tree)....">IFastWindingNumber</a> interface that will compute windings. If it is not specified, default <a class="el" href="classMR_1_1FastWindingNumber.html">FastWindingNumber</a> is used </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -12035,8 +12067,8 @@ template&lt;typename RenderObjType &gt; </div>
 
 </div>
 </div>
-<a id="a66f0ac0becf319472a05f5f6cf7cf93f" name="a66f0ac0becf319472a05f5f6cf7cf93f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66f0ac0becf319472a05f5f6cf7cf93f">&#9670;&#160;</a></span>makeSignedWithFastWinding()</h2>
+<a id="aa6a177a323808905b0cd3ed3e25d2480" name="aa6a177a323808905b0cd3ed3e25d2480"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6a177a323808905b0cd3ed3e25d2480">&#9670;&#160;</a></span>makeSignedWithFastWinding()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12068,6 +12100,12 @@ template&lt;typename RenderObjType &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classMR_1_1IFastWindingNumber.html">IFastWindingNumber</a> &gt;&#160;</td>
+          <td class="paramname"><em>fwn</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
           <td class="paramname"><em>cb</em> = <code>{}</code>&#160;</td>
         </tr>
@@ -12081,6 +12119,7 @@ template&lt;typename RenderObjType &gt; </div>
 <p>set signs for unsigned distance field grid using refMesh <a class="el" href="classMR_1_1FastWindingNumber.html">FastWindingNumber</a>; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">meshToVoxelsXf</td><td>defines the mapping from mesh reference from to grid reference frame </td></tr>
+    <tr><td class="paramname">fwn</td><td>defines particular implementation of <a class="el" href="classMR_1_1IFastWindingNumber.html" title="Abstract class for fast approximate computation of winding number for a mesh (using its AABB tree)....">IFastWindingNumber</a> interface that will compute windings. If it is not specified, default <a class="el" href="classMR_1_1FastWindingNumber.html">FastWindingNumber</a> is used </td></tr>
   </table>
   </dd>
 </dl>

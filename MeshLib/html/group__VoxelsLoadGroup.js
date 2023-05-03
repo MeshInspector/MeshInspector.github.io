@@ -2,7 +2,8 @@ var group__VoxelsLoadGroup =
 [
     [ "MR::VoxelsLoad::LoadDCMResult", "structMR_1_1VoxelsLoad_1_1LoadDCMResult.html", [
       [ "name", "structMR_1_1VoxelsLoad_1_1LoadDCMResult.html#a02d9679ab2619756de63d60f776f5576", null ],
-      [ "vdbVolume", "structMR_1_1VoxelsLoad_1_1LoadDCMResult.html#ad251cc090b7e2a1f78c463d1222e2d2e", null ]
+      [ "vdbVolume", "structMR_1_1VoxelsLoad_1_1LoadDCMResult.html#ad251cc090b7e2a1f78c463d1222e2d2e", null ],
+      [ "xf", "structMR_1_1VoxelsLoad_1_1LoadDCMResult.html#a2584a9413c0faa88812fa6bd8c1f78ce", null ]
     ] ],
     [ "MR::VoxelsLoad::RawParameters", "structMR_1_1VoxelsLoad_1_1RawParameters.html", [
       [ "ScalarType", "structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529b", [

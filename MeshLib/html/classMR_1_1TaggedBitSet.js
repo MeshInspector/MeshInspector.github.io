@@ -31,6 +31,7 @@ var classMR_1_1TaggedBitSet =
     [ "set", "classMR_1_1TaggedBitSet.html#a98ccb19e2e3ba5f4c57b37ed2006d0f5", null ],
     [ "set", "classMR_1_1TaggedBitSet.html#af3cd6bf0974a936ab1030c7fbe1f5c52", null ],
     [ "set", "classMR_1_1TaggedBitSet.html#a81fe4e5857f45ab2eddfb174450a8caf", null ],
+    [ "subtract", "classMR_1_1TaggedBitSet.html#a87f51918d1a76daae1ca25f86c7857c2", null ],
     [ "test", "classMR_1_1TaggedBitSet.html#a1d9ad007c077a26b967a76773068474f", null ],
     [ "test_set", "classMR_1_1TaggedBitSet.html#a0e2dd799849e2ded19245ed49b89be0d", null ]
 ];

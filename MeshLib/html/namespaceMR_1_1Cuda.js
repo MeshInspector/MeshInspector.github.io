@@ -1,5 +1,6 @@
 var namespaceMR_1_1Cuda =
 [
+    [ "FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", "classMR_1_1Cuda_1_1FastWindingNumber" ],
     [ "PointsToMeshProjector", "classMR_1_1Cuda_1_1PointsToMeshProjector.html", "classMR_1_1Cuda_1_1PointsToMeshProjector" ],
     [ "distanceMapFromContours", "namespaceMR_1_1Cuda.html#ad257bedcdc1831b1df160989c3047f7d", null ],
     [ "getCudaAvailableMemory", "namespaceMR_1_1Cuda.html#ae3d6344c4c9b5959665fdde2ddc4a838", null ],

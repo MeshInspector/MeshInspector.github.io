@@ -24,6 +24,6 @@ var searchData=
   ['postrescalesignal_21',['PostRescaleSignal',['../classMR_1_1Viewer.html#a448a65e5c8e0f80950482647b4d8a786',1,'MR::Viewer']]],
   ['postresizesignal_22',['PostResizeSignal',['../classMR_1_1Viewer.html#ab7f0983455b1dfa5ccae593d205470d9',1,'MR::Viewer']]],
   ['progresscallback_23',['ProgressCallback',['../group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710',1,'MR']]],
-  ['progressfunc_24',['ProgressFunc',['../classMR_1_1RangeProcessorSingle.html#a2951162b5e155047dba82773dc248a7b',1,'MR::RangeProcessorSingle']]],
+  ['progressholder_24',['ProgressHolder',['../classMR_1_1RangeProcessorSingle.html#a18c7b1c6f5f3eb4ab1f683819ab2526b',1,'MR::RangeProcessorSingle']]],
   ['pythonregisterfuncton_25',['PythonRegisterFuncton',['../classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c',1,'MR::PythonExport']]]
 ];

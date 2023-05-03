@@ -17,7 +17,7 @@ var searchData=
   ['norm_14',['norm',['../structMR_1_1VertPair.html#af4b7726831024947b81d31104d195e36',1,'MR::VertPair']]],
   ['normals_15',['normals',['../structMR_1_1PointCloud.html#a754014b3ec644e0e61f1b3c37704065a',1,'MR::PointCloud']]],
   ['normalsanglecos_16',['normalsAngleCos',['../structMR_1_1VertPair.html#aa5935036a40e161c0f835cc0c2ce6e2c',1,'MR::VertPair']]],
-  ['normmatrixptr_17',['normMatrixPtr',['../structMR_1_1BaseRenderParams.html#aa5cfab33b5c87b9d0b7f08b677f5eca2',1,'MR::BaseRenderParams']]],
+  ['normmatrixptr_17',['normMatrixPtr',['../structMR_1_1BaseRenderParams.html#a971fd4707e7133b504753698633ad416',1,'MR::BaseRenderParams']]],
   ['normref_18',['normRef',['../structMR_1_1VertPair.html#a6f8e131bf9b306b1c0170663da85708c',1,'MR::VertPair']]],
   ['notflippable_19',['notFlippable',['../structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27',1,'MR::DeloneSettings::notFlippable()'],['../structMR_1_1SubdivideSettings.html#a688163b4d6a35f5b8af9748a92167d62',1,'MR::SubdivideSettings::notFlippable()'],['../structMR_1_1RemeshSettings.html#a1629080d08e27d81f953b64589e06434',1,'MR::RemeshSettings::notFlippable()']]],
   ['number_20',['number',['../structMR_1_1ShaderWarning.html#abb95321aeb350840573cff7f04e36f33',1,'MR::ShaderWarning']]],

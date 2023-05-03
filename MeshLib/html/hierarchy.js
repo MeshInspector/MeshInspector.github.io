@@ -130,6 +130,7 @@ var hierarchy =
     [ "MR::DeloneSettings", "structMR_1_1DeloneSettings.html", null ],
     [ "MR::DenseBox", "structMR_1_1DenseBox.html", null ],
     [ "MR::RibbonMenu::DialogItemPtr", "structMR_1_1RibbonMenu_1_1DialogItemPtr.html", null ],
+    [ "MR::IFastWindingNumber::Dipole", "structMR_1_1IFastWindingNumber_1_1Dipole.html", null ],
     [ "MR::DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html", null ],
     [ "MR::DrawButtonParams", "structMR_1_1DrawButtonParams.html", null ],
     [ "MR::RibbonMenu::DrawGroupConfig", "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html", null ],
@@ -158,7 +159,6 @@ var hierarchy =
     [ "MR::Viewer::EventQueue", "classMR_1_1Viewer_1_1EventQueue.html", null ],
     [ "MR::FaceFace", "structMR_1_1FaceFace.html", null ],
     [ "MR::MeshBuilder::FaceRecord", "structMR_1_1MeshBuilder_1_1FaceRecord.html", null ],
-    [ "MR::FastWindingNumber", "classMR_1_1FastWindingNumber.html", null ],
     [ "MR::File", "classMR_1_1File.html", null ],
     [ "MR::FileParameters", "structMR_1_1FileParameters.html", null ],
     [ "MR::FillHoleItem", "structMR_1_1FillHoleItem.html", null ],
@@ -205,6 +205,7 @@ var hierarchy =
       [ "MR::ChangeVertsColorMapAction", "classMR_1_1ChangeVertsColorMapAction.html", null ],
       [ "MR::ChangeXfAction", "classMR_1_1ChangeXfAction.html", null ],
       [ "MR::CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html", null ],
+      [ "MR::ObjectTransformWidget::ChangeParamsAction", "classMR_1_1ObjectTransformWidget_1_1ChangeParamsAction.html", null ],
       [ "MR::ObjectTransformWidget::ChangeXfAction", "classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html", null ],
       [ "MR::SwapRootAction", "classMR_1_1SwapRootAction.html", null ]
     ] ],
@@ -244,6 +245,10 @@ var hierarchy =
     [ "MR::Id< UndirectedEdgeTag >", "classMR_1_1Id.html", null ],
     [ "MR::Id< VertTag >", "classMR_1_1Id.html", null ],
     [ "MR::Id< VoxelTag >", "classMR_1_1Id_3_01VoxelTag_01_4.html", null ],
+    [ "MR::IFastWindingNumber", "classMR_1_1IFastWindingNumber.html", [
+      [ "MR::Cuda::FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", null ],
+      [ "MR::FastWindingNumber", "classMR_1_1FastWindingNumber.html", null ]
+    ] ],
     [ "MR::Image", "structMR_1_1Image.html", [
       [ "MR::MeshTexture", "structMR_1_1MeshTexture.html", null ]
     ] ],
@@ -469,6 +474,7 @@ var hierarchy =
     [ "MR::RangeCounter< TreeT >", "classMR_1_1RangeCounter.html", null ],
     [ "MR::RangeProcessor< TreeT, Transformer >", "classMR_1_1RangeProcessor.html", null ],
     [ "MR::RangeProcessorSingle< TreeT, Proc >", "classMR_1_1RangeProcessorSingle.html", null ],
+    [ "MR::RangeProgress", "classMR_1_1RangeProgress.html", null ],
     [ "MR::RangeSize", "structMR_1_1RangeSize.html", null ],
     [ "MR::VoxelsLoad::RawParameters", "structMR_1_1VoxelsLoad_1_1RawParameters.html", null ],
     [ "MR::RayOrigin< T >", "structMR_1_1RayOrigin.html", null ],
@@ -588,7 +594,6 @@ var hierarchy =
     [ "MR::Vector< char, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< Color, Id< Tag > >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< Color, VertId >", "classMR_1_1Vector.html", null ],
-    [ "MR::Vector< Dipole, NodeId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< EdgeId, UndirectedEdgeId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< FaceId, FaceId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< float, MR::Id >", "classMR_1_1Vector.html", null ],

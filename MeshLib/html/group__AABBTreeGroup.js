@@ -1,5 +1,12 @@
 var group__AABBTreeGroup =
 [
+    [ "MR::Cuda::FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", [
+      [ "FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html#afed4d0df31eef8da93ca2d843c3a8a63", null ],
+      [ "calcFromGrid", "classMR_1_1Cuda_1_1FastWindingNumber.html#aaffdaa94ec1f37b92b544605e34cb3ad", null ],
+      [ "calcFromGridWithDistances", "classMR_1_1Cuda_1_1FastWindingNumber.html#ab3d9b87d0388d7f1e270dd36b05287ea", null ],
+      [ "calcFromVector", "classMR_1_1Cuda_1_1FastWindingNumber.html#a35e0cc2dc56bc04f17a91c42a4b3b418", null ],
+      [ "calcSelfIntersections", "classMR_1_1Cuda_1_1FastWindingNumber.html#a3df31b9ded3b0bafa144cdc7984edaef", null ]
+    ] ],
     [ "MR::AABBTree", "classMR_1_1AABBTree.html", [
       [ "Node", "classMR_1_1AABBTree.html#aa37a7e9d75af0fd6054032c0dab496d9", null ],
       [ "NodeBitSet", "classMR_1_1AABBTree.html#a14be9f478ec6272d18dc330bd8c94b38", null ],
@@ -105,9 +112,12 @@ var group__AABBTreeGroup =
       [ "bUndirEdge", "structMR_1_1UndirectedEdgeUndirectedEdge.html#a535f1290920a2d84945d8cc8989397c6", null ]
     ] ],
     [ "MR::FastWindingNumber", "classMR_1_1FastWindingNumber.html", [
-      [ "NodeId", "classMR_1_1FastWindingNumber.html#ab473858eb2040691d2defbe50942bcfb", null ],
       [ "FastWindingNumber", "classMR_1_1FastWindingNumber.html#a6af89b7c93e4591719b2ffd0eeeffd07", null ],
-      [ "calc", "classMR_1_1FastWindingNumber.html#a03be0613f5f63cea05547e78110bdd10", null ]
+      [ "calc", "classMR_1_1FastWindingNumber.html#a03be0613f5f63cea05547e78110bdd10", null ],
+      [ "calcFromGrid", "classMR_1_1FastWindingNumber.html#a8cdc6759f69f82d77525f01bb499d033", null ],
+      [ "calcFromGridWithDistances", "classMR_1_1FastWindingNumber.html#a35926cee7a0727ab29f9225844e6e114", null ],
+      [ "calcFromVector", "classMR_1_1FastWindingNumber.html#a82d4def3598d0d1ac98ec04c7cdb4841", null ],
+      [ "calcSelfIntersections", "classMR_1_1FastWindingNumber.html#a6de12c6f99cfa33d64cc24e4d42426d5", null ]
     ] ],
     [ "MR::IntersectionPrecomputes< T >", "structMR_1_1IntersectionPrecomputes.html", [
       [ "IntersectionPrecomputes", "group__AABBTreeGroup.html#ga9984ed4cff38cd012243e835f02e0e92", null ],
