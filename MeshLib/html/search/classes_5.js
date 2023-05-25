@@ -9,11 +9,12 @@ var searchData=
   ['fillholemetric_6',['FillHoleMetric',['../structMR_1_1FillHoleMetric.html',1,'MR']]],
   ['fillholeparams_7',['FillHoleParams',['../structMR_1_1FillHoleParams.html',1,'MR']]],
   ['fillholeplan_8',['FillHolePlan',['../structMR_1_1FillHolePlan.html',1,'MR']]],
-  ['fitboxparams_9',['FitBoxParams',['../structMR_1_1Viewport_1_1FitBoxParams.html',1,'MR::Viewport']]],
-  ['fitdatamenuitem_10',['FitDataMenuItem',['../classMR_1_1FitDataMenuItem.html',1,'MR']]],
-  ['fitdataparams_11',['FitDataParams',['../structMR_1_1Viewport_1_1FitDataParams.html',1,'MR::Viewport']]],
-  ['fitselectedobjectsmenuitem_12',['FitSelectedObjectsMenuItem',['../classMR_1_1FitSelectedObjectsMenuItem.html',1,'MR']]],
-  ['fitselectedprimitivesmenuitem_13',['FitSelectedPrimitivesMenuItem',['../classMR_1_1FitSelectedPrimitivesMenuItem.html',1,'MR']]],
-  ['fixspikesplugin_14',['FixSpikesPlugin',['../classMR_1_1FixSpikesPlugin.html',1,'MR']]],
-  ['freeformdeformer_15',['FreeFormDeformer',['../classMR_1_1FreeFormDeformer.html',1,'MR']]]
+  ['findoverlappingsettings_9',['FindOverlappingSettings',['../structMR_1_1FindOverlappingSettings.html',1,'MR']]],
+  ['fitboxparams_10',['FitBoxParams',['../structMR_1_1Viewport_1_1FitBoxParams.html',1,'MR::Viewport']]],
+  ['fitdatamenuitem_11',['FitDataMenuItem',['../classMR_1_1FitDataMenuItem.html',1,'MR']]],
+  ['fitdataparams_12',['FitDataParams',['../structMR_1_1Viewport_1_1FitDataParams.html',1,'MR::Viewport']]],
+  ['fitselectedobjectsmenuitem_13',['FitSelectedObjectsMenuItem',['../classMR_1_1FitSelectedObjectsMenuItem.html',1,'MR']]],
+  ['fitselectedprimitivesmenuitem_14',['FitSelectedPrimitivesMenuItem',['../classMR_1_1FitSelectedPrimitivesMenuItem.html',1,'MR']]],
+  ['fixspikesplugin_15',['FixSpikesPlugin',['../classMR_1_1FixSpikesPlugin.html',1,'MR']]],
+  ['freeformdeformer_16',['FreeFormDeformer',['../classMR_1_1FreeFormDeformer.html',1,'MR']]]
 ];

@@ -7,6 +7,7 @@ var MRUIStyle_8h =
     [ "checkbox", "MRUIStyle_8h.html#a53a8b0ecd1302a3bda2f1df01ef818a8", null ],
     [ "checkbox", "MRUIStyle_8h.html#a9542cf007c0f98d41fea874268894222", null ],
     [ "checkboxMixed", "MRUIStyle_8h.html#ab4909c09a4671c9b042825346cf6f637", null ],
+    [ "checkboxValid", "MRUIStyle_8h.html#a877e7bd4fbef2de7e95cee03dc0f71b3", null ],
     [ "colorEdit4", "MRUIStyle_8h.html#aaa136c1366383c9c03db4f4b7520c2a6", null ],
     [ "combo", "MRUIStyle_8h.html#a820aa2a94b65ad7536194e8527f89a12", null ],
     [ "init", "MRUIStyle_8h.html#a986e400ed59dea0ae3e54284d9b8d110", null ],

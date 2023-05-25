@@ -12,9 +12,10 @@ var MRVoxelsLoad_8h =
     [ "fromRaw", "MRVoxelsLoad_8h.html#ga5b4378df9f101407bec6afd66aaedf44", null ],
     [ "fromRaw", "MRVoxelsLoad_8h.html#gaa68f95ea5ae9cac4242602891502796a", null ],
     [ "fromVdb", "MRVoxelsLoad_8h.html#ga10a67c6a1ada16cbdff347d58f17f8f9", null ],
-    [ "loadDCMFile", "MRVoxelsLoad_8h.html#ga5d4ef6e1461442b265eb8dd76ee4439b", null ],
     [ "loadDCMFolder", "MRVoxelsLoad_8h.html#ga8956bf1e7728989d5e44e8c2848c9e84", null ],
     [ "loadDCMFolderTree", "MRVoxelsLoad_8h.html#ga8fa3ce2473c0f885b7ce6b332a1c6886", null ],
+    [ "loadDicomFile", "MRVoxelsLoad_8h.html#ga978cdc004f6fb6b35e0a122e3558144e", null ],
+    [ "loadDicomFolder", "MRVoxelsLoad_8h.html#ga5526343140e404407ab5852a065c46b8", null ],
     [ "loadTiffDir", "MRVoxelsLoad_8h.html#ab0df0eea4c7e0d21bc2fcfc4a9d0c523", null ],
     [ "sortFilesByName", "MRVoxelsLoad_8h.html#ga9dea5760f438e7cd068a17cd2fba73d3", null ],
     [ "Filters", "MRVoxelsLoad_8h.html#gaf1ddae6fda30ae38508797dc691653d3", null ]

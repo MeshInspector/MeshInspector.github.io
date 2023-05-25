@@ -16,5 +16,6 @@ var MRTriMath_8h =
     [ "normal", "MRTriMath_8h.html#a668bccb3edee9cdfebdbdc80a502dde5", null ],
     [ "posFromTriEdgeLengths", "MRTriMath_8h.html#adb201ccd9ee730c7d901673288740ce6", null ],
     [ "quadrangleOtherDiagonal", "MRTriMath_8h.html#a5297fdab91151bf439ef0099926fc204", null ],
-    [ "triangleAspectRatio", "MRTriMath_8h.html#ga2fbcc5b76ec7e12da86bc99895ac6fc9", null ]
+    [ "triangleAspectRatio", "MRTriMath_8h.html#ga2fbcc5b76ec7e12da86bc99895ac6fc9", null ],
+    [ "triangleWithNormal", "MRTriMath_8h.html#a5b210182919ce9a4fe5cdce5115f4cc3", null ]
 ];

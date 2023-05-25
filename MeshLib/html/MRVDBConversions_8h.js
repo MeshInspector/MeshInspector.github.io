@@ -1,12 +1,15 @@
 var MRVDBConversions_8h =
 [
     [ "MR::MeshToVolumeParams", "structMR_1_1MeshToVolumeParams.html", "structMR_1_1MeshToVolumeParams" ],
+    [ "MR::GridToMeshSettings", "structMR_1_1GridToMeshSettings.html", "structMR_1_1GridToMeshSettings" ],
     [ "evalGridMinMax", "MRVDBConversions_8h.html#a2e6444f6867bfa54d04d95f86200e5c0", null ],
     [ "floatGridToVdbVolume", "MRVDBConversions_8h.html#ae716e7a1520f3b8199070715f9ef65db", null ],
+    [ "gridToMesh", "MRVDBConversions_8h.html#a05cdbc40978accc2426bf9716148f15a", null ],
     [ "gridToMesh", "MRVDBConversions_8h.html#a762fb71d630a644ef843b1677768131c", null ],
     [ "gridToMesh", "MRVDBConversions_8h.html#aa5b67500b150bd2773afff32ef0b6c89", null ],
     [ "gridToMesh", "MRVDBConversions_8h.html#a4a55548734c2d8fc044c50b7584b5ab1", null ],
     [ "gridToMesh", "MRVDBConversions_8h.html#a852f2b0e5a98125b103fc9b31ed20d82", null ],
+    [ "gridToMesh", "MRVDBConversions_8h.html#aa79561ab5bfecb45944926943ad622f3", null ],
     [ "gridToMesh", "MRVDBConversions_8h.html#ad728e4e10a8a165ae2fc027c27b42e35", null ],
     [ "gridToMesh", "MRVDBConversions_8h.html#a552ecf8f6d0a0dca7cdeb43838df429f", null ],
     [ "gridToMesh", "MRVDBConversions_8h.html#a8b43b352e35728efe1e27888532ff5ba", null ],

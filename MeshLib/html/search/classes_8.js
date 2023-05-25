@@ -17,11 +17,13 @@ var searchData=
   ['intersectionprecomputes_14',['IntersectionPrecomputes',['../structMR_1_1IntersectionPrecomputes.html',1,'MR']]],
   ['intersectionprecomputes2_15',['IntersectionPrecomputes2',['../structMR_1_1IntersectionPrecomputes2.html',1,'MR']]],
   ['iofilter_16',['IOFilter',['../structMR_1_1IOFilter.html',1,'MR']]],
-  ['ipluginclosecheck_17',['IPluginCloseCheck',['../classMR_1_1IPluginCloseCheck.html',1,'MR']]],
+  ['ipluginupdate_17',['IPluginUpdate',['../classMR_1_1IPluginUpdate.html',1,'MR']]],
   ['ipointstomeshprojector_18',['IPointsToMeshProjector',['../classMR_1_1IPointsToMeshProjector.html',1,'MR']]],
   ['irenderobject_19',['IRenderObject',['../classMR_1_1IRenderObject.html',1,'MR']]],
   ['isceneselectionchange_20',['ISceneSelectionChange',['../classMR_1_1ISceneSelectionChange.html',1,'MR']]],
   ['iscenestatecheck_21',['ISceneStateCheck',['../classMR_1_1ISceneStateCheck.html',1,'MR']]],
-  ['iteratorrange_22',['IteratorRange',['../structMR_1_1IteratorRange.html',1,'MR']]],
-  ['iviewersettingsmanager_23',['IViewerSettingsManager',['../classMR_1_1IViewerSettingsManager.html',1,'MR']]]
+  ['isolver_22',['ISolver',['../classMR_1_1NormalsToPoints_1_1ISolver.html',1,'MR::NormalsToPoints']]],
+  ['iteratorrange_23',['IteratorRange',['../structMR_1_1IteratorRange.html',1,'MR']]],
+  ['itransformcontrols_24',['ITransformControls',['../classMR_1_1ITransformControls.html',1,'MR']]],
+  ['iviewersettingsmanager_25',['IViewerSettingsManager',['../classMR_1_1IViewerSettingsManager.html',1,'MR']]]
 ];

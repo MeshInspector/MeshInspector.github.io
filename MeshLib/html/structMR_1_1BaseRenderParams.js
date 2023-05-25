@@ -1,6 +1,7 @@
 var structMR_1_1BaseRenderParams =
 [
     [ "clipPlane", "structMR_1_1BaseRenderParams.html#a763fa52a128676d66a64182a9ab912ee", null ],
+    [ "depthFunction", "structMR_1_1BaseRenderParams.html#a088e9e301699a9acf4e7bd8876b4dba1", null ],
     [ "modelMatrix", "structMR_1_1BaseRenderParams.html#abb18c5748b69168046350c93cbf0765b", null ],
     [ "normMatrixPtr", "structMR_1_1BaseRenderParams.html#a971fd4707e7133b504753698633ad416", null ],
     [ "projMatrix", "structMR_1_1BaseRenderParams.html#ab108063540156c1b73540c07c48e6d01", null ],

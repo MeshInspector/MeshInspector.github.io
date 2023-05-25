@@ -15,7 +15,7 @@ var structMR_1_1Quaternion =
     [ "normalize", "structMR_1_1Quaternion.html#ac98a801cf03ee64da5665501c8e7b7d8", null ],
     [ "normalized", "structMR_1_1Quaternion.html#a9289095d6e22b4cd004efca4166197d5", null ],
     [ "normSq", "structMR_1_1Quaternion.html#ad9b251ccd51dd9ea86e791f559ba00b1", null ],
-    [ "operator Matrix3< T >", "structMR_1_1Quaternion.html#ac419a0f315e99dc10b1827824e09cddf", null ],
+    [ "operator Matrix3", "structMR_1_1Quaternion.html#a60323c00dac0c8cce048f274846f56f2", null ],
     [ "operator()", "structMR_1_1Quaternion.html#afde85af8bb0b46b18e7c0b7f9ab0a2be", null ],
     [ "operator*=", "structMR_1_1Quaternion.html#a6bdf64d46e1cf09dc8fe63fcf7153c17", null ],
     [ "operator-", "structMR_1_1Quaternion.html#a6bcd112f89bf5f4ce825eb989ce05c59", null ],

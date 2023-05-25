@@ -9,5 +9,8 @@ var classMR_1_1IFastWindingNumber =
     [ "calcFromGridWithDistances", "classMR_1_1IFastWindingNumber.html#afc2baef227e03eed5ac17059fefd885a", null ],
     [ "calcFromVector", "classMR_1_1IFastWindingNumber.html#a441d74cdd012ecef05bb3ce3909a9100", null ],
     [ "calcSelfIntersections", "classMR_1_1IFastWindingNumber.html#a30b0a46ec07682e5ef9b458428670f8b", null ],
+    [ "fromGridHeapBytes", "classMR_1_1IFastWindingNumber.html#a6e073d35884b38310189d3fdc5e4ad20", null ],
+    [ "fromVectorHeapBytes", "classMR_1_1IFastWindingNumber.html#ade293e17d3f91dce118b85707a694b84", null ],
+    [ "selfIntersectionsHeapBytes", "classMR_1_1IFastWindingNumber.html#a05ba4677cc7e7bd086c13c5e1a69376b", null ],
     [ "mesh_", "classMR_1_1IFastWindingNumber.html#a602be7946504827d6fe64ced18286189", null ]
 ];

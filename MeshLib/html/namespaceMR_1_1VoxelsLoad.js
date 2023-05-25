@@ -1,5 +1,6 @@
 var namespaceMR_1_1VoxelsLoad =
 [
+    [ "DicomVolume", "structMR_1_1VoxelsLoad_1_1DicomVolume.html", "structMR_1_1VoxelsLoad_1_1DicomVolume" ],
     [ "LoadDCMResult", "structMR_1_1VoxelsLoad_1_1LoadDCMResult.html", "structMR_1_1VoxelsLoad_1_1LoadDCMResult" ],
     [ "LoadingTiffSettings", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings" ],
     [ "RawParameters", "structMR_1_1VoxelsLoad_1_1RawParameters.html", "structMR_1_1VoxelsLoad_1_1RawParameters" ],
@@ -14,9 +15,10 @@ var namespaceMR_1_1VoxelsLoad =
     [ "fromRaw", "group__VoxelsLoadGroup.html#ga5b4378df9f101407bec6afd66aaedf44", null ],
     [ "fromRaw", "group__VoxelsLoadGroup.html#gaa68f95ea5ae9cac4242602891502796a", null ],
     [ "fromVdb", "group__VoxelsLoadGroup.html#ga10a67c6a1ada16cbdff347d58f17f8f9", null ],
-    [ "loadDCMFile", "group__VoxelsLoadGroup.html#ga5d4ef6e1461442b265eb8dd76ee4439b", null ],
     [ "loadDCMFolder", "group__VoxelsLoadGroup.html#ga8956bf1e7728989d5e44e8c2848c9e84", null ],
     [ "loadDCMFolderTree", "group__VoxelsLoadGroup.html#ga8fa3ce2473c0f885b7ce6b332a1c6886", null ],
+    [ "loadDicomFile", "group__VoxelsLoadGroup.html#ga978cdc004f6fb6b35e0a122e3558144e", null ],
+    [ "loadDicomFolder", "group__VoxelsLoadGroup.html#ga5526343140e404407ab5852a065c46b8", null ],
     [ "loadTiffDir", "namespaceMR_1_1VoxelsLoad.html#ab0df0eea4c7e0d21bc2fcfc4a9d0c523", null ],
     [ "sortFilesByName", "group__VoxelsLoadGroup.html#ga9dea5760f438e7cd068a17cd2fba73d3", null ],
     [ "Filters", "group__VoxelsLoadGroup.html#gaf1ddae6fda30ae38508797dc691653d3", null ]

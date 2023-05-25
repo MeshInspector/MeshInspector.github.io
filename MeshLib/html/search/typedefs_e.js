@@ -13,7 +13,7 @@ var searchData=
   ['pluginparent_10',['PluginParent',['../classMR_1_1StateListenerPlugin.html#a1f068c2aecefbd45559101aca348aca3',1,'MR::StateListenerPlugin']]],
   ['pointer_11',['pointer',['../classMR_1_1SetBitIteratorT.html#a22e03a8a13140a2e652009346c41c0ba',1,'MR::SetBitIteratorT']]],
   ['pointschangedsignal_12',['PointsChangedSignal',['../classMR_1_1ObjectPoints.html#ae378dbf50ff8277cc7fd064ffb661e9d',1,'MR::ObjectPoints']]],
-  ['polyline_13',['Polyline',['../structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d',1,'MR::PolylineTraits&lt; Vector2f &gt;::Polyline()'],['../structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b',1,'MR::PolylineTraits&lt; Vector3f &gt;::Polyline()']]],
+  ['polyline_13',['Polyline',['../structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d',1,'MR::PolylineTraits&lt; Vector2f &gt;::Polyline'],['../structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b',1,'MR::PolylineTraits&lt; Vector3f &gt;::Polyline']]],
   ['polyline2_14',['Polyline2',['../namespaceMR.html#ab1ca9892644603a8b29005353e5ada79',1,'MR']]],
   ['polyline2projectionwithoffsetresult_15',['Polyline2ProjectionWithOffsetResult',['../namespaceMR.html#aa9c24bbb5a16bcc2d1385bdbd2340aae',1,'MR']]],
   ['polyline3_16',['Polyline3',['../namespaceMR.html#a58b74f27c86e7e9dee889bfe30f3022a',1,'MR']]],

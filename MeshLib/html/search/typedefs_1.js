@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['base_0',['base',['../classMR_1_1BitSet.html#a21c4aa1d25292ca929dc095286685853',1,'MR::BitSet::base()'],['../classMR_1_1TaggedBitSet.html#a21c4aa1d25292ca929dc095286685853',1,'MR::TaggedBitSet::base()']]],
+  ['base_0',['base',['../classMR_1_1BitSet.html#a21c4aa1d25292ca929dc095286685853',1,'MR::BitSet::base'],['../classMR_1_1TaggedBitSet.html#a21c4aa1d25292ca929dc095286685853',1,'MR::TaggedBitSet::base']]],
   ['box2_1',['Box2',['../namespaceMR.html#ae5e5a14f3143adb782d5b4473bc61f1b',1,'MR']]],
   ['box2d_2',['Box2d',['../namespaceMR.html#a74b962d1ea6bdbed56a5119ec9535e5e',1,'MR']]],
   ['box2f_3',['Box2f',['../namespaceMR.html#ad75c0635deec32a715320eec3cb9157e',1,'MR']]],
@@ -11,5 +11,5 @@ var searchData=
   ['box3f_8',['Box3f',['../namespaceMR.html#ada98ebf3fec74759dd46700389a3e556',1,'MR']]],
   ['box3i_9',['Box3i',['../namespaceMR.html#abb77b8aff8d862cb60056e4127ba543c',1,'MR']]],
   ['box3ll_10',['Box3ll',['../namespaceMR.html#a215d172c7f57b159f52f6027ca1867a6',1,'MR']]],
-  ['boxt_11',['BoxT',['../structMR_1_1ABBTreeTraits.html#aca44121dedda267d6d6d05d28c60e186',1,'MR::ABBTreeTraits::BoxT()'],['../structMR_1_1AABBTreeNode.html#af92cbed18c9ddfbf28d0e86385fc6e01',1,'MR::AABBTreeNode::BoxT()']]]
+  ['boxt_11',['BoxT',['../structMR_1_1ABBTreeTraits.html#aca44121dedda267d6d6d05d28c60e186',1,'MR::ABBTreeTraits::BoxT'],['../structMR_1_1AABBTreeNode.html#af92cbed18c9ddfbf28d0e86385fc6e01',1,'MR::AABBTreeNode::BoxT']]]
 ];

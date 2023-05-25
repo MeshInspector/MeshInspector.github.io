@@ -1,5 +1,10 @@
 var group__VoxelsLoadGroup =
 [
+    [ "MR::VoxelsLoad::DicomVolume", "structMR_1_1VoxelsLoad_1_1DicomVolume.html", [
+      [ "name", "structMR_1_1VoxelsLoad_1_1DicomVolume.html#a50c8b2679d713bd1910bef6966d5b76d", null ],
+      [ "vol", "structMR_1_1VoxelsLoad_1_1DicomVolume.html#ae1e4814e10ab95b1439695374227a5de", null ],
+      [ "xf", "structMR_1_1VoxelsLoad_1_1DicomVolume.html#a6b27eb6cff8e0c4c55aa1a4a48736bda", null ]
+    ] ],
     [ "MR::VoxelsLoad::LoadDCMResult", "structMR_1_1VoxelsLoad_1_1LoadDCMResult.html", [
       [ "name", "structMR_1_1VoxelsLoad_1_1LoadDCMResult.html#a02d9679ab2619756de63d60f776f5576", null ],
       [ "vdbVolume", "structMR_1_1VoxelsLoad_1_1LoadDCMResult.html#ad251cc090b7e2a1f78c463d1222e2d2e", null ],
@@ -32,9 +37,10 @@ var group__VoxelsLoadGroup =
     [ "MR::VoxelsLoad::fromRaw", "group__VoxelsLoadGroup.html#ga5b4378df9f101407bec6afd66aaedf44", null ],
     [ "MR::VoxelsLoad::fromRaw", "group__VoxelsLoadGroup.html#gaa68f95ea5ae9cac4242602891502796a", null ],
     [ "MR::VoxelsLoad::fromVdb", "group__VoxelsLoadGroup.html#ga10a67c6a1ada16cbdff347d58f17f8f9", null ],
-    [ "MR::VoxelsLoad::loadDCMFile", "group__VoxelsLoadGroup.html#ga5d4ef6e1461442b265eb8dd76ee4439b", null ],
     [ "MR::VoxelsLoad::loadDCMFolder", "group__VoxelsLoadGroup.html#ga8956bf1e7728989d5e44e8c2848c9e84", null ],
     [ "MR::VoxelsLoad::loadDCMFolderTree", "group__VoxelsLoadGroup.html#ga8fa3ce2473c0f885b7ce6b332a1c6886", null ],
+    [ "MR::VoxelsLoad::loadDicomFile", "group__VoxelsLoadGroup.html#ga978cdc004f6fb6b35e0a122e3558144e", null ],
+    [ "MR::VoxelsLoad::loadDicomFolder", "group__VoxelsLoadGroup.html#ga5526343140e404407ab5852a065c46b8", null ],
     [ "MR::VoxelsLoad::sortFilesByName", "group__VoxelsLoadGroup.html#ga9dea5760f438e7cd068a17cd2fba73d3", null ],
     [ "MR::VoxelsLoad::Filters", "group__VoxelsLoadGroup.html#gaf1ddae6fda30ae38508797dc691653d3", null ]
 ];

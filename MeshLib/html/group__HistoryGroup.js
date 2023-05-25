@@ -137,6 +137,14 @@ var group__HistoryGroup =
       [ "heapBytes", "classMR_1_1ChangeIsoAction.html#ae32cc04931a20fc9ae75cdcabad0b018", null ],
       [ "name", "classMR_1_1ChangeIsoAction.html#a2a614036297c1082f74843b12d425b0f", null ]
     ] ],
+    [ "MR::ChangeDualMarchingCubesAction", "classMR_1_1ChangeDualMarchingCubesAction.html", [
+      [ "Obj", "classMR_1_1ChangeDualMarchingCubesAction.html#a498f45f8ee86d18bfdbf4350070595fb", null ],
+      [ "ChangeDualMarchingCubesAction", "classMR_1_1ChangeDualMarchingCubesAction.html#ab2bf3699f09016d7d91c2eb1f588f409", null ],
+      [ "ChangeDualMarchingCubesAction", "classMR_1_1ChangeDualMarchingCubesAction.html#a7866227e57c571b51c2d58432dbe6fc8", null ],
+      [ "action", "classMR_1_1ChangeDualMarchingCubesAction.html#a8b78a3f2b080f0a1e799df8e307e2970", null ],
+      [ "heapBytes", "classMR_1_1ChangeDualMarchingCubesAction.html#a216a084fc5c2ab35560b626aec0715f5", null ],
+      [ "name", "classMR_1_1ChangeDualMarchingCubesAction.html#a1b6e4a9af29d8ba1029cf6de93728b31", null ]
+    ] ],
     [ "MR::ChangeActiveBoxAction", "classMR_1_1ChangeActiveBoxAction.html", [
       [ "Obj", "classMR_1_1ChangeActiveBoxAction.html#a897d1a8335367c58278f3a6da3a6c59f", null ],
       [ "ChangeActiveBoxAction", "classMR_1_1ChangeActiveBoxAction.html#a2caa2474b0606297a2f58c69be0994e4", null ],

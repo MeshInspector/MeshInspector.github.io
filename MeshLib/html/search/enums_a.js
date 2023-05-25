@@ -8,5 +8,6 @@ var searchData=
   ['modebit_5',['ModeBit',['../classMR_1_1TouchesController.html#a5138dbae1e6c3d6ffdf6ea36f836f3e5',1,'MR::TouchesController']]],
   ['mousebutton_6',['MouseButton',['../namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d',1,'MR']]],
   ['mousemode_7',['MouseMode',['../namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75',1,'MR']]],
-  ['multipleedgesresolvemode_8',['MultipleEdgesResolveMode',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301',1,'MR::FillHoleParams']]]
+  ['movetype_8',['MoveType',['../namespaceMR.html#a88f1fdd848610bc41226918baa28e601',1,'MR']]],
+  ['multipleedgesresolvemode_9',['MultipleEdgesResolveMode',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301',1,'MR::FillHoleParams']]]
 ];

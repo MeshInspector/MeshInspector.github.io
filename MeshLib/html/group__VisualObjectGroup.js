@@ -41,7 +41,7 @@ var group__VisualObjectGroup =
       [ "getRedrawFlag", "classMR_1_1VisualObject.html#a08a44c8bd562c85361950682c997f752", null ],
       [ "getShininess", "classMR_1_1VisualObject.html#a1a152f22b671a1cf98ddcf43db92b1da", null ],
       [ "getSpecularStrength", "classMR_1_1VisualObject.html#a746d651e584a6df83424853a8777138b", null ],
-      [ "getVertsColorMap", "classMR_1_1VisualObject.html#a5c323295638c23164c6b88e41494c578", null ],
+      [ "getVertsColorMap", "classMR_1_1VisualObject.html#adb877e462ca02bd88aed92f546e76452", null ],
       [ "getVisualizeProperty", "classMR_1_1VisualObject.html#a9709f115307bc66ddc037c9cd3337367", null ],
       [ "getVisualizePropertyMask", "classMR_1_1VisualObject.html#a2d0de59e16bf45e9564c9353ad7fb746", null ],
       [ "getVisualizePropertyMask_", "classMR_1_1VisualObject.html#a707ecabffd277a2bcaf0c783af412fb4", null ],
@@ -71,7 +71,7 @@ var group__VisualObjectGroup =
       [ "setShininess", "classMR_1_1VisualObject.html#add52279d4cba695b4fa60d469cb8c1af", null ],
       [ "setSpecularStrength", "classMR_1_1VisualObject.html#a455eb4255b591d822d504e0403c5e984", null ],
       [ "setupRenderObject_", "classMR_1_1VisualObject.html#a8c9ac961e923f7c61ccf3424413be0fb", null ],
-      [ "setVertsColorMap", "classMR_1_1VisualObject.html#a38d6357255fa88ba8c8b1a209dfc65c1", null ],
+      [ "setVertsColorMap", "classMR_1_1VisualObject.html#ad77d15eb01634f7726e7b2c23d4595cf", null ],
       [ "setVisualizeProperty", "classMR_1_1VisualObject.html#ace92453fbd8b2291aff77c36aff89a9d", null ],
       [ "setVisualizePropertyMask", "classMR_1_1VisualObject.html#af82ab7db25b1956d5e8e61df100feb47", null ],
       [ "shallowClone", "classMR_1_1VisualObject.html#adf2d7e16d33d059dbf2bbd0f1c34c8bf", null ],
@@ -82,7 +82,7 @@ var group__VisualObjectGroup =
       [ "swapBase_", "classMR_1_1VisualObject.html#a76b7b6b3bfd7dac31eb1d150afb761f7", null ],
       [ "toggleVisualizeProperty", "classMR_1_1VisualObject.html#aa787c76ffea8854bb9cfdfbca5c33a2d", null ],
       [ "typeName", "classMR_1_1VisualObject.html#a6f629cc6822b206ab9232648fa19dcb6", null ],
-      [ "updateVertsColorMap", "classMR_1_1VisualObject.html#a4e23dbd1c76dc995d978b275d3ac7ecf", null ],
+      [ "updateVertsColorMap", "classMR_1_1VisualObject.html#a4c44ad8ebd43db1ccbc850ec3c809591", null ],
       [ "ambientStrength_", "classMR_1_1VisualObject.html#a53f3623d9c70f13c0546466a3ab5da96", null ],
       [ "backFacesColor_", "classMR_1_1VisualObject.html#ae3a2d142d4abb2283a71caf7395282a4", null ],
       [ "clipByPlane_", "classMR_1_1VisualObject.html#ab87c9fab3f92c38aba589584b5466a98", null ],
@@ -102,7 +102,7 @@ var group__VisualObjectGroup =
       [ "showName_", "classMR_1_1VisualObject.html#a611894e7f98e2633137d75833e361781", null ],
       [ "specularStrength_", "classMR_1_1VisualObject.html#ab494630abaaab85d3b4c16929c7e6e83", null ],
       [ "unselectedColor_", "classMR_1_1VisualObject.html#a567b072f1d687c864a8be3d5e68d13a3", null ],
-      [ "vertsColorMap_", "classMR_1_1VisualObject.html#abe95051135f3ebbc784ad854b11cb36e", null ]
+      [ "vertsColorMap_", "classMR_1_1VisualObject.html#a782cfef38763cac8903ad92bd391f0ec", null ]
     ] ],
     [ "MR::AllVisualizeProperties", "group__VisualObjectGroup.html#gadfa0fd0c37db32411b59a14d4191fe77", null ],
     [ "MR::ColoringType", "group__VisualObjectGroup.html#ga270a25a8ef13e07e59e7070834efc33f", [

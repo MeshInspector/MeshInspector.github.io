@@ -146,6 +146,7 @@ var group__ModelHolderGroup =
       [ "onlyOddFragments_", "classMR_1_1ObjectMeshHolder.html#a40080eaaf8af23095fec3cc9cd024aba", null ],
       [ "selectedEdges_", "classMR_1_1ObjectMeshHolder.html#aba291cdb95d0f91e937616aa4f98c003", null ],
       [ "selectedTriangles_", "classMR_1_1ObjectMeshHolder.html#a7e8365bc1aa93ef47ecf1aa8b24ccf1a", null ],
+      [ "shadingEnabled_", "classMR_1_1ObjectMeshHolder.html#af0c66d3dd88973f029e2b39f28453178", null ],
       [ "showBordersHighlight_", "classMR_1_1ObjectMeshHolder.html#a7fcd56a6b217b20156b3dbaf4af67cfd", null ],
       [ "showEdges_", "classMR_1_1ObjectMeshHolder.html#a2d4ce0acba3551b05cd666448ac281ea", null ],
       [ "showFaces_", "classMR_1_1ObjectMeshHolder.html#ad7aa672bc4e05315f4c4ce221052f19e", null ],
