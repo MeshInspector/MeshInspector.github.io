@@ -8,11 +8,12 @@ var searchData=
   ['line_5',['Line',['../structMR_1_1Line.html',1,'MR']]],
   ['line3mesh_6',['Line3Mesh',['../structMR_1_1Line3Mesh.html',1,'MR']]],
   ['line_3c_20t_20_3e_7',['Line&lt; T &gt;',['../structMR_1_1Line.html',1,'MR']]],
-  ['lineobject_8',['LineObject',['../classMR_1_1LineObject.html',1,'MR']]],
-  ['linesegm_9',['LineSegm',['../structMR_1_1LineSegm.html',1,'MR']]],
-  ['linesvisualizepropertytype_10',['LinesVisualizePropertyType',['../structMR_1_1LinesVisualizePropertyType.html',1,'MR']]],
-  ['loaddcmresult_11',['LoadDCMResult',['../structMR_1_1VoxelsLoad_1_1LoadDCMResult.html',1,'MR::VoxelsLoad']]],
-  ['loadingtiffsettings_12',['LoadingTiffSettings',['../structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html',1,'MR::VoxelsLoad']]],
-  ['logger_13',['Logger',['../classMR_1_1Logger.html',1,'MR']]],
-  ['loggingstreambuf_14',['LoggingStreambuf',['../classMR_1_1LoggingStreambuf.html',1,'MR']]]
+  ['lineinterpolationparams_8',['LineInterpolationParams',['../structMR_1_1LineInterpolationParams.html',1,'MR']]],
+  ['lineobject_9',['LineObject',['../classMR_1_1LineObject.html',1,'MR']]],
+  ['linesegm_10',['LineSegm',['../structMR_1_1LineSegm.html',1,'MR']]],
+  ['linesvisualizepropertytype_11',['LinesVisualizePropertyType',['../structMR_1_1LinesVisualizePropertyType.html',1,'MR']]],
+  ['loaddcmresult_12',['LoadDCMResult',['../structMR_1_1VoxelsLoad_1_1LoadDCMResult.html',1,'MR::VoxelsLoad']]],
+  ['loadingtiffsettings_13',['LoadingTiffSettings',['../structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html',1,'MR::VoxelsLoad']]],
+  ['logger_14',['Logger',['../classMR_1_1Logger.html',1,'MR']]],
+  ['loggingstreambuf_15',['LoggingStreambuf',['../classMR_1_1LoggingStreambuf.html',1,'MR']]]
 ];

@@ -2,6 +2,7 @@ var MRSpaceMouseHandler_8h =
 [
     [ "MR::SpaceMouseHandler", "classMR_1_1SpaceMouseHandler.html", "classMR_1_1SpaceMouseHandler" ],
     [ "SpaceMouseButtons", "MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6", [
+      [ "SMB_NO", "MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6a79b80eca4d5dfe4655a4f6048a94671f", null ],
       [ "SMB_MENU", "MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6a66edf248665899f4b5430e0a6e7b5e79", null ],
       [ "SMB_ESC", "MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6a9cd8ad9979a5ae8c18a46dec2d0a64d1", null ],
       [ "SMB_ENTER", "MRSpaceMouseHandler_8h.html#acad54447072489545d11f4ee251429e6a311d44cf4c434b79761912c33c17bc62", null ],

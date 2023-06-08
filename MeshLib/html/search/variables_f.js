@@ -6,7 +6,7 @@ var searchData=
   ['parent_3',['parent',['../structMR_1_1TimeRecord.html#aa4ecd25889d637813c8abcc75610cf51',1,'MR::TimeRecord']]],
   ['parent_5f_4',['parent_',['../classMR_1_1ObjectChildrenHolder.html#a79a7197e0981d1da1b59f5fa0d858f7d',1,'MR::ObjectChildrenHolder']]],
   ['partmapping_5',['PartMapping',['../namespaceMR.html#a206d2359088d7de67554ae5420f14ab2',1,'MR']]],
-  ['path_6',['path',['../structMR_1_1VoxelsSave_1_1SavingSettings.html#a8415f6dc84ccf8061fd256e2420cd4fd',1,'MR::VoxelsSave::SavingSettings']]],
+  ['path_6',['path',['../structMR_1_1GcodeProcessor_1_1BaseAction.html#a3c7b474aeb8051a9fb1afb927f011f45',1,'MR::GcodeProcessor::BaseAction::path'],['../structMR_1_1VoxelsSave_1_1SavingSettings.html#a8415f6dc84ccf8061fd256e2420cd4fd',1,'MR::VoxelsSave::SavingSettings::path']]],
   ['pathtofont_5f_7',['pathToFont_',['../classMR_1_1ObjectLabel.html#ad15dc682a4c68f588608e3690da71f81',1,'MR::ObjectLabel']]],
   ['pathtofontfile_8',['pathToFontFile',['../structMR_1_1SymbolMeshParams.html#a91479aefd75dc365ef6b39108ea22fcf',1,'MR::SymbolMeshParams']]],
   ['pathtotexture_9',['pathToTexture',['../group__MeshLoadObjGroup.html#ga46f3bf0a33c0753909ec5394b948d02c',1,'MR::MeshLoad::NamedMesh']]],

@@ -105,6 +105,9 @@ $(document).ready(function(){initNavTree('structMR_1_1OffsetParameters.html','')
 </div><!--header-->
 <div class="contents">
 
+<p>This struct represents parameters for offsetting with voxels conversions.  
+ <a href="structMR_1_1OffsetParameters.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MROffset_8h_source.html">MROffset.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for MR::OffsetParameters:</div>
@@ -123,6 +126,7 @@ Public Types</h2></td></tr>
 <tr class="memitem:a34ac54dac63d30b0fae75a941b9b3fcd"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1OffsetParameters.html#a34ac54dac63d30b0fae75a941b9b3fcd">Type</a> { <a class="el" href="structMR_1_1OffsetParameters.html#a34ac54dac63d30b0fae75a941b9b3fcdadfd0a82c4bf37b1e90b690a22a20692e">Offset</a>
 , <a class="el" href="structMR_1_1OffsetParameters.html#a34ac54dac63d30b0fae75a941b9b3fcdaea89b68c34ce4a63c0f77e17413c6e30">Shell</a>
  }</td></tr>
+<tr class="memdesc:a34ac54dac63d30b0fae75a941b9b3fcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of offsetting.  <a href="structMR_1_1OffsetParameters.html#a34ac54dac63d30b0fae75a941b9b3fcd">More...</a><br /></td></tr>
 <tr class="separator:a34ac54dac63d30b0fae75a941b9b3fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -137,12 +141,15 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ac0e4ab1ec0e04a3c1665c5120d032690 inherit pub_attribs_structMR_1_1BaseOffsetParameters"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309">SignDetectionMode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BaseOffsetParameters.html#ac0e4ab1ec0e04a3c1665c5120d032690">simpleVolumeSignMode</a></td></tr>
 <tr class="separator:ac0e4ab1ec0e04a3c1665c5120d032690 inherit pub_attribs_structMR_1_1BaseOffsetParameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bbf7e85a6300e84167da3589512f6d9 inherit pub_attribs_structMR_1_1BaseOffsetParameters"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BaseOffsetParameters.html#a9bbf7e85a6300e84167da3589512f6d9">callBack</a> {}</td></tr>
+<tr class="memdesc:a9bbf7e85a6300e84167da3589512f6d9 inherit pub_attribs_structMR_1_1BaseOffsetParameters"><td class="mdescLeft">&#160;</td><td class="mdescRight">Progress callback.  <br /></td></tr>
 <tr class="separator:a9bbf7e85a6300e84167da3589512f6d9 inherit pub_attribs_structMR_1_1BaseOffsetParameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2fe4125e277e0a12395bb79eea71007 inherit pub_attribs_structMR_1_1BaseOffsetParameters"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1IFastWindingNumber.html">IFastWindingNumber</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BaseOffsetParameters.html#ae2fe4125e277e0a12395bb79eea71007">fwn</a></td></tr>
 <tr class="memdesc:ae2fe4125e277e0a12395bb79eea71007 inherit pub_attribs_structMR_1_1BaseOffsetParameters"><td class="mdescLeft">&#160;</td><td class="mdescRight">defines particular implementation of <a class="el" href="classMR_1_1IFastWindingNumber.html" title="Abstract class for fast approximate computation of winding number for a mesh (using its AABB tree)....">IFastWindingNumber</a> interface that will compute windings. If it is not specified, default <a class="el" href="classMR_1_1FastWindingNumber.html">FastWindingNumber</a> is used  <br /></td></tr>
 <tr class="separator:ae2fe4125e277e0a12395bb79eea71007 inherit pub_attribs_structMR_1_1BaseOffsetParameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This struct represents parameters for offsetting with voxels conversions. </p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a34ac54dac63d30b0fae75a941b9b3fcd" name="a34ac54dac63d30b0fae75a941b9b3fcd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a34ac54dac63d30b0fae75a941b9b3fcd">&#9670;&#160;</a></span>Type</h2>
 
@@ -162,9 +169,13 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Type of offsetting. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a34ac54dac63d30b0fae75a941b9b3fcdadfd0a82c4bf37b1e90b690a22a20692e" name="a34ac54dac63d30b0fae75a941b9b3fcdadfd0a82c4bf37b1e90b690a22a20692e"></a>Offset&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a34ac54dac63d30b0fae75a941b9b3fcdaea89b68c34ce4a63c0f77e17413c6e30" name="a34ac54dac63d30b0fae75a941b9b3fcdaea89b68c34ce4a63c0f77e17413c6e30"></a>Shell&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a34ac54dac63d30b0fae75a941b9b3fcdaea89b68c34ce4a63c0f77e17413c6e30" name="a34ac54dac63d30b0fae75a941b9b3fcdaea89b68c34ce4a63c0f77e17413c6e30"></a>Shell&#160;</td><td class="fielddoc"><p>can be positive or negative, input mesh should be closed </p>
+<p>can be only positive, offset in both directions of surface </p>
+</td></tr>
 </table>
 
 </div>
@@ -181,6 +192,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Decimation ratio of result mesh [0..1], this is applied on conversion from voxels to mesh note: it does not work good, better use common decimation after offsetting </p>
 
 </div>
 </div>

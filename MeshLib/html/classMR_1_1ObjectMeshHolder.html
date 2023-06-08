@@ -296,6 +296,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2f428924fc3ccde64c380a28dc17c5f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a2f428924fc3ccde64c380a28dc17c5f3">totalArea</a> () const</td></tr>
 <tr class="memdesc:a2f428924fc3ccde64c380a28dc17c5f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached summed area of mesh triangles  <br /></td></tr>
 <tr class="separator:a2f428924fc3ccde64c380a28dc17c5f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af910e09552ec4e84e66100250572622f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#af910e09552ec4e84e66100250572622f">selectedArea</a> () const</td></tr>
+<tr class="memdesc:af910e09552ec4e84e66100250572622f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached area of selected triangles  <br /></td></tr>
+<tr class="separator:af910e09552ec4e84e66100250572622f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e7e533cdcddd1d2a4fbf5fba6b9d607"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a5e7e533cdcddd1d2a4fbf5fba6b9d607">heapBytes</a> () const override</td></tr>
 <tr class="memdesc:a5e7e533cdcddd1d2a4fbf5fba6b9d607"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:a5e7e533cdcddd1d2a4fbf5fba6b9d607"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -764,6 +767,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:af410ff87afee85c7978cca07f1616415"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfac8fd9808955939be1f0186cbdb896"><td class="memItemLeft" align="right" valign="top">std::optional&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#abfac8fd9808955939be1f0186cbdb896">totalArea_</a></td></tr>
 <tr class="separator:abfac8fd9808955939be1f0186cbdb896"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb6fda2cf6c7571a2377f2589cf588e4"><td class="memItemLeft" align="right" valign="top">std::optional&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#acb6fda2cf6c7571a2377f2589cf588e4">selectedArea_</a></td></tr>
+<tr class="separator:acb6fda2cf6c7571a2377f2589cf588e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33c3cd830b02b4b20f5c72a8bf2f7a47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportProperty.html">ViewportProperty</a>&lt; <a class="el" href="classMR_1_1XfBasedCache.html">XfBasedCache</a>&lt; <a class="el" href="namespaceMR.html#ada98ebf3fec74759dd46700389a3e556">Box3f</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a33c3cd830b02b4b20f5c72a8bf2f7a47">worldBox_</a></td></tr>
 <tr class="separator:a33c3cd830b02b4b20f5c72a8bf2f7a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af72fa2fcab15bd3bf7603fdd80cbba88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#af72fa2fcab15bd3bf7603fdd80cbba88">showTexture_</a></td></tr>
@@ -2131,6 +2136,25 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="af910e09552ec4e84e66100250572622f" name="af910e09552ec4e84e66100250572622f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af910e09552ec4e84e66100250572622f">&#9670;&#160;</a></span>selectedArea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> double MR::ObjectMeshHolder::selectedArea </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns cached area of selected triangles </p>
+
+</div>
+</div>
 <a id="a6d9dce6f8274d0a26509ac4ec953985f" name="a6d9dce6f8274d0a26509ac4ec953985f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6d9dce6f8274d0a26509ac4ec953985f">&#9670;&#160;</a></span>selectEdges()</h2>
 
@@ -3396,6 +3420,28 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> MR::ObjectMeshHolder::onlyOddFragments_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb6fda2cf6c7571a2377f2589cf588e4" name="acb6fda2cf6c7571a2377f2589cf588e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb6fda2cf6c7571a2377f2589cf588e4">&#9670;&#160;</a></span>selectedArea_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;double&gt; MR::ObjectMeshHolder::selectedArea_</td>
         </tr>
       </table>
   </td>

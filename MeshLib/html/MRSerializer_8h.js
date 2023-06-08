@@ -1,7 +1,7 @@
 var MRSerializer_8h =
 [
     [ "FolderCallback", "MRSerializer_8h.html#gab9e59b28eb470dd0c3c4b8e4edaf488b", null ],
-    [ "compressZip", "MRSerializer_8h.html#gad950022f63935942a013b567aea365db", null ],
+    [ "compressZip", "MRSerializer_8h.html#ga02e4f1770ef424d638e95a3e26512c19", null ],
     [ "decompressZip", "MRSerializer_8h.html#ga93370e8f0bb7db437558a96f16c32fbd", null ],
     [ "deserializeFromJson", "MRSerializer_8h.html#gaa6c9fafbe5675e06061b897d2e92f138", null ],
     [ "deserializeFromJson", "MRSerializer_8h.html#ga4c0c62354556511936a0e90a2d4c586e", null ],

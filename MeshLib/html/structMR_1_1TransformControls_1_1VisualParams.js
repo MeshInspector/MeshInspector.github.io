@@ -8,7 +8,7 @@ var structMR_1_1TransformControls_1_1VisualParams =
     [ "negativeLineExtension", "structMR_1_1TransformControls_1_1VisualParams.html#a2000340dcc4b3b42415a4a5113590373", null ],
     [ "positiveLineExtension", "structMR_1_1TransformControls_1_1VisualParams.html#ab232521ec4f30e4a605bf3081a838aab", null ],
     [ "radius", "structMR_1_1TransformControls_1_1VisualParams.html#a1e0d693cf0129f26df13421c207495df", null ],
-    [ "rotationColors", "structMR_1_1TransformControls_1_1VisualParams.html#ab6ad38d0a78d61f4d95327d6b0c672a3", null ],
-    [ "translationColors", "structMR_1_1TransformControls_1_1VisualParams.html#adb417e27375ad0d95d6dc2ff1417ae49", null ],
+    [ "rotationColors", "structMR_1_1TransformControls_1_1VisualParams.html#a73b98ea29d5b5bd3e934357536430ea4", null ],
+    [ "translationColors", "structMR_1_1TransformControls_1_1VisualParams.html#a263e10cb84fcd843581cc2aeea08d6a2", null ],
     [ "width", "structMR_1_1TransformControls_1_1VisualParams.html#a04d8b2be8f4de0ff07797799a68c1697", null ]
 ];

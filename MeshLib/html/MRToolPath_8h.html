@@ -106,6 +106,7 @@ $(document).ready(function(){initNavTree('MRToolPath_8h.html',''); initResizable
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRAxis_8h_source.html">MRAxis.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMesh_8h_source.html">MRMesh.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRPolyline_8h_source.html">MRPolyline.h</a>&quot;</code><br />
 </div>
@@ -114,6 +115,8 @@ $(document).ready(function(){initNavTree('MRToolPath_8h.html',''); initResizable
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ToolPathParams.html">MR::ToolPathParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1LineInterpolationParams.html">MR::LineInterpolationParams</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ArcInterpolationParams.html">MR::ArcInterpolationParams</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,10 +132,16 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a88f1fdd848610bc41226918baa28e601"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a88f1fdd848610bc41226918baa28e601">MR::MoveType</a> { <a class="el" href="namespaceMR.html#a88f1fdd848610bc41226918baa28e601a7c45b71678fb35e216cb6bd78280e1e2">MR::FastLinear</a> = 0
+<tr class="memitem:a88f1fdd848610bc41226918baa28e601"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a88f1fdd848610bc41226918baa28e601">MR::MoveType</a> { <br />
+&#160;&#160;<a class="el" href="namespaceMR.html#a88f1fdd848610bc41226918baa28e601a7c45b71678fb35e216cb6bd78280e1e2">MR::FastLinear</a> = 0
 , <a class="el" href="namespaceMR.html#a88f1fdd848610bc41226918baa28e601a32a843da6ea40ab3b17a3421ccdf671b">MR::Linear</a> = 1
 , <a class="el" href="namespaceMR.html#a88f1fdd848610bc41226918baa28e601aa9479796fed0e84208885bc83352c5ea">MR::ArcCW</a> = 2
 , <a class="el" href="namespaceMR.html#a88f1fdd848610bc41226918baa28e601acb5dc5739002bbc3b5c303988de899d4">MR::ArcCCW</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="namespaceMR.html#a88f1fdd848610bc41226918baa28e601a28cec888ca30d89dfced703c383f1f84">MR::PlaneSelectionXY</a> = 17
+, <a class="el" href="namespaceMR.html#a88f1fdd848610bc41226918baa28e601aadaac099d02173fd0d36641202c18bd4">MR::PlaneSelectionXZ</a> = 18
+, <a class="el" href="namespaceMR.html#a88f1fdd848610bc41226918baa28e601a8bb9000944c595d5fe5373ca272cef4a">MR::PlaneSelectionYZ</a> = 19
+<br />
  }</td></tr>
 <tr class="separator:a88f1fdd848610bc41226918baa28e601"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -140,10 +149,16 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a87e80533c86926f68f3babc5af54e999"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1ToolPathResult.html">ToolPathResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a87e80533c86926f68f3babc5af54e999">MR::constantZToolPath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1ToolPathParams.html">ToolPathParams</a> &amp;params, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf)</td></tr>
 <tr class="separator:a87e80533c86926f68f3babc5af54e999"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a198351623e20991485fa0471d7ecec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1ToolPathResult.html">ToolPathResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8a198351623e20991485fa0471d7ecec">MR::lacingToolPath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1ToolPathParams.html">ToolPathParams</a> &amp;params, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf)</td></tr>
+<tr class="separator:a8a198351623e20991485fa0471d7ecec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6f66b996a5d220efa3cfb7cb0114e63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1ToolPathResult.html">ToolPathResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af6f66b996a5d220efa3cfb7cb0114e63">MR::constantCuspToolPath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1ToolPathParams.html">ToolPathParams</a> &amp;params, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> startPoint={}, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr)</td></tr>
+<tr class="separator:af6f66b996a5d220efa3cfb7cb0114e63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a702743f8da646788885081c0931349fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a702743f8da646788885081c0931349fa">MR::exportToolPathToGCode</a> (const std::vector&lt; <a class="el" href="structMR_1_1GCommand.html">GCommand</a> &gt; &amp;commands)</td></tr>
 <tr class="separator:a702743f8da646788885081c0931349fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52933f6a2ee75d853e9214bfaa455c62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a52933f6a2ee75d853e9214bfaa455c62">MR::interpolateArcs</a> (std::vector&lt; <a class="el" href="structMR_1_1GCommand.html">GCommand</a> &gt; &amp;commands, const <a class="el" href="structMR_1_1ArcInterpolationParams.html">ArcInterpolationParams</a> &amp;params)</td></tr>
-<tr class="separator:a52933f6a2ee75d853e9214bfaa455c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb1474bed2b3bd5b0216e704ee6b7325"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#afb1474bed2b3bd5b0216e704ee6b7325">MR::interpolateLines</a> (std::vector&lt; <a class="el" href="structMR_1_1GCommand.html">GCommand</a> &gt; &amp;commands, const <a class="el" href="structMR_1_1LineInterpolationParams.html">LineInterpolationParams</a> &amp;params, <a class="el" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005">Axis</a> axis)</td></tr>
+<tr class="separator:afb1474bed2b3bd5b0216e704ee6b7325"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ea734068981c61c08db3a81e9e9e14c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0ea734068981c61c08db3a81e9e9e14c">MR::interpolateArcs</a> (std::vector&lt; <a class="el" href="structMR_1_1GCommand.html">GCommand</a> &gt; &amp;commands, const <a class="el" href="structMR_1_1ArcInterpolationParams.html">ArcInterpolationParams</a> &amp;params, <a class="el" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005">Axis</a> axis)</td></tr>
+<tr class="separator:a0ea734068981c61c08db3a81e9e9e14c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

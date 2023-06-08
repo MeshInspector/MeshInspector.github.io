@@ -7,7 +7,7 @@ var group__SerializerGroup =
       [ "operator/", "classMR_1_1UniqueTemporaryFolder.html#a990b724a34e3cff31ff265fee8ab84b5", null ]
     ] ],
     [ "MR::FolderCallback", "group__SerializerGroup.html#gab9e59b28eb470dd0c3c4b8e4edaf488b", null ],
-    [ "MR::compressZip", "group__SerializerGroup.html#gad950022f63935942a013b567aea365db", null ],
+    [ "MR::compressZip", "group__SerializerGroup.html#ga02e4f1770ef424d638e95a3e26512c19", null ],
     [ "MR::decompressZip", "group__SerializerGroup.html#ga93370e8f0bb7db437558a96f16c32fbd", null ],
     [ "MR::deserializeFromJson", "group__SerializerGroup.html#gaa6c9fafbe5675e06061b897d2e92f138", null ],
     [ "MR::deserializeFromJson", "group__SerializerGroup.html#ga4c0c62354556511936a0e90a2d4c586e", null ],

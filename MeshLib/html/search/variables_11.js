@@ -25,7 +25,8 @@ var searchData=
   ['rigidb2a_22',['rigidB2A',['../structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0',1,'MR::SortIntersectionsData']]],
   ['rotangles_23',['rotAngles',['../structMR_1_1PointToPlaneAligningTransform_1_1Amendment.html#abc3ac9ecd9cd388aff8e3bc56940f80a',1,'MR::PointToPlaneAligningTransform::Amendment']]],
   ['rotatescale_24',['rotateScale',['../structMR_1_1SpaceMouseController_1_1Params.html#ace83fc4d9751e862ec88cbefbbe512df',1,'MR::SpaceMouseController::Params']]],
-  ['rotationcolors_25',['rotationColors',['../structMR_1_1TransformControls_1_1VisualParams.html#ab6ad38d0a78d61f4d95327d6b0c672a3',1,'MR::TransformControls::VisualParams']]],
+  ['rotationcolors_25',['rotationColors',['../structMR_1_1TransformControls_1_1VisualParams.html#a73b98ea29d5b5bd3e934357536430ea4',1,'MR::TransformControls::VisualParams']]],
   ['rotationsphere_26',['rotationSphere',['../classMR_1_1Viewer.html#a73342d4ca83f292c18e3174035e61d2e',1,'MR::Viewer']]],
-  ['rr_27',['rr',['../structMR_1_1IFastWindingNumber_1_1Dipole.html#a4b469c484add438fa0abf1468e967b53',1,'MR::IFastWindingNumber::Dipole']]]
+  ['rounding_27',['rounding',['../namespaceMR_1_1StyleConsts_1_1ProgressBar.html#a467066b4c41a91512fcfee5c76e236ca',1,'MR::StyleConsts::ProgressBar']]],
+  ['rr_28',['rr',['../structMR_1_1IFastWindingNumber_1_1Dipole.html#a4b469c484add438fa0abf1468e967b53',1,'MR::IFastWindingNumber::Dipole']]]
 ];

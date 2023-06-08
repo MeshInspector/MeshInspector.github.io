@@ -240,6 +240,10 @@ var group__AABBTreeGroup =
       [ "MR::ProcessOneResult::StopProcessing", "group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47a38e59feb928e37292c8ee0a50f447612", null ],
       [ "MR::ProcessOneResult::ContinueProcessing", "group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47aab6bb60f51b25ae0f7ec450173e3348e", null ]
     ] ],
+    [ "MR::Side", "group__AABBTreeGroup.html#ga494f6ca56c512e886474f7209f624c48", [
+      [ "MR::Side::Negative", "group__AABBTreeGroup.html#gga494f6ca56c512e886474f7209f624c48affb9356ff2b7da85c75c92fa7ea03b8b", null ],
+      [ "MR::Side::Positive", "group__AABBTreeGroup.html#gga494f6ca56c512e886474f7209f624c48a3289297424e01eda5b788c083bbf3147", null ]
+    ] ],
     [ "MR::findCollidingEdgePairs", "group__AABBTreeGroup.html#ga15a3e18d2098f8ff33e67776a221e6fb", null ],
     [ "MR::findCollidingEdges", "group__AABBTreeGroup.html#ga44c8af10ceaf3059a77647d7b6f2ca8b", null ],
     [ "MR::findCollidingEdgesBitsets", "group__AABBTreeGroup.html#ga0f3404724c88f935957c8c3c8962ea3a", null ],
@@ -252,6 +256,7 @@ var group__AABBTreeGroup =
     [ "MR::findDistance", "group__AABBTreeGroup.html#gae8acc67c54f5f060c954bb3528a0c581", null ],
     [ "MR::findEdgesInBall", "group__AABBTreeGroup.html#ga5ce436376c8036ec99459d3ccea88788", null ],
     [ "MR::findEdgesInBall", "group__AABBTreeGroup.html#ga799578a1ff64417ca5aa5c72fa15bb2f", null ],
+    [ "MR::findInnerShellVerts", "group__AABBTreeGroup.html#ga05a892383a82bf14672be7e0cf62395f", null ],
     [ "MR::findMaxDistanceSq", "group__AABBTreeGroup.html#ga3672072155e3f272d13a40ccd4645d02", null ],
     [ "MR::findMaxDistanceSqOneWay", "group__AABBTreeGroup.html#ga375d9c9dcfb1fd7d9a254a73370d71ba", null ],
     [ "MR::findMaxVectorDim", "group__AABBTreeGroup.html#ga562052fddd56327be07ffe8c0cc7f7af", null ],

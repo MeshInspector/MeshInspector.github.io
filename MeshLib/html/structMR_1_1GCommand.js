@@ -1,5 +1,7 @@
 var structMR_1_1GCommand =
 [
+    [ "coord", "structMR_1_1GCommand.html#afdc7b044c40cc5ba818305fa29df39b6", null ],
+    [ "project", "structMR_1_1GCommand.html#a230a750a18c6f4698bfcbd2896e8528b", null ],
     [ "feed", "structMR_1_1GCommand.html#ad006b4b0a0cbf74a8cedc89dd7fc1df8", null ],
     [ "i", "structMR_1_1GCommand.html#a88b369b03773e8e9492f7f6de82e5823", null ],
     [ "j", "structMR_1_1GCommand.html#a91580e9477438e03963dd728bc7a3974", null ],

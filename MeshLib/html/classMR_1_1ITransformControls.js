@@ -14,8 +14,8 @@ var classMR_1_1ITransformControls =
     [ "stopModify", "classMR_1_1ITransformControls.html#a4e00cf9a8a073e2d8964dbbd10f60b6f", null ],
     [ "stopModify_", "classMR_1_1ITransformControls.html#a044830cadc17d1698a87fcdd9a6c699e", null ],
     [ "update", "classMR_1_1ITransformControls.html#a786c7692ef96e6c97a0da7ae332b5597", null ],
-    [ "updateRotation", "classMR_1_1ITransformControls.html#a559d9fc3028659c6af78ff17f14f1c90", null ],
-    [ "updateTranslation", "classMR_1_1ITransformControls.html#a569094c0ebedf65039e7f344c5c151fb", null ],
+    [ "updateRotation", "classMR_1_1ITransformControls.html#a28b44509443b10410b017d0621bc90ae", null ],
+    [ "updateTranslation", "classMR_1_1ITransformControls.html#a7a3eb7a0414b0af2e09d8be03d83ff6d", null ],
     [ "updateVisualTransformMode", "classMR_1_1ITransformControls.html#a5d9747701fff8ab65bcab31012d44010", null ],
     [ "updateVisualTransformMode_", "classMR_1_1ITransformControls.html#a51a7d3a906705e63b5255c8f76c66381", null ]
 ];

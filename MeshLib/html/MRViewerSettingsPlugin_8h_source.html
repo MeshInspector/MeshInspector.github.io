@@ -148,7 +148,7 @@ $(document).ready(function(){initNavTree('MRViewerSettingsPlugin_8h_source.html'
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    std::unique_ptr&lt;ShadowsGL&gt; shadowGl_;</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    SpaceMouseController::Params spaceMouseParams_;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#ifdef _WIN32</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#if defined(_WIN32) || defined(__APPLE__)</span></div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordtype">bool</span> activeMouseScrollZoom_{ <span class="keyword">false</span> };</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>};</div>
@@ -166,7 +166,7 @@ $(document).ready(function(){initNavTree('MRViewerSettingsPlugin_8h_source.html'
 <div class="ttc" id="aclassMR_1_1ViewerSettingsPlugin_html_abb15c0c1b70bb9ff91021e28f50a7b15"><div class="ttname"><a href="classMR_1_1ViewerSettingsPlugin.html#abb15c0c1b70bb9ff91021e28f50a7b15">MR::ViewerSettingsPlugin::updateThemes</a></div><div class="ttdeci">void updateThemes()</div></div>
 <div class="ttc" id="aclassMR_1_1ViewerSettingsPlugin_html_ac31f0ed7c0847408208b9cd59d7a9c40"><div class="ttname"><a href="classMR_1_1ViewerSettingsPlugin.html#ac31f0ed7c0847408208b9cd59d7a9c40">MR::ViewerSettingsPlugin::blocking</a></div><div class="ttdeci">virtual bool blocking() const override</div><div class="ttdef"><b>Definition</b> MRViewerSettingsPlugin.h:18</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
-<div class="ttc" id="anamespaceMR_html_ad9a5add7c01e79b2eacfd711bd942353"><div class="ttname"><a href="namespaceMR.html#ad9a5add7c01e79b2eacfd711bd942353">MR::Vector4f</a></div><div class="ttdeci">Vector4&lt; float &gt; Vector4f</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:115</div></div>
+<div class="ttc" id="anamespaceMR_html_ad9a5add7c01e79b2eacfd711bd942353"><div class="ttname"><a href="namespaceMR.html#ad9a5add7c01e79b2eacfd711bd942353">MR::Vector4f</a></div><div class="ttdeci">Vector4&lt; float &gt; Vector4f</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:116</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -33,6 +33,7 @@ var classMR_1_1ColorTheme =
       [ "RibbonButtonActiveHovered", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a0954e2b27971721016aea8cbc8220933", null ],
       [ "RibbonButtonActiveClicked", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a1a3f051475bc0b988d3cd5015105bf33", null ],
       [ "ThirdpartyBackground", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0aa9748daf587164a6715a081151c33bf8", null ],
+      [ "ProgressBarBackground", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ae1bbec5067f1e6cc71f108e6d5ac7b81", null ],
       [ "FrameBackground", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ab7645d391763ab26ea48e51c80c3837e", null ],
       [ "CollapseHeaderBackground", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ae26407610c1540ad5648f9496a2f5e8b", null ],
       [ "SelectedObjectText", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0abc0bd1b6e1dd5d93d7ad6b4d7e66ddc0", null ],

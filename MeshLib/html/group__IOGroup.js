@@ -3,6 +3,7 @@ var group__IOGroup =
     [ "Base64", "group__Base64Group.html", "group__Base64Group" ],
     [ "DistanceMap Load", "group__DistanceMapLoadGroup.html", "group__DistanceMapLoadGroup" ],
     [ "DistanceMap Save", "group__DistanceMapSaveGroup.html", "group__DistanceMapSaveGroup" ],
+    [ "Mesh Load", "group__GcodeLoadGroup.html", "group__GcodeLoadGroup" ],
     [ "Image Load", "group__ImageLoadGroup.html", "group__ImageLoadGroup" ],
     [ "Image Save", "group__ImageSaveGroup.html", "group__ImageSaveGroup" ],
     [ "IO Filters", "group__IOFiltersGroup.html", "group__IOFiltersGroup" ],

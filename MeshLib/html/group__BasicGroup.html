@@ -128,9 +128,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html">MR::Buffer&lt; V, I &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods  <a href="classMR_1_1Buffer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1File.html">MR::File</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">the class to open C FILE handle and automatically close it in the destructor  <a href="classMR_1_1File.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Heap.html">MR::Heap&lt; T, I, P &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">stores map from element id in[0, size) to T;  <a href="classMR_1_1Heap.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -217,18 +214,15 @@ Functions</h2></td></tr>
 <tr class="memitem:gaec1d8613d38041fae09f290f342a4995"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F &gt; </td></tr>
 <tr class="memitem:gaec1d8613d38041fae09f290f342a4995"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gaec1d8613d38041fae09f290f342a4995">MR::BitSetParallelForAll</a> (const BS &amp;bs, F f)</td></tr>
 <tr class="separator:gaec1d8613d38041fae09f290f342a4995"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac9c30dc2587e0a52a1fbec21269703aa"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F &gt; </td></tr>
-<tr class="memitem:gac9c30dc2587e0a52a1fbec21269703aa"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gac9c30dc2587e0a52a1fbec21269703aa">MR::BitSetParallelForAll</a> (const BS &amp;bs, F f, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb)</td></tr>
-<tr class="separator:gac9c30dc2587e0a52a1fbec21269703aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga812527fa00b5699cc23f4e5ec5cd9dab"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F &gt; </td></tr>
+<tr class="memitem:ga812527fa00b5699cc23f4e5ec5cd9dab"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga812527fa00b5699cc23f4e5ec5cd9dab">MR::BitSetParallelForAll</a> (const BS &amp;bs, F f, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb, size_t reportProgressEveryBit=1024)</td></tr>
+<tr class="separator:ga812527fa00b5699cc23f4e5ec5cd9dab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga37f9eccb6fe939fd6694e99a2258a723"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F , typename ... Cb&gt; </td></tr>
 <tr class="memitem:ga37f9eccb6fe939fd6694e99a2258a723"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga37f9eccb6fe939fd6694e99a2258a723">MR::BitSetParallelFor</a> (const BS &amp;bs, F f, Cb &amp;&amp;... cb)</td></tr>
 <tr class="separator:ga37f9eccb6fe939fd6694e99a2258a723"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8811984137354f9cbae35e3774f58bd7"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F , typename ... Cb&gt; </td></tr>
 <tr class="memitem:ga8811984137354f9cbae35e3774f58bd7"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga8811984137354f9cbae35e3774f58bd7">MR::BitSetParallelForReset</a> (const BS &amp;bs, F f, Cb &amp;&amp;... cb)</td></tr>
 <tr class="separator:ga8811984137354f9cbae35e3774f58bd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga30eaa28c98301bbff06237c9e8296ba1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FILE *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga30eaa28c98301bbff06237c9e8296ba1">MR::fopen</a> (const std::filesystem::path &amp;filename, const char *mode)</td></tr>
-<tr class="memdesc:ga30eaa28c98301bbff06237c9e8296ba1"><td class="mdescLeft">&#160;</td><td class="mdescRight">this version of fopen unlike std::fopen supports unicode file names on Windows  <br /></td></tr>
-<tr class="separator:ga30eaa28c98301bbff06237c9e8296ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2442ef2afa7012af6ca21ebcb6604536"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga2442ef2afa7012af6ca21ebcb6604536"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga2442ef2afa7012af6ca21ebcb6604536">MR::heapBytes</a> (const std::vector&lt; T &gt; &amp;vec)</td></tr>
 <tr class="memdesc:ga2442ef2afa7012af6ca21ebcb6604536"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory given vector occupies on heap  <br /></td></tr>
@@ -260,6 +254,10 @@ Functions</h2></td></tr>
 <tr class="memitem:gaef0ac65102a308d1ecacb7e2b3a65093"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gaef0ac65102a308d1ecacb7e2b3a65093">MR::ParallelFor</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;v, F &amp;&amp;f)</td></tr>
 <tr class="memdesc:gaef0ac65102a308d1ecacb7e2b3a65093"><td class="mdescLeft">&#160;</td><td class="mdescRight">executes given function f for each vector element in parallel threads  <br /></td></tr>
 <tr class="separator:gaef0ac65102a308d1ecacb7e2b3a65093"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8b0beb1e1893bef543ac547c8a89575c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga8b0beb1e1893bef543ac547c8a89575c"><td class="memTemplItemLeft" align="right" valign="top">std::pair&lt; T, T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga8b0beb1e1893bef543ac547c8a89575c">MR::parallelMinMax</a> (const std::vector&lt; T &gt; &amp;vec)</td></tr>
+<tr class="memdesc:ga8b0beb1e1893bef543ac547c8a89575c"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds minimal and maximal elementsin vector in parallel  <br /></td></tr>
+<tr class="separator:ga8b0beb1e1893bef543ac547c8a89575c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4accadafe09c169e3742b72d1e5e5733"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga4accadafe09c169e3742b72d1e5e5733">MR::vertMapsComposition</a> (<a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> &amp;a2b, const <a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> &amp;b2c)</td></tr>
 <tr class="memdesc:ga4accadafe09c169e3742b72d1e5e5733"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates a2b map to a2c map using b2c map  <br /></td></tr>
 <tr class="separator:ga4accadafe09c169e3742b72d1e5e5733"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -572,8 +570,8 @@ template&lt;typename BS , typename F &gt; </div>
 
 </div>
 </div>
-<a id="gac9c30dc2587e0a52a1fbec21269703aa" name="gac9c30dc2587e0a52a1fbec21269703aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac9c30dc2587e0a52a1fbec21269703aa">&#9670;&#160;</a></span>BitSetParallelForAll() <span class="overload">[2/3]</span></h2>
+<a id="ga812527fa00b5699cc23f4e5ec5cd9dab" name="ga812527fa00b5699cc23f4e5ec5cd9dab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga812527fa00b5699cc23f4e5ec5cd9dab">&#9670;&#160;</a></span>BitSetParallelForAll() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -596,7 +594,13 @@ template&lt;typename BS , typename F &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
-          <td class="paramname"><em>progressCb</em>&#160;</td>
+          <td class="paramname"><em>progressCb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>reportProgressEveryBit</em> = <code>1024</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -605,7 +609,7 @@ template&lt;typename BS , typename F &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>executes given function f for each bit in bs in parallel threads; it is guaranteed that every individual block in bit-set is processed by one thread only uses tbb::static_partitioner for uniform distribution of ids; </p><dl class="section return"><dt>Returns</dt><dd>false if the processing was canceled by progressCb </dd></dl>
+<p>executes given function f for each bit in bs in parallel threads; it is guaranteed that every individual block in bit-set is processed by one thread only; reports progress from calling thread only; </p><dl class="section return"><dt>Returns</dt><dd>false if the processing was canceled by progressCb </dd></dl>
 
 </div>
 </div>
@@ -959,36 +963,6 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>Finds the substring in the string. </p><dl class="section return"><dt>Returns</dt><dd>position, npos if not found </dd></dl>
-
-</div>
-</div>
-<a id="ga30eaa28c98301bbff06237c9e8296ba1" name="ga30eaa28c98301bbff06237c9e8296ba1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga30eaa28c98301bbff06237c9e8296ba1">&#9670;&#160;</a></span>fopen()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FILE * MR::fopen </td>
-          <td>(</td>
-          <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
-          <td class="paramname"><em>filename</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>mode</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>this version of fopen unlike std::fopen supports unicode file names on Windows </p>
 
 </div>
 </div>
@@ -1831,6 +1805,28 @@ template&lt;typename I , typename F &gt; </div>
 </div><div class="memdoc">
 
 <p>executes given function f for each span element [begin, end) </p>
+
+</div>
+</div>
+<a id="ga8b0beb1e1893bef543ac547c8a89575c" name="ga8b0beb1e1893bef543ac547c8a89575c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8b0beb1e1893bef543ac547c8a89575c">&#9670;&#160;</a></span>parallelMinMax()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; T, T &gt; MR::parallelMinMax </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>vec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds minimal and maximal elementsin vector in parallel </p>
 
 </div>
 </div>

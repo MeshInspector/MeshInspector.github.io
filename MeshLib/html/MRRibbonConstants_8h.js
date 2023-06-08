@@ -1,5 +1,6 @@
 var MRRibbonConstants_8h =
 [
+    [ "bigTitlePadding", "MRRibbonConstants_8h.html#a4004a26198c0d4ee7e9de5004b5c58cf", null ],
     [ "cBigFontSize", "MRRibbonConstants_8h.html#a8857be62711395545ca59a54a590e17f", null ],
     [ "cBigIconSize", "MRRibbonConstants_8h.html#aacf3fd20b13de2d01250f5bda9173581", null ],
     [ "cButtonPadding", "MRRibbonConstants_8h.html#aaded4cd4767b56cafcef761970128104", null ],
@@ -44,6 +45,10 @@ var MRRibbonConstants_8h =
     [ "cTopPanelAditionalButtonSize", "MRRibbonConstants_8h.html#a24400b0c1a9e56cafb8abf4c9725633d", null ],
     [ "cTopPanelScrollBtnSize", "MRRibbonConstants_8h.html#a2fbf8a5ae5179bb822e29a7c5966fdd0", null ],
     [ "cTopPanelScrollStep", "MRRibbonConstants_8h.html#a1cb547836ab1506cf81cab06b24a9532", null ],
+    [ "exitBtnSize", "MRRibbonConstants_8h.html#a51cfb3dcff864fa88a1ef99e05376ebe", null ],
     [ "framePadding", "MRRibbonConstants_8h.html#a56058d3872b6d96205debc3305df78a8", null ],
-    [ "pluginItemSpacing", "MRRibbonConstants_8h.html#a4d6326d10565774441d1db3512941c0d", null ]
+    [ "internalSpacing", "MRRibbonConstants_8h.html#a0e136117cf759046ebb381d8b7f51f23", null ],
+    [ "pluginItemSpacing", "MRRibbonConstants_8h.html#a4d6326d10565774441d1db3512941c0d", null ],
+    [ "rounding", "MRRibbonConstants_8h.html#a467066b4c41a91512fcfee5c76e236ca", null ],
+    [ "textColor", "MRRibbonConstants_8h.html#a941b167d61d8a5ba4ff489d0ddac477e", null ]
 ];

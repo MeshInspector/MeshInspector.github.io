@@ -8,6 +8,6 @@ var classMR_1_1TransformControls =
     [ "setVisualParams", "classMR_1_1TransformControls.html#a3a7df5875b5301404b9e5d70f327b3ae", null ],
     [ "setWidth", "classMR_1_1TransformControls.html#aaf863f472ade960e2930c519a9576d1c", null ],
     [ "update", "classMR_1_1TransformControls.html#aa465cae8f8f64791763879ce0edb9f5b", null ],
-    [ "updateRotation", "classMR_1_1TransformControls.html#a068f632cd4e04c3497615bdbf188b623", null ],
-    [ "updateTranslation", "classMR_1_1TransformControls.html#a02fd22650147a28e563db23ef313cf8e", null ]
+    [ "updateRotation", "classMR_1_1TransformControls.html#aabdd9554a91963f82be2b0f4f3935e6a", null ],
+    [ "updateTranslation", "classMR_1_1TransformControls.html#acc66a1e46f1d46262c7d408d0003654d", null ]
 ];

@@ -42,6 +42,7 @@ var classMR_1_1PolylineTopology =
     [ "splice", "classMR_1_1PolylineTopology.html#a8f29ab7ae897a36090147354d08f7838", null ],
     [ "splitEdge", "classMR_1_1PolylineTopology.html#a30f450b48cac26ab210e6fadc7f413f1", null ],
     [ "undirectedEdgeSize", "classMR_1_1PolylineTopology.html#a061dd907ada10af2d8ed533c49f4b0ab", null ],
+    [ "vertCapacity", "classMR_1_1PolylineTopology.html#a726c75e6aeb80d5a75500cc50275a477", null ],
     [ "vertReserve", "classMR_1_1PolylineTopology.html#a269967fe44b9296f578fb65a74733bc4", null ],
     [ "vertResize", "classMR_1_1PolylineTopology.html#a84ccf7860cc1f6ffbfaffe6f0b603593", null ],
     [ "vertSize", "classMR_1_1PolylineTopology.html#a9574f81615523ac5fe203e1648765942", null ],

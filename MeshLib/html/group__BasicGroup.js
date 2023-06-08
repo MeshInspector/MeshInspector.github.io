@@ -92,20 +92,6 @@ var group__BasicGroup =
       [ "resize", "classMR_1_1Buffer.html#ab1bc4a40918912e001d6da1bf1595d36", null ],
       [ "size", "classMR_1_1Buffer.html#a40bf924b784b4438431f70517b950d70", null ]
     ] ],
-    [ "MR::File", "classMR_1_1File.html", [
-      [ "File", "classMR_1_1File.html#ae5ad252a0ab97ff1ee3a263e11199315", null ],
-      [ "File", "classMR_1_1File.html#a2e42a0a77bdbaa0ff18b660ff364628a", null ],
-      [ "File", "classMR_1_1File.html#afa9f220f484070486fb77824fd5ec1e5", null ],
-      [ "File", "classMR_1_1File.html#addeda448870bf1838a2e6d53d2629d36", null ],
-      [ "~File", "classMR_1_1File.html#a7b134234363eeb5577036a78da07975c", null ],
-      [ "attach", "classMR_1_1File.html#a1da05c5461ae76cfb46367697be9f18e", null ],
-      [ "close", "classMR_1_1File.html#a94bc33654229a7cd797fe79baac1faaa", null ],
-      [ "detach", "classMR_1_1File.html#a46f305b6331088acfe8c1f8bc4076837", null ],
-      [ "open", "classMR_1_1File.html#a20254d5bbf7df8159f1c75a0de21f819", null ],
-      [ "operator FILE *", "classMR_1_1File.html#a94af7ee95f2e3b7d2f88bbdc71df69a3", null ],
-      [ "operator=", "classMR_1_1File.html#a0e75b59b59d0598284793e8509995bfe", null ],
-      [ "operator=", "classMR_1_1File.html#a9ca34a6881807130cc132c87a37daf12", null ]
-    ] ],
     [ "MR::Heap< T, I, P >", "classMR_1_1Heap.html", [
       [ "Element", "structMR_1_1Heap_1_1Element.html", [
         [ "id", "structMR_1_1Heap_1_1Element.html#af5f2ab7653bc95405d4e20891982a46b", null ],
@@ -236,7 +222,7 @@ var group__BasicGroup =
     [ "MR::begin", "group__BasicGroup.html#gaf98212c07ebfc00c3d84f1b850490822", null ],
     [ "MR::BitSetParallelFor", "group__BasicGroup.html#ga37f9eccb6fe939fd6694e99a2258a723", null ],
     [ "MR::BitSetParallelForAll", "group__BasicGroup.html#gaec1d8613d38041fae09f290f342a4995", null ],
-    [ "MR::BitSetParallelForAll", "group__BasicGroup.html#gac9c30dc2587e0a52a1fbec21269703aa", null ],
+    [ "MR::BitSetParallelForAll", "group__BasicGroup.html#ga812527fa00b5699cc23f4e5ec5cd9dab", null ],
     [ "MR::BitSetParallelForAll", "group__BasicGroup.html#ga07688e626ceb45b29291dc809fed5038", null ],
     [ "MR::BitSetParallelForReset", "group__BasicGroup.html#ga8811984137354f9cbae35e3774f58bd7", null ],
     [ "MR::contains", "group__BasicGroup.html#gaae680d00c7b1337cc8ad166eb5089694", null ],
@@ -248,7 +234,6 @@ var group__BasicGroup =
     [ "MR::faceMapsComposition", "group__BasicGroup.html#gab49400ae6dafb3acc3d4f328d6658e75", null ],
     [ "MR::faceMapsComposition", "group__BasicGroup.html#gae15f0e77aea97c2194995913d9b8acfa", null ],
     [ "MR::findSubstringCaseInsensitive", "group__BasicGroup.html#ga245584b85505ab9157d346bb3d8caf53", null ],
-    [ "MR::fopen", "group__BasicGroup.html#ga30eaa28c98301bbff06237c9e8296ba1", null ],
     [ "MR::TaggedBitSet::getMapping", "group__BasicGroup.html#ga558c4b9a0ee013c55d3287a5bb2606c8", null ],
     [ "MR::TaggedBitSet::getMapping", "group__BasicGroup.html#ga6206857c0e584caf25ffd7443b6e3adc", null ],
     [ "MR::TaggedBitSet::getMapping", "group__BasicGroup.html#gaa1559a9f62b475c04360d1fdd999a60d", null ],
@@ -274,6 +259,7 @@ var group__BasicGroup =
     [ "MR::ParallelFor", "group__BasicGroup.html#gaaf3accb22f578d08b9b0eba2e269f857", null ],
     [ "MR::ParallelFor", "group__BasicGroup.html#gaef0ac65102a308d1ecacb7e2b3a65093", null ],
     [ "MR::ParallelFor", "group__BasicGroup.html#ga0f1d9c02d9be540b9ebb830334428fe5", null ],
+    [ "MR::parallelMinMax", "group__BasicGroup.html#ga8b0beb1e1893bef543ac547c8a89575c", null ],
     [ "MR::pathFromUtf8", "group__BasicGroup.html#gabe699ad65df9788d6c5c76856ddbf259", null ],
     [ "MR::pathFromUtf8", "group__BasicGroup.html#ga20dc9bc9caabc76a8ed03696488fbd2c", null ],
     [ "MR::printCurrentTimerBranch", "group__BasicGroup.html#ga92715abafbf0ac9f1aef87f2cff3088a", null ],

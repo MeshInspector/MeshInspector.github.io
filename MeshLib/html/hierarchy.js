@@ -16,6 +16,8 @@ var hierarchy =
     [ "spdlog::sinks::base_sink", null, [
       [ "MR::RestoringStreamsSink", "classMR_1_1RestoringStreamsSink.html", null ]
     ] ],
+    [ "MR::GcodeProcessor::BaseAction< Vec >", "structMR_1_1GcodeProcessor_1_1BaseAction.html", null ],
+    [ "MR::GcodeProcessor::BaseAction< Vector3f >", "structMR_1_1GcodeProcessor_1_1BaseAction.html", null ],
     [ "MR::Viewport::BaseFitParams", "structMR_1_1Viewport_1_1BaseFitParams.html", [
       [ "MR::Viewport::FitBoxParams", "structMR_1_1Viewport_1_1FitBoxParams.html", null ],
       [ "MR::Viewport::FitDataParams", "structMR_1_1Viewport_1_1FitDataParams.html", null ]
@@ -133,6 +135,10 @@ var hierarchy =
     [ "MR::RibbonMenu::DialogItemPtr", "structMR_1_1RibbonMenu_1_1DialogItemPtr.html", null ],
     [ "MR::VoxelsLoad::DicomVolume", "structMR_1_1VoxelsLoad_1_1DicomVolume.html", null ],
     [ "MR::IFastWindingNumber::Dipole", "structMR_1_1IFastWindingNumber_1_1Dipole.html", null ],
+    [ "MR::Directory", "structMR_1_1Directory.html", null ],
+    [ "MR::DirectoryIterator", "structMR_1_1DirectoryIterator.html", null ],
+    [ "MR::DirectoryRecursive", "structMR_1_1DirectoryRecursive.html", null ],
+    [ "MR::DirectoryRecursiveIterator", "structMR_1_1DirectoryRecursiveIterator.html", null ],
     [ "MR::DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html", null ],
     [ "MR::DrawButtonParams", "structMR_1_1DrawButtonParams.html", null ],
     [ "MR::RibbonMenu::DrawGroupConfig", "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html", null ],
@@ -172,6 +178,7 @@ var hierarchy =
       [ "MR::OpenVdbFloatGrid", "structMR_1_1OpenVdbFloatGrid.html", null ]
     ] ],
     [ "MR::FreeFormDeformer", "classMR_1_1FreeFormDeformer.html", null ],
+    [ "MR::GcodeProcessor", "classMR_1_1GcodeProcessor.html", null ],
     [ "MR::GCommand", "structMR_1_1GCommand.html", null ],
     [ "MR::GlBuffer", "classMR_1_1GlBuffer.html", null ],
     [ "MR::GLStaticHolder", "classMR_1_1GLStaticHolder.html", null ],
@@ -231,7 +238,9 @@ var hierarchy =
         [ "MR::MouseScrollListener", "structMR_1_1MouseScrollListener.html", null ],
         [ "MR::MouseUpListener", "structMR_1_1MouseUpListener.html", null ],
         [ "MR::PostDrawListener", "structMR_1_1PostDrawListener.html", null ],
-        [ "MR::PostFocusListener", "structMR_1_1PostFocusListener.html", null ],
+        [ "MR::PostFocusListener", "structMR_1_1PostFocusListener.html", [
+          [ "MR::SpaceMouseHandlerHidapi", "classMR_1_1SpaceMouseHandlerHidapi.html", null ]
+        ] ],
         [ "MR::PostRescaleListener", "structMR_1_1PostRescaleListener.html", null ],
         [ "MR::PostResizeListener", "structMR_1_1PostResizeListener.html", null ],
         [ "MR::PreDrawListener", "structMR_1_1PreDrawListener.html", null ],
@@ -354,6 +363,7 @@ var hierarchy =
     [ "MR::Line< V >", "structMR_1_1Line.html", null ],
     [ "MR::Line3Mesh< T >", "structMR_1_1Line3Mesh.html", null ],
     [ "MR::Line< T >", "structMR_1_1Line.html", null ],
+    [ "MR::LineInterpolationParams", "structMR_1_1LineInterpolationParams.html", null ],
     [ "MR::LineSegm< V >", "structMR_1_1LineSegm.html", null ],
     [ "MR::VoxelsLoad::LoadDCMResult", "structMR_1_1VoxelsLoad_1_1LoadDCMResult.html", null ],
     [ "MR::VoxelsLoad::LoadingTiffSettings", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html", null ],
@@ -363,6 +373,7 @@ var hierarchy =
     [ "MR::Matrix2< T >", "structMR_1_1Matrix2.html", null ],
     [ "MR::Matrix3< T >", "structMR_1_1Matrix3.html", null ],
     [ "MR::Matrix3< double >", "structMR_1_1Matrix3.html", null ],
+    [ "MR::Matrix3< float >", "structMR_1_1Matrix3.html", null ],
     [ "MR::Matrix4< T >", "structMR_1_1Matrix4.html", null ],
     [ "MR::Matrix4< float >", "structMR_1_1Matrix4.html", null ],
     [ "MR::MenuItemCaptionSize", "structMR_1_1MenuItemCaptionSize.html", null ],
@@ -391,6 +402,7 @@ var hierarchy =
     [ "MR::PythonExport::ModuleData", "structMR_1_1PythonExport_1_1ModuleData.html", null ],
     [ "MR::MouseController::MouseControlKey", "structMR_1_1MouseController_1_1MouseControlKey.html", null ],
     [ "MR::MouseController", "classMR_1_1MouseController.html", null ],
+    [ "MR::GcodeProcessor::MoveAction", "structMR_1_1GcodeProcessor_1_1MoveAction.html", null ],
     [ "MR::MutexOwner", "classMR_1_1MutexOwner.html", null ],
     [ "N", null, [
       [ "MR::RingIterator< N >", "classMR_1_1RingIterator.html", null ]
@@ -407,6 +419,9 @@ var hierarchy =
     [ "MR::NoInit", "structMR_1_1NoInit.html", null ],
     [ "MR::NormalsToPoints", "classMR_1_1NormalsToPoints.html", null ],
     [ "MR::NoVisualRepresentationCheck", "structMR_1_1NoVisualRepresentationCheck.html", null ],
+    [ "openvdb::util::NullInterrupter", null, [
+      [ "MR::ProgressInterrupter", "structMR_1_1ProgressInterrupter.html", null ]
+    ] ],
     [ "MR::ObjectChildrenHolder", "classMR_1_1ObjectChildrenHolder.html", [
       [ "MR::Object", "classMR_1_1Object.html", [
         [ "MR::VisualObject", "classMR_1_1VisualObject.html", [
@@ -414,6 +429,7 @@ var hierarchy =
           [ "MR::ObjectLinesHolder", "classMR_1_1ObjectLinesHolder.html", [
             [ "MR::CircleObject", "classMR_1_1CircleObject.html", null ],
             [ "MR::LineObject", "classMR_1_1LineObject.html", null ],
+            [ "MR::ObjectGcode", "classMR_1_1ObjectGcode.html", null ],
             [ "MR::ObjectLines", "classMR_1_1ObjectLines.html", null ]
           ] ],
           [ "MR::ObjectMeshHolder", "classMR_1_1ObjectMeshHolder.html", [
@@ -600,6 +616,7 @@ var hierarchy =
     [ "MR::Vector2< float >", "structMR_1_1Vector2.html", null ],
     [ "MR::Vector2< int >", "structMR_1_1Vector2.html", null ],
     [ "MR::Vector3< T >", "structMR_1_1Vector3.html", null ],
+    [ "MR::Vector3< bool >", "structMR_1_1Vector3.html", null ],
     [ "MR::Vector3< double >", "structMR_1_1Vector3.html", null ],
     [ "MR::Vector3< float >", "structMR_1_1Vector3.html", null ],
     [ "MR::Vector3< int >", "structMR_1_1Vector3.html", null ],

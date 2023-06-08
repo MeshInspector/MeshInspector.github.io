@@ -1,7 +1,7 @@
 var MRIOFilesMenuItems_8h =
 [
-    [ "MR::OpenFilesMenuItem", "classMR_1_1OpenFilesMenuItem.html", "classMR_1_1OpenFilesMenuItem" ],
     [ "MR::OpenDirectoryMenuItem", "classMR_1_1OpenDirectoryMenuItem.html", "classMR_1_1OpenDirectoryMenuItem" ],
+    [ "MR::OpenFilesMenuItem", "classMR_1_1OpenFilesMenuItem.html", "classMR_1_1OpenFilesMenuItem" ],
     [ "MR::OpenDICOMsMenuItem", "classMR_1_1OpenDICOMsMenuItem.html", "classMR_1_1OpenDICOMsMenuItem" ],
     [ "MR::SaveObjectMenuItem", "classMR_1_1SaveObjectMenuItem.html", "classMR_1_1SaveObjectMenuItem" ],
     [ "MR::SaveSelectedMenuItem", "classMR_1_1SaveSelectedMenuItem.html", "classMR_1_1SaveSelectedMenuItem" ],

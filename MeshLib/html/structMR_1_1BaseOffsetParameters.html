@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('structMR_1_1BaseOffsetParameters.html'
  <div class="center">
   <img src="structMR_1_1BaseOffsetParameters.png" usemap="#MR::BaseOffsetParameters_map" alt=""/>
   <map id="MR::BaseOffsetParameters_map" name="MR::BaseOffsetParameters_map">
-<area href="structMR_1_1OffsetParameters.html" alt="MR::OffsetParameters" shape="rect" coords="0,56,169,80"/>
+<area href="structMR_1_1OffsetParameters.html" title="This struct represents parameters for offsetting with voxels conversions." alt="MR::OffsetParameters" shape="rect" coords="0,56,169,80"/>
 <area href="structMR_1_1SharpOffsetParameters.html" alt="MR::SharpOffsetParameters" shape="rect" coords="179,56,348,80"/>
   </map>
 </div></div>
@@ -125,6 +125,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ac0e4ab1ec0e04a3c1665c5120d032690"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309">SignDetectionMode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BaseOffsetParameters.html#ac0e4ab1ec0e04a3c1665c5120d032690">simpleVolumeSignMode</a></td></tr>
 <tr class="separator:ac0e4ab1ec0e04a3c1665c5120d032690"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bbf7e85a6300e84167da3589512f6d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BaseOffsetParameters.html#a9bbf7e85a6300e84167da3589512f6d9">callBack</a> {}</td></tr>
+<tr class="memdesc:a9bbf7e85a6300e84167da3589512f6d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Progress callback.  <br /></td></tr>
 <tr class="separator:a9bbf7e85a6300e84167da3589512f6d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2fe4125e277e0a12395bb79eea71007"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1IFastWindingNumber.html">IFastWindingNumber</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BaseOffsetParameters.html#ae2fe4125e277e0a12395bb79eea71007">fwn</a></td></tr>
 <tr class="memdesc:ae2fe4125e277e0a12395bb79eea71007"><td class="mdescLeft">&#160;</td><td class="mdescRight">defines particular implementation of <a class="el" href="classMR_1_1IFastWindingNumber.html" title="Abstract class for fast approximate computation of winding number for a mesh (using its AABB tree)....">IFastWindingNumber</a> interface that will compute windings. If it is not specified, default <a class="el" href="classMR_1_1FastWindingNumber.html">FastWindingNumber</a> is used  <br /></td></tr>
@@ -142,6 +143,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Progress callback. </p>
 
 </div>
 </div>
@@ -187,6 +190,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Size of voxel in grid conversions if value is negative, it is calculated automatically (mesh bounding box are divided to 5e6 voxels) </p>
 
 </div>
 </div>

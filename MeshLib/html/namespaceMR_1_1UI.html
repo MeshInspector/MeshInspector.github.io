@@ -135,6 +135,8 @@ Functions</h2></td></tr>
 <tr class="memitem:aaa136c1366383c9c03db4f4b7520c2a6"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#aaa136c1366383c9c03db4f4b7520c2a6">colorEdit4</a> (const char *label, <a class="el" href="namespaceMR.html#ad9a5add7c01e79b2eacfd711bd942353">Vector4f</a> &amp;color, ImGuiColorEditFlags flags=ImGuiColorEditFlags_None)</td></tr>
 <tr class="memdesc:aaa136c1366383c9c03db4f4b7520c2a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw gradient color edit 4  <br /></td></tr>
 <tr class="separator:aaa136c1366383c9c03db4f4b7520c2a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb0c4c1be185e69b6f58108b3471f882"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#acb0c4c1be185e69b6f58108b3471f882">colorEdit4</a> (const char *label, <a class="el" href="structMR_1_1Color.html">Color</a> &amp;color, ImGuiColorEditFlags flags=ImGuiColorEditFlags_None)</td></tr>
+<tr class="separator:acb0c4c1be185e69b6f58108b3471f882"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a820aa2a94b65ad7536194e8527f89a12"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#a820aa2a94b65ad7536194e8527f89a12">combo</a> (const char *label, int *v, const std::vector&lt; std::string &gt; &amp;options, bool showPreview=true, const std::vector&lt; std::string &gt; &amp;tooltips={}, const std::string &amp;defaultText=&quot;Not selected&quot;)</td></tr>
 <tr class="memdesc:a820aa2a94b65ad7536194e8527f89a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw combo box  <br /></td></tr>
 <tr class="separator:a820aa2a94b65ad7536194e8527f89a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,6 +157,8 @@ Functions</h2></td></tr>
 <tr class="separator:a872e637e1fc6bb7aa391dc842b565ed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17f2b30eb00e5aa94812541ac268a30f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#a17f2b30eb00e5aa94812541ac268a30f">separator</a> (float scaling, const std::string &amp;text=&quot;&quot;, int issueCount=-1)</td></tr>
 <tr class="separator:a17f2b30eb00e5aa94812541ac268a30f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa49fc435b33d42412b5a43816ed40e52"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#aa49fc435b33d42412b5a43816ed40e52">progressBar</a> (float scaling, float fraction, const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>=<a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a>(-1, 0))</td></tr>
+<tr class="separator:aa49fc435b33d42412b5a43816ed40e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ae14306471133180f84a3a02650ced599" name="ae14306471133180f84a3a02650ced599"></a>
@@ -465,8 +469,42 @@ template&lt;typename Getter , typename Setter &gt; </div>
 
 </div>
 </div>
+<a id="acb0c4c1be185e69b6f58108b3471f882" name="acb0c4c1be185e69b6f58108b3471f882"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb0c4c1be185e69b6f58108b3471f882">&#9670;&#160;</a></span>colorEdit4() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::UI::colorEdit4 </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>label</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Color.html">Color</a> &amp;&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImGuiColorEditFlags&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>ImGuiColorEditFlags_None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aaa136c1366383c9c03db4f4b7520c2a6" name="aaa136c1366383c9c03db4f4b7520c2a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa136c1366383c9c03db4f4b7520c2a6">&#9670;&#160;</a></span>colorEdit4()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa136c1366383c9c03db4f4b7520c2a6">&#9670;&#160;</a></span>colorEdit4() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -667,6 +705,41 @@ template&lt;typename Getter , typename Setter &gt; </div>
 </div><div class="memdoc">
 
 <p>draw read-only text box with text aligned by center </p>
+
+</div>
+</div>
+<a id="aa49fc435b33d42412b5a43816ed40e52" name="aa49fc435b33d42412b5a43816ed40e52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa49fc435b33d42412b5a43816ed40e52">&#9670;&#160;</a></span>progressBar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::UI::progressBar </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scaling</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>fraction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &amp;&#160;</td>
+          <td class="paramname"><em>size</em> = <code><a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a>(-1,&#160;0)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>draws progress bar note that even while scaling is given by argument size should still respect it size: x(y) &lt; 0 - take all available width(height) x(y) == 0 - use default width(height) </p>
 
 </div>
 </div>
