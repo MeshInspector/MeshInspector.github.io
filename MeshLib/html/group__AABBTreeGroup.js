@@ -5,7 +5,7 @@ var group__AABBTreeGroup =
       [ "calcFromGrid", "classMR_1_1Cuda_1_1FastWindingNumber.html#aaffdaa94ec1f37b92b544605e34cb3ad", null ],
       [ "calcFromGridWithDistances", "classMR_1_1Cuda_1_1FastWindingNumber.html#ab3d9b87d0388d7f1e270dd36b05287ea", null ],
       [ "calcFromVector", "classMR_1_1Cuda_1_1FastWindingNumber.html#a35e0cc2dc56bc04f17a91c42a4b3b418", null ],
-      [ "calcSelfIntersections", "classMR_1_1Cuda_1_1FastWindingNumber.html#a3df31b9ded3b0bafa144cdc7984edaef", null ],
+      [ "calcSelfIntersections", "classMR_1_1Cuda_1_1FastWindingNumber.html#a03fd25b5742ad8c32943a8127288080e", null ],
       [ "fromGridHeapBytes", "classMR_1_1Cuda_1_1FastWindingNumber.html#ab7d5f97a25ac03694b8cae6f185b8833", null ],
       [ "fromVectorHeapBytes", "classMR_1_1Cuda_1_1FastWindingNumber.html#ad06d337a9c36cf0307344435c9422f44", null ],
       [ "selfIntersectionsHeapBytes", "classMR_1_1Cuda_1_1FastWindingNumber.html#a294166526273f54cc89d52f028a2e207", null ]
@@ -93,6 +93,7 @@ var group__AABBTreeGroup =
       [ "Traits", "classMR_1_1AABBTreePolyline.html#a7f96860dc1daeee5853645f1fecdeca7", null ],
       [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html#a7bfaaa5a66978f3d97cd8451644bed9a", null ],
       [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html#a0da0a8d855b1e2981083b1e681398a8b", null ],
+      [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html#a86c6f6500ab7a1df6e7bf30cab730bc3", null ],
       [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html#aaf1c13f7909dc226ed6e0a332e61ba4c", null ],
       [ "getBoundingBox", "classMR_1_1AABBTreePolyline.html#a7f8a4d54141ef1646577deda4e8a1e16", null ],
       [ "heapBytes", "classMR_1_1AABBTreePolyline.html#aacdd30033d496c586d4985ee6c2ab4f8", null ],
@@ -121,7 +122,7 @@ var group__AABBTreeGroup =
       [ "calcFromGrid", "classMR_1_1FastWindingNumber.html#a8cdc6759f69f82d77525f01bb499d033", null ],
       [ "calcFromGridWithDistances", "classMR_1_1FastWindingNumber.html#a35926cee7a0727ab29f9225844e6e114", null ],
       [ "calcFromVector", "classMR_1_1FastWindingNumber.html#a82d4def3598d0d1ac98ec04c7cdb4841", null ],
-      [ "calcSelfIntersections", "classMR_1_1FastWindingNumber.html#a6de12c6f99cfa33d64cc24e4d42426d5", null ],
+      [ "calcSelfIntersections", "classMR_1_1FastWindingNumber.html#a74a5c52662c9a9ae3b0589a856041998", null ],
       [ "fromGridHeapBytes", "classMR_1_1FastWindingNumber.html#a21f84adbfe888cde31bf9a5a96392013", null ],
       [ "fromVectorHeapBytes", "classMR_1_1FastWindingNumber.html#a30afc52d061332b146f9ab72b7d3e70a", null ],
       [ "selfIntersectionsHeapBytes", "classMR_1_1FastWindingNumber.html#a6f5ae0d93276a9cfcaf72b546ca60521", null ]
@@ -217,9 +218,7 @@ var group__AABBTreeGroup =
       [ "heapBytes", "classMR_1_1UniqueThreadSafeOwner.html#a6a6144337b7f7991fae893818231e943", null ],
       [ "operator=", "classMR_1_1UniqueThreadSafeOwner.html#af6ec1dea9bb6597f1eb584a24ebedd26", null ],
       [ "operator=", "classMR_1_1UniqueThreadSafeOwner.html#a6346fa8c52ec4d101fcbe69d489a04dc", null ],
-      [ "reset", "classMR_1_1UniqueThreadSafeOwner.html#ab0b41efc38efad3d6af477942a131ef2", null ],
-      [ "mutex_", "classMR_1_1UniqueThreadSafeOwner.html#a94e7f67a2b000245c485e031e80f2f76", null ],
-      [ "obj_", "classMR_1_1UniqueThreadSafeOwner.html#ab0d51a929ff2e2de32a95167b71e37db", null ]
+      [ "reset", "classMR_1_1UniqueThreadSafeOwner.html#ab0b41efc38efad3d6af477942a131ef2", null ]
     ] ],
     [ "MR::AABBTreeNodeId", "group__AABBTreeGroup.html#ga34a8bbcd6701c78c61502a42e3a1dca0", null ],
     [ "MR::AABBTreeNodeVec", "group__AABBTreeGroup.html#ga0dc29c20db23419ffc06b5a3a0244204", null ],
@@ -264,7 +263,9 @@ var group__AABBTreeGroup =
     [ "MR::findPointsInBall", "group__AABBTreeGroup.html#ga80e8bb354705c40373b5a8a3d1a3376c", null ],
     [ "MR::findPointsInBall", "group__AABBTreeGroup.html#ga5c540a8264b2d4cd39a35ce8600e873e", null ],
     [ "MR::findProjection", "group__AABBTreeGroup.html#gaca9ee6c07f32374a18e511487904370b", null ],
+    [ "MR::findProjectionOnMeshEdges", "group__AABBTreeGroup.html#gaccdf7712b3c2bc175e4b09aae138aa40", null ],
     [ "MR::findProjectionOnMeshEdges", "group__AABBTreeGroup.html#ga64c37b9a7a04aa567390955a50891b57", null ],
+    [ "MR::findProjectionOnPolyline", "group__AABBTreeGroup.html#gaa484a0628a7ac3858cd590589687141c", null ],
     [ "MR::findProjectionOnPolyline", "group__AABBTreeGroup.html#ga5e71a300face382a26ba8596d9b19820", null ],
     [ "MR::findProjectionOnPolyline2", "group__AABBTreeGroup.html#ga7f7211a85409018fd8ee71495646faa3", null ],
     [ "MR::findProjectionOnPolyline2WithOffset", "group__AABBTreeGroup.html#gaf2ef419d4414bb6d0efa0c918b21bddf", null ],

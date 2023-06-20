@@ -3,7 +3,6 @@ var classMR_1_1PlaneObject =
     [ "PlaneObject", "classMR_1_1PlaneObject.html#acaba4d01a7b19fff94a965213ff2f18d", null ],
     [ "PlaneObject", "classMR_1_1PlaneObject.html#a2c99e5f89dc6fc6a5b8733536aef1c50", null ],
     [ "PlaneObject", "classMR_1_1PlaneObject.html#aa301afc2eb21cbdf3e43b28e59da2040", null ],
-    [ "~PlaneObject", "classMR_1_1PlaneObject.html#abc253cbbeb95dcf700ae65c4efbe0e50", null ],
     [ "PlaneObject", "classMR_1_1PlaneObject.html#ace0d5ca3fbed3b7d7fb2bca6f64b0fef", null ],
     [ "PlaneObject", "classMR_1_1PlaneObject.html#a4e2071a606fe2ef0384aa63dbcf4b95b", null ],
     [ "clone", "classMR_1_1PlaneObject.html#a3de6d8962e60d11119a0a510af905f62", null ],

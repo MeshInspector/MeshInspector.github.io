@@ -365,7 +365,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
 </div><div class="memdoc">
 
 <p>Makes closed continuous contour by mesh tri points, note that first and last meshTriPoint should not be same. </p>
-<p>Finds shortest paths between neighbor <code>meshTriPoints</code> and build closed contour <a class="el" href="group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc" title="Cuts mesh by given contours.">MR::cutMesh</a> input </p>
+<p>Finds shortest paths between neighbor <code>meshTriPoints</code> and build closed contour <a class="el" href="group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc" title="Cuts mesh by given contours.">MR::cutMesh</a> input </p><dl class="section note"><dt>Note</dt><dd>better use convertMeshTriPointsToMeshContour(...) instead, note that it requires same front and back MeshTriPoints for closed contour </dd></dl>
 
 </div>
 </div>

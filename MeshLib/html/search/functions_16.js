@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['w_0',['w',['../structMR_1_1IFastWindingNumber_1_1Dipole.html#a8bc3065c6f538cbebb60d0f11f316dd8',1,'MR::IFastWindingNumber::Dipole']]],
+  ['w_0',['w',['../structMR_1_1Dipole.html#a149b888cc889ea2d30db7aaaee5ac34b',1,'MR::Dipole']]],
   ['waitblocking_1',['waitBlocking',['../classMR_1_1AsyncTimer.html#ab495cfbb4703c6205a17bc2dcd0a6b44',1,'MR::AsyncTimer']]],
   ['wasinterrupted_2',['wasInterrupted',['../structMR_1_1ProgressInterrupter.html#aed738a508373b12ea635ca9aa1300d4a',1,'MR::ProgressInterrupter']]],
   ['white_3',['white',['../structMR_1_1Color.html#afdf32fadc1e749715ad1911813a76f75',1,'MR::Color']]],

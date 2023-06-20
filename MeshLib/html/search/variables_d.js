@@ -19,7 +19,7 @@ var searchData=
   ['normalsanglecos_16',['normalsAngleCos',['../structMR_1_1VertPair.html#aa5935036a40e161c0f835cc0c2ce6e2c',1,'MR::VertPair']]],
   ['normmatrixptr_17',['normMatrixPtr',['../structMR_1_1BaseRenderParams.html#a971fd4707e7133b504753698633ad416',1,'MR::BaseRenderParams']]],
   ['normref_18',['normRef',['../structMR_1_1VertPair.html#a6f8e131bf9b306b1c0170663da85708c',1,'MR::VertPair']]],
-  ['notflippable_19',['notFlippable',['../structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27',1,'MR::DeloneSettings::notFlippable'],['../structMR_1_1SubdivideSettings.html#a688163b4d6a35f5b8af9748a92167d62',1,'MR::SubdivideSettings::notFlippable'],['../structMR_1_1RemeshSettings.html#a1629080d08e27d81f953b64589e06434',1,'MR::RemeshSettings::notFlippable']]],
+  ['notflippable_19',['notFlippable',['../structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27',1,'MR::DeloneSettings::notFlippable'],['../structMR_1_1SubdivideSettings.html#acb648b35ff705d5ee52cdae10e7cb9b5',1,'MR::SubdivideSettings::notFlippable'],['../structMR_1_1RemeshSettings.html#af94f082b1d13804c4460f447afcda26a',1,'MR::RemeshSettings::notFlippable']]],
   ['number_20',['number',['../structMR_1_1ShaderWarning.html#abb95321aeb350840573cff7f04e36f33',1,'MR::ShaderWarning']]],
   ['numbig_21',['numBig',['../structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#acb4f5276bb05eca21c715df15a42b6e5',1,'MR::RibbonMenu::DrawGroupConfig']]],
   ['numcomponents_22',['numComponents',['../structMR_1_1ObjectMeshHolder_1_1MeshStat.html#a4b6c1f3ab5de2b8553fde8f7a785e484',1,'MR::ObjectMeshHolder::MeshStat']]],

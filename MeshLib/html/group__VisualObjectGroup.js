@@ -1,23 +1,23 @@
 var group__VisualObjectGroup =
 [
-    [ "MR::VisualizeMaskType", "structMR_1_1VisualizeMaskType.html", [
-      [ "Type", "structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0", [
-        [ "Visibility", "structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0a6480df85c7d7a657e8a8adc1a1e566a0", null ],
-        [ "InvertedNormals", "structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0aa9ab245ec9543cca01132dc23aa905f1", null ],
-        [ "Name", "structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0ab72b78c3e9e37ca07d93dccb6678f264", null ],
-        [ "Labels", "structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0a3b012823a9cc50e12b9060c0dab3f27d", null ],
-        [ "CropLabelsByViewportRect", "structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0a177d5fdc637ed99194f4878dee75f4c8", null ],
-        [ "ClippedByPlane", "structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0ac7441567a6408dd2fd28b49e2f2d2aaa", null ],
-        [ "DepthTest", "structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0a3bc9bab56a374528b3761e8d709366e5", null ],
-        [ "VisualizePropsCount", "structMR_1_1VisualizeMaskType.html#a711019a1130a52114dbf16743b342ae0affc553095c89777da911f032d4d686bc", null ]
-      ] ]
+    [ "MR::VisualizeMaskType", "structMR_1_1VisualizeMaskType.html", null ],
+    [ "MR::Dirty", "structMR_1_1Dirty.html", [
+      [ "Dirty", "structMR_1_1Dirty.html#a193091023ad909fc52546edecd127232", null ],
+      [ "Dirty", "structMR_1_1Dirty.html#a821f9a5ba85a71d42db99a9fdff0e8b6", null ],
+      [ "Dirty", "structMR_1_1Dirty.html#a5a46ea8b1d3e585f29a5761d2f2fc21a", null ],
+      [ "operator uint32_t", "structMR_1_1Dirty.html#a6413c49d02f7cf2203142d292b55f311", null ],
+      [ "operator uint32_t &", "structMR_1_1Dirty.html#a71af917001468a850a824a320316bee5", null ],
+      [ "operator=", "structMR_1_1Dirty.html#a4b00ee48141fd2ae03df7ace8df5ac78", null ],
+      [ "operator=", "structMR_1_1Dirty.html#a76c3682b5945100a319d092463d942e5", null ],
+      [ "operator=", "structMR_1_1Dirty.html#a3b3cf2d1593909573673d3d7a1d0d17c", null ],
+      [ "f", "structMR_1_1Dirty.html#a365faf5e38062ddadd121c9f543bf71d", null ]
     ] ],
     [ "MR::VisualObject", "classMR_1_1VisualObject.html", [
       [ "VisualObject", "classMR_1_1VisualObject.html#a248a0efabc82874bd29ca605c2fb7481", null ],
       [ "VisualObject", "classMR_1_1VisualObject.html#a95016bb1aefebfa8952ac3457cc57ee4", null ],
       [ "~VisualObject", "classMR_1_1VisualObject.html#a32d2019eae016848083a25a159b3b058", null ],
       [ "VisualObject", "classMR_1_1VisualObject.html#a132f300dcd5614eaaa237b865dc79763", null ],
-      [ "VisualObject", "classMR_1_1VisualObject.html#aaac191711df9841f6b7fc77cb21844a6", null ],
+      [ "VisualObject", "classMR_1_1VisualObject.html#a84d46a3ce3da143b5735f0b6ac79deee", null ],
       [ "bindAllVisualization", "classMR_1_1VisualObject.html#a2fdfdf7dbee8c6ae12673a35c226e00a", null ],
       [ "boundingBoxToInfoLines_", "classMR_1_1VisualObject.html#af81b9247c457c9dbd36d6bbe4c74b826", null ],
       [ "clone", "classMR_1_1VisualObject.html#a2abf3d3c767a16a584ad513af643feca", null ],
@@ -29,7 +29,7 @@ var group__VisualObjectGroup =
       [ "getBackColorsForAllViewports", "classMR_1_1VisualObject.html#a613ff88451a3e4860c14148b9298941c", null ],
       [ "getBoundingBox", "classMR_1_1VisualObject.html#a8fe84b708cf42b2d73b31e77f02fae6a", null ],
       [ "getColoringType", "classMR_1_1VisualObject.html#ad526a2645a12621b7742bc66aaf5ad0f", null ],
-      [ "getDirtyFlags", "classMR_1_1VisualObject.html#a19d577a7a01fee7c1f4a250deb2d255b", null ],
+      [ "getDirtyFlags", "classMR_1_1VisualObject.html#a6411458c4cd7d098c12adaea27568db7", null ],
       [ "getFrontColor", "classMR_1_1VisualObject.html#a70f15c0dc59f3b83a8b8c3e6390f7571", null ],
       [ "getFrontColorsForAllViewports", "classMR_1_1VisualObject.html#a9fcfee69b862a562b66543d292f5deae", null ],
       [ "getGlobalAlpha", "classMR_1_1VisualObject.html#afe6426aa46d769e1d6f4cab1e56e0559", null ],
@@ -89,13 +89,13 @@ var group__VisualObjectGroup =
       [ "coloringType_", "classMR_1_1VisualObject.html#a21eb2d0c923e3ca0544e4cf90782e6b1", null ],
       [ "cropLabels_", "classMR_1_1VisualObject.html#a00c87dfb674938a5d27218e746079782", null ],
       [ "depthTest_", "classMR_1_1VisualObject.html#a3c81a910d1fdd5c1f1b413c185bf750d", null ],
-      [ "dirty_", "classMR_1_1VisualObject.html#a524e4774c9f4c85f7b81bb0f2524536f", null ],
+      [ "dirty_", "classMR_1_1VisualObject.html#a8a64ef900ae33d7bf55fd3474cdcef42", null ],
       [ "globalAlpha_", "classMR_1_1VisualObject.html#a96232055c664463cca20dda327b1c30f", null ],
       [ "invertNormals_", "classMR_1_1VisualObject.html#af6cd63e72a721fbe39cdff002950bce4", null ],
       [ "labels_", "classMR_1_1VisualObject.html#aae4b3143d481ae0018fa6bcf9b7a8230", null ],
       [ "labelsColor_", "classMR_1_1VisualObject.html#a4e9ea6278b1267a735d7b89d7a05c708", null ],
       [ "pickable_", "classMR_1_1VisualObject.html#a43bcd013faf296110ba8cb4a94bbe12f", null ],
-      [ "renderObj_", "classMR_1_1VisualObject.html#aaf7ff91456a91a55486c8e21041478d1", null ],
+      [ "renderObj_", "classMR_1_1VisualObject.html#ab054b578e5da7a7822d693ec0f61b1e7", null ],
       [ "selectedColor_", "classMR_1_1VisualObject.html#ac75d179334e336af0672bf0d9c997038", null ],
       [ "shininess_", "classMR_1_1VisualObject.html#a88b3d55070a6a91ed592e80b0f925419", null ],
       [ "showLabels_", "classMR_1_1VisualObject.html#a12015bd194435eaebc8649573c38bf68", null ],

@@ -3,7 +3,6 @@ var classMR_1_1SphereObject =
     [ "SphereObject", "classMR_1_1SphereObject.html#ad99bcf65ca008b2ce0ff6c2df4adf74f", null ],
     [ "SphereObject", "classMR_1_1SphereObject.html#a5a281f4cd06f74f10aadc4874cd4cef5", null ],
     [ "SphereObject", "classMR_1_1SphereObject.html#a61b3b53e478f087679a2177013f202a7", null ],
-    [ "~SphereObject", "classMR_1_1SphereObject.html#ab2ee14bb812387830dcb6426d4a63b1f", null ],
     [ "SphereObject", "classMR_1_1SphereObject.html#abe849f3566bfb24aa76698ffb6060b74", null ],
     [ "SphereObject", "classMR_1_1SphereObject.html#a0756a482bc3f5e18d1e16940c05b1545", null ],
     [ "clone", "classMR_1_1SphereObject.html#a0f12c8dd3509baa2cb33bf45e476124a", null ],

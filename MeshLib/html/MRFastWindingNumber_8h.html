@@ -100,11 +100,13 @@ $(document).ready(function(){initNavTree('MRFastWindingNumber_8h.html',''); init
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRFastWindingNumber.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRAABBTree_8h_source.html">MRAABBTree.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
 <code>#include &lt;array&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 </div>
@@ -112,10 +114,10 @@ $(document).ready(function(){initNavTree('MRFastWindingNumber_8h.html',''); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IFastWindingNumber.html">MR::IFastWindingNumber</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract class for fast approximate computation of winding number for a mesh (using its AABB tree). Pure virtual finctions must be implemented.  <a href="classMR_1_1IFastWindingNumber.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Dipole.html">MR::Dipole</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1IFastWindingNumber_1_1Dipole.html">MR::IFastWindingNumber::Dipole</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IFastWindingNumber.html">MR::IFastWindingNumber</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract class for fast approximate computation of winding number for a mesh (using its AABB tree)  <a href="classMR_1_1IFastWindingNumber.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FastWindingNumber.html">MR::FastWindingNumber</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -127,9 +129,14 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a7a532dc72efbeedbd8662bd2f0611114"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a7a532dc72efbeedbd8662bd2f0611114">MR::ThreePoints</a> = <a class="el" href="namespaceMR.html#a34931e18c46a0007ca98d04847051247">Triangle3f</a></td></tr>
-<tr class="memdesc:a7a532dc72efbeedbd8662bd2f0611114"><td class="mdescLeft">&#160;</td><td class="mdescRight">three vector3-coordinates describing a triangle geometry  <br /></td></tr>
-<tr class="separator:a7a532dc72efbeedbd8662bd2f0611114"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87e0818349b36186255c109034b9dd04"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a87e0818349b36186255c109034b9dd04">MR::Dipoles</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1Dipole.html">Dipole</a>, <a class="el" href="classMR_1_1AABBTree.html#a0d5bc51d4a13d2ff4bda0d7669a6098e">AABBTree::NodeId</a> &gt;</td></tr>
+<tr class="separator:a87e0818349b36186255c109034b9dd04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:abb1e0bf1a4c242908e10db3d858a3260"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#abb1e0bf1a4c242908e10db3d858a3260">MR::calcDipoles</a> (<a class="el" href="namespaceMR.html#a87e0818349b36186255c109034b9dd04">Dipoles</a> &amp;dipoles, const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="memdesc:abb1e0bf1a4c242908e10db3d858a3260"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates dipoles for given mesh and AABB-tree  <br /></td></tr>
+<tr class="separator:abb1e0bf1a4c242908e10db3d858a3260"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

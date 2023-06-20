@@ -4,7 +4,7 @@ var classMR_1_1ObjectDistanceMap =
     [ "ObjectDistanceMap", "classMR_1_1ObjectDistanceMap.html#a579055ec9063f0ee0116a2f2c361cd98", null ],
     [ "~ObjectDistanceMap", "classMR_1_1ObjectDistanceMap.html#af25cc690047e5a9a356e8e5a0333fda2", null ],
     [ "ObjectDistanceMap", "classMR_1_1ObjectDistanceMap.html#a926ef79a1ea86d98b42dafc6eb5b112b", null ],
-    [ "ObjectDistanceMap", "classMR_1_1ObjectDistanceMap.html#a25fc6451ba8fde2f5557518b2855abd5", null ],
+    [ "ObjectDistanceMap", "classMR_1_1ObjectDistanceMap.html#ade8b83ce35cdca5666db31364907dfb5", null ],
     [ "applyScale", "classMR_1_1ObjectDistanceMap.html#af8d43976f085c872629b548fdd2e0e9d", null ],
     [ "clone", "classMR_1_1ObjectDistanceMap.html#a5128e28ab5be3c4295cfdbbf344635c5", null ],
     [ "deserializeFields_", "classMR_1_1ObjectDistanceMap.html#a7146e04a23e36d75bef98b3f61148b47", null ],

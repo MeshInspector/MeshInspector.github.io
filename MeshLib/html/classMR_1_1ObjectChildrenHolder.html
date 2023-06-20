@@ -138,10 +138,10 @@ $(document).ready(function(){initNavTree('classMR_1_1ObjectChildrenHolder.html',
 Public Member Functions</h2></td></tr>
 <tr class="memitem:acad4a073a2e703743e01e2e5cce9e285"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectChildrenHolder.html#acad4a073a2e703743e01e2e5cce9e285">ObjectChildrenHolder</a> ()=default</td></tr>
 <tr class="separator:acad4a073a2e703743e01e2e5cce9e285"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe5fd651687475c08a436dbd64c86915"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectChildrenHolder.html#abe5fd651687475c08a436dbd64c86915">ObjectChildrenHolder</a> (const <a class="el" href="classMR_1_1ObjectChildrenHolder.html">ObjectChildrenHolder</a> &amp;)=delete</td></tr>
-<tr class="separator:abe5fd651687475c08a436dbd64c86915"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae39e06ea3526edf1f280e7158a5a4bd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ObjectChildrenHolder.html">ObjectChildrenHolder</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectChildrenHolder.html#ae39e06ea3526edf1f280e7158a5a4bd7">operator=</a> (const <a class="el" href="classMR_1_1ObjectChildrenHolder.html">ObjectChildrenHolder</a> &amp;)=delete</td></tr>
-<tr class="separator:ae39e06ea3526edf1f280e7158a5a4bd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a676c20b6eea355fe68748a8c1ad0b086"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectChildrenHolder.html#a676c20b6eea355fe68748a8c1ad0b086">ObjectChildrenHolder</a> (const <a class="el" href="classMR_1_1ObjectChildrenHolder.html">ObjectChildrenHolder</a> &amp;) noexcept</td></tr>
+<tr class="separator:a676c20b6eea355fe68748a8c1ad0b086"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44a4427301ae71511f5b3138cdf02e9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ObjectChildrenHolder.html">ObjectChildrenHolder</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectChildrenHolder.html#a44a4427301ae71511f5b3138cdf02e9f">operator=</a> (const <a class="el" href="classMR_1_1ObjectChildrenHolder.html">ObjectChildrenHolder</a> &amp;) noexcept</td></tr>
+<tr class="separator:a44a4427301ae71511f5b3138cdf02e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89b1fff6ebde3c5a71a530e3c8cddfb6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectChildrenHolder.html#a89b1fff6ebde3c5a71a530e3c8cddfb6">ObjectChildrenHolder</a> (<a class="el" href="classMR_1_1ObjectChildrenHolder.html">ObjectChildrenHolder</a> &amp;&amp;) noexcept</td></tr>
 <tr class="separator:a89b1fff6ebde3c5a71a530e3c8cddfb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca1fa4cd4c9ee1cb2e567623c979b26f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1ObjectChildrenHolder.html">ObjectChildrenHolder</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectChildrenHolder.html#aca1fa4cd4c9ee1cb2e567623c979b26f">operator=</a> (<a class="el" href="classMR_1_1ObjectChildrenHolder.html">ObjectChildrenHolder</a> &amp;&amp;) noexcept</td></tr>
@@ -162,7 +162,7 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a2ba9302240c85bc5dfd78068e7b2e918"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>the main purpose of this class is to avoid move-constructor and move-assignment implementation in <a class="el" href="classMR_1_1Object.html" title="named object in the data model">Object</a> class, which has too many fields for that; since every object stores a pointer on its parent, copying of this object is prohibited and moving is taken with care </p>
+<div class="textblock"><p>the main purpose of this class is to avoid copy and move constructor and assignment operator implementation in <a class="el" href="classMR_1_1Object.html" title="named object in the data model">Object</a> class, which has too many fields for that; since every object stores a pointer on its parent, copying of this object does not copy the children and moving is taken with care </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="acad4a073a2e703743e01e2e5cce9e285" name="acad4a073a2e703743e01e2e5cce9e285"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acad4a073a2e703743e01e2e5cce9e285">&#9670;&#160;</a></span>ObjectChildrenHolder() <span class="overload">[1/3]</span></h2>
@@ -189,8 +189,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abe5fd651687475c08a436dbd64c86915" name="abe5fd651687475c08a436dbd64c86915"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe5fd651687475c08a436dbd64c86915">&#9670;&#160;</a></span>ObjectChildrenHolder() <span class="overload">[2/3]</span></h2>
+<a id="a676c20b6eea355fe68748a8c1ad0b086" name="a676c20b6eea355fe68748a8c1ad0b086"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a676c20b6eea355fe68748a8c1ad0b086">&#9670;&#160;</a></span>ObjectChildrenHolder() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -208,7 +208,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -277,8 +277,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae39e06ea3526edf1f280e7158a5a4bd7" name="ae39e06ea3526edf1f280e7158a5a4bd7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae39e06ea3526edf1f280e7158a5a4bd7">&#9670;&#160;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+<a id="a44a4427301ae71511f5b3138cdf02e9f" name="a44a4427301ae71511f5b3138cdf02e9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44a4427301ae71511f5b3138cdf02e9f">&#9670;&#160;</a></span>operator=() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -296,7 +296,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

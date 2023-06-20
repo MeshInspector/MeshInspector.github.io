@@ -1,12 +1,12 @@
 var classMR_1_1Object =
 [
     [ "ProtectedStruct", "structMR_1_1Object_1_1ProtectedStruct.html", "structMR_1_1Object_1_1ProtectedStruct" ],
-    [ "XfChangedSignal", "classMR_1_1Object.html#a881447c499a3df3c3718efd430c0637c", null ],
+    [ "XfChangedSignal", "classMR_1_1Object.html#a10a84bc12112d8dd74450c7d360b5c06", null ],
     [ "Object", "classMR_1_1Object.html#ac2ef0a60f0cb9b488534014376ccd38d", null ],
     [ "Object", "classMR_1_1Object.html#abac87686448c89b770d46ab30ad79dc2", null ],
     [ "~Object", "classMR_1_1Object.html#a89c09f7a1ec5ba173cd21879e3f9953e", null ],
     [ "Object", "classMR_1_1Object.html#a795eb7eeaecc99cf34dabd14ac113e0b", null ],
-    [ "Object", "classMR_1_1Object.html#aeadedab38b0876317d01593cbee6b9ea", null ],
+    [ "Object", "classMR_1_1Object.html#ac5bae69ebe807554a5e9f8b91a89dfd6", null ],
     [ "addChild", "classMR_1_1Object.html#aa6cdc407999b7e829fd23b242cb6346d", null ],
     [ "addChildBefore", "classMR_1_1Object.html#a8eeb1cb21b22db97f20eac75b897f7ae", null ],
     [ "applyScale", "classMR_1_1Object.html#a0afca40a7c24d33df4e4d7a5c98167a4", null ],
@@ -75,7 +75,6 @@ var classMR_1_1Object =
     [ "locked_", "classMR_1_1Object.html#a958714fb7d616e608cb16223e052052b", null ],
     [ "name_", "classMR_1_1Object.html#a3d6d27065a13a0a262df4b74ff82e538", null ],
     [ "needRedraw_", "classMR_1_1Object.html#a92a390dc7570098981912529e341433d", null ],
-    [ "readCacheMutex_", "classMR_1_1Object.html#ab5c30ca819cb53c99818a6c64adfa1e3", null ],
     [ "selected_", "classMR_1_1Object.html#a0d8ef27f83b47e000093eaa0df9c36f9", null ],
     [ "visibilityMask_", "classMR_1_1Object.html#ae98466115f6fa8989c8628ff6ec54e9e", null ],
     [ "worldXfChangedSignal", "classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964", null ],

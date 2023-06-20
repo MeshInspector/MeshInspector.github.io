@@ -9,6 +9,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRDemoPlugin.h", "MRDemoPlugin_8h.html", "MRDemoPlugin_8h" ],
     [ "MRFileDialog.h", "MRFileDialog_8h.html", "MRFileDialog_8h" ],
     [ "MRFixSpikesPlugin.h", "MRFixSpikesPlugin_8h.html", "MRFixSpikesPlugin_8h" ],
+    [ "MRFrameRedrawRequest.h", "MRFrameRedrawRequest_8h.html", "MRFrameRedrawRequest_8h" ],
     [ "MRGetSystemInfoJson.h", "MRGetSystemInfoJson_8h.html", "MRGetSystemInfoJson_8h" ],
     [ "MRGladGlfw.h", "MRGladGlfw_8h.html", "MRGladGlfw_8h" ],
     [ "MRGLMacro.h", "MRGLMacro_8h.html", "MRGLMacro_8h" ],

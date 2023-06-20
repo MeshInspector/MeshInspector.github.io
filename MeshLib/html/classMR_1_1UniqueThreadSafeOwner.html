@@ -99,7 +99,6 @@ $(document).ready(function(){initNavTree('classMR_1_1UniqueThreadSafeOwner.html'
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classMR_1_1UniqueThreadSafeOwner-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::UniqueThreadSafeOwner&lt; T &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__AABBTreeGroup.html">AABB Tree overview</a></div></div></div>
 </div><!--header-->
@@ -133,13 +132,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6a6144337b7f7991fae893818231e943"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UniqueThreadSafeOwner.html#a6a6144337b7f7991fae893818231e943">heapBytes</a> () const</td></tr>
 <tr class="memdesc:a6a6144337b7f7991fae893818231e943"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:a6a6144337b7f7991fae893818231e943"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a94e7f67a2b000245c485e031e80f2f76"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UniqueThreadSafeOwner.html#a94e7f67a2b000245c485e031e80f2f76">mutex_</a></td></tr>
-<tr class="separator:a94e7f67a2b000245c485e031e80f2f76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0d51a929ff2e2de32a95167b71e37db"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UniqueThreadSafeOwner.html#ab0d51a929ff2e2de32a95167b71e37db">obj_</a></td></tr>
-<tr class="separator:ab0d51a929ff2e2de32a95167b71e37db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
@@ -370,55 +362,6 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>deletes owned object </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a94e7f67a2b000245c485e031e80f2f76" name="a94e7f67a2b000245c485e031e80f2f76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94e7f67a2b000245c485e031e80f2f76">&#9670;&#160;</a></span>mutex_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::mutex <a class="el" href="classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a>&lt; T &gt;::mutex_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab0d51a929ff2e2de32a95167b71e37db" name="ab0d51a929ff2e2de32a95167b71e37db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0d51a929ff2e2de32a95167b71e37db">&#9670;&#160;</a></span>obj_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;T&gt; <a class="el" href="classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a>&lt; T &gt;::obj_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>

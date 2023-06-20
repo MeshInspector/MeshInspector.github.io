@@ -9,7 +9,5 @@ var classMR_1_1UniqueThreadSafeOwner =
     [ "heapBytes", "classMR_1_1UniqueThreadSafeOwner.html#a6a6144337b7f7991fae893818231e943", null ],
     [ "operator=", "classMR_1_1UniqueThreadSafeOwner.html#af6ec1dea9bb6597f1eb584a24ebedd26", null ],
     [ "operator=", "classMR_1_1UniqueThreadSafeOwner.html#a6346fa8c52ec4d101fcbe69d489a04dc", null ],
-    [ "reset", "classMR_1_1UniqueThreadSafeOwner.html#ab0b41efc38efad3d6af477942a131ef2", null ],
-    [ "mutex_", "classMR_1_1UniqueThreadSafeOwner.html#a94e7f67a2b000245c485e031e80f2f76", null ],
-    [ "obj_", "classMR_1_1UniqueThreadSafeOwner.html#ab0d51a929ff2e2de32a95167b71e37db", null ]
+    [ "reset", "classMR_1_1UniqueThreadSafeOwner.html#ab0b41efc38efad3d6af477942a131ef2", null ]
 ];

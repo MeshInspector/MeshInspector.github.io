@@ -123,9 +123,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a5e24bf5e1bf140cdfac3cc68b9a693fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#a5e24bf5e1bf140cdfac3cc68b9a693fa">region</a> = nullptr</td></tr>
 <tr class="memdesc:a5e24bf5e1bf140cdfac3cc68b9a693fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Region on mesh to be subdivided, it is updated during the operation.  <br /></td></tr>
 <tr class="separator:a5e24bf5e1bf140cdfac3cc68b9a693fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a688163b4d6a35f5b8af9748a92167d62"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#a688163b4d6a35f5b8af9748a92167d62">notFlippable</a> = nullptr</td></tr>
-<tr class="memdesc:a688163b4d6a35f5b8af9748a92167d62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edges specified by this bit-set will never be flipped.  <br /></td></tr>
-<tr class="separator:a688163b4d6a35f5b8af9748a92167d62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb648b35ff705d5ee52cdae10e7cb9b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#acb648b35ff705d5ee52cdae10e7cb9b5">notFlippable</a> = nullptr</td></tr>
+<tr class="memdesc:acb648b35ff705d5ee52cdae10e7cb9b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation.  <br /></td></tr>
+<tr class="separator:acb648b35ff705d5ee52cdae10e7cb9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4c50e1143edfb7886c734be3226ff9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d">newVerts</a> = nullptr</td></tr>
 <tr class="memdesc:af4c50e1143edfb7886c734be3226ff9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">New vertices appeared during subdivision will be added here.  <br /></td></tr>
 <tr class="separator:af4c50e1143edfb7886c734be3226ff9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -259,19 +259,19 @@ this parameter prevents subdivision of such triangles </p>
 
 </div>
 </div>
-<a id="a688163b4d6a35f5b8af9748a92167d62" name="a688163b4d6a35f5b8af9748a92167d62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a688163b4d6a35f5b8af9748a92167d62">&#9670;&#160;</a></span>notFlippable</h2>
+<a id="acb648b35ff705d5ee52cdae10e7cb9b5" name="acb648b35ff705d5ee52cdae10e7cb9b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb648b35ff705d5ee52cdae10e7cb9b5">&#9670;&#160;</a></span>notFlippable</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a>* MR::SubdivideSettings::notFlippable = nullptr</td>
+          <td class="memname"><a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a>* MR::SubdivideSettings::notFlippable = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Edges specified by this bit-set will never be flipped. </p>
+<p>Edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation. </p>
 
 </div>
 </div>

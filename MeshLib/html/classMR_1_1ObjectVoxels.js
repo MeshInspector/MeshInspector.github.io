@@ -1,12 +1,12 @@
 var classMR_1_1ObjectVoxels =
 [
     [ "VolumeRenderingParams", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams" ],
-    [ "IsoSurfaceChangedSignal", "classMR_1_1ObjectVoxels.html#aa819734980c255d7375859b25c66e2ab", null ],
+    [ "IsoSurfaceChangedSignal", "classMR_1_1ObjectVoxels.html#a3ace9713c9d0e39585ccb708a7cadf94", null ],
     [ "ObjectVoxels", "classMR_1_1ObjectVoxels.html#aba3acadd736c99c402f687aaecfba7fa", null ],
     [ "ObjectVoxels", "classMR_1_1ObjectVoxels.html#a86927a7f3ce177f9394efc66a87d95bc", null ],
     [ "~ObjectVoxels", "classMR_1_1ObjectVoxels.html#a205cdfb1f95b74b571b884147dc2581f", null ],
     [ "ObjectVoxels", "classMR_1_1ObjectVoxels.html#ab8414868d177c677e751eae0934bb6d9", null ],
-    [ "ObjectVoxels", "classMR_1_1ObjectVoxels.html#a031e8491e43b72005372d6f05dde20d2", null ],
+    [ "ObjectVoxels", "classMR_1_1ObjectVoxels.html#aedfd1da83106d31ce40ca06201af7e99", null ],
     [ "applyScale", "classMR_1_1ObjectVoxels.html#a10005db4776c578cf1177bd35bd8abce", null ],
     [ "clone", "classMR_1_1ObjectVoxels.html#a058a06524247ee20a310f4ee07d5839b", null ],
     [ "construct", "classMR_1_1ObjectVoxels.html#a56a62794a13792269225110fc91573e8", null ],

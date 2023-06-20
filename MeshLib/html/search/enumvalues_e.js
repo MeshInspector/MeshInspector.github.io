@@ -13,13 +13,14 @@ var searchData=
   ['pointarraysize_10',['PointArraySize',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a9503268c31364398d41e323af77c0da9',1,'MR::Viewer']]],
   ['pointcloud_11',['PointCloud',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37aee9349b5cdfd717c7e1234edce6b72fa',1,'MR']]],
   ['pointelementsnum_12',['PointElementsNum',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a77e64d11fc89e14a9a8944f32e8e72cf',1,'MR::Viewer']]],
-  ['points_13',['Points',['../structMR_1_1LinesVisualizePropertyType.html#aab5df7db454ff09605f0b0252d48d0e2ae2310ad8d8e2db14b10dc63f9226b66a',1,'MR::LinesVisualizePropertyType::Points'],['../classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76a75dd5f1160a3f02b6fae89c54361a1b3',1,'MR::ViewerSettingsManager::Points']]],
-  ['pointsvisualizepropscount_14',['PointsVisualizePropsCount',['../structMR_1_1PointsVisualizePropertyType.html#af868fa83ffd7b3432b83e45dad431efea81b6ea6f2d8051760ab0a51f5b5c88d0',1,'MR::PointsVisualizePropertyType']]],
+  ['points_13',['Points',['../structMR_1_1LinesVisualizePropertyType.html#a4e84a5f006433a790f9bf5f299ce82adae2310ad8d8e2db14b10dc63f9226b66a',1,'MR::LinesVisualizePropertyType::Points'],['../classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76a75dd5f1160a3f02b6fae89c54361a1b3',1,'MR::ViewerSettingsManager::Points']]],
+  ['pointsvisualizepropscount_14',['PointsVisualizePropsCount',['../structMR_1_1PointsVisualizePropertyType.html#a76faa92c26b40bae3434f7fce0cac393a81b6ea6f2d8051760ab0a51f5b5c88d0',1,'MR::PointsVisualizePropertyType']]],
   ['pointtoplane_15',['PointToPlane',['../namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed',1,'MR']]],
   ['pointtopoint_16',['PointToPoint',['../namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80ecacabf254f8195fce8d901b3cce7092ea9',1,'MR']]],
-  ['positive_17',['Positive',['../group__AABBTreeGroup.html#gga494f6ca56c512e886474f7209f624c48a3289297424e01eda5b788c083bbf3147',1,'MR']]],
-  ['post_18',['Post',['../classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0ca03d947a2158373c3b9d74325850cb8b9',1,'MR::WebRequest']]],
-  ['primitivescolormap_19',['PrimitivesColorMap',['../group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca',1,'MR']]],
-  ['progressbarbackground_20',['ProgressBarBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ae1bbec5067f1e6cc71f108e6d5ac7b81',1,'MR::ColorTheme']]],
-  ['projectionnormal_21',['ProjectionNormal',['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9',1,'MR']]]
+  ['polygonoffsetfromcamera_17',['PolygonOffsetFromCamera',['../structMR_1_1MeshVisualizePropertyType.html#a2e5c336a4feb2c41efef5ba1f038b738af275c35186c72ca99b163e6ec1e31d48',1,'MR::MeshVisualizePropertyType']]],
+  ['positive_18',['Positive',['../group__AABBTreeGroup.html#gga494f6ca56c512e886474f7209f624c48a3289297424e01eda5b788c083bbf3147',1,'MR']]],
+  ['post_19',['Post',['../classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0ca03d947a2158373c3b9d74325850cb8b9',1,'MR::WebRequest']]],
+  ['primitivescolormap_20',['PrimitivesColorMap',['../group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca',1,'MR']]],
+  ['progressbarbackground_21',['ProgressBarBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ae1bbec5067f1e6cc71f108e6d5ac7b81',1,'MR::ColorTheme']]],
+  ['projectionnormal_22',['ProjectionNormal',['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9',1,'MR']]]
 ];

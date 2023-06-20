@@ -1,11 +1,10 @@
 var classMR_1_1ObjectLines =
 [
-    [ "LinesChangedSignal", "classMR_1_1ObjectLines.html#a7cf0afaa9c64dd9cf89eb07738078b11", null ],
+    [ "LinesChangedSignal", "classMR_1_1ObjectLines.html#ab4dd059872b969f78cf2cde0863184d3", null ],
     [ "ObjectLines", "classMR_1_1ObjectLines.html#a47a26f174a8e83d1f431c49792932ec9", null ],
     [ "ObjectLines", "classMR_1_1ObjectLines.html#ad89a3b7043e91bfde384c2544ada18d4", null ],
-    [ "~ObjectLines", "classMR_1_1ObjectLines.html#ab03f3b5f8b4cce4f917ebb3735d3504f", null ],
     [ "ObjectLines", "classMR_1_1ObjectLines.html#a5fdb9ba748cb7e2c3d3a791362c88fa9", null ],
-    [ "ObjectLines", "classMR_1_1ObjectLines.html#a76283134defbe29ceb9bd6a1ab0c62ba", null ],
+    [ "ObjectLines", "classMR_1_1ObjectLines.html#afde3584751268c2baaa025c66a11d10c", null ],
     [ "clone", "classMR_1_1ObjectLines.html#ada224fb3ab391e048a38ca259d333c09", null ],
     [ "getClassName", "classMR_1_1ObjectLines.html#ac7792895b65e5aa19f751b31507a32c3", null ],
     [ "getInfoLines", "classMR_1_1ObjectLines.html#aef5e76ee8e7d04576faa2912fc3de4d0", null ],

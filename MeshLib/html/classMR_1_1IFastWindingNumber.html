@@ -98,17 +98,13 @@ $(document).ready(function(){initNavTree('classMR_1_1IFastWindingNumber.html',''
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-types">Protected Types</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classMR_1_1IFastWindingNumber-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::IFastWindingNumber Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Abstract class for fast approximate computation of winding number for a mesh (using its AABB tree). Pure virtual finctions must be implemented.  
+<p>Abstract class for fast approximate computation of winding number for a mesh (using its AABB tree)  
  <a href="classMR_1_1IFastWindingNumber.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MRFastWindingNumber_8h_source.html">MRFastWindingNumber.h</a>&gt;</code></p>
@@ -125,23 +121,16 @@ $(document).ready(function(){initNavTree('classMR_1_1IFastWindingNumber.html',''
   </map>
 </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1IFastWindingNumber_1_1Dipole.html">Dipole</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae9da98c034d67da0d1f02f217308041c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IFastWindingNumber.html#ae9da98c034d67da0d1f02f217308041c">IFastWindingNumber</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
-<tr class="separator:ae9da98c034d67da0d1f02f217308041c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefefcab706e99f050565aa3492015547"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IFastWindingNumber.html#aefefcab706e99f050565aa3492015547">~IFastWindingNumber</a> ()=default</td></tr>
 <tr class="separator:aefefcab706e99f050565aa3492015547"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a441d74cdd012ecef05bb3ce3909a9100"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IFastWindingNumber.html#a441d74cdd012ecef05bb3ce3909a9100">calcFromVector</a> (std::vector&lt; float &gt; &amp;res, const std::vector&lt; <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &gt; &amp;points, float beta, <a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> skipFace={})=0</td></tr>
 <tr class="memdesc:a441d74cdd012ecef05bb3ce3909a9100"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers for a vector of points  <br /></td></tr>
 <tr class="separator:a441d74cdd012ecef05bb3ce3909a9100"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30b0a46ec07682e5ef9b458428670f8b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IFastWindingNumber.html#a30b0a46ec07682e5ef9b458428670f8b">calcSelfIntersections</a> (<a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;res, float beta)=0</td></tr>
-<tr class="memdesc:a30b0a46ec07682e5ef9b458428670f8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers for all centers of mesh's triangles. if winding number is less than 0 or greater then 1, that face is marked as self-intersected  <br /></td></tr>
-<tr class="separator:a30b0a46ec07682e5ef9b458428670f8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4744f6a703ab21ad9c40d2ca77db273"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IFastWindingNumber.html#ac4744f6a703ab21ad9c40d2ca77db273">calcSelfIntersections</a> (<a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;res, float beta, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})=0</td></tr>
+<tr class="memdesc:ac4744f6a703ab21ad9c40d2ca77db273"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers for all centers of mesh's triangles. if winding number is less than 0 or greater then 1, that face is marked as self-intersected  <br /></td></tr>
+<tr class="separator:ac4744f6a703ab21ad9c40d2ca77db273"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad68a94a3a2d2001a4365f67d3fed2beb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IFastWindingNumber.html#ad68a94a3a2d2001a4365f67d3fed2beb">calcFromGrid</a> (std::vector&lt; float &gt; &amp;res, const <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &amp;dims, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;minCoord, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;voxelSize, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;gridToMeshXf, float beta)=0</td></tr>
 <tr class="memdesc:ad68a94a3a2d2001a4365f67d3fed2beb"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers for each point in a three-dimensional grid  <br /></td></tr>
 <tr class="separator:ad68a94a3a2d2001a4365f67d3fed2beb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,99 +146,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6e073d35884b38310189d3fdc5e4ad20"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IFastWindingNumber.html#a6e073d35884b38310189d3fdc5e4ad20">fromGridHeapBytes</a> (const <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &amp;dims) const =0</td></tr>
 <tr class="memdesc:a6e073d35884b38310189d3fdc5e4ad20"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns amount of required memory for calcFromGrid and calcFromGridWithDistances operation does not take into account size of output vector  <br /></td></tr>
 <tr class="separator:a6e073d35884b38310189d3fdc5e4ad20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aa46ffa8931f12047de1c7b84adea66aa"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IFastWindingNumber.html#aa46ffa8931f12047de1c7b84adea66aa">calcDipoles</a> (<a class="el" href="classMR_1_1IFastWindingNumber.html#a160f169b20baa884ecf027488a3b9ed3">Dipoles</a> &amp;dipoles, const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
-<tr class="memdesc:aa46ffa8931f12047de1c7b84adea66aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates dipoles for given mesh and AABB-tree  <br /></td></tr>
-<tr class="separator:aa46ffa8931f12047de1c7b84adea66aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
-Protected Types</h2></td></tr>
-<tr class="memitem:a149e6a1f489247ada234bc7bf4dc0835"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IFastWindingNumber.html#a149e6a1f489247ada234bc7bf4dc0835">NodeId</a> = <a class="el" href="classMR_1_1AABBTree.html#a0d5bc51d4a13d2ff4bda0d7669a6098e">AABBTree::NodeId</a></td></tr>
-<tr class="separator:a149e6a1f489247ada234bc7bf4dc0835"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a160f169b20baa884ecf027488a3b9ed3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IFastWindingNumber.html#a160f169b20baa884ecf027488a3b9ed3">Dipoles</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1IFastWindingNumber_1_1Dipole.html">Dipole</a>, <a class="el" href="classMR_1_1IFastWindingNumber.html#a149e6a1f489247ada234bc7bf4dc0835">NodeId</a> &gt;</td></tr>
-<tr class="separator:a160f169b20baa884ecf027488a3b9ed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a602be7946504827d6fe64ced18286189"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IFastWindingNumber.html#a602be7946504827d6fe64ced18286189">mesh_</a></td></tr>
-<tr class="separator:a602be7946504827d6fe64ced18286189"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Abstract class for fast approximate computation of winding number for a mesh (using its AABB tree). Pure virtual finctions must be implemented. </p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a160f169b20baa884ecf027488a3b9ed3" name="a160f169b20baa884ecf027488a3b9ed3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a160f169b20baa884ecf027488a3b9ed3">&#9670;&#160;</a></span>Dipoles</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1IFastWindingNumber.html#a160f169b20baa884ecf027488a3b9ed3">MR::IFastWindingNumber::Dipoles</a> =  <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1IFastWindingNumber_1_1Dipole.html">Dipole</a>, <a class="el" href="classMR_1_1IFastWindingNumber.html#a149e6a1f489247ada234bc7bf4dc0835">NodeId</a>&gt;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a149e6a1f489247ada234bc7bf4dc0835" name="a149e6a1f489247ada234bc7bf4dc0835"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a149e6a1f489247ada234bc7bf4dc0835">&#9670;&#160;</a></span>NodeId</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1IFastWindingNumber.html#a149e6a1f489247ada234bc7bf4dc0835">MR::IFastWindingNumber::NodeId</a> =  <a class="el" href="classMR_1_1AABBTree.html#a0d5bc51d4a13d2ff4bda0d7669a6098e">AABBTree::NodeId</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ae9da98c034d67da0d1f02f217308041c" name="ae9da98c034d67da0d1f02f217308041c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9da98c034d67da0d1f02f217308041c">&#9670;&#160;</a></span>IFastWindingNumber()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MR::IFastWindingNumber::IFastWindingNumber </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
-          <td class="paramname"><em>mesh</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<div class="textblock"><p>Abstract class for fast approximate computation of winding number for a mesh (using its AABB tree) </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aefefcab706e99f050565aa3492015547" name="aefefcab706e99f050565aa3492015547"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aefefcab706e99f050565aa3492015547">&#9670;&#160;</a></span>~IFastWindingNumber()</h2>
 
@@ -276,59 +176,6 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa46ffa8931f12047de1c7b84adea66aa" name="aa46ffa8931f12047de1c7b84adea66aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa46ffa8931f12047de1c7b84adea66aa">&#9670;&#160;</a></span>calcDipoles()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::IFastWindingNumber::calcDipoles </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1IFastWindingNumber.html#a160f169b20baa884ecf027488a3b9ed3">Dipoles</a> &amp;&#160;</td>
-          <td class="paramname"><em>dipoles</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;&#160;</td>
-          <td class="paramname"><em>tree</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
-          <td class="paramname"><em>mesh</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>calculates dipoles for given mesh and AABB-tree </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">dipoles</td><td></td></tr>
-    <tr><td class="paramname">tree</td><td></td></tr>
-    <tr><td class="paramname">mesh</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-</div>
-</div>
 <a id="ad68a94a3a2d2001a4365f67d3fed2beb" name="ad68a94a3a2d2001a4365f67d3fed2beb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad68a94a3a2d2001a4365f67d3fed2beb">&#9670;&#160;</a></span>calcFromGrid()</h2>
 
@@ -553,8 +400,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a30b0a46ec07682e5ef9b458428670f8b" name="a30b0a46ec07682e5ef9b458428670f8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30b0a46ec07682e5ef9b458428670f8b">&#9670;&#160;</a></span>calcSelfIntersections()</h2>
+<a id="ac4744f6a703ab21ad9c40d2ca77db273" name="ac4744f6a703ab21ad9c40d2ca77db273"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4744f6a703ab21ad9c40d2ca77db273">&#9670;&#160;</a></span>calcSelfIntersections()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -563,7 +410,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void MR::IFastWindingNumber::calcSelfIntersections </td>
+          <td class="memname">virtual bool MR::IFastWindingNumber::calcSelfIntersections </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;&#160;</td>
           <td class="paramname"><em>res</em>, </td>
@@ -572,7 +419,13 @@ Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>beta</em>&#160;</td>
+          <td class="paramname"><em>beta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>cb</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -595,8 +448,9 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<p>&lt;return&gt;false if the operation was canceled by the user&lt;/return&gt; </p>
 
-<p>Implemented in <a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#a3df31b9ded3b0bafa144cdc7984edaef">MR::Cuda::FastWindingNumber</a>, and <a class="el" href="classMR_1_1FastWindingNumber.html#a6de12c6f99cfa33d64cc24e4d42426d5">MR::FastWindingNumber</a>.</p>
+<p>Implemented in <a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#a03fd25b5742ad8c32943a8127288080e">MR::Cuda::FastWindingNumber</a>, and <a class="el" href="classMR_1_1FastWindingNumber.html#a74a5c52662c9a9ae3b0589a856041998">MR::FastWindingNumber</a>.</p>
 
 </div>
 </div>
@@ -708,29 +562,6 @@ Protected Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 <p>Implemented in <a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#a294166526273f54cc89d52f028a2e207">MR::Cuda::FastWindingNumber</a>, and <a class="el" href="classMR_1_1FastWindingNumber.html#a6f5ae0d93276a9cfcaf72b546ca60521">MR::FastWindingNumber</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a602be7946504827d6fe64ced18286189" name="a602be7946504827d6fe64ced18286189"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a602be7946504827d6fe64ced18286189">&#9670;&#160;</a></span>mesh_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&amp; MR::IFastWindingNumber::mesh_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>

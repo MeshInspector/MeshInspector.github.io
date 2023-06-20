@@ -2,7 +2,6 @@ var classMR_1_1ObjectLabel =
 [
     [ "ObjectLabel", "classMR_1_1ObjectLabel.html#a9e54fd3228ad6a3714cafaeeab8c002a", null ],
     [ "ObjectLabel", "classMR_1_1ObjectLabel.html#a05d6a6f70fb7cc83673c180c7c23335b", null ],
-    [ "~ObjectLabel", "classMR_1_1ObjectLabel.html#a4c55446e956be3a639487d8498d43d9a", null ],
     [ "ObjectLabel", "classMR_1_1ObjectLabel.html#a21f7e3a3e9705c1cc258cf3af3212696", null ],
     [ "ObjectLabel", "classMR_1_1ObjectLabel.html#ab256cedc71a3de3ca2c09ae69d35e973", null ],
     [ "applyScale", "classMR_1_1ObjectLabel.html#aa117f91f421380e38f7cc43a42f28370", null ],

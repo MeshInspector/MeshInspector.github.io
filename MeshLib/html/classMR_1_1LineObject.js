@@ -3,7 +3,6 @@ var classMR_1_1LineObject =
     [ "LineObject", "classMR_1_1LineObject.html#aab1a368a1fb8b1ad1e77419e6cc82ab1", null ],
     [ "LineObject", "classMR_1_1LineObject.html#a80e1ca2dbc6dc38497293d3300aa7167", null ],
     [ "LineObject", "classMR_1_1LineObject.html#a527e8f971e605371e8a29035ca184192", null ],
-    [ "~LineObject", "classMR_1_1LineObject.html#ac40b566ec2fa70e2e836d3937e610c16", null ],
     [ "LineObject", "classMR_1_1LineObject.html#acd2ce959f19493acad7a81cdc74794c2", null ],
     [ "LineObject", "classMR_1_1LineObject.html#a5133e5dd845623cdc95aca964fcb6160", null ],
     [ "clone", "classMR_1_1LineObject.html#aa9a192c6a7b45287b4e6221e3d5ecb6d", null ],

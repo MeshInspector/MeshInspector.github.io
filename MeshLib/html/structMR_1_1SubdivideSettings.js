@@ -7,7 +7,7 @@ var structMR_1_1SubdivideSettings =
     [ "maxEdgeSplits", "structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d", null ],
     [ "minSharpDihedralAngle", "structMR_1_1SubdivideSettings.html#a55b830f7823b4a74b6891945bafa12a5", null ],
     [ "newVerts", "structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d", null ],
-    [ "notFlippable", "structMR_1_1SubdivideSettings.html#a688163b4d6a35f5b8af9748a92167d62", null ],
+    [ "notFlippable", "structMR_1_1SubdivideSettings.html#acb648b35ff705d5ee52cdae10e7cb9b5", null ],
     [ "onEdgeSplit", "structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413", null ],
     [ "onVertCreated", "structMR_1_1SubdivideSettings.html#a9e8653d42d8358f40dca297f675d4111", null ],
     [ "progressCallback", "structMR_1_1SubdivideSettings.html#ad044782ba14d1d93d9140190393d28ce", null ],

@@ -125,12 +125,12 @@ $(document).ready(function(){initNavTree('classMR_1_1IPointsToMeshProjector.html
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac1a1633695c8776296054f81942a84dc"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IPointsToMeshProjector.html#ac1a1633695c8776296054f81942a84dc">~IPointsToMeshProjector</a> ()=default</td></tr>
 <tr class="separator:ac1a1633695c8776296054f81942a84dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adea0f7123b3a06965f7ca5cac07b6d39"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IPointsToMeshProjector.html#adea0f7123b3a06965f7ca5cac07b6d39">updateMeshData</a> (std::shared_ptr&lt; const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; mesh)=0</td></tr>
-<tr class="memdesc:adea0f7123b3a06965f7ca5cac07b6d39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates all data related to the referencing mesh.  <br /></td></tr>
-<tr class="separator:adea0f7123b3a06965f7ca5cac07b6d39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d8322d10509dc424965299272b1be15"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IPointsToMeshProjector.html#a3d8322d10509dc424965299272b1be15">findProjections</a> (std::vector&lt; <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &gt; &amp;result, const std::vector&lt; <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &gt; &amp;points, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;worldXf, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;worldRefXf, float upDistLimitSq, float loDistLimitSq)=0</td></tr>
-<tr class="memdesc:a3d8322d10509dc424965299272b1be15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the closest point on mesh to each of given points.  <br /></td></tr>
-<tr class="separator:a3d8322d10509dc424965299272b1be15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8386d444f8e600bb3fe67a31fc2c04f3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IPointsToMeshProjector.html#a8386d444f8e600bb3fe67a31fc2c04f3">updateMeshData</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> *mesh)=0</td></tr>
+<tr class="memdesc:a8386d444f8e600bb3fe67a31fc2c04f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates all data related to the referencing mesh.  <br /></td></tr>
+<tr class="separator:a8386d444f8e600bb3fe67a31fc2c04f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affb7ba1779ad577458ada7ad99f578ce"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IPointsToMeshProjector.html#affb7ba1779ad577458ada7ad99f578ce">findProjections</a> (std::vector&lt; <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &gt; &amp;result, const std::vector&lt; <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &gt; &amp;points, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *worldXf=nullptr, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *worldRefXf=nullptr, float upDistLimitSq=FLT_MAX, float loDistLimitSq=0.0f)=0</td></tr>
+<tr class="memdesc:affb7ba1779ad577458ada7ad99f578ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the closest point on mesh to each of given points.  <br /></td></tr>
+<tr class="separator:affb7ba1779ad577458ada7ad99f578ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2743e8821707c1810ac41b5918b2613c"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IPointsToMeshProjector.html#a2743e8821707c1810ac41b5918b2613c">projectionsHeapBytes</a> (size_t numProjections) const =0</td></tr>
 <tr class="memdesc:a2743e8821707c1810ac41b5918b2613c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns amount of memory needed to compute projections.  <br /></td></tr>
 <tr class="separator:a2743e8821707c1810ac41b5918b2613c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -164,8 +164,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a3d8322d10509dc424965299272b1be15" name="a3d8322d10509dc424965299272b1be15"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d8322d10509dc424965299272b1be15">&#9670;&#160;</a></span>findProjections()</h2>
+<a id="affb7ba1779ad577458ada7ad99f578ce" name="affb7ba1779ad577458ada7ad99f578ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affb7ba1779ad577458ada7ad99f578ce">&#9670;&#160;</a></span>findProjections()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -188,26 +188,26 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;&#160;</td>
-          <td class="paramname"><em>worldXf</em>, </td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *&#160;</td>
+          <td class="paramname"><em>worldXf</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;&#160;</td>
-          <td class="paramname"><em>worldRefXf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>upDistLimitSq</em>, </td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *&#160;</td>
+          <td class="paramname"><em>worldRefXf</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>loDistLimitSq</em>&#160;</td>
+          <td class="paramname"><em>upDistLimitSq</em> = <code>FLT_MAX</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>loDistLimitSq</em> = <code>0.0f</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -224,7 +224,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Computes the closest point on mesh to each of given points. </p>
 
-<p>Implemented in <a class="el" href="classMR_1_1PointsToMeshProjector.html#a0fc56388f972fbc8b253c69f7a8f0869">MR::PointsToMeshProjector</a>.</p>
+<p>Implemented in <a class="el" href="classMR_1_1PointsToMeshProjector.html#ae194bedca304ad2f71754636df131baa">MR::PointsToMeshProjector</a>.</p>
 
 </div>
 </div>
@@ -258,8 +258,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="adea0f7123b3a06965f7ca5cac07b6d39" name="adea0f7123b3a06965f7ca5cac07b6d39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adea0f7123b3a06965f7ca5cac07b6d39">&#9670;&#160;</a></span>updateMeshData()</h2>
+<a id="a8386d444f8e600bb3fe67a31fc2c04f3" name="a8386d444f8e600bb3fe67a31fc2c04f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8386d444f8e600bb3fe67a31fc2c04f3">&#9670;&#160;</a></span>updateMeshData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -270,7 +270,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual void MR::IPointsToMeshProjector::updateMeshData </td>
           <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> *&#160;</td>
           <td class="paramname"><em>mesh</em></td><td>)</td>
           <td></td>
         </tr>
@@ -284,7 +284,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Updates all data related to the referencing mesh. </p>
 
-<p>Implemented in <a class="el" href="classMR_1_1Cuda_1_1PointsToMeshProjector.html#a35dcbb1b3bb4bd138f9657cba0bdf70e">MR::Cuda::PointsToMeshProjector</a>, and <a class="el" href="classMR_1_1PointsToMeshProjector.html#ae97371f6525f411512c4d798f5556562">MR::PointsToMeshProjector</a>.</p>
+<p>Implemented in <a class="el" href="classMR_1_1Cuda_1_1PointsToMeshProjector.html#adf5e78de5901539edc597f320a512547">MR::Cuda::PointsToMeshProjector</a>, and <a class="el" href="classMR_1_1PointsToMeshProjector.html#afed176c7dbfe208569b144bdc9098406">MR::PointsToMeshProjector</a>.</p>
 
 </div>
 </div>

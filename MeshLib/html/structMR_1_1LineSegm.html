@@ -122,6 +122,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5fe5f232802842f5c2716a95abb8c28b"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
 <tr class="memitem:a5fe5f232802842f5c2716a95abb8c28b"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structMR_1_1LineSegm.html#a5fe5f232802842f5c2716a95abb8c28b">LineSegm</a> (const <a class="el" href="structMR_1_1LineSegm.html">LineSegm</a>&lt; U &gt; &amp;p) noexcept</td></tr>
 <tr class="separator:a5fe5f232802842f5c2716a95abb8c28b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7639a48742e5c77367777128549d36e"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1LineSegm.html#ac7639a48742e5c77367777128549d36e">dir</a> () const</td></tr>
+<tr class="memdesc:ac7639a48742e5c77367777128549d36e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns directional vector of the line  <br /></td></tr>
+<tr class="separator:ac7639a48742e5c77367777128549d36e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0c1c59c920a38b8c03970caf1da046a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1LineSegm.html#a3257b02c520c257af06a8750951851e6">T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1LineSegm.html#aa0c1c59c920a38b8c03970caf1da046a">lengthSq</a> () const</td></tr>
+<tr class="memdesc:aa0c1c59c920a38b8c03970caf1da046a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns squared length of this line segment  <br /></td></tr>
+<tr class="separator:aa0c1c59c920a38b8c03970caf1da046a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a086b850940021667f55efa192653d966"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1LineSegm.html#a3257b02c520c257af06a8750951851e6">T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1LineSegm.html#a086b850940021667f55efa192653d966">length</a> () const</td></tr>
+<tr class="memdesc:a086b850940021667f55efa192653d966"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the length of this line segment  <br /></td></tr>
+<tr class="separator:a086b850940021667f55efa192653d966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadd80884a169b1942afb5da781c1a137"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1LineSegm.html#aadd80884a169b1942afb5da781c1a137">operator()</a> (<a class="el" href="structMR_1_1LineSegm.html#a3257b02c520c257af06a8750951851e6">T</a> param) const</td></tr>
+<tr class="memdesc:aadd80884a169b1942afb5da781c1a137"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns point on the line, where param=0 returns a and param=1 returns b  <br /></td></tr>
+<tr class="separator:aadd80884a169b1942afb5da781c1a137"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -240,6 +252,124 @@ template&lt;typename U &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac7639a48742e5c77367777128549d36e" name="ac7639a48742e5c77367777128549d36e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7639a48742e5c77367777128549d36e">&#9670;&#160;</a></span>dir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">V <a class="el" href="structMR_1_1LineSegm.html">MR::LineSegm</a>&lt; V &gt;::dir </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns directional vector of the line </p>
+
+</div>
+</div>
+<a id="a086b850940021667f55efa192653d966" name="a086b850940021667f55efa192653d966"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a086b850940021667f55efa192653d966">&#9670;&#160;</a></span>length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1LineSegm.html#a3257b02c520c257af06a8750951851e6">T</a> <a class="el" href="structMR_1_1LineSegm.html">MR::LineSegm</a>&lt; V &gt;::length </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the length of this line segment </p>
+
+</div>
+</div>
+<a id="aa0c1c59c920a38b8c03970caf1da046a" name="aa0c1c59c920a38b8c03970caf1da046a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0c1c59c920a38b8c03970caf1da046a">&#9670;&#160;</a></span>lengthSq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1LineSegm.html#a3257b02c520c257af06a8750951851e6">T</a> <a class="el" href="structMR_1_1LineSegm.html">MR::LineSegm</a>&lt; V &gt;::lengthSq </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns squared length of this line segment </p>
+
+</div>
+</div>
+<a id="aadd80884a169b1942afb5da781c1a137" name="aadd80884a169b1942afb5da781c1a137"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadd80884a169b1942afb5da781c1a137">&#9670;&#160;</a></span>operator()()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">V <a class="el" href="structMR_1_1LineSegm.html">MR::LineSegm</a>&lt; V &gt;::operator() </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1LineSegm.html#a3257b02c520c257af06a8750951851e6">T</a>&#160;</td>
+          <td class="paramname"><em>param</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns point on the line, where param=0 returns a and param=1 returns b </p>
 
 </div>
 </div>

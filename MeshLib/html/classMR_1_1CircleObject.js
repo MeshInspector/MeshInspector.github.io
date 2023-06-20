@@ -3,7 +3,6 @@ var classMR_1_1CircleObject =
     [ "CircleObject", "classMR_1_1CircleObject.html#ae7df056fbd3aea6277637d8a1e9f6a01", null ],
     [ "CircleObject", "classMR_1_1CircleObject.html#abf3f59a6892bcb043c2d8c478365293f", null ],
     [ "CircleObject", "classMR_1_1CircleObject.html#a93090fe220169d0ebb34d3fcc16425d5", null ],
-    [ "~CircleObject", "classMR_1_1CircleObject.html#a8a44ba4c8749598bf386eaf1880f5179", null ],
     [ "CircleObject", "classMR_1_1CircleObject.html#abec5f0f71f858d015c3d3f59b521962e", null ],
     [ "CircleObject", "classMR_1_1CircleObject.html#af2c5d04b5db14f7ae8cf783c3371ff27", null ],
     [ "clone", "classMR_1_1CircleObject.html#a1fcb69f1dd8bdbf42302043d67fb8fa8", null ],

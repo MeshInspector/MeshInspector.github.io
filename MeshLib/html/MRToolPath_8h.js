@@ -14,10 +14,10 @@ var MRToolPath_8h =
       [ "PlaneSelectionXZ", "MRToolPath_8h.html#a88f1fdd848610bc41226918baa28e601aadaac099d02173fd0d36641202c18bd4", null ],
       [ "PlaneSelectionYZ", "MRToolPath_8h.html#a88f1fdd848610bc41226918baa28e601a8bb9000944c595d5fe5373ca272cef4a", null ]
     ] ],
-    [ "constantCuspToolPath", "MRToolPath_8h.html#af6f66b996a5d220efa3cfb7cb0114e63", null ],
-    [ "constantZToolPath", "MRToolPath_8h.html#a87e80533c86926f68f3babc5af54e999", null ],
-    [ "exportToolPathToGCode", "MRToolPath_8h.html#a702743f8da646788885081c0931349fa", null ],
+    [ "constantCuspToolPath", "MRToolPath_8h.html#a39648a442892c76a16a219319d4e9de8", null ],
+    [ "constantZToolPath", "MRToolPath_8h.html#a1a8d073d5646d584878031747e989e7f", null ],
+    [ "exportToolPathToGCode", "MRToolPath_8h.html#ae19c8e7f8ba00c5000caeb6ff5f85139", null ],
     [ "interpolateArcs", "MRToolPath_8h.html#a0ea734068981c61c08db3a81e9e9e14c", null ],
     [ "interpolateLines", "MRToolPath_8h.html#afb1474bed2b3bd5b0216e704ee6b7325", null ],
-    [ "lacingToolPath", "MRToolPath_8h.html#a8a198351623e20991485fa0471d7ecec", null ]
+    [ "lacingToolPath", "MRToolPath_8h.html#a2cff94689e228d1a5191840a6e60b6ba", null ]
 ];

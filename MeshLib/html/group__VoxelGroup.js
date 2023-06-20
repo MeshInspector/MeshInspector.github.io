@@ -3,6 +3,19 @@ var group__VoxelGroup =
     [ "Volume Indexer", "group__VolumeIndexerGroup.html", "group__VolumeIndexerGroup" ],
     [ "Volume (Voxel) Segmentation", "group__VolumeSegmentationGroup.html", "group__VolumeSegmentationGroup" ],
     [ "Voxel Path", "group__VoxelPathGroup.html", "group__VoxelPathGroup" ],
+    [ "MR::MergeGridPartSettings", "structMR_1_1MergeGridPartSettings.html", [
+      [ "PostCutCallback", "structMR_1_1MergeGridPartSettings.html#ad02c43cd8a5bb92673df3f2c170477e6", null ],
+      [ "PostMergeCallback", "structMR_1_1MergeGridPartSettings.html#acae67148c37b0f4c2c9eefd8a2d9e88b", null ],
+      [ "PreCutCallback", "structMR_1_1MergeGridPartSettings.html#a69882ebac13664925ba0404070cc2cda", null ],
+      [ "mapping", "structMR_1_1MergeGridPartSettings.html#a914da24075693a470f8b47aaa00fdeb7", null ],
+      [ "postCut", "structMR_1_1MergeGridPartSettings.html#ab8c73999582ec370e0a42a999a43c781", null ],
+      [ "postMerge", "structMR_1_1MergeGridPartSettings.html#a6125e54dcac22b760f62b1eee974d45e", null ],
+      [ "preCut", "structMR_1_1MergeGridPartSettings.html#a1415ac1391ee78f38ca823c36367e75f", null ]
+    ] ],
+    [ "MR::GridToMeshByPartsSettings", "structMR_1_1GridToMeshByPartsSettings.html", [
+      [ "maxGridPartMemoryUsage", "structMR_1_1GridToMeshByPartsSettings.html#a624f890aa7c300f711116738fd3af038", null ],
+      [ "stripeOverlap", "structMR_1_1GridToMeshByPartsSettings.html#a9e95cf8700e5c41a65c2561188e31aed", null ]
+    ] ],
     [ "MR::VolumeIndexer::areNeigbors", "group__VoxelGroup.html#ga991a1f3d21cb03e21402be655ba7c06c", null ],
     [ "MR::VolumeIndexer::areNeigbors", "group__VoxelGroup.html#gad83baf7155c4c4be0ffa42c4de418e6b", null ],
     [ "MR::VolumeIndexer::dims", "group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f", null ],

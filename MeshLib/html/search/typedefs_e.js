@@ -12,7 +12,7 @@ var searchData=
   ['planesections_9',['PlaneSections',['../namespaceMR.html#af3ec0f6043287f8378d3b8aac3dc2f9b',1,'MR']]],
   ['pluginparent_10',['PluginParent',['../classMR_1_1StateListenerPlugin.html#a1f068c2aecefbd45559101aca348aca3',1,'MR::StateListenerPlugin']]],
   ['pointer_11',['pointer',['../classMR_1_1SetBitIteratorT.html#a22e03a8a13140a2e652009346c41c0ba',1,'MR::SetBitIteratorT']]],
-  ['pointschangedsignal_12',['PointsChangedSignal',['../classMR_1_1ObjectPoints.html#ae378dbf50ff8277cc7fd064ffb661e9d',1,'MR::ObjectPoints']]],
+  ['pointschangedsignal_12',['PointsChangedSignal',['../classMR_1_1ObjectPoints.html#a2ef4b5a0107ac2eec34e6089e601a16c',1,'MR::ObjectPoints']]],
   ['polyline_13',['Polyline',['../structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d',1,'MR::PolylineTraits&lt; Vector2f &gt;::Polyline'],['../structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b',1,'MR::PolylineTraits&lt; Vector3f &gt;::Polyline']]],
   ['polyline2_14',['Polyline2',['../namespaceMR.html#ab1ca9892644603a8b29005353e5ada79',1,'MR']]],
   ['polyline2projectionwithoffsetresult_15',['Polyline2ProjectionWithOffsetResult',['../namespaceMR.html#aa9c24bbb5a16bcc2d1385bdbd2340aae',1,'MR']]],
@@ -20,10 +20,13 @@ var searchData=
   ['polylineprojectionresult2_17',['PolylineProjectionResult2',['../namespaceMR.html#a0898ca7d08b2fb73875b21bf4921f4fd',1,'MR']]],
   ['polylineprojectionresult3_18',['PolylineProjectionResult3',['../namespaceMR.html#a847af1551a9dcab4a5a333b6607522a7',1,'MR']]],
   ['polylineprojectionwithoffsetresult3_19',['PolylineProjectionWithOffsetResult3',['../namespaceMR.html#a2488a5918dcbf78bcbf511ea6c93a185',1,'MR']]],
-  ['postfocussignal_20',['PostFocusSignal',['../classMR_1_1Viewer.html#a56a4069031303c5161df2d5e4155ae22',1,'MR::Viewer']]],
-  ['postrescalesignal_21',['PostRescaleSignal',['../classMR_1_1Viewer.html#a448a65e5c8e0f80950482647b4d8a786',1,'MR::Viewer']]],
-  ['postresizesignal_22',['PostResizeSignal',['../classMR_1_1Viewer.html#ab7f0983455b1dfa5ccae593d205470d9',1,'MR::Viewer']]],
-  ['progresscallback_23',['ProgressCallback',['../group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710',1,'MR']]],
-  ['progressholder_24',['ProgressHolder',['../classMR_1_1RangeProcessorSingle.html#a18c7b1c6f5f3eb4ab1f683819ab2526b',1,'MR::RangeProcessorSingle']]],
-  ['pythonregisterfuncton_25',['PythonRegisterFuncton',['../classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c',1,'MR::PythonExport']]]
+  ['postcutcallback_20',['PostCutCallback',['../structMR_1_1MergeGridPartSettings.html#ad02c43cd8a5bb92673df3f2c170477e6',1,'MR::MergeGridPartSettings']]],
+  ['postfocussignal_21',['PostFocusSignal',['../classMR_1_1Viewer.html#a56a4069031303c5161df2d5e4155ae22',1,'MR::Viewer']]],
+  ['postmergecallback_22',['PostMergeCallback',['../structMR_1_1MergeGridPartSettings.html#acae67148c37b0f4c2c9eefd8a2d9e88b',1,'MR::MergeGridPartSettings']]],
+  ['postrescalesignal_23',['PostRescaleSignal',['../classMR_1_1Viewer.html#a448a65e5c8e0f80950482647b4d8a786',1,'MR::Viewer']]],
+  ['postresizesignal_24',['PostResizeSignal',['../classMR_1_1Viewer.html#ab7f0983455b1dfa5ccae593d205470d9',1,'MR::Viewer']]],
+  ['precutcallback_25',['PreCutCallback',['../structMR_1_1MergeGridPartSettings.html#a69882ebac13664925ba0404070cc2cda',1,'MR::MergeGridPartSettings']]],
+  ['progresscallback_26',['ProgressCallback',['../group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710',1,'MR']]],
+  ['progressholder_27',['ProgressHolder',['../classMR_1_1RangeProcessorSingle.html#a18c7b1c6f5f3eb4ab1f683819ab2526b',1,'MR::RangeProcessorSingle']]],
+  ['pythonregisterfuncton_28',['PythonRegisterFuncton',['../classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c',1,'MR::PythonExport']]]
 ];

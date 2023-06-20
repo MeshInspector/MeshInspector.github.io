@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['w_0',['w',['../structMR_1_1Matrix4.html#a9e0640aaf9b368a204fd42127c9e93e3',1,'MR::Matrix4::w'],['../structMR_1_1Vector4.html#a2a2d849b18944213202e305115b457a6',1,'MR::Vector4::w'],['../structMR_1_1IFastWindingNumber_1_1Dipole.html#a8bc3065c6f538cbebb60d0f11f316dd8',1,'MR::IFastWindingNumber::Dipole::w()']]],
+  ['w_0',['w',['../structMR_1_1Matrix4.html#a9e0640aaf9b368a204fd42127c9e93e3',1,'MR::Matrix4::w'],['../structMR_1_1Vector4.html#a2a2d849b18944213202e305115b457a6',1,'MR::Vector4::w'],['../structMR_1_1Dipole.html#a149b888cc889ea2d30db7aaaee5ac34b',1,'MR::Dipole::w()']]],
   ['waitblocking_1',['waitBlocking',['../classMR_1_1AsyncTimer.html#ab495cfbb4703c6205a17bc2dcd0a6b44',1,'MR::AsyncTimer']]],
   ['warning_2',['warning',['../structMR_1_1GcodeProcessor_1_1BaseAction.html#a9270868b501d221ffbe92fc1d7c8916e',1,'MR::GcodeProcessor::BaseAction']]],
   ['wasinterrupted_3',['wasInterrupted',['../structMR_1_1ProgressInterrupter.html#aed738a508373b12ea635ca9aa1300d4a',1,'MR::ProgressInterrupter']]],

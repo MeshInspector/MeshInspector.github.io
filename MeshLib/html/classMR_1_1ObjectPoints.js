@@ -1,12 +1,11 @@
 var classMR_1_1ObjectPoints =
 [
-    [ "PointsChangedSignal", "classMR_1_1ObjectPoints.html#ae378dbf50ff8277cc7fd064ffb661e9d", null ],
+    [ "PointsChangedSignal", "classMR_1_1ObjectPoints.html#a2ef4b5a0107ac2eec34e6089e601a16c", null ],
     [ "ObjectPoints", "classMR_1_1ObjectPoints.html#a7add507ed0f2abe3843cec2e9f387f8c", null ],
     [ "ObjectPoints", "classMR_1_1ObjectPoints.html#aef4d9f9b0da709f8683994b0e28148f6", null ],
     [ "ObjectPoints", "classMR_1_1ObjectPoints.html#aa61490c1ac4aa372d55e05f695cc5d23", null ],
-    [ "~ObjectPoints", "classMR_1_1ObjectPoints.html#a8d54c8a3353fe7bfbafc3ea5f8bb2659", null ],
     [ "ObjectPoints", "classMR_1_1ObjectPoints.html#a565091fdf7ac04df64dcc926ecf74ffb", null ],
-    [ "ObjectPoints", "classMR_1_1ObjectPoints.html#a5d13d0d83ed6829a3def6224dd5fd465", null ],
+    [ "ObjectPoints", "classMR_1_1ObjectPoints.html#a2115d8e4f880b457969069d6da367e5f", null ],
     [ "clone", "classMR_1_1ObjectPoints.html#ad267de3013f2004552a791899a4d2fb6", null ],
     [ "getClassName", "classMR_1_1ObjectPoints.html#a9b538af544fb079b16e86b72414c4b2a", null ],
     [ "getInfoLines", "classMR_1_1ObjectPoints.html#a8a5af21a0ab52a2d7f2464ba3e3f8131", null ],
