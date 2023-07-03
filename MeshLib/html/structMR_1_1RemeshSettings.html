@@ -110,15 +110,19 @@ $(document).ready(function(){initNavTree('structMR_1_1RemeshSettings.html',''); 
 Public Attributes</h2></td></tr>
 <tr class="memitem:a4742691117b65ee01c742f25180e17a7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#a4742691117b65ee01c742f25180e17a7">targetEdgeLen</a> = 0.001f</td></tr>
 <tr class="separator:a4742691117b65ee01c742f25180e17a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a592a9fdf585b18024f3a12b1bfee0d12"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#a592a9fdf585b18024f3a12b1bfee0d12">edgeLenUniformity</a> = 0.5f</td></tr>
-<tr class="separator:a592a9fdf585b18024f3a12b1bfee0d12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a719cad8f8428301214682399c497bbc1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#a719cad8f8428301214682399c497bbc1">maxAngleChangeAfterFlip</a> = 30 * PI_F / 180.0f</td></tr>
 <tr class="memdesc:a719cad8f8428301214682399c497bbc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Improves local mesh triangulation by doing edge flips if it does change dihedral angle more than on this value.  <br /></td></tr>
 <tr class="separator:a719cad8f8428301214682399c497bbc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac40df80c94fefeea4585f945fb040012"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#ac40df80c94fefeea4585f945fb040012">maxBdShift</a> = FLT_MAX</td></tr>
+<tr class="memdesc:ac40df80c94fefeea4585f945fb040012"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximal shift of a boundary during one edge collapse.  <br /></td></tr>
+<tr class="separator:ac40df80c94fefeea4585f945fb040012"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58fc77c6b836083eab39f95b271080e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#a58fc77c6b836083eab39f95b271080e8">useCurvature</a> = false</td></tr>
 <tr class="separator:a58fc77c6b836083eab39f95b271080e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7ab1e7054f884efcbe1327815ffd678"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#ad7ab1e7054f884efcbe1327815ffd678">finalRelaxIters</a> = 0</td></tr>
 <tr class="separator:ad7ab1e7054f884efcbe1327815ffd678"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a193b9ba70e3770ddb3e240625ebb00f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#a193b9ba70e3770ddb3e240625ebb00f9">finalRelaxNoShrinkage</a> = false</td></tr>
+<tr class="memdesc:a193b9ba70e3770ddb3e240625ebb00f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true prevents the surface from shrinkage after many iterations  <br /></td></tr>
+<tr class="separator:a193b9ba70e3770ddb3e240625ebb00f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba67372080b3650ca0d9a939e8b5526a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#aba67372080b3650ca0d9a939e8b5526a">region</a> = nullptr</td></tr>
 <tr class="memdesc:aba67372080b3650ca0d9a939e8b5526a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Region on mesh to be changed, it is updated during the operation.  <br /></td></tr>
 <tr class="separator:aba67372080b3650ca0d9a939e8b5526a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,6 +134,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a2302742bd2200fd6a5f9e078015705c1"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e1, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#a2302742bd2200fd6a5f9e078015705c1">onEdgeSplit</a></td></tr>
 <tr class="memdesc:a2302742bd2200fd6a5f9e078015705c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone  <br /></td></tr>
 <tr class="separator:a2302742bd2200fd6a5f9e078015705c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22c46bdff64005e21bccd666e13e7f01"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e1)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#a22c46bdff64005e21bccd666e13e7f01">onEdgeDel</a></td></tr>
+<tr class="memdesc:a22c46bdff64005e21bccd666e13e7f01"><td class="mdescLeft">&#160;</td><td class="mdescRight">if valid (e1) is given then dest(e) = dest(e1) and their origins are in different ends of collapsing edge, e1 shall take the place of e  <br /></td></tr>
+<tr class="separator:a22c46bdff64005e21bccd666e13e7f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae47bb1dc61a019d8b23cdfd9d0343018"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> edgeToCollapse, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;newEdgeOrgPos)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RemeshSettings.html#ae47bb1dc61a019d8b23cdfd9d0343018">preCollapse</a></td></tr>
 <tr class="memdesc:ae47bb1dc61a019d8b23cdfd9d0343018"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can provide this optional callback that is invoked immediately before edge collapse;.  <br /></td></tr>
 <tr class="separator:ae47bb1dc61a019d8b23cdfd9d0343018"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,21 +145,6 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ac65eb4c2e1f090a756362df72b272d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a592a9fdf585b18024f3a12b1bfee0d12" name="a592a9fdf585b18024f3a12b1bfee0d12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a592a9fdf585b18024f3a12b1bfee0d12">&#9670;&#160;</a></span>edgeLenUniformity</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::RemeshSettings::edgeLenUniformity = 0.5f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>this value must be in (0,1]. Smaller values result in faster processing but allow for considerable deviation of resulting edge lengths. Larger values on the contrary make edges closer by length but takes longer to compute. </p>
-
-</div>
-</div>
 <a id="ad7ab1e7054f884efcbe1327815ffd678" name="ad7ab1e7054f884efcbe1327815ffd678"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad7ab1e7054f884efcbe1327815ffd678">&#9670;&#160;</a></span>finalRelaxIters</h2>
 
@@ -165,6 +157,22 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>the number of iterations of final relaxation of mesh vertices; few iterations can give almost perfect uniformity of the vertices and edge lengths but deviate from the original surface </p>
+
+</div>
+</div>
+<a id="a193b9ba70e3770ddb3e240625ebb00f9" name="a193b9ba70e3770ddb3e240625ebb00f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a193b9ba70e3770ddb3e240625ebb00f9">&#9670;&#160;</a></span>finalRelaxNoShrinkage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::RemeshSettings::finalRelaxNoShrinkage = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if true prevents the surface from shrinkage after many iterations </p>
 
 </div>
 </div>
@@ -184,6 +192,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ac40df80c94fefeea4585f945fb040012" name="ac40df80c94fefeea4585f945fb040012"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac40df80c94fefeea4585f945fb040012">&#9670;&#160;</a></span>maxBdShift</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::RemeshSettings::maxBdShift = FLT_MAX</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Maximal shift of a boundary during one edge collapse. </p>
+
+</div>
+</div>
 <a id="af94f082b1d13804c4460f447afcda26a" name="af94f082b1d13804c4460f447afcda26a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af94f082b1d13804c4460f447afcda26a">&#9670;&#160;</a></span>notFlippable</h2>
 
@@ -195,7 +219,23 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Edges specified by this bit-set will never be flipped, but they can be split or eliminated during decimation so it is updated during the operation; also the vertices incident to these edges are exluded from relaxation </p>
+<p>Edges specified by this bit-set will never be flipped or collapsed, but they can be replaced during collapse of nearby edges so it is updated during the operation; also the vertices incident to these edges are excluded from relaxation </p>
+
+</div>
+</div>
+<a id="a22c46bdff64005e21bccd666e13e7f01" name="a22c46bdff64005e21bccd666e13e7f01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22c46bdff64005e21bccd666e13e7f01">&#9670;&#160;</a></span>onEdgeDel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;void(<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e1)&gt; MR::RemeshSettings::onEdgeDel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if valid (e1) is given then dest(e) = dest(e1) and their origins are in different ends of collapsing edge, e1 shall take the place of e </p>
 
 </div>
 </div>
@@ -291,7 +331,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the algorithm will try to keep the length of all edges close to this value, splitting the edges longer than targetEdgeLen / edgeLenUniformity, and eliminating the edges shorter than targetEdgeLen * edgeLenUniformity </p>
+<p>the algorithm will try to keep the length of all edges close to this value, splitting the edges longer than targetEdgeLen, and then eliminating the edges shorter than targetEdgeLen </p>
 
 </div>
 </div>

@@ -115,9 +115,12 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a7b024d2a905ecd6515a263ec20d35dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab97888b6d597260226ade61b4e542ef0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#ab97888b6d597260226ade61b4e542ef0">maxError</a> = 0.001f</td></tr>
 <tr class="separator:ab97888b6d597260226ade61b4e542ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac98cbfa367475605fa88982f55dc9a61"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#ac98cbfa367475605fa88982f55dc9a61">maxEdgeLen</a> = 1</td></tr>
+<tr class="memitem:ac98cbfa367475605fa88982f55dc9a61"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#ac98cbfa367475605fa88982f55dc9a61">maxEdgeLen</a> = FLT_MAX</td></tr>
 <tr class="memdesc:ac98cbfa367475605fa88982f55dc9a61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximal possible edge length created during decimation.  <br /></td></tr>
 <tr class="separator:ac98cbfa367475605fa88982f55dc9a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ec13d6be73db6e77b404aea2c0d3371"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#a5ec13d6be73db6e77b404aea2c0d3371">maxBdShift</a> = FLT_MAX</td></tr>
+<tr class="memdesc:a5ec13d6be73db6e77b404aea2c0d3371"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximal shift of a boundary during one edge collapse.  <br /></td></tr>
+<tr class="separator:a5ec13d6be73db6e77b404aea2c0d3371"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1fd605860fa7a20931506008f29daa9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#af1fd605860fa7a20931506008f29daa9">maxTriangleAspectRatio</a> = 20</td></tr>
 <tr class="memdesc:af1fd605860fa7a20931506008f29daa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximal possible aspect ratio of a triangle introduced during decimation.  <br /></td></tr>
 <tr class="separator:af1fd605860fa7a20931506008f29daa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,6 +142,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a9359f9da0b131c164d942b1361bd9644"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#a9359f9da0b131c164d942b1361bd9644">region</a> = nullptr</td></tr>
 <tr class="memdesc:a9359f9da0b131c164d942b1361bd9644"><td class="mdescLeft">&#160;</td><td class="mdescRight">Region on mesh to be decimated, it is updated during the operation.  <br /></td></tr>
 <tr class="separator:a9359f9da0b131c164d942b1361bd9644"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0731477e770d3880ed47726b66c43479"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#a0731477e770d3880ed47726b66c43479">notFlippable</a> = nullptr</td></tr>
+<tr class="memdesc:a0731477e770d3880ed47726b66c43479"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edges specified by this bit-set will never be flipped or collapsed, but they can be replaced during collapse of nearby edges so it is updated during the operation.  <br /></td></tr>
+<tr class="separator:a0731477e770d3880ed47726b66c43479"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e2b45d957cafc32245b3ee812ed80d0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#a4e2b45d957cafc32245b3ee812ed80d0">edgesToCollapse</a> = nullptr</td></tr>
 <tr class="memdesc:a4e2b45d957cafc32245b3ee812ed80d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">If pointer is not null, then only edges from here can be collapsed (and some nearby edges can disappear)  <br /></td></tr>
 <tr class="separator:a4e2b45d957cafc32245b3ee812ed80d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,6 +161,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a21d7c6d9122286b4edf7bd531d38b72b"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="namespaceMR.html#a65798dca01178b50da3bbd7968fb360e">UndirectedEdgeId</a> ue, float &amp;collapseErrorSq, <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;collapsePos)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#a21d7c6d9122286b4edf7bd531d38b72b">adjustCollapse</a></td></tr>
 <tr class="memdesc:a21d7c6d9122286b4edf7bd531d38b72b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can provide this optional callback for adjusting error introduced by this edge collapse and the collapse position.  <br /></td></tr>
 <tr class="separator:a21d7c6d9122286b4edf7bd531d38b72b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4777d8a943b9bf55a68858260f62abd4"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e1)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#a4777d8a943b9bf55a68858260f62abd4">onEdgeDel</a></td></tr>
+<tr class="separator:a4777d8a943b9bf55a68858260f62abd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a682d43b723098485a748e97bd12111"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="namespaceMR.html#a03bea4c1686b4e77a996eb13fd1d4bb7">QuadraticForm3f</a>, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#a8a682d43b723098485a748e97bd12111">vertForms</a> = nullptr</td></tr>
 <tr class="memdesc:a8a682d43b723098485a748e97bd12111"><td class="mdescLeft">&#160;</td><td class="mdescRight">If not null, then vertex quadratic forms are stored there; if on input the vector is not empty then initialization is skipped in favor of values from there; on output: quadratic form for each remaining vertex is returned there.  <br /></td></tr>
 <tr class="separator:a8a682d43b723098485a748e97bd12111"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -249,6 +257,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5ec13d6be73db6e77b404aea2c0d3371" name="a5ec13d6be73db6e77b404aea2c0d3371"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ec13d6be73db6e77b404aea2c0d3371">&#9670;&#160;</a></span>maxBdShift</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::DecimateSettings::maxBdShift = FLT_MAX</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Maximal shift of a boundary during one edge collapse. </p>
+
+</div>
+</div>
 <a id="a38bbdf3c479e6edea3b93ca7a7b52084" name="a38bbdf3c479e6edea3b93ca7a7b52084"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a38bbdf3c479e6edea3b93ca7a7b52084">&#9670;&#160;</a></span>maxDeletedFaces</h2>
 
@@ -288,7 +312,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float MR::DecimateSettings::maxEdgeLen = 1</td>
+          <td class="memname">float MR::DecimateSettings::maxEdgeLen = FLT_MAX</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -325,6 +349,37 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Maximal possible aspect ratio of a triangle introduced during decimation. </p>
+
+</div>
+</div>
+<a id="a0731477e770d3880ed47726b66c43479" name="a0731477e770d3880ed47726b66c43479"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0731477e770d3880ed47726b66c43479">&#9670;&#160;</a></span>notFlippable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a>* MR::DecimateSettings::notFlippable = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Edges specified by this bit-set will never be flipped or collapsed, but they can be replaced during collapse of nearby edges so it is updated during the operation. </p>
+
+</div>
+</div>
+<a id="a4777d8a943b9bf55a68858260f62abd4" name="a4777d8a943b9bf55a68858260f62abd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4777d8a943b9bf55a68858260f62abd4">&#9670;&#160;</a></span>onEdgeDel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;void(<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e1)&gt; MR::DecimateSettings::onEdgeDel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this function is called each time edge (e) is deleted; if valid (e1) is given then dest(e) = dest(e1) and their origins are in different ends of collapsing edge, e1 shall take the place of e </p>
 
 </div>
 </div>

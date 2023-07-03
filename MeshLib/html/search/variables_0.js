@@ -26,7 +26,7 @@ var searchData=
   ['ancillary_5f_23',['ancillary_',['../classMR_1_1Object.html#a7919fe84554abf5973d82255df4425a6',1,'MR::Object']]],
   ['ancillarytexture_5f_24',['ancillaryTexture_',['../classMR_1_1ObjectMeshHolder.html#aabe11a7d97527caa17d527044aa97a11',1,'MR::ObjectMeshHolder']]],
   ['ancillaryuvcoordinates_5f_25',['ancillaryUVCoordinates_',['../classMR_1_1ObjectMeshHolder.html#a41d53a14ee2d2fa5b894d5a5b19586e5',1,'MR::ObjectMeshHolder']]],
-  ['animationmaxfps_26',['animationMaxFps',['../classMR_1_1Viewer.html#a1747b85f1a561ad143a87af606bf91ac',1,'MR::Viewer::animationMaxFps'],['../structMR_1_1Viewer_1_1LaunchParams.html#a7d9e66d45e454491fc4d4c95a35035d5',1,'MR::Viewer::LaunchParams::animationMaxFps']]],
+  ['animationmaxfps_26',['animationMaxFps',['../structMR_1_1Viewer_1_1LaunchParams.html#a7d9e66d45e454491fc4d4c95a35035d5',1,'MR::Viewer::LaunchParams::animationMaxFps'],['../classMR_1_1Viewer.html#a1747b85f1a561ad143a87af606bf91ac',1,'MR::Viewer::animationMaxFps']]],
   ['area_27',['area',['../structMR_1_1Dipole.html#aae5226baaa9fd2fef60b3940f4d0951f',1,'MR::Dipole']]],
   ['areapos_28',['areaPos',['../structMR_1_1Dipole.html#adc4afd95d89a8bd846420e141d293799',1,'MR::Dipole']]],
   ['argc_29',['argc',['../structMR_1_1Viewer_1_1LaunchParams.html#a5a86591917d9bf8a882ecadbcf95487f',1,'MR::Viewer::LaunchParams']]],
@@ -34,5 +34,6 @@ var searchData=
   ['arr_31',['arr',['../structMR_1_1BindVertexAttribArraySettings.html#a1e06765a94d24f632c968c4d04f8280a',1,'MR::BindVertexAttribArraySettings']]],
   ['arrsize_32',['arrSize',['../structMR_1_1BindVertexAttribArraySettings.html#a65f898d899c6fff2f308bfd6fd24a129',1,'MR::BindVertexAttribArraySettings']]],
   ['aundiredge_33',['aUndirEdge',['../structMR_1_1UndirectedEdgeUndirectedEdge.html#aaf55dde37dfa59f981e1bc41ee3ac74a',1,'MR::UndirectedEdgeUndirectedEdge']]],
-  ['avgnumneighbours_34',['avgNumNeighbours',['../structMR_1_1TriangulationParameters.html#aa4ccfb848c69c38a9307eae1232adcbe',1,'MR::TriangulationParameters']]]
+  ['avgedgelen_5f_34',['avgEdgeLen_',['../classMR_1_1ObjectMeshHolder.html#a7b9b185e83a83d6a3cdf3f18fca7d410',1,'MR::ObjectMeshHolder']]],
+  ['avgnumneighbours_35',['avgNumNeighbours',['../structMR_1_1TriangulationParameters.html#aa4ccfb848c69c38a9307eae1232adcbe',1,'MR::TriangulationParameters']]]
 ];

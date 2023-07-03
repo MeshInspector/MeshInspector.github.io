@@ -12,6 +12,7 @@ var classMR_1_1ObjectGcode =
     [ "getClassName", "classMR_1_1ObjectGcode.html#aaa869cb7e2f0543a53b482e956852415", null ],
     [ "getIdleColor", "classMR_1_1ObjectGcode.html#a1d9580ea02a6801309d33b66a3ae2ce5", null ],
     [ "getInfoLines", "classMR_1_1ObjectGcode.html#a66df6de195c9b8502579231576b0017c", null ],
+    [ "heapBytes", "classMR_1_1ObjectGcode.html#a4dc4a82d21db1be6d2baf57046389e33", null ],
     [ "isFeedrateGradient", "classMR_1_1ObjectGcode.html#a568418ed1668faab8c6b702065fdf81b", null ],
     [ "operator=", "classMR_1_1ObjectGcode.html#a964bd7e09c026c38216e2e84b35c1422", null ],
     [ "segmentToSourceLineMap", "classMR_1_1ObjectGcode.html#a35ed5ae1dee6649556452dbac4fff274", null ],

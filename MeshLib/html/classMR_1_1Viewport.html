@@ -199,6 +199,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac8f281b2f8f5d0789723959ed3c8bb1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8d2d1ebf05bdfac6a830fc7ccb9c76c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewport.html#ae8d2d1ebf05bdfac6a830fc7ccb9c76c">findObjectsInRect</a> (const <a class="el" href="namespaceMR.html#ae9c8c45958f00d2d38379fe336620a82">Box2i</a> &amp;rect, int maxRenderResolutionSide=512) const</td></tr>
 <tr class="separator:ae8d2d1ebf05bdfac6a830fc7ccb9c76c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92197d0812be326f98d5480f8235b4de"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::unordered_map&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt;, <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewport.html#a92197d0812be326f98d5480f8235b4de">findVisibleFaces</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;includePixBs, int maxRenderResolutionSide=512) const</td></tr>
+<tr class="separator:a92197d0812be326f98d5480f8235b4de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a070e1760f853d8260fec359e0ae560a6"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="MRViewport_8h.html#a644688f2af4d550fac6d7bbeb67423a7">ConstObjAndPick</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewport.html#a070e1760f853d8260fec359e0ae560a6">const_pick_render_object</a> () const</td></tr>
 <tr class="separator:a070e1760f853d8260fec359e0ae560a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fbdff73baac11261d9ca67ff15add59"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="MRViewport_8h.html#a644688f2af4d550fac6d7bbeb67423a7">ConstObjAndPick</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewport.html#a3fbdff73baac11261d9ca67ff15add59">const_pick_render_object</a> (const std::vector&lt; const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> * &gt; &amp;objects) const</td></tr>
@@ -884,6 +886,34 @@ Public Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespaceMR.html#ae9c8c45958f00d2d38379fe336620a82">Box2i</a> &amp;&#160;</td>
           <td class="paramname"><em>rect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxRenderResolutionSide</em> = <code>512</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a92197d0812be326f98d5480f8235b4de" name="a92197d0812be326f98d5480f8235b4de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92197d0812be326f98d5480f8235b4de">&#9670;&#160;</a></span>findVisibleFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API std::unordered_map&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt;, <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &gt; MR::Viewport::findVisibleFaces </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>includePixBs</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

@@ -31,6 +31,7 @@ var classMR_1_1Viewport =
     [ "draw", "classMR_1_1Viewport.html#a5cd3661cc943bc9bab1397dcf720fcd8", null ],
     [ "draw", "classMR_1_1Viewport.html#af0c895915db1f9ab2aa3b43b4f02b65e", null ],
     [ "findObjectsInRect", "classMR_1_1Viewport.html#ae8d2d1ebf05bdfac6a830fc7ccb9c76c", null ],
+    [ "findVisibleFaces", "classMR_1_1Viewport.html#a92197d0812be326f98d5480f8235b4de", null ],
     [ "fitBox", "classMR_1_1Viewport.html#a6ac594d0dfd749cdb836fe216d2f63a9", null ],
     [ "fitData", "classMR_1_1Viewport.html#a9a3a641b649270fae26cb2659d47a756", null ],
     [ "getBackwardDirection", "classMR_1_1Viewport.html#a794aba08108a4fb8cb9d4e65565ddf5f", null ],

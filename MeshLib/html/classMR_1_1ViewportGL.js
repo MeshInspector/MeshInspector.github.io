@@ -1,9 +1,12 @@
 var classMR_1_1ViewportGL =
 [
+    [ "BasePickResult", "structMR_1_1ViewportGL_1_1BasePickResult.html", "structMR_1_1ViewportGL_1_1BasePickResult" ],
     [ "BaseRenderParams", "structMR_1_1ViewportGL_1_1BaseRenderParams.html", "structMR_1_1ViewportGL_1_1BaseRenderParams" ],
     [ "PickParameters", "structMR_1_1ViewportGL_1_1PickParameters.html", "structMR_1_1ViewportGL_1_1PickParameters" ],
     [ "PickResult", "structMR_1_1ViewportGL_1_1PickResult.html", "structMR_1_1ViewportGL_1_1PickResult" ],
     [ "RenderParams", "structMR_1_1ViewportGL_1_1RenderParams.html", "structMR_1_1ViewportGL_1_1RenderParams" ],
+    [ "ScaledPickRes", "structMR_1_1ViewportGL_1_1ScaledPickRes.html", "structMR_1_1ViewportGL_1_1ScaledPickRes" ],
+    [ "BasePickResults", "classMR_1_1ViewportGL.html#a28aa3f7360b6d73987f11ccc02b6a51e", null ],
     [ "GLfloat", "classMR_1_1ViewportGL.html#a4324daf005894093aab00d0738fbd422", null ],
     [ "GLuint", "classMR_1_1ViewportGL.html#a2a8a6c6953f39b7763a83def4e9f8ba5", null ],
     [ "PickResults", "classMR_1_1ViewportGL.html#a79d22916ef4534d1503a4433e40d44c1", null ],
@@ -24,6 +27,7 @@ var classMR_1_1ViewportGL =
     [ "operator=", "classMR_1_1ViewportGL.html#af6d0b135cd7ea98a92eac23f1bac3642", null ],
     [ "operator=", "classMR_1_1ViewportGL.html#a1540ae57916ae7af3244396a8443ff87", null ],
     [ "pickObjects", "classMR_1_1ViewportGL.html#abc105ddae2f4b963448775271221ed8f", null ],
+    [ "pickObjectsInRect", "classMR_1_1ViewportGL.html#afd238d185cc770e343e9fd80e4e1095a", null ],
     [ "setLinesWithColors", "classMR_1_1ViewportGL.html#a57d5fac5a6b63ef1402e749deb09bb98", null ],
     [ "setPointsWithColors", "classMR_1_1ViewportGL.html#a9c9593b49322257efc76b75649dbc12e", null ],
     [ "lines_dirty", "classMR_1_1ViewportGL.html#a1b2d6651a304c59c74052fd1d65806a9", null ],

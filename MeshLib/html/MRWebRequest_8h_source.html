@@ -103,8 +103,8 @@ $(document).ready(function(){initNavTree('MRWebRequest_8h_source.html',''); init
 <a href="MRWebRequest_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#ifndef MRMESH_NO_CPR</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRViewerFwd_8h.html">MRViewerFwd.h</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRPch/MRJson.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;tl/expected.hpp&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRExpected_8h.html">MRMesh/MRExpected.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;MRPch/MRJson.h&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;unordered_map&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;functional&gt;</span></div>
@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('MRWebRequest_8h_source.html',''); init
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">// returns json value of text or error if response failed</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="namespaceMR.html#a94685850bcf14a33d339752dfa839794">   13</a></span>MRVIEWER_API tl::expected&lt;Json::Value, std::string&gt; <a class="code hl_function" href="namespaceMR.html#a94685850bcf14a33d339752dfa839794">parseResponse</a>( <span class="keyword">const</span> Json::Value&amp; response );</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="namespaceMR.html#abfac1334a253b0dfc73201be59bc0fa7">   13</a></span>MRVIEWER_API <a class="code hl_typedef" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected&lt;Json::Value, std::string&gt;</a> <a class="code hl_function" href="namespaceMR.html#abfac1334a253b0dfc73201be59bc0fa7">parseResponse</a>( <span class="keyword">const</span> Json::Value&amp; response );</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">// this class is needed to unify cpp and wasm requests</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment">// can perform only one request at a time</span></div>
@@ -146,26 +146,24 @@ $(document).ready(function(){initNavTree('MRWebRequest_8h_source.html',''); init
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="classMR_1_1WebRequest.html#a2ebe713343abb8bcc05ddc7d74efa880">   45</a></span>    <span class="keyword">using </span><a class="code hl_typedef" href="classMR_1_1WebRequest.html#a2ebe713343abb8bcc05ddc7d74efa880">ResponseCallback</a> = std::function&lt;void( <span class="keyword">const</span> Json::Value&amp; response )&gt;;</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="comment">// sends request, calling callback on answer, </span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="comment">// if async then callback is called in next frame after getting response</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="comment">// return true if request was sent, false if other request is processing now</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="comment">// note: check `readyForNextRequest` before sending</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="classMR_1_1WebRequest.html#a7d73f503f4be90b9a25d9f4d89e9760f">   51</a></span>    MRVIEWER_API <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1WebRequest.html#a7d73f503f4be90b9a25d9f4d89e9760f">send</a>( std::string url, <a class="code hl_typedef" href="classMR_1_1WebRequest.html#a2ebe713343abb8bcc05ddc7d74efa880">ResponseCallback</a> callback, <span class="keywordtype">bool</span> async = <span class="keyword">true</span> );</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <a class="code hl_class" href="classMR_1_1WebRequest.html">WebRequest</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <a class="code hl_class" href="classMR_1_1WebRequest.html">~WebRequest</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <a class="code hl_enumeration" href="classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0c">Method</a> method_{ Method::Get };</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordtype">int</span> timeout_{ 10000 };</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    std::unordered_map&lt;std::string, std::string&gt; params_;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    std::unordered_map&lt;std::string, std::string&gt; headers_;</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    std::string body_;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keyword">static</span> WebRequest&amp; instance_();</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>};</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>}</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="classMR_1_1WebRequest.html#abebdd1f748e86072612d1e1f3e54e52f">   52</a></span>    MRVIEWER_API <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1WebRequest.html#abebdd1f748e86072612d1e1f3e54e52f">send</a>( std::string url, <span class="keyword">const</span> std::string &amp; logName, <a class="code hl_typedef" href="classMR_1_1WebRequest.html#a2ebe713343abb8bcc05ddc7d74efa880">ResponseCallback</a> callback, <span class="keywordtype">bool</span> async = <span class="keyword">true</span> );</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <a class="code hl_class" href="classMR_1_1WebRequest.html">WebRequest</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <a class="code hl_class" href="classMR_1_1WebRequest.html">~WebRequest</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <a class="code hl_enumeration" href="classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0c">Method</a> method_{ Method::Get };</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordtype">int</span> timeout_{ 10000 };</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    std::unordered_map&lt;std::string, std::string&gt; params_;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    std::unordered_map&lt;std::string, std::string&gt; headers_;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    std::string body_;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keyword">static</span> WebRequest&amp; instance_();</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>};</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>}</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMRExpected_8h_html"><div class="ttname"><a href="MRExpected_8h.html">MRExpected.h</a></div></div>
 <div class="ttc" id="aMRViewerFwd_8h_html"><div class="ttname"><a href="MRViewerFwd_8h.html">MRViewerFwd.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1WebRequest_html"><div class="ttname"><a href="classMR_1_1WebRequest.html">MR::WebRequest</a></div><div class="ttdef"><b>Definition</b> MRWebRequest.h:19</div></div>
 <div class="ttc" id="aclassMR_1_1WebRequest_html_a06a535a1de69a350ecc49dc2b474d07a"><div class="ttname"><a href="classMR_1_1WebRequest.html#a06a535a1de69a350ecc49dc2b474d07a">MR::WebRequest::setParameters</a></div><div class="ttdeci">static MRVIEWER_API void setParameters(std::unordered_map&lt; std::string, std::string &gt; parameters)</div></div>
@@ -174,12 +172,13 @@ $(document).ready(function(){initNavTree('MRWebRequest_8h_source.html',''); init
 <div class="ttc" id="aclassMR_1_1WebRequest_html_a41c20f03f50bcedcfc4008e33eb962cc"><div class="ttname"><a href="classMR_1_1WebRequest.html#a41c20f03f50bcedcfc4008e33eb962cc">MR::WebRequest::clear</a></div><div class="ttdeci">static MRVIEWER_API void clear()</div></div>
 <div class="ttc" id="aclassMR_1_1WebRequest_html_a48ff44bc9e15b6bde610222a1122c1c9"><div class="ttname"><a href="classMR_1_1WebRequest.html#a48ff44bc9e15b6bde610222a1122c1c9">MR::WebRequest::setMethod</a></div><div class="ttdeci">static MRVIEWER_API void setMethod(Method method)</div></div>
 <div class="ttc" id="aclassMR_1_1WebRequest_html_a538163a0001f0f1532cdb5b01fc5ce1f"><div class="ttname"><a href="classMR_1_1WebRequest.html#a538163a0001f0f1532cdb5b01fc5ce1f">MR::WebRequest::setTimeout</a></div><div class="ttdeci">static MRVIEWER_API void setTimeout(int timeoutMs)</div></div>
-<div class="ttc" id="aclassMR_1_1WebRequest_html_a7d73f503f4be90b9a25d9f4d89e9760f"><div class="ttname"><a href="classMR_1_1WebRequest.html#a7d73f503f4be90b9a25d9f4d89e9760f">MR::WebRequest::send</a></div><div class="ttdeci">static MRVIEWER_API bool send(std::string url, ResponseCallback callback, bool async=true)</div></div>
 <div class="ttc" id="aclassMR_1_1WebRequest_html_a902c76225b0b89fcaf6d66291687f43c"><div class="ttname"><a href="classMR_1_1WebRequest.html#a902c76225b0b89fcaf6d66291687f43c">MR::WebRequest::readyForNextRequest</a></div><div class="ttdeci">static MRVIEWER_API bool readyForNextRequest()</div></div>
 <div class="ttc" id="aclassMR_1_1WebRequest_html_ab51d344172a11d79b57012398f3ad733"><div class="ttname"><a href="classMR_1_1WebRequest.html#ab51d344172a11d79b57012398f3ad733">MR::WebRequest::setBody</a></div><div class="ttdeci">static MRVIEWER_API void setBody(std::string body)</div></div>
+<div class="ttc" id="aclassMR_1_1WebRequest_html_abebdd1f748e86072612d1e1f3e54e52f"><div class="ttname"><a href="classMR_1_1WebRequest.html#abebdd1f748e86072612d1e1f3e54e52f">MR::WebRequest::send</a></div><div class="ttdeci">static MRVIEWER_API bool send(std::string url, const std::string &amp;logName, ResponseCallback callback, bool async=true)</div></div>
 <div class="ttc" id="aclassMR_1_1WebRequest_html_ace710e20f931b5a3da04f21f16c5ab0c"><div class="ttname"><a href="classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0c">MR::WebRequest::Method</a></div><div class="ttdeci">Method</div><div class="ttdef"><b>Definition</b> MRWebRequest.h:22</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
-<div class="ttc" id="anamespaceMR_html_a94685850bcf14a33d339752dfa839794"><div class="ttname"><a href="namespaceMR.html#a94685850bcf14a33d339752dfa839794">MR::parseResponse</a></div><div class="ttdeci">MRVIEWER_API tl::expected&lt; Json::Value, std::string &gt; parseResponse(const Json::Value &amp;response)</div></div>
+<div class="ttc" id="anamespaceMR_html_a9e4cb12e0805ba24e046ac622cdc33bb"><div class="ttname"><a href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">MR::Expected</a></div><div class="ttdeci">tl::expected&lt; T, E &gt; Expected</div><div class="ttdef"><b>Definition</b> MRExpected.h:29</div></div>
+<div class="ttc" id="anamespaceMR_html_abfac1334a253b0dfc73201be59bc0fa7"><div class="ttname"><a href="namespaceMR.html#abfac1334a253b0dfc73201be59bc0fa7">MR::parseResponse</a></div><div class="ttdeci">MRVIEWER_API Expected&lt; Json::Value, std::string &gt; parseResponse(const Json::Value &amp;response)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

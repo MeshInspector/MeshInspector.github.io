@@ -346,6 +346,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a68d4b2d56fbb76bfc31e2d8a2672fc1c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a68d4b2d56fbb76bfc31e2d8a2672fc1c">isInnerOrBdEdge</a> (<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *region=nullptr) const</td></tr>
 <tr class="memdesc:a68d4b2d56fbb76bfc31e2d8a2672fc1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if given edge is inner or boundary for given region (or for whole mesh if region is nullptr), returns false for lone edges  <br /></td></tr>
 <tr class="separator:a68d4b2d56fbb76bfc31e2d8a2672fc1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2acc2c945d672bad703119cf06ba3d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#ac2acc2c945d672bad703119cf06ba3d3">nextLeftBd</a> (<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *region=nullptr) const</td></tr>
+<tr class="memdesc:ac2acc2c945d672bad703119cf06ba3d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">given a (region) boundary edge with no right face in given region, returns next boundary edge for the same region: dest(e)==org(res)  <br /></td></tr>
+<tr class="separator:ac2acc2c945d672bad703119cf06ba3d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a205a1c451bc142cebb49cc249e48e9e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a205a1c451bc142cebb49cc249e48e9e8">prevLeftBd</a> (<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *region=nullptr) const</td></tr>
+<tr class="memdesc:a205a1c451bc142cebb49cc249e48e9e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">given a (region) boundary edge with no right face in given region, returns previous boundary edge for the same region; dest(res)==org(e)  <br /></td></tr>
+<tr class="separator:a205a1c451bc142cebb49cc249e48e9e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5280cca1a7e8cf958ef2856607f87b8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a5280cca1a7e8cf958ef2856607f87b8b">findEdge</a> (<a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> o, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> d) const</td></tr>
 <tr class="memdesc:a5280cca1a7e8cf958ef2856607f87b8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds and returns edge from o to d in the mesh; returns invalid edge otherwise  <br /></td></tr>
 <tr class="separator:a5280cca1a7e8cf958ef2856607f87b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -435,7 +441,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a698bdffc6553d99627eff8444ae95cfb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a698bdffc6553d99627eff8444ae95cfb">write</a> (std::ostream &amp;s) const</td></tr>
 <tr class="memdesc:a698bdffc6553d99627eff8444ae95cfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in binary stream  <br /></td></tr>
 <tr class="separator:a698bdffc6553d99627eff8444ae95cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a967e068a6ec1a7b305a460c31e8f55cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#abc0c7c90dd12e914016d628ab674d1ae">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a967e068a6ec1a7b305a460c31e8f55cb">read</a> (std::istream &amp;s, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="memitem:a967e068a6ec1a7b305a460c31e8f55cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a967e068a6ec1a7b305a460c31e8f55cb">read</a> (std::istream &amp;s, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
 <tr class="separator:a967e068a6ec1a7b305a460c31e8f55cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54e498442424f671f8198f69b8c2b28e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a54e498442424f671f8198f69b8c2b28e">operator==</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;b) const</td></tr>
 <tr class="memdesc:a54e498442424f671f8198f69b8c2b28e"><td class="mdescLeft">&#160;</td><td class="mdescRight">compare that two topologies are exactly the same  <br /></td></tr>
@@ -3102,6 +3108,36 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="ac2acc2c945d672bad703119cf06ba3d3" name="ac2acc2c945d672bad703119cf06ba3d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2acc2c945d672bad703119cf06ba3d3">&#9670;&#160;</a></span>nextLeftBd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> MR::MeshTopology::nextLeftBd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td>
+          <td class="paramname"><em>region</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>given a (region) boundary edge with no right face in given region, returns next boundary edge for the same region: dest(e)==org(res) </p>
+
+</div>
+</div>
 <a id="a94378f70606fda1a41eb0605de0c8cbe" name="a94378f70606fda1a41eb0605de0c8cbe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a94378f70606fda1a41eb0605de0c8cbe">&#9670;&#160;</a></span>numValidFaces()</h2>
 
@@ -3336,6 +3372,36 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a205a1c451bc142cebb49cc249e48e9e8" name="a205a1c451bc142cebb49cc249e48e9e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a205a1c451bc142cebb49cc249e48e9e8">&#9670;&#160;</a></span>prevLeftBd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> MR::MeshTopology::prevLeftBd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td>
+          <td class="paramname"><em>region</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>given a (region) boundary edge with no right face in given region, returns previous boundary edge for the same region; dest(res)==org(e) </p>
+
+</div>
+</div>
 <a id="a967e068a6ec1a7b305a460c31e8f55cb" name="a967e068a6ec1a7b305a460c31e8f55cb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a967e068a6ec1a7b305a460c31e8f55cb">&#9670;&#160;</a></span>read()</h2>
 
@@ -3343,7 +3409,7 @@ template&lt;typename T &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#abc0c7c90dd12e914016d628ab674d1ae">VoidOrErrStr</a> MR::MeshTopology::read </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a> MR::MeshTopology::read </td>
           <td>(</td>
           <td class="paramtype">std::istream &amp;&#160;</td>
           <td class="paramname"><em>s</em>, </td>

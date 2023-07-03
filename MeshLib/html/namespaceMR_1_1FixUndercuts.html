@@ -124,13 +124,19 @@ Functions</h2></td></tr>
 <tr class="memitem:a54461b025162d586e9093a74f69e7d31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1FixUndercuts.html#a54461b025162d586e9093a74f69e7d31">fixUndercuts</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;selectedArea, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;upDirection, float voxelSize=0.0f, float bottomExtension=0.0f)</td></tr>
 <tr class="separator:a54461b025162d586e9093a74f69e7d31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a855440ae0a31635f7da9a418ddb35bca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR_1_1FixUndercuts.html#a7b242f2951e9f7975eaf03828f63eecc">UndercutMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1FixUndercuts.html#a855440ae0a31635f7da9a418ddb35bca">getUndercutAreaMetric</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="memdesc:a855440ae0a31635f7da9a418ddb35bca"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the metric that computes total area of undercut faces  <br /></td></tr>
 <tr class="separator:a855440ae0a31635f7da9a418ddb35bca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcf61f191e39852f236bb0e17145c120"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR_1_1FixUndercuts.html#a7b242f2951e9f7975eaf03828f63eecc">UndercutMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1FixUndercuts.html#adcf61f191e39852f236bb0e17145c120">getUndercutAreaProjectionMetric</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="memdesc:adcf61f191e39852f236bb0e17145c120"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the metric that computes summed absolute area of undercut faces as visible if look from upDir  <br /></td></tr>
 <tr class="separator:adcf61f191e39852f236bb0e17145c120"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c452133dfe105eac4ac5ff96a1e43d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1FixUndercuts.html#a1c452133dfe105eac4ac5ff96a1e43d9">findUndercuts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;upDirection, <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;outUndercuts)</td></tr>
+<tr class="memdesc:a1c452133dfe105eac4ac5ff96a1e43d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds to.  <br /></td></tr>
+<tr class="separator:a1c452133dfe105eac4ac5ff96a1e43d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabfa5ae53301b3a20a21cdd3d3114994"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1FixUndercuts.html#aabfa5ae53301b3a20a21cdd3d3114994">findUndercuts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;upDirection, <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;outUndercuts)</td></tr>
+<tr class="memdesc:aabfa5ae53301b3a20a21cdd3d3114994"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds to.  <br /></td></tr>
+<tr class="separator:aabfa5ae53301b3a20a21cdd3d3114994"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d68f963f866fa5f27f25237e52f943d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1FixUndercuts.html#a3d68f963f866fa5f27f25237e52f943d">findUndercuts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;upDirection, <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;outUndercuts, const <a class="el" href="namespaceMR_1_1FixUndercuts.html#a7b242f2951e9f7975eaf03828f63eecc">UndercutMetric</a> &amp;metric)</td></tr>
 <tr class="separator:a3d68f963f866fa5f27f25237e52f943d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabfa5ae53301b3a20a21cdd3d3114994"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1FixUndercuts.html#aabfa5ae53301b3a20a21cdd3d3114994">findUndercuts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;upDirection, <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;outUndercuts)</td></tr>
-<tr class="separator:aabfa5ae53301b3a20a21cdd3d3114994"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0e91390093c200b54a4f9f95bfb4205"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1FixUndercuts.html#ab0e91390093c200b54a4f9f95bfb4205">scoreUndercuts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;upDirection, const <a class="el" href="namespaceMR.html#a414c921e724deba1be8a3f3b5a20af76">Vector2i</a> &amp;resolution)</td></tr>
 <tr class="separator:ab0e91390093c200b54a4f9f95bfb4205"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9db7297a13e7fde9098b4a88f8544cfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1FixUndercuts.html#a9db7297a13e7fde9098b4a88f8544cfc">improveDirection</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html">ImproveDirectionParameters</a> &amp;params, const <a class="el" href="namespaceMR_1_1FixUndercuts.html#a7b242f2951e9f7975eaf03828f63eecc">UndercutMetric</a> &amp;metric)</td></tr>
@@ -182,8 +188,50 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a1c452133dfe105eac4ac5ff96a1e43d9" name="a1c452133dfe105eac4ac5ff96a1e43d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c452133dfe105eac4ac5ff96a1e43d9">&#9670;&#160;</a></span>findUndercuts() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::FixUndercuts::findUndercuts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>upDirection</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>outUndercuts</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds to. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">outUndercuts</td><td>undercut faces </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a3d68f963f866fa5f27f25237e52f943d" name="a3d68f963f866fa5f27f25237e52f943d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d68f963f866fa5f27f25237e52f943d">&#9670;&#160;</a></span>findUndercuts() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d68f963f866fa5f27f25237e52f943d">&#9670;&#160;</a></span>findUndercuts() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -219,11 +267,17 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Adds to</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">outUndercuts</td><td>undercut faces Returns summary metric of undercut faces </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
 <a id="aabfa5ae53301b3a20a21cdd3d3114994" name="aabfa5ae53301b3a20a21cdd3d3114994"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabfa5ae53301b3a20a21cdd3d3114994">&#9670;&#160;</a></span>findUndercuts() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aabfa5ae53301b3a20a21cdd3d3114994">&#9670;&#160;</a></span>findUndercuts() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -253,6 +307,14 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Adds to. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">outUndercuts</td><td>undercut vertices </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -358,6 +420,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>returns the metric that computes total area of undercut faces </p>
+
 </div>
 </div>
 <a id="adcf61f191e39852f236bb0e17145c120" name="adcf61f191e39852f236bb0e17145c120"></a>
@@ -375,6 +439,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>returns the metric that computes summed absolute area of undercut faces as visible if look from upDir </p>
 
 </div>
 </div>

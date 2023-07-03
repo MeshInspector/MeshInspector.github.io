@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('MRSpaceMouseHandlerWindows_8h_source.h
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> initialize() <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> handle() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> updateConnected( <span class="keywordtype">int</span> jid, <span class="keywordtype">int</span> event );</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> updateConnected( <span class="keywordtype">int</span> jid, <span class="keywordtype">int</span> event ) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="comment">// set state of zoom by mouse scroll (to fix scroll signal from spacemouse driver)</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    MRVIEWER_API <span class="keywordtype">void</span> activateMouseScrollZoom( <span class="keywordtype">bool</span> activeMouseScrollZoom );</div>
@@ -141,7 +141,7 @@ $(document).ready(function(){initNavTree('MRSpaceMouseHandlerWindows_8h_source.h
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="comment">//hotfix TODO rework</span></div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordtype">bool</span> isUniversalReceiver_{ <span class="keyword">false</span> };</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> postFocusSignal_( <span class="keywordtype">bool</span> focused ) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> postFocus_( <span class="keywordtype">bool</span> focused ) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">void</span> updateConnected_();</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordtype">void</span> startUpdateThread_();</div>

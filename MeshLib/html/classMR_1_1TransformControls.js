@@ -2,6 +2,7 @@ var classMR_1_1TransformControls =
 [
     [ "VisualParams", "structMR_1_1TransformControls_1_1VisualParams.html", "structMR_1_1TransformControls_1_1VisualParams" ],
     [ "~TransformControls", "classMR_1_1TransformControls.html#a6e2a9b27f44bb930e9a41be1f8fd7a06", null ],
+    [ "getRadius", "classMR_1_1TransformControls.html#a40e18d7c493840cc01d3164d427a66bb", null ],
     [ "getVisualParams", "classMR_1_1TransformControls.html#a83e142fd9ad486f5f722ccb590064a7b", null ],
     [ "getWidth", "classMR_1_1TransformControls.html#ae1893daa3862766a61b29d129d73db45", null ],
     [ "init", "classMR_1_1TransformControls.html#a07676f9267cb76aea3e3ae26ca04494c", null ],

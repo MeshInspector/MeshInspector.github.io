@@ -7,6 +7,7 @@ var structMR_1_1SymMatrix2 =
     [ "eigens", "structMR_1_1SymMatrix2.html#a60e49e5bc0d3433cc7f57f72dd639257", null ],
     [ "eigenvector", "structMR_1_1SymMatrix2.html#a3f11254bd96f9ca0ab9b93bcb11a7506", null ],
     [ "inverse", "structMR_1_1SymMatrix2.html#a175876ca220ae2820662151e1024e232", null ],
+    [ "inverse", "structMR_1_1SymMatrix2.html#a4ec338b96049194a96390245466b6a46", null ],
     [ "maxEigenvector", "structMR_1_1SymMatrix2.html#aea478c28fc2be9fcd87992baf88fe6c6", null ],
     [ "normSq", "structMR_1_1SymMatrix2.html#ac088520c9f121e179524c9eb9b86ff3b", null ],
     [ "operator*=", "structMR_1_1SymMatrix2.html#a55a77d7f0bbf6b2221a68f1b76439079", null ],

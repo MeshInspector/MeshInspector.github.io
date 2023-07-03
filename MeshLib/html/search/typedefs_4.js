@@ -12,5 +12,6 @@ var searchData=
   ['edgepathsbuilder_9',['EdgePathsBuilder',['../group__EdgePathsGroup.html#ga804e531aba31d3b33c8698791b90bf70',1,'MR']]],
   ['edgesetbititerator_10',['EdgeSetBitIterator',['../namespaceMR.html#abbf317d1a00d025c632656ec53dd5869',1,'MR']]],
   ['elementbitset_11',['ElementBitSet',['../classMR_1_1ColorMapAggregator.html#a29857a8d38bc30a22d092fdc3c8632df',1,'MR::ColorMapAggregator']]],
-  ['eventcallback_12',['EventCallback',['../classMR_1_1Viewer_1_1EventQueue.html#abfcd84b3f22c3b19aa6bcc04c8a12a6c',1,'MR::Viewer::EventQueue']]]
+  ['eventcallback_12',['EventCallback',['../classMR_1_1Viewer_1_1EventQueue.html#abfcd84b3f22c3b19aa6bcc04c8a12a6c',1,'MR::Viewer::EventQueue']]],
+  ['expected_13',['Expected',['../namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb',1,'MR']]]
 ];

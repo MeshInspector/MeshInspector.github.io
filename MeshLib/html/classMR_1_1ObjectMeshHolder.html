@@ -137,9 +137,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a7a57b11e4c1597b0b906d03402f31bc0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a7a57b11e4c1597b0b906d03402f31bc0">FaceSelectionChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt; void()&gt;</td></tr>
-<tr class="memdesc:a7a57b11e4c1597b0b906d03402f31bc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about face selection changing, triggered in selectFaces  <br /></td></tr>
-<tr class="separator:a7a57b11e4c1597b0b906d03402f31bc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a805c1ad3440c499cc84cd984e5284780"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a805c1ad3440c499cc84cd984e5284780">SelectionChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt; void()&gt;</td></tr>
+<tr class="memdesc:a805c1ad3440c499cc84cd984e5284780"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about face selection changing, triggered in selectFaces  <br /></td></tr>
+<tr class="separator:a805c1ad3440c499cc84cd984e5284780"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classMR_1_1Object"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
 <tr class="memitem:a10a84bc12112d8dd74450c7d360b5c06 inherit pub_types_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a10a84bc12112d8dd74450c7d360b5c06">XfChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt; void() &gt;</td></tr>
 <tr class="memdesc:a10a84bc12112d8dd74450c7d360b5c06 inherit pub_types_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about xf changing, triggered in setXf and setWorldXf, it is called for children too  <br /></td></tr>
@@ -297,6 +297,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af910e09552ec4e84e66100250572622f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#af910e09552ec4e84e66100250572622f">selectedArea</a> () const</td></tr>
 <tr class="memdesc:af910e09552ec4e84e66100250572622f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached area of selected triangles  <br /></td></tr>
 <tr class="separator:af910e09552ec4e84e66100250572622f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5f39fc0b3b8e02be1b763de0f3aee8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#aa5f39fc0b3b8e02be1b763de0f3aee8d">avgEdgeLen</a> () const</td></tr>
+<tr class="memdesc:aa5f39fc0b3b8e02be1b763de0f3aee8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached average edge length  <br /></td></tr>
+<tr class="separator:aa5f39fc0b3b8e02be1b763de0f3aee8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e7e533cdcddd1d2a4fbf5fba6b9d607"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a5e7e533cdcddd1d2a4fbf5fba6b9d607">heapBytes</a> () const override</td></tr>
 <tr class="memdesc:a5e7e533cdcddd1d2a4fbf5fba6b9d607"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:a5e7e533cdcddd1d2a4fbf5fba6b9d607"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -618,9 +621,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad21ab63debcbf8deb1102471a42fd619 inherit pub_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#ad21ab63debcbf8deb1102471a42fd619">getClassName</a> () const</td></tr>
 <tr class="memdesc:ad21ab63debcbf8deb1102471a42fd619 inherit pub_methods_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">return human readable name of subclass  <br /></td></tr>
 <tr class="separator:ad21ab63debcbf8deb1102471a42fd619 inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1084cfb8bca9d7c5f84f2d3d9000d413 inherit pub_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">tl::expected&lt; std::vector&lt; std::future&lt; void &gt; &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a1084cfb8bca9d7c5f84f2d3d9000d413">serializeRecursive</a> (const std::filesystem::path &amp;path, Json::Value &amp;root, int childId) const</td></tr>
-<tr class="separator:a1084cfb8bca9d7c5f84f2d3d9000d413 inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e920c44b567bb7bfcfdc2de4ffa38f9 inherit pub_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#abc0c7c90dd12e914016d628ab674d1ae">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a4e920c44b567bb7bfcfdc2de4ffa38f9">deserializeRecursive</a> (const std::filesystem::path &amp;path, const Json::Value &amp;root, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={}, int *objCounter=nullptr)</td></tr>
+<tr class="memitem:a07b93cd63c77e0e83992fe81ddca6746 inherit pub_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt; std::vector&lt; std::future&lt; void &gt; &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a07b93cd63c77e0e83992fe81ddca6746">serializeRecursive</a> (const std::filesystem::path &amp;path, Json::Value &amp;root, int childId) const</td></tr>
+<tr class="separator:a07b93cd63c77e0e83992fe81ddca6746 inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e920c44b567bb7bfcfdc2de4ffa38f9 inherit pub_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a4e920c44b567bb7bfcfdc2de4ffa38f9">deserializeRecursive</a> (const std::filesystem::path &amp;path, const Json::Value &amp;root, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={}, int *objCounter=nullptr)</td></tr>
 <tr class="separator:a4e920c44b567bb7bfcfdc2de4ffa38f9 inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39e506e0816b1d504e86a2823ee90cf3 inherit pub_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a39e506e0816b1d504e86a2823ee90cf3">swap</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;other)</td></tr>
 <tr class="separator:a39e506e0816b1d504e86a2823ee90cf3 inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -664,8 +667,12 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ab6817ccb79559ed4472c32e9362f807a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a7a57b11e4c1597b0b906d03402f31bc0">FaceSelectionChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#ab6817ccb79559ed4472c32e9362f807a">faceSelectionChangedSignal</a></td></tr>
-<tr class="separator:ab6817ccb79559ed4472c32e9362f807a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48c0b6cc10d1a9e2b625d37d6c982ebd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a805c1ad3440c499cc84cd984e5284780">SelectionChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a48c0b6cc10d1a9e2b625d37d6c982ebd">faceSelectionChangedSignal</a></td></tr>
+<tr class="separator:a48c0b6cc10d1a9e2b625d37d6c982ebd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1292f930863c1ec575b946a71efaa225"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a805c1ad3440c499cc84cd984e5284780">SelectionChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a1292f930863c1ec575b946a71efaa225">edgeSelectionChangedSignal</a></td></tr>
+<tr class="separator:a1292f930863c1ec575b946a71efaa225"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af852a5542908bb08f0eecec630ba0ef8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a805c1ad3440c499cc84cd984e5284780">SelectionChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#af852a5542908bb08f0eecec630ba0ef8">creasesChangedSignal</a></td></tr>
+<tr class="separator:af852a5542908bb08f0eecec630ba0ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classMR_1_1Object"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
 <tr class="memitem:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Object.html#a10a84bc12112d8dd74450c7d360b5c06">XfChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964">worldXfChangedSignal</a></td></tr>
 <tr class="separator:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -679,13 +686,13 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:ab787120fcb4837c6d8ef2ec3e62eb935"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4839bce4c651954d69c9ec295199d3d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#ac4839bce4c651954d69c9ec295199d3d">swapSignals_</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;other) override</td></tr>
 <tr class="separator:ac4839bce4c651954d69c9ec295199d3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fc65ebf1db830952a0f58c249d77dd5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; std::future&lt; void &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a3fc65ebf1db830952a0f58c249d77dd5">serializeModel_</a> (const std::filesystem::path &amp;path) const override</td></tr>
-<tr class="separator:a3fc65ebf1db830952a0f58c249d77dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5730cb4e2e41e50c780fd23a1b95bc2d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt; std::future&lt; void &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a5730cb4e2e41e50c780fd23a1b95bc2d">serializeModel_</a> (const std::filesystem::path &amp;path) const override</td></tr>
+<tr class="separator:a5730cb4e2e41e50c780fd23a1b95bc2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94d5dc0f646051e69cc9e5c89ad68f0d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a94d5dc0f646051e69cc9e5c89ad68f0d">serializeFields_</a> (Json::Value &amp;root) const override</td></tr>
 <tr class="separator:a94d5dc0f646051e69cc9e5c89ad68f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b86e3e4fa2644b7400ebe0d64e4b6bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a1b86e3e4fa2644b7400ebe0d64e4b6bc">deserializeFields_</a> (const Json::Value &amp;root) override</td></tr>
 <tr class="separator:a1b86e3e4fa2644b7400ebe0d64e4b6bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58b0f2e28c499251b59a5598bc9260f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#abc0c7c90dd12e914016d628ab674d1ae">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a58b0f2e28c499251b59a5598bc9260f5">deserializeModel_</a> (const std::filesystem::path &amp;path, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={}) override</td></tr>
+<tr class="memitem:a58b0f2e28c499251b59a5598bc9260f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a58b0f2e28c499251b59a5598bc9260f5">deserializeModel_</a> (const std::filesystem::path &amp;path, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={}) override</td></tr>
 <tr class="memdesc:a58b0f2e28c499251b59a5598bc9260f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads model from file.  <br /></td></tr>
 <tr class="separator:a58b0f2e28c499251b59a5598bc9260f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa05cf4d24dd3776eba6722f5ba23423d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ada98ebf3fec74759dd46700389a3e556">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#aa05cf4d24dd3776eba6722f5ba23423d">computeBoundingBox_</a> () const override</td></tr>
@@ -722,11 +729,11 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a8ff1262849d62c014b87a26f031aee9a inherit pro_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82d2749fefb75e38b62dd69a52307680 inherit pro_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a82d2749fefb75e38b62dd69a52307680">swapSignals_</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;other)</td></tr>
 <tr class="separator:a82d2749fefb75e38b62dd69a52307680 inherit pro_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6be7101ff8b1b0be98391ed54dfcaa7 inherit pro_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; std::future&lt; void &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#ae6be7101ff8b1b0be98391ed54dfcaa7">serializeModel_</a> (const std::filesystem::path &amp;path) const</td></tr>
-<tr class="separator:ae6be7101ff8b1b0be98391ed54dfcaa7 inherit pro_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48acb993646c1f0c9b65756640c6f095 inherit pro_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt; std::future&lt; void &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a48acb993646c1f0c9b65756640c6f095">serializeModel_</a> (const std::filesystem::path &amp;path) const</td></tr>
+<tr class="separator:a48acb993646c1f0c9b65756640c6f095 inherit pro_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b72f2310983a6e40753b5d919d72d35 inherit pro_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a4b72f2310983a6e40753b5d919d72d35">serializeFields_</a> (Json::Value &amp;root) const</td></tr>
 <tr class="separator:a4b72f2310983a6e40753b5d919d72d35 inherit pro_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa49d2225cf98e7276390469eef531a5e inherit pro_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#abc0c7c90dd12e914016d628ab674d1ae">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#aa49d2225cf98e7276390469eef531a5e">deserializeModel_</a> (const std::filesystem::path &amp;path, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={})</td></tr>
+<tr class="memitem:aa49d2225cf98e7276390469eef531a5e inherit pro_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#aa49d2225cf98e7276390469eef531a5e">deserializeModel_</a> (const std::filesystem::path &amp;path, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={})</td></tr>
 <tr class="memdesc:aa49d2225cf98e7276390469eef531a5e inherit pro_methods_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads model from file.  <br /></td></tr>
 <tr class="separator:aa49d2225cf98e7276390469eef531a5e inherit pro_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa7de2dfba47f9766bfa741f01f73e42 inherit pro_methods_classMR_1_1Object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#afa7de2dfba47f9766bfa741f01f73e42">deserializeFields_</a> (const Json::Value &amp;root)</td></tr>
@@ -767,6 +774,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:abfac8fd9808955939be1f0186cbdb896"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb6fda2cf6c7571a2377f2589cf588e4"><td class="memItemLeft" align="right" valign="top">std::optional&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#acb6fda2cf6c7571a2377f2589cf588e4">selectedArea_</a></td></tr>
 <tr class="separator:acb6fda2cf6c7571a2377f2589cf588e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b9b185e83a83d6a3cdf3f18fca7d410"><td class="memItemLeft" align="right" valign="top">std::optional&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a7b9b185e83a83d6a3cdf3f18fca7d410">avgEdgeLen_</a></td></tr>
+<tr class="separator:a7b9b185e83a83d6a3cdf3f18fca7d410"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33c3cd830b02b4b20f5c72a8bf2f7a47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportProperty.html">ViewportProperty</a>&lt; <a class="el" href="classMR_1_1XfBasedCache.html">XfBasedCache</a>&lt; <a class="el" href="namespaceMR.html#ada98ebf3fec74759dd46700389a3e556">Box3f</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a33c3cd830b02b4b20f5c72a8bf2f7a47">worldBox_</a></td></tr>
 <tr class="separator:a33c3cd830b02b4b20f5c72a8bf2f7a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af72fa2fcab15bd3bf7603fdd80cbba88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#af72fa2fcab15bd3bf7603fdd80cbba88">showTexture_</a></td></tr>
@@ -877,14 +886,14 @@ Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>an object that stores a mesh </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a7a57b11e4c1597b0b906d03402f31bc0" name="a7a57b11e4c1597b0b906d03402f31bc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a57b11e4c1597b0b906d03402f31bc0">&#9670;&#160;</a></span>FaceSelectionChangedSignal</h2>
+<a id="a805c1ad3440c499cc84cd984e5284780" name="a805c1ad3440c499cc84cd984e5284780"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a805c1ad3440c499cc84cd984e5284780">&#9670;&#160;</a></span>SelectionChangedSignal</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1ObjectMeshHolder.html#a7a57b11e4c1597b0b906d03402f31bc0">MR::ObjectMeshHolder::FaceSelectionChangedSignal</a> =  <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt;void()&gt;</td>
+          <td class="memname">using <a class="el" href="classMR_1_1ObjectMeshHolder.html#a805c1ad3440c499cc84cd984e5284780">MR::ObjectMeshHolder::SelectionChangedSignal</a> =  <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt;void()&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1030,6 +1039,25 @@ Protected Attributes</h2></td></tr>
 <p>Reimplemented from <a class="el" href="classMR_1_1Object.html#a0afca40a7c24d33df4e4d7a5c98167a4">MR::Object</a>.</p>
 
 <p>Reimplemented in <a class="el" href="classMR_1_1ObjectDistanceMap.html#af8d43976f085c872629b548fdd2e0e9d">MR::ObjectDistanceMap</a>, and <a class="el" href="classMR_1_1ObjectVoxels.html#a10005db4776c578cf1177bd35bd8abce">MR::ObjectVoxels</a>.</p>
+
+</div>
+</div>
+<a id="aa5f39fc0b3b8e02be1b763de0f3aee8d" name="aa5f39fc0b3b8e02be1b763de0f3aee8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5f39fc0b3b8e02be1b763de0f3aee8d">&#9670;&#160;</a></span>avgEdgeLen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::ObjectMeshHolder::avgEdgeLen </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns cached average edge length </p>
 
 </div>
 </div>
@@ -1220,7 +1248,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#abc0c7c90dd12e914016d628ab674d1ae">VoidOrErrStr</a> MR::ObjectMeshHolder::deserializeModel_ </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a> MR::ObjectMeshHolder::deserializeModel_ </td>
           <td>(</td>
           <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
           <td class="paramname"><em>path</em>, </td>
@@ -2202,8 +2230,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3fc65ebf1db830952a0f58c249d77dd5" name="a3fc65ebf1db830952a0f58c249d77dd5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fc65ebf1db830952a0f58c249d77dd5">&#9670;&#160;</a></span>serializeModel_()</h2>
+<a id="a5730cb4e2e41e50c780fd23a1b95bc2d" name="a5730cb4e2e41e50c780fd23a1b95bc2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5730cb4e2e41e50c780fd23a1b95bc2d">&#9670;&#160;</a></span>serializeModel_()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2212,7 +2240,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; std::future&lt; void &gt;, std::string &gt; MR::ObjectMeshHolder::serializeModel_ </td>
+          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt; std::future&lt; void &gt;, std::string &gt; MR::ObjectMeshHolder::serializeModel_ </td>
           <td>(</td>
           <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
           <td class="paramname"><em>path</em></td><td>)</td>
@@ -2227,9 +2255,9 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Creates future to save object model (e.g. mesh) in given file path is full filename without extension </p>
 
-<p>Reimplemented from <a class="el" href="classMR_1_1Object.html#ae6be7101ff8b1b0be98391ed54dfcaa7">MR::Object</a>.</p>
+<p>Reimplemented from <a class="el" href="classMR_1_1Object.html#a48acb993646c1f0c9b65756640c6f095">MR::Object</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1PlaneObject.html#a7fd61565fc85fbbe3536327c8ad8b495">MR::PlaneObject</a>, <a class="el" href="classMR_1_1SphereObject.html#a25d2a2cf7ebc250f4374adf63968ad2b">MR::SphereObject</a>, <a class="el" href="classMR_1_1ObjectDistanceMap.html#a53924624667d92ffc839b8f9ee30a075">MR::ObjectDistanceMap</a>, and <a class="el" href="classMR_1_1ObjectVoxels.html#a56b13d3ff08ee4d3d3ee64fb2e51fe16">MR::ObjectVoxels</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1PlaneObject.html#a85c466cc3c879c74251d51a4a54f96e2">MR::PlaneObject</a>, <a class="el" href="classMR_1_1SphereObject.html#a7af54a39d65ccc9358958938661511d9">MR::SphereObject</a>, <a class="el" href="classMR_1_1ObjectDistanceMap.html#acddcfcdf9c440a2f8428912fc1552d4f">MR::ObjectDistanceMap</a>, and <a class="el" href="classMR_1_1ObjectVoxels.html#a46b54da242f92be059e6944fdf76cfce">MR::ObjectVoxels</a>.</p>
 
 </div>
 </div>
@@ -3049,6 +3077,28 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a7b9b185e83a83d6a3cdf3f18fca7d410" name="a7b9b185e83a83d6a3cdf3f18fca7d410"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b9b185e83a83d6a3cdf3f18fca7d410">&#9670;&#160;</a></span>avgEdgeLen_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;float&gt; MR::ObjectMeshHolder::avgEdgeLen_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab7fd1ed5927f5fc5a4c51cfa56bf2012" name="ab7fd1ed5927f5fc5a4c51cfa56bf2012"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab7fd1ed5927f5fc5a4c51cfa56bf2012">&#9670;&#160;</a></span>bordersColor_</h2>
 
@@ -3093,6 +3143,20 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="af852a5542908bb08f0eecec630ba0ef8" name="af852a5542908bb08f0eecec630ba0ef8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af852a5542908bb08f0eecec630ba0ef8">&#9670;&#160;</a></span>creasesChangedSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a805c1ad3440c499cc84cd984e5284780">SelectionChangedSignal</a> MR::ObjectMeshHolder::creasesChangedSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afae46ed97209f2812a1d201e7005e7ba" name="afae46ed97209f2812a1d201e7005e7ba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afae46ed97209f2812a1d201e7005e7ba">&#9670;&#160;</a></span>edgesColor_</h2>
 
@@ -3111,6 +3175,20 @@ Protected Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1292f930863c1ec575b946a71efaa225" name="a1292f930863c1ec575b946a71efaa225"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1292f930863c1ec575b946a71efaa225">&#9670;&#160;</a></span>edgeSelectionChangedSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a805c1ad3440c499cc84cd984e5284780">SelectionChangedSignal</a> MR::ObjectMeshHolder::edgeSelectionChangedSignal</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -3181,14 +3259,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab6817ccb79559ed4472c32e9362f807a" name="ab6817ccb79559ed4472c32e9362f807a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6817ccb79559ed4472c32e9362f807a">&#9670;&#160;</a></span>faceSelectionChangedSignal</h2>
+<a id="a48c0b6cc10d1a9e2b625d37d6c982ebd" name="a48c0b6cc10d1a9e2b625d37d6c982ebd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48c0b6cc10d1a9e2b625d37d6c982ebd">&#9670;&#160;</a></span>faceSelectionChangedSignal</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a7a57b11e4c1597b0b906d03402f31bc0">FaceSelectionChangedSignal</a> MR::ObjectMeshHolder::faceSelectionChangedSignal</td>
+          <td class="memname"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a805c1ad3440c499cc84cd984e5284780">SelectionChangedSignal</a> MR::ObjectMeshHolder::faceSelectionChangedSignal</td>
         </tr>
       </table>
 </div><div class="memdoc">

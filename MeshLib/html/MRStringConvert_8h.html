@@ -106,7 +106,7 @@ $(document).ready(function(){initNavTree('MRStringConvert_8h.html',''); initResi
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
-<code>#include &lt;tl/expected.hpp&gt;</code><br />
+<code>#include &quot;<a class="el" href="MRExpected_8h_source.html">MRExpected.h</a>&quot;</code><br />
 </div>
 <p><a href="MRStringConvert_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -146,10 +146,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a893bffc80e40fe77684c61377cd58705"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a893bffc80e40fe77684c61377cd58705">MR::replaceProhibitedChars</a> (const std::string &amp;line, char replacement='_')</td></tr>
 <tr class="memdesc:a893bffc80e40fe77684c61377cd58705"><td class="mdescLeft">&#160;</td><td class="mdescRight">replace OS prohibited chars ('?', '*', '/', '\', '"', '&lt;', '&gt;') with <code>replacement</code> char  <br /></td></tr>
 <tr class="separator:a893bffc80e40fe77684c61377cd58705"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ae799a764f547e17f6314f24bbaad03"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a0ae799a764f547e17f6314f24bbaad03"><td class="memTemplItemLeft" align="right" valign="top">tl::expected&lt; T, std::string &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0ae799a764f547e17f6314f24bbaad03">MR::addFileNameInError</a> (tl::expected&lt; T, std::string &gt; v, const std::filesystem::path &amp;file)</td></tr>
-<tr class="memdesc:a0ae799a764f547e17f6314f24bbaad03"><td class="mdescLeft">&#160;</td><td class="mdescRight">if (v) contains an error, then appends given file name to that error  <br /></td></tr>
-<tr class="separator:a0ae799a764f547e17f6314f24bbaad03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb9a4b971d09b95d3e2663d6603260ce"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:acb9a4b971d09b95d3e2663d6603260ce"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt; T, std::string &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#acb9a4b971d09b95d3e2663d6603260ce">MR::addFileNameInError</a> (<a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt; T, std::string &gt; v, const std::filesystem::path &amp;file)</td></tr>
+<tr class="memdesc:acb9a4b971d09b95d3e2663d6603260ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">if (v) contains an error, then appends given file name to that error  <br /></td></tr>
+<tr class="separator:acb9a4b971d09b95d3e2663d6603260ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4484d46c4a911faa227d4f39727367a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4484d46c4a911faa227d4f39727367a2">MR::formatNoTrailingZeros</a> (char *fmt, double v, int digitsAfterPoint, int precision=6)</td></tr>
 <tr class="separator:a4484d46c4a911faa227d4f39727367a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55241f8b5264ed4854873f6fedc3cee3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a55241f8b5264ed4854873f6fedc3cee3">MR::roundToPrecision</a> (double v, int precision)</td></tr>

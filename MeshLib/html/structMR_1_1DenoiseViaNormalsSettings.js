@@ -2,6 +2,7 @@ var structMR_1_1DenoiseViaNormalsSettings =
 [
     [ "beta", "structMR_1_1DenoiseViaNormalsSettings.html#aa7cab391c3f837a22f2d158c7647315a", null ],
     [ "cb", "structMR_1_1DenoiseViaNormalsSettings.html#a63ddf357508ffd766addcbe0684a1619", null ],
+    [ "fastIndicatorComputation", "structMR_1_1DenoiseViaNormalsSettings.html#ad6004983564c77dbe469d819de9b1100", null ],
     [ "gamma", "structMR_1_1DenoiseViaNormalsSettings.html#ad5c55319dff328b55475f07390acd505", null ],
     [ "guideWeight", "structMR_1_1DenoiseViaNormalsSettings.html#a6852271fa1efbc4da52e0fb5b851810f", null ],
     [ "normalIters", "structMR_1_1DenoiseViaNormalsSettings.html#a0020d91ac083f2d70a466e4f209e12b9", null ],

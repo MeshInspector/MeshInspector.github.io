@@ -25,6 +25,7 @@ var group__VectorGroup =
       [ "angle", "structMR_1_1Vector2.html#af97f888d41c35987fa2e24cfdf696621", null ],
       [ "cross", "structMR_1_1Vector2.html#a07bafe90fc0230d0cef79991e7858dff", null ],
       [ "dot", "structMR_1_1Vector2.html#a6c8408d5ef7e501f160602528912a167", null ],
+      [ "mult", "structMR_1_1Vector2.html#aaf1c84a8ba1493b479c774db9477d5e6", null ],
       [ "x", "structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c", null ],
       [ "y", "structMR_1_1Vector2.html#a5186451c51a4f421a0b810a3f836fae8", null ]
     ] ],

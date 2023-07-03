@@ -67,6 +67,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRSurfacePointPicker.h", "MRSurfacePointPicker_8h.html", "MRSurfacePointPicker_8h" ],
     [ "MRSwapRootAction.h", "MRSwapRootAction_8h.html", "MRSwapRootAction_8h" ],
     [ "MRToolbar.h", "MRToolbar_8h.html", "MRToolbar_8h" ],
+    [ "MRToolsLibrary.h", "MRToolsLibrary_8h.html", "MRToolsLibrary_8h" ],
     [ "MRTouchesController.h", "MRTouchesController_8h.html", "MRTouchesController_8h" ],
     [ "MRUIStyle.h", "MRUIStyle_8h.html", "MRUIStyle_8h" ],
     [ "MRViewer.h", "MRViewer_8h.html", "MRViewer_8h" ],

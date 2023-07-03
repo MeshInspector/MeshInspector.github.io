@@ -5,6 +5,7 @@ var classMR_1_1ITransformControls =
     [ "getCenter", "classMR_1_1ITransformControls.html#a053e821953dbcafc94e913961cdbc94a", null ],
     [ "getHoveredControl", "classMR_1_1ITransformControls.html#a6bfe124e50ec51bf800a189c3638b947", null ],
     [ "getPickThrough", "classMR_1_1ITransformControls.html#a6d367635679cf6aa063434e2c41c06cd", null ],
+    [ "getRadius", "classMR_1_1ITransformControls.html#af95856a61b1ace2e76600c292a4965c7", null ],
     [ "hover", "classMR_1_1ITransformControls.html#a18436dfbd4ff243fc8bd07d0a3f36b73", null ],
     [ "hover_", "classMR_1_1ITransformControls.html#a866a780325d0337774ee4fc21b430da4", null ],
     [ "init", "classMR_1_1ITransformControls.html#a907d92df55bd4c1c24eb99b0ac884d77", null ],

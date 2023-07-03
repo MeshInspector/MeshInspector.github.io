@@ -103,30 +103,59 @@ $(document).ready(function(){initNavTree('MRExpected_8h_source.html',''); initRe
 <a href="MRExpected_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;tl/expected.hpp&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="namespaceMR.html#abc0c7c90dd12e914016d628ab674d1ae">   11</a></span><span class="keyword">using </span><a class="code hl_typedef" href="namespaceMR.html#abc0c7c90dd12e914016d628ab674d1ae">VoidOrErrStr</a> = tl::expected&lt;void, std::string&gt;;</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="namespaceMR.html#a495049b3b06ee96752f92ac2e75f3e2c">   14</a></span><span class="keyword">inline</span> std::string <a class="code hl_function" href="namespaceMR.html#a495049b3b06ee96752f92ac2e75f3e2c">stringOperationCanceled</a>()</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;version&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#ifdef __cpp_lib_expected</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;expected&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;tl/expected.hpp&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keywordflow">return</span> <span class="stringliteral">&quot;Operation was canceled&quot;</span>;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>}</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#ifdef __cpp_lib_expected</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="namespaceMR.html#aa674fb9b596e9d00c762f24fa82ce626">   20</a></span><span class="keyword">inline</span> tl::unexpected&lt;std::string&gt; <a class="code hl_function" href="namespaceMR.html#aa674fb9b596e9d00c762f24fa82ce626">unexpectedOperationCanceled</a>()</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>{</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordflow">return</span> tl::make_unexpected( <a class="code hl_function" href="namespaceMR.html#a495049b3b06ee96752f92ac2e75f3e2c">stringOperationCanceled</a>() );</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>}</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">template</span>&lt;<span class="keyword">class</span> T, <span class="keyword">class</span> E&gt;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">using </span><a class="code hl_typedef" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a> = std::expected&lt;T,E&gt;;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> E&gt;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespaceMR.html#ab5aaee1e91b2d9f23b64187f4e125321">unexpected</a>( E &amp;&amp;e )</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    { <span class="keywordflow">return</span> std::unexpected( std::forward&lt;E&gt;( e ) ); }</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">template</span>&lt;<span class="keyword">class</span> T, <span class="keyword">class</span> E&gt;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">   29</a></span><span class="keyword">using </span><a class="code hl_typedef" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a> = tl::expected&lt;T,E&gt;;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> E&gt;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="namespaceMR.html#ab5aaee1e91b2d9f23b64187f4e125321">   32</a></span><span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespaceMR.html#ab5aaee1e91b2d9f23b64187f4e125321">unexpected</a>( E &amp;&amp;e )</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    { <span class="keywordflow">return</span> tl::make_unexpected( std::forward&lt;E&gt;( e ) ); }</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">   38</a></span><span class="keyword">using </span><a class="code hl_typedef" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a> = <a class="code hl_typedef" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected&lt;void, std::string&gt;</a>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="namespaceMR.html#a495049b3b06ee96752f92ac2e75f3e2c">   41</a></span><span class="keyword">inline</span> std::string <a class="code hl_function" href="namespaceMR.html#a495049b3b06ee96752f92ac2e75f3e2c">stringOperationCanceled</a>()</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>{</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordflow">return</span> <span class="stringliteral">&quot;Operation was canceled&quot;</span>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>}</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="namespaceMR.html#ae65ba4d092b89360f8dff3c458aec88b">   47</a></span><span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code hl_function" href="namespaceMR.html#ae65ba4d092b89360f8dff3c458aec88b">unexpectedOperationCanceled</a>()</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>{</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespaceMR.html#ab5aaee1e91b2d9f23b64187f4e125321">unexpected</a>( <a class="code hl_function" href="namespaceMR.html#a495049b3b06ee96752f92ac2e75f3e2c">stringOperationCanceled</a>() );</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>}</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
-<div class="ttc" id="anamespaceMR_html_a495049b3b06ee96752f92ac2e75f3e2c"><div class="ttname"><a href="namespaceMR.html#a495049b3b06ee96752f92ac2e75f3e2c">MR::stringOperationCanceled</a></div><div class="ttdeci">std::string stringOperationCanceled()</div><div class="ttdoc">Common operation canceled line for all.</div><div class="ttdef"><b>Definition</b> MRExpected.h:14</div></div>
-<div class="ttc" id="anamespaceMR_html_aa674fb9b596e9d00c762f24fa82ce626"><div class="ttname"><a href="namespaceMR.html#aa674fb9b596e9d00c762f24fa82ce626">MR::unexpectedOperationCanceled</a></div><div class="ttdeci">tl::unexpected&lt; std::string &gt; unexpectedOperationCanceled()</div><div class="ttdoc">Returns tl::expected error with stringOperationCanceled()</div><div class="ttdef"><b>Definition</b> MRExpected.h:20</div></div>
-<div class="ttc" id="anamespaceMR_html_abc0c7c90dd12e914016d628ab674d1ae"><div class="ttname"><a href="namespaceMR.html#abc0c7c90dd12e914016d628ab674d1ae">MR::VoidOrErrStr</a></div><div class="ttdeci">tl::expected&lt; void, std::string &gt; VoidOrErrStr</div><div class="ttdoc">return type for a void function that can produce an error string</div><div class="ttdef"><b>Definition</b> MRExpected.h:11</div></div>
+<div class="ttc" id="anamespaceMR_html_a495049b3b06ee96752f92ac2e75f3e2c"><div class="ttname"><a href="namespaceMR.html#a495049b3b06ee96752f92ac2e75f3e2c">MR::stringOperationCanceled</a></div><div class="ttdeci">std::string stringOperationCanceled()</div><div class="ttdoc">Common operation canceled line for all.</div><div class="ttdef"><b>Definition</b> MRExpected.h:41</div></div>
+<div class="ttc" id="anamespaceMR_html_a9e4cb12e0805ba24e046ac622cdc33bb"><div class="ttname"><a href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">MR::Expected</a></div><div class="ttdeci">tl::expected&lt; T, E &gt; Expected</div><div class="ttdef"><b>Definition</b> MRExpected.h:29</div></div>
+<div class="ttc" id="anamespaceMR_html_ab5aaee1e91b2d9f23b64187f4e125321"><div class="ttname"><a href="namespaceMR.html#ab5aaee1e91b2d9f23b64187f4e125321">MR::unexpected</a></div><div class="ttdeci">auto unexpected(E &amp;&amp;e)</div><div class="ttdef"><b>Definition</b> MRExpected.h:32</div></div>
+<div class="ttc" id="anamespaceMR_html_ac91550cb142f1df5cca882e3767dff51"><div class="ttname"><a href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">MR::VoidOrErrStr</a></div><div class="ttdeci">Expected&lt; void, std::string &gt; VoidOrErrStr</div><div class="ttdoc">return type for a void function that can produce an error string</div><div class="ttdef"><b>Definition</b> MRExpected.h:38</div></div>
+<div class="ttc" id="anamespaceMR_html_ae65ba4d092b89360f8dff3c458aec88b"><div class="ttname"><a href="namespaceMR.html#ae65ba4d092b89360f8dff3c458aec88b">MR::unexpectedOperationCanceled</a></div><div class="ttdeci">auto unexpectedOperationCanceled()</div><div class="ttdoc">Returns Expected error with stringOperationCanceled()</div><div class="ttdef"><b>Definition</b> MRExpected.h:47</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

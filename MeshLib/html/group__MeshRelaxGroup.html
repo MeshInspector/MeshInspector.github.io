@@ -108,6 +108,8 @@ $(document).ready(function(){initNavTree('group__MeshRelaxGroup.html',''); initR
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -115,6 +117,10 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ga82c8571f065eff9a7403c41093b44a53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga82c8571f065eff9a7403c41093b44a53">MR::relax</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshRelaxParams.html">MeshRelaxParams</a> &amp;params={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="separator:ga82c8571f065eff9a7403c41093b44a53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaba816e24c8bb07c99f1d084e59d0ec48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gaba816e24c8bb07c99f1d084e59d0ec48">MR::vertexPosEqualNeiAreas</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> v, bool noShrinkage)</td></tr>
+<tr class="separator:gaba816e24c8bb07c99f1d084e59d0ec48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf6353686f2aea228ecc6ff2df9ef65ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gaf6353686f2aea228ecc6ff2df9ef65ba">MR::equalizeTriAreas</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshEqualizeTriAreasParams.html">MeshEqualizeTriAreasParams</a> &amp;params={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:gaf6353686f2aea228ecc6ff2df9ef65ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0342e0ff739af1b23505a0faf855c65c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga0342e0ff739af1b23505a0faf855c65c">MR::relaxKeepVolume</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshRelaxParams.html">MeshRelaxParams</a> &amp;params={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="separator:ga0342e0ff739af1b23505a0faf855c65c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga973c1a5f054f13ea87971be793ecf341"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga973c1a5f054f13ea87971be793ecf341">MR::relaxApprox</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshApproxRelaxParams.html">MeshApproxRelaxParams</a> &amp;params={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
@@ -127,6 +133,41 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="gaf6353686f2aea228ecc6ff2df9ef65ba" name="gaf6353686f2aea228ecc6ff2df9ef65ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf6353686f2aea228ecc6ff2df9ef65ba">&#9670;&#160;</a></span>equalizeTriAreas()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::equalizeTriAreas </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshEqualizeTriAreasParams.html">MeshEqualizeTriAreasParams</a> &amp;&#160;</td>
+          <td class="paramname"><em>params</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>cb</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>applies given number of iterations with movement toward <a class="el" href="group__MeshRelaxGroup.html#gaba816e24c8bb07c99f1d084e59d0ec48">vertexPosEqualNeiAreas()</a> to the whole mesh ( or some region if it is specified ) </p><dl class="section return"><dt>Returns</dt><dd>true if was finished successfully, false if was interrupted by progress callback </dd></dl>
+
+</div>
+</div>
 <a id="ga82c8571f065eff9a7403c41093b44a53" name="ga82c8571f065eff9a7403c41093b44a53"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga82c8571f065eff9a7403c41093b44a53">&#9670;&#160;</a></span>relax()</h2>
 
@@ -312,6 +353,41 @@ do not really keeps volume but tries hard </p><dl class="section return"><dt>Ret
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="gaba816e24c8bb07c99f1d084e59d0ec48" name="gaba816e24c8bb07c99f1d084e59d0ec48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaba816e24c8bb07c99f1d084e59d0ec48">&#9670;&#160;</a></span>vertexPosEqualNeiAreas()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> MR::vertexPosEqualNeiAreas </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>noShrinkage</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes position of a vertex, when all neighbor triangles have almost equal areas, more precisely it minimizes sum_i (area_i)^2 by adjusting the position of this vertex only </p>
 
 </div>
 </div>

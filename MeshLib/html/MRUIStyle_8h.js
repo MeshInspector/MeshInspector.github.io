@@ -1,5 +1,6 @@
 var MRUIStyle_8h =
 [
+    [ "beginCombo", "MRUIStyle_8h.html#a72b7457df4d4b5353fc89751ef8d9501", null ],
     [ "button", "MRUIStyle_8h.html#ae14306471133180f84a3a02650ced599", null ],
     [ "button", "MRUIStyle_8h.html#ad13b9be4aa5cae65c61e91ac1ab04ecd", null ],
     [ "buttonCommonSize", "MRUIStyle_8h.html#affdd9ce8585853bc545f4f60bda2611f", null ],
@@ -11,6 +12,7 @@ var MRUIStyle_8h =
     [ "colorEdit4", "MRUIStyle_8h.html#acb0c4c1be185e69b6f58108b3471f882", null ],
     [ "colorEdit4", "MRUIStyle_8h.html#aaa136c1366383c9c03db4f4b7520c2a6", null ],
     [ "combo", "MRUIStyle_8h.html#a820aa2a94b65ad7536194e8527f89a12", null ],
+    [ "endCombo", "MRUIStyle_8h.html#a8cffb4ab7998318c522df73a1d12a4f9", null ],
     [ "init", "MRUIStyle_8h.html#a986e400ed59dea0ae3e54284d9b8d110", null ],
     [ "inputTextCentered", "MRUIStyle_8h.html#a026c1e5c2917366011537ab2ff019ef1", null ],
     [ "inputTextCenteredReadOnly", "MRUIStyle_8h.html#aa5363e552c8bef6450cdfad583af18e0", null ],

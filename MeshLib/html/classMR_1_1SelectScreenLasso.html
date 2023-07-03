@@ -109,16 +109,18 @@ $(document).ready(function(){initNavTree('classMR_1_1SelectScreenLasso.html','')
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab66d9c941307e8f28d5b3dc149576be8"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SelectScreenLasso.html#ab66d9c941307e8f28d5b3dc149576be8">addPoint</a> (int mouseX, int mouseY)</td></tr>
-<tr class="memdesc:ab66d9c941307e8f28d5b3dc149576be8"><td class="mdescLeft">&#160;</td><td class="mdescRight">add point of area border  <br /></td></tr>
+<tr class="memdesc:ab66d9c941307e8f28d5b3dc149576be8"><td class="mdescLeft">&#160;</td><td class="mdescRight">add point to contour  <br /></td></tr>
 <tr class="separator:ab66d9c941307e8f28d5b3dc149576be8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b242d5b92692484ad217f8a06c0978b"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SelectScreenLasso.html#a0b242d5b92692484ad217f8a06c0978b">getScreenLoop</a> ()</td></tr>
-<tr class="memdesc:a0b242d5b92692484ad217f8a06c0978b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get current area border  <br /></td></tr>
-<tr class="separator:a0b242d5b92692484ad217f8a06c0978b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade59976a277d9ca729c6a6dac2e5157a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SelectScreenLasso.html#ade59976a277d9ca729c6a6dac2e5157a">cleanScreenLoop</a> ()</td></tr>
-<tr class="memdesc:ade59976a277d9ca729c6a6dac2e5157a"><td class="mdescLeft">&#160;</td><td class="mdescRight">clean area border  <br /></td></tr>
-<tr class="separator:ade59976a277d9ca729c6a6dac2e5157a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad653296dc7d3fae1ec8f54c4a6e558b8"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::vector&lt; <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SelectScreenLasso.html#ad653296dc7d3fae1ec8f54c4a6e558b8">calculateSelectedPixels</a> (<a class="el" href="classMR_1_1Viewer.html">Viewer</a> *viewer)</td></tr>
-<tr class="separator:ad653296dc7d3fae1ec8f54c4a6e558b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfbf88944090c8073378d0d415f16793"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#ae4ddf6f4d663b556787e0188500a2521">Contour2f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SelectScreenLasso.html#abfbf88944090c8073378d0d415f16793">getScreenPoints</a> ()</td></tr>
+<tr class="memdesc:abfbf88944090c8073378d0d415f16793"><td class="mdescLeft">&#160;</td><td class="mdescRight">get current points in contour  <br /></td></tr>
+<tr class="separator:abfbf88944090c8073378d0d415f16793"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca121a3040e13577002feb80ef7f9456"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SelectScreenLasso.html#aca121a3040e13577002feb80ef7f9456">cleanScreenPoints</a> ()</td></tr>
+<tr class="memdesc:aca121a3040e13577002feb80ef7f9456"><td class="mdescLeft">&#160;</td><td class="mdescRight">clean contour  <br /></td></tr>
+<tr class="separator:aca121a3040e13577002feb80ef7f9456"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e996887c3c58ced16e40c4641a90cd0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SelectScreenLasso.html#a3e996887c3c58ced16e40c4641a90cd0">calculateSelectedPixelsInsidePolygon</a> ()</td></tr>
+<tr class="separator:a3e996887c3c58ced16e40c4641a90cd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4791b720cbf216b05d3b869960bcd47"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SelectScreenLasso.html#ac4791b720cbf216b05d3b869960bcd47">calculateSelectedPixelsNearPolygon</a> (float radiusPix)</td></tr>
+<tr class="separator:ac4791b720cbf216b05d3b869960bcd47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class for selection area on screen </p>
@@ -149,32 +151,51 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>add point of area border </p>
+<p>add point to contour </p>
 
 </div>
 </div>
-<a id="ad653296dc7d3fae1ec8f54c4a6e558b8" name="ad653296dc7d3fae1ec8f54c4a6e558b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad653296dc7d3fae1ec8f54c4a6e558b8">&#9670;&#160;</a></span>calculateSelectedPixels()</h2>
+<a id="a3e996887c3c58ced16e40c4641a90cd0" name="a3e996887c3c58ced16e40c4641a90cd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e996887c3c58ced16e40c4641a90cd0">&#9670;&#160;</a></span>calculateSelectedPixelsInsidePolygon()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API std::vector&lt; <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &gt; MR::SelectScreenLasso::calculateSelectedPixels </td>
+          <td class="memname">MRVIEWER_API <a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::SelectScreenLasso::calculateSelectedPixelsInsidePolygon </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Viewer.html">Viewer</a> *&#160;</td>
-          <td class="paramname"><em>viewer</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>calculate area on screen that are inside for border. closing border part is segment from begin to end point.</p>
-<p>return the matrix of pixels (in local space of active viewport) belonging selected area vector contains lines of pixels (rows), and each <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> contains pixel in line (columns) </p>
+<p>calculate area on screen that are inside of closed contour.</p>
+<p>return the matrix of pixels (in local space of active viewport) belonging selected area </p>
 
 </div>
 </div>
-<a id="ade59976a277d9ca729c6a6dac2e5157a" name="ade59976a277d9ca729c6a6dac2e5157a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade59976a277d9ca729c6a6dac2e5157a">&#9670;&#160;</a></span>cleanScreenLoop()</h2>
+<a id="ac4791b720cbf216b05d3b869960bcd47" name="ac4791b720cbf216b05d3b869960bcd47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4791b720cbf216b05d3b869960bcd47">&#9670;&#160;</a></span>calculateSelectedPixelsNearPolygon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API <a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::SelectScreenLasso::calculateSelectedPixelsNearPolygon </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>radiusPix</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>calculate area on screen that near open contour.</p>
+<p>return the matrix of pixels (in local space of active viewport) belonging selected area </p>
+
+</div>
+</div>
+<a id="aca121a3040e13577002feb80ef7f9456" name="aca121a3040e13577002feb80ef7f9456"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca121a3040e13577002feb80ef7f9456">&#9670;&#160;</a></span>cleanScreenPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -183,7 +204,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::SelectScreenLasso::cleanScreenLoop </td>
+          <td class="memname">void MR::SelectScreenLasso::cleanScreenPoints </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -196,12 +217,12 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>clean area border </p>
+<p>clean contour </p>
 
 </div>
 </div>
-<a id="a0b242d5b92692484ad217f8a06c0978b" name="a0b242d5b92692484ad217f8a06c0978b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b242d5b92692484ad217f8a06c0978b">&#9670;&#160;</a></span>getScreenLoop()</h2>
+<a id="abfbf88944090c8073378d0d415f16793" name="abfbf88944090c8073378d0d415f16793"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfbf88944090c8073378d0d415f16793">&#9670;&#160;</a></span>getScreenPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -210,7 +231,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::vector&lt; <a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> &gt; &amp; MR::SelectScreenLasso::getScreenLoop </td>
+          <td class="memname">const <a class="el" href="namespaceMR.html#ae4ddf6f4d663b556787e0188500a2521">Contour2f</a> &amp; MR::SelectScreenLasso::getScreenPoints </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -223,7 +244,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>get current area border </p>
+<p>get current points in contour </p>
 
 </div>
 </div>

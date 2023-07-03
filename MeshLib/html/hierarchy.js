@@ -26,6 +26,9 @@ var hierarchy =
       [ "MR::OffsetParameters", "structMR_1_1OffsetParameters.html", null ],
       [ "MR::SharpOffsetParameters", "structMR_1_1SharpOffsetParameters.html", null ]
     ] ],
+    [ "MR::ViewportGL::BasePickResult", "structMR_1_1ViewportGL_1_1BasePickResult.html", [
+      [ "MR::ViewportGL::PickResult", "structMR_1_1ViewportGL_1_1PickResult.html", null ]
+    ] ],
     [ "MR::BaseRenderParams", "structMR_1_1BaseRenderParams.html", [
       [ "MR::RenderParams", "structMR_1_1RenderParams.html", null ]
     ] ],
@@ -182,6 +185,7 @@ var hierarchy =
     [ "MR::FrameRedrawRequest", "classMR_1_1FrameRedrawRequest.html", null ],
     [ "MR::FreeFormDeformer", "classMR_1_1FreeFormDeformer.html", null ],
     [ "MR::GcodeProcessor", "classMR_1_1GcodeProcessor.html", null ],
+    [ "MR::GcodeToolsLibrary", "classMR_1_1GcodeToolsLibrary.html", null ],
     [ "MR::GCommand", "structMR_1_1GCommand.html", null ],
     [ "MR::GlBuffer", "classMR_1_1GlBuffer.html", null ],
     [ "MR::GLStaticHolder", "classMR_1_1GLStaticHolder.html", null ],
@@ -234,6 +238,7 @@ var hierarchy =
     [ "MR::IConnectable", "structMR_1_1IConnectable.html", [
       [ "MR::ConnectionHolder", "structMR_1_1ConnectionHolder.html", [
         [ "MR::CharPressedListener", "structMR_1_1CharPressedListener.html", null ],
+        [ "MR::CursorEntranceListener", "structMR_1_1CursorEntranceListener.html", null ],
         [ "MR::DragDropListener", "structMR_1_1DragDropListener.html", null ],
         [ "MR::DrawListener", "structMR_1_1DrawListener.html", null ],
         [ "MR::InterruptCloseListener", "structMR_1_1InterruptCloseListener.html", null ],
@@ -472,7 +477,6 @@ var hierarchy =
     [ "MR::Pdf", "classMR_1_1Pdf.html", null ],
     [ "MR::PdfParameters", "structMR_1_1PdfParameters.html", null ],
     [ "MR::ViewportGL::PickParameters", "structMR_1_1ViewportGL_1_1PickParameters.html", null ],
-    [ "MR::ViewportGL::PickResult", "structMR_1_1ViewportGL_1_1PickResult.html", null ],
     [ "MR::Plane3< T >", "structMR_1_1Plane3.html", null ],
     [ "MR::Plane3< float >", "structMR_1_1Plane3.html", null ],
     [ "MR::PlaneAccumulator", "classMR_1_1PlaneAccumulator.html", null ],
@@ -524,7 +528,8 @@ var hierarchy =
     [ "MR::RegularMapMesher", "classMR_1_1RegularMapMesher.html", null ],
     [ "MR::RelaxParams", "structMR_1_1RelaxParams.html", [
       [ "MR::MeshRelaxParams", "structMR_1_1MeshRelaxParams.html", [
-        [ "MR::MeshApproxRelaxParams", "structMR_1_1MeshApproxRelaxParams.html", null ]
+        [ "MR::MeshApproxRelaxParams", "structMR_1_1MeshApproxRelaxParams.html", null ],
+        [ "MR::MeshEqualizeTriAreasParams", "structMR_1_1MeshEqualizeTriAreasParams.html", null ]
       ] ],
       [ "MR::PointCloudRelaxParams", "structMR_1_1PointCloudRelaxParams.html", [
         [ "MR::PointCloudApproxRelaxParams", "structMR_1_1PointCloudApproxRelaxParams.html", null ]
@@ -543,6 +548,7 @@ var hierarchy =
     [ "MR::RibbonSchemaHolder", "classMR_1_1RibbonSchemaHolder.html", null ],
     [ "MR::RibbonSchemaLoader", "classMR_1_1RibbonSchemaLoader.html", null ],
     [ "MR::VoxelsSave::SavingSettings", "structMR_1_1VoxelsSave_1_1SavingSettings.html", null ],
+    [ "MR::ViewportGL::ScaledPickRes", "structMR_1_1ViewportGL_1_1ScaledPickRes.html", null ],
     [ "MR::SceneColors", "structMR_1_1SceneColors.html", null ],
     [ "MR::SceneRoot", "classMR_1_1SceneRoot.html", null ],
     [ "MR::SceneSettings", "classMR_1_1SceneSettings.html", null ],

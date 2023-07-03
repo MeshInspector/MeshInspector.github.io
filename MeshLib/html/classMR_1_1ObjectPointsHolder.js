@@ -24,7 +24,7 @@ var classMR_1_1ObjectPointsHolder =
     [ "pointCloud", "classMR_1_1ObjectPointsHolder.html#a1e4577ab2bb24e7600c98bc550668b06", null ],
     [ "selectPoints", "classMR_1_1ObjectPointsHolder.html#a4dae33afc2ec7656f6e722ed48b01608", null ],
     [ "serializeFields_", "classMR_1_1ObjectPointsHolder.html#ae0b780196658ba9017ae41f3ab2dd195", null ],
-    [ "serializeModel_", "classMR_1_1ObjectPointsHolder.html#acb76fb2212a6ecc8b3b686ad8cd1209b", null ],
+    [ "serializeModel_", "classMR_1_1ObjectPointsHolder.html#a5eff277331fd5fe9cee971a053729728", null ],
     [ "setDirtyFlags", "classMR_1_1ObjectPointsHolder.html#a544fb3212bc89e7b126276349ee43b59", null ],
     [ "setPointSize", "classMR_1_1ObjectPointsHolder.html#aa7f91dadfb276318513e5f3022078c63", null ],
     [ "setSelectedVerticesColor", "classMR_1_1ObjectPointsHolder.html#a9cb5c91de776239dbfc1ee5ff9c6715e", null ],

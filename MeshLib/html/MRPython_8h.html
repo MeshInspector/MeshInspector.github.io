@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('MRPython_8h.html',''); initResizable()
 <code>#include &lt;pybind11/operators.h&gt;</code><br />
 <code>#include &lt;pybind11/stl_bind.h&gt;</code><br />
 <code>#include &lt;pybind11/numpy.h&gt;</code><br />
-<code>#include &lt;tl/expected.hpp&gt;</code><br />
+<code>#include &quot;<a class="el" href="MRExpected_8h_source.html">MRExpected.h</a>&quot;</code><br />
 <code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
 <code>#include &lt;unordered_map&gt;</code><br />
@@ -169,9 +169,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a396596cb5cea6d2f8fec7b7838ae2bc5"><td class="memTemplParams" colspan="2">template&lt;typename E &gt; </td></tr>
 <tr class="memitem:a396596cb5cea6d2f8fec7b7838ae2bc5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a396596cb5cea6d2f8fec7b7838ae2bc5">MR::throwExceptionFromExpected</a> (const E &amp;err)</td></tr>
 <tr class="separator:a396596cb5cea6d2f8fec7b7838ae2bc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af838cee46b037638bc67688cfa7c8964"><td class="memTemplParams" colspan="2">template&lt;typename R , typename E , typename... Args&gt; </td></tr>
-<tr class="memitem:af838cee46b037638bc67688cfa7c8964"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af838cee46b037638bc67688cfa7c8964">MR::decorateExpected</a> (std::function&lt; tl::expected&lt; R, E &gt;(Args...)&gt; &amp;&amp;f) -&gt; std::function&lt; R(Args...)&gt;</td></tr>
-<tr class="separator:af838cee46b037638bc67688cfa7c8964"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa60c1177452c69cf5b8cdab61296d1ce"><td class="memTemplParams" colspan="2">template&lt;typename R , typename E , typename... Args&gt; </td></tr>
+<tr class="memitem:aa60c1177452c69cf5b8cdab61296d1ce"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa60c1177452c69cf5b8cdab61296d1ce">MR::decorateExpected</a> (std::function&lt; <a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt; R, E &gt;(Args...)&gt; &amp;&amp;f) -&gt; std::function&lt; R(Args...)&gt;</td></tr>
+<tr class="separator:aa60c1177452c69cf5b8cdab61296d1ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fcb58debd182644f22e1ea6eac867b6"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
 <tr class="memitem:a5fcb58debd182644f22e1ea6eac867b6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5fcb58debd182644f22e1ea6eac867b6">MR::decorateExpected</a> (F &amp;&amp;f)</td></tr>
 <tr class="separator:a5fcb58debd182644f22e1ea6eac867b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -258,7 +258,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="MRPython_8h.html#a4c2f86ab418002ae88c7465c2804c7f1">MR_ADD_PYTHON_CUSTOM_DEF</a>( moduleName, name, [] (pybind11::module_&amp; m)\</div>
 <div class="line">{\</div>
-<div class="line">    <span class="keyword">using </span>expectedType = tl::expected&lt;type,errorType&gt;;\</div>
+<div class="line">    <span class="keyword">using </span>expectedType = Expected&lt;type,errorType&gt;;\</div>
 <div class="line">    pybind11::class_&lt;expectedType&gt;(m, #name ).\</div>
 <div class="line">        def( <span class="stringliteral">&quot;has_value&quot;</span>, []() \</div>
 <div class="line">        { PyErr_WarnEx(PyExc_DeprecationWarning, <span class="stringliteral">&quot;.has_value is deprecated. Please use &#39;try - except ValueError&#39;&quot;</span>, 1); \</div>

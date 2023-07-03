@@ -3,6 +3,7 @@ var structMR_1_1DecimateParallelSettings =
     [ "adjustCollapse", "structMR_1_1DecimateParallelSettings.html#af75f33318f6dbbd19e4e3c0005feaa39", null ],
     [ "criticalTriAspectRatio", "structMR_1_1DecimateParallelSettings.html#a275c6c639a8f4489cb392eacf2bd6214", null ],
     [ "maxAngleChange", "structMR_1_1DecimateParallelSettings.html#a14f764f19d8a56d1b1931e084ed1df4e", null ],
+    [ "maxBdShift", "structMR_1_1DecimateParallelSettings.html#a418e0b7d779396eecd0743677811e459", null ],
     [ "maxEdgeLen", "structMR_1_1DecimateParallelSettings.html#a1c7ecd000b4f7cffca0e5f0312073ae4", null ],
     [ "maxError", "structMR_1_1DecimateParallelSettings.html#ad90b28eea121f1eb8d2153a5c87b69a6", null ],
     [ "maxTriangleAspectRatio", "structMR_1_1DecimateParallelSettings.html#a3c23bc0e06e4658789c9a372752be560", null ],

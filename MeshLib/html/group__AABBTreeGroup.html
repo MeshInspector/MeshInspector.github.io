@@ -249,12 +249,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga47e983a2ba53dbe6d49313488f3cae23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::pair&lt; <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a>, <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga47e983a2ba53dbe6d49313488f3cae23">MR::findCollidingTriangleBitsets</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;a, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;b, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *rigidB2A=nullptr)</td></tr>
 <tr class="memdesc:ga47e983a2ba53dbe6d49313488f3cae23"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same as <a class="el" href="group__AABBTreeGroup.html#gaaeb209f0c917451a03debbf058fc39e6">findCollidingTriangles</a>, but returns one bite set per mesh with colliding triangles  <br /></td></tr>
 <tr class="separator:ga47e983a2ba53dbe6d49313488f3cae23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga389c3f9cc9b462dacd94124a59642cd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; std::vector&lt; <a class="el" href="structMR_1_1FaceFace.html">FaceFace</a> &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga389c3f9cc9b462dacd94124a59642cd8">MR::findSelfCollidingTriangles</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
-<tr class="memdesc:ga389c3f9cc9b462dacd94124a59642cd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding triangles from one mesh or a region  <br /></td></tr>
-<tr class="separator:ga389c3f9cc9b462dacd94124a59642cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga03ad64f146f0955b1a1c5a36b2b03f11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga03ad64f146f0955b1a1c5a36b2b03f11">MR::findSelfCollidingTrianglesBS</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
-<tr class="memdesc:ga03ad64f146f0955b1a1c5a36b2b03f11"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same <a class="el" href="group__AABBTreeGroup.html#ga389c3f9cc9b462dacd94124a59642cd8">findSelfCollidingTriangles</a> but returns the union of all self-intersecting faces  <br /></td></tr>
-<tr class="separator:ga03ad64f146f0955b1a1c5a36b2b03f11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6d98c0d3c3c6ee98a1cea7662a3f704f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt; std::vector&lt; <a class="el" href="structMR_1_1FaceFace.html">FaceFace</a> &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga6d98c0d3c3c6ee98a1cea7662a3f704f">MR::findSelfCollidingTriangles</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memdesc:ga6d98c0d3c3c6ee98a1cea7662a3f704f"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding triangles from one mesh or a region  <br /></td></tr>
+<tr class="separator:ga6d98c0d3c3c6ee98a1cea7662a3f704f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0268cc5d3075529584b5c17df4c22243"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt; <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga0268cc5d3075529584b5c17df4c22243">MR::findSelfCollidingTrianglesBS</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memdesc:ga0268cc5d3075529584b5c17df4c22243"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same <a class="el" href="group__AABBTreeGroup.html#ga6d98c0d3c3c6ee98a1cea7662a3f704f">findSelfCollidingTriangles</a> but returns the union of all self-intersecting faces  <br /></td></tr>
+<tr class="separator:ga0268cc5d3075529584b5c17df4c22243"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3c4d304b28fd4695d20dc454318f5660"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga3c4d304b28fd4695d20dc454318f5660">MR::isInside</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;a, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;b, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *rigidB2A=nullptr)</td></tr>
 <tr class="memdesc:ga3c4d304b28fd4695d20dc454318f5660"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary mesh part A is inside of closed mesh part B  <br /></td></tr>
 <tr class="separator:ga3c4d304b28fd4695d20dc454318f5660"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2140,14 +2140,14 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ga389c3f9cc9b462dacd94124a59642cd8" name="ga389c3f9cc9b462dacd94124a59642cd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga389c3f9cc9b462dacd94124a59642cd8">&#9670;&#160;</a></span>findSelfCollidingTriangles()</h2>
+<a id="ga6d98c0d3c3c6ee98a1cea7662a3f704f" name="ga6d98c0d3c3c6ee98a1cea7662a3f704f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6d98c0d3c3c6ee98a1cea7662a3f704f">&#9670;&#160;</a></span>findSelfCollidingTriangles()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; std::vector&lt; <a class="el" href="structMR_1_1FaceFace.html">FaceFace</a> &gt;, std::string &gt; MR::findSelfCollidingTriangles </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt; std::vector&lt; <a class="el" href="structMR_1_1FaceFace.html">FaceFace</a> &gt;, std::string &gt; MR::findSelfCollidingTriangles </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
           <td class="paramname"><em>mp</em>, </td>
@@ -2170,14 +2170,14 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ga03ad64f146f0955b1a1c5a36b2b03f11" name="ga03ad64f146f0955b1a1c5a36b2b03f11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga03ad64f146f0955b1a1c5a36b2b03f11">&#9670;&#160;</a></span>findSelfCollidingTrianglesBS()</h2>
+<a id="ga0268cc5d3075529584b5c17df4c22243" name="ga0268cc5d3075529584b5c17df4c22243"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0268cc5d3075529584b5c17df4c22243">&#9670;&#160;</a></span>findSelfCollidingTrianglesBS()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt; <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a>, std::string &gt; MR::findSelfCollidingTrianglesBS </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt; <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a>, std::string &gt; MR::findSelfCollidingTrianglesBS </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
           <td class="paramname"><em>mp</em>, </td>
@@ -2196,7 +2196,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>the same <a class="el" href="group__AABBTreeGroup.html#ga389c3f9cc9b462dacd94124a59642cd8">findSelfCollidingTriangles</a> but returns the union of all self-intersecting faces </p>
+<p>the same <a class="el" href="group__AABBTreeGroup.html#ga6d98c0d3c3c6ee98a1cea7662a3f704f">findSelfCollidingTriangles</a> but returns the union of all self-intersecting faces </p>
 
 </div>
 </div>

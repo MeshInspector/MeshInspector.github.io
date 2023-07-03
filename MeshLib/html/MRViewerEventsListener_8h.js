@@ -24,5 +24,6 @@ var MRViewerEventsListener_8h =
     [ "MR::SpaceMouseMoveListener", "structMR_1_1SpaceMouseMoveListener.html", "structMR_1_1SpaceMouseMoveListener" ],
     [ "MR::SpaceMouseDownListener", "structMR_1_1SpaceMouseDownListener.html", "structMR_1_1SpaceMouseDownListener" ],
     [ "MR::SpaceMouseUpListener", "structMR_1_1SpaceMouseUpListener.html", "structMR_1_1SpaceMouseUpListener" ],
-    [ "MR::PostFocusListener", "structMR_1_1PostFocusListener.html", "structMR_1_1PostFocusListener" ]
+    [ "MR::PostFocusListener", "structMR_1_1PostFocusListener.html", "structMR_1_1PostFocusListener" ],
+    [ "MR::CursorEntranceListener", "structMR_1_1CursorEntranceListener.html", "structMR_1_1CursorEntranceListener" ]
 ];

@@ -6,7 +6,7 @@ var MRDistanceMap_8h =
     [ "contourIntersection", "MRDistanceMap_8h.html#ga8461963f3447f163979179222275114c", null ],
     [ "contourSubtract", "MRDistanceMap_8h.html#ga9ec7f0e4e736da31de012ad0e33f6b33", null ],
     [ "contourUnion", "MRDistanceMap_8h.html#ga59af0939e79330f4ef6bcc99c74c196b", null ],
-    [ "convertImageToDistanceMap", "MRDistanceMap_8h.html#ga93d62805114cb67a6ca8e1f9698dae51", null ],
+    [ "convertImageToDistanceMap", "MRDistanceMap_8h.html#gac3f8499b08bd2a01ac723fd015b347eb", null ],
     [ "distanceMapFromContours", "MRDistanceMap_8h.html#ga6ba988d1173a8800e2ccfc5ac30d2a68", null ],
     [ "distanceMapTo2DIsoPolyline", "MRDistanceMap_8h.html#ga6d0dc4485cbdb50e2e0663aedcc73986", null ],
     [ "distanceMapTo2DIsoPolyline", "MRDistanceMap_8h.html#gaf5709c6812fae93dbba906100dbb1220", null ],
@@ -14,7 +14,7 @@ var MRDistanceMap_8h =
     [ "distanceMapTo2DIsoPolyline", "MRDistanceMap_8h.html#ga1acaca885d3034b9c8ef1f5cb9b8824a", null ],
     [ "distanceMapToMesh", "MRDistanceMap_8h.html#ga14e2ca40329157ab1e6505de903fee55", null ],
     [ "edgePointsFromContours", "MRDistanceMap_8h.html#ga24734ef2060f40a2638ace7c7f2ac54e", null ],
-    [ "loadDistanceMapFromImage", "MRDistanceMap_8h.html#gadbee6a2fc88cfd473ca9702fe2e1e4b5", null ],
+    [ "loadDistanceMapFromImage", "MRDistanceMap_8h.html#ga688da8d387e70fdf2e04ef2c625138cd", null ],
     [ "polylineOffset", "MRDistanceMap_8h.html#gaf720ea7221e6ad284c8b0b80e5c58364", null ],
     [ "saveDistanceMapToImage", "MRDistanceMap_8h.html#gad32dba15de75a916f90af8e79efca23c", null ]
 ];

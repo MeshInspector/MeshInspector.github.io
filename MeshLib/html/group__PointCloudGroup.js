@@ -22,7 +22,7 @@ var group__PointCloudGroup =
       [ "type", "structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d", null ]
     ] ],
     [ "MR::RegularMapMesher", "classMR_1_1RegularMapMesher.html", [
-      [ "createMesh", "classMR_1_1RegularMapMesher.html#a22a3cac44c0f2241ece93d161b9fbbdf", null ],
+      [ "createMesh", "classMR_1_1RegularMapMesher.html#a7657ae3ab0fd1cabab1007a4ac9624eb", null ],
       [ "loadDirectionsPC", "classMR_1_1RegularMapMesher.html#a0b822d1160d10749302218a02ecf23f7", null ],
       [ "loadDistances", "classMR_1_1RegularMapMesher.html#abcaf63824e1d2e6950436bb64b0ed238", null ],
       [ "loadSurfacePC", "classMR_1_1RegularMapMesher.html#a6dc043a7a516e3b50448b18d4e127971", null ],

@@ -140,6 +140,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRMeshDirMax.h", "MRMeshDirMax_8h.html", "MRMeshDirMax_8h" ],
     [ "MRMeshDistance.h", "MRMeshDistance_8h.html", "MRMeshDistance_8h" ],
     [ "MRMeshEigen.h", "MRMeshEigen_8h.html", "MRMeshEigen_8h" ],
+    [ "MRMeshExtrude.h", "MRMeshExtrude_8h.html", "MRMeshExtrude_8h" ],
     [ "MRMeshFillHole.h", "MRMeshFillHole_8h.html", "MRMeshFillHole_8h" ],
     [ "MRMeshFixer.h", "MRMeshFixer_8h.html", "MRMeshFixer_8h" ],
     [ "MRMeshFwd.h", "MRMeshFwd_8h.html", "MRMeshFwd_8h" ],

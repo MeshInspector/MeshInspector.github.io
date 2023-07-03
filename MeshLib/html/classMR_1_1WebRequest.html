@@ -132,8 +132,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a0a6a8b5622856593220d0c0044808b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab51d344172a11d79b57012398f3ad733"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#ab51d344172a11d79b57012398f3ad733">setBody</a> (std::string body)</td></tr>
 <tr class="separator:ab51d344172a11d79b57012398f3ad733"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d73f503f4be90b9a25d9f4d89e9760f"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#a7d73f503f4be90b9a25d9f4d89e9760f">send</a> (std::string url, <a class="el" href="classMR_1_1WebRequest.html#a2ebe713343abb8bcc05ddc7d74efa880">ResponseCallback</a> callback, bool async=true)</td></tr>
-<tr class="separator:a7d73f503f4be90b9a25d9f4d89e9760f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abebdd1f748e86072612d1e1f3e54e52f"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#abebdd1f748e86072612d1e1f3e54e52f">send</a> (std::string url, const std::string &amp;logName, <a class="el" href="classMR_1_1WebRequest.html#a2ebe713343abb8bcc05ddc7d74efa880">ResponseCallback</a> callback, bool async=true)</td></tr>
+<tr class="separator:abebdd1f748e86072612d1e1f3e54e52f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a2ebe713343abb8bcc05ddc7d74efa880" name="a2ebe713343abb8bcc05ddc7d74efa880"></a>
@@ -228,8 +228,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7d73f503f4be90b9a25d9f4d89e9760f" name="a7d73f503f4be90b9a25d9f4d89e9760f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d73f503f4be90b9a25d9f4d89e9760f">&#9670;&#160;</a></span>send()</h2>
+<a id="abebdd1f748e86072612d1e1f3e54e52f" name="abebdd1f748e86072612d1e1f3e54e52f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abebdd1f748e86072612d1e1f3e54e52f">&#9670;&#160;</a></span>send()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -242,6 +242,12 @@ Static Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>logName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -267,6 +273,12 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>sends request, calling callback on answer, if async then callback is called in next frame after getting response return true if request was sent, false if other request is processing now note: check <code>readyForNextRequest</code> before sending </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">request</td><td>name for logging </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

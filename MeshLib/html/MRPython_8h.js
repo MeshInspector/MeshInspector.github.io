@@ -18,6 +18,6 @@ var MRPython_8h =
     ] ],
     [ "decorateExpected", "MRPython_8h.html#a5fcb58debd182644f22e1ea6eac867b6", null ],
     [ "decorateExpected", "MRPython_8h.html#abf106ad4f6e3e81079b7698a30f31e20", null ],
-    [ "decorateExpected", "MRPython_8h.html#af838cee46b037638bc67688cfa7c8964", null ],
+    [ "decorateExpected", "MRPython_8h.html#aa60c1177452c69cf5b8cdab61296d1ce", null ],
     [ "throwExceptionFromExpected", "MRPython_8h.html#a396596cb5cea6d2f8fec7b7838ae2bc5", null ]
 ];

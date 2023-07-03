@@ -17,5 +17,6 @@ var classMR_1_1BitSet =
     [ "reset", "classMR_1_1BitSet.html#a784dcb0f29bf20a645a4267b68d0d6ae", null ],
     [ "resizeWithReserve", "classMR_1_1BitSet.html#ac7929d81a23ad4ff51c472f0d1c992d5", null ],
     [ "subtract", "classMR_1_1BitSet.html#a2a50b06c0c6ba58204d191f3b900439c", null ],
-    [ "test", "classMR_1_1BitSet.html#aab6d4690169ae21969bc5f538fc8fbff", null ]
+    [ "test", "classMR_1_1BitSet.html#aab6d4690169ae21969bc5f538fc8fbff", null ],
+    [ "test_set", "classMR_1_1BitSet.html#a85be34ba3bb731ce828ca21c67b1413c", null ]
 ];

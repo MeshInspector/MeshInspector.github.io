@@ -111,6 +111,8 @@ $(document).ready(function(){initNavTree('classMR_1_1ViewportGL.html',''); initR
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ViewportGL_1_1BasePickResult.html">BasePickResult</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ViewportGL_1_1BaseRenderParams.html">BaseRenderParams</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ViewportGL_1_1PickParameters.html">PickParameters</a></td></tr>
@@ -118,6 +120,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ViewportGL_1_1PickResult.html">PickResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ViewportGL_1_1RenderParams.html">RenderParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ViewportGL_1_1ScaledPickRes.html">ScaledPickRes</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
@@ -128,6 +132,8 @@ Public Types</h2></td></tr>
 <tr class="separator:a4324daf005894093aab00d0738fbd422"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79d22916ef4534d1503a4433e40d44c1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ViewportGL.html#a79d22916ef4534d1503a4433e40d44c1">PickResults</a> = std::vector&lt; <a class="el" href="structMR_1_1ViewportGL_1_1PickResult.html">PickResult</a> &gt;</td></tr>
 <tr class="separator:a79d22916ef4534d1503a4433e40d44c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28aa3f7360b6d73987f11ccc02b6a51e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ViewportGL.html#a28aa3f7360b6d73987f11ccc02b6a51e">BasePickResults</a> = std::vector&lt; <a class="el" href="structMR_1_1ViewportGL_1_1BasePickResult.html">BasePickResult</a> &gt;</td></tr>
+<tr class="separator:a28aa3f7360b6d73987f11ccc02b6a51e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -169,6 +175,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abc105ddae2f4b963448775271221ed8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd079aa214c396ca3db1f0cdc83fb5d0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; unsigned &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ViewportGL.html#afd079aa214c396ca3db1f0cdc83fb5d0">findUniqueObjectsInRect</a> (const <a class="el" href="structMR_1_1ViewportGL_1_1PickParameters.html">PickParameters</a> &amp;params, const <a class="el" href="namespaceMR.html#ae9c8c45958f00d2d38379fe336620a82">Box2i</a> &amp;rect, int maxRenderResolutionSide) const</td></tr>
 <tr class="separator:afd079aa214c396ca3db1f0cdc83fb5d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd238d185cc770e343e9fd80e4e1095a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1ViewportGL_1_1ScaledPickRes.html">ScaledPickRes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ViewportGL.html#afd238d185cc770e343e9fd80e4e1095a">pickObjectsInRect</a> (const <a class="el" href="structMR_1_1ViewportGL_1_1PickParameters.html">PickParameters</a> &amp;params, const <a class="el" href="namespaceMR.html#ae9c8c45958f00d2d38379fe336620a82">Box2i</a> &amp;rect, int maxRenderResolutionSide) const</td></tr>
+<tr class="separator:afd238d185cc770e343e9fd80e4e1095a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -178,6 +186,20 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a7d6858d6a967b2217aa408f215d1c991"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a28aa3f7360b6d73987f11ccc02b6a51e" name="a28aa3f7360b6d73987f11ccc02b6a51e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28aa3f7360b6d73987f11ccc02b6a51e">&#9670;&#160;</a></span>BasePickResults</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classMR_1_1ViewportGL.html#a28aa3f7360b6d73987f11ccc02b6a51e">MR::ViewportGL::BasePickResults</a> =  std::vector&lt;<a class="el" href="structMR_1_1ViewportGL_1_1BasePickResult.html">BasePickResult</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4324daf005894093aab00d0738fbd422" name="a4324daf005894093aab00d0738fbd422"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4324daf005894093aab00d0738fbd422">&#9670;&#160;</a></span>GLfloat</h2>
 
@@ -596,6 +618,40 @@ Public Attributes</h2></td></tr>
           <td></td>
           <td class="paramtype">const std::vector&lt; <a class="el" href="namespaceMR.html#a414c921e724deba1be8a3f3b5a20af76">Vector2i</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>picks</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd238d185cc770e343e9fd80e4e1095a" name="afd238d185cc770e343e9fd80e4e1095a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd238d185cc770e343e9fd80e4e1095a">&#9670;&#160;</a></span>pickObjectsInRect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1ViewportGL_1_1ScaledPickRes.html">ScaledPickRes</a> MR::ViewportGL::pickObjectsInRect </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ViewportGL_1_1PickParameters.html">PickParameters</a> &amp;&#160;</td>
+          <td class="paramname"><em>params</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ae9c8c45958f00d2d38379fe336620a82">Box2i</a> &amp;&#160;</td>
+          <td class="paramname"><em>rect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxRenderResolutionSide</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

@@ -13,7 +13,7 @@ var classMR_1_1CircleObject =
     [ "getRadius", "classMR_1_1CircleObject.html#a2dfc75142d05a13a68e404b5e6a823d2", null ],
     [ "operator=", "classMR_1_1CircleObject.html#a213eae2656d58c2c869a7c592a70c899", null ],
     [ "serializeFields_", "classMR_1_1CircleObject.html#a2f2f75df180154bb0a2973c18a588e3f", null ],
-    [ "serializeModel_", "classMR_1_1CircleObject.html#a2f0ec9685351f619027b5244033bc304", null ],
+    [ "serializeModel_", "classMR_1_1CircleObject.html#af870bd3dc166b1a2b1e4b6be805c486c", null ],
     [ "setCenter", "classMR_1_1CircleObject.html#a70d48fc042f2c9a7a7d7afc73ba3ae9a", null ],
     [ "setNormal", "classMR_1_1CircleObject.html#a2ef73648dba37c0c2f4e563dcecd0c59", null ],
     [ "setRadius", "classMR_1_1CircleObject.html#a4a7671055a63b3ec14946405b83653eb", null ],

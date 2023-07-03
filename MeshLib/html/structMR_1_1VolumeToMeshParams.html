@@ -125,11 +125,13 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a12ce73ca4024f08ab98acdfc77435da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a845debcaebfa7ec470e70a54c4076f64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="namespaceMR.html#a9ccb1b94958c98c5b5971b94fbfdb761">VoxelId</a>, <a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VolumeToMeshParams.html#a845debcaebfa7ec470e70a54c4076f64">outVoxelPerFaceMap</a> { nullptr }</td></tr>
 <tr class="separator:a845debcaebfa7ec470e70a54c4076f64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fab969aa4bfac2655f334cb9a03aae2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ac595e45c15fc1d1677d48df60550c8e3">VoxelPointPositioner</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VolumeToMeshParams.html#a0fab969aa4bfac2655f334cb9a03aae2">positioner</a> = &amp;<a class="el" href="namespaceMR.html#a611a9d93bf5276050887652752c6ee55">voxelPositionerLinear</a></td></tr>
+<tr class="memitem:a0fab969aa4bfac2655f334cb9a03aae2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ac595e45c15fc1d1677d48df60550c8e3">VoxelPointPositioner</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VolumeToMeshParams.html#a0fab969aa4bfac2655f334cb9a03aae2">positioner</a> = {}</td></tr>
 <tr class="separator:a0fab969aa4bfac2655f334cb9a03aae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2a367b11feda3ee547bbee5e0eae3a3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VolumeToMeshParams.html#ad2a367b11feda3ee547bbee5e0eae3a3">maxVertices</a> = INT_MAX</td></tr>
 <tr class="memdesc:ad2a367b11feda3ee547bbee5e0eae3a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">if the mesh exceeds this number of vertices, an error returns  <br /></td></tr>
 <tr class="separator:ad2a367b11feda3ee547bbee5e0eae3a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56d1d4216439e79f6687dff08fcc0465"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VolumeToMeshParams.html#a56d1d4216439e79f6687dff08fcc0465">omitNaNCheck</a> = false</td></tr>
+<tr class="separator:a56d1d4216439e79f6687dff08fcc0465"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_structMR_1_1BaseVolumeConversionParams"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_structMR_1_1BaseVolumeConversionParams')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structMR_1_1BaseVolumeConversionParams.html">MR::BaseVolumeConversionParams</a></td></tr>
 <tr class="memitem:a106112f3bb7cd885102871e0c3763791 inherit pub_attribs_structMR_1_1BaseVolumeConversionParams"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BaseVolumeConversionParams.html#a106112f3bb7cd885102871e0c3763791">origin</a></td></tr>
 <tr class="separator:a106112f3bb7cd885102871e0c3763791 inherit pub_attribs_structMR_1_1BaseVolumeConversionParams"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -181,6 +183,21 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a56d1d4216439e79f6687dff08fcc0465" name="a56d1d4216439e79f6687dff08fcc0465"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56d1d4216439e79f6687dff08fcc0465">&#9670;&#160;</a></span>omitNaNCheck</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::VolumeToMeshParams::omitNaNCheck = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>for simple volumes only: omit checks for NaN values use it if you're aware that the input volume has no NaN values </p>
+
+</div>
+</div>
 <a id="a845debcaebfa7ec470e70a54c4076f64" name="a845debcaebfa7ec470e70a54c4076f64"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a845debcaebfa7ec470e70a54c4076f64">&#9670;&#160;</a></span>outVoxelPerFaceMap</h2>
 
@@ -202,7 +219,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#ac595e45c15fc1d1677d48df60550c8e3">VoxelPointPositioner</a> MR::VolumeToMeshParams::positioner = &amp;<a class="el" href="namespaceMR.html#a611a9d93bf5276050887652752c6ee55">voxelPositionerLinear</a></td>
+          <td class="memname"><a class="el" href="namespaceMR.html#ac595e45c15fc1d1677d48df60550c8e3">VoxelPointPositioner</a> MR::VolumeToMeshParams::positioner = {}</td>
         </tr>
       </table>
 </div><div class="memdoc">

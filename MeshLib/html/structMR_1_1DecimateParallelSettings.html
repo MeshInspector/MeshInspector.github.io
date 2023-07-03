@@ -115,9 +115,12 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a17d076a1c92c22ee1eaf23dd6edcb19e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad90b28eea121f1eb8d2153a5c87b69a6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateParallelSettings.html#ad90b28eea121f1eb8d2153a5c87b69a6">maxError</a> = 0.001f</td></tr>
 <tr class="separator:ad90b28eea121f1eb8d2153a5c87b69a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c7ecd000b4f7cffca0e5f0312073ae4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateParallelSettings.html#a1c7ecd000b4f7cffca0e5f0312073ae4">maxEdgeLen</a> = 1</td></tr>
+<tr class="memitem:a1c7ecd000b4f7cffca0e5f0312073ae4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateParallelSettings.html#a1c7ecd000b4f7cffca0e5f0312073ae4">maxEdgeLen</a> = FLT_MAX</td></tr>
 <tr class="memdesc:a1c7ecd000b4f7cffca0e5f0312073ae4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximal possible edge length created during decimation.  <br /></td></tr>
 <tr class="separator:a1c7ecd000b4f7cffca0e5f0312073ae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a418e0b7d779396eecd0743677811e459"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateParallelSettings.html#a418e0b7d779396eecd0743677811e459">maxBdShift</a> = FLT_MAX</td></tr>
+<tr class="memdesc:a418e0b7d779396eecd0743677811e459"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximal shift of a boundary during one edge collapse.  <br /></td></tr>
+<tr class="separator:a418e0b7d779396eecd0743677811e459"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c23bc0e06e4658789c9a372752be560"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateParallelSettings.html#a3c23bc0e06e4658789c9a372752be560">maxTriangleAspectRatio</a> = 20</td></tr>
 <tr class="memdesc:a3c23bc0e06e4658789c9a372752be560"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximal possible aspect ratio of a triangle introduced during decimation.  <br /></td></tr>
 <tr class="separator:a3c23bc0e06e4658789c9a372752be560"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -201,6 +204,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a418e0b7d779396eecd0743677811e459" name="a418e0b7d779396eecd0743677811e459"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a418e0b7d779396eecd0743677811e459">&#9670;&#160;</a></span>maxBdShift</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::DecimateParallelSettings::maxBdShift = FLT_MAX</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Maximal shift of a boundary during one edge collapse. </p>
+
+</div>
+</div>
 <a id="a1c7ecd000b4f7cffca0e5f0312073ae4" name="a1c7ecd000b4f7cffca0e5f0312073ae4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1c7ecd000b4f7cffca0e5f0312073ae4">&#9670;&#160;</a></span>maxEdgeLen</h2>
 
@@ -208,7 +227,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float MR::DecimateParallelSettings::maxEdgeLen = 1</td>
+          <td class="memname">float MR::DecimateParallelSettings::maxEdgeLen = FLT_MAX</td>
         </tr>
       </table>
 </div><div class="memdoc">
