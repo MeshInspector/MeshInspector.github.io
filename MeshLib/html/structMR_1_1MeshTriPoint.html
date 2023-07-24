@@ -127,18 +127,26 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6796e7f3ca4cdbeb66145767bbf12dc7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTriPoint.html#a6796e7f3ca4cdbeb66145767bbf12dc7">inVertex</a> () const</td></tr>
 <tr class="memdesc:a6796e7f3ca4cdbeb66145767bbf12dc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the point is in a vertex  <br /></td></tr>
 <tr class="separator:a6796e7f3ca4cdbeb66145767bbf12dc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ccc1f2145eb9f54bfcc0e3c50ca917b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="namespaceMR.html#abb8769b04d42ac01c6844c688f855da9">MeshEdgePoint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTriPoint.html#a6ccc1f2145eb9f54bfcc0e3c50ca917b">onEdge</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology) const</td></tr>
-<tr class="memdesc:a6ccc1f2145eb9f54bfcc0e3c50ca917b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns valid value if the point is on edge, otherwise returns null optional  <br /></td></tr>
-<tr class="separator:a6ccc1f2145eb9f54bfcc0e3c50ca917b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eb261b602a6bb5dc6342b8a585f3a7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#abb8769b04d42ac01c6844c688f855da9">MeshEdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTriPoint.html#a3eb261b602a6bb5dc6342b8a585f3a7c">onEdge</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology) const</td></tr>
+<tr class="memdesc:a3eb261b602a6bb5dc6342b8a585f3a7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns valid value if the point is on edge, otherwise returns invalid MeshEdgePoint  <br /></td></tr>
+<tr class="separator:a3eb261b602a6bb5dc6342b8a585f3a7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90a50a563b67d4e1fa6ad0e30f2e9d71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTriPoint.html#a90a50a563b67d4e1fa6ad0e30f2e9d71">isBd</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *region=nullptr) const</td></tr>
 <tr class="memdesc:a90a50a563b67d4e1fa6ad0e30f2e9d71"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the point is in vertex or on edge, and that location is on the boundary of the region  <br /></td></tr>
 <tr class="separator:a90a50a563b67d4e1fa6ad0e30f2e9d71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a448317ec66d714fc3faa1d0bd3b64867"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTriPoint.html#a448317ec66d714fc3faa1d0bd3b64867">valid</a> () const</td></tr>
+<tr class="memdesc:a448317ec66d714fc3faa1d0bd3b64867"><td class="mdescLeft">&#160;</td><td class="mdescRight">consider this valid if the edge ID is valid  <br /></td></tr>
+<tr class="separator:a448317ec66d714fc3faa1d0bd3b64867"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6371d8245c7dbe42491b7506c52d1478"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTriPoint.html#a6371d8245c7dbe42491b7506c52d1478">operator bool</a> () const</td></tr>
+<tr class="separator:a6371d8245c7dbe42491b7506c52d1478"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1709949fd7429ecfaa96a98d1876f5b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTriPoint.html#a1709949fd7429ecfaa96a98d1876f5b2">lnext</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology) const</td></tr>
 <tr class="memdesc:a1709949fd7429ecfaa96a98d1876f5b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">represents the same point relative to next edge in the same triangle  <br /></td></tr>
 <tr class="separator:a1709949fd7429ecfaa96a98d1876f5b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbd2e1560699eb7d09752dce26fe2ee7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTriPoint.html#abbd2e1560699eb7d09752dce26fe2ee7">canonical</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology) const</td></tr>
 <tr class="memdesc:abbd2e1560699eb7d09752dce26fe2ee7"><td class="mdescLeft">&#160;</td><td class="mdescRight">represents the same point relative to the topology.edgeWithLeft( topology.left( e ) )  <br /></td></tr>
 <tr class="separator:abbd2e1560699eb7d09752dce26fe2ee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb0591df25f88f44c1c55406d826b63e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTriPoint.html#abb0591df25f88f44c1c55406d826b63e">operator==</a> (const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;rhs) const =default</td></tr>
+<tr class="memdesc:abb0591df25f88f44c1c55406d826b63e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if two points are equal including equal not-unique representation  <br /></td></tr>
+<tr class="separator:abb0591df25f88f44c1c55406d826b63e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -152,13 +160,16 @@ Related Symbols</h2></td></tr>
 <tr><td class="ititle" colspan="2"><p>(Note that these are not member symbols.) </p>
 </td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:a99f6b57a79938db1c601698948926581"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTriPoint.html#a99f6b57a79938db1c601698948926581">same</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;lhs, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;rhs)</td></tr>
+<tr class="memdesc:a99f6b57a79938db1c601698948926581"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if two points are equal considering different representations  <br /></td></tr>
+<tr class="separator:a99f6b57a79938db1c601698948926581"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28516877dbf31eb9b23a58abf5a65d31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTriPoint.html#a28516877dbf31eb9b23a58abf5a65d31">fromSameTriangle</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;a, <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;b)</td></tr>
 <tr class="separator:a28516877dbf31eb9b23a58abf5a65d31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b4701e6cc60a8b3a60545055a0f0ad2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTriPoint.html#a5b4701e6cc60a8b3a60545055a0f0ad2">fromSameTriangle</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;&amp;a, <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;&amp;b)</td></tr>
 <tr class="separator:a5b4701e6cc60a8b3a60545055a0f0ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44a5fd167bff105b0984a21bf1444a37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTriPoint.html#a44a5fd167bff105b0984a21bf1444a37">getVertexAsMeshTriPoint</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> <a class="el" href="structMR_1_1MeshTriPoint.html#afb2e8376855431a09626f25ffe6039bc">e</a>, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> v)</td></tr>
-<tr class="memdesc:a44a5fd167bff105b0984a21bf1444a37"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> representation of given vertex with given edge field; or null if it is not possible  <br /></td></tr>
-<tr class="separator:a44a5fd167bff105b0984a21bf1444a37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a601a9f114cc2d5d7a5d707b61f7164c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTriPoint.html#a601a9f114cc2d5d7a5d707b61f7164c9">getVertexAsMeshTriPoint</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> <a class="el" href="structMR_1_1MeshTriPoint.html#afb2e8376855431a09626f25ffe6039bc">e</a>, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> v)</td></tr>
+<tr class="memdesc:a601a9f114cc2d5d7a5d707b61f7164c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> representation of given vertex with given edge field; or invalid <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> if it is not possible  <br /></td></tr>
+<tr class="separator:a601a9f114cc2d5d7a5d707b61f7164c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>encodes a point inside a triangular mesh face using barycentric coordinates</p>
@@ -466,14 +477,14 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a6ccc1f2145eb9f54bfcc0e3c50ca917b" name="a6ccc1f2145eb9f54bfcc0e3c50ca917b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ccc1f2145eb9f54bfcc0e3c50ca917b">&#9670;&#160;</a></span>onEdge()</h2>
+<a id="a3eb261b602a6bb5dc6342b8a585f3a7c" name="a3eb261b602a6bb5dc6342b8a585f3a7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eb261b602a6bb5dc6342b8a585f3a7c">&#9670;&#160;</a></span>onEdge()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="namespaceMR.html#abb8769b04d42ac01c6844c688f855da9">MeshEdgePoint</a> &gt; MR::MeshTriPoint::onEdge </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#abb8769b04d42ac01c6844c688f855da9">MeshEdgePoint</a> MR::MeshTriPoint::onEdge </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
           <td class="paramname"><em>topology</em></td><td>)</td>
@@ -482,7 +493,87 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>returns valid value if the point is on edge, otherwise returns null optional </p>
+<p>returns valid value if the point is on edge, otherwise returns invalid MeshEdgePoint </p>
+
+</div>
+</div>
+<a id="a6371d8245c7dbe42491b7506c52d1478" name="a6371d8245c7dbe42491b7506c52d1478"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6371d8245c7dbe42491b7506c52d1478">&#9670;&#160;</a></span>operator bool()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::MeshTriPoint::operator bool </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb0591df25f88f44c1c55406d826b63e" name="abb0591df25f88f44c1c55406d826b63e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb0591df25f88f44c1c55406d826b63e">&#9670;&#160;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::MeshTriPoint::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if two points are equal including equal not-unique representation </p>
+
+</div>
+</div>
+<a id="a448317ec66d714fc3faa1d0bd3b64867" name="a448317ec66d714fc3faa1d0bd3b64867"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a448317ec66d714fc3faa1d0bd3b64867">&#9670;&#160;</a></span>valid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::MeshTriPoint::valid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>consider this valid if the edge ID is valid </p>
 
 </div>
 </div>
@@ -573,8 +664,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a44a5fd167bff105b0984a21bf1444a37" name="a44a5fd167bff105b0984a21bf1444a37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44a5fd167bff105b0984a21bf1444a37">&#9670;&#160;</a></span>getVertexAsMeshTriPoint()</h2>
+<a id="a601a9f114cc2d5d7a5d707b61f7164c9" name="a601a9f114cc2d5d7a5d707b61f7164c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a601a9f114cc2d5d7a5d707b61f7164c9">&#9670;&#160;</a></span>getVertexAsMeshTriPoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -583,7 +674,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt; getVertexAsMeshTriPoint </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> getVertexAsMeshTriPoint </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
           <td class="paramname"><em>topology</em>, </td>
@@ -613,7 +704,51 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>returns <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> representation of given vertex with given edge field; or null if it is not possible </p>
+<p>returns <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> representation of given vertex with given edge field; or invalid <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> if it is not possible </p>
+
+</div>
+</div>
+<a id="a99f6b57a79938db1c601698948926581" name="a99f6b57a79938db1c601698948926581"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99f6b57a79938db1c601698948926581">&#9670;&#160;</a></span>same()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool same </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">related</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if two points are equal considering different representations </p>
 
 </div>
 </div>

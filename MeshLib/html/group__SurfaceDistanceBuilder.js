@@ -16,7 +16,7 @@ var group__SurfaceDistanceBuilder =
       [ "doneDistance", "classMR_1_1SurfaceDistanceBuilder.html#a66781dd9ecf7009c090fffa4c7d0e6f7", null ],
       [ "growOne", "classMR_1_1SurfaceDistanceBuilder.html#a2c536dc87c144291b79132239fe4d967", null ],
       [ "setMaxVertUpdates", "classMR_1_1SurfaceDistanceBuilder.html#a9b1547c200aedacf976a12ff582e729a", null ],
-      [ "takeDistanceMap", "classMR_1_1SurfaceDistanceBuilder.html#a36c00427b31092380ed61c1d2a1a3297", null ]
+      [ "takeDistanceMap", "classMR_1_1SurfaceDistanceBuilder.html#aa5c104e6de91cb67a4df448454913a0d", null ]
     ] ],
     [ "MR::operator<", "group__SurfaceDistanceBuilder.html#ga6116f007cc43a35299cac2d382c9ba9e", null ]
 ];

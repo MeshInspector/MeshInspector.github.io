@@ -1,6 +1,5 @@
 var MRVDBConversions_8h =
 [
-    [ "MR::ProgressInterrupter", "structMR_1_1ProgressInterrupter.html", "structMR_1_1ProgressInterrupter" ],
     [ "MR::MeshToVolumeParams", "structMR_1_1MeshToVolumeParams.html", "structMR_1_1MeshToVolumeParams" ],
     [ "MR::GridToMeshSettings", "structMR_1_1GridToMeshSettings.html", "structMR_1_1GridToMeshSettings" ],
     [ "evalGridMinMax", "MRVDBConversions_8h.html#a2e6444f6867bfa54d04d95f86200e5c0", null ],

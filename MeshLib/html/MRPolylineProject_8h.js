@@ -5,6 +5,7 @@ var MRPolylineProject_8h =
     [ "FoundEdgeCallback3", "MRPolylineProject_8h.html#gaf77c51a2927a660589bbe050fdbd6ac8", null ],
     [ "findEdgesInBall", "MRPolylineProject_8h.html#ga5ce436376c8036ec99459d3ccea88788", null ],
     [ "findEdgesInBall", "MRPolylineProject_8h.html#ga799578a1ff64417ca5aa5c72fa15bb2f", null ],
+    [ "findMeshEdgesInBall", "MRPolylineProject_8h.html#ga50911249a881bd7365929503c138d8fa", null ],
     [ "findProjectionOnMeshEdges", "MRPolylineProject_8h.html#gaccdf7712b3c2bc175e4b09aae138aa40", null ],
     [ "findProjectionOnMeshEdges", "MRPolylineProject_8h.html#ga64c37b9a7a04aa567390955a50891b57", null ],
     [ "findProjectionOnPolyline", "MRPolylineProject_8h.html#gaa484a0628a7ac3858cd590589687141c", null ],

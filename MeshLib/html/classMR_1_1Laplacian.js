@@ -12,7 +12,7 @@ var classMR_1_1Laplacian =
     ] ],
     [ "Laplacian", "classMR_1_1Laplacian.html#a701e06f6b7ebb3c08d691ca34ffeab37", null ],
     [ "apply", "classMR_1_1Laplacian.html#a1a99ff3fbda2af6c118c5bb00a99d5d1", null ],
-    [ "applyToScalar", "classMR_1_1Laplacian.html#abb87b146def3befaccd77eb7df44c6b7", null ],
+    [ "applyToScalar", "classMR_1_1Laplacian.html#afdf4e4b8b9500077dbd7d806dfc74f54", null ],
     [ "firstLayerFixedVerts", "classMR_1_1Laplacian.html#a0d4fc266be531c28644ef344fa8ed3ca", null ],
     [ "fixVertex", "classMR_1_1Laplacian.html#abde407cebf38b19019235ca25c82309e", null ],
     [ "fixVertex", "classMR_1_1Laplacian.html#a215e845242a349800e84d63d629cd76f", null ],

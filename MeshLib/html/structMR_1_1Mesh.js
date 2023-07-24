@@ -6,6 +6,7 @@ var structMR_1_1Mesh =
     [ "addPartByMask", "structMR_1_1Mesh.html#a5686eed5d8d32c71c450f51644695a09", null ],
     [ "addPartByMask", "structMR_1_1Mesh.html#ae5fb0761925dbb24dbb414e74fd881bc", null ],
     [ "addPoint", "structMR_1_1Mesh.html#aee64892c6401f2ffc0394a59628cdbb5", null ],
+    [ "addSeparateContours", "structMR_1_1Mesh.html#abd8119f3200435e62435f6ec375d98c1", null ],
     [ "addSeparateEdgeLoop", "structMR_1_1Mesh.html#afe79fbba41c13a31bd40b10fdff8b5ee", null ],
     [ "area", "structMR_1_1Mesh.html#a0c83a5a324f80a18969d786febaee653", null ],
     [ "area", "structMR_1_1Mesh.html#a45cc8a4868a2671492e010d86cb408cd", null ],

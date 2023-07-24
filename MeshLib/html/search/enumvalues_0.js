@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['a_0',['A',['../structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587a7fc56270e7a70fa81a5935b72eacbe29',1,'MR::BooleanResultMapper']]],
+  ['a_0',['A',['../structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587a7fc56270e7a70fa81a5935b72eacbe29',1,'MR::BooleanResultMapper::A'],['../classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa7fc56270e7a70fa81a5935b72eacbe29',1,'MR::CNCMachineSettings::A']]],
   ['additionallines_1',['AdditionalLines',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748aebc53627d3ae664c54b4138c2dddb33a',1,'MR::GLStaticHolder']]],
   ['additionalpoints_2',['AdditionalPoints',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748ab6a9e51cc79b46152f149e9555907255',1,'MR::GLStaticHolder']]],
   ['additionalpointsnooffset_3',['AdditionalPointsNoOffset',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a9803632f2ffd6df4b9c59affbd0ee7c9',1,'MR::GLStaticHolder']]],

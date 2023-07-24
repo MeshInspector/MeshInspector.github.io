@@ -113,7 +113,6 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ga356b1104c8bddd98afba39fcbe5ee803"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga356b1104c8bddd98afba39fcbe5ee803"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__TriangleIntersectionGroup.html#ga356b1104c8bddd98afba39fcbe5ee803">MR::doTrianglesIntersect</a> (<a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; a, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; b, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; c, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; d, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; e, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; f)</td></tr>
-<tr class="memdesc:ga356b1104c8bddd98afba39fcbe5ee803"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether triangles ABC and DEF intersect  <br /></td></tr>
 <tr class="separator:ga356b1104c8bddd98afba39fcbe5ee803"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga56e080b75b029cd99c5de48a2ae1c305"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga56e080b75b029cd99c5de48a2ae1c305"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__TriangleIntersectionGroup.html#ga56e080b75b029cd99c5de48a2ae1c305">MR::doesEdgeXySeparate</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;x, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;y, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;z, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;u, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;w, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; d)</td></tr>
@@ -361,8 +360,7 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>checks whether triangles ABC and DEF intersect </p>
+<p>checks whether triangles ABC and DEF intersect returns false if ABC and DEF are coplanar </p>
 
 </div>
 </div>

@@ -129,12 +129,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a74a5c52662c9a9ae3b0589a856041998"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FastWindingNumber.html#a74a5c52662c9a9ae3b0589a856041998">calcSelfIntersections</a> (<a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;res, float beta, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb) override</td></tr>
 <tr class="memdesc:a74a5c52662c9a9ae3b0589a856041998"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers for all centers of mesh's triangles. if winding number is less than 0 or greater then 1, that face is marked as self-intersected  <br /></td></tr>
 <tr class="separator:a74a5c52662c9a9ae3b0589a856041998"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cdc6759f69f82d77525f01bb499d033"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FastWindingNumber.html#a8cdc6759f69f82d77525f01bb499d033">calcFromGrid</a> (std::vector&lt; float &gt; &amp;res, const <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &amp;dims, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;minCoord, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;voxelSize, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;gridToMeshXf, float beta) override</td></tr>
-<tr class="memdesc:a8cdc6759f69f82d77525f01bb499d033"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers for each point in a three-dimensional grid  <br /></td></tr>
-<tr class="separator:a8cdc6759f69f82d77525f01bb499d033"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35926cee7a0727ab29f9225844e6e114"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FastWindingNumber.html#a35926cee7a0727ab29f9225844e6e114">calcFromGridWithDistances</a> (std::vector&lt; float &gt; &amp;res, const <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &amp;dims, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;minCoord, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;voxelSize, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;gridToMeshXf, float beta, float maxDistSq, float minDistSq) override</td></tr>
-<tr class="memdesc:a35926cee7a0727ab29f9225844e6e114"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates distances and winding numbers for each point in a three-dimensional grid  <br /></td></tr>
-<tr class="separator:a35926cee7a0727ab29f9225844e6e114"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af36247f7d5d8ae6c1e8d7c669f078e3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FastWindingNumber.html#af36247f7d5d8ae6c1e8d7c669f078e3e">calcFromGrid</a> (std::vector&lt; float &gt; &amp;res, const <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &amp;dims, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;minCoord, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;voxelSize, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;gridToMeshXf, float beta, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb) override</td></tr>
+<tr class="memdesc:af36247f7d5d8ae6c1e8d7c669f078e3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers for each point in a three-dimensional grid  <br /></td></tr>
+<tr class="separator:af36247f7d5d8ae6c1e8d7c669f078e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fc8b6a24a0d9bd273d419ec9424f6dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FastWindingNumber.html#a0fc8b6a24a0d9bd273d419ec9424f6dc">calcFromGridWithDistances</a> (std::vector&lt; float &gt; &amp;res, const <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &amp;dims, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;minCoord, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;voxelSize, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;gridToMeshXf, float beta, float maxDistSq, float minDistSq, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb) override</td></tr>
+<tr class="memdesc:a0fc8b6a24a0d9bd273d419ec9424f6dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates distances and winding numbers for each point in a three-dimensional grid  <br /></td></tr>
+<tr class="separator:a0fc8b6a24a0d9bd273d419ec9424f6dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30afc52d061332b146f9ab72b7d3e70a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FastWindingNumber.html#a30afc52d061332b146f9ab72b7d3e70a">fromVectorHeapBytes</a> (size_t inputSize) const override</td></tr>
 <tr class="memdesc:a30afc52d061332b146f9ab72b7d3e70a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns amount of required memory for calcFromVector operation does not take into account size of output vector  <br /></td></tr>
 <tr class="separator:a30afc52d061332b146f9ab72b7d3e70a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,12 +153,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac4744f6a703ab21ad9c40d2ca77db273 inherit pub_methods_classMR_1_1IFastWindingNumber"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IFastWindingNumber.html#ac4744f6a703ab21ad9c40d2ca77db273">calcSelfIntersections</a> (<a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;res, float beta, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})=0</td></tr>
 <tr class="memdesc:ac4744f6a703ab21ad9c40d2ca77db273 inherit pub_methods_classMR_1_1IFastWindingNumber"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers for all centers of mesh's triangles. if winding number is less than 0 or greater then 1, that face is marked as self-intersected  <br /></td></tr>
 <tr class="separator:ac4744f6a703ab21ad9c40d2ca77db273 inherit pub_methods_classMR_1_1IFastWindingNumber"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad68a94a3a2d2001a4365f67d3fed2beb inherit pub_methods_classMR_1_1IFastWindingNumber"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IFastWindingNumber.html#ad68a94a3a2d2001a4365f67d3fed2beb">calcFromGrid</a> (std::vector&lt; float &gt; &amp;res, const <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &amp;dims, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;minCoord, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;voxelSize, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;gridToMeshXf, float beta)=0</td></tr>
-<tr class="memdesc:ad68a94a3a2d2001a4365f67d3fed2beb inherit pub_methods_classMR_1_1IFastWindingNumber"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers for each point in a three-dimensional grid  <br /></td></tr>
-<tr class="separator:ad68a94a3a2d2001a4365f67d3fed2beb inherit pub_methods_classMR_1_1IFastWindingNumber"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc2baef227e03eed5ac17059fefd885a inherit pub_methods_classMR_1_1IFastWindingNumber"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IFastWindingNumber.html#afc2baef227e03eed5ac17059fefd885a">calcFromGridWithDistances</a> (std::vector&lt; float &gt; &amp;res, const <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &amp;dims, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;minCoord, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;voxelSize, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;gridToMeshXf, float beta, float maxDistSq, float minDistSq)=0</td></tr>
-<tr class="memdesc:afc2baef227e03eed5ac17059fefd885a inherit pub_methods_classMR_1_1IFastWindingNumber"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates distances and winding numbers for each point in a three-dimensional grid  <br /></td></tr>
-<tr class="separator:afc2baef227e03eed5ac17059fefd885a inherit pub_methods_classMR_1_1IFastWindingNumber"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61e9366e974103b239467d44ab4e9a94 inherit pub_methods_classMR_1_1IFastWindingNumber"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IFastWindingNumber.html#a61e9366e974103b239467d44ab4e9a94">calcFromGrid</a> (std::vector&lt; float &gt; &amp;res, const <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &amp;dims, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;minCoord, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;voxelSize, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;gridToMeshXf, float beta, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})=0</td></tr>
+<tr class="memdesc:a61e9366e974103b239467d44ab4e9a94 inherit pub_methods_classMR_1_1IFastWindingNumber"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers for each point in a three-dimensional grid  <br /></td></tr>
+<tr class="separator:a61e9366e974103b239467d44ab4e9a94 inherit pub_methods_classMR_1_1IFastWindingNumber"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9027cc3b894d18d7750a44a4ca547eeb inherit pub_methods_classMR_1_1IFastWindingNumber"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IFastWindingNumber.html#a9027cc3b894d18d7750a44a4ca547eeb">calcFromGridWithDistances</a> (std::vector&lt; float &gt; &amp;res, const <a class="el" href="namespaceMR.html#af24b71b1cf7ac2e3a63c2d988fd599f0">Vector3i</a> &amp;dims, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;minCoord, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;voxelSize, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> &amp;gridToMeshXf, float beta, float maxDistSq, float minDistSq, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb)=0</td></tr>
+<tr class="memdesc:a9027cc3b894d18d7750a44a4ca547eeb inherit pub_methods_classMR_1_1IFastWindingNumber"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates distances and winding numbers for each point in a three-dimensional grid  <br /></td></tr>
+<tr class="separator:a9027cc3b894d18d7750a44a4ca547eeb inherit pub_methods_classMR_1_1IFastWindingNumber"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade293e17d3f91dce118b85707a694b84 inherit pub_methods_classMR_1_1IFastWindingNumber"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IFastWindingNumber.html#ade293e17d3f91dce118b85707a694b84">fromVectorHeapBytes</a> (size_t inputSize) const =0</td></tr>
 <tr class="memdesc:ade293e17d3f91dce118b85707a694b84 inherit pub_methods_classMR_1_1IFastWindingNumber"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns amount of required memory for calcFromVector operation does not take into account size of output vector  <br /></td></tr>
 <tr class="separator:ade293e17d3f91dce118b85707a694b84 inherit pub_methods_classMR_1_1IFastWindingNumber"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -235,8 +235,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8cdc6759f69f82d77525f01bb499d033" name="a8cdc6759f69f82d77525f01bb499d033"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cdc6759f69f82d77525f01bb499d033">&#9670;&#160;</a></span>calcFromGrid()</h2>
+<a id="af36247f7d5d8ae6c1e8d7c669f078e3e" name="af36247f7d5d8ae6c1e8d7c669f078e3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af36247f7d5d8ae6c1e8d7c669f078e3e">&#9670;&#160;</a></span>calcFromGrid()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -245,7 +245,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::FastWindingNumber::calcFromGrid </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a> MR::FastWindingNumber::calcFromGrid </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; float &gt; &amp;&#160;</td>
           <td class="paramname"><em>res</em>, </td>
@@ -278,7 +278,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>beta</em>&#160;</td>
+          <td class="paramname"><em>beta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>cb</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -306,12 +312,12 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classMR_1_1IFastWindingNumber.html#ad68a94a3a2d2001a4365f67d3fed2beb">MR::IFastWindingNumber</a>.</p>
+<p>Implements <a class="el" href="classMR_1_1IFastWindingNumber.html#a61e9366e974103b239467d44ab4e9a94">MR::IFastWindingNumber</a>.</p>
 
 </div>
 </div>
-<a id="a35926cee7a0727ab29f9225844e6e114" name="a35926cee7a0727ab29f9225844e6e114"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35926cee7a0727ab29f9225844e6e114">&#9670;&#160;</a></span>calcFromGridWithDistances()</h2>
+<a id="a0fc8b6a24a0d9bd273d419ec9424f6dc" name="a0fc8b6a24a0d9bd273d419ec9424f6dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fc8b6a24a0d9bd273d419ec9424f6dc">&#9670;&#160;</a></span>calcFromGridWithDistances()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -320,7 +326,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::FastWindingNumber::calcFromGridWithDistances </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a> MR::FastWindingNumber::calcFromGridWithDistances </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; float &gt; &amp;&#160;</td>
           <td class="paramname"><em>res</em>, </td>
@@ -365,7 +371,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>minDistSq</em>&#160;</td>
+          <td class="paramname"><em>minDistSq</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>cb</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -393,7 +405,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classMR_1_1IFastWindingNumber.html#afc2baef227e03eed5ac17059fefd885a">MR::IFastWindingNumber</a>.</p>
+<p>Implements <a class="el" href="classMR_1_1IFastWindingNumber.html#a9027cc3b894d18d7750a44a4ca547eeb">MR::IFastWindingNumber</a>.</p>
 
 </div>
 </div>

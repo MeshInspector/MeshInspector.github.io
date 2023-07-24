@@ -20,7 +20,7 @@ var searchData=
   ['toolbarclicked_17',['ToolbarClicked',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ac85fcec1e15f3735fc91801590d0b609',1,'MR::ColorTheme']]],
   ['toolbarcustomizebg_18',['ToolbarCustomizeBg',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2921ca80b0c1fc4084aa23a17ed28bae',1,'MR::ColorTheme']]],
   ['toolbarhovered_19',['ToolbarHovered',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a76851ceee06bccd61e3f181d29dac532',1,'MR::ColorTheme']]],
-  ['top_20',['Top',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dcaa4ffdcf0dc1f31b9acaf295d75b51d00',1,'MR::SetViewPresetMenuItem::Top'],['../classMR_1_1Pdf.html#a6759e4baff5cfbd5272628bf2a52f253aa4ffdcf0dc1f31b9acaf295d75b51d00',1,'MR::Pdf::Top']]],
+  ['top_20',['Top',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dcaa4ffdcf0dc1f31b9acaf295d75b51d00',1,'MR::SetViewPresetMenuItem']]],
   ['toppanelbackground_21',['TopPanelBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2d838f579eb9b302faa00ef4fbc90172',1,'MR::ColorTheme']]],
   ['translate_22',['Translate',['../classMR_1_1TouchesController.html#a5138dbae1e6c3d6ffdf6ea36f836f3e5a8879b98f319f3999b6c5b330afb673a1',1,'MR::TouchesController']]],
   ['translation_23',['Translation',['../namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75a6dd08874f83507e9c7b23f1a46b7fa7c',1,'MR']]],

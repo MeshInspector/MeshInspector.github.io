@@ -293,7 +293,7 @@ $(document).ready(function(){initNavTree('MRChangeVoxelsAction_8h_source.html','
 <div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span> </div>
 <div class="line"><a id="l00201" name="l00201"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeSurfaceAction.html#a8d95a8625e6cbeb9f194a629de34610d">  201</a></span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="classMR_1_1ChangeSurfaceAction.html#a8d95a8625e6cbeb9f194a629de34610d">heapBytes</a>()<span class="keyword"> const override</span></div>
 <div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>        <span class="keywordflow">return</span> name_.capacity() + <a class="code hl_function" href="group__BasicGroup.html#ga2442ef2afa7012af6ca21ebcb6604536">MR::heapBytes</a>( cloneSurface_ );</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>        <span class="keywordflow">return</span> name_.capacity() + <a class="code hl_function" href="group__BasicStructuresGroup.html#gaed038f421518710e518a218a55c19621">MR::heapBytes</a>( cloneSurface_ );</div>
 <div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>    }</div>
 <div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span> </div>
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span><span class="keyword">private</span>:</div>
@@ -345,26 +345,23 @@ $(document).ready(function(){initNavTree('MRChangeVoxelsAction_8h_source.html','
 <div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span> </div>
 <div class="line"><a id="l00254" name="l00254"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeGridAction.html#ac2009abf4b8a560744458f59f5bc9328">  254</a></span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="classMR_1_1ChangeGridAction.html#ac2009abf4b8a560744458f59f5bc9328">heapBytes</a>()<span class="keyword"> const override</span></div>
 <div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>        <span class="keywordtype">size_t</span> res = name_.capacity() + histogram_.<a class="code hl_function" href="classMR_1_1Histogram.html#a4666262b73e1f92125d26cb27d2d5eca">heapBytes</a>() + changeIsoAction_.<a class="code hl_function" href="classMR_1_1ChangeIsoAction.html#ae32cc04931a20fc9ae75cdcabad0b018">heapBytes</a>() + changeSurfaceAction_.<a class="code hl_function" href="classMR_1_1ChangeSurfaceAction.html#a8d95a8625e6cbeb9f194a629de34610d">heapBytes</a>();</div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>        <span class="keywordflow">if</span> ( vdbVolume_.<a class="code hl_variable" href="structMR_1_1VoxelsVolume.html#a6ea81e0ad21fc888dfa262fb957f3c2e">data</a> )</div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>            res += vdbVolume_.<a class="code hl_variable" href="structMR_1_1VoxelsVolume.html#a6ea81e0ad21fc888dfa262fb957f3c2e">data</a>-&gt;memUsage();</div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>        <span class="keywordflow">return</span> res;</div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>    }</div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span> </div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    std::shared_ptr&lt;ObjectVoxels&gt; objVoxels_;</div>
-<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>    <a class="code hl_class" href="structMR_1_1VoxelsVolume.html">VdbVolume</a> vdbVolume_;</div>
-<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>    <a class="code hl_class" href="classMR_1_1Histogram.html">Histogram</a> histogram_;</div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>    <a class="code hl_class" href="classMR_1_1ChangeIsoAction.html">ChangeIsoAction</a> changeIsoAction_;</div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>    <a class="code hl_class" href="classMR_1_1ChangeSurfaceAction.html">ChangeSurfaceAction</a> changeSurfaceAction_;</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>        <span class="keywordflow">return</span> name_.capacity() + histogram_.<a class="code hl_function" href="classMR_1_1Histogram.html#a4666262b73e1f92125d26cb27d2d5eca">heapBytes</a>() + changeIsoAction_.<a class="code hl_function" href="classMR_1_1ChangeIsoAction.html#ae32cc04931a20fc9ae75cdcabad0b018">heapBytes</a>() + changeSurfaceAction_.<a class="code hl_function" href="classMR_1_1ChangeSurfaceAction.html#a8d95a8625e6cbeb9f194a629de34610d">heapBytes</a>() + <a class="code hl_function" href="group__BasicStructuresGroup.html#gaed038f421518710e518a218a55c19621">MR::heapBytes</a>( vdbVolume_.<a class="code hl_variable" href="structMR_1_1VoxelsVolume.html#a6ea81e0ad21fc888dfa262fb957f3c2e">data</a> );</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>    }</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span> </div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>    std::shared_ptr&lt;ObjectVoxels&gt; objVoxels_;</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>    <a class="code hl_class" href="structMR_1_1VoxelsVolume.html">VdbVolume</a> vdbVolume_;</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>    <a class="code hl_class" href="classMR_1_1Histogram.html">Histogram</a> histogram_;</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    <a class="code hl_class" href="classMR_1_1ChangeIsoAction.html">ChangeIsoAction</a> changeIsoAction_;</div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>    <a class="code hl_class" href="classMR_1_1ChangeSurfaceAction.html">ChangeSurfaceAction</a> changeSurfaceAction_;</div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span> </div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>    std::string name_;</div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>};</div>
 <div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span> </div>
-<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>    std::string name_;</div>
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>};</div>
-<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span> </div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span> </div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>}</div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span> </div>
-<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span> </div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>}</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span> </div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aMRFloatGrid_8h_html"><div class="ttname"><a href="MRFloatGrid_8h.html">MRFloatGrid.h</a></div></div>
 <div class="ttc" id="aMRHeapBytes_8h_html"><div class="ttname"><a href="MRHeapBytes_8h.html">MRHeapBytes.h</a></div></div>
 <div class="ttc" id="aMRHistoryAction_8h_html"><div class="ttname"><a href="MRHistoryAction_8h.html">MRHistoryAction.h</a></div></div>
@@ -406,7 +403,7 @@ $(document).ready(function(){initNavTree('MRChangeVoxelsAction_8h_source.html','
 <div class="ttc" id="aclassMR_1_1HistoryAction_html"><div class="ttname"><a href="classMR_1_1HistoryAction.html">MR::HistoryAction</a></div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:12</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryAction_html_ac16eb31dd26d35cfc18bac8a05983aa7"><div class="ttname"><a href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">MR::HistoryAction::Type</a></div><div class="ttdeci">Type</div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:19</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectVoxels_html"><div class="ttname"><a href="classMR_1_1ObjectVoxels.html">MR::ObjectVoxels</a></div><div class="ttdef"><b>Definition</b> MRObjectVoxels.h:16</div></div>
-<div class="ttc" id="agroup__BasicGroup_html_ga2442ef2afa7012af6ca21ebcb6604536"><div class="ttname"><a href="group__BasicGroup.html#ga2442ef2afa7012af6ca21ebcb6604536">MR::heapBytes</a></div><div class="ttdeci">size_t heapBytes(const std::vector&lt; T &gt; &amp;vec)</div><div class="ttdoc">returns the amount of memory given vector occupies on heap</div><div class="ttdef"><b>Definition</b> MRHeapBytes.h:15</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_gaed038f421518710e518a218a55c19621"><div class="ttname"><a href="group__BasicStructuresGroup.html#gaed038f421518710e518a218a55c19621">MR::heapBytes</a></div><div class="ttdeci">MRMESH_API size_t heapBytes(const FloatGrid &amp;grid)</div><div class="ttdoc">returns the amount of heap memory occupied by grid</div></div>
 <div class="ttc" id="agroup__VisualObjectGroup_html_gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a"><div class="ttname"><a href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a">MR::DIRTY_ALL</a></div><div class="ttdeci">@ DIRTY_ALL</div><div class="ttdef"><b>Definition</b> MRVisualObject.h:69</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
 <div class="ttc" id="astructMR_1_1Box_html"><div class="ttname"><a href="structMR_1_1Box.html">MR::Box</a></div><div class="ttdoc">Box given by its min- and max- corners.</div><div class="ttdef"><b>Definition</b> MRBox.h:23</div></div>

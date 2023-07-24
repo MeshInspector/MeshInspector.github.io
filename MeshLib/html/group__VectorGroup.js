@@ -46,6 +46,7 @@ var group__VectorGroup =
       [ "operator[]", "structMR_1_1Vector3.html#afd88975c7b25f8752c951f16a74ac7f5", null ],
       [ "perpendicular", "structMR_1_1Vector3.html#a850a38ce3943bd9da515c2ad86ed017c", null ],
       [ "transformed", "structMR_1_1Vector3.html#a12c01f9c90215072af9bd754247ca2db", null ],
+      [ "unsignZeroValues", "structMR_1_1Vector3.html#a8a737d6b966f9953f4dbf5cb90b409e7", null ],
       [ "angle", "structMR_1_1Vector3.html#ac91a0462b62bab22f973bb517dc805ca", null ],
       [ "cross", "structMR_1_1Vector3.html#af9065ae414e0307701366e479519540d", null ],
       [ "dot", "structMR_1_1Vector3.html#a3856ec6f677ed2b0849cc35ffb0c22d8", null ],

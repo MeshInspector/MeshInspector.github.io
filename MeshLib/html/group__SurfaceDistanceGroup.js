@@ -1,8 +1,8 @@
 var group__SurfaceDistanceGroup =
 [
-    [ "MR::computeSurfaceDistances", "group__SurfaceDistanceGroup.html#ga6444c36f86c5914be0a49f103a2c19fa", null ],
-    [ "MR::computeSurfaceDistances", "group__SurfaceDistanceGroup.html#ga23ede01e0bd29225f90f4f020c07c849", null ],
-    [ "MR::computeSurfaceDistances", "group__SurfaceDistanceGroup.html#gaa3e0ff6c63b63a3f3d165b87814fa3d7", null ],
-    [ "MR::computeSurfaceDistances", "group__SurfaceDistanceGroup.html#gae9aec6793532286462bdcd4a30cfdb47", null ],
-    [ "MR::computeSurfaceDistances", "group__SurfaceDistanceGroup.html#ga86210d234d2f6f20db94e80984dde008", null ]
+    [ "MR::computeSurfaceDistances", "group__SurfaceDistanceGroup.html#gaf9f6fdaaa31bdb4ff703d7f40fcdb78a", null ],
+    [ "MR::computeSurfaceDistances", "group__SurfaceDistanceGroup.html#ga3da9c13536f2ad0435b641eb09e95c85", null ],
+    [ "MR::computeSurfaceDistances", "group__SurfaceDistanceGroup.html#ga3f228e29cdfd33222074f3a25626c1d6", null ],
+    [ "MR::computeSurfaceDistances", "group__SurfaceDistanceGroup.html#gaa59eaa9c1e5626ac4b7b3df564b892c5", null ],
+    [ "MR::computeSurfaceDistances", "group__SurfaceDistanceGroup.html#ga6ce427d5b064ec0df45347189b0d06c3", null ]
 ];

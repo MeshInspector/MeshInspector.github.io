@@ -97,55 +97,13 @@ $(document).ready(function(){initNavTree('MRVoxelsConversions_8h.html',''); init
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRVoxelsConversions.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRAffineXf3_8h_source.html">MRAffineXf3.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRSimpleVolume_8h_source.html">MRSimpleVolume.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRSignDetectionMode_8h_source.html">MRSignDetectionMode.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRExpected_8h_source.html">MRExpected.h</a>&quot;</code><br />
-<code>#include &lt;climits&gt;</code><br />
-<code>#include &lt;optional&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="MRMeshToDistanceVolume_8h_source.html">MRMeshToDistanceVolume.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMarchingCubes_8h_source.html">MRMarchingCubes.h</a>&quot;</code><br />
 </div>
 <p><a href="MRVoxelsConversions_8h_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BaseVolumeConversionParams.html">MR::BaseVolumeConversionParams</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshToSimpleVolumeParams.html">MR::MeshToSimpleVolumeParams</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VolumeToMeshParams.html">MR::VolumeToMeshParams</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:namespaceMR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ac595e45c15fc1d1677d48df60550c8e3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac595e45c15fc1d1677d48df60550c8e3">MR::VoxelPointPositioner</a> = std::function&lt; <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>(const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;, float, float, float)&gt;</td></tr>
-<tr class="separator:ac595e45c15fc1d1677d48df60550c8e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a611a9d93bf5276050887652752c6ee55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a611a9d93bf5276050887652752c6ee55">MR::voxelPositionerLinear</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pos0, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pos1, float v0, float v1, float iso)</td></tr>
-<tr class="separator:a611a9d93bf5276050887652752c6ee55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f1691703acce9a2ec66a15fbdd4ce63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="namespaceMR.html#a7ad75de4317308dd9e905cc79369ab6b">SimpleVolume</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3f1691703acce9a2ec66a15fbdd4ce63">MR::meshToSimpleVolume</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshToSimpleVolumeParams.html">MeshToSimpleVolumeParams</a> &amp;params={})</td></tr>
-<tr class="separator:a3f1691703acce9a2ec66a15fbdd4ce63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aedd3c0deae496280be6885a65dc3e18b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aedd3c0deae496280be6885a65dc3e18b">MR::simpleVolumeToMesh</a> (const <a class="el" href="namespaceMR.html#a7ad75de4317308dd9e905cc79369ab6b">SimpleVolume</a> &amp;volume, const <a class="el" href="structMR_1_1VolumeToMeshParams.html">VolumeToMeshParams</a> &amp;params={})</td></tr>
-<tr class="separator:aedd3c0deae496280be6885a65dc3e18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17f886cc2634b8689f81a64757168146"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a17f886cc2634b8689f81a64757168146">MR::vdbVolumeToMesh</a> (const <a class="el" href="namespaceMR.html#a3048dff41173426f92713cbb8cf3784a">VdbVolume</a> &amp;volume, const <a class="el" href="structMR_1_1VolumeToMeshParams.html">VolumeToMeshParams</a> &amp;params={})</td></tr>
-<tr class="separator:a17f886cc2634b8689f81a64757168146"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

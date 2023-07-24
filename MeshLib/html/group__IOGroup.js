@@ -34,6 +34,8 @@ var group__IOGroup =
     [ "MR::PointsLoad::fromObj", "group__IOGroup.html#gafcf7aac09c7bcb9b760bce2f7566adde", null ],
     [ "MR::PointsLoad::fromPly", "group__IOGroup.html#ga1ea383a44cc720309cd5aaad13f51777", null ],
     [ "MR::PointsLoad::fromPly", "group__IOGroup.html#ga6587e808404dcaccc5f92372a3eccf66", null ],
+    [ "MR::PointsLoad::fromText", "group__IOGroup.html#gac81a0cc6248b97978e92f1e29b1a6785", null ],
+    [ "MR::PointsLoad::fromText", "group__IOGroup.html#ga5e288fb2078576b1e6c80c721c8efb40", null ],
     [ "MR::VoxelsSave::saveAllSlicesToImage", "group__IOGroup.html#ga720d7584be8f009676cc32291aeda829", null ],
     [ "MR::VoxelsSave::saveSliceToImage", "group__IOGroup.html#ga1ce15c11510241ced6447543c40a2c85", null ],
     [ "MR::VoxelsSave::toAnySupportedFormat", "group__IOGroup.html#ga9d23ff100045a67f7f02d1c893a5a20b", null ],

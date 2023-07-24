@@ -11,6 +11,7 @@ var MREdgePaths_8h =
     [ "buildSmallestMetricPath", "MREdgePaths_8h.html#ga849a027d86e0a30b1a32b629a14f74f3", null ],
     [ "buildSmallestMetricPathBiDir", "MREdgePaths_8h.html#gaf64ac38f04f25f28a4a46ae2fc06ff8a", null ],
     [ "buildSmallestMetricPathBiDir", "MREdgePaths_8h.html#ga31d65cbf03d734606eecb79ae37c605c", null ],
+    [ "calcOrientedArea", "MREdgePaths_8h.html#ga643c38e76bdce5259ec5ad2f58826699", null ],
     [ "calcPathLength", "MREdgePaths_8h.html#ga1792643322d571922601c7286a802f51", null ],
     [ "calcPathMetric", "MREdgePaths_8h.html#ga43a4b5c66e820cc90b986a3bfb4c1998", null ],
     [ "dilateRegion", "MREdgePaths_8h.html#gabe8914755de31512300888af93f5142a", null ],

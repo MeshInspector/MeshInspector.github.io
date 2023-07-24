@@ -105,7 +105,10 @@ $(document).ready(function(){initNavTree('MRParallelFor_8h.html',''); initResiza
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRVector_8h_source.html">MRVector.h</a>&quot;</code><br />
 <code>#include &quot;MRPch/MRTBB.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
+<code>#include &lt;atomic&gt;</code><br />
 <code>#include &lt;limits&gt;</code><br />
+<code>#include &lt;thread&gt;</code><br />
 </div>
 <p><a href="MRParallelFor_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -120,14 +123,18 @@ Functions</h2></td></tr>
 <tr class="memitem:ga0f1d9c02d9be540b9ebb830334428fe5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga0f1d9c02d9be540b9ebb830334428fe5">MR::ParallelFor</a> (I <a class="el" href="group__BasicGroup.html#ga25c73b1f9e5d5df34b153869e3cb5515">begin</a>, I <a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, F &amp;&amp;f)</td></tr>
 <tr class="memdesc:ga0f1d9c02d9be540b9ebb830334428fe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">executes given function f for each span element [begin, end)  <br /></td></tr>
 <tr class="separator:ga0f1d9c02d9be540b9ebb830334428fe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaaf3accb22f578d08b9b0eba2e269f857"><td class="memTemplParams" colspan="2">template&lt;typename T , typename F &gt; </td></tr>
-<tr class="memitem:gaaf3accb22f578d08b9b0eba2e269f857"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gaaf3accb22f578d08b9b0eba2e269f857">MR::ParallelFor</a> (const std::vector&lt; T &gt; &amp;v, F &amp;&amp;f)</td></tr>
-<tr class="memdesc:gaaf3accb22f578d08b9b0eba2e269f857"><td class="mdescLeft">&#160;</td><td class="mdescRight">executes given function f for each vector element in parallel threads  <br /></td></tr>
-<tr class="separator:gaaf3accb22f578d08b9b0eba2e269f857"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaef0ac65102a308d1ecacb7e2b3a65093"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I , typename F &gt; </td></tr>
-<tr class="memitem:gaef0ac65102a308d1ecacb7e2b3a65093"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gaef0ac65102a308d1ecacb7e2b3a65093">MR::ParallelFor</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;v, F &amp;&amp;f)</td></tr>
-<tr class="memdesc:gaef0ac65102a308d1ecacb7e2b3a65093"><td class="mdescLeft">&#160;</td><td class="mdescRight">executes given function f for each vector element in parallel threads  <br /></td></tr>
-<tr class="separator:gaef0ac65102a308d1ecacb7e2b3a65093"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9236de74b554a978dcdcb72a62cc2041"><td class="memTemplParams" colspan="2">template&lt;typename I , typename F &gt; </td></tr>
+<tr class="memitem:ga9236de74b554a978dcdcb72a62cc2041"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga9236de74b554a978dcdcb72a62cc2041">MR::ParallelFor</a> (I <a class="el" href="group__BasicGroup.html#ga25c73b1f9e5d5df34b153869e3cb5515">begin</a>, I <a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, F &amp;&amp;f, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb, size_t reportProgressEvery=1024)</td></tr>
+<tr class="memdesc:ga9236de74b554a978dcdcb72a62cc2041"><td class="mdescLeft">&#160;</td><td class="mdescRight">executes given function f for each span element [begin, end)  <br /></td></tr>
+<tr class="separator:ga9236de74b554a978dcdcb72a62cc2041"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga97e8749c8a61bfc6c81edcebdcebbdd6"><td class="memTemplParams" colspan="2">template&lt;typename T , typename ... F&gt; </td></tr>
+<tr class="memitem:ga97e8749c8a61bfc6c81edcebdcebbdd6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga97e8749c8a61bfc6c81edcebdcebbdd6">MR::ParallelFor</a> (const std::vector&lt; T &gt; &amp;v, F &amp;&amp;... f)</td></tr>
+<tr class="memdesc:ga97e8749c8a61bfc6c81edcebdcebbdd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">executes given function f for each vector element in parallel threads  <br /></td></tr>
+<tr class="separator:ga97e8749c8a61bfc6c81edcebdcebbdd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I , typename ... F&gt; </td></tr>
+<tr class="memitem:ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga465ce65b82d1fa8749312b1b6de8ede6">MR::ParallelFor</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;v, F &amp;&amp;... f)</td></tr>
+<tr class="memdesc:ga465ce65b82d1fa8749312b1b6de8ede6"><td class="mdescLeft">&#160;</td><td class="mdescRight">executes given function f for each vector element in parallel threads  <br /></td></tr>
+<tr class="separator:ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gacefefeac686afa1ccce13566eeaeb68b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gacefefeac686afa1ccce13566eeaeb68b"><td class="memTemplItemLeft" align="right" valign="top">std::pair&lt; T, T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gacefefeac686afa1ccce13566eeaeb68b">MR::parallelMinMax</a> (const std::vector&lt; T &gt; &amp;vec, const T *topExcluding=nullptr)</td></tr>
 <tr class="separator:gacefefeac686afa1ccce13566eeaeb68b"><td class="memSeparator" colspan="2">&#160;</td></tr>

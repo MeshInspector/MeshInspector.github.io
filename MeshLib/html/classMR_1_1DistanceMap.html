@@ -146,6 +146,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a315bf78bf746909a99ff29e08319abec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23c283386e8a0156cdf0fbb808e18dcf"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DistanceMap.html#a23c283386e8a0156cdf0fbb808e18dcf">getValue</a> (size_t i) const</td></tr>
 <tr class="separator:a23c283386e8a0156cdf0fbb808e18dcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38e9ddb4a58e01a2fee45968358c5098"><td class="memItemLeft" align="right" valign="top">float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DistanceMap.html#a38e9ddb4a58e01a2fee45968358c5098">data</a> ()</td></tr>
+<tr class="separator:a38e9ddb4a58e01a2fee45968358c5098"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40ae747ad28a6f966d16e3359c140eb3"><td class="memItemLeft" align="right" valign="top">const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DistanceMap.html#a40ae747ad28a6f966d16e3359c140eb3">data</a> () const</td></tr>
+<tr class="separator:a40ae747ad28a6f966d16e3359c140eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98776cc9ffe74bd314621c772dc0c719"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DistanceMap.html#a98776cc9ffe74bd314621c772dc0c719">getInterpolated</a> (float x, float y) const</td></tr>
 <tr class="memdesc:a98776cc9ffe74bd314621c772dc0c719"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds interpolated value.  <br /></td></tr>
 <tr class="separator:a98776cc9ffe74bd314621c772dc0c719"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,7 +184,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a00a3638fd3d285e192befb047bf95db2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DistanceMap.html#a00a3638fd3d285e192befb047bf95db2">set</a> (size_t i, float val)</td></tr>
 <tr class="memdesc:a00a3638fd3d285e192befb047bf95db2"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets value in index element  <br /></td></tr>
 <tr class="separator:a00a3638fd3d285e192befb047bf95db2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55389356dd0df5de1c041e73baa076f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DistanceMap.html#a55389356dd0df5de1c041e73baa076f7">set</a> (std::vector&lt; float &gt; data)</td></tr>
+<tr class="memitem:a55389356dd0df5de1c041e73baa076f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DistanceMap.html#a55389356dd0df5de1c041e73baa076f7">set</a> (std::vector&lt; float &gt; <a class="el" href="classMR_1_1DistanceMap.html#a38e9ddb4a58e01a2fee45968358c5098">data</a>)</td></tr>
 <tr class="memdesc:a55389356dd0df5de1c041e73baa076f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets all values at one time  <br /></td></tr>
 <tr class="separator:a55389356dd0df5de1c041e73baa076f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accb80725a2b8dca649a538bcf090f98f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DistanceMap.html#accb80725a2b8dca649a538bcf090f98f">unset</a> (size_t x, size_t y)</td></tr>
@@ -355,6 +359,56 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>clears data, sets resolutions to zero </p>
+
+</div>
+</div>
+<a id="a38e9ddb4a58e01a2fee45968358c5098" name="a38e9ddb4a58e01a2fee45968358c5098"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38e9ddb4a58e01a2fee45968358c5098">&#9670;&#160;</a></span>data() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float * MR::DistanceMap::data </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a40ae747ad28a6f966d16e3359c140eb3" name="a40ae747ad28a6f966d16e3359c140eb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40ae747ad28a6f966d16e3359c140eb3">&#9670;&#160;</a></span>data() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float * MR::DistanceMap::data </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

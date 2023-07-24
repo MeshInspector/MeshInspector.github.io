@@ -5,7 +5,7 @@ var group__MeshLoadObjGroup =
       [ "mesh", "group__MeshLoadObjGroup.html#gab4ded5f4899c9c9bd466b211bd8e2bf1", null ],
       [ "name", "group__MeshLoadObjGroup.html#ga05826b92a46319385603f88ae180c23a", null ],
       [ "pathToTexture", "group__MeshLoadObjGroup.html#ga46f3bf0a33c0753909ec5394b948d02c", null ],
-      [ "uvCoords", "group__MeshLoadObjGroup.html#gaa8e929608fd61a6114e323feaf5313e6", null ]
+      [ "uvCoords", "group__MeshLoadObjGroup.html#ga216284f1a34367048f2f39d7688b1a72", null ]
     ] ],
     [ "MR::MeshLoad::fromSceneObjFile", "group__MeshLoadObjGroup.html#gae25ac2198f05e37f19e2b8da43741af9", null ],
     [ "MR::MeshLoad::fromSceneObjFile", "group__MeshLoadObjGroup.html#gaceef6fefc7881e19cc7e5ba9f1b20558", null ],
@@ -14,5 +14,5 @@ var group__MeshLoadObjGroup =
     [ "MR::MeshLoad::NamedMesh::mesh", "group__MeshLoadObjGroup.html#gab4ded5f4899c9c9bd466b211bd8e2bf1", null ],
     [ "MR::MeshLoad::NamedMesh::name", "group__MeshLoadObjGroup.html#ga05826b92a46319385603f88ae180c23a", null ],
     [ "MR::MeshLoad::NamedMesh::pathToTexture", "group__MeshLoadObjGroup.html#ga46f3bf0a33c0753909ec5394b948d02c", null ],
-    [ "MR::MeshLoad::NamedMesh::uvCoords", "group__MeshLoadObjGroup.html#gaa8e929608fd61a6114e323feaf5313e6", null ]
+    [ "MR::MeshLoad::NamedMesh::uvCoords", "group__MeshLoadObjGroup.html#ga216284f1a34367048f2f39d7688b1a72", null ]
 ];

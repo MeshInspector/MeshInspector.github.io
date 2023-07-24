@@ -56,6 +56,7 @@ var group__EdgePathsGroup =
     [ "MR::buildSmallestMetricPath", "group__EdgePathsGroup.html#ga849a027d86e0a30b1a32b629a14f74f3", null ],
     [ "MR::buildSmallestMetricPathBiDir", "group__EdgePathsGroup.html#gaf64ac38f04f25f28a4a46ae2fc06ff8a", null ],
     [ "MR::buildSmallestMetricPathBiDir", "group__EdgePathsGroup.html#ga31d65cbf03d734606eecb79ae37c605c", null ],
+    [ "MR::calcOrientedArea", "group__EdgePathsGroup.html#ga643c38e76bdce5259ec5ad2f58826699", null ],
     [ "MR::calcPathLength", "group__EdgePathsGroup.html#ga1792643322d571922601c7286a802f51", null ],
     [ "MR::calcPathMetric", "group__EdgePathsGroup.html#ga43a4b5c66e820cc90b986a3bfb4c1998", null ],
     [ "MR::dilateRegion", "group__EdgePathsGroup.html#gabe8914755de31512300888af93f5142a", null ],

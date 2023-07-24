@@ -135,6 +135,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8573123537e18969dd83e157d4636636"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19464a64fd1821d9410ac7ecda056718"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TriPoint.html#a19464a64fd1821d9410ac7ecda056718">onEdge</a> () const</td></tr>
 <tr class="separator:a19464a64fd1821d9410ac7ecda056718"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac157fd0287c44ba2e34f69d7ec178078"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TriPoint.html#ac157fd0287c44ba2e34f69d7ec178078">operator==</a> (const <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a> &amp;rhs) const =default</td></tr>
+<tr class="memdesc:ac157fd0287c44ba2e34f69d7ec178078"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if two points have equal (a,b) representation  <br /></td></tr>
+<tr class="separator:ac157fd0287c44ba2e34f69d7ec178078"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -427,6 +430,36 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>returns [0,2] if the point is on edge or -1 otherwise: 0 means edge [v1,v2]; 1 means edge [v2,v0]; 2 means edge [v0,v1] </p>
+
+</div>
+</div>
+<a id="ac157fd0287c44ba2e34f69d7ec178078" name="ac157fd0287c44ba2e34f69d7ec178078"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac157fd0287c44ba2e34f69d7ec178078">&#9670;&#160;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="structMR_1_1TriPoint.html">MR::TriPoint</a>&lt; T &gt;::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if two points have equal (a,b) representation </p>
 
 </div>
 </div>

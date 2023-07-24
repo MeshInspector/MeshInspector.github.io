@@ -148,6 +148,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:adb08022f8d2a8019b625e6e28e6fd32c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba7a233ed2aaa7ce653e88e8795ffa84"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectGcode.html#aba7a233ed2aaa7ce653e88e8795ffa84">shallowClone</a> () const override</td></tr>
 <tr class="separator:aba7a233ed2aaa7ce653e88e8795ffa84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b5010cf498d2d361f4dece94fd3c6e5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectGcode.html#a7b5010cf498d2d361f4dece94fd3c6e5">setCNCMachineSettings</a> (const <a class="el" href="classMR_1_1CNCMachineSettings.html">CNCMachineSettings</a> &amp;cncSettings)</td></tr>
+<tr class="separator:a7b5010cf498d2d361f4dece94fd3c6e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14618880d039ab5e84ed0a5a2336a6f1"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classMR_1_1CNCMachineSettings.html">CNCMachineSettings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectGcode.html#a14618880d039ab5e84ed0a5a2336a6f1">getCNCMachineSettings</a> () const</td></tr>
+<tr class="separator:a14618880d039ab5e84ed0a5a2336a6f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ffe09b19a324a16fb63d7f0ae8e570f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectGcode.html#a0ffe09b19a324a16fb63d7f0ae8e570f">setGcodeSource</a> (const std::shared_ptr&lt; <a class="el" href="namespaceMR.html#a2251763d4ccbbffae751a7782a8d3b51">GcodeSource</a> &gt; &amp;<a class="el" href="classMR_1_1ObjectGcode.html#a83908ed8133dc1e4705dd6e0056badfb">gcodeSource</a>)</td></tr>
 <tr class="separator:a0ffe09b19a324a16fb63d7f0ae8e570f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83908ed8133dc1e4705dd6e0056badfb"><td class="memItemLeft" align="right" valign="top">virtual const std::shared_ptr&lt; <a class="el" href="namespaceMR.html#a2251763d4ccbbffae751a7782a8d3b51">GcodeSource</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectGcode.html#a83908ed8133dc1e4705dd6e0056badfb">gcodeSource</a> () const</td></tr>
@@ -1029,6 +1033,31 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a14618880d039ab5e84ed0a5a2336a6f1" name="a14618880d039ab5e84ed0a5a2336a6f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14618880d039ab5e84ed0a5a2336a6f1">&#9670;&#160;</a></span>getCNCMachineSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const <a class="el" href="classMR_1_1CNCMachineSettings.html">CNCMachineSettings</a> &amp; MR::ObjectGcode::getCNCMachineSettings </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1d9580ea02a6801309d33b66a3ae2ce5" name="a1d9580ea02a6801309d33b66a3ae2ce5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1d9580ea02a6801309d33b66a3ae2ce5">&#9670;&#160;</a></span>getIdleColor()</h2>
 
@@ -1245,6 +1274,32 @@ Additional Inherited Members</h2></td></tr>
 <p>serializeFields_: serializeBaseFields_ plus polyline serialization </p>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1ObjectLinesHolder.html#ac53731d4425ec9404c558b238467c3fa">MR::ObjectLinesHolder</a>.</p>
+
+</div>
+</div>
+<a id="a7b5010cf498d2d361f4dece94fd3c6e5" name="a7b5010cf498d2d361f4dece94fd3c6e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b5010cf498d2d361f4dece94fd3c6e5">&#9670;&#160;</a></span>setCNCMachineSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectGcode::setCNCMachineSettings </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1CNCMachineSettings.html">CNCMachineSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>cncSettings</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

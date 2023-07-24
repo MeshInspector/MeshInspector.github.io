@@ -11,7 +11,7 @@ var structMR_1_1EdgePoint =
     [ "inVertex", "structMR_1_1EdgePoint.html#a8af6e44f3bf41c0895fbef7ae838a263", null ],
     [ "moveToClosestVertex", "structMR_1_1EdgePoint.html#acd27d6b536b5412853a94133280b6802", null ],
     [ "operator bool", "structMR_1_1EdgePoint.html#a544f2a00465ce861508927e122b12ee5", null ],
-    [ "operator==", "structMR_1_1EdgePoint.html#ae24751f87a417e0631188f7c79630b7b", null ],
+    [ "operator==", "structMR_1_1EdgePoint.html#a9348793c688230e4be403fff5ad98741", null ],
     [ "sym", "structMR_1_1EdgePoint.html#a317789cb353e8dbe9c42661fe7c4f99f", null ],
     [ "valid", "structMR_1_1EdgePoint.html#acea7869523473243ff95a916aa64a7d6", null ],
     [ "fromSameTriangle", "structMR_1_1EdgePoint.html#aeadc3f42a8934c969baee0104a2b7de3", null ],

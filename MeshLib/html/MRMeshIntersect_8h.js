@@ -8,5 +8,6 @@ var MRMeshIntersect_8h =
     [ "rayMeshIntersectAll", "MRMeshIntersect_8h.html#ga4f7fec7775a22ca743ad08d9b8ae3056", null ],
     [ "rayMeshIntersectAll", "MRMeshIntersect_8h.html#gac978c520f500c1e3dad2ddaff7a333f0", null ],
     [ "rayMultiMeshAnyIntersect", "MRMeshIntersect_8h.html#ga240b42f542774e3965806c916ba298ba", null ],
-    [ "rayMultiMeshAnyIntersect", "MRMeshIntersect_8h.html#ga541656ec925c37fde32a91a25444e35f", null ]
+    [ "rayMultiMeshAnyIntersect", "MRMeshIntersect_8h.html#ga541656ec925c37fde32a91a25444e35f", null ],
+    [ "xyPlaneMeshIntersect", "MRMeshIntersect_8h.html#ga881bc4cb6ab7f415bf85d9235e2ca740", null ]
 ];

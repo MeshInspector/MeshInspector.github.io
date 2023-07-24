@@ -308,39 +308,40 @@ $(document).ready(function(){initNavTree('MRRibbonMenu_8h_source.html',''); init
 <div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
 <div class="line"><a id="l00217" name="l00217"></a><span class="lineno"><a class="line" href="structMR_1_1RibbonMenuItemAdder.html">  217</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1RibbonMenuItemAdder.html">RibbonMenuItemAdder</a></div>
 <div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>{</div>
-<div class="line"><a id="l00219" name="l00219"></a><span class="lineno"><a class="line" href="structMR_1_1RibbonMenuItemAdder.html#ac9e373fad8fe85ad8aa8d5ae2a51437e">  219</a></span>    <a class="code hl_function" href="structMR_1_1RibbonMenuItemAdder.html#ac9e373fad8fe85ad8aa8d5ae2a51437e">RibbonMenuItemAdder</a>()</div>
-<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>    {</div>
-<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>        <span class="keyword">static_assert</span>( std::is_base_of_v&lt;RibbonMenuItem, T&gt; );</div>
-<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>        <a class="code hl_function" href="classMR_1_1RibbonSchemaHolder.html#a1c3460f89faa5279890fe5b080a5726e">RibbonSchemaHolder::addItem</a>( std::make_shared&lt;T&gt;() );</div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>    }</div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>};</div>
-<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span> </div>
-<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a id="l00227" name="l00227"></a><span class="lineno"><a class="line" href="structMR_1_1RibbonMenuItemCall.html">  227</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1RibbonMenuItemCall.html">RibbonMenuItemCall</a></div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>{</div>
-<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> Func&gt;</div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno"><a class="line" href="structMR_1_1RibbonMenuItemCall.html#a28920e01005bb5e0cb49786e36d3b0f8">  230</a></span>    <a class="code hl_function" href="structMR_1_1RibbonMenuItemCall.html#a28920e01005bb5e0cb49786e36d3b0f8">RibbonMenuItemCall</a>( Func f )</div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>    {</div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>        <span class="keyword">static_assert</span>( std::is_base_of_v&lt;RibbonMenuItem, T&gt; );</div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>        <span class="keyword">const</span> <span class="keyword">auto</span>&amp; items = <a class="code hl_function" href="classMR_1_1RibbonSchemaHolder.html#a07e8558bf86dd569ca7acedfbce55d9a">RibbonSchemaHolder::schema</a>().<a class="code hl_variable" href="structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1">items</a>;</div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>        <span class="keywordflow">for</span> ( <span class="keyword">const</span> <span class="keyword">auto</span>&amp; item : items )</div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>        {</div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>            <span class="keyword">auto</span> plugin = std::dynamic_pointer_cast&lt;T&gt;( item.second.item );</div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>            <span class="keywordflow">if</span> ( !plugin )</div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>            f( plugin );</div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>        }</div>
-<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>    }</div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>};</div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span> </div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno"><a class="line" href="MRRibbonMenu_8h.html#ad1709955819b9d2eb38aa06ebd34272c">  244</a></span><span class="preprocessor">#define MR_REGISTER_RIBBON_ITEM(pluginType) \</span></div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span><span class="preprocessor">    static MR::RibbonMenuItemAdder&lt;pluginType&gt; ribbonMenuItemAdder##pluginType##_;</span></div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span> </div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno"><a class="line" href="MRRibbonMenu_8h.html#a4ea105d3ac17c4b1cb3ac6451a5163fc">  247</a></span><span class="preprocessor">#define MR_RIBBON_ITEM_CALL(pluginType,func) \</span></div>
-<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span><span class="preprocessor">    static MR::RibbonMenuItemCall&lt;pluginType&gt; ribbonMenuItemCall##func##pluginType##_( func );</span></div>
-<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span> </div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>}</div>
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span> </div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span>... Args&gt;</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno"><a class="line" href="structMR_1_1RibbonMenuItemAdder.html#ac9c55c92d3f09cbbac3e248c4bd96b44">  220</a></span>    <a class="code hl_function" href="structMR_1_1RibbonMenuItemAdder.html#ac9c55c92d3f09cbbac3e248c4bd96b44">RibbonMenuItemAdder</a>(Args&amp;&amp;... args)</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>    {</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>        <span class="keyword">static_assert</span>( std::is_base_of_v&lt;RibbonMenuItem, T&gt; );</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>        <a class="code hl_function" href="classMR_1_1RibbonSchemaHolder.html#a1c3460f89faa5279890fe5b080a5726e">RibbonSchemaHolder::addItem</a>( std::make_shared&lt;T&gt;( std::forward&lt;Args&gt;(args)... ) );</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>    }</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>};</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span> </div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno"><a class="line" href="structMR_1_1RibbonMenuItemCall.html">  228</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1RibbonMenuItemCall.html">RibbonMenuItemCall</a></div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>{</div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> Func&gt;</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno"><a class="line" href="structMR_1_1RibbonMenuItemCall.html#a28920e01005bb5e0cb49786e36d3b0f8">  231</a></span>    <a class="code hl_function" href="structMR_1_1RibbonMenuItemCall.html#a28920e01005bb5e0cb49786e36d3b0f8">RibbonMenuItemCall</a>( Func f )</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>    {</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>        <span class="keyword">static_assert</span>( std::is_base_of_v&lt;RibbonMenuItem, T&gt; );</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>        <span class="keyword">const</span> <span class="keyword">auto</span>&amp; items = <a class="code hl_function" href="classMR_1_1RibbonSchemaHolder.html#a07e8558bf86dd569ca7acedfbce55d9a">RibbonSchemaHolder::schema</a>().<a class="code hl_variable" href="structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1">items</a>;</div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>        <span class="keywordflow">for</span> ( <span class="keyword">const</span> <span class="keyword">auto</span>&amp; item : items )</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>        {</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>            <span class="keyword">auto</span> plugin = std::dynamic_pointer_cast&lt;T&gt;( item.second.item );</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>            <span class="keywordflow">if</span> ( !plugin )</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>            f( plugin );</div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>        }</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>    }</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>};</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span> </div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno"><a class="line" href="MRRibbonMenu_8h.html#ad1709955819b9d2eb38aa06ebd34272c">  245</a></span><span class="preprocessor">#define MR_REGISTER_RIBBON_ITEM(pluginType) \</span></div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span><span class="preprocessor">    static MR::RibbonMenuItemAdder&lt;pluginType&gt; ribbonMenuItemAdder##pluginType##_;</span></div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span> </div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno"><a class="line" href="MRRibbonMenu_8h.html#a4ea105d3ac17c4b1cb3ac6451a5163fc">  248</a></span><span class="preprocessor">#define MR_RIBBON_ITEM_CALL(pluginType,func) \</span></div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span><span class="preprocessor">    static MR::RibbonMenuItemCall&lt;pluginType&gt; ribbonMenuItemCall##func##pluginType##_( func );</span></div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span> </div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>}</div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span> </div>
 <div class="ttc" id="aMRAsyncTimer_8h_html"><div class="ttname"><a href="MRAsyncTimer_8h.html">MRAsyncTimer.h</a></div></div>
 <div class="ttc" id="aMRMenu_8h_html"><div class="ttname"><a href="MRMenu_8h.html">MRMenu.h</a></div></div>
 <div class="ttc" id="aMRRibbonButtonDrawer_8h_html"><div class="ttname"><a href="MRRibbonButtonDrawer_8h.html">MRRibbonButtonDrawer.h</a></div></div>
@@ -415,9 +416,9 @@ $(document).ready(function(){initNavTree('MRRibbonMenu_8h_source.html',''); init
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
 <div class="ttc" id="astructMR_1_1MenuItemInfo_html"><div class="ttname"><a href="structMR_1_1MenuItemInfo.html">MR::MenuItemInfo</a></div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:24</div></div>
 <div class="ttc" id="astructMR_1_1RibbonMenuItemAdder_html"><div class="ttname"><a href="structMR_1_1RibbonMenuItemAdder.html">MR::RibbonMenuItemAdder</a></div><div class="ttdef"><b>Definition</b> MRRibbonMenu.h:218</div></div>
-<div class="ttc" id="astructMR_1_1RibbonMenuItemAdder_html_ac9e373fad8fe85ad8aa8d5ae2a51437e"><div class="ttname"><a href="structMR_1_1RibbonMenuItemAdder.html#ac9e373fad8fe85ad8aa8d5ae2a51437e">MR::RibbonMenuItemAdder::RibbonMenuItemAdder</a></div><div class="ttdeci">RibbonMenuItemAdder()</div><div class="ttdef"><b>Definition</b> MRRibbonMenu.h:219</div></div>
-<div class="ttc" id="astructMR_1_1RibbonMenuItemCall_html"><div class="ttname"><a href="structMR_1_1RibbonMenuItemCall.html">MR::RibbonMenuItemCall</a></div><div class="ttdef"><b>Definition</b> MRRibbonMenu.h:228</div></div>
-<div class="ttc" id="astructMR_1_1RibbonMenuItemCall_html_a28920e01005bb5e0cb49786e36d3b0f8"><div class="ttname"><a href="structMR_1_1RibbonMenuItemCall.html#a28920e01005bb5e0cb49786e36d3b0f8">MR::RibbonMenuItemCall::RibbonMenuItemCall</a></div><div class="ttdeci">RibbonMenuItemCall(Func f)</div><div class="ttdef"><b>Definition</b> MRRibbonMenu.h:230</div></div>
+<div class="ttc" id="astructMR_1_1RibbonMenuItemAdder_html_ac9c55c92d3f09cbbac3e248c4bd96b44"><div class="ttname"><a href="structMR_1_1RibbonMenuItemAdder.html#ac9c55c92d3f09cbbac3e248c4bd96b44">MR::RibbonMenuItemAdder::RibbonMenuItemAdder</a></div><div class="ttdeci">RibbonMenuItemAdder(Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition</b> MRRibbonMenu.h:220</div></div>
+<div class="ttc" id="astructMR_1_1RibbonMenuItemCall_html"><div class="ttname"><a href="structMR_1_1RibbonMenuItemCall.html">MR::RibbonMenuItemCall</a></div><div class="ttdef"><b>Definition</b> MRRibbonMenu.h:229</div></div>
+<div class="ttc" id="astructMR_1_1RibbonMenuItemCall_html_a28920e01005bb5e0cb49786e36d3b0f8"><div class="ttname"><a href="structMR_1_1RibbonMenuItemCall.html#a28920e01005bb5e0cb49786e36d3b0f8">MR::RibbonMenuItemCall::RibbonMenuItemCall</a></div><div class="ttdeci">RibbonMenuItemCall(Func f)</div><div class="ttdef"><b>Definition</b> MRRibbonMenu.h:231</div></div>
 <div class="ttc" id="astructMR_1_1RibbonMenu_1_1DialogItemPtr_html"><div class="ttname"><a href="structMR_1_1RibbonMenu_1_1DialogItemPtr.html">MR::RibbonMenu::DialogItemPtr</a></div><div class="ttdef"><b>Definition</b> MRRibbonMenu.h:110</div></div>
 <div class="ttc" id="astructMR_1_1RibbonMenu_1_1DialogItemPtr_html_aeb25a7d0ddadeeeda6f7ca36d711642b"><div class="ttname"><a href="structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b">MR::RibbonMenu::DialogItemPtr::item</a></div><div class="ttdeci">std::shared_ptr&lt; RibbonMenuItem &gt; item</div><div class="ttdef"><b>Definition</b> MRRibbonMenu.h:111</div></div>
 <div class="ttc" id="astructMR_1_1RibbonMenu_1_1DrawGroupConfig_html"><div class="ttname"><a href="structMR_1_1RibbonMenu_1_1DrawGroupConfig.html">MR::RibbonMenu::DrawGroupConfig</a></div><div class="ttdef"><b>Definition</b> MRRibbonMenu.h:89</div></div>

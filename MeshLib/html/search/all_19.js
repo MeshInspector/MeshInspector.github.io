@@ -8,5 +8,5 @@ var searchData=
   ['yrange_5',['yRange',['../structMR_1_1MeshToDistanceMapParams.html#a3273bae2c4c112688b441a6aa4d0e811',1,'MR::MeshToDistanceMapParams']]],
   ['yy_6',['yy',['../structMR_1_1SymMatrix2.html#a3f9de72646e2a2bbf46b9eb3a2691fc2',1,'MR::SymMatrix2::yy'],['../structMR_1_1SymMatrix3.html#ae811049caca3dc4cda97eb36c1b118a7',1,'MR::SymMatrix3::yy']]],
   ['yz_7',['yz',['../structMR_1_1SymMatrix3.html#a6ebdff1e289a9153c5bef3e6a7683b25',1,'MR::SymMatrix3']]],
-  ['yz_8',['YZ',['../group__VoxelPathGroup.html#gga4412ea17fd4bcca4ad23e987f61c20aba848c5fe5a26f3330bcbedda94181fc74',1,'MR']]]
+  ['yz_8',['YZ',['../group__VoxelPathGroup.html#gga4412ea17fd4bcca4ad23e987f61c20aba848c5fe5a26f3330bcbedda94181fc74',1,'MR::YZ'],['../namespaceMR.html#ae1af7aec8f28c8e85182ca94f5802435affa4ba973372c3650fd0881abeca6512',1,'MR::YZ']]]
 ];

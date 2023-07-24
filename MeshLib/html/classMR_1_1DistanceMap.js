@@ -4,6 +4,8 @@ var classMR_1_1DistanceMap =
     [ "DistanceMap", "classMR_1_1DistanceMap.html#a5ca222a772dcddb16e0ca704fdb91f4f", null ],
     [ "DistanceMap", "classMR_1_1DistanceMap.html#aa0529b95564bf62adb72c9ecda53188f", null ],
     [ "clear", "classMR_1_1DistanceMap.html#af17d14221a21a70499a859487ec1c66f", null ],
+    [ "data", "classMR_1_1DistanceMap.html#a38e9ddb4a58e01a2fee45968358c5098", null ],
+    [ "data", "classMR_1_1DistanceMap.html#a40ae747ad28a6f966d16e3359c140eb3", null ],
     [ "get", "classMR_1_1DistanceMap.html#a8a2738cef5f113ff90fa89f1743a0e5c", null ],
     [ "get", "classMR_1_1DistanceMap.html#a101a1b0a998a4c98f3c5fcbae8d9c593", null ],
     [ "getDerivativeMap", "classMR_1_1DistanceMap.html#a5fb9437de36ca41f9202cdbb15d3db9a", null ],

@@ -1,15 +1,6 @@
 var searchData=
 [
-  ['scalartype_0',['ScalarType',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529b',1,'MR::VoxelsLoad::RawParameters']]],
-  ['seedtype_1',['SeedType',['../classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5',1,'MR::VolumeSegmenter']]],
-  ['shadertype_2',['ShaderType',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748',1,'MR::GLStaticHolder']]],
-  ['side_3',['Side',['../group__AABBTreeGroup.html#ga494f6ca56c512e886474f7209f624c48',1,'MR']]],
-  ['signdetectionmode_4',['SignDetectionMode',['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309',1,'MR']]],
-  ['signeddetectionmethod_5',['SignedDetectionMethod',['../structMR_1_1ContoursDistanceMapOptions.html#a8338b4b187db812314a5890ccf5e6ec6',1,'MR::ContoursDistanceMapOptions']]],
-  ['sizetype_6',['SizeType',['../structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785ae',1,'MR::DrawButtonParams']]],
-  ['sliceplane_7',['SlicePlane',['../group__VoxelPathGroup.html#ga4412ea17fd4bcca4ad23e987f61c20ab',1,'MR']]],
-  ['spacemousebuttons_8',['SpaceMouseButtons',['../namespaceMR.html#acad54447072489545d11f4ee251429e6',1,'MR']]],
-  ['startposition_9',['StartPosition',['../classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39',1,'MR::CommandLoop']]],
-  ['stateplugintabs_10',['StatePluginTabs',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37',1,'MR']]],
-  ['streamtype_11',['StreamType',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1d',1,'MRPython.h']]]
+  ['texturetype_0',['TextureType',['../classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368',1,'MR::RibbonButtonDrawer']]],
+  ['tritype_1',['TriType',['../structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685',1,'MR::GridSettings']]],
+  ['type_2',['Type',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dc',1,'MR::SetViewPresetMenuItem::Type'],['../classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9d',1,'MR::SetViewportConfigPresetMenuItem::Type'],['../classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1',1,'MR::ChangeSceneAction::Type'],['../classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7',1,'MR::HistoryAction::Type'],['../structMR_1_1OffsetParameters.html#a34ac54dac63d30b0fae75a941b9b3fcd',1,'MR::OffsetParameters::Type'],['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3a',1,'MR::SceneColors::Type'],['../classMR_1_1SceneSettings.html#ae472fad9782abf0cb2c7c6526a059911',1,'MR::SceneSettings::Type'],['../structMR_1_1MeshToVolumeParams.html#a47dacbc5ca80bd9591ffea69c43b022e',1,'MR::MeshToVolumeParams::Type'],['../classMR_1_1ColorTheme.html#ad14d75ef685e439c80487ba1d4c41eca',1,'MR::ColorTheme::Type']]]
 ];

@@ -100,7 +100,6 @@ $(document).ready(function(){initNavTree('MRMeshProject_8h.html',''); initResiza
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRMeshProject.h File Reference</div></div>
 </div><!--header-->
@@ -109,6 +108,7 @@ $(document).ready(function(){initNavTree('MRMeshProject_8h.html',''); initResiza
 <code>#include &quot;<a class="el" href="MRMeshTriPoint_8h_source.html">MRMeshTriPoint.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMeshPart_8h_source.html">MRMeshPart.h</a>&quot;</code><br />
 <code>#include &lt;cfloat&gt;</code><br />
+<code>#include &lt;optional&gt;</code><br />
 </div>
 <p><a href="MRMeshProject_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -124,13 +124,6 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceMR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:ga494f6ca56c512e886474f7209f624c48"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga494f6ca56c512e886474f7209f624c48">MR::Side</a> { <a class="el" href="group__AABBTreeGroup.html#gga494f6ca56c512e886474f7209f624c48affb9356ff2b7da85c75c92fa7ea03b8b">MR::Side::Negative</a>
-, <a class="el" href="group__AABBTreeGroup.html#gga494f6ca56c512e886474f7209f624c48a3289297424e01eda5b788c083bbf3147">MR::Side::Positive</a>
- }</td></tr>
-<tr class="separator:ga494f6ca56c512e886474f7209f624c48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:gaca9ee6c07f32374a18e511487904370b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaca9ee6c07f32374a18e511487904370b">MR::findProjection</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pt, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float upDistLimitSq=FLT_MAX, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr, float loDistLimitSq=0, <a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> skipFace={})</td></tr>
@@ -139,8 +132,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga44d0cb5151cae38d27130277c50301bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1SignedDistanceToMeshResult.html">SignedDistanceToMeshResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga44d0cb5151cae38d27130277c50301bc">MR::findSignedDistance</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pt, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float upDistLimitSq=FLT_MAX, float loDistLimitSq=0)</td></tr>
 <tr class="memdesc:ga44d0cb5151cae38d27130277c50301bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point, and finds the distance with sign to it (positive - outside, negative - inside the mesh)  <br /></td></tr>
 <tr class="separator:ga44d0cb5151cae38d27130277c50301bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga05a892383a82bf14672be7e0cf62395f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga05a892383a82bf14672be7e0cf62395f">MR::findInnerShellVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;shell, <a class="el" href="group__AABBTreeGroup.html#ga494f6ca56c512e886474f7209f624c48">Side</a> side)</td></tr>
-<tr class="separator:ga05a892383a82bf14672be7e0cf62395f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
