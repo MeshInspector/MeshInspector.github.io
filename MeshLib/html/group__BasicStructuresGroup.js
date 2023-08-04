@@ -42,6 +42,7 @@ var group__BasicStructuresGroup =
       [ "heapBytes", "structMR_1_1OpenVdbFloatGrid.html#adb689224a478708a8f7813b0f13ba5a8", null ]
     ] ],
     [ "MR::ProgressCallback", "group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710", null ],
+    [ "MR::cropped", "group__BasicStructuresGroup.html#gaad38cba7aeb04fd9bff8ddc2d65b1fdb", null ],
     [ "MR::getValue", "group__BasicStructuresGroup.html#ga48faf7c6c25d26228794543bd08c803a", null ],
     [ "MR::heapBytes", "group__BasicStructuresGroup.html#gaed038f421518710e518a218a55c19621", null ],
     [ "MR::MakeFloatGrid", "group__BasicStructuresGroup.html#gae84dac6352423cd123a4f2aba32c3250", null ],

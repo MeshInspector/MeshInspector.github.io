@@ -1,5 +1,6 @@
 var MRFloatGrid_8h =
 [
+    [ "cropped", "MRFloatGrid_8h.html#gaad38cba7aeb04fd9bff8ddc2d65b1fdb", null ],
     [ "getValue", "MRFloatGrid_8h.html#ga48faf7c6c25d26228794543bd08c803a", null ],
     [ "heapBytes", "MRFloatGrid_8h.html#gaed038f421518710e518a218a55c19621", null ],
     [ "operator*=", "MRFloatGrid_8h.html#ga9e5ef38d39a3f24bd7f3db886f8b18a4", null ],

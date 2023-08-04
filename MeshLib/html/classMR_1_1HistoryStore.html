@@ -159,6 +159,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a45b3529c2a011c9abd585452550ac145"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1HistoryStore.html#a45b3529c2a011c9abd585452550ac145">getMemoryLimit</a> () const</td></tr>
 <tr class="memdesc:a45b3529c2a011c9abd585452550ac145"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns current memory limit for this store (by default uint64 max)  <br /></td></tr>
 <tr class="separator:a45b3529c2a011c9abd585452550ac145"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c72ca2143023fcef93b3e221d010c6d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#af3dc1bb8e4ca66f348d79f492f812233">HistoryActionsVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1HistoryStore.html#a6c72ca2143023fcef93b3e221d010c6d">getHistoryStack</a> () const</td></tr>
+<tr class="memdesc:a6c72ca2143023fcef93b3e221d010c6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns full history stack.  <br /></td></tr>
+<tr class="separator:a6c72ca2143023fcef93b3e221d010c6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68425383420b18f6c04f4405f2e4a1f5"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1HistoryStore.html#a68425383420b18f6c04f4405f2e4a1f5">getStackPointer</a> () const</td></tr>
+<tr class="memdesc:a68425383420b18f6c04f4405f2e4a1f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns index of first redo action in stack.  <br /></td></tr>
+<tr class="separator:a68425383420b18f6c04f4405f2e4a1f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af364f758f8c2ef66f70b83c0b8875885"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1HistoryStore.html#af364f758f8c2ef66f70b83c0b8875885">filterStack</a> (<a class="el" href="namespaceMR.html#ab273f85bdfe475fcbca1b38992b44580">HistoryStackFilter</a> filteringCondition, bool deepFiltering=true)</td></tr>
 <tr class="memdesc:af364f758f8c2ef66f70b83c0b8875885"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove some actions according to condition  <br /></td></tr>
 <tr class="separator:af364f758f8c2ef66f70b83c0b8875885"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -356,6 +362,33 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a6c72ca2143023fcef93b3e221d010c6d" name="a6c72ca2143023fcef93b3e221d010c6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c72ca2143023fcef93b3e221d010c6d">&#9670;&#160;</a></span>getHistoryStack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="namespaceMR.html#af3dc1bb8e4ca66f348d79f492f812233">HistoryActionsVector</a> &amp; MR::HistoryStore::getHistoryStack </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns full history stack. </p>
+
+</div>
+</div>
 <a id="a7b6245b811406cce1c50ed2792df6300" name="a7b6245b811406cce1c50ed2792df6300"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7b6245b811406cce1c50ed2792df6300">&#9670;&#160;</a></span>getLastActionName()</h2>
 
@@ -457,6 +490,33 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns actions made in scope. </p>
+
+</div>
+</div>
+<a id="a68425383420b18f6c04f4405f2e4a1f5" name="a68425383420b18f6c04f4405f2e4a1f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68425383420b18f6c04f4405f2e4a1f5">&#9670;&#160;</a></span>getStackPointer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::HistoryStore::getStackPointer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns index of first redo action in stack. </p>
 
 </div>
 </div>

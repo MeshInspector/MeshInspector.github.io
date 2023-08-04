@@ -243,11 +243,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a087e309d5f0b9a28c106038d206f8d53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a087e309d5f0b9a28c106038d206f8d53">addVertId</a> ()</td></tr>
 <tr class="memdesc:a087e309d5f0b9a28c106038d206f8d53"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates new vert-id not associated with any edge yet  <br /></td></tr>
 <tr class="separator:a087e309d5f0b9a28c106038d206f8d53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36c8997b06c1293a066fb50ea8b2d712"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a36c8997b06c1293a066fb50ea8b2d712">vertResize</a> (size_t newSize)</td></tr>
-<tr class="memdesc:a36c8997b06c1293a066fb50ea8b2d712"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicitly increases the size of verts vector  <br /></td></tr>
-<tr class="separator:a36c8997b06c1293a066fb50ea8b2d712"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34a026e67d8b560cbc958b1df2867453"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a34a026e67d8b560cbc958b1df2867453">vertResize</a> (size_t newSize)</td></tr>
+<tr class="memdesc:a34a026e67d8b560cbc958b1df2867453"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicitly increases the size of vertices vector  <br /></td></tr>
+<tr class="separator:a34a026e67d8b560cbc958b1df2867453"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa220c6db1c92dea65d516671bfbbdd1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#aa220c6db1c92dea65d516671bfbbdd1f">vertResizeWithReserve</a> (size_t newSize)</td></tr>
+<tr class="memdesc:aa220c6db1c92dea65d516671bfbbdd1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicitly increases the size of vertices vector, doubling the current capacity if it was not enough  <br /></td></tr>
+<tr class="separator:aa220c6db1c92dea65d516671bfbbdd1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9a39211dd0a82528351dee2fe575817"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#ac9a39211dd0a82528351dee2fe575817">vertReserve</a> (size_t newCapacity)</td></tr>
-<tr class="memdesc:ac9a39211dd0a82528351dee2fe575817"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the capacity of verts vector  <br /></td></tr>
+<tr class="memdesc:ac9a39211dd0a82528351dee2fe575817"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the capacity of vertices vector  <br /></td></tr>
 <tr class="separator:ac9a39211dd0a82528351dee2fe575817"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b16ab4e052fe4ad4ff4a7dd1ac4c01f"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a2b16ab4e052fe4ad4ff4a7dd1ac4c01f">vertSize</a> () const</td></tr>
 <tr class="memdesc:a2b16ab4e052fe4ad4ff4a7dd1ac4c01f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of vertex records including invalid ones  <br /></td></tr>
@@ -300,9 +303,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab882ba6250859e1ba7437149efd6a4a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#ab882ba6250859e1ba7437149efd6a4a7">deleteFaces</a> (const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;fs)</td></tr>
 <tr class="memdesc:ab882ba6250859e1ba7437149efd6a4a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes multiple given faces  <br /></td></tr>
 <tr class="separator:ab882ba6250859e1ba7437149efd6a4a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a22972e251180aa6466d2ea6c6f6b80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a2a22972e251180aa6466d2ea6c6f6b80">faceResize</a> (size_t newSize)</td></tr>
-<tr class="memdesc:a2a22972e251180aa6466d2ea6c6f6b80"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicitly increases the size of faces vector  <br /></td></tr>
-<tr class="separator:a2a22972e251180aa6466d2ea6c6f6b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae99d0e04914299aff8d1266ae22c02eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#ae99d0e04914299aff8d1266ae22c02eb">faceResize</a> (size_t newSize)</td></tr>
+<tr class="memdesc:ae99d0e04914299aff8d1266ae22c02eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicitly increases the size of faces vector  <br /></td></tr>
+<tr class="separator:ae99d0e04914299aff8d1266ae22c02eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ea6cf9a730f10c9a99cb768c9be48f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a1ea6cf9a730f10c9a99cb768c9be48f7">faceResizeWithReserve</a> (size_t newSize)</td></tr>
+<tr class="memdesc:a1ea6cf9a730f10c9a99cb768c9be48f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicitly increases the size of faces vector, doubling the current capacity if it was not enough  <br /></td></tr>
+<tr class="separator:a1ea6cf9a730f10c9a99cb768c9be48f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26bf81ee58d7f26387953a726a08f0a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshTopology.html#a26bf81ee58d7f26387953a726a08f0a7">faceReserve</a> (size_t newCapacity)</td></tr>
 <tr class="memdesc:a26bf81ee58d7f26387953a726a08f0a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the capacity of faces vector  <br /></td></tr>
 <tr class="separator:a26bf81ee58d7f26387953a726a08f0a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1424,31 +1430,43 @@ template&lt;typename I &gt; </div>
 
 </div>
 </div>
-<a id="a2a22972e251180aa6466d2ea6c6f6b80" name="a2a22972e251180aa6466d2ea6c6f6b80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a22972e251180aa6466d2ea6c6f6b80">&#9670;&#160;</a></span>faceResize()</h2>
+<a id="ae99d0e04914299aff8d1266ae22c02eb" name="ae99d0e04914299aff8d1266ae22c02eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae99d0e04914299aff8d1266ae22c02eb">&#9670;&#160;</a></span>faceResize()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::MeshTopology::faceResize </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::MeshTopology::faceResize </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>newSize</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>explicitly increases the size of faces vector </p>
+
+</div>
+</div>
+<a id="a1ea6cf9a730f10c9a99cb768c9be48f7" name="a1ea6cf9a730f10c9a99cb768c9be48f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ea6cf9a730f10c9a99cb768c9be48f7">&#9670;&#160;</a></span>faceResizeWithReserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::MeshTopology::faceResizeWithReserve </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>newSize</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>explicitly increases the size of faces vector, doubling the current capacity if it was not enough </p>
 
 </div>
 </div>
@@ -4154,35 +4172,47 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>sets the capacity of verts vector </p>
+<p>sets the capacity of vertices vector </p>
 
 </div>
 </div>
-<a id="a36c8997b06c1293a066fb50ea8b2d712" name="a36c8997b06c1293a066fb50ea8b2d712"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36c8997b06c1293a066fb50ea8b2d712">&#9670;&#160;</a></span>vertResize()</h2>
+<a id="a34a026e67d8b560cbc958b1df2867453" name="a34a026e67d8b560cbc958b1df2867453"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34a026e67d8b560cbc958b1df2867453">&#9670;&#160;</a></span>vertResize()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::MeshTopology::vertResize </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::MeshTopology::vertResize </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>newSize</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>explicitly increases the size of verts vector </p>
+<p>explicitly increases the size of vertices vector </p>
+
+</div>
+</div>
+<a id="aa220c6db1c92dea65d516671bfbbdd1f" name="aa220c6db1c92dea65d516671bfbbdd1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa220c6db1c92dea65d516671bfbbdd1f">&#9670;&#160;</a></span>vertResizeWithReserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::MeshTopology::vertResizeWithReserve </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>newSize</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>explicitly increases the size of vertices vector, doubling the current capacity if it was not enough </p>
 
 </div>
 </div>

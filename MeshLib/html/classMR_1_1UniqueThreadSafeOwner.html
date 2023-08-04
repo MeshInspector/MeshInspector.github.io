@@ -129,6 +129,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae534b2090bbb82c6fee33efc2f3c0c34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UniqueThreadSafeOwner.html#ae534b2090bbb82c6fee33efc2f3c0c34">getOrCreate</a> (const std::function&lt; T()&gt; &amp;creator)</td></tr>
 <tr class="memdesc:ae534b2090bbb82c6fee33efc2f3c0c34"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns existing owned object or creates new one using creator function  <br /></td></tr>
 <tr class="separator:ae534b2090bbb82c6fee33efc2f3c0c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a116e9e31af9a5c5fb15cf8d9278226b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UniqueThreadSafeOwner.html#a116e9e31af9a5c5fb15cf8d9278226b1">update</a> (const std::function&lt; void(T &amp;)&gt; &amp;updater)</td></tr>
+<tr class="memdesc:a116e9e31af9a5c5fb15cf8d9278226b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls given updater for the owned object (if any)  <br /></td></tr>
+<tr class="separator:a116e9e31af9a5c5fb15cf8d9278226b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a6144337b7f7991fae893818231e943"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UniqueThreadSafeOwner.html#a6a6144337b7f7991fae893818231e943">heapBytes</a> () const</td></tr>
 <tr class="memdesc:a6a6144337b7f7991fae893818231e943"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:a6a6144337b7f7991fae893818231e943"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -362,6 +365,28 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>deletes owned object </p>
+
+</div>
+</div>
+<a id="a116e9e31af9a5c5fb15cf8d9278226b1" name="a116e9e31af9a5c5fb15cf8d9278226b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a116e9e31af9a5c5fb15cf8d9278226b1">&#9670;&#160;</a></span>update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void <a class="el" href="classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a>&lt; T &gt;::update </td>
+          <td>(</td>
+          <td class="paramtype">const std::function&lt; void(T &amp;)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>updater</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>calls given updater for the owned object (if any) </p>
 
 </div>
 </div>

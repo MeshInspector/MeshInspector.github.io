@@ -245,6 +245,8 @@ var group__BasicGroup =
     [ "MR::heapBytes", "group__BasicGroup.html#gac4cf85680ec3620cb08726ea6668e99a", null ],
     [ "MR::heapBytes", "group__BasicGroup.html#ga6f62a19a1892f63b5d147de8ef2160c0", null ],
     [ "MR::heapBytes", "group__BasicGroup.html#ga2442ef2afa7012af6ca21ebcb6604536", null ],
+    [ "MR::makePredicate", "group__BasicGroup.html#ga5cf6c8bfca2b46c09c612ee5beff6772", null ],
+    [ "MR::makePredicate", "group__BasicGroup.html#ga88c10cdc1bac1ea496801bc6381969da", null ],
     [ "MR::operator!=", "group__BasicGroup.html#gafac0380481de66cc94765087e17be65d", null ],
     [ "MR::operator&", "group__BasicGroup.html#ga4383c7ccfb257c9434fe3e9e0b59a27b", null ],
     [ "MR::operator&", "group__BasicGroup.html#gae70a557635a7762a3d3f277f854cde72", null ],

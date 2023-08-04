@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['name_0',['Name',['../structMR_1_1VisualizeMaskType.html#a760df718dc7458d8d3203d5b8b65454cab72b78c3e9e37ca07d93dccb6678f264',1,'MR::VisualizeMaskType']]],
+  ['name_0',['Name',['../structMR_1_1VisualizeMaskType.html#a2d46e7b6609b8aef605bf534d22dbd25ab72b78c3e9e37ca07d93dccb6678f264',1,'MR::VisualizeMaskType']]],
   ['negative_1',['Negative',['../namespaceMR.html#a494f6ca56c512e886474f7209f624c48affb9356ff2b7da85c75c92fa7ea03b8b',1,'MR']]],
   ['never_2',['Never',['../namespaceMR.html#ae3249e80a5322781826980a69c28aee6a6e7b34fa59e1bd229b207892956dc41c',1,'MR']]],
   ['no_3',['No',['../classMR_1_1Laplacian.html#a67c8dfc7669f41712a92d21d5ec99fedabafd7322c6e97d25b6299b5d6fe8920b',1,'MR::Laplacian::No'],['../namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffabafd7322c6e97d25b6299b5d6fe8920b',1,'MR::No']]],

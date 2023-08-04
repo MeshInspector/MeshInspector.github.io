@@ -227,8 +227,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3030960f5dc232bd41c57fe87f656859"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5cdfa4b3ae5557096a94850b4891b66a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a5cdfa4b3ae5557096a94850b4891b66a">setLabelsColorsForAllViewports</a> (<a class="el" href="classMR_1_1ViewportProperty.html">ViewportProperty</a>&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; val)</td></tr>
 <tr class="separator:a5cdfa4b3ae5557096a94850b4891b66a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cf68798f947d65d5173c8bbec3059e3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a8cf68798f947d65d5173c8bbec3059e3">setDirtyFlags</a> (uint32_t mask)</td></tr>
-<tr class="separator:a8cf68798f947d65d5173c8bbec3059e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e72e4b693ea9b28b46b5928167f0e74"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a3e72e4b693ea9b28b46b5928167f0e74">setDirtyFlags</a> (uint32_t mask, bool invalidateCaches=true)</td></tr>
+<tr class="separator:a3e72e4b693ea9b28b46b5928167f0e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6411458c4cd7d098c12adaea27568db7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a6411458c4cd7d098c12adaea27568db7">getDirtyFlags</a> () const</td></tr>
 <tr class="memdesc:a6411458c4cd7d098c12adaea27568db7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns current dirty flags for the object  <br /></td></tr>
 <tr class="separator:a6411458c4cd7d098c12adaea27568db7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1845,8 +1845,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a8cf68798f947d65d5173c8bbec3059e3" name="a8cf68798f947d65d5173c8bbec3059e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cf68798f947d65d5173c8bbec3059e3">&#9670;&#160;</a></span>setDirtyFlags()</h2>
+<a id="a3e72e4b693ea9b28b46b5928167f0e74" name="a3e72e4b693ea9b28b46b5928167f0e74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e72e4b693ea9b28b46b5928167f0e74">&#9670;&#160;</a></span>setDirtyFlags()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1858,8 +1858,18 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::VisualObject::setDirtyFlags </td>
           <td>(</td>
           <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>mask</em></td><td>)</td>
+          <td class="paramname"><em>mask</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>invalidateCaches</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -1871,11 +1881,12 @@ Additional Inherited Members</h2></td></tr>
 <p>sets some dirty flags for the object (to force its visual update) </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mask</td><td>is a union of DirtyFlags flags </td></tr>
+    <tr><td class="paramname">invalidateCaches</td><td>whether to automatically invalidate model caches (pass false here if you manually update the caches) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1ObjectGcode.html#ade099958050fe9ce7489447604a80f47">MR::ObjectGcode</a>, <a class="el" href="classMR_1_1ObjectLines.html#a585e0f5bb1c43d066c8f11b1955342fc">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectLinesHolder.html#aab41d34f2f2047cbc0b3bce7a0a133c9">MR::ObjectLinesHolder</a>, <a class="el" href="classMR_1_1ObjectMesh.html#a7f5ea0312443a27e09e0a47e96074bdb">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectMeshHolder.html#adb4a30214ea70abcd8c4011f5d5fa3cf">MR::ObjectMeshHolder</a>, <a class="el" href="classMR_1_1ObjectPoints.html#a32a35f6550738e18cde9aa21e49ccda1">MR::ObjectPoints</a>, <a class="el" href="classMR_1_1ObjectPointsHolder.html#a544fb3212bc89e7b126276349ee43b59">MR::ObjectPointsHolder</a>, and <a class="el" href="classMR_1_1ObjectVoxels.html#a62f604cd208a8d89e61015edc053d9d2">MR::ObjectVoxels</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1ObjectGcode.html#abd8d7ffd2cdeeac5474265b72f7a8ad7">MR::ObjectGcode</a>, <a class="el" href="classMR_1_1ObjectLines.html#ac6772461cf43608224ac2b34d3b2edfc">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectLinesHolder.html#a4693af2f58656c85b0fe600e323273ff">MR::ObjectLinesHolder</a>, <a class="el" href="classMR_1_1ObjectMesh.html#a9fa73d57a65988330b1a02591e750953">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectMeshHolder.html#a263df6d53d2c8a082a9fc691c248ec46">MR::ObjectMeshHolder</a>, <a class="el" href="classMR_1_1ObjectPoints.html#a59ae83edd6536296039f464a9eabe54e">MR::ObjectPoints</a>, <a class="el" href="classMR_1_1ObjectPointsHolder.html#a29d230eab5ae9ef093a8d9f9878ecb6a">MR::ObjectPointsHolder</a>, and <a class="el" href="classMR_1_1ObjectVoxels.html#a26333ef8976d7ed8b8c57137bacce2f5">MR::ObjectVoxels</a>.</p>
 
 </div>
 </div>

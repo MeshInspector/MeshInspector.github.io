@@ -4,6 +4,7 @@ var structMR_1_1ToolPathParams =
     [ "bypassDir", "structMR_1_1ToolPathParams.html#a50c755eddaa84d57053b8b2ac05090c7", null ],
     [ "cb", "structMR_1_1ToolPathParams.html#abb16295f5fc43829c45884d061d45e62", null ],
     [ "critTransitionLength", "structMR_1_1ToolPathParams.html#a24c0b4801961990c4c8e6b4003bf2bb2", null ],
+    [ "flatTool", "structMR_1_1ToolPathParams.html#adacfd8b713ae1664619abcff9d04fead", null ],
     [ "millRadius", "structMR_1_1ToolPathParams.html#ab01ce27f18a97921bbeb33127a0412a5", null ],
     [ "plungeFeed", "structMR_1_1ToolPathParams.html#aa71afd75559878444cd6f66becaed0c4", null ],
     [ "plungeLength", "structMR_1_1ToolPathParams.html#a7e16eeb5e2862d7ee09d5314b784cd4a", null ],

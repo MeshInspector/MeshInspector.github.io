@@ -166,6 +166,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SignedDistanceToMeshResult.html">MR::SignedDistanceToMeshResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointsProjectionResult.html">MR::PointsProjectionResult</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PolylineProjectionResult.html">MR::PolylineProjectionResult&lt; V &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PolylineProjectionWithOffsetResult.html">MR::PolylineProjectionWithOffsetResult&lt; V &gt;</a></td></tr>
@@ -317,8 +319,13 @@ Functions</h2></td></tr>
 <tr class="separator:ga44d0cb5151cae38d27130277c50301bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5c540a8264b2d4cd39a35ce8600e873e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga5c540a8264b2d4cd39a35ce8600e873e">MR::findPointsInBall</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;center, float radius, const <a class="el" href="namespaceMR.html#ac4f1361c3362959c175d914a777b236d">FoundPointCallback</a> &amp;foundCallback, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr)</td></tr>
 <tr class="separator:ga5c540a8264b2d4cd39a35ce8600e873e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga47bd19da135ff2a820eebd760da392a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga47bd19da135ff2a820eebd760da392a3">MR::findPointsInBall</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;center, float radius, const <a class="el" href="namespaceMR.html#ac4f1361c3362959c175d914a777b236d">FoundPointCallback</a> &amp;foundCallback, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr)</td></tr>
+<tr class="separator:ga47bd19da135ff2a820eebd760da392a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga80e8bb354705c40373b5a8a3d1a3376c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga80e8bb354705c40373b5a8a3d1a3376c">MR::findPointsInBall</a> (const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;tree, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;center, float radius, const <a class="el" href="namespaceMR.html#ac4f1361c3362959c175d914a777b236d">FoundPointCallback</a> &amp;foundCallback, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr)</td></tr>
 <tr class="separator:ga80e8bb354705c40373b5a8a3d1a3376c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga91f4a4e75eedf94f3028f574f0028dfb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PointsProjectionResult.html">PointsProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga91f4a4e75eedf94f3028f574f0028dfb">MR::findProjectionOnPoints</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pt, const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pc, float upDistLimitSq=FLT_MAX, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr, float loDistLimitSq=0)</td></tr>
+<tr class="memdesc:ga91f4a4e75eedf94f3028f574f0028dfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on point cloud to given point  <br /></td></tr>
+<tr class="separator:ga91f4a4e75eedf94f3028f574f0028dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga15a3e18d2098f8ff33e67776a221e6fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1EdgePointPair.html">EdgePointPair</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga15a3e18d2098f8ff33e67776a221e6fb">MR::findCollidingEdgePairs</a> (const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;a, const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;b, const <a class="el" href="namespaceMR.html#aaf5a1eb99830c5d7196aa5bf3a05f70e">AffineXf2f</a> *rigidB2A=nullptr, bool firstIntersectionOnly=false)</td></tr>
 <tr class="memdesc:ga15a3e18d2098f8ff33e67776a221e6fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding edges from two 2d polylines  <br /></td></tr>
 <tr class="separator:ga15a3e18d2098f8ff33e67776a221e6fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1478,7 +1485,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="ga80e8bb354705c40373b5a8a3d1a3376c" name="ga80e8bb354705c40373b5a8a3d1a3376c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga80e8bb354705c40373b5a8a3d1a3376c">&#9670;&#160;</a></span>findPointsInBall() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga80e8bb354705c40373b5a8a3d1a3376c">&#9670;&#160;</a></span>findPointsInBall() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1530,8 +1537,61 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="ga47bd19da135ff2a820eebd760da392a3" name="ga47bd19da135ff2a820eebd760da392a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga47bd19da135ff2a820eebd760da392a3">&#9670;&#160;</a></span>findPointsInBall() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::findPointsInBall </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>center</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ac4f1361c3362959c175d914a777b236d">FoundPointCallback</a> &amp;&#160;</td>
+          <td class="paramname"><em>foundCallback</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *&#160;</td>
+          <td class="paramname"><em>xf</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Finds all valid points of the mesh that are inside or on the surface of given ball (center, radius)</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xf</td><td>points-to-center transformation, if not specified then identity transformation is assumed </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ga5c540a8264b2d4cd39a35ce8600e873e" name="ga5c540a8264b2d4cd39a35ce8600e873e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5c540a8264b2d4cd39a35ce8600e873e">&#9670;&#160;</a></span>findPointsInBall() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5c540a8264b2d4cd39a35ce8600e873e">&#9670;&#160;</a></span>findPointsInBall() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1763,6 +1823,62 @@ template&lt;typename T &gt; </div>
   <table class="params">
     <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the distance in question, if the real distance is larger than the function exists returning upDistLimitSq and no valid point </td></tr>
     <tr><td class="paramname">xf</td><td>polyline-to-point transformation, if not specified then identity transformation is assumed </td></tr>
+    <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga91f4a4e75eedf94f3028f574f0028dfb" name="ga91f4a4e75eedf94f3028f574f0028dfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga91f4a4e75eedf94f3028f574f0028dfb">&#9670;&#160;</a></span>findProjectionOnPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PointsProjectionResult.html">PointsProjectionResult</a> MR::findProjectionOnPoints </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>pt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;&#160;</td>
+          <td class="paramname"><em>pc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>upDistLimitSq</em> = <code>FLT_MAX</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *&#160;</td>
+          <td class="paramname"><em>xf</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>loDistLimitSq</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>computes the closest point on point cloud to given point </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the distance in question, if the real distance is larger than the function exits returning upDistLimitSq and no valid point </td></tr>
+    <tr><td class="paramname">xf</td><td>pointcloud-to-point transformation, if not specified then identity transformation is assumed </td></tr>
     <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one </td></tr>
   </table>
   </dd>

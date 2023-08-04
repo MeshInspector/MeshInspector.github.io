@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('MRViewport_8h.html',''); initResizable
 <code>#include &quot;<a class="el" href="MRIRenderObject_8h_source.html">MRMesh/MRIRenderObject.h</a>&quot;</code><br />
 <code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRMesh/MRVector3.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRPlane3_8h_source.html">MRMesh/MRPlane3.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="MRPointOnFace_8h_source.html">MRMesh/MRPointOnFace.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRPointOnObject_8h_source.html">MRMesh/MRPointOnObject.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRViewportId_8h_source.html">MRMesh/MRViewportId.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRQuaternion_8h_source.html">MRMesh/MRQuaternion.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRMatrix4_8h_source.html">MRMesh/MRMatrix4.h</a>&gt;</code><br />
@@ -142,10 +142,10 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:af85934a86dc22ba72bd4c0e3ef20c19a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRViewport_8h.html#af85934a86dc22ba72bd4c0e3ef20c19a">ObjAndPick</a> = std::pair&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a> &gt;, <a class="el" href="structMR_1_1PointOnFace.html">MR::PointOnFace</a> &gt;</td></tr>
-<tr class="separator:af85934a86dc22ba72bd4c0e3ef20c19a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a644688f2af4d550fac6d7bbeb67423a7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRViewport_8h.html#a644688f2af4d550fac6d7bbeb67423a7">ConstObjAndPick</a> = std::pair&lt; std::shared_ptr&lt; const <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a> &gt;, <a class="el" href="structMR_1_1PointOnFace.html">MR::PointOnFace</a> &gt;</td></tr>
-<tr class="separator:a644688f2af4d550fac6d7bbeb67423a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3c0d5e71a46bda98d8fd895def98a22"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRViewport_8h.html#af3c0d5e71a46bda98d8fd895def98a22">ObjAndPick</a> = std::pair&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a> &gt;, <a class="el" href="structMR_1_1PointOnObject.html">MR::PointOnObject</a> &gt;</td></tr>
+<tr class="separator:af3c0d5e71a46bda98d8fd895def98a22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a195427de5de84209ae90d566bf795c0d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRViewport_8h.html#a195427de5de84209ae90d566bf795c0d">ConstObjAndPick</a> = std::pair&lt; std::shared_ptr&lt; const <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a> &gt;, <a class="el" href="structMR_1_1PointOnObject.html">MR::PointOnObject</a> &gt;</td></tr>
+<tr class="separator:a195427de5de84209ae90d566bf795c0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3970a3c191ff7a139d0e2ed05f27eeb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af3970a3c191ff7a139d0e2ed05f27eeb">MR::ViewportRectangle</a> = <a class="el" href="namespaceMR.html#ad75c0635deec32a715320eec3cb9157e">Box2f</a></td></tr>
 <tr class="separator:af3970a3c191ff7a139d0e2ed05f27eeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -160,28 +160,28 @@ Functions</h2></td></tr>
 <tr class="separator:a8f5fb86a1540069cb56260e0edbde09e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="a644688f2af4d550fac6d7bbeb67423a7" name="a644688f2af4d550fac6d7bbeb67423a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a644688f2af4d550fac6d7bbeb67423a7">&#9670;&#160;</a></span>ConstObjAndPick</h2>
+<a id="a195427de5de84209ae90d566bf795c0d" name="a195427de5de84209ae90d566bf795c0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a195427de5de84209ae90d566bf795c0d">&#9670;&#160;</a></span>ConstObjAndPick</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="MRViewport_8h.html#a644688f2af4d550fac6d7bbeb67423a7">ConstObjAndPick</a> =  std::pair&lt;std::shared_ptr&lt;const <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a>&gt;, <a class="el" href="structMR_1_1PointOnFace.html">MR::PointOnFace</a>&gt;</td>
+          <td class="memname">using <a class="el" href="MRViewport_8h.html#a195427de5de84209ae90d566bf795c0d">ConstObjAndPick</a> =  std::pair&lt;std::shared_ptr&lt;const <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a>&gt;, <a class="el" href="structMR_1_1PointOnObject.html">MR::PointOnObject</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="af85934a86dc22ba72bd4c0e3ef20c19a" name="af85934a86dc22ba72bd4c0e3ef20c19a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af85934a86dc22ba72bd4c0e3ef20c19a">&#9670;&#160;</a></span>ObjAndPick</h2>
+<a id="af3c0d5e71a46bda98d8fd895def98a22" name="af3c0d5e71a46bda98d8fd895def98a22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3c0d5e71a46bda98d8fd895def98a22">&#9670;&#160;</a></span>ObjAndPick</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="MRViewport_8h.html#af85934a86dc22ba72bd4c0e3ef20c19a">ObjAndPick</a> =  std::pair&lt;std::shared_ptr&lt;<a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a>&gt;, <a class="el" href="structMR_1_1PointOnFace.html">MR::PointOnFace</a>&gt;</td>
+          <td class="memname">using <a class="el" href="MRViewport_8h.html#af3c0d5e71a46bda98d8fd895def98a22">ObjAndPick</a> =  std::pair&lt;std::shared_ptr&lt;<a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a>&gt;, <a class="el" href="structMR_1_1PointOnObject.html">MR::PointOnObject</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">

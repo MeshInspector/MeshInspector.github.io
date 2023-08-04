@@ -11,7 +11,7 @@ var classMR_1_1ObjectPoints =
     [ "getInfoLines", "classMR_1_1ObjectPoints.html#a8a5af21a0ab52a2d7f2464ba3e3f8131", null ],
     [ "operator=", "classMR_1_1ObjectPoints.html#a5831e567d62ac9ac7959897b98ee75ae", null ],
     [ "serializeFields_", "classMR_1_1ObjectPoints.html#a6e93d56966cf8c7d956767173ee17eae", null ],
-    [ "setDirtyFlags", "classMR_1_1ObjectPoints.html#a32a35f6550738e18cde9aa21e49ccda1", null ],
+    [ "setDirtyFlags", "classMR_1_1ObjectPoints.html#a59ae83edd6536296039f464a9eabe54e", null ],
     [ "setPointCloud", "classMR_1_1ObjectPoints.html#ac7133f9317fd79fe3af1c4c4f58e0865", null ],
     [ "shallowClone", "classMR_1_1ObjectPoints.html#a0204d43ba94c12cd5f8e20ef283315d2", null ],
     [ "swapBase_", "classMR_1_1ObjectPoints.html#a7cbf8f6689936307fe71452da91038a4", null ],

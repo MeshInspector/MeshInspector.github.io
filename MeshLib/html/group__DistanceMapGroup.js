@@ -65,6 +65,7 @@ var group__DistanceMapGroup =
     [ "MR::MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html", [
       [ "MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html#acea3bbf8d8d0c8750d496ed6934725de", null ],
       [ "MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html#acd9523a7ea030a77856bbadf789bd132", null ],
+      [ "MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html#adda331f5bf606eb9b53caf3c558a995e", null ],
       [ "MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html#a0c6ccd10574471e4af8efbc69fafa6e8", null ],
       [ "MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html#a14db6d93dcb7499b5254dcfdca3449da", null ],
       [ "MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html#a9cd65a60a7f447243861fb42df431beb", null ],
@@ -130,8 +131,8 @@ var group__DistanceMapGroup =
       [ "MR::OutEdge2::Count", "group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "MR::combineXYderivativeMaps", "group__DistanceMapGroup.html#ga27435b7d8c5a7876aa45b60ea840b353", null ],
-    [ "MR::computeDistanceMap", "group__DistanceMapGroup.html#ga60d4a6a9da9891fba210467cdcef62d5", null ],
-    [ "MR::computeDistanceMapD", "group__DistanceMapGroup.html#gac217bd3e043a81e7657143256a6ded75", null ],
+    [ "MR::computeDistanceMap", "group__DistanceMapGroup.html#gaf972733cbe1eca39d0f85671e30b514c", null ],
+    [ "MR::computeDistanceMapD", "group__DistanceMapGroup.html#ga8f2c4ae318d14a691410a43d5c1c0ee4", null ],
     [ "MR::contourIntersection", "group__DistanceMapGroup.html#ga8461963f3447f163979179222275114c", null ],
     [ "MR::contourSubtract", "group__DistanceMapGroup.html#ga9ec7f0e4e736da31de012ad0e33f6b33", null ],
     [ "MR::contourUnion", "group__DistanceMapGroup.html#ga59af0939e79330f4ef6bcc99c74c196b", null ],

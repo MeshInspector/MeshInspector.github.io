@@ -59,7 +59,7 @@ var group__VisualObjectGroup =
       [ "setBackColor", "classMR_1_1VisualObject.html#a469ac6da4b8c323e12d0d78943831a4e", null ],
       [ "setBackColorsForAllViewports", "classMR_1_1VisualObject.html#a6b7e8cf2909d71a7537a47028f77913a", null ],
       [ "setColoringType", "classMR_1_1VisualObject.html#a8d339ad1cf1735f90773b4f8b89e9059", null ],
-      [ "setDirtyFlags", "classMR_1_1VisualObject.html#a8cf68798f947d65d5173c8bbec3059e3", null ],
+      [ "setDirtyFlags", "classMR_1_1VisualObject.html#a3e72e4b693ea9b28b46b5928167f0e74", null ],
       [ "setFrontColor", "classMR_1_1VisualObject.html#a0d1a64b6bed894b4236b06ac732dfd74", null ],
       [ "setFrontColorsForAllViewports", "classMR_1_1VisualObject.html#ac8fd310ffa1926e733e28b521f658778", null ],
       [ "setGlobalAlpha", "classMR_1_1VisualObject.html#a985084dc83b837ab048114f5f4bacae2", null ],

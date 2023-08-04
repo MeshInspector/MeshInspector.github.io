@@ -120,6 +120,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ac22dd26860cd94e68e46004cd88fc7ce"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#ac22dd26860cd94e68e46004cd88fc7ce">maxAngleChangeAfterFlip</a> = 10</td></tr>
 <tr class="memdesc:ac22dd26860cd94e68e46004cd88fc7ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Improves local mesh triangulation by doing edge flips if it does change dihedral angle more than on this value.  <br /></td></tr>
 <tr class="separator:ac22dd26860cd94e68e46004cd88fc7ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a772aa28ef31f33140c7b3f6bfbc36d30"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#a772aa28ef31f33140c7b3f6bfbc36d30">criticalAspectRatioFlip</a> = 1000.0f</td></tr>
+<tr class="separator:a772aa28ef31f33140c7b3f6bfbc36d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e24bf5e1bf140cdfac3cc68b9a693fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#a5e24bf5e1bf140cdfac3cc68b9a693fa">region</a> = nullptr</td></tr>
 <tr class="memdesc:a5e24bf5e1bf140cdfac3cc68b9a693fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Region on mesh to be subdivided, it is updated during the operation.  <br /></td></tr>
 <tr class="separator:a5e24bf5e1bf140cdfac3cc68b9a693fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,6 +163,21 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>If subdivideBorder is off subdivider can produce narrow triangles near border<br  />
 this parameter prevents subdivision of such triangles </p>
+
+</div>
+</div>
+<a id="a772aa28ef31f33140c7b3f6bfbc36d30" name="a772aa28ef31f33140c7b3f6bfbc36d30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a772aa28ef31f33140c7b3f6bfbc36d30">&#9670;&#160;</a></span>criticalAspectRatioFlip</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::SubdivideSettings::criticalAspectRatioFlip = 1000.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If this value is less than FLT_MAX then edge flips will ignore dihedral angle check if one of triangles has aspect ratio more than this value </p>
 
 </div>
 </div>

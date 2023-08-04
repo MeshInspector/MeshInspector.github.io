@@ -17,5 +17,6 @@ var classMR_1_1AABBTree =
     [ "nodes", "classMR_1_1AABBTree.html#a417b2def8f134a7f62981cc0ff5f33dc", null ],
     [ "operator=", "classMR_1_1AABBTree.html#a3d03064881df6e739bd9f815c909abe5", null ],
     [ "operator[]", "classMR_1_1AABBTree.html#a5898495ce47a17254d7287769559d81b", null ],
+    [ "refit", "classMR_1_1AABBTree.html#afa9d6951c5f6c0370a71ad917fb5cfb0", null ],
     [ "UniqueThreadSafeOwner< AABBTree >", "classMR_1_1AABBTree.html#aed6e78485032d75bf97587de91224aaf", null ]
 ];

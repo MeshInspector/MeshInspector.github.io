@@ -110,6 +110,7 @@ $(document).ready(function(){initNavTree('MRBitSet_8h.html',''); initResizable()
 <code>#include &quot;MRphmap.h&quot;</code><br />
 <code>#include &lt;boost/dynamic_bitset.hpp&gt;</code><br />
 <code>#include &lt;iterator&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
 </div>
 <p><a href="MRBitSet_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -147,6 +148,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga1098f1bd4059de8fc518f620c7e556a7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga1098f1bd4059de8fc518f620c7e556a7">MR::operator==</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;a, const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; U &gt; &amp;b)=delete</td></tr>
 <tr class="memdesc:ga1098f1bd4059de8fc518f620c7e556a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">prohibit comparison of unrelated sets  <br /></td></tr>
 <tr class="separator:ga1098f1bd4059de8fc518f620c7e556a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga88c10cdc1bac1ea496801bc6381969da"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga88c10cdc1bac1ea496801bc6381969da"><td class="memTemplItemLeft" align="right" valign="top">std::function&lt; bool(<a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;)&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga88c10cdc1bac1ea496801bc6381969da">MR::makePredicate</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; *bitset)</td></tr>
+<tr class="separator:ga88c10cdc1bac1ea496801bc6381969da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5cf6c8bfca2b46c09c612ee5beff6772"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga5cf6c8bfca2b46c09c612ee5beff6772"><td class="memTemplItemLeft" align="right" valign="top">std::function&lt; bool(<a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;)&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga5cf6c8bfca2b46c09c612ee5beff6772">MR::makePredicate</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;bitset)</td></tr>
+<tr class="separator:ga5cf6c8bfca2b46c09c612ee5beff6772"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf22d770b767eff4d37bc4be52ef5032f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gaf22d770b767eff4d37bc4be52ef5032f"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gaf22d770b767eff4d37bc4be52ef5032f">MR::contains</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; *bitset, <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt; id)</td></tr>
 <tr class="separator:gaf22d770b767eff4d37bc4be52ef5032f"><td class="memSeparator" colspan="2">&#160;</td></tr>

@@ -1,8 +1,8 @@
 var MRDistanceMap_8h =
 [
     [ "combineXYderivativeMaps", "MRDistanceMap_8h.html#ga27435b7d8c5a7876aa45b60ea840b353", null ],
-    [ "computeDistanceMap", "MRDistanceMap_8h.html#ga60d4a6a9da9891fba210467cdcef62d5", null ],
-    [ "computeDistanceMapD", "MRDistanceMap_8h.html#gac217bd3e043a81e7657143256a6ded75", null ],
+    [ "computeDistanceMap", "MRDistanceMap_8h.html#gaf972733cbe1eca39d0f85671e30b514c", null ],
+    [ "computeDistanceMapD", "MRDistanceMap_8h.html#ga8f2c4ae318d14a691410a43d5c1c0ee4", null ],
     [ "contourIntersection", "MRDistanceMap_8h.html#ga8461963f3447f163979179222275114c", null ],
     [ "contourSubtract", "MRDistanceMap_8h.html#ga9ec7f0e4e736da31de012ad0e33f6b33", null ],
     [ "contourUnion", "MRDistanceMap_8h.html#ga59af0939e79330f4ef6bcc99c74c196b", null ],

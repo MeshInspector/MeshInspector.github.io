@@ -41,7 +41,7 @@ var classMR_1_1ObjectVoxels =
     [ "serializeFields_", "classMR_1_1ObjectVoxels.html#a1b9e402abcba964cf107ae761006fdb3", null ],
     [ "serializeModel_", "classMR_1_1ObjectVoxels.html#a46b54da242f92be059e6944fdf76cfce", null ],
     [ "setActiveBounds", "classMR_1_1ObjectVoxels.html#a7e16d8a108f465ccb925e3e36886739e", null ],
-    [ "setDirtyFlags", "classMR_1_1ObjectVoxels.html#a62f604cd208a8d89e61015edc053d9d2", null ],
+    [ "setDirtyFlags", "classMR_1_1ObjectVoxels.html#a26333ef8976d7ed8b8c57137bacce2f5", null ],
     [ "setDualMarchingCubes", "classMR_1_1ObjectVoxels.html#ab02aa1e3777a0b8e07c86ab41cd4ae02", null ],
     [ "setIsoValue", "classMR_1_1ObjectVoxels.html#aabcaba76e4b304059a1ad18bedf9e259", null ],
     [ "setMaxSurfaceVertices", "classMR_1_1ObjectVoxels.html#ac650d2660c0224513f5df6629615cb6f", null ],

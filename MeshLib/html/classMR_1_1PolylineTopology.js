@@ -3,6 +3,7 @@ var classMR_1_1PolylineTopology =
     [ "addPartByMask", "classMR_1_1PolylineTopology.html#acd964eb898eab563867d4b84cc4af69d", null ],
     [ "addVertId", "classMR_1_1PolylineTopology.html#abfb6e0044fbe8c29dd9114c691a687a7", null ],
     [ "buildFromContours", "classMR_1_1PolylineTopology.html#aab7fc1ff330a8a3945824279673d2311", null ],
+    [ "buildOpenLines", "classMR_1_1PolylineTopology.html#a79f6690f59e171ae1b4173dad9c57c5e", null ],
     [ "checkValidity", "classMR_1_1PolylineTopology.html#a84bb5e00b49548f555d22c95a849a62a", null ],
     [ "computeNotLoneUndirectedEdges", "classMR_1_1PolylineTopology.html#a300d2568ddd2b3174c3fb76468f8b508", null ],
     [ "computeValidsFromEdges", "classMR_1_1PolylineTopology.html#a32341828b752c082736b7e19c7f80ce5", null ],
@@ -44,7 +45,8 @@ var classMR_1_1PolylineTopology =
     [ "undirectedEdgeSize", "classMR_1_1PolylineTopology.html#a061dd907ada10af2d8ed533c49f4b0ab", null ],
     [ "vertCapacity", "classMR_1_1PolylineTopology.html#a726c75e6aeb80d5a75500cc50275a477", null ],
     [ "vertReserve", "classMR_1_1PolylineTopology.html#a269967fe44b9296f578fb65a74733bc4", null ],
-    [ "vertResize", "classMR_1_1PolylineTopology.html#a84ccf7860cc1f6ffbfaffe6f0b603593", null ],
+    [ "vertResize", "classMR_1_1PolylineTopology.html#a447fd988db6a06ad5dc3f52599bf4924", null ],
+    [ "vertResizeWithReserve", "classMR_1_1PolylineTopology.html#af5cc7998d7a0f82562b74552b26163f4", null ],
     [ "vertSize", "classMR_1_1PolylineTopology.html#a9574f81615523ac5fe203e1648765942", null ],
     [ "write", "classMR_1_1PolylineTopology.html#afeacaa2685ac05679afb0b6675a1ff4b", null ]
 ];

@@ -23,13 +23,14 @@ var searchData=
   ['isedgeatrib_20',['isEdgeATriB',['../structMR_1_1VariableEdgeTri.html#aaf806bd6bbc163135641f8a5ca2a6f5f',1,'MR::VariableEdgeTri']]],
   ['isenabled_5f_21',['isEnabled_',['../classMR_1_1StateBasePlugin.html#a239e7ea5887cf228c8ea6a7eef781a2c',1,'MR::StateBasePlugin']]],
   ['iso_22',['iso',['../structMR_1_1MarchingCubesParams.html#af22e28b54f1377a8a75efda6cf460c62',1,'MR::MarchingCubesParams']]],
-  ['isosurfacechangedsignal_23',['isoSurfaceChangedSignal',['../classMR_1_1ObjectVoxels.html#a3933529459eee6bf988f3b9814a52818',1,'MR::ObjectVoxels']]],
-  ['isothera_24',['isOtherA',['../structMR_1_1SortIntersectionsData.html#a64cd77d679e163bbff985d79336ae2c4',1,'MR::SortIntersectionsData']]],
-  ['isovalue_25',['isoValue',['../structMR_1_1GridToMeshSettings.html#ad826bf2632bc0f30ff1144fb199ad870',1,'MR::GridToMeshSettings']]],
-  ['it_26',['it',['../structMR_1_1DirectoryIterator.html#a43d198bfa65499a30571596ae9d9b943',1,'MR::DirectoryIterator::it'],['../structMR_1_1DirectoryRecursiveIterator.html#affefc79c1a274349122ac58b55d2db20',1,'MR::DirectoryRecursiveIterator::it']]],
-  ['item_27',['item',['../structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b',1,'MR::RibbonMenu::DialogItemPtr::item'],['../structMR_1_1MenuItemInfo.html#a926a6449190c31f77c5b88b8c236958e',1,'MR::MenuItemInfo::item'],['../structMR_1_1RibbonSchemaHolder_1_1SearchResult.html#a7ca888bade52243be40b9bc8ea954035',1,'MR::RibbonSchemaHolder::SearchResult::item']]],
-  ['items_28',['items',['../structMR_1_1FillHolePlan.html#a65ba916a62c352d7f2d5dd40d132ed59',1,'MR::FillHolePlan::items'],['../structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1',1,'MR::RibbonSchema::items']]],
-  ['itemsize_29',['itemSize',['../structMR_1_1DrawButtonParams.html#ab8f3d59cb2dfd82cae6a79ab6746ee09',1,'MR::DrawButtonParams']]],
-  ['iterations_30',['iterations',['../structMR_1_1RelaxParams.html#af6f0f001e98c26c2b38d1d51b3f3ef1f',1,'MR::RelaxParams']]],
-  ['iterlimit_31',['iterLimit',['../structMR_1_1ICPProperties.html#a4b5daff61d36ce0e211995eee0f2507f',1,'MR::ICPProperties']]]
+  ['isolines_23',['isolines',['../structMR_1_1ToolPathResult.html#ab3d068a6931ee0eb0aa2afb02d792e6d',1,'MR::ToolPathResult']]],
+  ['isosurfacechangedsignal_24',['isoSurfaceChangedSignal',['../classMR_1_1ObjectVoxels.html#a3933529459eee6bf988f3b9814a52818',1,'MR::ObjectVoxels']]],
+  ['isothera_25',['isOtherA',['../structMR_1_1SortIntersectionsData.html#a64cd77d679e163bbff985d79336ae2c4',1,'MR::SortIntersectionsData']]],
+  ['isovalue_26',['isoValue',['../structMR_1_1GridToMeshSettings.html#ad826bf2632bc0f30ff1144fb199ad870',1,'MR::GridToMeshSettings']]],
+  ['it_27',['it',['../structMR_1_1DirectoryIterator.html#a43d198bfa65499a30571596ae9d9b943',1,'MR::DirectoryIterator::it'],['../structMR_1_1DirectoryRecursiveIterator.html#affefc79c1a274349122ac58b55d2db20',1,'MR::DirectoryRecursiveIterator::it']]],
+  ['item_28',['item',['../structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b',1,'MR::RibbonMenu::DialogItemPtr::item'],['../structMR_1_1MenuItemInfo.html#a926a6449190c31f77c5b88b8c236958e',1,'MR::MenuItemInfo::item'],['../structMR_1_1RibbonSchemaHolder_1_1SearchResult.html#a7ca888bade52243be40b9bc8ea954035',1,'MR::RibbonSchemaHolder::SearchResult::item']]],
+  ['items_29',['items',['../structMR_1_1FillHolePlan.html#a65ba916a62c352d7f2d5dd40d132ed59',1,'MR::FillHolePlan::items'],['../structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1',1,'MR::RibbonSchema::items']]],
+  ['itemsize_30',['itemSize',['../structMR_1_1DrawButtonParams.html#ab8f3d59cb2dfd82cae6a79ab6746ee09',1,'MR::DrawButtonParams']]],
+  ['iterations_31',['iterations',['../structMR_1_1RelaxParams.html#af6f0f001e98c26c2b38d1d51b3f3ef1f',1,'MR::RelaxParams']]],
+  ['iterlimit_32',['iterLimit',['../structMR_1_1ICPProperties.html#a4b5daff61d36ce0e211995eee0f2507f',1,'MR::ICPProperties']]]
 ];
