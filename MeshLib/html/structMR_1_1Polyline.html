@@ -123,8 +123,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aae40d1c6ba0e12c47a855747d44d40ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1f0bc764cd99c848a21add405261785"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#ad1f0bc764cd99c848a21add405261785">addFromPoints</a> (const V *vs, size_t num)</td></tr>
 <tr class="separator:ad1f0bc764cd99c848a21add405261785"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51d38e177ee751404d7e836928dc4689"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#a51d38e177ee751404d7e836928dc4689">addPart</a> (const <a class="el" href="structMR_1_1Polyline.html">Polyline</a>&lt; V &gt; &amp;from, <a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> *outVmap=nullptr, <a class="el" href="namespaceMR.html#ab8a64e1ae478a6733cc6c0ab4441d0b9">WholeEdgeMap</a> *outEmap=nullptr)</td></tr>
+<tr class="separator:a51d38e177ee751404d7e836928dc4689"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c415d06f60c7ddc956d9c1f5b4b9609"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#a3c415d06f60c7ddc956d9c1f5b4b9609">addPartByMask</a> (const <a class="el" href="structMR_1_1Polyline.html">Polyline</a>&lt; V &gt; &amp;from, const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;mask, <a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> *outVmap=nullptr, <a class="el" href="namespaceMR.html#ae2eea398ad770ec2244a9a9c50714933">EdgeMap</a> *outEmap=nullptr)</td></tr>
-<tr class="memdesc:a3c415d06f60c7ddc956d9c1f5b4b9609"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends polyline (from) in addition to this polyline: creates new edges, faces, verts and points  <br /></td></tr>
+<tr class="memdesc:a3c415d06f60c7ddc956d9c1f5b4b9609"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends polyline (from) in addition to this polyline: creates new edges, verts and points  <br /></td></tr>
 <tr class="separator:a3c415d06f60c7ddc956d9c1f5b4b9609"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a403ab94ad27b1766b1ef3043546ee01d"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Polyline.html#a403ab94ad27b1766b1ef3043546ee01d">orgPnt</a> (<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e) const</td></tr>
 <tr class="memdesc:a403ab94ad27b1766b1ef3043546ee01d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns coordinates of the edge origin  <br /></td></tr>
@@ -502,6 +504,48 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
+<a id="a51d38e177ee751404d7e836928dc4689" name="a51d38e177ee751404d7e836928dc4689"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51d38e177ee751404d7e836928dc4689">&#9670;&#160;</a></span>addPart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::addPart </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Polyline.html">Polyline</a>&lt; V &gt; &amp;&#160;</td>
+          <td class="paramname"><em>from</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> *&#160;</td>
+          <td class="paramname"><em>outVmap</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ab8a64e1ae478a6733cc6c0ab4441d0b9">WholeEdgeMap</a> *&#160;</td>
+          <td class="paramname"><em>outEmap</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>appends polyline (from) in addition to this polyline: creates new edges, verts and points; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">outVmap,outEmap</td><td>(optionally) returns mappings: from.id -&gt; this.id </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a3c415d06f60c7ddc956d9c1f5b4b9609" name="a3c415d06f60c7ddc956d9c1f5b4b9609"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3c415d06f60c7ddc956d9c1f5b4b9609">&#9670;&#160;</a></span>addPartByMask()</h2>
 
@@ -542,7 +586,7 @@ template&lt;typename V &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>appends polyline (from) in addition to this polyline: creates new edges, faces, verts and points </p>
+<p>appends polyline (from) in addition to this polyline: creates new edges, verts and points </p>
 
 </div>
 </div>

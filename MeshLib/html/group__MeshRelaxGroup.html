@@ -130,6 +130,9 @@ Functions</h2></td></tr>
 <tr class="separator:gaf3dd7b36bb56c94c95b1bea9f7546349"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8befca5bcec5f332e23a665e97e9ecbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga8befca5bcec5f332e23a665e97e9ecbf">MR::smoothRegionBoundary</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;regionFaces, int numIters=4)</td></tr>
 <tr class="separator:ga8befca5bcec5f332e23a665e97e9ecbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga287157ee21ca3461b897a4f9e982739b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga287157ee21ca3461b897a4f9e982739b">MR::hardSmoothTetrahedrons</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *region=nullptr)</td></tr>
+<tr class="memdesc:ga287157ee21ca3461b897a4f9e982739b"><td class="mdescLeft">&#160;</td><td class="mdescRight">move all region vertices with exactly three neighbor vertices in the center of the neighbors  <br /></td></tr>
+<tr class="separator:ga287157ee21ca3461b897a4f9e982739b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -165,6 +168,36 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>applies given number of iterations with movement toward <a class="el" href="group__MeshRelaxGroup.html#gaba816e24c8bb07c99f1d084e59d0ec48">vertexPosEqualNeiAreas()</a> to the whole mesh ( or some region if it is specified ) </p><dl class="section return"><dt>Returns</dt><dd>true if was finished successfully, false if was interrupted by progress callback </dd></dl>
+
+</div>
+</div>
+<a id="ga287157ee21ca3461b897a4f9e982739b" name="ga287157ee21ca3461b897a4f9e982739b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga287157ee21ca3461b897a4f9e982739b">&#9670;&#160;</a></span>hardSmoothTetrahedrons()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::hardSmoothTetrahedrons </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *&#160;</td>
+          <td class="paramname"><em>region</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>move all region vertices with exactly three neighbor vertices in the center of the neighbors </p>
 
 </div>
 </div>

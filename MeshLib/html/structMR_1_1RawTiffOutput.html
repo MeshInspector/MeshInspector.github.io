@@ -104,32 +104,48 @@ $(document).ready(function(){initNavTree('structMR_1_1RawTiffOutput.html',''); i
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="MRReadTIFF_8h_source.html">MRReadTIFF.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="MRTiffIO_8h_source.html">MRTiffIO.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a2fb719a41aee178656e3e71461bba9b6"><td class="memItemLeft" align="right" valign="top">float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RawTiffOutput.html#a2fb719a41aee178656e3e71461bba9b6">data</a> { nullptr }</td></tr>
-<tr class="separator:a2fb719a41aee178656e3e71461bba9b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0246df3ced8b0fffb290eb2abf95bb96"><td class="memItemLeft" align="right" valign="top">uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RawTiffOutput.html#a0246df3ced8b0fffb290eb2abf95bb96">bytes</a> { nullptr }</td></tr>
+<tr class="separator:a0246df3ced8b0fffb290eb2abf95bb96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee37c2713f2e293aaf18d6ff35a3ef2f"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RawTiffOutput.html#aee37c2713f2e293aaf18d6ff35a3ef2f">size</a> { 0 }</td></tr>
 <tr class="separator:aee37c2713f2e293aaf18d6ff35a3ef2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a46a4e341d9607035dd3b8e7f94b350"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1TiffParameters.html">TiffParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RawTiffOutput.html#a4a46a4e341d9607035dd3b8e7f94b350">params</a> { nullptr }</td></tr>
 <tr class="separator:a4a46a4e341d9607035dd3b8e7f94b350"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56a198effd90991eb70ce8c6707711dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RawTiffOutput.html#a56a198effd90991eb70ce8c6707711dc">p2wXf</a> { nullptr }</td></tr>
 <tr class="separator:a56a198effd90991eb70ce8c6707711dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a678bc6694cc6bc3d60c264d18d97e243"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RawTiffOutput.html#a678bc6694cc6bc3d60c264d18d97e243">convertToFloat</a> { true }</td></tr>
+<tr class="separator:a678bc6694cc6bc3d60c264d18d97e243"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a274e87eb13cf3064d528d5799b534c2d"><td class="memItemLeft" align="right" valign="top">float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RawTiffOutput.html#a274e87eb13cf3064d528d5799b534c2d">min</a> { nullptr }</td></tr>
 <tr class="separator:a274e87eb13cf3064d528d5799b534c2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab63212231c28e54f0070c1283711a98a"><td class="memItemLeft" align="right" valign="top">float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RawTiffOutput.html#ab63212231c28e54f0070c1283711a98a">max</a> { nullptr }</td></tr>
 <tr class="separator:ab63212231c28e54f0070c1283711a98a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a2fb719a41aee178656e3e71461bba9b6" name="a2fb719a41aee178656e3e71461bba9b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fb719a41aee178656e3e71461bba9b6">&#9670;&#160;</a></span>data</h2>
+<a id="a0246df3ced8b0fffb290eb2abf95bb96" name="a0246df3ced8b0fffb290eb2abf95bb96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0246df3ced8b0fffb290eb2abf95bb96">&#9670;&#160;</a></span>bytes</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float* MR::RawTiffOutput::data { nullptr }</td>
+          <td class="memname">uint8_t* MR::RawTiffOutput::bytes { nullptr }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a678bc6694cc6bc3d60c264d18d97e243" name="a678bc6694cc6bc3d60c264d18d97e243"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a678bc6694cc6bc3d60c264d18d97e243">&#9670;&#160;</a></span>convertToFloat</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::RawTiffOutput::convertToFloat { true }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -207,7 +223,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="MRReadTIFF_8h_source.html">MRReadTIFF.h</a></li>
+<li><a class="el" href="MRTiffIO_8h_source.html">MRTiffIO.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

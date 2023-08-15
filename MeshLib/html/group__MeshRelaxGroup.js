@@ -11,6 +11,7 @@ var group__MeshRelaxGroup =
       [ "type", "structMR_1_1MeshApproxRelaxParams.html#a1cee1338307334369140e04b54f03b51", null ]
     ] ],
     [ "MR::equalizeTriAreas", "group__MeshRelaxGroup.html#gaf6353686f2aea228ecc6ff2df9ef65ba", null ],
+    [ "MR::hardSmoothTetrahedrons", "group__MeshRelaxGroup.html#ga287157ee21ca3461b897a4f9e982739b", null ],
     [ "MR::relax", "group__MeshRelaxGroup.html#ga82c8571f065eff9a7403c41093b44a53", null ],
     [ "MR::relaxApprox", "group__MeshRelaxGroup.html#ga973c1a5f054f13ea87971be793ecf341", null ],
     [ "MR::relaxKeepVolume", "group__MeshRelaxGroup.html#ga0342e0ff739af1b23505a0faf855c65c", null ],

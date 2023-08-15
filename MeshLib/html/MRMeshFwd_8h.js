@@ -119,6 +119,8 @@ var MRMeshFwd_8h =
     [ "QuadraticForm3f", "MRMeshFwd_8h.html#a03bea4c1686b4e77a996eb13fd1d4bb7", null ],
     [ "Quaterniond", "MRMeshFwd_8h.html#ad60a2db75b523a56062be012471ae85d", null ],
     [ "Quaternionf", "MRMeshFwd_8h.html#ad42cb243cfba827bb9d521ba1f9a0a70", null ],
+    [ "SegmPointd", "MRMeshFwd_8h.html#a8e8eef9ceb81d6ce2a90b1372e325cbf", null ],
+    [ "SegmPointf", "MRMeshFwd_8h.html#ada3b2e6467395b6ac7cb897c73099644", null ],
     [ "SetBitIterator", "MRMeshFwd_8h.html#a72121ddf3f962182a0cd896a72cbce55", null ],
     [ "SimpleVolume", "MRMeshFwd_8h.html#a7ad75de4317308dd9e905cc79369ab6b", null ],
     [ "SimpleVolumeU8", "MRMeshFwd_8h.html#af1886e23b858590aaf7d50f8ed531961", null ],

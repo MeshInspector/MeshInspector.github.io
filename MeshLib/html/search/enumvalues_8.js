@@ -5,7 +5,7 @@ var searchData=
   ['inside_2',['Inside',['../classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5a21796cca7989a91c8335cd29c782f5be',1,'MR::VolumeSegmenter::Inside'],['../classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457a4283b93e69f9bf090a59fe6e0fbc24ef',1,'MR::MarkedVoxelSlice::Inside']]],
   ['insidea_3',['InsideA',['../group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda833b7406c91f551bd8502cf76bb95c29',1,'MR']]],
   ['insideb_4',['InsideB',['../group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda9f3e5e704c939dff3070cf175df0b75d',1,'MR']]],
-  ['int_5',['Int',['../structMR_1_1TiffParameters.html#a45fa557dfa976a0359226996ea2b3e51a1686a6c336b71b36d77354cea19a8b52',1,'MR::TiffParameters']]],
+  ['int_5',['Int',['../structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa1686a6c336b71b36d77354cea19a8b52',1,'MR::BaseTiffParameters']]],
   ['int16_6',['Int16',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529ba39bc2ae44b184207f560ff8619823208',1,'MR::VoxelsLoad::RawParameters']]],
   ['int32_7',['Int32',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bac06129f6e6e15c09328365e553f1dc31',1,'MR::VoxelsLoad::RawParameters']]],
   ['int64_8',['Int64',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bafbde23b11d7e59af7828e81144c8b487',1,'MR::VoxelsLoad::RawParameters']]],

@@ -37,12 +37,17 @@ var hierarchy =
       [ "MR::ImmediateGL::TriRenderParams", "structMR_1_1ImmediateGL_1_1TriRenderParams.html", null ],
       [ "MR::ViewportGL::RenderParams", "structMR_1_1ViewportGL_1_1RenderParams.html", null ]
     ] ],
+    [ "MR::BaseTiffParameters", "structMR_1_1BaseTiffParameters.html", [
+      [ "MR::TiffParameters", "structMR_1_1TiffParameters.html", null ]
+    ] ],
     [ "MR::BindVertexAttribArraySettings", "structMR_1_1BindVertexAttribArraySettings.html", null ],
     [ "MR::BMap< T, I >", "structMR_1_1BMap.html", null ],
     [ "MR::BMap< FaceId, FaceId >", "structMR_1_1BMap.html", null ],
     [ "MR::BMap< MR::Id, size_t >", "structMR_1_1BMap.html", null ],
     [ "MR::BMap< UndirectedEdgeId, UndirectedEdgeId >", "structMR_1_1BMap.html", null ],
     [ "MR::BMap< VertId, VertId >", "structMR_1_1BMap.html", null ],
+    [ "MR::BooleanParameters", "structMR_1_1BooleanParameters.html", null ],
+    [ "MR::BooleanPreCutResult", "structMR_1_1BooleanPreCutResult.html", null ],
     [ "MR::BooleanResult", "structMR_1_1BooleanResult.html", null ],
     [ "MR::BooleanResultMapper", "structMR_1_1BooleanResultMapper.html", null ],
     [ "MR::BooleanResultPoints", "structMR_1_1BooleanResultPoints.html", null ],
@@ -164,7 +169,11 @@ var hierarchy =
       [ "MR::VariableEdgeTri", "structMR_1_1VariableEdgeTri.html", null ]
     ] ],
     [ "MR::Heap< T, I, P >::Element", "structMR_1_1Heap_1_1Element.html", null ],
+    [ "MR::EmbeddedConeResult", "structMR_1_1EmbeddedConeResult.html", null ],
     [ "MR::EmbeddedPython", "classMR_1_1EmbeddedPython.html", null ],
+    [ "MR::EmbeddedStructureParameters", "structMR_1_1EmbeddedStructureParameters.html", [
+      [ "MR::EmbeddedConeParameters", "structMR_1_1EmbeddedConeParameters.html", null ]
+    ] ],
     [ "MR::MeshBuilder::equalVector3f", "structMR_1_1MeshBuilder_1_1equalVector3f.html", null ],
     [ "MR::Viewer::EventQueue", "classMR_1_1Viewer_1_1EventQueue.html", null ],
     [ "MR::FaceFace", "structMR_1_1FaceFace.html", null ],
@@ -193,6 +202,7 @@ var hierarchy =
     [ "MR::GlTexture3", "classMR_1_1GlTexture3.html", null ],
     [ "MR::GridSettings", "structMR_1_1GridSettings.html", null ],
     [ "MR::GridToMeshSettings", "structMR_1_1GridToMeshSettings.html", null ],
+    [ "MR::TouchpadController::Handler", "classMR_1_1TouchpadController_1_1Handler.html", null ],
     [ "MR::HashToVectorMappingConverter", "classMR_1_1HashToVectorMappingConverter.html", null ],
     [ "MR::Heap< T, I, P >", "classMR_1_1Heap.html", null ],
     [ "MR::Histogram", "classMR_1_1Histogram.html", null ],
@@ -288,6 +298,7 @@ var hierarchy =
     [ "MR::FixUndercuts::ImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html", [
       [ "MR::FixUndercuts::DistMapImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html", null ]
     ] ],
+    [ "MR::InflateSettings", "structMR_1_1InflateSettings.html", null ],
     [ "MR::IntersectionPrecomputes< T >", "structMR_1_1IntersectionPrecomputes.html", null ],
     [ "MR::IntersectionPrecomputes2< T >", "structMR_1_1IntersectionPrecomputes2.html", null ],
     [ "MR::IOFilter", "structMR_1_1IOFilter.html", null ],
@@ -405,7 +416,6 @@ var hierarchy =
     [ "MR::MeshBuilder::MeshPiece", "structMR_1_1MeshBuilder_1_1MeshPiece.html", null ],
     [ "MR::MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", null ],
     [ "MR::MeshSignedDistanceResult", "structMR_1_1MeshSignedDistanceResult.html", null ],
-    [ "MR::ObjectMeshHolder::MeshStat", "structMR_1_1ObjectMeshHolder_1_1MeshStat.html", null ],
     [ "MR::MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html", null ],
     [ "MR::MeshToDistanceVolumeParams", "structMR_1_1MeshToDistanceVolumeParams.html", null ],
     [ "MR::MeshTopology", "classMR_1_1MeshTopology.html", null ],
@@ -472,6 +482,7 @@ var hierarchy =
     [ "MR::MarkedVoxelSlice::Parameters", "structMR_1_1MarkedVoxelSlice_1_1Parameters.html", null ],
     [ "MR::Palette::Parameters", "structMR_1_1Palette_1_1Parameters.html", null ],
     [ "MR::SurfacePointWidget::Parameters", "structMR_1_1SurfacePointWidget_1_1Parameters.html", null ],
+    [ "MR::TouchpadController::Parameters", "structMR_1_1TouchpadController_1_1Parameters.html", null ],
     [ "MR::Viewport::Parameters", "structMR_1_1Viewport_1_1Parameters.html", null ],
     [ "MR::SpaceMouseController::Params", "structMR_1_1SpaceMouseController_1_1Params.html", null ],
     [ "MR::ColorMapAggregator< Tag >::PartialColorMap", "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html", null ],
@@ -562,6 +573,8 @@ var hierarchy =
     [ "MR::RibbonSchemaHolder::SearchResult", "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html", null ],
     [ "MR::SegmEndColors", "structMR_1_1SegmEndColors.html", null ],
     [ "MR::SegmentSegmentIntersectResult", "structMR_1_1SegmentSegmentIntersectResult.html", null ],
+    [ "MR::SegmPoint< T >", "structMR_1_1SegmPoint.html", null ],
+    [ "MR::SegmPoint< float >", "structMR_1_1SegmPoint.html", null ],
     [ "MR::SelectScreenLasso", "classMR_1_1SelectScreenLasso.html", null ],
     [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", null ],
     [ "MR::GlTexture2::Settings", "structMR_1_1GlTexture2_1_1Settings.html", null ],
@@ -612,13 +625,13 @@ var hierarchy =
     ] ],
     [ "MR::TabNamePriority", "structMR_1_1TabNamePriority.html", null ],
     [ "MR::TerminalVertex", "structMR_1_1TerminalVertex.html", null ],
-    [ "MR::TiffParameters", "structMR_1_1TiffParameters.html", null ],
     [ "MR::Timer", "classMR_1_1Timer.html", null ],
     [ "MR::Toolbar", "classMR_1_1Toolbar.html", null ],
     [ "MR::ToolPathParams", "structMR_1_1ToolPathParams.html", [
       [ "MR::ConstantCuspParams", "structMR_1_1ConstantCuspParams.html", null ]
     ] ],
     [ "MR::ToolPathResult", "structMR_1_1ToolPathResult.html", null ],
+    [ "MR::TouchpadController", "classMR_1_1TouchpadController.html", null ],
     [ "MR::TransformedMesh", "structMR_1_1TransformedMesh.html", null ],
     [ "MR::ImmediateGL::Tri", "structMR_1_1ImmediateGL_1_1Tri.html", null ],
     [ "MR::MeshBuilder::Triangle", "structMR_1_1MeshBuilder_1_1Triangle.html", null ],

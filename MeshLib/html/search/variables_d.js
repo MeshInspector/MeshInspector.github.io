@@ -4,8 +4,8 @@ var searchData=
   ['objectscale_1',['objectScale',['../structMR_1_1Viewport_1_1Parameters.html#af702c49c5d0e216669074795ef81a796',1,'MR::Viewport::Parameters']]],
   ['objmesh_5f_2',['objMesh_',['../classMR_1_1RenderMeshObject.html#a3bbf015a92d7acdcb4f134a3af214b75',1,'MR::RenderMeshObject']]],
   ['objslist_3',['objsList',['../structMR_1_1Viewport_1_1FitDataParams.html#a26b2eaa63f341d684fa1cb726689e656',1,'MR::Viewport::FitDataParams']]],
-  ['offset_4',['Offset',['../structMR_1_1OffsetParameters.html#ac8452b1a04803120a3633713076646c1',1,'MR::OffsetParameters']]],
-  ['offset_5',['offset',['../structMR_1_1SharpenMarchingCubesMeshSettings.html#aad69635a569d93af09b5d7d1b6c24a7c',1,'MR::SharpenMarchingCubesMeshSettings']]],
+  ['offset_4',['offset',['../structMR_1_1SharpenMarchingCubesMeshSettings.html#aad69635a569d93af09b5d7d1b6c24a7c',1,'MR::SharpenMarchingCubesMeshSettings']]],
+  ['offset_5',['Offset',['../structMR_1_1OffsetParameters.html#ac8452b1a04803120a3633713076646c1',1,'MR::OffsetParameters']]],
   ['offsetparameters_6',['offsetParameters',['../structMR_1_1ContoursDistanceMapOptions.html#a5015f92ab6db453e909083c2c9486054',1,'MR::ContoursDistanceMapOptions']]],
   ['offsetvoxels_7',['offsetVoxels',['../structMR_1_1MeshVoxelsConverter.html#adc6a0a341b57e23c8d707441794d45f3',1,'MR::MeshVoxelsConverter']]],
   ['old2newedges_8',['old2newEdges',['../structMR_1_1BooleanResultMapper_1_1Maps.html#a70a6c9015f66d50b0889a5cfbdc6b9a9',1,'MR::BooleanResultMapper::Maps']]],
@@ -25,7 +25,9 @@ var searchData=
   ['outclosestedges_22',['outClosestEdges',['../structMR_1_1ContoursDistanceMapOptions.html#ab4eb6c6f113595f62886ed7e689760ae',1,'MR::ContoursDistanceMapOptions']]],
   ['outcreases_23',['outCreases',['../structMR_1_1DenoiseViaNormalsSettings.html#ad7f7b82ea225f8e0f9a358b607d7fead',1,'MR::DenoiseViaNormalsSettings']]],
   ['outnewfaces_24',['outNewFaces',['../structMR_1_1FillHoleParams.html#a1789bd574d007a370fe6164d4f5ca7c4',1,'MR::FillHoleParams::outNewFaces'],['../structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66',1,'MR::StitchHolesParams::outNewFaces']]],
-  ['outsharpedges_25',['outSharpEdges',['../structMR_1_1SharpOffsetParameters.html#a662db16653ae12258fec109e1a4b4357',1,'MR::SharpOffsetParameters::outSharpEdges'],['../structMR_1_1SharpenMarchingCubesMeshSettings.html#a0f708a94c94e32aa8001fe2cf18960d4',1,'MR::SharpenMarchingCubesMeshSettings::outSharpEdges']]],
-  ['outvoxelperfacemap_26',['outVoxelPerFaceMap',['../structMR_1_1MarchingCubesParams.html#af89d2fd3445045a9e4e4387b69f8d786',1,'MR::MarchingCubesParams']]],
-  ['outxf_27',['outXf',['../structMR_1_1MeshToVolumeParams.html#a216b138081139f4900c546a416a39e0c',1,'MR::MeshToVolumeParams']]]
+  ['outprecuta_25',['outPreCutA',['../structMR_1_1BooleanParameters.html#af4d200cef62096c6780b126ec5eaf0a7',1,'MR::BooleanParameters']]],
+  ['outprecutb_26',['outPreCutB',['../structMR_1_1BooleanParameters.html#a3c9ab9ed36085974e0aedcdba8ee7b0c',1,'MR::BooleanParameters']]],
+  ['outsharpedges_27',['outSharpEdges',['../structMR_1_1SharpOffsetParameters.html#a662db16653ae12258fec109e1a4b4357',1,'MR::SharpOffsetParameters::outSharpEdges'],['../structMR_1_1SharpenMarchingCubesMeshSettings.html#a0f708a94c94e32aa8001fe2cf18960d4',1,'MR::SharpenMarchingCubesMeshSettings::outSharpEdges']]],
+  ['outvoxelperfacemap_28',['outVoxelPerFaceMap',['../structMR_1_1MarchingCubesParams.html#af89d2fd3445045a9e4e4387b69f8d786',1,'MR::MarchingCubesParams']]],
+  ['outxf_29',['outXf',['../structMR_1_1MeshToVolumeParams.html#a216b138081139f4900c546a416a39e0c',1,'MR::MeshToVolumeParams']]]
 ];

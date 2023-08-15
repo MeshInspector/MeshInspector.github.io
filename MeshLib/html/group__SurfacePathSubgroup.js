@@ -1,5 +1,9 @@
 var group__SurfacePathSubgroup =
 [
+    [ "MR::ExtremeEdgeType", "group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6", [
+      [ "MR::ExtremeEdgeType::Ridge", "group__SurfacePathSubgroup.html#gga3887057b7aa95d9993b5ce57130c25a6ae9eeca48aa5cccacde08760c6ec9dd5a", null ],
+      [ "MR::ExtremeEdgeType::Gorge", "group__SurfacePathSubgroup.html#gga3887057b7aa95d9993b5ce57130c25a6a90290d32b4deae8703b07bfcd17af5a4", null ]
+    ] ],
     [ "MR::GeodesicPathApprox", "group__SurfacePathSubgroup.html#ga0d52c069a53aab9d22c0f2c4e3f262a2", [
       [ "MR::GeodesicPathApprox::DijkstraBiDir", "group__SurfacePathSubgroup.html#gga0d52c069a53aab9d22c0f2c4e3f262a2a688de737bb8774938c023e0f0a373184", null ],
       [ "MR::GeodesicPathApprox::DijkstraAStar", "group__SurfacePathSubgroup.html#gga0d52c069a53aab9d22c0f2c4e3f262a2aa9132a8a9b3c0d8c70e577b23e01e70d", null ],
@@ -16,7 +20,7 @@ var group__SurfacePathSubgroup =
     [ "MR::computeSteepestDescentPath", "group__SurfacePathSubgroup.html#ga94fc9b920115441f1e4135042940a234", null ],
     [ "MR::computeSteepestDescentPath", "group__SurfacePathSubgroup.html#ga1ad31d228082e7267612e40a391ced95", null ],
     [ "MR::computeSurfacePath", "group__SurfacePathSubgroup.html#ga446cf8a4654ec1a589f1ffd89762aa29", null ],
-    [ "MR::findRidgeEdges", "group__SurfacePathSubgroup.html#ga87754a320839e21af6fa5bd0ee997e8e", null ],
+    [ "MR::findExtremeEdges", "group__SurfacePathSubgroup.html#ga0bd366cd8b4e0bb2f8754392be22cb12", null ],
     [ "MR::getSurfacePathsViaVertices", "group__SurfacePathSubgroup.html#gaaa4dc30756e93cfc4cd2f88758193360", null ],
     [ "MR::surfacePathLength", "group__SurfacePathSubgroup.html#gacebe3b7371a72e49ddfbabc14fd008b4", null ],
     [ "MR::surfacePathsToContours3f", "group__SurfacePathSubgroup.html#ga8dbc7e2393ed3d315467293b5b2ba1e2", null ],

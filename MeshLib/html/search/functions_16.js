@@ -11,5 +11,6 @@ var searchData=
   ['worldxf_8',['worldXf',['../classMR_1_1Object.html#adf99bf3b0a5a59452a7e4efd6f48b657',1,'MR::Object']]],
   ['write_9',['write',['../classMR_1_1MeshTopology.html#a698bdffc6553d99627eff8444ae95cfb',1,'MR::MeshTopology::write()'],['../classMR_1_1PolylineTopology.html#afeacaa2685ac05679afb0b6675a1ff4b',1,'MR::PolylineTopology::write()'],['../classPythonStreamRedirector.html#a2dde8d2c176e672c39dd11e8c356db1e',1,'PythonStreamRedirector::write()']]],
   ['writebyblocks_10',['writeByBlocks',['../namespaceMR.html#a60a133e9f349b9183017b2b4abaf1b9b',1,'MR']]],
-  ['writer_11',['Writer',['../structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa',1,'MR::Writer']]]
+  ['writer_11',['Writer',['../structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa',1,'MR::Writer']]],
+  ['writerawtiff_12',['writeRawTiff',['../namespaceMR.html#a5c8cd9060fcf837bea6a2cda3d33a957',1,'MR']]]
 ];

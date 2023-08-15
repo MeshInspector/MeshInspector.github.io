@@ -183,6 +183,14 @@ Public Types</h2></td></tr>
 <tr class="separator:a0d931c18f1c5ba9e57ae595db1a20d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96cbf0a63696ed1b370277034184b276"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a96cbf0a63696ed1b370277034184b276">TouchSignal</a> = boost::signals2::signal&lt; bool(int, int, int), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a> &gt;</td></tr>
 <tr class="separator:a96cbf0a63696ed1b370277034184b276"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62f4d32e775c42c30666a31894a9b223"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a62f4d32e775c42c30666a31894a9b223">TouchpadRotateSignal</a> = boost::signals2::signal&lt; bool(float angle), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a> &gt;</td></tr>
+<tr class="separator:a62f4d32e775c42c30666a31894a9b223"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6c20cca8509e6755257600313656c81"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ab6c20cca8509e6755257600313656c81">TouchpadSwipeSignal</a> = boost::signals2::signal&lt; bool(float deltaX, float deltaY, bool kinetic), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a> &gt;</td></tr>
+<tr class="separator:ab6c20cca8509e6755257600313656c81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace0261c4909b6df91d3592c8e18df548"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ace0261c4909b6df91d3592c8e18df548">TouchpadZoomSignal</a> = boost::signals2::signal&lt; bool(float scale), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a> &gt;</td></tr>
+<tr class="separator:ace0261c4909b6df91d3592c8e18df548"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb2f84f3cab0aebf51969ad29d5a57cf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#abb2f84f3cab0aebf51969ad29d5a57cf">TouchpadEndSignal</a> = boost::signals2::signal&lt; bool(), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a> &gt;</td></tr>
+<tr class="separator:abb2f84f3cab0aebf51969ad29d5a57cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56a4069031303c5161df2d5e4155ae22"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a56a4069031303c5161df2d5e4155ae22">PostFocusSignal</a> = boost::signals2::signal&lt; void(bool)&gt;</td></tr>
 <tr class="separator:a56a4069031303c5161df2d5e4155ae22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -237,6 +245,24 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a618fa955d63e2e54e7d36d0b5488fe79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec4246d383cee0778606dc52faf8c0f0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#aec4246d383cee0778606dc52faf8c0f0">touchEnd</a> (int id, int x, int y)</td></tr>
 <tr class="separator:aec4246d383cee0778606dc52faf8c0f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb790d6df4df25d9eff85a45d010abbe"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#aeb790d6df4df25d9eff85a45d010abbe">touchpadRotateStart</a> (float angle)</td></tr>
+<tr class="separator:aeb790d6df4df25d9eff85a45d010abbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab50c17efd94895519af5f6eb8ef23a4c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ab50c17efd94895519af5f6eb8ef23a4c">touchpadRotateChange</a> (float angle)</td></tr>
+<tr class="separator:ab50c17efd94895519af5f6eb8ef23a4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e41f2dea74d4d2b1fad985652ae1525"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a2e41f2dea74d4d2b1fad985652ae1525">touchpadRotateCancel</a> ()</td></tr>
+<tr class="separator:a2e41f2dea74d4d2b1fad985652ae1525"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1231df4a802640f58ce4f6b7f30fe5a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ad1231df4a802640f58ce4f6b7f30fe5a">touchpadRotateEnd</a> ()</td></tr>
+<tr class="separator:ad1231df4a802640f58ce4f6b7f30fe5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad83f8c9ed36ca42f4a738e1b72897195"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ad83f8c9ed36ca42f4a738e1b72897195">touchpadSwipe</a> (float deltaX, float deltaY, bool kinetic)</td></tr>
+<tr class="separator:ad83f8c9ed36ca42f4a738e1b72897195"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2789a8b82b9b6e9fc1ce2309b2ff66d3"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a2789a8b82b9b6e9fc1ce2309b2ff66d3">touchpadZoomStart</a> (float scale)</td></tr>
+<tr class="separator:a2789a8b82b9b6e9fc1ce2309b2ff66d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06f7a7cccede18cd76821ad2a6e0e975"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a06f7a7cccede18cd76821ad2a6e0e975">touchpadZoomChange</a> (float scale)</td></tr>
+<tr class="separator:a06f7a7cccede18cd76821ad2a6e0e975"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a136043a0819daf906391d2a7de86fa8a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a136043a0819daf906391d2a7de86fa8a">touchpadZoomCancel</a> ()</td></tr>
+<tr class="separator:a136043a0819daf906391d2a7de86fa8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f35ab5f212af2c3feed8c4ac18c935b"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a7f35ab5f212af2c3feed8c4ac18c935b">touchpadZoomEnd</a> ()</td></tr>
+<tr class="separator:a7f35ab5f212af2c3feed8c4ac18c935b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2b6e2aad9eb5d9f49145edf383690f7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#af2b6e2aad9eb5d9f49145edf383690f7">interruptWindowClose</a> ()</td></tr>
 <tr class="separator:af2b6e2aad9eb5d9f49145edf383690f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76cf67a7300f775b7852b4749e7da446"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a76cf67a7300f775b7852b4749e7da446">joystickUpdateConnected</a> (int jid, int event)</td></tr>
@@ -410,6 +436,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aae590e587493538b3b3763b639bb3359"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f134f639d0626adc4a40ebaede425af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1SpaceMouseController.html">SpaceMouseController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a4f134f639d0626adc4a40ebaede425af">spaceMouseController</a></td></tr>
 <tr class="separator:a4f134f639d0626adc4a40ebaede425af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6ea1b7c579a6da545f54341084e1130"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1TouchpadController.html">TouchpadController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#aa6ea1b7c579a6da545f54341084e1130">touchpadController</a></td></tr>
+<tr class="separator:aa6ea1b7c579a6da545f54341084e1130"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cb04be7931c10a1a93bb386ba1f7bb6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a7cb04be7931c10a1a93bb386ba1f7bb6">pixelRatio</a> { 1.0f }</td></tr>
 <tr class="separator:a7cb04be7931c10a1a93bb386ba1f7bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcae9cdb5ec2a2c07ab8bad1508bd3d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a414c921e724deba1be8a3f3b5a20af76">Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#abcae9cdb5ec2a2c07ab8bad1508bd3d8">framebufferSize</a></td></tr>
@@ -492,6 +520,24 @@ Public Attributes</h2></td></tr>
 <tr class="separator:af7ea8952ac1b288e433a45fab542197f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60764bea45c4611d5503e08c56343884"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#a96cbf0a63696ed1b370277034184b276">TouchSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a60764bea45c4611d5503e08c56343884">touchEndSignal</a></td></tr>
 <tr class="separator:a60764bea45c4611d5503e08c56343884"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8884e3caa9eee5ed6e0ffd455d242d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#a62f4d32e775c42c30666a31894a9b223">TouchpadRotateSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ad8884e3caa9eee5ed6e0ffd455d242d6">touchpadRotateStartSignal</a></td></tr>
+<tr class="separator:ad8884e3caa9eee5ed6e0ffd455d242d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a231229e9034e5122844b9b172a785999"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#a62f4d32e775c42c30666a31894a9b223">TouchpadRotateSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a231229e9034e5122844b9b172a785999">touchpadRotateChangeSignal</a></td></tr>
+<tr class="separator:a231229e9034e5122844b9b172a785999"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbb4870aa3ef726c36c71d5a46916ee8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#abb2f84f3cab0aebf51969ad29d5a57cf">TouchpadEndSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#adbb4870aa3ef726c36c71d5a46916ee8">touchpadRotateCancelSignal</a></td></tr>
+<tr class="separator:adbb4870aa3ef726c36c71d5a46916ee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aead1a12ace623347ad25581c8a5dafa4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#abb2f84f3cab0aebf51969ad29d5a57cf">TouchpadEndSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#aead1a12ace623347ad25581c8a5dafa4">touchpadRotateEndSignal</a></td></tr>
+<tr class="separator:aead1a12ace623347ad25581c8a5dafa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaaadda78b0b75f63bcfa65b5de34378"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#ab6c20cca8509e6755257600313656c81">TouchpadSwipeSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#abaaadda78b0b75f63bcfa65b5de34378">touchpadSwipeSignal</a></td></tr>
+<tr class="separator:abaaadda78b0b75f63bcfa65b5de34378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a42f7ab6f66006642e5d03a703ba0a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#ace0261c4909b6df91d3592c8e18df548">TouchpadZoomSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a6a42f7ab6f66006642e5d03a703ba0a4">touchpadZoomStartSignal</a></td></tr>
+<tr class="separator:a6a42f7ab6f66006642e5d03a703ba0a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad16e8f9ad76b26c11bcafe1e1df7489a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#ace0261c4909b6df91d3592c8e18df548">TouchpadZoomSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ad16e8f9ad76b26c11bcafe1e1df7489a">touchpadZoomChangeSignal</a></td></tr>
+<tr class="separator:ad16e8f9ad76b26c11bcafe1e1df7489a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57f90cb90ec1fa68eb60e59b8247b5f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#abb2f84f3cab0aebf51969ad29d5a57cf">TouchpadEndSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a57f90cb90ec1fa68eb60e59b8247b5f1">touchpadZoomCancelSignal</a></td></tr>
+<tr class="separator:a57f90cb90ec1fa68eb60e59b8247b5f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae94dbece7c82d64d69e971099be15be0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#abb2f84f3cab0aebf51969ad29d5a57cf">TouchpadEndSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#ae94dbece7c82d64d69e971099be15be0">touchpadZoomEndSignal</a></td></tr>
+<tr class="separator:ae94dbece7c82d64d69e971099be15be0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a146ffa3e3ec7f685b30eace50f51b8e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Viewer.html#a56a4069031303c5161df2d5e4155ae22">PostFocusSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#a146ffa3e3ec7f685b30eace50f51b8e1">postFocusSignal</a></td></tr>
 <tr class="separator:a146ffa3e3ec7f685b30eace50f51b8e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff9491b01a7abb642aa180e3503e8650"><td class="memItemLeft" align="right" valign="top">class MRVIEWER_CLASS <a class="el" href="classMR_1_1Viewer_1_1EventQueue.html">MR::Viewer::EventQueue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer.html#aff9491b01a7abb642aa180e3503e8650">eventQueue</a></td></tr>
@@ -721,6 +767,62 @@ Friends</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classMR_1_1Viewer.html#a005ec95118bcf872af734950909d0a9b">MR::Viewer::SpaceMouseMoveSignal</a> =  boost::signals2::signal&lt;bool( const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>&amp; translate, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>&amp; rotate ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb2f84f3cab0aebf51969ad29d5a57cf" name="abb2f84f3cab0aebf51969ad29d5a57cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb2f84f3cab0aebf51969ad29d5a57cf">&#9670;&#160;</a></span>TouchpadEndSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classMR_1_1Viewer.html#abb2f84f3cab0aebf51969ad29d5a57cf">MR::Viewer::TouchpadEndSignal</a> =  boost::signals2::signal&lt;bool(), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a62f4d32e775c42c30666a31894a9b223" name="a62f4d32e775c42c30666a31894a9b223"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62f4d32e775c42c30666a31894a9b223">&#9670;&#160;</a></span>TouchpadRotateSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classMR_1_1Viewer.html#a62f4d32e775c42c30666a31894a9b223">MR::Viewer::TouchpadRotateSignal</a> =  boost::signals2::signal&lt;bool( float angle ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6c20cca8509e6755257600313656c81" name="ab6c20cca8509e6755257600313656c81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6c20cca8509e6755257600313656c81">&#9670;&#160;</a></span>TouchpadSwipeSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classMR_1_1Viewer.html#ab6c20cca8509e6755257600313656c81">MR::Viewer::TouchpadSwipeSignal</a> =  boost::signals2::signal&lt;bool( float deltaX, float deltaY, bool kinetic ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ace0261c4909b6df91d3592c8e18df548" name="ace0261c4909b6df91d3592c8e18df548"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace0261c4909b6df91d3592c8e18df548">&#9670;&#160;</a></span>TouchpadZoomSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classMR_1_1Viewer.html#ace0261c4909b6df91d3592c8e18df548">MR::Viewer::TouchpadZoomSignal</a> =  boost::signals2::signal&lt;bool( float scale ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2886,6 +2988,180 @@ template&lt;typename PluginType &gt; </div>
 
 </div>
 </div>
+<a id="a2e41f2dea74d4d2b1fad985652ae1525" name="a2e41f2dea74d4d2b1fad985652ae1525"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e41f2dea74d4d2b1fad985652ae1525">&#9670;&#160;</a></span>touchpadRotateCancel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::touchpadRotateCancel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab50c17efd94895519af5f6eb8ef23a4c" name="ab50c17efd94895519af5f6eb8ef23a4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab50c17efd94895519af5f6eb8ef23a4c">&#9670;&#160;</a></span>touchpadRotateChange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::touchpadRotateChange </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>angle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad1231df4a802640f58ce4f6b7f30fe5a" name="ad1231df4a802640f58ce4f6b7f30fe5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1231df4a802640f58ce4f6b7f30fe5a">&#9670;&#160;</a></span>touchpadRotateEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::touchpadRotateEnd </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb790d6df4df25d9eff85a45d010abbe" name="aeb790d6df4df25d9eff85a45d010abbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb790d6df4df25d9eff85a45d010abbe">&#9670;&#160;</a></span>touchpadRotateStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::touchpadRotateStart </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>angle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad83f8c9ed36ca42f4a738e1b72897195" name="ad83f8c9ed36ca42f4a738e1b72897195"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad83f8c9ed36ca42f4a738e1b72897195">&#9670;&#160;</a></span>touchpadSwipe()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::touchpadSwipe </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>deltaX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>deltaY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>kinetic</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a136043a0819daf906391d2a7de86fa8a" name="a136043a0819daf906391d2a7de86fa8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a136043a0819daf906391d2a7de86fa8a">&#9670;&#160;</a></span>touchpadZoomCancel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::touchpadZoomCancel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a06f7a7cccede18cd76821ad2a6e0e975" name="a06f7a7cccede18cd76821ad2a6e0e975"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06f7a7cccede18cd76821ad2a6e0e975">&#9670;&#160;</a></span>touchpadZoomChange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::touchpadZoomChange </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scale</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7f35ab5f212af2c3feed8c4ac18c935b" name="a7f35ab5f212af2c3feed8c4ac18c935b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f35ab5f212af2c3feed8c4ac18c935b">&#9670;&#160;</a></span>touchpadZoomEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::touchpadZoomEnd </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2789a8b82b9b6e9fc1ce2309b2ff66d3" name="a2789a8b82b9b6e9fc1ce2309b2ff66d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2789a8b82b9b6e9fc1ce2309b2ff66d3">&#9670;&#160;</a></span>touchpadZoomStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::touchpadZoomStart </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scale</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a477a9c818f621b480bfe6bceb017d06e" name="a477a9c818f621b480bfe6bceb017d06e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a477a9c818f621b480bfe6bceb017d06e">&#9670;&#160;</a></span>touchStart()</h2>
 
@@ -3684,6 +3960,146 @@ template&lt;typename PluginType &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classMR_1_1Viewer.html#a96cbf0a63696ed1b370277034184b276">TouchSignal</a> MR::Viewer::touchMoveSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa6ea1b7c579a6da545f54341084e1130" name="aa6ea1b7c579a6da545f54341084e1130"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6ea1b7c579a6da545f54341084e1130">&#9670;&#160;</a></span>touchpadController</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1TouchpadController.html">TouchpadController</a> MR::Viewer::touchpadController</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adbb4870aa3ef726c36c71d5a46916ee8" name="adbb4870aa3ef726c36c71d5a46916ee8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbb4870aa3ef726c36c71d5a46916ee8">&#9670;&#160;</a></span>touchpadRotateCancelSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Viewer.html#abb2f84f3cab0aebf51969ad29d5a57cf">TouchpadEndSignal</a> MR::Viewer::touchpadRotateCancelSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a231229e9034e5122844b9b172a785999" name="a231229e9034e5122844b9b172a785999"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a231229e9034e5122844b9b172a785999">&#9670;&#160;</a></span>touchpadRotateChangeSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Viewer.html#a62f4d32e775c42c30666a31894a9b223">TouchpadRotateSignal</a> MR::Viewer::touchpadRotateChangeSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aead1a12ace623347ad25581c8a5dafa4" name="aead1a12ace623347ad25581c8a5dafa4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aead1a12ace623347ad25581c8a5dafa4">&#9670;&#160;</a></span>touchpadRotateEndSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Viewer.html#abb2f84f3cab0aebf51969ad29d5a57cf">TouchpadEndSignal</a> MR::Viewer::touchpadRotateEndSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad8884e3caa9eee5ed6e0ffd455d242d6" name="ad8884e3caa9eee5ed6e0ffd455d242d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8884e3caa9eee5ed6e0ffd455d242d6">&#9670;&#160;</a></span>touchpadRotateStartSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Viewer.html#a62f4d32e775c42c30666a31894a9b223">TouchpadRotateSignal</a> MR::Viewer::touchpadRotateStartSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abaaadda78b0b75f63bcfa65b5de34378" name="abaaadda78b0b75f63bcfa65b5de34378"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaaadda78b0b75f63bcfa65b5de34378">&#9670;&#160;</a></span>touchpadSwipeSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Viewer.html#ab6c20cca8509e6755257600313656c81">TouchpadSwipeSignal</a> MR::Viewer::touchpadSwipeSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a57f90cb90ec1fa68eb60e59b8247b5f1" name="a57f90cb90ec1fa68eb60e59b8247b5f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57f90cb90ec1fa68eb60e59b8247b5f1">&#9670;&#160;</a></span>touchpadZoomCancelSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Viewer.html#abb2f84f3cab0aebf51969ad29d5a57cf">TouchpadEndSignal</a> MR::Viewer::touchpadZoomCancelSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad16e8f9ad76b26c11bcafe1e1df7489a" name="ad16e8f9ad76b26c11bcafe1e1df7489a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad16e8f9ad76b26c11bcafe1e1df7489a">&#9670;&#160;</a></span>touchpadZoomChangeSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Viewer.html#ace0261c4909b6df91d3592c8e18df548">TouchpadZoomSignal</a> MR::Viewer::touchpadZoomChangeSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae94dbece7c82d64d69e971099be15be0" name="ae94dbece7c82d64d69e971099be15be0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae94dbece7c82d64d69e971099be15be0">&#9670;&#160;</a></span>touchpadZoomEndSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Viewer.html#abb2f84f3cab0aebf51969ad29d5a57cf">TouchpadEndSignal</a> MR::Viewer::touchpadZoomEndSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6a42f7ab6f66006642e5d03a703ba0a4" name="a6a42f7ab6f66006642e5d03a703ba0a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a42f7ab6f66006642e5d03a703ba0a4">&#9670;&#160;</a></span>touchpadZoomStartSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Viewer.html#ace0261c4909b6df91d3592c8e18df548">TouchpadZoomSignal</a> MR::Viewer::touchpadZoomStartSignal</td>
         </tr>
       </table>
 </div><div class="memdoc">

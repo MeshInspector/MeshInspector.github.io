@@ -115,6 +115,7 @@ $(document).ready(function(){initNavTree('MRViewer_8h.html',''); initResizable()
 <code>#include &quot;<a class="el" href="MRMouseController_8h_source.html">MRMouseController.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRTouchesController_8h_source.html">MRTouchesController.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRSpaceMouseController_8h_source.html">MRSpaceMouseController.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRTouchpadController_8h_source.html">MRTouchpadController.h</a>&quot;</code><br />
 <code>#include &lt;boost/signals2/signal.hpp&gt;</code><br />
 <code>#include &lt;chrono&gt;</code><br />
 <code>#include &lt;cstdint&gt;</code><br />
@@ -147,6 +148,11 @@ Namespaces</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:a2c688df55bdadf35189e97880b6dc592"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRViewer_8h.html#a2c688df55bdadf35189e97880b6dc592">MAKE_SLOT</a>(func)&#160;&#160;&#160;<a class="el" href="MRViewer_8h.html#a4e10ab3e9579ce8ffbd2209497603cbc">bindSlotCallback</a>(this,func)</td></tr>
 <tr class="separator:a2c688df55bdadf35189e97880b6dc592"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5148a6d21d216f28a3c1da0055472db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRViewer_8h.html#ab5148a6d21d216f28a3c1da0055472db">ENQUEUE_VIEWER_METHOD</a>(NAME,  METHOD)</td></tr>
+<tr class="memdesc:ab5148a6d21d216f28a3c1da0055472db"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper macros to add an <code><a class="el" href="classMR_1_1Viewer.html">MR::Viewer</a></code> method call to the event queue  <br /></td></tr>
+<tr class="separator:ab5148a6d21d216f28a3c1da0055472db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a1151cfe48505fed9bdf9d94af7cbde"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MRViewer_8h.html#a1a1151cfe48505fed9bdf9d94af7cbde">ENQUEUE_VIEWER_METHOD_ARGS</a>(NAME,  METHOD, ...)</td></tr>
+<tr class="separator:a1a1151cfe48505fed9bdf9d94af7cbde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -159,6 +165,79 @@ Functions</h2></td></tr>
 <tr class="separator:a03d769eae4675e20e6b50c3fddaf8eba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ab5148a6d21d216f28a3c1da0055472db" name="ab5148a6d21d216f28a3c1da0055472db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5148a6d21d216f28a3c1da0055472db">&#9670;&#160;</a></span>ENQUEUE_VIEWER_METHOD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ENQUEUE_VIEWER_METHOD</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">NAME, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">METHOD&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_function" href="namespaceMR.html#a3e7c908172571071d6796d054d25a4f4">MR::getViewerInstance</a>().<a class="code hl_variable" href="classMR_1_1Viewer.html#aff9491b01a7abb642aa180e3503e8650">eventQueue</a>.<a class="code hl_function" href="classMR_1_1Viewer_1_1EventQueue.html#a7d2c72d3d805d498bb47b57fe02b530c">emplace</a>( { NAME, [] { \</div>
+<div class="line">    MR::getViewerInstance() . METHOD (); \</div>
+<div class="line">} } )</div>
+<div class="ttc" id="aclassMR_1_1Viewer_1_1EventQueue_html_a7d2c72d3d805d498bb47b57fe02b530c"><div class="ttname"><a href="classMR_1_1Viewer_1_1EventQueue.html#a7d2c72d3d805d498bb47b57fe02b530c">MR::Viewer::EventQueue::emplace</a></div><div class="ttdeci">MRVIEWER_API void emplace(NamedEvent event, bool skipable=false)</div></div>
+<div class="ttc" id="aclassMR_1_1Viewer_html_aff9491b01a7abb642aa180e3503e8650"><div class="ttname"><a href="classMR_1_1Viewer.html#aff9491b01a7abb642aa180e3503e8650">MR::Viewer::eventQueue</a></div><div class="ttdeci">class MRVIEWER_CLASS MR::Viewer::EventQueue eventQueue</div></div>
+<div class="ttc" id="anamespaceMR_html_a3e7c908172571071d6796d054d25a4f4"><div class="ttname"><a href="namespaceMR.html#a3e7c908172571071d6796d054d25a4f4">MR::getViewerInstance</a></div><div class="ttdeci">MRVIEWER_API Viewer &amp; getViewerInstance()</div></div>
+</div><!-- fragment -->
+<p>helper macros to add an <code><a class="el" href="classMR_1_1Viewer.html">MR::Viewer</a></code> method call to the event queue </p>
+
+</div>
+</div>
+<a id="a1a1151cfe48505fed9bdf9d94af7cbde" name="a1a1151cfe48505fed9bdf9d94af7cbde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a1151cfe48505fed9bdf9d94af7cbde">&#9670;&#160;</a></span>ENQUEUE_VIEWER_METHOD_ARGS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ENQUEUE_VIEWER_METHOD_ARGS</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">NAME, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">METHOD, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_function" href="namespaceMR.html#a3e7c908172571071d6796d054d25a4f4">MR::getViewerInstance</a>().<a class="code hl_variable" href="classMR_1_1Viewer.html#aff9491b01a7abb642aa180e3503e8650">eventQueue</a>.<a class="code hl_function" href="classMR_1_1Viewer_1_1EventQueue.html#a7d2c72d3d805d498bb47b57fe02b530c">emplace</a>( { NAME, [__VA_ARGS__] { \</div>
+<div class="line">    MR::getViewerInstance() . METHOD ( __VA_ARGS__ ); \</div>
+<div class="line">} } )</div>
+</div><!-- fragment -->
+</div>
+</div>
 <a id="a2c688df55bdadf35189e97880b6dc592" name="a2c688df55bdadf35189e97880b6dc592"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2c688df55bdadf35189e97880b6dc592">&#9670;&#160;</a></span>MAKE_SLOT</h2>
 

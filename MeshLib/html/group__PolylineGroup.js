@@ -10,6 +10,7 @@ var group__PolylineGroup =
       [ "addFromPoints", "structMR_1_1Polyline.html#ad1f0bc764cd99c848a21add405261785", null ],
       [ "addFromPoints", "structMR_1_1Polyline.html#aae40d1c6ba0e12c47a855747d44d40ea", null ],
       [ "addFromSurfacePath", "structMR_1_1Polyline.html#a97fea45a4170313a719a900d98a1ee7d", null ],
+      [ "addPart", "structMR_1_1Polyline.html#a51d38e177ee751404d7e836928dc4689", null ],
       [ "addPartByMask", "structMR_1_1Polyline.html#a3c415d06f60c7ddc956d9c1f5b4b9609", null ],
       [ "computeBoundingBox", "structMR_1_1Polyline.html#af1debf021b9bc68d02c2905e0527ab11", null ],
       [ "contours", "structMR_1_1Polyline.html#a583dc32f13f0e3cede180ee9df664622", null ],
@@ -47,6 +48,7 @@ var group__PolylineGroup =
       [ "operator==", "classMR_1_1PolylineUndirectedEdgeIterator.html#aa10debad27ce2b86f238db3d967a2c22", null ]
     ] ],
     [ "MR::PolylineTopology", "classMR_1_1PolylineTopology.html", [
+      [ "addPart", "classMR_1_1PolylineTopology.html#a05eeb54bc7a9843ce0cd5a63aff0cbca", null ],
       [ "addPartByMask", "classMR_1_1PolylineTopology.html#acd964eb898eab563867d4b84cc4af69d", null ],
       [ "addVertId", "classMR_1_1PolylineTopology.html#abfb6e0044fbe8c29dd9114c691a687a7", null ],
       [ "buildFromContours", "classMR_1_1PolylineTopology.html#aab7fc1ff330a8a3945824279673d2311", null ],

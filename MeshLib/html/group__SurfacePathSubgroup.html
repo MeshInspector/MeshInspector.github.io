@@ -116,6 +116,10 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:ga0d52c069a53aab9d22c0f2c4e3f262a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">the algorithm to compute approximately geodesic path  <a href="group__SurfacePathSubgroup.html#ga0d52c069a53aab9d22c0f2c4e3f262a2">More...</a><br /></td></tr>
 <tr class="separator:ga0d52c069a53aab9d22c0f2c4e3f262a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3887057b7aa95d9993b5ce57130c25a6"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6">MR::ExtremeEdgeType</a> { <a class="el" href="group__SurfacePathSubgroup.html#gga3887057b7aa95d9993b5ce57130c25a6ae9eeca48aa5cccacde08760c6ec9dd5a">MR::ExtremeEdgeType::Ridge</a>
+, <a class="el" href="group__SurfacePathSubgroup.html#gga3887057b7aa95d9993b5ce57130c25a6a90290d32b4deae8703b07bfcd17af5a4">MR::ExtremeEdgeType::Gorge</a>
+ }</td></tr>
+<tr class="separator:ga3887057b7aa95d9993b5ce57130c25a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -134,9 +138,9 @@ Functions</h2></td></tr>
 <tr class="separator:ga1ad31d228082e7267612e40a391ced95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga94fc9b920115441f1e4135042940a234"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathSubgroup.html#ga94fc9b920115441f1e4135042940a234">MR::computeSteepestDescentPath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a3312c2660218fff98bbaefbab53d2253">VertScalars</a> &amp;field, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, <a class="el" href="namespaceMR.html#a6f060a604c3462c7d0b1df7dac703237">SurfacePath</a> *outPath, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> *outVertexReached=nullptr)</td></tr>
 <tr class="separator:ga94fc9b920115441f1e4135042940a234"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga87754a320839e21af6fa5bd0ee997e8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathSubgroup.html#ga87754a320839e21af6fa5bd0ee997e8e">MR::findRidgeEdges</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a3312c2660218fff98bbaefbab53d2253">VertScalars</a> &amp;field)</td></tr>
-<tr class="memdesc:ga87754a320839e21af6fa5bd0ee997e8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes all edges in the mesh, where the field not-increases both in left and right triangles  <br /></td></tr>
-<tr class="separator:ga87754a320839e21af6fa5bd0ee997e8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0bd366cd8b4e0bb2f8754392be22cb12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathSubgroup.html#ga0bd366cd8b4e0bb2f8754392be22cb12">MR::findExtremeEdges</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a3312c2660218fff98bbaefbab53d2253">VertScalars</a> &amp;field, <a class="el" href="group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6">ExtremeEdgeType</a> type)</td></tr>
+<tr class="memdesc:ga0bd366cd8b4e0bb2f8754392be22cb12"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes all edges in the mesh, where the field not-increases both in left and right triangles  <br /></td></tr>
+<tr class="separator:ga0bd366cd8b4e0bb2f8754392be22cb12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2ea9a6428c9bbd3ec9d9f96cc66bd1d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae992c100813594ea6369139389c5b3fa">HashMap</a>&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathSubgroup.html#ga2ea9a6428c9bbd3ec9d9f96cc66bd1d5">MR::computeClosestSurfacePathTargets</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;starts, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;ends, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *vertRegion=nullptr, <a class="el" href="namespaceMR.html#a3312c2660218fff98bbaefbab53d2253">VertScalars</a> *outSurfaceDistances=nullptr)</td></tr>
 <tr class="separator:ga2ea9a6428c9bbd3ec9d9f96cc66bd1d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaaa4dc30756e93cfc4cd2f88758193360"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a787dc7095d33cb31e282f0d018c047e0">SurfacePaths</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathSubgroup.html#gaaa4dc30756e93cfc4cd2f88758193360">MR::getSurfacePathsViaVertices</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;vs)</td></tr>
@@ -152,6 +156,32 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ga3887057b7aa95d9993b5ce57130c25a6" name="ga3887057b7aa95d9993b5ce57130c25a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3887057b7aa95d9993b5ce57130c25a6">&#9670;&#160;</a></span>ExtremeEdgeType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6">MR::ExtremeEdgeType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga3887057b7aa95d9993b5ce57130c25a6ae9eeca48aa5cccacde08760c6ec9dd5a" name="gga3887057b7aa95d9993b5ce57130c25a6ae9eeca48aa5cccacde08760c6ec9dd5a"></a>Ridge&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga3887057b7aa95d9993b5ce57130c25a6a90290d32b4deae8703b07bfcd17af5a4" name="gga3887057b7aa95d9993b5ce57130c25a6a90290d32b4deae8703b07bfcd17af5a4"></a>Gorge&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="ga0d52c069a53aab9d22c0f2c4e3f262a2" name="ga0d52c069a53aab9d22c0f2c4e3f262a2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga0d52c069a53aab9d22c0f2c4e3f262a2">&#9670;&#160;</a></span>GeodesicPathApprox</h2>
 
@@ -574,14 +604,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga87754a320839e21af6fa5bd0ee997e8e" name="ga87754a320839e21af6fa5bd0ee997e8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga87754a320839e21af6fa5bd0ee997e8e">&#9670;&#160;</a></span>findRidgeEdges()</h2>
+<a id="ga0bd366cd8b4e0bb2f8754392be22cb12" name="ga0bd366cd8b4e0bb2f8754392be22cb12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0bd366cd8b4e0bb2f8754392be22cb12">&#9670;&#160;</a></span>findExtremeEdges()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> MR::findRidgeEdges </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> MR::findExtremeEdges </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
           <td class="paramname"><em>mesh</em>, </td>
@@ -590,7 +620,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="namespaceMR.html#a3312c2660218fff98bbaefbab53d2253">VertScalars</a> &amp;&#160;</td>
-          <td class="paramname"><em>field</em>&#160;</td>
+          <td class="paramname"><em>field</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6">ExtremeEdgeType</a>&#160;</td>
+          <td class="paramname"><em>type</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

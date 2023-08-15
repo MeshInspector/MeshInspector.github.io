@@ -219,7 +219,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae6d9df33700f13448db261903bb8f48f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ada98ebf3fec74759dd46700389a3e556">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectLabel.html#ae6d9df33700f13448db261903bb8f48f">getWorldBox</a> (<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a>={}) const override</td></tr>
 <tr class="separator:ae6d9df33700f13448db261903bb8f48f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b5155ef1e07c779cf760515b4653c08"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectLabel.html#a2b5155ef1e07c779cf760515b4653c08">labelRepresentingMesh</a> () const</td></tr>
-<tr class="memdesc:a2b5155ef1e07c779cf760515b4653c08"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns mesh that represents current label  <br /></td></tr>
 <tr class="separator:a2b5155ef1e07c779cf760515b4653c08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc209976351234f51bc3726fb7386107"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectLabel.html#abc209976351234f51bc3726fb7386107">heapBytes</a> () const override</td></tr>
 <tr class="memdesc:abc209976351234f51bc3726fb7386107"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
@@ -592,11 +591,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:acdc8c19d185235427011882430949f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef8442bcefbb31142bd3fa7628a54a0e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ada98ebf3fec74759dd46700389a3e556">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectLabel.html#aef8442bcefbb31142bd3fa7628a54a0e">computeBoundingBox_</a> () const override</td></tr>
 <tr class="separator:aef8442bcefbb31142bd3fa7628a54a0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2aa073f9681f5476f739c680578e3c8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt; std::future&lt; void &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectLabel.html#ae2aa073f9681f5476f739c680578e3c8">serializeModel_</a> (const std::filesystem::path &amp;path) const override</td></tr>
-<tr class="separator:ae2aa073f9681f5476f739c680578e3c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3970d100b076a324e10ab1da771c51b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectLabel.html#ac3970d100b076a324e10ab1da771c51b">deserializeModel_</a> (const std::filesystem::path &amp;path, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={}) override</td></tr>
-<tr class="memdesc:ac3970d100b076a324e10ab1da771c51b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads model from file.  <br /></td></tr>
-<tr class="separator:ac3970d100b076a324e10ab1da771c51b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a025c819b63a9c9c8c4e31d77ccb6e5dd"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectLabel.html#a025c819b63a9c9c8c4e31d77ccb6e5dd">serializeFields_</a> (Json::Value &amp;root) const override</td></tr>
 <tr class="separator:a025c819b63a9c9c8c4e31d77ccb6e5dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a648f9c3cf5b8ed1e5aae2fcca216e22a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectLabel.html#a648f9c3cf5b8ed1e5aae2fcca216e22a">deserializeFields_</a> (const Json::Value &amp;root) override</td></tr>
@@ -651,10 +645,6 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ad15dc682a4c68f588608e3690da71f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0378ca9fa08bdab3d867515998f544ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectLabel.html#a0378ca9fa08bdab3d867515998f544ea">pivotPoint_</a></td></tr>
 <tr class="separator:a0378ca9fa08bdab3d867515998f544ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ec8f174d0cd7cbd62ceeefb4ef80b62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectLabel.html#a8ec8f174d0cd7cbd62ceeefb4ef80b62">pivotShift_</a></td></tr>
-<tr class="separator:a8ec8f174d0cd7cbd62ceeefb4ef80b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff2541725116733d21e4a8dc286f437b"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectLabel.html#aff2541725116733d21e4a8dc286f437b">mesh_</a></td></tr>
-<tr class="separator:aff2541725116733d21e4a8dc286f437b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa11557f43ed662feb8a618c2df1db1e7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectLabel.html#aa11557f43ed662feb8a618c2df1db1e7">fontHeight_</a> { 25.0f }</td></tr>
 <tr class="memdesc:aa11557f43ed662feb8a618c2df1db1e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">size of label font on screen in pixels  <br /></td></tr>
 <tr class="separator:aa11557f43ed662feb8a618c2df1db1e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -983,46 +973,6 @@ Additional Inherited Members</h2></td></tr>
 <p>Reads parameters from json value </p><dl class="section note"><dt>Note</dt><dd>if you override this method, please call Base::deserializeFields_(root) in the beginning </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1Object.html#afa7de2dfba47f9766bfa741f01f73e42">MR::Object</a>.</p>
-
-</div>
-</div>
-<a id="ac3970d100b076a324e10ab1da771c51b" name="ac3970d100b076a324e10ab1da771c51b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3970d100b076a324e10ab1da771c51b">&#9670;&#160;</a></span>deserializeModel_()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a> MR::ObjectLabel::deserializeModel_ </td>
-          <td>(</td>
-          <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
-          <td class="paramname"><em>path</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
-          <td class="paramname"><em>progressCb</em> = <code>{}</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reads model from file. </p>
-
-<p>Reimplemented from <a class="el" href="classMR_1_1Object.html#aa49d2225cf98e7276390469eef531a5e">MR::Object</a>.</p>
 
 </div>
 </div>
@@ -1541,8 +1491,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>returns mesh that represents current label </p>
+<p>returns mesh that represents current label only used in Render object for binding, cleared after it </p>
 
 </div>
 </div>
@@ -1598,35 +1547,6 @@ Additional Inherited Members</h2></td></tr>
 <p>Write parameters to given Json::Value, </p><dl class="section note"><dt>Note</dt><dd>if you override this method, please call Base::serializeFields_(root) in the beginning </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1VisualObject.html#aa7e5231f013c0e9e1b528c69759cc60d">MR::VisualObject</a>.</p>
-
-</div>
-</div>
-<a id="ae2aa073f9681f5476f739c680578e3c8" name="ae2aa073f9681f5476f739c680578e3c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2aa073f9681f5476f739c680578e3c8">&#9670;&#160;</a></span>serializeModel_()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt; std::future&lt; void &gt;, std::string &gt; MR::ObjectLabel::serializeModel_ </td>
-          <td>(</td>
-          <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
-          <td class="paramname"><em>path</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Creates future to save object model (e.g. mesh) in given file path is full filename without extension </p>
-
-<p>Reimplemented from <a class="el" href="classMR_1_1Object.html#a48acb993646c1f0c9b65756640c6f095">MR::Object</a>.</p>
 
 </div>
 </div>
@@ -2333,28 +2253,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aff2541725116733d21e4a8dc286f437b" name="aff2541725116733d21e4a8dc286f437b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff2541725116733d21e4a8dc286f437b">&#9670;&#160;</a></span>mesh_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="structMR_1_1Mesh.html">Mesh</a>&gt; MR::ObjectLabel::mesh_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ad15dc682a4c68f588608e3690da71f81" name="ad15dc682a4c68f588608e3690da71f81"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad15dc682a4c68f588608e3690da71f81">&#9670;&#160;</a></span>pathToFont_</h2>
 
@@ -2388,28 +2286,6 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> MR::ObjectLabel::pivotPoint_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8ec8f174d0cd7cbd62ceeefb4ef80b62" name="a8ec8f174d0cd7cbd62ceeefb4ef80b62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ec8f174d0cd7cbd62ceeefb4ef80b62">&#9670;&#160;</a></span>pivotShift_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#a61594f31bab4ef06a3f164c0199198e7">Vector2f</a> MR::ObjectLabel::pivotShift_</td>
         </tr>
       </table>
   </td>

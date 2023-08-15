@@ -6,7 +6,7 @@ var structMR_1_1EdgePoint =
     [ "EdgePoint", "structMR_1_1EdgePoint.html#ab81774167430d41253fb9bb448ae120d", null ],
     [ "getClosestVertex", "structMR_1_1EdgePoint.html#a28488f2c0e7f4adcdc3726f65d573682", null ],
     [ "getClosestVertex", "structMR_1_1EdgePoint.html#a4d2be6b280e0a7eeb76615b7a1b368d6", null ],
-    [ "inVertex", "structMR_1_1EdgePoint.html#af77c10c46633d93caaf708afeb353395", null ],
+    [ "inVertex", "structMR_1_1EdgePoint.html#a25f0e8422ec2c8591279616e4f81709a", null ],
     [ "inVertex", "structMR_1_1EdgePoint.html#a564ab78e8cb9ad078dc7f1b009c594c4", null ],
     [ "inVertex", "structMR_1_1EdgePoint.html#a8af6e44f3bf41c0895fbef7ae838a263", null ],
     [ "moveToClosestVertex", "structMR_1_1EdgePoint.html#acd27d6b536b5412853a94133280b6802", null ],
@@ -16,6 +16,6 @@ var structMR_1_1EdgePoint =
     [ "valid", "structMR_1_1EdgePoint.html#acea7869523473243ff95a916aa64a7d6", null ],
     [ "fromSameTriangle", "structMR_1_1EdgePoint.html#aeadc3f42a8934c969baee0104a2b7de3", null ],
     [ "fromSameTriangle", "structMR_1_1EdgePoint.html#a1b897527d833919c4b3da5c84edd2d23", null ],
-    [ "a", "structMR_1_1EdgePoint.html#a7e9e303e69f3caa25978781404680ff5", null ],
+    [ "a", "structMR_1_1EdgePoint.html#aa0e9261e0dcf014db57e19ce882ddcfb", null ],
     [ "e", "structMR_1_1EdgePoint.html#aa0fb43077718779351b94f5a803498a6", null ]
 ];

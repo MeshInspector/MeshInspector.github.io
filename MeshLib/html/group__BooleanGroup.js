@@ -21,8 +21,13 @@ var group__BooleanGroup =
       [ "maps", "structMR_1_1BooleanResultMapper.html#a3a2abc280314da83919063aff2e0490f", null ]
     ] ],
     [ "MR::CutMeshParameters", "structMR_1_1CutMeshParameters.html", [
-      [ "forceFillAfterBadCut", "structMR_1_1CutMeshParameters.html#a1ccb0c5475c36ea2534973f424d95cbc", null ],
+      [ "ForceFill", "structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33", [
+        [ "None", "structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33a6adf97f83acf6453d4a6a4b1070f3754", null ],
+        [ "Good", "structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33a0c6ad70beb3a7e76c3fc7adab7c46acc", null ],
+        [ "All", "structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680", null ]
+      ] ],
       [ "new2OldMap", "structMR_1_1CutMeshParameters.html#a75222f670fe00aaef7a945b8ccbb3ea9", null ],
+      [ "None", "structMR_1_1CutMeshParameters.html#a4c3c99dc26d25d555e9ebf6c6dfc5cbf", null ],
       [ "sortData", "structMR_1_1CutMeshParameters.html#a3aaef62dde9c7e4727195071089e409f", null ]
     ] ],
     [ "MR::CutMeshResult", "structMR_1_1CutMeshResult.html", [
@@ -53,7 +58,7 @@ var group__BooleanGroup =
       [ "MR::BooleanOperation::DifferenceAB", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda676747ace506f0a560e1d99f5da1ab2a", null ],
       [ "MR::BooleanOperation::Count", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
-    [ "MR::boolean", "group__BooleanGroup.html#ga4faee9e7f419b71e19411835bb17a61c", null ],
+    [ "MR::boolean", "group__BooleanGroup.html#ga5dc229b89588f1a3416aca4910e460d9", null ],
     [ "MR::convertMeshTriPointsToClosedContour", "group__BooleanGroup.html#ga7e074bf5b96da15f65f8eba043230e52", null ],
     [ "MR::convertMeshTriPointsToMeshContour", "group__BooleanGroup.html#ga437789475f72b769a2296df65e71487d", null ],
     [ "MR::convertSurfacePathsToMeshContours", "group__BooleanGroup.html#ga9d5cd0e3c54003e08c1884a7895b3e74", null ],

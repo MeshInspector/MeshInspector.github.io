@@ -1,5 +1,9 @@
 var MRSurfacePath_8h =
 [
+    [ "ExtremeEdgeType", "MRSurfacePath_8h.html#ga3887057b7aa95d9993b5ce57130c25a6", [
+      [ "Ridge", "MRSurfacePath_8h.html#gga3887057b7aa95d9993b5ce57130c25a6ae9eeca48aa5cccacde08760c6ec9dd5a", null ],
+      [ "Gorge", "MRSurfacePath_8h.html#gga3887057b7aa95d9993b5ce57130c25a6a90290d32b4deae8703b07bfcd17af5a4", null ]
+    ] ],
     [ "GeodesicPathApprox", "MRSurfacePath_8h.html#ga0d52c069a53aab9d22c0f2c4e3f262a2", [
       [ "DijkstraBiDir", "MRSurfacePath_8h.html#gga0d52c069a53aab9d22c0f2c4e3f262a2a688de737bb8774938c023e0f0a373184", null ],
       [ "DijkstraAStar", "MRSurfacePath_8h.html#gga0d52c069a53aab9d22c0f2c4e3f262a2aa9132a8a9b3c0d8c70e577b23e01e70d", null ],
@@ -16,7 +20,7 @@ var MRSurfacePath_8h =
     [ "computeSteepestDescentPath", "MRSurfacePath_8h.html#ga94fc9b920115441f1e4135042940a234", null ],
     [ "computeSteepestDescentPath", "MRSurfacePath_8h.html#ga1ad31d228082e7267612e40a391ced95", null ],
     [ "computeSurfacePath", "MRSurfacePath_8h.html#ga446cf8a4654ec1a589f1ffd89762aa29", null ],
-    [ "findRidgeEdges", "MRSurfacePath_8h.html#ga87754a320839e21af6fa5bd0ee997e8e", null ],
+    [ "findExtremeEdges", "MRSurfacePath_8h.html#ga0bd366cd8b4e0bb2f8754392be22cb12", null ],
     [ "getSurfacePathsViaVertices", "MRSurfacePath_8h.html#gaaa4dc30756e93cfc4cd2f88758193360", null ],
     [ "surfacePathLength", "MRSurfacePath_8h.html#gacebe3b7371a72e49ddfbabc14fd008b4", null ],
     [ "surfacePathsToContours3f", "MRSurfacePath_8h.html#ga8dbc7e2393ed3d315467293b5b2ba1e2", null ],

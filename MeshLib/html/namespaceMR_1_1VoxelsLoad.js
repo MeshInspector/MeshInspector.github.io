@@ -17,8 +17,10 @@ var namespaceMR_1_1VoxelsLoad =
     [ "fromVdb", "group__VoxelsLoadGroup.html#gae199230ba31621e297becf5a0b2a1233", null ],
     [ "loadDCMFolder", "group__VoxelsLoadGroup.html#ga1dda3d4d7d747ae7cc39ccfaebe93339", null ],
     [ "loadDCMFolderTree", "group__VoxelsLoadGroup.html#gaa068c352ae72cd7beaeff962b5220cdc", null ],
+    [ "loadDCMsFolder", "group__VoxelsLoadGroup.html#gae5a34263e3156582b83a8bad93cf64e3", null ],
     [ "loadDicomFile", "group__VoxelsLoadGroup.html#ga271e5250a033a441ea21edfeb4f0307c", null ],
     [ "loadDicomFolder", "group__VoxelsLoadGroup.html#ga8b0fa49e8f9fa13b84ff3f9a9e7b95ec", null ],
+    [ "loadDicomsFolder", "group__VoxelsLoadGroup.html#ga7dc46316f4a6c8d21c191fc1f789c1b8", null ],
     [ "loadTiffDir", "namespaceMR_1_1VoxelsLoad.html#afe4e19fce5113a4d34bde473d80c2079", null ],
     [ "sortFilesByName", "group__VoxelsLoadGroup.html#ga9dea5760f438e7cd068a17cd2fba73d3", null ],
     [ "Filters", "group__VoxelsLoadGroup.html#gaf1ddae6fda30ae38508797dc691653d3", null ]

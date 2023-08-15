@@ -1,4 +1,22 @@
 var searchData=
 [
-  ['scoped_5fhistory_0',['SCOPED_HISTORY',['../MRAppendHistory_8h.html#a36cf254c4f1feb0a6f0adaf205a25eaf',1,'MRAppendHistory.h']]]
+  ['make_5fslot_0',['MAKE_SLOT',['../MRViewer_8h.html#a2c688df55bdadf35189e97880b6dc592',1,'MRViewer.h']]],
+  ['mr_5fadd_5fclass_5ffactory_1',['MR_ADD_CLASS_FACTORY',['../MRObjectFactory_8h.html#a24de4e89ad2309dac978ce2ca22604e0',1,'MRObjectFactory.h']]],
+  ['mr_5fadd_5fctor_5fdelete_5fmove_2',['MR_ADD_CTOR_DELETE_MOVE',['../MRViewerFwd_8h.html#ad67c8b227ede6f3cf9dda3c8b2232c32',1,'MRViewerFwd.h']]],
+  ['mr_5fadd_5fpython_5fcustom_5fdef_3',['MR_ADD_PYTHON_CUSTOM_DEF',['../MRPython_8h.html#a4c2f86ab418002ae88c7465c2804c7f1',1,'MRPython.h']]],
+  ['mr_5fadd_5fpython_5fexpected_4',['MR_ADD_PYTHON_EXPECTED',['../MRPython_8h.html#a066f4ba30a78670e5297434557c362db',1,'MRPython.h']]],
+  ['mr_5fadd_5fpython_5ffunction_5',['MR_ADD_PYTHON_FUNCTION',['../MRPython_8h.html#ad3d8d8d2e659e278ea5e86f49078ddae',1,'MRPython.h']]],
+  ['mr_5fadd_5fpython_5fvec_6',['MR_ADD_PYTHON_VEC',['../MRPython_8h.html#a970813ca4d787c0bbe1ca6b1bd231cf9',1,'MRPython.h']]],
+  ['mr_5fdelete_5fmove_7',['MR_DELETE_MOVE',['../MRViewerFwd_8h.html#a13de6dbfcc4586d8d224d8ff0dd2deed',1,'MRViewerFwd.h']]],
+  ['mr_5fglsl_5fversion_5fline_8',['MR_GLSL_VERSION_LINE',['../MRGladGlfw_8h.html#a8079a7cf1b5a678640e6fd20eb26dd74',1,'MRGladGlfw.h']]],
+  ['mr_5finit_5fpython_5fmodule_9',['MR_INIT_PYTHON_MODULE',['../MRPython_8h.html#ae5ca7c53eb569ed9f6cf8fb01846e429',1,'MRPython.h']]],
+  ['mr_5finit_5fpython_5fmodule_5fprecall_10',['MR_INIT_PYTHON_MODULE_PRECALL',['../MRPython_8h.html#a1b144f9ec840f941a158bc9256711732',1,'MRPython.h']]],
+  ['mr_5fnamed_5ftimer_11',['MR_NAMED_TIMER',['../MRTimer_8h.html#a46095ee84a5ee67f76a16abd1fe242fa',1,'MRTimer.h']]],
+  ['mr_5fregister_5frender_5fobject_5fimpl_12',['MR_REGISTER_RENDER_OBJECT_IMPL',['../MRIRenderObject_8h.html#a2aa3e4f195eff66612f2c2404130cdc3',1,'MRIRenderObject.h']]],
+  ['mr_5fregister_5fribbon_5fitem_13',['MR_REGISTER_RIBBON_ITEM',['../MRRibbonMenu_8h.html#ad1709955819b9d2eb38aa06ebd34272c',1,'MRRibbonMenu.h']]],
+  ['mr_5fribbon_5fitem_5fcall_14',['MR_RIBBON_ITEM_CALL',['../MRRibbonMenu_8h.html#a4ea105d3ac17c4b1cb3ac6451a5163fc',1,'MRRibbonMenu.h']]],
+  ['mr_5ftimer_15',['MR_TIMER',['../MRTimer_8h.html#adf7fc408af3ac6d6583cc0ca173120ae',1,'MRTimer.h']]],
+  ['mr_5fwriter_16',['MR_WRITER',['../MRWriter_8h.html#a76ba7d688be2473881f1f42c2f685060',1,'MRWriter.h']]],
+  ['mrmesh_5fapi_17',['MRMESH_API',['../MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300',1,'MRMeshFwd.h']]],
+  ['mrmesh_5fclass_18',['MRMESH_CLASS',['../MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a',1,'MRMeshFwd.h']]]
 ];

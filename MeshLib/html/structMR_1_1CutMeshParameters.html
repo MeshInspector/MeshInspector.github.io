@@ -98,6 +98,7 @@ $(document).ready(function(){initNavTree('structMR_1_1CutMeshParameters.html',''
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1CutMeshParameters-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::CutMeshParameters Struct Reference<div class="ingroups"><a class="el" href="group__BooleanGroup.html">Surface Boolean overview</a></div></div></div>
@@ -109,6 +110,14 @@ $(document).ready(function(){initNavTree('structMR_1_1CutMeshParameters.html',''
 
 <p><code>#include &lt;<a class="el" href="MRContoursCut_8h_source.html">MRContoursCut.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:ae51d141aa40e0f91506f4921b6797a33"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33">ForceFill</a> { <a class="el" href="structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33a6adf97f83acf6453d4a6a4b1070f3754">None</a>
+, <a class="el" href="structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33a0c6ad70beb3a7e76c3fc7adab7c46acc">Good</a>
+, <a class="el" href="structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680">All</a>
+ }</td></tr>
+<tr class="separator:ae51d141aa40e0f91506f4921b6797a33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a3aaef62dde9c7e4727195071089e409f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1SortIntersectionsData.html">SortIntersectionsData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CutMeshParameters.html#a3aaef62dde9c7e4727195071089e409f">sortData</a> {nullptr}</td></tr>
@@ -116,28 +125,43 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a75222f670fe00aaef7a945b8ccbb3ea9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a989bcd374602a615d0acbd6a4988b9b3">FaceMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CutMeshParameters.html#a75222f670fe00aaef7a945b8ccbb3ea9">new2OldMap</a> {nullptr}</td></tr>
 <tr class="memdesc:a75222f670fe00aaef7a945b8ccbb3ea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is optional output - map from newly generated faces to old faces (N-1)  <br /></td></tr>
 <tr class="separator:a75222f670fe00aaef7a945b8ccbb3ea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ccb0c5475c36ea2534973f424d95cbc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CutMeshParameters.html#a1ccb0c5475c36ea2534973f424d95cbc">forceFillAfterBadCut</a> {false}</td></tr>
-<tr class="separator:a1ccb0c5475c36ea2534973f424d95cbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c3c99dc26d25d555e9ebf6c6dfc5cbf"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33">MR::CutMeshParameters::ForceFill</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CutMeshParameters.html#a4c3c99dc26d25d555e9ebf6c6dfc5cbf">None</a></td></tr>
+<tr class="separator:a4c3c99dc26d25d555e9ebf6c6dfc5cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Parameters of <a class="el" href="group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc" title="Cuts mesh by given contours.">MR::cutMesh</a>. </p>
 <p>This structure contains some options and optional outputs of <a class="el" href="group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc" title="Cuts mesh by given contours.">MR::cutMesh</a> function </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="structMR_1_1CutMeshResult.html">MR::CutMeshResult</a> </dd></dl>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a1ccb0c5475c36ea2534973f424d95cbc" name="a1ccb0c5475c36ea2534973f424d95cbc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ccb0c5475c36ea2534973f424d95cbc">&#9670;&#160;</a></span>forceFillAfterBadCut</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="ae51d141aa40e0f91506f4921b6797a33" name="ae51d141aa40e0f91506f4921b6797a33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae51d141aa40e0f91506f4921b6797a33">&#9670;&#160;</a></span>ForceFill</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool MR::CutMeshParameters::forceFillAfterBadCut {false}</td>
+          <td class="memname">enum class <a class="el" href="structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33">MR::CutMeshParameters::ForceFill</a></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<p>If this flag is set, <a class="el" href="group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc" title="Cuts mesh by given contours.">MR::cutMesh</a> will fill all possible triangles, except bad ones; otherwise it will leave deleted faces on all contours line (only in case of bad triangles) </p><dl class="section note"><dt>Note</dt><dd>Bad triangles here mean faces where contours have intersections and cannot be cut and filled in an good way </dd></dl>
+<p>This enum defines the <a class="el" href="group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc" title="Cuts mesh by given contours.">MR::cutMesh</a> behaviour in case of bad faces acure basicaly <a class="el" href="group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc" title="Cuts mesh by given contours.">MR::cutMesh</a> removes all faces which contours pass through, adds new edges to topology and fills all removed parts</p>
+<dl class="section note"><dt>Note</dt><dd>Bad faces here mean faces where contours have intersections and cannot be cut and filled in an good way </dd></dl>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae51d141aa40e0f91506f4921b6797a33a6adf97f83acf6453d4a6a4b1070f3754" name="ae51d141aa40e0f91506f4921b6797a33a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae51d141aa40e0f91506f4921b6797a33a0c6ad70beb3a7e76c3fc7adab7c46acc" name="ae51d141aa40e0f91506f4921b6797a33a0c6ad70beb3a7e76c3fc7adab7c46acc"></a>Good&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680" name="ae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680"></a>All&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
 <a id="a75222f670fe00aaef7a945b8ccbb3ea9" name="a75222f670fe00aaef7a945b8ccbb3ea9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a75222f670fe00aaef7a945b8ccbb3ea9">&#9670;&#160;</a></span>new2OldMap</h2>
 
@@ -154,6 +178,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a4c3c99dc26d25d555e9ebf6c6dfc5cbf" name="a4c3c99dc26d25d555e9ebf6c6dfc5cbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c3c99dc26d25d555e9ebf6c6dfc5cbf">&#9670;&#160;</a></span>None</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33">MR::CutMeshParameters::ForceFill</a> MR::CutMeshParameters::None</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3aaef62dde9c7e4727195071089e409f" name="a3aaef62dde9c7e4727195071089e409f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3aaef62dde9c7e4727195071089e409f">&#9670;&#160;</a></span>sortData</h2>
 
@@ -166,7 +204,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>This is optional input for better contours resolving<br  />
-it provides additional info from other mesh used in boolean operation, useful to solve some degeneration </p><dl class="section note"><dt>Note</dt><dd>Most likely you don't need this in case you call <a class="el" href="group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc" title="Cuts mesh by given contours.">MR::cutMesh</a> manualy, use case of it is <a class="el" href="group__BooleanGroup.html#ga4faee9e7f419b71e19411835bb17a61c" title="Performs CSG operation on two meshes.">MR::boolean</a> </dd></dl>
+it provides additional info from other mesh used in boolean operation, useful to solve some degeneration </p><dl class="section note"><dt>Note</dt><dd>Most likely you don't need this in case you call <a class="el" href="group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc" title="Cuts mesh by given contours.">MR::cutMesh</a> manualy, use case of it is <a class="el" href="group__BooleanGroup.html#ga5dc229b89588f1a3416aca4910e460d9" title="Performs CSG operation on two meshes.">MR::boolean</a> </dd></dl>
 
 </div>
 </div>

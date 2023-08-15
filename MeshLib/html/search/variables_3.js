@@ -1,7 +1,7 @@
 var searchData=
 [
   ['d_0',['d',['../structMR_1_1Line.html#a8b3c7d000e9148d5f14f3c7d0325c95b',1,'MR::Line::d'],['../structMR_1_1Plane3.html#aa721053621e7ed2a54dc3f05081f7c04',1,'MR::Plane3::d'],['../structMR_1_1Quaternion.html#a14d0a626cbd31413d550eea26b9e3303',1,'MR::Quaternion::d']]],
-  ['data_1',['data',['../structMR_1_1RawTiffOutput.html#a2fb719a41aee178656e3e71461bba9b6',1,'MR::RawTiffOutput::data'],['../structMR_1_1VoxelsVolume.html#a6ea81e0ad21fc888dfa262fb957f3c2e',1,'MR::VoxelsVolume::data']]],
+  ['data_1',['data',['../structMR_1_1VoxelsVolume.html#a6ea81e0ad21fc888dfa262fb957f3c2e',1,'MR::VoxelsVolume']]],
   ['defaultcolors_2',['DefaultColors',['../classMR_1_1Palette.html#abfdf377e10c2bf0babc22965290920cb',1,'MR::Palette']]],
   ['defaultlabelsbasisaxes_3',['defaultLabelsBasisAxes',['../classMR_1_1Viewer.html#a6de554d37fc55f074f5a84b839f41338',1,'MR::Viewer']]],
   ['defaultlabelsglobalbasisaxes_4',['defaultLabelsGlobalBasisAxes',['../classMR_1_1Viewer.html#a3e243010a1e5c3f085775d8bdd37c990',1,'MR::Viewer']]],
@@ -22,9 +22,9 @@ var searchData=
   ['dimensions_19',['dimensions',['../structMR_1_1MeshToDistanceVolumeParams.html#aaed8b596d7a6130d557df15578ab0291',1,'MR::MeshToDistanceVolumeParams::dimensions'],['../structMR_1_1VoxelsLoad_1_1RawParameters.html#ab1db96ec60477ec788bfe5aeb3596da2',1,'MR::VoxelsLoad::RawParameters::dimensions']]],
   ['dims_20',['dims',['../structMR_1_1VoxelsVolume.html#aec69290a92637368e463e39fadfea701',1,'MR::VoxelsVolume']]],
   ['dims_5f_21',['dims_',['../classMR_1_1RectIndexer.html#ab4a6c53f72e0260996768505672d9052',1,'MR::RectIndexer::dims_'],['../group__VoxelGroup.html#gaa1c0e0f0f1418ecbd002c094e0d42e13',1,'MR::VolumeIndexer::dims_']]],
-  ['dir_22',['dir',['../structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#aafca990d1d688a3f2f9ce8ba0a67a3c5',1,'MR::VoxelsLoad::LoadingTiffSettings::dir'],['../structMR_1_1Directory.html#a65306e29fafdd199b5c607289be0a79c',1,'MR::Directory::dir'],['../structMR_1_1DirectoryRecursive.html#a0377432c17ff4de701e83f6c0ac198ae',1,'MR::DirectoryRecursive::dir']]],
+  ['dir_22',['dir',['../structMR_1_1Directory.html#a65306e29fafdd199b5c607289be0a79c',1,'MR::Directory::dir'],['../structMR_1_1DirectoryRecursive.html#a0377432c17ff4de701e83f6c0ac198ae',1,'MR::DirectoryRecursive::dir'],['../structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#aafca990d1d688a3f2f9ce8ba0a67a3c5',1,'MR::VoxelsLoad::LoadingTiffSettings::dir']]],
   ['dirarea_23',['dirArea',['../structMR_1_1Dipole.html#a804c3991b7713194228966805194c66a',1,'MR::Dipole']]],
-  ['direction_24',['direction',['../structMR_1_1MeshToDistanceMapParams.html#a251bc8c963a3d914635b6ed3ab80a527',1,'MR::MeshToDistanceMapParams::direction'],['../structMR_1_1DistanceMapToWorld.html#a866ac1e7f146d2a868527a502d376c74',1,'MR::DistanceMapToWorld::direction'],['../structMR_1_1TextMeshAlignParams.html#a414e391a4aef8d9ffc82bdd050a469aa',1,'MR::TextMeshAlignParams::direction']]],
+  ['direction_24',['direction',['../structMR_1_1DistanceMapToWorld.html#a866ac1e7f146d2a868527a502d376c74',1,'MR::DistanceMapToWorld::direction'],['../structMR_1_1TextMeshAlignParams.html#a414e391a4aef8d9ffc82bdd050a469aa',1,'MR::TextMeshAlignParams::direction'],['../structMR_1_1MeshToDistanceMapParams.html#a251bc8c963a3d914635b6ed3ab80a527',1,'MR::MeshToDistanceMapParams::direction']]],
   ['dirty_5f_25',['dirty_',['../classMR_1_1VisualObject.html#a8a64ef900ae33d7bf55fd3474cdcef42',1,'MR::VisualObject::dirty_'],['../classMR_1_1RenderMeshObject.html#a9497665a3752c1392372f7259db26d4a',1,'MR::RenderMeshObject::dirty_']]],
   ['dirtyedges_5f_26',['dirtyEdges_',['../classMR_1_1RenderMeshObject.html#a59ecce80e0a471b2f17c0b6f9d9582e8',1,'MR::RenderMeshObject']]],
   ['discretization_27',['discretization',['../structMR_1_1Palette_1_1Parameters.html#a25a6807ebee10dcb03a9e00733288113',1,'MR::Palette::Parameters']]],

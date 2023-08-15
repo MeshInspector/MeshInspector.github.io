@@ -6,8 +6,8 @@ var searchData=
   ['wasinterrupted_3',['wasInterrupted',['../structMR_1_1ProgressInterrupter.html#aa7c319b39d9ff06438f19d5c5306139e',1,'MR::ProgressInterrupter']]],
   ['webrequest_4',['WebRequest',['../classMR_1_1WebRequest.html',1,'MR']]],
   ['weight_5',['weight',['../structMR_1_1VertPair.html#a6be4702849ae600ea471ab410b2190f8',1,'MR::VertPair']]],
-  ['white_6',['White',['../classMR_1_1RibbonIcons.html#acd06ecfde8f0637bb01c0d36d8605befa25a81701fbfa4a1efdf660a950c1d006',1,'MR::RibbonIcons']]],
-  ['white_7',['white',['../structMR_1_1Color.html#afdf32fadc1e749715ad1911813a76f75',1,'MR::Color']]],
+  ['white_6',['white',['../structMR_1_1Color.html#afdf32fadc1e749715ad1911813a76f75',1,'MR::Color']]],
+  ['white_7',['White',['../classMR_1_1RibbonIcons.html#acd06ecfde8f0637bb01c0d36d8605befa25a81701fbfa4a1efdf660a950c1d006',1,'MR::RibbonIcons']]],
   ['wholeedgebmap_8',['WholeEdgeBMap',['../namespaceMR.html#ad21579a7ce5a5e21a5f258ee8ff5fabc',1,'MR']]],
   ['wholeedgehashmap_9',['WholeEdgeHashMap',['../namespaceMR.html#ab2730d7016e74f0d069e3f5791ae76dc',1,'MR']]],
   ['wholeedgemap_10',['WholeEdgeMap',['../namespaceMR.html#ab8a64e1ae478a6733cc6c0ab4441d0b9',1,'MR']]],
@@ -29,9 +29,10 @@ var searchData=
   ['worldtocameraspace_26',['worldToCameraSpace',['../classMR_1_1Viewport.html#abf9bc36eda02472e52c41323484ca493',1,'MR::Viewport::worldToCameraSpace(const Vector3f &amp;p) const'],['../classMR_1_1Viewport.html#a71dda2baf413b787d9b0fb12035d3827',1,'MR::Viewport::worldToCameraSpace(const std::vector&lt; Vector3f &gt; &amp;p) const']]],
   ['worldxf_27',['worldXf',['../structMR_1_1MeshToVolumeParams.html#a160d9c2171039308aa5a181a76575967',1,'MR::MeshToVolumeParams::worldXf'],['../classMR_1_1Object.html#adf99bf3b0a5a59452a7e4efd6f48b657',1,'MR::Object::worldXf(ViewportId id={}, bool *isDef=nullptr) const']]],
   ['worldxfchangedsignal_28',['worldXfChangedSignal',['../classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964',1,'MR::Object']]],
-  ['wrap_29',['wrap',['../structMR_1_1MeshTexture.html#ab1d9b311e280516bb81e8749bfb440bc',1,'MR::MeshTexture::wrap'],['../structMR_1_1GlTexture3_1_1Settings.html#a547edb4b74285f59a062181fc029fb79',1,'MR::GlTexture3::Settings::wrap'],['../structMR_1_1GlTexture2_1_1Settings.html#a42b6be0c848d4bbc069954aee39871d9',1,'MR::GlTexture2::Settings::wrap']]],
+  ['wrap_29',['wrap',['../structMR_1_1MeshTexture.html#ab1d9b311e280516bb81e8749bfb440bc',1,'MR::MeshTexture::wrap'],['../structMR_1_1GlTexture2_1_1Settings.html#a42b6be0c848d4bbc069954aee39871d9',1,'MR::GlTexture2::Settings::wrap'],['../structMR_1_1GlTexture3_1_1Settings.html#a547edb4b74285f59a062181fc029fb79',1,'MR::GlTexture3::Settings::wrap']]],
   ['wraptype_30',['WrapType',['../namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00c',1,'MR']]],
   ['write_31',['write',['../classMR_1_1MeshTopology.html#a698bdffc6553d99627eff8444ae95cfb',1,'MR::MeshTopology::write()'],['../classMR_1_1PolylineTopology.html#afeacaa2685ac05679afb0b6675a1ff4b',1,'MR::PolylineTopology::write()'],['../classPythonStreamRedirector.html#a2dde8d2c176e672c39dd11e8c356db1e',1,'PythonStreamRedirector::write()']]],
   ['writebyblocks_32',['writeByBlocks',['../namespaceMR.html#a60a133e9f349b9183017b2b4abaf1b9b',1,'MR']]],
-  ['writer_33',['Writer',['../structMR_1_1Writer.html',1,'MR::Writer&lt; T &gt;'],['../structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa',1,'MR::Writer::Writer()']]]
+  ['writer_33',['Writer',['../structMR_1_1Writer.html',1,'MR::Writer&lt; T &gt;'],['../structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa',1,'MR::Writer::Writer()']]],
+  ['writerawtiff_34',['writeRawTiff',['../namespaceMR.html#a5c8cd9060fcf837bea6a2cda3d33a957',1,'MR']]]
 ];

@@ -98,7 +98,6 @@ $(document).ready(function(){initNavTree('classMR_1_1ObjectMeshHolder.html','');
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
@@ -130,11 +129,6 @@ $(document).ready(function(){initNavTree('classMR_1_1ObjectMeshHolder.html','');
   </map>
 </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ObjectMeshHolder_1_1MeshStat.html">MeshStat</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a805c1ad3440c499cc84cd984e5284780"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a805c1ad3440c499cc84cd984e5284780">SelectionChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt; void()&gt;</td></tr>
@@ -159,7 +153,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:afb9471c0d9422d4474378ed1fd622724"><td class="mdescLeft">&#160;</td><td class="mdescRight">scale object size (all point positions)  <br /></td></tr>
 <tr class="separator:afb9471c0d9422d4474378ed1fd622724"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a549b865eb174f604dfc2c5e9039e4c49"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a549b865eb174f604dfc2c5e9039e4c49">hasVisualRepresentation</a> () const override</td></tr>
-<tr class="memdesc:a549b865eb174f604dfc2c5e9039e4c49"><td class="mdescLeft">&#160;</td><td class="mdescRight">is object has any visual representation (faces, edges, etc.)  <br /></td></tr>
+<tr class="memdesc:a549b865eb174f604dfc2c5e9039e4c49"><td class="mdescLeft">&#160;</td><td class="mdescRight">mesh object can be seen if the mesh has at least one edge  <br /></td></tr>
 <tr class="separator:a549b865eb174f604dfc2c5e9039e4c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6739310dc9f9e21c461819ea47dc086"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#af6739310dc9f9e21c461819ea47dc086">mesh</a> () const</td></tr>
 <tr class="separator:af6739310dc9f9e21c461819ea47dc086"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -300,9 +294,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa5f39fc0b3b8e02be1b763de0f3aee8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#aa5f39fc0b3b8e02be1b763de0f3aee8d">avgEdgeLen</a> () const</td></tr>
 <tr class="memdesc:aa5f39fc0b3b8e02be1b763de0f3aee8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached average edge length  <br /></td></tr>
 <tr class="separator:aa5f39fc0b3b8e02be1b763de0f3aee8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e7e533cdcddd1d2a4fbf5fba6b9d607"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a5e7e533cdcddd1d2a4fbf5fba6b9d607">heapBytes</a> () const override</td></tr>
-<tr class="memdesc:a5e7e533cdcddd1d2a4fbf5fba6b9d607"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
-<tr class="separator:a5e7e533cdcddd1d2a4fbf5fba6b9d607"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a022adb5d0ee40a016579d8c18405fc1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a022adb5d0ee40a016579d8c18405fc1c">numUndirectedEdges</a> () const</td></tr>
+<tr class="memdesc:a022adb5d0ee40a016579d8c18405fc1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached information about the number of undirected edges in the mesh  <br /></td></tr>
+<tr class="separator:a022adb5d0ee40a016579d8c18405fc1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7f6eec79b9b3546a484aee6efacabd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#aa7f6eec79b9b3546a484aee6efacabd6">numHoles</a> () const</td></tr>
 <tr class="memdesc:aa7f6eec79b9b3546a484aee6efacabd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached information about the number of holes in the mesh  <br /></td></tr>
 <tr class="separator:aa7f6eec79b9b3546a484aee6efacabd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -312,6 +306,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adf70ea63a061b567f190fecc6d87bde8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#adf70ea63a061b567f190fecc6d87bde8">numHandles</a> () const</td></tr>
 <tr class="memdesc:adf70ea63a061b567f190fecc6d87bde8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached information about the number of handles in the mesh  <br /></td></tr>
 <tr class="separator:adf70ea63a061b567f190fecc6d87bde8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e7e533cdcddd1d2a4fbf5fba6b9d607"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a5e7e533cdcddd1d2a4fbf5fba6b9d607">heapBytes</a> () const override</td></tr>
+<tr class="memdesc:a5e7e533cdcddd1d2a4fbf5fba6b9d607"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
+<tr class="separator:a5e7e533cdcddd1d2a4fbf5fba6b9d607"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1VisualObject"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classMR_1_1VisualObject')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a></td></tr>
 <tr class="memitem:a248a0efabc82874bd29ca605c2fb7481 inherit pub_methods_classMR_1_1VisualObject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a248a0efabc82874bd29ca605c2fb7481">VisualObject</a> ()</td></tr>
 <tr class="separator:a248a0efabc82874bd29ca605c2fb7481 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -699,8 +696,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:aa05cf4d24dd3776eba6722f5ba23423d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e1f5fb75ff002cd9cf560859663047e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a0e1f5fb75ff002cd9cf560859663047e">setupRenderObject_</a> () const override</td></tr>
 <tr class="separator:a0e1f5fb75ff002cd9cf560859663047e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38ace14ffae52e1804b68e9600affb40"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a38ace14ffae52e1804b68e9600affb40">updateMeshStat_</a> () const</td></tr>
-<tr class="separator:a38ace14ffae52e1804b68e9600affb40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classMR_1_1VisualObject"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classMR_1_1VisualObject')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a></td></tr>
 <tr class="memitem:a84d46a3ce3da143b5735f0b6ac79deee inherit pro_methods_classMR_1_1VisualObject"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a84d46a3ce3da143b5735f0b6ac79deee">VisualObject</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;obj)=default</td></tr>
 <tr class="separator:a84d46a3ce3da143b5735f0b6ac79deee inherit pro_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -760,8 +755,14 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a41d53a14ee2d2fa5b894d5a5b19586e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a4e18a7dd593dcc4571d5cfe82c4f3c1b">VertUVCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a41d53a14ee2d2fa5b894d5a5b19586e5">ancillaryUVCoordinates_</a></td></tr>
 <tr class="memdesc:a41d53a14ee2d2fa5b894d5a5b19586e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">vertices coordinates in ancillary texture  <br /></td></tr>
 <tr class="separator:a41d53a14ee2d2fa5b894d5a5b19586e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6102f011b43846f25adb1e9c1b496b2a"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1ObjectMeshHolder_1_1MeshStat.html">MeshStat</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a6102f011b43846f25adb1e9c1b496b2a">meshStat_</a></td></tr>
-<tr class="separator:a6102f011b43846f25adb1e9c1b496b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f8f8cc0499cdafeb2d13bf4cc596002"><td class="memItemLeft" align="right" valign="top">std::optional&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a1f8f8cc0499cdafeb2d13bf4cc596002">numHoles_</a></td></tr>
+<tr class="separator:a1f8f8cc0499cdafeb2d13bf4cc596002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a996fcb729de614183881e67181ee8ed9"><td class="memItemLeft" align="right" valign="top">std::optional&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a996fcb729de614183881e67181ee8ed9">numComponents_</a></td></tr>
+<tr class="separator:a996fcb729de614183881e67181ee8ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bceb32f08fb95f31d399daf788c3bf1"><td class="memItemLeft" align="right" valign="top">std::optional&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a6bceb32f08fb95f31d399daf788c3bf1">numUndirectedEdges_</a></td></tr>
+<tr class="separator:a6bceb32f08fb95f31d399daf788c3bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a638c9fd07d62fc31be6c0b36171ebb71"><td class="memItemLeft" align="right" valign="top">std::optional&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a638c9fd07d62fc31be6c0b36171ebb71">numHandles_</a></td></tr>
+<tr class="separator:a638c9fd07d62fc31be6c0b36171ebb71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbd8b03aaca3e9e823be43fe1b77f12a"><td class="memItemLeft" align="right" valign="top">std::optional&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#adbd8b03aaca3e9e823be43fe1b77f12a">meshIsClosed_</a></td></tr>
 <tr class="separator:adbd8b03aaca3e9e823be43fe1b77f12a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a102e4183b2d8571edf565f4dd6e61a94"><td class="memItemLeft" align="right" valign="top">std::optional&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a102e4183b2d8571edf565f4dd6e61a94">numSelectedFaces_</a></td></tr>
@@ -1851,7 +1852,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>is object has any visual representation (faces, edges, etc.) </p>
+<p>mesh object can be seen if the mesh has at least one edge </p>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1VisualObject.html#a6fbac44c3310221cc666888718834ca6">MR::VisualObject</a>.</p>
 
@@ -2071,6 +2072,25 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns cached information about the number of selected faces in the mesh </p>
+
+</div>
+</div>
+<a id="a022adb5d0ee40a016579d8c18405fc1c" name="a022adb5d0ee40a016579d8c18405fc1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a022adb5d0ee40a016579d8c18405fc1c">&#9670;&#160;</a></span>numUndirectedEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t MR::ObjectMeshHolder::numUndirectedEdges </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns cached information about the number of undirected edges in the mesh </p>
 
 </div>
 </div>
@@ -2990,31 +3010,6 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a38ace14ffae52e1804b68e9600affb40" name="a38ace14ffae52e1804b68e9600affb40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38ace14ffae52e1804b68e9600affb40">&#9670;&#160;</a></span>updateMeshStat_()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectMeshHolder::updateMeshStat_ </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a3029032da5c7c3dd54fcb60f53ef3ea4" name="a3029032da5c7c3dd54fcb60f53ef3ea4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3029032da5c7c3dd54fcb60f53ef3ea4">&#9670;&#160;</a></span>updateUVCoords()</h2>
 
@@ -3374,8 +3369,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6102f011b43846f25adb1e9c1b496b2a" name="a6102f011b43846f25adb1e9c1b496b2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6102f011b43846f25adb1e9c1b496b2a">&#9670;&#160;</a></span>meshStat_</h2>
+<a id="a996fcb729de614183881e67181ee8ed9" name="a996fcb729de614183881e67181ee8ed9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a996fcb729de614183881e67181ee8ed9">&#9670;&#160;</a></span>numComponents_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3384,7 +3379,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::optional&lt;<a class="el" href="structMR_1_1ObjectMeshHolder_1_1MeshStat.html">MeshStat</a>&gt; MR::ObjectMeshHolder::meshStat_</td>
+          <td class="memname">std::optional&lt;size_t&gt; MR::ObjectMeshHolder::numComponents_</td>
         </tr>
       </table>
   </td>
@@ -3412,6 +3407,50 @@ Protected Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a638c9fd07d62fc31be6c0b36171ebb71" name="a638c9fd07d62fc31be6c0b36171ebb71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a638c9fd07d62fc31be6c0b36171ebb71">&#9670;&#160;</a></span>numHandles_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;size_t&gt; MR::ObjectMeshHolder::numHandles_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f8f8cc0499cdafeb2d13bf4cc596002" name="a1f8f8cc0499cdafeb2d13bf4cc596002"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f8f8cc0499cdafeb2d13bf4cc596002">&#9670;&#160;</a></span>numHoles_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;size_t&gt; MR::ObjectMeshHolder::numHoles_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3451,6 +3490,28 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">std::optional&lt;size_t&gt; MR::ObjectMeshHolder::numSelectedFaces_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6bceb32f08fb95f31d399daf788c3bf1" name="a6bceb32f08fb95f31d399daf788c3bf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bceb32f08fb95f31d399daf788c3bf1">&#9670;&#160;</a></span>numUndirectedEdges_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;size_t&gt; MR::ObjectMeshHolder::numUndirectedEdges_</td>
         </tr>
       </table>
   </td>

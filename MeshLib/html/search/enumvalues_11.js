@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['scalar_0',['Scalar',['../structMR_1_1TiffParameters.html#a7894a40717e9178dc278dcc4716a436caf60357a8d17e45793298323f1b372a74',1,'MR::TiffParameters']]],
+  ['scalar_0',['Scalar',['../structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0af60357a8d17e45793298323f1b372a74',1,'MR::BaseTiffParameters']]],
   ['scene_1',['Scene',['../classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6a9ead0d38e06ec253ca0ecbf6ea56e59b',1,'MR::ShortcutManager']]],
   ['segment_2',['Segment',['../classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457affb70c18e04a80d228aa7ef4a86e0702',1,'MR::MarkedVoxelSlice']]],
   ['selectable_3',['Selectable',['../group__DataModelGroup.html#gga1ab156c0351dfcd112a67a72e485f123a8318ce1c96df6ce21eb2ed428c6d0f85',1,'MR']]],
@@ -71,5 +71,8 @@ var searchData=
   ['stderr_68',['Stderr',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af',1,'MRPython.h']]],
   ['stdout_69',['Stdout',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101',1,'MRPython.h']]],
   ['stopprocessing_70',['StopProcessing',['../group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47a38e59feb928e37292c8ee0a50f447612',1,'MR']]],
-  ['strong_71',['Strong',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9',1,'MR::FillHoleParams']]]
+  ['strong_71',['Strong',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9',1,'MR::FillHoleParams']]],
+  ['swipemodecount_72',['SwipeModeCount',['../structMR_1_1TouchpadController_1_1Parameters.html#ae6ebeb8020117ba73cabfea76a3cbf7ba855c9031d5cee76447d165ce37fcfb6a',1,'MR::TouchpadController::Parameters']]],
+  ['swipemovescamera_73',['SwipeMovesCamera',['../structMR_1_1TouchpadController_1_1Parameters.html#ae6ebeb8020117ba73cabfea76a3cbf7bade15fc14739dac9b81d57926b2e98fa7',1,'MR::TouchpadController::Parameters']]],
+  ['swiperotatescamera_74',['SwipeRotatesCamera',['../structMR_1_1TouchpadController_1_1Parameters.html#ae6ebeb8020117ba73cabfea76a3cbf7ba3bbbef9cac3e14462f8fc82ae5dcbbc4',1,'MR::TouchpadController::Parameters']]]
 ];

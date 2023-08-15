@@ -265,6 +265,7 @@ var group__BasicGroup =
     [ "MR::ParallelFor", "group__BasicGroup.html#ga0f1d9c02d9be540b9ebb830334428fe5", null ],
     [ "MR::ParallelFor", "group__BasicGroup.html#ga9236de74b554a978dcdcb72a62cc2041", null ],
     [ "MR::parallelMinMax", "group__BasicGroup.html#gacefefeac686afa1ccce13566eeaeb68b", null ],
+    [ "MR::parallelMinMaxArg", "group__BasicGroup.html#ga838286be4a47d0b585d7ddb373d0abf0", null ],
     [ "MR::pathFromUtf8", "group__BasicGroup.html#gabe699ad65df9788d6c5c76856ddbf259", null ],
     [ "MR::pathFromUtf8", "group__BasicGroup.html#ga20dc9bc9caabc76a8ed03696488fbd2c", null ],
     [ "MR::printCurrentTimerBranch", "group__BasicGroup.html#ga92715abafbf0ac9f1aef87f2cff3088a", null ],

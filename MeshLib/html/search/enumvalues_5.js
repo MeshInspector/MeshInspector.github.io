@@ -9,7 +9,7 @@ var searchData=
   ['filter_6',['Filter',['../classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a',1,'MR::HistoryStore']]],
   ['fixedaxis_7',['FixedAxis',['../namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677aeaff0b601f0c9235c1d2d08500449fae',1,'MR']]],
   ['flatshading_8',['FlatShading',['../structMR_1_1MeshVisualizePropertyType.html#a2e5c336a4feb2c41efef5ba1f038b738a7d5f6324346ca4794ef06f1e943c94a7',1,'MR::MeshVisualizePropertyType']]],
-  ['float_9',['Float',['../structMR_1_1TiffParameters.html#a45fa557dfa976a0359226996ea2b3e51a22ae0e2b89e5e3d477f988cc36d3272b',1,'MR::TiffParameters']]],
+  ['float_9',['Float',['../structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa22ae0e2b89e5e3d477f988cc36d3272b',1,'MR::BaseTiffParameters']]],
   ['float32_10',['Float32',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529ba166495adc0d0f53bee6baecc577f5204',1,'MR::VoxelsLoad::RawParameters']]],
   ['float64_11',['Float64',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bad2b556d8a8f5c8ac323f51a4b82e79a0',1,'MR::VoxelsLoad::RawParameters']]],
   ['framebackground_12',['FrameBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ab7645d391763ab26ea48e51c80c3837e',1,'MR::ColorTheme']]],

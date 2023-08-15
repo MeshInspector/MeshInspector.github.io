@@ -49,5 +49,6 @@ var searchData=
   ['buildpathexponentmodifier_46',['buildPathExponentModifier',['../structMR_1_1VolumeSegmentationParameters.html#af000ea80a099a9de6d4f4f4475580b6c',1,'MR::VolumeSegmentationParameters']]],
   ['bundiredge_47',['bUndirEdge',['../structMR_1_1UndirectedEdgeUndirectedEdge.html#a535f1290920a2d84945d8cc8989397c6',1,'MR::UndirectedEdgeUndirectedEdge']]],
   ['bypassdir_48',['bypassDir',['../structMR_1_1ToolPathParams.html#a50c755eddaa84d57053b8b2ac05090c7',1,'MR::ToolPathParams']]],
-  ['bytespersample_49',['bytesPerSample',['../structMR_1_1TiffParameters.html#aed86631464c6955fab8c5bcb6a0462ed',1,'MR::TiffParameters']]]
+  ['bytes_49',['bytes',['../structMR_1_1RawTiffOutput.html#a0246df3ced8b0fffb290eb2abf95bb96',1,'MR::RawTiffOutput']]],
+  ['bytespersample_50',['bytesPerSample',['../structMR_1_1BaseTiffParameters.html#a3ff0d181f2553f8714d635e264f383c7',1,'MR::BaseTiffParameters']]]
 ];
