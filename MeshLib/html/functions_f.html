@@ -125,6 +125,7 @@ $(document).ready(function(){initNavTree('functions_f.html',''); initResizable()
 <li>faceSize()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#a9caed84ef0fe1c701ce090f00d05593a">MR::MeshTopology</a></li>
 <li>facesNormalsTex_&#160;:&#160;<a class="el" href="classMR_1_1RenderMeshObject.html#a5931d691ce4183252190a5357ead412a">MR::RenderMeshObject</a></li>
 <li>factor&#160;:&#160;<a class="el" href="structMR_1_1Viewport_1_1BaseFitParams.html#a0a7d1dee1c528e8938506db65ad01c38">MR::Viewport::BaseFitParams</a></li>
+<li>failedContours&#160;:&#160;<a class="el" href="structMR_1_1ToolPathParams.html#a62d5ad0bf704f692c6eedc6f2313421a">MR::ToolPathParams</a></li>
 <li>fastIndicatorComputation&#160;:&#160;<a class="el" href="structMR_1_1DenoiseViaNormalsSettings.html#ad6004983564c77dbe469d819de9b1100">MR::DenoiseViaNormalsSettings</a></li>
 <li>FastWindingNumber()&#160;:&#160;<a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#afed4d0df31eef8da93ca2d843c3a8a63">MR::Cuda::FastWindingNumber</a>, <a class="el" href="classMR_1_1FastWindingNumber.html#a6af89b7c93e4591719b2ffd0eeeffd07">MR::FastWindingNumber</a></li>
 <li>fbsWithCountourIntersections&#160;:&#160;<a class="el" href="structMR_1_1CutMeshResult.html#acc676bb755e4af3c177664745a989954">MR::CutMeshResult</a></li>
@@ -157,8 +158,9 @@ $(document).ready(function(){initNavTree('functions_f.html',''); initResizable()
 <li>findCenterFromPoints()&#160;:&#160;<a class="el" href="structMR_1_1Mesh.html#a4cf526a36b567b3e072c3aa70d628ee2">MR::Mesh</a>, <a class="el" href="structMR_1_1Polyline.html#a6e23e900e2959a7be3356ae3e71c017a">MR::Polyline&lt; V &gt;</a></li>
 <li>findControlByMode()&#160;:&#160;<a class="el" href="classMR_1_1MouseController.html#a287c53d51507ce60bbd4cdd1aceddd48">MR::MouseController</a></li>
 <li>findCreaseEdges()&#160;:&#160;<a class="el" href="structMR_1_1Mesh.html#a3597555fee6f4964fe1689b0643f7f83">MR::Mesh</a></li>
-<li>findEdge()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#a5280cca1a7e8cf958ef2856607f87b8b">MR::MeshTopology</a>, <a class="el" href="classMR_1_1PolylineTopology.html#a545252ec8468378f5bc6f71e18ccaad9">MR::PolylineTopology</a></li>
+<li>findEdge()&#160;:&#160;<a class="el" href="classMR_1_1Graph.html#a5de54676ec0131e5355d47e44f31019d">MR::Graph</a>, <a class="el" href="classMR_1_1MeshTopology.html#a5280cca1a7e8cf958ef2856607f87b8b">MR::MeshTopology</a>, <a class="el" href="classMR_1_1PolylineTopology.html#a545252ec8468378f5bc6f71e18ccaad9">MR::PolylineTopology</a></li>
 <li>findHoleRepresentiveEdges()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#ac8e27800a0bbad8038ed49623f7836fc">MR::MeshTopology</a></li>
+<li>findLowestBd()&#160;:&#160;<a class="el" href="classMR_1_1WatershedGraph.html#a36e73384698fb59ae775796b859ad1b5">MR::WatershedGraph</a></li>
 <li>findNotLoneUndirectedEdges()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#a9046b9659efa4318343c11980fd65336">MR::MeshTopology</a></li>
 <li>findNumHoles()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#a721112966697a07587b90d97441acc09">MR::MeshTopology</a></li>
 <li>findObjectsInRect()&#160;:&#160;<a class="el" href="classMR_1_1Viewport.html#ae8d2d1ebf05bdfac6a830fc7ccb9c76c">MR::Viewport</a></li>
@@ -192,13 +194,14 @@ $(document).ready(function(){initNavTree('functions_f.html',''); initResizable()
 <li>flatShading()&#160;:&#160;<a class="el" href="classMR_1_1ObjectMeshHolder.html#aadf8f8358c5a229c964aa46e1e991a52">MR::ObjectMeshHolder</a></li>
 <li>flatShading_&#160;:&#160;<a class="el" href="classMR_1_1ObjectMeshHolder.html#a24fe3e12e40596c73eb4986aa7e32b75">MR::ObjectMeshHolder</a></li>
 <li>flatTool&#160;:&#160;<a class="el" href="structMR_1_1ToolPathParams.html#adacfd8b713ae1664619abcff9d04fead">MR::ToolPathParams</a></li>
-<li>flip()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#acb037b0d20b8897728886d4405e62252">MR::MeshTopology</a>, <a class="el" href="classMR_1_1PolylineTopology.html#a712f0d64d5d5c5700ab29936be4bf517">MR::PolylineTopology</a>, <a class="el" href="classMR_1_1TaggedBitSet.html#a8a67c4f0fe19bf562eb96dc72db1fbe1">MR::TaggedBitSet&lt; T &gt;</a></li>
+<li>flip()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#ae796d1297cfc530ad544c5ced51b82fd">MR::MeshTopology</a>, <a class="el" href="classMR_1_1PolylineTopology.html#a712f0d64d5d5c5700ab29936be4bf517">MR::PolylineTopology</a>, <a class="el" href="classMR_1_1TaggedBitSet.html#afc2b41f1ab59e3ba965e9ab8da10ccff">MR::TaggedBitSet&lt; T &gt;</a></li>
 <li>flipEdge()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#a3feb7377bb8fa3011bf24ee10f5d4ba4">MR::MeshTopology</a></li>
 <li>flipEdgesIn()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#a0204101063d00f8b0784f8488ba43a0e">MR::MeshTopology</a></li>
 <li>flipEdgesOut()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#a212723bf6e50621443bb5b341cc2ff98">MR::MeshTopology</a></li>
 <li>flipOrientation()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#ac4201a4b533bfb603ca27d6a032348e3">MR::MeshTopology</a></li>
 <li>Float32&#160;:&#160;<a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html#a9e312b72c2d2fcc457ece979ad10093d">MR::VoxelsLoad::RawParameters</a></li>
 <li>FlowAggregator()&#160;:&#160;<a class="el" href="classMR_1_1FlowAggregator.html#add4233affa5197236315d5efb16311a7">MR::FlowAggregator</a></li>
+<li>flowPerEdge&#160;:&#160;<a class="el" href="structMR_1_1FlowAggregator_1_1Flows.html#a1b00cb5cc3b4966d2b6b9b009a6ed153">MR::FlowAggregator::Flows</a></li>
 <li>flush()&#160;:&#160;<a class="el" href="classPythonStreamRedirector.html#a46dc140b9465c325ad8144ccf3ea0d70">PythonStreamRedirector&lt; T &gt;</a></li>
 <li>fmap&#160;:&#160;<a class="el" href="structMR_1_1MeshBuilder_1_1MeshPiece.html#a9d2f3c57986b646bdf6618a914511a38">MR::MeshBuilder::MeshPiece</a></li>
 <li>followObjVisibility()&#160;:&#160;<a class="el" href="classMR_1_1ObjectTransformWidget.html#ae251d733beed21672b8754f369937dca">MR::ObjectTransformWidget</a></li>

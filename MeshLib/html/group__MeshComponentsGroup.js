@@ -8,6 +8,7 @@ var group__MeshComponentsGroup =
     [ "MR::MeshComponents::PerVertex", "group__MeshComponentsGroup.html#gga7489c91178e90fdd4200bbb0074e025fa2e9713a46619599c9d68465178a81a4c", null ],
     [ "MR::MeshComponents::getAllComponents", "group__MeshComponentsGroup.html#gafde425f262b1f15428664fd79a1f0735", null ],
     [ "MR::MeshComponents::getAllComponentsEdges", "group__MeshComponentsGroup.html#ga7becc9588891fae069b72605a081462e", null ],
+    [ "MR::MeshComponents::getAllComponentsMap", "group__MeshComponentsGroup.html#ga6edee75a884c70eae8830d2684f57731", null ],
     [ "MR::MeshComponents::getAllComponentsVerts", "group__MeshComponentsGroup.html#gacf901304f8dae140ebe581b9fefcf3e8", null ],
     [ "MR::MeshComponents::getAllComponentsVertsSeparatedByPath", "group__MeshComponentsGroup.html#ga2b1d2f430d5544f3129616e7909e2210", null ],
     [ "MR::MeshComponents::getComponent", "group__MeshComponentsGroup.html#gacb2f12a18a222d322f2e8cb54bd29d69", null ],

@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['edgebitset_0',['EdgeBitSet',['../namespaceMR.html#afa52f737f1695a9866b22a30a29aefba',1,'MR']]],
+  ['edgebitset_0',['EdgeBitSet',['../classMR_1_1Graph.html#ab38076fa11106881596f3cb8c526c496',1,'MR::Graph::EdgeBitSet'],['../namespaceMR.html#afa52f737f1695a9866b22a30a29aefba',1,'MR::EdgeBitSet']]],
   ['edgebmap_1',['EdgeBMap',['../namespaceMR.html#a6ab443a95d2bf6d29c9fc03f38ec750b',1,'MR']]],
   ['edgecolors_2',['EdgeColors',['../namespaceMR.html#aa3174384aa2df569008651e787eaa43a',1,'MR']]],
   ['edgehashmap_3',['EdgeHashMap',['../namespaceMR.html#aeabd542da4035d06055e1b3d9bdba4c5',1,'MR']]],
   ['edgehashset_4',['EdgeHashSet',['../namespaceMR.html#a12e1e04f332b886a708942fc3e9fb1c2',1,'MR']]],
-  ['edgeid_5',['EdgeId',['../namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1',1,'MR']]],
+  ['edgeid_5',['EdgeId',['../classMR_1_1Graph.html#a4937ab0a842876d2ac8564ad712a454b',1,'MR::Graph::EdgeId'],['../namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1',1,'MR::EdgeId']]],
   ['edgeloop_6',['EdgeLoop',['../namespaceMR.html#aee05ada6f56e0075cc157732cae41543',1,'MR']]],
   ['edgemap_7',['EdgeMap',['../namespaceMR.html#ae2eea398ad770ec2244a9a9c50714933',1,'MR']]],
   ['edgemetric_8',['EdgeMetric',['../group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f',1,'MR']]],
@@ -16,6 +16,7 @@ var searchData=
   ['edgesetbititerator_13',['EdgeSetBitIterator',['../namespaceMR.html#abbf317d1a00d025c632656ec53dd5869',1,'MR']]],
   ['edgetofloatfunc_14',['EdgeToFloatFunc',['../namespaceMR.html#a7a8a9fae7a65ccd1e5d36b6050afd393',1,'MR']]],
   ['elementbitset_15',['ElementBitSet',['../classMR_1_1ColorMapAggregator.html#a29857a8d38bc30a22d092fdc3c8632df',1,'MR::ColorMapAggregator']]],
-  ['eventcallback_16',['EventCallback',['../classMR_1_1Viewer_1_1EventQueue.html#abfcd84b3f22c3b19aa6bcc04c8a12a6c',1,'MR::Viewer::EventQueue']]],
-  ['expected_17',['Expected',['../namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb',1,'MR']]]
+  ['endsperedge_16',['EndsPerEdge',['../classMR_1_1Graph.html#a429f57208104bd4a3efcceeaa5ba4dce',1,'MR::Graph']]],
+  ['eventcallback_17',['EventCallback',['../classMR_1_1Viewer_1_1EventQueue.html#abfcd84b3f22c3b19aa6bcc04c8a12a6c',1,'MR::Viewer::EventQueue']]],
+  ['expected_18',['Expected',['../namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb',1,'MR']]]
 ];

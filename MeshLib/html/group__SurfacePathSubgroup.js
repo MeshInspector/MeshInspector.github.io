@@ -1,5 +1,10 @@
 var group__SurfacePathSubgroup =
 [
+    [ "MR::ComputeSteepestDescentPathSettings", "structMR_1_1ComputeSteepestDescentPathSettings.html", [
+      [ "end", "structMR_1_1ComputeSteepestDescentPathSettings.html#a9c5b63e96c36543a3af9203630d6325c", null ],
+      [ "outBdReached", "structMR_1_1ComputeSteepestDescentPathSettings.html#a133dd657607eb8f8e2745935031c0ed0", null ],
+      [ "outVertexReached", "structMR_1_1ComputeSteepestDescentPathSettings.html#adb7629a9e4ce0c21efc00fd5f1b3932f", null ]
+    ] ],
     [ "MR::ExtremeEdgeType", "group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6", [
       [ "MR::ExtremeEdgeType::Ridge", "group__SurfacePathSubgroup.html#gga3887057b7aa95d9993b5ce57130c25a6ae9eeca48aa5cccacde08760c6ec9dd5a", null ],
       [ "MR::ExtremeEdgeType::Gorge", "group__SurfacePathSubgroup.html#gga3887057b7aa95d9993b5ce57130c25a6a90290d32b4deae8703b07bfcd17af5a4", null ]
@@ -17,8 +22,8 @@ var group__SurfacePathSubgroup =
     [ "MR::computeFastMarchingPath", "group__SurfacePathSubgroup.html#ga52601966a3d67cfd9b26ad1e586cd6f4", null ],
     [ "MR::computeGeodesicPath", "group__SurfacePathSubgroup.html#gacf93df5d1fb98fea80e577a15e2413eb", null ],
     [ "MR::computeGeodesicPathApprox", "group__SurfacePathSubgroup.html#ga8d44e12ec3a4b21e1ebb753c0a84b8ca", null ],
-    [ "MR::computeSteepestDescentPath", "group__SurfacePathSubgroup.html#ga94fc9b920115441f1e4135042940a234", null ],
-    [ "MR::computeSteepestDescentPath", "group__SurfacePathSubgroup.html#ga1ad31d228082e7267612e40a391ced95", null ],
+    [ "MR::computeSteepestDescentPath", "group__SurfacePathSubgroup.html#gaaabde71e0081a0d0a8b2ba59090c3c00", null ],
+    [ "MR::computeSteepestDescentPath", "group__SurfacePathSubgroup.html#gaf26dc2ed1ad593bf235f0f40c1ec2c30", null ],
     [ "MR::computeSurfacePath", "group__SurfacePathSubgroup.html#ga446cf8a4654ec1a589f1ffd89762aa29", null ],
     [ "MR::findExtremeEdges", "group__SurfacePathSubgroup.html#ga0bd366cd8b4e0bb2f8754392be22cb12", null ],
     [ "MR::getSurfacePathsViaVertices", "group__SurfacePathSubgroup.html#gaaa4dc30756e93cfc4cd2f88758193360", null ],

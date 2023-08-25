@@ -214,6 +214,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a286fc3a36e00873cc102a1a962b67cf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab02aa1e3777a0b8e07c86ab41cd4ae02"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#ab02aa1e3777a0b8e07c86ab41cd4ae02">setDualMarchingCubes</a> (bool on, bool updateSurface=true, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="separator:ab02aa1e3777a0b8e07c86ab41cd4ae02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1bf2bbd9c8eaf107a9d67293a6f772e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#ae1bf2bbd9c8eaf107a9d67293a6f772e">setVoxelPointPositioner</a> (<a class="el" href="namespaceMR.html#ac595e45c15fc1d1677d48df60550c8e3">VoxelPointPositioner</a> positioner)</td></tr>
+<tr class="memdesc:ae1bf2bbd9c8eaf107a9d67293a6f772e"><td class="mdescLeft">&#160;</td><td class="mdescRight">set voxel point positioner for Marching Cubes (only for Standard Marching Cubes)  <br /></td></tr>
+<tr class="separator:ae1bf2bbd9c8eaf107a9d67293a6f772e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e16d8a108f465ccb925e3e36886739e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a7e16d8a108f465ccb925e3e36886739e">setActiveBounds</a> (const <a class="el" href="namespaceMR.html#abb77b8aff8d862cb60056e4127ba543c">Box3i</a> &amp;activeBox, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={}, bool updateSurface=true)</td></tr>
 <tr class="separator:a7e16d8a108f465ccb925e3e36886739e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21fac797124aacbda1e3226395b7203f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#abb77b8aff8d862cb60056e4127ba543c">Box3i</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a21fac797124aacbda1e3226395b7203f">getActiveBounds</a> () const</td></tr>
@@ -237,8 +240,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1e13873d4779acb7a43e40d9b78cce31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a955b3443eca10ee8c73c846b7608dd2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a955b3443eca10ee8c73c846b7608dd2e">enableVolumeRendering</a> (bool on)</td></tr>
 <tr class="separator:a955b3443eca10ee8c73c846b7608dd2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad70e1cebb88cbe66e961187511e4e1a0"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="namespaceMR.html#af1886e23b858590aaf7d50f8ed531961">SimpleVolumeU8</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#ad70e1cebb88cbe66e961187511e4e1a0">getVolumeRenderingData</a> () const</td></tr>
-<tr class="separator:ad70e1cebb88cbe66e961187511e4e1a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3968c90ab1b7498d6f04a2760929a176"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="namespaceMR.html#a62c7faf90b4e6e718dbf4fded8c15210">SimpleVolumeU16</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a3968c90ab1b7498d6f04a2760929a176">getVolumeRenderingData</a> () const</td></tr>
+<tr class="separator:a3968c90ab1b7498d6f04a2760929a176"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2132ce7c3f346b36f4cbf3887618d1b0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html">VolumeRenderingParams</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#a2132ce7c3f346b36f4cbf3887618d1b0">getVolumeRenderingParams</a> () const</td></tr>
 <tr class="separator:a2132ce7c3f346b36f4cbf3887618d1b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcf5902a4ac5cfb8e0d69f0828822a2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectVoxels.html#abcf5902a4ac5cfb8e0d69f0828822a2a">setVolumeRenderingParams</a> (const <a class="el" href="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html">VolumeRenderingParams</a> &amp;params)</td></tr>
@@ -1691,8 +1694,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad70e1cebb88cbe66e961187511e4e1a0" name="ad70e1cebb88cbe66e961187511e4e1a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad70e1cebb88cbe66e961187511e4e1a0">&#9670;&#160;</a></span>getVolumeRenderingData()</h2>
+<a id="a3968c90ab1b7498d6f04a2760929a176" name="a3968c90ab1b7498d6f04a2760929a176"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3968c90ab1b7498d6f04a2760929a176">&#9670;&#160;</a></span>getVolumeRenderingData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1701,7 +1704,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="namespaceMR.html#af1886e23b858590aaf7d50f8ed531961">SimpleVolumeU8</a> &gt; MR::ObjectVoxels::getVolumeRenderingData </td>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="namespaceMR.html#a62c7faf90b4e6e718dbf4fded8c15210">SimpleVolumeU16</a> &gt; MR::ObjectVoxels::getVolumeRenderingData </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2288,6 +2291,34 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae1bf2bbd9c8eaf107a9d67293a6f772e" name="ae1bf2bbd9c8eaf107a9d67293a6f772e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1bf2bbd9c8eaf107a9d67293a6f772e">&#9670;&#160;</a></span>setVoxelPointPositioner()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MR::ObjectVoxels::setVoxelPointPositioner </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ac595e45c15fc1d1677d48df60550c8e3">VoxelPointPositioner</a>&#160;</td>
+          <td class="paramname"><em>positioner</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>set voxel point positioner for Marching Cubes (only for Standard Marching Cubes) </p>
 
 </div>
 </div>

@@ -86,6 +86,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRGcodeProcessor.h", "MRGcodeProcessor_8h.html", "MRGcodeProcessor_8h" ],
     [ "MRGeodesicPath.h", "MRGeodesicPath_8h.html", "MRGeodesicPath_8h" ],
     [ "MRGltfSerializer.h", "MRGltfSerializer_8h.html", "MRGltfSerializer_8h" ],
+    [ "MRGraph.h", "MRGraph_8h.html", "MRGraph_8h" ],
     [ "MRGridSampling.h", "MRGridSampling_8h.html", "MRGridSampling_8h" ],
     [ "MRGridSettings.h", "MRGridSettings_8h.html", "MRGridSettings_8h" ],
     [ "MRGTest.h", "MRGTest_8h.html", null ],
@@ -305,6 +306,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRVoxelsLoad.h", "MRVoxelsLoad_8h.html", "MRVoxelsLoad_8h" ],
     [ "MRVoxelsSave.h", "MRVoxelsSave_8h.html", "MRVoxelsSave_8h" ],
     [ "MRVoxelsVolume.h", "MRVoxelsVolume_8h.html", "MRVoxelsVolume_8h" ],
+    [ "MRWatershedGraph.h", "MRWatershedGraph_8h.html", "MRWatershedGraph_8h" ],
     [ "MRWriter.h", "MRWriter_8h.html", "MRWriter_8h" ],
     [ "MRXfBasedCache.h", "MRXfBasedCache_8h.html", null ]
 ];

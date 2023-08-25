@@ -9,6 +9,7 @@ var structMR_1_1EdgePoint =
     [ "inVertex", "structMR_1_1EdgePoint.html#a25f0e8422ec2c8591279616e4f81709a", null ],
     [ "inVertex", "structMR_1_1EdgePoint.html#a564ab78e8cb9ad078dc7f1b009c594c4", null ],
     [ "inVertex", "structMR_1_1EdgePoint.html#a8af6e44f3bf41c0895fbef7ae838a263", null ],
+    [ "isBd", "structMR_1_1EdgePoint.html#a91ab20425879cb337a77e130ad484350", null ],
     [ "moveToClosestVertex", "structMR_1_1EdgePoint.html#acd27d6b536b5412853a94133280b6802", null ],
     [ "operator bool", "structMR_1_1EdgePoint.html#a544f2a00465ce861508927e122b12ee5", null ],
     [ "operator==", "structMR_1_1EdgePoint.html#a9348793c688230e4be403fff5ad98741", null ],

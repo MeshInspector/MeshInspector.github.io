@@ -72,6 +72,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRTouchesController.h", "MRTouchesController_8h.html", "MRTouchesController_8h" ],
     [ "MRTouchpadCocoaHandler.h", "MRTouchpadCocoaHandler_8h.html", null ],
     [ "MRTouchpadController.h", "MRTouchpadController_8h.html", "MRTouchpadController_8h" ],
+    [ "MRTouchpadWin32Handler.h", "MRTouchpadWin32Handler_8h.html", null ],
     [ "MRUIStyle.h", "MRUIStyle_8h.html", "MRUIStyle_8h" ],
     [ "MRViewer.h", "MRViewer_8h.html", "MRViewer_8h" ],
     [ "MRViewerEventsListener.h", "MRViewerEventsListener_8h.html", "MRViewerEventsListener_8h" ],

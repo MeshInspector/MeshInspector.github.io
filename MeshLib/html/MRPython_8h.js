@@ -7,6 +7,7 @@ var MRPython_8h =
     [ "MR_ADD_PYTHON_CUSTOM_DEF", "MRPython_8h.html#a4c2f86ab418002ae88c7465c2804c7f1", null ],
     [ "MR_ADD_PYTHON_EXPECTED", "MRPython_8h.html#a066f4ba30a78670e5297434557c362db", null ],
     [ "MR_ADD_PYTHON_FUNCTION", "MRPython_8h.html#ad3d8d8d2e659e278ea5e86f49078ddae", null ],
+    [ "MR_ADD_PYTHON_MAP", "MRPython_8h.html#a432ac9a0f3f5aca7d9f0b9741d3b37c5", null ],
     [ "MR_ADD_PYTHON_VEC", "MRPython_8h.html#a970813ca4d787c0bbe1ca6b1bd231cf9", null ],
     [ "MR_INIT_PYTHON_MODULE", "MRPython_8h.html#ae5ca7c53eb569ed9f6cf8fb01846e429", null ],
     [ "MR_INIT_PYTHON_MODULE_PRECALL", "MRPython_8h.html#a1b144f9ec840f941a158bc9256711732", null ],

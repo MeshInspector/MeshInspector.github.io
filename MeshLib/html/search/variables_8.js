@@ -24,7 +24,7 @@ var searchData=
   ['isedgeatrib_21',['isEdgeATriB',['../structMR_1_1VariableEdgeTri.html#aaf806bd6bbc163135641f8a5ca2a6f5f',1,'MR::VariableEdgeTri']]],
   ['isenabled_5f_22',['isEnabled_',['../classMR_1_1StateBasePlugin.html#a239e7ea5887cf228c8ea6a7eef781a2c',1,'MR::StateBasePlugin']]],
   ['iso_23',['iso',['../structMR_1_1MarchingCubesParams.html#af22e28b54f1377a8a75efda6cf460c62',1,'MR::MarchingCubesParams']]],
-  ['isolines_24',['isolines',['../structMR_1_1ToolPathResult.html#ab3d068a6931ee0eb0aa2afb02d792e6d',1,'MR::ToolPathResult']]],
+  ['isolines_24',['isolines',['../structMR_1_1ToolPathParams.html#a13a70c0130eab38aeaf063f1f6d276d7',1,'MR::ToolPathParams']]],
   ['isosurfacechangedsignal_25',['isoSurfaceChangedSignal',['../classMR_1_1ObjectVoxels.html#a3933529459eee6bf988f3b9814a52818',1,'MR::ObjectVoxels']]],
   ['isothera_26',['isOtherA',['../structMR_1_1SortIntersectionsData.html#a64cd77d679e163bbff985d79336ae2c4',1,'MR::SortIntersectionsData']]],
   ['isovalue_27',['isoValue',['../structMR_1_1GridToMeshSettings.html#ad826bf2632bc0f30ff1144fb199ad870',1,'MR::GridToMeshSettings']]],

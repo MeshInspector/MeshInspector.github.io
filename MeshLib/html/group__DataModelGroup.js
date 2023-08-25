@@ -294,13 +294,20 @@ var group__DataModelGroup =
           [ "Rainbow", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5a4aca5ee9a087fb9218bfb662fe92605c", null ],
           [ "OneColor", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5a0c8f5a9ec9d29d3f98de501c16144109", null ]
         ] ],
+        [ "ShadingType", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cf", [
+          [ "None", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cfa6adf97f83acf6453d4a6a4b1070f3754", null ],
+          [ "ValueGradient", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cfa95d1531d160fa0a7112f86c30a174300", null ],
+          [ "AlphaGradient", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cfa24c5f8c2189e0c426bb78f3ee753eb87", null ]
+        ] ],
         [ "operator==", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ab5aeef5b1c53656f8816af392af3ec46", null ],
         [ "alphaLimit", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a3020a0b0e97313d239308d5d16c7f9f3", null ],
         [ "Constant", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ad8187266986121c9568f668fe785fbc5", null ],
         [ "max", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b2551180d44dd12a9dd8b6f79cbd010", null ],
         [ "min", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#aa82f2dbcab6b825daff1c52d575ca2fa", null ],
+        [ "None", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a4d3b64c3be4b9df2a9728e5a097c8ad9", null ],
         [ "oneColor", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ae94f3eb91aef633aa6d0552e48b597a9", null ],
-        [ "Rainbow", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a13e9afd17c798286cf4e6db027d0ecf9", null ]
+        [ "Rainbow", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a13e9afd17c798286cf4e6db027d0ecf9", null ],
+        [ "volumeFilterType", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#aa2018932b0f46e90f13ac5b75b7eaed9", null ]
       ] ],
       [ "IsoSurfaceChangedSignal", "classMR_1_1ObjectVoxels.html#a3ace9713c9d0e39585ccb708a7cadf94", null ],
       [ "ObjectVoxels", "classMR_1_1ObjectVoxels.html#aba3acadd736c99c402f687aaecfba7fa", null ],
@@ -326,7 +333,7 @@ var group__DataModelGroup =
       [ "getMaxSurfaceVertices", "classMR_1_1ObjectVoxels.html#a9e4730fb8ac4fa2f313f3bef340d0216", null ],
       [ "getSelectedVoxels", "classMR_1_1ObjectVoxels.html#a2474b64ee36bdd0c3cbb7c2688559071", null ],
       [ "getVolumeIndexer", "classMR_1_1ObjectVoxels.html#a5d0809111b5537e09fcc341afb335c7f", null ],
-      [ "getVolumeRenderingData", "classMR_1_1ObjectVoxels.html#ad70e1cebb88cbe66e961187511e4e1a0", null ],
+      [ "getVolumeRenderingData", "classMR_1_1ObjectVoxels.html#a3968c90ab1b7498d6f04a2760929a176", null ],
       [ "getVolumeRenderingParams", "classMR_1_1ObjectVoxels.html#a2132ce7c3f346b36f4cbf3887618d1b0", null ],
       [ "getVoxelIdByCoordinate", "classMR_1_1ObjectVoxels.html#ac13b231e31f37fbd53d30d8a9aeb4e33", null ],
       [ "getVoxelIdByPoint", "classMR_1_1ObjectVoxels.html#a5b3ec655c032d761470ca3b9d7cf410e", null ],
@@ -347,6 +354,7 @@ var group__DataModelGroup =
       [ "setIsoValue", "classMR_1_1ObjectVoxels.html#aabcaba76e4b304059a1ad18bedf9e259", null ],
       [ "setMaxSurfaceVertices", "classMR_1_1ObjectVoxels.html#ac650d2660c0224513f5df6629615cb6f", null ],
       [ "setVolumeRenderingParams", "classMR_1_1ObjectVoxels.html#abcf5902a4ac5cfb8e0d69f0828822a2a", null ],
+      [ "setVoxelPointPositioner", "classMR_1_1ObjectVoxels.html#ae1bf2bbd9c8eaf107a9d67293a6f772e", null ],
       [ "shallowClone", "classMR_1_1ObjectVoxels.html#a225f04e78475f3534bd49929d9200da1", null ],
       [ "surface", "classMR_1_1ObjectVoxels.html#a31a6e0940a4632729bd5bab336d3b99f", null ],
       [ "swapBase_", "classMR_1_1ObjectVoxels.html#acfc82746f998b7430d932547ce473670", null ],

@@ -9,7 +9,7 @@ var searchData=
   ['shourtcutsmap_6',['ShourtcutsMap',['../classMR_1_1ShortcutManager.html#aa3f924fb2d8d08321689742094b61a10',1,'MR::ShortcutManager']]],
   ['simplelambda_7',['SimpleLambda',['../classMR_1_1LambdaRibbonItem.html#adf0efc0eaab84312e1058ba6f3d8cb95',1,'MR::LambdaRibbonItem']]],
   ['simplevolume_8',['SimpleVolume',['../namespaceMR.html#a7ad75de4317308dd9e905cc79369ab6b',1,'MR']]],
-  ['simplevolumeu8_9',['SimpleVolumeU8',['../namespaceMR.html#af1886e23b858590aaf7d50f8ed531961',1,'MR']]],
+  ['simplevolumeu16_9',['SimpleVolumeU16',['../namespaceMR.html#a62c7faf90b4e6e718dbf4fded8c15210',1,'MR']]],
   ['sm_10',['SM',['../structMR_1_1QuadraticForm.html#adea6aa750372ae79cb7d305a5f939f50',1,'MR::QuadraticForm']]],
   ['spacemousekeysignal_11',['SpaceMouseKeySignal',['../classMR_1_1Viewer.html#a4ddbf48e08044f241c126505d2914ce1',1,'MR::Viewer']]],
   ['spacemousemovesignal_12',['SpaceMouseMoveSignal',['../classMR_1_1Viewer.html#a005ec95118bcf872af734950909d0a9b',1,'MR::Viewer']]],
