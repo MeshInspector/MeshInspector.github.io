@@ -2,7 +2,7 @@ var searchData=
 [
   ['face_0',['Face',['../structMR_1_1OneMeshIntersection.html#aa8be4cdd05697b725ee7e1ae05833f82a94b51ce1acd528ad113406c334425167',1,'MR::OneMeshIntersection']]],
   ['facecenters_1',['FaceCenters',['../classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2a7a1c786bd1f2756b569ebd4ec85278ff',1,'MR::SurfacePointWidget']]],
-  ['faces_2',['Faces',['../structMR_1_1MeshVisualizePropertyType.html#a2e5c336a4feb2c41efef5ba1f038b738a412b539d3ec908368c90321358bbec25',1,'MR::MeshVisualizePropertyType::Faces'],['../classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2a4f93ea0836ba76b6f9b81e3eee53a3af',1,'MR::SurfacePointWidget::Faces']]],
+  ['faces_2',['faces',['../structMR_1_1MeshVisualizePropertyType.html#a2e5c336a4feb2c41efef5ba1f038b738a412b539d3ec908368c90321358bbec25',1,'MR::MeshVisualizePropertyType::Faces'],['../classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2a4f93ea0836ba76b6f9b81e3eee53a3af',1,'MR::SurfacePointWidget::Faces']]],
   ['facescolormap_3',['FacesColorMap',['../group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa65f3aabfa1c57a829746c547782eb1ba',1,'MR']]],
   ['fastlinear_4',['FastLinear',['../namespaceMR.html#a88f1fdd848610bc41226918baa28e601a7c45b71678fb35e216cb6bd78280e1e2',1,'MR']]],
   ['fastmarching_5',['FastMarching',['../group__SurfacePathSubgroup.html#gga0d52c069a53aab9d22c0f2c4e3f262a2aa379190d516779f65bad72b240e81435',1,'MR']]],

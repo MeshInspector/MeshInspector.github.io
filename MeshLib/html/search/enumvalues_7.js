@@ -7,5 +7,5 @@ var searchData=
   ['hide_4',['Hide',['../structMR_1_1Viewer_1_1LaunchParams.html#aac8179d29f102d3e7ee5a2d2cf1bfe32a5cee2a07914ba76f527a4f6969fec614',1,'MR::Viewer::LaunchParams']]],
   ['hideinit_5',['HideInit',['../structMR_1_1Viewer_1_1LaunchParams.html#aac8179d29f102d3e7ee5a2d2cf1bfe32ab0e6ed1e950a38cb9c5e2623b00bbebb',1,'MR::Viewer::LaunchParams']]],
   ['holewindingrule_6',['HoleWindingRule',['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a3065abc09e5d4edae66468fee91282e4',1,'MR']]],
-  ['horizontal_7',['Horizontal',['../classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9dac1b5fa03ecdb95d4a45dd1c40b02527f',1,'MR::SetViewportConfigPresetMenuItem::Horizontal'],['../structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0ac1b5fa03ecdb95d4a45dd1c40b02527f',1,'MR::GridSettings::Horizontal']]]
+  ['horizontal_7',['horizontal',['../classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9dac1b5fa03ecdb95d4a45dd1c40b02527f',1,'MR::SetViewportConfigPresetMenuItem::Horizontal'],['../structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0ac1b5fa03ecdb95d4a45dd1c40b02527f',1,'MR::GridSettings::Horizontal']]]
 ];

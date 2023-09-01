@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['thirdparty_20list_0',['Thirdparty list',['../ThirdParty.html',1,'']]]
+  ['model_20class_20hierarchy_0',['Data model class hierarchy',['../DataModel.html',1,'']]]
 ];

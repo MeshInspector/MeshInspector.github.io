@@ -24,6 +24,15 @@ var MRViewerEventsListener_8h =
     [ "MR::SpaceMouseMoveListener", "structMR_1_1SpaceMouseMoveListener.html", "structMR_1_1SpaceMouseMoveListener" ],
     [ "MR::SpaceMouseDownListener", "structMR_1_1SpaceMouseDownListener.html", "structMR_1_1SpaceMouseDownListener" ],
     [ "MR::SpaceMouseUpListener", "structMR_1_1SpaceMouseUpListener.html", "structMR_1_1SpaceMouseUpListener" ],
+    [ "MR::TouchpadRotateGestureBeginListener", "structMR_1_1TouchpadRotateGestureBeginListener.html", "structMR_1_1TouchpadRotateGestureBeginListener" ],
+    [ "MR::TouchpadRotateGestureUpdateListener", "structMR_1_1TouchpadRotateGestureUpdateListener.html", "structMR_1_1TouchpadRotateGestureUpdateListener" ],
+    [ "MR::TouchpadRotateGestureEndListener", "structMR_1_1TouchpadRotateGestureEndListener.html", "structMR_1_1TouchpadRotateGestureEndListener" ],
+    [ "MR::TouchpadSwipeGestureBeginListener", "structMR_1_1TouchpadSwipeGestureBeginListener.html", "structMR_1_1TouchpadSwipeGestureBeginListener" ],
+    [ "MR::TouchpadSwipeGestureUpdateListener", "structMR_1_1TouchpadSwipeGestureUpdateListener.html", "structMR_1_1TouchpadSwipeGestureUpdateListener" ],
+    [ "MR::TouchpadSwipeGestureEndListener", "structMR_1_1TouchpadSwipeGestureEndListener.html", "structMR_1_1TouchpadSwipeGestureEndListener" ],
+    [ "MR::TouchpadZoomGestureBeginListener", "structMR_1_1TouchpadZoomGestureBeginListener.html", "structMR_1_1TouchpadZoomGestureBeginListener" ],
+    [ "MR::TouchpadZoomGestureUpdateListener", "structMR_1_1TouchpadZoomGestureUpdateListener.html", "structMR_1_1TouchpadZoomGestureUpdateListener" ],
+    [ "MR::TouchpadZoomGestureEndListener", "structMR_1_1TouchpadZoomGestureEndListener.html", "structMR_1_1TouchpadZoomGestureEndListener" ],
     [ "MR::PostFocusListener", "structMR_1_1PostFocusListener.html", "structMR_1_1PostFocusListener" ],
     [ "MR::CursorEntranceListener", "structMR_1_1CursorEntranceListener.html", "structMR_1_1CursorEntranceListener" ]
 ];

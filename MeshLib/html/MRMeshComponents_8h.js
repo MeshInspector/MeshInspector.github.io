@@ -9,6 +9,7 @@ var MRMeshComponents_8h =
     [ "getAllComponentsMap", "MRMeshComponents_8h.html#ga6edee75a884c70eae8830d2684f57731", null ],
     [ "getAllComponentsVerts", "MRMeshComponents_8h.html#gacf901304f8dae140ebe581b9fefcf3e8", null ],
     [ "getAllComponentsVertsSeparatedByPath", "MRMeshComponents_8h.html#ga2b1d2f430d5544f3129616e7909e2210", null ],
+    [ "getAllComponentsVertsSeparatedByPaths", "MRMeshComponents_8h.html#ga04428c18d364e05a14deea6fa9537514", null ],
     [ "getComponent", "MRMeshComponents_8h.html#gacb2f12a18a222d322f2e8cb54bd29d69", null ],
     [ "getComponents", "MRMeshComponents_8h.html#ga5309af9f9740cbdcfd4e32b65895168b", null ],
     [ "getComponentsVerts", "MRMeshComponents_8h.html#gae360882572a82620a889fa7315e143f9", null ],
@@ -25,5 +26,6 @@ var MRMeshComponents_8h =
     [ "getUnionFindStructureVerts", "MRMeshComponents_8h.html#ga0c25b3e3697cc2efad3f13c664fc87ec", null ],
     [ "getUnionFindStructureVertsEx", "MRMeshComponents_8h.html#gace26e67d5d5067fe90238bc336ac1101", null ],
     [ "getUnionFindStructureVertsSeparatedByPath", "MRMeshComponents_8h.html#ga397973d9e4d6ee73a9d3ceaeb494102a", null ],
+    [ "getUnionFindStructureVertsSeparatedByPaths", "MRMeshComponents_8h.html#gaeea1d750f9fa547cc54e67ea7ed92bfb", null ],
     [ "hasFullySelectedComponent", "MRMeshComponents_8h.html#gac4401b9655de3a844caf1234d8f453cf", null ]
 ];

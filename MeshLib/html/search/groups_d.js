@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ray_20box_20intersection_0',['Ray Box Intersection',['../group__RayBoxIntersectionGroup.html',1,'']]]
+  ['normals_0',['Mesh Normals',['../group__MeshNormalsGroup.html',1,'']]]
 ];

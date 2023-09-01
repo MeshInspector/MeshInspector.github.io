@@ -2,7 +2,7 @@ var searchData=
 [
   ['rainbow_0',['Rainbow',['../structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5a4aca5ee9a087fb9218bfb662fe92605c',1,'MR::ObjectVoxels::VolumeRenderingParams']]],
   ['rainbowrect_1',['RainbowRect',['../classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368a5f623490490b088611156df973163f7f',1,'MR::RibbonButtonDrawer']]],
-  ['redo_2',['Redo',['../classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6',1,'MR::HistoryAction::Redo'],['../classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a5afeaba074ef570dc720caaa855d49f6',1,'MR::HistoryStore::Redo']]],
+  ['redo_2',['redo',['../classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6',1,'MR::HistoryAction::Redo'],['../classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a5afeaba074ef570dc720caaa855d49f6',1,'MR::HistoryStore::Redo']]],
   ['removeobject_3',['RemoveObject',['../classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1af0c405ca8e7eb2c3fa3d102bb69b75a9',1,'MR::ChangeSceneAction']]],
   ['repeat_4',['Repeat',['../namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00ca7020426cfb0a204051be4b3053d2acc8',1,'MR']]],
   ['rgb_5',['RGB',['../structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0a889574aebacda6bfd3e534e2b49b8028',1,'MR::BaseTiffParameters']]],
@@ -15,7 +15,7 @@ var searchData=
   ['ribbonbuttonhovered_12',['RibbonButtonHovered',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a525b14df5462bcd36ab6046c11b74b39',1,'MR::ColorTheme']]],
   ['ribbonitemicon_13',['RibbonItemIcon',['../classMR_1_1RibbonIcons.html#a2d10e82f8fd5c6cc53279374e9bd3931a35e029f5ff6bcc67b6ecc2e445c498f2',1,'MR::RibbonIcons']]],
   ['ridge_14',['Ridge',['../group__SurfacePathSubgroup.html#gga3887057b7aa95d9993b5ce57130c25a6ae9eeca48aa5cccacde08760c6ec9dd5a',1,'MR']]],
-  ['right_15',['Right',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca92b09c7c48c520c3c55e497875da437c',1,'MR::SetViewPresetMenuItem::Right'],['../namespaceMR.html#a78218d9e8bdad31c92f563f91f5d470aa54ea5115bec8bfd809c0ced25e85bbde',1,'MR::Right'],['../namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62da92b09c7c48c520c3c55e497875da437c',1,'MR::Right']]],
+  ['right_15',['right',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca92b09c7c48c520c3c55e497875da437c',1,'MR::SetViewPresetMenuItem::Right'],['../namespaceMR.html#a78218d9e8bdad31c92f563f91f5d470aa54ea5115bec8bfd809c0ced25e85bbde',1,'MR::Right'],['../namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62da92b09c7c48c520c3c55e497875da437c',1,'MR::Right']]],
   ['rightleft_16',['RightLeft',['../group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a060e258e018b85df7750330be4f807c0',1,'MR']]],
   ['rightright_17',['RightRight',['../group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a8282c1db2ec5b8780478223365a37438',1,'MR']]],
   ['rotate_18',['Rotate',['../classMR_1_1TouchesController.html#a5138dbae1e6c3d6ffdf6ea36f836f3e5aef5e7798f9df36e59431ba5f26d7bcdd',1,'MR::TouchesController']]],

@@ -28,5 +28,6 @@ var MRToolPath_8h =
     [ "exportToolPathToGCode", "MRToolPath_8h.html#ae19c8e7f8ba00c5000caeb6ff5f85139", null ],
     [ "interpolateArcs", "MRToolPath_8h.html#a0ea734068981c61c08db3a81e9e9e14c", null ],
     [ "interpolateLines", "MRToolPath_8h.html#afb1474bed2b3bd5b0216e704ee6b7325", null ],
-    [ "lacingToolPath", "MRToolPath_8h.html#adf602197c921ce31c7a2b893db3225d2", null ]
+    [ "lacingToolPath", "MRToolPath_8h.html#adf602197c921ce31c7a2b893db3225d2", null ],
+    [ "smoothSelection", "MRToolPath_8h.html#af52c9f9784d4604e85a995ced1c6837c", null ]
 ];

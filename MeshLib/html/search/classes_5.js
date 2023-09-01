@@ -2,7 +2,7 @@ var searchData=
 [
   ['faceface_0',['FaceFace',['../structMR_1_1FaceFace.html',1,'MR']]],
   ['facerecord_1',['FaceRecord',['../structMR_1_1MeshBuilder_1_1FaceRecord.html',1,'MR::MeshBuilder']]],
-  ['fastwindingnumber_2',['FastWindingNumber',['../classMR_1_1Cuda_1_1FastWindingNumber.html',1,'MR::Cuda::FastWindingNumber'],['../classMR_1_1FastWindingNumber.html',1,'MR::FastWindingNumber']]],
+  ['fastwindingnumber_2',['fastwindingnumber',['../classMR_1_1Cuda_1_1FastWindingNumber.html',1,'MR::Cuda::FastWindingNumber'],['../classMR_1_1FastWindingNumber.html',1,'MR::FastWindingNumber']]],
   ['file_3',['File',['../classMR_1_1File.html',1,'MR']]],
   ['fileparameters_4',['FileParameters',['../structMR_1_1FileParameters.html',1,'MR']]],
   ['fillholeitem_5',['FillHoleItem',['../structMR_1_1FillHoleItem.html',1,'MR']]],

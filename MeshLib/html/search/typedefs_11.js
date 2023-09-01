@@ -29,5 +29,5 @@ var searchData=
   ['symmatrix3f_26',['SymMatrix3f',['../namespaceMR.html#a7eb9d5ed9d7a2dfe0b2b02305f150223',1,'MR']]],
   ['symmatrix3i_27',['SymMatrix3i',['../namespaceMR.html#a3d58fd19741842a8b4279de73692c004',1,'MR']]],
   ['symmatrix3ll_28',['SymMatrix3ll',['../namespaceMR.html#a2ebb8410aff0ae6e4457f4b994b2db0f',1,'MR']]],
-  ['symmatrixtype_29',['SymMatrixType',['../structMR_1_1Vector2.html#aad35960bf4d5a0eefd7945e6e6bf768c',1,'MR::Vector2::SymMatrixType'],['../structMR_1_1Vector3.html#a1be16f68d003d1fe45b63bd915d50bff',1,'MR::Vector3::SymMatrixType']]]
+  ['symmatrixtype_29',['symmatrixtype',['../structMR_1_1Vector2.html#aad35960bf4d5a0eefd7945e6e6bf768c',1,'MR::Vector2::SymMatrixType'],['../structMR_1_1Vector3.html#a1be16f68d003d1fe45b63bd915d50bff',1,'MR::Vector3::SymMatrixType']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['a_0',['A',['../structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587a7fc56270e7a70fa81a5935b72eacbe29',1,'MR::BooleanResultMapper::A'],['../classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa7fc56270e7a70fa81a5935b72eacbe29',1,'MR::CNCMachineSettings::A']]],
+  ['a_0',['a',['../structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587a7fc56270e7a70fa81a5935b72eacbe29',1,'MR::BooleanResultMapper::A'],['../classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa7fc56270e7a70fa81a5935b72eacbe29',1,'MR::CNCMachineSettings::A']]],
   ['additionallines_1',['AdditionalLines',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748aebc53627d3ae664c54b4138c2dddb33a',1,'MR::GLStaticHolder']]],
   ['additionalpoints_2',['AdditionalPoints',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748ab6a9e51cc79b46152f149e9555907255',1,'MR::GLStaticHolder']]],
   ['additionalpointsnooffset_3',['AdditionalPointsNoOffset',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a9803632f2ffd6df4b9c59affbd0ee7c9',1,'MR::GLStaticHolder']]],
@@ -10,11 +10,11 @@ var searchData=
   ['aftersplash_7',['AfterSplash',['../classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39a55585580ed9accef0b51dcb897278dd7',1,'MR::CommandLoop']]],
   ['afterwindowappear_8',['AfterWindowAppear',['../classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39a626474288d65a719abc0bb3d279c2d7a',1,'MR::CommandLoop']]],
   ['alerttimereached_9',['AlertTimeReached',['../classMR_1_1AsyncTimer.html#ad1582b16bb15b7032af648423d3dd002ab9f34773f28edd59e08c2bee5bcb5a0a',1,'MR::AsyncTimer']]],
-  ['all_10',['All',['../classMR_1_1TouchesController.html#a5138dbae1e6c3d6ffdf6ea36f836f3e5aee695b81c1d90022e504371ba49fe804',1,'MR::TouchesController::All'],['../structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680',1,'MR::CutMeshParameters::All'],['../group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a2b387b6cc4a4d4d822afc0cea2c205ec',1,'MR::All']]],
+  ['all_10',['all',['../classMR_1_1TouchesController.html#a5138dbae1e6c3d6ffdf6ea36f836f3e5aee695b81c1d90022e504371ba49fe804',1,'MR::TouchesController::All'],['../structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680',1,'MR::CutMeshParameters::All'],['../group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a2b387b6cc4a4d4d822afc0cea2c205ec',1,'MR::All']]],
   ['alphagradient_11',['AlphaGradient',['../structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cfa24c5f8c2189e0c426bb78f3ee753eb87',1,'MR::ObjectVoxels::VolumeRenderingParams']]],
   ['always_12',['Always',['../namespaceMR.html#ae3249e80a5322781826980a69c28aee6a68eec46437c384d8dad18d5464ebc35c',1,'MR']]],
   ['analysis_13',['Analysis',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37a739e6d2a73723ec7b1919fa5a51f9b07',1,'MR']]],
-  ['any_14',['Any',['../classMR_1_1TouchesController.html#a5138dbae1e6c3d6ffdf6ea36f836f3e5ada257fd743c5fc266ffde7dfd4f8ff6c',1,'MR::TouchesController::Any'],['../group__DataModelGroup.html#gga1ab156c0351dfcd112a67a72e485f123aed36a1ef76a59ee3f15180e0441188ad',1,'MR::Any']]],
+  ['any_14',['any',['../classMR_1_1TouchesController.html#a5138dbae1e6c3d6ffdf6ea36f836f3e5ada257fd743c5fc266ffde7dfd4f8ff6c',1,'MR::TouchesController::Any'],['../group__DataModelGroup.html#gga1ab156c0351dfcd112a67a72e485f123aed36a1ef76a59ee3f15180e0441188ad',1,'MR::Any']]],
   ['anyrigidxf_15',['AnyRigidXf',['../namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677a1662b3d601f436e62a0bf6529440eaef',1,'MR']]],
   ['appendaction_16',['AppendAction',['../classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4aa1f9274fc711d6a07979894ed2bfe727',1,'MR::HistoryStore']]],
   ['arcccw_17',['ArcCCW',['../namespaceMR.html#a88f1fdd848610bc41226918baa28e601acb5dc5739002bbc3b5c303988de899d4',1,'MR']]],

@@ -30,7 +30,7 @@ var searchData=
   ['selectobjectbyclick_27',['SelectObjectByClick',['../classMR_1_1SelectObjectByClick.html',1,'MR']]],
   ['selectscreenlasso_28',['SelectScreenLasso',['../classMR_1_1SelectScreenLasso.html',1,'MR']]],
   ['setbititeratort_29',['SetBitIteratorT',['../classMR_1_1SetBitIteratorT.html',1,'MR']]],
-  ['settings_30',['Settings',['../structMR_1_1GlTexture2_1_1Settings.html',1,'MR::GlTexture2::Settings'],['../structMR_1_1GlTexture3_1_1Settings.html',1,'MR::GlTexture3::Settings']]],
+  ['settings_30',['settings',['../structMR_1_1GlTexture2_1_1Settings.html',1,'MR::GlTexture2::Settings'],['../structMR_1_1GlTexture3_1_1Settings.html',1,'MR::GlTexture3::Settings']]],
   ['setviewportconfigpresetmenuitem_31',['SetViewportConfigPresetMenuItem',['../classMR_1_1SetViewportConfigPresetMenuItem.html',1,'MR']]],
   ['setviewpresetmenuitem_32',['SetViewPresetMenuItem',['../classMR_1_1SetViewPresetMenuItem.html',1,'MR']]],
   ['shaderwarning_33',['ShaderWarning',['../structMR_1_1ShaderWarning.html',1,'MR']]],

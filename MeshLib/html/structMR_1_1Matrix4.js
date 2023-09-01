@@ -16,7 +16,7 @@ var structMR_1_1Matrix4 =
     [ "inverse", "structMR_1_1Matrix4.html#ae7db341476ea39c09db9484ee3516d8a", null ],
     [ "norm", "structMR_1_1Matrix4.html#abbbfb8ca3d8678f48374c3c38105af5a", null ],
     [ "normSq", "structMR_1_1Matrix4.html#a61d081cbcb96e39fb7279a55c0b57996", null ],
-    [ "operator AffineXf3", "structMR_1_1Matrix4.html#a9bf830d5609ca546de27c8df30c11c8a", null ],
+    [ "operator AffineXf3< T >", "structMR_1_1Matrix4.html#a43b42a23dd36b93af1411d2dd746a432", null ],
     [ "operator()", "structMR_1_1Matrix4.html#ac9ab092bcc4039bc1dfc88b1037dee99", null ],
     [ "operator()", "structMR_1_1Matrix4.html#a6c21d25d2c8666791acd9807e6625422", null ],
     [ "operator()", "structMR_1_1Matrix4.html#a02514ec882b0d3be5745825463ffff40", null ],

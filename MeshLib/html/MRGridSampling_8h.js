@@ -1,5 +1,5 @@
 var MRGridSampling_8h =
 [
-    [ "pointGridSampling", "MRGridSampling_8h.html#a96e10d3ddbcd64ca6b5fd0055bfe914d", null ],
-    [ "verticesGridSampling", "MRGridSampling_8h.html#abb9cb76b3a80c45dafeb3744f75df05d", null ]
+    [ "pointGridSampling", "MRGridSampling_8h.html#ad341e55dc846f22a7507bbd7976153e0", null ],
+    [ "verticesGridSampling", "MRGridSampling_8h.html#a1f09dea53bc42dd20b0c49da65f93de4", null ]
 ];

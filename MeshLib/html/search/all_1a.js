@@ -1,15 +1,12 @@
 var searchData=
 [
-  ['z_0',['z',['../structMR_1_1Matrix3.html#ae0145a330e7ad72bfdb5e8813c7ee37f',1,'MR::Matrix3::z'],['../structMR_1_1Matrix4.html#a236c71c6a980ce77ee524f2a4b161271',1,'MR::Matrix4::z'],['../structMR_1_1GCommand.html#aec5c0f6069885854d6838a98f1bacae3',1,'MR::GCommand::z'],['../structMR_1_1Vector3.html#ae596ea6de55c00124d84150eadecd455',1,'MR::Vector3::z'],['../structMR_1_1Vector4.html#a15c59e2cece13e2ed0b5dbb20533b922',1,'MR::Vector4::z']]],
-  ['z_1',['Z',['../namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005a21c2e59531c8710156d34a3c30ac81d5',1,'MR']]],
-  ['zbuffer_2',['zBuffer',['../structMR_1_1ViewportGL_1_1PickResult.html#a5436a18c5ecc4c071070e0dabaa2ad8f',1,'MR::ViewportGL::PickResult']]],
-  ['zero_3',['zero',['../structMR_1_1Matrix2.html#aee919fa6d0f9a5cbfb9cd5303c6439a8',1,'MR::Matrix2::zero()'],['../structMR_1_1Matrix3.html#ab150121e08f70a3229e617a4c06a5d6a',1,'MR::Matrix3::zero()'],['../structMR_1_1Matrix4.html#a58830bef10087e37b89c0e3e53a796ab',1,'MR::Matrix4::zero()']]],
-  ['zeroonmove_4',['ZeroOnMove',['../structMR_1_1ZeroOnMove.html',1,'MR::ZeroOnMove&lt; T &gt;'],['../structMR_1_1ZeroOnMove.html#af504ba39107aabf4c055c1a1f651c586',1,'MR::ZeroOnMove::ZeroOnMove() noexcept'],['../structMR_1_1ZeroOnMove.html#a6c54d017113955a26465a32443707c9f',1,'MR::ZeroOnMove::ZeroOnMove(const ZeroOnMove &amp;) noexcept=delete'],['../structMR_1_1ZeroOnMove.html#a1eb512d1aea6742b0d8392f71ce425a2',1,'MR::ZeroOnMove::ZeroOnMove(ZeroOnMove &amp;&amp;z) noexcept']]],
-  ['zeroonmove_3c_20size_5ft_20_3e_5',['ZeroOnMove&lt; size_t &gt;',['../structMR_1_1ZeroOnMove.html',1,'MR']]],
-  ['zerounusedpoints_6',['zeroUnusedPoints',['../structMR_1_1Mesh.html#a540a6eef456f6c54c214766fc0a7c3fb',1,'MR::Mesh']]],
-  ['zoffset_7',['zOffset',['../structMR_1_1ViewportGL_1_1RenderParams.html#a4418936d5182b4b3065dcbd54b9388df',1,'MR::ViewportGL::RenderParams']]],
-  ['zoom_8',['Zoom',['../classMR_1_1TouchesController.html#a5138dbae1e6c3d6ffdf6ea36f836f3e5aec731e18cc7bf5f80ae6e195004cbf74',1,'MR::TouchesController']]],
-  ['zoom_9',['zoom',['../classMR_1_1TouchpadController_1_1Handler.html#a53ce9df3826272ec14d52fdfa90d95ed',1,'MR::TouchpadController::Handler']]],
-  ['zx_10',['ZX',['../group__VoxelPathGroup.html#gga4412ea17fd4bcca4ad23e987f61c20aba24b4db35f35f7ebe4a15436010a070d9',1,'MR']]],
-  ['zz_11',['zz',['../structMR_1_1SymMatrix3.html#ae0bca6271c1e0d370210fcd54da942ba',1,'MR::SymMatrix3']]]
+  ['y_0',['y',['../structMR_1_1Matrix2.html#a71548cad8d3164c3d8d15d3e5bbd0b01',1,'MR::Matrix2::y'],['../structMR_1_1Matrix3.html#aafd25b0c56a5f7a67abb2afa5d652912',1,'MR::Matrix3::y'],['../structMR_1_1Matrix4.html#a75f9e05ce8b540c5e85bd3f79ba19381',1,'MR::Matrix4::y'],['../structMR_1_1GCommand.html#a153e73394a743e67aaeaeefb04deac21',1,'MR::GCommand::y'],['../structMR_1_1Vector2.html#a5186451c51a4f421a0b810a3f836fae8',1,'MR::Vector2::y'],['../structMR_1_1Vector3.html#a4cbb29e67931176028f57f29b2bd6953',1,'MR::Vector3::y'],['../structMR_1_1Vector4.html#a0e6c5be3afc64d0b545923575087bb78',1,'MR::Vector4::y'],['../namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005a57cec4137b614c87cb4e24a3d003a3e0',1,'MR::Y']]],
+  ['yellow_1',['yellow',['../structMR_1_1Color.html#a7a15e2053da20914d242d21eb1486f30',1,'MR::Color']]],
+  ['yes_2',['yes',['../classMR_1_1Laplacian.html#a67c8dfc7669f41712a92d21d5ec99feda93cba07454f06a4a960172bbd6e2a435',1,'MR::Laplacian::Yes'],['../namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435',1,'MR::Yes']]],
+  ['yesifalreadyconstructed_3',['YesIfAlreadyConstructed',['../namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffa15e26f8fa2b40c5f5855790886c51a83',1,'MR']]],
+  ['your_20application_20on_20meshlib_4',['Basing your application on MeshLib',['../HowToBasic.html#MRBasedMainFunc',1,'']]],
+  ['your_20first_20plugin_5',['How to make your first plugin',['../StatePluginsHelp.html#PluginCreation',1,'']]],
+  ['yrange_6',['yRange',['../structMR_1_1MeshToDistanceMapParams.html#a3273bae2c4c112688b441a6aa4d0e811',1,'MR::MeshToDistanceMapParams']]],
+  ['yy_7',['yy',['../structMR_1_1SymMatrix2.html#a3f9de72646e2a2bbf46b9eb3a2691fc2',1,'MR::SymMatrix2::yy'],['../structMR_1_1SymMatrix3.html#ae811049caca3dc4cda97eb36c1b118a7',1,'MR::SymMatrix3::yy']]],
+  ['yz_8',['yz',['../structMR_1_1SymMatrix3.html#a6ebdff1e289a9153c5bef3e6a7683b25',1,'MR::SymMatrix3::yz'],['../group__VoxelPathGroup.html#gga4412ea17fd4bcca4ad23e987f61c20aba848c5fe5a26f3330bcbedda94181fc74',1,'MR::YZ'],['../namespaceMR.html#ae1af7aec8f28c8e85182ca94f5802435affa4ba973372c3650fd0881abeca6512',1,'MR::YZ']]]
 ];

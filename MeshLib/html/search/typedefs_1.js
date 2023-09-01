@@ -14,5 +14,5 @@ var searchData=
   ['box3f_11',['Box3f',['../namespaceMR.html#ada98ebf3fec74759dd46700389a3e556',1,'MR']]],
   ['box3i_12',['Box3i',['../namespaceMR.html#abb77b8aff8d862cb60056e4127ba543c',1,'MR']]],
   ['box3ll_13',['Box3ll',['../namespaceMR.html#a215d172c7f57b159f52f6027ca1867a6',1,'MR']]],
-  ['boxt_14',['BoxT',['../structMR_1_1ABBTreeTraits.html#aca44121dedda267d6d6d05d28c60e186',1,'MR::ABBTreeTraits::BoxT'],['../structMR_1_1AABBTreeNode.html#af92cbed18c9ddfbf28d0e86385fc6e01',1,'MR::AABBTreeNode::BoxT']]]
+  ['boxt_14',['boxt',['../structMR_1_1ABBTreeTraits.html#aca44121dedda267d6d6d05d28c60e186',1,'MR::ABBTreeTraits::BoxT'],['../structMR_1_1AABBTreeNode.html#af92cbed18c9ddfbf28d0e86385fc6e01',1,'MR::AABBTreeNode::BoxT']]]
 ];

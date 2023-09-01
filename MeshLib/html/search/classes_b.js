@@ -58,7 +58,8 @@ var searchData=
   ['multilistener_3c_20predrawlistener_20_3e_55',['MultiListener&lt; PreDrawListener &gt;',['../structMR_1_1MultiListener.html',1,'MR']]],
   ['multilistener_3c_20predrawlistener_2c_20drawlistener_2c_20interruptcloselistener_20_3e_56',['MultiListener&lt; PreDrawListener, DrawListener, InterruptCloseListener &gt;',['../structMR_1_1MultiListener.html',1,'MR']]],
   ['multilistener_3c_20predrawlistener_2c_20interruptcloselistener_20_3e_57',['MultiListener&lt; PreDrawListener, InterruptCloseListener &gt;',['../structMR_1_1MultiListener.html',1,'MR']]],
-  ['multilistener_3c_20touchstartlistener_2c_20touchmovelistener_2c_20touchendlistener_20_3e_58',['MultiListener&lt; TouchStartListener, TouchMoveListener, TouchEndListener &gt;',['../structMR_1_1MultiListener.html',1,'MR']]],
-  ['multimeshintersectionresult_59',['MultiMeshIntersectionResult',['../structMR_1_1MultiMeshIntersectionResult.html',1,'MR']]],
-  ['mutexowner_60',['MutexOwner',['../structMR_1_1MutexOwner.html',1,'MR']]]
+  ['multilistener_3c_20touchpadrotategesturebeginlistener_2c_20touchpadrotategestureupdatelistener_2c_20touchpadrotategestureendlistener_2c_20touchpadswipegesturebeginlistener_2c_20touchpadswipegestureupdatelistener_2c_20touchpadswipegestureendlistener_2c_20touchpadzoomgesturebeginlistener_2c_20touchpadzoomgestureupdatelistener_2c_20touchpadzoomgestureendlistener_20_3e_58',['MultiListener&lt; TouchpadRotateGestureBeginListener, TouchpadRotateGestureUpdateListener, TouchpadRotateGestureEndListener, TouchpadSwipeGestureBeginListener, TouchpadSwipeGestureUpdateListener, TouchpadSwipeGestureEndListener, TouchpadZoomGestureBeginListener, TouchpadZoomGestureUpdateListener, TouchpadZoomGestureEndListener &gt;',['../structMR_1_1MultiListener.html',1,'MR']]],
+  ['multilistener_3c_20touchstartlistener_2c_20touchmovelistener_2c_20touchendlistener_20_3e_59',['MultiListener&lt; TouchStartListener, TouchMoveListener, TouchEndListener &gt;',['../structMR_1_1MultiListener.html',1,'MR']]],
+  ['multimeshintersectionresult_60',['MultiMeshIntersectionResult',['../structMR_1_1MultiMeshIntersectionResult.html',1,'MR']]],
+  ['mutexowner_61',['MutexOwner',['../structMR_1_1MutexOwner.html',1,'MR']]]
 ];

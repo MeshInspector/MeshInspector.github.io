@@ -32,7 +32,7 @@ var searchData=
   ['changesurfaceaction_29',['ChangeSurfaceAction',['../classMR_1_1ChangeSurfaceAction.html',1,'MR']]],
   ['changevertscolormapaction_30',['ChangeVertsColorMapAction',['../classMR_1_1ChangeVertsColorMapAction.html',1,'MR']]],
   ['changevisualizepropertyaction_31',['ChangeVisualizePropertyAction',['../classMR_1_1ChangeVisualizePropertyAction.html',1,'MR']]],
-  ['changexfaction_32',['ChangeXfAction',['../classMR_1_1ChangeXfAction.html',1,'MR::ChangeXfAction'],['../classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html',1,'MR::ObjectTransformWidget::ChangeXfAction']]],
+  ['changexfaction_32',['changexfaction',['../classMR_1_1ChangeXfAction.html',1,'MR::ChangeXfAction'],['../classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html',1,'MR::ObjectTransformWidget::ChangeXfAction']]],
   ['changvoxelselectionaction_33',['ChangVoxelSelectionAction',['../classMR_1_1ChangVoxelSelectionAction.html',1,'MR']]],
   ['charpressedlistener_34',['CharPressedListener',['../structMR_1_1CharPressedListener.html',1,'MR']]],
   ['circleobject_35',['CircleObject',['../classMR_1_1CircleObject.html',1,'MR']]],

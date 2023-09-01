@@ -1,14 +1,14 @@
 var searchData=
 [
   ['c_0',['c',['../structMR_1_1QuadraticForm.html#a0b59f3e15f491ff0d64f1121a8b0a463',1,'MR::QuadraticForm::c'],['../structMR_1_1Quaternion.html#a3408cac17b0213d5213b299ad98f12c3',1,'MR::Quaternion::c'],['../structMR_1_1ImmediateGL_1_1Tri.html#aed1004526c7c1003d0b235187cc16652',1,'MR::ImmediateGL::Tri::c'],['../structMR_1_1ImmediateGL_1_1TriCornerColors.html#a4f1ee4885f77dd7612999174bfa666e2',1,'MR::ImmediateGL::TriCornerColors::c']]],
-  ['callback_1',['callBack',['../structMR_1_1MeshVoxelsConverter.html#aacaa105e052e556811b815c3f19520a7',1,'MR::MeshVoxelsConverter::callBack'],['../structMR_1_1BaseOffsetParameters.html#a9bbf7e85a6300e84167da3589512f6d9',1,'MR::BaseOffsetParameters::callBack']]],
+  ['callback_1',['callback',['../structMR_1_1MeshVoxelsConverter.html#aacaa105e052e556811b815c3f19520a7',1,'MR::MeshVoxelsConverter::callBack'],['../structMR_1_1BaseOffsetParameters.html#a9bbf7e85a6300e84167da3589512f6d9',1,'MR::BaseOffsetParameters::callBack']]],
   ['cameradfar_2',['cameraDfar',['../structMR_1_1Viewport_1_1Parameters.html#a4e04005c46ed161365c6df1748e23b07',1,'MR::Viewport::Parameters']]],
   ['cameradnear_3',['cameraDnear',['../structMR_1_1Viewport_1_1Parameters.html#ace4bc4bedd8fc05cfc34236d8f4c7612',1,'MR::Viewport::Parameters']]],
   ['cameraspace_4',['cameraSpace',['../structMR_1_1Viewer_1_1PointInAllSpaces.html#a19ced0239624ea309a4d6917939ec2c0',1,'MR::Viewer::PointInAllSpaces']]],
   ['cameratrackballangle_5',['cameraTrackballAngle',['../structMR_1_1Viewport_1_1Parameters.html#a8eb6827f455ef93e1175b0364c9cbc40',1,'MR::Viewport::Parameters']]],
   ['cameratranslation_6',['cameraTranslation',['../structMR_1_1Viewport_1_1Parameters.html#a1df762dce4c2e6b6f250ab0220bf3429',1,'MR::Viewport::Parameters']]],
   ['cameraviewangle_7',['cameraViewAngle',['../structMR_1_1Viewport_1_1Parameters.html#a1c27a50a950c5531b7b4198a165971f4',1,'MR::Viewport::Parameters']]],
-  ['camerazoom_8',['cameraZoom',['../structMR_1_1Viewport_1_1Parameters.html#a899380f5e0c8dac5d5d3f4045a1b9790',1,'MR::Viewport::Parameters::cameraZoom'],['../structMR_1_1ViewportGL_1_1RenderParams.html#a4c095fd4b5c211dcf40dd5dc9e077ed0',1,'MR::ViewportGL::RenderParams::cameraZoom']]],
+  ['camerazoom_8',['camerazoom',['../structMR_1_1Viewport_1_1Parameters.html#a899380f5e0c8dac5d5d3f4045a1b9790',1,'MR::Viewport::Parameters::cameraZoom'],['../structMR_1_1ViewportGL_1_1RenderParams.html#a4c095fd4b5c211dcf40dd5dc9e077ed0',1,'MR::ViewportGL::RenderParams::cameraZoom']]],
   ['cancellable_9',['cancellable',['../structMR_1_1TouchpadController_1_1Parameters.html#a1df0092ae5052a9633edbc70adaeba34',1,'MR::TouchpadController::Parameters']]],
   ['cancelled_10',['cancelled',['../structMR_1_1DecimateResult.html#a957fcc3b175a446e3a20f7299cd9a1b6',1,'MR::DecimateResult']]],
   ['caption_11',['caption',['../structMR_1_1MenuItemInfo.html#a1a97de0241883ed6ff2ee906e70519b4',1,'MR::MenuItemInfo']]],
@@ -41,7 +41,7 @@ var searchData=
   ['cisleftfromab_38',['cIsLeftFromAB',['../structMR_1_1SegmentSegmentIntersectResult.html#ad789dc6d1f5c42fae9b48164fcf8e824',1,'MR::SegmentSegmentIntersectResult']]],
   ['citeminfoindent_39',['cItemInfoIndent',['../namespaceMR.html#a70bcc4098e7e70c56a659aa92a28fa66',1,'MR']]],
   ['clipbyplane_5f_40',['clipByPlane_',['../classMR_1_1VisualObject.html#ab87c9fab3f92c38aba589584b5466a98',1,'MR::VisualObject']]],
-  ['clippingplane_41',['clippingPlane',['../structMR_1_1Viewport_1_1Parameters.html#a784d7971f07e64aba46caec551eeae94',1,'MR::Viewport::Parameters::clippingPlane'],['../structMR_1_1ViewportGL_1_1PickParameters.html#aff5495af1f46be635d2ffa5c0da47d24',1,'MR::ViewportGL::PickParameters::clippingPlane']]],
+  ['clippingplane_41',['clippingplane',['../structMR_1_1Viewport_1_1Parameters.html#a784d7971f07e64aba46caec551eeae94',1,'MR::Viewport::Parameters::clippingPlane'],['../structMR_1_1ViewportGL_1_1PickParameters.html#aff5495af1f46be635d2ffa5c0da47d24',1,'MR::ViewportGL::PickParameters::clippingPlane']]],
   ['clippingplaneobject_42',['clippingPlaneObject',['../classMR_1_1Viewer.html#ac51259408b6d7317405a7362d7d8a0e4',1,'MR::Viewer']]],
   ['clipplane_43',['clipPlane',['../structMR_1_1BaseRenderParams.html#a763fa52a128676d66a64182a9ab912ee',1,'MR::BaseRenderParams']]],
   ['clipspace_44',['clipSpace',['../structMR_1_1Viewer_1_1PointInAllSpaces.html#a8bf3611ad1d15369ceb12a89f03fb29f',1,'MR::Viewer::PointInAllSpaces']]],
@@ -60,7 +60,7 @@ var searchData=
   ['combinemetric_57',['combineMetric',['../structMR_1_1FillHoleMetric.html#a7b6a69b1fc9a24862156d40b44ff814c',1,'MR::FillHoleMetric']]],
   ['commands_58',['commands',['../structMR_1_1ToolPathResult.html#a327bcaceb046cef6859ddc1293a47e35',1,'MR::ToolPathResult']]],
   ['comment_59',['comment',['../structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a5f613f44fae6b6a33f13f57fc0161a01',1,'MR::PointsSave::CtmSavePointsOptions::comment'],['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#a19694f1e7c36428c2d0e206560be24a3',1,'MR::MeshSave::CtmSaveOptions::comment']]],
-  ['compressionlevel_60',['compressionLevel',['../structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a93bcbf8ddd9c5a89210bf3cf9f8acbef',1,'MR::PointsSave::CtmSavePointsOptions::compressionLevel'],['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#a09f020b5c907033a5e7b25073effacf5',1,'MR::MeshSave::CtmSaveOptions::compressionLevel']]],
+  ['compressionlevel_60',['compressionlevel',['../structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a93bcbf8ddd9c5a89210bf3cf9f8acbef',1,'MR::PointsSave::CtmSavePointsOptions::compressionLevel'],['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#a09f020b5c907033a5e7b25073effacf5',1,'MR::MeshSave::CtmSaveOptions::compressionLevel']]],
   ['coneradiusfactor_61',['coneRadiusFactor',['../structMR_1_1TransformControls_1_1VisualParams.html#acd8740b7982dd1a382270b6374aee8b8',1,'MR::TransformControls::VisualParams']]],
   ['conesizefactor_62',['coneSizeFactor',['../structMR_1_1TransformControls_1_1VisualParams.html#ae43b3a461c666eefa1a0f948bd1b4070',1,'MR::TransformControls::VisualParams']]],
   ['connection_5f_63',['connection_',['../structMR_1_1ConnectionHolder.html#a58d70b6717be7e482bb8c55c069d2957',1,'MR::ConnectionHolder']]],
@@ -95,7 +95,7 @@ var searchData=
   ['critholelength_92',['critHoleLength',['../structMR_1_1TriangulationParameters.html#a18b9e4beb720ba7134c197142243b529',1,'MR::TriangulationParameters']]],
   ['criticalaspectratio_93',['criticalAspectRatio',['../structMR_1_1ResolveMeshDegenSettings.html#a24c4323fd4bbfa56d8c69237a847dbf6',1,'MR::ResolveMeshDegenSettings']]],
   ['criticalaspectratioflip_94',['criticalAspectRatioFlip',['../structMR_1_1SubdivideSettings.html#a772aa28ef31f33140c7b3f6bfbc36d30',1,'MR::SubdivideSettings']]],
-  ['criticaltriaspectratio_95',['criticalTriAspectRatio',['../structMR_1_1DecimateSettings.html#a5f0e2ae094cddee1b490103a349feda5',1,'MR::DecimateSettings::criticalTriAspectRatio'],['../structMR_1_1DecimateParallelSettings.html#a275c6c639a8f4489cb392eacf2bd6214',1,'MR::DecimateParallelSettings::criticalTriAspectRatio'],['../structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2',1,'MR::DeloneSettings::criticalTriAspectRatio']]],
+  ['criticaltriaspectratio_95',['criticaltriaspectratio',['../structMR_1_1DecimateSettings.html#a5f0e2ae094cddee1b490103a349feda5',1,'MR::DecimateSettings::criticalTriAspectRatio'],['../structMR_1_1DecimateParallelSettings.html#a275c6c639a8f4489cb392eacf2bd6214',1,'MR::DecimateParallelSettings::criticalTriAspectRatio'],['../structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2',1,'MR::DeloneSettings::criticalTriAspectRatio']]],
   ['crittransitionlength_96',['critTransitionLength',['../structMR_1_1ToolPathParams.html#a24c0b4801961990c4c8e6b4003bf2bb2',1,'MR::ToolPathParams']]],
   ['croplabels_5f_97',['cropLabels_',['../classMR_1_1VisualObject.html#a00c87dfb674938a5d27218e746079782',1,'MR::VisualObject']]],
   ['cscrollbarsize_98',['cScrollBarSize',['../namespaceMR.html#a617cd90c338d4e739823f0bf7bc42ee4',1,'MR']]],
@@ -118,5 +118,5 @@ var searchData=
   ['cut2newfaces_115',['cut2newFaces',['../structMR_1_1BooleanResultMapper_1_1Maps.html#a759f148ae9dcef7ecb6908d19f726e7c',1,'MR::BooleanResultMapper::Maps']]],
   ['cut2origin_116',['cut2origin',['../structMR_1_1BooleanResultMapper_1_1Maps.html#a854bf26bb7bda5effd4d5f1be56f0aa9',1,'MR::BooleanResultMapper::Maps']]],
   ['cutangle_117',['cutAngle',['../structMR_1_1EmbeddedStructureParameters.html#a05c78c11ae3e84bc6ecb2f3ea9baf462',1,'MR::EmbeddedStructureParameters']]],
-  ['cutbitset_118',['cutBitSet',['../structMR_1_1EmbeddedConeParameters.html#a46267d1ead6870a20d115f4d57f4fe62',1,'MR::EmbeddedConeParameters::cutBitSet'],['../structMR_1_1EmbeddedConeResult.html#a41edbd804934d5b7ce5963b929426b97',1,'MR::EmbeddedConeResult::cutBitSet']]]
+  ['cutbitset_118',['cutbitset',['../structMR_1_1EmbeddedConeParameters.html#a46267d1ead6870a20d115f4d57f4fe62',1,'MR::EmbeddedConeParameters::cutBitSet'],['../structMR_1_1EmbeddedConeResult.html#a41edbd804934d5b7ce5963b929426b97',1,'MR::EmbeddedConeResult::cutBitSet']]]
 ];

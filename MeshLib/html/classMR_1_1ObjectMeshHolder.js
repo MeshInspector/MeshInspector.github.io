@@ -81,6 +81,7 @@ var classMR_1_1ObjectMeshHolder =
     [ "typeName", "classMR_1_1ObjectMeshHolder.html#a8881d4cf9ed83ffbec3af1d175a0ace2", null ],
     [ "updateAncillaryUVCoords", "classMR_1_1ObjectMeshHolder.html#a663d9471a16c9490dadae17913e17742", null ],
     [ "updateUVCoords", "classMR_1_1ObjectMeshHolder.html#a3029032da5c7c3dd54fcb60f53ef3ea4", null ],
+    [ "volume", "classMR_1_1ObjectMeshHolder.html#a8d7824bc0f0e8a4bf4a0ae4274d5c4e0", null ],
     [ "ancillaryTexture_", "classMR_1_1ObjectMeshHolder.html#aabe11a7d97527caa17d527044aa97a11", null ],
     [ "ancillaryUVCoordinates_", "classMR_1_1ObjectMeshHolder.html#a41d53a14ee2d2fa5b894d5a5b19586e5", null ],
     [ "avgEdgeLen_", "classMR_1_1ObjectMeshHolder.html#a7b9b185e83a83d6a3cdf3f18fca7d410", null ],
@@ -119,5 +120,6 @@ var classMR_1_1ObjectMeshHolder =
     [ "texture_", "classMR_1_1ObjectMeshHolder.html#a0ff214a19e9d18e8aab6649f9891f9c6", null ],
     [ "totalArea_", "classMR_1_1ObjectMeshHolder.html#abfac8fd9808955939be1f0186cbdb896", null ],
     [ "uvCoordinates_", "classMR_1_1ObjectMeshHolder.html#aefaa378a49e6231ebc3232b74a69dde3", null ],
+    [ "volume_", "classMR_1_1ObjectMeshHolder.html#a58dd82a33da66d9d3ec4496e55d90a20", null ],
     [ "worldBox_", "classMR_1_1ObjectMeshHolder.html#a33c3cd830b02b4b20f5c72a8bf2f7a47", null ]
 ];

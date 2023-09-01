@@ -10,6 +10,7 @@ var structMR_1_1ToolPathParams =
     [ "flatTool", "structMR_1_1ToolPathParams.html#adacfd8b713ae1664619abcff9d04fead", null ],
     [ "isolines", "structMR_1_1ToolPathParams.html#a13a70c0130eab38aeaf063f1f6d276d7", null ],
     [ "millRadius", "structMR_1_1ToolPathParams.html#ab01ce27f18a97921bbeb33127a0412a5", null ],
+    [ "offsetMesh", "structMR_1_1ToolPathParams.html#a290865e63260a699f02e17210427d220", null ],
     [ "plungeFeed", "structMR_1_1ToolPathParams.html#aa71afd75559878444cd6f66becaed0c4", null ],
     [ "plungeLength", "structMR_1_1ToolPathParams.html#a7e16eeb5e2862d7ee09d5314b784cd4a", null ],
     [ "retractFeed", "structMR_1_1ToolPathParams.html#a4f475acb69d7a5c6cd72596f9ba39ab1", null ],

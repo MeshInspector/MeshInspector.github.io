@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['features_0',['Features',['../group__FeaturesGroup.html',1,'']]],
-  ['fill_2fstitch_20holes_20overview_1',['Fill/Stitch Holes overview',['../group__FillHoleGroup.html',1,'']]]
+  ['edge_20paths_0',['Edge Paths',['../group__EdgePathsGroup.html',1,'']]],
+  ['eigen_1',['Mesh Eigen',['../group__MeshEigenGroup.html',1,'']]],
+  ['elements_20overview_2',['Basic elements overview',['../group__BasicGroup.html',1,'']]]
 ];

@@ -6,6 +6,7 @@ var MRPointsLoad_8h =
     [ "fromAsc", "MRPointsLoad_8h.html#ga0e386eed1ac1bdc3c0b027c195077f0c", null ],
     [ "fromCtm", "MRPointsLoad_8h.html#gad385805f17fe1e687e5daf9df77cfaa8", null ],
     [ "fromCtm", "MRPointsLoad_8h.html#gae2d77a5c9b57492e77d748cf6fa46380", null ],
+    [ "fromE57", "MRPointsLoad_8h.html#gaa4b0ce740afe2873645b027b6a9e8cfe", null ],
     [ "fromObj", "MRPointsLoad_8h.html#gae3658234133eba9c3d882dfd24f53b3d", null ],
     [ "fromObj", "MRPointsLoad_8h.html#gafcf7aac09c7bcb9b760bce2f7566adde", null ],
     [ "fromPly", "MRPointsLoad_8h.html#ga1ea383a44cc720309cd5aaad13f51777", null ],

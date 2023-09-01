@@ -21,7 +21,7 @@ var searchData=
   ['retractlength_18',['retractLength',['../structMR_1_1ToolPathParams.html#a8240e069026edac1ef227f17d59c230e',1,'MR::ToolPathParams']]],
   ['ribbon_19',['Ribbon',['../structMR_1_1DrawButtonParams.html#afd107444ea803e1dded92f25f9366332',1,'MR::DrawButtonParams']]],
   ['rightorlast_20',['rightOrLast',['../structMR_1_1AABBTreePoints_1_1Node.html#a3cf322fb918d8114b9298d36ab60f30f',1,'MR::AABBTreePoints::Node']]],
-  ['rigidb2a_21',['rigidB2A',['../structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0',1,'MR::SortIntersectionsData::rigidB2A'],['../structMR_1_1BooleanParameters.html#aa7d29b950e89579308197da903b43d92',1,'MR::BooleanParameters::rigidB2A']]],
+  ['rigidb2a_21',['rigidb2a',['../structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0',1,'MR::SortIntersectionsData::rigidB2A'],['../structMR_1_1BooleanParameters.html#aa7d29b950e89579308197da903b43d92',1,'MR::BooleanParameters::rigidB2A']]],
   ['rotangles_22',['rotAngles',['../structMR_1_1PointToPlaneAligningTransform_1_1Amendment.html#abc3ac9ecd9cd388aff8e3bc56940f80a',1,'MR::PointToPlaneAligningTransform::Amendment']]],
   ['rotatescale_23',['rotateScale',['../structMR_1_1SpaceMouseController_1_1Params.html#ace83fc4d9751e862ec88cbefbbe512df',1,'MR::SpaceMouseController::Params']]],
   ['rotationcolors_24',['rotationColors',['../structMR_1_1TransformControls_1_1VisualParams.html#a73b98ea29d5b5bd3e934357536430ea4',1,'MR::TransformControls::VisualParams']]],

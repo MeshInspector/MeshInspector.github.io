@@ -41,6 +41,7 @@ var hierarchy =
       [ "MR::TiffParameters", "structMR_1_1TiffParameters.html", null ]
     ] ],
     [ "MR::WatershedGraph::BasinInfo", "structMR_1_1WatershedGraph_1_1BasinInfo.html", null ],
+    [ "MR::BasinVolumeCalculator", "classMR_1_1BasinVolumeCalculator.html", null ],
     [ "MR::WatershedGraph::BdInfo", "structMR_1_1WatershedGraph_1_1BdInfo.html", null ],
     [ "MR::BindVertexAttribArraySettings", "structMR_1_1BindVertexAttribArraySettings.html", null ],
     [ "MR::BMap< T, I >", "structMR_1_1BMap.html", null ],
@@ -115,6 +116,9 @@ var hierarchy =
       ] ],
       [ "MR::MultiListener< TouchStartListener, TouchMoveListener, TouchEndListener >", "structMR_1_1MultiListener.html", [
         [ "MR::TouchesController", "classMR_1_1TouchesController.html", null ]
+      ] ],
+      [ "MR::MultiListener< TouchpadRotateGestureBeginListener, TouchpadRotateGestureUpdateListener, TouchpadRotateGestureEndListener, TouchpadSwipeGestureBeginListener, TouchpadSwipeGestureUpdateListener, TouchpadSwipeGestureEndListener, TouchpadZoomGestureBeginListener, TouchpadZoomGestureUpdateListener, TouchpadZoomGestureEndListener >", "structMR_1_1MultiListener.html", [
+        [ "MR::TouchpadController", "classMR_1_1TouchpadController.html", null ]
       ] ],
       [ "MR::MultiListener< Connectables >", "structMR_1_1MultiListener.html", null ]
     ] ],
@@ -277,7 +281,16 @@ var hierarchy =
         [ "MR::SpaceMouseUpListener", "structMR_1_1SpaceMouseUpListener.html", null ],
         [ "MR::TouchEndListener", "structMR_1_1TouchEndListener.html", null ],
         [ "MR::TouchMoveListener", "structMR_1_1TouchMoveListener.html", null ],
-        [ "MR::TouchStartListener", "structMR_1_1TouchStartListener.html", null ]
+        [ "MR::TouchStartListener", "structMR_1_1TouchStartListener.html", null ],
+        [ "MR::TouchpadRotateGestureBeginListener", "structMR_1_1TouchpadRotateGestureBeginListener.html", null ],
+        [ "MR::TouchpadRotateGestureEndListener", "structMR_1_1TouchpadRotateGestureEndListener.html", null ],
+        [ "MR::TouchpadRotateGestureUpdateListener", "structMR_1_1TouchpadRotateGestureUpdateListener.html", null ],
+        [ "MR::TouchpadSwipeGestureBeginListener", "structMR_1_1TouchpadSwipeGestureBeginListener.html", null ],
+        [ "MR::TouchpadSwipeGestureEndListener", "structMR_1_1TouchpadSwipeGestureEndListener.html", null ],
+        [ "MR::TouchpadSwipeGestureUpdateListener", "structMR_1_1TouchpadSwipeGestureUpdateListener.html", null ],
+        [ "MR::TouchpadZoomGestureBeginListener", "structMR_1_1TouchpadZoomGestureBeginListener.html", null ],
+        [ "MR::TouchpadZoomGestureEndListener", "structMR_1_1TouchpadZoomGestureEndListener.html", null ],
+        [ "MR::TouchpadZoomGestureUpdateListener", "structMR_1_1TouchpadZoomGestureUpdateListener.html", null ]
       ] ]
     ] ],
     [ "MR::ICPProperties", "structMR_1_1ICPProperties.html", null ],
@@ -639,7 +652,6 @@ var hierarchy =
       [ "MR::ConstantCuspParams", "structMR_1_1ConstantCuspParams.html", null ]
     ] ],
     [ "MR::ToolPathResult", "structMR_1_1ToolPathResult.html", null ],
-    [ "MR::TouchpadController", "classMR_1_1TouchpadController.html", null ],
     [ "MR::TransformedMesh", "structMR_1_1TransformedMesh.html", null ],
     [ "MR::ImmediateGL::Tri", "structMR_1_1ImmediateGL_1_1Tri.html", null ],
     [ "MR::MeshBuilder::Triangle", "structMR_1_1MeshBuilder_1_1Triangle.html", null ],
