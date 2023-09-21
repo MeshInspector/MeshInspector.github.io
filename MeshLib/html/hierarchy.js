@@ -163,7 +163,6 @@ var hierarchy =
         [ "MR::TaggedBitSet< VoxelTag >", "classMR_1_1TaggedBitSet.html", null ],
         [ "MR::TaggedBitSet< UndirectedEdgeTag >", "classMR_1_1TaggedBitSet.html", null ],
         [ "MR::TaggedBitSet< Tag >", "classMR_1_1TaggedBitSet.html", null ],
-        [ "MR::TaggedBitSet< EdgeTag >", "classMR_1_1TaggedBitSet.html", null ],
         [ "MR::TaggedBitSet< T >", "classMR_1_1TaggedBitSet.html", null ]
       ] ]
     ] ],
@@ -177,11 +176,8 @@ var hierarchy =
       [ "MR::VariableEdgeTri", "structMR_1_1VariableEdgeTri.html", null ]
     ] ],
     [ "MR::Heap< T, I, P >::Element", "structMR_1_1Heap_1_1Element.html", null ],
-    [ "MR::EmbeddedConeResult", "structMR_1_1EmbeddedConeResult.html", null ],
     [ "MR::EmbeddedPython", "classMR_1_1EmbeddedPython.html", null ],
-    [ "MR::EmbeddedStructureParameters", "structMR_1_1EmbeddedStructureParameters.html", [
-      [ "MR::EmbeddedConeParameters", "structMR_1_1EmbeddedConeParameters.html", null ]
-    ] ],
+    [ "MR::EmbeddedStructureParameters", "structMR_1_1EmbeddedStructureParameters.html", null ],
     [ "MR::Graph::EndVertices", "structMR_1_1Graph_1_1EndVertices.html", null ],
     [ "MR::MeshBuilder::equalVector3f", "structMR_1_1MeshBuilder_1_1equalVector3f.html", null ],
     [ "MR::Viewer::EventQueue", "classMR_1_1Viewer_1_1EventQueue.html", null ],
@@ -193,6 +189,7 @@ var hierarchy =
     [ "MR::FillHoleMetric", "structMR_1_1FillHoleMetric.html", null ],
     [ "MR::FillHoleParams", "structMR_1_1FillHoleParams.html", null ],
     [ "MR::FillHolePlan", "structMR_1_1FillHolePlan.html", null ],
+    [ "MR::FindOverhangsSettings", "structMR_1_1FindOverhangsSettings.html", null ],
     [ "MR::FindOverlappingSettings", "structMR_1_1FindOverlappingSettings.html", null ],
     [ "openvdb::FloatGrid", null, [
       [ "MR::OpenVdbFloatGrid", "structMR_1_1OpenVdbFloatGrid.html", null ]
@@ -297,6 +294,7 @@ var hierarchy =
     [ "MR::Id< T >", "classMR_1_1Id.html", null ],
     [ "MR::Id< EdgeTag >", "classMR_1_1Id_3_01EdgeTag_01_4.html", null ],
     [ "MR::Id< FaceTag >", "classMR_1_1Id.html", null ],
+    [ "MR::Id< GraphVertTag >", "classMR_1_1Id.html", null ],
     [ "MR::Id< NodeTag >", "classMR_1_1Id.html", null ],
     [ "MR::Id< UndirectedEdgeTag >", "classMR_1_1Id.html", null ],
     [ "MR::Id< VertTag >", "classMR_1_1Id.html", null ],
@@ -496,6 +494,7 @@ var hierarchy =
     ] ],
     [ "MR::OneMeshContour", "structMR_1_1OneMeshContour.html", null ],
     [ "MR::OneMeshIntersection", "structMR_1_1OneMeshIntersection.html", null ],
+    [ "MR::WatershedGraph::OverflowPoint", "structMR_1_1WatershedGraph_1_1OverflowPoint.html", null ],
     [ "MR::PackMapping", "structMR_1_1PackMapping.html", null ],
     [ "MR::Palette", "classMR_1_1Palette.html", null ],
     [ "MR::PalettePresets", "classMR_1_1PalettePresets.html", null ],
@@ -535,6 +534,7 @@ var hierarchy =
     [ "MR::PolylineTraits< Vector3f >", "structMR_1_1PolylineTraits_3_01Vector3f_01_4.html", null ],
     [ "MR::PolylineUndirectedEdgeIterator", "classMR_1_1PolylineUndirectedEdgeIterator.html", null ],
     [ "MR::PositionedText", "structMR_1_1PositionedText.html", null ],
+    [ "MR::PrecipitationSimulator", "classMR_1_1PrecipitationSimulator.html", null ],
     [ "MR::PreciseCollisionResult", "structMR_1_1PreciseCollisionResult.html", null ],
     [ "MR::PreciseVertCoords", "structMR_1_1PreciseVertCoords.html", null ],
     [ "MR::PreciseVertCoords2", "structMR_1_1PreciseVertCoords2.html", null ],
@@ -620,6 +620,7 @@ var hierarchy =
         [ "MR::ThreadRootTimeRecord", "structMR_1_1ThreadRootTimeRecord.html", null ]
       ] ]
     ] ],
+    [ "MR::PrecipitationSimulator::SimulationStep", "structMR_1_1PrecipitationSimulator_1_1SimulationStep.html", null ],
     [ "MR::SortIntersectionsData", "structMR_1_1SortIntersectionsData.html", null ],
     [ "MR::SpaceMouseController", "classMR_1_1SpaceMouseController.html", null ],
     [ "MR::SpaceMouseHandler", "classMR_1_1SpaceMouseHandler.html", [
@@ -656,7 +657,7 @@ var hierarchy =
     [ "MR::ImmediateGL::Tri", "structMR_1_1ImmediateGL_1_1Tri.html", null ],
     [ "MR::MeshBuilder::Triangle", "structMR_1_1MeshBuilder_1_1Triangle.html", null ],
     [ "MR::TriangleSegmentIntersectResult", "structMR_1_1TriangleSegmentIntersectResult.html", null ],
-    [ "MR::TriangulationHelpers::TriangulatedFan", "structMR_1_1TriangulationHelpers_1_1TriangulatedFan.html", null ],
+    [ "MR::TriangulationHelpers::TriangulatedFanData", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html", null ],
     [ "MR::TriangulationParameters", "structMR_1_1TriangulationParameters.html", null ],
     [ "MR::ImmediateGL::TriCornerColors", "structMR_1_1ImmediateGL_1_1TriCornerColors.html", null ],
     [ "MR::TriIntersectResult", "structMR_1_1TriIntersectResult.html", null ],
@@ -704,17 +705,18 @@ var hierarchy =
     [ "MR::Vector< float, VertId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< HalfEdgeRecord, MR::Id< EdgeTag > >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< I, I >", "classMR_1_1Vector.html", null ],
-    [ "MR::Vector< Id< VertTag >, Id< VertTag > >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< int, MR::Id >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< MR::Id, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::Id< EdgeTag >, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::Id< VoxelTag >, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::QuadraticForm, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::QuadraticForm< V >, MR::Id >", "classMR_1_1Vector.html", null ],
-    [ "MR::Vector< MR::WatershedGraph::BasinInfo, Id< VertTag > >", "classMR_1_1Vector.html", null ],
-    [ "MR::Vector< MR::WatershedGraph::BdInfo, MR::Id< EdgeTag > >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< MR::WatershedGraph::BasinInfo, MR::Id >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< MR::WatershedGraph::BdInfo, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< Neighbours, VertId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< Node, NodeId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< size_t, I >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< size_t, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< SurfacePath, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< ThreeVertIds, FaceId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< UVCoord, VertId >", "classMR_1_1Vector.html", null ],

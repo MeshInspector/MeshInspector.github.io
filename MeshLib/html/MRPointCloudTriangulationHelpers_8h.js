@@ -1,6 +1,6 @@
 var MRPointCloudTriangulationHelpers_8h =
 [
-    [ "findNeighbors", "MRPointCloudTriangulationHelpers_8h.html#ga6782345e60851e42d8ff2c3114b2a25f", null ],
-    [ "trianglulateFan", "MRPointCloudTriangulationHelpers_8h.html#ga3fe1ed8daef61409fe904178447a29a4", null ],
-    [ "updateNeighborsRadius", "MRPointCloudTriangulationHelpers_8h.html#gadf020267269df9c27ccfd8a4f5f4c03c", null ]
+    [ "findNeighbors", "MRPointCloudTriangulationHelpers_8h.html#ga5cd9de11b65d841bd822ba05f2e2b323", null ],
+    [ "trianglulateFan", "MRPointCloudTriangulationHelpers_8h.html#ga1875d032c45bdb19fa4b5f1d6a1fa2e5", null ],
+    [ "updateNeighborsRadius", "MRPointCloudTriangulationHelpers_8h.html#ga95fd7d1b8c02ef1d8170a3ea2d57817f", null ]
 ];

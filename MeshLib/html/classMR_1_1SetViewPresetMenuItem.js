@@ -3,7 +3,7 @@ var classMR_1_1SetViewPresetMenuItem =
     [ "Type", "classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dc", [
       [ "Front", "classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca5835bab1ade0060909e31a06af2e2cde", null ],
       [ "Top", "classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dcaa4ffdcf0dc1f31b9acaf295d75b51d00", null ],
-      [ "Buttom", "classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca24dd5c3c7e1c0a8cb0193776bfd83487", null ],
+      [ "Bottom", "classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca2ad9d63b69c4a10a5cc9cad923133bc4", null ],
       [ "Left", "classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca945d5e233cf7d6240f6b783b36a374ff", null ],
       [ "Back", "classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca0557fa923dcee4d0f86b1409f5c2167f", null ],
       [ "Right", "classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca92b09c7c48c520c3c55e497875da437c", null ],

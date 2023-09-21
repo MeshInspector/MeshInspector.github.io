@@ -8,5 +8,6 @@ var searchData=
   ['hintdirection_5',['hintDirection',['../structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ab5009f894a6360e076076d4379d340f2',1,'MR::FixUndercuts::ImproveDirectionParameters']]],
   ['historystore_6',['HistoryStore',['../namespaceMR.html#a13289bb0637fbc667dab347fd46dbbbb',1,'MR']]],
   ['holeidx_7',['holeIdx',['../structMR_1_1HoleEdgePoint.html#a540414cc7fb82e34d5a10d971449fc9d',1,'MR::HoleEdgePoint']]],
-  ['hoveredcolor_8',['hoveredColor',['../structMR_1_1SurfacePointWidget_1_1Parameters.html#a9c25cb2f8938a8568eaa3c712452b7f0',1,'MR::SurfacePointWidget::Parameters']]]
+  ['hops_8',['hops',['../structMR_1_1FindOverhangsSettings.html#ad8a04bc86c5792e55e9c000d38d5e42b',1,'MR::FindOverhangsSettings']]],
+  ['hoveredcolor_9',['hoveredColor',['../structMR_1_1SurfacePointWidget_1_1Parameters.html#a9c25cb2f8938a8568eaa3c712452b7f0',1,'MR::SurfacePointWidget::Parameters']]]
 ];

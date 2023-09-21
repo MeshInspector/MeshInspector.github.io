@@ -15,6 +15,7 @@ var classMR_1_1MeshICP =
     [ "setCosineLimit", "classMR_1_1MeshICP.html#ac0e6730f650458a290a7779a7c947c87", null ],
     [ "setDistanceFilterSigmaFactor", "classMR_1_1MeshICP.html#ade602f7f4c1773dc83c2c88d5d673acf", null ],
     [ "setDistanceLimit", "classMR_1_1MeshICP.html#afef5a255f461d19656083b7f124b4bbf", null ],
+    [ "setFloatXf", "classMR_1_1MeshICP.html#abdf54d43b743ec151b0c6da5df776454", null ],
     [ "setPairsWeight", "classMR_1_1MeshICP.html#a429e652cd641c445c817090e9551a3d1", null ],
     [ "setParams", "classMR_1_1MeshICP.html#aaf91b3a9dea34645b3fd065cf44c8c5d", null ],
     [ "setXfs", "classMR_1_1MeshICP.html#ace0d167d82f7e485e74a5fa0b602f13d", null ],

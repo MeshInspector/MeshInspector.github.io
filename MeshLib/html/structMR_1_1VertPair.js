@@ -1,5 +1,6 @@
 var structMR_1_1VertPair =
 [
+    [ "operator==", "structMR_1_1VertPair.html#a66c5f90fcaab884cb2bda780cbb4297e", null ],
     [ "norm", "structMR_1_1VertPair.html#af4b7726831024947b81d31104d195e36", null ],
     [ "normalsAngleCos", "structMR_1_1VertPair.html#aa5935036a40e161c0f835cc0c2ce6e2c", null ],
     [ "normRef", "structMR_1_1VertPair.html#a6f8e131bf9b306b1c0170663da85708c", null ],

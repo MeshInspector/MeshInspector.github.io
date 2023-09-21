@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['edgebitset_0',['edgebitset',['../classMR_1_1Graph.html#ab38076fa11106881596f3cb8c526c496',1,'MR::Graph::EdgeBitSet'],['../namespaceMR.html#afa52f737f1695a9866b22a30a29aefba',1,'MR::EdgeBitSet']]],
+  ['edgebitset_0',['edgebitset',['../classMR_1_1Graph.html#a8479c33a6ee26f007a35cab71ba0f2b5',1,'MR::Graph::EdgeBitSet'],['../namespaceMR.html#afa52f737f1695a9866b22a30a29aefba',1,'MR::EdgeBitSet']]],
   ['edgebmap_1',['EdgeBMap',['../namespaceMR.html#a6ab443a95d2bf6d29c9fc03f38ec750b',1,'MR']]],
   ['edgecolors_2',['EdgeColors',['../namespaceMR.html#aa3174384aa2df569008651e787eaa43a',1,'MR']]],
   ['edgehashmap_3',['EdgeHashMap',['../namespaceMR.html#aeabd542da4035d06055e1b3d9bdba4c5',1,'MR']]],
   ['edgehashset_4',['EdgeHashSet',['../namespaceMR.html#a12e1e04f332b886a708942fc3e9fb1c2',1,'MR']]],
-  ['edgeid_5',['edgeid',['../classMR_1_1Graph.html#a4937ab0a842876d2ac8564ad712a454b',1,'MR::Graph::EdgeId'],['../namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1',1,'MR::EdgeId']]],
+  ['edgeid_5',['edgeid',['../classMR_1_1Graph.html#ab7466409c32ef6a047fedfe19ed28c1b',1,'MR::Graph::EdgeId'],['../namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1',1,'MR::EdgeId']]],
   ['edgeloop_6',['EdgeLoop',['../namespaceMR.html#aee05ada6f56e0075cc157732cae41543',1,'MR']]],
   ['edgemap_7',['EdgeMap',['../namespaceMR.html#ae2eea398ad770ec2244a9a9c50714933',1,'MR']]],
   ['edgemetric_8',['EdgeMetric',['../group__EdgePathsGroup.html#gad2c254a94a3837629d1540a9a1aeda9f',1,'MR']]],

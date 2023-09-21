@@ -37,7 +37,7 @@ var annotated_dup =
         [ "CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", "structMR_1_1PointsSave_1_1CtmSavePointsOptions" ]
       ] ],
       [ "TriangulationHelpers", "namespaceMR_1_1TriangulationHelpers.html", [
-        [ "TriangulatedFan", "structMR_1_1TriangulationHelpers_1_1TriangulatedFan.html", "structMR_1_1TriangulationHelpers_1_1TriangulatedFan" ]
+        [ "TriangulatedFanData", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData" ]
       ] ],
       [ "VoxelsLoad", "namespaceMR_1_1VoxelsLoad.html", [
         [ "DicomVolume", "structMR_1_1VoxelsLoad_1_1DicomVolume.html", "structMR_1_1VoxelsLoad_1_1DicomVolume" ],
@@ -154,8 +154,6 @@ var annotated_dup =
       [ "EdgePoint", "structMR_1_1EdgePoint.html", "structMR_1_1EdgePoint" ],
       [ "EdgePointPair", "structMR_1_1EdgePointPair.html", "structMR_1_1EdgePointPair" ],
       [ "EdgeTri", "structMR_1_1EdgeTri.html", "structMR_1_1EdgeTri" ],
-      [ "EmbeddedConeParameters", "structMR_1_1EmbeddedConeParameters.html", "structMR_1_1EmbeddedConeParameters" ],
-      [ "EmbeddedConeResult", "structMR_1_1EmbeddedConeResult.html", "structMR_1_1EmbeddedConeResult" ],
       [ "EmbeddedPython", "classMR_1_1EmbeddedPython.html", null ],
       [ "EmbeddedStructureParameters", "structMR_1_1EmbeddedStructureParameters.html", "structMR_1_1EmbeddedStructureParameters" ],
       [ "FaceFace", "structMR_1_1FaceFace.html", "structMR_1_1FaceFace" ],
@@ -166,6 +164,7 @@ var annotated_dup =
       [ "FillHoleMetric", "structMR_1_1FillHoleMetric.html", "structMR_1_1FillHoleMetric" ],
       [ "FillHoleParams", "structMR_1_1FillHoleParams.html", "structMR_1_1FillHoleParams" ],
       [ "FillHolePlan", "structMR_1_1FillHolePlan.html", "structMR_1_1FillHolePlan" ],
+      [ "FindOverhangsSettings", "structMR_1_1FindOverhangsSettings.html", "structMR_1_1FindOverhangsSettings" ],
       [ "FindOverlappingSettings", "structMR_1_1FindOverlappingSettings.html", "structMR_1_1FindOverlappingSettings" ],
       [ "FitDataMenuItem", "classMR_1_1FitDataMenuItem.html", "classMR_1_1FitDataMenuItem" ],
       [ "FitSelectedObjectsMenuItem", "classMR_1_1FitSelectedObjectsMenuItem.html", "classMR_1_1FitSelectedObjectsMenuItem" ],
@@ -344,6 +343,7 @@ var annotated_dup =
       [ "PostFocusListener", "structMR_1_1PostFocusListener.html", "structMR_1_1PostFocusListener" ],
       [ "PostRescaleListener", "structMR_1_1PostRescaleListener.html", "structMR_1_1PostRescaleListener" ],
       [ "PostResizeListener", "structMR_1_1PostResizeListener.html", "structMR_1_1PostResizeListener" ],
+      [ "PrecipitationSimulator", "classMR_1_1PrecipitationSimulator.html", "classMR_1_1PrecipitationSimulator" ],
       [ "PreciseCollisionResult", "structMR_1_1PreciseCollisionResult.html", "structMR_1_1PreciseCollisionResult" ],
       [ "PreciseVertCoords", "structMR_1_1PreciseVertCoords.html", "structMR_1_1PreciseVertCoords" ],
       [ "PreciseVertCoords2", "structMR_1_1PreciseVertCoords2.html", "structMR_1_1PreciseVertCoords2" ],

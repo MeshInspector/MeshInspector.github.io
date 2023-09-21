@@ -87,6 +87,7 @@ var classMR_1_1MeshTopology =
     [ "isClosed", "classMR_1_1MeshTopology.html#a67dd1963d90e78415bb2365ed8ab9589", null ],
     [ "isInnerEdge", "classMR_1_1MeshTopology.html#a9149621788f57af5be92126cf7e5f24e", null ],
     [ "isInnerOrBdEdge", "classMR_1_1MeshTopology.html#a68d4b2d56fbb76bfc31e2d8a2672fc1c", null ],
+    [ "isInnerOrBdVertex", "classMR_1_1MeshTopology.html#accfc957245f9a8df756ad1a869c8df3d", null ],
     [ "isLeftBdEdge", "classMR_1_1MeshTopology.html#a71f39944d4eea5bdb00d37da53ae1882", null ],
     [ "isLeftInRegion", "classMR_1_1MeshTopology.html#a26fb1755e53d61c7a438428f27b95f78", null ],
     [ "isLeftQuad", "classMR_1_1MeshTopology.html#a43d2bcbe6b6dc95cf6eb7fd1c0f8457b", null ],

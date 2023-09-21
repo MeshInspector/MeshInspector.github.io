@@ -66,6 +66,7 @@ var NAVTREEINDEX0 =
 "MRBase64_8h.html":[11,0,0,1,2,16],
 "MRBase64_8h_source.html":[11,0,0,1,2,16],
 "MRBasinVolume_8h.html":[11,0,0,1,2,17],
+"MRBasinVolume_8h.html#af2a8e4d15f275db7aee166a70fe3c11c":[11,0,0,1,2,17,1],
 "MRBasinVolume_8h_source.html":[11,0,0,1,2,17],
 "MRBestFitQuadric_8h.html":[11,0,0,1,2,19],
 "MRBestFitQuadric_8h_source.html":[11,0,0,1,2,19],
@@ -160,7 +161,7 @@ var NAVTREEINDEX0 =
 "MRCommandLoop_8h.html":[11,0,0,1,4,4],
 "MRCommandLoop_8h_source.html":[11,0,0,1,4,4],
 "MRComputeBoundingBox_8h.html":[11,0,0,1,2,48],
-"MRComputeBoundingBox_8h.html#a582dcc7541a62c3f1be3b08dfb6ff71c":[11,0,0,1,2,48,1],
+"MRComputeBoundingBox_8h.html#a560ffd3d317d3bb18df9db6aae8c2d02":[11,0,0,1,2,48,1],
 "MRComputeBoundingBox_8h_source.html":[11,0,0,1,2,48],
 "MRConfig_8h.html":[11,0,0,1,2,49],
 "MRConfig_8h_source.html":[11,0,0,1,2,49],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "MREdgePaths_8h.html":[11,0,0,1,2,66],
 "MREdgePaths_8h_source.html":[11,0,0,1,2,66],
 "MREdgePoint_8h.html":[11,0,0,1,2,68],
-"MREdgePoint_8h.html#a1c0d3c449b52a98c85522a1aa06c1e88":[11,0,0,1,2,68,2],
-"MREdgePoint_8h_source.html":[11,0,0,1,2,68]
+"MREdgePoint_8h.html#a1c0d3c449b52a98c85522a1aa06c1e88":[11,0,0,1,2,68,2]
 };

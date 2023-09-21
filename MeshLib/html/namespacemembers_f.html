@@ -157,8 +157,9 @@ $(document).ready(function(){initNavTree('namespacemembers_f.html',''); initResi
 <li>findMaxVectorDim()&#160;:&#160;<a class="el" href="group__AABBTreeGroup.html#ga7fcb33a674ea8b57ac858e40d42e26e3">MR</a></li>
 <li>findMeshEdgesInBall()&#160;:&#160;<a class="el" href="group__AABBTreeGroup.html#ga50911249a881bd7365929503c138d8fa">MR</a></li>
 <li>findMultipleEdges()&#160;:&#160;<a class="el" href="group__MeshFixerGroup.html#ga0ee23854db52f730b02f8182b48c877b">MR</a></li>
-<li>findNeighbors()&#160;:&#160;<a class="el" href="group__TriangulationHelpersGroup.html#ga6782345e60851e42d8ff2c3114b2a25f">MR::TriangulationHelpers</a></li>
+<li>findNeighbors()&#160;:&#160;<a class="el" href="group__TriangulationHelpersGroup.html#ga5cd9de11b65d841bd822ba05f2e2b323">MR::TriangulationHelpers</a></li>
 <li>findNRingVerts()&#160;:&#160;<a class="el" href="group__MeshFixerGroup.html#ga248c2b6b8c9d3915cc4d7e94a2727734">MR</a></li>
+<li>findOverhangs()&#160;:&#160;<a class="el" href="namespaceMR.html#af4dca7d17a22d4d4d128b4ae6195a3b2">MR</a></li>
 <li>findOverlappingTris()&#160;:&#160;<a class="el" href="namespaceMR.html#ad24633dc1764f02a554b996841ef281f">MR</a></li>
 <li>findPointsInBall()&#160;:&#160;<a class="el" href="group__AABBTreeGroup.html#ga5c540a8264b2d4cd39a35ce8600e873e">MR</a></li>
 <li>findProjection()&#160;:&#160;<a class="el" href="group__AABBTreeGroup.html#gaca9ee6c07f32374a18e511487904370b">MR</a></li>
@@ -182,6 +183,7 @@ $(document).ready(function(){initNavTree('namespacemembers_f.html',''); initResi
 <li>findSignedDistance()&#160;:&#160;<a class="el" href="group__AABBTreeGroup.html#ga66ee7b0ec534fcfe70ef96f8f3d3b545">MR</a></li>
 <li>findSmallestCloseVertices()&#160;:&#160;<a class="el" href="namespaceMR.html#a02de87b02beba8a1ce3c03e425646045">MR</a></li>
 <li>findSmallestCloseVerticesUsingTree()&#160;:&#160;<a class="el" href="namespaceMR.html#adb5835a53edf43e46279c04a2ad4949b">MR</a></li>
+<li>findSteepestDescentPoint()&#160;:&#160;<a class="el" href="group__SurfacePathSubgroup.html#gaa46e9820d021f3412af4f1c59c14aaa2">MR</a></li>
 <li>findSubstringCaseInsensitive()&#160;:&#160;<a class="el" href="group__BasicGroup.html#ga245584b85505ab9157d346bb3d8caf53">MR</a></li>
 <li>findTriangleSegmentIntersection()&#160;:&#160;<a class="el" href="group__TriangleIntersectionGroup.html#gabd389cf6a5e3a2723def05e2d19fac73">MR</a></li>
 <li>findTriangleSegmentIntersectionPrecise()&#160;:&#160;<a class="el" href="group__PrecisePredicates3.html#ga6f4d593d1b9ff1f262a583bf72f384f8">MR</a></li>
@@ -204,18 +206,19 @@ $(document).ready(function(){initNavTree('namespacemembers_f.html',''); initResi
 <li>framePadding&#160;:&#160;<a class="el" href="namespaceMR_1_1StyleConsts_1_1CustomCombo.html#a56058d3872b6d96205debc3305df78a8">MR::StyleConsts::CustomCombo</a></li>
 <li>from3mfModel()&#160;:&#160;<a class="el" href="group__MeshLoadGroup.html#ga6485225ac36663d2f626044d39dbd5d3">MR::MeshLoad</a></li>
 <li>fromAnyStl()&#160;:&#160;<a class="el" href="group__MeshLoadGroup.html#ga7e1615a03c86acfc5a8d52dfb4ac989b">MR::MeshLoad</a></li>
-<li>fromAnySupportedFormat()&#160;:&#160;<a class="el" href="group__DistanceMapLoadGroup.html#ga6db467a9bd1d1aaadd48db60f1f6c783">MR::DistanceMapLoad</a>, <a class="el" href="group__GcodeLoadGroup.html#gad8a20d6a7add6f130e7bdfe9c370347b">MR::GcodeLoad</a>, <a class="el" href="group__ImageLoadGroup.html#gac3c2194804f8fe588694a0ef5dfdeb6c">MR::ImageLoad</a>, <a class="el" href="group__LinesLoad.html#ga22221c7f32d19c113f64b4ea9b6a1d67">MR::LinesLoad</a>, <a class="el" href="group__MeshLoadGroup.html#ga821b691fa1201ca27be94b29e4794a34">MR::MeshLoad</a>, <a class="el" href="group__IOGroup.html#gaa7304dc10c9c14b249356fc31f9d302a">MR::PointsLoad</a>, <a class="el" href="group__VoxelsLoadGroup.html#gacc1c5050ac7ba1723e4c0acc4c93b8f5">MR::VoxelsLoad</a></li>
+<li>fromAnySupportedFormat()&#160;:&#160;<a class="el" href="group__DistanceMapLoadGroup.html#ga6db467a9bd1d1aaadd48db60f1f6c783">MR::DistanceMapLoad</a>, <a class="el" href="group__GcodeLoadGroup.html#gad8a20d6a7add6f130e7bdfe9c370347b">MR::GcodeLoad</a>, <a class="el" href="group__ImageLoadGroup.html#gac3c2194804f8fe588694a0ef5dfdeb6c">MR::ImageLoad</a>, <a class="el" href="group__LinesLoad.html#ga22221c7f32d19c113f64b4ea9b6a1d67">MR::LinesLoad</a>, <a class="el" href="group__MeshLoadGroup.html#ga821b691fa1201ca27be94b29e4794a34">MR::MeshLoad</a>, <a class="el" href="group__IOGroup.html#ga37b759ebc3da6e9acf243c3cb25be235">MR::PointsLoad</a>, <a class="el" href="group__VoxelsLoadGroup.html#gacc1c5050ac7ba1723e4c0acc4c93b8f5">MR::VoxelsLoad</a></li>
 <li>fromAsc()&#160;:&#160;<a class="el" href="group__IOGroup.html#ga38d83e039074336e74a140d6ec17e42b">MR::PointsLoad</a></li>
 <li>fromASCIIStl()&#160;:&#160;<a class="el" href="group__MeshLoadGroup.html#gabbc623534cb38156a78ba095aab6d51b">MR::MeshLoad</a></li>
 <li>fromBinaryStl()&#160;:&#160;<a class="el" href="group__MeshLoadGroup.html#gaa3e1786fe854f07c2732d0a9f87a1c21">MR::MeshLoad</a></li>
 <li>fromCtm()&#160;:&#160;<a class="el" href="group__MeshLoadGroup.html#ga639462b6fe630ac23812be54564cdb31">MR::MeshLoad</a>, <a class="el" href="group__IOGroup.html#gad385805f17fe1e687e5daf9df77cfaa8">MR::PointsLoad</a></li>
 <li>fromDisjointMeshPieces()&#160;:&#160;<a class="el" href="namespaceMR_1_1MeshBuilder.html#ac89608a8862a7f497172398df6ccaf30">MR::MeshBuilder</a></li>
-<li>fromE57()&#160;:&#160;<a class="el" href="group__IOGroup.html#gaa4b0ce740afe2873645b027b6a9e8cfe">MR::PointsLoad</a></li>
+<li>fromE57()&#160;:&#160;<a class="el" href="group__IOGroup.html#ga5c52a9fd3fa36493cf305bed7ba7f2f0">MR::PointsLoad</a></li>
 <li>fromEigen()&#160;:&#160;<a class="el" href="namespaceMR.html#a3f97fcf1b362e9c60d8a596aa8d1de68">MR</a></li>
 <li>fromFaceSoup()&#160;:&#160;<a class="el" href="namespaceMR_1_1MeshBuilder.html#a3ad33f9aabd679a58811fb3f954f3e8b">MR::MeshBuilder</a></li>
 <li>fromGav()&#160;:&#160;<a class="el" href="group__VoxelsLoadGroup.html#ga34bb8633d134e5f3d09077cc91e4aebd">MR::VoxelsLoad</a></li>
 <li>fromGcode()&#160;:&#160;<a class="el" href="group__GcodeLoadGroup.html#ga45ca872305a56ab89ff29c2aa4d6fe51">MR::GcodeLoad</a></li>
 <li>fromJpeg()&#160;:&#160;<a class="el" href="group__ImageLoadGroup.html#ga60a803532ca226495e89e13eda74025f">MR::ImageLoad</a></li>
+<li>fromLas()&#160;:&#160;<a class="el" href="group__IOGroup.html#ga699e73e8124ca1316e5b26ab9a422110">MR::PointsLoad</a></li>
 <li>fromMrDistanceMap()&#160;:&#160;<a class="el" href="group__DistanceMapLoadGroup.html#ga827f745183890f07eda36af26402f520">MR::DistanceMapLoad</a></li>
 <li>fromMrLines()&#160;:&#160;<a class="el" href="group__LinesLoad.html#ga8166462814230a5965a5f769c4d7d030">MR::LinesLoad</a></li>
 <li>fromMrmesh()&#160;:&#160;<a class="el" href="group__MeshLoadGroup.html#ga8952fba736ef5dbabb3dda22ce5b0f7f">MR::MeshLoad</a></li>
@@ -224,7 +227,7 @@ $(document).ready(function(){initNavTree('namespacemembers_f.html',''); initResi
 <li>fromPly()&#160;:&#160;<a class="el" href="group__MeshLoadGroup.html#gace3cd8a41cadfc2d746d64e12f50a152">MR::MeshLoad</a>, <a class="el" href="group__IOGroup.html#ga1ea383a44cc720309cd5aaad13f51777">MR::PointsLoad</a></li>
 <li>fromPng()&#160;:&#160;<a class="el" href="group__ImageLoadGroup.html#ga2e7af9e607d61dfeab32f826649518e0">MR::ImageLoad</a></li>
 <li>fromPointTriples()&#160;:&#160;<a class="el" href="namespaceMR_1_1MeshBuilder.html#a787b6d63581b071cba69cde55f211cdf">MR::MeshBuilder</a></li>
-<li>fromPts()&#160;:&#160;<a class="el" href="group__LinesLoad.html#ga6003d303ce2e61c6bb5f7a0752d51799">MR::LinesLoad</a></li>
+<li>fromPts()&#160;:&#160;<a class="el" href="group__LinesLoad.html#ga6003d303ce2e61c6bb5f7a0752d51799">MR::LinesLoad</a>, <a class="el" href="group__IOGroup.html#gaa98848cbceac0f027b80628d04328bd7">MR::PointsLoad</a></li>
 <li>fromRaw()&#160;:&#160;<a class="el" href="group__DistanceMapLoadGroup.html#gac762d90fd878465777add7c36f8a002f">MR::DistanceMapLoad</a>, <a class="el" href="group__VoxelsLoadGroup.html#gacea9a5e124d2e82d91e613233fc354b9">MR::VoxelsLoad</a></li>
 <li>fromSceneObjFile()&#160;:&#160;<a class="el" href="group__MeshLoadObjGroup.html#gaceef6fefc7881e19cc7e5ba9f1b20558">MR::MeshLoad</a></li>
 <li>fromText()&#160;:&#160;<a class="el" href="group__IOGroup.html#gaeaaada2bfc9e5598ab6551567b771f53">MR::PointsLoad</a></li>
