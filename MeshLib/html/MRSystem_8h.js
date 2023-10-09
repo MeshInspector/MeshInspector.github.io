@@ -2,6 +2,7 @@ var MRSystem_8h =
 [
     [ "GetClipboardText", "MRSystem_8h.html#a3116e9eddde92d8ea2677770b31361fb", null ],
     [ "GetCpuId", "MRSystem_8h.html#a7b5e5990972490ea4d3803ccca1b3757", null ],
+    [ "GetDetailedOSName", "MRSystem_8h.html#a7d7ea607c1d62759b1a6d09f3b68c78f", null ],
     [ "GetExeDirectory", "MRSystem_8h.html#a5d1ca6e9b05136afa1017b1c60906789", null ],
     [ "GetFontsDirectory", "MRSystem_8h.html#a8412e0e0223cb8986e09d785220f0aed", null ],
     [ "GetHomeDirectory", "MRSystem_8h.html#a2ddb2bd9b31853c37146f070b0b472c1", null ],

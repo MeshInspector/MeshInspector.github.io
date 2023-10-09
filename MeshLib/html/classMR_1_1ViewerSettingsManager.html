@@ -144,10 +144,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aae039b8200dd053aec8632ae57be5880"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a770118627bfaf87c25ea5054d8accd6b" id="r_a770118627bfaf87c25ea5054d8accd6b"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ViewerSettingsManager.html#a770118627bfaf87c25ea5054d8accd6b">saveSettings</a> (const <a class="el" href="classMR_1_1Viewer.html">Viewer</a> &amp;viewer) override</td></tr>
 <tr class="separator:a770118627bfaf87c25ea5054d8accd6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79f070e05ed93a75c289913cb3c93aa0" id="r_a79f070e05ed93a75c289913cb3c93aa0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ViewerSettingsManager.html#a79f070e05ed93a75c289913cb3c93aa0">getLastExtentionNum</a> (<a class="el" href="classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76">ObjType</a> objType)</td></tr>
-<tr class="separator:a79f070e05ed93a75c289913cb3c93aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86491e8c69792c3c7ca0fd3d7ce35913" id="r_a86491e8c69792c3c7ca0fd3d7ce35913"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ViewerSettingsManager.html#a86491e8c69792c3c7ca0fd3d7ce35913">setLastExtentionNum</a> (<a class="el" href="classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76">ObjType</a> objType, int num)</td></tr>
-<tr class="separator:a86491e8c69792c3c7ca0fd3d7ce35913"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec65e015620e9455787fd7da4496b654" id="r_aec65e015620e9455787fd7da4496b654"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ViewerSettingsManager.html#aec65e015620e9455787fd7da4496b654">getLastExtention</a> (<a class="el" href="classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76">ObjType</a> objType)</td></tr>
+<tr class="separator:aec65e015620e9455787fd7da4496b654"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae34d29d931ee10c81966d705130f7490" id="r_ae34d29d931ee10c81966d705130f7490"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ViewerSettingsManager.html#ae34d29d931ee10c81966d705130f7490">setLastExtention</a> (<a class="el" href="classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76">ObjType</a> objType, std::string ext)</td></tr>
+<tr class="separator:ae34d29d931ee10c81966d705130f7490"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1IViewerSettingsManager"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classMR_1_1IViewerSettingsManager')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMR_1_1IViewerSettingsManager.html">MR::IViewerSettingsManager</a></td></tr>
 <tr class="memitem:a5fa6959a71ea16d2cd2ca4e276a04665 inherit pub_methods_classMR_1_1IViewerSettingsManager" id="r_a5fa6959a71ea16d2cd2ca4e276a04665"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IViewerSettingsManager.html#a5fa6959a71ea16d2cd2ca4e276a04665">~IViewerSettingsManager</a> ()=default</td></tr>
 <tr class="separator:a5fa6959a71ea16d2cd2ca4e276a04665 inherit pub_methods_classMR_1_1IViewerSettingsManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -202,14 +202,14 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a79f070e05ed93a75c289913cb3c93aa0" name="a79f070e05ed93a75c289913cb3c93aa0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79f070e05ed93a75c289913cb3c93aa0">&#9670;&#160;</a></span>getLastExtentionNum()</h2>
+<a id="aec65e015620e9455787fd7da4496b654" name="aec65e015620e9455787fd7da4496b654"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec65e015620e9455787fd7da4496b654">&#9670;&#160;</a></span>getLastExtention()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API int MR::ViewerSettingsManager::getLastExtentionNum </td>
+          <td class="memname">MRVIEWER_API const std::string &amp; MR::ViewerSettingsManager::getLastExtention </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76">ObjType</a>&#160;</td>
           <td class="paramname"><em>objType</em></td><td>)</td>
@@ -352,14 +352,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a86491e8c69792c3c7ca0fd3d7ce35913" name="a86491e8c69792c3c7ca0fd3d7ce35913"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86491e8c69792c3c7ca0fd3d7ce35913">&#9670;&#160;</a></span>setLastExtentionNum()</h2>
+<a id="ae34d29d931ee10c81966d705130f7490" name="ae34d29d931ee10c81966d705130f7490"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae34d29d931ee10c81966d705130f7490">&#9670;&#160;</a></span>setLastExtention()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API void MR::ViewerSettingsManager::setLastExtentionNum </td>
+          <td class="memname">MRVIEWER_API void MR::ViewerSettingsManager::setLastExtention </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76">ObjType</a>&#160;</td>
           <td class="paramname"><em>objType</em>, </td>
@@ -367,8 +367,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>num</em>&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>ext</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

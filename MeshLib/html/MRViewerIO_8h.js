@@ -1,4 +1,5 @@
 var MRViewerIO_8h =
 [
-    [ "saveObjectToFile", "MRViewerIO_8h.html#a73920061bf168999f6b9778ff9b02b3e", null ]
+    [ "MR::SaveObjectSettings", "structMR_1_1SaveObjectSettings.html", "structMR_1_1SaveObjectSettings" ],
+    [ "saveObjectToFile", "MRViewerIO_8h.html#a49676245858cf7114c59cd1b6b772755", null ]
 ];

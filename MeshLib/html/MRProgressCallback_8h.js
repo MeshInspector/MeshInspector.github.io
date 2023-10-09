@@ -1,6 +1,5 @@
 var MRProgressCallback_8h =
 [
-    [ "ProgressCallback", "MRProgressCallback_8h.html#ga51ff94746a41880cd06d3272b5bcf710", null ],
     [ "reportProgress", "MRProgressCallback_8h.html#a78bcc7568ccf7393135139bb82e02d4c", null ],
     [ "reportProgress", "MRProgressCallback_8h.html#a990d1271cf502f5cce9a6e0385d59fc6", null ],
     [ "reportProgress", "MRProgressCallback_8h.html#ac4c37be3306e0f2f94b1f076948e9d52", null ],

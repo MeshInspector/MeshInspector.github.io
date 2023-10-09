@@ -10,6 +10,7 @@ var MRMeshComponents_8h =
     [ "getAllComponentsVerts", "MRMeshComponents_8h.html#gacf901304f8dae140ebe581b9fefcf3e8", null ],
     [ "getAllComponentsVertsSeparatedByPath", "MRMeshComponents_8h.html#ga2b1d2f430d5544f3129616e7909e2210", null ],
     [ "getAllComponentsVertsSeparatedByPaths", "MRMeshComponents_8h.html#ga04428c18d364e05a14deea6fa9537514", null ],
+    [ "getAllFlatComponents", "MRMeshComponents_8h.html#gad2ac5851085b051b22170638c7945cb6", null ],
     [ "getComponent", "MRMeshComponents_8h.html#gacb2f12a18a222d322f2e8cb54bd29d69", null ],
     [ "getComponents", "MRMeshComponents_8h.html#ga5309af9f9740cbdcfd4e32b65895168b", null ],
     [ "getComponentsVerts", "MRMeshComponents_8h.html#gae360882572a82620a889fa7315e143f9", null ],

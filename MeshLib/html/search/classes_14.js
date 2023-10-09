@@ -80,5 +80,9 @@ var searchData=
   ['voxelmetricparameters_77',['VoxelMetricParameters',['../structMR_1_1VoxelMetricParameters.html',1,'MR']]],
   ['voxelsvolume_78',['VoxelsVolume',['../structMR_1_1VoxelsVolume.html',1,'MR']]],
   ['voxelsvolume_3c_20floatgrid_20_3e_79',['VoxelsVolume&lt; FloatGrid &gt;',['../structMR_1_1VoxelsVolume.html',1,'MR']]],
-  ['voxelsvolume_3c_20std_3a_3avector_3c_20float_20_3e_20_3e_80',['VoxelsVolume&lt; std::vector&lt; float &gt; &gt;',['../structMR_1_1VoxelsVolume.html',1,'MR']]]
+  ['voxelsvolume_3c_20std_3a_3avector_3c_20float_20_3e_20_3e_80',['VoxelsVolume&lt; std::vector&lt; float &gt; &gt;',['../structMR_1_1VoxelsVolume.html',1,'MR']]],
+  ['voxeltraits_81',['VoxelTraits',['../structMR_1_1VoxelTraits.html',1,'MR']]],
+  ['voxeltraits_3c_20floatgrid_20_3e_82',['VoxelTraits&lt; FloatGrid &gt;',['../structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html',1,'MR']]],
+  ['voxeltraits_3c_20std_3a_3avector_3c_20float_20_3e_20_3e_83',['VoxelTraits&lt; std::vector&lt; float &gt; &gt;',['../structMR_1_1VoxelTraits.html',1,'MR']]],
+  ['voxeltraits_3c_20voxelvaluegetter_3c_20t_20_3e_20_3e_84',['VoxelTraits&lt; VoxelValueGetter&lt; T &gt; &gt;',['../structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html',1,'MR']]]
 ];

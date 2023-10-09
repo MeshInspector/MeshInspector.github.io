@@ -2,6 +2,8 @@ var MRPointsSave_8h =
 [
     [ "toAnySupportedFormat", "MRPointsSave_8h.html#gaee53c6538d6f6eb965aa9e6f20c10743", null ],
     [ "toAnySupportedFormat", "MRPointsSave_8h.html#gaf9a182f698ee69d5e7a44c23bccfc291", null ],
+    [ "toAsc", "MRPointsSave_8h.html#gaff7b2254658135233f206d3ac6301540", null ],
+    [ "toAsc", "MRPointsSave_8h.html#ga64c46cab0f83e00cc6e07e5548468b7a", null ],
     [ "toCtm", "MRPointsSave_8h.html#ga7e31d5478964dd754cd4b9b8fdeb1926", null ],
     [ "toCtm", "MRPointsSave_8h.html#ga72d01ba6d9be55df3fa0a23d938bbcbe", null ],
     [ "toPly", "MRPointsSave_8h.html#gaefe6ea47ea4203ded90f43f7760c0d50", null ],

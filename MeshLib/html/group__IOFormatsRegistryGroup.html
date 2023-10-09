@@ -115,23 +115,23 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga5ee8e917fb46e839dd5ff1a5cb49fdeb" id="r_ga5ee8e917fb46e839dd5ff1a5cb49fdeb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOFormatsRegistryGroup.html#ga5ee8e917fb46e839dd5ff1a5cb49fdeb">MR_ADD_MESH_LOADER</a>(filter,  loader)&#160;&#160;&#160;<a class="el" href="classMR_1_1MeshLoad_1_1MeshLoaderAdder.html">MR::MeshLoad::MeshLoaderAdder</a> __meshLoaderAdder_##loader(<a class="el" href="structMR_1_1MeshLoad_1_1NamedMeshLoader.html">MR::MeshLoad::NamedMeshLoader</a>{filter,static_cast&lt;<a class="el" href="group__IOFormatsRegistryGroup.html#gad431c8c706f759aad77178d7c9586616">MR::MeshLoad::MeshLoader</a>&gt;(loader),static_cast&lt;<a class="el" href="group__IOFormatsRegistryGroup.html#ga080dba628fd76766a0f9aad609e82ce5">MR::MeshLoad::MeshStreamLoader</a>&gt;(loader)});\</td></tr>
+<tr class="memitem:ga5ee8e917fb46e839dd5ff1a5cb49fdeb" id="r_ga5ee8e917fb46e839dd5ff1a5cb49fdeb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOFormatsRegistryGroup.html#ga5ee8e917fb46e839dd5ff1a5cb49fdeb">MR_ADD_MESH_LOADER</a>(filter,  loader)&#160;&#160;&#160;<a class="el" href="classMR_1_1MeshLoad_1_1MeshLoaderAdder.html">MR::MeshLoad::MeshLoaderAdder</a> __meshLoaderAdder_##loader(<a class="el" href="structMR_1_1MeshLoad_1_1NamedMeshLoader.html">MR::MeshLoad::NamedMeshLoader</a>{filter,static_cast&lt;<a class="el" href="group__IOFormatsRegistryGroup.html#ga02848803ae0852e89483cd0be4f554f3">MR::MeshLoad::MeshLoader</a>&gt;(loader),static_cast&lt;<a class="el" href="group__IOFormatsRegistryGroup.html#gafca47102be029039635b2868f215c1fc">MR::MeshLoad::MeshStreamLoader</a>&gt;(loader)});\</td></tr>
 <tr class="memdesc:ga5ee8e917fb46e839dd5ff1a5cb49fdeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register filter with loader function.  <br /></td></tr>
 <tr class="separator:ga5ee8e917fb46e839dd5ff1a5cb49fdeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:gad431c8c706f759aad77178d7c9586616" id="r_gad431c8c706f759aad77178d7c9586616"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOFormatsRegistryGroup.html#gad431c8c706f759aad77178d7c9586616">MR::MeshLoad::MeshLoader</a> = <a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string &gt;(*)(const std::filesystem::path &amp;, <a class="el" href="namespaceMR.html#a59dd016293920ad941a9aeb6e67b6186">VertColors</a> *, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>)</td></tr>
-<tr class="separator:gad431c8c706f759aad77178d7c9586616"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga080dba628fd76766a0f9aad609e82ce5" id="r_ga080dba628fd76766a0f9aad609e82ce5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOFormatsRegistryGroup.html#ga080dba628fd76766a0f9aad609e82ce5">MR::MeshLoad::MeshStreamLoader</a> = <a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string &gt;(*)(std::istream &amp;, <a class="el" href="namespaceMR.html#a59dd016293920ad941a9aeb6e67b6186">VertColors</a> *, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>)</td></tr>
-<tr class="separator:ga080dba628fd76766a0f9aad609e82ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga02848803ae0852e89483cd0be4f554f3" id="r_ga02848803ae0852e89483cd0be4f554f3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOFormatsRegistryGroup.html#ga02848803ae0852e89483cd0be4f554f3">MR::MeshLoad::MeshLoader</a> = <a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string &gt;(*)(const std::filesystem::path &amp;, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;)</td></tr>
+<tr class="separator:ga02848803ae0852e89483cd0be4f554f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafca47102be029039635b2868f215c1fc" id="r_gafca47102be029039635b2868f215c1fc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOFormatsRegistryGroup.html#gafca47102be029039635b2868f215c1fc">MR::MeshLoad::MeshStreamLoader</a> = <a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string &gt;(*)(std::istream &amp;, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;)</td></tr>
+<tr class="separator:gafca47102be029039635b2868f215c1fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga350b9ad86f759c762c0c4df6371aa036" id="r_ga350b9ad86f759c762c0c4df6371aa036"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__IOFormatsRegistryGroup.html#gad431c8c706f759aad77178d7c9586616">MeshLoader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOFormatsRegistryGroup.html#ga350b9ad86f759c762c0c4df6371aa036">MR::MeshLoad::getMeshLoader</a> (<a class="el" href="structMR_1_1IOFilter.html">IOFilter</a> filter)</td></tr>
+<tr class="memitem:ga350b9ad86f759c762c0c4df6371aa036" id="r_ga350b9ad86f759c762c0c4df6371aa036"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__IOFormatsRegistryGroup.html#ga02848803ae0852e89483cd0be4f554f3">MeshLoader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOFormatsRegistryGroup.html#ga350b9ad86f759c762c0c4df6371aa036">MR::MeshLoad::getMeshLoader</a> (<a class="el" href="structMR_1_1IOFilter.html">IOFilter</a> filter)</td></tr>
 <tr class="memdesc:ga350b9ad86f759c762c0c4df6371aa036"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds expected loader from registry.  <br /></td></tr>
 <tr class="separator:ga350b9ad86f759c762c0c4df6371aa036"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga247f35eb02151e0ce68e863a496609f6" id="r_ga247f35eb02151e0ce68e863a496609f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__IOFormatsRegistryGroup.html#ga080dba628fd76766a0f9aad609e82ce5">MeshStreamLoader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOFormatsRegistryGroup.html#ga247f35eb02151e0ce68e863a496609f6">MR::MeshLoad::getMeshStreamLoader</a> (<a class="el" href="structMR_1_1IOFilter.html">IOFilter</a> filter)</td></tr>
+<tr class="memitem:ga247f35eb02151e0ce68e863a496609f6" id="r_ga247f35eb02151e0ce68e863a496609f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__IOFormatsRegistryGroup.html#gafca47102be029039635b2868f215c1fc">MeshStreamLoader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOFormatsRegistryGroup.html#ga247f35eb02151e0ce68e863a496609f6">MR::MeshLoad::getMeshStreamLoader</a> (<a class="el" href="structMR_1_1IOFilter.html">IOFilter</a> filter)</td></tr>
 <tr class="memdesc:ga247f35eb02151e0ce68e863a496609f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds expected loader from registry.  <br /></td></tr>
 <tr class="separator:ga247f35eb02151e0ce68e863a496609f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaca0d649d3cadf6807b1fa3b610368510" id="r_gaca0d649d3cadf6807b1fa3b610368510"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__IOFiltersGroup.html#ga49f63334796a9865d1ecc25d270bf47e">IOFilters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOFormatsRegistryGroup.html#gaca0d649d3cadf6807b1fa3b610368510">MR::MeshLoad::getFilters</a> ()</td></tr>
@@ -161,7 +161,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="classMR_1_1MeshLoad_1_1MeshLoaderAdder.html">MR::MeshLoad::MeshLoaderAdder</a> __meshLoaderAdder_##loader(<a class="el" href="structMR_1_1MeshLoad_1_1NamedMeshLoader.html">MR::MeshLoad::NamedMeshLoader</a>{filter,static_cast&lt;<a class="el" href="group__IOFormatsRegistryGroup.html#gad431c8c706f759aad77178d7c9586616">MR::MeshLoad::MeshLoader</a>&gt;(loader),static_cast&lt;<a class="el" href="group__IOFormatsRegistryGroup.html#ga080dba628fd76766a0f9aad609e82ce5">MR::MeshLoad::MeshStreamLoader</a>&gt;(loader)});\</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="classMR_1_1MeshLoad_1_1MeshLoaderAdder.html">MR::MeshLoad::MeshLoaderAdder</a> __meshLoaderAdder_##loader(<a class="el" href="structMR_1_1MeshLoad_1_1NamedMeshLoader.html">MR::MeshLoad::NamedMeshLoader</a>{filter,static_cast&lt;<a class="el" href="group__IOFormatsRegistryGroup.html#ga02848803ae0852e89483cd0be4f554f3">MR::MeshLoad::MeshLoader</a>&gt;(loader),static_cast&lt;<a class="el" href="group__IOFormatsRegistryGroup.html#gafca47102be029039635b2868f215c1fc">MR::MeshLoad::MeshStreamLoader</a>&gt;(loader)});\</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -172,28 +172,28 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="gad431c8c706f759aad77178d7c9586616" name="gad431c8c706f759aad77178d7c9586616"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad431c8c706f759aad77178d7c9586616">&#9670;&#160;</a></span>MeshLoader</h2>
+<a id="ga02848803ae0852e89483cd0be4f554f3" name="ga02848803ae0852e89483cd0be4f554f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga02848803ae0852e89483cd0be4f554f3">&#9670;&#160;</a></span>MeshLoader</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="group__IOFormatsRegistryGroup.html#gad431c8c706f759aad77178d7c9586616">MR::MeshLoad::MeshLoader</a> = typedef <a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt;<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string&gt;( * )( const std::filesystem::path&amp;, <a class="el" href="namespaceMR.html#a59dd016293920ad941a9aeb6e67b6186">VertColors</a>*, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> )</td>
+          <td class="memname">using <a class="el" href="group__IOFormatsRegistryGroup.html#ga02848803ae0852e89483cd0be4f554f3">MR::MeshLoad::MeshLoader</a> = typedef <a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt;<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string&gt;( * )( const std::filesystem::path&amp;, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a>&amp; )</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ga080dba628fd76766a0f9aad609e82ce5" name="ga080dba628fd76766a0f9aad609e82ce5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga080dba628fd76766a0f9aad609e82ce5">&#9670;&#160;</a></span>MeshStreamLoader</h2>
+<a id="gafca47102be029039635b2868f215c1fc" name="gafca47102be029039635b2868f215c1fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafca47102be029039635b2868f215c1fc">&#9670;&#160;</a></span>MeshStreamLoader</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="group__IOFormatsRegistryGroup.html#ga080dba628fd76766a0f9aad609e82ce5">MR::MeshLoad::MeshStreamLoader</a> = typedef <a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt;<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string&gt;( * )( std::istream&amp;, <a class="el" href="namespaceMR.html#a59dd016293920ad941a9aeb6e67b6186">VertColors</a>*, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> )</td>
+          <td class="memname">using <a class="el" href="group__IOFormatsRegistryGroup.html#gafca47102be029039635b2868f215c1fc">MR::MeshLoad::MeshStreamLoader</a> = typedef <a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt;<a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>, std::string&gt;( * )( std::istream&amp;, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a>&amp; )</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -227,7 +227,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__IOFormatsRegistryGroup.html#gad431c8c706f759aad77178d7c9586616">MeshLoader</a> MR::MeshLoad::getMeshLoader </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__IOFormatsRegistryGroup.html#ga02848803ae0852e89483cd0be4f554f3">MeshLoader</a> MR::MeshLoad::getMeshLoader </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR_1_1IOFilter.html">IOFilter</a>&#160;</td>
           <td class="paramname"><em>filter</em></td><td>)</td>
@@ -247,7 +247,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__IOFormatsRegistryGroup.html#ga080dba628fd76766a0f9aad609e82ce5">MeshStreamLoader</a> MR::MeshLoad::getMeshStreamLoader </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__IOFormatsRegistryGroup.html#gafca47102be029039635b2868f215c1fc">MeshStreamLoader</a> MR::MeshLoad::getMeshStreamLoader </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR_1_1IOFilter.html">IOFilter</a>&#160;</td>
           <td class="paramname"><em>filter</em></td><td>)</td>

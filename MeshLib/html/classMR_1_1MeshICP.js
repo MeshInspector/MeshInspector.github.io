@@ -1,7 +1,7 @@
 var classMR_1_1MeshICP =
 [
-    [ "MeshICP", "classMR_1_1MeshICP.html#adff30122f5a540e4d88a3fae695b349f", null ],
-    [ "MeshICP", "classMR_1_1MeshICP.html#ac3b77c3415812e59d749c9d39d6098b9", null ],
+    [ "MeshICP", "classMR_1_1MeshICP.html#a2a115b26e20df31f98d10b4aa9d5947a", null ],
+    [ "MeshICP", "classMR_1_1MeshICP.html#ae31dd1c813f4a1e41eac1ba1afc3025b", null ],
     [ "calculateTransformation", "classMR_1_1MeshICP.html#a2530d321b1da96cf734a1b759f418d9e", null ],
     [ "getDistLimitsSq", "classMR_1_1MeshICP.html#aaf2b3744ee86b847402932e1afe7adec", null ],
     [ "getLastICPInfo", "classMR_1_1MeshICP.html#ad5249dd5fcfc31b2a66bd7535fe1c53a", null ],
@@ -15,9 +15,9 @@ var classMR_1_1MeshICP =
     [ "setCosineLimit", "classMR_1_1MeshICP.html#ac0e6730f650458a290a7779a7c947c87", null ],
     [ "setDistanceFilterSigmaFactor", "classMR_1_1MeshICP.html#ade602f7f4c1773dc83c2c88d5d673acf", null ],
     [ "setDistanceLimit", "classMR_1_1MeshICP.html#afef5a255f461d19656083b7f124b4bbf", null ],
-    [ "setFloatXf", "classMR_1_1MeshICP.html#abdf54d43b743ec151b0c6da5df776454", null ],
+    [ "setFloatXf", "classMR_1_1MeshICP.html#a914cf56cee9fd932828186d6c2edf6ed", null ],
     [ "setPairsWeight", "classMR_1_1MeshICP.html#a429e652cd641c445c817090e9551a3d1", null ],
     [ "setParams", "classMR_1_1MeshICP.html#aaf91b3a9dea34645b3fd065cf44c8c5d", null ],
-    [ "setXfs", "classMR_1_1MeshICP.html#ace0d167d82f7e485e74a5fa0b602f13d", null ],
+    [ "setXfs", "classMR_1_1MeshICP.html#a798a801c6ee7982165f77bf4554a6aa5", null ],
     [ "updateVertPairs", "classMR_1_1MeshICP.html#aff911d6d53f8e44963f067e7c8ae376e", null ]
 ];

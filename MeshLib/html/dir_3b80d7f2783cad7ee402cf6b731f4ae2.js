@@ -158,8 +158,11 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRMeshIntersect.h", "MRMeshIntersect_8h.html", "MRMeshIntersect_8h" ],
     [ "MRMeshLoad.h", "MRMeshLoad_8h.html", "MRMeshLoad_8h" ],
     [ "MRMeshLoadObj.h", "MRMeshLoadObj_8h.html", "MRMeshLoadObj_8h" ],
+    [ "MRMeshLoadSettings.h", "MRMeshLoadSettings_8h.html", "MRMeshLoadSettings_8h" ],
+    [ "MRMeshLoadStep.h", "MRMeshLoadStep_8h.html", null ],
     [ "MRMeshMetrics.h", "MRMeshMetrics_8h.html", "MRMeshMetrics_8h" ],
     [ "MRMeshNormals.h", "MRMeshNormals_8h.html", "MRMeshNormals_8h" ],
+    [ "MRMeshOrPoints.h", "MRMeshOrPoints_8h.html", "MRMeshOrPoints_8h" ],
     [ "MRMeshOverhangs.h", "MRMeshOverhangs_8h.html", "MRMeshOverhangs_8h" ],
     [ "MRMeshPart.h", "MRMeshPart_8h.html", null ],
     [ "MRMeshProject.h", "MRMeshProject_8h.html", "MRMeshProject_8h" ],
@@ -312,5 +315,6 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRVoxelsVolume.h", "MRVoxelsVolume_8h.html", "MRVoxelsVolume_8h" ],
     [ "MRWatershedGraph.h", "MRWatershedGraph_8h.html", "MRWatershedGraph_8h" ],
     [ "MRWriter.h", "MRWriter_8h.html", "MRWriter_8h" ],
-    [ "MRXfBasedCache.h", "MRXfBasedCache_8h.html", null ]
+    [ "MRXfBasedCache.h", "MRXfBasedCache_8h.html", null ],
+    [ "MRZip.h", "MRZip_8h.html", "MRZip_8h" ]
 ];

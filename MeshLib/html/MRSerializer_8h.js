@@ -1,8 +1,6 @@
 var MRSerializer_8h =
 [
     [ "FolderCallback", "MRSerializer_8h.html#gab9e59b28eb470dd0c3c4b8e4edaf488b", null ],
-    [ "compressZip", "MRSerializer_8h.html#ga02e4f1770ef424d638e95a3e26512c19", null ],
-    [ "decompressZip", "MRSerializer_8h.html#ga93370e8f0bb7db437558a96f16c32fbd", null ],
     [ "deserializeFromJson", "MRSerializer_8h.html#ga9f65600bd6b7fb223ab125f81c96ae25", null ],
     [ "deserializeFromJson", "MRSerializer_8h.html#ga4c0c62354556511936a0e90a2d4c586e", null ],
     [ "deserializeFromJson", "MRSerializer_8h.html#gab49dd82250557d820cf52d7cd3a59464", null ],
@@ -22,6 +20,7 @@ var MRSerializer_8h =
     [ "deserializeFromJson", "MRSerializer_8h.html#ga1155079bf2d53ebd19e08f2223fee2a8", null ],
     [ "deserializeFromJson", "MRSerializer_8h.html#ga6e5549ed005e6ce599642910011fdc1c", null ],
     [ "deserializeJsonValue", "MRSerializer_8h.html#ga83cc69176e6518cd2e8d0e7e8b3d9624", null ],
+    [ "deserializeJsonValue", "MRSerializer_8h.html#ga1ec1615fe6b8cbedb5990697c28301db", null ],
     [ "deserializeObjectTree", "MRSerializer_8h.html#gac1e2d0ac0c4f2bd4428b13ced1fd19e8", null ],
     [ "deserializeObjectTreeFromFolder", "MRSerializer_8h.html#gaf18a5f8d0f76623e409d693ba17e2778", null ],
     [ "deserializeViaVerticesFromJson", "MRSerializer_8h.html#gab74247c70d34bac9da9d1e8c421b0703", null ],

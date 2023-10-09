@@ -98,6 +98,7 @@ $(document).ready(function(){initNavTree('structMR_1_1VoxelsVolume.html',''); in
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1VoxelsVolume-members.html">List of all members</a>  </div>
@@ -105,8 +106,16 @@ $(document).ready(function(){initNavTree('structMR_1_1VoxelsVolume.html',''); in
 </div><!--header-->
 <div class="contents">
 
+<p>represents a box in 3D space subdivided on voxels stored in T  
+ <a href="structMR_1_1VoxelsVolume.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRSimpleVolume_8h_source.html">MRSimpleVolume.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:af9f77daea56312d1b6f7ac20d2473713" id="r_af9f77daea56312d1b6f7ac20d2473713"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VoxelsVolume.html#af9f77daea56312d1b6f7ac20d2473713">ValueType</a> = typename <a class="el" href="structMR_1_1VoxelTraits.html">VoxelTraits</a>&lt; T &gt;::ValueType</td></tr>
+<tr class="separator:af9f77daea56312d1b6f7ac20d2473713"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6098927f3eb1a5ae05be948dd3ddf6ea" id="r_a6098927f3eb1a5ae05be948dd3ddf6ea"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VoxelsVolume.html#a6098927f3eb1a5ae05be948dd3ddf6ea">heapBytes</a> () const</td></tr>
@@ -120,11 +129,31 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aec69290a92637368e463e39fadfea701"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d40ff5d6e909a58566b67d177842ba0" id="r_a3d40ff5d6e909a58566b67d177842ba0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VoxelsVolume.html#a3d40ff5d6e909a58566b67d177842ba0">voxelSize</a> { 1.f, 1.f, 1.f }</td></tr>
 <tr class="separator:a3d40ff5d6e909a58566b67d177842ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fbcc865f20f28b1e80031ce1cc5263c" id="r_a4fbcc865f20f28b1e80031ce1cc5263c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VoxelsVolume.html#a4fbcc865f20f28b1e80031ce1cc5263c">min</a> = FLT_MAX</td></tr>
-<tr class="separator:a4fbcc865f20f28b1e80031ce1cc5263c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaedc1bfd3316c26260656a2b2d93a1cb" id="r_aaedc1bfd3316c26260656a2b2d93a1cb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VoxelsVolume.html#aaedc1bfd3316c26260656a2b2d93a1cb">max</a> = -FLT_MAX</td></tr>
-<tr class="separator:aaedc1bfd3316c26260656a2b2d93a1cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adaf73964e260f25fc8fb2fda370bc4ca" id="r_adaf73964e260f25fc8fb2fda370bc4ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1VoxelsVolume.html#af9f77daea56312d1b6f7ac20d2473713">ValueType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VoxelsVolume.html#adaf73964e260f25fc8fb2fda370bc4ca">min</a> = std::numeric_limits&lt;<a class="el" href="structMR_1_1VoxelsVolume.html#af9f77daea56312d1b6f7ac20d2473713">ValueType</a>&gt;<a class="el" href="structMR_1_1VoxelsVolume.html#a8ba727537de72b41f556c2d0c4851ad4">::max</a>()</td></tr>
+<tr class="separator:adaf73964e260f25fc8fb2fda370bc4ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ba727537de72b41f556c2d0c4851ad4" id="r_a8ba727537de72b41f556c2d0c4851ad4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1VoxelsVolume.html#af9f77daea56312d1b6f7ac20d2473713">ValueType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VoxelsVolume.html#a8ba727537de72b41f556c2d0c4851ad4">max</a> = std::numeric_limits&lt;<a class="el" href="structMR_1_1VoxelsVolume.html#af9f77daea56312d1b6f7ac20d2473713">ValueType</a>&gt;::lowest()</td></tr>
+<tr class="separator:a8ba727537de72b41f556c2d0c4851ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
+struct MR::VoxelsVolume&lt; T &gt;</div><p>represents a box in 3D space subdivided on voxels stored in T </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="af9f77daea56312d1b6f7ac20d2473713" name="af9f77daea56312d1b6f7ac20d2473713"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9f77daea56312d1b6f7ac20d2473713">&#9670;&#160;</a></span>ValueType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt; T &gt;::ValueType =  typename <a class="el" href="structMR_1_1VoxelTraits.html">VoxelTraits</a>&lt;T&gt;::ValueType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a6098927f3eb1a5ae05be948dd3ddf6ea" name="a6098927f3eb1a5ae05be948dd3ddf6ea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6098927f3eb1a5ae05be948dd3ddf6ea">&#9670;&#160;</a></span>heapBytes()</h2>
@@ -186,8 +215,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="aaedc1bfd3316c26260656a2b2d93a1cb" name="aaedc1bfd3316c26260656a2b2d93a1cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaedc1bfd3316c26260656a2b2d93a1cb">&#9670;&#160;</a></span>max</h2>
+<a id="a8ba727537de72b41f556c2d0c4851ad4" name="a8ba727537de72b41f556c2d0c4851ad4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ba727537de72b41f556c2d0c4851ad4">&#9670;&#160;</a></span>max</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -195,15 +224,15 @@ template&lt;typename T &gt; </div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">float <a class="el" href="structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt; T &gt;::max = -FLT_MAX</td>
+          <td class="memname"><a class="el" href="structMR_1_1VoxelsVolume.html#af9f77daea56312d1b6f7ac20d2473713">ValueType</a> <a class="el" href="structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt; T &gt;::max = std::numeric_limits&lt;<a class="el" href="structMR_1_1VoxelsVolume.html#af9f77daea56312d1b6f7ac20d2473713">ValueType</a>&gt;::lowest()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a4fbcc865f20f28b1e80031ce1cc5263c" name="a4fbcc865f20f28b1e80031ce1cc5263c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fbcc865f20f28b1e80031ce1cc5263c">&#9670;&#160;</a></span>min</h2>
+<a id="adaf73964e260f25fc8fb2fda370bc4ca" name="adaf73964e260f25fc8fb2fda370bc4ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaf73964e260f25fc8fb2fda370bc4ca">&#9670;&#160;</a></span>min</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -211,7 +240,7 @@ template&lt;typename T &gt; </div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">float <a class="el" href="structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt; T &gt;::min = FLT_MAX</td>
+          <td class="memname"><a class="el" href="structMR_1_1VoxelsVolume.html#af9f77daea56312d1b6f7ac20d2473713">ValueType</a> <a class="el" href="structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt; T &gt;::min = std::numeric_limits&lt;<a class="el" href="structMR_1_1VoxelsVolume.html#af9f77daea56312d1b6f7ac20d2473713">ValueType</a>&gt;<a class="el" href="structMR_1_1VoxelsVolume.html#a8ba727537de72b41f556c2d0c4851ad4">::max</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -66,13 +66,6 @@ var hierarchy =
     [ "MR::Buffer< VertId, VertId >", "classMR_1_1Buffer.html", null ],
     [ "MR::MeshBuilder::BuildSettings", "structMR_1_1MeshBuilder_1_1BuildSettings.html", null ],
     [ "MR::RibbonButtonDrawer::ButtonItemWidth", "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html", null ],
-    [ "Checks", null, [
-      [ "MR::SceneStateOrCheck< SceneStateExactCheck< 1, ObjectMesh >, SceneStateExactCheck< 1, ObjectLines >, SceneStateExactCheck< 1, ObjectPoints >, SceneStateExactCheck< 1, ObjectDistanceMap >, SceneStateExactCheck< 1, ObjectVoxels, NoVisualRepresentationCheck > >", "classMR_1_1SceneStateOrCheck.html", [
-        [ "MR::SaveObjectMenuItem", "classMR_1_1SaveObjectMenuItem.html", null ]
-      ] ],
-      [ "MR::SceneStateAndCheck< Checks >", "classMR_1_1SceneStateAndCheck.html", null ],
-      [ "MR::SceneStateOrCheck< Checks >", "classMR_1_1SceneStateOrCheck.html", null ]
-    ] ],
     [ "MR::CNCMachineSettings", "classMR_1_1CNCMachineSettings.html", null ],
     [ "MR::Color", "structMR_1_1Color.html", null ],
     [ "MR::ColorMapAggregator< Tag >", "classMR_1_1ColorMapAggregator.html", null ],
@@ -130,6 +123,7 @@ var hierarchy =
     [ "MR::MeshSave::CtmSaveOptions", "structMR_1_1MeshSave_1_1CtmSaveOptions.html", null ],
     [ "MR::PointsSave::CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", null ],
     [ "MR::CudaAccessor", "classMR_1_1CudaAccessor.html", null ],
+    [ "MR::CustomButtonParameters", "structMR_1_1CustomButtonParameters.html", null ],
     [ "CustomPlugin", null, [
       [ "MR::FixSpikesPlugin", "classMR_1_1FixSpikesPlugin.html", null ],
       [ "MR::RelaxPlugin", "classMR_1_1RelaxPlugin.html", null ],
@@ -428,8 +422,10 @@ var hierarchy =
       [ "MR::MultiMeshIntersectionResult", "structMR_1_1MultiMeshIntersectionResult.html", null ]
     ] ],
     [ "MR::MeshLoad::MeshLoaderAdder", "classMR_1_1MeshLoad_1_1MeshLoaderAdder.html", null ],
+    [ "MR::MeshLoadSettings", "structMR_1_1MeshLoadSettings.html", null ],
     [ "MR::MeshMeshConverter", "structMR_1_1MeshMeshConverter.html", null ],
     [ "MR::MeshNormals", "structMR_1_1MeshNormals.html", null ],
+    [ "MR::MeshOrPoints", "classMR_1_1MeshOrPoints.html", null ],
     [ "MR::MeshPart", "structMR_1_1MeshPart.html", null ],
     [ "MR::MeshBuilder::MeshPiece", "structMR_1_1MeshBuilder_1_1MeshPiece.html", null ],
     [ "MR::MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", null ],
@@ -539,6 +535,7 @@ var hierarchy =
     [ "MR::PreciseVertCoords", "structMR_1_1PreciseVertCoords.html", null ],
     [ "MR::PreciseVertCoords2", "structMR_1_1PreciseVertCoords2.html", null ],
     [ "MR::ProgressBar", "classMR_1_1ProgressBar.html", null ],
+    [ "MR::MeshOrPoints::ProjectionResult", "structMR_1_1MeshOrPoints_1_1ProjectionResult.html", null ],
     [ "MR::Object::ProtectedStruct", "structMR_1_1Object_1_1ProtectedStruct.html", null ],
     [ "MR::PythonExport", "classMR_1_1PythonExport.html", null ],
     [ "MR::PythonFunctionAdder", "structMR_1_1PythonFunctionAdder.html", null ],
@@ -585,6 +582,7 @@ var hierarchy =
     [ "MR::RibbonSchema", "structMR_1_1RibbonSchema.html", null ],
     [ "MR::RibbonSchemaHolder", "classMR_1_1RibbonSchemaHolder.html", null ],
     [ "MR::RibbonSchemaLoader", "classMR_1_1RibbonSchemaLoader.html", null ],
+    [ "MR::SaveObjectSettings", "structMR_1_1SaveObjectSettings.html", null ],
     [ "MR::VoxelsSave::SavingSettings", "structMR_1_1VoxelsSave_1_1SavingSettings.html", null ],
     [ "MR::ViewportGL::ScaledPickRes", "structMR_1_1ViewportGL_1_1ScaledPickRes.html", null ],
     [ "MR::SceneColors", "structMR_1_1SceneColors.html", null ],
@@ -764,6 +762,9 @@ var hierarchy =
     [ "MR::VoxelMetricParameters", "structMR_1_1VoxelMetricParameters.html", null ],
     [ "MR::VoxelsVolume< T >", "structMR_1_1VoxelsVolume.html", null ],
     [ "MR::VoxelsVolume< FloatGrid >", "structMR_1_1VoxelsVolume.html", null ],
+    [ "MR::VoxelTraits< T >", "structMR_1_1VoxelTraits.html", null ],
+    [ "MR::VoxelTraits< FloatGrid >", "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html", null ],
+    [ "MR::VoxelTraits< VoxelValueGetter< T > >", "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html", null ],
     [ "MR::WatershedGraph", "classMR_1_1WatershedGraph.html", null ],
     [ "MR::WebRequest", "classMR_1_1WebRequest.html", null ],
     [ "MR::Writer< T >", "structMR_1_1Writer.html", null ],
@@ -771,6 +772,13 @@ var hierarchy =
     [ "MR::XfBasedCache< MR::Box >", "classMR_1_1XfBasedCache.html", null ],
     [ "MR::ZeroOnMove< T >", "structMR_1_1ZeroOnMove.html", null ],
     [ "MR::ZeroOnMove< size_t >", "structMR_1_1ZeroOnMove.html", null ],
+    [ "MR::Checks", null, [
+      [ "MR::SceneStateAndCheck< Checks >", "classMR_1_1SceneStateAndCheck.html", null ],
+      [ "MR::SceneStateOrCheck< Checks >", "classMR_1_1SceneStateOrCheck.html", null ]
+    ] ],
+    [ "MR::Ts", null, [
+      [ "MR::overloaded< Ts >", "structMR_1_1overloaded.html", null ]
+    ] ],
     [ "MR::Updates", null, [
       [ "MR::PluginUpdateOr< Updates >", "classMR_1_1PluginUpdateOr.html", null ]
     ] ]

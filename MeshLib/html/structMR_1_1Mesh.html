@@ -385,6 +385,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a4512a13225dccd2691ad4106c46e3d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c3189b1e26154d13fa969a44545916c" id="r_a5c3189b1e26154d13fa969a44545916c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a5c3189b1e26154d13fa969a44545916c">fromTrianglesDuplicatingNonManifoldVertices</a> (<a class="el" href="namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5">VertCoords</a> vertexCoordinates, <a class="el" href="namespaceMR.html#abc818339a903cbfd1435e507f3085075">Triangulation</a> &amp;t, std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertDuplication.html">MeshBuilder::VertDuplication</a> &gt; *dups=nullptr, const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder::BuildSettings</a> &amp;settings={})</td></tr>
 <tr class="separator:a5c3189b1e26154d13fa969a44545916c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5500ddb4660086a3703345d50241d0ad" id="r_a5500ddb4660086a3703345d50241d0ad"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mesh.html#a5500ddb4660086a3703345d50241d0ad">fromPointTriples</a> (const std::vector&lt; <a class="el" href="namespaceMR.html#a34931e18c46a0007ca98d04847051247">Triangle3f</a> &gt; &amp;posTriples, bool duplicateNonManifoldVertices)</td></tr>
+<tr class="separator:a5500ddb4660086a3703345d50241d0ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -1592,6 +1594,50 @@ template&lt;typename I &gt; </div>
 </div><div class="memdoc">
 
 <p>returns vertices where the sum of triangle angles is below given threshold </p>
+
+</div>
+</div>
+<a id="a5500ddb4660086a3703345d50241d0ad" name="a5500ddb4660086a3703345d50241d0ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5500ddb4660086a3703345d50241d0ad">&#9670;&#160;</a></span>fromPointTriples()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a> MR::Mesh::fromPointTriples </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="namespaceMR.html#a34931e18c46a0007ca98d04847051247">Triangle3f</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>posTriples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>duplicateNonManifoldVertices</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>construct mesh from point triples; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">duplicateNonManifoldVertices</td><td>= false, all coinciding points are given the same VertId in the result; </td></tr>
+    <tr><td class="paramname">duplicateNonManifoldVertices</td><td>= true, it tries to avoid non-manifold vertices by creating duplicate vertices with same coordinates <br  />
+ </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

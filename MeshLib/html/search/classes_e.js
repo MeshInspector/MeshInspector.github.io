@@ -58,8 +58,9 @@ var searchData=
   ['predrawlistener_55',['PreDrawListener',['../structMR_1_1PreDrawListener.html',1,'MR']]],
   ['progressbar_56',['ProgressBar',['../classMR_1_1ProgressBar.html',1,'MR']]],
   ['progressinterrupter_57',['ProgressInterrupter',['../structMR_1_1ProgressInterrupter.html',1,'MR']]],
-  ['protectedstruct_58',['ProtectedStruct',['../structMR_1_1Object_1_1ProtectedStruct.html',1,'MR::Object']]],
-  ['pythonexport_59',['PythonExport',['../classMR_1_1PythonExport.html',1,'MR']]],
-  ['pythonfunctionadder_60',['PythonFunctionAdder',['../structMR_1_1PythonFunctionAdder.html',1,'MR']]],
-  ['pythonstreamredirector_61',['PythonStreamRedirector',['../classPythonStreamRedirector.html',1,'']]]
+  ['projectionresult_58',['ProjectionResult',['../structMR_1_1MeshOrPoints_1_1ProjectionResult.html',1,'MR::MeshOrPoints']]],
+  ['protectedstruct_59',['ProtectedStruct',['../structMR_1_1Object_1_1ProtectedStruct.html',1,'MR::Object']]],
+  ['pythonexport_60',['PythonExport',['../classMR_1_1PythonExport.html',1,'MR']]],
+  ['pythonfunctionadder_61',['PythonFunctionAdder',['../structMR_1_1PythonFunctionAdder.html',1,'MR']]],
+  ['pythonstreamredirector_62',['PythonStreamRedirector',['../classPythonStreamRedirector.html',1,'']]]
 ];

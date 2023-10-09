@@ -4,7 +4,7 @@ var classMR_1_1AABBTree =
     [ "NodeBitSet", "classMR_1_1AABBTree.html#a14be9f478ec6272d18dc330bd8c94b38", null ],
     [ "NodeId", "classMR_1_1AABBTree.html#a0d5bc51d4a13d2ff4bda0d7669a6098e", null ],
     [ "NodeVec", "classMR_1_1AABBTree.html#a3689e736d9bd1cc83c766df27cb69b68", null ],
-    [ "AABBTree", "classMR_1_1AABBTree.html#add77d5465c44318f3c02aad6a8b61d2e", null ],
+    [ "AABBTree", "classMR_1_1AABBTree.html#a0c762ebbd20c05c2219b1a348f22e0fb", null ],
     [ "AABBTree", "classMR_1_1AABBTree.html#a299be175c35406bc5c624c524a3221e7", null ],
     [ "containsSameNumberOfTris", "classMR_1_1AABBTree.html#a452c88b89ff01231575ab3f12f8de2df", null ],
     [ "getBoundingBox", "classMR_1_1AABBTree.html#a32fb8d6b891ed1e97bf4532552caa7a4", null ],

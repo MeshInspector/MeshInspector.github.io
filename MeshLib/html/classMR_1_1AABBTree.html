@@ -131,9 +131,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a32fb8d6b891ed1e97bf4532552caa7a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a452c88b89ff01231575ab3f12f8de2df" id="r_a452c88b89ff01231575ab3f12f8de2df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTree.html#a452c88b89ff01231575ab3f12f8de2df">containsSameNumberOfTris</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh) const</td></tr>
 <tr class="separator:a452c88b89ff01231575ab3f12f8de2df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add77d5465c44318f3c02aad6a8b61d2e" id="r_add77d5465c44318f3c02aad6a8b61d2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTree.html#add77d5465c44318f3c02aad6a8b61d2e">AABBTree</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
-<tr class="memdesc:add77d5465c44318f3c02aad6a8b61d2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree for given mesh  <br /></td></tr>
-<tr class="separator:add77d5465c44318f3c02aad6a8b61d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c762ebbd20c05c2219b1a348f22e0fb" id="r_a0c762ebbd20c05c2219b1a348f22e0fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTree.html#a0c762ebbd20c05c2219b1a348f22e0fb">AABBTree</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp)</td></tr>
+<tr class="memdesc:a0c762ebbd20c05c2219b1a348f22e0fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree for given mesh or its part  <br /></td></tr>
+<tr class="separator:a0c762ebbd20c05c2219b1a348f22e0fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17c38dc7b5620a352a4648fd8c18612e" id="r_a17c38dc7b5620a352a4648fd8c18612e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTree.html#a17c38dc7b5620a352a4648fd8c18612e">getSubtreeFaces</a> (<a class="el" href="classMR_1_1AABBTree.html#a0d5bc51d4a13d2ff4bda0d7669a6098e">NodeId</a> subtreeRoot) const</td></tr>
 <tr class="memdesc:a17c38dc7b5620a352a4648fd8c18612e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all faces in the subtree with given root  <br /></td></tr>
 <tr class="separator:a17c38dc7b5620a352a4648fd8c18612e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,8 +227,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="add77d5465c44318f3c02aad6a8b61d2e" name="add77d5465c44318f3c02aad6a8b61d2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add77d5465c44318f3c02aad6a8b61d2e">&#9670;&#160;</a></span>AABBTree() <span class="overload">[1/2]</span></h2>
+<a id="a0c762ebbd20c05c2219b1a348f22e0fb" name="a0c762ebbd20c05c2219b1a348f22e0fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c762ebbd20c05c2219b1a348f22e0fb">&#9670;&#160;</a></span>AABBTree() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236,14 +236,14 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR::AABBTree::AABBTree </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
-          <td class="paramname"><em>mesh</em></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
+          <td class="paramname"><em>mp</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>creates tree for given mesh </p>
+<p>creates tree for given mesh or its part </p>
 
 </div>
 </div>

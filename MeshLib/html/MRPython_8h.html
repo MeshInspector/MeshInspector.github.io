@@ -217,7 +217,7 @@ Functions</h2></td></tr>
 <div class="line">_Pragma(<span class="stringliteral">&quot;warning(disable:4459)&quot;</span>) \</div>
 <div class="line">    <span class="keyword">static</span> <a class="code hl_struct" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> name##_adder_( #moduleName, __VA_ARGS__ ); \</div>
 <div class="line">_Pragma(<span class="stringliteral">&quot;warning(pop)&quot;</span>)</div>
-<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></div><div class="ttdef"><b>Definition</b> MRPython.h:144</div></div>
+<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></div><div class="ttdef"><b>Definition</b> MRPython.h:145</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -453,13 +453,13 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">PYBIND11_MODULE( moduleName, m )\</div>
 <div class="line">{\</div>
 <div class="line">    precall();\</div>
-<div class="line">    <span class="keyword">auto</span>&amp; adders = <a class="code hl_function" href="classMR_1_1PythonExport.html#ab58dad33304df0cdee3c53d47d161ade">MR::PythonExport::instance</a>().<a class="code hl_function" href="classMR_1_1PythonExport.html#a8cfca7aa55bd847bc13f0e46985d51cc">functions</a>( #moduleName );\</div>
+<div class="line">    <span class="keyword">auto</span>&amp; adders = <a class="code hl_function" href="classMR_1_1PythonExport.html#ab58dad33304df0cdee3c53d47d161ade">MR::PythonExport::instance</a>().<a class="code hl_function" href="classMR_1_1PythonExport.html#ac2dd8d85d95e874bb4e44b23be75f9f4">functions</a>( #moduleName );\</div>
 <div class="line">    for ( <span class="keyword">auto</span>&amp; f : adders )\</div>
 <div class="line">        f( m );\</div>
 <div class="line">}\</div>
 <div class="line"><span class="keyword">static</span> <a class="code hl_struct" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> moduleName##_init_( #moduleName, &amp;PyInit_##moduleName );</div>
-<div class="ttc" id="aclassMR_1_1PythonExport_html_a8cfca7aa55bd847bc13f0e46985d51cc"><div class="ttname"><a href="classMR_1_1PythonExport.html#a8cfca7aa55bd847bc13f0e46985d51cc">MR::PythonExport::functions</a></div><div class="ttdeci">const std::vector&lt; PythonRegisterFuncton &gt; functions(const std::string &amp;moduleName) const</div><div class="ttdef"><b>Definition</b> MRPython.h:124</div></div>
 <div class="ttc" id="aclassMR_1_1PythonExport_html_ab58dad33304df0cdee3c53d47d161ade"><div class="ttname"><a href="classMR_1_1PythonExport.html#ab58dad33304df0cdee3c53d47d161ade">MR::PythonExport::instance</a></div><div class="ttdeci">static MRMESH_API PythonExport &amp; instance()</div></div>
+<div class="ttc" id="aclassMR_1_1PythonExport_html_ac2dd8d85d95e874bb4e44b23be75f9f4"><div class="ttname"><a href="classMR_1_1PythonExport.html#ac2dd8d85d95e874bb4e44b23be75f9f4">MR::PythonExport::functions</a></div><div class="ttdeci">const std::vector&lt; PythonRegisterFuncton &gt; &amp; functions(const std::string &amp;moduleName) const</div><div class="ttdef"><b>Definition</b> MRPython.h:124</div></div>
 </div><!-- fragment -->
 </div>
 </div>

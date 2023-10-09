@@ -1,6 +1,7 @@
 var MRMeshFwd_8h =
 [
     [ "MR::NoInit", "structMR_1_1NoInit.html", null ],
+    [ "MR::overloaded< Ts >", "structMR_1_1overloaded.html", null ],
     [ "MRMESH_API", "MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300", null ],
     [ "MRMESH_CLASS", "MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a", null ],
     [ "AABBTreePolyline2", "MRMeshFwd_8h.html#a5118187c1702041e05e1ea408d9a61de", null ],
@@ -115,6 +116,7 @@ var MRMeshFwd_8h =
     [ "PolylineProjectionResult2", "MRMeshFwd_8h.html#a0898ca7d08b2fb73875b21bf4921f4fd", null ],
     [ "PolylineProjectionResult3", "MRMeshFwd_8h.html#a847af1551a9dcab4a5a333b6607522a7", null ],
     [ "PolylineProjectionWithOffsetResult3", "MRMeshFwd_8h.html#a2488a5918dcbf78bcbf511ea6c93a185", null ],
+    [ "ProgressCallback", "MRMeshFwd_8h.html#ga51ff94746a41880cd06d3272b5bcf710", null ],
     [ "QuadraticForm2", "MRMeshFwd_8h.html#a678a30e8ebc8b7fabb2836c6dbf5023b", null ],
     [ "QuadraticForm2d", "MRMeshFwd_8h.html#adbe44a0e8d9539bee51a7dae17c26666", null ],
     [ "QuadraticForm2f", "MRMeshFwd_8h.html#a230d3289b57acf5d5f652b55eb24fac8", null ],
@@ -206,6 +208,7 @@ var MRMeshFwd_8h =
       [ "Mirror", "MRMeshFwd_8h.html#a0e519d6a7c053c5d86dac33ecd0fa00ca2403def5083f02105e7802b3b315681e", null ],
       [ "Clamp", "MRMeshFwd_8h.html#a0e519d6a7c053c5d86dac33ecd0fa00ca08825280e3f8137556325061ba67ff8c", null ]
     ] ],
+    [ "overloaded", "MRMeshFwd_8h.html#a80e6b953fc44378e5898ba71b21f216a", null ],
     [ "sgn", "MRMeshFwd_8h.html#a86bf24d57f63afab9354505400a0e82c", null ],
     [ "sqr", "MRMeshFwd_8h.html#a1bdf9f3c718616502649bc34a80ac976", null ],
     [ "AABBTree", "MRMeshFwd_8h.html#abe7cfa4da2fbf3567857cea149030590", null ],
@@ -222,6 +225,7 @@ var MRMeshFwd_8h =
     [ "HistoryStore", "MRMeshFwd_8h.html#a13289bb0637fbc667dab347fd46dbbbb", null ],
     [ "Id", "MRMeshFwd_8h.html#a8b0ed90fff63efc807bea5c49c86aaa0", null ],
     [ "Mesh", "MRMeshFwd_8h.html#a49165bcb87a59752b8f02f19ea7f2424", null ],
+    [ "MeshOrPoints", "MRMeshFwd_8h.html#a2c2ce7a11febd432cbfcbcd26f3d6103", null ],
     [ "MeshPart", "MRMeshFwd_8h.html#aae74f48ca7d92982c20c610095970149", null ],
     [ "MeshTopology", "MRMeshFwd_8h.html#a70998e19114b7179469682c1c31c77ae", null ],
     [ "NoDefInit", "MRMeshFwd_8h.html#ae14e1033b3de0c30a6bb404e940dc424", null ],

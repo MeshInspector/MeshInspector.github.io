@@ -18,5 +18,6 @@ var classMR_1_1Config =
     [ "setColor", "classMR_1_1Config.html#aefbf21b76d9f87667c9313e310f8fe9b", null ],
     [ "setFileStack", "classMR_1_1Config.html#ae9eaec2c0bade737afbf64156d5a6ca8", null ],
     [ "setJsonValue", "classMR_1_1Config.html#a79498a0537aaf0b56bfbc5c67772eb0f", null ],
-    [ "setVector2i", "classMR_1_1Config.html#a5ef95eaf5b26a137a149705ac0698155", null ]
+    [ "setVector2i", "classMR_1_1Config.html#a5ef95eaf5b26a137a149705ac0698155", null ],
+    [ "writeToFile", "classMR_1_1Config.html#a4a1325795e653a33c4f91ca425c6eeca", null ]
 ];

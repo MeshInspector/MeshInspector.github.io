@@ -32,5 +32,5 @@ var searchData=
   ['eventqueue_29',['eventQueue',['../classMR_1_1Viewer.html#aff9491b01a7abb642aa180e3503e8650',1,'MR::Viewer']]],
   ['exitbtnsize_30',['exitBtnSize',['../namespaceMR_1_1StyleConsts_1_1Modal.html#a51cfb3dcff864fa88a1ef99e05376ebe',1,'MR::StyleConsts::Modal']]],
   ['exitval_31',['exitVal',['../structMR_1_1ICPProperties.html#afe075e9e4944999f30c142f357d071d7',1,'MR::ICPProperties']]],
-  ['extension_32',['extension',['../structMR_1_1IOFilter.html#ac848191e419fe3ec6fa17b4d4eb4cbe2',1,'MR::IOFilter']]]
+  ['extensions_32',['extensions',['../structMR_1_1IOFilter.html#a8806427d8212780dc5b20506b24b1223',1,'MR::IOFilter']]]
 ];

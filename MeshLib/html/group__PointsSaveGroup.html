@@ -112,6 +112,11 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:gaff7b2254658135233f206d3ac6301540" id="r_gaff7b2254658135233f206d3ac6301540"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointsSaveGroup.html#gaff7b2254658135233f206d3ac6301540">MR::PointsSave::toAsc</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;points, const std::filesystem::path &amp;file, const <a class="el" href="namespaceMR.html#a59dd016293920ad941a9aeb6e67b6186">VertColors</a> *colors=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="memdesc:gaff7b2254658135233f206d3ac6301540"><td class="mdescLeft">&#160;</td><td class="mdescRight">save valid points with normals in textual .asc file  <br /></td></tr>
+<tr class="separator:gaff7b2254658135233f206d3ac6301540"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga64c46cab0f83e00cc6e07e5548468b7a" id="r_ga64c46cab0f83e00cc6e07e5548468b7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointsSaveGroup.html#ga64c46cab0f83e00cc6e07e5548468b7a">MR::PointsSave::toAsc</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;points, std::ostream &amp;out, const <a class="el" href="namespaceMR.html#a59dd016293920ad941a9aeb6e67b6186">VertColors</a> *colors=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="separator:ga64c46cab0f83e00cc6e07e5548468b7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaefe6ea47ea4203ded90f43f7760c0d50" id="r_gaefe6ea47ea4203ded90f43f7760c0d50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointsSaveGroup.html#gaefe6ea47ea4203ded90f43f7760c0d50">MR::PointsSave::toPly</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;points, const std::filesystem::path &amp;file, const <a class="el" href="namespaceMR.html#a59dd016293920ad941a9aeb6e67b6186">VertColors</a> *colors=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
 <tr class="memdesc:gaefe6ea47ea4203ded90f43f7760c0d50"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .ply file  <br /></td></tr>
 <tr class="separator:gaefe6ea47ea4203ded90f43f7760c0d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -223,6 +228,88 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>extension in <code>*.ext</code> format </p>
+
+</div>
+</div>
+<a id="gaff7b2254658135233f206d3ac6301540" name="gaff7b2254658135233f206d3ac6301540"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaff7b2254658135233f206d3ac6301540">&#9670;&#160;</a></span>toAsc() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a> MR::PointsSave::toAsc </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;&#160;</td>
+          <td class="paramname"><em>points</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a59dd016293920ad941a9aeb6e67b6186">VertColors</a> *&#160;</td>
+          <td class="paramname"><em>colors</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>save valid points with normals in textual .asc file </p>
+
+</div>
+</div>
+<a id="ga64c46cab0f83e00cc6e07e5548468b7a" name="ga64c46cab0f83e00cc6e07e5548468b7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga64c46cab0f83e00cc6e07e5548468b7a">&#9670;&#160;</a></span>toAsc() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a> MR::PointsSave::toAsc </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;&#160;</td>
+          <td class="paramname"><em>points</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a59dd016293920ad941a9aeb6e67b6186">VertColors</a> *&#160;</td>
+          <td class="paramname"><em>colors</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

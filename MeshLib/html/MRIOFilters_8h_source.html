@@ -116,10 +116,10 @@ $(document).ready(function(){initNavTree('MRIOFilters_8h_source.html',''); initR
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structMR_1_1IOFilter.html#a5f6f14f66f3758e05a9ca414470b17e3">   16</a></span>    <a class="code hl_function" href="structMR_1_1IOFilter.html#a5f6f14f66f3758e05a9ca414470b17e3">IOFilter</a>() = <span class="keywordflow">default</span>;</div>
 <div class="foldopen" id="foldopen00017" data-start="{" data-end="}">
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="structMR_1_1IOFilter.html#a9aca4fa8f2e0f08b987dcf58cb316c82">   17</a></span>    <a class="code hl_function" href="structMR_1_1IOFilter.html#a9aca4fa8f2e0f08b987dcf58cb316c82">IOFilter</a>( <span class="keyword">const</span> std::string&amp; _name, <span class="keyword">const</span> std::string&amp; _ext ) :</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        <a class="code hl_variable" href="structMR_1_1IOFilter.html#ad4426ebb26f3474b6d69ca07c8e35980">name</a>{_name}, <a class="code hl_variable" href="structMR_1_1IOFilter.html#ac848191e419fe3ec6fa17b4d4eb4cbe2">extension</a>{_ext}{}</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        <a class="code hl_variable" href="structMR_1_1IOFilter.html#ad4426ebb26f3474b6d69ca07c8e35980">name</a>{_name}, <a class="code hl_variable" href="structMR_1_1IOFilter.html#a8806427d8212780dc5b20506b24b1223">extensions</a>{_ext}{}</div>
 </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="structMR_1_1IOFilter.html#ad4426ebb26f3474b6d69ca07c8e35980">   19</a></span>    std::string <a class="code hl_variable" href="structMR_1_1IOFilter.html#ad4426ebb26f3474b6d69ca07c8e35980">name</a>;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="structMR_1_1IOFilter.html#ac848191e419fe3ec6fa17b4d4eb4cbe2">   20</a></span>    std::string <a class="code hl_variable" href="structMR_1_1IOFilter.html#ac848191e419fe3ec6fa17b4d4eb4cbe2">extension</a>; <span class="comment">// &quot;*.ext&quot;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="structMR_1_1IOFilter.html#a8806427d8212780dc5b20506b24b1223">   20</a></span>    std::string <a class="code hl_variable" href="structMR_1_1IOFilter.html#a8806427d8212780dc5b20506b24b1223">extensions</a>; <span class="comment">// &quot;*.ext&quot; or &quot;*.ext1;*.ext2;*.ext3&quot;</span></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>};</div>
 </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
@@ -133,7 +133,7 @@ $(document).ready(function(){initNavTree('MRIOFilters_8h_source.html',''); initR
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    {</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <span class="keywordflow">if</span> ( std::find_if( a.begin(), a.end(), [&amp;] ( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1IOFilter.html">IOFilter</a>&amp; aF )</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        {</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>            return aF.extension == bElem.extension;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>            return aF.extensions == bElem.extensions;</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        } ) == a.end() )</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>            copy.push_back( bElem );</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    }</div>
@@ -148,8 +148,8 @@ $(document).ready(function(){initNavTree('MRIOFilters_8h_source.html',''); initR
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
 <div class="ttc" id="astructMR_1_1IOFilter_html"><div class="ttname"><a href="structMR_1_1IOFilter.html">MR::IOFilter</a></div><div class="ttdef"><b>Definition</b> MRIOFilters.h:15</div></div>
 <div class="ttc" id="astructMR_1_1IOFilter_html_a5f6f14f66f3758e05a9ca414470b17e3"><div class="ttname"><a href="structMR_1_1IOFilter.html#a5f6f14f66f3758e05a9ca414470b17e3">MR::IOFilter::IOFilter</a></div><div class="ttdeci">IOFilter()=default</div></div>
+<div class="ttc" id="astructMR_1_1IOFilter_html_a8806427d8212780dc5b20506b24b1223"><div class="ttname"><a href="structMR_1_1IOFilter.html#a8806427d8212780dc5b20506b24b1223">MR::IOFilter::extensions</a></div><div class="ttdeci">std::string extensions</div><div class="ttdef"><b>Definition</b> MRIOFilters.h:20</div></div>
 <div class="ttc" id="astructMR_1_1IOFilter_html_a9aca4fa8f2e0f08b987dcf58cb316c82"><div class="ttname"><a href="structMR_1_1IOFilter.html#a9aca4fa8f2e0f08b987dcf58cb316c82">MR::IOFilter::IOFilter</a></div><div class="ttdeci">IOFilter(const std::string &amp;_name, const std::string &amp;_ext)</div><div class="ttdef"><b>Definition</b> MRIOFilters.h:17</div></div>
-<div class="ttc" id="astructMR_1_1IOFilter_html_ac848191e419fe3ec6fa17b4d4eb4cbe2"><div class="ttname"><a href="structMR_1_1IOFilter.html#ac848191e419fe3ec6fa17b4d4eb4cbe2">MR::IOFilter::extension</a></div><div class="ttdeci">std::string extension</div><div class="ttdef"><b>Definition</b> MRIOFilters.h:20</div></div>
 <div class="ttc" id="astructMR_1_1IOFilter_html_ad4426ebb26f3474b6d69ca07c8e35980"><div class="ttname"><a href="structMR_1_1IOFilter.html#ad4426ebb26f3474b6d69ca07c8e35980">MR::IOFilter::name</a></div><div class="ttdeci">std::string name</div><div class="ttdef"><b>Definition</b> MRIOFilters.h:19</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

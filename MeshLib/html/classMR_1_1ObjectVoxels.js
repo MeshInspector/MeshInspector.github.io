@@ -25,6 +25,7 @@ var classMR_1_1ObjectVoxels =
     [ "getMaxSurfaceVertices", "classMR_1_1ObjectVoxels.html#a9e4730fb8ac4fa2f313f3bef340d0216", null ],
     [ "getSelectedVoxels", "classMR_1_1ObjectVoxels.html#a2474b64ee36bdd0c3cbb7c2688559071", null ],
     [ "getVolumeIndexer", "classMR_1_1ObjectVoxels.html#a5d0809111b5537e09fcc341afb335c7f", null ],
+    [ "getVolumeRenderActiveVoxels", "classMR_1_1ObjectVoxels.html#a19a1ede2bbe7c71b85f57b9df7756802", null ],
     [ "getVolumeRenderingData", "classMR_1_1ObjectVoxels.html#a3968c90ab1b7498d6f04a2760929a176", null ],
     [ "getVolumeRenderingParams", "classMR_1_1ObjectVoxels.html#a2132ce7c3f346b36f4cbf3887618d1b0", null ],
     [ "getVoxelIdByCoordinate", "classMR_1_1ObjectVoxels.html#ac13b231e31f37fbd53d30d8a9aeb4e33", null ],
@@ -45,6 +46,7 @@ var classMR_1_1ObjectVoxels =
     [ "setDualMarchingCubes", "classMR_1_1ObjectVoxels.html#ab02aa1e3777a0b8e07c86ab41cd4ae02", null ],
     [ "setIsoValue", "classMR_1_1ObjectVoxels.html#aabcaba76e4b304059a1ad18bedf9e259", null ],
     [ "setMaxSurfaceVertices", "classMR_1_1ObjectVoxels.html#ac650d2660c0224513f5df6629615cb6f", null ],
+    [ "setVolumeRenderActiveVoxels", "classMR_1_1ObjectVoxels.html#ad0506ee2646b9a084c9b6d56e0f93c8e", null ],
     [ "setVolumeRenderingParams", "classMR_1_1ObjectVoxels.html#abcf5902a4ac5cfb8e0d69f0828822a2a", null ],
     [ "setVoxelPointPositioner", "classMR_1_1ObjectVoxels.html#ae1bf2bbd9c8eaf107a9d67293a6f772e", null ],
     [ "shallowClone", "classMR_1_1ObjectVoxels.html#a225f04e78475f3534bd49929d9200da1", null ],
@@ -60,5 +62,6 @@ var classMR_1_1ObjectVoxels =
     [ "voxelSize", "classMR_1_1ObjectVoxels.html#a15d13587d3a07d097c841db2c9face4d", null ],
     [ "isoSurfaceChangedSignal", "classMR_1_1ObjectVoxels.html#a3933529459eee6bf988f3b9814a52818", null ],
     [ "selectedVoxels_", "classMR_1_1ObjectVoxels.html#ac93a94170b78edb3958c03c152eddf69", null ],
+    [ "volumeRenderActiveVoxels_", "classMR_1_1ObjectVoxels.html#a47d5f0c15484962e0f95372d8f8916ae", null ],
     [ "volumeRendering_", "classMR_1_1ObjectVoxels.html#add6ed6dadad3ee60701ec86b112535c2", null ]
 ];

@@ -4,7 +4,7 @@ var searchData=
   ['objectscale_1',['objectScale',['../structMR_1_1Viewport_1_1Parameters.html#af702c49c5d0e216669074795ef81a796',1,'MR::Viewport::Parameters']]],
   ['objmesh_5f_2',['objMesh_',['../classMR_1_1RenderMeshObject.html#a3bbf015a92d7acdcb4f134a3af214b75',1,'MR::RenderMeshObject']]],
   ['objslist_3',['objsList',['../structMR_1_1Viewport_1_1FitDataParams.html#a26b2eaa63f341d684fa1cb726689e656',1,'MR::Viewport::FitDataParams']]],
-  ['offset_4',['offset',['../structMR_1_1OffsetParameters.html#ac8452b1a04803120a3633713076646c1',1,'MR::OffsetParameters::Offset'],['../structMR_1_1SharpenMarchingCubesMeshSettings.html#aad69635a569d93af09b5d7d1b6c24a7c',1,'MR::SharpenMarchingCubesMeshSettings::offset']]],
+  ['offset_4',['offset',['../structMR_1_1SharpenMarchingCubesMeshSettings.html#aad69635a569d93af09b5d7d1b6c24a7c',1,'MR::SharpenMarchingCubesMeshSettings::offset'],['../structMR_1_1OffsetParameters.html#ac8452b1a04803120a3633713076646c1',1,'MR::OffsetParameters::Offset']]],
   ['offsetmesh_5',['offsetMesh',['../structMR_1_1ToolPathParams.html#a290865e63260a699f02e17210427d220',1,'MR::ToolPathParams']]],
   ['offsetparameters_6',['offsetParameters',['../structMR_1_1ContoursDistanceMapOptions.html#a5015f92ab6db453e909083c2c9486054',1,'MR::ContoursDistanceMapOptions']]],
   ['offsetvoxels_7',['offsetVoxels',['../structMR_1_1MeshVoxelsConverter.html#adc6a0a341b57e23c8d707441794d45f3',1,'MR::MeshVoxelsConverter']]],
