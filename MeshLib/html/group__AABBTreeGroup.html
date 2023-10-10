@@ -320,6 +320,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gaca9ee6c07f32374a18e511487904370b" id="r_gaca9ee6c07f32374a18e511487904370b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaca9ee6c07f32374a18e511487904370b">MR::findProjection</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pt, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float upDistLimitSq=FLT_MAX, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr, float loDistLimitSq=0, <a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> skipFace={})</td></tr>
 <tr class="memdesc:gaca9ee6c07f32374a18e511487904370b"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point  <br /></td></tr>
 <tr class="separator:gaca9ee6c07f32374a18e511487904370b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5387bb570d5a117c83ca310fbd4353cc" id="r_ga5387bb570d5a117c83ca310fbd4353cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga5387bb570d5a117c83ca310fbd4353cc">MR::findProjectionSubtree</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pt, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, float upDistLimitSq=FLT_MAX, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr, float loDistLimitSq=0, <a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a> skipFace={})</td></tr>
+<tr class="memdesc:ga5387bb570d5a117c83ca310fbd4353cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point  <br /></td></tr>
+<tr class="separator:ga5387bb570d5a117c83ca310fbd4353cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga44d0cb5151cae38d27130277c50301bc" id="r_ga44d0cb5151cae38d27130277c50301bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1SignedDistanceToMeshResult.html">SignedDistanceToMeshResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga44d0cb5151cae38d27130277c50301bc">MR::findSignedDistance</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pt, const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float upDistLimitSq=FLT_MAX, float loDistLimitSq=0)</td></tr>
 <tr class="memdesc:ga44d0cb5151cae38d27130277c50301bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point, and finds the distance with sign to it (positive - outside, negative - inside the mesh)  <br /></td></tr>
 <tr class="separator:ga44d0cb5151cae38d27130277c50301bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2200,6 +2203,76 @@ template&lt;typename T &gt; </div>
     <tr><td class="paramname">upDistLimit</td><td>upper limit on the distance in question, if the real distance is larger than the function exists returning upDistLimit and no valid point </td></tr>
     <tr><td class="paramname">xf</td><td>polyline-to-point transformation, if not specified then identity transformation is assumed </td></tr>
     <tr><td class="paramname">loDistLimit</td><td>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5387bb570d5a117c83ca310fbd4353cc" name="ga5387bb570d5a117c83ca310fbd4353cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5387bb570d5a117c83ca310fbd4353cc">&#9670;&#160;</a></span>findProjectionSubtree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> MR::findProjectionSubtree </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>pt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;&#160;</td>
+          <td class="paramname"><em>mp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;&#160;</td>
+          <td class="paramname"><em>tree</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>upDistLimitSq</em> = <code>FLT_MAX</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *&#160;</td>
+          <td class="paramname"><em>xf</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>loDistLimitSq</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a4234a65e90443b87f6412b4e681a38ac">FaceId</a>&#160;</td>
+          <td class="paramname"><em>skipFace</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>computes the closest point on mesh (or its region) to given point </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tree</td><td>explicitly given BVH-tree for whole mesh or part of mesh we are searching projection on, </td></tr>
+    <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the distance in question, if the real distance is larger than the function exits returning upDistLimitSq and no valid point </td></tr>
+    <tr><td class="paramname">xf</td><td>mesh-to-point transformation, if not specified then identity transformation is assumed </td></tr>
+    <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one </td></tr>
+    <tr><td class="paramname">skipFace</td><td>this triangle will be skipped and never returned as a projection </td></tr>
   </table>
   </dd>
 </dl>

@@ -124,30 +124,31 @@ $(document).ready(function(){initNavTree('MRVDBProgressInterrupter_8h_source.htm
 <div class="foldopen" id="foldopen00019" data-start="{" data-end="}">
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="structMR_1_1ProgressInterrupter.html#aa7c319b39d9ff06438f19d5c5306139e">   19</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="structMR_1_1ProgressInterrupter.html#aa7c319b39d9ff06438f19d5c5306139e">wasInterrupted</a>( <span class="keywordtype">int</span> percent = -1 )<span class="keyword"> override</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        wasInterrupted_ = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        <span class="keywordflow">if</span> ( cb_ &amp;&amp; progressThreadId_ == std::this_thread::get_id() )</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>            wasInterrupted_ = !cb_( <span class="keywordtype">float</span>( std::clamp( percent, 0, 100 ) ) / 100.0f );</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        <span class="keywordflow">return</span> wasInterrupted_;</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    }</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <span class="comment">// OpenVdb uses worker threads from pool, in addition to the caller thread.</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        <span class="comment">// It is assumed that the callback is periodically called in the caller thread.</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        <span class="keywordflow">if</span> ( cb_ &amp;&amp; progressThreadId_ == std::this_thread::get_id() )</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>            wasInterrupted_ = !cb_( <span class="keywordtype">float</span>( std::clamp( percent, 0, 100 ) ) / 100.0f );</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <span class="keywordflow">return</span> wasInterrupted_;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    }</div>
 </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3">   26</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3">getWasInterrupted</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> wasInterrupted_; }</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">bool</span> wasInterrupted_{ <span class="keyword">false</span> };</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb_;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    std::thread::id progressThreadId_;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>};</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3">   27</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3">getWasInterrupted</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> wasInterrupted_; }</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordtype">bool</span> wasInterrupted_{ <span class="keyword">false</span> };</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb_;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    std::thread::id progressThreadId_;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>};</div>
 </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>} <span class="comment">//namespace MR</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRProgressCallback_8h_html"><div class="ttname"><a href="MRProgressCallback_8h.html">MRProgressCallback.h</a></div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:444</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
 <div class="ttc" id="astructMR_1_1ProgressInterrupter_html"><div class="ttname"><a href="structMR_1_1ProgressInterrupter.html">MR::ProgressInterrupter</a></div><div class="ttdef"><b>Definition</b> MRVDBProgressInterrupter.h:16</div></div>
-<div class="ttc" id="astructMR_1_1ProgressInterrupter_html_a448f23c735ae1b223b8b928ff4a2deb3"><div class="ttname"><a href="structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3">MR::ProgressInterrupter::getWasInterrupted</a></div><div class="ttdeci">bool getWasInterrupted() const</div><div class="ttdef"><b>Definition</b> MRVDBProgressInterrupter.h:26</div></div>
+<div class="ttc" id="astructMR_1_1ProgressInterrupter_html_a448f23c735ae1b223b8b928ff4a2deb3"><div class="ttname"><a href="structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3">MR::ProgressInterrupter::getWasInterrupted</a></div><div class="ttdeci">bool getWasInterrupted() const</div><div class="ttdef"><b>Definition</b> MRVDBProgressInterrupter.h:27</div></div>
 <div class="ttc" id="astructMR_1_1ProgressInterrupter_html_aa7c319b39d9ff06438f19d5c5306139e"><div class="ttname"><a href="structMR_1_1ProgressInterrupter.html#aa7c319b39d9ff06438f19d5c5306139e">MR::ProgressInterrupter::wasInterrupted</a></div><div class="ttdeci">virtual bool wasInterrupted(int percent=-1) override</div><div class="ttdef"><b>Definition</b> MRVDBProgressInterrupter.h:19</div></div>
 <div class="ttc" id="astructMR_1_1ProgressInterrupter_html_ad4f40f015b6a225a963200f8fced9ea8"><div class="ttname"><a href="structMR_1_1ProgressInterrupter.html#ad4f40f015b6a225a963200f8fced9ea8">MR::ProgressInterrupter::ProgressInterrupter</a></div><div class="ttdeci">ProgressInterrupter(ProgressCallback cb)</div><div class="ttdef"><b>Definition</b> MRVDBProgressInterrupter.h:17</div></div>
 </div><!-- fragment --></div><!-- contents -->

@@ -22,10 +22,6 @@ var hierarchy =
       [ "MR::Viewport::FitBoxParams", "structMR_1_1Viewport_1_1FitBoxParams.html", null ],
       [ "MR::Viewport::FitDataParams", "structMR_1_1Viewport_1_1FitDataParams.html", null ]
     ] ],
-    [ "MR::BaseOffsetParameters", "structMR_1_1BaseOffsetParameters.html", [
-      [ "MR::OffsetParameters", "structMR_1_1OffsetParameters.html", null ],
-      [ "MR::SharpOffsetParameters", "structMR_1_1SharpOffsetParameters.html", null ]
-    ] ],
     [ "MR::ViewportGL::BasePickResult", "structMR_1_1ViewportGL_1_1BasePickResult.html", [
       [ "MR::ViewportGL::PickResult", "structMR_1_1ViewportGL_1_1PickResult.html", null ]
     ] ],
@@ -36,6 +32,12 @@ var hierarchy =
       [ "MR::ImmediateGL::RenderParams", "structMR_1_1ImmediateGL_1_1RenderParams.html", null ],
       [ "MR::ImmediateGL::TriRenderParams", "structMR_1_1ImmediateGL_1_1TriRenderParams.html", null ],
       [ "MR::ViewportGL::RenderParams", "structMR_1_1ViewportGL_1_1RenderParams.html", null ]
+    ] ],
+    [ "MR::BaseShellParameters", "structMR_1_1BaseShellParameters.html", [
+      [ "MR::BaseOffsetParameters", "structMR_1_1BaseOffsetParameters.html", [
+        [ "MR::OffsetParameters", "structMR_1_1OffsetParameters.html", null ],
+        [ "MR::SharpOffsetParameters", "structMR_1_1SharpOffsetParameters.html", null ]
+      ] ]
     ] ],
     [ "MR::BaseTiffParameters", "structMR_1_1BaseTiffParameters.html", [
       [ "MR::TiffParameters", "structMR_1_1TiffParameters.html", null ]
@@ -148,6 +150,9 @@ var hierarchy =
     [ "MR::DirectoryRecursiveIterator", "structMR_1_1DirectoryRecursiveIterator.html", null ],
     [ "MR::Dirty", "structMR_1_1Dirty.html", null ],
     [ "MR::DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html", null ],
+    [ "MR::DistanceVolumeParams", "structMR_1_1DistanceVolumeParams.html", [
+      [ "MR::MeshToDistanceVolumeParams", "structMR_1_1MeshToDistanceVolumeParams.html", null ]
+    ] ],
     [ "MR::DrawButtonParams", "structMR_1_1DrawButtonParams.html", null ],
     [ "MR::RibbonMenu::DrawGroupConfig", "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html", null ],
     [ "boost::dynamic_bitset", null, [
@@ -431,7 +436,6 @@ var hierarchy =
     [ "MR::MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", null ],
     [ "MR::MeshSignedDistanceResult", "structMR_1_1MeshSignedDistanceResult.html", null ],
     [ "MR::MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html", null ],
-    [ "MR::MeshToDistanceVolumeParams", "structMR_1_1MeshToDistanceVolumeParams.html", null ],
     [ "MR::MeshTopology", "classMR_1_1MeshTopology.html", null ],
     [ "MR::MeshToVolumeParams", "structMR_1_1MeshToVolumeParams.html", null ],
     [ "MR::MeshTriPoint", "structMR_1_1MeshTriPoint.html", null ],
