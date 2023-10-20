@@ -335,6 +335,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga91f4a4e75eedf94f3028f574f0028dfb" id="r_ga91f4a4e75eedf94f3028f574f0028dfb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PointsProjectionResult.html">PointsProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga91f4a4e75eedf94f3028f574f0028dfb">MR::findProjectionOnPoints</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pt, const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pc, float upDistLimitSq=FLT_MAX, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr, float loDistLimitSq=0)</td></tr>
 <tr class="memdesc:ga91f4a4e75eedf94f3028f574f0028dfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on point cloud to given point  <br /></td></tr>
 <tr class="separator:ga91f4a4e75eedf94f3028f574f0028dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5b2c2b50e8b1835a53ac746d5da87b54" id="r_ga5b2c2b50e8b1835a53ac746d5da87b54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga5b2c2b50e8b1835a53ac746d5da87b54">MR::findFewClosestPoints</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;pt, const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pc, <a class="el" href="classMR_1_1FewSmallest.html">FewSmallest</a>&lt; <a class="el" href="structMR_1_1PointsProjectionResult.html">PointsProjectionResult</a> &gt; &amp;res, float upDistLimitSq=FLT_MAX, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *xf=nullptr, float loDistLimitSq=0)</td></tr>
+<tr class="memdesc:ga5b2c2b50e8b1835a53ac746d5da87b54"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds a number of the closest points in the cloud (as configured in  <br /></td></tr>
+<tr class="separator:ga5b2c2b50e8b1835a53ac746d5da87b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5ccfb741cd4bcb092c8884f744051203" id="r_ga5ccfb741cd4bcb092c8884f744051203"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga5ccfb741cd4bcb092c8884f744051203">MR::findNClosestPointsPerPoint</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pc, int numNei, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
+<tr class="memdesc:ga5ccfb741cd4bcb092c8884f744051203"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds given number of closest points (excluding itself) to each valid point in the cloud;  <br /></td></tr>
+<tr class="separator:ga5ccfb741cd4bcb092c8884f744051203"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga15a3e18d2098f8ff33e67776a221e6fb" id="r_ga15a3e18d2098f8ff33e67776a221e6fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1EdgePointPair.html">EdgePointPair</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga15a3e18d2098f8ff33e67776a221e6fb">MR::findCollidingEdgePairs</a> (const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;a, const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">Polyline2</a> &amp;b, const <a class="el" href="namespaceMR.html#aaf5a1eb99830c5d7196aa5bf3a05f70e">AffineXf2f</a> *rigidB2A=nullptr, bool firstIntersectionOnly=false)</td></tr>
 <tr class="memdesc:ga15a3e18d2098f8ff33e67776a221e6fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding edges from two 2d polylines  <br /></td></tr>
 <tr class="separator:ga15a3e18d2098f8ff33e67776a221e6fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -829,7 +835,6 @@ template&lt;typename V &gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-polyline space to A polyline space, nullptr considered as identity transformation </td></tr>
-    <tr><td class="paramname">firstIntersectionOnly</td><td>if true then the function returns at most one pair of intersecting edges and returns faster </td></tr>
   </table>
   </dd>
 </dl>
@@ -1264,6 +1269,69 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
+<a id="ga5b2c2b50e8b1835a53ac746d5da87b54" name="ga5b2c2b50e8b1835a53ac746d5da87b54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5b2c2b50e8b1835a53ac746d5da87b54">&#9670;&#160;</a></span>findFewClosestPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::findFewClosestPoints </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>pt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;&#160;</td>
+          <td class="paramname"><em>pc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1FewSmallest.html">FewSmallest</a>&lt; <a class="el" href="structMR_1_1PointsProjectionResult.html">PointsProjectionResult</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>res</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>upDistLimitSq</em> = <code>FLT_MAX</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *&#160;</td>
+          <td class="paramname"><em>xf</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>loDistLimitSq</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds a number of the closest points in the cloud (as configured in </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">res)</td><td>to given point </td></tr>
+    <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the distance in question, points with larger distance than it will not be returned </td></tr>
+    <tr><td class="paramname">xf</td><td>pointcloud-to-point transformation, if not specified then identity transformation is assumed </td></tr>
+    <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, the algorithm can return given number of points within this distance even skipping closer ones </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ga3672072155e3f272d13a40ccd4645d02" name="ga3672072155e3f272d13a40ccd4645d02"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga3672072155e3f272d13a40ccd4645d02">&#9670;&#160;</a></span>findMaxDistanceSq()</h2>
 
@@ -1510,6 +1578,49 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Finds all edges of given mesh edges (specified by the tree) that cross or touch given ball (center, radius) </p>
+
+</div>
+</div>
+<a id="ga5ccfb741cd4bcb092c8884f744051203" name="ga5ccfb741cd4bcb092c8884f744051203"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5ccfb741cd4bcb092c8884f744051203">&#9670;&#160;</a></span>findNClosestPointsPerPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; MR::findNClosestPointsPerPoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;&#160;</td>
+          <td class="paramname"><em>pc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numNei</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;&#160;</td>
+          <td class="paramname"><em>progress</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds given number of closest points (excluding itself) to each valid point in the cloud; </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">numNei</td><td>the number of closest points to find for each point </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a buffer where for every valid point with index <code>i</code> its neighbours are stored at indices [i*numNei; (i+1)*numNei) </dd></dl>
 
 </div>
 </div>

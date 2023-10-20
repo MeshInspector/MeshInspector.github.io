@@ -1,5 +1,12 @@
 var group__HistoryGroup =
 [
+    [ "MR::ChangeColoringType", "classMR_1_1ChangeColoringType.html", [
+      [ "Obj", "classMR_1_1ChangeColoringType.html#a35b932ef1ea3756de261b79a1a7a7677", null ],
+      [ "ChangeColoringType", "classMR_1_1ChangeColoringType.html#a6129a4154bb8fde03e2dfc8d0e310ad2", null ],
+      [ "action", "classMR_1_1ChangeColoringType.html#ae42944016a4f6dd2c76e964cfb353bf4", null ],
+      [ "heapBytes", "classMR_1_1ChangeColoringType.html#a4c9d248392f35a9e929ab4dd107ff7d2", null ],
+      [ "name", "classMR_1_1ChangeColoringType.html#a531d559082c32567d685d888d4602ddf", null ]
+    ] ],
     [ "MR::ChangeMeshAction", "classMR_1_1ChangeMeshAction.html", [
       [ "Obj", "classMR_1_1ChangeMeshAction.html#af714055379496f5d4d7cc0762f755fea", null ],
       [ "ChangeMeshAction", "classMR_1_1ChangeMeshAction.html#aa047c1990777d68d6c09a53db29e6d61", null ],

@@ -1,7 +1,7 @@
 var MRMeshLoad_8h =
 [
-    [ "from3mfModel", "MRMeshLoad_8h.html#gac2507378b0e9df8c593eba59748c4b47", null ],
-    [ "from3mfModel", "MRMeshLoad_8h.html#ga8a3f1f36dafca0206bf2dfd981ea4816", null ],
+    [ "from3mf", "MRMeshLoad_8h.html#ga7b8a21616ca8372b66b690c3d7dbf187", null ],
+    [ "from3mf", "MRMeshLoad_8h.html#ga7fc776aaf7a926ab2402485b214a7e42", null ],
     [ "fromAnyStl", "MRMeshLoad_8h.html#gaafc66656edaccd05b501937ffc58f427", null ],
     [ "fromAnyStl", "MRMeshLoad_8h.html#gaf2f56f9814607c8e930335e0a776ec22", null ],
     [ "fromAnySupportedFormat", "MRMeshLoad_8h.html#ga8ea17f75143b67fcaa2f9ac2816f958c", null ],

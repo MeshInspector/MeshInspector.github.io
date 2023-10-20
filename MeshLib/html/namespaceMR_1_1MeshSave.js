@@ -6,6 +6,8 @@ var namespaceMR_1_1MeshSave =
     [ "sceneToObj", "group__MeshSaveObjGroup.html#ga8886bb47b8981c5d1ab72125ab2e4bf3", null ],
     [ "toAnySupportedFormat", "group__MeshSaveGroup.html#gabcc01aa391a0f5c5423463c3b4aa4807", null ],
     [ "toAnySupportedFormat", "group__MeshSaveGroup.html#gac28917205d9c534ff0f7240dfe6b209c", null ],
+    [ "toAsciiStl", "group__MeshSaveGroup.html#ga41029008bbf9903ab2639fb34641c45f", null ],
+    [ "toAsciiStl", "group__MeshSaveGroup.html#gaee098d77ef2a38fe4a92bbe845dc01e7", null ],
     [ "toBinaryStl", "group__MeshSaveGroup.html#ga2b402340eecb506b963729b739d98687", null ],
     [ "toBinaryStl", "group__MeshSaveGroup.html#gaace4e5268d41c54720eb6f61b712c7aa", null ],
     [ "toCtm", "group__MeshSaveGroup.html#ga423cfe175695999b2eb06d49ec15c1f7", null ],

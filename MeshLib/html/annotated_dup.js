@@ -34,7 +34,8 @@ var annotated_dup =
         [ "NamedXfMesh", "structMR_1_1MeshSave_1_1NamedXfMesh.html", "structMR_1_1MeshSave_1_1NamedXfMesh" ]
       ] ],
       [ "PointsSave", "namespaceMR_1_1PointsSave.html", [
-        [ "CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", "structMR_1_1PointsSave_1_1CtmSavePointsOptions" ]
+        [ "CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", "structMR_1_1PointsSave_1_1CtmSavePointsOptions" ],
+        [ "Settings", "structMR_1_1PointsSave_1_1Settings.html", "structMR_1_1PointsSave_1_1Settings" ]
       ] ],
       [ "TriangulationHelpers", "namespaceMR_1_1TriangulationHelpers.html", [
         [ "TriangulatedFanData", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData" ]
@@ -80,6 +81,7 @@ var annotated_dup =
       [ "CaptureScreenshotToClipBoardMenuItem", "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html", "classMR_1_1CaptureScreenshotToClipBoardMenuItem" ],
       [ "CaptureUIScreenshotMenuItem", "classMR_1_1CaptureUIScreenshotMenuItem.html", "classMR_1_1CaptureUIScreenshotMenuItem" ],
       [ "ChangeActiveBoxAction", "classMR_1_1ChangeActiveBoxAction.html", "classMR_1_1ChangeActiveBoxAction" ],
+      [ "ChangeColoringType", "classMR_1_1ChangeColoringType.html", "classMR_1_1ChangeColoringType" ],
       [ "ChangeDualMarchingCubesAction", "classMR_1_1ChangeDualMarchingCubesAction.html", "classMR_1_1ChangeDualMarchingCubesAction" ],
       [ "ChangeGridAction", "classMR_1_1ChangeGridAction.html", "classMR_1_1ChangeGridAction" ],
       [ "ChangeIsoAction", "classMR_1_1ChangeIsoAction.html", "classMR_1_1ChangeIsoAction" ],
@@ -161,6 +163,7 @@ var annotated_dup =
       [ "EmbeddedStructureParameters", "structMR_1_1EmbeddedStructureParameters.html", "structMR_1_1EmbeddedStructureParameters" ],
       [ "FaceFace", "structMR_1_1FaceFace.html", "structMR_1_1FaceFace" ],
       [ "FastWindingNumber", "classMR_1_1FastWindingNumber.html", "classMR_1_1FastWindingNumber" ],
+      [ "FewSmallest", "classMR_1_1FewSmallest.html", "classMR_1_1FewSmallest" ],
       [ "File", "classMR_1_1File.html", "classMR_1_1File" ],
       [ "FileParameters", "structMR_1_1FileParameters.html", "structMR_1_1FileParameters" ],
       [ "FillHoleItem", "structMR_1_1FillHoleItem.html", "structMR_1_1FillHoleItem" ],
@@ -298,6 +301,7 @@ var annotated_dup =
       [ "ObjectPointsHolder", "classMR_1_1ObjectPointsHolder.html", "classMR_1_1ObjectPointsHolder" ],
       [ "ObjectTransformWidget", "classMR_1_1ObjectTransformWidget.html", "classMR_1_1ObjectTransformWidget" ],
       [ "ObjectVoxels", "classMR_1_1ObjectVoxels.html", "classMR_1_1ObjectVoxels" ],
+      [ "OffsetContoursParams", "structMR_1_1OffsetContoursParams.html", "structMR_1_1OffsetContoursParams" ],
       [ "OffsetParameters", "structMR_1_1OffsetParameters.html", "structMR_1_1OffsetParameters" ],
       [ "OneMeshContour", "structMR_1_1OneMeshContour.html", "structMR_1_1OneMeshContour" ],
       [ "OneMeshIntersection", "structMR_1_1OneMeshIntersection.html", "structMR_1_1OneMeshIntersection" ],
@@ -306,6 +310,7 @@ var annotated_dup =
       [ "OpenFilesMenuItem", "classMR_1_1OpenFilesMenuItem.html", "classMR_1_1OpenFilesMenuItem" ],
       [ "OpenRawVoxelsPlugin", "classMR_1_1OpenRawVoxelsPlugin.html", "classMR_1_1OpenRawVoxelsPlugin" ],
       [ "OpenVdbFloatGrid", "structMR_1_1OpenVdbFloatGrid.html", "structMR_1_1OpenVdbFloatGrid" ],
+      [ "OutputFlows", "structMR_1_1OutputFlows.html", "structMR_1_1OutputFlows" ],
       [ "overloaded", "structMR_1_1overloaded.html", null ],
       [ "PackMapping", "structMR_1_1PackMapping.html", "structMR_1_1PackMapping" ],
       [ "Palette", "classMR_1_1Palette.html", "classMR_1_1Palette" ],
@@ -424,6 +429,7 @@ var annotated_dup =
       [ "SceneStateExactCheck< N, ObjectT, NoVisualRepresentationCheck >", "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html", "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4" ],
       [ "SceneStateOrCheck", "classMR_1_1SceneStateOrCheck.html", "classMR_1_1SceneStateOrCheck" ],
       [ "ScopeHistory", "classMR_1_1ScopeHistory.html", "classMR_1_1ScopeHistory" ],
+      [ "SearchPathSettings", "structMR_1_1SearchPathSettings.html", "structMR_1_1SearchPathSettings" ],
       [ "SegmEndColors", "structMR_1_1SegmEndColors.html", "structMR_1_1SegmEndColors" ],
       [ "SegmentSegmentIntersectResult", "structMR_1_1SegmentSegmentIntersectResult.html", "structMR_1_1SegmentSegmentIntersectResult" ],
       [ "SegmPoint", "structMR_1_1SegmPoint.html", "structMR_1_1SegmPoint" ],
@@ -441,6 +447,7 @@ var annotated_dup =
       [ "Signal", "structMR_1_1Signal.html", "structMR_1_1Signal" ],
       [ "SignedDistanceToMeshResult", "structMR_1_1SignedDistanceToMeshResult.html", "structMR_1_1SignedDistanceToMeshResult" ],
       [ "SimpleTimeRecord", "structMR_1_1SimpleTimeRecord.html", "structMR_1_1SimpleTimeRecord" ],
+      [ "SkyPatch", "structMR_1_1SkyPatch.html", "structMR_1_1SkyPatch" ],
       [ "SortIntersectionsData", "structMR_1_1SortIntersectionsData.html", "structMR_1_1SortIntersectionsData" ],
       [ "SpaceMouseController", "classMR_1_1SpaceMouseController.html", "classMR_1_1SpaceMouseController" ],
       [ "SpaceMouseDownListener", "structMR_1_1SpaceMouseDownListener.html", "structMR_1_1SpaceMouseDownListener" ],

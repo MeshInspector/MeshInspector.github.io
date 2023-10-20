@@ -118,9 +118,24 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga695acdfda1d1ac2dfb788797441ae0eb" id="r_ga695acdfda1d1ac2dfb788797441ae0eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5">VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointCloudGroup.html#ga695acdfda1d1ac2dfb788797441ae0eb">MR::makeNormals</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, int avgNeighborhoodSize=3 *<a class="el" href="classMR_1_1AABBTreePoints.html#a797d5bcdfaacbc53e37b10ddac496527">AABBTreePoints::MaxNumPointsInLeaf</a>)</td></tr>
-<tr class="memdesc:ga695acdfda1d1ac2dfb788797441ae0eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes consistent normals for valid points of given point cloud.  <br /></td></tr>
-<tr class="separator:ga695acdfda1d1ac2dfb788797441ae0eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga42d06dcccdf8aba01730bf868b2fec39" id="r_ga42d06dcccdf8aba01730bf868b2fec39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df">VertNormals</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointCloudGroup.html#ga42d06dcccdf8aba01730bf868b2fec39">MR::makeUnorientedNormals</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, float radius, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
+<tr class="memdesc:ga42d06dcccdf8aba01730bf868b2fec39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes normals for valid points of given point cloud by directing them along the normal (in one of two sides arbitrary) of best plane through the neighbours.  <br /></td></tr>
+<tr class="separator:ga42d06dcccdf8aba01730bf868b2fec39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac7146c862a7b70f47e77f3cc3ffc9a23" id="r_gac7146c862a7b70f47e77f3cc3ffc9a23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df">VertNormals</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointCloudGroup.html#gac7146c862a7b70f47e77f3cc3ffc9a23">MR::makeUnorientedNormals</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; &amp;closeVerts, int numNei, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
+<tr class="memdesc:gac7146c862a7b70f47e77f3cc3ffc9a23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes normals for valid points of given point cloud by directing them along the normal (in one of two sides arbitrary) of best plane through the neighbours.  <br /></td></tr>
+<tr class="separator:gac7146c862a7b70f47e77f3cc3ffc9a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac088f8a5d90a98ec6f18e97caca298f2" id="r_gac088f8a5d90a98ec6f18e97caca298f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointCloudGroup.html#gac088f8a5d90a98ec6f18e97caca298f2">MR::orientNormals</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, <a class="el" href="namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df">VertNormals</a> &amp;normals, float radius, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
+<tr class="memdesc:gac088f8a5d90a98ec6f18e97caca298f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select consistent orientation of given normals to make directions of close points consistent;.  <br /></td></tr>
+<tr class="separator:gac088f8a5d90a98ec6f18e97caca298f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga450ad031ccac1e86e9a4f076d1aabd3a" id="r_ga450ad031ccac1e86e9a4f076d1aabd3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointCloudGroup.html#ga450ad031ccac1e86e9a4f076d1aabd3a">MR::orientNormals</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, <a class="el" href="namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df">VertNormals</a> &amp;normals, const <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; &amp;closeVerts, int numNei, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
+<tr class="memdesc:ga450ad031ccac1e86e9a4f076d1aabd3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select consistent orientation of given normals to make directions of close points consistent;.  <br /></td></tr>
+<tr class="separator:ga450ad031ccac1e86e9a4f076d1aabd3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga40da78b08c082b4012d578e9b68e0c69" id="r_ga40da78b08c082b4012d578e9b68e0c69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df">VertNormals</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointCloudGroup.html#ga40da78b08c082b4012d578e9b68e0c69">MR::makeOrientedNormals</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, float radius, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
+<tr class="memdesc:ga40da78b08c082b4012d578e9b68e0c69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes normals for valid points of given point cloud; directions of close points are selected to be consistent;.  <br /></td></tr>
+<tr class="separator:ga40da78b08c082b4012d578e9b68e0c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6d1b190105546ec214cc4ab692ece60e" id="r_ga6d1b190105546ec214cc4ab692ece60e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df">VertNormals</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointCloudGroup.html#ga6d1b190105546ec214cc4ab692ece60e">MR::makeNormals</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, int avgNeighborhoodSize=48)</td></tr>
+<tr class="memdesc:ga6d1b190105546ec214cc4ab692ece60e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes consistent normals for valid points of given point cloud.  <br /></td></tr>
+<tr class="separator:ga6d1b190105546ec214cc4ab692ece60e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4a89d60a46db4f5461bda741c72574eb" id="r_ga4a89d60a46db4f5461bda741c72574eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointCloudGroup.html#ga4a89d60a46db4f5461bda741c72574eb">MR::findAvgPointsRadius</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, int avgPoints)</td></tr>
 <tr class="memdesc:ga4a89d60a46db4f5461bda741c72574eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds radius of ball that avg points in the radius is close to avgPoints parameter.  <br /></td></tr>
 <tr class="separator:ga4a89d60a46db4f5461bda741c72574eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -132,6 +147,10 @@ Functions</h2></td></tr>
 <tr class="separator:ga6aed8553ea931bbcc8e56d557e037f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaae7ea0d5c4d5faf2ee3e02fafc4eff91" id="r_gaae7ea0d5c4d5faf2ee3e02fafc4eff91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointCloudGroup.html#gaae7ea0d5c4d5faf2ee3e02fafc4eff91">MR::pointUniformSampling</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, float <a class="el" href="group__IntersectionGroup.html#ga9f71b2c20cd6a91f42d8d76dbc038190">distance</a>, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="separator:gaae7ea0d5c4d5faf2ee3e02fafc4eff91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa54a2ee61c817b3333dd542851ffc83b" id="r_gaa54a2ee61c817b3333dd542851ffc83b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointCloudGroup.html#gaa54a2ee61c817b3333dd542851ffc83b">MR::pointRegularUniformSampling</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, float <a class="el" href="group__IntersectionGroup.html#ga9f71b2c20cd6a91f42d8d76dbc038190">distance</a>, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:gaa54a2ee61c817b3333dd542851ffc83b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac8164b0109c1c421828cd4005a31043a" id="r_gac8164b0109c1c421828cd4005a31043a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointCloudGroup.html#gac8164b0109c1c421828cd4005a31043a">MR::makeUniformSampledCloud</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, float <a class="el" href="group__IntersectionGroup.html#ga9f71b2c20cd6a91f42d8d76dbc038190">distance</a>, const <a class="el" href="namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df">VertNormals</a> *extNormals=nullptr, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:gac8164b0109c1c421828cd4005a31043a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -165,14 +184,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga695acdfda1d1ac2dfb788797441ae0eb" name="ga695acdfda1d1ac2dfb788797441ae0eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga695acdfda1d1ac2dfb788797441ae0eb">&#9670;&#160;</a></span>makeNormals()</h2>
+<a id="ga6d1b190105546ec214cc4ab692ece60e" name="ga6d1b190105546ec214cc4ab692ece60e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6d1b190105546ec214cc4ab692ece60e">&#9670;&#160;</a></span>makeNormals()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5">VertCoords</a> MR::makeNormals </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df">VertNormals</a> MR::makeNormals </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;&#160;</td>
           <td class="paramname"><em>pointCloud</em>, </td>
@@ -181,7 +200,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>avgNeighborhoodSize</em> = <code>3&#160;*<a class="el" href="classMR_1_1AABBTreePoints.html#a797d5bcdfaacbc53e37b10ddac496527">AABBTreePoints::MaxNumPointsInLeaf</a></code>&#160;</td>
+          <td class="paramname"><em>avgNeighborhoodSize</em> = <code>48</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -198,6 +217,326 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ga40da78b08c082b4012d578e9b68e0c69" name="ga40da78b08c082b4012d578e9b68e0c69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga40da78b08c082b4012d578e9b68e0c69">&#9670;&#160;</a></span>makeOrientedNormals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df">VertNormals</a> &gt; MR::makeOrientedNormals </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;&#160;</td>
+          <td class="paramname"><em>pointCloud</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;&#160;</td>
+          <td class="paramname"><em>progress</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Makes normals for valid points of given point cloud; directions of close points are selected to be consistent;. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">radius</td><td>of neighborhood to consider </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>nullopt if progress returned false </dd></dl>
+
+</div>
+</div>
+<a id="gac8164b0109c1c421828cd4005a31043a" name="gac8164b0109c1c421828cd4005a31043a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac8164b0109c1c421828cd4005a31043a">&#9670;&#160;</a></span>makeUniformSampledCloud()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; MR::makeUniformSampledCloud </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;&#160;</td>
+          <td class="paramname"><em>pointCloud</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>distance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df">VertNormals</a> *&#160;</td>
+          <td class="paramname"><em>extNormals</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;&#160;</td>
+          <td class="paramname"><em>cb</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Composes new point cloud consisting of uniform samples of original point cloud; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">extNormals</td><td>if given then they will be copied in new point cloud returns std::nullopt if it was terminated by the callback </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gac7146c862a7b70f47e77f3cc3ffc9a23" name="gac7146c862a7b70f47e77f3cc3ffc9a23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac7146c862a7b70f47e77f3cc3ffc9a23">&#9670;&#160;</a></span>makeUnorientedNormals() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df">VertNormals</a> &gt; MR::makeUnorientedNormals </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;&#160;</td>
+          <td class="paramname"><em>pointCloud</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>closeVerts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numNei</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;&#160;</td>
+          <td class="paramname"><em>progress</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Makes normals for valid points of given point cloud by directing them along the normal (in one of two sides arbitrary) of best plane through the neighbours. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">closeVerts</td><td>a buffer where for every valid point #i its neighbours are stored at indices [i*numNei; (i+1)*numNei) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>nullopt if progress returned false </dd></dl>
+
+</div>
+</div>
+<a id="ga42d06dcccdf8aba01730bf868b2fec39" name="ga42d06dcccdf8aba01730bf868b2fec39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga42d06dcccdf8aba01730bf868b2fec39">&#9670;&#160;</a></span>makeUnorientedNormals() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df">VertNormals</a> &gt; MR::makeUnorientedNormals </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;&#160;</td>
+          <td class="paramname"><em>pointCloud</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;&#160;</td>
+          <td class="paramname"><em>progress</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Makes normals for valid points of given point cloud by directing them along the normal (in one of two sides arbitrary) of best plane through the neighbours. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">radius</td><td>of neighborhood to consider </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>nullopt if progress returned false </dd></dl>
+
+</div>
+</div>
+<a id="ga450ad031ccac1e86e9a4f076d1aabd3a" name="ga450ad031ccac1e86e9a4f076d1aabd3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga450ad031ccac1e86e9a4f076d1aabd3a">&#9670;&#160;</a></span>orientNormals() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::orientNormals </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;&#160;</td>
+          <td class="paramname"><em>pointCloud</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df">VertNormals</a> &amp;&#160;</td>
+          <td class="paramname"><em>normals</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>closeVerts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numNei</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;&#160;</td>
+          <td class="paramname"><em>progress</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select consistent orientation of given normals to make directions of close points consistent;. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">closeVerts</td><td>a buffer where for every valid point #i its neighbours are stored at indices [i*numNei; (i+1)*numNei) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>false if progress returned false </dd></dl>
+
+</div>
+</div>
+<a id="gac088f8a5d90a98ec6f18e97caca298f2" name="gac088f8a5d90a98ec6f18e97caca298f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac088f8a5d90a98ec6f18e97caca298f2">&#9670;&#160;</a></span>orientNormals() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::orientNormals </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;&#160;</td>
+          <td class="paramname"><em>pointCloud</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df">VertNormals</a> &amp;&#160;</td>
+          <td class="paramname"><em>normals</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;&#160;</td>
+          <td class="paramname"><em>progress</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select consistent orientation of given normals to make directions of close points consistent;. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">radius</td><td>of neighborhood to consider </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>false if progress returned false </dd></dl>
+
+</div>
+</div>
+<a id="gaa54a2ee61c817b3333dd542851ffc83b" name="gaa54a2ee61c817b3333dd542851ffc83b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa54a2ee61c817b3333dd542851ffc83b">&#9670;&#160;</a></span>pointRegularUniformSampling()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &gt; MR::pointRegularUniformSampling </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;&#160;</td>
+          <td class="paramname"><em>pointCloud</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>distance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;&#160;</td>
+          <td class="paramname"><em>cb</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sample vertices, removing ones that are too close; may take longer than <a class="el" href="group__PointCloudGroup.html#gaae7ea0d5c4d5faf2ee3e02fafc4eff91">MR::pointUniformSampling</a> but return more regular distribution returns std::nullopt if it was terminated by the callback </p>
 
 </div>
 </div>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: Surface Path</title>
+<title>MeshLib: Surface Paths</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -98,15 +98,14 @@ $(document).ready(function(){initNavTree('group__SurfacePathGroup.html',''); ini
 
 <div class="header">
   <div class="summary">
-<a href="#groups">Modules</a>  </div>
-  <div class="headertitle"><div class="title">Surface Path</div></div>
+<a href="#groups">Modules</a> &#124;
+<a href="#nested-classes">Classes</a>  </div>
+  <div class="headertitle"><div class="title">Surface Paths</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="groups" name="groups"></a>
 Modules</h2></td></tr>
-<tr class="memitem:group__EdgePathsGroup" id="r_group__EdgePathsGroup"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EdgePathsGroup.html">Edge Paths</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group__PlanarPathGroup" id="r_group__PlanarPathGroup"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PlanarPathGroup.html">Planar Path</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group__SurfaceDistanceGroup" id="r_group__SurfaceDistanceGroup"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceGroup.html">Surface Distance</a></td></tr>
@@ -117,8 +116,1808 @@ Modules</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group__TunnelDetectorGroup" id="r_group__TunnelDetectorGroup"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__TunnelDetectorGroup.html">Tunnel Detector</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VertPathInfo.html">MR::VertPathInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">information associated with each vertex by the paths builder  <a href="structMR_1_1VertPathInfo.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad2c254a94a3837629d1540a9a1aeda9f" id="r_gad2c254a94a3837629d1540a9a1aeda9f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">MR::EdgeMetric</a> = std::function&lt; float(<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>)&gt;</td></tr>
+<tr class="memdesc:gad2c254a94a3837629d1540a9a1aeda9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">a function that maps an edge to a floating-point value  <br /></td></tr>
+<tr class="separator:gad2c254a94a3837629d1540a9a1aeda9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadd9e6c77ae3fdf22797b82342a1ee1f3" id="r_gadd9e6c77ae3fdf22797b82342a1ee1f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gadd9e6c77ae3fdf22797b82342a1ee1f3">MR::identityMetric</a> ()</td></tr>
+<tr class="memdesc:gadd9e6c77ae3fdf22797b82342a1ee1f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">metric returning 1 for every edge  <br /></td></tr>
+<tr class="separator:gadd9e6c77ae3fdf22797b82342a1ee1f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab0c6bfd4f01e28a6c034a2195143e410" id="r_gab0c6bfd4f01e28a6c034a2195143e410"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gab0c6bfd4f01e28a6c034a2195143e410">MR::edgeLengthMetric</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="memdesc:gab0c6bfd4f01e28a6c034a2195143e410"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns edge's length as a metric  <br /></td></tr>
+<tr class="separator:gab0c6bfd4f01e28a6c034a2195143e410"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae4866fbd4ec0921d6eed211cbef0e8aa" id="r_gae4866fbd4ec0921d6eed211cbef0e8aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gae4866fbd4ec0921d6eed211cbef0e8aa">MR::discreteAbsMeanCurvatureMetric</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="separator:gae4866fbd4ec0921d6eed211cbef0e8aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8e15c502056407a36c6d495799f0aa7d" id="r_ga8e15c502056407a36c6d495799f0aa7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga8e15c502056407a36c6d495799f0aa7d">MR::discreteMinusAbsMeanCurvatureMetric</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="separator:ga8e15c502056407a36c6d495799f0aa7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga215f966d7ad4e48210e0de178cb43a06" id="r_ga215f966d7ad4e48210e0de178cb43a06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga215f966d7ad4e48210e0de178cb43a06">MR::edgeCurvMetric</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, float angleSinFactor=2, float angleSinForBoundary=0)</td></tr>
+<tr class="separator:ga215f966d7ad4e48210e0de178cb43a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga92e1133b735a94c3b261a754eda1d12a" id="r_ga92e1133b735a94c3b261a754eda1d12a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga92e1133b735a94c3b261a754eda1d12a">MR::edgeTableMetric</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;metric)</td></tr>
+<tr class="memdesc:ga92e1133b735a94c3b261a754eda1d12a"><td class="mdescLeft">&#160;</td><td class="mdescRight">pre-computes the metric for all mesh edges to quickly return it later for any edge  <br /></td></tr>
+<tr class="separator:ga92e1133b735a94c3b261a754eda1d12a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7a492156b75bdd4b9dd72acc28ef2b3e" id="r_ga7a492156b75bdd4b9dd72acc28ef2b3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga7a492156b75bdd4b9dd72acc28ef2b3e">MR::isEdgePath</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; &amp;edges)</td></tr>
+<tr class="memdesc:ga7a492156b75bdd4b9dd72acc28ef2b3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if every next edge starts where previous edge ends  <br /></td></tr>
+<tr class="separator:ga7a492156b75bdd4b9dd72acc28ef2b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf669cb8f71c0282ec6c839e2e481dc64" id="r_gaf669cb8f71c0282ec6c839e2e481dc64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gaf669cb8f71c0282ec6c839e2e481dc64">MR::isEdgeLoop</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; &amp;edges)</td></tr>
+<tr class="memdesc:gaf669cb8f71c0282ec6c839e2e481dc64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <a class="el" href="group__SurfacePathGroup.html#ga7a492156b75bdd4b9dd72acc28ef2b3e">isEdgePath</a>, but start vertex coincide with finish vertex.  <br /></td></tr>
+<tr class="separator:gaf669cb8f71c0282ec6c839e2e481dc64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5ae89c778fe01228f20aa52aa2e160d0" id="r_ga5ae89c778fe01228f20aa52aa2e160d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga5ae89c778fe01228f20aa52aa2e160d0">MR::reverse</a> (<a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &amp;path)</td></tr>
+<tr class="separator:ga5ae89c778fe01228f20aa52aa2e160d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0f7d06cbd7188f3681347a12699a9cba" id="r_ga0f7d06cbd7188f3681347a12699a9cba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga0f7d06cbd7188f3681347a12699a9cba">MR::reverse</a> (std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &gt; &amp;paths)</td></tr>
+<tr class="memdesc:ga0f7d06cbd7188f3681347a12699a9cba"><td class="mdescLeft">&#160;</td><td class="mdescRight">reverse every path in the vector  <br /></td></tr>
+<tr class="separator:ga0f7d06cbd7188f3681347a12699a9cba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga43a4b5c66e820cc90b986a3bfb4c1998" id="r_ga43a4b5c66e820cc90b986a3bfb4c1998"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga43a4b5c66e820cc90b986a3bfb4c1998">MR::calcPathMetric</a> (const <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &amp;path, <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> metric)</td></tr>
+<tr class="memdesc:ga43a4b5c66e820cc90b986a3bfb4c1998"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes summed metric of all edges in the path  <br /></td></tr>
+<tr class="separator:ga43a4b5c66e820cc90b986a3bfb4c1998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1792643322d571922601c7286a802f51" id="r_ga1792643322d571922601c7286a802f51"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga1792643322d571922601c7286a802f51">MR::calcPathLength</a> (const <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &amp;path, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="separator:ga1792643322d571922601c7286a802f51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga643c38e76bdce5259ec5ad2f58826699" id="r_ga643c38e76bdce5259ec5ad2f58826699"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#acdf274ca41944bedb1adac9e432d5f5c">Vector3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga643c38e76bdce5259ec5ad2f58826699">MR::calcOrientedArea</a> (const <a class="el" href="namespaceMR.html#aee05ada6f56e0075cc157732cae41543">EdgeLoop</a> &amp;loop, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="separator:ga643c38e76bdce5259ec5ad2f58826699"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf24c647cf0c2aef3425702344a341d55" id="r_gaf24c647cf0c2aef3425702344a341d55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gaf24c647cf0c2aef3425702344a341d55">MR::sortPathsByMetric</a> (std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &gt; &amp;paths, <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> metric)</td></tr>
+<tr class="memdesc:gaf24c647cf0c2aef3425702344a341d55"><td class="mdescLeft">&#160;</td><td class="mdescRight">sorts given paths in ascending order of their metrics  <br /></td></tr>
+<tr class="separator:gaf24c647cf0c2aef3425702344a341d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaabc40dcee3ba22d445c0f838f170d549" id="r_gaabc40dcee3ba22d445c0f838f170d549"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gaabc40dcee3ba22d445c0f838f170d549">MR::sortPathsByLength</a> (std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &gt; &amp;paths, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="separator:gaabc40dcee3ba22d445c0f838f170d549"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab0db7342678536825cb6b3bff51d832d" id="r_gab0db7342678536825cb6b3bff51d832d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gab0db7342678536825cb6b3bff51d832d">MR::addLeftBand</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="namespaceMR.html#aee05ada6f56e0075cc157732cae41543">EdgeLoop</a> &amp;loop, <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;addHere)</td></tr>
+<tr class="memdesc:gab0db7342678536825cb6b3bff51d832d"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds all faces incident to loop vertices and located to the left from the loop to given FaceBitSet  <br /></td></tr>
+<tr class="separator:gab0db7342678536825cb6b3bff51d832d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4ef10460976331354fd6633529b31b3f" id="r_ga4ef10460976331354fd6633529b31b3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga4ef10460976331354fd6633529b31b3f">MR::buildShortestPath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> start, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> finish, float maxPathLen=FLT_MAX)</td></tr>
+<tr class="separator:ga4ef10460976331354fd6633529b31b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8611d32ddf9b64606412154e843658b3" id="r_ga8611d32ddf9b64606412154e843658b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga8611d32ddf9b64606412154e843658b3">MR::buildShortestPathBiDir</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> start, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> finish, float maxPathLen=FLT_MAX)</td></tr>
+<tr class="separator:ga8611d32ddf9b64606412154e843658b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga406af44e44bb84c41cc380a6ecedc6af" id="r_ga406af44e44bb84c41cc380a6ecedc6af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga406af44e44bb84c41cc380a6ecedc6af">MR::buildShortestPathBiDir</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;finish, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> *outPathStart=nullptr, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> *outPathFinish=nullptr, float maxPathLen=FLT_MAX)</td></tr>
+<tr class="separator:ga406af44e44bb84c41cc380a6ecedc6af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab942014729767c2449b988a793eea5a7" id="r_gab942014729767c2449b988a793eea5a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gab942014729767c2449b988a793eea5a7">MR::buildShortestPathAStar</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> start, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> finish, float maxPathLen=FLT_MAX)</td></tr>
+<tr class="separator:gab942014729767c2449b988a793eea5a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadb5f50d4c624b947f1cce23f36c65361" id="r_gadb5f50d4c624b947f1cce23f36c65361"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gadb5f50d4c624b947f1cce23f36c65361">MR::buildShortestPathAStar</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;finish, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> *outPathStart=nullptr, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> *outPathFinish=nullptr, float maxPathLen=FLT_MAX)</td></tr>
+<tr class="separator:gadb5f50d4c624b947f1cce23f36c65361"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadb0985d5186608aa8786111eead3c759" id="r_gadb0985d5186608aa8786111eead3c759"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gadb0985d5186608aa8786111eead3c759">MR::buildShortestPath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> start, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;finish, float maxPathLen=FLT_MAX)</td></tr>
+<tr class="memdesc:gadb0985d5186608aa8786111eead3c759"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds shortest path in euclidean metric from start to finish vertices; if no path can be found then empty path is returned  <br /></td></tr>
+<tr class="separator:gadb0985d5186608aa8786111eead3c759"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga849a027d86e0a30b1a32b629a14f74f3" id="r_ga849a027d86e0a30b1a32b629a14f74f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga849a027d86e0a30b1a32b629a14f74f3">MR::buildSmallestMetricPath</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;metric, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> start, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> finish, float maxPathMetric=FLT_MAX)</td></tr>
+<tr class="memdesc:ga849a027d86e0a30b1a32b629a14f74f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds shortest path in given metric from start to finish vertices; if no path can be found then empty path is returned  <br /></td></tr>
+<tr class="separator:ga849a027d86e0a30b1a32b629a14f74f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga31d65cbf03d734606eecb79ae37c605c" id="r_ga31d65cbf03d734606eecb79ae37c605c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga31d65cbf03d734606eecb79ae37c605c">MR::buildSmallestMetricPathBiDir</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;metric, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> start, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> finish, float maxPathMetric=FLT_MAX)</td></tr>
+<tr class="separator:ga31d65cbf03d734606eecb79ae37c605c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf64ac38f04f25f28a4a46ae2fc06ff8a" id="r_gaf64ac38f04f25f28a4a46ae2fc06ff8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gaf64ac38f04f25f28a4a46ae2fc06ff8a">MR::buildSmallestMetricPathBiDir</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;metric, const <a class="el" href="structMR_1_1TerminalVertex.html">TerminalVertex</a> *starts, int numStarts, const <a class="el" href="structMR_1_1TerminalVertex.html">TerminalVertex</a> *finishes, int numFinishes, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> *outPathStart=nullptr, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> *outPathFinish=nullptr, float maxPathMetric=FLT_MAX)</td></tr>
+<tr class="separator:gaf64ac38f04f25f28a4a46ae2fc06ff8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae74cdeb663c4f5c46bb0107a8b1b5c47" id="r_gae74cdeb663c4f5c46bb0107a8b1b5c47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gae74cdeb663c4f5c46bb0107a8b1b5c47">MR::buildSmallestMetricPath</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;metric, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> start, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;finish, float maxPathMetric=FLT_MAX)</td></tr>
+<tr class="memdesc:gae74cdeb663c4f5c46bb0107a8b1b5c47"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds shortest path in given metric from start to finish vertices; if no path can be found then empty path is returned  <br /></td></tr>
+<tr class="separator:gae74cdeb663c4f5c46bb0107a8b1b5c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6fdee8dc184f919e5ad6ef399faf48ba" id="r_ga6fdee8dc184f919e5ad6ef399faf48ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga6fdee8dc184f919e5ad6ef399faf48ba">MR::getVertexOrdering</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> region)</td></tr>
+<tr class="memdesc:ga6fdee8dc184f919e5ad6ef399faf48ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all vertices from given region ordered in each connected component in breadth-first way  <br /></td></tr>
+<tr class="separator:ga6fdee8dc184f919e5ad6ef399faf48ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad555d8d4c714e8afe8e6254a6a671f0c" id="r_gad555d8d4c714e8afe8e6254a6a671f0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#aee05ada6f56e0075cc157732cae41543">EdgeLoop</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gad555d8d4c714e8afe8e6254a6a671f0c">MR::extractClosedLoops</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="namespaceMR.html#afa52f737f1695a9866b22a30a29aefba">EdgeBitSet</a> &amp;edges)</td></tr>
+<tr class="memdesc:gad555d8d4c714e8afe8e6254a6a671f0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all closed loops from given edges and removes them from edges  <br /></td></tr>
+<tr class="separator:gad555d8d4c714e8afe8e6254a6a671f0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa78455fdb147a0790b3838d7d30344f0" id="r_gaa78455fdb147a0790b3838d7d30344f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#aee05ada6f56e0075cc157732cae41543">EdgeLoop</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gaa78455fdb147a0790b3838d7d30344f0">MR::extractClosedLoops</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; &amp;inEdges, <a class="el" href="namespaceMR.html#afa52f737f1695a9866b22a30a29aefba">EdgeBitSet</a> *outNotLoopEdges=nullptr)</td></tr>
+<tr class="separator:gaa78455fdb147a0790b3838d7d30344f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae2366000776e2dc3664a7940a93576b2" id="r_gae2366000776e2dc3664a7940a93576b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#aee05ada6f56e0075cc157732cae41543">EdgeLoop</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gae2366000776e2dc3664a7940a93576b2">MR::extractLongestClosedLoop</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; &amp;inEdges)</td></tr>
+<tr class="separator:gae2366000776e2dc3664a7940a93576b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga66d97db02721f28995b008655b007858" id="r_ga66d97db02721f28995b008655b007858"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga66d97db02721f28995b008655b007858">MR::dilateRegionByMetric</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;metric, <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;region, float dilation, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="memdesc:ga66d97db02721f28995b008655b007858"><td class="mdescLeft">&#160;</td><td class="mdescRight">expands the region (of faces or vertices) on given metric value. returns false if callback also returns false  <br /></td></tr>
+<tr class="separator:ga66d97db02721f28995b008655b007858"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga82a5afb8de3902550a10da9e2444b423" id="r_ga82a5afb8de3902550a10da9e2444b423"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga82a5afb8de3902550a10da9e2444b423">MR::dilateRegionByMetric</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;metric, <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;region, float dilation, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="separator:ga82a5afb8de3902550a10da9e2444b423"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga171493fcbadfb73a4d6a78c595e3bf3f" id="r_ga171493fcbadfb73a4d6a78c595e3bf3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga171493fcbadfb73a4d6a78c595e3bf3f">MR::dilateRegionByMetric</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;metric, <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;region, float dilation, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="separator:ga171493fcbadfb73a4d6a78c595e3bf3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8bfca4b235df879903041464da622e0c" id="r_ga8bfca4b235df879903041464da622e0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga8bfca4b235df879903041464da622e0c">MR::erodeRegionByMetric</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;metric, <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;region, float dilation, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="memdesc:ga8bfca4b235df879903041464da622e0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">shrinks the region (of faces or vertices) on given metric value. returns false if callback also returns false  <br /></td></tr>
+<tr class="separator:ga8bfca4b235df879903041464da622e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab0aae6697459423bfb236b1913b86cc0" id="r_gab0aae6697459423bfb236b1913b86cc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gab0aae6697459423bfb236b1913b86cc0">MR::erodeRegionByMetric</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;metric, <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;region, float dilation, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="separator:gab0aae6697459423bfb236b1913b86cc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad0a3f4dc474226d76e45efc5f9f7f5e3" id="r_gad0a3f4dc474226d76e45efc5f9f7f5e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gad0a3f4dc474226d76e45efc5f9f7f5e3">MR::erodeRegionByMetric</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;metric, <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;region, float dilation, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="separator:gad0a3f4dc474226d76e45efc5f9f7f5e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabe8914755de31512300888af93f5142a" id="r_gabe8914755de31512300888af93f5142a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gabe8914755de31512300888af93f5142a">MR::dilateRegion</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;region, float dilation, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="memdesc:gabe8914755de31512300888af93f5142a"><td class="mdescLeft">&#160;</td><td class="mdescRight">expands the region (of faces or vertices) on given value (in meters). returns false if callback also returns false  <br /></td></tr>
+<tr class="separator:gabe8914755de31512300888af93f5142a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad7e5077703f4e9c731d3ca01a996ced1" id="r_gad7e5077703f4e9c731d3ca01a996ced1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gad7e5077703f4e9c731d3ca01a996ced1">MR::dilateRegion</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;region, float dilation, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="separator:gad7e5077703f4e9c731d3ca01a996ced1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3692c19cc12b5dbfb793357c24f48a3c" id="r_ga3692c19cc12b5dbfb793357c24f48a3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga3692c19cc12b5dbfb793357c24f48a3c">MR::dilateRegion</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;region, float dilation, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="separator:ga3692c19cc12b5dbfb793357c24f48a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab00d0047df6c6bddad2ce44ad87eecb0" id="r_gab00d0047df6c6bddad2ce44ad87eecb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gab00d0047df6c6bddad2ce44ad87eecb0">MR::erodeRegion</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;region, float dilation, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="memdesc:gab00d0047df6c6bddad2ce44ad87eecb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">shrinks the region (of faces or vertices) on given value (in meters). returns false if callback also returns false  <br /></td></tr>
+<tr class="separator:gab00d0047df6c6bddad2ce44ad87eecb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8cc6869db37a7f25eab14ffe0f83f4e8" id="r_ga8cc6869db37a7f25eab14ffe0f83f4e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga8cc6869db37a7f25eab14ffe0f83f4e8">MR::erodeRegion</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;region, float dilation, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="separator:ga8cc6869db37a7f25eab14ffe0f83f4e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga49b66a35e3e4f02f4034d338471be491" id="r_ga49b66a35e3e4f02f4034d338471be491"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga49b66a35e3e4f02f4034d338471be491">MR::erodeRegion</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;region, float dilation, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="separator:ga49b66a35e3e4f02f4034d338471be491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6e5b3c68fdd285e2d6000b6a83bf9ecd" id="r_ga6e5b3c68fdd285e2d6000b6a83bf9ecd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga6e5b3c68fdd285e2d6000b6a83bf9ecd">MR::getPathPlaneIntersections</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &amp;path, const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">Plane3f</a> &amp;plane, std::vector&lt; <a class="el" href="namespaceMR.html#abb8769b04d42ac01c6844c688f855da9">MeshEdgePoint</a> &gt; *outIntersections=nullptr)</td></tr>
+<tr class="memdesc:ga6e5b3c68fdd285e2d6000b6a83bf9ecd"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all intersection points between given path and plane, adds them in outIntersections and returns their number  <br /></td></tr>
+<tr class="separator:ga6e5b3c68fdd285e2d6000b6a83bf9ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0fe533dcbd844a89077b18ebd4dda8fe" id="r_ga0fe533dcbd844a89077b18ebd4dda8fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga0fe533dcbd844a89077b18ebd4dda8fe">MR::getPathEdgesInPlane</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &amp;path, const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">Plane3f</a> &amp;plane, float tolerance=0.0f, std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; *outInPlaneEdges=nullptr)</td></tr>
+<tr class="memdesc:ga0fe533dcbd844a89077b18ebd4dda8fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all path edges located in given plane with given tolerance, adds them in outInPlaneEdges and returns their number  <br /></td></tr>
+<tr class="separator:ga0fe533dcbd844a89077b18ebd4dda8fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="gad2c254a94a3837629d1540a9a1aeda9f" name="gad2c254a94a3837629d1540a9a1aeda9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad2c254a94a3837629d1540a9a1aeda9f">&#9670;&#160;</a></span>EdgeMetric</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">MR::EdgeMetric</a> = typedef std::function&lt;float( <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> )&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>a function that maps an edge to a floating-point value </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="gab0db7342678536825cb6b3bff51d832d" name="gab0db7342678536825cb6b3bff51d832d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab0db7342678536825cb6b3bff51d832d">&#9670;&#160;</a></span>addLeftBand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::addLeftBand </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#aee05ada6f56e0075cc157732cae41543">EdgeLoop</a> &amp;&#160;</td>
+          <td class="paramname"><em>loop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>addHere</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>adds all faces incident to loop vertices and located to the left from the loop to given FaceBitSet </p>
+
+</div>
+</div>
+<a id="gadb0985d5186608aa8786111eead3c759" name="gadb0985d5186608aa8786111eead3c759"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadb0985d5186608aa8786111eead3c759">&#9670;&#160;</a></span>buildShortestPath() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> MR::buildShortestPath </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>finish</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxPathLen</em> = <code>FLT_MAX</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>builds shortest path in euclidean metric from start to finish vertices; if no path can be found then empty path is returned </p>
+
+</div>
+</div>
+<a id="ga4ef10460976331354fd6633529b31b3f" name="ga4ef10460976331354fd6633529b31b3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4ef10460976331354fd6633529b31b3f">&#9670;&#160;</a></span>buildShortestPath() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> MR::buildShortestPath </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td>
+          <td class="paramname"><em>finish</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxPathLen</em> = <code>FLT_MAX</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the shortest path in euclidean metric from start to finish vertices using Dijkstra algorithm; if no path can be found then empty path is returned </p>
+
+</div>
+</div>
+<a id="gadb5f50d4c624b947f1cce23f36c65361" name="gadb5f50d4c624b947f1cce23f36c65361"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadb5f50d4c624b947f1cce23f36c65361">&#9670;&#160;</a></span>buildShortestPathAStar() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> MR::buildShortestPathAStar </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>finish</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> *&#160;</td>
+          <td class="paramname"><em>outPathStart</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> *&#160;</td>
+          <td class="paramname"><em>outPathFinish</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxPathLen</em> = <code>FLT_MAX</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the path from a vertex in start-triangle to a vertex in finish-triangle, so that the length start-first_vertex-...-last_vertex-finish is shortest in euclidean metric; using A* modification of Dijkstra algorithm, which is faster for near linear path; if no path can be found then empty path is returned </p>
+
+</div>
+</div>
+<a id="gab942014729767c2449b988a793eea5a7" name="gab942014729767c2449b988a793eea5a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab942014729767c2449b988a793eea5a7">&#9670;&#160;</a></span>buildShortestPathAStar() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> MR::buildShortestPathAStar </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td>
+          <td class="paramname"><em>finish</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxPathLen</em> = <code>FLT_MAX</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the shortest path in euclidean metric from start to finish vertices using A* modification of Dijkstra algorithm, which is faster for near linear path; if no path can be found then empty path is returned </p>
+
+</div>
+</div>
+<a id="ga406af44e44bb84c41cc380a6ecedc6af" name="ga406af44e44bb84c41cc380a6ecedc6af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga406af44e44bb84c41cc380a6ecedc6af">&#9670;&#160;</a></span>buildShortestPathBiDir() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> MR::buildShortestPathBiDir </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>finish</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> *&#160;</td>
+          <td class="paramname"><em>outPathStart</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> *&#160;</td>
+          <td class="paramname"><em>outPathFinish</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxPathLen</em> = <code>FLT_MAX</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the path from a vertex in start-triangle to a vertex in finish-triangle, so that the length start-first_vertex-...-last_vertex-finish is shortest in euclidean metric; using bidirectional modification of Dijkstra algorithm, constructing the path simultaneously from both start and finish, which is faster for long paths; if no path can be found then empty path is returned </p>
+
+</div>
+</div>
+<a id="ga8611d32ddf9b64606412154e843658b3" name="ga8611d32ddf9b64606412154e843658b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8611d32ddf9b64606412154e843658b3">&#9670;&#160;</a></span>buildShortestPathBiDir() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> MR::buildShortestPathBiDir </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td>
+          <td class="paramname"><em>finish</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxPathLen</em> = <code>FLT_MAX</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the shortest path in euclidean metric from start to finish vertices using bidirectional modification of Dijkstra algorithm, constructing the path simultaneously from both start and finish, which is faster for long paths; if no path can be found then empty path is returned </p>
+
+</div>
+</div>
+<a id="gae74cdeb663c4f5c46bb0107a8b1b5c47" name="gae74cdeb663c4f5c46bb0107a8b1b5c47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae74cdeb663c4f5c46bb0107a8b1b5c47">&#9670;&#160;</a></span>buildSmallestMetricPath() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> MR::buildSmallestMetricPath </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;&#160;</td>
+          <td class="paramname"><em>metric</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>finish</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxPathMetric</em> = <code>FLT_MAX</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>builds shortest path in given metric from start to finish vertices; if no path can be found then empty path is returned </p>
+
+</div>
+</div>
+<a id="ga849a027d86e0a30b1a32b629a14f74f3" name="ga849a027d86e0a30b1a32b629a14f74f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga849a027d86e0a30b1a32b629a14f74f3">&#9670;&#160;</a></span>buildSmallestMetricPath() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> MR::buildSmallestMetricPath </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;&#160;</td>
+          <td class="paramname"><em>metric</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td>
+          <td class="paramname"><em>finish</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxPathMetric</em> = <code>FLT_MAX</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>builds shortest path in given metric from start to finish vertices; if no path can be found then empty path is returned </p>
+
+</div>
+</div>
+<a id="gaf64ac38f04f25f28a4a46ae2fc06ff8a" name="gaf64ac38f04f25f28a4a46ae2fc06ff8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf64ac38f04f25f28a4a46ae2fc06ff8a">&#9670;&#160;</a></span>buildSmallestMetricPathBiDir() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> MR::buildSmallestMetricPathBiDir </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;&#160;</td>
+          <td class="paramname"><em>metric</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TerminalVertex.html">TerminalVertex</a> *&#160;</td>
+          <td class="paramname"><em>starts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numStarts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TerminalVertex.html">TerminalVertex</a> *&#160;</td>
+          <td class="paramname"><em>finishes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numFinishes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> *&#160;</td>
+          <td class="paramname"><em>outPathStart</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> *&#160;</td>
+          <td class="paramname"><em>outPathFinish</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxPathMetric</em> = <code>FLT_MAX</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the smallest metric path from one of start vertices to one of the finish vertices, using bidirectional modification of Dijkstra algorithm, constructing the path simultaneously from both starts and finishes, which is faster for long paths; if no path can be found then empty path is returned </p>
+
+</div>
+</div>
+<a id="ga31d65cbf03d734606eecb79ae37c605c" name="ga31d65cbf03d734606eecb79ae37c605c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga31d65cbf03d734606eecb79ae37c605c">&#9670;&#160;</a></span>buildSmallestMetricPathBiDir() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> MR::buildSmallestMetricPathBiDir </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;&#160;</td>
+          <td class="paramname"><em>metric</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td>
+          <td class="paramname"><em>finish</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxPathMetric</em> = <code>FLT_MAX</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the smallest metric path from start vertex to finish vertex, using bidirectional modification of Dijkstra algorithm, constructing the path simultaneously from both start and finish, which is faster for long paths; if no path can be found then empty path is returned </p>
+
+</div>
+</div>
+<a id="ga643c38e76bdce5259ec5ad2f58826699" name="ga643c38e76bdce5259ec5ad2f58826699"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga643c38e76bdce5259ec5ad2f58826699">&#9670;&#160;</a></span>calcOrientedArea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#acdf274ca41944bedb1adac9e432d5f5c">Vector3d</a> MR::calcOrientedArea </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#aee05ada6f56e0075cc157732cae41543">EdgeLoop</a> &amp;&#160;</td>
+          <td class="paramname"><em>loop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the vector with the magnitude equal to the area surrounded by the loop (if the loop is planar), and directed to see the loop in ccw order from the vector tip </p>
+
+</div>
+</div>
+<a id="ga1792643322d571922601c7286a802f51" name="ga1792643322d571922601c7286a802f51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1792643322d571922601c7286a802f51">&#9670;&#160;</a></span>calcPathLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::calcPathLength </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga43a4b5c66e820cc90b986a3bfb4c1998" name="ga43a4b5c66e820cc90b986a3bfb4c1998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga43a4b5c66e820cc90b986a3bfb4c1998">&#9670;&#160;</a></span>calcPathMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> double MR::calcPathMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a>&#160;</td>
+          <td class="paramname"><em>metric</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>computes summed metric of all edges in the path </p>
+
+</div>
+</div>
+<a id="gabe8914755de31512300888af93f5142a" name="gabe8914755de31512300888af93f5142a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabe8914755de31512300888af93f5142a">&#9670;&#160;</a></span>dilateRegion() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::dilateRegion </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>region</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dilation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>expands the region (of faces or vertices) on given value (in meters). returns false if callback also returns false </p>
+
+</div>
+</div>
+<a id="ga3692c19cc12b5dbfb793357c24f48a3c" name="ga3692c19cc12b5dbfb793357c24f48a3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3692c19cc12b5dbfb793357c24f48a3c">&#9670;&#160;</a></span>dilateRegion() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::dilateRegion </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>region</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dilation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gad7e5077703f4e9c731d3ca01a996ced1" name="gad7e5077703f4e9c731d3ca01a996ced1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad7e5077703f4e9c731d3ca01a996ced1">&#9670;&#160;</a></span>dilateRegion() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::dilateRegion </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>region</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dilation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga66d97db02721f28995b008655b007858" name="ga66d97db02721f28995b008655b007858"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga66d97db02721f28995b008655b007858">&#9670;&#160;</a></span>dilateRegionByMetric() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::dilateRegionByMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;&#160;</td>
+          <td class="paramname"><em>metric</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>region</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dilation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>expands the region (of faces or vertices) on given metric value. returns false if callback also returns false </p>
+
+</div>
+</div>
+<a id="ga171493fcbadfb73a4d6a78c595e3bf3f" name="ga171493fcbadfb73a4d6a78c595e3bf3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga171493fcbadfb73a4d6a78c595e3bf3f">&#9670;&#160;</a></span>dilateRegionByMetric() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::dilateRegionByMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;&#160;</td>
+          <td class="paramname"><em>metric</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>region</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dilation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga82a5afb8de3902550a10da9e2444b423" name="ga82a5afb8de3902550a10da9e2444b423"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga82a5afb8de3902550a10da9e2444b423">&#9670;&#160;</a></span>dilateRegionByMetric() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::dilateRegionByMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;&#160;</td>
+          <td class="paramname"><em>metric</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>region</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dilation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gae4866fbd4ec0921d6eed211cbef0e8aa" name="gae4866fbd4ec0921d6eed211cbef0e8aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae4866fbd4ec0921d6eed211cbef0e8aa">&#9670;&#160;</a></span>discreteAbsMeanCurvatureMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> MR::discreteAbsMeanCurvatureMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns edge's absolute discrete mean curvature as a metric; the metric is minimal in the planar regions of mesh </p>
+
+</div>
+</div>
+<a id="ga8e15c502056407a36c6d495799f0aa7d" name="ga8e15c502056407a36c6d495799f0aa7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8e15c502056407a36c6d495799f0aa7d">&#9670;&#160;</a></span>discreteMinusAbsMeanCurvatureMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> MR::discreteMinusAbsMeanCurvatureMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns minus of edge's absolute discrete mean curvature as a metric; the metric is minimal in the most curved regions of mesh </p>
+
+</div>
+</div>
+<a id="ga215f966d7ad4e48210e0de178cb43a06" name="ga215f966d7ad4e48210e0de178cb43a06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga215f966d7ad4e48210e0de178cb43a06">&#9670;&#160;</a></span>edgeCurvMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> MR::edgeCurvMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>angleSinFactor</em> = <code>2</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>angleSinForBoundary</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns edge's metric that depends both on edge's length and on the angle between its left and right faces </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">angleSinFactor</td><td>multiplier before dihedral angle sine in edge metric calculation (positive to prefer concave angles, negative - convex) </td></tr>
+    <tr><td class="paramname">angleSinForBoundary</td><td>consider this dihedral angle sine for boundary edges </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab0c6bfd4f01e28a6c034a2195143e410" name="gab0c6bfd4f01e28a6c034a2195143e410"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab0c6bfd4f01e28a6c034a2195143e410">&#9670;&#160;</a></span>edgeLengthMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> MR::edgeLengthMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns edge's length as a metric </p>
+
+</div>
+</div>
+<a id="ga92e1133b735a94c3b261a754eda1d12a" name="ga92e1133b735a94c3b261a754eda1d12a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga92e1133b735a94c3b261a754eda1d12a">&#9670;&#160;</a></span>edgeTableMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> MR::edgeTableMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;&#160;</td>
+          <td class="paramname"><em>metric</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>pre-computes the metric for all mesh edges to quickly return it later for any edge </p>
+
+</div>
+</div>
+<a id="gab00d0047df6c6bddad2ce44ad87eecb0" name="gab00d0047df6c6bddad2ce44ad87eecb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab00d0047df6c6bddad2ce44ad87eecb0">&#9670;&#160;</a></span>erodeRegion() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::erodeRegion </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>region</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dilation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>shrinks the region (of faces or vertices) on given value (in meters). returns false if callback also returns false </p>
+
+</div>
+</div>
+<a id="ga49b66a35e3e4f02f4034d338471be491" name="ga49b66a35e3e4f02f4034d338471be491"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga49b66a35e3e4f02f4034d338471be491">&#9670;&#160;</a></span>erodeRegion() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::erodeRegion </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>region</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dilation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga8cc6869db37a7f25eab14ffe0f83f4e8" name="ga8cc6869db37a7f25eab14ffe0f83f4e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8cc6869db37a7f25eab14ffe0f83f4e8">&#9670;&#160;</a></span>erodeRegion() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::erodeRegion </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>region</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dilation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga8bfca4b235df879903041464da622e0c" name="ga8bfca4b235df879903041464da622e0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8bfca4b235df879903041464da622e0c">&#9670;&#160;</a></span>erodeRegionByMetric() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::erodeRegionByMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;&#160;</td>
+          <td class="paramname"><em>metric</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d">FaceBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>region</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dilation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>shrinks the region (of faces or vertices) on given metric value. returns false if callback also returns false </p>
+
+</div>
+</div>
+<a id="gad0a3f4dc474226d76e45efc5f9f7f5e3" name="gad0a3f4dc474226d76e45efc5f9f7f5e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad0a3f4dc474226d76e45efc5f9f7f5e3">&#9670;&#160;</a></span>erodeRegionByMetric() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::erodeRegionByMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;&#160;</td>
+          <td class="paramname"><em>metric</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>region</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dilation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gab0aae6697459423bfb236b1913b86cc0" name="gab0aae6697459423bfb236b1913b86cc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab0aae6697459423bfb236b1913b86cc0">&#9670;&#160;</a></span>erodeRegionByMetric() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::erodeRegionByMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> &amp;&#160;</td>
+          <td class="paramname"><em>metric</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>region</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dilation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaa78455fdb147a0790b3838d7d30344f0" name="gaa78455fdb147a0790b3838d7d30344f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa78455fdb147a0790b3838d7d30344f0">&#9670;&#160;</a></span>extractClosedLoops() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#aee05ada6f56e0075cc157732cae41543">EdgeLoop</a> &gt; MR::extractClosedLoops </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>inEdges</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#afa52f737f1695a9866b22a30a29aefba">EdgeBitSet</a> *&#160;</td>
+          <td class="paramname"><em>outNotLoopEdges</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gad555d8d4c714e8afe8e6254a6a671f0c" name="gad555d8d4c714e8afe8e6254a6a671f0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad555d8d4c714e8afe8e6254a6a671f0c">&#9670;&#160;</a></span>extractClosedLoops() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#aee05ada6f56e0075cc157732cae41543">EdgeLoop</a> &gt; MR::extractClosedLoops </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#afa52f737f1695a9866b22a30a29aefba">EdgeBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>edges</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds all closed loops from given edges and removes them from edges </p>
+
+</div>
+</div>
+<a id="gae2366000776e2dc3664a7940a93576b2" name="gae2366000776e2dc3664a7940a93576b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae2366000776e2dc3664a7940a93576b2">&#9670;&#160;</a></span>extractLongestClosedLoop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#aee05ada6f56e0075cc157732cae41543">EdgeLoop</a> MR::extractLongestClosedLoop </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>inEdges</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga0fe533dcbd844a89077b18ebd4dda8fe" name="ga0fe533dcbd844a89077b18ebd4dda8fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0fe533dcbd844a89077b18ebd4dda8fe">&#9670;&#160;</a></span>getPathEdgesInPlane()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int MR::getPathEdgesInPlane </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">Plane3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>plane</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>tolerance</em> = <code>0.0f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; *&#160;</td>
+          <td class="paramname"><em>outInPlaneEdges</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds all path edges located in given plane with given tolerance, adds them in outInPlaneEdges and returns their number </p>
+
+</div>
+</div>
+<a id="ga6e5b3c68fdd285e2d6000b6a83bf9ecd" name="ga6e5b3c68fdd285e2d6000b6a83bf9ecd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6e5b3c68fdd285e2d6000b6a83bf9ecd">&#9670;&#160;</a></span>getPathPlaneIntersections()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int MR::getPathPlaneIntersections </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">Plane3f</a> &amp;&#160;</td>
+          <td class="paramname"><em>plane</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="namespaceMR.html#abb8769b04d42ac01c6844c688f855da9">MeshEdgePoint</a> &gt; *&#160;</td>
+          <td class="paramname"><em>outIntersections</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds all intersection points between given path and plane, adds them in outIntersections and returns their number </p>
+
+</div>
+</div>
+<a id="ga6fdee8dc184f919e5ad6ef399faf48ba" name="ga6fdee8dc184f919e5ad6ef399faf48ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6fdee8dc184f919e5ad6ef399faf48ba">&#9670;&#160;</a></span>getVertexOrdering()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; MR::getVertexOrdering </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a>&#160;</td>
+          <td class="paramname"><em>region</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns all vertices from given region ordered in each connected component in breadth-first way </p>
+
+</div>
+</div>
+<a id="gadd9e6c77ae3fdf22797b82342a1ee1f3" name="gadd9e6c77ae3fdf22797b82342a1ee1f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadd9e6c77ae3fdf22797b82342a1ee1f3">&#9670;&#160;</a></span>identityMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a> MR::identityMetric </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>metric returning 1 for every edge </p>
+
+</div>
+</div>
+<a id="gaf669cb8f71c0282ec6c839e2e481dc64" name="gaf669cb8f71c0282ec6c839e2e481dc64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf669cb8f71c0282ec6c839e2e481dc64">&#9670;&#160;</a></span>isEdgeLoop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::isEdgeLoop </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>edges</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Same as <a class="el" href="group__SurfacePathGroup.html#ga7a492156b75bdd4b9dd72acc28ef2b3e">isEdgePath</a>, but start vertex coincide with finish vertex. </p>
+
+</div>
+</div>
+<a id="ga7a492156b75bdd4b9dd72acc28ef2b3e" name="ga7a492156b75bdd4b9dd72acc28ef2b3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7a492156b75bdd4b9dd72acc28ef2b3e">&#9670;&#160;</a></span>isEdgePath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::isEdgePath </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>edges</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns true if every next edge starts where previous edge ends </p>
+
+</div>
+</div>
+<a id="ga5ae89c778fe01228f20aa52aa2e160d0" name="ga5ae89c778fe01228f20aa52aa2e160d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5ae89c778fe01228f20aa52aa2e160d0">&#9670;&#160;</a></span>reverse() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::reverse </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>reverses the order of edges and flips each edge orientation, thus making the opposite directed edge path </p>
+
+</div>
+</div>
+<a id="ga0f7d06cbd7188f3681347a12699a9cba" name="ga0f7d06cbd7188f3681347a12699a9cba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0f7d06cbd7188f3681347a12699a9cba">&#9670;&#160;</a></span>reverse() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::reverse </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>paths</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>reverse every path in the vector </p>
+
+</div>
+</div>
+<a id="gaabc40dcee3ba22d445c0f838f170d549" name="gaabc40dcee3ba22d445c0f838f170d549"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaabc40dcee3ba22d445c0f838f170d549">&#9670;&#160;</a></span>sortPathsByLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::sortPathsByLength </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>paths</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaf24c647cf0c2aef3425702344a341d55" name="gaf24c647cf0c2aef3425702344a341d55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf24c647cf0c2aef3425702344a341d55">&#9670;&#160;</a></span>sortPathsByMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::sortPathsByMetric </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>paths</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__SurfacePathGroup.html#gad2c254a94a3837629d1540a9a1aeda9f">EdgeMetric</a>&#160;</td>
+          <td class="paramname"><em>metric</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>sorts given paths in ascending order of their metrics </p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

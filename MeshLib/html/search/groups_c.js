@@ -18,6 +18,5 @@ var searchData=
   ['mesh_20segmentation_20overwiev_15',['Mesh Segmentation overwiev',['../group__MeshSegmentationGroup.html',1,'']]],
   ['mesh_20subdivide_16',['Mesh Subdivide',['../group__MeshSubdivideGroup.html',1,'']]],
   ['meshcomponents_17',['MeshComponents',['../group__MeshComponentsGroup.html',1,'']]],
-  ['model_18',['Data Model',['../group__DataModelGroup.html',1,'']]],
-  ['model_20holder_19',['Model Holder',['../group__ModelHolderGroup.html',1,'']]]
+  ['model_18',['Data Model',['../group__DataModelGroup.html',1,'']]]
 ];

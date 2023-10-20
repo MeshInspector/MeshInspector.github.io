@@ -11,6 +11,8 @@ var group__MeshComponentsGroup =
     [ "MR::MeshComponents::getAllComponentsMap", "group__MeshComponentsGroup.html#ga6edee75a884c70eae8830d2684f57731", null ],
     [ "MR::MeshComponents::getAllComponentsVerts", "group__MeshComponentsGroup.html#gacf901304f8dae140ebe581b9fefcf3e8", null ],
     [ "MR::MeshComponents::getAllComponentsVertsSeparatedByPath", "group__MeshComponentsGroup.html#ga2b1d2f430d5544f3129616e7909e2210", null ],
+    [ "MR::MeshComponents::getAllComponentsVertsSeparatedByPaths", "group__MeshComponentsGroup.html#ga04428c18d364e05a14deea6fa9537514", null ],
+    [ "MR::MeshComponents::getAllFlatComponents", "group__MeshComponentsGroup.html#gad2ac5851085b051b22170638c7945cb6", null ],
     [ "MR::MeshComponents::getComponent", "group__MeshComponentsGroup.html#gacb2f12a18a222d322f2e8cb54bd29d69", null ],
     [ "MR::MeshComponents::getComponents", "group__MeshComponentsGroup.html#ga5309af9f9740cbdcfd4e32b65895168b", null ],
     [ "MR::MeshComponents::getComponentsVerts", "group__MeshComponentsGroup.html#gae360882572a82620a889fa7315e143f9", null ],
@@ -27,5 +29,6 @@ var group__MeshComponentsGroup =
     [ "MR::MeshComponents::getUnionFindStructureVerts", "group__MeshComponentsGroup.html#ga0c25b3e3697cc2efad3f13c664fc87ec", null ],
     [ "MR::MeshComponents::getUnionFindStructureVertsEx", "group__MeshComponentsGroup.html#gace26e67d5d5067fe90238bc336ac1101", null ],
     [ "MR::MeshComponents::getUnionFindStructureVertsSeparatedByPath", "group__MeshComponentsGroup.html#ga397973d9e4d6ee73a9d3ceaeb494102a", null ],
+    [ "MR::MeshComponents::getUnionFindStructureVertsSeparatedByPaths", "group__MeshComponentsGroup.html#gaeea1d750f9fa547cc54e67ea7ed92bfb", null ],
     [ "MR::MeshComponents::hasFullySelectedComponent", "group__MeshComponentsGroup.html#gac4401b9655de3a844caf1234d8f453cf", null ]
 ];

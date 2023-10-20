@@ -1,7 +1,7 @@
 var group__PointCloudGroup =
 [
     [ "MR::PointCloud", "structMR_1_1PointCloud.html", [
-      [ "addPartByMask", "structMR_1_1PointCloud.html#aa6950a1538eb4974ba77f2e478f8e328", null ],
+      [ "addPartByMask", "structMR_1_1PointCloud.html#a716cfd2cca1aa745672b8e29077c39fa", null ],
       [ "addPoint", "structMR_1_1PointCloud.html#a78808a7ef1e8232c61b442f9ea9bc9c8", null ],
       [ "addPoint", "structMR_1_1PointCloud.html#ada79e353b7a72ed40a42bc08b60cc225", null ],
       [ "computeBoundingBox", "structMR_1_1PointCloud.html#ac3b1015ea089d93658ff4783c2282c8e", null ],
@@ -11,6 +11,7 @@ var group__PointCloudGroup =
       [ "heapBytes", "structMR_1_1PointCloud.html#a25842b53d739f9841d97e66dd8221d59", null ],
       [ "invalidateCaches", "structMR_1_1PointCloud.html#ab7c257206a284f22b8e2484b87436069", null ],
       [ "mirror", "structMR_1_1PointCloud.html#a74fb469992209dc4114c864cd3cb38a5", null ],
+      [ "pack", "structMR_1_1PointCloud.html#ac0910605ccb60ed6a5dbc543e9e98fe2", null ],
       [ "normals", "structMR_1_1PointCloud.html#a25c1039968a5dc3a24591ac5b74148ad", null ],
       [ "points", "structMR_1_1PointCloud.html#a0da05bf74b7157037f314c884ab018b4", null ],
       [ "validPoints", "structMR_1_1PointCloud.html#a99cd2bd3f8fa8482032603f382ab9a03", null ]
@@ -31,8 +32,15 @@ var group__PointCloudGroup =
       [ "setSurfacePC", "classMR_1_1RegularMapMesher.html#a9ed2cde9e77dce74ecb24b16eb4db785", null ]
     ] ],
     [ "MR::findAvgPointsRadius", "group__PointCloudGroup.html#ga4a89d60a46db4f5461bda741c72574eb", null ],
-    [ "MR::makeNormals", "group__PointCloudGroup.html#ga695acdfda1d1ac2dfb788797441ae0eb", null ],
-    [ "MR::pointUniformSampling", "group__PointCloudGroup.html#ga4cbd5bab206407c7f5f9b2fed9456bcd", null ],
+    [ "MR::makeNormals", "group__PointCloudGroup.html#ga6d1b190105546ec214cc4ab692ece60e", null ],
+    [ "MR::makeOrientedNormals", "group__PointCloudGroup.html#ga40da78b08c082b4012d578e9b68e0c69", null ],
+    [ "MR::makeUniformSampledCloud", "group__PointCloudGroup.html#gac8164b0109c1c421828cd4005a31043a", null ],
+    [ "MR::makeUnorientedNormals", "group__PointCloudGroup.html#gac7146c862a7b70f47e77f3cc3ffc9a23", null ],
+    [ "MR::makeUnorientedNormals", "group__PointCloudGroup.html#ga42d06dcccdf8aba01730bf868b2fec39", null ],
+    [ "MR::orientNormals", "group__PointCloudGroup.html#ga450ad031ccac1e86e9a4f076d1aabd3a", null ],
+    [ "MR::orientNormals", "group__PointCloudGroup.html#gac088f8a5d90a98ec6f18e97caca298f2", null ],
+    [ "MR::pointRegularUniformSampling", "group__PointCloudGroup.html#gaa54a2ee61c817b3333dd542851ffc83b", null ],
+    [ "MR::pointUniformSampling", "group__PointCloudGroup.html#gaae7ea0d5c4d5faf2ee3e02fafc4eff91", null ],
     [ "MR::relax", "group__PointCloudGroup.html#ga6ba9ffdcab693b6baea21220474723b3", null ],
     [ "MR::relaxApprox", "group__PointCloudGroup.html#ga6aed8553ea931bbcc8e56d557e037f83", null ],
     [ "MR::relaxKeepVolume", "group__PointCloudGroup.html#ga43e77151f7880a37daf34ec986060115", null ]

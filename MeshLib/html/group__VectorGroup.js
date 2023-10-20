@@ -53,6 +53,7 @@ var group__VectorGroup =
       [ "mixed", "structMR_1_1Vector3.html#aa80c4d71ef5b56a6aaa251f91e636873", null ],
       [ "mult", "structMR_1_1Vector3.html#ae2acb767e75d8fddbe60a26218e7635a", null ],
       [ "operator+=", "structMR_1_1Vector3.html#a300a225e9dea78d6b7bd208ea82bf92b", null ],
+      [ "unitVector3", "structMR_1_1Vector3.html#a14f7f0adb55e73e84d46a542b9b91186", null ],
       [ "x", "structMR_1_1Vector3.html#a3d6f56ed3c525a928116d6c095997c5c", null ],
       [ "y", "structMR_1_1Vector3.html#a4cbb29e67931176028f57f29b2bd6953", null ],
       [ "z", "structMR_1_1Vector3.html#ae596ea6de55c00124d84150eadecd455", null ]

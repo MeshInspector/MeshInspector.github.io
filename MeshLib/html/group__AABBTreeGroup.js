@@ -15,7 +15,7 @@ var group__AABBTreeGroup =
       [ "NodeBitSet", "classMR_1_1AABBTree.html#a14be9f478ec6272d18dc330bd8c94b38", null ],
       [ "NodeId", "classMR_1_1AABBTree.html#a0d5bc51d4a13d2ff4bda0d7669a6098e", null ],
       [ "NodeVec", "classMR_1_1AABBTree.html#a3689e736d9bd1cc83c766df27cb69b68", null ],
-      [ "AABBTree", "classMR_1_1AABBTree.html#add77d5465c44318f3c02aad6a8b61d2e", null ],
+      [ "AABBTree", "classMR_1_1AABBTree.html#a0c762ebbd20c05c2219b1a348f22e0fb", null ],
       [ "AABBTree", "classMR_1_1AABBTree.html#a299be175c35406bc5c624c524a3221e7", null ],
       [ "containsSameNumberOfTris", "classMR_1_1AABBTree.html#a452c88b89ff01231575ab3f12f8de2df", null ],
       [ "getBoundingBox", "classMR_1_1AABBTree.html#a32fb8d6b891ed1e97bf4532552caa7a4", null ],
@@ -202,6 +202,7 @@ var group__AABBTreeGroup =
       [ "proj", "structMR_1_1SignedDistanceToMeshResult.html#adb459805ccfb452c3a5c82fe673bbfec", null ]
     ] ],
     [ "MR::PointsProjectionResult", "structMR_1_1PointsProjectionResult.html", [
+      [ "operator<=>", "structMR_1_1PointsProjectionResult.html#aac972c9152f1d040824f6ce8998b7cf7", null ],
       [ "distSq", "structMR_1_1PointsProjectionResult.html#a3b974a4c082686d4963d597b5533c340", null ],
       [ "vId", "structMR_1_1PointsProjectionResult.html#ac5592bc916da0b017f4e3a254bad34f7", null ]
     ] ],
@@ -260,11 +261,13 @@ var group__AABBTreeGroup =
     [ "MR::findDistance", "group__AABBTreeGroup.html#gae8acc67c54f5f060c954bb3528a0c581", null ],
     [ "MR::findEdgesInBall", "group__AABBTreeGroup.html#ga5ce436376c8036ec99459d3ccea88788", null ],
     [ "MR::findEdgesInBall", "group__AABBTreeGroup.html#ga799578a1ff64417ca5aa5c72fa15bb2f", null ],
+    [ "MR::findFewClosestPoints", "group__AABBTreeGroup.html#ga5b2c2b50e8b1835a53ac746d5da87b54", null ],
     [ "MR::findMaxDistanceSq", "group__AABBTreeGroup.html#ga3672072155e3f272d13a40ccd4645d02", null ],
     [ "MR::findMaxDistanceSqOneWay", "group__AABBTreeGroup.html#ga375d9c9dcfb1fd7d9a254a73370d71ba", null ],
     [ "MR::findMaxVectorDim", "group__AABBTreeGroup.html#ga562052fddd56327be07ffe8c0cc7f7af", null ],
     [ "MR::findMaxVectorDim", "group__AABBTreeGroup.html#ga7fcb33a674ea8b57ac858e40d42e26e3", null ],
     [ "MR::findMeshEdgesInBall", "group__AABBTreeGroup.html#ga50911249a881bd7365929503c138d8fa", null ],
+    [ "MR::findNClosestPointsPerPoint", "group__AABBTreeGroup.html#ga5ccfb741cd4bcb092c8884f744051203", null ],
     [ "MR::findPointsInBall", "group__AABBTreeGroup.html#ga80e8bb354705c40373b5a8a3d1a3376c", null ],
     [ "MR::findPointsInBall", "group__AABBTreeGroup.html#ga47bd19da135ff2a820eebd760da392a3", null ],
     [ "MR::findPointsInBall", "group__AABBTreeGroup.html#ga5c540a8264b2d4cd39a35ce8600e873e", null ],
@@ -277,6 +280,7 @@ var group__AABBTreeGroup =
     [ "MR::findProjectionOnPolyline2", "group__AABBTreeGroup.html#ga7f7211a85409018fd8ee71495646faa3", null ],
     [ "MR::findProjectionOnPolyline2WithOffset", "group__AABBTreeGroup.html#gaf2ef419d4414bb6d0efa0c918b21bddf", null ],
     [ "MR::findProjectionOnPolylineWithOffset", "group__AABBTreeGroup.html#ga834d7e50b54b1b8c511990fc9d14c09c", null ],
+    [ "MR::findProjectionSubtree", "group__AABBTreeGroup.html#ga5387bb570d5a117c83ca310fbd4353cc", null ],
     [ "MR::findSelfCollidingEdgePairs", "group__AABBTreeGroup.html#ga4fca223a68dac564f66af0224c0ec3ec", null ],
     [ "MR::findSelfCollidingEdges", "group__AABBTreeGroup.html#gad89aed99c2cba4cd08e06d896b839841", null ],
     [ "MR::findSelfCollidingEdgesBS", "group__AABBTreeGroup.html#ga8658f18b6b0489c1dafa4903c64c0165", null ],

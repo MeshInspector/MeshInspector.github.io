@@ -4,6 +4,7 @@ var MRBuffer_8h =
     [ "MR::NoCtor< T >", "structMR_1_1NoCtor_3_01T_01_4.html", "structMR_1_1NoCtor_3_01T_01_4" ],
     [ "MR::BMap< T, I >", "structMR_1_1BMap.html", "structMR_1_1BMap" ],
     [ "MR::PackMapping", "structMR_1_1PackMapping.html", "structMR_1_1PackMapping" ],
+    [ "MR::Trivial", "conceptMR_1_1Trivial.html", null ],
     [ "begin", "MRBuffer_8h.html#aff3156c83a0cd4f80c755c47b577c1c9", null ],
     [ "begin", "MRBuffer_8h.html#a3bd81207bb5dccdfe9533eae31414e16", null ],
     [ "end", "MRBuffer_8h.html#a78839ede3780b97bcce02af755e7e577", null ],

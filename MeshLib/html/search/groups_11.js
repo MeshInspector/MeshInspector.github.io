@@ -12,5 +12,6 @@ var searchData=
   ['surface_20boolean_20overview_9',['Surface Boolean overview',['../group__BooleanGroup.html',1,'']]],
   ['surface_20distance_10',['Surface Distance',['../group__SurfaceDistanceGroup.html',1,'']]],
   ['surface_20distance_20builder_11',['Group Surface Distance Builder',['../group__SurfaceDistanceBuilder.html',1,'']]],
-  ['surface_20path_12',['surface path',['../group__SurfacePathGroup.html',1,'Surface Path'],['../group__SurfacePathSubgroup.html',1,'Surface Path']]]
+  ['surface_20path_12',['Surface Path',['../group__SurfacePathSubgroup.html',1,'']]],
+  ['surface_20paths_13',['Surface Paths',['../group__SurfacePathGroup.html',1,'']]]
 ];

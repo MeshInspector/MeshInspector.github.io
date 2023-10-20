@@ -48,7 +48,7 @@ var classMR_1_1Viewer =
     ] ],
     [ "append_viewport", "classMR_1_1Viewer.html#ad7cee4558939e02faf2e9e514800c80c", null ],
     [ "appendHistoryAction", "classMR_1_1Viewer.html#a1a20bdc9d56370d96089ed755fd73ad5", null ],
-    [ "captureScreenShot", "classMR_1_1Viewer.html#aac754983b2fc171f8fbfbf7ecde9ab0a", null ],
+    [ "captureSceneScreenShot", "classMR_1_1Viewer.html#a9d098bef59db9ac38f5e669c50c289d7", null ],
     [ "captureUIScreenShot", "classMR_1_1Viewer.html#ab5c3982fd523193e4b8a83ebde609f85", null ],
     [ "clearScene", "classMR_1_1Viewer.html#afa95c1310f32717a27bdeaaab2bef0bc", null ],
     [ "dragDrop", "classMR_1_1Viewer.html#a69116527e6d1bb79a5231d928ccf9bb9", null ],

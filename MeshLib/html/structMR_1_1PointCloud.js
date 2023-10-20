@@ -1,6 +1,6 @@
 var structMR_1_1PointCloud =
 [
-    [ "addPartByMask", "structMR_1_1PointCloud.html#aa6950a1538eb4974ba77f2e478f8e328", null ],
+    [ "addPartByMask", "structMR_1_1PointCloud.html#a716cfd2cca1aa745672b8e29077c39fa", null ],
     [ "addPoint", "structMR_1_1PointCloud.html#a78808a7ef1e8232c61b442f9ea9bc9c8", null ],
     [ "addPoint", "structMR_1_1PointCloud.html#ada79e353b7a72ed40a42bc08b60cc225", null ],
     [ "computeBoundingBox", "structMR_1_1PointCloud.html#ac3b1015ea089d93658ff4783c2282c8e", null ],

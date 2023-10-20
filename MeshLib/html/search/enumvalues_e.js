@@ -15,7 +15,7 @@ var searchData=
   ['pointtoplane_12',['PointToPlane',['../namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed',1,'MR']]],
   ['pointtopoint_13',['PointToPoint',['../namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80ecacabf254f8195fce8d901b3cce7092ea9',1,'MR']]],
   ['polygonoffsetfromcamera_14',['PolygonOffsetFromCamera',['../structMR_1_1MeshVisualizePropertyType.html#a2e5c336a4feb2c41efef5ba1f038b738af275c35186c72ca99b163e6ec1e31d48',1,'MR::MeshVisualizePropertyType']]],
-  ['positive_15',['Positive',['../namespaceMR.html#a494f6ca56c512e886474f7209f624c48a3289297424e01eda5b788c083bbf3147',1,'MR']]],
+  ['positive_15',['positive',['../namespaceMR_1_1PlanarTriangulation.html#a41b088a697624ae295c7b3a7b137bca9a3289297424e01eda5b788c083bbf3147',1,'MR::PlanarTriangulation::Positive'],['../namespaceMR.html#a494f6ca56c512e886474f7209f624c48a3289297424e01eda5b788c083bbf3147',1,'MR::Positive']]],
   ['post_16',['Post',['../classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0ca03d947a2158373c3b9d74325850cb8b9',1,'MR::WebRequest']]],
   ['primitivescolormap_17',['PrimitivesColorMap',['../group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca',1,'MR']]],
   ['progressbarbackground_18',['ProgressBarBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ae1bbec5067f1e6cc71f108e6d5ac7b81',1,'MR::ColorTheme']]],

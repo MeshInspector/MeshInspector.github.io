@@ -1,6 +1,6 @@
 var group__BasicGroup =
 [
-    [ "IteratorRange", "group__IteratorRange.html", "group__IteratorRange" ],
+    [ "Iterators", "group__IteratorRange.html", "group__IteratorRange" ],
     [ "MR::BitSet", "classMR_1_1BitSet.html", [
       [ "base", "classMR_1_1BitSet.html#a21c4aa1d25292ca929dc095286685853", null ],
       [ "IndexType", "classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9", null ],

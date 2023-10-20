@@ -144,6 +144,18 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a6e5e2b0ad95eae3a0388468db8a83a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa721053621e7ed2a54dc3f05081f7c04" id="r_aa721053621e7ed2a54dc3f05081f7c04"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Plane3.html#aa721053621e7ed2a54dc3f05081f7c04">d</a> = 0</td></tr>
 <tr class="separator:aa721053621e7ed2a54dc3f05081f7c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="related" name="related"></a>
+Related Symbols</h2></td></tr>
+<tr><td class="ititle" colspan="2"><p>(Note that these are not member symbols.) </p>
+</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:ab78bbcb21e57f07de12885121b3e2177" id="r_ab78bbcb21e57f07de12885121b3e2177"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ab78bbcb21e57f07de12885121b3e2177"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structMR_1_1Plane3.html#ab78bbcb21e57f07de12885121b3e2177">invTransformed</a> (const <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt; &amp;pl, const <a class="el" href="namespaceMR.html#a497ae0b02290edeaa5275069efc377df">AffineXf3</a>&lt; T &gt; &amp;ixf)</td></tr>
+<tr class="separator:ab78bbcb21e57f07de12885121b3e2177"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38c8491b1563ae8fbbfe5666645cecc5" id="r_a38c8491b1563ae8fbbfe5666645cecc5"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a38c8491b1563ae8fbbfe5666645cecc5"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structMR_1_1Plane3.html#a38c8491b1563ae8fbbfe5666645cecc5">transformed</a> (const <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt; &amp;plane, const <a class="el" href="namespaceMR.html#a497ae0b02290edeaa5275069efc377df">AffineXf3</a>&lt; T &gt; &amp;xf)</td></tr>
+<tr class="separator:a38c8491b1563ae8fbbfe5666645cecc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
@@ -427,6 +439,85 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>finds the closest point on plane </p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Symbol Documentation</h2>
+<a id="ab78bbcb21e57f07de12885121b3e2177" name="ab78bbcb21e57f07de12885121b3e2177"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab78bbcb21e57f07de12885121b3e2177">&#9670;&#160;</a></span>invTransformed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt; invTransformed </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>pl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a497ae0b02290edeaa5275069efc377df">AffineXf3</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>ixf</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">related</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>given plane: pl(x) = 0, and inverse transformation: y=ixf^-1(x); returns the same plane in y reference frame: pl'(y) = 0; if given transformation is not rigid, then it is a good idea to normalize returned plane </p>
+
+</div>
+</div>
+<a id="a38c8491b1563ae8fbbfe5666645cecc5" name="a38c8491b1563ae8fbbfe5666645cecc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38c8491b1563ae8fbbfe5666645cecc5">&#9670;&#160;</a></span>transformed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt; transformed </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>plane</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a497ae0b02290edeaa5275069efc377df">AffineXf3</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>xf</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">related</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>given plane: pl(x) = 0, and transformation: y=xf(x); returns the same plane in y reference frame: pl'(y) = 0; if given transformation is not rigid, then it is a good idea to normalize returned plane </p>
 
 </div>
 </div>

@@ -23,5 +23,6 @@ var searchData=
   ['rotmask_20',['RotMask',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6a6428aea23660f83dac6edbd258b67a02',1,'MR']]],
   ['rotx_21',['RotX',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6ae47d6e82d3529c2e696cb9b128c39350',1,'MR']]],
   ['roty_22',['RotY',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6a3bf2bbb5aed73183fe04a25bc85c9ff6',1,'MR']]],
-  ['rotz_23',['RotZ',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6a160cb5fa4d344314ae594c958626c907',1,'MR']]]
+  ['rotz_23',['RotZ',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6a160cb5fa4d344314ae594c958626c907',1,'MR']]],
+  ['round_24',['round',['../structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8ab7f41fc1412ad2ee75e9b2635d3b9d5c',1,'MR::OffsetContoursParams::Round'],['../structMR_1_1OffsetContoursParams.html#a7211722e3debbfaa5ad3c7b9dfa090a4ab7f41fc1412ad2ee75e9b2635d3b9d5c',1,'MR::OffsetContoursParams::Round']]]
 ];

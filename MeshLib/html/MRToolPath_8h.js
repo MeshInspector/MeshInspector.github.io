@@ -26,8 +26,8 @@ var MRToolPath_8h =
     [ "constantCuspToolPath", "MRToolPath_8h.html#a2d4f7ec26405b0cbdd955d37e2499e12", null ],
     [ "constantZToolPath", "MRToolPath_8h.html#ab03059fd3c4723b2ca930e96c01d0d79", null ],
     [ "exportToolPathToGCode", "MRToolPath_8h.html#ae19c8e7f8ba00c5000caeb6ff5f85139", null ],
-    [ "interpolateArcs", "MRToolPath_8h.html#a0ea734068981c61c08db3a81e9e9e14c", null ],
-    [ "interpolateLines", "MRToolPath_8h.html#afb1474bed2b3bd5b0216e704ee6b7325", null ],
+    [ "interpolateArcs", "MRToolPath_8h.html#a5cf448fe92baa11b05d8d6f0bcd6b9f5", null ],
+    [ "interpolateLines", "MRToolPath_8h.html#a57798fcf93f06547414a72682d58db10", null ],
     [ "lacingToolPath", "MRToolPath_8h.html#adf602197c921ce31c7a2b893db3225d2", null ],
     [ "smoothSelection", "MRToolPath_8h.html#af52c9f9784d4604e85a995ced1c6837c", null ]
 ];

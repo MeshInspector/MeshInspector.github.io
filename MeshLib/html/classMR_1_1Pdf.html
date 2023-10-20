@@ -121,7 +121,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af89eaef5f8ee396c998c75f39448ad4c" id="r_af89eaef5f8ee396c998c75f39448ad4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Pdf.html#af89eaef5f8ee396c998c75f39448ad4c">addText</a> (const std::string &amp;text, bool isTitle=false)</td></tr>
 <tr class="separator:af89eaef5f8ee396c998c75f39448ad4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a555d336b872e3cd9bc631c45d5974a1a" id="r_a555d336b872e3cd9bc631c45d5974a1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Pdf.html#a555d336b872e3cd9bc631c45d5974a1a">addImageFromFile</a> (const std::filesystem::path &amp;imagePath, const std::string &amp;caption={}, const std::vector&lt; std::pair&lt; double, std::string &gt; &gt; &amp;valuesMarks={})</td></tr>
-<tr class="memdesc:a555d336b872e3cd9bc631c45d5974a1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add image from file in current cursor position. @detail If image bigger than page size, autoscale image to page size. Move cursor.  <br /></td></tr>
+<tr class="memdesc:a555d336b872e3cd9bc631c45d5974a1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add image from file in current cursor position. If image bigger than page size, autoscale image to page size. Move cursor.  <br /></td></tr>
 <tr class="separator:a555d336b872e3cd9bc631c45d5974a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab64de3564a5077ab69b1ec64aa17f568" id="r_ab64de3564a5077ab69b1ec64aa17f568"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Pdf.html#ab64de3564a5077ab69b1ec64aa17f568">newPage</a> ()</td></tr>
 <tr class="memdesc:ab64de3564a5077ab69b1ec64aa17f568"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add new pageand move cursor on it.  <br /></td></tr>
@@ -252,7 +252,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Add image from file in current cursor position. @detail If image bigger than page size, autoscale image to page size. Move cursor. </p>
+<p>Add image from file in current cursor position. If image bigger than page size, autoscale image to page size. Move cursor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">valuesMarks</td><td>if not empty - add marks under image. valuesMarks contains pairs&lt;relative_position, marks_text&gt;. relative_position is in range [0., 1.], where 0. - left border of image, 1. - right border </td></tr>

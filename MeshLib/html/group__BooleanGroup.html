@@ -151,12 +151,12 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ga10109de724be9e28810ef9da6348c3d9" id="r_ga10109de724be9e28810ef9da6348c3d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9e4cb12e0805ba24e046ac622cdc33bb">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga10109de724be9e28810ef9da6348c3d9">MR::doBooleanOperation</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;meshACut, <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;meshBCut, const std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &gt; &amp;cutEdgesA, const std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &gt; &amp;cutEdgesB, <a class="el" href="group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> operation, const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *rigidB2A=nullptr, <a class="el" href="structMR_1_1BooleanResultMapper.html">BooleanResultMapper</a> *mapper=nullptr)</td></tr>
 <tr class="separator:ga10109de724be9e28810ef9da6348c3d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gada8836dd0de6a1298e27d103ce980b7f" id="r_gada8836dd0de6a1298e27d103ce980b7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#gada8836dd0de6a1298e27d103ce980b7f">MR::convertMeshTriPointsToMeshContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt; &amp;meshTriPoints, std::vector&lt; int &gt; *pivotIndices=nullptr)</td></tr>
-<tr class="memdesc:gada8836dd0de6a1298e27d103ce980b7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour.  <br /></td></tr>
-<tr class="separator:gada8836dd0de6a1298e27d103ce980b7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga41dc15267679ffb494a67b21fca8c577" id="r_ga41dc15267679ffb494a67b21fca8c577"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga41dc15267679ffb494a67b21fca8c577">MR::convertMeshTriPointsToClosedContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt; &amp;meshTriPoints, std::vector&lt; int &gt; *pivotIndices=nullptr)</td></tr>
-<tr class="memdesc:ga41dc15267679ffb494a67b21fca8c577"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes closed continuous contour by mesh tri points, note that first and last meshTriPoint should not be same.  <br /></td></tr>
-<tr class="separator:ga41dc15267679ffb494a67b21fca8c577"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga17e8968f87bebca61c162b6f9d304f74" id="r_ga17e8968f87bebca61c162b6f9d304f74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga17e8968f87bebca61c162b6f9d304f74">MR::convertMeshTriPointsToMeshContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt; &amp;meshTriPoints, <a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings={}, std::vector&lt; int &gt; *pivotIndices=nullptr)</td></tr>
+<tr class="memdesc:ga17e8968f87bebca61c162b6f9d304f74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour.  <br /></td></tr>
+<tr class="separator:ga17e8968f87bebca61c162b6f9d304f74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad20663df6197ea32b56b428804677b41" id="r_gad20663df6197ea32b56b428804677b41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#gad20663df6197ea32b56b428804677b41">MR::convertMeshTriPointsToClosedContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt; &amp;meshTriPoints, <a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings={}, std::vector&lt; int &gt; *pivotIndices=nullptr)</td></tr>
+<tr class="memdesc:gad20663df6197ea32b56b428804677b41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes closed continuous contour by mesh tri points, note that first and last meshTriPoint should not be same.  <br /></td></tr>
+<tr class="separator:gad20663df6197ea32b56b428804677b41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4415eacd7a732188919def7411ee0245" id="r_ga4415eacd7a732188919def7411ee0245"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#ga4415eacd7a732188919def7411ee0245">MR::convertSurfacePathWithEndsToMeshContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="namespaceMR.html#a6f060a604c3462c7d0b1df7dac703237">SurfacePath</a> &amp;surfacePath, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>)</td></tr>
 <tr class="memdesc:ga4415eacd7a732188919def7411ee0245"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts SurfacePath to OneMeshContours.  <br /></td></tr>
 <tr class="separator:ga4415eacd7a732188919def7411ee0245"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -194,7 +194,7 @@ Functions</h2></td></tr>
 
 <p>Special data type for <a class="el" href="group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc" title="Cuts mesh by given contours.">MR::cutMesh</a>. </p>
 <p>This is special data for <a class="el" href="group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc" title="Cuts mesh by given contours.">MR::cutMesh</a>, you can convert some other contours representation to it by:<br  />
-<a class="el" href="group__BooleanGroup.html#ga41dc15267679ffb494a67b21fca8c577">MR::convertMeshTriPointsToClosedContour</a> <a class="el" href="group__BooleanGroup.html#ga9d5cd0e3c54003e08c1884a7895b3e74">MR::convertSurfacePathsToMeshContours</a> </p>
+<a class="el" href="group__BooleanGroup.html#gad20663df6197ea32b56b428804677b41">MR::convertMeshTriPointsToClosedContour</a> <a class="el" href="group__BooleanGroup.html#ga9d5cd0e3c54003e08c1884a7895b3e74">MR::convertSurfacePathsToMeshContours</a> </p>
 
 </div>
 </div>
@@ -338,8 +338,8 @@ If meshes are not closed in intersecting zone some boolean operations are not al
 
 </div>
 </div>
-<a id="ga41dc15267679ffb494a67b21fca8c577" name="ga41dc15267679ffb494a67b21fca8c577"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga41dc15267679ffb494a67b21fca8c577">&#9670;&#160;</a></span>convertMeshTriPointsToClosedContour()</h2>
+<a id="gad20663df6197ea32b56b428804677b41" name="gad20663df6197ea32b56b428804677b41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad20663df6197ea32b56b428804677b41">&#9670;&#160;</a></span>convertMeshTriPointsToClosedContour()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -355,6 +355,12 @@ If meshes are not closed in intersecting zone some boolean operations are not al
           <td></td>
           <td class="paramtype">const std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>meshTriPoints</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a>&#160;</td>
+          <td class="paramname"><em>searchSettings</em> = <code>{}</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -381,8 +387,8 @@ If meshes are not closed in intersecting zone some boolean operations are not al
 
 </div>
 </div>
-<a id="gada8836dd0de6a1298e27d103ce980b7f" name="gada8836dd0de6a1298e27d103ce980b7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gada8836dd0de6a1298e27d103ce980b7f">&#9670;&#160;</a></span>convertMeshTriPointsToMeshContour()</h2>
+<a id="ga17e8968f87bebca61c162b6f9d304f74" name="ga17e8968f87bebca61c162b6f9d304f74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga17e8968f87bebca61c162b6f9d304f74">&#9670;&#160;</a></span>convertMeshTriPointsToMeshContour()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -402,6 +408,12 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a>&#160;</td>
+          <td class="paramname"><em>searchSettings</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">std::vector&lt; int &gt; *&#160;</td>
           <td class="paramname"><em>pivotIndices</em> = <code>nullptr</code>&#160;</td>
         </tr>
@@ -416,6 +428,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
 <p>Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour. </p>
 <p>Finds shortest paths between neighbor <code>meshTriPoints</code> and build contour <a class="el" href="group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc" title="Cuts mesh by given contours.">MR::cutMesh</a> input </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">searchSettings</td><td>settings for search geo path </td></tr>
     <tr><td class="paramname">pivotIndices</td><td>optional output indices of given meshTriPoints in result <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> </td></tr>
   </table>
   </dd>

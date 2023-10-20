@@ -19,7 +19,7 @@ var searchData=
   ['norm_16',['norm',['../structMR_1_1VertPair.html#af4b7726831024947b81d31104d195e36',1,'MR::VertPair']]],
   ['normal_17',['normal',['../structMR_1_1MeshOrPoints_1_1ProjectionResult.html#a1da43d795c49a78d26d63c9f1f90bdae',1,'MR::MeshOrPoints::ProjectionResult']]],
   ['normaliters_18',['normalIters',['../structMR_1_1DenoiseViaNormalsSettings.html#a0020d91ac083f2d70a466e4f209e12b9',1,'MR::DenoiseViaNormalsSettings']]],
-  ['normals_19',['normals',['../structMR_1_1PointCloud.html#a25c1039968a5dc3a24591ac5b74148ad',1,'MR::PointCloud']]],
+  ['normals_19',['normals',['../structMR_1_1PointCloud.html#a25c1039968a5dc3a24591ac5b74148ad',1,'MR::PointCloud::normals'],['../structMR_1_1MeshLoadSettings.html#aeb2eb22ddf375f8cac7a36b6ec756c94',1,'MR::MeshLoadSettings::normals']]],
   ['normalsanglecos_20',['normalsAngleCos',['../structMR_1_1VertPair.html#aa5935036a40e161c0f835cc0c2ce6e2c',1,'MR::VertPair']]],
   ['normmatrixptr_21',['normMatrixPtr',['../structMR_1_1BaseRenderParams.html#a971fd4707e7133b504753698633ad416',1,'MR::BaseRenderParams']]],
   ['normref_22',['normRef',['../structMR_1_1VertPair.html#a6f8e131bf9b306b1c0170663da85708c',1,'MR::VertPair']]],

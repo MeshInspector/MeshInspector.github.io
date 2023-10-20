@@ -9,8 +9,8 @@ var group__IOFormatsRegistryGroup =
       [ "MeshLoaderAdder", "classMR_1_1MeshLoad_1_1MeshLoaderAdder.html#a3ffd5dc35d92ca63264fe7bdf5c438dc", null ]
     ] ],
     [ "MR_ADD_MESH_LOADER", "group__IOFormatsRegistryGroup.html#ga5ee8e917fb46e839dd5ff1a5cb49fdeb", null ],
-    [ "MR::MeshLoad::MeshLoader", "group__IOFormatsRegistryGroup.html#gad431c8c706f759aad77178d7c9586616", null ],
-    [ "MR::MeshLoad::MeshStreamLoader", "group__IOFormatsRegistryGroup.html#ga080dba628fd76766a0f9aad609e82ce5", null ],
+    [ "MR::MeshLoad::MeshLoader", "group__IOFormatsRegistryGroup.html#ga02848803ae0852e89483cd0be4f554f3", null ],
+    [ "MR::MeshLoad::MeshStreamLoader", "group__IOFormatsRegistryGroup.html#gafca47102be029039635b2868f215c1fc", null ],
     [ "MR::MeshLoad::getFilters", "group__IOFormatsRegistryGroup.html#gaca0d649d3cadf6807b1fa3b610368510", null ],
     [ "MR::MeshLoad::getMeshLoader", "group__IOFormatsRegistryGroup.html#ga350b9ad86f759c762c0c4df6371aa036", null ],
     [ "MR::MeshLoad::getMeshStreamLoader", "group__IOFormatsRegistryGroup.html#ga247f35eb02151e0ce68e863a496609f6", null ]

@@ -33,7 +33,7 @@ var searchData=
   ['vertid_30',['vertid',['../classMR_1_1Graph.html#aeeffe9dd1229206b5db549f61cbad105',1,'MR::Graph::VertId'],['../namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5',1,'MR::VertId']]],
   ['vertmap_31',['VertMap',['../namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba',1,'MR']]],
   ['vertnormals_32',['VertNormals',['../namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df',1,'MR']]],
-  ['vertpathinfomap_33',['VertPathInfoMap',['../group__EdgePathsGroup.html#gab7fd988c9637a0fb9985015051bced49',1,'MR']]],
+  ['vertpathinfomap_33',['VertPathInfoMap',['../namespaceMR.html#ab7fd988c9637a0fb9985015051bced49',1,'MR']]],
   ['vertpredicate_34',['VertPredicate',['../namespaceMR.html#a2aaea5fe7e05210902228cf21e97321c',1,'MR']]],
   ['vertscalars_35',['VertScalars',['../namespaceMR.html#a3312c2660218fff98bbaefbab53d2253',1,'MR']]],
   ['vertsetbititerator_36',['VertSetBitIterator',['../namespaceMR.html#a781eba660f55f4745e1770f2b1c8b003',1,'MR']]],

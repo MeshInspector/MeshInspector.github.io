@@ -109,12 +109,19 @@ $(document).ready(function(){initNavTree('structMR_1_1MeshLoadSettings.html','')
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a3d2dec2482a716804af51ed748ebcebc" id="r_a3d2dec2482a716804af51ed748ebcebc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a59dd016293920ad941a9aeb6e67b6186">VertColors</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshLoadSettings.html#a3d2dec2482a716804af51ed748ebcebc">colors</a> = nullptr</td></tr>
+<tr class="memdesc:a3d2dec2482a716804af51ed748ebcebc"><td class="mdescLeft">&#160;</td><td class="mdescRight">points where to load vertex color map  <br /></td></tr>
 <tr class="separator:a3d2dec2482a716804af51ed748ebcebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb2eb22ddf375f8cac7a36b6ec756c94" id="r_aeb2eb22ddf375f8cac7a36b6ec756c94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df">VertNormals</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshLoadSettings.html#aeb2eb22ddf375f8cac7a36b6ec756c94">normals</a> = nullptr</td></tr>
+<tr class="memdesc:aeb2eb22ddf375f8cac7a36b6ec756c94"><td class="mdescLeft">&#160;</td><td class="mdescRight">points where to load vertex normals  <br /></td></tr>
+<tr class="separator:aeb2eb22ddf375f8cac7a36b6ec756c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fdcf8fdd76f70d7403ea886ed944019" id="r_a6fdcf8fdd76f70d7403ea886ed944019"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshLoadSettings.html#a6fdcf8fdd76f70d7403ea886ed944019">skippedFaceCount</a> = nullptr</td></tr>
+<tr class="memdesc:a6fdcf8fdd76f70d7403ea886ed944019"><td class="mdescLeft">&#160;</td><td class="mdescRight">counter of skipped faces (faces than can't be created)  <br /></td></tr>
 <tr class="separator:a6fdcf8fdd76f70d7403ea886ed944019"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fdd9db8e441e5ff1bcee3e9d4b664a7" id="r_a1fdd9db8e441e5ff1bcee3e9d4b664a7"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7">duplicatedVertexCount</a> = nullptr</td></tr>
+<tr class="memdesc:a1fdd9db8e441e5ff1bcee3e9d4b664a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">counter of duplicated vertices (that created for resolve non-manifold geometry)  <br /></td></tr>
 <tr class="separator:a1fdd9db8e441e5ff1bcee3e9d4b664a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60b5f4bc63d35b0ef8261da4de65917d" id="r_a60b5f4bc63d35b0ef8261da4de65917d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshLoadSettings.html#a60b5f4bc63d35b0ef8261da4de65917d">callback</a> = {}</td></tr>
+<tr class="memitem:a60b5f4bc63d35b0ef8261da4de65917d" id="r_a60b5f4bc63d35b0ef8261da4de65917d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshLoadSettings.html#a60b5f4bc63d35b0ef8261da4de65917d">callback</a></td></tr>
+<tr class="memdesc:a60b5f4bc63d35b0ef8261da4de65917d"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback for set progress and stop process  <br /></td></tr>
 <tr class="separator:a60b5f4bc63d35b0ef8261da4de65917d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -125,10 +132,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> MR::MeshLoadSettings::callback = {}</td>
+          <td class="memname"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> MR::MeshLoadSettings::callback</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>callback for set progress and stop process </p>
 
 </div>
 </div>
@@ -144,6 +153,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>points where to load vertex color map </p>
+
 </div>
 </div>
 <a id="a1fdd9db8e441e5ff1bcee3e9d4b664a7" name="a1fdd9db8e441e5ff1bcee3e9d4b664a7"></a>
@@ -158,6 +169,24 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>counter of duplicated vertices (that created for resolve non-manifold geometry) </p>
+
+</div>
+</div>
+<a id="aeb2eb22ddf375f8cac7a36b6ec756c94" name="aeb2eb22ddf375f8cac7a36b6ec756c94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb2eb22ddf375f8cac7a36b6ec756c94">&#9670;&#160;</a></span>normals</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df">VertNormals</a>* MR::MeshLoadSettings::normals = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>points where to load vertex normals </p>
+
 </div>
 </div>
 <a id="a6fdcf8fdd76f70d7403ea886ed944019" name="a6fdcf8fdd76f70d7403ea886ed944019"></a>
@@ -171,6 +200,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>counter of skipped faces (faces than can't be created) </p>
 
 </div>
 </div>

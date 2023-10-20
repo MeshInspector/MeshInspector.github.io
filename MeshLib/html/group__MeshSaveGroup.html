@@ -101,7 +101,7 @@ $(document).ready(function(){initNavTree('group__MeshSaveGroup.html',''); initRe
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">Mesh Save<div class="ingroups"><a class="el" href="group__IOGroup.html">IOGroup</a></div></div></div>
+  <div class="headertitle"><div class="title">Mesh Save<div class="ingroups"><a class="el" href="group__IOGroup.html">Input/Output</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
@@ -131,6 +131,11 @@ Functions</h2></td></tr>
 <tr class="separator:ga2b402340eecb506b963729b739d98687"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaace4e5268d41c54720eb6f61b712c7aa" id="r_gaace4e5268d41c54720eb6f61b712c7aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshSaveGroup.html#gaace4e5268d41c54720eb6f61b712c7aa">MR::MeshSave::toBinaryStl</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, std::ostream &amp;out, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
 <tr class="separator:gaace4e5268d41c54720eb6f61b712c7aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga41029008bbf9903ab2639fb34641c45f" id="r_ga41029008bbf9903ab2639fb34641c45f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshSaveGroup.html#ga41029008bbf9903ab2639fb34641c45f">MR::MeshSave::toAsciiStl</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::filesystem::path &amp;file, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="memdesc:ga41029008bbf9903ab2639fb34641c45f"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in ascii .stl file  <br /></td></tr>
+<tr class="separator:ga41029008bbf9903ab2639fb34641c45f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaee098d77ef2a38fe4a92bbe845dc01e7" id="r_gaee098d77ef2a38fe4a92bbe845dc01e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshSaveGroup.html#gaee098d77ef2a38fe4a92bbe845dc01e7">MR::MeshSave::toAsciiStl</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, std::ostream &amp;out, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
+<tr class="separator:gaee098d77ef2a38fe4a92bbe845dc01e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4c313ba965b4ecddf7127c79c619b051" id="r_ga4c313ba965b4ecddf7127c79c619b051"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshSaveGroup.html#ga4c313ba965b4ecddf7127c79c619b051">MR::MeshSave::toPly</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::filesystem::path &amp;file, const <a class="el" href="namespaceMR.html#a59dd016293920ad941a9aeb6e67b6186">VertColors</a> *colors=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
 <tr class="memdesc:ga4c313ba965b4ecddf7127c79c619b051"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .ply file  <br /></td></tr>
 <tr class="separator:ga4c313ba965b4ecddf7127c79c619b051"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -242,6 +247,76 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>extension in <code>*.ext</code> format </p>
+
+</div>
+</div>
+<a id="ga41029008bbf9903ab2639fb34641c45f" name="ga41029008bbf9903ab2639fb34641c45f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga41029008bbf9903ab2639fb34641c45f">&#9670;&#160;</a></span>toAsciiStl() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a> MR::MeshSave::toAsciiStl </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>saves in ascii .stl file </p>
+
+</div>
+</div>
+<a id="gaee098d77ef2a38fe4a92bbe845dc01e7" name="gaee098d77ef2a38fe4a92bbe845dc01e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaee098d77ef2a38fe4a92bbe845dc01e7">&#9670;&#160;</a></span>toAsciiStl() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ac91550cb142f1df5cca882e3767dff51">VoidOrErrStr</a> MR::MeshSave::toAsciiStl </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

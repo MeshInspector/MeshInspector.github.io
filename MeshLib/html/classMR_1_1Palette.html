@@ -123,13 +123,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a16b8a71ea5f75f665b1fa1c24368dba3" id="r_a16b8a71ea5f75f665b1fa1c24368dba3"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Palette.html#a16b8a71ea5f75f665b1fa1c24368dba3">Palette</a> (const std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; &amp;colors)</td></tr>
 <tr class="separator:a16b8a71ea5f75f665b1fa1c24368dba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee6fa3cea3a5b3449207a8a888addd49" id="r_aee6fa3cea3a5b3449207a8a888addd49"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Palette.html#aee6fa3cea3a5b3449207a8a888addd49">setBaseColors</a> (const std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; &amp;colors)</td></tr>
-<tr class="memdesc:aee6fa3cea3a5b3449207a8a888addd49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set base palette colors @detail colors.size() should be more or equal 2 for discrete palette using vector of colors calculated by mixing the base colors i.e. base {blue, red} -&gt; discrete 3 {blue, 0.5*blue + 0.5*red, red}.  <br /></td></tr>
+<tr class="memdesc:aee6fa3cea3a5b3449207a8a888addd49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set base palette colors colors.size() should be more or equal 2 for discrete palette using vector of colors calculated by mixing the base colors i.e. base {blue, red} -&gt; discrete 3 {blue, 0.5*blue + 0.5*red, red}.  <br /></td></tr>
 <tr class="separator:aee6fa3cea3a5b3449207a8a888addd49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d6dd19e47f31c6e502113f4b413ff77" id="r_a7d6dd19e47f31c6e502113f4b413ff77"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Palette.html#a7d6dd19e47f31c6e502113f4b413ff77">setRangeMinMax</a> (float min, float max)</td></tr>
-<tr class="memdesc:a7d6dd19e47f31c6e502113f4b413ff77"><td class="mdescLeft">&#160;</td><td class="mdescRight">set range limits for palette (need for find color by value) @detail all palette colors are evenly distributed between min and max  <br /></td></tr>
+<tr class="memdesc:a7d6dd19e47f31c6e502113f4b413ff77"><td class="mdescLeft">&#160;</td><td class="mdescRight">set range limits for palette (need for find color by value) all palette colors are evenly distributed between min and max  <br /></td></tr>
 <tr class="separator:a7d6dd19e47f31c6e502113f4b413ff77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4516e9a134ac39f12c28ba08bc1b7e8" id="r_aa4516e9a134ac39f12c28ba08bc1b7e8"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Palette.html#aa4516e9a134ac39f12c28ba08bc1b7e8">setRangeMinMaxNegPos</a> (float minNeg, float maxNeg, float minPos, float maxPos)</td></tr>
-<tr class="memdesc:aa4516e9a134ac39f12c28ba08bc1b7e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">set range limits for palette (need for find color by value) @detail two half palette colors are evenly distributed between MinNeg / MaxNeg and MinPos / MaxPos for values between MaxNeg / MinPos return one color (from center palette)  <br /></td></tr>
+<tr class="memdesc:aa4516e9a134ac39f12c28ba08bc1b7e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">set range limits for palette (need for find color by value) two half palette colors are evenly distributed between MinNeg / MaxNeg and MinPos / MaxPos for values between MaxNeg / MinPos return one color (from center palette)  <br /></td></tr>
 <tr class="separator:aa4516e9a134ac39f12c28ba08bc1b7e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95993f62dda52bd555e9902cb0663a68" id="r_a95993f62dda52bd555e9902cb0663a68"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Palette.html#a95993f62dda52bd555e9902cb0663a68">setDiscretizationNumber</a> (int discretization)</td></tr>
 <tr class="separator:a95993f62dda52bd555e9902cb0663a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -400,7 +400,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set base palette colors @detail colors.size() should be more or equal 2 for discrete palette using vector of colors calculated by mixing the base colors i.e. base {blue, red} -&gt; discrete 3 {blue, 0.5*blue + 0.5*red, red}. </p>
+<p>Set base palette colors colors.size() should be more or equal 2 for discrete palette using vector of colors calculated by mixing the base colors i.e. base {blue, red} -&gt; discrete 3 {blue, 0.5*blue + 0.5*red, red}. </p>
 
 </div>
 </div>
@@ -520,7 +520,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>set range limits for palette (need for find color by value) @detail all palette colors are evenly distributed between min and max </p>
+<p>set range limits for palette (need for find color by value) all palette colors are evenly distributed between min and max </p>
 
 </div>
 </div>
@@ -562,7 +562,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>set range limits for palette (need for find color by value) @detail two half palette colors are evenly distributed between MinNeg / MaxNeg and MinPos / MaxPos for values between MaxNeg / MinPos return one color (from center palette) </p>
+<p>set range limits for palette (need for find color by value) two half palette colors are evenly distributed between MinNeg / MaxNeg and MinPos / MaxPos for values between MaxNeg / MinPos return one color (from center palette) </p>
 
 </div>
 </div>

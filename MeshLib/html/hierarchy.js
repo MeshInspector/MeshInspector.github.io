@@ -89,6 +89,7 @@ var hierarchy =
         [ "MR::StateListenerPlugin< Connectables >", "classMR_1_1StateListenerPlugin.html", [
           [ "MR::AddCustomThemePlugin", "classMR_1_1AddCustomThemePlugin.html", null ],
           [ "MR::CameraOrientation", "classMR_1_1CameraOrientation.html", null ],
+          [ "MR::CaptureScreenshotMenuItem", "classMR_1_1CaptureScreenshotMenuItem.html", null ],
           [ "MR::OpenRawVoxelsPlugin", "classMR_1_1OpenRawVoxelsPlugin.html", null ],
           [ "MR::ViewerSettingsPlugin", "classMR_1_1ViewerSettingsPlugin.html", null ]
         ] ]
@@ -123,7 +124,6 @@ var hierarchy =
     [ "MR::CoordinateConverters", "structMR_1_1CoordinateConverters.html", null ],
     [ "MR::CoordinateConverters2", "structMR_1_1CoordinateConverters2.html", null ],
     [ "MR::MeshSave::CtmSaveOptions", "structMR_1_1MeshSave_1_1CtmSaveOptions.html", null ],
-    [ "MR::PointsSave::CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", null ],
     [ "MR::CudaAccessor", "classMR_1_1CudaAccessor.html", null ],
     [ "MR::CustomButtonParameters", "structMR_1_1CustomButtonParameters.html", null ],
     [ "CustomPlugin", null, [
@@ -182,6 +182,7 @@ var hierarchy =
     [ "MR::Viewer::EventQueue", "classMR_1_1Viewer_1_1EventQueue.html", null ],
     [ "MR::FaceFace", "structMR_1_1FaceFace.html", null ],
     [ "MR::MeshBuilder::FaceRecord", "structMR_1_1MeshBuilder_1_1FaceRecord.html", null ],
+    [ "MR::FewSmallest< T >", "classMR_1_1FewSmallest.html", null ],
     [ "MR::File", "classMR_1_1File.html", null ],
     [ "MR::FileParameters", "structMR_1_1FileParameters.html", null ],
     [ "MR::FillHoleItem", "structMR_1_1FillHoleItem.html", null ],
@@ -217,6 +218,7 @@ var hierarchy =
     [ "MR::HistoryAction", "classMR_1_1HistoryAction.html", [
       [ "MR::ChangVoxelSelectionAction", "classMR_1_1ChangVoxelSelectionAction.html", null ],
       [ "MR::ChangeActiveBoxAction", "classMR_1_1ChangeActiveBoxAction.html", null ],
+      [ "MR::ChangeColoringType", "classMR_1_1ChangeColoringType.html", null ],
       [ "MR::ChangeDualMarchingCubesAction", "classMR_1_1ChangeDualMarchingCubesAction.html", null ],
       [ "MR::ChangeGridAction", "classMR_1_1ChangeGridAction.html", null ],
       [ "MR::ChangeIsoAction", "classMR_1_1ChangeIsoAction.html", null ],
@@ -355,7 +357,6 @@ var hierarchy =
         [ "MR::RibbonSceneRename", "classMR_1_1RibbonSceneRename.html", null ]
       ] ],
       [ "MR::RibbonMenuItem", "classMR_1_1RibbonMenuItem.html", [
-        [ "MR::CaptureScreenshotMenuItem", "classMR_1_1CaptureScreenshotMenuItem.html", null ],
         [ "MR::CaptureScreenshotToClipBoardMenuItem", "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html", null ],
         [ "MR::CaptureUIScreenshotMenuItem", "classMR_1_1CaptureUIScreenshotMenuItem.html", null ],
         [ "MR::FitDataMenuItem", "classMR_1_1FitDataMenuItem.html", null ],
@@ -492,8 +493,10 @@ var hierarchy =
     [ "MR::ObjectFactoryBase", "classMR_1_1ObjectFactoryBase.html", [
       [ "MR::ObjectFactory< T >", "classMR_1_1ObjectFactory.html", null ]
     ] ],
+    [ "MR::OffsetContoursParams", "structMR_1_1OffsetContoursParams.html", null ],
     [ "MR::OneMeshContour", "structMR_1_1OneMeshContour.html", null ],
     [ "MR::OneMeshIntersection", "structMR_1_1OneMeshIntersection.html", null ],
+    [ "MR::OutputFlows", "structMR_1_1OutputFlows.html", null ],
     [ "MR::WatershedGraph::OverflowPoint", "structMR_1_1WatershedGraph_1_1OverflowPoint.html", null ],
     [ "MR::PackMapping", "structMR_1_1PackMapping.html", null ],
     [ "MR::Palette", "classMR_1_1Palette.html", null ],
@@ -593,6 +596,7 @@ var hierarchy =
     [ "MR::SceneRoot", "classMR_1_1SceneRoot.html", null ],
     [ "MR::SceneSettings", "classMR_1_1SceneSettings.html", null ],
     [ "MR::ScopeHistory", "classMR_1_1ScopeHistory.html", null ],
+    [ "MR::SearchPathSettings", "structMR_1_1SearchPathSettings.html", null ],
     [ "MR::RibbonSchemaHolder::SearchResult", "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html", null ],
     [ "MR::SegmEndColors", "structMR_1_1SegmEndColors.html", null ],
     [ "MR::SegmentSegmentIntersectResult", "structMR_1_1SegmentSegmentIntersectResult.html", null ],
@@ -602,6 +606,9 @@ var hierarchy =
     [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", null ],
     [ "MR::GlTexture2::Settings", "structMR_1_1GlTexture2_1_1Settings.html", null ],
     [ "MR::GlTexture3::Settings", "structMR_1_1GlTexture3_1_1Settings.html", null ],
+    [ "MR::PointsSave::Settings", "structMR_1_1PointsSave_1_1Settings.html", [
+      [ "MR::PointsSave::CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", null ]
+    ] ],
     [ "MR::ShaderWarning", "structMR_1_1ShaderWarning.html", null ],
     [ "MR::ShadowsGL", "classMR_1_1ShadowsGL.html", null ],
     [ "MR::SharpenMarchingCubesMeshSettings", "structMR_1_1SharpenMarchingCubesMeshSettings.html", null ],
@@ -623,6 +630,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "MR::PrecipitationSimulator::SimulationStep", "structMR_1_1PrecipitationSimulator_1_1SimulationStep.html", null ],
+    [ "MR::SkyPatch", "structMR_1_1SkyPatch.html", null ],
     [ "MR::SortIntersectionsData", "structMR_1_1SortIntersectionsData.html", null ],
     [ "MR::SpaceMouseController", "classMR_1_1SpaceMouseController.html", null ],
     [ "MR::SpaceMouseHandler", "classMR_1_1SpaceMouseHandler.html", [

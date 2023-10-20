@@ -1,5 +1,6 @@
 var MREdgePaths_8h =
 [
+    [ "MR::TerminalVertex", "structMR_1_1TerminalVertex.html", "structMR_1_1TerminalVertex" ],
     [ "addLeftBand", "MREdgePaths_8h.html#gab0db7342678536825cb6b3bff51d832d", null ],
     [ "buildShortestPath", "MREdgePaths_8h.html#gadb0985d5186608aa8786111eead3c759", null ],
     [ "buildShortestPath", "MREdgePaths_8h.html#ga4ef10460976331354fd6633529b31b3f", null ],
