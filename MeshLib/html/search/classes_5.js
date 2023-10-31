@@ -21,7 +21,8 @@ var searchData=
   ['flowaggregator_18',['FlowAggregator',['../classMR_1_1FlowAggregator.html',1,'MR']]],
   ['floworigin_19',['FlowOrigin',['../structMR_1_1FlowOrigin.html',1,'MR']]],
   ['flows_20',['Flows',['../structMR_1_1FlowAggregator_1_1Flows.html',1,'MR::FlowAggregator']]],
-  ['framebufferdata_21',['FramebufferData',['../classMR_1_1FramebufferData.html',1,'MR']]],
-  ['frameredrawrequest_22',['FrameRedrawRequest',['../classMR_1_1FrameRedrawRequest.html',1,'MR']]],
-  ['freeformdeformer_23',['FreeFormDeformer',['../classMR_1_1FreeFormDeformer.html',1,'MR']]]
+  ['formdata_21',['FormData',['../structMR_1_1WebRequest_1_1FormData.html',1,'MR::WebRequest']]],
+  ['framebufferdata_22',['FramebufferData',['../classMR_1_1FramebufferData.html',1,'MR']]],
+  ['frameredrawrequest_23',['FrameRedrawRequest',['../classMR_1_1FrameRedrawRequest.html',1,'MR']]],
+  ['freeformdeformer_24',['FreeFormDeformer',['../classMR_1_1FreeFormDeformer.html',1,'MR']]]
 ];

@@ -10,5 +10,6 @@ var MRPrecisePredicates2_8h =
     [ "ccw", "MRPrecisePredicates2_8h.html#ga04b9e51953d898cf85e76c05d426366a", null ],
     [ "ccw", "MRPrecisePredicates2_8h.html#a748634eee611373365c3a338f0259d7e", null ],
     [ "doSegmentSegmentIntersect", "MRPrecisePredicates2_8h.html#a10729a0925102f48ab56d783b191699c", null ],
-    [ "findSegmentSegmentIntersectionPrecise", "MRPrecisePredicates2_8h.html#a5f3df64863abc3404145b3343176c230", null ]
+    [ "findSegmentSegmentIntersectionPrecise", "MRPrecisePredicates2_8h.html#a5f3df64863abc3404145b3343176c230", null ],
+    [ "findSegmentSegmentIntersectionPrecise", "MRPrecisePredicates2_8h.html#a1dd7d1f303aba49ee7b9f4e984261bd7", null ]
 ];

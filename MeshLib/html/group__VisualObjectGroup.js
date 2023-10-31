@@ -22,6 +22,7 @@ var group__VisualObjectGroup =
       [ "boundingBoxToInfoLines_", "classMR_1_1VisualObject.html#af81b9247c457c9dbd36d6bbe4c74b826", null ],
       [ "clone", "classMR_1_1VisualObject.html#a2abf3d3c767a16a584ad513af643feca", null ],
       [ "computeBoundingBox_", "classMR_1_1VisualObject.html#a4e27182996ebf22fc42c7d1ebf6cf02b", null ],
+      [ "copyColors", "classMR_1_1VisualObject.html#a3ec9388d840a8c98404fb767549b8003", null ],
       [ "deserializeFields_", "classMR_1_1VisualObject.html#a671160c49edeed239f1361b59bd68810", null ],
       [ "getAllVisualizeProperties", "classMR_1_1VisualObject.html#ab5a7a842052c24ab9b286eafae1bfb8d", null ],
       [ "getAmbientStrength", "classMR_1_1VisualObject.html#afd16375df437a376f44c3bdea5186b82", null ],

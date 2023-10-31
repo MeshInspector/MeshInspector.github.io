@@ -109,6 +109,9 @@ $(document).ready(function(){initNavTree('structMR_1_1PointCloud.html',''); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a400e79598dd6367452f3bfe56249615b" id="r_a400e79598dd6367452f3bfe56249615b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#a400e79598dd6367452f3bfe56249615b">hasNormals</a> () const</td></tr>
+<tr class="memdesc:a400e79598dd6367452f3bfe56249615b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if there is a normal for each point  <br /></td></tr>
+<tr class="separator:a400e79598dd6367452f3bfe56249615b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a683c82721c7a330fcc77903d1f3bb7d9" id="r_a683c82721c7a330fcc77903d1f3bb7d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#a683c82721c7a330fcc77903d1f3bb7d9">getAABBTree</a> () const</td></tr>
 <tr class="memdesc:a683c82721c7a330fcc77903d1f3bb7d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached aabb-tree for this point cloud, creating it if it did not exist in a thread-safe manner  <br /></td></tr>
 <tr class="separator:a683c82721c7a330fcc77903d1f3bb7d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,8 +123,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a28846bc1f86b18053ff605bd9cdffc26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3b1015ea089d93658ff4783c2282c8e" id="r_ac3b1015ea089d93658ff4783c2282c8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ada98ebf3fec74759dd46700389a3e556">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#ac3b1015ea089d93658ff4783c2282c8e">computeBoundingBox</a> (const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *toWorld=nullptr) const</td></tr>
 <tr class="separator:ac3b1015ea089d93658ff4783c2282c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a716cfd2cca1aa745672b8e29077c39fa" id="r_a716cfd2cca1aa745672b8e29077c39fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#a716cfd2cca1aa745672b8e29077c39fa">addPartByMask</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;from, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;fromVerts, <a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> *oldToNewMap=nullptr, const <a class="el" href="namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df">VertNormals</a> *extNormals=nullptr)</td></tr>
-<tr class="separator:a716cfd2cca1aa745672b8e29077c39fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8907016552924260082e3eaa3f163359" id="r_a8907016552924260082e3eaa3f163359"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#a8907016552924260082e3eaa3f163359">getLexicographicalOrder</a> () const</td></tr>
+<tr class="memdesc:a8907016552924260082e3eaa3f163359"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all valid point ids sorted lexicographically by their coordinates (optimal for uniform sampling)  <br /></td></tr>
+<tr class="separator:a8907016552924260082e3eaa3f163359"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a319f02ae48a72ea0f874efa137764365" id="r_a319f02ae48a72ea0f874efa137764365"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#a319f02ae48a72ea0f874efa137764365">addPartByMask</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;from, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;fromVerts, const <a class="el" href="structMR_1_1CloudPartMapping.html">CloudPartMapping</a> &amp;outMap={}, const <a class="el" href="namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df">VertNormals</a> *extNormals=nullptr)</td></tr>
+<tr class="separator:a319f02ae48a72ea0f874efa137764365"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78808a7ef1e8232c61b442f9ea9bc9c8" id="r_a78808a7ef1e8232c61b442f9ea9bc9c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#a78808a7ef1e8232c61b442f9ea9bc9c8">addPoint</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;point)</td></tr>
 <tr class="memdesc:a78808a7ef1e8232c61b442f9ea9bc9c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends a point and returns its VertId  <br /></td></tr>
 <tr class="separator:a78808a7ef1e8232c61b442f9ea9bc9c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,6 +139,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a74fb469992209dc4114c864cd3cb38a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0910605ccb60ed6a5dbc543e9e98fe2" id="r_ac0910605ccb60ed6a5dbc543e9e98fe2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#ac0910605ccb60ed6a5dbc543e9e98fe2">pack</a> (<a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> *outNew2Old=nullptr)</td></tr>
 <tr class="separator:ac0910605ccb60ed6a5dbc543e9e98fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafd6df26682cdaa7a360a4fdacf869bf" id="r_aafd6df26682cdaa7a360a4fdacf869bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae49732f6a4549f859a39da1454ff483f">VertBMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#aafd6df26682cdaa7a360a4fdacf869bf">pack</a> (<a class="el" href="namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9">Reorder</a> reoder)</td></tr>
+<tr class="separator:aafd6df26682cdaa7a360a4fdacf869bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7c257206a284f22b8e2484b87436069" id="r_ab7c257206a284f22b8e2484b87436069"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#ab7c257206a284f22b8e2484b87436069">invalidateCaches</a> ()</td></tr>
 <tr class="memdesc:ab7c257206a284f22b8e2484b87436069"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidates caches (e.g. aabb-tree) after a change in point cloud.  <br /></td></tr>
 <tr class="separator:ab7c257206a284f22b8e2484b87436069"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -151,8 +159,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a99cd2bd3f8fa8482032603f382ab9a03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a716cfd2cca1aa745672b8e29077c39fa" name="a716cfd2cca1aa745672b8e29077c39fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a716cfd2cca1aa745672b8e29077c39fa">&#9670;&#160;</a></span>addPartByMask()</h2>
+<a id="a319f02ae48a72ea0f874efa137764365" name="a319f02ae48a72ea0f874efa137764365"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a319f02ae48a72ea0f874efa137764365">&#9670;&#160;</a></span>addPartByMask()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -172,8 +180,8 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> *&#160;</td>
-          <td class="paramname"><em>oldToNewMap</em> = <code>nullptr</code>, </td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1CloudPartMapping.html">CloudPartMapping</a> &amp;&#160;</td>
+          <td class="paramname"><em>outMap</em> = <code>{}</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -331,6 +339,52 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a8907016552924260082e3eaa3f163359" name="a8907016552924260082e3eaa3f163359"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8907016552924260082e3eaa3f163359">&#9670;&#160;</a></span>getLexicographicalOrder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; MR::PointCloud::getLexicographicalOrder </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns all valid point ids sorted lexicographically by their coordinates (optimal for uniform sampling) </p>
+
+</div>
+</div>
+<a id="a400e79598dd6367452f3bfe56249615b" name="a400e79598dd6367452f3bfe56249615b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a400e79598dd6367452f3bfe56249615b">&#9670;&#160;</a></span>hasNormals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::PointCloud::hasNormals </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if there is a normal for each point </p>
+
+</div>
+</div>
 <a id="a25842b53d739f9841d97e66dd8221d59" name="a25842b53d739f9841d97e66dd8221d59"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a25842b53d739f9841d97e66dd8221d59">&#9670;&#160;</a></span>heapBytes()</h2>
 
@@ -397,8 +451,27 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aafd6df26682cdaa7a360a4fdacf869bf" name="aafd6df26682cdaa7a360a4fdacf869bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafd6df26682cdaa7a360a4fdacf869bf">&#9670;&#160;</a></span>pack() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae49732f6a4549f859a39da1454ff483f">VertBMap</a> MR::PointCloud::pack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9">Reorder</a>&#160;</td>
+          <td class="paramname"><em>reoder</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>tightly packs all arrays eliminating invalid points, reorders valid points according to given strategy; </p><dl class="section return"><dt>Returns</dt><dd>points mapping: old -&gt; new </dd></dl>
+
+</div>
+</div>
 <a id="ac0910605ccb60ed6a5dbc543e9e98fe2" name="ac0910605ccb60ed6a5dbc543e9e98fe2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0910605ccb60ed6a5dbc543e9e98fe2">&#9670;&#160;</a></span>pack()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0910605ccb60ed6a5dbc543e9e98fe2">&#9670;&#160;</a></span>pack() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -412,7 +485,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>tightly packs all arrays eliminating invalid points; returns false if the cloud was packed before the call and nothing has been changed; if pack is done optionally returns mappings: new.id -&gt; old.id </p>
+<p>tightly packs all arrays eliminating invalid points, but relative order of valid points is preserved; returns false if the cloud was packed before the call and nothing has been changed; if pack is done optionally returns mappings: new.id -&gt; old.id </p>
 
 </div>
 </div>

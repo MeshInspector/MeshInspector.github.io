@@ -69,7 +69,7 @@ var searchData=
   ['splitinfo_66',['splitInfo',['../structMR_1_1MenuItemCaptionSize.html#a6c9273ccf3e41bf654cf3667bc985c0e',1,'MR::MenuItemCaptionSize']]],
   ['src2tgtedges_67',['src2tgtEdges',['../structMR_1_1PartMapping.html#a93477815f6da158c618e4d0e6cbd4479',1,'MR::PartMapping']]],
   ['src2tgtfaces_68',['src2tgtFaces',['../structMR_1_1PartMapping.html#a17c114a164e936949a12ed9160b8643a',1,'MR::PartMapping']]],
-  ['src2tgtverts_69',['src2tgtVerts',['../structMR_1_1PartMapping.html#ac903190648e0aba9ba91ae345d82a1a8',1,'MR::PartMapping']]],
+  ['src2tgtverts_69',['src2tgtverts',['../structMR_1_1CloudPartMapping.html#a58a157b8e17755eba5fbff6ad4e90483',1,'MR::CloudPartMapping::src2tgtVerts'],['../structMR_1_1PartMapping.html#ac903190648e0aba9ba91ae345d82a1a8',1,'MR::PartMapping::src2tgtVerts']]],
   ['srcvert_70',['srcVert',['../structMR_1_1MeshBuilder_1_1VertDuplication.html#af11c3a7954be62b84ca6ea3b824ec5a6',1,'MR::MeshBuilder::VertDuplication']]],
   ['stabilizer_71',['stabilizer',['../structMR_1_1DecimateSettings.html#ab8a313e9caff73dd179f03a9c7b80baa',1,'MR::DecimateSettings::stabilizer'],['../structMR_1_1ResolveMeshDegenSettings.html#afc054861d37dd821d8c02677da8774da',1,'MR::ResolveMeshDegenSettings::stabilizer'],['../structMR_1_1DecimateParallelSettings.html#a737db1b3e50fc4961a8416f00bf3f49e',1,'MR::DecimateParallelSettings::stabilizer'],['../structMR_1_1DecimatePolylineSettings.html#a68c78013b24475c60475093e77bbdeff',1,'MR::DecimatePolylineSettings::stabilizer']]],
   ['start_72',['start',['../structMR_1_1VoxelMetricParameters.html#ae851669e25fee95a2b98a79736a529cf',1,'MR::VoxelMetricParameters']]],

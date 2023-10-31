@@ -13,5 +13,7 @@ var group__IOFormatsRegistryGroup =
     [ "MR::MeshLoad::MeshStreamLoader", "group__IOFormatsRegistryGroup.html#gafca47102be029039635b2868f215c1fc", null ],
     [ "MR::MeshLoad::getFilters", "group__IOFormatsRegistryGroup.html#gaca0d649d3cadf6807b1fa3b610368510", null ],
     [ "MR::MeshLoad::getMeshLoader", "group__IOFormatsRegistryGroup.html#ga350b9ad86f759c762c0c4df6371aa036", null ],
-    [ "MR::MeshLoad::getMeshStreamLoader", "group__IOFormatsRegistryGroup.html#ga247f35eb02151e0ce68e863a496609f6", null ]
+    [ "MR::MeshLoad::getMeshStreamLoader", "group__IOFormatsRegistryGroup.html#ga247f35eb02151e0ce68e863a496609f6", null ],
+    [ "MR::MeshLoad::setMeshLoader", "group__IOFormatsRegistryGroup.html#ga0f9725325727d7be1d674272050d63be", null ],
+    [ "MR::MeshLoad::setMeshStreamLoader", "group__IOFormatsRegistryGroup.html#ga63a0d1c0c1d62d4544f89d58e7e2bc43", null ]
 ];

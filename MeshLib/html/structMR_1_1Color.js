@@ -1,6 +1,7 @@
 var structMR_1_1Color =
 [
-    [ "Color", "structMR_1_1Color.html#a337d312a375c49e898fca4befbc791e7", null ],
+    [ "Color", "structMR_1_1Color.html#a361e3d7af72254b02de4d5bdf7f08b60", null ],
+    [ "Color", "structMR_1_1Color.html#a0e8192ca658c96fb4e5e4df8636a0caf", null ],
     [ "Color", "structMR_1_1Color.html#aaf2db44de4c5f5acbf14a93864096197", null ],
     [ "Color", "structMR_1_1Color.html#a697e26b32f883f75d3775f1af77dbdb6", null ],
     [ "Color", "structMR_1_1Color.html#a2879fe1d429706d60bf61dba5073b28d", null ],

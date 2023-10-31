@@ -124,10 +124,66 @@ Functions</h2></td></tr>
 <tr class="memitem:ad3d0d14aae4ad5f5ded80460d993d68d" id="r_ad3d0d14aae4ad5f5ded80460d993d68d"><td class="memItemLeft" align="right" valign="top">MRCUDA_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Cuda.html#ad3d0d14aae4ad5f5ded80460d993d68d">distanceMapFromContoursHeapBytes</a> (const <a class="el" href="namespaceMR.html#ab1ca9892644603a8b29005353e5ada79">MR::Polyline2</a> &amp;polyline, const <a class="el" href="structMR_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a> &amp;params)</td></tr>
 <tr class="memdesc:ad3d0d14aae4ad5f5ded80460d993d68d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes memory consumption of distanceMapFromContours function.  <br /></td></tr>
 <tr class="separator:ad3d0d14aae4ad5f5ded80460d993d68d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9061bd069fff314d1153c9e62570ac4" id="r_ae9061bd069fff314d1153c9e62570ac4"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="namespaceMR.html#a3312c2660218fff98bbaefbab53d2253">VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Cuda.html#ae9061bd069fff314d1153c9e62570ac4">computeSkyViewFactor</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;terrain, const <a class="el" href="namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5">VertCoords</a> &amp;samples, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;validSamples, const std::vector&lt; <a class="el" href="structMR_1_1SkyPatch.html">MR::SkyPatch</a> &gt; &amp;skyPatches, <a class="el" href="classMR_1_1BitSet.html">BitSet</a> *outSkyRays=nullptr)</td></tr>
+<tr class="separator:ae9061bd069fff314d1153c9e62570ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a230e311915aafa960cfdb855e2e1385d" id="r_a230e311915aafa960cfdb855e2e1385d"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Cuda.html#a230e311915aafa960cfdb855e2e1385d">findSkyRays</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;terrain, const <a class="el" href="namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5">VertCoords</a> &amp;samples, const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;validSamples, const std::vector&lt; <a class="el" href="structMR_1_1SkyPatch.html">MR::SkyPatch</a> &gt; &amp;skyPatches)</td></tr>
+<tr class="separator:a230e311915aafa960cfdb855e2e1385d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a049377206c74eb42b8d99eb0f9475876" id="r_a049377206c74eb42b8d99eb0f9475876"><td class="memItemLeft" align="right" valign="top">MRCUDA_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Cuda.html#a049377206c74eb42b8d99eb0f9475876">negatePicture</a> (<a class="el" href="structMR_1_1Image.html">MR::Image</a> &amp;image)</td></tr>
 <tr class="separator:a049377206c74eb42b8d99eb0f9475876"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ae9061bd069fff314d1153c9e62570ac4" name="ae9061bd069fff314d1153c9e62570ac4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9061bd069fff314d1153c9e62570ac4">&#9670;&#160;</a></span>computeSkyViewFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRCUDA_API <a class="el" href="namespaceMR.html#a3312c2660218fff98bbaefbab53d2253">VertScalars</a> MR::Cuda::computeSkyViewFactor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>terrain</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5">VertCoords</a> &amp;&#160;</td>
+          <td class="paramname"><em>samples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>validSamples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structMR_1_1SkyPatch.html">MR::SkyPatch</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>skyPatches</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> *&#160;</td>
+          <td class="paramname"><em>outSkyRays</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes relative radiation in each valid sample point by emitting rays from that point in the sky: the radiation is 1.0f if all rays reach the sky not hitting the terrain; the radiation is 0.0f if all rays do not reach the sky because they are intercepted by the terrain; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">outSkyRays</td><td>- optional output bitset where for every valid sample #i its rays are stored at indices [i*numPatches; (i+1)*numPatches), 0s for occluded rays (hitting the terrain) and 1s for the ones which don't hit anything and reach the sky </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ad257bedcdc1831b1df160989c3047f7d" name="ad257bedcdc1831b1df160989c3047f7d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad257bedcdc1831b1df160989c3047f7d">&#9670;&#160;</a></span>distanceMapFromContours()</h2>
 
@@ -185,6 +241,47 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Computes memory consumption of distanceMapFromContours function. </p>
+
+</div>
+</div>
+<a id="a230e311915aafa960cfdb855e2e1385d" name="a230e311915aafa960cfdb855e2e1385d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a230e311915aafa960cfdb855e2e1385d">&#9670;&#160;</a></span>findSkyRays()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRCUDA_API <a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::Cuda::findSkyRays </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>terrain</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5">VertCoords</a> &amp;&#160;</td>
+          <td class="paramname"><em>samples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>validSamples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structMR_1_1SkyPatch.html">MR::SkyPatch</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>skyPatches</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>In each valid sample point tests the rays from that point in the sky; </p><dl class="section return"><dt>Returns</dt><dd>bitset where for every valid sample #i its rays are stored at indices [i*numPatches; (i+1)*numPatches), 0s for occluded rays (hitting the terrain) and 1s for the ones which don't hit anything and reach the sky </dd></dl>
 
 </div>
 </div>

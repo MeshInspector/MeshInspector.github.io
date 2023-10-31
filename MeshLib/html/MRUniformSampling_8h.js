@@ -1,6 +1,6 @@
 var MRUniformSampling_8h =
 [
-    [ "makeUniformSampledCloud", "MRUniformSampling_8h.html#gac8164b0109c1c421828cd4005a31043a", null ],
-    [ "pointRegularUniformSampling", "MRUniformSampling_8h.html#gaa54a2ee61c817b3333dd542851ffc83b", null ],
-    [ "pointUniformSampling", "MRUniformSampling_8h.html#gaae7ea0d5c4d5faf2ee3e02fafc4eff91", null ]
+    [ "MR::UniformSamplingSettings", "structMR_1_1UniformSamplingSettings.html", "structMR_1_1UniformSamplingSettings" ],
+    [ "makeUniformSampledCloud", "MRUniformSampling_8h.html#gacc95b061bc268ba7d0b6e32ac47807f7", null ],
+    [ "pointUniformSampling", "MRUniformSampling_8h.html#ga1d42cd6fcda63ebaac2da831b5d85d72", null ]
 ];

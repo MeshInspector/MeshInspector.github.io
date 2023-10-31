@@ -21,5 +21,7 @@ var group__MeshLoadGroup =
     [ "MR::MeshLoad::fromOff", "group__MeshLoadGroup.html#ga6c3762bfe1af50816dadba2dd9f38632", null ],
     [ "MR::MeshLoad::fromOff", "group__MeshLoadGroup.html#ga8c2b792dfa2e7756007c2ad72922b40f", null ],
     [ "MR::MeshLoad::fromPly", "group__MeshLoadGroup.html#ga282dbb704e0c3e1d89b7f7a8b8dee956", null ],
-    [ "MR::MeshLoad::fromPly", "group__MeshLoadGroup.html#ga6209bbe402fe16ba337ff8f9e370b12a", null ]
+    [ "MR::MeshLoad::fromPly", "group__MeshLoadGroup.html#ga6209bbe402fe16ba337ff8f9e370b12a", null ],
+    [ "MR::MeshLoad::fromStep", "group__MeshLoadGroup.html#ga613a3f211e3058e51d5d5de3d07928d9", null ],
+    [ "MR::MeshLoad::fromStep", "group__MeshLoadGroup.html#gac8cff2dcd7aec4699954c2cd599561ae", null ]
 ];

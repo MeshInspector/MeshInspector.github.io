@@ -8,7 +8,7 @@ var searchData=
   ['webrequest_5',['WebRequest',['../classMR_1_1WebRequest.html',1,'MR']]],
   ['weight_6',['weight',['../structMR_1_1VertPair.html#a6be4702849ae600ea471ab410b2190f8',1,'MR::VertPair']]],
   ['weights_7',['weights',['../classMR_1_1MeshOrPoints.html#a1e980c7ce8ce348fcb921d6e1feb63c6',1,'MR::MeshOrPoints']]],
-  ['white_8',['white',['../structMR_1_1Color.html#afdf32fadc1e749715ad1911813a76f75',1,'MR::Color::white()'],['../classMR_1_1RibbonIcons.html#acd06ecfde8f0637bb01c0d36d8605befa25a81701fbfa4a1efdf660a950c1d006',1,'MR::RibbonIcons::White']]],
+  ['white_8',['white',['../classMR_1_1RibbonIcons.html#acd06ecfde8f0637bb01c0d36d8605befa25a81701fbfa4a1efdf660a950c1d006',1,'MR::RibbonIcons::White'],['../structMR_1_1Color.html#afdf32fadc1e749715ad1911813a76f75',1,'MR::Color::white()']]],
   ['wholeedgebmap_9',['WholeEdgeBMap',['../namespaceMR.html#ad21579a7ce5a5e21a5f258ee8ff5fabc',1,'MR']]],
   ['wholeedgehashmap_10',['WholeEdgeHashMap',['../namespaceMR.html#ab2730d7016e74f0d069e3f5791ae76dc',1,'MR']]],
   ['wholeedgemap_11',['WholeEdgeMap',['../namespaceMR.html#ab8a64e1ae478a6733cc6c0ab4441d0b9',1,'MR']]],

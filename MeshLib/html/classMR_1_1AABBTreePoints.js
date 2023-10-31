@@ -11,6 +11,8 @@ var classMR_1_1AABBTreePoints =
     [ "AABBTreePoints", "classMR_1_1AABBTreePoints.html#affd18b1fda8da3797dbcaa84425ab594", null ],
     [ "AABBTreePoints", "classMR_1_1AABBTreePoints.html#a65f478734833e01a7796565862c32038", null ],
     [ "getBoundingBox", "classMR_1_1AABBTreePoints.html#a9326f1fdd5cacabcf51e5eb51f56e53e", null ],
+    [ "getLeafOrder", "classMR_1_1AABBTreePoints.html#afda8c5fe845e055b0d3e838046ee1996", null ],
+    [ "getLeafOrderAndReset", "classMR_1_1AABBTreePoints.html#a0423d1153871df30826966748ac710a8", null ],
     [ "heapBytes", "classMR_1_1AABBTreePoints.html#a1a8a3bec838147878ea5d896d024d881", null ],
     [ "nodes", "classMR_1_1AABBTreePoints.html#a6f80276e2b9c2f30d60c17bf896f6137", null ],
     [ "operator=", "classMR_1_1AABBTreePoints.html#a0f0edac8d95fa30b01aeb66950911da9", null ],

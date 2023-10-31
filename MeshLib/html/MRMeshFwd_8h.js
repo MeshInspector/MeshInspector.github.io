@@ -203,6 +203,11 @@ var MRMeshFwd_8h =
       [ "Linear", "MRMeshFwd_8h.html#a6b6dd7eadc1056fc5ffd8af1810d925aa32a843da6ea40ab3b17a3421ccdf671b", null ],
       [ "Discrete", "MRMeshFwd_8h.html#a6b6dd7eadc1056fc5ffd8af1810d925aa4984667940802dedc139aa7a430a6553", null ]
     ] ],
+    [ "Reorder", "MRMeshFwd_8h.html#afedf1467ef6a61af5a59eafa50a41bf9", [
+      [ "None", "MRMeshFwd_8h.html#afedf1467ef6a61af5a59eafa50a41bf9a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "Lexicographically", "MRMeshFwd_8h.html#afedf1467ef6a61af5a59eafa50a41bf9a011f8c8ff21179c288b0492878ac5954", null ],
+      [ "AABBTree", "MRMeshFwd_8h.html#afedf1467ef6a61af5a59eafa50a41bf9a220dce5b9731e80b3b1d4a59a9bbe8d8", null ]
+    ] ],
     [ "WrapType", "MRMeshFwd_8h.html#a0e519d6a7c053c5d86dac33ecd0fa00c", [
       [ "Repeat", "MRMeshFwd_8h.html#a0e519d6a7c053c5d86dac33ecd0fa00ca7020426cfb0a204051be4b3053d2acc8", null ],
       [ "Mirror", "MRMeshFwd_8h.html#a0e519d6a7c053c5d86dac33ecd0fa00ca2403def5083f02105e7802b3b315681e", null ],
@@ -218,6 +223,7 @@ var MRMeshFwd_8h =
     [ "BMap", "MRMeshFwd_8h.html#a94888580c3dee1529c46303f33c6681f", null ],
     [ "Buffer", "MRMeshFwd_8h.html#ac0e64b96206dcc7e32053b671c6b2c1b", null ],
     [ "ChangeSceneAction", "MRMeshFwd_8h.html#a78658d7e2559b2c2ecccd1003dc75e04", null ],
+    [ "CloudPartMapping", "MRMeshFwd_8h.html#a32d2679c43468dd98bb8cf90ddd25b77", null ],
     [ "ColorMapAggregator", "MRMeshFwd_8h.html#ad936edeb5d535d4e181bb99178c6bb6a", null ],
     [ "dependent_false", "MRMeshFwd_8h.html#ac090ec24cc989c66ab1dbc182cb43c87", null ],
     [ "EdgeTag", "MRMeshFwd_8h.html#ac8c2508941fcd4ad714cdf50c45aa41c", null ],

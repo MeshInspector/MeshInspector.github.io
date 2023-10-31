@@ -157,6 +157,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a65f478734833e01a7796565862c32038"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f0edac8d95fa30b01aeb66950911da9" id="r_a0f0edac8d95fa30b01aeb66950911da9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTreePoints.html#a0f0edac8d95fa30b01aeb66950911da9">operator=</a> (<a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="separator:a0f0edac8d95fa30b01aeb66950911da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afda8c5fe845e055b0d3e838046ee1996" id="r_afda8c5fe845e055b0d3e838046ee1996"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTreePoints.html#afda8c5fe845e055b0d3e838046ee1996">getLeafOrder</a> (<a class="el" href="namespaceMR.html#ae49732f6a4549f859a39da1454ff483f">VertBMap</a> &amp;vertMap) const</td></tr>
+<tr class="separator:afda8c5fe845e055b0d3e838046ee1996"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0423d1153871df30826966748ac710a8" id="r_a0423d1153871df30826966748ac710a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTreePoints.html#a0423d1153871df30826966748ac710a8">getLeafOrderAndReset</a> (<a class="el" href="namespaceMR.html#ae49732f6a4549f859a39da1454ff483f">VertBMap</a> &amp;vertMap)</td></tr>
+<tr class="separator:a0423d1153871df30826966748ac710a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a8a3bec838147878ea5d896d024d881" id="r_a1a8a3bec838147878ea5d896d024d881"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTreePoints.html#a1a8a3bec838147878ea5d896d024d881">heapBytes</a> () const</td></tr>
 <tr class="memdesc:a1a8a3bec838147878ea5d896d024d881"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:a1a8a3bec838147878ea5d896d024d881"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -384,6 +388,44 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns the root node bounding box </p>
+
+</div>
+</div>
+<a id="afda8c5fe845e055b0d3e838046ee1996" name="afda8c5fe845e055b0d3e838046ee1996"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afda8c5fe845e055b0d3e838046ee1996">&#9670;&#160;</a></span>getLeafOrder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::AABBTreePoints::getLeafOrder </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ae49732f6a4549f859a39da1454ff483f">VertBMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>vertMap</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the mapping original VertId to new id following the points order in the tree; buffer in vertMap must be resized before the call, and caller is responsible for filling missing vertex elements </p>
+
+</div>
+</div>
+<a id="a0423d1153871df30826966748ac710a8" name="a0423d1153871df30826966748ac710a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0423d1153871df30826966748ac710a8">&#9670;&#160;</a></span>getLeafOrderAndReset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::AABBTreePoints::getLeafOrderAndReset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ae49732f6a4549f859a39da1454ff483f">VertBMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>vertMap</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the mapping original VertId to new id following the points order in the tree; then resets leaf order as if the points were renumberd following the mapping; buffer in vertMap must be resized before the call, and caller is responsible for filling missing vertex elements </p>
 
 </div>
 </div>

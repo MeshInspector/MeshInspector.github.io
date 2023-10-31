@@ -59,8 +59,8 @@ var group__BooleanGroup =
       [ "MR::BooleanOperation::Count", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "MR::boolean", "group__BooleanGroup.html#ga5dc229b89588f1a3416aca4910e460d9", null ],
-    [ "MR::convertMeshTriPointsToClosedContour", "group__BooleanGroup.html#gad20663df6197ea32b56b428804677b41", null ],
-    [ "MR::convertMeshTriPointsToMeshContour", "group__BooleanGroup.html#ga17e8968f87bebca61c162b6f9d304f74", null ],
+    [ "MR::convertMeshTriPointsToClosedContour", "group__BooleanGroup.html#gab0f50227954ad79a6c446aea3c81c869", null ],
+    [ "MR::convertMeshTriPointsToMeshContour", "group__BooleanGroup.html#ga75a5ecaa0b71ec23ac7d519651848ee9", null ],
     [ "MR::convertSurfacePathsToMeshContours", "group__BooleanGroup.html#ga9d5cd0e3c54003e08c1884a7895b3e74", null ],
     [ "MR::convertSurfacePathWithEndsToMeshContour", "group__BooleanGroup.html#ga4415eacd7a732188919def7411ee0245", null ],
     [ "MR::cutMesh", "group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc", null ],

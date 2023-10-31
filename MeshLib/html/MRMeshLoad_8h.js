@@ -21,5 +21,7 @@ var MRMeshLoad_8h =
     [ "fromOff", "MRMeshLoad_8h.html#ga6c3762bfe1af50816dadba2dd9f38632", null ],
     [ "fromOff", "MRMeshLoad_8h.html#ga8c2b792dfa2e7756007c2ad72922b40f", null ],
     [ "fromPly", "MRMeshLoad_8h.html#ga282dbb704e0c3e1d89b7f7a8b8dee956", null ],
-    [ "fromPly", "MRMeshLoad_8h.html#ga6209bbe402fe16ba337ff8f9e370b12a", null ]
+    [ "fromPly", "MRMeshLoad_8h.html#ga6209bbe402fe16ba337ff8f9e370b12a", null ],
+    [ "fromStep", "MRMeshLoad_8h.html#ga613a3f211e3058e51d5d5de3d07928d9", null ],
+    [ "fromStep", "MRMeshLoad_8h.html#gac8cff2dcd7aec4699954c2cd599561ae", null ]
 ];

@@ -10,6 +10,7 @@ var searchData=
   ['embeddedpython_7',['EmbeddedPython',['../classMR_1_1EmbeddedPython.html',1,'MR']]],
   ['embeddedstructureparameters_8',['EmbeddedStructureParameters',['../structMR_1_1EmbeddedStructureParameters.html',1,'MR']]],
   ['endvertices_9',['EndVertices',['../structMR_1_1Graph_1_1EndVertices.html',1,'MR::Graph']]],
-  ['equalvector3f_10',['equalVector3f',['../structMR_1_1MeshBuilder_1_1equalVector3f.html',1,'MR::MeshBuilder']]],
-  ['eventqueue_11',['EventQueue',['../classMR_1_1Viewer_1_1EventQueue.html',1,'MR::Viewer']]]
+  ['enumneihbourvertices_10',['EnumNeihbourVertices',['../classMR_1_1EnumNeihbourVertices.html',1,'MR']]],
+  ['equalvector3f_11',['equalVector3f',['../structMR_1_1MeshBuilder_1_1equalVector3f.html',1,'MR::MeshBuilder']]],
+  ['eventqueue_12',['EventQueue',['../classMR_1_1Viewer_1_1EventQueue.html',1,'MR::Viewer']]]
 ];

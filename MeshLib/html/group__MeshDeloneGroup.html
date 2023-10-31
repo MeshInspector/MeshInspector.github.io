@@ -105,8 +105,8 @@ $(document).ready(function(){initNavTree('group__MeshDeloneGroup.html',''); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga1ec4380e546867f3bf9809066ffecd3d" id="r_ga1ec4380e546867f3bf9809066ffecd3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#ga1ec4380e546867f3bf9809066ffecd3d">MR::checkDeloneQuadrangle</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;a, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;b, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;c, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;d, float maxAngleChange=<a class="el" href="namespaceMR.html#a500d4f823bf14e54d3aa73d4761a66d6">NoAngleChangeLimit</a>)</td></tr>
-<tr class="separator:ga1ec4380e546867f3bf9809066ffecd3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1ac6f792a2cc36b9ce72fe5ec68da30a" id="r_ga1ac6f792a2cc36b9ce72fe5ec68da30a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#ga1ac6f792a2cc36b9ce72fe5ec68da30a">MR::checkDeloneQuadrangle</a> (const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;a, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;b, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;c, const <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> &amp;d, float maxAngleChange=FLT_MAX)</td></tr>
+<tr class="separator:ga1ac6f792a2cc36b9ce72fe5ec68da30a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2d74fa7fe6b7d35734db515d33ba1f3f" id="r_ga2d74fa7fe6b7d35734db515d33ba1f3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshDeloneGroup.html#ga2d74fa7fe6b7d35734db515d33ba1f3f">MR::checkDeloneQuadrangleInMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> edge, const <a class="el" href="structMR_1_1DeloneSettings.html">DeloneSettings</a> &amp;settings={}, float *deviationSqAfterFlip=nullptr)</td></tr>
 <tr class="memdesc:ga2d74fa7fe6b7d35734db515d33ba1f3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared surface deviation after flip is written here (at least when the function returns false)  <br /></td></tr>
 <tr class="separator:ga2d74fa7fe6b7d35734db515d33ba1f3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,8 +119,8 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p><a href="https:///en.wikipedia.org/wiki/Boris_Delaunay">https:///en.wikipedia.org/wiki/Boris_Delaunay</a> </p>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga1ec4380e546867f3bf9809066ffecd3d" name="ga1ec4380e546867f3bf9809066ffecd3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1ec4380e546867f3bf9809066ffecd3d">&#9670;&#160;</a></span>checkDeloneQuadrangle()</h2>
+<a id="ga1ac6f792a2cc36b9ce72fe5ec68da30a" name="ga1ac6f792a2cc36b9ce72fe5ec68da30a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1ac6f792a2cc36b9ce72fe5ec68da30a">&#9670;&#160;</a></span>checkDeloneQuadrangle()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -153,7 +153,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>maxAngleChange</em> = <code><a class="el" href="namespaceMR.html#a500d4f823bf14e54d3aa73d4761a66d6">NoAngleChangeLimit</a></code>&#160;</td>
+          <td class="paramname"><em>maxAngleChange</em> = <code>FLT_MAX</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

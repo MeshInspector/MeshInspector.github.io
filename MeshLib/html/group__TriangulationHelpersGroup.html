@@ -124,6 +124,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga1875d032c45bdb19fa4b5f1d6a1fa2e5" id="r_ga1875d032c45bdb19fa4b5f1d6a1fa2e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__TriangulationHelpersGroup.html#ga1875d032c45bdb19fa4b5f1d6a1fa2e5">MR::TriangulationHelpers::trianglulateFan</a> (const <a class="el" href="namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5">VertCoords</a> &amp;points, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> v, <a class="el" href="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html">TriangulatedFanData</a> &amp;triangulationData, const <a class="el" href="namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5">VertCoords</a> &amp;normals, float critAngle, int steps=INT_MAX)</td></tr>
 <tr class="memdesc:ga1875d032c45bdb19fa4b5f1d6a1fa2e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates local triangulation by sorting and optimizing neighbors fan (normal of v is needed for consistent fan orientation)  <br /></td></tr>
 <tr class="separator:ga1875d032c45bdb19fa4b5f1d6a1fa2e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gade232dc6effded816ceab3a98616c8b6" id="r_gade232dc6effded816ceab3a98616c8b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__TriangulationHelpersGroup.html#gade232dc6effded816ceab3a98616c8b6">MR::TriangulationHelpers::isBoundaryPoint</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const <a class="el" href="namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5">VertCoords</a> &amp;normals, <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> v, float radius, float boundaryAngle, <a class="el" href="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html">TriangulatedFanData</a> &amp;triangulationData)</td></tr>
+<tr class="memdesc:gade232dc6effded816ceab3a98616c8b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if given vertex is on boundary of the point cloud.  <br /></td></tr>
+<tr class="separator:gade232dc6effded816ceab3a98616c8b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Collection of functions and structures needed for <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> triangulation. </p>
@@ -167,6 +170,72 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Finds all neighbors of v in given radius (v excluded) </p>
+
+</div>
+</div>
+<a id="gade232dc6effded816ceab3a98616c8b6" name="gade232dc6effded816ceab3a98616c8b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gade232dc6effded816ceab3a98616c8b6">&#9670;&#160;</a></span>isBoundaryPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::TriangulationHelpers::isBoundaryPoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;&#160;</td>
+          <td class="paramname"><em>pointCloud</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5">VertCoords</a> &amp;&#160;</td>
+          <td class="paramname"><em>normals</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a>&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>boundaryAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html">TriangulatedFanData</a> &amp;&#160;</td>
+          <td class="paramname"><em>triangulationData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if given vertex is on boundary of the point cloud. </p>
+<p>The vertex is considered as boundary if its neighbor ring has angle more than</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">boundaryAngle</td><td>degrees</td></tr>
+    <tr><td class="paramname">pointCloud</td><td>input point cloud </td></tr>
+    <tr><td class="paramname">normals</td><td>non-oriented normals for the point cloud </td></tr>
+    <tr><td class="paramname">v</td><td>vertex id to check </td></tr>
+    <tr><td class="paramname">radius</td><td>radius to find neighbors in </td></tr>
+    <tr><td class="paramname">triangulationData</td><td>cache structure for neighbors, not to allocate for multiple calls </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if vertex is boundary, false otherwise </dd></dl>
 
 </div>
 </div>

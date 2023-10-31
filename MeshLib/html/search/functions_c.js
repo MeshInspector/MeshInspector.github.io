@@ -43,7 +43,7 @@ var searchData=
   ['maketoruswithselfintersections_40',['makeTorusWithSelfIntersections',['../namespaceMR.html#a169156ebca843c757c06f9fe8cedae47',1,'MR']]],
   ['maketoruswithspikes_41',['makeTorusWithSpikes',['../namespaceMR.html#a04928fbb61dfb4922c926c1e5d2dce8e',1,'MR']]],
   ['maketoruswithundercut_42',['makeTorusWithUndercut',['../namespaceMR.html#a3ca166fd0f2975defbe09d92282f7b7c',1,'MR']]],
-  ['makeuniformsampledcloud_43',['makeUniformSampledCloud',['../group__PointCloudGroup.html#gac8164b0109c1c421828cd4005a31043a',1,'MR']]],
+  ['makeuniformsampledcloud_43',['makeUniformSampledCloud',['../group__PointCloudGroup.html#gacc95b061bc268ba7d0b6e32ac47807f7',1,'MR']]],
   ['makeunorientednormals_44',['makeunorientednormals',['../group__PointCloudGroup.html#gac7146c862a7b70f47e77f3cc3ffc9a23',1,'MR::makeUnorientedNormals(const PointCloud &amp;pointCloud, const Buffer&lt; VertId &gt; &amp;closeVerts, int numNei, const ProgressCallback &amp;progress={})'],['../group__PointCloudGroup.html#ga42d06dcccdf8aba01730bf868b2fec39',1,'MR::makeUnorientedNormals(const PointCloud &amp;pointCloud, float radius, const ProgressCallback &amp;progress={})']]],
   ['makeuvsphere_45',['makeUVSphere',['../namespaceMR.html#ace0cdcde3803687956bdf0612a44cf83',1,'MR']]],
   ['map_46',['map',['../structMR_1_1BooleanResultMapper.html#a730a4aa776837ed09143d106e54c085b',1,'MR::BooleanResultMapper::map(const FaceBitSet &amp;oldBS, MapObject obj) const'],['../structMR_1_1BooleanResultMapper.html#ac601634b2fe9f6fe7b9531d6c8bf6d7c',1,'MR::BooleanResultMapper::map(const VertBitSet &amp;oldBS, MapObject obj) const'],['../structMR_1_1BooleanResultMapper.html#ac5f5c7f84c16ba4d08fd3b45d06c5914',1,'MR::BooleanResultMapper::map(const EdgeBitSet &amp;oldBS, MapObject obj) const']]],

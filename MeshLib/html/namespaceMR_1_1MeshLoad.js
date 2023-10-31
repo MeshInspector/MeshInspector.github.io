@@ -30,7 +30,13 @@ var namespaceMR_1_1MeshLoad =
     [ "fromSceneObjFile", "group__MeshLoadObjGroup.html#ga3296f27b5749661a0d0103e2ef6a64d0", null ],
     [ "fromSceneObjFile", "group__MeshLoadObjGroup.html#ga0e9da414e69399f5f769f179a15aea23", null ],
     [ "fromSceneObjFile", "group__MeshLoadObjGroup.html#ga4f8d77284c540f7cb98d5cc3a0f02163", null ],
+    [ "fromSceneStepFile", "namespaceMR_1_1MeshLoad.html#aab6e1808d12f9d85e4d3777d9db1c8c7", null ],
+    [ "fromSceneStepFile", "namespaceMR_1_1MeshLoad.html#a7664cc78e1d6a7633e586c5fc2496b39", null ],
+    [ "fromStep", "group__MeshLoadGroup.html#ga613a3f211e3058e51d5d5de3d07928d9", null ],
+    [ "fromStep", "group__MeshLoadGroup.html#gac8cff2dcd7aec4699954c2cd599561ae", null ],
     [ "getFilters", "group__IOFormatsRegistryGroup.html#gaca0d649d3cadf6807b1fa3b610368510", null ],
     [ "getMeshLoader", "group__IOFormatsRegistryGroup.html#ga350b9ad86f759c762c0c4df6371aa036", null ],
-    [ "getMeshStreamLoader", "group__IOFormatsRegistryGroup.html#ga247f35eb02151e0ce68e863a496609f6", null ]
+    [ "getMeshStreamLoader", "group__IOFormatsRegistryGroup.html#ga247f35eb02151e0ce68e863a496609f6", null ],
+    [ "setMeshLoader", "group__IOFormatsRegistryGroup.html#ga0f9725325727d7be1d674272050d63be", null ],
+    [ "setMeshStreamLoader", "group__IOFormatsRegistryGroup.html#ga63a0d1c0c1d62d4544f89d58e7e2bc43", null ]
 ];

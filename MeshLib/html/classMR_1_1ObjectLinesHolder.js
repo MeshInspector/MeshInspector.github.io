@@ -30,6 +30,7 @@ var classMR_1_1ObjectLinesHolder =
     [ "shallowClone", "classMR_1_1ObjectLinesHolder.html#aa19c36b553adf089ebe87a6220248926", null ],
     [ "swapBase_", "classMR_1_1ObjectLinesHolder.html#a11d75f9e64cd1cec71eff3f65d040259", null ],
     [ "typeName", "classMR_1_1ObjectLinesHolder.html#a67bbdfa8042874e1a7033f78bb96be59", null ],
+    [ "updateLinesColorMap", "classMR_1_1ObjectLinesHolder.html#a59e3e83d9bf413fdb9a84fedda40f08f", null ],
     [ "linesColorMap_", "classMR_1_1ObjectLinesHolder.html#a58e224092d5971b40208e6d4a15e6862", null ],
     [ "lineWidth_", "classMR_1_1ObjectLinesHolder.html#ab981ac159b7e944aef46d972503003e7", null ],
     [ "numComponents_", "classMR_1_1ObjectLinesHolder.html#ac4657e92207e28ae97a59ce816f15f2e", null ],

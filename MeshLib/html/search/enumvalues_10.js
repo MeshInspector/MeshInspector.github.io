@@ -18,11 +18,12 @@ var searchData=
   ['right_15',['right',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca92b09c7c48c520c3c55e497875da437c',1,'MR::SetViewPresetMenuItem::Right'],['../namespaceMR.html#a78218d9e8bdad31c92f563f91f5d470aa54ea5115bec8bfd809c0ced25e85bbde',1,'MR::Right'],['../namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62da92b09c7c48c520c3c55e497875da437c',1,'MR::Right']]],
   ['rightleft_16',['RightLeft',['../group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a060e258e018b85df7750330be4f807c0',1,'MR']]],
   ['rightright_17',['RightRight',['../group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a8282c1db2ec5b8780478223365a37438',1,'MR']]],
-  ['rotate_18',['Rotate',['../classMR_1_1TouchesController.html#a5138dbae1e6c3d6ffdf6ea36f836f3e5aef5e7798f9df36e59431ba5f26d7bcdd',1,'MR::TouchesController']]],
-  ['rotation_19',['Rotation',['../namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75af1a42bd417390fc63b030a519624607a',1,'MR']]],
-  ['rotmask_20',['RotMask',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6a6428aea23660f83dac6edbd258b67a02',1,'MR']]],
-  ['rotx_21',['RotX',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6ae47d6e82d3529c2e696cb9b128c39350',1,'MR']]],
-  ['roty_22',['RotY',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6a3bf2bbb5aed73183fe04a25bc85c9ff6',1,'MR']]],
-  ['rotz_23',['RotZ',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6a160cb5fa4d344314ae594c958626c907',1,'MR']]],
-  ['round_24',['round',['../structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8ab7f41fc1412ad2ee75e9b2635d3b9d5c',1,'MR::OffsetContoursParams::Round'],['../structMR_1_1OffsetContoursParams.html#a7211722e3debbfaa5ad3c7b9dfa090a4ab7f41fc1412ad2ee75e9b2635d3b9d5c',1,'MR::OffsetContoursParams::Round']]]
+  ['roll_18',['Roll',['../namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75a25b5eb3bbef15385b5f5ff3abe46f342',1,'MR']]],
+  ['rotate_19',['Rotate',['../classMR_1_1TouchesController.html#a5138dbae1e6c3d6ffdf6ea36f836f3e5aef5e7798f9df36e59431ba5f26d7bcdd',1,'MR::TouchesController']]],
+  ['rotation_20',['Rotation',['../namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75af1a42bd417390fc63b030a519624607a',1,'MR']]],
+  ['rotmask_21',['RotMask',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6a6428aea23660f83dac6edbd258b67a02',1,'MR']]],
+  ['rotx_22',['RotX',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6ae47d6e82d3529c2e696cb9b128c39350',1,'MR']]],
+  ['roty_23',['RotY',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6a3bf2bbb5aed73183fe04a25bc85c9ff6',1,'MR']]],
+  ['rotz_24',['RotZ',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6a160cb5fa4d344314ae594c958626c907',1,'MR']]],
+  ['round_25',['round',['../structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8ab7f41fc1412ad2ee75e9b2635d3b9d5c',1,'MR::OffsetContoursParams::Round'],['../structMR_1_1OffsetContoursParams.html#a7211722e3debbfaa5ad3c7b9dfa090a4ab7f41fc1412ad2ee75e9b2635d3b9d5c',1,'MR::OffsetContoursParams::Round']]]
 ];

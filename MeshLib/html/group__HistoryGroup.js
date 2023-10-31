@@ -1,5 +1,19 @@
 var group__HistoryGroup =
 [
+    [ "MR::ChangeFacesColorMapAction", "classMR_1_1ChangeFacesColorMapAction.html", [
+      [ "Obj", "classMR_1_1ChangeFacesColorMapAction.html#aa339df5a9e2b648891867bc5a37bc837", null ],
+      [ "ChangeFacesColorMapAction", "classMR_1_1ChangeFacesColorMapAction.html#aec7da8b61591c85b8e910d1411bdaa56", null ],
+      [ "action", "classMR_1_1ChangeFacesColorMapAction.html#a77ea732b203bb29d780236576dec2923", null ],
+      [ "heapBytes", "classMR_1_1ChangeFacesColorMapAction.html#aeee3e56ac0c488d99b1fb638817c0a8f", null ],
+      [ "name", "classMR_1_1ChangeFacesColorMapAction.html#a78e08b193afdbeaeb8e52e7a520a28d6", null ]
+    ] ],
+    [ "MR::ChangeLinesColorMapAction", "classMR_1_1ChangeLinesColorMapAction.html", [
+      [ "Obj", "classMR_1_1ChangeLinesColorMapAction.html#a55aeaa9aea474f11f11d8cd2d9410499", null ],
+      [ "ChangeLinesColorMapAction", "classMR_1_1ChangeLinesColorMapAction.html#a7806259621a23a6b67669e9b3be99e92", null ],
+      [ "action", "classMR_1_1ChangeLinesColorMapAction.html#a72f12b1fca7e6ed8731a32ca1796e0b2", null ],
+      [ "heapBytes", "classMR_1_1ChangeLinesColorMapAction.html#a5c000b7f2ed38d70be031166c9529327", null ],
+      [ "name", "classMR_1_1ChangeLinesColorMapAction.html#a58c39c7fe8142548916393082fe71741", null ]
+    ] ],
     [ "MR::ChangeColoringType", "classMR_1_1ChangeColoringType.html", [
       [ "Obj", "classMR_1_1ChangeColoringType.html#a35b932ef1ea3756de261b79a1a7a7677", null ],
       [ "ChangeColoringType", "classMR_1_1ChangeColoringType.html#a6129a4154bb8fde03e2dfc8d0e310ad2", null ],
@@ -20,6 +34,13 @@ var group__HistoryGroup =
       [ "action", "classMR_1_1ChangeMeshUVCoordsAction.html#a8251a4c060d3538d58564c3429c9afda", null ],
       [ "heapBytes", "classMR_1_1ChangeMeshUVCoordsAction.html#a8ada93551abd3f590f7e4a2d9c093351", null ],
       [ "name", "classMR_1_1ChangeMeshUVCoordsAction.html#aa8f2ca30bbf02500362d5bc387ecbcf8", null ]
+    ] ],
+    [ "MR::ChangeTextureAction", "classMR_1_1ChangeTextureAction.html", [
+      [ "Obj", "classMR_1_1ChangeTextureAction.html#a1079ab459c62474b522dc9249a6d4a4c", null ],
+      [ "ChangeTextureAction", "classMR_1_1ChangeTextureAction.html#a128bec769ec23c0bb7aefe9fb391b2c2", null ],
+      [ "action", "classMR_1_1ChangeTextureAction.html#a6415831fcd79f6104620dcc3ae8b96a6", null ],
+      [ "heapBytes", "classMR_1_1ChangeTextureAction.html#add3319a36aa18e770733fef0c61d2f9d", null ],
+      [ "name", "classMR_1_1ChangeTextureAction.html#ad5e78402371a9402c2bc3e58851fd874", null ]
     ] ],
     [ "MR::ChangeMeshPointsAction", "classMR_1_1ChangeMeshPointsAction.html", [
       [ "Obj", "classMR_1_1ChangeMeshPointsAction.html#a340cefe2c61d0fb443d69100d5373a74", null ],

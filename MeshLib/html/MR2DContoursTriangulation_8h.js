@@ -8,8 +8,10 @@ var MR2DContoursTriangulation_8h =
       [ "Negative", "MR2DContoursTriangulation_8h.html#a41b088a697624ae295c7b3a7b137bca9affb9356ff2b7da85c75c92fa7ea03b8b", null ]
     ] ],
     [ "findHoleVertIdsByHoleEdges", "MR2DContoursTriangulation_8h.html#a3638a79ba38f8621fd9eb80783cb14be", null ],
-    [ "triangulateContours", "MR2DContoursTriangulation_8h.html#ae8d7f34bbb038aa86fadba7076e7ff40", null ],
-    [ "triangulateContours", "MR2DContoursTriangulation_8h.html#a6a0d0482c1d783c5a170573fdb56c7f2", null ],
+    [ "getOutline", "MR2DContoursTriangulation_8h.html#a10ddd0727e15465aa81390948dfa5a84", null ],
+    [ "getOutlineMesh", "MR2DContoursTriangulation_8h.html#ad09ed27033665824eba2aeda41d84cb2", null ],
+    [ "triangulateContours", "MR2DContoursTriangulation_8h.html#a3a4d8b0d7301b69cd93de010d000bbcc", null ],
+    [ "triangulateContours", "MR2DContoursTriangulation_8h.html#adeb4ce509fc66338b9d870c64aefde19", null ],
     [ "triangulateDisjointContours", "MR2DContoursTriangulation_8h.html#acaf8578bc4d6e4f5ec87031b5549ef6a", null ],
     [ "triangulateDisjointContours", "MR2DContoursTriangulation_8h.html#aeff59edbcb2b72dbdd615b96cb0d2c93", null ]
 ];

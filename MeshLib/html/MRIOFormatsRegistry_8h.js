@@ -5,5 +5,7 @@ var MRIOFormatsRegistry_8h =
     [ "MeshStreamLoader", "MRIOFormatsRegistry_8h.html#gafca47102be029039635b2868f215c1fc", null ],
     [ "getFilters", "MRIOFormatsRegistry_8h.html#gaca0d649d3cadf6807b1fa3b610368510", null ],
     [ "getMeshLoader", "MRIOFormatsRegistry_8h.html#ga350b9ad86f759c762c0c4df6371aa036", null ],
-    [ "getMeshStreamLoader", "MRIOFormatsRegistry_8h.html#ga247f35eb02151e0ce68e863a496609f6", null ]
+    [ "getMeshStreamLoader", "MRIOFormatsRegistry_8h.html#ga247f35eb02151e0ce68e863a496609f6", null ],
+    [ "setMeshLoader", "MRIOFormatsRegistry_8h.html#ga0f9725325727d7be1d674272050d63be", null ],
+    [ "setMeshStreamLoader", "MRIOFormatsRegistry_8h.html#ga63a0d1c0c1d62d4544f89d58e7e2bc43", null ]
 ];
