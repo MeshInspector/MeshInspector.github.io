@@ -114,10 +114,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aab7fc1ff330a8a3945824279673d2311"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79f6690f59e171ae1b4173dad9c57c5e" id="r_a79f6690f59e171ae1b4173dad9c57c5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PolylineTopology.html#a79f6690f59e171ae1b4173dad9c57c5e">buildOpenLines</a> (const std::vector&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; &amp;comp2firstVert)</td></tr>
 <tr class="separator:a79f6690f59e171ae1b4173dad9c57c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72edfca7ef0eaefb0673f4faf25ef0b4" id="r_a72edfca7ef0eaefb0673f4faf25ef0b4"><td class="memTemplParams" colspan="2">template&lt;typename T , typename F &gt; </td></tr>
-<tr class="memitem:a72edfca7ef0eaefb0673f4faf25ef0b4"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMR_1_1PolylineTopology.html#a72edfca7ef0eaefb0673f4faf25ef0b4">convertToContours</a> (F &amp;&amp;getPoint) const</td></tr>
-<tr class="memdesc:a72edfca7ef0eaefb0673f4faf25ef0b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts this topology into contours of given type using the functor returning point by its <a class="el" href="classMR_1_1Id.html">Id</a>  <br /></td></tr>
-<tr class="separator:a72edfca7ef0eaefb0673f4faf25ef0b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc8d16b6b6bf938f6dbe4f96fc768825" id="r_adc8d16b6b6bf938f6dbe4f96fc768825"><td class="memTemplParams" colspan="2">template&lt;typename T , typename F &gt; </td></tr>
+<tr class="memitem:adc8d16b6b6bf938f6dbe4f96fc768825"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMR_1_1PolylineTopology.html#adc8d16b6b6bf938f6dbe4f96fc768825">convertToContours</a> (F &amp;&amp;getPoint, std::vector&lt; std::vector&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; &gt; *vertMap=nullptr) const</td></tr>
+<tr class="memdesc:adc8d16b6b6bf938f6dbe4f96fc768825"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts this topology into contours of given type using the functor returning point by its <a class="el" href="classMR_1_1Id.html">Id</a>  <br /></td></tr>
+<tr class="separator:adc8d16b6b6bf938f6dbe4f96fc768825"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45f9c4c6c22c11a8dc7eae9eefc3e265" id="r_a45f9c4c6c22c11a8dc7eae9eefc3e265"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PolylineTopology.html#a45f9c4c6c22c11a8dc7eae9eefc3e265">makeEdge</a> ()</td></tr>
 <tr class="memdesc:a45f9c4c6c22c11a8dc7eae9eefc3e265"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates an edge not associated with any vertex  <br /></td></tr>
 <tr class="separator:a45f9c4c6c22c11a8dc7eae9eefc3e265"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -223,6 +223,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acd964eb898eab563867d4b84cc4af69d" id="r_acd964eb898eab563867d4b84cc4af69d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PolylineTopology.html#acd964eb898eab563867d4b84cc4af69d">addPartByMask</a> (const <a class="el" href="classMR_1_1PolylineTopology.html">PolylineTopology</a> &amp;from, const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> &amp;mask, <a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> *outVmap=nullptr, <a class="el" href="namespaceMR.html#ae2eea398ad770ec2244a9a9c50714933">EdgeMap</a> *outEmap=nullptr)</td></tr>
 <tr class="memdesc:acd964eb898eab563867d4b84cc4af69d"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends polyline topology (from) in addition to the current topology: creates new edges, verts;  <br /></td></tr>
 <tr class="separator:acd964eb898eab563867d4b84cc4af69d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c67e7b3c6e1ae6967dc7b66a6c5ab6d" id="r_a6c67e7b3c6e1ae6967dc7b66a6c5ab6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PolylineTopology.html#a6c67e7b3c6e1ae6967dc7b66a6c5ab6d">pack</a> (<a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> *outVmap=nullptr, <a class="el" href="namespaceMR.html#ab8a64e1ae478a6733cc6c0ab4441d0b9">WholeEdgeMap</a> *outEmap=nullptr)</td></tr>
+<tr class="separator:a6c67e7b3c6e1ae6967dc7b66a6c5ab6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afeacaa2685ac05679afb0b6675a1ff4b" id="r_afeacaa2685ac05679afb0b6675a1ff4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PolylineTopology.html#afeacaa2685ac05679afb0b6675a1ff4b">write</a> (std::ostream &amp;s) const</td></tr>
 <tr class="memdesc:afeacaa2685ac05679afb0b6675a1ff4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves and loads in binary stream  <br /></td></tr>
 <tr class="separator:afeacaa2685ac05679afb0b6675a1ff4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -484,8 +486,8 @@ if all even edges are consistently oriented, then the output contours will be or
 
 </div>
 </div>
-<a id="a72edfca7ef0eaefb0673f4faf25ef0b4" name="a72edfca7ef0eaefb0673f4faf25ef0b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72edfca7ef0eaefb0673f4faf25ef0b4">&#9670;&#160;</a></span>convertToContours()</h2>
+<a id="adc8d16b6b6bf938f6dbe4f96fc768825" name="adc8d16b6b6bf938f6dbe4f96fc768825"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc8d16b6b6bf938f6dbe4f96fc768825">&#9670;&#160;</a></span>convertToContours()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -496,8 +498,18 @@ template&lt;typename T , typename F &gt; </div>
           <td class="memname">std::vector&lt; std::vector&lt; T &gt; &gt; MR::PolylineTopology::convertToContours </td>
           <td>(</td>
           <td class="paramtype">F &amp;&amp;&#160;</td>
-          <td class="paramname"><em>getPoint</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>getPoint</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::vector&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt; &gt; *&#160;</td>
+          <td class="paramname"><em>vertMap</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1240,6 +1252,40 @@ template&lt;typename T , typename F &gt; </div>
 </div><div class="memdoc">
 
 <p>returns origin vertex of half-edge </p>
+
+</div>
+</div>
+<a id="a6c67e7b3c6e1ae6967dc7b66a6c5ab6d" name="a6c67e7b3c6e1ae6967dc7b66a6c5ab6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c67e7b3c6e1ae6967dc7b66a6c5ab6d">&#9670;&#160;</a></span>pack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::PolylineTopology::pack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> *&#160;</td>
+          <td class="paramname"><em>outVmap</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ab8a64e1ae478a6733cc6c0ab4441d0b9">WholeEdgeMap</a> *&#160;</td>
+          <td class="paramname"><em>outEmap</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>tightly packs all arrays eliminating lone edges and invalid vertices </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">outVmap,outEmap</td><td>if given returns mappings: old.id -&gt; new.id; </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

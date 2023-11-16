@@ -12,6 +12,7 @@ var structMR_1_1OffsetContoursParams =
       [ "Offset", "structMR_1_1OffsetContoursParams.html#af7ce0ff6c24247a435c6742c785db972adfd0a82c4bf37b1e90b690a22a20692e", null ],
       [ "Shell", "structMR_1_1OffsetContoursParams.html#af7ce0ff6c24247a435c6742c785db972aea89b68c34ce4a63c0f77e17413c6e30", null ]
     ] ],
+    [ "indicesMap", "structMR_1_1OffsetContoursParams.html#a12be62fd6087ac8e106eb73d625fb618", null ],
     [ "maxSharpAngle", "structMR_1_1OffsetContoursParams.html#a54d1e9aa48ca8acba1b89d63455ab630", null ],
     [ "minAnglePrecision", "structMR_1_1OffsetContoursParams.html#a52ea8121bcdb1c1f7d2c638a77f9b9d9", null ],
     [ "Offset", "structMR_1_1OffsetContoursParams.html#aaa59d5575d36ccf9d5237292d79740c8", null ],

@@ -20,6 +20,7 @@ var structMR_1_1Viewer_1_1LaunchParams =
     [ "isAnimating", "structMR_1_1Viewer_1_1LaunchParams.html#a82398397e33cb7dae2f4ce837ff93774", null ],
     [ "name", "structMR_1_1Viewer_1_1LaunchParams.html#abdd4e18a465186469db901315e243997", null ],
     [ "preferOpenGL3", "structMR_1_1Viewer_1_1LaunchParams.html#a30001c43bcefe89cbaa31d62dd377353", null ],
+    [ "render3dSceneInTexture", "structMR_1_1Viewer_1_1LaunchParams.html#a8fe22fbfe99a51385ac2d1fe226ec3d1", null ],
     [ "showMRVersionInTitle", "structMR_1_1Viewer_1_1LaunchParams.html#ac3c2e4bb3e8e1e444dbe9d5e94a7e08d", null ],
     [ "splashWindow", "structMR_1_1Viewer_1_1LaunchParams.html#a192742ec98264c90a3b65688201672e5", null ],
     [ "startEventLoop", "structMR_1_1Viewer_1_1LaunchParams.html#a2f68fde8376e3b80b2f4ead00d1566ae", null ],

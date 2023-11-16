@@ -1,6 +1,6 @@
 var classMR_1_1ObjectPoints =
 [
-    [ "PointsChangedSignal", "classMR_1_1ObjectPoints.html#a2ef4b5a0107ac2eec34e6089e601a16c", null ],
+    [ "ChangedSignal", "classMR_1_1ObjectPoints.html#a15c6c099456cf577963e410864c8110e", null ],
     [ "ObjectPoints", "classMR_1_1ObjectPoints.html#a7add507ed0f2abe3843cec2e9f387f8c", null ],
     [ "ObjectPoints", "classMR_1_1ObjectPoints.html#aef4d9f9b0da709f8683994b0e28148f6", null ],
     [ "ObjectPoints", "classMR_1_1ObjectPoints.html#aa61490c1ac4aa372d55e05f695cc5d23", null ],
@@ -19,5 +19,6 @@ var classMR_1_1ObjectPoints =
     [ "swapSignals_", "classMR_1_1ObjectPoints.html#aecd3842d0074e2705c003461b6c785d4", null ],
     [ "typeName", "classMR_1_1ObjectPoints.html#af389d74376fb91966716aa2ff7444a5d", null ],
     [ "varPointCloud", "classMR_1_1ObjectPoints.html#aa134e3602fae441e2eb584f728815c89", null ],
-    [ "pointsChangedSignal", "classMR_1_1ObjectPoints.html#ace2d21b6df7d6e7f457b469428560410", null ]
+    [ "normalsChangedSignal", "classMR_1_1ObjectPoints.html#a7c6a2b064f335e03cc02609bb3149ddd", null ],
+    [ "pointsChangedSignal", "classMR_1_1ObjectPoints.html#accd1f51bee9ac990323ede2215e36fb4", null ]
 ];

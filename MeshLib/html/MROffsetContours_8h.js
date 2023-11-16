@@ -1,7 +1,8 @@
 var MROffsetContours_8h =
 [
+    [ "MR::ContoursVertId", "structMR_1_1ContoursVertId.html", "structMR_1_1ContoursVertId" ],
     [ "MR::OffsetContoursParams", "structMR_1_1OffsetContoursParams.html", "structMR_1_1OffsetContoursParams" ],
-    [ "ContourIndicesMap", "MROffsetContours_8h.html#a437384d3f1dd154f5af29c0a5b9ee07a", null ],
-    [ "ContoursIndicesMap", "MROffsetContours_8h.html#a70567c457d1247c041daccb328dc6057", null ],
-    [ "offsetContours", "MROffsetContours_8h.html#a13fd7f6f4c21ca10264a68af45c700bd", null ]
+    [ "ContoursVertMap", "MROffsetContours_8h.html#a7f5ad40d802b43510430e13f8474cd8d", null ],
+    [ "ContoursVertMaps", "MROffsetContours_8h.html#af618792bd936d64cfcc9cda876c1d3eb", null ],
+    [ "offsetContours", "MROffsetContours_8h.html#ab7426c1e5606c942ffc7e8b5f91fa028", null ]
 ];

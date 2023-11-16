@@ -110,10 +110,14 @@ $(document).ready(function(){initNavTree('classMR_1_1CommandLoop.html',''); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a2e4318196fd48b27b617c07eb35bbe39" id="r_a2e4318196fd48b27b617c07eb35bbe39"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39">StartPosition</a> { <a class="el" href="classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39af86d54fce93fffda37739a9dbfc37c4c">AfterWindowInit</a>
+<tr class="memitem:a2e4318196fd48b27b617c07eb35bbe39" id="r_a2e4318196fd48b27b617c07eb35bbe39"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39">StartPosition</a> { <br />
+&#160;&#160;<a class="el" href="classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39af86d54fce93fffda37739a9dbfc37c4c">AfterWindowInit</a>
+, <a class="el" href="classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39aefac199d2823f9d78123a8ffb79b7b42">AfterSplashAppear</a>
 , <a class="el" href="classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39a06431eb0f93d82e51c38a39e608780a0">AfterPluginInit</a>
-, <a class="el" href="classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39a55585580ed9accef0b51dcb897278dd7">AfterSplash</a>
-, <a class="el" href="classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39a626474288d65a719abc0bb3d279c2d7a">AfterWindowAppear</a>
+, <a class="el" href="classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39af2719639552bcc235a778fef59dcb80c">AfterSplashHide</a>
+, <br />
+&#160;&#160;<a class="el" href="classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39a626474288d65a719abc0bb3d279c2d7a">AfterWindowAppear</a>
+<br />
  }</td></tr>
 <tr class="separator:a2e4318196fd48b27b617c07eb35bbe39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a517bdd4c876165f0896a0780d5fea918" id="r_a517bdd4c876165f0896a0780d5fea918"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1CommandLoop.html#a517bdd4c876165f0896a0780d5fea918">CommandFunc</a> = std::function&lt; void()&gt;</td></tr>
@@ -127,8 +131,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:aa3d66df8666058e293e9daa4b8f68928"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90822eccec894fc827de4d60e5b6285b" id="r_a90822eccec894fc827de4d60e5b6285b"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1CommandLoop.html#a90822eccec894fc827de4d60e5b6285b">setState</a> (<a class="el" href="classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39">StartPosition</a> state)</td></tr>
 <tr class="separator:a90822eccec894fc827de4d60e5b6285b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33e1ff01c3bbfb164343e0cd8a705212" id="r_a33e1ff01c3bbfb164343e0cd8a705212"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1CommandLoop.html#a33e1ff01c3bbfb164343e0cd8a705212">appendCommand</a> (<a class="el" href="classMR_1_1CommandLoop.html#a517bdd4c876165f0896a0780d5fea918">CommandFunc</a> func, <a class="el" href="classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39">StartPosition</a> state=<a class="el" href="classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39a55585580ed9accef0b51dcb897278dd7">StartPosition::AfterSplash</a>)</td></tr>
-<tr class="separator:a33e1ff01c3bbfb164343e0cd8a705212"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a968b5cb4bda2849bd9dca04a9b74c6c8" id="r_a968b5cb4bda2849bd9dca04a9b74c6c8"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1CommandLoop.html#a968b5cb4bda2849bd9dca04a9b74c6c8">appendCommand</a> (<a class="el" href="classMR_1_1CommandLoop.html#a517bdd4c876165f0896a0780d5fea918">CommandFunc</a> func, <a class="el" href="classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39">StartPosition</a> state=<a class="el" href="classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39af2719639552bcc235a778fef59dcb80c">StartPosition::AfterSplashHide</a>)</td></tr>
+<tr class="separator:a968b5cb4bda2849bd9dca04a9b74c6c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10e006b28fa9dbd3572e3b43c8037640" id="r_a10e006b28fa9dbd3572e3b43c8037640"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1CommandLoop.html#a10e006b28fa9dbd3572e3b43c8037640">runCommandFromGUIThread</a> (<a class="el" href="classMR_1_1CommandLoop.html#a517bdd4c876165f0896a0780d5fea918">CommandFunc</a> func)</td></tr>
 <tr class="separator:a10e006b28fa9dbd3572e3b43c8037640"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f948b137288b0e6e94ca32809166869" id="r_a2f948b137288b0e6e94ca32809166869"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1CommandLoop.html#a2f948b137288b0e6e94ca32809166869">processCommands</a> ()</td></tr>
@@ -171,16 +175,17 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2e4318196fd48b27b617c07eb35bbe39af86d54fce93fffda37739a9dbfc37c4c" name="a2e4318196fd48b27b617c07eb35bbe39af86d54fce93fffda37739a9dbfc37c4c"></a>AfterWindowInit&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e4318196fd48b27b617c07eb35bbe39aefac199d2823f9d78123a8ffb79b7b42" name="a2e4318196fd48b27b617c07eb35bbe39aefac199d2823f9d78123a8ffb79b7b42"></a>AfterSplashAppear&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a2e4318196fd48b27b617c07eb35bbe39a06431eb0f93d82e51c38a39e608780a0" name="a2e4318196fd48b27b617c07eb35bbe39a06431eb0f93d82e51c38a39e608780a0"></a>AfterPluginInit&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2e4318196fd48b27b617c07eb35bbe39a55585580ed9accef0b51dcb897278dd7" name="a2e4318196fd48b27b617c07eb35bbe39a55585580ed9accef0b51dcb897278dd7"></a>AfterSplash&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e4318196fd48b27b617c07eb35bbe39af2719639552bcc235a778fef59dcb80c" name="a2e4318196fd48b27b617c07eb35bbe39af2719639552bcc235a778fef59dcb80c"></a>AfterSplashHide&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a2e4318196fd48b27b617c07eb35bbe39a626474288d65a719abc0bb3d279c2d7a" name="a2e4318196fd48b27b617c07eb35bbe39a626474288d65a719abc0bb3d279c2d7a"></a>AfterWindowAppear&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a33e1ff01c3bbfb164343e0cd8a705212" name="a33e1ff01c3bbfb164343e0cd8a705212"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33e1ff01c3bbfb164343e0cd8a705212">&#9670;&#160;</a></span>appendCommand()</h2>
+<a id="a968b5cb4bda2849bd9dca04a9b74c6c8" name="a968b5cb4bda2849bd9dca04a9b74c6c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a968b5cb4bda2849bd9dca04a9b74c6c8">&#9670;&#160;</a></span>appendCommand()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -198,7 +203,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39">StartPosition</a>&#160;</td>
-          <td class="paramname"><em>state</em> = <code><a class="el" href="classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39a55585580ed9accef0b51dcb897278dd7">StartPosition::AfterSplash</a></code>&#160;</td>
+          <td class="paramname"><em>state</em> = <code><a class="el" href="classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39af2719639552bcc235a778fef59dcb80c">StartPosition::AfterSplashHide</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>

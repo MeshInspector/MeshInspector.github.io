@@ -61,7 +61,7 @@ var searchData=
   ['any_58',['any',['../classMR_1_1MeshDiff.html#a75b8d7d561c4183ee307a3c1f1d85ba1',1,'MR::MeshDiff::any()'],['../classMR_1_1ViewportMask.html#a002460583d469f70652956e197aa4ecf',1,'MR::ViewportMask::any()']]],
   ['append_5fviewport_59',['append_viewport',['../classMR_1_1Viewer.html#ad7cee4558939e02faf2e9e514800c80c',1,'MR::Viewer']]],
   ['appendaction_60',['appendAction',['../classMR_1_1HistoryStore.html#a567334bd2d093c338ced3ee9eae572d6',1,'MR::HistoryStore']]],
-  ['appendcommand_61',['appendCommand',['../classMR_1_1CommandLoop.html#a33e1ff01c3bbfb164343e0cd8a705212',1,'MR::CommandLoop']]],
+  ['appendcommand_61',['appendCommand',['../classMR_1_1CommandLoop.html#a968b5cb4bda2849bd9dca04a9b74c6c8',1,'MR::CommandLoop']]],
   ['appendgpuvisiblefaces_62',['appendGPUVisibleFaces',['../namespaceMR.html#a576eea4c4f274e1c943476be2be2394e',1,'MR']]],
   ['appendhistory_63',['appendhistory',['../namespaceMR.html#a16bb6fdbdb21a92b1fa0da2432cc699a',1,'MR::AppendHistory(Args &amp;&amp;... args)'],['../namespaceMR.html#a82568b5f11eaffabab107d98250d2edf',1,'MR::AppendHistory(std::shared_ptr&lt; HistoryActionType &gt; action)']]],
   ['appendhistoryaction_64',['appendHistoryAction',['../classMR_1_1Viewer.html#a1a20bdc9d56370d96089ed755fd73ad5',1,'MR::Viewer']]],

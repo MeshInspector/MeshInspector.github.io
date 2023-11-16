@@ -103,6 +103,7 @@ var group__BasicGroup =
         [ "val", "structMR_1_1Heap_1_1Element.html#a7bd4aa28de0c5142c7149308ec9da563", null ]
       ] ],
       [ "Heap", "group__BasicGroup.html#ga484758be506c83b8a42bbb37f7761507", null ],
+      [ "Heap", "group__BasicGroup.html#gad25d3f2e0a2385b7458ee0a7229d6130", null ],
       [ "increaseValue", "classMR_1_1Heap.html#af4f46522c9ccfd4ade826452c287a15d", null ],
       [ "resize", "group__BasicGroup.html#ga1850d4188a12bb75802dc364f7309bd6", null ],
       [ "setLargerValue", "group__BasicGroup.html#ga967a46dde0718e3a1b167f25dfc62251", null ],
@@ -242,6 +243,7 @@ var group__BasicGroup =
     [ "MR::TaggedBitSet::getMapping", "group__BasicGroup.html#gaa4bfd91f5deea86ed182d80b926a7d67", null ],
     [ "MR::TaggedBitSet::getMapping", "group__BasicGroup.html#ga83b6dafddf5dba83e0a3bda7fb69c98c", null ],
     [ "MR::Heap::Heap", "group__BasicGroup.html#ga484758be506c83b8a42bbb37f7761507", null ],
+    [ "MR::Heap::Heap", "group__BasicGroup.html#gad25d3f2e0a2385b7458ee0a7229d6130", null ],
     [ "MR::heapBytes", "group__BasicGroup.html#gac4cf85680ec3620cb08726ea6668e99a", null ],
     [ "MR::heapBytes", "group__BasicGroup.html#ga6f62a19a1892f63b5d147de8ef2160c0", null ],
     [ "MR::heapBytes", "group__BasicGroup.html#ga2442ef2afa7012af6ca21ebcb6604536", null ],

@@ -98,6 +98,7 @@ $(document).ready(function(){initNavTree('MR2DContoursTriangulation_8h.html','')
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
@@ -106,10 +107,20 @@ $(document).ready(function(){initNavTree('MR2DContoursTriangulation_8h.html','')
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRId_8h_source.html">MRId.h</a>&quot;</code><br />
 <code>#include &lt;optional&gt;</code><br />
 </div>
 <p><a href="MR2DContoursTriangulation_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html">MR::PlanarTriangulation::IntersectionInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Info about intersection point for mapping.  <a href="structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html">MR::PlanarTriangulation::IntersectionsMap</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">struct to map new vertices (only appear on intersections) of the outline to it's edges  <a href="structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceMR" id="r_namespaceMR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
@@ -123,6 +134,10 @@ Typedefs</h2></td></tr>
 <tr class="separator:ab595944dab7616f973bea21b9ef0e36c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8da920da881060eb3594e216959fe179" id="r_a8da920da881060eb3594e216959fe179"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1PlanarTriangulation.html#a8da920da881060eb3594e216959fe179">MR::PlanarTriangulation::HolesVertIds</a> = std::vector&lt; <a class="el" href="namespaceMR_1_1PlanarTriangulation.html#ab595944dab7616f973bea21b9ef0e36c">HoleVertIds</a> &gt;</td></tr>
 <tr class="separator:a8da920da881060eb3594e216959fe179"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6d04e9f3ddcf2a610b44d64945c4e66" id="r_ac6d04e9f3ddcf2a610b44d64945c4e66"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1PlanarTriangulation.html#ac6d04e9f3ddcf2a610b44d64945c4e66">MR::PlanarTriangulation::ContourIdMap</a> = std::vector&lt; <a class="el" href="structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html">IntersectionInfo</a> &gt;</td></tr>
+<tr class="separator:ac6d04e9f3ddcf2a610b44d64945c4e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94cf2de068a5d5d1304373c6ff6a3d64" id="r_a94cf2de068a5d5d1304373c6ff6a3d64"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1PlanarTriangulation.html#a94cf2de068a5d5d1304373c6ff6a3d64">MR::PlanarTriangulation::ContoursIdMap</a> = std::vector&lt; <a class="el" href="namespaceMR_1_1PlanarTriangulation.html#ac6d04e9f3ddcf2a610b44d64945c4e66">ContourIdMap</a> &gt;</td></tr>
+<tr class="separator:a94cf2de068a5d5d1304373c6ff6a3d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -138,12 +153,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a3638a79ba38f8621fd9eb80783cb14be" id="r_a3638a79ba38f8621fd9eb80783cb14be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR_1_1PlanarTriangulation.html#a8da920da881060eb3594e216959fe179">HolesVertIds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1PlanarTriangulation.html#a3638a79ba38f8621fd9eb80783cb14be">MR::PlanarTriangulation::findHoleVertIdsByHoleEdges</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;tp, const std::vector&lt; <a class="el" href="namespaceMR.html#a526402792c1d3b8d8903535592613b9f">EdgePath</a> &gt; &amp;holePaths)</td></tr>
 <tr class="memdesc:a3638a79ba38f8621fd9eb80783cb14be"><td class="mdescLeft">&#160;</td><td class="mdescRight">return vertices of holes that correspond internal contours representation of <a class="el" href="namespaceMR_1_1PlanarTriangulation.html">PlanarTriangulation</a>  <br /></td></tr>
 <tr class="separator:a3638a79ba38f8621fd9eb80783cb14be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad09ed27033665824eba2aeda41d84cb2" id="r_ad09ed27033665824eba2aeda41d84cb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1PlanarTriangulation.html#ad09ed27033665824eba2aeda41d84cb2">MR::PlanarTriangulation::getOutlineMesh</a> (const <a class="el" href="namespaceMR.html#a50e8714d42cba4acf038efe5c4bd491a">Contours2f</a> &amp;contours)</td></tr>
-<tr class="memdesc:ad09ed27033665824eba2aeda41d84cb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns <a class="el" href="structMR_1_1Mesh.html">Mesh</a> with boundaries representing outline if input contours  <br /></td></tr>
-<tr class="separator:ad09ed27033665824eba2aeda41d84cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10ddd0727e15465aa81390948dfa5a84" id="r_a10ddd0727e15465aa81390948dfa5a84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a50e8714d42cba4acf038efe5c4bd491a">Contours2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1PlanarTriangulation.html#a10ddd0727e15465aa81390948dfa5a84">MR::PlanarTriangulation::getOutline</a> (const <a class="el" href="namespaceMR.html#a50e8714d42cba4acf038efe5c4bd491a">Contours2f</a> &amp;contours)</td></tr>
-<tr class="memdesc:a10ddd0727e15465aa81390948dfa5a84"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns Contour representing outline if input contours  <br /></td></tr>
-<tr class="separator:a10ddd0727e15465aa81390948dfa5a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a901fef65581a41fd25371dee75fa5ab9" id="r_a901fef65581a41fd25371dee75fa5ab9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1PlanarTriangulation.html#a901fef65581a41fd25371dee75fa5ab9">MR::PlanarTriangulation::getOutlineMesh</a> (const <a class="el" href="namespaceMR.html#a50e8714d42cba4acf038efe5c4bd491a">Contours2f</a> &amp;contours, <a class="el" href="structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html">IntersectionsMap</a> *interMap=nullptr)</td></tr>
+<tr class="separator:a901fef65581a41fd25371dee75fa5ab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a664e29ee2d39dc799b93387d4b9a9185" id="r_a664e29ee2d39dc799b93387d4b9a9185"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a50e8714d42cba4acf038efe5c4bd491a">Contours2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1PlanarTriangulation.html#a664e29ee2d39dc799b93387d4b9a9185">MR::PlanarTriangulation::getOutline</a> (const <a class="el" href="namespaceMR.html#a50e8714d42cba4acf038efe5c4bd491a">Contours2f</a> &amp;contours, <a class="el" href="namespaceMR_1_1PlanarTriangulation.html#a94cf2de068a5d5d1304373c6ff6a3d64">ContoursIdMap</a> *indicesMap=nullptr)</td></tr>
+<tr class="separator:a664e29ee2d39dc799b93387d4b9a9185"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a4d8b0d7301b69cd93de010d000bbcc" id="r_a3a4d8b0d7301b69cd93de010d000bbcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1PlanarTriangulation.html#a3a4d8b0d7301b69cd93de010d000bbcc">MR::PlanarTriangulation::triangulateContours</a> (const <a class="el" href="namespaceMR.html#aa9a6636cb17e8fa436649e79bdc76aeb">Contours2d</a> &amp;contours, const <a class="el" href="namespaceMR_1_1PlanarTriangulation.html#a8da920da881060eb3594e216959fe179">HolesVertIds</a> *holeVertsIds=nullptr)</td></tr>
 <tr class="memdesc:a3a4d8b0d7301b69cd93de010d000bbcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate 2d contours only closed contours are allowed (first point of each contour should be the same as last point of the contour)  <br /></td></tr>
 <tr class="separator:a3a4d8b0d7301b69cd93de010d000bbcc"><td class="memSeparator" colspan="2">&#160;</td></tr>

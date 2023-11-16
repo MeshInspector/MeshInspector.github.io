@@ -146,19 +146,17 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a16187984f5e9329e2eefbdce7ce0585d">MR::DIRTY_TEXTURE</a> = 0x0040
 , <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a8a1e8d099f1d302ff6e72082b8546627">MR::DIRTY_PRIMITIVES</a> = 0x0080
 , <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a32fcd55df4b9420427f5168b5558a4a6">MR::DIRTY_FACE</a> = DIRTY_PRIMITIVES
-, <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a497efbd99f845eb3f162a5efabd97b08">MR::DIRTY_BACK_FACES</a> = 0x0100
+, <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a3a601c32f4902f478919ce2b64a4e475">MR::DIRTY_VERTS_COLORMAP</a> = 0x0100
 , <br />
-&#160;&#160;<a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a3a601c32f4902f478919ce2b64a4e475">MR::DIRTY_VERTS_COLORMAP</a> = 0x0200
-, <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a095a0cbf99eaeafc9e593ee191e48cf3">MR::DIRTY_PRIMITIVE_COLORMAP</a> = 0x0400
+&#160;&#160;<a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a095a0cbf99eaeafc9e593ee191e48cf3">MR::DIRTY_PRIMITIVE_COLORMAP</a> = 0x0200
 , <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a2844551064db079a1d3da473c389c9ca">MR::DIRTY_FACES_COLORMAP</a> = DIRTY_PRIMITIVE_COLORMAP
-, <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a269c9589c9cb0406be81dcb855532f0b">MR::DIRTY_MESH</a> = 0x07FF
+, <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a269c9589c9cb0406be81dcb855532f0b">MR::DIRTY_MESH</a> = 0x03FF
+, <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a9db66783aae1f516f71efb3d8e57443a">MR::DIRTY_BOUNDING_BOX</a> = 0x0400
 , <br />
-&#160;&#160;<a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a9db66783aae1f516f71efb3d8e57443a">MR::DIRTY_BOUNDING_BOX</a> = 0x0800
-, <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a4d37651692aaecc731860a4e8c4df169">MR::DIRTY_BORDER_LINES</a> = 0x2000
-, <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a38d6a5c484bf483e7d19d0e88b575a5f">MR::DIRTY_EDGES_SELECTION</a> = 0x4000
+&#160;&#160;<a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a4d37651692aaecc731860a4e8c4df169">MR::DIRTY_BORDER_LINES</a> = 0x0800
+, <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a38d6a5c484bf483e7d19d0e88b575a5f">MR::DIRTY_EDGES_SELECTION</a> = 0x1000
 , <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a7930beec8f8d317d708811012219855a">MR::DIRTY_CACHES</a> = DIRTY_BOUNDING_BOX
-, <br />
-&#160;&#160;<a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a">MR::DIRTY_ALL</a> = 0x3FFFF
+, <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a">MR::DIRTY_ALL</a> = 0x1FFF
 <br />
  }</td></tr>
 <tr class="separator:ga03255e831f4895337e7cf27d64e51269"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -240,7 +238,6 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="gga03255e831f4895337e7cf27d64e51269a16187984f5e9329e2eefbdce7ce0585d" name="gga03255e831f4895337e7cf27d64e51269a16187984f5e9329e2eefbdce7ce0585d"></a>DIRTY_TEXTURE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="gga03255e831f4895337e7cf27d64e51269a8a1e8d099f1d302ff6e72082b8546627" name="gga03255e831f4895337e7cf27d64e51269a8a1e8d099f1d302ff6e72082b8546627"></a>DIRTY_PRIMITIVES&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="gga03255e831f4895337e7cf27d64e51269a32fcd55df4b9420427f5168b5558a4a6" name="gga03255e831f4895337e7cf27d64e51269a32fcd55df4b9420427f5168b5558a4a6"></a>DIRTY_FACE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="gga03255e831f4895337e7cf27d64e51269a497efbd99f845eb3f162a5efabd97b08" name="gga03255e831f4895337e7cf27d64e51269a497efbd99f845eb3f162a5efabd97b08"></a>DIRTY_BACK_FACES&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="gga03255e831f4895337e7cf27d64e51269a3a601c32f4902f478919ce2b64a4e475" name="gga03255e831f4895337e7cf27d64e51269a3a601c32f4902f478919ce2b64a4e475"></a>DIRTY_VERTS_COLORMAP&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="gga03255e831f4895337e7cf27d64e51269a095a0cbf99eaeafc9e593ee191e48cf3" name="gga03255e831f4895337e7cf27d64e51269a095a0cbf99eaeafc9e593ee191e48cf3"></a>DIRTY_PRIMITIVE_COLORMAP&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="gga03255e831f4895337e7cf27d64e51269a2844551064db079a1d3da473c389c9ca" name="gga03255e831f4895337e7cf27d64e51269a2844551064db079a1d3da473c389c9ca"></a>DIRTY_FACES_COLORMAP&#160;</td><td class="fielddoc"></td></tr>

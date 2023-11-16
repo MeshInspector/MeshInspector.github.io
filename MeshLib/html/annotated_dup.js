@@ -33,11 +33,16 @@ var annotated_dup =
         [ "CtmSaveOptions", "structMR_1_1MeshSave_1_1CtmSaveOptions.html", "structMR_1_1MeshSave_1_1CtmSaveOptions" ],
         [ "NamedXfMesh", "structMR_1_1MeshSave_1_1NamedXfMesh.html", "structMR_1_1MeshSave_1_1NamedXfMesh" ]
       ] ],
+      [ "PlanarTriangulation", "namespaceMR_1_1PlanarTriangulation.html", [
+        [ "IntersectionInfo", "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html", "structMR_1_1PlanarTriangulation_1_1IntersectionInfo" ],
+        [ "IntersectionsMap", "structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html", "structMR_1_1PlanarTriangulation_1_1IntersectionsMap" ]
+      ] ],
       [ "PointsSave", "namespaceMR_1_1PointsSave.html", [
         [ "CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", "structMR_1_1PointsSave_1_1CtmSavePointsOptions" ],
         [ "Settings", "structMR_1_1PointsSave_1_1Settings.html", "structMR_1_1PointsSave_1_1Settings" ]
       ] ],
       [ "TriangulationHelpers", "namespaceMR_1_1TriangulationHelpers.html", [
+        [ "Settings", "structMR_1_1TriangulationHelpers_1_1Settings.html", "structMR_1_1TriangulationHelpers_1_1Settings" ],
         [ "TriangulatedFanData", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData" ]
       ] ],
       [ "VoxelsLoad", "namespaceMR_1_1VoxelsLoad.html", [
@@ -128,6 +133,7 @@ var annotated_dup =
       [ "ConstantCuspParams", "structMR_1_1ConstantCuspParams.html", "structMR_1_1ConstantCuspParams" ],
       [ "ContoursDistanceMapOffset", "structMR_1_1ContoursDistanceMapOffset.html", "structMR_1_1ContoursDistanceMapOffset" ],
       [ "ContoursDistanceMapOptions", "structMR_1_1ContoursDistanceMapOptions.html", "structMR_1_1ContoursDistanceMapOptions" ],
+      [ "ContoursVertId", "structMR_1_1ContoursVertId.html", "structMR_1_1ContoursVertId" ],
       [ "ContourToDistanceMapParams", "structMR_1_1ContourToDistanceMapParams.html", "structMR_1_1ContourToDistanceMapParams" ],
       [ "CoordinateConverters", "structMR_1_1CoordinateConverters.html", "structMR_1_1CoordinateConverters" ],
       [ "CoordinateConverters2", "structMR_1_1CoordinateConverters2.html", "structMR_1_1CoordinateConverters2" ],
@@ -146,6 +152,7 @@ var annotated_dup =
       [ "DemoPlugin", "classMR_1_1DemoPlugin.html", "classMR_1_1DemoPlugin" ],
       [ "DenoiseViaNormalsSettings", "structMR_1_1DenoiseViaNormalsSettings.html", "structMR_1_1DenoiseViaNormalsSettings" ],
       [ "DenseBox", "structMR_1_1DenseBox.html", "structMR_1_1DenseBox" ],
+      [ "DetectTunnelSettings", "structMR_1_1DetectTunnelSettings.html", "structMR_1_1DetectTunnelSettings" ],
       [ "Dipole", "structMR_1_1Dipole.html", "structMR_1_1Dipole" ],
       [ "Directory", "structMR_1_1Directory.html", "structMR_1_1Directory" ],
       [ "DirectoryIterator", "structMR_1_1DirectoryIterator.html", "structMR_1_1DirectoryIterator" ],
@@ -433,6 +440,7 @@ var annotated_dup =
       [ "SceneStateExactCheck", "classMR_1_1SceneStateExactCheck.html", "classMR_1_1SceneStateExactCheck" ],
       [ "SceneStateExactCheck< N, ObjectT, NoVisualRepresentationCheck >", "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html", "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4" ],
       [ "SceneStateOrCheck", "classMR_1_1SceneStateOrCheck.html", "classMR_1_1SceneStateOrCheck" ],
+      [ "SceneTextureGL", "classMR_1_1SceneTextureGL.html", "classMR_1_1SceneTextureGL" ],
       [ "ScopeHistory", "classMR_1_1ScopeHistory.html", "classMR_1_1ScopeHistory" ],
       [ "SearchPathSettings", "structMR_1_1SearchPathSettings.html", "structMR_1_1SearchPathSettings" ],
       [ "SegmEndColors", "structMR_1_1SegmEndColors.html", "structMR_1_1SegmEndColors" ],
@@ -468,6 +476,7 @@ var annotated_dup =
       [ "StitchHolesParams", "structMR_1_1StitchHolesParams.html", "structMR_1_1StitchHolesParams" ],
       [ "SubdivideSettings", "structMR_1_1SubdivideSettings.html", "structMR_1_1SubdivideSettings" ],
       [ "SurfaceDistanceBuilder", "classMR_1_1SurfaceDistanceBuilder.html", "classMR_1_1SurfaceDistanceBuilder" ],
+      [ "SurfaceManipulationWidget", "classMR_1_1SurfaceManipulationWidget.html", "classMR_1_1SurfaceManipulationWidget" ],
       [ "SurfacePointWidget", "classMR_1_1SurfacePointWidget.html", "classMR_1_1SurfacePointWidget" ],
       [ "SwapRootAction", "classMR_1_1SwapRootAction.html", "classMR_1_1SwapRootAction" ],
       [ "SymbolMeshParams", "structMR_1_1SymbolMeshParams.html", "structMR_1_1SymbolMeshParams" ],
@@ -547,6 +556,7 @@ var annotated_dup =
       [ "VoxelTraits< VoxelValueGetter< T > >", "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html", "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4" ],
       [ "WatershedGraph", "classMR_1_1WatershedGraph.html", "classMR_1_1WatershedGraph" ],
       [ "WebRequest", "classMR_1_1WebRequest.html", "classMR_1_1WebRequest" ],
+      [ "WeightedVertex", "structMR_1_1WeightedVertex.html", "structMR_1_1WeightedVertex" ],
       [ "Writer", "structMR_1_1Writer.html", "structMR_1_1Writer" ],
       [ "XfBasedCache", "classMR_1_1XfBasedCache.html", "classMR_1_1XfBasedCache" ],
       [ "ZeroOnMove", "structMR_1_1ZeroOnMove.html", "structMR_1_1ZeroOnMove" ]

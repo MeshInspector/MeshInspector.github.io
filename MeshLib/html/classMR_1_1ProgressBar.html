@@ -98,6 +98,7 @@ $(document).ready(function(){initNavTree('classMR_1_1ProgressBar.html',''); init
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classMR_1_1ProgressBar-members.html">List of all members</a>  </div>
@@ -107,6 +108,12 @@ $(document).ready(function(){initNavTree('classMR_1_1ProgressBar.html',''); init
 
 <p><code>#include &lt;<a class="el" href="MRProgressBar_8h_source.html">MRProgressBar.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar_1_1ResumableTask.html">ResumableTask</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">primitive coroutine-like task interface  <a href="classMR_1_1ProgressBar_1_1ResumableTask.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a096de280a40715b2c4db2b4ccfeb821d" id="r_a096de280a40715b2c4db2b4ccfeb821d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a096de280a40715b2c4db2b4ccfeb821d">TaskWithMainThreadPostProcessing</a> = std::function&lt; std::function&lt; void()&gt;() &gt;</td></tr>
@@ -120,6 +127,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a9f0b34ef7192f1f686295f08cef35b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fb8ec5550d87e4fe4703c76b46cb777" id="r_a3fb8ec5550d87e4fe4703c76b46cb777"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a3fb8ec5550d87e4fe4703c76b46cb777">orderWithMainThreadPostProcessing</a> (const char *name, <a class="el" href="classMR_1_1ProgressBar.html#a096de280a40715b2c4db2b4ccfeb821d">TaskWithMainThreadPostProcessing</a> task, int taskCount=1)</td></tr>
 <tr class="separator:a3fb8ec5550d87e4fe4703c76b46cb777"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a211102c9dc43ce7d8ce25aa3b0726ca0" id="r_a211102c9dc43ce7d8ce25aa3b0726ca0"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a211102c9dc43ce7d8ce25aa3b0726ca0">orderWithResumableTask</a> (const char *name, std::shared_ptr&lt; <a class="el" href="classMR_1_1ProgressBar_1_1ResumableTask.html">ResumableTask</a>&lt; void &gt; &gt; task, int taskCount=1)</td></tr>
+<tr class="memdesc:a211102c9dc43ce7d8ce25aa3b0726ca0"><td class="mdescLeft">&#160;</td><td class="mdescRight">in this version the task is being run in the main thread but performs as a coroutine (suspends its execution from time to time)  <br /></td></tr>
+<tr class="separator:a211102c9dc43ce7d8ce25aa3b0726ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c764e9adb7623456e991773ae726b8f" id="r_a9c764e9adb7623456e991773ae726b8f"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a9c764e9adb7623456e991773ae726b8f">isCanceled</a> ()</td></tr>
 <tr class="separator:a9c764e9adb7623456e991773ae726b8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a009d09c70beb26bb2764e8ba9b7f0a0b" id="r_a009d09c70beb26bb2764e8ba9b7f0a0b"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ProgressBar.html#a009d09c70beb26bb2764e8ba9b7f0a0b">isFinished</a> ()</td></tr>
@@ -415,6 +425,50 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a211102c9dc43ce7d8ce25aa3b0726ca0" name="a211102c9dc43ce7d8ce25aa3b0726ca0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a211102c9dc43ce7d8ce25aa3b0726ca0">&#9670;&#160;</a></span>orderWithResumableTask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MRVIEWER_API void MR::ProgressBar::orderWithResumableTask </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classMR_1_1ProgressBar_1_1ResumableTask.html">ResumableTask</a>&lt; void &gt; &gt;&#160;</td>
+          <td class="paramname"><em>task</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>taskCount</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>in this version the task is being run in the main thread but performs as a coroutine (suspends its execution from time to time) </p>
 
 </div>
 </div>

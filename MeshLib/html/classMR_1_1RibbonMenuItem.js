@@ -13,6 +13,7 @@ var classMR_1_1RibbonMenuItem =
     [ "setDropItemsFromItemList", "classMR_1_1RibbonMenuItem.html#af417cbe66b6559e5df0122377c5a3628", null ],
     [ "setRibbonItemType", "classMR_1_1RibbonMenuItem.html#ab499c9049737793e6b1994048b99952c", null ],
     [ "type", "classMR_1_1RibbonMenuItem.html#a15b6a4b9f191b8716be1199364bb74e0", null ],
+    [ "uiName", "classMR_1_1RibbonMenuItem.html#a327958b76ec3d044202620beafe67c93", null ],
     [ "dropList_", "classMR_1_1RibbonMenuItem.html#a2f25401d4b94a752bd63b79152673ab5", null ],
     [ "type_", "classMR_1_1RibbonMenuItem.html#a00b402da6dbcec7d6c97b5c6a16e3924", null ]
 ];

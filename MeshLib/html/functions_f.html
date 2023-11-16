@@ -152,9 +152,9 @@ $(document).ready(function(){initNavTree('functions_f.html',''); initResizable()
 <li>findBoundaryFaces()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#a68668b8b09ca269eef556f962c3c485a">MR::MeshTopology</a></li>
 <li>findBoundaryVerts()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#aa0c8f33292c4d9bde7ce0051941b7932">MR::MeshTopology</a></li>
 <li>findByName()&#160;:&#160;<a class="el" href="classMR_1_1RibbonIcons.html#a679b258211e9754bfe36635ba6a2eca2">MR::RibbonIcons</a></li>
-<li>findCenterFromBBox()&#160;:&#160;<a class="el" href="structMR_1_1Mesh.html#a7ef2784fa43035776fad3e85ac252642">MR::Mesh</a></li>
+<li>findCenterFromBBox()&#160;:&#160;<a class="el" href="structMR_1_1Mesh.html#a7ef2784fa43035776fad3e85ac252642">MR::Mesh</a>, <a class="el" href="structMR_1_1PointCloud.html#af4769b0bcb9a9bd664aa03c8e23c0ca0">MR::PointCloud</a></li>
 <li>findCenterFromFaces()&#160;:&#160;<a class="el" href="structMR_1_1Mesh.html#a1576164a9505c9f8c28e16dc288bcca9">MR::Mesh</a></li>
-<li>findCenterFromPoints()&#160;:&#160;<a class="el" href="structMR_1_1Mesh.html#a4cf526a36b567b3e072c3aa70d628ee2">MR::Mesh</a>, <a class="el" href="structMR_1_1Polyline.html#a6e23e900e2959a7be3356ae3e71c017a">MR::Polyline&lt; V &gt;</a></li>
+<li>findCenterFromPoints()&#160;:&#160;<a class="el" href="structMR_1_1Mesh.html#a4cf526a36b567b3e072c3aa70d628ee2">MR::Mesh</a>, <a class="el" href="structMR_1_1PointCloud.html#af2811d551e2205169b30d34edd323c26">MR::PointCloud</a>, <a class="el" href="structMR_1_1Polyline.html#a6e23e900e2959a7be3356ae3e71c017a">MR::Polyline&lt; V &gt;</a></li>
 <li>findControlByMode()&#160;:&#160;<a class="el" href="classMR_1_1MouseController.html#a287c53d51507ce60bbd4cdd1aceddd48">MR::MouseController</a></li>
 <li>findCreaseEdges()&#160;:&#160;<a class="el" href="structMR_1_1Mesh.html#a3597555fee6f4964fe1689b0643f7f83">MR::Mesh</a></li>
 <li>findEdge()&#160;:&#160;<a class="el" href="classMR_1_1Graph.html#a5de54676ec0131e5355d47e44f31019d">MR::Graph</a>, <a class="el" href="classMR_1_1MeshTopology.html#a5280cca1a7e8cf958ef2856607f87b8b">MR::MeshTopology</a>, <a class="el" href="classMR_1_1PolylineTopology.html#a545252ec8468378f5bc6f71e18ccaad9">MR::PolylineTopology</a></li>
@@ -197,7 +197,7 @@ $(document).ready(function(){initNavTree('functions_f.html',''); initResizable()
 <li>flipEdge()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#a3feb7377bb8fa3011bf24ee10f5d4ba4">MR::MeshTopology</a></li>
 <li>flipEdgesIn()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#a0204101063d00f8b0784f8488ba43a0e">MR::MeshTopology</a></li>
 <li>flipEdgesOut()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#a212723bf6e50621443bb5b341cc2ff98">MR::MeshTopology</a></li>
-<li>flipOrientation()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#ac4201a4b533bfb603ca27d6a032348e3">MR::MeshTopology</a></li>
+<li>flipOrientation()&#160;:&#160;<a class="el" href="classMR_1_1MeshTopology.html#ac4201a4b533bfb603ca27d6a032348e3">MR::MeshTopology</a>, <a class="el" href="structMR_1_1PointCloud.html#a2d87e2ca54a218f3beda5e403db122be">MR::PointCloud</a></li>
 <li>Float32&#160;:&#160;<a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html#a9e312b72c2d2fcc457ece979ad10093d">MR::VoxelsLoad::RawParameters</a></li>
 <li>FlowAggregator()&#160;:&#160;<a class="el" href="classMR_1_1FlowAggregator.html#add4233affa5197236315d5efb16311a7">MR::FlowAggregator</a></li>
 <li>flowPerEdge&#160;:&#160;<a class="el" href="structMR_1_1FlowAggregator_1_1Flows.html#a1b00cb5cc3b4966d2b6b9b009a6ed153">MR::FlowAggregator::Flows</a></li>
@@ -211,7 +211,7 @@ $(document).ready(function(){initNavTree('functions_f.html',''); initResizable()
 <li>fontHeight_&#160;:&#160;<a class="el" href="classMR_1_1ObjectLabel.html#aa11557f43ed662feb8a618c2df1db1e7">MR::ObjectLabel</a></li>
 <li>fontName&#160;:&#160;<a class="el" href="structMR_1_1PdfParameters.html#aa20cd9b99862a1dd46e520ee19373456">MR::PdfParameters</a></li>
 <li>FontType&#160;:&#160;<a class="el" href="classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4">MR::RibbonFontManager</a></li>
-<li>force&#160;:&#160;<a class="el" href="structMR_1_1RelaxParams.html#a7f58a3b0b7e5c09209f53edd90b4371a">MR::RelaxParams</a></li>
+<li>force&#160;:&#160;<a class="el" href="structMR_1_1RelaxParams.html#a7f58a3b0b7e5c09209f53edd90b4371a">MR::RelaxParams</a>, <a class="el" href="structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a8d66628d4ff9972eb2319e02954414ff">MR::SurfaceManipulationWidget::Settings</a></li>
 <li>forceBindAll()&#160;:&#160;<a class="el" href="classMR_1_1IRenderObject.html#a6cc3204a31145ab371e129da393b7215">MR::IRenderObject</a>, <a class="el" href="classMR_1_1RenderLabelObject.html#a047c9120d6951049a5d669c2b8a10e43">MR::RenderLabelObject</a>, <a class="el" href="classMR_1_1RenderLinesObject.html#a84c3a8d6e9caedfefff441da8809dec0">MR::RenderLinesObject</a>, <a class="el" href="classMR_1_1RenderMeshObject.html#a04bbec7fedef3e485ba0763e6aea76f2">MR::RenderMeshObject</a>, <a class="el" href="classMR_1_1RenderPointsObject.html#a84ee58e0127a952e60ebcae7ee3a712a">MR::RenderPointsObject</a>, <a class="el" href="classMR_1_1RenderVolumeObject.html#a9ca39de41790324525077f7b340c0255">MR::RenderVolumeObject</a></li>
 <li>ForceFill&#160;:&#160;<a class="el" href="structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33">MR::CutMeshParameters</a></li>
 <li>forceRedrawMinimumIncrementAfterEvents&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#af6ad84943b0d9f49dbd4b22e3129216d">MR::Viewer</a></li>

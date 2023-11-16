@@ -2,7 +2,7 @@ var searchData=
 [
   ['w_0',['w',['../structMR_1_1Matrix4.html#a9e0640aaf9b368a204fd42127c9e93e3',1,'MR::Matrix4::w'],['../structMR_1_1Vector4.html#a2a2d849b18944213202e305115b457a6',1,'MR::Vector4::w']]],
   ['warning_1',['warning',['../structMR_1_1GcodeProcessor_1_1BaseAction.html#a9270868b501d221ffbe92fc1d7c8916e',1,'MR::GcodeProcessor::BaseAction']]],
-  ['weight_2',['weight',['../structMR_1_1VertPair.html#a6be4702849ae600ea471ab410b2190f8',1,'MR::VertPair']]],
+  ['weight_2',['weight',['../structMR_1_1VertPair.html#a6be4702849ae600ea471ab410b2190f8',1,'MR::VertPair::weight'],['../structMR_1_1WeightedVertex.html#a1208b58be6e320fd52f5e5a18d6c5760',1,'MR::WeightedVertex::weight']]],
   ['width_3',['width',['../structMR_1_1ImmediateGL_1_1RenderParams.html#a1195efacca9ee7f006c5c59c01f5920b',1,'MR::ImmediateGL::RenderParams::width'],['../structMR_1_1TransformControls_1_1VisualParams.html#a04d8b2be8f4de0ff07797799a68c1697',1,'MR::TransformControls::VisualParams::width'],['../structMR_1_1Viewer_1_1LaunchParams.html#a09db42c4c3ea6e62f7ff0bac224efb68',1,'MR::Viewer::LaunchParams::width'],['../structMR_1_1ViewportGL_1_1RenderParams.html#ab9dfdbb2fdb3ab678f6b2ff3173c52bd',1,'MR::ViewportGL::RenderParams::width']]],
   ['window_4',['window',['../classMR_1_1Viewer.html#adf21364b06943f8b3a27b96c8145bd89',1,'MR::Viewer']]],
   ['window_5f_5',['window_',['../classMR_1_1SplashWindow.html#a4e6ed4ee9950dc53818813544070379e',1,'MR::SplashWindow']]],

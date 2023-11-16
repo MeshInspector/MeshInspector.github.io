@@ -109,9 +109,15 @@ $(document).ready(function(){initNavTree('structMR_1_1PointCloud.html',''); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a4e713072e68a27b247042676b693bb26" id="r_a4e713072e68a27b247042676b693bb26"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#a4e713072e68a27b247042676b693bb26">calcNumValidPoints</a> () const</td></tr>
+<tr class="memdesc:a4e713072e68a27b247042676b693bb26"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the total number of valid points in the cloud  <br /></td></tr>
+<tr class="separator:a4e713072e68a27b247042676b693bb26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a400e79598dd6367452f3bfe56249615b" id="r_a400e79598dd6367452f3bfe56249615b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#a400e79598dd6367452f3bfe56249615b">hasNormals</a> () const</td></tr>
 <tr class="memdesc:a400e79598dd6367452f3bfe56249615b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if there is a normal for each point  <br /></td></tr>
 <tr class="separator:a400e79598dd6367452f3bfe56249615b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5da247e2172bb10e5ba6ed1105d5c167" id="r_a5da247e2172bb10e5ba6ed1105d5c167"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#a5da247e2172bb10e5ba6ed1105d5c167">getVertIds</a> (const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *region) const</td></tr>
+<tr class="memdesc:a5da247e2172bb10e5ba6ed1105d5c167"><td class="mdescLeft">&#160;</td><td class="mdescRight">if region pointer is not null then converts it in reference, otherwise returns all valid points in the cloud  <br /></td></tr>
+<tr class="separator:a5da247e2172bb10e5ba6ed1105d5c167"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a683c82721c7a330fcc77903d1f3bb7d9" id="r_a683c82721c7a330fcc77903d1f3bb7d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#a683c82721c7a330fcc77903d1f3bb7d9">getAABBTree</a> () const</td></tr>
 <tr class="memdesc:a683c82721c7a330fcc77903d1f3bb7d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached aabb-tree for this point cloud, creating it if it did not exist in a thread-safe manner  <br /></td></tr>
 <tr class="separator:a683c82721c7a330fcc77903d1f3bb7d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,6 +129,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a28846bc1f86b18053ff605bd9cdffc26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3b1015ea089d93658ff4783c2282c8e" id="r_ac3b1015ea089d93658ff4783c2282c8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ada98ebf3fec74759dd46700389a3e556">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#ac3b1015ea089d93658ff4783c2282c8e">computeBoundingBox</a> (const <a class="el" href="namespaceMR.html#a9cf4b064aa13c5becce6312228c3c03b">AffineXf3f</a> *toWorld=nullptr) const</td></tr>
 <tr class="separator:ac3b1015ea089d93658ff4783c2282c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2811d551e2205169b30d34edd323c26" id="r_af2811d551e2205169b30d34edd323c26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#af2811d551e2205169b30d34edd323c26">findCenterFromPoints</a> () const</td></tr>
+<tr class="memdesc:af2811d551e2205169b30d34edd323c26"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes average position of all valid points  <br /></td></tr>
+<tr class="separator:af2811d551e2205169b30d34edd323c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4769b0bcb9a9bd664aa03c8e23c0ca0" id="r_af4769b0bcb9a9bd664aa03c8e23c0ca0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#af4769b0bcb9a9bd664aa03c8e23c0ca0">findCenterFromBBox</a> () const</td></tr>
+<tr class="memdesc:af4769b0bcb9a9bd664aa03c8e23c0ca0"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes bounding box and returns its center  <br /></td></tr>
+<tr class="separator:af4769b0bcb9a9bd664aa03c8e23c0ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8907016552924260082e3eaa3f163359" id="r_a8907016552924260082e3eaa3f163359"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a2f4408b5ff9250509a9d18a04d6f1fb5">VertId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#a8907016552924260082e3eaa3f163359">getLexicographicalOrder</a> () const</td></tr>
 <tr class="memdesc:a8907016552924260082e3eaa3f163359"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all valid point ids sorted lexicographically by their coordinates (optimal for uniform sampling)  <br /></td></tr>
 <tr class="separator:a8907016552924260082e3eaa3f163359"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,6 +149,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a74fb469992209dc4114c864cd3cb38a5" id="r_a74fb469992209dc4114c864cd3cb38a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#a74fb469992209dc4114c864cd3cb38a5">mirror</a> (const <a class="el" href="namespaceMR.html#a14573400a82366d962c77959e69b8646">Plane3f</a> &amp;plane)</td></tr>
 <tr class="memdesc:a74fb469992209dc4114c864cd3cb38a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">reflects the points from a given plane  <br /></td></tr>
 <tr class="separator:a74fb469992209dc4114c864cd3cb38a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d87e2ca54a218f3beda5e403db122be" id="r_a2d87e2ca54a218f3beda5e403db122be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#a2d87e2ca54a218f3beda5e403db122be">flipOrientation</a> (const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *region=nullptr)</td></tr>
+<tr class="memdesc:a2d87e2ca54a218f3beda5e403db122be"><td class="mdescLeft">&#160;</td><td class="mdescRight">flip orientation (normals) of given points (or all valid points is nullptr)  <br /></td></tr>
+<tr class="separator:a2d87e2ca54a218f3beda5e403db122be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0910605ccb60ed6a5dbc543e9e98fe2" id="r_ac0910605ccb60ed6a5dbc543e9e98fe2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#ac0910605ccb60ed6a5dbc543e9e98fe2">pack</a> (<a class="el" href="namespaceMR.html#ae2c30ce6c537a9a5625236715ca5faba">VertMap</a> *outNew2Old=nullptr)</td></tr>
 <tr class="separator:ac0910605ccb60ed6a5dbc543e9e98fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafd6df26682cdaa7a360a4fdacf869bf" id="r_aafd6df26682cdaa7a360a4fdacf869bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae49732f6a4549f859a39da1454ff483f">VertBMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#aafd6df26682cdaa7a360a4fdacf869bf">pack</a> (<a class="el" href="namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9">Reorder</a> reoder)</td></tr>
@@ -151,11 +166,13 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a0da05bf74b7157037f314c884ab018b4" id="r_a0da05bf74b7157037f314c884ab018b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#af5c9eac6bdf7a25e819c5e2653f469f5">VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#a0da05bf74b7157037f314c884ab018b4">points</a></td></tr>
+<tr class="memdesc:a0da05bf74b7157037f314c884ab018b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">coordinates of points  <br /></td></tr>
 <tr class="separator:a0da05bf74b7157037f314c884ab018b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25c1039968a5dc3a24591ac5b74148ad" id="r_a25c1039968a5dc3a24591ac5b74148ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df">VertNormals</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#a25c1039968a5dc3a24591ac5b74148ad">normals</a></td></tr>
+<tr class="memdesc:a25c1039968a5dc3a24591ac5b74148ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">unit normal directions of points (can be empty if no normals are known)  <br /></td></tr>
 <tr class="separator:a25c1039968a5dc3a24591ac5b74148ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99cd2bd3f8fa8482032603f382ab9a03" id="r_a99cd2bd3f8fa8482032603f382ab9a03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointCloud.html#a99cd2bd3f8fa8482032603f382ab9a03">validPoints</a></td></tr>
-<tr class="memdesc:a99cd2bd3f8fa8482032603f382ab9a03"><td class="mdescLeft">&#160;</td><td class="mdescRight">only points corresponding to set bits here are valid  <br /></td></tr>
+<tr class="memdesc:a99cd2bd3f8fa8482032603f382ab9a03"><td class="mdescLeft">&#160;</td><td class="mdescRight">only points and normals corresponding to set bits here are valid  <br /></td></tr>
 <tr class="separator:a99cd2bd3f8fa8482032603f382ab9a03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -255,6 +272,33 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a4e713072e68a27b247042676b693bb26" name="a4e713072e68a27b247042676b693bb26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e713072e68a27b247042676b693bb26">&#9670;&#160;</a></span>calcNumValidPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::PointCloud::calcNumValidPoints </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes the total number of valid points in the cloud </p>
+
+</div>
+</div>
 <a id="ac3b1015ea089d93658ff4783c2282c8e" name="ac3b1015ea089d93658ff4783c2282c8e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac3b1015ea089d93658ff4783c2282c8e">&#9670;&#160;</a></span>computeBoundingBox()</h2>
 
@@ -271,6 +315,64 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>passes through all valid points and finds the minimal bounding box containing all of them; if toWorld transformation is given then returns minimal bounding box in world space </p>
+
+</div>
+</div>
+<a id="af4769b0bcb9a9bd664aa03c8e23c0ca0" name="af4769b0bcb9a9bd664aa03c8e23c0ca0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4769b0bcb9a9bd664aa03c8e23c0ca0">&#9670;&#160;</a></span>findCenterFromBBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> MR::PointCloud::findCenterFromBBox </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>computes bounding box and returns its center </p>
+
+</div>
+</div>
+<a id="af2811d551e2205169b30d34edd323c26" name="af2811d551e2205169b30d34edd323c26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2811d551e2205169b30d34edd323c26">&#9670;&#160;</a></span>findCenterFromPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a5f4a954ba7d1785cafcb2f7ffe7acf09">Vector3f</a> MR::PointCloud::findCenterFromPoints </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>computes average position of all valid points </p>
+
+</div>
+</div>
+<a id="a2d87e2ca54a218f3beda5e403db122be" name="a2d87e2ca54a218f3beda5e403db122be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d87e2ca54a218f3beda5e403db122be">&#9670;&#160;</a></span>flipOrientation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::PointCloud::flipOrientation </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *&#160;</td>
+          <td class="paramname"><em>region</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>flip orientation (normals) of given points (or all valid points is nullptr) </p>
 
 </div>
 </div>
@@ -355,6 +457,34 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns all valid point ids sorted lexicographically by their coordinates (optimal for uniform sampling) </p>
+
+</div>
+</div>
+<a id="a5da247e2172bb10e5ba6ed1105d5c167" name="a5da247e2172bb10e5ba6ed1105d5c167"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5da247e2172bb10e5ba6ed1105d5c167">&#9670;&#160;</a></span>getVertIds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> &amp; MR::PointCloud::getVertIds </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ab615a9e54d407017abd63d056ce4be66">VertBitSet</a> *&#160;</td>
+          <td class="paramname"><em>region</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>if region pointer is not null then converts it in reference, otherwise returns all valid points in the cloud </p>
 
 </div>
 </div>
@@ -502,6 +632,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>unit normal directions of points (can be empty if no normals are known) </p>
+
 </div>
 </div>
 <a id="a0da05bf74b7157037f314c884ab018b4" name="a0da05bf74b7157037f314c884ab018b4"></a>
@@ -515,6 +647,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>coordinates of points </p>
 
 </div>
 </div>
@@ -530,7 +664,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>only points corresponding to set bits here are valid </p>
+<p>only points and normals corresponding to set bits here are valid </p>
 
 </div>
 </div>

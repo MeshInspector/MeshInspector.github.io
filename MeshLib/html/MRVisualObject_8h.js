@@ -20,7 +20,6 @@ var MRVisualObject_8h =
       [ "DIRTY_TEXTURE", "MRVisualObject_8h.html#gga03255e831f4895337e7cf27d64e51269a16187984f5e9329e2eefbdce7ce0585d", null ],
       [ "DIRTY_PRIMITIVES", "MRVisualObject_8h.html#gga03255e831f4895337e7cf27d64e51269a8a1e8d099f1d302ff6e72082b8546627", null ],
       [ "DIRTY_FACE", "MRVisualObject_8h.html#gga03255e831f4895337e7cf27d64e51269a32fcd55df4b9420427f5168b5558a4a6", null ],
-      [ "DIRTY_BACK_FACES", "MRVisualObject_8h.html#gga03255e831f4895337e7cf27d64e51269a497efbd99f845eb3f162a5efabd97b08", null ],
       [ "DIRTY_VERTS_COLORMAP", "MRVisualObject_8h.html#gga03255e831f4895337e7cf27d64e51269a3a601c32f4902f478919ce2b64a4e475", null ],
       [ "DIRTY_PRIMITIVE_COLORMAP", "MRVisualObject_8h.html#gga03255e831f4895337e7cf27d64e51269a095a0cbf99eaeafc9e593ee191e48cf3", null ],
       [ "DIRTY_FACES_COLORMAP", "MRVisualObject_8h.html#gga03255e831f4895337e7cf27d64e51269a2844551064db079a1d3da473c389c9ca", null ],

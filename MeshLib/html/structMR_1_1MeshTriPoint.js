@@ -1,11 +1,13 @@
 var structMR_1_1MeshTriPoint =
 [
     [ "MeshTriPoint", "structMR_1_1MeshTriPoint.html#a16e988e643929d407301f793664a431a", null ],
+    [ "MeshTriPoint", "structMR_1_1MeshTriPoint.html#a5760034e9833044bad025001f1797a53", null ],
     [ "MeshTriPoint", "structMR_1_1MeshTriPoint.html#a7856dabc24d2467efad8b2ce055c8677", null ],
     [ "MeshTriPoint", "structMR_1_1MeshTriPoint.html#ab5509e634e7415787efe42cfc5daf178", null ],
     [ "MeshTriPoint", "structMR_1_1MeshTriPoint.html#aa232faeb2eb2a1b2892e47492f450e90", null ],
     [ "MeshTriPoint", "structMR_1_1MeshTriPoint.html#aabb02c854af5fe943fbefdec9600d4c9", null ],
     [ "canonical", "structMR_1_1MeshTriPoint.html#abbd2e1560699eb7d09752dce26fe2ee7", null ],
+    [ "getWeightedVerts", "structMR_1_1MeshTriPoint.html#a969e2436a97d15353beb543c26d45590", null ],
     [ "inVertex", "structMR_1_1MeshTriPoint.html#a6796e7f3ca4cdbeb66145767bbf12dc7", null ],
     [ "inVertex", "structMR_1_1MeshTriPoint.html#aa951af6819fd0e1934e6e33e8b29af4a", null ],
     [ "isBd", "structMR_1_1MeshTriPoint.html#a90a50a563b67d4e1fa6ad0e30f2e9d71", null ],

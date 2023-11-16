@@ -335,6 +335,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga484758be506c83b8a42bbb37f7761507" id="r_ga484758be506c83b8a42bbb37f7761507"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga484758be506c83b8a42bbb37f7761507">MR::Heap&lt; T, I, P &gt;::Heap</a> (size_t <a class="el" href="classMR_1_1Heap.html#a516d00eb9620f9cdb1f5c43c0810f744">size</a>, T def={}, P pred={})</td></tr>
 <tr class="memdesc:ga484758be506c83b8a42bbb37f7761507"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs heap for given number of elements, assigning given default value to each element  <br /></td></tr>
 <tr class="separator:ga484758be506c83b8a42bbb37f7761507"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad25d3f2e0a2385b7458ee0a7229d6130" id="r_gad25d3f2e0a2385b7458ee0a7229d6130"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gad25d3f2e0a2385b7458ee0a7229d6130">MR::Heap&lt; T, I, P &gt;::Heap</a> (std::vector&lt; <a class="el" href="structMR_1_1Heap_1_1Element.html">Element</a> &gt; elms, P pred={})</td></tr>
+<tr class="memdesc:gad25d3f2e0a2385b7458ee0a7229d6130"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs heap from given elements (id's shall not repeat and have spaces, but can be arbitrary shuffled)  <br /></td></tr>
+<tr class="separator:gad25d3f2e0a2385b7458ee0a7229d6130"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1850d4188a12bb75802dc364f7309bd6" id="r_ga1850d4188a12bb75802dc364f7309bd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga1850d4188a12bb75802dc364f7309bd6">MR::Heap&lt; T, I, P &gt;::resize</a> (size_t <a class="el" href="classMR_1_1Heap.html#a516d00eb9620f9cdb1f5c43c0810f744">size</a>, T def={})</td></tr>
 <tr class="memdesc:ga1850d4188a12bb75802dc364f7309bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">increases the size of the heap by adding elements at the end  <br /></td></tr>
 <tr class="separator:ga1850d4188a12bb75802dc364f7309bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1027,7 +1030,7 @@ template&lt;typename M &gt; </div>
 </div>
 </div>
 <a id="ga484758be506c83b8a42bbb37f7761507" name="ga484758be506c83b8a42bbb37f7761507"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga484758be506c83b8a42bbb37f7761507">&#9670;&#160;</a></span>Heap()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga484758be506c83b8a42bbb37f7761507">&#9670;&#160;</a></span>Heap() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1069,6 +1072,38 @@ template&lt;typename T , typename I , typename P &gt; </div>
 </div><div class="memdoc">
 
 <p>constructs heap for given number of elements, assigning given default value to each element </p>
+
+</div>
+</div>
+<a id="gad25d3f2e0a2385b7458ee0a7229d6130" name="gad25d3f2e0a2385b7458ee0a7229d6130"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad25d3f2e0a2385b7458ee0a7229d6130">&#9670;&#160;</a></span>Heap() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename I , typename P &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::Heap </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1Heap_1_1Element.html">Element</a> &gt;&#160;</td>
+          <td class="paramname"><em>elms</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">P&#160;</td>
+          <td class="paramname"><em>pred</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>constructs heap from given elements (id's shall not repeat and have spaces, but can be arbitrary shuffled) </p>
 
 </div>
 </div>

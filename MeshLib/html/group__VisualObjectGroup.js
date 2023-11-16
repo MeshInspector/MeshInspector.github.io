@@ -125,7 +125,6 @@ var group__VisualObjectGroup =
       [ "MR::DIRTY_TEXTURE", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a16187984f5e9329e2eefbdce7ce0585d", null ],
       [ "MR::DIRTY_PRIMITIVES", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a8a1e8d099f1d302ff6e72082b8546627", null ],
       [ "MR::DIRTY_FACE", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a32fcd55df4b9420427f5168b5558a4a6", null ],
-      [ "MR::DIRTY_BACK_FACES", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a497efbd99f845eb3f162a5efabd97b08", null ],
       [ "MR::DIRTY_VERTS_COLORMAP", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a3a601c32f4902f478919ce2b64a4e475", null ],
       [ "MR::DIRTY_PRIMITIVE_COLORMAP", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a095a0cbf99eaeafc9e593ee191e48cf3", null ],
       [ "MR::DIRTY_FACES_COLORMAP", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a2844551064db079a1d3da473c389c9ca", null ],

@@ -115,6 +115,9 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a4952e332cfe108e00f967d412a6aba88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c7a861d6d96b26592bb64ac801d6f43" id="r_a7c7a861d6d96b26592bb64ac801d6f43"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UniformSamplingSettings.html#a7c7a861d6d96b26592bb64ac801d6f43">lexicographicalOrder</a> = true</td></tr>
 <tr class="separator:a7c7a861d6d96b26592bb64ac801d6f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d523113f6c1fed152ce4ac0ca682b22" id="r_a1d523113f6c1fed152ce4ac0ca682b22"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df">VertNormals</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UniformSamplingSettings.html#a1d523113f6c1fed152ce4ac0ca682b22">pNormals</a> = nullptr</td></tr>
+<tr class="memdesc:a1d523113f6c1fed152ce4ac0ca682b22"><td class="mdescLeft">&#160;</td><td class="mdescRight">if not nullptr then these normals will be used during sampling instead of normals in the cloud itself  <br /></td></tr>
+<tr class="separator:a1d523113f6c1fed152ce4ac0ca682b22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5bc23c2e461b80a4516732d0e5add3a5" id="r_a5bc23c2e461b80a4516732d0e5add3a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UniformSamplingSettings.html#a5bc23c2e461b80a4516732d0e5add3a5">progress</a></td></tr>
 <tr class="memdesc:a5bc23c2e461b80a4516732d0e5add3a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">to report progress and cancel processing  <br /></td></tr>
 <tr class="separator:a5bc23c2e461b80a4516732d0e5add3a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,6 +166,22 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>if point cloud has normals then automatically decreases local distance to make sure that all points inside have absolute normal dot product not less than this value; this is to make sampling denser in the regions of high curvature; value &lt;=0 means ignore normals; value &gt;=1 means select all points (practically useless) </p>
+
+</div>
+</div>
+<a id="a1d523113f6c1fed152ce4ac0ca682b22" name="a1d523113f6c1fed152ce4ac0ca682b22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d523113f6c1fed152ce4ac0ca682b22">&#9670;&#160;</a></span>pNormals</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="namespaceMR.html#a1aa03e2767de0adc6154f5419a78e9df">VertNormals</a>* MR::UniformSamplingSettings::pNormals = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if not nullptr then these normals will be used during sampling instead of normals in the cloud itself </p>
 
 </div>
 </div>

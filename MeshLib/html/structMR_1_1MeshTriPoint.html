@@ -111,6 +111,8 @@ $(document).ready(function(){initNavTree('structMR_1_1MeshTriPoint.html',''); in
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a16e988e643929d407301f793664a431a" id="r_a16e988e643929d407301f793664a431a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTriPoint.html#a16e988e643929d407301f793664a431a">MeshTriPoint</a> ()=default</td></tr>
 <tr class="separator:a16e988e643929d407301f793664a431a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5760034e9833044bad025001f1797a53" id="r_a5760034e9833044bad025001f1797a53"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTriPoint.html#a5760034e9833044bad025001f1797a53">MeshTriPoint</a> (<a class="el" href="structMR_1_1NoInit.html">NoInit</a>)</td></tr>
+<tr class="separator:a5760034e9833044bad025001f1797a53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7856dabc24d2467efad8b2ce055c8677" id="r_a7856dabc24d2467efad8b2ce055c8677"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTriPoint.html#a7856dabc24d2467efad8b2ce055c8677">MeshTriPoint</a> (<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> <a class="el" href="structMR_1_1MeshTriPoint.html#afb2e8376855431a09626f25ffe6039bc">e</a>, <a class="el" href="namespaceMR.html#abe916bf46259db0a67f17649f44a47d4">TriPointf</a> <a class="el" href="structMR_1_1MeshTriPoint.html#a8a974fd4d0a547b3acff27ac8730ef92">bary</a>)</td></tr>
 <tr class="separator:a7856dabc24d2467efad8b2ce055c8677"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5509e634e7415787efe42cfc5daf178" id="r_ab5509e634e7415787efe42cfc5daf178"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTriPoint.html#ab5509e634e7415787efe42cfc5daf178">MeshTriPoint</a> (const <a class="el" href="namespaceMR.html#abb8769b04d42ac01c6844c688f855da9">MeshEdgePoint</a> &amp;ep)</td></tr>
@@ -144,6 +146,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abbd2e1560699eb7d09752dce26fe2ee7" id="r_abbd2e1560699eb7d09752dce26fe2ee7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTriPoint.html#abbd2e1560699eb7d09752dce26fe2ee7">canonical</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology) const</td></tr>
 <tr class="memdesc:abbd2e1560699eb7d09752dce26fe2ee7"><td class="mdescLeft">&#160;</td><td class="mdescRight">represents the same point relative to the topology.edgeWithLeft( topology.left( e ) )  <br /></td></tr>
 <tr class="separator:abbd2e1560699eb7d09752dce26fe2ee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a969e2436a97d15353beb543c26d45590" id="r_a969e2436a97d15353beb543c26d45590"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::array&lt; <a class="el" href="structMR_1_1WeightedVertex.html">WeightedVertex</a>, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTriPoint.html#a969e2436a97d15353beb543c26d45590">getWeightedVerts</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology) const</td></tr>
+<tr class="memdesc:a969e2436a97d15353beb543c26d45590"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns three weighted triangle's vertices with the sum of not-negative weights equal to 1, and the largest weight in the closest vertex  <br /></td></tr>
+<tr class="separator:a969e2436a97d15353beb543c26d45590"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb0591df25f88f44c1c55406d826b63e" id="r_abb0591df25f88f44c1c55406d826b63e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTriPoint.html#abb0591df25f88f44c1c55406d826b63e">operator==</a> (const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;rhs) const =default</td></tr>
 <tr class="memdesc:abb0591df25f88f44c1c55406d826b63e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if two points are equal including equal not-unique representation  <br /></td></tr>
 <tr class="separator:abb0591df25f88f44c1c55406d826b63e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -179,7 +184,7 @@ Related Symbols</h2></td></tr>
  v2 - the value in dest( next( e ) ) </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a16e988e643929d407301f793664a431a" name="a16e988e643929d407301f793664a431a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16e988e643929d407301f793664a431a">&#9670;&#160;</a></span>MeshTriPoint() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a16e988e643929d407301f793664a431a">&#9670;&#160;</a></span>MeshTriPoint() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203,8 +208,34 @@ Related Symbols</h2></td></tr>
 
 </div>
 </div>
+<a id="a5760034e9833044bad025001f1797a53" name="a5760034e9833044bad025001f1797a53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5760034e9833044bad025001f1797a53">&#9670;&#160;</a></span>MeshTriPoint() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::MeshTriPoint::MeshTriPoint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1NoInit.html">NoInit</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7856dabc24d2467efad8b2ce055c8677" name="a7856dabc24d2467efad8b2ce055c8677"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7856dabc24d2467efad8b2ce055c8677">&#9670;&#160;</a></span>MeshTriPoint() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7856dabc24d2467efad8b2ce055c8677">&#9670;&#160;</a></span>MeshTriPoint() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -240,7 +271,7 @@ Related Symbols</h2></td></tr>
 </div>
 </div>
 <a id="ab5509e634e7415787efe42cfc5daf178" name="ab5509e634e7415787efe42cfc5daf178"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5509e634e7415787efe42cfc5daf178">&#9670;&#160;</a></span>MeshTriPoint() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5509e634e7415787efe42cfc5daf178">&#9670;&#160;</a></span>MeshTriPoint() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -266,7 +297,7 @@ Related Symbols</h2></td></tr>
 </div>
 </div>
 <a id="aa232faeb2eb2a1b2892e47492f450e90" name="aa232faeb2eb2a1b2892e47492f450e90"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa232faeb2eb2a1b2892e47492f450e90">&#9670;&#160;</a></span>MeshTriPoint() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa232faeb2eb2a1b2892e47492f450e90">&#9670;&#160;</a></span>MeshTriPoint() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -302,7 +333,7 @@ Related Symbols</h2></td></tr>
 </div>
 </div>
 <a id="aabb02c854af5fe943fbefdec9600d4c9" name="aabb02c854af5fe943fbefdec9600d4c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabb02c854af5fe943fbefdec9600d4c9">&#9670;&#160;</a></span>MeshTriPoint() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aabb02c854af5fe943fbefdec9600d4c9">&#9670;&#160;</a></span>MeshTriPoint() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -377,6 +408,26 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>represents the same point relative to the topology.edgeWithLeft( topology.left( e ) ) </p>
+
+</div>
+</div>
+<a id="a969e2436a97d15353beb543c26d45590" name="a969e2436a97d15353beb543c26d45590"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a969e2436a97d15353beb543c26d45590">&#9670;&#160;</a></span>getWeightedVerts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::array&lt; <a class="el" href="structMR_1_1WeightedVertex.html">WeightedVertex</a>, 3 &gt; MR::MeshTriPoint::getWeightedVerts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;&#160;</td>
+          <td class="paramname"><em>topology</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns three weighted triangle's vertices with the sum of not-negative weights equal to 1, and the largest weight in the closest vertex </p>
 
 </div>
 </div>

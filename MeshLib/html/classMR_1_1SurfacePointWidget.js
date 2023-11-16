@@ -22,5 +22,5 @@ var classMR_1_1SurfacePointWidget =
     [ "setOnMoveCallback", "classMR_1_1SurfacePointWidget.html#a4d86d1d31a5ae4492387c8a5d9e24a06", null ],
     [ "setParameters", "classMR_1_1SurfacePointWidget.html#a7490f0d419228b077322177f164a2552", null ],
     [ "setStartMoveCallback", "classMR_1_1SurfacePointWidget.html#a6cdbf2259f81a22d3d7389b4ce081727", null ],
-    [ "updateCurrentPosition", "classMR_1_1SurfacePointWidget.html#ad3545c43b4dfa909a395b86ca4630582", null ]
+    [ "updateCurrentPosition", "classMR_1_1SurfacePointWidget.html#a4fb71d12163afbf55c02dfa500ea586f", null ]
 ];
