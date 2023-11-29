@@ -3,7 +3,7 @@ var searchData=
   ['packmapping_0',['PackMapping',['../structMR_1_1PackMapping.html',1,'MR']]],
   ['palette_1',['Palette',['../classMR_1_1Palette.html',1,'MR']]],
   ['palettepresets_2',['PalettePresets',['../classMR_1_1PalettePresets.html',1,'MR']]],
-  ['parameters_3',['parameters',['../structMR_1_1MarkedVoxelSlice_1_1Parameters.html',1,'MR::MarkedVoxelSlice::Parameters'],['../structMR_1_1Palette_1_1Parameters.html',1,'MR::Palette::Parameters'],['../structMR_1_1SurfacePointWidget_1_1Parameters.html',1,'MR::SurfacePointWidget::Parameters'],['../structMR_1_1TouchpadController_1_1Parameters.html',1,'MR::TouchpadController::Parameters'],['../structMR_1_1Viewport_1_1Parameters.html',1,'MR::Viewport::Parameters']]],
+  ['parameters_3',['parameters',['../structMR_1_1MarkedVoxelSlice_1_1Parameters.html',1,'MR::MarkedVoxelSlice::Parameters'],['../structMR_1_1Palette_1_1Parameters.html',1,'MR::Palette::Parameters'],['../structMR_1_1RibbonMenuSearch_1_1Parameters.html',1,'MR::RibbonMenuSearch::Parameters'],['../structMR_1_1SurfacePointWidget_1_1Parameters.html',1,'MR::SurfacePointWidget::Parameters'],['../structMR_1_1TouchpadController_1_1Parameters.html',1,'MR::TouchpadController::Parameters'],['../structMR_1_1Viewport_1_1Parameters.html',1,'MR::Viewport::Parameters']]],
   ['params_4',['Params',['../structMR_1_1SpaceMouseController_1_1Params.html',1,'MR::SpaceMouseController']]],
   ['partialcolormap_5',['PartialColorMap',['../structMR_1_1ColorMapAggregator_1_1PartialColorMap.html',1,'MR::ColorMapAggregator']]],
   ['partmapping_6',['PartMapping',['../structMR_1_1PartMapping.html',1,'MR']]],

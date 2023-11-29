@@ -109,19 +109,13 @@ $(document).ready(function(){initNavTree('MRViewer_8h.html',''); initResizable()
 <code>#include &quot;<a class="el" href="MRViewerInstance_8h_source.html">MRViewerInstance.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRRecentFilesStore_8h_source.html">MRRecentFilesStore.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMouse_8h_source.html">MRMouse.h</a>&quot;</code><br />
-<code>#include &lt;<a class="el" href="MRObject_8h_source.html">MRMesh/MRObject.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="MRSceneRoot_8h_source.html">MRMesh/MRSceneRoot.h</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="MRImage_8h_source.html">MRMesh/MRImage.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMouseController_8h_source.html">MRMouseController.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRTouchesController_8h_source.html">MRTouchesController.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRSpaceMouseController_8h_source.html">MRSpaceMouseController.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRTouchpadController_8h_source.html">MRTouchpadController.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRSceneTextureGL_8h_source.html">MRSceneTextureGL.h</a>&quot;</code><br />
 <code>#include &lt;boost/signals2/signal.hpp&gt;</code><br />
 <code>#include &lt;chrono&gt;</code><br />
 <code>#include &lt;cstdint&gt;</code><br />
-<code>#include &lt;mutex&gt;</code><br />
-<code>#include &lt;queue&gt;</code><br />
 </div>
 <p><a href="MRViewer_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -134,10 +128,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Viewer_1_1PointInAllSpaces.html">MR::Viewer::PointInAllSpaces</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">MR::Viewer::SignalStopHandler</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Viewer_1_1EventQueue.html">MR::Viewer::EventQueue</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Viewer_1_1EventQueue_1_1NamedEvent.html">MR::Viewer::EventQueue::NamedEvent</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -193,11 +183,10 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_function" href="namespaceMR.html#a3e7c908172571071d6796d054d25a4f4">MR::getViewerInstance</a>().<a class="code hl_variable" href="classMR_1_1Viewer.html#aff9491b01a7abb642aa180e3503e8650">eventQueue</a>.<a class="code hl_function" href="classMR_1_1Viewer_1_1EventQueue.html#a7d2c72d3d805d498bb47b57fe02b530c">emplace</a>( { NAME, [] { \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_function" href="namespaceMR.html#a3e7c908172571071d6796d054d25a4f4">MR::getViewerInstance</a>().<a class="code hl_function" href="classMR_1_1Viewer.html#a7491e8da28f4f91c65a046245af2b38a">emplaceEvent</a>( NAME, [] { \</div>
 <div class="line">    MR::getViewerInstance() . METHOD (); \</div>
-<div class="line">} } )</div>
-<div class="ttc" id="aclassMR_1_1Viewer_1_1EventQueue_html_a7d2c72d3d805d498bb47b57fe02b530c"><div class="ttname"><a href="classMR_1_1Viewer_1_1EventQueue.html#a7d2c72d3d805d498bb47b57fe02b530c">MR::Viewer::EventQueue::emplace</a></div><div class="ttdeci">MRVIEWER_API void emplace(NamedEvent event, bool skipable=false)</div></div>
-<div class="ttc" id="aclassMR_1_1Viewer_html_aff9491b01a7abb642aa180e3503e8650"><div class="ttname"><a href="classMR_1_1Viewer.html#aff9491b01a7abb642aa180e3503e8650">MR::Viewer::eventQueue</a></div><div class="ttdeci">class MRVIEWER_CLASS MR::Viewer::EventQueue eventQueue</div></div>
+<div class="line">} )</div>
+<div class="ttc" id="aclassMR_1_1Viewer_html_a7491e8da28f4f91c65a046245af2b38a"><div class="ttname"><a href="classMR_1_1Viewer.html#a7491e8da28f4f91c65a046245af2b38a">MR::Viewer::emplaceEvent</a></div><div class="ttdeci">MRVIEWER_API void emplaceEvent(std::string name, ViewerEventCallback cb, bool skipable=false)</div></div>
 <div class="ttc" id="anamespaceMR_html_a3e7c908172571071d6796d054d25a4f4"><div class="ttname"><a href="namespaceMR.html#a3e7c908172571071d6796d054d25a4f4">MR::getViewerInstance</a></div><div class="ttdeci">MRVIEWER_API Viewer &amp; getViewerInstance()</div></div>
 </div><!-- fragment -->
 <p>helper macros to add an <code><a class="el" href="classMR_1_1Viewer.html">MR::Viewer</a></code> method call to the event queue </p>
@@ -235,9 +224,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_function" href="namespaceMR.html#a3e7c908172571071d6796d054d25a4f4">MR::getViewerInstance</a>().<a class="code hl_variable" href="classMR_1_1Viewer.html#aff9491b01a7abb642aa180e3503e8650">eventQueue</a>.<a class="code hl_function" href="classMR_1_1Viewer_1_1EventQueue.html#a7d2c72d3d805d498bb47b57fe02b530c">emplace</a>( { NAME, [__VA_ARGS__] { \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_function" href="namespaceMR.html#a3e7c908172571071d6796d054d25a4f4">MR::getViewerInstance</a>().<a class="code hl_function" href="classMR_1_1Viewer.html#a7491e8da28f4f91c65a046245af2b38a">emplaceEvent</a>( NAME, [__VA_ARGS__] { \</div>
 <div class="line">    MR::getViewerInstance() . METHOD ( __VA_ARGS__ ); \</div>
-<div class="line">} } )</div>
+<div class="line">} )</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -272,9 +261,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_function" href="namespaceMR.html#a3e7c908172571071d6796d054d25a4f4">MR::getViewerInstance</a>().<a class="code hl_variable" href="classMR_1_1Viewer.html#aff9491b01a7abb642aa180e3503e8650">eventQueue</a>.<a class="code hl_function" href="classMR_1_1Viewer_1_1EventQueue.html#a7d2c72d3d805d498bb47b57fe02b530c">emplace</a>( { NAME, [__VA_ARGS__] { \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_function" href="namespaceMR.html#a3e7c908172571071d6796d054d25a4f4">MR::getViewerInstance</a>().<a class="code hl_function" href="classMR_1_1Viewer.html#a7491e8da28f4f91c65a046245af2b38a">emplaceEvent</a>( NAME, [__VA_ARGS__] { \</div>
 <div class="line">    MR::getViewerInstance() . METHOD ( __VA_ARGS__ ); \</div>
-<div class="line">} }, true )</div>
+<div class="line">}, true )</div>
 </div><!-- fragment -->
 </div>
 </div>

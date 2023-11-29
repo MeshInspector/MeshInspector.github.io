@@ -1,5 +1,6 @@
 var structMR_1_1SubdivideSettings =
 [
+    [ "beforeEdgeSplit", "structMR_1_1SubdivideSettings.html#a47209d51dfa333bfbaecd311df98c6b8", null ],
     [ "critAspectRatio", "structMR_1_1SubdivideSettings.html#a9aec10f3fcab4053b13de2d25f10f311", null ],
     [ "criticalAspectRatioFlip", "structMR_1_1SubdivideSettings.html#a772aa28ef31f33140c7b3f6bfbc36d30", null ],
     [ "maxAngleChangeAfterFlip", "structMR_1_1SubdivideSettings.html#ac22dd26860cd94e68e46004cd88fc7ce", null ],

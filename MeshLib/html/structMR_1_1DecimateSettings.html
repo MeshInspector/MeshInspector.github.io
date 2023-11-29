@@ -143,7 +143,7 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a9359f9da0b131c164d942b1361bd9644"><td class="mdescLeft">&#160;</td><td class="mdescRight">Region on mesh to be decimated, it is updated during the operation.  <br /></td></tr>
 <tr class="separator:a9359f9da0b131c164d942b1361bd9644"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0731477e770d3880ed47726b66c43479" id="r_a0731477e770d3880ed47726b66c43479"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#a0731477e770d3880ed47726b66c43479">notFlippable</a> = nullptr</td></tr>
-<tr class="memdesc:a0731477e770d3880ed47726b66c43479"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edges specified by this bit-set will never be flipped or collapsed, but they can be replaced during collapse of nearby edges so it is updated during the operation.  <br /></td></tr>
+<tr class="memdesc:a0731477e770d3880ed47726b66c43479"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edges specified by this bit-set will never be flipped, but they can be collapsed or replaced during collapse of nearby edges so it is updated during the operation.  <br /></td></tr>
 <tr class="separator:a0731477e770d3880ed47726b66c43479"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e2b45d957cafc32245b3ee812ed80d0" id="r_a4e2b45d957cafc32245b3ee812ed80d0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#ae5a4467feb7b60cd337643529597aaaa">UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DecimateSettings.html#a4e2b45d957cafc32245b3ee812ed80d0">edgesToCollapse</a> = nullptr</td></tr>
 <tr class="memdesc:a4e2b45d957cafc32245b3ee812ed80d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">If pointer is not null, then only edges from here can be collapsed (and some nearby edges can disappear)  <br /></td></tr>
@@ -364,7 +364,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Edges specified by this bit-set will never be flipped or collapsed, but they can be replaced during collapse of nearby edges so it is updated during the operation. </p>
+<p>Edges specified by this bit-set will never be flipped, but they can be collapsed or replaced during collapse of nearby edges so it is updated during the operation. </p>
 
 </div>
 </div>

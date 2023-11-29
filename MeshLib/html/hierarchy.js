@@ -34,8 +34,7 @@ var hierarchy =
       [ "MR::ViewportGL::RenderParams", "structMR_1_1ViewportGL_1_1RenderParams.html", null ]
     ] ],
     [ "MR::BaseShellParameters", "structMR_1_1BaseShellParameters.html", [
-      [ "MR::BaseOffsetParameters", "structMR_1_1BaseOffsetParameters.html", [
-        [ "MR::OffsetParameters", "structMR_1_1OffsetParameters.html", null ],
+      [ "MR::OffsetParameters", "structMR_1_1OffsetParameters.html", [
         [ "MR::SharpOffsetParameters", "structMR_1_1SharpOffsetParameters.html", null ]
       ] ]
     ] ],
@@ -67,6 +66,7 @@ var hierarchy =
     [ "MR::Buffer< UndirectedEdgeId, UndirectedEdgeId >", "classMR_1_1Buffer.html", null ],
     [ "MR::Buffer< VertId, VertId >", "classMR_1_1Buffer.html", null ],
     [ "MR::MeshBuilder::BuildSettings", "structMR_1_1MeshBuilder_1_1BuildSettings.html", null ],
+    [ "MR::UI::ButtonCustomizationParams", "structMR_1_1UI_1_1ButtonCustomizationParams.html", null ],
     [ "MR::RibbonButtonDrawer::ButtonItemWidth", "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html", null ],
     [ "MR::CloudPartMapping", "structMR_1_1CloudPartMapping.html", null ],
     [ "MR::CNCMachineSettings", "classMR_1_1CNCMachineSettings.html", null ],
@@ -111,7 +111,7 @@ var hierarchy =
       [ "MR::MultiListener< PreDrawListener, InterruptCloseListener >", "structMR_1_1MultiListener.html", [
         [ "MR::SaveOnClosePlugin", "classMR_1_1SaveOnClosePlugin.html", null ]
       ] ],
-      [ "MR::MultiListener< MouseDownListener, MouseMoveListener, MouseUpListener, KeyDownListener, KeyUpListener, PreDrawListener >", "structMR_1_1MultiListener.html", [
+      [ "MR::MultiListener< MouseDownListener, MouseMoveListener, MouseUpListener, PostDrawListener >", "structMR_1_1MultiListener.html", [
         [ "MR::SurfaceManipulationWidget", "classMR_1_1SurfaceManipulationWidget.html", null ]
       ] ],
       [ "MR::MultiListener< TouchStartListener, TouchMoveListener, TouchEndListener >", "structMR_1_1MultiListener.html", [
@@ -128,7 +128,6 @@ var hierarchy =
     [ "MR::ContourToDistanceMapParams", "structMR_1_1ContourToDistanceMapParams.html", null ],
     [ "MR::CoordinateConverters", "structMR_1_1CoordinateConverters.html", null ],
     [ "MR::CoordinateConverters2", "structMR_1_1CoordinateConverters2.html", null ],
-    [ "MR::MeshSave::CtmSaveOptions", "structMR_1_1MeshSave_1_1CtmSaveOptions.html", null ],
     [ "MR::CudaAccessor", "classMR_1_1CudaAccessor.html", null ],
     [ "MR::CustomButtonParameters", "structMR_1_1CustomButtonParameters.html", null ],
     [ "CustomPlugin", null, [
@@ -186,7 +185,6 @@ var hierarchy =
     [ "MR::Graph::EndVertices", "structMR_1_1Graph_1_1EndVertices.html", null ],
     [ "MR::EnumNeihbourVertices", "classMR_1_1EnumNeihbourVertices.html", null ],
     [ "MR::MeshBuilder::equalVector3f", "structMR_1_1MeshBuilder_1_1equalVector3f.html", null ],
-    [ "MR::Viewer::EventQueue", "classMR_1_1Viewer_1_1EventQueue.html", null ],
     [ "MR::FaceFace", "structMR_1_1FaceFace.html", null ],
     [ "MR::MeshBuilder::FaceRecord", "structMR_1_1MeshBuilder_1_1FaceRecord.html", null ],
     [ "MR::FewSmallest< T >", "classMR_1_1FewSmallest.html", null ],
@@ -333,6 +331,7 @@ var hierarchy =
     [ "MR::IntersectionPrecomputes< T >", "structMR_1_1IntersectionPrecomputes.html", null ],
     [ "MR::IntersectionPrecomputes2< T >", "structMR_1_1IntersectionPrecomputes2.html", null ],
     [ "MR::PlanarTriangulation::IntersectionsMap", "structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html", null ],
+    [ "MR::InTreePathBuilder", "classMR_1_1InTreePathBuilder.html", null ],
     [ "MR::IOFilter", "structMR_1_1IOFilter.html", null ],
     [ "MR::IPluginUpdate", "classMR_1_1IPluginUpdate.html", [
       [ "MR::PluginCloseOnChangeMesh", "classMR_1_1PluginCloseOnChangeMesh.html", null ],
@@ -421,6 +420,7 @@ var hierarchy =
     [ "MR::VoxelsLoad::LoadDCMResult", "structMR_1_1VoxelsLoad_1_1LoadDCMResult.html", null ],
     [ "MR::VoxelsLoad::LoadingTiffSettings", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html", null ],
     [ "MR::Logger", "classMR_1_1Logger.html", null ],
+    [ "MR::MakeDegenerateBandAroundRegionParams", "structMR_1_1MakeDegenerateBandAroundRegionParams.html", null ],
     [ "MR::BooleanResultMapper::Maps", "structMR_1_1BooleanResultMapper_1_1Maps.html", null ],
     [ "MR::MarchingCubesParams", "structMR_1_1MarchingCubesParams.html", null ],
     [ "MR::MarkedVoxelSlice::Mark", "structMR_1_1MarkedVoxelSlice_1_1Mark.html", null ],
@@ -464,7 +464,6 @@ var hierarchy =
     [ "N", null, [
       [ "MR::RingIterator< N >", "classMR_1_1RingIterator.html", null ]
     ] ],
-    [ "MR::Viewer::EventQueue::NamedEvent", "structMR_1_1Viewer_1_1EventQueue_1_1NamedEvent.html", null ],
     [ "MR::MeshLoad::NamedMesh", "structMR_1_1MeshLoad_1_1NamedMesh.html", null ],
     [ "MR::MeshLoad::NamedMeshLoader", "structMR_1_1MeshLoad_1_1NamedMeshLoader.html", null ],
     [ "MR::MeshSave::NamedXfMesh", "structMR_1_1MeshSave_1_1NamedXfMesh.html", null ],
@@ -516,6 +515,7 @@ var hierarchy =
     [ "MR::PalettePresets", "classMR_1_1PalettePresets.html", null ],
     [ "MR::MarkedVoxelSlice::Parameters", "structMR_1_1MarkedVoxelSlice_1_1Parameters.html", null ],
     [ "MR::Palette::Parameters", "structMR_1_1Palette_1_1Parameters.html", null ],
+    [ "MR::RibbonMenuSearch::Parameters", "structMR_1_1RibbonMenuSearch_1_1Parameters.html", null ],
     [ "MR::SurfacePointWidget::Parameters", "structMR_1_1SurfacePointWidget_1_1Parameters.html", null ],
     [ "MR::TouchpadController::Parameters", "structMR_1_1TouchpadController_1_1Parameters.html", null ],
     [ "MR::Viewport::Parameters", "structMR_1_1Viewport_1_1Parameters.html", null ],
@@ -600,10 +600,15 @@ var hierarchy =
     [ "MR::RibbonIcons", "classMR_1_1RibbonIcons.html", null ],
     [ "MR::RibbonMenuItemAdder< T >", "structMR_1_1RibbonMenuItemAdder.html", null ],
     [ "MR::RibbonMenuItemCall< T >", "structMR_1_1RibbonMenuItemCall.html", null ],
+    [ "MR::RibbonMenuSearch", "classMR_1_1RibbonMenuSearch.html", null ],
     [ "MR::RibbonSchema", "structMR_1_1RibbonSchema.html", null ],
     [ "MR::RibbonSchemaHolder", "classMR_1_1RibbonSchemaHolder.html", null ],
     [ "MR::RibbonSchemaLoader", "classMR_1_1RibbonSchemaLoader.html", null ],
     [ "MR::SaveObjectSettings", "structMR_1_1SaveObjectSettings.html", null ],
+    [ "MR::SaveSettings", "structMR_1_1SaveSettings.html", [
+      [ "MR::MeshSave::CtmSaveOptions", "structMR_1_1MeshSave_1_1CtmSaveOptions.html", null ],
+      [ "MR::PointsSave::CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", null ]
+    ] ],
     [ "MR::VoxelsSave::SavingSettings", "structMR_1_1VoxelsSave_1_1SavingSettings.html", null ],
     [ "MR::ViewportGL::ScaledPickRes", "structMR_1_1ViewportGL_1_1ScaledPickRes.html", null ],
     [ "MR::SceneColors", "structMR_1_1SceneColors.html", null ],
@@ -621,9 +626,6 @@ var hierarchy =
     [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", null ],
     [ "MR::GlTexture2::Settings", "structMR_1_1GlTexture2_1_1Settings.html", null ],
     [ "MR::GlTexture3::Settings", "structMR_1_1GlTexture3_1_1Settings.html", null ],
-    [ "MR::PointsSave::Settings", "structMR_1_1PointsSave_1_1Settings.html", [
-      [ "MR::PointsSave::CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", null ]
-    ] ],
     [ "MR::SurfaceManipulationWidget::Settings", "structMR_1_1SurfaceManipulationWidget_1_1Settings.html", null ],
     [ "MR::TriangulationHelpers::Settings", "structMR_1_1TriangulationHelpers_1_1Settings.html", null ],
     [ "MR::ShaderWarning", "structMR_1_1ShaderWarning.html", null ],
@@ -758,7 +760,9 @@ var hierarchy =
     [ "MR::MeshBuilder::VertexIdentifier", "classMR_1_1MeshBuilder_1_1VertexIdentifier.html", null ],
     [ "MR::VertPair", "structMR_1_1VertPair.html", null ],
     [ "MR::VertPathInfo", "structMR_1_1VertPathInfo.html", null ],
+    [ "MR::VertRenumber", "classMR_1_1VertRenumber.html", null ],
     [ "MR::Viewer", "classMR_1_1Viewer.html", null ],
+    [ "MR::ViewerEventQueue", "classMR_1_1ViewerEventQueue.html", null ],
     [ "MR::ViewerPlugin", "classMR_1_1ViewerPlugin.html", [
       [ "MR::DemoPlugin", "classMR_1_1DemoPlugin.html", null ],
       [ "MR::SaveOnClosePlugin", "classMR_1_1SaveOnClosePlugin.html", null ],

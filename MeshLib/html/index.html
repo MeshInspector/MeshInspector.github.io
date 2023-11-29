@@ -117,7 +117,7 @@ Some third parties are taken from vcpkg, while others (missing in vcpkg) are con
 <p><b>Vcpkg:</b> </p><ol type="1">
 <li>Please install vcpkg, and integrate it into Visual Studio (note that vcpkg requires English language pack in Visual Studio, and vcpkg cannot be installed on FAT volumes, only on NTFS): <div class="fragment"><div class="line">$ git clone https:<span class="comment">//github.com/Microsoft/vcpkg.git</span></div>
 <div class="line">$ cd vcpkg</div>
-<div class="line">$ git checkout fbba5251f75c149d71737fd3ef09629f41b5d5aa</div>
+<div class="line">$ git checkout 2023.11.20</div>
 <div class="line">$ .\bootstrap-vcpkg.bat</div>
 <div class="line">$ .\vcpkg integrate install (with admin rights)</div>
 <div class="line">$ cd ..</div>
@@ -161,9 +161,10 @@ Build with Emscripten on Linux</h1>
 <h1><a class="anchor" id="PythonIntegration"></a>
 Python integration</h1>
 <p>Although MeshLib is written in C++, all functions are exposed to Python as well. Python code can be executed both from within a MeshLib-based C++ application (embedded mode) and from python interpreter directly, which imports MeshLib modules.<br  />
-Moreover, MeshLib can be easily installed as a Python 3.8 - 3.10 package using <code>pip install</code>:<br  />
+Moreover, MeshLib can be easily installed as a Python 3.8 - 3.12 package using <code>pip install</code>:<br  />
 </p><ul>
-<li>On Windows via <div class="fragment"><div class="line">py -3.10 -m pip install --upgrade pip meshlib</div>
+<li>On Windows via <div class="fragment"><div class="line">py -3 -m pip install --upgrade pip</div>
+<div class="line">py -3 -m pip install meshlib</div>
 </div><!-- fragment --></li>
 <li>On Linuxes supporting <a href="https://github.com/mayeut/pep600_compliance#distro-compatibility">manylinux_2_31+</a>, including Ubuntu 20+ and Fedora 32+ via <div class="fragment"><div class="line">sudo apt install python3-pip</div>
 <div class="line">python3 -m pip install --upgrade pip</div>

@@ -115,8 +115,14 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ace710e20f931b5a3da04f21f16c5ab0c" id="r_ace710e20f931b5a3da04f21f16c5ab0c"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0c">Method</a> { <a class="el" href="classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0cac55582518cba2c464f29f5bae1c68def">Get</a>
+<tr class="memitem:ace710e20f931b5a3da04f21f16c5ab0c" id="r_ace710e20f931b5a3da04f21f16c5ab0c"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0c">Method</a> { <br />
+&#160;&#160;<a class="el" href="classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0cac55582518cba2c464f29f5bae1c68def">Get</a>
 , <a class="el" href="classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0ca03d947a2158373c3b9d74325850cb8b9">Post</a>
+, <a class="el" href="classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0ca156e10596fdc76ee5300bab931d89c0f">Patch</a>
+, <a class="el" href="classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0cad0bf1810982e9728fcf3ac444a015373">Put</a>
+, <br />
+&#160;&#160;<a class="el" href="classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0caf2a6c498fb90ee345d997f888fce3b18">Delete</a>
+<br />
  }</td></tr>
 <tr class="separator:ace710e20f931b5a3da04f21f16c5ab0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ebe713343abb8bcc05ddc7d74efa880" id="r_a2ebe713343abb8bcc05ddc7d74efa880"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#a2ebe713343abb8bcc05ddc7d74efa880">ResponseCallback</a> = std::function&lt; void(const Json::Value &amp;response)&gt;</td></tr>
@@ -124,6 +130,10 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a127ff4863cb6f49573d3d843b9dbcf60" id="r_a127ff4863cb6f49573d3d843b9dbcf60"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#a127ff4863cb6f49573d3d843b9dbcf60">WebRequest</a> ()=default</td></tr>
+<tr class="separator:a127ff4863cb6f49573d3d843b9dbcf60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a937dbb2ef5a034d3956c38b88371ad26" id="r_a937dbb2ef5a034d3956c38b88371ad26"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#a937dbb2ef5a034d3956c38b88371ad26">WebRequest</a> (std::string url)</td></tr>
+<tr class="separator:a937dbb2ef5a034d3956c38b88371ad26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a164ae32208b6cc621bf6881e2460d19f" id="r_a164ae32208b6cc621bf6881e2460d19f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#a164ae32208b6cc621bf6881e2460d19f">clear</a> ()</td></tr>
 <tr class="separator:a164ae32208b6cc621bf6881e2460d19f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acabf84df9e987c06b342463a6bfc80ec" id="r_acabf84df9e987c06b342463a6bfc80ec"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#acabf84df9e987c06b342463a6bfc80ec">setMethod</a> (<a class="el" href="classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0c">Method</a> method)</td></tr>
@@ -134,14 +144,22 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af5d208e5912e2a8a359a8bae954eccbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0f3209556e4b15dbf2729308648b8b8" id="r_ad0f3209556e4b15dbf2729308648b8b8"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#ad0f3209556e4b15dbf2729308648b8b8">setHeaders</a> (std::unordered_map&lt; std::string, std::string &gt; headers)</td></tr>
 <tr class="separator:ad0f3209556e4b15dbf2729308648b8b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8da63d0dc0ee9bf2812516f6d3d679b4" id="r_a8da63d0dc0ee9bf2812516f6d3d679b4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#a8da63d0dc0ee9bf2812516f6d3d679b4">setInputPath</a> (std::string inputPath)</td></tr>
+<tr class="separator:a8da63d0dc0ee9bf2812516f6d3d679b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55e8283c14b690c8e84baeb5065f8194" id="r_a55e8283c14b690c8e84baeb5065f8194"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#a55e8283c14b690c8e84baeb5065f8194">setFormData</a> (std::vector&lt; <a class="el" href="structMR_1_1WebRequest_1_1FormData.html">FormData</a> &gt; formData)</td></tr>
 <tr class="separator:a55e8283c14b690c8e84baeb5065f8194"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76fb676d9920639dca6fef5b1e7d5626" id="r_a76fb676d9920639dca6fef5b1e7d5626"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#a76fb676d9920639dca6fef5b1e7d5626">setBody</a> (std::string body)</td></tr>
 <tr class="separator:a76fb676d9920639dca6fef5b1e7d5626"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c2440df6c9d9b3806dc3b0158a7df02" id="r_a0c2440df6c9d9b3806dc3b0158a7df02"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#a0c2440df6c9d9b3806dc3b0158a7df02">setOutputPath</a> (std::string outputPath)</td></tr>
 <tr class="separator:a0c2440df6c9d9b3806dc3b0158a7df02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d3236e9c137c50abba068fb721d8b6a" id="r_a0d3236e9c137c50abba068fb721d8b6a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#a0d3236e9c137c50abba068fb721d8b6a">setAsync</a> (bool async)</td></tr>
+<tr class="separator:a0d3236e9c137c50abba068fb721d8b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad228e2cb058eb73c228cb77bdd7cbbf5" id="r_ad228e2cb058eb73c228cb77bdd7cbbf5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#ad228e2cb058eb73c228cb77bdd7cbbf5">setLogName</a> (std::string logName)</td></tr>
+<tr class="separator:ad228e2cb058eb73c228cb77bdd7cbbf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa02aca75a86bfdac8a826799b06315db" id="r_aa02aca75a86bfdac8a826799b06315db"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#aa02aca75a86bfdac8a826799b06315db">send</a> (std::string url, const std::string &amp;logName, <a class="el" href="classMR_1_1WebRequest.html#a2ebe713343abb8bcc05ddc7d74efa880">ResponseCallback</a> callback, bool async=true)</td></tr>
 <tr class="separator:aa02aca75a86bfdac8a826799b06315db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a156f2336044553b04244d55aa0275975" id="r_a156f2336044553b04244d55aa0275975"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#a156f2336044553b04244d55aa0275975">send</a> (<a class="el" href="classMR_1_1WebRequest.html#a2ebe713343abb8bcc05ddc7d74efa880">ResponseCallback</a> callback)</td></tr>
+<tr class="separator:a156f2336044553b04244d55aa0275975"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a2ebe713343abb8bcc05ddc7d74efa880" name="a2ebe713343abb8bcc05ddc7d74efa880"></a>
@@ -181,7 +199,62 @@ Public Member Functions</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ace710e20f931b5a3da04f21f16c5ab0cac55582518cba2c464f29f5bae1c68def" name="ace710e20f931b5a3da04f21f16c5ab0cac55582518cba2c464f29f5bae1c68def"></a>Get&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ace710e20f931b5a3da04f21f16c5ab0ca03d947a2158373c3b9d74325850cb8b9" name="ace710e20f931b5a3da04f21f16c5ab0ca03d947a2158373c3b9d74325850cb8b9"></a>Post&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ace710e20f931b5a3da04f21f16c5ab0ca156e10596fdc76ee5300bab931d89c0f" name="ace710e20f931b5a3da04f21f16c5ab0ca156e10596fdc76ee5300bab931d89c0f"></a>Patch&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ace710e20f931b5a3da04f21f16c5ab0cad0bf1810982e9728fcf3ac444a015373" name="ace710e20f931b5a3da04f21f16c5ab0cad0bf1810982e9728fcf3ac444a015373"></a>Put&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ace710e20f931b5a3da04f21f16c5ab0caf2a6c498fb90ee345d997f888fce3b18" name="ace710e20f931b5a3da04f21f16c5ab0caf2a6c498fb90ee345d997f888fce3b18"></a>Delete&#160;</td><td class="fielddoc"></td></tr>
 </table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a127ff4863cb6f49573d3d843b9dbcf60" name="a127ff4863cb6f49573d3d843b9dbcf60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a127ff4863cb6f49573d3d843b9dbcf60">&#9670;&#160;</a></span>WebRequest() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::WebRequest::WebRequest </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a937dbb2ef5a034d3956c38b88371ad26" name="a937dbb2ef5a034d3956c38b88371ad26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a937dbb2ef5a034d3956c38b88371ad26">&#9670;&#160;</a></span>WebRequest() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::WebRequest::WebRequest </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>url</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -203,8 +276,26 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a156f2336044553b04244d55aa0275975" name="a156f2336044553b04244d55aa0275975"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a156f2336044553b04244d55aa0275975">&#9670;&#160;</a></span>send() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::WebRequest::send </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1WebRequest.html#a2ebe713343abb8bcc05ddc7d74efa880">ResponseCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa02aca75a86bfdac8a826799b06315db" name="aa02aca75a86bfdac8a826799b06315db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa02aca75a86bfdac8a826799b06315db">&#9670;&#160;</a></span>send()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa02aca75a86bfdac8a826799b06315db">&#9670;&#160;</a></span>send() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -240,12 +331,30 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sends request, calling callback on answer, if async then callback is called in next frame after getting response NOTE: downloading a binary file in synchronous mode is forbidden by JavaScript </p><dl class="params"><dt>Parameters</dt><dd>
+<p>send request, calling callback on answer, if async then callback is called in next frame after getting response NOTE: downloading a binary file in synchronous mode is forbidden by JavaScript </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">logName</td><td>name for logging </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a0d3236e9c137c50abba068fb721d8b6a" name="a0d3236e9c137c50abba068fb721d8b6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d3236e9c137c50abba068fb721d8b6a">&#9670;&#160;</a></span>setAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::WebRequest::setAsync </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>async</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -296,6 +405,42 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">std::unordered_map&lt; std::string, std::string &gt;&#160;</td>
           <td class="paramname"><em>headers</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8da63d0dc0ee9bf2812516f6d3d679b4" name="a8da63d0dc0ee9bf2812516f6d3d679b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8da63d0dc0ee9bf2812516f6d3d679b4">&#9670;&#160;</a></span>setInputPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::WebRequest::setInputPath </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>inputPath</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad228e2cb058eb73c228cb77bdd7cbbf5" name="ad228e2cb058eb73c228cb77bdd7cbbf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad228e2cb058eb73c228cb77bdd7cbbf5">&#9670;&#160;</a></span>setLogName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::WebRequest::setLogName </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>logName</em></td><td>)</td>
           <td></td>
         </tr>
       </table>

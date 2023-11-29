@@ -1,6 +1,5 @@
 var classMR_1_1Viewer =
 [
-    [ "EventQueue", "classMR_1_1Viewer_1_1EventQueue.html", "classMR_1_1Viewer_1_1EventQueue" ],
     [ "LaunchParams", "structMR_1_1Viewer_1_1LaunchParams.html", "structMR_1_1Viewer_1_1LaunchParams" ],
     [ "PointInAllSpaces", "structMR_1_1Viewer_1_1PointInAllSpaces.html", "structMR_1_1Viewer_1_1PointInAllSpaces" ],
     [ "SignalStopHandler", "structMR_1_1Viewer_1_1SignalStopHandler.html", "structMR_1_1Viewer_1_1SignalStopHandler" ],
@@ -56,6 +55,7 @@ var classMR_1_1Viewer =
     [ "draw", "classMR_1_1Viewer.html#ae8671eecc60d8e0d8585683df92ea007", null ],
     [ "drawFull", "classMR_1_1Viewer.html#ad21c4f4dd1ab1c0615689d4abaec15da", null ],
     [ "drawScene", "classMR_1_1Viewer.html#ad939ce39d52c9c10c967429100c9fffd", null ],
+    [ "emplaceEvent", "classMR_1_1Viewer.html#a7491e8da28f4f91c65a046245af2b38a", null ],
     [ "enableAlphaSort", "classMR_1_1Viewer.html#a8487684b5cd02ab06da1de9e06c8744f", null ],
     [ "enableGlobalHistory", "classMR_1_1Viewer.html#a5acf533169d66d16a01d49084d887c51", null ],
     [ "erase_viewport", "classMR_1_1Viewer.html#a66f3490ce4cf18ff57b57146ceb8a68a", null ],
@@ -94,6 +94,7 @@ var classMR_1_1Viewer =
     [ "isGLInitialized", "classMR_1_1Viewer.html#a44dcab99aafe4a71d2890df4698179a1", null ],
     [ "isGlobalHistoryEnabled", "classMR_1_1Viewer.html#af783e511fab48488cefa29c151e6dca4", null ],
     [ "isLaunched", "classMR_1_1Viewer.html#a881f953c9d192cce78219319c2cdf0bb", null ],
+    [ "isSceneTextureBound", "classMR_1_1Viewer.html#aeb78cc316a414e397c55a35a9e0fa39d", null ],
     [ "isSupportedFormat", "classMR_1_1Viewer.html#ae569c352cb211766d2e095c78b668853", null ],
     [ "joystickUpdateConnected", "classMR_1_1Viewer.html#a76cf67a7300f775b7852b4749e7da446", null ],
     [ "keyDown", "classMR_1_1Viewer.html#abfbfee4369c2e3f34fa8bbf6a45bbf40", null ],
@@ -110,6 +111,7 @@ var classMR_1_1Viewer =
     [ "mouseScroll", "classMR_1_1Viewer.html#a874ef8410c1288964219fb79289c1d55", null ],
     [ "mouseUp", "classMR_1_1Viewer.html#a84553b3f4700cf1f4df724de906abfa5", null ],
     [ "onSceneSaved", "classMR_1_1Viewer.html#a45e00f21d3408c12427477ab6d312382", null ],
+    [ "popEventByName", "classMR_1_1Viewer.html#a5e41a9cbb5f65bd2f90ac6890cd935e4", null ],
     [ "postEmptyEvent", "classMR_1_1Viewer.html#a8be17247df8805e3856399ff624ea7e5", null ],
     [ "postFocus", "classMR_1_1Viewer.html#ae4e39b69de2d6d6618dac88fc5221527", null ],
     [ "postRescale", "classMR_1_1Viewer.html#aaa2239ab3f99213fac753a63afe80d0d", null ],
@@ -161,7 +163,6 @@ var classMR_1_1Viewer =
     [ "defaultWindowTitle", "classMR_1_1Viewer.html#a481373fa05af6fadb754c33051a65c9b", null ],
     [ "dragDropSignal", "classMR_1_1Viewer.html#ab2c82473f02c741b3be29cb4ff10daa0", null ],
     [ "drawSignal", "classMR_1_1Viewer.html#a299cf1cccfffbe714ff8369008be4659", null ],
-    [ "eventQueue", "classMR_1_1Viewer.html#aff9491b01a7abb642aa180e3503e8650", null ],
     [ "forceRedrawMinimumIncrementAfterEvents", "classMR_1_1Viewer.html#af6ad84943b0d9f49dbd4b22e3129216d", null ],
     [ "framebufferSize", "classMR_1_1Viewer.html#abcae9cdb5ec2a2c07ab8bad1508bd3d8", null ],
     [ "globalBasisAxes", "classMR_1_1Viewer.html#a001f35f7fc983544a5af14e38a07a450", null ],

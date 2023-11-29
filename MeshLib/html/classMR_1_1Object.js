@@ -55,7 +55,7 @@ var classMR_1_1Object =
     [ "setGlobalVisibilty", "classMR_1_1Object.html#a77ac63ad5b9ead0077f437ede206b31b", null ],
     [ "setLocked", "classMR_1_1Object.html#ac427b5b1a99a87eac1305683801fc850", null ],
     [ "setName", "classMR_1_1Object.html#ace89695fb0235bdf97caecfe26390349", null ],
-    [ "setVisibilityMask", "classMR_1_1Object.html#abd94110891bc5e4715ab564a4912a01a", null ],
+    [ "setVisibilityMask", "classMR_1_1Object.html#a01ca9dab857ceb8e3fad3d04d271ff0e", null ],
     [ "setVisible", "classMR_1_1Object.html#a4f9e9d6e328f1eda7944805cf9d52dc0", null ],
     [ "setWorldXf", "classMR_1_1Object.html#a214e37583ccaa45d92895464c6de685d", null ],
     [ "setXf", "classMR_1_1Object.html#a2f9761f33c2e77153389c9b3583e013e", null ],

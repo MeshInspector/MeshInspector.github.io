@@ -7,7 +7,7 @@ var searchData=
   ['zeroonmove_3c_20size_5ft_20_3e_4',['ZeroOnMove&lt; size_t &gt;',['../structMR_1_1ZeroOnMove.html',1,'MR']]],
   ['zerounusedpoints_5',['zeroUnusedPoints',['../structMR_1_1Mesh.html#a540a6eef456f6c54c214766fc0a7c3fb',1,'MR::Mesh']]],
   ['zoffset_6',['zOffset',['../structMR_1_1ViewportGL_1_1RenderParams.html#a4418936d5182b4b3065dcbd54b9388df',1,'MR::ViewportGL::RenderParams']]],
-  ['zoom_7',['zoom',['../classMR_1_1TouchesController.html#a5138dbae1e6c3d6ffdf6ea36f836f3e5aec731e18cc7bf5f80ae6e195004cbf74',1,'MR::TouchesController::Zoom'],['../classMR_1_1TouchpadController_1_1Handler.html#aa716478caa8b3f52ec82aff6b328c64e',1,'MR::TouchpadController::Handler::zoom()']]],
+  ['zoom_7',['zoom',['../classMR_1_1TouchpadController_1_1Handler.html#aa716478caa8b3f52ec82aff6b328c64e',1,'MR::TouchpadController::Handler::zoom()'],['../classMR_1_1TouchesController.html#a5138dbae1e6c3d6ffdf6ea36f836f3e5aec731e18cc7bf5f80ae6e195004cbf74',1,'MR::TouchesController::Zoom']]],
   ['zx_8',['ZX',['../group__VoxelPathGroup.html#gga4412ea17fd4bcca4ad23e987f61c20aba24b4db35f35f7ebe4a15436010a070d9',1,'MR']]],
   ['zz_9',['zz',['../structMR_1_1SymMatrix3.html#ae0bca6271c1e0d370210fcd54da942ba',1,'MR::SymMatrix3']]]
 ];

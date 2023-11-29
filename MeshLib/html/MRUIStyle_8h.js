@@ -1,10 +1,12 @@
 var MRUIStyle_8h =
 [
+    [ "MR::UI::ButtonCustomizationParams", "structMR_1_1UI_1_1ButtonCustomizationParams.html", "structMR_1_1UI_1_1ButtonCustomizationParams" ],
     [ "beginCombo", "MRUIStyle_8h.html#a72b7457df4d4b5353fc89751ef8d9501", null ],
     [ "button", "MRUIStyle_8h.html#ae14306471133180f84a3a02650ced599", null ],
     [ "button", "MRUIStyle_8h.html#ad13b9be4aa5cae65c61e91ac1ab04ecd", null ],
     [ "buttonCommonSize", "MRUIStyle_8h.html#affdd9ce8585853bc545f4f60bda2611f", null ],
-    [ "buttonEx", "MRUIStyle_8h.html#a2881f3d703930012d8720a0bfaf71dd1", null ],
+    [ "buttonEx", "MRUIStyle_8h.html#a012d7558b98063f22c4bb9a28299837b", null ],
+    [ "buttonUnique", "MRUIStyle_8h.html#aca27e412cdac5850b5894de3b19321b9", null ],
     [ "checkbox", "MRUIStyle_8h.html#a53a8b0ecd1302a3bda2f1df01ef818a8", null ],
     [ "checkbox", "MRUIStyle_8h.html#a9542cf007c0f98d41fea874268894222", null ],
     [ "checkboxMixed", "MRUIStyle_8h.html#ab4909c09a4671c9b042825346cf6f637", null ],

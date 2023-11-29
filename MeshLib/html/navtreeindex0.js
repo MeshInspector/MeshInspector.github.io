@@ -204,8 +204,9 @@ var NAVTREEINDEX0 =
 "MRContoursSeparation_8h.html#a211878d03b9a512a2eddd7625bfbf7e2":[13,0,0,1,2,56,0],
 "MRContoursSeparation_8h_source.html":[13,0,0,1,2,56],
 "MRContoursStitch_8h.html":[13,0,0,1,2,57],
-"MRContoursStitch_8h.html#aac15fd2f716831caecb8b6a05b61b7ea":[13,0,0,1,2,57,0],
-"MRContoursStitch_8h.html#ab62a14eac8cd30402d6f5181a02096ad":[13,0,0,1,2,57,1],
+"MRContoursStitch_8h.html#a258dab429d2f02547f23733ef9f17226":[13,0,0,1,2,57,0],
+"MRContoursStitch_8h.html#aac15fd2f716831caecb8b6a05b61b7ea":[13,0,0,1,2,57,1],
+"MRContoursStitch_8h.html#ab62a14eac8cd30402d6f5181a02096ad":[13,0,0,1,2,57,2],
 "MRContoursStitch_8h_source.html":[13,0,0,1,2,57],
 "MRConvexHull_8h.html":[13,0,0,1,2,58],
 "MRConvexHull_8h.html#a2b1ae8facc8f4e9e09073b91da0f9949":[13,0,0,1,2,58,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "MRCylinder_8h_source.html":[13,0,0,1,2,60],
 "MRDemoPlugin_8h.html":[13,0,0,1,4,7],
 "MRDemoPlugin_8h.html#a8a3c1e07f9e74f5a6f9079cc9067fb3a":[13,0,0,1,4,7,1],
-"MRDemoPlugin_8h_source.html":[13,0,0,1,4,7],
-"MRDenseBox_8h.html":[13,0,0,1,2,61]
+"MRDemoPlugin_8h_source.html":[13,0,0,1,4,7]
 };

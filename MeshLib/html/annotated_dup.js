@@ -38,12 +38,14 @@ var annotated_dup =
         [ "IntersectionsMap", "structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html", "structMR_1_1PlanarTriangulation_1_1IntersectionsMap" ]
       ] ],
       [ "PointsSave", "namespaceMR_1_1PointsSave.html", [
-        [ "CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", "structMR_1_1PointsSave_1_1CtmSavePointsOptions" ],
-        [ "Settings", "structMR_1_1PointsSave_1_1Settings.html", "structMR_1_1PointsSave_1_1Settings" ]
+        [ "CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", "structMR_1_1PointsSave_1_1CtmSavePointsOptions" ]
       ] ],
       [ "TriangulationHelpers", "namespaceMR_1_1TriangulationHelpers.html", [
         [ "Settings", "structMR_1_1TriangulationHelpers_1_1Settings.html", "structMR_1_1TriangulationHelpers_1_1Settings" ],
         [ "TriangulatedFanData", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData" ]
+      ] ],
+      [ "UI", "namespaceMR_1_1UI.html", [
+        [ "ButtonCustomizationParams", "structMR_1_1UI_1_1ButtonCustomizationParams.html", "structMR_1_1UI_1_1ButtonCustomizationParams" ]
       ] ],
       [ "VoxelsLoad", "namespaceMR_1_1VoxelsLoad.html", [
         [ "DicomVolume", "structMR_1_1VoxelsLoad_1_1DicomVolume.html", "structMR_1_1VoxelsLoad_1_1DicomVolume" ],
@@ -65,7 +67,6 @@ var annotated_dup =
       [ "ArcInterpolationParams", "structMR_1_1ArcInterpolationParams.html", "structMR_1_1ArcInterpolationParams" ],
       [ "AsyncRequest", "classMR_1_1AsyncRequest.html", "classMR_1_1AsyncRequest" ],
       [ "AsyncTimer", "classMR_1_1AsyncTimer.html", "classMR_1_1AsyncTimer" ],
-      [ "BaseOffsetParameters", "structMR_1_1BaseOffsetParameters.html", "structMR_1_1BaseOffsetParameters" ],
       [ "BaseRenderParams", "structMR_1_1BaseRenderParams.html", "structMR_1_1BaseRenderParams" ],
       [ "BaseShellParameters", "structMR_1_1BaseShellParameters.html", "structMR_1_1BaseShellParameters" ],
       [ "BaseTiffParameters", "structMR_1_1BaseTiffParameters.html", "structMR_1_1BaseTiffParameters" ],
@@ -222,6 +223,7 @@ var annotated_dup =
       [ "InterruptCloseListener", "structMR_1_1InterruptCloseListener.html", "structMR_1_1InterruptCloseListener" ],
       [ "IntersectionPrecomputes", "structMR_1_1IntersectionPrecomputes.html", "structMR_1_1IntersectionPrecomputes" ],
       [ "IntersectionPrecomputes2", "structMR_1_1IntersectionPrecomputes2.html", "structMR_1_1IntersectionPrecomputes2" ],
+      [ "InTreePathBuilder", "classMR_1_1InTreePathBuilder.html", "classMR_1_1InTreePathBuilder" ],
       [ "IOFilter", "structMR_1_1IOFilter.html", "structMR_1_1IOFilter" ],
       [ "IPluginUpdate", "classMR_1_1IPluginUpdate.html", "classMR_1_1IPluginUpdate" ],
       [ "IPointsToMeshProjector", "classMR_1_1IPointsToMeshProjector.html", "classMR_1_1IPointsToMeshProjector" ],
@@ -245,6 +247,7 @@ var annotated_dup =
       [ "LinesVisualizePropertyType", "structMR_1_1LinesVisualizePropertyType.html", null ],
       [ "Logger", "classMR_1_1Logger.html", "classMR_1_1Logger" ],
       [ "LoggingStreambuf", "classMR_1_1LoggingStreambuf.html", "classMR_1_1LoggingStreambuf" ],
+      [ "MakeDegenerateBandAroundRegionParams", "structMR_1_1MakeDegenerateBandAroundRegionParams.html", "structMR_1_1MakeDegenerateBandAroundRegionParams" ],
       [ "MarchingCubesParams", "structMR_1_1MarchingCubesParams.html", "structMR_1_1MarchingCubesParams" ],
       [ "MarkedVoxelSlice", "classMR_1_1MarkedVoxelSlice.html", "classMR_1_1MarkedVoxelSlice" ],
       [ "Matrix", "structMR_1_1Matrix.html", "structMR_1_1Matrix" ],
@@ -412,6 +415,7 @@ var annotated_dup =
       [ "RibbonMenuItem", "classMR_1_1RibbonMenuItem.html", "classMR_1_1RibbonMenuItem" ],
       [ "RibbonMenuItemAdder", "structMR_1_1RibbonMenuItemAdder.html", "structMR_1_1RibbonMenuItemAdder" ],
       [ "RibbonMenuItemCall", "structMR_1_1RibbonMenuItemCall.html", "structMR_1_1RibbonMenuItemCall" ],
+      [ "RibbonMenuSearch", "classMR_1_1RibbonMenuSearch.html", "classMR_1_1RibbonMenuSearch" ],
       [ "RibbonSceneRemoveSelected", "classMR_1_1RibbonSceneRemoveSelected.html", "classMR_1_1RibbonSceneRemoveSelected" ],
       [ "RibbonSceneRename", "classMR_1_1RibbonSceneRename.html", "classMR_1_1RibbonSceneRename" ],
       [ "RibbonSceneSelectAll", "classMR_1_1RibbonSceneSelectAll.html", "classMR_1_1RibbonSceneSelectAll" ],
@@ -429,6 +433,7 @@ var annotated_dup =
       [ "SaveSceneAsMenuItem", "classMR_1_1SaveSceneAsMenuItem.html", "classMR_1_1SaveSceneAsMenuItem" ],
       [ "SaveSceneMenuItem", "classMR_1_1SaveSceneMenuItem.html", "classMR_1_1SaveSceneMenuItem" ],
       [ "SaveSelectedMenuItem", "classMR_1_1SaveSelectedMenuItem.html", "classMR_1_1SaveSelectedMenuItem" ],
+      [ "SaveSettings", "structMR_1_1SaveSettings.html", "structMR_1_1SaveSettings" ],
       [ "SceneColors", "structMR_1_1SceneColors.html", "structMR_1_1SceneColors" ],
       [ "SceneRoot", "classMR_1_1SceneRoot.html", null ],
       [ "SceneSelectionChangeClose", "classMR_1_1SceneSelectionChangeClose.html", "classMR_1_1SceneSelectionChangeClose" ],
@@ -530,7 +535,9 @@ var annotated_dup =
       [ "VertDistance", "structMR_1_1VertDistance.html", "structMR_1_1VertDistance" ],
       [ "VertPair", "structMR_1_1VertPair.html", "structMR_1_1VertPair" ],
       [ "VertPathInfo", "structMR_1_1VertPathInfo.html", "structMR_1_1VertPathInfo" ],
+      [ "VertRenumber", "classMR_1_1VertRenumber.html", "classMR_1_1VertRenumber" ],
       [ "Viewer", "classMR_1_1Viewer.html", "classMR_1_1Viewer" ],
+      [ "ViewerEventQueue", "classMR_1_1ViewerEventQueue.html", "classMR_1_1ViewerEventQueue" ],
       [ "ViewerPlugin", "classMR_1_1ViewerPlugin.html", "classMR_1_1ViewerPlugin" ],
       [ "ViewerSettingsManager", "classMR_1_1ViewerSettingsManager.html", "classMR_1_1ViewerSettingsManager" ],
       [ "ViewerSettingsPlugin", "classMR_1_1ViewerSettingsPlugin.html", "classMR_1_1ViewerSettingsPlugin" ],

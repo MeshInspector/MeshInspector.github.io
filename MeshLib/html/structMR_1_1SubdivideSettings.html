@@ -145,11 +145,30 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:afcfc1a9eeddefe49c96b100fce1be413" id="r_afcfc1a9eeddefe49c96b100fce1be413"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e1, <a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413">onEdgeSplit</a></td></tr>
 <tr class="memdesc:afcfc1a9eeddefe49c96b100fce1be413"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone  <br /></td></tr>
 <tr class="separator:afcfc1a9eeddefe49c96b100fce1be413"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47209d51dfa333bfbaecd311df98c6b8" id="r_a47209d51dfa333bfbaecd311df98c6b8"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#a47209d51dfa333bfbaecd311df98c6b8">beforeEdgeSplit</a></td></tr>
+<tr class="memdesc:a47209d51dfa333bfbaecd311df98c6b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time edge (e) is going to split, if it returns false then this split will be skipped  <br /></td></tr>
+<tr class="separator:a47209d51dfa333bfbaecd311df98c6b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad044782ba14d1d93d9140190393d28ce" id="r_ad044782ba14d1d93d9140190393d28ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SubdivideSettings.html#ad044782ba14d1d93d9140190393d28ce">progressCallback</a> = {}</td></tr>
 <tr class="memdesc:ad044782ba14d1d93d9140190393d28ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback to report algorithm progress and cancel it by user request  <br /></td></tr>
 <tr class="separator:ad044782ba14d1d93d9140190393d28ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a47209d51dfa333bfbaecd311df98c6b8" name="a47209d51dfa333bfbaecd311df98c6b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47209d51dfa333bfbaecd311df98c6b8">&#9670;&#160;</a></span>beforeEdgeSplit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;bool(<a class="el" href="namespaceMR.html#a82c7618d8fb2b9dd9a8c5ea89be1b0f1">EdgeId</a> e)&gt; MR::SubdivideSettings::beforeEdgeSplit</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>this function is called each time edge (e) is going to split, if it returns false then this split will be skipped </p>
+
+</div>
+</div>
 <a id="a9aec10f3fcab4053b13de2d25f10f311" name="a9aec10f3fcab4053b13de2d25f10f311"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9aec10f3fcab4053b13de2d25f10f311">&#9670;&#160;</a></span>critAspectRatio</h2>
 
