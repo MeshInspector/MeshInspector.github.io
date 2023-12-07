@@ -9,5 +9,6 @@ var MROffset_8h =
     [ "offsetMesh", "MROffset_8h.html#aa66fd34ed2e950968d65714d89b8b190", null ],
     [ "offsetPolyline", "MROffset_8h.html#a4ef35a4401250075841ac4ffbbcd6145", null ],
     [ "sharpOffsetMesh", "MROffset_8h.html#a274d751efefea0baa649db6269156220", null ],
+    [ "suggestVoxelSize", "MROffset_8h.html#a340942714f6bb3ab85571b6e7cbba759", null ],
     [ "thickenMesh", "MROffset_8h.html#ae9d56b867243c8c3a84699654d7f8dcd", null ]
 ];

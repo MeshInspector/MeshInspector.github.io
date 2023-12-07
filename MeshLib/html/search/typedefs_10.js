@@ -6,7 +6,7 @@ var searchData=
   ['regulargridmeshfacevalidator_3',['RegularGridMeshFaceValidator',['../namespaceMR.html#a6b062a309ae364649bec5fa9b0d7c5ed',1,'MR']]],
   ['rendersignal_4',['RenderSignal',['../classMR_1_1Viewer.html#a0feb0d244ebf3015b8ed14e68ebb5f12',1,'MR::Viewer']]],
   ['responsecallback_5',['ResponseCallback',['../classMR_1_1WebRequest.html#a2ebe713343abb8bcc05ddc7d74efa880',1,'MR::WebRequest']]],
-  ['result_5ftype_6',['result_type',['../classMR_1_1ProgressBar_1_1ResumableTask.html#a0dedddd1794e204f5fd506633aac0654',1,'MR::ProgressBar::ResumableTask::result_type'],['../structMR_1_1Viewer_1_1SignalStopHandler.html#a2081bf492c269c66a3028f263ca499ab',1,'MR::Viewer::SignalStopHandler::result_type']]],
+  ['result_5ftype_6',['result_type',['../structMR_1_1Viewer_1_1SignalStopHandler.html#a2081bf492c269c66a3028f263ca499ab',1,'MR::Viewer::SignalStopHandler']]],
   ['rotationaxesorder_7',['RotationAxesOrder',['../classMR_1_1CNCMachineSettings.html#ac6d8378bba6ed1303ede82290d59c97d',1,'MR::CNCMachineSettings']]],
   ['rotationlimits_8',['RotationLimits',['../classMR_1_1CNCMachineSettings.html#af2bd82f7a688dac76bdbfcf5f4f38ce8',1,'MR::CNCMachineSettings']]]
 ];

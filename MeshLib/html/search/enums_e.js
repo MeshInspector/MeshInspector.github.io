@@ -14,5 +14,5 @@ var searchData=
   ['startposition_11',['StartPosition',['../classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39',1,'MR::CommandLoop']]],
   ['stateplugintabs_12',['StatePluginTabs',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37',1,'MR']]],
   ['streamtype_13',['StreamType',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1d',1,'MRPython.h']]],
-  ['swipemode_14',['SwipeMode',['../structMR_1_1TouchpadController_1_1Parameters.html#ae6ebeb8020117ba73cabfea76a3cbf7b',1,'MR::TouchpadController::Parameters']]]
+  ['swipemode_14',['SwipeMode',['../structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadce',1,'MR::TouchpadParameters']]]
 ];

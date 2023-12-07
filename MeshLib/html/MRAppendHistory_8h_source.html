@@ -190,13 +190,14 @@ $(document).ready(function(){initNavTree('MRAppendHistory_8h_source.html',''); i
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    std::string name_;</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    std::shared_ptr&lt;HistoryStore&gt; store_;</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordtype">bool</span> thisScopeStartedScopedMode_ = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>};</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <a class="code hl_typedef" href="namespaceMR.html#af3dc1bb8e4ca66f348d79f492f812233">HistoryActionsVector</a> scope_;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <a class="code hl_typedef" href="namespaceMR.html#af3dc1bb8e4ca66f348d79f492f812233">HistoryActionsVector</a>* parentScopePtr_{ <span class="keyword">nullptr</span> };</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>};</div>
 </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="MRAppendHistory_8h.html#a36cf254c4f1feb0a6f0adaf205a25eaf">   83</a></span><span class="preprocessor">#define SCOPED_HISTORY(name) MR::ScopeHistory __startScopedHistoryMode(name)</span></div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>}</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="MRAppendHistory_8h.html#a36cf254c4f1feb0a6f0adaf205a25eaf">   84</a></span><span class="preprocessor">#define SCOPED_HISTORY(name) MR::ScopeHistory __startScopedHistoryMode(name)</span></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>}</div>
 <div class="ttc" id="aMRHistoryAction_8h_html"><div class="ttname"><a href="MRHistoryAction_8h.html">MRHistoryAction.h</a></div></div>
 <div class="ttc" id="aMRViewer_8h_html"><div class="ttname"><a href="MRViewer_8h.html">MRViewer.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1Historian_html"><div class="ttname"><a href="classMR_1_1Historian.html">MR::Historian</a></div><div class="ttdef"><b>Definition</b> MRAppendHistory.h:31</div></div>
@@ -209,11 +210,12 @@ $(document).ready(function(){initNavTree('MRAppendHistory_8h_source.html',''); i
 <div class="ttc" id="aclassMR_1_1ScopeHistory_html_a155a57e24f0f265fa6b27e456b83cec5"><div class="ttname"><a href="classMR_1_1ScopeHistory.html#a155a57e24f0f265fa6b27e456b83cec5">MR::ScopeHistory::ScopeHistory</a></div><div class="ttdeci">MRVIEWER_API ScopeHistory(const std::string &amp;name)</div></div>
 <div class="ttc" id="aclassMR_1_1ScopeHistory_html_a5a69bc34372ef0223eb4b90fab0082d8"><div class="ttname"><a href="classMR_1_1ScopeHistory.html#a5a69bc34372ef0223eb4b90fab0082d8">MR::ScopeHistory::~ScopeHistory</a></div><div class="ttdeci">MRVIEWER_API ~ScopeHistory()</div></div>
 <div class="ttc" id="aclassMR_1_1Viewer_html_a1a20bdc9d56370d96089ed755fd73ad5"><div class="ttname"><a href="classMR_1_1Viewer.html#a1a20bdc9d56370d96089ed755fd73ad5">MR::Viewer::appendHistoryAction</a></div><div class="ttdeci">MRVIEWER_API void appendHistoryAction(const std::shared_ptr&lt; HistoryAction &gt; &amp;action)</div></div>
-<div class="ttc" id="aclassMR_1_1Viewer_html_af783e511fab48488cefa29c151e6dca4"><div class="ttname"><a href="classMR_1_1Viewer.html#af783e511fab48488cefa29c151e6dca4">MR::Viewer::isGlobalHistoryEnabled</a></div><div class="ttdeci">bool isGlobalHistoryEnabled() const</div><div class="ttdef"><b>Definition</b> MRViewer.h:397</div></div>
+<div class="ttc" id="aclassMR_1_1Viewer_html_af783e511fab48488cefa29c151e6dca4"><div class="ttname"><a href="classMR_1_1Viewer.html#af783e511fab48488cefa29c151e6dca4">MR::Viewer::isGlobalHistoryEnabled</a></div><div class="ttdeci">bool isGlobalHistoryEnabled() const</div><div class="ttdef"><b>Definition</b> MRViewer.h:398</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
 <div class="ttc" id="anamespaceMR_html_a16bb6fdbdb21a92b1fa0da2432cc699a"><div class="ttname"><a href="namespaceMR.html#a16bb6fdbdb21a92b1fa0da2432cc699a">MR::AppendHistory</a></div><div class="ttdeci">void AppendHistory(Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition</b> MRAppendHistory.h:13</div></div>
 <div class="ttc" id="anamespaceMR_html_a3e7c908172571071d6796d054d25a4f4"><div class="ttname"><a href="namespaceMR.html#a3e7c908172571071d6796d054d25a4f4">MR::getViewerInstance</a></div><div class="ttdeci">MRVIEWER_API Viewer &amp; getViewerInstance()</div></div>
 <div class="ttc" id="anamespaceMR_html_ab273f85bdfe475fcbca1b38992b44580"><div class="ttname"><a href="namespaceMR.html#ab273f85bdfe475fcbca1b38992b44580">MR::HistoryStackFilter</a></div><div class="ttdeci">std::function&lt; bool(const std::shared_ptr&lt; HistoryAction &gt; &amp;)&gt; HistoryStackFilter</div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:30</div></div>
+<div class="ttc" id="anamespaceMR_html_af3dc1bb8e4ca66f348d79f492f812233"><div class="ttname"><a href="namespaceMR.html#af3dc1bb8e4ca66f348d79f492f812233">MR::HistoryActionsVector</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; HistoryAction &gt; &gt; HistoryActionsVector</div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:31</div></div>
 <div class="ttc" id="anamespaceMR_html_af5e79c83f968cdf915fac0d9a5136768"><div class="ttname"><a href="namespaceMR.html#af5e79c83f968cdf915fac0d9a5136768">MR::FilterHistoryByCondition</a></div><div class="ttdeci">MRVIEWER_API void FilterHistoryByCondition(HistoryStackFilter filteringCondition, bool deepFiltering=true)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

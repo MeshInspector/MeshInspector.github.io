@@ -1,5 +1,17 @@
 var group__HistoryGroup =
 [
+    [ "MR::ChangeObjectColorAction", "classMR_1_1ChangeObjectColorAction.html", [
+      [ "Obj", "classMR_1_1ChangeObjectColorAction.html#a5474abe2fe0d35caaf558c71cb6847d3", null ],
+      [ "Type", "classMR_1_1ChangeObjectColorAction.html#aadf478d3d29a773bd02b96beae263a51", [
+        [ "Unselected", "classMR_1_1ChangeObjectColorAction.html#aadf478d3d29a773bd02b96beae263a51a810460332a38c9ade69a49b057494cad", null ],
+        [ "Selected", "classMR_1_1ChangeObjectColorAction.html#aadf478d3d29a773bd02b96beae263a51a91b442d385b54e1418d81adc34871053", null ],
+        [ "Back", "classMR_1_1ChangeObjectColorAction.html#aadf478d3d29a773bd02b96beae263a51a0557fa923dcee4d0f86b1409f5c2167f", null ]
+      ] ],
+      [ "ChangeObjectColorAction", "classMR_1_1ChangeObjectColorAction.html#a0a70aa0463c05950aea6686ecc817d30", null ],
+      [ "action", "classMR_1_1ChangeObjectColorAction.html#afe3b10ca2078780fe08c4e06a3cb8eb3", null ],
+      [ "heapBytes", "classMR_1_1ChangeObjectColorAction.html#a8b2119cba575337b8ff6ef6ed838ddad", null ],
+      [ "name", "classMR_1_1ChangeObjectColorAction.html#ada33e7dca54e7e04d9815765bed5fdfe", null ]
+    ] ],
     [ "MR::ChangeFacesColorMapAction", "classMR_1_1ChangeFacesColorMapAction.html", [
       [ "Obj", "classMR_1_1ChangeFacesColorMapAction.html#aa339df5a9e2b648891867bc5a37bc837", null ],
       [ "ChangeFacesColorMapAction", "classMR_1_1ChangeFacesColorMapAction.html#aec7da8b61591c85b8e910d1411bdaa56", null ],
@@ -172,6 +184,12 @@ var group__HistoryGroup =
       [ "name", "classMR_1_1ChangePointPointSelectionAction.html#a7ebe140792b37c16fdd8f129492ad4c8", null ],
       [ "selection", "classMR_1_1ChangePointPointSelectionAction.html#a3d3f98681572b719c29e2acd8ef99619", null ]
     ] ],
+    [ "MR::ChangeValue< T >", "classMR_1_1ChangeValue.html", [
+      [ "ChangeValue", "classMR_1_1ChangeValue.html#a3c7d78b1f71f742ade3d4d065d0a09c1", null ],
+      [ "action", "classMR_1_1ChangeValue.html#a0cdf8d0a543743f5f83872b03ff33891", null ],
+      [ "heapBytes", "classMR_1_1ChangeValue.html#a49b7b6012fb8adf78381f77cf6a1b9b1", null ],
+      [ "name", "classMR_1_1ChangeValue.html#a1ebe31dbc55d650d0de83ae16bfe2e52", null ]
+    ] ],
     [ "MR::ChangeVertsColorMapAction", "classMR_1_1ChangeVertsColorMapAction.html", [
       [ "Obj", "classMR_1_1ChangeVertsColorMapAction.html#acbea3a354ac04c83aac4d24b63c108a7", null ],
       [ "ChangeVertsColorMapAction", "classMR_1_1ChangeVertsColorMapAction.html#a85820c2fb1b34f635d51b6ca5b5b626a", null ],
@@ -266,23 +284,32 @@ var group__HistoryGroup =
       [ "getLastActionName", "classMR_1_1HistoryStore.html#a7b6245b811406cce1c50ed2792df6300", null ],
       [ "getMemoryLimit", "classMR_1_1HistoryStore.html#a45b3529c2a011c9abd585452550ac145", null ],
       [ "getNActions", "classMR_1_1HistoryStore.html#ae1573259fb6a2bba49b63916ad7e2d91", null ],
-      [ "getScopeBlock", "classMR_1_1HistoryStore.html#a6cdd2cc9754a9d7f0f8a5ddbe057fb09", null ],
+      [ "getScopeBlockPtr", "classMR_1_1HistoryStore.html#a44c0ab7153a1b5967525c1cea2fe4e67", null ],
       [ "getStackPointer", "classMR_1_1HistoryStore.html#a68425383420b18f6c04f4405f2e4a1f5", null ],
-      [ "isInScopeMode", "classMR_1_1HistoryStore.html#af145c9ac9643f835f3ad25fadf037814", null ],
       [ "isSceneModified", "classMR_1_1HistoryStore.html#af2142010702571f062becfaf361b015c", null ],
       [ "redo", "classMR_1_1HistoryStore.html#aa598b54efef16035705a815e4481ef65", null ],
       [ "setMemoryLimit", "classMR_1_1HistoryStore.html#a48c223a0850725e085ef49953af02cd1", null ],
       [ "setSavedState", "classMR_1_1HistoryStore.html#ae49bd57fda5c9d3b6005f942e9ee7f45", null ],
-      [ "startScope", "classMR_1_1HistoryStore.html#a94c48f5d68e968747a0df26fdfd64b26", null ],
+      [ "setScopeBlockPtr", "classMR_1_1HistoryStore.html#afd26beea23b71e238921b37d2baa32ad", null ],
       [ "undo", "classMR_1_1HistoryStore.html#aea1440c49e39cc9ab8e073de63271147", null ],
       [ "changedSignal", "classMR_1_1HistoryStore.html#afcedddcbe7c972d3a5b239e53a0f17ee", null ]
     ] ],
+    [ "MR::ViewportParametersAction", "classMR_1_1ViewportParametersAction.html", [
+      [ "ViewportParametersAction", "group__HistoryGroup.html#ga07eb725cd57069bb90b37cc3970a4c40", null ],
+      [ "action", "group__HistoryGroup.html#gab0a69b615a514d76010260695c2116e5", null ],
+      [ "heapBytes", "group__HistoryGroup.html#gabe2857cfb3a48ee763a3a83857c55423", null ],
+      [ "name", "group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39", null ]
+    ] ],
     [ "MR::ChangVoxelSelectionAction::Obj", "group__HistoryGroup.html#ga2bc62e359f5e804a60171abdd7939bd7", null ],
+    [ "MR::ViewportParametersAction::action", "group__HistoryGroup.html#gab0a69b615a514d76010260695c2116e5", null ],
     [ "MR::ChangVoxelSelectionAction::action", "group__HistoryGroup.html#gaebcfdaaba426fea5c32f5ca836a7085f", null ],
     [ "MR::ChangVoxelSelectionAction::ChangVoxelSelectionAction", "group__HistoryGroup.html#gacd0912663f58360180bc863ab572daf4", null ],
     [ "MR::filterHistoryActionsVector", "group__HistoryGroup.html#gad816d7f5445309140db275f8f14c8ba1", null ],
     [ "MR::ChangVoxelSelectionAction::heapBytes", "group__HistoryGroup.html#ga970e3207174343bffc6f631586e4f59d", null ],
+    [ "MR::ViewportParametersAction::heapBytes", "group__HistoryGroup.html#gabe2857cfb3a48ee763a3a83857c55423", null ],
     [ "MR::ChangVoxelSelectionAction::name", "group__HistoryGroup.html#ga4613d2480c87b60c6d32385f80849bbe", null ],
+    [ "MR::ViewportParametersAction::name", "group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39", null ],
     [ "MR::ChangVoxelSelectionAction::selection", "group__HistoryGroup.html#ga639784e559a258dafd067f1e374d0ae2", null ],
-    [ "MR::ChangVoxelSelectionAction::setObjectDirty", "group__HistoryGroup.html#ga54f4bbe409819b2a781e9d559f22298e", null ]
+    [ "MR::ChangVoxelSelectionAction::setObjectDirty", "group__HistoryGroup.html#ga54f4bbe409819b2a781e9d559f22298e", null ],
+    [ "MR::ViewportParametersAction::ViewportParametersAction", "group__HistoryGroup.html#ga07eb725cd57069bb90b37cc3970a4c40", null ]
 ];

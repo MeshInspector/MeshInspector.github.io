@@ -130,11 +130,6 @@ var hierarchy =
     [ "MR::CoordinateConverters2", "structMR_1_1CoordinateConverters2.html", null ],
     [ "MR::CudaAccessor", "classMR_1_1CudaAccessor.html", null ],
     [ "MR::CustomButtonParameters", "structMR_1_1CustomButtonParameters.html", null ],
-    [ "CustomPlugin", null, [
-      [ "MR::FixSpikesPlugin", "classMR_1_1FixSpikesPlugin.html", null ],
-      [ "MR::RelaxPlugin", "classMR_1_1RelaxPlugin.html", null ],
-      [ "MR::RemesherPlugin", "classMR_1_1RemesherPlugin.html", null ]
-    ] ],
     [ "MR::CutMeshParameters", "structMR_1_1CutMeshParameters.html", null ],
     [ "MR::CutMeshResult", "structMR_1_1CutMeshResult.html", null ],
     [ "MR::DecimateParallelSettings", "structMR_1_1DecimateParallelSettings.html", null ],
@@ -240,6 +235,7 @@ var hierarchy =
       [ "MR::ChangeMeshUVCoordsAction", "classMR_1_1ChangeMeshUVCoordsAction.html", null ],
       [ "MR::ChangeNameAction", "classMR_1_1ChangeNameAction.html", null ],
       [ "MR::ChangeObjectAction", "classMR_1_1ChangeObjectAction.html", null ],
+      [ "MR::ChangeObjectColorAction", "classMR_1_1ChangeObjectColorAction.html", null ],
       [ "MR::ChangeObjectSelectedAction", "classMR_1_1ChangeObjectSelectedAction.html", null ],
       [ "MR::ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html", null ],
       [ "MR::ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html", null ],
@@ -252,13 +248,15 @@ var hierarchy =
       [ "MR::ChangeSceneObjectsOrder", "classMR_1_1ChangeSceneObjectsOrder.html", null ],
       [ "MR::ChangeSurfaceAction", "classMR_1_1ChangeSurfaceAction.html", null ],
       [ "MR::ChangeTextureAction", "classMR_1_1ChangeTextureAction.html", null ],
+      [ "MR::ChangeValue< T >", "classMR_1_1ChangeValue.html", null ],
       [ "MR::ChangeVertsColorMapAction", "classMR_1_1ChangeVertsColorMapAction.html", null ],
       [ "MR::ChangeVisualizePropertyAction", "classMR_1_1ChangeVisualizePropertyAction.html", null ],
       [ "MR::ChangeXfAction", "classMR_1_1ChangeXfAction.html", null ],
       [ "MR::CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html", null ],
       [ "MR::ITransformControls::ChangeCenterAction", "classMR_1_1ITransformControls_1_1ChangeCenterAction.html", null ],
       [ "MR::ObjectTransformWidget::ChangeXfAction", "classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html", null ],
-      [ "MR::SwapRootAction", "classMR_1_1SwapRootAction.html", null ]
+      [ "MR::SwapRootAction", "classMR_1_1SwapRootAction.html", null ],
+      [ "MR::ViewportParametersAction", "classMR_1_1ViewportParametersAction.html", null ]
     ] ],
     [ "MR::HistoryStore", "classMR_1_1HistoryStore.html", null ],
     [ "MR::HoleEdgePoint", "structMR_1_1HoleEdgePoint.html", null ],
@@ -517,7 +515,6 @@ var hierarchy =
     [ "MR::Palette::Parameters", "structMR_1_1Palette_1_1Parameters.html", null ],
     [ "MR::RibbonMenuSearch::Parameters", "structMR_1_1RibbonMenuSearch_1_1Parameters.html", null ],
     [ "MR::SurfacePointWidget::Parameters", "structMR_1_1SurfacePointWidget_1_1Parameters.html", null ],
-    [ "MR::TouchpadController::Parameters", "structMR_1_1TouchpadController_1_1Parameters.html", null ],
     [ "MR::Viewport::Parameters", "structMR_1_1Viewport_1_1Parameters.html", null ],
     [ "MR::SpaceMouseController::Params", "structMR_1_1SpaceMouseController_1_1Params.html", null ],
     [ "MR::ColorMapAggregator< Tag >::PartialColorMap", "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html", null ],
@@ -594,7 +591,6 @@ var hierarchy =
     [ "MR::RenderBufferRef< T >", "classMR_1_1RenderBufferRef.html", null ],
     [ "MR::RenderObjectBuffer", "classMR_1_1RenderObjectBuffer.html", null ],
     [ "MR::ResolveMeshDegenSettings", "structMR_1_1ResolveMeshDegenSettings.html", null ],
-    [ "MR::ProgressBar::ResumableTask< T >", "classMR_1_1ProgressBar_1_1ResumableTask.html", null ],
     [ "MR::RibbonButtonDrawer", "classMR_1_1RibbonButtonDrawer.html", null ],
     [ "MR::RibbonFontManager", "classMR_1_1RibbonFontManager.html", null ],
     [ "MR::RibbonIcons", "classMR_1_1RibbonIcons.html", null ],
@@ -612,6 +608,7 @@ var hierarchy =
     [ "MR::VoxelsSave::SavingSettings", "structMR_1_1VoxelsSave_1_1SavingSettings.html", null ],
     [ "MR::ViewportGL::ScaledPickRes", "structMR_1_1ViewportGL_1_1ScaledPickRes.html", null ],
     [ "MR::SceneColors", "structMR_1_1SceneColors.html", null ],
+    [ "MR::SceneLoad::SceneLoadResult", "structMR_1_1SceneLoad_1_1SceneLoadResult.html", null ],
     [ "MR::SceneRoot", "classMR_1_1SceneRoot.html", null ],
     [ "MR::SceneSettings", "classMR_1_1SceneSettings.html", null ],
     [ "MR::SceneTextureGL", "classMR_1_1SceneTextureGL.html", null ],
@@ -655,6 +652,7 @@ var hierarchy =
     [ "MR::SpaceMouseHandler", "classMR_1_1SpaceMouseHandler.html", [
       [ "MR::SpaceMouseHandlerHidapi", "classMR_1_1SpaceMouseHandlerHidapi.html", null ]
     ] ],
+    [ "MR::Sphere< V >", "structMR_1_1Sphere.html", null ],
     [ "MR::SphereParams", "structMR_1_1SphereParams.html", null ],
     [ "MR::SplashWindow", "classMR_1_1SplashWindow.html", [
       [ "MR::DefaultSplashWindow", "classMR_1_1DefaultSplashWindow.html", null ]
@@ -682,6 +680,7 @@ var hierarchy =
       [ "MR::ConstantCuspParams", "structMR_1_1ConstantCuspParams.html", null ]
     ] ],
     [ "MR::ToolPathResult", "structMR_1_1ToolPathResult.html", null ],
+    [ "MR::TouchpadParameters", "structMR_1_1TouchpadParameters.html", null ],
     [ "MR::TransformedMesh", "structMR_1_1TransformedMesh.html", null ],
     [ "MR::ImmediateGL::Tri", "structMR_1_1ImmediateGL_1_1Tri.html", null ],
     [ "MR::MeshBuilder::Triangle", "structMR_1_1MeshBuilder_1_1Triangle.html", null ],

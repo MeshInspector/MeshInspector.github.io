@@ -4,7 +4,7 @@ var searchData=
   ['waitblocking_1',['waitBlocking',['../classMR_1_1AsyncTimer.html#ab495cfbb4703c6205a17bc2dcd0a6b44',1,'MR::AsyncTimer']]],
   ['wasinterrupted_2',['wasInterrupted',['../structMR_1_1ProgressInterrupter.html#aa7c319b39d9ff06438f19d5c5306139e',1,'MR::ProgressInterrupter']]],
   ['watershedgraph_3',['WatershedGraph',['../classMR_1_1WatershedGraph.html#acbb29b2acc410b0a58645c023d793842',1,'MR::WatershedGraph']]],
-  ['webrequest_4',['webrequest',['../classMR_1_1WebRequest.html#a127ff4863cb6f49573d3d843b9dbcf60',1,'MR::WebRequest::WebRequest()=default'],['../classMR_1_1WebRequest.html#a937dbb2ef5a034d3956c38b88371ad26',1,'MR::WebRequest::WebRequest(std::string url)']]],
+  ['webrequest_4',['webrequest',['../classMR_1_1WebRequest.html#a127ff4863cb6f49573d3d843b9dbcf60',1,'MR::WebRequest::WebRequest()=default'],['../classMR_1_1WebRequest.html#ab4d57c13325f023fb4d010282ff4f41e',1,'MR::WebRequest::WebRequest(std::string url)']]],
   ['weights_5',['weights',['../classMR_1_1MeshOrPoints.html#a1e980c7ce8ce348fcb921d6e1feb63c6',1,'MR::MeshOrPoints']]],
   ['white_6',['white',['../structMR_1_1Color.html#afdf32fadc1e749715ad1911813a76f75',1,'MR::Color']]],
   ['width_7',['width',['../group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af',1,'MR']]],

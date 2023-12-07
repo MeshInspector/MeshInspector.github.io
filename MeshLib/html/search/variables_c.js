@@ -9,7 +9,7 @@ var searchData=
   ['neighborhoodradius_6',['neighborhoodRadius',['../structMR_1_1PointCloudRelaxParams.html#ab8de6ecb0effc2fb5ae7f053955d6caf',1,'MR::PointCloudRelaxParams']]],
   ['neighbors_7',['neighbors',['../structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#ae773b54dc10496afde5414733e1c8d6a',1,'MR::TriangulationHelpers::TriangulatedFanData']]],
   ['neiinc_5f_8',['neiInc_',['../group__VoxelGroup.html#gaa969e84361224c40ebdaea70a2942ea6',1,'MR::VolumeIndexer']]],
-  ['new2oldmap_9',['new2OldMap',['../structMR_1_1CutMeshParameters.html#a75222f670fe00aaef7a945b8ccbb3ea9',1,'MR::CutMeshParameters']]],
+  ['new2oldmap_9',['new2oldmap',['../structMR_1_1CutMeshParameters.html#a75222f670fe00aaef7a945b8ccbb3ea9',1,'MR::CutMeshParameters::new2OldMap'],['../structMR_1_1MakeDegenerateBandAroundRegionParams.html#a89ef3c78f83d43c17a9dc7939b7d90e7',1,'MR::MakeDegenerateBandAroundRegionParams::new2OldMap']]],
   ['newfaces_10',['newFaces',['../structMR_1_1UniteManyMeshesParams.html#ae80b58ee38488a2b5e0cd954e32231b4',1,'MR::UniteManyMeshesParams']]],
   ['newverts_11',['newverts',['../structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d',1,'MR::SubdivideSettings::newVerts'],['../structMR_1_1PolylineSubdivideSettings.html#a41c3020ba21d66919d363b5e261b2666',1,'MR::PolylineSubdivideSettings::newVerts']]],
   ['no_5ftex_12',['NO_TEX',['../classMR_1_1GlTexture2.html#aa8ce450751925d93b3447fce59a7e20f',1,'MR::GlTexture2']]],

@@ -9,7 +9,7 @@ var searchData=
   ['idle_6',['idle',['../structMR_1_1GcodeProcessor_1_1MoveAction.html#a31e8f3ca925b988d46df24c5b5bf8ddd',1,'MR::GcodeProcessor::MoveAction']]],
   ['idxx_7',['idxx',['../group__AABBTreeGroup.html#ga59240ce19dcf5b27221a347b22086fcb',1,'MR::IntersectionPrecomputes::idxX'],['../structMR_1_1IntersectionPrecomputes2.html#a4570f366fea168e1a0346c51fe5108c8',1,'MR::IntersectionPrecomputes2::idxX']]],
   ['idxy_8',['idxY',['../group__AABBTreeGroup.html#ga1e89bb11cf7c4693e1c8839963994a08',1,'MR::IntersectionPrecomputes']]],
-  ['ignorekineticmoves_9',['ignoreKineticMoves',['../structMR_1_1TouchpadController_1_1Parameters.html#ab143ee6d86ec8fa7bae2819f85df4cc4',1,'MR::TouchpadController::Parameters']]],
+  ['ignorekineticmoves_9',['ignoreKineticMoves',['../structMR_1_1TouchpadParameters.html#a9ae8b021b03e91d547e512ba94391092',1,'MR::TouchpadParameters']]],
   ['imagesize_10',['imageSize',['../structMR_1_1BaseTiffParameters.html#accde4306e1b219c38e5ff1880b053701',1,'MR::BaseTiffParameters']]],
   ['indicesmap_11',['indicesMap',['../structMR_1_1OffsetContoursParams.html#a12be62fd6087ac8e106eb73d625fb618',1,'MR::OffsetContoursParams']]],
   ['initfncpointer_12',['initFncPointer',['../structMR_1_1PythonExport_1_1ModuleData.html#a190cf30264de3002c79d0b715ed6697a',1,'MR::PythonExport::ModuleData']]],
@@ -30,10 +30,11 @@ var searchData=
   ['isosurfacechangedsignal_27',['isoSurfaceChangedSignal',['../classMR_1_1ObjectVoxels.html#a3933529459eee6bf988f3b9814a52818',1,'MR::ObjectVoxels']]],
   ['isothera_28',['isOtherA',['../structMR_1_1SortIntersectionsData.html#a64cd77d679e163bbff985d79336ae2c4',1,'MR::SortIntersectionsData']]],
   ['isovalue_29',['isoValue',['../structMR_1_1GridToMeshSettings.html#ad826bf2632bc0f30ff1144fb199ad870',1,'MR::GridToMeshSettings']]],
-  ['it_30',['it',['../structMR_1_1DirectoryRecursiveIterator.html#affefc79c1a274349122ac58b55d2db20',1,'MR::DirectoryRecursiveIterator::it'],['../structMR_1_1DirectoryIterator.html#a43d198bfa65499a30571596ae9d9b943',1,'MR::DirectoryIterator::it']]],
-  ['item_31',['item',['../structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b',1,'MR::RibbonMenu::DialogItemPtr::item'],['../structMR_1_1MenuItemInfo.html#a926a6449190c31f77c5b88b8c236958e',1,'MR::MenuItemInfo::item'],['../structMR_1_1RibbonSchemaHolder_1_1SearchResult.html#a7ca888bade52243be40b9bc8ea954035',1,'MR::RibbonSchemaHolder::SearchResult::item']]],
-  ['items_32',['items',['../structMR_1_1FillHolePlan.html#a65ba916a62c352d7f2d5dd40d132ed59',1,'MR::FillHolePlan::items'],['../structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1',1,'MR::RibbonSchema::items']]],
-  ['itemsize_33',['itemSize',['../structMR_1_1DrawButtonParams.html#ab8f3d59cb2dfd82cae6a79ab6746ee09',1,'MR::DrawButtonParams']]],
-  ['iterations_34',['iterations',['../structMR_1_1InflateSettings.html#a81342d048666014aff4d0999d92c9d50',1,'MR::InflateSettings::iterations'],['../structMR_1_1RelaxParams.html#af6f0f001e98c26c2b38d1d51b3f3ef1f',1,'MR::RelaxParams::iterations']]],
-  ['iterlimit_35',['iterLimit',['../structMR_1_1ICPProperties.html#a4b5daff61d36ce0e211995eee0f2507f',1,'MR::ICPProperties']]]
+  ['issceneconstructed_30',['isSceneConstructed',['../structMR_1_1SceneLoad_1_1SceneLoadResult.html#a8ab12a398d94cb272576b5f833d981fe',1,'MR::SceneLoad::SceneLoadResult']]],
+  ['it_31',['it',['../structMR_1_1DirectoryRecursiveIterator.html#affefc79c1a274349122ac58b55d2db20',1,'MR::DirectoryRecursiveIterator::it'],['../structMR_1_1DirectoryIterator.html#a43d198bfa65499a30571596ae9d9b943',1,'MR::DirectoryIterator::it']]],
+  ['item_32',['item',['../structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b',1,'MR::RibbonMenu::DialogItemPtr::item'],['../structMR_1_1MenuItemInfo.html#a926a6449190c31f77c5b88b8c236958e',1,'MR::MenuItemInfo::item'],['../structMR_1_1RibbonSchemaHolder_1_1SearchResult.html#a7ca888bade52243be40b9bc8ea954035',1,'MR::RibbonSchemaHolder::SearchResult::item']]],
+  ['items_33',['items',['../structMR_1_1FillHolePlan.html#a65ba916a62c352d7f2d5dd40d132ed59',1,'MR::FillHolePlan::items'],['../structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1',1,'MR::RibbonSchema::items']]],
+  ['itemsize_34',['itemSize',['../structMR_1_1DrawButtonParams.html#ab8f3d59cb2dfd82cae6a79ab6746ee09',1,'MR::DrawButtonParams']]],
+  ['iterations_35',['iterations',['../structMR_1_1InflateSettings.html#a81342d048666014aff4d0999d92c9d50',1,'MR::InflateSettings::iterations'],['../structMR_1_1RelaxParams.html#af6f0f001e98c26c2b38d1d51b3f3ef1f',1,'MR::RelaxParams::iterations']]],
+  ['iterlimit_36',['iterLimit',['../structMR_1_1ICPProperties.html#a4b5daff61d36ce0e211995eee0f2507f',1,'MR::ICPProperties']]]
 ];

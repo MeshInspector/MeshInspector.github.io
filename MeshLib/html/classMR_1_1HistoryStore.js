@@ -17,14 +17,13 @@ var classMR_1_1HistoryStore =
     [ "getLastActionName", "classMR_1_1HistoryStore.html#a7b6245b811406cce1c50ed2792df6300", null ],
     [ "getMemoryLimit", "classMR_1_1HistoryStore.html#a45b3529c2a011c9abd585452550ac145", null ],
     [ "getNActions", "classMR_1_1HistoryStore.html#ae1573259fb6a2bba49b63916ad7e2d91", null ],
-    [ "getScopeBlock", "classMR_1_1HistoryStore.html#a6cdd2cc9754a9d7f0f8a5ddbe057fb09", null ],
+    [ "getScopeBlockPtr", "classMR_1_1HistoryStore.html#a44c0ab7153a1b5967525c1cea2fe4e67", null ],
     [ "getStackPointer", "classMR_1_1HistoryStore.html#a68425383420b18f6c04f4405f2e4a1f5", null ],
-    [ "isInScopeMode", "classMR_1_1HistoryStore.html#af145c9ac9643f835f3ad25fadf037814", null ],
     [ "isSceneModified", "classMR_1_1HistoryStore.html#af2142010702571f062becfaf361b015c", null ],
     [ "redo", "classMR_1_1HistoryStore.html#aa598b54efef16035705a815e4481ef65", null ],
     [ "setMemoryLimit", "classMR_1_1HistoryStore.html#a48c223a0850725e085ef49953af02cd1", null ],
     [ "setSavedState", "classMR_1_1HistoryStore.html#ae49bd57fda5c9d3b6005f942e9ee7f45", null ],
-    [ "startScope", "classMR_1_1HistoryStore.html#a94c48f5d68e968747a0df26fdfd64b26", null ],
+    [ "setScopeBlockPtr", "classMR_1_1HistoryStore.html#afd26beea23b71e238921b37d2baa32ad", null ],
     [ "undo", "classMR_1_1HistoryStore.html#aea1440c49e39cc9ab8e073de63271147", null ],
     [ "changedSignal", "classMR_1_1HistoryStore.html#afcedddcbe7c972d3a5b239e53a0f17ee", null ]
 ];

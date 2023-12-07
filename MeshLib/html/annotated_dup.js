@@ -40,6 +40,9 @@ var annotated_dup =
       [ "PointsSave", "namespaceMR_1_1PointsSave.html", [
         [ "CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", "structMR_1_1PointsSave_1_1CtmSavePointsOptions" ]
       ] ],
+      [ "SceneLoad", "namespaceMR_1_1SceneLoad.html", [
+        [ "SceneLoadResult", "structMR_1_1SceneLoad_1_1SceneLoadResult.html", "structMR_1_1SceneLoad_1_1SceneLoadResult" ]
+      ] ],
       [ "TriangulationHelpers", "namespaceMR_1_1TriangulationHelpers.html", [
         [ "Settings", "structMR_1_1TriangulationHelpers_1_1Settings.html", "structMR_1_1TriangulationHelpers_1_1Settings" ],
         [ "TriangulatedFanData", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData" ]
@@ -103,6 +106,7 @@ var annotated_dup =
       [ "ChangeMeshUVCoordsAction", "classMR_1_1ChangeMeshUVCoordsAction.html", "classMR_1_1ChangeMeshUVCoordsAction" ],
       [ "ChangeNameAction", "classMR_1_1ChangeNameAction.html", "classMR_1_1ChangeNameAction" ],
       [ "ChangeObjectAction", "classMR_1_1ChangeObjectAction.html", "classMR_1_1ChangeObjectAction" ],
+      [ "ChangeObjectColorAction", "classMR_1_1ChangeObjectColorAction.html", "classMR_1_1ChangeObjectColorAction" ],
       [ "ChangeObjectSelectedAction", "classMR_1_1ChangeObjectSelectedAction.html", "classMR_1_1ChangeObjectSelectedAction" ],
       [ "ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html", "classMR_1_1ChangeObjectVisibilityAction" ],
       [ "ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html", "classMR_1_1ChangePointCloudAction" ],
@@ -115,6 +119,7 @@ var annotated_dup =
       [ "ChangeSceneObjectsOrder", "classMR_1_1ChangeSceneObjectsOrder.html", "classMR_1_1ChangeSceneObjectsOrder" ],
       [ "ChangeSurfaceAction", "classMR_1_1ChangeSurfaceAction.html", "classMR_1_1ChangeSurfaceAction" ],
       [ "ChangeTextureAction", "classMR_1_1ChangeTextureAction.html", "classMR_1_1ChangeTextureAction" ],
+      [ "ChangeValue", "classMR_1_1ChangeValue.html", "classMR_1_1ChangeValue" ],
       [ "ChangeVertsColorMapAction", "classMR_1_1ChangeVertsColorMapAction.html", "classMR_1_1ChangeVertsColorMapAction" ],
       [ "ChangeVisualizePropertyAction", "classMR_1_1ChangeVisualizePropertyAction.html", "classMR_1_1ChangeVisualizePropertyAction" ],
       [ "ChangeXfAction", "classMR_1_1ChangeXfAction.html", "classMR_1_1ChangeXfAction" ],
@@ -188,7 +193,6 @@ var annotated_dup =
       [ "FitDataMenuItem", "classMR_1_1FitDataMenuItem.html", "classMR_1_1FitDataMenuItem" ],
       [ "FitSelectedObjectsMenuItem", "classMR_1_1FitSelectedObjectsMenuItem.html", "classMR_1_1FitSelectedObjectsMenuItem" ],
       [ "FitSelectedPrimitivesMenuItem", "classMR_1_1FitSelectedPrimitivesMenuItem.html", "classMR_1_1FitSelectedPrimitivesMenuItem" ],
-      [ "FixSpikesPlugin", "classMR_1_1FixSpikesPlugin.html", "classMR_1_1FixSpikesPlugin" ],
       [ "FlowAggregator", "classMR_1_1FlowAggregator.html", "classMR_1_1FlowAggregator" ],
       [ "FlowOrigin", "structMR_1_1FlowOrigin.html", "structMR_1_1FlowOrigin" ],
       [ "FramebufferData", "classMR_1_1FramebufferData.html", "classMR_1_1FramebufferData" ],
@@ -394,8 +398,6 @@ var annotated_dup =
       [ "RegisterRenderObjectConstructor", "classMR_1_1RegisterRenderObjectConstructor.html", "classMR_1_1RegisterRenderObjectConstructor" ],
       [ "RegularMapMesher", "classMR_1_1RegularMapMesher.html", "classMR_1_1RegularMapMesher" ],
       [ "RelaxParams", "structMR_1_1RelaxParams.html", "structMR_1_1RelaxParams" ],
-      [ "RelaxPlugin", "classMR_1_1RelaxPlugin.html", "classMR_1_1RelaxPlugin" ],
-      [ "RemesherPlugin", "classMR_1_1RemesherPlugin.html", "classMR_1_1RemesherPlugin" ],
       [ "RemeshSettings", "structMR_1_1RemeshSettings.html", "structMR_1_1RemeshSettings" ],
       [ "RenderBufferRef", "classMR_1_1RenderBufferRef.html", "classMR_1_1RenderBufferRef" ],
       [ "RenderLabelObject", "classMR_1_1RenderLabelObject.html", "classMR_1_1RenderLabelObject" ],
@@ -473,6 +475,7 @@ var annotated_dup =
       [ "SpaceMouseHandlerHidapi", "classMR_1_1SpaceMouseHandlerHidapi.html", "classMR_1_1SpaceMouseHandlerHidapi" ],
       [ "SpaceMouseMoveListener", "structMR_1_1SpaceMouseMoveListener.html", "structMR_1_1SpaceMouseMoveListener" ],
       [ "SpaceMouseUpListener", "structMR_1_1SpaceMouseUpListener.html", "structMR_1_1SpaceMouseUpListener" ],
+      [ "Sphere", "structMR_1_1Sphere.html", "structMR_1_1Sphere" ],
       [ "SphereObject", "classMR_1_1SphereObject.html", "classMR_1_1SphereObject" ],
       [ "SphereParams", "structMR_1_1SphereParams.html", "structMR_1_1SphereParams" ],
       [ "SplashWindow", "classMR_1_1SplashWindow.html", "classMR_1_1SplashWindow" ],
@@ -502,6 +505,7 @@ var annotated_dup =
       [ "TouchesController", "classMR_1_1TouchesController.html", "classMR_1_1TouchesController" ],
       [ "TouchMoveListener", "structMR_1_1TouchMoveListener.html", "structMR_1_1TouchMoveListener" ],
       [ "TouchpadController", "classMR_1_1TouchpadController.html", "classMR_1_1TouchpadController" ],
+      [ "TouchpadParameters", "structMR_1_1TouchpadParameters.html", "structMR_1_1TouchpadParameters" ],
       [ "TouchpadRotateGestureBeginListener", "structMR_1_1TouchpadRotateGestureBeginListener.html", "structMR_1_1TouchpadRotateGestureBeginListener" ],
       [ "TouchpadRotateGestureEndListener", "structMR_1_1TouchpadRotateGestureEndListener.html", "structMR_1_1TouchpadRotateGestureEndListener" ],
       [ "TouchpadRotateGestureUpdateListener", "structMR_1_1TouchpadRotateGestureUpdateListener.html", "structMR_1_1TouchpadRotateGestureUpdateListener" ],
@@ -548,6 +552,7 @@ var annotated_dup =
       [ "ViewportIterator", "classMR_1_1ViewportIterator.html", "classMR_1_1ViewportIterator" ],
       [ "ViewportLinesWithColors", "structMR_1_1ViewportLinesWithColors.html", "structMR_1_1ViewportLinesWithColors" ],
       [ "ViewportMask", "classMR_1_1ViewportMask.html", "classMR_1_1ViewportMask" ],
+      [ "ViewportParametersAction", "classMR_1_1ViewportParametersAction.html", "classMR_1_1ViewportParametersAction" ],
       [ "ViewportPointsWithColors", "structMR_1_1ViewportPointsWithColors.html", "structMR_1_1ViewportPointsWithColors" ],
       [ "ViewportProperty", "classMR_1_1ViewportProperty.html", "classMR_1_1ViewportProperty" ],
       [ "VisualizeMaskType", "structMR_1_1VisualizeMaskType.html", null ],

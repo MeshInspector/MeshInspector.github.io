@@ -4,7 +4,7 @@ var searchData=
   ['scene_1',['Scene',['../classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6a9ead0d38e06ec253ca0ecbf6ea56e59b',1,'MR::ShortcutManager']]],
   ['segment_2',['Segment',['../classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457affb70c18e04a80d228aa7ef4a86e0702',1,'MR::MarkedVoxelSlice']]],
   ['selectable_3',['Selectable',['../group__DataModelGroup.html#gga1ab156c0351dfcd112a67a72e485f123a8318ce1c96df6ce21eb2ed428c6d0f85',1,'MR']]],
-  ['selected_4',['Selected',['../group__DataModelGroup.html#gga1ab156c0351dfcd112a67a72e485f123a91b442d385b54e1418d81adc34871053',1,'MR']]],
+  ['selected_4',['selected',['../classMR_1_1ChangeObjectColorAction.html#aadf478d3d29a773bd02b96beae263a51a91b442d385b54e1418d81adc34871053',1,'MR::ChangeObjectColorAction::Selected'],['../group__DataModelGroup.html#gga1ab156c0351dfcd112a67a72e485f123a91b442d385b54e1418d81adc34871053',1,'MR::Selected']]],
   ['selectededges_5',['selectededges',['../structMR_1_1MeshVisualizePropertyType.html#a2e5c336a4feb2c41efef5ba1f038b738a88fb4fba2909a781a4c943d7e5f1b7fd',1,'MR::MeshVisualizePropertyType::SelectedEdges'],['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aac0df0200072fe04b4bdc85cc051c800f',1,'MR::SceneColors::SelectedEdges']]],
   ['selectedfaces_6',['selectedfaces',['../structMR_1_1MeshVisualizePropertyType.html#a2e5c336a4feb2c41efef5ba1f038b738a6d341a362301b9df14e3b541532c32be',1,'MR::MeshVisualizePropertyType::SelectedFaces'],['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa9acc3cb3e4646fab501e1b4cac8e867f',1,'MR::SceneColors::SelectedFaces']]],
   ['selectedobjectdistancemap_7',['SelectedObjectDistanceMap',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa5ff4b586e3128dc5c62c8f602ae14a9a',1,'MR::SceneColors']]],
@@ -29,7 +29,7 @@ var searchData=
   ['simple_26',['Simple',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a1fbb1e3943c2c6c560247ac8f9289780',1,'MR::FillHoleParams']]],
   ['simpleoverlayquad_27',['SimpleOverlayQuad',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a6efd2be0f88716d1ecd218c3c506e07b',1,'MR::GLStaticHolder']]],
   ['single_28',['Single',['../classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da66ba162102bbf6ae31b522aec561735e',1,'MR::SetViewportConfigPresetMenuItem']]],
-  ['small_29',['small',['../structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aea2660064e68655415da2628c2ae2f7592',1,'MR::DrawButtonParams::Small'],['../classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4a2660064e68655415da2628c2ae2f7592',1,'MR::RibbonFontManager::Small']]],
+  ['small_29',['small',['../classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4a2660064e68655415da2628c2ae2f7592',1,'MR::RibbonFontManager::Small'],['../structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aea2660064e68655415da2628c2ae2f7592',1,'MR::DrawButtonParams::Small']]],
   ['smalltext_30',['SmallText',['../structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aeabc8aecd9a2ab8f581f9b37b78a9083ff',1,'MR::DrawButtonParams']]],
   ['smb_5falt_31',['SMB_ALT',['../namespaceMR.html#acad54447072489545d11f4ee251429e6a25a9c2126fc561accbd83cf9d3777071',1,'MR']]],
   ['smb_5fbtn_5fv1_32',['SMB_BTN_V1',['../namespaceMR.html#acad54447072489545d11f4ee251429e6aee2f04d3aa2766b7c945bbe58973fc50',1,'MR']]],
@@ -73,7 +73,6 @@ var searchData=
   ['stdout_70',['Stdout',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101',1,'MRPython.h']]],
   ['stopprocessing_71',['StopProcessing',['../group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47a38e59feb928e37292c8ee0a50f447612',1,'MR']]],
   ['strong_72',['Strong',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9',1,'MR::FillHoleParams']]],
-  ['swipemodecount_73',['SwipeModeCount',['../structMR_1_1TouchpadController_1_1Parameters.html#ae6ebeb8020117ba73cabfea76a3cbf7ba855c9031d5cee76447d165ce37fcfb6a',1,'MR::TouchpadController::Parameters']]],
-  ['swipemovescamera_74',['SwipeMovesCamera',['../structMR_1_1TouchpadController_1_1Parameters.html#ae6ebeb8020117ba73cabfea76a3cbf7bade15fc14739dac9b81d57926b2e98fa7',1,'MR::TouchpadController::Parameters']]],
-  ['swiperotatescamera_75',['SwipeRotatesCamera',['../structMR_1_1TouchpadController_1_1Parameters.html#ae6ebeb8020117ba73cabfea76a3cbf7ba3bbbef9cac3e14462f8fc82ae5dcbbc4',1,'MR::TouchpadController::Parameters']]]
+  ['swipemovescamera_73',['SwipeMovesCamera',['../structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e',1,'MR::TouchpadParameters']]],
+  ['swiperotatescamera_74',['SwipeRotatesCamera',['../structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1',1,'MR::TouchpadParameters']]]
 ];

@@ -17,7 +17,8 @@ var searchData=
   ['mr_5fregister_5fribbon_5fitem_14',['MR_REGISTER_RIBBON_ITEM',['../MRRibbonMenu_8h.html#ad1709955819b9d2eb38aa06ebd34272c',1,'MRRibbonMenu.h']]],
   ['mr_5fribbon_5fitem_5fcall_15',['MR_RIBBON_ITEM_CALL',['../MRRibbonMenu_8h.html#a4ea105d3ac17c4b1cb3ac6451a5163fc',1,'MRRibbonMenu.h']]],
   ['mr_5ftimer_16',['MR_TIMER',['../MRTimer_8h.html#adf7fc408af3ac6d6583cc0ca173120ae',1,'MRTimer.h']]],
-  ['mr_5fwriter_17',['MR_WRITER',['../MRWriter_8h.html#a76ba7d688be2473881f1f42c2f685060',1,'MRWriter.h']]],
-  ['mrmesh_5fapi_18',['MRMESH_API',['../MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300',1,'MRMeshFwd.h']]],
-  ['mrmesh_5fclass_19',['MRMESH_CLASS',['../MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a',1,'MRMeshFwd.h']]]
+  ['mr_5funreachable_17',['MR_UNREACHABLE',['../MRMeshFwd_8h.html#aaa2c9e5a899e212852b81dbb084d081c',1,'MRMeshFwd.h']]],
+  ['mr_5fwriter_18',['MR_WRITER',['../MRWriter_8h.html#a76ba7d688be2473881f1f42c2f685060',1,'MRWriter.h']]],
+  ['mrmesh_5fapi_19',['MRMESH_API',['../MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300',1,'MRMeshFwd.h']]],
+  ['mrmesh_5fclass_20',['MRMESH_CLASS',['../MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a',1,'MRMeshFwd.h']]]
 ];

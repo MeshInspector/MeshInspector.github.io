@@ -11,5 +11,6 @@ var MRObjectsAccess_8h =
     [ "getDepthFirstObject", "MRObjectsAccess_8h.html#ga9deb7ce48a7affd6ab0bce4cfc901726", null ],
     [ "getDepthFirstObject", "MRObjectsAccess_8h.html#gafa3e42d954c50c383af5c20a059e34d2", null ],
     [ "getTopmostVisibleObjects", "MRObjectsAccess_8h.html#ga014b6029e38a8f6003e2a3d941e2ca9f", null ],
-    [ "getTopmostVisibleObjects", "MRObjectsAccess_8h.html#ga7afd4c6187926b10b71f8631961165a0", null ]
+    [ "getTopmostVisibleObjects", "MRObjectsAccess_8h.html#ga7afd4c6187926b10b71f8631961165a0", null ],
+    [ "objectHasSelectableChildren", "MRObjectsAccess_8h.html#a8e83df3805927f1f6c006f596809d97a", null ]
 ];

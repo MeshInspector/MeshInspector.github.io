@@ -10,13 +10,14 @@ var searchData=
   ['union_7',['Union',['../group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdaaef12e903e606a4895a16b393bfdec8c',1,'MR']]],
   ['unit_8',['Unit',['../classMR_1_1Laplacian.html#a40fcda9e6b8208959a3204e274784b18a19c562a36aeb455d09534f93b4f5236f',1,'MR::Laplacian']]],
   ['unknown_9',['unknown',['../structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa88183b946cc5f0e8c96b2e66e1c74a7e',1,'MR::BaseTiffParameters::Unknown'],['../structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0a88183b946cc5f0e8c96b2e66e1c74a7e',1,'MR::BaseTiffParameters::Unknown'],['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529ba88183b946cc5f0e8c96b2e66e1c74a7e',1,'MR::VoxelsLoad::RawParameters::Unknown']]],
-  ['unselectedobjectdistancemap_10',['UnselectedObjectDistanceMap',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aad2861ea5be4d6def67d2bf7855296343',1,'MR::SceneColors']]],
-  ['unselectedobjectlines_11',['UnselectedObjectLines',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa67751013dcf075c12bcc178994f75a36',1,'MR::SceneColors']]],
-  ['unselectedobjectmesh_12',['UnselectedObjectMesh',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa736ebf30fa5a88ee5cbede49aecbc3ef',1,'MR::SceneColors']]],
-  ['unselectedobjectpoints_13',['UnselectedObjectPoints',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa4cd917c98a34d56b402a2c2e3e6e83cb',1,'MR::SceneColors']]],
-  ['unselectedobjectvoxels_14',['UnselectedObjectVoxels',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa815ab0979a59272abd51680de3a55ab0',1,'MR::SceneColors']]],
-  ['unsigned_15',['unsigned',['../structMR_1_1MeshToVolumeParams.html#a47dacbc5ca80bd9591ffea69c43b022eaa1a914735b205424ba6c40b85528d78a',1,'MR::MeshToVolumeParams::Unsigned'],['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309aa1a914735b205424ba6c40b85528d78a',1,'MR::Unsigned']]],
-  ['update_16',['Update',['../classMR_1_1TouchpadController_1_1Handler.html#a22bc334022e40146fa414493170af7b4a06933067aafd48425d67bcb01bba5cb6',1,'MR::TouchpadController::Handler']]],
-  ['upper_17',['Upper',['../structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685a19de5b94f7b83900d4b296d9fa491aec',1,'MR::GridSettings']]],
-  ['user_18',['User',['../classMR_1_1ColorTheme.html#ad14d75ef685e439c80487ba1d4c41ecaa8f9bfe9d1345237cb3b2b205864da075',1,'MR::ColorTheme']]]
+  ['unselected_10',['Unselected',['../classMR_1_1ChangeObjectColorAction.html#aadf478d3d29a773bd02b96beae263a51a810460332a38c9ade69a49b057494cad',1,'MR::ChangeObjectColorAction']]],
+  ['unselectedobjectdistancemap_11',['UnselectedObjectDistanceMap',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aad2861ea5be4d6def67d2bf7855296343',1,'MR::SceneColors']]],
+  ['unselectedobjectlines_12',['UnselectedObjectLines',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa67751013dcf075c12bcc178994f75a36',1,'MR::SceneColors']]],
+  ['unselectedobjectmesh_13',['UnselectedObjectMesh',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa736ebf30fa5a88ee5cbede49aecbc3ef',1,'MR::SceneColors']]],
+  ['unselectedobjectpoints_14',['UnselectedObjectPoints',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa4cd917c98a34d56b402a2c2e3e6e83cb',1,'MR::SceneColors']]],
+  ['unselectedobjectvoxels_15',['UnselectedObjectVoxels',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa815ab0979a59272abd51680de3a55ab0',1,'MR::SceneColors']]],
+  ['unsigned_16',['unsigned',['../structMR_1_1MeshToVolumeParams.html#a47dacbc5ca80bd9591ffea69c43b022eaa1a914735b205424ba6c40b85528d78a',1,'MR::MeshToVolumeParams::Unsigned'],['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309aa1a914735b205424ba6c40b85528d78a',1,'MR::Unsigned']]],
+  ['update_17',['Update',['../classMR_1_1TouchpadController_1_1Handler.html#a22bc334022e40146fa414493170af7b4a06933067aafd48425d67bcb01bba5cb6',1,'MR::TouchpadController::Handler']]],
+  ['upper_18',['Upper',['../structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685a19de5b94f7b83900d4b296d9fa491aec',1,'MR::GridSettings']]],
+  ['user_19',['User',['../classMR_1_1ColorTheme.html#ad14d75ef685e439c80487ba1d4c41ecaa8f9bfe9d1345237cb3b2b205864da075',1,'MR::ColorTheme']]]
 ];

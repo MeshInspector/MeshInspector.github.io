@@ -17,12 +17,11 @@ var searchData=
   ['fitdataparams_14',['FitDataParams',['../structMR_1_1Viewport_1_1FitDataParams.html',1,'MR::Viewport']]],
   ['fitselectedobjectsmenuitem_15',['FitSelectedObjectsMenuItem',['../classMR_1_1FitSelectedObjectsMenuItem.html',1,'MR']]],
   ['fitselectedprimitivesmenuitem_16',['FitSelectedPrimitivesMenuItem',['../classMR_1_1FitSelectedPrimitivesMenuItem.html',1,'MR']]],
-  ['fixspikesplugin_17',['FixSpikesPlugin',['../classMR_1_1FixSpikesPlugin.html',1,'MR']]],
-  ['flowaggregator_18',['FlowAggregator',['../classMR_1_1FlowAggregator.html',1,'MR']]],
-  ['floworigin_19',['FlowOrigin',['../structMR_1_1FlowOrigin.html',1,'MR']]],
-  ['flows_20',['Flows',['../structMR_1_1FlowAggregator_1_1Flows.html',1,'MR::FlowAggregator']]],
-  ['formdata_21',['FormData',['../structMR_1_1WebRequest_1_1FormData.html',1,'MR::WebRequest']]],
-  ['framebufferdata_22',['FramebufferData',['../classMR_1_1FramebufferData.html',1,'MR']]],
-  ['frameredrawrequest_23',['FrameRedrawRequest',['../classMR_1_1FrameRedrawRequest.html',1,'MR']]],
-  ['freeformdeformer_24',['FreeFormDeformer',['../classMR_1_1FreeFormDeformer.html',1,'MR']]]
+  ['flowaggregator_17',['FlowAggregator',['../classMR_1_1FlowAggregator.html',1,'MR']]],
+  ['floworigin_18',['FlowOrigin',['../structMR_1_1FlowOrigin.html',1,'MR']]],
+  ['flows_19',['Flows',['../structMR_1_1FlowAggregator_1_1Flows.html',1,'MR::FlowAggregator']]],
+  ['formdata_20',['FormData',['../structMR_1_1WebRequest_1_1FormData.html',1,'MR::WebRequest']]],
+  ['framebufferdata_21',['FramebufferData',['../classMR_1_1FramebufferData.html',1,'MR']]],
+  ['frameredrawrequest_22',['FrameRedrawRequest',['../classMR_1_1FrameRedrawRequest.html',1,'MR']]],
+  ['freeformdeformer_23',['FreeFormDeformer',['../classMR_1_1FreeFormDeformer.html',1,'MR']]]
 ];

@@ -1,5 +1,12 @@
 var namespaceMR =
 [
+    [ "AsyncObjectLoad", "namespaceMR_1_1AsyncObjectLoad.html", [
+      [ "AsyncObjectLoader", "namespaceMR_1_1AsyncObjectLoad.html#a63907e8e19853a070a01ecd563d44939", null ],
+      [ "PostLoadCallback", "namespaceMR_1_1AsyncObjectLoad.html#a8864f3c6f67b9650c08e1a8f36199636", null ],
+      [ "getFilters", "namespaceMR_1_1AsyncObjectLoad.html#ab35e77bdc551ff508c6cd6e5c788351d", null ],
+      [ "getObjectLoader", "namespaceMR_1_1AsyncObjectLoad.html#ac93301b66ed4628ee99f3759854be16c", null ],
+      [ "setObjectLoader", "namespaceMR_1_1AsyncObjectLoad.html#a08f50e882994fa96dea0ddb2f502b422", null ]
+    ] ],
     [ "Cuda", "namespaceMR_1_1Cuda.html", "namespaceMR_1_1Cuda" ],
     [ "DistanceMapLoad", "namespaceMR_1_1DistanceMapLoad.html", [
       [ "fromAnySupportedFormat", "group__DistanceMapLoadGroup.html#ga6db467a9bd1d1aaadd48db60f1f6c783", null ],
@@ -107,6 +114,9 @@ var namespaceMR =
       [ "model", "namespaceMR_1_1ModelCheck.html#ab8cf938d7f2cfc38b406daeda423fc34", null ],
       [ "model", "namespaceMR_1_1ModelCheck.html#ad70ae97a9cb482d7fc971ad9f929d803", null ]
     ] ],
+    [ "ObjectSave", "namespaceMR_1_1ObjectSave.html", [
+      [ "toAnySupportedFormat", "namespaceMR_1_1ObjectSave.html#a54a3a511e827b1db27f3a67e02c92c08", null ]
+    ] ],
     [ "PlanarTriangulation", "namespaceMR_1_1PlanarTriangulation.html", "namespaceMR_1_1PlanarTriangulation" ],
     [ "PointsLoad", "namespaceMR_1_1PointsLoad.html", [
       [ "fromAnySupportedFormat", "group__IOGroup.html#ga37b759ebc3da6e9acf243c3cb25be235", null ],
@@ -138,6 +148,7 @@ var namespaceMR =
       [ "getNumComponents", "namespaceMR_1_1PolylineComponents.html#a7b49dea5ec0f482893a31e642b0118b6", null ],
       [ "getUnionFindStructure", "group__ComponentsGroup.html#ga4e45c9f9a413927f7c08c3cd1062d8b3", null ]
     ] ],
+    [ "SceneLoad", "namespaceMR_1_1SceneLoad.html", "namespaceMR_1_1SceneLoad" ],
     [ "StyleConsts", "namespaceMR_1_1StyleConsts.html", "namespaceMR_1_1StyleConsts" ],
     [ "TriangulationHelpers", "namespaceMR_1_1TriangulationHelpers.html", "namespaceMR_1_1TriangulationHelpers" ],
     [ "UI", "namespaceMR_1_1UI.html", "namespaceMR_1_1UI" ],
@@ -190,6 +201,7 @@ var namespaceMR =
     [ "ChangeMeshUVCoordsAction", "classMR_1_1ChangeMeshUVCoordsAction.html", "classMR_1_1ChangeMeshUVCoordsAction" ],
     [ "ChangeNameAction", "classMR_1_1ChangeNameAction.html", "classMR_1_1ChangeNameAction" ],
     [ "ChangeObjectAction", "classMR_1_1ChangeObjectAction.html", "classMR_1_1ChangeObjectAction" ],
+    [ "ChangeObjectColorAction", "classMR_1_1ChangeObjectColorAction.html", "classMR_1_1ChangeObjectColorAction" ],
     [ "ChangeObjectSelectedAction", "classMR_1_1ChangeObjectSelectedAction.html", "classMR_1_1ChangeObjectSelectedAction" ],
     [ "ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html", "classMR_1_1ChangeObjectVisibilityAction" ],
     [ "ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html", "classMR_1_1ChangePointCloudAction" ],
@@ -202,6 +214,7 @@ var namespaceMR =
     [ "ChangeSceneObjectsOrder", "classMR_1_1ChangeSceneObjectsOrder.html", "classMR_1_1ChangeSceneObjectsOrder" ],
     [ "ChangeSurfaceAction", "classMR_1_1ChangeSurfaceAction.html", "classMR_1_1ChangeSurfaceAction" ],
     [ "ChangeTextureAction", "classMR_1_1ChangeTextureAction.html", "classMR_1_1ChangeTextureAction" ],
+    [ "ChangeValue", "classMR_1_1ChangeValue.html", "classMR_1_1ChangeValue" ],
     [ "ChangeVertsColorMapAction", "classMR_1_1ChangeVertsColorMapAction.html", "classMR_1_1ChangeVertsColorMapAction" ],
     [ "ChangeVisualizePropertyAction", "classMR_1_1ChangeVisualizePropertyAction.html", "classMR_1_1ChangeVisualizePropertyAction" ],
     [ "ChangeXfAction", "classMR_1_1ChangeXfAction.html", "classMR_1_1ChangeXfAction" ],
@@ -275,7 +288,6 @@ var namespaceMR =
     [ "FitDataMenuItem", "classMR_1_1FitDataMenuItem.html", "classMR_1_1FitDataMenuItem" ],
     [ "FitSelectedObjectsMenuItem", "classMR_1_1FitSelectedObjectsMenuItem.html", "classMR_1_1FitSelectedObjectsMenuItem" ],
     [ "FitSelectedPrimitivesMenuItem", "classMR_1_1FitSelectedPrimitivesMenuItem.html", "classMR_1_1FitSelectedPrimitivesMenuItem" ],
-    [ "FixSpikesPlugin", "classMR_1_1FixSpikesPlugin.html", "classMR_1_1FixSpikesPlugin" ],
     [ "FlowAggregator", "classMR_1_1FlowAggregator.html", "classMR_1_1FlowAggregator" ],
     [ "FlowOrigin", "structMR_1_1FlowOrigin.html", "structMR_1_1FlowOrigin" ],
     [ "FramebufferData", "classMR_1_1FramebufferData.html", "classMR_1_1FramebufferData" ],
@@ -481,8 +493,6 @@ var namespaceMR =
     [ "RegisterRenderObjectConstructor", "classMR_1_1RegisterRenderObjectConstructor.html", "classMR_1_1RegisterRenderObjectConstructor" ],
     [ "RegularMapMesher", "classMR_1_1RegularMapMesher.html", "classMR_1_1RegularMapMesher" ],
     [ "RelaxParams", "structMR_1_1RelaxParams.html", "structMR_1_1RelaxParams" ],
-    [ "RelaxPlugin", "classMR_1_1RelaxPlugin.html", "classMR_1_1RelaxPlugin" ],
-    [ "RemesherPlugin", "classMR_1_1RemesherPlugin.html", "classMR_1_1RemesherPlugin" ],
     [ "RemeshSettings", "structMR_1_1RemeshSettings.html", "structMR_1_1RemeshSettings" ],
     [ "RenderBufferRef", "classMR_1_1RenderBufferRef.html", "classMR_1_1RenderBufferRef" ],
     [ "RenderLabelObject", "classMR_1_1RenderLabelObject.html", "classMR_1_1RenderLabelObject" ],
@@ -560,6 +570,7 @@ var namespaceMR =
     [ "SpaceMouseHandlerHidapi", "classMR_1_1SpaceMouseHandlerHidapi.html", "classMR_1_1SpaceMouseHandlerHidapi" ],
     [ "SpaceMouseMoveListener", "structMR_1_1SpaceMouseMoveListener.html", "structMR_1_1SpaceMouseMoveListener" ],
     [ "SpaceMouseUpListener", "structMR_1_1SpaceMouseUpListener.html", "structMR_1_1SpaceMouseUpListener" ],
+    [ "Sphere", "structMR_1_1Sphere.html", "structMR_1_1Sphere" ],
     [ "SphereObject", "classMR_1_1SphereObject.html", "classMR_1_1SphereObject" ],
     [ "SphereParams", "structMR_1_1SphereParams.html", "structMR_1_1SphereParams" ],
     [ "SplashWindow", "classMR_1_1SplashWindow.html", "classMR_1_1SplashWindow" ],
@@ -589,6 +600,7 @@ var namespaceMR =
     [ "TouchesController", "classMR_1_1TouchesController.html", "classMR_1_1TouchesController" ],
     [ "TouchMoveListener", "structMR_1_1TouchMoveListener.html", "structMR_1_1TouchMoveListener" ],
     [ "TouchpadController", "classMR_1_1TouchpadController.html", "classMR_1_1TouchpadController" ],
+    [ "TouchpadParameters", "structMR_1_1TouchpadParameters.html", "structMR_1_1TouchpadParameters" ],
     [ "TouchpadRotateGestureBeginListener", "structMR_1_1TouchpadRotateGestureBeginListener.html", "structMR_1_1TouchpadRotateGestureBeginListener" ],
     [ "TouchpadRotateGestureEndListener", "structMR_1_1TouchpadRotateGestureEndListener.html", "structMR_1_1TouchpadRotateGestureEndListener" ],
     [ "TouchpadRotateGestureUpdateListener", "structMR_1_1TouchpadRotateGestureUpdateListener.html", "structMR_1_1TouchpadRotateGestureUpdateListener" ],
@@ -635,6 +647,7 @@ var namespaceMR =
     [ "ViewportIterator", "classMR_1_1ViewportIterator.html", "classMR_1_1ViewportIterator" ],
     [ "ViewportLinesWithColors", "structMR_1_1ViewportLinesWithColors.html", "structMR_1_1ViewportLinesWithColors" ],
     [ "ViewportMask", "classMR_1_1ViewportMask.html", "classMR_1_1ViewportMask" ],
+    [ "ViewportParametersAction", "classMR_1_1ViewportParametersAction.html", "classMR_1_1ViewportParametersAction" ],
     [ "ViewportPointsWithColors", "structMR_1_1ViewportPointsWithColors.html", "structMR_1_1ViewportPointsWithColors" ],
     [ "ViewportProperty", "classMR_1_1ViewportProperty.html", "classMR_1_1ViewportProperty" ],
     [ "VisualizeMaskType", "structMR_1_1VisualizeMaskType.html", null ],
@@ -802,6 +815,7 @@ var namespaceMR =
     [ "MeshToSimpleVolumeParams", "namespaceMR.html#ae3f6bf73a52562dbfb78454e2b7ce8d7", null ],
     [ "MultipleEdge", "group__MeshFixerGroup.html#ga807cd3d017d23c56a0f6ea1cb1f7c8cb", null ],
     [ "ObjectMakerFunc", "namespaceMR.html#a1781590b6f7cbab3c21b2bc45dc89a69", null ],
+    [ "ObjectPtr", "namespaceMR.html#a7cffd0d2c57dc4aaaea3b3c24fcfd667", null ],
     [ "OneMeshContours", "group__BooleanGroup.html#ga97b0e17fbf5a8ae17f107cf937d0b86b", null ],
     [ "OrgRingIterator", "namespaceMR.html#a888b0cdf3a37fb50c95252697ec9b9bd", null ],
     [ "ParallelHashMap", "namespaceMR.html#abd25fba6a766c37002e55fffbd1dce57", null ],
@@ -836,6 +850,12 @@ var namespaceMR =
     [ "SetBitIterator", "namespaceMR.html#a72121ddf3f962182a0cd896a72cbce55", null ],
     [ "SimpleVolume", "namespaceMR.html#a7ad75de4317308dd9e905cc79369ab6b", null ],
     [ "SimpleVolumeU16", "namespaceMR.html#a62c7faf90b4e6e718dbf4fded8c15210", null ],
+    [ "Sphere2", "namespaceMR.html#a0060629fd4268b5238eb1f91034af041", null ],
+    [ "Sphere2d", "namespaceMR.html#ac9bbf8ddc611ff55c6305726ad6671de", null ],
+    [ "Sphere2f", "namespaceMR.html#a297e934f32570f7130571a9c852ad885", null ],
+    [ "Sphere3", "namespaceMR.html#afae08d51f9d165fc1825f371d02eb3d7", null ],
+    [ "Sphere3d", "namespaceMR.html#a311744c1d4dc06c67044dfe557c374cc", null ],
+    [ "Sphere3f", "namespaceMR.html#aff115c6e7095afc6813674335f459411", null ],
     [ "SplitCaptionInfo", "namespaceMR.html#ab24ee027d62bc4d8970f9a63d76be096", null ],
     [ "StatePlugin", "namespaceMR.html#a8ab6eaf7f278cd71efed06a27897122a", null ],
     [ "SurfacePath", "namespaceMR.html#a6f060a604c3462c7d0b1df7dac703237", null ],
@@ -1082,6 +1102,11 @@ var namespaceMR =
     [ "PathError", "group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8", [
       [ "StartEndNotConnected", "group__SurfacePathSubgroup.html#ggaf2c93aa0da8a9748d23340f32349a8b8aad309ea76f6bf055e7b62a3dd200631f", null ],
       [ "InternalError", "group__SurfacePathSubgroup.html#ggaf2c93aa0da8a9748d23340f32349a8b8a8462b58246e70e5c83e5b939a9332cb5", null ]
+    ] ],
+    [ "PathPreference", "namespaceMR.html#ad7e1f7039c3adef672abd4150bc4786c", [
+      [ "Geodesic", "namespaceMR.html#ad7e1f7039c3adef672abd4150bc4786ca81cda646477dd0d1137c68b398ca755c", null ],
+      [ "Convex", "namespaceMR.html#ad7e1f7039c3adef672abd4150bc4786ca766cae017fab4bcc1d1e83fbb9af87c3", null ],
+      [ "Concave", "namespaceMR.html#ad7e1f7039c3adef672abd4150bc4786ca1cb290ed5917afdbf2532bb2bf6f0192", null ]
     ] ],
     [ "ProcessOneResult", "group__AABBTreeGroup.html#ga3dd2fd9fcc06b6502d22a9ea3eb63e47", [
       [ "StopProcessing", "group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47a38e59feb928e37292c8ee0a50f447612", null ],
@@ -1458,7 +1483,7 @@ var namespaceMR =
     [ "fillContours2D", "namespaceMR.html#add2e95f21c4e812705659326b48763fe", null ],
     [ "fillHole", "group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05", null ],
     [ "fillHoleTrivially", "group__FillHoleGroup.html#ga0241a36cc2b1016fd0cf66e9ae71f722", null ],
-    [ "filterCreaseEdges", "namespaceMR.html#a8b604a0b766ea780f6934ceff59dac95", null ],
+    [ "filterCreaseEdges", "namespaceMR.html#af323676e5a2bf779fb0700037ad648da", null ],
     [ "filterHistoryActionsVector", "group__HistoryGroup.html#gad816d7f5445309140db275f8f14c8ba1", null ],
     [ "FilterHistoryByCondition", "namespaceMR.html#af5e79c83f968cdf915fac0d9a5136768", null ],
     [ "findAvgPointsRadius", "group__PointCloudGroup.html#ga4a89d60a46db4f5461bda741c72574eb", null ],
@@ -1499,8 +1524,9 @@ var namespaceMR =
     [ "findMeshEdgesInBall", "group__AABBTreeGroup.html#ga50911249a881bd7365929503c138d8fa", null ],
     [ "findMultipleEdges", "group__MeshFixerGroup.html#ga0ee23854db52f730b02f8182b48c877b", null ],
     [ "findNClosestPointsPerPoint", "group__AABBTreeGroup.html#ga5ccfb741cd4bcb092c8884f744051203", null ],
+    [ "findNeighborVerts", "namespaceMR.html#a58ed9a10000732a6d443bb16846927b8", null ],
     [ "findNRingVerts", "group__MeshFixerGroup.html#ga248c2b6b8c9d3915cc4d7e94a2727734", null ],
-    [ "findOverhangs", "namespaceMR.html#af4dca7d17a22d4d4d128b4ae6195a3b2", null ],
+    [ "findOverhangs", "namespaceMR.html#ae5a23c27bb3bb838f31c354a2569981f", null ],
     [ "findOverlappingTris", "namespaceMR.html#ad24633dc1764f02a554b996841ef281f", null ],
     [ "findPointsInBall", "group__AABBTreeGroup.html#ga80e8bb354705c40373b5a8a3d1a3376c", null ],
     [ "findPointsInBall", "group__AABBTreeGroup.html#ga47bd19da135ff2a820eebd760da392a3", null ],
@@ -1705,6 +1731,7 @@ var namespaceMR =
     [ "interpolateArcs", "namespaceMR.html#a5cf448fe92baa11b05d8d6f0bcd6b9f5", null ],
     [ "interpolateLines", "namespaceMR.html#a57798fcf93f06547414a72682d58db10", null ],
     [ "intersection", "group__IntersectionGroup.html#gad9c4f2546d1a40da39bccf700c70ee49", null ],
+    [ "intersection", "group__IntersectionGroup.html#ga1ff63020d1319814baf4c97e72dfcc2b", null ],
     [ "intersection", "group__IntersectionGroup.html#ga09243a2c7d047fea71d5b6ee805bb486", null ],
     [ "intersection", "group__IntersectionGroup.html#ga5aa33ccde105060c1f523292e81dfcbf", null ],
     [ "intersection", "group__IntersectionGroup.html#ga0de20b6f8f6b0d5d0ac0b878f9a3d8f3", null ],
@@ -1815,6 +1842,7 @@ var namespaceMR =
     [ "minTriangleAngle", "namespaceMR.html#ac317aae7fbe013869599d57c76389e8b", null ],
     [ "minTriangleAngleSin", "group__MathGroup.html#gaf5af7058ce54bba6fc77a344d28b9826", null ],
     [ "normal", "namespaceMR.html#a668bccb3edee9cdfebdbdc80a502dde5", null ],
+    [ "objectHasSelectableChildren", "namespaceMR.html#a8e83df3805927f1f6c006f596809d97a", null ],
     [ "offsetContours", "namespaceMR.html#ab7426c1e5606c942ffc7e8b5f91fa028", null ],
     [ "offsetMesh", "namespaceMR.html#aa66fd34ed2e950968d65714d89b8b190", null ],
     [ "offsetPolyline", "namespaceMR.html#a4ef35a4401250075841ac4ffbbcd6145", null ],
@@ -2015,6 +2043,7 @@ var namespaceMR =
     [ "segmentVolume", "group__VolumeSegmentationGroup.html#ga67e0ece32922587ed0da1643aaf94a99", null ],
     [ "segmentVolumeByGraphCut", "group__VoxelGroup.html#gaef4e62ff5f95bf6c6917d9bb818ba5dc", null ],
     [ "SegPoints", "namespaceMR.html#aaf4d239a6cdece7da03913ad2b3a6efe", null ],
+    [ "SelectCurvaturePreference", "namespaceMR.html#ae6a703f529a05e3f2fa59d68fd266627", null ],
     [ "separateClosedContour", "namespaceMR.html#a0e4db0a98c3228b98384be5bcfadba5a", null ],
     [ "serializeMesh", "group__SerializerGroup.html#gae323d1c9f281c25a4a3242cc645521de", null ],
     [ "serializeObjectTree", "group__SerializerGroup.html#gaca961a714f0192aaf552be5f4cd5556e", null ],
@@ -2074,6 +2103,8 @@ var namespaceMR =
     [ "subdivideWithPlane", "namespaceMR.html#a7600509b91ab7f6d7ed6fa1b8c7844a2", null ],
     [ "subprogress", "namespaceMR.html#a135674a0320e958c28f73bb6c608cd54", null ],
     [ "subprogress", "namespaceMR.html#aa7718474a39816227de773e1ba6fdfa8", null ],
+    [ "subprogress", "namespaceMR.html#a2780b3d4b6af333b3d16f30fc3cc0ff0", null ],
+    [ "suggestVoxelSize", "namespaceMR.html#a340942714f6bb3ab85571b6e7cbba759", null ],
     [ "surfacePathLength", "group__SurfacePathSubgroup.html#gacebe3b7371a72e49ddfbabc14fd008b4", null ],
     [ "surfacePathsToContours3f", "group__SurfacePathSubgroup.html#ga8dbc7e2393ed3d315467293b5b2ba1e2", null ],
     [ "surfacePathToContour3f", "group__SurfacePathSubgroup.html#ga874e90d25d0cf437f34834d739fa588c", null ],

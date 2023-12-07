@@ -135,6 +135,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga4396b23b8c03f5aa66c3cd584dbdfe48"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#aaa5f73588605d0dd4282be91fa52efe2">LineSegm3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__IntersectionGroup.html#ga4396b23b8c03f5aa66c3cd584dbdfe48">MR::closestPoints</a> (const <a class="el" href="namespaceMR.html#ab6216cf41bdf8ac87f2ea2e21dac2518">Line3</a>&lt; T &gt; &amp;line, const <a class="el" href="namespaceMR.html#a00ac36fa8b61e26895d0c1245f36d3e9">Box3</a>&lt; T &gt; &amp;box)</td></tr>
 <tr class="memdesc:ga4396b23b8c03f5aa66c3cd584dbdfe48"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the closest points between a line and a box wireframe (not solid) in 3D  <br /></td></tr>
 <tr class="separator:ga4396b23b8c03f5aa66c3cd584dbdfe48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1ff63020d1319814baf4c97e72dfcc2b" id="r_ga1ff63020d1319814baf4c97e72dfcc2b"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:ga1ff63020d1319814baf4c97e72dfcc2b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__IntersectionGroup.html#ga1ff63020d1319814baf4c97e72dfcc2b">MR::intersection</a> (const <a class="el" href="structMR_1_1Line.html">Line</a>&lt; V &gt; &amp;line, const <a class="el" href="structMR_1_1Sphere.html">Sphere</a>&lt; V &gt; &amp;sphere)</td></tr>
+<tr class="separator:ga1ff63020d1319814baf4c97e72dfcc2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -344,7 +347,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="gad9c4f2546d1a40da39bccf700c70ee49" name="gad9c4f2546d1a40da39bccf700c70ee49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad9c4f2546d1a40da39bccf700c70ee49">&#9670;&#160;</a></span>intersection() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad9c4f2546d1a40da39bccf700c70ee49">&#9670;&#160;</a></span>intersection() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -386,8 +389,39 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="ga1ff63020d1319814baf4c97e72dfcc2b" name="ga1ff63020d1319814baf4c97e72dfcc2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1ff63020d1319814baf4c97e72dfcc2b">&#9670;&#160;</a></span>intersection() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto MR::intersection </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Line.html">Line</a>&lt; V &gt; &amp;&#160;</td>
+          <td class="paramname"><em>line</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Sphere.html">Sphere</a>&lt; V &gt; &amp;&#160;</td>
+          <td class="paramname"><em>sphere</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds intersection points between a line and a sphere; if found then returns parameters on the line </p>
+
+</div>
+</div>
 <a id="ga09243a2c7d047fea71d5b6ee805bb486" name="ga09243a2c7d047fea71d5b6ee805bb486"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga09243a2c7d047fea71d5b6ee805bb486">&#9670;&#160;</a></span>intersection() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga09243a2c7d047fea71d5b6ee805bb486">&#9670;&#160;</a></span>intersection() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -424,7 +458,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="ga5aa33ccde105060c1f523292e81dfcbf" name="ga5aa33ccde105060c1f523292e81dfcbf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5aa33ccde105060c1f523292e81dfcbf">&#9670;&#160;</a></span>intersection() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5aa33ccde105060c1f523292e81dfcbf">&#9670;&#160;</a></span>intersection() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -467,7 +501,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="ga0de20b6f8f6b0d5d0ac0b878f9a3d8f3" name="ga0de20b6f8f6b0d5d0ac0b878f9a3d8f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0de20b6f8f6b0d5d0ac0b878f9a3d8f3">&#9670;&#160;</a></span>intersection() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0de20b6f8f6b0d5d0ac0b878f9a3d8f3">&#9670;&#160;</a></span>intersection() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

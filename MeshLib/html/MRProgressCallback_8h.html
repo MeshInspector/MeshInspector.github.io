@@ -104,6 +104,7 @@ $(document).ready(function(){initNavTree('MRProgressCallback_8h.html',''); initR
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<code>#include &lt;cassert&gt;</code><br />
 </div>
 <p><a href="MRProgressCallback_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -132,6 +133,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a135674a0320e958c28f73bb6c608cd54"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a135674a0320e958c28f73bb6c608cd54">MR::subprogress</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb, F &amp;&amp;f)</td></tr>
 <tr class="memdesc:a135674a0320e958c28f73bb6c608cd54"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a callback that maps the value with given function  <br /></td></tr>
 <tr class="separator:a135674a0320e958c28f73bb6c608cd54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2780b3d4b6af333b3d16f30fc3cc0ff0" id="r_a2780b3d4b6af333b3d16f30fc3cc0ff0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a2780b3d4b6af333b3d16f30fc3cc0ff0">MR::subprogress</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb, size_t index, size_t count)</td></tr>
+<tr class="memdesc:a2780b3d4b6af333b3d16f30fc3cc0ff0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a callback that maps [0,1] linearly into [(index+0)/count,(index+1)/count] in the call to  <br /></td></tr>
+<tr class="separator:a2780b3d4b6af333b3d16f30fc3cc0ff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
