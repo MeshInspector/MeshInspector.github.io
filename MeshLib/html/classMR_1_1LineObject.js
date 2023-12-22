@@ -12,7 +12,7 @@ var classMR_1_1LineObject =
     [ "getDirection", "classMR_1_1LineObject.html#ab84a614ab19e8a9ba10f6e8671bda460", null ],
     [ "operator=", "classMR_1_1LineObject.html#ab5915cce854bcb4f57f7e00bba6cb20e", null ],
     [ "serializeFields_", "classMR_1_1LineObject.html#a70dc397b963d30654e48c48ef0dbc910", null ],
-    [ "serializeModel_", "classMR_1_1LineObject.html#ab92b1a4d9a2ba6412231ea32449de829", null ],
+    [ "serializeModel_", "classMR_1_1LineObject.html#aeea80f3008725131e9e509ed11ff92ce", null ],
     [ "setCenter", "classMR_1_1LineObject.html#a09783b07dc9b17a9d43702f6d89cfc37", null ],
     [ "setDirection", "classMR_1_1LineObject.html#aeee8da5f15c20ec2f865ae33753babf9", null ],
     [ "setSize", "classMR_1_1LineObject.html#a056b14986d62328068fa6287ea295433", null ],

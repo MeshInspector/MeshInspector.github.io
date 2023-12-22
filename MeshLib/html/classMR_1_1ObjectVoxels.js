@@ -40,7 +40,7 @@ var classMR_1_1ObjectVoxels =
     [ "recalculateIsoSurface", "classMR_1_1ObjectVoxels.html#a98ceec8bf2c38db8965f325c56ef6ac1", null ],
     [ "selectVoxels", "classMR_1_1ObjectVoxels.html#a4333c77a23030251df09a35b3432fdd6", null ],
     [ "serializeFields_", "classMR_1_1ObjectVoxels.html#a1b9e402abcba964cf107ae761006fdb3", null ],
-    [ "serializeModel_", "classMR_1_1ObjectVoxels.html#a46b54da242f92be059e6944fdf76cfce", null ],
+    [ "serializeModel_", "classMR_1_1ObjectVoxels.html#a5273b8c63d7cf6c939961afe36d15e42", null ],
     [ "setActiveBounds", "classMR_1_1ObjectVoxels.html#a7e16d8a108f465ccb925e3e36886739e", null ],
     [ "setDirtyFlags", "classMR_1_1ObjectVoxels.html#a26333ef8976d7ed8b8c57137bacce2f5", null ],
     [ "setDualMarchingCubes", "classMR_1_1ObjectVoxels.html#ab02aa1e3777a0b8e07c86ab41cd4ae02", null ],

@@ -18,9 +18,9 @@ var hierarchy =
     ] ],
     [ "MR::GcodeProcessor::BaseAction< Vec >", "structMR_1_1GcodeProcessor_1_1BaseAction.html", null ],
     [ "MR::GcodeProcessor::BaseAction< Vector3f >", "structMR_1_1GcodeProcessor_1_1BaseAction.html", null ],
-    [ "MR::Viewport::BaseFitParams", "structMR_1_1Viewport_1_1BaseFitParams.html", [
-      [ "MR::Viewport::FitBoxParams", "structMR_1_1Viewport_1_1FitBoxParams.html", null ],
-      [ "MR::Viewport::FitDataParams", "structMR_1_1Viewport_1_1FitDataParams.html", null ]
+    [ "MR::BaseFitParams", "structMR_1_1BaseFitParams.html", [
+      [ "MR::FitBoxParams", "structMR_1_1FitBoxParams.html", null ],
+      [ "MR::FitDataParams", "structMR_1_1FitDataParams.html", null ]
     ] ],
     [ "MR::ViewportGL::BasePickResult", "structMR_1_1ViewportGL_1_1BasePickResult.html", [
       [ "MR::ViewportGL::PickResult", "structMR_1_1ViewportGL_1_1PickResult.html", null ]
@@ -516,7 +516,6 @@ var hierarchy =
     [ "MR::RibbonMenuSearch::Parameters", "structMR_1_1RibbonMenuSearch_1_1Parameters.html", null ],
     [ "MR::SurfacePointWidget::Parameters", "structMR_1_1SurfacePointWidget_1_1Parameters.html", null ],
     [ "MR::Viewport::Parameters", "structMR_1_1Viewport_1_1Parameters.html", null ],
-    [ "MR::SpaceMouseController::Params", "structMR_1_1SpaceMouseController_1_1Params.html", null ],
     [ "MR::ColorMapAggregator< Tag >::PartialColorMap", "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html", null ],
     [ "MR::PartMapping", "structMR_1_1PartMapping.html", null ],
     [ "MR::Pdf", "classMR_1_1Pdf.html", null ],
@@ -528,7 +527,7 @@ var hierarchy =
     [ "MR::AABBTreePoints::Point", "structMR_1_1AABBTreePoints_1_1Point.html", null ],
     [ "MR::PointAccumulator", "classMR_1_1PointAccumulator.html", null ],
     [ "MR::PointCloud", "structMR_1_1PointCloud.html", null ],
-    [ "MR::Viewer::PointInAllSpaces", "structMR_1_1Viewer_1_1PointInAllSpaces.html", null ],
+    [ "MR::PointInAllSpaces", "structMR_1_1PointInAllSpaces.html", null ],
     [ "MR::PointOnFace", "structMR_1_1PointOnFace.html", null ],
     [ "MR::PointOnObject", "structMR_1_1PointOnObject.html", null ],
     [ "MR::PointsProjectionResult", "structMR_1_1PointsProjectionResult.html", null ],
@@ -652,6 +651,7 @@ var hierarchy =
     [ "MR::SpaceMouseHandler", "classMR_1_1SpaceMouseHandler.html", [
       [ "MR::SpaceMouseHandlerHidapi", "classMR_1_1SpaceMouseHandlerHidapi.html", null ]
     ] ],
+    [ "MR::SpaceMouseParameters", "structMR_1_1SpaceMouseParameters.html", null ],
     [ "MR::Sphere< V >", "structMR_1_1Sphere.html", null ],
     [ "MR::SphereParams", "structMR_1_1SphereParams.html", null ],
     [ "MR::SplashWindow", "classMR_1_1SplashWindow.html", [

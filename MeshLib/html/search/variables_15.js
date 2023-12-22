@@ -13,9 +13,9 @@ var searchData=
   ['windowsavesize_10',['windowSaveSize',['../classMR_1_1Viewer.html#a2b4fb1e2f21f33e213858ab579eb8620',1,'MR::Viewer']]],
   ['withsign_11',['withSign',['../structMR_1_1ContourToDistanceMapParams.html#afe6ef70a540df80fca43fb338ca681ce',1,'MR::ContourToDistanceMapParams']]],
   ['workmode_12',['workMode',['../structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a112aadc006f7ece0404c1cbe603783cd',1,'MR::SurfaceManipulationWidget::Settings']]],
-  ['worldbox_13',['worldBox',['../structMR_1_1Viewport_1_1FitBoxParams.html#ad7cf566c823f61c9cb21e1dd7a8f485d',1,'MR::Viewport::FitBoxParams']]],
+  ['worldbox_13',['worldBox',['../structMR_1_1FitBoxParams.html#a5594292518e53a54c005c6e95576306d',1,'MR::FitBoxParams']]],
   ['worldbox_5f_14',['worldbox_',['../classMR_1_1ObjectLinesHolder.html#af3f76f7286057cda0116754b663cf340',1,'MR::ObjectLinesHolder::worldBox_'],['../classMR_1_1ObjectMeshHolder.html#a33c3cd830b02b4b20f5c72a8bf2f7a47',1,'MR::ObjectMeshHolder::worldBox_'],['../classMR_1_1ObjectPointsHolder.html#a896a4967afa85824de6ebc22a609a95d',1,'MR::ObjectPointsHolder::worldBox_']]],
-  ['worldspace_15',['worldSpace',['../structMR_1_1Viewer_1_1PointInAllSpaces.html#af0e6467cf5ce1121ba9569986f7d5d53',1,'MR::Viewer::PointInAllSpaces']]],
+  ['worldspace_15',['worldSpace',['../structMR_1_1PointInAllSpaces.html#a137079597c74de0d73863a07b3a88f12',1,'MR::PointInAllSpaces']]],
   ['worldxf_16',['worldXf',['../structMR_1_1MeshToVolumeParams.html#a160d9c2171039308aa5a181a76575967',1,'MR::MeshToVolumeParams']]],
   ['worldxfchangedsignal_17',['worldXfChangedSignal',['../classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964',1,'MR::Object']]],
   ['wrap_18',['wrap',['../structMR_1_1MeshTexture.html#ab1d9b311e280516bb81e8749bfb440bc',1,'MR::MeshTexture::wrap'],['../structMR_1_1GlTexture2_1_1Settings.html#a42b6be0c848d4bbc069954aee39871d9',1,'MR::GlTexture2::Settings::wrap'],['../structMR_1_1GlTexture3_1_1Settings.html#a547edb4b74285f59a062181fc029fb79',1,'MR::GlTexture3::Settings::wrap']]]

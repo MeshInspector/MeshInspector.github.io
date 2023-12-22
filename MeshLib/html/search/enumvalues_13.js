@@ -19,5 +19,6 @@ var searchData=
   ['unsigned_16',['unsigned',['../structMR_1_1MeshToVolumeParams.html#a47dacbc5ca80bd9591ffea69c43b022eaa1a914735b205424ba6c40b85528d78a',1,'MR::MeshToVolumeParams::Unsigned'],['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309aa1a914735b205424ba6c40b85528d78a',1,'MR::Unsigned']]],
   ['update_17',['Update',['../classMR_1_1TouchpadController_1_1Handler.html#a22bc334022e40146fa414493170af7b4a06933067aafd48425d67bcb01bba5cb6',1,'MR::TouchpadController::Handler']]],
   ['upper_18',['Upper',['../structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685a19de5b94f7b83900d4b296d9fa491aec',1,'MR::GridSettings']]],
-  ['user_19',['User',['../classMR_1_1ColorTheme.html#ad14d75ef685e439c80487ba1d4c41ecaa8f9bfe9d1345237cb3b2b205864da075',1,'MR::ColorTheme']]]
+  ['usedefaultscenepropertiesondeserialization_19',['UseDefaultScenePropertiesOnDeserialization',['../classMR_1_1SceneSettings.html#ae472fad9782abf0cb2c7c6526a059911a258e9309c3ed4ad7ca9cecd5c4c6a242',1,'MR::SceneSettings']]],
+  ['user_20',['User',['../classMR_1_1ColorTheme.html#ad14d75ef685e439c80487ba1d4c41ecaa8f9bfe9d1345237cb3b2b205864da075',1,'MR::ColorTheme']]]
 ];

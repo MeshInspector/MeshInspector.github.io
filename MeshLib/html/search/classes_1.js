@@ -2,7 +2,7 @@ var searchData=
 [
   ['baseaction_0',['BaseAction',['../structMR_1_1GcodeProcessor_1_1BaseAction.html',1,'MR::GcodeProcessor']]],
   ['baseaction_3c_20vector3f_20_3e_1',['BaseAction&lt; Vector3f &gt;',['../structMR_1_1GcodeProcessor_1_1BaseAction.html',1,'MR::GcodeProcessor']]],
-  ['basefitparams_2',['BaseFitParams',['../structMR_1_1Viewport_1_1BaseFitParams.html',1,'MR::Viewport']]],
+  ['basefitparams_2',['BaseFitParams',['../structMR_1_1BaseFitParams.html',1,'MR']]],
   ['basepickresult_3',['BasePickResult',['../structMR_1_1ViewportGL_1_1BasePickResult.html',1,'MR::ViewportGL']]],
   ['baserenderparams_4',['baserenderparams',['../structMR_1_1BaseRenderParams.html',1,'MR::BaseRenderParams'],['../structMR_1_1ViewportGL_1_1BaseRenderParams.html',1,'MR::ViewportGL::BaseRenderParams']]],
   ['baseshellparameters_5',['BaseShellParameters',['../structMR_1_1BaseShellParameters.html',1,'MR']]],

@@ -20,6 +20,7 @@ var MRUIStyle_8h =
     [ "inputTextCenteredReadOnly", "MRUIStyle_8h.html#aa5363e552c8bef6450cdfad583af18e0", null ],
     [ "progressBar", "MRUIStyle_8h.html#aa49fc435b33d42412b5a43816ed40e52", null ],
     [ "radioButton", "MRUIStyle_8h.html#a8475dd1f1a29f5bb0edc0fcd7c53d115", null ],
+    [ "separator", "MRUIStyle_8h.html#a18b9183fbf887e8e6930c577d92fa409", null ],
     [ "separator", "MRUIStyle_8h.html#a17f2b30eb00e5aa94812541ac268a30f", null ],
     [ "setTooltipIfHovered", "MRUIStyle_8h.html#a872e637e1fc6bb7aa391dc842b565ed0", null ],
     [ "transparentText", "MRUIStyle_8h.html#a94309985ed89c89e0d6199e0c6a2e333", null ],

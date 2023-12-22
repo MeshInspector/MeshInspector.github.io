@@ -142,62 +142,68 @@ $(document).ready(function(){initNavTree('MRProgressBar_8h_source.html',''); ini
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="classMR_1_1ProgressBar.html#abd646b827470a47a4beacbab11de1f06">   41</a></span>    MRVIEWER_API <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ProgressBar.html#abd646b827470a47a4beacbab11de1f06">setTaskCount</a>( <span class="keywordtype">int</span> n );</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="classMR_1_1ProgressBar.html#a39112c358edad222160519a4b9a15b13">   43</a></span>    MRVIEWER_API <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ProgressBar.html#a39112c358edad222160519a4b9a15b13">finish</a>();</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="comment">// returns true if progress bar was ordered and not finished</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="classMR_1_1ProgressBar.html#aa72949181c7e93dc57d26276f90a3550">   46</a></span>    MRVIEWER_API <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1ProgressBar.html#aa72949181c7e93dc57d26276f90a3550">isOrdered</a>();</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="comment">// these callbacks allow canceling</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="classMR_1_1ProgressBar.html#a7732ed3aa649adc99d237e5315f07d84">   49</a></span>    MRVIEWER_API <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1ProgressBar.html#a7732ed3aa649adc99d237e5315f07d84">callBackSetProgress</a>(<span class="keywordtype">float</span> p);</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="comment">// these callbacks do not allow canceling</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="classMR_1_1ProgressBar.html#a7ae6de6dbe5eb8f419bbd30806db0477">   51</a></span>    MRVIEWER_API <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1ProgressBar.html#a7ae6de6dbe5eb8f419bbd30806db0477">simpleCallBackSetProgress</a>( <span class="keywordtype">float</span> p );</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keyword">static</span> <a class="code hl_class" href="classMR_1_1ProgressBar.html">ProgressBar</a>&amp; instance_();</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <a class="code hl_class" href="classMR_1_1ProgressBar.html">ProgressBar</a>();</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <a class="code hl_class" href="classMR_1_1ProgressBar.html">~ProgressBar</a>();</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keywordtype">void</span> initialize_();</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="comment">// cover task execution with try catch block (in release only)</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="comment">// if catches exception shows error in main thread overriding user defined main thread post-processing</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">bool</span> tryRun_( <span class="keyword">const</span> std::function&lt;<span class="keywordtype">bool</span> ()&gt;&amp; task );</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordtype">bool</span> tryRunWithSehHandler_( <span class="keyword">const</span> std::function&lt;<span class="keywordtype">bool</span> ()&gt;&amp; task );</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordtype">float</span> progress_;</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">int</span> currentTask_, taskCount_;</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    std::string taskName_, title_;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="comment">// set the current task&#39;s name without auto-updating progress value</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="classMR_1_1ProgressBar.html#a57ad0b3d794943bc4d4720b251e58e88">   44</a></span>    MRVIEWER_API <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ProgressBar.html#a57ad0b3d794943bc4d4720b251e58e88">forceSetTaskName</a>( std::string taskName );</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="classMR_1_1ProgressBar.html#a53263cd0f7893c5c1d9b8897ede3fe41">   45</a></span>    MRVIEWER_API <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ProgressBar.html#a53263cd0f7893c5c1d9b8897ede3fe41">resetTaskName</a>();</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="classMR_1_1ProgressBar.html#a39112c358edad222160519a4b9a15b13">   47</a></span>    MRVIEWER_API <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ProgressBar.html#a39112c358edad222160519a4b9a15b13">finish</a>();</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="comment">// returns true if progress bar was ordered and not finished</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="classMR_1_1ProgressBar.html#aa72949181c7e93dc57d26276f90a3550">   50</a></span>    MRVIEWER_API <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1ProgressBar.html#aa72949181c7e93dc57d26276f90a3550">isOrdered</a>();</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="comment">// these callbacks allow canceling</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="classMR_1_1ProgressBar.html#a7732ed3aa649adc99d237e5315f07d84">   53</a></span>    MRVIEWER_API <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1ProgressBar.html#a7732ed3aa649adc99d237e5315f07d84">callBackSetProgress</a>(<span class="keywordtype">float</span> p);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="comment">// these callbacks do not allow canceling</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="classMR_1_1ProgressBar.html#a7ae6de6dbe5eb8f419bbd30806db0477">   55</a></span>    MRVIEWER_API <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1ProgressBar.html#a7ae6de6dbe5eb8f419bbd30806db0477">simpleCallBackSetProgress</a>( <span class="keywordtype">float</span> p );</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keyword">static</span> <a class="code hl_class" href="classMR_1_1ProgressBar.html">ProgressBar</a>&amp; instance_();</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <a class="code hl_class" href="classMR_1_1ProgressBar.html">ProgressBar</a>();</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <a class="code hl_class" href="classMR_1_1ProgressBar.html">~ProgressBar</a>();</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">void</span> initialize_();</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="comment">// cover task execution with try catch block (in release only)</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="comment">// if catches exception shows error in main thread overriding user defined main thread post-processing</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">bool</span> tryRun_( <span class="keyword">const</span> std::function&lt;<span class="keywordtype">bool</span> ()&gt;&amp; task );</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordtype">bool</span> tryRunWithSehHandler_( <span class="keyword">const</span> std::function&lt;<span class="keywordtype">bool</span> ()&gt;&amp; task );</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <a class="code hl_class" href="classMR_1_1FrameRedrawRequest.html">FrameRedrawRequest</a> frameRequest_;</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="comment">// parameter is needed for logging progress</span></div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    std::atomic&lt;int&gt; percents_;</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    std::thread thread_;</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    std::function&lt;void()&gt; onFinish_;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    std::atomic&lt;float&gt; progress_;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    std::atomic&lt;int&gt; currentTask_, taskCount_;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    std::mutex mutex_;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    std::string taskName_, title_;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordtype">bool</span> overrideTaskName_{ <span class="keyword">false</span> };</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <a class="code hl_class" href="classMR_1_1FrameRedrawRequest.html">FrameRedrawRequest</a> frameRequest_;</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="comment">// needed to be able to call progress bar from any point, not only from ImGui frame scope</span></div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keyword">struct </span>DeferredInit</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    {</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        <span class="keywordtype">int</span> taskCount;</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        std::string name;</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        std::function&lt;void ()&gt; postInit;</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    };</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    std::unique_ptr&lt;DeferredInit&gt; deferredInit_;</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    std::atomic&lt;bool&gt; allowCancel_;</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    std::atomic&lt;bool&gt; canceled_;</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    std::atomic&lt;bool&gt; finished_;</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    ImGuiID setupId_ = ImGuiID( -1 );</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <span class="keywordtype">bool</span> isOrdered_{ <span class="keyword">false</span> };</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    <span class="keywordtype">bool</span> isInit_{ <span class="keyword">false</span> };</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="comment">// this is needed to show full progress before closing</span></div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keywordtype">bool</span> closeDialogNextFrame_{ <span class="keyword">false</span> };</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>};</div>
-</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="comment">// parameter is needed for logging progress</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    std::atomic&lt;int&gt; percents_;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    std::thread thread_;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    std::function&lt;void()&gt; onFinish_;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <span class="comment">// needed to be able to call progress bar from any point, not only from ImGui frame scope</span></div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <span class="keyword">struct </span>DeferredInit</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    {</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        <span class="keywordtype">int</span> taskCount;</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        std::string name;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        std::function&lt;void ()&gt; postInit;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    };</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    std::unique_ptr&lt;DeferredInit&gt; deferredInit_;</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    std::atomic&lt;bool&gt; allowCancel_;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    std::atomic&lt;bool&gt; canceled_;</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    std::atomic&lt;bool&gt; finished_;</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    ImGuiID setupId_ = ImGuiID( -1 );</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>}</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordtype">bool</span> isOrdered_{ <span class="keyword">false</span> };</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">bool</span> isInit_{ <span class="keyword">false</span> };</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="comment">// this is needed to show full progress before closing</span></div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keywordtype">bool</span> closeDialogNextFrame_{ <span class="keyword">false</span> };</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>};</div>
+</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>}</div>
 <div class="ttc" id="aMRFrameRedrawRequest_8h_html"><div class="ttname"><a href="MRFrameRedrawRequest_8h.html">MRFrameRedrawRequest.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1FrameRedrawRequest_html"><div class="ttname"><a href="classMR_1_1FrameRedrawRequest.html">MR::FrameRedrawRequest</a></div><div class="ttdoc">class for requesting frame redraw in some time</div><div class="ttdef"><b>Definition</b> MRFrameRedrawRequest.h:10</div></div>
 <div class="ttc" id="aclassMR_1_1ProgressBar_html"><div class="ttname"><a href="classMR_1_1ProgressBar.html">MR::ProgressBar</a></div><div class="ttdef"><b>Definition</b> MRProgressBar.h:14</div></div>
@@ -207,6 +213,8 @@ $(document).ready(function(){initNavTree('MRProgressBar_8h_source.html',''); ini
 <div class="ttc" id="aclassMR_1_1ProgressBar_html_a39112c358edad222160519a4b9a15b13"><div class="ttname"><a href="classMR_1_1ProgressBar.html#a39112c358edad222160519a4b9a15b13">MR::ProgressBar::finish</a></div><div class="ttdeci">static MRVIEWER_API void finish()</div></div>
 <div class="ttc" id="aclassMR_1_1ProgressBar_html_a3fb8ec5550d87e4fe4703c76b46cb777"><div class="ttname"><a href="classMR_1_1ProgressBar.html#a3fb8ec5550d87e4fe4703c76b46cb777">MR::ProgressBar::orderWithMainThreadPostProcessing</a></div><div class="ttdeci">static MRVIEWER_API void orderWithMainThreadPostProcessing(const char *name, TaskWithMainThreadPostProcessing task, int taskCount=1)</div></div>
 <div class="ttc" id="aclassMR_1_1ProgressBar_html_a4b820bcb95bedebd16a059a3b3d8b238"><div class="ttname"><a href="classMR_1_1ProgressBar.html#a4b820bcb95bedebd16a059a3b3d8b238">MR::ProgressBar::getProgress</a></div><div class="ttdeci">static MRVIEWER_API float getProgress()</div></div>
+<div class="ttc" id="aclassMR_1_1ProgressBar_html_a53263cd0f7893c5c1d9b8897ede3fe41"><div class="ttname"><a href="classMR_1_1ProgressBar.html#a53263cd0f7893c5c1d9b8897ede3fe41">MR::ProgressBar::resetTaskName</a></div><div class="ttdeci">static MRVIEWER_API void resetTaskName()</div></div>
+<div class="ttc" id="aclassMR_1_1ProgressBar_html_a57ad0b3d794943bc4d4720b251e58e88"><div class="ttname"><a href="classMR_1_1ProgressBar.html#a57ad0b3d794943bc4d4720b251e58e88">MR::ProgressBar::forceSetTaskName</a></div><div class="ttdeci">static MRVIEWER_API void forceSetTaskName(std::string taskName)</div></div>
 <div class="ttc" id="aclassMR_1_1ProgressBar_html_a7732ed3aa649adc99d237e5315f07d84"><div class="ttname"><a href="classMR_1_1ProgressBar.html#a7732ed3aa649adc99d237e5315f07d84">MR::ProgressBar::callBackSetProgress</a></div><div class="ttdeci">static MRVIEWER_API bool callBackSetProgress(float p)</div></div>
 <div class="ttc" id="aclassMR_1_1ProgressBar_html_a7ae6de6dbe5eb8f419bbd30806db0477"><div class="ttname"><a href="classMR_1_1ProgressBar.html#a7ae6de6dbe5eb8f419bbd30806db0477">MR::ProgressBar::simpleCallBackSetProgress</a></div><div class="ttdeci">static MRVIEWER_API bool simpleCallBackSetProgress(float p)</div></div>
 <div class="ttc" id="aclassMR_1_1ProgressBar_html_a9c764e9adb7623456e991773ae726b8f"><div class="ttname"><a href="classMR_1_1ProgressBar.html#a9c764e9adb7623456e991773ae726b8f">MR::ProgressBar::isCanceled</a></div><div class="ttdeci">static MRVIEWER_API bool isCanceled()</div></div>

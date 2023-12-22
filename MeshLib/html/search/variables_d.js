@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['obj_0',['obj',['../structMR_1_1Writer.html#a1ff0e2daeb475fb1edc47380d8255f59',1,'MR::Writer::obj'],['../structMR_1_1Viewer_1_1PointInAllSpaces.html#a3c33daf3e0ed46a68b7e37a65005a22f',1,'MR::Viewer::PointInAllSpaces::obj']]],
+  ['obj_0',['obj',['../structMR_1_1Writer.html#a1ff0e2daeb475fb1edc47380d8255f59',1,'MR::Writer::obj'],['../structMR_1_1PointInAllSpaces.html#a9386798c3dc480332b26b1432b3d9b22',1,'MR::PointInAllSpaces::obj']]],
   ['objectscale_1',['objectScale',['../structMR_1_1Viewport_1_1Parameters.html#af702c49c5d0e216669074795ef81a796',1,'MR::Viewport::Parameters']]],
   ['objmesh_5f_2',['objMesh_',['../classMR_1_1RenderMeshObject.html#a3bbf015a92d7acdcb4f134a3af214b75',1,'MR::RenderMeshObject']]],
-  ['objslist_3',['objsList',['../structMR_1_1Viewport_1_1FitDataParams.html#a26b2eaa63f341d684fa1cb726689e656',1,'MR::Viewport::FitDataParams']]],
+  ['objslist_3',['objsList',['../structMR_1_1FitDataParams.html#ad080d5785a8217efd7dd3134b61d933f',1,'MR::FitDataParams']]],
   ['offset_4',['offset',['../structMR_1_1OffsetContoursParams.html#aaa59d5575d36ccf9d5237292d79740c8',1,'MR::OffsetContoursParams::Offset'],['../structMR_1_1SharpenMarchingCubesMeshSettings.html#aad69635a569d93af09b5d7d1b6c24a7c',1,'MR::SharpenMarchingCubesMeshSettings::offset']]],
   ['offsetmesh_5',['offsetMesh',['../structMR_1_1ToolPathParams.html#a290865e63260a699f02e17210427d220',1,'MR::ToolPathParams']]],
   ['offsetparameters_6',['offsetParameters',['../structMR_1_1ContoursDistanceMapOptions.html#a5015f92ab6db453e909083c2c9486054',1,'MR::ContoursDistanceMapOptions']]],

@@ -108,6 +108,7 @@ $(document).ready(function(){initNavTree('MROffsetContours_8h.html',''); initRes
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRConstants_8h_source.html">MRConstants.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRExpected_8h_source.html">MRExpected.h</a>&quot;</code><br />
+<code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 </div>
 <p><a href="MROffsetContours_8h_source.html">Go to the source code of this file.</a></p>
@@ -130,12 +131,17 @@ Typedefs</h2></td></tr>
 <tr class="separator:a7f5ad40d802b43510430e13f8474cd8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af618792bd936d64cfcc9cda876c1d3eb" id="r_af618792bd936d64cfcc9cda876c1d3eb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af618792bd936d64cfcc9cda876c1d3eb">MR::ContoursVertMaps</a> = std::vector&lt; <a class="el" href="namespaceMR.html#a7f5ad40d802b43510430e13f8474cd8d">ContoursVertMap</a> &gt;</td></tr>
 <tr class="separator:af618792bd936d64cfcc9cda876c1d3eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a968312e8fed0fdacb004c190c2ad2f17" id="r_a968312e8fed0fdacb004c190c2ad2f17"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a968312e8fed0fdacb004c190c2ad2f17">MR::ContoursVariableOffset</a> = std::function&lt; float(int, int)&gt;</td></tr>
+<tr class="separator:a968312e8fed0fdacb004c190c2ad2f17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab7426c1e5606c942ffc7e8b5f91fa028" id="r_ab7426c1e5606c942ffc7e8b5f91fa028"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a905a6b7530f91b7d04cb4ea1d2988189">Expected</a>&lt; <a class="el" href="namespaceMR.html#a50e8714d42cba4acf038efe5c4bd491a">Contours2f</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab7426c1e5606c942ffc7e8b5f91fa028">MR::offsetContours</a> (const <a class="el" href="namespaceMR.html#a50e8714d42cba4acf038efe5c4bd491a">Contours2f</a> &amp;contours, float offset, const <a class="el" href="structMR_1_1OffsetContoursParams.html">OffsetContoursParams</a> &amp;params={})</td></tr>
-<tr class="memdesc:ab7426c1e5606c942ffc7e8b5f91fa028"><td class="mdescLeft">&#160;</td><td class="mdescRight">offsets 2d contours in plane  <br /></td></tr>
-<tr class="separator:ab7426c1e5606c942ffc7e8b5f91fa028"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acedbfb27bdded9e3c9322ce1e29e0781" id="r_acedbfb27bdded9e3c9322ce1e29e0781"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a905a6b7530f91b7d04cb4ea1d2988189">Expected</a>&lt; <a class="el" href="namespaceMR.html#a50e8714d42cba4acf038efe5c4bd491a">Contours2f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#acedbfb27bdded9e3c9322ce1e29e0781">MR::offsetContours</a> (const <a class="el" href="namespaceMR.html#a50e8714d42cba4acf038efe5c4bd491a">Contours2f</a> &amp;contours, float offset, const <a class="el" href="structMR_1_1OffsetContoursParams.html">OffsetContoursParams</a> &amp;params={})</td></tr>
+<tr class="memdesc:acedbfb27bdded9e3c9322ce1e29e0781"><td class="mdescLeft">&#160;</td><td class="mdescRight">offsets 2d contours in plane  <br /></td></tr>
+<tr class="separator:acedbfb27bdded9e3c9322ce1e29e0781"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5db06f36d945bf1145dd23e57d58c4ee" id="r_a5db06f36d945bf1145dd23e57d58c4ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a905a6b7530f91b7d04cb4ea1d2988189">Expected</a>&lt; <a class="el" href="namespaceMR.html#a50e8714d42cba4acf038efe5c4bd491a">Contours2f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5db06f36d945bf1145dd23e57d58c4ee">MR::offsetContours</a> (const <a class="el" href="namespaceMR.html#a50e8714d42cba4acf038efe5c4bd491a">Contours2f</a> &amp;contours, <a class="el" href="namespaceMR.html#a968312e8fed0fdacb004c190c2ad2f17">ContoursVariableOffset</a> offset, const <a class="el" href="structMR_1_1OffsetContoursParams.html">OffsetContoursParams</a> &amp;params={})</td></tr>
+<tr class="memdesc:a5db06f36d945bf1145dd23e57d58c4ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">offsets 2d contours in plane  <br /></td></tr>
+<tr class="separator:a5db06f36d945bf1145dd23e57d58c4ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

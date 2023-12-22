@@ -16,6 +16,7 @@ var classMR_1_1WebRequest =
     [ "send", "classMR_1_1WebRequest.html#aa02aca75a86bfdac8a826799b06315db", null ],
     [ "setAsync", "classMR_1_1WebRequest.html#a0d3236e9c137c50abba068fb721d8b6a", null ],
     [ "setBody", "classMR_1_1WebRequest.html#a76fb676d9920639dca6fef5b1e7d5626", null ],
+    [ "setDownloadProgressCallback", "classMR_1_1WebRequest.html#ae1aaf67bec2db03e0160d57bb24325f4", null ],
     [ "setFormData", "classMR_1_1WebRequest.html#a55e8283c14b690c8e84baeb5065f8194", null ],
     [ "setHeaders", "classMR_1_1WebRequest.html#ad0f3209556e4b15dbf2729308648b8b8", null ],
     [ "setInputPath", "classMR_1_1WebRequest.html#a8da63d0dc0ee9bf2812516f6d3d679b4", null ],
@@ -23,5 +24,6 @@ var classMR_1_1WebRequest =
     [ "setMethod", "classMR_1_1WebRequest.html#acabf84df9e987c06b342463a6bfc80ec", null ],
     [ "setOutputPath", "classMR_1_1WebRequest.html#a0c2440df6c9d9b3806dc3b0158a7df02", null ],
     [ "setParameters", "classMR_1_1WebRequest.html#af5d208e5912e2a8a359a8bae954eccbf", null ],
-    [ "setTimeout", "classMR_1_1WebRequest.html#afcc60aef690f05cb016167a91d6e5fb7", null ]
+    [ "setTimeout", "classMR_1_1WebRequest.html#afcc60aef690f05cb016167a91d6e5fb7", null ],
+    [ "setUploadProgressCallback", "classMR_1_1WebRequest.html#a911c13b636af362593bd7afc91cefc85", null ]
 ];

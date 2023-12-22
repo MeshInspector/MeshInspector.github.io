@@ -11,7 +11,7 @@ var classMR_1_1PointObject =
     [ "getPoint", "classMR_1_1PointObject.html#ad9c817f876ecb3aebe773f1857bc5f19", null ],
     [ "operator=", "classMR_1_1PointObject.html#ae0b89143bda253553841055632c8f8bd", null ],
     [ "serializeFields_", "classMR_1_1PointObject.html#aeb16ff07a3bf800cb981d3d78a999a0d", null ],
-    [ "serializeModel_", "classMR_1_1PointObject.html#a917e7b776827003d343d037f967d752c", null ],
+    [ "serializeModel_", "classMR_1_1PointObject.html#a90ac7dc66e574c76684190d07a5dff5e", null ],
     [ "setPoint", "classMR_1_1PointObject.html#afe94a231808ea5c368d03731cb60b649", null ],
     [ "shallowClone", "classMR_1_1PointObject.html#a2073cb832f307501a3efea77d5f2f461", null ],
     [ "swapBase_", "classMR_1_1PointObject.html#afdd7f6159c74701c90843b6632e7e75f", null ],

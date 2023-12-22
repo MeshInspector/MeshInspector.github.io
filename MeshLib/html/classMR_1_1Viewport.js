@@ -1,16 +1,11 @@
 var classMR_1_1Viewport =
 [
-    [ "BaseFitParams", "structMR_1_1Viewport_1_1BaseFitParams.html", "structMR_1_1Viewport_1_1BaseFitParams" ],
-    [ "FitBoxParams", "structMR_1_1Viewport_1_1FitBoxParams.html", "structMR_1_1Viewport_1_1FitBoxParams" ],
-    [ "FitDataParams", "structMR_1_1Viewport_1_1FitDataParams.html", "structMR_1_1Viewport_1_1FitDataParams" ],
     [ "Parameters", "structMR_1_1Viewport_1_1Parameters.html", "structMR_1_1Viewport_1_1Parameters" ],
+    [ "BaseFitParams", "classMR_1_1Viewport.html#a14d9ce8dba0a41d18ce159115c94cef4", null ],
+    [ "FitBoxParams", "classMR_1_1Viewport.html#ac77d7d4e41e9f6fac8540acc18f23da5", null ],
+    [ "FitDataParams", "classMR_1_1Viewport.html#a510e738a3af8ee63e000ddfdc7679a55", null ],
+    [ "FitMode", "classMR_1_1Viewport.html#a03ac32b61f9c93a1a780e490c999ad0d", null ],
     [ "ViewportRectangle", "classMR_1_1Viewport.html#a4ffdd066d297db0b871f78fa572166a3", null ],
-    [ "FitMode", "classMR_1_1Viewport.html#a0e9d17d92737e700a33cdeff165b9384", [
-      [ "Visible", "classMR_1_1Viewport.html#a0e9d17d92737e700a33cdeff165b9384aec24d78ce33048dc73a2b6b1a0690192", null ],
-      [ "SelectedPrimitives", "classMR_1_1Viewport.html#a0e9d17d92737e700a33cdeff165b9384a5e6ec7d73c67853669ec7f19208bc4f3", null ],
-      [ "SelectedObjects", "classMR_1_1Viewport.html#a0e9d17d92737e700a33cdeff165b9384a59ebaac912e88dcadf4c1963af0724a1", null ],
-      [ "CustomObjectsList", "classMR_1_1Viewport.html#a0e9d17d92737e700a33cdeff165b9384ab217a711be13c7b44993261f88a6b070", null ]
-    ] ],
     [ "Viewport", "classMR_1_1Viewport.html#adc0a625e7bd0d7fecf55699b470659ac", null ],
     [ "~Viewport", "classMR_1_1Viewport.html#a1d65bf318796ffdc96002b5d70d984a7", null ],
     [ "Viewport", "classMR_1_1Viewport.html#ab2c9307e0042dfba8ab64f861356ad72", null ],

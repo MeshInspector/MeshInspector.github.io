@@ -55,7 +55,7 @@ var classMR_1_1ObjectMeshHolder =
     [ "selectEdges", "classMR_1_1ObjectMeshHolder.html#a6d9dce6f8274d0a26509ac4ec953985f", null ],
     [ "selectFaces", "classMR_1_1ObjectMeshHolder.html#a9dd8c2355f747dedea3a0f888c09e6da", null ],
     [ "serializeFields_", "classMR_1_1ObjectMeshHolder.html#a94d5dc0f646051e69cc9e5c89ad68f0d", null ],
-    [ "serializeModel_", "classMR_1_1ObjectMeshHolder.html#a5730cb4e2e41e50c780fd23a1b95bc2d", null ],
+    [ "serializeModel_", "classMR_1_1ObjectMeshHolder.html#af15317e6285384fe0e02f30b66e5315b", null ],
     [ "setAncillaryTexture", "classMR_1_1ObjectMeshHolder.html#af874792709a30f721e8547c417eb4a02", null ],
     [ "setAncillaryUVCoords", "classMR_1_1ObjectMeshHolder.html#aa401434ef1423f095077a16d6f720a35", null ],
     [ "setBordersColor", "classMR_1_1ObjectMeshHolder.html#ab613dad6e4c41c979981b68208847e66", null ],

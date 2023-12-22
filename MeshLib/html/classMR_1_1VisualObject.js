@@ -59,6 +59,7 @@ var classMR_1_1VisualObject =
     [ "setShininess", "classMR_1_1VisualObject.html#add52279d4cba695b4fa60d469cb8c1af", null ],
     [ "setSpecularStrength", "classMR_1_1VisualObject.html#a455eb4255b591d822d504e0403c5e984", null ],
     [ "setupRenderObject_", "classMR_1_1VisualObject.html#a8c9ac961e923f7c61ccf3424413be0fb", null ],
+    [ "setUseDefaultScenePropertiesOnDeserialization", "classMR_1_1VisualObject.html#a12fceb01c325ff73eb770fa255cb5ecf", null ],
     [ "setVertsColorMap", "classMR_1_1VisualObject.html#ad77d15eb01634f7726e7b2c23d4595cf", null ],
     [ "setVisualizeProperty", "classMR_1_1VisualObject.html#ace92453fbd8b2291aff77c36aff89a9d", null ],
     [ "setVisualizePropertyMask", "classMR_1_1VisualObject.html#af82ab7db25b1956d5e8e61df100feb47", null ],
@@ -71,6 +72,7 @@ var classMR_1_1VisualObject =
     [ "toggleVisualizeProperty", "classMR_1_1VisualObject.html#aa787c76ffea8854bb9cfdfbca5c33a2d", null ],
     [ "typeName", "classMR_1_1VisualObject.html#a6f629cc6822b206ab9232648fa19dcb6", null ],
     [ "updateVertsColorMap", "classMR_1_1VisualObject.html#a4c44ad8ebd43db1ccbc850ec3c809591", null ],
+    [ "useDefaultScenePropertiesOnDeserialization", "classMR_1_1VisualObject.html#a0466c6ddefdea403775b5b4fa4a46219", null ],
     [ "ambientStrength_", "classMR_1_1VisualObject.html#a53f3623d9c70f13c0546466a3ab5da96", null ],
     [ "backFacesColor_", "classMR_1_1VisualObject.html#ae3a2d142d4abb2283a71caf7395282a4", null ],
     [ "clipByPlane_", "classMR_1_1VisualObject.html#ab87c9fab3f92c38aba589584b5466a98", null ],
@@ -90,5 +92,6 @@ var classMR_1_1VisualObject =
     [ "showName_", "classMR_1_1VisualObject.html#a611894e7f98e2633137d75833e361781", null ],
     [ "specularStrength_", "classMR_1_1VisualObject.html#ab494630abaaab85d3b4c16929c7e6e83", null ],
     [ "unselectedColor_", "classMR_1_1VisualObject.html#a567b072f1d687c864a8be3d5e68d13a3", null ],
+    [ "useDefaultScenePropertiesOnDeserialization_", "classMR_1_1VisualObject.html#aeed6d251c7bdbffe0634b0fe96faab35", null ],
     [ "vertsColorMap_", "classMR_1_1VisualObject.html#a782cfef38763cac8903ad92bd391f0ec", null ]
 ];

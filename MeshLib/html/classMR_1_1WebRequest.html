@@ -146,12 +146,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad0f3209556e4b15dbf2729308648b8b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8da63d0dc0ee9bf2812516f6d3d679b4" id="r_a8da63d0dc0ee9bf2812516f6d3d679b4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#a8da63d0dc0ee9bf2812516f6d3d679b4">setInputPath</a> (std::string inputPath)</td></tr>
 <tr class="separator:a8da63d0dc0ee9bf2812516f6d3d679b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a911c13b636af362593bd7afc91cefc85" id="r_a911c13b636af362593bd7afc91cefc85"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#a911c13b636af362593bd7afc91cefc85">setUploadProgressCallback</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback)</td></tr>
+<tr class="separator:a911c13b636af362593bd7afc91cefc85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55e8283c14b690c8e84baeb5065f8194" id="r_a55e8283c14b690c8e84baeb5065f8194"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#a55e8283c14b690c8e84baeb5065f8194">setFormData</a> (std::vector&lt; <a class="el" href="structMR_1_1WebRequest_1_1FormData.html">FormData</a> &gt; formData)</td></tr>
 <tr class="separator:a55e8283c14b690c8e84baeb5065f8194"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76fb676d9920639dca6fef5b1e7d5626" id="r_a76fb676d9920639dca6fef5b1e7d5626"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#a76fb676d9920639dca6fef5b1e7d5626">setBody</a> (std::string body)</td></tr>
 <tr class="separator:a76fb676d9920639dca6fef5b1e7d5626"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c2440df6c9d9b3806dc3b0158a7df02" id="r_a0c2440df6c9d9b3806dc3b0158a7df02"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#a0c2440df6c9d9b3806dc3b0158a7df02">setOutputPath</a> (std::string outputPath)</td></tr>
 <tr class="separator:a0c2440df6c9d9b3806dc3b0158a7df02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1aaf67bec2db03e0160d57bb24325f4" id="r_ae1aaf67bec2db03e0160d57bb24325f4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#ae1aaf67bec2db03e0160d57bb24325f4">setDownloadProgressCallback</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback)</td></tr>
+<tr class="separator:ae1aaf67bec2db03e0160d57bb24325f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d3236e9c137c50abba068fb721d8b6a" id="r_a0d3236e9c137c50abba068fb721d8b6a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#a0d3236e9c137c50abba068fb721d8b6a">setAsync</a> (bool async)</td></tr>
 <tr class="separator:a0d3236e9c137c50abba068fb721d8b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad228e2cb058eb73c228cb77bdd7cbbf5" id="r_ad228e2cb058eb73c228cb77bdd7cbbf5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1WebRequest.html#ad228e2cb058eb73c228cb77bdd7cbbf5">setLogName</a> (std::string logName)</td></tr>
@@ -376,6 +380,24 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae1aaf67bec2db03e0160d57bb24325f4" name="ae1aaf67bec2db03e0160d57bb24325f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1aaf67bec2db03e0160d57bb24325f4">&#9670;&#160;</a></span>setDownloadProgressCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::WebRequest::setDownloadProgressCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a55e8283c14b690c8e84baeb5065f8194" name="a55e8283c14b690c8e84baeb5065f8194"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a55e8283c14b690c8e84baeb5065f8194">&#9670;&#160;</a></span>setFormData()</h2>
 
@@ -513,6 +535,24 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>timeoutMs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a911c13b636af362593bd7afc91cefc85" name="a911c13b636af362593bd7afc91cefc85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a911c13b636af362593bd7afc91cefc85">&#9670;&#160;</a></span>setUploadProgressCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::WebRequest::setUploadProgressCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em></td><td>)</td>
           <td></td>
         </tr>
       </table>

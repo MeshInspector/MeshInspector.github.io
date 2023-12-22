@@ -38,6 +38,7 @@ var group__BasicStructuresGroup =
     [ "MR::SceneSettings", "classMR_1_1SceneSettings.html", [
       [ "Type", "classMR_1_1SceneSettings.html#ae472fad9782abf0cb2c7c6526a059911", [
         [ "MeshFlatShading", "classMR_1_1SceneSettings.html#ae472fad9782abf0cb2c7c6526a059911a7c69489518a03a878e4a155f854de42e", null ],
+        [ "UseDefaultScenePropertiesOnDeserialization", "classMR_1_1SceneSettings.html#ae472fad9782abf0cb2c7c6526a059911a258e9309c3ed4ad7ca9cecd5c4c6a242", null ],
         [ "Count", "classMR_1_1SceneSettings.html#ae472fad9782abf0cb2c7c6526a059911a5d6e07607b1a993494392072a0b918cf", null ]
       ] ]
     ] ],

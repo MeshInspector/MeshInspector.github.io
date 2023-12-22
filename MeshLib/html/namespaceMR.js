@@ -78,7 +78,7 @@ var namespaceMR =
       ] ],
       [ "getAllComponents", "group__MeshComponentsGroup.html#gafde425f262b1f15428664fd79a1f0735", null ],
       [ "getAllComponentsEdges", "group__MeshComponentsGroup.html#ga7becc9588891fae069b72605a081462e", null ],
-      [ "getAllComponentsMap", "group__MeshComponentsGroup.html#ga6edee75a884c70eae8830d2684f57731", null ],
+      [ "getAllComponentsMap", "group__MeshComponentsGroup.html#gaa8bfdbb15cd2ef20fab8fcb792ed56f5", null ],
       [ "getAllComponentsUndirectedEdges", "group__MeshComponentsGroup.html#gaa2a0c5fb3196196acd144c6fa53c0fec", null ],
       [ "getAllComponentsVerts", "group__MeshComponentsGroup.html#gacf901304f8dae140ebe581b9fefcf3e8", null ],
       [ "getAllComponentsVertsSeparatedByPath", "group__MeshComponentsGroup.html#ga2b1d2f430d5544f3129616e7909e2210", null ],
@@ -113,6 +113,12 @@ var namespaceMR =
       [ "model", "namespaceMR_1_1ModelCheck.html#ab72f894c1173c5abf3f2ffe860913463", null ],
       [ "model", "namespaceMR_1_1ModelCheck.html#ab8cf938d7f2cfc38b406daeda423fc34", null ],
       [ "model", "namespaceMR_1_1ModelCheck.html#ad70ae97a9cb482d7fc971ad9f929d803", null ]
+    ] ],
+    [ "ObjectLoad", "namespaceMR_1_1ObjectLoad.html", [
+      [ "ObjectLoader", "namespaceMR_1_1ObjectLoad.html#af1c7843207a1f1a03787a6095fabc350", null ],
+      [ "getFilters", "namespaceMR_1_1ObjectLoad.html#a379bc109a138aee7437c97d7527d5e1a", null ],
+      [ "getObjectLoader", "namespaceMR_1_1ObjectLoad.html#ad0a141f901debb231da630876a6196a6", null ],
+      [ "setObjectLoader", "namespaceMR_1_1ObjectLoad.html#a926cd008c3b4e42abeafe42952a1188c", null ]
     ] ],
     [ "ObjectSave", "namespaceMR_1_1ObjectSave.html", [
       [ "toAnySupportedFormat", "namespaceMR_1_1ObjectSave.html#a54a3a511e827b1db27f3a67e02c92c08", null ]
@@ -165,6 +171,7 @@ var namespaceMR =
     [ "ArcInterpolationParams", "structMR_1_1ArcInterpolationParams.html", "structMR_1_1ArcInterpolationParams" ],
     [ "AsyncRequest", "classMR_1_1AsyncRequest.html", "classMR_1_1AsyncRequest" ],
     [ "AsyncTimer", "classMR_1_1AsyncTimer.html", "classMR_1_1AsyncTimer" ],
+    [ "BaseFitParams", "structMR_1_1BaseFitParams.html", "structMR_1_1BaseFitParams" ],
     [ "BaseRenderParams", "structMR_1_1BaseRenderParams.html", "structMR_1_1BaseRenderParams" ],
     [ "BaseShellParameters", "structMR_1_1BaseShellParameters.html", "structMR_1_1BaseShellParameters" ],
     [ "BaseTiffParameters", "structMR_1_1BaseTiffParameters.html", "structMR_1_1BaseTiffParameters" ],
@@ -285,7 +292,9 @@ var namespaceMR =
     [ "FillHolePlan", "structMR_1_1FillHolePlan.html", "structMR_1_1FillHolePlan" ],
     [ "FindOverhangsSettings", "structMR_1_1FindOverhangsSettings.html", "structMR_1_1FindOverhangsSettings" ],
     [ "FindOverlappingSettings", "structMR_1_1FindOverlappingSettings.html", "structMR_1_1FindOverlappingSettings" ],
+    [ "FitBoxParams", "structMR_1_1FitBoxParams.html", "structMR_1_1FitBoxParams" ],
     [ "FitDataMenuItem", "classMR_1_1FitDataMenuItem.html", "classMR_1_1FitDataMenuItem" ],
+    [ "FitDataParams", "structMR_1_1FitDataParams.html", "structMR_1_1FitDataParams" ],
     [ "FitSelectedObjectsMenuItem", "classMR_1_1FitSelectedObjectsMenuItem.html", "classMR_1_1FitSelectedObjectsMenuItem" ],
     [ "FitSelectedPrimitivesMenuItem", "classMR_1_1FitSelectedPrimitivesMenuItem.html", "classMR_1_1FitSelectedPrimitivesMenuItem" ],
     [ "FlowAggregator", "classMR_1_1FlowAggregator.html", "classMR_1_1FlowAggregator" ],
@@ -444,6 +453,7 @@ var namespaceMR =
     [ "PointCloud", "structMR_1_1PointCloud.html", "structMR_1_1PointCloud" ],
     [ "PointCloudApproxRelaxParams", "structMR_1_1PointCloudApproxRelaxParams.html", "structMR_1_1PointCloudApproxRelaxParams" ],
     [ "PointCloudRelaxParams", "structMR_1_1PointCloudRelaxParams.html", "structMR_1_1PointCloudRelaxParams" ],
+    [ "PointInAllSpaces", "structMR_1_1PointInAllSpaces.html", "structMR_1_1PointInAllSpaces" ],
     [ "PointObject", "classMR_1_1PointObject.html", "classMR_1_1PointObject" ],
     [ "PointOnFace", "structMR_1_1PointOnFace.html", "structMR_1_1PointOnFace" ],
     [ "PointOnObject", "structMR_1_1PointOnObject.html", "structMR_1_1PointOnObject" ],
@@ -569,6 +579,7 @@ var namespaceMR =
     [ "SpaceMouseHandler", "classMR_1_1SpaceMouseHandler.html", "classMR_1_1SpaceMouseHandler" ],
     [ "SpaceMouseHandlerHidapi", "classMR_1_1SpaceMouseHandlerHidapi.html", "classMR_1_1SpaceMouseHandlerHidapi" ],
     [ "SpaceMouseMoveListener", "structMR_1_1SpaceMouseMoveListener.html", "structMR_1_1SpaceMouseMoveListener" ],
+    [ "SpaceMouseParameters", "structMR_1_1SpaceMouseParameters.html", "structMR_1_1SpaceMouseParameters" ],
     [ "SpaceMouseUpListener", "structMR_1_1SpaceMouseUpListener.html", "structMR_1_1SpaceMouseUpListener" ],
     [ "Sphere", "structMR_1_1Sphere.html", "structMR_1_1Sphere" ],
     [ "SphereObject", "classMR_1_1SphereObject.html", "classMR_1_1SphereObject" ],
@@ -705,6 +716,7 @@ var namespaceMR =
     [ "Contours3", "namespaceMR.html#a617c4bece9a7a96de856b040bf39470d", null ],
     [ "Contours3d", "namespaceMR.html#ab2ea9882ffba8252a79aa36f6f5b1725", null ],
     [ "Contours3f", "namespaceMR.html#a2a2594ddaa82363e43334fa708f48be0", null ],
+    [ "ContoursVariableOffset", "namespaceMR.html#a968312e8fed0fdacb004c190c2ad2f17", null ],
     [ "ContoursVertMap", "namespaceMR.html#a7f5ad40d802b43510430e13f8474cd8d", null ],
     [ "ContoursVertMaps", "namespaceMR.html#af618792bd936d64cfcc9cda876c1d3eb", null ],
     [ "ConvertToFloatVector", "group__AABBTreeGroup.html#ga4835cdcf7f575fd6b4381c29fc920269", null ],
@@ -731,6 +743,7 @@ var namespaceMR =
     [ "EdgeSetBitIterator", "namespaceMR.html#abbf317d1a00d025c632656ec53dd5869", null ],
     [ "EdgeToFloatFunc", "namespaceMR.html#a7a8a9fae7a65ccd1e5d36b6050afd393", null ],
     [ "Expected", "namespaceMR.html#a905a6b7530f91b7d04cb4ea1d2988189", null ],
+    [ "Face2RegionMap", "namespaceMR.html#a758c1eb35a1c81fbefe5331664a57832", null ],
     [ "FaceBitSet", "namespaceMR.html#a0e5b61f8edf7a896c3f2f4a6eeb4691d", null ],
     [ "FaceBMap", "namespaceMR.html#a9ff8538fbd804e0f9c7aa814bbb3ed80", null ],
     [ "FaceColorMapAggregator", "namespaceMR.html#a5ec1dd46460b2209b0d25a4872118c99", null ],
@@ -842,6 +855,7 @@ var namespaceMR =
     [ "QuadraticForm3f", "namespaceMR.html#a03bea4c1686b4e77a996eb13fd1d4bb7", null ],
     [ "Quaterniond", "namespaceMR.html#ad60a2db75b523a56062be012471ae85d", null ],
     [ "Quaternionf", "namespaceMR.html#ad42cb243cfba827bb9d521ba1f9a0a70", null ],
+    [ "RegionId", "namespaceMR.html#ad7ecb3a56234b9126c95f020d3acbfb4", null ],
     [ "RegularGridLatticePositioner", "namespaceMR.html#a897aaf7b23431c42ebdbe70fcfdf3e04", null ],
     [ "RegularGridLatticeValidator", "namespaceMR.html#a9588eb75c9c1eabf3705ee7fea8958a8", null ],
     [ "RegularGridMeshFaceValidator", "namespaceMR.html#a6b062a309ae364649bec5fa9b0d7c5ed", null ],
@@ -1039,6 +1053,12 @@ var namespaceMR =
     [ "FilterType", "namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925a", [
       [ "Linear", "namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925aa32a843da6ea40ab3b17a3421ccdf671b", null ],
       [ "Discrete", "namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925aa4984667940802dedc139aa7a430a6553", null ]
+    ] ],
+    [ "FitMode", "namespaceMR.html#a286c087de610b6e6a6baaf3c7cff3f4b", [
+      [ "Visible", "namespaceMR.html#a286c087de610b6e6a6baaf3c7cff3f4baec24d78ce33048dc73a2b6b1a0690192", null ],
+      [ "SelectedPrimitives", "namespaceMR.html#a286c087de610b6e6a6baaf3c7cff3f4ba5e6ec7d73c67853669ec7f19208bc4f3", null ],
+      [ "SelectedObjects", "namespaceMR.html#a286c087de610b6e6a6baaf3c7cff3f4ba59ebaac912e88dcadf4c1963af0724a1", null ],
+      [ "CustomObjectsList", "namespaceMR.html#a286c087de610b6e6a6baaf3c7cff3f4bab217a711be13c7b44993261f88a6b070", null ]
     ] ],
     [ "GeodesicPathApprox", "group__SurfacePathSubgroup.html#ga0d52c069a53aab9d22c0f2c4e3f262a2", [
       [ "DijkstraBiDir", "group__SurfacePathSubgroup.html#gga0d52c069a53aab9d22c0f2c4e3f262a2a688de737bb8774938c023e0f0a373184", null ],
@@ -1276,6 +1296,7 @@ var namespaceMR =
     [ "ccw", "namespaceMR.html#adebe37534b9bb6c1ccc995df1839c432", null ],
     [ "ccw", "group__MathGroup.html#ga04b9e51953d898cf85e76c05d426366a", null ],
     [ "ccw", "namespaceMR.html#a748634eee611373365c3a338f0259d7e", null ],
+    [ "checkDeloneQuadrangle", "group__MeshDeloneGroup.html#ga4d58a8dd7b19c7d5a403b4329ce793c7", null ],
     [ "checkDeloneQuadrangle", "group__MeshDeloneGroup.html#ga1ac6f792a2cc36b9ce72fe5ec68da30a", null ],
     [ "checkDeloneQuadrangleInMesh", "group__MeshDeloneGroup.html#ga2d74fa7fe6b7d35734db515d33ba1f3f", null ],
     [ "circumcircleDiameter", "group__MathGroup.html#gaba44f8d705d9bc1b98f635bdabe488ae", null ],
@@ -1843,7 +1864,8 @@ var namespaceMR =
     [ "minTriangleAngleSin", "group__MathGroup.html#gaf5af7058ce54bba6fc77a344d28b9826", null ],
     [ "normal", "namespaceMR.html#a668bccb3edee9cdfebdbdc80a502dde5", null ],
     [ "objectHasSelectableChildren", "namespaceMR.html#a8e83df3805927f1f6c006f596809d97a", null ],
-    [ "offsetContours", "namespaceMR.html#ab7426c1e5606c942ffc7e8b5f91fa028", null ],
+    [ "offsetContours", "namespaceMR.html#a5db06f36d945bf1145dd23e57d58c4ee", null ],
+    [ "offsetContours", "namespaceMR.html#acedbfb27bdded9e3c9322ce1e29e0781", null ],
     [ "offsetMesh", "namespaceMR.html#aa66fd34ed2e950968d65714d89b8b190", null ],
     [ "offsetPolyline", "namespaceMR.html#a4ef35a4401250075841ac4ffbbcd6145", null ],
     [ "openFileDialog", "namespaceMR.html#a0a4bcce4daa4d3b3423c31dff3a881bb", null ],
@@ -2247,6 +2269,7 @@ var namespaceMR =
     [ "PartMapping", "namespaceMR.html#a206d2359088d7de67554ae5420f14ab2", null ],
     [ "PixelTag", "namespaceMR.html#a7eb54b4688d90e090b75bbf0efc2fec5", null ],
     [ "PointCloud", "namespaceMR.html#a1bfc73c4801d5127d8be21699dc9f590", null ],
+    [ "RegionTag", "namespaceMR.html#af293d6c66d14a3940a1c5a5685a1b36f", null ],
     [ "SceneFileFilters", "group__SerializerGroup.html#ga23013624dd00042658c503443e5d3ffb", null ],
     [ "SetBitIteratorT", "namespaceMR.html#af61e31044cdd52a789ea52958e80713b", null ],
     [ "TaggedBitSet", "namespaceMR.html#ac9bc4356bc00a782b8b9e577a40da6a5", null ],

@@ -12,7 +12,7 @@ var classMR_1_1SphereObject =
     [ "getRadius", "classMR_1_1SphereObject.html#ab21fb3f4f4cdf688d1f1b7bc2cc42fd5", null ],
     [ "operator=", "classMR_1_1SphereObject.html#afc914c440e4c94f219e3d213905b1edb", null ],
     [ "serializeFields_", "classMR_1_1SphereObject.html#aad300c4270da25b21556235725b4b8c3", null ],
-    [ "serializeModel_", "classMR_1_1SphereObject.html#a7af54a39d65ccc9358958938661511d9", null ],
+    [ "serializeModel_", "classMR_1_1SphereObject.html#a0819106e30a293d2d11cdb3557cacf7a", null ],
     [ "setCenter", "classMR_1_1SphereObject.html#ab81cbb443a1082c4b8a9635d8a99d007", null ],
     [ "setRadius", "classMR_1_1SphereObject.html#a37a34d12bb8dcc38a2952dfc1c8273bc", null ],
     [ "shallowClone", "classMR_1_1SphereObject.html#ae8924769b4847b515a97481b5ac24215", null ],

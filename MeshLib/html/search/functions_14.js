@@ -57,7 +57,7 @@ var searchData=
   ['updatesolver_54',['updateSolver',['../classMR_1_1Laplacian.html#a3e7bb340acaa3ef81fe7ed9f5eaaf226',1,'MR::Laplacian']]],
   ['updatetexture_55',['updateTexture',['../classMR_1_1ObjectMeshHolder.html#a7d8ccbacd34617a32e301270d7db8a6c',1,'MR::ObjectMeshHolder']]],
   ['updatethemes_56',['updateThemes',['../classMR_1_1ViewerSettingsPlugin.html#abb15c0c1b70bb9ff91021e28f50a7b15',1,'MR::ViewerSettingsPlugin']]],
-  ['updatetranslation_57',['updatetranslation',['../classMR_1_1ITransformControls.html#a7a3eb7a0414b0af2e09d8be03d83ff6d',1,'MR::ITransformControls::updateTranslation()'],['../classMR_1_1TransformControls.html#acc66a1e46f1d46262c7d408d0003654d',1,'MR::TransformControls::updateTranslation()']]],
+  ['updatetranslation_57',['updatetranslation',['../classMR_1_1TransformControls.html#acc66a1e46f1d46262c7d408d0003654d',1,'MR::TransformControls::updateTranslation()'],['../classMR_1_1ITransformControls.html#a7a3eb7a0414b0af2e09d8be03d83ff6d',1,'MR::ITransformControls::updateTranslation()']]],
   ['updatetransparencytexturessize_58',['updateTransparencyTexturesSize',['../classMR_1_1AlphaSortGL.html#aab9cdfaf33634bcf9bae0eec5a82ebb9',1,'MR::AlphaSortGL']]],
   ['updateuvcoords_59',['updateUVCoords',['../classMR_1_1ObjectMeshHolder.html#a47088bf32314b542fdbe1975b00d6759',1,'MR::ObjectMeshHolder']]],
   ['updatevdbvolume_60',['updateVdbVolume',['../classMR_1_1ObjectVoxels.html#aa2cc2fe9f238d2f29c8dffb80ebc675f',1,'MR::ObjectVoxels']]],
@@ -66,6 +66,7 @@ var searchData=
   ['updatevisualtransformmode_63',['updateVisualTransformMode',['../classMR_1_1ITransformControls.html#a5d9747701fff8ab65bcab31012d44010',1,'MR::ITransformControls']]],
   ['updatevisualtransformmode_5f_64',['updateVisualTransformMode_',['../classMR_1_1ITransformControls.html#a51a7d3a906705e63b5255c8f76c66381',1,'MR::ITransformControls']]],
   ['updatingvalids_65',['updatingValids',['../classMR_1_1MeshTopology.html#a45129b46fde8337018f14ecc690ddb81',1,'MR::MeshTopology']]],
-  ['utf8string_66',['utf8string',['../group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d',1,'MR']]],
-  ['utf8towide_67',['utf8ToWide',['../group__BasicGroup.html#ga543d43a804760961ac67ad3689330c1d',1,'MR']]]
+  ['usedefaultscenepropertiesondeserialization_66',['useDefaultScenePropertiesOnDeserialization',['../classMR_1_1VisualObject.html#a0466c6ddefdea403775b5b4fa4a46219',1,'MR::VisualObject']]],
+  ['utf8string_67',['utf8string',['../group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d',1,'MR']]],
+  ['utf8towide_68',['utf8ToWide',['../group__BasicGroup.html#ga543d43a804760961ac67ad3689330c1d',1,'MR']]]
 ];
