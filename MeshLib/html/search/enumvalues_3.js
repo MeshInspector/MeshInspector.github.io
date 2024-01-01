@@ -1,7 +1,7 @@
 var searchData=
 [
   ['dark_0',['Dark',['../classMR_1_1ColorTheme.html#abbecc6afa53db91ada45757b845b5514aa18366b217ebf811ad1886e4f4f865b2',1,'MR::ColorTheme']]],
-  ['default_1',['default',['../classMR_1_1ColorTheme.html#abbecc6afa53db91ada45757b845b5514a7a1920d61156abc05a60135aefe8bc67',1,'MR::ColorTheme::Default'],['../classMR_1_1ColorTheme.html#ad14d75ef685e439c80487ba1d4c41ecaa7a1920d61156abc05a60135aefe8bc67',1,'MR::ColorTheme::Default'],['../classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4a7a1920d61156abc05a60135aefe8bc67',1,'MR::RibbonFontManager::Default'],['../namespaceMR.html#ae3249e80a5322781826980a69c28aee6a7a1920d61156abc05a60135aefe8bc67',1,'MR::Default']]],
+  ['default_1',['Default',['../classMR_1_1ColorTheme.html#abbecc6afa53db91ada45757b845b5514a7a1920d61156abc05a60135aefe8bc67',1,'MR::ColorTheme::Default'],['../classMR_1_1ColorTheme.html#ad14d75ef685e439c80487ba1d4c41ecaa7a1920d61156abc05a60135aefe8bc67',1,'MR::ColorTheme::Default'],['../classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4a7a1920d61156abc05a60135aefe8bc67',1,'MR::RibbonFontManager::Default'],['../namespaceMR.html#ae3249e80a5322781826980a69c28aee6a7a1920d61156abc05a60135aefe8bc67',1,'MR::Default']]],
   ['delete_2',['Delete',['../classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0caf2a6c498fb90ee345d997f888fce3b18',1,'MR::WebRequest']]],
   ['densegrid_3',['DenseGrid',['../namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7',1,'MR::VoxelsLoad']]],
   ['depthtest_4',['DepthTest',['../structMR_1_1VisualizeMaskType.html#a2d46e7b6609b8aef605bf534d22dbd25a3bc9bab56a374528b3761e8d709366e5',1,'MR::VisualizeMaskType']]],
@@ -32,7 +32,7 @@ var searchData=
   ['dirty_5fverts_5fcolormap_29',['DIRTY_VERTS_COLORMAP',['../group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a3a601c32f4902f478919ce2b64a4e475',1,'MR']]],
   ['dirty_5fverts_5frender_5fnormal_30',['DIRTY_VERTS_RENDER_NORMAL',['../group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a7901e85f6ada294be0794acc817a1914',1,'MR']]],
   ['discrete_31',['Discrete',['../namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925aa4984667940802dedc139aa7a430a6553',1,'MR']]],
-  ['distancemap_32',['distancemap',['../classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76ae76139f4dbe2f91f14577bcccc1baf77',1,'MR::ViewerSettingsManager::DistanceMap'],['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37ae76139f4dbe2f91f14577bcccc1baf77',1,'MR::DistanceMap']]],
+  ['distancemap_32',['DistanceMap',['../classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76ae76139f4dbe2f91f14577bcccc1baf77',1,'MR::ViewerSettingsManager::DistanceMap'],['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37ae76139f4dbe2f91f14577bcccc1baf77',1,'MR::DistanceMap']]],
   ['drawpoints_33',['DrawPoints',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a728b308f6da64718dc5c89ca67715213',1,'MR::GLStaticHolder']]],
   ['dynamic_34',['Dynamic',['../structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba971fd8cc345d8bd9f92e9f7d88fdf20c',1,'MR::Viewport::Parameters']]],
   ['dynamicstatic_35',['DynamicStatic',['../structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba5ca4f2430f49ee813f846bbcdc0e575e',1,'MR::Viewport::Parameters']]]

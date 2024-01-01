@@ -6,6 +6,6 @@ var group__IOFiltersGroup =
       [ "extensions", "structMR_1_1IOFilter.html#a8806427d8212780dc5b20506b24b1223", null ],
       [ "name", "structMR_1_1IOFilter.html#ad4426ebb26f3474b6d69ca07c8e35980", null ]
     ] ],
-    [ "MR::IOFilters", "group__IOFiltersGroup.html#ga49f63334796a9865d1ecc25d270bf47e", null ],
+    [ "MR::IOFilters", "group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b", null ],
     [ "MR::operator|", "group__IOFiltersGroup.html#gae94abfb9874900b0fa66d3383ea8489b", null ]
 ];

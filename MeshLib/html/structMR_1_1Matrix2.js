@@ -18,6 +18,7 @@ var structMR_1_1Matrix2 =
     [ "operator[]", "structMR_1_1Matrix2.html#a381d5f34663c1e9db5856d7ae4459a61", null ],
     [ "trace", "structMR_1_1Matrix2.html#aab47353e71af819ac1bd8e1a65f54335", null ],
     [ "transposed", "structMR_1_1Matrix2.html#a79925d4ad2cde5146416e8a0b029a42e", null ],
+    [ "dot", "structMR_1_1Matrix2.html#ab5e6f6852dd0368af40b425791b091f6", null ],
     [ "operator*", "structMR_1_1Matrix2.html#ae18489b71f32e2ea5cdc0b8bc384df2d", null ],
     [ "operator*", "structMR_1_1Matrix2.html#a1d9ac30f5161936ba0e5dbef62cae993", null ],
     [ "outer", "structMR_1_1Matrix2.html#a2c4549e9880ef73fc3bed4a4aaeb3cba", null ],

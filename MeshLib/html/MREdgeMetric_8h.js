@@ -1,6 +1,6 @@
 var MREdgeMetric_8h =
 [
-    [ "EdgeMetric", "MREdgeMetric_8h.html#gad2c254a94a3837629d1540a9a1aeda9f", null ],
+    [ "EdgeMetric", "MREdgeMetric_8h.html#ga89c45ed75d3ee7e49964d4afe5a64651", null ],
     [ "discreteAbsMeanCurvatureMetric", "MREdgeMetric_8h.html#gae4866fbd4ec0921d6eed211cbef0e8aa", null ],
     [ "discreteMinusAbsMeanCurvatureMetric", "MREdgeMetric_8h.html#ga8e15c502056407a36c6d495799f0aa7d", null ],
     [ "edgeCurvMetric", "MREdgeMetric_8h.html#ga215f966d7ad4e48210e0de178cb43a06", null ],

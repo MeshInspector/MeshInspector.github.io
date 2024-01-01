@@ -2,10 +2,10 @@ var MR2DContoursTriangulation_8h =
 [
     [ "MR::PlanarTriangulation::IntersectionInfo", "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html", "structMR_1_1PlanarTriangulation_1_1IntersectionInfo" ],
     [ "MR::PlanarTriangulation::IntersectionsMap", "structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html", "structMR_1_1PlanarTriangulation_1_1IntersectionsMap" ],
-    [ "ContourIdMap", "MR2DContoursTriangulation_8h.html#ac6d04e9f3ddcf2a610b44d64945c4e66", null ],
-    [ "ContoursIdMap", "MR2DContoursTriangulation_8h.html#a94cf2de068a5d5d1304373c6ff6a3d64", null ],
-    [ "HolesVertIds", "MR2DContoursTriangulation_8h.html#a8da920da881060eb3594e216959fe179", null ],
-    [ "HoleVertIds", "MR2DContoursTriangulation_8h.html#ab595944dab7616f973bea21b9ef0e36c", null ],
+    [ "ContourIdMap", "MR2DContoursTriangulation_8h.html#a15dafb65753964c596e32bd173142aba", null ],
+    [ "ContoursIdMap", "MR2DContoursTriangulation_8h.html#a2861b59a4ea1236fc77b874053b4245a", null ],
+    [ "HolesVertIds", "MR2DContoursTriangulation_8h.html#a0515df1bf2b2920651b9617e6b1493f9", null ],
+    [ "HoleVertIds", "MR2DContoursTriangulation_8h.html#a4ea76a89e8c8fb95eb68d7497122271b", null ],
     [ "WindingMode", "MR2DContoursTriangulation_8h.html#a41b088a697624ae295c7b3a7b137bca9", [
       [ "NonZero", "MR2DContoursTriangulation_8h.html#a41b088a697624ae295c7b3a7b137bca9a3d0365a27a39c0af183445fc4d932a8a", null ],
       [ "Positive", "MR2DContoursTriangulation_8h.html#a41b088a697624ae295c7b3a7b137bca9a3289297424e01eda5b788c083bbf3147", null ],

@@ -11,9 +11,10 @@ var searchData=
   ['lineinterpolationparams_8',['LineInterpolationParams',['../structMR_1_1LineInterpolationParams.html',1,'MR']]],
   ['lineobject_9',['LineObject',['../classMR_1_1LineObject.html',1,'MR']]],
   ['linesegm_10',['LineSegm',['../structMR_1_1LineSegm.html',1,'MR']]],
-  ['linesvisualizepropertytype_11',['LinesVisualizePropertyType',['../structMR_1_1LinesVisualizePropertyType.html',1,'MR']]],
-  ['loaddcmresult_12',['LoadDCMResult',['../structMR_1_1VoxelsLoad_1_1LoadDCMResult.html',1,'MR::VoxelsLoad']]],
-  ['loadingtiffsettings_13',['LoadingTiffSettings',['../structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html',1,'MR::VoxelsLoad']]],
-  ['logger_14',['Logger',['../classMR_1_1Logger.html',1,'MR']]],
-  ['loggingstreambuf_15',['LoggingStreambuf',['../classMR_1_1LoggingStreambuf.html',1,'MR']]]
+  ['linesegm_3c_20t_20_3e_11',['LineSegm&lt; T &gt;',['../structMR_1_1LineSegm.html',1,'MR']]],
+  ['linesvisualizepropertytype_12',['LinesVisualizePropertyType',['../structMR_1_1LinesVisualizePropertyType.html',1,'MR']]],
+  ['loaddcmresult_13',['LoadDCMResult',['../structMR_1_1VoxelsLoad_1_1LoadDCMResult.html',1,'MR::VoxelsLoad']]],
+  ['loadingtiffsettings_14',['LoadingTiffSettings',['../structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html',1,'MR::VoxelsLoad']]],
+  ['logger_15',['Logger',['../classMR_1_1Logger.html',1,'MR']]],
+  ['loggingstreambuf_16',['LoggingStreambuf',['../classMR_1_1LoggingStreambuf.html',1,'MR']]]
 ];

@@ -108,7 +108,7 @@ var group__VisualObjectGroup =
       [ "useDefaultScenePropertiesOnDeserialization_", "classMR_1_1VisualObject.html#aeed6d251c7bdbffe0634b0fe96faab35", null ],
       [ "vertsColorMap_", "classMR_1_1VisualObject.html#a782cfef38763cac8903ad92bd391f0ec", null ]
     ] ],
-    [ "MR::AllVisualizeProperties", "group__VisualObjectGroup.html#gadfa0fd0c37db32411b59a14d4191fe77", null ],
+    [ "MR::AllVisualizeProperties", "group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f", null ],
     [ "MR::ColoringType", "group__VisualObjectGroup.html#ga270a25a8ef13e07e59e7070834efc33f", [
       [ "MR::ColoringType::SolidColor", "group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854", null ],
       [ "MR::ColoringType::PrimitivesColorMap", "group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca", null ],

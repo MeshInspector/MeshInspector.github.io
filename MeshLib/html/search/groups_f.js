@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['path_0',['path',['../group__PlanarPathGroup.html',1,'Planar Path'],['../group__SurfacePathSubgroup.html',1,'Surface Path'],['../group__VoxelPathGroup.html',1,'Voxel Path']]],
+  ['path_0',['Path',['../group__PlanarPathGroup.html',1,'Planar Path'],['../group__SurfacePathSubgroup.html',1,'Surface Path'],['../group__VoxelPathGroup.html',1,'Voxel Path']]],
   ['paths_1',['Surface Paths',['../group__SurfacePathGroup.html',1,'']]],
   ['planar_20path_2',['Planar Path',['../group__PlanarPathGroup.html',1,'']]],
   ['pointcloud_3',['PointCloud',['../group__PointCloudGroup.html',1,'']]],

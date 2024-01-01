@@ -5,6 +5,10 @@ var annotated_dup =
         [ "FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", "classMR_1_1Cuda_1_1FastWindingNumber" ],
         [ "PointsToMeshProjector", "classMR_1_1Cuda_1_1PointsToMeshProjector.html", "classMR_1_1Cuda_1_1PointsToMeshProjector" ]
       ] ],
+      [ "detail", "namespaceMR_1_1detail.html", [
+        [ "MakeScopeGuard", "structMR_1_1detail_1_1MakeScopeGuard.html", "structMR_1_1detail_1_1MakeScopeGuard" ],
+        [ "ScopeGuard", "classMR_1_1detail_1_1ScopeGuard.html", "classMR_1_1detail_1_1ScopeGuard" ]
+      ] ],
       [ "FixUndercuts", "namespaceMR_1_1FixUndercuts.html", [
         [ "DistMapImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" ],
         [ "ImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters" ]
@@ -149,6 +153,9 @@ var annotated_dup =
       [ "CustomButtonParameters", "structMR_1_1CustomButtonParameters.html", "structMR_1_1CustomButtonParameters" ],
       [ "CutMeshParameters", "structMR_1_1CutMeshParameters.html", "structMR_1_1CutMeshParameters" ],
       [ "CutMeshResult", "structMR_1_1CutMeshResult.html", "structMR_1_1CutMeshResult" ],
+      [ "Cylinder3", "classMR_1_1Cylinder3.html", "classMR_1_1Cylinder3" ],
+      [ "Cylinder3Approximation", "classMR_1_1Cylinder3Approximation.html", "classMR_1_1Cylinder3Approximation" ],
+      [ "CylinderObject", "classMR_1_1CylinderObject.html", "classMR_1_1CylinderObject" ],
       [ "DecimateParallelSettings", "structMR_1_1DecimateParallelSettings.html", "structMR_1_1DecimateParallelSettings" ],
       [ "DecimatePolylineResult", "structMR_1_1DecimatePolylineResult.html", "structMR_1_1DecimatePolylineResult" ],
       [ "DecimatePolylineSettings", "structMR_1_1DecimatePolylineSettings.html", "structMR_1_1DecimatePolylineSettings" ],
@@ -161,6 +168,7 @@ var annotated_dup =
       [ "DenseBox", "structMR_1_1DenseBox.html", "structMR_1_1DenseBox" ],
       [ "DetectTunnelSettings", "structMR_1_1DetectTunnelSettings.html", "structMR_1_1DetectTunnelSettings" ],
       [ "Dipole", "structMR_1_1Dipole.html", "structMR_1_1Dipole" ],
+      [ "DirectionWidget", "classMR_1_1DirectionWidget.html", "classMR_1_1DirectionWidget" ],
       [ "Directory", "structMR_1_1Directory.html", "structMR_1_1Directory" ],
       [ "DirectoryIterator", "structMR_1_1DirectoryIterator.html", "structMR_1_1DirectoryIterator" ],
       [ "DirectoryRecursive", "structMR_1_1DirectoryRecursive.html", "structMR_1_1DirectoryRecursive" ],
@@ -204,6 +212,7 @@ var annotated_dup =
       [ "GcodeProcessor", "classMR_1_1GcodeProcessor.html", "classMR_1_1GcodeProcessor" ],
       [ "GcodeToolsLibrary", "classMR_1_1GcodeToolsLibrary.html", "classMR_1_1GcodeToolsLibrary" ],
       [ "GCommand", "structMR_1_1GCommand.html", "structMR_1_1GCommand" ],
+      [ "GeneralOffsetParameters", "structMR_1_1GeneralOffsetParameters.html", "structMR_1_1GeneralOffsetParameters" ],
       [ "GlBuffer", "classMR_1_1GlBuffer.html", "classMR_1_1GlBuffer" ],
       [ "GLStaticHolder", "classMR_1_1GLStaticHolder.html", "classMR_1_1GLStaticHolder" ],
       [ "GlTexture2", "classMR_1_1GlTexture2.html", "classMR_1_1GlTexture2" ],
@@ -219,6 +228,7 @@ var annotated_dup =
       [ "HistoryStore", "classMR_1_1HistoryStore.html", "classMR_1_1HistoryStore" ],
       [ "HoleEdgePoint", "structMR_1_1HoleEdgePoint.html", "structMR_1_1HoleEdgePoint" ],
       [ "IConnectable", "structMR_1_1IConnectable.html", "structMR_1_1IConnectable" ],
+      [ "ICP", "classMR_1_1ICP.html", "classMR_1_1ICP" ],
       [ "ICPProperties", "structMR_1_1ICPProperties.html", "structMR_1_1ICPProperties" ],
       [ "Id", "classMR_1_1Id.html", "classMR_1_1Id" ],
       [ "Id< EdgeTag >", "classMR_1_1Id_3_01EdgeTag_01_4.html", "classMR_1_1Id_3_01EdgeTag_01_4" ],
@@ -270,7 +280,6 @@ var annotated_dup =
       [ "MeshDiff", "classMR_1_1MeshDiff.html", "classMR_1_1MeshDiff" ],
       [ "MeshDistanceResult", "structMR_1_1MeshDistanceResult.html", "structMR_1_1MeshDistanceResult" ],
       [ "MeshEqualizeTriAreasParams", "structMR_1_1MeshEqualizeTriAreasParams.html", "structMR_1_1MeshEqualizeTriAreasParams" ],
-      [ "MeshICP", "classMR_1_1MeshICP.html", "classMR_1_1MeshICP" ],
       [ "MeshIntersectionResult", "structMR_1_1MeshIntersectionResult.html", "structMR_1_1MeshIntersectionResult" ],
       [ "MeshLoadSettings", "structMR_1_1MeshLoadSettings.html", "structMR_1_1MeshLoadSettings" ],
       [ "MeshMeshConverter", "structMR_1_1MeshMeshConverter.html", "structMR_1_1MeshMeshConverter" ],
@@ -568,6 +577,10 @@ var annotated_dup =
       [ "VolumeToMeshByPartsSettings", "structMR_1_1VolumeToMeshByPartsSettings.html", "structMR_1_1VolumeToMeshByPartsSettings" ],
       [ "VoxelMetricParameters", "structMR_1_1VoxelMetricParameters.html", "structMR_1_1VoxelMetricParameters" ],
       [ "VoxelsVolume", "structMR_1_1VoxelsVolume.html", "structMR_1_1VoxelsVolume" ],
+      [ "VoxelsVolumeAccessor", "classMR_1_1VoxelsVolumeAccessor.html", null ],
+      [ "VoxelsVolumeAccessor< VdbVolume >", "classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html", "classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4" ],
+      [ "VoxelsVolumeAccessor< VoxelsVolume< VoxelValueGetter< T > > >", "classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01VoxelValueGetter_3_01T_01_4_01_4_01_4.html", "classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01VoxelValueGetter_3_01T_01_4_01_4_01_4" ],
+      [ "VoxelsVolumeCachingAccessor", "classMR_1_1VoxelsVolumeCachingAccessor.html", "classMR_1_1VoxelsVolumeCachingAccessor" ],
       [ "VoxelTraits", "structMR_1_1VoxelTraits.html", null ],
       [ "VoxelTraits< FloatGrid >", "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html", "structMR_1_1VoxelTraits_3_01FloatGrid_01_4" ],
       [ "VoxelTraits< VoxelValueGetter< T > >", "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html", "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4" ],

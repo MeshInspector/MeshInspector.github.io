@@ -20,7 +20,7 @@ var searchData=
   ['renderlinesobject_17',['RenderLinesObject',['../classMR_1_1RenderLinesObject.html',1,'MR']]],
   ['rendermeshobject_18',['RenderMeshObject',['../classMR_1_1RenderMeshObject.html',1,'MR']]],
   ['renderobjectbuffer_19',['RenderObjectBuffer',['../classMR_1_1RenderObjectBuffer.html',1,'MR']]],
-  ['renderparams_20',['renderparams',['../structMR_1_1ImmediateGL_1_1RenderParams.html',1,'MR::ImmediateGL::RenderParams'],['../structMR_1_1RenderParams.html',1,'MR::RenderParams'],['../structMR_1_1ViewportGL_1_1RenderParams.html',1,'MR::ViewportGL::RenderParams']]],
+  ['renderparams_20',['RenderParams',['../structMR_1_1ImmediateGL_1_1RenderParams.html',1,'MR::ImmediateGL::RenderParams'],['../structMR_1_1RenderParams.html',1,'MR::RenderParams'],['../structMR_1_1ViewportGL_1_1RenderParams.html',1,'MR::ViewportGL::RenderParams']]],
   ['renderpointsobject_21',['RenderPointsObject',['../classMR_1_1RenderPointsObject.html',1,'MR']]],
   ['rendervolumeobject_22',['RenderVolumeObject',['../classMR_1_1RenderVolumeObject.html',1,'MR']]],
   ['resetscenemenuitem_23',['ResetSceneMenuItem',['../classMR_1_1ResetSceneMenuItem.html',1,'MR']]],

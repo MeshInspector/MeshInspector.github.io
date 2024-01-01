@@ -1,7 +1,6 @@
 var group__MathGroup =
 [
     [ "2d <-> 3d conversion", "group__ConversionBetween2and3dimGroup.html", "group__ConversionBetween2and3dimGroup" ],
-    [ "Aligning Transform", "group__AligningTransformGroup.html", "group__AligningTransformGroup" ],
     [ "BestFit", "group__BestFitGroup.html", "group__BestFitGroup" ],
     [ "Box", "group__BoxGroup.html", "group__BoxGroup" ],
     [ "Constants", "group__ConstantsGroup.html", null ],
@@ -9,6 +8,7 @@ var group__MathGroup =
     [ "High Precision", "group__HighPrecisionGroup.html", "group__HighPrecisionGroup" ],
     [ "Intersection", "group__IntersectionGroup.html", "group__IntersectionGroup" ],
     [ "Matrix", "group__MatrixGroup.html", "group__MatrixGroup" ],
+    [ "Aligning Transform", "group__AligningTransformGroup.html", "group__AligningTransformGroup" ],
     [ "Ray Box Intersection", "group__RayBoxIntersectionGroup.html", "group__RayBoxIntersectionGroup" ],
     [ "Triangle intersection", "group__TriangleIntersectionGroup.html", "group__TriangleIntersectionGroup" ],
     [ "Tuple Bindings", "group__TupleBindingsGroup.html", "group__TupleBindingsGroup" ],
@@ -183,6 +183,7 @@ var group__MathGroup =
     [ "MR::fromEigen", "group__MathGroup.html#ga2723ebec7d989320e407d70f0e8c00d4", null ],
     [ "MR::fromEigen", "group__MathGroup.html#ga4374661114398aca454e07dc09a7036c", null ],
     [ "MR::fromEigen", "group__MathGroup.html#gad9b8ea723d950187f862ce89900a7534", null ],
+    [ "MR::fromEigen", "group__MathGroup.html#ga3a19f42616def07ddf8bbf9e7dfff991", null ],
     [ "MR::fromEigen", "group__MathGroup.html#ga628c148ec917a4f0bf1398a814476dde", null ],
     [ "MR::lookAt", "group__MathGroup.html#ga9ae923a2855ed035b5d5f74b3162c0da", null ],
     [ "MR::makeRigidXf", "group__MathGroup.html#gaf420bd1285dda4239d2ac0fac2eff1f9", null ],
@@ -193,6 +194,7 @@ var group__MathGroup =
     [ "MR::orient3d", "group__MathGroup.html#ga24ef393e1380f77979d9cfa6f7e0e88e", null ],
     [ "MR::toEigen", "group__MathGroup.html#ga8888d3eb79b0414fbc4855426d85cf9c", null ],
     [ "MR::toEigen", "group__MathGroup.html#gabd50a577d1934b0c0a0aca008de7d541", null ],
+    [ "MR::toEigen", "group__MathGroup.html#ga4d999217b3e42b5726808b25c5c988cc", null ],
     [ "MR::toEigen", "group__MathGroup.html#gad703c1d9a93f5cf4e177808cbfef4deb", null ],
     [ "MR::toEigen", "group__MathGroup.html#ga57c0e085976ff3667bcc12e402216d6e", null ],
     [ "MR::toEigen", "group__MathGroup.html#ga20b5ff1415d774bc26055b5734f9b306", null ],

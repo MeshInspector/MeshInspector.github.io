@@ -1,13 +1,13 @@
 var searchData=
 [
   ['merge_0',['Merge',['../classMR_1_1PrecipitationSimulator.html#a1ff436805e728c27089cf75e5d98c90fa68be4837f6c739877233e527a996dd00',1,'MR::PrecipitationSimulator']]],
-  ['mesh_1',['mesh',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a08843a96f833cac3bc0bc62deaf83ced',1,'MR::GLStaticHolder::Mesh'],['../classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76a710fdb6adb881b408116ef95335e1961',1,'MR::ViewerSettingsManager::Mesh'],['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37a710fdb6adb881b408116ef95335e1961',1,'MR::Mesh']]],
+  ['mesh_1',['Mesh',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a08843a96f833cac3bc0bc62deaf83ced',1,'MR::GLStaticHolder::Mesh'],['../classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76a710fdb6adb881b408116ef95335e1961',1,'MR::ViewerSettingsManager::Mesh'],['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37a710fdb6adb881b408116ef95335e1961',1,'MR::Mesh']]],
   ['meshflatshading_2',['MeshFlatShading',['../classMR_1_1SceneSettings.html#ae472fad9782abf0cb2c7c6526a059911a7c69489518a03a878e4a155f854de42e',1,'MR::SceneSettings']]],
   ['meshvisualizepropscount_3',['MeshVisualizePropsCount',['../structMR_1_1MeshVisualizePropertyType.html#a2e5c336a4feb2c41efef5ba1f038b738a47d49bd0b4cc06e95cdf1809edaea35c',1,'MR::MeshVisualizePropertyType']]],
   ['middle_4',['Middle',['../namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62dab1ca34f82e83c52b010f86955f264e05',1,'MR']]],
   ['minimizeerror_5',['MinimizeError',['../namespaceMR.html#a216960c15f7b00558ab28053967a9615a0aa99bb1752ad6d876e337cc13f70098',1,'MR']]],
-  ['minusx_6',['minusx',['../group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6a6ee0807f5bf1b3e0a4d52919eb298454',1,'MR::MinusX'],['../group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea6ee0807f5bf1b3e0a4d52919eb298454',1,'MR::MinusX']]],
-  ['minusy_7',['minusy',['../group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6a9cc816b8a2117db796c073f012e78565',1,'MR::MinusY'],['../group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea9cc816b8a2117db796c073f012e78565',1,'MR::MinusY']]],
+  ['minusx_6',['MinusX',['../group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6a6ee0807f5bf1b3e0a4d52919eb298454',1,'MR::MinusX'],['../group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea6ee0807f5bf1b3e0a4d52919eb298454',1,'MR::MinusX']]],
+  ['minusy_7',['MinusY',['../group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6a9cc816b8a2117db796c073f012e78565',1,'MR::MinusY'],['../group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea9cc816b8a2117db796c073f012e78565',1,'MR::MinusY']]],
   ['minusz_8',['MinusZ',['../group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea65661216a3acfdac8c58d97d97fa10cb',1,'MR']]],
   ['mirror_9',['Mirror',['../namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00ca2403def5083f02105e7802b3b315681e',1,'MR']]],
   ['mono_10',['Mono',['../classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368a5d9b47bd3b65072e0d5daf55f01da086',1,'MR::RibbonButtonDrawer']]],

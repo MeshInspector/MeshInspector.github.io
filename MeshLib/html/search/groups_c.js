@@ -9,7 +9,7 @@ var searchData=
   ['mesh_20delone_6',['Mesh Delone',['../group__MeshDeloneGroup.html',1,'']]],
   ['mesh_20eigen_7',['Mesh Eigen',['../group__MeshEigenGroup.html',1,'']]],
   ['mesh_20fixer_8',['Mesh Fixer',['../group__MeshFixerGroup.html',1,'']]],
-  ['mesh_20load_9',['mesh load',['../group__GcodeLoadGroup.html',1,'Mesh Load'],['../group__MeshLoadGroup.html',1,'Mesh Load']]],
+  ['mesh_20load_9',['Mesh Load',['../group__GcodeLoadGroup.html',1,'Mesh Load'],['../group__MeshLoadGroup.html',1,'Mesh Load']]],
   ['mesh_20load_20obj_10',['Mesh Load Obj',['../group__MeshLoadObjGroup.html',1,'']]],
   ['mesh_20normals_11',['Mesh Normals',['../group__MeshNormalsGroup.html',1,'']]],
   ['mesh_20relax_12',['Mesh Relax',['../group__MeshRelaxGroup.html',1,'']]],

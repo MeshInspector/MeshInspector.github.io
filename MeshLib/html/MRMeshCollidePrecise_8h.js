@@ -1,7 +1,7 @@
 var MRMeshCollidePrecise_8h =
 [
-    [ "ConvertToFloatVector", "MRMeshCollidePrecise_8h.html#ga4835cdcf7f575fd6b4381c29fc920269", null ],
-    [ "ConvertToIntVector", "MRMeshCollidePrecise_8h.html#gaa1341f2eec34b89f628200697d1c55a1", null ],
+    [ "ConvertToFloatVector", "MRMeshCollidePrecise_8h.html#ga55867f88ac3e3a329e67a208b4634d96", null ],
+    [ "ConvertToIntVector", "MRMeshCollidePrecise_8h.html#gadc2c4d7aad96048cfc344b839a4e6e16", null ],
     [ "findCollidingEdgeTrisPrecise", "MRMeshCollidePrecise_8h.html#ga8c7d357b072699f62023d97ea1c81f45", null ],
     [ "findCollidingEdgeTrisPrecise", "MRMeshCollidePrecise_8h.html#ga939afe34134c1d66c9ca5f19e33dc323", null ],
     [ "findCollidingEdgeTrisPrecise", "MRMeshCollidePrecise_8h.html#ga11d4ca955f1a62e15ebea578ffa83454", null ],

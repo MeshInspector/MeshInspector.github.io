@@ -4,7 +4,7 @@ var searchData=
   ['baseaction_3c_20vector3f_20_3e_1',['BaseAction&lt; Vector3f &gt;',['../structMR_1_1GcodeProcessor_1_1BaseAction.html',1,'MR::GcodeProcessor']]],
   ['basefitparams_2',['BaseFitParams',['../structMR_1_1BaseFitParams.html',1,'MR']]],
   ['basepickresult_3',['BasePickResult',['../structMR_1_1ViewportGL_1_1BasePickResult.html',1,'MR::ViewportGL']]],
-  ['baserenderparams_4',['baserenderparams',['../structMR_1_1BaseRenderParams.html',1,'MR::BaseRenderParams'],['../structMR_1_1ViewportGL_1_1BaseRenderParams.html',1,'MR::ViewportGL::BaseRenderParams']]],
+  ['baserenderparams_4',['BaseRenderParams',['../structMR_1_1BaseRenderParams.html',1,'MR::BaseRenderParams'],['../structMR_1_1ViewportGL_1_1BaseRenderParams.html',1,'MR::ViewportGL::BaseRenderParams']]],
   ['baseshellparameters_5',['BaseShellParameters',['../structMR_1_1BaseShellParameters.html',1,'MR']]],
   ['basetiffparameters_6',['BaseTiffParameters',['../structMR_1_1BaseTiffParameters.html',1,'MR']]],
   ['basininfo_7',['BasinInfo',['../structMR_1_1WatershedGraph_1_1BasinInfo.html',1,'MR::WatershedGraph']]],

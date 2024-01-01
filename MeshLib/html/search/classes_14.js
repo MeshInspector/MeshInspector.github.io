@@ -84,8 +84,13 @@ var searchData=
   ['voxelsvolume_81',['VoxelsVolume',['../structMR_1_1VoxelsVolume.html',1,'MR']]],
   ['voxelsvolume_3c_20floatgrid_20_3e_82',['VoxelsVolume&lt; FloatGrid &gt;',['../structMR_1_1VoxelsVolume.html',1,'MR']]],
   ['voxelsvolume_3c_20std_3a_3avector_3c_20float_20_3e_20_3e_83',['VoxelsVolume&lt; std::vector&lt; float &gt; &gt;',['../structMR_1_1VoxelsVolume.html',1,'MR']]],
-  ['voxeltraits_84',['VoxelTraits',['../structMR_1_1VoxelTraits.html',1,'MR']]],
-  ['voxeltraits_3c_20floatgrid_20_3e_85',['VoxelTraits&lt; FloatGrid &gt;',['../structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html',1,'MR']]],
-  ['voxeltraits_3c_20std_3a_3avector_3c_20float_20_3e_20_3e_86',['VoxelTraits&lt; std::vector&lt; float &gt; &gt;',['../structMR_1_1VoxelTraits.html',1,'MR']]],
-  ['voxeltraits_3c_20voxelvaluegetter_3c_20t_20_3e_20_3e_87',['VoxelTraits&lt; VoxelValueGetter&lt; T &gt; &gt;',['../structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html',1,'MR']]]
+  ['voxelsvolumeaccessor_84',['VoxelsVolumeAccessor',['../classMR_1_1VoxelsVolumeAccessor.html',1,'MR']]],
+  ['voxelsvolumeaccessor_3c_20v_20_3e_85',['VoxelsVolumeAccessor&lt; V &gt;',['../classMR_1_1VoxelsVolumeAccessor.html',1,'MR']]],
+  ['voxelsvolumeaccessor_3c_20vdbvolume_20_3e_86',['VoxelsVolumeAccessor&lt; VdbVolume &gt;',['../classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html',1,'MR']]],
+  ['voxelsvolumeaccessor_3c_20voxelsvolume_3c_20voxelvaluegetter_3c_20t_20_3e_20_3e_20_3e_87',['VoxelsVolumeAccessor&lt; VoxelsVolume&lt; VoxelValueGetter&lt; T &gt; &gt; &gt;',['../classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01VoxelValueGetter_3_01T_01_4_01_4_01_4.html',1,'MR']]],
+  ['voxelsvolumecachingaccessor_88',['VoxelsVolumeCachingAccessor',['../classMR_1_1VoxelsVolumeCachingAccessor.html',1,'MR']]],
+  ['voxeltraits_89',['VoxelTraits',['../structMR_1_1VoxelTraits.html',1,'MR']]],
+  ['voxeltraits_3c_20floatgrid_20_3e_90',['VoxelTraits&lt; FloatGrid &gt;',['../structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html',1,'MR']]],
+  ['voxeltraits_3c_20std_3a_3avector_3c_20float_20_3e_20_3e_91',['VoxelTraits&lt; std::vector&lt; float &gt; &gt;',['../structMR_1_1VoxelTraits.html',1,'MR']]],
+  ['voxeltraits_3c_20voxelvaluegetter_3c_20t_20_3e_20_3e_92',['VoxelTraits&lt; VoxelValueGetter&lt; T &gt; &gt;',['../structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html',1,'MR']]]
 ];

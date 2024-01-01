@@ -31,6 +31,7 @@ var structMR_1_1Matrix4 =
     [ "submatrix3", "structMR_1_1Matrix4.html#a5408e4a71f68a738707aa7706fd9c81b", null ],
     [ "trace", "structMR_1_1Matrix4.html#a4107d00647824c81b8988f9c40f24a9d", null ],
     [ "transposed", "structMR_1_1Matrix4.html#aa3ccb709598578bbc7108e8ec0e686a9", null ],
+    [ "dot", "structMR_1_1Matrix4.html#a2480220828af2a453a7cf767ecfe462f", null ],
     [ "operator*", "structMR_1_1Matrix4.html#ad64fdd214d6a74c2ef20309ba0e64c6d", null ],
     [ "operator*", "structMR_1_1Matrix4.html#a5be2b22b00513fee735321f7fdb308ef", null ],
     [ "outer", "structMR_1_1Matrix4.html#aff9e2bc787d384454aed9377473bfdc3", null ],

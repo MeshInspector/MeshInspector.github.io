@@ -2,7 +2,7 @@ var MRFixUndercuts_8h =
 [
     [ "MR::FixUndercuts::ImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters" ],
     [ "MR::FixUndercuts::DistMapImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" ],
-    [ "UndercutMetric", "MRFixUndercuts_8h.html#a7b242f2951e9f7975eaf03828f63eecc", null ],
+    [ "UndercutMetric", "MRFixUndercuts_8h.html#a4c856220e6a7071f9952dd0704ee89fa", null ],
     [ "distMapImproveDirection", "MRFixUndercuts_8h.html#a96732d95fa0a85f228755bc3ee627480", null ],
     [ "findUndercuts", "MRFixUndercuts_8h.html#a1c452133dfe105eac4ac5ff96a1e43d9", null ],
     [ "findUndercuts", "MRFixUndercuts_8h.html#a3d68f963f866fa5f27f25237e52f943d", null ],

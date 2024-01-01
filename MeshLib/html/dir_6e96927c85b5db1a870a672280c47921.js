@@ -8,6 +8,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRCreateShader.h", "MRCreateShader_8h.html", "MRCreateShader_8h" ],
     [ "MRCudaAccessor.h", "MRCudaAccessor_8h.html", "MRCudaAccessor_8h" ],
     [ "MRDemoPlugin.h", "MRDemoPlugin_8h.html", "MRDemoPlugin_8h" ],
+    [ "MRDirectionWidget.h", "MRDirectionWidget_8h.html", "MRDirectionWidget_8h" ],
     [ "MRFileDialog.h", "MRFileDialog_8h.html", "MRFileDialog_8h" ],
     [ "MRFitData.h", "MRFitData_8h.html", "MRFitData_8h" ],
     [ "MRFrameRedrawRequest.h", "MRFrameRedrawRequest_8h.html", "MRFrameRedrawRequest_8h" ],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['enqueue_5fviewer_5fmethod_0',['ENQUEUE_VIEWER_METHOD',['../MRViewer_8h.html#ab5148a6d21d216f28a3c1da0055472db',1,'MRViewer.h']]],
-  ['enqueue_5fviewer_5fmethod_5fargs_1',['ENQUEUE_VIEWER_METHOD_ARGS',['../MRViewer_8h.html#a1a1151cfe48505fed9bdf9d94af7cbde',1,'MRViewer.h']]],
-  ['enqueue_5fviewer_5fmethod_5fargs_5fskipable_2',['ENQUEUE_VIEWER_METHOD_ARGS_SKIPABLE',['../MRViewer_8h.html#a47bc3da84c367214966eb167e5d2a70d',1,'MRViewer.h']]]
+  ['detail_5fmr_5ffinally_0',['DETAIL_MR_FINALLY',['../MRFinally_8h.html#ac22b729a28295f5adeb690ef54729b1c',1,'MRFinally.h']]],
+  ['detail_5fmr_5ffinally_5fcat_1',['DETAIL_MR_FINALLY_CAT',['../MRFinally_8h.html#a4dd1c4880ba04deb8a1273cb7c0601ff',1,'MRFinally.h']]],
+  ['detail_5fmr_5ffinally_5fcat_5f_2',['DETAIL_MR_FINALLY_CAT_',['../MRFinally_8h.html#a172a0dac9cc5d81449b71dc76b85e678',1,'MRFinally.h']]]
 ];
