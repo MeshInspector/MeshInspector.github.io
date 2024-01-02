@@ -10,6 +10,7 @@ var MRICP_8h =
       [ "PointToPlane", "MRICP_8h.html#adc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed", null ]
     ] ],
     [ "ICPMode", "MRICP_8h.html#a2f8db848fea33b9619ade1fc1ac08677", [
+      [ "RigidScale", "MRICP_8h.html#a2f8db848fea33b9619ade1fc1ac08677ae69bfcbc43792e36c9ef6daf8e9af890", null ],
       [ "AnyRigidXf", "MRICP_8h.html#a2f8db848fea33b9619ade1fc1ac08677a1662b3d601f436e62a0bf6529440eaef", null ],
       [ "OrthogonalAxis", "MRICP_8h.html#a2f8db848fea33b9619ade1fc1ac08677a9dc639d68610e7c72efff69db6d60b18", null ],
       [ "FixedAxis", "MRICP_8h.html#a2f8db848fea33b9619ade1fc1ac08677aeaff0b601f0c9235c1d2d08500449fae", null ],

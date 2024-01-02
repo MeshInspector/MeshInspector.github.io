@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"MRMeshShader_8h.html#aad8c793eb4b653e92231eced9a53a41e":[13,0,0,1,4,21,0],
 "MRMeshShader_8h.html#adf0c9f368d580d753d6be5949cb9aeb5":[13,0,0,1,4,21,1],
 "MRMeshShader_8h_source.html":[13,0,0,1,4,21],
 "MRMeshSubdivide_8h.html":[13,0,0,1,2,184],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "MRPolylineTopology_8h_source.html":[13,0,0,1,2,249],
 "MRPolyline_8h.html":[13,0,0,1,2,239],
 "MRPolyline_8h_source.html":[13,0,0,1,2,239],
-"MRPositionVertsSmoothly_8h.html":[13,0,0,1,2,251],
-"MRPositionVertsSmoothly_8h.html#a33971b1452a73d0ac6d188b7cb337a59":[13,0,0,1,2,251,3]
+"MRPositionVertsSmoothly_8h.html":[13,0,0,1,2,251]
 };

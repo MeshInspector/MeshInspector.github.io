@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"MRToolPath_8h.html#a496117b22a6f09546f0037fb4b5d43aaa8f23635f9ec49db2161fc5cddf033a79":[13,0,0,1,2,301,7,1],
 "MRToolPath_8h.html#a496117b22a6f09546f0037fb4b5d43aaaba360a794737bcc8657a5b6e870d7ba8":[13,0,0,1,2,301,7,0],
 "MRToolPath_8h.html#a57798fcf93f06547414a72682d58db10":[13,0,0,1,2,301,13],
 "MRToolPath_8h.html#a5cf448fe92baa11b05d8d6f0bcd6b9f5":[13,0,0,1,2,301,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "MRVoxelsVolumeAccess_8h_source.html":[13,0,0,1,2,335],
 "MRVoxelsVolume_8h.html":[13,0,0,1,2,334],
 "MRVoxelsVolume_8h.html#a95448d86b9e9dc01e6f9391c76bd06f6":[13,0,0,1,2,334,0],
-"MRVoxelsVolume_8h_source.html":[13,0,0,1,2,334],
-"MRWasmUnavailablePlugin_8h.html":[13,0,0,1,0,0,2]
+"MRVoxelsVolume_8h_source.html":[13,0,0,1,2,334]
 };

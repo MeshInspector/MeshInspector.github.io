@@ -1,5 +1,6 @@
 var NAVTREEINDEX31 =
 {
+"classPythonStreamRedirector.html":[12,0,1],
 "classPythonStreamRedirector.html#a2dde8d2c176e672c39dd11e8c356db1e":[12,0,1,1],
 "classPythonStreamRedirector.html#a46dc140b9465c325ad8144ccf3ea0d70":[12,0,1,0],
 "classes.html":[12,1],
@@ -30,8 +31,8 @@ var NAVTREEINDEX31 =
 "functions_enum.html":[12,3,4],
 "functions_eval.html":[12,3,5],
 "functions_f.html":[12,3,0,5],
-"functions_func.html":[12,3,1],
 "functions_func.html":[12,3,1,0],
+"functions_func.html":[12,3,1],
 "functions_func_b.html":[12,3,1,1],
 "functions_func_c.html":[12,3,1,2],
 "functions_func_d.html":[12,3,1,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX31 =
 "group__BasicGroup.html#ga4a32fd3117efa96b71c220bfc13c359b":[9,3,79],
 "group__BasicGroup.html#ga4accadafe09c169e3742b72d1e5e5733":[9,3,85],
 "group__BasicGroup.html#ga4dedcc9253b2c45a7d8a9417d1c19362":[9,3,78],
-"group__BasicGroup.html#ga52d34a9bbe60f99085e9aab32040499f":[9,3,72],
-"group__BasicGroup.html#ga52ef6e1208fe1f50e79f683d8f04fd15":[9,3,71]
+"group__BasicGroup.html#ga52d34a9bbe60f99085e9aab32040499f":[9,3,72]
 };

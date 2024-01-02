@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"MRSaveSettings_8h_source.html":[13,0,0,1,2,271],
 "MRSceneColors_8h.html":[13,0,0,1,2,272],
 "MRSceneColors_8h_source.html":[13,0,0,1,2,272],
 "MRSceneControlMenuItems_8h.html":[13,0,0,1,0,2,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "MRToFromEigen_8h_source.html":[13,0,0,1,2,300],
 "MRToolPath_8h.html":[13,0,0,1,2,301],
 "MRToolPath_8h.html#a2d4f7ec26405b0cbdd955d37e2499e12":[13,0,0,1,2,301,9],
-"MRToolPath_8h.html#a496117b22a6f09546f0037fb4b5d43aa":[13,0,0,1,2,301,7],
-"MRToolPath_8h.html#a496117b22a6f09546f0037fb4b5d43aaa8f23635f9ec49db2161fc5cddf033a79":[13,0,0,1,2,301,7,1]
+"MRToolPath_8h.html#a496117b22a6f09546f0037fb4b5d43aa":[13,0,0,1,2,301,7]
 };

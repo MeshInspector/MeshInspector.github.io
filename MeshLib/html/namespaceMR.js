@@ -1080,6 +1080,7 @@ var namespaceMR =
       [ "PointToPlane", "namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed", null ]
     ] ],
     [ "ICPMode", "namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677", [
+      [ "RigidScale", "namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677ae69bfcbc43792e36c9ef6daf8e9af890", null ],
       [ "AnyRigidXf", "namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677a1662b3d601f436e62a0bf6529440eaef", null ],
       [ "OrthogonalAxis", "namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677a9dc639d68610e7c72efff69db6d60b18", null ],
       [ "FixedAxis", "namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677aeaff0b601f0c9235c1d2d08500449fae", null ],

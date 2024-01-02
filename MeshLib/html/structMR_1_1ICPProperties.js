@@ -10,5 +10,6 @@ var structMR_1_1ICPProperties =
     [ "icpMode", "structMR_1_1ICPProperties.html#a77f672ea419da2fb458fb981c25d5be2", null ],
     [ "iterLimit", "structMR_1_1ICPProperties.html#a4b5daff61d36ce0e211995eee0f2507f", null ],
     [ "method", "structMR_1_1ICPProperties.html#aaebab641b9a81a0d03d0a64d155ea22f", null ],
-    [ "p2plAngleLimit", "structMR_1_1ICPProperties.html#aea1145693fe2129927a24c786165f31f", null ]
+    [ "p2plAngleLimit", "structMR_1_1ICPProperties.html#aea1145693fe2129927a24c786165f31f", null ],
+    [ "p2plScaleLimit", "structMR_1_1ICPProperties.html#af5cb06bed691cb37cc63ad3e96ebc6f2", null ]
 ];

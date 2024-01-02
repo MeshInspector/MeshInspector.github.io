@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[10,0,0,60,1],
 "classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[12,0,0,44,1],
 "classMR_1_1ChangVoxelSelectionAction.html":[9,4,32],
 "classMR_1_1ChangeActiveBoxAction.html":[9,4,29],
@@ -43,8 +44,8 @@ var NAVTREEINDEX9 =
 "classMR_1_1ChangeLabelAction.html":[10,0,0,67],
 "classMR_1_1ChangeLabelAction.html#a21a4e3c00216db2abbbfb9ce47014c81":[10,0,0,67,0],
 "classMR_1_1ChangeLabelAction.html#a21a4e3c00216db2abbbfb9ce47014c81":[12,0,0,51,0],
-"classMR_1_1ChangeLabelAction.html#a44cff8296d6419da98913c39fdbd8050":[10,0,0,67,2],
 "classMR_1_1ChangeLabelAction.html#a44cff8296d6419da98913c39fdbd8050":[12,0,0,51,2],
+"classMR_1_1ChangeLabelAction.html#a44cff8296d6419da98913c39fdbd8050":[10,0,0,67,2],
 "classMR_1_1ChangeLabelAction.html#a49b7949dc2497e15510dbf8c51c83e61":[12,0,0,51,3],
 "classMR_1_1ChangeLabelAction.html#a49b7949dc2497e15510dbf8c51c83e61":[10,0,0,67,3],
 "classMR_1_1ChangeLabelAction.html#ab1fc1b5e85ebdd6e6737c7e8301d6239":[10,0,0,67,1],
@@ -247,7 +248,6 @@ var NAVTREEINDEX9 =
 "classMR_1_1ColorMapAggregator.html#a29857a8d38bc30a22d092fdc3c8632df":[10,0,0,101,2],
 "classMR_1_1ColorMapAggregator.html#a46af3a558e1ec5eb32d783b972ad8198":[10,0,0,101,8],
 "classMR_1_1ColorMapAggregator.html#a46af3a558e1ec5eb32d783b972ad8198":[12,0,0,85,8],
-"classMR_1_1ColorMapAggregator.html#a5270d3355b43941e705178f4105a9042":[10,0,0,101,7],
 "classMR_1_1ColorMapAggregator.html#a5270d3355b43941e705178f4105a9042":[12,0,0,85,7],
-"classMR_1_1ColorMapAggregator.html#a69399c15f5244a65b67dbe5be5754a50":[10,0,0,101,10]
+"classMR_1_1ColorMapAggregator.html#a5270d3355b43941e705178f4105a9042":[10,0,0,101,7]
 };

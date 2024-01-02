@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"namespaceMR.html#af61e31044cdd52a789ea52958e80713b":[10,0,0,1925],
+"namespaceMR.html#af677bfbbed9f6c283d0a3101b5e91aea":[10,0,0,822],
 "namespaceMR.html#af6919ccacfe9dfaf51234ebc70f41d86":[10,0,0,1382],
 "namespaceMR.html#af6a847a4f04242c0d7469f73addb43a6":[10,0,0,1566],
 "namespaceMR.html#af70abcbee5fc303daa9a2cbbea864ac8":[10,0,0,1614],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "namespacemembers_y.html":[10,1,0,22],
 "namespacemembers_z.html":[10,1,0,23],
 "namespaces.html":[10,0],
-"pages.html":[],
-"structMR_1_1AABBTreeNode.html":[9,1,4],
-"structMR_1_1AABBTreeNode.html#a0286485d67d37c6d4f76d7d1f43d13d0":[9,1,4,1]
+"pages.html":[]
 };
