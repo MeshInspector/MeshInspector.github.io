@@ -30,9 +30,9 @@ var group__FillHoleGroup =
       [ "edgeMetric", "structMR_1_1FillHoleMetric.html#a3048bcf785194be02ce20b5d6e6bfd61", null ],
       [ "triangleMetric", "structMR_1_1FillHoleMetric.html#acc8ef5c37515d91d9c3cb3fbcaa1fd22", null ]
     ] ],
-    [ "MR::FillCombineMetric", "group__FillHoleGroup.html#gaf0a9f8a0620df3a7af664ad4c6aab213", null ],
-    [ "MR::FillEdgeMetric", "group__FillHoleGroup.html#gab8b87cfdccec2d30942d137f9c6b61a6", null ],
-    [ "MR::FillTriangleMetric", "group__FillHoleGroup.html#ga280edfda26ddf71eb2799b9cfc305be8", null ],
+    [ "MR::FillCombineMetric", "group__FillHoleGroup.html#gaad066e7bae2a07aca2ad0dfe7dd4e6db", null ],
+    [ "MR::FillEdgeMetric", "group__FillHoleGroup.html#ga378874f711e86b9642d05e7fd8cce1bc", null ],
+    [ "MR::FillTriangleMetric", "group__FillHoleGroup.html#gafe78a2b0e0d220415809095d9a17e3a6", null ],
     [ "MR::buildBottom", "group__FillHoleGroup.html#ga7bee2d636a1f5f931ac54f6f841c07f7", null ],
     [ "MR::buildCylinderBetweenTwoHoles", "group__FillHoleGroup.html#gaf61677f65331b42d3022a70d4b550a13", null ],
     [ "MR::buildCylinderBetweenTwoHoles", "group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157", null ],

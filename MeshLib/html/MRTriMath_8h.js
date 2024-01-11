@@ -2,6 +2,9 @@ var MRTriMath_8h =
 [
     [ "area", "MRTriMath_8h.html#a5db5640e628bfb98d046695d1bf378af", null ],
     [ "area", "MRTriMath_8h.html#ad0da44181dd40e142f6e464e276c6c03", null ],
+    [ "circumballCenters", "MRTriMath_8h.html#ab848f1f42c702c20acbcac33a7e53649", null ],
+    [ "circumcircleCenter", "MRTriMath_8h.html#a3c69736e96e47e3a27bc8f47ba40c448", null ],
+    [ "circumcircleCenter", "MRTriMath_8h.html#afebaea1321bcf85ccd6401870196c3fd", null ],
     [ "circumcircleDiameter", "MRTriMath_8h.html#gaba44f8d705d9bc1b98f635bdabe488ae", null ],
     [ "circumcircleDiameterSq", "MRTriMath_8h.html#ga97b0c226492f4561c1a2c13831433bed", null ],
     [ "dblArea", "MRTriMath_8h.html#ae3bb1f96cee445baf5867b057f5d6b73", null ],

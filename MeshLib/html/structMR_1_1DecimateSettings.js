@@ -1,6 +1,6 @@
 var structMR_1_1DecimateSettings =
 [
-    [ "adjustCollapse", "structMR_1_1DecimateSettings.html#a46669c6f3a5e02f8da0fd4b3b0324eb2", null ],
+    [ "adjustCollapse", "structMR_1_1DecimateSettings.html#a21d7c6d9122286b4edf7bd531d38b72b", null ],
     [ "bdVerts", "structMR_1_1DecimateSettings.html#a9bc3106034dd8abdbb3067c7868ca6dd", null ],
     [ "criticalTriAspectRatio", "structMR_1_1DecimateSettings.html#a5f0e2ae094cddee1b490103a349feda5", null ],
     [ "edgesToCollapse", "structMR_1_1DecimateSettings.html#a4e2b45d957cafc32245b3ee812ed80d0", null ],
@@ -15,7 +15,7 @@ var structMR_1_1DecimateSettings =
     [ "onEdgeDel", "structMR_1_1DecimateSettings.html#a4777d8a943b9bf55a68858260f62abd4", null ],
     [ "optimizeVertexPos", "structMR_1_1DecimateSettings.html#ac4cfcdf2807788f5914a0640372d4a07", null ],
     [ "packMesh", "structMR_1_1DecimateSettings.html#a320a08e8abf402aa6a0dae956ad9be0e", null ],
-    [ "preCollapse", "structMR_1_1DecimateSettings.html#a960b514abf72d4cc4e9e186b7324bc3c", null ],
+    [ "preCollapse", "structMR_1_1DecimateSettings.html#a4eab7dd113486daa41a2272bac1b8a2f", null ],
     [ "progressCallback", "structMR_1_1DecimateSettings.html#aa54526c521844dcca8dc5aa91e3628de", null ],
     [ "region", "structMR_1_1DecimateSettings.html#a9359f9da0b131c164d942b1361bd9644", null ],
     [ "stabilizer", "structMR_1_1DecimateSettings.html#ab8a313e9caff73dd179f03a9c7b80baa", null ],

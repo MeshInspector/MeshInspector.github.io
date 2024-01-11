@@ -5,5 +5,5 @@ var classMR_1_1RecentFilesStore =
     [ "getCapacity", "classMR_1_1RecentFilesStore.html#a1f48973b157bca4ee2c0e34407310654", null ],
     [ "getStoredFiles", "classMR_1_1RecentFilesStore.html#a8eb2308612fd7822086319b3609a28cf", null ],
     [ "storeFile", "classMR_1_1RecentFilesStore.html#a91c0cee2c949bedab99c902e62d77a9f", null ],
-    [ "storageUpdateSignal", "classMR_1_1RecentFilesStore.html#a48164c93efabcfc44f00c61e319ef9fa", null ]
+    [ "storageUpdateSignal", "classMR_1_1RecentFilesStore.html#a2ab26c01577745deea45eff2c4b6f1e9", null ]
 ];

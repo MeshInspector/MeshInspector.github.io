@@ -21,9 +21,9 @@ var searchData=
   ['length_18',['length',['../classMR_1_1Cylinder3.html#a49761af205e8affe422e2ff23a49935b',1,'MR::Cylinder3']]],
   ['lessinside_19',['lessInside',['../structMR_1_1MarchingCubesParams.html#ae07876a5272040c1fd50016127294f07',1,'MR::MarchingCubesParams']]],
   ['lexicographicalorder_20',['lexicographicalOrder',['../structMR_1_1UniformSamplingSettings.html#a7c7a861d6d96b26592bb64ac801d6f43',1,'MR::UniformSamplingSettings']]],
-  ['lightpos_21',['lightPos',['../structMR_1_1RenderParams.html#a47cc4cbbf79f1f12e4aea132ab900847',1,'MR::RenderParams::lightPos'],['../structMR_1_1ImmediateGL_1_1TriRenderParams.html#a1c06cf4d09db5aa9ed38a007b91e5c24',1,'MR::ImmediateGL::TriRenderParams::lightPos']]],
+  ['lightpos_21',['lightPos',['../structMR_1_1RenderParams.html#a47cc4cbbf79f1f12e4aea132ab900847',1,'MR::RenderParams::lightPos()'],['../structMR_1_1ImmediateGL_1_1TriRenderParams.html#a1c06cf4d09db5aa9ed38a007b91e5c24',1,'MR::ImmediateGL::TriRenderParams::lightPos()']]],
   ['lightposition_22',['lightPosition',['../structMR_1_1Viewport_1_1Parameters.html#a8f5b4aad145854c698416a4ac59ae0f1',1,'MR::Viewport::Parameters']]],
-  ['line_23',['line',['../structMR_1_1Line3Mesh.html#a0de1e3305b0aa64219ac2de3c2abb2f3',1,'MR::Line3Mesh::line'],['../structMR_1_1PolylineProjectionResult.html#a575d694a03d4903a8b460aeba47cfe1c',1,'MR::PolylineProjectionResult::line'],['../structMR_1_1PolylineProjectionWithOffsetResult.html#a11d0a9e4090b200e7152c1d2000db9c3',1,'MR::PolylineProjectionWithOffsetResult::line'],['../structMR_1_1ShaderWarning.html#a930eaa6dc15670480191448c07138e81',1,'MR::ShaderWarning::line']]],
+  ['line_23',['line',['../structMR_1_1Line3Mesh.html#a0de1e3305b0aa64219ac2de3c2abb2f3',1,'MR::Line3Mesh::line()'],['../structMR_1_1PolylineProjectionResult.html#a575d694a03d4903a8b460aeba47cfe1c',1,'MR::PolylineProjectionResult::line()'],['../structMR_1_1PolylineProjectionWithOffsetResult.html#a11d0a9e4090b200e7152c1d2000db9c3',1,'MR::PolylineProjectionWithOffsetResult::line()'],['../structMR_1_1ShaderWarning.html#a930eaa6dc15670480191448c07138e81',1,'MR::ShaderWarning::line()']]],
   ['line_5fwidth_24',['line_width',['../classMR_1_1Viewport.html#a076349a48c4ce15770d714789adf024f',1,'MR::Viewport']]],
   ['lines_25',['lines',['../structMR_1_1ViewportLinesWithColors.html#abf826cb45cee8138394957baf185c4cc',1,'MR::ViewportLinesWithColors']]],
   ['lines_5fdirty_26',['lines_dirty',['../classMR_1_1ViewportGL.html#a1b2d6651a304c59c74052fd1d65806a9',1,'MR::ViewportGL']]],
@@ -39,5 +39,5 @@ var searchData=
   ['lorg_36',['lOrg',['../structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a2fa82e2dbbf17f35ba932bcd731f08c6',1,'MR::PlanarTriangulation::IntersectionInfo']]],
   ['lowestbdlevel_37',['lowestBdLevel',['../structMR_1_1WatershedGraph_1_1BasinInfo.html#a01068990cefec48cd1195061d70f5b9a',1,'MR::WatershedGraph::BasinInfo']]],
   ['lowestlevel_38',['lowestLevel',['../structMR_1_1WatershedGraph_1_1BasinInfo.html#ab2cb4ea433e1e7448b0b1d3bafa8c2f2',1,'MR::WatershedGraph::BasinInfo']]],
-  ['lowestvert_39',['lowestVert',['../structMR_1_1WatershedGraph_1_1BasinInfo.html#a2e9b6e24cf6016e21030cbec21fb1240',1,'MR::WatershedGraph::BasinInfo::lowestVert'],['../structMR_1_1WatershedGraph_1_1BdInfo.html#a1cef595f818149e8ab3c459988194aac',1,'MR::WatershedGraph::BdInfo::lowestVert']]]
+  ['lowestvert_39',['lowestVert',['../structMR_1_1WatershedGraph_1_1BasinInfo.html#a2e9b6e24cf6016e21030cbec21fb1240',1,'MR::WatershedGraph::BasinInfo::lowestVert()'],['../structMR_1_1WatershedGraph_1_1BdInfo.html#a1cef595f818149e8ab3c459988194aac',1,'MR::WatershedGraph::BdInfo::lowestVert()']]]
 ];

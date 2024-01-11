@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['and_20transformations_0',['Spaces and transformations',['../SpacesHelp.html',1,'']]]
+  ['coding_20style_0',['Coding style',['../CodingStyleHelp.html',1,'']]]
 ];

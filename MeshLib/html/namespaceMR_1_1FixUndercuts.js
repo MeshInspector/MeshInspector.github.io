@@ -2,7 +2,7 @@ var namespaceMR_1_1FixUndercuts =
 [
     [ "DistMapImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" ],
     [ "ImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters" ],
-    [ "UndercutMetric", "namespaceMR_1_1FixUndercuts.html#a4c856220e6a7071f9952dd0704ee89fa", null ],
+    [ "UndercutMetric", "namespaceMR_1_1FixUndercuts.html#a7b242f2951e9f7975eaf03828f63eecc", null ],
     [ "distMapImproveDirection", "namespaceMR_1_1FixUndercuts.html#a96732d95fa0a85f228755bc3ee627480", null ],
     [ "findUndercuts", "namespaceMR_1_1FixUndercuts.html#a1c452133dfe105eac4ac5ff96a1e43d9", null ],
     [ "findUndercuts", "namespaceMR_1_1FixUndercuts.html#a3d68f963f866fa5f27f25237e52f943d", null ],

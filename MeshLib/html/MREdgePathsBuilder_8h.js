@@ -5,6 +5,6 @@ var MREdgePathsBuilder_8h =
     [ "MR::TrivialMetricToPenalty", "structMR_1_1TrivialMetricToPenalty.html", "structMR_1_1TrivialMetricToPenalty" ],
     [ "MR::MetricToAStarPenalty", "structMR_1_1MetricToAStarPenalty.html", "structMR_1_1MetricToAStarPenalty" ],
     [ "MR::EdgePathsAStarBuilder", "classMR_1_1EdgePathsAStarBuilder.html", "classMR_1_1EdgePathsAStarBuilder" ],
-    [ "EdgePathsBuilder", "MREdgePathsBuilder_8h.html#a5e64a53d9d9c624063bb6a51a6ba77e1", null ],
-    [ "VertPathInfoMap", "MREdgePathsBuilder_8h.html#a8ef9d4ab57452b5bea4b72a90f4fc165", null ]
+    [ "EdgePathsBuilder", "MREdgePathsBuilder_8h.html#a804e531aba31d3b33c8698791b90bf70", null ],
+    [ "VertPathInfoMap", "MREdgePathsBuilder_8h.html#ab7fd988c9637a0fb9985015051bced49", null ]
 ];

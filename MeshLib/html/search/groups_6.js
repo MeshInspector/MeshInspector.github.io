@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['eigen_0',['Mesh Eigen',['../group__MeshEigenGroup.html',1,'']]],
-  ['elements_20overview_1',['Basic elements overview',['../group__BasicGroup.html',1,'']]]
+  ['group_20surface_20distance_20builder_0',['Group Surface Distance Builder',['../group__SurfaceDistanceBuilder.html',1,'']]]
 ];

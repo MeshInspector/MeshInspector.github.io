@@ -7,8 +7,8 @@ var MRRibbonSchema_8h =
     [ "MR::RibbonSchemaHolder", "classMR_1_1RibbonSchemaHolder.html", "classMR_1_1RibbonSchemaHolder" ],
     [ "MR::RibbonSchemaHolder::SearchResult", "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html", "structMR_1_1RibbonSchemaHolder_1_1SearchResult" ],
     [ "MR::RibbonSchemaLoader", "classMR_1_1RibbonSchemaLoader.html", "classMR_1_1RibbonSchemaLoader" ],
-    [ "GroupsItemsMap", "MRRibbonSchema_8h.html#ad42a75e584073228a798aaddab06e6f4", null ],
-    [ "ItemMap", "MRRibbonSchema_8h.html#a55efef56c0d2d0a5eabf81b134ec39c9", null ],
-    [ "SplitCaptionInfo", "MRRibbonSchema_8h.html#a0f8705ceb9b9ea512c947c5bdbcd3b5e", null ],
-    [ "TabsGroupsMap", "MRRibbonSchema_8h.html#a9156ba38070249801207259b1b438e47", null ]
+    [ "GroupsItemsMap", "MRRibbonSchema_8h.html#abf6bbed3c3480e9f5b8b983ccdb36c73", null ],
+    [ "ItemMap", "MRRibbonSchema_8h.html#a951caf73a0c4476f80fa50ed48e91bd1", null ],
+    [ "SplitCaptionInfo", "MRRibbonSchema_8h.html#ab24ee027d62bc4d8970f9a63d76be096", null ],
+    [ "TabsGroupsMap", "MRRibbonSchema_8h.html#aa67ad485dae41f58b3a25b48cc53ce9b", null ]
 ];

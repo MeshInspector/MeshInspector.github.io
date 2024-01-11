@@ -2,7 +2,7 @@ var classMR_1_1ShortcutManager =
 [
     [ "ShortcutCommand", "structMR_1_1ShortcutManager_1_1ShortcutCommand.html", "structMR_1_1ShortcutManager_1_1ShortcutCommand" ],
     [ "ShortcutKey", "structMR_1_1ShortcutManager_1_1ShortcutKey.html", "structMR_1_1ShortcutManager_1_1ShortcutKey" ],
-    [ "ShortcutList", "classMR_1_1ShortcutManager.html#a912f0a1bddab02d0a371cdf93d4729f1", null ],
+    [ "ShortcutList", "classMR_1_1ShortcutManager.html#a1b6141c52bc058b4b485765ea6092d22", null ],
     [ "ShourtcutsBackMap", "classMR_1_1ShortcutManager.html#a12fa153bb2f0df72498264f840eeef6c", null ],
     [ "ShourtcutsMap", "classMR_1_1ShortcutManager.html#aa3f924fb2d8d08321689742094b61a10", null ],
     [ "Category", "classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6", [

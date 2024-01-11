@@ -10,5 +10,5 @@ var MRIOFilesMenuItems_8h =
     [ "MR::CaptureScreenshotMenuItem", "classMR_1_1CaptureScreenshotMenuItem.html", "classMR_1_1CaptureScreenshotMenuItem" ],
     [ "MR::CaptureUIScreenshotMenuItem", "classMR_1_1CaptureUIScreenshotMenuItem.html", "classMR_1_1CaptureUIScreenshotMenuItem" ],
     [ "MR::CaptureScreenshotToClipBoardMenuItem", "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html", "classMR_1_1CaptureScreenshotToClipBoardMenuItem" ],
-    [ "FileNamesStack", "MRIOFilesMenuItems_8h.html#abf9e7451b5087b4485b6207161438dc3", null ]
+    [ "FileNamesStack", "MRIOFilesMenuItems_8h.html#af2f452ad2431378d3b3a95114e14b761", null ]
 ];

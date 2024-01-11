@@ -2,7 +2,7 @@ var searchData=
 [
   ['valuegradient_0',['ValueGradient',['../structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cfa95d1531d160fa0a7112f86c30a174300',1,'MR::ObjectVoxels::VolumeRenderingParams']]],
   ['vertex_1',['Vertex',['../structMR_1_1OneMeshIntersection.html#aa8be4cdd05697b725ee7e1ae05833f82a807d0c11c8a7da0fb426f9e34901f485',1,'MR::OneMeshIntersection']]],
-  ['vertical_2',['Vertical',['../classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da06ce2a25e5d12c166a36f654dbea6012',1,'MR::SetViewportConfigPresetMenuItem::Vertical'],['../structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0a06ce2a25e5d12c166a36f654dbea6012',1,'MR::GridSettings::Vertical']]],
+  ['vertical_2',['Vertical',['../classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da06ce2a25e5d12c166a36f654dbea6012',1,'MR::SetViewportConfigPresetMenuItem::Vertical()'],['../structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0a06ce2a25e5d12c166a36f654dbea6012',1,'MR::GridSettings::Vertical()']]],
   ['verts_3',['Verts',['../classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2add552244171cc5216a36a33f506602d8',1,'MR::SurfacePointWidget']]],
   ['vertscolormap_4',['VertsColorMap',['../group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa4eec2fd5791a957e48b009cdbe2c10dd',1,'MR']]],
   ['view_5',['View',['../classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6a4351cfebe4b61d8aa5efa1d020710005',1,'MR::ShortcutManager']]],
@@ -12,5 +12,5 @@ var searchData=
   ['visualizepropscount_9',['VisualizePropsCount',['../structMR_1_1VisualizeMaskType.html#a2d46e7b6609b8aef605bf534d22dbd25affc553095c89777da911f032d4d686bc',1,'MR::VisualizeMaskType']]],
   ['volume_10',['Volume',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a0b127ccf018299560090f1f8804bd676',1,'MR::GLStaticHolder']]],
   ['volumepicker_11',['VolumePicker',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748aa694e960e5a16235a6b954cd634c87ce',1,'MR::GLStaticHolder']]],
-  ['voxels_12',['Voxels',['../classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76a59637ce14182065617d85623a588b6f0',1,'MR::ViewerSettingsManager::Voxels'],['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37a59637ce14182065617d85623a588b6f0',1,'MR::Voxels']]]
+  ['voxels_12',['Voxels',['../classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76a59637ce14182065617d85623a588b6f0',1,'MR::ViewerSettingsManager::Voxels()'],['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37a59637ce14182065617d85623a588b6f0',1,'MR::Voxels()']]]
 ];

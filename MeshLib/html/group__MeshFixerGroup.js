@@ -1,6 +1,6 @@
 var group__MeshFixerGroup =
 [
-    [ "MR::MultipleEdge", "group__MeshFixerGroup.html#gabc451bc8c65ecb5f6aa48ffa10b8f353", null ],
+    [ "MR::MultipleEdge", "group__MeshFixerGroup.html#ga807cd3d017d23c56a0f6ea1cb1f7c8cb", null ],
     [ "MR::duplicateMultiHoleVertices", "group__MeshFixerGroup.html#ga030e7fa6218d19042b2a5ae052055192", null ],
     [ "MR::eliminateDegree3Dest", "group__MeshFixerGroup.html#gace895a89502cb6fbf11e26b8c3e9773e", null ],
     [ "MR::eliminateDegree3Vertices", "group__MeshFixerGroup.html#ga819c36bfa5ce60675533f6e6eceeb7d9", null ],

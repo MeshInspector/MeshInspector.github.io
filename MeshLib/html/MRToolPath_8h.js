@@ -7,17 +7,17 @@ var MRToolPath_8h =
     [ "MR::GCommand", "structMR_1_1GCommand.html", "structMR_1_1GCommand" ],
     [ "MR::ToolPathResult", "structMR_1_1ToolPathResult.html", "structMR_1_1ToolPathResult" ],
     [ "ArcPlane", "MRToolPath_8h.html#ae1af7aec8f28c8e85182ca94f5802435", [
-      [ "None", "MRToolPath_8h.html#ae1af7aec8f28c8e85182ca94f5802435a6adf97f83acf6453d4a6a4b1070f3754", null ],
-      [ "XY", "MRToolPath_8h.html#ae1af7aec8f28c8e85182ca94f5802435a74c53bcd3dcb2bb79993b2fec37d362a", null ],
+      [ "None", "MRToolPath_8h.html#gga4412ea17fd4bcca4ad23e987f61c20aba6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "XY", "MRToolPath_8h.html#gga4412ea17fd4bcca4ad23e987f61c20aba74c53bcd3dcb2bb79993b2fec37d362a", null ],
       [ "XZ", "MRToolPath_8h.html#ae1af7aec8f28c8e85182ca94f5802435a27db3b98d01e664c17a6620b222c6469", null ],
-      [ "YZ", "MRToolPath_8h.html#ae1af7aec8f28c8e85182ca94f5802435affa4ba973372c3650fd0881abeca6512", null ]
+      [ "YZ", "MRToolPath_8h.html#gga4412ea17fd4bcca4ad23e987f61c20abaffa4ba973372c3650fd0881abeca6512", null ]
     ] ],
     [ "BypassDirection", "MRToolPath_8h.html#a496117b22a6f09546f0037fb4b5d43aa", [
       [ "Clockwise", "MRToolPath_8h.html#a496117b22a6f09546f0037fb4b5d43aaaba360a794737bcc8657a5b6e870d7ba8", null ],
       [ "CounterClockwise", "MRToolPath_8h.html#a496117b22a6f09546f0037fb4b5d43aaa8f23635f9ec49db2161fc5cddf033a79", null ]
     ] ],
     [ "MoveType", "MRToolPath_8h.html#a88f1fdd848610bc41226918baa28e601", [
-      [ "None", "MRToolPath_8h.html#a88f1fdd848610bc41226918baa28e601a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "None", "MRToolPath_8h.html#gga4412ea17fd4bcca4ad23e987f61c20aba6adf97f83acf6453d4a6a4b1070f3754", null ],
       [ "FastLinear", "MRToolPath_8h.html#a88f1fdd848610bc41226918baa28e601a7c45b71678fb35e216cb6bd78280e1e2", null ],
       [ "Linear", "MRToolPath_8h.html#a88f1fdd848610bc41226918baa28e601a32a843da6ea40ab3b17a3421ccdf671b", null ],
       [ "ArcCW", "MRToolPath_8h.html#a88f1fdd848610bc41226918baa28e601aa9479796fed0e84208885bc83352c5ea", null ],

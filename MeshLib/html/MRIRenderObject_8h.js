@@ -5,7 +5,7 @@ var MRIRenderObject_8h =
     [ "MR::IRenderObject", "classMR_1_1IRenderObject.html", "classMR_1_1IRenderObject" ],
     [ "MR::RegisterRenderObjectConstructor", "classMR_1_1RegisterRenderObjectConstructor.html", "classMR_1_1RegisterRenderObjectConstructor" ],
     [ "MR_REGISTER_RENDER_OBJECT_IMPL", "MRIRenderObject_8h.html#a2aa3e4f195eff66612f2c2404130cdc3", null ],
-    [ "IRenderObjectConstructorLambda", "MRIRenderObject_8h.html#a801810876bff73403d8afdb3cb7a4731", null ],
+    [ "IRenderObjectConstructorLambda", "MRIRenderObject_8h.html#afc02233a2faf078043272c3e1fccb080", null ],
     [ "DepthFuncion", "MRIRenderObject_8h.html#ae3249e80a5322781826980a69c28aee6", [
       [ "Never", "MRIRenderObject_8h.html#ae3249e80a5322781826980a69c28aee6a6e7b34fa59e1bd229b207892956dc41c", null ],
       [ "Less", "MRIRenderObject_8h.html#ae3249e80a5322781826980a69c28aee6a1cfdf0e8d0c87a228c1f40d9bee7888b", null ],

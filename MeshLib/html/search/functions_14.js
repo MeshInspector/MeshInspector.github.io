@@ -59,7 +59,7 @@ var searchData=
   ['updatesolver_56',['updateSolver',['../classMR_1_1Laplacian.html#a3e7bb340acaa3ef81fe7ed9f5eaaf226',1,'MR::Laplacian']]],
   ['updatetexture_57',['updateTexture',['../classMR_1_1ObjectMeshHolder.html#a7d8ccbacd34617a32e301270d7db8a6c',1,'MR::ObjectMeshHolder']]],
   ['updatethemes_58',['updateThemes',['../classMR_1_1ViewerSettingsPlugin.html#abb15c0c1b70bb9ff91021e28f50a7b15',1,'MR::ViewerSettingsPlugin']]],
-  ['updatetranslation_59',['updateTranslation',['../classMR_1_1ITransformControls.html#a7a3eb7a0414b0af2e09d8be03d83ff6d',1,'MR::ITransformControls::updateTranslation()'],['../classMR_1_1TransformControls.html#acc66a1e46f1d46262c7d408d0003654d',1,'MR::TransformControls::updateTranslation()']]],
+  ['updatetranslation_59',['updateTranslation',['../classMR_1_1TransformControls.html#acc66a1e46f1d46262c7d408d0003654d',1,'MR::TransformControls::updateTranslation()'],['../classMR_1_1ITransformControls.html#a7a3eb7a0414b0af2e09d8be03d83ff6d',1,'MR::ITransformControls::updateTranslation()']]],
   ['updatetransparencytexturessize_60',['updateTransparencyTexturesSize',['../classMR_1_1AlphaSortGL.html#aab9cdfaf33634bcf9bae0eec5a82ebb9',1,'MR::AlphaSortGL']]],
   ['updateuvcoords_61',['updateUVCoords',['../classMR_1_1ObjectMeshHolder.html#a47088bf32314b542fdbe1975b00d6759',1,'MR::ObjectMeshHolder']]],
   ['updatevdbvolume_62',['updateVdbVolume',['../classMR_1_1ObjectVoxels.html#aa2cc2fe9f238d2f29c8dffb80ebc675f',1,'MR::ObjectVoxels']]],
