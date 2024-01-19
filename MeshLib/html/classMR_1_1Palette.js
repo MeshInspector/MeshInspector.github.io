@@ -3,7 +3,7 @@ var classMR_1_1Palette =
     [ "Label", "structMR_1_1Palette_1_1Label.html", "structMR_1_1Palette_1_1Label" ],
     [ "Parameters", "structMR_1_1Palette_1_1Parameters.html", "structMR_1_1Palette_1_1Parameters" ],
     [ "Palette", "classMR_1_1Palette.html#a16b8a71ea5f75f665b1fa1c24368dba3", null ],
-    [ "draw", "classMR_1_1Palette.html#a932b5ee0282cb3b74f818eac0b4c17b3", null ],
+    [ "draw", "classMR_1_1Palette.html#a60c0b29649708063e1a0a25347ca1492", null ],
     [ "getColor", "classMR_1_1Palette.html#a44baf44df30e6547a9977e95eccf618d", null ],
     [ "getMaxLabelCount", "classMR_1_1Palette.html#a10a9188c6a6137b814291dc2e1d2073a", null ],
     [ "getParameters", "classMR_1_1Palette.html#ae671c94ed6f4eeef20db89a5629fa698", null ],

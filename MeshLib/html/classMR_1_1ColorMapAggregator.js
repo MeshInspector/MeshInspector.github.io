@@ -1,7 +1,7 @@
 var classMR_1_1ColorMapAggregator =
 [
     [ "PartialColorMap", "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html", "structMR_1_1ColorMapAggregator_1_1PartialColorMap" ],
-    [ "ColorMap", "classMR_1_1ColorMapAggregator.html#afa33adf3c667c225aecde8161eefabd2", null ],
+    [ "ColorMap", "classMR_1_1ColorMapAggregator.html#a20df43a4a312f6aa3f049476f78584d6", null ],
     [ "ElementBitSet", "classMR_1_1ColorMapAggregator.html#a29857a8d38bc30a22d092fdc3c8632df", null ],
     [ "AggregateMode", "classMR_1_1ColorMapAggregator.html#ab256b40e5b8b82eac72187cf3cc0712a", [
       [ "Overlay", "classMR_1_1ColorMapAggregator.html#ab256b40e5b8b82eac72187cf3cc0712aa6b551379c3c0b59326abdaf3b4395bd3", null ],

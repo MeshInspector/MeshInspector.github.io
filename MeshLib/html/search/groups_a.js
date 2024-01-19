@@ -1,20 +1,12 @@
 var searchData=
 [
-  ['math_20group_0',['Math group',['../group__MathGroup.html',1,'']]],
-  ['matrix_1',['Matrix',['../group__MatrixGroup.html',1,'']]],
-  ['mesh_2',['Mesh',['../group__MeshGroup.html',1,'']]],
-  ['mesh_20algorithm_3',['Mesh Algorithm',['../group__MeshAlgorithmGroup.html',1,'']]],
-  ['mesh_20delete_4',['Mesh Delete',['../group__MeshDeleteGroup.html',1,'']]],
-  ['mesh_20delone_5',['Mesh Delone',['../group__MeshDeloneGroup.html',1,'']]],
-  ['mesh_20eigen_6',['Mesh Eigen',['../group__MeshEigenGroup.html',1,'']]],
-  ['mesh_20fixer_7',['Mesh Fixer',['../group__MeshFixerGroup.html',1,'']]],
-  ['mesh_20load_8',['Mesh Load',['../group__GcodeLoadGroup.html',1,'(Global Namespace)'],['../group__MeshLoadGroup.html',1,'(Global Namespace)']]],
-  ['mesh_20load_20obj_9',['Mesh Load Obj',['../group__MeshLoadObjGroup.html',1,'']]],
-  ['mesh_20normals_10',['Mesh Normals',['../group__MeshNormalsGroup.html',1,'']]],
-  ['mesh_20relax_11',['Mesh Relax',['../group__MeshRelaxGroup.html',1,'']]],
-  ['mesh_20save_12',['Mesh Save',['../group__MeshSaveGroup.html',1,'']]],
-  ['mesh_20save_20obj_13',['Mesh Save Obj',['../group__MeshSaveObjGroup.html',1,'']]],
-  ['mesh_20segmentation_20overwiev_14',['Mesh Segmentation overwiev',['../group__MeshSegmentationGroup.html',1,'']]],
-  ['mesh_20subdivide_15',['Mesh Subdivide',['../group__MeshSubdivideGroup.html',1,'']]],
-  ['meshcomponents_16',['MeshComponents',['../group__MeshComponentsGroup.html',1,'']]]
+  ['image_20load_0',['Image Load',['../group__ImageLoadGroup.html',1,'']]],
+  ['image_20save_1',['Image Save',['../group__ImageSaveGroup.html',1,'']]],
+  ['indexer_2',['Volume Indexer',['../group__VolumeIndexerGroup.html',1,'']]],
+  ['input_20output_3',['Input/Output',['../group__IOGroup.html',1,'']]],
+  ['intersection_4',['Intersection',['../group__IntersectionGroup.html',1,'Intersection'],['../group__RayBoxIntersectionGroup.html',1,'Ray Box Intersection']]],
+  ['intersection_5',['Triangle intersection',['../group__TriangleIntersectionGroup.html',1,'']]],
+  ['io_20filters_6',['IO Filters',['../group__IOFiltersGroup.html',1,'']]],
+  ['io_20formats_20registry_7',['IO Formats Registry',['../group__IOFormatsRegistryGroup.html',1,'']]],
+  ['iterators_8',['Iterators',['../group__IteratorRange.html',1,'']]]
 ];

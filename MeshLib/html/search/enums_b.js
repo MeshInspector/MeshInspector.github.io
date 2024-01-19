@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['patherror_0',['PathError',['../group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8',1,'MR']]],
-  ['pathpreference_1',['PathPreference',['../namespaceMR.html#ad7e1f7039c3adef672abd4150bc4786c',1,'MR']]],
-  ['positiontype_2',['PositionType',['../classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2',1,'MR::SurfacePointWidget']]],
-  ['preset_3',['Preset',['../classMR_1_1ColorTheme.html#abbecc6afa53db91ada45757b845b5514',1,'MR::ColorTheme']]],
-  ['processoneresult_4',['ProcessOneResult',['../group__AABBTreeGroup.html#ga3dd2fd9fcc06b6502d22a9ea3eb63e47',1,'MR']]]
+  ['objectselectivitytype_0',['ObjectSelectivityType',['../group__DataModelGroup.html#ga1ab156c0351dfcd112a67a72e485f123',1,'MR']]],
+  ['objtype_1',['ObjType',['../classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76',1,'MR::ViewerSettingsManager']]],
+  ['offsettype_2',['OffsetType',['../structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178',1,'MR::ContoursDistanceMapOffset']]],
+  ['outedge_3',['OutEdge',['../group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e',1,'MR']]],
+  ['outedge2_4',['OutEdge2',['../group__DistanceMapGroup.html#gab7acb4543154d042c297e5823fb633b6',1,'MR']]]
 ];

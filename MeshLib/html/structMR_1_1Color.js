@@ -7,7 +7,7 @@ var structMR_1_1Color =
     [ "Color", "structMR_1_1Color.html#a2879fe1d429706d60bf61dba5073b28d", null ],
     [ "Color", "structMR_1_1Color.html#aeb10dfddd28274eab02133fe4bfb2f61", null ],
     [ "getUInt32", "structMR_1_1Color.html#a97a5b103a46bec5a9f09026fb693bb67", null ],
-    [ "operator Vector4< T >", "structMR_1_1Color.html#a2108d077b165c7dda13eeb88a1b95a41", null ],
+    [ "operator Vector4< T >", "structMR_1_1Color.html#a81bd34e112d9fcde01fd52f922966f2f", null ],
     [ "operator*=", "structMR_1_1Color.html#aec1e7daf3ecd5715157f118516cf17c7", null ],
     [ "operator+=", "structMR_1_1Color.html#a91d690a2375168d047a346239b7c38b7", null ],
     [ "operator-=", "structMR_1_1Color.html#a52c442cda61f9c17b52534a4f2358c62", null ],

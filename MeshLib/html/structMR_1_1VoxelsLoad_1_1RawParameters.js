@@ -11,6 +11,7 @@ var structMR_1_1VoxelsLoad_1_1RawParameters =
       [ "Int64", "structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bafbde23b11d7e59af7828e81144c8b487", null ],
       [ "Float32", "structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529ba166495adc0d0f53bee6baecc577f5204", null ],
       [ "Float64", "structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bad2b556d8a8f5c8ac323f51a4b82e79a0", null ],
+      [ "Float32_4", "structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529ba3dced80f38319c510aa418c1dee5e142", null ],
       [ "Unknown", "structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529ba88183b946cc5f0e8c96b2e66e1c74a7e", null ],
       [ "Count", "structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],

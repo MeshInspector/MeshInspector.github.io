@@ -26,12 +26,8 @@ var hierarchy =
       [ "MR::ViewportGL::PickResult", "structMR_1_1ViewportGL_1_1PickResult.html", null ]
     ] ],
     [ "MR::BaseRenderParams", "structMR_1_1BaseRenderParams.html", [
-      [ "MR::RenderParams", "structMR_1_1RenderParams.html", null ]
-    ] ],
-    [ "MR::ViewportGL::BaseRenderParams", "structMR_1_1ViewportGL_1_1BaseRenderParams.html", [
-      [ "MR::ImmediateGL::RenderParams", "structMR_1_1ImmediateGL_1_1RenderParams.html", null ],
-      [ "MR::ImmediateGL::TriRenderParams", "structMR_1_1ImmediateGL_1_1TriRenderParams.html", null ],
-      [ "MR::ViewportGL::RenderParams", "structMR_1_1ViewportGL_1_1RenderParams.html", null ]
+      [ "MR::ModelRenderParams", "structMR_1_1ModelRenderParams.html", null ],
+      [ "MR::Viewport::LinePointImmediateRenderParams", "structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html", null ]
     ] ],
     [ "MR::BaseShellParameters", "structMR_1_1BaseShellParameters.html", [
       [ "MR::OffsetParameters", "structMR_1_1OffsetParameters.html", [
@@ -46,6 +42,13 @@ var hierarchy =
     [ "MR::WatershedGraph::BasinInfo", "structMR_1_1WatershedGraph_1_1BasinInfo.html", null ],
     [ "MR::BasinVolumeCalculator", "classMR_1_1BasinVolumeCalculator.html", null ],
     [ "MR::WatershedGraph::BdInfo", "structMR_1_1WatershedGraph_1_1BdInfo.html", null ],
+    [ "MR::Features::Traits::Binary< A, B >", "structMR_1_1Features_1_1Traits_1_1Binary.html", null ],
+    [ "MR::Features::Traits::Binary< Primitives::ConeSegment, Primitives::ConeSegment >", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4.html", null ],
+    [ "MR::Features::Traits::Binary< Primitives::ConeSegment, Primitives::Sphere >", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4.html", null ],
+    [ "MR::Features::Traits::Binary< Primitives::Plane, Primitives::ConeSegment >", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html", null ],
+    [ "MR::Features::Traits::Binary< Primitives::Plane, Primitives::Plane >", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html", null ],
+    [ "MR::Features::Traits::Binary< Primitives::Plane, Primitives::Sphere >", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html", null ],
+    [ "MR::Features::Traits::Binary< Primitives::Sphere, Primitives::Sphere >", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html", null ],
     [ "MR::BindVertexAttribArraySettings", "structMR_1_1BindVertexAttribArraySettings.html", null ],
     [ "MR::BMap< T, I >", "structMR_1_1BMap.html", null ],
     [ "MR::BMap< FaceId, FaceId >", "structMR_1_1BMap.html", null ],
@@ -77,6 +80,10 @@ var hierarchy =
     [ "MR::ColorTheme", "classMR_1_1ColorTheme.html", null ],
     [ "MR::CommandLoop", "classMR_1_1CommandLoop.html", null ],
     [ "MR::ComputeSteepestDescentPathSettings", "structMR_1_1ComputeSteepestDescentPathSettings.html", null ],
+    [ "MR::Cone3< T >", "classMR_1_1Cone3.html", null ],
+    [ "MR::Cone3Approximation< T >", "classMR_1_1Cone3Approximation.html", null ],
+    [ "MR::ConeFittingFunctor< T >", "structMR_1_1ConeFittingFunctor.html", null ],
+    [ "MR::Features::Primitives::ConeSegment", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html", null ],
     [ "MR::Config", "classMR_1_1Config.html", null ],
     [ "Connectables", null, [
       [ "MR::MultiListener< PreDrawListener, DrawListener, InterruptCloseListener >", "structMR_1_1MultiListener.html", [
@@ -102,7 +109,7 @@ var hierarchy =
           [ "MR::ViewerSettingsPlugin", "classMR_1_1ViewerSettingsPlugin.html", null ]
         ] ]
       ] ],
-      [ "MR::MultiListener< MouseDownListener, MouseMoveListener, MouseUpListener, PreDrawListener, DrawListener >", "structMR_1_1MultiListener.html", [
+      [ "MR::MultiListener< MouseDownListener, MouseMoveListener, MouseUpListener, PreDrawListener, PostDrawListener >", "structMR_1_1MultiListener.html", [
         [ "MR::ObjectTransformWidget", "classMR_1_1ObjectTransformWidget.html", null ]
       ] ],
       [ "MR::MultiListener< DragDropListener >", "structMR_1_1MultiListener.html", [
@@ -155,6 +162,7 @@ var hierarchy =
     [ "MR::DirectoryRecursiveIterator", "structMR_1_1DirectoryRecursiveIterator.html", null ],
     [ "MR::Dirty", "structMR_1_1Dirty.html", null ],
     [ "MR::DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html", null ],
+    [ "MR::Features::DistanceResult", "structMR_1_1Features_1_1DistanceResult.html", null ],
     [ "MR::DistanceVolumeParams", "structMR_1_1DistanceVolumeParams.html", [
       [ "MR::MeshToDistanceVolumeParams", "structMR_1_1MeshToDistanceVolumeParams.html", null ]
     ] ],
@@ -187,6 +195,16 @@ var hierarchy =
     [ "MR::MeshBuilder::equalVector3f", "structMR_1_1MeshBuilder_1_1equalVector3f.html", null ],
     [ "MR::FaceFace", "structMR_1_1FaceFace.html", null ],
     [ "MR::MeshBuilder::FaceRecord", "structMR_1_1MeshBuilder_1_1FaceRecord.html", null ],
+    [ "MR::FeatureObject", "structMR_1_1FeatureObject.html", [
+      [ "MR::CircleObject", "classMR_1_1CircleObject.html", null ],
+      [ "MR::ConeObject", "classMR_1_1ConeObject.html", null ],
+      [ "MR::CylinderObject", "classMR_1_1CylinderObject.html", null ],
+      [ "MR::LineObject", "classMR_1_1LineObject.html", null ],
+      [ "MR::PlaneObject", "classMR_1_1PlaneObject.html", null ],
+      [ "MR::PointObject", "classMR_1_1PointObject.html", null ],
+      [ "MR::SphereObject", "classMR_1_1SphereObject.html", null ]
+    ] ],
+    [ "MR::FeatureObjectSharedProperty", "structMR_1_1FeatureObjectSharedProperty.html", null ],
     [ "MR::FewSmallest< T >", "classMR_1_1FewSmallest.html", null ],
     [ "MR::File", "classMR_1_1File.html", null ],
     [ "MR::FileParameters", "structMR_1_1FileParameters.html", null ],
@@ -423,7 +441,6 @@ var hierarchy =
     [ "MR::Line< T >", "structMR_1_1Line.html", null ],
     [ "MR::LineInterpolationParams", "structMR_1_1LineInterpolationParams.html", null ],
     [ "MR::LineSegm< V >", "structMR_1_1LineSegm.html", null ],
-    [ "MR::LineSegm< T >", "structMR_1_1LineSegm.html", null ],
     [ "MR::VoxelsLoad::LoadDCMResult", "structMR_1_1VoxelsLoad_1_1LoadDCMResult.html", null ],
     [ "MR::VoxelsLoad::LoadingTiffSettings", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html", null ],
     [ "MR::Logger", "classMR_1_1Logger.html", null ],
@@ -496,6 +513,7 @@ var hierarchy =
             [ "MR::ObjectLines", "classMR_1_1ObjectLines.html", null ]
           ] ],
           [ "MR::ObjectMeshHolder", "classMR_1_1ObjectMeshHolder.html", [
+            [ "MR::ConeObject", "classMR_1_1ConeObject.html", null ],
             [ "MR::CylinderObject", "classMR_1_1CylinderObject.html", null ],
             [ "MR::ObjectDistanceMap", "classMR_1_1ObjectDistanceMap.html", null ],
             [ "MR::ObjectMesh", "classMR_1_1ObjectMesh.html", null ],
@@ -532,6 +550,7 @@ var hierarchy =
     [ "MR::Pdf", "classMR_1_1Pdf.html", null ],
     [ "MR::PdfParameters", "structMR_1_1PdfParameters.html", null ],
     [ "MR::ViewportGL::PickParameters", "structMR_1_1ViewportGL_1_1PickParameters.html", null ],
+    [ "MR::Features::Primitives::Plane", "structMR_1_1Features_1_1Primitives_1_1Plane.html", null ],
     [ "MR::Plane3< T >", "structMR_1_1Plane3.html", null ],
     [ "MR::Plane3< float >", "structMR_1_1Plane3.html", null ],
     [ "MR::PlaneAccumulator", "classMR_1_1PlaneAccumulator.html", null ],
@@ -607,6 +626,8 @@ var hierarchy =
     [ "MR::RibbonMenuItemAdder< T >", "structMR_1_1RibbonMenuItemAdder.html", null ],
     [ "MR::RibbonMenuItemCall< T >", "structMR_1_1RibbonMenuItemCall.html", null ],
     [ "MR::RibbonMenuSearch", "classMR_1_1RibbonMenuSearch.html", null ],
+    [ "MR::RibbonNotification", "structMR_1_1RibbonNotification.html", null ],
+    [ "MR::RibbonNotifier", "classMR_1_1RibbonNotifier.html", null ],
     [ "MR::RibbonSchema", "structMR_1_1RibbonSchema.html", null ],
     [ "MR::RibbonSchemaHolder", "classMR_1_1RibbonSchemaHolder.html", null ],
     [ "MR::RibbonSchemaLoader", "classMR_1_1RibbonSchemaLoader.html", null ],
@@ -681,6 +702,7 @@ var hierarchy =
     [ "MR::SymMatrix2< T >", "structMR_1_1SymMatrix2.html", null ],
     [ "MR::SymMatrix3< T >", "structMR_1_1SymMatrix3.html", null ],
     [ "MR::SymMatrix3< double >", "structMR_1_1SymMatrix3.html", null ],
+    [ "MR::SymMatrix4< T >", "structMR_1_1SymMatrix4.html", null ],
     [ "T", null, [
       [ "MR::NoDefInit< T >", "structMR_1_1NoDefInit.html", null ]
     ] ],
@@ -694,16 +716,19 @@ var hierarchy =
     [ "MR::ToolPathResult", "structMR_1_1ToolPathResult.html", null ],
     [ "MR::TouchpadParameters", "structMR_1_1TouchpadParameters.html", null ],
     [ "MR::TransformedMesh", "structMR_1_1TransformedMesh.html", null ],
-    [ "MR::ImmediateGL::Tri", "structMR_1_1ImmediateGL_1_1Tri.html", null ],
     [ "MR::MeshBuilder::Triangle", "structMR_1_1MeshBuilder_1_1Triangle.html", null ],
     [ "MR::TriangleSegmentIntersectResult", "structMR_1_1TriangleSegmentIntersectResult.html", null ],
     [ "MR::TriangulationHelpers::TriangulatedFanData", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html", null ],
     [ "MR::TriangulationParameters", "structMR_1_1TriangulationParameters.html", null ],
-    [ "MR::ImmediateGL::TriCornerColors", "structMR_1_1ImmediateGL_1_1TriCornerColors.html", null ],
+    [ "MR::Viewport::TriCornerColors", "structMR_1_1Viewport_1_1TriCornerColors.html", null ],
     [ "MR::TriIntersectResult", "structMR_1_1TriIntersectResult.html", null ],
     [ "MR::TriPoint< T >", "structMR_1_1TriPoint.html", null ],
     [ "MR::TriPoint< float >", "structMR_1_1TriPoint.html", null ],
     [ "MR::TrivialMetricToPenalty", "structMR_1_1TrivialMetricToPenalty.html", null ],
+    [ "MR::Features::Traits::Unary< T >", "structMR_1_1Features_1_1Traits_1_1Unary.html", null ],
+    [ "MR::Features::Traits::Unary< Primitives::ConeSegment >", "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html", null ],
+    [ "MR::Features::Traits::Unary< Primitives::Plane >", "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html", null ],
+    [ "MR::Features::Traits::Unary< Primitives::Sphere >", "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html", null ],
     [ "MR::UndirectedEdgeIterator", "classMR_1_1UndirectedEdgeIterator.html", null ],
     [ "MR::UndirectedEdgeUndirectedEdge", "structMR_1_1UndirectedEdgeUndirectedEdge.html", null ],
     [ "MR::UniformSamplingSettings", "structMR_1_1UniformSamplingSettings.html", null ],

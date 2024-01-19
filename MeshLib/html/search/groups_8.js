@@ -1,10 +1,5 @@
 var searchData=
 [
-  ['image_20load_0',['Image Load',['../group__ImageLoadGroup.html',1,'']]],
-  ['image_20save_1',['Image Save',['../group__ImageSaveGroup.html',1,'']]],
-  ['input_2foutput_2',['Input/Output',['../group__IOGroup.html',1,'']]],
-  ['intersection_3',['Intersection',['../group__IntersectionGroup.html',1,'']]],
-  ['io_20filters_4',['IO Filters',['../group__IOFiltersGroup.html',1,'']]],
-  ['io_20formats_20registry_5',['IO Formats Registry',['../group__IOFormatsRegistryGroup.html',1,'']]],
-  ['iterators_6',['Iterators',['../group__IteratorRange.html',1,'']]]
+  ['group_0',['group',['../group__DistanceMapGroup.html',1,'Distance Map group'],['../group__HistoryGroup.html',1,'History group'],['../group__MathGroup.html',1,'Math group'],['../group__ViewportGroup.html',1,'Viewport group'],['../group__VisualObjectGroup.html',1,'Visual Object group']]],
+  ['group_20surface_20distance_20builder_1',['Group Surface Distance Builder',['../group__SurfaceDistanceBuilder.html',1,'']]]
 ];

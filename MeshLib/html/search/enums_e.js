@@ -1,18 +1,12 @@
 var searchData=
 [
-  ['sampletype_0',['SampleType',['../structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862f',1,'MR::BaseTiffParameters']]],
-  ['scalartype_1',['ScalarType',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529b',1,'MR::VoxelsLoad::RawParameters']]],
-  ['seedtype_2',['SeedType',['../classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5',1,'MR::VolumeSegmenter']]],
-  ['shadertype_3',['ShaderType',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748',1,'MR::GLStaticHolder']]],
-  ['shadingtype_4',['ShadingType',['../structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cf',1,'MR::ObjectVoxels::VolumeRenderingParams']]],
-  ['side_5',['Side',['../namespaceMR.html#a494f6ca56c512e886474f7209f624c48',1,'MR']]],
-  ['signdetectionmode_6',['SignDetectionMode',['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309',1,'MR']]],
-  ['signeddetectionmethod_7',['SignedDetectionMethod',['../structMR_1_1ContoursDistanceMapOptions.html#a8338b4b187db812314a5890ccf5e6ec6',1,'MR::ContoursDistanceMapOptions']]],
-  ['sizetype_8',['SizeType',['../structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785ae',1,'MR::DrawButtonParams']]],
-  ['sliceplane_9',['SlicePlane',['../group__VoxelPathGroup.html#ga4412ea17fd4bcca4ad23e987f61c20ab',1,'MR']]],
-  ['spacemousebuttons_10',['SpaceMouseButtons',['../namespaceMR.html#acad54447072489545d11f4ee251429e6',1,'MR']]],
-  ['startposition_11',['StartPosition',['../classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39',1,'MR::CommandLoop']]],
-  ['stateplugintabs_12',['StatePluginTabs',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37',1,'MR']]],
-  ['streamtype_13',['StreamType',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1d',1,'MRPython.h']]],
-  ['swipemode_14',['SwipeMode',['../structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadce',1,'MR::TouchpadParameters']]]
+  ['reason_0',['Reason',['../classMR_1_1ShortcutManager.html#a1a85baae28af51cf7825c2099b693c1b',1,'MR::ShortcutManager']]],
+  ['relaxapproxtype_1',['RelaxApproxType',['../namespaceMR.html#a6ab288ae813e1aa688312e31c258df71',1,'MR']]],
+  ['remembershape_2',['RememberShape',['../classMR_1_1Laplacian.html#a67c8dfc7669f41712a92d21d5ec99fed',1,'MR::Laplacian']]],
+  ['reorder_3',['Reorder',['../namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9',1,'MR']]],
+  ['ribboncolorstype_4',['RibbonColorsType',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0',1,'MR::ColorTheme']]],
+  ['ribbonitemtype_5',['RibbonItemType',['../namespaceMR.html#a1478e43a90bad95d9ef709807606688a',1,'MR']]],
+  ['roottype_6',['RootType',['../structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84dae',1,'MR::DrawButtonParams']]],
+  ['rotationaxisname_7',['RotationAxisName',['../classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79a',1,'MR::CNCMachineSettings']]],
+  ['rotationcentermode_8',['RotationCenterMode',['../structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780b',1,'MR::Viewport::Parameters']]]
 ];

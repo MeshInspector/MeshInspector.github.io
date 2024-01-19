@@ -80,5 +80,6 @@ var searchData=
   ['symbolmeshparams_77',['SymbolMeshParams',['../structMR_1_1SymbolMeshParams.html',1,'MR']]],
   ['symmatrix2_78',['SymMatrix2',['../structMR_1_1SymMatrix2.html',1,'MR']]],
   ['symmatrix3_79',['SymMatrix3',['../structMR_1_1SymMatrix3.html',1,'MR']]],
-  ['symmatrix3_3c_20double_20_3e_80',['SymMatrix3&lt; double &gt;',['../structMR_1_1SymMatrix3.html',1,'MR']]]
+  ['symmatrix3_3c_20double_20_3e_80',['SymMatrix3&lt; double &gt;',['../structMR_1_1SymMatrix3.html',1,'MR']]],
+  ['symmatrix4_81',['SymMatrix4',['../structMR_1_1SymMatrix4.html',1,'MR']]]
 ];

@@ -22,10 +22,11 @@ var searchData=
   ['dirty_19',['Dirty',['../structMR_1_1Dirty.html',1,'MR']]],
   ['distancemap_20',['DistanceMap',['../classMR_1_1DistanceMap.html',1,'MR']]],
   ['distancemaptoworld_21',['DistanceMapToWorld',['../structMR_1_1DistanceMapToWorld.html',1,'MR']]],
-  ['distancevolumeparams_22',['DistanceVolumeParams',['../structMR_1_1DistanceVolumeParams.html',1,'MR']]],
-  ['distmapimprovedirectionparameters_23',['DistMapImproveDirectionParameters',['../structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html',1,'MR::FixUndercuts']]],
-  ['dragdroplistener_24',['DragDropListener',['../structMR_1_1DragDropListener.html',1,'MR']]],
-  ['drawbuttonparams_25',['DrawButtonParams',['../structMR_1_1DrawButtonParams.html',1,'MR']]],
-  ['drawgroupconfig_26',['DrawGroupConfig',['../structMR_1_1RibbonMenu_1_1DrawGroupConfig.html',1,'MR::RibbonMenu']]],
-  ['drawlistener_27',['DrawListener',['../structMR_1_1DrawListener.html',1,'MR']]]
+  ['distanceresult_22',['DistanceResult',['../structMR_1_1Features_1_1DistanceResult.html',1,'MR::Features']]],
+  ['distancevolumeparams_23',['DistanceVolumeParams',['../structMR_1_1DistanceVolumeParams.html',1,'MR']]],
+  ['distmapimprovedirectionparameters_24',['DistMapImproveDirectionParameters',['../structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html',1,'MR::FixUndercuts']]],
+  ['dragdroplistener_25',['DragDropListener',['../structMR_1_1DragDropListener.html',1,'MR']]],
+  ['drawbuttonparams_26',['DrawButtonParams',['../structMR_1_1DrawButtonParams.html',1,'MR']]],
+  ['drawgroupconfig_27',['DrawGroupConfig',['../structMR_1_1RibbonMenu_1_1DrawGroupConfig.html',1,'MR::RibbonMenu']]],
+  ['drawlistener_28',['DrawListener',['../structMR_1_1DrawListener.html',1,'MR']]]
 ];

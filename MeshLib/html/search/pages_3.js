@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['integration_0',['Integration',['../Integration.html',1,'']]]
+  ['examples_0',['Examples',['../HowToBasic.html',1,'']]]
 ];

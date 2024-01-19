@@ -1,11 +1,13 @@
 var structMR_1_1Vector4 =
 [
     [ "MatrixType", "structMR_1_1Vector4.html#aecd18b3e13e9b87796242a04883f0592", null ],
+    [ "SymMatrixType", "structMR_1_1Vector4.html#a7e8e73c7399e2f377d577c269193a4a0", null ],
     [ "ValueType", "structMR_1_1Vector4.html#a458502d7f4776a6bddef3495ad567541", null ],
     [ "Vector4", "structMR_1_1Vector4.html#ae5b8ac0b6c0e0a39fc6983c0fea0a016", null ],
     [ "Vector4", "structMR_1_1Vector4.html#aafbd3a5d87c94ba9cfc522b7e570d82a", null ],
     [ "Vector4", "structMR_1_1Vector4.html#a66a8f1480a9225ab25c5a97cf5c24c0a", null ],
     [ "Vector4", "structMR_1_1Vector4.html#a67f187692acd3476394b8db347e86843", null ],
+    [ "isFinite", "structMR_1_1Vector4.html#ab6d60f18c69d659dc87d4b8be84a073b", null ],
     [ "length", "structMR_1_1Vector4.html#a212fbeb90bb644212fcd692856fd3db3", null ],
     [ "lengthSq", "structMR_1_1Vector4.html#a2dd22ed3ae33f32c5110d16e149d10c1", null ],
     [ "normalized", "structMR_1_1Vector4.html#a01847c57031abdd928c1f61744041cb9", null ],

@@ -9,6 +9,7 @@ var structMR_1_1Vector3 =
     [ "Vector3", "structMR_1_1Vector3.html#accacc05b5f2af477f9cbf09f9d8f48f8", null ],
     [ "Vector3", "structMR_1_1Vector3.html#ad61b88bc9db8f4f19652d6fe5f3f6b09", null ],
     [ "furthestBasisVector", "structMR_1_1Vector3.html#aef52fe557a6a536a11a3fbfcd18eaf16", null ],
+    [ "isFinite", "structMR_1_1Vector3.html#a42a6a58414ddf6804bf51f6346b4665f", null ],
     [ "length", "structMR_1_1Vector3.html#aaaf44bd9fab3deb7e22551e316fc6a7f", null ],
     [ "lengthSq", "structMR_1_1Vector3.html#aedb5f8de6324a8ee5e71243c4b67104c", null ],
     [ "normalized", "structMR_1_1Vector3.html#ac61c07811df0f193e3462b3201ef1daf", null ],

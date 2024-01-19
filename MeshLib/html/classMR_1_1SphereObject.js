@@ -7,6 +7,7 @@ var classMR_1_1SphereObject =
     [ "SphereObject", "classMR_1_1SphereObject.html#a0756a482bc3f5e18d1e16940c05b1545", null ],
     [ "clone", "classMR_1_1SphereObject.html#a0f12c8dd3509baa2cb33bf45e476124a", null ],
     [ "deserializeModel_", "classMR_1_1SphereObject.html#a34d0340ec916b7f2c247a047dfd7c5b3", null ],
+    [ "getAllSharedProperties", "classMR_1_1SphereObject.html#acce34bc20a869d63c5301aec1204533e", null ],
     [ "getCenter", "classMR_1_1SphereObject.html#af71c349852979bb96924945bd3eb0d86", null ],
     [ "getClassName", "classMR_1_1SphereObject.html#a1e97d8fea065449a5da3f204f8230678", null ],
     [ "getRadius", "classMR_1_1SphereObject.html#ab21fb3f4f4cdf688d1f1b7bc2cc42fd5", null ],

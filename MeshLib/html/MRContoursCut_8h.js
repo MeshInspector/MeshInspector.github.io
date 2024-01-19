@@ -4,7 +4,7 @@ var MRContoursCut_8h =
     [ "MR::OneMeshIntersection", "structMR_1_1OneMeshIntersection.html", "structMR_1_1OneMeshIntersection" ],
     [ "MR::OneMeshContour", "structMR_1_1OneMeshContour.html", "structMR_1_1OneMeshContour" ],
     [ "MR::SearchPathSettings", "structMR_1_1SearchPathSettings.html", "structMR_1_1SearchPathSettings" ],
-    [ "OneMeshContours", "MRContoursCut_8h.html#ga97b0e17fbf5a8ae17f107cf937d0b86b", null ],
+    [ "OneMeshContours", "MRContoursCut_8h.html#ga9ecf19b8a704c505e8026abe7e64e38a", null ],
     [ "convertMeshTriPointsToClosedContour", "MRContoursCut_8h.html#gab0f50227954ad79a6c446aea3c81c869", null ],
     [ "convertMeshTriPointsToMeshContour", "MRContoursCut_8h.html#ga75a5ecaa0b71ec23ac7d519651848ee9", null ],
     [ "convertSurfacePathsToMeshContours", "MRContoursCut_8h.html#ga9d5cd0e3c54003e08c1884a7895b3e74", null ],

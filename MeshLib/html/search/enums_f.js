@@ -1,6 +1,19 @@
 var searchData=
 [
-  ['texturetype_0',['TextureType',['../classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368',1,'MR::RibbonButtonDrawer']]],
-  ['tritype_1',['TriType',['../structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685',1,'MR::GridSettings']]],
-  ['type_2',['Type',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dc',1,'MR::SetViewPresetMenuItem::Type()'],['../classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9d',1,'MR::SetViewportConfigPresetMenuItem::Type()'],['../classMR_1_1ChangeObjectColorAction.html#aadf478d3d29a773bd02b96beae263a51',1,'MR::ChangeObjectColorAction::Type()'],['../classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1',1,'MR::ChangeSceneAction::Type()'],['../classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7',1,'MR::HistoryAction::Type()'],['../structMR_1_1OffsetContoursParams.html#af7ce0ff6c24247a435c6742c785db972',1,'MR::OffsetContoursParams::Type()'],['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3a',1,'MR::SceneColors::Type()'],['../classMR_1_1SceneSettings.html#ae472fad9782abf0cb2c7c6526a059911',1,'MR::SceneSettings::Type()'],['../structMR_1_1MeshToVolumeParams.html#a47dacbc5ca80bd9591ffea69c43b022e',1,'MR::MeshToVolumeParams::Type()'],['../classMR_1_1ColorTheme.html#ad14d75ef685e439c80487ba1d4c41eca',1,'MR::ColorTheme::Type()']]]
+  ['sampletype_0',['SampleType',['../structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862f',1,'MR::BaseTiffParameters']]],
+  ['scalartype_1',['ScalarType',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529b',1,'MR::VoxelsLoad::RawParameters']]],
+  ['seedtype_2',['SeedType',['../classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5',1,'MR::VolumeSegmenter']]],
+  ['shadertype_3',['ShaderType',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748',1,'MR::GLStaticHolder']]],
+  ['shadingtype_4',['ShadingType',['../structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cf',1,'MR::ObjectVoxels::VolumeRenderingParams']]],
+  ['side_5',['Side',['../namespaceMR.html#a494f6ca56c512e886474f7209f624c48',1,'MR']]],
+  ['signdetectionmode_6',['SignDetectionMode',['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309',1,'MR']]],
+  ['signeddetectionmethod_7',['SignedDetectionMethod',['../structMR_1_1ContoursDistanceMapOptions.html#a8338b4b187db812314a5890ccf5e6ec6',1,'MR::ContoursDistanceMapOptions']]],
+  ['sizetype_8',['SizeType',['../structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785ae',1,'MR::DrawButtonParams']]],
+  ['sliceplane_9',['SlicePlane',['../group__VoxelPathGroup.html#ga4412ea17fd4bcca4ad23e987f61c20ab',1,'MR']]],
+  ['spacemousebuttons_10',['SpaceMouseButtons',['../namespaceMR.html#acad54447072489545d11f4ee251429e6',1,'MR']]],
+  ['startposition_11',['StartPosition',['../classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39',1,'MR::CommandLoop']]],
+  ['stateplugintabs_12',['StatePluginTabs',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37',1,'MR']]],
+  ['status_13',['Status',['../structMR_1_1Features_1_1DistanceResult.html#a2fc63b05c373262024782295475df31d',1,'MR::Features::DistanceResult']]],
+  ['streamtype_14',['StreamType',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1d',1,'MRPython.h']]],
+  ['swipemode_15',['SwipeMode',['../structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadce',1,'MR::TouchpadParameters']]]
 ];

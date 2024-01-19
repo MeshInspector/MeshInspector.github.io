@@ -1,6 +1,6 @@
 var MRMeshFixer_8h =
 [
-    [ "MultipleEdge", "MRMeshFixer_8h.html#ga807cd3d017d23c56a0f6ea1cb1f7c8cb", null ],
+    [ "MultipleEdge", "MRMeshFixer_8h.html#gabc451bc8c65ecb5f6aa48ffa10b8f353", null ],
     [ "duplicateMultiHoleVertices", "MRMeshFixer_8h.html#ga030e7fa6218d19042b2a5ae052055192", null ],
     [ "eliminateDegree3Dest", "MRMeshFixer_8h.html#gace895a89502cb6fbf11e26b8c3e9773e", null ],
     [ "eliminateDegree3Vertices", "MRMeshFixer_8h.html#ga819c36bfa5ce60675533f6e6eceeb7d9", null ],

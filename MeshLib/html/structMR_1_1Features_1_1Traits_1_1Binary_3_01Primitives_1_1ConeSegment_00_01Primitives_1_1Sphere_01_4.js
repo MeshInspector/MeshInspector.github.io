@@ -1,0 +1,4 @@
+var structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4 =
+[
+    [ "distance", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4.html#ae34be71ae3a5a1383ed751d484352520", null ]
+];

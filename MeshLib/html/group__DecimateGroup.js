@@ -1,7 +1,7 @@
 var group__DecimateGroup =
 [
     [ "MR::DecimateSettings", "structMR_1_1DecimateSettings.html", [
-      [ "adjustCollapse", "structMR_1_1DecimateSettings.html#a21d7c6d9122286b4edf7bd531d38b72b", null ],
+      [ "adjustCollapse", "structMR_1_1DecimateSettings.html#a46669c6f3a5e02f8da0fd4b3b0324eb2", null ],
       [ "bdVerts", "structMR_1_1DecimateSettings.html#a9bc3106034dd8abdbb3067c7868ca6dd", null ],
       [ "criticalTriAspectRatio", "structMR_1_1DecimateSettings.html#a5f0e2ae094cddee1b490103a349feda5", null ],
       [ "edgesToCollapse", "structMR_1_1DecimateSettings.html#a4e2b45d957cafc32245b3ee812ed80d0", null ],
@@ -16,7 +16,7 @@ var group__DecimateGroup =
       [ "onEdgeDel", "structMR_1_1DecimateSettings.html#a4777d8a943b9bf55a68858260f62abd4", null ],
       [ "optimizeVertexPos", "structMR_1_1DecimateSettings.html#ac4cfcdf2807788f5914a0640372d4a07", null ],
       [ "packMesh", "structMR_1_1DecimateSettings.html#a320a08e8abf402aa6a0dae956ad9be0e", null ],
-      [ "preCollapse", "structMR_1_1DecimateSettings.html#a4eab7dd113486daa41a2272bac1b8a2f", null ],
+      [ "preCollapse", "structMR_1_1DecimateSettings.html#a960b514abf72d4cc4e9e186b7324bc3c", null ],
       [ "progressCallback", "structMR_1_1DecimateSettings.html#aa54526c521844dcca8dc5aa91e3628de", null ],
       [ "region", "structMR_1_1DecimateSettings.html#a9359f9da0b131c164d942b1361bd9644", null ],
       [ "stabilizer", "structMR_1_1DecimateSettings.html#ab8a313e9caff73dd179f03a9c7b80baa", null ],
@@ -33,7 +33,7 @@ var group__DecimateGroup =
       [ "vertsDeleted", "structMR_1_1DecimateResult.html#a0150f587c1f6e81b22cf7cf1194daedd", null ]
     ] ],
     [ "MR::DecimateParallelSettings", "structMR_1_1DecimateParallelSettings.html", [
-      [ "adjustCollapse", "structMR_1_1DecimateParallelSettings.html#af75f33318f6dbbd19e4e3c0005feaa39", null ],
+      [ "adjustCollapse", "structMR_1_1DecimateParallelSettings.html#a1212a9511cb46c723c349823f647af7e", null ],
       [ "criticalTriAspectRatio", "structMR_1_1DecimateParallelSettings.html#a275c6c639a8f4489cb392eacf2bd6214", null ],
       [ "maxAngleChange", "structMR_1_1DecimateParallelSettings.html#a14f764f19d8a56d1b1931e084ed1df4e", null ],
       [ "maxBdShift", "structMR_1_1DecimateParallelSettings.html#a418e0b7d779396eecd0743677811e459", null ],
@@ -41,7 +41,7 @@ var group__DecimateGroup =
       [ "maxError", "structMR_1_1DecimateParallelSettings.html#ad90b28eea121f1eb8d2153a5c87b69a6", null ],
       [ "maxTriangleAspectRatio", "structMR_1_1DecimateParallelSettings.html#a3c23bc0e06e4658789c9a372752be560", null ],
       [ "optimizeVertexPos", "structMR_1_1DecimateParallelSettings.html#a7d9257bfeb394f132782017fc4dc632c", null ],
-      [ "preCollapse", "structMR_1_1DecimateParallelSettings.html#adf44961ff5f36ea0d89953fc0eb9b889", null ],
+      [ "preCollapse", "structMR_1_1DecimateParallelSettings.html#ac0f2bc60f36fe7566f7d51fc2d66c42d", null ],
       [ "progressCallback", "structMR_1_1DecimateParallelSettings.html#a1931fb41807309978aa700f1634da3c4", null ],
       [ "region", "structMR_1_1DecimateParallelSettings.html#a6e41465250059b31e3c4806da1d55fea", null ],
       [ "stabilizer", "structMR_1_1DecimateParallelSettings.html#a737db1b3e50fc4961a8416f00bf3f49e", null ],
@@ -50,12 +50,12 @@ var group__DecimateGroup =
       [ "touchBdVertices", "structMR_1_1DecimateParallelSettings.html#a6e1e192817007b17434540ed6c973249", null ]
     ] ],
     [ "MR::DecimatePolylineSettings< V >", "structMR_1_1DecimatePolylineSettings.html", [
-      [ "adjustCollapse", "structMR_1_1DecimatePolylineSettings.html#ad58496f8458d8d5a517ba34926cb0c61", null ],
+      [ "adjustCollapse", "structMR_1_1DecimatePolylineSettings.html#ae41d34c453d24ebbec981e1d7d66e8af", null ],
       [ "maxDeletedVertices", "structMR_1_1DecimatePolylineSettings.html#a58d4128740b065b31e9b4d1b637bc0c7", null ],
       [ "maxEdgeLen", "structMR_1_1DecimatePolylineSettings.html#ac197ac53747aee8558fe409834910a4a", null ],
       [ "maxError", "structMR_1_1DecimatePolylineSettings.html#a53477903f660597feae1534ecba5ce74", null ],
       [ "optimizeVertexPos", "structMR_1_1DecimatePolylineSettings.html#a041fda2a9c1b5df5de8cb74bacbd7ff1", null ],
-      [ "preCollapse", "structMR_1_1DecimatePolylineSettings.html#ae829d8045ed74bf373bd86f2d835151a", null ],
+      [ "preCollapse", "structMR_1_1DecimatePolylineSettings.html#a44a53bd0e93a94bd96317f5512b8d4d6", null ],
       [ "region", "structMR_1_1DecimatePolylineSettings.html#adce38a07b8b04db0fe998e792e4a6e34", null ],
       [ "stabilizer", "structMR_1_1DecimatePolylineSettings.html#a68c78013b24475c60475093e77bbdeff", null ],
       [ "touchBdVertices", "structMR_1_1DecimatePolylineSettings.html#af5825891f4645db66db82c3b6aa2cffe", null ],

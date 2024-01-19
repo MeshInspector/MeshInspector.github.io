@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['boost_5fdynamic_5fbitset_5fdont_5fuse_5ffriends_0',['BOOST_DYNAMIC_BITSET_DONT_USE_FRIENDS',['../MRBitSet_8h.html#ab38c1f4b0a6095561c5efffdb9486c15',1,'MRBitSet.h']]]
+  ['_5fmr_5fpython_5fcustom_5fclass_5fholder_5fname_0',['_MR_PYTHON_CUSTOM_CLASS_HOLDER_NAME',['../MRPython_8h.html#a0a63eac4962f01ac9d1067840d25fe13',1,'MRPython.h']]]
 ];

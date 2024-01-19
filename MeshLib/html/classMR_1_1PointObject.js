@@ -7,6 +7,7 @@ var classMR_1_1PointObject =
     [ "PointObject", "classMR_1_1PointObject.html#a1d89ac4b9c8ad61fa8d494401aab8214", null ],
     [ "clone", "classMR_1_1PointObject.html#ac70ea9d5e70ab550d46f0f74d632f202", null ],
     [ "deserializeModel_", "classMR_1_1PointObject.html#a1e96573959c8e300313d73af80cba4b7", null ],
+    [ "getAllSharedProperties", "classMR_1_1PointObject.html#a9e2e061a111ddbe853c098d2fd55f750", null ],
     [ "getClassName", "classMR_1_1PointObject.html#a3f2703413f04d8a050906c159caf02fc", null ],
     [ "getPoint", "classMR_1_1PointObject.html#ad9c817f876ecb3aebe773f1857bc5f19", null ],
     [ "operator=", "classMR_1_1PointObject.html#ae0b89143bda253553841055632c8f8bd", null ],

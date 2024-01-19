@@ -51,8 +51,8 @@ var group__VisualObjectGroup =
       [ "heapBytes", "classMR_1_1VisualObject.html#a1c54cde8d69f13962e4e64bf839f3111", null ],
       [ "isPickable", "classMR_1_1VisualObject.html#a938a64da82232f07dec418b944f5bc8b", null ],
       [ "operator=", "classMR_1_1VisualObject.html#ad5bb82fa6b6b0ea77f0137b975c802f6", null ],
-      [ "render", "classMR_1_1VisualObject.html#a2ac2d3fec5be6ed045fb24e5519ff27d", null ],
-      [ "renderForPicker", "classMR_1_1VisualObject.html#af652007b051e9c9408cbb2d25ee9cc57", null ],
+      [ "render", "classMR_1_1VisualObject.html#afe3748521027dcf728e8271155de5e86", null ],
+      [ "renderForPicker", "classMR_1_1VisualObject.html#acf24be34b63b1a1ae4d52d02f0c014e2", null ],
       [ "resetDirty", "classMR_1_1VisualObject.html#a30fe82d49e41f2e7830f58113b295cce", null ],
       [ "serializeFields_", "classMR_1_1VisualObject.html#aa7e5231f013c0e9e1b528c69759cc60d", null ],
       [ "setAllVisualizeProperties", "classMR_1_1VisualObject.html#a6ab78ad20f48b071f9dbc01c7fd219e3", null ],
@@ -108,7 +108,7 @@ var group__VisualObjectGroup =
       [ "useDefaultScenePropertiesOnDeserialization_", "classMR_1_1VisualObject.html#aeed6d251c7bdbffe0634b0fe96faab35", null ],
       [ "vertsColorMap_", "classMR_1_1VisualObject.html#a782cfef38763cac8903ad92bd391f0ec", null ]
     ] ],
-    [ "MR::AllVisualizeProperties", "group__VisualObjectGroup.html#gadfa0fd0c37db32411b59a14d4191fe77", null ],
+    [ "MR::AllVisualizeProperties", "group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f", null ],
     [ "MR::ColoringType", "group__VisualObjectGroup.html#ga270a25a8ef13e07e59e7070834efc33f", [
       [ "MR::ColoringType::SolidColor", "group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854", null ],
       [ "MR::ColoringType::PrimitivesColorMap", "group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca", null ],

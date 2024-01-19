@@ -14,6 +14,8 @@ var group__MeshGroup =
       [ "area", "structMR_1_1Mesh.html#a03632276528ce953490a2111a5280c7c", null ],
       [ "attachEdgeLoopPart", "structMR_1_1Mesh.html#abab2d759266b7e751ef91845d21afd98", null ],
       [ "averageEdgeLength", "structMR_1_1Mesh.html#ace0fa1663015706fa78dc52fe840b4a9", null ],
+      [ "circumcircleDiameter", "structMR_1_1Mesh.html#a9c995113408ff1e1911197ea23564987", null ],
+      [ "circumcircleDiameterSq", "structMR_1_1Mesh.html#a739c01f192fc474add3f5341ade42018", null ],
       [ "cloneRegion", "structMR_1_1Mesh.html#a2e9331e1cd987b8dab1bceac8a73c5f5", null ],
       [ "computeBoundingBox", "structMR_1_1Mesh.html#a30783b277e8cd9daed4827c15daede28", null ],
       [ "computeBoundingBox", "structMR_1_1Mesh.html#a091677e4ef6993ac15490326ebcc1c78", null ],

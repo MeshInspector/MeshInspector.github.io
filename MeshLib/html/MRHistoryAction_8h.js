@@ -1,5 +1,5 @@
 var MRHistoryAction_8h =
 [
-    [ "HistoryActionsVector", "MRHistoryAction_8h.html#af3dc1bb8e4ca66f348d79f492f812233", null ],
-    [ "HistoryStackFilter", "MRHistoryAction_8h.html#ab273f85bdfe475fcbca1b38992b44580", null ]
+    [ "HistoryActionsVector", "MRHistoryAction_8h.html#a951264a40637210aff82d6b0e375446f", null ],
+    [ "HistoryStackFilter", "MRHistoryAction_8h.html#a85276508657eac277a84365d3e41c118", null ]
 ];

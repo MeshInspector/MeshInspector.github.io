@@ -7,6 +7,7 @@ var classMR_1_1CircleObject =
     [ "CircleObject", "classMR_1_1CircleObject.html#af2c5d04b5db14f7ae8cf783c3371ff27", null ],
     [ "clone", "classMR_1_1CircleObject.html#a1fcb69f1dd8bdbf42302043d67fb8fa8", null ],
     [ "deserializeModel_", "classMR_1_1CircleObject.html#a7f434667c41226089314d787f85d813e", null ],
+    [ "getAllSharedProperties", "classMR_1_1CircleObject.html#a96496ee95759ab735c258bd759a95719", null ],
     [ "getCenter", "classMR_1_1CircleObject.html#afe3e7e50d7b4ba111ea31f0d50a762e0", null ],
     [ "getClassName", "classMR_1_1CircleObject.html#aeaaf88b33c15f525f690a986a6b8e4b2", null ],
     [ "getNormal", "classMR_1_1CircleObject.html#aa99349244a54d5ce46f6ffd3939fa198", null ],

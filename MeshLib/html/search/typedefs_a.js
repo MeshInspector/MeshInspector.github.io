@@ -1,25 +1,4 @@
 var searchData=
 [
-  ['leafid_0',['LeafId',['../structMR_1_1ABBTreeTraits.html#a4b6228a9496f89b1486c84b5be513b6e',1,'MR::ABBTreeTraits::LeafId()'],['../structMR_1_1AABBTreeNode.html#a0286485d67d37c6d4f76d7d1f43d13d0',1,'MR::AABBTreeNode::LeafId()']]],
-  ['leafitert_1',['LeafIterT',['../classMR_1_1RangeProcessor.html#a27433ecb4e5aa6a2663efbfd38500f73',1,'MR::RangeProcessor::LeafIterT()'],['../classMR_1_1RangeProcessorSingle.html#a27245f92c4924f6d589bb260006327b4',1,'MR::RangeProcessorSingle::LeafIterT()'],['../classMR_1_1RangeCounter.html#a2843b3697415f694e48b3921d0b244d8',1,'MR::RangeCounter::LeafIterT()']]],
-  ['leafrange_2',['LeafRange',['../classMR_1_1RangeProcessor.html#a905bd220d552b994aaa85fd00c4de321',1,'MR::RangeProcessor::LeafRange()'],['../classMR_1_1RangeProcessorSingle.html#a4230fb4bf134d204266d7a36e6eaa54c',1,'MR::RangeProcessorSingle::LeafRange()']]],
-  ['leftringiterator_3',['LeftRingIterator',['../namespaceMR.html#ac24b6349fbb4f364ade4e824e0c650b6',1,'MR']]],
-  ['line2_4',['Line2',['../namespaceMR.html#a2c8cd9648ea010941b48b3ee99f6df9a',1,'MR']]],
-  ['line2d_5',['Line2d',['../namespaceMR.html#a0065c4e3d8fae366064792c9f5c53ff8',1,'MR']]],
-  ['line2f_6',['Line2f',['../namespaceMR.html#ad58256f7a2dddb7b688f110338d49f2e',1,'MR']]],
-  ['line3_7',['Line3',['../namespaceMR.html#ab6216cf41bdf8ac87f2ea2e21dac2518',1,'MR']]],
-  ['line3d_8',['Line3d',['../namespaceMR.html#ad78dde2996d3a2b85bb7fd22db18efb6',1,'MR']]],
-  ['line3dmesh_9',['Line3dMesh',['../group__AABBTreeGroup.html#gaaf317c41824870416408c08346c2171e',1,'MR']]],
-  ['line3f_10',['Line3f',['../namespaceMR.html#acfd96aa6798933e1a002144fb0dc22af',1,'MR']]],
-  ['line3fmesh_11',['Line3fMesh',['../group__AABBTreeGroup.html#ga5ab271790117f87421a1332a6c3e9d95',1,'MR']]],
-  ['lineschangedsignal_12',['LinesChangedSignal',['../classMR_1_1ObjectLines.html#ab4dd059872b969f78cf2cde0863184d3',1,'MR::ObjectLines']]],
-  ['linesegm2_13',['LineSegm2',['../namespaceMR.html#ad98e7d26d5961e8e0971b69e77e23607',1,'MR']]],
-  ['linesegm2d_14',['LineSegm2d',['../namespaceMR.html#a0de8f60984453e5f7e6fdf66d47161ef',1,'MR']]],
-  ['linesegm2f_15',['LineSegm2f',['../namespaceMR.html#a81942edef287967655d472b14ad02c29',1,'MR']]],
-  ['linesegm3_16',['LineSegm3',['../namespaceMR.html#aaa5f73588605d0dd4282be91fa52efe2',1,'MR']]],
-  ['linesegm3d_17',['LineSegm3d',['../namespaceMR.html#af05f8e0379f790612be6a1cabeb08f0f',1,'MR']]],
-  ['linesegm3f_18',['LineSegm3f',['../namespaceMR.html#a035d7b7275f8cb32da8b363943229dde',1,'MR']]],
-  ['linetreetraits_19',['LineTreeTraits',['../group__AABBTreeGroup.html#ga17af3e1b79216c9f09669326d43cf22d',1,'MR']]],
-  ['linetreetraits2_20',['LineTreeTraits2',['../group__AABBTreeGroup.html#gae0095cba19362d8f40a9beaedc20b142',1,'MR']]],
-  ['linetreetraits3_21',['LineTreeTraits3',['../group__AABBTreeGroup.html#ga9e0548c1f8dc47ae420a227a56165c7c',1,'MR']]]
+  ['keysignal_0',['KeySignal',['../classMR_1_1Viewer.html#a1e7b5d040663db04b5ee435db17f41df',1,'MR::Viewer']]]
 ];

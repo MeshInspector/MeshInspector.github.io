@@ -3,8 +3,7 @@ var MRICP_8h =
     [ "MR::VertPair", "structMR_1_1VertPair.html", "structMR_1_1VertPair" ],
     [ "MR::ICPProperties", "structMR_1_1ICPProperties.html", "structMR_1_1ICPProperties" ],
     [ "MR::ICP", "classMR_1_1ICP.html", "classMR_1_1ICP" ],
-    [ "MeshICP", "MRICP_8h.html#ae26fe02549d9ddf725201914d5f8fe77", null ],
-    [ "VertPairs", "MRICP_8h.html#a8d3569923ed9e3c43eabc487e8204e28", null ],
+    [ "VertPairs", "MRICP_8h.html#ad9909c5d952a45eafd73ee515d494d4f", null ],
     [ "ICPMethod", "MRICP_8h.html#adc079b022ca7581fe4f508ab8f6a80ec", [
       [ "Combined", "MRICP_8h.html#adc079b022ca7581fe4f508ab8f6a80eca55f4b4a94111759e08b3acb1acd12b8c", null ],
       [ "PointToPoint", "MRICP_8h.html#adc079b022ca7581fe4f508ab8f6a80ecacabf254f8195fce8d901b3cce7092ea9", null ],

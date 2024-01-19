@@ -46,7 +46,7 @@ var group__BooleanGroup =
       [ "meshABadContourFaces", "structMR_1_1BooleanResult.html#a9e97978ae79fbc9acc8c2bdb8ef40c12", null ],
       [ "meshBBadContourFaces", "structMR_1_1BooleanResult.html#a5158c930dad94ff45198508c2b01788a", null ]
     ] ],
-    [ "MR::OneMeshContours", "group__BooleanGroup.html#ga97b0e17fbf5a8ae17f107cf937d0b86b", null ],
+    [ "MR::OneMeshContours", "group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a", null ],
     [ "MR::BooleanOperation", "group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbd", [
       [ "MR::BooleanOperation::InsideA", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda833b7406c91f551bd8502cf76bb95c29", null ],
       [ "MR::BooleanOperation::InsideB", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda9f3e5e704c939dff3070cf175df0b75d", null ],
@@ -65,6 +65,6 @@ var group__BooleanGroup =
     [ "MR::convertSurfacePathWithEndsToMeshContour", "group__BooleanGroup.html#ga4415eacd7a732188919def7411ee0245", null ],
     [ "MR::cutMesh", "group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc", null ],
     [ "MR::cutMeshWithPlane", "group__BooleanGroup.html#gae70921f8b670333f08291597996a1dbf", null ],
-    [ "MR::doBooleanOperation", "group__BooleanGroup.html#ga10109de724be9e28810ef9da6348c3d9", null ],
+    [ "MR::doBooleanOperation", "group__BooleanGroup.html#ga54f21ebce684e7402eda1e881a7971dc", null ],
     [ "MR::getBooleanPoints", "group__BooleanGroup.html#gabcddc5448fa2c146bca47925a093d3c2", null ]
 ];

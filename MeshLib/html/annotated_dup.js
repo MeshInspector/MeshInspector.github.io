@@ -9,15 +9,29 @@ var annotated_dup =
         [ "MakeScopeGuard", "structMR_1_1detail_1_1MakeScopeGuard.html", "structMR_1_1detail_1_1MakeScopeGuard" ],
         [ "ScopeGuard", "classMR_1_1detail_1_1ScopeGuard.html", "classMR_1_1detail_1_1ScopeGuard" ]
       ] ],
+      [ "Features", "namespaceMR_1_1Features.html", [
+        [ "Primitives", "namespaceMR_1_1Features_1_1Primitives.html", [
+          [ "ConeSegment", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html", "structMR_1_1Features_1_1Primitives_1_1ConeSegment" ],
+          [ "Plane", "structMR_1_1Features_1_1Primitives_1_1Plane.html", "structMR_1_1Features_1_1Primitives_1_1Plane" ]
+        ] ],
+        [ "Traits", "namespaceMR_1_1Features_1_1Traits.html", [
+          [ "Binary", "structMR_1_1Features_1_1Traits_1_1Binary.html", null ],
+          [ "Binary< Primitives::ConeSegment, Primitives::ConeSegment >", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4.html", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4" ],
+          [ "Binary< Primitives::ConeSegment, Primitives::Sphere >", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4.html", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4" ],
+          [ "Binary< Primitives::Plane, Primitives::ConeSegment >", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4" ],
+          [ "Binary< Primitives::Plane, Primitives::Plane >", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4" ],
+          [ "Binary< Primitives::Plane, Primitives::Sphere >", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4" ],
+          [ "Binary< Primitives::Sphere, Primitives::Sphere >", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4" ],
+          [ "Unary", "structMR_1_1Features_1_1Traits_1_1Unary.html", null ],
+          [ "Unary< Primitives::ConeSegment >", "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html", "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4" ],
+          [ "Unary< Primitives::Plane >", "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html", "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4" ],
+          [ "Unary< Primitives::Sphere >", "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html", "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4" ]
+        ] ],
+        [ "DistanceResult", "structMR_1_1Features_1_1DistanceResult.html", "structMR_1_1Features_1_1DistanceResult" ]
+      ] ],
       [ "FixUndercuts", "namespaceMR_1_1FixUndercuts.html", [
         [ "DistMapImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" ],
         [ "ImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters" ]
-      ] ],
-      [ "ImmediateGL", "namespaceMR_1_1ImmediateGL.html", [
-        [ "RenderParams", "structMR_1_1ImmediateGL_1_1RenderParams.html", "structMR_1_1ImmediateGL_1_1RenderParams" ],
-        [ "Tri", "structMR_1_1ImmediateGL_1_1Tri.html", "structMR_1_1ImmediateGL_1_1Tri" ],
-        [ "TriCornerColors", "structMR_1_1ImmediateGL_1_1TriCornerColors.html", "structMR_1_1ImmediateGL_1_1TriCornerColors" ],
-        [ "TriRenderParams", "structMR_1_1ImmediateGL_1_1TriRenderParams.html", "structMR_1_1ImmediateGL_1_1TriRenderParams" ]
       ] ],
       [ "MeshBuilder", "namespaceMR_1_1MeshBuilder.html", [
         [ "BuildSettings", "structMR_1_1MeshBuilder_1_1BuildSettings.html", "structMR_1_1MeshBuilder_1_1BuildSettings" ],
@@ -139,6 +153,10 @@ var annotated_dup =
       [ "CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html", "classMR_1_1CombinedHistoryAction" ],
       [ "CommandLoop", "classMR_1_1CommandLoop.html", "classMR_1_1CommandLoop" ],
       [ "ComputeSteepestDescentPathSettings", "structMR_1_1ComputeSteepestDescentPathSettings.html", "structMR_1_1ComputeSteepestDescentPathSettings" ],
+      [ "Cone3", "classMR_1_1Cone3.html", "classMR_1_1Cone3" ],
+      [ "Cone3Approximation", "classMR_1_1Cone3Approximation.html", "classMR_1_1Cone3Approximation" ],
+      [ "ConeFittingFunctor", "structMR_1_1ConeFittingFunctor.html", "structMR_1_1ConeFittingFunctor" ],
+      [ "ConeObject", "classMR_1_1ConeObject.html", "classMR_1_1ConeObject" ],
       [ "Config", "classMR_1_1Config.html", "classMR_1_1Config" ],
       [ "ConnectionHolder", "structMR_1_1ConnectionHolder.html", "structMR_1_1ConnectionHolder" ],
       [ "ConstantCuspParams", "structMR_1_1ConstantCuspParams.html", "structMR_1_1ConstantCuspParams" ],
@@ -190,6 +208,8 @@ var annotated_dup =
       [ "EnumNeihbourVertices", "classMR_1_1EnumNeihbourVertices.html", "classMR_1_1EnumNeihbourVertices" ],
       [ "FaceFace", "structMR_1_1FaceFace.html", "structMR_1_1FaceFace" ],
       [ "FastWindingNumber", "classMR_1_1FastWindingNumber.html", "classMR_1_1FastWindingNumber" ],
+      [ "FeatureObject", "structMR_1_1FeatureObject.html", "structMR_1_1FeatureObject" ],
+      [ "FeatureObjectSharedProperty", "structMR_1_1FeatureObjectSharedProperty.html", "structMR_1_1FeatureObjectSharedProperty" ],
       [ "FewSmallest", "classMR_1_1FewSmallest.html", "classMR_1_1FewSmallest" ],
       [ "File", "classMR_1_1File.html", "classMR_1_1File" ],
       [ "FileParameters", "structMR_1_1FileParameters.html", "structMR_1_1FileParameters" ],
@@ -299,6 +319,7 @@ var annotated_dup =
       [ "MeshVisualizePropertyType", "structMR_1_1MeshVisualizePropertyType.html", null ],
       [ "MeshVoxelsConverter", "structMR_1_1MeshVoxelsConverter.html", "structMR_1_1MeshVoxelsConverter" ],
       [ "MetricToAStarPenalty", "structMR_1_1MetricToAStarPenalty.html", "structMR_1_1MetricToAStarPenalty" ],
+      [ "ModelRenderParams", "structMR_1_1ModelRenderParams.html", "structMR_1_1ModelRenderParams" ],
       [ "MouseController", "classMR_1_1MouseController.html", "classMR_1_1MouseController" ],
       [ "MouseDownListener", "structMR_1_1MouseDownListener.html", "structMR_1_1MouseDownListener" ],
       [ "MouseMoveListener", "structMR_1_1MouseMoveListener.html", "structMR_1_1MouseMoveListener" ],
@@ -417,7 +438,6 @@ var annotated_dup =
       [ "RenderLinesObject", "classMR_1_1RenderLinesObject.html", "classMR_1_1RenderLinesObject" ],
       [ "RenderMeshObject", "classMR_1_1RenderMeshObject.html", "classMR_1_1RenderMeshObject" ],
       [ "RenderObjectBuffer", "classMR_1_1RenderObjectBuffer.html", "classMR_1_1RenderObjectBuffer" ],
-      [ "RenderParams", "structMR_1_1RenderParams.html", "structMR_1_1RenderParams" ],
       [ "RenderPointsObject", "classMR_1_1RenderPointsObject.html", "classMR_1_1RenderPointsObject" ],
       [ "RenderVolumeObject", "classMR_1_1RenderVolumeObject.html", "classMR_1_1RenderVolumeObject" ],
       [ "ResetSceneMenuItem", "classMR_1_1ResetSceneMenuItem.html", "classMR_1_1ResetSceneMenuItem" ],
@@ -431,6 +451,8 @@ var annotated_dup =
       [ "RibbonMenuItemAdder", "structMR_1_1RibbonMenuItemAdder.html", "structMR_1_1RibbonMenuItemAdder" ],
       [ "RibbonMenuItemCall", "structMR_1_1RibbonMenuItemCall.html", "structMR_1_1RibbonMenuItemCall" ],
       [ "RibbonMenuSearch", "classMR_1_1RibbonMenuSearch.html", "classMR_1_1RibbonMenuSearch" ],
+      [ "RibbonNotification", "structMR_1_1RibbonNotification.html", "structMR_1_1RibbonNotification" ],
+      [ "RibbonNotifier", "classMR_1_1RibbonNotifier.html", "classMR_1_1RibbonNotifier" ],
       [ "RibbonSceneRemoveSelected", "classMR_1_1RibbonSceneRemoveSelected.html", "classMR_1_1RibbonSceneRemoveSelected" ],
       [ "RibbonSceneRename", "classMR_1_1RibbonSceneRename.html", "classMR_1_1RibbonSceneRename" ],
       [ "RibbonSceneSelectAll", "classMR_1_1RibbonSceneSelectAll.html", "classMR_1_1RibbonSceneSelectAll" ],
@@ -504,6 +526,7 @@ var annotated_dup =
       [ "SymbolMeshParams", "structMR_1_1SymbolMeshParams.html", "structMR_1_1SymbolMeshParams" ],
       [ "SymMatrix2", "structMR_1_1SymMatrix2.html", "structMR_1_1SymMatrix2" ],
       [ "SymMatrix3", "structMR_1_1SymMatrix3.html", "structMR_1_1SymMatrix3" ],
+      [ "SymMatrix4", "structMR_1_1SymMatrix4.html", "structMR_1_1SymMatrix4" ],
       [ "TabNamePriority", "structMR_1_1TabNamePriority.html", "structMR_1_1TabNamePriority" ],
       [ "TaggedBitSet", "classMR_1_1TaggedBitSet.html", "classMR_1_1TaggedBitSet" ],
       [ "TerminalVertex", "structMR_1_1TerminalVertex.html", "structMR_1_1TerminalVertex" ],

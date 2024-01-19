@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['keysignal_0',['KeySignal',['../classMR_1_1Viewer.html#a1e7b5d040663db04b5ee435db17f41df',1,'MR::Viewer']]]
+  ['jacobiantype_0',['JacobianType',['../structMR_1_1ConeFittingFunctor.html#ac2e6bb7e397f17483383aef3880628d3',1,'MR::ConeFittingFunctor']]]
 ];

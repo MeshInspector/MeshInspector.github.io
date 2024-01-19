@@ -4,8 +4,6 @@ var MRViewportGL_8h =
     [ "MR::ViewportPointsWithColors", "structMR_1_1ViewportPointsWithColors.html", "structMR_1_1ViewportPointsWithColors" ],
     [ "MR::ViewportLinesWithColors", "structMR_1_1ViewportLinesWithColors.html", "structMR_1_1ViewportLinesWithColors" ],
     [ "MR::ViewportGL", "classMR_1_1ViewportGL.html", "classMR_1_1ViewportGL" ],
-    [ "MR::ViewportGL::BaseRenderParams", "structMR_1_1ViewportGL_1_1BaseRenderParams.html", "structMR_1_1ViewportGL_1_1BaseRenderParams" ],
-    [ "MR::ViewportGL::RenderParams", "structMR_1_1ViewportGL_1_1RenderParams.html", "structMR_1_1ViewportGL_1_1RenderParams" ],
     [ "MR::ViewportGL::PickParameters", "structMR_1_1ViewportGL_1_1PickParameters.html", "structMR_1_1ViewportGL_1_1PickParameters" ],
     [ "MR::ViewportGL::BasePickResult", "structMR_1_1ViewportGL_1_1BasePickResult.html", "structMR_1_1ViewportGL_1_1BasePickResult" ],
     [ "MR::ViewportGL::PickResult", "structMR_1_1ViewportGL_1_1PickResult.html", "structMR_1_1ViewportGL_1_1PickResult" ],

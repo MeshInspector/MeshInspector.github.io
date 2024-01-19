@@ -2,7 +2,7 @@ var searchData=
 [
   ['rainbow_0',['Rainbow',['../structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5a4aca5ee9a087fb9218bfb662fe92605c',1,'MR::ObjectVoxels::VolumeRenderingParams']]],
   ['rainbowrect_1',['RainbowRect',['../classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368a5f623490490b088611156df973163f7f',1,'MR::RibbonButtonDrawer']]],
-  ['redo_2',['Redo',['../classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6',1,'MR::HistoryAction::Redo()'],['../classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a5afeaba074ef570dc720caaa855d49f6',1,'MR::HistoryStore::Redo()']]],
+  ['redo_2',['Redo',['../classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6',1,'MR::HistoryAction::Redo'],['../classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4a5afeaba074ef570dc720caaa855d49f6',1,'MR::HistoryStore::Redo']]],
   ['relax_3',['Relax',['../classMR_1_1SurfaceManipulationWidget.html#aaf2bf24fbfd2017b8037ed9cab3df93caf2901a893d204f609b9d6d6b11a481b4',1,'MR::SurfaceManipulationWidget']]],
   ['remove_4',['Remove',['../classMR_1_1SurfaceManipulationWidget.html#aaf2bf24fbfd2017b8037ed9cab3df93ca1063e38cb53d94d386f21227fcd84717',1,'MR::SurfaceManipulationWidget']]],
   ['removeobject_5',['RemoveObject',['../classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1af0c405ca8e7eb2c3fa3d102bb69b75a9',1,'MR::ChangeSceneAction']]],
@@ -17,7 +17,7 @@ var searchData=
   ['ribbonbuttonhovered_14',['RibbonButtonHovered',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a525b14df5462bcd36ab6046c11b74b39',1,'MR::ColorTheme']]],
   ['ribbonitemicon_15',['RibbonItemIcon',['../classMR_1_1RibbonIcons.html#a2d10e82f8fd5c6cc53279374e9bd3931a35e029f5ff6bcc67b6ecc2e445c498f2',1,'MR::RibbonIcons']]],
   ['ridge_16',['Ridge',['../group__SurfacePathSubgroup.html#gga3887057b7aa95d9993b5ce57130c25a6ae9eeca48aa5cccacde08760c6ec9dd5a',1,'MR']]],
-  ['right_17',['Right',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca92b09c7c48c520c3c55e497875da437c',1,'MR::SetViewPresetMenuItem::Right()'],['../namespaceMR.html#a78218d9e8bdad31c92f563f91f5d470aa54ea5115bec8bfd809c0ced25e85bbde',1,'MR::Right()'],['../namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62da92b09c7c48c520c3c55e497875da437c',1,'MR::Right()']]],
+  ['right_17',['Right',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca92b09c7c48c520c3c55e497875da437c',1,'MR::SetViewPresetMenuItem::Right'],['../namespaceMR.html#a78218d9e8bdad31c92f563f91f5d470aa54ea5115bec8bfd809c0ced25e85bbde',1,'MR::Right'],['../namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62da92b09c7c48c520c3c55e497875da437c',1,'MR::Right']]],
   ['rightleft_18',['RightLeft',['../group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a060e258e018b85df7750330be4f807c0',1,'MR']]],
   ['rightright_19',['RightRight',['../group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a8282c1db2ec5b8780478223365a37438',1,'MR']]],
   ['rigidscale_20',['RigidScale',['../namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677ae69bfcbc43792e36c9ef6daf8e9af890',1,'MR']]],
@@ -28,5 +28,5 @@ var searchData=
   ['rotx_25',['RotX',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6ae47d6e82d3529c2e696cb9b128c39350',1,'MR']]],
   ['roty_26',['RotY',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6a3bf2bbb5aed73183fe04a25bc85c9ff6',1,'MR']]],
   ['rotz_27',['RotZ',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6a160cb5fa4d344314ae594c958626c907',1,'MR']]],
-  ['round_28',['Round',['../structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8ab7f41fc1412ad2ee75e9b2635d3b9d5c',1,'MR::OffsetContoursParams::Round()'],['../structMR_1_1OffsetContoursParams.html#a7211722e3debbfaa5ad3c7b9dfa090a4ab7f41fc1412ad2ee75e9b2635d3b9d5c',1,'MR::OffsetContoursParams::Round()']]]
+  ['round_28',['Round',['../structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8ab7f41fc1412ad2ee75e9b2635d3b9d5c',1,'MR::OffsetContoursParams::Round'],['../structMR_1_1OffsetContoursParams.html#a7211722e3debbfaa5ad3c7b9dfa090a4ab7f41fc1412ad2ee75e9b2635d3b9d5c',1,'MR::OffsetContoursParams::Round']]]
 ];
