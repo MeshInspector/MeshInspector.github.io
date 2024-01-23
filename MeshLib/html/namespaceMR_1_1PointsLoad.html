@@ -100,12 +100,21 @@ $(function(){initNavTree('namespaceMR_1_1PointsLoad.html',''); initResizable(); 
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">MR::PointsLoad Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointsLoad_1_1E57LoadSettings.html">E57LoadSettings</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointsLoad_1_1NamedCloud.html">NamedCloud</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads scene from e57 file  <a href="structMR_1_1PointsLoad_1_1NamedCloud.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:gaeaaada2bfc9e5598ab6551567b771f53" id="r_gaeaaada2bfc9e5598ab6551567b771f53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#gaeaaada2bfc9e5598ab6551567b771f53">fromText</a> (const std::filesystem::path &amp;file, <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> *outXf=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
@@ -156,12 +165,36 @@ Functions</h2></td></tr>
 <tr class="memitem:gad18cbd6cdbee95a8ecdace7101079451" id="r_gad18cbd6cdbee95a8ecdace7101079451"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#gad18cbd6cdbee95a8ecdace7101079451">fromAnySupportedFormat</a> (std::istream &amp;in, const std::string &amp;extension, <a class="el" href="namespaceMR.html#aead9b201ba4de421810b5504caef1d08">VertColors</a> *colors=nullptr, <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> *outXf=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
 <tr class="memdesc:gad18cbd6cdbee95a8ecdace7101079451"><td class="mdescLeft">&#160;</td><td class="mdescRight">extension in <code>*.ext</code> format  <br /></td></tr>
 <tr class="separator:gad18cbd6cdbee95a8ecdace7101079451"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad81fe9fd9600672db0823a97400342d2" id="r_ad81fe9fd9600672db0823a97400342d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="structMR_1_1PointsLoad_1_1NamedCloud.html">NamedCloud</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad81fe9fd9600672db0823a97400342d2">fromSceneE57File</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1PointsLoad_1_1E57LoadSettings.html">E57LoadSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:ad81fe9fd9600672db0823a97400342d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:ga78bba5f59da26b22b8f18e15440cfccd" id="r_ga78bba5f59da26b22b8f18e15440cfccd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOGroup.html#ga78bba5f59da26b22b8f18e15440cfccd">Filters</a></td></tr>
 <tr class="separator:ga78bba5f59da26b22b8f18e15440cfccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ad81fe9fd9600672db0823a97400342d2" name="ad81fe9fd9600672db0823a97400342d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad81fe9fd9600672db0823a97400342d2">&#9670;&#160;</a></span>fromSceneE57File()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="structMR_1_1PointsLoad_1_1NamedCloud.html">NamedCloud</a> &gt; &gt; MR::PointsLoad::fromSceneE57File </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointsLoad_1_1E57LoadSettings.html">E57LoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

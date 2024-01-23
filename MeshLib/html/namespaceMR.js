@@ -124,31 +124,11 @@ var namespaceMR =
       [ "setObjectLoader", "namespaceMR_1_1ObjectLoad.html#a926cd008c3b4e42abeafe42952a1188c", null ]
     ] ],
     [ "ObjectSave", "namespaceMR_1_1ObjectSave.html", [
-      [ "toAnySupportedFormat", "namespaceMR_1_1ObjectSave.html#a54a3a511e827b1db27f3a67e02c92c08", null ]
+      [ "toAnySupportedFormat", "namespaceMR_1_1ObjectSave.html#a54a3a511e827b1db27f3a67e02c92c08", null ],
+      [ "toAnySupportedSceneFormat", "namespaceMR_1_1ObjectSave.html#aacb67adec04e843d7b476835acc3b2b2", null ]
     ] ],
     [ "PlanarTriangulation", "namespaceMR_1_1PlanarTriangulation.html", "namespaceMR_1_1PlanarTriangulation" ],
-    [ "PointsLoad", "namespaceMR_1_1PointsLoad.html", [
-      [ "fromAnySupportedFormat", "group__IOGroup.html#ga37b759ebc3da6e9acf243c3cb25be235", null ],
-      [ "fromAnySupportedFormat", "group__IOGroup.html#gad18cbd6cdbee95a8ecdace7101079451", null ],
-      [ "fromAsc", "group__IOGroup.html#ga38d83e039074336e74a140d6ec17e42b", null ],
-      [ "fromAsc", "group__IOGroup.html#ga0e386eed1ac1bdc3c0b027c195077f0c", null ],
-      [ "fromCtm", "group__IOGroup.html#gad385805f17fe1e687e5daf9df77cfaa8", null ],
-      [ "fromCtm", "group__IOGroup.html#gae2d77a5c9b57492e77d748cf6fa46380", null ],
-      [ "fromDxf", "group__IOGroup.html#ga4254ad628a6157d16c41142402c9ae0b", null ],
-      [ "fromDxf", "group__IOGroup.html#ga1b64ddd42c3e9dd16f36568802cbb2a4", null ],
-      [ "fromE57", "group__IOGroup.html#ga5c52a9fd3fa36493cf305bed7ba7f2f0", null ],
-      [ "fromLas", "group__IOGroup.html#ga699e73e8124ca1316e5b26ab9a422110", null ],
-      [ "fromLas", "group__IOGroup.html#ga38da990ac8c544a4ca75d2ec31c41831", null ],
-      [ "fromObj", "group__IOGroup.html#gae3658234133eba9c3d882dfd24f53b3d", null ],
-      [ "fromObj", "group__IOGroup.html#gafcf7aac09c7bcb9b760bce2f7566adde", null ],
-      [ "fromPly", "group__IOGroup.html#ga1ea383a44cc720309cd5aaad13f51777", null ],
-      [ "fromPly", "group__IOGroup.html#ga6587e808404dcaccc5f92372a3eccf66", null ],
-      [ "fromPts", "group__IOGroup.html#gaa98848cbceac0f027b80628d04328bd7", null ],
-      [ "fromPts", "group__IOGroup.html#ga0d88faa51d57eacbfb5ac8944c50caed", null ],
-      [ "fromText", "group__IOGroup.html#gaeaaada2bfc9e5598ab6551567b771f53", null ],
-      [ "fromText", "group__IOGroup.html#gac627ccc2fe384bc5805f39809e0db1ae", null ],
-      [ "Filters", "group__IOGroup.html#ga78bba5f59da26b22b8f18e15440cfccd", null ]
-    ] ],
+    [ "PointsLoad", "namespaceMR_1_1PointsLoad.html", "namespaceMR_1_1PointsLoad" ],
     [ "PointsSave", "namespaceMR_1_1PointsSave.html", "namespaceMR_1_1PointsSave" ],
     [ "PolylineComponents", "namespaceMR_1_1PolylineComponents.html", [
       [ "getAllComponents", "group__ComponentsGroup.html#ga80e95c2ddcd2a35b79f66a0540d4a152", null ],
@@ -2322,6 +2302,7 @@ var namespaceMR =
     [ "PointCloud", "namespaceMR.html#a1bfc73c4801d5127d8be21699dc9f590", null ],
     [ "RegionTag", "namespaceMR.html#af293d6c66d14a3940a1c5a5685a1b36f", null ],
     [ "SceneFileFilters", "group__SerializerGroup.html#ga23013624dd00042658c503443e5d3ffb", null ],
+    [ "SceneFileWriteFilters", "group__SerializerGroup.html#ga4d85510ea6cd8863229ae69ea4b7d051", null ],
     [ "SetBitIteratorT", "namespaceMR.html#af61e31044cdd52a789ea52958e80713b", null ],
     [ "TaggedBitSet", "namespaceMR.html#ac9bc4356bc00a782b8b9e577a40da6a5", null ],
     [ "UndirectedEdgeTag", "namespaceMR.html#a1bbe6aa7d7136f740286af86f591c19b", null ],

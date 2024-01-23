@@ -189,6 +189,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2646bd14bb792576389645ad9483bc0a" id="r_a2646bd14bb792576389645ad9483bc0a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2646bd14bb792576389645ad9483bc0a">heapBytes</a> () const override</td></tr>
 <tr class="memdesc:a2646bd14bb792576389645ad9483bc0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:a2646bd14bb792576389645ad9483bc0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90b31c97cb796aa6f27a104aad5e893d" id="r_a90b31c97cb796aa6f27a104aad5e893d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90b31c97cb796aa6f27a104aad5e893d">setRenderDiscretization</a> (int val)</td></tr>
+<tr class="memdesc:a90b31c97cb796aa6f27a104aad5e893d"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets rendering discretization, each  <br /></td></tr>
+<tr class="separator:a90b31c97cb796aa6f27a104aad5e893d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a655ebcd931a3422a41e25e3080f708d5" id="r_a655ebcd931a3422a41e25e3080f708d5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a655ebcd931a3422a41e25e3080f708d5">getRenderDiscretization</a> () const</td></tr>
+<tr class="memdesc:a655ebcd931a3422a41e25e3080f708d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns rendering discretization, each N-th point will be displayed on screen  <br /></td></tr>
+<tr class="separator:a655ebcd931a3422a41e25e3080f708d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1VisualObject"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1VisualObject')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a></td></tr>
 <tr class="memitem:a248a0efabc82874bd29ca605c2fb7481 inherit pub_methods_classMR_1_1VisualObject" id="r_a248a0efabc82874bd29ca605c2fb7481"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a248a0efabc82874bd29ca605c2fb7481">VisualObject</a> ()</td></tr>
 <tr class="separator:a248a0efabc82874bd29ca605c2fb7481 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -565,6 +571,8 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:aff82edcc80eafd10cf373c842d0c3b8e" id="r_aff82edcc80eafd10cf373c842d0c3b8e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff82edcc80eafd10cf373c842d0c3b8e">pointSize_</a> { 5.0f }</td></tr>
 <tr class="memdesc:aff82edcc80eafd10cf373c842d0c3b8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">size of point in pixels  <br /></td></tr>
 <tr class="separator:aff82edcc80eafd10cf373c842d0c3b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75cc66876cd874cbf5e8185768bdb2be" id="r_a75cc66876cd874cbf5e8185768bdb2be"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75cc66876cd874cbf5e8185768bdb2be">renderDiscretization_</a> = 1</td></tr>
+<tr class="separator:a75cc66876cd874cbf5e8185768bdb2be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classMR_1_1VisualObject"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1VisualObject')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a></td></tr>
 <tr class="memitem:ab054b578e5da7a7822d693ec0f61b1e7 inherit pro_attribs_classMR_1_1VisualObject" id="r_ab054b578e5da7a7822d693ec0f61b1e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1UniquePtr.html">UniquePtr</a>&lt; <a class="el" href="classMR_1_1IRenderObject.html">IRenderObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#ab054b578e5da7a7822d693ec0f61b1e7">renderObj_</a></td></tr>
 <tr class="separator:ab054b578e5da7a7822d693ec0f61b1e7 inherit pro_attribs_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -950,6 +958,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns size of points on screen in pixels </p>
+
+</div>
+</div>
+<a id="a655ebcd931a3422a41e25e3080f708d5" name="a655ebcd931a3422a41e25e3080f708d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a655ebcd931a3422a41e25e3080f708d5">&#9670;&#160;</a></span>getRenderDiscretization()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::ObjectPointsHolder::getRenderDiscretization </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns rendering discretization, each N-th point will be displayed on screen </p>
 
 </div>
 </div>
@@ -1377,6 +1412,39 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a90b31c97cb796aa6f27a104aad5e893d" name="a90b31c97cb796aa6f27a104aad5e893d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90b31c97cb796aa6f27a104aad5e893d">&#9670;&#160;</a></span>setRenderDiscretization()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::ObjectPointsHolder::setRenderDiscretization </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>val</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>sets rendering discretization, each </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">val</td><td>-th point will be displayed on screen </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a9cb5c91de776239dbfc1ee5ff9c6715e" name="a9cb5c91de776239dbfc1ee5ff9c6715e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9cb5c91de776239dbfc1ee5ff9c6715e">&#9670;&#160;</a></span>setSelectedVerticesColor()</h2>
 
@@ -1664,6 +1732,28 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>size of point in pixels </p>
+
+</div>
+</div>
+<a id="a75cc66876cd874cbf5e8185768bdb2be" name="a75cc66876cd874cbf5e8185768bdb2be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75cc66876cd874cbf5e8185768bdb2be">&#9670;&#160;</a></span>renderDiscretization_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::ObjectPointsHolder::renderDiscretization_ = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

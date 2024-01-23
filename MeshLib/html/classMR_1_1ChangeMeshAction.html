@@ -139,6 +139,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa047c1990777d68d6c09a53db29e6d61" id="r_aa047c1990777d68d6c09a53db29e6d61"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa047c1990777d68d6c09a53db29e6d61">ChangeMeshAction</a> (std::string <a class="el" href="#a6e73aebdc0c2a7d4d2273eed02ad84ab">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;obj)</td></tr>
 <tr class="memdesc:aa047c1990777d68d6c09a53db29e6d61"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's mesh before making any changes in it  <br /></td></tr>
 <tr class="separator:aa047c1990777d68d6c09a53db29e6d61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95aa4293570939f1ab9d6f90ac117dad" id="r_a95aa4293570939f1ab9d6f90ac117dad"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95aa4293570939f1ab9d6f90ac117dad">ChangeMeshAction</a> (std::string <a class="el" href="#a6e73aebdc0c2a7d4d2273eed02ad84ab">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;obj, std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; newMesh)</td></tr>
+<tr class="memdesc:a95aa4293570939f1ab9d6f90ac117dad"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's mesh and immediately set new mesh  <br /></td></tr>
+<tr class="separator:a95aa4293570939f1ab9d6f90ac117dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e73aebdc0c2a7d4d2273eed02ad84ab" id="r_a6e73aebdc0c2a7d4d2273eed02ad84ab"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e73aebdc0c2a7d4d2273eed02ad84ab">name</a> () const override</td></tr>
 <tr class="separator:a6e73aebdc0c2a7d4d2273eed02ad84ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac10a0aa665f6874a187cfb802dcb7dc8" id="r_ac10a0aa665f6874a187cfb802dcb7dc8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac10a0aa665f6874a187cfb802dcb7dc8">action</a> (<a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a>) override</td></tr>
@@ -175,7 +178,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa047c1990777d68d6c09a53db29e6d61" name="aa047c1990777d68d6c09a53db29e6d61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa047c1990777d68d6c09a53db29e6d61">&#9670;&#160;</a></span>ChangeMeshAction()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa047c1990777d68d6c09a53db29e6d61">&#9670;&#160;</a></span>ChangeMeshAction() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202,6 +205,42 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>use this constructor to remember object's mesh before making any changes in it </p>
+
+</div>
+</div>
+<a id="a95aa4293570939f1ab9d6f90ac117dad" name="a95aa4293570939f1ab9d6f90ac117dad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95aa4293570939f1ab9d6f90ac117dad">&#9670;&#160;</a></span>ChangeMeshAction() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::ChangeMeshAction::ChangeMeshAction </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>name</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>newMesh</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>use this constructor to remember object's mesh and immediately set new mesh </p>
 
 </div>
 </div>

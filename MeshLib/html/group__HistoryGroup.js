@@ -36,6 +36,7 @@ var group__HistoryGroup =
     [ "MR::ChangeMeshAction", "classMR_1_1ChangeMeshAction.html", [
       [ "Obj", "classMR_1_1ChangeMeshAction.html#af714055379496f5d4d7cc0762f755fea", null ],
       [ "ChangeMeshAction", "classMR_1_1ChangeMeshAction.html#aa047c1990777d68d6c09a53db29e6d61", null ],
+      [ "ChangeMeshAction", "classMR_1_1ChangeMeshAction.html#a95aa4293570939f1ab9d6f90ac117dad", null ],
       [ "action", "classMR_1_1ChangeMeshAction.html#ac10a0aa665f6874a187cfb802dcb7dc8", null ],
       [ "heapBytes", "classMR_1_1ChangeMeshAction.html#ad0dbdadda7bb2d160c77aa14e2eea201", null ],
       [ "name", "classMR_1_1ChangeMeshAction.html#a6e73aebdc0c2a7d4d2273eed02ad84ab", null ]
@@ -43,6 +44,7 @@ var group__HistoryGroup =
     [ "MR::ChangeMeshUVCoordsAction", "classMR_1_1ChangeMeshUVCoordsAction.html", [
       [ "Obj", "classMR_1_1ChangeMeshUVCoordsAction.html#a9128b930db153ecea7e8dd9bab0a8374", null ],
       [ "ChangeMeshUVCoordsAction", "classMR_1_1ChangeMeshUVCoordsAction.html#aff9496937d0c0fddbd3ed701edb82ab5", null ],
+      [ "ChangeMeshUVCoordsAction", "classMR_1_1ChangeMeshUVCoordsAction.html#a798958009119de0cd81f8b3136c963fe", null ],
       [ "action", "classMR_1_1ChangeMeshUVCoordsAction.html#a8251a4c060d3538d58564c3429c9afda", null ],
       [ "heapBytes", "classMR_1_1ChangeMeshUVCoordsAction.html#a8ada93551abd3f590f7e4a2d9c093351", null ],
       [ "name", "classMR_1_1ChangeMeshUVCoordsAction.html#aa8f2ca30bbf02500362d5bc387ecbcf8", null ]
@@ -155,6 +157,7 @@ var group__HistoryGroup =
     [ "MR::ChangeMeshFaceSelectionAction", "classMR_1_1ChangeMeshFaceSelectionAction.html", [
       [ "Obj", "classMR_1_1ChangeMeshFaceSelectionAction.html#a405ed8f3e1f0ec969dffa0d31f26119b", null ],
       [ "ChangeMeshFaceSelectionAction", "classMR_1_1ChangeMeshFaceSelectionAction.html#a8f903abfb85e2e7bad897c77d021e648", null ],
+      [ "ChangeMeshFaceSelectionAction", "classMR_1_1ChangeMeshFaceSelectionAction.html#ae58170f16a80a2b128e01cf679d019ee", null ],
       [ "action", "classMR_1_1ChangeMeshFaceSelectionAction.html#a5bbadadc5288e79bcd993ee992afaf84", null ],
       [ "heapBytes", "classMR_1_1ChangeMeshFaceSelectionAction.html#a064f2f6dcad2b8ed0b16957b9bbb248f", null ],
       [ "name", "classMR_1_1ChangeMeshFaceSelectionAction.html#a628000e800befb0ec5c91ee98032c3d1", null ],
@@ -193,6 +196,7 @@ var group__HistoryGroup =
     [ "MR::ChangeVertsColorMapAction", "classMR_1_1ChangeVertsColorMapAction.html", [
       [ "Obj", "classMR_1_1ChangeVertsColorMapAction.html#acbea3a354ac04c83aac4d24b63c108a7", null ],
       [ "ChangeVertsColorMapAction", "classMR_1_1ChangeVertsColorMapAction.html#a85820c2fb1b34f635d51b6ca5b5b626a", null ],
+      [ "ChangeVertsColorMapAction", "classMR_1_1ChangeVertsColorMapAction.html#abc9ca0e165f8954481449a98d979894a", null ],
       [ "action", "classMR_1_1ChangeVertsColorMapAction.html#a1a95d1d7e2662430d2a44131bb888751", null ],
       [ "heapBytes", "classMR_1_1ChangeVertsColorMapAction.html#a5b053d5d184fadd40dde5737102c208f", null ],
       [ "name", "classMR_1_1ChangeVertsColorMapAction.html#afab050a8026282cb3ade8eff783f95e4", null ]

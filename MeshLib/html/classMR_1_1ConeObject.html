@@ -172,11 +172,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a67c8a49c1538238e0224822b47fc9ae2" id="r_a67c8a49c1538238e0224822b47fc9ae2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67c8a49c1538238e0224822b47fc9ae2">setAngle</a> (float angle)</td></tr>
 <tr class="memdesc:a67c8a49c1538238e0224822b47fc9ae2"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates xf to fit given cone angle. It is an angle betweeh main axis and side  <br /></td></tr>
 <tr class="separator:a67c8a49c1538238e0224822b47fc9ae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84015c2424ae2a06291f0b287b74eb2f" id="r_a84015c2424ae2a06291f0b287b74eb2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84015c2424ae2a06291f0b287b74eb2f">getRadius</a> () const</td></tr>
-<tr class="memdesc:a84015c2424ae2a06291f0b287b74eb2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the base radius from the xf.  <br /></td></tr>
-<tr class="separator:a84015c2424ae2a06291f0b287b74eb2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4282e9020f3a5bc33ac9c61d2a2de9f8" id="r_a4282e9020f3a5bc33ac9c61d2a2de9f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4282e9020f3a5bc33ac9c61d2a2de9f8">setRadius</a> (float radius)</td></tr>
-<tr class="separator:a4282e9020f3a5bc33ac9c61d2a2de9f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a424278410ed58c631ab517189a5d2a8b" id="r_a424278410ed58c631ab517189a5d2a8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a424278410ed58c631ab517189a5d2a8b">getBaseRadius</a> () const</td></tr>
+<tr class="memdesc:a424278410ed58c631ab517189a5d2a8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the base base radius from the xf.  <br /></td></tr>
+<tr class="separator:a424278410ed58c631ab517189a5d2a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2be56c17d7c054307ffbd2d7a772a578" id="r_a2be56c17d7c054307ffbd2d7a772a578"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2be56c17d7c054307ffbd2d7a772a578">setBaseRadius</a> (float radius)</td></tr>
+<tr class="memdesc:a2be56c17d7c054307ffbd2d7a772a578"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the xf for the new base radius.  <br /></td></tr>
+<tr class="separator:a2be56c17d7c054307ffbd2d7a772a578"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f478343ae57720fcf7c3c78f01011c4" id="r_a9f478343ae57720fcf7c3c78f01011c4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const std::vector&lt; <a class="el" href="structMR_1_1FeatureObjectSharedProperty.html">FeatureObjectSharedProperty</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f478343ae57720fcf7c3c78f01011c4">getAllSharedProperties</a> () const override</td></tr>
 <tr class="memdesc:a9f478343ae57720fcf7c3c78f01011c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create and generate list of bounded getters and setters for the main properties of feature object, together with prop. name for display and edit into <a class="el" href="namespaceMR_1_1UI.html">UI</a>.  <br /></td></tr>
 <tr class="separator:a9f478343ae57720fcf7c3c78f01011c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1125,6 +1126,25 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a424278410ed58c631ab517189a5d2a8b" name="a424278410ed58c631ab517189a5d2a8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a424278410ed58c631ab517189a5d2a8b">&#9670;&#160;</a></span>getBaseRadius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::ConeObject::getBaseRadius </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes the base base radius from the xf. </p>
+
+</div>
+</div>
 <a id="aaedd5d7a2af7bd0e9b3d1e64b227166d" name="aaedd5d7a2af7bd0e9b3d1e64b227166d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaedd5d7a2af7bd0e9b3d1e64b227166d">&#9670;&#160;</a></span>getCenter()</h2>
 
@@ -1208,25 +1228,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>calculates cone height from xf </p>
-
-</div>
-</div>
-<a id="a84015c2424ae2a06291f0b287b74eb2f" name="a84015c2424ae2a06291f0b287b74eb2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84015c2424ae2a06291f0b287b74eb2f">&#9670;&#160;</a></span>getRadius()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::ConeObject::getRadius </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Computes the base radius from the xf. </p>
 
 </div>
 </div>
@@ -1330,6 +1331,25 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a2be56c17d7c054307ffbd2d7a772a578" name="a2be56c17d7c054307ffbd2d7a772a578"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2be56c17d7c054307ffbd2d7a772a578">&#9670;&#160;</a></span>setBaseRadius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ConeObject::setBaseRadius </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Updates the xf for the new base radius. </p>
+
+</div>
+</div>
 <a id="ac9865671bd83c946e7c9f4d0e50c82fb" name="ac9865671bd83c946e7c9f4d0e50c82fb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac9865671bd83c946e7c9f4d0e50c82fb">&#9670;&#160;</a></span>setCenter()</h2>
 
@@ -1384,23 +1404,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>updates xf to fit cone height </p>
-
-</div>
-</div>
-<a id="a4282e9020f3a5bc33ac9c61d2a2de9f8" name="a4282e9020f3a5bc33ac9c61d2a2de9f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4282e9020f3a5bc33ac9c61d2a2de9f8">&#9670;&#160;</a></span>setRadius()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ConeObject::setRadius </td>
-          <td>(</td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

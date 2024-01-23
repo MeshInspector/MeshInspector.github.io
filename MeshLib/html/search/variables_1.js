@@ -35,7 +35,7 @@ var searchData=
   ['bitset_32',['BitSet',['../namespaceMR.html#a0644533afbeab941be3a4178a8feb4fe',1,'MR']]],
   ['bmap_33',['BMap',['../namespaceMR.html#a94888580c3dee1529c46303f33c6681f',1,'MR']]],
   ['bodynormal_34',['bodyNormal',['../structMR_1_1MovementBuildBodyParams.html#a8c634d38b0c5d16e04f55c1b71976c8a',1,'MR::MovementBuildBodyParams']]],
-  ['border_35',['border',['../structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a611f524a057ce6442f48a01faef5cc19',1,'MR::TriangulationHelpers::TriangulatedFanData::border'],['../structMR_1_1UI_1_1ButtonCustomizationParams.html#a44e7a1e13298276ebd757d7e318111a0',1,'MR::UI::ButtonCustomizationParams::border']]],
+  ['border_35',['border',['../structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a611f524a057ce6442f48a01faef5cc19',1,'MR::TriangulationHelpers::TriangulatedFanData::border'],['../structMR_1_1TriangulationHelpers_1_1FanRecord.html#a2782b460935b32953af03748fd17e333',1,'MR::TriangulationHelpers::FanRecord::border'],['../structMR_1_1UI_1_1ButtonCustomizationParams.html#a44e7a1e13298276ebd757d7e318111a0',1,'MR::UI::ButtonCustomizationParams::border']]],
   ['borderarrayobjid_5f_36',['borderArrayObjId_',['../classMR_1_1RenderMeshObject.html#a1a9f41cc9d68f81801374e9f18c6b195',1,'MR::RenderMeshObject']]],
   ['borderbuffer_5f_37',['borderBuffer_',['../classMR_1_1RenderMeshObject.html#a4dd4c30b4f09367586d6f0b6e520e85c',1,'MR::RenderMeshObject']]],
   ['bordercolor_38',['borderColor',['../structMR_1_1Viewport_1_1Parameters.html#a5812db13d35cbe2ad6ad5bd87c2d30eb',1,'MR::Viewport::Parameters']]],

@@ -54,5 +54,6 @@ var group__SerializerGroup =
     [ "MR::serializeToJson", "group__SerializerGroup.html#ga73da1f89ff79644868f29b66a89aa3ef", null ],
     [ "MR::serializeToJson", "group__SerializerGroup.html#ga2460b57ac19911dbba07d61927a47ece", null ],
     [ "MR::serializeViaVerticesToJson", "group__SerializerGroup.html#ga890eacf2c6391cbf6dbb98c6bbb0fa28", null ],
-    [ "MR::SceneFileFilters", "group__SerializerGroup.html#ga23013624dd00042658c503443e5d3ffb", null ]
+    [ "MR::SceneFileFilters", "group__SerializerGroup.html#ga23013624dd00042658c503443e5d3ffb", null ],
+    [ "MR::SceneFileWriteFilters", "group__SerializerGroup.html#ga4d85510ea6cd8863229ae69ea4b7d051", null ]
 ];

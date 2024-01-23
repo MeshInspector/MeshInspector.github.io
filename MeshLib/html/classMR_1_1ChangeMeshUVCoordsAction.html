@@ -137,8 +137,11 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aff9496937d0c0fddbd3ed701edb82ab5" id="r_aff9496937d0c0fddbd3ed701edb82ab5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff9496937d0c0fddbd3ed701edb82ab5">ChangeMeshUVCoordsAction</a> (std::string <a class="el" href="#aa8f2ca30bbf02500362d5bc387ecbcf8">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMeshHolder.html">ObjectMeshHolder</a> &gt; &amp;obj)</td></tr>
-<tr class="memdesc:aff9496937d0c0fddbd3ed701edb82ab5"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's mesh before making any changes in it  <br /></td></tr>
+<tr class="memdesc:aff9496937d0c0fddbd3ed701edb82ab5"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's uv-coordinates before making any changes in them  <br /></td></tr>
 <tr class="separator:aff9496937d0c0fddbd3ed701edb82ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a798958009119de0cd81f8b3136c963fe" id="r_a798958009119de0cd81f8b3136c963fe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a798958009119de0cd81f8b3136c963fe">ChangeMeshUVCoordsAction</a> (std::string <a class="el" href="#aa8f2ca30bbf02500362d5bc387ecbcf8">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMeshHolder.html">ObjectMeshHolder</a> &gt; &amp;obj, <a class="el" href="namespaceMR.html#ae0d0eee1d742c868c4ccaff8b9f0693a">VertUVCoords</a> &amp;&amp;newUvCoords)</td></tr>
+<tr class="memdesc:a798958009119de0cd81f8b3136c963fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's uv-coordinates and immediate set new value  <br /></td></tr>
+<tr class="separator:a798958009119de0cd81f8b3136c963fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8f2ca30bbf02500362d5bc387ecbcf8" id="r_aa8f2ca30bbf02500362d5bc387ecbcf8"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8f2ca30bbf02500362d5bc387ecbcf8">name</a> () const override</td></tr>
 <tr class="separator:aa8f2ca30bbf02500362d5bc387ecbcf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8251a4c060d3538d58564c3429c9afda" id="r_a8251a4c060d3538d58564c3429c9afda"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8251a4c060d3538d58564c3429c9afda">action</a> (<a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a>) override</td></tr>
@@ -175,7 +178,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aff9496937d0c0fddbd3ed701edb82ab5" name="aff9496937d0c0fddbd3ed701edb82ab5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff9496937d0c0fddbd3ed701edb82ab5">&#9670;&#160;</a></span>ChangeMeshUVCoordsAction()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aff9496937d0c0fddbd3ed701edb82ab5">&#9670;&#160;</a></span>ChangeMeshUVCoordsAction() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -201,7 +204,43 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>use this constructor to remember object's mesh before making any changes in it </p>
+<p>use this constructor to remember object's uv-coordinates before making any changes in them </p>
+
+</div>
+</div>
+<a id="a798958009119de0cd81f8b3136c963fe" name="a798958009119de0cd81f8b3136c963fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a798958009119de0cd81f8b3136c963fe">&#9670;&#160;</a></span>ChangeMeshUVCoordsAction() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::ChangeMeshUVCoordsAction::ChangeMeshUVCoordsAction </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>name</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMeshHolder.html">ObjectMeshHolder</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ae0d0eee1d742c868c4ccaff8b9f0693a">VertUVCoords</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>newUvCoords</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>use this constructor to remember object's uv-coordinates and immediate set new value </p>
 
 </div>
 </div>

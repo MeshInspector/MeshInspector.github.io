@@ -144,6 +144,7 @@ var NAVTREEINDEX4 =
 "MRObjectPoints_8h_source.html":[13,0,0,1,2,212],
 "MRObjectSave_8h.html":[13,0,0,1,2,215],
 "MRObjectSave_8h.html#a54a3a511e827b1db27f3a67e02c92c08":[13,0,0,1,2,215,0],
+"MRObjectSave_8h.html#aacb67adec04e843d7b476835acc3b2b2":[13,0,0,1,2,215,1],
 "MRObjectSave_8h_source.html":[13,0,0,1,2,215],
 "MRObjectTransformWidget_8h.html":[13,0,0,1,4,29],
 "MRObjectTransformWidget_8h.html#a83b450495cc5fde2cb5539447eb20dc6":[13,0,0,1,4,29,7],
@@ -231,7 +232,8 @@ var NAVTREEINDEX4 =
 "MRPointCloudRelax_8h.html":[13,0,0,1,2,232],
 "MRPointCloudRelax_8h_source.html":[13,0,0,1,2,232],
 "MRPointCloudTriangulationHelpers_8h.html":[13,0,0,1,2,234],
-"MRPointCloudTriangulationHelpers_8h.html#a7cabe4d99c652b31780cbe77309a3dcc":[13,0,0,1,2,234,1],
+"MRPointCloudTriangulationHelpers_8h.html#a7cabe4d99c652b31780cbe77309a3dcc":[13,0,0,1,2,234,3],
+"MRPointCloudTriangulationHelpers_8h.html#af75ebe41a4ccdfcb9aac71dfcca279b1":[13,0,0,1,2,234,4],
 "MRPointCloudTriangulationHelpers_8h_source.html":[13,0,0,1,2,234],
 "MRPointCloudTriangulation_8h.html":[13,0,0,1,2,233],
 "MRPointCloudTriangulation_8h.html#a9447dbfc9cd3348fd2a6a806234b64fe":[13,0,0,1,2,233,0],
@@ -246,8 +248,6 @@ var NAVTREEINDEX4 =
 "MRPointOnFace_8h_source.html":[13,0,0,1,2,236],
 "MRPointOnObject_8h.html":[13,0,0,1,2,237],
 "MRPointOnObject_8h_source.html":[13,0,0,1,2,237],
-"MRPointToPlaneAligningTransform_8h.html":[13,0,0,1,2,243],
-"MRPointToPlaneAligningTransform_8h_source.html":[13,0,0,1,2,243],
-"MRPointToPointAligningTransform_8h.html":[13,0,0,1,2,244],
-"MRPointToPointAligningTransform_8h_source.html":[13,0,0,1,2,244]
+"MRPointToPlaneAligningTransform_8h.html":[13,0,0,1,2,244],
+"MRPointToPlaneAligningTransform_8h_source.html":[13,0,0,1,2,244]
 };

@@ -135,10 +135,11 @@ Public Attributes</h2></td></tr>
 <tr class="separator:af4c50e1143edfb7886c734be3226ff9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9288f9c5670484c0f76b53be1311b3cc" id="r_a9288f9c5670484c0f76b53be1311b3cc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9288f9c5670484c0f76b53be1311b3cc">subdivideBorder</a> = true</td></tr>
 <tr class="separator:a9288f9c5670484c0f76b53be1311b3cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab77b269af5993695f8fa85b105994231" id="r_ab77b269af5993695f8fa85b105994231"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab77b269af5993695f8fa85b105994231">minTriAspectRatio</a> = 1</td></tr>
-<tr class="separator:ab77b269af5993695f8fa85b105994231"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33de3142a2aa3715df6e72e27478d3e1" id="r_a33de3142a2aa3715df6e72e27478d3e1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33de3142a2aa3715df6e72e27478d3e1">maxTriAspectRatio</a> = FLT_MAX</td></tr>
+<tr class="memitem:a33de3142a2aa3715df6e72e27478d3e1" id="r_a33de3142a2aa3715df6e72e27478d3e1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33de3142a2aa3715df6e72e27478d3e1">maxTriAspectRatio</a> = 0</td></tr>
+<tr class="memdesc:a33de3142a2aa3715df6e72e27478d3e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The subdivision stops as soon as all triangles (in the region) have aspect ratio below or equal to this value.  <br /></td></tr>
 <tr class="separator:a33de3142a2aa3715df6e72e27478d3e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1664c92f743cfb7fc8dd795f7d89d9f" id="r_ad1664c92f743cfb7fc8dd795f7d89d9f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1664c92f743cfb7fc8dd795f7d89d9f">maxSplittableTriAspectRatio</a> = FLT_MAX</td></tr>
+<tr class="separator:ad1664c92f743cfb7fc8dd795f7d89d9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a757c0278a48bf06117256165bec538c0" id="r_a757c0278a48bf06117256165bec538c0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a757c0278a48bf06117256165bec538c0">smoothMode</a> = false</td></tr>
 <tr class="separator:a757c0278a48bf06117256165bec538c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55b830f7823b4a74b6891945bafa12a5" id="r_a55b830f7823b4a74b6891945bafa12a5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55b830f7823b4a74b6891945bafa12a5">minSharpDihedralAngle</a> = PI_F / 6</td></tr>
@@ -252,6 +253,21 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad1664c92f743cfb7fc8dd795f7d89d9f" name="ad1664c92f743cfb7fc8dd795f7d89d9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1664c92f743cfb7fc8dd795f7d89d9f">&#9670;&#160;</a></span>maxSplittableTriAspectRatio</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::SubdivideSettings::maxSplittableTriAspectRatio = FLT_MAX</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>An edge is subdivided only if both its left and right triangles have aspect ratio below or equal to this value. So this is a maximum aspect ratio of a triangle that can be split on two before Delone optimization. Please set it to a smaller value only if subdivideBorder==false, otherwise many narrow triangles can appear near border </p>
+
+</div>
+</div>
 <a id="a33de3142a2aa3715df6e72e27478d3e1" name="a33de3142a2aa3715df6e72e27478d3e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a33de3142a2aa3715df6e72e27478d3e1">&#9670;&#160;</a></span>maxTriAspectRatio</h2>
 
@@ -259,11 +275,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float MR::SubdivideSettings::maxTriAspectRatio = FLT_MAX</td>
+          <td class="memname">float MR::SubdivideSettings::maxTriAspectRatio = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>An edge is subdivided only if both its left and right triangles have aspect ratio below or equal to this value. Please set it to a smaller value only if subdivideBorder==false, otherwise many narrow triangles can appear near border </p>
+
+<p>The subdivision stops as soon as all triangles (in the region) have aspect ratio below or equal to this value. </p>
 
 </div>
 </div>
@@ -279,21 +296,6 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>In case of activated smoothMode, the smoothness is locally deactivated at the edges having dihedral angle at least this value </p>
-
-</div>
-</div>
-<a id="ab77b269af5993695f8fa85b105994231" name="ab77b269af5993695f8fa85b105994231"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab77b269af5993695f8fa85b105994231">&#9670;&#160;</a></span>minTriAspectRatio</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::SubdivideSettings::minTriAspectRatio = 1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>An edge is subdivided only if its left or right triangle has aspect ratio above or equal to this value. Please set it to a larger value if you would like to subdivide edges near degenerate triangles only </p>
 
 </div>
 </div>

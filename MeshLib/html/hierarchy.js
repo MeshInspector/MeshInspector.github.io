@@ -178,6 +178,7 @@ var hierarchy =
         [ "MR::TaggedBitSet< T >", "classMR_1_1TaggedBitSet.html", null ]
       ] ]
     ] ],
+    [ "MR::PointsLoad::E57LoadSettings", "structMR_1_1PointsLoad_1_1E57LoadSettings.html", null ],
     [ "MR::EdgePathsBuilderT< MetricToPenalty >", "classMR_1_1EdgePathsBuilderT.html", null ],
     [ "MR::EdgePathsBuilderT< MetricToAStarPenalty >", "classMR_1_1EdgePathsBuilderT.html", [
       [ "MR::EdgePathsAStarBuilder", "classMR_1_1EdgePathsAStarBuilder.html", null ]
@@ -195,6 +196,7 @@ var hierarchy =
     [ "MR::MeshBuilder::equalVector3f", "structMR_1_1MeshBuilder_1_1equalVector3f.html", null ],
     [ "MR::FaceFace", "structMR_1_1FaceFace.html", null ],
     [ "MR::MeshBuilder::FaceRecord", "structMR_1_1MeshBuilder_1_1FaceRecord.html", null ],
+    [ "MR::TriangulationHelpers::FanRecord", "structMR_1_1TriangulationHelpers_1_1FanRecord.html", null ],
     [ "MR::FeatureObject", "structMR_1_1FeatureObject.html", [
       [ "MR::CircleObject", "classMR_1_1CircleObject.html", null ],
       [ "MR::ConeObject", "classMR_1_1ConeObject.html", null ],
@@ -443,6 +445,7 @@ var hierarchy =
     [ "MR::LineSegm< V >", "structMR_1_1LineSegm.html", null ],
     [ "MR::VoxelsLoad::LoadDCMResult", "structMR_1_1VoxelsLoad_1_1LoadDCMResult.html", null ],
     [ "MR::VoxelsLoad::LoadingTiffSettings", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html", null ],
+    [ "MR::TriangulationHelpers::LocalTriangulations", "structMR_1_1TriangulationHelpers_1_1LocalTriangulations.html", null ],
     [ "MR::Logger", "classMR_1_1Logger.html", null ],
     [ "MR::MakeDegenerateBandAroundRegionParams", "structMR_1_1MakeDegenerateBandAroundRegionParams.html", null ],
     [ "MR::detail::MakeScopeGuard< T >", "structMR_1_1detail_1_1MakeScopeGuard.html", null ],
@@ -488,6 +491,7 @@ var hierarchy =
     [ "N", null, [
       [ "MR::RingIterator< N >", "classMR_1_1RingIterator.html", null ]
     ] ],
+    [ "MR::PointsLoad::NamedCloud", "structMR_1_1PointsLoad_1_1NamedCloud.html", null ],
     [ "MR::MeshLoad::NamedMesh", "structMR_1_1MeshLoad_1_1NamedMesh.html", null ],
     [ "MR::MeshLoad::NamedMeshLoader", "structMR_1_1MeshLoad_1_1NamedMeshLoader.html", null ],
     [ "MR::MeshSave::NamedXfMesh", "structMR_1_1MeshSave_1_1NamedXfMesh.html", null ],

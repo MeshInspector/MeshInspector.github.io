@@ -134,8 +134,11 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a85820c2fb1b34f635d51b6ca5b5b626a" id="r_a85820c2fb1b34f635d51b6ca5b5b626a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85820c2fb1b34f635d51b6ca5b5b626a">ChangeVertsColorMapAction</a> (const std::string &amp;<a class="el" href="#afab050a8026282cb3ade8eff783f95e4">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj)</td></tr>
-<tr class="memdesc:a85820c2fb1b34f635d51b6ca5b5b626a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructed from original obj.  <br /></td></tr>
+<tr class="memdesc:a85820c2fb1b34f635d51b6ca5b5b626a"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's vertex colors before making any changes in them  <br /></td></tr>
 <tr class="separator:a85820c2fb1b34f635d51b6ca5b5b626a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc9ca0e165f8954481449a98d979894a" id="r_abc9ca0e165f8954481449a98d979894a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc9ca0e165f8954481449a98d979894a">ChangeVertsColorMapAction</a> (const std::string &amp;<a class="el" href="#afab050a8026282cb3ade8eff783f95e4">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj, <a class="el" href="namespaceMR.html#aead9b201ba4de421810b5504caef1d08">VertColors</a> &amp;&amp;newVertsColorMap)</td></tr>
+<tr class="memdesc:abc9ca0e165f8954481449a98d979894a"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's vertex colors and immediate set new value  <br /></td></tr>
+<tr class="separator:abc9ca0e165f8954481449a98d979894a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afab050a8026282cb3ade8eff783f95e4" id="r_afab050a8026282cb3ade8eff783f95e4"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afab050a8026282cb3ade8eff783f95e4">name</a> () const override</td></tr>
 <tr class="separator:afab050a8026282cb3ade8eff783f95e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a95d1d7e2662430d2a44131bb888751" id="r_a1a95d1d7e2662430d2a44131bb888751"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a95d1d7e2662430d2a44131bb888751">action</a> (<a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a>) override</td></tr>
@@ -172,7 +175,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a85820c2fb1b34f635d51b6ca5b5b626a" name="a85820c2fb1b34f635d51b6ca5b5b626a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85820c2fb1b34f635d51b6ca5b5b626a">&#9670;&#160;</a></span>ChangeVertsColorMapAction()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a85820c2fb1b34f635d51b6ca5b5b626a">&#9670;&#160;</a></span>ChangeVertsColorMapAction() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -198,7 +201,43 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructed from original obj. </p>
+<p>use this constructor to remember object's vertex colors before making any changes in them </p>
+
+</div>
+</div>
+<a id="abc9ca0e165f8954481449a98d979894a" name="abc9ca0e165f8954481449a98d979894a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc9ca0e165f8954481449a98d979894a">&#9670;&#160;</a></span>ChangeVertsColorMapAction() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::ChangeVertsColorMapAction::ChangeVertsColorMapAction </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#aead9b201ba4de421810b5504caef1d08">VertColors</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>newVertsColorMap</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>use this constructor to remember object's vertex colors and immediate set new value </p>
 
 </div>
 </div>

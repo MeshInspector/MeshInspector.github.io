@@ -15,6 +15,7 @@ var searchData=
   ['linesvisualizepropertytype_12',['LinesVisualizePropertyType',['../structMR_1_1LinesVisualizePropertyType.html',1,'MR']]],
   ['loaddcmresult_13',['LoadDCMResult',['../structMR_1_1VoxelsLoad_1_1LoadDCMResult.html',1,'MR::VoxelsLoad']]],
   ['loadingtiffsettings_14',['LoadingTiffSettings',['../structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html',1,'MR::VoxelsLoad']]],
-  ['logger_15',['Logger',['../classMR_1_1Logger.html',1,'MR']]],
-  ['loggingstreambuf_16',['LoggingStreambuf',['../classMR_1_1LoggingStreambuf.html',1,'MR']]]
+  ['localtriangulations_15',['LocalTriangulations',['../structMR_1_1TriangulationHelpers_1_1LocalTriangulations.html',1,'MR::TriangulationHelpers']]],
+  ['logger_16',['Logger',['../classMR_1_1Logger.html',1,'MR']]],
+  ['loggingstreambuf_17',['LoggingStreambuf',['../classMR_1_1LoggingStreambuf.html',1,'MR']]]
 ];

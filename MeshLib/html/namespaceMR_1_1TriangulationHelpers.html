@@ -108,6 +108,12 @@ $(function(){initNavTree('namespaceMR_1_1TriangulationHelpers.html',''); initRes
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TriangulationHelpers_1_1FanRecord.html">FanRecord</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">describes one fan of triangles around a point  <a href="structMR_1_1TriangulationHelpers_1_1FanRecord.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TriangulationHelpers_1_1LocalTriangulations.html">LocalTriangulations</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">describes a number of local triangulations of some points (assigned to a thread)  <a href="structMR_1_1TriangulationHelpers_1_1LocalTriangulations.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TriangulationHelpers_1_1Settings.html">Settings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html">TriangulatedFanData</a></td></tr>
@@ -131,6 +137,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a7cabe4d99c652b31780cbe77309a3dcc" id="r_a7cabe4d99c652b31780cbe77309a3dcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cabe4d99c652b31780cbe77309a3dcc">buildLocalTriangulation</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, <a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> v, const <a class="el" href="namespaceMR.html#ad74e2d018e02d0b815decae208d49ceb">VertCoords</a> &amp;normals, const <a class="el" href="structMR_1_1TriangulationHelpers_1_1Settings.html">Settings</a> &amp;settings, <a class="el" href="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html">TriangulatedFanData</a> &amp;fanData)</td></tr>
 <tr class="memdesc:a7cabe4d99c652b31780cbe77309a3dcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs local triangulation around given point  <br /></td></tr>
 <tr class="separator:a7cabe4d99c652b31780cbe77309a3dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af75ebe41a4ccdfcb9aac71dfcca279b1" id="r_af75ebe41a4ccdfcb9aac71dfcca279b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; std::vector&lt; <a class="el" href="structMR_1_1TriangulationHelpers_1_1LocalTriangulations.html">LocalTriangulations</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af75ebe41a4ccdfcb9aac71dfcca279b1">buildLocalTriangulations</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="namespaceMR.html#ad74e2d018e02d0b815decae208d49ceb">VertCoords</a> &amp;normals, const <a class="el" href="structMR_1_1TriangulationHelpers_1_1Settings.html">Settings</a> &amp;settings, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
+<tr class="separator:af75ebe41a4ccdfcb9aac71dfcca279b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gade232dc6effded816ceab3a98616c8b6" id="r_gade232dc6effded816ceab3a98616c8b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__TriangulationHelpersGroup.html#gade232dc6effded816ceab3a98616c8b6">isBoundaryPoint</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const <a class="el" href="namespaceMR.html#ad74e2d018e02d0b815decae208d49ceb">VertCoords</a> &amp;normals, <a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> v, float radius, float boundaryAngle, <a class="el" href="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html">TriangulatedFanData</a> &amp;triangulationData)</td></tr>
 <tr class="memdesc:gade232dc6effded816ceab3a98616c8b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if given vertex is on boundary of the point cloud.  <br /></td></tr>
 <tr class="separator:gade232dc6effded816ceab3a98616c8b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,6 +179,38 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>constructs local triangulation around given point </p>
+
+</div>
+</div>
+<a id="af75ebe41a4ccdfcb9aac71dfcca279b1" name="af75ebe41a4ccdfcb9aac71dfcca279b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af75ebe41a4ccdfcb9aac71dfcca279b1">&#9670;&#160;</a></span>buildLocalTriangulations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; std::vector&lt; <a class="el" href="structMR_1_1TriangulationHelpers_1_1LocalTriangulations.html">LocalTriangulations</a> &gt; &gt; MR::TriangulationHelpers::buildLocalTriangulations </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cloud</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ad74e2d018e02d0b815decae208d49ceb">VertCoords</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>normals</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TriangulationHelpers_1_1Settings.html">Settings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes all local triangulations of all points in the cloud, and returns them distributed among a set of <a class="el" href="structMR_1_1TriangulationHelpers_1_1LocalTriangulations.html" title="describes a number of local triangulations of some points (assigned to a thread)">LocalTriangulations</a> objects </p>
 
 </div>
 </div>

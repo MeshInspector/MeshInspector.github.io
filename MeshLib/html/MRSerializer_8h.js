@@ -45,5 +45,6 @@ var MRSerializer_8h =
     [ "serializeToJson", "MRSerializer_8h.html#ga73da1f89ff79644868f29b66a89aa3ef", null ],
     [ "serializeToJson", "MRSerializer_8h.html#ga2460b57ac19911dbba07d61927a47ece", null ],
     [ "serializeViaVerticesToJson", "MRSerializer_8h.html#ga890eacf2c6391cbf6dbb98c6bbb0fa28", null ],
-    [ "SceneFileFilters", "MRSerializer_8h.html#ga23013624dd00042658c503443e5d3ffb", null ]
+    [ "SceneFileFilters", "MRSerializer_8h.html#ga23013624dd00042658c503443e5d3ffb", null ],
+    [ "SceneFileWriteFilters", "MRSerializer_8h.html#ga4d85510ea6cd8863229ae69ea4b7d051", null ]
 ];

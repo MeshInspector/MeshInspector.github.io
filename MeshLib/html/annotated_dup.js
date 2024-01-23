@@ -55,6 +55,10 @@ var annotated_dup =
         [ "IntersectionInfo", "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html", "structMR_1_1PlanarTriangulation_1_1IntersectionInfo" ],
         [ "IntersectionsMap", "structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html", "structMR_1_1PlanarTriangulation_1_1IntersectionsMap" ]
       ] ],
+      [ "PointsLoad", "namespaceMR_1_1PointsLoad.html", [
+        [ "E57LoadSettings", "structMR_1_1PointsLoad_1_1E57LoadSettings.html", "structMR_1_1PointsLoad_1_1E57LoadSettings" ],
+        [ "NamedCloud", "structMR_1_1PointsLoad_1_1NamedCloud.html", "structMR_1_1PointsLoad_1_1NamedCloud" ]
+      ] ],
       [ "PointsSave", "namespaceMR_1_1PointsSave.html", [
         [ "CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", "structMR_1_1PointsSave_1_1CtmSavePointsOptions" ]
       ] ],
@@ -62,6 +66,8 @@ var annotated_dup =
         [ "SceneLoadResult", "structMR_1_1SceneLoad_1_1SceneLoadResult.html", "structMR_1_1SceneLoad_1_1SceneLoadResult" ]
       ] ],
       [ "TriangulationHelpers", "namespaceMR_1_1TriangulationHelpers.html", [
+        [ "FanRecord", "structMR_1_1TriangulationHelpers_1_1FanRecord.html", "structMR_1_1TriangulationHelpers_1_1FanRecord" ],
+        [ "LocalTriangulations", "structMR_1_1TriangulationHelpers_1_1LocalTriangulations.html", "structMR_1_1TriangulationHelpers_1_1LocalTriangulations" ],
         [ "Settings", "structMR_1_1TriangulationHelpers_1_1Settings.html", "structMR_1_1TriangulationHelpers_1_1Settings" ],
         [ "TriangulatedFanData", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData" ]
       ] ],
