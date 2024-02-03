@@ -6,7 +6,6 @@ var searchData=
   ['dipoles_3',['Dipoles',['../namespaceMR.html#a017a04070a8e3c9fa3fe608074e5ff2f',1,'MR']]],
   ['disabledwarnings_4',['DisabledWarnings',['../namespaceMR.html#af32258fa43e72bfbd6c42df4283b25db',1,'MR']]],
   ['dragdropsignal_5',['DragDropSignal',['../classMR_1_1Viewer.html#ae75b061c70e140f41530c73ec2879d99',1,'MR::Viewer']]],
-  ['drawcontentfunc_6',['DrawContentFunc',['../structMR_1_1RibbonNotification.html#a39c97a1580c41d4c077b1373180b6ae9',1,'MR::RibbonNotification']]],
-  ['drawtabconfig_7',['DrawTabConfig',['../classMR_1_1RibbonMenu.html#ad0d582e1904c2ad88eee5f4bfe814f83',1,'MR::RibbonMenu']]],
-  ['dropitemslist_8',['DropItemsList',['../classMR_1_1RibbonMenuItem.html#a4799011be3410f46444164d6d00b966e',1,'MR::RibbonMenuItem']]]
+  ['drawtabconfig_6',['DrawTabConfig',['../classMR_1_1RibbonMenu.html#ad0d582e1904c2ad88eee5f4bfe814f83',1,'MR::RibbonMenu']]],
+  ['dropitemslist_7',['DropItemsList',['../classMR_1_1RibbonMenuItem.html#a4799011be3410f46444164d6d00b966e',1,'MR::RibbonMenuItem']]]
 ];

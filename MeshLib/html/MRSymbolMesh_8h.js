@@ -7,6 +7,6 @@ var MRSymbolMesh_8h =
       [ "Right", "MRSymbolMesh_8h.html#a78218d9e8bdad31c92f563f91f5d470aa54ea5115bec8bfd809c0ced25e85bbde", null ]
     ] ],
     [ "addBaseToPlanarMesh", "MRSymbolMesh_8h.html#af4859304d3e1d74eed3bd62476688b83", null ],
-    [ "createSymbolContours", "MRSymbolMesh_8h.html#a8417edbdb1cf6e13ba8334ac0f3b4858", null ],
-    [ "createSymbolsMesh", "MRSymbolMesh_8h.html#a5324125731d80149d155a6500cd19844", null ]
+    [ "createSymbolContours", "MRSymbolMesh_8h.html#ac97bc216d8f6bc57743d6f9340ac8e8e", null ],
+    [ "createSymbolsMesh", "MRSymbolMesh_8h.html#ab37af5a68e3b3d116254e85a3bb9b4f7", null ]
 ];

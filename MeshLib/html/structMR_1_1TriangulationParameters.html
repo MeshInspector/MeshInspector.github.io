@@ -114,8 +114,10 @@ $(function(){initNavTree('structMR_1_1TriangulationParameters.html',''); initRes
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aa4ccfb848c69c38a9307eae1232adcbe" id="r_aa4ccfb848c69c38a9307eae1232adcbe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4ccfb848c69c38a9307eae1232adcbe">avgNumNeighbours</a> {40}</td></tr>
-<tr class="memdesc:aa4ccfb848c69c38a9307eae1232adcbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Average number of neighbors for optimazed local triangulation.  <br /></td></tr>
+<tr class="memdesc:aa4ccfb848c69c38a9307eae1232adcbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Average number of neighbors for optimized local triangulation.  <br /></td></tr>
 <tr class="separator:aa4ccfb848c69c38a9307eae1232adcbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a474b58f25243d6fbbaee08808d91e4cd" id="r_a474b58f25243d6fbbaee08808d91e4cd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a474b58f25243d6fbbaee08808d91e4cd">radius</a> {0}</td></tr>
+<tr class="separator:a474b58f25243d6fbbaee08808d91e4cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebe6d2d03a26dccb4842f001e3506202" id="r_aebe6d2d03a26dccb4842f001e3506202"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebe6d2d03a26dccb4842f001e3506202">critAngle</a> {PI2_F}</td></tr>
 <tr class="memdesc:aebe6d2d03a26dccb4842f001e3506202"><td class="mdescLeft">&#160;</td><td class="mdescRight">Critical angle of triangles in local triangulation (angle between triangles in fan should be less then this value)  <br /></td></tr>
 <tr class="separator:aebe6d2d03a26dccb4842f001e3506202"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,7 +141,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Average number of neighbors for optimazed local triangulation. </p>
+<p>Average number of neighbors for optimized local triangulation. </p>
 <p>The triangulation calculates the radius at which the average number of neighboring points is closest to this parameter. This radius is used to determine the local triangulation zone. </p><dl class="section note"><dt>Note</dt><dd>Too small value can make not optimal triangulation and additional holes<br  />
 Too big value increases difficulty of optimization and can make local optimum of local triangulation</dd></dl>
 <a class="anchor" id="TriangulationParameters::avgNumNeighbours_examples"></a>
@@ -203,6 +205,21 @@ Too small value</div></div>
 
 <p>Critical length of hole (all holes with length less then this value will be filled) </p>
 <p>If value is subzero it is set automaticly to 0.7*bbox.diagonal() </p>
+
+</div>
+</div>
+<a id="a474b58f25243d6fbbaee08808d91e4cd" name="a474b58f25243d6fbbaee08808d91e4cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a474b58f25243d6fbbaee08808d91e4cd">&#9670;&#160;</a></span>radius</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::TriangulationParameters::radius {0}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Radius of neighborhood around each point to consider for building local triangulation. This is an alternative to avgNumNeighbours parameter. Please set to positive value only one of them. </p>
 
 </div>
 </div>

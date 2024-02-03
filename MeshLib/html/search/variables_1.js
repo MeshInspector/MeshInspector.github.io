@@ -35,7 +35,7 @@ var searchData=
   ['bitset_32',['BitSet',['../namespaceMR.html#a0644533afbeab941be3a4178a8feb4fe',1,'MR']]],
   ['bmap_33',['BMap',['../namespaceMR.html#a94888580c3dee1529c46303f33c6681f',1,'MR']]],
   ['bodynormal_34',['bodyNormal',['../structMR_1_1MovementBuildBodyParams.html#a8c634d38b0c5d16e04f55c1b71976c8a',1,'MR::MovementBuildBodyParams']]],
-  ['border_35',['border',['../structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a611f524a057ce6442f48a01faef5cc19',1,'MR::TriangulationHelpers::TriangulatedFanData::border'],['../structMR_1_1TriangulationHelpers_1_1FanRecord.html#a2782b460935b32953af03748fd17e333',1,'MR::TriangulationHelpers::FanRecord::border'],['../structMR_1_1UI_1_1ButtonCustomizationParams.html#a44e7a1e13298276ebd757d7e318111a0',1,'MR::UI::ButtonCustomizationParams::border']]],
+  ['border_35',['border',['../structMR_1_1FanRecord.html#ab96acab7dff75b813d869d05ae408ca7',1,'MR::FanRecord::border'],['../structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a611f524a057ce6442f48a01faef5cc19',1,'MR::TriangulationHelpers::TriangulatedFanData::border'],['../structMR_1_1UI_1_1ButtonCustomizationParams.html#a44e7a1e13298276ebd757d7e318111a0',1,'MR::UI::ButtonCustomizationParams::border']]],
   ['borderarrayobjid_5f_36',['borderArrayObjId_',['../classMR_1_1RenderMeshObject.html#a1a9f41cc9d68f81801374e9f18c6b195',1,'MR::RenderMeshObject']]],
   ['borderbuffer_5f_37',['borderBuffer_',['../classMR_1_1RenderMeshObject.html#a4dd4c30b4f09367586d6f0b6e520e85c',1,'MR::RenderMeshObject']]],
   ['bordercolor_38',['borderColor',['../structMR_1_1Viewport_1_1Parameters.html#a5812db13d35cbe2ad6ad5bd87c2d30eb',1,'MR::Viewport::Parameters']]],
@@ -49,7 +49,8 @@ var searchData=
   ['buffer_46',['Buffer',['../namespaceMR.html#ac0e64b96206dcc7e32053b671c6b2c1b',1,'MR']]],
   ['buildpathexponentmodifier_47',['buildPathExponentModifier',['../structMR_1_1VolumeSegmentationParameters.html#af000ea80a099a9de6d4f4f4475580b6c',1,'MR::VolumeSegmentationParameters']]],
   ['bundiredge_48',['bUndirEdge',['../structMR_1_1UndirectedEdgeUndirectedEdge.html#a535f1290920a2d84945d8cc8989397c6',1,'MR::UndirectedEdgeUndirectedEdge']]],
-  ['bypassdir_49',['bypassDir',['../structMR_1_1ToolPathParams.html#a50c755eddaa84d57053b8b2ac05090c7',1,'MR::ToolPathParams']]],
-  ['bytes_50',['bytes',['../structMR_1_1RawTiffOutput.html#a0246df3ced8b0fffb290eb2abf95bb96',1,'MR::RawTiffOutput']]],
-  ['bytespersample_51',['bytesPerSample',['../structMR_1_1BaseTiffParameters.html#a3ff0d181f2553f8714d635e264f383c7',1,'MR::BaseTiffParameters']]]
+  ['buttonname_49',['buttonName',['../structMR_1_1RibbonNotification.html#a156a1963010372c4c838def5344897ab',1,'MR::RibbonNotification']]],
+  ['bypassdir_50',['bypassDir',['../structMR_1_1ToolPathParams.html#a50c755eddaa84d57053b8b2ac05090c7',1,'MR::ToolPathParams']]],
+  ['bytes_51',['bytes',['../structMR_1_1RawTiffOutput.html#a0246df3ced8b0fffb290eb2abf95bb96',1,'MR::RawTiffOutput']]],
+  ['bytespersample_52',['bytesPerSample',['../structMR_1_1BaseTiffParameters.html#a3ff0d181f2553f8714d635e264f383c7',1,'MR::BaseTiffParameters']]]
 ];

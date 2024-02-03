@@ -111,11 +111,16 @@ $(function(){initNavTree('classMR_1_1SceneSettings.html',''); initResizable(); }
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ae472fad9782abf0cb2c7c6526a059911" id="r_ae472fad9782abf0cb2c7c6526a059911"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae472fad9782abf0cb2c7c6526a059911">Type</a> { <a class="el" href="#ae472fad9782abf0cb2c7c6526a059911a7c69489518a03a878e4a155f854de42e">MeshFlatShading</a>
-, <a class="el" href="#ae472fad9782abf0cb2c7c6526a059911a258e9309c3ed4ad7ca9cecd5c4c6a242">UseDefaultScenePropertiesOnDeserialization</a>
+<tr class="memitem:ae472fad9782abf0cb2c7c6526a059911" id="r_ae472fad9782abf0cb2c7c6526a059911"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae472fad9782abf0cb2c7c6526a059911">Type</a> { <a class="el" href="#ae472fad9782abf0cb2c7c6526a059911a258e9309c3ed4ad7ca9cecd5c4c6a242">UseDefaultScenePropertiesOnDeserialization</a>
 , <a class="el" href="#ae472fad9782abf0cb2c7c6526a059911a5d6e07607b1a993494392072a0b918cf">Count</a>
  }</td></tr>
 <tr class="separator:ae472fad9782abf0cb2c7c6526a059911"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a308e72dcfc90ae1a9370ca7c7bc3290c" id="r_a308e72dcfc90ae1a9370ca7c7bc3290c"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a308e72dcfc90ae1a9370ca7c7bc3290c">ShadingMode</a> { <a class="el" href="#a308e72dcfc90ae1a9370ca7c7bc3290ca10c84306f5bb51fdad714b1f2f4463cf">AutoDetect</a>
+, <a class="el" href="#a308e72dcfc90ae1a9370ca7c7bc3290cae510cdf33cd497134b47b9316314d4b4">Smooth</a>
+, <a class="el" href="#a308e72dcfc90ae1a9370ca7c7bc3290ca745e3db6a7ffd50e1a72b39482f0882d">Flat</a>
+ }</td></tr>
+<tr class="memdesc:a308e72dcfc90ae1a9370ca7c7bc3290c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> faces shading mode.  <a href="#a308e72dcfc90ae1a9370ca7c7bc3290c">More...</a><br /></td></tr>
+<tr class="separator:a308e72dcfc90ae1a9370ca7c7bc3290c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -123,6 +128,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ac5824cffe0f0d96e026d1e2f12aed6ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af22fa7e71e1d2939c2158146e9ba9948" id="r_af22fa7e71e1d2939c2158146e9ba9948"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af22fa7e71e1d2939c2158146e9ba9948">set</a> (<a class="el" href="#ae472fad9782abf0cb2c7c6526a059911">Type</a> type, bool value)</td></tr>
 <tr class="separator:af22fa7e71e1d2939c2158146e9ba9948"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad795c96b5d06b21a8f5f3510c945b568" id="r_ad795c96b5d06b21a8f5f3510c945b568"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a308e72dcfc90ae1a9370ca7c7bc3290c">ShadingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad795c96b5d06b21a8f5f3510c945b568">getDefaultShadingMode</a> ()</td></tr>
+<tr class="separator:ad795c96b5d06b21a8f5f3510c945b568"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1d2767ac82804a0b2c0d7e9204ec4c4" id="r_ac1d2767ac82804a0b2c0d7e9204ec4c4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1d2767ac82804a0b2c0d7e9204ec4c4">setDefaultShadingMode</a> (<a class="el" href="#a308e72dcfc90ae1a9370ca7c7bc3290c">ShadingMode</a> mode)</td></tr>
+<tr class="separator:ac1d2767ac82804a0b2c0d7e9204ec4c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc623e68729b68bbf4c1068297ab5122" id="r_acc623e68729b68bbf4c1068297ab5122"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="classMR_1_1CNCMachineSettings.html">CNCMachineSettings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc623e68729b68bbf4c1068297ab5122">getCNCMachineSettings</a> ()</td></tr>
 <tr class="separator:acc623e68729b68bbf4c1068297ab5122"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74e917fd6f8f3e450de96469896b2bf1" id="r_a74e917fd6f8f3e450de96469896b2bf1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74e917fd6f8f3e450de96469896b2bf1">setCNCMachineSettings</a> (const <a class="el" href="classMR_1_1CNCMachineSettings.html">CNCMachineSettings</a> &amp;settings)</td></tr>
@@ -131,6 +140,35 @@ Static Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This singleton struct contains default settings for scene objects </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a308e72dcfc90ae1a9370ca7c7bc3290c" name="a308e72dcfc90ae1a9370ca7c7bc3290c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a308e72dcfc90ae1a9370ca7c7bc3290c">&#9670;&#160;</a></span>ShadingMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a308e72dcfc90ae1a9370ca7c7bc3290c">MR::SceneSettings::ShadingMode</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="structMR_1_1Mesh.html">Mesh</a> faces shading mode. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a308e72dcfc90ae1a9370ca7c7bc3290ca10c84306f5bb51fdad714b1f2f4463cf" name="a308e72dcfc90ae1a9370ca7c7bc3290ca10c84306f5bb51fdad714b1f2f4463cf"></a>AutoDetect&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a308e72dcfc90ae1a9370ca7c7bc3290cae510cdf33cd497134b47b9316314d4b4" name="a308e72dcfc90ae1a9370ca7c7bc3290cae510cdf33cd497134b47b9316314d4b4"></a>Smooth&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a308e72dcfc90ae1a9370ca7c7bc3290ca745e3db6a7ffd50e1a72b39482f0882d" name="a308e72dcfc90ae1a9370ca7c7bc3290ca745e3db6a7ffd50e1a72b39482f0882d"></a>Flat&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="ae472fad9782abf0cb2c7c6526a059911" name="ae472fad9782abf0cb2c7c6526a059911"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae472fad9782abf0cb2c7c6526a059911">&#9670;&#160;</a></span>Type</h2>
 
@@ -143,9 +181,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae472fad9782abf0cb2c7c6526a059911a7c69489518a03a878e4a155f854de42e" name="ae472fad9782abf0cb2c7c6526a059911a7c69489518a03a878e4a155f854de42e"></a>MeshFlatShading&#160;</td><td class="fielddoc"><p>enable flat shading for all new mesh objects </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ae472fad9782abf0cb2c7c6526a059911a258e9309c3ed4ad7ca9cecd5c4c6a242" name="ae472fad9782abf0cb2c7c6526a059911a258e9309c3ed4ad7ca9cecd5c4c6a242"></a>UseDefaultScenePropertiesOnDeserialization&#160;</td><td class="fielddoc"><p>on deserialization replace object properties with default values from <a class="el" href="classMR_1_1SceneSettings.html">SceneSettings</a> and <a class="el" href="structMR_1_1SceneColors.html">SceneColors</a> </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae472fad9782abf0cb2c7c6526a059911a258e9309c3ed4ad7ca9cecd5c4c6a242" name="ae472fad9782abf0cb2c7c6526a059911a258e9309c3ed4ad7ca9cecd5c4c6a242"></a>UseDefaultScenePropertiesOnDeserialization&#160;</td><td class="fielddoc"><p>on deserialization replace object properties with default values from <a class="el" href="classMR_1_1SceneSettings.html">SceneSettings</a> and <a class="el" href="structMR_1_1SceneColors.html">SceneColors</a> </p>
 </td></tr>
 <tr><td class="fieldname"><a id="ae472fad9782abf0cb2c7c6526a059911a5d6e07607b1a993494392072a0b918cf" name="ae472fad9782abf0cb2c7c6526a059911a5d6e07607b1a993494392072a0b918cf"></a>Count&#160;</td><td class="fielddoc"><p>total count </p>
 </td></tr>
@@ -204,6 +240,32 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ad795c96b5d06b21a8f5f3510c945b568" name="ad795c96b5d06b21a8f5f3510c945b568"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad795c96b5d06b21a8f5f3510c945b568">&#9670;&#160;</a></span>getDefaultShadingMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a308e72dcfc90ae1a9370ca7c7bc3290c">ShadingMode</a> MR::SceneSettings::getDefaultShadingMode </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Default shading mode for new mesh objects, or imported form files Tools may consider this setting when creating new meshes <code>AutoDetect</code>: choose depending of file format and mesh shape, fallback to smooth </p>
+
+</div>
+</div>
 <a id="af22fa7e71e1d2939c2158146e9ba9948" name="af22fa7e71e1d2939c2158146e9ba9948"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af22fa7e71e1d2939c2158146e9ba9948">&#9670;&#160;</a></span>set()</h2>
 
@@ -246,6 +308,31 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">static <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::SceneSettings::setCNCMachineSettings </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1CNCMachineSettings.html">CNCMachineSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac1d2767ac82804a0b2c0d7e9204ec4c4" name="ac1d2767ac82804a0b2c0d7e9204ec4c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1d2767ac82804a0b2c0d7e9204ec4c4">&#9670;&#160;</a></span>setDefaultShadingMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::SceneSettings::setDefaultShadingMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a308e72dcfc90ae1a9370ca7c7bc3290c">ShadingMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

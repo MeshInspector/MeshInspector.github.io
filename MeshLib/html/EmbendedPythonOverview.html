@@ -126,13 +126,13 @@ $(function(){initNavTree('EmbendedPythonOverview.html',''); initResizable(); });
 <li>Directly from system python <div class="fragment"><div class="line">from meshlib <span class="keyword">import</span> mrmeshpy</div>
 <div class="line"> </div>
 <div class="line">try:</div>
-<div class="line">    mesh = mrmeshpy.loadMesh(mrmeshpy.Path(&quot;mesh.stl&quot;))</div>
+<div class="line">    mesh = mrmeshpy.loadMesh(&quot;mesh.stl&quot;)</div>
 <div class="line">except ValueError as e:</div>
 <div class="line">    print(e)</div>
-<div class="line"><span class="preprocessor"># ...</span></div>
-<div class="line"><span class="preprocessor"># some mesh modifications can be perform here</span></div>
-<div class="line"><span class="preprocessor"># ...</span></div>
-<div class="line">mrmeshpy.saveMesh(mesh, mrmeshpy.Path(<span class="stringliteral">&quot;mesh.ply&quot;</span>))</div>
+<div class="line"># ...</div>
+<div class="line"># some mesh modifications can be perform here</div>
+<div class="line"># ...</div>
+<div class="line">mrmeshpy.saveMesh(mesh, <span class="stringliteral">&quot;mesh.ply&quot;</span>)</div>
 </div><!-- fragment --></li>
 <li>Run scritp with MeshInspector executable file (MeshInspector.exe on windows or ./MRApp on linux) <div class="fragment"><div class="line">$ ./MRApp script_path.py</div>
 </div><!-- fragment --> <dl class="section note"><dt>Note</dt><dd>Script should still import mrmeshpy module</dd></dl>

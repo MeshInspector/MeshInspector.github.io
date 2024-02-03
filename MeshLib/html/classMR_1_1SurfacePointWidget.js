@@ -9,9 +9,9 @@ var classMR_1_1SurfacePointWidget =
       [ "Verts", "classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2add552244171cc5216a36a33f506602d8", null ]
     ] ],
     [ "~SurfacePointWidget", "classMR_1_1SurfacePointWidget.html#a7d9c8acabf47d730f83f1d17944e7462", null ],
-    [ "create", "classMR_1_1SurfacePointWidget.html#af9c68b54df7a14d3b865147a30bed2ca", null ],
+    [ "create", "classMR_1_1SurfacePointWidget.html#a7c496f0ca248c4abb4d1fdd929d35b5e", null ],
     [ "getAutoHover", "classMR_1_1SurfacePointWidget.html#a798cfe4e8403435129f4788dbfe0604b", null ],
-    [ "getBaseSurface", "classMR_1_1SurfacePointWidget.html#ade210457fb828d04663955ec7a5154ce", null ],
+    [ "getBaseSurface", "classMR_1_1SurfacePointWidget.html#a303660ed7eb645d3afe199d9e56173bb", null ],
     [ "getCurrentPosition", "classMR_1_1SurfacePointWidget.html#aa7f44a7819d74d48d2e6ca4a33594dce", null ],
     [ "getParameters", "classMR_1_1SurfacePointWidget.html#aaf1b995da6798f3caa166aff48dd0958", null ],
     [ "getPickSphere", "classMR_1_1SurfacePointWidget.html#aa8c6ffb5b20ff526434fba6f30176a10", null ],

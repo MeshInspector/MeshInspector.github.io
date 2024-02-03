@@ -65,7 +65,7 @@ var searchData=
   ['smb_5fspace_62',['SMB_SPACE',['../namespaceMR.html#acad54447072489545d11f4ee251429e6aa2797d87231a69ce3d8da78b002cc51d',1,'MR']]],
   ['smb_5ftab_63',['SMB_TAB',['../namespaceMR.html#acad54447072489545d11f4ee251429e6ad07052c5ba42bf2717dea0c37df102bc',1,'MR']]],
   ['smb_5ftop_64',['SMB_TOP',['../namespaceMR.html#acad54447072489545d11f4ee251429e6ab52a20288121c91fd28eb092c13afcb5',1,'MR']]],
-  ['smooth_65',['Smooth',['../structMR_1_1LinesVisualizePropertyType.html#a4e84a5f006433a790f9bf5f299ce82ada92edd5447d991ddb22f08259adacfa1c',1,'MR::LinesVisualizePropertyType::Smooth'],['../structMR_1_1GeneralOffsetParameters.html#a91edecd5978344a023aca282179b94a5ae510cdf33cd497134b47b9316314d4b4',1,'MR::GeneralOffsetParameters::Smooth']]],
+  ['smooth_65',['Smooth',['../structMR_1_1LinesVisualizePropertyType.html#a4e84a5f006433a790f9bf5f299ce82ada92edd5447d991ddb22f08259adacfa1c',1,'MR::LinesVisualizePropertyType::Smooth'],['../structMR_1_1GeneralOffsetParameters.html#a91edecd5978344a023aca282179b94a5ae510cdf33cd497134b47b9316314d4b4',1,'MR::GeneralOffsetParameters::Smooth'],['../classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290cae510cdf33cd497134b47b9316314d4b4',1,'MR::SceneSettings::Smooth']]],
   ['solidcolor_66',['SolidColor',['../group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33fa63af9903673bdc27b881a7444b1f9854',1,'MR']]],
   ['sourcepoint_67',['SourcePoint',['../structMR_1_1LabelVisualizePropertyType.html#a08cada49c551f2e560a365ee627edf75a37e4b3e9d3385409aaabec26371c2dd6',1,'MR::LabelVisualizePropertyType']]],
   ['standard_68',['Standard',['../structMR_1_1GeneralOffsetParameters.html#a91edecd5978344a023aca282179b94a5aeb6d8ae6f20283755b339c0dc273988b',1,'MR::GeneralOffsetParameters']]],

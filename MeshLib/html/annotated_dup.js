@@ -27,7 +27,7 @@ var annotated_dup =
           [ "Unary< Primitives::Plane >", "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html", "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4" ],
           [ "Unary< Primitives::Sphere >", "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html", "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4" ]
         ] ],
-        [ "DistanceResult", "structMR_1_1Features_1_1DistanceResult.html", "structMR_1_1Features_1_1DistanceResult" ]
+        [ "MeasureResult", "structMR_1_1Features_1_1MeasureResult.html", "structMR_1_1Features_1_1MeasureResult" ]
       ] ],
       [ "FixUndercuts", "namespaceMR_1_1FixUndercuts.html", [
         [ "DistMapImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" ],
@@ -66,8 +66,6 @@ var annotated_dup =
         [ "SceneLoadResult", "structMR_1_1SceneLoad_1_1SceneLoadResult.html", "structMR_1_1SceneLoad_1_1SceneLoadResult" ]
       ] ],
       [ "TriangulationHelpers", "namespaceMR_1_1TriangulationHelpers.html", [
-        [ "FanRecord", "structMR_1_1TriangulationHelpers_1_1FanRecord.html", "structMR_1_1TriangulationHelpers_1_1FanRecord" ],
-        [ "LocalTriangulations", "structMR_1_1TriangulationHelpers_1_1LocalTriangulations.html", "structMR_1_1TriangulationHelpers_1_1LocalTriangulations" ],
         [ "Settings", "structMR_1_1TriangulationHelpers_1_1Settings.html", "structMR_1_1TriangulationHelpers_1_1Settings" ],
         [ "TriangulatedFanData", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData" ]
       ] ],
@@ -89,7 +87,9 @@ var annotated_dup =
       [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html", "classMR_1_1AABBTreePolyline" ],
       [ "ABBTreeTraits", "structMR_1_1ABBTreeTraits.html", "structMR_1_1ABBTreeTraits" ],
       [ "AddCustomThemePlugin", "classMR_1_1AddCustomThemePlugin.html", "classMR_1_1AddCustomThemePlugin" ],
+      [ "AddPointActionPickerPoint", "classMR_1_1AddPointActionPickerPoint.html", "classMR_1_1AddPointActionPickerPoint" ],
       [ "AffineXf", "structMR_1_1AffineXf.html", "structMR_1_1AffineXf" ],
+      [ "AllLocalTriangulations", "structMR_1_1AllLocalTriangulations.html", "structMR_1_1AllLocalTriangulations" ],
       [ "AlphaSortGL", "classMR_1_1AlphaSortGL.html", "classMR_1_1AlphaSortGL" ],
       [ "ArcInterpolationParams", "structMR_1_1ArcInterpolationParams.html", "structMR_1_1ArcInterpolationParams" ],
       [ "AsyncRequest", "classMR_1_1AsyncRequest.html", "classMR_1_1AsyncRequest" ],
@@ -134,6 +134,7 @@ var annotated_dup =
       [ "ChangeObjectColorAction", "classMR_1_1ChangeObjectColorAction.html", "classMR_1_1ChangeObjectColorAction" ],
       [ "ChangeObjectSelectedAction", "classMR_1_1ChangeObjectSelectedAction.html", "classMR_1_1ChangeObjectSelectedAction" ],
       [ "ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html", "classMR_1_1ChangeObjectVisibilityAction" ],
+      [ "ChangePointActionPickerPoint", "classMR_1_1ChangePointActionPickerPoint.html", "classMR_1_1ChangePointActionPickerPoint" ],
       [ "ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html", "classMR_1_1ChangePointCloudAction" ],
       [ "ChangePointCloudNormalsAction", "classMR_1_1ChangePointCloudNormalsAction.html", "classMR_1_1ChangePointCloudNormalsAction" ],
       [ "ChangePointPointSelectionAction", "classMR_1_1ChangePointPointSelectionAction.html", "classMR_1_1ChangePointPointSelectionAction" ],
@@ -168,7 +169,6 @@ var annotated_dup =
       [ "ConstantCuspParams", "structMR_1_1ConstantCuspParams.html", "structMR_1_1ConstantCuspParams" ],
       [ "ContoursDistanceMapOffset", "structMR_1_1ContoursDistanceMapOffset.html", "structMR_1_1ContoursDistanceMapOffset" ],
       [ "ContoursDistanceMapOptions", "structMR_1_1ContoursDistanceMapOptions.html", "structMR_1_1ContoursDistanceMapOptions" ],
-      [ "ContoursVertId", "structMR_1_1ContoursVertId.html", "structMR_1_1ContoursVertId" ],
       [ "ContourToDistanceMapParams", "structMR_1_1ContourToDistanceMapParams.html", "structMR_1_1ContourToDistanceMapParams" ],
       [ "CoordinateConverters", "structMR_1_1CoordinateConverters.html", "structMR_1_1CoordinateConverters" ],
       [ "CoordinateConverters2", "structMR_1_1CoordinateConverters2.html", "structMR_1_1CoordinateConverters2" ],
@@ -211,8 +211,11 @@ var annotated_dup =
       [ "EdgeTri", "structMR_1_1EdgeTri.html", "structMR_1_1EdgeTri" ],
       [ "EmbeddedPython", "classMR_1_1EmbeddedPython.html", null ],
       [ "EmbeddedStructureParameters", "structMR_1_1EmbeddedStructureParameters.html", "structMR_1_1EmbeddedStructureParameters" ],
+      [ "EnumNeihbourFaces", "classMR_1_1EnumNeihbourFaces.html", "classMR_1_1EnumNeihbourFaces" ],
       [ "EnumNeihbourVertices", "classMR_1_1EnumNeihbourVertices.html", "classMR_1_1EnumNeihbourVertices" ],
       [ "FaceFace", "structMR_1_1FaceFace.html", "structMR_1_1FaceFace" ],
+      [ "FanRecord", "structMR_1_1FanRecord.html", "structMR_1_1FanRecord" ],
+      [ "FanRecordWithCenter", "structMR_1_1FanRecordWithCenter.html", "structMR_1_1FanRecordWithCenter" ],
       [ "FastWindingNumber", "classMR_1_1FastWindingNumber.html", "classMR_1_1FastWindingNumber" ],
       [ "FeatureObject", "structMR_1_1FeatureObject.html", "structMR_1_1FeatureObject" ],
       [ "FeatureObjectSharedProperty", "structMR_1_1FeatureObjectSharedProperty.html", "structMR_1_1FeatureObjectSharedProperty" ],
@@ -359,6 +362,8 @@ var annotated_dup =
       [ "ObjectPointsHolder", "classMR_1_1ObjectPointsHolder.html", "classMR_1_1ObjectPointsHolder" ],
       [ "ObjectTransformWidget", "classMR_1_1ObjectTransformWidget.html", "classMR_1_1ObjectTransformWidget" ],
       [ "ObjectVoxels", "classMR_1_1ObjectVoxels.html", "classMR_1_1ObjectVoxels" ],
+      [ "OffsetContourIndex", "structMR_1_1OffsetContourIndex.html", "structMR_1_1OffsetContourIndex" ],
+      [ "OffsetContoursOrigins", "structMR_1_1OffsetContoursOrigins.html", "structMR_1_1OffsetContoursOrigins" ],
       [ "OffsetContoursParams", "structMR_1_1OffsetContoursParams.html", "structMR_1_1OffsetContoursParams" ],
       [ "OffsetParameters", "structMR_1_1OffsetParameters.html", "structMR_1_1OffsetParameters" ],
       [ "OneMeshContour", "structMR_1_1OneMeshContour.html", "structMR_1_1OneMeshContour" ],
@@ -439,6 +444,7 @@ var annotated_dup =
       [ "RegularMapMesher", "classMR_1_1RegularMapMesher.html", "classMR_1_1RegularMapMesher" ],
       [ "RelaxParams", "structMR_1_1RelaxParams.html", "structMR_1_1RelaxParams" ],
       [ "RemeshSettings", "structMR_1_1RemeshSettings.html", "structMR_1_1RemeshSettings" ],
+      [ "RemovePointActionPickerPoint", "classMR_1_1RemovePointActionPickerPoint.html", "classMR_1_1RemovePointActionPickerPoint" ],
       [ "RenderBufferRef", "classMR_1_1RenderBufferRef.html", "classMR_1_1RenderBufferRef" ],
       [ "RenderLabelObject", "classMR_1_1RenderLabelObject.html", "classMR_1_1RenderLabelObject" ],
       [ "RenderLinesObject", "classMR_1_1RenderLinesObject.html", "classMR_1_1RenderLinesObject" ],
@@ -509,6 +515,7 @@ var annotated_dup =
       [ "SignedDistanceToMeshResult", "structMR_1_1SignedDistanceToMeshResult.html", "structMR_1_1SignedDistanceToMeshResult" ],
       [ "SimpleTimeRecord", "structMR_1_1SimpleTimeRecord.html", "structMR_1_1SimpleTimeRecord" ],
       [ "SkyPatch", "structMR_1_1SkyPatch.html", "structMR_1_1SkyPatch" ],
+      [ "SomeLocalTriangulations", "structMR_1_1SomeLocalTriangulations.html", "structMR_1_1SomeLocalTriangulations" ],
       [ "SortIntersectionsData", "structMR_1_1SortIntersectionsData.html", "structMR_1_1SortIntersectionsData" ],
       [ "SpaceMouseController", "classMR_1_1SpaceMouseController.html", "classMR_1_1SpaceMouseController" ],
       [ "SpaceMouseDownListener", "structMR_1_1SpaceMouseDownListener.html", "structMR_1_1SpaceMouseDownListener" ],
@@ -525,6 +532,7 @@ var annotated_dup =
       [ "StateListenerPlugin", "classMR_1_1StateListenerPlugin.html", "classMR_1_1StateListenerPlugin" ],
       [ "StitchHolesParams", "structMR_1_1StitchHolesParams.html", "structMR_1_1StitchHolesParams" ],
       [ "SubdivideSettings", "structMR_1_1SubdivideSettings.html", "structMR_1_1SubdivideSettings" ],
+      [ "SurfaceContoursWidget", "classMR_1_1SurfaceContoursWidget.html", "classMR_1_1SurfaceContoursWidget" ],
       [ "SurfaceDistanceBuilder", "classMR_1_1SurfaceDistanceBuilder.html", "classMR_1_1SurfaceDistanceBuilder" ],
       [ "SurfaceManipulationWidget", "classMR_1_1SurfaceManipulationWidget.html", "classMR_1_1SurfaceManipulationWidget" ],
       [ "SurfacePointWidget", "classMR_1_1SurfacePointWidget.html", "classMR_1_1SurfacePointWidget" ],

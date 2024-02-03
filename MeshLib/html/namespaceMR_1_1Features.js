@@ -2,9 +2,9 @@ var namespaceMR_1_1Features =
 [
     [ "Primitives", "namespaceMR_1_1Features_1_1Primitives.html", "namespaceMR_1_1Features_1_1Primitives" ],
     [ "Traits", "namespaceMR_1_1Features_1_1Traits.html", "namespaceMR_1_1Features_1_1Traits" ],
-    [ "DistanceResult", "structMR_1_1Features_1_1DistanceResult.html", "structMR_1_1Features_1_1DistanceResult" ],
-    [ "DistanceSupported", "conceptMR_1_1Features_1_1DistanceSupported.html", null ],
-    [ "distance", "namespaceMR_1_1Features.html#a84daae01834ebbd7545710de372dfb91", null ],
+    [ "MeasureResult", "structMR_1_1Features_1_1MeasureResult.html", "structMR_1_1Features_1_1MeasureResult" ],
+    [ "MeasureSupported", "conceptMR_1_1Features_1_1MeasureSupported.html", null ],
+    [ "measure", "namespaceMR_1_1Features.html#a39b347d1c16a0e596d16c09cc7839ded", null ],
     [ "name", "namespaceMR_1_1Features.html#a1f7d6b7fed16c703a284c2013da802e2", null ],
     [ "primitiveCircle", "namespaceMR_1_1Features.html#a5868f629eb5b33654ac9c296f89ab859", null ],
     [ "primitiveCone", "namespaceMR_1_1Features.html#a8d70d3465b40dfe88c3a3fb7210afee0", null ],

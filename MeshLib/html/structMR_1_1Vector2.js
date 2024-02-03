@@ -4,7 +4,7 @@ var structMR_1_1Vector2 =
     [ "SymMatrixType", "structMR_1_1Vector2.html#aad35960bf4d5a0eefd7945e6e6bf768c", null ],
     [ "ValueType", "structMR_1_1Vector2.html#a419f18cb7af20ab8455495874cefbd9d", null ],
     [ "Vector2", "structMR_1_1Vector2.html#a6f79f1540d91026fb17aebbcf6e6d9dc", null ],
-    [ "Vector2", "structMR_1_1Vector2.html#aaae22de12f81061599128a116cba170c", null ],
+    [ "Vector2", "structMR_1_1Vector2.html#a0537b0cb50cc7b0605e0fc95ffaf6b0b", null ],
     [ "Vector2", "structMR_1_1Vector2.html#a9c5f2b992789dba5c6d4e8e80ed28fa0", null ],
     [ "Vector2", "structMR_1_1Vector2.html#a5d6364a368131508a540587a1b1428cf", null ],
     [ "Vector2", "structMR_1_1Vector2.html#a1f64d08ffa10b15e43c0a0b1e717715b", null ],

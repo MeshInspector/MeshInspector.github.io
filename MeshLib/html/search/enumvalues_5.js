@@ -9,12 +9,13 @@ var searchData=
   ['filter_6',['Filter',['../classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a',1,'MR::HistoryStore']]],
   ['finish_7',['Finish',['../classMR_1_1PrecipitationSimulator.html#a1ff436805e728c27089cf75e5d98c90faa20ddccbb6f808ec42cd66323e6c6061',1,'MR::PrecipitationSimulator']]],
   ['fixedaxis_8',['FixedAxis',['../namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677aeaff0b601f0c9235c1d2d08500449fae',1,'MR']]],
-  ['flatshading_9',['FlatShading',['../structMR_1_1MeshVisualizePropertyType.html#a2e5c336a4feb2c41efef5ba1f038b738a7d5f6324346ca4794ef06f1e943c94a7',1,'MR::MeshVisualizePropertyType']]],
-  ['float_10',['Float',['../structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa22ae0e2b89e5e3d477f988cc36d3272b',1,'MR::BaseTiffParameters']]],
-  ['float32_11',['Float32',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529ba166495adc0d0f53bee6baecc577f5204',1,'MR::VoxelsLoad::RawParameters']]],
-  ['float32_5f4_12',['Float32_4',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529ba3dced80f38319c510aa418c1dee5e142',1,'MR::VoxelsLoad::RawParameters']]],
-  ['float64_13',['Float64',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bad2b556d8a8f5c8ac323f51a4b82e79a0',1,'MR::VoxelsLoad::RawParameters']]],
-  ['framebackground_14',['FrameBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ab7645d391763ab26ea48e51c80c3837e',1,'MR::ColorTheme']]],
-  ['front_15',['Front',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca5835bab1ade0060909e31a06af2e2cde',1,'MR::SetViewPresetMenuItem']]],
-  ['fullmask_16',['FullMask',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6a32950741c2a4db230a8af70867adc378',1,'MR']]]
+  ['flat_9',['Flat',['../classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290ca745e3db6a7ffd50e1a72b39482f0882d',1,'MR::SceneSettings']]],
+  ['flatshading_10',['FlatShading',['../structMR_1_1MeshVisualizePropertyType.html#a2e5c336a4feb2c41efef5ba1f038b738a7d5f6324346ca4794ef06f1e943c94a7',1,'MR::MeshVisualizePropertyType']]],
+  ['float_11',['Float',['../structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa22ae0e2b89e5e3d477f988cc36d3272b',1,'MR::BaseTiffParameters']]],
+  ['float32_12',['Float32',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529ba166495adc0d0f53bee6baecc577f5204',1,'MR::VoxelsLoad::RawParameters']]],
+  ['float32_5f4_13',['Float32_4',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529ba3dced80f38319c510aa418c1dee5e142',1,'MR::VoxelsLoad::RawParameters']]],
+  ['float64_14',['Float64',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bad2b556d8a8f5c8ac323f51a4b82e79a0',1,'MR::VoxelsLoad::RawParameters']]],
+  ['framebackground_15',['FrameBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ab7645d391763ab26ea48e51c80c3837e',1,'MR::ColorTheme']]],
+  ['front_16',['Front',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca5835bab1ade0060909e31a06af2e2cde',1,'MR::SetViewPresetMenuItem']]],
+  ['fullmask_17',['FullMask',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6a32950741c2a4db230a8af70867adc378',1,'MR']]]
 ];

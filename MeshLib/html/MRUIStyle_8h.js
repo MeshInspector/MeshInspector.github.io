@@ -2,6 +2,8 @@ var MRUIStyle_8h =
 [
     [ "MR::UI::ButtonCustomizationParams", "structMR_1_1UI_1_1ButtonCustomizationParams.html", "structMR_1_1UI_1_1ButtonCustomizationParams" ],
     [ "beginCombo", "MRUIStyle_8h.html#a72b7457df4d4b5353fc89751ef8d9501", null ],
+    [ "beginTabBar", "MRUIStyle_8h.html#ab5dcf6cb9ab83cbd7fd1a8ff6659136f", null ],
+    [ "beginTabItem", "MRUIStyle_8h.html#afbf63021d04e94c878b093fd86fef43f", null ],
     [ "button", "MRUIStyle_8h.html#ae14306471133180f84a3a02650ced599", null ],
     [ "button", "MRUIStyle_8h.html#ad13b9be4aa5cae65c61e91ac1ab04ecd", null ],
     [ "buttonCommonSize", "MRUIStyle_8h.html#affdd9ce8585853bc545f4f60bda2611f", null ],
@@ -15,6 +17,8 @@ var MRUIStyle_8h =
     [ "colorEdit4", "MRUIStyle_8h.html#aaa136c1366383c9c03db4f4b7520c2a6", null ],
     [ "combo", "MRUIStyle_8h.html#a820aa2a94b65ad7536194e8527f89a12", null ],
     [ "endCombo", "MRUIStyle_8h.html#a8cffb4ab7998318c522df73a1d12a4f9", null ],
+    [ "endTabBar", "MRUIStyle_8h.html#a1b2f7496c5cc2c04acdc85d6ad564a63", null ],
+    [ "endTabItem", "MRUIStyle_8h.html#a321f93b24c9b7d723ce8aec45fe75374", null ],
     [ "init", "MRUIStyle_8h.html#a986e400ed59dea0ae3e54284d9b8d110", null ],
     [ "inputTextCentered", "MRUIStyle_8h.html#a026c1e5c2917366011537ab2ff019ef1", null ],
     [ "inputTextCenteredReadOnly", "MRUIStyle_8h.html#aa5363e552c8bef6450cdfad583af18e0", null ],
@@ -23,6 +27,8 @@ var MRUIStyle_8h =
     [ "separator", "MRUIStyle_8h.html#a18b9183fbf887e8e6930c577d92fa409", null ],
     [ "separator", "MRUIStyle_8h.html#a17f2b30eb00e5aa94812541ac268a30f", null ],
     [ "setTooltipIfHovered", "MRUIStyle_8h.html#a872e637e1fc6bb7aa391dc842b565ed0", null ],
+    [ "sliderFloat", "MRUIStyle_8h.html#ad8ddc781fa1ee23c1d7c7fc97c2b9e19", null ],
+    [ "sliderInt", "MRUIStyle_8h.html#a83ebb2b1c738927283db51578a1e3b5c", null ],
     [ "transparentText", "MRUIStyle_8h.html#a94309985ed89c89e0d6199e0c6a2e333", null ],
     [ "transparentTextWrapped", "MRUIStyle_8h.html#a2e82aeb6c8dcd97dab6e1f0e68d4fed4", null ]
 ];

@@ -23,7 +23,8 @@ var searchData=
   ['appendaction_20',['AppendAction',['../classMR_1_1HistoryStore.html#abfd9d90c02f0673577386845f1f608c4aa1f9274fc711d6a07979894ed2bfe727',1,'MR::HistoryStore']]],
   ['arcccw_21',['ArcCCW',['../namespaceMR.html#a88f1fdd848610bc41226918baa28e601acb5dc5739002bbc3b5c303988de899d4',1,'MR']]],
   ['arccw_22',['ArcCW',['../namespaceMR.html#a88f1fdd848610bc41226918baa28e601aa9479796fed0e84208885bc83352c5ea',1,'MR']]],
-  ['automatic_23',['Automatic',['../structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da086247a9b57fde6eefee2a0c4752242d',1,'MR::MarchingCubesParams']]],
-  ['axisscaling_24',['AxisScaling',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935',1,'MR::ObjectTransformWidget']]],
-  ['axistranslation_25',['AxisTranslation',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510',1,'MR::ObjectTransformWidget']]]
+  ['autodetect_23',['AutoDetect',['../classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290ca10c84306f5bb51fdad714b1f2f4463cf',1,'MR::SceneSettings']]],
+  ['automatic_24',['Automatic',['../structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da086247a9b57fde6eefee2a0c4752242d',1,'MR::MarchingCubesParams']]],
+  ['axisscaling_25',['AxisScaling',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935',1,'MR::ObjectTransformWidget']]],
+  ['axistranslation_26',['AxisTranslation',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510',1,'MR::ObjectTransformWidget']]]
 ];

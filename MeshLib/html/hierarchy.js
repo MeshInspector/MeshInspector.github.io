@@ -8,6 +8,7 @@ var hierarchy =
     [ "MR::AffineXf< V >", "structMR_1_1AffineXf.html", null ],
     [ "MR::AffineXf< double >", "structMR_1_1AffineXf.html", null ],
     [ "MR::AffineXf< float >", "structMR_1_1AffineXf.html", null ],
+    [ "MR::AllLocalTriangulations", "structMR_1_1AllLocalTriangulations.html", null ],
     [ "MR::AlphaSortGL", "classMR_1_1AlphaSortGL.html", null ],
     [ "MR::PointToPlaneAligningTransform::Amendment", "structMR_1_1PointToPlaneAligningTransform_1_1Amendment.html", null ],
     [ "MR::ArcInterpolationParams", "structMR_1_1ArcInterpolationParams.html", null ],
@@ -39,6 +40,10 @@ var hierarchy =
     [ "MR::BaseTiffParameters", "structMR_1_1BaseTiffParameters.html", [
       [ "MR::TiffParameters", "structMR_1_1TiffParameters.html", null ]
     ] ],
+    [ "MR::Features::MeasureResult::BasicPart", "structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html", [
+      [ "MR::Features::MeasureResult::Angle", "structMR_1_1Features_1_1MeasureResult_1_1Angle.html", null ],
+      [ "MR::Features::MeasureResult::Distance", "structMR_1_1Features_1_1MeasureResult_1_1Distance.html", null ]
+    ] ],
     [ "MR::WatershedGraph::BasinInfo", "structMR_1_1WatershedGraph_1_1BasinInfo.html", null ],
     [ "MR::BasinVolumeCalculator", "classMR_1_1BasinVolumeCalculator.html", null ],
     [ "MR::WatershedGraph::BdInfo", "structMR_1_1WatershedGraph_1_1BdInfo.html", null ],
@@ -66,6 +71,7 @@ var hierarchy =
     [ "MR::BoxedLeaf< T >", "structMR_1_1BoxedLeaf.html", null ],
     [ "MR::Buffer< V, I >", "classMR_1_1Buffer.html", null ],
     [ "MR::Buffer< FaceId, FaceId >", "classMR_1_1Buffer.html", null ],
+    [ "MR::Buffer< MR::Id >", "classMR_1_1Buffer.html", null ],
     [ "MR::Buffer< MR::Id, size_t >", "classMR_1_1Buffer.html", null ],
     [ "MR::Buffer< T, I >", "classMR_1_1Buffer.html", null ],
     [ "MR::Buffer< UndirectedEdgeId, UndirectedEdgeId >", "classMR_1_1Buffer.html", null ],
@@ -121,6 +127,9 @@ var hierarchy =
       [ "MR::MultiListener< PreDrawListener, InterruptCloseListener >", "structMR_1_1MultiListener.html", [
         [ "MR::SaveOnClosePlugin", "classMR_1_1SaveOnClosePlugin.html", null ]
       ] ],
+      [ "MR::MultiListener< MouseDownListener, MouseMoveListener >", "structMR_1_1MultiListener.html", [
+        [ "MR::SurfaceContoursWidget", "classMR_1_1SurfaceContoursWidget.html", null ]
+      ] ],
       [ "MR::MultiListener< MouseDownListener, MouseMoveListener, MouseUpListener, PostDrawListener >", "structMR_1_1MultiListener.html", [
         [ "MR::SurfaceManipulationWidget", "classMR_1_1SurfaceManipulationWidget.html", null ]
       ] ],
@@ -134,7 +143,6 @@ var hierarchy =
     ] ],
     [ "MR::ContoursDistanceMapOffset", "structMR_1_1ContoursDistanceMapOffset.html", null ],
     [ "MR::ContoursDistanceMapOptions", "structMR_1_1ContoursDistanceMapOptions.html", null ],
-    [ "MR::ContoursVertId", "structMR_1_1ContoursVertId.html", null ],
     [ "MR::ContourToDistanceMapParams", "structMR_1_1ContourToDistanceMapParams.html", null ],
     [ "MR::CoordinateConverters", "structMR_1_1CoordinateConverters.html", null ],
     [ "MR::CoordinateConverters2", "structMR_1_1CoordinateConverters2.html", null ],
@@ -162,7 +170,6 @@ var hierarchy =
     [ "MR::DirectoryRecursiveIterator", "structMR_1_1DirectoryRecursiveIterator.html", null ],
     [ "MR::Dirty", "structMR_1_1Dirty.html", null ],
     [ "MR::DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html", null ],
-    [ "MR::Features::DistanceResult", "structMR_1_1Features_1_1DistanceResult.html", null ],
     [ "MR::DistanceVolumeParams", "structMR_1_1DistanceVolumeParams.html", [
       [ "MR::MeshToDistanceVolumeParams", "structMR_1_1MeshToDistanceVolumeParams.html", null ]
     ] ],
@@ -192,11 +199,14 @@ var hierarchy =
     [ "MR::EmbeddedPython", "classMR_1_1EmbeddedPython.html", null ],
     [ "MR::EmbeddedStructureParameters", "structMR_1_1EmbeddedStructureParameters.html", null ],
     [ "MR::Graph::EndVertices", "structMR_1_1Graph_1_1EndVertices.html", null ],
+    [ "MR::EnumNeihbourFaces", "classMR_1_1EnumNeihbourFaces.html", null ],
     [ "MR::EnumNeihbourVertices", "classMR_1_1EnumNeihbourVertices.html", null ],
     [ "MR::MeshBuilder::equalVector3f", "structMR_1_1MeshBuilder_1_1equalVector3f.html", null ],
     [ "MR::FaceFace", "structMR_1_1FaceFace.html", null ],
     [ "MR::MeshBuilder::FaceRecord", "structMR_1_1MeshBuilder_1_1FaceRecord.html", null ],
-    [ "MR::TriangulationHelpers::FanRecord", "structMR_1_1TriangulationHelpers_1_1FanRecord.html", null ],
+    [ "MR::FanRecord", "structMR_1_1FanRecord.html", [
+      [ "MR::FanRecordWithCenter", "structMR_1_1FanRecordWithCenter.html", null ]
+    ] ],
     [ "MR::FeatureObject", "structMR_1_1FeatureObject.html", [
       [ "MR::CircleObject", "classMR_1_1CircleObject.html", null ],
       [ "MR::ConeObject", "classMR_1_1ConeObject.html", null ],
@@ -242,6 +252,7 @@ var hierarchy =
     [ "MR::Histogram", "classMR_1_1Histogram.html", null ],
     [ "MR::Historian< HistoryActionType >", "classMR_1_1Historian.html", null ],
     [ "MR::HistoryAction", "classMR_1_1HistoryAction.html", [
+      [ "MR::AddPointActionPickerPoint", "classMR_1_1AddPointActionPickerPoint.html", null ],
       [ "MR::ChangVoxelSelectionAction", "classMR_1_1ChangVoxelSelectionAction.html", null ],
       [ "MR::ChangeActiveBoxAction", "classMR_1_1ChangeActiveBoxAction.html", null ],
       [ "MR::ChangeColoringType", "classMR_1_1ChangeColoringType.html", null ],
@@ -263,6 +274,7 @@ var hierarchy =
       [ "MR::ChangeObjectColorAction", "classMR_1_1ChangeObjectColorAction.html", null ],
       [ "MR::ChangeObjectSelectedAction", "classMR_1_1ChangeObjectSelectedAction.html", null ],
       [ "MR::ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html", null ],
+      [ "MR::ChangePointActionPickerPoint", "classMR_1_1ChangePointActionPickerPoint.html", null ],
       [ "MR::ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html", null ],
       [ "MR::ChangePointCloudNormalsAction", "classMR_1_1ChangePointCloudNormalsAction.html", null ],
       [ "MR::ChangePointPointSelectionAction", "classMR_1_1ChangePointPointSelectionAction.html", null ],
@@ -282,6 +294,7 @@ var hierarchy =
       [ "MR::CombinedHistoryAction", "classMR_1_1CombinedHistoryAction.html", null ],
       [ "MR::ITransformControls::ChangeCenterAction", "classMR_1_1ITransformControls_1_1ChangeCenterAction.html", null ],
       [ "MR::ObjectTransformWidget::ChangeXfAction", "classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html", null ],
+      [ "MR::RemovePointActionPickerPoint", "classMR_1_1RemovePointActionPickerPoint.html", null ],
       [ "MR::SwapRootAction", "classMR_1_1SwapRootAction.html", null ],
       [ "MR::ViewportParametersAction", "classMR_1_1ViewportParametersAction.html", null ]
     ] ],
@@ -445,7 +458,6 @@ var hierarchy =
     [ "MR::LineSegm< V >", "structMR_1_1LineSegm.html", null ],
     [ "MR::VoxelsLoad::LoadDCMResult", "structMR_1_1VoxelsLoad_1_1LoadDCMResult.html", null ],
     [ "MR::VoxelsLoad::LoadingTiffSettings", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html", null ],
-    [ "MR::TriangulationHelpers::LocalTriangulations", "structMR_1_1TriangulationHelpers_1_1LocalTriangulations.html", null ],
     [ "MR::Logger", "classMR_1_1Logger.html", null ],
     [ "MR::MakeDegenerateBandAroundRegionParams", "structMR_1_1MakeDegenerateBandAroundRegionParams.html", null ],
     [ "MR::detail::MakeScopeGuard< T >", "structMR_1_1detail_1_1MakeScopeGuard.html", null ],
@@ -458,6 +470,7 @@ var hierarchy =
     [ "MR::Matrix3< float >", "structMR_1_1Matrix3.html", null ],
     [ "MR::Matrix4< T >", "structMR_1_1Matrix4.html", null ],
     [ "MR::Matrix4< float >", "structMR_1_1Matrix4.html", null ],
+    [ "MR::Features::MeasureResult", "structMR_1_1Features_1_1MeasureResult.html", null ],
     [ "MR::MenuItemCaptionSize", "structMR_1_1MenuItemCaptionSize.html", null ],
     [ "MR::MenuItemInfo", "structMR_1_1MenuItemInfo.html", null ],
     [ "MR::MergeVolumePartSettings", "structMR_1_1MergeVolumePartSettings.html", null ],
@@ -535,6 +548,8 @@ var hierarchy =
     [ "MR::ObjectFactoryBase", "classMR_1_1ObjectFactoryBase.html", [
       [ "MR::ObjectFactory< T >", "classMR_1_1ObjectFactory.html", null ]
     ] ],
+    [ "MR::OffsetContourIndex", "structMR_1_1OffsetContourIndex.html", null ],
+    [ "MR::OffsetContoursOrigins", "structMR_1_1OffsetContoursOrigins.html", null ],
     [ "MR::OffsetContoursParams", "structMR_1_1OffsetContoursParams.html", null ],
     [ "MR::OneMeshContour", "structMR_1_1OneMeshContour.html", null ],
     [ "MR::OneMeshIntersection", "structMR_1_1OneMeshIntersection.html", null ],
@@ -651,6 +666,7 @@ var hierarchy =
     [ "MR::ScopeHistory", "classMR_1_1ScopeHistory.html", null ],
     [ "MR::SearchPathSettings", "structMR_1_1SearchPathSettings.html", null ],
     [ "MR::RibbonSchemaHolder::SearchResult", "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html", null ],
+    [ "MR::RibbonSchemaHolder::SearchResultWeight", "structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html", null ],
     [ "MR::SegmEndColors", "structMR_1_1SegmEndColors.html", null ],
     [ "MR::SegmentSegmentIntersectResult", "structMR_1_1SegmentSegmentIntersectResult.html", null ],
     [ "MR::SegmPoint< T >", "structMR_1_1SegmPoint.html", null ],
@@ -683,6 +699,7 @@ var hierarchy =
     ] ],
     [ "MR::PrecipitationSimulator::SimulationStep", "structMR_1_1PrecipitationSimulator_1_1SimulationStep.html", null ],
     [ "MR::SkyPatch", "structMR_1_1SkyPatch.html", null ],
+    [ "MR::SomeLocalTriangulations", "structMR_1_1SomeLocalTriangulations.html", null ],
     [ "MR::SortIntersectionsData", "structMR_1_1SortIntersectionsData.html", null ],
     [ "MR::SpaceMouseController", "classMR_1_1SpaceMouseController.html", null ],
     [ "MR::SpaceMouseHandler", "classMR_1_1SpaceMouseHandler.html", [
@@ -699,6 +716,7 @@ var hierarchy =
       [ "MR::LoggingStreambuf", "classMR_1_1LoggingStreambuf.html", null ]
     ] ],
     [ "MR::SubdivideSettings", "structMR_1_1SubdivideSettings.html", null ],
+    [ "MR::SurfaceContoursWidget::SurfaceContoursWidgetParams", "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html", null ],
     [ "MR::SurfaceDistanceBuilder", "classMR_1_1SurfaceDistanceBuilder.html", null ],
     [ "MR::SymbolMeshParams", "structMR_1_1SymbolMeshParams.html", [
       [ "MR::TextMeshAlignParams", "structMR_1_1TextMeshAlignParams.html", null ]
@@ -776,6 +794,7 @@ var hierarchy =
     [ "MR::Vector< HalfEdgeRecord, MR::Id< EdgeTag > >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< I, I >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< int, MR::Id >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< MR::FanRecord, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::Id, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::Id< EdgeTag >, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::Id< VoxelTag >, MR::Id >", "classMR_1_1Vector.html", null ],

@@ -17,5 +17,6 @@ var searchData=
   ['edgetofloatfunc_14',['EdgeToFloatFunc',['../namespaceMR.html#a0cd625f2e105aa1b281d085b8fdbdd47',1,'MR']]],
   ['elementbitset_15',['ElementBitSet',['../classMR_1_1ColorMapAggregator.html#a29857a8d38bc30a22d092fdc3c8632df',1,'MR::ColorMapAggregator']]],
   ['endsperedge_16',['EndsPerEdge',['../classMR_1_1Graph.html#a429f57208104bd4a3efcceeaa5ba4dce',1,'MR::Graph']]],
-  ['expected_17',['Expected',['../namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735',1,'MR']]]
+  ['enum_17',['Enum',['../classMR_1_1Config.html#a3933d06b4e35a4f309cff393747e1f2f',1,'MR::Config']]],
+  ['expected_18',['Expected',['../namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735',1,'MR']]]
 ];

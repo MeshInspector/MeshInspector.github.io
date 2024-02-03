@@ -88,6 +88,8 @@ var group__FeaturesGroup =
       [ "getClassName", "classMR_1_1LineObject.html#a58d1ddeed9b8239cf14d4c47de7f6361", null ],
       [ "getDirection", "classMR_1_1LineObject.html#ab84a614ab19e8a9ba10f6e8671bda460", null ],
       [ "getLength", "classMR_1_1LineObject.html#a9a299223e1707db099bb50708120910d", null ],
+      [ "getPointA", "classMR_1_1LineObject.html#a51ab5575057d73da5e125b5bdcdb2efb", null ],
+      [ "getPointB", "classMR_1_1LineObject.html#a22bc79959c2ab3d4249745ea924320e4", null ],
       [ "operator=", "classMR_1_1LineObject.html#ab5915cce854bcb4f57f7e00bba6cb20e", null ],
       [ "serializeFields_", "classMR_1_1LineObject.html#a70dc397b963d30654e48c48ef0dbc910", null ],
       [ "serializeModel_", "classMR_1_1LineObject.html#aeea80f3008725131e9e509ed11ff92ce", null ],

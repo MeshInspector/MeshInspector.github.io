@@ -1,4 +1,4 @@
 var structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4 =
 [
-    [ "distance", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html#a5d22c5757a9f5693cb49bc0944a46e04", null ]
+    [ "measure", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html#a182d33e799ffdd3e42408fedd13b3720", null ]
 ];

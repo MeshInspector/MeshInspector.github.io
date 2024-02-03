@@ -5,5 +5,5 @@ var structMR_1_1TriangulationHelpers_1_1Settings =
     [ "critAngle", "structMR_1_1TriangulationHelpers_1_1Settings.html#adaecbf29331f6b90ae2a11acaa0c153a", null ],
     [ "maxRemoves", "structMR_1_1TriangulationHelpers_1_1Settings.html#a04d78b046a3cb5a0456ca15052617648", null ],
     [ "radius", "structMR_1_1TriangulationHelpers_1_1Settings.html#aeadcc460fdb58725f5fd22d6457ea9b2", null ],
-    [ "useNeiNormals", "structMR_1_1TriangulationHelpers_1_1Settings.html#a04ede9f26e5967091f10074081f69fc0", null ]
+    [ "trustedNormals", "structMR_1_1TriangulationHelpers_1_1Settings.html#abe33d444027e0033891d8d9d75e52e1f", null ]
 ];

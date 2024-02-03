@@ -166,6 +166,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9a299223e1707db099bb50708120910d" id="r_a9a299223e1707db099bb50708120910d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a299223e1707db099bb50708120910d">getLength</a> () const</td></tr>
 <tr class="memdesc:a9a299223e1707db099bb50708120910d"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates line size from xf  <br /></td></tr>
 <tr class="separator:a9a299223e1707db099bb50708120910d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51ab5575057d73da5e125b5bdcdb2efb" id="r_a51ab5575057d73da5e125b5bdcdb2efb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51ab5575057d73da5e125b5bdcdb2efb">getPointA</a> () const</td></tr>
+<tr class="memdesc:a51ab5575057d73da5e125b5bdcdb2efb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the starting point, aka <code>center - dir * len/2</code>.  <br /></td></tr>
+<tr class="separator:a51ab5575057d73da5e125b5bdcdb2efb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22bc79959c2ab3d4249745ea924320e4" id="r_a22bc79959c2ab3d4249745ea924320e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22bc79959c2ab3d4249745ea924320e4">getPointB</a> () const</td></tr>
+<tr class="memdesc:a22bc79959c2ab3d4249745ea924320e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the finishing point, aka <code>center + dir * len/2</code>.  <br /></td></tr>
+<tr class="separator:a22bc79959c2ab3d4249745ea924320e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53870f5673f0f60a0db236b4e5f34873" id="r_a53870f5673f0f60a0db236b4e5f34873"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53870f5673f0f60a0db236b4e5f34873">setSize</a> (float halfLen)</td></tr>
 <tr class="separator:a53870f5673f0f60a0db236b4e5f34873"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5103fab67c0756c33a92cc84aa629ec" id="r_af5103fab67c0756c33a92cc84aa629ec"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const std::vector&lt; <a class="el" href="structMR_1_1FeatureObjectSharedProperty.html">FeatureObjectSharedProperty</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5103fab67c0756c33a92cc84aa629ec">getAllSharedProperties</a> () const override</td></tr>
@@ -993,6 +999,44 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>calculates line size from xf </p>
+
+</div>
+</div>
+<a id="a51ab5575057d73da5e125b5bdcdb2efb" name="a51ab5575057d73da5e125b5bdcdb2efb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51ab5575057d73da5e125b5bdcdb2efb">&#9670;&#160;</a></span>getPointA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> MR::LineObject::getPointA </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the starting point, aka <code>center - dir * len/2</code>. </p>
+
+</div>
+</div>
+<a id="a22bc79959c2ab3d4249745ea924320e4" name="a22bc79959c2ab3d4249745ea924320e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22bc79959c2ab3d4249745ea924320e4">&#9670;&#160;</a></span>getPointB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> MR::LineObject::getPointB </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the finishing point, aka <code>center + dir * len/2</code>. </p>
 
 </div>
 </div>

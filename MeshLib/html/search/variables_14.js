@@ -17,7 +17,7 @@ var searchData=
   ['vertdist2_14',['vertDist2',['../structMR_1_1VertPair.html#a9877259bf186487a6ae646bba6602ce4',1,'MR::VertPair']]],
   ['vertexprecision_15',['vertexPrecision',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#a391e0a1e39f79dd41b9a003e251360c4',1,'MR::MeshSave::CtmSaveOptions']]],
   ['vertforms_16',['vertForms',['../structMR_1_1DecimateSettings.html#a8a682d43b723098485a748e97bd12111',1,'MR::DecimateSettings::vertForms'],['../structMR_1_1DecimatePolylineSettings.html#a3b25e672e4446e2af56927c0cf0237db',1,'MR::DecimatePolylineSettings::vertForms']]],
-  ['vertid_17',['vertId',['../structMR_1_1VertPair.html#ae6239c50e9f906f24298e97baafcfd73',1,'MR::VertPair::vertId'],['../structMR_1_1ContoursVertId.html#a5107d2777fa514297b645fc4fffd8d76',1,'MR::ContoursVertId::vertId']]],
+  ['vertid_17',['vertId',['../structMR_1_1VertPair.html#ae6239c50e9f906f24298e97baafcfd73',1,'MR::VertPair::vertId'],['../structMR_1_1OffsetContourIndex.html#a54bdd66c3fff31476178a447886820e7',1,'MR::OffsetContourIndex::vertId']]],
   ['vertids_18',['vertIds',['../structMR_1_1GridSettings.html#ab5b3ed30ff4dde0622d5d2fb4c2213d8',1,'MR::GridSettings']]],
   ['vertnormals_19',['vertNormals',['../structMR_1_1MeshNormals.html#a9a227c6a8fb08eab31f2c5f3a8b86a27',1,'MR::MeshNormals']]],
   ['vertnormalsbuffer_5f_20',['vertNormalsBuffer_',['../classMR_1_1RenderMeshObject.html#a7392ba05df67ae19e9e6af50c94ebe33',1,'MR::RenderMeshObject']]],

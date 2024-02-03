@@ -363,7 +363,7 @@ C++ Basic Examples</h1>
 <div class="line">    <span class="keywordtype">float</span> diagonal = meshFixed.getBoundingBox().diagonal();</div>
 <div class="line">    <span class="keywordtype">float</span> icpSamplingVoxelSize = diagonal * 0.01f; <span class="comment">// To sample points from object</span></div>
 <div class="line">    <a class="code hl_struct" href="structMR_1_1ICPProperties.html">MR::ICPProperties</a> icpParams;</div>
-<div class="line">    icpParams.<a class="code hl_variable" href="structMR_1_1ICPProperties.html#abf0d9a236c177005330098a88f909eb4">distTresholdSq</a> = <a class="code hl_function" href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">MR::sqr</a>( diagonal * 0.1f ); <span class="comment">// Select points pairs that&#39;s not too far</span></div>
+<div class="line">    icpParams.<a class="code hl_variable" href="structMR_1_1ICPProperties.html#abf0d9a236c177005330098a88f909eb4">distTresholdSq</a> = <a class="code hl_function" href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">MR::sqr</a>( diagonal * 0.1f ); <span class="comment">// Use points pairs with maximum distance specified</span></div>
 <div class="line">    icpParams.exitVal = diagonal * 0.003f; <span class="comment">// Stop when distance reached</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Calculate transformation</span></div>
@@ -391,8 +391,8 @@ C++ Basic Examples</h1>
 <div class="ttc" id="aclassMR_1_1ICP_html"><div class="ttname"><a href="classMR_1_1ICP.html">MR::ICP</a></div><div class="ttdef"><b>Definition</b> MRICP.h:95</div></div>
 <div class="ttc" id="aclassMR_1_1ICP_html_a432cc96b69c08b035a5c6bf6bf8919da"><div class="ttname"><a href="classMR_1_1ICP.html#a432cc96b69c08b035a5c6bf6bf8919da">MR::ICP::setParams</a></div><div class="ttdeci">void setParams(const ICPProperties &amp;prop)</div><div class="ttdoc">tune algirithm params before run calculateTransformation()</div><div class="ttdef"><b>Definition</b> MRICP.h:108</div></div>
 <div class="ttc" id="aclassMR_1_1MeshOrPoints_html"><div class="ttname"><a href="classMR_1_1MeshOrPoints.html">MR::MeshOrPoints</a></div><div class="ttdef"><b>Definition</b> MRMeshOrPoints.h:15</div></div>
-<div class="ttc" id="anamespaceMR_html_a1bdf9f3c718616502649bc34a80ac976"><div class="ttname"><a href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">MR::sqr</a></div><div class="ttdeci">constexpr T sqr(T x) noexcept</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:502</div></div>
-<div class="ttc" id="anamespaceMR_html_a2573fd184ebe72f07725ac0f2f992994"><div class="ttname"><a href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">MR::AffineXf3f</a></div><div class="ttdeci">AffineXf3&lt; float &gt; AffineXf3f</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:172</div></div>
+<div class="ttc" id="anamespaceMR_html_a1bdf9f3c718616502649bc34a80ac976"><div class="ttname"><a href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">MR::sqr</a></div><div class="ttdeci">constexpr T sqr(T x) noexcept</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:505</div></div>
+<div class="ttc" id="anamespaceMR_html_a2573fd184ebe72f07725ac0f2f992994"><div class="ttname"><a href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">MR::AffineXf3f</a></div><div class="ttdeci">AffineXf3&lt; float &gt; AffineXf3f</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:175</div></div>
 <div class="ttc" id="astructMR_1_1ICPProperties_html"><div class="ttname"><a href="structMR_1_1ICPProperties.html">MR::ICPProperties</a></div><div class="ttdef"><b>Definition</b> MRICP.h:63</div></div>
 <div class="ttc" id="astructMR_1_1ICPProperties_html_abf0d9a236c177005330098a88f909eb4"><div class="ttname"><a href="structMR_1_1ICPProperties.html#abf0d9a236c177005330098a88f909eb4">MR::ICPProperties::distTresholdSq</a></div><div class="ttdeci">float distTresholdSq</div><div class="ttdef"><b>Definition</b> MRICP.h:73</div></div>
 <div class="ttc" id="astructMR_1_1MeshPart_html"><div class="ttname"><a href="structMR_1_1MeshPart.html">MR::MeshPart</a></div><div class="ttdef"><b>Definition</b> MRMeshPart.h:11</div></div>
@@ -524,45 +524,42 @@ Python Basic Examples</h1>
 Load and save example: </p><div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy as mrmeshpy</div>
 <div class="line"> </div>
 <div class="line">try:</div>
-<div class="line">    mesh = mrmeshpy.loadMesh(mrmeshpy.Path(&quot;mesh.stl&quot;))</div>
+<div class="line">    mesh = mrmeshpy.loadMesh(&quot;mesh.stl&quot;)</div>
 <div class="line">except ValueError as e:</div>
 <div class="line">    print(e)</div>
 <div class="line"> </div>
-<div class="line">mrmeshpy.saveMesh(mesh, mrmeshpy.Path(<span class="stringliteral">&quot;mesh.ply&quot;</span>))</div>
+<div class="line">mrmeshpy.saveMesh(mesh, <span class="stringliteral">&quot;mesh.ply&quot;</span>)</div>
 </div><!-- fragment --><p>Using numpy to create mesh and get back its primitives </p><div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy as mrmeshpy</div>
 <div class="line">import meshlib.mrmeshnumpy as mrmeshnumpy</div>
+<div class="line">import numpy as np</div>
 <div class="line"> </div>
-<div class="line">faces = np.ndarray(shape=(2,3), dtype=np.int32, buffer=np.array([[0,1,2],[2,3,0]], dtype=np.int32))</div>
+<div class="line">faces = np.ndarray(shape=(2, 3), dtype=np.int32, buffer=np.array([[0, 1, 2], [2, 3, 0]], dtype=np.int32))</div>
 <div class="line"> </div>
 <div class="line"># mrmesh uses float32 for vertex coordinates</div>
 <div class="line"># however, you could also use float64</div>
-<div class="line">verts = np.ndarray(shape=(4,3), dtype=np.float32, buffer=np.array([[0.0,0.0,0.0],[1.0,0.0,0.0],[1.0,1.0,0.0],[0.0,1.0,0.0]], dtype=np.float32))</div>
+<div class="line">verts = np.ndarray(shape=(4, 3), dtype=np.float32, buffer=np.array([[0.0, 0.0, 0.0], [1.0, 0.0, 0.0], [1.0, 1.0, 0.0], [0.0, 1.0, 0.0]], dtype=np.float32))</div>
 <div class="line"> </div>
 <div class="line">mesh = mrmeshnumpy.meshFromFacesVerts(faces, verts)</div>
 <div class="line"> </div>
 <div class="line"># some mesh manipulations</div>
 <div class="line"> </div>
-<div class="line">outVerts = mrmeshnumpy.getNumpyVerts(mesh)</div>
-<div class="line">outFaces = mrmeshnumpy.getNumpyFaces(mesh.topology)</div>
+<div class="line">out_verts = mrmeshnumpy.getNumpyVerts(mesh)</div>
+<div class="line">out_faces = mrmeshnumpy.getNumpyFaces(mesh.topology)</div>
 </div><!-- fragment --><p><a class="el" href="structMR_1_1Mesh.html">Mesh</a> modification examples </p><div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy as mrmeshpy</div>
-<div class="line">expectedMesh = mrmeshpy.loadMesh(mrmeshpy.Path(&quot;mesh.stl&quot;))</div>
-<div class="line">assert(expectedMesh.has_value())</div>
-<div class="line">mesh = expectedMesh.value()</div>
+<div class="line">mesh = mrmeshpy.loadMesh(&quot;mesh.stl&quot;)</div>
 <div class="line"> </div>
-<div class="line">relaxParams = mrmeshpy.MeshRelaxParams()</div>
-<div class="line">relaxParams.iterations = 5</div>
-<div class="line">mrmeshpy.<a class="code hl_function" href="group__MeshRelaxGroup.html#ga82c8571f065eff9a7403c41093b44a53">relax</a>(mesh, relaxParams)</div>
+<div class="line">relax_params = mrmeshpy.MeshRelaxParams()</div>
+<div class="line">relax_params.iterations = 5</div>
+<div class="line">mrmeshpy.relax(mesh, relax_params)</div>
 <div class="line"> </div>
 <div class="line">props = mrmeshpy.SubdivideSettings()</div>
 <div class="line">props.maxDeviationAfterFlip = 0.5</div>
-<div class="line">mrmeshpy.<a class="code hl_function" href="group__MeshSubdivideGroup.html#ga8e8a41112544b99ef8f20e3e6b61fab7">subdivideMesh</a>(mesh,props)</div>
+<div class="line">mrmeshpy.subdivideMesh(mesh,props)</div>
 <div class="line"> </div>
-<div class="line">plusZ = mrmeshpy.<a class="code hl_typedef" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>()</div>
-<div class="line">plusZ.z = 1.0</div>
-<div class="line">rotationXf = mrmeshpy.<a class="code hl_typedef" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a>.linear( mrmeshpy.<a class="code hl_typedef" href="namespaceMR.html#aab2d14f6f8acde84380be8dfa352a974">Matrix3f</a>.rotation( plusZ, 3.1415*0.5 ) )</div>
-<div class="line">mesh.transform(rotationXf)</div>
-<div class="ttc" id="anamespaceMR_html_a62d3af552ee301e04c5fe9bc8ea7be47"><div class="ttname"><a href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">MR::Vector3f</a></div><div class="ttdeci">Vector3&lt; float &gt; Vector3f</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:114</div></div>
-<div class="ttc" id="anamespaceMR_html_aab2d14f6f8acde84380be8dfa352a974"><div class="ttname"><a href="namespaceMR.html#aab2d14f6f8acde84380be8dfa352a974">MR::Matrix3f</a></div><div class="ttdeci">Matrix3&lt; float &gt; Matrix3f</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:135</div></div>
+<div class="line">plus_z = mrmeshpy.Vector3f()</div>
+<div class="line">plus_z.z = 1.0</div>
+<div class="line">rotation_xf = mrmeshpy.AffineXf3f.linear(mrmeshpy.Matrix3f.rotation(plus_z, 3.1415 * 0.5))</div>
+<div class="line">mesh.<a class="code hl_function" href="structMR_1_1Mesh.html#a9295908f703adbacd9b9b8f900b85f7d">transform</a>(rotation_xf)</div>
 </div><!-- fragment --><p>Simple triangulation </p><div class="fragment"><div class="line">from meshlib <span class="keyword">import</span> mrmeshpy as mm</div>
 <div class="line">from meshlib import mrmeshnumpy as mn</div>
 <div class="line">import numpy as np</div>
@@ -573,19 +570,19 @@ Load and save example: </p><div class="fragment"><div class="line"><span class="
 <div class="line">z = np.cos(v)</div>
 <div class="line"> </div>
 <div class="line"># Prepare for MeshLib PointCloud</div>
-<div class="line">verts = np.stack((x.flatten(),y.flatten(),z.flatten()),axis=-1).reshape(-1,3)</div>
+<div class="line">verts = np.stack((x.flatten(), y.flatten(), z.flatten()), axis=-1).reshape(-1, 3)</div>
 <div class="line"># Create MeshLib PointCloud from np ndarray</div>
 <div class="line">pc = mn.pointCloudFromPoints(verts)</div>
 <div class="line"># Remove duplicate points</div>
-<div class="line">pc.validPoints = mm.pointUniformSampling(pc,1e-3)</div>
+<div class="line">pc.validPoints = mm.pointUniformSampling(pc, 1e-3)</div>
 <div class="line">pc.invalidateCaches()</div>
 <div class="line"> </div>
 <div class="line"># Triangulate it</div>
-<div class="line">triangulatedPC = mm.triangulatePointCloud(pc)</div>
+<div class="line">triangulated_pc = mm.triangulatePointCloud(pc)</div>
 <div class="line"> </div>
 <div class="line"># Fix possible issues</div>
-<div class="line">triangulatedPC = mm.offsetMesh(triangulatedPC, 0.0)</div>
-</div><!-- fragment --><p>Tirangulation of regular numpy grid </p><div class="fragment"><div class="line">from meshlib <span class="keyword">import</span> mrmeshpy as mm</div>
+<div class="line">triangulated_pc = mm.offsetMesh(triangulated_pc, 0.0)</div>
+</div><!-- fragment --><p>Triangulation of regular numpy grid </p><div class="fragment"><div class="line">from meshlib <span class="keyword">import</span> mrmeshpy as mm</div>
 <div class="line">from meshlib import mrmeshnumpy as mn</div>
 <div class="line">import numpy as np</div>
 <div class="line"> </div>
@@ -601,24 +598,24 @@ Load and save example: </p><div class="fragment"><div class="line"><span class="
 <div class="line">import plotly.graph_objects as go</div>
 <div class="line"> </div>
 <div class="line"># load mesh</div>
-<div class="line">mesh = mm.loadMesh(mm.Path(&quot;mesh.stl&quot;))</div>
-<div class="line"><span class="preprocessor"># extract numpy arrays</span></div>
+<div class="line">mesh = mm.loadMesh(&quot;mesh.stl&quot;)</div>
+<div class="line"># extract numpy arrays</div>
 <div class="line">verts = mn.getNumpyVerts(mesh)</div>
-<div class="line">faces = mn.getNumpyFaces(mesh.topology)</div>
+<div class="line">faces = mn.getNumpyFaces(mesh.<a class="code hl_variable" href="structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">topology</a>)</div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor"># prepare data for plotly</span></div>
-<div class="line">vertsT = np.transpose(verts)</div>
-<div class="line">facesT = np.transpose(faces)</div>
+<div class="line">verts_t = np.transpose(verts)</div>
+<div class="line">faces_t = np.transpose(faces)</div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor"># draw</span></div>
 <div class="line">fig = go.Figure(data=[</div>
 <div class="line">    go.Mesh3d(</div>
-<div class="line">        x = vertsT[0],</div>
-<div class="line">        y = vertsT[1],</div>
-<div class="line">        z = vertsT[2],</div>
-<div class="line">        i = facesT[0],</div>
-<div class="line">        j = facesT[1],</div>
-<div class="line">        k = facesT[2]</div>
+<div class="line">        x=verts_t[0],</div>
+<div class="line">        y=verts_t[1],</div>
+<div class="line">        z=verts_t[2],</div>
+<div class="line">        i=faces_t[0],</div>
+<div class="line">        j=faces_t[1],</div>
+<div class="line">        k=faces_t[2]</div>
 <div class="line">    )</div>
 <div class="line">])</div>
 <div class="line"> </div>
@@ -630,150 +627,152 @@ Plotly visualization</div></div>
 <p>Example of mesh decimate </p><div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy as mrmeshpy</div>
 <div class="line"> </div>
 <div class="line"># Load mesh</div>
-<div class="line">mesh = mrmeshpy.loadMesh( &quot;mesh.stl&quot; )</div>
+<div class="line">mesh = mrmeshpy.loadMesh(&quot;mesh.stl&quot;)</div>
 <div class="line"> </div>
 <div class="line"># Setup decimate parameters</div>
 <div class="line">settings = mrmeshpy.DecimateSettings()</div>
 <div class="line">settings.maxError = 0.05</div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor"># Decimate mesh</span></div>
-<div class="line">mrmeshpy.decimateMesh( mesh, settings )</div>
+<div class="line">mrmeshpy.decimateMesh(mesh, settings)</div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor"># Save result</span></div>
-<div class="line">mrmeshpy.saveMesh( mesh, <span class="stringliteral">&quot;decimatedMesh.stl&quot;</span> )</div>
+<div class="line">mrmeshpy.saveMesh(mesh, <span class="stringliteral">&quot;decimatedMesh.stl&quot;</span>)</div>
 </div><!-- fragment --><p>Example of Boolean operation</p>
 <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy as mrmeshpy</div>
 <div class="line"> </div>
 <div class="line"># create first sphere with radius of 1 unit</div>
-<div class="line">sphere1 = mrmeshpy.makeUVSphere( 1.0, 64, 64 )</div>
+<div class="line">sphere1 = mrmeshpy.makeUVSphere(1.0, 64, 64)</div>
 <div class="line"> </div>
 <div class="line"># create second sphere by cloning the first sphere and moving it in X direction</div>
-<div class="line">sphere2 = mrmeshpy.copyMesh( sphere1 )</div>
-<div class="line">xf = mrmeshpy.AffineXf3f.translation( mrmeshpy.Vector3f( 0.7, 0.0, 0.0 ) )</div>
-<div class="line">sphere2.transform( xf )</div>
+<div class="line">sphere2 = mrmeshpy.copyMesh(sphere1)</div>
+<div class="line">xf = mrmeshpy.AffineXf3f.translation(mrmeshpy.Vector3f(0.7, 0.0, 0.0))</div>
+<div class="line">sphere2.transform(xf)</div>
 <div class="line"> </div>
 <div class="line"># perform boolean operation</div>
-<div class="line">result = mrmeshpy.boolean( sphere1, sphere2, mrmeshpy.BooleanOperation.Intersection )</div>
-<div class="line">resultMesh = result.mesh</div>
+<div class="line">result = mrmeshpy.boolean(sphere1, sphere2, mrmeshpy.BooleanOperation.Intersection)</div>
+<div class="line">result_mesh = result.mesh</div>
 <div class="line">if not result.valid():</div>
-<div class="line">  print( result.errorString )</div>
+<div class="line">    print(result.errorString)</div>
 <div class="line"> </div>
 <div class="line"># save result to STL file</div>
-<div class="line">mrmeshpy.saveMesh( resultMesh, &quot;out_boolean.stl&quot; )</div>
+<div class="line">mrmeshpy.saveMesh(result_mesh, &quot;out_boolean.stl&quot;)</div>
 </div><!-- fragment --><p>Example of mesh offset</p>
 <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy as mrmeshpy</div>
 <div class="line"> </div>
 <div class="line"># Load mesh</div>
-<div class="line">mesh = mrmeshpy.loadMesh( &quot;mesh.stl&quot; )</div>
+<div class="line">mesh = mrmeshpy.loadMesh(&quot;mesh.stl&quot;)</div>
 <div class="line"> </div>
 <div class="line"># Setup parameters</div>
 <div class="line">params = mrmeshpy.OffsetParameters()</div>
-<div class="line">params.<a class="code hl_variable" href="structMR_1_1BaseShellParameters.html#a0496e82daf37476561be7bd450c6fb48">voxelSize</a> = mesh.computeBoundingBox().diagonal() * 5e-3 # offset grid precision (algorithm is voxel based)</div>
-<div class="line"><span class="keywordflow">if</span> mrmeshpy.findRightBoundary( mesh.topology ).empty():</div>
-<div class="line">  params.<a class="code hl_variable" href="structMR_1_1OffsetParameters.html#aa411170d1cc5cc475f3caeab0a525e26">signDetectionMode</a> = mrmeshpy.SignDetectionMode.HoleWindingRule # use <span class="keywordflow">if</span> you have holes in mesh</div>
+<div class="line">params.<a class="code hl_variable" href="structMR_1_1BaseShellParameters.html#a0496e82daf37476561be7bd450c6fb48">voxelSize</a> = mesh.<a class="code hl_function" href="structMR_1_1Mesh.html#a30783b277e8cd9daed4827c15daede28">computeBoundingBox</a>().<a class="code hl_function" href="structMR_1_1Box.html#a2cfcb26887cd979172fd1831229c8144">diagonal</a>() * 5e-3  # offset grid precision (algorithm is voxel based)</div>
+<div class="line"><span class="keywordflow">if</span> mrmeshpy.findRightBoundary(mesh.<a class="code hl_variable" href="structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">topology</a>).empty():</div>
+<div class="line">    params.<a class="code hl_variable" href="structMR_1_1OffsetParameters.html#aa411170d1cc5cc475f3caeab0a525e26">signDetectionMode</a> = mrmeshpy.SignDetectionMode.HoleWindingRule  # use <span class="keywordflow">if</span> you have holes in mesh</div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor"># Make offset mesh</span></div>
-<div class="line">offset = mesh.computeBoundingBox().diagonal() * 0.05</div>
-<div class="line">offsetedMesh = mrmeshpy.offsetMesh( mesh, offset, params )</div>
+<div class="line">offset = mesh.<a class="code hl_function" href="structMR_1_1Mesh.html#a30783b277e8cd9daed4827c15daede28">computeBoundingBox</a>().<a class="code hl_function" href="structMR_1_1Box.html#a2cfcb26887cd979172fd1831229c8144">diagonal</a>() * 0.05</div>
+<div class="line">result_mesh = mrmeshpy.offsetMesh(mesh, offset, params)</div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor"># Save result</span></div>
-<div class="line">mrmeshpy.saveMesh( offsetedMesh, <span class="stringliteral">&quot;offsetedMesh.stl&quot;</span> )</div>
+<div class="line">mrmeshpy.saveMesh(result_mesh, <span class="stringliteral">&quot;offsetMesh.stl&quot;</span>)</div>
 </div><!-- fragment --><p>Example of mesh <a class="el" href="classMR_1_1ICP.html">ICP</a></p>
 <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy as mrmeshpy</div>
 <div class="line"> </div>
 <div class="line"># Load meshes</div>
-<div class="line">meshFloating = mrmeshpy.loadMesh( &quot;meshA.stl&quot; )</div>
-<div class="line">meshFixed = mrmeshpy.loadMesh( <span class="stringliteral">&quot;meshB.stl&quot;</span> )</div>
+<div class="line">meshFloating = mrmeshpy.loadMesh(&quot;meshA.stl&quot;)</div>
+<div class="line">meshFixed = mrmeshpy.loadMesh(<span class="stringliteral">&quot;meshB.stl&quot;</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor"># Prepare ICP parameters</span></div>
-<div class="line">diagonal = meshFixed.getBoundingBox().diagonal();</div>
-<div class="line">icpSamplingVoxelSize = diagonal * 0.01 # To sample points from <span class="keywordtype">object</span></div>
-<div class="line">icpParams = mrmeshpy.ICPProperties()</div>
-<div class="line">icpParams.distTresholdSq = ( diagonal * 0.1 ) ** 2 # Select points pairs that<span class="stringliteral">&#39;s not too far</span></div>
-<div class="line"><span class="stringliteral">icpParams.exitVal = diagonal * 0.003 # Stop when this distance reached</span></div>
-<div class="line"><span class="stringliteral"></span> </div>
-<div class="line"><span class="stringliteral"># Calculate transformation</span></div>
-<div class="line"><span class="stringliteral">icp = mrmeshpy.ICP( meshFloating, meshFixed,</span></div>
-<div class="line"><span class="stringliteral">        mrmeshpy.AffineXf3f(), mrmeshpy.AffineXf3f(),</span></div>
-<div class="line"><span class="stringliteral">        icpSamplingVoxelSize )</span></div>
-<div class="line"><span class="stringliteral">icp.setParams( icpParams )</span></div>
-<div class="line"><span class="stringliteral">icp.updateVertPairs()</span></div>
-<div class="line"><span class="stringliteral">xf = icp.calculateTransformation()</span></div>
-<div class="line"><span class="stringliteral"></span> </div>
-<div class="line"><span class="stringliteral"># Transform floating mesh</span></div>
-<div class="line"><span class="stringliteral">meshFloating.transform( xf )</span></div>
-<div class="line"><span class="stringliteral"></span> </div>
-<div class="line"><span class="stringliteral"># Output information string</span></div>
-<div class="line"><span class="stringliteral">print( icp.getLastICPInfo() )</span></div>
-<div class="line"><span class="stringliteral"></span> </div>
-<div class="line"><span class="stringliteral"># Save result</span></div>
-<div class="line"><span class="stringliteral">mrmeshpy.saveMesh( meshFloating, &quot;meshA_icp.stl&quot; )</span></div>
+<div class="line">diagonal = meshFixed.getBoundingBox().diagonal()</div>
+<div class="line">icp_sampling_voxel_size = diagonal * 0.01  # To sample points from <span class="keywordtype">object</span></div>
+<div class="line">icp_params = mrmeshpy.ICPProperties()</div>
+<div class="line">icp_params.distTresholdSq = (diagonal * 0.1) ** 2  # Use points pairs with maximum <a class="code hl_function" href="group__IntersectionGroup.html#ga9f71b2c20cd6a91f42d8d76dbc038190">distance</a> specified</div>
+<div class="line">icp_params.exitVal = diagonal * 0.003  # Stop when <span class="keyword">this</span> <a class="code hl_function" href="group__IntersectionGroup.html#ga9f71b2c20cd6a91f42d8d76dbc038190">distance</a> reached</div>
+<div class="line"> </div>
+<div class="line"># Calculate transformation</div>
+<div class="line">icp = mrmeshpy.ICP(meshFloating, meshFixed,</div>
+<div class="line">                   mrmeshpy.AffineXf3f(), mrmeshpy.AffineXf3f(),</div>
+<div class="line">                   icp_sampling_voxel_size)</div>
+<div class="line">icp.setParams(icp_params)</div>
+<div class="line">icp.updateVertPairs()</div>
+<div class="line">xf = icp.calculateTransformation()</div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor"># Transform floating mesh</span></div>
+<div class="line">meshFloating.transform(xf)</div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor"># Output information string</span></div>
+<div class="line">print(icp.getLastICPInfo())</div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor"># Save result</span></div>
+<div class="line">mrmeshpy.saveMesh(meshFloating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span>)</div>
+<div class="ttc" id="agroup__IntersectionGroup_html_ga9f71b2c20cd6a91f42d8d76dbc038190"><div class="ttname"><a href="group__IntersectionGroup.html#ga9f71b2c20cd6a91f42d8d76dbc038190">MR::distance</a></div><div class="ttdeci">std::optional&lt; T &gt; distance(const Plane3&lt; T &gt; &amp;plane1, const Plane3&lt; T &gt; &amp;plane2, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</div><div class="ttdef"><b>Definition</b> MRIntersection.h:104</div></div>
 </div><!-- fragment --><p>Example of filling holes</p>
 <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy as mrmeshpy</div>
 <div class="line"> </div>
 <div class="line"># Load mesh</div>
-<div class="line">mesh = mrmeshpy.loadMesh( &quot;mesh.stl&quot; )</div>
+<div class="line">mesh = mrmeshpy.loadMesh(&quot;mesh.stl&quot;)</div>
 <div class="line"> </div>
 <div class="line"># Find single edge <span class="keywordflow">for each</span> hole in mesh</div>
-<div class="line">holeEdges = mesh.topology.findHoleRepresentiveEdges()</div>
+<div class="line">hole_edges = mesh.<a class="code hl_variable" href="structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">topology</a>.<a class="code hl_function" href="classMR_1_1MeshTopology.html#ac8e27800a0bbad8038ed49623f7836fc">findHoleRepresentiveEdges</a>()</div>
 <div class="line"> </div>
-<div class="line"><span class="keywordflow">for</span> e in holeEdges:</div>
-<div class="line"><span class="preprocessor">  # Setup filling parameters</span></div>
-<div class="line">  params = mrmeshpy.FillHoleParams()</div>
-<div class="line">  params.metric = mrmeshpy.getUniversalMetric( mesh )</div>
-<div class="line"><span class="preprocessor">  # Fill hole represented by `e`</span></div>
-<div class="line">  mrmeshpy.fillHole( mesh, e, params )</div>
+<div class="line"><span class="keywordflow">for</span> e in hole_edges:</div>
+<div class="line"><span class="preprocessor">    #  Setup filling parameters</span></div>
+<div class="line">    params = mrmeshpy.FillHoleParams()</div>
+<div class="line">    params.metric = mrmeshpy.getUniversalMetric(mesh)</div>
+<div class="line"><span class="preprocessor">    #  Fill hole represented by `e`</span></div>
+<div class="line">    mrmeshpy.fillHole(mesh, e, params)</div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor"># Save result</span></div>
-<div class="line">mrmeshpy.saveMesh( mesh, <span class="stringliteral">&quot;filledMesh.stl&quot;</span> )</div>
+<div class="line">mrmeshpy.saveMesh(mesh, <span class="stringliteral">&quot;filledMesh.stl&quot;</span>)</div>
 </div><!-- fragment --><p>Example of stitch holes</p>
 <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy as mrmeshpy</div>
 <div class="line"> </div>
 <div class="line"># Load meshes</div>
-<div class="line">meshA = mrmeshpy.loadMesh( &quot;meshAwithHole.stl&quot; )</div>
-<div class="line">meshB = mrmeshpy.loadMesh( <span class="stringliteral">&quot;meshBwithHole.stl&quot;</span> )</div>
+<div class="line">mesh_a = mrmeshpy.loadMesh(&quot;meshAwithHole.stl&quot;)</div>
+<div class="line">mesh_b = mrmeshpy.loadMesh(<span class="stringliteral">&quot;meshBwithHole.stl&quot;</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor"># Unite meshes</span></div>
-<div class="line">mesh = mrmeshpy.mergeMeshes( [ meshA, meshB ] )</div>
+<div class="line">mesh = mrmeshpy.mergeMeshes([mesh_a, mesh_b])</div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor"># Find holes</span></div>
-<div class="line">edges = mesh.topology.findHoleRepresentiveEdges()</div>
+<div class="line">edges = mesh.<a class="code hl_variable" href="structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">topology</a>.<a class="code hl_function" href="classMR_1_1MeshTopology.html#ac8e27800a0bbad8038ed49623f7836fc">findHoleRepresentiveEdges</a>()</div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor"># Connect two holes</span></div>
 <div class="line">params = mrmeshpy.StitchHolesParams()</div>
-<div class="line">params.metric = mrmeshpy.getUniversalMetric( mesh )</div>
-<div class="line">mrmeshpy.buildCylinderBetweenTwoHoles( mesh, edges[0], edges[1], params )</div>
+<div class="line">params.metric = mrmeshpy.getUniversalMetric(mesh)</div>
+<div class="line">mrmeshpy.buildCylinderBetweenTwoHoles(mesh, edges[0], edges[1], params)</div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor"># Save result</span></div>
-<div class="line">mrmeshpy.saveMesh( mesh, <span class="stringliteral">&quot;stitchedMesh.stl&quot;</span> )</div>
+<div class="line">mrmeshpy.saveMesh(mesh, <span class="stringliteral">&quot;stitchedMesh.stl&quot;</span>)</div>
 </div><!-- fragment --><p>Example of extrude faces on mesh</p>
 <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy as mrmeshpy</div>
 <div class="line"> </div>
 <div class="line"># Load mesh</div>
-<div class="line">mesh = mrmeshpy.loadMesh( &quot;mesh.stl&quot; )</div>
+<div class="line">mesh = mrmeshpy.loadMesh(&quot;mesh.stl&quot;)</div>
 <div class="line"> </div>
 <div class="line"># Prepare region to extrude</div>
-<div class="line">facesToExtrude = mrmeshpy.FaceBitSet()</div>
-<div class="line">facesToExtrude.resize( 3, False )</div>
-<div class="line">facesToExtrude.set( mrmeshpy.FaceId( 1 ), True )</div>
-<div class="line">facesToExtrude.set( mrmeshpy.FaceId( 2 ), True )</div>
+<div class="line">faces_to_extrude = mrmeshpy.FaceBitSet()</div>
+<div class="line">faces_to_extrude.resize(3, False)</div>
+<div class="line">faces_to_extrude.set(mrmeshpy.FaceId(1), True)</div>
+<div class="line">faces_to_extrude.set(mrmeshpy.FaceId(2), True)</div>
 <div class="line"> </div>
 <div class="line"># Create duplicated verts on region boundary</div>
-<div class="line">mrmeshpy.makeDegenerateBandAroundRegion( mesh, facesToExtrude )</div>
+<div class="line">mrmeshpy.makeDegenerateBandAroundRegion(mesh, faces_to_extrude)</div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor"># Find vertices that will be moved</span></div>
-<div class="line">vertsForMove = mrmeshpy.getIncidentVerts( mesh.topology, facesToExtrude )</div>
+<div class="line">verts_for_move = mrmeshpy.getIncidentVerts(mesh.<a class="code hl_variable" href="structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">topology</a>, faces_to_extrude)</div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor"># Move each vertex</span></div>
-<div class="line"><span class="keywordflow">for</span> v in range( vertsForMove.size() ):</div>
-<div class="line">  if vertsForMove.test( mrmeshpy.<a class="code hl_typedef" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a>( v ) ):</div>
-<div class="line">    mesh.points.vec[ v ] += mrmeshpy.<a class="code hl_typedef" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>( 0.0, 0.0, 1.0 )</div>
+<div class="line"><span class="keywordflow">for</span> v in range(verts_for_move.size()):</div>
+<div class="line">    if verts_for_move.test(mrmeshpy.<a class="code hl_typedef" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a>(v)):</div>
+<div class="line">        mesh.points.vec[v] += mrmeshpy.<a class="code hl_typedef" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>(0.0, 0.0, 1.0)</div>
 <div class="line"> </div>
 <div class="line"># Invalidate internal caches after manual changing</div>
 <div class="line">mesh.invalidateCaches()</div>
 <div class="line"> </div>
 <div class="line"># Save mesh</div>
-<div class="line">mrmeshpy.saveMesh( mesh, <span class="stringliteral">&quot;extrudedMesh.stl&quot;</span> )</div>
+<div class="line">mrmeshpy.saveMesh(mesh, <span class="stringliteral">&quot;extrudedMesh.stl&quot;</span>)</div>
+<div class="ttc" id="anamespaceMR_html_a62d3af552ee301e04c5fe9bc8ea7be47"><div class="ttname"><a href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">MR::Vector3f</a></div><div class="ttdeci">Vector3&lt; float &gt; Vector3f</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:117</div></div>
 <div class="ttc" id="anamespaceMR_html_a93b55da93792f8f99be6c7ab7e0d103a"><div class="ttname"><a href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">MR::VertId</a></div><div class="ttdeci">Id&lt; VertTag &gt; VertId</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:67</div></div>
 </div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="EmbendedPythonOverview.html">Python overview</a> </dd></dl>
 </div></div><!-- contents -->

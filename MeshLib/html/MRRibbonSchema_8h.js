@@ -6,6 +6,7 @@ var MRRibbonSchema_8h =
     [ "MR::RibbonSchema", "structMR_1_1RibbonSchema.html", "structMR_1_1RibbonSchema" ],
     [ "MR::RibbonSchemaHolder", "classMR_1_1RibbonSchemaHolder.html", "classMR_1_1RibbonSchemaHolder" ],
     [ "MR::RibbonSchemaHolder::SearchResult", "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html", "structMR_1_1RibbonSchemaHolder_1_1SearchResult" ],
+    [ "MR::RibbonSchemaHolder::SearchResultWeight", "structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html", "structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight" ],
     [ "MR::RibbonSchemaLoader", "classMR_1_1RibbonSchemaLoader.html", "classMR_1_1RibbonSchemaLoader" ],
     [ "GroupsItemsMap", "MRRibbonSchema_8h.html#ad42a75e584073228a798aaddab06e6f4", null ],
     [ "ItemMap", "MRRibbonSchema_8h.html#a55efef56c0d2d0a5eabf81b134ec39c9", null ],

@@ -71,6 +71,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRSplashWindow.h", "MRSplashWindow_8h.html", "MRSplashWindow_8h" ],
     [ "MRStatePlugin.h", "MRStatePlugin_8h.html", "MRStatePlugin_8h" ],
     [ "MRStatePluginUpdate.h", "MRStatePluginUpdate_8h.html", "MRStatePluginUpdate_8h" ],
+    [ "MRSurfaceContoursWidget.h", "MRSurfaceContoursWidget_8h.html", "MRSurfaceContoursWidget_8h" ],
     [ "MRSurfaceManipulationWidget.h", "MRSurfaceManipulationWidget_8h.html", "MRSurfaceManipulationWidget_8h" ],
     [ "MRSurfacePointPicker.h", "MRSurfacePointPicker_8h.html", "MRSurfacePointPicker_8h" ],
     [ "MRSwapRootAction.h", "MRSwapRootAction_8h.html", "MRSwapRootAction_8h" ],

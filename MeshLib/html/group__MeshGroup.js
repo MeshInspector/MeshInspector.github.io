@@ -22,6 +22,7 @@ var group__MeshGroup =
       [ "cotan", "structMR_1_1Mesh.html#aae3794627367f1c0ae6a497f41542197", null ],
       [ "dblArea", "structMR_1_1Mesh.html#a1e2a8eaf7d1882e02a3eea66d1d72349", null ],
       [ "dblArea", "structMR_1_1Mesh.html#ab6d39814aa495e12ba8e388c22a6f12e", null ],
+      [ "deleteFaces", "structMR_1_1Mesh.html#a1561f722823d5b87bd68f6fbb37c8640", null ],
       [ "destPnt", "structMR_1_1Mesh.html#a6241859f835aa7cd22f26c1e40b9791a", null ],
       [ "dihedralAngle", "structMR_1_1Mesh.html#a938d6bd536f16b6f46394ceb91271053", null ],
       [ "dihedralAngleCos", "structMR_1_1Mesh.html#afbc9fe4f12054a0171667825056fe457", null ],

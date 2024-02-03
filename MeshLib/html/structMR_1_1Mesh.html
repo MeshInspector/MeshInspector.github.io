@@ -360,6 +360,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6d8e2d55d67e606f0129377d0d14aa4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac790be9d7fbcbf9f765ebdd90f761c71" id="r_ac790be9d7fbcbf9f765ebdd90f761c71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PackMapping.html">PackMapping</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac790be9d7fbcbf9f765ebdd90f761c71">packOptimally</a> (bool preserveAABBTree=true)</td></tr>
 <tr class="separator:ac790be9d7fbcbf9f765ebdd90f761c71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1561f722823d5b87bd68f6fbb37c8640" id="r_a1561f722823d5b87bd68f6fbb37c8640"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1561f722823d5b87bd68f6fbb37c8640">deleteFaces</a> (const <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> &amp;fs)</td></tr>
+<tr class="memdesc:a1561f722823d5b87bd68f6fbb37c8640"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes multiple given faces  <br /></td></tr>
+<tr class="separator:a1561f722823d5b87bd68f6fbb37c8640"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a726a27c8dbdef71902d1031424bea5cf" id="r_a726a27c8dbdef71902d1031424bea5cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a726a27c8dbdef71902d1031424bea5cf">projectPoint</a> (const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &amp;point, <a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a> &amp;res, float maxDistSq=FLT_MAX, const <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *region=nullptr, const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> *xf=nullptr) const</td></tr>
 <tr class="separator:a726a27c8dbdef71902d1031424bea5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a973baf90b80dc2696bc083577727d4fc" id="r_a973baf90b80dc2696bc083577727d4fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a973baf90b80dc2696bc083577727d4fc">projectPoint</a> (const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &amp;point, <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;res, float maxDistSq=FLT_MAX, const <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *region=nullptr, const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> *xf=nullptr) const</td></tr>
@@ -978,6 +981,25 @@ template&lt;typename I &gt; </div>
 </div><div class="memdoc">
 
 <p>computes the length of summed directed double areas of all triangles around given vertex </p>
+
+</div>
+</div>
+<a id="a1561f722823d5b87bd68f6fbb37c8640" name="a1561f722823d5b87bd68f6fbb37c8640"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1561f722823d5b87bd68f6fbb37c8640">&#9670;&#160;</a></span>deleteFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::Mesh::deleteFaces </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>fs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>deletes multiple given faces </p>
 
 </div>
 </div>

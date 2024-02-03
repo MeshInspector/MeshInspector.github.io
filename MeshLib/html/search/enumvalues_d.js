@@ -3,7 +3,7 @@ var searchData=
   ['objects_0',['Objects',['../classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6ac8308b1eba7ba926a61b8fd802194386',1,'MR::ShortcutManager']]],
   ['objecttypeicon_1',['ObjectTypeIcon',['../classMR_1_1RibbonIcons.html#a2d10e82f8fd5c6cc53279374e9bd3931af039b462df0cff215dbf650d8b6e3ce9',1,'MR::RibbonIcons']]],
   ['offset_2',['Offset',['../structMR_1_1OffsetContoursParams.html#af7ce0ff6c24247a435c6742c785db972adfd0a82c4bf37b1e90b690a22a20692e',1,'MR::OffsetContoursParams']]],
-  ['ok_3',['ok',['../structMR_1_1Features_1_1DistanceResult.html#a2fc63b05c373262024782295475df31da444bcb3a3fcf8389296c49467f27e1d6',1,'MR::Features::DistanceResult']]],
+  ['ok_3',['ok',['../structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7ea444bcb3a3fcf8389296c49467f27e1d6',1,'MR::Features::MeasureResult']]],
   ['onecolor_4',['OneColor',['../structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5a0c8f5a9ec9d29d3f98de501c16144109',1,'MR::ObjectVoxels::VolumeRenderingParams']]],
   ['onlyoddfragments_5',['OnlyOddFragments',['../structMR_1_1MeshVisualizePropertyType.html#a2e5c336a4feb2c41efef5ba1f038b738a144ed9c2ae8054e372ad070e90980599',1,'MR::MeshVisualizePropertyType']]],
   ['openvdb_6',['OpenVDB',['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a011b949ced7ed48dafe7b08ae740dae9',1,'MR']]],

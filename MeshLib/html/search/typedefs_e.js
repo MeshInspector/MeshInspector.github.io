@@ -5,8 +5,11 @@ var searchData=
   ['objectloader_2',['ObjectLoader',['../namespaceMR_1_1ObjectLoad.html#a6e395df76667e65feb47ca27d6130b3c',1,'MR::ObjectLoad']]],
   ['objectmakerfunc_3',['ObjectMakerFunc',['../namespaceMR.html#a748899906b8ac8f5f125c7f913e38007',1,'MR']]],
   ['objectptr_4',['ObjectPtr',['../namespaceMR.html#a9dc1331c485c74f9cb1a85cdd31ae071',1,'MR']]],
-  ['ondirectionchangedcallback_5',['OnDirectionChangedCallback',['../classMR_1_1DirectionWidget.html#aa01b946f8079c3f2095a1fb5b019e275',1,'MR::DirectionWidget']]],
-  ['onemeshcontours_6',['OneMeshContours',['../group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a',1,'MR']]],
-  ['orgringiterator_7',['OrgRingIterator',['../namespaceMR.html#a1ba9e876bd033bc6803332bb875ee138',1,'MR']]],
-  ['outtreeaccessor_8',['OutTreeAccessor',['../classMR_1_1RangeProcessor.html#aa118f22b54abade12d29be0674365ddb',1,'MR::RangeProcessor::OutTreeAccessor'],['../classMR_1_1ShiftTransformer.html#a002673d0c242633120d670961940cac5',1,'MR::ShiftTransformer::OutTreeAccessor']]]
+  ['offsetcontoursvertmap_5',['OffsetContoursVertMap',['../namespaceMR.html#abbeb6c9515d4865378050cb9687fd180',1,'MR']]],
+  ['offsetcontoursvertmaps_6',['OffsetContoursVertMaps',['../namespaceMR.html#a3f87a9abf93ab132bc1ea3f939459b37',1,'MR']]],
+  ['onbuttonclick_7',['OnButtonClick',['../structMR_1_1RibbonNotification.html#a22ab6a5e3459fed757c4443f8d3ad51a',1,'MR::RibbonNotification']]],
+  ['ondirectionchangedcallback_8',['OnDirectionChangedCallback',['../classMR_1_1DirectionWidget.html#aa01b946f8079c3f2095a1fb5b019e275',1,'MR::DirectionWidget']]],
+  ['onemeshcontours_9',['OneMeshContours',['../group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a',1,'MR']]],
+  ['orgringiterator_10',['OrgRingIterator',['../namespaceMR.html#a1ba9e876bd033bc6803332bb875ee138',1,'MR']]],
+  ['outtreeaccessor_11',['OutTreeAccessor',['../classMR_1_1RangeProcessor.html#aa118f22b54abade12d29be0674365ddb',1,'MR::RangeProcessor::OutTreeAccessor'],['../classMR_1_1ShiftTransformer.html#a002673d0c242633120d670961940cac5',1,'MR::ShiftTransformer::OutTreeAccessor']]]
 ];

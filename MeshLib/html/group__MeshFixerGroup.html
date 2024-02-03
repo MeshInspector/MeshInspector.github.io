@@ -150,6 +150,10 @@ Functions</h2></td></tr>
 <tr class="separator:gace895a89502cb6fbf11e26b8c3e9773e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga819c36bfa5ce60675533f6e6eceeb7d9" id="r_ga819c36bfa5ce60675533f6e6eceeb7d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga819c36bfa5ce60675533f6e6eceeb7d9">MR::eliminateDegree3Vertices</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="namespaceMR.html#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a> &amp;region, <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *fs=nullptr)</td></tr>
 <tr class="separator:ga819c36bfa5ce60675533f6e6eceeb7d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9bde4ada16adc982fb6789ca9dabbc66" id="r_ga9bde4ada16adc982fb6789ca9dabbc66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9bde4ada16adc982fb6789ca9dabbc66">MR::isVertexRepeatedOnHoleBd</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> v)</td></tr>
+<tr class="separator:ga9bde4ada16adc982fb6789ca9dabbc66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga464e6b15a1c089223ed826d849cd69cf" id="r_ga464e6b15a1c089223ed826d849cd69cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga464e6b15a1c089223ed826d849cd69cf">MR::findHoleComplicatingFaces</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="separator:ga464e6b15a1c089223ed826d849cd69cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -328,6 +332,24 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>finds faces having aspect ratio &gt;= criticalAspectRatio </p>
+
+</div>
+</div>
+<a id="ga464e6b15a1c089223ed826d849cd69cf" name="ga464e6b15a1c089223ed826d849cd69cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga464e6b15a1c089223ed826d849cd69cf">&#9670;&#160;</a></span>findHoleComplicatingFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> MR::findHoleComplicatingFaces </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns all faces that complicate one of mesh holes; hole is complicated if it passes via one vertex more than once; deleting such faces simplifies the holes and makes them easier to fill </p>
 
 </div>
 </div>
@@ -518,6 +540,28 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns true if the edge e has both left and right triangular faces and the degree of dest( e ) is 2 </p>
+
+</div>
+</div>
+<a id="ga9bde4ada16adc982fb6789ca9dabbc66" name="ga9bde4ada16adc982fb6789ca9dabbc66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9bde4ada16adc982fb6789ca9dabbc66">&#9670;&#160;</a></span>isVertexRepeatedOnHoleBd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> MR::isVertexRepeatedOnHoleBd </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if given vertex is present on the boundary of some hole several times then returns an edge of this hole (without left); returns invalid edge otherwise (not a boundary vertex, or it is present only once on the boundary of each hole it pertains to) </p>
 
 </div>
 </div>
