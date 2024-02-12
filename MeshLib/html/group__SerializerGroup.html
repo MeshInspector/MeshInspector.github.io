@@ -134,9 +134,8 @@ Functions</h2></td></tr>
 <tr class="memitem:gaf18a5f8d0f76623e409d693ba17e2778" id="r_gaf18a5f8d0f76623e409d693ba17e2778"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf18a5f8d0f76623e409d693ba17e2778">MR::deserializeObjectTreeFromFolder</a> (const std::filesystem::path &amp;folder, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={})</td></tr>
 <tr class="memdesc:gaf18a5f8d0f76623e409d693ba17e2778"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads objects tree from given scene folder  <br /></td></tr>
 <tr class="separator:gaf18a5f8d0f76623e409d693ba17e2778"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae323d1c9f281c25a4a3242cc645521de" id="r_gae323d1c9f281c25a4a3242cc645521de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a2ce7373768bdeba5943fa20acf85e769">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae323d1c9f281c25a4a3242cc645521de">MR::serializeMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::filesystem::path &amp;path, const <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *selection=nullptr)</td></tr>
-<tr class="memdesc:gae323d1c9f281c25a4a3242cc645521de"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves mesh with optional selection to mru format  <br /></td></tr>
-<tr class="separator:gae323d1c9f281c25a4a3242cc645521de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaceafcc544da777d00267253c9a4894aa" id="r_gaceafcc544da777d00267253c9a4894aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a2ce7373768bdeba5943fa20acf85e769">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaceafcc544da777d00267253c9a4894aa">MR::serializeMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::filesystem::path &amp;path, const <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *selection=nullptr, const char *saveMeshFormat=&quot;.mrmesh&quot;)</td></tr>
+<tr class="separator:gaceafcc544da777d00267253c9a4894aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae2d000bf1be360d4156e421121308d90" id="r_gae2d000bf1be360d4156e421121308d90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae2d000bf1be360d4156e421121308d90">MR::serializeToJson</a> (const <a class="el" href="namespaceMR.html#a03f74a1e18a3d4f45c60f19149483e87">Vector2i</a> &amp;vec, Json::Value &amp;root)</td></tr>
 <tr class="memdesc:gae2d000bf1be360d4156e421121308d90"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves an object into json value  <br /></td></tr>
 <tr class="separator:gae2d000bf1be360d4156e421121308d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -866,8 +865,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="gae323d1c9f281c25a4a3242cc645521de" name="gae323d1c9f281c25a4a3242cc645521de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae323d1c9f281c25a4a3242cc645521de">&#9670;&#160;</a></span>serializeMesh()</h2>
+<a id="gaceafcc544da777d00267253c9a4894aa" name="gaceafcc544da777d00267253c9a4894aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaceafcc544da777d00267253c9a4894aa">&#9670;&#160;</a></span>serializeMesh()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -885,12 +884,16 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>selection</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>selection</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>saveMeshFormat</em><span class="paramdefsep"> = </span><span class="paramdefval">&quot;.mrmesh&quot;</span></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>saves mesh with optional selection to mru format </p>
+<p>saves mesh with optional selection to mru format; this is very convenient for saving intermediate states during algorithm debugging; ".mrmesh" save mesh format is not space efficient, but guaranties no changes in the topology after loading </p>
 
 </div>
 </div>

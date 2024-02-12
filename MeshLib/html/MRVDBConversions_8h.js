@@ -20,5 +20,7 @@ var MRVDBConversions_8h =
     [ "meshToLevelSet", "MRVDBConversions_8h.html#af4b4b05402c9592be6ca5d29ed852e87", null ],
     [ "meshToVolume", "MRVDBConversions_8h.html#ac3fb27e48b73c37fe37aca6a49162588", null ],
     [ "simpleVolumeToDenseGrid", "MRVDBConversions_8h.html#ab66e31274d0a0f78da3e483300b47b0a", null ],
-    [ "simpleVolumeToVdbVolume", "MRVDBConversions_8h.html#a83200b03aed71f06d979c9f07d36a96d", null ]
+    [ "simpleVolumeToVdbVolume", "MRVDBConversions_8h.html#a83200b03aed71f06d979c9f07d36a96d", null ],
+    [ "vdbVolumeToSimpleVolume", "MRVDBConversions_8h.html#a00339964ce3a673d379b97ad5afc7d22", null ],
+    [ "vdbVolumeToSimpleVolumeU16", "MRVDBConversions_8h.html#a4896ffa98bbbeb86912a61d7557d1a70", null ]
 ];

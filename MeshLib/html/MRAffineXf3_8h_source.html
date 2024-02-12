@@ -112,7 +112,7 @@ $(function(){initNavTree('MRAffineXf3_8h_source.html',''); initResizable(); });
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
 <div class="foldopen" id="foldopen00018" data-start="{" data-end="}">
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="group__MathGroup.html#ga9ae923a2855ed035b5d5f74b3162c0da">   18</a></span><a class="code hl_struct" href="structMR_1_1AffineXf.html">AffineXf3&lt;T&gt;</a> <a class="code hl_function" href="group__MathGroup.html#ga9ae923a2855ed035b5d5f74b3162c0da">lookAt</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a>&amp; center, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a>&amp; eye, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a>&amp; up )</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="group__MathGroup.html#ga9ae923a2855ed035b5d5f74b3162c0da">   18</a></span>AffineXf3&lt;T&gt; <a class="code hl_function" href="group__MathGroup.html#ga9ae923a2855ed035b5d5f74b3162c0da">lookAt</a>( <span class="keyword">const</span> Vector3&lt;T&gt;&amp; center, <span class="keyword">const</span> Vector3&lt;T&gt;&amp; eye, <span class="keyword">const</span> Vector3&lt;T&gt;&amp; up )</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keyword">const</span> <span class="keyword">auto</span> f = (center - eye).normalized();</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keyword">const</span> <span class="keyword">auto</span> s = cross( f, up ).normalized();</div>
@@ -132,7 +132,7 @@ $(function(){initNavTree('MRAffineXf3_8h_source.html',''); initResizable(); });
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
 <div class="ttc" id="astructMR_1_1AffineXf_html"><div class="ttname"><a href="structMR_1_1AffineXf.html">MR::AffineXf</a></div><div class="ttdef"><b>Definition</b> MRAffineXf.h:10</div></div>
 <div class="ttc" id="astructMR_1_1Matrix3_html"><div class="ttname"><a href="structMR_1_1Matrix3.html">MR::Matrix3&lt; float &gt;</a></div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRVector3.h:15</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3&lt; float &gt;</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

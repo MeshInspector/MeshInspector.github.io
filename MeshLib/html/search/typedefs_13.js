@@ -15,7 +15,7 @@ var searchData=
   ['touchpadzoomgestureupdatesignal_12',['TouchpadZoomGestureUpdateSignal',['../classMR_1_1Viewer.html#aa0067f8572528030f89b914e2125bb44',1,'MR::Viewer']]],
   ['touchsignal_13',['TouchSignal',['../classMR_1_1Viewer.html#a96cbf0a63696ed1b370277034184b276',1,'MR::Viewer']]],
   ['traits_14',['Traits',['../classMR_1_1AABBTreePolyline.html#a7f96860dc1daeee5853645f1fecdeca7',1,'MR::AABBTreePolyline']]],
-  ['transformmodesvalidator_15',['TransformModesValidator',['../namespaceMR.html#aa6227b664f540e6d1ea807a802981fe1',1,'MR']]],
+  ['transformmodesvalidator_15',['TransformModesValidator',['../namespaceMR.html#a424dfa22186e052b06c55ce2655c2e26',1,'MR']]],
   ['treeaccessor_16',['TreeAccessor',['../classMR_1_1RangeProcessorSingle.html#a74bdcc0991a9a680c90dc549ed96da8f',1,'MR::RangeProcessorSingle::TreeAccessor'],['../classMR_1_1RangeCounter.html#a6348660687ee746c78a3e76ef7565eb8',1,'MR::RangeCounter::TreeAccessor']]],
   ['triangle3_17',['Triangle3',['../namespaceMR.html#a7cab6855ae6654d80a90d7dce087e96a',1,'MR']]],
   ['triangle3d_18',['Triangle3d',['../namespaceMR.html#a9905362191a698597df6dca4bd2cc53b',1,'MR']]],
@@ -26,5 +26,5 @@ var searchData=
   ['triangulation_23',['Triangulation',['../namespaceMR.html#a2d4e12c4f3a7ed4eb824b58df5528e1a',1,'MR']]],
   ['tripointd_24',['TriPointd',['../namespaceMR.html#a130471630d98cb165b31545eeac41b92',1,'MR']]],
   ['tripointf_25',['TriPointf',['../namespaceMR.html#a8b39132a847f612dc62e1f559e5e1779',1,'MR']]],
-  ['type_26',['type',['../structMR_1_1NoCtor_3_01T_01_4.html#a5ad36941cb49b13cf04d17446b102370',1,'MR::NoCtor&lt; T &gt;::type'],['../structMR_1_1NoCtor_3_01T_01_4.html#a9043c90869c007f7262a6c843c881219',1,'MR::NoCtor&lt; T &gt;::type']]]
+  ['type_26',['type',['../structMR_1_1NoCtor_3_01T_01_4.html#a5ad36941cb49b13cf04d17446b102370',1,'MR::NoCtor&lt; T &gt;::type'],['../structMR_1_1NoCtor_3_01T_01_4.html#a9043c90869c007f7262a6c843c881219',1,'MR::NoCtor&lt; T &gt;::type'],['../structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4.html#a27c3f4fb399c5305651f2dd9386238c3',1,'MR::ImGuiMath::detail::VecFromSize&lt; 2 &gt;::type'],['../structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4.html#adfc0ecae222770b0db30cfc9c46495ca',1,'MR::ImGuiMath::detail::VecFromSize&lt; 4 &gt;::type']]]
 ];

@@ -17,6 +17,6 @@ var searchData=
   ['gradientend_14',['GradientEnd',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0aad7101ceb05b131ad92ee95d98c68c35',1,'MR::ColorTheme']]],
   ['gradientstart_15',['GradientStart',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0afd01a2b69bde153fcd2589c5749c317d',1,'MR::ColorTheme']]],
   ['grayshades_16',['GrayShades',['../structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5a1d2de7c46c67f218fe81aecd01ae5eaa',1,'MR::ObjectVoxels::VolumeRenderingParams']]],
-  ['greater_17',['Greater',['../namespaceMR.html#ae3249e80a5322781826980a69c28aee6a8768a6821cd735aea4f5b0df88c1fc6a',1,'MR']]],
-  ['greaterorequal_18',['GreaterOrEqual',['../namespaceMR.html#ae3249e80a5322781826980a69c28aee6a6f2f0aefb3d22da0f3839453add5f937',1,'MR']]]
+  ['greater_17',['Greater',['../namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93a8768a6821cd735aea4f5b0df88c1fc6a',1,'MR']]],
+  ['greaterorequal_18',['GreaterOrEqual',['../namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93a6f2f0aefb3d22da0f3839453add5f937',1,'MR']]]
 ];

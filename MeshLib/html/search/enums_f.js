@@ -16,5 +16,6 @@ var searchData=
   ['stateplugintabs_13',['StatePluginTabs',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37',1,'MR']]],
   ['status_14',['Status',['../structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7e',1,'MR::Features::MeasureResult']]],
   ['streamtype_15',['StreamType',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1d',1,'MRPython.h']]],
-  ['swipemode_16',['SwipeMode',['../structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadce',1,'MR::TouchpadParameters']]]
+  ['stringicon_16',['StringIcon',['../namespaceMR_1_1ImGuiMeasurementIndicators.html#a516ec43eeeb87482edc172f968bb73de',1,'MR::ImGuiMeasurementIndicators']]],
+  ['swipemode_17',['SwipeMode',['../structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadce',1,'MR::TouchpadParameters']]]
 ];

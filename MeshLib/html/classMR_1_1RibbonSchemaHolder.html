@@ -122,8 +122,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a07e8558bf86dd569ca7acedfbce55d9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c3460f89faa5279890fe5b080a5726e" id="r_a1c3460f89faa5279890fe5b080a5726e"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c3460f89faa5279890fe5b080a5726e">addItem</a> (std::shared_ptr&lt; <a class="el" href="classMR_1_1RibbonMenuItem.html">RibbonMenuItem</a> &gt; item)</td></tr>
 <tr class="separator:a1c3460f89faa5279890fe5b080a5726e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0ac297072b499f5fa2daba11ee330f7" id="r_ad0ac297072b499f5fa2daba11ee330f7"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::vector&lt; <a class="el" href="structMR_1_1RibbonSchemaHolder_1_1SearchResult.html">SearchResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0ac297072b499f5fa2daba11ee330f7">search</a> (const std::string &amp;searchStr, std::vector&lt; <a class="el" href="structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html">SearchResultWeight</a> &gt; *weights=nullptr)</td></tr>
-<tr class="separator:ad0ac297072b499f5fa2daba11ee330f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a874605999408fc4576544edbbaa4793c" id="r_a874605999408fc4576544edbbaa4793c"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::vector&lt; <a class="el" href="structMR_1_1RibbonSchemaHolder_1_1SearchResult.html">SearchResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a874605999408fc4576544edbbaa4793c">search</a> (const std::string &amp;searchStr, int *captionCount=nullptr, std::vector&lt; <a class="el" href="structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html">SearchResultWeight</a> &gt; *weights=nullptr)</td></tr>
+<tr class="separator:a874605999408fc4576544edbbaa4793c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a1c3460f89faa5279890fe5b080a5726e" name="a1c3460f89faa5279890fe5b080a5726e"></a>
@@ -176,8 +176,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad0ac297072b499f5fa2daba11ee330f7" name="ad0ac297072b499f5fa2daba11ee330f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0ac297072b499f5fa2daba11ee330f7">&#9670;&#160;</a></span>search()</h2>
+<a id="a874605999408fc4576544edbbaa4793c" name="a874605999408fc4576544edbbaa4793c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a874605999408fc4576544edbbaa4793c">&#9670;&#160;</a></span>search()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -189,6 +189,11 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">static MRVIEWER_API std::vector&lt; <a class="el" href="structMR_1_1RibbonSchemaHolder_1_1SearchResult.html">SearchResult</a> &gt; MR::RibbonSchemaHolder::search </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>searchStr</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>captionCount</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>

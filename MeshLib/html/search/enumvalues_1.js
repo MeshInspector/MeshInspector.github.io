@@ -14,7 +14,8 @@ var searchData=
   ['blending_11',['Blending',['../classMR_1_1ColorMapAggregator.html#ab256b40e5b8b82eac72187cf3cc0712aa84e358c0cfad27b29c41c888167828f3',1,'MR::ColorMapAggregator']]],
   ['borders_12',['Borders',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ae313502ef38a56454f3e9de57f384476',1,'MR::ColorTheme::Borders'],['../classMR_1_1ColorTheme.html#a91b6b928ca7f490fdd396c347347bcdcae313502ef38a56454f3e9de57f384476',1,'MR::ColorTheme::Borders']]],
   ['bordershighlight_13',['BordersHighlight',['../structMR_1_1MeshVisualizePropertyType.html#a2e5c336a4feb2c41efef5ba1f038b738a05c5154744cd385c291a1a8b888d5925',1,'MR::MeshVisualizePropertyType']]],
-  ['bottom_14',['Bottom',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca2ad9d63b69c4a10a5cc9cad923133bc4',1,'MR::SetViewPresetMenuItem']]],
-  ['button_15',['Button',['../namespaceMR.html#a1478e43a90bad95d9ef709807606688aa87b7760f14fbff78d8819291f36ab9a0',1,'MR']]],
-  ['buttonwithdrop_16',['ButtonWithDrop',['../namespaceMR.html#a1478e43a90bad95d9ef709807606688aa07135ce637b7ec7f4963b6d3ae3977f4',1,'MR']]]
+  ['both_14',['both',['../namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898af6cb3e816496528d4187db53bc66567f',1,'MR::ImGuiMeasurementIndicators']]],
+  ['bottom_15',['Bottom',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca2ad9d63b69c4a10a5cc9cad923133bc4',1,'MR::SetViewPresetMenuItem']]],
+  ['button_16',['Button',['../namespaceMR.html#a1478e43a90bad95d9ef709807606688aa87b7760f14fbff78d8819291f36ab9a0',1,'MR']]],
+  ['buttonwithdrop_17',['ButtonWithDrop',['../namespaceMR.html#a1478e43a90bad95d9ef709807606688aa07135ce637b7ec7f4963b6d3ae3977f4',1,'MR']]]
 ];

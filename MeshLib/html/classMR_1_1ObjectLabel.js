@@ -5,6 +5,7 @@ var classMR_1_1ObjectLabel =
     [ "ObjectLabel", "classMR_1_1ObjectLabel.html#a21f7e3a3e9705c1cc258cf3af3212696", null ],
     [ "ObjectLabel", "classMR_1_1ObjectLabel.html#ab256cedc71a3de3ca2c09ae69d35e973", null ],
     [ "applyScale", "classMR_1_1ObjectLabel.html#aa117f91f421380e38f7cc43a42f28370", null ],
+    [ "buildMeshFromText", "classMR_1_1ObjectLabel.html#a7b4b9b554baddf28702c55a92aad1c31", null ],
     [ "clone", "classMR_1_1ObjectLabel.html#a9a2482344a868ee18da6ce8682b81a35", null ],
     [ "computeBoundingBox_", "classMR_1_1ObjectLabel.html#aef8442bcefbb31142bd3fa7628a54a0e", null ],
     [ "deserializeFields_", "classMR_1_1ObjectLabel.html#a648f9c3cf5b8ed1e5aae2fcca216e22a", null ],

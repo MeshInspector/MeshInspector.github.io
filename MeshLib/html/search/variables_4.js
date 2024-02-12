@@ -34,5 +34,7 @@ var searchData=
   ['event_31',['event',['../structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#a2898fdfcc0ded74f09a2807b6b6fef31',1,'MR::PrecipitationSimulator::SimulationStep']]],
   ['exitbtnsize_32',['exitBtnSize',['../namespaceMR_1_1StyleConsts_1_1Modal.html#a51cfb3dcff864fa88a1ef99e05376ebe',1,'MR::StyleConsts::Modal']]],
   ['exitval_33',['exitVal',['../structMR_1_1ICPProperties.html#afe075e9e4944999f30c142f357d071d7',1,'MR::ICPProperties']]],
-  ['extensions_34',['extensions',['../structMR_1_1IOFilter.html#a8806427d8212780dc5b20506b24b1223',1,'MR::IOFilter']]]
+  ['experimental_34',['experimental',['../structMR_1_1RibbonTab.html#a49c89a14fe5caa50d3bdb2faf511dcc0',1,'MR::RibbonTab']]],
+  ['experimentalfeatures_35',['experimentalFeatures',['../structMR_1_1RibbonSchema.html#a115d5551a71a4d12ae23719bf097a593',1,'MR::RibbonSchema']]],
+  ['extensions_36',['extensions',['../structMR_1_1IOFilter.html#a8806427d8212780dc5b20506b24b1223',1,'MR::IOFilter']]]
 ];

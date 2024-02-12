@@ -9,7 +9,6 @@ var group__MeshSaveGroup =
       [ "comment", "structMR_1_1MeshSave_1_1CtmSaveOptions.html#a19694f1e7c36428c2d0e206560be24a3", null ],
       [ "compressionLevel", "structMR_1_1MeshSave_1_1CtmSaveOptions.html#a09f020b5c907033a5e7b25073effacf5", null ],
       [ "meshCompression", "structMR_1_1MeshSave_1_1CtmSaveOptions.html#a54ba9db1afce57658d702848df79ec47", null ],
-      [ "rearrangeTriangles", "structMR_1_1MeshSave_1_1CtmSaveOptions.html#a8cd38b6719768ec5fd27c13a0a6d5452", null ],
       [ "vertexPrecision", "structMR_1_1MeshSave_1_1CtmSaveOptions.html#a391e0a1e39f79dd41b9a003e251360c4", null ]
     ] ],
     [ "MR::MeshSave::toAnySupportedFormat", "group__MeshSaveGroup.html#gab2c92511c1f2455a998dd7ea22f70bd6", null ],

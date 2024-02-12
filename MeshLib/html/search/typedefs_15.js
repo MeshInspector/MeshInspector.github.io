@@ -46,9 +46,10 @@ var searchData=
   ['voidorerrstr_43',['VoidOrErrStr',['../namespaceMR.html#a2ce7373768bdeba5943fa20acf85e769',1,'MR']]],
   ['volumepartbuilder_44',['VolumePartBuilder',['../namespaceMR.html#a7bf54937a8182a75f0fbee6486c3c18b',1,'MR']]],
   ['volumetype_45',['VolumeType',['../classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html#a4f55b3b83d93fcd3c8bcfeb48d2e7545',1,'MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;::VolumeType'],['../classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01VoxelValueGetter_3_01T_01_4_01_4_01_4.html#afa5d356ca19a2b095ffff01785c40ca7',1,'MR::VoxelsVolumeAccessor&lt; VoxelsVolume&lt; VoxelValueGetter&lt; T &gt; &gt; &gt;::VolumeType'],['../classMR_1_1VoxelsVolumeCachingAccessor.html#a1f89107f2c482a6e0468ab1cceb602c0',1,'MR::VoxelsVolumeCachingAccessor::VolumeType']]],
-  ['voxelbitset_46',['VoxelBitSet',['../namespaceMR.html#a719df63fa5f4144ebfb8bc469e373878',1,'MR']]],
-  ['voxelid_47',['VoxelId',['../namespaceMR.html#a87fb5cfcd5370cd4fc1380c189b42828',1,'MR']]],
-  ['voxelpointpositioner_48',['VoxelPointPositioner',['../namespaceMR.html#af79e59969dc38af8f99d87b8d80385f2',1,'MR']]],
-  ['voxelsmetric_49',['VoxelsMetric',['../group__VoxelPathGroup.html#ga803e99bc9c6b6b6afa785b1395881cce',1,'MR']]],
-  ['voxelvaluegetter_50',['VoxelValueGetter',['../namespaceMR.html#ada46b69d3d2ace0362d693aafcee7f0f',1,'MR']]]
+  ['votesfortriangles_46',['VotesForTriangles',['../namespaceMR.html#a4124331c22820991efc888063f934e7f',1,'MR']]],
+  ['voxelbitset_47',['VoxelBitSet',['../namespaceMR.html#a719df63fa5f4144ebfb8bc469e373878',1,'MR']]],
+  ['voxelid_48',['VoxelId',['../namespaceMR.html#a87fb5cfcd5370cd4fc1380c189b42828',1,'MR']]],
+  ['voxelpointpositioner_49',['VoxelPointPositioner',['../namespaceMR.html#af79e59969dc38af8f99d87b8d80385f2',1,'MR']]],
+  ['voxelsmetric_50',['VoxelsMetric',['../group__VoxelPathGroup.html#ga803e99bc9c6b6b6afa785b1395881cce',1,'MR']]],
+  ['voxelvaluegetter_51',['VoxelValueGetter',['../namespaceMR.html#ada46b69d3d2ace0362d693aafcee7f0f',1,'MR']]]
 ];

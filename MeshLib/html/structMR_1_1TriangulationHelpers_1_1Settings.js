@@ -1,5 +1,6 @@
 var structMR_1_1TriangulationHelpers_1_1Settings =
 [
+    [ "actualRadius", "structMR_1_1TriangulationHelpers_1_1Settings.html#ad5edcde965a734c44ce7cb176b8784c2", null ],
     [ "allNeighbors", "structMR_1_1TriangulationHelpers_1_1Settings.html#a6f5bf92c6fb3063c2d70ea917ba4a458", null ],
     [ "automaticRadiusIncrease", "structMR_1_1TriangulationHelpers_1_1Settings.html#a49d74151d155a2c96be9eb811e05757d", null ],
     [ "critAngle", "structMR_1_1TriangulationHelpers_1_1Settings.html#adaecbf29331f6b90ae2a11acaa0c153a", null ],

@@ -24,7 +24,7 @@ var MRSerializer_8h =
     [ "deserializeObjectTree", "MRSerializer_8h.html#gac1e2d0ac0c4f2bd4428b13ced1fd19e8", null ],
     [ "deserializeObjectTreeFromFolder", "MRSerializer_8h.html#gaf18a5f8d0f76623e409d693ba17e2778", null ],
     [ "deserializeViaVerticesFromJson", "MRSerializer_8h.html#gab74247c70d34bac9da9d1e8c421b0703", null ],
-    [ "serializeMesh", "MRSerializer_8h.html#gae323d1c9f281c25a4a3242cc645521de", null ],
+    [ "serializeMesh", "MRSerializer_8h.html#gaceafcc544da777d00267253c9a4894aa", null ],
     [ "serializeObjectTree", "MRSerializer_8h.html#gaca961a714f0192aaf552be5f4cd5556e", null ],
     [ "serializeToJson", "MRSerializer_8h.html#gaaeef0bd02442f441b66c7decaabd2047", null ],
     [ "serializeToJson", "MRSerializer_8h.html#ga0247abbacd8ebd7c2abec7d6095cd659", null ],

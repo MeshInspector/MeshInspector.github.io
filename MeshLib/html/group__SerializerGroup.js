@@ -33,7 +33,7 @@ var group__SerializerGroup =
     [ "MR::deserializeObjectTree", "group__SerializerGroup.html#gac1e2d0ac0c4f2bd4428b13ced1fd19e8", null ],
     [ "MR::deserializeObjectTreeFromFolder", "group__SerializerGroup.html#gaf18a5f8d0f76623e409d693ba17e2778", null ],
     [ "MR::deserializeViaVerticesFromJson", "group__SerializerGroup.html#gab74247c70d34bac9da9d1e8c421b0703", null ],
-    [ "MR::serializeMesh", "group__SerializerGroup.html#gae323d1c9f281c25a4a3242cc645521de", null ],
+    [ "MR::serializeMesh", "group__SerializerGroup.html#gaceafcc544da777d00267253c9a4894aa", null ],
     [ "MR::serializeObjectTree", "group__SerializerGroup.html#gaca961a714f0192aaf552be5f4cd5556e", null ],
     [ "MR::serializeToJson", "group__SerializerGroup.html#gaaeef0bd02442f441b66c7decaabd2047", null ],
     [ "MR::serializeToJson", "group__SerializerGroup.html#ga0247abbacd8ebd7c2abec7d6095cd659", null ],

@@ -109,6 +109,7 @@ $(function(){initNavTree('MRVoxelPath_8h.html',''); initResizable(); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRFlagOperators_8h_source.html">MRMesh/MRFlagOperators.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
 <code>#include &lt;functional&gt;</code><br />
 </div>
@@ -132,13 +133,13 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ga85e60c553cc81b298c4bfeac4a623b79" id="r_ga85e60c553cc81b298c4bfeac4a623b79"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelPathGroup.html#ga85e60c553cc81b298c4bfeac4a623b79">MR::QuarterBit</a> : char { <br />
-&#160;&#160;<a class="el" href="group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79ae270ac72e33fbdf09168012bc0852677">MR::LeftLeft</a> = 0b1
-, <a class="el" href="group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a203407e92909f81d61b55175a37980cf">MR::LeftRight</a> = 0b10
-, <a class="el" href="group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a060e258e018b85df7750330be4f807c0">MR::RightLeft</a> = 0b100
-, <a class="el" href="group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a8282c1db2ec5b8780478223365a37438">MR::RightRight</a> = 0b1000
+<tr class="memitem:ga85e60c553cc81b298c4bfeac4a623b79" id="r_ga85e60c553cc81b298c4bfeac4a623b79"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelPathGroup.html#ga85e60c553cc81b298c4bfeac4a623b79">MR::QuarterBit</a> : char { <br />
+&#160;&#160;<a class="el" href="group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79aa149c1d1da2ae1c94f1ae91f4919625a">MR::QuarterBit::LeftLeft</a> = 0b1
+, <a class="el" href="group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a955322c98b1fc571e8b6b688ae7d9ee4">MR::QuarterBit::LeftRight</a> = 0b10
+, <a class="el" href="group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a84f58e01676ac59dfa39f05ab0e4fdaf">MR::QuarterBit::RightLeft</a> = 0b100
+, <a class="el" href="group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a338f1941aaeb45ceefaa84416d2aaddb">MR::QuarterBit::RightRight</a> = 0b1000
 , <br />
-&#160;&#160;<a class="el" href="group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79a2b387b6cc4a4d4d822afc0cea2c205ec">MR::All</a> = 0b1111
+&#160;&#160;<a class="el" href="group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79ab1c94ca2fbc3e78fc30069c8d0f01680">MR::QuarterBit::All</a> = 0b1111
 <br />
  }</td></tr>
 <tr class="separator:ga85e60c553cc81b298c4bfeac4a623b79"><td class="memSeparator" colspan="2">&#160;</td></tr>

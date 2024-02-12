@@ -20,6 +20,8 @@ var classMR_1_1Object =
     [ "deserializeModel_", "classMR_1_1Object.html#aa49d2225cf98e7276390469eef531a5e", null ],
     [ "deserializeRecursive", "classMR_1_1Object.html#a4e920c44b567bb7bfcfdc2de4ffa38f9", null ],
     [ "detachFromParent", "classMR_1_1Object.html#a80a32a58c497b044d63e5aaa75e77fbe", null ],
+    [ "find", "classMR_1_1Object.html#a3079240f06bd4e66c5c10dbab8a824f6", null ],
+    [ "find", "group__DataModelGroup.html#gaa9133d1e63e15eb09f7f902afe2abd3a", null ],
     [ "find", "classMR_1_1Object.html#a639d2e0d72c82c1efd9dc00ecaa0d3da", null ],
     [ "find", "classMR_1_1Object.html#a7dc1382248ea0ff99064282167614a4b", null ],
     [ "find", "classMR_1_1Object.html#abcc984d346790cbe1a13d6ee87daffd0", null ],

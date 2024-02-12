@@ -5,7 +5,6 @@ var classMR_1_1VisualObject =
     [ "~VisualObject", "classMR_1_1VisualObject.html#a32d2019eae016848083a25a159b3b058", null ],
     [ "VisualObject", "classMR_1_1VisualObject.html#a132f300dcd5614eaaa237b865dc79763", null ],
     [ "VisualObject", "classMR_1_1VisualObject.html#a84d46a3ce3da143b5735f0b6ac79deee", null ],
-    [ "bindAllVisualization", "classMR_1_1VisualObject.html#a2fdfdf7dbee8c6ae12673a35c226e00a", null ],
     [ "boundingBoxToInfoLines_", "classMR_1_1VisualObject.html#af81b9247c457c9dbd36d6bbe4c74b826", null ],
     [ "clone", "classMR_1_1VisualObject.html#a2abf3d3c767a16a584ad513af643feca", null ],
     [ "computeBoundingBox_", "classMR_1_1VisualObject.html#a4e27182996ebf22fc42c7d1ebf6cf02b", null ],

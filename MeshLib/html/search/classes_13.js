@@ -17,5 +17,7 @@ var searchData=
   ['uniquethreadsafeowner_3c_20mr_3a_3aaabbtreepoints_20_3e_14',['UniqueThreadSafeOwner&lt; MR::AABBTreePoints &gt;',['../classMR_1_1UniqueThreadSafeOwner.html',1,'MR']]],
   ['uniquethreadsafeowner_3c_20mr_3a_3aaabbtreepolyline_3c_20v_20_3e_20_3e_15',['UniqueThreadSafeOwner&lt; MR::AABBTreePolyline&lt; V &gt; &gt;',['../classMR_1_1UniqueThreadSafeOwner.html',1,'MR']]],
   ['uniquethreadsafeowner_3c_20mr_3a_3aaabbtreepolyline_3c_20vector3f_20_3e_20_3e_16',['UniqueThreadSafeOwner&lt; MR::AABBTreePolyline&lt; Vector3f &gt; &gt;',['../classMR_1_1UniqueThreadSafeOwner.html',1,'MR']]],
-  ['unitemanymeshesparams_17',['UniteManyMeshesParams',['../structMR_1_1UniteManyMeshesParams.html',1,'MR']]]
+  ['unitemanymeshesparams_17',['UniteManyMeshesParams',['../structMR_1_1UniteManyMeshesParams.html',1,'MR']]],
+  ['unorientedtriangle_18',['UnorientedTriangle',['../structMR_1_1UnorientedTriangle.html',1,'MR']]],
+  ['unorientedtrianglehasher_19',['UnorientedTriangleHasher',['../structMR_1_1UnorientedTriangleHasher.html',1,'MR']]]
 ];

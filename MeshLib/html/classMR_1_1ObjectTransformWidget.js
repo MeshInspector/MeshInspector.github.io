@@ -13,7 +13,7 @@ var classMR_1_1ObjectTransformWidget =
     [ "getControlsAs", "classMR_1_1ObjectTransformWidget.html#ae9585eb2995d4b43669cb86533fecf4c", null ],
     [ "getControlsXf", "classMR_1_1ObjectTransformWidget.html#a1010ca302a266f98b14450145b726efe", null ],
     [ "getRootObject", "classMR_1_1ObjectTransformWidget.html#aaaadf59451391760eaa2882c90d79f5b", null ],
-    [ "getTransformModeMask", "classMR_1_1ObjectTransformWidget.html#aed4dd275bdbf9ebc05bb6c1aab6ae92d", null ],
+    [ "getTransformModeMask", "classMR_1_1ObjectTransformWidget.html#ab0823ffe9059c2fb1d57757cb82579a6", null ],
     [ "reset", "classMR_1_1ObjectTransformWidget.html#ac815cb12bfdb99a8a650143d34de17ad", null ],
     [ "setAddXfCallback", "classMR_1_1ObjectTransformWidget.html#a3134eccba5998667c2b96764ceb6d88f", null ],
     [ "setApproveXfCallback", "classMR_1_1ObjectTransformWidget.html#af009bd74e0f49b4a2efc1ddcf659e58a", null ],
@@ -23,6 +23,6 @@ var classMR_1_1ObjectTransformWidget =
     [ "setScaleTooltipCallback", "classMR_1_1ObjectTransformWidget.html#af0815d7c982b35b0dbe7f2e0abc9d583", null ],
     [ "setStartModifyCallback", "classMR_1_1ObjectTransformWidget.html#a2d16d1f66d6e6a84e9ca9d18e68d2a03", null ],
     [ "setStopModifyCallback", "classMR_1_1ObjectTransformWidget.html#a955e4e19a2da3a72cc42d41baaa73ad2", null ],
-    [ "setTransformMode", "classMR_1_1ObjectTransformWidget.html#a74bce09a133358ad4a8388a1d03caf07", null ],
+    [ "setTransformMode", "classMR_1_1ObjectTransformWidget.html#afcaee844badd2f2b918d558053da6e7e", null ],
     [ "setTranslateTooltipCallback", "classMR_1_1ObjectTransformWidget.html#acd0c05bb93bc949b222c2721ad1d4b70", null ]
 ];

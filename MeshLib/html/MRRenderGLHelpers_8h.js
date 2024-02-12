@@ -11,8 +11,8 @@ var MRRenderGLHelpers_8h =
     [ "bindVertexAttribArray", "MRRenderGLHelpers_8h.html#a079f28d3be3f3a62901df8df69f1dc9c", null ],
     [ "bindVertexAttribArray", "MRRenderGLHelpers_8h.html#a96c0afdf384671d181d6111113d5bf35", null ],
     [ "bindVertexAttribArray", "MRRenderGLHelpers_8h.html#a44858c7093ecce05e414dad5e83ea270", null ],
-    [ "getDepthFunctionLEqual", "MRRenderGLHelpers_8h.html#aaed5954f78264d5a936055880204eff4", null ],
-    [ "getDepthFunctionLess", "MRRenderGLHelpers_8h.html#af0a15bf31192a7192969ee150e78e57b", null ],
+    [ "getDepthFunctionLEqual", "MRRenderGLHelpers_8h.html#a6931409b16a2665d35204990c62611b3", null ],
+    [ "getDepthFunctionLess", "MRRenderGLHelpers_8h.html#ac18f4f5a762acd94219012ec5d66db13", null ],
     [ "setTextureFilterType", "MRRenderGLHelpers_8h.html#af760d8746df2365f7741044cd3f60f75", null ],
     [ "setTextureWrapType", "MRRenderGLHelpers_8h.html#ac4bae054b0f91177c420fef921db04fd", null ]
 ];

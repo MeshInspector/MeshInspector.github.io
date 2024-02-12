@@ -5,7 +5,7 @@ var searchData=
   ['v1_2',['v1',['../structMR_1_1Graph_1_1EndVertices.html#a22b2afa87f3a85ed5e79f351e02b9266',1,'MR::Graph::EndVertices']]],
   ['val_3',['val',['../structMR_1_1ZeroOnMove.html#a2a13927970e03bd552e6ba6241206a15',1,'MR::ZeroOnMove::val'],['../structMR_1_1Heap_1_1Element.html#a7bd4aa28de0c5142c7149308ec9da563',1,'MR::Heap::Element::val']]],
   ['validpoints_4',['validPoints',['../structMR_1_1PointCloud.html#a99cd2bd3f8fa8482032603f382ab9a03',1,'MR::PointCloud']]],
-  ['value_5',['value',['../structMR_1_1Palette_1_1Label.html#a4769f047eb65795ab044c83c164d747f',1,'MR::Palette::Label']]],
+  ['value_5',['value',['../structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4.html#ad2f2e5e5e05868b814dc55ed13478aea',1,'MR::ImGuiMath::detail::CommonVecSize&lt; T, P... &gt;::value'],['../structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#aa8ef4870c84aaafe8b7bfa68fcc35c36',1,'MR::ImGuiMath::BasicVectorCompareHelper::value'],['../structMR_1_1Palette_1_1Label.html#a4769f047eb65795ab044c83c164d747f',1,'MR::Palette::Label::value']]],
   ['vdbvolume_6',['vdbVolume',['../structMR_1_1VoxelsLoad_1_1LoadDCMResult.html#ad251cc090b7e2a1f78c463d1222e2d2e',1,'MR::VoxelsLoad::LoadDCMResult']]],
   ['vec_5f_7',['vec_',['../classMR_1_1Vector.html#ad4c1a76a727c0e52830149df75a87a0f',1,'MR::Vector']]],
   ['vector_8',['Vector',['../namespaceMR.html#a6443f2f35b37c75d9872125777f9df18',1,'MR']]],

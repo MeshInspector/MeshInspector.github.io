@@ -102,6 +102,7 @@ $(function(){initNavTree('MRLocalTriangulations_8h.html',''); initResizable(); }
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRLocalTriangulations.h File Reference</div></div>
 </div><!--header-->
@@ -109,6 +110,7 @@ $(function(){initNavTree('MRLocalTriangulations_8h.html',''); initResizable(); }
 <div class="textblock"><code>#include &quot;<a class="el" href="MRId_8h_source.html">MRId.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRVector_8h_source.html">MRVector.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRBuffer_8h_source.html">MRBuffer.h</a>&quot;</code><br />
+<code>#include &lt;array&gt;</code><br />
 <code>#include &lt;cstdint&gt;</code><br />
 <code>#include &lt;optional&gt;</code><br />
 </div>
@@ -134,13 +136,27 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceMR" id="r_namespaceMR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a4124331c22820991efc888063f934e7f" id="r_a4124331c22820991efc888063f934e7f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4124331c22820991efc888063f934e7f">MR::VotesForTriangles</a> = std::array&lt;int, 3&gt;</td></tr>
+<tr class="separator:a4124331c22820991efc888063f934e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a0ed6bf3b7f4f98f684d5c85bb4356b62" id="r_a0ed6bf3b7f4f98f684d5c85bb4356b62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1AllLocalTriangulations.html">AllLocalTriangulations</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0ed6bf3b7f4f98f684d5c85bb4356b62">MR::uniteLocalTriangulations</a> (const std::vector&lt; <a class="el" href="structMR_1_1SomeLocalTriangulations.html">SomeLocalTriangulations</a> &gt; &amp;in, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
 <tr class="separator:a0ed6bf3b7f4f98f684d5c85bb4356b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a722c841f31a22129cba0c81fb113b9c7" id="r_a722c841f31a22129cba0c81fb113b9c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a722c841f31a22129cba0c81fb113b9c7">MR::computeNormal</a> (const <a class="el" href="structMR_1_1AllLocalTriangulations.html">AllLocalTriangulations</a> &amp;triangs, const <a class="el" href="namespaceMR.html#ad74e2d018e02d0b815decae208d49ceb">VertCoords</a> &amp;points, <a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> v)</td></tr>
+<tr class="memdesc:a722c841f31a22129cba0c81fb113b9c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute normal at point by averaging neighbor triangle normals weighted by triangle's angle at the point  <br /></td></tr>
+<tr class="separator:a722c841f31a22129cba0c81fb113b9c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a810b30f85d8f01dd74997cd044ccf8dc" id="r_a810b30f85d8f01dd74997cd044ccf8dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a810b30f85d8f01dd74997cd044ccf8dc">MR::orientLocalTriangulations</a> (<a class="el" href="structMR_1_1AllLocalTriangulations.html">AllLocalTriangulations</a> &amp;triangs, const <a class="el" href="namespaceMR.html#ad74e2d018e02d0b815decae208d49ceb">VertCoords</a> &amp;coords, const <a class="el" href="namespaceMR.html#add01b9458cf33fc6a3d41fff9a44e8f7">VertNormals</a> &amp;normals)</td></tr>
 <tr class="memdesc:a810b30f85d8f01dd74997cd044ccf8dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">orient neighbors around each point so they will be in clockwise order if look from the top of target normal  <br /></td></tr>
 <tr class="separator:a810b30f85d8f01dd74997cd044ccf8dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab73d823b070aab74cbe0a9c7f0eb4ab7" id="r_ab73d823b070aab74cbe0a9c7f0eb4ab7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a4124331c22820991efc888063f934e7f">VotesForTriangles</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab73d823b070aab74cbe0a9c7f0eb4ab7">MR::computeTrianglesRepetitions</a> (const <a class="el" href="structMR_1_1AllLocalTriangulations.html">AllLocalTriangulations</a> &amp;triangs)</td></tr>
+<tr class="memdesc:ab73d823b070aab74cbe0a9c7f0eb4ab7"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes statistics about the number of triangle repetitions in local triangulations  <br /></td></tr>
+<tr class="separator:ab73d823b070aab74cbe0a9c7f0eb4ab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f5235b8835900fdb1dfd94917e54292" id="r_a8f5235b8835900fdb1dfd94917e54292"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1UnorientedTriangle.html">UnorientedTriangle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8f5235b8835900fdb1dfd94917e54292">MR::findRepeatedTriangles</a> (const <a class="el" href="structMR_1_1AllLocalTriangulations.html">AllLocalTriangulations</a> &amp;triangs, int repetitions)</td></tr>
+<tr class="memdesc:a8f5235b8835900fdb1dfd94917e54292"><td class="mdescLeft">&#160;</td><td class="mdescRight">from local triangulations returns all unoriented with given number of repetitions each in [0,2]  <br /></td></tr>
+<tr class="separator:a8f5235b8835900fdb1dfd94917e54292"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

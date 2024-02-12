@@ -17,6 +17,8 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRGLMacro.h", "MRGLMacro_8h.html", "MRGLMacro_8h" ],
     [ "MRGLStaticHolder.h", "MRGLStaticHolder_8h.html", "MRGLStaticHolder_8h" ],
     [ "MRImGuiImage.h", "MRImGuiImage_8h.html", "MRImGuiImage_8h" ],
+    [ "MRImGuiMeasurementIndicators.h", "MRImGuiMeasurementIndicators_8h.html", "MRImGuiMeasurementIndicators_8h" ],
+    [ "MRImGuiVectorOperators.h", "MRImGuiVectorOperators_8h.html", "MRImGuiVectorOperators_8h" ],
     [ "MRLinesShader.h", "MRLinesShader_8h.html", "MRLinesShader_8h" ],
     [ "MRMenu.h", "MRMenu_8h.html", "MRMenu_8h" ],
     [ "MRMeshModifier.h", "MRMeshModifier_8h.html", "MRMeshModifier_8h" ],

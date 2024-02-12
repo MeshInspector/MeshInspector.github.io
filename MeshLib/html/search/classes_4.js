@@ -13,5 +13,6 @@ var searchData=
   ['endvertices_10',['EndVertices',['../structMR_1_1Graph_1_1EndVertices.html',1,'MR::Graph']]],
   ['enumneihbourfaces_11',['EnumNeihbourFaces',['../classMR_1_1EnumNeihbourFaces.html',1,'MR']]],
   ['enumneihbourvertices_12',['EnumNeihbourVertices',['../classMR_1_1EnumNeihbourVertices.html',1,'MR']]],
-  ['equalvector3f_13',['equalVector3f',['../structMR_1_1MeshBuilder_1_1equalVector3f.html',1,'MR::MeshBuilder']]]
+  ['equalvector3f_13',['equalVector3f',['../structMR_1_1MeshBuilder_1_1equalVector3f.html',1,'MR::MeshBuilder']]],
+  ['externalsettings_14',['ExternalSettings',['../classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html',1,'MR::ViewerSettingsPlugin']]]
 ];

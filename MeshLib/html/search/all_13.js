@@ -18,6 +18,6 @@ var searchData=
   ['quaternion_3c_20float_20_3e_15',['Quaternion&lt; float &gt;',['../structMR_1_1Quaternion.html',1,'MR']]],
   ['quaterniond_16',['Quaterniond',['../namespaceMR.html#ab34b1002d9d610fb0fcd0320734be227',1,'MR']]],
   ['quaternionf_17',['Quaternionf',['../namespaceMR.html#a8231e685041a7ceb8488a3826cb8849f',1,'MR']]],
-  ['quatersmask_18',['quatersMask',['../structMR_1_1VoxelMetricParameters.html#aba278925c13ad718a8d6ef45eece27bf',1,'MR::VoxelMetricParameters']]],
+  ['quatersmask_18',['quatersMask',['../structMR_1_1VoxelMetricParameters.html#a4a39f4473b82dc98d9b380e6c081a438',1,'MR::VoxelMetricParameters']]],
   ['quickaccessbackground_19',['QuickAccessBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a085d26fc5e16986ab4f0f365f2f49a19',1,'MR::ColorTheme']]]
 ];

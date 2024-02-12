@@ -23,7 +23,7 @@ var searchData=
   ['toolbarhovered_20',['ToolbarHovered',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a76851ceee06bccd61e3f181d29dac532',1,'MR::ColorTheme']]],
   ['top_21',['Top',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dcaa4ffdcf0dc1f31b9acaf295d75b51d00',1,'MR::SetViewPresetMenuItem']]],
   ['toppanelbackground_22',['TopPanelBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2d838f579eb9b302faa00ef4fbc90172',1,'MR::ColorTheme']]],
-  ['translate_23',['Translate',['../classMR_1_1TouchesController.html#a5138dbae1e6c3d6ffdf6ea36f836f3e5a8879b98f319f3999b6c5b330afb673a1',1,'MR::TouchesController']]],
+  ['translate_23',['Translate',['../classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884adeccbe4e9083c3b5f7cd2632722765bb',1,'MR::TouchesController']]],
   ['translation_24',['Translation',['../namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75a6dd08874f83507e9c7b23f1a46b7fa7c',1,'MR']]],
   ['translationonly_25',['TranslationOnly',['../namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677a55fae57b90256ccb618322f9a33784ce',1,'MR']]],
   ['transparencyoverlayquad_26',['TransparencyOverlayQuad',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748af36d97ba03abaa5e19ee63ca6e0e13aa',1,'MR::GLStaticHolder']]],

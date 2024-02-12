@@ -14,7 +14,8 @@ var searchData=
   ['alphasortgl_11',['AlphaSortGL',['../classMR_1_1AlphaSortGL.html',1,'MR']]],
   ['amendment_12',['Amendment',['../structMR_1_1PointToPlaneAligningTransform_1_1Amendment.html',1,'MR::PointToPlaneAligningTransform']]],
   ['angle_13',['Angle',['../structMR_1_1Features_1_1MeasureResult_1_1Angle.html',1,'MR::Features::MeasureResult']]],
-  ['arcinterpolationparams_14',['ArcInterpolationParams',['../structMR_1_1ArcInterpolationParams.html',1,'MR']]],
-  ['asyncrequest_15',['AsyncRequest',['../classMR_1_1AsyncRequest.html',1,'MR']]],
-  ['asynctimer_16',['AsyncTimer',['../classMR_1_1AsyncTimer.html',1,'MR']]]
+  ['anglemeasurementobject_14',['AngleMeasurementObject',['../classMR_1_1AngleMeasurementObject.html',1,'MR']]],
+  ['arcinterpolationparams_15',['ArcInterpolationParams',['../structMR_1_1ArcInterpolationParams.html',1,'MR']]],
+  ['asyncrequest_16',['AsyncRequest',['../classMR_1_1AsyncRequest.html',1,'MR']]],
+  ['asynctimer_17',['AsyncTimer',['../classMR_1_1AsyncTimer.html',1,'MR']]]
 ];
