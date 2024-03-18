@@ -1,0 +1,5 @@
+var structMR_1_1PointsToDistanceVolumeParams =
+[
+    [ "minWeight", "structMR_1_1PointsToDistanceVolumeParams.html#a7716b4700ce22b3eedf9da8864d8480f", null ],
+    [ "sigma", "structMR_1_1PointsToDistanceVolumeParams.html#a400737e4e31275ad8d54da9d1c2fc611", null ]
+];

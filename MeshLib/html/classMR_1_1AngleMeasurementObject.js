@@ -10,6 +10,7 @@ var classMR_1_1AngleMeasurementObject =
     [ "getIsConical", "classMR_1_1AngleMeasurementObject.html#a6808b2301ac9e95c443c6084ccf493b7", null ],
     [ "getLocalPoint", "classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7", null ],
     [ "getLocalRay", "classMR_1_1AngleMeasurementObject.html#adb7fd00b2e03e915ea4eabd5e7461b7f", null ],
+    [ "getShouldVisualizeRay", "classMR_1_1AngleMeasurementObject.html#a1bbf1e560e70b1f06d4d5f837492a11e", null ],
     [ "getWorldPoint", "classMR_1_1AngleMeasurementObject.html#a035ba4d64bdfc46d8497e169a4be750f", null ],
     [ "getWorldRay", "classMR_1_1AngleMeasurementObject.html#a77cf2bb7f527cdce197688a0eff4f24b", null ],
     [ "operator=", "classMR_1_1AngleMeasurementObject.html#ad9e371006af6a03a0cfe38eaeb705a44", null ],
@@ -17,6 +18,8 @@ var classMR_1_1AngleMeasurementObject =
     [ "setIsConical", "classMR_1_1AngleMeasurementObject.html#a4d56413060eb395d78b7a981758a05b7", null ],
     [ "setLocalPoint", "classMR_1_1AngleMeasurementObject.html#ad695fce882db5541f784b78c892549a9", null ],
     [ "setLocalRays", "classMR_1_1AngleMeasurementObject.html#a753a768f4cae3df84fb4587bc0600b30", null ],
+    [ "setShouldVisualizeRay", "classMR_1_1AngleMeasurementObject.html#ab6d8065cd350f11e20867b78601c0f91", null ],
+    [ "setupRenderObject_", "classMR_1_1AngleMeasurementObject.html#ae9cceecc44b56c37d2a10067bdaa9e20", null ],
     [ "shallowClone", "classMR_1_1AngleMeasurementObject.html#a9e20a99d9cfb02b91a653aefadbbb391", null ],
     [ "swapBase_", "classMR_1_1AngleMeasurementObject.html#a0f47f7d31bec9d2791312b72e2ac1d1f", null ],
     [ "typeName", "classMR_1_1AngleMeasurementObject.html#aaa46f9128d202f32be37d9d9db292fe6", null ]

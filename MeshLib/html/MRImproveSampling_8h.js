@@ -1,4 +1,5 @@
 var MRImproveSampling_8h =
 [
-    [ "improveSampling", "MRImproveSampling_8h.html#ga17c31527ff42fd2f347ed5af6b87d3b7", null ]
+    [ "MR::ImproveSamplingSettings", "structMR_1_1ImproveSamplingSettings.html", "structMR_1_1ImproveSamplingSettings" ],
+    [ "improveSampling", "MRImproveSampling_8h.html#gad56601e20058641f49fa277149d87e08", null ]
 ];

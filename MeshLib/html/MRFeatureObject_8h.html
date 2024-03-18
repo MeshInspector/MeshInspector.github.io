@@ -102,11 +102,15 @@ $(function(){initNavTree('MRFeatureObject_8h.html',''); initResizable(); });
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">MRFeatureObject.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="MRVisualObject_8h_source.html">MRMesh/MRVisualObject.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRVector3_8h_source.html">MRVector3.h</a>&quot;</code><br />
+<code>#include &lt;cassert&gt;</code><br />
 <code>#include &lt;variant&gt;</code><br />
 </div>
 <p><a href="MRFeatureObject_8h_source.html">Go to the source code of this file.</a></p>
@@ -115,8 +119,12 @@ $(function(){initNavTree('MRFeatureObject_8h.html',''); initResizable(); });
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FeatureObjectSharedProperty.html">MR::FeatureObjectSharedProperty</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FeatureObject.html">MR::FeatureObject</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An interface class which allows feature objects to share setters and getters on their main properties, for convenient presentation in the <a class="el" href="namespaceMR_1_1UI.html">UI</a>.  <a href="structMR_1_1FeatureObject.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FeatureObjectProjectPointResult.html">MR::FeatureObjectProjectPointResult</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1IsVisualizeMaskEnum_3_01FeatureVisualizePropertyType_01_4.html">MR::IsVisualizeMaskEnum&lt; FeatureVisualizePropertyType &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FeatureObject.html">MR::FeatureObject</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An interface class which allows feature objects to share setters and getters on their main properties, for convenient presentation in the <a class="el" href="namespaceMR_1_1UI.html">UI</a>.  <a href="classMR_1_1FeatureObject.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -126,9 +134,61 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a880869437e4a5d2cf2e39a78d61f5c12" id="r_a880869437e4a5d2cf2e39a78d61f5c12"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a880869437e4a5d2cf2e39a78d61f5c12">MR::FeaturesPropertyTypesVariant</a> = std::variant&lt;float, <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &gt;</td></tr>
-<tr class="separator:a880869437e4a5d2cf2e39a78d61f5c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45cb1332fad43a5a921294d643411ba0" id="r_a45cb1332fad43a5a921294d643411ba0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a45cb1332fad43a5a921294d643411ba0">MR::FeaturesPropertyTypesVariant</a> = std::variant&lt;float, <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&gt;</td></tr>
+<tr class="separator:a45cb1332fad43a5a921294d643411ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a8c52a38cab104b53c714ff2ce176546f" id="r_a8c52a38cab104b53c714ff2ce176546f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c52a38cab104b53c714ff2ce176546f">Subfeatures</a></td></tr>
+<tr class="separator:a8c52a38cab104b53c714ff2ce176546f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87d459767013d873936d1795e4869a42" id="r_a87d459767013d873936d1795e4869a42"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87d459767013d873936d1795e4869a42">DetailsOnNameTag</a></td></tr>
+<tr class="separator:a87d459767013d873936d1795e4869a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69c4cff6b9a1cd95c71fc56b8dd9a983" id="r_a69c4cff6b9a1cd95c71fc56b8dd9a983"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69c4cff6b9a1cd95c71fc56b8dd9a983">_count</a></td></tr>
+<tr class="separator:a69c4cff6b9a1cd95c71fc56b8dd9a983"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a69c4cff6b9a1cd95c71fc56b8dd9a983" name="a69c4cff6b9a1cd95c71fc56b8dd9a983"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c4cff6b9a1cd95c71fc56b8dd9a983">&#9670;&#160;</a></span>_count</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">_count</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87d459767013d873936d1795e4869a42" name="a87d459767013d873936d1795e4869a42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87d459767013d873936d1795e4869a42">&#9670;&#160;</a></span>DetailsOnNameTag</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DetailsOnNameTag</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c52a38cab104b53c714ff2ce176546f" name="a8c52a38cab104b53c714ff2ce176546f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c52a38cab104b53c714ff2ce176546f">&#9670;&#160;</a></span>Subfeatures</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Subfeatures</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

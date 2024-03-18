@@ -30,6 +30,7 @@ var group__SerializerGroup =
     [ "MR::deserializeFromJson", "group__SerializerGroup.html#ga6e5549ed005e6ce599642910011fdc1c", null ],
     [ "MR::deserializeJsonValue", "group__SerializerGroup.html#ga83cc69176e6518cd2e8d0e7e8b3d9624", null ],
     [ "MR::deserializeJsonValue", "group__SerializerGroup.html#ga1ec1615fe6b8cbedb5990697c28301db", null ],
+    [ "MR::deserializeJsonValue", "group__SerializerGroup.html#ga6c6e72cb617d44a8e0701b76edec6f96", null ],
     [ "MR::deserializeObjectTree", "group__SerializerGroup.html#gac1e2d0ac0c4f2bd4428b13ced1fd19e8", null ],
     [ "MR::deserializeObjectTreeFromFolder", "group__SerializerGroup.html#gaf18a5f8d0f76623e409d693ba17e2778", null ],
     [ "MR::deserializeViaVerticesFromJson", "group__SerializerGroup.html#gab74247c70d34bac9da9d1e8c421b0703", null ],

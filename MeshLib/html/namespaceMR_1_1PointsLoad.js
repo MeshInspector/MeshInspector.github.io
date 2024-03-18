@@ -4,8 +4,8 @@ var namespaceMR_1_1PointsLoad =
     [ "NamedCloud", "structMR_1_1PointsLoad_1_1NamedCloud.html", "structMR_1_1PointsLoad_1_1NamedCloud" ],
     [ "fromAnySupportedFormat", "group__IOGroup.html#ga37b759ebc3da6e9acf243c3cb25be235", null ],
     [ "fromAnySupportedFormat", "group__IOGroup.html#gad18cbd6cdbee95a8ecdace7101079451", null ],
-    [ "fromAsc", "group__IOGroup.html#ga38d83e039074336e74a140d6ec17e42b", null ],
-    [ "fromAsc", "group__IOGroup.html#ga0e386eed1ac1bdc3c0b027c195077f0c", null ],
+    [ "fromAsc", "group__IOGroup.html#ga2252049dbcfce5120af20e3eb056d924", null ],
+    [ "fromAsc", "group__IOGroup.html#gac6ef8c59868fd0baf3f7cfeec8503c83", null ],
     [ "fromCtm", "group__IOGroup.html#gad385805f17fe1e687e5daf9df77cfaa8", null ],
     [ "fromCtm", "group__IOGroup.html#gae2d77a5c9b57492e77d748cf6fa46380", null ],
     [ "fromDxf", "group__IOGroup.html#ga4254ad628a6157d16c41142402c9ae0b", null ],
@@ -21,6 +21,8 @@ var namespaceMR_1_1PointsLoad =
     [ "fromPts", "group__IOGroup.html#ga0d88faa51d57eacbfb5ac8944c50caed", null ],
     [ "fromSceneE57File", "namespaceMR_1_1PointsLoad.html#ad81fe9fd9600672db0823a97400342d2", null ],
     [ "fromText", "group__IOGroup.html#gaeaaada2bfc9e5598ab6551567b771f53", null ],
+    [ "fromText", "group__IOGroup.html#ga926d8926c53e6187023c42a9cd851738", null ],
     [ "fromText", "group__IOGroup.html#gac627ccc2fe384bc5805f39809e0db1ae", null ],
+    [ "fromText", "group__IOGroup.html#ga4860ebfa068e9f812ad2055da100071b", null ],
     [ "Filters", "group__IOGroup.html#ga78bba5f59da26b22b8f18e15440cfccd", null ]
 ];

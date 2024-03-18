@@ -142,6 +142,8 @@ Macros</h2></td></tr>
 <tr class="separator:a45ed33a118705bfd4aac6d294495276a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa2c9e5a899e212852b81dbb084d081c" id="r_aaa2c9e5a899e212852b81dbb084d081c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa2c9e5a899e212852b81dbb084d081c">MR_UNREACHABLE</a>&#160;&#160;&#160;{ assert( false ); return {}; }</td></tr>
 <tr class="separator:aaa2c9e5a899e212852b81dbb084d081c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf3c82902530739f161963e298ca8dc0" id="r_adf3c82902530739f161963e298ca8dc0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf3c82902530739f161963e298ca8dc0">MR_UNREACHABLE_NO_RETURN</a>&#160;&#160;&#160;assert( false );</td></tr>
+<tr class="separator:adf3c82902530739f161963e298ca8dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -467,8 +469,12 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a86438764c6930a663ccc9349f005e0cf" id="r_a86438764c6930a663ccc9349f005e0cf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a86438764c6930a663ccc9349f005e0cf">MR::WholeEdgeMap</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a>, <a class="el" href="namespaceMR.html#a4ac2de084bb34a0af2df8bc73742b2b1">UndirectedEdgeId</a>&gt;</td></tr>
 <tr class="memdesc:a86438764c6930a663ccc9349f005e0cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">mapping of whole edges: map[e]-&gt;f, map[e.sym()]-&gt;f.sym(), where only map[e] for even edges is stored  <br /></td></tr>
 <tr class="separator:a86438764c6930a663ccc9349f005e0cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0c8e8aeeb41e76e994f70fcfd6cea87" id="r_ab0c8e8aeeb41e76e994f70fcfd6cea87"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab0c8e8aeeb41e76e994f70fcfd6cea87">MR::UndirectedEdge2RegionMap</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="namespaceMR.html#a32fa4e25a41c6104e28c1baf6a6fce64">RegionId</a>, <a class="el" href="namespaceMR.html#a4ac2de084bb34a0af2df8bc73742b2b1">UndirectedEdgeId</a>&gt;</td></tr>
+<tr class="separator:ab0c8e8aeeb41e76e994f70fcfd6cea87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a8b902cbe3eb8b711bfa0102598f160" id="r_a5a8b902cbe3eb8b711bfa0102598f160"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5a8b902cbe3eb8b711bfa0102598f160">MR::Face2RegionMap</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="namespaceMR.html#a32fa4e25a41c6104e28c1baf6a6fce64">RegionId</a>, <a class="el" href="namespaceMR.html#a89b12a80b9137846057aac3efd3e114f">FaceId</a>&gt;</td></tr>
 <tr class="separator:a5a8b902cbe3eb8b711bfa0102598f160"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28cefce2f012f980f533efb130dc9bfe" id="r_a28cefce2f012f980f533efb130dc9bfe"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a28cefce2f012f980f533efb130dc9bfe">MR::Vert2RegionMap</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="namespaceMR.html#a32fa4e25a41c6104e28c1baf6a6fce64">RegionId</a>, <a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a>&gt;</td></tr>
+<tr class="separator:a28cefce2f012f980f533efb130dc9bfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad74e2d018e02d0b815decae208d49ceb" id="r_ad74e2d018e02d0b815decae208d49ceb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ad74e2d018e02d0b815decae208d49ceb">MR::VertCoords</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>, <a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a>&gt;</td></tr>
 <tr class="separator:ad74e2d018e02d0b815decae208d49ceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add01b9458cf33fc6a3d41fff9a44e8f7" id="r_add01b9458cf33fc6a3d41fff9a44e8f7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#add01b9458cf33fc6a3d41fff9a44e8f7">MR::VertNormals</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>, <a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a>&gt;</td></tr>
@@ -696,8 +702,6 @@ Variables</h2></td></tr>
 <tr class="memitem:a2f6ed4967b713094630bef3a24724e79" id="r_a2f6ed4967b713094630bef3a24724e79"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
 <tr class="memitem:a2f6ed4967b713094630bef3a24724e79"><td class="memTemplItemLeft" align="right" valign="top">class <a class="el" href="#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a2f6ed4967b713094630bef3a24724e79">MR::AABBTreePolyline</a></td></tr>
 <tr class="separator:a2f6ed4967b713094630bef3a24724e79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13289bb0637fbc667dab347fd46dbbbb" id="r_a13289bb0637fbc667dab347fd46dbbbb"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a13289bb0637fbc667dab347fd46dbbbb">MR::HistoryStore</a></td></tr>
-<tr class="separator:a13289bb0637fbc667dab347fd46dbbbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78658d7e2559b2c2ecccd1003dc75e04" id="r_a78658d7e2559b2c2ecccd1003dc75e04"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a78658d7e2559b2c2ecccd1003dc75e04">MR::ChangeSceneAction</a></td></tr>
 <tr class="separator:a78658d7e2559b2c2ecccd1003dc75e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad936edeb5d535d4e181bb99178c6bb6a" id="r_ad936edeb5d535d4e181bb99178c6bb6a"><td class="memTemplParams" colspan="2">template&lt;typename Tag &gt; </td></tr>
@@ -716,6 +720,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define MR_UNREACHABLE&#160;&#160;&#160;{ assert( false ); return {}; }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adf3c82902530739f161963e298ca8dc0" name="adf3c82902530739f161963e298ca8dc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf3c82902530739f161963e298ca8dc0">&#9670;&#160;</a></span>MR_UNREACHABLE_NO_RETURN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_UNREACHABLE_NO_RETURN&#160;&#160;&#160;assert( false );</td>
         </tr>
       </table>
 </div><div class="memdoc">

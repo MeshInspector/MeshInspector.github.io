@@ -156,6 +156,21 @@ requires detail::ValidOperands&lt;P...&gt;</td></tr>
 <tr class="separator:a3efcf38853e709434fc3e781cef13f7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5dd8586dafaa70c20f2e723116368027" id="r_a5dd8586dafaa70c20f2e723116368027"><td class="memItemLeft" align="right" valign="top">constexpr ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5dd8586dafaa70c20f2e723116368027">rot90</a> (ImVec2 a)</td></tr>
 <tr class="separator:a5dd8586dafaa70c20f2e723116368027"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b10073d5f904b51b53263f742597596" id="r_a1b10073d5f904b51b53263f742597596"><td class="memTemplParams" colspan="2">template&lt;detail::Vector A, detail::Scalar B&gt; </td></tr>
+<tr class="memitem:a1b10073d5f904b51b53263f742597596"><td class="memTemplItemLeft" align="right" valign="top">constexpr A&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a1b10073d5f904b51b53263f742597596">mix</a> (B t, A a, A b)</td></tr>
+<tr class="separator:a1b10073d5f904b51b53263f742597596"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac034e81727be0de1a1b7d5c5835a7283" id="r_ac034e81727be0de1a1b7d5c5835a7283"><td class="memTemplParams" colspan="2">template&lt;typename A , typename B &gt; <br />
+requires detail::ValidOperands&lt;A, B&gt;</td></tr>
+<tr class="memitem:ac034e81727be0de1a1b7d5c5835a7283"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ac034e81727be0de1a1b7d5c5835a7283">min</a> (A a, B b)</td></tr>
+<tr class="separator:ac034e81727be0de1a1b7d5c5835a7283"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12ab63056037f694d9ccdffda8ddb013" id="r_a12ab63056037f694d9ccdffda8ddb013"><td class="memTemplParams" colspan="2">template&lt;typename A , typename B &gt; <br />
+requires detail::ValidOperands&lt;A, B&gt;</td></tr>
+<tr class="memitem:a12ab63056037f694d9ccdffda8ddb013"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a12ab63056037f694d9ccdffda8ddb013">max</a> (A a, B b)</td></tr>
+<tr class="separator:a12ab63056037f694d9ccdffda8ddb013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a688fbf496bac1ba949b29be3ec9a96c4" id="r_a688fbf496bac1ba949b29be3ec9a96c4"><td class="memTemplParams" colspan="2">template&lt;detail::Vector T, typename A , typename B &gt; <br />
+requires detail::ValidOperands&lt;T, A, B&gt;</td></tr>
+<tr class="memitem:a688fbf496bac1ba949b29be3ec9a96c4"><td class="memTemplItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a688fbf496bac1ba949b29be3ec9a96c4">clamp</a> (T value, A a, B b)</td></tr>
+<tr class="separator:a688fbf496bac1ba949b29be3ec9a96c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a4714344a7e4547c8fd858658c8a54a" id="r_a7a4714344a7e4547c8fd858658c8a54a"><td class="memTemplParams" colspan="2">template&lt;detail::VectorOrScalar A&gt; </td></tr>
 <tr class="memitem:a7a4714344a7e4547c8fd858658c8a54a"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a7a4714344a7e4547c8fd858658c8a54a">CompareAll</a> (A) -&gt; CompareAll&lt; A &gt;</td></tr>
 <tr class="separator:a7a4714344a7e4547c8fd858658c8a54a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -213,6 +228,43 @@ template&lt;detail::Vector A&gt; </div>
           <td>(</td>
           <td class="paramtype">A</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a688fbf496bac1ba949b29be3ec9a96c4" name="a688fbf496bac1ba949b29be3ec9a96c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a688fbf496bac1ba949b29be3ec9a96c4">&#9670;&#160;</a></span>clamp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;detail::Vector T, typename A , typename B &gt; <br />
+requires detail::ValidOperands&lt;T, A, B&gt;</div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr T MR::ImGuiMath::clamp </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>value</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">A</td>          <td class="paramname"><span class="paramname"><em>a</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">B</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -394,6 +446,106 @@ template&lt;detail::Vector A&gt; </div>
           <td>(</td>
           <td class="paramtype">A</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a12ab63056037f694d9ccdffda8ddb013" name="a12ab63056037f694d9ccdffda8ddb013"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12ab63056037f694d9ccdffda8ddb013">&#9670;&#160;</a></span>max()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename A , typename B &gt; <br />
+requires detail::ValidOperands&lt;A, B&gt;</div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto MR::ImGuiMath::max </td>
+          <td>(</td>
+          <td class="paramtype">A</td>          <td class="paramname"><span class="paramname"><em>a</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">B</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac034e81727be0de1a1b7d5c5835a7283" name="ac034e81727be0de1a1b7d5c5835a7283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac034e81727be0de1a1b7d5c5835a7283">&#9670;&#160;</a></span>min()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename A , typename B &gt; <br />
+requires detail::ValidOperands&lt;A, B&gt;</div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto MR::ImGuiMath::min </td>
+          <td>(</td>
+          <td class="paramtype">A</td>          <td class="paramname"><span class="paramname"><em>a</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">B</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b10073d5f904b51b53263f742597596" name="a1b10073d5f904b51b53263f742597596"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b10073d5f904b51b53263f742597596">&#9670;&#160;</a></span>mix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;detail::Vector A, detail::Scalar B&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr A MR::ImGuiMath::mix </td>
+          <td>(</td>
+          <td class="paramtype">B</td>          <td class="paramname"><span class="paramname"><em>t</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">A</td>          <td class="paramname"><span class="paramname"><em>a</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">A</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

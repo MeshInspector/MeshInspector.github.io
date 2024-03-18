@@ -27,8 +27,10 @@ var searchData=
   ['distanceparams_24',['DistanceParams',['../structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html',1,'MR::ImGuiMeasurementIndicators']]],
   ['distancevolumeparams_25',['DistanceVolumeParams',['../structMR_1_1DistanceVolumeParams.html',1,'MR']]],
   ['distmapimprovedirectionparameters_26',['DistMapImproveDirectionParameters',['../structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html',1,'MR::FixUndercuts']]],
-  ['dragdroplistener_27',['DragDropListener',['../structMR_1_1DragDropListener.html',1,'MR']]],
-  ['drawbuttonparams_28',['DrawButtonParams',['../structMR_1_1DrawButtonParams.html',1,'MR']]],
-  ['drawgroupconfig_29',['DrawGroupConfig',['../structMR_1_1RibbonMenu_1_1DrawGroupConfig.html',1,'MR::RibbonMenu']]],
-  ['drawlistener_30',['DrawListener',['../structMR_1_1DrawListener.html',1,'MR']]]
+  ['dividepointcloudoptionaloutput_27',['DividePointCloudOptionalOutput',['../structMR_1_1DividePointCloudOptionalOutput.html',1,'MR']]],
+  ['dividepolylineparameters_28',['DividePolylineParameters',['../structMR_1_1DividePolylineParameters.html',1,'MR']]],
+  ['dragdroplistener_29',['DragDropListener',['../structMR_1_1DragDropListener.html',1,'MR']]],
+  ['drawbuttonparams_30',['DrawButtonParams',['../structMR_1_1DrawButtonParams.html',1,'MR']]],
+  ['drawgroupconfig_31',['DrawGroupConfig',['../structMR_1_1RibbonMenu_1_1DrawGroupConfig.html',1,'MR::RibbonMenu']]],
+  ['drawlistener_32',['DrawListener',['../structMR_1_1DrawListener.html',1,'MR']]]
 ];

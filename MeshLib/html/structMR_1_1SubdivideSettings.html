@@ -144,6 +144,9 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a757c0278a48bf06117256165bec538c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55b830f7823b4a74b6891945bafa12a5" id="r_a55b830f7823b4a74b6891945bafa12a5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55b830f7823b4a74b6891945bafa12a5">minSharpDihedralAngle</a> = PI_F / 6</td></tr>
 <tr class="separator:a55b830f7823b4a74b6891945bafa12a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52aa2a88771ab9ca39f096cae8256c7d" id="r_a52aa2a88771ab9ca39f096cae8256c7d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52aa2a88771ab9ca39f096cae8256c7d">projectOnOriginalMesh</a> = false</td></tr>
+<tr class="memdesc:a52aa2a88771ab9ca39f096cae8256c7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, then every new vertex will be projected on the original mesh (before smoothing)  <br /></td></tr>
+<tr class="separator:a52aa2a88771ab9ca39f096cae8256c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e8653d42d8358f40dca297f675d4111" id="r_a9e8653d42d8358f40dca297f675d4111"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e8653d42d8358f40dca297f675d4111">onVertCreated</a></td></tr>
 <tr class="memdesc:a9e8653d42d8358f40dca297f675d4111"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time a new vertex has been created, but before the ring is made Delone  <br /></td></tr>
 <tr class="separator:a9e8653d42d8358f40dca297f675d4111"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -376,6 +379,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>callback to report algorithm progress and cancel it by user request </p>
+
+</div>
+</div>
+<a id="a52aa2a88771ab9ca39f096cae8256c7d" name="a52aa2a88771ab9ca39f096cae8256c7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52aa2a88771ab9ca39f096cae8256c7d">&#9670;&#160;</a></span>projectOnOriginalMesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::SubdivideSettings::projectOnOriginalMesh = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if true, then every new vertex will be projected on the original mesh (before smoothing) </p>
 
 </div>
 </div>

@@ -35,13 +35,14 @@ var group__MathGroup =
     ] ],
     [ "MR::DenseBox", "structMR_1_1DenseBox.html", [
       [ "DenseBox", "structMR_1_1DenseBox.html#a38590d0d422769798b0be5129be63d55", null ],
+      [ "DenseBox", "structMR_1_1DenseBox.html#aee07541d158133fc4c85e7170de4d3e7", null ],
+      [ "DenseBox", "structMR_1_1DenseBox.html#aac374ad90e2a96d261ba863c1d6f46e2", null ],
       [ "basisXf", "structMR_1_1DenseBox.html#a941ca605a35dc828fc9b0e7c5358c7e9", null ],
       [ "basisXfInv", "structMR_1_1DenseBox.html#a1d968d6262ca4a19b4f5610ef49dfdee", null ],
       [ "box", "structMR_1_1DenseBox.html#a0ea02f370dc76e349984c62b5a3f6557", null ],
       [ "center", "structMR_1_1DenseBox.html#a7efc7b0a63b1e8c7737349454066d83f", null ],
       [ "contains", "structMR_1_1DenseBox.html#ad6e0ec24db49e4d651459703603a3e4d", null ],
-      [ "corner", "structMR_1_1DenseBox.html#ae15fa3079fbe1aae94cb52176e59e802", null ],
-      [ "include", "structMR_1_1DenseBox.html#a17190f1948e55f8abe10ffa9d47d2a80", null ]
+      [ "corner", "structMR_1_1DenseBox.html#ae15fa3079fbe1aae94cb52176e59e802", null ]
     ] ],
     [ "MR::Histogram", "classMR_1_1Histogram.html", [
       [ "Histogram", "classMR_1_1Histogram.html#aba207b56824356ab7f80254c5fd34819", null ],

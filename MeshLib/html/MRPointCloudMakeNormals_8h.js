@@ -1,7 +1,7 @@
 var MRPointCloudMakeNormals_8h =
 [
     [ "makeNormals", "MRPointCloudMakeNormals_8h.html#ga6d1b190105546ec214cc4ab692ece60e", null ],
-    [ "makeOrientedNormals", "MRPointCloudMakeNormals_8h.html#ga51d8f615a0f50e4a2917291e0b3426c1", null ],
+    [ "makeOrientedNormals", "MRPointCloudMakeNormals_8h.html#gab197779cd5dda18a937f178ef98ceb27", null ],
     [ "makeOrientedNormals", "MRPointCloudMakeNormals_8h.html#ga40da78b08c082b4012d578e9b68e0c69", null ],
     [ "makeUnorientedNormals", "MRPointCloudMakeNormals_8h.html#ga04eb12c4821cbe0801dbc7dc8472992c", null ],
     [ "makeUnorientedNormals", "MRPointCloudMakeNormals_8h.html#gac7146c862a7b70f47e77f3cc3ffc9a23", null ],

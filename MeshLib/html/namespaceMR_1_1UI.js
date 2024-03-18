@@ -11,6 +11,7 @@ var namespaceMR_1_1UI =
     [ "buttonUnique", "namespaceMR_1_1UI.html#aca27e412cdac5850b5894de3b19321b9", null ],
     [ "checkbox", "namespaceMR_1_1UI.html#a53a8b0ecd1302a3bda2f1df01ef818a8", null ],
     [ "checkbox", "namespaceMR_1_1UI.html#a9542cf007c0f98d41fea874268894222", null ],
+    [ "checkboxFlags", "namespaceMR_1_1UI.html#aba6c7c72b70351ba42eae4e3a2e0df4b", null ],
     [ "checkboxMixed", "namespaceMR_1_1UI.html#ab4909c09a4671c9b042825346cf6f637", null ],
     [ "checkboxValid", "namespaceMR_1_1UI.html#a877e7bd4fbef2de7e95cee03dc0f71b3", null ],
     [ "colorEdit4", "namespaceMR_1_1UI.html#acb0c4c1be185e69b6f58108b3471f882", null ],

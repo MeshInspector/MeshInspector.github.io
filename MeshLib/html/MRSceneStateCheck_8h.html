@@ -106,33 +106,28 @@ $(function(){initNavTree('MRSceneStateCheck_8h.html',''); initResizable(); });
   <div class="headertitle"><div class="title">MRSceneStateCheck.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;exports.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMesh/MRMeshFwd.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="MRISceneStateCheck_8h_source.html">MRISceneStateCheck.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRObject_8h_source.html">MRMesh/MRObject.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRObjectPoints_8h_source.html">MRMesh/MRObjectPoints.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRObjectVoxels_8h_source.html">MRMesh/MRObjectVoxels.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRObjectMesh_8h_source.html">MRMesh/MRObjectMesh.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRObjectLines_8h_source.html">MRMesh/MRObjectLines.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRObjectDistanceMap_8h_source.html">MRMesh/MRObjectDistanceMap.h</a>&quot;</code><br />
-<code>#include &lt;memory&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
 </div>
 <p><a href="MRSceneStateCheck_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ISceneStateCheck.html">MR::ISceneStateCheck</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1NoVisualRepresentationCheck.html">MR::NoVisualRepresentationCheck</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1NoModelCheck.html">MR::NoModelCheck</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SceneStateExactCheck.html">MR::SceneStateExactCheck&lt; N, ObjectT, typename &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html">MR::SceneStateExactCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4.html">MR::SceneStateExactCheck&lt; N, ObjectT, NoModelCheck &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SceneStateAtLeastCheck.html">MR::SceneStateAtLeastCheck&lt; N, ObjectT, typename &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html">MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoVisualRepresentationCheck &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4.html">MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SceneStateOrCheck.html">MR::SceneStateOrCheck&lt; Checks &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,33 +138,15 @@ Classes</h2></td></tr>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceMR" id="r_namespaceMR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceMR_1_1ModelCheck" id="r_namespaceMR_1_1ModelCheck"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ModelCheck.html">MR::ModelCheck</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae0ea5f7896017d517519893fa446ac7b" id="r_ae0ea5f7896017d517519893fa446ac7b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ModelCheck.html#ae0ea5f7896017d517519893fa446ac7b">MR::ModelCheck::model</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;)</td></tr>
-<tr class="separator:ae0ea5f7896017d517519893fa446ac7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab72f894c1173c5abf3f2ffe860913463" id="r_ab72f894c1173c5abf3f2ffe860913463"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ModelCheck.html#ab72f894c1173c5abf3f2ffe860913463">MR::ModelCheck::model</a> (const <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &amp;obj)</td></tr>
-<tr class="separator:ab72f894c1173c5abf3f2ffe860913463"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad70ae97a9cb482d7fc971ad9f929d803" id="r_ad70ae97a9cb482d7fc971ad9f929d803"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ModelCheck.html#ad70ae97a9cb482d7fc971ad9f929d803">MR::ModelCheck::model</a> (const <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &amp;obj)</td></tr>
-<tr class="separator:ad70ae97a9cb482d7fc971ad9f929d803"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8cf938d7f2cfc38b406daeda423fc34" id="r_ab8cf938d7f2cfc38b406daeda423fc34"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ModelCheck.html#ab8cf938d7f2cfc38b406daeda423fc34">MR::ModelCheck::model</a> (const <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &amp;obj)</td></tr>
-<tr class="separator:ab8cf938d7f2cfc38b406daeda423fc34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a511a34ad284006971f3a6f72fa50aa5a" id="r_a511a34ad284006971f3a6f72fa50aa5a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ModelCheck.html#a511a34ad284006971f3a6f72fa50aa5a">MR::ModelCheck::model</a> (const <a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a> &amp;obj)</td></tr>
-<tr class="separator:a511a34ad284006971f3a6f72fa50aa5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71ca3706f0f357363681410a323c5d76" id="r_a71ca3706f0f357363681410a323c5d76"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ModelCheck.html#a71ca3706f0f357363681410a323c5d76">MR::ModelCheck::model</a> (const <a class="el" href="classMR_1_1ObjectDistanceMap.html">ObjectDistanceMap</a> &amp;obj)</td></tr>
-<tr class="separator:a71ca3706f0f357363681410a323c5d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ee35de4441c2d3adc67ccd631f117ca" id="r_a1ee35de4441c2d3adc67ccd631f117ca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a1ee35de4441c2d3adc67ccd631f117ca">MR::hasVisualRepresentation</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;)</td></tr>
-<tr class="separator:a1ee35de4441c2d3adc67ccd631f117ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd86569d2628c554e342de21bc176b2e" id="r_abd86569d2628c554e342de21bc176b2e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#abd86569d2628c554e342de21bc176b2e">MR::hasVisualRepresentation</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;obj)</td></tr>
-<tr class="separator:abd86569d2628c554e342de21bc176b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35e87c506866f155c9c41b19e065fb6f" id="r_a35e87c506866f155c9c41b19e065fb6f"><td class="memTemplParams" colspan="2">template&lt;typename ObjectT , bool visualRepresentationCheck&gt; </td></tr>
-<tr class="memitem:a35e87c506866f155c9c41b19e065fb6f"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a35e87c506866f155c9c41b19e065fb6f">MR::sceneSelectedExactly</a> (const std::vector&lt; std::shared_ptr&lt; const <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;objs, unsigned n)</td></tr>
-<tr class="separator:a35e87c506866f155c9c41b19e065fb6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86c0390d3762ecfc32a6dbdacf346b4d" id="r_a86c0390d3762ecfc32a6dbdacf346b4d"><td class="memTemplParams" colspan="2">template&lt;typename ObjectT , bool visualRepresentationCheck&gt; </td></tr>
-<tr class="memitem:a86c0390d3762ecfc32a6dbdacf346b4d"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a86c0390d3762ecfc32a6dbdacf346b4d">MR::sceneSelectedAtLeast</a> (const std::vector&lt; std::shared_ptr&lt; const <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;objs, unsigned n)</td></tr>
-<tr class="separator:a86c0390d3762ecfc32a6dbdacf346b4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac60866be39596654019ff3af45b501c5" id="r_ac60866be39596654019ff3af45b501c5"><td class="memTemplParams" colspan="2">template&lt;typename ObjectT , bool visualRepresentationCheck, bool modelCheck&gt; </td></tr>
+<tr class="memitem:ac60866be39596654019ff3af45b501c5"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac60866be39596654019ff3af45b501c5">MR::sceneSelectedExactly</a> (const std::vector&lt; std::shared_ptr&lt; const <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;objs, unsigned n)</td></tr>
+<tr class="separator:ac60866be39596654019ff3af45b501c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7eb465c1b7cbbcb8daa25703edc931d" id="r_ac7eb465c1b7cbbcb8daa25703edc931d"><td class="memTemplParams" colspan="2">template&lt;typename ObjectT , bool visualRepresentationCheck, bool modelCheck&gt; </td></tr>
+<tr class="memitem:ac7eb465c1b7cbbcb8daa25703edc931d"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac7eb465c1b7cbbcb8daa25703edc931d">MR::sceneSelectedAtLeast</a> (const std::vector&lt; std::shared_ptr&lt; const <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;objs, unsigned n)</td></tr>
+<tr class="separator:ac7eb465c1b7cbbcb8daa25703edc931d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -102,6 +102,7 @@ $(function(){initNavTree('classMR_1_1HistoryStore.html',''); initResizable(); })
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classMR_1_1HistoryStore-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::HistoryStore Class Reference<div class="ingroups"><a class="el" href="group__HistoryGroup.html">History group</a></div></div></div>
@@ -131,12 +132,10 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a37463f6865be0b80f3c33ab964da7525" id="r_a37463f6865be0b80f3c33ab964da7525"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37463f6865be0b80f3c33ab964da7525">HistoryStore</a> ()=default</td></tr>
-<tr class="separator:a37463f6865be0b80f3c33ab964da7525"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9de1accfa87bd65c0665d9149fb3d240" id="r_a9de1accfa87bd65c0665d9149fb3d240"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9de1accfa87bd65c0665d9149fb3d240">~HistoryStore</a> ()</td></tr>
-<tr class="separator:a9de1accfa87bd65c0665d9149fb3d240"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a567334bd2d093c338ced3ee9eae572d6" id="r_a567334bd2d093c338ced3ee9eae572d6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a567334bd2d093c338ced3ee9eae572d6">appendAction</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1HistoryAction.html">HistoryAction</a> &gt; &amp;action)</td></tr>
-<tr class="separator:a567334bd2d093c338ced3ee9eae572d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d11982a306bc53b5ccaddff114cd614" id="r_a1d11982a306bc53b5ccaddff114cd614"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d11982a306bc53b5ccaddff114cd614">~HistoryStore</a> ()</td></tr>
+<tr class="separator:a1d11982a306bc53b5ccaddff114cd614"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad29229f07b377f386fa783f9f178a3ba" id="r_ad29229f07b377f386fa783f9f178a3ba"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad29229f07b377f386fa783f9f178a3ba">appendAction</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1HistoryAction.html">HistoryAction</a> &gt; &amp;action)</td></tr>
+<tr class="separator:ad29229f07b377f386fa783f9f178a3ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44c0ab7153a1b5967525c1cea2fe4e67" id="r_a44c0ab7153a1b5967525c1cea2fe4e67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a951264a40637210aff82d6b0e375446f">HistoryActionsVector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44c0ab7153a1b5967525c1cea2fe4e67">getScopeBlockPtr</a> () const</td></tr>
 <tr class="memdesc:a44c0ab7153a1b5967525c1cea2fe4e67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns current scope ptr.  <br /></td></tr>
 <tr class="separator:a44c0ab7153a1b5967525c1cea2fe4e67"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,9 +148,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae49bd57fda5c9d3b6005f942e9ee7f45" id="r_ae49bd57fda5c9d3b6005f942e9ee7f45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae49bd57fda5c9d3b6005f942e9ee7f45">setSavedState</a> ()</td></tr>
 <tr class="memdesc:ae49bd57fda5c9d3b6005f942e9ee7f45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consider the current scene state as saved.  <br /></td></tr>
 <tr class="separator:ae49bd57fda5c9d3b6005f942e9ee7f45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafc8981726bdd34892bb0498bbb38ab4" id="r_aafc8981726bdd34892bb0498bbb38ab4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafc8981726bdd34892bb0498bbb38ab4">clear</a> ()</td></tr>
-<tr class="memdesc:aafc8981726bdd34892bb0498bbb38ab4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears this <a class="el" href="classMR_1_1HistoryStore.html" title="This class stores history stack for undo/redo.">HistoryStore</a>.  <br /></td></tr>
-<tr class="separator:aafc8981726bdd34892bb0498bbb38ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaca3b28f85fa63c443235a4539cfa25" id="r_aeaca3b28f85fa63c443235a4539cfa25"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaca3b28f85fa63c443235a4539cfa25">clear</a> ()</td></tr>
+<tr class="memdesc:aeaca3b28f85fa63c443235a4539cfa25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears this <a class="el" href="classMR_1_1HistoryStore.html" title="This class stores history stack for undo/redo.">HistoryStore</a>.  <br /></td></tr>
+<tr class="separator:aeaca3b28f85fa63c443235a4539cfa25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48c223a0850725e085ef49953af02cd1" id="r_a48c223a0850725e085ef49953af02cd1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48c223a0850725e085ef49953af02cd1">setMemoryLimit</a> (size_t limit)</td></tr>
 <tr class="memdesc:a48c223a0850725e085ef49953af02cd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set memory limit for this store, if history stack exceed it - old actions are removed.  <br /></td></tr>
 <tr class="separator:a48c223a0850725e085ef49953af02cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -164,19 +163,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a68425383420b18f6c04f4405f2e4a1f5" id="r_a68425383420b18f6c04f4405f2e4a1f5"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68425383420b18f6c04f4405f2e4a1f5">getStackPointer</a> () const</td></tr>
 <tr class="memdesc:a68425383420b18f6c04f4405f2e4a1f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns index of first redo action in stack.  <br /></td></tr>
 <tr class="separator:a68425383420b18f6c04f4405f2e4a1f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af364f758f8c2ef66f70b83c0b8875885" id="r_af364f758f8c2ef66f70b83c0b8875885"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af364f758f8c2ef66f70b83c0b8875885">filterStack</a> (<a class="el" href="namespaceMR.html#a85276508657eac277a84365d3e41c118">HistoryStackFilter</a> filteringCondition, bool deepFiltering=true)</td></tr>
-<tr class="memdesc:af364f758f8c2ef66f70b83c0b8875885"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove some actions according to condition  <br /></td></tr>
-<tr class="separator:af364f758f8c2ef66f70b83c0b8875885"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea1440c49e39cc9ab8e073de63271147" id="r_aea1440c49e39cc9ab8e073de63271147"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea1440c49e39cc9ab8e073de63271147">undo</a> ()</td></tr>
-<tr class="separator:aea1440c49e39cc9ab8e073de63271147"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa598b54efef16035705a815e4481ef65" id="r_aa598b54efef16035705a815e4481ef65"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa598b54efef16035705a815e4481ef65">redo</a> ()</td></tr>
-<tr class="separator:aa598b54efef16035705a815e4481ef65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1573259fb6a2bba49b63916ad7e2d91" id="r_ae1573259fb6a2bba49b63916ad7e2d91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1573259fb6a2bba49b63916ad7e2d91">getNActions</a> (unsigned n, <a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a> type) const</td></tr>
-<tr class="memdesc:ae1573259fb6a2bba49b63916ad7e2d91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns names of last N undo actions or first N redo actions.  <br /></td></tr>
-<tr class="separator:ae1573259fb6a2bba49b63916ad7e2d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b6245b811406cce1c50ed2792df6300" id="r_a7b6245b811406cce1c50ed2792df6300"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b6245b811406cce1c50ed2792df6300">getLastActionName</a> (<a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a> type) const</td></tr>
-<tr class="memdesc:a7b6245b811406cce1c50ed2792df6300"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of last undo or redo action (or empty string if there is no such action)  <br /></td></tr>
-<tr class="separator:a7b6245b811406cce1c50ed2792df6300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34a9d69ae6d37fc5a5b4155b63d3c100" id="r_a34a9d69ae6d37fc5a5b4155b63d3c100"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34a9d69ae6d37fc5a5b4155b63d3c100">filterStack</a> (<a class="el" href="namespaceMR.html#a85276508657eac277a84365d3e41c118">HistoryStackFilter</a> filteringCondition, bool deepFiltering=true)</td></tr>
+<tr class="memdesc:a34a9d69ae6d37fc5a5b4155b63d3c100"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove some actions according to condition  <br /></td></tr>
+<tr class="separator:a34a9d69ae6d37fc5a5b4155b63d3c100"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bce5005471a434712469838de3edcd7" id="r_a0bce5005471a434712469838de3edcd7"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bce5005471a434712469838de3edcd7">undo</a> ()</td></tr>
+<tr class="separator:a0bce5005471a434712469838de3edcd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c5f420102ae277252e92dea8b27fa2f" id="r_a5c5f420102ae277252e92dea8b27fa2f"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c5f420102ae277252e92dea8b27fa2f">redo</a> ()</td></tr>
+<tr class="separator:a5c5f420102ae277252e92dea8b27fa2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f09d582234535d00d32ca5ece30c992" id="r_a8f09d582234535d00d32ca5ece30c992"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f09d582234535d00d32ca5ece30c992">getNActions</a> (unsigned n, <a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a> type) const</td></tr>
+<tr class="memdesc:a8f09d582234535d00d32ca5ece30c992"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns names of last N undo actions or first N redo actions.  <br /></td></tr>
+<tr class="separator:a8f09d582234535d00d32ca5ece30c992"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae95320267281820e0d4bdb60d052085e" id="r_ae95320267281820e0d4bdb60d052085e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae95320267281820e0d4bdb60d052085e">getLastActionName</a> (<a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a> type) const</td></tr>
+<tr class="memdesc:ae95320267281820e0d4bdb60d052085e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of last undo or redo action (or empty string if there is no such action)  <br /></td></tr>
+<tr class="separator:ae95320267281820e0d4bdb60d052085e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a90827f674d87c2ab52f3be56086ace77" id="r_a90827f674d87c2ab52f3be56086ace77"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API const std::shared_ptr&lt; <a class="el" href="classMR_1_1HistoryStore.html">HistoryStore</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90827f674d87c2ab52f3be56086ace77">getViewerInstance</a> ()</td></tr>
+<tr class="memdesc:a90827f674d87c2ab52f3be56086ace77"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the instance (if any) of <a class="el" href="classMR_1_1HistoryStore.html" title="This class stores history stack for undo/redo.">HistoryStore</a> from the viewer  <br /></td></tr>
+<tr class="separator:a90827f674d87c2ab52f3be56086ace77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -234,8 +239,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a37463f6865be0b80f3c33ab964da7525" name="a37463f6865be0b80f3c33ab964da7525"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37463f6865be0b80f3c33ab964da7525">&#9670;&#160;</a></span>HistoryStore()</h2>
+<a id="a1d11982a306bc53b5ccaddff114cd614" name="a1d11982a306bc53b5ccaddff114cd614"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d11982a306bc53b5ccaddff114cd614">&#9670;&#160;</a></span>~HistoryStore()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -244,32 +249,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MR::HistoryStore::HistoryStore </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9de1accfa87bd65c0665d9149fb3d240" name="a9de1accfa87bd65c0665d9149fb3d240"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9de1accfa87bd65c0665d9149fb3d240">&#9670;&#160;</a></span>~HistoryStore()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR::HistoryStore::~HistoryStore </td>
+          <td class="memname">virtual MRVIEWER_API MR::HistoryStore::~HistoryStore </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -285,8 +265,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a567334bd2d093c338ced3ee9eae572d6" name="a567334bd2d093c338ced3ee9eae572d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a567334bd2d093c338ced3ee9eae572d6">&#9670;&#160;</a></span>appendAction()</h2>
+<a id="ad29229f07b377f386fa783f9f178a3ba" name="ad29229f07b377f386fa783f9f178a3ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad29229f07b377f386fa783f9f178a3ba">&#9670;&#160;</a></span>appendAction()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -295,7 +275,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::HistoryStore::appendAction </td>
+          <td class="memname">virtual MRVIEWER_API void MR::HistoryStore::appendAction </td>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1HistoryAction.html">HistoryAction</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>action</em></span></td><td>)</td>
           <td></td>
@@ -311,14 +291,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aafc8981726bdd34892bb0498bbb38ab4" name="aafc8981726bdd34892bb0498bbb38ab4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aafc8981726bdd34892bb0498bbb38ab4">&#9670;&#160;</a></span>clear()</h2>
+<a id="aeaca3b28f85fa63c443235a4539cfa25" name="aeaca3b28f85fa63c443235a4539cfa25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaca3b28f85fa63c443235a4539cfa25">&#9670;&#160;</a></span>clear()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::HistoryStore::clear </td>
+          <td class="memname">MRVIEWER_API void MR::HistoryStore::clear </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -330,14 +310,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af364f758f8c2ef66f70b83c0b8875885" name="af364f758f8c2ef66f70b83c0b8875885"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af364f758f8c2ef66f70b83c0b8875885">&#9670;&#160;</a></span>filterStack()</h2>
+<a id="a34a9d69ae6d37fc5a5b4155b63d3c100" name="a34a9d69ae6d37fc5a5b4155b63d3c100"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34a9d69ae6d37fc5a5b4155b63d3c100">&#9670;&#160;</a></span>filterStack()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::HistoryStore::filterStack </td>
+          <td class="memname">MRVIEWER_API void MR::HistoryStore::filterStack </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceMR.html#a85276508657eac277a84365d3e41c118">HistoryStackFilter</a></td>          <td class="paramname"><span class="paramname"><em>filteringCondition</em>, </span></td>
         </tr>
@@ -380,14 +360,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7b6245b811406cce1c50ed2792df6300" name="a7b6245b811406cce1c50ed2792df6300"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b6245b811406cce1c50ed2792df6300">&#9670;&#160;</a></span>getLastActionName()</h2>
+<a id="ae95320267281820e0d4bdb60d052085e" name="ae95320267281820e0d4bdb60d052085e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae95320267281820e0d4bdb60d052085e">&#9670;&#160;</a></span>getLastActionName()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string MR::HistoryStore::getLastActionName </td>
+          <td class="memname">MRVIEWER_API std::string MR::HistoryStore::getLastActionName </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
           <td> const</td>
@@ -426,14 +406,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae1573259fb6a2bba49b63916ad7e2d91" name="ae1573259fb6a2bba49b63916ad7e2d91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1573259fb6a2bba49b63916ad7e2d91">&#9670;&#160;</a></span>getNActions()</h2>
+<a id="a8f09d582234535d00d32ca5ece30c992" name="a8f09d582234535d00d32ca5ece30c992"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f09d582234535d00d32ca5ece30c992">&#9670;&#160;</a></span>getNActions()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; std::string &gt; MR::HistoryStore::getNActions </td>
+          <td class="memname">MRVIEWER_API std::vector&lt; std::string &gt; MR::HistoryStore::getNActions </td>
           <td>(</td>
           <td class="paramtype">unsigned</td>          <td class="paramname"><span class="paramname"><em>n</em>, </span></td>
         </tr>
@@ -503,6 +483,33 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a90827f674d87c2ab52f3be56086ace77" name="a90827f674d87c2ab52f3be56086ace77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90827f674d87c2ab52f3be56086ace77">&#9670;&#160;</a></span>getViewerInstance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MRVIEWER_API const std::shared_ptr&lt; <a class="el" href="classMR_1_1HistoryStore.html">HistoryStore</a> &gt; &amp; MR::HistoryStore::getViewerInstance </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the instance (if any) of <a class="el" href="classMR_1_1HistoryStore.html" title="This class stores history stack for undo/redo.">HistoryStore</a> from the viewer </p>
+
+</div>
+</div>
 <a id="af2142010702571f062becfaf361b015c" name="af2142010702571f062becfaf361b015c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af2142010702571f062becfaf361b015c">&#9670;&#160;</a></span>isSceneModified()</h2>
 
@@ -530,8 +537,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa598b54efef16035705a815e4481ef65" name="aa598b54efef16035705a815e4481ef65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa598b54efef16035705a815e4481ef65">&#9670;&#160;</a></span>redo()</h2>
+<a id="a5c5f420102ae277252e92dea8b27fa2f" name="a5c5f420102ae277252e92dea8b27fa2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c5f420102ae277252e92dea8b27fa2f">&#9670;&#160;</a></span>redo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -540,7 +547,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::HistoryStore::redo </td>
+          <td class="memname">virtual MRVIEWER_API bool MR::HistoryStore::redo </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -636,8 +643,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aea1440c49e39cc9ab8e073de63271147" name="aea1440c49e39cc9ab8e073de63271147"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea1440c49e39cc9ab8e073de63271147">&#9670;&#160;</a></span>undo()</h2>
+<a id="a0bce5005471a434712469838de3edcd7" name="a0bce5005471a434712469838de3edcd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bce5005471a434712469838de3edcd7">&#9670;&#160;</a></span>undo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -646,7 +653,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::HistoryStore::undo </td>
+          <td class="memname">virtual MRVIEWER_API bool MR::HistoryStore::undo </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>

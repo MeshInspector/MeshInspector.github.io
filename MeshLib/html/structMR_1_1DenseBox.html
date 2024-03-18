@@ -113,9 +113,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a38590d0d422769798b0be5129be63d55" id="r_a38590d0d422769798b0be5129be63d55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38590d0d422769798b0be5129be63d55">DenseBox</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> *xf=nullptr)</td></tr>
 <tr class="memdesc:a38590d0d422769798b0be5129be63d55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Include mesh part into this dense box.  <br /></td></tr>
 <tr class="separator:a38590d0d422769798b0be5129be63d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17190f1948e55f8abe10ffa9d47d2a80" id="r_a17190f1948e55f8abe10ffa9d47d2a80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17190f1948e55f8abe10ffa9d47d2a80">include</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> *xf=nullptr)</td></tr>
-<tr class="memdesc:a17190f1948e55f8abe10ffa9d47d2a80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Include mesh part into this dense box.  <br /></td></tr>
-<tr class="separator:a17190f1948e55f8abe10ffa9d47d2a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee07541d158133fc4c85e7170de4d3e7" id="r_aee07541d158133fc4c85e7170de4d3e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee07541d158133fc4c85e7170de4d3e7">DenseBox</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;points, const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> *xf=nullptr)</td></tr>
+<tr class="memdesc:aee07541d158133fc4c85e7170de4d3e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Include point into this dense box.  <br /></td></tr>
+<tr class="separator:aee07541d158133fc4c85e7170de4d3e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac374ad90e2a96d261ba863c1d6f46e2" id="r_aac374ad90e2a96d261ba863c1d6f46e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac374ad90e2a96d261ba863c1d6f46e2">DenseBox</a> (const <a class="el" href="namespaceMR.html#abe0dbd50cf5a22fd28e4f5dfd7dc9705">Polyline3</a> &amp;line, const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> *xf=nullptr)</td></tr>
+<tr class="memdesc:aac374ad90e2a96d261ba863c1d6f46e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Include line into this dense box.  <br /></td></tr>
+<tr class="separator:aac374ad90e2a96d261ba863c1d6f46e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7efc7b0a63b1e8c7737349454066d83f" id="r_a7efc7b0a63b1e8c7737349454066d83f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7efc7b0a63b1e8c7737349454066d83f">center</a> () const</td></tr>
 <tr class="memdesc:a7efc7b0a63b1e8c7737349454066d83f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns center of dense box  <br /></td></tr>
 <tr class="separator:a7efc7b0a63b1e8c7737349454066d83f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,7 +142,7 @@ Public Member Functions</h2></td></tr>
 <p>Scalar operations that are not provided in this struct can be called via <code><a class="el" href="#a0ea02f370dc76e349984c62b5a3f6557" title="return box in its space">box()</a></code> For example <code><a class="el" href="#a0ea02f370dc76e349984c62b5a3f6557" title="return box in its space">box()</a>.<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size()</a></code>, <code><a class="el" href="#a0ea02f370dc76e349984c62b5a3f6557" title="return box in its space">box()</a>.diagonal()</code> or <code><a class="el" href="#a0ea02f370dc76e349984c62b5a3f6557" title="return box in its space">box()</a>.volume()</code> Non const operations are not allowed for dense box because it can spoil density </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a38590d0d422769798b0be5129be63d55" name="a38590d0d422769798b0be5129be63d55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38590d0d422769798b0be5129be63d55">&#9670;&#160;</a></span>DenseBox()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a38590d0d422769798b0be5129be63d55">&#9670;&#160;</a></span>DenseBox() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -158,6 +161,52 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Include mesh part into this dense box. </p>
+
+</div>
+</div>
+<a id="aee07541d158133fc4c85e7170de4d3e7" name="aee07541d158133fc4c85e7170de4d3e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee07541d158133fc4c85e7170de4d3e7">&#9670;&#160;</a></span>DenseBox() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR::DenseBox::DenseBox </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>xf</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Include point into this dense box. </p>
+
+</div>
+</div>
+<a id="aac374ad90e2a96d261ba863c1d6f46e2" name="aac374ad90e2a96d261ba863c1d6f46e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac374ad90e2a96d261ba863c1d6f46e2">&#9670;&#160;</a></span>DenseBox() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR::DenseBox::DenseBox </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#abe0dbd50cf5a22fd28e4f5dfd7dc9705">Polyline3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>line</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>xf</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Include line into this dense box. </p>
 
 </div>
 </div>
@@ -296,29 +345,6 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>returns corner of dense box, each index value means: false - min, true - max example: {false, false, flase} - min point, {true, true, true} - max point </p>
-
-</div>
-</div>
-<a id="a17190f1948e55f8abe10ffa9d47d2a80" name="a17190f1948e55f8abe10ffa9d47d2a80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17190f1948e55f8abe10ffa9d47d2a80">&#9670;&#160;</a></span>include()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::DenseBox::include </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>meshPart</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>xf</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Include mesh part into this dense box. </p>
 
 </div>
 </div>

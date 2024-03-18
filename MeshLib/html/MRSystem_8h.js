@@ -13,6 +13,7 @@ var MRSystem_8h =
     [ "GetTempDirectory", "MRSystem_8h.html#a4ba1f8b8dda149d741c79f6ca5c6f2ba", null ],
     [ "getUserConfigDir", "MRSystem_8h.html#ac8ef1e5eb550d8cb502e7a5a5ac8c038", null ],
     [ "getUserConfigFilePath", "MRSystem_8h.html#a77dbe991d4f1d8a2b0ffd3ed1e1320bb", null ],
+    [ "OpenDocument", "MRSystem_8h.html#a2d2055c8154d0075f8388ca7579fd794", null ],
     [ "OpenLink", "MRSystem_8h.html#aec820d50ac448217d66131a079fce39a", null ],
     [ "SetClipboardText", "MRSystem_8h.html#aaf6ec05257917c4854846583fa32948f", null ],
     [ "SetCurrentThreadName", "MRSystem_8h.html#abc117ae5bf8ce3683d73b2fc8e37cde1", null ],

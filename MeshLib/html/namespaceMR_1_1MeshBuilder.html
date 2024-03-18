@@ -116,8 +116,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshBuilder_1_1equalVector3f.html">equalVector3f</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">this makes bit-wise comparison of two Vector3f's thus making two NaNs equal  <a href="structMR_1_1MeshBuilder_1_1equalVector3f.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshBuilder_1_1FaceRecord.html">FaceRecord</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshBuilder_1_1MeshPiece.html">MeshPiece</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshBuilder_1_1Triangle.html">Triangle</a></td></tr>
@@ -126,6 +124,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshBuilder_1_1VertDuplication.html">VertDuplication</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshBuilder_1_1VertexIdentifier.html">VertexIdentifier</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshBuilder_1_1VertSpan.html">VertSpan</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -136,8 +136,6 @@ Functions</h2></td></tr>
 <tr class="separator:a490e7688bd91a7df375c29f2bd7633a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa308a697fa44ab178932733fdab79f16" id="r_aa308a697fa44ab178932733fdab79f16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa308a697fa44ab178932733fdab79f16">fromTrianglesDuplicatingNonManifoldVertices</a> (<a class="el" href="namespaceMR.html#a2d4e12c4f3a7ed4eb824b58df5528e1a">Triangulation</a> &amp;t, std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertDuplication.html">VertDuplication</a> &gt; *dups=nullptr, const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">BuildSettings</a> &amp;settings={})</td></tr>
 <tr class="separator:aa308a697fa44ab178932733fdab79f16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b3503d2d9d217c518c9004116f00b07" id="r_a1b3503d2d9d217c518c9004116f00b07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b3503d2d9d217c518c9004116f00b07">fromVertexTriples</a> (const std::vector&lt; <a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> &gt; &amp;vertTriples, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={})</td></tr>
-<tr class="separator:a1b3503d2d9d217c518c9004116f00b07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a787b6d63581b071cba69cde55f211cdf" id="r_a787b6d63581b071cba69cde55f211cdf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a787b6d63581b071cba69cde55f211cdf">fromPointTriples</a> (const std::vector&lt; <a class="el" href="namespaceMR.html#ac3b4f93ff16dbb5975ce8dec6adc39cf">Triangle3f</a> &gt; &amp;posTriples)</td></tr>
 <tr class="separator:a787b6d63581b071cba69cde55f211cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac89608a8862a7f497172398df6ccaf30" id="r_ac89608a8862a7f497172398df6ccaf30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac89608a8862a7f497172398df6ccaf30">fromDisjointMeshPieces</a> (const <a class="el" href="namespaceMR.html#a2d4e12c4f3a7ed4eb824b58df5528e1a">Triangulation</a> &amp;t, <a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> maxVertId, const std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1MeshPiece.html">MeshPiece</a> &gt; &amp;pieces, const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">BuildSettings</a> &amp;settings={})</td></tr>
@@ -146,8 +144,9 @@ Functions</h2></td></tr>
 <tr class="separator:a338de61ac0a911470d50fe0f14af05d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affd71ea7a77ed4c02be34778c0923804" id="r_affd71ea7a77ed4c02be34778c0923804"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affd71ea7a77ed4c02be34778c0923804">addTriangles</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;res, std::vector&lt; <a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> &gt; &amp;vertTriples, <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *createdFaces=nullptr)</td></tr>
 <tr class="separator:affd71ea7a77ed4c02be34778c0923804"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ad33f9aabd679a58811fb3f954f3e8b" id="r_a3ad33f9aabd679a58811fb3f954f3e8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ad33f9aabd679a58811fb3f954f3e8b">fromFaceSoup</a> (const std::vector&lt; <a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> &gt; &amp;verts, std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1FaceRecord.html">FaceRecord</a> &gt; &amp;faces)</td></tr>
-<tr class="separator:a3ad33f9aabd679a58811fb3f954f3e8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4643e01cde45551cee54cc59f539e61" id="r_ab4643e01cde45551cee54cc59f539e61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4643e01cde45551cee54cc59f539e61">fromFaceSoup</a> (const std::vector&lt; <a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> &gt; &amp;verts, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertSpan.html">VertSpan</a>, <a class="el" href="namespaceMR.html#a89b12a80b9137846057aac3efd3e114f">FaceId</a> &gt; &amp;faces, const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">BuildSettings</a> &amp;settings={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={})</td></tr>
+<tr class="memdesc:ab4643e01cde45551cee54cc59f539e61"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct mesh topology from face soup, where each face can have arbitrary degree (not only triangles)  <br /></td></tr>
+<tr class="separator:ab4643e01cde45551cee54cc59f539e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbca7caa523fcdb27f944a48e8ed220a" id="r_adbca7caa523fcdb27f944a48e8ed220a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbca7caa523fcdb27f944a48e8ed220a">uniteCloseVertices</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, float closeDist, bool uniteOnlyBd=true, <a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> *optionalVertOldToNew=nullptr)</td></tr>
 <tr class="separator:adbca7caa523fcdb27f944a48e8ed220a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -276,8 +275,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3ad33f9aabd679a58811fb3f954f3e8b" name="a3ad33f9aabd679a58811fb3f954f3e8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ad33f9aabd679a58811fb3f954f3e8b">&#9670;&#160;</a></span>fromFaceSoup()</h2>
+<a id="ab4643e01cde45551cee54cc59f539e61" name="ab4643e01cde45551cee54cc59f539e61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4643e01cde45551cee54cc59f539e61">&#9670;&#160;</a></span>fromFaceSoup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -290,10 +289,22 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1FaceRecord.html">FaceRecord</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>faces</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertSpan.html">VertSpan</a>, <a class="el" href="namespaceMR.html#a89b12a80b9137846057aac3efd3e114f">FaceId</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>faces</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">BuildSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>progressCb</em><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>construct mesh topology from face soup, where each face can have arbitrary degree (not only triangles) </p>
 
 </div>
 </div>
@@ -361,27 +372,6 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">BuildSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1b3503d2d9d217c518c9004116f00b07" name="a1b3503d2d9d217c518c9004116f00b07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b3503d2d9d217c518c9004116f00b07">&#9670;&#160;</a></span>fromVertexTriples()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> MR::MeshBuilder::fromVertexTriples </td>
-          <td>(</td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vertTriples</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>progressCb</em><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

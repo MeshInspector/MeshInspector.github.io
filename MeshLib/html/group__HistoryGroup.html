@@ -224,9 +224,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga970e3207174343bffc6f631586e4f59d" id="r_ga970e3207174343bffc6f631586e4f59d"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga970e3207174343bffc6f631586e4f59d">MR::ChangVoxelSelectionAction::heapBytes</a> () const override</td></tr>
 <tr class="memdesc:ga970e3207174343bffc6f631586e4f59d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:ga970e3207174343bffc6f631586e4f59d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad816d7f5445309140db275f8f14c8ba1" id="r_gad816d7f5445309140db275f8f14c8ba1"><td class="memItemLeft" align="right" valign="top">std::pair&lt; bool, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad816d7f5445309140db275f8f14c8ba1">MR::filterHistoryActionsVector</a> (<a class="el" href="namespaceMR.html#a951264a40637210aff82d6b0e375446f">HistoryActionsVector</a> &amp;historyVector, <a class="el" href="namespaceMR.html#a85276508657eac277a84365d3e41c118">HistoryStackFilter</a> filteringCondition, size_t firstRedoIndex=0, bool deepFiltering=true)</td></tr>
-<tr class="memdesc:gad816d7f5445309140db275f8f14c8ba1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove actions from history actions vector that match the condition.  <br /></td></tr>
-<tr class="separator:gad816d7f5445309140db275f8f14c8ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga07eb725cd57069bb90b37cc3970a4c40" id="r_ga07eb725cd57069bb90b37cc3970a4c40"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga07eb725cd57069bb90b37cc3970a4c40">MR::ViewportParametersAction::ViewportParametersAction</a> (std::string <a class="el" href="#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> viewports=<a class="el" href="classMR_1_1ViewportMask.html#a46b7527f0e3a3394b41be2515c171747">ViewportMask::all</a>())</td></tr>
 <tr class="memdesc:ga07eb725cd57069bb90b37cc3970a4c40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use this constructor to remember viewport configuration before making changes in it.  <br /></td></tr>
 <tr class="separator:ga07eb725cd57069bb90b37cc3970a4c40"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -342,47 +339,6 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>use this constructor to remember object's face selection before making any changes in it </p>
-
-</div>
-</div>
-<a id="gad816d7f5445309140db275f8f14c8ba1" name="gad816d7f5445309140db275f8f14c8ba1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad816d7f5445309140db275f8f14c8ba1">&#9670;&#160;</a></span>filterHistoryActionsVector()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::pair&lt; bool, int &gt; MR::filterHistoryActionsVector </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a951264a40637210aff82d6b0e375446f">HistoryActionsVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>historyVector</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a85276508657eac277a84365d3e41c118">HistoryStackFilter</a></td>          <td class="paramname"><span class="paramname"><em>filteringCondition</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>firstRedoIndex</em><span class="paramdefsep"> = </span><span class="paramdefval">0</span>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>deepFiltering</em><span class="paramdefsep"> = </span><span class="paramdefval">true</span></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Remove actions from history actions vector that match the condition. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">firstRedoIndex</td><td>- set redo index for calculate how many actions removed before it </td></tr>
-    <tr><td class="paramname">deepFiltering</td><td>- filter actions into combined actions </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>pair (anything removed, how many removed before firstRedoIndex) </dd></dl>
 
 </div>
 </div>

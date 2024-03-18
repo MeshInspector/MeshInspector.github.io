@@ -19,5 +19,7 @@ var searchData=
   ['quaterniond_16',['Quaterniond',['../namespaceMR.html#ab34b1002d9d610fb0fcd0320734be227',1,'MR']]],
   ['quaternionf_17',['Quaternionf',['../namespaceMR.html#a8231e685041a7ceb8488a3826cb8849f',1,'MR']]],
   ['quatersmask_18',['quatersMask',['../structMR_1_1VoxelMetricParameters.html#a4a39f4473b82dc98d9b380e6c081a438',1,'MR::VoxelMetricParameters']]],
-  ['quickaccessbackground_19',['QuickAccessBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a085d26fc5e16986ab4f0f365f2f49a19',1,'MR::ColorTheme']]]
+  ['queue_19',['queue',['../structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a1f3d70f2e7f419c37867994b06e7cb37',1,'MR::TriangulationHelpers::TriangulatedFanData']]],
+  ['quick_20',['Quick',['../classMR_1_1ViewerSettingsPlugin.html#afeeff27006fc4c615527cbd2c08c552ba809b7a805a28884b364837536cdc38b7',1,'MR::ViewerSettingsPlugin']]],
+  ['quickaccessbackground_21',['QuickAccessBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a085d26fc5e16986ab4f0f365f2f49a19',1,'MR::ColorTheme']]]
 ];

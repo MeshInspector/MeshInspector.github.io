@@ -10,8 +10,8 @@ var searchData=
   ['zerounusedpoints_7',['zeroUnusedPoints',['../structMR_1_1Mesh.html#a540a6eef456f6c54c214766fc0a7c3fb',1,'MR::Mesh']]],
   ['zlibcompressstream_8',['zlibCompressStream',['../namespaceMR.html#aef0f4f48a18ea76dc4aaaa6e452d7f48',1,'MR']]],
   ['zlibdecompressstream_9',['zlibDecompressStream',['../namespaceMR.html#a0658beb4e35244b276f16c491abc6120',1,'MR']]],
-  ['zoom_10',['zoom',['../classMR_1_1TouchpadController_1_1Handler.html#aa716478caa8b3f52ec82aff6b328c64e',1,'MR::TouchpadController::Handler']]],
-  ['zoom_11',['Zoom',['../classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884a4252b72e6ebcd4d4b4c2e46a786f03d2',1,'MR::TouchesController']]],
+  ['zoom_10',['Zoom',['../classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884a4252b72e6ebcd4d4b4c2e46a786f03d2',1,'MR::TouchesController']]],
+  ['zoom_11',['zoom',['../classMR_1_1TouchpadController_1_1Handler.html#aa716478caa8b3f52ec82aff6b328c64e',1,'MR::TouchpadController::Handler']]],
   ['zw_12',['zw',['../structMR_1_1SymMatrix4.html#a4a1f640d731c441127236acba8ffca96',1,'MR::SymMatrix4']]],
   ['zx_13',['ZX',['../group__VoxelPathGroup.html#gga4412ea17fd4bcca4ad23e987f61c20aba24b4db35f35f7ebe4a15436010a070d9',1,'MR']]],
   ['zz_14',['zz',['../structMR_1_1SymMatrix3.html#ae0bca6271c1e0d370210fcd54da942ba',1,'MR::SymMatrix3::zz'],['../structMR_1_1SymMatrix4.html#a73599b372bfd1917775d5b88bdd9bf19',1,'MR::SymMatrix4::zz']]]

@@ -5,6 +5,7 @@ var MRMeshComponents_8h =
       [ "PerVertex", "MRMeshComponents_8h.html#gga7489c91178e90fdd4200bbb0074e025fa2e9713a46619599c9d68465178a81a4c", null ]
     ] ],
     [ "getAllComponents", "MRMeshComponents_8h.html#gafde425f262b1f15428664fd79a1f0735", null ],
+    [ "getAllComponents", "MRMeshComponents_8h.html#gab7b32c390e4839b252de2944886916f9", null ],
     [ "getAllComponentsEdges", "MRMeshComponents_8h.html#ga7becc9588891fae069b72605a081462e", null ],
     [ "getAllComponentsMap", "MRMeshComponents_8h.html#gaa8bfdbb15cd2ef20fab8fcb792ed56f5", null ],
     [ "getAllComponentsUndirectedEdges", "MRMeshComponents_8h.html#gaa2a0c5fb3196196acd144c6fa53c0fec", null ],
@@ -14,6 +15,7 @@ var MRMeshComponents_8h =
     [ "getAllFlatComponents", "MRMeshComponents_8h.html#gad2ac5851085b051b22170638c7945cb6", null ],
     [ "getComponent", "MRMeshComponents_8h.html#gacb2f12a18a222d322f2e8cb54bd29d69", null ],
     [ "getComponents", "MRMeshComponents_8h.html#ga5309af9f9740cbdcfd4e32b65895168b", null ],
+    [ "getComponentsUndirectedEdges", "MRMeshComponents_8h.html#ga459f3f630779f6450c9139dc3f6b8cc1", null ],
     [ "getComponentsVerts", "MRMeshComponents_8h.html#gae360882572a82620a889fa7315e143f9", null ],
     [ "getComponentVerts", "MRMeshComponents_8h.html#ga21483f6451c3d64c44217ec15be4f110", null ],
     [ "getLargeByAreaComponents", "MRMeshComponents_8h.html#gaff4e0acd7ba87592d9cbed49b6b62193", null ],
@@ -26,6 +28,7 @@ var MRMeshComponents_8h =
     [ "getRegionAreas", "MRMeshComponents_8h.html#ga4fed6b1a7dee671512d111e0c2afa504", null ],
     [ "getUnionFindStructureFaces", "MRMeshComponents_8h.html#ga82ca6f6b48342c871a91a2e8e4585b3a", null ],
     [ "getUnionFindStructureFacesPerEdge", "MRMeshComponents_8h.html#ga0b290fdd213e6a19489fc99f380047e0", null ],
+    [ "getUnionFindStructureUndirectedEdges", "MRMeshComponents_8h.html#gae57265eee73c6542d4d0fd525fd84dd5", null ],
     [ "getUnionFindStructureVerts", "MRMeshComponents_8h.html#ga03c8c808b4ba34501215afe74c09330f", null ],
     [ "getUnionFindStructureVerts", "MRMeshComponents_8h.html#gaa753927490e5b30c4541fd6c06084f0c", null ],
     [ "getUnionFindStructureVerts", "MRMeshComponents_8h.html#ga0c25b3e3697cc2efad3f13c664fc87ec", null ],

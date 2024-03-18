@@ -133,6 +133,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aed5e02a684c4323c9ad3143c3dfdb24d" id="r_aed5e02a684c4323c9ad3143c3dfdb24d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed5e02a684c4323c9ad3143c3dfdb24d">packMesh</a> = false</td></tr>
 <tr class="memdesc:aed5e02a684c4323c9ad3143c3dfdb24d"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether to pack mesh at the end  <br /></td></tr>
 <tr class="separator:aed5e02a684c4323c9ad3143c3dfdb24d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a29eef43f96e620bbdc1a55778d04b4" id="r_a6a29eef43f96e620bbdc1a55778d04b4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a29eef43f96e620bbdc1a55778d04b4">projectOnOriginalMesh</a> = false</td></tr>
+<tr class="separator:a6a29eef43f96e620bbdc1a55778d04b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2302742bd2200fd6a5f9e078015705c1" id="r_a2302742bd2200fd6a5f9e078015705c1"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> e1, <a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> e)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2302742bd2200fd6a5f9e078015705c1">onEdgeSplit</a></td></tr>
 <tr class="memdesc:a2302742bd2200fd6a5f9e078015705c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone  <br /></td></tr>
 <tr class="separator:a2302742bd2200fd6a5f9e078015705c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -303,6 +305,21 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>callback to report algorithm progress and cancel it by user request </p>
+
+</div>
+</div>
+<a id="a6a29eef43f96e620bbdc1a55778d04b4" name="a6a29eef43f96e620bbdc1a55778d04b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a29eef43f96e620bbdc1a55778d04b4">&#9670;&#160;</a></span>projectOnOriginalMesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::RemeshSettings::projectOnOriginalMesh = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if true, then every new vertex after subdivision will be projected on the original mesh (before smoothing); this does not affect the vertices moved on other stages of the processing </p>
 
 </div>
 </div>

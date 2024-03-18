@@ -102,6 +102,7 @@ $(function(){initNavTree('classMR_1_1ColorTheme.html',''); initResizable(); });
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classMR_1_1ColorTheme-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::ColorTheme Class Reference</div></div>
 </div><!--header-->
@@ -148,7 +149,7 @@ Public Types</h2></td></tr>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a76851ceee06bccd61e3f181d29dac532">ToolbarHovered</a>
 , <br />
 &#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0ac85fcec1e15f3735fc91801590d0b609">ToolbarClicked</a>
-, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a2921ca80b0c1fc4084aa23a17ed28bae">ToolbarCustomizeBg</a>
+, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0aba8e26fe60447633b1d9bf56680b8adc">ModalBackground</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a9dffbf69ffba8bc38bc4e01abf4b1675">Text</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0aa83cd867d8cf60320dd3948eb15f7192">TextEnabled</a>
 , <br />
@@ -192,9 +193,14 @@ Public Types</h2></td></tr>
 , <a class="el" href="#a91b6b928ca7f490fdd396c347347bcdcae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>
  }</td></tr>
 <tr class="separator:a91b6b928ca7f490fdd396c347347bcdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f54970bdab29f2de6d63660bb71deae" id="r_a0f54970bdab29f2de6d63660bb71deae"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f54970bdab29f2de6d63660bb71deae">ColorThemeChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt;void()&gt;</td></tr>
+<tr class="memdesc:a0f54970bdab29f2de6d63660bb71deae"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about <a class="el" href="structMR_1_1Color.html">Color</a> Theme changing, triggered in apply  <br /></td></tr>
+<tr class="separator:a0f54970bdab29f2de6d63660bb71deae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a15699e42dc7a6e8fc8c45c6adbe410cb" id="r_a15699e42dc7a6e8fc8c45c6adbe410cb"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API <a class="el" href="classMR_1_1ColorTheme.html">ColorTheme</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15699e42dc7a6e8fc8c45c6adbe410cb">instance</a> ()</td></tr>
+<tr class="separator:a15699e42dc7a6e8fc8c45c6adbe410cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7256014620791ee160d6f0dfc56dde4f" id="r_a7256014620791ee160d6f0dfc56dde4f"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API <a class="el" href="#abbecc6afa53db91ada45757b845b5514">Preset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7256014620791ee160d6f0dfc56dde4f">getPreset</a> ()</td></tr>
 <tr class="separator:a7256014620791ee160d6f0dfc56dde4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20dfec58a706676b5c0efb946051c854" id="r_a20dfec58a706676b5c0efb946051c854"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20dfec58a706676b5c0efb946051c854">getPresetName</a> (<a class="el" href="#abbecc6afa53db91ada45757b845b5514">Preset</a> type)</td></tr>
@@ -237,9 +243,35 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a97174ab0c04fadd2cc5c150048f3e0b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e7d39643b4603246f85f52e6014466d" id="r_a3e7d39643b4603246f85f52e6014466d"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e7d39643b4603246f85f52e6014466d">getUserThemesDirectory</a> ()</td></tr>
 <tr class="separator:a3e7d39643b4603246f85f52e6014466d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bcb053091eb10e1e15d24b17d15d379" id="r_a0bcb053091eb10e1e15d24b17d15d379"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bcb053091eb10e1e15d24b17d15d379">updateUserThemesList</a> ()</td></tr>
+<tr class="separator:a0bcb053091eb10e1e15d24b17d15d379"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a569785effc8f8f3c1c78f9ea3ab25c23" id="r_a569785effc8f8f3c1c78f9ea3ab25c23"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a569785effc8f8f3c1c78f9ea3ab25c23">foundUserThemes</a> ()</td></tr>
+<tr class="separator:a569785effc8f8f3c1c78f9ea3ab25c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af27347c90aa80168a890bdb58f2d0423" id="r_af27347c90aa80168a890bdb58f2d0423"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af27347c90aa80168a890bdb58f2d0423">resetImGuiStyle</a> ()</td></tr>
 <tr class="separator:af27347c90aa80168a890bdb58f2d0423"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aff877396367b0dc6c1b096cccf4a8612" id="r_aff877396367b0dc6c1b096cccf4a8612"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0f54970bdab29f2de6d63660bb71deae">ColorThemeChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff877396367b0dc6c1b096cccf4a8612">colorThemeChangedSignal</a></td></tr>
+<tr class="separator:aff877396367b0dc6c1b096cccf4a8612"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a0f54970bdab29f2de6d63660bb71deae" name="a0f54970bdab29f2de6d63660bb71deae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f54970bdab29f2de6d63660bb71deae">&#9670;&#160;</a></span>ColorThemeChangedSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a0f54970bdab29f2de6d63660bb71deae">MR::ColorTheme::ColorThemeChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt;void()&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>signal about <a class="el" href="structMR_1_1Color.html">Color</a> Theme changing, triggered in apply </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="abbecc6afa53db91ada45757b845b5514" name="abbecc6afa53db91ada45757b845b5514"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abbecc6afa53db91ada45757b845b5514">&#9670;&#160;</a></span>Preset</h2>
@@ -310,7 +342,7 @@ Static Public Member Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="aeb576da7973c6ccabb036634b3d878b0ae70b3fa1f1a6b951c0f5c2a2f745ce5c" name="aeb576da7973c6ccabb036634b3d878b0ae70b3fa1f1a6b951c0f5c2a2f745ce5c"></a>DialogTabActiveText&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aeb576da7973c6ccabb036634b3d878b0a76851ceee06bccd61e3f181d29dac532" name="aeb576da7973c6ccabb036634b3d878b0a76851ceee06bccd61e3f181d29dac532"></a>ToolbarHovered&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aeb576da7973c6ccabb036634b3d878b0ac85fcec1e15f3735fc91801590d0b609" name="aeb576da7973c6ccabb036634b3d878b0ac85fcec1e15f3735fc91801590d0b609"></a>ToolbarClicked&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aeb576da7973c6ccabb036634b3d878b0a2921ca80b0c1fc4084aa23a17ed28bae" name="aeb576da7973c6ccabb036634b3d878b0a2921ca80b0c1fc4084aa23a17ed28bae"></a>ToolbarCustomizeBg&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aeb576da7973c6ccabb036634b3d878b0aba8e26fe60447633b1d9bf56680b8adc" name="aeb576da7973c6ccabb036634b3d878b0aba8e26fe60447633b1d9bf56680b8adc"></a>ModalBackground&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aeb576da7973c6ccabb036634b3d878b0a9dffbf69ffba8bc38bc4e01abf4b1675" name="aeb576da7973c6ccabb036634b3d878b0a9dffbf69ffba8bc38bc4e01abf4b1675"></a>Text&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aeb576da7973c6ccabb036634b3d878b0aa83cd867d8cf60320dd3948eb15f7192" name="aeb576da7973c6ccabb036634b3d878b0aa83cd867d8cf60320dd3948eb15f7192"></a>TextEnabled&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aeb576da7973c6ccabb036634b3d878b0ae3a96937ea651675ce06873eb8398ac0" name="aeb576da7973c6ccabb036634b3d878b0ae3a96937ea651675ce06873eb8398ac0"></a>TextDisabled&#160;</td><td class="fielddoc"></td></tr>
@@ -408,6 +440,31 @@ Static Public Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">static MRVIEWER_API void MR::ColorTheme::apply </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a569785effc8f8f3c1c78f9ea3ab25c23" name="a569785effc8f8f3c1c78f9ea3ab25c23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a569785effc8f8f3c1c78f9ea3ab25c23">&#9670;&#160;</a></span>foundUserThemes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MRVIEWER_API std::vector&lt; std::string &gt; MR::ColorTheme::foundUserThemes </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -635,6 +692,31 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">static MRVIEWER_API const char * MR::ColorTheme::getViewportColorTypeName </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a91b6b928ca7f490fdd396c347347bcdc">ViewportColorsType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a15699e42dc7a6e8fc8c45c6adbe410cb" name="a15699e42dc7a6e8fc8c45c6adbe410cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15699e42dc7a6e8fc8c45c6adbe410cb">&#9670;&#160;</a></span>instance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MRVIEWER_API <a class="el" href="classMR_1_1ColorTheme.html">ColorTheme</a> &amp; MR::ColorTheme::instance </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -963,6 +1045,46 @@ Static Public Member Functions</h2></td></tr>
 <span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0bcb053091eb10e1e15d24b17d15d379" name="a0bcb053091eb10e1e15d24b17d15d379"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bcb053091eb10e1e15d24b17d15d379">&#9670;&#160;</a></span>updateUserThemesList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MRVIEWER_API void MR::ColorTheme::updateUserThemesList </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aff877396367b0dc6c1b096cccf4a8612" name="aff877396367b0dc6c1b096cccf4a8612"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff877396367b0dc6c1b096cccf4a8612">&#9670;&#160;</a></span>colorThemeChangedSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a0f54970bdab29f2de6d63660bb71deae">ColorThemeChangedSignal</a> MR::ColorTheme::colorThemeChangedSignal</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

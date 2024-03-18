@@ -1,5 +1,6 @@
 var classMR_1_1ColorTheme =
 [
+    [ "ColorThemeChangedSignal", "classMR_1_1ColorTheme.html#a0f54970bdab29f2de6d63660bb71deae", null ],
     [ "Preset", "classMR_1_1ColorTheme.html#abbecc6afa53db91ada45757b845b5514", [
       [ "Dark", "classMR_1_1ColorTheme.html#abbecc6afa53db91ada45757b845b5514aa18366b217ebf811ad1886e4f4f865b2", null ],
       [ "Default", "classMR_1_1ColorTheme.html#abbecc6afa53db91ada45757b845b5514a7a1920d61156abc05a60135aefe8bc67", null ],
@@ -28,7 +29,7 @@ var classMR_1_1ColorTheme =
       [ "DialogTabActiveText", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ae70b3fa1f1a6b951c0f5c2a2f745ce5c", null ],
       [ "ToolbarHovered", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a76851ceee06bccd61e3f181d29dac532", null ],
       [ "ToolbarClicked", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ac85fcec1e15f3735fc91801590d0b609", null ],
-      [ "ToolbarCustomizeBg", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2921ca80b0c1fc4084aa23a17ed28bae", null ],
+      [ "ModalBackground", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0aba8e26fe60447633b1d9bf56680b8adc", null ],
       [ "Text", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a9dffbf69ffba8bc38bc4e01abf4b1675", null ],
       [ "TextEnabled", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0aa83cd867d8cf60320dd3948eb15f7192", null ],
       [ "TextDisabled", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ae3a96937ea651675ce06873eb8398ac0", null ],
@@ -66,5 +67,6 @@ var classMR_1_1ColorTheme =
       [ "Background", "classMR_1_1ColorTheme.html#a91b6b928ca7f490fdd396c347347bcdcaa9ded1e5ce5d75814730bb4caaf49419", null ],
       [ "Borders", "classMR_1_1ColorTheme.html#a91b6b928ca7f490fdd396c347347bcdcae313502ef38a56454f3e9de57f384476", null ],
       [ "Count", "classMR_1_1ColorTheme.html#a91b6b928ca7f490fdd396c347347bcdcae93f994f01c537c4e2f7d8528c3eb5e9", null ]
-    ] ]
+    ] ],
+    [ "colorThemeChangedSignal", "classMR_1_1ColorTheme.html#aff877396367b0dc6c1b096cccf4a8612", null ]
 ];

@@ -141,6 +141,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a9542cf007c0f98d41fea874268894222"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a9542cf007c0f98d41fea874268894222">checkbox</a> (const char *label, Getter <a class="el" href="namespaceMR.html#ab1cf2ee509740a5f5564fce176ac6b05">get</a>, Setter set)</td></tr>
 <tr class="memdesc:a9542cf007c0f98d41fea874268894222"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw gradient checkbox  <br /></td></tr>
 <tr class="separator:a9542cf007c0f98d41fea874268894222"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba6c7c72b70351ba42eae4e3a2e0df4b" id="r_aba6c7c72b70351ba42eae4e3a2e0df4b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aba6c7c72b70351ba42eae4e3a2e0df4b"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aba6c7c72b70351ba42eae4e3a2e0df4b">checkboxFlags</a> (const char *label, T &amp;target, T flags)</td></tr>
+<tr class="memdesc:aba6c7c72b70351ba42eae4e3a2e0df4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a checkbox toggling one or more bits in the mask.  <br /></td></tr>
+<tr class="separator:aba6c7c72b70351ba42eae4e3a2e0df4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8475dd1f1a29f5bb0edc0fcd7c53d115" id="r_a8475dd1f1a29f5bb0edc0fcd7c53d115"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8475dd1f1a29f5bb0edc0fcd7c53d115">radioButton</a> (const char *label, int *value, int valButton)</td></tr>
 <tr class="memdesc:a8475dd1f1a29f5bb0edc0fcd7c53d115"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw gradient radio button  <br /></td></tr>
 <tr class="separator:a8475dd1f1a29f5bb0edc0fcd7c53d115"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -468,9 +472,6 @@ Functions</h2></td></tr>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename Getter , typename Setter &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool MR::UI::checkbox </td>
@@ -488,14 +489,39 @@ template&lt;typename Getter , typename Setter &gt; </div>
           <td class="paramtype">Setter</td>          <td class="paramname"><span class="paramname"><em>set</em></span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>draw gradient checkbox </p>
+
+</div>
+</div>
+<a id="aba6c7c72b70351ba42eae4e3a2e0df4b" name="aba6c7c72b70351ba42eae4e3a2e0df4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba6c7c72b70351ba42eae4e3a2e0df4b">&#9670;&#160;</a></span>checkboxFlags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::UI::checkboxFlags </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>label</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;</td>          <td class="paramname"><span class="paramname"><em>target</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>flags</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Draw a checkbox toggling one or more bits in the mask. </p>
 
 </div>
 </div>

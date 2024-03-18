@@ -48,7 +48,7 @@ var classMR_1_1MeshTopology =
     [ "flipEdgesIn", "classMR_1_1MeshTopology.html#a7af4e8c6a329931e3b173942b78922e4", null ],
     [ "flipEdgesOut", "classMR_1_1MeshTopology.html#a212723bf6e50621443bb5b341cc2ff98", null ],
     [ "flipEdgesOut", "classMR_1_1MeshTopology.html#ab32e7a532e75f1ace4b5098a79764cab", null ],
-    [ "flipOrientation", "classMR_1_1MeshTopology.html#ac4201a4b533bfb603ca27d6a032348e3", null ],
+    [ "flipOrientation", "classMR_1_1MeshTopology.html#a66254e26554618bd3b494548ac9a94f0", null ],
     [ "forEachVertex", "classMR_1_1MeshTopology.html#aad405e625450208e48d0237b9b5f53e8", null ],
     [ "fromSameLeftRing", "classMR_1_1MeshTopology.html#a0a202e2c957daafe1bd159f949f4189a", null ],
     [ "fromSameOriginRing", "classMR_1_1MeshTopology.html#a1f05838eef4373b90f1a9f2c1dda088b", null ],

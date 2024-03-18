@@ -103,6 +103,7 @@ $(function(){initNavTree('namespaceMR_1_1Features.html',''); initResizable(); })
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#concepts">Concepts</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MR::Features Namespace Reference</div></div>
 </div><!--header-->
@@ -121,11 +122,18 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Features_1_1MeasureResult.html">MeasureResult</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the results of measuring two objects relative to one another.  <a href="structMR_1_1Features_1_1MeasureResult.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Features_1_1SubfeatureInfo.html">SubfeatureInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="concepts" name="concepts"></a>
 Concepts</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conceptMR_1_1Features_1_1MeasureSupported.html">MeasureSupported</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a2f919d193c35478d40f28668b8d2d209" id="r_a2f919d193c35478d40f28668b8d2d209"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f919d193c35478d40f28668b8d2d209">SubfeatureFunc</a> = std::function&lt;void( const <a class="el" href="structMR_1_1Features_1_1SubfeatureInfo.html">SubfeatureInfo</a>&amp; info )&gt;</td></tr>
+<tr class="separator:a2f919d193c35478d40f28668b8d2d209"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -161,8 +169,46 @@ Functions</h2></td></tr>
 requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:a39b347d1c16a0e596d16c09cc7839ded"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Features_1_1MeasureResult.html">MeasureResult</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a39b347d1c16a0e596d16c09cc7839ded">measure</a> (const A &amp;a, const B &amp;b)</td></tr>
 <tr class="separator:a39b347d1c16a0e596d16c09cc7839ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97570d41ec01a7111b742503bdc2c5dc" id="r_a97570d41ec01a7111b742503bdc2c5dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97570d41ec01a7111b742503bdc2c5dc">forEachSubfeature</a> (const <a class="el" href="namespaceMR_1_1Features_1_1Primitives.html#a955a7f843d9b5df0f393ec7699ada624">Features::Primitives::Variant</a> &amp;feature, const <a class="el" href="#a2f919d193c35478d40f28668b8d2d209">SubfeatureFunc</a> &amp;func)</td></tr>
+<tr class="separator:a97570d41ec01a7111b742503bdc2c5dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a2f919d193c35478d40f28668b8d2d209" name="a2f919d193c35478d40f28668b8d2d209"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f919d193c35478d40f28668b8d2d209">&#9670;&#160;</a></span>SubfeatureFunc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a2f919d193c35478d40f28668b8d2d209">MR::Features::SubfeatureFunc</a> = std::function&lt;void( const <a class="el" href="structMR_1_1Features_1_1SubfeatureInfo.html">SubfeatureInfo</a>&amp; info )&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a97570d41ec01a7111b742503bdc2c5dc" name="a97570d41ec01a7111b742503bdc2c5dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97570d41ec01a7111b742503bdc2c5dc">&#9670;&#160;</a></span>forEachSubfeature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::Features::forEachSubfeature </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR_1_1Features_1_1Primitives.html#a955a7f843d9b5df0f393ec7699ada624">Features::Primitives::Variant</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>feature</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a2f919d193c35478d40f28668b8d2d209">SubfeatureFunc</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>func</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a39b347d1c16a0e596d16c09cc7839ded" name="a39b347d1c16a0e596d16c09cc7839ded"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a39b347d1c16a0e596d16c09cc7839ded">&#9670;&#160;</a></span>measure()</h2>
 

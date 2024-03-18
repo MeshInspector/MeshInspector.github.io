@@ -141,14 +141,23 @@ $(function(){initNavTree('MRMeshBuilderTypes_8h_source.html',''); initResizable(
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>};</div>
 </div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>} <span class="comment">//namespace MeshBuilder</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="comment">// each face is surrounded by a closed contour of vertices [fistVertex, lastVertex)</span></div>
+<div class="foldopen" id="foldopen00040" data-start="{" data-end="};">
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="structMR_1_1MeshBuilder_1_1VertSpan.html">   40</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1MeshBuilder_1_1VertSpan.html">VertSpan</a></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>{</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="structMR_1_1MeshBuilder_1_1VertSpan.html#af483f48c26d9bb2d28b92af0b477712b">   42</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structMR_1_1MeshBuilder_1_1VertSpan.html#af483f48c26d9bb2d28b92af0b477712b">firstVertex</a> = 0;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="structMR_1_1MeshBuilder_1_1VertSpan.html#aea86de7be4e92fdec6f7f3157120dff1">   43</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structMR_1_1MeshBuilder_1_1VertSpan.html#aea86de7be4e92fdec6f7f3157120dff1">lastVertex</a> = 0;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>};</div>
+</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>} <span class="comment">//namespace MeshBuilder</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="aMRId_8h_html"><div class="ttname"><a href="MRId_8h.html">MRId.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1Id_html"><div class="ttname"><a href="classMR_1_1Id.html">MR::Id&lt; VertTag &gt;</a></div></div>
 <div class="ttc" id="aclassMR_1_1TaggedBitSet_html"><div class="ttname"><a href="classMR_1_1TaggedBitSet.html">MR::TaggedBitSet&lt; FaceTag &gt;</a></div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
-<div class="ttc" id="anamespaceMR_html_a9fa45e8860a645c31bc2c7f1a2abf56b"><div class="ttname"><a href="namespaceMR.html#a9fa45e8860a645c31bc2c7f1a2abf56b">MR::ThreeVertIds</a></div><div class="ttdeci">std::array&lt; VertId, 3 &gt; ThreeVertIds</div><div class="ttdoc">three vertex ids describing a triangle topology</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:75</div></div>
+<div class="ttc" id="anamespaceMR_html_a9fa45e8860a645c31bc2c7f1a2abf56b"><div class="ttname"><a href="namespaceMR.html#a9fa45e8860a645c31bc2c7f1a2abf56b">MR::ThreeVertIds</a></div><div class="ttdeci">std::array&lt; VertId, 3 &gt; ThreeVertIds</div><div class="ttdoc">three vertex ids describing a triangle topology</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:77</div></div>
 <div class="ttc" id="astructMR_1_1MeshBuilder_1_1BuildSettings_html"><div class="ttname"><a href="structMR_1_1MeshBuilder_1_1BuildSettings.html">MR::MeshBuilder::BuildSettings</a></div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:30</div></div>
 <div class="ttc" id="astructMR_1_1MeshBuilder_1_1BuildSettings_html_a1fdb51404a12dafa32d295e97234ce4f"><div class="ttname"><a href="structMR_1_1MeshBuilder_1_1BuildSettings.html#a1fdb51404a12dafa32d295e97234ce4f">MR::MeshBuilder::BuildSettings::region</a></div><div class="ttdeci">FaceBitSet * region</div><div class="ttdoc">if region is given then on input it contains the faces to be added, and on output the faces failed to...</div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:32</div></div>
 <div class="ttc" id="astructMR_1_1MeshBuilder_1_1BuildSettings_html_ad10a4f5f3fd6df3f484d8b95ef501285"><div class="ttname"><a href="structMR_1_1MeshBuilder_1_1BuildSettings.html#ad10a4f5f3fd6df3f484d8b95ef501285">MR::MeshBuilder::BuildSettings::shiftFaceId</a></div><div class="ttdeci">int shiftFaceId</div><div class="ttdoc">this value to be added to every faceId before its inclusion in the topology</div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:34</div></div>
@@ -158,6 +167,9 @@ $(function(){initNavTree('MRMeshBuilderTypes_8h_source.html',''); initResizable(
 <div class="ttc" id="astructMR_1_1MeshBuilder_1_1Triangle_html_ad3a0063941eb7c51389f4baeaae1d36f"><div class="ttname"><a href="structMR_1_1MeshBuilder_1_1Triangle.html#ad3a0063941eb7c51389f4baeaae1d36f">MR::MeshBuilder::Triangle::operator==</a></div><div class="ttdeci">bool operator==(const Triangle &amp;other) const</div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:23</div></div>
 <div class="ttc" id="astructMR_1_1MeshBuilder_1_1Triangle_html_ae1a5aa6c5e37175f3bebd45ab1014e5b"><div class="ttname"><a href="structMR_1_1MeshBuilder_1_1Triangle.html#ae1a5aa6c5e37175f3bebd45ab1014e5b">MR::MeshBuilder::Triangle::f</a></div><div class="ttdeci">FaceId f</div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:21</div></div>
 <div class="ttc" id="astructMR_1_1MeshBuilder_1_1Triangle_html_af175e0ee7a935555961ce40aa0941496"><div class="ttname"><a href="structMR_1_1MeshBuilder_1_1Triangle.html#af175e0ee7a935555961ce40aa0941496">MR::MeshBuilder::Triangle::v</a></div><div class="ttdeci">ThreeVertIds v</div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:20</div></div>
+<div class="ttc" id="astructMR_1_1MeshBuilder_1_1VertSpan_html"><div class="ttname"><a href="structMR_1_1MeshBuilder_1_1VertSpan.html">MR::MeshBuilder::VertSpan</a></div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:41</div></div>
+<div class="ttc" id="astructMR_1_1MeshBuilder_1_1VertSpan_html_aea86de7be4e92fdec6f7f3157120dff1"><div class="ttname"><a href="structMR_1_1MeshBuilder_1_1VertSpan.html#aea86de7be4e92fdec6f7f3157120dff1">MR::MeshBuilder::VertSpan::lastVertex</a></div><div class="ttdeci">int lastVertex</div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:43</div></div>
+<div class="ttc" id="astructMR_1_1MeshBuilder_1_1VertSpan_html_af483f48c26d9bb2d28b92af0b477712b"><div class="ttname"><a href="structMR_1_1MeshBuilder_1_1VertSpan.html#af483f48c26d9bb2d28b92af0b477712b">MR::MeshBuilder::VertSpan::firstVertex</a></div><div class="ttdeci">int firstVertex</div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:42</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

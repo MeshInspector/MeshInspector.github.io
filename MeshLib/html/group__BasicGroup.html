@@ -230,6 +230,12 @@ Functions</h2></td></tr>
 <tr class="memitem:gaec1d8613d38041fae09f290f342a4995" id="r_gaec1d8613d38041fae09f290f342a4995"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F &gt; </td></tr>
 <tr class="memitem:gaec1d8613d38041fae09f290f342a4995"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gaec1d8613d38041fae09f290f342a4995">MR::BitSetParallelForAll</a> (const BS &amp;bs, F f)</td></tr>
 <tr class="separator:gaec1d8613d38041fae09f290f342a4995"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga250747209ce76377240779404890d11e" id="r_ga250747209ce76377240779404890d11e"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F &gt; </td></tr>
+<tr class="memitem:ga250747209ce76377240779404890d11e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga250747209ce76377240779404890d11e">MR::BitSetParallelForAllRanged</a> (const BS &amp;bs, F f)</td></tr>
+<tr class="separator:ga250747209ce76377240779404890d11e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9a5be0a6e8755df52fb1cf135ff198cc" id="r_ga9a5be0a6e8755df52fb1cf135ff198cc"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F &gt; </td></tr>
+<tr class="memitem:ga9a5be0a6e8755df52fb1cf135ff198cc"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga9a5be0a6e8755df52fb1cf135ff198cc">MR::BitSetParallelForAllRanged</a> (const BS &amp;bs, F f, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb, size_t reportProgressEveryBit=1024)</td></tr>
+<tr class="separator:ga9a5be0a6e8755df52fb1cf135ff198cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga812527fa00b5699cc23f4e5ec5cd9dab" id="r_ga812527fa00b5699cc23f4e5ec5cd9dab"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F &gt; </td></tr>
 <tr class="memitem:ga812527fa00b5699cc23f4e5ec5cd9dab"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga812527fa00b5699cc23f4e5ec5cd9dab">MR::BitSetParallelForAll</a> (const BS &amp;bs, F f, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb, size_t reportProgressEveryBit=1024)</td></tr>
 <tr class="separator:ga812527fa00b5699cc23f4e5ec5cd9dab"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -630,6 +636,64 @@ template&lt;typename IndexType , typename F &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>executes given function f for each index in [begin, end) in parallel threads; it is guaranteed that every individual block in <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> is processed by one thread only </p>
+
+</div>
+</div>
+<a id="ga250747209ce76377240779404890d11e" name="ga250747209ce76377240779404890d11e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga250747209ce76377240779404890d11e">&#9670;&#160;</a></span>BitSetParallelForAllRanged() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BS , typename F &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::BitSetParallelForAllRanged </td>
+          <td>(</td>
+          <td class="paramtype">const BS &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">F</td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>executes given function f( IndexId, rangeBeginId, rangeEndId ) for each bit in bs in parallel threads; rangeBeginId, rangeEndId - boundaries of thread range in parallel processing it is guaranteed that every individual block in bit-set is processed by one thread only; </p>
+
+</div>
+</div>
+<a id="ga9a5be0a6e8755df52fb1cf135ff198cc" name="ga9a5be0a6e8755df52fb1cf135ff198cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9a5be0a6e8755df52fb1cf135ff198cc">&#9670;&#160;</a></span>BitSetParallelForAllRanged() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BS , typename F &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::BitSetParallelForAllRanged </td>
+          <td>(</td>
+          <td class="paramtype">const BS &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">F</td>          <td class="paramname"><span class="paramname"><em>f</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>progressCb</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>reportProgressEveryBit</em><span class="paramdefsep"> = </span><span class="paramdefval">1024</span></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>executes given function f( IndexId, rangeBeginId, rangeEndId ) for each bit in bs in parallel threads; rangeBeginId, rangeEndId - boundaries of thread range in parallel processing it is guaranteed that every individual block in bit-set is processed by one thread only; reports progress from calling thread only; </p><dl class="section return"><dt>Returns</dt><dd>false if the processing was canceled by progressCb </dd></dl>
 
 </div>
 </div>

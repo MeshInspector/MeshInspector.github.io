@@ -17,6 +17,7 @@ var classMR_1_1DistanceMeasurementObject =
     [ "setDrawAsNegative", "classMR_1_1DistanceMeasurementObject.html#ad0beb628b290bc6bb49cccb58a7c0a59", null ],
     [ "setLocalDelta", "classMR_1_1DistanceMeasurementObject.html#a030299d1892025402c3db3ce4d4c3adb", null ],
     [ "setLocalPoint", "classMR_1_1DistanceMeasurementObject.html#a357d31af89f1f6cf9d893c1e17858d6c", null ],
+    [ "setupRenderObject_", "classMR_1_1DistanceMeasurementObject.html#a88884fe950634ef07794998d453d8bf2", null ],
     [ "shallowClone", "classMR_1_1DistanceMeasurementObject.html#a99ecc95eccd9b0fab3c76911ea1006a0", null ],
     [ "swapBase_", "classMR_1_1DistanceMeasurementObject.html#adcd21383f78a94b1d4ab6139004c73a8", null ],
     [ "typeName", "classMR_1_1DistanceMeasurementObject.html#a7d8dc7b94d1a8f6533b6de5659495a9b", null ]

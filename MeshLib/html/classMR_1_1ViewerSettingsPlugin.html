@@ -136,12 +136,14 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:afeeff27006fc4c615527cbd2c08c552b" id="r_afeeff27006fc4c615527cbd2c08c552b"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afeeff27006fc4c615527cbd2c08c552b">TabType</a> { <br />
-&#160;&#160;<a class="el" href="#afeeff27006fc4c615527cbd2c08c552baf4f70727dc34561dfde1a3c529b6205c">Settings</a>
-, <a class="el" href="#afeeff27006fc4c615527cbd2c08c552ba8d6f3510a5cca2c1281c9c6afe7e0da2">Viewport</a>
-, <a class="el" href="#afeeff27006fc4c615527cbd2c08c552ba4351cfebe4b61d8aa5efa1d020710005">View</a>
+&#160;&#160;<a class="el" href="#afeeff27006fc4c615527cbd2c08c552ba809b7a805a28884b364837536cdc38b7">Quick</a>
+, <a class="el" href="#afeeff27006fc4c615527cbd2c08c552bae498749f3c42246d50b15c81c101d988">Application</a>
 , <a class="el" href="#afeeff27006fc4c615527cbd2c08c552baa1595abbb4c3a326636dd178757cd6c1">Control</a>
+, <a class="el" href="#afeeff27006fc4c615527cbd2c08c552ba8d6f3510a5cca2c1281c9c6afe7e0da2">Viewport</a>
 , <br />
-&#160;&#160;<a class="el" href="#afeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>
+&#160;&#160;<a class="el" href="#afeeff27006fc4c615527cbd2c08c552ba98f770b0af18ca763421bac22b4b6805">Features</a>
+, <a class="el" href="#afeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>
+, <a class="el" href="#afeeff27006fc4c615527cbd2c08c552baf4f70727dc34561dfde1a3c529b6205c">Settings</a> = Application
 <br />
  }</td></tr>
 <tr class="separator:afeeff27006fc4c615527cbd2c08c552b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -158,6 +160,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4fda238acd33621d265e12dff2282e03" id="r_a4fda238acd33621d265e12dff2282e03"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fda238acd33621d265e12dff2282e03">ViewerSettingsPlugin</a> ()</td></tr>
 <tr class="separator:a4fda238acd33621d265e12dff2282e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8e3f3963da26a02fb340dd65f4fa6ec" id="r_af8e3f3963da26a02fb340dd65f4fa6ec"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8e3f3963da26a02fb340dd65f4fa6ec">uiName</a> () const override</td></tr>
+<tr class="separator:af8e3f3963da26a02fb340dd65f4fa6ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab07645da2528b86e8844b18dd97c93a9" id="r_ab07645da2528b86e8844b18dd97c93a9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab07645da2528b86e8844b18dd97c93a9">drawDialog</a> (float menuScaling, ImGuiContext *ctx) override</td></tr>
 <tr class="separator:ab07645da2528b86e8844b18dd97c93a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac31f0ed7c0847408208b9cd59d7a9c40" id="r_ac31f0ed7c0847408208b9cd59d7a9c40"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac31f0ed7c0847408208b9cd59d7a9c40">blocking</a> () const override</td></tr>
@@ -188,8 +192,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae7da0ed13a069a29ec8fac496e7aa065 inherit pub_methods_classMR_1_1StateBasePlugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad91197be262f6b569d9234033d73bb8d inherit pub_methods_classMR_1_1StateBasePlugin" id="r_ad91197be262f6b569d9234033d73bb8d"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1StateBasePlugin.html#ad91197be262f6b569d9234033d73bb8d">dialogIsOpen</a> () const</td></tr>
 <tr class="separator:ad91197be262f6b569d9234033d73bb8d inherit pub_methods_classMR_1_1StateBasePlugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56d7b27cd916a3ec2fcf0bcb4b7e3d28 inherit pub_methods_classMR_1_1StateBasePlugin" id="r_a56d7b27cd916a3ec2fcf0bcb4b7e3d28"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1StateBasePlugin.html#a56d7b27cd916a3ec2fcf0bcb4b7e3d28">uiName</a> () const override</td></tr>
-<tr class="separator:a56d7b27cd916a3ec2fcf0bcb4b7e3d28 inherit pub_methods_classMR_1_1StateBasePlugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aece4337b828ba341da5ea80dc8f35d49 inherit pub_methods_classMR_1_1StateBasePlugin" id="r_aece4337b828ba341da5ea80dc8f35d49"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1StateBasePlugin.html#aece4337b828ba341da5ea80dc8f35d49">setUINameDeferred</a> (std::string <a class="el" href="classMR_1_1RibbonMenuItem.html#abf4ea13c8983c44214b92a066e8b7659">name</a>)</td></tr>
 <tr class="separator:aece4337b828ba341da5ea80dc8f35d49 inherit pub_methods_classMR_1_1StateBasePlugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54181a3e2d58070b748c4d49c721a0ea inherit pub_methods_classMR_1_1StateBasePlugin" id="r_a54181a3e2d58070b748c4d49c721a0ea"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37">StatePluginTabs</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1StateBasePlugin.html#a54181a3e2d58070b748c4d49c721a0ea">getTab</a> () const</td></tr>
@@ -308,11 +310,13 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afeeff27006fc4c615527cbd2c08c552baf4f70727dc34561dfde1a3c529b6205c" name="afeeff27006fc4c615527cbd2c08c552baf4f70727dc34561dfde1a3c529b6205c"></a>Settings&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afeeff27006fc4c615527cbd2c08c552ba8d6f3510a5cca2c1281c9c6afe7e0da2" name="afeeff27006fc4c615527cbd2c08c552ba8d6f3510a5cca2c1281c9c6afe7e0da2"></a>Viewport&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afeeff27006fc4c615527cbd2c08c552ba4351cfebe4b61d8aa5efa1d020710005" name="afeeff27006fc4c615527cbd2c08c552ba4351cfebe4b61d8aa5efa1d020710005"></a>View&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afeeff27006fc4c615527cbd2c08c552ba809b7a805a28884b364837536cdc38b7" name="afeeff27006fc4c615527cbd2c08c552ba809b7a805a28884b364837536cdc38b7"></a>Quick&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afeeff27006fc4c615527cbd2c08c552bae498749f3c42246d50b15c81c101d988" name="afeeff27006fc4c615527cbd2c08c552bae498749f3c42246d50b15c81c101d988"></a>Application&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="afeeff27006fc4c615527cbd2c08c552baa1595abbb4c3a326636dd178757cd6c1" name="afeeff27006fc4c615527cbd2c08c552baa1595abbb4c3a326636dd178757cd6c1"></a>Control&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afeeff27006fc4c615527cbd2c08c552ba8d6f3510a5cca2c1281c9c6afe7e0da2" name="afeeff27006fc4c615527cbd2c08c552ba8d6f3510a5cca2c1281c9c6afe7e0da2"></a>Viewport&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afeeff27006fc4c615527cbd2c08c552ba98f770b0af18ca763421bac22b4b6805" name="afeeff27006fc4c615527cbd2c08c552ba98f770b0af18ca763421bac22b4b6805"></a>Features&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="afeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9" name="afeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afeeff27006fc4c615527cbd2c08c552baf4f70727dc34561dfde1a3c529b6205c" name="afeeff27006fc4c615527cbd2c08c552baf4f70727dc34561dfde1a3c529b6205c"></a>Settings&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -412,6 +416,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classMR_1_1StateBasePlugin.html#ac3f19da0e3d2d9bf92be7b02af2985be">MR::StateBasePlugin</a>.</p>
+
+</div>
+</div>
+<a id="af8e3f3963da26a02fb340dd65f4fa6ec" name="af8e3f3963da26a02fb340dd65f4fa6ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8e3f3963da26a02fb340dd65f4fa6ec">&#9670;&#160;</a></span>uiName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const std::string &amp; MR::ViewerSettingsPlugin::uiName </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classMR_1_1StateBasePlugin.html#a56d7b27cd916a3ec2fcf0bcb4b7e3d28">MR::StateBasePlugin</a>.</p>
 
 </div>
 </div>

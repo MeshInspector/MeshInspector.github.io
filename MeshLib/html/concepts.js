@@ -16,6 +16,7 @@ var concepts =
           [ "ValidOperands", "conceptMR_1_1ImGuiMath_1_1detail_1_1ValidOperands.html", null ]
         ] ]
       ] ],
-      [ "Trivial", "conceptMR_1_1Trivial.html", null ]
+      [ "Trivial", "conceptMR_1_1Trivial.html", null ],
+      [ "AnyVisualizeMaskEnumType", "conceptMR_1_1AnyVisualizeMaskEnumType.html", null ]
     ] ]
 ];

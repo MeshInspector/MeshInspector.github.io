@@ -23,8 +23,9 @@ var searchData=
   ['triangle3i_20',['Triangle3i',['../namespaceMR.html#a712806ee9f8b1b9a53133ddba57f7da7',1,'MR']]],
   ['trianglecallback_21',['TriangleCallback',['../group__AABBTreeGroup.html#ga285ea5cd9fb638c90fec0099f526c057',1,'MR']]],
   ['trianglecornernormals_22',['TriangleCornerNormals',['../group__MeshNormalsGroup.html#ga59217bfc441b57736e20fa4c8b136c1f',1,'MR']]],
-  ['triangulation_23',['Triangulation',['../namespaceMR.html#a2d4e12c4f3a7ed4eb824b58df5528e1a',1,'MR']]],
-  ['tripointd_24',['TriPointd',['../namespaceMR.html#a130471630d98cb165b31545eeac41b92',1,'MR']]],
-  ['tripointf_25',['TriPointf',['../namespaceMR.html#a8b39132a847f612dc62e1f559e5e1779',1,'MR']]],
-  ['type_26',['type',['../structMR_1_1NoCtor_3_01T_01_4.html#a5ad36941cb49b13cf04d17446b102370',1,'MR::NoCtor&lt; T &gt;::type'],['../structMR_1_1NoCtor_3_01T_01_4.html#a9043c90869c007f7262a6c843c881219',1,'MR::NoCtor&lt; T &gt;::type'],['../structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4.html#a27c3f4fb399c5305651f2dd9386238c3',1,'MR::ImGuiMath::detail::VecFromSize&lt; 2 &gt;::type'],['../structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4.html#adfc0ecae222770b0db30cfc9c46495ca',1,'MR::ImGuiMath::detail::VecFromSize&lt; 4 &gt;::type']]]
+  ['trianglesrepetitions_23',['TrianglesRepetitions',['../namespaceMR.html#a2e1577ec0c0eb82d6a29e4b16e6661a6',1,'MR']]],
+  ['triangulation_24',['Triangulation',['../namespaceMR.html#a2d4e12c4f3a7ed4eb824b58df5528e1a',1,'MR']]],
+  ['tripointd_25',['TriPointd',['../namespaceMR.html#a130471630d98cb165b31545eeac41b92',1,'MR']]],
+  ['tripointf_26',['TriPointf',['../namespaceMR.html#a8b39132a847f612dc62e1f559e5e1779',1,'MR']]],
+  ['type_27',['type',['../structMR_1_1NoCtor_3_01T_01_4.html#a5ad36941cb49b13cf04d17446b102370',1,'MR::NoCtor&lt; T &gt;::type'],['../structMR_1_1NoCtor_3_01T_01_4.html#a9043c90869c007f7262a6c843c881219',1,'MR::NoCtor&lt; T &gt;::type'],['../structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4.html#a27c3f4fb399c5305651f2dd9386238c3',1,'MR::ImGuiMath::detail::VecFromSize&lt; 2 &gt;::type'],['../structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4.html#adfc0ecae222770b0db30cfc9c46495ca',1,'MR::ImGuiMath::detail::VecFromSize&lt; 4 &gt;::type']]]
 ];

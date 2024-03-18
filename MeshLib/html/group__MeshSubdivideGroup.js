@@ -15,6 +15,7 @@ var group__MeshSubdivideGroup =
       [ "onEdgeSplit", "structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413", null ],
       [ "onVertCreated", "structMR_1_1SubdivideSettings.html#a9e8653d42d8358f40dca297f675d4111", null ],
       [ "progressCallback", "structMR_1_1SubdivideSettings.html#ad044782ba14d1d93d9140190393d28ce", null ],
+      [ "projectOnOriginalMesh", "structMR_1_1SubdivideSettings.html#a52aa2a88771ab9ca39f096cae8256c7d", null ],
       [ "region", "structMR_1_1SubdivideSettings.html#a5e24bf5e1bf140cdfac3cc68b9a693fa", null ],
       [ "smoothMode", "structMR_1_1SubdivideSettings.html#a757c0278a48bf06117256165bec538c0", null ],
       [ "subdivideBorder", "structMR_1_1SubdivideSettings.html#a9288f9c5670484c0f76b53be1311b3cc", null ]

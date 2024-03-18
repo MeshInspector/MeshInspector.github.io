@@ -29,5 +29,13 @@ var MRVisualObject_8h =
       [ "DIRTY_EDGES_SELECTION", "MRVisualObject_8h.html#gga03255e831f4895337e7cf27d64e51269a38d6a5c484bf483e7d19d0e88b575a5f", null ],
       [ "DIRTY_CACHES", "MRVisualObject_8h.html#gga03255e831f4895337e7cf27d64e51269a7930beec8f8d317d708811012219855a", null ],
       [ "DIRTY_ALL", "MRVisualObject_8h.html#gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a", null ]
-    ] ]
+    ] ],
+    [ "_count", "MRVisualObject_8h.html#a69c4cff6b9a1cd95c71fc56b8dd9a983", null ],
+    [ "ClippedByPlane", "MRVisualObject_8h.html#a86e5e23fe8af282d3772b2968223d2bb", null ],
+    [ "CropLabelsByViewportRect", "MRVisualObject_8h.html#a8f1d7e64ef29bdf23c91185c9522bcc4", null ],
+    [ "DepthTest", "MRVisualObject_8h.html#aab077be49ed8052394a3f5faace8becd", null ],
+    [ "InvertedNormals", "MRVisualObject_8h.html#a36b2743bd075571aef0402d06dbe8c9d", null ],
+    [ "Labels", "MRVisualObject_8h.html#a92dd934965d451053c10a27d9aa44779", null ],
+    [ "Name", "MRVisualObject_8h.html#aa5998168cabfb2b2e41151349077812c", null ],
+    [ "Visibility", "MRVisualObject_8h.html#a53d6f8ccb0015ea020228de41cfd2162", null ]
 ];

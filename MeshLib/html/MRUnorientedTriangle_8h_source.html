@@ -137,33 +137,37 @@ $(function(){initNavTree('MRUnorientedTriangle_8h_source.html',''); initResizabl
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>            *outFlipped = flipped;</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    }</div>
 </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="structMR_1_1UnorientedTriangle.html#a612a5709db207a238542c54810f6af4c">   35</a></span>    <span class="keyword">friend</span> <span class="keywordtype">bool</span> <a class="code hl_friend" href="structMR_1_1UnorientedTriangle.html#a612a5709db207a238542c54810f6af4c">operator==</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1UnorientedTriangle.html">UnorientedTriangle</a>&amp; a, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1UnorientedTriangle.html">UnorientedTriangle</a>&amp; b ) = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>};</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="structMR_1_1UnorientedTriangle.html#a74d6d544ece458f69514e02465ea0a1e">   37</a></span>    <a class="code hl_typedef" href="namespaceMR.html#a9fa45e8860a645c31bc2c7f1a2abf56b">ThreeVertIds</a> <a class="code hl_function" href="structMR_1_1UnorientedTriangle.html#a74d6d544ece458f69514e02465ea0a1e">getFlipped</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> { (*this)[0], (*this)[2], (*this)[1] }; } <span class="comment">// id #0 remains the lowest</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="structMR_1_1UnorientedTriangle.html#a612a5709db207a238542c54810f6af4c">   39</a></span>    <span class="keyword">friend</span> <span class="keywordtype">bool</span> <a class="code hl_friend" href="structMR_1_1UnorientedTriangle.html#a612a5709db207a238542c54810f6af4c">operator==</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1UnorientedTriangle.html">UnorientedTriangle</a>&amp; a, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1UnorientedTriangle.html">UnorientedTriangle</a>&amp; b ) = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>};</div>
 </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="foldopen" id="foldopen00039" data-start="{" data-end="};">
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="structMR_1_1UnorientedTriangleHasher.html">   39</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1UnorientedTriangleHasher.html">UnorientedTriangleHasher</a></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>{</div>
-<div class="foldopen" id="foldopen00041" data-start="{" data-end="}">
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="structMR_1_1UnorientedTriangleHasher.html#aee0f9148bbc8c0c5b28c4ff9af0a302a">   41</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_function" href="structMR_1_1UnorientedTriangleHasher.html#aee0f9148bbc8c0c5b28c4ff9af0a302a">operator()</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1UnorientedTriangle.html">UnorientedTriangle</a>&amp; triplet )<span class="keyword"> const</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <span class="keywordflow">return</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            2 * size_t( triplet[0] ) +</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            3 * size_t( triplet[1] ) +</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            5 * size_t( triplet[2] );</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    }</div>
-</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>};</div>
-</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">namespace </span>std</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>{</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">template</span> &lt;&gt;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">struct </span>hash&lt;<a class="code hl_namespace" href="namespaceMR.html">MR</a>::UnorientedTriangle&gt;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>{</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordtype">size_t</span> operator() ( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1UnorientedTriangle.html">MR::UnorientedTriangle</a>&amp; triplet ) <span class="keyword">const</span> <span class="keyword">noexcept</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    {</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keywordflow">return</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>            2 * size_t( triplet[0] ) +</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            3 * size_t( triplet[1] ) +</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>            5 * size_t( triplet[2] );</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    }</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>};</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>} <span class="comment">//namespace std</span></div>
 <div class="ttc" id="aMRId_8h_html"><div class="ttname"><a href="MRId_8h.html">MRId.h</a></div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
-<div class="ttc" id="anamespaceMR_html_a9fa45e8860a645c31bc2c7f1a2abf56b"><div class="ttname"><a href="namespaceMR.html#a9fa45e8860a645c31bc2c7f1a2abf56b">MR::ThreeVertIds</a></div><div class="ttdeci">std::array&lt; VertId, 3 &gt; ThreeVertIds</div><div class="ttdoc">three vertex ids describing a triangle topology</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:75</div></div>
-<div class="ttc" id="astructMR_1_1UnorientedTriangleHasher_html"><div class="ttname"><a href="structMR_1_1UnorientedTriangleHasher.html">MR::UnorientedTriangleHasher</a></div><div class="ttdoc">defines hash function for UnorientedTriangle</div><div class="ttdef"><b>Definition</b> MRUnorientedTriangle.h:40</div></div>
-<div class="ttc" id="astructMR_1_1UnorientedTriangleHasher_html_aee0f9148bbc8c0c5b28c4ff9af0a302a"><div class="ttname"><a href="structMR_1_1UnorientedTriangleHasher.html#aee0f9148bbc8c0c5b28c4ff9af0a302a">MR::UnorientedTriangleHasher::operator()</a></div><div class="ttdeci">size_t operator()(const UnorientedTriangle &amp;triplet) const</div><div class="ttdef"><b>Definition</b> MRUnorientedTriangle.h:41</div></div>
+<div class="ttc" id="anamespaceMR_html_a9fa45e8860a645c31bc2c7f1a2abf56b"><div class="ttname"><a href="namespaceMR.html#a9fa45e8860a645c31bc2c7f1a2abf56b">MR::ThreeVertIds</a></div><div class="ttdeci">std::array&lt; VertId, 3 &gt; ThreeVertIds</div><div class="ttdoc">three vertex ids describing a triangle topology</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:77</div></div>
 <div class="ttc" id="astructMR_1_1UnorientedTriangle_html"><div class="ttname"><a href="structMR_1_1UnorientedTriangle.html">MR::UnorientedTriangle</a></div><div class="ttdef"><b>Definition</b> MRUnorientedTriangle.h:13</div></div>
 <div class="ttc" id="astructMR_1_1UnorientedTriangle_html_a612a5709db207a238542c54810f6af4c"><div class="ttname"><a href="structMR_1_1UnorientedTriangle.html#a612a5709db207a238542c54810f6af4c">MR::UnorientedTriangle::operator==</a></div><div class="ttdeci">friend bool operator==(const UnorientedTriangle &amp;a, const UnorientedTriangle &amp;b)=default</div></div>
+<div class="ttc" id="astructMR_1_1UnorientedTriangle_html_a74d6d544ece458f69514e02465ea0a1e"><div class="ttname"><a href="structMR_1_1UnorientedTriangle.html#a74d6d544ece458f69514e02465ea0a1e">MR::UnorientedTriangle::getFlipped</a></div><div class="ttdeci">ThreeVertIds getFlipped() const</div><div class="ttdoc">returns this triangle with the opposite orientation</div><div class="ttdef"><b>Definition</b> MRUnorientedTriangle.h:37</div></div>
 <div class="ttc" id="astructMR_1_1UnorientedTriangle_html_aa917f541ba687e11cb12638018c11f49"><div class="ttname"><a href="structMR_1_1UnorientedTriangle.html#aa917f541ba687e11cb12638018c11f49">MR::UnorientedTriangle::UnorientedTriangle</a></div><div class="ttdeci">UnorientedTriangle(const ThreeVertIds &amp;inVs, bool *outFlipped=nullptr)</div><div class="ttdef"><b>Definition</b> MRUnorientedTriangle.h:14</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

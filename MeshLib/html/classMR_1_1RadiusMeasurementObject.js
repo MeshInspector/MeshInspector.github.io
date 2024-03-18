@@ -24,6 +24,7 @@ var classMR_1_1RadiusMeasurementObject =
     [ "setLocalCenter", "classMR_1_1RadiusMeasurementObject.html#a7fa9152022fe7361ce348d4d4ad6d36d", null ],
     [ "setLocalRadiusAsVector", "classMR_1_1RadiusMeasurementObject.html#a48ef26bb96c4aedfa7e8a3b15da25bd3", null ],
     [ "setLocalRadiusAsVector", "classMR_1_1RadiusMeasurementObject.html#a20c27fa1febacd50d91412edf55934a9", null ],
+    [ "setupRenderObject_", "classMR_1_1RadiusMeasurementObject.html#a42db597cf6c86264265ae90f066d8b6b", null ],
     [ "setVisualLengthMultiplier", "classMR_1_1RadiusMeasurementObject.html#a109a6f41417efadbe9e21c0a2054c9f5", null ],
     [ "shallowClone", "classMR_1_1RadiusMeasurementObject.html#a0a61e373c543440d50c5cb78476cba67", null ],
     [ "swapBase_", "classMR_1_1RadiusMeasurementObject.html#a144d0e6bad6b4589084b64ca9cdb9dea", null ],

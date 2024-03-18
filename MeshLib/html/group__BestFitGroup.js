@@ -18,5 +18,6 @@ var group__BestFitGroup =
       [ "valid", "classMR_1_1PointAccumulator.html#a7514ac6107ebe4077c548746882a7d2d", null ]
     ] ],
     [ "MR::accumulateFaceCenters", "group__BestFitGroup.html#ga9bca49efd608d5a3ee129ae497696532", null ],
+    [ "MR::accumulateLineCenters", "group__BestFitGroup.html#ga6ea5e287b2854466c0edc8429e4f3728", null ],
     [ "MR::accumulatePoints", "group__BestFitGroup.html#gaa782086a9c5b4c3f2fc9a0c19bb2a4c7", null ]
 ];

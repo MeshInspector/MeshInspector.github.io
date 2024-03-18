@@ -118,13 +118,12 @@ $(function(){initNavTree('classMR_1_1ObjectLinesHolder.html',''); initResizable(
  <div class="center">
   <img src="classMR_1_1ObjectLinesHolder.png" usemap="#MR::ObjectLinesHolder_map" alt=""/>
   <map id="MR::ObjectLinesHolder_map" name="MR::ObjectLinesHolder_map">
-<area href="classMR_1_1VisualObject.html" title="Visual Object." alt="MR::VisualObject" shape="rect" coords="255,112,415,136"/>
-<area href="classMR_1_1Object.html" title="named object in the data model" alt="MR::Object" shape="rect" coords="255,56,415,80"/>
-<area href="classMR_1_1ObjectChildrenHolder.html" alt="MR::ObjectChildrenHolder" shape="rect" coords="255,0,415,24"/>
-<area href="classMR_1_1CircleObject.html" alt="MR::CircleObject" shape="rect" coords="0,224,160,248"/>
-<area href="classMR_1_1LineObject.html" alt="MR::LineObject" shape="rect" coords="170,224,330,248"/>
-<area href="classMR_1_1ObjectGcode.html" alt="MR::ObjectGcode" shape="rect" coords="340,224,500,248"/>
-<area href="classMR_1_1ObjectLines.html" alt="MR::ObjectLines" shape="rect" coords="510,224,670,248"/>
+<area href="classMR_1_1VisualObject.html" title="Visual Object." alt="MR::VisualObject" shape="rect" coords="249,112,737,136"/>
+<area href="classMR_1_1Object.html" title="named object in the data model" alt="MR::Object" shape="rect" coords="249,56,737,80"/>
+<area href="classMR_1_1ObjectChildrenHolder.html" alt="MR::ObjectChildrenHolder" shape="rect" coords="249,0,737,24"/>
+<area href="classMR_1_1ObjectGcode.html" alt="MR::ObjectGcode" shape="rect" coords="0,224,488,248"/>
+<area href="classMR_1_1ObjectLines.html" alt="MR::ObjectLines" shape="rect" coords="498,224,986,248"/>
+<area href="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectLines_01_4.html" alt="MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectLines &gt;" shape="rect" coords="498,280,986,304"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -142,8 +141,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a866b821cbf1353875759fa45e614249f"><td class="mdescLeft">&#160;</td><td class="mdescRight">scale object size (all point positions)  <br /></td></tr>
 <tr class="separator:a866b821cbf1353875759fa45e614249f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab254bdde22e806161d869d150ac181b8" id="r_ab254bdde22e806161d869d150ac181b8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab254bdde22e806161d869d150ac181b8">hasVisualRepresentation</a> () const override</td></tr>
-<tr class="memdesc:ab254bdde22e806161d869d150ac181b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">is object has any visual representation (faces, edges, etc.)  <br /></td></tr>
+<tr class="memdesc:ab254bdde22e806161d869d150ac181b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">does the object have any visual representation (visible points, triangles, edges, etc.), no considering child objects  <br /></td></tr>
 <tr class="separator:ab254bdde22e806161d869d150ac181b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8374696160d445c466b11e006c7fb4c7" id="r_a8374696160d445c466b11e006c7fb4c7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8374696160d445c466b11e006c7fb4c7">hasModel</a> () const override</td></tr>
+<tr class="separator:a8374696160d445c466b11e006c7fb4c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d62fc8248ac41e37620d11e4e326b62" id="r_a8d62fc8248ac41e37620d11e4e326b62"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d62fc8248ac41e37620d11e4e326b62">clone</a> () const override</td></tr>
 <tr class="separator:a8d62fc8248ac41e37620d11e4e326b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa19c36b553adf089ebe87a6220248926" id="r_aa19c36b553adf089ebe87a6220248926"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa19c36b553adf089ebe87a6220248926">shallowClone</a> () const override</td></tr>
@@ -154,12 +155,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4693af2f58656c85b0fe600e323273ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a34d49b96c99eb2e836b6ccc26aaa22" id="r_a2a34d49b96c99eb2e836b6ccc26aaa22"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a34d49b96c99eb2e836b6ccc26aaa22">setLineWidth</a> (float <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>)</td></tr>
 <tr class="separator:a2a34d49b96c99eb2e836b6ccc26aaa22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1973470e52b14c804f3c6c0898d32904" id="r_a1973470e52b14c804f3c6c0898d32904"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1973470e52b14c804f3c6c0898d32904">getLineWidth</a> () const</td></tr>
-<tr class="separator:a1973470e52b14c804f3c6c0898d32904"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad29f08547db22aca65fa19e23ac218b7" id="r_ad29f08547db22aca65fa19e23ac218b7"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad29f08547db22aca65fa19e23ac218b7">getLineWidth</a> () const</td></tr>
+<tr class="separator:ad29f08547db22aca65fa19e23ac218b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24c15e2c775fbd245769f2cbfd085c95" id="r_a24c15e2c775fbd245769f2cbfd085c95"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24c15e2c775fbd245769f2cbfd085c95">setPointSize</a> (float <a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>)</td></tr>
 <tr class="separator:a24c15e2c775fbd245769f2cbfd085c95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afade546b380f165250bd73157dae1fbd" id="r_afade546b380f165250bd73157dae1fbd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afade546b380f165250bd73157dae1fbd">getPointSize</a> () const</td></tr>
-<tr class="separator:afade546b380f165250bd73157dae1fbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73e673c22a3081ef1fc777c20c702125" id="r_a73e673c22a3081ef1fc777c20c702125"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73e673c22a3081ef1fc777c20c702125">getPointSize</a> () const</td></tr>
+<tr class="separator:a73e673c22a3081ef1fc777c20c702125"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee2f0ca0cadeda77ed87b5834547d9f2" id="r_aee2f0ca0cadeda77ed87b5834547d9f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee2f0ca0cadeda77ed87b5834547d9f2">ObjectLinesHolder</a> (<a class="el" href="structMR_1_1Object_1_1ProtectedStruct.html">ProtectedStruct</a>, const <a class="el" href="classMR_1_1ObjectLinesHolder.html">ObjectLinesHolder</a> &amp;obj)</td></tr>
 <tr class="separator:aee2f0ca0cadeda77ed87b5834547d9f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b4f5ecefe1873ce10840277c57f9e94" id="r_a3b4f5ecefe1873ce10840277c57f9e94"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a01e76864e5a0feee1d5248e566a2d868">UndirectedEdgeColors</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b4f5ecefe1873ce10840277c57f9e94">getLinesColorMap</a> () const</td></tr>
@@ -168,12 +169,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acd01b614fd09efea6271585ca949bfa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59e3e83d9bf413fdb9a84fedda40f08f" id="r_a59e3e83d9bf413fdb9a84fedda40f08f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59e3e83d9bf413fdb9a84fedda40f08f">updateLinesColorMap</a> (<a class="el" href="namespaceMR.html#a01e76864e5a0feee1d5248e566a2d868">UndirectedEdgeColors</a> &amp;updated)</td></tr>
 <tr class="separator:a59e3e83d9bf413fdb9a84fedda40f08f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2798b1849e8c43f61a65e198db996c38" id="r_a2798b1849e8c43f61a65e198db996c38"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f">AllVisualizeProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2798b1849e8c43f61a65e198db996c38">getAllVisualizeProperties</a> () const override</td></tr>
-<tr class="memdesc:a2798b1849e8c43f61a65e198db996c38"><td class="mdescLeft">&#160;</td><td class="mdescRight">get all visualize properties masks as array  <br /></td></tr>
-<tr class="separator:a2798b1849e8c43f61a65e198db996c38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d13c8c395f958091f374366074439e4" id="r_a5d13c8c395f958091f374366074439e4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d13c8c395f958091f374366074439e4">getVisualizePropertyMask</a> (unsigned type) const override</td></tr>
-<tr class="memdesc:a5d13c8c395f958091f374366074439e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns mask of viewports where given property is set  <br /></td></tr>
-<tr class="separator:a5d13c8c395f958091f374366074439e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ebf2f4fb4aaec33e52f3d1be2b2d74d" id="r_a9ebf2f4fb4aaec33e52f3d1be2b2d74d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ebf2f4fb4aaec33e52f3d1be2b2d74d">supportsVisualizeProperty</a> (<a class="el" href="classMR_1_1AnyVisualizeMaskEnum.html">AnyVisualizeMaskEnum</a> type) const override</td></tr>
+<tr class="memdesc:a9ebf2f4fb4aaec33e52f3d1be2b2d74d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this class supports the property <code>type</code>. Otherwise passing it to the functions below is illegal.  <br /></td></tr>
+<tr class="separator:a9ebf2f4fb4aaec33e52f3d1be2b2d74d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af36a700f7b56ba0159abf2c66b58d630" id="r_af36a700f7b56ba0159abf2c66b58d630"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f">AllVisualizeProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af36a700f7b56ba0159abf2c66b58d630">getAllVisualizeProperties</a> () const override</td></tr>
+<tr class="memdesc:af36a700f7b56ba0159abf2c66b58d630"><td class="mdescLeft">&#160;</td><td class="mdescRight">get all visualize properties masks  <br /></td></tr>
+<tr class="separator:af36a700f7b56ba0159abf2c66b58d630"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab19b7af18f21594b91628233ca2421b5" id="r_ab19b7af18f21594b91628233ca2421b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab19b7af18f21594b91628233ca2421b5">getVisualizePropertyMask</a> (<a class="el" href="classMR_1_1AnyVisualizeMaskEnum.html">AnyVisualizeMaskEnum</a> type) const override</td></tr>
+<tr class="memdesc:ab19b7af18f21594b91628233ca2421b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns mask of viewports where given property is set  <br /></td></tr>
+<tr class="separator:ab19b7af18f21594b91628233ca2421b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf4784be6ef8c3ce90625490765084dd" id="r_abf4784be6ef8c3ce90625490765084dd"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a7609ed874338e695bb9d26fc7147dd3c">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf4784be6ef8c3ce90625490765084dd">getWorldBox</a> (<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a>={}) const override</td></tr>
 <tr class="separator:abf4784be6ef8c3ce90625490765084dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad64322425bc9354238fc990bff3e2b10" id="r_ad64322425bc9354238fc990bff3e2b10"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad64322425bc9354238fc990bff3e2b10">heapBytes</a> () const override</td></tr>
@@ -191,21 +195,21 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad5bb82fa6b6b0ea77f0137b975c802f6 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32d2019eae016848083a25a159b3b058 inherit pub_methods_classMR_1_1VisualObject" id="r_a32d2019eae016848083a25a159b3b058"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a32d2019eae016848083a25a159b3b058">~VisualObject</a> ()=default</td></tr>
 <tr class="separator:a32d2019eae016848083a25a159b3b058 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace92453fbd8b2291aff77c36aff89a9d inherit pub_methods_classMR_1_1VisualObject" id="r_ace92453fbd8b2291aff77c36aff89a9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#ace92453fbd8b2291aff77c36aff89a9d">setVisualizeProperty</a> (bool value, unsigned type, <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> viewportMask)</td></tr>
-<tr class="memdesc:ace92453fbd8b2291aff77c36aff89a9d inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">set visual property in all viewports specified by the mask  <br /></td></tr>
-<tr class="separator:ace92453fbd8b2291aff77c36aff89a9d inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af82ab7db25b1956d5e8e61df100feb47 inherit pub_methods_classMR_1_1VisualObject" id="r_af82ab7db25b1956d5e8e61df100feb47"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#af82ab7db25b1956d5e8e61df100feb47">setVisualizePropertyMask</a> (unsigned type, <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> viewportMask)</td></tr>
-<tr class="memdesc:af82ab7db25b1956d5e8e61df100feb47 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">set visual property mask  <br /></td></tr>
-<tr class="separator:af82ab7db25b1956d5e8e61df100feb47 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9709f115307bc66ddc037c9cd3337367 inherit pub_methods_classMR_1_1VisualObject" id="r_a9709f115307bc66ddc037c9cd3337367"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a9709f115307bc66ddc037c9cd3337367">getVisualizeProperty</a> (unsigned type, <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> viewportMask) const</td></tr>
-<tr class="memdesc:a9709f115307bc66ddc037c9cd3337367 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the property is set at least in one viewport specified by the mask  <br /></td></tr>
-<tr class="separator:a9709f115307bc66ddc037c9cd3337367 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa787c76ffea8854bb9cfdfbca5c33a2d inherit pub_methods_classMR_1_1VisualObject" id="r_aa787c76ffea8854bb9cfdfbca5c33a2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#aa787c76ffea8854bb9cfdfbca5c33a2d">toggleVisualizeProperty</a> (unsigned type, <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> viewportMask)</td></tr>
-<tr class="memdesc:aa787c76ffea8854bb9cfdfbca5c33a2d inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">toggle visual property in all viewports specified by the mask  <br /></td></tr>
-<tr class="separator:aa787c76ffea8854bb9cfdfbca5c33a2d inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ab78ad20f48b071f9dbc01c7fd219e3 inherit pub_methods_classMR_1_1VisualObject" id="r_a6ab78ad20f48b071f9dbc01c7fd219e3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a6ab78ad20f48b071f9dbc01c7fd219e3">setAllVisualizeProperties</a> (const <a class="el" href="group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f">AllVisualizeProperties</a> &amp;properties)</td></tr>
-<tr class="memdesc:a6ab78ad20f48b071f9dbc01c7fd219e3 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">set all visualize properties masks from array  <br /></td></tr>
-<tr class="separator:a6ab78ad20f48b071f9dbc01c7fd219e3 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bbb1d0c58312e6cec629c558dec4eb8 inherit pub_methods_classMR_1_1VisualObject" id="r_a2bbb1d0c58312e6cec629c558dec4eb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a2bbb1d0c58312e6cec629c558dec4eb8">setVisualizeProperty</a> (bool value, <a class="el" href="classMR_1_1AnyVisualizeMaskEnum.html">AnyVisualizeMaskEnum</a> type, <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> viewportMask)</td></tr>
+<tr class="memdesc:a2bbb1d0c58312e6cec629c558dec4eb8 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">set visual property in all viewports specified by the mask  <br /></td></tr>
+<tr class="separator:a2bbb1d0c58312e6cec629c558dec4eb8 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd4b651e989735ef689f9ed94bbf302d inherit pub_methods_classMR_1_1VisualObject" id="r_acd4b651e989735ef689f9ed94bbf302d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#acd4b651e989735ef689f9ed94bbf302d">setVisualizePropertyMask</a> (<a class="el" href="classMR_1_1AnyVisualizeMaskEnum.html">AnyVisualizeMaskEnum</a> type, <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> viewportMask)</td></tr>
+<tr class="memdesc:acd4b651e989735ef689f9ed94bbf302d inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">set visual property mask  <br /></td></tr>
+<tr class="separator:acd4b651e989735ef689f9ed94bbf302d inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e21bc521981859584703215ba45f219 inherit pub_methods_classMR_1_1VisualObject" id="r_a3e21bc521981859584703215ba45f219"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a3e21bc521981859584703215ba45f219">getVisualizeProperty</a> (<a class="el" href="classMR_1_1AnyVisualizeMaskEnum.html">AnyVisualizeMaskEnum</a> type, <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> viewportMask) const</td></tr>
+<tr class="memdesc:a3e21bc521981859584703215ba45f219 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the property is set at least in one viewport specified by the mask  <br /></td></tr>
+<tr class="separator:a3e21bc521981859584703215ba45f219 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af63540ac95e6431477166fb4d1c249a3 inherit pub_methods_classMR_1_1VisualObject" id="r_af63540ac95e6431477166fb4d1c249a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#af63540ac95e6431477166fb4d1c249a3">toggleVisualizeProperty</a> (<a class="el" href="classMR_1_1AnyVisualizeMaskEnum.html">AnyVisualizeMaskEnum</a> type, <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> viewportMask)</td></tr>
+<tr class="memdesc:af63540ac95e6431477166fb4d1c249a3 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">toggle visual property in all viewports specified by the mask  <br /></td></tr>
+<tr class="separator:af63540ac95e6431477166fb4d1c249a3 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa19ae518997e365fbfa1ddd81b04eb10 inherit pub_methods_classMR_1_1VisualObject" id="r_aa19ae518997e365fbfa1ddd81b04eb10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#aa19ae518997e365fbfa1ddd81b04eb10">setAllVisualizeProperties</a> (const <a class="el" href="group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f">AllVisualizeProperties</a> &amp;properties)</td></tr>
+<tr class="memdesc:aa19ae518997e365fbfa1ddd81b04eb10 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">set all visualize properties masks  <br /></td></tr>
+<tr class="separator:aa19ae518997e365fbfa1ddd81b04eb10 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c23bff1d3de131d6cb6acbd7565afeb inherit pub_methods_classMR_1_1VisualObject" id="r_a8c23bff1d3de131d6cb6acbd7565afeb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a8c23bff1d3de131d6cb6acbd7565afeb">showLabels</a> (bool on)</td></tr>
 <tr class="memdesc:a8c23bff1d3de131d6cb6acbd7565afeb inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">shows/hides labels  <br /></td></tr>
 <tr class="separator:a8c23bff1d3de131d6cb6acbd7565afeb inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -223,15 +227,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0d1a64b6bed894b4236b06ac732dfd74 inherit pub_methods_classMR_1_1VisualObject" id="r_a0d1a64b6bed894b4236b06ac732dfd74"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a0d1a64b6bed894b4236b06ac732dfd74">setFrontColor</a> (const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;color, bool selected, <a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> viewportId={})</td></tr>
 <tr class="memdesc:a0d1a64b6bed894b4236b06ac732dfd74 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets color of object when it is selected/not-selected (depending on argument) in given viewport  <br /></td></tr>
 <tr class="separator:a0d1a64b6bed894b4236b06ac732dfd74 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fcfee69b862a562b66543d292f5deae inherit pub_methods_classMR_1_1VisualObject" id="r_a9fcfee69b862a562b66543d292f5deae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="classMR_1_1ViewportProperty.html">ViewportProperty</a>&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a9fcfee69b862a562b66543d292f5deae">getFrontColorsForAllViewports</a> (bool selected=true) const</td></tr>
-<tr class="memdesc:a9fcfee69b862a562b66543d292f5deae inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns color of object when it is selected/not-selected (depending on argument) in all viewports  <br /></td></tr>
-<tr class="separator:a9fcfee69b862a562b66543d292f5deae inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04e6c3f8219124e3028f7dd8411cfc65 inherit pub_methods_classMR_1_1VisualObject" id="r_a04e6c3f8219124e3028f7dd8411cfc65"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="classMR_1_1ViewportProperty.html">ViewportProperty</a>&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a04e6c3f8219124e3028f7dd8411cfc65">getFrontColorsForAllViewports</a> (bool selected=true) const</td></tr>
+<tr class="memdesc:a04e6c3f8219124e3028f7dd8411cfc65 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns color of object when it is selected/not-selected (depending on argument) in all viewports  <br /></td></tr>
+<tr class="separator:a04e6c3f8219124e3028f7dd8411cfc65 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8fd310ffa1926e733e28b521f658778 inherit pub_methods_classMR_1_1VisualObject" id="r_ac8fd310ffa1926e733e28b521f658778"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#ac8fd310ffa1926e733e28b521f658778">setFrontColorsForAllViewports</a> (<a class="el" href="classMR_1_1ViewportProperty.html">ViewportProperty</a>&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; val, bool selected=true)</td></tr>
 <tr class="memdesc:ac8fd310ffa1926e733e28b521f658778 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets color of object when it is selected/not-selected (depending on argument) in all viewports  <br /></td></tr>
 <tr class="separator:ac8fd310ffa1926e733e28b521f658778 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a613ff88451a3e4860c14148b9298941c inherit pub_methods_classMR_1_1VisualObject" id="r_a613ff88451a3e4860c14148b9298941c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="classMR_1_1ViewportProperty.html">ViewportProperty</a>&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a613ff88451a3e4860c14148b9298941c">getBackColorsForAllViewports</a> () const</td></tr>
-<tr class="memdesc:a613ff88451a3e4860c14148b9298941c inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns backward color of object in all viewports  <br /></td></tr>
-<tr class="separator:a613ff88451a3e4860c14148b9298941c inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a714aab4f9110c1072f3147edae51e293 inherit pub_methods_classMR_1_1VisualObject" id="r_a714aab4f9110c1072f3147edae51e293"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="classMR_1_1ViewportProperty.html">ViewportProperty</a>&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a714aab4f9110c1072f3147edae51e293">getBackColorsForAllViewports</a> () const</td></tr>
+<tr class="memdesc:a714aab4f9110c1072f3147edae51e293 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns backward color of object in all viewports  <br /></td></tr>
+<tr class="separator:a714aab4f9110c1072f3147edae51e293 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b7e8cf2909d71a7537a47028f77913a inherit pub_methods_classMR_1_1VisualObject" id="r_a6b7e8cf2909d71a7537a47028f77913a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a6b7e8cf2909d71a7537a47028f77913a">setBackColorsForAllViewports</a> (<a class="el" href="classMR_1_1ViewportProperty.html">ViewportProperty</a>&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; val)</td></tr>
 <tr class="memdesc:a6b7e8cf2909d71a7537a47028f77913a inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets backward color of object in all viewports  <br /></td></tr>
 <tr class="separator:a6b7e8cf2909d71a7537a47028f77913a inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -247,9 +251,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a985084dc83b837ab048114f5f4bacae2 inherit pub_methods_classMR_1_1VisualObject" id="r_a985084dc83b837ab048114f5f4bacae2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a985084dc83b837ab048114f5f4bacae2">setGlobalAlpha</a> (uint8_t alpha, <a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> viewportId={})</td></tr>
 <tr class="memdesc:a985084dc83b837ab048114f5f4bacae2 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets global transparency alpha of object in given viewport  <br /></td></tr>
 <tr class="separator:a985084dc83b837ab048114f5f4bacae2 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c10a4f2acd5b975d897a49d7ab28971 inherit pub_methods_classMR_1_1VisualObject" id="r_a3c10a4f2acd5b975d897a49d7ab28971"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="classMR_1_1ViewportProperty.html">ViewportProperty</a>&lt; uint8_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a3c10a4f2acd5b975d897a49d7ab28971">getGlobalAlphaForAllViewports</a> () const</td></tr>
-<tr class="memdesc:a3c10a4f2acd5b975d897a49d7ab28971 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns global transparency alpha of object in all viewports  <br /></td></tr>
-<tr class="separator:a3c10a4f2acd5b975d897a49d7ab28971 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ef31c439da47a55ca3287bf45a377ad inherit pub_methods_classMR_1_1VisualObject" id="r_a3ef31c439da47a55ca3287bf45a377ad"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="classMR_1_1ViewportProperty.html">ViewportProperty</a>&lt; uint8_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a3ef31c439da47a55ca3287bf45a377ad">getGlobalAlphaForAllViewports</a> () const</td></tr>
+<tr class="memdesc:a3ef31c439da47a55ca3287bf45a377ad inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns global transparency alpha of object in all viewports  <br /></td></tr>
+<tr class="separator:a3ef31c439da47a55ca3287bf45a377ad inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ae88237f1bd22f03cb5a77d018c6d7c inherit pub_methods_classMR_1_1VisualObject" id="r_a8ae88237f1bd22f03cb5a77d018c6d7c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a8ae88237f1bd22f03cb5a77d018c6d7c">setGlobalAlphaForAllViewports</a> (<a class="el" href="classMR_1_1ViewportProperty.html">ViewportProperty</a>&lt; uint8_t &gt; val)</td></tr>
 <tr class="memdesc:a8ae88237f1bd22f03cb5a77d018c6d7c inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets global transparency alpha of object in all viewports  <br /></td></tr>
 <tr class="separator:a8ae88237f1bd22f03cb5a77d018c6d7c inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -325,6 +329,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acf24be34b63b1a1ae4d52d02f0c014e2 inherit pub_methods_classMR_1_1VisualObject" id="r_acf24be34b63b1a1ae4d52d02f0c014e2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#acf24be34b63b1a1ae4d52d02f0c014e2">renderForPicker</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;, unsigned) const</td></tr>
 <tr class="memdesc:acf24be34b63b1a1ae4d52d02f0c014e2 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws this object for picking  <br /></td></tr>
 <tr class="separator:acf24be34b63b1a1ae4d52d02f0c014e2 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c703445b89c896790544b583d052e9f inherit pub_methods_classMR_1_1VisualObject" id="r_a7c703445b89c896790544b583d052e9f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a7c703445b89c896790544b583d052e9f">renderUi</a> (const <a class="el" href="structMR_1_1UiRenderParams.html">UiRenderParams</a> &amp;params) const</td></tr>
+<tr class="memdesc:a7c703445b89c896790544b583d052e9f inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws this object for 2d <a class="el" href="namespaceMR_1_1UI.html">UI</a>  <br /></td></tr>
+<tr class="separator:a7c703445b89c896790544b583d052e9f inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a132f300dcd5614eaaa237b865dc79763 inherit pub_methods_classMR_1_1VisualObject" id="r_a132f300dcd5614eaaa237b865dc79763"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a132f300dcd5614eaaa237b865dc79763">VisualObject</a> (<a class="el" href="structMR_1_1Object_1_1ProtectedStruct.html">ProtectedStruct</a>, const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;obj)</td></tr>
 <tr class="memdesc:a132f300dcd5614eaaa237b865dc79763 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">this ctor is public only for std::make_shared used inside <a class="el" href="classMR_1_1VisualObject.html#a2abf3d3c767a16a584ad513af643feca">clone()</a>  <br /></td></tr>
 <tr class="separator:a132f300dcd5614eaaa237b865dc79763 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -404,6 +411,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad7f9426f9adc37a95648822d1566db77 inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac427b5b1a99a87eac1305683801fc850 inherit pub_methods_classMR_1_1Object" id="r_ac427b5b1a99a87eac1305683801fc850"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#ac427b5b1a99a87eac1305683801fc850">setLocked</a> (bool on)</td></tr>
 <tr class="separator:ac427b5b1a99a87eac1305683801fc850 inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6f5f78500e8c1342b7f4d7d98b03928 inherit pub_methods_classMR_1_1Object" id="r_ae6f5f78500e8c1342b7f4d7d98b03928"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#ae6f5f78500e8c1342b7f4d7d98b03928">isParentLocked</a> () const</td></tr>
+<tr class="separator:ae6f5f78500e8c1342b7f4d7d98b03928 inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd0464af4d89730f9a969f997fdcc8ce inherit pub_methods_classMR_1_1Object" id="r_acd0464af4d89730f9a969f997fdcc8ce"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#acd0464af4d89730f9a969f997fdcc8ce">setParentLocked</a> (bool lock)</td></tr>
+<tr class="separator:acd0464af4d89730f9a969f997fdcc8ce inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68500213a1d6e4f3b7f9fc3806fcacd1 inherit pub_methods_classMR_1_1Object" id="r_a68500213a1d6e4f3b7f9fc3806fcacd1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1Object.html">Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a68500213a1d6e4f3b7f9fc3806fcacd1">parent</a> () const</td></tr>
 <tr class="memdesc:a68500213a1d6e4f3b7f9fc3806fcacd1 inherit pub_methods_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns parent object in the tree  <br /></td></tr>
 <tr class="separator:a68500213a1d6e4f3b7f9fc3806fcacd1 inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -412,6 +423,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7c970b0fa099d812c04978d33c4b624e inherit pub_methods_classMR_1_1Object" id="r_a7c970b0fa099d812c04978d33c4b624e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a7c970b0fa099d812c04978d33c4b624e">isAncestor</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> *ancestor) const</td></tr>
 <tr class="memdesc:a7c970b0fa099d812c04978d33c4b624e inherit pub_methods_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if given object is ancestor of this one, false otherwise  <br /></td></tr>
 <tr class="separator:a7c970b0fa099d812c04978d33c4b624e inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3e60b6a82814bffff2ba324dcaa7bd2 inherit pub_methods_classMR_1_1Object" id="r_aa3e60b6a82814bffff2ba324dcaa7bd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Object.html">Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#aa3e60b6a82814bffff2ba324dcaa7bd2">findCommonAncestor</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;other)</td></tr>
+<tr class="separator:aa3e60b6a82814bffff2ba324dcaa7bd2 inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3951674c765923b8a024a44bd27342d inherit pub_methods_classMR_1_1Object" id="r_af3951674c765923b8a024a44bd27342d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1Object.html">Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#af3951674c765923b8a024a44bd27342d">findCommonAncestor</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;other) const</td></tr>
+<tr class="separator:af3951674c765923b8a024a44bd27342d inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80a32a58c497b044d63e5aaa75e77fbe inherit pub_methods_classMR_1_1Object" id="r_a80a32a58c497b044d63e5aaa75e77fbe"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a80a32a58c497b044d63e5aaa75e77fbe">detachFromParent</a> ()</td></tr>
 <tr class="separator:a80a32a58c497b044d63e5aaa75e77fbe inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a918f27844d6d9aae269008f0036bc671 inherit pub_methods_classMR_1_1Object" id="r_a918f27844d6d9aae269008f0036bc671"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a918f27844d6d9aae269008f0036bc671">children</a> ()</td></tr>
@@ -437,8 +452,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a989bd3b98218be00c001e3ee8cb77334 inherit pub_methods_classMR_1_1Object" id="r_a989bd3b98218be00c001e3ee8cb77334"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a989bd3b98218be00c001e3ee8cb77334">select</a> (bool on)</td></tr>
 <tr class="memdesc:a989bd3b98218be00c001e3ee8cb77334 inherit pub_methods_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">selects the object, returns true if value changed, otherwise returns false  <br /></td></tr>
 <tr class="separator:a989bd3b98218be00c001e3ee8cb77334 inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38fe398a8045849e40fb934dd6a2ddd5 inherit pub_methods_classMR_1_1Object" id="r_a38fe398a8045849e40fb934dd6a2ddd5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a38fe398a8045849e40fb934dd6a2ddd5">isSelected</a> () const</td></tr>
-<tr class="separator:a38fe398a8045849e40fb934dd6a2ddd5 inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f649834561a9f246e1d840a0f3080c8 inherit pub_methods_classMR_1_1Object" id="r_a3f649834561a9f246e1d840a0f3080c8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a3f649834561a9f246e1d840a0f3080c8">isSelected</a> () const</td></tr>
+<tr class="separator:a3f649834561a9f246e1d840a0f3080c8 inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3758df5e3fe75f83c0449e77770961b3 inherit pub_methods_classMR_1_1Object" id="r_a3758df5e3fe75f83c0449e77770961b3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a3758df5e3fe75f83c0449e77770961b3">setAncillary</a> (bool ancillary)</td></tr>
 <tr class="separator:a3758df5e3fe75f83c0449e77770961b3 inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3dcf68a5faec85e8e753e34ab77eb1b9 inherit pub_methods_classMR_1_1Object" id="r_a3dcf68a5faec85e8e753e34ab77eb1b9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a3dcf68a5faec85e8e753e34ab77eb1b9">isAncillary</a> () const</td></tr>
@@ -452,9 +467,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a01ca9dab857ceb8e3fad3d04d271ff0e inherit pub_methods_classMR_1_1Object" id="r_a01ca9dab857ceb8e3fad3d04d271ff0e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a01ca9dab857ceb8e3fad3d04d271ff0e">setVisibilityMask</a> (<a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> viewportMask)</td></tr>
 <tr class="memdesc:a01ca9dab857ceb8e3fad3d04d271ff0e inherit pub_methods_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">specifies object visibility as bitmask of viewports  <br /></td></tr>
 <tr class="separator:a01ca9dab857ceb8e3fad3d04d271ff0e inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa06240f9736a566b00e4541e450b8e57 inherit pub_methods_classMR_1_1Object" id="r_aa06240f9736a566b00e4541e450b8e57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#aa06240f9736a566b00e4541e450b8e57">visibilityMask</a> () const</td></tr>
-<tr class="memdesc:aa06240f9736a566b00e4541e450b8e57 inherit pub_methods_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets object visibility as bitmask of viewports  <br /></td></tr>
-<tr class="separator:aa06240f9736a566b00e4541e450b8e57 inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9363ba86191cc486fa554ea0d6238d05 inherit pub_methods_classMR_1_1Object" id="r_a9363ba86191cc486fa554ea0d6238d05"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a9363ba86191cc486fa554ea0d6238d05">visibilityMask</a> () const</td></tr>
+<tr class="memdesc:a9363ba86191cc486fa554ea0d6238d05 inherit pub_methods_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets object visibility as bitmask of viewports  <br /></td></tr>
+<tr class="separator:a9363ba86191cc486fa554ea0d6238d05 inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9dc77f3f61430395182e8402e6e6f410 inherit pub_methods_classMR_1_1Object" id="r_a9dc77f3f61430395182e8402e6e6f410"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a9dc77f3f61430395182e8402e6e6f410">resetRedrawFlag</a> () const</td></tr>
 <tr class="separator:a9dc77f3f61430395182e8402e6e6f410 inherit pub_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54eb8f6e602368572ffb27af73f87465 inherit pub_methods_classMR_1_1Object" id="r_a54eb8f6e602368572ffb27af73f87465"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a54eb8f6e602368572ffb27af73f87465">cloneTree</a> () const</td></tr>
@@ -526,16 +541,25 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a502ed4a3293b4e8466ef0eacaa0f8d9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a46ff446a508a1e4da51f1a85880461" id="r_a3a46ff446a508a1e4da51f1a85880461"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a46ff446a508a1e4da51f1a85880461">setupRenderObject_</a> () const override</td></tr>
 <tr class="separator:a3a46ff446a508a1e4da51f1a85880461"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8485f04d2b33612fd7c5f7cbfe96fb91" id="r_a8485f04d2b33612fd7c5f7cbfe96fb91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8485f04d2b33612fd7c5f7cbfe96fb91">setAllVisualizeProperties_</a> (const <a class="el" href="group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f">AllVisualizeProperties</a> &amp;properties, std::size_t &amp;pos) override</td></tr>
+<tr class="memdesc:a8485f04d2b33612fd7c5f7cbfe96fb91"><td class="mdescLeft">&#160;</td><td class="mdescRight">set all visualize properties masks  <br /></td></tr>
+<tr class="separator:a8485f04d2b33612fd7c5f7cbfe96fb91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classMR_1_1VisualObject"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classMR_1_1VisualObject')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a></td></tr>
 <tr class="memitem:a84d46a3ce3da143b5735f0b6ac79deee inherit pro_methods_classMR_1_1VisualObject" id="r_a84d46a3ce3da143b5735f0b6ac79deee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a84d46a3ce3da143b5735f0b6ac79deee">VisualObject</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;obj)=default</td></tr>
 <tr class="separator:a84d46a3ce3da143b5735f0b6ac79deee inherit pro_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a707ecabffd277a2bcaf0c783af412fb4 inherit pro_methods_classMR_1_1VisualObject" id="r_a707ecabffd277a2bcaf0c783af412fb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a707ecabffd277a2bcaf0c783af412fb4">getVisualizePropertyMask_</a> (unsigned type)</td></tr>
-<tr class="separator:a707ecabffd277a2bcaf0c783af412fb4 inherit pro_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11c8d591aa72e021a946b58349b80bcf inherit pro_methods_classMR_1_1VisualObject" id="r_a11c8d591aa72e021a946b58349b80bcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a11c8d591aa72e021a946b58349b80bcf">getVisualizePropertyMask_</a> (<a class="el" href="classMR_1_1AnyVisualizeMaskEnum.html">AnyVisualizeMaskEnum</a> type)</td></tr>
+<tr class="separator:a11c8d591aa72e021a946b58349b80bcf inherit pro_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a671160c49edeed239f1361b59bd68810 inherit pro_methods_classMR_1_1VisualObject" id="r_a671160c49edeed239f1361b59bd68810"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a671160c49edeed239f1361b59bd68810">deserializeFields_</a> (const Json::Value &amp;root) override</td></tr>
 <tr class="separator:a671160c49edeed239f1361b59bd68810 inherit pro_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af81b9247c457c9dbd36d6bbe4c74b826 inherit pro_methods_classMR_1_1VisualObject" id="r_af81b9247c457c9dbd36d6bbe4c74b826"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#af81b9247c457c9dbd36d6bbe4c74b826">boundingBoxToInfoLines_</a> (std::vector&lt; std::string &gt; &amp;res) const</td></tr>
 <tr class="memdesc:af81b9247c457c9dbd36d6bbe4c74b826 inherit pro_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds information about bounding box in res  <br /></td></tr>
 <tr class="separator:af81b9247c457c9dbd36d6bbe4c74b826 inherit pro_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa66ddfe5c8361744b9537dead37974b6 inherit pro_methods_classMR_1_1VisualObject" id="r_aa66ddfe5c8361744b9537dead37974b6"><td class="memTemplParams" colspan="2">template&lt;AnyVisualizeMaskEnumType T&gt; </td></tr>
+<tr class="memitem:aa66ddfe5c8361744b9537dead37974b6 inherit pro_methods_classMR_1_1VisualObject"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#aa66ddfe5c8361744b9537dead37974b6">setAllVisualizePropertiesForEnum</a> (const <a class="el" href="group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f">AllVisualizeProperties</a> &amp;properties, std::size_t &amp;pos)</td></tr>
+<tr class="separator:aa66ddfe5c8361744b9537dead37974b6 inherit pro_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44359499c4ee0b22074b8f3999d53a6e inherit pro_methods_classMR_1_1VisualObject" id="r_a44359499c4ee0b22074b8f3999d53a6e"><td class="memTemplParams" colspan="2">template&lt;AnyVisualizeMaskEnumType T&gt; </td></tr>
+<tr class="memitem:a44359499c4ee0b22074b8f3999d53a6e inherit pro_methods_classMR_1_1VisualObject"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a44359499c4ee0b22074b8f3999d53a6e">getAllVisualizePropertiesForEnum</a> (<a class="el" href="group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f">AllVisualizeProperties</a> &amp;properties) const</td></tr>
+<tr class="separator:a44359499c4ee0b22074b8f3999d53a6e inherit pro_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classMR_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
 <tr class="memitem:ac5bae69ebe807554a5e9f8b91a89dfd6 inherit pro_methods_classMR_1_1Object" id="r_ac5bae69ebe807554a5e9f8b91a89dfd6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#ac5bae69ebe807554a5e9f8b91a89dfd6">Object</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;obj)=default</td></tr>
 <tr class="memdesc:ac5bae69ebe807554a5e9f8b91a89dfd6 inherit pro_methods_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">user should not be able to call copy implicitly, use <a class="el" href="classMR_1_1Object.html#ae0f00298204b65ca49b4daaa9a39f5c5" title="clones current object only, without parent and/or children">clone()</a> function instead  <br /></td></tr>
@@ -585,8 +609,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a00c87dfb674938a5d27218e746079782 inherit pro_attribs_classMR_1_1VisualObject" id="r_a00c87dfb674938a5d27218e746079782"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a00c87dfb674938a5d27218e746079782">cropLabels_</a> = <a class="el" href="classMR_1_1ViewportMask.html#a46b7527f0e3a3394b41be2515c171747">ViewportMask::all</a>()</td></tr>
 <tr class="separator:a00c87dfb674938a5d27218e746079782 inherit pro_attribs_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43bcd013faf296110ba8cb4a94bbe12f inherit pro_attribs_classMR_1_1VisualObject" id="r_a43bcd013faf296110ba8cb4a94bbe12f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a43bcd013faf296110ba8cb4a94bbe12f">pickable_</a> = <a class="el" href="classMR_1_1ViewportMask.html#a46b7527f0e3a3394b41be2515c171747">ViewportMask::all</a>()</td></tr>
-<tr class="memdesc:a43bcd013faf296110ba8cb4a94bbe12f inherit pro_attribs_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">enable picking by gl <br  />
-  <br /></td></tr>
+<tr class="memdesc:a43bcd013faf296110ba8cb4a94bbe12f inherit pro_attribs_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">enable picking by gl  <br /></td></tr>
 <tr class="separator:a43bcd013faf296110ba8cb4a94bbe12f inherit pro_attribs_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6cd63e72a721fbe39cdff002950bce4 inherit pro_attribs_classMR_1_1VisualObject" id="r_af6cd63e72a721fbe39cdff002950bce4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#af6cd63e72a721fbe39cdff002950bce4">invertNormals_</a></td></tr>
 <tr class="memdesc:af6cd63e72a721fbe39cdff002950bce4 inherit pro_attribs_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">invert mesh normals  <br /></td></tr>
@@ -628,6 +651,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ae98466115f6fa8989c8628ff6ec54e9e inherit pro_attribs_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a958714fb7d616e608cb16223e052052b inherit pro_attribs_classMR_1_1Object" id="r_a958714fb7d616e608cb16223e052052b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a958714fb7d616e608cb16223e052052b">locked_</a> = false</td></tr>
 <tr class="separator:a958714fb7d616e608cb16223e052052b inherit pro_attribs_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f679f701887cee54069b81a45cc8ebc inherit pro_attribs_classMR_1_1Object" id="r_a2f679f701887cee54069b81a45cc8ebc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a2f679f701887cee54069b81a45cc8ebc">parentLocked_</a> = false</td></tr>
+<tr class="separator:a2f679f701887cee54069b81a45cc8ebc inherit pro_attribs_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d8ef27f83b47e000093eaa0df9c36f9 inherit pro_attribs_classMR_1_1Object" id="r_a0d8ef27f83b47e000093eaa0df9c36f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a0d8ef27f83b47e000093eaa0df9c36f9">selected_</a> { false }</td></tr>
 <tr class="separator:a0d8ef27f83b47e000093eaa0df9c36f9 inherit pro_attribs_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7919fe84554abf5973d82255df4425a6 inherit pro_attribs_classMR_1_1Object" id="r_a7919fe84554abf5973d82255df4425a6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a7919fe84554abf5973d82255df4425a6">ancillary_</a> { false }</td></tr>
@@ -647,7 +672,6 @@ Protected Attributes</h2></td></tr>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_types_classMR_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
 <tr class="memitem:a10a84bc12112d8dd74450c7d360b5c06 inherit pub_types_classMR_1_1Object" id="r_a10a84bc12112d8dd74450c7d360b5c06"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a10a84bc12112d8dd74450c7d360b5c06">XfChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt;void() &gt;</td></tr>
-<tr class="memdesc:a10a84bc12112d8dd74450c7d360b5c06 inherit pub_types_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about xf changing, triggered in setXf and setWorldXf, it is called for children too  <br /></td></tr>
 <tr class="separator:a10a84bc12112d8dd74450c7d360b5c06 inherit pub_types_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classMR_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
 <tr class="memitem:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object" id="r_a84debbb8e5d281139acb86024c2f7964"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Object.html#a10a84bc12112d8dd74450c7d360b5c06">XfChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964">worldXfChangedSignal</a></td></tr>
@@ -809,7 +833,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1VisualObject.html#a2abf3d3c767a16a584ad513af643feca">MR::VisualObject</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1CircleObject.html#a1fcb69f1dd8bdbf42302043d67fb8fa8">MR::CircleObject</a>, <a class="el" href="classMR_1_1LineObject.html#aa9a192c6a7b45287b4e6221e3d5ecb6d">MR::LineObject</a>, <a class="el" href="classMR_1_1ObjectGcode.html#adb08022f8d2a8019b625e6e28e6fd32c">MR::ObjectGcode</a>, and <a class="el" href="classMR_1_1ObjectLines.html#ada224fb3ab391e048a38ca259d333c09">MR::ObjectLines</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1ObjectGcode.html#adb08022f8d2a8019b625e6e28e6fd32c">MR::ObjectGcode</a>, and <a class="el" href="classMR_1_1ObjectLines.html#ada224fb3ab391e048a38ca259d333c09">MR::ObjectLines</a>.</p>
 
 </div>
 </div>
@@ -897,8 +921,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a2798b1849e8c43f61a65e198db996c38" name="a2798b1849e8c43f61a65e198db996c38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2798b1849e8c43f61a65e198db996c38">&#9670;&#160;</a></span>getAllVisualizeProperties()</h2>
+<a id="af36a700f7b56ba0159abf2c66b58d630" name="af36a700f7b56ba0159abf2c66b58d630"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af36a700f7b56ba0159abf2c66b58d630">&#9670;&#160;</a></span>getAllVisualizeProperties()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -907,7 +931,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f">AllVisualizeProperties</a> MR::ObjectLinesHolder::getAllVisualizeProperties </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f">AllVisualizeProperties</a> MR::ObjectLinesHolder::getAllVisualizeProperties </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td> const</td>
@@ -920,7 +944,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>get all visualize properties masks as array </p>
+<p>get all visualize properties masks </p>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1VisualObject.html#ab5a7a842052c24ab9b286eafae1bfb8d">MR::VisualObject</a>.</p>
 
@@ -951,8 +975,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a1973470e52b14c804f3c6c0898d32904" name="a1973470e52b14c804f3c6c0898d32904"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1973470e52b14c804f3c6c0898d32904">&#9670;&#160;</a></span>getLineWidth()</h2>
+<a id="ad29f08547db22aca65fa19e23ac218b7" name="ad29f08547db22aca65fa19e23ac218b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad29f08547db22aca65fa19e23ac218b7">&#9670;&#160;</a></span>getLineWidth()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -961,7 +985,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float MR::ObjectLinesHolder::getLineWidth </td>
+          <td class="memname">virtual float MR::ObjectLinesHolder::getLineWidth </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td> const</td>
@@ -969,15 +993,15 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="afade546b380f165250bd73157dae1fbd" name="afade546b380f165250bd73157dae1fbd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afade546b380f165250bd73157dae1fbd">&#9670;&#160;</a></span>getPointSize()</h2>
+<a id="a73e673c22a3081ef1fc777c20c702125" name="a73e673c22a3081ef1fc777c20c702125"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73e673c22a3081ef1fc777c20c702125">&#9670;&#160;</a></span>getPointSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -986,7 +1010,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float MR::ObjectLinesHolder::getPointSize </td>
+          <td class="memname">virtual float MR::ObjectLinesHolder::getPointSize </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td> const</td>
@@ -994,15 +1018,15 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a5d13c8c395f958091f374366074439e4" name="a5d13c8c395f958091f374366074439e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d13c8c395f958091f374366074439e4">&#9670;&#160;</a></span>getVisualizePropertyMask()</h2>
+<a id="ab19b7af18f21594b91628233ca2421b5" name="ab19b7af18f21594b91628233ca2421b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab19b7af18f21594b91628233ca2421b5">&#9670;&#160;</a></span>getVisualizePropertyMask()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1011,9 +1035,9 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> &amp; MR::ObjectLinesHolder::getVisualizePropertyMask </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> &amp; MR::ObjectLinesHolder::getVisualizePropertyMask </td>
           <td>(</td>
-          <td class="paramtype">unsigned</td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1AnyVisualizeMaskEnum.html">AnyVisualizeMaskEnum</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -1026,7 +1050,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>returns mask of viewports where given property is set </p>
 
-<p>Reimplemented from <a class="el" href="classMR_1_1VisualObject.html#a2d0de59e16bf45e9564c9353ad7fb746">MR::VisualObject</a>.</p>
+<p>Reimplemented from <a class="el" href="classMR_1_1VisualObject.html#a94e84a6aefe10a606f6dbf056049dcee">MR::VisualObject</a>.</p>
 
 </div>
 </div>
@@ -1058,6 +1082,34 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a8374696160d445c466b11e006c7fb4c7" name="a8374696160d445c466b11e006c7fb4c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8374696160d445c466b11e006c7fb4c7">&#9670;&#160;</a></span>hasModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool MR::ObjectLinesHolder::hasModel </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>does the object have any model available (but possibly empty), e.g. <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> has valid mesh() or <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> has valid pointCloud() </p>
+
+<p>Reimplemented from <a class="el" href="classMR_1_1Object.html#a376cb1be36addec5afd14487533e6693">MR::Object</a>.</p>
+
+</div>
+</div>
 <a id="ab254bdde22e806161d869d150ac181b8" name="ab254bdde22e806161d869d150ac181b8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab254bdde22e806161d869d150ac181b8">&#9670;&#160;</a></span>hasVisualRepresentation()</h2>
 
@@ -1081,9 +1133,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>is object has any visual representation (faces, edges, etc.) </p>
+<p>does the object have any visual representation (visible points, triangles, edges, etc.), no considering child objects </p>
 
-<p>Reimplemented from <a class="el" href="classMR_1_1VisualObject.html#a6fbac44c3310221cc666888718834ca6">MR::VisualObject</a>.</p>
+<p>Reimplemented from <a class="el" href="classMR_1_1Object.html#a9f8a60330354b5cd43536c22bed08f3d">MR::Object</a>.</p>
 
 </div>
 </div>
@@ -1240,7 +1292,40 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1VisualObject.html#aa7e5231f013c0e9e1b528c69759cc60d">MR::VisualObject</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1CircleObject.html#a2f2f75df180154bb0a2973c18a588e3f">MR::CircleObject</a>, <a class="el" href="classMR_1_1LineObject.html#a70dc397b963d30654e48c48ef0dbc910">MR::LineObject</a>, <a class="el" href="classMR_1_1ObjectGcode.html#a79f589a038123b0475af33b9b0d43d2a">MR::ObjectGcode</a>, and <a class="el" href="classMR_1_1ObjectLines.html#ada9a662dc02f094a109afa99afda0e43">MR::ObjectLines</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1ObjectGcode.html#a79f589a038123b0475af33b9b0d43d2a">MR::ObjectGcode</a>, and <a class="el" href="classMR_1_1ObjectLines.html#ada9a662dc02f094a109afa99afda0e43">MR::ObjectLines</a>.</p>
+
+</div>
+</div>
+<a id="a8485f04d2b33612fd7c5f7cbfe96fb91" name="a8485f04d2b33612fd7c5f7cbfe96fb91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8485f04d2b33612fd7c5f7cbfe96fb91">&#9670;&#160;</a></span>setAllVisualizeProperties_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectLinesHolder::setAllVisualizeProperties_ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f">AllVisualizeProperties</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>properties</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>set all visualize properties masks </p>
+
+<p>Reimplemented from <a class="el" href="classMR_1_1VisualObject.html#a5ec593dbd42519c53e6ebe322386f9a6">MR::VisualObject</a>.</p>
 
 </div>
 </div>
@@ -1413,7 +1498,36 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1VisualObject.html#adf2d7e16d33d059dbf2bbd0f1c34c8bf">MR::VisualObject</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1CircleObject.html#a1b666f68cb067916d8b0a10e19c98af6">MR::CircleObject</a>, <a class="el" href="classMR_1_1LineObject.html#a1ee596ccd488d1e2f49a4d690b9b6a32">MR::LineObject</a>, <a class="el" href="classMR_1_1ObjectGcode.html#aba7a233ed2aaa7ce653e88e8795ffa84">MR::ObjectGcode</a>, and <a class="el" href="classMR_1_1ObjectLines.html#aff95536683320ad3bdc54a759afe5e7b">MR::ObjectLines</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1ObjectGcode.html#aba7a233ed2aaa7ce653e88e8795ffa84">MR::ObjectGcode</a>, and <a class="el" href="classMR_1_1ObjectLines.html#aff95536683320ad3bdc54a759afe5e7b">MR::ObjectLines</a>.</p>
+
+</div>
+</div>
+<a id="a9ebf2f4fb4aaec33e52f3d1be2b2d74d" name="a9ebf2f4fb4aaec33e52f3d1be2b2d74d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ebf2f4fb4aaec33e52f3d1be2b2d74d">&#9670;&#160;</a></span>supportsVisualizeProperty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::ObjectLinesHolder::supportsVisualizeProperty </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1AnyVisualizeMaskEnum.html">AnyVisualizeMaskEnum</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if this class supports the property <code>type</code>. Otherwise passing it to the functions below is illegal. </p>
+
+<p>Reimplemented from <a class="el" href="classMR_1_1VisualObject.html#a17a87c846a1caa768c3043ee50bbd966">MR::VisualObject</a>.</p>
 
 </div>
 </div>
@@ -1444,7 +1558,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1VisualObject.html#a76b7b6b3bfd7dac31eb1d150afb761f7">MR::VisualObject</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1CircleObject.html#a744c3d9624e8aaae878e393781b1b263">MR::CircleObject</a>, <a class="el" href="classMR_1_1LineObject.html#adec17436488d24c31d8bcfeb2e4d1118">MR::LineObject</a>, <a class="el" href="classMR_1_1ObjectGcode.html#a3369ad296b25670f64dcd09ff243e020">MR::ObjectGcode</a>, and <a class="el" href="classMR_1_1ObjectLines.html#a527fce3c91b8dc02284dab71a95d2ea7">MR::ObjectLines</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1ObjectGcode.html#a3369ad296b25670f64dcd09ff243e020">MR::ObjectGcode</a>, and <a class="el" href="classMR_1_1ObjectLines.html#a527fce3c91b8dc02284dab71a95d2ea7">MR::ObjectLines</a>.</p>
 
 </div>
 </div>
@@ -1473,7 +1587,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1VisualObject.html#a6f629cc6822b206ab9232648fa19dcb6">MR::VisualObject</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1CircleObject.html#a7dd05445d9524f457b174b86526f7917">MR::CircleObject</a>, <a class="el" href="classMR_1_1LineObject.html#afe5e0bae23cb23a4485ddd95a2cb16ca">MR::LineObject</a>, <a class="el" href="classMR_1_1ObjectGcode.html#ac27e546bf2d66d45930837b6dd37cd9e">MR::ObjectGcode</a>, and <a class="el" href="classMR_1_1ObjectLines.html#a069fc0b9496c10738c79ed84e458c729">MR::ObjectLines</a>.</p>
+<p>Reimplemented in <a class="el" href="classMR_1_1ObjectGcode.html#ac27e546bf2d66d45930837b6dd37cd9e">MR::ObjectGcode</a>, and <a class="el" href="classMR_1_1ObjectLines.html#a069fc0b9496c10738c79ed84e458c729">MR::ObjectLines</a>.</p>
 
 </div>
 </div>

@@ -39,10 +39,10 @@ var group__PointCloudGroup =
       [ "setDistances", "classMR_1_1RegularMapMesher.html#a48f6cd19965602a3fb9f4669c22e3c14", null ],
       [ "setSurfacePC", "classMR_1_1RegularMapMesher.html#a9ed2cde9e77dce74ecb24b16eb4db785", null ]
     ] ],
-    [ "MR::findAvgPointsRadius", "group__PointCloudGroup.html#ga4a89d60a46db4f5461bda741c72574eb", null ],
-    [ "MR::improveSampling", "group__PointCloudGroup.html#ga17c31527ff42fd2f347ed5af6b87d3b7", null ],
+    [ "MR::findAvgPointsRadius", "group__PointCloudGroup.html#ga65f914c5f869b8b554e8394912e5a7a3", null ],
+    [ "MR::improveSampling", "group__PointCloudGroup.html#gad56601e20058641f49fa277149d87e08", null ],
     [ "MR::makeNormals", "group__PointCloudGroup.html#ga6d1b190105546ec214cc4ab692ece60e", null ],
-    [ "MR::makeOrientedNormals", "group__PointCloudGroup.html#ga51d8f615a0f50e4a2917291e0b3426c1", null ],
+    [ "MR::makeOrientedNormals", "group__PointCloudGroup.html#gab197779cd5dda18a937f178ef98ceb27", null ],
     [ "MR::makeOrientedNormals", "group__PointCloudGroup.html#ga40da78b08c082b4012d578e9b68e0c69", null ],
     [ "MR::makeUniformSampledCloud", "group__PointCloudGroup.html#gacc95b061bc268ba7d0b6e32ac47807f7", null ],
     [ "MR::makeUnorientedNormals", "group__PointCloudGroup.html#ga04eb12c4821cbe0801dbc7dc8472992c", null ],

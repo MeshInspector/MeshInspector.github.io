@@ -118,8 +118,9 @@ $(function(){initNavTree('classMR_1_1IRenderObject.html',''); initResizable(); }
 <area href="classMR_1_1RenderLabelObject.html" alt="MR::RenderLabelObject" shape="rect" coords="0,56,157,80"/>
 <area href="classMR_1_1RenderLinesObject.html" alt="MR::RenderLinesObject" shape="rect" coords="167,56,324,80"/>
 <area href="classMR_1_1RenderMeshObject.html" alt="MR::RenderMeshObject" shape="rect" coords="334,56,491,80"/>
-<area href="classMR_1_1RenderPointsObject.html" alt="MR::RenderPointsObject" shape="rect" coords="501,56,658,80"/>
-<area href="classMR_1_1RenderVolumeObject.html" alt="MR::RenderVolumeObject" shape="rect" coords="668,56,825,80"/>
+<area href="classMR_1_1RenderNameObject.html" alt="MR::RenderNameObject" shape="rect" coords="501,56,658,80"/>
+<area href="classMR_1_1RenderPointsObject.html" alt="MR::RenderPointsObject" shape="rect" coords="668,56,825,80"/>
+<area href="classMR_1_1RenderVolumeObject.html" alt="MR::RenderVolumeObject" shape="rect" coords="835,56,992,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -127,19 +128,21 @@ $(function(){initNavTree('classMR_1_1IRenderObject.html',''); initResizable(); }
 Public Member Functions</h2></td></tr>
 <tr class="memitem:acb87b662f59e2d557580f2ad1f38fa7a" id="r_acb87b662f59e2d557580f2ad1f38fa7a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb87b662f59e2d557580f2ad1f38fa7a">~IRenderObject</a> ()=default</td></tr>
 <tr class="separator:acb87b662f59e2d557580f2ad1f38fa7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fdb6d308656e02fa86f0c3343665c59" id="r_a8fdb6d308656e02fa86f0c3343665c59"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fdb6d308656e02fa86f0c3343665c59">render</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;params)=0</td></tr>
-<tr class="separator:a8fdb6d308656e02fa86f0c3343665c59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a353367b27007d962a4204872c4d0c037" id="r_a353367b27007d962a4204872c4d0c037"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a353367b27007d962a4204872c4d0c037">renderPicker</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;params, unsigned geomId)=0</td></tr>
-<tr class="separator:a353367b27007d962a4204872c4d0c037"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dc3333e9c2b95b66b8a37cd4e04d699" id="r_a1dc3333e9c2b95b66b8a37cd4e04d699"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dc3333e9c2b95b66b8a37cd4e04d699">heapBytes</a> () const =0</td></tr>
-<tr class="memdesc:a1dc3333e9c2b95b66b8a37cd4e04d699"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
-<tr class="separator:a1dc3333e9c2b95b66b8a37cd4e04d699"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae83a35d34104416076644577c45f084b" id="r_ae83a35d34104416076644577c45f084b"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae83a35d34104416076644577c45f084b">glBytes</a> () const =0</td></tr>
-<tr class="memdesc:ae83a35d34104416076644577c45f084b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object allocated in OpenGL  <br /></td></tr>
-<tr class="separator:ae83a35d34104416076644577c45f084b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a334e2da7ab725dd66f36ca503f022566" id="r_a334e2da7ab725dd66f36ca503f022566"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a334e2da7ab725dd66f36ca503f022566">render</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;params)=0</td></tr>
+<tr class="separator:a334e2da7ab725dd66f36ca503f022566"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad889c8378e5442dd02267ad472e6cdca" id="r_ad889c8378e5442dd02267ad472e6cdca"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad889c8378e5442dd02267ad472e6cdca">renderPicker</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;params, unsigned geomId)=0</td></tr>
+<tr class="separator:ad889c8378e5442dd02267ad472e6cdca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79569d09a46b696bc119c62ac7faaad8" id="r_a79569d09a46b696bc119c62ac7faaad8"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79569d09a46b696bc119c62ac7faaad8">heapBytes</a> () const =0</td></tr>
+<tr class="memdesc:a79569d09a46b696bc119c62ac7faaad8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
+<tr class="separator:a79569d09a46b696bc119c62ac7faaad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adefa4d9a963e416cc21d7116749cdffe" id="r_adefa4d9a963e416cc21d7116749cdffe"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adefa4d9a963e416cc21d7116749cdffe">glBytes</a> () const =0</td></tr>
+<tr class="memdesc:adefa4d9a963e416cc21d7116749cdffe"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object allocated in OpenGL  <br /></td></tr>
+<tr class="separator:adefa4d9a963e416cc21d7116749cdffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cc3204a31145ab371e129da393b7215" id="r_a6cc3204a31145ab371e129da393b7215"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cc3204a31145ab371e129da393b7215">forceBindAll</a> ()</td></tr>
 <tr class="memdesc:a6cc3204a31145ab371e129da393b7215"><td class="mdescLeft">&#160;</td><td class="mdescRight">binds all data for this render object, not to bind ever again (until object becomes dirty)  <br /></td></tr>
 <tr class="separator:a6cc3204a31145ab371e129da393b7215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82fb37eb78d6e11f1b41f3fc2a99c5eb" id="r_a82fb37eb78d6e11f1b41f3fc2a99c5eb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82fb37eb78d6e11f1b41f3fc2a99c5eb">renderUi</a> (const <a class="el" href="structMR_1_1UiRenderParams.html">UiRenderParams</a> &amp;params)</td></tr>
+<tr class="separator:a82fb37eb78d6e11f1b41f3fc2a99c5eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="acb87b662f59e2d557580f2ad1f38fa7a" name="acb87b662f59e2d557580f2ad1f38fa7a"></a>
@@ -197,8 +200,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae83a35d34104416076644577c45f084b" name="ae83a35d34104416076644577c45f084b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae83a35d34104416076644577c45f084b">&#9670;&#160;</a></span>glBytes()</h2>
+<a id="adefa4d9a963e416cc21d7116749cdffe" name="adefa4d9a963e416cc21d7116749cdffe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adefa4d9a963e416cc21d7116749cdffe">&#9670;&#160;</a></span>glBytes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -207,7 +210,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual size_t MR::IRenderObject::glBytes </td>
+          <td class="memname">size_t MR::IRenderObject::glBytes </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td> const</td>
@@ -215,7 +218,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -226,8 +229,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1dc3333e9c2b95b66b8a37cd4e04d699" name="a1dc3333e9c2b95b66b8a37cd4e04d699"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1dc3333e9c2b95b66b8a37cd4e04d699">&#9670;&#160;</a></span>heapBytes()</h2>
+<a id="a79569d09a46b696bc119c62ac7faaad8" name="a79569d09a46b696bc119c62ac7faaad8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79569d09a46b696bc119c62ac7faaad8">&#9670;&#160;</a></span>heapBytes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236,7 +239,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual size_t MR::IRenderObject::heapBytes </td>
+          <td class="memname">size_t MR::IRenderObject::heapBytes </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td> const</td>
@@ -244,7 +247,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -255,8 +258,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8fdb6d308656e02fa86f0c3343665c59" name="a8fdb6d308656e02fa86f0c3343665c59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fdb6d308656e02fa86f0c3343665c59">&#9670;&#160;</a></span>render()</h2>
+<a id="a334e2da7ab725dd66f36ca503f022566" name="a334e2da7ab725dd66f36ca503f022566"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a334e2da7ab725dd66f36ca503f022566">&#9670;&#160;</a></span>render()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -265,7 +268,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void MR::IRenderObject::render </td>
+          <td class="memname">void MR::IRenderObject::render </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span></td><td>)</td>
           <td></td>
@@ -273,7 +276,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -282,8 +285,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a353367b27007d962a4204872c4d0c037" name="a353367b27007d962a4204872c4d0c037"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a353367b27007d962a4204872c4d0c037">&#9670;&#160;</a></span>renderPicker()</h2>
+<a id="ad889c8378e5442dd02267ad472e6cdca" name="ad889c8378e5442dd02267ad472e6cdca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad889c8378e5442dd02267ad472e6cdca">&#9670;&#160;</a></span>renderPicker()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -292,7 +295,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void MR::IRenderObject::renderPicker </td>
+          <td class="memname">void MR::IRenderObject::renderPicker </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em>, </span></td>
         </tr>
@@ -304,12 +307,43 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Implemented in <a class="el" href="classMR_1_1RenderLabelObject.html#a561eec53b4d40841d356fe49935f1d11">MR::RenderLabelObject</a>, <a class="el" href="classMR_1_1RenderLinesObject.html#a82cb80296fc1c6461c5d3737d61a2977">MR::RenderLinesObject</a>, <a class="el" href="classMR_1_1RenderMeshObject.html#ac353e338b5e3a4e67a6ccdfacab27c87">MR::RenderMeshObject</a>, <a class="el" href="classMR_1_1RenderPointsObject.html#a8f5abbf7ab2da0d121d1c757ff66c4e9">MR::RenderPointsObject</a>, and <a class="el" href="classMR_1_1RenderVolumeObject.html#a5ed2c3f92eb5197b539a59adff091808">MR::RenderVolumeObject</a>.</p>
+
+</div>
+</div>
+<a id="a82fb37eb78d6e11f1b41f3fc2a99c5eb" name="a82fb37eb78d6e11f1b41f3fc2a99c5eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82fb37eb78d6e11f1b41f3fc2a99c5eb">&#9670;&#160;</a></span>renderUi()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MR::IRenderObject::renderUi </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1UiRenderParams.html">UiRenderParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Render the <a class="el" href="namespaceMR_1_1UI.html">UI</a>. This is repeated for each viewport. Here you can either render immediately, or insert a task into <code>params.tasks</code>, which get Z-sorted.</p><ul>
+<li><code>params</code> will remain alive as long as the tasks are used.</li>
+<li>You'll have at most one living task at a time, so you can write a non-owning pointer to an internal task. </li>
+</ul>
+
+<p>Reimplemented in <a class="el" href="classMR_1_1RenderNameObject.html#a85d8945ec399906e1fea281443b0f95b">MR::RenderNameObject</a>.</p>
 
 </div>
 </div>

@@ -111,11 +111,15 @@ $(function(){initNavTree('structMR_1_1TriangulationHelpers_1_1Settings.html','')
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aeadcc460fdb58725f5fd22d6457ea9b2" id="r_aeadcc460fdb58725f5fd22d6457ea9b2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeadcc460fdb58725f5fd22d6457ea9b2">radius</a> = 0</td></tr>
-<tr class="memdesc:aeadcc460fdb58725f5fd22d6457ea9b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">initial radius of search for neighbours, it can be increased automatically  <br /></td></tr>
 <tr class="separator:aeadcc460fdb58725f5fd22d6457ea9b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45558230d0bcbdc7e5d3da4e7f7b3ab7" id="r_a45558230d0bcbdc7e5d3da4e7f7b3ab7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45558230d0bcbdc7e5d3da4e7f7b3ab7">numNeis</a> = 0</td></tr>
+<tr class="separator:a45558230d0bcbdc7e5d3da4e7f7b3ab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adaecbf29331f6b90ae2a11acaa0c153a" id="r_adaecbf29331f6b90ae2a11acaa0c153a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaecbf29331f6b90ae2a11acaa0c153a">critAngle</a> = PI2_F</td></tr>
 <tr class="memdesc:adaecbf29331f6b90ae2a11acaa0c153a"><td class="mdescLeft">&#160;</td><td class="mdescRight">max allowed angle for triangles in fan  <br /></td></tr>
 <tr class="separator:adaecbf29331f6b90ae2a11acaa0c153a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a341b31c3cef2ea814252e40a6dfbc8aa" id="r_a341b31c3cef2ea814252e40a6dfbc8aa"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a341b31c3cef2ea814252e40a6dfbc8aa">boundaryAngle</a> = 0.9f * PI_F</td></tr>
+<tr class="memdesc:a341b31c3cef2ea814252e40a6dfbc8aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">the vertex is considered as boundary if its neighbor ring has angle more than this value  <br /></td></tr>
+<tr class="separator:a341b31c3cef2ea814252e40a6dfbc8aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe33d444027e0033891d8d9d75e52e1f" id="r_abe33d444027e0033891d8d9d75e52e1f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#ad74e2d018e02d0b815decae208d49ceb">VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe33d444027e0033891d8d9d75e52e1f">trustedNormals</a> = nullptr</td></tr>
 <tr class="memdesc:abe33d444027e0033891d8d9d75e52e1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">if oriented normals are known, they will be used for neighbor points selection  <br /></td></tr>
 <tr class="separator:abe33d444027e0033891d8d9d75e52e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -181,6 +185,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a341b31c3cef2ea814252e40a6dfbc8aa" name="a341b31c3cef2ea814252e40a6dfbc8aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a341b31c3cef2ea814252e40a6dfbc8aa">&#9670;&#160;</a></span>boundaryAngle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::TriangulationHelpers::Settings::boundaryAngle = 0.9f * PI_F</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the vertex is considered as boundary if its neighbor ring has angle more than this value </p>
+
+</div>
+</div>
 <a id="adaecbf29331f6b90ae2a11acaa0c153a" name="adaecbf29331f6b90ae2a11acaa0c153a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adaecbf29331f6b90ae2a11acaa0c153a">&#9670;&#160;</a></span>critAngle</h2>
 
@@ -213,6 +233,21 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a45558230d0bcbdc7e5d3da4e7f7b3ab7" name="a45558230d0bcbdc7e5d3da4e7f7b3ab7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45558230d0bcbdc7e5d3da4e7f7b3ab7">&#9670;&#160;</a></span>numNeis</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::TriangulationHelpers::Settings::numNeis = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>initially selects given number of nearest neighbours; if numNeis is positive then radius must be zero </p>
+
+</div>
+</div>
 <a id="aeadcc460fdb58725f5fd22d6457ea9b2" name="aeadcc460fdb58725f5fd22d6457ea9b2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeadcc460fdb58725f5fd22d6457ea9b2">&#9670;&#160;</a></span>radius</h2>
 
@@ -224,8 +259,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>initial radius of search for neighbours, it can be increased automatically </p>
+<p>initial radius of search for neighbours, it can be increased automatically; if radius is positive then numNeis must be zero </p>
 
 </div>
 </div>

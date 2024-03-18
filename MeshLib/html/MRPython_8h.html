@@ -376,7 +376,7 @@ Functions</h2></td></tr>
 <div class="line">_Pragma(<span class="stringliteral">&quot;warning(disable:4459)&quot;</span>) \</div>
 <div class="line">    <span class="keyword">static</span> <a class="code hl_struct" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> name##_adder_( #moduleName, __VA_ARGS__ ); \</div>
 <div class="line">_Pragma(<span class="stringliteral">&quot;warning(pop)&quot;</span>)</div>
-<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></div><div class="ttdef"><b>Definition</b> MRPython.h:215</div></div>
+<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></div><div class="ttdef"><b>Definition</b> MRPython.h:213</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -488,7 +488,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">PYBIND11_MAKE_OPAQUE( mapType )                        \</div>
 <div class="line">MR_ADD_PYTHON_CUSTOM_CLASS_DECL( moduleName, name, mapType, std::unique_ptr&lt;mapType&gt; ) \</div>
-<div class="line">MR_ADD_PYTHON_CUSTOM_CLASS_INST_FUNC( moduleName, name, [] ( pybind11::module_&amp; module ) { <span class="keywordflow">return</span> pybind11::bind_map&lt;mapType&gt;( module, #name ); } ) \</div>
+<div class="line">MR_ADD_PYTHON_CUSTOM_CLASS_INST_FUNC( moduleName, name, [] ( pybind11::module_&amp; module ) { <span class="keywordflow">return</span> pybind11::bind_map&lt;mapType&gt;( module, #name, pybind11::module_local(<span class="keyword">false</span>) ); } ) \</div>
 <div class="line"><a class="code hl_define" href="#a4c2f86ab418002ae88c7465c2804c7f1">MR_ADD_PYTHON_CUSTOM_DEF</a>( moduleName, name, [] ( pybind11::module_&amp; )                       \</div>
 <div class="line">{\</div>
 <div class="line">    MR_PYTHON_CUSTOM_CLASS( name ).\</div>
@@ -523,7 +523,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">PYBIND11_MAKE_OPAQUE( std::vector&lt;type&gt; )          \</div>
 <div class="line">MR_ADD_PYTHON_CUSTOM_CLASS_DECL( moduleName, name, std::vector&lt;type&gt;, std::unique_ptr&lt;std::vector&lt;type&gt;&gt; ) \</div>
-<div class="line">MR_ADD_PYTHON_CUSTOM_CLASS_INST_FUNC( moduleName, name, [] ( pybind11::module_&amp; module ) { <span class="keywordflow">return</span> pybind11::bind_vector&lt;std::vector&lt;type&gt;&gt;( module, #name ); } ) \</div>
+<div class="line">MR_ADD_PYTHON_CUSTOM_CLASS_INST_FUNC( moduleName, name, [] ( pybind11::module_&amp; module ) { <span class="keywordflow">return</span> pybind11::bind_vector&lt;std::vector&lt;type&gt;&gt;( module, #name, pybind11::module_local(<span class="keyword">false</span>) ); } ) \</div>
 <div class="line"><a class="code hl_define" href="#a4c2f86ab418002ae88c7465c2804c7f1">MR_ADD_PYTHON_CUSTOM_DEF</a>( moduleName, name, [] ( pybind11::module_&amp; )                                           \</div>
 <div class="line">{\</div>
 <div class="line">    <span class="keyword">using </span>vecType = std::vector&lt;type&gt;;\</div>

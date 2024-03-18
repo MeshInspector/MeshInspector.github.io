@@ -21,7 +21,7 @@ var classMR_1_1Vector =
     [ "clear", "classMR_1_1Vector.html#a0e593b171d655e35f554674f88083c76", null ],
     [ "data", "classMR_1_1Vector.html#a8928e2c55ce9f8cb9ffa82f4e947c4f2", null ],
     [ "data", "classMR_1_1Vector.html#a7719d06597d7ec89809c668471760863", null ],
-    [ "emplace_back", "classMR_1_1Vector.html#a16aee2ac4714e592dc7b10ecdde0dc11", null ],
+    [ "emplace_back", "classMR_1_1Vector.html#a1f88fa97323346b521c4c0d9892efddb", null ],
     [ "empty", "classMR_1_1Vector.html#ac4b153c69fb7b5e1466b10723dd2f35b", null ],
     [ "endId", "classMR_1_1Vector.html#affe4aad8fd23742b0de456abb1921fc0", null ],
     [ "front", "classMR_1_1Vector.html#a19509cb3f6dbf95c9f90c51a0b1c5a3c", null ],

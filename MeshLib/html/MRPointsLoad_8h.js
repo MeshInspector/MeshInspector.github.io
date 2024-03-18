@@ -1,9 +1,10 @@
 var MRPointsLoad_8h =
 [
+    [ "MR::PointsLoadSettings", "structMR_1_1PointsLoadSettings.html", "structMR_1_1PointsLoadSettings" ],
     [ "fromAnySupportedFormat", "MRPointsLoad_8h.html#ga37b759ebc3da6e9acf243c3cb25be235", null ],
     [ "fromAnySupportedFormat", "MRPointsLoad_8h.html#gad18cbd6cdbee95a8ecdace7101079451", null ],
-    [ "fromAsc", "MRPointsLoad_8h.html#ga38d83e039074336e74a140d6ec17e42b", null ],
-    [ "fromAsc", "MRPointsLoad_8h.html#ga0e386eed1ac1bdc3c0b027c195077f0c", null ],
+    [ "fromAsc", "MRPointsLoad_8h.html#ga2252049dbcfce5120af20e3eb056d924", null ],
+    [ "fromAsc", "MRPointsLoad_8h.html#gac6ef8c59868fd0baf3f7cfeec8503c83", null ],
     [ "fromCtm", "MRPointsLoad_8h.html#gad385805f17fe1e687e5daf9df77cfaa8", null ],
     [ "fromCtm", "MRPointsLoad_8h.html#gae2d77a5c9b57492e77d748cf6fa46380", null ],
     [ "fromDxf", "MRPointsLoad_8h.html#ga4254ad628a6157d16c41142402c9ae0b", null ],
@@ -18,6 +19,8 @@ var MRPointsLoad_8h =
     [ "fromPts", "MRPointsLoad_8h.html#gaa98848cbceac0f027b80628d04328bd7", null ],
     [ "fromPts", "MRPointsLoad_8h.html#ga0d88faa51d57eacbfb5ac8944c50caed", null ],
     [ "fromText", "MRPointsLoad_8h.html#gaeaaada2bfc9e5598ab6551567b771f53", null ],
+    [ "fromText", "MRPointsLoad_8h.html#ga926d8926c53e6187023c42a9cd851738", null ],
     [ "fromText", "MRPointsLoad_8h.html#gac627ccc2fe384bc5805f39809e0db1ae", null ],
+    [ "fromText", "MRPointsLoad_8h.html#ga4860ebfa068e9f812ad2055da100071b", null ],
     [ "Filters", "MRPointsLoad_8h.html#ga78bba5f59da26b22b8f18e15440cfccd", null ]
 ];

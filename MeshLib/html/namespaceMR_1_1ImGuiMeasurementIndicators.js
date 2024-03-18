@@ -13,7 +13,8 @@ var namespaceMR_1_1ImGuiMeasurementIndicators =
       [ "both", "namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898af6cb3e816496528d4187db53bc66567f", null ]
     ] ],
     [ "LineFlags", "namespaceMR_1_1ImGuiMeasurementIndicators.html#aaf160e58360dc1e2c715f0b72dba162d", [
-      [ "narrow", "namespaceMR_1_1ImGuiMeasurementIndicators.html#aaf160e58360dc1e2c715f0b72dba162da06a224da9e61bee19ec9eef88b95f934", null ]
+      [ "narrow", "namespaceMR_1_1ImGuiMeasurementIndicators.html#aaf160e58360dc1e2c715f0b72dba162da06a224da9e61bee19ec9eef88b95f934", null ],
+      [ "noBackwardArrowTipOffset", "namespaceMR_1_1ImGuiMeasurementIndicators.html#aaf160e58360dc1e2c715f0b72dba162da5c4562eb35560ecfac0098dbf8cb3a74", null ]
     ] ],
     [ "StringIcon", "namespaceMR_1_1ImGuiMeasurementIndicators.html#a516ec43eeeb87482edc172f968bb73de", [
       [ "none", "namespaceMR_1_1ImGuiMeasurementIndicators.html#a516ec43eeeb87482edc172f968bb73dea334c4a4c42fdb79d7ebc3e73b517e6f8", null ],

@@ -11,6 +11,7 @@ var structMR_1_1Features_1_1Primitives_1_1ConeSegment =
     [ "isZeroRadius", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#ad0e22f8a9ddce47d6aab63cfe35ab6bd", null ],
     [ "length", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a246d93a7bb2aaa83191d515884303ecb", null ],
     [ "untruncateCone", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a52d74c8c1581a73964681c4273172f52", null ],
+    [ "operator==", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a0a599e730d0a62e6972fecbb9a4e13b1", null ],
     [ "center", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a1394116b894c9c0f5f48ddc29c6d9b9c", null ],
     [ "dir", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a9f603438a2e12d81289b9696c05cdcd4", null ],
     [ "hollow", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aed7a509cc23a908a6cf803007694eabf", null ],

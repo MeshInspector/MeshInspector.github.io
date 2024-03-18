@@ -113,9 +113,12 @@ $(function(){initNavTree('classMR_1_1FewSmallest.html',''); initResizable(); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a10dd64ad23fa331c4f425f5d5400e9ac" id="r_a10dd64ad23fa331c4f425f5d5400e9ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10dd64ad23fa331c4f425f5d5400e9ac">FewSmallest</a> (size_t <a class="el" href="#a9f76f3baaed046ba4f1047a35cd61248">maxElms</a>)</td></tr>
-<tr class="memdesc:a10dd64ad23fa331c4f425f5d5400e9ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">configure the object to store at most given number of elements  <br /></td></tr>
-<tr class="separator:a10dd64ad23fa331c4f425f5d5400e9ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afec60e56722d57482edc7fcf1ab59280" id="r_afec60e56722d57482edc7fcf1ab59280"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afec60e56722d57482edc7fcf1ab59280">FewSmallest</a> (size_t <a class="el" href="#a9f76f3baaed046ba4f1047a35cd61248">maxElms</a>=0)</td></tr>
+<tr class="memdesc:afec60e56722d57482edc7fcf1ab59280"><td class="mdescLeft">&#160;</td><td class="mdescRight">configure the object to store at most given number of elements  <br /></td></tr>
+<tr class="separator:afec60e56722d57482edc7fcf1ab59280"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a137b1fa934a6f5746491768b2b3aab36" id="r_a137b1fa934a6f5746491768b2b3aab36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a137b1fa934a6f5746491768b2b3aab36">reset</a> (size_t <a class="el" href="#a9f76f3baaed046ba4f1047a35cd61248">maxElms</a>)</td></tr>
+<tr class="memdesc:a137b1fa934a6f5746491768b2b3aab36"><td class="mdescLeft">&#160;</td><td class="mdescRight">clears the content and reconfigure the object to store at most given number of elements  <br /></td></tr>
+<tr class="separator:a137b1fa934a6f5746491768b2b3aab36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f76f3baaed046ba4f1047a35cd61248" id="r_a9f76f3baaed046ba4f1047a35cd61248"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f76f3baaed046ba4f1047a35cd61248">maxElms</a> () const</td></tr>
 <tr class="memdesc:a9f76f3baaed046ba4f1047a35cd61248"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximum number of elements to be stored here  <br /></td></tr>
 <tr class="separator:a9f76f3baaed046ba4f1047a35cd61248"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,8 +151,8 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
 class MR::FewSmallest&lt; T &gt;</div><p>the class stores some number of smallest elements from a larger number of candidates </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a10dd64ad23fa331c4f425f5d5400e9ac" name="a10dd64ad23fa331c4f425f5d5400e9ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10dd64ad23fa331c4f425f5d5400e9ac">&#9670;&#160;</a></span>FewSmallest()</h2>
+<a id="afec60e56722d57482edc7fcf1ab59280" name="afec60e56722d57482edc7fcf1ab59280"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afec60e56722d57482edc7fcf1ab59280">&#9670;&#160;</a></span>FewSmallest()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -162,13 +165,13 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classMR_1_1FewSmallest.html">MR::FewSmallest</a>&lt; T &gt;::FewSmallest </td>
           <td>(</td>
-          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>maxElms</em></span></td><td>)</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>maxElms</em><span class="paramdefsep"> = </span><span class="paramdefval">0</span></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -185,6 +188,9 @@ template&lt;typename T &gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void <a class="el" href="classMR_1_1FewSmallest.html">MR::FewSmallest</a>&lt; T &gt;::clear </td>
@@ -193,6 +199,11 @@ template&lt;typename T &gt; </div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>removes all stored elements </p>
@@ -333,6 +344,27 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>considers one more element, storing it if it is within the smallest </p>
+
+</div>
+</div>
+<a id="a137b1fa934a6f5746491768b2b3aab36" name="a137b1fa934a6f5746491768b2b3aab36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a137b1fa934a6f5746491768b2b3aab36">&#9670;&#160;</a></span>reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classMR_1_1FewSmallest.html">MR::FewSmallest</a>&lt; T &gt;::reset </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>maxElms</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>clears the content and reconfigure the object to store at most given number of elements </p>
 
 </div>
 </div>

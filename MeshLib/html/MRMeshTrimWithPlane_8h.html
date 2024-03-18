@@ -100,16 +100,25 @@ $(function(){initNavTree('MRMeshTrimWithPlane_8h.html',''); initResizable(); });
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRMeshTrimWithPlane.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRPlane3_8h_source.html">MRPlane3.h</a>&quot;</code><br />
 <code>#include &lt;functional&gt;</code><br />
 </div>
 <p><a href="MRMeshTrimWithPlane_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TrimWithPlaneParams.html">MR::TrimWithPlaneParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TrimOptionalOutput.html">MR::TrimOptionalOutput</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceMR" id="r_namespaceMR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
@@ -125,6 +134,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a78e47a236b40c37e37f62d6571c3f1b4" id="r_a78e47a236b40c37e37f62d6571c3f1b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a78e47a236b40c37e37f62d6571c3f1b4">MR::trimWithPlane</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a5a893f852b28b9aff90ac42cbcc2ab48">Plane3f</a> &amp;plane, std::vector&lt; <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt; *outCutContours, <a class="el" href="namespaceMR.html#a93482f559c684be16c718d5acd291d3e">FaceHashMap</a> *new2Old=nullptr, float eps=0, std::function&lt; void(<a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a>, <a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a>, float)&gt; onEdgeSplitCallback=nullptr)</td></tr>
 <tr class="memdesc:a78e47a236b40c37e37f62d6571c3f1b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">trim mesh by plane  <br /></td></tr>
 <tr class="separator:a78e47a236b40c37e37f62d6571c3f1b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8adf5f7ec5a447160198b2612ddb0b11" id="r_a8adf5f7ec5a447160198b2612ddb0b11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8adf5f7ec5a447160198b2612ddb0b11">MR::trimWithPlane</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1TrimWithPlaneParams.html">TrimWithPlaneParams</a> &amp;params, const <a class="el" href="structMR_1_1TrimOptionalOutput.html">TrimOptionalOutput</a> &amp;optOut={})</td></tr>
+<tr class="memdesc:a8adf5f7ec5a447160198b2612ddb0b11"><td class="mdescLeft">&#160;</td><td class="mdescRight">trim mesh by plane  <br /></td></tr>
+<tr class="separator:a8adf5f7ec5a447160198b2612ddb0b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

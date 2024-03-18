@@ -56,6 +56,7 @@ var classMR_1_1RibbonMenu =
     [ "setAutoCloseBlockingPlugins", "classMR_1_1RibbonMenu.html#aa5c9439e803a30622f7ecfeee5e7091d", null ],
     [ "setCloseContextOnChange", "classMR_1_1RibbonMenu.html#afa488c70a39fe2161d2caaddba6e1d40", null ],
     [ "setCustomContextCheckbox", "classMR_1_1RibbonMenu.html#ae2e7e583583cdbdbb47b0e02f01cabea", null ],
+    [ "setQuickAccessListVersion", "classMR_1_1RibbonMenu.html#a97c470b0974a29e162afe5b7393113e3", null ],
     [ "setSceneSize", "classMR_1_1RibbonMenu.html#afefdd706402e7ad5daf3433c54ae87dc", null ],
     [ "setTopPanelMaxOpenedTimer", "classMR_1_1RibbonMenu.html#a0b8580dee2b479f1b332f441905c330d", null ],
     [ "setupItemsGroup_", "classMR_1_1RibbonMenu.html#aa3ac32b8dcb22a9dca4b5446599fd2a1", null ],

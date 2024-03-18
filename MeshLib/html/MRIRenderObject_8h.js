@@ -2,9 +2,14 @@ var MRIRenderObject_8h =
 [
     [ "MR::BaseRenderParams", "structMR_1_1BaseRenderParams.html", "structMR_1_1BaseRenderParams" ],
     [ "MR::ModelRenderParams", "structMR_1_1ModelRenderParams.html", "structMR_1_1ModelRenderParams" ],
+    [ "MR::BasicUiRenderTask", "structMR_1_1BasicUiRenderTask.html", "structMR_1_1BasicUiRenderTask" ],
+    [ "MR::BasicUiRenderTask::BackwardPassParams", "structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html", "structMR_1_1BasicUiRenderTask_1_1BackwardPassParams" ],
+    [ "MR::UiRenderParams", "structMR_1_1UiRenderParams.html", "structMR_1_1UiRenderParams" ],
+    [ "MR::UiRenderManager", "structMR_1_1UiRenderManager.html", "structMR_1_1UiRenderManager" ],
     [ "MR::IRenderObject", "classMR_1_1IRenderObject.html", "classMR_1_1IRenderObject" ],
+    [ "MR::RenderObjectCombinator< Bases >", "classMR_1_1RenderObjectCombinator.html", "classMR_1_1RenderObjectCombinator" ],
     [ "MR::RegisterRenderObjectConstructor", "classMR_1_1RegisterRenderObjectConstructor.html", "classMR_1_1RegisterRenderObjectConstructor" ],
-    [ "MR_REGISTER_RENDER_OBJECT_IMPL", "MRIRenderObject_8h.html#a2aa3e4f195eff66612f2c2404130cdc3", null ],
+    [ "MR_REGISTER_RENDER_OBJECT_IMPL", "MRIRenderObject_8h.html#a92169ed57f83dca5f30d4d158983d9a0", null ],
     [ "IRenderObjectConstructorLambda", "MRIRenderObject_8h.html#a801810876bff73403d8afdb3cb7a4731", null ],
     [ "DepthFunction", "MRIRenderObject_8h.html#aa1ff587f4ced1a1f1f1be9787830ef93", [
       [ "Never", "MRIRenderObject_8h.html#aa1ff587f4ced1a1f1f1be9787830ef93a6e7b34fa59e1bd229b207892956dc41c", null ],

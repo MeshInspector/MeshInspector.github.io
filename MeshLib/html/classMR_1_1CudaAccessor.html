@@ -123,6 +123,8 @@ Public Types</h2></td></tr>
 <tr class="memitem:ab238a79ac9e6bdc05ebc7d4799c5afd9" id="r_ab238a79ac9e6bdc05ebc7d4799c5afd9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab238a79ac9e6bdc05ebc7d4799c5afd9">CudaMeshProjectorConstructor</a> = std::function&lt;std::unique_ptr&lt;<a class="el" href="classMR_1_1IPointsToMeshProjector.html">IPointsToMeshProjector</a>&gt;()&gt;</td></tr>
 <tr class="memdesc:ab238a79ac9e6bdc05ebc7d4799c5afd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns specific implementation of <a class="el" href="classMR_1_1IPointsToMeshProjector.html" title="Abstract class, computes the closest point on mesh to each of given points. Pure virtual functions mu...">IPointsToMeshProjector</a> interface projects on GPU.  <br /></td></tr>
 <tr class="separator:ab238a79ac9e6bdc05ebc7d4799c5afd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a093594ce011867252af1cb9b9b47db9a" id="r_a093594ce011867252af1cb9b9b47db9a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a093594ce011867252af1cb9b9b47db9a">CudaPointsToDistanceVolumeCallback</a> = std::function&lt;<a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;<a class="el" href="namespaceMR.html#a32d86de74ee0b62d26832356f2afe507">SimpleVolume</a>&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params )&gt;</td></tr>
+<tr class="separator:a093594ce011867252af1cb9b9b47db9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -134,6 +136,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a7affaa1814fa1d3681b01ce8e5f64173"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27e2290d9554876b9544ef112d94d680" id="r_a27e2290d9554876b9544ef112d94d680"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27e2290d9554876b9544ef112d94d680">setCudaMeshProjectorConstructor</a> (<a class="el" href="#ab238a79ac9e6bdc05ebc7d4799c5afd9">CudaMeshProjectorConstructor</a> mpCtor)</td></tr>
 <tr class="separator:a27e2290d9554876b9544ef112d94d680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1844a66020bbb9532c74503c66f366c" id="r_af1844a66020bbb9532c74503c66f366c"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1844a66020bbb9532c74503c66f366c">setCudaPointsToDistanceVolumeCallback</a> (<a class="el" href="#a093594ce011867252af1cb9b9b47db9a">CudaPointsToDistanceVolumeCallback</a> callback)</td></tr>
+<tr class="separator:af1844a66020bbb9532c74503c66f366c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b3062a65de8df3b5336f6010328183b" id="r_a8b3062a65de8df3b5336f6010328183b"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b3062a65de8df3b5336f6010328183b">isCudaAvailable</a> ()</td></tr>
 <tr class="separator:a8b3062a65de8df3b5336f6010328183b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a229a41b2ffd3856ad7a70bc5b63466d3" id="r_a229a41b2ffd3856ad7a70bc5b63466d3"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a229a41b2ffd3856ad7a70bc5b63466d3">getCudaFreeMemory</a> ()</td></tr>
@@ -142,6 +146,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ad1644759ef8ab1cfac0b06466eeba89d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dfafd5666c1d3f63c6648cfa0729bf3" id="r_a4dfafd5666c1d3f63c6648cfa0729bf3"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::unique_ptr&lt; <a class="el" href="classMR_1_1IPointsToMeshProjector.html">IPointsToMeshProjector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dfafd5666c1d3f63c6648cfa0729bf3">getCudaPointsToMeshProjector</a> ()</td></tr>
 <tr class="separator:a4dfafd5666c1d3f63c6648cfa0729bf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae617704b3b516d08ad6ab1e72366fcd8" id="r_ae617704b3b516d08ad6ab1e72366fcd8"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API <a class="el" href="#a093594ce011867252af1cb9b9b47db9a">CudaPointsToDistanceVolumeCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae617704b3b516d08ad6ab1e72366fcd8">getCudaPointsToDistanceVolumeCallback</a> ()</td></tr>
+<tr class="separator:ae617704b3b516d08ad6ab1e72366fcd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The purpose of this class is to access CUDA algorithms without explicit dependency on MRCuda. </p>
@@ -194,6 +200,20 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a093594ce011867252af1cb9b9b47db9a" name="a093594ce011867252af1cb9b9b47db9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a093594ce011867252af1cb9b9b47db9a">&#9670;&#160;</a></span>CudaPointsToDistanceVolumeCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a093594ce011867252af1cb9b9b47db9a">MR::CudaAccessor::CudaPointsToDistanceVolumeCallback</a> = std::function&lt;<a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;<a class="el" href="namespaceMR.html#a32d86de74ee0b62d26832356f2afe507">SimpleVolume</a>&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params )&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ad1644759ef8ab1cfac0b06466eeba89d" name="ad1644759ef8ab1cfac0b06466eeba89d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad1644759ef8ab1cfac0b06466eeba89d">&#9670;&#160;</a></span>getCudaFastWindingNumber()</h2>
@@ -231,6 +251,31 @@ Static Public Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">static MRVIEWER_API size_t MR::CudaAccessor::getCudaFreeMemory </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae617704b3b516d08ad6ab1e72366fcd8" name="ae617704b3b516d08ad6ab1e72366fcd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae617704b3b516d08ad6ab1e72366fcd8">&#9670;&#160;</a></span>getCudaPointsToDistanceVolumeCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MRVIEWER_API <a class="el" href="#a093594ce011867252af1cb9b9b47db9a">CudaPointsToDistanceVolumeCallback</a> MR::CudaAccessor::getCudaPointsToDistanceVolumeCallback </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -383,6 +428,31 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">static MRVIEWER_API void MR::CudaAccessor::setCudaMeshProjectorConstructor </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ab238a79ac9e6bdc05ebc7d4799c5afd9">CudaMeshProjectorConstructor</a></td>          <td class="paramname"><span class="paramname"><em>mpCtor</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1844a66020bbb9532c74503c66f366c" name="af1844a66020bbb9532c74503c66f366c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1844a66020bbb9532c74503c66f366c">&#9670;&#160;</a></span>setCudaPointsToDistanceVolumeCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MRVIEWER_API void MR::CudaAccessor::setCudaPointsToDistanceVolumeCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a093594ce011867252af1cb9b9b47db9a">CudaPointsToDistanceVolumeCallback</a></td>          <td class="paramname"><span class="paramname"><em>callback</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

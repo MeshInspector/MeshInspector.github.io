@@ -13,9 +13,10 @@ var searchData=
   ['worldrayintersection_10',['worldRayIntersection',['../classMR_1_1ObjectMesh.html#a42f008e1d02b82af779b6378ba9402d5',1,'MR::ObjectMesh']]],
   ['worldtocameraspace_11',['worldToCameraSpace',['../classMR_1_1Viewport.html#abf9bc36eda02472e52c41323484ca493',1,'MR::Viewport::worldToCameraSpace(const Vector3f &amp;p) const'],['../classMR_1_1Viewport.html#a71dda2baf413b787d9b0fb12035d3827',1,'MR::Viewport::worldToCameraSpace(const std::vector&lt; Vector3f &gt; &amp;p) const']]],
   ['worldxf_12',['worldXf',['../classMR_1_1Object.html#adf99bf3b0a5a59452a7e4efd6f48b657',1,'MR::Object']]],
-  ['write_13',['write',['../classMR_1_1MeshTopology.html#a698bdffc6553d99627eff8444ae95cfb',1,'MR::MeshTopology::write()'],['../classMR_1_1PolylineTopology.html#afeacaa2685ac05679afb0b6675a1ff4b',1,'MR::PolylineTopology::write()'],['../classPythonStreamRedirector.html#a2dde8d2c176e672c39dd11e8c356db1e',1,'PythonStreamRedirector::write()']]],
-  ['writebyblocks_14',['writeByBlocks',['../namespaceMR.html#a60a133e9f349b9183017b2b4abaf1b9b',1,'MR']]],
-  ['writer_15',['Writer',['../structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa',1,'MR::Writer']]],
-  ['writerawtiff_16',['writeRawTiff',['../namespaceMR.html#a5c8cd9060fcf837bea6a2cda3d33a957',1,'MR']]],
-  ['writetofile_17',['writeToFile',['../classMR_1_1Config.html#a4a1325795e653a33c4f91ca425c6eeca',1,'MR::Config']]]
+  ['wrapper_13',['Wrapper',['../classMR_1_1RenderWrapObject_1_1Wrapper.html#a1513e9da308ecba00c67324e0c0cf39b',1,'MR::RenderWrapObject::Wrapper::Wrapper(const VisualObject &amp;object)'],['../classMR_1_1RenderWrapObject_1_1Wrapper.html#ad13b52643d115db231f4501231b97765',1,'MR::RenderWrapObject::Wrapper::Wrapper(const Wrapper &amp;)=delete']]],
+  ['write_14',['write',['../classMR_1_1MeshTopology.html#a698bdffc6553d99627eff8444ae95cfb',1,'MR::MeshTopology::write()'],['../classMR_1_1PolylineTopology.html#afeacaa2685ac05679afb0b6675a1ff4b',1,'MR::PolylineTopology::write()'],['../classPythonStreamRedirector.html#a2dde8d2c176e672c39dd11e8c356db1e',1,'PythonStreamRedirector::write()']]],
+  ['writebyblocks_15',['writeByBlocks',['../namespaceMR.html#a60a133e9f349b9183017b2b4abaf1b9b',1,'MR']]],
+  ['writer_16',['Writer',['../structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa',1,'MR::Writer']]],
+  ['writerawtiff_17',['writeRawTiff',['../namespaceMR.html#a5c8cd9060fcf837bea6a2cda3d33a957',1,'MR']]],
+  ['writetofile_18',['writeToFile',['../classMR_1_1Config.html#a4a1325795e653a33c4f91ca425c6eeca',1,'MR::Config']]]
 ];

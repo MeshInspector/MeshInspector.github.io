@@ -1,17 +1,18 @@
 var searchData=
 [
-  ['hardsmoothtetrahedrons_0',['hardSmoothTetrahedrons',['../structMR_1_1MeshRelaxParams.html#aeb8c3fee03385430c013562e6fafb17e',1,'MR::MeshRelaxParams']]],
-  ['header_1',['header',['../structMR_1_1RibbonNotification.html#ae5f28ba6936128a2d39825de578e9bb2',1,'MR::RibbonNotification']]],
-  ['headerquickaccesslist_2',['headerQuickAccessList',['../structMR_1_1RibbonSchema.html#aff336be3c724c96b01194c689d9bdac9',1,'MR::RibbonSchema']]],
-  ['height_3',['height',['../classMR_1_1Cone3.html#a1837f049b2e30d91b8cc20a4109d7e87',1,'MR::Cone3::height'],['../structMR_1_1Viewer_1_1LaunchParams.html#a01ee995f48e4c9ae9e9e647802e95d92',1,'MR::Viewer::LaunchParams::height']]],
-  ['helperlinecolor_4',['helperLineColor',['../structMR_1_1TransformControls_1_1VisualParams.html#a5de0577e4227b12317f5bd798b77fbec',1,'MR::TransformControls::VisualParams']]],
-  ['helplink_5',['helpLink',['../structMR_1_1MenuItemInfo.html#a4a18cee73e324a82d8e83c0849ee1c16',1,'MR::MenuItemInfo']]],
-  ['hideinit_6',['HideInit',['../structMR_1_1Viewer_1_1LaunchParams.html#a5e4b4aea9694d6197a71cae1e0462fb5',1,'MR::Viewer::LaunchParams']]],
-  ['hintdirection_7',['hintDirection',['../structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ab5009f894a6360e076076d4379d340f2',1,'MR::FixUndercuts::ImproveDirectionParameters']]],
-  ['historyspecification_8',['historySpecification',['../structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#afd1f153be026ccd44397454e0d221cab',1,'MR::SurfaceContoursWidget::SurfaceContoursWidgetParams']]],
-  ['historystore_9',['HistoryStore',['../namespaceMR.html#a13289bb0637fbc667dab347fd46dbbbb',1,'MR']]],
-  ['holeidx_10',['holeIdx',['../structMR_1_1HoleEdgePoint.html#a540414cc7fb82e34d5a10d971449fc9d',1,'MR::HoleEdgePoint']]],
-  ['hollow_11',['hollow',['../structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aed7a509cc23a908a6cf803007694eabf',1,'MR::Features::Primitives::ConeSegment']]],
-  ['hops_12',['hops',['../structMR_1_1FindOverhangsSettings.html#ad8a04bc86c5792e55e9c000d38d5e42b',1,'MR::FindOverhangsSettings']]],
-  ['hoveredcolor_13',['hoveredColor',['../structMR_1_1SurfacePointWidget_1_1Parameters.html#a9c25cb2f8938a8568eaa3c712452b7f0',1,'MR::SurfacePointWidget::Parameters']]]
+  ['g_0',['g',['../structMR_1_1Color.html#a88b7f7b16582811c68398fcb60488717',1,'MR::Color']]],
+  ['gamma_1',['gamma',['../structMR_1_1DenoiseViaNormalsSettings.html#ad5c55319dff328b55475f07390acd505',1,'MR::DenoiseViaNormalsSettings']]],
+  ['gcodechangedsignal_2',['gcodeChangedSignal',['../classMR_1_1ObjectGcode.html#af7ac54e95de2f8914777e833e1a83678',1,'MR::ObjectGcode']]],
+  ['geodesicpathapprox_3',['geodesicPathApprox',['../structMR_1_1SearchPathSettings.html#a73e36cb0460a39c6bf496d2038aced39',1,'MR::SearchPathSettings']]],
+  ['geomid_4',['geomId',['../structMR_1_1ViewportGL_1_1BasePickResult.html#ab3a28df9902a6bfa722c359efdd91d44',1,'MR::ViewportGL::BasePickResult']]],
+  ['getter_5',['getter',['../structMR_1_1FeatureObjectSharedProperty.html#a50e5f67a09d573f408273911b212aeac',1,'MR::FeatureObjectSharedProperty']]],
+  ['globalalpha_5f_6',['globalAlpha_',['../classMR_1_1VisualObject.html#a96232055c664463cca20dda327b1c30f',1,'MR::VisualObject']]],
+  ['globalbasisaxes_7',['globalBasisAxes',['../classMR_1_1Viewer.html#a001f35f7fc983544a5af14e38a07a450',1,'MR::Viewer']]],
+  ['glpickradius_8',['glPickRadius',['../classMR_1_1Viewer.html#a240a033f91b3eb0250fa706cd2f2feb1',1,'MR::Viewer']]],
+  ['gradualpressuregrowth_9',['gradualPressureGrowth',['../structMR_1_1InflateSettings.html#a01eec1ee9ce09177388ba2eb6097a88a',1,'MR::InflateSettings']]],
+  ['gridlevelset_10',['gridLevelSet',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#a5d28afdbdf8874a171bdaa3da9a77db7',1,'MR::VoxelsLoad::RawParameters']]],
+  ['gridtype_11',['gridType',['../structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a162c946b965977a5048ed85b3b7d1293',1,'MR::VoxelsLoad::LoadingTiffSettings']]],
+  ['groupsmap_12',['groupsMap',['../structMR_1_1RibbonSchema.html#a55e0334c55b2b6a85bc323a85f88ea10',1,'MR::RibbonSchema']]],
+  ['guicontext_5f_13',['guiContext_',['../classMR_1_1SplashWindow.html#a8e1b0c94c0dec969c8476897de435fdb',1,'MR::SplashWindow']]],
+  ['guideweight_14',['guideWeight',['../structMR_1_1DenoiseViaNormalsSettings.html#a6852271fa1efbc4da52e0fb5b851810f',1,'MR::DenoiseViaNormalsSettings']]]
 ];

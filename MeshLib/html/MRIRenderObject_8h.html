@@ -112,7 +112,9 @@ $(function(){initNavTree('MRIRenderObject_8h.html',''); initResizable(); });
 <div class="textblock"><code>#include &quot;<a class="el" href="MRFlagOperators_8h_source.html">MRMesh/MRFlagOperators.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRViewportId_8h_source.html">MRViewportId.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRVector2_8h_source.html">MRVector2.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRVector4_8h_source.html">MRVector4.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRAffineXf3_8h_source.html">MRAffineXf3.h</a>&quot;</code><br />
 <code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;typeindex&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
@@ -127,7 +129,18 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ModelRenderParams.html">MR::ModelRenderParams</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">describes parameters necessary to render an object  <a href="structMR_1_1ModelRenderParams.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BasicUiRenderTask.html">MR::BasicUiRenderTask</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code><a class="el" href="classMR_1_1IRenderObject.html#a82fb37eb78d6e11f1b41f3fc2a99c5eb">IRenderObject::renderUi()</a></code> can emit zero or more or more of those tasks. They are sorted by depth every frame.  <a href="structMR_1_1BasicUiRenderTask.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">MR::BasicUiRenderTask::BackwardPassParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UiRenderParams.html">MR::UiRenderParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UiRenderManager.html">MR::UiRenderManager</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IRenderObject.html">MR::IRenderObject</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RenderObjectCombinator.html">MR::RenderObjectCombinator&lt; Bases &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RegisterRenderObjectConstructor.html">MR::RegisterRenderObjectConstructor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,8 +152,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a2aa3e4f195eff66612f2c2404130cdc3" id="r_a2aa3e4f195eff66612f2c2404130cdc3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2aa3e4f195eff66612f2c2404130cdc3">MR_REGISTER_RENDER_OBJECT_IMPL</a>(objectType,  rendObjectType)&#160;&#160;&#160;    static <a class="el" href="classMR_1_1RegisterRenderObjectConstructor.html">MR::RegisterRenderObjectConstructor</a> __objectRegistrator##objectType{typeid(objectType),makeRenderObjectConstructor&lt;rendObjectType&gt;()};</td></tr>
-<tr class="separator:a2aa3e4f195eff66612f2c2404130cdc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92169ed57f83dca5f30d4d158983d9a0" id="r_a92169ed57f83dca5f30d4d158983d9a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92169ed57f83dca5f30d4d158983d9a0">MR_REGISTER_RENDER_OBJECT_IMPL</a>(objectType, ...)&#160;&#160;&#160;    static <a class="el" href="classMR_1_1RegisterRenderObjectConstructor.html">MR::RegisterRenderObjectConstructor</a> __objectRegistrator##objectType{typeid(objectType),makeRenderObjectConstructor&lt;__VA_ARGS__&gt;()};</td></tr>
+<tr class="separator:a92169ed57f83dca5f30d4d158983d9a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -177,8 +190,8 @@ Functions</h2></td></tr>
 <tr class="separator:a328bb54e142966b09b529c5ed868e453"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a2aa3e4f195eff66612f2c2404130cdc3" name="a2aa3e4f195eff66612f2c2404130cdc3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2aa3e4f195eff66612f2c2404130cdc3">&#9670;&#160;</a></span>MR_REGISTER_RENDER_OBJECT_IMPL</h2>
+<a id="a92169ed57f83dca5f30d4d158983d9a0" name="a92169ed57f83dca5f30d4d158983d9a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92169ed57f83dca5f30d4d158983d9a0">&#9670;&#160;</a></span>MR_REGISTER_RENDER_OBJECT_IMPL</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -191,7 +204,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">rendObjectType</span>&#160;)&#160;&#160;&#160;    static <a class="el" href="classMR_1_1RegisterRenderObjectConstructor.html">MR::RegisterRenderObjectConstructor</a> __objectRegistrator##objectType{typeid(objectType),makeRenderObjectConstructor&lt;rendObjectType&gt;()};</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>...</em></span>&#160;)&#160;&#160;&#160;    static <a class="el" href="classMR_1_1RegisterRenderObjectConstructor.html">MR::RegisterRenderObjectConstructor</a> __objectRegistrator##objectType{typeid(objectType),makeRenderObjectConstructor&lt;__VA_ARGS__&gt;()};</td>
         </tr>
       </table>
 </div><div class="memdoc">

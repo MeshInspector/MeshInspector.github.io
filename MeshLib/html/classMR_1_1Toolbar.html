@@ -132,6 +132,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4876335bf6a712876c1b6eac26ef1d4e" id="r_a4876335bf6a712876c1b6eac26ef1d4e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a8201e149aed09ff61bb82c538012fbd1">MenuItemsList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4876335bf6a712876c1b6eac26ef1d4e">getItemsList</a> () const</td></tr>
 <tr class="memdesc:a4876335bf6a712876c1b6eac26ef1d4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">get acces to items  <br /></td></tr>
 <tr class="separator:a4876335bf6a712876c1b6eac26ef1d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb30384319934525d4c65d9eb60b2bd5" id="r_afb30384319934525d4c65d9eb60b2bd5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb30384319934525d4c65d9eb60b2bd5">getItemsListVersion</a> () const</td></tr>
+<tr class="memdesc:afb30384319934525d4c65d9eb60b2bd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">get item list version  <br /></td></tr>
+<tr class="separator:afb30384319934525d4c65d9eb60b2bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21c47f07a7b4dd3115899fe8f8eeb465" id="r_a21c47f07a7b4dd3115899fe8f8eeb465"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21c47f07a7b4dd3115899fe8f8eeb465">setItemsListVersion</a> (int version)</td></tr>
+<tr class="memdesc:a21c47f07a7b4dd3115899fe8f8eeb465"><td class="mdescLeft">&#160;</td><td class="mdescRight">set item list version  <br /></td></tr>
+<tr class="separator:a21c47f07a7b4dd3115899fe8f8eeb465"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76884173825027bffb2bf1f81303db18" id="r_a76884173825027bffb2bf1f81303db18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76884173825027bffb2bf1f81303db18">setItemsListMigrations</a> (const <a class="el" href="namespaceMR.html#ab7127eaef6bbef972ecd0663dcf8d527">MenuItemsListMigrations</a> &amp;migrations)</td></tr>
+<tr class="memdesc:a76884173825027bffb2bf1f81303db18"><td class="mdescLeft">&#160;</td><td class="mdescRight">set item list's upgrade rules  <br /></td></tr>
+<tr class="separator:a76884173825027bffb2bf1f81303db18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbd64a6accfb9274f01dfd1a5d5bc017" id="r_afbd64a6accfb9274f01dfd1a5d5bc017"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbd64a6accfb9274f01dfd1a5d5bc017">setScaling</a> (float scale)</td></tr>
 <tr class="separator:afbd64a6accfb9274f01dfd1a5d5bc017"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -229,6 +238,33 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="afb30384319934525d4c65d9eb60b2bd5" name="afb30384319934525d4c65d9eb60b2bd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb30384319934525d4c65d9eb60b2bd5">&#9670;&#160;</a></span>getItemsListVersion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::Toolbar::getItemsListVersion </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get item list version </p>
+
+</div>
+</div>
 <a id="ac34cf0a0d5a30948b358c65dc33778ed" name="ac34cf0a0d5a30948b358c65dc33778ed"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac34cf0a0d5a30948b358c65dc33778ed">&#9670;&#160;</a></span>openCustomize()</h2>
 
@@ -281,6 +317,60 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>reset items list to default value</p>
 <p>default value is taken from <a class="el" href="classMR_1_1RibbonSchemaHolder.html">RibbonSchemaHolder</a> </p>
+
+</div>
+</div>
+<a id="a76884173825027bffb2bf1f81303db18" name="a76884173825027bffb2bf1f81303db18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76884173825027bffb2bf1f81303db18">&#9670;&#160;</a></span>setItemsListMigrations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::Toolbar::setItemsListMigrations </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ab7127eaef6bbef972ecd0663dcf8d527">MenuItemsListMigrations</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>migrations</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>set item list's upgrade rules </p>
+
+</div>
+</div>
+<a id="a21c47f07a7b4dd3115899fe8f8eeb465" name="a21c47f07a7b4dd3115899fe8f8eeb465"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21c47f07a7b4dd3115899fe8f8eeb465">&#9670;&#160;</a></span>setItemsListVersion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::Toolbar::setItemsListVersion </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>version</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>set item list version </p>
 
 </div>
 </div>
