@@ -36,6 +36,9 @@ var hierarchy =
       ] ],
       [ "MR::AddVisualProperties< BaseObjectType, Properties >", "classMR_1_1AddVisualProperties.html", null ],
       [ "MR::RenderFeatures::detail::WrappedModelSubobjectPart< IsPrimary, BaseObjectType >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart.html", [
+        [ "MR::RenderFeatures::WrappedModelSubobject< IsPrimary, ObjectLines >", "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html", null ],
+        [ "MR::RenderFeatures::WrappedModelSubobject< IsPrimary, ObjectMesh >", "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html", null ],
+        [ "MR::RenderFeatures::WrappedModelSubobject< IsPrimary, ObjectPoints >", "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html", null ],
         [ "MR::RenderFeatures::WrappedModelSubobject< IsPrimary, BaseObjectType >", "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html", null ]
       ] ]
     ] ],
@@ -43,7 +46,9 @@ var hierarchy =
       [ "MR::ViewportGL::PickResult", "structMR_1_1ViewportGL_1_1PickResult.html", null ]
     ] ],
     [ "MR::BaseRenderParams", "structMR_1_1BaseRenderParams.html", [
-      [ "MR::ModelRenderParams", "structMR_1_1ModelRenderParams.html", null ],
+      [ "MR::ModelBaseRenderParams", "structMR_1_1ModelBaseRenderParams.html", [
+        [ "MR::ModelRenderParams", "structMR_1_1ModelRenderParams.html", null ]
+      ] ],
       [ "MR::UiRenderParams", "structMR_1_1UiRenderParams.html", null ],
       [ "MR::Viewport::LinePointImmediateRenderParams", "structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html", null ]
     ] ],
@@ -100,6 +105,9 @@ var hierarchy =
       [ "MR::ImGuiMath::CompareAll< A >", "structMR_1_1ImGuiMath_1_1CompareAll.html", null ]
     ] ],
     [ "MR::RenderWrapObject::BasicWrapperTarget", "classMR_1_1RenderWrapObject_1_1BasicWrapperTarget.html", [
+      [ "MR::RenderFeatures::WrappedModelSubobject< IsPrimary, ObjectLines >", "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html", null ],
+      [ "MR::RenderFeatures::WrappedModelSubobject< IsPrimary, ObjectMesh >", "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html", null ],
+      [ "MR::RenderFeatures::WrappedModelSubobject< IsPrimary, ObjectPoints >", "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html", null ],
       [ "MR::RenderFeatures::WrappedModelSubobject< IsPrimary, BaseObjectType >", "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html", null ],
       [ "MR::RenderFeatures::WrappedModelSubobject< false, BaseObjectType >", "classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4.html", null ],
       [ "MR::RenderFeatures::detail::WrappedModelSubobjectPart< IsPrimary, ObjectMesh >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectMesh_01_4.html", null ]
@@ -192,6 +200,9 @@ var hierarchy =
       ] ],
       [ "MR::MultiListener< PreDrawListener, InterruptCloseListener >", "structMR_1_1MultiListener.html", [
         [ "MR::SaveOnClosePlugin", "classMR_1_1SaveOnClosePlugin.html", null ]
+      ] ],
+      [ "MR::MultiListener< KeyDownListener, KeyRepeatListener >", "structMR_1_1MultiListener.html", [
+        [ "MR::ShortcutManager", "classMR_1_1ShortcutManager.html", null ]
       ] ],
       [ "MR::MultiListener< MouseDownListener, MouseMoveListener, MouseUpListener, PostDrawListener >", "structMR_1_1MultiListener.html", [
         [ "MR::SurfaceManipulationWidget", "classMR_1_1SurfaceManipulationWidget.html", null ]
@@ -465,10 +476,16 @@ var hierarchy =
     ] ],
     [ "MR::IRenderObject", "classMR_1_1IRenderObject.html", [
       [ "MR::RenderLabelObject", "classMR_1_1RenderLabelObject.html", null ],
-      [ "MR::RenderLinesObject", "classMR_1_1RenderLinesObject.html", null ],
-      [ "MR::RenderMeshObject", "classMR_1_1RenderMeshObject.html", null ],
+      [ "MR::RenderLinesObject", "classMR_1_1RenderLinesObject.html", [
+        [ "MR::RenderWrapObject::Wrapper< WrappedModelSubobject< IsPrimary, ObjectLines >, RenderLinesObject >", "classMR_1_1RenderWrapObject_1_1Wrapper.html", null ]
+      ] ],
+      [ "MR::RenderMeshObject", "classMR_1_1RenderMeshObject.html", [
+        [ "MR::RenderWrapObject::Wrapper< WrappedModelSubobject< IsPrimary, ObjectMesh >, RenderMeshObject >", "classMR_1_1RenderWrapObject_1_1Wrapper.html", null ]
+      ] ],
       [ "MR::RenderNameObject", "classMR_1_1RenderNameObject.html", null ],
-      [ "MR::RenderPointsObject", "classMR_1_1RenderPointsObject.html", null ],
+      [ "MR::RenderPointsObject", "classMR_1_1RenderPointsObject.html", [
+        [ "MR::RenderWrapObject::Wrapper< WrappedModelSubobject< IsPrimary, ObjectPoints >, RenderPointsObject >", "classMR_1_1RenderWrapObject_1_1Wrapper.html", null ]
+      ] ],
       [ "MR::RenderVolumeObject", "classMR_1_1RenderVolumeObject.html", null ]
     ] ],
     [ "MR::ISceneSelectionChange", "classMR_1_1ISceneSelectionChange.html", [
@@ -633,18 +650,21 @@ var hierarchy =
           [ "MR::ObjectLinesHolder", "classMR_1_1ObjectLinesHolder.html", [
             [ "MR::ObjectGcode", "classMR_1_1ObjectGcode.html", null ],
             [ "MR::ObjectLines", "classMR_1_1ObjectLines.html", [
+              [ "MR::RenderFeatures::detail::WrappedModelSubobjectPart< IsPrimary, ObjectLines >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart.html", null ],
               [ "MR::RenderFeatures::detail::WrappedModelSubobjectPart< IsPrimary, ObjectLines >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectLines_01_4.html", null ]
             ] ]
           ] ],
           [ "MR::ObjectMeshHolder", "classMR_1_1ObjectMeshHolder.html", [
             [ "MR::ObjectDistanceMap", "classMR_1_1ObjectDistanceMap.html", null ],
             [ "MR::ObjectMesh", "classMR_1_1ObjectMesh.html", [
+              [ "MR::RenderFeatures::detail::WrappedModelSubobjectPart< IsPrimary, ObjectMesh >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart.html", null ],
               [ "MR::RenderFeatures::detail::WrappedModelSubobjectPart< IsPrimary, ObjectMesh >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectMesh_01_4.html", null ]
             ] ],
             [ "MR::ObjectVoxels", "classMR_1_1ObjectVoxels.html", null ]
           ] ],
           [ "MR::ObjectPointsHolder", "classMR_1_1ObjectPointsHolder.html", [
             [ "MR::ObjectPoints", "classMR_1_1ObjectPoints.html", [
+              [ "MR::RenderFeatures::detail::WrappedModelSubobjectPart< IsPrimary, ObjectPoints >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart.html", null ],
               [ "MR::RenderFeatures::detail::WrappedModelSubobjectPart< IsPrimary, ObjectPoints >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectPoints_01_4.html", null ]
             ] ]
           ] ]
@@ -751,13 +771,22 @@ var hierarchy =
     [ "MR::RenderBufferRef< T >", "classMR_1_1RenderBufferRef.html", null ],
     [ "MR::RenderObjectBuffer", "classMR_1_1RenderObjectBuffer.html", null ],
     [ "RenderObjectType", null, [
+      [ "MR::RenderWrapObject::Wrapper< WrappedModelSubobject< IsPrimary, ObjectType >, RenderObjectType >", "classMR_1_1RenderWrapObject_1_1Wrapper.html", [
+        [ "MR::RenderFeatures::RenderFeatureComponent< IsPrimary, ObjectType, RenderObjectType >", "classMR_1_1RenderFeatures_1_1RenderFeatureComponent.html", null ]
+      ] ],
       [ "MR::RenderWrapObject::Wrapper< ObjectType, RenderObjectType >", "classMR_1_1RenderWrapObject_1_1Wrapper.html", [
-        [ "MR::RenderFeatures::RenderFeatureMeshComponent< false >", "classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent.html", [
-          [ "MR::RenderFeatures::RenderPlaneNormalComponent", "classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent.html", null ]
+        [ "MR::RenderFeatures::RenderFeatureComponent< IsPrimary, ObjectLines, RenderLinesObject >", "classMR_1_1RenderFeatures_1_1RenderFeatureComponent.html", [
+          [ "MR::RenderFeatures::RenderFeatureLinesComponent< IsPrimary >", "classMR_1_1RenderFeatures_1_1RenderFeatureLinesComponent.html", null ]
         ] ],
-        [ "MR::RenderFeatures::RenderFeatureLinesComponent< IsPrimary >", "classMR_1_1RenderFeatures_1_1RenderFeatureLinesComponent.html", null ],
-        [ "MR::RenderFeatures::RenderFeatureMeshComponent< IsPrimary >", "classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent.html", null ],
-        [ "MR::RenderFeatures::RenderFeaturePointsComponent< IsPrimary >", "classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent.html", null ]
+        [ "MR::RenderFeatures::RenderFeatureComponent< IsPrimary, ObjectMesh, RenderMeshObject >", "classMR_1_1RenderFeatures_1_1RenderFeatureComponent.html", [
+          [ "MR::RenderFeatures::RenderFeatureMeshComponent< false >", "classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent.html", [
+            [ "MR::RenderFeatures::RenderPlaneNormalComponent", "classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent.html", null ]
+          ] ],
+          [ "MR::RenderFeatures::RenderFeatureMeshComponent< IsPrimary >", "classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent.html", null ]
+        ] ],
+        [ "MR::RenderFeatures::RenderFeatureComponent< IsPrimary, ObjectPoints, RenderPointsObject >", "classMR_1_1RenderFeatures_1_1RenderFeatureComponent.html", [
+          [ "MR::RenderFeatures::RenderFeaturePointsComponent< IsPrimary >", "classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent.html", null ]
+        ] ]
       ] ]
     ] ],
     [ "MR::ResolveMeshDegenSettings", "structMR_1_1ResolveMeshDegenSettings.html", null ],
@@ -806,7 +835,6 @@ var hierarchy =
     [ "MR::ShiftTransformer< TreeT >", "classMR_1_1ShiftTransformer.html", null ],
     [ "MR::ShortcutManager::ShortcutCommand", "structMR_1_1ShortcutManager_1_1ShortcutCommand.html", null ],
     [ "MR::ShortcutManager::ShortcutKey", "structMR_1_1ShortcutManager_1_1ShortcutKey.html", null ],
-    [ "MR::ShortcutManager", "classMR_1_1ShortcutManager.html", null ],
     [ "boost::signals2::signal", null, [
       [ "MR::Signal< void()>", "structMR_1_1Signal.html", null ],
       [ "MR::Signal< void() >", "structMR_1_1Signal.html", null ],
@@ -842,8 +870,15 @@ var hierarchy =
     [ "MR::SubdivideSettings", "structMR_1_1SubdivideSettings.html", null ],
     [ "MR::Features::SubfeatureInfo", "structMR_1_1Features_1_1SubfeatureInfo.html", null ],
     [ "MR::RenderWrapObject::detail::SubobjectStorage< ObjectType >", "structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html", [
+      [ "MR::RenderWrapObject::Wrapper< WrappedModelSubobject< IsPrimary, ObjectType >, RenderObjectType >", "classMR_1_1RenderWrapObject_1_1Wrapper.html", null ],
+      [ "MR::RenderWrapObject::Wrapper< WrappedModelSubobject< IsPrimary, ObjectLines >, RenderLinesObject >", "classMR_1_1RenderWrapObject_1_1Wrapper.html", null ],
+      [ "MR::RenderWrapObject::Wrapper< WrappedModelSubobject< IsPrimary, ObjectMesh >, RenderMeshObject >", "classMR_1_1RenderWrapObject_1_1Wrapper.html", null ],
+      [ "MR::RenderWrapObject::Wrapper< WrappedModelSubobject< IsPrimary, ObjectPoints >, RenderPointsObject >", "classMR_1_1RenderWrapObject_1_1Wrapper.html", null ],
       [ "MR::RenderWrapObject::Wrapper< ObjectType, RenderObjectType >", "classMR_1_1RenderWrapObject_1_1Wrapper.html", null ]
     ] ],
+    [ "MR::RenderWrapObject::detail::SubobjectStorage< WrappedModelSubobject< IsPrimary, ObjectLines > >", "structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html", null ],
+    [ "MR::RenderWrapObject::detail::SubobjectStorage< WrappedModelSubobject< IsPrimary, ObjectMesh > >", "structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html", null ],
+    [ "MR::RenderWrapObject::detail::SubobjectStorage< WrappedModelSubobject< IsPrimary, ObjectPoints > >", "structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html", null ],
     [ "MR::SurfaceContoursWidget::SurfaceContoursWidgetParams", "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html", null ],
     [ "MR::SurfaceDistanceBuilder", "classMR_1_1SurfaceDistanceBuilder.html", null ],
     [ "MR::SymbolMeshParams", "structMR_1_1SymbolMeshParams.html", [

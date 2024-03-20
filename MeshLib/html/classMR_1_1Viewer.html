@@ -458,6 +458,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:af6ad84943b0d9f49dbd4b22e3129216d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf21364b06943f8b3a27b96c8145bd89" id="r_adf21364b06943f8b3a27b96c8145bd89"><td class="memItemLeft" align="right" valign="top">GLFWwindow *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf21364b06943f8b3a27b96c8145bd89">window</a></td></tr>
 <tr class="separator:adf21364b06943f8b3a27b96c8145bd89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78a751ac5cd9bea4f66c1573e8f03175" id="r_a78a751ac5cd9bea4f66c1573e8f03175"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="classMR_1_1Viewer.html">Viewer</a> *viewer)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78a751ac5cd9bea4f66c1573e8f03175">resetSettingsFunction</a> )</td></tr>
+<tr class="separator:a78a751ac5cd9bea4f66c1573e8f03175"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc8ad30c033c6e7346948b81416c26eb" id="r_afc8ad30c033c6e7346948b81416c26eb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classMR_1_1Viewport.html">Viewport</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc8ad30c033c6e7346948b81416c26eb">viewport_list</a></td></tr>
 <tr class="separator:afc8ad30c033c6e7346948b81416c26eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a5a19ca84a8ba99f086c440d5e6403b" id="r_a7a5a19ca84a8ba99f086c440d5e6403b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a5a19ca84a8ba99f086c440d5e6403b">selected_viewport_index</a></td></tr>
@@ -480,9 +482,9 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a7ccea0f47c749b27fc3a4ab8dc91026c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1747b85f1a561ad143a87af606bf91ac" id="r_a1747b85f1a561ad143a87af606bf91ac"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1747b85f1a561ad143a87af606bf91ac">animationMaxFps</a> { 30 }</td></tr>
 <tr class="separator:a1747b85f1a561ad143a87af606bf91ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afee4d5b20b5586b703af20535b8a191d" id="r_afee4d5b20b5586b703af20535b8a191d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afee4d5b20b5586b703af20535b8a191d">scrollForce</a> { 1.0f }</td></tr>
+<tr class="memitem:afee4d5b20b5586b703af20535b8a191d" id="r_afee4d5b20b5586b703af20535b8a191d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afee4d5b20b5586b703af20535b8a191d">scrollForce</a> { }</td></tr>
 <tr class="separator:afee4d5b20b5586b703af20535b8a191d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a240a033f91b3eb0250fa706cd2f2feb1" id="r_a240a033f91b3eb0250fa706cd2f2feb1"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a240a033f91b3eb0250fa706cd2f2feb1">glPickRadius</a> { 0 }</td></tr>
+<tr class="memitem:a240a033f91b3eb0250fa706cd2f2feb1" id="r_a240a033f91b3eb0250fa706cd2f2feb1"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a240a033f91b3eb0250fa706cd2f2feb1">glPickRadius</a> { }</td></tr>
 <tr class="separator:a240a033f91b3eb0250fa706cd2f2feb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a505493fbe72fd322c04cc7922826c5f8" id="r_a505493fbe72fd322c04cc7922826c5f8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a505493fbe72fd322c04cc7922826c5f8">commandArgs</a></td></tr>
 <tr class="separator:a505493fbe72fd322c04cc7922826c5f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3640,7 +3642,7 @@ template&lt;typename PluginType &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t MR::Viewer::glPickRadius { 0 }</td>
+          <td class="memname">uint16_t MR::Viewer::glPickRadius { }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3899,6 +3901,20 @@ template&lt;typename PluginType &gt; </div>
 
 </div>
 </div>
+<a id="a78a751ac5cd9bea4f66c1573e8f03175" name="a78a751ac5cd9bea4f66c1573e8f03175"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78a751ac5cd9bea4f66c1573e8f03175">&#9670;&#160;</a></span>resetSettingsFunction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;void( <a class="el" href="classMR_1_1Viewer.html">Viewer</a>* viewer ) MR::Viewer::resetSettingsFunction) </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a73342d4ca83f292c18e3174035e61d2e" name="a73342d4ca83f292c18e3174035e61d2e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a73342d4ca83f292c18e3174035e61d2e">&#9670;&#160;</a></span>rotationSphere</h2>
 
@@ -3920,7 +3936,7 @@ template&lt;typename PluginType &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float MR::Viewer::scrollForce { 1.0f }</td>
+          <td class="memname">float MR::Viewer::scrollForce { }</td>
         </tr>
       </table>
 </div><div class="memdoc">

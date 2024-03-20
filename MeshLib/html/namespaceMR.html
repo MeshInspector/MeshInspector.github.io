@@ -237,7 +237,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BaseFitParams.html">BaseFitParams</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BaseRenderParams.html">BaseRenderParams</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">describes basic rendering parameters in a viewport  <a href="structMR_1_1BaseRenderParams.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Common rendering parameters for meshes and <a class="el" href="namespaceMR_1_1UI.html">UI</a>.  <a href="structMR_1_1BaseRenderParams.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BaseShellParameters.html">BaseShellParameters</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -806,8 +806,10 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MetricToAStarPenalty.html">MetricToAStarPenalty</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ModelBaseRenderParams.html">ModelBaseRenderParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">describes parameters necessary to render an object  <a href="structMR_1_1ModelRenderParams.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> rendering parameters for primary rendering (as opposed to the picker).  <a href="structMR_1_1ModelRenderParams.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MouseController.html">MouseController</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2248,6 +2250,17 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#a6ab288ae813e1aa688312e31c258df71add6dfa467092f93b67f60fb75476b794">Quadric</a>
  }</td></tr>
 <tr class="separator:a6ab288ae813e1aa688312e31c258df71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a712ee084e6055ce8fadbbe8cf8b3f6ce" id="r_a712ee084e6055ce8fadbbe8cf8b3f6ce"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a712ee084e6055ce8fadbbe8cf8b3f6ce">RenderModelPassMask</a> { <br />
+&#160;&#160;<a class="el" href="#a712ee084e6055ce8fadbbe8cf8b3f6ceafaa90538de35640e4b1e31ccf35b6eb5">Opaque</a> = 1 &lt;&lt; 0
+, <a class="el" href="#a712ee084e6055ce8fadbbe8cf8b3f6cea3d971943089a3388c01fb297a32d9ba7">Transparent</a> = 1 &lt;&lt; 1
+, <a class="el" href="#a712ee084e6055ce8fadbbe8cf8b3f6cea2c8629caa05b0fa4359a9e92093f6607">VolumeRendering</a> = 1 &lt;&lt; 2
+, <a class="el" href="#a712ee084e6055ce8fadbbe8cf8b3f6ceaf69df7097e3ab319cda15613b634273a">NoDepthTest</a> = 1 &lt;&lt; 3
+, <br />
+&#160;&#160;<a class="el" href="#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">All</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:a712ee084e6055ce8fadbbe8cf8b3f6ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Various passes of the 3D rendering.  <a href="#a712ee084e6055ce8fadbbe8cf8b3f6ce">More...</a><br /></td></tr>
+<tr class="separator:a712ee084e6055ce8fadbbe8cf8b3f6ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03fba1fe0e5d6fe3c22dc41c9d57d309" id="r_a03fba1fe0e5d6fe3c22dc41c9d57d309"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03fba1fe0e5d6fe3c22dc41c9d57d309">SignDetectionMode</a> { <br />
 &#160;&#160;<a class="el" href="#a03fba1fe0e5d6fe3c22dc41c9d57d309aa1a914735b205424ba6c40b85528d78a">Unsigned</a>
 , <a class="el" href="#a03fba1fe0e5d6fe3c22dc41c9d57d309a011b949ced7ed48dafe7b08ae740dae9">OpenVDB</a>
@@ -9536,6 +9549,37 @@ template&lt;typename T &gt; </div>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6ab288ae813e1aa688312e31c258df71a93a097009b6443e711996c50b5354adf" name="a6ab288ae813e1aa688312e31c258df71a93a097009b6443e711996c50b5354adf"></a>Planar&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6ab288ae813e1aa688312e31c258df71add6dfa467092f93b67f60fb75476b794" name="a6ab288ae813e1aa688312e31c258df71add6dfa467092f93b67f60fb75476b794"></a>Quadric&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a712ee084e6055ce8fadbbe8cf8b3f6ce" name="a712ee084e6055ce8fadbbe8cf8b3f6ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a712ee084e6055ce8fadbbe8cf8b3f6ce">&#9670;&#160;</a></span>RenderModelPassMask</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a712ee084e6055ce8fadbbe8cf8b3f6ce">MR::RenderModelPassMask</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Various passes of the 3D rendering. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a712ee084e6055ce8fadbbe8cf8b3f6ceafaa90538de35640e4b1e31ccf35b6eb5" name="a712ee084e6055ce8fadbbe8cf8b3f6ceafaa90538de35640e4b1e31ccf35b6eb5"></a>Opaque&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a712ee084e6055ce8fadbbe8cf8b3f6cea3d971943089a3388c01fb297a32d9ba7" name="a712ee084e6055ce8fadbbe8cf8b3f6cea3d971943089a3388c01fb297a32d9ba7"></a>Transparent&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a712ee084e6055ce8fadbbe8cf8b3f6cea2c8629caa05b0fa4359a9e92093f6607" name="a712ee084e6055ce8fadbbe8cf8b3f6cea2c8629caa05b0fa4359a9e92093f6607"></a>VolumeRendering&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a712ee084e6055ce8fadbbe8cf8b3f6ceaf69df7097e3ab319cda15613b634273a" name="a712ee084e6055ce8fadbbe8cf8b3f6ceaf69df7097e3ab319cda15613b634273a"></a>NoDepthTest&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680" name="a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680"></a>All&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

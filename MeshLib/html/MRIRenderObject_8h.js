@@ -1,6 +1,7 @@
 var MRIRenderObject_8h =
 [
     [ "MR::BaseRenderParams", "structMR_1_1BaseRenderParams.html", "structMR_1_1BaseRenderParams" ],
+    [ "MR::ModelBaseRenderParams", "structMR_1_1ModelBaseRenderParams.html", "structMR_1_1ModelBaseRenderParams" ],
     [ "MR::ModelRenderParams", "structMR_1_1ModelRenderParams.html", "structMR_1_1ModelRenderParams" ],
     [ "MR::BasicUiRenderTask", "structMR_1_1BasicUiRenderTask.html", "structMR_1_1BasicUiRenderTask" ],
     [ "MR::BasicUiRenderTask::BackwardPassParams", "structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html", "structMR_1_1BasicUiRenderTask_1_1BackwardPassParams" ],

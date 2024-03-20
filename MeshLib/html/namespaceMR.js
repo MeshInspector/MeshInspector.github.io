@@ -421,6 +421,7 @@ var namespaceMR =
     [ "MeshTriPoint", "structMR_1_1MeshTriPoint.html", "structMR_1_1MeshTriPoint" ],
     [ "MeshVoxelsConverter", "structMR_1_1MeshVoxelsConverter.html", "structMR_1_1MeshVoxelsConverter" ],
     [ "MetricToAStarPenalty", "structMR_1_1MetricToAStarPenalty.html", "structMR_1_1MetricToAStarPenalty" ],
+    [ "ModelBaseRenderParams", "structMR_1_1ModelBaseRenderParams.html", "structMR_1_1ModelBaseRenderParams" ],
     [ "ModelRenderParams", "structMR_1_1ModelRenderParams.html", "structMR_1_1ModelRenderParams" ],
     [ "MouseController", "classMR_1_1MouseController.html", "classMR_1_1MouseController" ],
     [ "MouseDownListener", "structMR_1_1MouseDownListener.html", "structMR_1_1MouseDownListener" ],
@@ -1228,6 +1229,13 @@ var namespaceMR =
     [ "RelaxApproxType", "namespaceMR.html#a6ab288ae813e1aa688312e31c258df71", [
       [ "Planar", "namespaceMR.html#a6ab288ae813e1aa688312e31c258df71a93a097009b6443e711996c50b5354adf", null ],
       [ "Quadric", "namespaceMR.html#a6ab288ae813e1aa688312e31c258df71add6dfa467092f93b67f60fb75476b794", null ]
+    ] ],
+    [ "RenderModelPassMask", "namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ce", [
+      [ "Opaque", "namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceafaa90538de35640e4b1e31ccf35b6eb5", null ],
+      [ "Transparent", "namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6cea3d971943089a3388c01fb297a32d9ba7", null ],
+      [ "VolumeRendering", "namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6cea2c8629caa05b0fa4359a9e92093f6607", null ],
+      [ "NoDepthTest", "namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceaf69df7097e3ab319cda15613b634273a", null ],
+      [ "All", "namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680", null ]
     ] ],
     [ "Reorder", "namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9", [
       [ "None", "namespaceMR.html#afedf1467ef6a61af5a59eafa50a41bf9a6adf97f83acf6453d4a6a4b1070f3754", null ],

@@ -11,5 +11,6 @@ var searchData=
   ['visible_8',['Visible',['../namespaceMR.html#a286c087de610b6e6a6baaf3c7cff3f4baec24d78ce33048dc73a2b6b1a0690192',1,'MR']]],
   ['volume_9',['Volume',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a0b127ccf018299560090f1f8804bd676',1,'MR::GLStaticHolder']]],
   ['volumepicker_10',['VolumePicker',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748aa694e960e5a16235a6b954cd634c87ce',1,'MR::GLStaticHolder']]],
-  ['voxels_11',['Voxels',['../classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76a59637ce14182065617d85623a588b6f0',1,'MR::ViewerSettingsManager::Voxels'],['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37a59637ce14182065617d85623a588b6f0',1,'MR::Voxels']]]
+  ['volumerendering_11',['VolumeRendering',['../namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6cea2c8629caa05b0fa4359a9e92093f6607',1,'MR']]],
+  ['voxels_12',['Voxels',['../classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76a59637ce14182065617d85623a588b6f0',1,'MR::ViewerSettingsManager::Voxels'],['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37a59637ce14182065617d85623a588b6f0',1,'MR::Voxels']]]
 ];

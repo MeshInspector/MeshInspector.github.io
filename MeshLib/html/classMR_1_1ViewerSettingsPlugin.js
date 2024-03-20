@@ -7,8 +7,7 @@ var classMR_1_1ViewerSettingsPlugin =
       [ "Control", "classMR_1_1ViewerSettingsPlugin.html#afeeff27006fc4c615527cbd2c08c552baa1595abbb4c3a326636dd178757cd6c1", null ],
       [ "Viewport", "classMR_1_1ViewerSettingsPlugin.html#afeeff27006fc4c615527cbd2c08c552ba8d6f3510a5cca2c1281c9c6afe7e0da2", null ],
       [ "Features", "classMR_1_1ViewerSettingsPlugin.html#afeeff27006fc4c615527cbd2c08c552ba98f770b0af18ca763421bac22b4b6805", null ],
-      [ "Count", "classMR_1_1ViewerSettingsPlugin.html#afeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9", null ],
-      [ "Settings", "classMR_1_1ViewerSettingsPlugin.html#afeeff27006fc4c615527cbd2c08c552baf4f70727dc34561dfde1a3c529b6205c", null ]
+      [ "Count", "classMR_1_1ViewerSettingsPlugin.html#afeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "ViewerSettingsPlugin", "classMR_1_1ViewerSettingsPlugin.html#a4fda238acd33621d265e12dff2282e03", null ],
     [ "addComboSettings", "classMR_1_1ViewerSettingsPlugin.html#a7c752a952b08baa8a106a3df277698df", null ],

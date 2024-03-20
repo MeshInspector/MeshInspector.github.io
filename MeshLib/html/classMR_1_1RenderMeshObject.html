@@ -118,7 +118,8 @@ $(function(){initNavTree('classMR_1_1RenderMeshObject.html',''); initResizable()
  <div class="center">
   <img src="classMR_1_1RenderMeshObject.png" usemap="#MR::RenderMeshObject_map" alt=""/>
   <map id="MR::RenderMeshObject_map" name="MR::RenderMeshObject_map">
-<area href="classMR_1_1IRenderObject.html" alt="MR::IRenderObject" shape="rect" coords="0,0,146,24"/>
+<area href="classMR_1_1IRenderObject.html" alt="MR::IRenderObject" shape="rect" coords="0,0,638,24"/>
+<area href="classMR_1_1RenderWrapObject_1_1Wrapper.html" alt="MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectMesh &gt;, RenderMeshObject &gt;" shape="rect" coords="0,112,638,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -128,10 +129,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a345d0ef9d78fd5002d69d90414279694"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41d19fc14c825a18bc7c451d9cc383db" id="r_a41d19fc14c825a18bc7c451d9cc383db"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41d19fc14c825a18bc7c451d9cc383db">~RenderMeshObject</a> ()</td></tr>
 <tr class="separator:a41d19fc14c825a18bc7c451d9cc383db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a656bbf96a6a8780a00849645f480ccb2" id="r_a656bbf96a6a8780a00849645f480ccb2"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a656bbf96a6a8780a00849645f480ccb2">render</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;params) override</td></tr>
-<tr class="separator:a656bbf96a6a8780a00849645f480ccb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac353e338b5e3a4e67a6ccdfacab27c87" id="r_ac353e338b5e3a4e67a6ccdfacab27c87"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac353e338b5e3a4e67a6ccdfacab27c87">renderPicker</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;params, unsigned geomId) override</td></tr>
-<tr class="separator:ac353e338b5e3a4e67a6ccdfacab27c87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af98f29118f3e40b2fea47777cc8c1109" id="r_af98f29118f3e40b2fea47777cc8c1109"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af98f29118f3e40b2fea47777cc8c1109">render</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;params) override</td></tr>
+<tr class="separator:af98f29118f3e40b2fea47777cc8c1109"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3add1fec03d84c184958d143c13ab6ba" id="r_a3add1fec03d84c184958d143c13ab6ba"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3add1fec03d84c184958d143c13ab6ba">renderPicker</a> (const <a class="el" href="structMR_1_1ModelBaseRenderParams.html">ModelBaseRenderParams</a> &amp;params, unsigned geomId) override</td></tr>
+<tr class="separator:a3add1fec03d84c184958d143c13ab6ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e555c261681a7483119dde9a5b3df25" id="r_a8e555c261681a7483119dde9a5b3df25"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e555c261681a7483119dde9a5b3df25">heapBytes</a> () const override</td></tr>
 <tr class="memdesc:a8e555c261681a7483119dde9a5b3df25"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:a8e555c261681a7483119dde9a5b3df25"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -168,10 +169,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a8ec8db305432a9bd896e3ab72cfcd302"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b296b577bfee513d40bc073e4609f55" id="r_a0b296b577bfee513d40bc073e4609f55"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="classMR_1_1RenderBufferRef.html">RenderBufferRef</a>&lt; <a class="el" href="namespaceMR.html#abf8028cc3aa9939b43d1c2464d068f5e">Vector4f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b296b577bfee513d40bc073e4609f55">loadFaceNormalsTextureBuffer_</a> ()</td></tr>
 <tr class="separator:a0b296b577bfee513d40bc073e4609f55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0539a1087bd405adf4d0cff578b3da2f" id="r_a0539a1087bd405adf4d0cff578b3da2f"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0539a1087bd405adf4d0cff578b3da2f">renderEdges_</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;parameters, <a class="el" href="#a3228435a7c18da1a7bf0ddd0568a2102">GLuint</a> vao, const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;color, uint32_t dirtyFlag)</td></tr>
-<tr class="separator:a0539a1087bd405adf4d0cff578b3da2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a522f850c9e4544eaf082cf5b8603dc82" id="r_a522f850c9e4544eaf082cf5b8603dc82"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a522f850c9e4544eaf082cf5b8603dc82">renderMeshEdges_</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;parameters)</td></tr>
-<tr class="separator:a522f850c9e4544eaf082cf5b8603dc82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1481eb097fc1df4d8e8d081361beafc" id="r_ad1481eb097fc1df4d8e8d081361beafc"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1481eb097fc1df4d8e8d081361beafc">renderEdges_</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;parameters, bool alphaSort, <a class="el" href="#a3228435a7c18da1a7bf0ddd0568a2102">GLuint</a> vao, const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;color, uint32_t dirtyFlag)</td></tr>
+<tr class="separator:ad1481eb097fc1df4d8e8d081361beafc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90087d2402634713cf7a7f66dcc0bf9f" id="r_a90087d2402634713cf7a7f66dcc0bf9f"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90087d2402634713cf7a7f66dcc0bf9f">renderMeshEdges_</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;parameters, bool alphaSort)</td></tr>
+<tr class="separator:a90087d2402634713cf7a7f66dcc0bf9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52ebb3d5e9d31623cff69e8c5d04a760" id="r_a52ebb3d5e9d31623cff69e8c5d04a760"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52ebb3d5e9d31623cff69e8c5d04a760">bindMesh_</a> (bool alphaSort)</td></tr>
 <tr class="separator:a52ebb3d5e9d31623cff69e8c5d04a760"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37739458881d20481b031b0260717196" id="r_a37739458881d20481b031b0260717196"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37739458881d20481b031b0260717196">bindMeshPicker_</a> ()</td></tr>
@@ -829,8 +830,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a656bbf96a6a8780a00849645f480ccb2" name="a656bbf96a6a8780a00849645f480ccb2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a656bbf96a6a8780a00849645f480ccb2">&#9670;&#160;</a></span>render()</h2>
+<a id="af98f29118f3e40b2fea47777cc8c1109" name="af98f29118f3e40b2fea47777cc8c1109"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af98f29118f3e40b2fea47777cc8c1109">&#9670;&#160;</a></span>render()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -839,7 +840,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual MRVIEWER_API void MR::RenderMeshObject::render </td>
+          <td class="memname">virtual MRVIEWER_API bool MR::RenderMeshObject::render </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span></td><td>)</td>
           <td></td>
@@ -852,12 +853,12 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classMR_1_1IRenderObject.html#a334e2da7ab725dd66f36ca503f022566">MR::IRenderObject</a>.</p>
+<p>Implements <a class="el" href="classMR_1_1IRenderObject.html#a02b8e566ef48df489cddb77a759ec3c4">MR::IRenderObject</a>.</p>
 
 </div>
 </div>
-<a id="a0539a1087bd405adf4d0cff578b3da2f" name="a0539a1087bd405adf4d0cff578b3da2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0539a1087bd405adf4d0cff578b3da2f">&#9670;&#160;</a></span>renderEdges_()</h2>
+<a id="ad1481eb097fc1df4d8e8d081361beafc" name="ad1481eb097fc1df4d8e8d081361beafc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1481eb097fc1df4d8e8d081361beafc">&#9670;&#160;</a></span>renderEdges_()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -869,6 +870,11 @@ Protected Attributes</h2></td></tr>
           <td class="memname">virtual MRVIEWER_API void MR::RenderMeshObject::renderEdges_ </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>parameters</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>alphaSort</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -895,8 +901,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a522f850c9e4544eaf082cf5b8603dc82" name="a522f850c9e4544eaf082cf5b8603dc82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a522f850c9e4544eaf082cf5b8603dc82">&#9670;&#160;</a></span>renderMeshEdges_()</h2>
+<a id="a90087d2402634713cf7a7f66dcc0bf9f" name="a90087d2402634713cf7a7f66dcc0bf9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90087d2402634713cf7a7f66dcc0bf9f">&#9670;&#160;</a></span>renderMeshEdges_()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -907,8 +913,12 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">virtual MRVIEWER_API void MR::RenderMeshObject::renderMeshEdges_ </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>parameters</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>parameters</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>alphaSort</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -920,8 +930,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac353e338b5e3a4e67a6ccdfacab27c87" name="ac353e338b5e3a4e67a6ccdfacab27c87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac353e338b5e3a4e67a6ccdfacab27c87">&#9670;&#160;</a></span>renderPicker()</h2>
+<a id="a3add1fec03d84c184958d143c13ab6ba" name="a3add1fec03d84c184958d143c13ab6ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3add1fec03d84c184958d143c13ab6ba">&#9670;&#160;</a></span>renderPicker()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -932,7 +942,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">virtual MRVIEWER_API void MR::RenderMeshObject::renderPicker </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em>, </span></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ModelBaseRenderParams.html">ModelBaseRenderParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -947,7 +957,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classMR_1_1IRenderObject.html#ad889c8378e5442dd02267ad472e6cdca">MR::IRenderObject</a>.</p>
+<p>Implements <a class="el" href="classMR_1_1IRenderObject.html#aa40c8d73952eceb8d676864c3cd30738">MR::IRenderObject</a>.</p>
 
 </div>
 </div>

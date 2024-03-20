@@ -96,7 +96,7 @@ var searchData=
   ['minweight_93',['minWeight',['../structMR_1_1PointsToDistanceVolumeParams.html#a7716b4700ce22b3eedf9da8864d8480f',1,'MR::PointsToDistanceVolumeParams::minWeight'],['../structMR_1_1PointsToMeshParameters.html#a3bdeb5a4cdd00fc36ce6089cede17c0b',1,'MR::PointsToMeshParameters::minWeight']]],
   ['mod_94',['mod',['../structMR_1_1MouseController_1_1MouseControlKey.html#a647bc43b34bf75a34af675e69cd0f10b',1,'MR::MouseController::MouseControlKey::mod'],['../structMR_1_1ShortcutManager_1_1ShortcutKey.html#aaa29fa87923dc0c7542ca3f699799672',1,'MR::ShortcutManager::ShortcutKey::mod']]],
   ['mode_95',['mode',['../structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1',1,'MR::GeneralOffsetParameters::mode'],['../structMR_1_1FitDataParams.html#a423ab9ff17d938fcf943e0989297eba6',1,'MR::FitDataParams::mode']]],
-  ['modelmatrix_96',['modelMatrix',['../structMR_1_1ModelRenderParams.html#ac2b1de2cdf13e9bd8570d104ddd3434d',1,'MR::ModelRenderParams']]],
+  ['modelmatrix_96',['modelMatrix',['../structMR_1_1ModelBaseRenderParams.html#a28337d3d5f8f9cc1db7812bca629ce40',1,'MR::ModelBaseRenderParams']]],
   ['modifiedmesh_97',['modifiedMesh',['../structMR_1_1ToolPathResult.html#ae495a5fc24540b7eaf1210872ac5fb3e',1,'MR::ToolPathResult']]],
   ['modifiedregion_98',['modifiedRegion',['../structMR_1_1ToolPathResult.html#a98b818ec1b422fbe35f5efd57ff37a44',1,'MR::ToolPathResult']]],
   ['mousedownsignal_99',['mouseDownSignal',['../classMR_1_1Viewer.html#a9ea9009f3322b748927ea3d760e593d1',1,'MR::Viewer']]],

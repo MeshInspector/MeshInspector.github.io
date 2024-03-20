@@ -114,6 +114,17 @@ $(function(){initNavTree('classMR_1_1ShortcutManager.html',''); initResizable();
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="MRShortcutManager_8h_source.html">MRShortcutManager.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for MR::ShortcutManager:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classMR_1_1ShortcutManager.png" usemap="#MR::ShortcutManager_map" alt=""/>
+  <map id="MR::ShortcutManager_map" name="MR::ShortcutManager_map">
+<area href="structMR_1_1MultiListener.html" alt="MR::MultiListener&lt; KeyDownListener, KeyRepeatListener &gt;" shape="rect" coords="0,56,347,80"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -157,8 +168,19 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5e5ccda452d5473a8328af4b7003e4f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4342c4301200e65be8eb010636b8db8e" id="r_a4342c4301200e65be8eb010636b8db8e"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4342c4301200e65be8eb010636b8db8e">processShortcut</a> (const <a class="el" href="structMR_1_1ShortcutManager_1_1ShortcutKey.html">ShortcutKey</a> &amp;key, <a class="el" href="#a1a85baae28af51cf7825c2099b693c1b">Reason</a>=<a class="el" href="#a1a85baae28af51cf7825c2099b693c1bacfd07bf1effd88bca04a12a087777354">Reason::KeyDown</a>) const</td></tr>
 <tr class="separator:a4342c4301200e65be8eb010636b8db8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a959eba5366b2a67059bd1ee8ff2d3b62" id="r_a959eba5366b2a67059bd1ee8ff2d3b62"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a959eba5366b2a67059bd1ee8ff2d3b62">onKeyDown_</a> (int key, int modifier) override</td></tr>
+<tr class="separator:a959eba5366b2a67059bd1ee8ff2d3b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa663126efdb053e8d1d576bf2a2458c2" id="r_aa663126efdb053e8d1d576bf2a2458c2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa663126efdb053e8d1d576bf2a2458c2">onKeyRepeat_</a> (int key, int modifier) override</td></tr>
+<tr class="separator:aa663126efdb053e8d1d576bf2a2458c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf200a338401cd7994a122ba61bfce47" id="r_adf200a338401cd7994a122ba61bfce47"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::optional&lt; <a class="el" href="structMR_1_1ShortcutManager_1_1ShortcutKey.html">ShortcutKey</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf200a338401cd7994a122ba61bfce47">findShortcutByName</a> (const std::string &amp;name) const</td></tr>
 <tr class="separator:adf200a338401cd7994a122ba61bfce47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_structMR_1_1MultiListener"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_structMR_1_1MultiListener')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structMR_1_1MultiListener.html">MR::MultiListener&lt; KeyDownListener, KeyRepeatListener &gt;</a></td></tr>
+<tr class="memitem:a726f5e2601b7f25e31824a0cac630fb2 inherit pub_methods_structMR_1_1MultiListener" id="r_a726f5e2601b7f25e31824a0cac630fb2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MultiListener.html#a726f5e2601b7f25e31824a0cac630fb2">~MultiListener</a> ()=default</td></tr>
+<tr class="separator:a726f5e2601b7f25e31824a0cac630fb2 inherit pub_methods_structMR_1_1MultiListener"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3312c12e653a48eaee4680364e72f27 inherit pub_methods_structMR_1_1MultiListener" id="r_af3312c12e653a48eaee4680364e72f27"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MultiListener.html#af3312c12e653a48eaee4680364e72f27">connect</a> (<a class="el" href="classMR_1_1Viewer.html">Viewer</a> *viewer, int group=0, boost::signals2::connect_position pos=boost::signals2::connect_position::at_back)</td></tr>
+<tr class="separator:af3312c12e653a48eaee4680364e72f27 inherit pub_methods_structMR_1_1MultiListener"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfa598489bfbc3b88c84b029213d042c inherit pub_methods_structMR_1_1MultiListener" id="r_acfa598489bfbc3b88c84b029213d042c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MultiListener.html#acfa598489bfbc3b88c84b029213d042c">disconnect</a> ()</td></tr>
+<tr class="separator:acfa598489bfbc3b88c84b029213d042c inherit pub_methods_structMR_1_1MultiListener"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -554,6 +576,64 @@ Protected Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a959eba5366b2a67059bd1ee8ff2d3b62" name="a959eba5366b2a67059bd1ee8ff2d3b62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a959eba5366b2a67059bd1ee8ff2d3b62">&#9670;&#160;</a></span>onKeyDown_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::ShortcutManager::onKeyDown_ </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>key</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>modifier</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa663126efdb053e8d1d576bf2a2458c2" name="aa663126efdb053e8d1d576bf2a2458c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa663126efdb053e8d1d576bf2a2458c2">&#9670;&#160;</a></span>onKeyRepeat_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::ShortcutManager::onKeyRepeat_ </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>key</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>modifier</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

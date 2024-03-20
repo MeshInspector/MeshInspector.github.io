@@ -115,12 +115,15 @@ $(function(){initNavTree('classMR_1_1IRenderObject.html',''); initResizable(); }
  <div class="center">
   <img src="classMR_1_1IRenderObject.png" usemap="#MR::IRenderObject_map" alt=""/>
   <map id="MR::IRenderObject_map" name="MR::IRenderObject_map">
-<area href="classMR_1_1RenderLabelObject.html" alt="MR::RenderLabelObject" shape="rect" coords="0,56,157,80"/>
-<area href="classMR_1_1RenderLinesObject.html" alt="MR::RenderLinesObject" shape="rect" coords="167,56,324,80"/>
-<area href="classMR_1_1RenderMeshObject.html" alt="MR::RenderMeshObject" shape="rect" coords="334,56,491,80"/>
-<area href="classMR_1_1RenderNameObject.html" alt="MR::RenderNameObject" shape="rect" coords="501,56,658,80"/>
-<area href="classMR_1_1RenderPointsObject.html" alt="MR::RenderPointsObject" shape="rect" coords="668,56,825,80"/>
-<area href="classMR_1_1RenderVolumeObject.html" alt="MR::RenderVolumeObject" shape="rect" coords="835,56,992,80"/>
+<area href="classMR_1_1RenderLabelObject.html" alt="MR::RenderLabelObject" shape="rect" coords="0,56,644,80"/>
+<area href="classMR_1_1RenderLinesObject.html" alt="MR::RenderLinesObject" shape="rect" coords="654,56,1298,80"/>
+<area href="classMR_1_1RenderMeshObject.html" alt="MR::RenderMeshObject" shape="rect" coords="1308,56,1952,80"/>
+<area href="classMR_1_1RenderNameObject.html" alt="MR::RenderNameObject" shape="rect" coords="1962,56,2606,80"/>
+<area href="classMR_1_1RenderPointsObject.html" alt="MR::RenderPointsObject" shape="rect" coords="2616,56,3260,80"/>
+<area href="classMR_1_1RenderVolumeObject.html" alt="MR::RenderVolumeObject" shape="rect" coords="3270,56,3914,80"/>
+<area href="classMR_1_1RenderWrapObject_1_1Wrapper.html" alt="MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectLines &gt;, RenderLinesObject &gt;" shape="rect" coords="654,112,1298,136"/>
+<area href="classMR_1_1RenderWrapObject_1_1Wrapper.html" alt="MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectMesh &gt;, RenderMeshObject &gt;" shape="rect" coords="1308,112,1952,136"/>
+<area href="classMR_1_1RenderWrapObject_1_1Wrapper.html" alt="MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectPoints &gt;, RenderPointsObject &gt;" shape="rect" coords="2616,112,3260,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -128,10 +131,10 @@ $(function(){initNavTree('classMR_1_1IRenderObject.html',''); initResizable(); }
 Public Member Functions</h2></td></tr>
 <tr class="memitem:acb87b662f59e2d557580f2ad1f38fa7a" id="r_acb87b662f59e2d557580f2ad1f38fa7a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb87b662f59e2d557580f2ad1f38fa7a">~IRenderObject</a> ()=default</td></tr>
 <tr class="separator:acb87b662f59e2d557580f2ad1f38fa7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a334e2da7ab725dd66f36ca503f022566" id="r_a334e2da7ab725dd66f36ca503f022566"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a334e2da7ab725dd66f36ca503f022566">render</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;params)=0</td></tr>
-<tr class="separator:a334e2da7ab725dd66f36ca503f022566"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad889c8378e5442dd02267ad472e6cdca" id="r_ad889c8378e5442dd02267ad472e6cdca"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad889c8378e5442dd02267ad472e6cdca">renderPicker</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;params, unsigned geomId)=0</td></tr>
-<tr class="separator:ad889c8378e5442dd02267ad472e6cdca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02b8e566ef48df489cddb77a759ec3c4" id="r_a02b8e566ef48df489cddb77a759ec3c4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02b8e566ef48df489cddb77a759ec3c4">render</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;params)=0</td></tr>
+<tr class="separator:a02b8e566ef48df489cddb77a759ec3c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa40c8d73952eceb8d676864c3cd30738" id="r_aa40c8d73952eceb8d676864c3cd30738"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa40c8d73952eceb8d676864c3cd30738">renderPicker</a> (const <a class="el" href="structMR_1_1ModelBaseRenderParams.html">ModelBaseRenderParams</a> &amp;params, unsigned geomId)=0</td></tr>
+<tr class="separator:aa40c8d73952eceb8d676864c3cd30738"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79569d09a46b696bc119c62ac7faaad8" id="r_a79569d09a46b696bc119c62ac7faaad8"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79569d09a46b696bc119c62ac7faaad8">heapBytes</a> () const =0</td></tr>
 <tr class="memdesc:a79569d09a46b696bc119c62ac7faaad8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:a79569d09a46b696bc119c62ac7faaad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -258,8 +261,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a334e2da7ab725dd66f36ca503f022566" name="a334e2da7ab725dd66f36ca503f022566"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a334e2da7ab725dd66f36ca503f022566">&#9670;&#160;</a></span>render()</h2>
+<a id="a02b8e566ef48df489cddb77a759ec3c4" name="a02b8e566ef48df489cddb77a759ec3c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02b8e566ef48df489cddb77a759ec3c4">&#9670;&#160;</a></span>render()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -268,7 +271,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::IRenderObject::render </td>
+          <td class="memname">bool MR::IRenderObject::render </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span></td><td>)</td>
           <td></td>
@@ -281,12 +284,12 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classMR_1_1RenderLabelObject.html#a529dd7c043e010865e6cd4ca4a797292">MR::RenderLabelObject</a>, <a class="el" href="classMR_1_1RenderLinesObject.html#a1b8956a1dc2f90d9ed34168df07cf501">MR::RenderLinesObject</a>, <a class="el" href="classMR_1_1RenderMeshObject.html#a656bbf96a6a8780a00849645f480ccb2">MR::RenderMeshObject</a>, <a class="el" href="classMR_1_1RenderPointsObject.html#ae9e9d42805f310a0120ff844cd600296">MR::RenderPointsObject</a>, and <a class="el" href="classMR_1_1RenderVolumeObject.html#a436cdf4002fee76941a38a3d829ef626">MR::RenderVolumeObject</a>.</p>
+<p>Implemented in <a class="el" href="classMR_1_1RenderLabelObject.html#af0dc873eb933a19cda016279a133a693">MR::RenderLabelObject</a>, <a class="el" href="classMR_1_1RenderLinesObject.html#a8412df02cc59f812bae34332eb7da1bf">MR::RenderLinesObject</a>, <a class="el" href="classMR_1_1RenderMeshObject.html#af98f29118f3e40b2fea47777cc8c1109">MR::RenderMeshObject</a>, <a class="el" href="classMR_1_1RenderPointsObject.html#ad39fc2c9b30695ac78272431c20efe9e">MR::RenderPointsObject</a>, and <a class="el" href="classMR_1_1RenderVolumeObject.html#aaad07ecd619e787b1708ee13b634297b">MR::RenderVolumeObject</a>.</p>
 
 </div>
 </div>
-<a id="ad889c8378e5442dd02267ad472e6cdca" name="ad889c8378e5442dd02267ad472e6cdca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad889c8378e5442dd02267ad472e6cdca">&#9670;&#160;</a></span>renderPicker()</h2>
+<a id="aa40c8d73952eceb8d676864c3cd30738" name="aa40c8d73952eceb8d676864c3cd30738"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa40c8d73952eceb8d676864c3cd30738">&#9670;&#160;</a></span>renderPicker()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -297,7 +300,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void MR::IRenderObject::renderPicker </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em>, </span></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ModelBaseRenderParams.html">ModelBaseRenderParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -312,7 +315,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classMR_1_1RenderLabelObject.html#a561eec53b4d40841d356fe49935f1d11">MR::RenderLabelObject</a>, <a class="el" href="classMR_1_1RenderLinesObject.html#a82cb80296fc1c6461c5d3737d61a2977">MR::RenderLinesObject</a>, <a class="el" href="classMR_1_1RenderMeshObject.html#ac353e338b5e3a4e67a6ccdfacab27c87">MR::RenderMeshObject</a>, <a class="el" href="classMR_1_1RenderPointsObject.html#a8f5abbf7ab2da0d121d1c757ff66c4e9">MR::RenderPointsObject</a>, and <a class="el" href="classMR_1_1RenderVolumeObject.html#a5ed2c3f92eb5197b539a59adff091808">MR::RenderVolumeObject</a>.</p>
+<p>Implemented in <a class="el" href="classMR_1_1RenderLabelObject.html#abf815848468cddcca8a409e99aa33102">MR::RenderLabelObject</a>, <a class="el" href="classMR_1_1RenderLinesObject.html#ad30e617ed0e05dd26727e86018cb4366">MR::RenderLinesObject</a>, <a class="el" href="classMR_1_1RenderMeshObject.html#a3add1fec03d84c184958d143c13ab6ba">MR::RenderMeshObject</a>, <a class="el" href="classMR_1_1RenderPointsObject.html#a88bbfafb06a1d55fbcc5d082f4239094">MR::RenderPointsObject</a>, and <a class="el" href="classMR_1_1RenderVolumeObject.html#acbecb6272b1df8bf0c9339d43bc815d8">MR::RenderVolumeObject</a>.</p>
 
 </div>
 </div>

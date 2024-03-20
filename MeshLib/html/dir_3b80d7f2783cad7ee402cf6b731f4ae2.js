@@ -291,6 +291,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRRegularGridMesh.h", "MRRegularGridMesh_8h.html", "MRRegularGridMesh_8h" ],
     [ "MRRegularMapMesher.h", "MRRegularMapMesher_8h.html", null ],
     [ "MRRelaxParams.h", "MRRelaxParams_8h.html", "MRRelaxParams_8h" ],
+    [ "MRRenderModelParameters.h", "MRRenderModelParameters_8h.html", "MRRenderModelParameters_8h" ],
     [ "MRRestoringStreamsSink.h", "MRRestoringStreamsSink_8h.html", null ],
     [ "MRRingIterator.h", "MRRingIterator_8h.html", "MRRingIterator_8h" ],
     [ "MRSaveSettings.h", "MRSaveSettings_8h.html", "MRSaveSettings_8h" ],

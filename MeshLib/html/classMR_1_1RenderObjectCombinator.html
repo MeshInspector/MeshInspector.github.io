@@ -125,10 +125,10 @@ $(function(){initNavTree('classMR_1_1RenderObjectCombinator.html',''); initResiz
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aaf9f364da4dd0710603d3ea88860d423" id="r_aaf9f364da4dd0710603d3ea88860d423"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf9f364da4dd0710603d3ea88860d423">RenderObjectCombinator</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;object)</td></tr>
 <tr class="separator:aaf9f364da4dd0710603d3ea88860d423"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf1be1037c4086aa42221c23413efddd" id="r_abf1be1037c4086aa42221c23413efddd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf1be1037c4086aa42221c23413efddd">render</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;params) override</td></tr>
-<tr class="separator:abf1be1037c4086aa42221c23413efddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7cc143c522219eec8874a03d7788d72" id="r_ab7cc143c522219eec8874a03d7788d72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7cc143c522219eec8874a03d7788d72">renderPicker</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;params, unsigned geomId) override</td></tr>
-<tr class="separator:ab7cc143c522219eec8874a03d7788d72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c8e2b2a990fbdf14835f953090ef542" id="r_a6c8e2b2a990fbdf14835f953090ef542"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c8e2b2a990fbdf14835f953090ef542">render</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;params) override</td></tr>
+<tr class="separator:a6c8e2b2a990fbdf14835f953090ef542"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8acfcf58dd21cbe8b8fc889a79b8106d" id="r_a8acfcf58dd21cbe8b8fc889a79b8106d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8acfcf58dd21cbe8b8fc889a79b8106d">renderPicker</a> (const <a class="el" href="structMR_1_1ModelBaseRenderParams.html">ModelBaseRenderParams</a> &amp;params, unsigned geomId) override</td></tr>
+<tr class="separator:a8acfcf58dd21cbe8b8fc889a79b8106d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e7fc28637f457e02fe5dafff8f5d614" id="r_a2e7fc28637f457e02fe5dafff8f5d614"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e7fc28637f457e02fe5dafff8f5d614">heapBytes</a> () const override</td></tr>
 <tr class="separator:a2e7fc28637f457e02fe5dafff8f5d614"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a119987068e72df89faccb9088a8def44" id="r_a119987068e72df89faccb9088a8def44"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a119987068e72df89faccb9088a8def44">glBytes</a> () const override</td></tr>
@@ -248,8 +248,8 @@ template&lt;typename ... Bases&gt; </div>
 
 </div>
 </div>
-<a id="abf1be1037c4086aa42221c23413efddd" name="abf1be1037c4086aa42221c23413efddd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf1be1037c4086aa42221c23413efddd">&#9670;&#160;</a></span>render()</h2>
+<a id="a6c8e2b2a990fbdf14835f953090ef542" name="a6c8e2b2a990fbdf14835f953090ef542"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c8e2b2a990fbdf14835f953090ef542">&#9670;&#160;</a></span>render()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -260,7 +260,7 @@ template&lt;typename ... Bases&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1RenderObjectCombinator.html">MR::RenderObjectCombinator</a>&lt; Bases &gt;::render </td>
+          <td class="memname">bool <a class="el" href="classMR_1_1RenderObjectCombinator.html">MR::RenderObjectCombinator</a>&lt; Bases &gt;::render </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span></td><td>)</td>
           <td></td>
@@ -275,8 +275,8 @@ template&lt;typename ... Bases&gt; </div>
 
 </div>
 </div>
-<a id="ab7cc143c522219eec8874a03d7788d72" name="ab7cc143c522219eec8874a03d7788d72"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7cc143c522219eec8874a03d7788d72">&#9670;&#160;</a></span>renderPicker()</h2>
+<a id="a8acfcf58dd21cbe8b8fc889a79b8106d" name="a8acfcf58dd21cbe8b8fc889a79b8106d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8acfcf58dd21cbe8b8fc889a79b8106d">&#9670;&#160;</a></span>renderPicker()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -289,7 +289,7 @@ template&lt;typename ... Bases&gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="classMR_1_1RenderObjectCombinator.html">MR::RenderObjectCombinator</a>&lt; Bases &gt;::renderPicker </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em>, </span></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ModelBaseRenderParams.html">ModelBaseRenderParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>

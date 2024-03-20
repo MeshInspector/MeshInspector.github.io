@@ -23,6 +23,8 @@ var classMR_1_1ShortcutManager =
     [ "findShortcutByName", "classMR_1_1ShortcutManager.html#adf200a338401cd7994a122ba61bfce47", null ],
     [ "getShortcutList", "classMR_1_1ShortcutManager.html#a0d5470fbe42101af3a425b0108338a10", null ],
     [ "isEnabled", "classMR_1_1ShortcutManager.html#aaf51fc21fb54cb1e8d7b1734c0d4c0e9", null ],
+    [ "onKeyDown_", "classMR_1_1ShortcutManager.html#a959eba5366b2a67059bd1ee8ff2d3b62", null ],
+    [ "onKeyRepeat_", "classMR_1_1ShortcutManager.html#aa663126efdb053e8d1d576bf2a2458c2", null ],
     [ "processShortcut", "classMR_1_1ShortcutManager.html#a4342c4301200e65be8eb010636b8db8e", null ],
     [ "setShortcut", "classMR_1_1ShortcutManager.html#a70996e2b27f24841fb75376870328103", null ],
     [ "backMap_", "classMR_1_1ShortcutManager.html#aa81ce4c0f43334be0c680e28346fce2e", null ],

@@ -304,12 +304,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2abf3d3c767a16a584ad513af643feca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf2d7e16d33d059dbf2bbd0f1c34c8bf" id="r_adf2d7e16d33d059dbf2bbd0f1c34c8bf"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf2d7e16d33d059dbf2bbd0f1c34c8bf">shallowClone</a> () const override</td></tr>
 <tr class="separator:adf2d7e16d33d059dbf2bbd0f1c34c8bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe3748521027dcf728e8271155de5e86" id="r_afe3748521027dcf728e8271155de5e86"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe3748521027dcf728e8271155de5e86">render</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;) const</td></tr>
-<tr class="memdesc:afe3748521027dcf728e8271155de5e86"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws this object for visualization  <br /></td></tr>
-<tr class="separator:afe3748521027dcf728e8271155de5e86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf24be34b63b1a1ae4d52d02f0c014e2" id="r_acf24be34b63b1a1ae4d52d02f0c014e2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf24be34b63b1a1ae4d52d02f0c014e2">renderForPicker</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;, unsigned) const</td></tr>
-<tr class="memdesc:acf24be34b63b1a1ae4d52d02f0c014e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws this object for picking  <br /></td></tr>
-<tr class="separator:acf24be34b63b1a1ae4d52d02f0c014e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ee8d7c7819cfcae4624e5818a870052" id="r_a4ee8d7c7819cfcae4624e5818a870052"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ee8d7c7819cfcae4624e5818a870052">render</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;) const</td></tr>
+<tr class="separator:a4ee8d7c7819cfcae4624e5818a870052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a190bc33649da029a5669785110d1dd19" id="r_a190bc33649da029a5669785110d1dd19"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a190bc33649da029a5669785110d1dd19">renderForPicker</a> (const <a class="el" href="structMR_1_1ModelBaseRenderParams.html">ModelBaseRenderParams</a> &amp;, unsigned) const</td></tr>
+<tr class="memdesc:a190bc33649da029a5669785110d1dd19"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws this object for picking  <br /></td></tr>
+<tr class="separator:a190bc33649da029a5669785110d1dd19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c703445b89c896790544b583d052e9f" id="r_a7c703445b89c896790544b583d052e9f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c703445b89c896790544b583d052e9f">renderUi</a> (const <a class="el" href="structMR_1_1UiRenderParams.html">UiRenderParams</a> &amp;params) const</td></tr>
 <tr class="memdesc:a7c703445b89c896790544b583d052e9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws this object for 2d <a class="el" href="namespaceMR_1_1UI.html">UI</a>  <br /></td></tr>
 <tr class="separator:a7c703445b89c896790544b583d052e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1601,8 +1600,8 @@ template&lt;AnyVisualizeMaskEnumType T&gt; </div>
 
 </div>
 </div>
-<a id="afe3748521027dcf728e8271155de5e86" name="afe3748521027dcf728e8271155de5e86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe3748521027dcf728e8271155de5e86">&#9670;&#160;</a></span>render()</h2>
+<a id="a4ee8d7c7819cfcae4624e5818a870052" name="a4ee8d7c7819cfcae4624e5818a870052"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ee8d7c7819cfcae4624e5818a870052">&#9670;&#160;</a></span>render()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1611,7 +1610,7 @@ template&lt;AnyVisualizeMaskEnumType T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::VisualObject::render </td>
+          <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::VisualObject::render </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;</td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td> const</td>
@@ -1623,13 +1622,12 @@ template&lt;AnyVisualizeMaskEnumType T&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>draws this object for visualization </p>
+<p>draws this object for visualization Returns true if something was drawn. </p>
 
 </div>
 </div>
-<a id="acf24be34b63b1a1ae4d52d02f0c014e2" name="acf24be34b63b1a1ae4d52d02f0c014e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf24be34b63b1a1ae4d52d02f0c014e2">&#9670;&#160;</a></span>renderForPicker()</h2>
+<a id="a190bc33649da029a5669785110d1dd19" name="a190bc33649da029a5669785110d1dd19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a190bc33649da029a5669785110d1dd19">&#9670;&#160;</a></span>renderForPicker()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1640,7 +1638,7 @@ template&lt;AnyVisualizeMaskEnumType T&gt; </div>
         <tr>
           <td class="memname">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::VisualObject::renderForPicker </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;</td>          <td class="paramname"><span class="paramname">, </span></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ModelBaseRenderParams.html">ModelBaseRenderParams</a> &amp;</td>          <td class="paramname"><span class="paramname">, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>

@@ -115,7 +115,8 @@ $(function(){initNavTree('classMR_1_1RenderPointsObject.html',''); initResizable
  <div class="center">
   <img src="classMR_1_1RenderPointsObject.png" usemap="#MR::RenderPointsObject_map" alt=""/>
   <map id="MR::RenderPointsObject_map" name="MR::RenderPointsObject_map">
-<area href="classMR_1_1IRenderObject.html" alt="MR::IRenderObject" shape="rect" coords="0,0,149,24"/>
+<area href="classMR_1_1IRenderObject.html" alt="MR::IRenderObject" shape="rect" coords="0,0,644,24"/>
+<area href="classMR_1_1RenderWrapObject_1_1Wrapper.html" alt="MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectPoints &gt;, RenderPointsObject &gt;" shape="rect" coords="0,112,644,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -125,10 +126,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab99ca8621e3c55c14e02d3452bbdd239"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15d475f3d61005249719bb402493d9d8" id="r_a15d475f3d61005249719bb402493d9d8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15d475f3d61005249719bb402493d9d8">~RenderPointsObject</a> ()</td></tr>
 <tr class="separator:a15d475f3d61005249719bb402493d9d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9e9d42805f310a0120ff844cd600296" id="r_ae9e9d42805f310a0120ff844cd600296"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9e9d42805f310a0120ff844cd600296">render</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;params) override</td></tr>
-<tr class="separator:ae9e9d42805f310a0120ff844cd600296"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f5abbf7ab2da0d121d1c757ff66c4e9" id="r_a8f5abbf7ab2da0d121d1c757ff66c4e9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f5abbf7ab2da0d121d1c757ff66c4e9">renderPicker</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;params, unsigned geomId) override</td></tr>
-<tr class="separator:a8f5abbf7ab2da0d121d1c757ff66c4e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad39fc2c9b30695ac78272431c20efe9e" id="r_ad39fc2c9b30695ac78272431c20efe9e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad39fc2c9b30695ac78272431c20efe9e">render</a> (const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;params) override</td></tr>
+<tr class="separator:ad39fc2c9b30695ac78272431c20efe9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88bbfafb06a1d55fbcc5d082f4239094" id="r_a88bbfafb06a1d55fbcc5d082f4239094"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88bbfafb06a1d55fbcc5d082f4239094">renderPicker</a> (const <a class="el" href="structMR_1_1ModelBaseRenderParams.html">ModelBaseRenderParams</a> &amp;params, unsigned geomId) override</td></tr>
+<tr class="separator:a88bbfafb06a1d55fbcc5d082f4239094"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac57d8a541df401cff5ddf7566f0b9bb4" id="r_ac57d8a541df401cff5ddf7566f0b9bb4"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac57d8a541df401cff5ddf7566f0b9bb4">heapBytes</a> () const override</td></tr>
 <tr class="memdesc:ac57d8a541df401cff5ddf7566f0b9bb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:ac57d8a541df401cff5ddf7566f0b9bb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -267,8 +268,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae9e9d42805f310a0120ff844cd600296" name="ae9e9d42805f310a0120ff844cd600296"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9e9d42805f310a0120ff844cd600296">&#9670;&#160;</a></span>render()</h2>
+<a id="ad39fc2c9b30695ac78272431c20efe9e" name="ad39fc2c9b30695ac78272431c20efe9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad39fc2c9b30695ac78272431c20efe9e">&#9670;&#160;</a></span>render()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -277,7 +278,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void MR::RenderPointsObject::render </td>
+          <td class="memname">virtual bool MR::RenderPointsObject::render </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span></td><td>)</td>
           <td></td>
@@ -290,12 +291,12 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classMR_1_1IRenderObject.html#a334e2da7ab725dd66f36ca503f022566">MR::IRenderObject</a>.</p>
+<p>Implements <a class="el" href="classMR_1_1IRenderObject.html#a02b8e566ef48df489cddb77a759ec3c4">MR::IRenderObject</a>.</p>
 
 </div>
 </div>
-<a id="a8f5abbf7ab2da0d121d1c757ff66c4e9" name="a8f5abbf7ab2da0d121d1c757ff66c4e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f5abbf7ab2da0d121d1c757ff66c4e9">&#9670;&#160;</a></span>renderPicker()</h2>
+<a id="a88bbfafb06a1d55fbcc5d082f4239094" name="a88bbfafb06a1d55fbcc5d082f4239094"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88bbfafb06a1d55fbcc5d082f4239094">&#9670;&#160;</a></span>renderPicker()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -306,7 +307,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual void MR::RenderPointsObject::renderPicker </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em>, </span></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ModelBaseRenderParams.html">ModelBaseRenderParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -321,7 +322,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classMR_1_1IRenderObject.html#ad889c8378e5442dd02267ad472e6cdca">MR::IRenderObject</a>.</p>
+<p>Implements <a class="el" href="classMR_1_1IRenderObject.html#aa40c8d73952eceb8d676864c3cd30738">MR::IRenderObject</a>.</p>
 
 </div>
 </div>

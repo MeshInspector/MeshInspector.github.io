@@ -110,6 +110,7 @@ $(function(){initNavTree('MRIRenderObject_8h.html',''); initResizable(); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRFlagOperators_8h_source.html">MRMesh/MRFlagOperators.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRRenderModelParameters_8h_source.html">MRRenderModelParameters.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRViewportId_8h_source.html">MRViewportId.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRVector2_8h_source.html">MRVector2.h</a>&quot;</code><br />
@@ -124,10 +125,12 @@ $(function(){initNavTree('MRIRenderObject_8h.html',''); initResizable(); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BaseRenderParams.html">MR::BaseRenderParams</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">describes basic rendering parameters in a viewport  <a href="structMR_1_1BaseRenderParams.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Common rendering parameters for meshes and <a class="el" href="namespaceMR_1_1UI.html">UI</a>.  <a href="structMR_1_1BaseRenderParams.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ModelBaseRenderParams.html">MR::ModelBaseRenderParams</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ModelRenderParams.html">MR::ModelRenderParams</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">describes parameters necessary to render an object  <a href="structMR_1_1ModelRenderParams.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> rendering parameters for primary rendering (as opposed to the picker).  <a href="structMR_1_1ModelRenderParams.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BasicUiRenderTask.html">MR::BasicUiRenderTask</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code><a class="el" href="classMR_1_1IRenderObject.html#a82fb37eb78d6e11f1b41f3fc2a99c5eb">IRenderObject::renderUi()</a></code> can emit zero or more or more of those tasks. They are sorted by depth every frame.  <a href="structMR_1_1BasicUiRenderTask.html#details">More...</a><br /></td></tr>

@@ -156,15 +156,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0fc1e84a964766414f289905f15aa910"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed7cd0744cb8952c62680f7168da3a5b" id="r_aed7cd0744cb8952c62680f7168da3a5b"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed7cd0744cb8952c62680f7168da3a5b">clearFramebuffers</a> ()</td></tr>
 <tr class="separator:aed7cd0744cb8952c62680f7168da3a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3f0fe57c86936365d11c95e9c3bebb5" id="r_aa3f0fe57c86936365d11c95e9c3bebb5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3f0fe57c86936365d11c95e9c3bebb5">draw</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;obj, <a class="el" href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93">DepthFunction</a> depthFunc=<a class="el" href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67">DepthFunction::Default</a>, bool alphaSort=false) const</td></tr>
-<tr class="memdesc:aa3f0fe57c86936365d11c95e9c3bebb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Immediate draw of given object with transformation to world taken from object's scene.  <br /></td></tr>
-<tr class="separator:aa3f0fe57c86936365d11c95e9c3bebb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0030e5a0f86a244bfbfd70f0bfb17ff5" id="r_a0030e5a0f86a244bfbfd70f0bfb17ff5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0030e5a0f86a244bfbfd70f0bfb17ff5">draw</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;obj, const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> &amp;xf, <a class="el" href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93">DepthFunction</a> depthFunc=<a class="el" href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67">DepthFunction::Default</a>, bool alphaSort=false) const</td></tr>
-<tr class="memdesc:a0030e5a0f86a244bfbfd70f0bfb17ff5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Immediate draw of given object with given transformation to world.  <br /></td></tr>
-<tr class="separator:a0030e5a0f86a244bfbfd70f0bfb17ff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a6b4e197d8658754d95f277e9ccd5ac" id="r_a7a6b4e197d8658754d95f277e9ccd5ac"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a6b4e197d8658754d95f277e9ccd5ac">draw</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;obj, const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> &amp;xf, const <a class="el" href="namespaceMR.html#a3962dc8122a6a28ff702726318555f6f">Matrix4f</a> &amp;projM, <a class="el" href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93">DepthFunction</a> depthFunc=<a class="el" href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67">DepthFunction::Default</a>, bool alphaSort=false) const</td></tr>
-<tr class="memdesc:a7a6b4e197d8658754d95f277e9ccd5ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Immediate draw of given object with given transformation to world and given projection matrix.  <br /></td></tr>
-<tr class="separator:a7a6b4e197d8658754d95f277e9ccd5ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac28cae425dad6a3b0cb34edddc05aaf5" id="r_ac28cae425dad6a3b0cb34edddc05aaf5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac28cae425dad6a3b0cb34edddc05aaf5">draw</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;obj, <a class="el" href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93">DepthFunction</a> depthFunc=<a class="el" href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67">DepthFunction::Default</a>, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ce">RenderModelPassMask</a> pass=<a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">RenderModelPassMask::All</a>, bool allowAlphaSort=false) const</td></tr>
+<tr class="separator:ac28cae425dad6a3b0cb34edddc05aaf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55f8e97cbc93ad0dc896c3d59abffd31" id="r_a55f8e97cbc93ad0dc896c3d59abffd31"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55f8e97cbc93ad0dc896c3d59abffd31">draw</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;obj, const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> &amp;xf, <a class="el" href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93">DepthFunction</a> depthFunc=<a class="el" href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67">DepthFunction::Default</a>, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ce">RenderModelPassMask</a> pass=<a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">RenderModelPassMask::All</a>, bool allowAlphaSort=false) const</td></tr>
+<tr class="separator:a55f8e97cbc93ad0dc896c3d59abffd31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f5e5835ea3e4d520d61a70946d57274" id="r_a8f5e5835ea3e4d520d61a70946d57274"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f5e5835ea3e4d520d61a70946d57274">draw</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;obj, const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> &amp;xf, const <a class="el" href="namespaceMR.html#a3962dc8122a6a28ff702726318555f6f">Matrix4f</a> &amp;projM, <a class="el" href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93">DepthFunction</a> depthFunc=<a class="el" href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67">DepthFunction::Default</a>, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ce">RenderModelPassMask</a> pass=<a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">RenderModelPassMask::All</a>, bool allowAlphaSort=false) const</td></tr>
+<tr class="separator:a8f5e5835ea3e4d520d61a70946d57274"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5878bbade38f79c89bd155f44126fbf" id="r_ad5878bbade38f79c89bd155f44126fbf"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5878bbade38f79c89bd155f44126fbf">drawLines</a> (const std::vector&lt; <a class="el" href="namespaceMR.html#afac96ab0f114574521b3482ecfddd470">LineSegm3f</a> &gt; &amp;lines, const std::vector&lt; <a class="el" href="structMR_1_1SegmEndColors.html">SegmEndColors</a> &gt; &amp;colors, const <a class="el" href="structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html">LinePointImmediateRenderParams</a> &amp;params)</td></tr>
 <tr class="memdesc:ad5878bbade38f79c89bd155f44126fbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw lines immediately.  <br /></td></tr>
 <tr class="separator:ad5878bbade38f79c89bd155f44126fbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,12 +183,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a386544dc0c5351067325cad9bf32dc93" id="r_a386544dc0c5351067325cad9bf32dc93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1BaseRenderParams.html">BaseRenderParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a386544dc0c5351067325cad9bf32dc93">getBaseRenderParams</a> (const <a class="el" href="namespaceMR.html#a3962dc8122a6a28ff702726318555f6f">Matrix4f</a> &amp;projM) const</td></tr>
 <tr class="memdesc:a386544dc0c5351067325cad9bf32dc93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares base rendering parameters for this viewport with custom projection matrix.  <br /></td></tr>
 <tr class="separator:a386544dc0c5351067325cad9bf32dc93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abaab3f1eabd07a024b21af327de5dc3b" id="r_abaab3f1eabd07a024b21af327de5dc3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abaab3f1eabd07a024b21af327de5dc3b">getModelRenderParams</a> (const <a class="el" href="namespaceMR.html#a3962dc8122a6a28ff702726318555f6f">Matrix4f</a> &amp;modelM, <a class="el" href="namespaceMR.html#a3962dc8122a6a28ff702726318555f6f">Matrix4f</a> *normM, <a class="el" href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93">DepthFunction</a> depthFunc=<a class="el" href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67">DepthFunction::Default</a>, bool alphaSort=false) const</td></tr>
-<tr class="memdesc:abaab3f1eabd07a024b21af327de5dc3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares rendering parameters to draw a model with given transformation in this viewport.  <br /></td></tr>
-<tr class="separator:abaab3f1eabd07a024b21af327de5dc3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4517bec4e958881a3e1a9e4918172d4c" id="r_a4517bec4e958881a3e1a9e4918172d4c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4517bec4e958881a3e1a9e4918172d4c">getModelRenderParams</a> (const <a class="el" href="namespaceMR.html#a3962dc8122a6a28ff702726318555f6f">Matrix4f</a> &amp;modelM, const <a class="el" href="namespaceMR.html#a3962dc8122a6a28ff702726318555f6f">Matrix4f</a> &amp;projM, <a class="el" href="namespaceMR.html#a3962dc8122a6a28ff702726318555f6f">Matrix4f</a> *normM, <a class="el" href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93">DepthFunction</a> depthFunc=<a class="el" href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67">DepthFunction::Default</a>, bool alphaSort=false) const</td></tr>
-<tr class="memdesc:a4517bec4e958881a3e1a9e4918172d4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares rendering parameters to draw a model with given transformation in this viewport with custom projection matrix.  <br /></td></tr>
-<tr class="separator:a4517bec4e958881a3e1a9e4918172d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b0531d24af1777ff73fc2b75373dbfa" id="r_a1b0531d24af1777ff73fc2b75373dbfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b0531d24af1777ff73fc2b75373dbfa">getModelRenderParams</a> (const <a class="el" href="namespaceMR.html#a3962dc8122a6a28ff702726318555f6f">Matrix4f</a> &amp;modelM, <a class="el" href="namespaceMR.html#a3962dc8122a6a28ff702726318555f6f">Matrix4f</a> *normM, <a class="el" href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93">DepthFunction</a> depthFunc=<a class="el" href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67">DepthFunction::Default</a>, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ce">RenderModelPassMask</a> pass=<a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">RenderModelPassMask::All</a>, bool allowAlphaSort=false) const</td></tr>
+<tr class="memdesc:a1b0531d24af1777ff73fc2b75373dbfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares rendering parameters to draw a model with given transformation in this viewport.  <br /></td></tr>
+<tr class="separator:a1b0531d24af1777ff73fc2b75373dbfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3472ea651ff49eb28607454440d5b1d0" id="r_a3472ea651ff49eb28607454440d5b1d0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3472ea651ff49eb28607454440d5b1d0">getModelRenderParams</a> (const <a class="el" href="namespaceMR.html#a3962dc8122a6a28ff702726318555f6f">Matrix4f</a> &amp;modelM, const <a class="el" href="namespaceMR.html#a3962dc8122a6a28ff702726318555f6f">Matrix4f</a> &amp;projM, <a class="el" href="namespaceMR.html#a3962dc8122a6a28ff702726318555f6f">Matrix4f</a> *normM, <a class="el" href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93">DepthFunction</a> depthFunc=<a class="el" href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67">DepthFunction::Default</a>, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ce">RenderModelPassMask</a> pass=<a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">RenderModelPassMask::All</a>, bool allowAlphaSort=false) const</td></tr>
+<tr class="memdesc:a3472ea651ff49eb28607454440d5b1d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares rendering parameters to draw a model with given transformation in this viewport with custom projection matrix.  <br /></td></tr>
+<tr class="separator:a3472ea651ff49eb28607454440d5b1d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbd763b1cfd8fceb2d5a66dee6830e70" id="r_afbd763b1cfd8fceb2d5a66dee6830e70"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="MRViewport_8h.html#af3c0d5e71a46bda98d8fd895def98a22">ObjAndPick</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbd763b1cfd8fceb2d5a66dee6830e70">pick_render_object</a> () const</td></tr>
 <tr class="separator:afbd763b1cfd8fceb2d5a66dee6830e70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29b9417149264e16eeb727982e61dc64" id="r_a29b9417149264e16eeb727982e61dc64"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="MRViewport_8h.html#af3c0d5e71a46bda98d8fd895def98a22">ObjAndPick</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29b9417149264e16eeb727982e61dc64">pick_render_object</a> (uint16_t pickRadius) const</td></tr>
@@ -662,14 +659,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7a6b4e197d8658754d95f277e9ccd5ac" name="a7a6b4e197d8658754d95f277e9ccd5ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a6b4e197d8658754d95f277e9ccd5ac">&#9670;&#160;</a></span>draw() <span class="overload">[1/3]</span></h2>
+<a id="a8f5e5835ea3e4d520d61a70946d57274" name="a8f5e5835ea3e4d520d61a70946d57274"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f5e5835ea3e4d520d61a70946d57274">&#9670;&#160;</a></span>draw() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API void MR::Viewport::draw </td>
+          <td class="memname">MRVIEWER_API bool MR::Viewport::draw </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em>, </span></td>
         </tr>
@@ -691,23 +688,27 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>alphaSort</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;) const</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ce">RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>pass</em><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">RenderModelPassMask::All</a></span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>allowAlphaSort</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Immediate draw of given object with given transformation to world and given projection matrix. </p>
+<p>Immediate draw of given object with given transformation to world and given projection matrix Returns true if something was drawn. </p>
 
 </div>
 </div>
-<a id="a0030e5a0f86a244bfbfd70f0bfb17ff5" name="a0030e5a0f86a244bfbfd70f0bfb17ff5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0030e5a0f86a244bfbfd70f0bfb17ff5">&#9670;&#160;</a></span>draw() <span class="overload">[2/3]</span></h2>
+<a id="a55f8e97cbc93ad0dc896c3d59abffd31" name="a55f8e97cbc93ad0dc896c3d59abffd31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55f8e97cbc93ad0dc896c3d59abffd31">&#9670;&#160;</a></span>draw() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API void MR::Viewport::draw </td>
+          <td class="memname">MRVIEWER_API bool MR::Viewport::draw </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em>, </span></td>
         </tr>
@@ -724,23 +725,27 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>alphaSort</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;) const</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ce">RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>pass</em><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">RenderModelPassMask::All</a></span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>allowAlphaSort</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Immediate draw of given object with given transformation to world. </p>
+<p>Immediate draw of given object with given transformation to world Returns true if something was drawn. </p>
 
 </div>
 </div>
-<a id="aa3f0fe57c86936365d11c95e9c3bebb5" name="aa3f0fe57c86936365d11c95e9c3bebb5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3f0fe57c86936365d11c95e9c3bebb5">&#9670;&#160;</a></span>draw() <span class="overload">[3/3]</span></h2>
+<a id="ac28cae425dad6a3b0cb34edddc05aaf5" name="ac28cae425dad6a3b0cb34edddc05aaf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac28cae425dad6a3b0cb34edddc05aaf5">&#9670;&#160;</a></span>draw() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API void MR::Viewport::draw </td>
+          <td class="memname">MRVIEWER_API bool MR::Viewport::draw </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em>, </span></td>
         </tr>
@@ -752,12 +757,16 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>alphaSort</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;) const</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ce">RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>pass</em><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">RenderModelPassMask::All</a></span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>allowAlphaSort</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Immediate draw of given object with transformation to world taken from object's scene. </p>
+<p>Immediate draw of given object with transformation to world taken from object's scene Returns true if something was drawn. </p>
 
 </div>
 </div>
@@ -1136,8 +1145,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4517bec4e958881a3e1a9e4918172d4c" name="a4517bec4e958881a3e1a9e4918172d4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4517bec4e958881a3e1a9e4918172d4c">&#9670;&#160;</a></span>getModelRenderParams() <span class="overload">[1/2]</span></h2>
+<a id="a3472ea651ff49eb28607454440d5b1d0" name="a3472ea651ff49eb28607454440d5b1d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3472ea651ff49eb28607454440d5b1d0">&#9670;&#160;</a></span>getModelRenderParams() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1165,7 +1174,12 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>alphaSort</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;) const</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ce">RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>pass</em><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">RenderModelPassMask::All</a></span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>allowAlphaSort</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1173,15 +1187,16 @@ Public Attributes</h2></td></tr>
 <p>Prepares rendering parameters to draw a model with given transformation in this viewport with custom projection matrix. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">normM</td><td>if not null, this matrix of normals transformation will be computed and referenced in the result </td></tr>
+    <tr><td class="paramname">normM</td><td>if not null, this matrix of normals transformation will be computed and referenced in the result  </td></tr>
+    <tr><td class="paramname">allowAlphaSort</td><td>If not null and the object is semitransparent, enable alpha-sorting. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="abaab3f1eabd07a024b21af327de5dc3b" name="abaab3f1eabd07a024b21af327de5dc3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abaab3f1eabd07a024b21af327de5dc3b">&#9670;&#160;</a></span>getModelRenderParams() <span class="overload">[2/2]</span></h2>
+<a id="a1b0531d24af1777ff73fc2b75373dbfa" name="a1b0531d24af1777ff73fc2b75373dbfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b0531d24af1777ff73fc2b75373dbfa">&#9670;&#160;</a></span>getModelRenderParams() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1207,7 +1222,12 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>alphaSort</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;) const</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ce">RenderModelPassMask</a></td>          <td class="paramname"><span class="paramname"><em>pass</em><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">RenderModelPassMask::All</a></span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>allowAlphaSort</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;) const</td>
         </tr>
       </table>
   </td>
@@ -1221,7 +1241,8 @@ Public Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">modelM</td><td>model to world transformation, this matrix will be referenced in the result  </td></tr>
-    <tr><td class="paramname">normM</td><td>if not null, this matrix of normals transformation will be computed and referenced in the result </td></tr>
+    <tr><td class="paramname">normM</td><td>if not null, this matrix of normals transformation will be computed and referenced in the result  </td></tr>
+    <tr><td class="paramname">allowAlphaSort</td><td>If not null and the object is semitransparent, enable alpha-sorting. </td></tr>
   </table>
   </dd>
 </dl>
