@@ -20,5 +20,7 @@ var searchData=
   ['uniquethreadsafeowner_3c_20mr_3a_3aaabbtreepolyline_3c_20v_20_3e_20_3e_17',['UniqueThreadSafeOwner&lt; MR::AABBTreePolyline&lt; V &gt; &gt;',['../classMR_1_1UniqueThreadSafeOwner.html',1,'MR']]],
   ['uniquethreadsafeowner_3c_20mr_3a_3aaabbtreepolyline_3c_20vector3f_20_3e_20_3e_18',['UniqueThreadSafeOwner&lt; MR::AABBTreePolyline&lt; Vector3f &gt; &gt;',['../classMR_1_1UniqueThreadSafeOwner.html',1,'MR']]],
   ['unitemanymeshesparams_19',['UniteManyMeshesParams',['../structMR_1_1UniteManyMeshesParams.html',1,'MR']]],
-  ['unorientedtriangle_20',['UnorientedTriangle',['../structMR_1_1UnorientedTriangle.html',1,'MR']]]
+  ['unitinfo_20',['UnitInfo',['../structMR_1_1UnitInfo.html',1,'MR']]],
+  ['unittostringparams_21',['UnitToStringParams',['../structMR_1_1UnitToStringParams.html',1,'MR']]],
+  ['unorientedtriangle_22',['UnorientedTriangle',['../structMR_1_1UnorientedTriangle.html',1,'MR']]]
 ];

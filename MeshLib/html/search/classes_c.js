@@ -11,7 +11,9 @@ var searchData=
   ['node_8',['Node',['../structMR_1_1AABBTreePoints_1_1Node.html',1,'MR::AABBTreePoints']]],
   ['nodefinit_9',['NoDefInit',['../structMR_1_1NoDefInit.html',1,'MR']]],
   ['noinit_10',['NoInit',['../structMR_1_1NoInit.html',1,'MR']]],
-  ['nomodelcheck_11',['NoModelCheck',['../structMR_1_1NoModelCheck.html',1,'MR']]],
-  ['normalstopoints_12',['NormalsToPoints',['../classMR_1_1NormalsToPoints.html',1,'MR']]],
-  ['novisualrepresentationcheck_13',['NoVisualRepresentationCheck',['../structMR_1_1NoVisualRepresentationCheck.html',1,'MR']]]
+  ['noisesettings_11',['NoiseSettings',['../structMR_1_1NoiseSettings.html',1,'MR']]],
+  ['nomodelcheck_12',['NoModelCheck',['../structMR_1_1NoModelCheck.html',1,'MR']]],
+  ['normalstopoints_13',['NormalsToPoints',['../classMR_1_1NormalsToPoints.html',1,'MR']]],
+  ['novisualrepresentationcheck_14',['NoVisualRepresentationCheck',['../structMR_1_1NoVisualRepresentationCheck.html',1,'MR']]],
+  ['numsum_15',['NumSum',['../structMR_1_1NumSum.html',1,'MR']]]
 ];

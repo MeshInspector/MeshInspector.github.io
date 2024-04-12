@@ -10,7 +10,6 @@ var group__SurfacePathGroup =
       [ "back", "structMR_1_1VertPathInfo.html#a7a3153da84d3b829b564f595cd7d7a7e", null ],
       [ "metric", "structMR_1_1VertPathInfo.html#a2530c5bd3051baea96398e09ade9e59e", null ]
     ] ],
-    [ "MR::EdgeMetric", "group__SurfacePathGroup.html#ga89c45ed75d3ee7e49964d4afe5a64651", null ],
     [ "MR::addLeftBand", "group__SurfacePathGroup.html#gab0db7342678536825cb6b3bff51d832d", null ],
     [ "MR::buildShortestPath", "group__SurfacePathGroup.html#gadb0985d5186608aa8786111eead3c759", null ],
     [ "MR::buildShortestPath", "group__SurfacePathGroup.html#ga4ef10460976331354fd6633529b31b3f", null ],
@@ -35,7 +34,8 @@ var group__SurfacePathGroup =
     [ "MR::discreteMinusAbsMeanCurvatureMetric", "group__SurfacePathGroup.html#ga8e15c502056407a36c6d495799f0aa7d", null ],
     [ "MR::edgeCurvMetric", "group__SurfacePathGroup.html#ga215f966d7ad4e48210e0de178cb43a06", null ],
     [ "MR::edgeLengthMetric", "group__SurfacePathGroup.html#gab0c6bfd4f01e28a6c034a2195143e410", null ],
-    [ "MR::edgeTableMetric", "group__SurfacePathGroup.html#ga92e1133b735a94c3b261a754eda1d12a", null ],
+    [ "MR::edgeTableMetric", "group__SurfacePathGroup.html#gaca57e01c0ade3ec65621f646bba9822c", null ],
+    [ "MR::edgeTableSymMetric", "group__SurfacePathGroup.html#ga04e5ae2dd9a34149d37b4c31364b4b68", null ],
     [ "MR::erodeRegion", "group__SurfacePathGroup.html#gab00d0047df6c6bddad2ce44ad87eecb0", null ],
     [ "MR::erodeRegion", "group__SurfacePathGroup.html#ga49b66a35e3e4f02f4034d338471be491", null ],
     [ "MR::erodeRegion", "group__SurfacePathGroup.html#ga8cc6869db37a7f25eab14ffe0f83f4e8", null ],

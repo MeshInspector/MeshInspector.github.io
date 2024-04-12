@@ -102,14 +102,22 @@ $(function(){initNavTree('MRUIStyle_8h.html',''); initResizable(); });
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#concepts">Concepts</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">MRUIStyle.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;exports.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="MRFinally_8h_source.html">MRMesh/MRFinally.h</a>&quot;</code><br />
+<code>#include &quot;MRPch/MRFmt.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRUnits_8h_source.html">MRViewer/MRUnits.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRViewer_2MRVectorTraits_8h_source.html">MRViewer/MRVectorTraits.h</a>&quot;</code><br />
+<code>#include &quot;exports.h&quot;</code><br />
 <code>#include &quot;imgui.h&quot;</code><br />
+<code>#include &lt;span&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 <code>#include &lt;optional&gt;</code><br />
+<code>#include &quot;MRUIStyle.ipp&quot;</code><br />
 </div>
 <p><a href="MRUIStyle_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -124,6 +132,19 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceMR" id="r_namespaceMR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceMR_1_1UI" id="r_namespaceMR_1_1UI"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html">MR::UI</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceMR_1_1UI_1_1detail" id="r_namespaceMR_1_1UI_1_1detail"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1detail.html">MR::UI::detail</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="concepts" name="concepts"></a>
+Concepts</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conceptMR_1_1UI_1_1detail_1_1Scalar.html">MR::UI::detail::Scalar</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conceptMR_1_1UI_1_1detail_1_1VectorOrScalar.html">MR::UI::detail::VectorOrScalar</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType.html">MR::UI::detail::ValidBoundForTargetType</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conceptMR_1_1UI_1_1detail_1_1ValidDragSpeedForTargetType.html">MR::UI::detail::ValidDragSpeedForTargetType</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -176,7 +197,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a8cffb4ab7998318c522df73a1d12a4f9" id="r_a8cffb4ab7998318c522df73a1d12a4f9"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#a8cffb4ab7998318c522df73a1d12a4f9">MR::UI::endCombo</a> (bool showPreview=true)</td></tr>
 <tr class="separator:a8cffb4ab7998318c522df73a1d12a4f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8ddc781fa1ee23c1d7c7fc97c2b9e19" id="r_ad8ddc781fa1ee23c1d7c7fc97c2b9e19"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#ad8ddc781fa1ee23c1d7c7fc97c2b9e19">MR::UI::sliderFloat</a> (const char *label, float *v, float v_min, float v_max, const char *format=&quot;%.3f&quot;, ImGuiSliderFlags flags=0)</td></tr>
-<tr class="memdesc:ad8ddc781fa1ee23c1d7c7fc97c2b9e19"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw slider  <br /></td></tr>
 <tr class="separator:ad8ddc781fa1ee23c1d7c7fc97c2b9e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83ebb2b1c738927283db51578a1e3b5c" id="r_a83ebb2b1c738927283db51578a1e3b5c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#a83ebb2b1c738927283db51578a1e3b5c">MR::UI::sliderInt</a> (const char *label, int *v, int v_min, int v_max, const char *format=&quot;%d&quot;, ImGuiSliderFlags flags=0)</td></tr>
 <tr class="separator:a83ebb2b1c738927283db51578a1e3b5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,6 +206,27 @@ Functions</h2></td></tr>
 <tr class="memitem:aa5363e552c8bef6450cdfad583af18e0" id="r_aa5363e552c8bef6450cdfad583af18e0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#aa5363e552c8bef6450cdfad583af18e0">MR::UI::inputTextCenteredReadOnly</a> (const char *label, const std::string &amp;str, float <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>=0.0f, const std::optional&lt; ImVec4 &gt; &amp;textColor={})</td></tr>
 <tr class="memdesc:aa5363e552c8bef6450cdfad583af18e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw read-only text box with text aligned by center  <br /></td></tr>
 <tr class="separator:aa5363e552c8bef6450cdfad583af18e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94d9e7cba8a9ce853aeee7b29b563391" id="r_a94d9e7cba8a9ce853aeee7b29b563391"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1detail.html#a94d9e7cba8a9ce853aeee7b29b563391">MR::UI::detail::genericSlider</a> (const char *label, ImGuiDataType data_type, void *p_data, const void *p_min, const void *p_max, const char *format, ImGuiSliderFlags flags)</td></tr>
+<tr class="separator:a94d9e7cba8a9ce853aeee7b29b563391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab56fe865a416552aa6f504ce57514ae3" id="r_ab56fe865a416552aa6f504ce57514ae3"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, VectorOrScalar T, typename F &gt; </td></tr>
+<tr class="memitem:ab56fe865a416552aa6f504ce57514ae3"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1detail.html#ab56fe865a416552aa6f504ce57514ae3">MR::UI::detail::unitWidget</a> (const char *label, T &amp;v, <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; &amp;unitParams, F &amp;&amp;func)</td></tr>
+<tr class="separator:ab56fe865a416552aa6f504ce57514ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a797ee2107c897bf2d084fede574e062b" id="r_a797ee2107c897bf2d084fede574e062b"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, VectorOrScalar T&gt; <br />
+requires ( <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;T&gt;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">::size</a> == 1 )</td></tr>
+<tr class="memitem:a797ee2107c897bf2d084fede574e062b"><td class="memTemplItemLeft" align="right" valign="top">float&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1detail.html#a797ee2107c897bf2d084fede574e062b">MR::UI::detail::getDefaultDragSpeed</a> ()</td></tr>
+<tr class="separator:a797ee2107c897bf2d084fede574e062b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b9ea313e9b93469005d3c375b2b9652" id="r_a0b9ea313e9b93469005d3c375b2b9652"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, VectorOrScalar T, VectorOrScalar TargetType&gt; </td></tr>
+<tr class="memitem:a0b9ea313e9b93469005d3c375b2b9652"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1detail.html#a0b9ea313e9b93469005d3c375b2b9652">MR::UI::detail::getDefaultStep</a> (bool fast)</td></tr>
+<tr class="separator:a0b9ea313e9b93469005d3c375b2b9652"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ede0f8f76cc959c7be6cb81ee9174f8" id="r_a7ede0f8f76cc959c7be6cb81ee9174f8"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidBoundForTargetType&lt; T &gt; U = typename VectorTraits&lt;T&gt;::BaseType&gt; </td></tr>
+<tr class="memitem:a7ede0f8f76cc959c7be6cb81ee9174f8"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#a7ede0f8f76cc959c7be6cb81ee9174f8">MR::UI::slider</a> (const char *label, T &amp;v, const U &amp;vMin, const U &amp;vMax, <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; unitParams={}, ImGuiSliderFlags flags=<a class="el" href="namespaceMR_1_1UI.html#a7ce97f5be533c3522d66cb2fbfaf250f">defaultSliderFlags</a>)</td></tr>
+<tr class="separator:a7ede0f8f76cc959c7be6cb81ee9174f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8ac25d142ccaa84dbba3ca0faa37604" id="r_ae8ac25d142ccaa84dbba3ca0faa37604"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidDragSpeedForTargetType&lt; T &gt; SpeedType = float, detail::ValidBoundForTargetType&lt; T &gt; U = typename VectorTraits&lt;T&gt;::BaseType&gt; </td></tr>
+<tr class="memitem:ae8ac25d142ccaa84dbba3ca0faa37604"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#ae8ac25d142ccaa84dbba3ca0faa37604">MR::UI::drag</a> (const char *label, T &amp;v, SpeedType vSpeed=<a class="el" href="namespaceMR_1_1UI_1_1detail.html#a797ee2107c897bf2d084fede574e062b">detail::getDefaultDragSpeed</a>&lt; E, SpeedType &gt;(), const U &amp;vMin=std::numeric_limits&lt; U &gt;::max(), const U &amp;vMax=std::numeric_limits&lt; U &gt;::max(), <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; unitParams={}, ImGuiSliderFlags flags=<a class="el" href="namespaceMR_1_1UI.html#a7ce97f5be533c3522d66cb2fbfaf250f">defaultSliderFlags</a>, const U &amp;step=<a class="el" href="namespaceMR_1_1UI_1_1detail.html#a0b9ea313e9b93469005d3c375b2b9652">detail::getDefaultStep</a>&lt; E, U, T &gt;(false), const U &amp;stepFast=<a class="el" href="namespaceMR_1_1UI_1_1detail.html#a0b9ea313e9b93469005d3c375b2b9652">detail::getDefaultStep</a>&lt; E, U, T &gt;(true))</td></tr>
+<tr class="separator:ae8ac25d142ccaa84dbba3ca0faa37604"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3037df1b1014dd2f27c985c9dad78d79" id="r_a3037df1b1014dd2f27c985c9dad78d79"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::VectorOrScalar T&gt; </td></tr>
+<tr class="memitem:a3037df1b1014dd2f27c985c9dad78d79"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#a3037df1b1014dd2f27c985c9dad78d79">MR::UI::readOnlyValue</a> (const char *label, const T &amp;v, std::optional&lt; ImVec4 &gt; textColor={}, <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; unitParams={})</td></tr>
+<tr class="separator:a3037df1b1014dd2f27c985c9dad78d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94309985ed89c89e0d6199e0c6a2e333" id="r_a94309985ed89c89e0d6199e0c6a2e333"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#a94309985ed89c89e0d6199e0c6a2e333">MR::UI::transparentText</a> (const char *fmt,...)</td></tr>
 <tr class="memdesc:a94309985ed89c89e0d6199e0c6a2e333"><td class="mdescLeft">&#160;</td><td class="mdescRight">similar to ImGui::Text but use current text color with alpha channel = 0.5  <br /></td></tr>
 <tr class="separator:a94309985ed89c89e0d6199e0c6a2e333"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -209,6 +250,11 @@ Functions</h2></td></tr>
 <tr class="separator:afbf63021d04e94c878b093fd86fef43f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a321f93b24c9b7d723ce8aec45fe75374" id="r_a321f93b24c9b7d723ce8aec45fe75374"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#a321f93b24c9b7d723ce8aec45fe75374">MR::UI::endTabItem</a> ()</td></tr>
 <tr class="separator:a321f93b24c9b7d723ce8aec45fe75374"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a7ce97f5be533c3522d66cb2fbfaf250f" id="r_a7ce97f5be533c3522d66cb2fbfaf250f"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#a7ce97f5be533c3522d66cb2fbfaf250f">MR::UI::defaultSliderFlags</a> = ImGuiSliderFlags_AlwaysClamp</td></tr>
+<tr class="separator:a7ce97f5be533c3522d66cb2fbfaf250f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

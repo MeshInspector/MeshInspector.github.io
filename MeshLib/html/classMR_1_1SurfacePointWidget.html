@@ -156,6 +156,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aaf1b995da6798f3caa166aff48dd0958"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7490f0d419228b077322177f164a2552" id="r_a7490f0d419228b077322177f164a2552"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7490f0d419228b077322177f164a2552">setParameters</a> (const <a class="el" href="structMR_1_1SurfacePointWidget_1_1Parameters.html">Parameters</a> &amp;params)</td></tr>
 <tr class="separator:a7490f0d419228b077322177f164a2552"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d61ebacdd506518179659bb8b8c449b" id="r_a8d61ebacdd506518179659bb8b8c449b"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d61ebacdd506518179659bb8b8c449b">updateParameters</a> (const std::function&lt; void(<a class="el" href="structMR_1_1SurfacePointWidget_1_1Parameters.html">Parameters</a> &amp;)&gt; &amp;visitor)</td></tr>
+<tr class="separator:a8d61ebacdd506518179659bb8b8c449b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a798cfe4e8403435129f4788dbfe0604b" id="r_a798cfe4e8403435129f4788dbfe0604b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a798cfe4e8403435129f4788dbfe0604b">getAutoHover</a> () const</td></tr>
 <tr class="separator:a798cfe4e8403435129f4788dbfe0604b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0454cbea26d720ec55e0e993b62d01b" id="r_af0454cbea26d720ec55e0e993b62d01b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0454cbea26d720ec55e0e993b62d01b">setAutoHover</a> (bool on)</td></tr>
@@ -180,6 +182,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4294ac970d404bd6a69dcad7641cc685"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97ca2957633a2a8f6425d4f36a8df687" id="r_a97ca2957633a2a8f6425d4f36a8df687"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97ca2957633a2a8f6425d4f36a8df687">getBaseSurface</a> ()</td></tr>
 <tr class="separator:a97ca2957633a2a8f6425d4f36a8df687"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dd6b1d6da44226abb2ebea02590229b" id="r_a8dd6b1d6da44226abb2ebea02590229b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8dd6b1d6da44226abb2ebea02590229b">isOnMove</a> () const</td></tr>
+<tr class="separator:a8dd6b1d6da44226abb2ebea02590229b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structMR_1_1MultiListener"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_structMR_1_1MultiListener')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structMR_1_1MultiListener.html">MR::MultiListener&lt; PreDrawListener, MouseDownListener, MouseMoveListener, MouseUpListener &gt;</a></td></tr>
 <tr class="memitem:a726f5e2601b7f25e31824a0cac630fb2 inherit pub_methods_structMR_1_1MultiListener" id="r_a726f5e2601b7f25e31824a0cac630fb2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MultiListener.html#a726f5e2601b7f25e31824a0cac630fb2">~MultiListener</a> ()=default</td></tr>
 <tr class="separator:a726f5e2601b7f25e31824a0cac630fb2 inherit pub_methods_structMR_1_1MultiListener"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -434,6 +438,31 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a8dd6b1d6da44226abb2ebea02590229b" name="a8dd6b1d6da44226abb2ebea02590229b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dd6b1d6da44226abb2ebea02590229b">&#9670;&#160;</a></span>isOnMove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::SurfacePointWidget::isOnMove </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa3db4d8b322b5367b1d58d57cc0e22e0" name="aa3db4d8b322b5367b1d58d57cc0e22e0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa3db4d8b322b5367b1d58d57cc0e22e0">&#9670;&#160;</a></span>isPickIntoBackFace()</h2>
 
@@ -667,6 +696,29 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d61ebacdd506518179659bb8b8c449b" name="a8d61ebacdd506518179659bb8b8c449b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d61ebacdd506518179659bb8b8c449b">&#9670;&#160;</a></span>updateParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::SurfacePointWidget::updateParameters </td>
+          <td>(</td>
+          <td class="paramtype">const std::function&lt; void(<a class="el" href="structMR_1_1SurfacePointWidget_1_1Parameters.html">Parameters</a> &amp;)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>visitor</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Update the widget parameters. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">visitor</td><td>- the function that takes the widget parameters and modifies them. Then the parameters are applied by <a class="el" href="#a7490f0d419228b077322177f164a2552">setParameters</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

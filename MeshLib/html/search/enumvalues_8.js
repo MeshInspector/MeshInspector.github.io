@@ -1,18 +1,12 @@
 var searchData=
 [
-  ['icons_0',['Icons',['../classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4a8f67973007158337346584551b093be8',1,'MR::RibbonFontManager']]],
-  ['implementation_1',['Implementation',['../classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfab672f52ade975e864ae6b58722c03689',1,'MR::PythonExport']]],
-  ['info_2',['Info',['../classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6a4059b0251f66a18cb56f544728796875',1,'MR::ShortcutManager::Info'],['../namespaceMR.html#a3ccf27858d11d72a88bdbaf6e9d2b05da4059b0251f66a18cb56f544728796875',1,'MR::Info']]],
-  ['inside_3',['Inside',['../classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5a21796cca7989a91c8335cd29c782f5be',1,'MR::VolumeSegmenter::Inside'],['../classMR_1_1MarkedVoxelSlice.html#af7c2c434d5b367268f132826d94c9457a4283b93e69f9bf090a59fe6e0fbc24ef',1,'MR::MarkedVoxelSlice::Inside']]],
-  ['insidea_4',['InsideA',['../group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda833b7406c91f551bd8502cf76bb95c29',1,'MR']]],
-  ['insideb_5',['InsideB',['../group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda9f3e5e704c939dff3070cf175df0b75d',1,'MR']]],
-  ['int_6',['Int',['../structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa1686a6c336b71b36d77354cea19a8b52',1,'MR::BaseTiffParameters']]],
-  ['int16_7',['Int16',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529ba39bc2ae44b184207f560ff8619823208',1,'MR::VoxelsLoad::RawParameters']]],
-  ['int32_8',['Int32',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bac06129f6e6e15c09328365e553f1dc31',1,'MR::VoxelsLoad::RawParameters']]],
-  ['int64_9',['Int64',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bafbde23b11d7e59af7828e81144c8b487',1,'MR::VoxelsLoad::RawParameters']]],
-  ['int8_10',['Int8',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529ba7d839b2c12bfd40ac121b4cc9e81c539',1,'MR::VoxelsLoad::RawParameters']]],
-  ['internalerror_11',['InternalError',['../group__SurfacePathSubgroup.html#ggaf2c93aa0da8a9748d23340f32349a8b8a8462b58246e70e5c83e5b939a9332cb5',1,'MR']]],
-  ['intersection_12',['Intersection',['../group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdaa06d31c2ee920b4d53e8c9c06d90ba24',1,'MR']]],
-  ['invalid_13',['Invalid',['../group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6a4bbb8f967da6d1a610596d7257179c2b',1,'MR::Invalid'],['../group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea4bbb8f967da6d1a610596d7257179c2b',1,'MR::Invalid']]],
-  ['isometric_14',['Isometric',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca93fe1f7c5ca2e09af063aca96d0625cc',1,'MR::SetViewPresetMenuItem']]]
+  ['header_0',['Header',['../structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daea6e26772b8233151b64f9f5f360d3b59d',1,'MR::DrawButtonParams']]],
+  ['headerbackground_1',['HeaderBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2dfef339aeaa577faf0d49879bc040d2',1,'MR::ColorTheme']]],
+  ['headerseparator_2',['HeaderSeparator',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a7af2aa44b44cb2c9ed912410b4f3fa4d',1,'MR::ColorTheme']]],
+  ['headline_3',['Headline',['../classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4ac6568e77f61109390e82d035aaacaef0',1,'MR::RibbonFontManager']]],
+  ['hemispheresearchfit_4',['HemisphereSearchFit',['../namespaceMR.html#a0ec93e9fcfd4b11654579d65e255bb7da1a4728573c55a3c1ceca7af11776f64b',1,'MR']]],
+  ['hide_5',['Hide',['../structMR_1_1LaunchParams.html#a022b76b62fcdfb2c120c1c0ccb08513da76e966b8305fa338f9273824d39d2a3d',1,'MR::LaunchParams']]],
+  ['hideinit_6',['HideInit',['../structMR_1_1LaunchParams.html#a022b76b62fcdfb2c120c1c0ccb08513da2a8313f2f3ab507d4c85c1be27dc0516',1,'MR::LaunchParams']]],
+  ['holewindingrule_7',['HoleWindingRule',['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a3065abc09e5d4edae66468fee91282e4',1,'MR']]],
+  ['horizontal_8',['Horizontal',['../classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9dac1b5fa03ecdb95d4a45dd1c40b02527f',1,'MR::SetViewportConfigPresetMenuItem::Horizontal'],['../structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0ac1b5fa03ecdb95d4a45dd1c40b02527f',1,'MR::GridSettings::Horizontal']]]
 ];

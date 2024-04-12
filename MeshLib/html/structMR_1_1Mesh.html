@@ -255,11 +255,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aff330955f978300560fd33b43cd77cdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes normal in a vertex using sum of directed areas of neighboring triangles  <br /></td></tr>
 <tr class="separator:aff330955f978300560fd33b43cd77cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bc20c6104570ee76cffee01e1ea9aa0" id="r_a0bc20c6104570ee76cffee01e1ea9aa0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bc20c6104570ee76cffee01e1ea9aa0">normal</a> (const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;p) const</td></tr>
-<tr class="memdesc:a0bc20c6104570ee76cffee01e1ea9aa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes normal in three vertices of p's triangle, then interpolates them using barycentric coordinates  <br /></td></tr>
 <tr class="separator:a0bc20c6104570ee76cffee01e1ea9aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f0764fd9acf9f3a4b060a658c656efc" id="r_a3f0764fd9acf9f3a4b060a658c656efc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f0764fd9acf9f3a4b060a658c656efc">pseudonormal</a> (<a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> v, const <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *region=nullptr) const</td></tr>
 <tr class="separator:a3f0764fd9acf9f3a4b060a658c656efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33d264981ad277abb011e94a67cd5e4e" id="r_a33d264981ad277abb011e94a67cd5e4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33d264981ad277abb011e94a67cd5e4e">pseudonormal</a> (<a class="el" href="namespaceMR.html#a4ac2de084bb34a0af2df8bc73742b2b1">UndirectedEdgeId</a> e, const <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *region=nullptr) const</td></tr>
+<tr class="memdesc:a33d264981ad277abb011e94a67cd5e4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes normalized half sum of face normals sharing given edge (only (region) faces will be considered);  <br /></td></tr>
 <tr class="separator:a33d264981ad277abb011e94a67cd5e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada333ee4f3b0edfa859e5f8ee5a1c1f1" id="r_ada333ee4f3b0edfa859e5f8ee5a1c1f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada333ee4f3b0edfa859e5f8ee5a1c1f1">pseudonormal</a> (const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;p, const <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *region=nullptr) const</td></tr>
 <tr class="separator:ada333ee4f3b0edfa859e5f8ee5a1c1f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -400,10 +400,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4512a13225dccd2691ad4106c46e3d7a" id="r_a4512a13225dccd2691ad4106c46e3d7a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4512a13225dccd2691ad4106c46e3d7a">fromTriangles</a> (<a class="el" href="namespaceMR.html#ad74e2d018e02d0b815decae208d49ceb">VertCoords</a> vertexCoordinates, const <a class="el" href="namespaceMR.html#a2d4e12c4f3a7ed4eb824b58df5528e1a">Triangulation</a> &amp;t, const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder::BuildSettings</a> &amp;settings={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memdesc:a4512a13225dccd2691ad4106c46e3d7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct mesh from vertex coordinates and a set of triangles with given ids  <br /></td></tr>
 <tr class="separator:a4512a13225dccd2691ad4106c46e3d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac504344423bcd4292f8d75e4c7ee6d6d" id="r_ac504344423bcd4292f8d75e4c7ee6d6d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac504344423bcd4292f8d75e4c7ee6d6d">fromTriMesh</a> (<a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;&amp;triMesh, const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder::BuildSettings</a> &amp;settings={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memdesc:ac504344423bcd4292f8d75e4c7ee6d6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct mesh from <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> representation  <br /></td></tr>
+<tr class="separator:ac504344423bcd4292f8d75e4c7ee6d6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c3189b1e26154d13fa969a44545916c" id="r_a5c3189b1e26154d13fa969a44545916c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c3189b1e26154d13fa969a44545916c">fromTrianglesDuplicatingNonManifoldVertices</a> (<a class="el" href="namespaceMR.html#ad74e2d018e02d0b815decae208d49ceb">VertCoords</a> vertexCoordinates, <a class="el" href="namespaceMR.html#a2d4e12c4f3a7ed4eb824b58df5528e1a">Triangulation</a> &amp;t, std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertDuplication.html">MeshBuilder::VertDuplication</a> &gt; *dups=nullptr, const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder::BuildSettings</a> &amp;settings={})</td></tr>
 <tr class="separator:a5c3189b1e26154d13fa969a44545916c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8ac9e60296e45307e29b01f339aaf5f" id="r_ac8ac9e60296e45307e29b01f339aaf5f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8ac9e60296e45307e29b01f339aaf5f">fromFaceSoup</a> (<a class="el" href="namespaceMR.html#ad74e2d018e02d0b815decae208d49ceb">VertCoords</a> vertexCoordinates, const std::vector&lt; <a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> &gt; &amp;verts, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertSpan.html">MeshBuilder::VertSpan</a>, <a class="el" href="namespaceMR.html#a89b12a80b9137846057aac3efd3e114f">FaceId</a> &gt; &amp;faces, const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder::BuildSettings</a> &amp;settings={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
-<tr class="memdesc:ac8ac9e60296e45307e29b01f339aaf5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct mesh from vertex coordinates and construct mesh topology from face soup, where each face can have arbitrary degree (not only triangles)  <br /></td></tr>
 <tr class="separator:ac8ac9e60296e45307e29b01f339aaf5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5500ddb4660086a3703345d50241d0ad" id="r_a5500ddb4660086a3703345d50241d0ad"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5500ddb4660086a3703345d50241d0ad">fromPointTriples</a> (const std::vector&lt; <a class="el" href="namespaceMR.html#ac3b4f93ff16dbb5975ce8dec6adc39cf">Triangle3f</a> &gt; &amp;posTriples, bool duplicateNonManifoldVertices)</td></tr>
 <tr class="separator:a5500ddb4660086a3703345d50241d0ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1584,8 +1586,7 @@ template&lt;typename I &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>construct mesh from vertex coordinates and construct mesh topology from face soup, where each face can have arbitrary degree (not only triangles) </p>
+<p>construct mesh from vertex coordinates and construct mesh topology from face soup, where each face can have arbitrary degree (not only triangles); all non-triangular faces will be automatically subdivided on triangles </p>
 
 </div>
 </div>
@@ -1704,6 +1705,48 @@ template&lt;typename I &gt; </div>
 </table>
 </div><div class="memdoc">
 <p>construct mesh from vertex coordinates and a set of triangles with given ids; unlike simple <a class="el" href="#a4512a13225dccd2691ad4106c46e3d7a" title="construct mesh from vertex coordinates and a set of triangles with given ids">fromTriangles()</a> it tries to resolve non-manifold vertices by creating duplicate vertices </p>
+
+</div>
+</div>
+<a id="ac504344423bcd4292f8d75e4c7ee6d6d" name="ac504344423bcd4292f8d75e4c7ee6d6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac504344423bcd4292f8d75e4c7ee6d6d">&#9670;&#160;</a></span>fromTriMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a> MR::Mesh::fromTriMesh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>triMesh</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder::BuildSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>construct mesh from <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> representation </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">triMesh</td><td>points of triMesh will be moves in the result </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -2273,8 +2316,7 @@ template&lt;typename I &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>computes normal in three vertices of p's triangle, then interpolates them using barycentric coordinates </p>
+<p>computes normal in three vertices of p's triangle, then interpolates them using barycentric coordinates and normalizes again; this is the same normal as in rendering with smooth shading </p>
 
 </div>
 </div>
@@ -2612,7 +2654,7 @@ template&lt;typename I &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns pseudonormal in corresponding face/edge/vertex; unlike normal( const MeshTriPoint &amp; p ), this is not a smooth function </p>
+<p>returns pseudonormal in corresponding face/edge/vertex for signed distance calculation; <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.107.9173&rep=rep1&type=pdf">http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.107.9173&amp;rep=rep1&amp;type=pdf</a> unlike <a class="el" href="namespaceMR.html#a09f9590ed4411f71af1c1526458d5dd1afea087517c26fadd409bd4b9dc642555">normal( const MeshTriPoint &amp; p )</a>, this is not a smooth function </p>
 
 </div>
 </div>
@@ -2634,7 +2676,8 @@ template&lt;typename I &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes pseudo-normals for signed distance calculation at edge (middle of two face normals) </p>
+
+<p>computes normalized half sum of face normals sharing given edge (only (region) faces will be considered); </p>
 
 </div>
 </div>
@@ -2656,7 +2699,7 @@ template&lt;typename I &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes pseudo-normals for signed distance calculation <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.107.9173&rep=rep1&type=pdf">http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.107.9173&amp;rep=rep1&amp;type=pdf</a> at vertex, only region faces will be considered </p>
+<p>computes angle-weighted sum of normals of incident faces of given vertex (only (region) faces will be considered); the sum is normalized before returning </p>
 
 </div>
 </div>

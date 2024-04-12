@@ -17,8 +17,13 @@ var structMR_1_1SceneColors =
       [ "SelectedFaces", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa9acc3cb3e4646fab501e1b4cac8e867f", null ],
       [ "SelectedEdges", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aac0df0200072fe04b4bdc85cc051c800f", null ],
       [ "SelectedPoints", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aaf0e894d9fdff84113b5dd6c028335cce", null ],
+      [ "SelectedFeatures", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aaf7bd459ca67b79ebf307b377bf7a4f55", null ],
+      [ "UnselectedFeatures", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa7214bce26d7d375bcdd8113f5a5351c7", null ],
+      [ "FeatureBackFaces", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa8eb89f8f0a195b58b0d8da7d499cc55a", null ],
       [ "SelectedFeatureDecorations", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa85606c6e9964bc4f4a6eed6d6739f54e", null ],
       [ "UnselectedFeatureDecorations", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa86bffffe1afee0a5c1e6b7630965e06c", null ],
+      [ "SelectedMeasurements", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa5ce7a47f380884f1a5739c34299a2eb7", null ],
+      [ "UnselectedMeasurements", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aafa0d84b28915f0828c10e5f1abfcf1ac", null ],
       [ "Count", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa6f08361dd2396f9410852f2b3aedb483", null ]
     ] ]
 ];

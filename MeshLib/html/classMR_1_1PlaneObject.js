@@ -9,6 +9,7 @@ var classMR_1_1PlaneObject =
     [ "clone", "classMR_1_1PlaneObject.html#a3de6d8962e60d11119a0a510af905f62", null ],
     [ "deserializeModel_", "classMR_1_1PlaneObject.html#a6c59247eb958304d6a11db067f18d1a6", null ],
     [ "getAllSharedProperties", "classMR_1_1PlaneObject.html#a24f8b27c6d0022718676df94dce0d36e", null ],
+    [ "getBasePoint", "classMR_1_1PlaneObject.html#afdd7cf68a88b16d914629c4ea468470c", null ],
     [ "getCenter", "classMR_1_1PlaneObject.html#aa133c11ff99a205121aaadddae983673", null ],
     [ "getClassName", "classMR_1_1PlaneObject.html#acccbe2fde9c8cb30a4c0a73ab99d2283", null ],
     [ "getNormal", "classMR_1_1PlaneObject.html#a04fea74421aa9475ca703cfa47972646", null ],

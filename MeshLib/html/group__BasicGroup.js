@@ -85,6 +85,7 @@ var group__BasicGroup =
       [ "Buffer", "classMR_1_1Buffer.html#ad14f8729b4b1bf29927db584ffb5b052", null ],
       [ "Buffer", "classMR_1_1Buffer.html#afcf3d90225b34639d9eb1017164d7c18", null ],
       [ "backId", "classMR_1_1Buffer.html#a0aae7e1ae916ef6da5cd9f342f93207c", null ],
+      [ "beginId", "classMR_1_1Buffer.html#a6fa2be8099e8b9ba78c8a4ca991103be", null ],
       [ "capacity", "classMR_1_1Buffer.html#af6b75ad9972a297c57f5ac949f0062ef", null ],
       [ "clear", "classMR_1_1Buffer.html#a2f01b559e5cafefd57bef4c73f59b669", null ],
       [ "data", "classMR_1_1Buffer.html#a41da905f71d8b9c53aa517dae7af261a", null ],
@@ -290,6 +291,7 @@ var group__BasicGroup =
     [ "MR::systemToUtf8", "group__BasicGroup.html#ga9a6b64a85d116ca32c7ff8b93ca80da1", null ],
     [ "MR::unregisterThreadRootTimeRecord", "group__BasicGroup.html#gac017b35cedae37be54b10e3302c6c71d", null ],
     [ "MR::utf8string", "group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d", null ],
+    [ "MR::utf8ToSystem", "group__BasicGroup.html#ga01094b293542b9fcf1b2f084dbf799a9", null ],
     [ "MR::utf8ToWide", "group__BasicGroup.html#ga543d43a804760961ac67ad3689330c1d", null ],
     [ "MR::vertMapsComposition", "group__BasicGroup.html#gad522c5e76d8252c0c5a3bc55818ce589", null ],
     [ "MR::vertMapsComposition", "group__BasicGroup.html#ga4accadafe09c169e3742b72d1e5e5733", null ]

@@ -16,5 +16,6 @@ var searchData=
   ['keyup_13',['keyUp',['../classMR_1_1Viewer.html#a01e1a7a3d56f5220649daa748f9d6449',1,'MR::Viewer']]],
   ['keyup_14',['KeyUp',['../classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0a0f8baa14654b1f6ef00fed708c7f198a',1,'MR::Viewer']]],
   ['keyuplistener_15',['KeyUpListener',['../structMR_1_1KeyUpListener.html',1,'MR']]],
-  ['keyupsignal_16',['keyUpSignal',['../classMR_1_1Viewer.html#a4406c60c0ac846daf643a74003a00266',1,'MR::Viewer']]]
+  ['keyupsignal_16',['keyUpSignal',['../classMR_1_1Viewer.html#a4406c60c0ac846daf643a74003a00266',1,'MR::Viewer']]],
+  ['kind_17',['kind',['../structMR_1_1FeatureObjectSharedProperty.html#add72ff1842f783bf1ceae521c7d614ec',1,'MR::FeatureObjectSharedProperty']]]
 ];

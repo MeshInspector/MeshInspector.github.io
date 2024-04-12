@@ -102,7 +102,6 @@ $(function(){initNavTree('MRICP_8h.html',''); initResizable(); });
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRICP.h File Reference</div></div>
@@ -114,12 +113,18 @@ $(function(){initNavTree('MRICP_8h.html',''); initResizable(); });
 <code>#include &quot;<a class="el" href="MRConstants_8h_source.html">MRConstants.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRAffineXf_8h_source.html">MRAffineXf.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRBitSet_8h_source.html">MRBitSet.h</a>&quot;</code><br />
+<code>#include &lt;cfloat&gt;</code><br />
 </div>
 <p><a href="MRICP_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VertPair.html">MR::VertPair</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointPair.html">MR::PointPair</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores a pair of points: one samples on the source and the closest to it on the target.  <a href="structMR_1_1PointPair.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointPairs.html">MR::PointPairs</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1NumSum.html">MR::NumSum</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ICPProperties.html">MR::ICPProperties</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,11 +135,6 @@ Classes</h2></td></tr>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceMR" id="r_namespaceMR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ad9909c5d952a45eafd73ee515d494d4f" id="r_ad9909c5d952a45eafd73ee515d494d4f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ad9909c5d952a45eafd73ee515d494d4f">MR::VertPairs</a> = std::vector&lt;<a class="el" href="structMR_1_1VertPair.html">VertPair</a>&gt;</td></tr>
-<tr class="separator:ad9909c5d952a45eafd73ee515d494d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -158,11 +158,21 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac09b93909f8485a7fb86b0859ed73333" id="r_ac09b93909f8485a7fb86b0859ed73333"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac09b93909f8485a7fb86b0859ed73333">MR::getMeanSqDistToPoint</a> (const <a class="el" href="namespaceMR.html#ad9909c5d952a45eafd73ee515d494d4f">VertPairs</a> &amp;pairs)</td></tr>
-<tr class="memdesc:ac09b93909f8485a7fb86b0859ed73333"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes root-mean-square deviation between points  <br /></td></tr>
-<tr class="separator:ac09b93909f8485a7fb86b0859ed73333"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e1723a54a2d53965b55e8f4c4ba483b" id="r_a1e1723a54a2d53965b55e8f4c4ba483b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a1e1723a54a2d53965b55e8f4c4ba483b">MR::getMeanSqDistToPlane</a> (const <a class="el" href="namespaceMR.html#ad9909c5d952a45eafd73ee515d494d4f">VertPairs</a> &amp;pairs, const <a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> &amp;floating, const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> &amp;floatXf)</td></tr>
-<tr class="separator:a1e1723a54a2d53965b55e8f4c4ba483b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5d7dfdd1f64979ea8cef6caf625413d" id="r_ac5d7dfdd1f64979ea8cef6caf625413d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac5d7dfdd1f64979ea8cef6caf625413d">MR::getNumActivePairs</a> (const <a class="el" href="structMR_1_1PointPairs.html">PointPairs</a> &amp;pairs)</td></tr>
+<tr class="memdesc:ac5d7dfdd1f64979ea8cef6caf625413d"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the number of active pairs  <br /></td></tr>
+<tr class="separator:ac5d7dfdd1f64979ea8cef6caf625413d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b3717c8de0997f81d5178464a56bcfa" id="r_a4b3717c8de0997f81d5178464a56bcfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1NumSum.html">NumSum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4b3717c8de0997f81d5178464a56bcfa">MR::getSumSqDistToPoint</a> (const <a class="el" href="structMR_1_1PointPairs.html">PointPairs</a> &amp;pairs)</td></tr>
+<tr class="memdesc:a4b3717c8de0997f81d5178464a56bcfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the number of active pairs and the sum of squared distances between points  <br /></td></tr>
+<tr class="separator:a4b3717c8de0997f81d5178464a56bcfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa14d4e529844a12d203394d4d01eac6a" id="r_aa14d4e529844a12d203394d4d01eac6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1NumSum.html">NumSum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa14d4e529844a12d203394d4d01eac6a">MR::getSumSqDistToPlane</a> (const <a class="el" href="structMR_1_1PointPairs.html">PointPairs</a> &amp;pairs)</td></tr>
+<tr class="memdesc:aa14d4e529844a12d203394d4d01eac6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the number of active pairs and the sum of squared deviation from points to target planes  <br /></td></tr>
+<tr class="separator:aa14d4e529844a12d203394d4d01eac6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacf8f224679d1a9f302ec145b968ebc8" id="r_aacf8f224679d1a9f302ec145b968ebc8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aacf8f224679d1a9f302ec145b968ebc8">MR::getMeanSqDistToPoint</a> (const <a class="el" href="structMR_1_1PointPairs.html">PointPairs</a> &amp;pairs)</td></tr>
+<tr class="memdesc:aacf8f224679d1a9f302ec145b968ebc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes root-mean-square deviation between points  <br /></td></tr>
+<tr class="separator:aacf8f224679d1a9f302ec145b968ebc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5290a057607abdb38b364a0f86ae9623" id="r_a5290a057607abdb38b364a0f86ae9623"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5290a057607abdb38b364a0f86ae9623">MR::getMeanSqDistToPlane</a> (const <a class="el" href="structMR_1_1PointPairs.html">PointPairs</a> &amp;pairs)</td></tr>
+<tr class="memdesc:a5290a057607abdb38b364a0f86ae9623"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes root-mean-square deviation from points to target planes  <br /></td></tr>
+<tr class="separator:a5290a057607abdb38b364a0f86ae9623"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

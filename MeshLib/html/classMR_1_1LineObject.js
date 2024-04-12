@@ -8,6 +8,7 @@ var classMR_1_1LineObject =
     [ "clone", "classMR_1_1LineObject.html#aa9a192c6a7b45287b4e6221e3d5ecb6d", null ],
     [ "deserializeModel_", "classMR_1_1LineObject.html#a322814e7a34b2050903988f0570e9f4b", null ],
     [ "getAllSharedProperties", "classMR_1_1LineObject.html#af5103fab67c0756c33a92cc84aa629ec", null ],
+    [ "getBasePoint", "classMR_1_1LineObject.html#ad98fd6479ccf7baec6d3bf47dcdc93d3", null ],
     [ "getCenter", "classMR_1_1LineObject.html#a64d9cf4e2f19318569dcbebee994d421", null ],
     [ "getClassName", "classMR_1_1LineObject.html#a58d1ddeed9b8239cf14d4c47de7f6361", null ],
     [ "getDirection", "classMR_1_1LineObject.html#a0ac3b92e0ee10db29a7928525ac7acae", null ],

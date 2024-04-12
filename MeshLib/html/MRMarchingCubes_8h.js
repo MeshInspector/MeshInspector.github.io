@@ -2,11 +2,11 @@ var MRMarchingCubes_8h =
 [
     [ "MR::MarchingCubesParams", "structMR_1_1MarchingCubesParams.html", "structMR_1_1MarchingCubesParams" ],
     [ "VoxelPointPositioner", "MRMarchingCubes_8h.html#af79e59969dc38af8f99d87b8d80385f2", null ],
-    [ "functionVolumeToMesh", "MRMarchingCubes_8h.html#a1a632eee8dc0cdbe6c08a3f9c3adb956", null ],
-    [ "marchingCubes", "MRMarchingCubes_8h.html#a82b44fb0133eabba9ebf353234d01890", null ],
-    [ "marchingCubes", "MRMarchingCubes_8h.html#aa7264ee0f4a5cb6f30c7c5d6f688bd60", null ],
-    [ "marchingCubes", "MRMarchingCubes_8h.html#a207011a8423d71c37256c668c4a1a3f5", null ],
-    [ "simpleVolumeToMesh", "MRMarchingCubes_8h.html#abfb06e71c3407b209dbcc4a7397bbea0", null ],
-    [ "vdbVolumeToMesh", "MRMarchingCubes_8h.html#a0472d0f97ed751f868392af6620b7506", null ],
+    [ "marchingCubes", "MRMarchingCubes_8h.html#a05d6c188dcc663924443f35086e64697", null ],
+    [ "marchingCubes", "MRMarchingCubes_8h.html#a5bb8d49ea9ba9ad8877afefd4dca68a2", null ],
+    [ "marchingCubes", "MRMarchingCubes_8h.html#af598a204d49a6c06de0f3a464098d012", null ],
+    [ "marchingCubesAsTriMesh", "MRMarchingCubes_8h.html#a9de509f4af899fd13b015359726f28b8", null ],
+    [ "marchingCubesAsTriMesh", "MRMarchingCubes_8h.html#a128180efecb2bd6d3da7b2747e0575d3", null ],
+    [ "marchingCubesAsTriMesh", "MRMarchingCubes_8h.html#a1c9e2e8373128b1102adfae1bdf2f7a2", null ],
     [ "voxelPositionerLinear", "MRMarchingCubes_8h.html#a611a9d93bf5276050887652752c6ee55", null ]
 ];

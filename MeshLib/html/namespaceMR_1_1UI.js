@@ -1,5 +1,6 @@
 var namespaceMR_1_1UI =
 [
+    [ "detail", "namespaceMR_1_1UI_1_1detail.html", "namespaceMR_1_1UI_1_1detail" ],
     [ "ButtonCustomizationParams", "structMR_1_1UI_1_1ButtonCustomizationParams.html", "structMR_1_1UI_1_1ButtonCustomizationParams" ],
     [ "beginCombo", "namespaceMR_1_1UI.html#a72b7457df4d4b5353fc89751ef8d9501", null ],
     [ "beginTabBar", "namespaceMR_1_1UI.html#ab5dcf6cb9ab83cbd7fd1a8ff6659136f", null ],
@@ -17,6 +18,7 @@ var namespaceMR_1_1UI =
     [ "colorEdit4", "namespaceMR_1_1UI.html#acb0c4c1be185e69b6f58108b3471f882", null ],
     [ "colorEdit4", "namespaceMR_1_1UI.html#aaa136c1366383c9c03db4f4b7520c2a6", null ],
     [ "combo", "namespaceMR_1_1UI.html#a820aa2a94b65ad7536194e8527f89a12", null ],
+    [ "drag", "namespaceMR_1_1UI.html#ae8ac25d142ccaa84dbba3ca0faa37604", null ],
     [ "endCombo", "namespaceMR_1_1UI.html#a8cffb4ab7998318c522df73a1d12a4f9", null ],
     [ "endTabBar", "namespaceMR_1_1UI.html#a1b2f7496c5cc2c04acdc85d6ad564a63", null ],
     [ "endTabItem", "namespaceMR_1_1UI.html#a321f93b24c9b7d723ce8aec45fe75374", null ],
@@ -25,11 +27,14 @@ var namespaceMR_1_1UI =
     [ "inputTextCenteredReadOnly", "namespaceMR_1_1UI.html#aa5363e552c8bef6450cdfad583af18e0", null ],
     [ "progressBar", "namespaceMR_1_1UI.html#aa49fc435b33d42412b5a43816ed40e52", null ],
     [ "radioButton", "namespaceMR_1_1UI.html#a8475dd1f1a29f5bb0edc0fcd7c53d115", null ],
+    [ "readOnlyValue", "namespaceMR_1_1UI.html#a3037df1b1014dd2f27c985c9dad78d79", null ],
     [ "separator", "namespaceMR_1_1UI.html#a18b9183fbf887e8e6930c577d92fa409", null ],
     [ "separator", "namespaceMR_1_1UI.html#a17f2b30eb00e5aa94812541ac268a30f", null ],
     [ "setTooltipIfHovered", "namespaceMR_1_1UI.html#a872e637e1fc6bb7aa391dc842b565ed0", null ],
+    [ "slider", "namespaceMR_1_1UI.html#a7ede0f8f76cc959c7be6cb81ee9174f8", null ],
     [ "sliderFloat", "namespaceMR_1_1UI.html#ad8ddc781fa1ee23c1d7c7fc97c2b9e19", null ],
     [ "sliderInt", "namespaceMR_1_1UI.html#a83ebb2b1c738927283db51578a1e3b5c", null ],
     [ "transparentText", "namespaceMR_1_1UI.html#a94309985ed89c89e0d6199e0c6a2e333", null ],
-    [ "transparentTextWrapped", "namespaceMR_1_1UI.html#a2e82aeb6c8dcd97dab6e1f0e68d4fed4", null ]
+    [ "transparentTextWrapped", "namespaceMR_1_1UI.html#a2e82aeb6c8dcd97dab6e1f0e68d4fed4", null ],
+    [ "defaultSliderFlags", "namespaceMR_1_1UI.html#a7ce97f5be533c3522d66cb2fbfaf250f", null ]
 ];

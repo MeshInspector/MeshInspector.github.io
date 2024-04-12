@@ -138,13 +138,20 @@ $(function(){initNavTree('MRString_8h_source.html',''); initResizable(); });
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>}</div>
 </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>}</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="comment">// Replaces `from` with `to` in `target`, zero or more times.</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="namespaceMR.html#a2584c6bf8d14b42355582e7b634bb1ee">   50</a></span>[[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string <a class="code hl_function" href="namespaceMR.html#a2584c6bf8d14b42355582e7b634bb1ee">replace</a>( std::string target, std::string_view from, std::string_view to );</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="comment">// Same, but modifies the target string directly.</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="namespaceMR.html#afc584d61fd54ca2a86dec086736fdfd4">   52</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="namespaceMR.html#afc584d61fd54ca2a86dec086736fdfd4">replaceInplace</a>( std::string&amp; target, std::string_view from, std::string_view to );</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>}</div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:39</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_ga245584b85505ab9157d346bb3d8caf53"><div class="ttname"><a href="group__BasicGroup.html#ga245584b85505ab9157d346bb3d8caf53">MR::findSubstringCaseInsensitive</a></div><div class="ttdeci">MRMESH_API size_t findSubstringCaseInsensitive(const std::string &amp;string, const std::string &amp;substring)</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_ga4a32fd3117efa96b71c220bfc13c359b"><div class="ttname"><a href="group__BasicGroup.html#ga4a32fd3117efa96b71c220bfc13c359b">MR::split</a></div><div class="ttdeci">MRMESH_API std::vector&lt; std::string &gt; split(const std::string &amp;string, const std::string &amp;delimiter)</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_ga6847ba96188840cbc3f036b1f47fbbbd"><div class="ttname"><a href="group__BasicGroup.html#ga6847ba96188840cbc3f036b1f47fbbbd">MR::calcDamerauLevenshteinDistance</a></div><div class="ttdeci">MRMESH_API int calcDamerauLevenshteinDistance(const std::string &amp;stringA, const std::string &amp;stringB, bool caseSensitive=true)</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
+<div class="ttc" id="anamespaceMR_html_a2584c6bf8d14b42355582e7b634bb1ee"><div class="ttname"><a href="namespaceMR.html#a2584c6bf8d14b42355582e7b634bb1ee">MR::replace</a></div><div class="ttdeci">MRMESH_API std::string replace(std::string target, std::string_view from, std::string_view to)</div></div>
+<div class="ttc" id="anamespaceMR_html_afc584d61fd54ca2a86dec086736fdfd4"><div class="ttname"><a href="namespaceMR.html#afc584d61fd54ca2a86dec086736fdfd4">MR::replaceInplace</a></div><div class="ttdeci">MRMESH_API void replaceInplace(std::string &amp;target, std::string_view from, std::string_view to)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

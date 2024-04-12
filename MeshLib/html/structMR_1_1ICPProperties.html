@@ -111,29 +111,40 @@ $(function(){initNavTree('structMR_1_1ICPProperties.html',''); initResizable(); 
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aaebab641b9a81a0d03d0a64d155ea22f" id="r_aaebab641b9a81a0d03d0a64d155ea22f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80ec">ICPMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaebab641b9a81a0d03d0a64d155ea22f">method</a> = <a class="el" href="namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed">ICPMethod::PointToPlane</a></td></tr>
+<tr class="memdesc:aaebab641b9a81a0d03d0a64d155ea22f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The method how to update transformation from point pairs.  <br /></td></tr>
 <tr class="separator:aaebab641b9a81a0d03d0a64d155ea22f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea1145693fe2129927a24c786165f31f" id="r_aea1145693fe2129927a24c786165f31f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea1145693fe2129927a24c786165f31f">p2plAngleLimit</a> = PI_F / 6.0f</td></tr>
+<tr class="memdesc:aea1145693fe2129927a24c786165f31f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotation angle during one iteration of PointToPlane will be limited by this value.  <br /></td></tr>
 <tr class="separator:aea1145693fe2129927a24c786165f31f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5cb06bed691cb37cc63ad3e96ebc6f2" id="r_af5cb06bed691cb37cc63ad3e96ebc6f2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5cb06bed691cb37cc63ad3e96ebc6f2">p2plScaleLimit</a> = 2</td></tr>
+<tr class="memdesc:af5cb06bed691cb37cc63ad3e96ebc6f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scaling during one iteration of PointToPlane will be limited by this value.  <br /></td></tr>
 <tr class="separator:af5cb06bed691cb37cc63ad3e96ebc6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97fba10a2234631de5a66c59d1dfd305" id="r_a97fba10a2234631de5a66c59d1dfd305"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97fba10a2234631de5a66c59d1dfd305">cosTreshold</a> = 0.7f</td></tr>
+<tr class="memdesc:a97fba10a2234631de5a66c59d1dfd305"><td class="mdescLeft">&#160;</td><td class="mdescRight">Points pair will be counted only if cosine between surface normals in points is higher.  <br /></td></tr>
 <tr class="separator:a97fba10a2234631de5a66c59d1dfd305"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf0d9a236c177005330098a88f909eb4" id="r_abf0d9a236c177005330098a88f909eb4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf0d9a236c177005330098a88f909eb4">distTresholdSq</a> = 1.f</td></tr>
-<tr class="separator:abf0d9a236c177005330098a88f909eb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e55178e8a5383531552c5dc25be4817" id="r_a3e55178e8a5383531552c5dc25be4817"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e55178e8a5383531552c5dc25be4817">distStatisticSigmaFactor</a> = 3.f</td></tr>
-<tr class="separator:a3e55178e8a5383531552c5dc25be4817"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43460c0d16c0f302226c8e09b6b98811" id="r_a43460c0d16c0f302226c8e09b6b98811"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43460c0d16c0f302226c8e09b6b98811">distThresholdSq</a> = 1.f</td></tr>
+<tr class="memdesc:a43460c0d16c0f302226c8e09b6b98811"><td class="mdescLeft">&#160;</td><td class="mdescRight">Points pair will be counted only if squared distance between points is lower than.  <br /></td></tr>
+<tr class="separator:a43460c0d16c0f302226c8e09b6b98811"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4083e706852873ed258324b8d2b6626" id="r_aa4083e706852873ed258324b8d2b6626"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4083e706852873ed258324b8d2b6626">farDistFactor</a> = 3.f</td></tr>
+<tr class="separator:aa4083e706852873ed258324b8d2b6626"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77f672ea419da2fb458fb981c25d5be2" id="r_a77f672ea419da2fb458fb981c25d5be2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677">ICPMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77f672ea419da2fb458fb981c25d5be2">icpMode</a> = <a class="el" href="namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677a1662b3d601f436e62a0bf6529440eaef">ICPMode::AnyRigidXf</a></td></tr>
+<tr class="memdesc:a77f672ea419da2fb458fb981c25d5be2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds only translation. Rotation part is identity matrix.  <br /></td></tr>
 <tr class="separator:a77f672ea419da2fb458fb981c25d5be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fe34b378f38697c828575c8204e7b57" id="r_a1fe34b378f38697c828575c8204e7b57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fe34b378f38697c828575c8204e7b57">fixedRotationAxis</a></td></tr>
+<tr class="memdesc:a1fe34b378f38697c828575c8204e7b57"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this vector is not zero then rotation is allowed relative to this axis only.  <br /></td></tr>
 <tr class="separator:a1fe34b378f38697c828575c8204e7b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39f3bd72e10bfbc1f5551b1bbcf1aad5" id="r_a39f3bd72e10bfbc1f5551b1bbcf1aad5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39f3bd72e10bfbc1f5551b1bbcf1aad5">freezePairs</a> = false</td></tr>
-<tr class="separator:a39f3bd72e10bfbc1f5551b1bbcf1aad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b5daff61d36ce0e211995eee0f2507f" id="r_a4b5daff61d36ce0e211995eee0f2507f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b5daff61d36ce0e211995eee0f2507f">iterLimit</a> = 10</td></tr>
+<tr class="memdesc:a4b5daff61d36ce0e211995eee0f2507f"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum iterations  <br /></td></tr>
 <tr class="separator:a4b5daff61d36ce0e211995eee0f2507f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a242dd3555fcbbe8a0857210ed77ff1fe" id="r_a242dd3555fcbbe8a0857210ed77ff1fe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a242dd3555fcbbe8a0857210ed77ff1fe">badIterStopCount</a> = 3</td></tr>
+<tr class="memdesc:a242dd3555fcbbe8a0857210ed77ff1fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum iterations without improvements  <br /></td></tr>
 <tr class="separator:a242dd3555fcbbe8a0857210ed77ff1fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe075e9e4944999f30c142f357d071d7" id="r_afe075e9e4944999f30c142f357d071d7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe075e9e4944999f30c142f357d071d7">exitVal</a> = 0</td></tr>
+<tr class="memdesc:afe075e9e4944999f30c142f357d071d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algorithm target root-mean-square distance. As soon as it is reached, the algorithm stops.  <br /></td></tr>
 <tr class="separator:afe075e9e4944999f30c142f357d071d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a229d248012276b39cb1c7102f4184f4c" id="r_a229d248012276b39cb1c7102f4184f4c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a229d248012276b39cb1c7102f4184f4c">mutualClosest</a> = false</td></tr>
+<tr class="memdesc:a229d248012276b39cb1c7102f4184f4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">a pair of points is formed only if both points in the pair are mutually closest (reciprocity test passed)  <br /></td></tr>
+<tr class="separator:a229d248012276b39cb1c7102f4184f4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a242dd3555fcbbe8a0857210ed77ff1fe" name="a242dd3555fcbbe8a0857210ed77ff1fe"></a>
@@ -147,6 +158,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>maximum iterations without improvements </p>
 
 </div>
 </div>
@@ -162,33 +175,23 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Points pair will be counted only if cosine between surface normals in points is higher. </p>
+
 </div>
 </div>
-<a id="a3e55178e8a5383531552c5dc25be4817" name="a3e55178e8a5383531552c5dc25be4817"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e55178e8a5383531552c5dc25be4817">&#9670;&#160;</a></span>distStatisticSigmaFactor</h2>
+<a id="a43460c0d16c0f302226c8e09b6b98811" name="a43460c0d16c0f302226c8e09b6b98811"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43460c0d16c0f302226c8e09b6b98811">&#9670;&#160;</a></span>distThresholdSq</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float MR::ICPProperties::distStatisticSigmaFactor = 3.f</td>
+          <td class="memname">float MR::ICPProperties::distThresholdSq = 1.f</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="abf0d9a236c177005330098a88f909eb4" name="abf0d9a236c177005330098a88f909eb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf0d9a236c177005330098a88f909eb4">&#9670;&#160;</a></span>distTresholdSq</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::ICPProperties::distTresholdSq = 1.f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Points pair will be counted only if squared distance between points is lower than. </p>
 
 </div>
 </div>
@@ -204,6 +207,23 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Algorithm target root-mean-square distance. As soon as it is reached, the algorithm stops. </p>
+
+</div>
+</div>
+<a id="aa4083e706852873ed258324b8d2b6626" name="aa4083e706852873ed258324b8d2b6626"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4083e706852873ed258324b8d2b6626">&#9670;&#160;</a></span>farDistFactor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::ICPProperties::farDistFactor = 3.f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Points pair will be counted only if distance between points is lower than root-mean-square distance times this factor </p>
+
 </div>
 </div>
 <a id="a1fe34b378f38697c828575c8204e7b57" name="a1fe34b378f38697c828575c8204e7b57"></a>
@@ -218,19 +238,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a39f3bd72e10bfbc1f5551b1bbcf1aad5" name="a39f3bd72e10bfbc1f5551b1bbcf1aad5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39f3bd72e10bfbc1f5551b1bbcf1aad5">&#9670;&#160;</a></span>freezePairs</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::ICPProperties::freezePairs = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>If this vector is not zero then rotation is allowed relative to this axis only. </p>
 
 </div>
 </div>
@@ -246,6 +254,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Finds only translation. Rotation part is identity matrix. </p>
+
 </div>
 </div>
 <a id="a4b5daff61d36ce0e211995eee0f2507f" name="a4b5daff61d36ce0e211995eee0f2507f"></a>
@@ -259,6 +269,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>maximum iterations </p>
 
 </div>
 </div>
@@ -274,6 +286,24 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The method how to update transformation from point pairs. </p>
+
+</div>
+</div>
+<a id="a229d248012276b39cb1c7102f4184f4c" name="a229d248012276b39cb1c7102f4184f4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a229d248012276b39cb1c7102f4184f4c">&#9670;&#160;</a></span>mutualClosest</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::ICPProperties::mutualClosest = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>a pair of points is formed only if both points in the pair are mutually closest (reciprocity test passed) </p>
+
 </div>
 </div>
 <a id="aea1145693fe2129927a24c786165f31f" name="aea1145693fe2129927a24c786165f31f"></a>
@@ -288,6 +318,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Rotation angle during one iteration of PointToPlane will be limited by this value. </p>
+
 </div>
 </div>
 <a id="af5cb06bed691cb37cc63ad3e96ebc6f2" name="af5cb06bed691cb37cc63ad3e96ebc6f2"></a>
@@ -301,6 +333,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Scaling during one iteration of PointToPlane will be limited by this value. </p>
 
 </div>
 </div>

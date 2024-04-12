@@ -21,9 +21,9 @@ var group__FillHoleGroup =
       [ "edgeCode1", "structMR_1_1FillHoleItem.html#a93e897d7d608458643fa5ba8a08d2ea2", null ],
       [ "edgeCode2", "structMR_1_1FillHoleItem.html#a56124e5a79e5cbe2b1b617d2e142aaa1", null ]
     ] ],
-    [ "MR::FillHolePlan", "structMR_1_1FillHolePlan.html", [
-      [ "items", "structMR_1_1FillHolePlan.html#a65ba916a62c352d7f2d5dd40d132ed59", null ],
-      [ "numNewTris", "structMR_1_1FillHolePlan.html#a5fc6fe83c8a7d9a18919d438892ea6e4", null ]
+    [ "MR::HoleFillPlan", "structMR_1_1HoleFillPlan.html", [
+      [ "items", "structMR_1_1HoleFillPlan.html#a7c843d95baaaeb4979c70aecb08e6370", null ],
+      [ "numTris", "structMR_1_1HoleFillPlan.html#a2817520d11bf0f37cbab7e6ef56b38b9", null ]
     ] ],
     [ "MR::FillHoleMetric", "structMR_1_1FillHoleMetric.html", [
       [ "combineMetric", "structMR_1_1FillHoleMetric.html#a7b6a69b1fc9a24862156d40b44ff814c", null ],
@@ -37,7 +37,7 @@ var group__FillHoleGroup =
     [ "MR::buildCylinderBetweenTwoHoles", "group__FillHoleGroup.html#gaf61677f65331b42d3022a70d4b550a13", null ],
     [ "MR::buildCylinderBetweenTwoHoles", "group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157", null ],
     [ "MR::calcCombinedFillMetric", "group__FillHoleGroup.html#ga42f6ba6ec6bdfa6f27d1045e79b9346e", null ],
-    [ "MR::executeFillHolePlan", "group__FillHoleGroup.html#gaeb85fd620b295d0f3179fd85b78c5480", null ],
+    [ "MR::executeHoleFillPlan", "group__FillHoleGroup.html#gac65388f63712128d8af8e1b81054f779", null ],
     [ "MR::extendHole", "group__FillHoleGroup.html#ga3c7779fd4cc2d941f67da4462b2d0121", null ],
     [ "MR::extendHole", "group__FillHoleGroup.html#ga067cc1eda81ae410fdf9299ca802738a", null ],
     [ "MR::fillHole", "group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05", null ],
@@ -47,11 +47,12 @@ var group__FillHoleGroup =
     [ "MR::getComplexStitchMetric", "group__FillHoleGroup.html#ga254a08307d5300b9bc3843d7c8acf653", null ],
     [ "MR::getEdgeLengthFillMetric", "group__FillHoleGroup.html#ga2bc1cb5bc1aba5dea400fb1ea6cc8a63", null ],
     [ "MR::getEdgeLengthStitchMetric", "group__FillHoleGroup.html#ga21177488c5c69bed8eba38677306be0b", null ],
-    [ "MR::getFillHolePlan", "group__FillHoleGroup.html#gab7ae6ca67613ed60f65489d77e288d61", null ],
+    [ "MR::getHoleFillPlan", "group__FillHoleGroup.html#gaa3256109cd439a9801f179661c65c7e6", null ],
     [ "MR::getMaxDihedralAngleMetric", "group__FillHoleGroup.html#gab35620a56c8b1a4eb772c84e4dd9907b", null ],
     [ "MR::getMinAreaMetric", "group__FillHoleGroup.html#gac98959b47ab6fdfe548671b1416e6043", null ],
     [ "MR::getMinTriAngleMetric", "group__FillHoleGroup.html#ga338fbef1b80c5730fcdc31a93c980781", null ],
     [ "MR::getParallelPlaneFillMetric", "group__FillHoleGroup.html#ga9a4b77571e011a0b74c0a419e76ef332", null ],
+    [ "MR::getPlanarHoleFillPlan", "group__FillHoleGroup.html#ga1dbbac5f3d5dfdebbb1790578aed11d8", null ],
     [ "MR::getPlaneFillMetric", "group__FillHoleGroup.html#gaa490c6225ad37e5491af1ed61365e774", null ],
     [ "MR::getPlaneNormalizedFillMetric", "group__FillHoleGroup.html#ga57ca3e797d9308a5db4461b06d773c01", null ],
     [ "MR::getUniversalMetric", "group__FillHoleGroup.html#ga16a9d70b647d9b9f745ab650b21a975e", null ],

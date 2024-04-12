@@ -142,8 +142,8 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa7d5e1a85702fd6508ce899c082b8546" id="r_aa7d5e1a85702fd6508ce899c082b8546"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7d5e1a85702fd6508ce899c082b8546">text</a> (<a class="el" href="#ab3d1526afb0782fa9501df90cb1b2898">Element</a> elem, float menuScaling, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html">Params</a> &amp;params, ImVec2 center, <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html">StringWithIcon</a> string, ImVec2 push=ImVec2())</td></tr>
-<tr class="separator:aa7d5e1a85702fd6508ce899c082b8546"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a332cd23bae44470d3c2076a7d5a5d0ef" id="r_a332cd23bae44470d3c2076a7d5a5d0ef"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a332cd23bae44470d3c2076a7d5a5d0ef">text</a> (<a class="el" href="#ab3d1526afb0782fa9501df90cb1b2898">Element</a> elem, float menuScaling, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html">Params</a> &amp;params, ImVec2 pos, <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html">StringWithIcon</a> string, ImVec2 push={}, ImVec2 pivot={ 0.5f, 0.5f })</td></tr>
+<tr class="separator:a332cd23bae44470d3c2076a7d5a5d0ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a660e781c3399b37449e24305cf8bbdc4" id="r_a660e781c3399b37449e24305cf8bbdc4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a660e781c3399b37449e24305cf8bbdc4">arrowTriangle</a> (<a class="el" href="#ab3d1526afb0782fa9501df90cb1b2898">Element</a> elem, float menuScaling, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html">Params</a> &amp;params, ImVec2 point, ImVec2 dir)</td></tr>
 <tr class="separator:a660e781c3399b37449e24305cf8bbdc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6029334be476b361570837d6592b4272" id="r_a6029334be476b361570837d6592b4272"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6029334be476b361570837d6592b4272">line</a> (<a class="el" href="#ab3d1526afb0782fa9501df90cb1b2898">Element</a> elem, float menuScaling, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html">Params</a> &amp;params, ImVec2 a, ImVec2 b, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html">LineParams</a> &amp;lineParams={})</td></tr>
@@ -406,8 +406,8 @@ template&lt;typename A , typename B , typename F , typename G , typename H  = st
 
 </div>
 </div>
-<a id="aa7d5e1a85702fd6508ce899c082b8546" name="aa7d5e1a85702fd6508ce899c082b8546"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7d5e1a85702fd6508ce899c082b8546">&#9670;&#160;</a></span>text()</h2>
+<a id="a332cd23bae44470d3c2076a7d5a5d0ef" name="a332cd23bae44470d3c2076a7d5a5d0ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a332cd23bae44470d3c2076a7d5a5d0ef">&#9670;&#160;</a></span>text()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -430,7 +430,7 @@ template&lt;typename A , typename B , typename F , typename G , typename H  = st
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ImVec2</td>          <td class="paramname"><span class="paramname"><em>center</em>, </span></td>
+          <td class="paramtype">ImVec2</td>          <td class="paramname"><span class="paramname"><em>pos</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -440,7 +440,12 @@ template&lt;typename A , typename B , typename F , typename G , typename H  = st
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ImVec2</td>          <td class="paramname"><span class="paramname"><em>push</em><span class="paramdefsep"> = </span><span class="paramdefval">ImVec2()</span></span>&#160;)</td>
+          <td class="paramtype">ImVec2</td>          <td class="paramname"><span class="paramname"><em>push</em><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImVec2</td>          <td class="paramname"><span class="paramname"><em>pivot</em><span class="paramdefsep"> = </span><span class="paramdefval">{&#160;0.5f,&#160;0.5f&#160;}</span></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

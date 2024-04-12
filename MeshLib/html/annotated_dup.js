@@ -6,6 +6,9 @@ var annotated_dup =
         [ "PointsToMeshProjector", "classMR_1_1Cuda_1_1PointsToMeshProjector.html", "classMR_1_1Cuda_1_1PointsToMeshProjector" ]
       ] ],
       [ "detail", "namespaceMR_1_1detail.html", [
+        [ "Units", "namespaceMR_1_1detail_1_1Units.html", [
+          [ "Empty", "structMR_1_1detail_1_1Units_1_1Empty.html", null ]
+        ] ],
         [ "MakeScopeGuard", "structMR_1_1detail_1_1MakeScopeGuard.html", "structMR_1_1detail_1_1MakeScopeGuard" ],
         [ "ScopeGuard", "classMR_1_1detail_1_1ScopeGuard.html", "classMR_1_1detail_1_1ScopeGuard" ]
       ] ],
@@ -98,9 +101,9 @@ var annotated_dup =
       [ "RenderFeatures", "namespaceMR_1_1RenderFeatures.html", [
         [ "detail", "namespaceMR_1_1RenderFeatures_1_1detail.html", [
           [ "WrappedModelSubobjectPart", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart.html", null ],
-          [ "WrappedModelSubobjectPart< IsPrimary, ObjectLines >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectLines_01_4.html", null ],
-          [ "WrappedModelSubobjectPart< IsPrimary, ObjectMesh >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectMesh_01_4.html", null ],
-          [ "WrappedModelSubobjectPart< IsPrimary, ObjectPoints >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectPoints_01_4.html", null ]
+          [ "WrappedModelSubobjectPart< IsPrimary, ObjectLines >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectLines_01_4.html", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectLines_01_4" ],
+          [ "WrappedModelSubobjectPart< IsPrimary, ObjectMesh >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectMesh_01_4.html", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectMesh_01_4" ],
+          [ "WrappedModelSubobjectPart< IsPrimary, ObjectPoints >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectPoints_01_4.html", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectPoints_01_4" ]
         ] ],
         [ "RenderCircleFeatureObject", "classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html", "classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject" ],
         [ "RenderConeFeatureObject", "classMR_1_1RenderFeatures_1_1RenderConeFeatureObject.html", "classMR_1_1RenderFeatures_1_1RenderConeFeatureObject" ],
@@ -119,6 +122,7 @@ var annotated_dup =
       ] ],
       [ "RenderWrapObject", "namespaceMR_1_1RenderWrapObject.html", [
         [ "detail", "namespaceMR_1_1RenderWrapObject_1_1detail.html", [
+          [ "BasicWrapperTargetUntyped", "classMR_1_1RenderWrapObject_1_1detail_1_1BasicWrapperTargetUntyped.html", "classMR_1_1RenderWrapObject_1_1detail_1_1BasicWrapperTargetUntyped" ],
           [ "SubobjectStorage", "structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html", "structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage" ]
         ] ],
         [ "BasicWrapperTarget", "classMR_1_1RenderWrapObject_1_1BasicWrapperTarget.html", "classMR_1_1RenderWrapObject_1_1BasicWrapperTarget" ],
@@ -126,6 +130,9 @@ var annotated_dup =
       ] ],
       [ "SceneLoad", "namespaceMR_1_1SceneLoad.html", [
         [ "SceneLoadResult", "structMR_1_1SceneLoad_1_1SceneLoadResult.html", "structMR_1_1SceneLoad_1_1SceneLoadResult" ]
+      ] ],
+      [ "SelfIntersections", "namespaceMR_1_1SelfIntersections.html", [
+        [ "Settings", "structMR_1_1SelfIntersections_1_1Settings.html", "structMR_1_1SelfIntersections_1_1Settings" ]
       ] ],
       [ "TriangulationHelpers", "namespaceMR_1_1TriangulationHelpers.html", [
         [ "FanOptimizerQueueElement", "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html", "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" ],
@@ -155,6 +162,7 @@ var annotated_dup =
       [ "AffineXf", "structMR_1_1AffineXf.html", "structMR_1_1AffineXf" ],
       [ "AllLocalTriangulations", "structMR_1_1AllLocalTriangulations.html", "structMR_1_1AllLocalTriangulations" ],
       [ "AlphaSortGL", "classMR_1_1AlphaSortGL.html", "classMR_1_1AlphaSortGL" ],
+      [ "AncillaryImGuiLabel", "classMR_1_1AncillaryImGuiLabel.html", "classMR_1_1AncillaryImGuiLabel" ],
       [ "AncillaryLabel", "structMR_1_1AncillaryLabel.html", "structMR_1_1AncillaryLabel" ],
       [ "AncillaryLines", "structMR_1_1AncillaryLines.html", "structMR_1_1AncillaryLines" ],
       [ "AncillaryMesh", "structMR_1_1AncillaryMesh.html", "structMR_1_1AncillaryMesh" ],
@@ -173,6 +181,7 @@ var annotated_dup =
       [ "BindVertexAttribArraySettings", "structMR_1_1BindVertexAttribArraySettings.html", "structMR_1_1BindVertexAttribArraySettings" ],
       [ "BitSet", "classMR_1_1BitSet.html", "classMR_1_1BitSet" ],
       [ "BMap", "structMR_1_1BMap.html", "structMR_1_1BMap" ],
+      [ "BooleanInternalParameters", "structMR_1_1BooleanInternalParameters.html", "structMR_1_1BooleanInternalParameters" ],
       [ "BooleanParameters", "structMR_1_1BooleanParameters.html", "structMR_1_1BooleanParameters" ],
       [ "BooleanPreCutResult", "structMR_1_1BooleanPreCutResult.html", "structMR_1_1BooleanPreCutResult" ],
       [ "BooleanResult", "structMR_1_1BooleanResult.html", "structMR_1_1BooleanResult" ],
@@ -209,6 +218,7 @@ var annotated_dup =
       [ "ChangePointActionPickerPoint", "classMR_1_1ChangePointActionPickerPoint.html", "classMR_1_1ChangePointActionPickerPoint" ],
       [ "ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html", "classMR_1_1ChangePointCloudAction" ],
       [ "ChangePointCloudNormalsAction", "classMR_1_1ChangePointCloudNormalsAction.html", "classMR_1_1ChangePointCloudNormalsAction" ],
+      [ "ChangePointCloudPointsAction", "classMR_1_1ChangePointCloudPointsAction.html", "classMR_1_1ChangePointCloudPointsAction" ],
       [ "ChangePointPointSelectionAction", "classMR_1_1ChangePointPointSelectionAction.html", "classMR_1_1ChangePointPointSelectionAction" ],
       [ "ChangePolylineAction", "classMR_1_1ChangePolylineAction.html", "classMR_1_1ChangePolylineAction" ],
       [ "ChangePolylinePointsAction", "classMR_1_1ChangePolylinePointsAction.html", "classMR_1_1ChangePolylinePointsAction" ],
@@ -290,6 +300,7 @@ var annotated_dup =
       [ "EmbeddedStructureParameters", "structMR_1_1EmbeddedStructureParameters.html", "structMR_1_1EmbeddedStructureParameters" ],
       [ "EnumNeihbourFaces", "classMR_1_1EnumNeihbourFaces.html", "classMR_1_1EnumNeihbourFaces" ],
       [ "EnumNeihbourVertices", "classMR_1_1EnumNeihbourVertices.html", "classMR_1_1EnumNeihbourVertices" ],
+      [ "FaceDistancesSettings", "structMR_1_1FaceDistancesSettings.html", "structMR_1_1FaceDistancesSettings" ],
       [ "FaceFace", "structMR_1_1FaceFace.html", "structMR_1_1FaceFace" ],
       [ "FanRecord", "structMR_1_1FanRecord.html", "structMR_1_1FanRecord" ],
       [ "FanRecordWithCenter", "structMR_1_1FanRecordWithCenter.html", "structMR_1_1FanRecordWithCenter" ],
@@ -303,7 +314,6 @@ var annotated_dup =
       [ "FillHoleItem", "structMR_1_1FillHoleItem.html", "structMR_1_1FillHoleItem" ],
       [ "FillHoleMetric", "structMR_1_1FillHoleMetric.html", "structMR_1_1FillHoleMetric" ],
       [ "FillHoleParams", "structMR_1_1FillHoleParams.html", "structMR_1_1FillHoleParams" ],
-      [ "FillHolePlan", "structMR_1_1FillHolePlan.html", "structMR_1_1FillHolePlan" ],
       [ "FindOverhangsSettings", "structMR_1_1FindOverhangsSettings.html", "structMR_1_1FindOverhangsSettings" ],
       [ "FindOverlappingSettings", "structMR_1_1FindOverlappingSettings.html", "structMR_1_1FindOverlappingSettings" ],
       [ "FitBoxParams", "structMR_1_1FitBoxParams.html", "structMR_1_1FitBoxParams" ],
@@ -335,6 +345,7 @@ var annotated_dup =
       [ "HistoryAction", "classMR_1_1HistoryAction.html", "classMR_1_1HistoryAction" ],
       [ "HistoryStore", "classMR_1_1HistoryStore.html", "classMR_1_1HistoryStore" ],
       [ "HoleEdgePoint", "structMR_1_1HoleEdgePoint.html", "structMR_1_1HoleEdgePoint" ],
+      [ "HoleFillPlan", "structMR_1_1HoleFillPlan.html", "structMR_1_1HoleFillPlan" ],
       [ "IConnectable", "structMR_1_1IConnectable.html", "structMR_1_1IConnectable" ],
       [ "ICP", "classMR_1_1ICP.html", "classMR_1_1ICP" ],
       [ "ICPProperties", "structMR_1_1ICPProperties.html", "structMR_1_1ICPProperties" ],
@@ -433,9 +444,11 @@ var annotated_dup =
       [ "NoCtor< T >", "structMR_1_1NoCtor_3_01T_01_4.html", "structMR_1_1NoCtor_3_01T_01_4" ],
       [ "NoDefInit", "structMR_1_1NoDefInit.html", "structMR_1_1NoDefInit" ],
       [ "NoInit", "structMR_1_1NoInit.html", null ],
+      [ "NoiseSettings", "structMR_1_1NoiseSettings.html", "structMR_1_1NoiseSettings" ],
       [ "NoModelCheck", "structMR_1_1NoModelCheck.html", null ],
       [ "NormalsToPoints", "classMR_1_1NormalsToPoints.html", "classMR_1_1NormalsToPoints" ],
       [ "NoVisualRepresentationCheck", "structMR_1_1NoVisualRepresentationCheck.html", null ],
+      [ "NumSum", "structMR_1_1NumSum.html", "structMR_1_1NumSum" ],
       [ "Object", "classMR_1_1Object.html", "classMR_1_1Object" ],
       [ "ObjectChildrenHolder", "classMR_1_1ObjectChildrenHolder.html", "classMR_1_1ObjectChildrenHolder" ],
       [ "ObjectDistanceMap", "classMR_1_1ObjectDistanceMap.html", "classMR_1_1ObjectDistanceMap" ],
@@ -476,6 +489,7 @@ var annotated_dup =
       [ "PlaneObject", "classMR_1_1PlaneObject.html", "classMR_1_1PlaneObject" ],
       [ "PlaneWidget", "classMR_1_1PlaneWidget.html", "classMR_1_1PlaneWidget" ],
       [ "PluginCloseOnChangeMesh", "classMR_1_1PluginCloseOnChangeMesh.html", "classMR_1_1PluginCloseOnChangeMesh" ],
+      [ "PluginCloseOnChangePointCloud", "classMR_1_1PluginCloseOnChangePointCloud.html", "classMR_1_1PluginCloseOnChangePointCloud" ],
       [ "PluginCloseOnSelectedObjectRemove", "classMR_1_1PluginCloseOnSelectedObjectRemove.html", "classMR_1_1PluginCloseOnSelectedObjectRemove" ],
       [ "PluginUpdateOnChangeMeshPart", "classMR_1_1PluginUpdateOnChangeMeshPart.html", "classMR_1_1PluginUpdateOnChangeMeshPart" ],
       [ "PluginUpdateOr", "classMR_1_1PluginUpdateOr.html", "classMR_1_1PluginUpdateOr" ],
@@ -487,6 +501,8 @@ var annotated_dup =
       [ "PointObject", "classMR_1_1PointObject.html", "classMR_1_1PointObject" ],
       [ "PointOnFace", "structMR_1_1PointOnFace.html", "structMR_1_1PointOnFace" ],
       [ "PointOnObject", "structMR_1_1PointOnObject.html", "structMR_1_1PointOnObject" ],
+      [ "PointPair", "structMR_1_1PointPair.html", "structMR_1_1PointPair" ],
+      [ "PointPairs", "structMR_1_1PointPairs.html", "structMR_1_1PointPairs" ],
       [ "PointsLoadSettings", "structMR_1_1PointsLoadSettings.html", "structMR_1_1PointsLoadSettings" ],
       [ "PointsProjectionResult", "structMR_1_1PointsProjectionResult.html", "structMR_1_1PointsProjectionResult" ],
       [ "PointsToDistanceVolumeParams", "structMR_1_1PointsToDistanceVolumeParams.html", "structMR_1_1PointsToDistanceVolumeParams" ],
@@ -549,6 +565,7 @@ var annotated_dup =
       [ "RenderObjectCombinator", "classMR_1_1RenderObjectCombinator.html", "classMR_1_1RenderObjectCombinator" ],
       [ "RenderPointsObject", "classMR_1_1RenderPointsObject.html", "classMR_1_1RenderPointsObject" ],
       [ "RenderRadiusObject", "classMR_1_1RenderRadiusObject.html", "classMR_1_1RenderRadiusObject" ],
+      [ "RenderResetDirtyComponent", "classMR_1_1RenderResetDirtyComponent.html", "classMR_1_1RenderResetDirtyComponent" ],
       [ "RenderVolumeObject", "classMR_1_1RenderVolumeObject.html", "classMR_1_1RenderVolumeObject" ],
       [ "ResetSceneMenuItem", "classMR_1_1ResetSceneMenuItem.html", "classMR_1_1ResetSceneMenuItem" ],
       [ "ResolveMeshDegenSettings", "structMR_1_1ResolveMeshDegenSettings.html", "structMR_1_1ResolveMeshDegenSettings" ],
@@ -604,6 +621,7 @@ var annotated_dup =
       [ "SegmPoint", "structMR_1_1SegmPoint.html", "structMR_1_1SegmPoint" ],
       [ "SelectObjectByClick", "classMR_1_1SelectObjectByClick.html", "classMR_1_1SelectObjectByClick" ],
       [ "SelectScreenLasso", "classMR_1_1SelectScreenLasso.html", "classMR_1_1SelectScreenLasso" ],
+      [ "SeparationPointStorage", "classMR_1_1SeparationPointStorage.html", "classMR_1_1SeparationPointStorage" ],
       [ "SetBitIteratorT", "classMR_1_1SetBitIteratorT.html", "classMR_1_1SetBitIteratorT" ],
       [ "SetViewportConfigPresetMenuItem", "classMR_1_1SetViewportConfigPresetMenuItem.html", "classMR_1_1SetViewportConfigPresetMenuItem" ],
       [ "SetViewPresetMenuItem", "classMR_1_1SetViewPresetMenuItem.html", "classMR_1_1SetViewPresetMenuItem" ],
@@ -673,6 +691,7 @@ var annotated_dup =
       [ "TriangleSegmentIntersectResult", "structMR_1_1TriangleSegmentIntersectResult.html", "structMR_1_1TriangleSegmentIntersectResult" ],
       [ "TriangulationParameters", "structMR_1_1TriangulationParameters.html", "structMR_1_1TriangulationParameters" ],
       [ "TriIntersectResult", "structMR_1_1TriIntersectResult.html", "structMR_1_1TriIntersectResult" ],
+      [ "TriMesh", "structMR_1_1TriMesh.html", "structMR_1_1TriMesh" ],
       [ "TrimOptionalOutput", "structMR_1_1TrimOptionalOutput.html", "structMR_1_1TrimOptionalOutput" ],
       [ "TrimWithPlaneParams", "structMR_1_1TrimWithPlaneParams.html", "structMR_1_1TrimWithPlaneParams" ],
       [ "TriPoint", "structMR_1_1TriPoint.html", "structMR_1_1TriPoint" ],
@@ -687,14 +706,21 @@ var annotated_dup =
       [ "UniqueTemporaryFolder", "classMR_1_1UniqueTemporaryFolder.html", "classMR_1_1UniqueTemporaryFolder" ],
       [ "UniqueThreadSafeOwner", "classMR_1_1UniqueThreadSafeOwner.html", "classMR_1_1UniqueThreadSafeOwner" ],
       [ "UniteManyMeshesParams", "structMR_1_1UniteManyMeshesParams.html", "structMR_1_1UniteManyMeshesParams" ],
+      [ "UnitInfo", "structMR_1_1UnitInfo.html", "structMR_1_1UnitInfo" ],
+      [ "UnitToStringParams", "structMR_1_1UnitToStringParams.html", "structMR_1_1UnitToStringParams" ],
       [ "UnorientedTriangle", "structMR_1_1UnorientedTriangle.html", "structMR_1_1UnorientedTriangle" ],
       [ "VariableEdgeTri", "structMR_1_1VariableEdgeTri.html", "structMR_1_1VariableEdgeTri" ],
       [ "Vector", "classMR_1_1Vector.html", "classMR_1_1Vector" ],
       [ "Vector2", "structMR_1_1Vector2.html", "structMR_1_1Vector2" ],
       [ "Vector3", "structMR_1_1Vector3.html", "structMR_1_1Vector3" ],
       [ "Vector4", "structMR_1_1Vector4.html", "structMR_1_1Vector4" ],
+      [ "VectorTraits", "structMR_1_1VectorTraits.html", "structMR_1_1VectorTraits" ],
+      [ "VectorTraits< ImVec2 >", "structMR_1_1VectorTraits_3_01ImVec2_01_4.html", "structMR_1_1VectorTraits_3_01ImVec2_01_4" ],
+      [ "VectorTraits< ImVec4 >", "structMR_1_1VectorTraits_3_01ImVec4_01_4.html", "structMR_1_1VectorTraits_3_01ImVec4_01_4" ],
+      [ "VectorTraits< Vector2< T > >", "structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4.html", "structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4" ],
+      [ "VectorTraits< Vector3< T > >", "structMR_1_1VectorTraits_3_01Vector3_3_01T_01_4_01_4.html", "structMR_1_1VectorTraits_3_01Vector3_3_01T_01_4_01_4" ],
+      [ "VectorTraits< Vector4< T > >", "structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html", "structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4" ],
       [ "VertDistance", "structMR_1_1VertDistance.html", "structMR_1_1VertDistance" ],
-      [ "VertPair", "structMR_1_1VertPair.html", "structMR_1_1VertPair" ],
       [ "VertPathInfo", "structMR_1_1VertPathInfo.html", "structMR_1_1VertPathInfo" ],
       [ "VertRenumber", "classMR_1_1VertRenumber.html", "classMR_1_1VertRenumber" ],
       [ "Viewer", "classMR_1_1Viewer.html", "classMR_1_1Viewer" ],

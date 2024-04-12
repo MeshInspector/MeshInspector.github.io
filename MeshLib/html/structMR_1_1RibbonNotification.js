@@ -1,6 +1,7 @@
 var structMR_1_1RibbonNotification =
 [
     [ "OnButtonClick", "structMR_1_1RibbonNotification.html#a22ab6a5e3459fed757c4443f8d3ad51a", null ],
+    [ "operator==", "structMR_1_1RibbonNotification.html#aa700fd6a10257ff9d1efe1d00dcb64dc", null ],
     [ "buttonName", "structMR_1_1RibbonNotification.html#a156a1963010372c4c838def5344897ab", null ],
     [ "header", "structMR_1_1RibbonNotification.html#ae5f28ba6936128a2d39825de578e9bb2", null ],
     [ "lifeTimeSec", "structMR_1_1RibbonNotification.html#a9f52a5c95f7b36adb01f422c470f7362", null ],

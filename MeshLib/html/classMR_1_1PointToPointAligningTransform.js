@@ -1,7 +1,8 @@
 var classMR_1_1PointToPointAligningTransform =
 [
     [ "add", "classMR_1_1PointToPointAligningTransform.html#a6b0c81b83591abaea22519d6292ba022", null ],
-    [ "add", "classMR_1_1PointToPointAligningTransform.html#a46bcab4d55e72fefc72fa30d42593211", null ],
+    [ "add", "classMR_1_1PointToPointAligningTransform.html#aa7e4554d230ff4113f0eda48c212f0bc", null ],
+    [ "add", "classMR_1_1PointToPointAligningTransform.html#a1f94659f434039a0d815dc1cc7926025", null ],
     [ "centroid1", "classMR_1_1PointToPointAligningTransform.html#a7c5ce61a849b6f702c6d585049995ef0", null ],
     [ "centroid2", "classMR_1_1PointToPointAligningTransform.html#a71bc17188dc3fb99ec66eca0caadcb0e", null ],
     [ "clear", "classMR_1_1PointToPointAligningTransform.html#ac5424746eb81f9bd5747eefad03a184b", null ],

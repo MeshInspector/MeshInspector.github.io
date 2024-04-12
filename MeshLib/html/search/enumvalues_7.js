@@ -1,12 +1,22 @@
 var searchData=
 [
-  ['header_0',['Header',['../structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daea6e26772b8233151b64f9f5f360d3b59d',1,'MR::DrawButtonParams']]],
-  ['headerbackground_1',['HeaderBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2dfef339aeaa577faf0d49879bc040d2',1,'MR::ColorTheme']]],
-  ['headerseparator_2',['HeaderSeparator',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a7af2aa44b44cb2c9ed912410b4f3fa4d',1,'MR::ColorTheme']]],
-  ['headline_3',['Headline',['../classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4ac6568e77f61109390e82d035aaacaef0',1,'MR::RibbonFontManager']]],
-  ['hemispheresearchfit_4',['HemisphereSearchFit',['../namespaceMR.html#a0ec93e9fcfd4b11654579d65e255bb7da1a4728573c55a3c1ceca7af11776f64b',1,'MR']]],
-  ['hide_5',['Hide',['../structMR_1_1LaunchParams.html#a022b76b62fcdfb2c120c1c0ccb08513da76e966b8305fa338f9273824d39d2a3d',1,'MR::LaunchParams']]],
-  ['hideinit_6',['HideInit',['../structMR_1_1LaunchParams.html#a022b76b62fcdfb2c120c1c0ccb08513da2a8313f2f3ab507d4c85c1be27dc0516',1,'MR::LaunchParams']]],
-  ['holewindingrule_7',['HoleWindingRule',['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a3065abc09e5d4edae66468fee91282e4',1,'MR']]],
-  ['horizontal_8',['Horizontal',['../classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9dac1b5fa03ecdb95d4a45dd1c40b02527f',1,'MR::SetViewportConfigPresetMenuItem::Horizontal'],['../structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0ac1b5fa03ecdb95d4a45dd1c40b02527f',1,'MR::GridSettings::Horizontal']]]
+  ['geodesic_0',['Geodesic',['../namespaceMR.html#ad7e1f7039c3adef672abd4150bc4786ca81cda646477dd0d1137c68b398ca755c',1,'MR']]],
+  ['get_1',['Get',['../classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0cac55582518cba2c464f29f5bae1c68def',1,'MR::WebRequest']]],
+  ['good_2',['Good',['../structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33a0c6ad70beb3a7e76c3fc7adab7c46acc',1,'MR::CutMeshParameters']]],
+  ['gorge_3',['Gorge',['../group__SurfacePathSubgroup.html#gga3887057b7aa95d9993b5ce57130c25a6a90290d32b4deae8703b07bfcd17af5a4',1,'MR']]],
+  ['gradbtnactiveend_4',['GradBtnActiveEnd',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a79ca2c61ddfccb6fb9dd7fa7aef4797f',1,'MR::ColorTheme']]],
+  ['gradbtnactivestart_5',['GradBtnActiveStart',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ac89a96d82a927e50a773c18a61e7a780',1,'MR::ColorTheme']]],
+  ['gradbtndisableend_6',['GradBtnDisableEnd',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a3cf021c6c36c7ca240737b15a58169a5',1,'MR::ColorTheme']]],
+  ['gradbtndisablestart_7',['GradBtnDisableStart',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a11c9d2b923596e7459895684448aa6b0',1,'MR::ColorTheme']]],
+  ['gradbtnend_8',['GradBtnEnd',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a5704717e193de9710967a1f65c75d2c7',1,'MR::ColorTheme']]],
+  ['gradbtnhoverend_9',['GradBtnHoverEnd',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0afc7e5e724a1d4777a9e8f28ca38916c3',1,'MR::ColorTheme']]],
+  ['gradbtnhoverstart_10',['GradBtnHoverStart',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2db2d120c28ce02f3ae09cb46ab142be',1,'MR::ColorTheme']]],
+  ['gradbtnstart_11',['GradBtnStart',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a50114286d87f93089d7d222120a2aff5',1,'MR::ColorTheme']]],
+  ['gradbtntext_12',['GradBtnText',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0aa3e216a80fa3ed8ce043a3227686b692',1,'MR::ColorTheme']]],
+  ['gradient_13',['Gradient',['../classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368a5e59525cb7d1d1cd93be0b9f36e9d09a',1,'MR::RibbonButtonDrawer']]],
+  ['gradientend_14',['GradientEnd',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0aad7101ceb05b131ad92ee95d98c68c35',1,'MR::ColorTheme']]],
+  ['gradientstart_15',['GradientStart',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0afd01a2b69bde153fcd2589c5749c317d',1,'MR::ColorTheme']]],
+  ['grayshades_16',['GrayShades',['../structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5a1d2de7c46c67f218fe81aecd01ae5eaa',1,'MR::ObjectVoxels::VolumeRenderingParams']]],
+  ['greater_17',['Greater',['../namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93a8768a6821cd735aea4f5b0df88c1fc6a',1,'MR']]],
+  ['greaterorequal_18',['GreaterOrEqual',['../namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93a6f2f0aefb3d22da0f3839453add5f937',1,'MR']]]
 ];

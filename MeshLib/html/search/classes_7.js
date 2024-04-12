@@ -8,5 +8,6 @@ var searchData=
   ['historian_5',['Historian',['../classMR_1_1Historian.html',1,'MR']]],
   ['historyaction_6',['HistoryAction',['../classMR_1_1HistoryAction.html',1,'MR']]],
   ['historystore_7',['HistoryStore',['../classMR_1_1HistoryStore.html',1,'MR']]],
-  ['holeedgepoint_8',['HoleEdgePoint',['../structMR_1_1HoleEdgePoint.html',1,'MR']]]
+  ['holeedgepoint_8',['HoleEdgePoint',['../structMR_1_1HoleEdgePoint.html',1,'MR']]],
+  ['holefillplan_9',['HoleFillPlan',['../structMR_1_1HoleFillPlan.html',1,'MR']]]
 ];

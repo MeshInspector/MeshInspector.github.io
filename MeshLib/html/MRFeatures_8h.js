@@ -22,16 +22,21 @@ var MRFeatures_8h =
     [ "Sphere", "MRFeatures_8h.html#a37df2f34cbcd3fec213859b3ca57d3b6", null ],
     [ "Variant", "MRFeatures_8h.html#a955a7f843d9b5df0f393ec7699ada624", null ],
     [ "measure", "MRFeatures_8h.html#a39b347d1c16a0e596d16c09cc7839ded", null ],
+    [ "measure", "MRFeatures_8h.html#a8ae032d9a48f5e4e7669748c12b6f05c", null ],
+    [ "measure", "MRFeatures_8h.html#ada065f0f7c5b74946d5ae2826df2bf0d", null ],
+    [ "measure", "MRFeatures_8h.html#acba878d0a966299305f4db971b3896b7", null ],
+    [ "name", "MRFeatures_8h.html#a64ffcca649e7365b125b54b414b4e3a1", null ],
     [ "name", "MRFeatures_8h.html#a1f7d6b7fed16c703a284c2013da802e2", null ],
     [ "primitiveCircle", "MRFeatures_8h.html#a5868f629eb5b33654ac9c296f89ab859", null ],
     [ "primitiveCone", "MRFeatures_8h.html#a8d70d3465b40dfe88c3a3fb7210afee0", null ],
     [ "primitiveCylinder", "MRFeatures_8h.html#a2d7396ae23e2d25cae0b7fc52fd0700e", null ],
     [ "primitiveFromObject", "MRFeatures_8h.html#aeeb9d21a824a2dd94d682b54ab1862d2", null ],
-    [ "primitiveToObject", "MRFeatures_8h.html#a618bcbb06d791030d73ae2de0638e7d3", null ],
+    [ "primitiveToObject", "MRFeatures_8h.html#a49fd9207c07aaf09dab5aa90ea742cbb", null ],
     [ "toPrimitive", "MRFeatures_8h.html#aa06970e4aa6f9508425ab48758238239", null ],
     [ "toPrimitive", "MRFeatures_8h.html#a8181371796e19bd3d28cc3300b6aa1bb", null ],
     [ "toPrimitive", "MRFeatures_8h.html#a164e47d633f8939134d7f4f05960c4ac", null ],
     [ "toPrimitive", "MRFeatures_8h.html#a9f2a352fa6ebdfaab6c6abbb609ebaf2", null ],
     [ "toPrimitive", "MRFeatures_8h.html#a4b8fe8c172363793d31c8bbc29e9fdb2", null ],
-    [ "toPrimitive", "MRFeatures_8h.html#acbd075b92fa1a44ed1751506cecb9b3a", null ]
+    [ "toPrimitive", "MRFeatures_8h.html#acbd075b92fa1a44ed1751506cecb9b3a", null ],
+    [ "toString", "MRFeatures_8h.html#a6ef217cccdf314a4441a435f229650af", null ]
 ];

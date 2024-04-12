@@ -17,6 +17,7 @@ var classMR_1_1SurfacePointWidget =
     [ "getCurrentPositionMeshTriPoint", "classMR_1_1SurfacePointWidget.html#a5f6d3e6c0abc84f6533041c75ced9601", null ],
     [ "getParameters", "classMR_1_1SurfacePointWidget.html#aaf1b995da6798f3caa166aff48dd0958", null ],
     [ "getPickSphere", "classMR_1_1SurfacePointWidget.html#aa8c6ffb5b20ff526434fba6f30176a10", null ],
+    [ "isOnMove", "classMR_1_1SurfacePointWidget.html#a8dd6b1d6da44226abb2ebea02590229b", null ],
     [ "reset", "classMR_1_1SurfacePointWidget.html#adbc7a66606acd915861c47e2c89b347e", null ],
     [ "setAutoHover", "classMR_1_1SurfacePointWidget.html#af0454cbea26d720ec55e0e993b62d01b", null ],
     [ "setEndMoveCallback", "classMR_1_1SurfacePointWidget.html#a4294ac970d404bd6a69dcad7641cc685", null ],
@@ -26,5 +27,6 @@ var classMR_1_1SurfacePointWidget =
     [ "setStartMoveCallback", "classMR_1_1SurfacePointWidget.html#a72049964543b708dab047eb9523abe40", null ],
     [ "toVector3f", "classMR_1_1SurfacePointWidget.html#afd5f43e81c4b52948c3571465f625f66", null ],
     [ "updateCurrentPosition", "classMR_1_1SurfacePointWidget.html#a5980a161e1b97525ae45fb0326ec4c66", null ],
-    [ "updateCurrentPosition", "classMR_1_1SurfacePointWidget.html#ac080d1db3d7eb21da1f39961a3885346", null ]
+    [ "updateCurrentPosition", "classMR_1_1SurfacePointWidget.html#ac080d1db3d7eb21da1f39961a3885346", null ],
+    [ "updateParameters", "classMR_1_1SurfacePointWidget.html#a8d61ebacdd506518179659bb8b8c449b", null ]
 ];

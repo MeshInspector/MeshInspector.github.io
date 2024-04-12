@@ -8,6 +8,7 @@ var classMR_1_1Buffer =
     [ "Buffer", "classMR_1_1Buffer.html#ad14f8729b4b1bf29927db584ffb5b052", null ],
     [ "Buffer", "classMR_1_1Buffer.html#afcf3d90225b34639d9eb1017164d7c18", null ],
     [ "backId", "classMR_1_1Buffer.html#a0aae7e1ae916ef6da5cd9f342f93207c", null ],
+    [ "beginId", "classMR_1_1Buffer.html#a6fa2be8099e8b9ba78c8a4ca991103be", null ],
     [ "capacity", "classMR_1_1Buffer.html#af6b75ad9972a297c57f5ac949f0062ef", null ],
     [ "clear", "classMR_1_1Buffer.html#a2f01b559e5cafefd57bef4c73f59b669", null ],
     [ "data", "classMR_1_1Buffer.html#a41da905f71d8b9c53aa517dae7af261a", null ],

@@ -316,6 +316,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga9a6b64a85d116ca32c7ff8b93ca80da1" id="r_ga9a6b64a85d116ca32c7ff8b93ca80da1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9a6b64a85d116ca32c7ff8b93ca80da1">MR::systemToUtf8</a> (const std::string &amp;system)</td></tr>
 <tr class="memdesc:ga9a6b64a85d116ca32c7ff8b93ca80da1"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts system encoded string to UTF8-encoded string  <br /></td></tr>
 <tr class="separator:ga9a6b64a85d116ca32c7ff8b93ca80da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga01094b293542b9fcf1b2f084dbf799a9" id="r_ga01094b293542b9fcf1b2f084dbf799a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga01094b293542b9fcf1b2f084dbf799a9">MR::utf8ToSystem</a> (const std::string &amp;utf8)</td></tr>
+<tr class="separator:ga01094b293542b9fcf1b2f084dbf799a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga772133dc76f16920332b4b0074da394e" id="r_ga772133dc76f16920332b4b0074da394e"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga772133dc76f16920332b4b0074da394e">MR::asString</a> (const std::string &amp;s)</td></tr>
 <tr class="separator:ga772133dc76f16920332b4b0074da394e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga37f4340272986dcbde4f0fb5503a0912" id="r_ga37f4340272986dcbde4f0fb5503a0912"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga37f4340272986dcbde4f0fb5503a0912">MR::asU8String</a> (const std::string &amp;s)</td></tr>
@@ -2231,6 +2233,24 @@ template&lt;typename T , typename I , typename P &gt; </div>
 </div><div class="memdoc">
 
 <p>returns filename as UTF8-encoded string </p>
+
+</div>
+</div>
+<a id="ga01094b293542b9fcf1b2f084dbf799a9" name="ga01094b293542b9fcf1b2f084dbf799a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga01094b293542b9fcf1b2f084dbf799a9">&#9670;&#160;</a></span>utf8ToSystem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string MR::utf8ToSystem </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>utf8</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>converts UTF8-encoded string to system encoded string, returns empty string if such conversion cannot be made </p>
 
 </div>
 </div>

@@ -362,7 +362,7 @@ C++ Basic Examples</h1>
 <div class="line">    <span class="keywordtype">float</span> diagonal = meshFixed.getBoundingBox().diagonal();</div>
 <div class="line">    <span class="keywordtype">float</span> icpSamplingVoxelSize = diagonal * 0.01f; <span class="comment">// To sample points from object</span></div>
 <div class="line">    <a class="code hl_struct" href="structMR_1_1ICPProperties.html">MR::ICPProperties</a> icpParams;</div>
-<div class="line">    icpParams.<a class="code hl_variable" href="structMR_1_1ICPProperties.html#abf0d9a236c177005330098a88f909eb4">distTresholdSq</a> = <a class="code hl_function" href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">MR::sqr</a>( diagonal * 0.1f ); <span class="comment">// Use points pairs with maximum distance specified</span></div>
+<div class="line">    icpParams.<a class="code hl_variable" href="structMR_1_1ICPProperties.html#a43460c0d16c0f302226c8e09b6b98811">distThresholdSq</a> = <a class="code hl_function" href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">MR::sqr</a>( diagonal * 0.1f ); <span class="comment">// Use points pairs with maximum distance specified</span></div>
 <div class="line">    icpParams.exitVal = diagonal * 0.003f; <span class="comment">// Stop when distance reached</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Calculate transformation</span></div>
@@ -372,7 +372,6 @@ C++ Basic Examples</h1>
 <div class="line">        <a class="code hl_typedef" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">MR::AffineXf3f</a>(), <a class="code hl_typedef" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">MR::AffineXf3f</a>(),</div>
 <div class="line">        icpSamplingVoxelSize );</div>
 <div class="line">    icp.<a class="code hl_function" href="classMR_1_1ICP.html#a432cc96b69c08b035a5c6bf6bf8919da">setParams</a>( icpParams );</div>
-<div class="line">    icp.updateVertPairs();</div>
 <div class="line">    <a class="code hl_struct" href="structMR_1_1AffineXf.html">MR::AffineXf3f</a> xf = icp.calculateTransformation();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Transform floating mesh</span></div>
@@ -387,13 +386,13 @@ C++ Basic Examples</h1>
 <div class="line">}</div>
 <div class="ttc" id="aMRICP_8h_html"><div class="ttname"><a href="MRICP_8h.html">MRICP.h</a></div></div>
 <div class="ttc" id="aMRMeshFillHole_8h_html"><div class="ttname"><a href="MRMeshFillHole_8h.html">MRMeshFillHole.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1ICP_html"><div class="ttname"><a href="classMR_1_1ICP.html">MR::ICP</a></div><div class="ttdef"><b>Definition</b> MRICP.h:95</div></div>
-<div class="ttc" id="aclassMR_1_1ICP_html_a432cc96b69c08b035a5c6bf6bf8919da"><div class="ttname"><a href="classMR_1_1ICP.html#a432cc96b69c08b035a5c6bf6bf8919da">MR::ICP::setParams</a></div><div class="ttdeci">void setParams(const ICPProperties &amp;prop)</div><div class="ttdoc">tune algirithm params before run calculateTransformation()</div><div class="ttdef"><b>Definition</b> MRICP.h:108</div></div>
-<div class="ttc" id="aclassMR_1_1MeshOrPoints_html"><div class="ttname"><a href="classMR_1_1MeshOrPoints.html">MR::MeshOrPoints</a></div><div class="ttdef"><b>Definition</b> MRMeshOrPoints.h:15</div></div>
-<div class="ttc" id="anamespaceMR_html_a1bdf9f3c718616502649bc34a80ac976"><div class="ttname"><a href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">MR::sqr</a></div><div class="ttdeci">constexpr T sqr(T x) noexcept</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:512</div></div>
+<div class="ttc" id="aclassMR_1_1ICP_html"><div class="ttname"><a href="classMR_1_1ICP.html">MR::ICP</a></div><div class="ttdef"><b>Definition</b> MRICP.h:145</div></div>
+<div class="ttc" id="aclassMR_1_1ICP_html_a432cc96b69c08b035a5c6bf6bf8919da"><div class="ttname"><a href="classMR_1_1ICP.html#a432cc96b69c08b035a5c6bf6bf8919da">MR::ICP::setParams</a></div><div class="ttdeci">void setParams(const ICPProperties &amp;prop)</div><div class="ttdoc">tune algorithm params before run calculateTransformation()</div><div class="ttdef"><b>Definition</b> MRICP.h:167</div></div>
+<div class="ttc" id="aclassMR_1_1MeshOrPoints_html"><div class="ttname"><a href="classMR_1_1MeshOrPoints.html">MR::MeshOrPoints</a></div><div class="ttdef"><b>Definition</b> MRMeshOrPoints.h:17</div></div>
+<div class="ttc" id="anamespaceMR_html_a1bdf9f3c718616502649bc34a80ac976"><div class="ttname"><a href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">MR::sqr</a></div><div class="ttdeci">constexpr T sqr(T x) noexcept</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:513</div></div>
 <div class="ttc" id="anamespaceMR_html_a2573fd184ebe72f07725ac0f2f992994"><div class="ttname"><a href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">MR::AffineXf3f</a></div><div class="ttdeci">AffineXf3&lt; float &gt; AffineXf3f</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:178</div></div>
-<div class="ttc" id="astructMR_1_1ICPProperties_html"><div class="ttname"><a href="structMR_1_1ICPProperties.html">MR::ICPProperties</a></div><div class="ttdef"><b>Definition</b> MRICP.h:63</div></div>
-<div class="ttc" id="astructMR_1_1ICPProperties_html_abf0d9a236c177005330098a88f909eb4"><div class="ttname"><a href="structMR_1_1ICPProperties.html#abf0d9a236c177005330098a88f909eb4">MR::ICPProperties::distTresholdSq</a></div><div class="ttdeci">float distTresholdSq</div><div class="ttdef"><b>Definition</b> MRICP.h:73</div></div>
+<div class="ttc" id="astructMR_1_1ICPProperties_html"><div class="ttname"><a href="structMR_1_1ICPProperties.html">MR::ICPProperties</a></div><div class="ttdef"><b>Definition</b> MRICP.h:103</div></div>
+<div class="ttc" id="astructMR_1_1ICPProperties_html_a43460c0d16c0f302226c8e09b6b98811"><div class="ttname"><a href="structMR_1_1ICPProperties.html#a43460c0d16c0f302226c8e09b6b98811">MR::ICPProperties::distThresholdSq</a></div><div class="ttdeci">float distThresholdSq</div><div class="ttdoc">Points pair will be counted only if squared distance between points is lower than.</div><div class="ttdef"><b>Definition</b> MRICP.h:117</div></div>
 <div class="ttc" id="astructMR_1_1MeshPart_html"><div class="ttname"><a href="structMR_1_1MeshPart.html">MR::MeshPart</a></div><div class="ttdef"><b>Definition</b> MRMeshPart.h:11</div></div>
 </div><!-- fragment --><p>Example of filling holes</p>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&quot;</span></div>

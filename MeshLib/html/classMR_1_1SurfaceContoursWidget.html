@@ -157,12 +157,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afbb78b5db04c9cc56ac23b99e0d81a9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a790f3abb45ba38635f0e33cea92f17e0" id="r_a790f3abb45ba38635f0e33cea92f17e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a790f3abb45ba38635f0e33cea92f17e0">highlightLastPoint</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj)</td></tr>
 <tr class="separator:a790f3abb45ba38635f0e33cea92f17e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4e4286e5e08d2888259626c0afb1165" id="r_ae4e4286e5e08d2888259626c0afb1165"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4e4286e5e08d2888259626c0afb1165">updateAllPointsWidgetParams</a> (const <a class="el" href="structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html">SurfaceContoursWidgetParams</a> &amp;p)</td></tr>
-<tr class="separator:ae4e4286e5e08d2888259626c0afb1165"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab303266d49c88189bca8428347ada765" id="r_ab303266d49c88189bca8428347ada765"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::pair&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a> &gt;, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab303266d49c88189bca8428347ada765">getActivePoint</a> ()</td></tr>
-<tr class="separator:ab303266d49c88189bca8428347ada765"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c431d937f0bfefb8fb898b61dd6c099" id="r_a9c431d937f0bfefb8fb898b61dd6c099"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::pair&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a> &gt;, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c431d937f0bfefb8fb898b61dd6c099">getActivePoint</a> () const</td></tr>
+<tr class="separator:a9c431d937f0bfefb8fb898b61dd6c099"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61e38f7fa8bf8e5786f36691c5a5b218" id="r_a61e38f7fa8bf8e5786f36691c5a5b218"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61e38f7fa8bf8e5786f36691c5a5b218">setActivePoint</a> (std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a> &gt; obj, int index)</td></tr>
 <tr class="separator:a61e38f7fa8bf8e5786f36691c5a5b218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26dae9e0f33bd3584d3389e4483b5bc5" id="r_a26dae9e0f33bd3584d3389e4483b5bc5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::shared_ptr&lt; <a class="el" href="classMR_1_1SurfacePointWidget.html">SurfacePointWidget</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26dae9e0f33bd3584d3389e4483b5bc5">getActiveSurfacePoint</a> () const</td></tr>
+<tr class="memdesc:a26dae9e0f33bd3584d3389e4483b5bc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the active (the latest picked/moved) surface point widget.  <br /></td></tr>
+<tr class="separator:a26dae9e0f33bd3584d3389e4483b5bc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d9587049cfb6c78fa1a9ce9f28bb2b8" id="r_a6d9587049cfb6c78fa1a9ce9f28bb2b8"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d9587049cfb6c78fa1a9ce9f28bb2b8">appendPoint</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj, const <a class="el" href="namespaceMR.html#adf0c24ba1b9e4f32fd04264018065447">PickedPoint</a> &amp;triPoint)</td></tr>
 <tr class="separator:a6d9587049cfb6c78fa1a9ce9f28bb2b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8d692547325ba27bcae04c25a9802fb" id="r_ab8d692547325ba27bcae04c25a9802fb"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8d692547325ba27bcae04c25a9802fb">removePoint</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj, int pickedIndex)</td></tr>
@@ -357,8 +358,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="ab303266d49c88189bca8428347ada765" name="ab303266d49c88189bca8428347ada765"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab303266d49c88189bca8428347ada765">&#9670;&#160;</a></span>getActivePoint()</h2>
+<a id="a9c431d937f0bfefb8fb898b61dd6c099" name="a9c431d937f0bfefb8fb898b61dd6c099"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c431d937f0bfefb8fb898b61dd6c099">&#9670;&#160;</a></span>getActivePoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,10 +368,29 @@ Friends</h2></td></tr>
           <td class="memname">MRVIEWER_API std::pair&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a> &gt;, int &gt; MR::SurfaceContoursWidget::getActivePoint </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a26dae9e0f33bd3584d3389e4483b5bc5" name="a26dae9e0f33bd3584d3389e4483b5bc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26dae9e0f33bd3584d3389e4483b5bc5">&#9670;&#160;</a></span>getActiveSurfacePoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API std::shared_ptr&lt; <a class="el" href="classMR_1_1SurfacePointWidget.html">SurfacePointWidget</a> &gt; MR::SurfaceContoursWidget::getActiveSurfacePoint </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the active (the latest picked/moved) surface point widget. </p>
 
 </div>
 </div>
@@ -511,23 +531,6 @@ Friends</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae4e4286e5e08d2888259626c0afb1165" name="ae4e4286e5e08d2888259626c0afb1165"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4e4286e5e08d2888259626c0afb1165">&#9670;&#160;</a></span>updateAllPointsWidgetParams()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API void MR::SurfaceContoursWidget::updateAllPointsWidgetParams </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html">SurfaceContoursWidgetParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span></td><td>)</td>
-          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">

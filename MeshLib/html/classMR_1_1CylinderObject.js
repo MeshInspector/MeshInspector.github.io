@@ -8,6 +8,7 @@ var classMR_1_1CylinderObject =
     [ "clone", "classMR_1_1CylinderObject.html#a9be1f18971d98b7c6b59e4b442661d86", null ],
     [ "deserializeModel_", "classMR_1_1CylinderObject.html#a45c5707fcd11a5e6b630e0aff4713887", null ],
     [ "getAllSharedProperties", "classMR_1_1CylinderObject.html#a326ffd8733d424beefe54194841a3f47", null ],
+    [ "getBasePoint", "classMR_1_1CylinderObject.html#aa11a33a292eebe7910f992da9e93a089", null ],
     [ "getCenter", "classMR_1_1CylinderObject.html#a3fdd4655001b1d22f5989774d83ae027", null ],
     [ "getClassName", "classMR_1_1CylinderObject.html#afe9bf4751b857fb5f5b97a5a738bc9ed", null ],
     [ "getDirection", "classMR_1_1CylinderObject.html#a2dba06e23d8539b8de6999b5c7045bca", null ],

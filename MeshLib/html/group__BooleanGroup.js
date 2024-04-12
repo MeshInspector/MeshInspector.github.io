@@ -20,6 +20,10 @@ var group__BooleanGroup =
       [ "newFaces", "structMR_1_1BooleanResultMapper.html#a965145c8345c2af57bdd338b3fd038b4", null ],
       [ "maps", "structMR_1_1BooleanResultMapper.html#a3a2abc280314da83919063aff2e0490f", null ]
     ] ],
+    [ "MR::BooleanInternalParameters", "structMR_1_1BooleanInternalParameters.html", [
+      [ "originalMeshA", "structMR_1_1BooleanInternalParameters.html#a2733395f91f3ed00b0e61ccae13ce37d", null ],
+      [ "originalMeshB", "structMR_1_1BooleanInternalParameters.html#a9564c4edb40ecc90fa59bfc7a9342bc5", null ]
+    ] ],
     [ "MR::CutMeshParameters", "structMR_1_1CutMeshParameters.html", [
       [ "ForceFill", "structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33", [
         [ "None", "structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33a6adf97f83acf6453d4a6a4b1070f3754", null ],
@@ -65,6 +69,6 @@ var group__BooleanGroup =
     [ "MR::convertSurfacePathWithEndsToMeshContour", "group__BooleanGroup.html#ga4415eacd7a732188919def7411ee0245", null ],
     [ "MR::cutMesh", "group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc", null ],
     [ "MR::cutMeshWithPlane", "group__BooleanGroup.html#gae70921f8b670333f08291597996a1dbf", null ],
-    [ "MR::doBooleanOperation", "group__BooleanGroup.html#ga54f21ebce684e7402eda1e881a7971dc", null ],
+    [ "MR::doBooleanOperation", "group__BooleanGroup.html#ga6a967ba519035f9e9cfe2c79badf3880", null ],
     [ "MR::getBooleanPoints", "group__BooleanGroup.html#gabcddc5448fa2c146bca47925a093d3c2", null ]
 ];

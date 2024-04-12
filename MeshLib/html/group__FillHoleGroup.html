@@ -123,8 +123,8 @@ Structure has some options to control <a class="el" href="#gaa096c69aa6c5cf97a78
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleItem.html">MR::FillHoleItem</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHolePlan.html">MR::FillHolePlan</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">concise representation of proposed hole triangulation  <a href="structMR_1_1FillHolePlan.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1HoleFillPlan.html">MR::HoleFillPlan</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">concise representation of proposed hole triangulation  <a href="structMR_1_1HoleFillPlan.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleMetric.html">MR::FillHoleMetric</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds metrics for fillHole and buildCylinderBetweenTwoHoles triangulation<br  />
@@ -153,14 +153,15 @@ Functions</h2></td></tr>
 <tr class="memdesc:gac972786878ec37756f5a95814b657a05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills hole in mesh<br  />
 .  <br /></td></tr>
 <tr class="separator:gac972786878ec37756f5a95814b657a05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab7ae6ca67613ed60f65489d77e288d61" id="r_gab7ae6ca67613ed60f65489d77e288d61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1FillHolePlan.html">FillHolePlan</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab7ae6ca67613ed60f65489d77e288d61">MR::getFillHolePlan</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> a0, const <a class="el" href="structMR_1_1FillHoleParams.html">FillHoleParams</a> &amp;params={})</td></tr>
-<tr class="memdesc:gab7ae6ca67613ed60f65489d77e288d61"><td class="mdescLeft">&#160;</td><td class="mdescRight">similar to fillHole function, but only gets the plan how to fill given hole, not filling it immediately  <br /></td></tr>
-<tr class="separator:gab7ae6ca67613ed60f65489d77e288d61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeb85fd620b295d0f3179fd85b78c5480" id="r_gaeb85fd620b295d0f3179fd85b78c5480"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeb85fd620b295d0f3179fd85b78c5480">MR::executeFillHolePlan</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> a0, <a class="el" href="structMR_1_1FillHolePlan.html">FillHolePlan</a> &amp;plan, <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *outNewFaces=nullptr)</td></tr>
-<tr class="memdesc:gaeb85fd620b295d0f3179fd85b78c5480"><td class="mdescLeft">&#160;</td><td class="mdescRight">quickly fills the hole given the plan (quickly compared to fillHole function)  <br /></td></tr>
-<tr class="separator:gaeb85fd620b295d0f3179fd85b78c5480"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa3256109cd439a9801f179661c65c7e6" id="r_gaa3256109cd439a9801f179661c65c7e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa3256109cd439a9801f179661c65c7e6">MR::getHoleFillPlan</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> e, const <a class="el" href="structMR_1_1FillHoleParams.html">FillHoleParams</a> &amp;params={})</td></tr>
+<tr class="separator:gaa3256109cd439a9801f179661c65c7e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1dbbac5f3d5dfdebbb1790578aed11d8" id="r_ga1dbbac5f3d5dfdebbb1790578aed11d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1dbbac5f3d5dfdebbb1790578aed11d8">MR::getPlanarHoleFillPlan</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> e)</td></tr>
+<tr class="separator:ga1dbbac5f3d5dfdebbb1790578aed11d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac65388f63712128d8af8e1b81054f779" id="r_gac65388f63712128d8af8e1b81054f779"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac65388f63712128d8af8e1b81054f779">MR::executeHoleFillPlan</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> a0, <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &amp;plan, <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *outNewFaces=nullptr)</td></tr>
+<tr class="memdesc:gac65388f63712128d8af8e1b81054f779"><td class="mdescLeft">&#160;</td><td class="mdescRight">quickly triangulates the face or hole to the left of (e) given the plan (quickly compared to fillHole function)  <br /></td></tr>
+<tr class="separator:gac65388f63712128d8af8e1b81054f779"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0241a36cc2b1016fd0cf66e9ae71f722" id="r_ga0241a36cc2b1016fd0cf66e9ae71f722"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0241a36cc2b1016fd0cf66e9ae71f722">MR::fillHoleTrivially</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> a, <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *outNewFaces=nullptr)</td></tr>
-<tr class="memdesc:ga0241a36cc2b1016fd0cf66e9ae71f722"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills hole in mesh trivially<br  />
+<tr class="memdesc:ga0241a36cc2b1016fd0cf66e9ae71f722"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triangulates face of hole in mesh trivially<br  />
 .  <br /></td></tr>
 <tr class="separator:ga0241a36cc2b1016fd0cf66e9ae71f722"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3c7779fd4cc2d941f67da4462b2d0121" id="r_ga3c7779fd4cc2d941f67da4462b2d0121"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3c7779fd4cc2d941f67da4462b2d0121">MR::extendHole</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> a, const <a class="el" href="namespaceMR.html#a5a893f852b28b9aff90ac42cbcc2ab48">Plane3f</a> &amp;plane, <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *outNewFaces=nullptr)</td></tr>
@@ -407,14 +408,14 @@ Stitch with smooth</div></div>
 
 </div>
 </div>
-<a id="gaeb85fd620b295d0f3179fd85b78c5480" name="gaeb85fd620b295d0f3179fd85b78c5480"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaeb85fd620b295d0f3179fd85b78c5480">&#9670;&#160;</a></span>executeFillHolePlan()</h2>
+<a id="gac65388f63712128d8af8e1b81054f779" name="gac65388f63712128d8af8e1b81054f779"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac65388f63712128d8af8e1b81054f779">&#9670;&#160;</a></span>executeHoleFillPlan()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::executeFillHolePlan </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::executeHoleFillPlan </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em>, </span></td>
         </tr>
@@ -426,7 +427,7 @@ Stitch with smooth</div></div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1FillHolePlan.html">FillHolePlan</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>plan</em>, </span></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>plan</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -436,7 +437,7 @@ Stitch with smooth</div></div>
       </table>
 </div><div class="memdoc">
 
-<p>quickly fills the hole given the plan (quickly compared to fillHole function) </p>
+<p>quickly triangulates the face or hole to the left of (e) given the plan (quickly compared to fillHole function) </p>
 
 </div>
 </div>
@@ -585,7 +586,7 @@ Fill with smooth</div></div>
       </table>
 </div><div class="memdoc">
 
-<p>Fills hole in mesh trivially<br  />
+<p>Triangulates face of hole in mesh trivially<br  />
 . </p>
 <p>Fills given hole represented by one of its edges (having no valid left face)<br  />
 by creating one new vertex in the centroid of boundary vertices and connecting new vertex with all boundary vertices.</p>
@@ -604,7 +605,7 @@ Trivial fill with smooth</div></div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mesh</td><td>mesh with hole </td></tr>
-    <tr><td class="paramname">a</td><td>EdgeId which represents hole </td></tr>
+    <tr><td class="paramname">a</td><td>EdgeId points on the face or hole to the left that will be triangulated </td></tr>
     <tr><td class="paramname">outNewFaces</td><td>optional output newly generated faces </td></tr>
   </table>
   </dd>
@@ -716,21 +717,21 @@ Simple metric minimizing edge length </p>
 
 </div>
 </div>
-<a id="gab7ae6ca67613ed60f65489d77e288d61" name="gab7ae6ca67613ed60f65489d77e288d61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab7ae6ca67613ed60f65489d77e288d61">&#9670;&#160;</a></span>getFillHolePlan()</h2>
+<a id="gaa3256109cd439a9801f179661c65c7e6" name="gaa3256109cd439a9801f179661c65c7e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa3256109cd439a9801f179661c65c7e6">&#9670;&#160;</a></span>getHoleFillPlan()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1FillHolePlan.html">FillHolePlan</a> MR::getFillHolePlan </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> MR::getHoleFillPlan </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>a0</em>, </span></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -739,8 +740,7 @@ Simple metric minimizing edge length </p>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>similar to fillHole function, but only gets the plan how to fill given hole, not filling it immediately </p>
+<p>prepares the plan how to triangulate the face or hole to the left of (e) (not filling it immediately), several getHoleFillPlan can work in parallel </p>
 
 </div>
 </div>
@@ -824,6 +824,28 @@ Simple metric minimizing edge length </p>
 </div><div class="memdoc">
 
 <p>This metric minimizes summary projection of new edges to plane normal, (try do produce edges parallel to plane) </p>
+
+</div>
+</div>
+<a id="ga1dbbac5f3d5dfdebbb1790578aed11d8" name="ga1dbbac5f3d5dfdebbb1790578aed11d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1dbbac5f3d5dfdebbb1790578aed11d8">&#9670;&#160;</a></span>getPlanarHoleFillPlan()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> MR::getPlanarHoleFillPlan </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>prepares the plan how to triangulate the planar face or planar hole to the left of (e) (not filling it immediately), several getPlanarHoleFillPlan can work in parallel </p>
 
 </div>
 </div>

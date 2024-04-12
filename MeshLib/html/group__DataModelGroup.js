@@ -200,7 +200,7 @@ var group__DataModelGroup =
       [ "setBackgroundPadding", "classMR_1_1ObjectLabel.html#abc50d3f4b1856466fd90358754c25bb3", null ],
       [ "setContourColor", "classMR_1_1ObjectLabel.html#ac8b8e431b122c1f14baf1281f3e4496a", null ],
       [ "setContourColorsForAllViewports", "classMR_1_1ObjectLabel.html#af69ee4f81347cb10a28305202f532b9d", null ],
-      [ "setFontHeight", "classMR_1_1ObjectLabel.html#a13a7e95f277fc6708a28fd442871f9f3", null ],
+      [ "setFontHeight", "classMR_1_1ObjectLabel.html#a84e86dddb4dfd1f23196e105b1e36f09", null ],
       [ "setFontPath", "classMR_1_1ObjectLabel.html#a069e7c9db47b15c874f479344b1aa2cc", null ],
       [ "setLabel", "classMR_1_1ObjectLabel.html#ab7b45e4eff95dff9e2353c709a593059", null ],
       [ "setLeaderLineColor", "classMR_1_1ObjectLabel.html#ad627eadd271d8babb161a14666110726", null ],

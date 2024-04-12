@@ -26,6 +26,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRImGuiMeasurementIndicators.h", "MRImGuiMeasurementIndicators_8h.html", "MRImGuiMeasurementIndicators_8h" ],
     [ "MRImGuiVectorOperators.h", "MRImGuiVectorOperators_8h.html", "MRImGuiVectorOperators_8h" ],
     [ "MRISceneStateCheck.h", "MRISceneStateCheck_8h.html", "MRISceneStateCheck_8h" ],
+    [ "MRLambdaRibbonItem.h", "MRLambdaRibbonItem_8h.html", "MRLambdaRibbonItem_8h" ],
     [ "MRLinesShader.h", "MRLinesShader_8h.html", "MRLinesShader_8h" ],
     [ "MRMenu.h", "MRMenu_8h.html", "MRMenu_8h" ],
     [ "MRMeshBoundarySelectionWidget.h", "MRMeshBoundarySelectionWidget_8h.html", "MRMeshBoundarySelectionWidget_8h" ],
@@ -44,7 +45,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRProgressBar.h", "MRProgressBar_8h.html", "MRProgressBar_8h" ],
     [ "MRPythonAppendCommand.h", "MRPythonAppendCommand_8h.html", "MRPythonAppendCommand_8h" ],
     [ "MRRecentFilesStore.h", "MRRecentFilesStore_8h.html", "MRRecentFilesStore_8h" ],
-    [ "MRRenderDefaultUiObject.h", "MRRenderDefaultUiObject_8h.html", "MRRenderDefaultUiObject_8h" ],
+    [ "MRRenderDefaultObjects.h", "MRRenderDefaultObjects_8h.html", "MRRenderDefaultObjects_8h" ],
     [ "MRRenderDimensions.h", "MRRenderDimensions_8h.html", "MRRenderDimensions_8h" ],
     [ "MRRenderFeatureObjects.h", "MRRenderFeatureObjects_8h.html", "MRRenderFeatureObjects_8h" ],
     [ "MRRenderGLHelpers.h", "MRRenderGLHelpers_8h.html", "MRRenderGLHelpers_8h" ],
@@ -96,6 +97,8 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRTouchpadParameters.h", "MRTouchpadParameters_8h.html", "MRTouchpadParameters_8h" ],
     [ "MRTouchpadWin32Handler.h", "MRTouchpadWin32Handler_8h.html", null ],
     [ "MRUIStyle.h", "MRUIStyle_8h.html", "MRUIStyle_8h" ],
+    [ "MRUnits.h", "MRUnits_8h.html", "MRUnits_8h" ],
+    [ "MRVectorTraits.h", "MRViewer_2MRVectorTraits_8h.html", "MRViewer_2MRVectorTraits_8h" ],
     [ "MRViewer.h", "MRViewer_8h.html", "MRViewer_8h" ],
     [ "MRViewerEventQueue.h", "MRViewerEventQueue_8h.html", "MRViewerEventQueue_8h" ],
     [ "MRViewerEventsListener.h", "MRViewerEventsListener_8h.html", "MRViewerEventsListener_8h" ],
@@ -107,6 +110,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRViewport.h", "MRViewport_8h.html", "MRViewport_8h" ],
     [ "MRViewportGL.h", "MRViewportGL_8h.html", "MRViewportGL_8h" ],
     [ "MRViewportParametersAction.h", "MRViewportParametersAction_8h.html", null ],
+    [ "MRVisualSubfeatures.h", "MRVisualSubfeatures_8h.html", "MRVisualSubfeatures_8h" ],
     [ "MRVolumeShader.h", "MRVolumeShader_8h.html", "MRVolumeShader_8h" ],
     [ "MRWebRequest.h", "MRWebRequest_8h.html", "MRWebRequest_8h" ]
 ];

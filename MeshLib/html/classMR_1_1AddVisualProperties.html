@@ -129,8 +129,6 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:aba43921eea891e1d9520e3ea57d84993" id="r_aba43921eea891e1d9520e3ea57d84993"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba43921eea891e1d9520e3ea57d84993">AddVisualProperties</a> ()</td></tr>
-<tr class="separator:aba43921eea891e1d9520e3ea57d84993"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a099d73dfec242eced929d4f4705c90fd" id="r_a099d73dfec242eced929d4f4705c90fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a099d73dfec242eced929d4f4705c90fd">setAllVisualizeProperties_</a> (const <a class="el" href="group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f">AllVisualizeProperties</a> &amp;properties, std::size_t &amp;pos) override</td></tr>
 <tr class="separator:a099d73dfec242eced929d4f4705c90fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -139,34 +137,6 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a534fe1b7809ccb50abd437a88b6c1412" id="r_a534fe1b7809ccb50abd437a88b6c1412"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a>, sizeof...(Properties)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a534fe1b7809ccb50abd437a88b6c1412">propertyMasks_</a></td></tr>
 <tr class="separator:a534fe1b7809ccb50abd437a88b6c1412"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aba43921eea891e1d9520e3ea57d84993" name="aba43921eea891e1d9520e3ea57d84993"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba43921eea891e1d9520e3ea57d84993">&#9670;&#160;</a></span>AddVisualProperties()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename BaseObjectType , auto ... Properties&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1AddVisualProperties.html">MR::AddVisualProperties</a>&lt; BaseObjectType, Properties &gt;::AddVisualProperties </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a7fc99037212a4beaeec730ca98373554" name="a7fc99037212a4beaeec730ca98373554"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7fc99037212a4beaeec730ca98373554">&#9670;&#160;</a></span>getAllVisualizeProperties()</h2>
@@ -302,7 +272,13 @@ template&lt;typename BaseObjectType , auto ... Properties&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= []{</div>
+<div class="line">        std::array&lt;ViewportMask, <span class="keyword">sizeof</span>...(Properties)&gt; ret;</div>
+<div class="line">        ret.fill( <a class="code hl_function" href="classMR_1_1ViewportMask.html#a46b7527f0e3a3394b41be2515c171747">ViewportMask::all</a>() );</div>
+<div class="line">        <span class="keywordflow">return</span> ret;</div>
+<div class="line">    }()</div>
+<div class="ttc" id="aclassMR_1_1ViewportMask_html_a46b7527f0e3a3394b41be2515c171747"><div class="ttname"><a href="classMR_1_1ViewportMask.html#a46b7527f0e3a3394b41be2515c171747">MR::ViewportMask::all</a></div><div class="ttdeci">static ViewportMask all()</div><div class="ttdoc">mask meaning all or any viewports</div><div class="ttdef"><b>Definition</b> MRViewportId.h:45</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

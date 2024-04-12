@@ -23,7 +23,6 @@ var MRRibbonConstants_8h =
     [ "cModalWindowPaddingX", "MRRibbonConstants_8h.html#a01fdaef48cbd3fbf6ece5c4e0b288dbe", null ],
     [ "cModalWindowPaddingY", "MRRibbonConstants_8h.html#a53f35f62e69998bf7994a89743f1110d", null ],
     [ "cModalWindowWidth", "MRRibbonConstants_8h.html#a8ce41bfb43ceb1601bea2736f4006100", null ],
-    [ "cPaletteDiscretizationScaling", "MRRibbonConstants_8h.html#af0077684be5ee0912d20ee7b7d775d53", null ],
     [ "cQuickAccessBarHeight", "MRRibbonConstants_8h.html#a11cefc41d465d94791aaa0484ecde389", null ],
     [ "cRadioButtonSize", "MRRibbonConstants_8h.html#a5e91f2b6e23986c1b6506a29afbc961c", null ],
     [ "cRadioInnerSpacingX", "MRRibbonConstants_8h.html#afe49e137af70c8aaef17a39366b4bd32", null ],

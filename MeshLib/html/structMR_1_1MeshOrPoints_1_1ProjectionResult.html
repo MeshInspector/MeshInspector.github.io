@@ -111,19 +111,35 @@ $(function(){initNavTree('structMR_1_1MeshOrPoints_1_1ProjectionResult.html','')
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a975a5de8766c9ee7093fa82c4620f049" id="r_a975a5de8766c9ee7093fa82c4620f049"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a975a5de8766c9ee7093fa82c4620f049">point</a></td></tr>
-<tr class="memdesc:a975a5de8766c9ee7093fa82c4620f049"><td class="mdescLeft">&#160;</td><td class="mdescRight">found projection point  <br /></td></tr>
+<tr class="memdesc:a975a5de8766c9ee7093fa82c4620f049"><td class="mdescLeft">&#160;</td><td class="mdescRight">found closest point  <br /></td></tr>
 <tr class="separator:a975a5de8766c9ee7093fa82c4620f049"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1da43d795c49a78d26d63c9f1f90bdae" id="r_a1da43d795c49a78d26d63c9f1f90bdae"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1da43d795c49a78d26d63c9f1f90bdae">normal</a></td></tr>
-<tr class="memdesc:a1da43d795c49a78d26d63c9f1f90bdae"><td class="mdescLeft">&#160;</td><td class="mdescRight">normal at projection point  <br /></td></tr>
 <tr class="separator:a1da43d795c49a78d26d63c9f1f90bdae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1e15a8f200cad28d7b9d7c56757eee4" id="r_ac1e15a8f200cad28d7b9d7c56757eee4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1e15a8f200cad28d7b9d7c56757eee4">isBd</a> = false</td></tr>
-<tr class="memdesc:ac1e15a8f200cad28d7b9d7c56757eee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">can be true only for meshes, if projection point is located on the boundary  <br /></td></tr>
+<tr class="memdesc:ac1e15a8f200cad28d7b9d7c56757eee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">can be true only for meshes, if the closest point is located on the boundary  <br /></td></tr>
 <tr class="separator:ac1e15a8f200cad28d7b9d7c56757eee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab04e26fe4503fb08898aaeccad548f71" id="r_ab04e26fe4503fb08898aaeccad548f71"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab04e26fe4503fb08898aaeccad548f71">distSq</a> = 0</td></tr>
-<tr class="memdesc:ab04e26fe4503fb08898aaeccad548f71"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared distance from query point to projection point  <br /></td></tr>
+<tr class="memitem:ab04e26fe4503fb08898aaeccad548f71" id="r_ab04e26fe4503fb08898aaeccad548f71"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab04e26fe4503fb08898aaeccad548f71">distSq</a> = FLT_MAX</td></tr>
+<tr class="memdesc:ab04e26fe4503fb08898aaeccad548f71"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared distance from query point to the closest point  <br /></td></tr>
 <tr class="separator:ab04e26fe4503fb08898aaeccad548f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd151f3c2558f8dc870aa2172d32a00e" id="r_acd151f3c2558f8dc870aa2172d32a00e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd151f3c2558f8dc870aa2172d32a00e">closestVert</a></td></tr>
+<tr class="separator:acd151f3c2558f8dc870aa2172d32a00e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="acd151f3c2558f8dc870aa2172d32a00e" name="acd151f3c2558f8dc870aa2172d32a00e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd151f3c2558f8dc870aa2172d32a00e">&#9670;&#160;</a></span>closestVert</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> MR::MeshOrPoints::ProjectionResult::closestVert</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>for point clouds it is the closest vertex, for meshes it is the closest vertex of the triangle with the closest point </p>
+
+</div>
+</div>
 <a id="ab04e26fe4503fb08898aaeccad548f71" name="ab04e26fe4503fb08898aaeccad548f71"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab04e26fe4503fb08898aaeccad548f71">&#9670;&#160;</a></span>distSq</h2>
 
@@ -131,12 +147,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float MR::MeshOrPoints::ProjectionResult::distSq = 0</td>
+          <td class="memname">float MR::MeshOrPoints::ProjectionResult::distSq = FLT_MAX</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>squared distance from query point to projection point </p>
+<p>squared distance from query point to the closest point </p>
 
 </div>
 </div>
@@ -152,7 +168,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>can be true only for meshes, if projection point is located on the boundary </p>
+<p>can be true only for meshes, if the closest point is located on the boundary </p>
 
 </div>
 </div>
@@ -167,8 +183,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>normal at projection point </p>
+<p>normal at the closest point; for meshes it will be pseudonormal with the differentiation depending on closest point location (face/edge/vertex) </p>
 
 </div>
 </div>
@@ -184,7 +199,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>found projection point </p>
+<p>found closest point </p>
 
 </div>
 </div>

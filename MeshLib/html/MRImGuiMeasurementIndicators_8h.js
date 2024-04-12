@@ -24,5 +24,5 @@ var MRImGuiMeasurementIndicators_8h =
     [ "distance", "MRImGuiMeasurementIndicators_8h.html#ac2552860465fff80ce74a099710e84c6", null ],
     [ "line", "MRImGuiMeasurementIndicators_8h.html#a6029334be476b361570837d6592b4272", null ],
     [ "prepareCurve", "MRImGuiMeasurementIndicators_8h.html#aa8511657c2ed1cc63ff209a6ede1c0f9", null ],
-    [ "text", "MRImGuiMeasurementIndicators_8h.html#aa7d5e1a85702fd6508ce899c082b8546", null ]
+    [ "text", "MRImGuiMeasurementIndicators_8h.html#a332cd23bae44470d3c2076a7d5a5d0ef", null ]
 ];

@@ -116,6 +116,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BooleanResultMapper.html">MR::BooleanResultMapper</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure to map old mesh BitSets to new.  <a href="structMR_1_1BooleanResultMapper.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BooleanInternalParameters.html">MR::BooleanInternalParameters</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters will be useful if specified.  <a href="structMR_1_1BooleanInternalParameters.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters of <a class="el" href="#gafb1acfb7ea34c1828a3f0e9b415c6dcc" title="Cuts mesh by given contours.">MR::cutMesh</a>.  <a href="structMR_1_1CutMeshParameters.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -151,8 +154,8 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga54f21ebce684e7402eda1e881a7971dc" id="r_ga54f21ebce684e7402eda1e881a7971dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga54f21ebce684e7402eda1e881a7971dc">MR::doBooleanOperation</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;meshACut, <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;meshBCut, const std::vector&lt; <a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;cutEdgesA, const std::vector&lt; <a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;cutEdgesB, <a class="el" href="#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> operation, const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> *rigidB2A=nullptr, <a class="el" href="structMR_1_1BooleanResultMapper.html">BooleanResultMapper</a> *mapper=nullptr, bool mergeAllNonIntersectingComponents=false)</td></tr>
-<tr class="separator:ga54f21ebce684e7402eda1e881a7971dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6a967ba519035f9e9cfe2c79badf3880" id="r_ga6a967ba519035f9e9cfe2c79badf3880"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6a967ba519035f9e9cfe2c79badf3880">MR::doBooleanOperation</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;meshACut, <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;meshBCut, const std::vector&lt; <a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;cutEdgesA, const std::vector&lt; <a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;cutEdgesB, <a class="el" href="#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> operation, const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> *rigidB2A=nullptr, <a class="el" href="structMR_1_1BooleanResultMapper.html">BooleanResultMapper</a> *mapper=nullptr, bool mergeAllNonIntersectingComponents=false, const <a class="el" href="structMR_1_1BooleanInternalParameters.html">BooleanInternalParameters</a> &amp;intParams={})</td></tr>
+<tr class="separator:ga6a967ba519035f9e9cfe2c79badf3880"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga75a5ecaa0b71ec23ac7d519651848ee9" id="r_ga75a5ecaa0b71ec23ac7d519651848ee9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a>, <a class="el" href="group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga75a5ecaa0b71ec23ac7d519651848ee9">MR::convertMeshTriPointsToMeshContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt; &amp;meshTriPoints, <a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings={}, std::vector&lt; int &gt; *pivotIndices=nullptr)</td></tr>
 <tr class="memdesc:ga75a5ecaa0b71ec23ac7d519651848ee9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour.  <br /></td></tr>
 <tr class="separator:ga75a5ecaa0b71ec23ac7d519651848ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -547,8 +550,8 @@ so if you cannot guarantee contours without intersections better make copy of me
 
 </div>
 </div>
-<a id="ga54f21ebce684e7402eda1e881a7971dc" name="ga54f21ebce684e7402eda1e881a7971dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga54f21ebce684e7402eda1e881a7971dc">&#9670;&#160;</a></span>doBooleanOperation()</h2>
+<a id="ga6a967ba519035f9e9cfe2c79badf3880" name="ga6a967ba519035f9e9cfe2c79badf3880"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6a967ba519035f9e9cfe2c79badf3880">&#9670;&#160;</a></span>doBooleanOperation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -591,7 +594,12 @@ so if you cannot guarantee contours without intersections better make copy of me
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>mergeAllNonIntersectingComponents</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>mergeAllNonIntersectingComponents</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1BooleanInternalParameters.html">BooleanInternalParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>intParams</em><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

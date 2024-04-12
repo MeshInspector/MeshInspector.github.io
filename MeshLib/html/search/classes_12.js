@@ -38,9 +38,10 @@ var searchData=
   ['triangulationparameters_35',['TriangulationParameters',['../structMR_1_1TriangulationParameters.html',1,'MR']]],
   ['tricornercolors_36',['TriCornerColors',['../structMR_1_1Viewport_1_1TriCornerColors.html',1,'MR::Viewport']]],
   ['triintersectresult_37',['TriIntersectResult',['../structMR_1_1TriIntersectResult.html',1,'MR']]],
-  ['trimoptionaloutput_38',['TrimOptionalOutput',['../structMR_1_1TrimOptionalOutput.html',1,'MR']]],
-  ['trimwithplaneparams_39',['TrimWithPlaneParams',['../structMR_1_1TrimWithPlaneParams.html',1,'MR']]],
-  ['tripoint_40',['TriPoint',['../structMR_1_1TriPoint.html',1,'MR']]],
-  ['tripoint_3c_20float_20_3e_41',['TriPoint&lt; float &gt;',['../structMR_1_1TriPoint.html',1,'MR']]],
-  ['trivialmetrictopenalty_42',['TrivialMetricToPenalty',['../structMR_1_1TrivialMetricToPenalty.html',1,'MR']]]
+  ['trimesh_38',['TriMesh',['../structMR_1_1TriMesh.html',1,'MR']]],
+  ['trimoptionaloutput_39',['TrimOptionalOutput',['../structMR_1_1TrimOptionalOutput.html',1,'MR']]],
+  ['trimwithplaneparams_40',['TrimWithPlaneParams',['../structMR_1_1TrimWithPlaneParams.html',1,'MR']]],
+  ['tripoint_41',['TriPoint',['../structMR_1_1TriPoint.html',1,'MR']]],
+  ['tripoint_3c_20float_20_3e_42',['TriPoint&lt; float &gt;',['../structMR_1_1TriPoint.html',1,'MR']]],
+  ['trivialmetrictopenalty_43',['TrivialMetricToPenalty',['../structMR_1_1TrivialMetricToPenalty.html',1,'MR']]]
 ];

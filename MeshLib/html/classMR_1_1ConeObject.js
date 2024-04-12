@@ -9,6 +9,7 @@ var classMR_1_1ConeObject =
     [ "deserializeModel_", "classMR_1_1ConeObject.html#ac7ef3ab568097ed8ae09a1bf06a914bf", null ],
     [ "getAllSharedProperties", "classMR_1_1ConeObject.html#a9f478343ae57720fcf7c3c78f01011c4", null ],
     [ "getAngle", "classMR_1_1ConeObject.html#aee0cce82eb8d15e883bf0d50eaecfd27", null ],
+    [ "getBasePoint", "classMR_1_1ConeObject.html#a03cbbb3c2194467c85bf870c09f08e72", null ],
     [ "getBaseRadius", "classMR_1_1ConeObject.html#a9f25917be502efa8afcdeb227140fb42", null ],
     [ "getCenter", "classMR_1_1ConeObject.html#a9ee28bed15c74a1c10cb9c6db8ba8b19", null ],
     [ "getClassName", "classMR_1_1ConeObject.html#a82f1b0c5bd664374800d525c2e276851", null ],
