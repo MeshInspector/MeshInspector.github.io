@@ -128,6 +128,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a6852271fa1efbc4da52e0fb5b851810f" id="r_a6852271fa1efbc4da52e0fb5b851810f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6852271fa1efbc4da52e0fb5b851810f">guideWeight</a> = 1</td></tr>
 <tr class="memdesc:a6852271fa1efbc4da52e0fb5b851810f"><td class="mdescLeft">&#160;</td><td class="mdescRight">how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0  <br /></td></tr>
 <tr class="separator:a6852271fa1efbc4da52e0fb5b851810f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefcab784c5b10d3504130c0306359d5d" id="r_aefcab784c5b10d3504130c0306359d5d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefcab784c5b10d3504130c0306359d5d">limitNearInitial</a> = false</td></tr>
+<tr class="memdesc:aefcab784c5b10d3504130c0306359d5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true then maximal displacement of each point during denoising will be limited  <br /></td></tr>
+<tr class="separator:aefcab784c5b10d3504130c0306359d5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab298fec8f17af7398ab708ce69c2af2d" id="r_ab298fec8f17af7398ab708ce69c2af2d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab298fec8f17af7398ab708ce69c2af2d">maxInitialDist</a> = 0</td></tr>
+<tr class="memdesc:ab298fec8f17af7398ab708ce69c2af2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false  <br /></td></tr>
+<tr class="separator:ab298fec8f17af7398ab708ce69c2af2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7f7b82ea225f8e0f9a358b607d7fead" id="r_ad7f7b82ea225f8e0f9a358b607d7fead"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a05c056a16a495042d91fdfbe5f0ad642">UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7f7b82ea225f8e0f9a358b607d7fead">outCreases</a> = nullptr</td></tr>
 <tr class="memdesc:ad7f7b82ea225f8e0f9a358b607d7fead"><td class="mdescLeft">&#160;</td><td class="mdescRight">optionally returns creases found during smoothing  <br /></td></tr>
 <tr class="separator:ad7f7b82ea225f8e0f9a358b607d7fead"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -213,6 +219,38 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 </p>
+
+</div>
+</div>
+<a id="aefcab784c5b10d3504130c0306359d5d" name="aefcab784c5b10d3504130c0306359d5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefcab784c5b10d3504130c0306359d5d">&#9670;&#160;</a></span>limitNearInitial</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::DenoiseViaNormalsSettings::limitNearInitial = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if true then maximal displacement of each point during denoising will be limited </p>
+
+</div>
+</div>
+<a id="ab298fec8f17af7398ab708ce69c2af2d" name="ab298fec8f17af7398ab708ce69c2af2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab298fec8f17af7398ab708ce69c2af2d">&#9670;&#160;</a></span>maxInitialDist</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::DenoiseViaNormalsSettings::maxInitialDist = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false </p>
 
 </div>
 </div>

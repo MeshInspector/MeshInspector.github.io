@@ -193,8 +193,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3472ea651ff49eb28607454440d5b1d0" id="r_a3472ea651ff49eb28607454440d5b1d0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1ModelRenderParams.html">ModelRenderParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3472ea651ff49eb28607454440d5b1d0">getModelRenderParams</a> (const <a class="el" href="namespaceMR.html#a3962dc8122a6a28ff702726318555f6f">Matrix4f</a> &amp;modelM, const <a class="el" href="namespaceMR.html#a3962dc8122a6a28ff702726318555f6f">Matrix4f</a> &amp;projM, <a class="el" href="namespaceMR.html#a3962dc8122a6a28ff702726318555f6f">Matrix4f</a> *normM, <a class="el" href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93">DepthFunction</a> depthFunc=<a class="el" href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67">DepthFunction::Default</a>, <a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ce">RenderModelPassMask</a> pass=<a class="el" href="namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680">RenderModelPassMask::All</a>, bool allowAlphaSort=false) const</td></tr>
 <tr class="memdesc:a3472ea651ff49eb28607454440d5b1d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares rendering parameters to draw a model with given transformation in this viewport with custom projection matrix.  <br /></td></tr>
 <tr class="separator:a3472ea651ff49eb28607454440d5b1d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b0b0db6f890ec2d1022b714efd343c1" id="r_a6b0b0db6f890ec2d1022b714efd343c1"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="MRViewport_8h.html#af3c0d5e71a46bda98d8fd895def98a22">ObjAndPick</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b0b0db6f890ec2d1022b714efd343c1">pickRenderObject</a> (const <a class="el" href="structMR_1_1Viewport_1_1PickRenderObjectParams.html">PickRenderObjectParams</a> &amp;params=<a class="el" href="structMR_1_1Viewport_1_1PickRenderObjectParams.html#a12555ed5effec0f6d17edfe0508f0658">PickRenderObjectParams::defaults</a>())</td></tr>
-<tr class="separator:a6b0b0db6f890ec2d1022b714efd343c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a369adff2e21395db75c910b75b18f8c7" id="r_a369adff2e21395db75c910b75b18f8c7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="MRViewport_8h.html#af3c0d5e71a46bda98d8fd895def98a22">ObjAndPick</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a369adff2e21395db75c910b75b18f8c7">pickRenderObject</a> (const <a class="el" href="structMR_1_1Viewport_1_1PickRenderObjectParams.html">PickRenderObjectParams</a> &amp;params=<a class="el" href="structMR_1_1Viewport_1_1PickRenderObjectParams.html#a12555ed5effec0f6d17edfe0508f0658">PickRenderObjectParams::defaults</a>()) const</td></tr>
+<tr class="separator:a369adff2e21395db75c910b75b18f8c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf6012ade9216e280391d67facbec2af" id="r_aaf6012ade9216e280391d67facbec2af"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="MRViewport_8h.html#af3c0d5e71a46bda98d8fd895def98a22">ObjAndPick</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf6012ade9216e280391d67facbec2af">pickRenderObject</a> (std::span&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *const &gt; objects, const <a class="el" href="structMR_1_1Viewport_1_1PickRenderObjectParams.html">PickRenderObjectParams</a> &amp;params=<a class="el" href="structMR_1_1Viewport_1_1PickRenderObjectParams.html#a12555ed5effec0f6d17edfe0508f0658">PickRenderObjectParams::defaults</a>()) const</td></tr>
+<tr class="separator:aaf6012ade9216e280391d67facbec2af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a0d67f34ea510525f6e1c930f8abbd5" id="r_a2a0d67f34ea510525f6e1c930f8abbd5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="MRViewport_8h.html#a195427de5de84209ae90d566bf795c0d">ConstObjAndPick</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a0d67f34ea510525f6e1c930f8abbd5">pickRenderObjectConst</a> (std::span&lt; const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *const &gt; objects, const <a class="el" href="structMR_1_1Viewport_1_1PickRenderObjectParams.html">PickRenderObjectParams</a> &amp;params=<a class="el" href="structMR_1_1Viewport_1_1PickRenderObjectParams.html#a12555ed5effec0f6d17edfe0508f0658">PickRenderObjectParams::defaults</a>()) const</td></tr>
+<tr class="separator:a2a0d67f34ea510525f6e1c930f8abbd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbd763b1cfd8fceb2d5a66dee6830e70" id="r_afbd763b1cfd8fceb2d5a66dee6830e70"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="MRViewport_8h.html#af3c0d5e71a46bda98d8fd895def98a22">ObjAndPick</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbd763b1cfd8fceb2d5a66dee6830e70">pick_render_object</a> () const</td></tr>
 <tr class="separator:afbd763b1cfd8fceb2d5a66dee6830e70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29b9417149264e16eeb727982e61dc64" id="r_a29b9417149264e16eeb727982e61dc64"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="MRViewport_8h.html#af3c0d5e71a46bda98d8fd895def98a22">ObjAndPick</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29b9417149264e16eeb727982e61dc64">pick_render_object</a> (uint16_t pickRadius) const</td></tr>
@@ -209,8 +213,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aeea675f914f282d4bb811e8e4c771bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a190a1a73b0c964dd18d83d248e27b26f" id="r_a190a1a73b0c964dd18d83d248e27b26f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="MRViewport_8h.html#af3c0d5e71a46bda98d8fd895def98a22">ObjAndPick</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a190a1a73b0c964dd18d83d248e27b26f">pick_render_object</a> (const std::vector&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> * &gt; &amp;objects, const <a class="el" href="namespaceMR.html#ac6a962ec391c0d4b63c5f13e0bdec52c">Vector2f</a> &amp;viewportPoint) const</td></tr>
 <tr class="separator:a190a1a73b0c964dd18d83d248e27b26f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8f281b2f8f5d0789723959ed3c8bb1c" id="r_ac8f281b2f8f5d0789723959ed3c8bb1c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::vector&lt; <a class="el" href="MRViewport_8h.html#af3c0d5e71a46bda98d8fd895def98a22">ObjAndPick</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8f281b2f8f5d0789723959ed3c8bb1c">multiPickObjects</a> (const std::vector&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> * &gt; &amp;objects, const std::vector&lt; <a class="el" href="namespaceMR.html#ac6a962ec391c0d4b63c5f13e0bdec52c">Vector2f</a> &gt; &amp;viewportPoints) const</td></tr>
-<tr class="separator:ac8f281b2f8f5d0789723959ed3c8bb1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8d361bfbb43fdcccc7466ae900566ae" id="r_aa8d361bfbb43fdcccc7466ae900566ae"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::vector&lt; <a class="el" href="MRViewport_8h.html#af3c0d5e71a46bda98d8fd895def98a22">ObjAndPick</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8d361bfbb43fdcccc7466ae900566ae">multiPickObjects</a> (std::span&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *const &gt; objects, const std::vector&lt; <a class="el" href="namespaceMR.html#ac6a962ec391c0d4b63c5f13e0bdec52c">Vector2f</a> &gt; &amp;viewportPoints) const</td></tr>
+<tr class="separator:aa8d361bfbb43fdcccc7466ae900566ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8d2d1ebf05bdfac6a830fc7ccb9c76c" id="r_ae8d2d1ebf05bdfac6a830fc7ccb9c76c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8d2d1ebf05bdfac6a830fc7ccb9c76c">findObjectsInRect</a> (const <a class="el" href="namespaceMR.html#af9ac122bb742150c422e6d45af0a5fc2">Box2i</a> &amp;rect, int maxRenderResolutionSide=512) const</td></tr>
 <tr class="separator:ae8d2d1ebf05bdfac6a830fc7ccb9c76c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92197d0812be326f98d5480f8235b4de" id="r_a92197d0812be326f98d5480f8235b4de"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::unordered_map&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt;, <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92197d0812be326f98d5480f8235b4de">findVisibleFaces</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;includePixBs, int maxRenderResolutionSide=512) const</td></tr>
@@ -1497,8 +1501,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac8f281b2f8f5d0789723959ed3c8bb1c" name="ac8f281b2f8f5d0789723959ed3c8bb1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8f281b2f8f5d0789723959ed3c8bb1c">&#9670;&#160;</a></span>multiPickObjects()</h2>
+<a id="aa8d361bfbb43fdcccc7466ae900566ae" name="aa8d361bfbb43fdcccc7466ae900566ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8d361bfbb43fdcccc7466ae900566ae">&#9670;&#160;</a></span>multiPickObjects()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1506,7 +1510,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">MRVIEWER_API std::vector&lt; <a class="el" href="MRViewport_8h.html#af3c0d5e71a46bda98d8fd895def98a22">ObjAndPick</a> &gt; MR::Viewport::multiPickObjects </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>objects</em>, </span></td>
+          <td class="paramtype">std::span&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *const &gt;</td>          <td class="paramname"><span class="paramname"><em>objects</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1675,8 +1679,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6b0b0db6f890ec2d1022b714efd343c1" name="a6b0b0db6f890ec2d1022b714efd343c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b0b0db6f890ec2d1022b714efd343c1">&#9670;&#160;</a></span>pickRenderObject()</h2>
+<a id="a369adff2e21395db75c910b75b18f8c7" name="a369adff2e21395db75c910b75b18f8c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a369adff2e21395db75c910b75b18f8c7">&#9670;&#160;</a></span>pickRenderObject() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1685,7 +1689,49 @@ Public Attributes</h2></td></tr>
           <td class="memname">MRVIEWER_API <a class="el" href="MRViewport_8h.html#af3c0d5e71a46bda98d8fd895def98a22">ObjAndPick</a> MR::Viewport::pickRenderObject </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Viewport_1_1PickRenderObjectParams.html">PickRenderObjectParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="structMR_1_1Viewport_1_1PickRenderObjectParams.html#a12555ed5effec0f6d17edfe0508f0658">PickRenderObjectParams::defaults</a>()</span></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf6012ade9216e280391d67facbec2af" name="aaf6012ade9216e280391d67facbec2af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf6012ade9216e280391d67facbec2af">&#9670;&#160;</a></span>pickRenderObject() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API <a class="el" href="MRViewport_8h.html#af3c0d5e71a46bda98d8fd895def98a22">ObjAndPick</a> MR::Viewport::pickRenderObject </td>
+          <td>(</td>
+          <td class="paramtype">std::span&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *const &gt;</td>          <td class="paramname"><span class="paramname"><em>objects</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Viewport_1_1PickRenderObjectParams.html">PickRenderObjectParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="structMR_1_1Viewport_1_1PickRenderObjectParams.html#a12555ed5effec0f6d17edfe0508f0658">PickRenderObjectParams::defaults</a>()</span></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2a0d67f34ea510525f6e1c930f8abbd5" name="a2a0d67f34ea510525f6e1c930f8abbd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a0d67f34ea510525f6e1c930f8abbd5">&#9670;&#160;</a></span>pickRenderObjectConst()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API <a class="el" href="MRViewport_8h.html#a195427de5de84209ae90d566bf795c0d">ConstObjAndPick</a> MR::Viewport::pickRenderObjectConst </td>
+          <td>(</td>
+          <td class="paramtype">std::span&lt; const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *const &gt;</td>          <td class="paramname"><span class="paramname"><em>objects</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Viewport_1_1PickRenderObjectParams.html">PickRenderObjectParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="structMR_1_1Viewport_1_1PickRenderObjectParams.html#a12555ed5effec0f6d17edfe0508f0658">PickRenderObjectParams::defaults</a>()</span></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">

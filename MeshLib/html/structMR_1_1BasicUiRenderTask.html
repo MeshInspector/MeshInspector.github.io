@@ -101,6 +101,7 @@ $(function(){initNavTree('structMR_1_1BasicUiRenderTask.html',''); initResizable
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1BasicUiRenderTask-members.html">List of all members</a>  </div>
@@ -131,6 +132,13 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BackwardPassParams</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:ab4d07ed1576fec164c6c0308c3cbbb3d" id="r_ab4d07ed1576fec164c6c0308c3cbbb3d"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4d07ed1576fec164c6c0308c3cbbb3d">InteractionMask</a> { <a class="el" href="#ab4d07ed1576fec164c6c0308c3cbbb3da63e651859a2c9145e78189f8e31965a5">mouseHover</a> = 1 &lt;&lt; 0
+, <a class="el" href="#ab4d07ed1576fec164c6c0308c3cbbb3da3a576d0a62d9d598826a5dd9f7f6fec6">mouseScroll</a> = 1 &lt;&lt; 1
+ }</td></tr>
+<tr class="separator:ab4d07ed1576fec164c6c0308c3cbbb3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa45e39c8e875d9033360ff63d3f750f4" id="r_aa45e39c8e875d9033360ff63d3f750f4"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa45e39c8e875d9033360ff63d3f750f4">~BasicUiRenderTask</a> ()=default</td></tr>
@@ -159,7 +167,34 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><code><a class="el" href="classMR_1_1IRenderObject.html#a82fb37eb78d6e11f1b41f3fc2a99c5eb">IRenderObject::renderUi()</a></code> can emit zero or more or more of those tasks. They are sorted by depth every frame. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="ab4d07ed1576fec164c6c0308c3cbbb3d" name="ab4d07ed1576fec164c6c0308c3cbbb3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4d07ed1576fec164c6c0308c3cbbb3d">&#9670;&#160;</a></span>InteractionMask</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#ab4d07ed1576fec164c6c0308c3cbbb3d">MR::BasicUiRenderTask::InteractionMask</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab4d07ed1576fec164c6c0308c3cbbb3da63e651859a2c9145e78189f8e31965a5" name="ab4d07ed1576fec164c6c0308c3cbbb3da63e651859a2c9145e78189f8e31965a5"></a>mouseHover&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab4d07ed1576fec164c6c0308c3cbbb3da3a576d0a62d9d598826a5dd9f7f6fec6" name="ab4d07ed1576fec164c6c0308c3cbbb3da3a576d0a62d9d598826a5dd9f7f6fec6"></a>mouseScroll&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa45e39c8e875d9033360ff63d3f750f4" name="aa45e39c8e875d9033360ff63d3f750f4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa45e39c8e875d9033360ff63d3f750f4">&#9670;&#160;</a></span>~BasicUiRenderTask()</h2>
 

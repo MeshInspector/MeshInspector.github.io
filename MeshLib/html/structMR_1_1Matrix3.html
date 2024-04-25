@@ -100,6 +100,7 @@ $(function(){initNavTree('structMR_1_1Matrix3.html',''); initResizable(); });
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
@@ -111,6 +112,11 @@ $(function(){initNavTree('structMR_1_1Matrix3.html',''); initResizable(); });
 
 <p><code>#include &lt;<a class="el" href="MRMatrix3_8h_source.html">MRMatrix3.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Matrix3_1_1QR.html">QR</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a09d8a7ceef09453960f965518848f683" id="r_a09d8a7ceef09453960f965518848f683"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09d8a7ceef09453960f965518848f683">ValueType</a> = T</td></tr>
@@ -156,9 +162,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a73232fe995aba6fb3e7bb7a7f20be741" id="r_a73232fe995aba6fb3e7bb7a7f20be741"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73232fe995aba6fb3e7bb7a7f20be741">toEulerAngles</a> () const noexcept</td></tr>
 <tr class="memdesc:a73232fe995aba6fb3e7bb7a7f20be741"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns 3 Euler angles, assuming this is a rotation matrix composed as follows: R=R(z)*R(y)*R(x)  <br /></td></tr>
 <tr class="separator:a73232fe995aba6fb3e7bb7a7f20be741"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7497550607521f88a825f8d4ad5c5d2c" id="r_a7497550607521f88a825f8d4ad5c5d2c"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7497550607521f88a825f8d4ad5c5d2c">toScale</a> () const noexcept</td></tr>
-<tr class="memdesc:a7497550607521f88a825f8d4ad5c5d2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns scaling factors by axes (Ox, Oy, Oz)  <br /></td></tr>
-<tr class="separator:a7497550607521f88a825f8d4ad5c5d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac913b105d8335b1b6a779f68117dda18" id="r_ac913b105d8335b1b6a779f68117dda18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Matrix3_1_1QR.html">QR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac913b105d8335b1b6a779f68117dda18">qr</a> () const noexcept</td></tr>
+<tr class="memdesc:ac913b105d8335b1b6a779f68117dda18"><td class="mdescLeft">&#160;</td><td class="mdescRight">decompose this matrix on the product Q*R, where Q is orthogonal and R is upper triangular  <br /></td></tr>
+<tr class="separator:ac913b105d8335b1b6a779f68117dda18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f9e2c8024bf88a39b849bc90cd3237b" id="r_a8f9e2c8024bf88a39b849bc90cd3237b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Matrix3.html">Matrix3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f9e2c8024bf88a39b849bc90cd3237b">operator+=</a> (const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="separator:a8f9e2c8024bf88a39b849bc90cd3237b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac83c60392e072885c02a55d93e02fbd2" id="r_ac83c60392e072885c02a55d93e02fbd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Matrix3.html">Matrix3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac83c60392e072885c02a55d93e02fbd2">operator-=</a> (const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;b)</td></tr>
@@ -801,6 +807,35 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="ac913b105d8335b1b6a779f68117dda18" name="ac913b105d8335b1b6a779f68117dda18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac913b105d8335b1b6a779f68117dda18">&#9670;&#160;</a></span>qr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Matrix3_1_1QR.html">QR</a> <a class="el" href="structMR_1_1Matrix3.html">MR::Matrix3</a>&lt; T &gt;::qr </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>decompose this matrix on the product Q*R, where Q is orthogonal and R is upper triangular </p>
+
+</div>
+</div>
 <a id="a5d639b43bee0fb6fc0ce1ed21cf47f67" name="a5d639b43bee0fb6fc0ce1ed21cf47f67"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5d639b43bee0fb6fc0ce1ed21cf47f67">&#9670;&#160;</a></span>rotation() <span class="overload">[1/2]</span></h2>
 
@@ -1015,35 +1050,6 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>returns 3 Euler angles, assuming this is a rotation matrix composed as follows: R=R(z)*R(y)*R(x) </p>
-
-</div>
-</div>
-<a id="a7497550607521f88a825f8d4ad5c5d2c" name="a7497550607521f88a825f8d4ad5c5d2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7497550607521f88a825f8d4ad5c5d2c">&#9670;&#160;</a></span>toScale()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; <a class="el" href="structMR_1_1Matrix3.html">MR::Matrix3</a>&lt; T &gt;::toScale </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns scaling factors by axes (Ox, Oy, Oz) </p>
 
 </div>
 </div>

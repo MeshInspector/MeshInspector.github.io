@@ -1,5 +1,7 @@
 var structMR_1_1DenseBox =
 [
+    [ "DenseBox", "structMR_1_1DenseBox.html#a7c79113a97744efd6bcbc544553fe582", null ],
+    [ "DenseBox", "structMR_1_1DenseBox.html#ad18654ddb91781bc8e4d1417ce19a08e", null ],
     [ "DenseBox", "structMR_1_1DenseBox.html#a38590d0d422769798b0be5129be63d55", null ],
     [ "DenseBox", "structMR_1_1DenseBox.html#aee07541d158133fc4c85e7170de4d3e7", null ],
     [ "DenseBox", "structMR_1_1DenseBox.html#aac374ad90e2a96d261ba863c1d6f46e2", null ],

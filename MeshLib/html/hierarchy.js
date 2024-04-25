@@ -344,6 +344,7 @@ var hierarchy =
       [ "MR::AddPointActionPickerPoint", "classMR_1_1AddPointActionPickerPoint.html", null ],
       [ "MR::ChangVoxelSelectionAction", "classMR_1_1ChangVoxelSelectionAction.html", null ],
       [ "MR::ChangeActiveBoxAction", "classMR_1_1ChangeActiveBoxAction.html", null ],
+      [ "MR::ChangeBoundarySelectionHistoryAction", "classMR_1_1ChangeBoundarySelectionHistoryAction.html", null ],
       [ "MR::ChangeColoringType", "classMR_1_1ChangeColoringType.html", null ],
       [ "MR::ChangeDualMarchingCubesAction", "classMR_1_1ChangeDualMarchingCubesAction.html", null ],
       [ "MR::ChangeFacesColorMapAction", "classMR_1_1ChangeFacesColorMapAction.html", null ],
@@ -385,6 +386,7 @@ var hierarchy =
       [ "MR::ITransformControls::ChangeCenterAction", "classMR_1_1ITransformControls_1_1ChangeCenterAction.html", null ],
       [ "MR::ObjectTransformWidget::ChangeXfAction", "classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html", null ],
       [ "MR::RemovePointActionPickerPoint", "classMR_1_1RemovePointActionPickerPoint.html", null ],
+      [ "MR::SurfaceContoursWidgetClearAction", "classMR_1_1SurfaceContoursWidgetClearAction.html", null ],
       [ "MR::SwapRootAction", "classMR_1_1SwapRootAction.html", null ],
       [ "MR::ViewportParametersAction", "classMR_1_1ViewportParametersAction.html", null ]
     ] ],
@@ -405,6 +407,7 @@ var hierarchy =
         [ "MR::MouseMoveListener", "structMR_1_1MouseMoveListener.html", null ],
         [ "MR::MouseScrollListener", "structMR_1_1MouseScrollListener.html", null ],
         [ "MR::MouseUpListener", "structMR_1_1MouseUpListener.html", null ],
+        [ "MR::NameTagClickListener", "structMR_1_1NameTagClickListener.html", null ],
         [ "MR::PostDrawListener", "structMR_1_1PostDrawListener.html", null ],
         [ "MR::PostFocusListener", "structMR_1_1PostFocusListener.html", [
           [ "MR::SpaceMouseHandlerHidapi", "classMR_1_1SpaceMouseHandlerHidapi.html", null ]
@@ -601,6 +604,7 @@ var hierarchy =
     [ "MR::MeshMeshConverter", "structMR_1_1MeshMeshConverter.html", null ],
     [ "MR::MeshNormals", "structMR_1_1MeshNormals.html", null ],
     [ "MR::MeshOrPoints", "classMR_1_1MeshOrPoints.html", null ],
+    [ "MR::MeshOrPointsXf", "structMR_1_1MeshOrPointsXf.html", null ],
     [ "MR::MeshPart", "structMR_1_1MeshPart.html", null ],
     [ "MR::MeshBuilder::MeshPiece", "structMR_1_1MeshBuilder_1_1MeshPiece.html", null ],
     [ "MR::MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", null ],
@@ -616,6 +620,7 @@ var hierarchy =
     [ "MR::MouseController", "classMR_1_1MouseController.html", null ],
     [ "MR::GcodeProcessor::MoveAction", "structMR_1_1GcodeProcessor_1_1MoveAction.html", null ],
     [ "MR::MovementBuildBodyParams", "structMR_1_1MovementBuildBodyParams.html", null ],
+    [ "MR::MultiwayICP", "classMR_1_1MultiwayICP.html", null ],
     [ "MR::MutexOwner", "structMR_1_1MutexOwner.html", null ],
     [ "N", null, [
       [ "MR::RingIterator< N >", "classMR_1_1RingIterator.html", null ]
@@ -755,6 +760,7 @@ var hierarchy =
     [ "MR::PythonExport", "classMR_1_1PythonExport.html", null ],
     [ "MR::PythonFunctionAdder", "structMR_1_1PythonFunctionAdder.html", null ],
     [ "PythonStreamRedirector< T >", "classPythonStreamRedirector.html", null ],
+    [ "MR::Matrix3< T >::QR", "structMR_1_1Matrix3_1_1QR.html", null ],
     [ "MR::QuadraticForm< V >", "structMR_1_1QuadraticForm.html", null ],
     [ "MR::QuadricApprox", "classMR_1_1QuadricApprox.html", null ],
     [ "MR::QuadTextureVertexObject", "classMR_1_1QuadTextureVertexObject.html", null ],
@@ -862,7 +868,6 @@ var hierarchy =
       [ "MR::Signal< void(uint32_t mask)>", "structMR_1_1Signal.html", null ],
       [ "MR::Signal< T >", "structMR_1_1Signal.html", null ]
     ] ],
-    [ "MR::Viewer::SignalStopHandler", "structMR_1_1Viewer_1_1SignalStopHandler.html", null ],
     [ "MR::SignedDistanceToMeshResult", "structMR_1_1SignedDistanceToMeshResult.html", null ],
     [ "MR::SimpleTimeRecord", "structMR_1_1SimpleTimeRecord.html", [
       [ "MR::TimeRecord", "structMR_1_1TimeRecord.html", [
@@ -884,6 +889,7 @@ var hierarchy =
       [ "MR::DefaultSplashWindow", "classMR_1_1DefaultSplashWindow.html", null ]
     ] ],
     [ "MR::StitchHolesParams", "structMR_1_1StitchHolesParams.html", null ],
+    [ "MR::StopOnTrueCombiner", "structMR_1_1StopOnTrueCombiner.html", null ],
     [ "std::streambuf", null, [
       [ "MR::LoggingStreambuf", "classMR_1_1LoggingStreambuf.html", null ]
     ] ],
@@ -1002,8 +1008,10 @@ var hierarchy =
     [ "MR::Vector< MR::Id, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::Id< EdgeTag >, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::Id< VoxelTag >, MR::Id >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< MR::MeshOrPointsXf, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::QuadraticForm, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::QuadraticForm< V >, MR::Id >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< MR::Vector, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::WatershedGraph::BasinInfo, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::WatershedGraph::BdInfo, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< Neighbours, VertId >", "classMR_1_1Vector.html", null ],

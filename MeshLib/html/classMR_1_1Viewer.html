@@ -100,7 +100,6 @@ $(function(){initNavTree('classMR_1_1Viewer.html',''); initResizable(); });
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
@@ -113,11 +112,6 @@ $(function(){initNavTree('classMR_1_1Viewer.html',''); initResizable(); });
 
 <p><code>#include &lt;<a class="el" href="MRViewer_8h_source.html">MRViewer.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a2f8bda46d1cd218cc450c9b0f076f2b0" id="r_a2f8bda46d1cd218cc450c9b0f076f2b0"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f8bda46d1cd218cc450c9b0f076f2b0">EventType</a> { <br />
@@ -155,43 +149,45 @@ Public Types</h2></td></tr>
 <tr class="separator:a18c86b40dc97e73d26be6d5f21f65093"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae11f6202a72dd7403332a471e5aced7e" id="r_ae11f6202a72dd7403332a471e5aced7e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae11f6202a72dd7403332a471e5aced7e">PointInAllSpaces</a> = <a class="el" href="structMR_1_1PointInAllSpaces.html">MR::PointInAllSpaces</a></td></tr>
 <tr class="separator:ae11f6202a72dd7403332a471e5aced7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1aecfd029115f7b6327183d3d313297a" id="r_a1aecfd029115f7b6327183d3d313297a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1aecfd029115f7b6327183d3d313297a">MouseUpDownSignal</a> = boost::signals2::signal&lt;bool( <a class="el" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> btn, int modifier ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td></tr>
+<tr class="memitem:a442f3e2a28e10e8233b334037730020e" id="r_a442f3e2a28e10e8233b334037730020e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a> = <a class="el" href="structMR_1_1StopOnTrueCombiner.html">StopOnTrueCombiner</a></td></tr>
+<tr class="separator:a442f3e2a28e10e8233b334037730020e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aecfd029115f7b6327183d3d313297a" id="r_a1aecfd029115f7b6327183d3d313297a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1aecfd029115f7b6327183d3d313297a">MouseUpDownSignal</a> = boost::signals2::signal&lt;bool( <a class="el" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> btn, int modifier ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td></tr>
 <tr class="separator:a1aecfd029115f7b6327183d3d313297a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12789e9a254227b600592bce4d442758" id="r_a12789e9a254227b600592bce4d442758"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12789e9a254227b600592bce4d442758">MouseMoveSignal</a> = boost::signals2::signal&lt;bool( int x, int y ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td></tr>
+<tr class="memitem:a12789e9a254227b600592bce4d442758" id="r_a12789e9a254227b600592bce4d442758"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12789e9a254227b600592bce4d442758">MouseMoveSignal</a> = boost::signals2::signal&lt;bool( int x, int y ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td></tr>
 <tr class="separator:a12789e9a254227b600592bce4d442758"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec690d0dd00cd849a736c3436ed2e546" id="r_aec690d0dd00cd849a736c3436ed2e546"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec690d0dd00cd849a736c3436ed2e546">MouseScrollSignal</a> = boost::signals2::signal&lt;bool( float delta ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td></tr>
+<tr class="memitem:aec690d0dd00cd849a736c3436ed2e546" id="r_aec690d0dd00cd849a736c3436ed2e546"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec690d0dd00cd849a736c3436ed2e546">MouseScrollSignal</a> = boost::signals2::signal&lt;bool( float delta ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td></tr>
 <tr class="separator:aec690d0dd00cd849a736c3436ed2e546"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2af4faf6f3c5c1c112b74670726a060f" id="r_a2af4faf6f3c5c1c112b74670726a060f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2af4faf6f3c5c1c112b74670726a060f">CursorEntranceSignal</a> = boost::signals2::signal&lt;void(bool)&gt;</td></tr>
 <tr class="separator:a2af4faf6f3c5c1c112b74670726a060f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a568a2e57dd51e0ea9a8f4dc581695762" id="r_a568a2e57dd51e0ea9a8f4dc581695762"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a568a2e57dd51e0ea9a8f4dc581695762">CharPressedSignal</a> = boost::signals2::signal&lt;bool( unsigned unicodeKey, int modifier ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td></tr>
+<tr class="memitem:a568a2e57dd51e0ea9a8f4dc581695762" id="r_a568a2e57dd51e0ea9a8f4dc581695762"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a568a2e57dd51e0ea9a8f4dc581695762">CharPressedSignal</a> = boost::signals2::signal&lt;bool( unsigned unicodeKey, int modifier ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td></tr>
 <tr class="separator:a568a2e57dd51e0ea9a8f4dc581695762"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e7b5d040663db04b5ee435db17f41df" id="r_a1e7b5d040663db04b5ee435db17f41df"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e7b5d040663db04b5ee435db17f41df">KeySignal</a> = boost::signals2::signal&lt;bool( int key, int modifier ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td></tr>
+<tr class="memitem:a1e7b5d040663db04b5ee435db17f41df" id="r_a1e7b5d040663db04b5ee435db17f41df"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e7b5d040663db04b5ee435db17f41df">KeySignal</a> = boost::signals2::signal&lt;bool( int key, int modifier ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td></tr>
 <tr class="separator:a1e7b5d040663db04b5ee435db17f41df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a005ec95118bcf872af734950909d0a9b" id="r_a005ec95118bcf872af734950909d0a9b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a005ec95118bcf872af734950909d0a9b">SpaceMouseMoveSignal</a> = boost::signals2::signal&lt;bool( const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&amp; translate, const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&amp; rotate ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td></tr>
+<tr class="memitem:a005ec95118bcf872af734950909d0a9b" id="r_a005ec95118bcf872af734950909d0a9b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a005ec95118bcf872af734950909d0a9b">SpaceMouseMoveSignal</a> = boost::signals2::signal&lt;bool( const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&amp; translate, const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&amp; rotate ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td></tr>
 <tr class="separator:a005ec95118bcf872af734950909d0a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ddbf48e08044f241c126505d2914ce1" id="r_a4ddbf48e08044f241c126505d2914ce1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ddbf48e08044f241c126505d2914ce1">SpaceMouseKeySignal</a> = boost::signals2::signal&lt;bool( int ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td></tr>
+<tr class="memitem:a4ddbf48e08044f241c126505d2914ce1" id="r_a4ddbf48e08044f241c126505d2914ce1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ddbf48e08044f241c126505d2914ce1">SpaceMouseKeySignal</a> = boost::signals2::signal&lt;bool( int ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td></tr>
 <tr class="separator:a4ddbf48e08044f241c126505d2914ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0feb0d244ebf3015b8ed14e68ebb5f12" id="r_a0feb0d244ebf3015b8ed14e68ebb5f12"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0feb0d244ebf3015b8ed14e68ebb5f12">RenderSignal</a> = boost::signals2::signal&lt;void()&gt;</td></tr>
 <tr class="separator:a0feb0d244ebf3015b8ed14e68ebb5f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae75b061c70e140f41530c73ec2879d99" id="r_ae75b061c70e140f41530c73ec2879d99"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae75b061c70e140f41530c73ec2879d99">DragDropSignal</a> = boost::signals2::signal&lt;bool( const std::vector&lt;std::filesystem::path&gt;&amp; paths ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td></tr>
+<tr class="memitem:ae75b061c70e140f41530c73ec2879d99" id="r_ae75b061c70e140f41530c73ec2879d99"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae75b061c70e140f41530c73ec2879d99">DragDropSignal</a> = boost::signals2::signal&lt;bool( const std::vector&lt;std::filesystem::path&gt;&amp; paths ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td></tr>
 <tr class="separator:ae75b061c70e140f41530c73ec2879d99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7f0983455b1dfa5ccae593d205470d9" id="r_ab7f0983455b1dfa5ccae593d205470d9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7f0983455b1dfa5ccae593d205470d9">PostResizeSignal</a> = boost::signals2::signal&lt;void( int x, int y )&gt;</td></tr>
 <tr class="separator:ab7f0983455b1dfa5ccae593d205470d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a448a65e5c8e0f80950482647b4d8a786" id="r_a448a65e5c8e0f80950482647b4d8a786"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a448a65e5c8e0f80950482647b4d8a786">PostRescaleSignal</a> = boost::signals2::signal&lt;void( float xscale, float yscale )&gt;</td></tr>
 <tr class="separator:a448a65e5c8e0f80950482647b4d8a786"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d931c18f1c5ba9e57ae595db1a20d0b" id="r_a0d931c18f1c5ba9e57ae595db1a20d0b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d931c18f1c5ba9e57ae595db1a20d0b">InterruptCloseSignal</a> = boost::signals2::signal&lt;bool(), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td></tr>
+<tr class="memitem:a0d931c18f1c5ba9e57ae595db1a20d0b" id="r_a0d931c18f1c5ba9e57ae595db1a20d0b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d931c18f1c5ba9e57ae595db1a20d0b">InterruptCloseSignal</a> = boost::signals2::signal&lt;bool(), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td></tr>
 <tr class="separator:a0d931c18f1c5ba9e57ae595db1a20d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96cbf0a63696ed1b370277034184b276" id="r_a96cbf0a63696ed1b370277034184b276"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96cbf0a63696ed1b370277034184b276">TouchSignal</a> = boost::signals2::signal&lt;bool(int,int,int), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td></tr>
+<tr class="memitem:a96cbf0a63696ed1b370277034184b276" id="r_a96cbf0a63696ed1b370277034184b276"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96cbf0a63696ed1b370277034184b276">TouchSignal</a> = boost::signals2::signal&lt;bool(int,int,int), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td></tr>
 <tr class="separator:a96cbf0a63696ed1b370277034184b276"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46f94e450b4fb564b98d42a724da2323" id="r_a46f94e450b4fb564b98d42a724da2323"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46f94e450b4fb564b98d42a724da2323">TouchpadGestureBeginSignal</a> = boost::signals2::signal&lt;bool(), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td></tr>
+<tr class="memitem:a46f94e450b4fb564b98d42a724da2323" id="r_a46f94e450b4fb564b98d42a724da2323"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46f94e450b4fb564b98d42a724da2323">TouchpadGestureBeginSignal</a> = boost::signals2::signal&lt;bool(), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td></tr>
 <tr class="separator:a46f94e450b4fb564b98d42a724da2323"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba9607310839692ff2fa39f1461c0798" id="r_aba9607310839692ff2fa39f1461c0798"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba9607310839692ff2fa39f1461c0798">TouchpadGestureEndSignal</a> = boost::signals2::signal&lt;bool(), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td></tr>
+<tr class="memitem:aba9607310839692ff2fa39f1461c0798" id="r_aba9607310839692ff2fa39f1461c0798"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba9607310839692ff2fa39f1461c0798">TouchpadGestureEndSignal</a> = boost::signals2::signal&lt;bool(), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td></tr>
 <tr class="separator:aba9607310839692ff2fa39f1461c0798"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea72a0858da00a52b7fcbad823560ac2" id="r_aea72a0858da00a52b7fcbad823560ac2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea72a0858da00a52b7fcbad823560ac2">TouchpadRotateGestureUpdateSignal</a> = boost::signals2::signal&lt;bool( float <a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03">angle</a> ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td></tr>
+<tr class="memitem:aea72a0858da00a52b7fcbad823560ac2" id="r_aea72a0858da00a52b7fcbad823560ac2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea72a0858da00a52b7fcbad823560ac2">TouchpadRotateGestureUpdateSignal</a> = boost::signals2::signal&lt;bool( float <a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03">angle</a> ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td></tr>
 <tr class="separator:aea72a0858da00a52b7fcbad823560ac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd8505d2266a296e3abe62a13c06c58a" id="r_acd8505d2266a296e3abe62a13c06c58a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd8505d2266a296e3abe62a13c06c58a">TouchpadSwipeGestureUpdateSignal</a> = boost::signals2::signal&lt;bool( float deltaX, float deltaY, bool kinetic ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td></tr>
+<tr class="memitem:acd8505d2266a296e3abe62a13c06c58a" id="r_acd8505d2266a296e3abe62a13c06c58a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd8505d2266a296e3abe62a13c06c58a">TouchpadSwipeGestureUpdateSignal</a> = boost::signals2::signal&lt;bool( float deltaX, float deltaY, bool kinetic ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td></tr>
 <tr class="separator:acd8505d2266a296e3abe62a13c06c58a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0067f8572528030f89b914e2125bb44" id="r_aa0067f8572528030f89b914e2125bb44"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0067f8572528030f89b914e2125bb44">TouchpadZoomGestureUpdateSignal</a> = boost::signals2::signal&lt;bool( float scale, bool kinetic ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td></tr>
+<tr class="memitem:aa0067f8572528030f89b914e2125bb44" id="r_aa0067f8572528030f89b914e2125bb44"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0067f8572528030f89b914e2125bb44">TouchpadZoomGestureUpdateSignal</a> = boost::signals2::signal&lt;bool( float scale, bool kinetic ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td></tr>
 <tr class="separator:aa0067f8572528030f89b914e2125bb44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56a4069031303c5161df2d5e4155ae22" id="r_a56a4069031303c5161df2d5e4155ae22"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56a4069031303c5161df2d5e4155ae22">PostFocusSignal</a> = boost::signals2::signal&lt;void( bool )&gt;</td></tr>
 <tr class="separator:a56a4069031303c5161df2d5e4155ae22"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -582,7 +578,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a568a2e57dd51e0ea9a8f4dc581695762">MR::Viewer::CharPressedSignal</a> = boost::signals2::signal&lt;bool( unsigned unicodeKey, int modifier ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#a568a2e57dd51e0ea9a8f4dc581695762">MR::Viewer::CharPressedSignal</a> = boost::signals2::signal&lt;bool( unsigned unicodeKey, int modifier ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -610,7 +606,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#ae75b061c70e140f41530c73ec2879d99">MR::Viewer::DragDropSignal</a> = boost::signals2::signal&lt;bool( const std::vector&lt;std::filesystem::path&gt;&amp; paths ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#ae75b061c70e140f41530c73ec2879d99">MR::Viewer::DragDropSignal</a> = boost::signals2::signal&lt;bool( const std::vector&lt;std::filesystem::path&gt;&amp; paths ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -624,7 +620,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a0d931c18f1c5ba9e57ae595db1a20d0b">MR::Viewer::InterruptCloseSignal</a> = boost::signals2::signal&lt;bool(), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#a0d931c18f1c5ba9e57ae595db1a20d0b">MR::Viewer::InterruptCloseSignal</a> = boost::signals2::signal&lt;bool(), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -638,7 +634,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a1e7b5d040663db04b5ee435db17f41df">MR::Viewer::KeySignal</a> = boost::signals2::signal&lt;bool( int key, int modifier ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#a1e7b5d040663db04b5ee435db17f41df">MR::Viewer::KeySignal</a> = boost::signals2::signal&lt;bool( int key, int modifier ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -694,7 +690,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a12789e9a254227b600592bce4d442758">MR::Viewer::MouseMoveSignal</a> = boost::signals2::signal&lt;bool( int x, int y ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#a12789e9a254227b600592bce4d442758">MR::Viewer::MouseMoveSignal</a> = boost::signals2::signal&lt;bool( int x, int y ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -708,7 +704,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#aec690d0dd00cd849a736c3436ed2e546">MR::Viewer::MouseScrollSignal</a> = boost::signals2::signal&lt;bool( float delta ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#aec690d0dd00cd849a736c3436ed2e546">MR::Viewer::MouseScrollSignal</a> = boost::signals2::signal&lt;bool( float delta ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -722,7 +718,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a1aecfd029115f7b6327183d3d313297a">MR::Viewer::MouseUpDownSignal</a> = boost::signals2::signal&lt;bool( <a class="el" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> btn, int modifier ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#a1aecfd029115f7b6327183d3d313297a">MR::Viewer::MouseUpDownSignal</a> = boost::signals2::signal&lt;bool( <a class="el" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> btn, int modifier ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -799,6 +795,20 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a442f3e2a28e10e8233b334037730020e" name="a442f3e2a28e10e8233b334037730020e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a442f3e2a28e10e8233b334037730020e">&#9670;&#160;</a></span>SignalStopHandler</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a442f3e2a28e10e8233b334037730020e">MR::Viewer::SignalStopHandler</a> = <a class="el" href="structMR_1_1StopOnTrueCombiner.html">StopOnTrueCombiner</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4ddbf48e08044f241c126505d2914ce1" name="a4ddbf48e08044f241c126505d2914ce1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4ddbf48e08044f241c126505d2914ce1">&#9670;&#160;</a></span>SpaceMouseKeySignal</h2>
 
@@ -806,7 +816,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a4ddbf48e08044f241c126505d2914ce1">MR::Viewer::SpaceMouseKeySignal</a> = boost::signals2::signal&lt;bool( int ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#a4ddbf48e08044f241c126505d2914ce1">MR::Viewer::SpaceMouseKeySignal</a> = boost::signals2::signal&lt;bool( int ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -820,7 +830,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a005ec95118bcf872af734950909d0a9b">MR::Viewer::SpaceMouseMoveSignal</a> = boost::signals2::signal&lt;bool( const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&amp; translate, const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&amp; rotate ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#a005ec95118bcf872af734950909d0a9b">MR::Viewer::SpaceMouseMoveSignal</a> = boost::signals2::signal&lt;bool( const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&amp; translate, const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&amp; rotate ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -834,7 +844,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a46f94e450b4fb564b98d42a724da2323">MR::Viewer::TouchpadGestureBeginSignal</a> = boost::signals2::signal&lt;bool(), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#a46f94e450b4fb564b98d42a724da2323">MR::Viewer::TouchpadGestureBeginSignal</a> = boost::signals2::signal&lt;bool(), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -848,7 +858,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#aba9607310839692ff2fa39f1461c0798">MR::Viewer::TouchpadGestureEndSignal</a> = boost::signals2::signal&lt;bool(), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#aba9607310839692ff2fa39f1461c0798">MR::Viewer::TouchpadGestureEndSignal</a> = boost::signals2::signal&lt;bool(), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -862,7 +872,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#aea72a0858da00a52b7fcbad823560ac2">MR::Viewer::TouchpadRotateGestureUpdateSignal</a> = boost::signals2::signal&lt;bool( float <a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03">angle</a> ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#aea72a0858da00a52b7fcbad823560ac2">MR::Viewer::TouchpadRotateGestureUpdateSignal</a> = boost::signals2::signal&lt;bool( float <a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03">angle</a> ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -876,7 +886,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#acd8505d2266a296e3abe62a13c06c58a">MR::Viewer::TouchpadSwipeGestureUpdateSignal</a> = boost::signals2::signal&lt;bool( float deltaX, float deltaY, bool kinetic ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#acd8505d2266a296e3abe62a13c06c58a">MR::Viewer::TouchpadSwipeGestureUpdateSignal</a> = boost::signals2::signal&lt;bool( float deltaX, float deltaY, bool kinetic ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -890,7 +900,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#aa0067f8572528030f89b914e2125bb44">MR::Viewer::TouchpadZoomGestureUpdateSignal</a> = boost::signals2::signal&lt;bool( float scale, bool kinetic ), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#aa0067f8572528030f89b914e2125bb44">MR::Viewer::TouchpadZoomGestureUpdateSignal</a> = boost::signals2::signal&lt;bool( float scale, bool kinetic ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -904,7 +914,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a96cbf0a63696ed1b370277034184b276">MR::Viewer::TouchSignal</a> = boost::signals2::signal&lt;bool(int,int,int), <a class="el" href="structMR_1_1Viewer_1_1SignalStopHandler.html">SignalStopHandler</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#a96cbf0a63696ed1b370277034184b276">MR::Viewer::TouchSignal</a> = boost::signals2::signal&lt;bool(int,int,int), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">

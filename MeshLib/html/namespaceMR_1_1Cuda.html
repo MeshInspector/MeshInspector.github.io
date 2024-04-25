@@ -126,6 +126,11 @@ Functions</h2></td></tr>
 <tr class="memitem:ad3d0d14aae4ad5f5ded80460d993d68d" id="r_ad3d0d14aae4ad5f5ded80460d993d68d"><td class="memItemLeft" align="right" valign="top">MRCUDA_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3d0d14aae4ad5f5ded80460d993d68d">distanceMapFromContoursHeapBytes</a> (const <a class="el" href="namespaceMR.html#adeac7b9dc20e12d20ff95459d9bac413">MR::Polyline2</a> &amp;polyline, const <a class="el" href="structMR_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a> &amp;params)</td></tr>
 <tr class="memdesc:ad3d0d14aae4ad5f5ded80460d993d68d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes memory consumption of distanceMapFromContours function.  <br /></td></tr>
 <tr class="separator:ad3d0d14aae4ad5f5ded80460d993d68d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68b9636194d2ea1b09c74b6f11829c02" id="r_a68b9636194d2ea1b09c74b6f11829c02"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68b9636194d2ea1b09c74b6f11829c02">computeDistanceMap</a> (const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a> &amp;params, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={}, std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MR::MeshTriPoint</a> &gt; *outSamples=nullptr)</td></tr>
+<tr class="separator:a68b9636194d2ea1b09c74b6f11829c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af438ea6400ea4dd6e587a9208a7ab4af" id="r_af438ea6400ea4dd6e587a9208a7ab4af"><td class="memItemLeft" align="right" valign="top">MRCUDA_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af438ea6400ea4dd6e587a9208a7ab4af">computeDistanceMapHeapBytes</a> (const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a> &amp;params, bool needOutSamples=false)</td></tr>
+<tr class="memdesc:af438ea6400ea4dd6e587a9208a7ab4af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes memory consumption of computeDistanceMap function.  <br /></td></tr>
+<tr class="separator:af438ea6400ea4dd6e587a9208a7ab4af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52a9c2fbe17335370c2f613e283723d3" id="r_a52a9c2fbe17335370c2f613e283723d3"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a32d86de74ee0b62d26832356f2afe507">MR::SimpleVolume</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52a9c2fbe17335370c2f613e283723d3">pointsToDistanceVolume</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a> &amp;params)</td></tr>
 <tr class="memdesc:a52a9c2fbe17335370c2f613e283723d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes SimpleVolume filled with signed distances to points with normals  <br /></td></tr>
 <tr class="separator:a52a9c2fbe17335370c2f613e283723d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,6 +142,66 @@ Functions</h2></td></tr>
 <tr class="separator:a049377206c74eb42b8d99eb0f9475876"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a68b9636194d2ea1b09c74b6f11829c02" name="a68b9636194d2ea1b09c74b6f11829c02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68b9636194d2ea1b09c74b6f11829c02">&#9670;&#160;</a></span>computeDistanceMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRCUDA_API <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> MR::Cuda::computeDistanceMap </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MR::MeshTriPoint</a> &gt; *</td>          <td class="paramname"><span class="paramname"><em>outSamples</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes distance (height) map for given projection parameters using float-precision for finding ray-mesh intersections, which is faster but less reliable </p>
+
+</div>
+</div>
+<a id="af438ea6400ea4dd6e587a9208a7ab4af" name="af438ea6400ea4dd6e587a9208a7ab4af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af438ea6400ea4dd6e587a9208a7ab4af">&#9670;&#160;</a></span>computeDistanceMapHeapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRCUDA_API size_t MR::Cuda::computeDistanceMapHeapBytes </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>needOutSamples</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes memory consumption of computeDistanceMap function. </p>
+
+</div>
+</div>
 <a id="ab5f9490f820c7e7eb708e516e58d6e5a" name="ab5f9490f820c7e7eb708e516e58d6e5a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab5f9490f820c7e7eb708e516e58d6e5a">&#9670;&#160;</a></span>computeSkyViewFactor()</h2>
 

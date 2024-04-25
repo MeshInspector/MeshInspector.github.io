@@ -77,8 +77,9 @@ var searchData=
   ['static_74',['Static',['../structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba84a8921b25f505d0d2077aeb5db4bc16',1,'MR::Viewport::Parameters']]],
   ['stderr_75',['Stderr',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1da4c7561d633f5454928b59f85212803af',1,'MRPython.h']]],
   ['stdout_76',['Stdout',['../MRPython_8h.html#a8a65141d9ea4bf9d2e2377ed6b888a1dacf9f94fd980922245e21bd42aea60101',1,'MRPython.h']]],
-  ['stopprocessing_77',['StopProcessing',['../group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47a38e59feb928e37292c8ee0a50f447612',1,'MR']]],
-  ['strong_78',['Strong',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9',1,'MR::FillHoleParams']]],
-  ['swipemovescamera_79',['SwipeMovesCamera',['../structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e',1,'MR::TouchpadParameters']]],
-  ['swiperotatescamera_80',['SwipeRotatesCamera',['../structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1',1,'MR::TouchpadParameters']]]
+  ['stopmsdreached_77',['StopMsdReached',['../namespaceMR.html#ac977096020e15e4b699043b2c550bf83a233f67a0fc7747cbc3ba87d8708b3791',1,'MR']]],
+  ['stopprocessing_78',['StopProcessing',['../group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47a38e59feb928e37292c8ee0a50f447612',1,'MR']]],
+  ['strong_79',['Strong',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9',1,'MR::FillHoleParams']]],
+  ['swipemovescamera_80',['SwipeMovesCamera',['../structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e',1,'MR::TouchpadParameters']]],
+  ['swiperotatescamera_81',['SwipeRotatesCamera',['../structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1',1,'MR::TouchpadParameters']]]
 ];

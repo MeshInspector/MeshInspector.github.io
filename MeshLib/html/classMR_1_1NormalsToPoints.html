@@ -120,6 +120,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa8c324e95e6b5ee11d99cb93bde8a290"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d12e50b57d329d34f6fc200ed8866f0" id="r_a2d12e50b57d329d34f6fc200ed8866f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d12e50b57d329d34f6fc200ed8866f0">run</a> (const <a class="el" href="namespaceMR.html#ad74e2d018e02d0b815decae208d49ceb">VertCoords</a> &amp;guide, const <a class="el" href="namespaceMR.html#a1ece01b26b5fcc133eb374a3cb0a2bd7">FaceNormals</a> &amp;normals, <a class="el" href="namespaceMR.html#ad74e2d018e02d0b815decae208d49ceb">VertCoords</a> &amp;points)</td></tr>
 <tr class="separator:a2d12e50b57d329d34f6fc200ed8866f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ab1a5ae7eeb9ae83adb8e7b78ffb94c" id="r_a8ab1a5ae7eeb9ae83adb8e7b78ffb94c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ab1a5ae7eeb9ae83adb8e7b78ffb94c">run</a> (const <a class="el" href="namespaceMR.html#ad74e2d018e02d0b815decae208d49ceb">VertCoords</a> &amp;guide, const <a class="el" href="namespaceMR.html#a1ece01b26b5fcc133eb374a3cb0a2bd7">FaceNormals</a> &amp;normals, <a class="el" href="namespaceMR.html#ad74e2d018e02d0b815decae208d49ceb">VertCoords</a> &amp;points, float maxInitialDistSq)</td></tr>
+<tr class="separator:a8ab1a5ae7eeb9ae83adb8e7b78ffb94c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The purpose of this class is to update vertex positions given target triangle normals; see the article "Static/Dynamic Filtering for Mesh Geometry" </p>
@@ -152,7 +154,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a2d12e50b57d329d34f6fc200ed8866f0" name="a2d12e50b57d329d34f6fc200ed8866f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d12e50b57d329d34f6fc200ed8866f0">&#9670;&#160;</a></span>run()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d12e50b57d329d34f6fc200ed8866f0">&#9670;&#160;</a></span>run() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -179,9 +181,41 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">guide</td><td>target vertex positions to avoid under-determined system </td></tr>
     <tr><td class="paramname">normals</td><td>target face normals </td></tr>
     <tr><td class="paramname">points</td><td>initial approximation on input, updated approximation on output </td></tr>
+    <tr><td class="paramname">maxInitialDistSq</td><td>the maximum squared distance between a point and its position in (guide) </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a8ab1a5ae7eeb9ae83adb8e7b78ffb94c" name="a8ab1a5ae7eeb9ae83adb8e7b78ffb94c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ab1a5ae7eeb9ae83adb8e7b78ffb94c">&#9670;&#160;</a></span>run() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::NormalsToPoints::run </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ad74e2d018e02d0b815decae208d49ceb">VertCoords</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>guide</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a1ece01b26b5fcc133eb374a3cb0a2bd7">FaceNormals</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>normals</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#ad74e2d018e02d0b815decae208d49ceb">VertCoords</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxInitialDistSq</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

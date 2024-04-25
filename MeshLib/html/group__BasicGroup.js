@@ -294,5 +294,6 @@ var group__BasicGroup =
     [ "MR::utf8ToSystem", "group__BasicGroup.html#ga01094b293542b9fcf1b2f084dbf799a9", null ],
     [ "MR::utf8ToWide", "group__BasicGroup.html#ga543d43a804760961ac67ad3689330c1d", null ],
     [ "MR::vertMapsComposition", "group__BasicGroup.html#gad522c5e76d8252c0c5a3bc55818ce589", null ],
-    [ "MR::vertMapsComposition", "group__BasicGroup.html#ga4accadafe09c169e3742b72d1e5e5733", null ]
+    [ "MR::vertMapsComposition", "group__BasicGroup.html#ga4accadafe09c169e3742b72d1e5e5733", null ],
+    [ "MR::wideToUtf8", "group__BasicGroup.html#gadb714bf1d28f6f3ded61d78dd90dd796", null ]
 ];

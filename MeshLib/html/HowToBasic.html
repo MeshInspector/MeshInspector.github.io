@@ -134,11 +134,11 @@ Basing your application on MeshLib</h1>
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html"><div class="ttname"><a href="classMR_1_1ViewerSetup.html">MR::ViewerSetup</a></div><div class="ttdef"><b>Definition</b> MRSetupViewer.h:10</div></div>
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html_a68075c17440a99ede74249da2ff6ecd9"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a68075c17440a99ede74249da2ff6ecd9">MR::ViewerSetup::setupBasePlugins</a></div><div class="ttdeci">virtual MRVIEWER_API void setupBasePlugins(Viewer *) const</div></div>
 <div class="ttc" id="aclassMR_1_1Viewer_html_a26632c3fff60e6f927d932d86503aa8f"><div class="ttname"><a href="classMR_1_1Viewer.html#a26632c3fff60e6f927d932d86503aa8f">MR::Viewer::parseLaunchParams</a></div><div class="ttdeci">static MRVIEWER_API void parseLaunchParams(LaunchParams &amp;params)</div></div>
-<div class="ttc" id="aclassMR_1_1Viewer_html_a827107af544bf966370dc8de607ed59c"><div class="ttname"><a href="classMR_1_1Viewer.html#a827107af544bf966370dc8de607ed59c">MR::Viewer::instance</a></div><div class="ttdeci">static Viewer * instance()</div><div class="ttdef"><b>Definition</b> MRViewer.h:102</div></div>
+<div class="ttc" id="aclassMR_1_1Viewer_html_a827107af544bf966370dc8de607ed59c"><div class="ttname"><a href="classMR_1_1Viewer.html#a827107af544bf966370dc8de607ed59c">MR::Viewer::instance</a></div><div class="ttdeci">static Viewer * instance()</div><div class="ttdef"><b>Definition</b> MRViewer.h:103</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_ga6804a7415d5f018fa64bf1b533af3d4f"><div class="ttname"><a href="group__BasicGroup.html#ga6804a7415d5f018fa64bf1b533af3d4f">MR::setupLoggerByDefault</a></div><div class="ttdeci">MRMESH_API void setupLoggerByDefault()</div></div>
 <div class="ttc" id="anamespaceMR_html_abf0f4c580a56e4a7e297faa1b6de7378"><div class="ttname"><a href="namespaceMR.html#abf0f4c580a56e4a7e297faa1b6de7378">MR::launchDefaultViewer</a></div><div class="ttdeci">MRVIEWER_API int launchDefaultViewer(const Viewer::LaunchParams &amp;params, const ViewerSetup &amp;setup)</div></div>
-<div class="ttc" id="astructMR_1_1LaunchParams_html"><div class="ttname"><a href="structMR_1_1LaunchParams.html">MR::LaunchParams</a></div><div class="ttdef"><b>Definition</b> MRViewer.h:47</div></div>
-<div class="ttc" id="astructMR_1_1LaunchParams_html_a25346cad277e065c937a564b8b5f003d"><div class="ttname"><a href="structMR_1_1LaunchParams.html#a25346cad277e065c937a564b8b5f003d">MR::LaunchParams::argc</a></div><div class="ttdeci">int argc</div><div class="ttdef"><b>Definition</b> MRViewer.h:67</div></div>
+<div class="ttc" id="astructMR_1_1LaunchParams_html"><div class="ttname"><a href="structMR_1_1LaunchParams.html">MR::LaunchParams</a></div><div class="ttdef"><b>Definition</b> MRViewer.h:48</div></div>
+<div class="ttc" id="astructMR_1_1LaunchParams_html_a25346cad277e065c937a564b8b5f003d"><div class="ttname"><a href="structMR_1_1LaunchParams.html#a25346cad277e065c937a564b8b5f003d">MR::LaunchParams::argc</a></div><div class="ttdeci">int argc</div><div class="ttdef"><b>Definition</b> MRViewer.h:68</div></div>
 </div><!-- fragment --><p>Then you should make your plugins, to find how have a look at <a class="el" href="StatePluginsHelp.html">State Plugins overview</a> page</p>
 <h1><a class="anchor" id="CCodeExamples"></a>
 C++ Basic Examples</h1>
@@ -386,13 +386,13 @@ C++ Basic Examples</h1>
 <div class="line">}</div>
 <div class="ttc" id="aMRICP_8h_html"><div class="ttname"><a href="MRICP_8h.html">MRICP.h</a></div></div>
 <div class="ttc" id="aMRMeshFillHole_8h_html"><div class="ttname"><a href="MRMeshFillHole_8h.html">MRMeshFillHole.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1ICP_html"><div class="ttname"><a href="classMR_1_1ICP.html">MR::ICP</a></div><div class="ttdef"><b>Definition</b> MRICP.h:145</div></div>
-<div class="ttc" id="aclassMR_1_1ICP_html_a432cc96b69c08b035a5c6bf6bf8919da"><div class="ttname"><a href="classMR_1_1ICP.html#a432cc96b69c08b035a5c6bf6bf8919da">MR::ICP::setParams</a></div><div class="ttdeci">void setParams(const ICPProperties &amp;prop)</div><div class="ttdoc">tune algorithm params before run calculateTransformation()</div><div class="ttdef"><b>Definition</b> MRICP.h:167</div></div>
+<div class="ttc" id="aclassMR_1_1ICP_html"><div class="ttname"><a href="classMR_1_1ICP.html">MR::ICP</a></div><div class="ttdef"><b>Definition</b> MRICP.h:172</div></div>
+<div class="ttc" id="aclassMR_1_1ICP_html_a432cc96b69c08b035a5c6bf6bf8919da"><div class="ttname"><a href="classMR_1_1ICP.html#a432cc96b69c08b035a5c6bf6bf8919da">MR::ICP::setParams</a></div><div class="ttdeci">void setParams(const ICPProperties &amp;prop)</div><div class="ttdoc">tune algorithm params before run calculateTransformation()</div><div class="ttdef"><b>Definition</b> MRICP.h:196</div></div>
 <div class="ttc" id="aclassMR_1_1MeshOrPoints_html"><div class="ttname"><a href="classMR_1_1MeshOrPoints.html">MR::MeshOrPoints</a></div><div class="ttdef"><b>Definition</b> MRMeshOrPoints.h:17</div></div>
 <div class="ttc" id="anamespaceMR_html_a1bdf9f3c718616502649bc34a80ac976"><div class="ttname"><a href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">MR::sqr</a></div><div class="ttdeci">constexpr T sqr(T x) noexcept</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:513</div></div>
 <div class="ttc" id="anamespaceMR_html_a2573fd184ebe72f07725ac0f2f992994"><div class="ttname"><a href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">MR::AffineXf3f</a></div><div class="ttdeci">AffineXf3&lt; float &gt; AffineXf3f</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:178</div></div>
-<div class="ttc" id="astructMR_1_1ICPProperties_html"><div class="ttname"><a href="structMR_1_1ICPProperties.html">MR::ICPProperties</a></div><div class="ttdef"><b>Definition</b> MRICP.h:103</div></div>
-<div class="ttc" id="astructMR_1_1ICPProperties_html_a43460c0d16c0f302226c8e09b6b98811"><div class="ttname"><a href="structMR_1_1ICPProperties.html#a43460c0d16c0f302226c8e09b6b98811">MR::ICPProperties::distThresholdSq</a></div><div class="ttdeci">float distThresholdSq</div><div class="ttdoc">Points pair will be counted only if squared distance between points is lower than.</div><div class="ttdef"><b>Definition</b> MRICP.h:117</div></div>
+<div class="ttc" id="astructMR_1_1ICPProperties_html"><div class="ttname"><a href="structMR_1_1ICPProperties.html">MR::ICPProperties</a></div><div class="ttdef"><b>Definition</b> MRICP.h:115</div></div>
+<div class="ttc" id="astructMR_1_1ICPProperties_html_a43460c0d16c0f302226c8e09b6b98811"><div class="ttname"><a href="structMR_1_1ICPProperties.html#a43460c0d16c0f302226c8e09b6b98811">MR::ICPProperties::distThresholdSq</a></div><div class="ttdeci">float distThresholdSq</div><div class="ttdoc">Points pair will be counted only if squared distance between points is lower than.</div><div class="ttdef"><b>Definition</b> MRICP.h:129</div></div>
 <div class="ttc" id="astructMR_1_1MeshPart_html"><div class="ttname"><a href="structMR_1_1MeshPart.html">MR::MeshPart</a></div><div class="ttdef"><b>Definition</b> MRMeshPart.h:11</div></div>
 </div><!-- fragment --><p>Example of filling holes</p>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&quot;</span></div>
@@ -692,7 +692,7 @@ Plotly visualization</div></div>
 <div class="line">                   mrmeshpy.AffineXf3f(), mrmeshpy.AffineXf3f(),</div>
 <div class="line">                   icp_sampling_voxel_size)</div>
 <div class="line">icp.setParams(icp_params)</div>
-<div class="line">icp.updateVertPairs()</div>
+<div class="line">icp.updatePointPairs()</div>
 <div class="line">xf = icp.calculateTransformation()</div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor"># Transform floating mesh</span></div>

@@ -1,6 +1,5 @@
 var classMR_1_1Viewer =
 [
-    [ "SignalStopHandler", "structMR_1_1Viewer_1_1SignalStopHandler.html", "structMR_1_1Viewer_1_1SignalStopHandler" ],
     [ "CharPressedSignal", "classMR_1_1Viewer.html#a568a2e57dd51e0ea9a8f4dc581695762", null ],
     [ "CursorEntranceSignal", "classMR_1_1Viewer.html#a2af4faf6f3c5c1c112b74670726a060f", null ],
     [ "DragDropSignal", "classMR_1_1Viewer.html#ae75b061c70e140f41530c73ec2879d99", null ],
@@ -17,6 +16,7 @@ var classMR_1_1Viewer =
     [ "PostRescaleSignal", "classMR_1_1Viewer.html#a448a65e5c8e0f80950482647b4d8a786", null ],
     [ "PostResizeSignal", "classMR_1_1Viewer.html#ab7f0983455b1dfa5ccae593d205470d9", null ],
     [ "RenderSignal", "classMR_1_1Viewer.html#a0feb0d244ebf3015b8ed14e68ebb5f12", null ],
+    [ "SignalStopHandler", "classMR_1_1Viewer.html#a442f3e2a28e10e8233b334037730020e", null ],
     [ "SpaceMouseKeySignal", "classMR_1_1Viewer.html#a4ddbf48e08044f241c126505d2914ce1", null ],
     [ "SpaceMouseMoveSignal", "classMR_1_1Viewer.html#a005ec95118bcf872af734950909d0a9b", null ],
     [ "TouchpadGestureBeginSignal", "classMR_1_1Viewer.html#a46f94e450b4fb564b98d42a724da2323", null ],

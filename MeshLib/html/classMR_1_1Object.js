@@ -48,7 +48,7 @@ var classMR_1_1Object =
     [ "operator=", "classMR_1_1Object.html#aaa2378c439796ceb7a28ad41322cb8d7", null ],
     [ "parent", "classMR_1_1Object.html#a04aa027ee39ae2bc0f084534a946c9f5", null ],
     [ "parent", "classMR_1_1Object.html#a68500213a1d6e4f3b7f9fc3806fcacd1", null ],
-    [ "propagateWorldXfChangedSignal_", "classMR_1_1Object.html#a086e646a07cc3e96ca62e35d82ea8de7", null ],
+    [ "propagateWorldXfChangedSignal_", "classMR_1_1Object.html#a5adb38fb25a021736743b9516a2da685", null ],
     [ "removeAllChildren", "classMR_1_1Object.html#a1b5609ba616723794aea4dda67727865", null ],
     [ "removeChild", "classMR_1_1Object.html#aa988bb552650c9d30e888e456f458d46", null ],
     [ "removeChild", "classMR_1_1Object.html#a291d8e281e83a1199d6da8484e798fd5", null ],

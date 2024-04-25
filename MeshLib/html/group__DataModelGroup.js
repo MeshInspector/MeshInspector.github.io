@@ -67,7 +67,7 @@ var group__DataModelGroup =
       [ "operator=", "classMR_1_1Object.html#aaa2378c439796ceb7a28ad41322cb8d7", null ],
       [ "parent", "classMR_1_1Object.html#a04aa027ee39ae2bc0f084534a946c9f5", null ],
       [ "parent", "classMR_1_1Object.html#a68500213a1d6e4f3b7f9fc3806fcacd1", null ],
-      [ "propagateWorldXfChangedSignal_", "classMR_1_1Object.html#a086e646a07cc3e96ca62e35d82ea8de7", null ],
+      [ "propagateWorldXfChangedSignal_", "classMR_1_1Object.html#a5adb38fb25a021736743b9516a2da685", null ],
       [ "removeAllChildren", "classMR_1_1Object.html#a1b5609ba616723794aea4dda67727865", null ],
       [ "removeChild", "classMR_1_1Object.html#aa988bb552650c9d30e888e456f458d46", null ],
       [ "removeChild", "classMR_1_1Object.html#a291d8e281e83a1199d6da8484e798fd5", null ],
@@ -115,6 +115,7 @@ var group__DataModelGroup =
       [ "ObjectDistanceMap", "classMR_1_1ObjectDistanceMap.html#a926ef79a1ea86d98b42dafc6eb5b112b", null ],
       [ "ObjectDistanceMap", "classMR_1_1ObjectDistanceMap.html#ade8b83ce35cdca5666db31364907dfb5", null ],
       [ "applyScale", "classMR_1_1ObjectDistanceMap.html#af8d43976f085c872629b548fdd2e0e9d", null ],
+      [ "calculateMesh", "classMR_1_1ObjectDistanceMap.html#a2099378b5a673f2758c4f516983bb435", null ],
       [ "clone", "classMR_1_1ObjectDistanceMap.html#a5128e28ab5be3c4295cfdbbf344635c5", null ],
       [ "deserializeFields_", "classMR_1_1ObjectDistanceMap.html#a7146e04a23e36d75bef98b3f61148b47", null ],
       [ "deserializeModel_", "classMR_1_1ObjectDistanceMap.html#a4da5fba695c67324cd767e717d111e76", null ],
@@ -127,10 +128,11 @@ var group__DataModelGroup =
       [ "operator=", "classMR_1_1ObjectDistanceMap.html#adf86e3267eaf731978a882003b39b9b6", null ],
       [ "serializeFields_", "classMR_1_1ObjectDistanceMap.html#a1d68e848504ae3e593e550c51d0b1ddb", null ],
       [ "serializeModel_", "classMR_1_1ObjectDistanceMap.html#a1e909391b14d808d1517355db720f5f8", null ],
-      [ "setDistanceMap", "classMR_1_1ObjectDistanceMap.html#a2e48e59348dedefb6e57a10e13ab1ce5", null ],
+      [ "setDistanceMap", "classMR_1_1ObjectDistanceMap.html#af5628811819c72559f56afcf203022d1", null ],
       [ "shallowClone", "classMR_1_1ObjectDistanceMap.html#a8e077ec531dfa8174d27d9e5a31fa47f", null ],
       [ "swapBase_", "classMR_1_1ObjectDistanceMap.html#a909bc94c17de8482114192a257f196a6", null ],
-      [ "typeName", "classMR_1_1ObjectDistanceMap.html#abaac591338fe97a8e55b49601c5c4367", null ]
+      [ "typeName", "classMR_1_1ObjectDistanceMap.html#abaac591338fe97a8e55b49601c5c4367", null ],
+      [ "updateMesh", "classMR_1_1ObjectDistanceMap.html#a3a14af241a564487b68db57800ce9402", null ]
     ] ],
     [ "MR::ObjectGcode", "classMR_1_1ObjectGcode.html", [
       [ "GcodeChangedSignal", "classMR_1_1ObjectGcode.html#ae2ed923e558fd3193c040fc672e7e537", null ],
@@ -283,6 +285,7 @@ var group__DataModelGroup =
       [ "shallowClone", "classMR_1_1ObjectLinesHolder.html#aa19c36b553adf089ebe87a6220248926", null ],
       [ "supportsVisualizeProperty", "classMR_1_1ObjectLinesHolder.html#a9ebf2f4fb4aaec33e52f3d1be2b2d74d", null ],
       [ "swapBase_", "classMR_1_1ObjectLinesHolder.html#a11d75f9e64cd1cec71eff3f65d040259", null ],
+      [ "totalLength", "classMR_1_1ObjectLinesHolder.html#a8aa92410cdf7cc0bd3139eb5f31b8d11", null ],
       [ "typeName", "classMR_1_1ObjectLinesHolder.html#a67bbdfa8042874e1a7033f78bb96be59", null ],
       [ "updateLinesColorMap", "classMR_1_1ObjectLinesHolder.html#a59e3e83d9bf413fdb9a84fedda40f08f", null ],
       [ "linesColorMap_", "classMR_1_1ObjectLinesHolder.html#a58e224092d5971b40208e6d4a15e6862", null ],

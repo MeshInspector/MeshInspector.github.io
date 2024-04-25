@@ -180,9 +180,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga9ec7f0e4e736da31de012ad0e33f6b33" id="r_ga9ec7f0e4e736da31de012ad0e33f6b33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#adeac7b9dc20e12d20ff95459d9bac413">Polyline2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9ec7f0e4e736da31de012ad0e33f6b33">MR::contourSubtract</a> (const <a class="el" href="namespaceMR.html#adeac7b9dc20e12d20ff95459d9bac413">Polyline2</a> &amp;contoursA, const <a class="el" href="namespaceMR.html#adeac7b9dc20e12d20ff95459d9bac413">Polyline2</a> &amp;contoursB, const <a class="el" href="structMR_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a> &amp;params, float offsetInside=0.f)</td></tr>
 <tr class="memdesc:ga9ec7f0e4e736da31de012ad0e33f6b33"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the difference between the shapes bounded by contoursA and the shapes bounded by contoursB  <br /></td></tr>
 <tr class="separator:ga9ec7f0e4e736da31de012ad0e33f6b33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga14e2ca40329157ab1e6505de903fee55" id="r_ga14e2ca40329157ab1e6505de903fee55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga14e2ca40329157ab1e6505de903fee55">MR::distanceMapToMesh</a> (const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;distMap, const <a class="el" href="structMR_1_1DistanceMapToWorld.html">DistanceMapToWorld</a> &amp;toWorldStruct)</td></tr>
-<tr class="memdesc:ga14e2ca40329157ab1e6505de903fee55"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts distance map back to the mesh fragment with presented params  <br /></td></tr>
-<tr class="separator:ga14e2ca40329157ab1e6505de903fee55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac6c39b7fdd12850e1bd251c800a728c1" id="r_gac6c39b7fdd12850e1bd251c800a728c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac6c39b7fdd12850e1bd251c800a728c1">MR::distanceMapToMesh</a> (const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;distMap, const <a class="el" href="structMR_1_1DistanceMapToWorld.html">DistanceMapToWorld</a> &amp;toWorldStruct, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memdesc:gac6c39b7fdd12850e1bd251c800a728c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts distance map back to the mesh fragment with presented params  <br /></td></tr>
+<tr class="separator:gac6c39b7fdd12850e1bd251c800a728c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad32dba15de75a916f90af8e79efca23c" id="r_gad32dba15de75a916f90af8e79efca23c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a2ce7373768bdeba5943fa20acf85e769">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad32dba15de75a916f90af8e79efca23c">MR::saveDistanceMapToImage</a> (const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;distMap, const std::filesystem::path &amp;filename, float threshold=1.f/255)</td></tr>
 <tr class="separator:gad32dba15de75a916f90af8e79efca23c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac3f8499b08bd2a01ac723fd015b347eb" id="r_gac3f8499b08bd2a01ac723fd015b347eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac3f8499b08bd2a01ac723fd015b347eb">MR::convertImageToDistanceMap</a> (const <a class="el" href="structMR_1_1Image.html">Image</a> &amp;image, float threshold=1.f/255)</td></tr>
@@ -636,21 +636,26 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga14e2ca40329157ab1e6505de903fee55" name="ga14e2ca40329157ab1e6505de903fee55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga14e2ca40329157ab1e6505de903fee55">&#9670;&#160;</a></span>distanceMapToMesh()</h2>
+<a id="gac6c39b7fdd12850e1bd251c800a728c1" name="gac6c39b7fdd12850e1bd251c800a728c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac6c39b7fdd12850e1bd251c800a728c1">&#9670;&#160;</a></span>distanceMapToMesh()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a> MR::distanceMapToMesh </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt; MR::distanceMapToMesh </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>distMap</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1DistanceMapToWorld.html">DistanceMapToWorld</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>toWorldStruct</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DistanceMapToWorld.html">DistanceMapToWorld</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>toWorldStruct</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

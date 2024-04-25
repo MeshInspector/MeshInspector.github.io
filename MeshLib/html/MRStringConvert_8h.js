@@ -17,5 +17,6 @@ var MRStringConvert_8h =
     [ "systemToUtf8", "MRStringConvert_8h.html#ga9a6b64a85d116ca32c7ff8b93ca80da1", null ],
     [ "utf8string", "MRStringConvert_8h.html#ga98812dc656fac3fb9c565e7fc0c7922d", null ],
     [ "utf8ToSystem", "MRStringConvert_8h.html#ga01094b293542b9fcf1b2f084dbf799a9", null ],
-    [ "utf8ToWide", "MRStringConvert_8h.html#ga543d43a804760961ac67ad3689330c1d", null ]
+    [ "utf8ToWide", "MRStringConvert_8h.html#ga543d43a804760961ac67ad3689330c1d", null ],
+    [ "wideToUtf8", "MRStringConvert_8h.html#gadb714bf1d28f6f3ded61d78dd90dd796", null ]
 ];

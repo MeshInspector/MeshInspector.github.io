@@ -144,6 +144,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a965145c8345c2af57bdd338b3fd038b4" id="r_a965145c8345c2af57bdd338b3fd038b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a965145c8345c2af57bdd338b3fd038b4">newFaces</a> () const</td></tr>
 <tr class="memdesc:a965145c8345c2af57bdd338b3fd038b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns only new faces that are created during boolean operation.  <br /></td></tr>
 <tr class="separator:a965145c8345c2af57bdd338b3fd038b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab684f42e7c2f76fd478da500c3b2ddcd" id="r_ab684f42e7c2f76fd478da500c3b2ddcd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab684f42e7c2f76fd478da500c3b2ddcd">filteredOldFaceBitSet</a> (const <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> &amp;oldBS, <a class="el" href="#ad0b1836dae4789a5640522e69a889587">MapObject</a> obj)</td></tr>
+<tr class="memdesc:ab684f42e7c2f76fd478da500c3b2ddcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns updated oldBS leaving only faces that has corresponding ones in result mesh  <br /></td></tr>
+<tr class="separator:ab684f42e7c2f76fd478da500c3b2ddcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -211,6 +214,29 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab684f42e7c2f76fd478da500c3b2ddcd" name="ab684f42e7c2f76fd478da500c3b2ddcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab684f42e7c2f76fd478da500c3b2ddcd">&#9670;&#160;</a></span>filteredOldFaceBitSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> MR::BooleanResultMapper::filteredOldFaceBitSet </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oldBS</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ad0b1836dae4789a5640522e69a889587">MapObject</a></td>          <td class="paramname"><span class="paramname"><em>obj</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns updated oldBS leaving only faces that has corresponding ones in result mesh </p>
+
+</div>
+</div>
 <a id="ac5f5c7f84c16ba4d08fd3b45d06c5914" name="ac5f5c7f84c16ba4d08fd3b45d06c5914"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac5f5c7f84c16ba4d08fd3b45d06c5914">&#9670;&#160;</a></span>map() <span class="overload">[1/3]</span></h2>
 

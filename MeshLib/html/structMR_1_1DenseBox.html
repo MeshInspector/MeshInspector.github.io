@@ -110,6 +110,12 @@ $(function(){initNavTree('structMR_1_1DenseBox.html',''); initResizable(); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a7c79113a97744efd6bcbc544553fe582" id="r_a7c79113a97744efd6bcbc544553fe582"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c79113a97744efd6bcbc544553fe582">DenseBox</a> (const std::vector&lt; <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &gt; &amp;points, const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> *xf=nullptr)</td></tr>
+<tr class="memdesc:a7c79113a97744efd6bcbc544553fe582"><td class="mdescLeft">&#160;</td><td class="mdescRight">Include given points into this dense box.  <br /></td></tr>
+<tr class="separator:a7c79113a97744efd6bcbc544553fe582"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad18654ddb91781bc8e4d1417ce19a08e" id="r_ad18654ddb91781bc8e4d1417ce19a08e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad18654ddb91781bc8e4d1417ce19a08e">DenseBox</a> (const std::vector&lt; <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &gt; &amp;points, const std::vector&lt; float &gt; &amp;weights, const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> *xf=nullptr)</td></tr>
+<tr class="memdesc:ad18654ddb91781bc8e4d1417ce19a08e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Include given weighed points into this dense box.  <br /></td></tr>
+<tr class="separator:ad18654ddb91781bc8e4d1417ce19a08e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38590d0d422769798b0be5129be63d55" id="r_a38590d0d422769798b0be5129be63d55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38590d0d422769798b0be5129be63d55">DenseBox</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> *xf=nullptr)</td></tr>
 <tr class="memdesc:a38590d0d422769798b0be5129be63d55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Include mesh part into this dense box.  <br /></td></tr>
 <tr class="separator:a38590d0d422769798b0be5129be63d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,8 +147,59 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p>Structure to hold and work with dense box</p>
 <p>Scalar operations that are not provided in this struct can be called via <code><a class="el" href="#a0ea02f370dc76e349984c62b5a3f6557" title="return box in its space">box()</a></code> For example <code><a class="el" href="#a0ea02f370dc76e349984c62b5a3f6557" title="return box in its space">box()</a>.<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size()</a></code>, <code><a class="el" href="#a0ea02f370dc76e349984c62b5a3f6557" title="return box in its space">box()</a>.diagonal()</code> or <code><a class="el" href="#a0ea02f370dc76e349984c62b5a3f6557" title="return box in its space">box()</a>.volume()</code> Non const operations are not allowed for dense box because it can spoil density </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a7c79113a97744efd6bcbc544553fe582" name="a7c79113a97744efd6bcbc544553fe582"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c79113a97744efd6bcbc544553fe582">&#9670;&#160;</a></span>DenseBox() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR::DenseBox::DenseBox </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>xf</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Include given points into this dense box. </p>
+
+</div>
+</div>
+<a id="ad18654ddb91781bc8e4d1417ce19a08e" name="ad18654ddb91781bc8e4d1417ce19a08e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad18654ddb91781bc8e4d1417ce19a08e">&#9670;&#160;</a></span>DenseBox() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR::DenseBox::DenseBox </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; float &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>weights</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>xf</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Include given weighed points into this dense box. </p>
+
+</div>
+</div>
 <a id="a38590d0d422769798b0be5129be63d55" name="a38590d0d422769798b0be5129be63d55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38590d0d422769798b0be5129be63d55">&#9670;&#160;</a></span>DenseBox() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a38590d0d422769798b0be5129be63d55">&#9670;&#160;</a></span>DenseBox() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -165,7 +222,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="aee07541d158133fc4c85e7170de4d3e7" name="aee07541d158133fc4c85e7170de4d3e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee07541d158133fc4c85e7170de4d3e7">&#9670;&#160;</a></span>DenseBox() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aee07541d158133fc4c85e7170de4d3e7">&#9670;&#160;</a></span>DenseBox() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -188,7 +245,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="aac374ad90e2a96d261ba863c1d6f46e2" name="aac374ad90e2a96d261ba863c1d6f46e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac374ad90e2a96d261ba863c1d6f46e2">&#9670;&#160;</a></span>DenseBox() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aac374ad90e2a96d261ba863c1d6f46e2">&#9670;&#160;</a></span>DenseBox() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

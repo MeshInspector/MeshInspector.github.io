@@ -2,6 +2,7 @@ var structMR_1_1UnitToStringParams =
 [
     [ "operator==", "structMR_1_1UnitToStringParams.html#ae183c6cb52762dc16f91e61c2be6df24", null ],
     [ "allowNegativeZero", "structMR_1_1UnitToStringParams.html#a9e286377b13d0f7c4f186abcb0e2ee19", null ],
+    [ "decorationFormatString", "structMR_1_1UnitToStringParams.html#a7154a0976d68f4cf955516bbd1e8c3db", null ],
     [ "degreesMode", "structMR_1_1UnitToStringParams.html#a2d95d4ba6210441527d210b9e677228f", null ],
     [ "leadingZero", "structMR_1_1UnitToStringParams.html#a09eebb06769bb4dc52058f79fae207bd", null ],
     [ "precision", "structMR_1_1UnitToStringParams.html#a0f9d2ff9175ae13c5b2fb39d68ec515d", null ],

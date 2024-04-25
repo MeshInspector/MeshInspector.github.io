@@ -9,7 +9,7 @@ var classMR_1_1SurfaceContoursWidget =
     [ "clear", "classMR_1_1SurfaceContoursWidget.html#a442f7ff6268c4d342cb3576226ce07f3", null ],
     [ "closeContour", "classMR_1_1SurfaceContoursWidget.html#a8f3c2fdfac1c05154b5c5678806b312a", null ],
     [ "create", "classMR_1_1SurfaceContoursWidget.html#aa2de75b8f4ee5ac6636c3d79643129e1", null ],
-    [ "enable", "classMR_1_1SurfaceContoursWidget.html#a3d2a2c82625e6adf6bcd467ce1e365f4", null ],
+    [ "enable", "classMR_1_1SurfaceContoursWidget.html#ab191d1ca8300489b71ef591d0e549395", null ],
     [ "getActivePoint", "classMR_1_1SurfaceContoursWidget.html#a9c431d937f0bfefb8fb898b61dd6c099", null ],
     [ "getActiveSurfacePoint", "classMR_1_1SurfaceContoursWidget.html#a26dae9e0f33bd3584d3389e4483b5bc5", null ],
     [ "getSurfaceContour", "classMR_1_1SurfaceContoursWidget.html#a20978054501178a01f106b246f2e7872", null ],
@@ -22,5 +22,6 @@ var classMR_1_1SurfaceContoursWidget =
     [ "AddPointActionPickerPoint", "classMR_1_1SurfaceContoursWidget.html#a17351932f521bcc8680a5cd409ff6a83", null ],
     [ "ChangePointActionPickerPoint", "classMR_1_1SurfaceContoursWidget.html#a04b939afb7bf8b265a3860c30df1d80d", null ],
     [ "RemovePointActionPickerPoint", "classMR_1_1SurfaceContoursWidget.html#afa281665f1a80c27506cb5b70bac3a9c", null ],
+    [ "SurfaceContoursWidgetClearAction", "classMR_1_1SurfaceContoursWidget.html#af2cdd3ac4ccfbba1371c9cc0b6bb6f04", null ],
     [ "params", "classMR_1_1SurfaceContoursWidget.html#a398c3b95e1663af7989bf597227f58bb", null ]
 ];

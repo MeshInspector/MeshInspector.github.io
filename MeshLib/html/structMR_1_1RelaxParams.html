@@ -125,15 +125,21 @@ $(function(){initNavTree('structMR_1_1RelaxParams.html',''); initResizable(); })
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:af6f0f001e98c26c2b38d1d51b3f3ef1f" id="r_af6f0f001e98c26c2b38d1d51b3f3ef1f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6f0f001e98c26c2b38d1d51b3f3ef1f">iterations</a> {1}</td></tr>
+<tr class="memitem:af6f0f001e98c26c2b38d1d51b3f3ef1f" id="r_af6f0f001e98c26c2b38d1d51b3f3ef1f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6f0f001e98c26c2b38d1d51b3f3ef1f">iterations</a> = 1</td></tr>
 <tr class="memdesc:af6f0f001e98c26c2b38d1d51b3f3ef1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of iterations  <br /></td></tr>
 <tr class="separator:af6f0f001e98c26c2b38d1d51b3f3ef1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abeb08d7e70411cf9ef2826c0f058b909" id="r_abeb08d7e70411cf9ef2826c0f058b909"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abeb08d7e70411cf9ef2826c0f058b909">region</a> {nullptr}</td></tr>
+<tr class="memitem:abeb08d7e70411cf9ef2826c0f058b909" id="r_abeb08d7e70411cf9ef2826c0f058b909"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abeb08d7e70411cf9ef2826c0f058b909">region</a> = nullptr</td></tr>
 <tr class="memdesc:abeb08d7e70411cf9ef2826c0f058b909"><td class="mdescLeft">&#160;</td><td class="mdescRight">region to relax  <br /></td></tr>
 <tr class="separator:abeb08d7e70411cf9ef2826c0f058b909"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f58a3b0b7e5c09209f53edd90b4371a" id="r_a7f58a3b0b7e5c09209f53edd90b4371a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f58a3b0b7e5c09209f53edd90b4371a">force</a> {0.5f}</td></tr>
+<tr class="memitem:a7f58a3b0b7e5c09209f53edd90b4371a" id="r_a7f58a3b0b7e5c09209f53edd90b4371a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f58a3b0b7e5c09209f53edd90b4371a">force</a> = 0.5f</td></tr>
 <tr class="memdesc:a7f58a3b0b7e5c09209f53edd90b4371a"><td class="mdescLeft">&#160;</td><td class="mdescRight">speed of relaxing, typical values (0.0, 0.5]  <br /></td></tr>
 <tr class="separator:a7f58a3b0b7e5c09209f53edd90b4371a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8d07089d4abc1f4c2ccd3018e66e23a" id="r_ae8d07089d4abc1f4c2ccd3018e66e23a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8d07089d4abc1f4c2ccd3018e66e23a">limitNearInitial</a> = false</td></tr>
+<tr class="memdesc:ae8d07089d4abc1f4c2ccd3018e66e23a"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true then maximal displacement of each point during denoising will be limited  <br /></td></tr>
+<tr class="separator:ae8d07089d4abc1f4c2ccd3018e66e23a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2779bd159120c7d84c4d2e13186af7e" id="r_ae2779bd159120c7d84c4d2e13186af7e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2779bd159120c7d84c4d2e13186af7e">maxInitialDist</a> = 0</td></tr>
+<tr class="memdesc:ae2779bd159120c7d84c4d2e13186af7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false  <br /></td></tr>
+<tr class="separator:ae2779bd159120c7d84c4d2e13186af7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a7f58a3b0b7e5c09209f53edd90b4371a" name="a7f58a3b0b7e5c09209f53edd90b4371a"></a>
@@ -143,7 +149,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float MR::RelaxParams::force {0.5f}</td>
+          <td class="memname">float MR::RelaxParams::force = 0.5f</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -159,12 +165,44 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int MR::RelaxParams::iterations {1}</td>
+          <td class="memname">int MR::RelaxParams::iterations = 1</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>number of iterations </p>
+
+</div>
+</div>
+<a id="ae8d07089d4abc1f4c2ccd3018e66e23a" name="ae8d07089d4abc1f4c2ccd3018e66e23a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8d07089d4abc1f4c2ccd3018e66e23a">&#9670;&#160;</a></span>limitNearInitial</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::RelaxParams::limitNearInitial = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if true then maximal displacement of each point during denoising will be limited </p>
+
+</div>
+</div>
+<a id="ae2779bd159120c7d84c4d2e13186af7e" name="ae2779bd159120c7d84c4d2e13186af7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2779bd159120c7d84c4d2e13186af7e">&#9670;&#160;</a></span>maxInitialDist</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::RelaxParams::maxInitialDist = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false </p>
 
 </div>
 </div>
@@ -175,7 +213,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="namespaceMR.html#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a>* MR::RelaxParams::region {nullptr}</td>
+          <td class="memname">const <a class="el" href="namespaceMR.html#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a>* MR::RelaxParams::region = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">

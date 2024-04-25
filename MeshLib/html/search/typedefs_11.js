@@ -9,7 +9,7 @@ var searchData=
   ['renderdimensionobject_6',['RenderDimensionObject',['../namespaceMR.html#af7bd0e42ef0d3a181e0af57d15d8bf0a',1,'MR']]],
   ['rendersignal_7',['RenderSignal',['../classMR_1_1Viewer.html#a0feb0d244ebf3015b8ed14e68ebb5f12',1,'MR::Viewer']]],
   ['responsecallback_8',['ResponseCallback',['../classMR_1_1WebRequest.html#a2ebe713343abb8bcc05ddc7d74efa880',1,'MR::WebRequest']]],
-  ['result_5ftype_9',['result_type',['../structMR_1_1Viewer_1_1SignalStopHandler.html#a2081bf492c269c66a3028f263ca499ab',1,'MR::Viewer::SignalStopHandler']]],
+  ['result_5ftype_9',['result_type',['../structMR_1_1StopOnTrueCombiner.html#ae157bdf17a7f295d510dd732d523f78f',1,'MR::StopOnTrueCombiner']]],
   ['rotationaxesorder_10',['RotationAxesOrder',['../classMR_1_1CNCMachineSettings.html#ac6d8378bba6ed1303ede82290d59c97d',1,'MR::CNCMachineSettings']]],
   ['rotationlimits_11',['RotationLimits',['../classMR_1_1CNCMachineSettings.html#af2bd82f7a688dac76bdbfcf5f4f38ce8',1,'MR::CNCMachineSettings']]]
 ];

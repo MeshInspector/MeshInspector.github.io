@@ -7,6 +7,7 @@ var structMR_1_1BooleanResultMapper =
       [ "Count", "structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "BooleanResultMapper", "structMR_1_1BooleanResultMapper.html#a00bac3eecd35b44f05f28f7cb1f3c0d9", null ],
+    [ "filteredOldFaceBitSet", "structMR_1_1BooleanResultMapper.html#ab684f42e7c2f76fd478da500c3b2ddcd", null ],
     [ "map", "structMR_1_1BooleanResultMapper.html#ac5f5c7f84c16ba4d08fd3b45d06c5914", null ],
     [ "map", "structMR_1_1BooleanResultMapper.html#a730a4aa776837ed09143d106e54c085b", null ],
     [ "map", "structMR_1_1BooleanResultMapper.html#ac601634b2fe9f6fe7b9531d6c8bf6d7c", null ],

@@ -151,8 +151,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab68c3e721d3bd37dc6a085f40ecd825c" id="r_ab68c3e721d3bd37dc6a085f40ecd825c"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab68c3e721d3bd37dc6a085f40ecd825c">getClassName</a> () const override</td></tr>
 <tr class="memdesc:ab68c3e721d3bd37dc6a085f40ecd825c"><td class="mdescLeft">&#160;</td><td class="mdescRight">return human readable name of subclass  <br /></td></tr>
 <tr class="separator:ab68c3e721d3bd37dc6a085f40ecd825c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e48e59348dedefb6e57a10e13ab1ce5" id="r_a2e48e59348dedefb6e57a10e13ab1ce5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e48e59348dedefb6e57a10e13ab1ce5">setDistanceMap</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt; &amp;dmap, const <a class="el" href="structMR_1_1DistanceMapToWorld.html">DistanceMapToWorld</a> &amp;toWorldParams)</td></tr>
-<tr class="separator:a2e48e59348dedefb6e57a10e13ab1ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5628811819c72559f56afcf203022d1" id="r_af5628811819c72559f56afcf203022d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5628811819c72559f56afcf203022d1">setDistanceMap</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt; &amp;dmap, const <a class="el" href="structMR_1_1DistanceMapToWorld.html">DistanceMapToWorld</a> &amp;toWorldParams, bool needUpdateMesh=true, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:af5628811819c72559f56afcf203022d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2099378b5a673f2758c4f516983bb435" id="r_a2099378b5a673f2758c4f516983bb435"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2099378b5a673f2758c4f516983bb435">calculateMesh</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={}) const</td></tr>
+<tr class="memdesc:a2099378b5a673f2758c4f516983bb435"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a grid for this object  <br /></td></tr>
+<tr class="separator:a2099378b5a673f2758c4f516983bb435"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a14af241a564487b68db57800ce9402" id="r_a3a14af241a564487b68db57800ce9402"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a14af241a564487b68db57800ce9402">updateMesh</a> (const std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; &amp;<a class="el" href="classMR_1_1ObjectMeshHolder.html#af6739310dc9f9e21c461819ea47dc086">mesh</a>)</td></tr>
+<tr class="memdesc:a3a14af241a564487b68db57800ce9402"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the grid to the current one  <br /></td></tr>
+<tr class="separator:a3a14af241a564487b68db57800ce9402"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8879bbea5e2bb99096174220e0cc2504" id="r_a8879bbea5e2bb99096174220e0cc2504"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8879bbea5e2bb99096174220e0cc2504">getDistanceMap</a> () const</td></tr>
 <tr class="separator:a8879bbea5e2bb99096174220e0cc2504"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ad6dff58820964d2e9399707ebe2f91" id="r_a8ad6dff58820964d2e9399707ebe2f91"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ad6dff58820964d2e9399707ebe2f91">hasModel</a> () const override</td></tr>
@@ -715,8 +721,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:ac5bae69ebe807554a5e9f8b91a89dfd6 inherit pro_methods_classMR_1_1Object" id="r_ac5bae69ebe807554a5e9f8b91a89dfd6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#ac5bae69ebe807554a5e9f8b91a89dfd6">Object</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;obj)=default</td></tr>
 <tr class="memdesc:ac5bae69ebe807554a5e9f8b91a89dfd6 inherit pro_methods_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">user should not be able to call copy implicitly, use <a class="el" href="classMR_1_1Object.html#ae0f00298204b65ca49b4daaa9a39f5c5" title="clones current object only, without parent and/or children">clone()</a> function instead  <br /></td></tr>
 <tr class="separator:ac5bae69ebe807554a5e9f8b91a89dfd6 inherit pro_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a086e646a07cc3e96ca62e35d82ea8de7 inherit pro_methods_classMR_1_1Object" id="r_a086e646a07cc3e96ca62e35d82ea8de7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a086e646a07cc3e96ca62e35d82ea8de7">propagateWorldXfChangedSignal_</a> ()</td></tr>
-<tr class="separator:a086e646a07cc3e96ca62e35d82ea8de7 inherit pro_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5adb38fb25a021736743b9516a2da685 inherit pro_methods_classMR_1_1Object" id="r_a5adb38fb25a021736743b9516a2da685"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a5adb38fb25a021736743b9516a2da685">propagateWorldXfChangedSignal_</a> ()</td></tr>
+<tr class="separator:a5adb38fb25a021736743b9516a2da685 inherit pro_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -1041,6 +1047,25 @@ Additional Inherited Members</h2></td></tr>
 <p>scale object size (all point positions) </p>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1ObjectMeshHolder.html#afb9471c0d9422d4474378ed1fd622724">MR::ObjectMeshHolder</a>.</p>
+
+</div>
+</div>
+<a id="a2099378b5a673f2758c4f516983bb435" name="a2099378b5a673f2758c4f516983bb435"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2099378b5a673f2758c4f516983bb435">&#9670;&#160;</a></span>calculateMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::ObjectDistanceMap::calculateMesh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>creates a grid for this object </p>
 
 </div>
 </div>
@@ -1371,24 +1396,35 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a2e48e59348dedefb6e57a10e13ab1ce5" name="a2e48e59348dedefb6e57a10e13ab1ce5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e48e59348dedefb6e57a10e13ab1ce5">&#9670;&#160;</a></span>setDistanceMap()</h2>
+<a id="af5628811819c72559f56afcf203022d1" name="af5628811819c72559f56afcf203022d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5628811819c72559f56afcf203022d1">&#9670;&#160;</a></span>setDistanceMap()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectDistanceMap::setDistanceMap </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::ObjectDistanceMap::setDistanceMap </td>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>dmap</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1DistanceMapToWorld.html">DistanceMapToWorld</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>toWorldParams</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DistanceMapToWorld.html">DistanceMapToWorld</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>toWorldParams</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>needUpdateMesh</em><span class="paramdefsep"> = </span><span class="paramdefval">true</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>rebuild mesh according sets <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a>&amp; <a class="el" href="structMR_1_1DistanceMapToWorld.html" title="This structure store data to transform distance map to world coordinates.">DistanceMapToWorld</a> if it is executed in the rendering stream then you can set the needUpdateMesh = true otherwise you should set the needUpdateMesh = false and call the function calculateMesh and after finishing in the rendering stream, call the function updateMesh </p>
 
 </div>
 </div>
@@ -1498,6 +1534,25 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3a14af241a564487b68db57800ce9402" name="a3a14af241a564487b68db57800ce9402"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a14af241a564487b68db57800ce9402">&#9670;&#160;</a></span>updateMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectDistanceMap::updateMesh </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>updates the grid to the current one </p>
 
 </div>
 </div>

@@ -10,6 +10,7 @@ var MRMeshFixer_8h =
     [ "findHoleComplicatingFaces", "MRMeshFixer_8h.html#ga464e6b15a1c089223ed826d849cd69cf", null ],
     [ "findMultipleEdges", "MRMeshFixer_8h.html#ga0ee23854db52f730b02f8182b48c877b", null ],
     [ "findNRingVerts", "MRMeshFixer_8h.html#ga248c2b6b8c9d3915cc4d7e94a2727734", null ],
+    [ "findRepeatedVertsOnHoleBd", "MRMeshFixer_8h.html#ga8e2b8d3db10183b66f463f70a7eac5b4", null ],
     [ "findShortEdges", "MRMeshFixer_8h.html#ga5818ce6e1345fdd07bd11923c61bd7b4", null ],
     [ "fixMultipleEdges", "MRMeshFixer_8h.html#ga52390270e3fbf5b7e8766374def17f07", null ],
     [ "fixMultipleEdges", "MRMeshFixer_8h.html#gaf36265bde92b52d2e7bc0142abd82206", null ],

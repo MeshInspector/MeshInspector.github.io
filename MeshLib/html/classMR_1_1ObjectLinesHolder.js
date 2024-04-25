@@ -32,6 +32,7 @@ var classMR_1_1ObjectLinesHolder =
     [ "shallowClone", "classMR_1_1ObjectLinesHolder.html#aa19c36b553adf089ebe87a6220248926", null ],
     [ "supportsVisualizeProperty", "classMR_1_1ObjectLinesHolder.html#a9ebf2f4fb4aaec33e52f3d1be2b2d74d", null ],
     [ "swapBase_", "classMR_1_1ObjectLinesHolder.html#a11d75f9e64cd1cec71eff3f65d040259", null ],
+    [ "totalLength", "classMR_1_1ObjectLinesHolder.html#a8aa92410cdf7cc0bd3139eb5f31b8d11", null ],
     [ "typeName", "classMR_1_1ObjectLinesHolder.html#a67bbdfa8042874e1a7033f78bb96be59", null ],
     [ "updateLinesColorMap", "classMR_1_1ObjectLinesHolder.html#a59e3e83d9bf413fdb9a84fedda40f08f", null ],
     [ "linesColorMap_", "classMR_1_1ObjectLinesHolder.html#a58e224092d5971b40208e6d4a15e6862", null ],

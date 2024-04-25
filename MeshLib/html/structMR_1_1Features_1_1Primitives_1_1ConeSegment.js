@@ -12,11 +12,11 @@ var structMR_1_1Features_1_1Primitives_1_1ConeSegment =
     [ "length", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a246d93a7bb2aaa83191d515884303ecb", null ],
     [ "untruncateCone", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a52d74c8c1581a73964681c4273172f52", null ],
     [ "operator==", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a0a599e730d0a62e6972fecbb9a4e13b1", null ],
-    [ "center", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a1394116b894c9c0f5f48ddc29c6d9b9c", null ],
     [ "dir", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a9f603438a2e12d81289b9696c05cdcd4", null ],
     [ "hollow", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aed7a509cc23a908a6cf803007694eabf", null ],
     [ "negativeLength", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aa12508a43caab5ab1a44e29db684592d", null ],
     [ "negativeSideRadius", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#abf9a80b6307631742a88be4930217ef9", null ],
     [ "positiveLength", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#ac1751a2024b0d6daec6aedd03c36ba2c", null ],
-    [ "positiveSideRadius", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a6d82dd73c4e7a2c5455773425fb17871", null ]
+    [ "positiveSideRadius", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a6d82dd73c4e7a2c5455773425fb17871", null ],
+    [ "referencePoint", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a40eff23fbea04d4a72390fda48c04bfd", null ]
 ];

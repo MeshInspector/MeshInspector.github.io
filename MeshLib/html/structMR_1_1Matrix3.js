@@ -1,5 +1,6 @@
 var structMR_1_1Matrix3 =
 [
+    [ "QR", "structMR_1_1Matrix3_1_1QR.html", "structMR_1_1Matrix3_1_1QR" ],
     [ "ValueType", "structMR_1_1Matrix3.html#a09d8a7ceef09453960f965518848f683", null ],
     [ "VectorType", "structMR_1_1Matrix3.html#a4c4bd12ba0e345719f85975e5e76f7cc", null ],
     [ "Matrix3", "structMR_1_1Matrix3.html#af81c56fb03d0cd84e6449455ea224282", null ],
@@ -16,8 +17,8 @@ var structMR_1_1Matrix3 =
     [ "operator/=", "structMR_1_1Matrix3.html#a840c3fa5ec9810b4d6d3324faeabbc7d", null ],
     [ "operator[]", "structMR_1_1Matrix3.html#a3571bc7afa9d380e1da582750e9e0db2", null ],
     [ "operator[]", "structMR_1_1Matrix3.html#a9d62fe6c280333946cbf8be544ccba2e", null ],
+    [ "qr", "structMR_1_1Matrix3.html#ac913b105d8335b1b6a779f68117dda18", null ],
     [ "toEulerAngles", "structMR_1_1Matrix3.html#a73232fe995aba6fb3e7bb7a7f20be741", null ],
-    [ "toScale", "structMR_1_1Matrix3.html#a7497550607521f88a825f8d4ad5c5d2c", null ],
     [ "trace", "structMR_1_1Matrix3.html#a8da74330f294845348d2dee9fdf81eb4", null ],
     [ "transposed", "structMR_1_1Matrix3.html#a112f3a49d572819df2602fdfb0bcbcfb", null ],
     [ "dot", "structMR_1_1Matrix3.html#ab4a3e6558d044290a3821b5981c124f5", null ],
