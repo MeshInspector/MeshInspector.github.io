@@ -684,7 +684,7 @@ Plotly visualization</div></div>
 <div class="line">diagonal = meshFixed.getBoundingBox().diagonal()</div>
 <div class="line">icp_sampling_voxel_size = diagonal * 0.01  # To sample points from <span class="keywordtype">object</span></div>
 <div class="line">icp_params = mrmeshpy.ICPProperties()</div>
-<div class="line">icp_params.distTresholdSq = (diagonal * 0.1) ** 2  # Use points pairs with maximum <a class="code hl_function" href="group__IntersectionGroup.html#ga9f71b2c20cd6a91f42d8d76dbc038190">distance</a> specified</div>
+<div class="line">icp_params.distThresholdSq = (diagonal * 0.1) ** 2  # Use points pairs with maximum <a class="code hl_function" href="group__IntersectionGroup.html#ga9f71b2c20cd6a91f42d8d76dbc038190">distance</a> specified</div>
 <div class="line">icp_params.exitVal = diagonal * 0.003  # Stop when <span class="keyword">this</span> <a class="code hl_function" href="group__IntersectionGroup.html#ga9f71b2c20cd6a91f42d8d76dbc038190">distance</a> reached</div>
 <div class="line"> </div>
 <div class="line"># Calculate transformation</div>
@@ -692,7 +692,6 @@ Plotly visualization</div></div>
 <div class="line">                   mrmeshpy.AffineXf3f(), mrmeshpy.AffineXf3f(),</div>
 <div class="line">                   icp_sampling_voxel_size)</div>
 <div class="line">icp.setParams(icp_params)</div>
-<div class="line">icp.updatePointPairs()</div>
 <div class="line">xf = icp.calculateTransformation()</div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor"># Transform floating mesh</span></div>
