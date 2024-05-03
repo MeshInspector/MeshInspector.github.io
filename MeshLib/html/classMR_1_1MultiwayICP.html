@@ -143,6 +143,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6cf2d972398ce6bf00a439a2cbff640d" id="r_a6cf2d972398ce6bf00a439a2cbff640d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cf2d972398ce6bf00a439a2cbff640d">getNumActivePairs</a> (<a class="el" href="namespaceMR.html#a2ade014f4db362f8482d5d7addcae630">MeshOrPointsId</a> id) const</td></tr>
 <tr class="memdesc:a6cf2d972398ce6bf00a439a2cbff640d"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the number of active point pairs of given object  <br /></td></tr>
 <tr class="separator:a6cf2d972398ce6bf00a439a2cbff640d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae36a340dd4d403cc4894bc8a8b87d0d6" id="r_ae36a340dd4d403cc4894bc8a8b87d0d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae36a340dd4d403cc4894bc8a8b87d0d6">setPerIterationCallback</a> (std::function&lt; void(int inter)&gt; callback)</td></tr>
+<tr class="memdesc:ae36a340dd4d403cc4894bc8a8b87d0d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets callback that will be called for each iteration  <br /></td></tr>
+<tr class="separator:ae36a340dd4d403cc4894bc8a8b87d0d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a088270c2bee7aaaea93a48fc5d48c2fd" id="r_a088270c2bee7aaaea93a48fc5d48c2fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a088270c2bee7aaaea93a48fc5d48c2fd">getStatusInfo</a> () const</td></tr>
 <tr class="memdesc:a088270c2bee7aaaea93a48fc5d48c2fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns status info string  <br /></td></tr>
 <tr class="separator:a088270c2bee7aaaea93a48fc5d48c2fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -388,6 +391,33 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>tune algorithm params before run <a class="el" href="#a8def6bae77360ddd908705f91d53717c">calculateTransformations()</a> </p>
+
+</div>
+</div>
+<a id="ae36a340dd4d403cc4894bc8a8b87d0d6" name="ae36a340dd4d403cc4894bc8a8b87d0d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae36a340dd4d403cc4894bc8a8b87d0d6">&#9670;&#160;</a></span>setPerIterationCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::MultiwayICP::setPerIterationCallback </td>
+          <td>(</td>
+          <td class="paramtype">std::function&lt; void(int inter)&gt;</td>          <td class="paramname"><span class="paramname"><em>callback</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>sets callback that will be called for each iteration </p>
 
 </div>
 </div>

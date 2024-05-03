@@ -13,6 +13,7 @@ var structMR_1_1ImGuiMeasurementIndicators_1_1Params =
     [ "list", "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a9fc5ad01833510331469add7eb13a194", null ],
     [ "notchHalfLen", "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a3cdfa3eaf63c23dbb300d2b66cd90930", null ],
     [ "outlineWidth", "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#ac3054d46cfaedba6b0a499eb9384d17a", null ],
+    [ "pointDiameter", "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a96b0074c622147da725720e6028cd5e2", null ],
     [ "smallWidth", "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0bf2a98fd40dd55c53c03eff0ef22f9d", null ],
     [ "textOutlineRounding", "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#af359c4c5fd8028e39166af8ee8b23736", null ],
     [ "textOutlineWidth", "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a4eafe647658b794d1c77e649b424ffda", null ],

@@ -156,6 +156,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRMakeRigidXf.h", "MRMakeRigidXf_8h.html", "MRMakeRigidXf_8h" ],
     [ "MRMakeSphereMesh.h", "MRMakeSphereMesh_8h.html", "MRMakeSphereMesh_8h" ],
     [ "MRMapEdge.h", "MRMapEdge_8h.html", "MRMapEdge_8h" ],
+    [ "MRMapping.h", "MRMapping_8h.html", "MRMapping_8h" ],
     [ "MRMarchingCubes.h", "MRMarchingCubes_8h.html", "MRMarchingCubes_8h" ],
     [ "MRMatrix.h", "MRMatrix_8h.html", null ],
     [ "MRMatrix2.h", "MRMatrix2_8h.html", null ],

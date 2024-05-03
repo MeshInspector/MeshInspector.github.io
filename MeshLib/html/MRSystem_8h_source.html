@@ -179,7 +179,11 @@ $(function(){initNavTree('MRSystem_8h_source.html',''); initResizable(); });
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="keyword">using </span><a class="code hl_typedef" href="namespaceMR.html#abf9e7451b5087b4485b6207161438dc3">FileNamesStack</a> = std::vector&lt;std::filesystem::path&gt;;</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>} <span class="comment">// namespace MR</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="preprocessor">#ifndef __EMSCRIPTEN__</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="namespaceMR.html#a69dd7a0499b29eb5608d05713b8feb72">   80</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string <a class="code hl_function" href="namespaceMR.html#a69dd7a0499b29eb5608d05713b8feb72">getCurrentStacktrace</a>();</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>} <span class="comment">// namespace MR</span></div>
 <div class="ttc" id="aMRColor_8h_html"><div class="ttname"><a href="MRColor_8h.html">MRColor.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:39</div></div>
@@ -191,6 +195,7 @@ $(function(){initNavTree('MRSystem_8h_source.html',''); initResizable(); });
 <div class="ttc" id="anamespaceMR_html_a4495a70f291d11bdf905106b2a3856b5"><div class="ttname"><a href="namespaceMR.html#a4495a70f291d11bdf905106b2a3856b5">MR::getOSNoSpaces</a></div><div class="ttdeci">MRMESH_API std::string getOSNoSpaces()</div></div>
 <div class="ttc" id="anamespaceMR_html_a4ba1f8b8dda149d741c79f6ca5c6f2ba"><div class="ttname"><a href="namespaceMR.html#a4ba1f8b8dda149d741c79f6ca5c6f2ba">MR::GetTempDirectory</a></div><div class="ttdeci">MRMESH_API std::filesystem::path GetTempDirectory()</div></div>
 <div class="ttc" id="anamespaceMR_html_a5d1ca6e9b05136afa1017b1c60906789"><div class="ttname"><a href="namespaceMR.html#a5d1ca6e9b05136afa1017b1c60906789">MR::GetExeDirectory</a></div><div class="ttdeci">MRMESH_API std::filesystem::path GetExeDirectory()</div></div>
+<div class="ttc" id="anamespaceMR_html_a69dd7a0499b29eb5608d05713b8feb72"><div class="ttname"><a href="namespaceMR.html#a69dd7a0499b29eb5608d05713b8feb72">MR::getCurrentStacktrace</a></div><div class="ttdeci">MRMESH_API std::string getCurrentStacktrace()</div><div class="ttdoc">returns string representation of the current stacktrace</div></div>
 <div class="ttc" id="anamespaceMR_html_a76050fa0c0831ae2d21d1a20914f530d"><div class="ttname"><a href="namespaceMR.html#a76050fa0c0831ae2d21d1a20914f530d">MR::setNewHandlerIfNeeded</a></div><div class="ttdeci">MRMESH_API void setNewHandlerIfNeeded()</div></div>
 <div class="ttc" id="anamespaceMR_html_a77dbe991d4f1d8a2b0ffd3ed1e1320bb"><div class="ttname"><a href="namespaceMR.html#a77dbe991d4f1d8a2b0ffd3ed1e1320bb">MR::getUserConfigFilePath</a></div><div class="ttdeci">MRMESH_API std::filesystem::path getUserConfigFilePath()</div></div>
 <div class="ttc" id="anamespaceMR_html_a7b5e5990972490ea4d3803ccca1b3757"><div class="ttname"><a href="namespaceMR.html#a7b5e5990972490ea4d3803ccca1b3757">MR::GetCpuId</a></div><div class="ttdeci">MRMESH_API std::string GetCpuId()</div></div>

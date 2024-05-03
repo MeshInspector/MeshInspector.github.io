@@ -56,5 +56,6 @@ var searchData=
   ['buffer_3c_20vertid_2c_20vertid_20_3e_53',['Buffer&lt; VertId, VertId &gt;',['../classMR_1_1Buffer.html',1,'MR']]],
   ['buildsettings_54',['BuildSettings',['../structMR_1_1MeshBuilder_1_1BuildSettings.html',1,'MR::MeshBuilder']]],
   ['buttoncustomizationparams_55',['ButtonCustomizationParams',['../structMR_1_1UI_1_1ButtonCustomizationParams.html',1,'MR::UI']]],
-  ['buttonitemwidth_56',['ButtonItemWidth',['../structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html',1,'MR::RibbonButtonDrawer']]]
+  ['buttonentry_56',['ButtonEntry',['../structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html',1,'MR::UI::TestEngine']]],
+  ['buttonitemwidth_57',['ButtonItemWidth',['../structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html',1,'MR::RibbonButtonDrawer']]]
 ];

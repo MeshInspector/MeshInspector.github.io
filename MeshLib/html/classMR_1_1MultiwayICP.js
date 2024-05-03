@@ -12,5 +12,6 @@ var classMR_1_1MultiwayICP =
     [ "getStatusInfo", "classMR_1_1MultiwayICP.html#a088270c2bee7aaaea93a48fc5d48c2fd", null ],
     [ "resamplePoints", "classMR_1_1MultiwayICP.html#a04d608a0735df50a7562c39fd1a2b4cc", null ],
     [ "setParams", "classMR_1_1MultiwayICP.html#afa420b3638e8c4e0b5ac70acb575a741", null ],
+    [ "setPerIterationCallback", "classMR_1_1MultiwayICP.html#ae36a340dd4d403cc4894bc8a8b87d0d6", null ],
     [ "updatePointPairs", "classMR_1_1MultiwayICP.html#a4617a256bb8ec81dcff069a0994954ba", null ]
 ];

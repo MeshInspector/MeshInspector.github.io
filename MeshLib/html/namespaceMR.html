@@ -842,6 +842,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MoveObjectByMouse.html">MoveObjectByMouse</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MoveObjectByMouseImpl.html">MoveObjectByMouseImpl</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MultiListener.html">MultiListener</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MultiMeshIntersectionResult.html">MultiMeshIntersectionResult</a></td></tr>
@@ -1194,6 +1196,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SaveSettings.html">SaveSettings</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines how to save points/lines/mesh  <a href="structMR_1_1SaveSettings.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SceneCache.html">SceneCache</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SceneColors.html">SceneColors</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SceneRoot.html">SceneRoot</a></td></tr>
@@ -1295,6 +1299,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SpaceMouseUpListener.html">SpaceMouseUpListener</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">class to subscribe on SpaceMouseUpSignal  <a href="structMR_1_1SpaceMouseUpListener.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SpacingSettings.html">SpacingSettings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Sphere.html">Sphere</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2615,6 +2621,7 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="separator:aa2579613f677dcb6e5d4112ae3f95f4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af380c745631672883c31b1875697b2e5" id="r_af380c745631672883c31b1875697b2e5"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af380c745631672883c31b1875697b2e5">TimeUnit</a> { <a class="el" href="#af380c745631672883c31b1875697b2e5a783e8e29e6a8c3e22baa58a19420eb4f">seconds</a>
+, <a class="el" href="#af380c745631672883c31b1875697b2e5ac50c3b1ca82ba7b7ab55afdf66a2f6c9">milliseconds</a>
 , <a class="el" href="#af380c745631672883c31b1875697b2e5ad69186af02738a9b3ced1bc5b652ba55">_count</a>
  }</td></tr>
 <tr class="separator:af380c745631672883c31b1875697b2e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2998,8 +3005,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga6d0dc4485cbdb50e2e0663aedcc73986" id="r_ga6d0dc4485cbdb50e2e0663aedcc73986"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#adeac7b9dc20e12d20ff95459d9bac413">Polyline2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#ga6d0dc4485cbdb50e2e0663aedcc73986">distanceMapTo2DIsoPolyline</a> (const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;distMap, const <a class="el" href="structMR_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a> &amp;params, float isoValue)</td></tr>
 <tr class="memdesc:ga6d0dc4485cbdb50e2e0663aedcc73986"><td class="mdescLeft">&#160;</td><td class="mdescRight">iso-lines are created in real space ( plane OXY with parameters according <a class="el" href="structMR_1_1ContourToDistanceMapParams.html" title="Structure with parameters to generate DistanceMap by Contours.">ContourToDistanceMapParams</a> )  <br /></td></tr>
 <tr class="separator:ga6d0dc4485cbdb50e2e0663aedcc73986"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf5709c6812fae93dbba906100dbb1220" id="r_gaf5709c6812fae93dbba906100dbb1220"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::pair&lt; <a class="el" href="#adeac7b9dc20e12d20ff95459d9bac413">Polyline2</a>, <a class="el" href="#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#gaf5709c6812fae93dbba906100dbb1220">distanceMapTo2DIsoPolyline</a> (const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;distMap, const <a class="el" href="structMR_1_1DistanceMapToWorld.html">DistanceMapToWorld</a> &amp;params, float isoValue, bool useDepth=false)</td></tr>
-<tr class="separator:gaf5709c6812fae93dbba906100dbb1220"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga875406db41d922b9e6b597a1cc589c02" id="r_ga875406db41d922b9e6b597a1cc589c02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::pair&lt; <a class="el" href="#adeac7b9dc20e12d20ff95459d9bac413">Polyline2</a>, <a class="el" href="#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#ga875406db41d922b9e6b597a1cc589c02">distanceMapTo2DIsoPolyline</a> (const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;distMap, const <a class="el" href="#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> &amp;xf, float isoValue, bool useDepth=false)</td></tr>
+<tr class="separator:ga875406db41d922b9e6b597a1cc589c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1acaca885d3034b9c8ef1f5cb9b8824a" id="r_ga1acaca885d3034b9c8ef1f5cb9b8824a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#adeac7b9dc20e12d20ff95459d9bac413">Polyline2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#ga1acaca885d3034b9c8ef1f5cb9b8824a">distanceMapTo2DIsoPolyline</a> (const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;distMap, float pixelSize, float isoValue)</td></tr>
 <tr class="separator:ga1acaca885d3034b9c8ef1f5cb9b8824a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf720ea7221e6ad284c8b0b80e5c58364" id="r_gaf720ea7221e6ad284c8b0b80e5c58364"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#adeac7b9dc20e12d20ff95459d9bac413">Polyline2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#gaf720ea7221e6ad284c8b0b80e5c58364">polylineOffset</a> (const <a class="el" href="#adeac7b9dc20e12d20ff95459d9bac413">Polyline2</a> &amp;polyline, float pixelSize, float offset)</td></tr>
@@ -3014,15 +3021,15 @@ Functions</h2></td></tr>
 <tr class="memitem:ga9ec7f0e4e736da31de012ad0e33f6b33" id="r_ga9ec7f0e4e736da31de012ad0e33f6b33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#adeac7b9dc20e12d20ff95459d9bac413">Polyline2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#ga9ec7f0e4e736da31de012ad0e33f6b33">contourSubtract</a> (const <a class="el" href="#adeac7b9dc20e12d20ff95459d9bac413">Polyline2</a> &amp;contoursA, const <a class="el" href="#adeac7b9dc20e12d20ff95459d9bac413">Polyline2</a> &amp;contoursB, const <a class="el" href="structMR_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a> &amp;params, float offsetInside=0.f)</td></tr>
 <tr class="memdesc:ga9ec7f0e4e736da31de012ad0e33f6b33"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the difference between the shapes bounded by contoursA and the shapes bounded by contoursB  <br /></td></tr>
 <tr class="separator:ga9ec7f0e4e736da31de012ad0e33f6b33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac6c39b7fdd12850e1bd251c800a728c1" id="r_gac6c39b7fdd12850e1bd251c800a728c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#gac6c39b7fdd12850e1bd251c800a728c1">distanceMapToMesh</a> (const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;distMap, const <a class="el" href="structMR_1_1DistanceMapToWorld.html">DistanceMapToWorld</a> &amp;toWorldStruct, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
-<tr class="memdesc:gac6c39b7fdd12850e1bd251c800a728c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts distance map back to the mesh fragment with presented params  <br /></td></tr>
-<tr class="separator:gac6c39b7fdd12850e1bd251c800a728c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga145ea179a83ff19d1734af8771bba71a" id="r_ga145ea179a83ff19d1734af8771bba71a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#ga145ea179a83ff19d1734af8771bba71a">distanceMapToMesh</a> (const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;distMap, const <a class="el" href="#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> &amp;toWorld, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memdesc:ga145ea179a83ff19d1734af8771bba71a"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts distance map into mesh and applies a transformation to all points  <br /></td></tr>
+<tr class="separator:ga145ea179a83ff19d1734af8771bba71a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad32dba15de75a916f90af8e79efca23c" id="r_gad32dba15de75a916f90af8e79efca23c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a2ce7373768bdeba5943fa20acf85e769">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#gad32dba15de75a916f90af8e79efca23c">saveDistanceMapToImage</a> (const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;distMap, const std::filesystem::path &amp;filename, float threshold=1.f/255)</td></tr>
 <tr class="separator:gad32dba15de75a916f90af8e79efca23c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac3f8499b08bd2a01ac723fd015b347eb" id="r_gac3f8499b08bd2a01ac723fd015b347eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#gac3f8499b08bd2a01ac723fd015b347eb">convertImageToDistanceMap</a> (const <a class="el" href="structMR_1_1Image.html">Image</a> &amp;image, float threshold=1.f/255)</td></tr>
-<tr class="separator:gac3f8499b08bd2a01ac723fd015b347eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga688da8d387e70fdf2e04ef2c625138cd" id="r_ga688da8d387e70fdf2e04ef2c625138cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#ga688da8d387e70fdf2e04ef2c625138cd">loadDistanceMapFromImage</a> (const std::filesystem::path &amp;filename, float threshold=1.f/255)</td></tr>
-<tr class="separator:ga688da8d387e70fdf2e04ef2c625138cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac306fc7afdd585ab977b18b9c0bf0af9" id="r_gac306fc7afdd585ab977b18b9c0bf0af9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#gac306fc7afdd585ab977b18b9c0bf0af9">convertImageToDistanceMap</a> (const <a class="el" href="structMR_1_1Image.html">Image</a> &amp;image, float threshold=1.f/255)</td></tr>
+<tr class="separator:gac306fc7afdd585ab977b18b9c0bf0af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga44fc29abeabf10bafd907c2784a878b2" id="r_ga44fc29abeabf10bafd907c2784a878b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#ga44fc29abeabf10bafd907c2784a878b2">loadDistanceMapFromImage</a> (const std::filesystem::path &amp;filename, float threshold=1.f/255)</td></tr>
+<tr class="separator:ga44fc29abeabf10bafd907c2784a878b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19b191245b05d1121109cd26f5ca30d2" id="r_a19b191245b05d1121109cd26f5ca30d2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19b191245b05d1121109cd26f5ca30d2">operator==</a> (const <a class="el" href="classMR_1_1UndirectedEdgeIterator.html">UndirectedEdgeIterator</a> &amp;a, const <a class="el" href="classMR_1_1UndirectedEdgeIterator.html">UndirectedEdgeIterator</a> &amp;b)</td></tr>
 <tr class="separator:a19b191245b05d1121109cd26f5ca30d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae22c2e220dc580608b0c17c7358f4b29" id="r_ae22c2e220dc580608b0c17c7358f4b29"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae22c2e220dc580608b0c17c7358f4b29">operator!=</a> (const <a class="el" href="classMR_1_1UndirectedEdgeIterator.html">UndirectedEdgeIterator</a> &amp;a, const <a class="el" href="classMR_1_1UndirectedEdgeIterator.html">UndirectedEdgeIterator</a> &amp;b)</td></tr>
@@ -3413,6 +3420,12 @@ Functions</h2></td></tr>
 <tr class="memitem:adf5f3f9dc915185233a22089c90665eb" id="r_adf5f3f9dc915185233a22089c90665eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a05c056a16a495042d91fdfbe5f0ad642">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf5f3f9dc915185233a22089c90665eb">mapEdges</a> (const <a class="el" href="#a4e2659a6fbef18d862fc936937a9fbf8">UndirectedEdgeBMap</a> &amp;map, const <a class="el" href="#a05c056a16a495042d91fdfbe5f0ad642">UndirectedEdgeBitSet</a> &amp;src)</td></tr>
 <tr class="memdesc:adf5f3f9dc915185233a22089c90665eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">given input bit-set (src), converts each id corresponding to set bit using given map, and sets its bit in the resulting bit set  <br /></td></tr>
 <tr class="separator:adf5f3f9dc915185233a22089c90665eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d9d6989ed816203134c01906e95e865" id="r_a2d9d6989ed816203134c01906e95e865"><td class="memTemplParams" colspan="2">template&lt;typename ValueT , typename IndexT &gt; </td></tr>
+<tr class="memitem:a2d9d6989ed816203134c01906e95e865"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a2d9d6989ed816203134c01906e95e865">mapNewToOldVector</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; ValueT, <a class="el" href="classMR_1_1Id.html">Id</a>&lt; IndexT &gt; &gt; &amp;oldData, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="classMR_1_1Id.html">Id</a>&lt; IndexT &gt;, <a class="el" href="classMR_1_1Id.html">Id</a>&lt; IndexT &gt; &gt; &amp;newToOld, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; ValueT, <a class="el" href="classMR_1_1Id.html">Id</a>&lt; IndexT &gt; &gt; &amp;newData)</td></tr>
+<tr class="separator:a2d9d6989ed816203134c01906e95e865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e70f43d5b88c64b1d2c61b82c447889" id="r_a3e70f43d5b88c64b1d2c61b82c447889"><td class="memTemplParams" colspan="2">template&lt;typename ValueT , typename IndexT &gt; </td></tr>
+<tr class="memitem:a3e70f43d5b88c64b1d2c61b82c447889"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a3e70f43d5b88c64b1d2c61b82c447889">mapOldToNewVector</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; ValueT, <a class="el" href="classMR_1_1Id.html">Id</a>&lt; IndexT &gt; &gt; &amp;oldData, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="classMR_1_1Id.html">Id</a>&lt; IndexT &gt;, <a class="el" href="classMR_1_1Id.html">Id</a>&lt; IndexT &gt; &gt; &amp;newToOld, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; ValueT, <a class="el" href="classMR_1_1Id.html">Id</a>&lt; IndexT &gt; &gt; &amp;newData)</td></tr>
+<tr class="separator:a3e70f43d5b88c64b1d2c61b82c447889"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a611a9d93bf5276050887652752c6ee55" id="r_a611a9d93bf5276050887652752c6ee55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a611a9d93bf5276050887652752c6ee55">voxelPositionerLinear</a> (const <a class="el" href="#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &amp;pos0, const <a class="el" href="#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &amp;pos1, float v0, float v1, float iso)</td></tr>
 <tr class="separator:a611a9d93bf5276050887652752c6ee55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5bb8d49ea9ba9ad8877afefd4dca68a2" id="r_a5bb8d49ea9ba9ad8877afefd4dca68a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bb8d49ea9ba9ad8877afefd4dca68a2">marchingCubes</a> (const <a class="el" href="#a32d86de74ee0b62d26832356f2afe507">SimpleVolume</a> &amp;volume, const <a class="el" href="structMR_1_1MarchingCubesParams.html">MarchingCubesParams</a> &amp;params={})</td></tr>
@@ -3646,6 +3659,9 @@ Functions</h2></td></tr>
 <tr class="separator:ga8e2b8d3db10183b66f463f70a7eac5b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga464e6b15a1c089223ed826d849cd69cf" id="r_ga464e6b15a1c089223ed826d849cd69cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshFixerGroup.html#ga464e6b15a1c089223ed826d849cd69cf">findHoleComplicatingFaces</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="separator:ga464e6b15a1c089223ed826d849cd69cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e69561d8c59d6cbfe5db9199465db72" id="r_a0e69561d8c59d6cbfe5db9199465db72"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a0e69561d8c59d6cbfe5db9199465db72"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a0e69561d8c59d6cbfe5db9199465db72">contains</a> (const std::function&lt; bool(<a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;)&gt; &amp;pred, <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt; id)</td></tr>
+<tr class="separator:a0e69561d8c59d6cbfe5db9199465db72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bdf9f3c718616502649bc34a80ac976" id="r_a1bdf9f3c718616502649bc34a80ac976"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a1bdf9f3c718616502649bc34a80ac976"><td class="memTemplItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a1bdf9f3c718616502649bc34a80ac976">sqr</a> (T x) noexcept</td></tr>
 <tr class="separator:a1bdf9f3c718616502649bc34a80ac976"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4043,6 +4059,9 @@ Functions</h2></td></tr>
 <tr class="separator:ac561311721be86b3da70231493cf810b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33971b1452a73d0ac6d188b7cb337a59" id="r_a33971b1452a73d0ac6d188b7cb337a59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33971b1452a73d0ac6d188b7cb337a59">positionVertsSmoothlySharpBd</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a> &amp;verts, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>, <a class="el" href="#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> &gt; *vertShifts=nullptr)</td></tr>
 <tr class="separator:a33971b1452a73d0ac6d188b7cb337a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d34390e42800882d558656d3ea89684" id="r_a1d34390e42800882d558656d3ea89684"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d34390e42800882d558656d3ea89684">positionVertsWithSpacing</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1SpacingSettings.html">SpacingSettings</a> &amp;settings)</td></tr>
+<tr class="memdesc:a1d34390e42800882d558656d3ea89684"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves given vertices to make the distances between them as specified.  <br /></td></tr>
+<tr class="separator:a1d34390e42800882d558656d3ea89684"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d881ee7943c5019e5a61768489f064e" id="r_a3d881ee7943c5019e5a61768489f064e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d881ee7943c5019e5a61768489f064e">inflate</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a> &amp;verts, const <a class="el" href="structMR_1_1InflateSettings.html">InflateSettings</a> &amp;settings)</td></tr>
 <tr class="separator:a3d881ee7943c5019e5a61768489f064e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4accadafe09c169e3742b72d1e5e5733" id="r_ga4accadafe09c169e3742b72d1e5e5733"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga4accadafe09c169e3742b72d1e5e5733">vertMapsComposition</a> (<a class="el" href="#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> &amp;a2b, const <a class="el" href="#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> &amp;b2c)</td></tr>
@@ -4150,8 +4169,8 @@ Functions</h2></td></tr>
 <tr class="separator:a42bfb820a74ca491a32df3c3c86c8053"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ef0e2bf47e966acc6a32e33beeb9fe7" id="r_a1ef0e2bf47e966acc6a32e33beeb9fe7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ef0e2bf47e966acc6a32e33beeb9fe7">getIncidentVerts</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *faces, <a class="el" href="#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a> &amp;store)</td></tr>
 <tr class="separator:a1ef0e2bf47e966acc6a32e33beeb9fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4eaf8f36d5e63548fb6905b32dd38ee1" id="r_a4eaf8f36d5e63548fb6905b32dd38ee1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4eaf8f36d5e63548fb6905b32dd38ee1">getInnerVerts</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *region)</td></tr>
-<tr class="separator:a4eaf8f36d5e63548fb6905b32dd38ee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac11bef9a8e5379d5e2c001e26299317" id="r_aac11bef9a8e5379d5e2c001e26299317"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac11bef9a8e5379d5e2c001e26299317">getInnerVerts</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *region=nullptr)</td></tr>
+<tr class="separator:aac11bef9a8e5379d5e2c001e26299317"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13360861c202508981bf30771a8d6560" id="r_a13360861c202508981bf30771a8d6560"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13360861c202508981bf30771a8d6560">getInnerVerts</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> &amp;region)</td></tr>
 <tr class="separator:a13360861c202508981bf30771a8d6560"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ea3516bc5bd31a954ef5cea5edd4ae5" id="r_a2ea3516bc5bd31a954ef5cea5edd4ae5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ea3516bc5bd31a954ef5cea5edd4ae5">getBoundaryVerts</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *region=nullptr)</td></tr>
@@ -4564,6 +4583,9 @@ Functions</h2></td></tr>
 <tr class="separator:a4495a70f291d11bdf905106b2a3856b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76050fa0c0831ae2d21d1a20914f530d" id="r_a76050fa0c0831ae2d21d1a20914f530d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76050fa0c0831ae2d21d1a20914f530d">setNewHandlerIfNeeded</a> ()</td></tr>
 <tr class="separator:a76050fa0c0831ae2d21d1a20914f530d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69dd7a0499b29eb5608d05713b8feb72" id="r_a69dd7a0499b29eb5608d05713b8feb72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dd7a0499b29eb5608d05713b8feb72">getCurrentStacktrace</a> ()</td></tr>
+<tr class="memdesc:a69dd7a0499b29eb5608d05713b8feb72"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns string representation of the current stacktrace  <br /></td></tr>
+<tr class="separator:a69dd7a0499b29eb5608d05713b8feb72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bd8f5651ea9cde7f905ef80c4a22037" id="r_a9bd8f5651ea9cde7f905ef80c4a22037"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bd8f5651ea9cde7f905ef80c4a22037">terrainTriangulation</a> (std::vector&lt; <a class="el" href="#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &gt; points, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="separator:a9bd8f5651ea9cde7f905ef80c4a22037"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30561e9335c9081843e4c982a0553366" id="r_a30561e9335c9081843e4c982a0553366"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30561e9335c9081843e4c982a0553366">isTIFFFile</a> (const std::filesystem::path &amp;path)</td></tr>
@@ -4678,6 +4700,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ga2fbcc5b76ec7e12da86bc99895ac6fc9" id="r_ga2fbcc5b76ec7e12da86bc99895ac6fc9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga2fbcc5b76ec7e12da86bc99895ac6fc9"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga2fbcc5b76ec7e12da86bc99895ac6fc9">triangleAspectRatio</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c)</td></tr>
 <tr class="separator:ga2fbcc5b76ec7e12da86bc99895ac6fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd21148656ed4ba11554e5d2639ede14" id="r_abd21148656ed4ba11554e5d2639ede14"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:abd21148656ed4ba11554e5d2639ede14"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#abd21148656ed4ba11554e5d2639ede14">dirDblArea</a> (const <a class="el" href="#a7cab6855ae6654d80a90d7dce087e96a">Triangle3</a>&lt; T &gt; &amp;t)</td></tr>
+<tr class="memdesc:abd21148656ed4ba11554e5d2639ede14"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes directed double area of given triangle  <br /></td></tr>
+<tr class="separator:abd21148656ed4ba11554e5d2639ede14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea846c80de2eaff70b419ad4095d958c" id="r_aea846c80de2eaff70b419ad4095d958c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:aea846c80de2eaff70b419ad4095d958c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aea846c80de2eaff70b419ad4095d958c">dirDblArea</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;p, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;q, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;r)</td></tr>
 <tr class="memdesc:aea846c80de2eaff70b419ad4095d958c"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes directed double area of given triangle  <br /></td></tr>
@@ -4706,6 +4732,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a5db5640e628bfb98d046695d1bf378af"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a5db5640e628bfb98d046695d1bf378af">area</a> (const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;p, const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;q, const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;r)</td></tr>
 <tr class="memdesc:a5db5640e628bfb98d046695d1bf378af"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes twice the area of given triangle  <br /></td></tr>
 <tr class="separator:a5db5640e628bfb98d046695d1bf378af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57ff21b97318676241102c87bc9fe9b3" id="r_a57ff21b97318676241102c87bc9fe9b3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a57ff21b97318676241102c87bc9fe9b3"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#a7cab6855ae6654d80a90d7dce087e96a">Triangle3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a57ff21b97318676241102c87bc9fe9b3">makeDegenerate</a> (const <a class="el" href="#a7cab6855ae6654d80a90d7dce087e96a">Triangle3</a>&lt; T &gt; &amp;t)</td></tr>
+<tr class="memdesc:a57ff21b97318676241102c87bc9fe9b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">make degenerate triangle (all 3 points on a line) that maximally resembles the input one and has the same centroid  <br /></td></tr>
+<tr class="separator:a57ff21b97318676241102c87bc9fe9b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b210182919ce9a4fe5cdce5115f4cc3" id="r_a5b210182919ce9a4fe5cdce5115f4cc3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a5b210182919ce9a4fe5cdce5115f4cc3"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#a7cab6855ae6654d80a90d7dce087e96a">Triangle3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a5b210182919ce9a4fe5cdce5115f4cc3">triangleWithNormal</a> (const <a class="el" href="#a7cab6855ae6654d80a90d7dce087e96a">Triangle3</a>&lt; T &gt; &amp;t, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;n)</td></tr>
 <tr class="separator:a5b210182919ce9a4fe5cdce5115f4cc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -10443,6 +10473,7 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af380c745631672883c31b1875697b2e5a783e8e29e6a8c3e22baa58a19420eb4f" name="af380c745631672883c31b1875697b2e5a783e8e29e6a8c3e22baa58a19420eb4f"></a>seconds&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af380c745631672883c31b1875697b2e5ac50c3b1ca82ba7b7ab55afdf66a2f6c9" name="af380c745631672883c31b1875697b2e5ac50c3b1ca82ba7b7ab55afdf66a2f6c9"></a>milliseconds&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="af380c745631672883c31b1875697b2e5ad69186af02738a9b3ced1bc5b652ba55" name="af380c745631672883c31b1875697b2e5ad69186af02738a9b3ced1bc5b652ba55"></a>_count&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -11965,6 +11996,37 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
+<a id="a0e69561d8c59d6cbfe5db9199465db72" name="a0e69561d8c59d6cbfe5db9199465db72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e69561d8c59d6cbfe5db9199465db72">&#9670;&#160;</a></span>contains()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::contains </td>
+          <td>(</td>
+          <td class="paramtype">const std::function&lt; bool(<a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>pred</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abc1dac35ba49a323ad136b896517b3b3" name="abc1dac35ba49a323ad136b896517b3b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abc1dac35ba49a323ad136b896517b3b3">&#9670;&#160;</a></span>convertUnits()</h2>
 
@@ -12565,8 +12627,37 @@ template&lt;typename R , typename E , typename... Args&gt; </div>
 
 </div>
 </div>
+<a id="abd21148656ed4ba11554e5d2639ede14" name="abd21148656ed4ba11554e5d2639ede14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd21148656ed4ba11554e5d2639ede14">&#9670;&#160;</a></span>dirDblArea() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; MR::dirDblArea </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7cab6855ae6654d80a90d7dce087e96a">Triangle3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>t</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes directed double area of given triangle </p>
+
+</div>
+</div>
 <a id="aea846c80de2eaff70b419ad4095d958c" name="aea846c80de2eaff70b419ad4095d958c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea846c80de2eaff70b419ad4095d958c">&#9670;&#160;</a></span>dirDblArea()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aea846c80de2eaff70b419ad4095d958c">&#9670;&#160;</a></span>dirDblArea() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -15672,6 +15763,25 @@ template&lt;typename T , typename I &gt; </div>
 
 </div>
 </div>
+<a id="a69dd7a0499b29eb5608d05713b8feb72" name="a69dd7a0499b29eb5608d05713b8feb72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69dd7a0499b29eb5608d05713b8feb72">&#9670;&#160;</a></span>getCurrentStacktrace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string MR::getCurrentStacktrace </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns string representation of the current stacktrace </p>
+
+</div>
+</div>
 <a id="a80607090259b7b45b4ea7809158a48a2" name="a80607090259b7b45b4ea7809158a48a2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a80607090259b7b45b4ea7809158a48a2">&#9670;&#160;</a></span>getDefaultUnitParams()</h2>
 
@@ -16206,8 +16316,8 @@ template&lt;UnitEnum E&gt; </div>
 
 </div>
 </div>
-<a id="a4eaf8f36d5e63548fb6905b32dd38ee1" name="a4eaf8f36d5e63548fb6905b32dd38ee1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4eaf8f36d5e63548fb6905b32dd38ee1">&#9670;&#160;</a></span>getInnerVerts() <span class="overload">[2/3]</span></h2>
+<a id="aac11bef9a8e5379d5e2c001e26299317" name="aac11bef9a8e5379d5e2c001e26299317"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac11bef9a8e5379d5e2c001e26299317">&#9670;&#160;</a></span>getInnerVerts() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -16220,7 +16330,7 @@ template&lt;UnitEnum E&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -18054,6 +18164,27 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a57ff21b97318676241102c87bc9fe9b3" name="a57ff21b97318676241102c87bc9fe9b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57ff21b97318676241102c87bc9fe9b3">&#9670;&#160;</a></span>makeDegenerate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a7cab6855ae6654d80a90d7dce087e96a">Triangle3</a>&lt; T &gt; MR::makeDegenerate </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7cab6855ae6654d80a90d7dce087e96a">Triangle3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>t</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>make degenerate triangle (all 3 points on a line) that maximally resembles the input one and has the same centroid </p>
+
+</div>
+</div>
 <a id="a22f39580f90cbdb1bd5c77bd7b922251" name="a22f39580f90cbdb1bd5c77bd7b922251"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a22f39580f90cbdb1bd5c77bd7b922251">&#9670;&#160;</a></span>makeDegenerateBandAroundRegion()</h2>
 
@@ -18895,6 +19026,62 @@ template&lt;typename RenderObjType &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>maps edge selection and creases and adds history records for that; it is a good idea to make SCOPED_HISTORY before calling this function </p>
+
+</div>
+</div>
+<a id="a2d9d6989ed816203134c01906e95e865" name="a2d9d6989ed816203134c01906e95e865"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d9d6989ed816203134c01906e95e865">&#9670;&#160;</a></span>mapNewToOldVector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueT , typename IndexT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::mapNewToOldVector </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; ValueT, <a class="el" href="classMR_1_1Id.html">Id</a>&lt; IndexT &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oldData</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="classMR_1_1Id.html">Id</a>&lt; IndexT &gt;, <a class="el" href="classMR_1_1Id.html">Id</a>&lt; IndexT &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>newToOld</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; ValueT, <a class="el" href="classMR_1_1Id.html">Id</a>&lt; IndexT &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>newData</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e70f43d5b88c64b1d2c61b82c447889" name="a3e70f43d5b88c64b1d2c61b82c447889"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e70f43d5b88c64b1d2c61b82c447889">&#9670;&#160;</a></span>mapOldToNewVector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueT , typename IndexT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::mapOldToNewVector </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; ValueT, <a class="el" href="classMR_1_1Id.html">Id</a>&lt; IndexT &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oldData</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="classMR_1_1Id.html">Id</a>&lt; IndexT &gt;, <a class="el" href="classMR_1_1Id.html">Id</a>&lt; IndexT &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>newToOld</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; ValueT, <a class="el" href="classMR_1_1Id.html">Id</a>&lt; IndexT &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>newData</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -22042,6 +22229,29 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a1d34390e42800882d558656d3ea89684" name="a1d34390e42800882d558656d3ea89684"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d34390e42800882d558656d3ea89684">&#9670;&#160;</a></span>positionVertsWithSpacing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::positionVertsWithSpacing </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1SpacingSettings.html">SpacingSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Moves given vertices to make the distances between them as specified. </p>
+
+</div>
+</div>
 <a id="a8943649eb4ec189757d628d6b1f9779f" name="a8943649eb4ec189757d628d6b1f9779f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8943649eb4ec189757d628d6b1f9779f">&#9670;&#160;</a></span>pushNotification()</h2>
 
@@ -24370,7 +24580,7 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>project given triangle on a plane passing via its centroid and having normal (n); if after projection triangle normal turns out to be inversed, then collapses the triangle into degenerate line segment </p>
+<p>project given triangle on a plane passing via its centroid and having unit normal (n); if after projection triangle normal turns out to be inversed, then collapses the triangle into degenerate line segment </p>
 
 </div>
 </div>

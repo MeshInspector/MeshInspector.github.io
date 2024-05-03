@@ -46,7 +46,7 @@ var searchData=
   ['loaddicomfolder_43',['loadDicomFolder',['../group__VoxelsLoadGroup.html#ga8b0fa49e8f9fa13b84ff3f9a9e7b95ec',1,'MR::VoxelsLoad']]],
   ['loaddicomsfolder_44',['loadDicomsFolder',['../group__VoxelsLoadGroup.html#ga7dc46316f4a6c8d21c191fc1f789c1b8',1,'MR::VoxelsLoad']]],
   ['loaddirectionspc_45',['loadDirectionsPC',['../classMR_1_1RegularMapMesher.html#a0b822d1160d10749302218a02ecf23f7',1,'MR::RegularMapMesher']]],
-  ['loaddistancemapfromimage_46',['loadDistanceMapFromImage',['../group__DistanceMapGroup.html#ga688da8d387e70fdf2e04ef2c625138cd',1,'MR']]],
+  ['loaddistancemapfromimage_46',['loadDistanceMapFromImage',['../group__DistanceMapGroup.html#ga44fc29abeabf10bafd907c2784a878b2',1,'MR']]],
   ['loaddistances_47',['loadDistances',['../classMR_1_1RegularMapMesher.html#abcaf63824e1d2e6950436bb64b0ed238',1,'MR::RegularMapMesher']]],
   ['loadfaceindicesbuffer_5f_48',['loadFaceIndicesBuffer_',['../classMR_1_1RenderMeshObject.html#a1f273db5bf7f2439e36be583f8892f98',1,'MR::RenderMeshObject']]],
   ['loadfacenormalstexturebuffer_5f_49',['loadFaceNormalsTextureBuffer_',['../classMR_1_1RenderMeshObject.html#a0b296b577bfee513d40bc073e4609f55',1,'MR::RenderMeshObject']]],

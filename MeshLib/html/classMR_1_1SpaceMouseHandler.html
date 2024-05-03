@@ -102,7 +102,7 @@ $(function(){initNavTree('classMR_1_1SpaceMouseHandler.html',''); initResizable(
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classMR_1_1SpaceMouseHandler-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::SpaceMouseHandler Class Reference</div></div>
+  <div class="headertitle"><div class="title">MR::SpaceMouseHandler Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -126,12 +126,12 @@ $(function(){initNavTree('classMR_1_1SpaceMouseHandler.html',''); initResizable(
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ae552842183fceec422514e422d1f0d73" id="r_ae552842183fceec422514e422d1f0d73"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae552842183fceec422514e422d1f0d73">~SpaceMouseHandler</a> ()=default</td></tr>
 <tr class="separator:ae552842183fceec422514e422d1f0d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0608af61c1afeb946df62ab20feaf47b" id="r_a0608af61c1afeb946df62ab20feaf47b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0608af61c1afeb946df62ab20feaf47b">initialize</a> ()</td></tr>
-<tr class="memdesc:a0608af61c1afeb946df62ab20feaf47b"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize device  <br /></td></tr>
-<tr class="separator:a0608af61c1afeb946df62ab20feaf47b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f707d93addbaba5fd2ad12711db73fa" id="r_a7f707d93addbaba5fd2ad12711db73fa"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f707d93addbaba5fd2ad12711db73fa">handle</a> ()</td></tr>
-<tr class="memdesc:a7f707d93addbaba5fd2ad12711db73fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle device state and call <a class="el" href="classMR_1_1Viewer.html">Viewer</a> signals  <br /></td></tr>
-<tr class="separator:a7f707d93addbaba5fd2ad12711db73fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c2a0f9ed6b49950d604726d8ff4b31e" id="r_a5c2a0f9ed6b49950d604726d8ff4b31e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c2a0f9ed6b49950d604726d8ff4b31e">initialize</a> ()=0</td></tr>
+<tr class="memdesc:a5c2a0f9ed6b49950d604726d8ff4b31e"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize device  <br /></td></tr>
+<tr class="separator:a5c2a0f9ed6b49950d604726d8ff4b31e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a630d5cbabb8c95d6234cefa16fe25ac4" id="r_a630d5cbabb8c95d6234cefa16fe25ac4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a630d5cbabb8c95d6234cefa16fe25ac4">handle</a> ()=0</td></tr>
+<tr class="memdesc:a630d5cbabb8c95d6234cefa16fe25ac4"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle device state and call <a class="el" href="classMR_1_1Viewer.html">Viewer</a> signals  <br /></td></tr>
+<tr class="separator:a630d5cbabb8c95d6234cefa16fe25ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fb38b595b3fad2af3d19817e2f77297" id="r_a0fb38b595b3fad2af3d19817e2f77297"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fb38b595b3fad2af3d19817e2f77297">updateConnected</a> (int, int)</td></tr>
 <tr class="memdesc:a0fb38b595b3fad2af3d19817e2f77297"><td class="mdescLeft">&#160;</td><td class="mdescRight">update after connect / disconnect devices  <br /></td></tr>
 <tr class="separator:a0fb38b595b3fad2af3d19817e2f77297"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,8 +165,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7f707d93addbaba5fd2ad12711db73fa" name="a7f707d93addbaba5fd2ad12711db73fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f707d93addbaba5fd2ad12711db73fa">&#9670;&#160;</a></span>handle()</h2>
+<a id="a630d5cbabb8c95d6234cefa16fe25ac4" name="a630d5cbabb8c95d6234cefa16fe25ac4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a630d5cbabb8c95d6234cefa16fe25ac4">&#9670;&#160;</a></span>handle()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -183,19 +183,19 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>handle device state and call <a class="el" href="classMR_1_1Viewer.html">Viewer</a> signals </p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1SpaceMouseHandlerHidapi.html#a0bb3062798534b3263aa5c69b2feb224">MR::SpaceMouseHandlerHidapi</a>.</p>
+<p>Implemented in <a class="el" href="classMR_1_1SpaceMouseHandlerHidapi.html#ae76882db7c2042147f95e35d15b93371">MR::SpaceMouseHandlerHidapi</a>.</p>
 
 </div>
 </div>
-<a id="a0608af61c1afeb946df62ab20feaf47b" name="a0608af61c1afeb946df62ab20feaf47b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0608af61c1afeb946df62ab20feaf47b">&#9670;&#160;</a></span>initialize()</h2>
+<a id="a5c2a0f9ed6b49950d604726d8ff4b31e" name="a5c2a0f9ed6b49950d604726d8ff4b31e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c2a0f9ed6b49950d604726d8ff4b31e">&#9670;&#160;</a></span>initialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204,7 +204,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void MR::SpaceMouseHandler::initialize </td>
+          <td class="memname">virtual bool MR::SpaceMouseHandler::initialize </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -212,14 +212,14 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>initialize device </p>
 
-<p>Reimplemented in <a class="el" href="classMR_1_1SpaceMouseHandlerHidapi.html#a8fe643b0a55701eb10fe56dbdc18f2bb">MR::SpaceMouseHandlerHidapi</a>.</p>
+<p>Implemented in <a class="el" href="classMR_1_1SpaceMouseHandlerHidapi.html#adf220c93efe5a91704da349086edcf46">MR::SpaceMouseHandlerHidapi</a>.</p>
 
 </div>
 </div>

@@ -2,6 +2,7 @@ var MRSystem_8h =
 [
     [ "GetClipboardText", "MRSystem_8h.html#a3116e9eddde92d8ea2677770b31361fb", null ],
     [ "GetCpuId", "MRSystem_8h.html#a7b5e5990972490ea4d3803ccca1b3757", null ],
+    [ "getCurrentStacktrace", "MRSystem_8h.html#a69dd7a0499b29eb5608d05713b8feb72", null ],
     [ "GetDetailedOSName", "MRSystem_8h.html#a7d7ea607c1d62759b1a6d09f3b68c78f", null ],
     [ "GetEmbeddedPythonDirectory", "MRSystem_8h.html#ab73c3b56aedac827d4d37ceb984ae9e1", null ],
     [ "GetExeDirectory", "MRSystem_8h.html#a5d1ca6e9b05136afa1017b1c60906789", null ],

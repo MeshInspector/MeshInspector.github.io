@@ -140,6 +140,11 @@ var annotated_dup =
         [ "TriangulatedFanData", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData" ]
       ] ],
       [ "UI", "namespaceMR_1_1UI.html", [
+        [ "TestEngine", "namespaceMR_1_1UI_1_1TestEngine.html", [
+          [ "ButtonEntry", "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html", "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry" ],
+          [ "Entry", "structMR_1_1UI_1_1TestEngine_1_1Entry.html", "structMR_1_1UI_1_1TestEngine_1_1Entry" ],
+          [ "GroupEntry", "structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html", "structMR_1_1UI_1_1TestEngine_1_1GroupEntry" ]
+        ] ],
         [ "ButtonCustomizationParams", "structMR_1_1UI_1_1ButtonCustomizationParams.html", "structMR_1_1UI_1_1ButtonCustomizationParams" ]
       ] ],
       [ "VoxelsLoad", "namespaceMR_1_1VoxelsLoad.html", [
@@ -437,6 +442,7 @@ var annotated_dup =
       [ "MouseUpListener", "structMR_1_1MouseUpListener.html", "structMR_1_1MouseUpListener" ],
       [ "MovementBuildBodyParams", "structMR_1_1MovementBuildBodyParams.html", "structMR_1_1MovementBuildBodyParams" ],
       [ "MoveObjectByMouse", "classMR_1_1MoveObjectByMouse.html", "classMR_1_1MoveObjectByMouse" ],
+      [ "MoveObjectByMouseImpl", "classMR_1_1MoveObjectByMouseImpl.html", "classMR_1_1MoveObjectByMouseImpl" ],
       [ "MultiListener", "structMR_1_1MultiListener.html", "structMR_1_1MultiListener" ],
       [ "MultiMeshIntersectionResult", "structMR_1_1MultiMeshIntersectionResult.html", "structMR_1_1MultiMeshIntersectionResult" ],
       [ "MultiwayICP", "classMR_1_1MultiwayICP.html", "classMR_1_1MultiwayICP" ],
@@ -603,6 +609,7 @@ var annotated_dup =
       [ "SaveSceneMenuItem", "classMR_1_1SaveSceneMenuItem.html", "classMR_1_1SaveSceneMenuItem" ],
       [ "SaveSelectedMenuItem", "classMR_1_1SaveSelectedMenuItem.html", "classMR_1_1SaveSelectedMenuItem" ],
       [ "SaveSettings", "structMR_1_1SaveSettings.html", "structMR_1_1SaveSettings" ],
+      [ "SceneCache", "classMR_1_1SceneCache.html", null ],
       [ "SceneColors", "structMR_1_1SceneColors.html", "structMR_1_1SceneColors" ],
       [ "SceneRoot", "classMR_1_1SceneRoot.html", null ],
       [ "SceneRootObject", "classMR_1_1SceneRootObject.html", "classMR_1_1SceneRootObject" ],
@@ -648,6 +655,7 @@ var annotated_dup =
       [ "SpaceMouseMoveListener", "structMR_1_1SpaceMouseMoveListener.html", "structMR_1_1SpaceMouseMoveListener" ],
       [ "SpaceMouseParameters", "structMR_1_1SpaceMouseParameters.html", "structMR_1_1SpaceMouseParameters" ],
       [ "SpaceMouseUpListener", "structMR_1_1SpaceMouseUpListener.html", "structMR_1_1SpaceMouseUpListener" ],
+      [ "SpacingSettings", "structMR_1_1SpacingSettings.html", "structMR_1_1SpacingSettings" ],
       [ "Sphere", "structMR_1_1Sphere.html", "structMR_1_1Sphere" ],
       [ "SphereObject", "classMR_1_1SphereObject.html", "classMR_1_1SphereObject" ],
       [ "SphereParams", "structMR_1_1SphereParams.html", "structMR_1_1SphereParams" ],

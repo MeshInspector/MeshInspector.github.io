@@ -104,32 +104,41 @@ $(function(){initNavTree('MRSignal_8h_source.html',''); initResizable(); });
 <div class="contents">
 <a href="MRSignal_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#pragma warning(push)</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#pragma warning(disable: 4619) </span><span class="comment">//#pragma warning: there is no warning number</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;boost/signals2/signal.hpp&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#pragma warning(pop)</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#if (defined(__APPLE__) &amp;&amp; defined(__clang__))</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#pragma clang diagnostic push</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#pragma clang diagnostic ignored &quot;-Wunused-parameter&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="foldopen" id="foldopen00014" data-start="{" data-end="};">
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="structMR_1_1Signal.html">   14</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1Signal.html">Signal</a> : boost::signals2::signal&lt;T&gt;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structMR_1_1Signal.html#a488990e85880132e9fbf56b93e3deb55">   16</a></span>    <a class="code hl_function" href="structMR_1_1Signal.html#a488990e85880132e9fbf56b93e3deb55">Signal</a>() noexcept = default;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="structMR_1_1Signal.html#a186f243369f993f6c645e1ac87ce80c4">   17</a></span>    <a class="code hl_struct" href="structMR_1_1Signal.html">Signal</a>( const <a class="code hl_struct" href="structMR_1_1Signal.html">Signal</a>&amp; ) noexcept : boost::signals2::signal&lt;T&gt;() {}</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="structMR_1_1Signal.html#ae7fbfc379a2b37356e3a2147d5b011aa">   18</a></span>    <a class="code hl_function" href="structMR_1_1Signal.html#ae7fbfc379a2b37356e3a2147d5b011aa">Signal</a>( <a class="code hl_struct" href="structMR_1_1Signal.html">Signal</a>&amp;&amp; ) noexcept = default;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="structMR_1_1Signal.html#ad2ac352405fa0b18359e9604a84d95eb">   19</a></span>    <a class="code hl_struct" href="structMR_1_1Signal.html">Signal</a>&amp; operator =( const <a class="code hl_struct" href="structMR_1_1Signal.html">Signal</a>&amp; ) noexcept { <span class="keywordflow">return</span> *<span class="keyword">this</span>; }</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="structMR_1_1Signal.html#a69ea1c4cfb77f79ea8c163ceb39ef970">   20</a></span>    <a class="code hl_struct" href="structMR_1_1Signal.html">Signal</a>&amp; <a class="code hl_function" href="structMR_1_1Signal.html#ad2ac352405fa0b18359e9604a84d95eb">operator =</a>( <a class="code hl_struct" href="structMR_1_1Signal.html">Signal</a>&amp;&amp; ) noexcept = default;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="structMR_1_1Signal.html#aea174e0acc86ab90ebe3d0b222305838">   21</a></span>    <a class="code hl_struct" href="structMR_1_1Signal.html">Signal</a>&amp; operator =( boost::signals2::signal&lt;T&gt;&amp;&amp; b ) noexcept { *<span class="keyword">static_cast&lt;</span>boost::signals2::signal&lt;T&gt;*<span class="keyword">&gt;</span>(<span class="keyword">this</span>) = std::move( b ); <span class="keywordflow">return</span> *<span class="keyword">this</span>; }</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>};</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#pragma warning(push)</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#pragma warning(disable: 4619) </span><span class="comment">//#pragma warning: there is no warning number</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;boost/signals2/signal.hpp&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#pragma warning(pop)</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#if (defined(__APPLE__) &amp;&amp; defined(__clang__))</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#pragma clang diagnostic pop</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="structMR_1_1Signal.html">   23</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1Signal.html">Signal</a> : boost::signals2::signal&lt;T&gt;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="structMR_1_1Signal.html#a488990e85880132e9fbf56b93e3deb55">   25</a></span>    <a class="code hl_function" href="structMR_1_1Signal.html#a488990e85880132e9fbf56b93e3deb55">Signal</a>() noexcept = default;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="structMR_1_1Signal.html#a186f243369f993f6c645e1ac87ce80c4">   26</a></span>    <a class="code hl_struct" href="structMR_1_1Signal.html">Signal</a>( const <a class="code hl_struct" href="structMR_1_1Signal.html">Signal</a>&amp; ) noexcept : boost::signals2::signal&lt;T&gt;() {}</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="structMR_1_1Signal.html#ae7fbfc379a2b37356e3a2147d5b011aa">   27</a></span>    <a class="code hl_function" href="structMR_1_1Signal.html#ae7fbfc379a2b37356e3a2147d5b011aa">Signal</a>( <a class="code hl_struct" href="structMR_1_1Signal.html">Signal</a>&amp;&amp; ) noexcept = default;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="structMR_1_1Signal.html#ad2ac352405fa0b18359e9604a84d95eb">   28</a></span>    <a class="code hl_struct" href="structMR_1_1Signal.html">Signal</a>&amp; operator =( const <a class="code hl_struct" href="structMR_1_1Signal.html">Signal</a>&amp; ) noexcept { <span class="keywordflow">return</span> *<span class="keyword">this</span>; }</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="structMR_1_1Signal.html#a69ea1c4cfb77f79ea8c163ceb39ef970">   29</a></span>    <a class="code hl_struct" href="structMR_1_1Signal.html">Signal</a>&amp; <a class="code hl_function" href="structMR_1_1Signal.html#ad2ac352405fa0b18359e9604a84d95eb">operator =</a>( <a class="code hl_struct" href="structMR_1_1Signal.html">Signal</a>&amp;&amp; ) noexcept = default;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="structMR_1_1Signal.html#aea174e0acc86ab90ebe3d0b222305838">   30</a></span>    <a class="code hl_struct" href="structMR_1_1Signal.html">Signal</a>&amp; operator =( boost::signals2::signal&lt;T&gt;&amp;&amp; b ) noexcept { *<span class="keyword">static_cast&lt;</span>boost::signals2::signal&lt;T&gt;*<span class="keyword">&gt;</span>(<span class="keyword">this</span>) = std::move( b ); <span class="keywordflow">return</span> *<span class="keyword">this</span>; }</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>};</div>
 </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
-<div class="ttc" id="astructMR_1_1Signal_html"><div class="ttname"><a href="structMR_1_1Signal.html">MR::Signal</a></div><div class="ttdef"><b>Definition</b> MRSignal.h:15</div></div>
+<div class="ttc" id="astructMR_1_1Signal_html"><div class="ttname"><a href="structMR_1_1Signal.html">MR::Signal</a></div><div class="ttdef"><b>Definition</b> MRSignal.h:24</div></div>
 <div class="ttc" id="astructMR_1_1Signal_html_a488990e85880132e9fbf56b93e3deb55"><div class="ttname"><a href="structMR_1_1Signal.html#a488990e85880132e9fbf56b93e3deb55">MR::Signal::Signal</a></div><div class="ttdeci">Signal() noexcept=default</div></div>
-<div class="ttc" id="astructMR_1_1Signal_html_ad2ac352405fa0b18359e9604a84d95eb"><div class="ttname"><a href="structMR_1_1Signal.html#ad2ac352405fa0b18359e9604a84d95eb">MR::Signal::operator=</a></div><div class="ttdeci">Signal &amp; operator=(const Signal &amp;) noexcept</div><div class="ttdef"><b>Definition</b> MRSignal.h:19</div></div>
+<div class="ttc" id="astructMR_1_1Signal_html_ad2ac352405fa0b18359e9604a84d95eb"><div class="ttname"><a href="structMR_1_1Signal.html#ad2ac352405fa0b18359e9604a84d95eb">MR::Signal::operator=</a></div><div class="ttdeci">Signal &amp; operator=(const Signal &amp;) noexcept</div><div class="ttdef"><b>Definition</b> MRSignal.h:28</div></div>
 <div class="ttc" id="astructMR_1_1Signal_html_ae7fbfc379a2b37356e3a2147d5b011aa"><div class="ttname"><a href="structMR_1_1Signal.html#ae7fbfc379a2b37356e3a2147d5b011aa">MR::Signal::Signal</a></div><div class="ttdeci">Signal(Signal &amp;&amp;) noexcept=default</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

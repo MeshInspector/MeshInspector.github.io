@@ -1,6 +1,7 @@
 var namespaceMR_1_1UI =
 [
     [ "detail", "namespaceMR_1_1UI_1_1detail.html", "namespaceMR_1_1UI_1_1detail" ],
+    [ "TestEngine", "namespaceMR_1_1UI_1_1TestEngine.html", "namespaceMR_1_1UI_1_1TestEngine" ],
     [ "ButtonCustomizationParams", "structMR_1_1UI_1_1ButtonCustomizationParams.html", "structMR_1_1UI_1_1ButtonCustomizationParams" ],
     [ "beginCombo", "namespaceMR_1_1UI.html#a72b7457df4d4b5353fc89751ef8d9501", null ],
     [ "beginTabBar", "namespaceMR_1_1UI.html#ab5dcf6cb9ab83cbd7fd1a8ff6659136f", null ],

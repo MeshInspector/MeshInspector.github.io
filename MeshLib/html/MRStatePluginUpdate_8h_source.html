@@ -103,9 +103,9 @@ $(function(){initNavTree('MRStatePluginUpdate_8h_source.html',''); initResizable
 </div><!--header-->
 <div class="contents">
 <a href="MRStatePluginUpdate_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&quot;</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRViewerFwd_8h.html">MRViewerFwd.h</a>&quot;</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;exports.h&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;boost/signals2/signal.hpp&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRSignal_8h.html">MRMesh/MRSignal.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
@@ -204,7 +204,7 @@ $(function(){initNavTree('MRStatePluginUpdate_8h_source.html',''); initResizable
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="comment">// shouldClose_ returns true if at least on of checks was ture </span></div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> ...Updates&gt;</div>
 <div class="foldopen" id="foldopen00092" data-start="{" data-end="};">
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="classMR_1_1PluginUpdateOr.html">   92</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1PluginUpdateOr.html">PluginUpdateOr</a> : <span class="keyword">virtual</span> <span class="keyword">public</span> Updates...</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="classMR_1_1PluginUpdateOr.html">   92</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1PluginUpdateOr.html">PluginUpdateOr</a> : <span class="keyword">public</span> Updates...</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>{</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="keyword">public</span>:</div>
 <div class="foldopen" id="foldopen00095" data-start="{" data-end="}">
@@ -223,20 +223,23 @@ $(function(){initNavTree('MRStatePluginUpdate_8h_source.html',''); initResizable
 <div class="foldopen" id="foldopen00104" data-start="{" data-end="}">
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="classMR_1_1PluginUpdateOr.html#ab13e2a281b83e65ad9b1e99315bc173e">  104</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1PluginUpdateOr.html#ab13e2a281b83e65ad9b1e99315bc173e">onPluginDisable_</a>()<span class="keyword"> override</span></div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>        ( ..., Updates::onPluginDisable_() );</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    }</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>        <span class="comment">// disconnect in reversed order</span></div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        [[maybe_unused]] <span class="keywordtype">int</span> dummy;</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        ( void )( dummy = ... = ( Updates::onPluginDisable_(), 0 ) );</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00108" data-start="{" data-end="}">
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="classMR_1_1PluginUpdateOr.html#ae8df8724ca459a77b0b3d07ebfbd0f21">  108</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1PluginUpdateOr.html#ae8df8724ca459a77b0b3d07ebfbd0f21">shouldClose_</a>()<span class="keyword"> const override</span></div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        <span class="keywordflow">return</span> ( Updates::shouldClose_() || ... );</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    }</div>
+<div class="foldopen" id="foldopen00110" data-start="{" data-end="}">
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="classMR_1_1PluginUpdateOr.html#ae8df8724ca459a77b0b3d07ebfbd0f21">  110</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1PluginUpdateOr.html#ae8df8724ca459a77b0b3d07ebfbd0f21">shouldClose_</a>()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>        <span class="keywordflow">return</span> ( Updates::shouldClose_() || ... );</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    }</div>
 </div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>};</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>};</div>
 </div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>}</div>
-<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>}</div>
+<div class="ttc" id="aMRSignal_8h_html"><div class="ttname"><a href="MRSignal_8h.html">MRSignal.h</a></div></div>
+<div class="ttc" id="aMRViewerFwd_8h_html"><div class="ttname"><a href="MRViewerFwd_8h.html">MRViewerFwd.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1IPluginUpdate_html"><div class="ttname"><a href="classMR_1_1IPluginUpdate.html">MR::IPluginUpdate</a></div><div class="ttdef"><b>Definition</b> MRStatePluginUpdate.h:12</div></div>
 <div class="ttc" id="aclassMR_1_1IPluginUpdate_html_a0ac2f366f4785c61b991e9d38f1c12d1"><div class="ttname"><a href="classMR_1_1IPluginUpdate.html#a0ac2f366f4785c61b991e9d38f1c12d1">MR::IPluginUpdate::onPluginDisable_</a></div><div class="ttdeci">virtual void onPluginDisable_()</div><div class="ttdef"><b>Definition</b> MRStatePluginUpdate.h:21</div></div>
 <div class="ttc" id="aclassMR_1_1IPluginUpdate_html_a3a57e2a35ba84c0bdd2af8a0f162c5f3"><div class="ttname"><a href="classMR_1_1IPluginUpdate.html#a3a57e2a35ba84c0bdd2af8a0f162c5f3">MR::IPluginUpdate::~IPluginUpdate</a></div><div class="ttdeci">virtual ~IPluginUpdate()=default</div></div>
@@ -265,7 +268,7 @@ $(function(){initNavTree('MRStatePluginUpdate_8h_source.html',''); initResizable
 <div class="ttc" id="aclassMR_1_1PluginUpdateOr_html_a7a215652b9140f1b495ef8302f2119ae"><div class="ttname"><a href="classMR_1_1PluginUpdateOr.html#a7a215652b9140f1b495ef8302f2119ae">MR::PluginUpdateOr::preDrawUpdate</a></div><div class="ttdeci">virtual void preDrawUpdate() override</div><div class="ttdef"><b>Definition</b> MRStatePluginUpdate.h:95</div></div>
 <div class="ttc" id="aclassMR_1_1PluginUpdateOr_html_ab13e2a281b83e65ad9b1e99315bc173e"><div class="ttname"><a href="classMR_1_1PluginUpdateOr.html#ab13e2a281b83e65ad9b1e99315bc173e">MR::PluginUpdateOr::onPluginDisable_</a></div><div class="ttdeci">virtual void onPluginDisable_() override</div><div class="ttdef"><b>Definition</b> MRStatePluginUpdate.h:104</div></div>
 <div class="ttc" id="aclassMR_1_1PluginUpdateOr_html_ad916bd3dde1ec66ce4c87b223517fc00"><div class="ttname"><a href="classMR_1_1PluginUpdateOr.html#ad916bd3dde1ec66ce4c87b223517fc00">MR::PluginUpdateOr::onPluginEnable_</a></div><div class="ttdeci">virtual void onPluginEnable_() override</div><div class="ttdef"><b>Definition</b> MRStatePluginUpdate.h:100</div></div>
-<div class="ttc" id="aclassMR_1_1PluginUpdateOr_html_ae8df8724ca459a77b0b3d07ebfbd0f21"><div class="ttname"><a href="classMR_1_1PluginUpdateOr.html#ae8df8724ca459a77b0b3d07ebfbd0f21">MR::PluginUpdateOr::shouldClose_</a></div><div class="ttdeci">virtual bool shouldClose_() const override</div><div class="ttdef"><b>Definition</b> MRStatePluginUpdate.h:108</div></div>
+<div class="ttc" id="aclassMR_1_1PluginUpdateOr_html_ae8df8724ca459a77b0b3d07ebfbd0f21"><div class="ttname"><a href="classMR_1_1PluginUpdateOr.html#ae8df8724ca459a77b0b3d07ebfbd0f21">MR::PluginUpdateOr::shouldClose_</a></div><div class="ttdeci">virtual bool shouldClose_() const override</div><div class="ttdef"><b>Definition</b> MRStatePluginUpdate.h:110</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

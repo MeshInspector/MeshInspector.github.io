@@ -234,6 +234,7 @@ var MRMeshFwd_8h =
       [ "Mirror", "MRMeshFwd_8h.html#a0e519d6a7c053c5d86dac33ecd0fa00ca2403def5083f02105e7802b3b315681e", null ],
       [ "Clamp", "MRMeshFwd_8h.html#a0e519d6a7c053c5d86dac33ecd0fa00ca08825280e3f8137556325061ba67ff8c", null ]
     ] ],
+    [ "contains", "MRMeshFwd_8h.html#a0e69561d8c59d6cbfe5db9199465db72", null ],
     [ "overloaded", "MRMeshFwd_8h.html#a80e6b953fc44378e5898ba71b21f216a", null ],
     [ "sgn", "MRMeshFwd_8h.html#a86bf24d57f63afab9354505400a0e82c", null ],
     [ "sqr", "MRMeshFwd_8h.html#a1bdf9f3c718616502649bc34a80ac976", null ],

@@ -62,6 +62,7 @@ var MRUnits_8h =
     ] ],
     [ "TimeUnit", "MRUnits_8h.html#af380c745631672883c31b1875697b2e5", [
       [ "seconds", "MRUnits_8h.html#af380c745631672883c31b1875697b2e5a783e8e29e6a8c3e22baa58a19420eb4f", null ],
+      [ "milliseconds", "MRUnits_8h.html#af380c745631672883c31b1875697b2e5ac50c3b1ca82ba7b7ab55afdf66a2f6c9", null ],
       [ "_count", "MRUnits_8h.html#af380c745631672883c31b1875697b2e5ad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
     [ "VolumeUnit", "MRUnits_8h.html#ad9e7a49998c5eecad26ffc58feb2a29a", [

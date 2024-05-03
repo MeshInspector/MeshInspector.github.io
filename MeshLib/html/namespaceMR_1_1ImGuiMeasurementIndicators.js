@@ -23,6 +23,7 @@ var namespaceMR_1_1ImGuiMeasurementIndicators =
     [ "arrowTriangle", "namespaceMR_1_1ImGuiMeasurementIndicators.html#a660e781c3399b37449e24305cf8bbdc4", null ],
     [ "distance", "namespaceMR_1_1ImGuiMeasurementIndicators.html#ac2552860465fff80ce74a099710e84c6", null ],
     [ "line", "namespaceMR_1_1ImGuiMeasurementIndicators.html#a6029334be476b361570837d6592b4272", null ],
+    [ "point", "namespaceMR_1_1ImGuiMeasurementIndicators.html#a41f4d6d002c7cff807425bbcb80c5edd", null ],
     [ "prepareCurve", "namespaceMR_1_1ImGuiMeasurementIndicators.html#aa8511657c2ed1cc63ff209a6ede1c0f9", null ],
     [ "text", "namespaceMR_1_1ImGuiMeasurementIndicators.html#a332cd23bae44470d3c2076a7d5a5d0ef", null ]
 ];

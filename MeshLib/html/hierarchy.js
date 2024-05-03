@@ -154,6 +154,7 @@ var hierarchy =
     [ "MR::Buffer< VertId, VertId >", "classMR_1_1Buffer.html", null ],
     [ "MR::MeshBuilder::BuildSettings", "structMR_1_1MeshBuilder_1_1BuildSettings.html", null ],
     [ "MR::UI::ButtonCustomizationParams", "structMR_1_1UI_1_1ButtonCustomizationParams.html", null ],
+    [ "MR::UI::TestEngine::ButtonEntry", "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html", null ],
     [ "MR::RibbonButtonDrawer::ButtonItemWidth", "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html", null ],
     [ "MR::CloudPartMapping", "structMR_1_1CloudPartMapping.html", null ],
     [ "MR::CNCMachineSettings", "classMR_1_1CNCMachineSettings.html", null ],
@@ -290,6 +291,7 @@ var hierarchy =
     [ "MR::EmbeddedStructureParameters", "structMR_1_1EmbeddedStructureParameters.html", null ],
     [ "MR::detail::Units::Empty", "structMR_1_1detail_1_1Units_1_1Empty.html", null ],
     [ "MR::Graph::EndVertices", "structMR_1_1Graph_1_1EndVertices.html", null ],
+    [ "MR::UI::TestEngine::Entry", "structMR_1_1UI_1_1TestEngine_1_1Entry.html", null ],
     [ "MR::EnumNeihbourFaces", "classMR_1_1EnumNeihbourFaces.html", null ],
     [ "MR::EnumNeihbourVertices", "classMR_1_1EnumNeihbourVertices.html", null ],
     [ "MR::MeshBuilder::equalVector3f", "structMR_1_1MeshBuilder_1_1equalVector3f.html", null ],
@@ -335,6 +337,7 @@ var hierarchy =
     [ "MR::Graph", "classMR_1_1Graph.html", null ],
     [ "MR::GridSettings", "structMR_1_1GridSettings.html", null ],
     [ "MR::GridToMeshSettings", "structMR_1_1GridToMeshSettings.html", null ],
+    [ "MR::UI::TestEngine::GroupEntry", "structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html", null ],
     [ "MR::TouchpadController::Handler", "classMR_1_1TouchpadController_1_1Handler.html", null ],
     [ "MR::HashToVectorMappingConverter", "classMR_1_1HashToVectorMappingConverter.html", null ],
     [ "MR::Heap< T, I, P >", "classMR_1_1Heap.html", null ],
@@ -620,6 +623,7 @@ var hierarchy =
     [ "MR::MouseController", "classMR_1_1MouseController.html", null ],
     [ "MR::GcodeProcessor::MoveAction", "structMR_1_1GcodeProcessor_1_1MoveAction.html", null ],
     [ "MR::MovementBuildBodyParams", "structMR_1_1MovementBuildBodyParams.html", null ],
+    [ "MR::MoveObjectByMouseImpl", "classMR_1_1MoveObjectByMouseImpl.html", null ],
     [ "MR::MultiwayICP", "classMR_1_1MultiwayICP.html", null ],
     [ "MR::MutexOwner", "structMR_1_1MutexOwner.html", null ],
     [ "N", null, [
@@ -834,6 +838,7 @@ var hierarchy =
     ] ],
     [ "MR::VoxelsSave::SavingSettings", "structMR_1_1VoxelsSave_1_1SavingSettings.html", null ],
     [ "MR::ViewportGL::ScaledPickRes", "structMR_1_1ViewportGL_1_1ScaledPickRes.html", null ],
+    [ "MR::SceneCache", "classMR_1_1SceneCache.html", null ],
     [ "MR::SceneColors", "structMR_1_1SceneColors.html", null ],
     [ "MR::SceneLoad::SceneLoadResult", "structMR_1_1SceneLoad_1_1SceneLoadResult.html", null ],
     [ "MR::SceneRoot", "classMR_1_1SceneRoot.html", null ],
@@ -883,6 +888,7 @@ var hierarchy =
       [ "MR::SpaceMouseHandlerHidapi", "classMR_1_1SpaceMouseHandlerHidapi.html", null ]
     ] ],
     [ "MR::SpaceMouseParameters", "structMR_1_1SpaceMouseParameters.html", null ],
+    [ "MR::SpacingSettings", "structMR_1_1SpacingSettings.html", null ],
     [ "MR::Sphere< V >", "structMR_1_1Sphere.html", null ],
     [ "MR::SphereParams", "structMR_1_1SphereParams.html", null ],
     [ "MR::SplashWindow", "classMR_1_1SplashWindow.html", [

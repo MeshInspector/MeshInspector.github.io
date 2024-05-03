@@ -46,7 +46,7 @@ var searchData=
   ['numcreaseedges_5f_43',['numCreaseEdges_',['../classMR_1_1ObjectMeshHolder.html#af410ff87afee85c7978cca07f1616415',1,'MR::ObjectMeshHolder']]],
   ['numhandles_5f_44',['numHandles_',['../classMR_1_1ObjectMeshHolder.html#a638c9fd07d62fc31be6c0b36171ebb71',1,'MR::ObjectMeshHolder']]],
   ['numholes_5f_45',['numHoles_',['../classMR_1_1ObjectMeshHolder.html#a1f8f8cc0499cdafeb2d13bf4cc596002',1,'MR::ObjectMeshHolder']]],
-  ['numiters_46',['numIters',['../structMR_1_1ImproveSamplingSettings.html#a23d034e4e8ff34a828259420ecd4a8d5',1,'MR::ImproveSamplingSettings']]],
+  ['numiters_46',['numIters',['../structMR_1_1ImproveSamplingSettings.html#a23d034e4e8ff34a828259420ecd4a8d5',1,'MR::ImproveSamplingSettings::numIters'],['../structMR_1_1SpacingSettings.html#ad568a8496f9ca1e1732124e9fa159cd5',1,'MR::SpacingSettings::numIters']]],
   ['nummeshvertices_47',['numMeshVertices',['../structMR_1_1SphereParams.html#a6e99b625718037bc438cd04e6865ac95',1,'MR::SphereParams']]],
   ['numneighbours_48',['numNeighbours',['../structMR_1_1TriangulationParameters.html#af9e046f71d9cf4b908279bd24f0a1707',1,'MR::TriangulationParameters']]],
   ['numneis_49',['numNeis',['../structMR_1_1TriangulationHelpers_1_1Settings.html#a45558230d0bcbdc7e5d3da4e7f7b3ab7',1,'MR::TriangulationHelpers::Settings']]],
