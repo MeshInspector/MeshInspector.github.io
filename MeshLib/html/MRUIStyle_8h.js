@@ -12,6 +12,7 @@ var MRUIStyle_8h =
     [ "button", "MRUIStyle_8h.html#ad13b9be4aa5cae65c61e91ac1ab04ecd", null ],
     [ "buttonCommonSize", "MRUIStyle_8h.html#affdd9ce8585853bc545f4f60bda2611f", null ],
     [ "buttonEx", "MRUIStyle_8h.html#a012d7558b98063f22c4bb9a28299837b", null ],
+    [ "buttonIcon", "MRUIStyle_8h.html#af2e7eebf3d2c40dafb3ed17d34a768be", null ],
     [ "buttonUnique", "MRUIStyle_8h.html#aca27e412cdac5850b5894de3b19321b9", null ],
     [ "checkbox", "MRUIStyle_8h.html#a53a8b0ecd1302a3bda2f1df01ef818a8", null ],
     [ "checkbox", "MRUIStyle_8h.html#a9542cf007c0f98d41fea874268894222", null ],

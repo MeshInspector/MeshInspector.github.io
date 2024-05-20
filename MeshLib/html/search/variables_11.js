@@ -34,11 +34,10 @@ var searchData=
   ['ribbon_31',['Ribbon',['../structMR_1_1DrawButtonParams.html#afd107444ea803e1dded92f25f9366332',1,'MR::DrawButtonParams']]],
   ['rightorlast_32',['rightOrLast',['../structMR_1_1AABBTreePoints_1_1Node.html#a3cf322fb918d8114b9298d36ab60f30f',1,'MR::AABBTreePoints::Node']]],
   ['rigidb2a_33',['rigidB2A',['../structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0',1,'MR::SortIntersectionsData::rigidB2A'],['../structMR_1_1BooleanParameters.html#aa7d29b950e89579308197da903b43d92',1,'MR::BooleanParameters::rigidB2A']]],
-  ['rotangles_34',['rotAngles',['../structMR_1_1PointToPlaneAligningTransform_1_1Amendment.html#abc3ac9ecd9cd388aff8e3bc56940f80a',1,'MR::PointToPlaneAligningTransform::Amendment']]],
-  ['rotatescale_35',['rotateScale',['../structMR_1_1SpaceMouseParameters.html#a0aacd5998cdf0ce46fd7ff6066c9e5a3',1,'MR::SpaceMouseParameters']]],
-  ['rotationcolors_36',['rotationColors',['../structMR_1_1TransformControls_1_1VisualParams.html#a73b98ea29d5b5bd3e934357536430ea4',1,'MR::TransformControls::VisualParams']]],
-  ['rotationsphere_37',['rotationSphere',['../classMR_1_1Viewer.html#a73342d4ca83f292c18e3174035e61d2e',1,'MR::Viewer']]],
-  ['round_38',['Round',['../structMR_1_1OffsetContoursParams.html#af426f64ab272d3866b6bfa747959ae49',1,'MR::OffsetContoursParams::Round'],['../structMR_1_1OffsetContoursParams.html#a11a811849fd3702f4abc2c898b1fe5dc',1,'MR::OffsetContoursParams::Round']]],
-  ['rounding_39',['rounding',['../namespaceMR_1_1StyleConsts_1_1ProgressBar.html#a467066b4c41a91512fcfee5c76e236ca',1,'MR::StyleConsts::ProgressBar']]],
-  ['rr_40',['rr',['../structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584',1,'MR::Dipole']]]
+  ['rotatescale_34',['rotateScale',['../structMR_1_1SpaceMouseParameters.html#a0aacd5998cdf0ce46fd7ff6066c9e5a3',1,'MR::SpaceMouseParameters']]],
+  ['rotationcolors_35',['rotationColors',['../structMR_1_1TransformControls_1_1VisualParams.html#a73b98ea29d5b5bd3e934357536430ea4',1,'MR::TransformControls::VisualParams']]],
+  ['rotationsphere_36',['rotationSphere',['../classMR_1_1Viewer.html#a73342d4ca83f292c18e3174035e61d2e',1,'MR::Viewer']]],
+  ['round_37',['Round',['../structMR_1_1OffsetContoursParams.html#af426f64ab272d3866b6bfa747959ae49',1,'MR::OffsetContoursParams::Round'],['../structMR_1_1OffsetContoursParams.html#a11a811849fd3702f4abc2c898b1fe5dc',1,'MR::OffsetContoursParams::Round']]],
+  ['rounding_38',['rounding',['../namespaceMR_1_1StyleConsts_1_1ProgressBar.html#a467066b4c41a91512fcfee5c76e236ca',1,'MR::StyleConsts::ProgressBar']]],
+  ['rr_39',['rr',['../structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584',1,'MR::Dipole']]]
 ];

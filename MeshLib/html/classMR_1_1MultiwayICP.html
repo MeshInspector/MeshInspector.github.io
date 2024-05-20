@@ -112,8 +112,8 @@ $(function(){initNavTree('classMR_1_1MultiwayICP.html',''); initResizable(); });
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad41490dbaca9d81a59dc6985b9c3ccc1" id="r_ad41490dbaca9d81a59dc6985b9c3ccc1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad41490dbaca9d81a59dc6985b9c3ccc1">MultiwayICP</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a>, <a class="el" href="namespaceMR.html#a2ade014f4db362f8482d5d7addcae630">MeshOrPointsId</a> &gt; &amp;objects, float samplingVoxelSize)</td></tr>
 <tr class="separator:ad41490dbaca9d81a59dc6985b9c3ccc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8def6bae77360ddd908705f91d53717c" id="r_a8def6bae77360ddd908705f91d53717c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a>, <a class="el" href="namespaceMR.html#a2ade014f4db362f8482d5d7addcae630">MeshOrPointsId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8def6bae77360ddd908705f91d53717c">calculateTransformations</a> ()</td></tr>
-<tr class="separator:a8def6bae77360ddd908705f91d53717c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add8ff2c787d328859bf9a1f363eefb05" id="r_add8ff2c787d328859bf9a1f363eefb05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a>, <a class="el" href="namespaceMR.html#a2ade014f4db362f8482d5d7addcae630">MeshOrPointsId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add8ff2c787d328859bf9a1f363eefb05">calculateTransformations</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:add8ff2c787d328859bf9a1f363eefb05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04d608a0735df50a7562c39fd1a2b4cc" id="r_a04d608a0735df50a7562c39fd1a2b4cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04d608a0735df50a7562c39fd1a2b4cc">resamplePoints</a> (float samplingVoxelSize)</td></tr>
 <tr class="memdesc:a04d608a0735df50a7562c39fd1a2b4cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">select pairs with origin samples on all objects  <br /></td></tr>
 <tr class="separator:a04d608a0735df50a7562c39fd1a2b4cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -121,7 +121,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4617a256bb8ec81dcff069a0994954ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">in each pair updates the target data and performs basic filtering (activation)  <br /></td></tr>
 <tr class="separator:a4617a256bb8ec81dcff069a0994954ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa420b3638e8c4e0b5ac70acb575a741" id="r_afa420b3638e8c4e0b5ac70acb575a741"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa420b3638e8c4e0b5ac70acb575a741">setParams</a> (const <a class="el" href="structMR_1_1ICPProperties.html">ICPProperties</a> &amp;prop)</td></tr>
-<tr class="memdesc:afa420b3638e8c4e0b5ac70acb575a741"><td class="mdescLeft">&#160;</td><td class="mdescRight">tune algorithm params before run <a class="el" href="#a8def6bae77360ddd908705f91d53717c">calculateTransformations()</a>  <br /></td></tr>
+<tr class="memdesc:afa420b3638e8c4e0b5ac70acb575a741"><td class="mdescLeft">&#160;</td><td class="mdescRight">tune algorithm params before run <a class="el" href="#add8ff2c787d328859bf9a1f363eefb05">calculateTransformations()</a>  <br /></td></tr>
 <tr class="separator:afa420b3638e8c4e0b5ac70acb575a741"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1df773567dfe9ebaffb468a5e35325fe" id="r_a1df773567dfe9ebaffb468a5e35325fe"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1ICPProperties.html">ICPProperties</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1df773567dfe9ebaffb468a5e35325fe">getParams</a> () const</td></tr>
 <tr class="separator:a1df773567dfe9ebaffb468a5e35325fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,6 +146,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae36a340dd4d403cc4894bc8a8b87d0d6" id="r_ae36a340dd4d403cc4894bc8a8b87d0d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae36a340dd4d403cc4894bc8a8b87d0d6">setPerIterationCallback</a> (std::function&lt; void(int inter)&gt; callback)</td></tr>
 <tr class="memdesc:ae36a340dd4d403cc4894bc8a8b87d0d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets callback that will be called for each iteration  <br /></td></tr>
 <tr class="separator:ae36a340dd4d403cc4894bc8a8b87d0d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a560fafa7d2a28add2670cce08d40b211" id="r_a560fafa7d2a28add2670cce08d40b211"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a560fafa7d2a28add2670cce08d40b211">independentEquationsModeEnabled</a> () const</td></tr>
+<tr class="separator:a560fafa7d2a28add2670cce08d40b211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc9aa7b28820c0c5dbe22e28d6c1bc5f" id="r_adc9aa7b28820c0c5dbe22e28d6c1bc5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc9aa7b28820c0c5dbe22e28d6c1bc5f">enableIndependentEquationsMode</a> (bool on)</td></tr>
+<tr class="separator:adc9aa7b28820c0c5dbe22e28d6c1bc5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a088270c2bee7aaaea93a48fc5d48c2fd" id="r_a088270c2bee7aaaea93a48fc5d48c2fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a088270c2bee7aaaea93a48fc5d48c2fd">getStatusInfo</a> () const</td></tr>
 <tr class="memdesc:a088270c2bee7aaaea93a48fc5d48c2fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns status info string  <br /></td></tr>
 <tr class="separator:a088270c2bee7aaaea93a48fc5d48c2fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,8 +177,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8def6bae77360ddd908705f91d53717c" name="a8def6bae77360ddd908705f91d53717c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8def6bae77360ddd908705f91d53717c">&#9670;&#160;</a></span>calculateTransformations()</h2>
+<a id="add8ff2c787d328859bf9a1f363eefb05" name="add8ff2c787d328859bf9a1f363eefb05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add8ff2c787d328859bf9a1f363eefb05">&#9670;&#160;</a></span>calculateTransformations()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -182,10 +186,35 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a>, <a class="el" href="namespaceMR.html#a2ade014f4db362f8482d5d7addcae630">MeshOrPointsId</a> &gt; MR::MultiwayICP::calculateTransformations </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adc9aa7b28820c0c5dbe22e28d6c1bc5f" name="adc9aa7b28820c0c5dbe22e28d6c1bc5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc9aa7b28820c0c5dbe22e28d6c1bc5f">&#9670;&#160;</a></span>enableIndependentEquationsMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::MultiwayICP::enableIndependentEquationsMode </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>on</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -348,6 +377,32 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a560fafa7d2a28add2670cce08d40b211" name="a560fafa7d2a28add2670cce08d40b211"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a560fafa7d2a28add2670cce08d40b211">&#9670;&#160;</a></span>independentEquationsModeEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::MultiwayICP::independentEquationsModeEnabled </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>if in independent equations mode - creates separate equation system for each object otherwise creates single large equation system for all objects </p>
+
+</div>
+</div>
 <a id="a04d608a0735df50a7562c39fd1a2b4cc" name="a04d608a0735df50a7562c39fd1a2b4cc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a04d608a0735df50a7562c39fd1a2b4cc">&#9670;&#160;</a></span>resamplePoints()</h2>
 
@@ -390,7 +445,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>tune algorithm params before run <a class="el" href="#a8def6bae77360ddd908705f91d53717c">calculateTransformations()</a> </p>
+<p>tune algorithm params before run <a class="el" href="#add8ff2c787d328859bf9a1f363eefb05">calculateTransformations()</a> </p>
 
 </div>
 </div>

@@ -90,8 +90,8 @@ var searchData=
   ['meshloaderadder_87',['MeshLoaderAdder',['../classMR_1_1MeshLoad_1_1MeshLoaderAdder.html#a3ffd5dc35d92ca63264fe7bdf5c438dc',1,'MR::MeshLoad::MeshLoaderAdder']]],
   ['meshmodifier_88',['MeshModifier',['../classMR_1_1MeshModifier.html#a0338449c5ee61d0a4f201d678002cfbc',1,'MR::MeshModifier']]],
   ['meshorpoints_89',['MeshOrPoints',['../classMR_1_1MeshOrPoints.html#af9cbf91d93d22bcc4e487a573b2b8067',1,'MR::MeshOrPoints::MeshOrPoints(const Mesh &amp;mesh)'],['../classMR_1_1MeshOrPoints.html#a4b19905136ab6d31a445cc3884ab0c1e',1,'MR::MeshOrPoints::MeshOrPoints(const MeshPart &amp;mp)'],['../classMR_1_1MeshOrPoints.html#abe1af15504d425b2e6633291ccae6828',1,'MR::MeshOrPoints::MeshOrPoints(const PointCloud &amp;pc)']]],
-  ['meshpart_90',['meshPart',['../classMR_1_1ObjectMeshHolder.html#a5f17cf78de5c594d2941f35bd82197f1',1,'MR::ObjectMeshHolder']]],
-  ['meshpart_91',['MeshPart',['../structMR_1_1MeshPart.html#ac49fe73418dd67b25cae5a1275ca8e0f',1,'MR::MeshPart']]],
+  ['meshpart_90',['MeshPart',['../structMR_1_1MeshPart.html#ac49fe73418dd67b25cae5a1275ca8e0f',1,'MR::MeshPart']]],
+  ['meshpart_91',['meshPart',['../classMR_1_1ObjectMeshHolder.html#a5f17cf78de5c594d2941f35bd82197f1',1,'MR::ObjectMeshHolder']]],
   ['meshregiontoindicatorvolume_92',['meshRegionToIndicatorVolume',['../namespaceMR.html#aed511b6291080e3c3896fe5637c1d0c8',1,'MR']]],
   ['meshtodistancefield_93',['meshToDistanceField',['../namespaceMR.html#a9b93c7f2b2607e84f9cfc0475558e2e7',1,'MR']]],
   ['meshtodistancefunctionvolume_94',['meshToDistanceFunctionVolume',['../namespaceMR.html#ab3b17a5aa803c04b49fb43ab529583fd',1,'MR']]],
@@ -128,8 +128,9 @@ var searchData=
   ['mr_5fdelete_5fmove_125',['MR_DELETE_MOVE',['../classMR_1_1RibbonMenuItem.html#a957422a15704b2f8854bfd0b2d1ae76d',1,'MR::RibbonMenuItem']]],
   ['mult_126',['mult',['../structMR_1_1Vector2.html#aaf1c84a8ba1493b479c774db9477d5e6',1,'MR::Vector2::mult()'],['../structMR_1_1Vector3.html#ae2acb767e75d8fddbe60a26218e7635a',1,'MR::Vector3::mult()']]],
   ['multipickobjects_127',['multiPickObjects',['../classMR_1_1Viewport.html#aa8d361bfbb43fdcccc7466ae900566ae',1,'MR::Viewport']]],
-  ['multiwayicp_128',['MultiwayICP',['../classMR_1_1MultiwayICP.html#ad41490dbaca9d81a59dc6985b9c3ccc1',1,'MR::MultiwayICP']]],
-  ['mutexowner_129',['MutexOwner',['../structMR_1_1MutexOwner.html#a0b8916c659034ad127ac287bac8112e9',1,'MR::MutexOwner::MutexOwner() noexcept=default'],['../structMR_1_1MutexOwner.html#a5ba8e76fada103c9e3350748ec9f46d8',1,'MR::MutexOwner::MutexOwner(const MutexOwner &amp;) noexcept'],['../structMR_1_1MutexOwner.html#a8e3788887677b1c7381950a3aa7dcaac',1,'MR::MutexOwner::MutexOwner(MutexOwner &amp;&amp;) noexcept']]],
-  ['myseconds_130',['mySeconds',['../structMR_1_1TimeRecord.html#a80d3da8e260d6c62716855a674a2bc46',1,'MR::TimeRecord']]],
-  ['mytime_131',['myTime',['../structMR_1_1TimeRecord.html#ae2011c61063c65e0a8f63688cb97f6af',1,'MR::TimeRecord']]]
+  ['multiwayaligningtransform_128',['MultiwayAligningTransform',['../classMR_1_1MultiwayAligningTransform.html#a369ea758ed0c5083163a69cd75a1d526',1,'MR::MultiwayAligningTransform']]],
+  ['multiwayicp_129',['MultiwayICP',['../classMR_1_1MultiwayICP.html#ad41490dbaca9d81a59dc6985b9c3ccc1',1,'MR::MultiwayICP']]],
+  ['mutexowner_130',['MutexOwner',['../structMR_1_1MutexOwner.html#a0b8916c659034ad127ac287bac8112e9',1,'MR::MutexOwner::MutexOwner() noexcept=default'],['../structMR_1_1MutexOwner.html#a5ba8e76fada103c9e3350748ec9f46d8',1,'MR::MutexOwner::MutexOwner(const MutexOwner &amp;) noexcept'],['../structMR_1_1MutexOwner.html#a8e3788887677b1c7381950a3aa7dcaac',1,'MR::MutexOwner::MutexOwner(MutexOwner &amp;&amp;) noexcept']]],
+  ['myseconds_131',['mySeconds',['../structMR_1_1TimeRecord.html#a80d3da8e260d6c62716855a674a2bc46',1,'MR::TimeRecord']]],
+  ['mytime_132',['myTime',['../structMR_1_1TimeRecord.html#ae2011c61063c65e0a8f63688cb97f6af',1,'MR::TimeRecord']]]
 ];

@@ -10,6 +10,7 @@ var namespaceMR_1_1UI =
     [ "button", "namespaceMR_1_1UI.html#ad13b9be4aa5cae65c61e91ac1ab04ecd", null ],
     [ "buttonCommonSize", "namespaceMR_1_1UI.html#affdd9ce8585853bc545f4f60bda2611f", null ],
     [ "buttonEx", "namespaceMR_1_1UI.html#a012d7558b98063f22c4bb9a28299837b", null ],
+    [ "buttonIcon", "namespaceMR_1_1UI.html#af2e7eebf3d2c40dafb3ed17d34a768be", null ],
     [ "buttonUnique", "namespaceMR_1_1UI.html#aca27e412cdac5850b5894de3b19321b9", null ],
     [ "checkbox", "namespaceMR_1_1UI.html#a53a8b0ecd1302a3bda2f1df01ef818a8", null ],
     [ "checkbox", "namespaceMR_1_1UI.html#a9542cf007c0f98d41fea874268894222", null ],

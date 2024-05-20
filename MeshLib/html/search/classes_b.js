@@ -73,6 +73,7 @@ var searchData=
   ['multilistener_3c_20touchpadrotategesturebeginlistener_2c_20touchpadrotategestureupdatelistener_2c_20touchpadrotategestureendlistener_2c_20touchpadswipegesturebeginlistener_2c_20touchpadswipegestureupdatelistener_2c_20touchpadswipegestureendlistener_2c_20touchpadzoomgesturebeginlistener_2c_20touchpadzoomgestureupdatelistener_2c_20touchpadzoomgestureendlistener_20_3e_70',['MultiListener&lt; TouchpadRotateGestureBeginListener, TouchpadRotateGestureUpdateListener, TouchpadRotateGestureEndListener, TouchpadSwipeGestureBeginListener, TouchpadSwipeGestureUpdateListener, TouchpadSwipeGestureEndListener, TouchpadZoomGestureBeginListener, TouchpadZoomGestureUpdateListener, TouchpadZoomGestureEndListener &gt;',['../structMR_1_1MultiListener.html',1,'MR']]],
   ['multilistener_3c_20touchstartlistener_2c_20touchmovelistener_2c_20touchendlistener_20_3e_71',['MultiListener&lt; TouchStartListener, TouchMoveListener, TouchEndListener &gt;',['../structMR_1_1MultiListener.html',1,'MR']]],
   ['multimeshintersectionresult_72',['MultiMeshIntersectionResult',['../structMR_1_1MultiMeshIntersectionResult.html',1,'MR']]],
-  ['multiwayicp_73',['MultiwayICP',['../classMR_1_1MultiwayICP.html',1,'MR']]],
-  ['mutexowner_74',['MutexOwner',['../structMR_1_1MutexOwner.html',1,'MR']]]
+  ['multiwayaligningtransform_73',['MultiwayAligningTransform',['../classMR_1_1MultiwayAligningTransform.html',1,'MR']]],
+  ['multiwayicp_74',['MultiwayICP',['../classMR_1_1MultiwayICP.html',1,'MR']]],
+  ['mutexowner_75',['MutexOwner',['../structMR_1_1MutexOwner.html',1,'MR']]]
 ];

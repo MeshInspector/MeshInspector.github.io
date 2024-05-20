@@ -12,8 +12,6 @@ var group__AABBTreeGroup =
     ] ],
     [ "MR::AABBTree", "classMR_1_1AABBTree.html", [
       [ "Node", "classMR_1_1AABBTree.html#aa37a7e9d75af0fd6054032c0dab496d9", null ],
-      [ "NodeBitSet", "classMR_1_1AABBTree.html#a14be9f478ec6272d18dc330bd8c94b38", null ],
-      [ "NodeId", "classMR_1_1AABBTree.html#a0d5bc51d4a13d2ff4bda0d7669a6098e", null ],
       [ "NodeVec", "classMR_1_1AABBTree.html#a3689e736d9bd1cc83c766df27cb69b68", null ],
       [ "AABBTree", "classMR_1_1AABBTree.html#a0c762ebbd20c05c2219b1a348f22e0fb", null ],
       [ "AABBTree", "classMR_1_1AABBTree.html#a299be175c35406bc5c624c524a3221e7", null ],
@@ -44,7 +42,6 @@ var group__AABBTreeGroup =
     [ "MR::AABBTreeNode< T >", "structMR_1_1AABBTreeNode.html", [
       [ "BoxT", "structMR_1_1AABBTreeNode.html#af92cbed18c9ddfbf28d0e86385fc6e01", null ],
       [ "LeafId", "structMR_1_1AABBTreeNode.html#a0286485d67d37c6d4f76d7d1f43d13d0", null ],
-      [ "NodeId", "structMR_1_1AABBTreeNode.html#aef3874d22f3d10e9e06b745ae1493dbf", null ],
       [ "leaf", "structMR_1_1AABBTreeNode.html#a50c87fc6c0f27587748dc7f642b5d8a6", null ],
       [ "leafId", "structMR_1_1AABBTreeNode.html#ad0fe7c78e4582c2e180ff4e052c83d0b", null ],
       [ "setLeafId", "structMR_1_1AABBTreeNode.html#ac745781b04cbfa210bd5d3005b17e084", null ],
@@ -66,7 +63,6 @@ var group__AABBTreeGroup =
         [ "id", "structMR_1_1AABBTreePoints_1_1Point.html#a75824d74d5ccd55a0440bf75f7d19077", null ]
       ] ],
       [ "NodeBitSet", "classMR_1_1AABBTreePoints.html#a2f7aeba60ac6d266e6f4c8994d4f534c", null ],
-      [ "NodeId", "classMR_1_1AABBTreePoints.html#a2a41148fa2fd02aaf0c32270b28b11e8", null ],
       [ "NodeVec", "classMR_1_1AABBTreePoints.html#a00cc491c7e366a8a33115d69e567c898", null ],
       [ "AABBTreePoints", "classMR_1_1AABBTreePoints.html#afe5c12db028de0c7152524376a92c38b", null ],
       [ "AABBTreePoints", "classMR_1_1AABBTreePoints.html#ab159b10db8a36b63387eb1149c826dbd", null ],
@@ -93,7 +89,6 @@ var group__AABBTreeGroup =
     ] ],
     [ "MR::AABBTreePolyline< V >", "classMR_1_1AABBTreePolyline.html", [
       [ "Node", "classMR_1_1AABBTreePolyline.html#a509d44a3a361e64b888954b20ad9825e", null ],
-      [ "NodeId", "classMR_1_1AABBTreePolyline.html#a2bc9fe9f7bfec3792058b78b4397d2d6", null ],
       [ "NodeVec", "classMR_1_1AABBTreePolyline.html#a482d4aeb7c300a18727f25e612512ef2", null ],
       [ "Traits", "classMR_1_1AABBTreePolyline.html#a7f96860dc1daeee5853645f1fecdeca7", null ],
       [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html#a7bfaaa5a66978f3d97cd8451644bed9a", null ],
@@ -123,7 +118,6 @@ var group__AABBTreeGroup =
     ] ],
     [ "MR::FastWindingNumber", "classMR_1_1FastWindingNumber.html", [
       [ "FastWindingNumber", "classMR_1_1FastWindingNumber.html#a6af89b7c93e4591719b2ffd0eeeffd07", null ],
-      [ "calc", "classMR_1_1FastWindingNumber.html#a03be0613f5f63cea05547e78110bdd10", null ],
       [ "calcFromGrid", "classMR_1_1FastWindingNumber.html#af36247f7d5d8ae6c1e8d7c669f078e3e", null ],
       [ "calcFromGridWithDistances", "classMR_1_1FastWindingNumber.html#a0fc8b6a24a0d9bd273d419ec9424f6dc", null ],
       [ "calcFromVector", "classMR_1_1FastWindingNumber.html#a82d4def3598d0d1ac98ec04c7cdb4841", null ],
@@ -232,8 +226,7 @@ var group__AABBTreeGroup =
       [ "reset", "classMR_1_1UniqueThreadSafeOwner.html#ab0b41efc38efad3d6af477942a131ef2", null ],
       [ "update", "classMR_1_1UniqueThreadSafeOwner.html#a116e9e31af9a5c5fb15cf8d9278226b1", null ]
     ] ],
-    [ "MR::AABBTreeNodeId", "group__AABBTreeGroup.html#gadf28317604fc9146ae78ff3d8589ee5d", null ],
-    [ "MR::AABBTreeNodeVec", "group__AABBTreeGroup.html#ga3e06f5446dafa4a092cdba5f08998e2a", null ],
+    [ "MR::AABBTreeNodeVec", "group__AABBTreeGroup.html#ga01c75e3c26967a90edbe075a77cb2ca9", null ],
     [ "MR::ConvertToFloatVector", "group__AABBTreeGroup.html#ga55867f88ac3e3a329e67a208b4634d96", null ],
     [ "MR::ConvertToIntVector", "group__AABBTreeGroup.html#gadc2c4d7aad96048cfc344b839a4e6e16", null ],
     [ "MR::FaceTreeTraits3", "group__AABBTreeGroup.html#ga4891ca5ffb38468a494444c4400c720c", null ],

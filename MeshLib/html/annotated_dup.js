@@ -143,7 +143,8 @@ var annotated_dup =
         [ "TestEngine", "namespaceMR_1_1UI_1_1TestEngine.html", [
           [ "ButtonEntry", "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html", "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry" ],
           [ "Entry", "structMR_1_1UI_1_1TestEngine_1_1Entry.html", "structMR_1_1UI_1_1TestEngine_1_1Entry" ],
-          [ "GroupEntry", "structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html", "structMR_1_1UI_1_1TestEngine_1_1GroupEntry" ]
+          [ "GroupEntry", "structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html", "structMR_1_1UI_1_1TestEngine_1_1GroupEntry" ],
+          [ "ValueEntry", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry" ]
         ] ],
         [ "ButtonCustomizationParams", "structMR_1_1UI_1_1ButtonCustomizationParams.html", "structMR_1_1UI_1_1ButtonCustomizationParams" ]
       ] ],
@@ -445,6 +446,7 @@ var annotated_dup =
       [ "MoveObjectByMouseImpl", "classMR_1_1MoveObjectByMouseImpl.html", "classMR_1_1MoveObjectByMouseImpl" ],
       [ "MultiListener", "structMR_1_1MultiListener.html", "structMR_1_1MultiListener" ],
       [ "MultiMeshIntersectionResult", "structMR_1_1MultiMeshIntersectionResult.html", "structMR_1_1MultiMeshIntersectionResult" ],
+      [ "MultiwayAligningTransform", "classMR_1_1MultiwayAligningTransform.html", "classMR_1_1MultiwayAligningTransform" ],
       [ "MultiwayICP", "classMR_1_1MultiwayICP.html", "classMR_1_1MultiwayICP" ],
       [ "MutexOwner", "structMR_1_1MutexOwner.html", "structMR_1_1MutexOwner" ],
       [ "NameTagClickListener", "structMR_1_1NameTagClickListener.html", "structMR_1_1NameTagClickListener" ],
@@ -590,6 +592,7 @@ var annotated_dup =
       [ "RibbonMenuSearch", "classMR_1_1RibbonMenuSearch.html", "classMR_1_1RibbonMenuSearch" ],
       [ "RibbonNotification", "structMR_1_1RibbonNotification.html", "structMR_1_1RibbonNotification" ],
       [ "RibbonNotifier", "classMR_1_1RibbonNotifier.html", "classMR_1_1RibbonNotifier" ],
+      [ "RibbonSceneObjectsListDrawer", "classMR_1_1RibbonSceneObjectsListDrawer.html", "classMR_1_1RibbonSceneObjectsListDrawer" ],
       [ "RibbonSceneRemoveSelected", "classMR_1_1RibbonSceneRemoveSelected.html", "classMR_1_1RibbonSceneRemoveSelected" ],
       [ "RibbonSceneRename", "classMR_1_1RibbonSceneRename.html", "classMR_1_1RibbonSceneRename" ],
       [ "RibbonSceneSelectAll", "classMR_1_1RibbonSceneSelectAll.html", "classMR_1_1RibbonSceneSelectAll" ],
@@ -601,6 +604,8 @@ var annotated_dup =
       [ "RibbonSchemaHolder", "classMR_1_1RibbonSchemaHolder.html", "classMR_1_1RibbonSchemaHolder" ],
       [ "RibbonSchemaLoader", "classMR_1_1RibbonSchemaLoader.html", "classMR_1_1RibbonSchemaLoader" ],
       [ "RibbonTab", "structMR_1_1RibbonTab.html", "structMR_1_1RibbonTab" ],
+      [ "RigidScaleXf3", "structMR_1_1RigidScaleXf3.html", "structMR_1_1RigidScaleXf3" ],
+      [ "RigidXf3", "structMR_1_1RigidXf3.html", "structMR_1_1RigidXf3" ],
       [ "RingIterator", "classMR_1_1RingIterator.html", "classMR_1_1RingIterator" ],
       [ "SaveObjectMenuItem", "classMR_1_1SaveObjectMenuItem.html", "classMR_1_1SaveObjectMenuItem" ],
       [ "SaveObjectSettings", "structMR_1_1SaveObjectSettings.html", "structMR_1_1SaveObjectSettings" ],
@@ -611,6 +616,7 @@ var annotated_dup =
       [ "SaveSettings", "structMR_1_1SaveSettings.html", "structMR_1_1SaveSettings" ],
       [ "SceneCache", "classMR_1_1SceneCache.html", null ],
       [ "SceneColors", "structMR_1_1SceneColors.html", "structMR_1_1SceneColors" ],
+      [ "SceneObjectsListDrawer", "classMR_1_1SceneObjectsListDrawer.html", "classMR_1_1SceneObjectsListDrawer" ],
       [ "SceneRoot", "classMR_1_1SceneRoot.html", null ],
       [ "SceneRootObject", "classMR_1_1SceneRootObject.html", "classMR_1_1SceneRootObject" ],
       [ "SceneSelectionChangeClose", "classMR_1_1SceneSelectionChangeClose.html", "classMR_1_1SceneSelectionChangeClose" ],

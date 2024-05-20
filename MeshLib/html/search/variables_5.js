@@ -40,6 +40,6 @@ var searchData=
   ['exitbtnsize_37',['exitBtnSize',['../namespaceMR_1_1StyleConsts_1_1Modal.html#a51cfb3dcff864fa88a1ef99e05376ebe',1,'MR::StyleConsts::Modal']]],
   ['exitval_38',['exitVal',['../structMR_1_1ICPProperties.html#afe075e9e4944999f30c142f357d071d7',1,'MR::ICPProperties']]],
   ['experimental_39',['experimental',['../structMR_1_1RibbonTab.html#a49c89a14fe5caa50d3bdb2faf511dcc0',1,'MR::RibbonTab']]],
-  ['experimentalfeatures_40',['experimentalFeatures',['../structMR_1_1RibbonSchema.html#a115d5551a71a4d12ae23719bf097a593',1,'MR::RibbonSchema']]],
+  ['experimentalfeatures_40',['experimentalFeatures',['../classMR_1_1Viewer.html#a79903d8243abfd135d4c770623022ef3',1,'MR::Viewer']]],
   ['extensions_41',['extensions',['../structMR_1_1IOFilter.html#a8806427d8212780dc5b20506b24b1223',1,'MR::IOFilter']]]
 ];

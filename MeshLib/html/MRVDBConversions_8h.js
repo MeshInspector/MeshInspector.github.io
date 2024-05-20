@@ -14,5 +14,6 @@ var MRVDBConversions_8h =
     [ "simpleVolumeToDenseGrid", "MRVDBConversions_8h.html#ab66e31274d0a0f78da3e483300b47b0a", null ],
     [ "simpleVolumeToVdbVolume", "MRVDBConversions_8h.html#a83200b03aed71f06d979c9f07d36a96d", null ],
     [ "vdbVolumeToSimpleVolume", "MRVDBConversions_8h.html#a00339964ce3a673d379b97ad5afc7d22", null ],
+    [ "vdbVolumeToSimpleVolumeNorm", "MRVDBConversions_8h.html#a16cbb74ed11206c0ec15d4697e7d9a69", null ],
     [ "vdbVolumeToSimpleVolumeU16", "MRVDBConversions_8h.html#a4896ffa98bbbeb86912a61d7557d1a70", null ]
 ];

@@ -386,13 +386,13 @@ C++ Basic Examples</h1>
 <div class="line">}</div>
 <div class="ttc" id="aMRICP_8h_html"><div class="ttname"><a href="MRICP_8h.html">MRICP.h</a></div></div>
 <div class="ttc" id="aMRMeshFillHole_8h_html"><div class="ttname"><a href="MRMeshFillHole_8h.html">MRMeshFillHole.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1ICP_html"><div class="ttname"><a href="classMR_1_1ICP.html">MR::ICP</a></div><div class="ttdef"><b>Definition</b> MRICP.h:172</div></div>
-<div class="ttc" id="aclassMR_1_1ICP_html_a432cc96b69c08b035a5c6bf6bf8919da"><div class="ttname"><a href="classMR_1_1ICP.html#a432cc96b69c08b035a5c6bf6bf8919da">MR::ICP::setParams</a></div><div class="ttdeci">void setParams(const ICPProperties &amp;prop)</div><div class="ttdoc">tune algorithm params before run calculateTransformation()</div><div class="ttdef"><b>Definition</b> MRICP.h:196</div></div>
+<div class="ttc" id="aclassMR_1_1ICP_html"><div class="ttname"><a href="classMR_1_1ICP.html">MR::ICP</a></div><div class="ttdef"><b>Definition</b> MRICP.h:177</div></div>
+<div class="ttc" id="aclassMR_1_1ICP_html_a432cc96b69c08b035a5c6bf6bf8919da"><div class="ttname"><a href="classMR_1_1ICP.html#a432cc96b69c08b035a5c6bf6bf8919da">MR::ICP::setParams</a></div><div class="ttdeci">void setParams(const ICPProperties &amp;prop)</div><div class="ttdoc">tune algorithm params before run calculateTransformation()</div><div class="ttdef"><b>Definition</b> MRICP.h:201</div></div>
 <div class="ttc" id="aclassMR_1_1MeshOrPoints_html"><div class="ttname"><a href="classMR_1_1MeshOrPoints.html">MR::MeshOrPoints</a></div><div class="ttdef"><b>Definition</b> MRMeshOrPoints.h:17</div></div>
-<div class="ttc" id="anamespaceMR_html_a1bdf9f3c718616502649bc34a80ac976"><div class="ttname"><a href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">MR::sqr</a></div><div class="ttdeci">constexpr T sqr(T x) noexcept</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:519</div></div>
-<div class="ttc" id="anamespaceMR_html_a2573fd184ebe72f07725ac0f2f992994"><div class="ttname"><a href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">MR::AffineXf3f</a></div><div class="ttdeci">AffineXf3&lt; float &gt; AffineXf3f</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:178</div></div>
-<div class="ttc" id="astructMR_1_1ICPProperties_html"><div class="ttname"><a href="structMR_1_1ICPProperties.html">MR::ICPProperties</a></div><div class="ttdef"><b>Definition</b> MRICP.h:115</div></div>
-<div class="ttc" id="astructMR_1_1ICPProperties_html_a43460c0d16c0f302226c8e09b6b98811"><div class="ttname"><a href="structMR_1_1ICPProperties.html#a43460c0d16c0f302226c8e09b6b98811">MR::ICPProperties::distThresholdSq</a></div><div class="ttdeci">float distThresholdSq</div><div class="ttdoc">Points pair will be counted only if squared distance between points is lower than.</div><div class="ttdef"><b>Definition</b> MRICP.h:129</div></div>
+<div class="ttc" id="anamespaceMR_html_a1bdf9f3c718616502649bc34a80ac976"><div class="ttname"><a href="namespaceMR.html#a1bdf9f3c718616502649bc34a80ac976">MR::sqr</a></div><div class="ttdeci">constexpr T sqr(T x) noexcept</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:536</div></div>
+<div class="ttc" id="anamespaceMR_html_a2573fd184ebe72f07725ac0f2f992994"><div class="ttname"><a href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">MR::AffineXf3f</a></div><div class="ttdeci">AffineXf3&lt; float &gt; AffineXf3f</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:184</div></div>
+<div class="ttc" id="astructMR_1_1ICPProperties_html"><div class="ttname"><a href="structMR_1_1ICPProperties.html">MR::ICPProperties</a></div><div class="ttdef"><b>Definition</b> MRICP.h:120</div></div>
+<div class="ttc" id="astructMR_1_1ICPProperties_html_a43460c0d16c0f302226c8e09b6b98811"><div class="ttname"><a href="structMR_1_1ICPProperties.html#a43460c0d16c0f302226c8e09b6b98811">MR::ICPProperties::distThresholdSq</a></div><div class="ttdeci">float distThresholdSq</div><div class="ttdoc">Points pair will be counted only if squared distance between points is lower than.</div><div class="ttdef"><b>Definition</b> MRICP.h:134</div></div>
 <div class="ttc" id="astructMR_1_1MeshPart_html"><div class="ttname"><a href="structMR_1_1MeshPart.html">MR::MeshPart</a></div><div class="ttdef"><b>Definition</b> MRMeshPart.h:11</div></div>
 </div><!-- fragment --><p>Example of filling holes</p>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&quot;</span></div>
@@ -769,8 +769,8 @@ Plotly visualization</div></div>
 <div class="line"> </div>
 <div class="line"># Save mesh</div>
 <div class="line">mrmeshpy.saveMesh(mesh, <span class="stringliteral">&quot;extrudedMesh.stl&quot;</span>)</div>
-<div class="ttc" id="anamespaceMR_html_a62d3af552ee301e04c5fe9bc8ea7be47"><div class="ttname"><a href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">MR::Vector3f</a></div><div class="ttdeci">Vector3&lt; float &gt; Vector3f</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:120</div></div>
-<div class="ttc" id="anamespaceMR_html_a93b55da93792f8f99be6c7ab7e0d103a"><div class="ttname"><a href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">MR::VertId</a></div><div class="ttdeci">Id&lt; VertTag &gt; VertId</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:69</div></div>
+<div class="ttc" id="anamespaceMR_html_a62d3af552ee301e04c5fe9bc8ea7be47"><div class="ttname"><a href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">MR::Vector3f</a></div><div class="ttdeci">Vector3&lt; float &gt; Vector3f</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:126</div></div>
+<div class="ttc" id="anamespaceMR_html_a93b55da93792f8f99be6c7ab7e0d103a"><div class="ttname"><a href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">MR::VertId</a></div><div class="ttdeci">Id&lt; VertTag &gt; VertId</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:70</div></div>
 </div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="EmbendedPythonOverview.html">Python overview</a> </dd></dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

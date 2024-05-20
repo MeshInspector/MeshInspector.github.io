@@ -190,7 +190,6 @@ $(function(){initNavTree('functions_p.html',''); initResizable(); });
 <li>PointSizeType&#160;:&#160;<a class="el" href="structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3">MR::SurfacePointWidget::Parameters</a></li>
 <li>pointsSelectionChangedSignal&#160;:&#160;<a class="el" href="classMR_1_1ObjectPointsHolder.html#a5bbb21ee63e49be34db52c3c870061a4">MR::ObjectPointsHolder</a></li>
 <li>PointsToMeshProjector()&#160;:&#160;<a class="el" href="classMR_1_1Cuda_1_1PointsToMeshProjector.html#ac217c2f9f716d994aa1c0ab98369dc95">MR::Cuda::PointsToMeshProjector</a></li>
-<li>PointToPlaneAligningTransform()&#160;:&#160;<a class="el" href="classMR_1_1PointToPlaneAligningTransform.html#ad4628bac987beac1a3794b53b116cdc6">MR::PointToPlaneAligningTransform</a></li>
 <li>polarAngleStep&#160;:&#160;<a class="el" href="structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#abf279ce04ebf122659affd07a95928f3">MR::FixUndercuts::ImproveDirectionParameters</a></li>
 <li>polygonOffset_&#160;:&#160;<a class="el" href="classMR_1_1ObjectMeshHolder.html#abfb0b5e6707ccd91eba2f65995c7d4fb">MR::ObjectMeshHolder</a></li>
 <li>polyline&#160;:&#160;<a class="el" href="structMR_1_1FlowAggregator_1_1Flows.html#ace1c7b358cce696bd6d7409cc71984d1">MR::FlowAggregator::Flows</a>, <a class="el" href="classMR_1_1ObjectLinesHolder.html#ae0b496042ca65d7b8bdb862c9e984ff7">MR::ObjectLinesHolder</a></li>
@@ -211,6 +210,7 @@ $(function(){initNavTree('functions_p.html',''); initResizable(); });
 <li>positiveLineExtension&#160;:&#160;<a class="el" href="structMR_1_1TransformControls_1_1VisualParams.html#ab232521ec4f30e4a605bf3081a838aab">MR::TransformControls::VisualParams</a></li>
 <li>positiveSideRadius&#160;:&#160;<a class="el" href="structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a6d82dd73c4e7a2c5455773425fb17871">MR::Features::Primitives::ConeSegment</a></li>
 <li>posSelIters&#160;:&#160;<a class="el" href="structMR_1_1SharpenMarchingCubesMeshSettings.html#af9c1800c89388d5779e40bbc270b5e16">MR::SharpenMarchingCubesMeshSettings</a></li>
+<li>postClose()&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#afe0f0a270814dc190e79d226df8d713d">MR::Viewer</a></li>
 <li>postCut&#160;:&#160;<a class="el" href="structMR_1_1MergeVolumePartSettings.html#a31e09c078de0ae4f9b5512e3b099e29b">MR::MergeVolumePartSettings</a></li>
 <li>PostCutCallback&#160;:&#160;<a class="el" href="structMR_1_1MergeVolumePartSettings.html#a58b526091c2efa7486833edd93420975">MR::MergeVolumePartSettings</a></li>
 <li>postDraw()&#160;:&#160;<a class="el" href="classMR_1_1Viewport.html#ace8d34917dcc01ffe64f0bccef923f96">MR::Viewport</a></li>
@@ -227,8 +227,8 @@ $(function(){initNavTree('functions_p.html',''); initResizable(); });
 <li>postRenderViewport()&#160;:&#160;<a class="el" href="structMR_1_1UiRenderManager.html#af9cfebf3c57b3c9b6283d7de32fc4adc">MR::UiRenderManager</a></li>
 <li>postRescale()&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#aaa2239ab3f99213fac753a63afe80d0d">MR::Viewer</a></li>
 <li>postRescale_()&#160;:&#160;<a class="el" href="structMR_1_1PostRescaleListener.html#a73f8715bed55eb4dbbf29f2268afb042">MR::PostRescaleListener</a>, <a class="el" href="classMR_1_1RibbonMenu.html#ad3c1eb063654b601259d343d6644e863">MR::RibbonMenu</a></li>
-<li>PostRescaleSignal&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#a448a65e5c8e0f80950482647b4d8a786">MR::Viewer</a></li>
 <li>postRescaleSignal&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#ab2409f30621eb315fb17072cbc831daf">MR::Viewer</a></li>
+<li>PostRescaleSignal&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#a448a65e5c8e0f80950482647b4d8a786">MR::Viewer</a></li>
 <li>postResize()&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#af7c449197d4f5e0fd82e76374306301c">MR::Viewer</a></li>
 <li>postResize_()&#160;:&#160;<a class="el" href="structMR_1_1PostResizeListener.html#a9c2552a72af5e8d7a454f240a42de130">MR::PostResizeListener</a>, <a class="el" href="classMR_1_1RibbonMenu.html#a9435ce4367ec159b1b5746aaafcc5652">MR::RibbonMenu</a></li>
 <li>PostResizeSignal&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#ab7f0983455b1dfa5ccae593d205470d9">MR::Viewer</a></li>
@@ -258,7 +258,7 @@ $(function(){initNavTree('functions_p.html',''); initResizable(); });
 <li>preloadedLayerCount&#160;:&#160;<a class="el" href="structMR_1_1VoxelsVolumeCachingAccessor_1_1Parameters.html#af8a829af89a52b2fc7092ffa6f36f3e0">MR::VoxelsVolumeCachingAccessor&lt; V &gt;::Parameters</a></li>
 <li>preloadLayer()&#160;:&#160;<a class="el" href="classMR_1_1VoxelsVolumeCachingAccessor.html#aa1114e5d24950b10184404733448cd02">MR::VoxelsVolumeCachingAccessor&lt; V &gt;</a></li>
 <li>preloadNextLayer()&#160;:&#160;<a class="el" href="classMR_1_1VoxelsVolumeCachingAccessor.html#a6ad9d85593149323c3675fb29cc92669">MR::VoxelsVolumeCachingAccessor&lt; V &gt;</a></li>
-<li>prepare()&#160;:&#160;<a class="el" href="classMR_1_1NormalsToPoints_1_1ISolver.html#ac59de77fbc45059cde04afe08a262666">MR::NormalsToPoints::ISolver</a>, <a class="el" href="classMR_1_1NormalsToPoints.html#aa8c324e95e6b5ee11d99cb93bde8a290">MR::NormalsToPoints</a></li>
+<li>prepare()&#160;:&#160;<a class="el" href="classMR_1_1NormalsToPoints_1_1ISolver.html#ac59de77fbc45059cde04afe08a262666">MR::NormalsToPoints::ISolver</a>, <a class="el" href="classMR_1_1NormalsToPoints.html#aa8c324e95e6b5ee11d99cb93bde8a290">MR::NormalsToPoints</a>, <a class="el" href="classMR_1_1PointToPlaneAligningTransform.html#ad0ef5fe0bddd87ee28ec85ec049e779f">MR::PointToPlaneAligningTransform</a></li>
 <li>prepareBuffer()&#160;:&#160;<a class="el" href="classMR_1_1RenderObjectBuffer.html#aecb1aa9a47f7fb1520033ea260ec7b8b">MR::RenderObjectBuffer</a></li>
 <li>prepareDataForVolumeRendering()&#160;:&#160;<a class="el" href="classMR_1_1ObjectVoxels.html#a9a313b9b8361815829252ae55a560ea1">MR::ObjectVoxels</a></li>
 <li>preRenderViewport()&#160;:&#160;<a class="el" href="structMR_1_1UiRenderManager.html#ae586ca77f767a1b38c45269b184c7118">MR::UiRenderManager</a></li>

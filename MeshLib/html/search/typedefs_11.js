@@ -10,6 +10,10 @@ var searchData=
   ['rendersignal_7',['RenderSignal',['../classMR_1_1Viewer.html#a0feb0d244ebf3015b8ed14e68ebb5f12',1,'MR::Viewer']]],
   ['responsecallback_8',['ResponseCallback',['../classMR_1_1WebRequest.html#a2ebe713343abb8bcc05ddc7d74efa880',1,'MR::WebRequest']]],
   ['result_5ftype_9',['result_type',['../structMR_1_1StopOnTrueCombiner.html#ae157bdf17a7f295d510dd732d523f78f',1,'MR::StopOnTrueCombiner']]],
-  ['rotationaxesorder_10',['RotationAxesOrder',['../classMR_1_1CNCMachineSettings.html#ac6d8378bba6ed1303ede82290d59c97d',1,'MR::CNCMachineSettings']]],
-  ['rotationlimits_11',['RotationLimits',['../classMR_1_1CNCMachineSettings.html#af2bd82f7a688dac76bdbfcf5f4f38ce8',1,'MR::CNCMachineSettings']]]
+  ['rigidscalexf3d_10',['RigidScaleXf3d',['../namespaceMR.html#ac100e347a00d35202a538db5f31c4ca5',1,'MR']]],
+  ['rigidscalexf3f_11',['RigidScaleXf3f',['../namespaceMR.html#a6fc8e89a85fa3398f481f13f05ac15b2',1,'MR']]],
+  ['rigidxf3d_12',['RigidXf3d',['../namespaceMR.html#a1872999e655f026f63d6cc5ab19759ad',1,'MR']]],
+  ['rigidxf3f_13',['RigidXf3f',['../namespaceMR.html#a45efdefff7d24023e485f55c3cf99643',1,'MR']]],
+  ['rotationaxesorder_14',['RotationAxesOrder',['../classMR_1_1CNCMachineSettings.html#ac6d8378bba6ed1303ede82290d59c97d',1,'MR::CNCMachineSettings']]],
+  ['rotationlimits_15',['RotationLimits',['../classMR_1_1CNCMachineSettings.html#af2bd82f7a688dac76bdbfcf5f4f38ce8',1,'MR::CNCMachineSettings']]]
 ];

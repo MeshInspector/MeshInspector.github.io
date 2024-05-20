@@ -1,7 +1,6 @@
 var structMR_1_1RibbonSchema =
 [
     [ "defaultQuickAccessList", "structMR_1_1RibbonSchema.html#a2001ba5c144da0024d60ad381cb6fc5b", null ],
-    [ "experimentalFeatures", "structMR_1_1RibbonSchema.html#a115d5551a71a4d12ae23719bf097a593", null ],
     [ "groupsMap", "structMR_1_1RibbonSchema.html#a55e0334c55b2b6a85bc323a85f88ea10", null ],
     [ "headerQuickAccessList", "structMR_1_1RibbonSchema.html#aff336be3c724c96b01194c689d9bdac9", null ],
     [ "items", "structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1", null ],

@@ -188,12 +188,9 @@ Typedefs</h2></td></tr>
 <tr class="separator:ga346d2e7774495e3e4ca05a2325f11aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gacf6e57b5e87718397acc1762969ad77a" id="r_gacf6e57b5e87718397acc1762969ad77a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacf6e57b5e87718397acc1762969ad77a">MR::LineTreeTraits3</a> = <a class="el" href="#gaf4da51be96a4e6d0e161775002ba0878">LineTreeTraits</a>&lt;<a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&gt;</td></tr>
 <tr class="separator:gacf6e57b5e87718397acc1762969ad77a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadf28317604fc9146ae78ff3d8589ee5d" id="r_gadf28317604fc9146ae78ff3d8589ee5d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gadf28317604fc9146ae78ff3d8589ee5d"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gadf28317604fc9146ae78ff3d8589ee5d">MR::AABBTreeNodeId</a> = typename <a class="el" href="structMR_1_1AABBTreeNode.html">AABBTreeNode</a>&lt;T&gt;::NodeId</td></tr>
-<tr class="separator:gadf28317604fc9146ae78ff3d8589ee5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3e06f5446dafa4a092cdba5f08998e2a" id="r_ga3e06f5446dafa4a092cdba5f08998e2a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga3e06f5446dafa4a092cdba5f08998e2a"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga3e06f5446dafa4a092cdba5f08998e2a">MR::AABBTreeNodeVec</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1AABBTreeNode.html">AABBTreeNode</a>&lt;T&gt;, <a class="el" href="#gadf28317604fc9146ae78ff3d8589ee5d">AABBTreeNodeId</a>&lt;T&gt;&gt;</td></tr>
-<tr class="separator:ga3e06f5446dafa4a092cdba5f08998e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga01c75e3c26967a90edbe075a77cb2ca9" id="r_ga01c75e3c26967a90edbe075a77cb2ca9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga01c75e3c26967a90edbe075a77cb2ca9"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga01c75e3c26967a90edbe075a77cb2ca9">MR::AABBTreeNodeVec</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1AABBTreeNode.html">AABBTreeNode</a>&lt;T&gt;, <a class="el" href="namespaceMR.html#a35b2e6db16c32ed5c6b64b6154632ed0">NodeId</a>&gt;</td></tr>
+<tr class="separator:ga01c75e3c26967a90edbe075a77cb2ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadc2c4d7aad96048cfc344b839a4e6e16" id="r_gadc2c4d7aad96048cfc344b839a4e6e16"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadc2c4d7aad96048cfc344b839a4e6e16">MR::ConvertToIntVector</a> = std::function&lt;<a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a>(const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&amp;)&gt;</td></tr>
 <tr class="memdesc:gadc2c4d7aad96048cfc344b839a4e6e16"><td class="mdescLeft">&#160;</td><td class="mdescRight">float-to-int coordinate converter  <br /></td></tr>
 <tr class="separator:gadc2c4d7aad96048cfc344b839a4e6e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,7 +226,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga3c1bb6417aaa769fa4156f2edac91749"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of nodes in the binary tree with given number of leaves  <br /></td></tr>
 <tr class="separator:ga3c1bb6417aaa769fa4156f2edac91749"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga364302ddaf673e7f00c6745f4172d6c0" id="r_ga364302ddaf673e7f00c6745f4172d6c0"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga364302ddaf673e7f00c6745f4172d6c0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#ga3e06f5446dafa4a092cdba5f08998e2a">AABBTreeNodeVec</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga364302ddaf673e7f00c6745f4172d6c0">MR::makeAABBTreeNodeVec</a> (<a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; <a class="el" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a>&lt; T &gt; &gt; boxedLeaves)</td></tr>
+<tr class="memitem:ga364302ddaf673e7f00c6745f4172d6c0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#ga01c75e3c26967a90edbe075a77cb2ca9">AABBTreeNodeVec</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga364302ddaf673e7f00c6745f4172d6c0">MR::makeAABBTreeNodeVec</a> (<a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; <a class="el" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a>&lt; T &gt; &gt; boxedLeaves)</td></tr>
 <tr class="separator:ga364302ddaf673e7f00c6745f4172d6c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7fcb33a674ea8b57ac858e40d42e26e3" id="r_ga7fcb33a674ea8b57ac858e40d42e26e3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga7fcb33a674ea8b57ac858e40d42e26e3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga7fcb33a674ea8b57ac858e40d42e26e3">MR::findMaxVectorDim</a> (int &amp;dimX, int &amp;dimY, int &amp;dimZ, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;dir)</td></tr>
@@ -422,8 +419,8 @@ Variables</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>This chapter represents documentation about AABB Tree. </p>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="gadf28317604fc9146ae78ff3d8589ee5d" name="gadf28317604fc9146ae78ff3d8589ee5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadf28317604fc9146ae78ff3d8589ee5d">&#9670;&#160;</a></span>AABBTreeNodeId</h2>
+<a id="ga01c75e3c26967a90edbe075a77cb2ca9" name="ga01c75e3c26967a90edbe075a77cb2ca9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga01c75e3c26967a90edbe075a77cb2ca9">&#9670;&#160;</a></span>AABBTreeNodeVec</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -431,23 +428,7 @@ Variables</h2></td></tr>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#gadf28317604fc9146ae78ff3d8589ee5d">MR::AABBTreeNodeId</a> = typename <a class="el" href="structMR_1_1AABBTreeNode.html">AABBTreeNode</a>&lt;T&gt;::NodeId</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga3e06f5446dafa4a092cdba5f08998e2a" name="ga3e06f5446dafa4a092cdba5f08998e2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3e06f5446dafa4a092cdba5f08998e2a">&#9670;&#160;</a></span>AABBTreeNodeVec</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#ga3e06f5446dafa4a092cdba5f08998e2a">MR::AABBTreeNodeVec</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1AABBTreeNode.html">AABBTreeNode</a>&lt;T&gt;, <a class="el" href="#gadf28317604fc9146ae78ff3d8589ee5d">AABBTreeNodeId</a>&lt;T&gt;&gt;</td>
+          <td class="memname">using <a class="el" href="#ga01c75e3c26967a90edbe075a77cb2ca9">MR::AABBTreeNodeVec</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1AABBTreeNode.html">AABBTreeNode</a>&lt;T&gt;, <a class="el" href="namespaceMR.html#a35b2e6db16c32ed5c6b64b6154632ed0">NodeId</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2572,7 +2553,7 @@ template&lt;typename T &gt; </div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ga3e06f5446dafa4a092cdba5f08998e2a">AABBTreeNodeVec</a>&lt; T &gt; MR::makeAABBTreeNodeVec </td>
+          <td class="memname"><a class="el" href="#ga01c75e3c26967a90edbe075a77cb2ca9">AABBTreeNodeVec</a>&lt; T &gt; MR::makeAABBTreeNodeVec </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; <a class="el" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a>&lt; T &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>boxedLeaves</em></span></td><td>)</td>
           <td></td>

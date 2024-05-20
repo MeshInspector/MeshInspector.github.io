@@ -2,7 +2,6 @@ var structMR_1_1AABBTreeNode =
 [
     [ "BoxT", "structMR_1_1AABBTreeNode.html#af92cbed18c9ddfbf28d0e86385fc6e01", null ],
     [ "LeafId", "structMR_1_1AABBTreeNode.html#a0286485d67d37c6d4f76d7d1f43d13d0", null ],
-    [ "NodeId", "structMR_1_1AABBTreeNode.html#aef3874d22f3d10e9e06b745ae1493dbf", null ],
     [ "leaf", "structMR_1_1AABBTreeNode.html#a50c87fc6c0f27587748dc7f642b5d8a6", null ],
     [ "leafId", "structMR_1_1AABBTreeNode.html#ad0fe7c78e4582c2e180ff4e052c83d0b", null ],
     [ "setLeafId", "structMR_1_1AABBTreeNode.html#ac745781b04cbfa210bd5d3005b17e084", null ],

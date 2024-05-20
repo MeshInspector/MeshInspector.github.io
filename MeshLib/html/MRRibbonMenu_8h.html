@@ -102,7 +102,6 @@ $(function(){initNavTree('MRRibbonMenu_8h.html',''); initResizable(); });
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRRibbonMenu.h File Reference</div></div>
 </div><!--header-->
@@ -131,67 +130,17 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RibbonMenu_1_1DialogItemPtr.html">MR::RibbonMenu::DialogItemPtr</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RibbonMenuItemAdder.html">MR::RibbonMenuItemAdder&lt; T &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RibbonMenuItemCall.html">MR::RibbonMenuItemCall&lt; T &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceMR" id="r_namespaceMR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:ad1709955819b9d2eb38aa06ebd34272c" id="r_ad1709955819b9d2eb38aa06ebd34272c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1709955819b9d2eb38aa06ebd34272c">MR_REGISTER_RIBBON_ITEM</a>(pluginType)&#160;&#160;&#160;    static <a class="el" href="structMR_1_1RibbonMenuItemAdder.html">MR::RibbonMenuItemAdder</a>&lt;pluginType&gt; ribbonMenuItemAdder##pluginType##_;</td></tr>
-<tr class="separator:ad1709955819b9d2eb38aa06ebd34272c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ea105d3ac17c4b1cb3ac6451a5163fc" id="r_a4ea105d3ac17c4b1cb3ac6451a5163fc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ea105d3ac17c4b1cb3ac6451a5163fc">MR_RIBBON_ITEM_CALL</a>(pluginType,  func)&#160;&#160;&#160;    static <a class="el" href="structMR_1_1RibbonMenuItemCall.html">MR::RibbonMenuItemCall</a>&lt;pluginType&gt; ribbonMenuItemCall##func##pluginType##_( func );</td></tr>
-<tr class="separator:a4ea105d3ac17c4b1cb3ac6451a5163fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a8943649eb4ec189757d628d6b1f9779f" id="r_a8943649eb4ec189757d628d6b1f9779f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8943649eb4ec189757d628d6b1f9779f">MR::pushNotification</a> (const <a class="el" href="structMR_1_1RibbonNotification.html">RibbonNotification</a> &amp;notification)</td></tr>
 <tr class="separator:a8943649eb4ec189757d628d6b1f9779f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ad1709955819b9d2eb38aa06ebd34272c" name="ad1709955819b9d2eb38aa06ebd34272c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1709955819b9d2eb38aa06ebd34272c">&#9670;&#160;</a></span>MR_REGISTER_RIBBON_ITEM</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MR_REGISTER_RIBBON_ITEM</td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">pluginType</span></td><td>)</td>
-          <td>&#160;&#160;&#160;    static <a class="el" href="structMR_1_1RibbonMenuItemAdder.html">MR::RibbonMenuItemAdder</a>&lt;pluginType&gt; ribbonMenuItemAdder##pluginType##_;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4ea105d3ac17c4b1cb3ac6451a5163fc" name="a4ea105d3ac17c4b1cb3ac6451a5163fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ea105d3ac17c4b1cb3ac6451a5163fc">&#9670;&#160;</a></span>MR_RIBBON_ITEM_CALL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MR_RIBBON_ITEM_CALL</td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">pluginType, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">func</span>&#160;)&#160;&#160;&#160;    static <a class="el" href="structMR_1_1RibbonMenuItemCall.html">MR::RibbonMenuItemCall</a>&lt;pluginType&gt; ribbonMenuItemCall##func##pluginType##_( func );</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

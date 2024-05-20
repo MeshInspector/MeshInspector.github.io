@@ -26,6 +26,7 @@ var MRICP_8h =
       [ "TranslationOnly", "MRICP_8h.html#a2f8db848fea33b9619ade1fc1ac08677a55fae57b90256ccb618322f9a33784ce", null ]
     ] ],
     [ "deactivateFarPairs", "MRICP_8h.html#aba55a2d838bc740628c453e71239887a", null ],
+    [ "getAligningXf", "MRICP_8h.html#acc8a29ff73cc1508e2e73782b91d0650", null ],
     [ "getICPStatusInfo", "MRICP_8h.html#a6fa1b58fb6b78b02b4707c3338def0c1", null ],
     [ "getMeanSqDistToPlane", "MRICP_8h.html#a5290a057607abdb38b364a0f86ae9623", null ],
     [ "getMeanSqDistToPoint", "MRICP_8h.html#aacf8f224679d1a9f302ec145b968ebc8", null ],

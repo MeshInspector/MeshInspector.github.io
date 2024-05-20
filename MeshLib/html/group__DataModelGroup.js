@@ -395,7 +395,7 @@ var group__DataModelGroup =
       [ "getSelectedVoxels", "classMR_1_1ObjectVoxels.html#a2474b64ee36bdd0c3cbb7c2688559071", null ],
       [ "getVolumeIndexer", "classMR_1_1ObjectVoxels.html#a5d0809111b5537e09fcc341afb335c7f", null ],
       [ "getVolumeRenderActiveVoxels", "classMR_1_1ObjectVoxels.html#a19a1ede2bbe7c71b85f57b9df7756802", null ],
-      [ "getVolumeRenderingData", "classMR_1_1ObjectVoxels.html#a3968c90ab1b7498d6f04a2760929a176", null ],
+      [ "getVolumeRenderingData", "classMR_1_1ObjectVoxels.html#a159f6d43a0f7884b73f1e4305fd5b21e", null ],
       [ "getVolumeRenderingParams", "classMR_1_1ObjectVoxels.html#a2132ce7c3f346b36f4cbf3887618d1b0", null ],
       [ "getVoxelIdByCoordinate", "classMR_1_1ObjectVoxels.html#ac13b231e31f37fbd53d30d8a9aeb4e33", null ],
       [ "getVoxelIdByPoint", "classMR_1_1ObjectVoxels.html#a5b3ec655c032d761470ca3b9d7cf410e", null ],

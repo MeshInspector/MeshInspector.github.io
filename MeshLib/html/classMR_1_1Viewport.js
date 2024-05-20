@@ -44,6 +44,7 @@ var classMR_1_1Viewport =
     [ "getModelRenderParams", "classMR_1_1Viewport.html#a1b0531d24af1777ff73fc2b75373dbfa", null ],
     [ "getParameters", "classMR_1_1Viewport.html#a926a8d8f0ce76178064c958cdb012a10", null ],
     [ "getPixelSize", "classMR_1_1Viewport.html#a3ca3512f6cd58445197edaec9da81131", null ],
+    [ "getPixelSizeAtPoint", "classMR_1_1Viewport.html#a484b6380515f929cdcfca16c9a30edee", null ],
     [ "getRatio", "classMR_1_1Viewport.html#a3b2eb984c0ab39709c45d27d3de876de", null ],
     [ "getRedrawFlag", "classMR_1_1Viewport.html#a37332cce582bf8cc2203f972a6350a3c", null ],
     [ "getRightDirection", "classMR_1_1Viewport.html#ab9af1436e56b14ad56c4f7ff35a8a443", null ],

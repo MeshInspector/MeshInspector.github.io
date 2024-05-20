@@ -146,9 +146,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga3c7bba577672a9eb046c19e9695275bc" id="r_ga3c7bba577672a9eb046c19e9695275bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#ad559b8483e6bd123646f355d4b0eeae2">VdbVolume</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3c7bba577672a9eb046c19e9695275bc">MR::VoxelsLoad::fromRaw</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="memdesc:ga3c7bba577672a9eb046c19e9695275bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels file, parsing parameters from name.  <br /></td></tr>
 <tr class="separator:ga3c7bba577672a9eb046c19e9695275bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae199230ba31621e297becf5a0b2a1233" id="r_gae199230ba31621e297becf5a0b2a1233"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="namespaceMR.html#ad559b8483e6bd123646f355d4b0eeae2">VdbVolume</a> &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae199230ba31621e297becf5a0b2a1233">MR::VoxelsLoad::fromVdb</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
-<tr class="memdesc:gae199230ba31621e297becf5a0b2a1233"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels OpenVDB file.  <br /></td></tr>
-<tr class="separator:gae199230ba31621e297becf5a0b2a1233"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga34bb8633d134e5f3d09077cc91e4aebd" id="r_ga34bb8633d134e5f3d09077cc91e4aebd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#ad559b8483e6bd123646f355d4b0eeae2">VdbVolume</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga34bb8633d134e5f3d09077cc91e4aebd">MR::VoxelsLoad::fromGav</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="memdesc:ga34bb8633d134e5f3d09077cc91e4aebd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load voxel from Gav-file with micro CT reconstruction.  <br /></td></tr>
 <tr class="separator:ga34bb8633d134e5f3d09077cc91e4aebd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -310,29 +307,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Load raw voxels from stream with provided parameters; important on Windows: in stream must be open in binary mode </p>
-
-</div>
-</div>
-<a id="gae199230ba31621e297becf5a0b2a1233" name="gae199230ba31621e297becf5a0b2a1233"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae199230ba31621e297becf5a0b2a1233">&#9670;&#160;</a></span>fromVdb()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="namespaceMR.html#ad559b8483e6bd123646f355d4b0eeae2">VdbVolume</a> &gt;, std::string &gt; MR::VoxelsLoad::fromVdb </td>
-          <td>(</td>
-          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Load raw voxels OpenVDB file. </p>
 
 </div>
 </div>

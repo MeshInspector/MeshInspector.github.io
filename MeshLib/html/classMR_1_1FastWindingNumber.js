@@ -1,7 +1,6 @@
 var classMR_1_1FastWindingNumber =
 [
     [ "FastWindingNumber", "classMR_1_1FastWindingNumber.html#a6af89b7c93e4591719b2ffd0eeeffd07", null ],
-    [ "calc", "classMR_1_1FastWindingNumber.html#a03be0613f5f63cea05547e78110bdd10", null ],
     [ "calcFromGrid", "classMR_1_1FastWindingNumber.html#af36247f7d5d8ae6c1e8d7c669f078e3e", null ],
     [ "calcFromGridWithDistances", "classMR_1_1FastWindingNumber.html#a0fc8b6a24a0d9bd273d419ec9424f6dc", null ],
     [ "calcFromVector", "classMR_1_1FastWindingNumber.html#a82d4def3598d0d1ac98ec04c7cdb4841", null ],

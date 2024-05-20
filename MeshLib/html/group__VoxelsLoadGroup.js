@@ -37,7 +37,6 @@ var group__VoxelsLoadGroup =
     [ "MR::VoxelsLoad::fromRaw", "group__VoxelsLoadGroup.html#ga3c7bba577672a9eb046c19e9695275bc", null ],
     [ "MR::VoxelsLoad::fromRaw", "group__VoxelsLoadGroup.html#gacea9a5e124d2e82d91e613233fc354b9", null ],
     [ "MR::VoxelsLoad::fromRaw", "group__VoxelsLoadGroup.html#ga0a2e39a2d0d56f196df32d4fdb74c161", null ],
-    [ "MR::VoxelsLoad::fromVdb", "group__VoxelsLoadGroup.html#gae199230ba31621e297becf5a0b2a1233", null ],
     [ "MR::VoxelsLoad::loadDCMFolder", "group__VoxelsLoadGroup.html#ga1dda3d4d7d747ae7cc39ccfaebe93339", null ],
     [ "MR::VoxelsLoad::loadDCMFolderTree", "group__VoxelsLoadGroup.html#gaa068c352ae72cd7beaeff962b5220cdc", null ],
     [ "MR::VoxelsLoad::loadDCMsFolder", "group__VoxelsLoadGroup.html#gae5a34263e3156582b83a8bad93cf64e3", null ],

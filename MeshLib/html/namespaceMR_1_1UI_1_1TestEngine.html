@@ -100,12 +100,18 @@ $(function(){initNavTree('namespaceMR_1_1UI_1_1TestEngine.html',''); initResizab
 
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MR::UI::TestEngine Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespaceMR_1_1UI_1_1TestEngine_1_1detail" id="r_namespaceMR_1_1UI_1_1TestEngine_1_1detail"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1TestEngine_1_1detail.html">detail</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html">ButtonEntry</a></td></tr>
@@ -114,11 +120,17 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html">GroupEntry</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html">ValueEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a775aa83cc6e23820b3e00321d7c35da2" id="r_a775aa83cc6e23820b3e00321d7c35da2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a775aa83cc6e23820b3e00321d7c35da2">createButton</a> (std::string_view name)</td></tr>
 <tr class="separator:a775aa83cc6e23820b3e00321d7c35da2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3732226b2f7a19edeee17322b33fbe10" id="r_a3732226b2f7a19edeee17322b33fbe10"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; <br />
+requires std::is_arithmetic_v&lt;T&gt;</td></tr>
+<tr class="memitem:a3732226b2f7a19edeee17322b33fbe10"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a3732226b2f7a19edeee17322b33fbe10">createValue</a> (std::string_view name, T value, T min, T max)</td></tr>
+<tr class="separator:a3732226b2f7a19edeee17322b33fbe10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afac37f1a33604b207f8d30279b255ad2" id="r_afac37f1a33604b207f8d30279b255ad2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afac37f1a33604b207f8d30279b255ad2">pushTree</a> (std::string_view name)</td></tr>
 <tr class="separator:afac37f1a33604b207f8d30279b255ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af584a5ff88e3d48b91ace605bd8331e5" id="r_af584a5ff88e3d48b91ace605bd8331e5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af584a5ff88e3d48b91ace605bd8331e5">popTree</a> ()</td></tr>
@@ -138,6 +150,40 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3732226b2f7a19edeee17322b33fbe10" name="a3732226b2f7a19edeee17322b33fbe10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3732226b2f7a19edeee17322b33fbe10">&#9670;&#160;</a></span>createValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; <br />
+requires std::is_arithmetic_v&lt;T&gt;</div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; T &gt; MR::UI::TestEngine::createValue </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>name</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>value</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>min</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>max</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

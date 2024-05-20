@@ -1,26 +1,30 @@
 var group__AligningTransformGroup =
 [
+    [ "MR::MultiwayAligningTransform", "classMR_1_1MultiwayAligningTransform.html", [
+      [ "MultiwayAligningTransform", "classMR_1_1MultiwayAligningTransform.html#a369ea758ed0c5083163a69cd75a1d526", null ],
+      [ "~MultiwayAligningTransform", "classMR_1_1MultiwayAligningTransform.html#a75f76046bba7a35ce1c2396c72b47aa8", null ],
+      [ "add", "classMR_1_1MultiwayAligningTransform.html#a339777c7114ede92149acc8c703508d0", null ],
+      [ "add", "classMR_1_1MultiwayAligningTransform.html#a3e485b9e92d58d482847c3dc90afcc8d", null ],
+      [ "add", "classMR_1_1MultiwayAligningTransform.html#ae6740604d1fa635862343a99d6cb5d7e", null ],
+      [ "add", "classMR_1_1MultiwayAligningTransform.html#a1efd4fe910e9f4f9f64b14d2fd1929d4", null ],
+      [ "add", "classMR_1_1MultiwayAligningTransform.html#ac35d132681b885e39cbfa56ee9f11eb0", null ],
+      [ "reset", "classMR_1_1MultiwayAligningTransform.html#a26f658626fe3c1d58d5b4bbbc294cca8", null ],
+      [ "solve", "classMR_1_1MultiwayAligningTransform.html#aa1ddca54b9770ea27dcd118a273c9388", null ]
+    ] ],
     [ "MR::PointToPlaneAligningTransform", "classMR_1_1PointToPlaneAligningTransform.html", [
-      [ "Amendment", "structMR_1_1PointToPlaneAligningTransform_1_1Amendment.html", [
-        [ "linearXf", "structMR_1_1PointToPlaneAligningTransform_1_1Amendment.html#a8a0f8fbdd90e7eb616c8da10f673a667", null ],
-        [ "rigidScaleXf", "structMR_1_1PointToPlaneAligningTransform_1_1Amendment.html#a1e8ae78050408d3f9cf789a0e709b80b", null ],
-        [ "rotAngles", "structMR_1_1PointToPlaneAligningTransform_1_1Amendment.html#abc3ac9ecd9cd388aff8e3bc56940f80a", null ],
-        [ "scale", "structMR_1_1PointToPlaneAligningTransform_1_1Amendment.html#ab5cd92c5470edb28dafb54ed4c342dc9", null ],
-        [ "shift", "structMR_1_1PointToPlaneAligningTransform_1_1Amendment.html#a04a4d1982544bf6d4f2ed32f567ef690", null ]
-      ] ],
-      [ "PointToPlaneAligningTransform", "classMR_1_1PointToPlaneAligningTransform.html#ad4628bac987beac1a3794b53b116cdc6", null ],
       [ "add", "classMR_1_1PointToPlaneAligningTransform.html#a08230ea255db679fb12588edc3ca5f2e", null ],
       [ "add", "classMR_1_1PointToPlaneAligningTransform.html#a1cdd6aff2ef7a9e5eecf5624b27a3f3b", null ],
-      [ "calculateAmendment", "classMR_1_1PointToPlaneAligningTransform.html#a82e717cad207def9e5c926e2c3f49208", null ],
-      [ "calculateAmendmentWithScale", "classMR_1_1PointToPlaneAligningTransform.html#adc931d784eef8eb9486ba7521b1ed5c6", null ],
-      [ "calculateFixedAxisAmendment", "classMR_1_1PointToPlaneAligningTransform.html#a770a738028c39587fece8a0ac814924c", null ],
-      [ "calculateOrthogonalAxisAmendment", "classMR_1_1PointToPlaneAligningTransform.html#a24a8a1253a89a45d9468b16390340461", null ],
-      [ "clear", "classMR_1_1PointToPlaneAligningTransform.html#abb0c8adc65297d89d63b980f807b9cc6", null ],
-      [ "findBestRigidScaleXf", "classMR_1_1PointToPlaneAligningTransform.html#aebe1bc807549b2bb02a55a239a5d9468", null ],
-      [ "findBestRigidXf", "classMR_1_1PointToPlaneAligningTransform.html#acb7abd30e53768a44f189046addc9a95", null ],
-      [ "findBestRigidXfFixedRotationAxis", "classMR_1_1PointToPlaneAligningTransform.html#a8aafb05879358b5ff2a55ba44237595c", null ],
-      [ "findBestRigidXfOrthogonalRotationAxis", "classMR_1_1PointToPlaneAligningTransform.html#a37eb8a6a9e6379f1df7970b3797ac3ec", null ],
-      [ "findBestTranslation", "classMR_1_1PointToPlaneAligningTransform.html#a85d1216f9a1a5ea606fc155ed9ffcd3c", null ]
+      [ "calculateAmendment", "classMR_1_1PointToPlaneAligningTransform.html#a8555475cfcfcf18d967f750232989d78", null ],
+      [ "calculateAmendmentWithScale", "classMR_1_1PointToPlaneAligningTransform.html#ad5685f4e41d5b6e952889366f8b118f8", null ],
+      [ "calculateFixedAxisAmendment", "classMR_1_1PointToPlaneAligningTransform.html#ac7f842e0e3e90350579783534790080e", null ],
+      [ "calculateOrthogonalAxisAmendment", "classMR_1_1PointToPlaneAligningTransform.html#a4d07c954a8bbd8984f99644bc4ee2764", null ],
+      [ "clear", "classMR_1_1PointToPlaneAligningTransform.html#aaab037d0039ed961116c7af28bd59347", null ],
+      [ "findBestRigidScaleXf", "classMR_1_1PointToPlaneAligningTransform.html#af8656bfbca5608611a5f78b10ce037b2", null ],
+      [ "findBestRigidXf", "classMR_1_1PointToPlaneAligningTransform.html#a28c394327019054e87403e25b8cda62b", null ],
+      [ "findBestRigidXfFixedRotationAxis", "classMR_1_1PointToPlaneAligningTransform.html#a5162299152d3a4f6ae9de54c2a1ccb58", null ],
+      [ "findBestRigidXfOrthogonalRotationAxis", "classMR_1_1PointToPlaneAligningTransform.html#af0c4b1002192d03fcf79ae0df032d66e", null ],
+      [ "findBestTranslation", "classMR_1_1PointToPlaneAligningTransform.html#a85d1216f9a1a5ea606fc155ed9ffcd3c", null ],
+      [ "prepare", "classMR_1_1PointToPlaneAligningTransform.html#ad0ef5fe0bddd87ee28ec85ec049e779f", null ]
     ] ],
     [ "MR::PointToPointAligningTransform", "classMR_1_1PointToPointAligningTransform.html", [
       [ "add", "classMR_1_1PointToPointAligningTransform.html#a6b0c81b83591abaea22519d6292ba022", null ],
