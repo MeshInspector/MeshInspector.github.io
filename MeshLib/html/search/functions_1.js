@@ -68,7 +68,9 @@ var searchData=
   ['button_65',['button',['../namespaceMR_1_1UI.html#ae14306471133180f84a3a02650ced599',1,'MR::UI::button(const char *label, bool active, const Vector2f &amp;size=Vector2f(0, 0), ImGuiKey key=ImGuiKey_None)'],['../namespaceMR_1_1UI.html#ad13b9be4aa5cae65c61e91ac1ab04ecd',1,'MR::UI::button(const char *label, const Vector2f &amp;size=Vector2f(0, 0), ImGuiKey key=ImGuiKey_None)']]],
   ['buttoncommonsize_66',['buttonCommonSize',['../namespaceMR_1_1UI.html#affdd9ce8585853bc545f4f60bda2611f',1,'MR::UI']]],
   ['buttonex_67',['buttonEx',['../namespaceMR_1_1UI.html#a012d7558b98063f22c4bb9a28299837b',1,'MR::UI']]],
-  ['buttonicon_68',['buttonIcon',['../namespaceMR_1_1UI.html#af2e7eebf3d2c40dafb3ed17d34a768be',1,'MR::UI']]],
-  ['buttonunique_69',['buttonUnique',['../namespaceMR_1_1UI.html#aca27e412cdac5850b5894de3b19321b9',1,'MR::UI']]],
-  ['bytesstring_70',['bytesString',['../namespaceMR.html#a3dac1179ee1b7a147e78045a27c4e13d',1,'MR']]]
+  ['buttonicon_68',['buttonIcon',['../namespaceMR_1_1UI.html#a7618ad711338c485abe6cea17c1e304e',1,'MR::UI::buttonIcon(const std::string &amp;name, const Vector2f &amp;iconSize, const std::string &amp;text, bool active, const ImVec2 &amp;buttonSize)'],['../namespaceMR_1_1UI.html#a336fa6393e7abeefe2f5d4e8f29d75a6',1,'MR::UI::buttonIcon(const std::string &amp;name, const Vector2f &amp;iconSize, const std::string &amp;text, const ImVec2 &amp;buttonSize)']]],
+  ['buttoniconex_69',['buttonIconEx',['../namespaceMR_1_1UI.html#ab53314e24f68de52f675b6881591b212',1,'MR::UI']]],
+  ['buttoniconflatbg_70',['buttonIconFlatBG',['../namespaceMR_1_1UI.html#a192d3148a5ed3177660fcb7c2e758f1f',1,'MR::UI']]],
+  ['buttonunique_71',['buttonUnique',['../namespaceMR_1_1UI.html#aca27e412cdac5850b5894de3b19321b9',1,'MR::UI']]],
+  ['bytesstring_72',['bytesString',['../namespaceMR.html#a3dac1179ee1b7a147e78045a27c4e13d',1,'MR']]]
 ];

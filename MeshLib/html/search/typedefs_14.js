@@ -10,10 +10,11 @@ var searchData=
   ['undirectededgeid_7',['UndirectedEdgeId',['../namespaceMR.html#a4ac2de084bb34a0af2df8bc73742b2b1',1,'MR']]],
   ['undirectededgemap_8',['UndirectedEdgeMap',['../namespaceMR.html#aef0734d11bf068e87dbed10abbda5a49',1,'MR']]],
   ['undirectededgemetric_9',['UndirectedEdgeMetric',['../namespaceMR.html#ab7a3fa3c0bf9137f59a3a494350314d1',1,'MR']]],
-  ['undirectededgepredicate_10',['UndirectedEdgePredicate',['../namespaceMR.html#a54078c8d4e2a3473d6e15a932c107cd4',1,'MR']]],
-  ['undirectededgescalars_11',['UndirectedEdgeScalars',['../namespaceMR.html#a9a0f55c839ac8d484c91dabb57022294',1,'MR']]],
-  ['undirectededgesetbititerator_12',['UndirectedEdgeSetBitIterator',['../namespaceMR.html#afeb03abde784d1f43a11104dbc718566',1,'MR']]],
-  ['undiredgecolormapaggregator_13',['UndirEdgeColorMapAggregator',['../namespaceMR.html#a42e65f65ea74a7a116286d17dcb7280b',1,'MR']]],
-  ['updatefunc_14',['UpdateFunc',['../classMR_1_1PluginUpdateOnChangeMeshPart.html#a8966c139b8539e3583cf02308b060484',1,'MR::PluginUpdateOnChangeMeshPart']]],
-  ['uvcoord_15',['UVCoord',['../namespaceMR.html#a6f8b9797e8968735a685a81d8a6064d6',1,'MR']]]
+  ['undirectededgepair_10',['UndirectedEdgePair',['../namespaceMR.html#aab52299f28e8b207084bb5e513ecd216',1,'MR']]],
+  ['undirectededgepredicate_11',['UndirectedEdgePredicate',['../namespaceMR.html#a54078c8d4e2a3473d6e15a932c107cd4',1,'MR']]],
+  ['undirectededgescalars_12',['UndirectedEdgeScalars',['../namespaceMR.html#a9a0f55c839ac8d484c91dabb57022294',1,'MR']]],
+  ['undirectededgesetbititerator_13',['UndirectedEdgeSetBitIterator',['../namespaceMR.html#afeb03abde784d1f43a11104dbc718566',1,'MR']]],
+  ['undiredgecolormapaggregator_14',['UndirEdgeColorMapAggregator',['../namespaceMR.html#a42e65f65ea74a7a116286d17dcb7280b',1,'MR']]],
+  ['updatefunc_15',['UpdateFunc',['../classMR_1_1PluginUpdateOnChangeMeshPart.html#a8966c139b8539e3583cf02308b060484',1,'MR::PluginUpdateOnChangeMeshPart']]],
+  ['uvcoord_16',['UVCoord',['../namespaceMR.html#a6f8b9797e8968735a685a81d8a6064d6',1,'MR']]]
 ];

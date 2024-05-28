@@ -284,6 +284,7 @@ var group__AABBTreeGroup =
     [ "MR::findSelfCollidingTrianglesBS", "group__AABBTreeGroup.html#ga622f29ce4129e85a4040668e267bffeb", null ],
     [ "MR::findSignedDistance", "group__AABBTreeGroup.html#ga66ee7b0ec534fcfe70ef96f8f3d3b545", null ],
     [ "MR::findSignedDistance", "group__AABBTreeGroup.html#ga44d0cb5151cae38d27130277c50301bc", null ],
+    [ "MR::findTwoClosestPoints", "group__AABBTreeGroup.html#ga994aaba24d39e18802b546f4fdab10cc", null ],
     [ "MR::getNumNodes", "group__AABBTreeGroup.html#ga3c1bb6417aaa769fa4156f2edac91749", null ],
     [ "MR::getToFloatConverter", "group__AABBTreeGroup.html#ga2096ace9292b40c55421517434fd8bd8", null ],
     [ "MR::getToIntConverter", "group__AABBTreeGroup.html#ga9736a434a7f001c05b9a7d23675ca257", null ],

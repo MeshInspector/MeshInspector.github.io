@@ -311,8 +311,8 @@ var group__HistoryGroup =
       [ "name", "group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39", null ]
     ] ],
     [ "MR::ChangVoxelSelectionAction::Obj", "group__HistoryGroup.html#ga2bc62e359f5e804a60171abdd7939bd7", null ],
-    [ "MR::ViewportParametersAction::action", "group__HistoryGroup.html#gab0a69b615a514d76010260695c2116e5", null ],
     [ "MR::ChangVoxelSelectionAction::action", "group__HistoryGroup.html#gaebcfdaaba426fea5c32f5ca836a7085f", null ],
+    [ "MR::ViewportParametersAction::action", "group__HistoryGroup.html#gab0a69b615a514d76010260695c2116e5", null ],
     [ "MR::ChangVoxelSelectionAction::ChangVoxelSelectionAction", "group__HistoryGroup.html#gacd0912663f58360180bc863ab572daf4", null ],
     [ "MR::ChangVoxelSelectionAction::heapBytes", "group__HistoryGroup.html#ga970e3207174343bffc6f631586e4f59d", null ],
     [ "MR::ViewportParametersAction::heapBytes", "group__HistoryGroup.html#gabe2857cfb3a48ee763a3a83857c55423", null ],

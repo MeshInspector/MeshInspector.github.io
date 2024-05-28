@@ -8,5 +8,6 @@ var structMR_1_1TriangulationHelpers_1_1Settings =
     [ "maxRemoves", "structMR_1_1TriangulationHelpers_1_1Settings.html#a04d78b046a3cb5a0456ca15052617648", null ],
     [ "numNeis", "structMR_1_1TriangulationHelpers_1_1Settings.html#a45558230d0bcbdc7e5d3da4e7f7b3ab7", null ],
     [ "radius", "structMR_1_1TriangulationHelpers_1_1Settings.html#aeadcc460fdb58725f5fd22d6457ea9b2", null ],
+    [ "searchNeighbors", "structMR_1_1TriangulationHelpers_1_1Settings.html#a97127b609f58b4ac11085781558f55f6", null ],
     [ "trustedNormals", "structMR_1_1TriangulationHelpers_1_1Settings.html#abe33d444027e0033891d8d9d75e52e1f", null ]
 ];

@@ -211,7 +211,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRMeshTriPoint.h", "MRMeshTriPoint_8h.html", "MRMeshTriPoint_8h" ],
     [ "MRMisonLoad.h", "MRMisonLoad_8h.html", "MRMisonLoad_8h" ],
     [ "MRMovementBuildBody.h", "MRMovementBuildBody_8h.html", "MRMovementBuildBody_8h" ],
-    [ "MRMultiwayAligningTransform.h", "MRMultiwayAligningTransform_8h.html", null ],
+    [ "MRMultiwayAligningTransform.h", "MRMultiwayAligningTransform_8h.html", "MRMultiwayAligningTransform_8h" ],
     [ "MRMultiwayICP.h", "MRMultiwayICP_8h.html", "MRMultiwayICP_8h" ],
     [ "MRMutexOwner.h", "MRMutexOwner_8h.html", "MRMutexOwner_8h" ],
     [ "MRNoDefInit.h", "MRNoDefInit_8h.html", "MRNoDefInit_8h" ],

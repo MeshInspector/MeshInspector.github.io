@@ -57,5 +57,6 @@ var searchData=
   ['buildsettings_54',['BuildSettings',['../structMR_1_1MeshBuilder_1_1BuildSettings.html',1,'MR::MeshBuilder']]],
   ['buttoncustomizationparams_55',['ButtonCustomizationParams',['../structMR_1_1UI_1_1ButtonCustomizationParams.html',1,'MR::UI']]],
   ['buttonentry_56',['ButtonEntry',['../structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html',1,'MR::UI::TestEngine']]],
-  ['buttonitemwidth_57',['ButtonItemWidth',['../structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html',1,'MR::RibbonButtonDrawer']]]
+  ['buttoniconcustomizationparams_57',['ButtonIconCustomizationParams',['../structMR_1_1UI_1_1ButtonIconCustomizationParams.html',1,'MR::UI']]],
+  ['buttonitemwidth_58',['ButtonItemWidth',['../structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html',1,'MR::RibbonButtonDrawer']]]
 ];

@@ -1,6 +1,10 @@
 var group__AligningTransformGroup =
 [
     [ "MR::MultiwayAligningTransform", "classMR_1_1MultiwayAligningTransform.html", [
+      [ "Stabilizer", "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html", [
+        [ "rot", "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#ad0025a9806d714127a0820f48a343136", null ],
+        [ "shift", "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#a7145307fcfb6ab1a4ad9426e6d2ac36b", null ]
+      ] ],
       [ "MultiwayAligningTransform", "classMR_1_1MultiwayAligningTransform.html#a369ea758ed0c5083163a69cd75a1d526", null ],
       [ "~MultiwayAligningTransform", "classMR_1_1MultiwayAligningTransform.html#a75f76046bba7a35ce1c2396c72b47aa8", null ],
       [ "add", "classMR_1_1MultiwayAligningTransform.html#a339777c7114ede92149acc8c703508d0", null ],
@@ -9,7 +13,8 @@ var group__AligningTransformGroup =
       [ "add", "classMR_1_1MultiwayAligningTransform.html#a1efd4fe910e9f4f9f64b14d2fd1929d4", null ],
       [ "add", "classMR_1_1MultiwayAligningTransform.html#ac35d132681b885e39cbfa56ee9f11eb0", null ],
       [ "reset", "classMR_1_1MultiwayAligningTransform.html#a26f658626fe3c1d58d5b4bbbc294cca8", null ],
-      [ "solve", "classMR_1_1MultiwayAligningTransform.html#aa1ddca54b9770ea27dcd118a273c9388", null ]
+      [ "solve", "classMR_1_1MultiwayAligningTransform.html#a3e5b35fce7e3307e85f2dbf172d70b17", null ],
+      [ "solve", "classMR_1_1MultiwayAligningTransform.html#aff88b77e742b2e4c2aad5013dfa2c4c2", null ]
     ] ],
     [ "MR::PointToPlaneAligningTransform", "classMR_1_1PointToPlaneAligningTransform.html", [
       [ "add", "classMR_1_1PointToPlaneAligningTransform.html#a08230ea255db679fb12588edc3ca5f2e", null ],

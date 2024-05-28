@@ -11,7 +11,7 @@ var classMR_1_1MeshOrPoints =
     [ "normals", "classMR_1_1MeshOrPoints.html#a864d2d2aec501a7ccac038912909bef9", null ],
     [ "points", "classMR_1_1MeshOrPoints.html#a6c2fe1dcde2dbadeef24818952755317", null ],
     [ "pointsGridSampling", "classMR_1_1MeshOrPoints.html#aa0eded9546a4d5a192d0222adb7ebc21", null ],
+    [ "projector", "classMR_1_1MeshOrPoints.html#a0281d9d51c1ee7b1b2dbd57c5e97414c", null ],
     [ "validPoints", "classMR_1_1MeshOrPoints.html#a825ff27e36144d02b12f1880d863e32b", null ],
-    [ "weights", "classMR_1_1MeshOrPoints.html#a1e980c7ce8ce348fcb921d6e1feb63c6", null ],
-    [ "projector", "classMR_1_1MeshOrPoints.html#a18437e6b67be62a36d8ebc9e87f71c91", null ]
+    [ "weights", "classMR_1_1MeshOrPoints.html#a1e980c7ce8ce348fcb921d6e1feb63c6", null ]
 ];

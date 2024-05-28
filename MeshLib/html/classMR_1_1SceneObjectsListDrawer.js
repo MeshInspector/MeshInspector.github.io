@@ -3,6 +3,8 @@ var classMR_1_1SceneObjectsListDrawer =
     [ "ImGuiTreeNodeFlags", "classMR_1_1SceneObjectsListDrawer.html#adef3ad4d7054ccf6e99aba195fc29cf8", null ],
     [ "~SceneObjectsListDrawer", "classMR_1_1SceneObjectsListDrawer.html#affefc47d2b779b451bc3f420ddfdbdf8", null ],
     [ "allowSceneReorder", "classMR_1_1SceneObjectsListDrawer.html#a10c80ec2e0551fe4c73122703e48897e", null ],
+    [ "changeSelection", "classMR_1_1SceneObjectsListDrawer.html#a2811dc65af1b9861a17e94ccb17ab9ff", null ],
+    [ "changeVisible", "classMR_1_1SceneObjectsListDrawer.html#aa560a972c56ad0d267fae3065613e834", null ],
     [ "collapsingHeader_", "classMR_1_1SceneObjectsListDrawer.html#a9dc17f3920d20e78cb1eda269c41baa9", null ],
     [ "draw", "classMR_1_1SceneObjectsListDrawer.html#a071e0796aea73ae4d30a06708278c3bc", null ],
     [ "drawCustomObjectPrefixInScene_", "classMR_1_1SceneObjectsListDrawer.html#aea58039dd93a9e1c074256d9f7685b7b", null ],

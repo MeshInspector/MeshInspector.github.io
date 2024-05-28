@@ -9,13 +9,14 @@ var searchData=
   ['edgeloop_6',['EdgeLoop',['../namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3',1,'MR']]],
   ['edgemap_7',['EdgeMap',['../namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6',1,'MR']]],
   ['edgemetric_8',['EdgeMetric',['../namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651',1,'MR']]],
-  ['edgepath_9',['EdgePath',['../namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e',1,'MR']]],
-  ['edgepathsbuilder_10',['EdgePathsBuilder',['../namespaceMR.html#a5e64a53d9d9c624063bb6a51a6ba77e1',1,'MR']]],
-  ['edgepredicate_11',['EdgePredicate',['../namespaceMR.html#a3dd173667e136d1ab529bb70c4f9e450',1,'MR']]],
-  ['edgescalars_12',['EdgeScalars',['../namespaceMR.html#a71fc67ffad0e272710d4e7e972322946',1,'MR']]],
-  ['edgesetbititerator_13',['EdgeSetBitIterator',['../namespaceMR.html#a4d438c1fd85990ada81a080e64422561',1,'MR']]],
-  ['elementbitset_14',['ElementBitSet',['../classMR_1_1ColorMapAggregator.html#a29857a8d38bc30a22d092fdc3c8632df',1,'MR::ColorMapAggregator']]],
-  ['endsperedge_15',['EndsPerEdge',['../classMR_1_1Graph.html#a429f57208104bd4a3efcceeaa5ba4dce',1,'MR::Graph']]],
-  ['enum_16',['Enum',['../classMR_1_1Config.html#a3933d06b4e35a4f309cff393747e1f2f',1,'MR::Config']]],
-  ['expected_17',['Expected',['../namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735',1,'MR']]]
+  ['edgepair_9',['EdgePair',['../namespaceMR.html#ab355986e338097e97435c68b33987055',1,'MR']]],
+  ['edgepath_10',['EdgePath',['../namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e',1,'MR']]],
+  ['edgepathsbuilder_11',['EdgePathsBuilder',['../namespaceMR.html#a5e64a53d9d9c624063bb6a51a6ba77e1',1,'MR']]],
+  ['edgepredicate_12',['EdgePredicate',['../namespaceMR.html#a3dd173667e136d1ab529bb70c4f9e450',1,'MR']]],
+  ['edgescalars_13',['EdgeScalars',['../namespaceMR.html#a71fc67ffad0e272710d4e7e972322946',1,'MR']]],
+  ['edgesetbititerator_14',['EdgeSetBitIterator',['../namespaceMR.html#a4d438c1fd85990ada81a080e64422561',1,'MR']]],
+  ['elementbitset_15',['ElementBitSet',['../classMR_1_1ColorMapAggregator.html#a29857a8d38bc30a22d092fdc3c8632df',1,'MR::ColorMapAggregator']]],
+  ['endsperedge_16',['EndsPerEdge',['../classMR_1_1Graph.html#a429f57208104bd4a3efcceeaa5ba4dce',1,'MR::Graph']]],
+  ['enum_17',['Enum',['../classMR_1_1Config.html#a3933d06b4e35a4f309cff393747e1f2f',1,'MR::Config']]],
+  ['expected_18',['Expected',['../namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735',1,'MR']]]
 ];

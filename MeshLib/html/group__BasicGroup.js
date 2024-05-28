@@ -29,7 +29,6 @@ var group__BasicGroup =
       [ "test_set", "classMR_1_1BitSet.html#a85be34ba3bb731ce828ca21c67b1413c", null ]
     ] ],
     [ "MR::TaggedBitSet< T >", "classMR_1_1TaggedBitSet.html", [
-      [ "base", "classMR_1_1TaggedBitSet.html#a21c4aa1d25292ca929dc095286685853", null ],
       [ "IndexType", "classMR_1_1TaggedBitSet.html#aee1dc472d197dae5a76f707615ccf080", null ],
       [ "autoResizeSet", "classMR_1_1TaggedBitSet.html#ae8f61c2407c0cf96df45149fb1f549b4", null ],
       [ "autoResizeSet", "classMR_1_1TaggedBitSet.html#a549d518b018f126420c7403ef5633a1c", null ],

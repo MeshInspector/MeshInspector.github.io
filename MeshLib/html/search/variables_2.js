@@ -44,7 +44,7 @@ var searchData=
   ['bordershighlight_41',['BordersHighlight',['../MRObjectMeshHolder_8h.html#af20f512b32754c2ad0a15ee32c85cc4b',1,'MRObjectMeshHolder.h']]],
   ['borderssize_5f_42',['bordersSize_',['../classMR_1_1RenderMeshObject.html#ab85b5749a8074358f89fff480448ee5d',1,'MR::RenderMeshObject']]],
   ['bordertexture_5f_43',['borderTexture_',['../classMR_1_1RenderMeshObject.html#ac5dda63e700cfe2742a7b9b1683649e6',1,'MR::RenderMeshObject']]],
-  ['boundaryangle_44',['boundaryAngle',['../structMR_1_1TriangulationHelpers_1_1Settings.html#a341b31c3cef2ea814252e40a6dfbc8aa',1,'MR::TriangulationHelpers::Settings']]],
+  ['boundaryangle_44',['boundaryAngle',['../structMR_1_1TriangulationParameters.html#a2266345249c3a1483c179688e4dad925',1,'MR::TriangulationParameters::boundaryAngle'],['../structMR_1_1TriangulationHelpers_1_1Settings.html#a341b31c3cef2ea814252e40a6dfbc8aa',1,'MR::TriangulationHelpers::Settings::boundaryAngle']]],
   ['box_45',['box',['../structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5',1,'MR::BoxedLeaf::box'],['../structMR_1_1AABBTreeNode.html#a5c90c7ee746d8e3f67062655f733dea0',1,'MR::AABBTreeNode::box'],['../structMR_1_1AABBTreePoints_1_1Node.html#a2153d4fd7d12b27618511103c9080df3',1,'MR::AABBTreePoints::Node::box']]],
   ['btn_46',['btn',['../structMR_1_1MouseController_1_1MouseControlKey.html#a13a368ef25048dff50e694ce949484e6',1,'MR::MouseController::MouseControlKey']]],
   ['btndrawer_47',['btnDrawer',['../structMR_1_1RibbonMenuSearch_1_1Parameters.html#afb17b1a5e87e3e47d6e9df9cca75739a',1,'MR::RibbonMenuSearch::Parameters']]],

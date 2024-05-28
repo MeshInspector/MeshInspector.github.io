@@ -146,7 +146,8 @@ var annotated_dup =
           [ "GroupEntry", "structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html", "structMR_1_1UI_1_1TestEngine_1_1GroupEntry" ],
           [ "ValueEntry", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry" ]
         ] ],
-        [ "ButtonCustomizationParams", "structMR_1_1UI_1_1ButtonCustomizationParams.html", "structMR_1_1UI_1_1ButtonCustomizationParams" ]
+        [ "ButtonCustomizationParams", "structMR_1_1UI_1_1ButtonCustomizationParams.html", "structMR_1_1UI_1_1ButtonCustomizationParams" ],
+        [ "ButtonIconCustomizationParams", "structMR_1_1UI_1_1ButtonIconCustomizationParams.html", "structMR_1_1UI_1_1ButtonIconCustomizationParams" ]
       ] ],
       [ "VoxelsLoad", "namespaceMR_1_1VoxelsLoad.html", [
         [ "DicomVolume", "structMR_1_1VoxelsLoad_1_1DicomVolume.html", "structMR_1_1VoxelsLoad_1_1DicomVolume" ],
@@ -357,7 +358,7 @@ var annotated_dup =
       [ "ICP", "classMR_1_1ICP.html", "classMR_1_1ICP" ],
       [ "ICPProperties", "structMR_1_1ICPProperties.html", "structMR_1_1ICPProperties" ],
       [ "Id", "classMR_1_1Id.html", "classMR_1_1Id" ],
-      [ "Id< EdgeTag >", "classMR_1_1Id_3_01EdgeTag_01_4.html", "classMR_1_1Id_3_01EdgeTag_01_4" ],
+      [ "Id< MR::EdgeTag >", "classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html", "classMR_1_1Id_3_01MR_1_1EdgeTag_01_4" ],
       [ "Id< VoxelTag >", "classMR_1_1Id_3_01VoxelTag_01_4.html", "classMR_1_1Id_3_01VoxelTag_01_4" ],
       [ "IFastWindingNumber", "classMR_1_1IFastWindingNumber.html", "classMR_1_1IFastWindingNumber" ],
       [ "Image", "structMR_1_1Image.html", "structMR_1_1Image" ],

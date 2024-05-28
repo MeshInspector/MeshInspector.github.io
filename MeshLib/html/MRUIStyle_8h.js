@@ -1,6 +1,7 @@
 var MRUIStyle_8h =
 [
     [ "MR::UI::ButtonCustomizationParams", "structMR_1_1UI_1_1ButtonCustomizationParams.html", "structMR_1_1UI_1_1ButtonCustomizationParams" ],
+    [ "MR::UI::ButtonIconCustomizationParams", "structMR_1_1UI_1_1ButtonIconCustomizationParams.html", "structMR_1_1UI_1_1ButtonIconCustomizationParams" ],
     [ "MR::UI::detail::Scalar", "conceptMR_1_1UI_1_1detail_1_1Scalar.html", null ],
     [ "MR::UI::detail::VectorOrScalar", "conceptMR_1_1UI_1_1detail_1_1VectorOrScalar.html", null ],
     [ "MR::UI::detail::ValidBoundForTargetType", "conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType.html", null ],
@@ -12,7 +13,10 @@ var MRUIStyle_8h =
     [ "button", "MRUIStyle_8h.html#ad13b9be4aa5cae65c61e91ac1ab04ecd", null ],
     [ "buttonCommonSize", "MRUIStyle_8h.html#affdd9ce8585853bc545f4f60bda2611f", null ],
     [ "buttonEx", "MRUIStyle_8h.html#a012d7558b98063f22c4bb9a28299837b", null ],
-    [ "buttonIcon", "MRUIStyle_8h.html#af2e7eebf3d2c40dafb3ed17d34a768be", null ],
+    [ "buttonIcon", "MRUIStyle_8h.html#a7618ad711338c485abe6cea17c1e304e", null ],
+    [ "buttonIcon", "MRUIStyle_8h.html#a336fa6393e7abeefe2f5d4e8f29d75a6", null ],
+    [ "buttonIconEx", "MRUIStyle_8h.html#ab53314e24f68de52f675b6881591b212", null ],
+    [ "buttonIconFlatBG", "MRUIStyle_8h.html#a192d3148a5ed3177660fcb7c2e758f1f", null ],
     [ "buttonUnique", "MRUIStyle_8h.html#aca27e412cdac5850b5894de3b19321b9", null ],
     [ "checkbox", "MRUIStyle_8h.html#a53a8b0ecd1302a3bda2f1df01ef818a8", null ],
     [ "checkbox", "MRUIStyle_8h.html#a9542cf007c0f98d41fea874268894222", null ],

@@ -22,7 +22,8 @@ var searchData=
   ['linesjoint_19',['LinesJoint',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748acf81af947731fc21b0be72289e83a87c',1,'MR::GLStaticHolder']]],
   ['linesjointpicker_20',['LinesJointPicker',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748aec6fddf1d3232b22c4b581a99bb65eec',1,'MR::GLStaticHolder']]],
   ['linespicker_21',['LinesPicker',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a4f89b3c160e8d6f2e7ec65bafdba19f7',1,'MR::GLStaticHolder']]],
-  ['lossless_22',['Lossless',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69dab7048ff6b4f97b9230b2365b31d16713',1,'MR::MeshSave::CtmSaveOptions']]],
-  ['lossy_23',['Lossy',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69dab71142391f68646086edeadddcf020dc',1,'MR::MeshSave::CtmSaveOptions']]],
-  ['lower_24',['Lower',['../structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685ab75fcdd2d72d9e000beab48622402d93',1,'MR::GridSettings']]]
+  ['logos_22',['Logos',['../classMR_1_1RibbonIcons.html#a2d10e82f8fd5c6cc53279374e9bd3931a2ada7b483f52be3afc92b8d3b07896d9',1,'MR::RibbonIcons']]],
+  ['lossless_23',['Lossless',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69dab7048ff6b4f97b9230b2365b31d16713',1,'MR::MeshSave::CtmSaveOptions']]],
+  ['lossy_24',['Lossy',['../structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69dab71142391f68646086edeadddcf020dc',1,'MR::MeshSave::CtmSaveOptions']]],
+  ['lower_25',['Lower',['../structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685ab75fcdd2d72d9e000beab48622402d93',1,'MR::GridSettings']]]
 ];

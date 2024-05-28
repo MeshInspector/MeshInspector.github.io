@@ -5,7 +5,7 @@ var searchData=
   ['gcodechangedsignal_2',['gcodeChangedSignal',['../classMR_1_1ObjectGcode.html#af7ac54e95de2f8914777e833e1a83678',1,'MR::ObjectGcode']]],
   ['geodesicpathapprox_3',['geodesicPathApprox',['../structMR_1_1SearchPathSettings.html#a73e36cb0460a39c6bf496d2038aced39',1,'MR::SearchPathSettings']]],
   ['geomid_4',['geomId',['../structMR_1_1ViewportGL_1_1BasePickResult.html#ab3a28df9902a6bfa722c359efdd91d44',1,'MR::ViewportGL::BasePickResult']]],
-  ['getter_5',['getter',['../structMR_1_1FeatureObjectSharedProperty.html#a50e5f67a09d573f408273911b212aeac',1,'MR::FeatureObjectSharedProperty']]],
+  ['getter_5',['getter',['../structMR_1_1FeatureObjectSharedProperty.html#a6180b92925783a60e6236c09f9967409',1,'MR::FeatureObjectSharedProperty']]],
   ['globalalpha_5f_6',['globalAlpha_',['../classMR_1_1VisualObject.html#a96232055c664463cca20dda327b1c30f',1,'MR::VisualObject']]],
   ['globalbasisaxes_7',['globalBasisAxes',['../classMR_1_1Viewer.html#a001f35f7fc983544a5af14e38a07a450',1,'MR::Viewer']]],
   ['glpickradius_8',['glPickRadius',['../classMR_1_1Viewer.html#a240a033f91b3eb0250fa706cd2f2feb1',1,'MR::Viewer']]],

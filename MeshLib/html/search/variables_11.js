@@ -26,7 +26,7 @@ var searchData=
   ['rendertaskdepth_23',['renderTaskDepth',['../structMR_1_1BasicUiRenderTask.html#a381d7376f63599633389b7ff83ded538',1,'MR::BasicUiRenderTask']]],
   ['rendervector_24',['renderVector',['../structMR_1_1ViewportGL_1_1PickParameters.html#af8be4f6f84e2199df5ed9bc57686ccb8',1,'MR::ViewportGL::PickParameters']]],
   ['repeatable_25',['repeatable',['../structMR_1_1ShortcutManager_1_1ShortcutCommand.html#acf2e272c865f0181e677f9a0cce89ec5',1,'MR::ShortcutManager::ShortcutCommand']]],
-  ['resetsettingsfunction_26',['resetSettingsFunction',['../classMR_1_1Viewer.html#a78a751ac5cd9bea4f66c1573e8f03175',1,'MR::Viewer']]],
+  ['resetsettingsfunction_26',['resetSettingsFunction',['../classMR_1_1Viewer.html#a5f253d7832f1e50f3936039860a48f25',1,'MR::Viewer']]],
   ['resolution_27',['resolution',['../structMR_1_1MeshToDistanceMapParams.html#a7f9d8b8e94b257b2bf65aa10104459c9',1,'MR::MeshToDistanceMapParams::resolution'],['../structMR_1_1ContourToDistanceMapParams.html#a777f64d2a02e161c0c2d62ceb280a2e4',1,'MR::ContourToDistanceMapParams::resolution'],['../structMR_1_1Image.html#a39fed2172fc354aeec92cae5942b7151',1,'MR::Image::resolution'],['../structMR_1_1GlTexture2_1_1Settings.html#aaa371acf8d5cc048412a9a5da0bcdc4e',1,'MR::GlTexture2::Settings::resolution'],['../structMR_1_1GlTexture3_1_1Settings.html#ac941f9560a8a7a7a1d6ef75cd2988388',1,'MR::GlTexture3::Settings::resolution']]],
   ['resultcut_28',['resultCut',['../structMR_1_1CutMeshResult.html#a5fd92baa79aac5e503e3310ab91fb400',1,'MR::CutMeshResult']]],
   ['retractfeed_29',['retractFeed',['../structMR_1_1ToolPathParams.html#a4f475acb69d7a5c6cd72596f9ba39ab1',1,'MR::ToolPathParams']]],
@@ -34,10 +34,11 @@ var searchData=
   ['ribbon_31',['Ribbon',['../structMR_1_1DrawButtonParams.html#afd107444ea803e1dded92f25f9366332',1,'MR::DrawButtonParams']]],
   ['rightorlast_32',['rightOrLast',['../structMR_1_1AABBTreePoints_1_1Node.html#a3cf322fb918d8114b9298d36ab60f30f',1,'MR::AABBTreePoints::Node']]],
   ['rigidb2a_33',['rigidB2A',['../structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0',1,'MR::SortIntersectionsData::rigidB2A'],['../structMR_1_1BooleanParameters.html#aa7d29b950e89579308197da903b43d92',1,'MR::BooleanParameters::rigidB2A']]],
-  ['rotatescale_34',['rotateScale',['../structMR_1_1SpaceMouseParameters.html#a0aacd5998cdf0ce46fd7ff6066c9e5a3',1,'MR::SpaceMouseParameters']]],
-  ['rotationcolors_35',['rotationColors',['../structMR_1_1TransformControls_1_1VisualParams.html#a73b98ea29d5b5bd3e934357536430ea4',1,'MR::TransformControls::VisualParams']]],
-  ['rotationsphere_36',['rotationSphere',['../classMR_1_1Viewer.html#a73342d4ca83f292c18e3174035e61d2e',1,'MR::Viewer']]],
-  ['round_37',['Round',['../structMR_1_1OffsetContoursParams.html#af426f64ab272d3866b6bfa747959ae49',1,'MR::OffsetContoursParams::Round'],['../structMR_1_1OffsetContoursParams.html#a11a811849fd3702f4abc2c898b1fe5dc',1,'MR::OffsetContoursParams::Round']]],
-  ['rounding_38',['rounding',['../namespaceMR_1_1StyleConsts_1_1ProgressBar.html#a467066b4c41a91512fcfee5c76e236ca',1,'MR::StyleConsts::ProgressBar']]],
-  ['rr_39',['rr',['../structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584',1,'MR::Dipole']]]
+  ['rot_34',['rot',['../structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#ad0025a9806d714127a0820f48a343136',1,'MR::MultiwayAligningTransform::Stabilizer']]],
+  ['rotatescale_35',['rotateScale',['../structMR_1_1SpaceMouseParameters.html#a0aacd5998cdf0ce46fd7ff6066c9e5a3',1,'MR::SpaceMouseParameters']]],
+  ['rotationcolors_36',['rotationColors',['../structMR_1_1TransformControls_1_1VisualParams.html#a73b98ea29d5b5bd3e934357536430ea4',1,'MR::TransformControls::VisualParams']]],
+  ['rotationsphere_37',['rotationSphere',['../classMR_1_1Viewer.html#a73342d4ca83f292c18e3174035e61d2e',1,'MR::Viewer']]],
+  ['round_38',['Round',['../structMR_1_1OffsetContoursParams.html#af426f64ab272d3866b6bfa747959ae49',1,'MR::OffsetContoursParams::Round'],['../structMR_1_1OffsetContoursParams.html#a11a811849fd3702f4abc2c898b1fe5dc',1,'MR::OffsetContoursParams::Round']]],
+  ['rounding_39',['rounding',['../namespaceMR_1_1StyleConsts_1_1ProgressBar.html#a467066b4c41a91512fcfee5c76e236ca',1,'MR::StyleConsts::ProgressBar']]],
+  ['rr_40',['rr',['../structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584',1,'MR::Dipole']]]
 ];
