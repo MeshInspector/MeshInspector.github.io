@@ -7,6 +7,7 @@ var MRBuffer_8h =
     [ "MR::Trivial", "conceptMR_1_1Trivial.html", null ],
     [ "begin", "MRBuffer_8h.html#aff3156c83a0cd4f80c755c47b577c1c9", null ],
     [ "begin", "MRBuffer_8h.html#a3bd81207bb5dccdfe9533eae31414e16", null ],
+    [ "compose", "MRBuffer_8h.html#ab5fd6e1a390fa8c05a8ad7006709dbf2", null ],
     [ "end", "MRBuffer_8h.html#a78839ede3780b97bcce02af755e7e577", null ],
     [ "end", "MRBuffer_8h.html#a484bb1d73bd93c876842593fe3441211", null ],
     [ "getAt", "MRBuffer_8h.html#a6210dabfb050a70351fc28943644e0ec", null ]

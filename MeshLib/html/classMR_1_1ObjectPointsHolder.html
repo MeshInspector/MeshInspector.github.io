@@ -109,6 +109,7 @@ $(function(){initNavTree('classMR_1_1ObjectPointsHolder.html',''); initResizable
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classMR_1_1ObjectPointsHolder-members.html">List of all members</a>  </div>
@@ -214,8 +215,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2646bd14bb792576389645ad9483bc0a" id="r_a2646bd14bb792576389645ad9483bc0a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2646bd14bb792576389645ad9483bc0a">heapBytes</a> () const override</td></tr>
 <tr class="memdesc:a2646bd14bb792576389645ad9483bc0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:a2646bd14bb792576389645ad9483bc0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72e7d6fd88c43ddf6a34285fac1f9f68" id="r_a72e7d6fd88c43ddf6a34285fac1f9f68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72e7d6fd88c43ddf6a34285fac1f9f68">setRenderDiscretization</a> (int val)</td></tr>
-<tr class="separator:a72e7d6fd88c43ddf6a34285fac1f9f68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a655ebcd931a3422a41e25e3080f708d5" id="r_a655ebcd931a3422a41e25e3080f708d5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a655ebcd931a3422a41e25e3080f708d5">getRenderDiscretization</a> () const</td></tr>
 <tr class="separator:a655ebcd931a3422a41e25e3080f708d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1889e45631f7acbe861a73c528476f9c" id="r_a1889e45631f7acbe861a73c528476f9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1889e45631f7acbe861a73c528476f9c">getMaxRenderingPoints</a> () const</td></tr>
@@ -572,6 +571,15 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object" id="r_a84debbb8e5d281139acb86024c2f7964"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Object.html#a10a84bc12112d8dd74450c7d360b5c06">XfChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964">worldXfChangedSignal</a></td></tr>
 <tr class="separator:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:aaac75458d3d39d711b336b903c273ba0" id="r_aaac75458d3d39d711b336b903c273ba0"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaac75458d3d39d711b336b903c273ba0">MaxRenderingPointsDefault</a> = 1'000'000</td></tr>
+<tr class="memdesc:aaac75458d3d39d711b336b903c273ba0"><td class="mdescLeft">&#160;</td><td class="mdescRight">default value for maximum rendered points number  <br /></td></tr>
+<tr class="separator:aaac75458d3d39d711b336b903c273ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64f6a6f37810695e4b48f8022a5bde9f" id="r_a64f6a6f37810695e4b48f8022a5bde9f"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64f6a6f37810695e4b48f8022a5bde9f">MaxRenderingPointsUnlimited</a> = std::numeric_limits&lt;int&gt;::max()</td></tr>
+<tr class="memdesc:a64f6a6f37810695e4b48f8022a5bde9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">recommended value for maximum rendered points number to disable discretization  <br /></td></tr>
+<tr class="separator:a64f6a6f37810695e4b48f8022a5bde9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a2206a7673291c743de019228d79d5569" id="r_a2206a7673291c743de019228d79d5569"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2206a7673291c743de019228d79d5569">swapSignals_</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;<a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>) override</td></tr>
@@ -639,7 +647,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:aff82edcc80eafd10cf373c842d0c3b8e" id="r_aff82edcc80eafd10cf373c842d0c3b8e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff82edcc80eafd10cf373c842d0c3b8e">pointSize_</a> { 5.0f }</td></tr>
 <tr class="memdesc:aff82edcc80eafd10cf373c842d0c3b8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">size of point in pixels  <br /></td></tr>
 <tr class="separator:aff82edcc80eafd10cf373c842d0c3b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bf94b614f61d0c5f7e7e9128c767f12" id="r_a1bf94b614f61d0c5f7e7e9128c767f12"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bf94b614f61d0c5f7e7e9128c767f12">maxRenderingPoints_</a> = 1'000'000</td></tr>
+<tr class="memitem:a1bf94b614f61d0c5f7e7e9128c767f12" id="r_a1bf94b614f61d0c5f7e7e9128c767f12"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bf94b614f61d0c5f7e7e9128c767f12">maxRenderingPoints_</a> = <a class="el" href="#aaac75458d3d39d711b336b903c273ba0">MaxRenderingPointsDefault</a></td></tr>
 <tr class="separator:a1bf94b614f61d0c5f7e7e9128c767f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classMR_1_1VisualObject"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1VisualObject')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a></td></tr>
 <tr class="memitem:ab054b578e5da7a7822d693ec0f61b1e7 inherit pro_attribs_classMR_1_1VisualObject" id="r_ab054b578e5da7a7822d693ec0f61b1e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1UniquePtr.html">UniquePtr</a>&lt; <a class="el" href="classMR_1_1IRenderObject.html">IRenderObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#ab054b578e5da7a7822d693ec0f61b1e7">renderObj_</a></td></tr>
@@ -1085,7 +1093,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>returns rendering discretization, each N-th point will be displayed on screen \detail used for rendering </p>
+<p>returns rendering discretization display each <code>renderDiscretization</code>-th point only (TODO: elaborate) \detail defined by maximum rendered points number as: <a class="el" href="#aba48075cc3847fbce801558843fc38d1">numValidPoints()</a> / <a class="el" href="#a1889e45631f7acbe861a73c528476f9c">getMaxRenderingPoints()</a> (rounded up) updated when setting <code>maxRenderingPoints</code> or changing the cloud (setting <code>DIRTY_FACE</code> flag) </p>
 
 </div>
 </div>
@@ -1605,7 +1613,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sets maximal number of points that will be rendered INT_MAX means lack of limit </p>
+<p>sets maximal number of points that will be rendered </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="#a655ebcd931a3422a41e25e3080f708d5">getRenderDiscretization</a>, <a class="el" href="#aaac75458d3d39d711b336b903c273ba0">MaxRenderingPointsDefault</a>, <a class="el" href="#a64f6a6f37810695e4b48f8022a5bde9f">MaxRenderingPointsUnlimited</a> </dd></dl>
 
 </div>
 </div>
@@ -1633,29 +1641,6 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>sets size of points on screen in pixels </p>
-
-</div>
-</div>
-<a id="a72e7d6fd88c43ddf6a34285fac1f9f68" name="a72e7d6fd88c43ddf6a34285fac1f9f68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72e7d6fd88c43ddf6a34285fac1f9f68">&#9670;&#160;</a></span>setRenderDiscretization()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectPointsHolder::setRenderDiscretization </td>
-          <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>val</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>sets maxRenderingPoints from rendering discretization, each</p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">val</td><td>-th point will be displayed on screen \detail convenient way to set maxRenderingPoints maxRenderingPoints is set so: validPointsCount / val </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -1947,7 +1932,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int MR::ObjectPointsHolder::maxRenderingPoints_ = 1'000'000</td>
+          <td class="memname">int MR::ObjectPointsHolder::maxRenderingPoints_ = <a class="el" href="#aaac75458d3d39d711b336b903c273ba0">MaxRenderingPointsDefault</a></td>
         </tr>
       </table>
   </td>
@@ -1956,6 +1941,54 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaac75458d3d39d711b336b903c273ba0" name="aaac75458d3d39d711b336b903c273ba0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaac75458d3d39d711b336b903c273ba0">&#9670;&#160;</a></span>MaxRenderingPointsDefault</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::ObjectPointsHolder::MaxRenderingPointsDefault = 1'000'000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>default value for maximum rendered points number </p>
+
+</div>
+</div>
+<a id="a64f6a6f37810695e4b48f8022a5bde9f" name="a64f6a6f37810695e4b48f8022a5bde9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64f6a6f37810695e4b48f8022a5bde9f">&#9670;&#160;</a></span>MaxRenderingPointsUnlimited</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::ObjectPointsHolder::MaxRenderingPointsUnlimited = std::numeric_limits&lt;int&gt;::max()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>recommended value for maximum rendered points number to disable discretization </p>
 
 </div>
 </div>

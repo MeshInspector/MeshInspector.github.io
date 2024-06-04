@@ -11,21 +11,10 @@ var group__AABBTreeGroup =
       [ "selfIntersectionsHeapBytes", "classMR_1_1Cuda_1_1FastWindingNumber.html#a294166526273f54cc89d52f028a2e207", null ]
     ] ],
     [ "MR::AABBTree", "classMR_1_1AABBTree.html", [
-      [ "Node", "classMR_1_1AABBTree.html#aa37a7e9d75af0fd6054032c0dab496d9", null ],
-      [ "NodeVec", "classMR_1_1AABBTree.html#a3689e736d9bd1cc83c766df27cb69b68", null ],
       [ "AABBTree", "classMR_1_1AABBTree.html#a0c762ebbd20c05c2219b1a348f22e0fb", null ],
+      [ "AABBTree", "classMR_1_1AABBTree.html#a23b6f58682ec54006a8fb8d00ca4a191", null ],
       [ "AABBTree", "classMR_1_1AABBTree.html#a299be175c35406bc5c624c524a3221e7", null ],
-      [ "containsSameNumberOfTris", "classMR_1_1AABBTree.html#a452c88b89ff01231575ab3f12f8de2df", null ],
-      [ "getBoundingBox", "classMR_1_1AABBTree.html#a32fb8d6b891ed1e97bf4532552caa7a4", null ],
-      [ "getLeafOrder", "classMR_1_1AABBTree.html#a820e2cabb54dfb40bc6a879b60d1c26b", null ],
-      [ "getLeafOrderAndReset", "classMR_1_1AABBTree.html#a06b0074f8c3d597ebed5608323ecba21", null ],
-      [ "getNodesFromFaces", "classMR_1_1AABBTree.html#a73821036edd8a5a2f9ea4399b225f9d0", null ],
-      [ "getSubtreeFaces", "classMR_1_1AABBTree.html#a17c38dc7b5620a352a4648fd8c18612e", null ],
-      [ "getSubtrees", "classMR_1_1AABBTree.html#afad536a6dcb131bca201c0d5d385937b", null ],
-      [ "heapBytes", "classMR_1_1AABBTree.html#aade2800253ef88428cbf989ee073e2c5", null ],
-      [ "nodes", "classMR_1_1AABBTree.html#a417b2def8f134a7f62981cc0ff5f33dc", null ],
       [ "operator=", "classMR_1_1AABBTree.html#a3d03064881df6e739bd9f815c909abe5", null ],
-      [ "operator[]", "classMR_1_1AABBTree.html#a5898495ce47a17254d7287769559d81b", null ],
       [ "refit", "classMR_1_1AABBTree.html#afa9d6951c5f6c0370a71ad917fb5cfb0", null ],
       [ "UniqueThreadSafeOwner< AABBTree >", "classMR_1_1AABBTree.html#aed6e78485032d75bf97587de91224aaf", null ]
     ] ],
@@ -35,9 +24,10 @@ var group__AABBTreeGroup =
       [ "box", "structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5", null ],
       [ "leafId", "structMR_1_1BoxedLeaf.html#a94f8ddab16da6ccb873e9ef25f7b116d", null ]
     ] ],
-    [ "MR::ABBTreeTraits< L, B >", "structMR_1_1ABBTreeTraits.html", [
-      [ "BoxT", "structMR_1_1ABBTreeTraits.html#aca44121dedda267d6d6d05d28c60e186", null ],
-      [ "LeafId", "structMR_1_1ABBTreeTraits.html#a4b6228a9496f89b1486c84b5be513b6e", null ]
+    [ "MR::AABBTreeTraits< L, B >", "structMR_1_1AABBTreeTraits.html", [
+      [ "BoxT", "structMR_1_1AABBTreeTraits.html#af377f5f1d8b11732a56ec00544ed4c2e", null ],
+      [ "LeafId", "structMR_1_1AABBTreeTraits.html#a50bc8c0ccee7f3a7a6f9292ef97447f9", null ],
+      [ "LeafTag", "structMR_1_1AABBTreeTraits.html#a0a4c21a59ab274d8edaf4ecf3702bb7a", null ]
     ] ],
     [ "MR::AABBTreeNode< T >", "structMR_1_1AABBTreeNode.html", [
       [ "BoxT", "structMR_1_1AABBTreeNode.html#af92cbed18c9ddfbf28d0e86385fc6e01", null ],
@@ -48,6 +38,14 @@ var group__AABBTreeGroup =
       [ "box", "structMR_1_1AABBTreeNode.html#a5c90c7ee746d8e3f67062655f733dea0", null ],
       [ "l", "structMR_1_1AABBTreeNode.html#a3cbbf05afde5b58b37ff42812595cef9", null ],
       [ "r", "structMR_1_1AABBTreeNode.html#a17304ef8e7e0d4062245a747fa45840e", null ]
+    ] ],
+    [ "MR::AABBTreeObjects", "classMR_1_1AABBTreeObjects.html", [
+      [ "AABBTreeObjects", "classMR_1_1AABBTreeObjects.html#aa38c8faf49a02e3d7be46e67ca93605c", null ],
+      [ "AABBTreeObjects", "classMR_1_1AABBTreeObjects.html#ac03ebfddd0d44b67e900401b14ab8510", null ],
+      [ "obj", "classMR_1_1AABBTreeObjects.html#a99168530efbec41936b6d609dd4817ef", null ],
+      [ "toLocal", "classMR_1_1AABBTreeObjects.html#ace976de99f292fc7409294bee7c05658", null ],
+      [ "toLocal", "classMR_1_1AABBTreeObjects.html#a38603d0eea93fb5ee6465cbb5f5240df", null ],
+      [ "toWorld", "classMR_1_1AABBTreeObjects.html#a53a2373adc7f8c553eef2252a15f8e6c", null ]
     ] ],
     [ "MR::AABBTreePoints", "classMR_1_1AABBTreePoints.html", [
       [ "Node", "structMR_1_1AABBTreePoints_1_1Node.html", [
@@ -88,18 +86,11 @@ var group__AABBTreeGroup =
       [ "Polyline", "structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b", null ]
     ] ],
     [ "MR::AABBTreePolyline< V >", "classMR_1_1AABBTreePolyline.html", [
-      [ "Node", "classMR_1_1AABBTreePolyline.html#a509d44a3a361e64b888954b20ad9825e", null ],
-      [ "NodeVec", "classMR_1_1AABBTreePolyline.html#a482d4aeb7c300a18727f25e612512ef2", null ],
-      [ "Traits", "classMR_1_1AABBTreePolyline.html#a7f96860dc1daeee5853645f1fecdeca7", null ],
       [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html#a7bfaaa5a66978f3d97cd8451644bed9a", null ],
       [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html#a0da0a8d855b1e2981083b1e681398a8b", null ],
       [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html#a86c6f6500ab7a1df6e7bf30cab730bc3", null ],
       [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html#aaf1c13f7909dc226ed6e0a332e61ba4c", null ],
-      [ "getBoundingBox", "classMR_1_1AABBTreePolyline.html#a7f8a4d54141ef1646577deda4e8a1e16", null ],
-      [ "heapBytes", "classMR_1_1AABBTreePolyline.html#aacdd30033d496c586d4985ee6c2ab4f8", null ],
-      [ "nodes", "classMR_1_1AABBTreePolyline.html#a4dc8ecf3b678123defb81c16f21687bb", null ],
       [ "operator=", "classMR_1_1AABBTreePolyline.html#a82f5feeca891be31840c7bba4a85cb1a", null ],
-      [ "operator[]", "classMR_1_1AABBTreePolyline.html#aa157a7603fc51ecd20d4aaf5f14ad957", null ],
       [ "UniqueThreadSafeOwner< AABBTreePolyline >", "classMR_1_1AABBTreePolyline.html#a52c528f5d14d69efc2f4a51166515170", null ]
     ] ],
     [ "MR::FaceFace", "structMR_1_1FaceFace.html", [
@@ -229,13 +220,13 @@ var group__AABBTreeGroup =
     [ "MR::AABBTreeNodeVec", "group__AABBTreeGroup.html#ga01c75e3c26967a90edbe075a77cb2ca9", null ],
     [ "MR::ConvertToFloatVector", "group__AABBTreeGroup.html#ga55867f88ac3e3a329e67a208b4634d96", null ],
     [ "MR::ConvertToIntVector", "group__AABBTreeGroup.html#gadc2c4d7aad96048cfc344b839a4e6e16", null ],
-    [ "MR::FaceTreeTraits3", "group__AABBTreeGroup.html#ga4891ca5ffb38468a494444c4400c720c", null ],
+    [ "MR::FaceTreeTraits3", "group__AABBTreeGroup.html#ga2d9f9e10f5365b971c9f7300264be632", null ],
     [ "MR::FoundEdgeCallback", "group__AABBTreeGroup.html#gac2b944209dd41b786a30b1d537639470", null ],
     [ "MR::FoundEdgeCallback2", "group__AABBTreeGroup.html#ga5e0d9af4be57927671a26f2c4588a515", null ],
     [ "MR::FoundEdgeCallback3", "group__AABBTreeGroup.html#ga865abfe228b7d60d582d2c6ce24ffb19", null ],
     [ "MR::Line3dMesh", "group__AABBTreeGroup.html#ga8ba650839d7806773bb542b986ac4283", null ],
     [ "MR::Line3fMesh", "group__AABBTreeGroup.html#ga9222ec2d954badb7ee5874321a084eb6", null ],
-    [ "MR::LineTreeTraits", "group__AABBTreeGroup.html#gaf4da51be96a4e6d0e161775002ba0878", null ],
+    [ "MR::LineTreeTraits", "group__AABBTreeGroup.html#ga876e325460f0c5460c1e453324ca329c", null ],
     [ "MR::LineTreeTraits2", "group__AABBTreeGroup.html#ga346d2e7774495e3e4ca05a2325f11aaf", null ],
     [ "MR::LineTreeTraits3", "group__AABBTreeGroup.html#gacf6e57b5e87718397acc1762969ad77a", null ],
     [ "MR::MeshIntersectionCallback", "group__AABBTreeGroup.html#gac20cf6ba073a7db1e2df313fb87d9517", null ],

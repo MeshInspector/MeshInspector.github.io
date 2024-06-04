@@ -14,5 +14,7 @@ var classMR_1_1DirectionWidget =
     [ "setOnDirectionChangedCallback", "classMR_1_1DirectionWidget.html#a67a12d304a83009a1db343a406e4f46e", null ],
     [ "setVisible", "classMR_1_1DirectionWidget.html#a2f9a3921002f4bf6b9fccd0e978e48c9", null ],
     [ "updateArrow", "classMR_1_1DirectionWidget.html#ac5eee310348d931ae6105ec16b3e43f3", null ],
-    [ "updateDirection", "classMR_1_1DirectionWidget.html#a29827ac67baeb7b760b6387c4656a046", null ]
+    [ "updateBase", "classMR_1_1DirectionWidget.html#a0b215c94ee35a19ee1fc4beb14824c54", null ],
+    [ "updateDirection", "classMR_1_1DirectionWidget.html#a29827ac67baeb7b760b6387c4656a046", null ],
+    [ "updateLength", "classMR_1_1DirectionWidget.html#a919a4e2843ebcd0667b6572ba9d03caa", null ]
 ];

@@ -14,7 +14,7 @@ var searchData=
   ['touchpadswipegestureupdatesignal_11',['TouchpadSwipeGestureUpdateSignal',['../classMR_1_1Viewer.html#acd8505d2266a296e3abe62a13c06c58a',1,'MR::Viewer']]],
   ['touchpadzoomgestureupdatesignal_12',['TouchpadZoomGestureUpdateSignal',['../classMR_1_1Viewer.html#aa0067f8572528030f89b914e2125bb44',1,'MR::Viewer']]],
   ['touchsignal_13',['TouchSignal',['../classMR_1_1Viewer.html#a96cbf0a63696ed1b370277034184b276',1,'MR::Viewer']]],
-  ['traits_14',['Traits',['../classMR_1_1AABBTreePolyline.html#a7f96860dc1daeee5853645f1fecdeca7',1,'MR::AABBTreePolyline']]],
+  ['traits_14',['Traits',['../classMR_1_1AABBTreeBase.html#a66e27ff8d7cb865904647479f715a7f3',1,'MR::AABBTreeBase']]],
   ['transformmodesvalidator_15',['TransformModesValidator',['../namespaceMR.html#a424dfa22186e052b06c55ce2655c2e26',1,'MR']]],
   ['treeaccessor_16',['TreeAccessor',['../classMR_1_1RangeProcessorSingle.html#a74bdcc0991a9a680c90dc549ed96da8f',1,'MR::RangeProcessorSingle::TreeAccessor'],['../classMR_1_1RangeCounter.html#a6348660687ee746c78a3e76ef7565eb8',1,'MR::RangeCounter::TreeAccessor']]],
   ['triangle3_17',['Triangle3',['../namespaceMR.html#a7cab6855ae6654d80a90d7dce087e96a',1,'MR']]],

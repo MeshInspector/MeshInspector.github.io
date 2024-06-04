@@ -35,7 +35,6 @@ var classMR_1_1ObjectPointsHolder =
     [ "setDirtyFlags", "classMR_1_1ObjectPointsHolder.html#a29d230eab5ae9ef093a8d9f9878ecb6a", null ],
     [ "setMaxRenderingPoints", "classMR_1_1ObjectPointsHolder.html#a6d544e708ad4ac5612035941e897ca16", null ],
     [ "setPointSize", "classMR_1_1ObjectPointsHolder.html#aa7f91dadfb276318513e5f3022078c63", null ],
-    [ "setRenderDiscretization", "classMR_1_1ObjectPointsHolder.html#a72e7d6fd88c43ddf6a34285fac1f9f68", null ],
     [ "setSavePointsFormat", "classMR_1_1ObjectPointsHolder.html#a3e7bf12d420034670ac760d3f01ede83", null ],
     [ "setSelectedVerticesColor", "classMR_1_1ObjectPointsHolder.html#a9cb5c91de776239dbfc1ee5ff9c6715e", null ],
     [ "setSelectedVerticesColorsForAllViewports", "classMR_1_1ObjectPointsHolder.html#aee16d2b8918460907bba03f68431314c", null ],

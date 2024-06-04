@@ -1,10 +1,18 @@
 var hierarchy =
 [
-    [ "MR::AABBTree", "classMR_1_1AABBTree.html", null ],
+    [ "MR::AABBTreeBase< T >", "classMR_1_1AABBTreeBase.html", null ],
+    [ "MR::AABBTreeBase< FaceTreeTraits3 >", "classMR_1_1AABBTreeBase.html", [
+      [ "MR::AABBTree", "classMR_1_1AABBTree.html", null ]
+    ] ],
+    [ "MR::AABBTreeBase< LineTreeTraits< V > >", "classMR_1_1AABBTreeBase.html", [
+      [ "MR::AABBTreePolyline< V >", "classMR_1_1AABBTreePolyline.html", null ]
+    ] ],
+    [ "MR::AABBTreeBase< ObjTreeTraits >", "classMR_1_1AABBTreeBase.html", [
+      [ "MR::AABBTreeObjects", "classMR_1_1AABBTreeObjects.html", null ]
+    ] ],
     [ "MR::AABBTreeNode< T >", "structMR_1_1AABBTreeNode.html", null ],
     [ "MR::AABBTreePoints", "classMR_1_1AABBTreePoints.html", null ],
-    [ "MR::AABBTreePolyline< V >", "classMR_1_1AABBTreePolyline.html", null ],
-    [ "MR::ABBTreeTraits< L, B >", "structMR_1_1ABBTreeTraits.html", null ],
+    [ "MR::AABBTreeTraits< L, B >", "structMR_1_1AABBTreeTraits.html", null ],
     [ "MR::AffineXf< V >", "structMR_1_1AffineXf.html", null ],
     [ "MR::AffineXf< float >", "structMR_1_1AffineXf.html", null ],
     [ "MR::AllLocalTriangulations", "structMR_1_1AllLocalTriangulations.html", null ],
@@ -142,6 +150,7 @@ var hierarchy =
     [ "MR::BooleanResultMapper", "structMR_1_1BooleanResultMapper.html", null ],
     [ "MR::BooleanResultPoints", "structMR_1_1BooleanResultPoints.html", null ],
     [ "MR::BoundarySelectionWidget::BoundarySelectionWidgetParams", "structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html", null ],
+    [ "MR::UI::TestEngine::detail::BoundedValue< T >", "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html", null ],
     [ "MR::Box< V >", "structMR_1_1Box.html", null ],
     [ "MR::Box< float >", "structMR_1_1Box.html", null ],
     [ "MR::Box< int >", "structMR_1_1Box.html", null ],
@@ -452,6 +461,7 @@ var hierarchy =
     [ "MR::Id< GraphVertTag >", "classMR_1_1Id.html", null ],
     [ "MR::Id< MR::EdgeTag >", "classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html", null ],
     [ "MR::Id< NodeTag >", "classMR_1_1Id.html", null ],
+    [ "MR::Id< ObjTag >", "classMR_1_1Id.html", null ],
     [ "MR::Id< UndirectedEdgeTag >", "classMR_1_1Id.html", null ],
     [ "MR::Id< VertTag >", "classMR_1_1Id.html", null ],
     [ "MR::Id< VoxelTag >", "classMR_1_1Id_3_01VoxelTag_01_4.html", null ],
@@ -641,6 +651,7 @@ var hierarchy =
     [ "MR::MeshTriPoint", "structMR_1_1MeshTriPoint.html", null ],
     [ "MR::MeshVoxelsConverter", "structMR_1_1MeshVoxelsConverter.html", null ],
     [ "MR::MetricToAStarPenalty", "structMR_1_1MetricToAStarPenalty.html", null ],
+    [ "MR::ModelPointsData", "structMR_1_1ModelPointsData.html", null ],
     [ "MR::PythonExport::ModuleData", "structMR_1_1PythonExport_1_1ModuleData.html", null ],
     [ "MR::MouseController::MouseControlKey", "structMR_1_1MouseController_1_1MouseControlKey.html", null ],
     [ "MR::MouseController", "classMR_1_1MouseController.html", null ],
@@ -720,6 +731,8 @@ var hierarchy =
     [ "MR::ObjectFactoryBase", "classMR_1_1ObjectFactoryBase.html", [
       [ "MR::ObjectFactory< T >", "classMR_1_1ObjectFactory.html", null ]
     ] ],
+    [ "MR::ObjTreeTraits", "structMR_1_1ObjTreeTraits.html", null ],
+    [ "MR::ObjVertId", "structMR_1_1ObjVertId.html", null ],
     [ "MR::OffsetContourIndex", "structMR_1_1OffsetContourIndex.html", null ],
     [ "MR::OffsetContoursOrigins", "structMR_1_1OffsetContoursOrigins.html", null ],
     [ "MR::OffsetContoursParams", "structMR_1_1OffsetContoursParams.html", null ],
@@ -1035,6 +1048,7 @@ var hierarchy =
     [ "MR::Vector< HalfEdgeRecord, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< I, I >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< int, MR::Id >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< MR::AffineXf, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::FanRecord, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::Id, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< MR::Id< VoxelTag >, MR::Id >", "classMR_1_1Vector.html", null ],
@@ -1055,6 +1069,7 @@ var hierarchy =
     [ "MR::Vector< Vector3f, FaceId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< Vector3f, MR::Id >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< Vector3f, VertId >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< Vector< IndexedGroupPairs, GroupId >, Layer >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< VertId, VertId >", "classMR_1_1Vector.html", null ],
     [ "MR::VectorTraits< T >", "structMR_1_1VectorTraits.html", null ],
     [ "MR::VectorTraits< ImVec2 >", "structMR_1_1VectorTraits_3_01ImVec2_01_4.html", null ],

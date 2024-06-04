@@ -107,6 +107,7 @@ $(function(){initNavTree('MRUITestEngine_8h.html',''); initResizable(true); });
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRUITestEngine.h File Reference</div></div>
 </div><!--header-->
@@ -124,6 +125,8 @@ $(function(){initNavTree('MRUITestEngine_8h.html',''); initResizable(true); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">MR::UI::TestEngine::detail::BoundedValue&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html">MR::UI::TestEngine::ButtonEntry</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html">MR::UI::TestEngine::ValueEntry</a></td></tr>
@@ -146,21 +149,33 @@ Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1TestEngine_1_1detail.html">MR::UI::TestEngine::detail</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a53e30bb144cbf9450486830008c5c039" id="r_a53e30bb144cbf9450486830008c5c039"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a53e30bb144cbf9450486830008c5c039"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#a53e30bb144cbf9450486830008c5c039">MR::UI::TestEngine::detail::UnderlyingValueType</a> = std::conditional_t&lt;std::is_floating_point_v&lt;T&gt;, double, std::conditional_t&lt;std::is_signed_v&lt;T&gt;, std::int64_t, std::uint64_t&gt;&gt;</td></tr>
+<tr class="separator:a53e30bb144cbf9450486830008c5c039"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aff3803de4bf8e900dcc2be46e6e53277" id="r_aff3803de4bf8e900dcc2be46e6e53277"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aff3803de4bf8e900dcc2be46e6e53277"><td class="memTemplItemLeft" align="right" valign="top">MRVIEWER_API std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#aff3803de4bf8e900dcc2be46e6e53277">MR::UI::TestEngine::detail::createValueLow</a> (std::string_view name, T value, T min, T max)</td></tr>
-<tr class="separator:aff3803de4bf8e900dcc2be46e6e53277"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79df976bc397d5a76f2fc76e0d26aba8" id="r_a79df976bc397d5a76f2fc76e0d26aba8"><td class="memItemLeft" align="right" valign="top">template MRVIEWER_API std::optional&lt; std::int64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#a79df976bc397d5a76f2fc76e0d26aba8">MR::UI::TestEngine::detail::createValueLow</a> (std::string_view name, std::int64_t value, std::int64_t min, std::int64_t max)</td></tr>
-<tr class="separator:a79df976bc397d5a76f2fc76e0d26aba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e124515fab04582b02e616f00111d49" id="r_a7e124515fab04582b02e616f00111d49"><td class="memItemLeft" align="right" valign="top">template MRVIEWER_API std::optional&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#a7e124515fab04582b02e616f00111d49">MR::UI::TestEngine::detail::createValueLow</a> (std::string_view name, double value, double min, double max)</td></tr>
-<tr class="separator:a7e124515fab04582b02e616f00111d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a014609569932f659d96ae34f34992039" id="r_a014609569932f659d96ae34f34992039"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a014609569932f659d96ae34f34992039"><td class="memTemplItemLeft" align="right" valign="top">MRVIEWER_API std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#a014609569932f659d96ae34f34992039">MR::UI::TestEngine::detail::createValueLow</a> (std::string_view name, std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; T &gt; &gt; value)</td></tr>
+<tr class="separator:a014609569932f659d96ae34f34992039"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c72ea3bde33ff00b464930de6e47c9e" id="r_a7c72ea3bde33ff00b464930de6e47c9e"><td class="memItemLeft" align="right" valign="top">template MRVIEWER_API std::optional&lt; std::int64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#a7c72ea3bde33ff00b464930de6e47c9e">MR::UI::TestEngine::detail::createValueLow</a> (std::string_view name, std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; std::int64_t &gt; &gt; value)</td></tr>
+<tr class="separator:a7c72ea3bde33ff00b464930de6e47c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91ccdff327bb3b328fdf4690f9c5cf5c" id="r_a91ccdff327bb3b328fdf4690f9c5cf5c"><td class="memItemLeft" align="right" valign="top">template MRVIEWER_API std::optional&lt; std::uint64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#a91ccdff327bb3b328fdf4690f9c5cf5c">MR::UI::TestEngine::detail::createValueLow</a> (std::string_view name, std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; std::uint64_t &gt; &gt; value)</td></tr>
+<tr class="separator:a91ccdff327bb3b328fdf4690f9c5cf5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2105433a3afd2a49455937649c3cf400" id="r_a2105433a3afd2a49455937649c3cf400"><td class="memItemLeft" align="right" valign="top">template MRVIEWER_API std::optional&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#a2105433a3afd2a49455937649c3cf400">MR::UI::TestEngine::detail::createValueLow</a> (std::string_view name, std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; double &gt; &gt; value)</td></tr>
+<tr class="separator:a2105433a3afd2a49455937649c3cf400"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a775aa83cc6e23820b3e00321d7c35da2" id="r_a775aa83cc6e23820b3e00321d7c35da2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1TestEngine.html#a775aa83cc6e23820b3e00321d7c35da2">MR::UI::TestEngine::createButton</a> (std::string_view name)</td></tr>
 <tr class="separator:a775aa83cc6e23820b3e00321d7c35da2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3732226b2f7a19edeee17322b33fbe10" id="r_a3732226b2f7a19edeee17322b33fbe10"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; <br />
 requires std::is_arithmetic_v&lt;T&gt;</td></tr>
 <tr class="memitem:a3732226b2f7a19edeee17322b33fbe10"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1TestEngine.html#a3732226b2f7a19edeee17322b33fbe10">MR::UI::TestEngine::createValue</a> (std::string_view name, T value, T min, T max)</td></tr>
 <tr class="separator:a3732226b2f7a19edeee17322b33fbe10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac167f9ed82096fdb4d338e51a3cc26da" id="r_ac167f9ed82096fdb4d338e51a3cc26da"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; <br />
+requires std::is_arithmetic_v&lt;T&gt;</td></tr>
+<tr class="memitem:ac167f9ed82096fdb4d338e51a3cc26da"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1TestEngine.html#ac167f9ed82096fdb4d338e51a3cc26da">MR::UI::TestEngine::createValueTentative</a> (std::string_view name)</td></tr>
+<tr class="separator:ac167f9ed82096fdb4d338e51a3cc26da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afac37f1a33604b207f8d30279b255ad2" id="r_afac37f1a33604b207f8d30279b255ad2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1TestEngine.html#afac37f1a33604b207f8d30279b255ad2">MR::UI::TestEngine::pushTree</a> (std::string_view name)</td></tr>
 <tr class="separator:afac37f1a33604b207f8d30279b255ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af584a5ff88e3d48b91ace605bd8331e5" id="r_af584a5ff88e3d48b91ace605bd8331e5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1TestEngine.html#af584a5ff88e3d48b91ace605bd8331e5">MR::UI::TestEngine::popTree</a> ()</td></tr>

@@ -105,24 +105,56 @@ $(function(){initNavTree('namespaceMR_1_1UI_1_1TestEngine_1_1detail.html',''); i
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MR::UI::TestEngine::detail Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a53e30bb144cbf9450486830008c5c039" id="r_a53e30bb144cbf9450486830008c5c039"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a53e30bb144cbf9450486830008c5c039"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a53e30bb144cbf9450486830008c5c039">UnderlyingValueType</a> = std::conditional_t&lt;std::is_floating_point_v&lt;T&gt;, double, std::conditional_t&lt;std::is_signed_v&lt;T&gt;, std::int64_t, std::uint64_t&gt;&gt;</td></tr>
+<tr class="separator:a53e30bb144cbf9450486830008c5c039"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aff3803de4bf8e900dcc2be46e6e53277" id="r_aff3803de4bf8e900dcc2be46e6e53277"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aff3803de4bf8e900dcc2be46e6e53277"><td class="memTemplItemLeft" align="right" valign="top">MRVIEWER_API std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aff3803de4bf8e900dcc2be46e6e53277">createValueLow</a> (std::string_view name, T value, T min, T max)</td></tr>
-<tr class="separator:aff3803de4bf8e900dcc2be46e6e53277"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79df976bc397d5a76f2fc76e0d26aba8" id="r_a79df976bc397d5a76f2fc76e0d26aba8"><td class="memItemLeft" align="right" valign="top">template MRVIEWER_API std::optional&lt; std::int64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79df976bc397d5a76f2fc76e0d26aba8">createValueLow</a> (std::string_view name, std::int64_t value, std::int64_t min, std::int64_t max)</td></tr>
-<tr class="separator:a79df976bc397d5a76f2fc76e0d26aba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e124515fab04582b02e616f00111d49" id="r_a7e124515fab04582b02e616f00111d49"><td class="memItemLeft" align="right" valign="top">template MRVIEWER_API std::optional&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e124515fab04582b02e616f00111d49">createValueLow</a> (std::string_view name, double value, double min, double max)</td></tr>
-<tr class="separator:a7e124515fab04582b02e616f00111d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a014609569932f659d96ae34f34992039" id="r_a014609569932f659d96ae34f34992039"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a014609569932f659d96ae34f34992039"><td class="memTemplItemLeft" align="right" valign="top">MRVIEWER_API std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a014609569932f659d96ae34f34992039">createValueLow</a> (std::string_view name, std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; T &gt; &gt; value)</td></tr>
+<tr class="separator:a014609569932f659d96ae34f34992039"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c72ea3bde33ff00b464930de6e47c9e" id="r_a7c72ea3bde33ff00b464930de6e47c9e"><td class="memItemLeft" align="right" valign="top">template MRVIEWER_API std::optional&lt; std::int64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c72ea3bde33ff00b464930de6e47c9e">createValueLow</a> (std::string_view name, std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; std::int64_t &gt; &gt; value)</td></tr>
+<tr class="separator:a7c72ea3bde33ff00b464930de6e47c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91ccdff327bb3b328fdf4690f9c5cf5c" id="r_a91ccdff327bb3b328fdf4690f9c5cf5c"><td class="memItemLeft" align="right" valign="top">template MRVIEWER_API std::optional&lt; std::uint64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91ccdff327bb3b328fdf4690f9c5cf5c">createValueLow</a> (std::string_view name, std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; std::uint64_t &gt; &gt; value)</td></tr>
+<tr class="separator:a91ccdff327bb3b328fdf4690f9c5cf5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2105433a3afd2a49455937649c3cf400" id="r_a2105433a3afd2a49455937649c3cf400"><td class="memItemLeft" align="right" valign="top">template MRVIEWER_API std::optional&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2105433a3afd2a49455937649c3cf400">createValueLow</a> (std::string_view name, std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; double &gt; &gt; value)</td></tr>
+<tr class="separator:a2105433a3afd2a49455937649c3cf400"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a53e30bb144cbf9450486830008c5c039" name="a53e30bb144cbf9450486830008c5c039"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53e30bb144cbf9450486830008c5c039">&#9670;&#160;</a></span>UnderlyingValueType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a53e30bb144cbf9450486830008c5c039">MR::UI::TestEngine::detail::UnderlyingValueType</a> = std::conditional_t&lt;std::is_floating_point_v&lt;T&gt;, double, std::conditional_t&lt;std::is_signed_v&lt;T&gt;, std::int64_t, std::uint64_t&gt;&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a7e124515fab04582b02e616f00111d49" name="a7e124515fab04582b02e616f00111d49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e124515fab04582b02e616f00111d49">&#9670;&#160;</a></span>createValueLow() <span class="overload">[1/3]</span></h2>
+<a id="a2105433a3afd2a49455937649c3cf400" name="a2105433a3afd2a49455937649c3cf400"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2105433a3afd2a49455937649c3cf400">&#9670;&#160;</a></span>createValueLow() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138,17 +170,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>min</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>max</em></span>&#160;)</td>
+          <td class="paramtype">std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; double &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -160,8 +182,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a79df976bc397d5a76f2fc76e0d26aba8" name="a79df976bc397d5a76f2fc76e0d26aba8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79df976bc397d5a76f2fc76e0d26aba8">&#9670;&#160;</a></span>createValueLow() <span class="overload">[2/3]</span></h2>
+<a id="a7c72ea3bde33ff00b464930de6e47c9e" name="a7c72ea3bde33ff00b464930de6e47c9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c72ea3bde33ff00b464930de6e47c9e">&#9670;&#160;</a></span>createValueLow() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -177,17 +199,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::int64_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::int64_t</td>          <td class="paramname"><span class="paramname"><em>min</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::int64_t</td>          <td class="paramname"><span class="paramname"><em>max</em></span>&#160;)</td>
+          <td class="paramtype">std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; std::int64_t &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -199,8 +211,37 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aff3803de4bf8e900dcc2be46e6e53277" name="aff3803de4bf8e900dcc2be46e6e53277"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff3803de4bf8e900dcc2be46e6e53277">&#9670;&#160;</a></span>createValueLow() <span class="overload">[3/3]</span></h2>
+<a id="a91ccdff327bb3b328fdf4690f9c5cf5c" name="a91ccdff327bb3b328fdf4690f9c5cf5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91ccdff327bb3b328fdf4690f9c5cf5c">&#9670;&#160;</a></span>createValueLow() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">template MRVIEWER_API std::optional&lt; std::uint64_t &gt; MR::UI::TestEngine::detail::createValueLow </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; std::uint64_t &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a014609569932f659d96ae34f34992039" name="a014609569932f659d96ae34f34992039"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a014609569932f659d96ae34f34992039">&#9670;&#160;</a></span>createValueLow() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -218,17 +259,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>min</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>max</em></span>&#160;)</td>
+          <td class="paramtype">std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; T &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

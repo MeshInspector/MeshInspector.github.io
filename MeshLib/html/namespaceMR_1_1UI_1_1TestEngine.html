@@ -136,6 +136,10 @@ Functions</h2></td></tr>
 requires std::is_arithmetic_v&lt;T&gt;</td></tr>
 <tr class="memitem:a3732226b2f7a19edeee17322b33fbe10"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a3732226b2f7a19edeee17322b33fbe10">createValue</a> (std::string_view name, T value, T min, T max)</td></tr>
 <tr class="separator:a3732226b2f7a19edeee17322b33fbe10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac167f9ed82096fdb4d338e51a3cc26da" id="r_ac167f9ed82096fdb4d338e51a3cc26da"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; <br />
+requires std::is_arithmetic_v&lt;T&gt;</td></tr>
+<tr class="memitem:ac167f9ed82096fdb4d338e51a3cc26da"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ac167f9ed82096fdb4d338e51a3cc26da">createValueTentative</a> (std::string_view name)</td></tr>
+<tr class="separator:ac167f9ed82096fdb4d338e51a3cc26da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afac37f1a33604b207f8d30279b255ad2" id="r_afac37f1a33604b207f8d30279b255ad2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afac37f1a33604b207f8d30279b255ad2">pushTree</a> (std::string_view name)</td></tr>
 <tr class="separator:afac37f1a33604b207f8d30279b255ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af584a5ff88e3d48b91ace605bd8331e5" id="r_af584a5ff88e3d48b91ace605bd8331e5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af584a5ff88e3d48b91ace605bd8331e5">popTree</a> ()</td></tr>
@@ -200,6 +204,34 @@ requires std::is_arithmetic_v&lt;T&gt;</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>max</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac167f9ed82096fdb4d338e51a3cc26da" name="ac167f9ed82096fdb4d338e51a3cc26da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac167f9ed82096fdb4d338e51a3cc26da">&#9670;&#160;</a></span>createValueTentative()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; <br />
+requires std::is_arithmetic_v&lt;T&gt;</div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; T &gt; MR::UI::TestEngine::createValueTentative </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>

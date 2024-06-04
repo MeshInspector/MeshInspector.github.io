@@ -7,6 +7,7 @@ var classMR_1_1MeshOrPoints =
     [ "MeshOrPoints", "classMR_1_1MeshOrPoints.html#abe1af15504d425b2e6633291ccae6828", null ],
     [ "accumulate", "classMR_1_1MeshOrPoints.html#abbcab0078d3323160184019e7850bceb", null ],
     [ "computeBoundingBox", "classMR_1_1MeshOrPoints.html#af68f336dca5c1cbf834ab0c65fc38036", null ],
+    [ "getObjBoundingBox", "classMR_1_1MeshOrPoints.html#a735838d295350004f02283f8429fa620", null ],
     [ "limitedProjector", "classMR_1_1MeshOrPoints.html#adbd1b394a6735a416ceeb13ef4ac86eb", null ],
     [ "normals", "classMR_1_1MeshOrPoints.html#a864d2d2aec501a7ccac038912909bef9", null ],
     [ "points", "classMR_1_1MeshOrPoints.html#a6c2fe1dcde2dbadeef24818952755317", null ],

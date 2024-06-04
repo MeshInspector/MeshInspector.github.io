@@ -141,6 +141,9 @@ var annotated_dup =
       ] ],
       [ "UI", "namespaceMR_1_1UI.html", [
         [ "TestEngine", "namespaceMR_1_1UI_1_1TestEngine.html", [
+          [ "detail", "namespaceMR_1_1UI_1_1TestEngine_1_1detail.html", [
+            [ "BoundedValue", "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html", "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue" ]
+          ] ],
           [ "ButtonEntry", "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html", "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry" ],
           [ "Entry", "structMR_1_1UI_1_1TestEngine_1_1Entry.html", "structMR_1_1UI_1_1TestEngine_1_1Entry" ],
           [ "GroupEntry", "structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html", "structMR_1_1UI_1_1TestEngine_1_1GroupEntry" ],
@@ -159,10 +162,12 @@ var annotated_dup =
         [ "SavingSettings", "structMR_1_1VoxelsSave_1_1SavingSettings.html", "structMR_1_1VoxelsSave_1_1SavingSettings" ]
       ] ],
       [ "AABBTree", "classMR_1_1AABBTree.html", "classMR_1_1AABBTree" ],
+      [ "AABBTreeBase", "classMR_1_1AABBTreeBase.html", "classMR_1_1AABBTreeBase" ],
       [ "AABBTreeNode", "structMR_1_1AABBTreeNode.html", "structMR_1_1AABBTreeNode" ],
+      [ "AABBTreeObjects", "classMR_1_1AABBTreeObjects.html", "classMR_1_1AABBTreeObjects" ],
       [ "AABBTreePoints", "classMR_1_1AABBTreePoints.html", "classMR_1_1AABBTreePoints" ],
       [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html", "classMR_1_1AABBTreePolyline" ],
-      [ "ABBTreeTraits", "structMR_1_1ABBTreeTraits.html", "structMR_1_1ABBTreeTraits" ],
+      [ "AABBTreeTraits", "structMR_1_1AABBTreeTraits.html", "structMR_1_1AABBTreeTraits" ],
       [ "AddCustomThemePlugin", "classMR_1_1AddCustomThemePlugin.html", "classMR_1_1AddCustomThemePlugin" ],
       [ "AddPointActionPickerPoint", "classMR_1_1AddPointActionPickerPoint.html", "classMR_1_1AddPointActionPickerPoint" ],
       [ "AddVisualProperties", "classMR_1_1AddVisualProperties.html", "classMR_1_1AddVisualProperties" ],
@@ -436,6 +441,7 @@ var annotated_dup =
       [ "MeshVoxelsConverter", "structMR_1_1MeshVoxelsConverter.html", "structMR_1_1MeshVoxelsConverter" ],
       [ "MetricToAStarPenalty", "structMR_1_1MetricToAStarPenalty.html", "structMR_1_1MetricToAStarPenalty" ],
       [ "ModelBaseRenderParams", "structMR_1_1ModelBaseRenderParams.html", "structMR_1_1ModelBaseRenderParams" ],
+      [ "ModelPointsData", "structMR_1_1ModelPointsData.html", "structMR_1_1ModelPointsData" ],
       [ "ModelRenderParams", "structMR_1_1ModelRenderParams.html", "structMR_1_1ModelRenderParams" ],
       [ "MouseController", "classMR_1_1MouseController.html", "classMR_1_1MouseController" ],
       [ "MouseDownListener", "structMR_1_1MouseDownListener.html", "structMR_1_1MouseDownListener" ],
@@ -477,6 +483,8 @@ var annotated_dup =
       [ "ObjectPointsHolder", "classMR_1_1ObjectPointsHolder.html", "classMR_1_1ObjectPointsHolder" ],
       [ "ObjectTransformWidget", "classMR_1_1ObjectTransformWidget.html", "classMR_1_1ObjectTransformWidget" ],
       [ "ObjectVoxels", "classMR_1_1ObjectVoxels.html", "classMR_1_1ObjectVoxels" ],
+      [ "ObjTreeTraits", "structMR_1_1ObjTreeTraits.html", "structMR_1_1ObjTreeTraits" ],
+      [ "ObjVertId", "structMR_1_1ObjVertId.html", "structMR_1_1ObjVertId" ],
       [ "OffsetContourIndex", "structMR_1_1OffsetContourIndex.html", "structMR_1_1OffsetContourIndex" ],
       [ "OffsetContoursOrigins", "structMR_1_1OffsetContoursOrigins.html", "structMR_1_1OffsetContoursOrigins" ],
       [ "OffsetContoursParams", "structMR_1_1OffsetContoursParams.html", "structMR_1_1OffsetContoursParams" ],
@@ -615,7 +623,7 @@ var annotated_dup =
       [ "SaveSceneMenuItem", "classMR_1_1SaveSceneMenuItem.html", "classMR_1_1SaveSceneMenuItem" ],
       [ "SaveSelectedMenuItem", "classMR_1_1SaveSelectedMenuItem.html", "classMR_1_1SaveSelectedMenuItem" ],
       [ "SaveSettings", "structMR_1_1SaveSettings.html", "structMR_1_1SaveSettings" ],
-      [ "SceneCache", "classMR_1_1SceneCache.html", null ],
+      [ "SceneCache", "classMR_1_1SceneCache.html", "classMR_1_1SceneCache" ],
       [ "SceneColors", "structMR_1_1SceneColors.html", "structMR_1_1SceneColors" ],
       [ "SceneObjectsListDrawer", "classMR_1_1SceneObjectsListDrawer.html", "classMR_1_1SceneObjectsListDrawer" ],
       [ "SceneRoot", "classMR_1_1SceneRoot.html", null ],

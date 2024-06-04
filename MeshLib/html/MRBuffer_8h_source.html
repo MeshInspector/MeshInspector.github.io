@@ -264,8 +264,6 @@ $(function(){initNavTree('MRBuffer_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>};</div>
 </div>
 <div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span> </div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span><span class="comment">// mapping of mesh elements: old -&gt; new,</span></div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span><span class="comment">// the mapping is tight (or packing) in the sense that there are no unused new elements within [0, (e/f/v).tsize)</span></div>
 <div class="foldopen" id="foldopen00150" data-start="{" data-end="};">
 <div class="line"><a id="l00150" name="l00150"></a><span class="lineno"><a class="line" href="structMR_1_1PackMapping.html">  150</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1PackMapping.html">PackMapping</a></div>
 <div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>{</div>
@@ -275,7 +273,24 @@ $(function(){initNavTree('MRBuffer_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>};</div>
 </div>
 <div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span> </div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>} <span class="comment">// namespace MR</span></div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="foldopen" id="foldopen00159" data-start="{" data-end="}">
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno"><a class="line" href="namespaceMR.html#ab5fd6e1a390fa8c05a8ad7006709dbf2">  159</a></span><a class="code hl_struct" href="structMR_1_1BMap.html">BMap&lt;T, T&gt;</a> <a class="code hl_function" href="namespaceMR.html#ab5fd6e1a390fa8c05a8ad7006709dbf2">compose</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1BMap.html">BMap&lt;T, T&gt;</a> &amp; a, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1BMap.html">BMap&lt;T, T&gt;</a> &amp; b )</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>{</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>    <a class="code hl_struct" href="structMR_1_1BMap.html">BMap&lt;T, T&gt;</a> res;</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    res.<a class="code hl_variable" href="structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d">b</a>.<a class="code hl_function" href="classMR_1_1Buffer.html#ab1bc4a40918912e001d6da1bf1595d36">resize</a>( b.<a class="code hl_variable" href="structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d">b</a>.<a class="code hl_function" href="classMR_1_1Buffer.html#a40bf924b784b4438431f70517b950d70">size</a>() );</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    res.<a class="code hl_variable" href="structMR_1_1BMap.html#a82445cec627eb947404a79b0b670c515">tsize</a> = a.<a class="code hl_variable" href="structMR_1_1BMap.html#a82445cec627eb947404a79b0b670c515">tsize</a>;</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>    <span class="keywordflow">for</span> ( T x( 0 ); x &lt; b.<a class="code hl_variable" href="structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d">b</a>.<a class="code hl_function" href="classMR_1_1Buffer.html#a40bf924b784b4438431f70517b950d70">size</a>(); ++x )</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    {</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>        <span class="keyword">auto</span> bx = b.<a class="code hl_variable" href="structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d">b</a>[x];</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>        <span class="keywordflow">if</span> ( bx &lt; a.<a class="code hl_variable" href="structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d">b</a>.<a class="code hl_function" href="classMR_1_1Buffer.html#a40bf924b784b4438431f70517b950d70">size</a>() ) <span class="comment">//invalid bx (=-1) will be casted to size_t(-1)</span></div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>            res.<a class="code hl_variable" href="structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d">b</a>[x] = a.<a class="code hl_variable" href="structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d">b</a>[bx];</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>    }</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>    <span class="keywordflow">return</span> res;</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>}</div>
+</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span> </div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>} <span class="comment">// namespace MR</span></div>
 <div class="ttc" id="aMRId_8h_html"><div class="ttname"><a href="MRId_8h.html">MRId.h</a></div></div>
 <div class="ttc" id="aMRNoDefInit_8h_html"><div class="ttname"><a href="MRNoDefInit_8h.html">MRNoDefInit.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1Buffer_html"><div class="ttname"><a href="classMR_1_1Buffer.html">MR::Buffer</a></div><div class="ttdoc">std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements,...</div><div class="ttdef"><b>Definition</b> MRBuffer.h:54</div></div>
@@ -304,6 +319,7 @@ $(function(){initNavTree('MRBuffer_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="agroup__BasicGroup_html_ga3e268aab2816870aa045f278c6bd6ecd"><div class="ttname"><a href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">MR::end</a></div><div class="ttdeci">auto end(const BitSet &amp;)</div><div class="ttdef"><b>Definition</b> MRBitSet.h:241</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
 <div class="ttc" id="anamespaceMR_html_a6210dabfb050a70351fc28943644e0ec"><div class="ttname"><a href="namespaceMR.html#a6210dabfb050a70351fc28943644e0ec">MR::getAt</a></div><div class="ttdeci">T getAt(const Buffer&lt; T, I &gt; &amp;bmap, I key)</div><div class="ttdoc">given some buffer map and a key, returns the value associated with the key, or default value if key i...</div><div class="ttdef"><b>Definition</b> MRBuffer.h:119</div></div>
+<div class="ttc" id="anamespaceMR_html_ab5fd6e1a390fa8c05a8ad7006709dbf2"><div class="ttname"><a href="namespaceMR.html#ab5fd6e1a390fa8c05a8ad7006709dbf2">MR::compose</a></div><div class="ttdeci">BMap&lt; T, T &gt; compose(const BMap&lt; T, T &gt; &amp;a, const BMap&lt; T, T &gt; &amp;b)</div><div class="ttdoc">computes the composition of two mappings x -&gt; a(b(x))</div><div class="ttdef"><b>Definition</b> MRBuffer.h:159</div></div>
 <div class="ttc" id="astructMR_1_1BMap_html"><div class="ttname"><a href="structMR_1_1BMap.html">MR::BMap</a></div><div class="ttdoc">flat map: I -&gt; T</div><div class="ttdef"><b>Definition</b> MRBuffer.h:143</div></div>
 <div class="ttc" id="astructMR_1_1BMap_html_a092cf8a0fd74634e6e4d50b8cfc9956d"><div class="ttname"><a href="structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d">MR::BMap::b</a></div><div class="ttdeci">Buffer&lt; T, I &gt; b</div><div class="ttdef"><b>Definition</b> MRBuffer.h:144</div></div>
 <div class="ttc" id="astructMR_1_1BMap_html_a82445cec627eb947404a79b0b670c515"><div class="ttname"><a href="structMR_1_1BMap.html#a82445cec627eb947404a79b0b670c515">MR::BMap::tsize</a></div><div class="ttdeci">size_t tsize</div><div class="ttdoc">target size, all values inside b must be less than this value</div><div class="ttdef"><b>Definition</b> MRBuffer.h:145</div></div>

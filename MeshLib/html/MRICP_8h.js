@@ -4,7 +4,6 @@ var MRICP_8h =
     [ "MR::PointPairs", "structMR_1_1PointPairs.html", "structMR_1_1PointPairs" ],
     [ "MR::NumSum", "structMR_1_1NumSum.html", "structMR_1_1NumSum" ],
     [ "MR::ICPProperties", "structMR_1_1ICPProperties.html", "structMR_1_1ICPProperties" ],
-    [ "MR::MeshOrPointsXf", "structMR_1_1MeshOrPointsXf.html", "structMR_1_1MeshOrPointsXf" ],
     [ "MR::ICP", "classMR_1_1ICP.html", "classMR_1_1ICP" ],
     [ "ICPExitType", "MRICP_8h.html#ac977096020e15e4b699043b2c550bf83", [
       [ "NotStarted", "MRICP_8h.html#ac977096020e15e4b699043b2c550bf83afa7be7845bc42b3491d9d0377958be94", null ],

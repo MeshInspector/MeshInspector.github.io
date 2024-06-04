@@ -256,7 +256,7 @@ var searchData=
   ['roll_253',['Roll',['../namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75a25b5eb3bbef15385b5f5ff3abe46f342',1,'MR']]],
   ['rootmeansqf_254',['rootMeanSqF',['../structMR_1_1NumSum.html#a6e4c85d138945344d45fda05ab558710',1,'MR::NumSum']]],
   ['rootname_255',['RootName',['../classMR_1_1SceneRootObject.html#a0854728894db7d3f6b701dc8c7b104a7',1,'MR::SceneRootObject']]],
-  ['rootnodeid_256',['rootNodeId',['../classMR_1_1AABBTree.html#a74d55bcdbebd6ca3426c235ec60ebdbb',1,'MR::AABBTree::rootNodeId()'],['../classMR_1_1AABBTreePoints.html#ad5101a692a96a2152123f35e2aa38098',1,'MR::AABBTreePoints::rootNodeId()'],['../classMR_1_1AABBTreePolyline.html#acfe11e50d7e9202a3de56834872172c0',1,'MR::AABBTreePolyline::rootNodeId()']]],
+  ['rootnodeid_256',['rootNodeId',['../classMR_1_1AABBTreeBase.html#ab08f029b6e9e13cf15d36bb11eddc952',1,'MR::AABBTreeBase::rootNodeId()'],['../classMR_1_1AABBTreePoints.html#ad5101a692a96a2152123f35e2aa38098',1,'MR::AABBTreePoints::rootNodeId()']]],
   ['roots_257',['roots',['../classMR_1_1UnionFind.html#a5b1ee758f69d77277361f8cbe1e0d77e',1,'MR::UnionFind']]],
   ['roottype_258',['RootType',['../structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84dae',1,'MR::DrawButtonParams']]],
   ['rot_259',['rot',['../structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#ad0025a9806d714127a0820f48a343136',1,'MR::MultiwayAligningTransform::Stabilizer']]],

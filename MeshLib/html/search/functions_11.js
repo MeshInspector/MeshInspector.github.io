@@ -143,7 +143,7 @@ var searchData=
   ['ringiterator_140',['RingIterator',['../classMR_1_1RingIterator.html#afd5883037f52daf8dec8e4a1dcfd6c41',1,'MR::RingIterator']]],
   ['rootmeansqf_141',['rootMeanSqF',['../structMR_1_1NumSum.html#a6e4c85d138945344d45fda05ab558710',1,'MR::NumSum']]],
   ['rootname_142',['RootName',['../classMR_1_1SceneRootObject.html#a0854728894db7d3f6b701dc8c7b104a7',1,'MR::SceneRootObject']]],
-  ['rootnodeid_143',['rootNodeId',['../classMR_1_1AABBTree.html#a74d55bcdbebd6ca3426c235ec60ebdbb',1,'MR::AABBTree::rootNodeId()'],['../classMR_1_1AABBTreePoints.html#ad5101a692a96a2152123f35e2aa38098',1,'MR::AABBTreePoints::rootNodeId()'],['../classMR_1_1AABBTreePolyline.html#acfe11e50d7e9202a3de56834872172c0',1,'MR::AABBTreePolyline::rootNodeId()']]],
+  ['rootnodeid_143',['rootNodeId',['../classMR_1_1AABBTreeBase.html#ab08f029b6e9e13cf15d36bb11eddc952',1,'MR::AABBTreeBase::rootNodeId()'],['../classMR_1_1AABBTreePoints.html#ad5101a692a96a2152123f35e2aa38098',1,'MR::AABBTreePoints::rootNodeId()']]],
   ['roots_144',['roots',['../classMR_1_1UnionFind.html#a5b1ee758f69d77277361f8cbe1e0d77e',1,'MR::UnionFind']]],
   ['rot90_145',['rot90',['../namespaceMR_1_1ImGuiMath.html#a5dd8586dafaa70c20f2e723116368027',1,'MR::ImGuiMath']]],
   ['rotate_146',['rotate',['../classMR_1_1TouchpadController_1_1Handler.html#af1d038636cfb202e8e3709fc8518b6f2',1,'MR::TouchpadController::Handler']]],

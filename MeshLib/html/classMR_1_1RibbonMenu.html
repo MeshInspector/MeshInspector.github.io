@@ -277,8 +277,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a99c15fc2adc0e0b9ec601cedaa53dc4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc3d25a8a8f6b8f82503f575646ee430" id="r_afc3d25a8a8f6b8f82503f575646ee430"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc3d25a8a8f6b8f82503f575646ee430">drawRibbonViewportsLabels_</a> ()</td></tr>
 <tr class="separator:afc3d25a8a8f6b8f82503f575646ee430"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c5c0c13bdd2266a5f3d839f720dc949" id="r_a4c5c0c13bdd2266a5f3d839f720dc949"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c5c0c13bdd2266a5f3d839f720dc949">drawRibbonSceneInformation_</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selected)</td></tr>
-<tr class="separator:a4c5c0c13bdd2266a5f3d839f720dc949"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fc2094b16a4d78ed17836196ae98439" id="r_a6fc2094b16a4d78ed17836196ae98439"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fc2094b16a4d78ed17836196ae98439">drawRibbonSceneInformation_</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selected)</td></tr>
+<tr class="separator:a6fc2094b16a4d78ed17836196ae98439"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5edd9fcd5ab9a62bbfda2489c6205c9e" id="r_a5edd9fcd5ab9a62bbfda2489c6205c9e"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5edd9fcd5ab9a62bbfda2489c6205c9e">drawCollapsingHeaderTransform_</a> () override</td></tr>
 <tr class="separator:a5edd9fcd5ab9a62bbfda2489c6205c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed3d5ce11a8471f66e67bb6997bd6e54" id="r_aed3d5ce11a8471f66e67bb6997bd6e54"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed3d5ce11a8471f66e67bb6997bd6e54">drawTransformContextMenu_</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &amp;selected) override</td></tr>
@@ -310,10 +310,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a2f639a83635dfb22ba89545a6dc9d85e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf628a7bb9081d2c4b3d3405e96e85b4" id="r_acf628a7bb9081d2c4b3d3405e96e85b4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structMR_1_1RibbonMenu_1_1DialogItemPtr.html">DialogItemPtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf628a7bb9081d2c4b3d3405e96e85b4">activeNonBlockingItems_</a></td></tr>
 <tr class="separator:acf628a7bb9081d2c4b3d3405e96e85b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4aa5eb2e4bc030d43ad741876d8768b8" id="r_a4aa5eb2e4bc030d43ad741876d8768b8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; const <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4aa5eb2e4bc030d43ad741876d8768b8">prevFrameObjectsCache_</a></td></tr>
-<tr class="separator:a4aa5eb2e4bc030d43ad741876d8768b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a995a11b9ef6d9d367ceff73955651a41" id="r_a995a11b9ef6d9d367ceff73955651a41"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; const <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a995a11b9ef6d9d367ceff73955651a41">selectedObjectsCache_</a></td></tr>
-<tr class="separator:a995a11b9ef6d9d367ceff73955651a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d13b702d7c6dad7794328080b6562e0" id="r_a8d13b702d7c6dad7794328080b6562e0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; const <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d13b702d7c6dad7794328080b6562e0">prevFrameSelectedObjectsCache_</a></td></tr>
+<tr class="separator:a8d13b702d7c6dad7794328080b6562e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ad0d582e1904c2ad88eee5f4bfe814f83" name="ad0d582e1904c2ad88eee5f4bfe814f83"></a>
@@ -726,8 +724,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4c5c0c13bdd2266a5f3d839f720dc949" name="a4c5c0c13bdd2266a5f3d839f720dc949"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c5c0c13bdd2266a5f3d839f720dc949">&#9670;&#160;</a></span>drawRibbonSceneInformation_()</h2>
+<a id="a6fc2094b16a4d78ed17836196ae98439" name="a6fc2094b16a4d78ed17836196ae98439"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fc2094b16a4d78ed17836196ae98439">&#9670;&#160;</a></span>drawRibbonSceneInformation_()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -738,7 +736,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">virtual MRVIEWER_API void MR::RibbonMenu::drawRibbonSceneInformation_ </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>selected</em></span></td><td>)</td>
+          <td class="paramtype">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>selected</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1999,8 +1997,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4aa5eb2e4bc030d43ad741876d8768b8" name="a4aa5eb2e4bc030d43ad741876d8768b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4aa5eb2e4bc030d43ad741876d8768b8">&#9670;&#160;</a></span>prevFrameObjectsCache_</h2>
+<a id="a8d13b702d7c6dad7794328080b6562e0" name="a8d13b702d7c6dad7794328080b6562e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d13b702d7c6dad7794328080b6562e0">&#9670;&#160;</a></span>prevFrameSelectedObjectsCache_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2009,29 +2007,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;std::shared_ptr&lt;const <a class="el" href="classMR_1_1Object.html">Object</a>&gt; &gt; MR::RibbonMenu::prevFrameObjectsCache_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a995a11b9ef6d9d367ceff73955651a41" name="a995a11b9ef6d9d367ceff73955651a41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a995a11b9ef6d9d367ceff73955651a41">&#9670;&#160;</a></span>selectedObjectsCache_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::shared_ptr&lt;const <a class="el" href="classMR_1_1Object.html">Object</a>&gt; &gt; MR::RibbonMenu::selectedObjectsCache_</td>
+          <td class="memname">std::vector&lt;std::shared_ptr&lt;const <a class="el" href="classMR_1_1Object.html">Object</a>&gt; &gt; MR::RibbonMenu::prevFrameSelectedObjectsCache_</td>
         </tr>
       </table>
   </td>

@@ -18,5 +18,5 @@ var searchData=
   ['box3f_15',['Box3f',['../namespaceMR.html#a7609ed874338e695bb9d26fc7147dd3c',1,'MR']]],
   ['box3i_16',['Box3i',['../namespaceMR.html#ad6642ccde3fa6038e3c67c773a86d17b',1,'MR']]],
   ['box3ll_17',['Box3ll',['../namespaceMR.html#ac8179ae947aef4b9406458a46497c7f9',1,'MR']]],
-  ['boxt_18',['BoxT',['../structMR_1_1ABBTreeTraits.html#aca44121dedda267d6d6d05d28c60e186',1,'MR::ABBTreeTraits::BoxT'],['../structMR_1_1AABBTreeNode.html#af92cbed18c9ddfbf28d0e86385fc6e01',1,'MR::AABBTreeNode::BoxT']]]
+  ['boxt_18',['BoxT',['../classMR_1_1AABBTreeBase.html#a380c83540a90e46211318ad9752c2fd2',1,'MR::AABBTreeBase::BoxT'],['../structMR_1_1AABBTreeTraits.html#af377f5f1d8b11732a56ec00544ed4c2e',1,'MR::AABBTreeTraits::BoxT'],['../structMR_1_1AABBTreeNode.html#af92cbed18c9ddfbf28d0e86385fc6e01',1,'MR::AABBTreeNode::BoxT'],['../structMR_1_1ObjTreeTraits.html#ae8c8c6d7c93de2cba91378f547c50a8e',1,'MR::ObjTreeTraits::BoxT']]]
 ];
