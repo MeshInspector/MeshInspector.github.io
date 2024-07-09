@@ -16,7 +16,7 @@ var classMR_1_1LineObject =
     [ "getPointA", "classMR_1_1LineObject.html#a3d8d01a8ca048548ea1ca7cc2323b34f", null ],
     [ "getPointB", "classMR_1_1LineObject.html#af6ecf46972d257e841976143875a4835", null ],
     [ "operator=", "classMR_1_1LineObject.html#ab5915cce854bcb4f57f7e00bba6cb20e", null ],
-    [ "projectPoint", "classMR_1_1LineObject.html#aa8fccf94fbf2a235b6b4510c2a666fc6", null ],
+    [ "projectPoint", "classMR_1_1LineObject.html#a9fca667f6075eb37172033584ecd5dd7", null ],
     [ "serializeFields_", "classMR_1_1LineObject.html#a70dc397b963d30654e48c48ef0dbc910", null ],
     [ "serializeModel_", "classMR_1_1LineObject.html#aeea80f3008725131e9e509ed11ff92ce", null ],
     [ "setCenter", "classMR_1_1LineObject.html#a8db8f4d06107ab314870e5c4fc834194", null ],

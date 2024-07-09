@@ -55,6 +55,7 @@ var classMR_1_1ObjectVoxels =
     [ "swapBase_", "classMR_1_1ObjectVoxels.html#acfc82746f998b7430d932547ce473670", null ],
     [ "swapSignals_", "classMR_1_1ObjectVoxels.html#a9140f71dff0cf1b259c7927035dff81a", null ],
     [ "typeName", "classMR_1_1ObjectVoxels.html#ad263dcb8982dbf8095729fa3a3d2032e", null ],
+    [ "updateActiveBounds", "classMR_1_1ObjectVoxels.html#a891d4be4d199bdb3f161d9c07aa689c5", null ],
     [ "updateHistogram", "classMR_1_1ObjectVoxels.html#a3533698959c9a9f2a9b2298549fa16da", null ],
     [ "updateHistogramAndSurface", "classMR_1_1ObjectVoxels.html#a12c2bd9463d6a8649df26d87060f7974", null ],
     [ "updateIsoSurface", "classMR_1_1ObjectVoxels.html#aabef8e164fd456b133249ea31024af4e", null ],

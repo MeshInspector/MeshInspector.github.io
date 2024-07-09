@@ -54,5 +54,6 @@ var group__SurfacePathGroup =
     [ "MR::reverse", "group__SurfacePathGroup.html#ga5ae89c778fe01228f20aa52aa2e160d0", null ],
     [ "MR::reverse", "group__SurfacePathGroup.html#ga0f7d06cbd7188f3681347a12699a9cba", null ],
     [ "MR::sortPathsByLength", "group__SurfacePathGroup.html#gaabc40dcee3ba22d445c0f838f170d549", null ],
-    [ "MR::sortPathsByMetric", "group__SurfacePathGroup.html#gaf24c647cf0c2aef3425702344a341d55", null ]
+    [ "MR::sortPathsByMetric", "group__SurfacePathGroup.html#gaf24c647cf0c2aef3425702344a341d55", null ],
+    [ "MR::splitOnSimpleLoops", "group__SurfacePathGroup.html#gaa9c52e371775dd3dfbbf897f713cddf0", null ]
 ];

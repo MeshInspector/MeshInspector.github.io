@@ -12,6 +12,7 @@ var MRMeshFillHole_8h =
     [ "fillHoleTrivially", "MRMeshFillHole_8h.html#ga0241a36cc2b1016fd0cf66e9ae71f722", null ],
     [ "getHoleFillPlan", "MRMeshFillHole_8h.html#gaa3256109cd439a9801f179661c65c7e6", null ],
     [ "getPlanarHoleFillPlan", "MRMeshFillHole_8h.html#ga1dbbac5f3d5dfdebbb1790578aed11d8", null ],
+    [ "isHoleBd", "MRMeshFillHole_8h.html#ga7b7b07510d4a7d74b02ef6890db04a9d", null ],
     [ "makeBridge", "MRMeshFillHole_8h.html#ga5b018c101d16b1695c0a3152e89ecdb3", null ],
     [ "makeBridgeEdge", "MRMeshFillHole_8h.html#ga86668640c827d61e8ee92b7a74dc558d", null ],
     [ "makeDegenerateBandAroundHole", "MRMeshFillHole_8h.html#ga10d97d0e9b001fe0d4915154d1945e77", null ]

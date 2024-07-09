@@ -22,6 +22,7 @@ var structMR_1_1Vector4 =
     [ "proj3d", "structMR_1_1Vector4.html#a50bac4033d0f4d0e5c92933a5eda6883", null ],
     [ "dot", "structMR_1_1Vector4.html#ae2d0b2ad856fb4877d2deccd98f6651c", null ],
     [ "operator==", "structMR_1_1Vector4.html#a36f0cf5dc63f8a44f53e1274ba3bac59", null ],
+    [ "sqr", "structMR_1_1Vector4.html#a2925cc04ba84c72a45503f35a61c90e5", null ],
     [ "w", "structMR_1_1Vector4.html#a2a2d849b18944213202e305115b457a6", null ],
     [ "x", "structMR_1_1Vector4.html#a2430707dabdc5933eb1c27e622a73c04", null ],
     [ "y", "structMR_1_1Vector4.html#a0e6c5be3afc64d0b545923575087bb78", null ],

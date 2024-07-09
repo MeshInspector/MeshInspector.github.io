@@ -9,7 +9,7 @@ var classMR_1_1FeatureObject =
     [ "getDecorationsColorForAllViewports", "classMR_1_1FeatureObject.html#a38e30bc9c390d73d9e302ef1e6f6238f", null ],
     [ "getLineWidth", "classMR_1_1FeatureObject.html#a40c1b4ffd8d3aba7fe5898caa6130b74", null ],
     [ "getMainFeatureAlpha", "classMR_1_1FeatureObject.html#a0ebee580bd79fb6dbee2bd1292b93b50", null ],
-    [ "getNormal", "classMR_1_1FeatureObject.html#a1a85031062c76c0c103c94cf1c080d4a", null ],
+    [ "getNormal", "classMR_1_1FeatureObject.html#ae682c2765f3ef072c5552729523be1fa", null ],
     [ "getPointSize", "classMR_1_1FeatureObject.html#a17576a887b5a637765fb98d40ed7f097", null ],
     [ "getRotationMatrix", "classMR_1_1FeatureObject.html#a9b258943b501bd224607d6a5a8a5fc8a", null ],
     [ "getScaleShearMatrix", "classMR_1_1FeatureObject.html#a4812ae385ef5a66bbcc0779f54025502", null ],

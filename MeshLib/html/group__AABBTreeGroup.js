@@ -5,10 +5,7 @@ var group__AABBTreeGroup =
       [ "calcFromGrid", "classMR_1_1Cuda_1_1FastWindingNumber.html#ad2f616a5759c3163418b8cf9451ff146", null ],
       [ "calcFromGridWithDistances", "classMR_1_1Cuda_1_1FastWindingNumber.html#afe55055d68e9b12b696fc5ebf8159c0e", null ],
       [ "calcFromVector", "classMR_1_1Cuda_1_1FastWindingNumber.html#a35e0cc2dc56bc04f17a91c42a4b3b418", null ],
-      [ "calcSelfIntersections", "classMR_1_1Cuda_1_1FastWindingNumber.html#a03fd25b5742ad8c32943a8127288080e", null ],
-      [ "fromGridHeapBytes", "classMR_1_1Cuda_1_1FastWindingNumber.html#ab7d5f97a25ac03694b8cae6f185b8833", null ],
-      [ "fromVectorHeapBytes", "classMR_1_1Cuda_1_1FastWindingNumber.html#ad06d337a9c36cf0307344435c9422f44", null ],
-      [ "selfIntersectionsHeapBytes", "classMR_1_1Cuda_1_1FastWindingNumber.html#a294166526273f54cc89d52f028a2e207", null ]
+      [ "calcSelfIntersections", "classMR_1_1Cuda_1_1FastWindingNumber.html#a03fd25b5742ad8c32943a8127288080e", null ]
     ] ],
     [ "MR::AABBTree", "classMR_1_1AABBTree.html", [
       [ "AABBTree", "classMR_1_1AABBTree.html#a0c762ebbd20c05c2219b1a348f22e0fb", null ],
@@ -113,10 +110,7 @@ var group__AABBTreeGroup =
       [ "calcFromGridWithDistances", "classMR_1_1FastWindingNumber.html#a0fc8b6a24a0d9bd273d419ec9424f6dc", null ],
       [ "calcFromVector", "classMR_1_1FastWindingNumber.html#a82d4def3598d0d1ac98ec04c7cdb4841", null ],
       [ "calcSelfIntersections", "classMR_1_1FastWindingNumber.html#a74a5c52662c9a9ae3b0589a856041998", null ],
-      [ "calcWithDistances", "classMR_1_1FastWindingNumber.html#a645c2f3cd26896e866d6127acfe91156", null ],
-      [ "fromGridHeapBytes", "classMR_1_1FastWindingNumber.html#a21f84adbfe888cde31bf9a5a96392013", null ],
-      [ "fromVectorHeapBytes", "classMR_1_1FastWindingNumber.html#a30afc52d061332b146f9ab72b7d3e70a", null ],
-      [ "selfIntersectionsHeapBytes", "classMR_1_1FastWindingNumber.html#a6f5ae0d93276a9cfcaf72b546ca60521", null ]
+      [ "calcWithDistances", "classMR_1_1FastWindingNumber.html#a645c2f3cd26896e866d6127acfe91156", null ]
     ] ],
     [ "MR::IntersectionPrecomputes< T >", "structMR_1_1IntersectionPrecomputes.html", [
       [ "IntersectionPrecomputes", "group__AABBTreeGroup.html#ga9984ed4cff38cd012243e835f02e0e92", null ],
@@ -272,6 +266,7 @@ var group__AABBTreeGroup =
     [ "MR::findSelfCollidingEdges", "group__AABBTreeGroup.html#gad89aed99c2cba4cd08e06d896b839841", null ],
     [ "MR::findSelfCollidingEdgesBS", "group__AABBTreeGroup.html#ga8658f18b6b0489c1dafa4903c64c0165", null ],
     [ "MR::findSelfCollidingTriangles", "group__AABBTreeGroup.html#gaa8d353c49376729ab03f26747726d3b3", null ],
+    [ "MR::findSelfCollidingTriangles", "group__AABBTreeGroup.html#gaf39d8d5357405a2ab417897d0abb7a8a", null ],
     [ "MR::findSelfCollidingTrianglesBS", "group__AABBTreeGroup.html#ga622f29ce4129e85a4040668e267bffeb", null ],
     [ "MR::findSignedDistance", "group__AABBTreeGroup.html#ga66ee7b0ec534fcfe70ef96f8f3d3b545", null ],
     [ "MR::findSignedDistance", "group__AABBTreeGroup.html#ga44d0cb5151cae38d27130277c50301bc", null ],

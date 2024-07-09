@@ -31,6 +31,7 @@ var classMR_1_1RenderMeshObject =
     [ "borderBuffer_", "classMR_1_1RenderMeshObject.html#a4dd4c30b4f09367586d6f0b6e520e85c", null ],
     [ "bordersSize_", "classMR_1_1RenderMeshObject.html#ab85b5749a8074358f89fff480448ee5d", null ],
     [ "borderTexture_", "classMR_1_1RenderMeshObject.html#ac5dda63e700cfe2742a7b9b1683649e6", null ],
+    [ "cornerMode", "classMR_1_1RenderMeshObject.html#afd5c5688fbd6d8c41b11f9295ba8d5ca", null ],
     [ "dirty_", "classMR_1_1RenderMeshObject.html#a9497665a3752c1392372f7259db26d4a", null ],
     [ "dirtyEdges_", "classMR_1_1RenderMeshObject.html#a59ecce80e0a471b2f17c0b6f9d9582e8", null ],
     [ "edgesArrayObjId_", "classMR_1_1RenderMeshObject.html#a12b1a94d2b98548e47229d4213609b1f", null ],

@@ -117,12 +117,14 @@ $(function(){initNavTree('classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.ht
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab3fe6a46824654fabde6d6f501eb8141" id="r_ab3fe6a46824654fabde6d6f501eb8141"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3fe6a46824654fabde6d6f501eb8141">~ExternalSettings</a> ()</td></tr>
 <tr class="separator:ab3fe6a46824654fabde6d6f501eb8141"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a688e21e9996acdae5c17aa1762151760" id="r_a688e21e9996acdae5c17aa1762151760"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a688e21e9996acdae5c17aa1762151760">getName</a> ()=0</td></tr>
-<tr class="separator:a688e21e9996acdae5c17aa1762151760"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b40b2d1d9febe79a58c0f64f8aaf704" id="r_a2b40b2d1d9febe79a58c0f64f8aaf704"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b40b2d1d9febe79a58c0f64f8aaf704">getName</a> () const =0</td></tr>
+<tr class="separator:a2b40b2d1d9febe79a58c0f64f8aaf704"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa5d28c1a1167da338240df7e55ed438" id="r_aaa5d28c1a1167da338240df7e55ed438"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa5d28c1a1167da338240df7e55ed438">draw</a> (float menuScaling)=0</td></tr>
 <tr class="separator:aaa5d28c1a1167da338240df7e55ed438"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5daa51d87dc540fd02b52303e05cbe20" id="r_a5daa51d87dc540fd02b52303e05cbe20"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5daa51d87dc540fd02b52303e05cbe20">reset</a> ()</td></tr>
 <tr class="separator:a5daa51d87dc540fd02b52303e05cbe20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefce61dfeb872bbe04d722fc13f1a0ac" id="r_aefce61dfeb872bbe04d722fc13f1a0ac"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefce61dfeb872bbe04d722fc13f1a0ac">separatorName</a> () const</td></tr>
+<tr class="separator:aefce61dfeb872bbe04d722fc13f1a0ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab3fe6a46824654fabde6d6f501eb8141" name="ab3fe6a46824654fabde6d6f501eb8141"></a>
@@ -176,8 +178,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a688e21e9996acdae5c17aa1762151760" name="a688e21e9996acdae5c17aa1762151760"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a688e21e9996acdae5c17aa1762151760">&#9670;&#160;</a></span>getName()</h2>
+<a id="a2b40b2d1d9febe79a58c0f64f8aaf704" name="a2b40b2d1d9febe79a58c0f64f8aaf704"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b40b2d1d9febe79a58c0f64f8aaf704">&#9670;&#160;</a></span>getName()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -189,7 +191,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">virtual const std::string &amp; MR::ViewerSettingsPlugin::ExternalSettings::getName </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -215,6 +217,31 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aefce61dfeb872bbe04d722fc13f1a0ac" name="aefce61dfeb872bbe04d722fc13f1a0ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefce61dfeb872bbe04d722fc13f1a0ac">&#9670;&#160;</a></span>separatorName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const char * MR::ViewerSettingsPlugin::ExternalSettings::separatorName </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>

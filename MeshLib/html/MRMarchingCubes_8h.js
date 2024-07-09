@@ -7,6 +7,5 @@ var MRMarchingCubes_8h =
     [ "marchingCubes", "MRMarchingCubes_8h.html#af598a204d49a6c06de0f3a464098d012", null ],
     [ "marchingCubesAsTriMesh", "MRMarchingCubes_8h.html#a9de509f4af899fd13b015359726f28b8", null ],
     [ "marchingCubesAsTriMesh", "MRMarchingCubes_8h.html#a128180efecb2bd6d3da7b2747e0575d3", null ],
-    [ "marchingCubesAsTriMesh", "MRMarchingCubes_8h.html#a1c9e2e8373128b1102adfae1bdf2f7a2", null ],
-    [ "voxelPositionerLinear", "MRMarchingCubes_8h.html#a611a9d93bf5276050887652752c6ee55", null ]
+    [ "marchingCubesAsTriMesh", "MRMarchingCubes_8h.html#a1c9e2e8373128b1102adfae1bdf2f7a2", null ]
 ];

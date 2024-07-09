@@ -1,7 +1,7 @@
 var searchData=
 [
   ['edgetype_0',['EdgeType',['../structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0',1,'MR::GridSettings']]],
-  ['edgeweights_1',['EdgeWeights',['../classMR_1_1Laplacian.html#a40fcda9e6b8208959a3204e274784b18',1,'MR::Laplacian']]],
+  ['edgeweights_1',['EdgeWeights',['../namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8',1,'MR']]],
   ['element_2',['Element',['../namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898',1,'MR::ImGuiMeasurementIndicators']]],
   ['endtype_3',['EndType',['../structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8',1,'MR::OffsetContoursParams']]],
   ['event_4',['Event',['../classMR_1_1PrecipitationSimulator.html#a1ff436805e728c27089cf75e5d98c90f',1,'MR::PrecipitationSimulator::Event'],['../classMR_1_1AsyncTimer.html#ad1582b16bb15b7032af648423d3dd002',1,'MR::AsyncTimer::Event']]],

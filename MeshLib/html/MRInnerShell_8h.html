@@ -105,17 +105,26 @@ $(function(){initNavTree('MRInnerShell_8h.html',''); initResizable(true); });
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRInnerShell.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="MRMesh_2MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &lt;cfloat&gt;</code><br />
 </div>
 <p><a href="MRInnerShell_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FindInnerShellSettings.html">MR::FindInnerShellSettings</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ShellVertexInfo.html">MR::ShellVertexInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">information about shell vertex  <a href="structMR_1_1ShellVertexInfo.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
@@ -130,12 +139,12 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af3438ff65adda6d9ae00e514bcf8e3ea" id="r_af3438ff65adda6d9ae00e514bcf8e3ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#af3438ff65adda6d9ae00e514bcf8e3ea">MR::isInnerShellVert</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &amp;shellPoint, <a class="el" href="namespaceMR.html#a494f6ca56c512e886474f7209f624c48">Side</a> side, float maxAbsDistSq=FLT_MAX)</td></tr>
-<tr class="separator:af3438ff65adda6d9ae00e514bcf8e3ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22ca70f847edf3d3dae6bed5e4335356" id="r_a22ca70f847edf3d3dae6bed5e4335356"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a22ca70f847edf3d3dae6bed5e4335356">MR::findInnerShellVerts</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;shell, <a class="el" href="namespaceMR.html#a494f6ca56c512e886474f7209f624c48">Side</a> side, float maxAbsDistSq=FLT_MAX)</td></tr>
-<tr class="separator:a22ca70f847edf3d3dae6bed5e4335356"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a7b6ba8aae4fec8494b2ba3327c5a5e" id="r_a1a7b6ba8aae4fec8494b2ba3327c5a5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a1a7b6ba8aae4fec8494b2ba3327c5a5e">MR::findInnerShellFacesWithSplits</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;shell, <a class="el" href="namespaceMR.html#a494f6ca56c512e886474f7209f624c48">Side</a> side)</td></tr>
-<tr class="separator:a1a7b6ba8aae4fec8494b2ba3327c5a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb745ff271bba30db642c45f4a5d6664" id="r_abb745ff271bba30db642c45f4a5d6664"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1ShellVertexInfo.html">ShellVertexInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#abb745ff271bba30db642c45f4a5d6664">MR::classifyShellVert</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &amp;shellPoint, const <a class="el" href="structMR_1_1FindInnerShellSettings.html">FindInnerShellSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:abb745ff271bba30db642c45f4a5d6664"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45eadaaa9f092b26db49fefe2d744845" id="r_a45eadaaa9f092b26db49fefe2d744845"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a45eadaaa9f092b26db49fefe2d744845">MR::findInnerShellVerts</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;shell, const <a class="el" href="structMR_1_1FindInnerShellSettings.html">FindInnerShellSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:a45eadaaa9f092b26db49fefe2d744845"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c21cd349fa1cdfe46c2c1ee2a00806b" id="r_a8c21cd349fa1cdfe46c2c1ee2a00806b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8c21cd349fa1cdfe46c2c1ee2a00806b">MR::findInnerShellFacesWithSplits</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;shell, const <a class="el" href="structMR_1_1FindInnerShellSettings.html">FindInnerShellSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:a8c21cd349fa1cdfe46c2c1ee2a00806b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -120,6 +120,7 @@ $(function(){initNavTree('MRUnits_8h.html',''); initResizable(true); });
 <code>#include &lt;cassert&gt;</code><br />
 <code>#include &lt;optional&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
+<code>#include &lt;variant&gt;</code><br />
 </div>
 <p><a href="MRUnits_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -162,22 +163,34 @@ Macros</h2></td></tr>
 <tr class="separator:a0bd0e9453da08815bd042baada75c822"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bd0e9453da08815bd042baada75c822" id="r_a0bd0e9453da08815bd042baada75c822"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bd0e9453da08815bd042baada75c822">MR_X</a>(E)&#160;&#160;&#160;extern template MRVIEWER_API void setDefaultUnitParams( const UnitToStringParams&lt;E&gt;&amp; newParams );</td></tr>
 <tr class="separator:a0bd0e9453da08815bd042baada75c822"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11806a80fef697ddb9a820cc22204f3b" id="r_a11806a80fef697ddb9a820cc22204f3b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11806a80fef697ddb9a820cc22204f3b">MR_TRIM_LEADING_COMMA</a>(...)&#160;&#160;&#160;<a class="el" href="#afb95e3a49d0b0157f47ffdf7aaafd1b9">MR_TRIM_LEADING_COMMA_</a>(__VA_ARGS__)</td></tr>
+<tr class="separator:a11806a80fef697ddb9a820cc22204f3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb95e3a49d0b0157f47ffdf7aaafd1b9" id="r_afb95e3a49d0b0157f47ffdf7aaafd1b9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb95e3a49d0b0157f47ffdf7aaafd1b9">MR_TRIM_LEADING_COMMA_</a>(x, ...)&#160;&#160;&#160;__VA_ARGS__</td></tr>
+<tr class="separator:afb95e3a49d0b0157f47ffdf7aaafd1b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bd0e9453da08815bd042baada75c822" id="r_a0bd0e9453da08815bd042baada75c822"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bd0e9453da08815bd042baada75c822">MR_X</a>(E)&#160;&#160;&#160;, UnitToStringParams&lt;E&gt;</td></tr>
+<tr class="separator:a0bd0e9453da08815bd042baada75c822"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b57043d301c7b9e5a15080d7f0e801a" id="r_a4b57043d301c7b9e5a15080d7f0e801a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b57043d301c7b9e5a15080d7f0e801a">MR_Y</a>(T,  E)&#160;&#160;&#160;extern template MRVIEWER_API std::string valueToString&lt;E, T&gt;( T value, const UnitToStringParams&lt;E&gt;&amp; params );</td></tr>
 <tr class="separator:a4b57043d301c7b9e5a15080d7f0e801a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bd0e9453da08815bd042baada75c822" id="r_a0bd0e9453da08815bd042baada75c822"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bd0e9453da08815bd042baada75c822">MR_X</a>(E)&#160;&#160;&#160;<a class="el" href="#a31e02139b1a4eba58d1b3368303217c1">DETAIL_MR_UNIT_VALUE_TYPES</a>(<a class="el" href="#a4b57043d301c7b9e5a15080d7f0e801a">MR_Y</a>, E)</td></tr>
 <tr class="separator:a0bd0e9453da08815bd042baada75c822"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a891b2b5385b2cad48e493d95566988c0" id="r_a891b2b5385b2cad48e493d95566988c0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a891b2b5385b2cad48e493d95566988c0">MR_X</a>(T)&#160;&#160;&#160;extern template MRVIEWER_API std::string valueToString( T value, const VarUnitToStringParams&amp; params );</td></tr>
+<tr class="separator:a891b2b5385b2cad48e493d95566988c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a891b2b5385b2cad48e493d95566988c0" id="r_a891b2b5385b2cad48e493d95566988c0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a891b2b5385b2cad48e493d95566988c0">MR_X</a>(T)</td></tr>
 <tr class="separator:a891b2b5385b2cad48e493d95566988c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b57043d301c7b9e5a15080d7f0e801a" id="r_a4b57043d301c7b9e5a15080d7f0e801a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b57043d301c7b9e5a15080d7f0e801a">MR_Y</a>(T,  E)&#160;&#160;&#160;extern template MRVIEWER_API std::string valueToImGuiFormatString( T value, const UnitToStringParams&lt;E&gt;&amp; params );</td></tr>
 <tr class="separator:a4b57043d301c7b9e5a15080d7f0e801a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bd0e9453da08815bd042baada75c822" id="r_a0bd0e9453da08815bd042baada75c822"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bd0e9453da08815bd042baada75c822">MR_X</a>(E)&#160;&#160;&#160;<a class="el" href="#a31e02139b1a4eba58d1b3368303217c1">DETAIL_MR_UNIT_VALUE_TYPES</a>(<a class="el" href="#a4b57043d301c7b9e5a15080d7f0e801a">MR_Y</a>, E)</td></tr>
 <tr class="separator:a0bd0e9453da08815bd042baada75c822"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a891b2b5385b2cad48e493d95566988c0" id="r_a891b2b5385b2cad48e493d95566988c0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a891b2b5385b2cad48e493d95566988c0">MR_X</a>(T)&#160;&#160;&#160;extern template MRVIEWER_API std::string valueToImGuiFormatString( T value, const VarUnitToStringParams&amp; params );</td></tr>
+<tr class="separator:a891b2b5385b2cad48e493d95566988c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:aec57db09655986b2ed959d498edc6f2a" id="r_aec57db09655986b2ed959d498edc6f2a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:aec57db09655986b2ed959d498edc6f2a"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1detail_1_1Units.html#aec57db09655986b2ed959d498edc6f2a">MR::detail::Units::MakeFloatingPoint</a> = std::conditional_t&lt;std::is_integral_v&lt;typename <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;T&gt;::BaseType&gt;, typename <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;T&gt;::template ChangeBaseType&lt;float&gt;, T&gt;</td></tr>
 <tr class="separator:aec57db09655986b2ed959d498edc6f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcac7cfa63a119745d66e8d1de48b084" id="r_afcac7cfa63a119745d66e8d1de48b084"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#afcac7cfa63a119745d66e8d1de48b084">MR::VarUnitToStringParams</a></td></tr>
+<tr class="separator:afcac7cfa63a119745d66e8d1de48b084"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -255,6 +268,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a4d3f8a6d1d7a0498aa353e88c7456182" id="r_a4d3f8a6d1d7a0498aa353e88c7456182"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::Units::Scalar T&gt; </td></tr>
 <tr class="memitem:a4d3f8a6d1d7a0498aa353e88c7456182"><td class="memTemplItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4d3f8a6d1d7a0498aa353e88c7456182">MR::valueToString</a> (T value, const <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; &amp;params=<a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt; E &gt;())</td></tr>
 <tr class="separator:a4d3f8a6d1d7a0498aa353e88c7456182"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae67e358aa67b3bec22536c544a8ed160" id="r_ae67e358aa67b3bec22536c544a8ed160"><td class="memTemplParams" colspan="2">template&lt;detail::Units::Scalar T&gt; </td></tr>
+<tr class="memitem:ae67e358aa67b3bec22536c544a8ed160"><td class="memTemplItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ae67e358aa67b3bec22536c544a8ed160">MR::valueToString</a> (T value, const <a class="el" href="namespaceMR.html#afcac7cfa63a119745d66e8d1de48b084">VarUnitToStringParams</a> &amp;params)</td></tr>
+<tr class="separator:ae67e358aa67b3bec22536c544a8ed160"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33468b27fcfb4e39e7bcbc65162f5dce" id="r_a33468b27fcfb4e39e7bcbc65162f5dce"><td class="memTemplParams" colspan="2">template&lt;detail::Units::Scalar T&gt; </td></tr>
 <tr class="memitem:a33468b27fcfb4e39e7bcbc65162f5dce"><td class="memTemplItemLeft" align="right" valign="top">MRVIEWER_API int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a33468b27fcfb4e39e7bcbc65162f5dce">MR::guessPrecision</a> (T value)</td></tr>
 <tr class="separator:a33468b27fcfb4e39e7bcbc65162f5dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -272,6 +288,9 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="memitem:a888aed091b9c64c5a26d9490cd820f89" id="r_a888aed091b9c64c5a26d9490cd820f89"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::Units::Scalar T&gt; </td></tr>
 <tr class="memitem:a888aed091b9c64c5a26d9490cd820f89"><td class="memTemplItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a888aed091b9c64c5a26d9490cd820f89">MR::valueToImGuiFormatString</a> (T value, const <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; &amp;params=<a class="el" href="namespaceMR.html#a80607090259b7b45b4ea7809158a48a2">getDefaultUnitParams</a>&lt; E &gt;())</td></tr>
 <tr class="separator:a888aed091b9c64c5a26d9490cd820f89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3733c3924551342afaddf9b84564e21" id="r_ac3733c3924551342afaddf9b84564e21"><td class="memTemplParams" colspan="2">template&lt;detail::Units::Scalar T&gt; </td></tr>
+<tr class="memitem:ac3733c3924551342afaddf9b84564e21"><td class="memTemplItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac3733c3924551342afaddf9b84564e21">MR::valueToImGuiFormatString</a> (T value, const <a class="el" href="namespaceMR.html#afcac7cfa63a119745d66e8d1de48b084">VarUnitToStringParams</a> &amp;params)</td></tr>
+<tr class="separator:ac3733c3924551342afaddf9b84564e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a51e60d4d94856e5e896a7a222e68986e" name="a51e60d4d94856e5e896a7a222e68986e"></a>
@@ -318,8 +337,46 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 </div><!-- fragment -->
 </div>
 </div>
+<a id="a11806a80fef697ddb9a820cc22204f3b" name="a11806a80fef697ddb9a820cc22204f3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11806a80fef697ddb9a820cc22204f3b">&#9670;&#160;</a></span>MR_TRIM_LEADING_COMMA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_TRIM_LEADING_COMMA</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="#afb95e3a49d0b0157f47ffdf7aaafd1b9">MR_TRIM_LEADING_COMMA_</a>(__VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb95e3a49d0b0157f47ffdf7aaafd1b9" name="afb95e3a49d0b0157f47ffdf7aaafd1b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb95e3a49d0b0157f47ffdf7aaafd1b9">&#9670;&#160;</a></span>MR_TRIM_LEADING_COMMA_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_TRIM_LEADING_COMMA_</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...&#160;)&#160;&#160;&#160;__VA_ARGS__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0bd0e9453da08815bd042baada75c822" name="a0bd0e9453da08815bd042baada75c822"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bd0e9453da08815bd042baada75c822">&#9670;&#160;</a></span>MR_X <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bd0e9453da08815bd042baada75c822">&#9670;&#160;</a></span>MR_X <span class="overload">[1/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -336,7 +393,7 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 </div>
 </div>
 <a id="a0bd0e9453da08815bd042baada75c822" name="a0bd0e9453da08815bd042baada75c822"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bd0e9453da08815bd042baada75c822">&#9670;&#160;</a></span>MR_X <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bd0e9453da08815bd042baada75c822">&#9670;&#160;</a></span>MR_X <span class="overload">[2/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -353,7 +410,7 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 </div>
 </div>
 <a id="a0bd0e9453da08815bd042baada75c822" name="a0bd0e9453da08815bd042baada75c822"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bd0e9453da08815bd042baada75c822">&#9670;&#160;</a></span>MR_X <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bd0e9453da08815bd042baada75c822">&#9670;&#160;</a></span>MR_X <span class="overload">[3/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -370,7 +427,7 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 </div>
 </div>
 <a id="a0bd0e9453da08815bd042baada75c822" name="a0bd0e9453da08815bd042baada75c822"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bd0e9453da08815bd042baada75c822">&#9670;&#160;</a></span>MR_X <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bd0e9453da08815bd042baada75c822">&#9670;&#160;</a></span>MR_X <span class="overload">[4/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -387,7 +444,24 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 </div>
 </div>
 <a id="a0bd0e9453da08815bd042baada75c822" name="a0bd0e9453da08815bd042baada75c822"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bd0e9453da08815bd042baada75c822">&#9670;&#160;</a></span>MR_X <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bd0e9453da08815bd042baada75c822">&#9670;&#160;</a></span>MR_X <span class="overload">[5/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_X</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>E</em></span></td><td>)</td>
+          <td>&#160;&#160;&#160;, UnitToStringParams&lt;E&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0bd0e9453da08815bd042baada75c822" name="a0bd0e9453da08815bd042baada75c822"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bd0e9453da08815bd042baada75c822">&#9670;&#160;</a></span>MR_X <span class="overload">[6/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -404,7 +478,7 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 </div>
 </div>
 <a id="a0bd0e9453da08815bd042baada75c822" name="a0bd0e9453da08815bd042baada75c822"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bd0e9453da08815bd042baada75c822">&#9670;&#160;</a></span>MR_X <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bd0e9453da08815bd042baada75c822">&#9670;&#160;</a></span>MR_X <span class="overload">[7/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -421,7 +495,24 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 </div>
 </div>
 <a id="a891b2b5385b2cad48e493d95566988c0" name="a891b2b5385b2cad48e493d95566988c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a891b2b5385b2cad48e493d95566988c0">&#9670;&#160;</a></span>MR_X <span class="overload">[7/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a891b2b5385b2cad48e493d95566988c0">&#9670;&#160;</a></span>MR_X <span class="overload">[8/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_X</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>T</em></span></td><td>)</td>
+          <td>&#160;&#160;&#160;extern template MRVIEWER_API std::string valueToString( T value, const VarUnitToStringParams&amp; params );</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a891b2b5385b2cad48e493d95566988c0" name="a891b2b5385b2cad48e493d95566988c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a891b2b5385b2cad48e493d95566988c0">&#9670;&#160;</a></span>MR_X <span class="overload">[9/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -437,6 +528,23 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <b>Value:</b><div class="fragment"><div class="line">    <span class="keyword">extern</span> <span class="keyword">template</span> MRVIEWER_API <span class="keywordtype">int</span> guessPrecision( T value ); \</div>
 <div class="line">    <span class="keyword">extern</span> <span class="keyword">template</span> MRVIEWER_API <span class="keywordtype">int</span> guessPrecision( T min, T max );</div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="a891b2b5385b2cad48e493d95566988c0" name="a891b2b5385b2cad48e493d95566988c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a891b2b5385b2cad48e493d95566988c0">&#9670;&#160;</a></span>MR_X <span class="overload">[10/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_X</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>T</em></span></td><td>)</td>
+          <td>&#160;&#160;&#160;extern template MRVIEWER_API std::string valueToImGuiFormatString( T value, const VarUnitToStringParams&amp; params );</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <a id="a4b57043d301c7b9e5a15080d7f0e801a" name="a4b57043d301c7b9e5a15080d7f0e801a"></a>

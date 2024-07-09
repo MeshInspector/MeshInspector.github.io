@@ -2,6 +2,7 @@ var MRUIStyle_8h =
 [
     [ "MR::UI::ButtonCustomizationParams", "structMR_1_1UI_1_1ButtonCustomizationParams.html", "structMR_1_1UI_1_1ButtonCustomizationParams" ],
     [ "MR::UI::ButtonIconCustomizationParams", "structMR_1_1UI_1_1ButtonIconCustomizationParams.html", "structMR_1_1UI_1_1ButtonIconCustomizationParams" ],
+    [ "MR::UI::PlotAxis", "structMR_1_1UI_1_1PlotAxis.html", "structMR_1_1UI_1_1PlotAxis" ],
     [ "MR::UI::detail::Scalar", "conceptMR_1_1UI_1_1detail_1_1Scalar.html", null ],
     [ "MR::UI::detail::VectorOrScalar", "conceptMR_1_1UI_1_1detail_1_1VectorOrScalar.html", null ],
     [ "MR::UI::detail::ValidBoundForTargetType", "conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType.html", null ],
@@ -27,6 +28,8 @@ var MRUIStyle_8h =
     [ "colorEdit4", "MRUIStyle_8h.html#aaa136c1366383c9c03db4f4b7520c2a6", null ],
     [ "combo", "MRUIStyle_8h.html#a820aa2a94b65ad7536194e8527f89a12", null ],
     [ "drag", "MRUIStyle_8h.html#ae8ac25d142ccaa84dbba3ca0faa37604", null ],
+    [ "drawPoltHorizontalAxis", "MRUIStyle_8h.html#a6960ed24f5176be45d3dae21bae38d42", null ],
+    [ "drawPoltVerticalAxis", "MRUIStyle_8h.html#a6d6f8139e24eb7840d9711fbe7e00a76", null ],
     [ "endCombo", "MRUIStyle_8h.html#a8cffb4ab7998318c522df73a1d12a4f9", null ],
     [ "endTabBar", "MRUIStyle_8h.html#a1b2f7496c5cc2c04acdc85d6ad564a63", null ],
     [ "endTabItem", "MRUIStyle_8h.html#a321f93b24c9b7d723ce8aec45fe75374", null ],

@@ -9,6 +9,6 @@ var MRObjectLoad_8h =
     [ "makeObjectLinesFromFile", "MRObjectLoad_8h.html#ga140cf2b145a068fde22c2818045ac6f4", null ],
     [ "makeObjectMeshFromFile", "MRObjectLoad_8h.html#gad8f4534f6785f237b1448d802215cf43", null ],
     [ "makeObjectPointsFromFile", "MRObjectLoad_8h.html#gabc21c33d36bead8d00a3849efb18dcde", null ],
-    [ "makeObjectTreeFromFolder", "MRObjectLoad_8h.html#ga31488cc68df8765d4cbf1f42b4fb7e05", null ],
+    [ "makeObjectTreeFromFolder", "MRObjectLoad_8h.html#ga8bcd86047946edc28806b494bd33835a", null ],
     [ "makeObjectVoxelsFromFile", "MRObjectLoad_8h.html#ga498affdd369d58b7fdd9cde5c6d26ae6", null ]
 ];

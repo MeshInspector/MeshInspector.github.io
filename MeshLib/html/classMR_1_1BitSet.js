@@ -10,7 +10,7 @@ var classMR_1_1BitSet =
     [ "flip", "classMR_1_1BitSet.html#af5fff3291406197a18b73907ba6d0ad0", null ],
     [ "flip", "classMR_1_1BitSet.html#a93e21fb90c6e66305939698ba328dfb4", null ],
     [ "heapBytes", "classMR_1_1BitSet.html#ae5007749dadb7430dc9dedb73114f9a6", null ],
-    [ "nthSetBit", "classMR_1_1BitSet.html#add7456b9f19f1c5722b428a88eb87241", null ],
+    [ "nthSetBit", "classMR_1_1BitSet.html#a274cea4a76458910a418ec9e8e3e3edf", null ],
     [ "operator&=", "classMR_1_1BitSet.html#af4367d27b2897443f41bc359deeab256", null ],
     [ "operator-=", "classMR_1_1BitSet.html#a2b67ad8030f22aa236b64a04fb2459dc", null ],
     [ "operator^=", "classMR_1_1BitSet.html#aeb7bb0c8ddc8cb0b9a917fe43a2cc514", null ],

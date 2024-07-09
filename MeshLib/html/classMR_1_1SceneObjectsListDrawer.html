@@ -153,10 +153,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a928e8a018e952ef2b817ba4027203972" id="r_a928e8a018e952ef2b817ba4027203972"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a928e8a018e952ef2b817ba4027203972">getDeselectNewHiddenObjects</a> ()</td></tr>
 <tr class="memdesc:a928e8a018e952ef2b817ba4027203972"><td class="mdescLeft">&#160;</td><td class="mdescRight">get flag of deselect object after hidden  <br /></td></tr>
 <tr class="separator:a928e8a018e952ef2b817ba4027203972"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2811dc65af1b9861a17e94ccb17ab9ff" id="r_a2811dc65af1b9861a17e94ccb17ab9ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2811dc65af1b9861a17e94ccb17ab9ff">changeSelection</a> (bool isDown, bool isShift)</td></tr>
-<tr class="separator:a2811dc65af1b9861a17e94ccb17ab9ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa560a972c56ad0d267fae3065613e834" id="r_aa560a972c56ad0d267fae3065613e834"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa560a972c56ad0d267fae3065613e834">changeVisible</a> (bool isDown)</td></tr>
-<tr class="separator:aa560a972c56ad0d267fae3065613e834"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9626d7f29fef80a19bfa08d0389643f4" id="r_a9626d7f29fef80a19bfa08d0389643f4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9626d7f29fef80a19bfa08d0389643f4">changeSelection</a> (bool isDown, bool isShift)</td></tr>
+<tr class="separator:a9626d7f29fef80a19bfa08d0389643f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af36935c34390d23a46d4c38f182071c9" id="r_af36935c34390d23a46d4c38f182071c9"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af36935c34390d23a46d4c38f182071c9">changeVisible</a> (bool isDown)</td></tr>
+<tr class="separator:af36935c34390d23a46d4c38f182071c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a062dbdb186840f7e320957f6b752acfc" id="r_a062dbdb186840f7e320957f6b752acfc"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a062dbdb186840f7e320957f6b752acfc">selectAllObjects</a> ()</td></tr>
+<tr class="separator:a062dbdb186840f7e320957f6b752acfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49c5d2ad202cdc4507aed66f508d481a" id="r_a49c5d2ad202cdc4507aed66f508d481a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49c5d2ad202cdc4507aed66f508d481a">setObjectTreeState</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> *obj, bool open)</td></tr>
 <tr class="memdesc:a49c5d2ad202cdc4507aed66f508d481a"><td class="mdescLeft">&#160;</td><td class="mdescRight">set object collapse state (hiding children)  <br /></td></tr>
 <tr class="separator:a49c5d2ad202cdc4507aed66f508d481a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -255,14 +257,14 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2811dc65af1b9861a17e94ccb17ab9ff" name="a2811dc65af1b9861a17e94ccb17ab9ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2811dc65af1b9861a17e94ccb17ab9ff">&#9670;&#160;</a></span>changeSelection()</h2>
+<a id="a9626d7f29fef80a19bfa08d0389643f4" name="a9626d7f29fef80a19bfa08d0389643f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9626d7f29fef80a19bfa08d0389643f4">&#9670;&#160;</a></span>changeSelection()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::SceneObjectsListDrawer::changeSelection </td>
+          <td class="memname">MRVIEWER_API void MR::SceneObjectsListDrawer::changeSelection </td>
           <td>(</td>
           <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>isDown</em></span>, </td>
         </tr>
@@ -273,24 +275,25 @@ Protected Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>change selection after pressed arrow up / down isUp - true if pressed arrow down, false - arrow up isShift - shift button holded </p>
+<p>change selection after pressed arrow up / down isDown - true if pressed arrow down, false - arrow up isShift - shift button holded </p>
 
 </div>
 </div>
-<a id="aa560a972c56ad0d267fae3065613e834" name="aa560a972c56ad0d267fae3065613e834"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa560a972c56ad0d267fae3065613e834">&#9670;&#160;</a></span>changeVisible()</h2>
+<a id="af36935c34390d23a46d4c38f182071c9" name="af36935c34390d23a46d4c38f182071c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af36935c34390d23a46d4c38f182071c9">&#9670;&#160;</a></span>changeVisible()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::SceneObjectsListDrawer::changeVisible </td>
+          <td class="memname">MRVIEWER_API void MR::SceneObjectsListDrawer::changeVisible </td>
           <td>(</td>
           <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>isDown</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>change visible (and selection) after pressed arrow up / down isDown - true if pressed F4, false - F3 </p>
 
 </div>
 </div>
@@ -517,6 +520,23 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get flag of the object visibility activation after selection </p>
+
+</div>
+</div>
+<a id="a062dbdb186840f7e320957f6b752acfc" name="a062dbdb186840f7e320957f6b752acfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a062dbdb186840f7e320957f6b752acfc">&#9670;&#160;</a></span>selectAllObjects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::SceneObjectsListDrawer::selectAllObjects </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

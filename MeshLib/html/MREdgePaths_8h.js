@@ -38,5 +38,6 @@ var MREdgePaths_8h =
     [ "reverse", "MREdgePaths_8h.html#ga5ae89c778fe01228f20aa52aa2e160d0", null ],
     [ "reverse", "MREdgePaths_8h.html#ga0f7d06cbd7188f3681347a12699a9cba", null ],
     [ "sortPathsByLength", "MREdgePaths_8h.html#gaabc40dcee3ba22d445c0f838f170d549", null ],
-    [ "sortPathsByMetric", "MREdgePaths_8h.html#gaf24c647cf0c2aef3425702344a341d55", null ]
+    [ "sortPathsByMetric", "MREdgePaths_8h.html#gaf24c647cf0c2aef3425702344a341d55", null ],
+    [ "splitOnSimpleLoops", "MREdgePaths_8h.html#gaa9c52e371775dd3dfbbf897f713cddf0", null ]
 ];

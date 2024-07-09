@@ -111,7 +111,7 @@ $(function(){initNavTree('structMR_1_1BooleanParameters.html',''); initResizable
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="MRMeshBoolean_8h_source.html">MRMeshBoolean.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="MRMesh_2MRMeshBoolean_8h_source.html">MRMeshBoolean.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -127,6 +127,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a3c9ab9ed36085974e0aedcdba8ee7b0c" id="r_a3c9ab9ed36085974e0aedcdba8ee7b0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1BooleanPreCutResult.html">BooleanPreCutResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c9ab9ed36085974e0aedcdba8ee7b0c">outPreCutB</a> = nullptr</td></tr>
 <tr class="memdesc:a3c9ab9ed36085974e0aedcdba8ee7b0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional precut output of meshB, if present - does not perform boolean and just return them.  <br /></td></tr>
 <tr class="separator:a3c9ab9ed36085974e0aedcdba8ee7b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e9fd686cd57658f583e243451c94393" id="r_a4e9fd686cd57658f583e243451c94393"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e9fd686cd57658f583e243451c94393">outCutEdges</a> = nullptr</td></tr>
+<tr class="memdesc:a4e9fd686cd57658f583e243451c94393"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional output cut edges of booleaned meshes.  <br /></td></tr>
+<tr class="separator:a4e9fd686cd57658f583e243451c94393"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4617bb49dfbad4a7fda08bd0c7a9fe2e" id="r_a4617bb49dfbad4a7fda08bd0c7a9fe2e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4617bb49dfbad4a7fda08bd0c7a9fe2e">mergeAllNonIntersectingComponents</a> = false</td></tr>
 <tr class="separator:a4617bb49dfbad4a7fda08bd0c7a9fe2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e10d01aa0e3e192325518ba6d1ea24c" id="r_a3e10d01aa0e3e192325518ba6d1ea24c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e10d01aa0e3e192325518ba6d1ea24c">cb</a> = {}</td></tr>
@@ -175,6 +178,22 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>By default produce valid operation on disconnected components if set merge all non-intersecting components </p>
+
+</div>
+</div>
+<a id="a4e9fd686cd57658f583e243451c94393" name="a4e9fd686cd57658f583e243451c94393"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e9fd686cd57658f583e243451c94393">&#9670;&#160;</a></span>outCutEdges</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a>&gt;* MR::BooleanParameters::outCutEdges = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Optional output cut edges of booleaned meshes. </p>
 
 </div>
 </div>
@@ -227,7 +246,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="MRMeshBoolean_8h_source.html">MRMeshBoolean.h</a></li>
+<li><a class="el" href="MRMesh_2MRMeshBoolean_8h_source.html">MRMesh/MRMeshBoolean.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

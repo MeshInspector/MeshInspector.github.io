@@ -116,7 +116,18 @@ $(function(){initNavTree('structMR_1_1VoxelsVolume.html',''); initResizable(true
 <p>represents a box in 3D space subdivided on voxels stored in T  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="MRSimpleVolume_8h_source.html">MRSimpleVolume.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="MRVoxelsVolume_8h_source.html">MRVoxelsVolume.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for MR::VoxelsVolume&lt; T &gt;:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="structMR_1_1VoxelsVolume.png" usemap="#MR::VoxelsVolume_3C_20T_20_3E_map" alt=""/>
+  <map id="MR::VoxelsVolume_3C_20T_20_3E_map" name="MR::VoxelsVolume_3C_20T_20_3E_map">
+<area href="structMR_1_1VoxelsVolumeMinMax.html" alt="MR::VoxelsVolumeMinMax&lt; T &gt;" shape="rect" coords="0,56,193,80"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -136,10 +147,6 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aec69290a92637368e463e39fadfea701"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d40ff5d6e909a58566b67d177842ba0" id="r_a3d40ff5d6e909a58566b67d177842ba0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d40ff5d6e909a58566b67d177842ba0">voxelSize</a> { 1.f, 1.f, 1.f }</td></tr>
 <tr class="separator:a3d40ff5d6e909a58566b67d177842ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adaf73964e260f25fc8fb2fda370bc4ca" id="r_adaf73964e260f25fc8fb2fda370bc4ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#af9f77daea56312d1b6f7ac20d2473713">ValueType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaf73964e260f25fc8fb2fda370bc4ca">min</a> = std::numeric_limits&lt;<a class="el" href="#af9f77daea56312d1b6f7ac20d2473713">ValueType</a>&gt;<a class="el" href="#a8ba727537de72b41f556c2d0c4851ad4">::max</a>()</td></tr>
-<tr class="separator:adaf73964e260f25fc8fb2fda370bc4ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ba727537de72b41f556c2d0c4851ad4" id="r_a8ba727537de72b41f556c2d0c4851ad4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#af9f77daea56312d1b6f7ac20d2473713">ValueType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ba727537de72b41f556c2d0c4851ad4">max</a> = std::numeric_limits&lt;<a class="el" href="#af9f77daea56312d1b6f7ac20d2473713">ValueType</a>&gt;::lowest()</td></tr>
-<tr class="separator:a8ba727537de72b41f556c2d0c4851ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
@@ -222,38 +229,6 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a8ba727537de72b41f556c2d0c4851ad4" name="a8ba727537de72b41f556c2d0c4851ad4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ba727537de72b41f556c2d0c4851ad4">&#9670;&#160;</a></span>max</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#af9f77daea56312d1b6f7ac20d2473713">ValueType</a> <a class="el" href="structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt; T &gt;::max = std::numeric_limits&lt;<a class="el" href="#af9f77daea56312d1b6f7ac20d2473713">ValueType</a>&gt;::lowest()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="adaf73964e260f25fc8fb2fda370bc4ca" name="adaf73964e260f25fc8fb2fda370bc4ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adaf73964e260f25fc8fb2fda370bc4ca">&#9670;&#160;</a></span>min</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#af9f77daea56312d1b6f7ac20d2473713">ValueType</a> <a class="el" href="structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt; T &gt;::min = std::numeric_limits&lt;<a class="el" href="#af9f77daea56312d1b6f7ac20d2473713">ValueType</a>&gt;<a class="el" href="#a8ba727537de72b41f556c2d0c4851ad4">::max</a>()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a3d40ff5d6e909a58566b67d177842ba0" name="a3d40ff5d6e909a58566b67d177842ba0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3d40ff5d6e909a58566b67d177842ba0">&#9670;&#160;</a></span>voxelSize</h2>
 
@@ -271,8 +246,8 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li><a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a></li>
-<li><a class="el" href="MRSimpleVolume_8h_source.html">MRSimpleVolume.h</a></li>
+<li><a class="el" href="MRMesh_2MRMeshFwd_8h_source.html">MRMesh/MRMeshFwd.h</a></li>
+<li><a class="el" href="MRVoxelsVolume_8h_source.html">MRVoxelsVolume.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -23,6 +23,7 @@ var classMR_1_1ObjectPointsHolder =
     [ "hasModel", "classMR_1_1ObjectPointsHolder.html#a3f994efd266fcfa91366976539698e6b", null ],
     [ "hasVisualRepresentation", "classMR_1_1ObjectPointsHolder.html#aaf5a84fb8a05f5651aee309a512efb74", null ],
     [ "heapBytes", "classMR_1_1ObjectPointsHolder.html#a2646bd14bb792576389645ad9483bc0a", null ],
+    [ "numRenderingValidPoints", "classMR_1_1ObjectPointsHolder.html#a8e889a076ec09ab804c3619a2e0e4675", null ],
     [ "numSelectedPoints", "classMR_1_1ObjectPointsHolder.html#a54c093ecf7ef8fa2397f85b65631c47a", null ],
     [ "numValidPoints", "classMR_1_1ObjectPointsHolder.html#aba48075cc3847fbce801558843fc38d1", null ],
     [ "operator=", "classMR_1_1ObjectPointsHolder.html#a704442d942ed959e077e867fd13df5ef", null ],

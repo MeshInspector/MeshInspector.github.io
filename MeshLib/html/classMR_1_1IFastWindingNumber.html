@@ -144,15 +144,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9027cc3b894d18d7750a44a4ca547eeb" id="r_a9027cc3b894d18d7750a44a4ca547eeb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceMR.html#a2ce7373768bdeba5943fa20acf85e769">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9027cc3b894d18d7750a44a4ca547eeb">calcFromGridWithDistances</a> (std::vector&lt; float &gt; &amp;res, const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;dims, const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &amp;minCoord, const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &amp;voxelSize, const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> &amp;gridToMeshXf, float beta, float maxDistSq, float minDistSq, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb)=0</td></tr>
 <tr class="memdesc:a9027cc3b894d18d7750a44a4ca547eeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates distances and winding numbers for each point in a three-dimensional grid  <br /></td></tr>
 <tr class="separator:a9027cc3b894d18d7750a44a4ca547eeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade293e17d3f91dce118b85707a694b84" id="r_ade293e17d3f91dce118b85707a694b84"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade293e17d3f91dce118b85707a694b84">fromVectorHeapBytes</a> (size_t inputSize) const =0</td></tr>
-<tr class="memdesc:ade293e17d3f91dce118b85707a694b84"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns amount of required memory for calcFromVector operation does not take into account size of output vector  <br /></td></tr>
-<tr class="separator:ade293e17d3f91dce118b85707a694b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05ba4677cc7e7bd086c13c5e1a69376b" id="r_a05ba4677cc7e7bd086c13c5e1a69376b"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05ba4677cc7e7bd086c13c5e1a69376b">selfIntersectionsHeapBytes</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh) const =0</td></tr>
-<tr class="memdesc:a05ba4677cc7e7bd086c13c5e1a69376b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns amount of required memory for calcSelfIntersections operation does not take into account size of output FaceBitSet  <br /></td></tr>
-<tr class="separator:a05ba4677cc7e7bd086c13c5e1a69376b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e073d35884b38310189d3fdc5e4ad20" id="r_a6e073d35884b38310189d3fdc5e4ad20"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e073d35884b38310189d3fdc5e4ad20">fromGridHeapBytes</a> (const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;dims) const =0</td></tr>
-<tr class="memdesc:a6e073d35884b38310189d3fdc5e4ad20"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns amount of required memory for calcFromGrid and calcFromGridWithDistances operation does not take into account size of output vector  <br /></td></tr>
-<tr class="separator:a6e073d35884b38310189d3fdc5e4ad20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract class for fast approximate computation of winding number for a mesh (using its AABB tree) </p>
@@ -426,111 +417,6 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>false if the operation was canceled by the user</dd></dl>
 
 <p>Implemented in <a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#a03fd25b5742ad8c32943a8127288080e">MR::Cuda::FastWindingNumber</a>, and <a class="el" href="classMR_1_1FastWindingNumber.html#a74a5c52662c9a9ae3b0589a856041998">MR::FastWindingNumber</a>.</p>
-
-</div>
-</div>
-<a id="a6e073d35884b38310189d3fdc5e4ad20" name="a6e073d35884b38310189d3fdc5e4ad20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e073d35884b38310189d3fdc5e4ad20">&#9670;&#160;</a></span>fromGridHeapBytes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual size_t MR::IFastWindingNumber::fromGridHeapBytes </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>dims</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns amount of required memory for calcFromGrid and calcFromGridWithDistances operation does not take into account size of output vector </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">dims</td><td>dimensions of original grid</td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implemented in <a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#ab7d5f97a25ac03694b8cae6f185b8833">MR::Cuda::FastWindingNumber</a>, and <a class="el" href="classMR_1_1FastWindingNumber.html#a21f84adbfe888cde31bf9a5a96392013">MR::FastWindingNumber</a>.</p>
-
-</div>
-</div>
-<a id="ade293e17d3f91dce118b85707a694b84" name="ade293e17d3f91dce118b85707a694b84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade293e17d3f91dce118b85707a694b84">&#9670;&#160;</a></span>fromVectorHeapBytes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual size_t MR::IFastWindingNumber::fromVectorHeapBytes </td>
-          <td>(</td>
-          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>inputSize</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns amount of required memory for calcFromVector operation does not take into account size of output vector </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">inputSize</td><td>size of input vector</td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implemented in <a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#ad06d337a9c36cf0307344435c9422f44">MR::Cuda::FastWindingNumber</a>, and <a class="el" href="classMR_1_1FastWindingNumber.html#a30afc52d061332b146f9ab72b7d3e70a">MR::FastWindingNumber</a>.</p>
-
-</div>
-</div>
-<a id="a05ba4677cc7e7bd086c13c5e1a69376b" name="a05ba4677cc7e7bd086c13c5e1a69376b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05ba4677cc7e7bd086c13c5e1a69376b">&#9670;&#160;</a></span>selfIntersectionsHeapBytes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual size_t MR::IFastWindingNumber::selfIntersectionsHeapBytes </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns amount of required memory for calcSelfIntersections operation does not take into account size of output FaceBitSet </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">mesh</td><td>input mesh</td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implemented in <a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#a294166526273f54cc89d52f028a2e207">MR::Cuda::FastWindingNumber</a>, and <a class="el" href="classMR_1_1FastWindingNumber.html#a6f5ae0d93276a9cfcaf72b546ca60521">MR::FastWindingNumber</a>.</p>
 
 </div>
 </div>

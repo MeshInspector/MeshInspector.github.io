@@ -1,5 +1,6 @@
 var structMR_1_1WatershedGraph_1_1BasinInfo =
 [
+    [ "BasinInfo", "structMR_1_1WatershedGraph_1_1BasinInfo.html#a6505f36f6b37f2d51d0564a3de4b98e0", null ],
     [ "amountTillOverflow", "structMR_1_1WatershedGraph_1_1BasinInfo.html#a8a9b12285fe8639813ace28a93ef0f29", null ],
     [ "approxLevel", "structMR_1_1WatershedGraph_1_1BasinInfo.html#adf005a578ca2b6fe35277c7ea358737e", null ],
     [ "updateAccVolume", "structMR_1_1WatershedGraph_1_1BasinInfo.html#a0b1a50cc94b8a8eb3779ca22881e63d3", null ],

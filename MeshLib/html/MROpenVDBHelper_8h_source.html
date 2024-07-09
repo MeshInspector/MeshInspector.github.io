@@ -108,7 +108,7 @@ $(function(){initNavTree('MROpenVDBHelper_8h_source.html',''); initResizable(tru
 </div><!--header-->
 <div class="contents">
 <a href="MROpenVDBHelper_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#ifndef MRMESH_NO_OPENVDB</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;openvdb/tree/TreeIterator.h&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;openvdb/tree/Tree.h&quot;</span></div>
@@ -184,7 +184,7 @@ $(function(){initNavTree('MROpenVDBHelper_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>            openvdb::math::CoordBBox bbox = i-&gt;getNodeBoundingBox();</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>            <span class="keywordflow">if</span> ( !mBBox.empty() )</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>                bbox.intersect( mBBox );</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>            </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>            <span class="keywordflow">if</span> ( !bbox.empty() )</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>            {</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>                <span class="keywordflow">for</span> ( <span class="keyword">auto</span> it = bbox.begin(); it != bbox.end(); ++it )</div>
@@ -427,7 +427,7 @@ $(function(){initNavTree('MROpenVDBHelper_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>            openvdb::math::CoordBBox bbox = i-&gt;getNodeBoundingBox();</div>
 <div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>            <span class="keywordflow">if</span> ( !mBBox.empty() )</div>
 <div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>                bbox.intersect( mBBox );</div>
-<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>            </div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span> </div>
 <div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>            <span class="keywordflow">if</span> ( !bbox.empty() )</div>
 <div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>            {</div>
 <div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>                <a class="code hl_variable" href="classMR_1_1RangeProcessorSingle.html#a264a04656289a9abfa5a0ce6ff0a9b96">mProc</a>.action( i, mInAcc, bbox );</div>
@@ -464,7 +464,7 @@ $(function(){initNavTree('MROpenVDBHelper_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>            i.getBoundingBox( bbox );</div>
 <div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>            <span class="keywordflow">if</span> ( !mBBox.empty() )</div>
 <div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>                bbox.intersect( mBBox );</div>
-<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>            </div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span> </div>
 <div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>            <span class="keywordflow">if</span> ( !bbox.empty() )</div>
 <div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>            {</div>
 <div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>                <a class="code hl_variable" href="classMR_1_1RangeProcessorSingle.html#a264a04656289a9abfa5a0ce6ff0a9b96">mProc</a>.action( i, mInAcc, bbox );</div>
@@ -591,7 +591,7 @@ $(function(){initNavTree('MROpenVDBHelper_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00447" name="l00447"></a><span class="lineno">  447</span>}</div>
 <div class="line"><a id="l00448" name="l00448"></a><span class="lineno">  448</span> </div>
 <div class="line"><a id="l00449" name="l00449"></a><span class="lineno">  449</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRProgressCallback_8h_html"><div class="ttname"><a href="MRProgressCallback_8h.html">MRProgressCallback.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1RangeCounter_html"><div class="ttname"><a href="classMR_1_1RangeCounter.html">MR::RangeCounter</a></div><div class="ttdoc">functor to calculate tile and leaf valid nodes count</div><div class="ttdef"><b>Definition</b> MROpenVDBHelper.h:396</div></div>
 <div class="ttc" id="aclassMR_1_1RangeCounter_html_a2843b3697415f694e48b3921d0b244d8"><div class="ttname"><a href="classMR_1_1RangeCounter.html#a2843b3697415f694e48b3921d0b244d8">MR::RangeCounter::LeafIterT</a></div><div class="ttdeci">typename TreeT::LeafCIter LeafIterT</div><div class="ttdef"><b>Definition</b> MROpenVDBHelper.h:400</div></div>
@@ -651,7 +651,7 @@ $(function(){initNavTree('MROpenVDBHelper_8h_source.html',''); initResizable(tru
 <div class="ttc" id="aclassMR_1_1ShiftTransformer_html_a2462275abc34da748597b3ebccd9f961"><div class="ttname"><a href="classMR_1_1ShiftTransformer.html#a2462275abc34da748597b3ebccd9f961">MR::ShiftTransformer::setShift</a></div><div class="ttdeci">void setShift(const openvdb::math::Coord &amp;shift)</div><div class="ttdef"><b>Definition</b> MROpenVDBHelper.h:153</div></div>
 <div class="ttc" id="aclassMR_1_1ShiftTransformer_html_a25779f4d269609b5b8a197c243b7a19c"><div class="ttname"><a href="classMR_1_1ShiftTransformer.html#a25779f4d269609b5b8a197c243b7a19c">MR::ShiftTransformer::InTreeAccessor</a></div><div class="ttdeci">typename openvdb::tree::ValueAccessor&lt; const TreeT &gt; InTreeAccessor</div><div class="ttdef"><b>Definition</b> MROpenVDBHelper.h:143</div></div>
 <div class="ttc" id="aclassMR_1_1ShiftTransformer_html_ab7175d7b506f4e42478b9365b5b2ddbf"><div class="ttname"><a href="classMR_1_1ShiftTransformer.html#ab7175d7b506f4e42478b9365b5b2ddbf">MR::ShiftTransformer::ValueT</a></div><div class="ttdeci">typename TreeT::ValueType ValueT</div><div class="ttdef"><b>Definition</b> MROpenVDBHelper.h:145</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:523</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:544</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
 <div class="ttc" id="anamespaceMR_html_a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf"><div class="ttname"><a href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">MR::FeaturePropertyKind::other</a></div><div class="ttdeci">@ other</div></div>
 <div class="ttc" id="anamespaceMR_html_a306ff1f62992b3eb33c446913b64188a"><div class="ttname"><a href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">MR::size</a></div><div class="ttdeci">ImVec2 size(const ViewportRectangle &amp;rect)</div><div class="ttdef"><b>Definition</b> MRViewport.h:32</div></div>

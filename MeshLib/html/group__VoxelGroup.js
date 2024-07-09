@@ -25,6 +25,7 @@ var group__VoxelGroup =
     [ "MR::VolumeIndexer::getNeighbor", "group__VoxelGroup.html#ga30a6db6800770e3e6795a1cbf7a92eb5", null ],
     [ "MR::VolumeIndexer::getNeighbor", "group__VoxelGroup.html#ga70480624af713d6c33abe8a12d5fa6ef", null ],
     [ "MR::VolumeIndexer::isBdVoxel", "group__VoxelGroup.html#ga6e3749e3a300fa4eda0a5dc1eb875a4a", null ],
+    [ "MR::VolumeIndexer::isInDims", "group__VoxelGroup.html#ga1d7ef8146c7e01018cfd181e0967ac35", null ],
     [ "MR::segmentVolumeByGraphCut", "group__VoxelGroup.html#gaef4e62ff5f95bf6c6917d9bb818ba5dc", null ],
     [ "MR::VolumeIndexer::size", "group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985", null ],
     [ "MR::VolumeIndexer::sizeXY", "group__VoxelGroup.html#gaf0d94fe95fbc290e175743a06ad3d1c6", null ],

@@ -3,7 +3,9 @@ var group__DecimateGroup =
     [ "MR::DecimateSettings", "structMR_1_1DecimateSettings.html", [
       [ "adjustCollapse", "structMR_1_1DecimateSettings.html#a21d7c6d9122286b4edf7bd531d38b72b", null ],
       [ "bdVerts", "structMR_1_1DecimateSettings.html#a9bc3106034dd8abdbb3067c7868ca6dd", null ],
+      [ "collapseNearNotFlippable", "structMR_1_1DecimateSettings.html#a1ec65ab68109bf48005d935a85a08713", null ],
       [ "criticalTriAspectRatio", "structMR_1_1DecimateSettings.html#a5f0e2ae094cddee1b490103a349feda5", null ],
+      [ "decimateBetweenParts", "structMR_1_1DecimateSettings.html#a75b6f5ba5cb1ddac954f9ffd4fb9b7fe", null ],
       [ "edgesToCollapse", "structMR_1_1DecimateSettings.html#a4e2b45d957cafc32245b3ee812ed80d0", null ],
       [ "maxAngleChange", "structMR_1_1DecimateSettings.html#aebecde304889b67910dd05d032cb8d07", null ],
       [ "maxBdShift", "structMR_1_1DecimateSettings.html#a5ec13d6be73db6e77b404aea2c0d3371", null ],
@@ -12,10 +14,12 @@ var group__DecimateGroup =
       [ "maxEdgeLen", "structMR_1_1DecimateSettings.html#ac98cbfa367475605fa88982f55dc9a61", null ],
       [ "maxError", "structMR_1_1DecimateSettings.html#ab97888b6d597260226ade61b4e542ef0", null ],
       [ "maxTriangleAspectRatio", "structMR_1_1DecimateSettings.html#af1fd605860fa7a20931506008f29daa9", null ],
+      [ "minFacesInPart", "structMR_1_1DecimateSettings.html#a7cc18ed533890cfc09a39ba3724b5f85", null ],
       [ "notFlippable", "structMR_1_1DecimateSettings.html#a0731477e770d3880ed47726b66c43479", null ],
       [ "onEdgeDel", "structMR_1_1DecimateSettings.html#a4777d8a943b9bf55a68858260f62abd4", null ],
       [ "optimizeVertexPos", "structMR_1_1DecimateSettings.html#ac4cfcdf2807788f5914a0640372d4a07", null ],
       [ "packMesh", "structMR_1_1DecimateSettings.html#a320a08e8abf402aa6a0dae956ad9be0e", null ],
+      [ "partFaces", "structMR_1_1DecimateSettings.html#a7d69e19f2609b7330c6ac5d17a9ebfff", null ],
       [ "preCollapse", "structMR_1_1DecimateSettings.html#a4eab7dd113486daa41a2272bac1b8a2f", null ],
       [ "progressCallback", "structMR_1_1DecimateSettings.html#aa54526c521844dcca8dc5aa91e3628de", null ],
       [ "region", "structMR_1_1DecimateSettings.html#a9359f9da0b131c164d942b1361bd9644", null ],
@@ -23,7 +27,9 @@ var group__DecimateGroup =
       [ "strategy", "structMR_1_1DecimateSettings.html#a7b024d2a905ecd6515a263ec20d35dc6", null ],
       [ "subdivideParts", "structMR_1_1DecimateSettings.html#a8f97c534c28993195cc07d01e1721fe4", null ],
       [ "tinyEdgeLength", "structMR_1_1DecimateSettings.html#ac0e97c22838e162343661fd588f7a326", null ],
-      [ "touchBdVertices", "structMR_1_1DecimateSettings.html#aa7b755cd5bad251398508eb99a3fe806", null ],
+      [ "touchBdVerts", "structMR_1_1DecimateSettings.html#aee15c4faad0020190c28ac13da3e735e", null ],
+      [ "touchNearBdEdges", "structMR_1_1DecimateSettings.html#ae341a50784372571b1b5bb3e6948981e", null ],
+      [ "twinMap", "structMR_1_1DecimateSettings.html#a5c38997b3f0df2d9e534bf87f530cdd7", null ],
       [ "vertForms", "structMR_1_1DecimateSettings.html#a8a682d43b723098485a748e97bd12111", null ]
     ] ],
     [ "MR::DecimateResult", "structMR_1_1DecimateResult.html", [
@@ -47,7 +53,7 @@ var group__DecimateGroup =
       [ "stabilizer", "structMR_1_1DecimateParallelSettings.html#a737db1b3e50fc4961a8416f00bf3f49e", null ],
       [ "strategy", "structMR_1_1DecimateParallelSettings.html#a17d076a1c92c22ee1eaf23dd6edcb19e", null ],
       [ "subdivideParts", "structMR_1_1DecimateParallelSettings.html#abe984fd10e92e60449cdb1c3e409bdbc", null ],
-      [ "touchBdVertices", "structMR_1_1DecimateParallelSettings.html#a6e1e192817007b17434540ed6c973249", null ]
+      [ "touchNearBdEdges", "structMR_1_1DecimateParallelSettings.html#a719fd646bf50bc2582fbf39d3f3a6ac4", null ]
     ] ],
     [ "MR::DecimatePolylineSettings< V >", "structMR_1_1DecimatePolylineSettings.html", [
       [ "adjustCollapse", "structMR_1_1DecimatePolylineSettings.html#ad58496f8458d8d5a517ba34926cb0c61", null ],
@@ -61,11 +67,12 @@ var group__DecimateGroup =
       [ "touchBdVertices", "structMR_1_1DecimatePolylineSettings.html#af5825891f4645db66db82c3b6aa2cffe", null ],
       [ "vertForms", "structMR_1_1DecimatePolylineSettings.html#a3b25e672e4446e2af56927c0cf0237db", null ]
     ] ],
-    [ "MR::computeFormAtVertex", "group__DecimateGroup.html#ga308d4bf16030f5f21f31de620318074a", null ],
-    [ "MR::computeFormsAtVertices", "group__DecimateGroup.html#ga272fbd9ac4386d374e477cce8e394ab7", null ],
+    [ "MR::computeFormAtVertex", "group__DecimateGroup.html#ga63b25dc67835322451fa388b24a70301", null ],
+    [ "MR::computeFormsAtVertices", "group__DecimateGroup.html#ga708339c034b53108c45f1987a682cea0", null ],
     [ "MR::decimateContour", "group__DecimateGroup.html#gac12c761d9044619a794badf63900a599", null ],
     [ "MR::decimateMesh", "group__DecimateGroup.html#ga16a994862b0ba8f6a68c61463be0ed4e", null ],
     [ "MR::decimateParallelMesh", "group__DecimateGroup.html#gab0b1827b05aa2ba71b50b8793f989e03", null ],
     [ "MR::decimatePolyline", "group__DecimateGroup.html#gaf0964e80dba508fbc0d34272d3192cb8", null ],
+    [ "MR::getSubdividePart", "group__DecimateGroup.html#ga68a943035521cac62a80a1f864147c6e", null ],
     [ "MR::resolveMeshDegenerations", "group__DecimateGroup.html#ga881bb2eecb81e65b51d1cb8a52340637", null ]
 ];

@@ -137,16 +137,24 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aaf2bf24fbfd2017b8037ed9cab3df93c" id="r_aaf2bf24fbfd2017b8037ed9cab3df93c"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf2bf24fbfd2017b8037ed9cab3df93c">WorkMode</a> { <a class="el" href="#aaf2bf24fbfd2017b8037ed9cab3df93caec211f7c20af43e742bf2570c3cb84f9">Add</a>
+<tr class="memitem:aaf2bf24fbfd2017b8037ed9cab3df93c" id="r_aaf2bf24fbfd2017b8037ed9cab3df93c"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf2bf24fbfd2017b8037ed9cab3df93c">WorkMode</a> { <br />
+&#160;&#160;<a class="el" href="#aaf2bf24fbfd2017b8037ed9cab3df93caec211f7c20af43e742bf2570c3cb84f9">Add</a>
 , <a class="el" href="#aaf2bf24fbfd2017b8037ed9cab3df93ca1063e38cb53d94d386f21227fcd84717">Remove</a>
 , <a class="el" href="#aaf2bf24fbfd2017b8037ed9cab3df93caf2901a893d204f609b9d6d6b11a481b4">Relax</a>
 , <a class="el" href="#aaf2bf24fbfd2017b8037ed9cab3df93ca799723f39baf497704a3d39e7c03555f">Laplacian</a>
+, <br />
+&#160;&#160;<a class="el" href="#aaf2bf24fbfd2017b8037ed9cab3df93ca156e10596fdc76ee5300bab931d89c0f">Patch</a>
+<br />
  }</td></tr>
 <tr class="memdesc:aaf2bf24fbfd2017b8037ed9cab3df93c"><td class="mdescLeft">&#160;</td><td class="mdescRight">widget work modes  <a href="#aaf2bf24fbfd2017b8037ed9cab3df93c">More...</a><br /></td></tr>
 <tr class="separator:aaf2bf24fbfd2017b8037ed9cab3df93c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a5e42cf09e263f1d12221d3ac465d7d1e" id="r_a5e42cf09e263f1d12221d3ac465d7d1e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e42cf09e263f1d12221d3ac465d7d1e">SurfaceManipulationWidget</a> ()</td></tr>
+<tr class="separator:a5e42cf09e263f1d12221d3ac465d7d1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a309f5b2581529ed58185dcd9718169ba" id="r_a309f5b2581529ed58185dcd9718169ba"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a309f5b2581529ed58185dcd9718169ba">~SurfaceManipulationWidget</a> ()</td></tr>
+<tr class="separator:a309f5b2581529ed58185dcd9718169ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3aed52f4737f381cd25e1431f64076b9" id="r_a3aed52f4737f381cd25e1431f64076b9"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3aed52f4737f381cd25e1431f64076b9">init</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;objectMesh)</td></tr>
 <tr class="memdesc:a3aed52f4737f381cd25e1431f64076b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize widget according <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a>  <br /></td></tr>
 <tr class="separator:a3aed52f4737f381cd25e1431f64076b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -198,7 +206,43 @@ Public Member Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="aaf2bf24fbfd2017b8037ed9cab3df93ca1063e38cb53d94d386f21227fcd84717" name="aaf2bf24fbfd2017b8037ed9cab3df93ca1063e38cb53d94d386f21227fcd84717"></a>Remove&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aaf2bf24fbfd2017b8037ed9cab3df93caf2901a893d204f609b9d6d6b11a481b4" name="aaf2bf24fbfd2017b8037ed9cab3df93caf2901a893d204f609b9d6d6b11a481b4"></a>Relax&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aaf2bf24fbfd2017b8037ed9cab3df93ca799723f39baf497704a3d39e7c03555f" name="aaf2bf24fbfd2017b8037ed9cab3df93ca799723f39baf497704a3d39e7c03555f"></a>Laplacian&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaf2bf24fbfd2017b8037ed9cab3df93ca156e10596fdc76ee5300bab931d89c0f" name="aaf2bf24fbfd2017b8037ed9cab3df93ca156e10596fdc76ee5300bab931d89c0f"></a>Patch&#160;</td><td class="fielddoc"></td></tr>
 </table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a5e42cf09e263f1d12221d3ac465d7d1e" name="a5e42cf09e263f1d12221d3ac465d7d1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e42cf09e263f1d12221d3ac465d7d1e">&#9670;&#160;</a></span>SurfaceManipulationWidget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API MR::SurfaceManipulationWidget::SurfaceManipulationWidget </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a309f5b2581529ed58185dcd9718169ba" name="a309f5b2581529ed58185dcd9718169ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a309f5b2581529ed58185dcd9718169ba">&#9670;&#160;</a></span>~SurfaceManipulationWidget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API MR::SurfaceManipulationWidget::~SurfaceManipulationWidget </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

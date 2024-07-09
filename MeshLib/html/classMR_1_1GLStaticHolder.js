@@ -4,6 +4,7 @@ var classMR_1_1GLStaticHolder =
     [ "ShaderType", "classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748", [
       [ "Mesh", "classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a08843a96f833cac3bc0bc62deaf83ced", null ],
       [ "Picker", "classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a053f32c954efcc79e4f09a4a38c33394", null ],
+      [ "MeshDesktopPicker", "classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748aa76d8d9ca69ec851888af009542e7a43", null ],
       [ "TransparentMesh", "classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a0aceddd1bbfe40ef001c096d89ff39c5", null ],
       [ "DrawPoints", "classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a728b308f6da64718dc5c89ca67715213", null ],
       [ "Lines", "classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748af99dd41644032e9acbae2aa3dd3fefca", null ],

@@ -15,6 +15,7 @@ var classMR_1_1SceneSettings =
       [ "FeatureSubLineWidth", "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261afc0611ad1874f59b7e47820b4cdd72e9", null ],
       [ "FeaturePointSize", "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261abaca4c96c2c2eb0beb55075d1dfb25ce", null ],
       [ "FeatureSubPointSize", "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261a42e73be4e6a3c410002eb381e9575f5b", null ],
+      [ "AmbientCoefSelectedObj", "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261a8ac314a210ce649b6362765e85106c2a", null ],
       [ "Count", "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "ShadingMode", "classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290c", [

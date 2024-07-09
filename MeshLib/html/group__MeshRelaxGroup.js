@@ -1,7 +1,8 @@
 var group__MeshRelaxGroup =
 [
     [ "MR::MeshRelaxParams", "structMR_1_1MeshRelaxParams.html", [
-      [ "hardSmoothTetrahedrons", "structMR_1_1MeshRelaxParams.html#aeb8c3fee03385430c013562e6fafb17e", null ]
+      [ "hardSmoothTetrahedrons", "structMR_1_1MeshRelaxParams.html#aeb8c3fee03385430c013562e6fafb17e", null ],
+      [ "weights", "structMR_1_1MeshRelaxParams.html#a41780c569c9092f50274655744456aea", null ]
     ] ],
     [ "MR::MeshEqualizeTriAreasParams", "structMR_1_1MeshEqualizeTriAreasParams.html", [
       [ "noShrinkage", "structMR_1_1MeshEqualizeTriAreasParams.html#a7a54f93ce9d16e271b34554e4b0bd4f0", null ]

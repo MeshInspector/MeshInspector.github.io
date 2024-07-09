@@ -5,8 +5,6 @@ var namespaceMR_1_1MeshLoad =
     [ "NamedMeshLoader", "structMR_1_1MeshLoad_1_1NamedMeshLoader.html", "structMR_1_1MeshLoad_1_1NamedMeshLoader" ],
     [ "MeshLoader", "group__IOFormatsRegistryGroup.html#gac40936073161beadfd7b6d585393bf4e", null ],
     [ "MeshStreamLoader", "group__IOFormatsRegistryGroup.html#gad1439f8b8639bee7f95f3e0771bbee11", null ],
-    [ "from3mf", "group__MeshLoadGroup.html#ga7b8a21616ca8372b66b690c3d7dbf187", null ],
-    [ "from3mf", "group__MeshLoadGroup.html#ga7fc776aaf7a926ab2402485b214a7e42", null ],
     [ "fromAnyStl", "group__MeshLoadGroup.html#gaafc66656edaccd05b501937ffc58f427", null ],
     [ "fromAnyStl", "group__MeshLoadGroup.html#gaf2f56f9814607c8e930335e0a776ec22", null ],
     [ "fromAnySupportedFormat", "group__MeshLoadGroup.html#ga8ea17f75143b67fcaa2f9ac2816f958c", null ],

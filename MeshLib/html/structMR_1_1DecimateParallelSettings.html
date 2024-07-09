@@ -141,9 +141,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a6e41465250059b31e3c4806da1d55fea" id="r_a6e41465250059b31e3c4806da1d55fea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e41465250059b31e3c4806da1d55fea">region</a> = nullptr</td></tr>
 <tr class="memdesc:a6e41465250059b31e3c4806da1d55fea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Region on mesh to be decimated, it is updated during the operation.  <br /></td></tr>
 <tr class="separator:a6e41465250059b31e3c4806da1d55fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e1e192817007b17434540ed6c973249" id="r_a6e1e192817007b17434540ed6c973249"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e1e192817007b17434540ed6c973249">touchBdVertices</a> = true</td></tr>
-<tr class="memdesc:a6e1e192817007b17434540ed6c973249"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to allow collapsing edges having at least one vertex on (region) boundary.  <br /></td></tr>
-<tr class="separator:a6e1e192817007b17434540ed6c973249"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a719fd646bf50bc2582fbf39d3f3a6ac4" id="r_a719fd646bf50bc2582fbf39d3f3a6ac4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a719fd646bf50bc2582fbf39d3f3a6ac4">touchNearBdEdges</a> = true</td></tr>
+<tr class="memdesc:a719fd646bf50bc2582fbf39d3f3a6ac4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to allow collapsing edges having at least one vertex on (region) boundary.  <br /></td></tr>
+<tr class="separator:a719fd646bf50bc2582fbf39d3f3a6ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14f764f19d8a56d1b1931e084ed1df4e" id="r_a14f764f19d8a56d1b1931e084ed1df4e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14f764f19d8a56d1b1931e084ed1df4e">maxAngleChange</a> = -1</td></tr>
 <tr class="separator:a14f764f19d8a56d1b1931e084ed1df4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe984fd10e92e60449cdb1c3e409bdbc" id="r_abe984fd10e92e60449cdb1c3e409bdbc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe984fd10e92e60449cdb1c3e409bdbc">subdivideParts</a> = 32</td></tr>
@@ -207,7 +207,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Permit edge flips (in addition to collapsing) to improve Delone quality of the mesh if it does change dihedral angle more than on this value (negative value prohibits any edge flips) </p>
+<p>Permit edge flips (in addition to collapsing) to improve Delone quality of the mesh if it does not change dihedral angle more than on this value (negative value prohibits any edge flips) </p>
 
 </div>
 </div>
@@ -383,14 +383,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6e1e192817007b17434540ed6c973249" name="a6e1e192817007b17434540ed6c973249"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e1e192817007b17434540ed6c973249">&#9670;&#160;</a></span>touchBdVertices</h2>
+<a id="a719fd646bf50bc2582fbf39d3f3a6ac4" name="a719fd646bf50bc2582fbf39d3f3a6ac4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a719fd646bf50bc2582fbf39d3f3a6ac4">&#9670;&#160;</a></span>touchNearBdEdges</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool MR::DecimateParallelSettings::touchBdVertices = true</td>
+          <td class="memname">bool MR::DecimateParallelSettings::touchNearBdEdges = true</td>
         </tr>
       </table>
 </div><div class="memdoc">

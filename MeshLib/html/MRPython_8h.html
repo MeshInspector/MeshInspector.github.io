@@ -114,7 +114,7 @@ $(function(){initNavTree('MRPython_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MRPython.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="MRMesh_2MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &lt;pybind11/pybind11.h&gt;</code><br />
 <code>#include &lt;pybind11/operators.h&gt;</code><br />
 <code>#include &lt;pybind11/stl_bind.h&gt;</code><br />
@@ -246,7 +246,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a01602e407a8f74fb432a16769481688c">MR_ADD_PYTHON_CUSTOM_CLASS_DECL</a>( moduleName, name, type ) \</div>
 <div class="line">MR_ADD_PYTHON_CUSTOM_CLASS_INST( moduleName, name )</div>
-<div class="ttc" id="aMRPython_8h_html_a01602e407a8f74fb432a16769481688c"><div class="ttname"><a href="#a01602e407a8f74fb432a16769481688c">MR_ADD_PYTHON_CUSTOM_CLASS_DECL</a></div><div class="ttdeci">#define MR_ADD_PYTHON_CUSTOM_CLASS_DECL(moduleName, name,...)</div><div class="ttdef"><b>Definition</b> MRPython.h:45</div></div>
+<div class="ttc" id="aMRPython_8h_html_a01602e407a8f74fb432a16769481688c"><div class="ttname"><a href="#a01602e407a8f74fb432a16769481688c">MR_ADD_PYTHON_CUSTOM_CLASS_DECL</a></div><div class="ttdeci">#define MR_ADD_PYTHON_CUSTOM_CLASS_DECL(moduleName, name,...)</div><div class="ttdef"><b>Definition</b> MRPython.h:54</div></div>
 </div><!-- fragment --><p>For the proper stub file generation, a class must be defined prior to its depending methods. To achieve it, declare the class <em>before</em> the <a class="el" href="#a4c2f86ab418002ae88c7465c2804c7f1">MR_ADD_PYTHON_CUSTOM_DEF</a> block:</p><ul>
 <li>for simple cases use <a class="el" href="#aeeef7bf1febc257ac7e567a755bd1e27">MR_ADD_PYTHON_CUSTOM_CLASS</a> macro;</li>
 <li>to customize class declaration or instantiation (custom holder, custom container binding, etc.), use <a class="el" href="#a01602e407a8f74fb432a16769481688c">MR_ADD_PYTHON_CUSTOM_CLASS_DECL</a> and <a class="el" href="#a8a0f3d850562d301fdc69b7f7831f572">MR_ADD_PYTHON_CUSTOM_CLASS_INST_FUNC</a> macros Finally replace the former class declaration within the <a class="el" href="#a4c2f86ab418002ae88c7465c2804c7f1">MR_ADD_PYTHON_CUSTOM_DEF</a> with the MR_PYTHON_CUSTOM_CLASS( class-name ) construction. <div class="fragment"><div class="line"><a class="code hl_define" href="#aeeef7bf1febc257ac7e567a755bd1e27">MR_ADD_PYTHON_CUSTOM_CLASS</a>( moduleName, pythonTypeName, cppTypeName )</div>
@@ -257,9 +257,9 @@ Functions</h2></td></tr>
 <div class="line">    <a class="code hl_define" href="#ae6956a35fce75d18a07941e975ae07cc">MR_PYTHON_CUSTOM_CLASS</a>( pythonTypeName )</div>
 <div class="line">        .def( pybind11::init&lt;&gt;() );</div>
 <div class="line">}</div>
-<div class="ttc" id="aMRPython_8h_html_a4c2f86ab418002ae88c7465c2804c7f1"><div class="ttname"><a href="#a4c2f86ab418002ae88c7465c2804c7f1">MR_ADD_PYTHON_CUSTOM_DEF</a></div><div class="ttdeci">#define MR_ADD_PYTHON_CUSTOM_DEF(moduleName, name,...)</div><div class="ttdef"><b>Definition</b> MRPython.h:30</div></div>
-<div class="ttc" id="aMRPython_8h_html_ae6956a35fce75d18a07941e975ae07cc"><div class="ttname"><a href="#ae6956a35fce75d18a07941e975ae07cc">MR_PYTHON_CUSTOM_CLASS</a></div><div class="ttdeci">#define MR_PYTHON_CUSTOM_CLASS(name)</div><div class="ttdef"><b>Definition</b> MRPython.h:41</div></div>
-<div class="ttc" id="aMRPython_8h_html_aeeef7bf1febc257ac7e567a755bd1e27"><div class="ttname"><a href="#aeeef7bf1febc257ac7e567a755bd1e27">MR_ADD_PYTHON_CUSTOM_CLASS</a></div><div class="ttdeci">#define MR_ADD_PYTHON_CUSTOM_CLASS(moduleName, name, type)</div><div class="ttdef"><b>Definition</b> MRPython.h:87</div></div>
+<div class="ttc" id="aMRPython_8h_html_a4c2f86ab418002ae88c7465c2804c7f1"><div class="ttname"><a href="#a4c2f86ab418002ae88c7465c2804c7f1">MR_ADD_PYTHON_CUSTOM_DEF</a></div><div class="ttdeci">#define MR_ADD_PYTHON_CUSTOM_DEF(moduleName, name,...)</div><div class="ttdef"><b>Definition</b> MRPython.h:39</div></div>
+<div class="ttc" id="aMRPython_8h_html_ae6956a35fce75d18a07941e975ae07cc"><div class="ttname"><a href="#ae6956a35fce75d18a07941e975ae07cc">MR_PYTHON_CUSTOM_CLASS</a></div><div class="ttdeci">#define MR_PYTHON_CUSTOM_CLASS(name)</div><div class="ttdef"><b>Definition</b> MRPython.h:50</div></div>
+<div class="ttc" id="aMRPython_8h_html_aeeef7bf1febc257ac7e567a755bd1e27"><div class="ttname"><a href="#aeeef7bf1febc257ac7e567a755bd1e27">MR_ADD_PYTHON_CUSTOM_CLASS</a></div><div class="ttdeci">#define MR_ADD_PYTHON_CUSTOM_CLASS(moduleName, name, type)</div><div class="ttdef"><b>Definition</b> MRPython.h:96</div></div>
 </div><!-- fragment --> See also <a class="el" href="#a970813ca4d787c0bbe1ca6b1bd231cf9">MR_ADD_PYTHON_VEC</a> and <a class="el" href="#a432ac9a0f3f5aca7d9f0b9741d3b37c5">MR_ADD_PYTHON_MAP</a> macros for customized class definition examples. </li>
 </ul>
 
@@ -381,7 +381,7 @@ Functions</h2></td></tr>
 <div class="line">_Pragma(<span class="stringliteral">&quot;warning(disable:4459)&quot;</span>) \</div>
 <div class="line">    <span class="keyword">static</span> <a class="code hl_struct" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> name##_adder_( #moduleName, __VA_ARGS__ ); \</div>
 <div class="line">_Pragma(<span class="stringliteral">&quot;warning(pop)&quot;</span>)</div>
-<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></div><div class="ttdef"><b>Definition</b> MRPython.h:213</div></div>
+<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></div><div class="ttdef"><b>Definition</b> MRPython.h:222</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -588,7 +588,7 @@ Functions</h2></td></tr>
 <div class="line">            f( m );\</div>
 <div class="line">}\</div>
 <div class="line"><span class="keyword">static</span> <a class="code hl_struct" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> moduleName##_init_( #moduleName, &amp;PyInit_##moduleName );</div>
-<div class="ttc" id="aclassMR_1_1PythonExport_html_a1ae0ff73c0d87a6c897bf89610cabb81"><div class="ttname"><a href="classMR_1_1PythonExport.html#a1ae0ff73c0d87a6c897bf89610cabb81">MR::PythonExport::functions</a></div><div class="ttdeci">const std::array&lt; std::vector&lt; PythonRegisterFuncton &gt;, size_t(Priority::Count)&gt; &amp; functions(const std::string &amp;moduleName) const</div><div class="ttdef"><b>Definition</b> MRPython.h:192</div></div>
+<div class="ttc" id="aclassMR_1_1PythonExport_html_a1ae0ff73c0d87a6c897bf89610cabb81"><div class="ttname"><a href="classMR_1_1PythonExport.html#a1ae0ff73c0d87a6c897bf89610cabb81">MR::PythonExport::functions</a></div><div class="ttdeci">const std::array&lt; std::vector&lt; PythonRegisterFuncton &gt;, size_t(Priority::Count)&gt; &amp; functions(const std::string &amp;moduleName) const</div><div class="ttdef"><b>Definition</b> MRPython.h:201</div></div>
 <div class="ttc" id="aclassMR_1_1PythonExport_html_ab58dad33304df0cdee3c53d47d161ade"><div class="ttname"><a href="classMR_1_1PythonExport.html#ab58dad33304df0cdee3c53d47d161ade">MR::PythonExport::instance</a></div><div class="ttdeci">static MRMESH_API PythonExport &amp; instance()</div></div>
 </div><!-- fragment -->
 </div>

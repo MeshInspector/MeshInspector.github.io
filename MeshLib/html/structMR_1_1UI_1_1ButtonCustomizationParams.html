@@ -131,12 +131,18 @@ $(function(){initNavTree('structMR_1_1UI_1_1ButtonCustomizationParams.html','');
 Public Attributes</h2></td></tr>
 <tr class="memitem:a39f7611697c3b8dca64336b3cc48a7cc" id="r_a39f7611697c3b8dca64336b3cc48a7cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ImGuiImage.html">ImGuiImage</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39f7611697c3b8dca64336b3cc48a7cc">customTexture</a> = nullptr</td></tr>
 <tr class="separator:a39f7611697c3b8dca64336b3cc48a7cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa156c6a89d078c902ee22cbfb09bfc42" id="r_aa156c6a89d078c902ee22cbfb09bfc42"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa156c6a89d078c902ee22cbfb09bfc42">forceImGuiBackground</a> = false</td></tr>
+<tr class="memdesc:aa156c6a89d078c902ee22cbfb09bfc42"><td class="mdescLeft">&#160;</td><td class="mdescRight">force use imgui background if !customTexture  <br /></td></tr>
+<tr class="separator:aa156c6a89d078c902ee22cbfb09bfc42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28dc0364454bce82687aec5e5773623b" id="r_a28dc0364454bce82687aec5e5773623b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28dc0364454bce82687aec5e5773623b">forceImguiTextColor</a> = false</td></tr>
 <tr class="memdesc:a28dc0364454bce82687aec5e5773623b"><td class="mdescLeft">&#160;</td><td class="mdescRight">force use if ImGuiCol_Text for text  <br /></td></tr>
 <tr class="separator:a28dc0364454bce82687aec5e5773623b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44e7a1e13298276ebd757d7e318111a0" id="r_a44e7a1e13298276ebd757d7e318111a0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44e7a1e13298276ebd757d7e318111a0">border</a> = false</td></tr>
 <tr class="memdesc:a44e7a1e13298276ebd757d7e318111a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">show border or not  <br /></td></tr>
 <tr class="separator:a44e7a1e13298276ebd757d7e318111a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa05d1e76244fb6b4afc1122ad02e1d5e" id="r_aa05d1e76244fb6b4afc1122ad02e1d5e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa05d1e76244fb6b4afc1122ad02e1d5e">underlineFirstLetter</a> = false</td></tr>
+<tr class="memdesc:aa05d1e76244fb6b4afc1122ad02e1d5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw line under first letter of label  <br /></td></tr>
+<tr class="separator:aa05d1e76244fb6b4afc1122ad02e1d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace10f316495c9cf052464a0154fee1c5" id="r_ace10f316495c9cf052464a0154fee1c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace10f316495c9cf052464a0154fee1c5">enableTestEngine</a> = true</td></tr>
 <tr class="memdesc:ace10f316495c9cf052464a0154fee1c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allow interacting with this button from <code><a class="el" href="namespaceMR_1_1UI_1_1TestEngine.html">UI::TestEngine</a></code>.  <br /></td></tr>
 <tr class="separator:ace10f316495c9cf052464a0154fee1c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -191,6 +197,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aa156c6a89d078c902ee22cbfb09bfc42" name="aa156c6a89d078c902ee22cbfb09bfc42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa156c6a89d078c902ee22cbfb09bfc42">&#9670;&#160;</a></span>forceImGuiBackground</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::UI::ButtonCustomizationParams::forceImGuiBackground = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>force use imgui background if !customTexture </p>
+
+</div>
+</div>
 <a id="a28dc0364454bce82687aec5e5773623b" name="a28dc0364454bce82687aec5e5773623b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a28dc0364454bce82687aec5e5773623b">&#9670;&#160;</a></span>forceImguiTextColor</h2>
 
@@ -204,6 +226,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>force use if ImGuiCol_Text for text </p>
+
+</div>
+</div>
+<a id="aa05d1e76244fb6b4afc1122ad02e1d5e" name="aa05d1e76244fb6b4afc1122ad02e1d5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa05d1e76244fb6b4afc1122ad02e1d5e">&#9670;&#160;</a></span>underlineFirstLetter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::UI::ButtonCustomizationParams::underlineFirstLetter = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>draw line under first letter of label </p>
 
 </div>
 </div>

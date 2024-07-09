@@ -24,6 +24,7 @@ var group__MeshComponentsGroup =
     [ "MR::MeshComponents::getLargeByAreaComponents", "group__MeshComponentsGroup.html#gad31af32bf051b509a22ca4ada3ae4bbb", null ],
     [ "MR::MeshComponents::getLargeByAreaRegions", "group__MeshComponentsGroup.html#gac1a5db55dea6e15effad7c7ba1df9ed3", null ],
     [ "MR::MeshComponents::getLargeByAreaSmoothComponents", "group__MeshComponentsGroup.html#ga25df067346e365dbeb758e19323aa57e", null ],
+    [ "MR::MeshComponents::getLargeComponentVerts", "group__MeshComponentsGroup.html#gae06989e422b7f72d02f514e959af0951", null ],
     [ "MR::MeshComponents::getLargestComponent", "group__MeshComponentsGroup.html#ga7ed358ec3f7483a4b23f71c4d749873f", null ],
     [ "MR::MeshComponents::getLargestComponentVerts", "group__MeshComponentsGroup.html#ga7e21cd646141fd510e181ca8be259013", null ],
     [ "MR::MeshComponents::getNumComponents", "group__MeshComponentsGroup.html#ga8b392d15bafb4e01e835c06f28d1c000", null ],

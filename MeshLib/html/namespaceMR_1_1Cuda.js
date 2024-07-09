@@ -9,7 +9,7 @@ var namespaceMR_1_1Cuda =
     [ "distanceMapFromContoursHeapBytes", "namespaceMR_1_1Cuda.html#ad3d0d14aae4ad5f5ded80460d993d68d", null ],
     [ "findSkyRays", "namespaceMR_1_1Cuda.html#af763aea7896baa102ab7715278d93231", null ],
     [ "getCudaAvailableMemory", "namespaceMR_1_1Cuda.html#ae3d6344c4c9b5959665fdde2ddc4a838", null ],
-    [ "isCudaAvailable", "namespaceMR_1_1Cuda.html#ac2aac2d47fad78d92edaf5751790f90f", null ],
+    [ "isCudaAvailable", "namespaceMR_1_1Cuda.html#a481800f210dd09851992846af357b7e2", null ],
     [ "negatePicture", "namespaceMR_1_1Cuda.html#a049377206c74eb42b8d99eb0f9475876", null ],
     [ "pointsToDistanceVolume", "namespaceMR_1_1Cuda.html#a52a9c2fbe17335370c2f613e283723d3", null ]
 ];

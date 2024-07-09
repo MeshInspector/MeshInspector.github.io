@@ -8,6 +8,7 @@ var classMR_1_1UnionFind =
     [ "reset", "classMR_1_1UnionFind.html#a6a74089f75f3b88edf1a6fb0beba1e13", null ],
     [ "roots", "classMR_1_1UnionFind.html#a5b1ee758f69d77277361f8cbe1e0d77e", null ],
     [ "size", "classMR_1_1UnionFind.html#ab0d01d793fad21820791310d7318235e", null ],
+    [ "sizeOfComp", "classMR_1_1UnionFind.html#a90f0abbb89cc29b3e3ab237eb968cae5", null ],
     [ "unite", "classMR_1_1UnionFind.html#a0739ab9258f8fc25ef45ce06106fffce", null ],
     [ "united", "classMR_1_1UnionFind.html#aa570cc6f33bbb51fb5859608b9c68fbc", null ]
 ];

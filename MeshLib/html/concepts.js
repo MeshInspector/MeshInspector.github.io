@@ -30,6 +30,8 @@ var concepts =
         ] ]
       ] ],
       [ "Trivial", "conceptMR_1_1Trivial.html", null ],
+      [ "HasGetNormalMethod", "conceptMR_1_1HasGetNormalMethod.html", null ],
+      [ "HasGetDirectionMethod", "conceptMR_1_1HasGetDirectionMethod.html", null ],
       [ "AnyVisualizeMaskEnumType", "conceptMR_1_1AnyVisualizeMaskEnumType.html", null ],
       [ "UnitEnum", "conceptMR_1_1UnitEnum.html", null ]
     ] ]

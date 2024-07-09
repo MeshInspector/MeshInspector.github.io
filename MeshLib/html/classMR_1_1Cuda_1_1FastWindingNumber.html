@@ -141,15 +141,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afe55055d68e9b12b696fc5ebf8159c0e" id="r_afe55055d68e9b12b696fc5ebf8159c0e"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="namespaceMR.html#a2ce7373768bdeba5943fa20acf85e769">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe55055d68e9b12b696fc5ebf8159c0e">calcFromGridWithDistances</a> (std::vector&lt; float &gt; &amp;res, const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;dims, const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &amp;minCoord, const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &amp;voxelSize, const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> &amp;gridToMeshXf, float beta, float maxDistSq, float minDistSq, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb) override</td></tr>
 <tr class="memdesc:afe55055d68e9b12b696fc5ebf8159c0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers for each point in a three-dimensional grid  <br /></td></tr>
 <tr class="separator:afe55055d68e9b12b696fc5ebf8159c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad06d337a9c36cf0307344435c9422f44" id="r_ad06d337a9c36cf0307344435c9422f44"><td class="memItemLeft" align="right" valign="top">virtual MRCUDA_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad06d337a9c36cf0307344435c9422f44">fromVectorHeapBytes</a> (size_t inputSize) const override</td></tr>
-<tr class="memdesc:ad06d337a9c36cf0307344435c9422f44"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns amount of required memory for calcFromVector operation does not take into account size of output vector  <br /></td></tr>
-<tr class="separator:ad06d337a9c36cf0307344435c9422f44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a294166526273f54cc89d52f028a2e207" id="r_a294166526273f54cc89d52f028a2e207"><td class="memItemLeft" align="right" valign="top">virtual MRCUDA_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a294166526273f54cc89d52f028a2e207">selfIntersectionsHeapBytes</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh) const override</td></tr>
-<tr class="memdesc:a294166526273f54cc89d52f028a2e207"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns amount of required memory for calcSelfIntersections operation does not take into account size of output FaceBitSet  <br /></td></tr>
-<tr class="separator:a294166526273f54cc89d52f028a2e207"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7d5f97a25ac03694b8cae6f185b8833" id="r_ab7d5f97a25ac03694b8cae6f185b8833"><td class="memItemLeft" align="right" valign="top">virtual MRCUDA_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7d5f97a25ac03694b8cae6f185b8833">fromGridHeapBytes</a> (const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;dims) const override</td></tr>
-<tr class="memdesc:ab7d5f97a25ac03694b8cae6f185b8833"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns amount of required memory for calcFromGrid and calcFromGridWithDistances operation does not take into account size of output vector  <br /></td></tr>
-<tr class="separator:ab7d5f97a25ac03694b8cae6f185b8833"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1IFastWindingNumber"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1IFastWindingNumber')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMR_1_1IFastWindingNumber.html">MR::IFastWindingNumber</a></td></tr>
 <tr class="memitem:aefefcab706e99f050565aa3492015547 inherit pub_methods_classMR_1_1IFastWindingNumber" id="r_aefefcab706e99f050565aa3492015547"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IFastWindingNumber.html#aefefcab706e99f050565aa3492015547">~IFastWindingNumber</a> ()=default</td></tr>
 <tr class="separator:aefefcab706e99f050565aa3492015547 inherit pub_methods_classMR_1_1IFastWindingNumber"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -420,114 +411,6 @@ Public Member Functions</h2></td></tr>
 </dl>
 
 <p>Implements <a class="el" href="classMR_1_1IFastWindingNumber.html#ac4744f6a703ab21ad9c40d2ca77db273">MR::IFastWindingNumber</a>.</p>
-
-</div>
-</div>
-<a id="ab7d5f97a25ac03694b8cae6f185b8833" name="ab7d5f97a25ac03694b8cae6f185b8833"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7d5f97a25ac03694b8cae6f185b8833">&#9670;&#160;</a></span>fromGridHeapBytes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual MRCUDA_API size_t MR::Cuda::FastWindingNumber::fromGridHeapBytes </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>dims</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns amount of required memory for calcFromGrid and calcFromGridWithDistances operation does not take into account size of output vector </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">dims</td><td>dimensions of original grid</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-<p>Implements <a class="el" href="classMR_1_1IFastWindingNumber.html#a6e073d35884b38310189d3fdc5e4ad20">MR::IFastWindingNumber</a>.</p>
-
-</div>
-</div>
-<a id="ad06d337a9c36cf0307344435c9422f44" name="ad06d337a9c36cf0307344435c9422f44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad06d337a9c36cf0307344435c9422f44">&#9670;&#160;</a></span>fromVectorHeapBytes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual MRCUDA_API size_t MR::Cuda::FastWindingNumber::fromVectorHeapBytes </td>
-          <td>(</td>
-          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>inputSize</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns amount of required memory for calcFromVector operation does not take into account size of output vector </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">inputSize</td><td>size of input vector</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-<p>Implements <a class="el" href="classMR_1_1IFastWindingNumber.html#ade293e17d3f91dce118b85707a694b84">MR::IFastWindingNumber</a>.</p>
-
-</div>
-</div>
-<a id="a294166526273f54cc89d52f028a2e207" name="a294166526273f54cc89d52f028a2e207"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a294166526273f54cc89d52f028a2e207">&#9670;&#160;</a></span>selfIntersectionsHeapBytes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual MRCUDA_API size_t MR::Cuda::FastWindingNumber::selfIntersectionsHeapBytes </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns amount of required memory for calcSelfIntersections operation does not take into account size of output FaceBitSet </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">mesh</td><td>input mesh</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-<p>Implements <a class="el" href="classMR_1_1IFastWindingNumber.html#a05ba4677cc7e7bd086c13c5e1a69376b">MR::IFastWindingNumber</a>.</p>
 
 </div>
 </div>

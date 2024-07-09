@@ -114,7 +114,7 @@ $(function(){initNavTree('structMR_1_1DecimateSettings.html',''); initResizable(
 <p>Parameters structure for <a class="el" href="group__DecimateGroup.html#ga16a994862b0ba8f6a68c61463be0ed4e" title="Collapse edges in mesh region according to the settings.">MR::decimateMesh</a>.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="MRMeshDecimate_8h_source.html">MRMeshDecimate.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="MRMesh_2MRMeshDecimate_8h_source.html">MRMeshDecimate.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -152,12 +152,18 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a0731477e770d3880ed47726b66c43479" id="r_a0731477e770d3880ed47726b66c43479"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a05c056a16a495042d91fdfbe5f0ad642">UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0731477e770d3880ed47726b66c43479">notFlippable</a> = nullptr</td></tr>
 <tr class="memdesc:a0731477e770d3880ed47726b66c43479"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edges specified by this bit-set will never be flipped, but they can be collapsed or replaced during collapse of nearby edges so it is updated during the operation.  <br /></td></tr>
 <tr class="separator:a0731477e770d3880ed47726b66c43479"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ec65ab68109bf48005d935a85a08713" id="r_a1ec65ab68109bf48005d935a85a08713"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ec65ab68109bf48005d935a85a08713">collapseNearNotFlippable</a> = false</td></tr>
+<tr class="separator:a1ec65ab68109bf48005d935a85a08713"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e2b45d957cafc32245b3ee812ed80d0" id="r_a4e2b45d957cafc32245b3ee812ed80d0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a05c056a16a495042d91fdfbe5f0ad642">UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e2b45d957cafc32245b3ee812ed80d0">edgesToCollapse</a> = nullptr</td></tr>
 <tr class="memdesc:a4e2b45d957cafc32245b3ee812ed80d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">If pointer is not null, then only edges from here can be collapsed (and some nearby edges can disappear)  <br /></td></tr>
 <tr class="separator:a4e2b45d957cafc32245b3ee812ed80d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7b755cd5bad251398508eb99a3fe806" id="r_aa7b755cd5bad251398508eb99a3fe806"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7b755cd5bad251398508eb99a3fe806">touchBdVertices</a> = true</td></tr>
-<tr class="memdesc:aa7b755cd5bad251398508eb99a3fe806"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to allow collapsing edges having at least one vertex on (region) boundary.  <br /></td></tr>
-<tr class="separator:aa7b755cd5bad251398508eb99a3fe806"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c38997b3f0df2d9e534bf87f530cdd7" id="r_a5c38997b3f0df2d9e534bf87f530cdd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ae4c04995449710309dc72ed533991d7f">UndirectedEdgeHashMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c38997b3f0df2d9e534bf87f530cdd7">twinMap</a> = nullptr</td></tr>
+<tr class="separator:a5c38997b3f0df2d9e534bf87f530cdd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae341a50784372571b1b5bb3e6948981e" id="r_ae341a50784372571b1b5bb3e6948981e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae341a50784372571b1b5bb3e6948981e">touchNearBdEdges</a> = true</td></tr>
+<tr class="memdesc:ae341a50784372571b1b5bb3e6948981e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to allow collapsing or flipping edges having at least one vertex on (region) boundary.  <br /></td></tr>
+<tr class="separator:ae341a50784372571b1b5bb3e6948981e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee15c4faad0020190c28ac13da3e735e" id="r_aee15c4faad0020190c28ac13da3e735e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee15c4faad0020190c28ac13da3e735e">touchBdVerts</a> = true</td></tr>
+<tr class="separator:aee15c4faad0020190c28ac13da3e735e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bc3106034dd8abdbb3067c7868ca6dd" id="r_a9bc3106034dd8abdbb3067c7868ca6dd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bc3106034dd8abdbb3067c7868ca6dd">bdVerts</a> = nullptr</td></tr>
 <tr class="separator:a9bc3106034dd8abdbb3067c7868ca6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebecde304889b67910dd05d032cb8d07" id="r_aebecde304889b67910dd05d032cb8d07"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebecde304889b67910dd05d032cb8d07">maxAngleChange</a> = -1</td></tr>
@@ -176,11 +182,18 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a320a08e8abf402aa6a0dae956ad9be0e" id="r_a320a08e8abf402aa6a0dae956ad9be0e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a320a08e8abf402aa6a0dae956ad9be0e">packMesh</a> = false</td></tr>
 <tr class="memdesc:a320a08e8abf402aa6a0dae956ad9be0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether to pack mesh at the end  <br /></td></tr>
 <tr class="separator:a320a08e8abf402aa6a0dae956ad9be0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa54526c521844dcca8dc5aa91e3628de" id="r_aa54526c521844dcca8dc5aa91e3628de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa54526c521844dcca8dc5aa91e3628de">progressCallback</a> = {}</td></tr>
+<tr class="memitem:aa54526c521844dcca8dc5aa91e3628de" id="r_aa54526c521844dcca8dc5aa91e3628de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa54526c521844dcca8dc5aa91e3628de">progressCallback</a></td></tr>
 <tr class="memdesc:aa54526c521844dcca8dc5aa91e3628de"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback to report algorithm progress and cancel it by user request  <br /></td></tr>
 <tr class="separator:aa54526c521844dcca8dc5aa91e3628de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f97c534c28993195cc07d01e1721fe4" id="r_a8f97c534c28993195cc07d01e1721fe4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f97c534c28993195cc07d01e1721fe4">subdivideParts</a> = 1</td></tr>
 <tr class="separator:a8f97c534c28993195cc07d01e1721fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75b6f5ba5cb1ddac954f9ffd4fb9b7fe" id="r_a75b6f5ba5cb1ddac954f9ffd4fb9b7fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75b6f5ba5cb1ddac954f9ffd4fb9b7fe">decimateBetweenParts</a> = true</td></tr>
+<tr class="separator:a75b6f5ba5cb1ddac954f9ffd4fb9b7fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d69e19f2609b7330c6ac5d17a9ebfff" id="r_a7d69e19f2609b7330c6ac5d17a9ebfff"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d69e19f2609b7330c6ac5d17a9ebfff">partFaces</a> = nullptr</td></tr>
+<tr class="separator:a7d69e19f2609b7330c6ac5d17a9ebfff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cc18ed533890cfc09a39ba3724b5f85" id="r_a7cc18ed533890cfc09a39ba3724b5f85"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cc18ed533890cfc09a39ba3724b5f85">minFacesInPart</a> = 0</td></tr>
+<tr class="memdesc:a7cc18ed533890cfc09a39ba3724b5f85"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum number of faces in one subdivision part for ( subdivideParts &gt; 1 ) mode  <br /></td></tr>
+<tr class="separator:a7cc18ed533890cfc09a39ba3724b5f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Parameters structure for <a class="el" href="group__DecimateGroup.html#ga16a994862b0ba8f6a68c61463be0ed4e" title="Collapse edges in mesh region according to the settings.">MR::decimateMesh</a>. </p>
@@ -214,7 +227,22 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if touchBdVertices=false then the algorithm needs to know about all boundary vertices; if the pointer is not null then boundary vertices detection is skipped in favor of values from there </p>
+<p>if touchNearBdEdges=false or touchBdVerts=false then the algorithm needs to know about all boundary vertices; if the pointer is not null then boundary vertices detection is replaced with testing values in this bit-set </p>
+
+</div>
+</div>
+<a id="a1ec65ab68109bf48005d935a85a08713" name="a1ec65ab68109bf48005d935a85a08713"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ec65ab68109bf48005d935a85a08713">&#9670;&#160;</a></span>collapseNearNotFlippable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::DecimateSettings::collapseNearNotFlippable = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Whether to allow collapse of edges incident to notFlippable edges, which can move vertices of notFlippable edges unless they are fixed </p>
 
 </div>
 </div>
@@ -230,6 +258,21 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio </p>
+
+</div>
+</div>
+<a id="a75b6f5ba5cb1ddac954f9ffd4fb9b7fe" name="a75b6f5ba5cb1ddac954f9ffd4fb9b7fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75b6f5ba5cb1ddac954f9ffd4fb9b7fe">&#9670;&#160;</a></span>decimateBetweenParts</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::DecimateSettings::decimateBetweenParts = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>After parallel decimation of all mesh parts is done, whether to perform final decimation of whole mesh region to eliminate small edges near the border of individual parts </p>
 
 </div>
 </div>
@@ -260,7 +303,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Permit edge flips (in addition to collapsing) to improve Delone quality of the mesh if it does change dihedral angle more than on this value (negative value prohibits any edge flips) </p>
+<p>Permit edge flips (in addition to collapsing) to improve Delone quality of the mesh if it does not change dihedral angle more than on this value (negative value prohibits any edge flips) </p>
 
 </div>
 </div>
@@ -359,6 +402,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a7cc18ed533890cfc09a39ba3724b5f85" name="a7cc18ed533890cfc09a39ba3724b5f85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cc18ed533890cfc09a39ba3724b5f85">&#9670;&#160;</a></span>minFacesInPart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::DecimateSettings::minFacesInPart = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>minimum number of faces in one subdivision part for ( subdivideParts &gt; 1 ) mode </p>
+
+</div>
+</div>
 <a id="a0731477e770d3880ed47726b66c43479" name="a0731477e770d3880ed47726b66c43479"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0731477e770d3880ed47726b66c43479">&#9670;&#160;</a></span>notFlippable</h2>
 
@@ -421,6 +480,21 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a7d69e19f2609b7330c6ac5d17a9ebfff" name="a7d69e19f2609b7330c6ac5d17a9ebfff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d69e19f2609b7330c6ac5d17a9ebfff">&#9670;&#160;</a></span>partFaces</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a>&gt;* MR::DecimateSettings::partFaces = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if not null, then it contains the faces of each subdivision part on input, which must not overlap, and after decimation of all parts, the region inside each part is put here; decimateBetweenParts=true or packMesh=true are not compatible with this option </p>
+
+</div>
+</div>
 <a id="a4eab7dd113486daa41a2272bac1b8a2f" name="a4eab7dd113486daa41a2272bac1b8a2f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4eab7dd113486daa41a2272bac1b8a2f">&#9670;&#160;</a></span>preCollapse</h2>
 
@@ -445,7 +519,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> MR::DecimateSettings::progressCallback = {}</td>
+          <td class="memname"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> MR::DecimateSettings::progressCallback</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -530,19 +604,49 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa7b755cd5bad251398508eb99a3fe806" name="aa7b755cd5bad251398508eb99a3fe806"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7b755cd5bad251398508eb99a3fe806">&#9670;&#160;</a></span>touchBdVertices</h2>
+<a id="aee15c4faad0020190c28ac13da3e735e" name="aee15c4faad0020190c28ac13da3e735e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee15c4faad0020190c28ac13da3e735e">&#9670;&#160;</a></span>touchBdVerts</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool MR::DecimateSettings::touchBdVertices = true</td>
+          <td class="memname">bool MR::DecimateSettings::touchBdVerts = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>touchBdVerts=true: allow moving and eliminating boundary vertices during edge collapses; touchBdVerts=false: allow only collapsing an edge having only one boundary vertex in that vertex, so position and count of boundary vertices do not change; this setting is ignored if touchNearBdEdges=false </p>
+
+</div>
+</div>
+<a id="ae341a50784372571b1b5bb3e6948981e" name="ae341a50784372571b1b5bb3e6948981e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae341a50784372571b1b5bb3e6948981e">&#9670;&#160;</a></span>touchNearBdEdges</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::DecimateSettings::touchNearBdEdges = true</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Whether to allow collapsing edges having at least one vertex on (region) boundary. </p>
+<p>Whether to allow collapsing or flipping edges having at least one vertex on (region) boundary. </p>
+
+</div>
+</div>
+<a id="a5c38997b3f0df2d9e534bf87f530cdd7" name="a5c38997b3f0df2d9e534bf87f530cdd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c38997b3f0df2d9e534bf87f530cdd7">&#9670;&#160;</a></span>twinMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceMR.html#ae4c04995449710309dc72ed533991d7f">UndirectedEdgeHashMap</a>* MR::DecimateSettings::twinMap = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if an edge present as a key in this map is flipped or collapsed, then same happens to the value-edge (with same collapse position); the algorithm updates this map during collapses, removing or replacing elements </p>
 
 </div>
 </div>
@@ -563,7 +667,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="MRMeshDecimate_8h_source.html">MRMeshDecimate.h</a></li>
+<li><a class="el" href="MRMesh_2MRMeshDecimate_8h_source.html">MRMesh/MRMeshDecimate.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

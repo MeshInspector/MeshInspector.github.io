@@ -14,7 +14,7 @@ var classMR_1_1Graph =
     [ "edgeSize", "classMR_1_1Graph.html#a0c5f4eae690cb57f429c9656db0e2dad", null ],
     [ "ends", "classMR_1_1Graph.html#a0c37e0844926fa87642bc735718dd643", null ],
     [ "findEdge", "classMR_1_1Graph.html#a5de54676ec0131e5355d47e44f31019d", null ],
-    [ "merge", "classMR_1_1Graph.html#aa99d400cb1ebbbc1ce019109ef916833", null ],
+    [ "merge", "classMR_1_1Graph.html#a2dab2ce76e4259ff2c5d66ec4c68c98a", null ],
     [ "neighbours", "classMR_1_1Graph.html#a39fd49331c460c5a968a62a2140d2990", null ],
     [ "valid", "classMR_1_1Graph.html#a5091e905ddd17f80fb7c3996ce095e58", null ],
     [ "valid", "classMR_1_1Graph.html#a46ac2204a29916d4c70d8902b0a21868", null ],

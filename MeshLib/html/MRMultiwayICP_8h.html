@@ -107,7 +107,8 @@ $(function(){initNavTree('MRMultiwayICP_8h.html',''); initResizable(true); });
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRMultiwayICP.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -118,6 +119,16 @@ $(function(){initNavTree('MRMultiwayICP_8h.html',''); initResizable(true); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ICPGroupPair.html">MR::ICPGroupPair</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ICPGroupPairs.html">MR::ICPGroupPairs</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IICPTreeIndexer.html">MR::IICPTreeIndexer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">structure to find leafs and groups of each in cascade mode  <a href="classMR_1_1IICPTreeIndexer.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MultiwayICPSamplingParameters.html">MR::MultiwayICPSamplingParameters</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters that are used for sampling of the <a class="el" href="classMR_1_1MultiwayICP.html">MultiwayICP</a> objects.  <a href="structMR_1_1MultiwayICPSamplingParameters.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -128,8 +139,24 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a3bad3face3e8b7ed9470b588553ded37" id="r_a3bad3face3e8b7ed9470b588553ded37"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3bad3face3e8b7ed9470b588553ded37">MR::IndexedPairs</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1PointPairs.html">PointPairs</a>, <a class="el" href="namespaceMR.html#a0e16c269a16438164f7359bc48c02c84">ObjId</a>&gt;</td></tr>
-<tr class="separator:a3bad3face3e8b7ed9470b588553ded37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc39cd0582abbbb48612bd904fe74210" id="r_acc39cd0582abbbb48612bd904fe74210"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#acc39cd0582abbbb48612bd904fe74210">MR::ICPObjects</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a>, <a class="el" href="namespaceMR.html#a0e16c269a16438164f7359bc48c02c84">ObjId</a>&gt;</td></tr>
+<tr class="separator:acc39cd0582abbbb48612bd904fe74210"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add4fa046bbf16a56e7eae86658185885" id="r_add4fa046bbf16a56e7eae86658185885"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#add4fa046bbf16a56e7eae86658185885">MR::ICPLayer</a> = int</td></tr>
+<tr class="separator:add4fa046bbf16a56e7eae86658185885"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab448f2e256aabf3e97eaaef010380fb1" id="r_ab448f2e256aabf3e97eaaef010380fb1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab448f2e256aabf3e97eaaef010380fb1">MR::ICPElementId</a> = <a class="el" href="classMR_1_1Id.html">Id</a>&lt;ICPElemtTag&gt;</td></tr>
+<tr class="separator:ab448f2e256aabf3e97eaaef010380fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9eff2bf5026577153e17f3ff0ae801c" id="r_ae9eff2bf5026577153e17f3ff0ae801c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ae9eff2bf5026577153e17f3ff0ae801c">MR::ICPElementBitSet</a> = <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt;ICPElemtTag&gt;</td></tr>
+<tr class="separator:ae9eff2bf5026577153e17f3ff0ae801c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a331d6b27226046972c32b7d946f0624b" id="r_a331d6b27226046972c32b7d946f0624b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a331d6b27226046972c32b7d946f0624b">MR::ICPGroupProjector</a> = std::function&lt;void( const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&amp; p, <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">MeshOrPoints::ProjectionResult</a>&amp; res, <a class="el" href="namespaceMR.html#a0e16c269a16438164f7359bc48c02c84">ObjId</a>&amp; resId )&gt;</td></tr>
+<tr class="separator:a331d6b27226046972c32b7d946f0624b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d0081672e0ccdc9545b8df2b84c3663" id="r_a3d0081672e0ccdc9545b8df2b84c3663"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3d0081672e0ccdc9545b8df2b84c3663">MR::ICPPairsGrid</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1ICPGroupPairs.html">ICPGroupPairs</a>, <a class="el" href="namespaceMR.html#ab448f2e256aabf3e97eaaef010380fb1">ICPElementId</a>&gt;, <a class="el" href="namespaceMR.html#ab448f2e256aabf3e97eaaef010380fb1">ICPElementId</a>&gt;</td></tr>
+<tr class="separator:a3d0081672e0ccdc9545b8df2b84c3663"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a5ab86c171d5af25d7d43bdbc7ee326cc" id="r_a5ab86c171d5af25d7d43bdbc7ee326cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5ab86c171d5af25d7d43bdbc7ee326cc">MR::updateGroupPairs</a> (<a class="el" href="structMR_1_1ICPGroupPairs.html">ICPGroupPairs</a> &amp;pairs, const <a class="el" href="namespaceMR.html#acc39cd0582abbbb48612bd904fe74210">ICPObjects</a> &amp;objs, <a class="el" href="namespaceMR.html#a331d6b27226046972c32b7d946f0624b">ICPGroupProjector</a> srcProjector, <a class="el" href="namespaceMR.html#a331d6b27226046972c32b7d946f0624b">ICPGroupProjector</a> tgtProjector, float cosTreshold, float distThresholdSq, bool mutualClosest)</td></tr>
+<tr class="memdesc:a5ab86c171d5af25d7d43bdbc7ee326cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">in each pair updates the target data and performs basic filtering (activation)  <br /></td></tr>
+<tr class="separator:a5ab86c171d5af25d7d43bdbc7ee326cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

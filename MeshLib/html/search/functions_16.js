@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['w_0',['w',['../structMR_1_1Dipole.html#a149b888cc889ea2d30db7aaaee5ac34b',1,'MR::Dipole']]],
+  ['w_0',['w',['../structMR_1_1Dipole.html#ad0067762da3b2fc1436b75cd4bc8b7e2',1,'MR::Dipole']]],
   ['waitblocking_1',['waitBlocking',['../classMR_1_1AsyncTimer.html#ab495cfbb4703c6205a17bc2dcd0a6b44',1,'MR::AsyncTimer']]],
   ['wasinterrupted_2',['wasInterrupted',['../structMR_1_1ProgressInterrupter.html#aa7c319b39d9ff06438f19d5c5306139e',1,'MR::ProgressInterrupter']]],
   ['watershedgraph_3',['WatershedGraph',['../classMR_1_1WatershedGraph.html#acbb29b2acc410b0a58645c023d793842',1,'MR::WatershedGraph']]],

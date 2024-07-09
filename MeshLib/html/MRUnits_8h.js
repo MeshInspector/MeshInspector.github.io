@@ -7,6 +7,9 @@ var MRUnits_8h =
     [ "MR::detail::Units::Scalar", "conceptMR_1_1detail_1_1Units_1_1Scalar.html", null ],
     [ "DETAIL_MR_UNIT_ENUMS", "MRUnits_8h.html#a51e60d4d94856e5e896a7a222e68986e", null ],
     [ "DETAIL_MR_UNIT_VALUE_TYPES", "MRUnits_8h.html#a31e02139b1a4eba58d1b3368303217c1", null ],
+    [ "MR_TRIM_LEADING_COMMA", "MRUnits_8h.html#a11806a80fef697ddb9a820cc22204f3b", null ],
+    [ "MR_TRIM_LEADING_COMMA_", "MRUnits_8h.html#afb95e3a49d0b0157f47ffdf7aaafd1b9", null ],
+    [ "MR_X", "MRUnits_8h.html#a0bd0e9453da08815bd042baada75c822", null ],
     [ "MR_X", "MRUnits_8h.html#a0bd0e9453da08815bd042baada75c822", null ],
     [ "MR_X", "MRUnits_8h.html#a0bd0e9453da08815bd042baada75c822", null ],
     [ "MR_X", "MRUnits_8h.html#a0bd0e9453da08815bd042baada75c822", null ],
@@ -14,9 +17,12 @@ var MRUnits_8h =
     [ "MR_X", "MRUnits_8h.html#a0bd0e9453da08815bd042baada75c822", null ],
     [ "MR_X", "MRUnits_8h.html#a0bd0e9453da08815bd042baada75c822", null ],
     [ "MR_X", "MRUnits_8h.html#a891b2b5385b2cad48e493d95566988c0", null ],
+    [ "MR_X", "MRUnits_8h.html#a891b2b5385b2cad48e493d95566988c0", null ],
+    [ "MR_X", "MRUnits_8h.html#a891b2b5385b2cad48e493d95566988c0", null ],
     [ "MR_Y", "MRUnits_8h.html#a4b57043d301c7b9e5a15080d7f0e801a", null ],
     [ "MR_Y", "MRUnits_8h.html#a4b57043d301c7b9e5a15080d7f0e801a", null ],
     [ "MakeFloatingPoint", "MRUnits_8h.html#aec57db09655986b2ed959d498edc6f2a", null ],
+    [ "VarUnitToStringParams", "MRUnits_8h.html#afcac7cfa63a119745d66e8d1de48b084", null ],
     [ "AngleUnit", "MRUnits_8h.html#af673fdef7d01a580ce58c29b84ea9bea", [
       [ "radians", "MRUnits_8h.html#af673fdef7d01a580ce58c29b84ea9beaa017969ba49117264eb077e9f66daacfd", null ],
       [ "degrees", "MRUnits_8h.html#af673fdef7d01a580ce58c29b84ea9beaa18daee01fc6e54aacd7f4c2eef60ff4d", null ],
@@ -80,5 +86,7 @@ var MRUnits_8h =
     [ "setDefaultUnitParams", "MRUnits_8h.html#a822feec21d0c267d63b63429392323c9", null ],
     [ "unitsAreEquivalent", "MRUnits_8h.html#a7223f0b55060f4ce1f1e6f9c37ff0867", null ],
     [ "valueToImGuiFormatString", "MRUnits_8h.html#a888aed091b9c64c5a26d9490cd820f89", null ],
-    [ "valueToString", "MRUnits_8h.html#a4d3f8a6d1d7a0498aa353e88c7456182", null ]
+    [ "valueToImGuiFormatString", "MRUnits_8h.html#ac3733c3924551342afaddf9b84564e21", null ],
+    [ "valueToString", "MRUnits_8h.html#a4d3f8a6d1d7a0498aa353e88c7456182", null ],
+    [ "valueToString", "MRUnits_8h.html#ae67e358aa67b3bec22536c544a8ed160", null ]
 ];

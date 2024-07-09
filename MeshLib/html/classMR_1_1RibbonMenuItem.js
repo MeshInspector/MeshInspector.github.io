@@ -1,7 +1,7 @@
 var classMR_1_1RibbonMenuItem =
 [
     [ "DropItemsList", "classMR_1_1RibbonMenuItem.html#a4799011be3410f46444164d6d00b966e", null ],
-    [ "RibbonMenuItem", "classMR_1_1RibbonMenuItem.html#a45939d4c50c20e1fe0bbfdb77d397ae1", null ],
+    [ "RibbonMenuItem", "classMR_1_1RibbonMenuItem.html#ad3e0eda49eae11a9fba79187c62e07bb", null ],
     [ "~RibbonMenuItem", "classMR_1_1RibbonMenuItem.html#ac8074b75f1c764d041b11210b5b7541c", null ],
     [ "action", "classMR_1_1RibbonMenuItem.html#a4af847e120965263839d2628cf7dd979", null ],
     [ "blocking", "classMR_1_1RibbonMenuItem.html#ac9fd2cbdcf5356c6fbb093464568afdc", null ],

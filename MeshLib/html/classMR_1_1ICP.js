@@ -10,6 +10,7 @@ var classMR_1_1ICP =
     [ "getMeanSqDistToPlane", "classMR_1_1ICP.html#ad235353480650c74fddf9b25b125ca02", null ],
     [ "getMeanSqDistToPoint", "classMR_1_1ICP.html#ae230860d711e0bc5b25d98ee5d0e9e41", null ],
     [ "getNumActivePairs", "classMR_1_1ICP.html#a65b7b6725dccffc2b4ed1ff739c1b43c", null ],
+    [ "getNumSamples", "classMR_1_1ICP.html#a13f3b74f82ce6db64eeb57d6a5c043e5", null ],
     [ "getParams", "classMR_1_1ICP.html#a3b44361c18aeb9ceab9d26c86c5939ef", null ],
     [ "getRef2FltPairs", "classMR_1_1ICP.html#a5ae6b714ad76474375e6365bb6a882a6", null ],
     [ "getStatusInfo", "classMR_1_1ICP.html#ae72751da7183b696497da8a66bf7e256", null ],

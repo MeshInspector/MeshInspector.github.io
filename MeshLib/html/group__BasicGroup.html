@@ -163,7 +163,7 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga300a438da6440ee7d2e92933bcfa6018" id="r_ga300a438da6440ee7d2e92933bcfa6018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga300a438da6440ee7d2e92933bcfa6018">MR::operator==</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b)</td></tr>
+<tr class="memitem:ga300a438da6440ee7d2e92933bcfa6018" id="r_ga300a438da6440ee7d2e92933bcfa6018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga300a438da6440ee7d2e92933bcfa6018">MR::operator==</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b)</td></tr>
 <tr class="memdesc:ga300a438da6440ee7d2e92933bcfa6018"><td class="mdescLeft">&#160;</td><td class="mdescRight">compare that two bit sets have the same set bits (they can be equal even if sizes are distinct but last bits are off)  <br /></td></tr>
 <tr class="separator:ga300a438da6440ee7d2e92933bcfa6018"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3cb32d170d480a2efd86849814c074fb" id="r_ga3cb32d170d480a2efd86849814c074fb"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
@@ -254,6 +254,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga2442ef2afa7012af6ca21ebcb6604536"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga2442ef2afa7012af6ca21ebcb6604536">MR::heapBytes</a> (const std::vector&lt; T &gt; &amp;vec)</td></tr>
 <tr class="memdesc:ga2442ef2afa7012af6ca21ebcb6604536"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory given vector occupies on heap  <br /></td></tr>
 <tr class="separator:ga2442ef2afa7012af6ca21ebcb6604536"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga92b723fb37bb2e5133cba528ecd679e6" id="r_ga92b723fb37bb2e5133cba528ecd679e6"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
+<tr class="memitem:ga92b723fb37bb2e5133cba528ecd679e6"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga92b723fb37bb2e5133cba528ecd679e6">MR::heapBytes</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, U &gt; &amp;vec)</td></tr>
+<tr class="separator:ga92b723fb37bb2e5133cba528ecd679e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6f62a19a1892f63b5d147de8ef2160c0" id="r_ga6f62a19a1892f63b5d147de8ef2160c0"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga6f62a19a1892f63b5d147de8ef2160c0"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga6f62a19a1892f63b5d147de8ef2160c0">MR::heapBytes</a> (const std::unique_ptr&lt; T &gt; &amp;ptr)</td></tr>
 <tr class="memdesc:ga6f62a19a1892f63b5d147de8ef2160c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this smart pointer and its pointed object own together on heap  <br /></td></tr>
@@ -262,11 +265,11 @@ Functions</h2></td></tr>
 <tr class="memitem:gac4cf85680ec3620cb08726ea6668e99a"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gac4cf85680ec3620cb08726ea6668e99a">MR::heapBytes</a> (const std::shared_ptr&lt; T &gt; &amp;ptr)</td></tr>
 <tr class="memdesc:gac4cf85680ec3620cb08726ea6668e99a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this smart pointer and its pointed object own together on heap  <br /></td></tr>
 <tr class="separator:gac4cf85680ec3620cb08726ea6668e99a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6804a7415d5f018fa64bf1b533af3d4f" id="r_ga6804a7415d5f018fa64bf1b533af3d4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6804a7415d5f018fa64bf1b533af3d4f">MR::setupLoggerByDefault</a> ()</td></tr>
+<tr class="memitem:ga6804a7415d5f018fa64bf1b533af3d4f" id="r_ga6804a7415d5f018fa64bf1b533af3d4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6804a7415d5f018fa64bf1b533af3d4f">MR::setupLoggerByDefault</a> ()</td></tr>
 <tr class="separator:ga6804a7415d5f018fa64bf1b533af3d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga52d34a9bbe60f99085e9aab32040499f" id="r_ga52d34a9bbe60f99085e9aab32040499f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga52d34a9bbe60f99085e9aab32040499f">MR::redirectSTDStreamsToLogger</a> ()</td></tr>
+<tr class="memitem:ga52d34a9bbe60f99085e9aab32040499f" id="r_ga52d34a9bbe60f99085e9aab32040499f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga52d34a9bbe60f99085e9aab32040499f">MR::redirectSTDStreamsToLogger</a> ()</td></tr>
 <tr class="separator:ga52d34a9bbe60f99085e9aab32040499f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga49107746ea2415c9c89d28a9e0f56112" id="r_ga49107746ea2415c9c89d28a9e0f56112"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga49107746ea2415c9c89d28a9e0f56112">MR::printStacktraceOnCrash</a> ()</td></tr>
+<tr class="memitem:ga49107746ea2415c9c89d28a9e0f56112" id="r_ga49107746ea2415c9c89d28a9e0f56112"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga49107746ea2415c9c89d28a9e0f56112">MR::printStacktraceOnCrash</a> ()</td></tr>
 <tr class="memdesc:ga49107746ea2415c9c89d28a9e0f56112"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print stacktrace on application crash.  <br /></td></tr>
 <tr class="separator:ga49107746ea2415c9c89d28a9e0f56112"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0f1d9c02d9be540b9ebb830334428fe5" id="r_ga0f1d9c02d9be540b9ebb830334428fe5"><td class="memTemplParams" colspan="2">template&lt;typename I , typename F &gt; </td></tr>
@@ -291,39 +294,39 @@ Functions</h2></td></tr>
 <tr class="memitem:ga838286be4a47d0b585d7ddb373d0abf0" id="r_ga838286be4a47d0b585d7ddb373d0abf0"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
 <tr class="memitem:ga838286be4a47d0b585d7ddb373d0abf0"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga838286be4a47d0b585d7ddb373d0abf0">MR::parallelMinMaxArg</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;vec, const T *topExcluding=nullptr)</td></tr>
 <tr class="separator:ga838286be4a47d0b585d7ddb373d0abf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4accadafe09c169e3742b72d1e5e5733" id="r_ga4accadafe09c169e3742b72d1e5e5733"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4accadafe09c169e3742b72d1e5e5733">MR::vertMapsComposition</a> (<a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> &amp;a2b, const <a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> &amp;b2c)</td></tr>
+<tr class="memitem:ga4accadafe09c169e3742b72d1e5e5733" id="r_ga4accadafe09c169e3742b72d1e5e5733"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4accadafe09c169e3742b72d1e5e5733">MR::vertMapsComposition</a> (<a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> &amp;a2b, const <a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> &amp;b2c)</td></tr>
 <tr class="memdesc:ga4accadafe09c169e3742b72d1e5e5733"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates a2b map to a2c map using b2c map  <br /></td></tr>
 <tr class="separator:ga4accadafe09c169e3742b72d1e5e5733"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad522c5e76d8252c0c5a3bc55818ce589" id="r_gad522c5e76d8252c0c5a3bc55818ce589"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad522c5e76d8252c0c5a3bc55818ce589">MR::vertMapsComposition</a> (const <a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> &amp;a2b, const <a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> &amp;b2c)</td></tr>
+<tr class="memitem:gad522c5e76d8252c0c5a3bc55818ce589" id="r_gad522c5e76d8252c0c5a3bc55818ce589"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad522c5e76d8252c0c5a3bc55818ce589">MR::vertMapsComposition</a> (const <a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> &amp;a2b, const <a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> &amp;b2c)</td></tr>
 <tr class="memdesc:gad522c5e76d8252c0c5a3bc55818ce589"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns map a2c from a2b and b2c maps  <br /></td></tr>
 <tr class="separator:gad522c5e76d8252c0c5a3bc55818ce589"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6c6986e0b57b1aaf6c155adb000bc9f3" id="r_ga6c6986e0b57b1aaf6c155adb000bc9f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6c6986e0b57b1aaf6c155adb000bc9f3">MR::edgeMapsComposition</a> (<a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a> &amp;a2b, const <a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a> &amp;b2c)</td></tr>
+<tr class="memitem:ga6c6986e0b57b1aaf6c155adb000bc9f3" id="r_ga6c6986e0b57b1aaf6c155adb000bc9f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6c6986e0b57b1aaf6c155adb000bc9f3">MR::edgeMapsComposition</a> (<a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a> &amp;a2b, const <a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a> &amp;b2c)</td></tr>
 <tr class="memdesc:ga6c6986e0b57b1aaf6c155adb000bc9f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates a2b map to a2c map using b2c map  <br /></td></tr>
 <tr class="separator:ga6c6986e0b57b1aaf6c155adb000bc9f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa8261f1d45e6d92532c31f3e4ca98614" id="r_gaa8261f1d45e6d92532c31f3e4ca98614"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa8261f1d45e6d92532c31f3e4ca98614">MR::edgeMapsComposition</a> (const <a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a> &amp;a2b, const <a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a> &amp;b2c)</td></tr>
+<tr class="memitem:gaa8261f1d45e6d92532c31f3e4ca98614" id="r_gaa8261f1d45e6d92532c31f3e4ca98614"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa8261f1d45e6d92532c31f3e4ca98614">MR::edgeMapsComposition</a> (const <a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a> &amp;a2b, const <a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a> &amp;b2c)</td></tr>
 <tr class="memdesc:gaa8261f1d45e6d92532c31f3e4ca98614"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns map a2c from a2b and b2c maps  <br /></td></tr>
 <tr class="separator:gaa8261f1d45e6d92532c31f3e4ca98614"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae15f0e77aea97c2194995913d9b8acfa" id="r_gae15f0e77aea97c2194995913d9b8acfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae15f0e77aea97c2194995913d9b8acfa">MR::faceMapsComposition</a> (<a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a> &amp;a2b, const <a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a> &amp;b2c)</td></tr>
+<tr class="memitem:gae15f0e77aea97c2194995913d9b8acfa" id="r_gae15f0e77aea97c2194995913d9b8acfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae15f0e77aea97c2194995913d9b8acfa">MR::faceMapsComposition</a> (<a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a> &amp;a2b, const <a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a> &amp;b2c)</td></tr>
 <tr class="memdesc:gae15f0e77aea97c2194995913d9b8acfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates a2b map to a2c map using b2c map  <br /></td></tr>
 <tr class="separator:gae15f0e77aea97c2194995913d9b8acfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab49400ae6dafb3acc3d4f328d6658e75" id="r_gab49400ae6dafb3acc3d4f328d6658e75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab49400ae6dafb3acc3d4f328d6658e75">MR::faceMapsComposition</a> (const <a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a> &amp;a2b, const <a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a> &amp;b2c)</td></tr>
+<tr class="memitem:gab49400ae6dafb3acc3d4f328d6658e75" id="r_gab49400ae6dafb3acc3d4f328d6658e75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab49400ae6dafb3acc3d4f328d6658e75">MR::faceMapsComposition</a> (const <a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a> &amp;a2b, const <a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a> &amp;b2c)</td></tr>
 <tr class="memdesc:gab49400ae6dafb3acc3d4f328d6658e75"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns map a2c from a2b and b2c maps  <br /></td></tr>
 <tr class="separator:gab49400ae6dafb3acc3d4f328d6658e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga245584b85505ab9157d346bb3d8caf53" id="r_ga245584b85505ab9157d346bb3d8caf53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga245584b85505ab9157d346bb3d8caf53">MR::findSubstringCaseInsensitive</a> (const std::string &amp;string, const std::string &amp;substring)</td></tr>
+<tr class="memitem:ga245584b85505ab9157d346bb3d8caf53" id="r_ga245584b85505ab9157d346bb3d8caf53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga245584b85505ab9157d346bb3d8caf53">MR::findSubstringCaseInsensitive</a> (const std::string &amp;string, const std::string &amp;substring)</td></tr>
 <tr class="separator:ga245584b85505ab9157d346bb3d8caf53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6847ba96188840cbc3f036b1f47fbbbd" id="r_ga6847ba96188840cbc3f036b1f47fbbbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6847ba96188840cbc3f036b1f47fbbbd">MR::calcDamerauLevenshteinDistance</a> (const std::string &amp;stringA, const std::string &amp;stringB, bool caseSensitive=true)</td></tr>
+<tr class="memitem:ga6847ba96188840cbc3f036b1f47fbbbd" id="r_ga6847ba96188840cbc3f036b1f47fbbbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6847ba96188840cbc3f036b1f47fbbbd">MR::calcDamerauLevenshteinDistance</a> (const std::string &amp;stringA, const std::string &amp;stringB, bool caseSensitive=true)</td></tr>
 <tr class="separator:ga6847ba96188840cbc3f036b1f47fbbbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4a32fd3117efa96b71c220bfc13c359b" id="r_ga4a32fd3117efa96b71c220bfc13c359b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4a32fd3117efa96b71c220bfc13c359b">MR::split</a> (const std::string &amp;string, const std::string &amp;delimiter)</td></tr>
+<tr class="memitem:ga4a32fd3117efa96b71c220bfc13c359b" id="r_ga4a32fd3117efa96b71c220bfc13c359b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4a32fd3117efa96b71c220bfc13c359b">MR::split</a> (const std::string &amp;string, const std::string &amp;delimiter)</td></tr>
 <tr class="separator:ga4a32fd3117efa96b71c220bfc13c359b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga543d43a804760961ac67ad3689330c1d" id="r_ga543d43a804760961ac67ad3689330c1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::wstring&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga543d43a804760961ac67ad3689330c1d">MR::utf8ToWide</a> (const char *utf8)</td></tr>
+<tr class="memitem:ga543d43a804760961ac67ad3689330c1d" id="r_ga543d43a804760961ac67ad3689330c1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::wstring&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga543d43a804760961ac67ad3689330c1d">MR::utf8ToWide</a> (const char *utf8)</td></tr>
 <tr class="memdesc:ga543d43a804760961ac67ad3689330c1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts UTF8-encoded string into UTF16-encoded string  <br /></td></tr>
 <tr class="separator:ga543d43a804760961ac67ad3689330c1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9a6b64a85d116ca32c7ff8b93ca80da1" id="r_ga9a6b64a85d116ca32c7ff8b93ca80da1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9a6b64a85d116ca32c7ff8b93ca80da1">MR::systemToUtf8</a> (const std::string &amp;system)</td></tr>
+<tr class="memitem:ga9a6b64a85d116ca32c7ff8b93ca80da1" id="r_ga9a6b64a85d116ca32c7ff8b93ca80da1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9a6b64a85d116ca32c7ff8b93ca80da1">MR::systemToUtf8</a> (const std::string &amp;system)</td></tr>
 <tr class="memdesc:ga9a6b64a85d116ca32c7ff8b93ca80da1"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts system encoded string to UTF8-encoded string  <br /></td></tr>
 <tr class="separator:ga9a6b64a85d116ca32c7ff8b93ca80da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga01094b293542b9fcf1b2f084dbf799a9" id="r_ga01094b293542b9fcf1b2f084dbf799a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga01094b293542b9fcf1b2f084dbf799a9">MR::utf8ToSystem</a> (const std::string &amp;utf8)</td></tr>
+<tr class="memitem:ga01094b293542b9fcf1b2f084dbf799a9" id="r_ga01094b293542b9fcf1b2f084dbf799a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga01094b293542b9fcf1b2f084dbf799a9">MR::utf8ToSystem</a> (const std::string &amp;utf8)</td></tr>
 <tr class="separator:ga01094b293542b9fcf1b2f084dbf799a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadb714bf1d28f6f3ded61d78dd90dd796" id="r_gadb714bf1d28f6f3ded61d78dd90dd796"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadb714bf1d28f6f3ded61d78dd90dd796">MR::wideToUtf8</a> (const wchar_t *wide)</td></tr>
+<tr class="memitem:gadb714bf1d28f6f3ded61d78dd90dd796" id="r_gadb714bf1d28f6f3ded61d78dd90dd796"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadb714bf1d28f6f3ded61d78dd90dd796">MR::wideToUtf8</a> (const wchar_t *wide)</td></tr>
 <tr class="memdesc:gadb714bf1d28f6f3ded61d78dd90dd796"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts wide null terminating string to UTF8-encoded string  <br /></td></tr>
 <tr class="separator:gadb714bf1d28f6f3ded61d78dd90dd796"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga772133dc76f16920332b4b0074da394e" id="r_ga772133dc76f16920332b4b0074da394e"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga772133dc76f16920332b4b0074da394e">MR::asString</a> (const std::string &amp;s)</td></tr>
@@ -341,17 +344,17 @@ Functions</h2></td></tr>
 <tr class="memitem:ga98812dc656fac3fb9c565e7fc0c7922d" id="r_ga98812dc656fac3fb9c565e7fc0c7922d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga98812dc656fac3fb9c565e7fc0c7922d">MR::utf8string</a> (const std::filesystem::path &amp;path)</td></tr>
 <tr class="memdesc:ga98812dc656fac3fb9c565e7fc0c7922d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns filename as UTF8-encoded string  <br /></td></tr>
 <tr class="separator:ga98812dc656fac3fb9c565e7fc0c7922d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga52ef6e1208fe1f50e79f683d8f04fd15" id="r_ga52ef6e1208fe1f50e79f683d8f04fd15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga52ef6e1208fe1f50e79f683d8f04fd15">MR::printTimingTreeAtEnd</a> (bool on, double minTimeSec=0.1)</td></tr>
+<tr class="memitem:ga52ef6e1208fe1f50e79f683d8f04fd15" id="r_ga52ef6e1208fe1f50e79f683d8f04fd15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga52ef6e1208fe1f50e79f683d8f04fd15">MR::printTimingTreeAtEnd</a> (bool on, double minTimeSec=0.1)</td></tr>
 <tr class="separator:ga52ef6e1208fe1f50e79f683d8f04fd15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga92715abafbf0ac9f1aef87f2cff3088a" id="r_ga92715abafbf0ac9f1aef87f2cff3088a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga92715abafbf0ac9f1aef87f2cff3088a">MR::printCurrentTimerBranch</a> ()</td></tr>
+<tr class="memitem:ga92715abafbf0ac9f1aef87f2cff3088a" id="r_ga92715abafbf0ac9f1aef87f2cff3088a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga92715abafbf0ac9f1aef87f2cff3088a">MR::printCurrentTimerBranch</a> ()</td></tr>
 <tr class="memdesc:ga92715abafbf0ac9f1aef87f2cff3088a"><td class="mdescLeft">&#160;</td><td class="mdescRight">prints current timer branch  <br /></td></tr>
 <tr class="separator:ga92715abafbf0ac9f1aef87f2cff3088a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab32915ca171bafe6752bb0a93f15a19f" id="r_gab32915ca171bafe6752bb0a93f15a19f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab32915ca171bafe6752bb0a93f15a19f">MR::printTimingTreeAndStop</a> (double minTimeSec=0.1)</td></tr>
+<tr class="memitem:gab32915ca171bafe6752bb0a93f15a19f" id="r_gab32915ca171bafe6752bb0a93f15a19f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab32915ca171bafe6752bb0a93f15a19f">MR::printTimingTreeAndStop</a> (double minTimeSec=0.1)</td></tr>
 <tr class="separator:gab32915ca171bafe6752bb0a93f15a19f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3d791692d52c8b5cf77a9c5e6002cef1" id="r_ga3d791692d52c8b5cf77a9c5e6002cef1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3d791692d52c8b5cf77a9c5e6002cef1">MR::registerThreadRootTimeRecord</a> (<a class="el" href="structMR_1_1ThreadRootTimeRecord.html">ThreadRootTimeRecord</a> &amp;root)</td></tr>
+<tr class="memitem:ga3d791692d52c8b5cf77a9c5e6002cef1" id="r_ga3d791692d52c8b5cf77a9c5e6002cef1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3d791692d52c8b5cf77a9c5e6002cef1">MR::registerThreadRootTimeRecord</a> (<a class="el" href="structMR_1_1ThreadRootTimeRecord.html">ThreadRootTimeRecord</a> &amp;root)</td></tr>
 <tr class="memdesc:ga3d791692d52c8b5cf77a9c5e6002cef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">installs given record in the current thread (no record must be installed before)  <br /></td></tr>
 <tr class="separator:ga3d791692d52c8b5cf77a9c5e6002cef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac017b35cedae37be54b10e3302c6c71d" id="r_gac017b35cedae37be54b10e3302c6c71d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac017b35cedae37be54b10e3302c6c71d">MR::unregisterThreadRootTimeRecord</a> (<a class="el" href="structMR_1_1ThreadRootTimeRecord.html">ThreadRootTimeRecord</a> &amp;root)</td></tr>
+<tr class="memitem:gac017b35cedae37be54b10e3302c6c71d" id="r_gac017b35cedae37be54b10e3302c6c71d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac017b35cedae37be54b10e3302c6c71d">MR::unregisterThreadRootTimeRecord</a> (<a class="el" href="structMR_1_1ThreadRootTimeRecord.html">ThreadRootTimeRecord</a> &amp;root)</td></tr>
 <tr class="memdesc:gac017b35cedae37be54b10e3302c6c71d"><td class="mdescLeft">&#160;</td><td class="mdescRight">un-installs given record in the current thread  <br /></td></tr>
 <tr class="separator:gac017b35cedae37be54b10e3302c6c71d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa4bfd91f5deea86ed182d80b926a7d67" id="r_gaa4bfd91f5deea86ed182d80b926a7d67"><td class="memTemplParams" colspan="2">template&lt;typename M &gt; </td></tr>
@@ -746,7 +749,7 @@ template&lt;typename BS , typename F , typename ... Cb&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int MR::calcDamerauLevenshteinDistance </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int MR::calcDamerauLevenshteinDistance </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>stringA</em></span>, </td>
         </tr>
@@ -843,7 +846,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a> MR::edgeMapsComposition </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a> MR::edgeMapsComposition </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a2b</em></span>, </td>
         </tr>
@@ -871,7 +874,7 @@ template&lt;typename T &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::edgeMapsComposition </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::edgeMapsComposition </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a2b</em></span>, </td>
         </tr>
@@ -949,7 +952,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a> MR::faceMapsComposition </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a> MR::faceMapsComposition </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a2b</em></span>, </td>
         </tr>
@@ -977,7 +980,7 @@ template&lt;typename T &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::faceMapsComposition </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::faceMapsComposition </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a2b</em></span>, </td>
         </tr>
@@ -1003,7 +1006,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t MR::findSubstringCaseInsensitive </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t MR::findSubstringCaseInsensitive </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>string</em></span>, </td>
         </tr>
@@ -1157,7 +1160,7 @@ template&lt;typename T , typename I , typename P &gt; </div>
 </div>
 </div>
 <a id="gac4cf85680ec3620cb08726ea6668e99a" name="gac4cf85680ec3620cb08726ea6668e99a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac4cf85680ec3620cb08726ea6668e99a">&#9670;&#160;</a></span>heapBytes() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac4cf85680ec3620cb08726ea6668e99a">&#9670;&#160;</a></span>heapBytes() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1186,7 +1189,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="ga6f62a19a1892f63b5d147de8ef2160c0" name="ga6f62a19a1892f63b5d147de8ef2160c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6f62a19a1892f63b5d147de8ef2160c0">&#9670;&#160;</a></span>heapBytes() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6f62a19a1892f63b5d147de8ef2160c0">&#9670;&#160;</a></span>heapBytes() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1215,7 +1218,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="ga2442ef2afa7012af6ca21ebcb6604536" name="ga2442ef2afa7012af6ca21ebcb6604536"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2442ef2afa7012af6ca21ebcb6604536">&#9670;&#160;</a></span>heapBytes() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2442ef2afa7012af6ca21ebcb6604536">&#9670;&#160;</a></span>heapBytes() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1240,6 +1243,33 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>returns the amount of memory given vector occupies on heap </p>
+
+</div>
+</div>
+<a id="ga92b723fb37bb2e5133cba528ecd679e6" name="ga92b723fb37bb2e5133cba528ecd679e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga92b723fb37bb2e5133cba528ecd679e6">&#9670;&#160;</a></span>heapBytes() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::heapBytes </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, U &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1516,7 +1546,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::operator== </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::operator== </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -2003,7 +2033,7 @@ template&lt;typename T , typename I &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::printCurrentTimerBranch </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::printCurrentTimerBranch </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -2022,7 +2052,7 @@ template&lt;typename T , typename I &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::printStacktraceOnCrash </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::printStacktraceOnCrash </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -2041,7 +2071,7 @@ template&lt;typename T , typename I &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::printTimingTreeAndStop </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::printTimingTreeAndStop </td>
           <td>(</td>
           <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>minTimeSec</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0.1</span></td><td>)</td>
           <td></td>
@@ -2064,7 +2094,7 @@ template&lt;typename T , typename I &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::printTimingTreeAtEnd </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::printTimingTreeAtEnd </td>
           <td>(</td>
           <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>on</em></span>, </td>
         </tr>
@@ -2091,7 +2121,7 @@ template&lt;typename T , typename I &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::redirectSTDStreamsToLogger </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::redirectSTDStreamsToLogger </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -2109,7 +2139,7 @@ template&lt;typename T , typename I &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::registerThreadRootTimeRecord </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::registerThreadRootTimeRecord </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR_1_1ThreadRootTimeRecord.html">ThreadRootTimeRecord</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>root</em></span></td><td>)</td>
           <td></td>
@@ -2201,7 +2231,7 @@ template&lt;typename T , typename I , typename P &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::setupLoggerByDefault </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::setupLoggerByDefault </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -2247,7 +2277,7 @@ template&lt;typename T , typename I , typename P &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; std::string &gt; MR::split </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; std::string &gt; MR::split </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>string</em></span>, </td>
         </tr>
@@ -2274,7 +2304,7 @@ template&lt;typename T , typename I , typename P &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string MR::systemToUtf8 </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string MR::systemToUtf8 </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>system</em></span></td><td>)</td>
           <td></td>
@@ -2293,7 +2323,7 @@ template&lt;typename T , typename I , typename P &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::unregisterThreadRootTimeRecord </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::unregisterThreadRootTimeRecord </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR_1_1ThreadRootTimeRecord.html">ThreadRootTimeRecord</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>root</em></span></td><td>)</td>
           <td></td>
@@ -2339,7 +2369,7 @@ template&lt;typename T , typename I , typename P &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string MR::utf8ToSystem </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string MR::utf8ToSystem </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>utf8</em></span></td><td>)</td>
           <td></td>
@@ -2357,7 +2387,7 @@ template&lt;typename T , typename I , typename P &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::wstring MR::utf8ToWide </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::wstring MR::utf8ToWide </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>utf8</em></span></td><td>)</td>
           <td></td>
@@ -2379,7 +2409,7 @@ template&lt;typename T , typename I , typename P &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> MR::vertMapsComposition </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> MR::vertMapsComposition </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a2b</em></span>, </td>
         </tr>
@@ -2407,7 +2437,7 @@ template&lt;typename T , typename I , typename P &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::vertMapsComposition </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::vertMapsComposition </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a2b</em></span>, </td>
         </tr>
@@ -2430,7 +2460,7 @@ template&lt;typename T , typename I , typename P &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string MR::wideToUtf8 </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string MR::wideToUtf8 </td>
           <td>(</td>
           <td class="paramtype">const wchar_t *</td>          <td class="paramname"><span class="paramname"><em>wide</em></span></td><td>)</td>
           <td></td>

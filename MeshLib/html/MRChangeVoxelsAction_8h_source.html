@@ -108,11 +108,11 @@ $(function(){initNavTree('MRChangeVoxelsAction_8h_source.html',''); initResizabl
 </div><!--header-->
 <div class="contents">
 <a href="MRChangeVoxelsAction_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#ifndef MRMESH_NO_OPENVDB</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRHistoryAction_8h.html">MRHistoryAction.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRObjectVoxels_8h.html">MRObjectVoxels.h</a>&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_8h.html">MRMesh.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRMesh_8h.html">MRMesh.h</a>&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="MRHeapBytes_8h.html">MRHeapBytes.h</a>&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="MRFloatGrid_8h.html">MRFloatGrid.h</a>&quot;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
@@ -378,65 +378,68 @@ $(function(){initNavTree('MRChangeVoxelsAction_8h_source.html',''); initResizabl
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>        {</div>
 <div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>            vdbVolume_ = obj-&gt;vdbVolume();</div>
 <div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>            histogram_ = obj-&gt;histogram();</div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>        }</div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>    }</div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>            activeBox_ = obj-&gt;getActiveBounds();</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>        }</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>    }</div>
 </div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span> </div>
-<div class="foldopen" id="foldopen00233" data-start="{" data-end="}">
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeGridAction.html#abff717b27ad5da1a8a0048172c8397ef">  233</a></span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classMR_1_1ChangeGridAction.html#abff717b27ad5da1a8a0048172c8397ef">name</a>()<span class="keyword"> const override</span></div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>        <span class="keywordflow">return</span> name_;</div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>    }</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span> </div>
+<div class="foldopen" id="foldopen00234" data-start="{" data-end="}">
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeGridAction.html#abff717b27ad5da1a8a0048172c8397ef">  234</a></span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classMR_1_1ChangeGridAction.html#abff717b27ad5da1a8a0048172c8397ef">name</a>()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>        <span class="keywordflow">return</span> name_;</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>    }</div>
 </div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span> </div>
-<div class="foldopen" id="foldopen00238" data-start="{" data-end="}">
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeGridAction.html#a09423374eaa05f95dd0af7575fe17e62">  238</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ChangeGridAction.html#a09423374eaa05f95dd0af7575fe17e62">action</a>( <a class="code hl_enumeration" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a> obj )<span class="keyword"> override</span></div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>        <span class="keywordflow">if</span> ( !objVoxels_ )</div>
-<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span> </div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>        vdbVolume_ = objVoxels_-&gt;updateVdbVolume( std::move( vdbVolume_ ) );</div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>        histogram_ = objVoxels_-&gt;updateHistogram( std::move( histogram_ ) );</div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>        changeIsoAction_.<a class="code hl_function" href="classMR_1_1ChangeIsoAction.html#ac42a58b81acf452e6673fc739cdd14d0">action</a>( obj );</div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>        changeSurfaceAction_.<a class="code hl_function" href="classMR_1_1ChangeSurfaceAction.html#ae9190bfd7891e5a5cc1229fb42d4efd5">action</a>( obj );</div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>    }</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span> </div>
+<div class="foldopen" id="foldopen00239" data-start="{" data-end="}">
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeGridAction.html#a09423374eaa05f95dd0af7575fe17e62">  239</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ChangeGridAction.html#a09423374eaa05f95dd0af7575fe17e62">action</a>( <a class="code hl_enumeration" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a> obj )<span class="keyword"> override</span></div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>        <span class="keywordflow">if</span> ( !objVoxels_ )</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span> </div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>        vdbVolume_ = objVoxels_-&gt;updateVdbVolume( std::move( vdbVolume_ ) );</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>        histogram_ = objVoxels_-&gt;updateHistogram( std::move( histogram_ ) );</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>        activeBox_ = objVoxels_-&gt;updateActiveBounds( activeBox_ );</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>        changeIsoAction_.<a class="code hl_function" href="classMR_1_1ChangeIsoAction.html#ac42a58b81acf452e6673fc739cdd14d0">action</a>( obj );</div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>        changeSurfaceAction_.<a class="code hl_function" href="classMR_1_1ChangeSurfaceAction.html#ae9190bfd7891e5a5cc1229fb42d4efd5">action</a>( obj );</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>    }</div>
 </div>
-<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span> </div>
-<div class="foldopen" id="foldopen00249" data-start="{" data-end="}">
-<div class="line"><a id="l00249" name="l00249"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeGridAction.html#a7e6353d95f49ccea46c8ae6f33f15391">  249</a></span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ChangeGridAction.html#a7e6353d95f49ccea46c8ae6f33f15391">setObjectDirty</a>( <span class="keyword">const</span> std::shared_ptr&lt;Obj&gt;&amp; obj )</div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>    {</div>
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>        <span class="keywordflow">if</span> ( obj )</div>
-<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>            obj-&gt;setDirtyFlags( <a class="code hl_enumvalue" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a">DIRTY_ALL</a> );</div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>    }</div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span> </div>
+<div class="foldopen" id="foldopen00251" data-start="{" data-end="}">
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeGridAction.html#a7e6353d95f49ccea46c8ae6f33f15391">  251</a></span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ChangeGridAction.html#a7e6353d95f49ccea46c8ae6f33f15391">setObjectDirty</a>( <span class="keyword">const</span> std::shared_ptr&lt;Obj&gt;&amp; obj )</div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>    {</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>        <span class="keywordflow">if</span> ( obj )</div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>            obj-&gt;setDirtyFlags( <a class="code hl_enumvalue" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a">DIRTY_ALL</a> );</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>    }</div>
 </div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span> </div>
-<div class="foldopen" id="foldopen00255" data-start="{" data-end="}">
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeGridAction.html#ac2009abf4b8a560744458f59f5bc9328">  255</a></span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="classMR_1_1ChangeGridAction.html#ac2009abf4b8a560744458f59f5bc9328">heapBytes</a>()<span class="keyword"> const override</span></div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>        <span class="keywordflow">return</span> name_.capacity() + histogram_.<a class="code hl_function" href="classMR_1_1Histogram.html#a4666262b73e1f92125d26cb27d2d5eca">heapBytes</a>() + changeIsoAction_.<a class="code hl_function" href="classMR_1_1ChangeIsoAction.html#ae32cc04931a20fc9ae75cdcabad0b018">heapBytes</a>() + changeSurfaceAction_.<a class="code hl_function" href="classMR_1_1ChangeSurfaceAction.html#a8d95a8625e6cbeb9f194a629de34610d">heapBytes</a>() + <a class="code hl_function" href="group__BasicStructuresGroup.html#gaed038f421518710e518a218a55c19621">MR::heapBytes</a>( vdbVolume_.<a class="code hl_variable" href="structMR_1_1VoxelsVolume.html#a6ea81e0ad21fc888dfa262fb957f3c2e">data</a> );</div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>    }</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span> </div>
+<div class="foldopen" id="foldopen00257" data-start="{" data-end="}">
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeGridAction.html#ac2009abf4b8a560744458f59f5bc9328">  257</a></span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="classMR_1_1ChangeGridAction.html#ac2009abf4b8a560744458f59f5bc9328">heapBytes</a>()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>        <span class="keywordflow">return</span> name_.capacity() + histogram_.<a class="code hl_function" href="classMR_1_1Histogram.html#a4666262b73e1f92125d26cb27d2d5eca">heapBytes</a>() + changeIsoAction_.<a class="code hl_function" href="classMR_1_1ChangeIsoAction.html#ae32cc04931a20fc9ae75cdcabad0b018">heapBytes</a>() + changeSurfaceAction_.<a class="code hl_function" href="classMR_1_1ChangeSurfaceAction.html#a8d95a8625e6cbeb9f194a629de34610d">heapBytes</a>() + <a class="code hl_function" href="group__BasicStructuresGroup.html#gaed038f421518710e518a218a55c19621">MR::heapBytes</a>( vdbVolume_.<a class="code hl_variable" href="structMR_1_1VoxelsVolume.html#a6ea81e0ad21fc888dfa262fb957f3c2e">data</a> );</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>    }</div>
 </div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span> </div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>    std::shared_ptr&lt;ObjectVoxels&gt; objVoxels_;</div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>    <a class="code hl_class" href="structMR_1_1VoxelsVolume.html">VdbVolume</a> vdbVolume_;</div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    <a class="code hl_class" href="classMR_1_1Histogram.html">Histogram</a> histogram_;</div>
-<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>    <a class="code hl_class" href="classMR_1_1ChangeIsoAction.html">ChangeIsoAction</a> changeIsoAction_;</div>
-<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>    <a class="code hl_class" href="classMR_1_1ChangeSurfaceAction.html">ChangeSurfaceAction</a> changeSurfaceAction_;</div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span> </div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>    std::string name_;</div>
-<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>};</div>
-</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span> </div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    std::shared_ptr&lt;ObjectVoxels&gt; objVoxels_;</div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>    <a class="code hl_class" href="structMR_1_1VoxelsVolumeMinMax.html">VdbVolume</a> vdbVolume_;</div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>    <a class="code hl_class" href="classMR_1_1Histogram.html">Histogram</a> histogram_;</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>    <a class="code hl_class" href="classMR_1_1ChangeIsoAction.html">ChangeIsoAction</a> changeIsoAction_;</div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>    <a class="code hl_class" href="classMR_1_1ChangeSurfaceAction.html">ChangeSurfaceAction</a> changeSurfaceAction_;</div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>    <a class="code hl_struct" href="structMR_1_1Box.html">Box3i</a> activeBox_;</div>
 <div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span> </div>
-<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span> </div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>}</div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span> </div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>    std::string name_;</div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>};</div>
+</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span> </div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span> </div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>}</div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span> </div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aMRFloatGrid_8h_html"><div class="ttname"><a href="MRFloatGrid_8h.html">MRFloatGrid.h</a></div></div>
 <div class="ttc" id="aMRHeapBytes_8h_html"><div class="ttname"><a href="MRHeapBytes_8h.html">MRHeapBytes.h</a></div></div>
 <div class="ttc" id="aMRHistoryAction_8h_html"><div class="ttname"><a href="MRHistoryAction_8h.html">MRHistoryAction.h</a></div></div>
-<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
-<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="ttc" id="aMRMesh_2MRMesh_8h_html"><div class="ttname"><a href="MRMesh_2MRMesh_8h.html">MRMesh.h</a></div></div>
 <div class="ttc" id="aMRObjectVoxels_8h_html"><div class="ttname"><a href="MRObjectVoxels_8h.html">MRObjectVoxels.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1ChangeActiveBoxAction_html"><div class="ttname"><a href="classMR_1_1ChangeActiveBoxAction.html">MR::ChangeActiveBoxAction</a></div><div class="ttdef"><b>Definition</b> MRChangeVoxelsAction.h:121</div></div>
 <div class="ttc" id="aclassMR_1_1ChangeActiveBoxAction_html_a25b3ab2e8226cb91171a0128777eea34"><div class="ttname"><a href="classMR_1_1ChangeActiveBoxAction.html#a25b3ab2e8226cb91171a0128777eea34">MR::ChangeActiveBoxAction::name</a></div><div class="ttdeci">virtual std::string name() const override</div><div class="ttdef"><b>Definition</b> MRChangeVoxelsAction.h:135</div></div>
@@ -452,11 +455,11 @@ $(function(){initNavTree('MRChangeVoxelsAction_8h_source.html',''); initResizabl
 <div class="ttc" id="aclassMR_1_1ChangeDualMarchingCubesAction_html_aa1a7caf630b0a49b4015b7f8ad6f52c7"><div class="ttname"><a href="classMR_1_1ChangeDualMarchingCubesAction.html#aa1a7caf630b0a49b4015b7f8ad6f52c7">MR::ChangeDualMarchingCubesAction::setObjectDirty</a></div><div class="ttdeci">static void setObjectDirty(const std::shared_ptr&lt; Obj &gt; &amp;)</div><div class="ttdef"><b>Definition</b> MRChangeVoxelsAction.h:103</div></div>
 <div class="ttc" id="aclassMR_1_1ChangeDualMarchingCubesAction_html_ab2bf3699f09016d7d91c2eb1f588f409"><div class="ttname"><a href="classMR_1_1ChangeDualMarchingCubesAction.html#ab2bf3699f09016d7d91c2eb1f588f409">MR::ChangeDualMarchingCubesAction::ChangeDualMarchingCubesAction</a></div><div class="ttdeci">ChangeDualMarchingCubesAction(std::string name, const std::shared_ptr&lt; ObjectVoxels &gt; &amp;obj)</div><div class="ttdoc">use this constructor to remember object's dual-value before making any changes in it</div><div class="ttdef"><b>Definition</b> MRChangeVoxelsAction.h:70</div></div>
 <div class="ttc" id="aclassMR_1_1ChangeGridAction_html"><div class="ttname"><a href="classMR_1_1ChangeGridAction.html">MR::ChangeGridAction</a></div><div class="ttdef"><b>Definition</b> MRChangeVoxelsAction.h:216</div></div>
-<div class="ttc" id="aclassMR_1_1ChangeGridAction_html_a09423374eaa05f95dd0af7575fe17e62"><div class="ttname"><a href="classMR_1_1ChangeGridAction.html#a09423374eaa05f95dd0af7575fe17e62">MR::ChangeGridAction::action</a></div><div class="ttdeci">virtual void action(HistoryAction::Type obj) override</div><div class="ttdoc">This function is called on history action (undo, redo, etc.)</div><div class="ttdef"><b>Definition</b> MRChangeVoxelsAction.h:238</div></div>
+<div class="ttc" id="aclassMR_1_1ChangeGridAction_html_a09423374eaa05f95dd0af7575fe17e62"><div class="ttname"><a href="classMR_1_1ChangeGridAction.html#a09423374eaa05f95dd0af7575fe17e62">MR::ChangeGridAction::action</a></div><div class="ttdeci">virtual void action(HistoryAction::Type obj) override</div><div class="ttdoc">This function is called on history action (undo, redo, etc.)</div><div class="ttdef"><b>Definition</b> MRChangeVoxelsAction.h:239</div></div>
 <div class="ttc" id="aclassMR_1_1ChangeGridAction_html_a1f23e5db03c650766a3e405f207e32ba"><div class="ttname"><a href="classMR_1_1ChangeGridAction.html#a1f23e5db03c650766a3e405f207e32ba">MR::ChangeGridAction::ChangeGridAction</a></div><div class="ttdeci">ChangeGridAction(std::string name, const std::shared_ptr&lt; ObjectVoxels &gt; &amp;obj)</div><div class="ttdoc">use this constructor to remember object's data before making any changes in it</div><div class="ttdef"><b>Definition</b> MRChangeVoxelsAction.h:220</div></div>
-<div class="ttc" id="aclassMR_1_1ChangeGridAction_html_a7e6353d95f49ccea46c8ae6f33f15391"><div class="ttname"><a href="classMR_1_1ChangeGridAction.html#a7e6353d95f49ccea46c8ae6f33f15391">MR::ChangeGridAction::setObjectDirty</a></div><div class="ttdeci">static void setObjectDirty(const std::shared_ptr&lt; Obj &gt; &amp;obj)</div><div class="ttdef"><b>Definition</b> MRChangeVoxelsAction.h:249</div></div>
-<div class="ttc" id="aclassMR_1_1ChangeGridAction_html_abff717b27ad5da1a8a0048172c8397ef"><div class="ttname"><a href="classMR_1_1ChangeGridAction.html#abff717b27ad5da1a8a0048172c8397ef">MR::ChangeGridAction::name</a></div><div class="ttdeci">virtual std::string name() const override</div><div class="ttdef"><b>Definition</b> MRChangeVoxelsAction.h:233</div></div>
-<div class="ttc" id="aclassMR_1_1ChangeGridAction_html_ac2009abf4b8a560744458f59f5bc9328"><div class="ttname"><a href="classMR_1_1ChangeGridAction.html#ac2009abf4b8a560744458f59f5bc9328">MR::ChangeGridAction::heapBytes</a></div><div class="ttdeci">virtual size_t heapBytes() const override</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div><div class="ttdef"><b>Definition</b> MRChangeVoxelsAction.h:255</div></div>
+<div class="ttc" id="aclassMR_1_1ChangeGridAction_html_a7e6353d95f49ccea46c8ae6f33f15391"><div class="ttname"><a href="classMR_1_1ChangeGridAction.html#a7e6353d95f49ccea46c8ae6f33f15391">MR::ChangeGridAction::setObjectDirty</a></div><div class="ttdeci">static void setObjectDirty(const std::shared_ptr&lt; Obj &gt; &amp;obj)</div><div class="ttdef"><b>Definition</b> MRChangeVoxelsAction.h:251</div></div>
+<div class="ttc" id="aclassMR_1_1ChangeGridAction_html_abff717b27ad5da1a8a0048172c8397ef"><div class="ttname"><a href="classMR_1_1ChangeGridAction.html#abff717b27ad5da1a8a0048172c8397ef">MR::ChangeGridAction::name</a></div><div class="ttdeci">virtual std::string name() const override</div><div class="ttdef"><b>Definition</b> MRChangeVoxelsAction.h:234</div></div>
+<div class="ttc" id="aclassMR_1_1ChangeGridAction_html_ac2009abf4b8a560744458f59f5bc9328"><div class="ttname"><a href="classMR_1_1ChangeGridAction.html#ac2009abf4b8a560744458f59f5bc9328">MR::ChangeGridAction::heapBytes</a></div><div class="ttdeci">virtual size_t heapBytes() const override</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div><div class="ttdef"><b>Definition</b> MRChangeVoxelsAction.h:257</div></div>
 <div class="ttc" id="aclassMR_1_1ChangeIsoAction_html"><div class="ttname"><a href="classMR_1_1ChangeIsoAction.html">MR::ChangeIsoAction</a></div><div class="ttdoc">Undo action for ObjectVoxels iso-value change.</div><div class="ttdef"><b>Definition</b> MRChangeVoxelsAction.h:19</div></div>
 <div class="ttc" id="aclassMR_1_1ChangeIsoAction_html_a2a614036297c1082f74843b12d425b0f"><div class="ttname"><a href="classMR_1_1ChangeIsoAction.html#a2a614036297c1082f74843b12d425b0f">MR::ChangeIsoAction::name</a></div><div class="ttdeci">virtual std::string name() const override</div><div class="ttdef"><b>Definition</b> MRChangeVoxelsAction.h:33</div></div>
 <div class="ttc" id="aclassMR_1_1ChangeIsoAction_html_a9b71839721e6f85a7267c6593843e35d"><div class="ttname"><a href="classMR_1_1ChangeIsoAction.html#a9b71839721e6f85a7267c6593843e35d">MR::ChangeIsoAction::setObjectDirty</a></div><div class="ttdeci">static void setObjectDirty(const std::shared_ptr&lt; Obj &gt; &amp;)</div><div class="ttdef"><b>Definition</b> MRChangeVoxelsAction.h:48</div></div>
@@ -477,9 +480,9 @@ $(function(){initNavTree('MRChangeVoxelsAction_8h_source.html',''); initResizabl
 <div class="ttc" id="agroup__BasicStructuresGroup_html_gaed038f421518710e518a218a55c19621"><div class="ttname"><a href="group__BasicStructuresGroup.html#gaed038f421518710e518a218a55c19621">MR::heapBytes</a></div><div class="ttdeci">MRMESH_API size_t heapBytes(const FloatGrid &amp;grid)</div><div class="ttdoc">returns the amount of heap memory occupied by grid</div></div>
 <div class="ttc" id="agroup__VisualObjectGroup_html_gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a"><div class="ttname"><a href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a">MR::DIRTY_ALL</a></div><div class="ttdeci">@ DIRTY_ALL</div><div class="ttdef"><b>Definition</b> MRVisualObject.h:108</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
-<div class="ttc" id="astructMR_1_1Box_html"><div class="ttname"><a href="structMR_1_1Box.html">MR::Box</a></div><div class="ttdoc">Box given by its min- and max- corners.</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:263</div></div>
-<div class="ttc" id="astructMR_1_1VoxelsVolume_html"><div class="ttname"><a href="structMR_1_1VoxelsVolume.html">MR::VoxelsVolume&lt; FloatGrid &gt;</a></div></div>
-<div class="ttc" id="astructMR_1_1VoxelsVolume_html_a6ea81e0ad21fc888dfa262fb957f3c2e"><div class="ttname"><a href="structMR_1_1VoxelsVolume.html#a6ea81e0ad21fc888dfa262fb957f3c2e">MR::VoxelsVolume::data</a></div><div class="ttdeci">T data</div><div class="ttdef"><b>Definition</b> MRSimpleVolume.h:39</div></div>
+<div class="ttc" id="astructMR_1_1Box_html"><div class="ttname"><a href="structMR_1_1Box.html">MR::Box</a></div><div class="ttdoc">Box given by its min- and max- corners.</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:278</div></div>
+<div class="ttc" id="astructMR_1_1VoxelsVolumeMinMax_html"><div class="ttname"><a href="structMR_1_1VoxelsVolumeMinMax.html">MR::VoxelsVolumeMinMax&lt; FloatGrid &gt;</a></div></div>
+<div class="ttc" id="astructMR_1_1VoxelsVolume_html_a6ea81e0ad21fc888dfa262fb957f3c2e"><div class="ttname"><a href="structMR_1_1VoxelsVolume.html#a6ea81e0ad21fc888dfa262fb957f3c2e">MR::VoxelsVolume::data</a></div><div class="ttdeci">T data</div><div class="ttdef"><b>Definition</b> MRVoxelsVolume.h:39</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

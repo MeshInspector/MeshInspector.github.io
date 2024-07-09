@@ -210,10 +210,16 @@ $(function(){initNavTree('MRRenderMeshObject_8h_source.html',''); initResizable(
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="classMR_1_1RenderMeshObject.html#a9497665a3752c1392372f7259db26d4a">  100</a></span>    uint32_t dirty_{ 0 };</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="comment">// ...</span></div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="classMR_1_1RenderMeshObject.html#a59ecce80e0a471b2f17c0b6f9d9582e8">  102</a></span>    <span class="keywordtype">bool</span> dirtyEdges_{ <span class="keyword">false</span> };</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>};</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span><span class="preprocessor">#ifdef __EMSCRIPTEN__</span></div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    <span class="keywordtype">bool</span> cornerMode = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="classMR_1_1RenderMeshObject.html#afd5c5688fbd6d8c41b11f9295ba8d5ca">  107</a></span>    <span class="keywordtype">bool</span> cornerMode = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>};</div>
 </div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>}</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>}</div>
 <div class="ttc" id="aMRBuffer_8h_html"><div class="ttname"><a href="MRBuffer_8h.html">MRBuffer.h</a></div></div>
 <div class="ttc" id="aMRIRenderObject_8h_html"><div class="ttname"><a href="MRIRenderObject_8h.html">MRIRenderObject.h</a></div></div>
 <div class="ttc" id="aMRMeshTexture_8h_html"><div class="ttname"><a href="MRMeshTexture_8h.html">MRMeshTexture.h</a></div></div>
