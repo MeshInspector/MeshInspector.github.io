@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"MRPrecisePredicates3_8h.html":[13,0,0,1,2,295],
 "MRPrecisePredicates3_8h_source.html":[13,0,0,1,2,295],
 "MRPrimitiveMapsComposition_8h.html":[13,0,0,1,2,296],
 "MRPrimitiveMapsComposition_8h_source.html":[13,0,0,1,2,296],
@@ -29,6 +30,7 @@ var NAVTREEINDEX8 =
 "MRPythonAppendCommand_8h_source.html":[13,0,0,1,6,45],
 "MRPython_8h.html":[13,0,0,1,2,300],
 "MRPython_8h.html#a01602e407a8f74fb432a16769481688c":[13,0,0,1,2,300,6],
+"MRPython_8h.html#a061fb85f30303ae23e36fbe5fd7b687c":[13,0,0,1,2,300,5],
 "MRPython_8h.html#a066f4ba30a78670e5297434557c362db":[13,0,0,1,2,300,10],
 "MRPython_8h.html#a0a63eac4962f01ac9d1067840d25fe13":[13,0,0,1,2,300,4],
 "MRPython_8h.html#a1b144f9ec840f941a158bc9256711732":[13,0,0,1,2,300,15],
@@ -49,7 +51,6 @@ var NAVTREEINDEX8 =
 "MRPython_8h.html#ad3d8d8d2e659e278ea5e86f49078ddae":[13,0,0,1,2,300,11],
 "MRPython_8h.html#ae5ca7c53eb569ed9f6cf8fb01846e429":[13,0,0,1,2,300,14],
 "MRPython_8h.html#ae6956a35fce75d18a07941e975ae07cc":[13,0,0,1,2,300,16],
-"MRPython_8h.html#aeeef7bf1febc257ac7e567a755bd1e27":[13,0,0,1,2,300,5],
 "MRPython_8h_source.html":[13,0,0,1,2,300],
 "MRQuadraticForm_8h.html":[13,0,0,1,2,301],
 "MRQuadraticForm_8h_source.html":[13,0,0,1,2,301],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "MRSceneLoad_8h.html":[13,0,0,1,2,318],
 "MRSceneLoad_8h.html#a089505a3e07c34d60c30955259757d11":[13,0,0,1,2,318,3],
 "MRSceneLoad_8h.html#a70619566d4d89dbf29aaa2a7a3b4833e":[13,0,0,1,2,318,2],
-"MRSceneLoad_8h.html#ab13020e377967aca04518368ed70a509":[13,0,0,1,2,318,1],
-"MRSceneLoad_8h_source.html":[13,0,0,1,2,318]
+"MRSceneLoad_8h.html#ab13020e377967aca04518368ed70a509":[13,0,0,1,2,318,1]
 };

@@ -301,6 +301,7 @@ var annotated_dup =
       [ "DistanceMap", "classMR_1_1DistanceMap.html", "classMR_1_1DistanceMap" ],
       [ "DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html", "structMR_1_1DistanceMapToWorld" ],
       [ "DistanceMeasurementObject", "classMR_1_1DistanceMeasurementObject.html", "classMR_1_1DistanceMeasurementObject" ],
+      [ "DistanceToMeshOptions", "structMR_1_1DistanceToMeshOptions.html", "structMR_1_1DistanceToMeshOptions" ],
       [ "DistanceVolumeParams", "structMR_1_1DistanceVolumeParams.html", "structMR_1_1DistanceVolumeParams" ],
       [ "DividePointCloudOptionalOutput", "structMR_1_1DividePointCloudOptionalOutput.html", "structMR_1_1DividePointCloudOptionalOutput" ],
       [ "DividePolylineParameters", "structMR_1_1DividePolylineParameters.html", "structMR_1_1DividePolylineParameters" ],

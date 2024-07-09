@@ -163,8 +163,8 @@ Macros</h2></td></tr>
 <tr class="separator:aa16f7f41d780ad6feaed2d9115a5d5fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a0f3d850562d301fdc69b7f7831f572" id="r_a8a0f3d850562d301fdc69b7f7831f572"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a0f3d850562d301fdc69b7f7831f572">MR_ADD_PYTHON_CUSTOM_CLASS_INST_FUNC</a>(moduleName,  name, ...)</td></tr>
 <tr class="separator:a8a0f3d850562d301fdc69b7f7831f572"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeeef7bf1febc257ac7e567a755bd1e27" id="r_aeeef7bf1febc257ac7e567a755bd1e27"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeeef7bf1febc257ac7e567a755bd1e27">MR_ADD_PYTHON_CUSTOM_CLASS</a>(moduleName,  name,  type)</td></tr>
-<tr class="separator:aeeef7bf1febc257ac7e567a755bd1e27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a061fb85f30303ae23e36fbe5fd7b687c" id="r_a061fb85f30303ae23e36fbe5fd7b687c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a061fb85f30303ae23e36fbe5fd7b687c">MR_ADD_PYTHON_CUSTOM_CLASS</a>(moduleName,  name, ...)</td></tr>
+<tr class="separator:a061fb85f30303ae23e36fbe5fd7b687c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a970813ca4d787c0bbe1ca6b1bd231cf9" id="r_a970813ca4d787c0bbe1ca6b1bd231cf9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a970813ca4d787c0bbe1ca6b1bd231cf9">MR_ADD_PYTHON_VEC</a>(moduleName,  name,  type)</td></tr>
 <tr class="separator:a970813ca4d787c0bbe1ca6b1bd231cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a432ac9a0f3f5aca7d9f0b9741d3b37c5" id="r_a432ac9a0f3f5aca7d9f0b9741d3b37c5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a432ac9a0f3f5aca7d9f0b9741d3b37c5">MR_ADD_PYTHON_MAP</a>(moduleName,  name,  mapType)</td></tr>
@@ -221,8 +221,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aeeef7bf1febc257ac7e567a755bd1e27" name="aeeef7bf1febc257ac7e567a755bd1e27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeeef7bf1febc257ac7e567a755bd1e27">&#9670;&#160;</a></span>MR_ADD_PYTHON_CUSTOM_CLASS</h2>
+<a id="a061fb85f30303ae23e36fbe5fd7b687c" name="a061fb85f30303ae23e36fbe5fd7b687c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a061fb85f30303ae23e36fbe5fd7b687c">&#9670;&#160;</a></span>MR_ADD_PYTHON_CUSTOM_CLASS</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -240,16 +240,16 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a01602e407a8f74fb432a16769481688c">MR_ADD_PYTHON_CUSTOM_CLASS_DECL</a>( moduleName, name, type ) \</div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a01602e407a8f74fb432a16769481688c">MR_ADD_PYTHON_CUSTOM_CLASS_DECL</a>( moduleName, name, __VA_ARGS__ ) \</div>
 <div class="line">MR_ADD_PYTHON_CUSTOM_CLASS_INST( moduleName, name )</div>
 <div class="ttc" id="aMRPython_8h_html_a01602e407a8f74fb432a16769481688c"><div class="ttname"><a href="#a01602e407a8f74fb432a16769481688c">MR_ADD_PYTHON_CUSTOM_CLASS_DECL</a></div><div class="ttdeci">#define MR_ADD_PYTHON_CUSTOM_CLASS_DECL(moduleName, name,...)</div><div class="ttdef"><b>Definition</b> MRPython.h:54</div></div>
 </div><!-- fragment --><p>For the proper stub file generation, a class must be defined prior to its depending methods. To achieve it, declare the class <em>before</em> the <a class="el" href="#a4c2f86ab418002ae88c7465c2804c7f1">MR_ADD_PYTHON_CUSTOM_DEF</a> block:</p><ul>
-<li>for simple cases use <a class="el" href="#aeeef7bf1febc257ac7e567a755bd1e27">MR_ADD_PYTHON_CUSTOM_CLASS</a> macro;</li>
-<li>to customize class declaration or instantiation (custom holder, custom container binding, etc.), use <a class="el" href="#a01602e407a8f74fb432a16769481688c">MR_ADD_PYTHON_CUSTOM_CLASS_DECL</a> and <a class="el" href="#a8a0f3d850562d301fdc69b7f7831f572">MR_ADD_PYTHON_CUSTOM_CLASS_INST_FUNC</a> macros Finally replace the former class declaration within the <a class="el" href="#a4c2f86ab418002ae88c7465c2804c7f1">MR_ADD_PYTHON_CUSTOM_DEF</a> with the MR_PYTHON_CUSTOM_CLASS( class-name ) construction. <div class="fragment"><div class="line"><a class="code hl_define" href="#aeeef7bf1febc257ac7e567a755bd1e27">MR_ADD_PYTHON_CUSTOM_CLASS</a>( moduleName, pythonTypeName, cppTypeName )</div>
+<li>for simple cases use <a class="el" href="#a061fb85f30303ae23e36fbe5fd7b687c">MR_ADD_PYTHON_CUSTOM_CLASS</a> macro;</li>
+<li>to customize class declaration or instantiation (custom holder, custom container binding, etc.), use <a class="el" href="#a01602e407a8f74fb432a16769481688c">MR_ADD_PYTHON_CUSTOM_CLASS_DECL</a> and <a class="el" href="#a8a0f3d850562d301fdc69b7f7831f572">MR_ADD_PYTHON_CUSTOM_CLASS_INST_FUNC</a> macros Finally replace the former class declaration within the <a class="el" href="#a4c2f86ab418002ae88c7465c2804c7f1">MR_ADD_PYTHON_CUSTOM_DEF</a> with the MR_PYTHON_CUSTOM_CLASS( class-name ) construction. <div class="fragment"><div class="line"><a class="code hl_define" href="#a061fb85f30303ae23e36fbe5fd7b687c">MR_ADD_PYTHON_CUSTOM_CLASS</a>( moduleName, pythonTypeName, cppTypeName )</div>
 <div class="line"><a class="code hl_define" href="#a4c2f86ab418002ae88c7465c2804c7f1">MR_ADD_PYTHON_CUSTOM_DEF</a>( moduleName, scopeName, [] ( pybind11::module_&amp; m )</div>
 <div class="line">{</div>
 <div class="line">    <a class="code hl_define" href="#ae6956a35fce75d18a07941e975ae07cc">MR_PYTHON_CUSTOM_CLASS</a>( pythonTypeName )</div>
@@ -257,9 +257,9 @@ Functions</h2></td></tr>
 <div class="line">    <a class="code hl_define" href="#ae6956a35fce75d18a07941e975ae07cc">MR_PYTHON_CUSTOM_CLASS</a>( pythonTypeName )</div>
 <div class="line">        .def( pybind11::init&lt;&gt;() );</div>
 <div class="line">}</div>
+<div class="ttc" id="aMRPython_8h_html_a061fb85f30303ae23e36fbe5fd7b687c"><div class="ttname"><a href="#a061fb85f30303ae23e36fbe5fd7b687c">MR_ADD_PYTHON_CUSTOM_CLASS</a></div><div class="ttdeci">#define MR_ADD_PYTHON_CUSTOM_CLASS(moduleName, name,...)</div><div class="ttdef"><b>Definition</b> MRPython.h:96</div></div>
 <div class="ttc" id="aMRPython_8h_html_a4c2f86ab418002ae88c7465c2804c7f1"><div class="ttname"><a href="#a4c2f86ab418002ae88c7465c2804c7f1">MR_ADD_PYTHON_CUSTOM_DEF</a></div><div class="ttdeci">#define MR_ADD_PYTHON_CUSTOM_DEF(moduleName, name,...)</div><div class="ttdef"><b>Definition</b> MRPython.h:39</div></div>
 <div class="ttc" id="aMRPython_8h_html_ae6956a35fce75d18a07941e975ae07cc"><div class="ttname"><a href="#ae6956a35fce75d18a07941e975ae07cc">MR_PYTHON_CUSTOM_CLASS</a></div><div class="ttdeci">#define MR_PYTHON_CUSTOM_CLASS(name)</div><div class="ttdef"><b>Definition</b> MRPython.h:50</div></div>
-<div class="ttc" id="aMRPython_8h_html_aeeef7bf1febc257ac7e567a755bd1e27"><div class="ttname"><a href="#aeeef7bf1febc257ac7e567a755bd1e27">MR_ADD_PYTHON_CUSTOM_CLASS</a></div><div class="ttdeci">#define MR_ADD_PYTHON_CUSTOM_CLASS(moduleName, name, type)</div><div class="ttdef"><b>Definition</b> MRPython.h:96</div></div>
 </div><!-- fragment --> See also <a class="el" href="#a970813ca4d787c0bbe1ca6b1bd231cf9">MR_ADD_PYTHON_VEC</a> and <a class="el" href="#a432ac9a0f3f5aca7d9f0b9741d3b37c5">MR_ADD_PYTHON_MAP</a> macros for customized class definition examples. </li>
 </ul>
 
@@ -288,7 +288,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Explicitly declare the Python class wrapper </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="#aeeef7bf1febc257ac7e567a755bd1e27">MR_ADD_PYTHON_CUSTOM_CLASS</a> </dd></dl>
+<p>Explicitly declare the Python class wrapper </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="#a061fb85f30303ae23e36fbe5fd7b687c">MR_ADD_PYTHON_CUSTOM_CLASS</a> </dd></dl>
 
 </div>
 </div>
@@ -315,7 +315,7 @@ Functions</h2></td></tr>
 <div class="line">    _MR_PYTHON_CUSTOM_CLASS_HOLDER_NAME( name ).emplace( module, #name );            \</div>
 <div class="line">}, <a class="code hl_enumvalue" href="classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfa6246655a4c0a99b49f104cd87a0a7a7a">MR::PythonExport::Priority::Declaration</a> )</div>
 <div class="ttc" id="aclassMR_1_1PythonExport_html_a27091fc0ef96636d5c59ff459694a6bfa6246655a4c0a99b49f104cd87a0a7a7a"><div class="ttname"><a href="classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfa6246655a4c0a99b49f104cd87a0a7a7a">MR::PythonExport::Priority::Declaration</a></div><div class="ttdeci">@ Declaration</div></div>
-</div><!-- fragment --><p>Explicitly instantiate the Python class wrapper </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="#aeeef7bf1febc257ac7e567a755bd1e27">MR_ADD_PYTHON_CUSTOM_CLASS</a> </dd></dl>
+</div><!-- fragment --><p>Explicitly instantiate the Python class wrapper </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="#a061fb85f30303ae23e36fbe5fd7b687c">MR_ADD_PYTHON_CUSTOM_CLASS</a> </dd></dl>
 
 </div>
 </div>
@@ -346,7 +346,7 @@ Functions</h2></td></tr>
 <div class="line">{                                                                          \</div>
 <div class="line">    _MR_PYTHON_CUSTOM_CLASS_HOLDER_NAME( name ) = __VA_ARGS__ ( module );  \</div>
 <div class="line">}, <a class="code hl_enumvalue" href="classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfa6246655a4c0a99b49f104cd87a0a7a7a">MR::PythonExport::Priority::Declaration</a> )</div>
-</div><!-- fragment --><p>Explicitly instantiate the Python class wrapper with a custom function (pybind11::bind_vector, pybind11::bind_map, etc.) </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="#aeeef7bf1febc257ac7e567a755bd1e27">MR_ADD_PYTHON_CUSTOM_CLASS</a> </dd>
+</div><!-- fragment --><p>Explicitly instantiate the Python class wrapper with a custom function (pybind11::bind_vector, pybind11::bind_map, etc.) </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="#a061fb85f30303ae23e36fbe5fd7b687c">MR_ADD_PYTHON_CUSTOM_CLASS</a> </dd>
 <dd>
 <a class="el" href="#a970813ca4d787c0bbe1ca6b1bd231cf9">MR_ADD_PYTHON_VEC</a> </dd>
 <dd>
@@ -607,7 +607,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Python class wrapper accessor </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="#aeeef7bf1febc257ac7e567a755bd1e27">MR_ADD_PYTHON_CUSTOM_CLASS</a> </dd></dl>
+<p>Python class wrapper accessor </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="#a061fb85f30303ae23e36fbe5fd7b687c">MR_ADD_PYTHON_CUSTOM_CLASS</a> </dd></dl>
 
 </div>
 </div>

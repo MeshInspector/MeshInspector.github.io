@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"classMR_1_1AddPointActionPickerPoint.html":[12,0,0,29],
 "classMR_1_1AddPointActionPickerPoint.html#a47d1e0f961c9eb68153652ce79d409d5":[10,0,0,44,1],
 "classMR_1_1AddPointActionPickerPoint.html#a47d1e0f961c9eb68153652ce79d409d5":[12,0,0,29,1],
 "classMR_1_1AddPointActionPickerPoint.html#a5a404fa0e1e3b76f626b846acac910b8":[10,0,0,44,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "classMR_1_1CNCMachineSettings.html#a9b8cd0d699837ae1b90931ef9e94812e":[12,0,0,109,5],
 "classMR_1_1CNCMachineSettings.html#aa86d3a2352dd1da528e0b0e02259cb2a":[10,0,0,124,3],
 "classMR_1_1CNCMachineSettings.html#aa86d3a2352dd1da528e0b0e02259cb2a":[12,0,0,109,3],
-"classMR_1_1CNCMachineSettings.html#ac0c13922a14bfc3a6a3a9add38676b04":[10,0,0,124,7],
-"classMR_1_1CNCMachineSettings.html#ac0c13922a14bfc3a6a3a9add38676b04":[12,0,0,109,7]
+"classMR_1_1CNCMachineSettings.html#ac0c13922a14bfc3a6a3a9add38676b04":[10,0,0,124,7]
 };

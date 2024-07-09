@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"classMR_1_1CombinedHistoryAction.html#adba474c4514ebf52c64eb24ed5b104a1":[9,4,35,5],
 "classMR_1_1CombinedHistoryAction.html#afca8a41417b4242303d650c7996ef7f4":[9,4,35,0],
 "classMR_1_1CommandLoop.html":[10,0,0,129],
 "classMR_1_1CommandLoop.html":[12,0,0,114],
@@ -140,9 +141,9 @@ var NAVTREEINDEX15 =
 "classMR_1_1CudaAccessor.html#ab238a79ac9e6bdc05ebc7d4799c5afd9":[12,0,0,129,2],
 "classMR_1_1Cuda_1_1FastWindingNumber.html":[9,1,0],
 "classMR_1_1Cuda_1_1FastWindingNumber.html#a03fd25b5742ad8c32943a8127288080e":[9,1,0,4],
+"classMR_1_1Cuda_1_1FastWindingNumber.html#a10e38a535b9aff32b6f5c639491dccb2":[9,1,0,2],
 "classMR_1_1Cuda_1_1FastWindingNumber.html#a35e0cc2dc56bc04f17a91c42a4b3b418":[9,1,0,3],
-"classMR_1_1Cuda_1_1FastWindingNumber.html#ad2f616a5759c3163418b8cf9451ff146":[9,1,0,1],
-"classMR_1_1Cuda_1_1FastWindingNumber.html#afe55055d68e9b12b696fc5ebf8159c0e":[9,1,0,2],
+"classMR_1_1Cuda_1_1FastWindingNumber.html#a86d3189a5d71a05df142f08397fef76e":[9,1,0,1],
 "classMR_1_1Cuda_1_1FastWindingNumber.html#afed4d0df31eef8da93ca2d843c3a8a63":[9,1,0,0],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html":[10,0,0,1,1],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html":[12,0,0,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "classMR_1_1DirectionWidget.html#a919a4e2843ebcd0667b6572ba9d03caa":[10,0,0,164,16],
 "classMR_1_1DirectionWidget.html#a919a4e2843ebcd0667b6572ba9d03caa":[12,0,0,149,16],
 "classMR_1_1DirectionWidget.html#aa01b946f8079c3f2095a1fb5b019e275":[10,0,0,164,1],
-"classMR_1_1DirectionWidget.html#aa01b946f8079c3f2095a1fb5b019e275":[12,0,0,149,1],
-"classMR_1_1DirectionWidget.html#aaacce6a74f1585b599a10bda3b361f5e":[10,0,0,164,10]
+"classMR_1_1DirectionWidget.html#aa01b946f8079c3f2095a1fb5b019e275":[12,0,0,149,1]
 };

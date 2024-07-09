@@ -223,7 +223,7 @@ var searchData=
   ['visualparams_220',['VisualParams',['../structMR_1_1TransformControls_1_1VisualParams.html',1,'MR::TransformControls']]],
   ['vmap_221',['vmap',['../structMR_1_1MeshBuilder_1_1MeshPiece.html#a0e2772f29127c4ade3e9c174019fa545',1,'MR::MeshBuilder::MeshPiece']]],
   ['voidorerrstr_222',['VoidOrErrStr',['../namespaceMR.html#a2ce7373768bdeba5943fa20acf85e769',1,'MR']]],
-  ['vol_223',['vol',['../structMR_1_1VoxelsLoad_1_1DicomVolume.html#ae1e4814e10ab95b1439695374227a5de',1,'MR::VoxelsLoad::DicomVolume']]],
+  ['vol_223',['vol',['../structMR_1_1MeshToDistanceVolumeParams.html#a360d1bd15bac22e4e7e287a986e68bed',1,'MR::MeshToDistanceVolumeParams::vol'],['../structMR_1_1VoxelsLoad_1_1DicomVolume.html#ae1e4814e10ab95b1439695374227a5de',1,'MR::VoxelsLoad::DicomVolume::vol']]],
   ['volume_224',['Volume',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a0b127ccf018299560090f1f8804bd676',1,'MR::GLStaticHolder']]],
   ['volume_225',['volume',['../structMR_1_1Box.html#aaf8c494ec86f9a6ef904299b78f1cc23',1,'MR::Box::volume()'],['../structMR_1_1Mesh.html#a952176d5bcd16b91d26dc6fa2a0bdc6c',1,'MR::Mesh::volume()'],['../classMR_1_1ObjectMeshHolder.html#a8d7824bc0f0e8a4bf4a0ae4274d5c4e0',1,'MR::ObjectMeshHolder::volume()']]],
   ['volume_20indexer_226',['Volume Indexer',['../group__VolumeIndexerGroup.html',1,'']]],

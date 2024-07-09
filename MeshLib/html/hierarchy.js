@@ -278,8 +278,8 @@ var hierarchy =
     [ "MR::Dirty", "structMR_1_1Dirty.html", null ],
     [ "MR::DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html", null ],
     [ "MR::ImGuiMeasurementIndicators::DistanceParams", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html", null ],
+    [ "MR::DistanceToMeshOptions", "structMR_1_1DistanceToMeshOptions.html", null ],
     [ "MR::DistanceVolumeParams", "structMR_1_1DistanceVolumeParams.html", [
-      [ "MR::MeshToDistanceVolumeParams", "structMR_1_1MeshToDistanceVolumeParams.html", null ],
       [ "MR::PointsToDistanceVolumeParams", "structMR_1_1PointsToDistanceVolumeParams.html", null ]
     ] ],
     [ "MR::DividePointCloudOptionalOutput", "structMR_1_1DividePointCloudOptionalOutput.html", null ],
@@ -663,6 +663,7 @@ var hierarchy =
     [ "MR::MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", null ],
     [ "MR::MeshSignedDistanceResult", "structMR_1_1MeshSignedDistanceResult.html", null ],
     [ "MR::MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html", null ],
+    [ "MR::MeshToDistanceVolumeParams", "structMR_1_1MeshToDistanceVolumeParams.html", null ],
     [ "MR::MeshTopology", "classMR_1_1MeshTopology.html", null ],
     [ "MR::MeshToVolumeParams", "structMR_1_1MeshToVolumeParams.html", null ],
     [ "MR::MeshTriPoint", "structMR_1_1MeshTriPoint.html", null ],

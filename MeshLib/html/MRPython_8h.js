@@ -5,7 +5,7 @@ var MRPython_8h =
     [ "MR::PythonExport::ModuleData", "structMR_1_1PythonExport_1_1ModuleData.html", "structMR_1_1PythonExport_1_1ModuleData" ],
     [ "MR::PythonFunctionAdder", "structMR_1_1PythonFunctionAdder.html", "structMR_1_1PythonFunctionAdder" ],
     [ "_MR_PYTHON_CUSTOM_CLASS_HOLDER_NAME", "MRPython_8h.html#a0a63eac4962f01ac9d1067840d25fe13", null ],
-    [ "MR_ADD_PYTHON_CUSTOM_CLASS", "MRPython_8h.html#aeeef7bf1febc257ac7e567a755bd1e27", null ],
+    [ "MR_ADD_PYTHON_CUSTOM_CLASS", "MRPython_8h.html#a061fb85f30303ae23e36fbe5fd7b687c", null ],
     [ "MR_ADD_PYTHON_CUSTOM_CLASS_DECL", "MRPython_8h.html#a01602e407a8f74fb432a16769481688c", null ],
     [ "MR_ADD_PYTHON_CUSTOM_CLASS_INST", "MRPython_8h.html#aa16f7f41d780ad6feaed2d9115a5d5fc", null ],
     [ "MR_ADD_PYTHON_CUSTOM_CLASS_INST_FUNC", "MRPython_8h.html#a8a0f3d850562d301fdc69b7f7831f572", null ],

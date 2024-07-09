@@ -64,7 +64,7 @@ var searchData=
   ['sign_61',['sign',['../group__AABBTreeGroup.html#ga28372a635ba67b43220bc9067be6560d',1,'MR::IntersectionPrecomputes::sign'],['../structMR_1_1IntersectionPrecomputes2.html#a802abc712cfba3867b04a4f8a9ba4f60',1,'MR::IntersectionPrecomputes2::sign']]],
   ['signdetectionmode_62',['signDetectionMode',['../structMR_1_1OffsetParameters.html#aa411170d1cc5cc475f3caeab0a525e26',1,'MR::OffsetParameters::signDetectionMode'],['../structMROffsetParameters.html#ad92c04c267772dc568e590dadf29dffb',1,'MROffsetParameters::signDetectionMode']]],
   ['signeddist_63',['signedDist',['../structMR_1_1MeshSignedDistanceResult.html#af52a779c7b5cddf4d738350edb3012b5',1,'MR::MeshSignedDistanceResult']]],
-  ['signmode_64',['signMode',['../structMR_1_1MeshToDistanceVolumeParams.html#a248553cc4713825ea75a7de80f0b1802',1,'MR::MeshToDistanceVolumeParams']]],
+  ['signmode_64',['signMode',['../structMR_1_1DistanceToMeshOptions.html#aa80ccd95dc4e56a5b16d71becf8f937f',1,'MR::DistanceToMeshOptions']]],
   ['simple_65',['Simple',['../structMR_1_1FillHoleParams.html#a2908ad53506526829bedf3831a1de80a',1,'MR::FillHoleParams']]],
   ['simulateclick_66',['simulateClick',['../structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html#a09f3fe261438edd0071ac8dd34a503a1',1,'MR::UI::TestEngine::ButtonEntry']]],
   ['simulatedvalue_67',['simulatedValue',['../structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#af8d7643677c8aeeef29e018e4fe509bd',1,'MR::UI::TestEngine::ValueEntry::Value']]],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"MRObjectDimensionsEnum_8h_source.html":[13,0,0,1,2,229],
 "MRObjectDistanceMap_8h.html":[13,0,0,1,2,230],
 "MRObjectDistanceMap_8h_source.html":[13,0,0,1,2,230],
 "MRObjectFactory_8h.html":[13,0,0,1,2,231],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "MRPrecisePredicates2_8h.html#a99bc296c2e6fee9ad9798298d3e942ab":[13,0,0,1,2,294,3],
 "MRPrecisePredicates2_8h.html#aadc1b40eb80e70a7e20d00559456217d":[13,0,0,1,2,294,5],
 "MRPrecisePredicates2_8h.html#adebe37534b9bb6c1ccc995df1839c432":[13,0,0,1,2,294,6],
-"MRPrecisePredicates2_8h_source.html":[13,0,0,1,2,294],
-"MRPrecisePredicates3_8h.html":[13,0,0,1,2,295]
+"MRPrecisePredicates2_8h_source.html":[13,0,0,1,2,294]
 };

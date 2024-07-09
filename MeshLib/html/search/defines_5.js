@@ -3,7 +3,7 @@ var searchData=
   ['make_5fslot_0',['MAKE_SLOT',['../MRViewer_8h.html#a2c688df55bdadf35189e97880b6dc592',1,'MRViewer.h']]],
   ['mr_5fadd_5fclass_5ffactory_1',['MR_ADD_CLASS_FACTORY',['../MRObjectFactory_8h.html#a24de4e89ad2309dac978ce2ca22604e0',1,'MRObjectFactory.h']]],
   ['mr_5fadd_5fctor_5fdelete_5fmove_2',['MR_ADD_CTOR_DELETE_MOVE',['../MRViewerFwd_8h.html#ad67c8b227ede6f3cf9dda3c8b2232c32',1,'MRViewerFwd.h']]],
-  ['mr_5fadd_5fpython_5fcustom_5fclass_3',['MR_ADD_PYTHON_CUSTOM_CLASS',['../MRPython_8h.html#aeeef7bf1febc257ac7e567a755bd1e27',1,'MRPython.h']]],
+  ['mr_5fadd_5fpython_5fcustom_5fclass_3',['MR_ADD_PYTHON_CUSTOM_CLASS',['../MRPython_8h.html#a061fb85f30303ae23e36fbe5fd7b687c',1,'MRPython.h']]],
   ['mr_5fadd_5fpython_5fcustom_5fclass_5fdecl_4',['MR_ADD_PYTHON_CUSTOM_CLASS_DECL',['../MRPython_8h.html#a01602e407a8f74fb432a16769481688c',1,'MRPython.h']]],
   ['mr_5fadd_5fpython_5fcustom_5fclass_5finst_5',['MR_ADD_PYTHON_CUSTOM_CLASS_INST',['../MRPython_8h.html#aa16f7f41d780ad6feaed2d9115a5d5fc',1,'MRPython.h']]],
   ['mr_5fadd_5fpython_5fcustom_5fclass_5finst_5ffunc_6',['MR_ADD_PYTHON_CUSTOM_CLASS_INST_FUNC',['../MRPython_8h.html#a8a0f3d850562d301fdc69b7f7831f572',1,'MRPython.h']]],

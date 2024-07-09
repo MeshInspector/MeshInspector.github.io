@@ -44,7 +44,7 @@ var searchData=
   ['visitedonthisframe_41',['visitedOnThisFrame',['../structMR_1_1UI_1_1TestEngine_1_1Entry.html#af1c045de66225bb1643e95fe69e9c370',1,'MR::UI::TestEngine::Entry']]],
   ['visuallengthmultiplier_42',['visualLengthMultiplier',['../structMR_1_1RenderDimensions_1_1RadiusParams.html#a209f752c72abb3b57f493fdde9dfe41e',1,'MR::RenderDimensions::RadiusParams']]],
   ['vmap_43',['vmap',['../structMR_1_1MeshBuilder_1_1MeshPiece.html#a0e2772f29127c4ade3e9c174019fa545',1,'MR::MeshBuilder::MeshPiece']]],
-  ['vol_44',['vol',['../structMR_1_1VoxelsLoad_1_1DicomVolume.html#ae1e4814e10ab95b1439695374227a5de',1,'MR::VoxelsLoad::DicomVolume']]],
+  ['vol_44',['vol',['../structMR_1_1MeshToDistanceVolumeParams.html#a360d1bd15bac22e4e7e287a986e68bed',1,'MR::MeshToDistanceVolumeParams::vol'],['../structMR_1_1VoxelsLoad_1_1DicomVolume.html#ae1e4814e10ab95b1439695374227a5de',1,'MR::VoxelsLoad::DicomVolume::vol']]],
   ['volume_5f_45',['volume_',['../classMR_1_1ObjectMeshHolder.html#a58dd82a33da66d9d3ec4496e55d90a20',1,'MR::ObjectMeshHolder']]],
   ['volumefiltertype_46',['volumeFilterType',['../structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#aa2018932b0f46e90f13ac5b75b7eaed9',1,'MR::ObjectVoxels::VolumeRenderingParams']]],
   ['volumerenderactivevoxels_5f_47',['volumeRenderActiveVoxels_',['../classMR_1_1ObjectVoxels.html#a47d5f0c15484962e0f95372d8f8916ae',1,'MR::ObjectVoxels']]],
