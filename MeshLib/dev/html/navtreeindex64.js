@@ -1,5 +1,17 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1Mesh.html#afbc9fe4f12054a0171667825056fe457":[9,9,0,25],
+"structMR_1_1Mesh.html#afd3563494ce9b9a0cf5a7e4346606961":[9,9,0,29],
+"structMR_1_1Mesh.html#afe79fbba41c13a31bd40b10fdff8b5ee":[9,9,0,7],
+"structMR_1_1Mesh.html#aff330955f978300560fd33b43cd77cdd":[9,9,0,75],
+"structMR_1_1MeshApproxRelaxParams.html":[9,11,6,2],
+"structMR_1_1MeshApproxRelaxParams.html#a1cee1338307334369140e04b54f03b51":[9,11,6,2,1],
+"structMR_1_1MeshApproxRelaxParams.html#aed8137acdd95c73e5606d4ad5fa7e3ae":[9,11,6,2,0],
+"structMR_1_1MeshBuilder_1_1BuildSettings.html":[10,0,10,16,0],
+"structMR_1_1MeshBuilder_1_1BuildSettings.html":[12,0,1,6,0],
+"structMR_1_1MeshBuilder_1_1BuildSettings.html#a1fdb51404a12dafa32d295e97234ce4f":[10,0,10,16,0,1],
+"structMR_1_1MeshBuilder_1_1BuildSettings.html#a1fdb51404a12dafa32d295e97234ce4f":[12,0,1,6,0,1],
+"structMR_1_1MeshBuilder_1_1BuildSettings.html#ad10a4f5f3fd6df3f484d8b95ef501285":[10,0,10,16,0,2],
 "structMR_1_1MeshBuilder_1_1BuildSettings.html#ad10a4f5f3fd6df3f484d8b95ef501285":[12,0,1,6,0,2],
 "structMR_1_1MeshBuilder_1_1BuildSettings.html#ae841fb8d6bd1c0807eb8dde2d6875c26":[10,0,10,16,0,0],
 "structMR_1_1MeshBuilder_1_1BuildSettings.html#ae841fb8d6bd1c0807eb8dde2d6875c26":[12,0,1,6,0,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1MeshVoxelsConverter.html#ae330959a25aa6192bd935ba02742be34":[10,0,10,337,0],
 "structMR_1_1MeshVoxelsConverter.html#ae330959a25aa6192bd935ba02742be34":[12,0,1,321,0],
 "structMR_1_1MeshVoxelsConverter.html#aff9a0bc144c30c521df635ba7c3ae056":[10,0,10,337,7],
-"structMR_1_1MeshVoxelsConverter.html#aff9a0bc144c30c521df635ba7c3ae056":[12,0,1,321,7],
-"structMR_1_1Meta_1_1SharedPtrTraits.html":[10,0,10,20,0],
-"structMR_1_1Meta_1_1SharedPtrTraits.html":[12,0,1,9,0],
-"structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[10,0,10,20,0,0],
-"structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[12,0,1,9,0,0],
-"structMR_1_1MetricToAStarPenalty.html":[10,0,10,338],
-"structMR_1_1MetricToAStarPenalty.html":[12,0,1,322],
-"structMR_1_1MetricToAStarPenalty.html#a1abb85a715d1e270fa171a12e30b3b33":[10,0,10,338,2],
-"structMR_1_1MetricToAStarPenalty.html#a1abb85a715d1e270fa171a12e30b3b33":[12,0,1,322,2],
-"structMR_1_1MetricToAStarPenalty.html#adcfa3f6e76c7ebd915a9859d2105ab57":[10,0,10,338,0],
-"structMR_1_1MetricToAStarPenalty.html#adcfa3f6e76c7ebd915a9859d2105ab57":[12,0,1,322,0],
-"structMR_1_1MetricToAStarPenalty.html#ae78d929b06e35477653b8824ffed2383":[10,0,10,338,1],
-"structMR_1_1MetricToAStarPenalty.html#ae78d929b06e35477653b8824ffed2383":[12,0,1,322,1]
+"structMR_1_1MeshVoxelsConverter.html#aff9a0bc144c30c521df635ba7c3ae056":[12,0,1,321,7]
 };

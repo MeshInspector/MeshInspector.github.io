@@ -1,5 +1,9 @@
 var NAVTREEINDEX14 =
 {
+"classMR_1_1BitSet.html#ae5007749dadb7430dc9dedb73114f9a6":[9,3,2,11],
+"classMR_1_1BitSet.html#ae73a641818182660d303a4b2db7d34a4":[9,3,2,16],
+"classMR_1_1BitSet.html#aeb7bb0c8ddc8cb0b9a917fe43a2cc514":[9,3,2,15],
+"classMR_1_1BitSet.html#af4367d27b2897443f41bc359deeab256":[9,3,2,13],
 "classMR_1_1BitSet.html#af5fff3291406197a18b73907ba6d0ad0":[9,3,2,9],
 "classMR_1_1BoundarySelectionWidget.html":[10,0,10,80],
 "classMR_1_1BoundarySelectionWidget.html":[12,0,1,64],
@@ -245,9 +249,5 @@ var NAVTREEINDEX14 =
 "classMR_1_1ChangeMeshUVCoordsAction.html#a8251a4c060d3538d58564c3429c9afda":[9,4,5,3],
 "classMR_1_1ChangeMeshUVCoordsAction.html#a8ada93551abd3f590f7e4a2d9c093351":[9,4,5,4],
 "classMR_1_1ChangeMeshUVCoordsAction.html#a9128b930db153ecea7e8dd9bab0a8374":[9,4,5,0],
-"classMR_1_1ChangeMeshUVCoordsAction.html#aa8f2ca30bbf02500362d5bc387ecbcf8":[9,4,5,5],
-"classMR_1_1ChangeMeshUVCoordsAction.html#aff9496937d0c0fddbd3ed701edb82ab5":[9,4,5,1],
-"classMR_1_1ChangeNameAction.html":[9,4,10],
-"classMR_1_1ChangeNameAction.html#a198059bf4924aae700a459e93da3d953":[9,4,10,1],
-"classMR_1_1ChangeNameAction.html#a78f9dfad757f976bb7af6f93bbfd2e74":[9,4,10,2]
+"classMR_1_1ChangeMeshUVCoordsAction.html#aa8f2ca30bbf02500362d5bc387ecbcf8":[9,4,5,5]
 };

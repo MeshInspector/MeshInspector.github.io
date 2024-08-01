@@ -1,5 +1,17 @@
 var NAVTREEINDEX56 =
 {
+"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa88183b946cc5f0e8c96b2e66e1c74a7e":[12,0,1,50,0,0],
+"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fafa28cf323a8d44edbf80f68165f4f75b":[10,0,10,66,0,1],
+"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fafa28cf323a8d44edbf80f68165f4f75b":[12,0,1,50,0,1],
+"structMR_1_1BaseTiffParameters.html#accde4306e1b219c38e5ff1880b053701":[10,0,10,66,4],
+"structMR_1_1BaseTiffParameters.html#accde4306e1b219c38e5ff1880b053701":[12,0,1,50,4],
+"structMR_1_1BaseTiffParameters.html#adc1dce84dde29a56c33ce9d8fd1e0d8d":[10,0,10,66,6],
+"structMR_1_1BaseTiffParameters.html#adc1dce84dde29a56c33ce9d8fd1e0d8d":[12,0,1,50,6],
+"structMR_1_1BasicUiRenderTask.html":[10,0,10,67],
+"structMR_1_1BasicUiRenderTask.html":[12,0,1,51],
+"structMR_1_1BasicUiRenderTask.html#a09fdc1e47a7a92974a945bfcc98be400":[10,0,10,67,3],
+"structMR_1_1BasicUiRenderTask.html#a09fdc1e47a7a92974a945bfcc98be400":[12,0,1,51,3],
+"structMR_1_1BasicUiRenderTask.html#a0e70a7984fb642613e50942b4f53c724":[10,0,10,67,9],
 "structMR_1_1BasicUiRenderTask.html#a0e70a7984fb642613e50942b4f53c724":[12,0,1,51,9],
 "structMR_1_1BasicUiRenderTask.html#a0f482dbbdc6658514696e4dc9294a58a":[10,0,10,67,8],
 "structMR_1_1BasicUiRenderTask.html#a0f482dbbdc6658514696e4dc9294a58a":[12,0,1,51,8],
@@ -237,17 +249,5 @@ var NAVTREEINDEX56 =
 "structMR_1_1ConeFittingFunctor.html#a2a2b7bdfec9781f51f20b12d1e1547aa":[12,0,1,124,8],
 "structMR_1_1ConeFittingFunctor.html#a369f95839764bbea9a5f5db04ec360ae":[10,0,10,140,0],
 "structMR_1_1ConeFittingFunctor.html#a369f95839764bbea9a5f5db04ec360ae":[12,0,1,124,0],
-"structMR_1_1ConeFittingFunctor.html#a5ce1dbf9d17f2aa05b508ef6df6e7151":[10,0,10,140,5],
-"structMR_1_1ConeFittingFunctor.html#a5ce1dbf9d17f2aa05b508ef6df6e7151":[12,0,1,124,5],
-"structMR_1_1ConeFittingFunctor.html#a75f4a1b12abfd495f279861dbfe344c6":[10,0,10,140,6],
-"structMR_1_1ConeFittingFunctor.html#a75f4a1b12abfd495f279861dbfe344c6":[12,0,1,124,6],
-"structMR_1_1ConeFittingFunctor.html#a8dd8ae0c1112caf1a8fcd5fca885de56":[10,0,10,140,7],
-"structMR_1_1ConeFittingFunctor.html#a8dd8ae0c1112caf1a8fcd5fca885de56":[12,0,1,124,7],
-"structMR_1_1ConeFittingFunctor.html#ab4532230e1c01c5aa993bb6427bcc60a":[10,0,10,140,9],
-"structMR_1_1ConeFittingFunctor.html#ab4532230e1c01c5aa993bb6427bcc60a":[12,0,1,124,9],
-"structMR_1_1ConeFittingFunctor.html#ab7852ba7e80ebd7f4f5dcc9d8d7c318d":[10,0,10,140,4],
-"structMR_1_1ConeFittingFunctor.html#ab7852ba7e80ebd7f4f5dcc9d8d7c318d":[12,0,1,124,4],
-"structMR_1_1ConeFittingFunctor.html#ac2e6bb7e397f17483383aef3880628d3":[10,0,10,140,1],
-"structMR_1_1ConeFittingFunctor.html#ac2e6bb7e397f17483383aef3880628d3":[12,0,1,124,1],
-"structMR_1_1ConeFittingFunctor.html#ad11690cdf0c6a6de76d2859de79fa518":[10,0,10,140,3]
+"structMR_1_1ConeFittingFunctor.html#a5ce1dbf9d17f2aa05b508ef6df6e7151":[10,0,10,140,5]
 };

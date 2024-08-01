@@ -41,6 +41,8 @@ var group__SerializerGroup =
     [ "MR::serializeToJson", "group__SerializerGroup.html#gaaeef0bd02442f441b66c7decaabd2047", null ],
     [ "MR::serializeToJson", "group__SerializerGroup.html#ga810f72ff4bfd3f308bf159660074e79c", null ],
     [ "MR::serializeToJson", "group__SerializerGroup.html#ga0247abbacd8ebd7c2abec7d6095cd659", null ],
+    [ "MR::serializeToJson", "group__SerializerGroup.html#gacfc4f79eba7c0c8751bd4206a1604603", null ],
+    [ "MR::serializeToJson", "group__SerializerGroup.html#ga27c3983bb6c56873da1fcfa8ce4044d8", null ],
     [ "MR::serializeToJson", "group__SerializerGroup.html#ga6beb18d5f22f706bd29b9b4b1d2d1cad", null ],
     [ "MR::serializeToJson", "group__SerializerGroup.html#ga337dbc4391f7f93340ae0d57d9992358", null ],
     [ "MR::serializeToJson", "group__SerializerGroup.html#gadbd20d4ea1f7a2145ec9cea92d0c6d21", null ],

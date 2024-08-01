@@ -24,6 +24,7 @@ var structMR_1_1Vector2 =
     [ "perpendicular", "structMR_1_1Vector2.html#a82030ce80979d941ddc7a5e54816a756", null ],
     [ "angle", "structMR_1_1Vector2.html#af97f888d41c35987fa2e24cfdf696621", null ],
     [ "cross", "structMR_1_1Vector2.html#a07bafe90fc0230d0cef79991e7858dff", null ],
+    [ "div", "structMR_1_1Vector2.html#a0704f4e80fa32a97a3c269ddbf09728d", null ],
     [ "dot", "structMR_1_1Vector2.html#a6c8408d5ef7e501f160602528912a167", null ],
     [ "mult", "structMR_1_1Vector2.html#aaf1c84a8ba1493b479c774db9477d5e6", null ],
     [ "sqr", "structMR_1_1Vector2.html#a9d7aee9b382101cb77cc426a34791517", null ],

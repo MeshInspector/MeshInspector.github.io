@@ -1,5 +1,17 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1InSphereSearchSettings.html#a11df62ec99464c382a22fd4b2be79d72":[10,0,10,265,0],
+"structMR_1_1InSphereSearchSettings.html#a11df62ec99464c382a22fd4b2be79d72":[12,0,1,249,0],
+"structMR_1_1InSphereSearchSettings.html#a1de8bbe0d4cdab4fc7b43e8797368154":[10,0,10,265,1],
+"structMR_1_1InSphereSearchSettings.html#a1de8bbe0d4cdab4fc7b43e8797368154":[12,0,1,249,1],
+"structMR_1_1InSphereSearchSettings.html#a4cada7cafcfc301fc90315554648f1cd":[10,0,10,265,3],
+"structMR_1_1InSphereSearchSettings.html#a4cada7cafcfc301fc90315554648f1cd":[12,0,1,249,3],
+"structMR_1_1InSphereSearchSettings.html#a5454ee36cf1aaf8137df2df59f4a4e53":[10,0,10,265,2],
+"structMR_1_1InSphereSearchSettings.html#a5454ee36cf1aaf8137df2df59f4a4e53":[12,0,1,249,2],
+"structMR_1_1InflateSettings.html":[10,0,10,263],
+"structMR_1_1InflateSettings.html":[12,0,1,247],
+"structMR_1_1InflateSettings.html#a01eec1ee9ce09177388ba2eb6097a88a":[10,0,10,263,0],
+"structMR_1_1InflateSettings.html#a01eec1ee9ce09177388ba2eb6097a88a":[12,0,1,247,0],
 "structMR_1_1InflateSettings.html#a0e7308020ddff9486f3d7673bb03a4b5":[10,0,10,263,2],
 "structMR_1_1InflateSettings.html#a0e7308020ddff9486f3d7673bb03a4b5":[12,0,1,247,2],
 "structMR_1_1InflateSettings.html#a2b56de5e320c04500550d57d852fbb7b":[10,0,10,263,3],
@@ -237,17 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html#ab01dc48d4adf11728ae3fe0802e1e0dd":[10,0,10,303,1,5],
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html#ab01dc48d4adf11728ae3fe0802e1e0dd":[12,0,1,287,1,5],
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html#ada8d178143f6e08583ce6661e7e48c21":[10,0,10,303,1,3],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#ada8d178143f6e08583ce6661e7e48c21":[12,0,1,287,1,3],
-"structMR_1_1Matrix.html":[9,0,7,0],
-"structMR_1_1Matrix.html#a2ad7f900e6b01f0617767997c6b9b640":[9,0,7,0,1],
-"structMR_1_1Matrix.html#a354da291fab3037516b4802e24177529":[9,0,7,0,13],
-"structMR_1_1Matrix.html#a72f839037b43011a56b0f8624c2df0dd":[9,0,7,0,4],
-"structMR_1_1Matrix.html#a76e03ab6e259da469989ca91e6c1dd3d":[9,0,7,0,2],
-"structMR_1_1Matrix.html#a806891030ce95bf1c8f30915a0068e98":[9,0,7,0,8],
-"structMR_1_1Matrix.html#a969b7d6345630cad2fa560cfc8f69965":[9,0,7,0,0],
-"structMR_1_1Matrix.html#a9732eb2252ae08face0de86a534e7102":[9,0,7,0,12],
-"structMR_1_1Matrix.html#a9eb1e62339fab559b2cdea38de18d03a":[9,0,7,0,3],
-"structMR_1_1Matrix.html#aa5793f31905b29875d11cc1de6d948d5":[9,0,7,0,6],
-"structMR_1_1Matrix.html#aaf278a69da3b6609b3a56d61f89f989e":[9,0,7,0,7],
-"structMR_1_1Matrix.html#ab08a4a3c3eebfc38135fb65061fa927c":[9,0,7,0,11]
+"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#ada8d178143f6e08583ce6661e7e48c21":[12,0,1,287,1,3]
 };

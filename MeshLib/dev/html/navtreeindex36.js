@@ -1,5 +1,9 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1SpaceMouseHandlerHidapi.html#ae76882db7c2042147f95e35d15b93371":[12,0,1,566,3],
+"classMR_1_1SpaceMouseHandlerHidapi.html#af7ffed7a44b21d7f048c46f34264e551":[10,0,10,582,1],
+"classMR_1_1SpaceMouseHandlerHidapi.html#af7ffed7a44b21d7f048c46f34264e551":[12,0,1,566,1],
+"classMR_1_1SphereObject.html":[9,13,0,6],
 "classMR_1_1SphereObject.html#a0756a482bc3f5e18d1e16940c05b1545":[9,13,0,6,4],
 "classMR_1_1SphereObject.html#a0819106e30a293d2d11cdb3557cacf7a":[9,13,0,6,14],
 "classMR_1_1SphereObject.html#a0f12c8dd3509baa2cb33bf45e476124a":[9,13,0,6,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2abc10f57500a9353c79acf4f9d7a76ff5":[10,0,10,600,1,3],
 "classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2abc10f57500a9353c79acf4f9d7a76ff5":[12,0,1,584,1,3],
 "classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2add552244171cc5216a36a33f506602d8":[10,0,10,600,1,4],
-"classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2add552244171cc5216a36a33f506602d8":[12,0,1,584,1,4],
-"classMR_1_1SurfacePointWidget.html#adbc7a66606acd915861c47e2c89b347e":[10,0,10,600,12],
-"classMR_1_1SurfacePointWidget.html#adbc7a66606acd915861c47e2c89b347e":[12,0,1,584,12],
-"classMR_1_1SurfacePointWidget.html#adf37cc4ca96ed9fd71cd2578f8a46f07":[10,0,10,600,7],
-"classMR_1_1SurfacePointWidget.html#adf37cc4ca96ed9fd71cd2578f8a46f07":[12,0,1,584,7]
+"classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2add552244171cc5216a36a33f506602d8":[12,0,1,584,1,4]
 };

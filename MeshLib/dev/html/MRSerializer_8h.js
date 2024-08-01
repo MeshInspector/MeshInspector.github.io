@@ -32,6 +32,8 @@ var MRSerializer_8h =
     [ "serializeToJson", "MRSerializer_8h.html#gaaeef0bd02442f441b66c7decaabd2047", null ],
     [ "serializeToJson", "MRSerializer_8h.html#ga810f72ff4bfd3f308bf159660074e79c", null ],
     [ "serializeToJson", "MRSerializer_8h.html#ga0247abbacd8ebd7c2abec7d6095cd659", null ],
+    [ "serializeToJson", "MRSerializer_8h.html#gacfc4f79eba7c0c8751bd4206a1604603", null ],
+    [ "serializeToJson", "MRSerializer_8h.html#ga27c3983bb6c56873da1fcfa8ce4044d8", null ],
     [ "serializeToJson", "MRSerializer_8h.html#ga6beb18d5f22f706bd29b9b4b1d2d1cad", null ],
     [ "serializeToJson", "MRSerializer_8h.html#ga337dbc4391f7f93340ae0d57d9992358", null ],
     [ "serializeToJson", "MRSerializer_8h.html#gadbd20d4ea1f7a2145ec9cea92d0c6d21", null ],

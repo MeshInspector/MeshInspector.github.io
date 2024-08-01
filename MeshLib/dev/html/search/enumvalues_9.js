@@ -18,6 +18,8 @@ var searchData=
   ['int8_15',['Int8',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529ba7d839b2c12bfd40ac121b4cc9e81c539',1,'MR::VoxelsLoad::RawParameters']]],
   ['internalerror_16',['InternalError',['../group__SurfacePathSubgroup.html#ggaf2c93aa0da8a9748d23340f32349a8b8a8462b58246e70e5c83e5b939a9332cb5',1,'MR']]],
   ['intersection_17',['Intersection',['../MRDotNet_2MRMeshBoolean_8h.html#a59ec0d0ab6b02a93798e5dd0cd81e218aa06d31c2ee920b4d53e8c9c06d90ba24',1,'Intersection:&#160;MRMeshBoolean.h'],['../group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdaa06d31c2ee920b4d53e8c9c06d90ba24',1,'MR::Intersection']]],
-  ['invalid_18',['Invalid',['../group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6a4bbb8f967da6d1a610596d7257179c2b',1,'MR::Invalid'],['../group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea4bbb8f967da6d1a610596d7257179c2b',1,'MR::Invalid']]],
-  ['isometric_19',['Isometric',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca93fe1f7c5ca2e09af063aca96d0625cc',1,'MR::SetViewPresetMenuItem']]]
+  ['inv_5finches_18',['inv_inches',['../namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5a5f723a50e128c7173a4d28eec1949989',1,'MR']]],
+  ['inv_5fmm_19',['inv_mm',['../namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5a8e6a22666dd8243711d987a592738d22',1,'MR']]],
+  ['invalid_20',['Invalid',['../group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6a4bbb8f967da6d1a610596d7257179c2b',1,'MR::Invalid'],['../group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea4bbb8f967da6d1a610596d7257179c2b',1,'MR::Invalid']]],
+  ['isometric_21',['Isometric',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca93fe1f7c5ca2e09af063aca96d0625cc',1,'MR::SetViewPresetMenuItem']]]
 ];

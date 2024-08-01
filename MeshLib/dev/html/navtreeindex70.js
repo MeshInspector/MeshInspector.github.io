@@ -1,5 +1,17 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1SegmPoint.html#a852616535cc51c188a52c77b3f324a6e":[9,0,21,1],
+"structMR_1_1SegmPoint.html#a87266fccf15374e6dc7587544c028d63":[9,0,21,4],
+"structMR_1_1SegmPoint.html#aa8dd11ef62ac9009f3b27a0dc5371bcc":[9,0,21,8],
+"structMR_1_1SegmPoint.html#aa9b427c351c923636029040aa207f718":[9,0,21,0],
+"structMR_1_1SegmPoint.html#ad9eb72a4d4775622305ebd86274183c9":[9,0,21,5],
+"structMR_1_1SegmentSegmentIntersectResult.html":[10,0,10,557],
+"structMR_1_1SegmentSegmentIntersectResult.html":[12,0,1,541],
+"structMR_1_1SegmentSegmentIntersectResult.html#a80259f73338ce5812b3cd0466379f9b6":[10,0,10,557,0],
+"structMR_1_1SegmentSegmentIntersectResult.html#a80259f73338ce5812b3cd0466379f9b6":[12,0,1,541,0],
+"structMR_1_1SegmentSegmentIntersectResult.html#ad55a194e9fc76257f3bb95f35d4495c5":[10,0,10,557,2],
+"structMR_1_1SegmentSegmentIntersectResult.html#ad55a194e9fc76257f3bb95f35d4495c5":[12,0,1,541,2],
+"structMR_1_1SegmentSegmentIntersectResult.html#ad789dc6d1f5c42fae9b48164fcf8e824":[10,0,10,557,1],
 "structMR_1_1SegmentSegmentIntersectResult.html#ad789dc6d1f5c42fae9b48164fcf8e824":[12,0,1,541,1],
 "structMR_1_1SelfIntersections_1_1Settings.html":[10,0,10,33,0],
 "structMR_1_1SelfIntersections_1_1Settings.html":[12,0,1,18,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1SubdivideSettings.html#ad044782ba14d1d93d9140190393d28ce":[9,11,7,0,13],
 "structMR_1_1SubdivideSettings.html#ad1664c92f743cfb7fc8dd795f7d89d9f":[9,11,7,0,6],
 "structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476":[9,11,7,0,3],
-"structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d":[9,11,7,0,9],
-"structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413":[9,11,7,0,11],
-"structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d":[9,11,7,0,5],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html":[10,0,10,596,0],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html":[12,0,1,580,0],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a55df668c518b91fb548871e0ad0420e6":[10,0,10,596,0,1],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a55df668c518b91fb548871e0ad0420e6":[12,0,1,580,0,1],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a7963e99ad6809935449210e1fd5f53f2":[10,0,10,596,0,7],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a7963e99ad6809935449210e1fd5f53f2":[12,0,1,580,0,7],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a7e1ca56125756c1a4bd6557ee7e0eee1":[10,0,10,596,0,6],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a7e1ca56125756c1a4bd6557ee7e0eee1":[12,0,1,580,0,6],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a86a224dac4a470ef3b99927835e313a9":[10,0,10,596,0,5],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a86a224dac4a470ef3b99927835e313a9":[12,0,1,580,0,5]
+"structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d":[9,11,7,0,9]
 };

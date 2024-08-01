@@ -1,5 +1,9 @@
 var NAVTREEINDEX42 =
 {
+"classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5ac24c0463f4a46b890b5cac084adf0d2f":[9,19,1,1,0,1],
+"classMR_1_1VolumeSegmenter.html#aa2cb8edc62883764857cc7b28e1b10e3":[9,19,1,1,2],
+"classMR_1_1VolumeSegmenter.html#adc06aedf7017f2edd618bb81ac1ef0ca":[9,19,1,1,5],
+"classMR_1_1VolumeSegmenter.html#ae376d312f81bc242183a14f2cbeeb142":[9,19,1,1,8],
 "classMR_1_1VoxelsVolumeAccessor.html":[10,0,10,690],
 "classMR_1_1VoxelsVolumeAccessor.html":[12,0,1,674],
 "classMR_1_1VoxelsVolumeAccessorWithBackground.html":[10,0,10,693],
@@ -245,9 +249,5 @@ var NAVTREEINDEX42 =
 "conceptMR_1_1Features_1_1MeasureSupported.html":[11,0,1,1],
 "conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay.html":[10,0,10,6,1,11],
 "conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay.html":[11,0,1,0,0],
-"conceptMR_1_1HasGetDirectionMethod.html":[10,0,10,709],
-"conceptMR_1_1HasGetDirectionMethod.html":[11,0,6],
-"conceptMR_1_1HasGetNormalMethod.html":[10,0,10,708],
-"conceptMR_1_1HasGetNormalMethod.html":[11,0,5],
-"conceptMR_1_1ImGuiMath_1_1detail_1_1Scalar.html":[10,0,10,12,0,8]
+"conceptMR_1_1HasGetDirectionMethod.html":[10,0,10,709]
 };

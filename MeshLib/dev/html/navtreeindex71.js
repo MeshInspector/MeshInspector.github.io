@@ -1,5 +1,17 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413":[9,11,7,0,11],
+"structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d":[9,11,7,0,5],
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html":[10,0,10,596,0],
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html":[12,0,1,580,0],
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a55df668c518b91fb548871e0ad0420e6":[10,0,10,596,0,1],
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a55df668c518b91fb548871e0ad0420e6":[12,0,1,580,0,1],
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a7963e99ad6809935449210e1fd5f53f2":[10,0,10,596,0,7],
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a7963e99ad6809935449210e1fd5f53f2":[12,0,1,580,0,7],
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a7e1ca56125756c1a4bd6557ee7e0eee1":[10,0,10,596,0,6],
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a7e1ca56125756c1a4bd6557ee7e0eee1":[12,0,1,580,0,6],
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a86a224dac4a470ef3b99927835e313a9":[10,0,10,596,0,5],
+"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a86a224dac4a470ef3b99927835e313a9":[12,0,1,580,0,5],
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a9515abf4d7599eda7f5896681430883a":[10,0,10,596,0,9],
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a9515abf4d7599eda7f5896681430883a":[12,0,1,580,0,9],
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#aa080474e426f7c4a981c49839ab20261":[10,0,10,596,0,8],
@@ -237,17 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1ToolPathResult.html#ae495a5fc24540b7eaf1210872ac5fb3e":[10,0,10,615,1],
 "structMR_1_1ToolPathResult.html#ae495a5fc24540b7eaf1210872ac5fb3e":[12,0,1,599,1],
 "structMR_1_1TouchEndListener.html":[10,0,10,616],
-"structMR_1_1TouchEndListener.html":[12,0,1,600],
-"structMR_1_1TouchEndListener.html#a33e255754fd26beb29b6401dbe1867e2":[10,0,10,616,3],
-"structMR_1_1TouchEndListener.html#a33e255754fd26beb29b6401dbe1867e2":[12,0,1,600,3],
-"structMR_1_1TouchEndListener.html#ab096e89cb190596989aa3ed12f9c0079":[10,0,10,616,0],
-"structMR_1_1TouchEndListener.html#ab096e89cb190596989aa3ed12f9c0079":[12,0,1,600,0],
-"structMR_1_1TouchEndListener.html#ad3eb350ad602d0a503d4b488f5adb314":[10,0,10,616,1],
-"structMR_1_1TouchEndListener.html#ad3eb350ad602d0a503d4b488f5adb314":[12,0,1,600,1],
-"structMR_1_1TouchEndListener.html#ad4f9cdfb229f3a5fd00c8412b90506ef":[10,0,10,616,2],
-"structMR_1_1TouchEndListener.html#ad4f9cdfb229f3a5fd00c8412b90506ef":[12,0,1,600,2],
-"structMR_1_1TouchMoveListener.html":[10,0,10,618],
-"structMR_1_1TouchMoveListener.html":[12,0,1,602],
-"structMR_1_1TouchMoveListener.html#a45f1bdd6f4f5573df003142c4e9a883a":[10,0,10,618,3],
-"structMR_1_1TouchMoveListener.html#a45f1bdd6f4f5573df003142c4e9a883a":[12,0,1,602,3]
+"structMR_1_1TouchEndListener.html":[12,0,1,600]
 };

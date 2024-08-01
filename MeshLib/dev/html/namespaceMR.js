@@ -1340,6 +1340,11 @@ var namespaceMR =
       [ "FixedAxis", "namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677aeaff0b601f0c9235c1d2d08500449fae", null ],
       [ "TranslationOnly", "namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677a55fae57b90256ccb618322f9a33784ce", null ]
     ] ],
+    [ "InvLengthUnit", "namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5", [
+      [ "inv_mm", "namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5a8e6a22666dd8243711d987a592738d22", null ],
+      [ "inv_inches", "namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5a5f723a50e128c7173a4d28eec1949989", null ],
+      [ "_count", "namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5ad69186af02738a9b3ced1bc5b652ba55", null ]
+    ] ],
     [ "LengthUnit", "namespaceMR.html#a754d4eb0500be08374f5c611d33b5cab", [
       [ "mm", "namespaceMR.html#a754d4eb0500be08374f5c611d33b5cabab3cd915d758008bd19d0f2428fbb354a", null ],
       [ "inches", "namespaceMR.html#a754d4eb0500be08374f5c611d33b5caba3e1b00c196db969aa22cdc50c6e966c4", null ],
@@ -2549,6 +2554,8 @@ var namespaceMR =
     [ "serializeToJson", "group__SerializerGroup.html#gaaeef0bd02442f441b66c7decaabd2047", null ],
     [ "serializeToJson", "group__SerializerGroup.html#ga810f72ff4bfd3f308bf159660074e79c", null ],
     [ "serializeToJson", "group__SerializerGroup.html#ga0247abbacd8ebd7c2abec7d6095cd659", null ],
+    [ "serializeToJson", "group__SerializerGroup.html#gacfc4f79eba7c0c8751bd4206a1604603", null ],
+    [ "serializeToJson", "group__SerializerGroup.html#ga27c3983bb6c56873da1fcfa8ce4044d8", null ],
     [ "serializeToJson", "group__SerializerGroup.html#ga6beb18d5f22f706bd29b9b4b1d2d1cad", null ],
     [ "serializeToJson", "group__SerializerGroup.html#ga337dbc4391f7f93340ae0d57d9992358", null ],
     [ "serializeToJson", "group__SerializerGroup.html#gadbd20d4ea1f7a2145ec9cea92d0c6d21", null ],

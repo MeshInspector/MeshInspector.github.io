@@ -1,5 +1,9 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1FreeFormBestFit.html#a92fb64c83b3d706c39e60b22c99bdfd1":[10,0,10,224,1],
+"classMR_1_1FreeFormBestFit.html#a92fb64c83b3d706c39e60b22c99bdfd1":[12,0,1,208,1],
+"classMR_1_1FreeFormBestFit.html#ab4da354aabbcd433f8e592efba7472a7":[10,0,10,224,0],
+"classMR_1_1FreeFormBestFit.html#ab4da354aabbcd433f8e592efba7472a7":[12,0,1,208,0],
 "classMR_1_1FreeFormDeformer.html":[10,0,10,225],
 "classMR_1_1FreeFormDeformer.html":[12,0,1,209],
 "classMR_1_1FreeFormDeformer.html#a2a9d732a3f8a4e282739319c0a79eb95":[10,0,10,225,10],
@@ -245,9 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1HashToVectorMappingConverter.html#aafb05509ef57c87d60e28cb34dd3da98":[10,0,10,239,0],
 "classMR_1_1HashToVectorMappingConverter.html#aafb05509ef57c87d60e28cb34dd3da98":[12,0,1,223,0],
 "classMR_1_1Heap.html":[9,3,7],
-"classMR_1_1Heap.html#a1f246bfe3c0676ad56a521a5b696d195":[9,3,7,7],
-"classMR_1_1Heap.html#a516d00eb9620f9cdb1f5c43c0810f744":[9,3,7,9],
-"classMR_1_1Heap.html#a7d993f1a0fb45abb27e62ceee5a1dbe6":[9,3,7,10],
-"classMR_1_1Heap.html#abc98f8ae44b5055bed877900deb567d6":[9,3,7,11],
-"classMR_1_1Heap.html#af4f46522c9ccfd4ade826452c287a15d":[9,3,7,3]
+"classMR_1_1Heap.html#a1f246bfe3c0676ad56a521a5b696d195":[9,3,7,7]
 };

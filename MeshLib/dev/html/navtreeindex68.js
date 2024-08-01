@@ -1,5 +1,17 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1PolynomialWrapper.html#aeb39bb3ae145bc05890641bb1bef0cc0":[12,0,1,438,2],
+"structMR_1_1PolynomialWrapper.html#af0d6206aca2da0368e96f793d2b14219":[10,0,10,454,3],
+"structMR_1_1PolynomialWrapper.html#af0d6206aca2da0368e96f793d2b14219":[12,0,1,438,3],
+"structMR_1_1PositionedText.html":[10,0,10,455],
+"structMR_1_1PositionedText.html":[12,0,1,439],
+"structMR_1_1PositionedText.html#a0361f418c9fa0c8257d7148d219fe4c6":[10,0,10,455,4],
+"structMR_1_1PositionedText.html#a0361f418c9fa0c8257d7148d219fe4c6":[12,0,1,439,4],
+"structMR_1_1PositionedText.html#a362e71ee7a4c24ff0ca9f4dce5d43fa1":[10,0,10,455,1],
+"structMR_1_1PositionedText.html#a362e71ee7a4c24ff0ca9f4dce5d43fa1":[12,0,1,439,1],
+"structMR_1_1PositionedText.html#aa430fb4a7ceafb3eb18505b07dcd5273":[10,0,10,455,2],
+"structMR_1_1PositionedText.html#aa430fb4a7ceafb3eb18505b07dcd5273":[12,0,1,439,2],
+"structMR_1_1PositionedText.html#acc622ad7b3847f83e8d5d6f92dd0ed0a":[10,0,10,455,0],
 "structMR_1_1PositionedText.html#acc622ad7b3847f83e8d5d6f92dd0ed0a":[12,0,1,439,0],
 "structMR_1_1PositionedText.html#adf395638da1f3aeb90c01d197a2cf0e0":[10,0,10,455,3],
 "structMR_1_1PositionedText.html#adf395638da1f3aeb90c01d197a2cf0e0":[12,0,1,439,3],
@@ -237,17 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1RenderDimensions_1_1AngleParams.html#acd45525e6d0f8a47a34a30c3a2596270":[10,0,10,29,0,1],
 "structMR_1_1RenderDimensions_1_1AngleParams.html#acd45525e6d0f8a47a34a30c3a2596270":[12,0,1,14,0,1],
 "structMR_1_1RenderDimensions_1_1LengthParams.html":[10,0,10,29,2],
-"structMR_1_1RenderDimensions_1_1LengthParams.html":[12,0,1,14,2],
-"structMR_1_1RenderDimensions_1_1LengthParams.html#a39c3eb2e95daad75555328645c768d56":[10,0,10,29,2,2],
-"structMR_1_1RenderDimensions_1_1LengthParams.html#a39c3eb2e95daad75555328645c768d56":[12,0,1,14,2,2],
-"structMR_1_1RenderDimensions_1_1LengthParams.html#a5723344bcea6403b4760e40c2e890f69":[10,0,10,29,2,3],
-"structMR_1_1RenderDimensions_1_1LengthParams.html#a5723344bcea6403b4760e40c2e890f69":[12,0,1,14,2,3],
-"structMR_1_1RenderDimensions_1_1LengthParams.html#a59af6d3622c087865305af028ee374fa":[10,0,10,29,2,0],
-"structMR_1_1RenderDimensions_1_1LengthParams.html#a59af6d3622c087865305af028ee374fa":[12,0,1,14,2,0],
-"structMR_1_1RenderDimensions_1_1LengthParams.html#a8dcef99c1e330f66459fe9e434ac6d9f":[10,0,10,29,2,1],
-"structMR_1_1RenderDimensions_1_1LengthParams.html#a8dcef99c1e330f66459fe9e434ac6d9f":[12,0,1,14,2,1],
-"structMR_1_1RenderDimensions_1_1RadiusParams.html":[10,0,10,29,4],
-"structMR_1_1RenderDimensions_1_1RadiusParams.html":[12,0,1,14,4],
-"structMR_1_1RenderDimensions_1_1RadiusParams.html#a1161a2acb579467fd9f2bf7bd0bb2961":[10,0,10,29,4,1],
-"structMR_1_1RenderDimensions_1_1RadiusParams.html#a1161a2acb579467fd9f2bf7bd0bb2961":[12,0,1,14,4,1]
+"structMR_1_1RenderDimensions_1_1LengthParams.html":[12,0,1,14,2]
 };

@@ -19,6 +19,7 @@ var structMR_1_1Vector3 =
     [ "unsignZeroValues", "structMR_1_1Vector3.html#a08dc1dd8f81a858ba4f2a61519fd8add", null ],
     [ "angle", "structMR_1_1Vector3.html#ac91a0462b62bab22f973bb517dc805ca", null ],
     [ "cross", "structMR_1_1Vector3.html#af9065ae414e0307701366e479519540d", null ],
+    [ "div", "structMR_1_1Vector3.html#a3032e40b08150686195023c67dd9b749", null ],
     [ "dot", "structMR_1_1Vector3.html#a3856ec6f677ed2b0849cc35ffb0c22d8", null ],
     [ "mixed", "structMR_1_1Vector3.html#aa80c4d71ef5b56a6aaa251f91e636873", null ],
     [ "mult", "structMR_1_1Vector3.html#ae2acb767e75d8fddbe60a26218e7635a", null ],

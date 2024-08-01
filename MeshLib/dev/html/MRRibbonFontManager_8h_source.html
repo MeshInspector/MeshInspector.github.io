@@ -158,10 +158,17 @@ $(function(){initNavTree('MRRibbonFontManager_8h_source.html',''); initResizable
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">void</span> loadFont_( FontType type, <span class="keyword">const</span> ImWchar* ranges, <span class="keywordtype">float</span> scaling );</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordtype">void</span> loadDefaultFont_( <span class="keywordtype">float</span> fontSize, <span class="keywordtype">float</span> yOffset = 0.0f );</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>};</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keyword">struct </span>CustomGlyph</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    {</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        std::function&lt;void( <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* texData, <span class="keywordtype">int</span> texW )&gt; render;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    };</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordtype">void</span> addCustomGlyphs_( FontType font, <span class="keywordtype">float</span> scaling, std::vector&lt;CustomGlyph&gt;&amp; glyphs );</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">void</span> renderCustomGlyphsToAtlas_( <span class="keyword">const</span> std::vector&lt;CustomGlyph&gt;&amp; glyphs );</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>};</div>
 </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>}</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>}</div>
 <div class="ttc" id="aMRDotNet_2MRMeshBoolean_8h_html_a59ec0d0ab6b02a93798e5dd0cd81e218ae93f994f01c537c4e2f7d8528c3eb5e9"><div class="ttname"><a href="MRDotNet_2MRMeshBoolean_8h.html#a59ec0d0ab6b02a93798e5dd0cd81e218ae93f994f01c537c4e2f7d8528c3eb5e9">BooleanOperation::Count</a></div><div class="ttdeci">@ Count</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonFontManager_html"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html">MR::RibbonFontManager</a></div><div class="ttdef"><b>Definition</b> MRRibbonFontManager.h:11</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonFontManager_html_a0d18d71db7c19b02d1b5ad1bfe8f2aa8"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#a0d18d71db7c19b02d1b5ad1bfe8f2aa8">MR::RibbonFontManager::initFontManagerInstance</a></div><div class="ttdeci">static MRVIEWER_API void initFontManagerInstance(RibbonFontManager *ribbonFontManager)</div></div>
@@ -171,14 +178,14 @@ $(function(){initNavTree('MRRibbonFontManager_8h_source.html',''); initResizable
 <div class="ttc" id="aclassMR_1_1RibbonFontManager_html_ad3f9e2f7788079bfaece40298c022f53"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#ad3f9e2f7788079bfaece40298c022f53">MR::RibbonFontManager::getFontByType</a></div><div class="ttdeci">MRVIEWER_API ImFont * getFontByType(FontType type) const</div><div class="ttdoc">get font by font type</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonFontManager_html_ae09d386249e4a713206d066697fe57b0"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#ae09d386249e4a713206d066697fe57b0">MR::RibbonFontManager::loadAllFonts</a></div><div class="ttdeci">MRVIEWER_API void loadAllFonts(ImWchar *charRanges, float scaling)</div><div class="ttdoc">load all fonts using in ribbon menu</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonFontManager_html_af67d4ecfff6fa832444a2a214a3f471a"><div class="ttname"><a href="classMR_1_1RibbonFontManager.html#af67d4ecfff6fa832444a2a214a3f471a">MR::RibbonFontManager::getMenuFontPath</a></div><div class="ttdeci">MRVIEWER_API std::filesystem::path getMenuFontPath() const</div><div class="ttdoc">get ribbon menu font path</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> CodingStyleHelp.dox:1</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
 <div class="ttc" id="anamespaceMR_html_aa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67"><div class="ttname"><a href="namespaceMR.html#aa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67">MR::DepthFunction::Default</a></div><div class="ttdeci">@ Default</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a class="el" href="dir_9f7f527b3d798641b224411d64f042be.html">MRViewer</a></li><li class="navelem"><a class="el" href="MRRibbonFontManager_8h.html">MRRibbonFontManager.h</a></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_6e96927c85b5db1a870a672280c47921.html">MRViewer</a></li><li class="navelem"><a class="el" href="MRRibbonFontManager_8h.html">MRRibbonFontManager.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

@@ -1,5 +1,17 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1Meta_1_1SharedPtrTraits.html":[10,0,10,20,0],
+"structMR_1_1Meta_1_1SharedPtrTraits.html":[12,0,1,9,0],
+"structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[10,0,10,20,0,0],
+"structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[12,0,1,9,0,0],
+"structMR_1_1MetricToAStarPenalty.html":[10,0,10,338],
+"structMR_1_1MetricToAStarPenalty.html":[12,0,1,322],
+"structMR_1_1MetricToAStarPenalty.html#a1abb85a715d1e270fa171a12e30b3b33":[10,0,10,338,2],
+"structMR_1_1MetricToAStarPenalty.html#a1abb85a715d1e270fa171a12e30b3b33":[12,0,1,322,2],
+"structMR_1_1MetricToAStarPenalty.html#adcfa3f6e76c7ebd915a9859d2105ab57":[10,0,10,338,0],
+"structMR_1_1MetricToAStarPenalty.html#adcfa3f6e76c7ebd915a9859d2105ab57":[12,0,1,322,0],
+"structMR_1_1MetricToAStarPenalty.html#ae78d929b06e35477653b8824ffed2383":[10,0,10,338,1],
+"structMR_1_1MetricToAStarPenalty.html#ae78d929b06e35477653b8824ffed2383":[12,0,1,322,1],
 "structMR_1_1ModelBaseRenderParams.html":[10,0,10,339],
 "structMR_1_1ModelBaseRenderParams.html":[12,0,1,323],
 "structMR_1_1ModelBaseRenderParams.html#a28337d3d5f8f9cc1db7812bca629ce40":[10,0,10,339,2],
@@ -237,17 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cfa24c5f8c2189e0c426bb78f3ee753eb87":[9,13,12,0,2,2],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cfa6adf97f83acf6453d4a6a4b1070f3754":[9,13,12,0,2,0],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cfa95d1531d160fa0a7112f86c30a174300":[9,13,12,0,2,1],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a13e9afd17c798286cf4e6db027d0ecf9":[9,13,12,0,10],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a3020a0b0e97313d239308d5d16c7f9f3":[9,13,12,0,4],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a4d3b64c3be4b9df2a9728e5a097c8ad9":[9,13,12,0,8],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#aa2018932b0f46e90f13ac5b75b7eaed9":[9,13,12,0,11],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#aa82f2dbcab6b825daff1c52d575ca2fa":[9,13,12,0,7],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ab5aeef5b1c53656f8816af392af3ec46":[9,13,12,0,3],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5":[9,13,12,0,1],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5a0c8f5a9ec9d29d3f98de501c16144109":[9,13,12,0,1,2],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5a1d2de7c46c67f218fe81aecd01ae5eaa":[9,13,12,0,1,0],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5a4aca5ee9a087fb9218bfb662fe92605c":[9,13,12,0,1,1],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ad8187266986121c9568f668fe785fbc5":[9,13,12,0,5],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ae94f3eb91aef633aa6d0552e48b597a9":[9,13,12,0,9],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#afeb3f512bbe9f60f21c71753b179adc2":[9,13,12,0,0]
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a13e9afd17c798286cf4e6db027d0ecf9":[9,13,12,0,10]
 };
