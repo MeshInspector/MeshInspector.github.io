@@ -1,8 +1,8 @@
 var MRMesh_2MRMeshMetrics_8h =
 [
     [ "FillCombineMetric", "MRMesh_2MRMeshMetrics_8h.html#gaf0a9f8a0620df3a7af664ad4c6aab213", null ],
-    [ "FillEdgeMetric", "MRMesh_2MRMeshMetrics_8h.html#gab8b87cfdccec2d30942d137f9c6b61a6", null ],
-    [ "FillTriangleMetric", "MRMesh_2MRMeshMetrics_8h.html#ga280edfda26ddf71eb2799b9cfc305be8", null ],
+    [ "FillEdgeMetric", "MRMesh_2MRMeshMetrics_8h.html#ga7f292aee02fc8ca7504a114461b74cd5", null ],
+    [ "FillTriangleMetric", "MRMesh_2MRMeshMetrics_8h.html#ga9a2b22c68476e1176c0f8a8f43542611", null ],
     [ "calcCombinedFillMetric", "MRMesh_2MRMeshMetrics_8h.html#ga42f6ba6ec6bdfa6f27d1045e79b9346e", null ],
     [ "getCircumscribedMetric", "MRMesh_2MRMeshMetrics_8h.html#ga1f8991ed600a3fc8cec5258a75d5edb5", null ],
     [ "getComplexFillMetric", "MRMesh_2MRMeshMetrics_8h.html#gaa01960d0a269898638030197df262046", null ],
