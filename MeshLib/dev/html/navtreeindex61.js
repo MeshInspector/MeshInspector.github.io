@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1ICPProperties.html#af5cb06bed691cb37cc63ad3e96ebc6f2":[12,0,1,236,11],
 "structMR_1_1ICPProperties.html#afe075e9e4944999f30c142f357d071d7":[10,0,10,252,3],
 "structMR_1_1ICPProperties.html#afe075e9e4944999f30c142f357d071d7":[12,0,1,236,3],
 "structMR_1_1IConnectable.html":[10,0,10,247],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1InSphere.html#a9305d6a23336a3bf9ef33323fccc83d2":[12,0,1,248,1],
 "structMR_1_1InSphere.html#ad8f2efb34f2d4b1e4b866ad31694dd50":[10,0,10,264,0],
 "structMR_1_1InSphere.html#ad8f2efb34f2d4b1e4b866ad31694dd50":[12,0,1,248,0],
-"structMR_1_1InSphereSearchSettings.html":[10,0,10,265],
-"structMR_1_1InSphereSearchSettings.html":[12,0,1,249]
+"structMR_1_1InSphereSearchSettings.html":[10,0,10,265]
 };

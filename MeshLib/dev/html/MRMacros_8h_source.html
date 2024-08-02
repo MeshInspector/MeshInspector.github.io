@@ -111,8 +111,23 @@ $(function(){initNavTree('MRMacros_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">// Those are generic helper macros that don&#39;t have their own headers.</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#ab8cb9281271220567c1359224e6ca5db">    5</a></span><span class="preprocessor">#define MR_STR(...) MR_STR_(__VA_ARGS__)</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#a1c406bd49225547ca8c9b02e77e70293">    6</a></span><span class="preprocessor">#define MR_STR_(...) #__VA_ARGS__</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">// Convert to a string.</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#ab8cb9281271220567c1359224e6ca5db">    6</a></span><span class="preprocessor">#define MR_STR(...) MR_STR_(__VA_ARGS__)</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#a1c406bd49225547ca8c9b02e77e70293">    7</a></span><span class="preprocessor">#define MR_STR_(...) #__VA_ARGS__</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment">// If the compiler supports `requires`, expands to `requires(...)`. Otherwise to nothing.</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">// This is primarily useful for code that must be usable in Cuda, since everywhere else we&#39;re free to use C++20 and newer.</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">// While Clang 14 technically supports `requires`, we&#39;re getting a few weird issues with it (make a nested aggregate class,</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment">//   in the enclosing class make a `MR::Vector` of it, observe that `std::default_initializable` gets baked as `false` on it,</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">//   disabling some member functions such as `.resize()`).</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#if __cpp_concepts &amp;&amp; __has_include(&lt;concepts&gt;) &amp;&amp; !(defined(__clang__) &amp;&amp; __clang_major__ &lt;= 14) &amp;&amp; !(defined(__GNUC__) &amp;&amp; !defined(__clang__) &amp;&amp; __GNUC__ &lt;= 12)</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#   define MR_REQUIRES_IF_SUPPORTED(...) requires(__VA_ARGS__)</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#   define MR_HAS_REQUIRES 1</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">   19</a></span><span class="preprocessor">#   define MR_REQUIRES_IF_SUPPORTED(...)</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#af2577133e8c02d830609dc0c74a53949">   20</a></span><span class="preprocessor">#   define MR_HAS_REQUIRES 0</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

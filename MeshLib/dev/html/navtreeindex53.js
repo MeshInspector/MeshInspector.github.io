@@ -1,5 +1,7 @@
 var NAVTREEINDEX53 =
 {
+"namespaceMR_1_1Features.html#a2f919d193c35478d40f28668b8d2d209":[10,0,10,6,5],
+"namespaceMR_1_1Features.html#a39b347d1c16a0e596d16c09cc7839ded":[10,0,10,6,8],
 "namespaceMR_1_1Features.html#a49fd9207c07aaf09dab5aa90ea742cbb":[10,0,10,6,18],
 "namespaceMR_1_1Features.html#a4b8fe8c172363793d31c8bbc29e9fdb2":[10,0,10,6,23],
 "namespaceMR_1_1Features.html#a5868f629eb5b33654ac9c296f89ab859":[10,0,10,6,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX53 =
 "namespaceMeshOffset.html":[10,0,8],
 "namespaceMeshStitchHole.html":[10,0,9],
 "namespaceNumpy.html":[10,0,11],
-"namespaceNumpyTriangulation.html":[10,0,12],
-"namespacePlotly.html":[10,0,13],
-"namespaceTriangulation.html":[10,0,14]
+"namespaceNumpyTriangulation.html":[10,0,12]
 };

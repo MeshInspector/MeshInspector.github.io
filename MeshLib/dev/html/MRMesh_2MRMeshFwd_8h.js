@@ -2,8 +2,6 @@ var MRMesh_2MRMeshFwd_8h =
 [
     [ "MR::NoInit", "structMR_1_1NoInit.html", null ],
     [ "MR::overloaded< Ts >", "structMR_1_1overloaded.html", null ],
-    [ "MR_HAS_REQUIRES", "MRMesh_2MRMeshFwd_8h.html#af2577133e8c02d830609dc0c74a53949", null ],
-    [ "MR_REQUIRES_IF_SUPPORTED", "MRMesh_2MRMeshFwd_8h.html#adb4b71f9ebce86e54868bd967010ebbb", null ],
     [ "MR_UNREACHABLE", "MRMesh_2MRMeshFwd_8h.html#aaa2c9e5a899e212852b81dbb084d081c", null ],
     [ "MR_UNREACHABLE_NO_RETURN", "MRMesh_2MRMeshFwd_8h.html#adf3c82902530739f161963e298ca8dc0", null ],
     [ "MRMESH_API", "MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300", null ],

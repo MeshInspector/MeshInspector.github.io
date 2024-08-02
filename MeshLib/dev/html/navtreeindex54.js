@@ -1,5 +1,7 @@
 var NAVTREEINDEX54 =
 {
+"namespacePlotly.html":[10,0,13],
+"namespaceTriangulation.html":[10,0,14],
 "namespacemembers.html":[10,1,0],
 "namespacemembers.html":[10,1,0,0],
 "namespacemembers_b.html":[10,1,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX54 =
 "structMRMeshAddPartByMaskParameters.html#abd652b5aec7c21efa6b40cc1e4d72be9":[12,0,29,3],
 "structMRMeshAddPartByMaskParameters.html#ac49ea6f7631c4b8b6d59a3232b6787a2":[12,0,29,0],
 "structMRMeshPart.html":[12,0,30],
-"structMRMeshPart.html#a58a6c4fd3c48e9285aae697c3fe43cf0":[12,0,30,0],
-"structMRMeshPart.html#a5ce5edc6f84e9905919f9f558dc65922":[12,0,30,1],
-"structMRMultiwayICPSamplingParameters.html":[12,0,31]
+"structMRMeshPart.html#a58a6c4fd3c48e9285aae697c3fe43cf0":[12,0,30,0]
 };

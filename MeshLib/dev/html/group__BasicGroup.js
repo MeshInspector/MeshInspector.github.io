@@ -261,6 +261,7 @@ var group__BasicGroup =
     [ "MR::TaggedBitSet::getMapping", "group__BasicGroup.html#ga83b6dafddf5dba83e0a3bda7fb69c98c", null ],
     [ "MR::Heap::Heap", "group__BasicGroup.html#ga484758be506c83b8a42bbb37f7761507", null ],
     [ "MR::Heap::Heap", "group__BasicGroup.html#gad25d3f2e0a2385b7458ee0a7229d6130", null ],
+    [ "MR::heapBytes", "group__BasicGroup.html#ga616873b34fa0db5205d049f845bec044", null ],
     [ "MR::heapBytes", "group__BasicGroup.html#gac4cf85680ec3620cb08726ea6668e99a", null ],
     [ "MR::heapBytes", "group__BasicGroup.html#ga6f62a19a1892f63b5d147de8ef2160c0", null ],
     [ "MR::heapBytes", "group__BasicGroup.html#ga2442ef2afa7012af6ca21ebcb6604536", null ],

@@ -1,16 +1,5 @@
 var NAVTREEINDEX72 =
 {
-"structMR_1_1TouchEndListener.html#a33e255754fd26beb29b6401dbe1867e2":[10,0,10,616,3],
-"structMR_1_1TouchEndListener.html#a33e255754fd26beb29b6401dbe1867e2":[12,0,1,600,3],
-"structMR_1_1TouchEndListener.html#ab096e89cb190596989aa3ed12f9c0079":[10,0,10,616,0],
-"structMR_1_1TouchEndListener.html#ab096e89cb190596989aa3ed12f9c0079":[12,0,1,600,0],
-"structMR_1_1TouchEndListener.html#ad3eb350ad602d0a503d4b488f5adb314":[10,0,10,616,1],
-"structMR_1_1TouchEndListener.html#ad3eb350ad602d0a503d4b488f5adb314":[12,0,1,600,1],
-"structMR_1_1TouchEndListener.html#ad4f9cdfb229f3a5fd00c8412b90506ef":[10,0,10,616,2],
-"structMR_1_1TouchEndListener.html#ad4f9cdfb229f3a5fd00c8412b90506ef":[12,0,1,600,2],
-"structMR_1_1TouchMoveListener.html":[10,0,10,618],
-"structMR_1_1TouchMoveListener.html":[12,0,1,602],
-"structMR_1_1TouchMoveListener.html#a45f1bdd6f4f5573df003142c4e9a883a":[10,0,10,618,3],
 "structMR_1_1TouchMoveListener.html#a45f1bdd6f4f5573df003142c4e9a883a":[12,0,1,602,3],
 "structMR_1_1TouchMoveListener.html#a4f362107fcc44cd725b83ae045795b07":[10,0,10,618,2],
 "structMR_1_1TouchMoveListener.html#a4f362107fcc44cd725b83ae045795b07":[12,0,1,602,2],
@@ -249,5 +238,16 @@ var NAVTREEINDEX72 =
 "structMR_1_1TriangulationParameters.html":[9,15,1],
 "structMR_1_1TriangulationParameters.html#a08e53e768a419301b8abf98737e18046":[9,15,1,6],
 "structMR_1_1TriangulationParameters.html#a18b9e4beb720ba7134c197142243b529":[9,15,1,3],
-"structMR_1_1TriangulationParameters.html#a2266345249c3a1483c179688e4dad925":[9,15,1,1]
+"structMR_1_1TriangulationParameters.html#a2266345249c3a1483c179688e4dad925":[9,15,1,1],
+"structMR_1_1TriangulationParameters.html#a474b58f25243d6fbbaee08808d91e4cd":[9,15,1,5],
+"structMR_1_1TriangulationParameters.html#ad996c79c53b722337bb916669996e58a":[9,15,1,0],
+"structMR_1_1TriangulationParameters.html#aebe6d2d03a26dccb4842f001e3506202":[9,15,1,2],
+"structMR_1_1TriangulationParameters.html#af9e046f71d9cf4b908279bd24f0a1707":[9,15,1,4],
+"structMR_1_1TrimOptionalOutput.html":[10,0,10,637],
+"structMR_1_1TrimOptionalOutput.html":[12,0,1,621],
+"structMR_1_1TrimOptionalOutput.html#a913d446d93ee465bae6bc24cdfcb9287":[10,0,10,637,3],
+"structMR_1_1TrimOptionalOutput.html#a913d446d93ee465bae6bc24cdfcb9287":[12,0,1,621,3],
+"structMR_1_1TrimOptionalOutput.html#a95f7939b3615030e5bcc1dd29d3552c1":[10,0,10,637,0],
+"structMR_1_1TrimOptionalOutput.html#a95f7939b3615030e5bcc1dd29d3552c1":[12,0,1,621,0],
+"structMR_1_1TrimOptionalOutput.html#a9601138c046f6c418c5ba8bb4036d9ef":[10,0,10,637,2]
 };
