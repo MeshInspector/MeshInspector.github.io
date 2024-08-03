@@ -3264,6 +3264,8 @@ Functions</h2></td></tr>
 <tr class="memitem:abb1e0bf1a4c242908e10db3d858a3260" id="r_abb1e0bf1a4c242908e10db3d858a3260"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb1e0bf1a4c242908e10db3d858a3260">calcDipoles</a> (<a class="el" href="#a8eeda41be39ab72f339f50eabd309763">Dipoles</a> &amp;dipoles, const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="memdesc:abb1e0bf1a4c242908e10db3d858a3260"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates dipoles for given mesh and AABB-tree  <br /></td></tr>
 <tr class="separator:abb1e0bf1a4c242908e10db3d858a3260"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b97af3090cdd24b2080c19142252e80" id="r_a0b97af3090cdd24b2080c19142252e80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a8eeda41be39ab72f339f50eabd309763">Dipoles</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b97af3090cdd24b2080c19142252e80">calcDipoles</a> (const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="separator:a0b97af3090cdd24b2080c19142252e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaab44aa4df541376791cff0c6b1c60f0" id="r_aaab44aa4df541376791cff0c6b1c60f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaab44aa4df541376791cff0c6b1c60f0">calcFastWindingNumber</a> (const <a class="el" href="#a8eeda41be39ab72f339f50eabd309763">Dipoles</a> &amp;dipoles, const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;q, float beta, <a class="el" href="#a89b12a80b9137846057aac3efd3e114f">FaceId</a> skipFace)</td></tr>
 <tr class="separator:aaab44aa4df541376791cff0c6b1c60f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbb65999efa5888bba732313759eafa5" id="r_abbb65999efa5888bba732313759eafa5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbb65999efa5888bba732313759eafa5">findPathWithExtension</a> (const std::filesystem::path &amp;pathWithoutExtension)</td></tr>
@@ -12646,8 +12648,37 @@ template&lt;typename T , std::size_t N&gt; </div>
 
 </div>
 </div>
+<a id="a0b97af3090cdd24b2080c19142252e80" name="a0b97af3090cdd24b2080c19142252e80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b97af3090cdd24b2080c19142252e80">&#9670;&#160;</a></span>calcDipoles() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a8eeda41be39ab72f339f50eabd309763">Dipoles</a> MR::calcDipoles </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tree</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abb1e0bf1a4c242908e10db3d858a3260" name="abb1e0bf1a4c242908e10db3d858a3260"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb1e0bf1a4c242908e10db3d858a3260">&#9670;&#160;</a></span>calcDipoles()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abb1e0bf1a4c242908e10db3d858a3260">&#9670;&#160;</a></span>calcDipoles() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

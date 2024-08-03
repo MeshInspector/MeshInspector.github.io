@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"conceptMR_1_1HasGetDirectionMethod.html":[10,0,10,709],
 "conceptMR_1_1HasGetDirectionMethod.html":[11,0,6],
 "conceptMR_1_1HasGetNormalMethod.html":[10,0,10,708],
 "conceptMR_1_1HasGetNormalMethod.html":[11,0,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "group__AABBTreeGroup.html#ga8f7cfd40975f9648e9785f72d75ff92d":[9,1,100],
 "group__AABBTreeGroup.html#ga9222ec2d954badb7ee5874321a084eb6":[9,1,40],
 "group__AABBTreeGroup.html#ga939afe34134c1d66c9ca5f19e33dc323":[9,1,51],
-"group__AABBTreeGroup.html#ga9736a434a7f001c05b9a7d23675ca257":[9,1,91],
-"group__AABBTreeGroup.html#ga987d32cc52268b780f26e3733f7d0151":[9,1,102]
+"group__AABBTreeGroup.html#ga9736a434a7f001c05b9a7d23675ca257":[9,1,91]
 };

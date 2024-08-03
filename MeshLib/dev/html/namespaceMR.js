@@ -1648,6 +1648,7 @@ var namespaceMR =
     [ "calcAvgColors", "namespaceMR.html#a83daf7d9b25940b3c605710b05747e88", null ],
     [ "calcCombinedFillMetric", "group__FillHoleGroup.html#ga42f6ba6ec6bdfa6f27d1045e79b9346e", null ],
     [ "calcDamerauLevenshteinDistance", "group__BasicGroup.html#ga6847ba96188840cbc3f036b1f47fbbbd", null ],
+    [ "calcDipoles", "namespaceMR.html#a0b97af3090cdd24b2080c19142252e80", null ],
     [ "calcDipoles", "namespaceMR.html#abb1e0bf1a4c242908e10db3d858a3260", null ],
     [ "calcFaceDistances", "namespaceMR.html#a8dc548516d8db27eba38a5a8bf158a02", null ],
     [ "calcFastWindingNumber", "namespaceMR.html#aaab44aa4df541376791cff0c6b1c60f0", null ],

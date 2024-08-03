@@ -20,7 +20,7 @@ var searchData=
   ['uniquethreadsafeowner_3c_20mr_3a_3aaabbtreepoints_20_3e_17',['UniqueThreadSafeOwner&lt; MR::AABBTreePoints &gt;',['../classMR_1_1UniqueThreadSafeOwner.html',1,'MR']]],
   ['uniquethreadsafeowner_3c_20mr_3a_3aaabbtreepolyline_3c_20v_20_3e_20_3e_18',['UniqueThreadSafeOwner&lt; MR::AABBTreePolyline&lt; V &gt; &gt;',['../classMR_1_1UniqueThreadSafeOwner.html',1,'MR']]],
   ['uniquethreadsafeowner_3c_20mr_3a_3aaabbtreepolyline_3c_20vector3f_20_3e_20_3e_19',['UniqueThreadSafeOwner&lt; MR::AABBTreePolyline&lt; Vector3f &gt; &gt;',['../classMR_1_1UniqueThreadSafeOwner.html',1,'MR']]],
-  ['uniquethreadsafeowner_3c_20mr_3a_3avector_3c_20dipole_2c_20nodeid_20_3e_20_3e_20',['UniqueThreadSafeOwner&lt; MR::Vector&lt; Dipole, NodeId &gt; &gt;',['../classMR_1_1UniqueThreadSafeOwner.html',1,'MR']]],
+  ['uniquethreadsafeowner_3c_20mr_3a_3avector_20_3e_20',['UniqueThreadSafeOwner&lt; MR::Vector &gt;',['../classMR_1_1UniqueThreadSafeOwner.html',1,'MR']]],
   ['unitemanymeshesparams_21',['UniteManyMeshesParams',['../structMR_1_1UniteManyMeshesParams.html',1,'MR']]],
   ['unitinfo_22',['UnitInfo',['../structMR_1_1UnitInfo.html',1,'MR']]],
   ['unittostringparams_23',['UnitToStringParams',['../structMR_1_1UnitToStringParams.html',1,'MR']]],

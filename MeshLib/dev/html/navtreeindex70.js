@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1SegmPoint.html#aa8dd11ef62ac9009f3b27a0dc5371bcc":[9,0,21,8],
+"structMR_1_1SegmPoint.html#aa9b427c351c923636029040aa207f718":[9,0,21,0],
 "structMR_1_1SegmPoint.html#ad9eb72a4d4775622305ebd86274183c9":[9,0,21,5],
 "structMR_1_1SegmentSegmentIntersectResult.html":[10,0,10,557],
 "structMR_1_1SegmentSegmentIntersectResult.html":[12,0,1,541],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476":[9,11,7,0,3],
 "structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d":[9,11,7,0,9],
 "structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413":[9,11,7,0,11],
-"structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d":[9,11,7,0,5],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html":[10,0,10,596,0],
-"structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html":[12,0,1,580,0]
+"structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d":[9,11,7,0,5]
 };

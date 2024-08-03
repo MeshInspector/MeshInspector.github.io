@@ -5,7 +5,7 @@ var searchData=
   ['calcbestcoefficients_2',['calcBestCoefficients',['../classMR_1_1QuadricApprox.html#a0cea7a7005e02a997a52d3b6cb12c0e3',1,'MR::QuadricApprox']]],
   ['calccombinedfillmetric_3',['calcCombinedFillMetric',['../group__FillHoleGroup.html#ga42f6ba6ec6bdfa6f27d1045e79b9346e',1,'MR']]],
   ['calcdameraulevenshteindistance_4',['calcDamerauLevenshteinDistance',['../group__BasicGroup.html#ga6847ba96188840cbc3f036b1f47fbbbd',1,'MR']]],
-  ['calcdipoles_5',['calcDipoles',['../namespaceMR.html#abb1e0bf1a4c242908e10db3d858a3260',1,'MR']]],
+  ['calcdipoles_5',['calcDipoles',['../namespaceMR.html#abb1e0bf1a4c242908e10db3d858a3260',1,'MR::calcDipoles(Dipoles &amp;dipoles, const AABBTree &amp;tree, const Mesh &amp;mesh)'],['../namespaceMR.html#a0b97af3090cdd24b2080c19142252e80',1,'MR::calcDipoles(const AABBTree &amp;tree, const Mesh &amp;mesh)']]],
   ['calcfacedistances_6',['calcFaceDistances',['../namespaceMR.html#a8dc548516d8db27eba38a5a8bf158a02',1,'MR']]],
   ['calcfastwindingnumber_7',['calcFastWindingNumber',['../structMR_1_1Mesh.html#a0ddf4af17627f59df39990e32ea87c04',1,'MR::Mesh::calcFastWindingNumber()'],['../namespaceMR.html#aaab44aa4df541376791cff0c6b1c60f0',1,'MR::calcFastWindingNumber()']]],
   ['calcfromgrid_8',['calcFromGrid',['../classMR_1_1Cuda_1_1FastWindingNumber.html#a86d3189a5d71a05df142f08397fef76e',1,'MR::Cuda::FastWindingNumber::calcFromGrid()'],['../classMR_1_1IFastWindingNumber.html#aa11a42b6a6601330e2fc1333452906ed',1,'MR::IFastWindingNumber::calcFromGrid()'],['../classMR_1_1FastWindingNumber.html#adf39f3740ff84ed5d367174f1cd8f8a8',1,'MR::FastWindingNumber::calcFromGrid()']]],

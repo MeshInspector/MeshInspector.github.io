@@ -155,8 +155,9 @@ var NAVTREEINDEX1 =
 "MRDenseBox_8h.html":[13,0,0,2,3,78],
 "MRDenseBox_8h_source.html":[13,0,0,2,3,78],
 "MRDipole_8h.html":[13,0,0,2,3,79],
-"MRDipole_8h.html#aaab44aa4df541376791cff0c6b1c60f0":[13,0,0,2,3,79,2],
-"MRDipole_8h.html#abb1e0bf1a4c242908e10db3d858a3260":[13,0,0,2,3,79,1],
+"MRDipole_8h.html#a0b97af3090cdd24b2080c19142252e80":[13,0,0,2,3,79,1],
+"MRDipole_8h.html#aaab44aa4df541376791cff0c6b1c60f0":[13,0,0,2,3,79,3],
+"MRDipole_8h.html#abb1e0bf1a4c242908e10db3d858a3260":[13,0,0,2,3,79,2],
 "MRDipole_8h_source.html":[13,0,0,2,3,79],
 "MRDirectionWidget_8h.html":[13,0,0,2,8,15],
 "MRDirectionWidget_8h_source.html":[13,0,0,2,8,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "MREmbedTerrainStructure_8h.html#a696b2f35fa6e44188322a5739600f929":[13,0,0,2,3,93,1],
 "MREmbedTerrainStructure_8h_source.html":[13,0,0,2,3,93],
 "MREmbeddedPython_8h.html":[13,0,0,2,3,92],
-"MREmbeddedPython_8h_source.html":[13,0,0,2,3,92],
-"MREnumNeighbours_8h.html":[13,0,0,2,3,94]
+"MREmbeddedPython_8h_source.html":[13,0,0,2,3,92]
 };

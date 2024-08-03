@@ -1,5 +1,7 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1TrimOptionalOutput.html#a95f7939b3615030e5bcc1dd29d3552c1":[12,0,1,621,0],
+"structMR_1_1TrimOptionalOutput.html#a9601138c046f6c418c5ba8bb4036d9ef":[10,0,10,637,2],
 "structMR_1_1TrimOptionalOutput.html#a9601138c046f6c418c5ba8bb4036d9ef":[12,0,1,621,2],
 "structMR_1_1TrimOptionalOutput.html#ab2764c07e0136d9d3309b44b8bf8eca7":[10,0,10,637,5],
 "structMR_1_1TrimOptionalOutput.html#ab2764c07e0136d9d3309b44b8bf8eca7":[12,0,1,621,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1UnorientedTriangle.html#aa917f541ba687e11cb12638018c11f49":[12,0,1,637,0],
 "structMR_1_1VariableEdgeTri.html":[10,0,10,654],
 "structMR_1_1VariableEdgeTri.html":[12,0,1,638],
-"structMR_1_1VariableEdgeTri.html#aaf806bd6bbc163135641f8a5ca2a6f5f":[10,0,10,654,0],
-"structMR_1_1VariableEdgeTri.html#aaf806bd6bbc163135641f8a5ca2a6f5f":[12,0,1,638,0],
-"structMR_1_1Vector2.html":[9,0,12,0]
+"structMR_1_1VariableEdgeTri.html#aaf806bd6bbc163135641f8a5ca2a6f5f":[10,0,10,654,0]
 };
