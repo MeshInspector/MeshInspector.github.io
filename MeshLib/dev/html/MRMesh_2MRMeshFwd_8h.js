@@ -142,6 +142,7 @@ var MRMesh_2MRMeshFwd_8h =
     [ "QuadraticForm3f", "MRMesh_2MRMeshFwd_8h.html#ad6fff5652e5977f2376eb2289a2ac389", null ],
     [ "Quaterniond", "MRMesh_2MRMeshFwd_8h.html#ab34b1002d9d610fb0fcd0320734be227", null ],
     [ "Quaternionf", "MRMesh_2MRMeshFwd_8h.html#a8231e685041a7ceb8488a3826cb8849f", null ],
+    [ "RegionBitSet", "MRMesh_2MRMeshFwd_8h.html#a8e4aba877c2b3dd9ad6dc8d57e36f260", null ],
     [ "RegionId", "MRMesh_2MRMeshFwd_8h.html#a32fa4e25a41c6104e28c1baf6a6fce64", null ],
     [ "RigidScaleXf3d", "MRMesh_2MRMeshFwd_8h.html#ac100e347a00d35202a538db5f31c4ca5", null ],
     [ "RigidScaleXf3f", "MRMesh_2MRMeshFwd_8h.html#a6fc8e89a85fa3398f481f13f05ac15b2", null ],

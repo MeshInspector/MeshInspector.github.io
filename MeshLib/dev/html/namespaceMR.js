@@ -1048,6 +1048,7 @@ var namespaceMR =
     [ "QuadraticForm3f", "namespaceMR.html#ad6fff5652e5977f2376eb2289a2ac389", null ],
     [ "Quaterniond", "namespaceMR.html#ab34b1002d9d610fb0fcd0320734be227", null ],
     [ "Quaternionf", "namespaceMR.html#a8231e685041a7ceb8488a3826cb8849f", null ],
+    [ "RegionBitSet", "namespaceMR.html#a8e4aba877c2b3dd9ad6dc8d57e36f260", null ],
     [ "RegionId", "namespaceMR.html#a32fa4e25a41c6104e28c1baf6a6fce64", null ],
     [ "RegularGridLatticePositioner", "namespaceMR.html#a4d79ee45f0088d8ef788b1d7dabc72a6", null ],
     [ "RegularGridLatticeValidator", "namespaceMR.html#a1c3671ae104a3e05c4c521d25a4bab13", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX53 =
 {
+"namespaceMR_1_1Features.html":[10,0,10,6],
+"namespaceMR_1_1Features.html#a164e47d633f8939134d7f4f05960c4ac":[10,0,10,6,21],
 "namespaceMR_1_1Features.html#a1f7d6b7fed16c703a284c2013da802e2":[10,0,10,6,13],
 "namespaceMR_1_1Features.html#a2d7396ae23e2d25cae0b7fc52fd0700e":[10,0,10,6,16],
 "namespaceMR_1_1Features.html#a2f919d193c35478d40f28668b8d2d209":[10,0,10,6,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX53 =
 "namespaceMeshFillHole.html":[10,0,4],
 "namespaceMeshICP.html":[10,0,5],
 "namespaceMeshLoadSave.html":[10,0,6],
-"namespaceMeshModification.html":[10,0,7],
-"namespaceMeshOffset.html":[10,0,8],
-"namespaceMeshStitchHole.html":[10,0,9]
+"namespaceMeshModification.html":[10,0,7]
 };

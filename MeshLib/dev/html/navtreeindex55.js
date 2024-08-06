@@ -1,5 +1,7 @@
 var NAVTREEINDEX55 =
 {
+"structMRMeshAddPartByMaskParameters.html#abd652b5aec7c21efa6b40cc1e4d72be9":[12,0,29,3],
+"structMRMeshAddPartByMaskParameters.html#ac49ea6f7631c4b8b6d59a3232b6787a2":[12,0,29,0],
 "structMRMeshPart.html":[12,0,30],
 "structMRMeshPart.html#a58a6c4fd3c48e9285aae697c3fe43cf0":[12,0,30,0],
 "structMRMeshPart.html#a5ce5edc6f84e9905919f9f558dc65922":[12,0,30,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX55 =
 "structMR_1_1BaseTiffParameters.html#a5ed2f87a9ee82e003bd56c8fe6c05185":[10,0,10,66,2],
 "structMR_1_1BaseTiffParameters.html#a5ed2f87a9ee82e003bd56c8fe6c05185":[12,0,1,50,2],
 "structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862f":[10,0,10,66,0],
-"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862f":[12,0,1,50,0],
-"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa1686a6c336b71b36d77354cea19a8b52":[10,0,10,66,0,2],
-"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa1686a6c336b71b36d77354cea19a8b52":[12,0,1,50,0,2]
+"structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862f":[12,0,1,50,0]
 };

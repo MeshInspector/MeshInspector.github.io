@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413":[9,11,7,0,11],
+"structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d":[9,11,7,0,5],
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html":[10,0,10,596,0],
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html":[12,0,1,580,0],
 "structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a55df668c518b91fb548871e0ad0420e6":[10,0,10,596,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1TouchEndListener.html#ab096e89cb190596989aa3ed12f9c0079":[12,0,1,600,0],
 "structMR_1_1TouchEndListener.html#ad3eb350ad602d0a503d4b488f5adb314":[10,0,10,616,1],
 "structMR_1_1TouchEndListener.html#ad3eb350ad602d0a503d4b488f5adb314":[12,0,1,600,1],
-"structMR_1_1TouchEndListener.html#ad4f9cdfb229f3a5fd00c8412b90506ef":[10,0,10,616,2],
-"structMR_1_1TouchEndListener.html#ad4f9cdfb229f3a5fd00c8412b90506ef":[12,0,1,600,2],
-"structMR_1_1TouchMoveListener.html":[10,0,10,618]
+"structMR_1_1TouchEndListener.html#ad4f9cdfb229f3a5fd00c8412b90506ef":[10,0,10,616,2]
 };
