@@ -2627,7 +2627,7 @@ var namespaceMR =
     [ "surfacePathsToContours3f", "group__SurfacePathSubgroup.html#ga8dbc7e2393ed3d315467293b5b2ba1e2", null ],
     [ "surfacePathToContour3f", "group__SurfacePathSubgroup.html#ga874e90d25d0cf437f34834d739fa588c", null ],
     [ "surroundingContour", "group__MeshSegmentationGroup.html#ga92dbf357e425dd6e8d7f76ab544250c5", null ],
-    [ "surroundingContour", "group__MeshSegmentationGroup.html#ga115d207ab3595b5c3bdeb09a454e9221", null ],
+    [ "surroundingContour", "group__MeshSegmentationGroup.html#ga0f96f1d3fde9a79a2d6925cf6ba77f8d", null ],
     [ "systemToUtf8", "group__BasicGroup.html#ga9a6b64a85d116ca32c7ff8b93ca80da1", null ],
     [ "terrainTriangulation", "namespaceMR.html#a9bd8f5651ea9cde7f905ef80c4a22037", null ],
     [ "thickenMesh", "namespaceMR.html#a37eab7f874fa414200dce6e7f5c02cbb", null ],
