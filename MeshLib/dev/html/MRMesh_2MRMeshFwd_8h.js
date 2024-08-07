@@ -133,6 +133,7 @@ var MRMesh_2MRMeshFwd_8h =
     [ "PolylineProjectionResult2", "MRMesh_2MRMeshFwd_8h.html#ab1d2852d28242bfcd8821227601b93bb", null ],
     [ "PolylineProjectionResult3", "MRMesh_2MRMeshFwd_8h.html#a69ac91c2b5b4b4a50f1e96b5f856d710", null ],
     [ "PolylineProjectionWithOffsetResult3", "MRMesh_2MRMeshFwd_8h.html#ac39d7eca63aa8415b0127492cf2cef0d", null ],
+    [ "PreCollapseCallback", "MRMesh_2MRMeshFwd_8h.html#a8ca6fbc7c349a31c3f0a68ce8f513265", null ],
     [ "ProgressCallback", "MRMesh_2MRMeshFwd_8h.html#ga51ff94746a41880cd06d3272b5bcf710", null ],
     [ "QuadraticForm2", "MRMesh_2MRMeshFwd_8h.html#a3fd595ba2e5c25c3f41e1d2a46e0eb8d", null ],
     [ "QuadraticForm2d", "MRMesh_2MRMeshFwd_8h.html#af8ea1fd47fde85f09d0cdee9d2b568c1", null ],

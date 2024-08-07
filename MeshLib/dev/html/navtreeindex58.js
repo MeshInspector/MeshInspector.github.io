@@ -1,5 +1,13 @@
 var NAVTREEINDEX58 =
 {
+"structMR_1_1DirectoryIterator.html":[10,0,10,172],
+"structMR_1_1DirectoryIterator.html":[12,0,1,156],
+"structMR_1_1DirectoryIterator.html#a0614a693a34cc58e9e59902bf38e38ef":[10,0,10,172,0],
+"structMR_1_1DirectoryIterator.html#a0614a693a34cc58e9e59902bf38e38ef":[12,0,1,156,0],
+"structMR_1_1DirectoryIterator.html#a43d198bfa65499a30571596ae9d9b943":[10,0,10,172,3],
+"structMR_1_1DirectoryIterator.html#a43d198bfa65499a30571596ae9d9b943":[12,0,1,156,3],
+"structMR_1_1DirectoryIterator.html#a4d7767889be907087117c4ee9fd0789d":[10,0,10,172,2],
+"structMR_1_1DirectoryIterator.html#a4d7767889be907087117c4ee9fd0789d":[12,0,1,156,2],
 "structMR_1_1DirectoryIterator.html#a97ffa4ef6cc99e6cfa211a4bed48c6f4":[10,0,10,172,1],
 "structMR_1_1DirectoryIterator.html#a97ffa4ef6cc99e6cfa211a4bed48c6f4":[12,0,1,156,1],
 "structMR_1_1DirectoryRecursive.html":[10,0,10,173],
@@ -241,13 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1FaceDistancesSettings.html#a712f07635ebe5270dd2a58473ca7a7cb":[12,0,1,180,2],
 "structMR_1_1FaceDistancesSettings.html#a9c26116bdf2f4041ab93071989875a92":[10,0,10,196,3],
 "structMR_1_1FaceDistancesSettings.html#a9c26116bdf2f4041ab93071989875a92":[12,0,1,180,3],
-"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358a":[10,0,10,196,0],
-"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358a":[12,0,1,180,0],
-"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aaa32d7ae8d0ab848262ba158d90d97527":[10,0,10,196,0,1],
-"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aaa32d7ae8d0ab848262ba158d90d97527":[12,0,1,180,0,1],
-"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aadcccbad6a160d87b883d166736919b6b":[10,0,10,196,0,0],
-"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aadcccbad6a160d87b883d166736919b6b":[12,0,1,180,0,0],
-"structMR_1_1FaceFace.html":[9,1,11],
-"structMR_1_1FaceFace.html#a8e856ba4f380bb43a7a4efe0f1dc02bc":[9,1,11,1],
-"structMR_1_1FaceFace.html#ac3a31b47e7baa47611ea150254a49fe3":[9,1,11,0]
+"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358a":[10,0,10,196,0]
 };

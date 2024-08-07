@@ -454,6 +454,7 @@ var annotated_dup =
       [ "MergeVolumePartSettings", "structMR_1_1MergeVolumePartSettings.html", "structMR_1_1MergeVolumePartSettings" ],
       [ "Mesh", "structMR_1_1Mesh.html", "structMR_1_1Mesh" ],
       [ "MeshApproxRelaxParams", "structMR_1_1MeshApproxRelaxParams.html", "structMR_1_1MeshApproxRelaxParams" ],
+      [ "MeshAttributesToUpdate", "structMR_1_1MeshAttributesToUpdate.html", "structMR_1_1MeshAttributesToUpdate" ],
       [ "MeshDiff", "classMR_1_1MeshDiff.html", "classMR_1_1MeshDiff" ],
       [ "MeshDistanceResult", "structMR_1_1MeshDistanceResult.html", "structMR_1_1MeshDistanceResult" ],
       [ "MeshEqualizeTriAreasParams", "structMR_1_1MeshEqualizeTriAreasParams.html", "structMR_1_1MeshEqualizeTriAreasParams" ],

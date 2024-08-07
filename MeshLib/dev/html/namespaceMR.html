@@ -839,6 +839,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshApproxRelaxParams.html">MeshApproxRelaxParams</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshAttributesToUpdate.html">MeshAttributesToUpdate</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshDiff.html">MeshDiff</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshDistanceResult.html">MeshDistanceResult</a></td></tr>
@@ -2218,6 +2220,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a3dd173667e136d1ab529bb70c4f9e450"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54078c8d4e2a3473d6e15a932c107cd4" id="r_a54078c8d4e2a3473d6e15a932c107cd4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54078c8d4e2a3473d6e15a932c107cd4">UndirectedEdgePredicate</a> = std::function&lt;bool( <a class="el" href="#a4ac2de084bb34a0af2df8bc73742b2b1">UndirectedEdgeId</a> )&gt;</td></tr>
 <tr class="separator:a54078c8d4e2a3473d6e15a932c107cd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ca6fbc7c349a31c3f0a68ce8f513265" id="r_a8ca6fbc7c349a31c3f0a68ce8f513265"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ca6fbc7c349a31c3f0a68ce8f513265">PreCollapseCallback</a> = std::function&lt;bool( <a class="el" href="#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> edgeToCollapse, const <a class="el" href="classVector3f.html">Vector3f</a>&amp; newEdgeOrgPos )&gt;</td></tr>
+<tr class="separator:a8ca6fbc7c349a31c3f0a68ce8f513265"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a036c60a88f141a437ffed0bc572fce6d" id="r_a036c60a88f141a437ffed0bc572fce6d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a036c60a88f141a437ffed0bc572fce6d">VertMetric</a> = std::function&lt;float( <a class="el" href="#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> )&gt;</td></tr>
 <tr class="separator:a036c60a88f141a437ffed0bc572fce6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a964a181b4bf9b03b222d6e2ad3529487" id="r_a964a181b4bf9b03b222d6e2ad3529487"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a964a181b4bf9b03b222d6e2ad3529487">FaceMetric</a> = std::function&lt;float( <a class="el" href="#a89b12a80b9137846057aac3efd3e114f">FaceId</a> )&gt;</td></tr>
@@ -3876,6 +3880,11 @@ Functions</h2></td></tr>
 <tr class="separator:ab62ca12bf096b6d51c71cf97ff6a88e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08dd1bb898ae6ccea21b3ccb5feb209f" id="r_a08dd1bb898ae6ccea21b3ccb5feb209f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08dd1bb898ae6ccea21b3ccb5feb209f">remesh</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1RemeshSettings.html">RemeshSettings</a> &amp;settings)</td></tr>
 <tr class="separator:a08dd1bb898ae6ccea21b3ccb5feb209f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9d6f60ebc6c98c7e8ddfc4ad3b46bab" id="r_ad9d6f60ebc6c98c7e8ddfc4ad3b46bab"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ad9d6f60ebc6c98c7e8ddfc4ad3b46bab"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ad9d6f60ebc6c98c7e8ddfc4ad3b46bab">preCollapseVertAttribute</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, <a class="el" href="#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> &gt; &amp;data)</td></tr>
+<tr class="separator:ad9d6f60ebc6c98c7e8ddfc4ad3b46bab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a7366107d12ccfd107de14a60b74775" id="r_a6a7366107d12ccfd107de14a60b74775"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a8ca6fbc7c349a31c3f0a68ce8f513265">PreCollapseCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a7366107d12ccfd107de14a60b74775">meshPreCollapseVertAttribute</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshAttributesToUpdate.html">MeshAttributesToUpdate</a> &amp;params)</td></tr>
+<tr class="separator:a6a7366107d12ccfd107de14a60b74775"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab0b1827b05aa2ba71b50b8793f989e03" id="r_gab0b1827b05aa2ba71b50b8793f989e03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1DecimateResult.html">DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#gab0b1827b05aa2ba71b50b8793f989e03">decimateParallelMesh</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1DecimateParallelSettings.html">DecimateParallelSettings</a> &amp;settings={})</td></tr>
 <tr class="memdesc:gab0b1827b05aa2ba71b50b8793f989e03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collapse edges in mesh region according to the settings.  <br /></td></tr>
 <tr class="separator:gab0b1827b05aa2ba71b50b8793f989e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -8536,6 +8545,20 @@ template&lt;typename T &gt; </div>
 <div class="line">    , Polynomial&lt;T, 6&gt;</div>
 <div class="line">    &gt;</div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="a8ca6fbc7c349a31c3f0a68ce8f513265" name="a8ca6fbc7c349a31c3f0a68ce8f513265"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ca6fbc7c349a31c3f0a68ce8f513265">&#9670;&#160;</a></span>PreCollapseCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a8ca6fbc7c349a31c3f0a68ce8f513265">MR::PreCollapseCallback</a> = std::function&lt;bool( <a class="el" href="#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> edgeToCollapse, const <a class="el" href="classVector3f.html">Vector3f</a>&amp; newEdgeOrgPos )&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <a id="a51c5c9bdf012ab12e360b5e161bb378e" name="a51c5c9bdf012ab12e360b5e161bb378e"></a>
@@ -22467,6 +22490,28 @@ template&lt;typename Volume &gt; </div>
 
 </div>
 </div>
+<a id="a6a7366107d12ccfd107de14a60b74775" name="a6a7366107d12ccfd107de14a60b74775"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a7366107d12ccfd107de14a60b74775">&#9670;&#160;</a></span>meshPreCollapseVertAttribute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a8ca6fbc7c349a31c3f0a68ce8f513265">PreCollapseCallback</a> MR::meshPreCollapseVertAttribute </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshAttributesToUpdate.html">MeshAttributesToUpdate</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Please use this callback when you decimate a mesh with associated data with each vertex recalculate texture coordinates and mesh vertex colors for vertices moved during decimation usage example <a class="el" href="structMR_1_1MeshAttributesToUpdate.html">MeshAttributesToUpdate</a> meshParams; auto uvCoords = obj-&gt;getUVCoords(); auto colorMap = obj-&gt;getVertsColorMap(); if ( needUpdateUV ) meshParams.uvCoords = &amp;uvCoords; if ( needUpdateColorMap ) meshParams.colorMap = &amp;colorMap; auto preCollapse = meshPreCollapseVertAttribute( mesh, meshParams ); decimateMesh( mesh, <a class="el" href="structMR_1_1DecimateSettings.html" title="Parameters structure for MR::decimateMesh.">DecimateSettings</a>{ .preCollapse = preCollapse } ); </p>
+
+</div>
+</div>
 <a id="a0c5aa82720c1732e9dafb897c27804c7" name="a0c5aa82720c1732e9dafb897c27804c7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0c5aa82720c1732e9dafb897c27804c7">&#9670;&#160;</a></span>meshRegionToIndicatorVolume()</h2>
 
@@ -25590,6 +25635,29 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Moves given vertices to make the distances between them as specified. </p>
+
+</div>
+</div>
+<a id="ad9d6f60ebc6c98c7e8ddfc4ad3b46bab" name="ad9d6f60ebc6c98c7e8ddfc4ad3b46bab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9d6f60ebc6c98c7e8ddfc4ad3b46bab">&#9670;&#160;</a></span>preCollapseVertAttribute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto MR::preCollapseVertAttribute </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, <a class="el" href="#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

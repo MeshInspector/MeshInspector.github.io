@@ -1,5 +1,13 @@
 var NAVTREEINDEX56 =
 {
+"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0af60357a8d17e45793298323f1b372a74":[10,0,10,66,1,1],
+"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0af60357a8d17e45793298323f1b372a74":[12,0,1,50,1,1],
+"structMR_1_1BaseTiffParameters.html#a3ff0d181f2553f8714d635e264f383c7":[10,0,10,66,3],
+"structMR_1_1BaseTiffParameters.html#a3ff0d181f2553f8714d635e264f383c7":[12,0,1,50,3],
+"structMR_1_1BaseTiffParameters.html#a5a3058ad1eccd44efa6030c506332e44":[10,0,10,66,5],
+"structMR_1_1BaseTiffParameters.html#a5a3058ad1eccd44efa6030c506332e44":[12,0,1,50,5],
+"structMR_1_1BaseTiffParameters.html#a5ed2f87a9ee82e003bd56c8fe6c05185":[10,0,10,66,2],
+"structMR_1_1BaseTiffParameters.html#a5ed2f87a9ee82e003bd56c8fe6c05185":[12,0,1,50,2],
 "structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862f":[10,0,10,66,0],
 "structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862f":[12,0,1,50,0],
 "structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fa1686a6c336b71b36d77354cea19a8b52":[10,0,10,66,0,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX56 =
 "structMR_1_1ComputeSteepestDescentPathSettings.html#a9c5b63e96c36543a3af9203630d6325c":[9,18,3,0,0],
 "structMR_1_1ComputeSteepestDescentPathSettings.html#adb7629a9e4ce0c21efc00fd5f1b3932f":[9,18,3,0,2],
 "structMR_1_1Cone3ApproximationParams.html":[10,0,10,139],
-"structMR_1_1Cone3ApproximationParams.html":[12,0,1,123],
-"structMR_1_1Cone3ApproximationParams.html#a0c389ccce5e8616195da9e724505f8c2":[10,0,10,139,2],
-"structMR_1_1Cone3ApproximationParams.html#a0c389ccce5e8616195da9e724505f8c2":[12,0,1,123,2],
-"structMR_1_1Cone3ApproximationParams.html#a5b47cd0b4ce1e73f079a35fdc80d2850":[10,0,10,139,1],
-"structMR_1_1Cone3ApproximationParams.html#a5b47cd0b4ce1e73f079a35fdc80d2850":[12,0,1,123,1],
-"structMR_1_1Cone3ApproximationParams.html#a6c4848e08b47fefbf24a221b15e00329":[10,0,10,139,3],
-"structMR_1_1Cone3ApproximationParams.html#a6c4848e08b47fefbf24a221b15e00329":[12,0,1,123,3],
-"structMR_1_1Cone3ApproximationParams.html#a78abf2b4f9d3845ec382b09ec2c865d3":[10,0,10,139,0],
-"structMR_1_1Cone3ApproximationParams.html#a78abf2b4f9d3845ec382b09ec2c865d3":[12,0,1,123,0]
+"structMR_1_1Cone3ApproximationParams.html":[12,0,1,123]
 };

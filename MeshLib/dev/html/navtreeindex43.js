@@ -1,11 +1,16 @@
 var NAVTREEINDEX43 =
 {
+"classabstract.html#abeaebcc341c78a5f8614d44572eed320":[12,0,2,8],
+"classabstract.html#acef6eeddc8772e8132f1c82aa15a80d1":[12,0,2,5],
+"classes.html":[12,1],
+"conceptMR_1_1AnyVisualizeMaskEnumType.html":[9,13,2,0],
+"conceptMR_1_1Features_1_1MeasureSupported.html":[10,0,10,6,4],
 "conceptMR_1_1Features_1_1MeasureSupported.html":[11,0,1,1],
 "conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay.html":[10,0,10,6,1,11],
 "conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay.html":[11,0,1,0,0],
-"conceptMR_1_1HasGetDirectionMethod.html":[10,0,10,709],
+"conceptMR_1_1HasGetDirectionMethod.html":[10,0,10,710],
 "conceptMR_1_1HasGetDirectionMethod.html":[11,0,6],
-"conceptMR_1_1HasGetNormalMethod.html":[10,0,10,708],
+"conceptMR_1_1HasGetNormalMethod.html":[10,0,10,709],
 "conceptMR_1_1HasGetNormalMethod.html":[11,0,5],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1Scalar.html":[10,0,10,12,0,8],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1Scalar.html":[11,0,2,0,0],
@@ -17,7 +22,7 @@ var NAVTREEINDEX43 =
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalar.html":[11,0,2,0,2],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalarMaybeCvref.html":[10,0,10,12,0,11],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalarMaybeCvref.html":[11,0,2,0,3],
-"conceptMR_1_1Trivial.html":[10,0,10,707],
+"conceptMR_1_1Trivial.html":[10,0,10,708],
 "conceptMR_1_1Trivial.html":[11,0,4],
 "conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType.html":[10,0,10,36,1,5],
 "conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType.html":[11,0,3,1,0],
@@ -29,7 +34,7 @@ var NAVTREEINDEX43 =
 "conceptMR_1_1UI_1_1detail_1_1ValidDragSpeedForTargetType.html":[11,0,3,0,3],
 "conceptMR_1_1UI_1_1detail_1_1VectorOrScalar.html":[10,0,10,36,0,1],
 "conceptMR_1_1UI_1_1detail_1_1VectorOrScalar.html":[11,0,3,0,1],
-"conceptMR_1_1UnitEnum.html":[10,0,10,711],
+"conceptMR_1_1UnitEnum.html":[10,0,10,712],
 "conceptMR_1_1UnitEnum.html":[11,0,8],
 "conceptMR_1_1detail_1_1Units_1_1Scalar.html":[10,0,10,3,0,1],
 "conceptMR_1_1detail_1_1Units_1_1Scalar.html":[11,0,0,0,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX43 =
 "group__AABBTreeGroup.html#ga834d7e50b54b1b8c511990fc9d14c09c":[9,1,77],
 "group__AABBTreeGroup.html#ga8658f18b6b0489c1dafa4903c64c0165":[9,1,81],
 "group__AABBTreeGroup.html#ga865abfe228b7d60d582d2c6ce24ffb19":[9,1,37],
-"group__AABBTreeGroup.html#ga876e325460f0c5460c1e453324ca329c":[9,1,41],
-"group__AABBTreeGroup.html#ga881bc4cb6ab7f415bf85d9235e2ca740":[9,1,108],
-"group__AABBTreeGroup.html#ga8a9ede35586c7db2c8ab59c42bcd6b7d":[9,1,72],
-"group__AABBTreeGroup.html#ga8ba650839d7806773bb542b986ac4283":[9,1,39],
-"group__AABBTreeGroup.html#ga8c7d357b072699f62023d97ea1c81f45":[9,1,50],
-"group__AABBTreeGroup.html#ga8f7cfd40975f9648e9785f72d75ff92d":[9,1,100]
+"group__AABBTreeGroup.html#ga876e325460f0c5460c1e453324ca329c":[9,1,41]
 };

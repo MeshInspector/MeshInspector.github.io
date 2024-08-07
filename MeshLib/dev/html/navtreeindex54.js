@@ -1,5 +1,13 @@
 var NAVTREEINDEX54 =
 {
+"namespaceMR_1_1detail.html":[10,0,10,3],
+"namespaceMR_1_1detail_1_1Units.html":[10,0,10,3,0],
+"namespaceMR_1_1detail_1_1Units.html#aec57db09655986b2ed959d498edc6f2a":[10,0,10,3,0,2],
+"namespaceMeshBoolean.html":[10,0,1],
+"namespaceMeshDecimate.html":[10,0,2],
+"namespaceMeshExtrude.html":[10,0,3],
+"namespaceMeshFillHole.html":[10,0,4],
+"namespaceMeshICP.html":[10,0,5],
 "namespaceMeshLoadSave.html":[10,0,6],
 "namespaceMeshModification.html":[10,0,7],
 "namespaceMeshOffset.html":[10,0,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX54 =
 "structMRMakeCylinderAdvancedParameters.html#adb9dcc5a855e991275135241242c5ed9":[12,0,26,2],
 "structMRMakeTorusParameters.html":[12,0,27],
 "structMRMakeTorusParameters.html#a17f0a3976680bd5bf51a72024eeb1427":[12,0,27,0],
-"structMRMakeTorusParameters.html#a8d8c9a815bce9cd179486391928d019c":[12,0,27,2],
-"structMRMakeTorusParameters.html#ac7122dd9e2fdf5085a86d09c22f0d6a2":[12,0,27,3],
-"structMRMakeTorusParameters.html#af4b7950cf44e13e3a179354f293fc935":[12,0,27,1],
-"structMRMatrix3f.html":[12,0,28],
-"structMRMatrix3f.html#a37136d0dd3e59903d93dce302d67ef80":[12,0,28,2],
-"structMRMatrix3f.html#a686868c956db1adad2118fb78bdf78a1":[12,0,28,0],
-"structMRMatrix3f.html#ae16453e4e2accbf33c6a671a6eaaf3f0":[12,0,28,1],
-"structMRMeshAddPartByMaskParameters.html":[12,0,29],
-"structMRMeshAddPartByMaskParameters.html#a44d229246d984354c601ed5d5c011ad2":[12,0,29,1]
+"structMRMakeTorusParameters.html#a8d8c9a815bce9cd179486391928d019c":[12,0,27,2]
 };

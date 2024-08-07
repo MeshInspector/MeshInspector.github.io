@@ -1,5 +1,13 @@
 var NAVTREEINDEX57 =
 {
+"structMR_1_1Cone3ApproximationParams.html#a0c389ccce5e8616195da9e724505f8c2":[10,0,10,139,2],
+"structMR_1_1Cone3ApproximationParams.html#a0c389ccce5e8616195da9e724505f8c2":[12,0,1,123,2],
+"structMR_1_1Cone3ApproximationParams.html#a5b47cd0b4ce1e73f079a35fdc80d2850":[10,0,10,139,1],
+"structMR_1_1Cone3ApproximationParams.html#a5b47cd0b4ce1e73f079a35fdc80d2850":[12,0,1,123,1],
+"structMR_1_1Cone3ApproximationParams.html#a6c4848e08b47fefbf24a221b15e00329":[10,0,10,139,3],
+"structMR_1_1Cone3ApproximationParams.html#a6c4848e08b47fefbf24a221b15e00329":[12,0,1,123,3],
+"structMR_1_1Cone3ApproximationParams.html#a78abf2b4f9d3845ec382b09ec2c865d3":[10,0,10,139,0],
+"structMR_1_1Cone3ApproximationParams.html#a78abf2b4f9d3845ec382b09ec2c865d3":[12,0,1,123,0],
 "structMR_1_1ConeFittingFunctor.html":[10,0,10,140],
 "structMR_1_1ConeFittingFunctor.html":[12,0,1,124],
 "structMR_1_1ConeFittingFunctor.html#a2a2b7bdfec9781f51f20b12d1e1547aa":[10,0,10,140,8],
@@ -146,7 +154,7 @@ var NAVTREEINDEX57 =
 "structMR_1_1DecimateSettings.html#a38bbdf3c479e6edea3b93ca7a7b52084":[9,12,0,8],
 "structMR_1_1DecimateSettings.html#a4777d8a943b9bf55a68858260f62abd4":[9,12,0,15],
 "structMR_1_1DecimateSettings.html#a4e2b45d957cafc32245b3ee812ed80d0":[9,12,0,5],
-"structMR_1_1DecimateSettings.html#a4eab7dd113486daa41a2272bac1b8a2f":[9,12,0,19],
+"structMR_1_1DecimateSettings.html#a5901e72dc3fd85459f38318a894afbbd":[9,12,0,19],
 "structMR_1_1DecimateSettings.html#a5c38997b3f0df2d9e534bf87f530cdd7":[9,12,0,28],
 "structMR_1_1DecimateSettings.html#a5ec13d6be73db6e77b404aea2c0d3371":[9,12,0,7],
 "structMR_1_1DecimateSettings.html#a5f0e2ae094cddee1b490103a349feda5":[9,12,0,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX57 =
 "structMR_1_1Directory.html#a65306e29fafdd199b5c607289be0a79c":[10,0,10,171,0],
 "structMR_1_1Directory.html#a65306e29fafdd199b5c607289be0a79c":[12,0,1,155,0],
 "structMR_1_1Directory.html#aa0c34b86b17fa7255361f1bb764e006d":[10,0,10,171,1],
-"structMR_1_1Directory.html#aa0c34b86b17fa7255361f1bb764e006d":[12,0,1,155,1],
-"structMR_1_1DirectoryIterator.html":[10,0,10,172],
-"structMR_1_1DirectoryIterator.html":[12,0,1,156],
-"structMR_1_1DirectoryIterator.html#a0614a693a34cc58e9e59902bf38e38ef":[10,0,10,172,0],
-"structMR_1_1DirectoryIterator.html#a0614a693a34cc58e9e59902bf38e38ef":[12,0,1,156,0],
-"structMR_1_1DirectoryIterator.html#a43d198bfa65499a30571596ae9d9b943":[10,0,10,172,3],
-"structMR_1_1DirectoryIterator.html#a43d198bfa65499a30571596ae9d9b943":[12,0,1,156,3],
-"structMR_1_1DirectoryIterator.html#a4d7767889be907087117c4ee9fd0789d":[10,0,10,172,2],
-"structMR_1_1DirectoryIterator.html#a4d7767889be907087117c4ee9fd0789d":[12,0,1,156,2]
+"structMR_1_1Directory.html#aa0c34b86b17fa7255361f1bb764e006d":[12,0,1,155,1]
 };

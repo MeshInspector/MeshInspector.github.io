@@ -681,6 +681,7 @@ var hierarchy =
     [ "MR::MergeVolumePartSettings", "structMR_1_1MergeVolumePartSettings.html", null ],
     [ "Mesh", "classMesh.html", null ],
     [ "MR::Mesh", "structMR_1_1Mesh.html", null ],
+    [ "MR::MeshAttributesToUpdate", "structMR_1_1MeshAttributesToUpdate.html", null ],
     [ "MeshBoolean", "classMeshBoolean.html", null ],
     [ "MeshDecimate", "classMeshDecimate.html", null ],
     [ "MR::MeshDiff", "classMR_1_1MeshDiff.html", null ],

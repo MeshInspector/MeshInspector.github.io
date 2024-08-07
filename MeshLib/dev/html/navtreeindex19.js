@@ -1,5 +1,10 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1FreeFormBestFit.html#a11e739e1974c8b474fb6f111f59b9cb8":[12,0,1,208,2],
+"classMR_1_1FreeFormBestFit.html#a5e0c21c2de7ea212b991b59d105e79bd":[10,0,10,224,3],
+"classMR_1_1FreeFormBestFit.html#a5e0c21c2de7ea212b991b59d105e79bd":[12,0,1,208,3],
+"classMR_1_1FreeFormBestFit.html#a74da50410f7eed1cfc466b2a63ba919d":[10,0,10,224,5],
+"classMR_1_1FreeFormBestFit.html#a74da50410f7eed1cfc466b2a63ba919d":[12,0,1,208,5],
 "classMR_1_1FreeFormBestFit.html#a7da32b588679f5a44bb7394b8906ed3c":[10,0,10,224,6],
 "classMR_1_1FreeFormBestFit.html#a7da32b588679f5a44bb7394b8906ed3c":[12,0,1,208,6],
 "classMR_1_1FreeFormBestFit.html#a8ba45d03a34b8ab81b1d6ecbc6893453":[10,0,10,224,4],
@@ -244,10 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1Graph.html#ac31feb99fa40a7a7fee0c9806f676b11":[12,0,1,220,20],
 "classMR_1_1Graph.html#aeeffe9dd1229206b5db549f61cbad105":[10,0,10,236,7],
 "classMR_1_1Graph.html#aeeffe9dd1229206b5db549f61cbad105":[12,0,1,220,7],
-"classMR_1_1HashToVectorMappingConverter.html":[10,0,10,239],
-"classMR_1_1HashToVectorMappingConverter.html":[12,0,1,223],
-"classMR_1_1HashToVectorMappingConverter.html#a7a2fdb7a013606306cc5f05762b052bc":[10,0,10,239,1],
-"classMR_1_1HashToVectorMappingConverter.html#a7a2fdb7a013606306cc5f05762b052bc":[12,0,1,223,1],
-"classMR_1_1HashToVectorMappingConverter.html#a8bd6265a470e08b2b3fa066c0b22334d":[10,0,10,239,2],
-"classMR_1_1HashToVectorMappingConverter.html#a8bd6265a470e08b2b3fa066c0b22334d":[12,0,1,223,2]
+"classMR_1_1HashToVectorMappingConverter.html":[10,0,10,239]
 };

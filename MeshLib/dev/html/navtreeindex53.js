@@ -1,5 +1,13 @@
 var NAVTREEINDEX53 =
 {
+"namespaceMR_1_1Cuda.html#a52a9c2fbe17335370c2f613e283723d3":[10,0,10,2,11],
+"namespaceMR_1_1Cuda.html#a68b9636194d2ea1b09c74b6f11829c02":[10,0,10,2,2],
+"namespaceMR_1_1Cuda.html#ab5f9490f820c7e7eb708e516e58d6e5a":[10,0,10,2,4],
+"namespaceMR_1_1Cuda.html#ad257bedcdc1831b1df160989c3047f7d":[10,0,10,2,5],
+"namespaceMR_1_1Cuda.html#ad3d0d14aae4ad5f5ded80460d993d68d":[10,0,10,2,6],
+"namespaceMR_1_1Cuda.html#ae3d6344c4c9b5959665fdde2ddc4a838":[10,0,10,2,8],
+"namespaceMR_1_1Cuda.html#af438ea6400ea4dd6e587a9208a7ab4af":[10,0,10,2,3],
+"namespaceMR_1_1Cuda.html#af763aea7896baa102ab7715278d93231":[10,0,10,2,7],
 "namespaceMR_1_1DistanceMapLoad.html":[10,0,10,4],
 "namespaceMR_1_1DistanceMapSave.html":[10,0,10,5],
 "namespaceMR_1_1Features.html":[10,0,10,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX53 =
 "namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7":[10,0,10,37,4,0],
 "namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e":[10,0,10,37,4,1],
 "namespaceMR_1_1VoxelsLoad.html#afe4e19fce5113a4d34bde473d80c2079":[10,0,10,37,17],
-"namespaceMR_1_1VoxelsSave.html":[10,0,10,38],
-"namespaceMR_1_1detail.html":[10,0,10,3],
-"namespaceMR_1_1detail_1_1Units.html":[10,0,10,3,0],
-"namespaceMR_1_1detail_1_1Units.html#aec57db09655986b2ed959d498edc6f2a":[10,0,10,3,0,2],
-"namespaceMeshBoolean.html":[10,0,1],
-"namespaceMeshDecimate.html":[10,0,2],
-"namespaceMeshExtrude.html":[10,0,3],
-"namespaceMeshFillHole.html":[10,0,4],
-"namespaceMeshICP.html":[10,0,5]
+"namespaceMR_1_1VoxelsSave.html":[10,0,10,38]
 };

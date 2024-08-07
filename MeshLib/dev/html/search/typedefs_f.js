@@ -41,9 +41,10 @@ var searchData=
   ['postmergecallback_38',['PostMergeCallback',['../structMR_1_1MergeVolumePartSettings.html#a49ad4e693c6a08af856dd55e575f702f',1,'MR::MergeVolumePartSettings']]],
   ['postrescalesignal_39',['PostRescaleSignal',['../classMR_1_1Viewer.html#a448a65e5c8e0f80950482647b4d8a786',1,'MR::Viewer']]],
   ['postresizesignal_40',['PostResizeSignal',['../classMR_1_1Viewer.html#ab7f0983455b1dfa5ccae593d205470d9',1,'MR::Viewer']]],
-  ['precutcallback_41',['PreCutCallback',['../structMR_1_1MergeVolumePartSettings.html#a577e60ec177ee1ce4be553f79fc09a89',1,'MR::MergeVolumePartSettings']]],
-  ['progresscallback_42',['ProgressCallback',['../group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710',1,'MR']]],
-  ['progressholder_43',['ProgressHolder',['../classMR_1_1RangeProcessorSingle.html#a18c7b1c6f5f3eb4ab1f683819ab2526b',1,'MR::RangeProcessorSingle']]],
-  ['projectonallcallback_44',['ProjectOnAllCallback',['../namespaceMR.html#a51c5c9bdf012ab12e360b5e161bb378e',1,'MR']]],
-  ['pythonregisterfuncton_45',['PythonRegisterFuncton',['../classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c',1,'MR::PythonExport']]]
+  ['precollapsecallback_41',['PreCollapseCallback',['../namespaceMR.html#a8ca6fbc7c349a31c3f0a68ce8f513265',1,'MR']]],
+  ['precutcallback_42',['PreCutCallback',['../structMR_1_1MergeVolumePartSettings.html#a577e60ec177ee1ce4be553f79fc09a89',1,'MR::MergeVolumePartSettings']]],
+  ['progresscallback_43',['ProgressCallback',['../group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710',1,'MR']]],
+  ['progressholder_44',['ProgressHolder',['../classMR_1_1RangeProcessorSingle.html#a18c7b1c6f5f3eb4ab1f683819ab2526b',1,'MR::RangeProcessorSingle']]],
+  ['projectonallcallback_45',['ProjectOnAllCallback',['../namespaceMR.html#a51c5c9bdf012ab12e360b5e161bb378e',1,'MR']]],
+  ['pythonregisterfuncton_46',['PythonRegisterFuncton',['../classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c',1,'MR::PythonExport']]]
 ];

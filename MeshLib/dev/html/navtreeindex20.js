@@ -1,5 +1,10 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1HashToVectorMappingConverter.html":[12,0,1,223],
+"classMR_1_1HashToVectorMappingConverter.html#a7a2fdb7a013606306cc5f05762b052bc":[10,0,10,239,1],
+"classMR_1_1HashToVectorMappingConverter.html#a7a2fdb7a013606306cc5f05762b052bc":[12,0,1,223,1],
+"classMR_1_1HashToVectorMappingConverter.html#a8bd6265a470e08b2b3fa066c0b22334d":[10,0,10,239,2],
+"classMR_1_1HashToVectorMappingConverter.html#a8bd6265a470e08b2b3fa066c0b22334d":[12,0,1,223,2],
 "classMR_1_1HashToVectorMappingConverter.html#aafb05509ef57c87d60e28cb34dd3da98":[10,0,10,239,0],
 "classMR_1_1HashToVectorMappingConverter.html#aafb05509ef57c87d60e28cb34dd3da98":[12,0,1,223,0],
 "classMR_1_1Heap.html":[9,3,7],
@@ -244,10 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1IViewerSettingsManager.html":[12,0,1,271],
 "classMR_1_1IViewerSettingsManager.html#a5fa6959a71ea16d2cd2ca4e276a04665":[10,0,10,287,0],
 "classMR_1_1IViewerSettingsManager.html#a5fa6959a71ea16d2cd2ca4e276a04665":[12,0,1,271,0],
-"classMR_1_1IViewerSettingsManager.html#a7bd0929348c284a027cc6bed035f2b84":[10,0,10,287,2],
-"classMR_1_1IViewerSettingsManager.html#a7bd0929348c284a027cc6bed035f2b84":[12,0,1,271,2],
-"classMR_1_1IViewerSettingsManager.html#aa9efd64388f302d29af0b3f52e02e1b9":[10,0,10,287,3],
-"classMR_1_1IViewerSettingsManager.html#aa9efd64388f302d29af0b3f52e02e1b9":[12,0,1,271,3],
-"classMR_1_1IViewerSettingsManager.html#ab9f733189fccd3f42fdaf8a567be0b21":[10,0,10,287,1],
-"classMR_1_1IViewerSettingsManager.html#ab9f733189fccd3f42fdaf8a567be0b21":[12,0,1,271,1]
+"classMR_1_1IViewerSettingsManager.html#a7bd0929348c284a027cc6bed035f2b84":[10,0,10,287,2]
 };

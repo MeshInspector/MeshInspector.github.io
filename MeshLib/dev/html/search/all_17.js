@@ -172,6 +172,6 @@ var searchData=
   ['utf8towide_169',['utf8ToWide',['../group__BasicGroup.html#ga543d43a804760961ac67ad3689330c1d',1,'MR']]],
   ['uvcoord_170',['UVCoord',['../namespaceMR.html#a6f8b9797e8968735a685a81d8a6064d6',1,'MR']]],
   ['uvcoordinates_5f_171',['uvCoordinates_',['../classMR_1_1ObjectMeshHolder.html#aefaa378a49e6231ebc3232b74a69dde3',1,'MR::ObjectMeshHolder']]],
-  ['uvcoords_172',['uvCoords',['../structMR_1_1FillHoleNicelySettings.html#a8e1fac34058b267d696714994b158ce2',1,'MR::FillHoleNicelySettings::uvCoords'],['../group__MeshLoadObjGroup.html#ga216284f1a34367048f2f39d7688b1a72',1,'MR::MeshLoad::NamedMesh::uvCoords']]],
+  ['uvcoords_172',['uvCoords',['../structMR_1_1FillHoleNicelySettings.html#a8e1fac34058b267d696714994b158ce2',1,'MR::FillHoleNicelySettings::uvCoords'],['../structMR_1_1MeshAttributesToUpdate.html#aca8eecaf6d18987308450e4834bb50cd',1,'MR::MeshAttributesToUpdate::uvCoords'],['../group__MeshLoadObjGroup.html#ga216284f1a34367048f2f39d7688b1a72',1,'MR::MeshLoad::NamedMesh::uvCoords']]],
   ['uvmap_173',['uvMap',['../structMR_1_1SaveSettings.html#a71c2ed63cb6a101dbd9b47f8ca9898fd',1,'MR::SaveSettings']]]
 ];
