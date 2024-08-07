@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1EnumNeihbourVertices.html":[12,0,1,179],
+"classMR_1_1EnumNeihbourVertices.html#aa6216d158e1f9f47eb52c1e8662e8ce7":[10,0,10,195,0],
 "classMR_1_1EnumNeihbourVertices.html#aa6216d158e1f9f47eb52c1e8662e8ce7":[12,0,1,179,0],
 "classMR_1_1FastWindingNumber.html":[9,1,13],
 "classMR_1_1FastWindingNumber.html#a645c2f3cd26896e866d6127acfe91156":[9,1,13,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1FreeFormBestFit.html#a5e0c21c2de7ea212b991b59d105e79bd":[10,0,10,224,3],
 "classMR_1_1FreeFormBestFit.html#a5e0c21c2de7ea212b991b59d105e79bd":[12,0,1,208,3],
 "classMR_1_1FreeFormBestFit.html#a74da50410f7eed1cfc466b2a63ba919d":[10,0,10,224,5],
-"classMR_1_1FreeFormBestFit.html#a74da50410f7eed1cfc466b2a63ba919d":[12,0,1,208,5],
-"classMR_1_1FreeFormBestFit.html#a7da32b588679f5a44bb7394b8906ed3c":[10,0,10,224,6],
-"classMR_1_1FreeFormBestFit.html#a7da32b588679f5a44bb7394b8906ed3c":[12,0,1,208,6]
+"classMR_1_1FreeFormBestFit.html#a74da50410f7eed1cfc466b2a63ba919d":[12,0,1,208,5]
 };

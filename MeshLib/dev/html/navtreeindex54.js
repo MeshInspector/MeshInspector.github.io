@@ -1,5 +1,7 @@
 var NAVTREEINDEX54 =
 {
+"namespaceMeshLoadSave.html":[10,0,6],
+"namespaceMeshModification.html":[10,0,7],
 "namespaceMeshOffset.html":[10,0,8],
 "namespaceMeshStitchHole.html":[10,0,9],
 "namespaceNumpy.html":[10,0,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX54 =
 "structMRMatrix3f.html#a686868c956db1adad2118fb78bdf78a1":[12,0,28,0],
 "structMRMatrix3f.html#ae16453e4e2accbf33c6a671a6eaaf3f0":[12,0,28,1],
 "structMRMeshAddPartByMaskParameters.html":[12,0,29],
-"structMRMeshAddPartByMaskParameters.html#a44d229246d984354c601ed5d5c011ad2":[12,0,29,1],
-"structMRMeshAddPartByMaskParameters.html#a4abae4fa5c8338675546a7bfa72c835f":[12,0,29,4],
-"structMRMeshAddPartByMaskParameters.html#a82f29da791e5580c60d0985825060327":[12,0,29,2]
+"structMRMeshAddPartByMaskParameters.html#a44d229246d984354c601ed5d5c011ad2":[12,0,29,1]
 };

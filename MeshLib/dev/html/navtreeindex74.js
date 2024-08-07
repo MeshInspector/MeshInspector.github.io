@@ -1,5 +1,7 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1UnorientedTriangle.html#aa917f541ba687e11cb12638018c11f49":[12,0,1,637,0],
+"structMR_1_1VariableEdgeTri.html":[10,0,10,654],
 "structMR_1_1VariableEdgeTri.html":[12,0,1,638],
 "structMR_1_1VariableEdgeTri.html#aaf806bd6bbc163135641f8a5ca2a6f5f":[10,0,10,654,0],
 "structMR_1_1VariableEdgeTri.html#aaf806bd6bbc163135641f8a5ca2a6f5f":[12,0,1,638,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1VolumeSegmentationParameters.html#aa059718068f7c4b81e33e2a1a3e7460c":[9,19,1,0,2],
 "structMR_1_1VolumeSegmentationParameters.html#ab07494ac7f1627ecc2dfce39e9502118":[9,19,1,0,1],
 "structMR_1_1VolumeSegmentationParameters.html#af000ea80a099a9de6d4f4f4475580b6c":[9,19,1,0,0],
-"structMR_1_1VolumeToMeshByPartsSettings.html":[9,19,4],
-"structMR_1_1VolumeToMeshByPartsSettings.html#a49895c0e58dfde0834b03dcc99e6279c":[9,19,4,1],
-"structMR_1_1VolumeToMeshByPartsSettings.html#addf979a4cc4d34fb2f506e84d1a9cf7a":[9,19,4,0]
+"structMR_1_1VolumeToMeshByPartsSettings.html":[9,19,4]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1FaceFace.html#adc07e0f4a04d7f00997f5f0836fdbcaf":[9,1,11,2],
+"structMR_1_1FaceFace.html#aec8e3edd8159870a77814db603ba8c5d":[9,1,11,3],
 "structMR_1_1FaceFace.html#aee3dbbcbddd14dd0707a78411581d0fc":[9,1,11,4],
 "structMR_1_1FanRecord.html":[10,0,10,198],
 "structMR_1_1FanRecord.html":[12,0,1,182],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9":[9,11,3,0,0,2],
 "structMR_1_1FindInnerShellSettings.html":[10,0,10,211],
 "structMR_1_1FindInnerShellSettings.html":[12,0,1,195],
-"structMR_1_1FindInnerShellSettings.html#a376bbe83d190953bcff30be0a55cac6c":[10,0,10,211,1],
-"structMR_1_1FindInnerShellSettings.html#a376bbe83d190953bcff30be0a55cac6c":[12,0,1,195,1],
-"structMR_1_1FindInnerShellSettings.html#a39404f52d441394b9b7ca203201d7899":[10,0,10,211,2]
+"structMR_1_1FindInnerShellSettings.html#a376bbe83d190953bcff30be0a55cac6c":[10,0,10,211,1]
 };

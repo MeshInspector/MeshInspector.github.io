@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"structMR_1_1DirectoryIterator.html#a97ffa4ef6cc99e6cfa211a4bed48c6f4":[10,0,10,172,1],
+"structMR_1_1DirectoryIterator.html#a97ffa4ef6cc99e6cfa211a4bed48c6f4":[12,0,1,156,1],
 "structMR_1_1DirectoryRecursive.html":[10,0,10,173],
 "structMR_1_1DirectoryRecursive.html":[12,0,1,157],
 "structMR_1_1DirectoryRecursive.html#a0377432c17ff4de701e83f6c0ac198ae":[10,0,10,173,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aadcccbad6a160d87b883d166736919b6b":[12,0,1,180,0,0],
 "structMR_1_1FaceFace.html":[9,1,11],
 "structMR_1_1FaceFace.html#a8e856ba4f380bb43a7a4efe0f1dc02bc":[9,1,11,1],
-"structMR_1_1FaceFace.html#ac3a31b47e7baa47611ea150254a49fe3":[9,1,11,0],
-"structMR_1_1FaceFace.html#adc07e0f4a04d7f00997f5f0836fdbcaf":[9,1,11,2],
-"structMR_1_1FaceFace.html#aec8e3edd8159870a77814db603ba8c5d":[9,1,11,3]
+"structMR_1_1FaceFace.html#ac3a31b47e7baa47611ea150254a49fe3":[9,1,11,0]
 };

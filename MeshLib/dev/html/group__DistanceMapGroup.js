@@ -22,6 +22,8 @@ var group__DistanceMapGroup =
       [ "getXYDerivativeMaps", "classMR_1_1DistanceMap.html#aaaf57f68fae4b550eaab60acb61871b3", null ],
       [ "heapBytes", "classMR_1_1DistanceMap.html#a9a2b0e5b026e2046b9d68412671d9f8a", null ],
       [ "invalidateAll", "classMR_1_1DistanceMap.html#ad5b12268ebb7ac7c56982566845c0e08", null ],
+      [ "isInBounds", "classMR_1_1DistanceMap.html#afa3165909461f4338a68ad61061e3dd8", null ],
+      [ "isInBounds", "classMR_1_1DistanceMap.html#ac569825ceb48710f525dde089d566e82", null ],
       [ "isValid", "classMR_1_1DistanceMap.html#af1b7ab47803d2d2e93f40336ba1e06f7", null ],
       [ "isValid", "classMR_1_1DistanceMap.html#a1eaf3f29a82b7eb2528f578d2f9e8f34", null ],
       [ "max", "classMR_1_1DistanceMap.html#a79e49582180247f71a986aa45410f8d7", null ],

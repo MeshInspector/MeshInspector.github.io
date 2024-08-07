@@ -134,16 +134,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa0529b95564bf62adb72c9ecda53188f"><td class="mdescLeft">&#160;</td><td class="mdescRight">make from 2d array  <br /></td></tr>
 <tr class="separator:aa0529b95564bf62adb72c9ecda53188f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1eaf3f29a82b7eb2528f578d2f9e8f34" id="r_a1eaf3f29a82b7eb2528f578d2f9e8f34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1eaf3f29a82b7eb2528f578d2f9e8f34">isValid</a> (size_t x, size_t y) const</td></tr>
-<tr class="memdesc:a1eaf3f29a82b7eb2528f578d2f9e8f34"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if X,Y element is valid  <br /></td></tr>
+<tr class="memdesc:a1eaf3f29a82b7eb2528f578d2f9e8f34"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if X,Y element is valid (i.e. not <code>std::numeric_limits&lt;float&gt;::lowest()</code>; passing invalid coords to this is UB)  <br /></td></tr>
 <tr class="separator:a1eaf3f29a82b7eb2528f578d2f9e8f34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1b7ab47803d2d2e93f40336ba1e06f7" id="r_af1b7ab47803d2d2e93f40336ba1e06f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1b7ab47803d2d2e93f40336ba1e06f7">isValid</a> (size_t i) const</td></tr>
-<tr class="memdesc:af1b7ab47803d2d2e93f40336ba1e06f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if index element is valid  <br /></td></tr>
+<tr class="memdesc:af1b7ab47803d2d2e93f40336ba1e06f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if index element is valid (i.e. not <code>std::numeric_limits&lt;float&gt;::lowest()</code>; passing an invalid coord to this is UB)  <br /></td></tr>
 <tr class="separator:af1b7ab47803d2d2e93f40336ba1e06f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac569825ceb48710f525dde089d566e82" id="r_ac569825ceb48710f525dde089d566e82"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac569825ceb48710f525dde089d566e82">isInBounds</a> (size_t x, size_t y) const</td></tr>
+<tr class="memdesc:ac569825ceb48710f525dde089d566e82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if (X,Y) coordinates are in bounds.  <br /></td></tr>
+<tr class="separator:ac569825ceb48710f525dde089d566e82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa3165909461f4338a68ad61061e3dd8" id="r_afa3165909461f4338a68ad61061e3dd8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa3165909461f4338a68ad61061e3dd8">isInBounds</a> (size_t i) const</td></tr>
+<tr class="memdesc:afa3165909461f4338a68ad61061e3dd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if a flattened coordinate is in bounds.  <br /></td></tr>
+<tr class="separator:afa3165909461f4338a68ad61061e3dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a101a1b0a998a4c98f3c5fcbae8d9c593" id="r_a101a1b0a998a4c98f3c5fcbae8d9c593"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a101a1b0a998a4c98f3c5fcbae8d9c593">get</a> (size_t x, size_t y) const</td></tr>
-<tr class="memdesc:a101a1b0a998a4c98f3c5fcbae8d9c593"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns value in (X,Y) element, returns nullopt if not valid  <br /></td></tr>
+<tr class="memdesc:a101a1b0a998a4c98f3c5fcbae8d9c593"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns value in (X,Y) element, returns nullopt if not valid (see <code><a class="el" href="#a1eaf3f29a82b7eb2528f578d2f9e8f34" title="checks if X,Y element is valid (i.e. not std::numeric_limits&lt;float&gt;::lowest(); passing invalid coords...">isValid()</a></code>), UB if out of bounds.  <br /></td></tr>
 <tr class="separator:a101a1b0a998a4c98f3c5fcbae8d9c593"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a2738cef5f113ff90fa89f1743a0e5c" id="r_a8a2738cef5f113ff90fa89f1743a0e5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a2738cef5f113ff90fa89f1743a0e5c">get</a> (size_t i) const</td></tr>
-<tr class="memdesc:a8a2738cef5f113ff90fa89f1743a0e5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns value of index element, returns nullopt if not valid  <br /></td></tr>
+<tr class="memdesc:a8a2738cef5f113ff90fa89f1743a0e5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns value of index element, returns nullopt if not valid (see <code><a class="el" href="#a1eaf3f29a82b7eb2528f578d2f9e8f34" title="checks if X,Y element is valid (i.e. not std::numeric_limits&lt;float&gt;::lowest(); passing invalid coords...">isValid()</a></code>), UB if out of bounds.  <br /></td></tr>
 <tr class="separator:a8a2738cef5f113ff90fa89f1743a0e5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7d63616e89a2dff0379ef4fe48b2c08" id="r_aa7d63616e89a2dff0379ef4fe48b2c08"><td class="memItemLeft" align="right" valign="top">float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7d63616e89a2dff0379ef4fe48b2c08">getValue</a> (size_t x, size_t y)</td></tr>
 <tr class="separator:aa7d63616e89a2dff0379ef4fe48b2c08"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,19 +192,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a17100c5280ade4c9d1b1008d85178ecc"><td class="mdescLeft">&#160;</td><td class="mdescRight">replaces values with cell-wise subtracted values. Invalid values remain only if both corresponding cells are invalid  <br /></td></tr>
 <tr class="separator:a17100c5280ade4c9d1b1008d85178ecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6f348bd639abf5491d2d203623c8ec5" id="r_ad6f348bd639abf5491d2d203623c8ec5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6f348bd639abf5491d2d203623c8ec5">set</a> (size_t x, size_t y, float val)</td></tr>
-<tr class="memdesc:ad6f348bd639abf5491d2d203623c8ec5"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets value in (X,Y) element  <br /></td></tr>
+<tr class="memdesc:ad6f348bd639abf5491d2d203623c8ec5"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets value in (X,Y) element (the coords must be valid, UB otherwise)  <br /></td></tr>
 <tr class="separator:ad6f348bd639abf5491d2d203623c8ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00a3638fd3d285e192befb047bf95db2" id="r_a00a3638fd3d285e192befb047bf95db2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00a3638fd3d285e192befb047bf95db2">set</a> (size_t i, float val)</td></tr>
-<tr class="memdesc:a00a3638fd3d285e192befb047bf95db2"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets value in index element  <br /></td></tr>
+<tr class="memdesc:a00a3638fd3d285e192befb047bf95db2"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets value in index element (the coord must be valid, UB otherwise)  <br /></td></tr>
 <tr class="separator:a00a3638fd3d285e192befb047bf95db2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55389356dd0df5de1c041e73baa076f7" id="r_a55389356dd0df5de1c041e73baa076f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55389356dd0df5de1c041e73baa076f7">set</a> (std::vector&lt; float &gt; <a class="el" href="#a38e9ddb4a58e01a2fee45968358c5098">data</a>)</td></tr>
 <tr class="memdesc:a55389356dd0df5de1c041e73baa076f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets all values at one time  <br /></td></tr>
 <tr class="separator:a55389356dd0df5de1c041e73baa076f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accb80725a2b8dca649a538bcf090f98f" id="r_accb80725a2b8dca649a538bcf090f98f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accb80725a2b8dca649a538bcf090f98f">unset</a> (size_t x, size_t y)</td></tr>
-<tr class="memdesc:accb80725a2b8dca649a538bcf090f98f"><td class="mdescLeft">&#160;</td><td class="mdescRight">invalidates value in (X,Y) element  <br /></td></tr>
+<tr class="memdesc:accb80725a2b8dca649a538bcf090f98f"><td class="mdescLeft">&#160;</td><td class="mdescRight">invalidates value in (X,Y) element (the coords must be valid, UB otherwise)  <br /></td></tr>
 <tr class="separator:accb80725a2b8dca649a538bcf090f98f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9daffb9c88428b1354e37aa4c55fb9d" id="r_ae9daffb9c88428b1354e37aa4c55fb9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9daffb9c88428b1354e37aa4c55fb9d">unset</a> (size_t i)</td></tr>
-<tr class="memdesc:ae9daffb9c88428b1354e37aa4c55fb9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">invalidates value in index element  <br /></td></tr>
+<tr class="memdesc:ae9daffb9c88428b1354e37aa4c55fb9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">invalidates value in index element (the coord must be valid, UB otherwise)  <br /></td></tr>
 <tr class="separator:ae9daffb9c88428b1354e37aa4c55fb9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5b12268ebb7ac7c56982566845c0e08" id="r_ad5b12268ebb7ac7c56982566845c0e08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5b12268ebb7ac7c56982566845c0e08">invalidateAll</a> ()</td></tr>
 <tr class="memdesc:ad5b12268ebb7ac7c56982566845c0e08"><td class="mdescLeft">&#160;</td><td class="mdescRight">invalidates all elements  <br /></td></tr>
@@ -450,7 +456,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns value of index element, returns nullopt if not valid </p>
+<p>returns value of index element, returns nullopt if not valid (see <code><a class="el" href="#a1eaf3f29a82b7eb2528f578d2f9e8f34" title="checks if X,Y element is valid (i.e. not std::numeric_limits&lt;float&gt;::lowest(); passing invalid coords...">isValid()</a></code>), UB if out of bounds. </p>
 
 </div>
 </div>
@@ -481,7 +487,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns value in (X,Y) element, returns nullopt if not valid </p>
+<p>returns value in (X,Y) element, returns nullopt if not valid (see <code><a class="el" href="#a1eaf3f29a82b7eb2528f578d2f9e8f34" title="checks if X,Y element is valid (i.e. not std::numeric_limits&lt;float&gt;::lowest(); passing invalid coords...">isValid()</a></code>), UB if out of bounds. </p>
 
 </div>
 </div>
@@ -542,7 +548,7 @@ Additional Inherited Members</h2></td></tr>
 <p>finds interpolated value. </p>
 <p><a href="https://en.wikipedia.org/wiki/Bilinear_interpolation">https://en.wikipedia.org/wiki/Bilinear_interpolation</a> getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <a href="https://docs.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-coordinates">https://docs.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-coordinates</a> for details all 4 elements around this point should be valid, returns nullopt if at least one is not valid </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">x,y</td><td>should be in resolution range [0;resX][0;resY]. </td></tr>
+    <tr><td class="paramname">x,y</td><td>should be in resolution range [0;resX][0;resY]. If x,y are out of bounds, returns nullopt. </td></tr>
   </table>
   </dd>
 </dl>
@@ -836,6 +842,64 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="afa3165909461f4338a68ad61061e3dd8" name="afa3165909461f4338a68ad61061e3dd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa3165909461f4338a68ad61061e3dd8">&#9670;&#160;</a></span>isInBounds() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::DistanceMap::isInBounds </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if a flattened coordinate is in bounds. </p>
+
+</div>
+</div>
+<a id="ac569825ceb48710f525dde089d566e82" name="ac569825ceb48710f525dde089d566e82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac569825ceb48710f525dde089d566e82">&#9670;&#160;</a></span>isInBounds() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::DistanceMap::isInBounds </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>y</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if (X,Y) coordinates are in bounds. </p>
+
+</div>
+</div>
 <a id="af1b7ab47803d2d2e93f40336ba1e06f7" name="af1b7ab47803d2d2e93f40336ba1e06f7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af1b7ab47803d2d2e93f40336ba1e06f7">&#9670;&#160;</a></span>isValid() <span class="overload">[1/2]</span></h2>
 
@@ -859,7 +923,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>checks if index element is valid </p>
+<p>checks if index element is valid (i.e. not <code>std::numeric_limits&lt;float&gt;::lowest()</code>; passing an invalid coord to this is UB) </p>
 
 </div>
 </div>
@@ -890,7 +954,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>checks if X,Y element is valid </p>
+<p>checks if X,Y element is valid (i.e. not <code>std::numeric_limits&lt;float&gt;::lowest()</code>; passing invalid coords to this is UB) </p>
 
 </div>
 </div>
@@ -1150,7 +1214,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>sets value in index element </p>
+<p>sets value in index element (the coord must be valid, UB otherwise) </p>
 
 </div>
 </div>
@@ -1178,7 +1242,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>sets value in (X,Y) element </p>
+<p>sets value in (X,Y) element (the coords must be valid, UB otherwise) </p>
 
 </div>
 </div>
@@ -1232,7 +1296,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>finds 3d coordinates of the Point on the model surface for the (x,y) pixel Use the same params with distance map creation </p>
+<p>finds 3d coordinates of the Point on the model surface for the (x,y) pixel Use the same params with distance map creation (x,y) must be in bounds, the behavior is undefined otherwise. </p>
 
 </div>
 </div>
@@ -1275,7 +1339,7 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <a href="https://docs.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-coordinates">https://docs.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-coordinates</a> for details all 4 elements around this point should be valid, returns nullopt if at least one is not valid </p>
+<p>getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <a href="https://docs.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-coordinates">https://docs.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-coordinates</a> for details all 4 elements around this point should be valid, returns nullopt if at least one is not valid If x,y are out of bounds, returns nullopt. </p>
 
 </div>
 </div>
@@ -1294,7 +1358,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>invalidates value in index element </p>
+<p>invalidates value in index element (the coord must be valid, UB otherwise) </p>
 
 </div>
 </div>
@@ -1317,7 +1381,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>invalidates value in (X,Y) element </p>
+<p>invalidates value in (X,Y) element (the coords must be valid, UB otherwise) </p>
 
 </div>
 </div>
