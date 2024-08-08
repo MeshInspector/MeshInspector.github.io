@@ -1,5 +1,7 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1SpaceMouseHandlerHidapi.html":[10,0,10,583],
+"classMR_1_1SpaceMouseHandlerHidapi.html":[12,0,1,567],
 "classMR_1_1SpaceMouseHandlerHidapi.html#a6ae949deecea5c7980616194d48db713":[10,0,10,583,5],
 "classMR_1_1SpaceMouseHandlerHidapi.html#a6ae949deecea5c7980616194d48db713":[12,0,1,567,5],
 "classMR_1_1SpaceMouseHandlerHidapi.html#a84930e9f8ad1885e7875acfcca06aa87":[10,0,10,583,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1SurfacePointWidget.html#ac080d1db3d7eb21da1f39961a3885346":[12,0,1,585,21],
 "classMR_1_1SurfacePointWidget.html#ac576ca6d2ee3f2e66a4f10dea86ebe4e":[10,0,10,601,3],
 "classMR_1_1SurfacePointWidget.html#ac576ca6d2ee3f2e66a4f10dea86ebe4e":[12,0,1,585,3],
-"classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2":[10,0,10,601,1],
-"classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2":[12,0,1,585,1],
-"classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2a484afb8d54ec549700b1fe96417519a9":[10,0,10,601,1,2]
+"classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2":[10,0,10,601,1]
 };

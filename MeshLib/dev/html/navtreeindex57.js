@@ -1,5 +1,9 @@
 var NAVTREEINDEX57 =
 {
+"structMR_1_1ComputeSteepestDescentPathSettings.html#a9c5b63e96c36543a3af9203630d6325c":[9,18,3,0,0],
+"structMR_1_1ComputeSteepestDescentPathSettings.html#adb7629a9e4ce0c21efc00fd5f1b3932f":[9,18,3,0,2],
+"structMR_1_1Cone3ApproximationParams.html":[10,0,10,139],
+"structMR_1_1Cone3ApproximationParams.html":[12,0,1,123],
 "structMR_1_1Cone3ApproximationParams.html#a0c389ccce5e8616195da9e724505f8c2":[10,0,10,139,2],
 "structMR_1_1Cone3ApproximationParams.html#a0c389ccce5e8616195da9e724505f8c2":[12,0,1,123,2],
 "structMR_1_1Cone3ApproximationParams.html#a5b47cd0b4ce1e73f079a35fdc80d2850":[10,0,10,139,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX57 =
 "structMR_1_1Dipole.html#add9068963adfd3d355beb68aba48df2a":[10,0,10,169,0],
 "structMR_1_1Dipole.html#add9068963adfd3d355beb68aba48df2a":[12,0,1,153,0],
 "structMR_1_1Directory.html":[10,0,10,171],
-"structMR_1_1Directory.html":[12,0,1,155],
-"structMR_1_1Directory.html#a65306e29fafdd199b5c607289be0a79c":[10,0,10,171,0],
-"structMR_1_1Directory.html#a65306e29fafdd199b5c607289be0a79c":[12,0,1,155,0],
-"structMR_1_1Directory.html#aa0c34b86b17fa7255361f1bb764e006d":[10,0,10,171,1],
-"structMR_1_1Directory.html#aa0c34b86b17fa7255361f1bb764e006d":[12,0,1,155,1]
+"structMR_1_1Directory.html":[12,0,1,155]
 };

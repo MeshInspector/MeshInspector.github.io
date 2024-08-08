@@ -183,6 +183,7 @@ var hierarchy =
     ] ],
     [ "MR::UI::TestEngine::ButtonEntry", "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html", null ],
     [ "MR::RibbonButtonDrawer::ButtonItemWidth", "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html", null ],
+    [ "MR::UI::CachedTextSize", "structMR_1_1UI_1_1CachedTextSize.html", null ],
     [ "MR::Parallel::CallSimply", "structMR_1_1Parallel_1_1CallSimply.html", null ],
     [ "MR::Parallel::CallSimplyMaker", "structMR_1_1Parallel_1_1CallSimplyMaker.html", null ],
     [ "MR::Parallel::CallWithTLS< T >", "structMR_1_1Parallel_1_1CallWithTLS.html", null ],

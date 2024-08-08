@@ -1,5 +1,7 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1Cuda_1_1PointsToMeshProjector.html#ac217c2f9f716d994aa1c0ab98369dc95":[10,0,10,2,1,0],
+"classMR_1_1Cuda_1_1PointsToMeshProjector.html#ac217c2f9f716d994aa1c0ab98369dc95":[12,0,1,0,1,0],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html#acad1ebdc55ec529f2918c229d5b92111":[10,0,10,2,1,1],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html#acad1ebdc55ec529f2918c229d5b92111":[12,0,1,0,1,1],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html#adf5e78de5901539edc597f320a512547":[10,0,10,2,1,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1EdgePathsBuilderT.html#ad30700907c0223d6668cc9e5910765c3":[10,0,10,187,10],
 "classMR_1_1EdgePathsBuilderT.html#ad30700907c0223d6668cc9e5910765c3":[12,0,1,171,10],
 "classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc":[10,0,10,187,7],
-"classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc":[12,0,1,171,7],
-"classMR_1_1EmbeddedPython.html":[10,0,10,192],
-"classMR_1_1EmbeddedPython.html":[12,0,1,176]
+"classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc":[12,0,1,171,7]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX42 =
 {
+"classMR_1_1VolumeIndexer.html":[9,19,0,0],
+"classMR_1_1VolumeSegmenter.html":[9,19,1,1],
 "classMR_1_1VolumeSegmenter.html#a094269d781001b691a4b6df797bcb91f":[9,19,1,1,4],
 "classMR_1_1VolumeSegmenter.html#a1e60835e895738ed66679e5f39acf19f":[9,19,1,1,7],
 "classMR_1_1VolumeSegmenter.html#a41b495dd66f5ad9eaa656a20be4ae95c":[9,19,1,1,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX42 =
 "classabstract.html#a49888a0f2650083d08b07fe44e074978":[12,0,2,7],
 "classabstract.html#a55afd74ef3dba1e9e4c8e95a4c1d2647":[12,0,2,4],
 "classabstract.html#a614296dd03e2f8e73429928e0237d70c":[12,0,2,10],
-"classabstract.html#a8fe2879ae97bef8e87e5e4160c10a8a2":[12,0,2,0],
-"classabstract.html#aa6781ecc6bde4c96361973d93e5947cb":[12,0,2,2],
-"classabstract.html#ab1c2a8b5d5b7c9fcef96f798cb786aa3":[12,0,2,3]
+"classabstract.html#a8fe2879ae97bef8e87e5e4160c10a8a2":[12,0,2,0]
 };

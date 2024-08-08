@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"classMR_1_1BitSet.html#a84a9273303ae000bcf94b893a298eb95":[9,3,2,4],
+"classMR_1_1BitSet.html#a85be34ba3bb731ce828ca21c67b1413c":[9,3,2,26],
 "classMR_1_1BitSet.html#a93e21fb90c6e66305939698ba328dfb4":[9,3,2,10],
 "classMR_1_1BitSet.html#aa2267b11bc02d8a216df148fdccc02a3":[9,3,2,18],
 "classMR_1_1BitSet.html#aab6d4690169ae21969bc5f538fc8fbff":[9,3,2,25],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "classMR_1_1ChangeMeshTexturePerFaceAction.html#ab6aa5335ed7975682a4f23ccfbd8d5f2":[9,4,9,2],
 "classMR_1_1ChangeMeshTopologyAction.html":[9,4,8],
 "classMR_1_1ChangeMeshTopologyAction.html#a390c7099109f9817a3502210630fa228":[9,4,8,2],
-"classMR_1_1ChangeMeshTopologyAction.html#a94b059bce32bf0568d4e0b3fa861479c":[9,4,8,4],
-"classMR_1_1ChangeMeshTopologyAction.html#aa8d94a8b87ac3a73dc720cb294e1553e":[9,4,8,1],
-"classMR_1_1ChangeMeshTopologyAction.html#ac1782bd01a600b949c2bd731b603918b":[9,4,8,3]
+"classMR_1_1ChangeMeshTopologyAction.html#a94b059bce32bf0568d4e0b3fa861479c":[9,4,8,4]
 };

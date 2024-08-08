@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1EmbeddedPython.html":[10,0,10,192],
+"classMR_1_1EmbeddedPython.html":[12,0,1,176],
 "classMR_1_1EnumNeihbourFaces.html":[10,0,10,194],
 "classMR_1_1EnumNeihbourFaces.html":[12,0,1,178],
 "classMR_1_1EnumNeihbourFaces.html#a85f07106265d0d9ea1a93a7fd8ba1973":[10,0,10,194,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1FramebufferData.html#add94b9fac7f1c8a7432205fe148aff5b":[12,0,1,205,2],
 "classMR_1_1FramebufferData.html#afd64093c7c72fb36807eaf3b9baa59e2":[10,0,10,221,4],
 "classMR_1_1FramebufferData.html#afd64093c7c72fb36807eaf3b9baa59e2":[12,0,1,205,4],
-"classMR_1_1FreeFormBestFit.html":[10,0,10,224],
-"classMR_1_1FreeFormBestFit.html":[12,0,1,208],
-"classMR_1_1FreeFormBestFit.html#a11e739e1974c8b474fb6f111f59b9cb8":[10,0,10,224,2]
+"classMR_1_1FreeFormBestFit.html":[10,0,10,224]
 };

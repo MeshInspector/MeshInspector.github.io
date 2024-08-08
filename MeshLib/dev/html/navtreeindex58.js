@@ -1,5 +1,9 @@
 var NAVTREEINDEX58 =
 {
+"structMR_1_1Directory.html#a65306e29fafdd199b5c607289be0a79c":[10,0,10,171,0],
+"structMR_1_1Directory.html#a65306e29fafdd199b5c607289be0a79c":[12,0,1,155,0],
+"structMR_1_1Directory.html#aa0c34b86b17fa7255361f1bb764e006d":[10,0,10,171,1],
+"structMR_1_1Directory.html#aa0c34b86b17fa7255361f1bb764e006d":[12,0,1,155,1],
 "structMR_1_1DirectoryIterator.html":[10,0,10,172],
 "structMR_1_1DirectoryIterator.html":[12,0,1,156],
 "structMR_1_1DirectoryIterator.html#a0614a693a34cc58e9e59902bf38e38ef":[10,0,10,172,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1FaceDistancesSettings.html":[12,0,1,180],
 "structMR_1_1FaceDistancesSettings.html#a2ea8f49066513ec8895aadabd2bc8bd6":[10,0,10,196,1],
 "structMR_1_1FaceDistancesSettings.html#a2ea8f49066513ec8895aadabd2bc8bd6":[12,0,1,180,1],
-"structMR_1_1FaceDistancesSettings.html#a712f07635ebe5270dd2a58473ca7a7cb":[10,0,10,196,2],
-"structMR_1_1FaceDistancesSettings.html#a712f07635ebe5270dd2a58473ca7a7cb":[12,0,1,180,2],
-"structMR_1_1FaceDistancesSettings.html#a9c26116bdf2f4041ab93071989875a92":[10,0,10,196,3],
-"structMR_1_1FaceDistancesSettings.html#a9c26116bdf2f4041ab93071989875a92":[12,0,1,180,3],
-"structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358a":[10,0,10,196,0]
+"structMR_1_1FaceDistancesSettings.html#a712f07635ebe5270dd2a58473ca7a7cb":[10,0,10,196,2]
 };
