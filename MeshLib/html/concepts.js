@@ -27,6 +27,9 @@ var concepts =
           [ "VectorOrScalar", "conceptMR_1_1UI_1_1detail_1_1VectorOrScalar.html", null ],
           [ "ValidBoundForTargetType", "conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType.html", null ],
           [ "ValidDragSpeedForTargetType", "conceptMR_1_1UI_1_1detail_1_1ValidDragSpeedForTargetType.html", null ]
+        ] ],
+        [ "TestEngine", "namespaceMR_1_1UI_1_1TestEngine.html", [
+          [ "AllowedValueType", "conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType.html", null ]
         ] ]
       ] ],
       [ "Trivial", "conceptMR_1_1Trivial.html", null ],

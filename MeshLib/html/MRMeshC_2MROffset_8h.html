@@ -115,6 +115,7 @@ $(function(){initNavTree('MRMeshC_2MROffset_8h.html',''); initResizable(true); }
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshC_2MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMeshC_2MRMeshPart_8h_source.html">MRMeshPart.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMeshC_2MRSignDetectionMode_8h_source.html">MRSignDetectionMode.h</a>&quot;</code><br />
+<code>#include &lt;<a class="el" href="config_8h_source.html">MRMesh/config.h</a>&gt;</code><br />
 </div>
 <p><a href="MRMeshC_2MROffset_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -127,9 +128,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a33acc97c07deb6d568f02260efaad5dd" id="r_a33acc97c07deb6d568f02260efaad5dd"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="MRMeshC_8h.html#a07cb85df391b65224a89339236e03c2e">MR_EXTERN_C_BEGIN</a> struct MROffsetParameters&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33acc97c07deb6d568f02260efaad5dd">MROffsetParameters</a></td></tr>
+<tr class="memitem:a33acc97c07deb6d568f02260efaad5dd" id="r_a33acc97c07deb6d568f02260efaad5dd"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a07cb85df391b65224a89339236e03c2e">MR_EXTERN_C_BEGIN</a> struct MROffsetParameters&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33acc97c07deb6d568f02260efaad5dd">MROffsetParameters</a></td></tr>
 <tr class="separator:a33acc97c07deb6d568f02260efaad5dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a183827f4c28d4b4f67cb0bfb57d821f9" id="r_a183827f4c28d4b4f67cb0bfb57d821f9"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="MRMeshC_8h.html#aa0b04cacc8525d27414f1e4e08872119">MRGeneralOffsetParametersMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a183827f4c28d4b4f67cb0bfb57d821f9">MRGeneralOffsetParametersMode</a></td></tr>
+<tr class="memitem:a183827f4c28d4b4f67cb0bfb57d821f9" id="r_a183827f4c28d4b4f67cb0bfb57d821f9"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#aa0b04cacc8525d27414f1e4e08872119">MRGeneralOffsetParametersMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a183827f4c28d4b4f67cb0bfb57d821f9">MRGeneralOffsetParametersMode</a></td></tr>
 <tr class="memdesc:a183827f4c28d4b4f67cb0bfb57d821f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">allows the user to select in the parameters which offset algorithm to call  <br /></td></tr>
 <tr class="separator:a183827f4c28d4b4f67cb0bfb57d821f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a945dcf32c33543b5dddd40dcab1efb2c" id="r_a945dcf32c33543b5dddd40dcab1efb2c"><td class="memItemLeft" align="right" valign="top">typedef struct MRGeneralOffsetParameters&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a945dcf32c33543b5dddd40dcab1efb2c">MRGeneralOffsetParameters</a></td></tr>
@@ -146,25 +147,28 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab0bcbdc61697a510f5fe0bc636ac7a93" id="r_ab0bcbdc61697a510f5fe0bc636ac7a93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMROffsetParameters.html">MROffsetParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0bcbdc61697a510f5fe0bc636ac7a93">mrOffsetParametersNew</a> (void)</td></tr>
+<tr class="memitem:ab0bcbdc61697a510f5fe0bc636ac7a93" id="r_ab0bcbdc61697a510f5fe0bc636ac7a93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMROffsetParameters.html">MROffsetParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0bcbdc61697a510f5fe0bc636ac7a93">mrOffsetParametersNew</a> (void)</td></tr>
 <tr class="memdesc:ab0bcbdc61697a510f5fe0bc636ac7a93"><td class="mdescLeft">&#160;</td><td class="mdescRight">initializes a default instance  <br /></td></tr>
 <tr class="separator:ab0bcbdc61697a510f5fe0bc636ac7a93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0ecf41a93470d8d200a994dbe88332a" id="r_ab0ecf41a93470d8d200a994dbe88332a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0ecf41a93470d8d200a994dbe88332a">mrOffsetMesh</a> (<a class="el" href="structMRMeshPart.html">MRMeshPart</a> mp, float offset, const <a class="el" href="structMROffsetParameters.html">MROffsetParameters</a> *params, <a class="el" href="MRMeshC_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **errorString)</td></tr>
+<tr class="memitem:ad4c72f42f42761ee3fd77af2372ab83b" id="r_ad4c72f42f42761ee3fd77af2372ab83b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4c72f42f42761ee3fd77af2372ab83b">mrSuggestVoxelSize</a> (<a class="el" href="structMRMeshPart.html">MRMeshPart</a> mp, float approxNumVoxels)</td></tr>
+<tr class="memdesc:ad4c72f42f42761ee3fd77af2372ab83b"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes size of a cubical voxel to get approximately given number of voxels during rasterization  <br /></td></tr>
+<tr class="separator:ad4c72f42f42761ee3fd77af2372ab83b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0ecf41a93470d8d200a994dbe88332a" id="r_ab0ecf41a93470d8d200a994dbe88332a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0ecf41a93470d8d200a994dbe88332a">mrOffsetMesh</a> (<a class="el" href="structMRMeshPart.html">MRMeshPart</a> mp, float offset, const <a class="el" href="structMROffsetParameters.html">MROffsetParameters</a> *params, <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **errorString)</td></tr>
 <tr class="separator:ab0ecf41a93470d8d200a994dbe88332a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58236e50a20a95e295abe22090934da0" id="r_a58236e50a20a95e295abe22090934da0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58236e50a20a95e295abe22090934da0">mrDoubleOffsetMesh</a> (<a class="el" href="structMRMeshPart.html">MRMeshPart</a> mp, float offsetA, float offsetB, const <a class="el" href="structMROffsetParameters.html">MROffsetParameters</a> *params, <a class="el" href="MRMeshC_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **errorString)</td></tr>
+<tr class="memitem:a58236e50a20a95e295abe22090934da0" id="r_a58236e50a20a95e295abe22090934da0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58236e50a20a95e295abe22090934da0">mrDoubleOffsetMesh</a> (<a class="el" href="structMRMeshPart.html">MRMeshPart</a> mp, float offsetA, float offsetB, const <a class="el" href="structMROffsetParameters.html">MROffsetParameters</a> *params, <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **errorString)</td></tr>
 <tr class="separator:a58236e50a20a95e295abe22090934da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c2edf878c38fb1033deae07ea94d45e" id="r_a6c2edf878c38fb1033deae07ea94d45e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c2edf878c38fb1033deae07ea94d45e">mrMcOffsetMesh</a> (<a class="el" href="structMRMeshPart.html">MRMeshPart</a> mp, float offset, const <a class="el" href="structMROffsetParameters.html">MROffsetParameters</a> *params, <a class="el" href="MRMeshC_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **errorString)</td></tr>
+<tr class="memitem:a6c2edf878c38fb1033deae07ea94d45e" id="r_a6c2edf878c38fb1033deae07ea94d45e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c2edf878c38fb1033deae07ea94d45e">mrMcOffsetMesh</a> (<a class="el" href="structMRMeshPart.html">MRMeshPart</a> mp, float offset, const <a class="el" href="structMROffsetParameters.html">MROffsetParameters</a> *params, <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **errorString)</td></tr>
 <tr class="separator:a6c2edf878c38fb1033deae07ea94d45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af70da9adcbba35b3a117eed9dce486a0" id="r_af70da9adcbba35b3a117eed9dce486a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af70da9adcbba35b3a117eed9dce486a0">mrMcShellMeshRegion</a> (const <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh, const <a class="el" href="MRMeshC_8h.html#a883a57a19c513b9ecb905cfa47a9a222">MRFaceBitSet</a> *region, float offset, const <a class="el" href="structMROffsetParameters.html">MROffsetParameters</a> *params, <a class="el" href="MRMeshC_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **errorString)</td></tr>
+<tr class="memitem:af70da9adcbba35b3a117eed9dce486a0" id="r_af70da9adcbba35b3a117eed9dce486a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af70da9adcbba35b3a117eed9dce486a0">mrMcShellMeshRegion</a> (const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh, const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a883a57a19c513b9ecb905cfa47a9a222">MRFaceBitSet</a> *region, float offset, const <a class="el" href="structMROffsetParameters.html">MROffsetParameters</a> *params, <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **errorString)</td></tr>
 <tr class="separator:af70da9adcbba35b3a117eed9dce486a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadf4e0af42f9fdcd6f178290427e707a" id="r_aadf4e0af42f9fdcd6f178290427e707a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMRGeneralOffsetParameters.html">MRGeneralOffsetParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadf4e0af42f9fdcd6f178290427e707a">mrGeneralOffsetParametersNew</a> (void)</td></tr>
+<tr class="memitem:aadf4e0af42f9fdcd6f178290427e707a" id="r_aadf4e0af42f9fdcd6f178290427e707a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMRGeneralOffsetParameters.html">MRGeneralOffsetParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadf4e0af42f9fdcd6f178290427e707a">mrGeneralOffsetParametersNew</a> (void)</td></tr>
 <tr class="memdesc:aadf4e0af42f9fdcd6f178290427e707a"><td class="mdescLeft">&#160;</td><td class="mdescRight">initializes a default instance  <br /></td></tr>
 <tr class="separator:aadf4e0af42f9fdcd6f178290427e707a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fef3b2c0bbec42a17beb4306d09871a" id="r_a2fef3b2c0bbec42a17beb4306d09871a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fef3b2c0bbec42a17beb4306d09871a">mrSharpOffsetMesh</a> (<a class="el" href="structMRMeshPart.html">MRMeshPart</a> mp, float offset, const <a class="el" href="structMROffsetParameters.html">MROffsetParameters</a> *params, const <a class="el" href="structMRGeneralOffsetParameters.html">MRGeneralOffsetParameters</a> *generalParams, <a class="el" href="MRMeshC_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **errorString)</td></tr>
+<tr class="memitem:a2fef3b2c0bbec42a17beb4306d09871a" id="r_a2fef3b2c0bbec42a17beb4306d09871a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fef3b2c0bbec42a17beb4306d09871a">mrSharpOffsetMesh</a> (<a class="el" href="structMRMeshPart.html">MRMeshPart</a> mp, float offset, const <a class="el" href="structMROffsetParameters.html">MROffsetParameters</a> *params, const <a class="el" href="structMRGeneralOffsetParameters.html">MRGeneralOffsetParameters</a> *generalParams, <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **errorString)</td></tr>
 <tr class="separator:a2fef3b2c0bbec42a17beb4306d09871a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7f167c74ae36585005ebc3bf201682b" id="r_ac7f167c74ae36585005ebc3bf201682b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7f167c74ae36585005ebc3bf201682b">mrGeneralOffsetMesh</a> (<a class="el" href="structMRMeshPart.html">MRMeshPart</a> mp, float offset, const <a class="el" href="structMROffsetParameters.html">MROffsetParameters</a> *params, const <a class="el" href="structMRGeneralOffsetParameters.html">MRGeneralOffsetParameters</a> *generalParams, <a class="el" href="MRMeshC_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **errorString)</td></tr>
+<tr class="memitem:ac7f167c74ae36585005ebc3bf201682b" id="r_ac7f167c74ae36585005ebc3bf201682b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7f167c74ae36585005ebc3bf201682b">mrGeneralOffsetMesh</a> (<a class="el" href="structMRMeshPart.html">MRMeshPart</a> mp, float offset, const <a class="el" href="structMROffsetParameters.html">MROffsetParameters</a> *params, const <a class="el" href="structMRGeneralOffsetParameters.html">MRGeneralOffsetParameters</a> *generalParams, <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **errorString)</td></tr>
 <tr class="separator:ac7f167c74ae36585005ebc3bf201682b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0102fab24c464c71b05780276f26fbc" id="r_ab0102fab24c464c71b05780276f26fbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0102fab24c464c71b05780276f26fbc">mrThickenMesh</a> (const <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh, float offset, const <a class="el" href="structMROffsetParameters.html">MROffsetParameters</a> *params, const <a class="el" href="structMRGeneralOffsetParameters.html">MRGeneralOffsetParameters</a> *generalParams, <a class="el" href="MRMeshC_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **errorString)</td></tr>
+<tr class="memitem:ab0102fab24c464c71b05780276f26fbc" id="r_ab0102fab24c464c71b05780276f26fbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0102fab24c464c71b05780276f26fbc">mrThickenMesh</a> (const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh, float offset, const <a class="el" href="structMROffsetParameters.html">MROffsetParameters</a> *params, const <a class="el" href="structMRGeneralOffsetParameters.html">MRGeneralOffsetParameters</a> *generalParams, <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **errorString)</td></tr>
 <tr class="separator:ab0102fab24c464c71b05780276f26fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -189,7 +193,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef enum <a class="el" href="MRMeshC_8h.html#aa0b04cacc8525d27414f1e4e08872119">MRGeneralOffsetParametersMode</a> <a class="el" href="MRMeshC_8h.html#aa0b04cacc8525d27414f1e4e08872119">MRGeneralOffsetParametersMode</a></td>
+          <td class="memname">typedef enum <a class="el" href="#aa0b04cacc8525d27414f1e4e08872119">MRGeneralOffsetParametersMode</a> <a class="el" href="#aa0b04cacc8525d27414f1e4e08872119">MRGeneralOffsetParametersMode</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -205,7 +209,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="MRMeshC_8h.html#a07cb85df391b65224a89339236e03c2e">MR_EXTERN_C_BEGIN</a> struct MROffsetParameters MROffsetParameters</td>
+          <td class="memname">typedef <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a07cb85df391b65224a89339236e03c2e">MR_EXTERN_C_BEGIN</a> struct MROffsetParameters MROffsetParameters</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -220,7 +224,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="MRMeshC_8h.html#aa0b04cacc8525d27414f1e4e08872119">MRGeneralOffsetParametersMode</a></td>
+          <td class="memname">enum <a class="el" href="#aa0b04cacc8525d27414f1e4e08872119">MRGeneralOffsetParametersMode</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -245,7 +249,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> * mrDoubleOffsetMesh </td>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> * mrDoubleOffsetMesh </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMRMeshPart.html">MRMeshPart</a></td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
@@ -267,7 +271,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRMeshC_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **</td>          <td class="paramname"><span class="paramname"><em>errorString</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **</td>          <td class="paramname"><span class="paramname"><em>errorString</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -282,7 +286,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> * mrGeneralOffsetMesh </td>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> * mrGeneralOffsetMesh </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMRMeshPart.html">MRMeshPart</a></td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
@@ -304,7 +308,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRMeshC_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **</td>          <td class="paramname"><span class="paramname"><em>errorString</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **</td>          <td class="paramname"><span class="paramname"><em>errorString</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -319,7 +323,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMRGeneralOffsetParameters.html">MRGeneralOffsetParameters</a> mrGeneralOffsetParametersNew </td>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMRGeneralOffsetParameters.html">MRGeneralOffsetParameters</a> mrGeneralOffsetParametersNew </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -338,7 +342,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> * mrMcOffsetMesh </td>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> * mrMcOffsetMesh </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMRMeshPart.html">MRMeshPart</a></td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
@@ -355,7 +359,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRMeshC_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **</td>          <td class="paramname"><span class="paramname"><em>errorString</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **</td>          <td class="paramname"><span class="paramname"><em>errorString</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -370,14 +374,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> * mrMcShellMeshRegion </td>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> * mrMcShellMeshRegion </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRMeshC_8h.html#a883a57a19c513b9ecb905cfa47a9a222">MRFaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a883a57a19c513b9ecb905cfa47a9a222">MRFaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -392,7 +396,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRMeshC_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **</td>          <td class="paramname"><span class="paramname"><em>errorString</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **</td>          <td class="paramname"><span class="paramname"><em>errorString</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -410,7 +414,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> * mrOffsetMesh </td>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> * mrOffsetMesh </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMRMeshPart.html">MRMeshPart</a></td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
@@ -427,7 +431,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRMeshC_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **</td>          <td class="paramname"><span class="paramname"><em>errorString</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **</td>          <td class="paramname"><span class="paramname"><em>errorString</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -442,7 +446,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMROffsetParameters.html">MROffsetParameters</a> mrOffsetParametersNew </td>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMROffsetParameters.html">MROffsetParameters</a> mrOffsetParametersNew </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -461,7 +465,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> * mrSharpOffsetMesh </td>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> * mrSharpOffsetMesh </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMRMeshPart.html">MRMeshPart</a></td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
@@ -483,11 +487,34 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRMeshC_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **</td>          <td class="paramname"><span class="paramname"><em>errorString</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **</td>          <td class="paramname"><span class="paramname"><em>errorString</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>Offsets mesh by converting it to voxels and back post process result using reference mesh to sharpen features if an error has occurred and errorString is not NULL, returns NULL and allocates an error message to errorStr </p>
+
+</div>
+</div>
+<a id="ad4c72f42f42761ee3fd77af2372ab83b" name="ad4c72f42f42761ee3fd77af2372ab83b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4c72f42f42761ee3fd77af2372ab83b">&#9670;&#160;</a></span>mrSuggestVoxelSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> float mrSuggestVoxelSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMRMeshPart.html">MRMeshPart</a></td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>approxNumVoxels</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>computes size of a cubical voxel to get approximately given number of voxels during rasterization </p>
 
 </div>
 </div>
@@ -498,9 +525,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> * mrThickenMesh </td>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> * mrThickenMesh </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -520,7 +547,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRMeshC_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **</td>          <td class="paramname"><span class="paramname"><em>errorString</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a> **</td>          <td class="paramname"><span class="paramname"><em>errorString</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -16,5 +16,6 @@ var searchData=
   ['mr_3a_3aui_3a_3adetail_3a_3avalidboundfortargettype_13',['ValidBoundForTargetType',['../conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType.html',1,'MR::UI::detail']]],
   ['mr_3a_3aui_3a_3adetail_3a_3avaliddragspeedfortargettype_14',['ValidDragSpeedForTargetType',['../conceptMR_1_1UI_1_1detail_1_1ValidDragSpeedForTargetType.html',1,'MR::UI::detail']]],
   ['mr_3a_3aui_3a_3adetail_3a_3avectororscalar_15',['VectorOrScalar',['../conceptMR_1_1UI_1_1detail_1_1VectorOrScalar.html',1,'MR::UI::detail']]],
-  ['mr_3a_3aunitenum_16',['UnitEnum',['../conceptMR_1_1UnitEnum.html',1,'MR']]]
+  ['mr_3a_3aui_3a_3atestengine_3a_3aallowedvaluetype_16',['AllowedValueType',['../conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType.html',1,'MR::UI::TestEngine']]],
+  ['mr_3a_3aunitenum_17',['UnitEnum',['../conceptMR_1_1UnitEnum.html',1,'MR']]]
 ];

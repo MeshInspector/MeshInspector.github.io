@@ -144,10 +144,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a287c53d51507ce60bbd4cdd1aceddd48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec55192b1658167e5a4718c594606fa7" id="r_aec55192b1658167e5a4718c594606fa7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec55192b1658167e5a4718c594606fa7">setMouseScroll</a> (bool active)</td></tr>
 <tr class="separator:aec55192b1658167e5a4718c594606fa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad7e4bd9f3d1de6069e852940644b5e9" id="r_aad7e4bd9f3d1de6069e852940644b5e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad7e4bd9f3d1de6069e852940644b5e9">setTrasformModifierCb</a> (std::function&lt; void(<a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> &amp;)&gt; cb)</td></tr>
+<tr class="memitem:aad7e4bd9f3d1de6069e852940644b5e9" id="r_aad7e4bd9f3d1de6069e852940644b5e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad7e4bd9f3d1de6069e852940644b5e9">setTrasformModifierCb</a> (std::function&lt; void(<a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">AffineXf3f</a> &amp;)&gt; cb)</td></tr>
 <tr class="separator:aad7e4bd9f3d1de6069e852940644b5e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1ce84791f0d7205fd00e67c96b257b1" id="r_ae1ce84791f0d7205fd00e67c96b257b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1ce84791f0d7205fd00e67c96b257b1">setFOVModifierCb</a> (std::function&lt; void(float &amp;)&gt; cb)</td></tr>
 <tr class="separator:ae1ce84791f0d7205fd00e67c96b257b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afad0b160e4c3b68a17b12c736a69cbad" id="r_afad0b160e4c3b68a17b12c736a69cbad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afad0b160e4c3b68a17b12c736a69cbad">preCheckConflicts</a> ()</td></tr>
+<tr class="separator:afad0b160e4c3b68a17b12c736a69cbad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a046bdb995b016a3ac3fbedb314e852" id="r_a1a046bdb995b016a3ac3fbedb314e852"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a046bdb995b016a3ac3fbedb314e852">checkConflicts</a> ()</td></tr>
+<tr class="separator:a1a046bdb995b016a3ac3fbedb314e852"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -159,6 +163,23 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a9d5e51eb18d1cd7551ba1f8385da113c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1a046bdb995b016a3ac3fbedb314e852" name="a1a046bdb995b016a3ac3fbedb314e852"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a046bdb995b016a3ac3fbedb314e852">&#9670;&#160;</a></span>checkConflicts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::MouseController::checkConflicts </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a801124ee76e24e9a65f09339f064e35b" name="a801124ee76e24e9a65f09339f064e35b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a801124ee76e24e9a65f09339f064e35b">&#9670;&#160;</a></span>connect()</h2>
 
@@ -427,6 +448,23 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="afad0b160e4c3b68a17b12c736a69cbad" name="afad0b160e4c3b68a17b12c736a69cbad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afad0b160e4c3b68a17b12c736a69cbad">&#9670;&#160;</a></span>preCheckConflicts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::MouseController::preCheckConflicts </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae1ce84791f0d7205fd00e67c96b257b1" name="ae1ce84791f0d7205fd00e67c96b257b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae1ce84791f0d7205fd00e67c96b257b1">&#9670;&#160;</a></span>setFOVModifierCb()</h2>
 
@@ -502,7 +540,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void MR::MouseController::setTrasformModifierCb </td>
           <td>(</td>
-          <td class="paramtype">std::function&lt; void(<a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> &amp;)&gt;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span></td><td>)</td>
+          <td class="paramtype">std::function&lt; void(<a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">AffineXf3f</a> &amp;)&gt;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

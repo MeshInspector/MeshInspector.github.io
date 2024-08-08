@@ -38,6 +38,11 @@ var MRUnits_8h =
       [ "degreesMinutes", "MRUnits_8h.html#aa6b11352e59ca716da2c9d8bf2371424ac91e005f8e0721e9bf70dae1c874449b", null ],
       [ "degreesMinutesSeconds", "MRUnits_8h.html#aa6b11352e59ca716da2c9d8bf2371424afb9d144547524298c83b8c7fa7a5b67d", null ]
     ] ],
+    [ "InvLengthUnit", "MRUnits_8h.html#af3bb6bedd734e8cd588628a9052cfbb5", [
+      [ "inv_mm", "MRUnits_8h.html#af3bb6bedd734e8cd588628a9052cfbb5a8e6a22666dd8243711d987a592738d22", null ],
+      [ "inv_inches", "MRUnits_8h.html#af3bb6bedd734e8cd588628a9052cfbb5a5f723a50e128c7173a4d28eec1949989", null ],
+      [ "_count", "MRUnits_8h.html#af3bb6bedd734e8cd588628a9052cfbb5ad69186af02738a9b3ced1bc5b652ba55", null ]
+    ] ],
     [ "LengthUnit", "MRUnits_8h.html#a754d4eb0500be08374f5c611d33b5cab", [
       [ "mm", "MRUnits_8h.html#a754d4eb0500be08374f5c611d33b5cabab3cd915d758008bd19d0f2428fbb354a", null ],
       [ "inches", "MRUnits_8h.html#a754d4eb0500be08374f5c611d33b5caba3e1b00c196db969aa22cdc50c6e966c4", null ],

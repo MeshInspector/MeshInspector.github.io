@@ -88,6 +88,7 @@ var classMR_1_1Viewer =
     [ "getViewportSettingsManager", "classMR_1_1Viewer.html#a449fc8ffcd4da3a50e4ce7d6cf7c4a41", null ],
     [ "globalHistoryRedo", "classMR_1_1Viewer.html#ae36f89734b1c96d9a03e4957f38f7b6a", null ],
     [ "globalHistoryUndo", "classMR_1_1Viewer.html#ab8b98e5129d643d9a893c28e17ebe388", null ],
+    [ "hasScaledFramebuffer", "classMR_1_1Viewer.html#a01b60caf23e036ab2d107862a55beffa", null ],
     [ "incrementForceRedrawFrames", "classMR_1_1Viewer.html#a790440df3478329e0d2f47f2a8f6462d", null ],
     [ "incrementThisFrameGLPrimitivesCount", "classMR_1_1Viewer.html#aa9e4f61cb952eb939ba8a95d97b5d961", null ],
     [ "interruptWindowClose", "classMR_1_1Viewer.html#af2b6e2aad9eb5d9f49145edf383690f7", null ],

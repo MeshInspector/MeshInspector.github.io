@@ -18,5 +18,6 @@ var MRMeshC_2MROffset_8h =
     [ "mrOffsetMesh", "MRMeshC_2MROffset_8h.html#ab0ecf41a93470d8d200a994dbe88332a", null ],
     [ "mrOffsetParametersNew", "MRMeshC_2MROffset_8h.html#ab0bcbdc61697a510f5fe0bc636ac7a93", null ],
     [ "mrSharpOffsetMesh", "MRMeshC_2MROffset_8h.html#a2fef3b2c0bbec42a17beb4306d09871a", null ],
+    [ "mrSuggestVoxelSize", "MRMeshC_2MROffset_8h.html#ad4c72f42f42761ee3fd77af2372ab83b", null ],
     [ "mrThickenMesh", "MRMeshC_2MROffset_8h.html#ab0102fab24c464c71b05780276f26fbc", null ]
 ];

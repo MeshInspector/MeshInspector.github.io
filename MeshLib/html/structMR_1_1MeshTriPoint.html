@@ -137,11 +137,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a6796e7f3ca4cdbeb66145767bbf12dc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the point is in a vertex  <br /></td></tr>
 <tr class="separator:a6796e7f3ca4cdbeb66145767bbf12dc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3eb261b602a6bb5dc6342b8a585f3a7c" id="r_a3eb261b602a6bb5dc6342b8a585f3a7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a8ffb37085bbd6060f17bcf222941ab8c">MeshEdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3eb261b602a6bb5dc6342b8a585f3a7c">onEdge</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology) const</td></tr>
-<tr class="memdesc:a3eb261b602a6bb5dc6342b8a585f3a7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns valid value if the point is on edge, otherwise returns invalid MeshEdgePoint  <br /></td></tr>
 <tr class="separator:a3eb261b602a6bb5dc6342b8a585f3a7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90a50a563b67d4e1fa6ad0e30f2e9d71" id="r_a90a50a563b67d4e1fa6ad0e30f2e9d71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90a50a563b67d4e1fa6ad0e30f2e9d71">isBd</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *region=nullptr) const</td></tr>
 <tr class="memdesc:a90a50a563b67d4e1fa6ad0e30f2e9d71"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the point is in vertex or on edge, and that location is on the boundary of the region  <br /></td></tr>
 <tr class="separator:a90a50a563b67d4e1fa6ad0e30f2e9d71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c6fbefac0cf996b3da9fa89a3146eac" id="r_a6c6fbefac0cf996b3da9fa89a3146eac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c6fbefac0cf996b3da9fa89a3146eac">fromTriangle</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="namespaceMR.html#a89b12a80b9137846057aac3efd3e114f">FaceId</a> f) const</td></tr>
+<tr class="memdesc:a6c6fbefac0cf996b3da9fa89a3146eac"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the point is inside or on the boundary of given triangular face  <br /></td></tr>
+<tr class="separator:a6c6fbefac0cf996b3da9fa89a3146eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a448317ec66d714fc3faa1d0bd3b64867" id="r_a448317ec66d714fc3faa1d0bd3b64867"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a448317ec66d714fc3faa1d0bd3b64867">valid</a> () const</td></tr>
 <tr class="memdesc:a448317ec66d714fc3faa1d0bd3b64867"><td class="mdescLeft">&#160;</td><td class="mdescRight">consider this valid if the edge ID is valid  <br /></td></tr>
 <tr class="separator:a448317ec66d714fc3faa1d0bd3b64867"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -399,6 +401,37 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a6c6fbefac0cf996b3da9fa89a3146eac" name="a6c6fbefac0cf996b3da9fa89a3146eac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c6fbefac0cf996b3da9fa89a3146eac">&#9670;&#160;</a></span>fromTriangle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::MeshTriPoint::fromTriangle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a89b12a80b9137846057aac3efd3e114f">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if the point is inside or on the boundary of given triangular face </p>
+
+</div>
+</div>
 <a id="a969e2436a97d15353beb543c26d45590" name="a969e2436a97d15353beb543c26d45590"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a969e2436a97d15353beb543c26d45590">&#9670;&#160;</a></span>getWeightedVerts()</h2>
 
@@ -560,8 +593,7 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>returns valid value if the point is on edge, otherwise returns invalid MeshEdgePoint </p>
+<p>returns valid value if the point is on edge and topology.left(result.e) == topology.left(this-&gt;e), otherwise returns invalid MeshEdgePoint </p>
 
 </div>
 </div>

@@ -116,7 +116,7 @@ $(function(){initNavTree('MRVisualObject_8h.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRObject_8h_source.html">MRObject.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMeshTexture_8h_source.html">MRMeshTexture.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRVector_8h_source.html">MRVector.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMesh_2MRVector_8h_source.html">MRVector.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRColor_8h_source.html">MRColor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRPositionedText_8h_source.html">MRPositionedText.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRIRenderObject_8h_source.html">MRIRenderObject.h</a>&quot;</code><br />
@@ -183,13 +183,15 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a095a0cbf99eaeafc9e593ee191e48cf3">MR::DIRTY_PRIMITIVE_COLORMAP</a> = 0x0200
 , <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a2844551064db079a1d3da473c389c9ca">MR::DIRTY_FACES_COLORMAP</a> = DIRTY_PRIMITIVE_COLORMAP
-, <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a269c9589c9cb0406be81dcb855532f0b">MR::DIRTY_MESH</a> = 0x03FF
-, <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a9db66783aae1f516f71efb3d8e57443a">MR::DIRTY_BOUNDING_BOX</a> = 0x0400
+, <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a2d7eb6cdde4e22fa902012a7a63152a9">MR::DIRTY_TEXTURE_PER_FACE</a> = 0x0400
+, <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a269c9589c9cb0406be81dcb855532f0b">MR::DIRTY_MESH</a> = 0x07FF
 , <br />
-&#160;&#160;<a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a4d37651692aaecc731860a4e8c4df169">MR::DIRTY_BORDER_LINES</a> = 0x0800
-, <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a38d6a5c484bf483e7d19d0e88b575a5f">MR::DIRTY_EDGES_SELECTION</a> = 0x1000
+&#160;&#160;<a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a9db66783aae1f516f71efb3d8e57443a">MR::DIRTY_BOUNDING_BOX</a> = 0x0800
+, <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a4d37651692aaecc731860a4e8c4df169">MR::DIRTY_BORDER_LINES</a> = 0x1000
+, <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a38d6a5c484bf483e7d19d0e88b575a5f">MR::DIRTY_EDGES_SELECTION</a> = 0x2000
 , <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a7930beec8f8d317d708811012219855a">MR::DIRTY_CACHES</a> = DIRTY_BOUNDING_BOX
-, <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a">MR::DIRTY_ALL</a> = 0x1FFF
+, <br />
+&#160;&#160;<a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a">MR::DIRTY_ALL</a> = 0x3FFF
 <br />
  }</td></tr>
 <tr class="separator:ga03255e831f4895337e7cf27d64e51269"><td class="memSeparator" colspan="2">&#160;</td></tr>

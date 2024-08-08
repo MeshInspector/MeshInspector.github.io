@@ -1,6 +1,5 @@
 var classMR_1_1ColorTheme =
 [
-    [ "ColorThemeChangedSignal", "classMR_1_1ColorTheme.html#a0f54970bdab29f2de6d63660bb71deae", null ],
     [ "Preset", "classMR_1_1ColorTheme.html#abbecc6afa53db91ada45757b845b5514", [
       [ "Dark", "classMR_1_1ColorTheme.html#abbecc6afa53db91ada45757b845b5514aa18366b217ebf811ad1886e4f4f865b2", null ],
       [ "Default", "classMR_1_1ColorTheme.html#abbecc6afa53db91ada45757b845b5514a7a1920d61156abc05a60135aefe8bc67", null ],
@@ -9,6 +8,7 @@ var classMR_1_1ColorTheme =
     ] ],
     [ "RibbonColorsType", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0", [
       [ "Background", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0aa9ded1e5ce5d75814730bb4caaf49419", null ],
+      [ "BackgroundSecStyle", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a5c6096c5bd502c82f62242293e9a0ecd", null ],
       [ "HeaderBackground", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2dfef339aeaa577faf0d49879bc040d2", null ],
       [ "HeaderSeparator", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a7af2aa44b44cb2c9ed912410b4f3fa4d", null ],
       [ "TopPanelBackground", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2d838f579eb9b302faa00ef4fbc90172", null ],
@@ -57,6 +57,12 @@ var classMR_1_1ColorTheme =
       [ "GradBtnActiveEnd", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a79ca2c61ddfccb6fb9dd7fa7aef4797f", null ],
       [ "GradBtnDisableEnd", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a3cf021c6c36c7ca240737b15a58169a5", null ],
       [ "GradBtnText", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0aa3e216a80fa3ed8ce043a3227686b692", null ],
+      [ "GradBtnSecStyleStart", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a01bc2b070c09f3d2e1cc66670e1cbbae", null ],
+      [ "GradBtnSecStyleHoverStart", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a6ba1b2ee8410d3d91bbdf59590579fff", null ],
+      [ "GradBtnSecStyleActiveStart", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a6085c7d170c3e8defc025b8188fa56ee", null ],
+      [ "GradBtnSecStyleEnd", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a20f8001e129053fad17ae238b505e776", null ],
+      [ "GradBtnSecStyleHoverEnd", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a7c4e2f4ba1440cb30951c8ae2877d49c", null ],
+      [ "GradBtnSecStyleActiveEnd", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2403adc78e8c55b12b417c627bb19162", null ],
       [ "Count", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "Type", "classMR_1_1ColorTheme.html#ad14d75ef685e439c80487ba1d4c41eca", [
@@ -68,5 +74,5 @@ var classMR_1_1ColorTheme =
       [ "Borders", "classMR_1_1ColorTheme.html#a91b6b928ca7f490fdd396c347347bcdcae313502ef38a56454f3e9de57f384476", null ],
       [ "Count", "classMR_1_1ColorTheme.html#a91b6b928ca7f490fdd396c347347bcdcae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
-    [ "colorThemeChangedSignal", "classMR_1_1ColorTheme.html#aff877396367b0dc6c1b096cccf4a8612", null ]
+    [ "onChanged", "classMR_1_1ColorTheme.html#a28c414812bc41e73acda130004569a41", null ]
 ];

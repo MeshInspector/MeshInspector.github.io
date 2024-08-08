@@ -105,47 +105,78 @@ $(function(){initNavTree('MRBitSetParallelFor_8h.html',''); initResizable(true);
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRBitSetParallelFor.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMesh_2MRBitSet_8h_source.html">MRBitSet.h</a>&quot;</code><br />
-<code>#include &quot;MRPch/MRTBB.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRParallel_8h_source.html">MRParallel.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
 <code>#include &lt;atomic&gt;</code><br />
+<code>#include &lt;cassert&gt;</code><br />
 <code>#include &lt;thread&gt;</code><br />
 </div>
 <p><a href="MRBitSetParallelFor_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1IdRange.html">MR::IdRange&lt; Id &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">range of indices [beg, end)  <a href="structMR_1_1IdRange.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1BitSetParallel.html">MR::BitSetParallel</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga07688e626ceb45b29291dc809fed5038" id="r_ga07688e626ceb45b29291dc809fed5038"><td class="memTemplParams" colspan="2">template&lt;typename IndexType , typename F &gt; </td></tr>
-<tr class="memitem:ga07688e626ceb45b29291dc809fed5038"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga07688e626ceb45b29291dc809fed5038">MR::BitSetParallelForAll</a> (IndexType <a class="el" href="group__BasicGroup.html#ga25c73b1f9e5d5df34b153869e3cb5515">begin</a>, IndexType <a class="el" href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, F f)</td></tr>
-<tr class="separator:ga07688e626ceb45b29291dc809fed5038"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaec1d8613d38041fae09f290f342a4995" id="r_gaec1d8613d38041fae09f290f342a4995"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F &gt; </td></tr>
-<tr class="memitem:gaec1d8613d38041fae09f290f342a4995"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gaec1d8613d38041fae09f290f342a4995">MR::BitSetParallelForAll</a> (const BS &amp;bs, F f)</td></tr>
-<tr class="separator:gaec1d8613d38041fae09f290f342a4995"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga250747209ce76377240779404890d11e" id="r_ga250747209ce76377240779404890d11e"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F &gt; </td></tr>
-<tr class="memitem:ga250747209ce76377240779404890d11e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga250747209ce76377240779404890d11e">MR::BitSetParallelForAllRanged</a> (const BS &amp;bs, F f)</td></tr>
-<tr class="separator:ga250747209ce76377240779404890d11e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9a5be0a6e8755df52fb1cf135ff198cc" id="r_ga9a5be0a6e8755df52fb1cf135ff198cc"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F &gt; </td></tr>
-<tr class="memitem:ga9a5be0a6e8755df52fb1cf135ff198cc"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga9a5be0a6e8755df52fb1cf135ff198cc">MR::BitSetParallelForAllRanged</a> (const BS &amp;bs, F f, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb, size_t reportProgressEveryBit=1024)</td></tr>
-<tr class="separator:ga9a5be0a6e8755df52fb1cf135ff198cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga812527fa00b5699cc23f4e5ec5cd9dab" id="r_ga812527fa00b5699cc23f4e5ec5cd9dab"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F &gt; </td></tr>
-<tr class="memitem:ga812527fa00b5699cc23f4e5ec5cd9dab"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga812527fa00b5699cc23f4e5ec5cd9dab">MR::BitSetParallelForAll</a> (const BS &amp;bs, F f, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb, size_t reportProgressEveryBit=1024)</td></tr>
-<tr class="separator:ga812527fa00b5699cc23f4e5ec5cd9dab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga37f9eccb6fe939fd6694e99a2258a723" id="r_ga37f9eccb6fe939fd6694e99a2258a723"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F , typename ... Cb&gt; </td></tr>
-<tr class="memitem:ga37f9eccb6fe939fd6694e99a2258a723"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga37f9eccb6fe939fd6694e99a2258a723">MR::BitSetParallelFor</a> (const BS &amp;bs, F f, Cb &amp;&amp;... cb)</td></tr>
-<tr class="separator:ga37f9eccb6fe939fd6694e99a2258a723"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8811984137354f9cbae35e3774f58bd7" id="r_ga8811984137354f9cbae35e3774f58bd7"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F , typename ... Cb&gt; </td></tr>
-<tr class="memitem:ga8811984137354f9cbae35e3774f58bd7"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga8811984137354f9cbae35e3774f58bd7">MR::BitSetParallelForReset</a> (const BS &amp;bs, F f, Cb &amp;&amp;... cb)</td></tr>
-<tr class="separator:ga8811984137354f9cbae35e3774f58bd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d363b4768efba11f60c43928c542bf1" id="r_a8d363b4768efba11f60c43928c542bf1"><td class="memTemplParams" colspan="2">template&lt;typename IndexType &gt; </td></tr>
+<tr class="memitem:a8d363b4768efba11f60c43928c542bf1"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1BitSetParallel.html#a8d363b4768efba11f60c43928c542bf1">MR::BitSetParallel::blockRange</a> (const <a class="el" href="structMR_1_1IdRange.html">IdRange</a>&lt; IndexType &gt; &amp;<a class="el" href="namespaceMR_1_1BitSetParallel.html#a8c54ac4b7f59d210bf4835cfa5d86a8c">bitRange</a>)</td></tr>
+<tr class="separator:a8d363b4768efba11f60c43928c542bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f2ddae24bfbab61698167d301e96307" id="r_a8f2ddae24bfbab61698167d301e96307"><td class="memTemplParams" colspan="2">template&lt;typename BS &gt; </td></tr>
+<tr class="memitem:a8f2ddae24bfbab61698167d301e96307"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1BitSetParallel.html#a8f2ddae24bfbab61698167d301e96307">MR::BitSetParallel::blockRange</a> (const BS &amp;bs)</td></tr>
+<tr class="separator:a8f2ddae24bfbab61698167d301e96307"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c54ac4b7f59d210bf4835cfa5d86a8c" id="r_a8c54ac4b7f59d210bf4835cfa5d86a8c"><td class="memTemplParams" colspan="2">template&lt;typename BS &gt; </td></tr>
+<tr class="memitem:a8c54ac4b7f59d210bf4835cfa5d86a8c"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1BitSetParallel.html#a8c54ac4b7f59d210bf4835cfa5d86a8c">MR::BitSetParallel::bitRange</a> (const BS &amp;bs)</td></tr>
+<tr class="separator:a8c54ac4b7f59d210bf4835cfa5d86a8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac886c0876beae880356ab560e584b63e" id="r_ac886c0876beae880356ab560e584b63e"><td class="memTemplParams" colspan="2">template&lt;typename IndexType &gt; </td></tr>
+<tr class="memitem:ac886c0876beae880356ab560e584b63e"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1BitSetParallel.html#ac886c0876beae880356ab560e584b63e">MR::BitSetParallel::bitSubRange</a> (const <a class="el" href="structMR_1_1IdRange.html">IdRange</a>&lt; IndexType &gt; &amp;<a class="el" href="namespaceMR_1_1BitSetParallel.html#a8c54ac4b7f59d210bf4835cfa5d86a8c">bitRange</a>, const tbb::blocked_range&lt; size_t &gt; &amp;range, const tbb::blocked_range&lt; size_t &gt; &amp;subRange)</td></tr>
+<tr class="separator:ac886c0876beae880356ab560e584b63e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bd79eee90fc2c0edb4ad601a2405b3c" id="r_a3bd79eee90fc2c0edb4ad601a2405b3c"><td class="memTemplParams" colspan="2">template&lt;typename IndexType , typename CM , typename F &gt; </td></tr>
+<tr class="memitem:a3bd79eee90fc2c0edb4ad601a2405b3c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1BitSetParallel.html#a3bd79eee90fc2c0edb4ad601a2405b3c">MR::BitSetParallel::ForAllRanged</a> (const <a class="el" href="structMR_1_1IdRange.html">IdRange</a>&lt; IndexType &gt; &amp;<a class="el" href="namespaceMR_1_1BitSetParallel.html#a8c54ac4b7f59d210bf4835cfa5d86a8c">bitRange</a>, const CM &amp;callMaker, F &amp;&amp;f)</td></tr>
+<tr class="separator:a3bd79eee90fc2c0edb4ad601a2405b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f85ef918c6f42f0b53973d00bb6a720" id="r_a5f85ef918c6f42f0b53973d00bb6a720"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename CM , typename F &gt; </td></tr>
+<tr class="memitem:a5f85ef918c6f42f0b53973d00bb6a720"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1BitSetParallel.html#a5f85ef918c6f42f0b53973d00bb6a720">MR::BitSetParallel::ForAllRanged</a> (const BS &amp;bs, const CM &amp;callMaker, F &amp;&amp;f)</td></tr>
+<tr class="separator:a5f85ef918c6f42f0b53973d00bb6a720"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a003ae747d026a9348bbd8cf8eb29b30f" id="r_a003ae747d026a9348bbd8cf8eb29b30f"><td class="memTemplParams" colspan="2">template&lt;typename IndexType , typename CM , typename F &gt; </td></tr>
+<tr class="memitem:a003ae747d026a9348bbd8cf8eb29b30f"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1BitSetParallel.html#a003ae747d026a9348bbd8cf8eb29b30f">MR::BitSetParallel::ForAllRanged</a> (const <a class="el" href="structMR_1_1IdRange.html">IdRange</a>&lt; IndexType &gt; &amp;<a class="el" href="namespaceMR_1_1BitSetParallel.html#a8c54ac4b7f59d210bf4835cfa5d86a8c">bitRange</a>, const CM &amp;callMaker, F &amp;&amp;f, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb, size_t reportProgressEveryBit=1024)</td></tr>
+<tr class="separator:a003ae747d026a9348bbd8cf8eb29b30f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dae19e97b7c75a723c2c38ab4f6f379" id="r_a4dae19e97b7c75a723c2c38ab4f6f379"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename CM , typename F &gt; </td></tr>
+<tr class="memitem:a4dae19e97b7c75a723c2c38ab4f6f379"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1BitSetParallel.html#a4dae19e97b7c75a723c2c38ab4f6f379">MR::BitSetParallel::ForAllRanged</a> (const BS &amp;bs, const CM &amp;callMaker, F &amp;&amp;f, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb, size_t reportProgressEveryBit=1024)</td></tr>
+<tr class="separator:a4dae19e97b7c75a723c2c38ab4f6f379"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga33e26ce0b4711944b757408b0ab339a5" id="r_ga33e26ce0b4711944b757408b0ab339a5"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename ... F&gt; </td></tr>
+<tr class="memitem:ga33e26ce0b4711944b757408b0ab339a5"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga33e26ce0b4711944b757408b0ab339a5">MR::BitSetParallelForAllRanged</a> (const BS &amp;bs, F &amp;&amp;... f)</td></tr>
+<tr class="separator:ga33e26ce0b4711944b757408b0ab339a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga82bab0dac0d1604747ecff512e8a091a" id="r_ga82bab0dac0d1604747ecff512e8a091a"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename L , typename ... F&gt; </td></tr>
+<tr class="memitem:ga82bab0dac0d1604747ecff512e8a091a"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga82bab0dac0d1604747ecff512e8a091a">MR::BitSetParallelForAllRanged</a> (const BS &amp;bs, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;... f)</td></tr>
+<tr class="separator:ga82bab0dac0d1604747ecff512e8a091a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga13c3e24dbe2feef1f9d56ea427ef4107" id="r_ga13c3e24dbe2feef1f9d56ea427ef4107"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F , typename ... Cb&gt; </td></tr>
+<tr class="memitem:ga13c3e24dbe2feef1f9d56ea427ef4107"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga13c3e24dbe2feef1f9d56ea427ef4107">MR::BitSetParallelForAll</a> (const BS &amp;bs, F &amp;&amp;f, Cb &amp;&amp;... cb)</td></tr>
+<tr class="separator:ga13c3e24dbe2feef1f9d56ea427ef4107"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga473b8a238072b360e13c47d4c255d66f" id="r_ga473b8a238072b360e13c47d4c255d66f"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename L , typename F , typename ... Cb&gt; </td></tr>
+<tr class="memitem:ga473b8a238072b360e13c47d4c255d66f"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga473b8a238072b360e13c47d4c255d66f">MR::BitSetParallelForAll</a> (const BS &amp;bs, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;f, Cb &amp;&amp;... cb)</td></tr>
+<tr class="separator:ga473b8a238072b360e13c47d4c255d66f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6f038e999890735ffdb5f8119eb5650e" id="r_ga6f038e999890735ffdb5f8119eb5650e"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F , typename ... Cb&gt; </td></tr>
+<tr class="memitem:ga6f038e999890735ffdb5f8119eb5650e"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga6f038e999890735ffdb5f8119eb5650e">MR::BitSetParallelFor</a> (const BS &amp;bs, F &amp;&amp;f, Cb &amp;&amp;... cb)</td></tr>
+<tr class="separator:ga6f038e999890735ffdb5f8119eb5650e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa44fd6dceea20f68975639cc07df31b2" id="r_gaa44fd6dceea20f68975639cc07df31b2"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename L , typename F , typename ... Cb&gt; </td></tr>
+<tr class="memitem:gaa44fd6dceea20f68975639cc07df31b2"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gaa44fd6dceea20f68975639cc07df31b2">MR::BitSetParallelFor</a> (const BS &amp;bs, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;f, Cb &amp;&amp;... cb)</td></tr>
+<tr class="separator:gaa44fd6dceea20f68975639cc07df31b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -14,7 +14,7 @@ var structMRDecimateSettings =
     [ "optimizeVertexPos", "structMRDecimateSettings.html#ac280387b37c574d825a5dae4e745b550", null ],
     [ "packMesh", "structMRDecimateSettings.html#a4e04ee54a67240824fcf155e24e679b6", null ],
     [ "progressCallback", "structMRDecimateSettings.html#af58a10c0e7e72a5fd0b9159736c8faaa", null ],
-    [ "region", "structMRDecimateSettings.html#ab402c8f3d8fe1eb05302177a3cbf855a", null ],
+    [ "region", "structMRDecimateSettings.html#ad1e58750f155e9e45c27770c31ebe6f8", null ],
     [ "stabilizer", "structMRDecimateSettings.html#ad80f5a2ff69a7fe804e27ce7a20ba275", null ],
     [ "strategy", "structMRDecimateSettings.html#a679658d2e5a069713519041347304233", null ],
     [ "subdivideParts", "structMRDecimateSettings.html#af30ab932574161654a545582168d7f23", null ],

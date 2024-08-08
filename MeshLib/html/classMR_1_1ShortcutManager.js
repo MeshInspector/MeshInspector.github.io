@@ -1,19 +1,11 @@
 var classMR_1_1ShortcutManager =
 [
     [ "ShortcutCommand", "structMR_1_1ShortcutManager_1_1ShortcutCommand.html", "structMR_1_1ShortcutManager_1_1ShortcutCommand" ],
-    [ "ShortcutKey", "structMR_1_1ShortcutManager_1_1ShortcutKey.html", "structMR_1_1ShortcutManager_1_1ShortcutKey" ],
+    [ "Category", "classMR_1_1ShortcutManager.html#acac503f87e678e4a4e1c3541d5915098", null ],
+    [ "ShortcutKey", "classMR_1_1ShortcutManager.html#a95af7d1cba13355b957e0dd270166269", null ],
     [ "ShortcutList", "classMR_1_1ShortcutManager.html#a912f0a1bddab02d0a371cdf93d4729f1", null ],
     [ "ShourtcutsBackMap", "classMR_1_1ShortcutManager.html#a12fa153bb2f0df72498264f840eeef6c", null ],
     [ "ShourtcutsMap", "classMR_1_1ShortcutManager.html#aa3f924fb2d8d08321689742094b61a10", null ],
-    [ "Category", "classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6", [
-      [ "Info", "classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6a4059b0251f66a18cb56f544728796875", null ],
-      [ "Edit", "classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6a7dce122004969d56ae2e0245cb754d35", null ],
-      [ "View", "classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6a4351cfebe4b61d8aa5efa1d020710005", null ],
-      [ "Scene", "classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6a9ead0d38e06ec253ca0ecbf6ea56e59b", null ],
-      [ "Objects", "classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6ac8308b1eba7ba926a61b8fd802194386", null ],
-      [ "Selection", "classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6a6ff9dd0d34f65181173c1e4bc39939de", null ],
-      [ "Count", "classMR_1_1ShortcutManager.html#aabb8bd907bcd6c09162eb7771fa592e6ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
-    ] ],
     [ "Reason", "classMR_1_1ShortcutManager.html#a1a85baae28af51cf7825c2099b693c1b", [
       [ "KeyDown", "classMR_1_1ShortcutManager.html#a1a85baae28af51cf7825c2099b693c1bacfd07bf1effd88bca04a12a087777354", null ],
       [ "KeyRepeat", "classMR_1_1ShortcutManager.html#a1a85baae28af51cf7825c2099b693c1ba4a18f6017ff7015424784e907c933572", null ]

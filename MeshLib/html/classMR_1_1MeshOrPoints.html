@@ -113,7 +113,7 @@ $(function(){initNavTree('classMR_1_1MeshOrPoints.html',''); initResizable(true)
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="MRMeshOrPoints_8h_source.html">MRMeshOrPoints.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="MRMesh_2MRMeshOrPoints_8h_source.html">MRMeshOrPoints.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -122,7 +122,7 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ac587906713a870b8bb50c2b06375a28c" id="r_ac587906713a870b8bb50c2b06375a28c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac587906713a870b8bb50c2b06375a28c">LimitedProjectorFunc</a> = std::function&lt;void( const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&amp; p, <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>&amp; res )&gt;</td></tr>
+<tr class="memitem:ac587906713a870b8bb50c2b06375a28c" id="r_ac587906713a870b8bb50c2b06375a28c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac587906713a870b8bb50c2b06375a28c">LimitedProjectorFunc</a> = std::function&lt;void( const <a class="el" href="classVector3f.html">Vector3f</a>&amp; p, <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>&amp; res )&gt;</td></tr>
 <tr class="separator:ac587906713a870b8bb50c2b06375a28c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -135,9 +135,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abe1af15504d425b2e6633291ccae6828"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a735838d295350004f02283f8429fa620" id="r_a735838d295350004f02283f8429fa620"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a7609ed874338e695bb9d26fc7147dd3c">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a735838d295350004f02283f8429fa620">getObjBoundingBox</a> () const</td></tr>
 <tr class="separator:a735838d295350004f02283f8429fa620"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af68f336dca5c1cbf834ab0c65fc38036" id="r_af68f336dca5c1cbf834ab0c65fc38036"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a7609ed874338e695bb9d26fc7147dd3c">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af68f336dca5c1cbf834ab0c65fc38036">computeBoundingBox</a> (const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> *toWorld=nullptr) const</td></tr>
+<tr class="memitem:aec797ad241ba4410f73274ba5e52c51e" id="r_aec797ad241ba4410f73274ba5e52c51e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec797ad241ba4410f73274ba5e52c51e">cacheAABBTree</a> () const</td></tr>
+<tr class="memdesc:aec797ad241ba4410f73274ba5e52c51e"><td class="mdescLeft">&#160;</td><td class="mdescRight">if <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> is already built does nothing otherwise builds and caches it  <br /></td></tr>
+<tr class="separator:aec797ad241ba4410f73274ba5e52c51e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af68f336dca5c1cbf834ab0c65fc38036" id="r_af68f336dca5c1cbf834ab0c65fc38036"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a7609ed874338e695bb9d26fc7147dd3c">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af68f336dca5c1cbf834ab0c65fc38036">computeBoundingBox</a> (const <a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">AffineXf3f</a> *toWorld=nullptr) const</td></tr>
 <tr class="separator:af68f336dca5c1cbf834ab0c65fc38036"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbcab0078d3323160184019e7850bceb" id="r_abbcab0078d3323160184019e7850bceb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbcab0078d3323160184019e7850bceb">accumulate</a> (<a class="el" href="classMR_1_1PointAccumulator.html">PointAccumulator</a> &amp;accum, const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> *xf=nullptr) const</td></tr>
+<tr class="memitem:abbcab0078d3323160184019e7850bceb" id="r_abbcab0078d3323160184019e7850bceb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbcab0078d3323160184019e7850bceb">accumulate</a> (<a class="el" href="classMR_1_1PointAccumulator.html">PointAccumulator</a> &amp;accum, const <a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">AffineXf3f</a> *xf=nullptr) const</td></tr>
 <tr class="memdesc:abbcab0078d3323160184019e7850bceb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds in existing <a class="el" href="classMR_1_1PointAccumulator.html" title="Class to accumulate points and make best line / plane approximation.">PointAccumulator</a> the elements of the contained object.  <br /></td></tr>
 <tr class="separator:abbcab0078d3323160184019e7850bceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0eded9546a4d5a192d0222adb7ebc21" id="r_aa0eded9546a4d5a192d0222adb7ebc21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="namespaceMR.html#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0eded9546a4d5a192d0222adb7ebc21">pointsGridSampling</a> (float voxelSize, size_t maxVoxels=500000, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={}) const</td></tr>
@@ -148,12 +151,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a825ff27e36144d02b12f1880d863e32b" id="r_a825ff27e36144d02b12f1880d863e32b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="namespaceMR.html#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a825ff27e36144d02b12f1880d863e32b">validPoints</a> () const</td></tr>
 <tr class="memdesc:a825ff27e36144d02b12f1880d863e32b"><td class="mdescLeft">&#160;</td><td class="mdescRight">gives access to bit set of valid points  <br /></td></tr>
 <tr class="separator:a825ff27e36144d02b12f1880d863e32b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a864d2d2aec501a7ccac038912909bef9" id="r_a864d2d2aec501a7ccac038912909bef9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::function&lt; <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>(<a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a864d2d2aec501a7ccac038912909bef9">normals</a> () const</td></tr>
+<tr class="memitem:a864d2d2aec501a7ccac038912909bef9" id="r_a864d2d2aec501a7ccac038912909bef9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::function&lt; <a class="el" href="classVector3f.html">Vector3f</a>(<a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a864d2d2aec501a7ccac038912909bef9">normals</a> () const</td></tr>
 <tr class="memdesc:a864d2d2aec501a7ccac038912909bef9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns normals generating function: VertId-&gt;normal (or empty for point cloud without normals)  <br /></td></tr>
 <tr class="separator:a864d2d2aec501a7ccac038912909bef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e980c7ce8ce348fcb921d6e1feb63c6" id="r_a1e980c7ce8ce348fcb921d6e1feb63c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::function&lt; float(<a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e980c7ce8ce348fcb921d6e1feb63c6">weights</a> () const</td></tr>
 <tr class="separator:a1e980c7ce8ce348fcb921d6e1feb63c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0281d9d51c1ee7b1b2dbd57c5e97414c" id="r_a0281d9d51c1ee7b1b2dbd57c5e97414c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::function&lt; <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>(const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0281d9d51c1ee7b1b2dbd57c5e97414c">projector</a> () const</td></tr>
+<tr class="memitem:a0281d9d51c1ee7b1b2dbd57c5e97414c" id="r_a0281d9d51c1ee7b1b2dbd57c5e97414c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::function&lt; <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>(const <a class="el" href="classVector3f.html">Vector3f</a> &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0281d9d51c1ee7b1b2dbd57c5e97414c">projector</a> () const</td></tr>
 <tr class="memdesc:a0281d9d51c1ee7b1b2dbd57c5e97414c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a function that finds projection (closest) points on this: Vector3f-&gt;<a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>  <br /></td></tr>
 <tr class="separator:a0281d9d51c1ee7b1b2dbd57c5e97414c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbd1b394a6735a416ceeb13ef4ac86eb" id="r_adbd1b394a6735a416ceeb13ef4ac86eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#ac587906713a870b8bb50c2b06375a28c">LimitedProjectorFunc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbd1b394a6735a416ceeb13ef4ac86eb">limitedProjector</a> () const</td></tr>
@@ -169,7 +172,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#ac587906713a870b8bb50c2b06375a28c">MR::MeshOrPoints::LimitedProjectorFunc</a> = std::function&lt;void( const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&amp; p, <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>&amp; res )&gt;</td>
+          <td class="memname">using <a class="el" href="#ac587906713a870b8bb50c2b06375a28c">MR::MeshOrPoints::LimitedProjectorFunc</a> = std::function&lt;void( const <a class="el" href="classVector3f.html">Vector3f</a>&amp; p, <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>&amp; res )&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -267,12 +270,31 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>xf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>xf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Adds in existing <a class="el" href="classMR_1_1PointAccumulator.html" title="Class to accumulate points and make best line / plane approximation.">PointAccumulator</a> the elements of the contained object. </p>
+
+</div>
+</div>
+<a id="aec797ad241ba4410f73274ba5e52c51e" name="aec797ad241ba4410f73274ba5e52c51e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec797ad241ba4410f73274ba5e52c51e">&#9670;&#160;</a></span>cacheAABBTree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::MeshOrPoints::cacheAABBTree </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> is already built does nothing otherwise builds and caches it </p>
 
 </div>
 </div>
@@ -288,7 +310,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a7609ed874338e695bb9d26fc7147dd3c">Box3f</a> MR::MeshOrPoints::computeBoundingBox </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>toWorld</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>toWorld</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -364,7 +386,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::function&lt; <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>(<a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a>)&gt; MR::MeshOrPoints::normals </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::function&lt; <a class="el" href="classVector3f.html">Vector3f</a>(<a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a>)&gt; MR::MeshOrPoints::normals </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -458,7 +480,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::function&lt; <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>(const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &amp;)&gt; MR::MeshOrPoints::projector </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::function&lt; <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>(const <a class="el" href="classVector3f.html">Vector3f</a> &amp;)&gt; MR::MeshOrPoints::projector </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -529,7 +551,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="MRMeshOrPoints_8h_source.html">MRMeshOrPoints.h</a></li>
+<li><a class="el" href="MRMesh_2MRMeshOrPoints_8h_source.html">MRMesh/MRMeshOrPoints.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

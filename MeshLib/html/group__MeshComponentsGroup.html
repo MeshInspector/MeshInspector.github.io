@@ -156,6 +156,8 @@ Functions</h2></td></tr>
 <tr class="separator:gafde425f262b1f15428664fd79a1f0735"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab7b32c390e4839b252de2944886916f9" id="r_gab7b32c390e4839b252de2944886916f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::pair&lt; std::vector&lt; <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> &gt;, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab7b32c390e4839b252de2944886916f9">MR::MeshComponents::getAllComponents</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, int maxComponentCount, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const <a class="el" href="namespaceMR.html#a54078c8d4e2a3473d6e15a932c107cd4">UndirectedEdgePredicate</a> &amp;isCompBd={})</td></tr>
 <tr class="separator:gab7b32c390e4839b252de2944886916f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4cf74d4564ff134bb6415bbcfe4feb42" id="r_ga4cf74d4564ff134bb6415bbcfe4feb42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4cf74d4564ff134bb6415bbcfe4feb42">MR::MeshComponents::getAllComponents</a> (<a class="el" href="namespaceMR.html#a5a8b902cbe3eb8b711bfa0102598f160">Face2RegionMap</a> &amp;componentsMap, int componentsCount, const <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> &amp;region, int maxComponentCount)</td></tr>
+<tr class="separator:ga4cf74d4564ff134bb6415bbcfe4feb42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa8bfdbb15cd2ef20fab8fcb792ed56f5" id="r_gaa8bfdbb15cd2ef20fab8fcb792ed56f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::pair&lt; <a class="el" href="namespaceMR.html#a5a8b902cbe3eb8b711bfa0102598f160">Face2RegionMap</a>, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa8bfdbb15cd2ef20fab8fcb792ed56f5">MR::MeshComponents::getAllComponentsMap</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const <a class="el" href="namespaceMR.html#a54078c8d4e2a3473d6e15a932c107cd4">UndirectedEdgePredicate</a> &amp;isCompBd={})</td></tr>
 <tr class="separator:gaa8bfdbb15cd2ef20fab8fcb792ed56f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4fed6b1a7dee671512d111e0c2afa504" id="r_ga4fed6b1a7dee671512d111e0c2afa504"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; double, <a class="el" href="namespaceMR.html#a32fa4e25a41c6104e28c1baf6a6fce64">RegionId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4fed6b1a7dee671512d111e0c2afa504">MR::MeshComponents::getRegionAreas</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, const <a class="el" href="namespaceMR.html#a5a8b902cbe3eb8b711bfa0102598f160">Face2RegionMap</a> &amp;regionMap, int numRegions)</td></tr>
@@ -238,7 +240,7 @@ Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="gafde425f262b1f15428664fd79a1f0735" name="gafde425f262b1f15428664fd79a1f0735"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafde425f262b1f15428664fd79a1f0735">&#9670;&#160;</a></span>getAllComponents() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafde425f262b1f15428664fd79a1f0735">&#9670;&#160;</a></span>getAllComponents() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -273,7 +275,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="gab7b32c390e4839b252de2944886916f9" name="gab7b32c390e4839b252de2944886916f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab7b32c390e4839b252de2944886916f9">&#9670;&#160;</a></span>getAllComponents() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab7b32c390e4839b252de2944886916f9">&#9670;&#160;</a></span>getAllComponents() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -315,6 +317,52 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>pair components bitsets vector and number components in one group if components number more than maxComponentCount </dd></dl>
+
+</div>
+</div>
+<a id="ga4cf74d4564ff134bb6415bbcfe4feb42" name="ga4cf74d4564ff134bb6415bbcfe4feb42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4cf74d4564ff134bb6415bbcfe4feb42">&#9670;&#160;</a></span>getAllComponents() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> &gt; MR::MeshComponents::getAllComponents </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a5a8b902cbe3eb8b711bfa0102598f160">Face2RegionMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>componentsMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>componentsCount</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxComponentCount</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>gets all connected components from components map ( FaceId =&gt; RegionId ) \detail if components number more than the maxComponentCount, they will be combined into groups of the same size (this similarly changes componentsMap) </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">maxComponentCount</td><td>should be more then 1 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>components bitsets vector </dd></dl>
 
 </div>
 </div>

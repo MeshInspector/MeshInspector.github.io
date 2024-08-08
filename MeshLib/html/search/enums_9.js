@@ -10,9 +10,14 @@ var searchData=
   ['mousemode_7',['MouseMode',['../namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75',1,'MR']]],
   ['movementspeedunit_8',['MovementSpeedUnit',['../namespaceMR.html#ab6428d5776a040cbc748843edbedfa60',1,'MR']]],
   ['movetype_9',['MoveType',['../namespaceMR.html#a88f1fdd848610bc41226918baa28e601',1,'MR']]],
-  ['mrbooleanoperation_10',['MRBooleanOperation',['../MRMeshC_2MRBooleanOperation_8h.html#a23023d1e8bdd5c8deebba6a109008b1a',1,'MRBooleanOperation:&#160;MRBooleanOperation.h'],['../MRMeshC_8h.html#a23023d1e8bdd5c8deebba6a109008b1a',1,'MRBooleanOperation:&#160;MRMeshC.h']]],
-  ['mrdecimatestrategy_11',['MRDecimateStrategy',['../MRMeshC_8h.html#a17d13395034488689778042547b7ff1a',1,'MRDecimateStrategy:&#160;MRMeshC.h'],['../MRMeshC_2MRMeshDecimate_8h.html#a17d13395034488689778042547b7ff1a',1,'MRDecimateStrategy:&#160;MRMeshDecimate.h']]],
-  ['mrgeneraloffsetparametersmode_12',['MRGeneralOffsetParametersMode',['../MRMeshC_8h.html#aa0b04cacc8525d27414f1e4e08872119',1,'MRGeneralOffsetParametersMode:&#160;MRMeshC.h'],['../MRMeshC_2MROffset_8h.html#aa0b04cacc8525d27414f1e4e08872119',1,'MRGeneralOffsetParametersMode:&#160;MROffset.h']]],
-  ['mrsigndetectionmode_13',['MRSignDetectionMode',['../MRMeshC_8h.html#afcbc17c6ae54948453f01917be7236bb',1,'MRSignDetectionMode:&#160;MRMeshC.h'],['../MRMeshC_2MRSignDetectionMode_8h.html#afcbc17c6ae54948453f01917be7236bb',1,'MRSignDetectionMode:&#160;MRSignDetectionMode.h']]],
-  ['multipleedgesresolvemode_14',['MultipleEdgesResolveMode',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301',1,'MR::FillHoleParams']]]
+  ['mrbooleanoperation_10',['MRBooleanOperation',['../MRMeshC_2MRBooleanOperation_8h.html#a23023d1e8bdd5c8deebba6a109008b1a',1,'MRBooleanOperation.h']]],
+  ['mrdecimatestrategy_11',['MRDecimateStrategy',['../MRMeshC_2MRMeshDecimate_8h.html#a17d13395034488689778042547b7ff1a',1,'MRMeshDecimate.h']]],
+  ['mrfillholemetricmultipleedgesresolvemode_12',['MRFillHoleMetricMultipleEdgesResolveMode',['../MRMeshC_2MRMeshFillHole_8h.html#a9bee3913133f05793398b65bee60be62',1,'MRMeshFillHole.h']]],
+  ['mrgeneraloffsetparametersmode_13',['MRGeneralOffsetParametersMode',['../MRMeshC_2MROffset_8h.html#aa0b04cacc8525d27414f1e4e08872119',1,'MROffset.h']]],
+  ['mricpexittype_14',['MRICPExitType',['../MRMeshC_2MRICP_8h.html#af637e69192a24d1df05967ff7f05ad71',1,'MRICP.h']]],
+  ['mricpmethod_15',['MRICPMethod',['../MRMeshC_2MRICP_8h.html#ad13059f0ee11805873789c5c2a23c4ed',1,'MRICP.h']]],
+  ['mricpmode_16',['MRICPMode',['../MRMeshC_2MRICP_8h.html#a557dd31f8dfe045d460e3563dd42b5d1',1,'MRICP.h']]],
+  ['mrmultiwayicpsamplingparameterscascademode_17',['MRMultiwayICPSamplingParametersCascadeMode',['../MRMeshC_2MRMultiwayICP_8h.html#a85436a61b2d55359e9dd0fe4c4adc4f6',1,'MRMultiwayICP.h']]],
+  ['mrsigndetectionmode_18',['MRSignDetectionMode',['../MRMeshC_2MRSignDetectionMode_8h.html#afcbc17c6ae54948453f01917be7236bb',1,'MRSignDetectionMode.h']]],
+  ['multipleedgesresolvemode_19',['MultipleEdgesResolveMode',['../structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301',1,'MR::FillHoleParams']]]
 ];

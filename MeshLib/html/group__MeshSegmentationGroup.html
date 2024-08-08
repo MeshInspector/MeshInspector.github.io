@@ -124,12 +124,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga94134d6a12381a36151563fe8472f818" id="r_ga94134d6a12381a36151563fe8472f818"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga94134d6a12381a36151563fe8472f818">MR::segmentByGraphCut</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> &amp;source, const <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> &amp;sink, const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;metric)</td></tr>
 <tr class="memdesc:ga94134d6a12381a36151563fe8472f818"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds segment that divide mesh on source and sink (source included, sink excluded), by minimizing the sum of metric over the boundary.  <br /></td></tr>
 <tr class="separator:ga94134d6a12381a36151563fe8472f818"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacd49bdef2470a85e4f166fc36c4addb1" id="r_gacd49bdef2470a85e4f166fc36c4addb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacd49bdef2470a85e4f166fc36c4addb1">MR::surroundingContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, std::vector&lt; <a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> &gt; includeEdges, const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;edgeMetric, const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &amp;dir)</td></tr>
-<tr class="memdesc:gacd49bdef2470a85e4f166fc36c4addb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the best closed edge loop passing through given edges, which minimizes the sum of given edge metric.  <br /></td></tr>
-<tr class="separator:gacd49bdef2470a85e4f166fc36c4addb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7386ccde4e83f492a5f40f4e0d5c51d1" id="r_ga7386ccde4e83f492a5f40f4e0d5c51d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7386ccde4e83f492a5f40f4e0d5c51d1">MR::surroundingContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, std::vector&lt; <a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> &gt; keyVertices, const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;edgeMetric, const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &amp;dir)</td></tr>
-<tr class="memdesc:ga7386ccde4e83f492a5f40f4e0d5c51d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the best closed edge loop passing through given vertices, which minimizes the sum of given edge metric.  <br /></td></tr>
-<tr class="separator:ga7386ccde4e83f492a5f40f4e0d5c51d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga92dbf357e425dd6e8d7f76ab544250c5" id="r_ga92dbf357e425dd6e8d7f76ab544250c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga92dbf357e425dd6e8d7f76ab544250c5">MR::surroundingContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, std::vector&lt; <a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> &gt; includeEdges, const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;edgeMetric, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;dir)</td></tr>
+<tr class="memdesc:ga92dbf357e425dd6e8d7f76ab544250c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the best closed edge loop passing through given edges, which minimizes the sum of given edge metric.  <br /></td></tr>
+<tr class="separator:ga92dbf357e425dd6e8d7f76ab544250c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0f96f1d3fde9a79a2d6925cf6ba77f8d" id="r_ga0f96f1d3fde9a79a2d6925cf6ba77f8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0f96f1d3fde9a79a2d6925cf6ba77f8d">MR::surroundingContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, std::vector&lt; <a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> &gt; keyVertices, const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;edgeMetric, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;dir)</td></tr>
+<tr class="memdesc:ga0f96f1d3fde9a79a2d6925cf6ba77f8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the best closed edge loop passing through given vertices, which minimizes the sum of given edge metric.  <br /></td></tr>
+<tr class="separator:ga0f96f1d3fde9a79a2d6925cf6ba77f8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>A set of functions for selecting segments on a mesh. </p>
@@ -138,7 +138,7 @@ How To</h1>
 <ol type="1">
 <li>Make Contour(-s)<br  />
 First step to get a mesh segment by two (/three) points, is getting the contour that bounds the segment.<br  />
-To do this, you can use <a class="el" href="#gacd49bdef2470a85e4f166fc36c4addb1">surroundingContour</a></li>
+To do this, you can use <a class="el" href="#ga92dbf357e425dd6e8d7f76ab544250c5">surroundingContour</a></li>
 <li>Get Segment<br  />
 For getting segment of mesh by contour(-s) use <a class="el" href="#ga6411ded50ca303d4fa4228137d695d43">fillContourLeftByGraphCut</a>.</li>
 </ol>
@@ -246,8 +246,8 @@ After</div></div>
 
 </div>
 </div>
-<a id="gacd49bdef2470a85e4f166fc36c4addb1" name="gacd49bdef2470a85e4f166fc36c4addb1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacd49bdef2470a85e4f166fc36c4addb1">&#9670;&#160;</a></span>surroundingContour() <span class="overload">[1/2]</span></h2>
+<a id="ga92dbf357e425dd6e8d7f76ab544250c5" name="ga92dbf357e425dd6e8d7f76ab544250c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga92dbf357e425dd6e8d7f76ab544250c5">&#9670;&#160;</a></span>surroundingContour() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -256,7 +256,7 @@ After</div></div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> MR::surroundingContour </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt; MR::surroundingContour </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -273,7 +273,7 @@ After</div></div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -295,8 +295,8 @@ After</div></div>
 
 </div>
 </div>
-<a id="ga7386ccde4e83f492a5f40f4e0d5c51d1" name="ga7386ccde4e83f492a5f40f4e0d5c51d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7386ccde4e83f492a5f40f4e0d5c51d1">&#9670;&#160;</a></span>surroundingContour() <span class="overload">[2/2]</span></h2>
+<a id="ga0f96f1d3fde9a79a2d6925cf6ba77f8d" name="ga0f96f1d3fde9a79a2d6925cf6ba77f8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0f96f1d3fde9a79a2d6925cf6ba77f8d">&#9670;&#160;</a></span>surroundingContour() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -305,7 +305,7 @@ After</div></div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> MR::surroundingContour </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt; MR::surroundingContour </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -322,7 +322,7 @@ After</div></div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

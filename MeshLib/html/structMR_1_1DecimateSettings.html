@@ -168,10 +168,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a9bc3106034dd8abdbb3067c7868ca6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebecde304889b67910dd05d032cb8d07" id="r_aebecde304889b67910dd05d032cb8d07"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebecde304889b67910dd05d032cb8d07">maxAngleChange</a> = -1</td></tr>
 <tr class="separator:aebecde304889b67910dd05d032cb8d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4eab7dd113486daa41a2272bac1b8a2f" id="r_a4eab7dd113486daa41a2272bac1b8a2f"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(<a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> edgeToCollapse, const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &amp;newEdgeOrgPos)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4eab7dd113486daa41a2272bac1b8a2f">preCollapse</a></td></tr>
-<tr class="memdesc:a4eab7dd113486daa41a2272bac1b8a2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can provide this optional callback that is invoked immediately before edge collapse;.  <br /></td></tr>
-<tr class="separator:a4eab7dd113486daa41a2272bac1b8a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21d7c6d9122286b4edf7bd531d38b72b" id="r_a21d7c6d9122286b4edf7bd531d38b72b"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="namespaceMR.html#a4ac2de084bb34a0af2df8bc73742b2b1">UndirectedEdgeId</a> ue, float &amp;collapseErrorSq, <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &amp;collapsePos)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21d7c6d9122286b4edf7bd531d38b72b">adjustCollapse</a></td></tr>
+<tr class="memitem:a5901e72dc3fd85459f38318a894afbbd" id="r_a5901e72dc3fd85459f38318a894afbbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a8ca6fbc7c349a31c3f0a68ce8f513265">PreCollapseCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5901e72dc3fd85459f38318a894afbbd">preCollapse</a></td></tr>
+<tr class="memdesc:a5901e72dc3fd85459f38318a894afbbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can provide this optional callback that is invoked immediately before edge collapse;.  <br /></td></tr>
+<tr class="separator:a5901e72dc3fd85459f38318a894afbbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21d7c6d9122286b4edf7bd531d38b72b" id="r_a21d7c6d9122286b4edf7bd531d38b72b"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="namespaceMR.html#a4ac2de084bb34a0af2df8bc73742b2b1">UndirectedEdgeId</a> ue, float &amp;collapseErrorSq, <a class="el" href="classVector3f.html">Vector3f</a> &amp;collapsePos)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21d7c6d9122286b4edf7bd531d38b72b">adjustCollapse</a></td></tr>
 <tr class="memdesc:a21d7c6d9122286b4edf7bd531d38b72b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can provide this optional callback for adjusting error introduced by this edge collapse and the collapse position.  <br /></td></tr>
 <tr class="separator:a21d7c6d9122286b4edf7bd531d38b72b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4777d8a943b9bf55a68858260f62abd4" id="r_a4777d8a943b9bf55a68858260f62abd4"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> e, <a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> e1)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4777d8a943b9bf55a68858260f62abd4">onEdgeDel</a></td></tr>
@@ -206,7 +206,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;void( <a class="el" href="namespaceMR.html#a4ac2de084bb34a0af2df8bc73742b2b1">UndirectedEdgeId</a> ue, float &amp; collapseErrorSq, <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &amp; collapsePos )&gt; MR::DecimateSettings::adjustCollapse</td>
+          <td class="memname">std::function&lt;void( <a class="el" href="namespaceMR.html#a4ac2de084bb34a0af2df8bc73742b2b1">UndirectedEdgeId</a> ue, float &amp; collapseErrorSq, <a class="el" href="classVector3f.html">Vector3f</a> &amp; collapsePos )&gt; MR::DecimateSettings::adjustCollapse</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -495,14 +495,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4eab7dd113486daa41a2272bac1b8a2f" name="a4eab7dd113486daa41a2272bac1b8a2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4eab7dd113486daa41a2272bac1b8a2f">&#9670;&#160;</a></span>preCollapse</h2>
+<a id="a5901e72dc3fd85459f38318a894afbbd" name="a5901e72dc3fd85459f38318a894afbbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5901e72dc3fd85459f38318a894afbbd">&#9670;&#160;</a></span>preCollapse</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;bool( <a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> edgeToCollapse, const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &amp; newEdgeOrgPos)&gt; MR::DecimateSettings::preCollapse</td>
+          <td class="memname"><a class="el" href="namespaceMR.html#a8ca6fbc7c349a31c3f0a68ce8f513265">PreCollapseCallback</a> MR::DecimateSettings::preCollapse</td>
         </tr>
       </table>
 </div><div class="memdoc">

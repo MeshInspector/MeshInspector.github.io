@@ -105,19 +105,25 @@ $(function(){initNavTree('classMR_1_1MultiwayICP.html',''); initResizable(true);
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classMR_1_1MultiwayICP-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::MultiwayICP Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="MRMultiwayICP_8h_source.html">MRMultiwayICP.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="MRMesh_2MRMultiwayICP_8h_source.html">MRMultiwayICP.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a37a8e0d52c2729455ea42255f7d90942" id="r_a37a8e0d52c2729455ea42255f7d90942"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37a8e0d52c2729455ea42255f7d90942">PairsPerLayer</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="namespaceMR.html#a3d0081672e0ccdc9545b8df2b84c3663">ICPPairsGrid</a>, <a class="el" href="namespaceMR.html#add4fa046bbf16a56e7eae86658185885">ICPLayer</a>&gt;</td></tr>
+<tr class="separator:a37a8e0d52c2729455ea42255f7d90942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4fc483cb7fd8b04e2e37761a891b6a15" id="r_a4fc483cb7fd8b04e2e37761a891b6a15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fc483cb7fd8b04e2e37761a891b6a15">MultiwayICP</a> (const <a class="el" href="namespaceMR.html#acc39cd0582abbbb48612bd904fe74210">ICPObjects</a> &amp;objects, const <a class="el" href="structMR_1_1MultiwayICPSamplingParameters.html">MultiwayICPSamplingParameters</a> &amp;samplingParams)</td></tr>
 <tr class="separator:a4fc483cb7fd8b04e2e37761a891b6a15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41d907a6c720ef37eb8620caba3be739" id="r_a41d907a6c720ef37eb8620caba3be739"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a>, <a class="el" href="namespaceMR.html#a0e16c269a16438164f7359bc48c02c84">ObjId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41d907a6c720ef37eb8620caba3be739">calculateTransformations</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memitem:a41d907a6c720ef37eb8620caba3be739" id="r_a41d907a6c720ef37eb8620caba3be739"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">AffineXf3f</a>, <a class="el" href="namespaceMR.html#a0e16c269a16438164f7359bc48c02c84">ObjId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41d907a6c720ef37eb8620caba3be739">calculateTransformations</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="separator:a41d907a6c720ef37eb8620caba3be739"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afab250201279bb04e86b137138ef54de" id="r_afab250201279bb04e86b137138ef54de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afab250201279bb04e86b137138ef54de">resamplePoints</a> (const <a class="el" href="structMR_1_1MultiwayICPSamplingParameters.html">MultiwayICPSamplingParameters</a> &amp;samplingParams)</td></tr>
 <tr class="memdesc:afab250201279bb04e86b137138ef54de"><td class="mdescLeft">&#160;</td><td class="mdescRight">select pairs with origin samples on all objects  <br /></td></tr>
@@ -149,10 +155,30 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a088270c2bee7aaaea93a48fc5d48c2fd" id="r_a088270c2bee7aaaea93a48fc5d48c2fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a088270c2bee7aaaea93a48fc5d48c2fd">getStatusInfo</a> () const</td></tr>
 <tr class="memdesc:a088270c2bee7aaaea93a48fc5d48c2fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns status info string  <br /></td></tr>
 <tr class="separator:a088270c2bee7aaaea93a48fc5d48c2fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a6e071719c0f164a01aeca591915112" id="r_a3a6e071719c0f164a01aeca591915112"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#a37a8e0d52c2729455ea42255f7d90942">PairsPerLayer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a6e071719c0f164a01aeca591915112">getPairsPerLayer</a> () const</td></tr>
+<tr class="memdesc:a3a6e071719c0f164a01aeca591915112"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all pairs of all layers  <br /></td></tr>
+<tr class="separator:a3a6e071719c0f164a01aeca591915112"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae32c804d4589f4cbb0cd5821bace1d83" id="r_ae32c804d4589f4cbb0cd5821bace1d83"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1IICPTreeIndexer.html">IICPTreeIndexer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae32c804d4589f4cbb0cd5821bace1d83">getCascadeIndexer</a> () const</td></tr>
+<tr class="separator:ae32c804d4589f4cbb0cd5821bace1d83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class allows you to register many objects having similar parts and known initial approximations of orientations/locations using Iterative Closest Points (<a class="el" href="classMR_1_1ICP.html">ICP</a>) point-to-point or point-to-plane algorithms </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a37a8e0d52c2729455ea42255f7d90942" name="a37a8e0d52c2729455ea42255f7d90942"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37a8e0d52c2729455ea42255f7d90942">&#9670;&#160;</a></span>PairsPerLayer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a37a8e0d52c2729455ea42255f7d90942">MR::MultiwayICP::PairsPerLayer</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="namespaceMR.html#a3d0081672e0ccdc9545b8df2b84c3663">ICPPairsGrid</a>, <a class="el" href="namespaceMR.html#add4fa046bbf16a56e7eae86658185885">ICPLayer</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4fc483cb7fd8b04e2e37761a891b6a15" name="a4fc483cb7fd8b04e2e37761a891b6a15"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4fc483cb7fd8b04e2e37761a891b6a15">&#9670;&#160;</a></span>MultiwayICP()</h2>
 
@@ -185,7 +211,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="namespaceMR.html#a2573fd184ebe72f07725ac0f2f992994">AffineXf3f</a>, <a class="el" href="namespaceMR.html#a0e16c269a16438164f7359bc48c02c84">ObjId</a> &gt; MR::MultiwayICP::calculateTransformations </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">AffineXf3f</a>, <a class="el" href="namespaceMR.html#a0e16c269a16438164f7359bc48c02c84">ObjId</a> &gt; MR::MultiwayICP::calculateTransformations </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></td><td>)</td>
           <td></td>
@@ -249,6 +275,32 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>if in independent equations mode - creates separate equation system for each object otherwise creates single large equation system for all objects </p>
+
+</div>
+</div>
+<a id="ae32c804d4589f4cbb0cd5821bace1d83" name="ae32c804d4589f4cbb0cd5821bace1d83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae32c804d4589f4cbb0cd5821bace1d83">&#9670;&#160;</a></span>getCascadeIndexer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classMR_1_1IICPTreeIndexer.html">IICPTreeIndexer</a> * MR::MultiwayICP::getCascadeIndexer </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>returns pointer to class that is used to navigate among layers of cascade registration if nullptr - cascade mode is not used </p>
 
 </div>
 </div>
@@ -355,6 +407,33 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>computes the number of samples able to form pairs </p>
+
+</div>
+</div>
+<a id="a3a6e071719c0f164a01aeca591915112" name="a3a6e071719c0f164a01aeca591915112"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a6e071719c0f164a01aeca591915112">&#9670;&#160;</a></span>getPairsPerLayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="#a37a8e0d52c2729455ea42255f7d90942">PairsPerLayer</a> &amp; MR::MultiwayICP::getPairsPerLayer </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns all pairs of all layers </p>
 
 </div>
 </div>
@@ -502,7 +581,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="MRMultiwayICP_8h_source.html">MRMultiwayICP.h</a></li>
+<li><a class="el" href="MRMesh_2MRMultiwayICP_8h_source.html">MRMesh/MRMultiwayICP.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

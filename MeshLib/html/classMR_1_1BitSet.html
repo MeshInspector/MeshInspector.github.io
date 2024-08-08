@@ -107,6 +107,7 @@ $(function(){initNavTree('classMR_1_1BitSet.html',''); initResizable(true); });
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classMR_1_1BitSet-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::BitSet Class Reference<div class="ingroups"><a class="el" href="group__BasicGroup.html">Basic elements overview</a></div></div></div>
 </div><!--header-->
@@ -195,6 +196,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae5007749dadb7430dc9dedb73114f9a6" id="r_ae5007749dadb7430dc9dedb73114f9a6"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5007749dadb7430dc9dedb73114f9a6">heapBytes</a> () const</td></tr>
 <tr class="memdesc:ae5007749dadb7430dc9dedb73114f9a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:ae5007749dadb7430dc9dedb73114f9a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd624eb57fa1932e782bf7eb418f7d1d" id="r_abd624eb57fa1932e782bf7eb418f7d1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd624eb57fa1932e782bf7eb418f7d1d">backId</a> () const</td></tr>
+<tr class="memdesc:abd624eb57fa1932e782bf7eb418f7d1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the identifier of the back() element  <br /></td></tr>
+<tr class="separator:abd624eb57fa1932e782bf7eb418f7d1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f947bfd0ac71d4db95bbf1402d27ddf" id="r_a1f947bfd0ac71d4db95bbf1402d27ddf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f947bfd0ac71d4db95bbf1402d27ddf">endId</a> () const</td></tr>
+<tr class="separator:a1f947bfd0ac71d4db95bbf1402d27ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a21d6c2e6655c7c3a36f9ba013553d488" id="r_a21d6c2e6655c7c3a36f9ba013553d488"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21d6c2e6655c7c3a36f9ba013553d488">beginId</a> ()</td></tr>
+<tr class="memdesc:a21d6c2e6655c7c3a36f9ba013553d488"><td class="mdescLeft">&#160;</td><td class="mdescRight">[<a class="el" href="#a21d6c2e6655c7c3a36f9ba013553d488" title="[beginId(), endId()) is the range of all bits in the set">beginId()</a>, <a class="el" href="#a1f947bfd0ac71d4db95bbf1402d27ddf">endId()</a>) is the range of all bits in the set  <br /></td></tr>
+<tr class="separator:a21d6c2e6655c7c3a36f9ba013553d488"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>container of bits </p>
@@ -321,6 +333,85 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>same as <a class="el" href="#ab61cde9e7da6d5d6c75fefd11e2e6a24">autoResizeSet</a> and returns previous value of pos-bit </p>
+
+</div>
+</div>
+<a id="abd624eb57fa1932e782bf7eb418f7d1d" name="abd624eb57fa1932e782bf7eb418f7d1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd624eb57fa1932e782bf7eb418f7d1d">&#9670;&#160;</a></span>backId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> MR::BitSet::backId </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the identifier of the back() element </p>
+
+</div>
+</div>
+<a id="a21d6c2e6655c7c3a36f9ba013553d488" name="a21d6c2e6655c7c3a36f9ba013553d488"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21d6c2e6655c7c3a36f9ba013553d488">&#9670;&#160;</a></span>beginId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> MR::BitSet::beginId </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>[<a class="el" href="#a21d6c2e6655c7c3a36f9ba013553d488" title="[beginId(), endId()) is the range of all bits in the set">beginId()</a>, <a class="el" href="#a1f947bfd0ac71d4db95bbf1402d27ddf">endId()</a>) is the range of all bits in the set </p>
+
+</div>
+</div>
+<a id="a1f947bfd0ac71d4db95bbf1402d27ddf" name="a1f947bfd0ac71d4db95bbf1402d27ddf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f947bfd0ac71d4db95bbf1402d27ddf">&#9670;&#160;</a></span>endId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> MR::BitSet::endId </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

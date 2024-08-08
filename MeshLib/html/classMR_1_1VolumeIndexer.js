@@ -4,6 +4,7 @@ var classMR_1_1VolumeIndexer =
     [ "areNeigbors", "group__VoxelGroup.html#ga991a1f3d21cb03e21402be655ba7c06c", null ],
     [ "areNeigbors", "group__VoxelGroup.html#gad83baf7155c4c4be0ffa42c4de418e6b", null ],
     [ "dims", "group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f", null ],
+    [ "endId", "group__VoxelGroup.html#ga926edbe131f216c52d55d31a98f33aaf", null ],
     [ "getExistingNeighbor", "group__VoxelGroup.html#ga9278508392604ed5b02779e63a573555", null ],
     [ "getNeighbor", "group__VoxelGroup.html#gacc3f28e9566b6b9fb9fe666e09034075", null ],
     [ "getNeighbor", "group__VoxelGroup.html#ga30a6db6800770e3e6795a1cbf7a92eb5", null ],

@@ -1,7 +1,7 @@
 var structMR_1_1ICPProperties =
 [
     [ "badIterStopCount", "structMR_1_1ICPProperties.html#a242dd3555fcbbe8a0857210ed77ff1fe", null ],
-    [ "cosTreshold", "structMR_1_1ICPProperties.html#a97fba10a2234631de5a66c59d1dfd305", null ],
+    [ "cosThreshold", "structMR_1_1ICPProperties.html#a108845995db78805f41524217e474500", null ],
     [ "distThresholdSq", "structMR_1_1ICPProperties.html#a43460c0d16c0f302226c8e09b6b98811", null ],
     [ "exitVal", "structMR_1_1ICPProperties.html#afe075e9e4944999f30c142f357d071d7", null ],
     [ "farDistFactor", "structMR_1_1ICPProperties.html#aa4083e706852873ed258324b8d2b6626", null ],

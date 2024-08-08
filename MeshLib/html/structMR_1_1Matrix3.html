@@ -110,6 +110,7 @@ $(function(){initNavTree('structMR_1_1Matrix3.html',''); initResizable(true); })
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="structMR_1_1Matrix3-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::Matrix3&lt; T &gt; Struct Template Reference<div class="ingroups"><a class="el" href="group__MathGroup.html">Math group</a> &raquo; <a class="el" href="group__MatrixGroup.html">Matrix</a></div></div></div>
 </div><!--header-->
@@ -120,6 +121,7 @@ $(function(){initNavTree('structMR_1_1Matrix3.html',''); initResizable(true); })
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Matrix3_1_1QR.html">QR</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns 3 Euler angles, assuming this is a rotation matrix composed as follows: R=R(z)*R(y)*R(x)  <a href="structMR_1_1Matrix3_1_1QR.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
@@ -153,25 +155,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a43a273b709ab81c9eff8e7660628ef1c" id="r_a43a273b709ab81c9eff8e7660628ef1c"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43a273b709ab81c9eff8e7660628ef1c">normSq</a> () const noexcept</td></tr>
 <tr class="memdesc:a43a273b709ab81c9eff8e7660628ef1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute sum of squared matrix elements  <br /></td></tr>
 <tr class="separator:a43a273b709ab81c9eff8e7660628ef1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05671b08b674a4a30f8673ca434b77da" id="r_a05671b08b674a4a30f8673ca434b77da"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05671b08b674a4a30f8673ca434b77da">norm</a> () const noexcept</td></tr>
-<tr class="separator:a05671b08b674a4a30f8673ca434b77da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a728b7efd38a28c6cc4cdbaf3533bdca0" id="r_a728b7efd38a28c6cc4cdbaf3533bdca0"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a728b7efd38a28c6cc4cdbaf3533bdca0">norm</a> () const noexcept</td></tr>
+<tr class="separator:a728b7efd38a28c6cc4cdbaf3533bdca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ee57b23e7f7718f6800a1769ab30df5" id="r_a2ee57b23e7f7718f6800a1769ab30df5"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ee57b23e7f7718f6800a1769ab30df5">det</a> () const noexcept</td></tr>
 <tr class="memdesc:a2ee57b23e7f7718f6800a1769ab30df5"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes determinant of the matrix  <br /></td></tr>
 <tr class="separator:a2ee57b23e7f7718f6800a1769ab30df5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bf33a6346854cbebe7fa6cba9fd4174" id="r_a3bf33a6346854cbebe7fa6cba9fd4174"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bf33a6346854cbebe7fa6cba9fd4174">inverse</a> () const noexcept</td></tr>
-<tr class="memdesc:a3bf33a6346854cbebe7fa6cba9fd4174"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes inverse matrix  <br /></td></tr>
-<tr class="separator:a3bf33a6346854cbebe7fa6cba9fd4174"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a112f3a49d572819df2602fdfb0bcbcfb" id="r_a112f3a49d572819df2602fdfb0bcbcfb"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a112f3a49d572819df2602fdfb0bcbcfb">transposed</a> () const noexcept</td></tr>
-<tr class="memdesc:a112f3a49d572819df2602fdfb0bcbcfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes transposed matrix  <br /></td></tr>
-<tr class="separator:a112f3a49d572819df2602fdfb0bcbcfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73232fe995aba6fb3e7bb7a7f20be741" id="r_a73232fe995aba6fb3e7bb7a7f20be741"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73232fe995aba6fb3e7bb7a7f20be741">toEulerAngles</a> () const noexcept</td></tr>
-<tr class="memdesc:a73232fe995aba6fb3e7bb7a7f20be741"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns 3 Euler angles, assuming this is a rotation matrix composed as follows: R=R(z)*R(y)*R(x)  <br /></td></tr>
-<tr class="separator:a73232fe995aba6fb3e7bb7a7f20be741"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac913b105d8335b1b6a779f68117dda18" id="r_ac913b105d8335b1b6a779f68117dda18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Matrix3_1_1QR.html">QR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac913b105d8335b1b6a779f68117dda18">qr</a> () const noexcept</td></tr>
-<tr class="memdesc:ac913b105d8335b1b6a779f68117dda18"><td class="mdescLeft">&#160;</td><td class="mdescRight">decompose this matrix on the product Q*R, where Q is orthogonal and R is upper triangular  <br /></td></tr>
-<tr class="separator:ac913b105d8335b1b6a779f68117dda18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f9e2c8024bf88a39b849bc90cd3237b" id="r_a8f9e2c8024bf88a39b849bc90cd3237b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Matrix3.html">Matrix3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f9e2c8024bf88a39b849bc90cd3237b">operator+=</a> (const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;b)</td></tr>
-<tr class="separator:a8f9e2c8024bf88a39b849bc90cd3237b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a262ca75726e5a792e23f286bb0d59079" id="r_a262ca75726e5a792e23f286bb0d59079"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; inverse() const noexcept <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(!std constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a262ca75726e5a792e23f286bb0d59079">transposed</a> () const noexcept</td></tr>
+<tr class="memdesc:a262ca75726e5a792e23f286bb0d59079"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes inverse matrix  <br /></td></tr>
+<tr class="separator:a262ca75726e5a792e23f286bb0d59079"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40c0024b65586d89b321b179bf634941" id="r_a40c0024b65586d89b321b179bf634941"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Matrix3_1_1QR.html">QR</a> qr() const noexcept <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(!std <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40c0024b65586d89b321b179bf634941">operator+=</a> (const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="memdesc:a40c0024b65586d89b321b179bf634941"><td class="mdescLeft">&#160;</td><td class="mdescRight">decompose this matrix on the product Q*R, where Q is orthogonal and R is upper triangular  <br /></td></tr>
+<tr class="separator:a40c0024b65586d89b321b179bf634941"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac83c60392e072885c02a55d93e02fbd2" id="r_ac83c60392e072885c02a55d93e02fbd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Matrix3.html">Matrix3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac83c60392e072885c02a55d93e02fbd2">operator-=</a> (const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="separator:ac83c60392e072885c02a55d93e02fbd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa78409c01471d6481eb23bd8515cbe4c" id="r_aa78409c01471d6481eb23bd8515cbe4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Matrix3.html">Matrix3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa78409c01471d6481eb23bd8515cbe4c">operator*=</a> (T b)</td></tr>
@@ -193,20 +187,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a00191595d8bf3137e7641cffc27937de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe639e7002354032842899bbcd3e5d7c" id="r_afe639e7002354032842899bbcd3e5d7c"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe639e7002354032842899bbcd3e5d7c">scale</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;s) noexcept</td></tr>
 <tr class="separator:afe639e7002354032842899bbcd3e5d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d639b43bee0fb6fc0ce1ed21cf47f67" id="r_a5d639b43bee0fb6fc0ce1ed21cf47f67"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d639b43bee0fb6fc0ce1ed21cf47f67">rotation</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;axis, T <a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03">angle</a>) noexcept</td></tr>
-<tr class="memdesc:a5d639b43bee0fb6fc0ce1ed21cf47f67"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates matrix representing rotation around given axis on given angle  <br /></td></tr>
-<tr class="separator:a5d639b43bee0fb6fc0ce1ed21cf47f67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79b7bfcf88d8b9ed5a4368efca01d837" id="r_a79b7bfcf88d8b9ed5a4368efca01d837"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79b7bfcf88d8b9ed5a4368efca01d837">rotation</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;from, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;to) noexcept</td></tr>
-<tr class="memdesc:a79b7bfcf88d8b9ed5a4368efca01d837"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates matrix representing rotation that after application to (from) makes (to) vector  <br /></td></tr>
-<tr class="separator:a79b7bfcf88d8b9ed5a4368efca01d837"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3024adbb8296cacd16c6aaef94c751e2" id="r_a3024adbb8296cacd16c6aaef94c751e2"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3024adbb8296cacd16c6aaef94c751e2">rotationFromEuler</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;eulerAngles) noexcept</td></tr>
-<tr class="separator:a3024adbb8296cacd16c6aaef94c751e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af596140e2958a4a804e46343b30e0af9" id="r_af596140e2958a4a804e46343b30e0af9"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af596140e2958a4a804e46343b30e0af9">approximateLinearRotationMatrixFromEuler</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;eulerAngles) noexcept</td></tr>
-<tr class="memdesc:af596140e2958a4a804e46343b30e0af9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns linear by angles approximation of the rotation matrix, which is close to true rotation matrix for small angles  <br /></td></tr>
-<tr class="separator:af596140e2958a4a804e46343b30e0af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a947852518ec428ee155e00a8f23b16" id="r_a0a947852518ec428ee155e00a8f23b16"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a947852518ec428ee155e00a8f23b16">fromRows</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;<a class="el" href="#a34220148555a9b57f32f7edb08289ea4">x</a>, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;<a class="el" href="#aafd25b0c56a5f7a67abb2afa5d652912">y</a>, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;<a class="el" href="#ae0145a330e7ad72bfdb5e8813c7ee37f">z</a>) noexcept</td></tr>
-<tr class="memdesc:a0a947852518ec428ee155e00a8f23b16"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a matrix from its 3 rows  <br /></td></tr>
-<tr class="separator:a0a947852518ec428ee155e00a8f23b16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0bb4e42ff8ffa4626f1e4bc0f06de18" id="r_aa0bb4e42ff8ffa4626f1e4bc0f06de18"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0bb4e42ff8ffa4626f1e4bc0f06de18">fromColumns</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;<a class="el" href="#a34220148555a9b57f32f7edb08289ea4">x</a>, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;<a class="el" href="#aafd25b0c56a5f7a67abb2afa5d652912">y</a>, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;<a class="el" href="#ae0145a330e7ad72bfdb5e8813c7ee37f">z</a>) noexcept</td></tr>
 <tr class="separator:aa0bb4e42ff8ffa4626f1e4bc0f06de18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -219,6 +199,12 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aafd25b0c56a5f7a67abb2afa5d652912"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0145a330e7ad72bfdb5e8813c7ee37f" id="r_ae0145a330e7ad72bfdb5e8813c7ee37f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0145a330e7ad72bfdb5e8813c7ee37f">z</a> { 0, 0, 1 }</td></tr>
 <tr class="separator:ae0145a330e7ad72bfdb5e8813c7ee37f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:ade0ff1f694a9e9b749005a2e81332928" id="r_ade0ff1f694a9e9b749005a2e81332928"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a> static rotation(const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;axis, T <a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03">angle</a>) noexcept <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(std constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a> static rotation(const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;from, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;to) noexcept <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(std constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a> static rotationFromEuler(const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;eulerAngles) noexcept <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(std constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a> static approximateLinearRotationMatrixFromEuler(const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;eulerAngles) noexcept <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(std constexpr <a class="el" href="structMR_1_1Matrix.html">Matrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade0ff1f694a9e9b749005a2e81332928">fromRows</a> )(const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;<a class="el" href="#a34220148555a9b57f32f7edb08289ea4">x</a>, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;<a class="el" href="#aafd25b0c56a5f7a67abb2afa5d652912">y</a>, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;<a class="el" href="#ae0145a330e7ad72bfdb5e8813c7ee37f">z</a>) noexcept</td></tr>
+<tr class="memdesc:ade0ff1f694a9e9b749005a2e81332928"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates matrix representing rotation around given axis on given angle  <br /></td></tr>
+<tr class="separator:ade0ff1f694a9e9b749005a2e81332928"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="related" name="related"></a>
 Related Symbols</h2></td></tr>
@@ -374,35 +360,6 @@ template&lt;typename U &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="af596140e2958a4a804e46343b30e0af9" name="af596140e2958a4a804e46343b30e0af9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af596140e2958a4a804e46343b30e0af9">&#9670;&#160;</a></span>approximateLinearRotationMatrixFromEuler()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a> <a class="el" href="structMR_1_1Matrix3.html">MR::Matrix3</a>&lt; T &gt;::approximateLinearRotationMatrixFromEuler </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>eulerAngles</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns linear by angles approximation of the rotation matrix, which is close to true rotation matrix for small angles </p>
-
-</div>
-</div>
 <a id="a737e1857a45415abf682a6fd530caf44" name="a737e1857a45415abf682a6fd530caf44"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a737e1857a45415abf682a6fd530caf44">&#9670;&#160;</a></span>col()</h2>
 
@@ -498,44 +455,6 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a0a947852518ec428ee155e00a8f23b16" name="a0a947852518ec428ee155e00a8f23b16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a947852518ec428ee155e00a8f23b16">&#9670;&#160;</a></span>fromRows()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a> <a class="el" href="structMR_1_1Matrix3.html">MR::Matrix3</a>&lt; T &gt;::fromRows </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>y</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>z</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>constructs a matrix from its 3 rows </p>
-
-</div>
-</div>
 <a id="a0e1934aed79e8fdf58697daa0947a64e" name="a0e1934aed79e8fdf58697daa0947a64e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0e1934aed79e8fdf58697daa0947a64e">&#9670;&#160;</a></span>identity()</h2>
 
@@ -563,8 +482,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a3bf33a6346854cbebe7fa6cba9fd4174" name="a3bf33a6346854cbebe7fa6cba9fd4174"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3bf33a6346854cbebe7fa6cba9fd4174">&#9670;&#160;</a></span>inverse()</h2>
+<a id="a728b7efd38a28c6cc4cdbaf3533bdca0" name="a728b7efd38a28c6cc4cdbaf3533bdca0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a728b7efd38a28c6cc4cdbaf3533bdca0">&#9670;&#160;</a></span>norm()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -575,36 +494,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; <a class="el" href="structMR_1_1Matrix3.html">MR::Matrix3</a>&lt; T &gt;::inverse </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>computes inverse matrix </p>
-
-</div>
-</div>
-<a id="a05671b08b674a4a30f8673ca434b77da" name="a05671b08b674a4a30f8673ca434b77da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05671b08b674a4a30f8673ca434b77da">&#9670;&#160;</a></span>norm()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T <a class="el" href="structMR_1_1Matrix3.html">MR::Matrix3</a>&lt; T &gt;::norm </td>
+          <td class="memname">auto <a class="el" href="structMR_1_1Matrix3.html">MR::Matrix3</a>&lt; T &gt;::norm </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -675,8 +565,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a8f9e2c8024bf88a39b849bc90cd3237b" name="a8f9e2c8024bf88a39b849bc90cd3237b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f9e2c8024bf88a39b849bc90cd3237b">&#9670;&#160;</a></span>operator+=()</h2>
+<a id="a40c0024b65586d89b321b179bf634941" name="a40c0024b65586d89b321b179bf634941"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40c0024b65586d89b321b179bf634941">&#9670;&#160;</a></span>operator+=()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -687,7 +577,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Matrix3.html">Matrix3</a> &amp; <a class="el" href="structMR_1_1Matrix3.html">MR::Matrix3</a>&lt; T &gt;::operator+= </td>
+          <td class="memname"><a class="el" href="structMR_1_1Matrix3_1_1QR.html">QR</a> qr() const noexcept <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(!std <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a> &amp; <a class="el" href="structMR_1_1Matrix3.html">MR::Matrix3</a>&lt; T &gt;::operator+= </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
           <td></td>
@@ -695,10 +585,12 @@ template&lt;typename T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>decompose this matrix on the product Q*R, where Q is orthogonal and R is upper triangular </p>
 
 </div>
 </div>
@@ -812,129 +704,6 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ac913b105d8335b1b6a779f68117dda18" name="ac913b105d8335b1b6a779f68117dda18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac913b105d8335b1b6a779f68117dda18">&#9670;&#160;</a></span>qr()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Matrix3_1_1QR.html">QR</a> <a class="el" href="structMR_1_1Matrix3.html">MR::Matrix3</a>&lt; T &gt;::qr </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>decompose this matrix on the product Q*R, where Q is orthogonal and R is upper triangular </p>
-
-</div>
-</div>
-<a id="a5d639b43bee0fb6fc0ce1ed21cf47f67" name="a5d639b43bee0fb6fc0ce1ed21cf47f67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d639b43bee0fb6fc0ce1ed21cf47f67">&#9670;&#160;</a></span>rotation() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a> <a class="el" href="structMR_1_1Matrix3.html">MR::Matrix3</a>&lt; T &gt;::rotation </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>axis</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>angle</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>creates matrix representing rotation around given axis on given angle </p>
-
-</div>
-</div>
-<a id="a79b7bfcf88d8b9ed5a4368efca01d837" name="a79b7bfcf88d8b9ed5a4368efca01d837"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79b7bfcf88d8b9ed5a4368efca01d837">&#9670;&#160;</a></span>rotation() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a> <a class="el" href="structMR_1_1Matrix3.html">MR::Matrix3</a>&lt; T &gt;::rotation </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>from</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>to</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>creates matrix representing rotation that after application to (from) makes (to) vector </p>
-
-</div>
-</div>
-<a id="a3024adbb8296cacd16c6aaef94c751e2" name="a3024adbb8296cacd16c6aaef94c751e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3024adbb8296cacd16c6aaef94c751e2">&#9670;&#160;</a></span>rotationFromEuler()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a> <a class="el" href="structMR_1_1Matrix3.html">MR::Matrix3</a>&lt; T &gt;::rotationFromEuler </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>eulerAngles</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>creates matrix representing rotation from 3 Euler angles: R=R(z)*R(y)*R(x) see more <a href="https://en.wikipedia.org/wiki/Euler_angles#Conventions_by_intrinsic_rotations">https://en.wikipedia.org/wiki/Euler_angles#Conventions_by_intrinsic_rotations</a> </p>
-
-</div>
-</div>
 <a id="afe639e7002354032842899bbcd3e5d7c" name="afe639e7002354032842899bbcd3e5d7c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afe639e7002354032842899bbcd3e5d7c">&#9670;&#160;</a></span>scale() <span class="overload">[1/3]</span></h2>
 
@@ -1029,35 +798,6 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a73232fe995aba6fb3e7bb7a7f20be741" name="a73232fe995aba6fb3e7bb7a7f20be741"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73232fe995aba6fb3e7bb7a7f20be741">&#9670;&#160;</a></span>toEulerAngles()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; <a class="el" href="structMR_1_1Matrix3.html">MR::Matrix3</a>&lt; T &gt;::toEulerAngles </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns 3 Euler angles, assuming this is a rotation matrix composed as follows: R=R(z)*R(y)*R(x) </p>
-
-</div>
-</div>
 <a id="a8da74330f294845348d2dee9fdf81eb4" name="a8da74330f294845348d2dee9fdf81eb4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8da74330f294845348d2dee9fdf81eb4">&#9670;&#160;</a></span>trace()</h2>
 
@@ -1087,8 +827,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a112f3a49d572819df2602fdfb0bcbcfb" name="a112f3a49d572819df2602fdfb0bcbcfb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a112f3a49d572819df2602fdfb0bcbcfb">&#9670;&#160;</a></span>transposed()</h2>
+<a id="a262ca75726e5a792e23f286bb0d59079" name="a262ca75726e5a792e23f286bb0d59079"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a262ca75726e5a792e23f286bb0d59079">&#9670;&#160;</a></span>transposed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1099,7 +839,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; <a class="el" href="structMR_1_1Matrix3.html">MR::Matrix3</a>&lt; T &gt;::transposed </td>
+          <td class="memname"><a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; inverse() const noexcept <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(!std constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; <a class="el" href="structMR_1_1Matrix3.html">MR::Matrix3</a>&lt; T &gt;::transposed </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1112,6 +852,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>computes inverse matrix </p>
 <p>computes transposed matrix </p>
 
 </div>
@@ -1277,6 +1018,33 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ade0ff1f694a9e9b749005a2e81332928" name="ade0ff1f694a9e9b749005a2e81332928"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade0ff1f694a9e9b749005a2e81332928">&#9670;&#160;</a></span>fromRows</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Matrix3.html">Matrix3</a> static rotation(const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;axis, T <a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03">angle</a>) noexcept <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(std constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a> static rotation(const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;from, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;to) noexcept <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(std constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a> static rotationFromEuler(const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;eulerAngles) noexcept <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(std constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a> static approximateLinearRotationMatrixFromEuler(const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;eulerAngles) noexcept <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(std constexpr <a class="el" href="structMR_1_1Matrix.html">Matrix</a> <a class="el" href="structMR_1_1Matrix3.html">MR::Matrix3</a>&lt; T &gt;::fromRows) (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;<a class="el" href="#a34220148555a9b57f32f7edb08289ea4">x</a>, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;<a class="el" href="#aafd25b0c56a5f7a67abb2afa5d652912">y</a>, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;<a class="el" href="#ae0145a330e7ad72bfdb5e8813c7ee37f">z</a>) noexcept</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>creates matrix representing rotation around given axis on given angle </p>
+<p>creates matrix representing rotation that after application to (from) makes (to) vector creates matrix representing rotation from 3 Euler angles: R=R(z)*R(y)*R(x) see more <a href="https://en.wikipedia.org/wiki/Euler_angles#Conventions_by_intrinsic_rotations">https://en.wikipedia.org/wiki/Euler_angles#Conventions_by_intrinsic_rotations</a> returns linear by angles approximation of the rotation matrix, which is close to true rotation matrix for small angles constructs a matrix from its 3 rows </p>
+
+</div>
+</div>
 <a id="a34220148555a9b57f32f7edb08289ea4" name="a34220148555a9b57f32f7edb08289ea4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a34220148555a9b57f32f7edb08289ea4">&#9670;&#160;</a></span>x</h2>
 
@@ -1328,6 +1096,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
+<li><a class="el" href="MRDotNet_2MRMeshFwd_8h_source.html">MRDotNet/MRMeshFwd.h</a></li>
 <li><a class="el" href="MRMesh_2MRMatrix3_8h_source.html">MRMesh/MRMatrix3.h</a></li>
 <li><a class="el" href="MRMesh_2MRMeshFwd_8h_source.html">MRMesh/MRMeshFwd.h</a></li>
 </ul>

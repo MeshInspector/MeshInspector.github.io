@@ -11,7 +11,7 @@ var searchData=
   ['width_8',['width',['../group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af',1,'MR']]],
   ['windowname_9',['windowName',['../classMR_1_1RibbonMenuSearch.html#a9e21069323068b3d3e37691e3e2bdb09',1,'MR::RibbonMenuSearch']]],
   ['windowshouldclose_10',['windowShouldClose',['../classMR_1_1Viewer.html#a098bf2b0a344703be167559575e4ea3e',1,'MR::Viewer']]],
-  ['worldrayintersection_11',['worldRayIntersection',['../classMR_1_1ObjectMesh.html#a42f008e1d02b82af779b6378ba9402d5',1,'MR::ObjectMesh']]],
+  ['worldrayintersection_11',['worldRayIntersection',['../classMR_1_1ObjectMesh.html#a4bb899c9fc06e7d174cdd0cdcfda72e7',1,'MR::ObjectMesh']]],
   ['worldtocameraspace_12',['worldToCameraSpace',['../classMR_1_1Viewport.html#abf9bc36eda02472e52c41323484ca493',1,'MR::Viewport::worldToCameraSpace(const Vector3f &amp;p) const'],['../classMR_1_1Viewport.html#a71dda2baf413b787d9b0fb12035d3827',1,'MR::Viewport::worldToCameraSpace(const std::vector&lt; Vector3f &gt; &amp;p) const']]],
   ['worldxf_13',['worldXf',['../classMR_1_1Object.html#adf99bf3b0a5a59452a7e4efd6f48b657',1,'MR::Object']]],
   ['wrapper_14',['Wrapper',['../classMR_1_1RenderWrapObject_1_1Wrapper.html#a1513e9da308ecba00c67324e0c0cf39b',1,'MR::RenderWrapObject::Wrapper::Wrapper(const VisualObject &amp;object)'],['../classMR_1_1RenderWrapObject_1_1Wrapper.html#ad13b52643d115db231f4501231b97765',1,'MR::RenderWrapObject::Wrapper::Wrapper(const Wrapper &amp;)=delete']]],

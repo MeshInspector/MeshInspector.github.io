@@ -484,9 +484,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a497deb522cc50b59372ecb8523ea3d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af33900c10a8413c413aca54eb36cfb60" id="r_af33900c10a8413c413aca54eb36cfb60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af33900c10a8413c413aca54eb36cfb60">buildGridMesh</a> (const <a class="el" href="structMR_1_1GridSettings.html">GridSettings</a> &amp;settings, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="separator:af33900c10a8413c413aca54eb36cfb60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91fcf6654d9a6c5e525b2a230b5bcec4" id="r_a91fcf6654d9a6c5e525b2a230b5bcec4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91fcf6654d9a6c5e525b2a230b5bcec4">checkValidity</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={}) const</td></tr>
-<tr class="memdesc:a91fcf6654d9a6c5e525b2a230b5bcec4"><td class="mdescLeft">&#160;</td><td class="mdescRight">verifies that all internal data structures are valid  <br /></td></tr>
-<tr class="separator:a91fcf6654d9a6c5e525b2a230b5bcec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a814361ce90102a1a048d4d406452e1aa" id="r_a814361ce90102a1a048d4d406452e1aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a814361ce90102a1a048d4d406452e1aa">checkValidity</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={}, bool allVerts=true) const</td></tr>
+<tr class="separator:a814361ce90102a1a048d4d406452e1aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -947,8 +946,8 @@ template&lt;typename I &gt; </div>
 
 </div>
 </div>
-<a id="a91fcf6654d9a6c5e525b2a230b5bcec4" name="a91fcf6654d9a6c5e525b2a230b5bcec4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91fcf6654d9a6c5e525b2a230b5bcec4">&#9670;&#160;</a></span>checkValidity()</h2>
+<a id="a814361ce90102a1a048d4d406452e1aa" name="a814361ce90102a1a048d4d406452e1aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a814361ce90102a1a048d4d406452e1aa">&#9670;&#160;</a></span>checkValidity()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -956,13 +955,16 @@ template&lt;typename I &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::MeshTopology::checkValidity </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>allVerts</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>verifies that all internal data structures are valid </p>
+<p>verifies that all internal data structures are valid; if allVerts=true then checks in addition that all not-lone edges have valid vertices on both ends </p>
 
 </div>
 </div>

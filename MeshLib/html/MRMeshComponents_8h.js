@@ -6,6 +6,7 @@ var MRMeshComponents_8h =
     ] ],
     [ "getAllComponents", "MRMeshComponents_8h.html#gafde425f262b1f15428664fd79a1f0735", null ],
     [ "getAllComponents", "MRMeshComponents_8h.html#gab7b32c390e4839b252de2944886916f9", null ],
+    [ "getAllComponents", "MRMeshComponents_8h.html#ga4cf74d4564ff134bb6415bbcfe4feb42", null ],
     [ "getAllComponentsEdges", "MRMeshComponents_8h.html#ga7becc9588891fae069b72605a081462e", null ],
     [ "getAllComponentsMap", "MRMeshComponents_8h.html#gaa8bfdbb15cd2ef20fab8fcb792ed56f5", null ],
     [ "getAllComponentsUndirectedEdges", "MRMeshComponents_8h.html#gaa2a0c5fb3196196acd144c6fa53c0fec", null ],

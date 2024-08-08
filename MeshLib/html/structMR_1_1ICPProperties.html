@@ -111,7 +111,7 @@ $(function(){initNavTree('structMR_1_1ICPProperties.html',''); initResizable(tru
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="MRICP_8h_source.html">MRICP.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="MRMesh_2MRICP_8h_source.html">MRICP.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -124,9 +124,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af5cb06bed691cb37cc63ad3e96ebc6f2" id="r_af5cb06bed691cb37cc63ad3e96ebc6f2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5cb06bed691cb37cc63ad3e96ebc6f2">p2plScaleLimit</a> = 2</td></tr>
 <tr class="memdesc:af5cb06bed691cb37cc63ad3e96ebc6f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scaling during one iteration of PointToPlane will be limited by this value.  <br /></td></tr>
 <tr class="separator:af5cb06bed691cb37cc63ad3e96ebc6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97fba10a2234631de5a66c59d1dfd305" id="r_a97fba10a2234631de5a66c59d1dfd305"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97fba10a2234631de5a66c59d1dfd305">cosTreshold</a> = 0.7f</td></tr>
-<tr class="memdesc:a97fba10a2234631de5a66c59d1dfd305"><td class="mdescLeft">&#160;</td><td class="mdescRight">Points pair will be counted only if cosine between surface normals in points is higher.  <br /></td></tr>
-<tr class="separator:a97fba10a2234631de5a66c59d1dfd305"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a108845995db78805f41524217e474500" id="r_a108845995db78805f41524217e474500"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a108845995db78805f41524217e474500">cosThreshold</a> = 0.7f</td></tr>
+<tr class="memdesc:a108845995db78805f41524217e474500"><td class="mdescLeft">&#160;</td><td class="mdescRight">Points pair will be counted only if cosine between surface normals in points is higher.  <br /></td></tr>
+<tr class="separator:a108845995db78805f41524217e474500"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43460c0d16c0f302226c8e09b6b98811" id="r_a43460c0d16c0f302226c8e09b6b98811"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43460c0d16c0f302226c8e09b6b98811">distThresholdSq</a> = 1.f</td></tr>
 <tr class="memdesc:a43460c0d16c0f302226c8e09b6b98811"><td class="mdescLeft">&#160;</td><td class="mdescRight">Points pair will be counted only if squared distance between points is lower than.  <br /></td></tr>
 <tr class="separator:a43460c0d16c0f302226c8e09b6b98811"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,7 +135,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a77f672ea419da2fb458fb981c25d5be2" id="r_a77f672ea419da2fb458fb981c25d5be2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677">ICPMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77f672ea419da2fb458fb981c25d5be2">icpMode</a> = <a class="el" href="namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677a1662b3d601f436e62a0bf6529440eaef">ICPMode::AnyRigidXf</a></td></tr>
 <tr class="memdesc:a77f672ea419da2fb458fb981c25d5be2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds only translation. Rotation part is identity matrix.  <br /></td></tr>
 <tr class="separator:a77f672ea419da2fb458fb981c25d5be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fe34b378f38697c828575c8204e7b57" id="r_a1fe34b378f38697c828575c8204e7b57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fe34b378f38697c828575c8204e7b57">fixedRotationAxis</a></td></tr>
+<tr class="memitem:a1fe34b378f38697c828575c8204e7b57" id="r_a1fe34b378f38697c828575c8204e7b57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fe34b378f38697c828575c8204e7b57">fixedRotationAxis</a></td></tr>
 <tr class="memdesc:a1fe34b378f38697c828575c8204e7b57"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this vector is not zero then rotation is allowed relative to this axis only.  <br /></td></tr>
 <tr class="separator:a1fe34b378f38697c828575c8204e7b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b5daff61d36ce0e211995eee0f2507f" id="r_a4b5daff61d36ce0e211995eee0f2507f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b5daff61d36ce0e211995eee0f2507f">iterLimit</a> = 10</td></tr>
@@ -168,14 +168,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a97fba10a2234631de5a66c59d1dfd305" name="a97fba10a2234631de5a66c59d1dfd305"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97fba10a2234631de5a66c59d1dfd305">&#9670;&#160;</a></span>cosTreshold</h2>
+<a id="a108845995db78805f41524217e474500" name="a108845995db78805f41524217e474500"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a108845995db78805f41524217e474500">&#9670;&#160;</a></span>cosThreshold</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float MR::ICPProperties::cosTreshold = 0.7f</td>
+          <td class="memname">float MR::ICPProperties::cosThreshold = 0.7f</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -238,7 +238,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> MR::ICPProperties::fixedRotationAxis</td>
+          <td class="memname"><a class="el" href="classVector3f.html">Vector3f</a> MR::ICPProperties::fixedRotationAxis</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -344,7 +344,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="MRICP_8h_source.html">MRICP.h</a></li>
+<li><a class="el" href="MRMesh_2MRICP_8h_source.html">MRMesh/MRICP.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

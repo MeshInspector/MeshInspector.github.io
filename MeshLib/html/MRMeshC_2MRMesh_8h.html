@@ -113,6 +113,7 @@ $(function(){initNavTree('MRMeshC_2MRMesh_8h.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshC_2MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMeshC_2MRAffineXf_8h_source.html">MRAffineXf.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMeshC_2MRBox_8h_source.html">MRBox.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMeshC_2MRId_8h_source.html">MRId.h</a>&quot;</code><br />
 </div>
 <p><a href="MRMeshC_2MRMesh_8h_source.html">Go to the source code of this file.</a></p>
@@ -120,7 +121,7 @@ $(function(){initNavTree('MRMeshC_2MRMesh_8h.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMRMeshAddPartByMaskParameters.html">MRMeshAddPartByMaskParameters</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional parameters for <a class="el" href="MRMeshC_8h.html#ac129b6f0419f96dd02286b99fda3c673">mrMeshAddPartByMask</a>  <a href="structMRMeshAddPartByMaskParameters.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional parameters for <a class="el" href="#ac129b6f0419f96dd02286b99fda3c673">mrMeshAddPartByMask</a>  <a href="structMRMeshAddPartByMaskParameters.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
@@ -131,39 +132,52 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ada39c7dfb3c3d6beb27986f974e4c4e1" id="r_ada39c7dfb3c3d6beb27986f974e4c4e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_8h.html#a07cb85df391b65224a89339236e03c2e">MR_EXTERN_C_BEGIN</a> <a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada39c7dfb3c3d6beb27986f974e4c4e1">mrMeshCopy</a> (const <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh)</td></tr>
-<tr class="memdesc:ada39c7dfb3c3d6beb27986f974e4c4e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a copy of a Mesh object  <br /></td></tr>
+<tr class="memitem:ada39c7dfb3c3d6beb27986f974e4c4e1" id="r_ada39c7dfb3c3d6beb27986f974e4c4e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a07cb85df391b65224a89339236e03c2e">MR_EXTERN_C_BEGIN</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada39c7dfb3c3d6beb27986f974e4c4e1">mrMeshCopy</a> (const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh)</td></tr>
+<tr class="memdesc:ada39c7dfb3c3d6beb27986f974e4c4e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a copy of a <a class="el" href="classMesh.html" title="represents a mesh, including topology (connectivity) information and point coordinates,">Mesh</a> object  <br /></td></tr>
 <tr class="separator:ada39c7dfb3c3d6beb27986f974e4c4e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66876c0d684c51318803ae141caeb384" id="r_a66876c0d684c51318803ae141caeb384"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66876c0d684c51318803ae141caeb384">mrMeshFromTriangles</a> (const <a class="el" href="structMRVector3f.html">MRVector3f</a> *vertexCoordinates, size_t vertexCoordinatesNum, const <a class="el" href="MRMeshC_2MRId_8h.html#a967d742119c0049bd062c2386998d6c0">MRThreeVertIds</a> *t, size_t tNum)</td></tr>
+<tr class="memitem:a66876c0d684c51318803ae141caeb384" id="r_a66876c0d684c51318803ae141caeb384"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66876c0d684c51318803ae141caeb384">mrMeshFromTriangles</a> (const <a class="el" href="structMRVector3f.html">MRVector3f</a> *vertexCoordinates, size_t vertexCoordinatesNum, const <a class="el" href="MRMeshC_2MRId_8h.html#a967d742119c0049bd062c2386998d6c0">MRThreeVertIds</a> *t, size_t tNum)</td></tr>
 <tr class="memdesc:a66876c0d684c51318803ae141caeb384"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs a mesh from vertex coordinates and a set of triangles with given ids  <br /></td></tr>
 <tr class="separator:a66876c0d684c51318803ae141caeb384"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a451077545057134dc90594dc2a064061" id="r_a451077545057134dc90594dc2a064061"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a451077545057134dc90594dc2a064061">mrMeshFromTrianglesDuplicatingNonManifoldVertices</a> (const <a class="el" href="structMRVector3f.html">MRVector3f</a> *vertexCoordinates, size_t vertexCoordinatesNum, const <a class="el" href="MRMeshC_2MRId_8h.html#a967d742119c0049bd062c2386998d6c0">MRThreeVertIds</a> *t, size_t tNum)</td></tr>
+<tr class="memitem:a451077545057134dc90594dc2a064061" id="r_a451077545057134dc90594dc2a064061"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a451077545057134dc90594dc2a064061">mrMeshFromTrianglesDuplicatingNonManifoldVertices</a> (const <a class="el" href="structMRVector3f.html">MRVector3f</a> *vertexCoordinates, size_t vertexCoordinatesNum, const <a class="el" href="MRMeshC_2MRId_8h.html#a967d742119c0049bd062c2386998d6c0">MRThreeVertIds</a> *t, size_t tNum)</td></tr>
 <tr class="separator:a451077545057134dc90594dc2a064061"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a623fb3de189397803e03bda8f951bdc1" id="r_a623fb3de189397803e03bda8f951bdc1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a623fb3de189397803e03bda8f951bdc1">mrMeshNewFromPointTriples</a> (const <a class="el" href="MRMeshC_8h.html#ac68580b5805320c5e5bcb4f5df38aad1">MRTriangle3f</a> *posTriangles, size_t posTrianglesNum, bool duplicateNonManifoldVertices)</td></tr>
+<tr class="memitem:a623fb3de189397803e03bda8f951bdc1" id="r_a623fb3de189397803e03bda8f951bdc1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a623fb3de189397803e03bda8f951bdc1">mrMeshNewFromPointTriples</a> (const <a class="el" href="MRMeshC_2MRVector3_8h.html#ac68580b5805320c5e5bcb4f5df38aad1">MRTriangle3f</a> *posTriangles, size_t posTrianglesNum, bool duplicateNonManifoldVertices)</td></tr>
 <tr class="separator:a623fb3de189397803e03bda8f951bdc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cbc8ad8eff5369f50992cfa67668819" id="r_a0cbc8ad8eff5369f50992cfa67668819"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> const <a class="el" href="structMRVector3f.html">MRVector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cbc8ad8eff5369f50992cfa67668819">mrMeshPoints</a> (const <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh)</td></tr>
+<tr class="memitem:a0cbc8ad8eff5369f50992cfa67668819" id="r_a0cbc8ad8eff5369f50992cfa67668819"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> const <a class="el" href="structMRVector3f.html">MRVector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cbc8ad8eff5369f50992cfa67668819">mrMeshPoints</a> (const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh)</td></tr>
 <tr class="memdesc:a0cbc8ad8eff5369f50992cfa67668819"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets read-only access to the mesh vertex coordinates  <br /></td></tr>
 <tr class="separator:a0cbc8ad8eff5369f50992cfa67668819"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbd1a9c366f2fd8fbb39374056143b91" id="r_abbd1a9c366f2fd8fbb39374056143b91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMRVector3f.html">MRVector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbd1a9c366f2fd8fbb39374056143b91">mrMeshPointsRef</a> (<a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh)</td></tr>
+<tr class="memitem:abbd1a9c366f2fd8fbb39374056143b91" id="r_abbd1a9c366f2fd8fbb39374056143b91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMRVector3f.html">MRVector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbd1a9c366f2fd8fbb39374056143b91">mrMeshPointsRef</a> (<a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh)</td></tr>
 <tr class="memdesc:abbd1a9c366f2fd8fbb39374056143b91"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets read-write access to the mesh vertex coordinates  <br /></td></tr>
 <tr class="separator:abbd1a9c366f2fd8fbb39374056143b91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a338ca340ee0427b7d5e466b57d585c2e" id="r_a338ca340ee0427b7d5e466b57d585c2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a338ca340ee0427b7d5e466b57d585c2e">mrMeshPointsNum</a> (const <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh)</td></tr>
+<tr class="memitem:a338ca340ee0427b7d5e466b57d585c2e" id="r_a338ca340ee0427b7d5e466b57d585c2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a338ca340ee0427b7d5e466b57d585c2e">mrMeshPointsNum</a> (const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh)</td></tr>
 <tr class="memdesc:a338ca340ee0427b7d5e466b57d585c2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets count of the mesh vertex coordinates  <br /></td></tr>
 <tr class="separator:a338ca340ee0427b7d5e466b57d585c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f5d81f940456a9ae80511fb12f71669" id="r_a2f5d81f940456a9ae80511fb12f71669"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> const <a class="el" href="MRMeshC_8h.html#a7b3a7218b1a3774293f119358ece55c8">MRMeshTopology</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f5d81f940456a9ae80511fb12f71669">mrMeshTopology</a> (const <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh)</td></tr>
+<tr class="memitem:a2f5d81f940456a9ae80511fb12f71669" id="r_a2f5d81f940456a9ae80511fb12f71669"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b3a7218b1a3774293f119358ece55c8">MRMeshTopology</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f5d81f940456a9ae80511fb12f71669">mrMeshTopology</a> (const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh)</td></tr>
 <tr class="memdesc:a2f5d81f940456a9ae80511fb12f71669"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets read-only access to the mesh topology object  <br /></td></tr>
 <tr class="separator:a2f5d81f940456a9ae80511fb12f71669"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3d016c217ed1d760c0e0085a4a3629b" id="r_aa3d016c217ed1d760c0e0085a4a3629b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b3a7218b1a3774293f119358ece55c8">MRMeshTopology</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3d016c217ed1d760c0e0085a4a3629b">mrMeshTopologyRef</a> (<a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh)</td></tr>
+<tr class="memitem:aa3d016c217ed1d760c0e0085a4a3629b" id="r_aa3d016c217ed1d760c0e0085a4a3629b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b3a7218b1a3774293f119358ece55c8">MRMeshTopology</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3d016c217ed1d760c0e0085a4a3629b">mrMeshTopologyRef</a> (<a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh)</td></tr>
 <tr class="memdesc:aa3d016c217ed1d760c0e0085a4a3629b"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets read-write access to the mesh topology object  <br /></td></tr>
 <tr class="separator:aa3d016c217ed1d760c0e0085a4a3629b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab817f01631ab1235393478f3e2f18cbb" id="r_ab817f01631ab1235393478f3e2f18cbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab817f01631ab1235393478f3e2f18cbb">mrMeshTransform</a> (<a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh, const <a class="el" href="structMRAffineXf3f.html">MRAffineXf3f</a> *xf, const <a class="el" href="MRMeshC_8h.html#a463abe68b950b417fe5116c5d65bc830">MRVertBitSet</a> *region)</td></tr>
+<tr class="memitem:acb9cd8a62b754d8dfc405c983dbd5034" id="r_acb9cd8a62b754d8dfc405c983dbd5034"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMRBox3f.html">MRBox3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb9cd8a62b754d8dfc405c983dbd5034">mrMeshComputeBoundingBox</a> (const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh, const <a class="el" href="structMRAffineXf3f.html">MRAffineXf3f</a> *toWorld)</td></tr>
+<tr class="separator:acb9cd8a62b754d8dfc405c983dbd5034"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab817f01631ab1235393478f3e2f18cbb" id="r_ab817f01631ab1235393478f3e2f18cbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab817f01631ab1235393478f3e2f18cbb">mrMeshTransform</a> (<a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh, const <a class="el" href="structMRAffineXf3f.html">MRAffineXf3f</a> *xf, const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a463abe68b950b417fe5116c5d65bc830">MRVertBitSet</a> *region)</td></tr>
 <tr class="separator:ab817f01631ab1235393478f3e2f18cbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac129b6f0419f96dd02286b99fda3c673" id="r_ac129b6f0419f96dd02286b99fda3c673"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac129b6f0419f96dd02286b99fda3c673">mrMeshAddPartByMask</a> (<a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh, const <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *from, const <a class="el" href="MRMeshC_8h.html#a883a57a19c513b9ecb905cfa47a9a222">MRFaceBitSet</a> *fromFaces, const <a class="el" href="structMRMeshAddPartByMaskParameters.html">MRMeshAddPartByMaskParameters</a> *params)</td></tr>
+<tr class="memitem:a2b4e8d0e742af7ef37b537d0f0ba8cb4" id="r_a2b4e8d0e742af7ef37b537d0f0ba8cb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMRVector3f.html">MRVector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b4e8d0e742af7ef37b537d0f0ba8cb4">mrMeshHoleDirArea</a> (const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh, <a class="el" href="structMREdgeId.html">MREdgeId</a> e)</td></tr>
+<tr class="separator:a2b4e8d0e742af7ef37b537d0f0ba8cb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac129b6f0419f96dd02286b99fda3c673" id="r_ac129b6f0419f96dd02286b99fda3c673"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac129b6f0419f96dd02286b99fda3c673">mrMeshAddPartByMask</a> (<a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh, const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *from, const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a883a57a19c513b9ecb905cfa47a9a222">MRFaceBitSet</a> *fromFaces, const <a class="el" href="structMRMeshAddPartByMaskParameters.html">MRMeshAddPartByMaskParameters</a> *params)</td></tr>
 <tr class="memdesc:ac129b6f0419f96dd02286b99fda3c673"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends mesh (from) in addition to this mesh: creates new edges, faces, verts and points  <br /></td></tr>
 <tr class="separator:ac129b6f0419f96dd02286b99fda3c673"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5d22b5eec3af73293e031ea6346310d" id="r_ae5d22b5eec3af73293e031ea6346310d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5d22b5eec3af73293e031ea6346310d">mrMeshFree</a> (<a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh)</td></tr>
-<tr class="memdesc:ae5d22b5eec3af73293e031ea6346310d"><td class="mdescLeft">&#160;</td><td class="mdescRight">deallocates a Mesh object  <br /></td></tr>
+<tr class="memitem:a99ebfa267b1846a8761c58c902352499" id="r_a99ebfa267b1846a8761c58c902352499"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99ebfa267b1846a8761c58c902352499">mrMeshPack</a> (<a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh, bool rearrangeTriangles)</td></tr>
+<tr class="memdesc:a99ebfa267b1846a8761c58c902352499"><td class="mdescLeft">&#160;</td><td class="mdescRight">tightly packs all arrays eliminating lone edges and invalid face, verts and points  <br /></td></tr>
+<tr class="separator:a99ebfa267b1846a8761c58c902352499"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bc6868c06e753a47896e2325101312e" id="r_a4bc6868c06e753a47896e2325101312e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bc6868c06e753a47896e2325101312e">mrMeshPackOptimally</a> (<a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh, bool preserveAABBTree)</td></tr>
+<tr class="separator:a4bc6868c06e753a47896e2325101312e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5d22b5eec3af73293e031ea6346310d" id="r_ae5d22b5eec3af73293e031ea6346310d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5d22b5eec3af73293e031ea6346310d">mrMeshFree</a> (<a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh)</td></tr>
+<tr class="memdesc:ae5d22b5eec3af73293e031ea6346310d"><td class="mdescLeft">&#160;</td><td class="mdescRight">deallocates a <a class="el" href="classMesh.html" title="represents a mesh, including topology (connectivity) information and point coordinates,">Mesh</a> object  <br /></td></tr>
 <tr class="separator:ae5d22b5eec3af73293e031ea6346310d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10e7ae1cb0bed2d9259b7d9d91d92d58" id="r_a10e7ae1cb0bed2d9259b7d9d91d92d58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#add66f676ccf8cf242c5fdd22ada0ec21">MRTriangulation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10e7ae1cb0bed2d9259b7d9d91d92d58">mrMeshGetTriangulation</a> (const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh)</td></tr>
+<tr class="separator:a10e7ae1cb0bed2d9259b7d9d91d92d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eea3ee36aaf0646624e9d8a1bb32356" id="r_a3eea3ee36aaf0646624e9d8a1bb32356"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ac9e6f123229c4f8b19f73e50aa22c8da">MREdgePath</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3eea3ee36aaf0646624e9d8a1bb32356">mrMeshFindHoleRepresentiveEdges</a> (const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh)</td></tr>
+<tr class="separator:a3eea3ee36aaf0646624e9d8a1bb32356"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="ac567fa25d41a1a760199463e0db080d1" name="ac567fa25d41a1a760199463e0db080d1"></a>
@@ -190,19 +204,19 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void mrMeshAddPartByMask </td>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void mrMeshAddPartByMask </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+          <td class="paramtype"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRMeshC_8h.html#a883a57a19c513b9ecb905cfa47a9a222">MRFaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>fromFaces</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a883a57a19c513b9ecb905cfa47a9a222">MRFaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>fromFaces</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -216,6 +230,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="acb9cd8a62b754d8dfc405c983dbd5034" name="acb9cd8a62b754d8dfc405c983dbd5034"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb9cd8a62b754d8dfc405c983dbd5034">&#9670;&#160;</a></span>mrMeshComputeBoundingBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMRBox3f.html">MRBox3f</a> mrMeshComputeBoundingBox </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMRAffineXf3f.html">MRAffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>toWorld</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>passes through all valid vertices and finds the minimal bounding box containing all of them; if toWorld transformation is given then returns minimal bounding box in world space </p>
+
+</div>
+</div>
 <a id="ada39c7dfb3c3d6beb27986f974e4c4e1" name="ada39c7dfb3c3d6beb27986f974e4c4e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ada39c7dfb3c3d6beb27986f974e4c4e1">&#9670;&#160;</a></span>mrMeshCopy()</h2>
 
@@ -223,15 +259,33 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshC_8h.html#a07cb85df391b65224a89339236e03c2e">MR_EXTERN_C_BEGIN</a> <a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> * mrMeshCopy </td>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a07cb85df391b65224a89339236e03c2e">MR_EXTERN_C_BEGIN</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> * mrMeshCopy </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>creates a copy of a Mesh object </p>
+<p>creates a copy of a <a class="el" href="classMesh.html" title="represents a mesh, including topology (connectivity) information and point coordinates,">Mesh</a> object </p>
+
+</div>
+</div>
+<a id="a3eea3ee36aaf0646624e9d8a1bb32356" name="a3eea3ee36aaf0646624e9d8a1bb32356"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eea3ee36aaf0646624e9d8a1bb32356">&#9670;&#160;</a></span>mrMeshFindHoleRepresentiveEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ac9e6f123229c4f8b19f73e50aa22c8da">MREdgePath</a> * mrMeshFindHoleRepresentiveEdges </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns one edge with no valid left face for every boundary in the mesh NOTE: this is a shortcut for mrMeshTopologyFindHoleRepresentiveEdges( mrMeshTopology( mesh ) ) </p>
 
 </div>
 </div>
@@ -242,15 +296,15 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void mrMeshFree </td>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void mrMeshFree </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>deallocates a Mesh object </p>
+<p>deallocates a <a class="el" href="classMesh.html" title="represents a mesh, including topology (connectivity) information and point coordinates,">Mesh</a> object </p>
 
 </div>
 </div>
@@ -261,7 +315,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> * mrMeshFromTriangles </td>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> * mrMeshFromTriangles </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMRVector3f.html">MRVector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>vertexCoordinates</em></span>, </td>
         </tr>
@@ -294,7 +348,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> * mrMeshFromTrianglesDuplicatingNonManifoldVertices </td>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> * mrMeshFromTrianglesDuplicatingNonManifoldVertices </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMRVector3f.html">MRVector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>vertexCoordinates</em></span>, </td>
         </tr>
@@ -319,6 +373,46 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a10e7ae1cb0bed2d9259b7d9d91d92d58" name="a10e7ae1cb0bed2d9259b7d9d91d92d58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10e7ae1cb0bed2d9259b7d9d91d92d58">&#9670;&#160;</a></span>mrMeshGetTriangulation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#add66f676ccf8cf242c5fdd22ada0ec21">MRTriangulation</a> * mrMeshGetTriangulation </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns three vertex ids for valid triangles (which can be accessed by FaceId), vertex ids for invalid triangles are undefined, and shall not be read NOTE: this is a shortcut for mrMeshTopologyGetTriangulation( mrMeshTopology( mesh ) ) </p>
+
+</div>
+</div>
+<a id="a2b4e8d0e742af7ef37b537d0f0ba8cb4" name="a2b4e8d0e742af7ef37b537d0f0ba8cb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b4e8d0e742af7ef37b537d0f0ba8cb4">&#9670;&#160;</a></span>mrMeshHoleDirArea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMRVector3f.html">MRVector3f</a> mrMeshHoleDirArea </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMREdgeId.html">MREdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes directed area of the hole specified by one of its edges with no valid left face (left is hole); if the hole is planar then returned vector is orthogonal to the plane pointing outside and its magnitude is equal to hole area </p>
+
+</div>
+</div>
 <a id="a623fb3de189397803e03bda8f951bdc1" name="a623fb3de189397803e03bda8f951bdc1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a623fb3de189397803e03bda8f951bdc1">&#9670;&#160;</a></span>mrMeshNewFromPointTriples()</h2>
 
@@ -326,9 +420,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> * mrMeshNewFromPointTriples </td>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> * mrMeshNewFromPointTriples </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="MRMeshC_8h.html#ac68580b5805320c5e5bcb4f5df38aad1">MRTriangle3f</a> *</td>          <td class="paramname"><span class="paramname"><em>posTriangles</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="MRMeshC_2MRVector3_8h.html#ac68580b5805320c5e5bcb4f5df38aad1">MRTriangle3f</a> *</td>          <td class="paramname"><span class="paramname"><em>posTriangles</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -352,6 +446,56 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a99ebfa267b1846a8761c58c902352499" name="a99ebfa267b1846a8761c58c902352499"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99ebfa267b1846a8761c58c902352499">&#9670;&#160;</a></span>mrMeshPack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void mrMeshPack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>rearrangeTriangles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>tightly packs all arrays eliminating lone edges and invalid face, verts and points </p>
+
+</div>
+</div>
+<a id="a4bc6868c06e753a47896e2325101312e" name="a4bc6868c06e753a47896e2325101312e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bc6868c06e753a47896e2325101312e">&#9670;&#160;</a></span>mrMeshPackOptimally()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void mrMeshPackOptimally </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>preserveAABBTree</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>packs tightly and rearranges vertices, triangles and edges to put close in space elements in close indices </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">preserveAABBTree</td><td>whether to keep valid mesh's AABB tree after return (it will take longer to compute and it will occupy more memory) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a0cbc8ad8eff5369f50992cfa67668819" name="a0cbc8ad8eff5369f50992cfa67668819"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0cbc8ad8eff5369f50992cfa67668819">&#9670;&#160;</a></span>mrMeshPoints()</h2>
 
@@ -359,9 +503,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> const <a class="el" href="structMRVector3f.html">MRVector3f</a> * mrMeshPoints </td>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> const <a class="el" href="structMRVector3f.html">MRVector3f</a> * mrMeshPoints </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -378,9 +522,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> size_t mrMeshPointsNum </td>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> size_t mrMeshPointsNum </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -397,9 +541,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMRVector3f.html">MRVector3f</a> * mrMeshPointsRef </td>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMRVector3f.html">MRVector3f</a> * mrMeshPointsRef </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -416,9 +560,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> const <a class="el" href="MRMeshC_8h.html#a7b3a7218b1a3774293f119358ece55c8">MRMeshTopology</a> * mrMeshTopology </td>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b3a7218b1a3774293f119358ece55c8">MRMeshTopology</a> * mrMeshTopology </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -435,9 +579,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_8h.html#a7b3a7218b1a3774293f119358ece55c8">MRMeshTopology</a> * mrMeshTopologyRef </td>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b3a7218b1a3774293f119358ece55c8">MRMeshTopology</a> * mrMeshTopologyRef </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -454,9 +598,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshC_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void mrMeshTransform </td>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void mrMeshTransform </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="MRMeshC_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+          <td class="paramtype"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -466,7 +610,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRMeshC_8h.html#a463abe68b950b417fe5116c5d65bc830">MRVertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a463abe68b950b417fe5116c5d65bc830">MRVertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

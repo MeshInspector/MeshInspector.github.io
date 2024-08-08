@@ -20,7 +20,7 @@ var group__DecimateGroup =
       [ "optimizeVertexPos", "structMR_1_1DecimateSettings.html#ac4cfcdf2807788f5914a0640372d4a07", null ],
       [ "packMesh", "structMR_1_1DecimateSettings.html#a320a08e8abf402aa6a0dae956ad9be0e", null ],
       [ "partFaces", "structMR_1_1DecimateSettings.html#a7d69e19f2609b7330c6ac5d17a9ebfff", null ],
-      [ "preCollapse", "structMR_1_1DecimateSettings.html#a4eab7dd113486daa41a2272bac1b8a2f", null ],
+      [ "preCollapse", "structMR_1_1DecimateSettings.html#a5901e72dc3fd85459f38318a894afbbd", null ],
       [ "progressCallback", "structMR_1_1DecimateSettings.html#aa54526c521844dcca8dc5aa91e3628de", null ],
       [ "region", "structMR_1_1DecimateSettings.html#a9359f9da0b131c164d942b1361bd9644", null ],
       [ "stabilizer", "structMR_1_1DecimateSettings.html#ab8a313e9caff73dd179f03a9c7b80baa", null ],

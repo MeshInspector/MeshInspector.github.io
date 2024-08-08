@@ -149,7 +149,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a22c46bdff64005e21bccd666e13e7f01" id="r_a22c46bdff64005e21bccd666e13e7f01"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(<a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> e, <a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> e1)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22c46bdff64005e21bccd666e13e7f01">onEdgeDel</a></td></tr>
 <tr class="memdesc:a22c46bdff64005e21bccd666e13e7f01"><td class="mdescLeft">&#160;</td><td class="mdescRight">if valid (e1) is given then dest(e) = dest(e1) and their origins are in different ends of collapsing edge, e1 shall take the place of e  <br /></td></tr>
 <tr class="separator:a22c46bdff64005e21bccd666e13e7f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae47bb1dc61a019d8b23cdfd9d0343018" id="r_ae47bb1dc61a019d8b23cdfd9d0343018"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(<a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> edgeToCollapse, const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a> &amp;newEdgeOrgPos)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae47bb1dc61a019d8b23cdfd9d0343018">preCollapse</a></td></tr>
+<tr class="memitem:ae47bb1dc61a019d8b23cdfd9d0343018" id="r_ae47bb1dc61a019d8b23cdfd9d0343018"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(<a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> edgeToCollapse, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;newEdgeOrgPos)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae47bb1dc61a019d8b23cdfd9d0343018">preCollapse</a></td></tr>
 <tr class="memdesc:ae47bb1dc61a019d8b23cdfd9d0343018"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can provide this optional callback that is invoked immediately before edge collapse;.  <br /></td></tr>
 <tr class="separator:ae47bb1dc61a019d8b23cdfd9d0343018"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac65eb4c2e1f090a756362df72b272d6e" id="r_ac65eb4c2e1f090a756362df72b272d6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac65eb4c2e1f090a756362df72b272d6e">progressCallback</a></td></tr>
@@ -306,7 +306,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;bool( <a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> edgeToCollapse, const <a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">Vector3f</a>&amp; newEdgeOrgPos )&gt; MR::RemeshSettings::preCollapse</td>
+          <td class="memname">std::function&lt;bool( <a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> edgeToCollapse, const <a class="el" href="classVector3f.html">Vector3f</a>&amp; newEdgeOrgPos )&gt; MR::RemeshSettings::preCollapse</td>
         </tr>
       </table>
 </div><div class="memdoc">

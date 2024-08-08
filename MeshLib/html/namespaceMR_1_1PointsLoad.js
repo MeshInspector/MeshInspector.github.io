@@ -4,8 +4,6 @@ var namespaceMR_1_1PointsLoad =
     [ "NamedCloud", "structMR_1_1PointsLoad_1_1NamedCloud.html", "structMR_1_1PointsLoad_1_1NamedCloud" ],
     [ "fromAnySupportedFormat", "group__IOGroup.html#ga37b759ebc3da6e9acf243c3cb25be235", null ],
     [ "fromAnySupportedFormat", "group__IOGroup.html#gad18cbd6cdbee95a8ecdace7101079451", null ],
-    [ "fromAsc", "group__IOGroup.html#ga2252049dbcfce5120af20e3eb056d924", null ],
-    [ "fromAsc", "group__IOGroup.html#gac6ef8c59868fd0baf3f7cfeec8503c83", null ],
     [ "fromCtm", "group__IOGroup.html#gad385805f17fe1e687e5daf9df77cfaa8", null ],
     [ "fromCtm", "group__IOGroup.html#gae2d77a5c9b57492e77d748cf6fa46380", null ],
     [ "fromDxf", "group__IOGroup.html#ga4254ad628a6157d16c41142402c9ae0b", null ],

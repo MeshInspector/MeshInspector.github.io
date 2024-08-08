@@ -33,5 +33,6 @@ var searchData=
   ['framebufferdata_30',['FramebufferData',['../classMR_1_1FramebufferData.html',1,'MR']]],
   ['framecounter_31',['FrameCounter',['../classMR_1_1FrameCounter.html',1,'MR']]],
   ['frameredrawrequest_32',['FrameRedrawRequest',['../classMR_1_1FrameRedrawRequest.html',1,'MR']]],
-  ['freeformdeformer_33',['FreeFormDeformer',['../classMR_1_1FreeFormDeformer.html',1,'MR']]]
+  ['freeformbestfit_33',['FreeFormBestFit',['../classMR_1_1FreeFormBestFit.html',1,'MR']]],
+  ['freeformdeformer_34',['FreeFormDeformer',['../classMR_1_1FreeFormDeformer.html',1,'MR']]]
 ];

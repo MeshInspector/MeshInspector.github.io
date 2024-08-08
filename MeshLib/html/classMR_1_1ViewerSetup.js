@@ -9,5 +9,6 @@ var classMR_1_1ViewerSetup =
     [ "setupCommonPlugins", "classMR_1_1ViewerSetup.html#a04abb25fb543f1b7f29d33eed34bdb81", null ],
     [ "setupConfiguration", "classMR_1_1ViewerSetup.html#a918f69117bd46f408fda277cad5fde2d", null ],
     [ "setupExtendedLibraries", "classMR_1_1ViewerSetup.html#a189d84a7bbccaaa4f0936339d4e30b5e", null ],
-    [ "setupSettingsManager", "classMR_1_1ViewerSetup.html#a9ba29b362190cbfc386b59d8051f8b06", null ]
+    [ "setupSettingsManager", "classMR_1_1ViewerSetup.html#a9ba29b362190cbfc386b59d8051f8b06", null ],
+    [ "unloadExtendedLibraries", "classMR_1_1ViewerSetup.html#ac2596418ab8194fb9b1818ef2f1f5b31", null ]
 ];

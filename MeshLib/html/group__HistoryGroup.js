@@ -70,6 +70,14 @@ var group__HistoryGroup =
       [ "heapBytes", "classMR_1_1ChangeMeshTopologyAction.html#ac1782bd01a600b949c2bd731b603918b", null ],
       [ "name", "classMR_1_1ChangeMeshTopologyAction.html#a94b059bce32bf0568d4e0b3fa861479c", null ]
     ] ],
+    [ "MR::ChangeMeshTexturePerFaceAction", "classMR_1_1ChangeMeshTexturePerFaceAction.html", [
+      [ "Obj", "classMR_1_1ChangeMeshTexturePerFaceAction.html#a5ac275b9b06a01874c43ebe7baea03d8", null ],
+      [ "ChangeMeshTexturePerFaceAction", "classMR_1_1ChangeMeshTexturePerFaceAction.html#ab088029d6c5d868e8a5de7216aafe8ab", null ],
+      [ "ChangeMeshTexturePerFaceAction", "classMR_1_1ChangeMeshTexturePerFaceAction.html#ab6aa5335ed7975682a4f23ccfbd8d5f2", null ],
+      [ "action", "classMR_1_1ChangeMeshTexturePerFaceAction.html#a74f10a919c46c00ffa6dc5bbfe354000", null ],
+      [ "heapBytes", "classMR_1_1ChangeMeshTexturePerFaceAction.html#a26005c217798c440b5d38b82e747c9df", null ],
+      [ "name", "classMR_1_1ChangeMeshTexturePerFaceAction.html#a4b2e329d2919c7bf660598c1f458ac86", null ]
+    ] ],
     [ "MR::ChangeNameAction", "classMR_1_1ChangeNameAction.html", [
       [ "ChangeNameAction", "classMR_1_1ChangeNameAction.html#a8461f96378d4084fbd74bbdbf8d70ed3", null ],
       [ "action", "classMR_1_1ChangeNameAction.html#a198059bf4924aae700a459e93da3d953", null ],

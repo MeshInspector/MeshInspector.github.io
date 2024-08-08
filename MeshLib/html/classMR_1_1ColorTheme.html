@@ -106,8 +106,8 @@ $(function(){initNavTree('classMR_1_1ColorTheme.html',''); initResizable(true); 
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classMR_1_1ColorTheme-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::ColorTheme Class Reference</div></div>
 </div><!--header-->
@@ -129,67 +129,76 @@ Public Types</h2></td></tr>
 <tr class="separator:ad14d75ef685e439c80487ba1d4c41eca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb576da7973c6ccabb036634b3d878b0" id="r_aeb576da7973c6ccabb036634b3d878b0"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb576da7973c6ccabb036634b3d878b0">RibbonColorsType</a> { <br />
 &#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0aa9ded1e5ce5d75814730bb4caaf49419">Background</a>
+, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a5c6096c5bd502c82f62242293e9a0ecd">BackgroundSecStyle</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a2dfef339aeaa577faf0d49879bc040d2">HeaderBackground</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a7af2aa44b44cb2c9ed912410b4f3fa4d">HeaderSeparator</a>
-, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a2d838f579eb9b302faa00ef4fbc90172">TopPanelBackground</a>
 , <br />
-&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a085d26fc5e16986ab4f0f365f2f49a19">QuickAccessBackground</a>
+&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a2d838f579eb9b302faa00ef4fbc90172">TopPanelBackground</a>
+, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a085d26fc5e16986ab4f0f365f2f49a19">QuickAccessBackground</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0ae313502ef38a56454f3e9de57f384476">Borders</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0ab9ec620a9b6e516079ed9090700ef961">TabHovered</a>
-, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a34b6901b18dad551befcf60407ff1509">TabClicked</a>
 , <br />
-&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a4bee1ab256dfd5208c42c149da53f86a">TabActive</a>
+&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a34b6901b18dad551befcf60407ff1509">TabClicked</a>
+, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a4bee1ab256dfd5208c42c149da53f86a">TabActive</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0aa0559031ef8e5498f84e5074f6669ee4">TabActiveHovered</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0ad23d5f7e2baee8237e25498afa28433d">TabActiveClicked</a>
-, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a59ce3a1823add77157d34ba4dc516796">TabText</a>
 , <br />
-&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a766f7faeb0a4d7a594238c300876813a">TabActiveText</a>
+&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a59ce3a1823add77157d34ba4dc516796">TabText</a>
+, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a766f7faeb0a4d7a594238c300876813a">TabActiveText</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0add6f466efeaf5a96dfc33f6ef0df67db">DialogTab</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a59ecebaad36f9417c81fdd2b8cfa1785">DialogTabHovered</a>
-, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0ac0ee22e71fb95f1d07ed490d0ca63cd6">DialogTabActive</a>
 , <br />
-&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0ad644db49bc959d3cabf5c3561456212e">DialogTabActiveHovered</a>
+&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0ac0ee22e71fb95f1d07ed490d0ca63cd6">DialogTabActive</a>
+, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0ad644db49bc959d3cabf5c3561456212e">DialogTabActiveHovered</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a44e89643c3d74218928fade2818cbc8a">DialogTabText</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0ae70b3fa1f1a6b951c0f5c2a2f745ce5c">DialogTabActiveText</a>
-, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a76851ceee06bccd61e3f181d29dac532">ToolbarHovered</a>
 , <br />
-&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0ac85fcec1e15f3735fc91801590d0b609">ToolbarClicked</a>
+&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a76851ceee06bccd61e3f181d29dac532">ToolbarHovered</a>
+, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0ac85fcec1e15f3735fc91801590d0b609">ToolbarClicked</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0aba8e26fe60447633b1d9bf56680b8adc">ModalBackground</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a9dffbf69ffba8bc38bc4e01abf4b1675">Text</a>
-, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0aa83cd867d8cf60320dd3948eb15f7192">TextEnabled</a>
 , <br />
-&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0ae3a96937ea651675ce06873eb8398ac0">TextDisabled</a>
+&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0aa83cd867d8cf60320dd3948eb15f7192">TextEnabled</a>
+, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0ae3a96937ea651675ce06873eb8398ac0">TextDisabled</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0ae4d6eaf3ac4a68236347d40d63b8a2b4">TextSelectedBg</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a525b14df5462bcd36ab6046c11b74b39">RibbonButtonHovered</a>
-, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a1f0299955bfa50ff0a40eac8eda3bf8d">RibbonButtonClicked</a>
 , <br />
-&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a405ab182bbac4b79edbf8cc4acd5bcd6">RibbonButtonActive</a>
+&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a1f0299955bfa50ff0a40eac8eda3bf8d">RibbonButtonClicked</a>
+, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a405ab182bbac4b79edbf8cc4acd5bcd6">RibbonButtonActive</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a0954e2b27971721016aea8cbc8220933">RibbonButtonActiveHovered</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a1a3f051475bc0b988d3cd5015105bf33">RibbonButtonActiveClicked</a>
-, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0aa9748daf587164a6715a081151c33bf8">ThirdpartyBackground</a>
 , <br />
-&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0ae1bbec5067f1e6cc71f108e6d5ac7b81">ProgressBarBackground</a>
+&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0aa9748daf587164a6715a081151c33bf8">ThirdpartyBackground</a>
+, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0ae1bbec5067f1e6cc71f108e6d5ac7b81">ProgressBarBackground</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0ab7645d391763ab26ea48e51c80c3837e">FrameBackground</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0ae26407610c1540ad5648f9496a2f5e8b">CollapseHeaderBackground</a>
-, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0abc0bd1b6e1dd5d93d7ad6b4d7e66ddc0">SelectedObjectText</a>
 , <br />
-&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a51fc4ac9f7e95aa0e47690b6636f13dd">SelectedObjectFrame</a>
+&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0abc0bd1b6e1dd5d93d7ad6b4d7e66ddc0">SelectedObjectText</a>
+, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a51fc4ac9f7e95aa0e47690b6636f13dd">SelectedObjectFrame</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0afd01a2b69bde153fcd2589c5749c317d">GradientStart</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0aad7101ceb05b131ad92ee95d98c68c35">GradientEnd</a>
-, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0aad2cc424d609b2ce998423ef9d8b8b8f">TextContrastBackground</a>
 , <br />
-&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a50114286d87f93089d7d222120a2aff5">GradBtnStart</a>
+&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0aad2cc424d609b2ce998423ef9d8b8b8f">TextContrastBackground</a>
+, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a50114286d87f93089d7d222120a2aff5">GradBtnStart</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a2db2d120c28ce02f3ae09cb46ab142be">GradBtnHoverStart</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0ac89a96d82a927e50a773c18a61e7a780">GradBtnActiveStart</a>
-, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a11c9d2b923596e7459895684448aa6b0">GradBtnDisableStart</a>
 , <br />
-&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a5704717e193de9710967a1f65c75d2c7">GradBtnEnd</a>
+&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a11c9d2b923596e7459895684448aa6b0">GradBtnDisableStart</a>
+, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a5704717e193de9710967a1f65c75d2c7">GradBtnEnd</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0afc7e5e724a1d4777a9e8f28ca38916c3">GradBtnHoverEnd</a>
 , <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a79ca2c61ddfccb6fb9dd7fa7aef4797f">GradBtnActiveEnd</a>
-, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a3cf021c6c36c7ca240737b15a58169a5">GradBtnDisableEnd</a>
 , <br />
-&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0aa3e216a80fa3ed8ce043a3227686b692">GradBtnText</a>
-, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>
+&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a3cf021c6c36c7ca240737b15a58169a5">GradBtnDisableEnd</a>
+, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0aa3e216a80fa3ed8ce043a3227686b692">GradBtnText</a>
+, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a01bc2b070c09f3d2e1cc66670e1cbbae">GradBtnSecStyleStart</a>
+, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a6ba1b2ee8410d3d91bbdf59590579fff">GradBtnSecStyleHoverStart</a>
+, <br />
+&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a6085c7d170c3e8defc025b8188fa56ee">GradBtnSecStyleActiveStart</a>
+, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a20f8001e129053fad17ae238b505e776">GradBtnSecStyleEnd</a>
+, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a7c4e2f4ba1440cb30951c8ae2877d49c">GradBtnSecStyleHoverEnd</a>
+, <a class="el" href="#aeb576da7973c6ccabb036634b3d878b0a2403adc78e8c55b12b417c627bb19162">GradBtnSecStyleActiveEnd</a>
+, <br />
+&#160;&#160;<a class="el" href="#aeb576da7973c6ccabb036634b3d878b0ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>
 <br />
  }</td></tr>
 <tr class="separator:aeb576da7973c6ccabb036634b3d878b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -198,9 +207,12 @@ Public Types</h2></td></tr>
 , <a class="el" href="#a91b6b928ca7f490fdd396c347347bcdcae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>
  }</td></tr>
 <tr class="separator:a91b6b928ca7f490fdd396c347347bcdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f54970bdab29f2de6d63660bb71deae" id="r_a0f54970bdab29f2de6d63660bb71deae"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f54970bdab29f2de6d63660bb71deae">ColorThemeChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt;void()&gt;</td></tr>
-<tr class="memdesc:a0f54970bdab29f2de6d63660bb71deae"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about <a class="el" href="structMR_1_1Color.html">Color</a> Theme changing, triggered in apply  <br /></td></tr>
-<tr class="separator:a0f54970bdab29f2de6d63660bb71deae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a28c414812bc41e73acda130004569a41" id="r_a28c414812bc41e73acda130004569a41"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API boost::signals2::connection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28c414812bc41e73acda130004569a41">onChanged</a> (const boost::function&lt; void()&gt; &amp;slot, boost::signals2::connect_position <a class="el" href="namespaceMR.html#a0ca61d3fae40bcd7a9e8ce848bf0362d">position</a>=boost::signals2::at_back)</td></tr>
+<tr class="memdesc:a28c414812bc41e73acda130004569a41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects given slot to receive signal on every <a class="el" href="structMR_1_1Color.html">Color</a> Theme change, triggered in apply.  <br /></td></tr>
+<tr class="separator:a28c414812bc41e73acda130004569a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -254,29 +266,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a569785effc8f8f3c1c78f9ea3ab25c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af27347c90aa80168a890bdb58f2d0423" id="r_af27347c90aa80168a890bdb58f2d0423"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af27347c90aa80168a890bdb58f2d0423">resetImGuiStyle</a> ()</td></tr>
 <tr class="separator:af27347c90aa80168a890bdb58f2d0423"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:aff877396367b0dc6c1b096cccf4a8612" id="r_aff877396367b0dc6c1b096cccf4a8612"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0f54970bdab29f2de6d63660bb71deae">ColorThemeChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff877396367b0dc6c1b096cccf4a8612">colorThemeChangedSignal</a></td></tr>
-<tr class="separator:aff877396367b0dc6c1b096cccf4a8612"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a0f54970bdab29f2de6d63660bb71deae" name="a0f54970bdab29f2de6d63660bb71deae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f54970bdab29f2de6d63660bb71deae">&#9670;&#160;</a></span>ColorThemeChangedSignal</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a0f54970bdab29f2de6d63660bb71deae">MR::ColorTheme::ColorThemeChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt;void()&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>signal about <a class="el" href="structMR_1_1Color.html">Color</a> Theme changing, triggered in apply </p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="abbecc6afa53db91ada45757b845b5514" name="abbecc6afa53db91ada45757b845b5514"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abbecc6afa53db91ada45757b845b5514">&#9670;&#160;</a></span>Preset</h2>
@@ -327,6 +317,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aeb576da7973c6ccabb036634b3d878b0aa9ded1e5ce5d75814730bb4caaf49419" name="aeb576da7973c6ccabb036634b3d878b0aa9ded1e5ce5d75814730bb4caaf49419"></a>Background&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aeb576da7973c6ccabb036634b3d878b0a5c6096c5bd502c82f62242293e9a0ecd" name="aeb576da7973c6ccabb036634b3d878b0a5c6096c5bd502c82f62242293e9a0ecd"></a>BackgroundSecStyle&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aeb576da7973c6ccabb036634b3d878b0a2dfef339aeaa577faf0d49879bc040d2" name="aeb576da7973c6ccabb036634b3d878b0a2dfef339aeaa577faf0d49879bc040d2"></a>HeaderBackground&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aeb576da7973c6ccabb036634b3d878b0a7af2aa44b44cb2c9ed912410b4f3fa4d" name="aeb576da7973c6ccabb036634b3d878b0a7af2aa44b44cb2c9ed912410b4f3fa4d"></a>HeaderSeparator&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aeb576da7973c6ccabb036634b3d878b0a2d838f579eb9b302faa00ef4fbc90172" name="aeb576da7973c6ccabb036634b3d878b0a2d838f579eb9b302faa00ef4fbc90172"></a>TopPanelBackground&#160;</td><td class="fielddoc"></td></tr>
@@ -375,6 +366,12 @@ Public Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="aeb576da7973c6ccabb036634b3d878b0a79ca2c61ddfccb6fb9dd7fa7aef4797f" name="aeb576da7973c6ccabb036634b3d878b0a79ca2c61ddfccb6fb9dd7fa7aef4797f"></a>GradBtnActiveEnd&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aeb576da7973c6ccabb036634b3d878b0a3cf021c6c36c7ca240737b15a58169a5" name="aeb576da7973c6ccabb036634b3d878b0a3cf021c6c36c7ca240737b15a58169a5"></a>GradBtnDisableEnd&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aeb576da7973c6ccabb036634b3d878b0aa3e216a80fa3ed8ce043a3227686b692" name="aeb576da7973c6ccabb036634b3d878b0aa3e216a80fa3ed8ce043a3227686b692"></a>GradBtnText&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aeb576da7973c6ccabb036634b3d878b0a01bc2b070c09f3d2e1cc66670e1cbbae" name="aeb576da7973c6ccabb036634b3d878b0a01bc2b070c09f3d2e1cc66670e1cbbae"></a>GradBtnSecStyleStart&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aeb576da7973c6ccabb036634b3d878b0a6ba1b2ee8410d3d91bbdf59590579fff" name="aeb576da7973c6ccabb036634b3d878b0a6ba1b2ee8410d3d91bbdf59590579fff"></a>GradBtnSecStyleHoverStart&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aeb576da7973c6ccabb036634b3d878b0a6085c7d170c3e8defc025b8188fa56ee" name="aeb576da7973c6ccabb036634b3d878b0a6085c7d170c3e8defc025b8188fa56ee"></a>GradBtnSecStyleActiveStart&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aeb576da7973c6ccabb036634b3d878b0a20f8001e129053fad17ae238b505e776" name="aeb576da7973c6ccabb036634b3d878b0a20f8001e129053fad17ae238b505e776"></a>GradBtnSecStyleEnd&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aeb576da7973c6ccabb036634b3d878b0a7c4e2f4ba1440cb30951c8ae2877d49c" name="aeb576da7973c6ccabb036634b3d878b0a7c4e2f4ba1440cb30951c8ae2877d49c"></a>GradBtnSecStyleHoverEnd&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aeb576da7973c6ccabb036634b3d878b0a2403adc78e8c55b12b417c627bb19162" name="aeb576da7973c6ccabb036634b3d878b0a2403adc78e8c55b12b417c627bb19162"></a>GradBtnSecStyleActiveEnd&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aeb576da7973c6ccabb036634b3d878b0ae93f994f01c537c4e2f7d8528c3eb5e9" name="aeb576da7973c6ccabb036634b3d878b0ae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -759,6 +756,29 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a28c414812bc41e73acda130004569a41" name="a28c414812bc41e73acda130004569a41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28c414812bc41e73acda130004569a41">&#9670;&#160;</a></span>onChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API boost::signals2::connection MR::ColorTheme::onChanged </td>
+          <td>(</td>
+          <td class="paramtype">const boost::function&lt; void()&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>slot</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boost::signals2::connect_position</td>          <td class="paramname"><span class="paramname"><em>position</em></span><span class="paramdefsep"> = </span><span class="paramdefval">boost::signals2::at_back</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Connects given slot to receive signal on every <a class="el" href="structMR_1_1Color.html">Color</a> Theme change, triggered in apply. </p>
+
+</div>
+</div>
 <a id="af27347c90aa80168a890bdb58f2d0423" name="af27347c90aa80168a890bdb58f2d0423"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af27347c90aa80168a890bdb58f2d0423">&#9670;&#160;</a></span>resetImGuiStyle()</h2>
 
@@ -1075,21 +1095,6 @@ Public Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="aff877396367b0dc6c1b096cccf4a8612" name="aff877396367b0dc6c1b096cccf4a8612"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff877396367b0dc6c1b096cccf4a8612">&#9670;&#160;</a></span>colorThemeChangedSignal</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a0f54970bdab29f2de6d63660bb71deae">ColorThemeChangedSignal</a> MR::ColorTheme::colorThemeChangedSignal</td>
-        </tr>
-      </table>
 </div><div class="memdoc">
 
 </div>

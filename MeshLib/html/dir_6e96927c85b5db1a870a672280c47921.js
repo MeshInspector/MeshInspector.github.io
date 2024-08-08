@@ -1,5 +1,7 @@
 var dir_6e96927c85b5db1a870a672280c47921 =
 [
+    [ "ImGuiHelpers.h", "ImGuiHelpers_8h.html", "ImGuiHelpers_8h" ],
+    [ "ImGuiMenu.h", "ImGuiMenu_8h.html", "ImGuiMenu_8h" ],
     [ "MRAlphaSortGL.h", "MRAlphaSortGL_8h.html", "MRAlphaSortGL_8h" ],
     [ "MRAncillaryLabels.h", "MRAncillaryLabels_8h.html", "MRAncillaryLabels_8h" ],
     [ "MRAncillaryLines.h", "MRAncillaryLines_8h.html", "MRAncillaryLines_8h" ],
@@ -9,6 +11,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRAsyncTimer.h", "MRAsyncTimer_8h.html", "MRAsyncTimer_8h" ],
     [ "MRColorTheme.h", "MRColorTheme_8h.html", "MRColorTheme_8h" ],
     [ "MRCommandLoop.h", "MRCommandLoop_8h.html", "MRCommandLoop_8h" ],
+    [ "MRConsoleWindows.h", "MRConsoleWindows_8h.html", null ],
     [ "MRCreateShader.h", "MRCreateShader_8h.html", "MRCreateShader_8h" ],
     [ "MRCudaAccessor.h", "MRCudaAccessor_8h.html", "MRCudaAccessor_8h" ],
     [ "MRDemoPlugin.h", "MRDemoPlugin_8h.html", "MRDemoPlugin_8h" ],
@@ -21,6 +24,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRGladGlfw.h", "MRGladGlfw_8h.html", "MRGladGlfw_8h" ],
     [ "MRGLMacro.h", "MRGLMacro_8h.html", "MRGLMacro_8h" ],
     [ "MRGLStaticHolder.h", "MRGLStaticHolder_8h.html", "MRGLStaticHolder_8h" ],
+    [ "MRGLTexture.h", "MRGLTexture_8h.html", "MRGLTexture_8h" ],
     [ "MRHistoryStore.h", "MRHistoryStore_8h.html", null ],
     [ "MRImGuiImage.h", "MRImGuiImage_8h.html", "MRImGuiImage_8h" ],
     [ "MRImGuiMeasurementIndicators.h", "MRImGuiMeasurementIndicators_8h.html", "MRImGuiMeasurementIndicators_8h" ],

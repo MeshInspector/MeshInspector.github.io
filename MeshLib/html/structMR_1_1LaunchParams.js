@@ -24,5 +24,6 @@ var structMR_1_1LaunchParams =
     [ "showMRVersionInTitle", "structMR_1_1LaunchParams.html#a8a3dd1d7fa354ff72a92220cc87229a5", null ],
     [ "splashWindow", "structMR_1_1LaunchParams.html#a401802bd4a4ed3a745fe35920b213cb5", null ],
     [ "startEventLoop", "structMR_1_1LaunchParams.html#a165772971fdd10bdb851e8f7acde05eb", null ],
+    [ "unloadPluginsAtEnd", "structMR_1_1LaunchParams.html#a6db074c0e788a143ac4b532bafd77763", null ],
     [ "width", "structMR_1_1LaunchParams.html#ad45928846a94144888b24d45f9a24db5", null ]
 ];

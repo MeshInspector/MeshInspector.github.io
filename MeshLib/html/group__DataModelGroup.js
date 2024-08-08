@@ -317,7 +317,7 @@ var group__DataModelGroup =
       [ "typeName", "classMR_1_1ObjectMesh.html#af9b93365f1a3106e6b452c197251afba", null ],
       [ "updateMesh", "classMR_1_1ObjectMesh.html#a839774fb8213ddc2a1e9c51160ad5d01", null ],
       [ "varMesh", "classMR_1_1ObjectMesh.html#ab3bb6cba075e46e077c30ed748202d77", null ],
-      [ "worldRayIntersection", "classMR_1_1ObjectMesh.html#a42f008e1d02b82af779b6378ba9402d5", null ],
+      [ "worldRayIntersection", "classMR_1_1ObjectMesh.html#a4bb899c9fc06e7d174cdd0cdcfda72e7", null ],
       [ "meshChangedSignal", "classMR_1_1ObjectMesh.html#a9f1c4827307564a1c13839a4cde2868d", null ]
     ] ],
     [ "MR::ObjectPoints", "classMR_1_1ObjectPoints.html", [
@@ -407,6 +407,8 @@ var group__DataModelGroup =
       [ "isVolumeRenderingEnabled", "classMR_1_1ObjectVoxels.html#a1e13873d4779acb7a43e40d9b78cce31", null ],
       [ "operator=", "classMR_1_1ObjectVoxels.html#a2f2260ca64565ffbedc9236f28e19b98", null ],
       [ "prepareDataForVolumeRendering", "classMR_1_1ObjectVoxels.html#a9a313b9b8361815829252ae55a560ea1", null ],
+      [ "recalculateHistogram", "classMR_1_1ObjectVoxels.html#a994059a6c309acaa84ad41d1270a2998", null ],
+      [ "recalculateIsoSurface", "classMR_1_1ObjectVoxels.html#a60858be1a4389e55ae2240adaf2c7572", null ],
       [ "recalculateIsoSurface", "classMR_1_1ObjectVoxels.html#a98ceec8bf2c38db8965f325c56ef6ac1", null ],
       [ "selectVoxels", "classMR_1_1ObjectVoxels.html#a4333c77a23030251df09a35b3432fdd6", null ],
       [ "serializeFields_", "classMR_1_1ObjectVoxels.html#a1b9e402abcba964cf107ae761006fdb3", null ],
@@ -429,6 +431,7 @@ var group__DataModelGroup =
       [ "updateHistogramAndSurface", "classMR_1_1ObjectVoxels.html#a12c2bd9463d6a8649df26d87060f7974", null ],
       [ "updateIsoSurface", "classMR_1_1ObjectVoxels.html#aabef8e164fd456b133249ea31024af4e", null ],
       [ "updateVdbVolume", "classMR_1_1ObjectVoxels.html#aa2cc2fe9f238d2f29c8dffb80ebc675f", null ],
+      [ "varVdbVolume", "classMR_1_1ObjectVoxels.html#a10fd8457c5eafb626b75de39437e545a", null ],
       [ "vdbVolume", "classMR_1_1ObjectVoxels.html#a40a8a10a59c84f407f0b8cbdec7bedb1", null ],
       [ "voxelSize", "classMR_1_1ObjectVoxels.html#a15d13587d3a07d097c841db2c9face4d", null ],
       [ "isoSurfaceChangedSignal", "classMR_1_1ObjectVoxels.html#a3933529459eee6bf988f3b9814a52818", null ],

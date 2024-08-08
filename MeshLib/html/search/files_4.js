@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['integration_2edox_0',['Integration.dox',['../Integration_8dox.html',1,'']]]
+  ['homepage_2edox_0',['HomePage.dox',['../HomePage_8dox.html',1,'']]],
+  ['howtoexamples_2edox_1',['HowToExamples.dox',['../HowToExamples_8dox.html',1,'']]]
 ];

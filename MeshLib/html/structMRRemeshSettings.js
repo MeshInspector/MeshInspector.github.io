@@ -8,7 +8,7 @@ var structMRRemeshSettings =
     [ "packMesh", "structMRRemeshSettings.html#abbafe7fdf1d4baf1a12add0274a6a7db", null ],
     [ "progressCallback", "structMRRemeshSettings.html#a2926173237cdf60eb4ba2053493933c2", null ],
     [ "projectOnOriginalMesh", "structMRRemeshSettings.html#a130c782b734bdbe914cd080e35e0f0e9", null ],
-    [ "region", "structMRRemeshSettings.html#a68ea4e6db64cb1ca0db195050050a383", null ],
+    [ "region", "structMRRemeshSettings.html#ab58b49a00c7efe6fe7b4a2f423bfbab3", null ],
     [ "targetEdgeLen", "structMRRemeshSettings.html#a78606d5f61e430e2624dce8df9956316", null ],
     [ "useCurvature", "structMRRemeshSettings.html#aadd944d2ed451a6df6c8a0cf913e4576", null ]
 ];

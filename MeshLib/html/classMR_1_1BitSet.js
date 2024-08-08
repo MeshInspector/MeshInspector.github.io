@@ -5,6 +5,8 @@ var classMR_1_1BitSet =
     [ "autoResizeSet", "classMR_1_1BitSet.html#a737f8cc71944c7c750f8eeba4028ac17", null ],
     [ "autoResizeSet", "classMR_1_1BitSet.html#ab61cde9e7da6d5d6c75fefd11e2e6a24", null ],
     [ "autoResizeTestSet", "classMR_1_1BitSet.html#a84a9273303ae000bcf94b893a298eb95", null ],
+    [ "backId", "classMR_1_1BitSet.html#abd624eb57fa1932e782bf7eb418f7d1d", null ],
+    [ "endId", "classMR_1_1BitSet.html#a1f947bfd0ac71d4db95bbf1402d27ddf", null ],
     [ "find_last", "classMR_1_1BitSet.html#a21e124c25421599977ed1fc9874016e3", null ],
     [ "flip", "classMR_1_1BitSet.html#aac44f8d71b297c1ae62c6d8966ac986c", null ],
     [ "flip", "classMR_1_1BitSet.html#af5fff3291406197a18b73907ba6d0ad0", null ],

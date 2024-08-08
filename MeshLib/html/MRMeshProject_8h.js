@@ -1,6 +1,8 @@
 var MRMeshProject_8h =
 [
-    [ "findProjection", "MRMeshProject_8h.html#gaca9ee6c07f32374a18e511487904370b", null ],
-    [ "findProjectionSubtree", "MRMeshProject_8h.html#ga5387bb570d5a117c83ca310fbd4353cc", null ],
-    [ "findSignedDistance", "MRMeshProject_8h.html#ga44d0cb5151cae38d27130277c50301bc", null ]
+    [ "FoundTriCallback", "MRMeshProject_8h.html#ga6ec6b628f6388a76af3252fd27b93883", null ],
+    [ "findProjection", "MRMeshProject_8h.html#gaa20d785f3f82fad58fb659bc0009563d", null ],
+    [ "findProjectionSubtree", "MRMeshProject_8h.html#ga415d472754b9db893c0765c00951faad", null ],
+    [ "findSignedDistance", "MRMeshProject_8h.html#ga44d0cb5151cae38d27130277c50301bc", null ],
+    [ "findTrisInBall", "MRMeshProject_8h.html#ga70230ded2f43f2eb597df4e2848a8b5e", null ]
 ];

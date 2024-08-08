@@ -106,6 +106,7 @@ $(function(){initNavTree('group__BasicGroup.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#groups">Topics</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">Basic elements overview</div></div>
@@ -121,6 +122,11 @@ Topics</h2></td></tr>
 <tr class="memdesc:group__IteratorRange"><td class="mdescLeft">&#160;</td><td class="mdescRight">simple alternative to boost/iterator_range    <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1BitSetParallel.html">MR::BitSetParallel</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html">MR::BitSet</a></td></tr>
@@ -131,6 +137,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SetBitIteratorT.html">MR::SetBitIteratorT&lt; T &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterator to enumerate all indices with set bits in <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> class or its derivatives  <a href="classMR_1_1SetBitIteratorT.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1IdRange.html">MR::IdRange&lt; Id &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">range of indices [beg, end)  <a href="structMR_1_1IdRange.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Buffer.html">MR::Buffer&lt; V, I &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods  <a href="classMR_1_1Buffer.html#details">More...</a><br /></td></tr>
@@ -229,27 +238,24 @@ Functions</h2></td></tr>
 <tr class="memitem:gac6d17c4184b537a5ae4eb116c1948fc7" id="r_gac6d17c4184b537a5ae4eb116c1948fc7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gac6d17c4184b537a5ae4eb116c1948fc7"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gac6d17c4184b537a5ae4eb116c1948fc7">MR::operator-</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;a, const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="separator:gac6d17c4184b537a5ae4eb116c1948fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga07688e626ceb45b29291dc809fed5038" id="r_ga07688e626ceb45b29291dc809fed5038"><td class="memTemplParams" colspan="2">template&lt;typename IndexType , typename F &gt; </td></tr>
-<tr class="memitem:ga07688e626ceb45b29291dc809fed5038"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga07688e626ceb45b29291dc809fed5038">MR::BitSetParallelForAll</a> (IndexType <a class="el" href="#ga25c73b1f9e5d5df34b153869e3cb5515">begin</a>, IndexType <a class="el" href="#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, F f)</td></tr>
-<tr class="separator:ga07688e626ceb45b29291dc809fed5038"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaec1d8613d38041fae09f290f342a4995" id="r_gaec1d8613d38041fae09f290f342a4995"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F &gt; </td></tr>
-<tr class="memitem:gaec1d8613d38041fae09f290f342a4995"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gaec1d8613d38041fae09f290f342a4995">MR::BitSetParallelForAll</a> (const BS &amp;bs, F f)</td></tr>
-<tr class="separator:gaec1d8613d38041fae09f290f342a4995"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga250747209ce76377240779404890d11e" id="r_ga250747209ce76377240779404890d11e"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F &gt; </td></tr>
-<tr class="memitem:ga250747209ce76377240779404890d11e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga250747209ce76377240779404890d11e">MR::BitSetParallelForAllRanged</a> (const BS &amp;bs, F f)</td></tr>
-<tr class="separator:ga250747209ce76377240779404890d11e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9a5be0a6e8755df52fb1cf135ff198cc" id="r_ga9a5be0a6e8755df52fb1cf135ff198cc"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F &gt; </td></tr>
-<tr class="memitem:ga9a5be0a6e8755df52fb1cf135ff198cc"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga9a5be0a6e8755df52fb1cf135ff198cc">MR::BitSetParallelForAllRanged</a> (const BS &amp;bs, F f, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb, size_t reportProgressEveryBit=1024)</td></tr>
-<tr class="separator:ga9a5be0a6e8755df52fb1cf135ff198cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga812527fa00b5699cc23f4e5ec5cd9dab" id="r_ga812527fa00b5699cc23f4e5ec5cd9dab"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F &gt; </td></tr>
-<tr class="memitem:ga812527fa00b5699cc23f4e5ec5cd9dab"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga812527fa00b5699cc23f4e5ec5cd9dab">MR::BitSetParallelForAll</a> (const BS &amp;bs, F f, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb, size_t reportProgressEveryBit=1024)</td></tr>
-<tr class="separator:ga812527fa00b5699cc23f4e5ec5cd9dab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga37f9eccb6fe939fd6694e99a2258a723" id="r_ga37f9eccb6fe939fd6694e99a2258a723"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F , typename ... Cb&gt; </td></tr>
-<tr class="memitem:ga37f9eccb6fe939fd6694e99a2258a723"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga37f9eccb6fe939fd6694e99a2258a723">MR::BitSetParallelFor</a> (const BS &amp;bs, F f, Cb &amp;&amp;... cb)</td></tr>
-<tr class="separator:ga37f9eccb6fe939fd6694e99a2258a723"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8811984137354f9cbae35e3774f58bd7" id="r_ga8811984137354f9cbae35e3774f58bd7"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F , typename ... Cb&gt; </td></tr>
-<tr class="memitem:ga8811984137354f9cbae35e3774f58bd7"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga8811984137354f9cbae35e3774f58bd7">MR::BitSetParallelForReset</a> (const BS &amp;bs, F f, Cb &amp;&amp;... cb)</td></tr>
-<tr class="separator:ga8811984137354f9cbae35e3774f58bd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga33e26ce0b4711944b757408b0ab339a5" id="r_ga33e26ce0b4711944b757408b0ab339a5"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename ... F&gt; </td></tr>
+<tr class="memitem:ga33e26ce0b4711944b757408b0ab339a5"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga33e26ce0b4711944b757408b0ab339a5">MR::BitSetParallelForAllRanged</a> (const BS &amp;bs, F &amp;&amp;... f)</td></tr>
+<tr class="separator:ga33e26ce0b4711944b757408b0ab339a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga82bab0dac0d1604747ecff512e8a091a" id="r_ga82bab0dac0d1604747ecff512e8a091a"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename L , typename ... F&gt; </td></tr>
+<tr class="memitem:ga82bab0dac0d1604747ecff512e8a091a"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga82bab0dac0d1604747ecff512e8a091a">MR::BitSetParallelForAllRanged</a> (const BS &amp;bs, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;... f)</td></tr>
+<tr class="separator:ga82bab0dac0d1604747ecff512e8a091a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga13c3e24dbe2feef1f9d56ea427ef4107" id="r_ga13c3e24dbe2feef1f9d56ea427ef4107"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F , typename ... Cb&gt; </td></tr>
+<tr class="memitem:ga13c3e24dbe2feef1f9d56ea427ef4107"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga13c3e24dbe2feef1f9d56ea427ef4107">MR::BitSetParallelForAll</a> (const BS &amp;bs, F &amp;&amp;f, Cb &amp;&amp;... cb)</td></tr>
+<tr class="separator:ga13c3e24dbe2feef1f9d56ea427ef4107"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga473b8a238072b360e13c47d4c255d66f" id="r_ga473b8a238072b360e13c47d4c255d66f"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename L , typename F , typename ... Cb&gt; </td></tr>
+<tr class="memitem:ga473b8a238072b360e13c47d4c255d66f"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga473b8a238072b360e13c47d4c255d66f">MR::BitSetParallelForAll</a> (const BS &amp;bs, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;f, Cb &amp;&amp;... cb)</td></tr>
+<tr class="separator:ga473b8a238072b360e13c47d4c255d66f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6f038e999890735ffdb5f8119eb5650e" id="r_ga6f038e999890735ffdb5f8119eb5650e"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename F , typename ... Cb&gt; </td></tr>
+<tr class="memitem:ga6f038e999890735ffdb5f8119eb5650e"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga6f038e999890735ffdb5f8119eb5650e">MR::BitSetParallelFor</a> (const BS &amp;bs, F &amp;&amp;f, Cb &amp;&amp;... cb)</td></tr>
+<tr class="separator:ga6f038e999890735ffdb5f8119eb5650e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa44fd6dceea20f68975639cc07df31b2" id="r_gaa44fd6dceea20f68975639cc07df31b2"><td class="memTemplParams" colspan="2">template&lt;typename BS , typename L , typename F , typename ... Cb&gt; </td></tr>
+<tr class="memitem:gaa44fd6dceea20f68975639cc07df31b2"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gaa44fd6dceea20f68975639cc07df31b2">MR::BitSetParallelFor</a> (const BS &amp;bs, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;f, Cb &amp;&amp;... cb)</td></tr>
+<tr class="separator:gaa44fd6dceea20f68975639cc07df31b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2442ef2afa7012af6ca21ebcb6604536" id="r_ga2442ef2afa7012af6ca21ebcb6604536"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga2442ef2afa7012af6ca21ebcb6604536"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga2442ef2afa7012af6ca21ebcb6604536">MR::heapBytes</a> (const std::vector&lt; T &gt; &amp;vec)</td></tr>
 <tr class="memdesc:ga2442ef2afa7012af6ca21ebcb6604536"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory given vector occupies on heap  <br /></td></tr>
@@ -265,6 +271,10 @@ Functions</h2></td></tr>
 <tr class="memitem:gac4cf85680ec3620cb08726ea6668e99a"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gac4cf85680ec3620cb08726ea6668e99a">MR::heapBytes</a> (const std::shared_ptr&lt; T &gt; &amp;ptr)</td></tr>
 <tr class="memdesc:gac4cf85680ec3620cb08726ea6668e99a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this smart pointer and its pointed object own together on heap  <br /></td></tr>
 <tr class="separator:gac4cf85680ec3620cb08726ea6668e99a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga616873b34fa0db5205d049f845bec044" id="r_ga616873b34fa0db5205d049f845bec044"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga616873b34fa0db5205d049f845bec044"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga616873b34fa0db5205d049f845bec044">MR::heapBytes</a> (const std::function&lt; T &gt; &amp;)</td></tr>
+<tr class="memdesc:ga616873b34fa0db5205d049f845bec044"><td class="mdescLeft">&#160;</td><td class="mdescRight">Needed for generic code, always returns zero.  <br /></td></tr>
+<tr class="separator:ga616873b34fa0db5205d049f845bec044"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6804a7415d5f018fa64bf1b533af3d4f" id="r_ga6804a7415d5f018fa64bf1b533af3d4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6804a7415d5f018fa64bf1b533af3d4f">MR::setupLoggerByDefault</a> ()</td></tr>
 <tr class="separator:ga6804a7415d5f018fa64bf1b533af3d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga52d34a9bbe60f99085e9aab32040499f" id="r_ga52d34a9bbe60f99085e9aab32040499f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga52d34a9bbe60f99085e9aab32040499f">MR::redirectSTDStreamsToLogger</a> ()</td></tr>
@@ -272,21 +282,17 @@ Functions</h2></td></tr>
 <tr class="memitem:ga49107746ea2415c9c89d28a9e0f56112" id="r_ga49107746ea2415c9c89d28a9e0f56112"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga49107746ea2415c9c89d28a9e0f56112">MR::printStacktraceOnCrash</a> ()</td></tr>
 <tr class="memdesc:ga49107746ea2415c9c89d28a9e0f56112"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print stacktrace on application crash.  <br /></td></tr>
 <tr class="separator:ga49107746ea2415c9c89d28a9e0f56112"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0f1d9c02d9be540b9ebb830334428fe5" id="r_ga0f1d9c02d9be540b9ebb830334428fe5"><td class="memTemplParams" colspan="2">template&lt;typename I , typename F &gt; </td></tr>
-<tr class="memitem:ga0f1d9c02d9be540b9ebb830334428fe5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga0f1d9c02d9be540b9ebb830334428fe5">MR::ParallelFor</a> (I <a class="el" href="#ga25c73b1f9e5d5df34b153869e3cb5515">begin</a>, I <a class="el" href="#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, F &amp;&amp;f)</td></tr>
-<tr class="memdesc:ga0f1d9c02d9be540b9ebb830334428fe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">executes given function f for each span element [begin, end)  <br /></td></tr>
-<tr class="separator:ga0f1d9c02d9be540b9ebb830334428fe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9236de74b554a978dcdcb72a62cc2041" id="r_ga9236de74b554a978dcdcb72a62cc2041"><td class="memTemplParams" colspan="2">template&lt;typename I , typename F &gt; </td></tr>
-<tr class="memitem:ga9236de74b554a978dcdcb72a62cc2041"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga9236de74b554a978dcdcb72a62cc2041">MR::ParallelFor</a> (I <a class="el" href="#ga25c73b1f9e5d5df34b153869e3cb5515">begin</a>, I <a class="el" href="#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, F &amp;&amp;f, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb, size_t reportProgressEvery=1024)</td></tr>
-<tr class="memdesc:ga9236de74b554a978dcdcb72a62cc2041"><td class="mdescLeft">&#160;</td><td class="mdescRight">executes given function f for each span element [begin, end)  <br /></td></tr>
-<tr class="separator:ga9236de74b554a978dcdcb72a62cc2041"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacebe01b37f86a061aec73665e5458155" id="r_gacebe01b37f86a061aec73665e5458155"><td class="memTemplParams" colspan="2">template&lt;typename I , typename ... F&gt; </td></tr>
+<tr class="memitem:gacebe01b37f86a061aec73665e5458155"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gacebe01b37f86a061aec73665e5458155">MR::ParallelFor</a> (I <a class="el" href="#ga25c73b1f9e5d5df34b153869e3cb5515">begin</a>, I <a class="el" href="#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, F &amp;&amp;... f)</td></tr>
+<tr class="separator:gacebe01b37f86a061aec73665e5458155"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9ad21bab650271b14fe5e8c2c5eb6d5b" id="r_ga9ad21bab650271b14fe5e8c2c5eb6d5b"><td class="memTemplParams" colspan="2">template&lt;typename I , typename L , typename ... F&gt; </td></tr>
+<tr class="memitem:ga9ad21bab650271b14fe5e8c2c5eb6d5b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga9ad21bab650271b14fe5e8c2c5eb6d5b">MR::ParallelFor</a> (I <a class="el" href="#ga25c73b1f9e5d5df34b153869e3cb5515">begin</a>, I <a class="el" href="#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;... f)</td></tr>
+<tr class="separator:ga9ad21bab650271b14fe5e8c2c5eb6d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga97e8749c8a61bfc6c81edcebdcebbdd6" id="r_ga97e8749c8a61bfc6c81edcebdcebbdd6"><td class="memTemplParams" colspan="2">template&lt;typename T , typename ... F&gt; </td></tr>
 <tr class="memitem:ga97e8749c8a61bfc6c81edcebdcebbdd6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga97e8749c8a61bfc6c81edcebdcebbdd6">MR::ParallelFor</a> (const std::vector&lt; T &gt; &amp;v, F &amp;&amp;... f)</td></tr>
-<tr class="memdesc:ga97e8749c8a61bfc6c81edcebdcebbdd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">executes given function f for each vector element in parallel threads  <br /></td></tr>
 <tr class="separator:ga97e8749c8a61bfc6c81edcebdcebbdd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga465ce65b82d1fa8749312b1b6de8ede6" id="r_ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I , typename ... F&gt; </td></tr>
 <tr class="memitem:ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga465ce65b82d1fa8749312b1b6de8ede6">MR::ParallelFor</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;v, F &amp;&amp;... f)</td></tr>
-<tr class="memdesc:ga465ce65b82d1fa8749312b1b6de8ede6"><td class="mdescLeft">&#160;</td><td class="mdescRight">executes given function f for each vector element in parallel threads  <br /></td></tr>
 <tr class="separator:ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gacefefeac686afa1ccce13566eeaeb68b" id="r_gacefefeac686afa1ccce13566eeaeb68b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gacefefeac686afa1ccce13566eeaeb68b"><td class="memTemplItemLeft" align="right" valign="top">std::pair&lt; T, T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gacefefeac686afa1ccce13566eeaeb68b">MR::parallelMinMax</a> (const std::vector&lt; T &gt; &amp;vec, const T *topExcluding=nullptr)</td></tr>
@@ -536,13 +542,16 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ga37f9eccb6fe939fd6694e99a2258a723" name="ga37f9eccb6fe939fd6694e99a2258a723"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga37f9eccb6fe939fd6694e99a2258a723">&#9670;&#160;</a></span>BitSetParallelFor()</h2>
+<a id="ga6f038e999890735ffdb5f8119eb5650e" name="ga6f038e999890735ffdb5f8119eb5650e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6f038e999890735ffdb5f8119eb5650e">&#9670;&#160;</a></span>BitSetParallelFor() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename BS , typename F , typename ... Cb&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">auto MR::BitSetParallelFor </td>
@@ -552,7 +561,7 @@ template&lt;typename BS , typename F , typename ... Cb&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">F</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+          <td class="paramtype">F &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -560,173 +569,78 @@ template&lt;typename BS , typename F , typename ... Cb&gt; </div>
           <td class="paramtype">Cb &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<p>executes given function f for every set bit in bs in parallel threads; it is guaranteed that every individual block in bit-set is processed by one thread only </p>
+<p>executes given function f for every <em>set</em> bit in <a class="el" href="structMR_1_1IdRange.html" title="range of indices [beg, end)">IdRange</a> or <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> (bs) in parallel threads; it is guaranteed that every individual block in bit-set is processed by one thread only; optional parameters after f: ProgressCallback cb, size_t reportProgressEveryBit = 1024 for periodic progress report </p><dl class="section return"><dt>Returns</dt><dd>false if terminated by callback </dd></dl>
 
 </div>
 </div>
-<a id="gaec1d8613d38041fae09f290f342a4995" name="gaec1d8613d38041fae09f290f342a4995"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaec1d8613d38041fae09f290f342a4995">&#9670;&#160;</a></span>BitSetParallelForAll() <span class="overload">[1/3]</span></h2>
+<a id="gaa44fd6dceea20f68975639cc07df31b2" name="gaa44fd6dceea20f68975639cc07df31b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa44fd6dceea20f68975639cc07df31b2">&#9670;&#160;</a></span>BitSetParallelFor() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename BS , typename F &gt; </div>
+template&lt;typename BS , typename L , typename F , typename ... Cb&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::BitSetParallelForAll </td>
+          <td class="memname">auto MR::BitSetParallelFor </td>
           <td>(</td>
           <td class="paramtype">const BS &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">F</td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
+          <td class="paramtype">tbb::enumerable_thread_specific&lt; L &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">F &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Cb &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<p>executes given function f for each bit in bs in parallel threads; it is guaranteed that every individual block in bit-set is processed by one thread only </p>
+<p>executes given function f for every <em>set</em> bit in bs <a class="el" href="structMR_1_1IdRange.html" title="range of indices [beg, end)">IdRange</a> or <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> (bs) parallel threads, passing e.local() (evaluated once for each sub-range) as the second argument to f; it is guaranteed that every individual block in bit-set is processed by one thread only; optional parameters after f: ProgressCallback cb, size_t reportProgressEveryBit = 1024 for periodic progress report </p><dl class="section return"><dt>Returns</dt><dd>false if terminated by callback </dd></dl>
 
 </div>
 </div>
-<a id="ga812527fa00b5699cc23f4e5ec5cd9dab" name="ga812527fa00b5699cc23f4e5ec5cd9dab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga812527fa00b5699cc23f4e5ec5cd9dab">&#9670;&#160;</a></span>BitSetParallelForAll() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename BS , typename F &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::BitSetParallelForAll </td>
-          <td>(</td>
-          <td class="paramtype">const BS &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">F</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>progressCb</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>reportProgressEveryBit</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1024</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>executes given function f for each bit in bs in parallel threads; it is guaranteed that every individual block in bit-set is processed by one thread only; reports progress from calling thread only; </p><dl class="section return"><dt>Returns</dt><dd>false if the processing was canceled by progressCb </dd></dl>
-
-</div>
-</div>
-<a id="ga07688e626ceb45b29291dc809fed5038" name="ga07688e626ceb45b29291dc809fed5038"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga07688e626ceb45b29291dc809fed5038">&#9670;&#160;</a></span>BitSetParallelForAll() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename IndexType , typename F &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::BitSetParallelForAll </td>
-          <td>(</td>
-          <td class="paramtype">IndexType</td>          <td class="paramname"><span class="paramname"><em>begin</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">IndexType</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">F</td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>executes given function f for each index in [begin, end) in parallel threads; it is guaranteed that every individual block in <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> is processed by one thread only </p>
-
-</div>
-</div>
-<a id="ga250747209ce76377240779404890d11e" name="ga250747209ce76377240779404890d11e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga250747209ce76377240779404890d11e">&#9670;&#160;</a></span>BitSetParallelForAllRanged() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename BS , typename F &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::BitSetParallelForAllRanged </td>
-          <td>(</td>
-          <td class="paramtype">const BS &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">F</td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>executes given function f( IndexId, rangeBeginId, rangeEndId ) for each bit in bs in parallel threads; rangeBeginId, rangeEndId - boundaries of thread range in parallel processing it is guaranteed that every individual block in bit-set is processed by one thread only; </p>
-
-</div>
-</div>
-<a id="ga9a5be0a6e8755df52fb1cf135ff198cc" name="ga9a5be0a6e8755df52fb1cf135ff198cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9a5be0a6e8755df52fb1cf135ff198cc">&#9670;&#160;</a></span>BitSetParallelForAllRanged() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename BS , typename F &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::BitSetParallelForAllRanged </td>
-          <td>(</td>
-          <td class="paramtype">const BS &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">F</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>progressCb</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>reportProgressEveryBit</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1024</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>executes given function f( IndexId, rangeBeginId, rangeEndId ) for each bit in bs in parallel threads; rangeBeginId, rangeEndId - boundaries of thread range in parallel processing it is guaranteed that every individual block in bit-set is processed by one thread only; reports progress from calling thread only; </p><dl class="section return"><dt>Returns</dt><dd>false if the processing was canceled by progressCb </dd></dl>
-
-</div>
-</div>
-<a id="ga8811984137354f9cbae35e3774f58bd7" name="ga8811984137354f9cbae35e3774f58bd7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8811984137354f9cbae35e3774f58bd7">&#9670;&#160;</a></span>BitSetParallelForReset()</h2>
+<a id="ga13c3e24dbe2feef1f9d56ea427ef4107" name="ga13c3e24dbe2feef1f9d56ea427ef4107"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga13c3e24dbe2feef1f9d56ea427ef4107">&#9670;&#160;</a></span>BitSetParallelForAll() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename BS , typename F , typename ... Cb&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto MR::BitSetParallelForReset </td>
+          <td class="memname">auto MR::BitSetParallelForAll </td>
           <td>(</td>
           <td class="paramtype">const BS &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">F</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+          <td class="paramtype">F &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -734,8 +648,124 @@ template&lt;typename BS , typename F , typename ... Cb&gt; </div>
           <td class="paramtype">Cb &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<p>executes given function f for every reset bit in bs in parallel threads; it is guaranteed that every individual block in bit-set is processed by one thread only </p>
+<p>executes given function f for each index in <a class="el" href="structMR_1_1IdRange.html" title="range of indices [beg, end)">IdRange</a> or <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> (bs) in parallel threads; it is guaranteed that every individual block in <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> is processed by one thread only; optional parameters after f: ProgressCallback cb, size_t reportProgressEveryBit = 1024 for periodic progress report </p><dl class="section return"><dt>Returns</dt><dd>false if terminated by callback </dd></dl>
+
+</div>
+</div>
+<a id="ga473b8a238072b360e13c47d4c255d66f" name="ga473b8a238072b360e13c47d4c255d66f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga473b8a238072b360e13c47d4c255d66f">&#9670;&#160;</a></span>BitSetParallelForAll() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BS , typename L , typename F , typename ... Cb&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto MR::BitSetParallelForAll </td>
+          <td>(</td>
+          <td class="paramtype">const BS &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">tbb::enumerable_thread_specific&lt; L &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">F &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Cb &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>executes given function f for each index in <a class="el" href="structMR_1_1IdRange.html" title="range of indices [beg, end)">IdRange</a> or <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> (bs) in parallel threads passing e.local() (evaluated once for each sub-range) as the second argument to f; it is guaranteed that every individual block in <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> is processed by one thread only; optional parameters after f: ProgressCallback cb, size_t reportProgressEveryBit = 1024 for periodic progress report </p><dl class="section return"><dt>Returns</dt><dd>false if terminated by callback </dd></dl>
+
+</div>
+</div>
+<a id="ga33e26ce0b4711944b757408b0ab339a5" name="ga33e26ce0b4711944b757408b0ab339a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga33e26ce0b4711944b757408b0ab339a5">&#9670;&#160;</a></span>BitSetParallelForAllRanged() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BS , typename ... F&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto MR::BitSetParallelForAllRanged </td>
+          <td>(</td>
+          <td class="paramtype">const BS &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">F &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>executes given function f( bit, subBitRange ) for each bit in bitRange in parallel threads, where (subBitRange) are the bits that will be processed by the same thread; it is guaranteed that every individual block in bit-set is processed by one thread only; optional parameters after f: ProgressCallback cb, size_t reportProgressEveryBit = 1024 for periodic progress report </p><dl class="section return"><dt>Returns</dt><dd>false if terminated by callback </dd></dl>
+
+</div>
+</div>
+<a id="ga82bab0dac0d1604747ecff512e8a091a" name="ga82bab0dac0d1604747ecff512e8a091a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga82bab0dac0d1604747ecff512e8a091a">&#9670;&#160;</a></span>BitSetParallelForAllRanged() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename BS , typename L , typename ... F&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto MR::BitSetParallelForAllRanged </td>
+          <td>(</td>
+          <td class="paramtype">const BS &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">tbb::enumerable_thread_specific&lt; L &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">F &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>executes given function f( bit, subBitRange, tls ) for each bit in <a class="el" href="structMR_1_1IdRange.html" title="range of indices [beg, end)">IdRange</a> or <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> (bs) in parallel threads, where subBitRange are the bits that will be processed by the same thread, tls=e.local() (evaluated once for each subBitRange); it is guaranteed that every individual block in bit-set is processed by one thread only; optional parameters after f: ProgressCallback cb, size_t reportProgressEveryBit = 1024 for periodic progress report </p><dl class="section return"><dt>Returns</dt><dd>false if terminated by callback </dd></dl>
 
 </div>
 </div>
@@ -1159,8 +1189,37 @@ template&lt;typename T , typename I , typename P &gt; </div>
 
 </div>
 </div>
+<a id="ga616873b34fa0db5205d049f845bec044" name="ga616873b34fa0db5205d049f845bec044"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga616873b34fa0db5205d049f845bec044">&#9670;&#160;</a></span>heapBytes() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::heapBytes </td>
+          <td>(</td>
+          <td class="paramtype">const std::function&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Needed for generic code, always returns zero. </p>
+
+</div>
+</div>
 <a id="gac4cf85680ec3620cb08726ea6668e99a" name="gac4cf85680ec3620cb08726ea6668e99a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac4cf85680ec3620cb08726ea6668e99a">&#9670;&#160;</a></span>heapBytes() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac4cf85680ec3620cb08726ea6668e99a">&#9670;&#160;</a></span>heapBytes() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1189,7 +1248,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="ga6f62a19a1892f63b5d147de8ef2160c0" name="ga6f62a19a1892f63b5d147de8ef2160c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6f62a19a1892f63b5d147de8ef2160c0">&#9670;&#160;</a></span>heapBytes() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6f62a19a1892f63b5d147de8ef2160c0">&#9670;&#160;</a></span>heapBytes() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1218,7 +1277,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="ga2442ef2afa7012af6ca21ebcb6604536" name="ga2442ef2afa7012af6ca21ebcb6604536"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2442ef2afa7012af6ca21ebcb6604536">&#9670;&#160;</a></span>heapBytes() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2442ef2afa7012af6ca21ebcb6604536">&#9670;&#160;</a></span>heapBytes() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1247,7 +1306,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="ga92b723fb37bb2e5133cba528ecd679e6" name="ga92b723fb37bb2e5133cba528ecd679e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga92b723fb37bb2e5133cba528ecd679e6">&#9670;&#160;</a></span>heapBytes() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga92b723fb37bb2e5133cba528ecd679e6">&#9670;&#160;</a></span>heapBytes() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1810,8 +1869,7 @@ template&lt;typename T , typename ... F&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>executes given function f for each vector element in parallel threads </p>
+<p>executes given function f for each vector element in parallel threads; optional parameters after f: ProgressCallback cb, size_t reportProgressEvery = 1024 for periodic progress report </p><dl class="section return"><dt>Returns</dt><dd>false if terminated by callback </dd></dl>
 
 </div>
 </div>
@@ -1843,21 +1901,23 @@ template&lt;typename T , typename I , typename ... F&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>executes given function f for each vector element in parallel threads </p>
+<p>executes given function f for each vector element in parallel threads; optional parameters after f: ProgressCallback cb, size_t reportProgressEvery = 1024 for periodic progress report </p><dl class="section return"><dt>Returns</dt><dd>false if terminated by callback </dd></dl>
 
 </div>
 </div>
-<a id="ga0f1d9c02d9be540b9ebb830334428fe5" name="ga0f1d9c02d9be540b9ebb830334428fe5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0f1d9c02d9be540b9ebb830334428fe5">&#9670;&#160;</a></span>ParallelFor() <span class="overload">[3/4]</span></h2>
+<a id="gacebe01b37f86a061aec73665e5458155" name="gacebe01b37f86a061aec73665e5458155"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacebe01b37f86a061aec73665e5458155">&#9670;&#160;</a></span>ParallelFor() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename I , typename F &gt; </div>
+template&lt;typename I , typename ... F&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::ParallelFor </td>
+          <td class="memname">auto MR::ParallelFor </td>
           <td>(</td>
           <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>begin</em></span>, </td>
         </tr>
@@ -1869,25 +1929,32 @@ template&lt;typename I , typename F &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">F &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
+          <td class="paramtype">F &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-
-<p>executes given function f for each span element [begin, end) </p>
+<p>executes given function f for each span element [begin, end); optional parameters after f: ProgressCallback cb, size_t reportProgressEvery = 1024 for periodic progress report </p><dl class="section return"><dt>Returns</dt><dd>false if terminated by callback </dd></dl>
 
 </div>
 </div>
-<a id="ga9236de74b554a978dcdcb72a62cc2041" name="ga9236de74b554a978dcdcb72a62cc2041"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9236de74b554a978dcdcb72a62cc2041">&#9670;&#160;</a></span>ParallelFor() <span class="overload">[4/4]</span></h2>
+<a id="ga9ad21bab650271b14fe5e8c2c5eb6d5b" name="ga9ad21bab650271b14fe5e8c2c5eb6d5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9ad21bab650271b14fe5e8c2c5eb6d5b">&#9670;&#160;</a></span>ParallelFor() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename I , typename F &gt; </div>
+template&lt;typename I , typename L , typename ... F&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool MR::ParallelFor </td>
+          <td class="memname">auto MR::ParallelFor </td>
           <td>(</td>
           <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>begin</em></span>, </td>
         </tr>
@@ -1899,22 +1966,21 @@ template&lt;typename I , typename F &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">F &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+          <td class="paramtype">tbb::enumerable_thread_specific&lt; L &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>reportProgressEvery</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1024</span>&#160;)</td>
+          <td class="paramtype">F &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-
-<p>executes given function f for each span element [begin, end) </p>
+<p>executes given function f for each span element [begin, end) passing e.local() (evaluated once for each sub-range) as the second argument to f; optional parameters after f: ProgressCallback cb, size_t reportProgressEvery = 1024 for periodic progress report </p><dl class="section return"><dt>Returns</dt><dd>false if terminated by callback </dd></dl>
 
 </div>
 </div>
