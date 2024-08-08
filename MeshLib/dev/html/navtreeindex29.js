@@ -1,5 +1,9 @@
 var NAVTREEINDEX29 =
 {
+"classMR_1_1PlaneAccumulator.html":[12,0,1,401],
+"classMR_1_1PlaneAccumulator.html#a0255552e85ddcbc57932a70e4eabbb28":[10,0,10,417,3],
+"classMR_1_1PlaneAccumulator.html#a0255552e85ddcbc57932a70e4eabbb28":[12,0,1,401,3],
+"classMR_1_1PlaneAccumulator.html#a561b80488532ac9db2b78daf77f60124":[10,0,10,417,0],
 "classMR_1_1PlaneAccumulator.html#a561b80488532ac9db2b78daf77f60124":[12,0,1,401,0],
 "classMR_1_1PlaneAccumulator.html#adffaaa076fb1e9216cb89f89f2ee3af6":[10,0,10,417,1],
 "classMR_1_1PlaneAccumulator.html#adffaaa076fb1e9216cb89f89f2ee3af6":[12,0,1,401,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX29 =
 "classMR_1_1PolylineTopology.html#af1878c347e52b88e1e86d50a9f38264b":[9,16,2,36],
 "classMR_1_1PolylineTopology.html#af5cc7998d7a0f82562b74552b26163f4":[9,16,2,47],
 "classMR_1_1PolylineTopology.html#afeacaa2685ac05679afb0b6675a1ff4b":[9,16,2,49],
-"classMR_1_1PolylineUndirectedEdgeIterator.html":[9,16,1],
-"classMR_1_1PolylineUndirectedEdgeIterator.html#a00b9bc17163f0618fd55aa774580ed91":[9,16,1,5],
-"classMR_1_1PolylineUndirectedEdgeIterator.html#a96c120505ea08821c57b4ed64dee6cda":[9,16,1,2],
-"classMR_1_1PolylineUndirectedEdgeIterator.html#aa10debad27ce2b86f238db3d967a2c22":[9,16,1,6],
-"classMR_1_1PolylineUndirectedEdgeIterator.html#ab5a25215895e3294bb18f87556136edc":[9,16,1,0]
+"classMR_1_1PolylineUndirectedEdgeIterator.html":[9,16,1]
 };

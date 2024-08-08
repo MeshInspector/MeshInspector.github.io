@@ -1,5 +1,9 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html":[12,0,1,375],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html#a7c6810eee2e81dd56d902c959a18d117":[10,0,10,391,0],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html#a7c6810eee2e81dd56d902c959a18d117":[12,0,1,375,0],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html":[10,0,10,392],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html":[12,0,1,376],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html#af790be1acb4e05aaea55fd8ac0a82a65":[10,0,10,392,0],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html#af790be1acb4e05aaea55fd8ac0a82a65":[12,0,1,376,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a1ba150196ca38c47b298c26615eab80e":[12,0,1,11,0,1],
 "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a2fa82e2dbbf17f35ba932bcd731f08c6":[10,0,10,24,0,2],
 "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a2fa82e2dbbf17f35ba932bcd731f08c6":[12,0,1,11,0,2],
-"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a317063d55c098c2ef928c24f84e7d072":[10,0,10,24,0,4],
-"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a317063d55c098c2ef928c24f84e7d072":[12,0,1,11,0,4],
-"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a3ed890ec3241e636e8fd100f7ed41f04":[10,0,10,24,0,0],
-"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a3ed890ec3241e636e8fd100f7ed41f04":[12,0,1,11,0,0],
-"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a486648a6478caadcce4b7e8b5ccfe262":[10,0,10,24,0,6]
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a317063d55c098c2ef928c24f84e7d072":[10,0,10,24,0,4]
 };

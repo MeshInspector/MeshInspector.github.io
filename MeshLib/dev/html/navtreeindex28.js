@@ -1,5 +1,9 @@
 var NAVTREEINDEX28 =
 {
+"classMR_1_1ObjectPointsHolder.html#af7ab9f32dcef65ad1a79fde9078c19af":[10,0,10,382,46],
+"classMR_1_1ObjectPointsHolder.html#af7ab9f32dcef65ad1a79fde9078c19af":[12,0,1,366,46],
+"classMR_1_1ObjectPointsHolder.html#aff82edcc80eafd10cf373c842d0c3b8e":[10,0,10,382,49],
+"classMR_1_1ObjectPointsHolder.html#aff82edcc80eafd10cf373c842d0c3b8e":[12,0,1,366,49],
 "classMR_1_1ObjectTransformWidget.html":[10,0,10,383],
 "classMR_1_1ObjectTransformWidget.html":[12,0,1,367],
 "classMR_1_1ObjectTransformWidget.html#a1010ca302a266f98b14450145b726efe":[10,0,10,383,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX28 =
 "classMR_1_1Pdf.html#af89eaef5f8ee396c998c75f39448ad4c":[12,0,1,398,5],
 "classMR_1_1Pdf.html#afe044f31babdc5a00c14dd0e3c67631c":[10,0,10,414,6],
 "classMR_1_1Pdf.html#afe044f31babdc5a00c14dd0e3c67631c":[12,0,1,398,6],
-"classMR_1_1PlaneAccumulator.html":[10,0,10,417],
-"classMR_1_1PlaneAccumulator.html":[12,0,1,401],
-"classMR_1_1PlaneAccumulator.html#a0255552e85ddcbc57932a70e4eabbb28":[10,0,10,417,3],
-"classMR_1_1PlaneAccumulator.html#a0255552e85ddcbc57932a70e4eabbb28":[12,0,1,401,3],
-"classMR_1_1PlaneAccumulator.html#a561b80488532ac9db2b78daf77f60124":[10,0,10,417,0]
+"classMR_1_1PlaneAccumulator.html":[10,0,10,417]
 };

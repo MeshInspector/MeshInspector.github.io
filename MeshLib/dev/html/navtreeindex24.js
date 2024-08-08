@@ -1,5 +1,9 @@
 var NAVTREEINDEX24 =
 {
+"classMR_1_1MeshTopology.html#a1505aee9d1b0cdf3c24139b5e97bc187":[9,9,1,69],
+"classMR_1_1MeshTopology.html#a16d8c613652e38545fb0fd05ee1cd033":[9,9,1,112],
+"classMR_1_1MeshTopology.html#a173158279b948d780f1705eaccf66106":[9,9,1,119],
+"classMR_1_1MeshTopology.html#a17820a4dfe0d723e13b05547d2c01104":[9,9,1,58],
 "classMR_1_1MeshTopology.html#a183e7f78dfae636f44de186d488f8a4b":[9,9,1,94],
 "classMR_1_1MeshTopology.html#a1c34e0c1ceeb2e372c4976e27f8cb211":[9,9,1,135],
 "classMR_1_1MeshTopology.html#a1ea6cf9a730f10c9a99cb768c9be48f7":[9,9,1,30],
@@ -245,9 +249,5 @@ var NAVTREEINDEX24 =
 "classMR_1_1MultiwayICP.html#afab250201279bb04e86b137138ef54de":[10,0,10,355,13],
 "classMR_1_1MultiwayICP.html#afab250201279bb04e86b137138ef54de":[12,0,1,339,13],
 "classMR_1_1NextEdgeSameLeft.html":[10,0,10,359],
-"classMR_1_1NextEdgeSameLeft.html":[12,0,1,343],
-"classMR_1_1NextEdgeSameLeft.html#a0d76f45cd46c08d651d08d28d0570524":[10,0,10,359,1],
-"classMR_1_1NextEdgeSameLeft.html#a0d76f45cd46c08d651d08d28d0570524":[12,0,1,343,1],
-"classMR_1_1NextEdgeSameLeft.html#a7cd53c8ae9e36043c2dc5e9750efcce3":[10,0,10,359,0],
-"classMR_1_1NextEdgeSameLeft.html#a7cd53c8ae9e36043c2dc5e9750efcce3":[12,0,1,343,0]
+"classMR_1_1NextEdgeSameLeft.html":[12,0,1,343]
 };
