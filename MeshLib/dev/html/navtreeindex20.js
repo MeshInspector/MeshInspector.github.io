@@ -1,5 +1,8 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1Graph.html#ac31feb99fa40a7a7fee0c9806f676b11":[10,0,10,236,20],
+"classMR_1_1Graph.html#ac31feb99fa40a7a7fee0c9806f676b11":[12,0,1,220,20],
+"classMR_1_1Graph.html#aeeffe9dd1229206b5db549f61cbad105":[10,0,10,236,7],
 "classMR_1_1Graph.html#aeeffe9dd1229206b5db549f61cbad105":[12,0,1,220,7],
 "classMR_1_1HashToVectorMappingConverter.html":[10,0,10,239],
 "classMR_1_1HashToVectorMappingConverter.html":[12,0,1,223],
@@ -246,8 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1ITransformControls_1_1ChangeCenterAction.html#a9f633c38c10b5c7437a1f2479e01acdf":[10,0,10,286,0,3],
 "classMR_1_1ITransformControls_1_1ChangeCenterAction.html#a9f633c38c10b5c7437a1f2479e01acdf":[12,0,1,270,0,3],
 "classMR_1_1ITransformControls_1_1ChangeCenterAction.html#abf5a84325d8fc0c434b810083942d5d2":[10,0,10,286,0,1],
-"classMR_1_1ITransformControls_1_1ChangeCenterAction.html#abf5a84325d8fc0c434b810083942d5d2":[12,0,1,270,0,1],
-"classMR_1_1IViewerSettingsManager.html":[10,0,10,287],
-"classMR_1_1IViewerSettingsManager.html":[12,0,1,271],
-"classMR_1_1IViewerSettingsManager.html#a5fa6959a71ea16d2cd2ca4e276a04665":[10,0,10,287,0]
+"classMR_1_1ITransformControls_1_1ChangeCenterAction.html#abf5a84325d8fc0c434b810083942d5d2":[12,0,1,270,0,1]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX52 =
 {
+"namespaceMR.html#acb74ec61600c1cedc296814bdcedd962":[10,0,10,1135],
+"namespaceMR.html#acb8bc789d5f982acca80ec85c34cfca6":[10,0,10,1493],
+"namespaceMR.html#acb9a4b971d09b95d3e2663d6603260ce":[10,0,10,1112],
+"namespaceMR.html#acc0e8c191e3cb6b1cc7a98f206665a59":[10,0,10,766],
 "namespaceMR.html#acc1d104ed2e275977cf878d68073c9b2":[10,0,10,1122],
 "namespaceMR.html#acc39cd0582abbbb48612bd904fe74210":[10,0,10,827],
 "namespaceMR.html#acc5ecd2826659aa256d0bb1b168cc3bc":[10,0,10,1571],
@@ -245,9 +249,5 @@ var NAVTREEINDEX52 =
 "namespaceMR_1_1BitSetParallel.html#a3bd79eee90fc2c0edb4ad601a2405b3c":[10,0,10,1,6],
 "namespaceMR_1_1BitSetParallel.html#a4dae19e97b7c75a723c2c38ab4f6f379":[10,0,10,1,5],
 "namespaceMR_1_1BitSetParallel.html#a5f85ef918c6f42f0b53973d00bb6a720":[10,0,10,1,4],
-"namespaceMR_1_1BitSetParallel.html#a8c54ac4b7f59d210bf4835cfa5d86a8c":[10,0,10,1,0],
-"namespaceMR_1_1BitSetParallel.html#a8d363b4768efba11f60c43928c542bf1":[10,0,10,1,3],
-"namespaceMR_1_1BitSetParallel.html#a8f2ddae24bfbab61698167d301e96307":[10,0,10,1,2],
-"namespaceMR_1_1BitSetParallel.html#ac886c0876beae880356ab560e584b63e":[10,0,10,1,1],
-"namespaceMR_1_1Cuda.html":[10,0,10,2]
+"namespaceMR_1_1BitSetParallel.html#a8c54ac4b7f59d210bf4835cfa5d86a8c":[10,0,10,1,0]
 };

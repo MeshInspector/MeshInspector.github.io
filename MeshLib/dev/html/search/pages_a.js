@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['mesh_20boolean_0',['Mesh boolean',['../ExampleCMeshBoolean.html',1,'Mesh boolean'],['../ExampleCppMeshBoolean.html',1,'Mesh boolean'],['../ExamplePythonMeshBoolean.html',1,'Mesh boolean']]],
+  ['mesh_20boolean_0',['Mesh boolean',['../ExampleCSharpMeshBoolean.html',1,'Mesh boolean'],['../ExampleCMeshBoolean.html',1,'Mesh boolean'],['../ExampleCppMeshBoolean.html',1,'Mesh boolean'],['../ExamplePythonMeshBoolean.html',1,'Mesh boolean']]],
   ['mesh_20decimate_1',['Mesh decimate',['../ExamplePythonMeshDecimate.html',1,'PythonCodeExamples']]],
   ['mesh_20decimation_2',['Mesh decimation',['../ExampleCMeshDecimate.html',1,'Mesh decimation'],['../ExampleCppMeshDecimate.html',1,'Mesh decimation']]],
   ['mesh_20degeneration_3',['Resolving mesh degeneration',['../ExampleCMeshResolveDegenerations.html',1,'CCodeExamples']]],

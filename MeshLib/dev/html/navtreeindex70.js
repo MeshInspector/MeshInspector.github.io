@@ -1,5 +1,9 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1SceneLoad_1_1SceneLoadResult.html#a4c844d4db5149403cd2595555c42df49":[10,0,10,32,0,4],
+"structMR_1_1SceneLoad_1_1SceneLoadResult.html#a4c844d4db5149403cd2595555c42df49":[12,0,1,17,0,4],
+"structMR_1_1SceneLoad_1_1SceneLoadResult.html#a8ab12a398d94cb272576b5f833d981fe":[10,0,10,32,0,1],
+"structMR_1_1SceneLoad_1_1SceneLoadResult.html#a8ab12a398d94cb272576b5f833d981fe":[12,0,1,17,0,1],
 "structMR_1_1SceneLoad_1_1SceneLoadResult.html#a97f073147fdb14c17f60c03a0dd66c2f":[10,0,10,32,0,2],
 "structMR_1_1SceneLoad_1_1SceneLoadResult.html#a97f073147fdb14c17f60c03a0dd66c2f":[12,0,1,17,0,2],
 "structMR_1_1SearchPathSettings.html":[10,0,10,556],
@@ -245,9 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1SphereParams.html#aa39f9a9bdcc770f1cd4abffcf9594f51":[10,0,10,590,1],
 "structMR_1_1SphereParams.html#aa39f9a9bdcc770f1cd4abffcf9594f51":[12,0,1,574,1],
 "structMR_1_1StitchHolesParams.html":[9,11,3,1],
-"structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66":[9,11,3,1,1],
-"structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020":[9,11,3,1,0],
-"structMR_1_1StopOnTrueCombiner.html":[10,0,10,595],
-"structMR_1_1StopOnTrueCombiner.html":[12,0,1,579],
-"structMR_1_1StopOnTrueCombiner.html#ac4c7b58291a1f9e59adb38ee87fca271":[10,0,10,595,1]
+"structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66":[9,11,3,1,1]
 };

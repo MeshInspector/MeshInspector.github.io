@@ -146,7 +146,7 @@ var searchData=
   ['event_143',['event',['../structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#a2898fdfcc0ded74f09a2807b6b6fef31',1,'MR::PrecipitationSimulator::SimulationStep']]],
   ['eventtype_144',['EventType',['../classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0',1,'MR::Viewer']]],
   ['exactpickfirst_145',['exactPickFirst',['../structMR_1_1Viewport_1_1PickRenderObjectParams.html#a0c05a407695c3bccd5b990b26ecdde96',1,'MR::Viewport::PickRenderObjectParams']]],
-  ['examples_146',['Examples',['../CCodeExamples.html',1,'C Basic Examples'],['../CppCodeExamples.html',1,'C++ Basic Examples'],['../HowToBasic.html',1,'Examples'],['../PythonCodeExamples.html',1,'Python Basic Examples']]],
+  ['examples_146',['Examples',['../CCodeExamples.html',1,'C Basic Examples'],['../CSharpCodeExamples.html',1,'C# Basic Examples'],['../CppCodeExamples.html',1,'C++ Basic Examples'],['../HowToBasic.html',1,'Examples'],['../PythonCodeExamples.html',1,'Python Basic Examples']]],
   ['excludealledgeswithhistory_147',['excludeAllEdgesWithHistory',['../namespaceMR.html#a01f19fead4c6c2ee2498d12d276b6740',1,'MR']]],
   ['excludeloneedges_148',['excludeLoneEdges',['../classMR_1_1MeshTopology.html#addcf4c5e6460cd0ef1247b87c0a080a5',1,'MR::MeshTopology']]],
   ['excludeloneedgeswithhistory_149',['excludeLoneEdgesWithHistory',['../namespaceMR.html#af7f57e0dbd18617d893d00b618f9cb07',1,'MR']]],

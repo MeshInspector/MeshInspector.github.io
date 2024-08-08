@@ -1,5 +1,8 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1EdgePathsBuilderT.html#ad30700907c0223d6668cc9e5910765c3":[12,0,1,171,10],
+"classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc":[10,0,10,187,7],
+"classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc":[12,0,1,171,7],
 "classMR_1_1EmbeddedPython.html":[10,0,10,192],
 "classMR_1_1EmbeddedPython.html":[12,0,1,176],
 "classMR_1_1EnumNeihbourFaces.html":[10,0,10,194],
@@ -246,8 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1FramebufferData.html#ada1a819817c1dfa7f0a2793abb3b1ecc":[10,0,10,221,7],
 "classMR_1_1FramebufferData.html#ada1a819817c1dfa7f0a2793abb3b1ecc":[12,0,1,205,7],
 "classMR_1_1FramebufferData.html#add94b9fac7f1c8a7432205fe148aff5b":[10,0,10,221,2],
-"classMR_1_1FramebufferData.html#add94b9fac7f1c8a7432205fe148aff5b":[12,0,1,205,2],
-"classMR_1_1FramebufferData.html#afd64093c7c72fb36807eaf3b9baa59e2":[10,0,10,221,4],
-"classMR_1_1FramebufferData.html#afd64093c7c72fb36807eaf3b9baa59e2":[12,0,1,205,4],
-"classMR_1_1FreeFormBestFit.html":[10,0,10,224]
+"classMR_1_1FramebufferData.html#add94b9fac7f1c8a7432205fe148aff5b":[12,0,1,205,2]
 };

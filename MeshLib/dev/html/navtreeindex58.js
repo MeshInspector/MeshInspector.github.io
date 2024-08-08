@@ -1,5 +1,9 @@
 var NAVTREEINDEX58 =
 {
+"structMR_1_1Dipole.html#add9068963adfd3d355beb68aba48df2a":[10,0,10,169,0],
+"structMR_1_1Dipole.html#add9068963adfd3d355beb68aba48df2a":[12,0,1,153,0],
+"structMR_1_1Directory.html":[10,0,10,171],
+"structMR_1_1Directory.html":[12,0,1,155],
 "structMR_1_1Directory.html#a65306e29fafdd199b5c607289be0a79c":[10,0,10,171,0],
 "structMR_1_1Directory.html#a65306e29fafdd199b5c607289be0a79c":[12,0,1,155,0],
 "structMR_1_1Directory.html#aa0c34b86b17fa7255361f1bb764e006d":[10,0,10,171,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1EmbeddedStructureParameters.html#aae10852bdbbce2035519d95bceadd171":[12,0,1,177,2],
 "structMR_1_1EmbeddedStructureParameters.html#abaade64848830680e26108a772fd1350":[10,0,10,193,4],
 "structMR_1_1EmbeddedStructureParameters.html#abaade64848830680e26108a772fd1350":[12,0,1,177,4],
-"structMR_1_1FaceDistancesSettings.html":[10,0,10,196],
-"structMR_1_1FaceDistancesSettings.html":[12,0,1,180],
-"structMR_1_1FaceDistancesSettings.html#a2ea8f49066513ec8895aadabd2bc8bd6":[10,0,10,196,1],
-"structMR_1_1FaceDistancesSettings.html#a2ea8f49066513ec8895aadabd2bc8bd6":[12,0,1,180,1],
-"structMR_1_1FaceDistancesSettings.html#a712f07635ebe5270dd2a58473ca7a7cb":[10,0,10,196,2]
+"structMR_1_1FaceDistancesSettings.html":[10,0,10,196]
 };

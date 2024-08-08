@@ -1,5 +1,9 @@
 var NAVTREEINDEX57 =
 {
+"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#ac2d631a1f9c3262477e8f19fc818b39a":[10,0,10,132,0,1],
+"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#ac2d631a1f9c3262477e8f19fc818b39a":[12,0,1,116,0,1],
+"structMR_1_1ComputeSteepestDescentPathSettings.html":[9,18,3,0],
+"structMR_1_1ComputeSteepestDescentPathSettings.html#a133dd657607eb8f8e2745935031c0ed0":[9,18,3,0,1],
 "structMR_1_1ComputeSteepestDescentPathSettings.html#a9c5b63e96c36543a3af9203630d6325c":[9,18,3,0,0],
 "structMR_1_1ComputeSteepestDescentPathSettings.html#adb7629a9e4ce0c21efc00fd5f1b3932f":[9,18,3,0,2],
 "structMR_1_1Cone3ApproximationParams.html":[10,0,10,139],
@@ -245,9 +249,5 @@ var NAVTREEINDEX57 =
 "structMR_1_1Dipole.html#ad0067762da3b2fc1436b75cd4bc8b7e2":[10,0,10,169,2],
 "structMR_1_1Dipole.html#ad0067762da3b2fc1436b75cd4bc8b7e2":[12,0,1,153,2],
 "structMR_1_1Dipole.html#adc4afd95d89a8bd846420e141d293799":[10,0,10,169,4],
-"structMR_1_1Dipole.html#adc4afd95d89a8bd846420e141d293799":[12,0,1,153,4],
-"structMR_1_1Dipole.html#add9068963adfd3d355beb68aba48df2a":[10,0,10,169,0],
-"structMR_1_1Dipole.html#add9068963adfd3d355beb68aba48df2a":[12,0,1,153,0],
-"structMR_1_1Directory.html":[10,0,10,171],
-"structMR_1_1Directory.html":[12,0,1,155]
+"structMR_1_1Dipole.html#adc4afd95d89a8bd846420e141d293799":[12,0,1,153,4]
 };
