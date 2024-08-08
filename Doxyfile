@@ -989,6 +989,7 @@ FILE_PATTERNS          = *.h \
                          *.dox \
                          *.dox.cpp \
                          *.dox.c \
+                         *.dox.cs \
                          *.dox.py
 
 # The RECURSIVE tag can be used to specify whether or not subdirectories should
@@ -1102,7 +1103,8 @@ INPUT_FILTER           =
 
 FILTER_PATTERNS        = *.dox.py=preprocessors/python.sed \
                          *.dox.c=preprocessors/c.sed \
-                         *.dox.cpp=preprocessors/c.sed
+                         *.dox.cpp=preprocessors/c.sed \
+                         *.dox.cs=preprocessors/c.sed
 
 # If the FILTER_SOURCE_FILES tag is set to YES, the input filter (if set using
 # INPUT_FILTER) will also be used to filter the input files that are used for
