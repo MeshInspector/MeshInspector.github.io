@@ -1,9 +1,9 @@
 var MRImageLoad_8h =
 [
-    [ "fromAnySupportedFormat", "MRImageLoad_8h.html#gac3c2194804f8fe588694a0ef5dfdeb6c", null ],
-    [ "fromJpeg", "MRImageLoad_8h.html#ga60a803532ca226495e89e13eda74025f", null ],
-    [ "fromJpeg", "MRImageLoad_8h.html#ga492b523ff37be1abab9eca2f118f6ed9", null ],
-    [ "fromPng", "MRImageLoad_8h.html#ga2e7af9e607d61dfeab32f826649518e0", null ],
-    [ "fromPng", "MRImageLoad_8h.html#ga593896a3103c55deae5faee0dcb3296b", null ],
+    [ "fromAnySupportedFormat", "MRImageLoad_8h.html#gad0427ed61cb0d0f0200d126cac01cc2b", null ],
+    [ "fromJpeg", "MRImageLoad_8h.html#gacaea518796bddb10de55e194d93b6522", null ],
+    [ "fromJpeg", "MRImageLoad_8h.html#gaf9ae713e4ed078dfc575629a28a76264", null ],
+    [ "fromPng", "MRImageLoad_8h.html#ga3d766540761cfcd9d841b3f680730720", null ],
+    [ "fromPng", "MRImageLoad_8h.html#gaa009f1ac231648d4983bfd4fb1ed2cb6", null ],
     [ "Filters", "MRImageLoad_8h.html#ga02fd47913c6a30d0d5f94010e11624af", null ]
 ];

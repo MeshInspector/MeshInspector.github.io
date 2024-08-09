@@ -285,9 +285,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9168ca386aa3a34b0c1b79ddd7f4faa3" id="r_a9168ca386aa3a34b0c1b79ddd7f4faa3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9168ca386aa3a34b0c1b79ddd7f4faa3">sumAngles</a> (<a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> v, bool *outBoundaryVert=nullptr) const</td></tr>
 <tr class="memdesc:a9168ca386aa3a34b0c1b79ddd7f4faa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the sum of triangle angles at given vertex; optionally returns whether the vertex is on boundary  <br /></td></tr>
 <tr class="separator:a9168ca386aa3a34b0c1b79ddd7f4faa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d607521da9f2c6796e0730faad3f985" id="r_a3d607521da9f2c6796e0730faad3f985"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d607521da9f2c6796e0730faad3f985">findSpikeVertices</a> (float minSumAngle, const <a class="el" href="namespaceMR.html#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a> *region=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={}) const</td></tr>
-<tr class="memdesc:a3d607521da9f2c6796e0730faad3f985"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns vertices where the sum of triangle angles is below given threshold  <br /></td></tr>
-<tr class="separator:a3d607521da9f2c6796e0730faad3f985"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63974f1e9e91aec82c60fc776f51ea7b" id="r_a63974f1e9e91aec82c60fc776f51ea7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63974f1e9e91aec82c60fc776f51ea7b">findSpikeVertices</a> (float minSumAngle, const <a class="el" href="namespaceMR.html#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a> *region=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={}) const</td></tr>
+<tr class="memdesc:a63974f1e9e91aec82c60fc776f51ea7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns vertices where the sum of triangle angles is below given threshold  <br /></td></tr>
+<tr class="separator:a63974f1e9e91aec82c60fc776f51ea7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08a599e9255943ae4fab5935502d2f21" id="r_a08a599e9255943ae4fab5935502d2f21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08a599e9255943ae4fab5935502d2f21">dihedralAngleSin</a> (<a class="el" href="namespaceMR.html#a4ac2de084bb34a0af2df8bc73742b2b1">UndirectedEdgeId</a> e) const</td></tr>
 <tr class="separator:a08a599e9255943ae4fab5935502d2f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbc9fe4f12054a0171667825056fe457" id="r_afbc9fe4f12054a0171667825056fe457"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbc9fe4f12054a0171667825056fe457">dihedralAngleCos</a> (<a class="el" href="namespaceMR.html#a4ac2de084bb34a0af2df8bc73742b2b1">UndirectedEdgeId</a> e) const</td></tr>
@@ -1719,8 +1719,8 @@ template&lt;typename I &gt; </div>
 
 </div>
 </div>
-<a id="a3d607521da9f2c6796e0730faad3f985" name="a3d607521da9f2c6796e0730faad3f985"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d607521da9f2c6796e0730faad3f985">&#9670;&#160;</a></span>findSpikeVertices()</h2>
+<a id="a63974f1e9e91aec82c60fc776f51ea7b" name="a63974f1e9e91aec82c60fc776f51ea7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63974f1e9e91aec82c60fc776f51ea7b">&#9670;&#160;</a></span>findSpikeVertices()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1729,7 +1729,7 @@ template&lt;typename I &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a>, std::string &gt; MR::Mesh::findSpikeVertices </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a> &gt; MR::Mesh::findSpikeVertices </td>
           <td>(</td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minSumAngle</em></span>, </td>
         </tr>

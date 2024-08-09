@@ -1,6 +1,6 @@
 var MRVoxelsConversionsByParts_8h =
 [
-    [ "VolumePartBuilder", "MRVoxelsConversionsByParts_8h.html#a7bf54937a8182a75f0fbee6486c3c18b", null ],
+    [ "VolumePartBuilder", "MRVoxelsConversionsByParts_8h.html#ae2ab4a032a665ccb4ca24d60577679ef", null ],
     [ "mergeVolumePart", "MRVoxelsConversionsByParts_8h.html#ae89954146fbd39699570a0d5c8a579dd", null ],
-    [ "volumeToMeshByParts", "MRVoxelsConversionsByParts_8h.html#a99a16cfa659dd2d8c524a2f0077269ef", null ]
+    [ "volumeToMeshByParts", "MRVoxelsConversionsByParts_8h.html#ae7cf10a1862176d00de13d2fa27371b9", null ]
 ];

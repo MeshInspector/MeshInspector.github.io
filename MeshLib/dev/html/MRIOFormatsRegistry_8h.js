@@ -2,8 +2,8 @@ var MRIOFormatsRegistry_8h =
 [
     [ "MR_ADD_MESH_LOADER", "group__IOFormatsRegistryGroup.html#ga5ee8e917fb46e839dd5ff1a5cb49fdeb", null ],
     [ "AsyncObjectLoader", "MRIOFormatsRegistry_8h.html#a647fe93a8eceddaa8e80c8e28af130af", null ],
-    [ "MeshLoader", "MRIOFormatsRegistry_8h.html#gac40936073161beadfd7b6d585393bf4e", null ],
-    [ "MeshStreamLoader", "MRIOFormatsRegistry_8h.html#gad1439f8b8639bee7f95f3e0771bbee11", null ],
+    [ "MeshLoader", "MRIOFormatsRegistry_8h.html#ga03f77292130d4e6ef6ef32d981ab5fea", null ],
+    [ "MeshStreamLoader", "MRIOFormatsRegistry_8h.html#ga485ea6956850ab0f801b945739a8a9d3", null ],
     [ "ObjectLoader", "MRIOFormatsRegistry_8h.html#a6e395df76667e65feb47ca27d6130b3c", null ],
     [ "ObjectPtr", "MRIOFormatsRegistry_8h.html#a9dc1331c485c74f9cb1a85cdd31ae071", null ],
     [ "PostLoadCallback", "MRIOFormatsRegistry_8h.html#abfe756d68eeb3e7fadcfd946d864db91", null ],
