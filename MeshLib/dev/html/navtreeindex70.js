@@ -1,5 +1,17 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa8eb89f8f0a195b58b0d8da7d499cc55a":[9,7,2,0,18],
+"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa9a1cde7d2aa80a2631f4925686757e53":[9,7,2,0,10],
+"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa9acc3cb3e4646fab501e1b4cac8e867f":[9,7,2,0,13],
+"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa9f119aa11d1fc9a1e5ed2047fbe7da9c":[9,7,2,0,2],
+"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aab77a9984caf569880644435a85b17f0b":[9,7,2,0,11],
+"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aac0df0200072fe04b4bdc85cc051c800f":[9,7,2,0,14],
+"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aad2861ea5be4d6def67d2bf7855296343":[9,7,2,0,9],
+"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aaf0e894d9fdff84113b5dd6c028335cce":[9,7,2,0,15],
+"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aaf7bd459ca67b79ebf307b377bf7a4f55":[9,7,2,0,16],
+"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aafa0d84b28915f0828c10e5f1abfcf1ac":[9,7,2,0,22],
+"structMR_1_1SceneLoad_1_1SceneLoadResult.html":[10,0,10,32,0],
+"structMR_1_1SceneLoad_1_1SceneLoadResult.html":[12,0,1,17,0],
 "structMR_1_1SceneLoad_1_1SceneLoadResult.html#a153339b0418a9f66dcd46058e4f30dc8":[10,0,10,32,0,0],
 "structMR_1_1SceneLoad_1_1SceneLoadResult.html#a153339b0418a9f66dcd46058e4f30dc8":[12,0,1,17,0,0],
 "structMR_1_1SceneLoad_1_1SceneLoadResult.html#a43615b4c697c70edde4f7fc5fab75a2a":[10,0,10,32,0,3],
@@ -237,17 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1SpacingSettings.html#ad568a8496f9ca1e1732124e9fa159cd5":[12,0,1,571,3],
 "structMR_1_1Sphere.html":[9,0,22],
 "structMR_1_1Sphere.html#a0146c86fafdf02efca98966d2ff841ef":[9,0,22,1],
-"structMR_1_1Sphere.html#a0254f6c6d3b7fbc30e5cb028767d85cf":[9,0,22,7],
-"structMR_1_1Sphere.html#a3bcdf3d7bbfda09b3708d12b755ac6f0":[9,0,22,4],
-"structMR_1_1Sphere.html#a7be349cb025864bef77e267cefdccd28":[9,0,22,6],
-"structMR_1_1Sphere.html#aa64bd93352d925774a4989e5230624e7":[9,0,22,3],
-"structMR_1_1Sphere.html#ab3dcbfdadbd1e9018e22a979ea25c6f9":[9,0,22,0],
-"structMR_1_1Sphere.html#ac6fe7dcb9fbe192141cde72e7f9a3551":[9,0,22,5],
-"structMR_1_1Sphere.html#ac761a3c59ab76b111bb301d71558d5a7":[9,0,22,8],
-"structMR_1_1Sphere.html#ac91793706fe6273028dbecc98e540b1b":[9,0,22,9],
-"structMR_1_1Sphere.html#add65b61b54645bbb73e26a98f44d9c12":[9,0,22,2],
-"structMR_1_1SphereParams.html":[10,0,10,590],
-"structMR_1_1SphereParams.html":[12,0,1,574],
-"structMR_1_1SphereParams.html#a6e99b625718037bc438cd04e6865ac95":[10,0,10,590,0],
-"structMR_1_1SphereParams.html#a6e99b625718037bc438cd04e6865ac95":[12,0,1,574,0]
+"structMR_1_1Sphere.html#a0254f6c6d3b7fbc30e5cb028767d85cf":[9,0,22,7]
 };

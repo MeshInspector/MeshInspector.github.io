@@ -1,5 +1,11 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1Cuda_1_1FastWindingNumber.html#a03fd25b5742ad8c32943a8127288080e":[9,1,0,4],
+"classMR_1_1Cuda_1_1FastWindingNumber.html#a10e38a535b9aff32b6f5c639491dccb2":[9,1,0,2],
+"classMR_1_1Cuda_1_1FastWindingNumber.html#a35e0cc2dc56bc04f17a91c42a4b3b418":[9,1,0,3],
+"classMR_1_1Cuda_1_1FastWindingNumber.html#a86d3189a5d71a05df142f08397fef76e":[9,1,0,1],
+"classMR_1_1Cuda_1_1FastWindingNumber.html#afed4d0df31eef8da93ca2d843c3a8a63":[9,1,0,0],
+"classMR_1_1Cuda_1_1PointsToMeshProjector.html":[10,0,10,2,1],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html":[12,0,1,0,1],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html#a99aca3ed828aefb4cfcdc46b8b76a4bf":[10,0,10,2,1,2],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html#a99aca3ed828aefb4cfcdc46b8b76a4bf":[12,0,1,0,1,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1EdgePathsBuilderT.html#a6121aae22b66ff8e123f4f1d2d21528d":[12,0,1,171,5],
 "classMR_1_1EdgePathsBuilderT.html#a7567736873ea92c6a2359d13bdf9ff52":[10,0,10,187,2],
 "classMR_1_1EdgePathsBuilderT.html#a7567736873ea92c6a2359d13bdf9ff52":[12,0,1,171,2],
-"classMR_1_1EdgePathsBuilderT.html#a951e1aef2547463398bfb912b6224dbf":[10,0,10,187,11],
-"classMR_1_1EdgePathsBuilderT.html#a951e1aef2547463398bfb912b6224dbf":[12,0,1,171,11],
-"classMR_1_1EdgePathsBuilderT.html#aa58748ee3e1ceb34e2ff8b8d2ab58d6b":[10,0,10,187,1],
-"classMR_1_1EdgePathsBuilderT.html#aa58748ee3e1ceb34e2ff8b8d2ab58d6b":[12,0,1,171,1],
-"classMR_1_1EdgePathsBuilderT.html#aa5a3f3206ed7ec78c89eef5860137181":[10,0,10,187,6],
-"classMR_1_1EdgePathsBuilderT.html#aa5a3f3206ed7ec78c89eef5860137181":[12,0,1,171,6],
-"classMR_1_1EdgePathsBuilderT.html#ad30700907c0223d6668cc9e5910765c3":[10,0,10,187,10]
+"classMR_1_1EdgePathsBuilderT.html#a951e1aef2547463398bfb912b6224dbf":[10,0,10,187,11]
 };

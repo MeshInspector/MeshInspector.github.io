@@ -275,6 +275,21 @@ Functions</h2></td></tr>
 <tr class="separator:afbf63021d04e94c878b093fd86fef43f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a321f93b24c9b7d723ce8aec45fe75374" id="r_a321f93b24c9b7d723ce8aec45fe75374"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a321f93b24c9b7d723ce8aec45fe75374">endTabItem</a> ()</td></tr>
 <tr class="separator:a321f93b24c9b7d723ce8aec45fe75374"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afadef8b878371dc0bc9aa07df5dec003" id="r_afadef8b878371dc0bc9aa07df5dec003"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afadef8b878371dc0bc9aa07df5dec003">alignTextToFramePadding</a> (float padding)</td></tr>
+<tr class="separator:afadef8b878371dc0bc9aa07df5dec003"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66dc61c68cc74e41c52ec9552380924e" id="r_a66dc61c68cc74e41c52ec9552380924e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66dc61c68cc74e41c52ec9552380924e">alignTextToControl</a> (float controlHeight)</td></tr>
+<tr class="separator:a66dc61c68cc74e41c52ec9552380924e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dcca7e7ac30d2cfb193d8b8961fed3f" id="r_a0dcca7e7ac30d2cfb193d8b8961fed3f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dcca7e7ac30d2cfb193d8b8961fed3f">alignTextToRadioButton</a> (float scaling)</td></tr>
+<tr class="memdesc:a0dcca7e7ac30d2cfb193d8b8961fed3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specialization of <a class="el" href="#afadef8b878371dc0bc9aa07df5dec003">alignTextToFramePadding</a> for <a class="el" href="#a8475dd1f1a29f5bb0edc0fcd7c53d115">UI::radioButton</a>.  <br /></td></tr>
+<tr class="separator:a0dcca7e7ac30d2cfb193d8b8961fed3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a624bcecd8d08c2dc6fd574cd643c4b1a" id="r_a624bcecd8d08c2dc6fd574cd643c4b1a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a624bcecd8d08c2dc6fd574cd643c4b1a">alignTextToCheckBox</a> (float scaling)</td></tr>
+<tr class="memdesc:a624bcecd8d08c2dc6fd574cd643c4b1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specialization of <a class="el" href="#afadef8b878371dc0bc9aa07df5dec003">alignTextToFramePadding</a> for <a class="el" href="#a53a8b0ecd1302a3bda2f1df01ef818a8">UI::checkbox</a>.  <br /></td></tr>
+<tr class="separator:a624bcecd8d08c2dc6fd574cd643c4b1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a605669bcd9083165a2323a01d16b62ac" id="r_a605669bcd9083165a2323a01d16b62ac"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a605669bcd9083165a2323a01d16b62ac">alignTextToButton</a> (float scaling)</td></tr>
+<tr class="memdesc:a605669bcd9083165a2323a01d16b62ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specialization of <a class="el" href="#afadef8b878371dc0bc9aa07df5dec003">alignTextToFramePadding</a> for <a class="el" href="#ae14306471133180f84a3a02650ced599">UI::button</a> with default height.  <br /></td></tr>
+<tr class="separator:a605669bcd9083165a2323a01d16b62ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40821cba3a3f573b1db96b53b039facd" id="r_a40821cba3a3f573b1db96b53b039facd"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40821cba3a3f573b1db96b53b039facd">highlightWindowBottom</a> (float scaling)</td></tr>
+<tr class="separator:a40821cba3a3f573b1db96b53b039facd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -313,6 +328,99 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a605669bcd9083165a2323a01d16b62ac" name="a605669bcd9083165a2323a01d16b62ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a605669bcd9083165a2323a01d16b62ac">&#9670;&#160;</a></span>alignTextToButton()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::UI::alignTextToButton </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>scaling</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Specialization of <a class="el" href="#afadef8b878371dc0bc9aa07df5dec003">alignTextToFramePadding</a> for <a class="el" href="#ae14306471133180f84a3a02650ced599">UI::button</a> with default height. </p>
+
+</div>
+</div>
+<a id="a624bcecd8d08c2dc6fd574cd643c4b1a" name="a624bcecd8d08c2dc6fd574cd643c4b1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a624bcecd8d08c2dc6fd574cd643c4b1a">&#9670;&#160;</a></span>alignTextToCheckBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::UI::alignTextToCheckBox </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>scaling</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Specialization of <a class="el" href="#afadef8b878371dc0bc9aa07df5dec003">alignTextToFramePadding</a> for <a class="el" href="#a53a8b0ecd1302a3bda2f1df01ef818a8">UI::checkbox</a>. </p>
+
+</div>
+</div>
+<a id="a66dc61c68cc74e41c52ec9552380924e" name="a66dc61c68cc74e41c52ec9552380924e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66dc61c68cc74e41c52ec9552380924e">&#9670;&#160;</a></span>alignTextToControl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::UI::alignTextToControl </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>controlHeight</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the vertical text position to match the text of a specific control on the same line Same as <a class="el" href="#afadef8b878371dc0bc9aa07df5dec003">alignTextToFramePadding</a>, but takes the full control height Can be used, for example, for <a class="el" href="#ae14306471133180f84a3a02650ced599">UI::button</a> with nondefault height </p>
+
+</div>
+</div>
+<a id="afadef8b878371dc0bc9aa07df5dec003" name="afadef8b878371dc0bc9aa07df5dec003"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afadef8b878371dc0bc9aa07df5dec003">&#9670;&#160;</a></span>alignTextToFramePadding()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::UI::alignTextToFramePadding </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>padding</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the vertical text position to match the text of a specific control on the same line The control is assumed to contain standard one-line text with equal padding from top and bottom edges The padding is control-specific Sample usage: <a class="el" href="#afadef8b878371dc0bc9aa07df5dec003">UI::alignTextToFramePadding</a>( ImGui::GetStyle().FramePadding.y ); // (with this value, it is equivalent to ImGui::AlignTextToFramePadding() ) ImGui::Text( "Button:" ); ImGui::SameLine(); <a class="el" href="#affdd9ce8585853bc545f4f60bda2611f">UI::buttonCommonSize</a>( "Button" ); // the control we align to </p>
+
+</div>
+</div>
+<a id="a0dcca7e7ac30d2cfb193d8b8961fed3f" name="a0dcca7e7ac30d2cfb193d8b8961fed3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dcca7e7ac30d2cfb193d8b8961fed3f">&#9670;&#160;</a></span>alignTextToRadioButton()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::UI::alignTextToRadioButton </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>scaling</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Specialization of <a class="el" href="#afadef8b878371dc0bc9aa07df5dec003">alignTextToFramePadding</a> for <a class="el" href="#a8475dd1f1a29f5bb0edc0fcd7c53d115">UI::radioButton</a>. </p>
+
+</div>
+</div>
 <a id="a72b7457df4d4b5353fc89751ef8d9501" name="a72b7457df4d4b5353fc89751ef8d9501"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a72b7457df4d4b5353fc89751ef8d9501">&#9670;&#160;</a></span>beginCombo()</h2>
 
@@ -1141,6 +1249,24 @@ template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidDragSpeedForTarge
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a40821cba3a3f573b1db96b53b039facd" name="a40821cba3a3f573b1db96b53b039facd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40821cba3a3f573b1db96b53b039facd">&#9670;&#160;</a></span>highlightWindowBottom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::UI::highlightWindowBottom </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>scaling</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Highlight the background of current window's bottom part, starting from current position Some padding is added </p>
 
 </div>
 </div>

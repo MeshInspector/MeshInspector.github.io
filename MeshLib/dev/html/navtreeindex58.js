@@ -1,5 +1,17 @@
 var NAVTREEINDEX58 =
 {
+"structMR_1_1DetectTunnelSettings.html#abce133e9001f28cbce044fc8c1206ace":[9,18,4,0,1],
+"structMR_1_1DetectTunnelSettings.html#ae823ab96c2d11f1cccba5d61003a1202":[9,18,4,0,3],
+"structMR_1_1Dipole.html":[10,0,10,169],
+"structMR_1_1Dipole.html":[12,0,1,153],
+"structMR_1_1Dipole.html#a6f0f0aa2ff129feb03307a23999132ac":[10,0,10,169,1],
+"structMR_1_1Dipole.html#a6f0f0aa2ff129feb03307a23999132ac":[12,0,1,153,1],
+"structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584":[10,0,10,169,6],
+"structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584":[12,0,1,153,6],
+"structMR_1_1Dipole.html#a804c3991b7713194228966805194c66a":[10,0,10,169,5],
+"structMR_1_1Dipole.html#a804c3991b7713194228966805194c66a":[12,0,1,153,5],
+"structMR_1_1Dipole.html#aae5226baaa9fd2fef60b3940f4d0951f":[10,0,10,169,3],
+"structMR_1_1Dipole.html#aae5226baaa9fd2fef60b3940f4d0951f":[12,0,1,153,3],
 "structMR_1_1Dipole.html#ad0067762da3b2fc1436b75cd4bc8b7e2":[10,0,10,169,2],
 "structMR_1_1Dipole.html#ad0067762da3b2fc1436b75cd4bc8b7e2":[12,0,1,153,2],
 "structMR_1_1Dipole.html#adc4afd95d89a8bd846420e141d293799":[10,0,10,169,4],
@@ -237,17 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1EdgeTri.html#a75d3cbfc185bb135fa0ecacfa0eea64e":[9,1,16,2],
 "structMR_1_1EdgeTri.html#abc6f03d4ca7344789c80a99a10605739":[9,1,16,0],
 "structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318":[9,1,16,3],
-"structMR_1_1EmbeddedStructureParameters.html":[10,0,10,193],
-"structMR_1_1EmbeddedStructureParameters.html":[12,0,1,177],
-"structMR_1_1EmbeddedStructureParameters.html#a05c78c11ae3e84bc6ecb2f3ea9baf462":[10,0,10,193,0],
-"structMR_1_1EmbeddedStructureParameters.html#a05c78c11ae3e84bc6ecb2f3ea9baf462":[12,0,1,177,0],
-"structMR_1_1EmbeddedStructureParameters.html#a0ecc70b065da6f40026b7325da4135f4":[10,0,10,193,5],
-"structMR_1_1EmbeddedStructureParameters.html#a0ecc70b065da6f40026b7325da4135f4":[12,0,1,177,5],
-"structMR_1_1EmbeddedStructureParameters.html#a4c436c958ad19cd19e927c74c26329f5":[10,0,10,193,3],
-"structMR_1_1EmbeddedStructureParameters.html#a4c436c958ad19cd19e927c74c26329f5":[12,0,1,177,3],
-"structMR_1_1EmbeddedStructureParameters.html#aa4c80584b3d08189de287de06a281f18":[10,0,10,193,6],
-"structMR_1_1EmbeddedStructureParameters.html#aa4c80584b3d08189de287de06a281f18":[12,0,1,177,6],
-"structMR_1_1EmbeddedStructureParameters.html#aa7558ae5f2adc54f37b0610cb406b7a3":[10,0,10,193,1],
-"structMR_1_1EmbeddedStructureParameters.html#aa7558ae5f2adc54f37b0610cb406b7a3":[12,0,1,177,1],
-"structMR_1_1EmbeddedStructureParameters.html#aae10852bdbbce2035519d95bceadd171":[10,0,10,193,2]
+"structMR_1_1EmbeddedStructureParameters.html":[10,0,10,193]
 };

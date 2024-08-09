@@ -1,5 +1,17 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1PdfParameters.html#a563834d6cb166576ad536d6b51e837af":[12,0,1,399,1],
+"structMR_1_1PdfParameters.html#aa20cd9b99862a1dd46e520ee19373456":[10,0,10,415,0],
+"structMR_1_1PdfParameters.html#aa20cd9b99862a1dd46e520ee19373456":[12,0,1,399,0],
+"structMR_1_1PdfParameters.html#af482d34d3b5113d24430a4d32cb23d43":[10,0,10,415,2],
+"structMR_1_1PdfParameters.html#af482d34d3b5113d24430a4d32cb23d43":[12,0,1,399,2],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html":[10,0,10,24,0],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html":[12,0,1,11,0],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a1ba150196ca38c47b298c26615eab80e":[10,0,10,24,0,1],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a1ba150196ca38c47b298c26615eab80e":[12,0,1,11,0,1],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a2fa82e2dbbf17f35ba932bcd731f08c6":[10,0,10,24,0,2],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a2fa82e2dbbf17f35ba932bcd731f08c6":[12,0,1,11,0,2],
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a317063d55c098c2ef928c24f84e7d072":[10,0,10,24,0,4],
 "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a317063d55c098c2ef928c24f84e7d072":[12,0,1,11,0,4],
 "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a3ed890ec3241e636e8fd100f7ed41f04":[10,0,10,24,0,0],
 "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a3ed890ec3241e636e8fd100f7ed41f04":[12,0,1,11,0,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1PolylineProjectionResult.html#a575d694a03d4903a8b460aeba47cfe1c":[9,1,28,1],
 "structMR_1_1PolylineProjectionResult.html#a81f4cd1607e7835a737edcf9011740d8":[9,1,28,0],
 "structMR_1_1PolylineProjectionResult.html#a954df3a650cf8eeea5e253acae8126bd":[9,1,28,2],
-"structMR_1_1PolylineProjectionWithOffsetResult.html":[9,1,29],
-"structMR_1_1PolylineProjectionWithOffsetResult.html#a11d0a9e4090b200e7152c1d2000db9c3":[9,1,29,1],
-"structMR_1_1PolylineProjectionWithOffsetResult.html#ac03c6975d60108034bbd6964a751d08d":[9,1,29,2],
-"structMR_1_1PolylineProjectionWithOffsetResult.html#af9b6fe85013195dcada09f829b2c552d":[9,1,29,0],
-"structMR_1_1PolylineSubdivideSettings.html":[9,17,0],
-"structMR_1_1PolylineSubdivideSettings.html#a41c3020ba21d66919d363b5e261b2666":[9,17,0,2],
-"structMR_1_1PolylineSubdivideSettings.html#a508f0caa9ead99ba37cd6a62babca39f":[9,17,0,0],
-"structMR_1_1PolylineSubdivideSettings.html#a6fb7e5a3cc422db6b191956e2e931bff":[9,17,0,3],
-"structMR_1_1PolylineSubdivideSettings.html#a90d24e3763062fee365e69daf9f74b23":[9,17,0,6],
-"structMR_1_1PolylineSubdivideSettings.html#a99ce30c33108d826ab31a84dcfb796e9":[9,17,0,4],
-"structMR_1_1PolylineSubdivideSettings.html#abaf36082a394e79118a87b09054964e3":[9,17,0,7],
-"structMR_1_1PolylineSubdivideSettings.html#afd1b05e15df328d6581de39d05ef0ba2":[9,17,0,5],
-"structMR_1_1PolylineSubdivideSettings.html#afd93804f4deac58fb3c9851426d2d9a3":[9,17,0,1]
+"structMR_1_1PolylineProjectionWithOffsetResult.html":[9,1,29]
 };

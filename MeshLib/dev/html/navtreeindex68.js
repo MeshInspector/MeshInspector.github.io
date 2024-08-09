@@ -1,5 +1,17 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1PolylineProjectionWithOffsetResult.html#a11d0a9e4090b200e7152c1d2000db9c3":[9,1,29,1],
+"structMR_1_1PolylineProjectionWithOffsetResult.html#ac03c6975d60108034bbd6964a751d08d":[9,1,29,2],
+"structMR_1_1PolylineProjectionWithOffsetResult.html#af9b6fe85013195dcada09f829b2c552d":[9,1,29,0],
+"structMR_1_1PolylineSubdivideSettings.html":[9,17,0],
+"structMR_1_1PolylineSubdivideSettings.html#a41c3020ba21d66919d363b5e261b2666":[9,17,0,2],
+"structMR_1_1PolylineSubdivideSettings.html#a508f0caa9ead99ba37cd6a62babca39f":[9,17,0,0],
+"structMR_1_1PolylineSubdivideSettings.html#a6fb7e5a3cc422db6b191956e2e931bff":[9,17,0,3],
+"structMR_1_1PolylineSubdivideSettings.html#a90d24e3763062fee365e69daf9f74b23":[9,17,0,6],
+"structMR_1_1PolylineSubdivideSettings.html#a99ce30c33108d826ab31a84dcfb796e9":[9,17,0,4],
+"structMR_1_1PolylineSubdivideSettings.html#abaf36082a394e79118a87b09054964e3":[9,17,0,7],
+"structMR_1_1PolylineSubdivideSettings.html#afd1b05e15df328d6581de39d05ef0ba2":[9,17,0,5],
+"structMR_1_1PolylineSubdivideSettings.html#afd93804f4deac58fb3c9851426d2d9a3":[9,17,0,1],
 "structMR_1_1PolylineTraits.html":[9,1,7],
 "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html":[9,1,8],
 "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d":[9,1,8,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1RemeshSettings.html":[10,0,10,488],
 "structMR_1_1RemeshSettings.html":[12,0,1,472],
 "structMR_1_1RemeshSettings.html#a193b9ba70e3770ddb3e240625ebb00f9":[10,0,10,488,1],
-"structMR_1_1RemeshSettings.html#a193b9ba70e3770ddb3e240625ebb00f9":[12,0,1,472,1],
-"structMR_1_1RemeshSettings.html#a22c46bdff64005e21bccd666e13e7f01":[10,0,10,488,6],
-"structMR_1_1RemeshSettings.html#a22c46bdff64005e21bccd666e13e7f01":[12,0,1,472,6],
-"structMR_1_1RemeshSettings.html#a2302742bd2200fd6a5f9e078015705c1":[10,0,10,488,7],
-"structMR_1_1RemeshSettings.html#a2302742bd2200fd6a5f9e078015705c1":[12,0,1,472,7],
-"structMR_1_1RemeshSettings.html#a4742691117b65ee01c742f25180e17a7":[10,0,10,488,13],
-"structMR_1_1RemeshSettings.html#a4742691117b65ee01c742f25180e17a7":[12,0,1,472,13],
-"structMR_1_1RemeshSettings.html#a535de126a9bef655d8a832a7bba54e46":[10,0,10,488,4],
-"structMR_1_1RemeshSettings.html#a535de126a9bef655d8a832a7bba54e46":[12,0,1,472,4],
-"structMR_1_1RemeshSettings.html#a58fc77c6b836083eab39f95b271080e8":[10,0,10,488,14],
-"structMR_1_1RemeshSettings.html#a58fc77c6b836083eab39f95b271080e8":[12,0,1,472,14],
-"structMR_1_1RemeshSettings.html#a6a29eef43f96e620bbdc1a55778d04b4":[10,0,10,488,11],
-"structMR_1_1RemeshSettings.html#a6a29eef43f96e620bbdc1a55778d04b4":[12,0,1,472,11]
+"structMR_1_1RemeshSettings.html#a193b9ba70e3770ddb3e240625ebb00f9":[12,0,1,472,1]
 };

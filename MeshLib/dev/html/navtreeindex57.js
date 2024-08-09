@@ -1,5 +1,17 @@
 var NAVTREEINDEX57 =
 {
+"structMR_1_1Color.html#aaf2db44de4c5f5acbf14a93864096197":[10,0,10,131,2],
+"structMR_1_1Color.html#aaf2db44de4c5f5acbf14a93864096197":[12,0,1,115,2],
+"structMR_1_1Color.html#ab12a1e450b868138a87d0feb4f9e3d8b":[10,0,10,131,14],
+"structMR_1_1Color.html#ab12a1e450b868138a87d0feb4f9e3d8b":[12,0,1,115,14],
+"structMR_1_1Color.html#ad69a83b856320cef2a9d1f2ef968dbfd":[10,0,10,131,16],
+"structMR_1_1Color.html#ad69a83b856320cef2a9d1f2ef968dbfd":[12,0,1,115,16],
+"structMR_1_1Color.html#ade02ccd5f38dd6cf3dbadde1ab4a860f":[10,0,10,131,1],
+"structMR_1_1Color.html#ade02ccd5f38dd6cf3dbadde1ab4a860f":[12,0,1,115,1],
+"structMR_1_1Color.html#aeb10dfddd28274eab02133fe4bfb2f61":[10,0,10,131,5],
+"structMR_1_1Color.html#aeb10dfddd28274eab02133fe4bfb2f61":[12,0,1,115,5],
+"structMR_1_1Color.html#aec1e7daf3ecd5715157f118516cf17c7":[10,0,10,131,8],
+"structMR_1_1Color.html#aec1e7daf3ecd5715157f118516cf17c7":[12,0,1,115,8],
 "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html":[10,0,10,132,0],
 "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html":[12,0,1,116,0],
 "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#a755dfde7b86dcd1f2da851590cf7d308":[10,0,10,132,0,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX57 =
 "structMR_1_1DenseBox.html#aee07541d158133fc4c85e7170de4d3e7":[9,0,15,3],
 "structMR_1_1DetectTunnelSettings.html":[9,18,4,0],
 "structMR_1_1DetectTunnelSettings.html#a2529d1b4547bb2eed9bb781f0c131829":[9,18,4,0,2],
-"structMR_1_1DetectTunnelSettings.html#a27a0181891bd9064803eb7608e3f0e10":[9,18,4,0,0],
-"structMR_1_1DetectTunnelSettings.html#abce133e9001f28cbce044fc8c1206ace":[9,18,4,0,1],
-"structMR_1_1DetectTunnelSettings.html#ae823ab96c2d11f1cccba5d61003a1202":[9,18,4,0,3],
-"structMR_1_1Dipole.html":[10,0,10,169],
-"structMR_1_1Dipole.html":[12,0,1,153],
-"structMR_1_1Dipole.html#a6f0f0aa2ff129feb03307a23999132ac":[10,0,10,169,1],
-"structMR_1_1Dipole.html#a6f0f0aa2ff129feb03307a23999132ac":[12,0,1,153,1],
-"structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584":[10,0,10,169,6],
-"structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584":[12,0,1,153,6],
-"structMR_1_1Dipole.html#a804c3991b7713194228966805194c66a":[10,0,10,169,5],
-"structMR_1_1Dipole.html#a804c3991b7713194228966805194c66a":[12,0,1,153,5],
-"structMR_1_1Dipole.html#aae5226baaa9fd2fef60b3940f4d0951f":[10,0,10,169,3],
-"structMR_1_1Dipole.html#aae5226baaa9fd2fef60b3940f4d0951f":[12,0,1,153,3]
+"structMR_1_1DetectTunnelSettings.html#a27a0181891bd9064803eb7608e3f0e10":[9,18,4,0,0]
 };
