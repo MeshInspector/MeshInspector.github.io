@@ -208,27 +208,29 @@ $(function(){initNavTree('MRMouseController_8h_source.html',''); initResizable(t
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    MouseMode currentMode_{ MouseMode::None };</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="comment">// Variables related to mouseClick signal</span></div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <a class="code hl_enumeration" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> clickButton_{ MouseButton::NoButton }; <span class="comment">// Current candidate for mouseClick</span></div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keywordtype">int</span> clickModifiers_{}; <span class="comment">// Modifiers state at the moment of button press</span></div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <a class="code hl_typedef" href="namespaceMR.html#a200de30e6095463279bfb030e610864b">Time</a> clickTime_{}; <span class="comment">// Time point of button press</span></div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <a class="code hl_enumeration" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> clickButton_{ MouseButton::NoButton };  <span class="comment">// Current candidate for mouseClick</span></div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keywordtype">int</span> clickModifiers_{};                              <span class="comment">// Modifiers state at the moment of button press</span></div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <a class="code hl_typedef" href="namespaceMR.html#a200de30e6095463279bfb030e610864b">Time</a> clickTime_{};                                  <span class="comment">// Time point of button press</span></div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <a class="code hl_enumeration" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> clickPendingDown_{ MouseButton::NoButton }; <span class="comment">// Button for deterred camera operation</span></div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="keyword">using </span>MouseModeMap = HashMap&lt;int, MouseMode&gt;;</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    <span class="keyword">using </span>MouseModeBackMap = HashMap&lt;MouseMode, int&gt;;</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    MouseModeMap map_;</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    MouseModeBackMap backMap_;</div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="keywordtype">bool</span> scrollActive_{ <span class="keyword">true</span> };</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <a class="code hl_enumeration" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> dragButton_{ MouseButton::NoButton };   <span class="comment">// Current candidate for dragging</span></div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="keywordtype">bool</span> dragActive_{};                                 <span class="comment">// Dragging currently active</span></div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <span class="keyword">using </span>MouseModeMap = HashMap&lt;int, MouseMode&gt;;</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <span class="keyword">using </span>MouseModeBackMap = HashMap&lt;MouseMode, int&gt;;</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    MouseModeMap map_;</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    MouseModeBackMap backMap_;</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    std::function&lt;void( <a class="code hl_class" href="classAffineXf3f.html">AffineXf3f</a>&amp; )&gt; transformModifierCb_;</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    std::function&lt;void( <span class="keywordtype">float</span>&amp; )&gt; fovModifierCb_;</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    <span class="keywordtype">size_t</span> connectionsCounter_{}; <span class="comment">// for checkConflicts()</span></div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>};</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <span class="keywordtype">bool</span> scrollActive_{ <span class="keyword">true</span> };</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    std::function&lt;void( <a class="code hl_class" href="classAffineXf3f.html">AffineXf3f</a>&amp; )&gt; transformModifierCb_;</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    std::function&lt;void( <span class="keywordtype">float</span>&amp; )&gt; fovModifierCb_;</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> </div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <span class="keywordtype">size_t</span> connectionsCounter_{}; <span class="comment">// for checkConflicts()</span></div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>};</div>
 </div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>}</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>}</div>
 <div class="ttc" id="aMRAsyncTimer_8h_html"><div class="ttname"><a href="MRAsyncTimer_8h.html">MRAsyncTimer.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRBitSet_8h_html"><div class="ttname"><a href="MRMesh_2MRBitSet_8h.html">MRBitSet.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>

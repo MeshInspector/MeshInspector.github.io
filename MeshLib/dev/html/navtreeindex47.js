@@ -1,5 +1,17 @@
 var NAVTREEINDEX47 =
 {
+"group__SerializerGroup.html#ga73da1f89ff79644868f29b66a89aa3ef":[9,2,15,53],
+"group__SerializerGroup.html#ga790b6ef6dd31f1a82bf42d810c4c1f44":[9,2,15,25],
+"group__SerializerGroup.html#ga79617de343668de49d25a0ec996110e4":[9,2,15,48],
+"group__SerializerGroup.html#ga79f82dccdb83d2653639d4bc89f77507":[9,2,15,47],
+"group__SerializerGroup.html#ga810f72ff4bfd3f308bf159660074e79c":[9,2,15,34],
+"group__SerializerGroup.html#ga828f3a1487f57601504c8818f38d0f9e":[9,2,15,49],
+"group__SerializerGroup.html#ga844db290f408a9fa59211a2239689ada":[9,2,15,12],
+"group__SerializerGroup.html#ga84a27be875063a2ab0d174fa1f9e7771":[9,2,15,26],
+"group__SerializerGroup.html#ga88cac564b83aea9e1d7a37332fa81d50":[9,2,15,17],
+"group__SerializerGroup.html#ga890eacf2c6391cbf6dbb98c6bbb0fa28":[9,2,15,55],
+"group__SerializerGroup.html#ga8ba498d211b2a813befa63f55a7446cd":[9,2,15,9],
+"group__SerializerGroup.html#ga93370e8f0bb7db437558a96f16c32fbd":[9,2,15,3],
 "group__SerializerGroup.html#ga9f65600bd6b7fb223ab125f81c96ae25":[9,2,15,5],
 "group__SerializerGroup.html#gaa6c9fafbe5675e06061b897d2e92f138":[9,2,15,6],
 "group__SerializerGroup.html#gaa945fd69c2b9a828d6f34e7bc34b9df3":[9,2,15,21],
@@ -237,17 +249,5 @@ var NAVTREEINDEX47 =
 "index.html":[0],
 "index.html#HomePageBuildLin":[0,2],
 "index.html#HomePageBuildWasm":[0,3],
-"index.html#HomePageBuildWin":[0,1],
-"index.html#PythonIntegration":[0,4],
-"index.html#WhatAreMeshLib":[0,0],
-"namespaceImGui.html":[10,0,0],
-"namespaceImGui.html#a01e8908c9ff42e3510168251a97f1d48":[10,0,0,8],
-"namespaceImGui.html#a023d8107acf5b52a1594c2b935b824f0":[10,0,0,10],
-"namespaceImGui.html#a05c747c1c3e6b5e5f9435452360a521f":[10,0,0,17],
-"namespaceImGui.html#a1518948fa064c73b105776a73da476dc":[10,0,0,13],
-"namespaceImGui.html#a1fb7653d1377ce1f2dd7a8f9d1057615":[10,0,0,21],
-"namespaceImGui.html#a22263f205e7e3988ff6be4e152a963a6":[10,0,0,20],
-"namespaceImGui.html#a23ae6006298ef80c1e04a1ea1b49dabf":[10,0,0,7],
-"namespaceImGui.html#a265e606cad7268f09dacbeeb9b6be3d5":[10,0,0,4],
-"namespaceImGui.html#a265e606cad7268f09dacbeeb9b6be3d5a34b1ae6edf2999f3e5089ef71bd49dac":[10,0,0,4,1]
+"index.html#HomePageBuildWin":[0,1]
 };

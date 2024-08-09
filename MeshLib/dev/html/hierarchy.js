@@ -225,7 +225,7 @@ var hierarchy =
         ] ]
       ] ],
       [ "MR::MultiListener< Connectables... >", "structMR_1_1MultiListener.html", [
-        [ "MR::StateListenerPlugin< MouseDownListener, MouseMoveListener, MouseUpListener >", "classMR_1_1StateListenerPlugin.html", [
+        [ "MR::StateListenerPlugin< DragStartListener, DragListener, DragEndListener >", "classMR_1_1StateListenerPlugin.html", [
           [ "MR::MoveObjectByMouse", "classMR_1_1MoveObjectByMouse.html", null ]
         ] ],
         [ "MR::StateListenerPlugin< MouseDownListener, MouseUpListener, MouseMoveListener >", "classMR_1_1StateListenerPlugin.html", [
@@ -455,6 +455,9 @@ var hierarchy =
         [ "MR::CharPressedListener", "structMR_1_1CharPressedListener.html", null ],
         [ "MR::CursorEntranceListener", "structMR_1_1CursorEntranceListener.html", null ],
         [ "MR::DragDropListener", "structMR_1_1DragDropListener.html", null ],
+        [ "MR::DragEndListener", "structMR_1_1DragEndListener.html", null ],
+        [ "MR::DragListener", "structMR_1_1DragListener.html", null ],
+        [ "MR::DragStartListener", "structMR_1_1DragStartListener.html", null ],
         [ "MR::DrawListener", "structMR_1_1DrawListener.html", null ],
         [ "MR::InterruptCloseListener", "structMR_1_1InterruptCloseListener.html", null ],
         [ "MR::KeyDownListener", "structMR_1_1KeyDownListener.html", null ],
@@ -548,7 +551,7 @@ var hierarchy =
       [ "MR::PluginCloseOnSelectedObjectRemove", "classMR_1_1PluginCloseOnSelectedObjectRemove.html", null ],
       [ "MR::PluginUpdateOnChangeMeshPart", "classMR_1_1PluginUpdateOnChangeMeshPart.html", null ],
       [ "MR::StateBasePlugin", "classMR_1_1StateBasePlugin.html", [
-        [ "MR::StateListenerPlugin< MouseDownListener, MouseMoveListener, MouseUpListener >", "classMR_1_1StateListenerPlugin.html", null ],
+        [ "MR::StateListenerPlugin< DragStartListener, DragListener, DragEndListener >", "classMR_1_1StateListenerPlugin.html", null ],
         [ "MR::StateListenerPlugin< MouseDownListener, MouseUpListener, MouseMoveListener >", "classMR_1_1StateListenerPlugin.html", null ],
         [ "MR::StateListenerPlugin< Connectables >", "classMR_1_1StateListenerPlugin.html", null ]
       ] ]

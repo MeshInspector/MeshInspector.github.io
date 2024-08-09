@@ -358,7 +358,7 @@ Protected Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>These functions should be called from corresponding mouse handlers Return true if handled (picked/moved/released) It is recommended to call <code>viewer-&gt;select_hovered_viewport()</code> before <code>onMouseDown</code> The object is transformed temporarily in <code>onMouseMove</code> <code>onMouseUp</code> finalizes the transformation and writes to undo/redo history (unless cancelled) </p>
+<p>These functions should be called from corresponding mouse handlers Or mouse drag handlers, making it work together with mouseClick signal Return true if handled (picked/moved/released) It is recommended to call <code>viewer-&gt;select_hovered_viewport()</code> before <code>onMouseDown</code> The object is transformed temporarily in <code>onMouseMove</code> <code>onMouseUp</code> finalizes the transformation and writes to undo/redo history (unless cancelled) </p>
 
 </div>
 </div>

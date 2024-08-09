@@ -1,5 +1,17 @@
 var NAVTREEINDEX54 =
 {
+"namespaceMR_1_1UI.html#a2e82aeb6c8dcd97dab6e1f0e68d4fed4":[10,0,10,36,62],
+"namespaceMR_1_1UI.html#a3037df1b1014dd2f27c985c9dad78d79":[10,0,10,36,54],
+"namespaceMR_1_1UI.html#a31bf75f2c49957b473bd51d2aeb25ec8":[10,0,10,36,48],
+"namespaceMR_1_1UI.html#a321f93b24c9b7d723ce8aec45fe75374":[10,0,10,36,39],
+"namespaceMR_1_1UI.html#a336fa6393e7abeefe2f5d4e8f29d75a6":[10,0,10,36,22],
+"namespaceMR_1_1UI.html#a40821cba3a3f573b1db96b53b039facd":[10,0,10,36,42],
+"namespaceMR_1_1UI.html#a44947bf84615148fe9afb91d1895d231":[10,0,10,36,55],
+"namespaceMR_1_1UI.html#a53a8b0ecd1302a3bda2f1df01ef818a8":[10,0,10,36,26],
+"namespaceMR_1_1UI.html#a5caf1537f165f3557d3f718bfb47a032":[10,0,10,36,40],
+"namespaceMR_1_1UI.html#a5e2b43c7fc21e6665c27724211ffb039":[10,0,10,36,49],
+"namespaceMR_1_1UI.html#a605669bcd9083165a2323a01d16b62ac":[10,0,10,36,9],
+"namespaceMR_1_1UI.html#a624bcecd8d08c2dc6fd574cd643c4b1a":[10,0,10,36,10],
 "namespaceMR_1_1UI.html#a63e011139a97a30e31e34d070e0f0e11":[10,0,10,36,56],
 "namespaceMR_1_1UI.html#a66dc61c68cc74e41c52ec9552380924e":[10,0,10,36,11],
 "namespaceMR_1_1UI.html#a6960ed24f5176be45d3dae21bae38d42":[10,0,10,36,35],
@@ -237,17 +249,5 @@ var NAVTREEINDEX54 =
 "structMRBox3f.html#a2a39366e93eb8d6552da01c061b9c909":[12,0,18,0],
 "structMRBox3f.html#acfef258beb9f0c40476c1f93410fcc5f":[12,0,18,1],
 "structMRDecimateResult.html":[12,0,19],
-"structMRDecimateResult.html#a3b75dcba6fdc6c60935add7ed5ffad09":[12,0,19,3],
-"structMRDecimateResult.html#a3c065962d7b37882d764de946b664201":[12,0,19,1],
-"structMRDecimateResult.html#a55c9f57cd3723046a5c7113b5fb0da2b":[12,0,19,2],
-"structMRDecimateResult.html#aba3cacd7b3b56eb6f30232625328d026":[12,0,19,0],
-"structMRDecimateSettings.html":[12,0,20],
-"structMRDecimateSettings.html#a0ba243d3dc1eb29fedfedf12821f808b":[12,0,20,8],
-"structMRDecimateSettings.html#a1059a2ea3dd3750396c012134de9ad56":[12,0,20,0],
-"structMRDecimateSettings.html#a1d0329e1a12b385130c9098ca1cde327":[12,0,20,6],
-"structMRDecimateSettings.html#a2c349e24d60412eb6b16ab1d98e8074e":[12,0,20,7],
-"structMRDecimateSettings.html#a332cd2d944c5ad67cfc87294c22dc628":[12,0,20,2],
-"structMRDecimateSettings.html#a3c31da100d3cc2b0dc612fe3342cebb6":[12,0,20,5],
-"structMRDecimateSettings.html#a4e04ee54a67240824fcf155e24e679b6":[12,0,20,12],
-"structMRDecimateSettings.html#a6752b8883770f758f44fc5956c8238c4":[12,0,20,9]
+"structMRDecimateResult.html#a3b75dcba6fdc6c60935add7ed5ffad09":[12,0,19,3]
 };

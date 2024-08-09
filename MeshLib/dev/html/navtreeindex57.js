@@ -1,5 +1,17 @@
 var NAVTREEINDEX57 =
 {
+"structMR_1_1BoxedLeaf.html":[9,1,2],
+"structMR_1_1BoxedLeaf.html#a0b4e56c5de1bf6b3fd5a6a6896e66d46":[9,1,2,0],
+"structMR_1_1BoxedLeaf.html#a20f98852bf25f7268e73b993bd26a8d7":[9,1,2,1],
+"structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5":[9,1,2,2],
+"structMR_1_1BoxedLeaf.html#a94f8ddab16da6ccb873e9ef25f7b116d":[9,1,2,3],
+"structMR_1_1CharPressedListener.html":[10,0,10,127],
+"structMR_1_1CharPressedListener.html":[12,0,1,111],
+"structMR_1_1CharPressedListener.html#a3c20edbda2e8d0fc8601a5c047e8bf87":[10,0,10,127,3],
+"structMR_1_1CharPressedListener.html#a3c20edbda2e8d0fc8601a5c047e8bf87":[12,0,1,111,3],
+"structMR_1_1CharPressedListener.html#a8a6a064feb60cce174c9984e57327c53":[10,0,10,127,1],
+"structMR_1_1CharPressedListener.html#a8a6a064feb60cce174c9984e57327c53":[12,0,1,111,1],
+"structMR_1_1CharPressedListener.html#a8fee63fd3d2285947ffd40097bcbbaf4":[10,0,10,127,2],
 "structMR_1_1CharPressedListener.html#a8fee63fd3d2285947ffd40097bcbbaf4":[12,0,1,111,2],
 "structMR_1_1CharPressedListener.html#acb23223388e965ab4405fb7f18d4fcde":[10,0,10,127,0],
 "structMR_1_1CharPressedListener.html#acb23223388e965ab4405fb7f18d4fcde":[12,0,1,111,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX57 =
 "structMR_1_1DecimateSettings.html#ae341a50784372571b1b5bb3e6948981e":[9,12,0,27],
 "structMR_1_1DecimateSettings.html#aebecde304889b67910dd05d032cb8d07":[9,12,0,6],
 "structMR_1_1DecimateSettings.html#aee15c4faad0020190c28ac13da3e735e":[9,12,0,26],
-"structMR_1_1DecimateSettings.html#af1fd605860fa7a20931506008f29daa9":[9,12,0,12],
-"structMR_1_1DeloneSettings.html":[10,0,10,164],
-"structMR_1_1DeloneSettings.html":[12,0,1,148],
-"structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[10,0,10,164,4],
-"structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[12,0,1,148,4],
-"structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90":[10,0,10,164,1],
-"structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90":[12,0,1,148,1],
-"structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[10,0,10,164,3],
-"structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[12,0,1,148,3],
-"structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[10,0,10,164,0],
-"structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[12,0,1,148,0],
-"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[10,0,10,164,2],
-"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[12,0,1,148,2]
+"structMR_1_1DecimateSettings.html#af1fd605860fa7a20931506008f29daa9":[9,12,0,12]
 };

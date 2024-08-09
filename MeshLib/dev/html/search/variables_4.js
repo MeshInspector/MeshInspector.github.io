@@ -50,12 +50,15 @@ var searchData=
   ['distthresholdsq_47',['distThresholdSq',['../structMR_1_1ICPProperties.html#a43460c0d16c0f302226c8e09b6b98811',1,'MR::ICPProperties::distThresholdSq'],['../structMRICPProperties.html#af8056cb5ec97a0e2fb709ac76fc146de',1,'MRICPProperties::distThresholdSq']]],
   ['dointersect_48',['doIntersect',['../structMR_1_1SegmentSegmentIntersectResult.html#ad55a194e9fc76257f3bb95f35d4495c5',1,'MR::SegmentSegmentIntersectResult::doIntersect'],['../structMR_1_1TriangleSegmentIntersectResult.html#a8676a2019b59ed30aa2204aef62a8ff8',1,'MR::TriangleSegmentIntersectResult::doIntersect']]],
   ['dragdropsignal_49',['dragDropSignal',['../classMR_1_1Viewer.html#ab2c82473f02c741b3be29cb4ff10daa0',1,'MR::Viewer']]],
-  ['drawasdiameter_50',['drawAsDiameter',['../structMR_1_1RenderDimensions_1_1RadiusParams.html#a1161a2acb579467fd9f2bf7bd0bb2961',1,'MR::RenderDimensions::RadiusParams']]],
-  ['drawasnegative_51',['drawAsNegative',['../structMR_1_1RenderDimensions_1_1LengthParams.html#a59af6d3622c087865305af028ee374fa',1,'MR::RenderDimensions::LengthParams']]],
-  ['drawsignal_52',['drawSignal',['../classMR_1_1Viewer.html#a299cf1cccfffbe714ff8369008be4659',1,'MR::Viewer']]],
-  ['drawtimemillisec_53',['drawTimeMilliSec',['../classMR_1_1FrameCounter.html#ab152bae1e1a65d8d52cba5b78cd43a8c',1,'MR::FrameCounter']]],
-  ['droplist_5f_54',['dropList_',['../classMR_1_1RibbonMenuItem.html#a2f25401d4b94a752bd63b79152673ab5',1,'MR::RibbonMenuItem']]],
-  ['duplicatedvertexcount_55',['duplicatedVertexCount',['../structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7',1,'MR::MeshLoadSettings']]],
-  ['dupvert_56',['dupVert',['../structMR_1_1MeshBuilder_1_1VertDuplication.html#a304fd55bb8ea2a456b8fdf00cce9e14c',1,'MR::MeshBuilder::VertDuplication']]],
-  ['dynamic_57',['Dynamic',['../structMR_1_1Viewport_1_1Parameters.html#ab86532888b668d97ffd4c158c84ad63d',1,'MR::Viewport::Parameters']]]
+  ['dragendsignal_50',['dragEndSignal',['../classMR_1_1Viewer.html#a56a065b32c494e3d533b08a24249d20e',1,'MR::Viewer']]],
+  ['dragsignal_51',['dragSignal',['../classMR_1_1Viewer.html#ae61b533e58da105143ce2e702dadc789',1,'MR::Viewer']]],
+  ['dragstartsignal_52',['dragStartSignal',['../classMR_1_1Viewer.html#a1caa04e761486984969a78f76685f938',1,'MR::Viewer']]],
+  ['drawasdiameter_53',['drawAsDiameter',['../structMR_1_1RenderDimensions_1_1RadiusParams.html#a1161a2acb579467fd9f2bf7bd0bb2961',1,'MR::RenderDimensions::RadiusParams']]],
+  ['drawasnegative_54',['drawAsNegative',['../structMR_1_1RenderDimensions_1_1LengthParams.html#a59af6d3622c087865305af028ee374fa',1,'MR::RenderDimensions::LengthParams']]],
+  ['drawsignal_55',['drawSignal',['../classMR_1_1Viewer.html#a299cf1cccfffbe714ff8369008be4659',1,'MR::Viewer']]],
+  ['drawtimemillisec_56',['drawTimeMilliSec',['../classMR_1_1FrameCounter.html#ab152bae1e1a65d8d52cba5b78cd43a8c',1,'MR::FrameCounter']]],
+  ['droplist_5f_57',['dropList_',['../classMR_1_1RibbonMenuItem.html#a2f25401d4b94a752bd63b79152673ab5',1,'MR::RibbonMenuItem']]],
+  ['duplicatedvertexcount_58',['duplicatedVertexCount',['../structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7',1,'MR::MeshLoadSettings']]],
+  ['dupvert_59',['dupVert',['../structMR_1_1MeshBuilder_1_1VertDuplication.html#a304fd55bb8ea2a456b8fdf00cce9e14c',1,'MR::MeshBuilder::VertDuplication']]],
+  ['dynamic_60',['Dynamic',['../structMR_1_1Viewport_1_1Parameters.html#ab86532888b668d97ffd4c158c84ad63d',1,'MR::Viewport::Parameters']]]
 ];

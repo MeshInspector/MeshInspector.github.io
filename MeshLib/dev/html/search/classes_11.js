@@ -81,7 +81,7 @@ var searchData=
   ['stabilizer_78',['Stabilizer',['../structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html',1,'MR::MultiwayAligningTransform']]],
   ['statebaseplugin_79',['StateBasePlugin',['../classMR_1_1StateBasePlugin.html',1,'MR']]],
   ['statelistenerplugin_80',['StateListenerPlugin',['../classMR_1_1StateListenerPlugin.html',1,'MR']]],
-  ['statelistenerplugin_3c_20mousedownlistener_2c_20mousemovelistener_2c_20mouseuplistener_20_3e_81',['StateListenerPlugin&lt; MouseDownListener, MouseMoveListener, MouseUpListener &gt;',['../classMR_1_1StateListenerPlugin.html',1,'MR']]],
+  ['statelistenerplugin_3c_20dragstartlistener_2c_20draglistener_2c_20dragendlistener_20_3e_81',['StateListenerPlugin&lt; DragStartListener, DragListener, DragEndListener &gt;',['../classMR_1_1StateListenerPlugin.html',1,'MR']]],
   ['statelistenerplugin_3c_20mousedownlistener_2c_20mouseuplistener_2c_20mousemovelistener_20_3e_82',['StateListenerPlugin&lt; MouseDownListener, MouseUpListener, MouseMoveListener &gt;',['../classMR_1_1StateListenerPlugin.html',1,'MR']]],
   ['stitchholesparams_83',['StitchHolesParams',['../structMR_1_1StitchHolesParams.html',1,'MR']]],
   ['stopontruecombiner_84',['StopOnTrueCombiner',['../structMR_1_1StopOnTrueCombiner.html',1,'MR']]],
