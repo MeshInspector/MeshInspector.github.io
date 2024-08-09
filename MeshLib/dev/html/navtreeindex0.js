@@ -20,6 +20,7 @@ var NAVTREEINDEX0 =
 "ExampleCMeshOffset.html":[4,4,3],
 "ExampleCMeshResolveDegenerations.html":[4,4,6],
 "ExampleCSharpMeshBoolean.html":[4,2,0],
+"ExampleCSharpOffset.html":[4,2,1],
 "ExampleCppMeshBoolean.html":[4,1,4],
 "ExampleCppMeshDecimate.html":[4,1,3],
 "ExampleCppMeshExport.html":[4,1,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "MRChangeColoringType_8h.html":[13,0,0,2,3,36],
 "MRChangeColoringType_8h_source.html":[13,0,0,2,3,36],
 "MRChangeLabelAction_8h.html":[13,0,0,2,3,37],
-"MRChangeLabelAction_8h_source.html":[13,0,0,2,3,37],
-"MRChangeMeshAction_8h.html":[13,0,0,2,3,38]
+"MRChangeLabelAction_8h_source.html":[13,0,0,2,3,37]
 };

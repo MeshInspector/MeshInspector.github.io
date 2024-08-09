@@ -78,7 +78,7 @@ var searchData=
   ['holesonobject_75',['HolesOnObject',['../classMR_1_1BoundarySelectionWidget.html#a9e3aafe476e30d362b2b0070a6ce21c6',1,'MR::BoundarySelectionWidget']]],
   ['holesvertids_76',['HolesVertIds',['../namespaceMR_1_1PlanarTriangulation.html#a0515df1bf2b2920651b9617e6b1493f9',1,'MR::PlanarTriangulation']]],
   ['holevertids_77',['HoleVertIds',['../namespaceMR_1_1PlanarTriangulation.html#a4ea76a89e8c8fb95eb68d7497122271b',1,'MR::PlanarTriangulation']]],
-  ['holewindingrule_78',['HoleWindingRule',['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a3065abc09e5d4edae66468fee91282e4',1,'MR']]],
+  ['holewindingrule_78',['HoleWindingRule',['../MRDotNet_2MROffset_8h.html#a3a1c46c77f4561d4e907577f24e085aea3065abc09e5d4edae66468fee91282e4',1,'HoleWindingRule:&#160;MROffset.h'],['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a3065abc09e5d4edae66468fee91282e4',1,'MR::HoleWindingRule']]],
   ['hollow_79',['hollow',['../structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aed7a509cc23a908a6cf803007694eabf',1,'MR::Features::Primitives::ConeSegment']]],
   ['homepage_2edox_80',['HomePage.dox',['../HomePage_8dox.html',1,'']]],
   ['hops_81',['hops',['../structMR_1_1FindOverhangsSettings.html#ad8a04bc86c5792e55e9c000d38d5e42b',1,'MR::FindOverhangsSettings']]],

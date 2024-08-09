@@ -7,5 +7,6 @@ var dir_1f9ef0ae8bad5249e1cb43e2a28faa1a =
     [ "MRMeshBoolean.h", "MRDotNet_2MRMeshBoolean_8h.html", "MRDotNet_2MRMeshBoolean_8h" ],
     [ "MRMeshDecimate.h", "MRDotNet_2MRMeshDecimate_8h.html", "MRDotNet_2MRMeshDecimate_8h" ],
     [ "MRMeshFwd.h", "MRDotNet_2MRMeshFwd_8h.html", "MRDotNet_2MRMeshFwd_8h" ],
+    [ "MROffset.h", "MRDotNet_2MROffset_8h.html", "MRDotNet_2MROffset_8h" ],
     [ "MRVector3.h", "MRDotNet_2MRVector3_8h.html", "MRDotNet_2MRVector3_8h" ]
 ];

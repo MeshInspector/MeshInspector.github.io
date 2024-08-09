@@ -50,7 +50,7 @@ var searchData=
   ['shadowsgl_47',['ShadowsGL',['../classMR_1_1ShadowsGL.html',1,'MR']]],
   ['sharedptrtraits_48',['SharedPtrTraits',['../structMR_1_1Meta_1_1SharedPtrTraits.html',1,'MR::Meta']]],
   ['sharpenmarchingcubesmeshsettings_49',['SharpenMarchingCubesMeshSettings',['../structMR_1_1SharpenMarchingCubesMeshSettings.html',1,'MR']]],
-  ['sharpoffsetparameters_50',['SharpOffsetParameters',['../structMR_1_1SharpOffsetParameters.html',1,'MR']]],
+  ['sharpoffsetparameters_50',['SharpOffsetParameters',['../structMR_1_1SharpOffsetParameters.html',1,'MR::SharpOffsetParameters'],['../classSharpOffsetParameters.html',1,'SharpOffsetParameters']]],
   ['shellvertexinfo_51',['ShellVertexInfo',['../structMR_1_1ShellVertexInfo.html',1,'MR']]],
   ['shifttransformer_52',['ShiftTransformer',['../classMR_1_1ShiftTransformer.html',1,'MR']]],
   ['shortcutcommand_53',['ShortcutCommand',['../structMR_1_1ShortcutManager_1_1ShortcutCommand.html',1,'MR::ShortcutManager']]],

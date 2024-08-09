@@ -698,6 +698,7 @@ var hierarchy =
     [ "MR::MeshOnVoxelsT< MeshType >", "classMR_1_1MeshOnVoxelsT.html", null ],
     [ "MR::MeshOrPoints", "classMR_1_1MeshOrPoints.html", null ],
     [ "MR::MeshOrPointsXf", "structMR_1_1MeshOrPointsXf.html", null ],
+    [ "MeshPart", "structMeshPart.html", null ],
     [ "MR::MeshPart", "structMR_1_1MeshPart.html", null ],
     [ "MR::MeshBuilder::MeshPiece", "structMR_1_1MeshBuilder_1_1MeshPiece.html", null ],
     [ "MR::MeshPoint", "structMR_1_1MeshPoint.html", null ],
@@ -830,10 +831,16 @@ var hierarchy =
     [ "MR::ObjKindTraits< FeaturesObjectKind::Sphere >", "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html", null ],
     [ "MR::ObjTreeTraits", "structMR_1_1ObjTreeTraits.html", null ],
     [ "MR::ObjVertId", "structMR_1_1ObjVertId.html", null ],
+    [ "Offset", "classOffset.html", null ],
     [ "MR::OffsetContourIndex", "structMR_1_1OffsetContourIndex.html", null ],
     [ "MR::OffsetContoursOrigins", "structMR_1_1OffsetContoursOrigins.html", null ],
     [ "MR::OffsetContoursParams", "structMR_1_1OffsetContoursParams.html", null ],
     [ "MR::OffsetContoursRestoreZParams", "structMR_1_1OffsetContoursRestoreZParams.html", null ],
+    [ "OffsetParameters", "classOffsetParameters.html", [
+      [ "SharpOffsetParameters", "classSharpOffsetParameters.html", [
+        [ "GeneralOffsetParameters", "classGeneralOffsetParameters.html", null ]
+      ] ]
+    ] ],
     [ "MR::OneMeshContour", "structMR_1_1OneMeshContour.html", null ],
     [ "MR::OneMeshIntersection", "structMR_1_1OneMeshIntersection.html", null ],
     [ "MR::OutputFlows", "structMR_1_1OutputFlows.html", null ],

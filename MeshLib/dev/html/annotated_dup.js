@@ -857,10 +857,12 @@ var annotated_dup =
     [ "BooleanResult", "structBooleanResult.html", "structBooleanResult" ],
     [ "DecimateParameters", "structDecimateParameters.html", "structDecimateParameters" ],
     [ "DecimateResult", "structDecimateResult.html", "structDecimateResult" ],
+    [ "GeneralOffsetParameters", "classGeneralOffsetParameters.html", "classGeneralOffsetParameters" ],
     [ "Matrix3f", "classMatrix3f.html", "classMatrix3f" ],
     [ "Mesh", "classMesh.html", "classMesh" ],
     [ "MeshBoolean", "classMeshBoolean.html", null ],
     [ "MeshDecimate", "classMeshDecimate.html", null ],
+    [ "MeshPart", "structMeshPart.html", "structMeshPart" ],
     [ "MRAffineXf3f", "structMRAffineXf3f.html", "structMRAffineXf3f" ],
     [ "MRBooleanParameters", "structMRBooleanParameters.html", "structMRBooleanParameters" ],
     [ "MRBooleanResult", "structMRBooleanResult.html", "structMRBooleanResult" ],
@@ -888,7 +890,10 @@ var annotated_dup =
     [ "MRResolveMeshDegenSettings", "structMRResolveMeshDegenSettings.html", "structMRResolveMeshDegenSettings" ],
     [ "MRVector3f", "structMRVector3f.html", "structMRVector3f" ],
     [ "MRVertId", "structMRVertId.html", "structMRVertId" ],
+    [ "Offset", "classOffset.html", null ],
+    [ "OffsetParameters", "classOffsetParameters.html", "classOffsetParameters" ],
     [ "PythonStreamRedirector", "classPythonStreamRedirector.html", "classPythonStreamRedirector" ],
+    [ "SharpOffsetParameters", "classSharpOffsetParameters.html", "classSharpOffsetParameters" ],
     [ "ThreeVertIds", "structThreeVertIds.html", "structThreeVertIds" ],
     [ "Vector3f", "classVector3f.html", "classVector3f" ]
 ];

@@ -24,6 +24,6 @@ var searchData=
   ['post_21',['Post',['../classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0ca03d947a2158373c3b9d74325850cb8b9',1,'MR::WebRequest']]],
   ['primitivescolormap_22',['PrimitivesColorMap',['../group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca',1,'MR']]],
   ['progressbarbackground_23',['ProgressBarBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ae1bbec5067f1e6cc71f108e6d5ac7b81',1,'MR::ColorTheme']]],
-  ['projectionnormal_24',['ProjectionNormal',['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9',1,'MR']]],
+  ['projectionnormal_24',['ProjectionNormal',['../MRDotNet_2MROffset_8h.html#a3a1c46c77f4561d4e907577f24e085aea17670c4544b47c1acf63b776209440a9',1,'ProjectionNormal:&#160;MROffset.h'],['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9',1,'MR::ProjectionNormal']]],
   ['put_25',['Put',['../classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0cad0bf1810982e9728fcf3ac444a015373',1,'MR::WebRequest']]]
 ];

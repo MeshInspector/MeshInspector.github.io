@@ -37,7 +37,7 @@ var searchData=
   ['meshonvoxelst_34',['MeshOnVoxelsT',['../classMR_1_1MeshOnVoxelsT.html',1,'MR']]],
   ['meshorpoints_35',['MeshOrPoints',['../classMR_1_1MeshOrPoints.html',1,'MR']]],
   ['meshorpointsxf_36',['MeshOrPointsXf',['../structMR_1_1MeshOrPointsXf.html',1,'MR']]],
-  ['meshpart_37',['MeshPart',['../structMR_1_1MeshPart.html',1,'MR']]],
+  ['meshpart_37',['MeshPart',['../structMeshPart.html',1,'MeshPart'],['../structMR_1_1MeshPart.html',1,'MR::MeshPart']]],
   ['meshpiece_38',['MeshPiece',['../structMR_1_1MeshBuilder_1_1MeshPiece.html',1,'MR::MeshBuilder']]],
   ['meshpoint_39',['MeshPoint',['../structMR_1_1MeshPoint.html',1,'MR']]],
   ['meshprojectionresult_40',['MeshProjectionResult',['../structMR_1_1MeshProjectionResult.html',1,'MR']]],
