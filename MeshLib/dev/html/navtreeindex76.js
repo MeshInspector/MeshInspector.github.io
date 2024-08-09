@@ -1,5 +1,7 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1ZeroOnMove.html#af504ba39107aabf4c055c1a1f651c586":[12,0,1,692,0],
+"structMR_1_1detail_1_1MakeScopeGuard.html":[10,0,10,3,1],
 "structMR_1_1detail_1_1MakeScopeGuard.html":[12,0,1,1,1],
 "structMR_1_1detail_1_1MakeScopeGuard.html#a7d35fb7fc3a07cf2ff15168afa6381a0":[10,0,10,3,1,0],
 "structMR_1_1detail_1_1MakeScopeGuard.html#a7d35fb7fc3a07cf2ff15168afa6381a0":[12,0,1,1,1,0],

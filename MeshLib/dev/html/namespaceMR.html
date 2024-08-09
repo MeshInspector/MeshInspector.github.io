@@ -5365,6 +5365,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a99a16cfa659dd2d8c524a2f0077269ef"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, std::string &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a99a16cfa659dd2d8c524a2f0077269ef">volumeToMeshByParts</a> (const <a class="el" href="#a7bf54937a8182a75f0fbee6486c3c18b">VolumePartBuilder</a>&lt; Volume &gt; &amp;builder, const <a class="el" href="#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;dimensions, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;voxelSize, const <a class="el" href="structMR_1_1VolumeToMeshByPartsSettings.html">VolumeToMeshByPartsSettings</a> &amp;settings={}, const <a class="el" href="structMR_1_1MergeVolumePartSettings.html">MergeVolumePartSettings</a> &amp;mergeSettings={})</td></tr>
 <tr class="memdesc:a99a16cfa659dd2d8c524a2f0077269ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts a voxel volume into a mesh without full memory loading  <br /></td></tr>
 <tr class="separator:a99a16cfa659dd2d8c524a2f0077269ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2551429a11e39023d0109913cc751f14" id="r_a2551429a11e39023d0109913cc751f14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#aeb0a8fe9448340a63b6c0924e4e12aca">SimpleVolume</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2551429a11e39023d0109913cc751f14">functionVolumeToSimpleVolume</a> (const <a class="el" href="#a474f6e6d7fa5b1f0711373f882849dd0">FunctionVolume</a> &amp;volume, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
+<tr class="memdesc:a2551429a11e39023d0109913cc751f14"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts function volume into simple volume  <br /></td></tr>
+<tr class="separator:a2551429a11e39023d0109913cc751f14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga93370e8f0bb7db437558a96f16c32fbd" id="r_ga93370e8f0bb7db437558a96f16c32fbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a2ce7373768bdeba5943fa20acf85e769">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#ga93370e8f0bb7db437558a96f16c32fbd">decompressZip</a> (const std::filesystem::path &amp;zipFile, const std::filesystem::path &amp;targetFolder, const char *password=nullptr)</td></tr>
 <tr class="memdesc:ga93370e8f0bb7db437558a96f16c32fbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">decompresses given zip-file into given folder  <br /></td></tr>
 <tr class="separator:ga93370e8f0bb7db437558a96f16c32fbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -17310,6 +17313,29 @@ element fields:<br  />
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2551429a11e39023d0109913cc751f14" name="a2551429a11e39023d0109913cc751f14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2551429a11e39023d0109913cc751f14">&#9670;&#160;</a></span>functionVolumeToSimpleVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#aeb0a8fe9448340a63b6c0924e4e12aca">SimpleVolume</a> &gt; MR::functionVolumeToSimpleVolume </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a474f6e6d7fa5b1f0711373f882849dd0">FunctionVolume</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>converts function volume into simple volume </p>
 
 </div>
 </div>

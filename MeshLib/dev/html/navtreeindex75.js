@@ -1,5 +1,7 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1ViewportGL_1_1ScaledPickRes.html#a224b86e0fc476df4cd60410f71f7d516":[10,0,10,677,3,1],
+"structMR_1_1ViewportGL_1_1ScaledPickRes.html#a224b86e0fc476df4cd60410f71f7d516":[12,0,1,661,3,1],
 "structMR_1_1ViewportLinesWithColors.html":[10,0,10,680],
 "structMR_1_1ViewportLinesWithColors.html":[12,0,1,664],
 "structMR_1_1ViewportLinesWithColors.html#abf826cb45cee8138394957baf185c4cc":[10,0,10,680,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1ZeroOnMove.html#a6c54d017113955a26465a32443707c9f":[12,0,1,692,1],
 "structMR_1_1ZeroOnMove.html#ac3bc0c5c28107a3a11a89d8b43373be0":[10,0,10,708,3],
 "structMR_1_1ZeroOnMove.html#ac3bc0c5c28107a3a11a89d8b43373be0":[12,0,1,692,3],
-"structMR_1_1ZeroOnMove.html#af504ba39107aabf4c055c1a1f651c586":[10,0,10,708,0],
-"structMR_1_1ZeroOnMove.html#af504ba39107aabf4c055c1a1f651c586":[12,0,1,692,0],
-"structMR_1_1detail_1_1MakeScopeGuard.html":[10,0,10,3,1]
+"structMR_1_1ZeroOnMove.html#af504ba39107aabf4c055c1a1f651c586":[10,0,10,708,0]
 };

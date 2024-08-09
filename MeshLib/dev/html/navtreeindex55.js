@@ -1,5 +1,7 @@
 var NAVTREEINDEX55 =
 {
+"structMRDecimateSettings.html#a679658d2e5a069713519041347304233":[12,0,20,16],
+"structMRDecimateSettings.html#a6b5b07423ef64eadeec3662a51a57bba":[12,0,20,18],
 "structMRDecimateSettings.html#a74c3f1a345b8010234658a32c8f29cb2":[12,0,20,3],
 "structMRDecimateSettings.html#a772d763e2025022e8ecad5e0df7081ee":[12,0,20,10],
 "structMRDecimateSettings.html#a868cd45481f4a69102b4ca7467320dde":[12,0,20,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX55 =
 "structMR_1_1AncillaryPoints.html#a216d4fd7817ede9a4f80a11ec68881ca":[10,0,10,56,1],
 "structMR_1_1AncillaryPoints.html#a216d4fd7817ede9a4f80a11ec68881ca":[12,0,1,40,1],
 "structMR_1_1AncillaryPoints.html#a45db8cb79aca2bc0ac79707f498df4c8":[10,0,10,56,6],
-"structMR_1_1AncillaryPoints.html#a45db8cb79aca2bc0ac79707f498df4c8":[12,0,1,40,6],
-"structMR_1_1AncillaryPoints.html#a537fa4e2293d1858a80b7317ee1f6143":[10,0,10,56,11],
-"structMR_1_1AncillaryPoints.html#a537fa4e2293d1858a80b7317ee1f6143":[12,0,1,40,11]
+"structMR_1_1AncillaryPoints.html#a45db8cb79aca2bc0ac79707f498df4c8":[12,0,1,40,6]
 };

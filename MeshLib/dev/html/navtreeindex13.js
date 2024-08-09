@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"classBitSet.html#a64b7f425932affc127d90ce7e7b2ca8a":[12,0,4,5],
 "classBitSet.html#aaf82ae5c7eef2b4af4b1f53cea2eca80":[12,0,4,10],
 "classBitSet.html#ab5b8d5b672da11ed624128ee8c42d2fc":[12,0,4,1],
 "classBitSet.html#ac45e40bebdf5c87da0d8ca441094ab7c":[12,0,4,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "classMR_1_1BestFitParabola.html":[10,0,10,69],
 "classMR_1_1BestFitParabola.html":[12,0,1,53],
 "classMR_1_1BestFitParabola.html#a35bb9336bb5fe0191c718e89261c9645":[10,0,10,69,1],
-"classMR_1_1BestFitParabola.html#a35bb9336bb5fe0191c718e89261c9645":[12,0,1,53,1],
-"classMR_1_1BestFitParabola.html#a5aa2674186bbd028f31bcc7308f82255":[10,0,10,69,2]
+"classMR_1_1BestFitParabola.html#a35bb9336bb5fe0191c718e89261c9645":[12,0,1,53,1]
 };

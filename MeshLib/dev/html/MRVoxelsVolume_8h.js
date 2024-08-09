@@ -3,5 +3,6 @@ var MRVoxelsVolume_8h =
     [ "MR::VoxelTraits< VoxelValueGetter< T > >", "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html", "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4" ],
     [ "MR::VoxelTraits< FloatGrid >", "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html", "structMR_1_1VoxelTraits_3_01FloatGrid_01_4" ],
     [ "MR::VoxelsVolume< T >", "structMR_1_1VoxelsVolume.html", "structMR_1_1VoxelsVolume" ],
-    [ "MR::VoxelsVolumeMinMax< T >", "structMR_1_1VoxelsVolumeMinMax.html", "structMR_1_1VoxelsVolumeMinMax" ]
+    [ "MR::VoxelsVolumeMinMax< T >", "structMR_1_1VoxelsVolumeMinMax.html", "structMR_1_1VoxelsVolumeMinMax" ],
+    [ "functionVolumeToSimpleVolume", "MRVoxelsVolume_8h.html#a2551429a11e39023d0109913cc751f14", null ]
 ];

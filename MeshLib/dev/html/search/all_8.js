@@ -417,6 +417,7 @@ var searchData=
   ['functions_414',['Base Functions',['../StatePluginsHelp.html#BaseFunctions',1,'']]],
   ['functions_415',['functions',['../structMR_1_1PythonExport_1_1ModuleData.html#a0fe7a81962a7cace96c7ec89855e1064',1,'MR::PythonExport::ModuleData::functions'],['../classMR_1_1PythonExport.html#a1ae0ff73c0d87a6c897bf89610cabb81',1,'MR::PythonExport::functions()']]],
   ['functionvolume_416',['FunctionVolume',['../namespaceMR.html#a474f6e6d7fa5b1f0711373f882849dd0',1,'MR']]],
-  ['functionvolumeu8_417',['FunctionVolumeU8',['../namespaceMR.html#a3d23b57c719ebc235750588881cb8d07',1,'MR']]],
-  ['fwn_418',['fwn',['../structMR_1_1MeshToDistanceVolumeParams.html#a740cc5d8bb375f88ea00678baa716cef',1,'MR::MeshToDistanceVolumeParams::fwn'],['../structMR_1_1OffsetParameters.html#a6599d762d28d8ca7118f3b4dba6602d2',1,'MR::OffsetParameters::fwn']]]
+  ['functionvolumetosimplevolume_417',['functionVolumeToSimpleVolume',['../namespaceMR.html#a2551429a11e39023d0109913cc751f14',1,'MR']]],
+  ['functionvolumeu8_418',['FunctionVolumeU8',['../namespaceMR.html#a3d23b57c719ebc235750588881cb8d07',1,'MR']]],
+  ['fwn_419',['fwn',['../structMR_1_1MeshToDistanceVolumeParams.html#a740cc5d8bb375f88ea00678baa716cef',1,'MR::MeshToDistanceVolumeParams::fwn'],['../structMR_1_1OffsetParameters.html#a6599d762d28d8ca7118f3b4dba6602d2',1,'MR::OffsetParameters::fwn']]]
 ];

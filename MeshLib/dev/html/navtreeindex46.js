@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"group__MathGroup.html#gaf33aff000dfb310f8d4e2b79698c3373":[9,0,45],
 "group__MathGroup.html#gaf420bd1285dda4239d2ac0fac2eff1f9":[9,0,41],
 "group__MathGroup.html#gaf5af7058ce54bba6fc77a344d28b9826":[9,0,42],
 "group__MatrixGroup.html":[9,0,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "group__SerializerGroup.html#ga8ba498d211b2a813befa63f55a7446cd":[9,2,15,9],
 "group__SerializerGroup.html#ga93370e8f0bb7db437558a96f16c32fbd":[9,2,15,3],
 "group__SerializerGroup.html#ga9f65600bd6b7fb223ab125f81c96ae25":[9,2,15,5],
-"group__SerializerGroup.html#gaa6c9fafbe5675e06061b897d2e92f138":[9,2,15,6],
-"group__SerializerGroup.html#gaa945fd69c2b9a828d6f34e7bc34b9df3":[9,2,15,21]
+"group__SerializerGroup.html#gaa6c9fafbe5675e06061b897d2e92f138":[9,2,15,6]
 };

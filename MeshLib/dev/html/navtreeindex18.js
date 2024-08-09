@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1EdgePathsAStarBuilder.html#a4e018ac01b06bc74b3f4de5e064041a0":[10,0,10,186,0],
 "classMR_1_1EdgePathsAStarBuilder.html#a4e018ac01b06bc74b3f4de5e064041a0":[12,0,1,170,0],
 "classMR_1_1EdgePathsAStarBuilder.html#ae2771303c291202904b3ec855b364487":[10,0,10,186,1],
 "classMR_1_1EdgePathsAStarBuilder.html#ae2771303c291202904b3ec855b364487":[12,0,1,170,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1FrameCounter.html#aa00e5f661bf88c35e8fcb83709eab2d1":[12,0,1,206,1],
 "classMR_1_1FrameCounter.html#ab152bae1e1a65d8d52cba5b78cd43a8c":[10,0,10,222,3],
 "classMR_1_1FrameCounter.html#ab152bae1e1a65d8d52cba5b78cd43a8c":[12,0,1,206,3],
-"classMR_1_1FrameCounter.html#ad31cb34958177047b45d91d3bde14b0b":[10,0,10,222,7],
-"classMR_1_1FrameCounter.html#ad31cb34958177047b45d91d3bde14b0b":[12,0,1,206,7]
+"classMR_1_1FrameCounter.html#ad31cb34958177047b45d91d3bde14b0b":[10,0,10,222,7]
 };

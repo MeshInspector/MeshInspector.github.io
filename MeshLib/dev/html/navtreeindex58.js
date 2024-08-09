@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"structMR_1_1DenoiseViaNormalsSettings.html":[10,0,10,166],
+"structMR_1_1DenoiseViaNormalsSettings.html":[12,0,1,150],
 "structMR_1_1DenoiseViaNormalsSettings.html#a0020d91ac083f2d70a466e4f209e12b9":[10,0,10,166,7],
 "structMR_1_1DenoiseViaNormalsSettings.html#a0020d91ac083f2d70a466e4f209e12b9":[12,0,1,150,7],
 "structMR_1_1DenoiseViaNormalsSettings.html#a63ddf357508ffd766addcbe0684a1619":[10,0,10,166,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1EdgePoint.html#acd27d6b536b5412853a94133280b6802":[12,0,1,172,10],
 "structMR_1_1EdgePoint.html#acea7869523473243ff95a916aa64a7d6":[10,0,10,188,14],
 "structMR_1_1EdgePoint.html#acea7869523473243ff95a916aa64a7d6":[12,0,1,172,14],
-"structMR_1_1EdgePoint.html#aeadc3f42a8934c969baee0104a2b7de3":[10,0,10,188,15],
-"structMR_1_1EdgePoint.html#aeadc3f42a8934c969baee0104a2b7de3":[12,0,1,172,15],
-"structMR_1_1EdgePointPair.html":[10,0,10,189]
+"structMR_1_1EdgePoint.html#aeadc3f42a8934c969baee0104a2b7de3":[10,0,10,188,15]
 };

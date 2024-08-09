@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html#a51953f10f06ecbdf36131c6711172452":[12,0,1,245,2,1],
 "classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html#a7347c1740073a409a4350f361af9b816":[10,0,10,261,2,4],
 "classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html#a7347c1740073a409a4350f361af9b816":[12,0,1,245,2,4],
 "classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html#a75783b60f5b1822bf592fbaaa730bbf1":[10,0,10,261,2,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX23 =
 "classMR_1_1MeshOrPoints.html#a825ff27e36144d02b12f1880d863e32b":[12,0,1,309,16],
 "classMR_1_1MeshOrPoints.html#a864d2d2aec501a7ccac038912909bef9":[10,0,10,325,12],
 "classMR_1_1MeshOrPoints.html#a864d2d2aec501a7ccac038912909bef9":[12,0,1,309,12],
-"classMR_1_1MeshOrPoints.html#aa0eded9546a4d5a192d0222adb7ebc21":[10,0,10,325,14],
-"classMR_1_1MeshOrPoints.html#aa0eded9546a4d5a192d0222adb7ebc21":[12,0,1,309,14]
+"classMR_1_1MeshOrPoints.html#aa0eded9546a4d5a192d0222adb7ebc21":[10,0,10,325,14]
 };

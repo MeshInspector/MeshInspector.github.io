@@ -252,5 +252,6 @@ var searchData=
   ['fromvectormemory_249',['fromVectorMemory',['../classMR_1_1CudaAccessor.html#ac9c21f3ec40039a8b0627bc33247c749',1,'MR::CudaAccessor']]],
   ['front_250',['front',['../classMR_1_1Vector.html#af6959f781909eba002ffffbc6fe37c1f',1,'MR::Vector::front() const'],['../classMR_1_1Vector.html#a19509cb3f6dbf95c9f90c51a0b1c5a3c',1,'MR::Vector::front()']]],
   ['full_251',['full',['../classMR_1_1FewSmallest.html#ab40f0a7ddc11738ea49b1f4557c60670',1,'MR::FewSmallest']]],
-  ['functions_252',['functions',['../classMR_1_1PythonExport.html#a1ae0ff73c0d87a6c897bf89610cabb81',1,'MR::PythonExport']]]
+  ['functions_252',['functions',['../classMR_1_1PythonExport.html#a1ae0ff73c0d87a6c897bf89610cabb81',1,'MR::PythonExport']]],
+  ['functionvolumetosimplevolume_253',['functionVolumeToSimpleVolume',['../namespaceMR.html#a2551429a11e39023d0109913cc751f14',1,'MR']]]
 ];

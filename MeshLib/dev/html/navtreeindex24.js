@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"classMR_1_1MeshOrPoints.html#aa0eded9546a4d5a192d0222adb7ebc21":[12,0,1,309,14],
 "classMR_1_1MeshOrPoints.html#abbcab0078d3323160184019e7850bceb":[10,0,10,325,5],
 "classMR_1_1MeshOrPoints.html#abbcab0078d3323160184019e7850bceb":[12,0,1,309,5],
 "classMR_1_1MeshOrPoints.html#abe1af15504d425b2e6633291ccae6828":[10,0,10,325,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "classMR_1_1MultiwayICP.html#a37a8e0d52c2729455ea42255f7d90942":[12,0,1,340,0],
 "classMR_1_1MultiwayICP.html#a3a6e071719c0f164a01aeca591915112":[10,0,10,356,10],
 "classMR_1_1MultiwayICP.html#a3a6e071719c0f164a01aeca591915112":[12,0,1,340,10],
-"classMR_1_1MultiwayICP.html#a41d907a6c720ef37eb8620caba3be739":[10,0,10,356,2],
-"classMR_1_1MultiwayICP.html#a41d907a6c720ef37eb8620caba3be739":[12,0,1,340,2]
+"classMR_1_1MultiwayICP.html#a41d907a6c720ef37eb8620caba3be739":[10,0,10,356,2]
 };
