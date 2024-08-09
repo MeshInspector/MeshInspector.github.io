@@ -920,7 +920,7 @@ var searchData=
   ['switchfeedrategradient_917',['switchFeedrateGradient',['../classMR_1_1ObjectGcode.html#a3fb464e9d8b0acb890a6a05552c4dd9e',1,'MR::ObjectGcode']]],
   ['sx_918',['Sx',['../group__AABBTreeGroup.html#ga21465bc7d67177777744f39ac171940c',1,'MR::IntersectionPrecomputes::Sx'],['../structMR_1_1IntersectionPrecomputes2.html#a5f59c134b3ba556dea499973669c2f5f',1,'MR::IntersectionPrecomputes2::Sx']]],
   ['sy_919',['Sy',['../group__AABBTreeGroup.html#gaf95502c89221bba3187782d4ed18199b',1,'MR::IntersectionPrecomputes::Sy'],['../structMR_1_1IntersectionPrecomputes2.html#a48da57b1568b50155d61042128d457de',1,'MR::IntersectionPrecomputes2::Sy']]],
-  ['sym_920',['sym',['../structMR_1_1EdgePoint.html#a317789cb353e8dbe9c42661fe7c4f99f',1,'MR::EdgePoint::sym()'],['../classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#adb10adef3a2148d0c05b8a91ccce0ddd',1,'MR::Id&lt; MR::EdgeTag &gt;::sym()'],['../structMR_1_1SegmPoint.html#aa8dd11ef62ac9009f3b27a0dc5371bcc',1,'MR::SegmPoint::sym()']]],
+  ['sym_920',['sym',['../structMR_1_1EdgePoint.html#a317789cb353e8dbe9c42661fe7c4f99f',1,'MR::EdgePoint::sym()'],['../classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html#a6a82ff715bd95b686f0cdef7b3e00cde',1,'MR::Id&lt; MR::EdgeTag &gt;::sym()'],['../structMR_1_1SegmPoint.html#aa8dd11ef62ac9009f3b27a0dc5371bcc',1,'MR::SegmPoint::sym()']]],
   ['symbolmeshparams_921',['SymbolMeshParams',['../structMR_1_1SymbolMeshParams.html',1,'MR']]],
   ['symbolsdistanceadditionaloffset_922',['symbolsDistanceAdditionalOffset',['../structMR_1_1SymbolMeshParams.html#a13308560203bfeb849317043fdd1957a',1,'MR::SymbolMeshParams']]],
   ['symbolsthicknessoffsetmodifier_923',['symbolsThicknessOffsetModifier',['../structMR_1_1SymbolMeshParams.html#a41e3e2a0fe3747d584ee52635c67c307',1,'MR::SymbolMeshParams']]],
