@@ -460,6 +460,7 @@ var hierarchy =
         [ "MR::KeyDownListener", "structMR_1_1KeyDownListener.html", null ],
         [ "MR::KeyRepeatListener", "structMR_1_1KeyRepeatListener.html", null ],
         [ "MR::KeyUpListener", "structMR_1_1KeyUpListener.html", null ],
+        [ "MR::MouseClickListener", "structMR_1_1MouseClickListener.html", null ],
         [ "MR::MouseDownListener", "structMR_1_1MouseDownListener.html", null ],
         [ "MR::MouseMoveListener", "structMR_1_1MouseMoveListener.html", null ],
         [ "MR::MouseScrollListener", "structMR_1_1MouseScrollListener.html", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"MRPrism_8h.html#afef3937755aede5ca15af7158e3dcf46":[13,0,0,2,3,304,0],
 "MRPrism_8h_source.html":[13,0,0,2,3,304],
 "MRProgressBar_8h.html":[13,0,0,2,8,48],
 "MRProgressBar_8h_source.html":[13,0,0,2,8,48],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "MRSceneLoad_8h_source.html":[13,0,0,2,3,325],
 "MRSceneObjectsListDrawer_8h.html":[13,0,0,2,8,76],
 "MRSceneObjectsListDrawer_8h_source.html":[13,0,0,2,8,76],
-"MRSceneRoot_8h.html":[13,0,0,2,3,326],
-"MRSceneRoot_8h.html#a4a16b61709f08cfac2280d5b1167bb24":[13,0,0,2,3,326,1]
+"MRSceneRoot_8h.html":[13,0,0,2,3,326]
 };

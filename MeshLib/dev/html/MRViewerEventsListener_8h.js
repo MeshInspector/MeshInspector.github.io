@@ -7,6 +7,7 @@ var MRViewerEventsListener_8h =
     [ "MR::MouseUpListener", "structMR_1_1MouseUpListener.html", "structMR_1_1MouseUpListener" ],
     [ "MR::MouseMoveListener", "structMR_1_1MouseMoveListener.html", "structMR_1_1MouseMoveListener" ],
     [ "MR::MouseScrollListener", "structMR_1_1MouseScrollListener.html", "structMR_1_1MouseScrollListener" ],
+    [ "MR::MouseClickListener", "structMR_1_1MouseClickListener.html", "structMR_1_1MouseClickListener" ],
     [ "MR::CharPressedListener", "structMR_1_1CharPressedListener.html", "structMR_1_1CharPressedListener" ],
     [ "MR::KeyUpListener", "structMR_1_1KeyUpListener.html", "structMR_1_1KeyUpListener" ],
     [ "MR::KeyDownListener", "structMR_1_1KeyDownListener.html", "structMR_1_1KeyDownListener" ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1Graph.html#a8479c33a6ee26f007a35cab71ba0f2b5":[12,0,1,220,1],
 "classMR_1_1Graph.html#ab7466409c32ef6a047fedfe19ed28c1b":[10,0,10,236,2],
 "classMR_1_1Graph.html#ab7466409c32ef6a047fedfe19ed28c1b":[12,0,1,220,2],
 "classMR_1_1Graph.html#ab76aab71a50b47ed582851ecb969920c":[10,0,10,236,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1ITransformControls.html#af95856a61b1ace2e76600c292a4965c7":[12,0,1,270,5],
 "classMR_1_1ITransformControls_1_1ChangeCenterAction.html":[10,0,10,286,0],
 "classMR_1_1ITransformControls_1_1ChangeCenterAction.html":[12,0,1,270,0],
-"classMR_1_1ITransformControls_1_1ChangeCenterAction.html#a33f480e43da49df5be723d1981cda6c8":[10,0,10,286,0,2],
-"classMR_1_1ITransformControls_1_1ChangeCenterAction.html#a33f480e43da49df5be723d1981cda6c8":[12,0,1,270,0,2]
+"classMR_1_1ITransformControls_1_1ChangeCenterAction.html#a33f480e43da49df5be723d1981cda6c8":[10,0,10,286,0,2]
 };

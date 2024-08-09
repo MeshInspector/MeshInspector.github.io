@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"classMR_1_1ImGuiMenu.html#a344b3a7a1c2340b70efb4c3d5ffa920f":[12,0,1,245,62],
 "classMR_1_1ImGuiMenu.html#a346d5dfb27bcdd169d5a51702396da40":[10,0,10,261,95],
 "classMR_1_1ImGuiMenu.html#a346d5dfb27bcdd169d5a51702396da40":[12,0,1,245,95],
 "classMR_1_1ImGuiMenu.html#a348b708be326f0e5f3a65a9be9f143b9":[10,0,10,261,113],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "classMR_1_1InTreePathBuilder.html#af25102bdd3972974bc827e8e7eb0b666":[12,0,1,253,0],
 "classMR_1_1LambdaRibbonItem.html":[10,0,10,291],
 "classMR_1_1LambdaRibbonItem.html":[12,0,1,275],
-"classMR_1_1LambdaRibbonItem.html#a596df9f6e3335a7b93dbefdeffcf7b72":[10,0,10,291,2],
-"classMR_1_1LambdaRibbonItem.html#a596df9f6e3335a7b93dbefdeffcf7b72":[12,0,1,275,2]
+"classMR_1_1LambdaRibbonItem.html#a596df9f6e3335a7b93dbefdeffcf7b72":[10,0,10,291,2]
 };

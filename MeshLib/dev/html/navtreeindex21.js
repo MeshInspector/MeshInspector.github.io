@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"classMR_1_1ITransformControls_1_1ChangeCenterAction.html#a33f480e43da49df5be723d1981cda6c8":[12,0,1,270,0,2],
 "classMR_1_1ITransformControls_1_1ChangeCenterAction.html#a926ace27d08d805a74cb193b73bcb2b0":[10,0,10,286,0,0],
 "classMR_1_1ITransformControls_1_1ChangeCenterAction.html#a926ace27d08d805a74cb193b73bcb2b0":[12,0,1,270,0,0],
 "classMR_1_1ITransformControls_1_1ChangeCenterAction.html#a9f633c38c10b5c7437a1f2479e01acdf":[10,0,10,286,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "classMR_1_1ImGuiMenu.html#a318c4a57bcb4a30a7620d3c954668c5a":[12,0,1,245,42],
 "classMR_1_1ImGuiMenu.html#a3425b4fd87149a0b1038c2caf99fb4ab":[10,0,10,261,57],
 "classMR_1_1ImGuiMenu.html#a3425b4fd87149a0b1038c2caf99fb4ab":[12,0,1,245,57],
-"classMR_1_1ImGuiMenu.html#a344b3a7a1c2340b70efb4c3d5ffa920f":[10,0,10,261,62],
-"classMR_1_1ImGuiMenu.html#a344b3a7a1c2340b70efb4c3d5ffa920f":[12,0,1,245,62]
+"classMR_1_1ImGuiMenu.html#a344b3a7a1c2340b70efb4c3d5ffa920f":[10,0,10,261,62]
 };

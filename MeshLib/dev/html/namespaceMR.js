@@ -470,6 +470,7 @@ var namespaceMR =
     [ "ModelBaseRenderParams", "structMR_1_1ModelBaseRenderParams.html", "structMR_1_1ModelBaseRenderParams" ],
     [ "ModelPointsData", "structMR_1_1ModelPointsData.html", "structMR_1_1ModelPointsData" ],
     [ "ModelRenderParams", "structMR_1_1ModelRenderParams.html", "structMR_1_1ModelRenderParams" ],
+    [ "MouseClickListener", "structMR_1_1MouseClickListener.html", "structMR_1_1MouseClickListener" ],
     [ "MouseController", "classMR_1_1MouseController.html", "classMR_1_1MouseController" ],
     [ "MouseDownListener", "structMR_1_1MouseDownListener.html", "structMR_1_1MouseDownListener" ],
     [ "MouseMoveListener", "structMR_1_1MouseMoveListener.html", "structMR_1_1MouseMoveListener" ],
@@ -1357,7 +1358,8 @@ var namespaceMR =
       [ "Left", "namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62da945d5e233cf7d6240f6b783b36a374ff", null ],
       [ "Right", "namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62da92b09c7c48c520c3c55e497875da437c", null ],
       [ "Middle", "namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62dab1ca34f82e83c52b010f86955f264e05", null ],
-      [ "Count", "namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62dae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+      [ "Count", "namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62dae93f994f01c537c4e2f7d8528c3eb5e9", null ],
+      [ "NoButton", "namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62dab592247167772fc6ba15f3d0f6465e38", null ]
     ] ],
     [ "MouseMode", "namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75", [
       [ "None", "namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75a6adf97f83acf6453d4a6a4b1070f3754", null ],

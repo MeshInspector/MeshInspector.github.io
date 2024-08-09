@@ -1,5 +1,11 @@
 var NAVTREEINDEX58 =
 {
+"structMR_1_1DenseBox.html#ad6e0ec24db49e4d651459703603a3e4d":[9,0,15,9],
+"structMR_1_1DenseBox.html#ae15fa3079fbe1aae94cb52176e59e802":[9,0,15,10],
+"structMR_1_1DenseBox.html#aee07541d158133fc4c85e7170de4d3e7":[9,0,15,3],
+"structMR_1_1DetectTunnelSettings.html":[9,18,4,0],
+"structMR_1_1DetectTunnelSettings.html#a2529d1b4547bb2eed9bb781f0c131829":[9,18,4,0,2],
+"structMR_1_1DetectTunnelSettings.html#a27a0181891bd9064803eb7608e3f0e10":[9,18,4,0,0],
 "structMR_1_1DetectTunnelSettings.html#abce133e9001f28cbce044fc8c1206ace":[9,18,4,0,1],
 "structMR_1_1DetectTunnelSettings.html#ae823ab96c2d11f1cccba5d61003a1202":[9,18,4,0,3],
 "structMR_1_1Dipole.html":[10,0,10,169],
@@ -243,11 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1EdgeSegment.html#adbe97beb7bc790ab2d46f0863a5bbacf":[10,0,10,190,0],
 "structMR_1_1EdgeSegment.html#adbe97beb7bc790ab2d46f0863a5bbacf":[12,0,1,174,0],
 "structMR_1_1EdgeSegment.html#aea79b437b030390db5737ed448df376c":[10,0,10,190,3],
-"structMR_1_1EdgeSegment.html#aea79b437b030390db5737ed448df376c":[12,0,1,174,3],
-"structMR_1_1EdgeTri.html":[9,1,16],
-"structMR_1_1EdgeTri.html#a45de5d714a586bda433f476169bb81ef":[9,1,16,1],
-"structMR_1_1EdgeTri.html#a75d3cbfc185bb135fa0ecacfa0eea64e":[9,1,16,2],
-"structMR_1_1EdgeTri.html#abc6f03d4ca7344789c80a99a10605739":[9,1,16,0],
-"structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318":[9,1,16,3],
-"structMR_1_1EmbeddedStructureParameters.html":[10,0,10,193]
+"structMR_1_1EdgeSegment.html#aea79b437b030390db5737ed448df376c":[12,0,1,174,3]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1EdgeTri.html":[9,1,16],
+"structMR_1_1EdgeTri.html#a45de5d714a586bda433f476169bb81ef":[9,1,16,1],
+"structMR_1_1EdgeTri.html#a75d3cbfc185bb135fa0ecacfa0eea64e":[9,1,16,2],
+"structMR_1_1EdgeTri.html#abc6f03d4ca7344789c80a99a10605739":[9,1,16,0],
+"structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318":[9,1,16,3],
+"structMR_1_1EmbeddedStructureParameters.html":[10,0,10,193],
 "structMR_1_1EmbeddedStructureParameters.html":[12,0,1,177],
 "structMR_1_1EmbeddedStructureParameters.html#a05c78c11ae3e84bc6ecb2f3ea9baf462":[10,0,10,193,0],
 "structMR_1_1EmbeddedStructureParameters.html#a05c78c11ae3e84bc6ecb2f3ea9baf462":[12,0,1,177,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1FileParameters.html#af94f67fb7131833e77aa1c32e60f68d1":[12,0,1,190,2],
 "structMR_1_1FillHoleItem.html":[9,11,3,2],
 "structMR_1_1FillHoleItem.html#a56124e5a79e5cbe2b1b617d2e142aaa1":[9,11,3,2,1],
-"structMR_1_1FillHoleItem.html#a93e897d7d608458643fa5ba8a08d2ea2":[9,11,3,2,0],
-"structMR_1_1FillHoleMetric.html":[9,11,3,4],
-"structMR_1_1FillHoleMetric.html#a3048bcf785194be02ce20b5d6e6bfd61":[9,11,3,4,1],
-"structMR_1_1FillHoleMetric.html#a7b6a69b1fc9a24862156d40b44ff814c":[9,11,3,4,0],
-"structMR_1_1FillHoleMetric.html#acc8ef5c37515d91d9c3cb3fbcaa1fd22":[9,11,3,4,2],
-"structMR_1_1FillHoleNicelySettings.html":[10,0,10,209],
-"structMR_1_1FillHoleNicelySettings.html":[12,0,1,193]
+"structMR_1_1FillHoleItem.html#a93e897d7d608458643fa5ba8a08d2ea2":[9,11,3,2,0]
 };

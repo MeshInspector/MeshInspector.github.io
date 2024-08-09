@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1Cuda_1_1FastWindingNumber.html":[9,1,0],
 "classMR_1_1Cuda_1_1FastWindingNumber.html#a03fd25b5742ad8c32943a8127288080e":[9,1,0,4],
 "classMR_1_1Cuda_1_1FastWindingNumber.html#a10e38a535b9aff32b6f5c639491dccb2":[9,1,0,2],
 "classMR_1_1Cuda_1_1FastWindingNumber.html#a35e0cc2dc56bc04f17a91c42a4b3b418":[9,1,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1EdgePathsBuilderT.html#a6121aae22b66ff8e123f4f1d2d21528d":[10,0,10,187,5],
 "classMR_1_1EdgePathsBuilderT.html#a6121aae22b66ff8e123f4f1d2d21528d":[12,0,1,171,5],
 "classMR_1_1EdgePathsBuilderT.html#a7567736873ea92c6a2359d13bdf9ff52":[10,0,10,187,2],
-"classMR_1_1EdgePathsBuilderT.html#a7567736873ea92c6a2359d13bdf9ff52":[12,0,1,171,2],
-"classMR_1_1EdgePathsBuilderT.html#a951e1aef2547463398bfb912b6224dbf":[10,0,10,187,11]
+"classMR_1_1EdgePathsBuilderT.html#a7567736873ea92c6a2359d13bdf9ff52":[12,0,1,171,2]
 };

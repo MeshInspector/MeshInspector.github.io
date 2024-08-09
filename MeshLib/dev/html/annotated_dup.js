@@ -483,6 +483,7 @@ var annotated_dup =
       [ "ModelBaseRenderParams", "structMR_1_1ModelBaseRenderParams.html", "structMR_1_1ModelBaseRenderParams" ],
       [ "ModelPointsData", "structMR_1_1ModelPointsData.html", "structMR_1_1ModelPointsData" ],
       [ "ModelRenderParams", "structMR_1_1ModelRenderParams.html", "structMR_1_1ModelRenderParams" ],
+      [ "MouseClickListener", "structMR_1_1MouseClickListener.html", "structMR_1_1MouseClickListener" ],
       [ "MouseController", "classMR_1_1MouseController.html", "classMR_1_1MouseController" ],
       [ "MouseDownListener", "structMR_1_1MouseDownListener.html", "structMR_1_1MouseDownListener" ],
       [ "MouseMoveListener", "structMR_1_1MouseMoveListener.html", "structMR_1_1MouseMoveListener" ],

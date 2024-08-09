@@ -1,5 +1,11 @@
 var NAVTREEINDEX55 =
 {
+"structMRICPPairData.html":[12,0,24],
+"structMRICPPairData.html#a1058754ffc1ca72641a18f3948b5e193":[12,0,24,3],
+"structMRICPPairData.html#a378a97d5205f2e9f3da4234898bce466":[12,0,24,0],
+"structMRICPPairData.html#a5d766d30128740e59a1a46f3c070f04d":[12,0,24,5],
+"structMRICPPairData.html#a846d3e65ab2e79227973c093d37d296f":[12,0,24,2],
+"structMRICPPairData.html#ad69c3803430c2d67ad2d7b98d50671b7":[12,0,24,1],
 "structMRICPPairData.html#af985418f8344cd7fff2fb9219041866b":[12,0,24,4],
 "structMRICPProperties.html":[12,0,25],
 "structMRICPProperties.html#a01533b26bf04f650af9c2628b8804258":[12,0,25,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX55 =
 "structMR_1_1Ball.html#aa7f96dff1ff19edb48b34440972856c1":[9,1,25,0],
 "structMR_1_1Ball.html#ac3fa51acd301bd91b76700d008cb7838":[9,1,25,1],
 "structMR_1_1BaseFitParams.html":[10,0,10,63],
-"structMR_1_1BaseFitParams.html":[12,0,1,47],
-"structMR_1_1BaseFitParams.html#a1ba0fadee2fc4bad0655f2b0f15211ab":[10,0,10,63,1],
-"structMR_1_1BaseFitParams.html#a1ba0fadee2fc4bad0655f2b0f15211ab":[12,0,1,47,1],
-"structMR_1_1BaseFitParams.html#ae74aad8ea3ab5114c97b3b5cf02a6cd6":[10,0,10,63,0],
-"structMR_1_1BaseFitParams.html#ae74aad8ea3ab5114c97b3b5cf02a6cd6":[12,0,1,47,0],
-"structMR_1_1BaseRenderParams.html":[10,0,10,64],
-"structMR_1_1BaseRenderParams.html":[12,0,1,48]
+"structMR_1_1BaseFitParams.html":[12,0,1,47]
 };
