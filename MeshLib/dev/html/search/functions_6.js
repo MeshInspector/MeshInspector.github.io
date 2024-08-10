@@ -624,9 +624,10 @@ var searchData=
   ['graph_621',['graph',['../classMR_1_1WatershedGraph.html#a52950e2fbd6e18253951cd1a837102dc',1,'MR::WatershedGraph']]],
   ['gray_622',['gray',['../structMR_1_1Color.html#ab2d02b3c25652081a0b2f9c3f4de388f',1,'MR::Color']]],
   ['green_623',['green',['../structMR_1_1Color.html#a07d25f841350c5a6eeca781f6dcd0fda',1,'MR::Color']]],
-  ['grid_624',['grid',['../classMR_1_1ObjectVoxels.html#a47bee6e3a0ea9a036e59d7857f8f43b4',1,'MR::ObjectVoxels']]],
-  ['gridtomesh_625',['gridToMesh',['../namespaceMR.html#aac89fb164b5b7d4878d1dedead4331a6',1,'MR::gridToMesh(const FloatGrid &amp;grid, const GridToMeshSettings &amp;settings)'],['../namespaceMR.html#aa74c456226024506fb5fb0013dedf5a7',1,'MR::gridToMesh(FloatGrid &amp;&amp;grid, const GridToMeshSettings &amp;settings)']]],
-  ['growone_626',['growOne',['../classMR_1_1SurfaceDistanceBuilder.html#a2c536dc87c144291b79132239fe4d967',1,'MR::SurfaceDistanceBuilder']]],
-  ['growoneedge_627',['growOneEdge',['../classMR_1_1EdgePathsBuilderT.html#a245a1aca92a23d5b494706916ea2554e',1,'MR::EdgePathsBuilderT']]],
-  ['guessprecision_628',['guessPrecision',['../namespaceMR.html#a33468b27fcfb4e39e7bcbc65162f5dce',1,'MR::guessPrecision(T value)'],['../namespaceMR.html#ab1a04d603618814df24f8f6b758ace40',1,'MR::guessPrecision(T min, T max)'],['../namespaceMR.html#a6304170dd60424bc3b95da334cc55e6b',1,'MR::guessPrecision(T value)'],['../namespaceMR.html#aed6e483d438f864a607f1e84e410c2c7',1,'MR::guessPrecision(T min, T max)']]]
+  ['greenredcolors_624',['GreenRedColors',['../classMR_1_1Palette.html#a50926dd1bf08562983f3b26d745c961b',1,'MR::Palette']]],
+  ['grid_625',['grid',['../classMR_1_1ObjectVoxels.html#a47bee6e3a0ea9a036e59d7857f8f43b4',1,'MR::ObjectVoxels']]],
+  ['gridtomesh_626',['gridToMesh',['../namespaceMR.html#aac89fb164b5b7d4878d1dedead4331a6',1,'MR::gridToMesh(const FloatGrid &amp;grid, const GridToMeshSettings &amp;settings)'],['../namespaceMR.html#aa74c456226024506fb5fb0013dedf5a7',1,'MR::gridToMesh(FloatGrid &amp;&amp;grid, const GridToMeshSettings &amp;settings)']]],
+  ['growone_627',['growOne',['../classMR_1_1SurfaceDistanceBuilder.html#a2c536dc87c144291b79132239fe4d967',1,'MR::SurfaceDistanceBuilder']]],
+  ['growoneedge_628',['growOneEdge',['../classMR_1_1EdgePathsBuilderT.html#a245a1aca92a23d5b494706916ea2554e',1,'MR::EdgePathsBuilderT']]],
+  ['guessprecision_629',['guessPrecision',['../namespaceMR.html#a33468b27fcfb4e39e7bcbc65162f5dce',1,'MR::guessPrecision(T value)'],['../namespaceMR.html#ab1a04d603618814df24f8f6b758ace40',1,'MR::guessPrecision(T min, T max)'],['../namespaceMR.html#a6304170dd60424bc3b95da334cc55e6b',1,'MR::guessPrecision(T value)'],['../namespaceMR.html#aed6e483d438f864a607f1e84e410c2c7',1,'MR::guessPrecision(T min, T max)']]]
 ];
