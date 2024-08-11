@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"classMR_1_1BestFitParabola.html#a35bb9336bb5fe0191c718e89261c9645":[12,0,1,53,1],
 "classMR_1_1BestFitParabola.html#a5aa2674186bbd028f31bcc7308f82255":[10,0,10,69,2],
 "classMR_1_1BestFitParabola.html#a5aa2674186bbd028f31bcc7308f82255":[12,0,1,53,2],
 "classMR_1_1BestFitParabola.html#a8b4c1d8441a656b128c01711395e395b":[10,0,10,69,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "classMR_1_1ChangeMeshCreasesAction.html#a8e94b4602cd0f65cfe61ec32c75659db":[9,4,25,3],
 "classMR_1_1ChangeMeshCreasesAction.html#abaa4073cae3371c003ef86720b945c86":[9,4,25,5],
 "classMR_1_1ChangeMeshEdgeSelectionAction.html":[9,4,24],
-"classMR_1_1ChangeMeshEdgeSelectionAction.html#a0943bda0fc9bda571b5de449d3bca979":[9,4,24,3],
-"classMR_1_1ChangeMeshEdgeSelectionAction.html#a23e0d32d940cc543ccd81a4b2d55f58a":[9,4,24,1]
+"classMR_1_1ChangeMeshEdgeSelectionAction.html#a0943bda0fc9bda571b5de449d3bca979":[9,4,24,3]
 };

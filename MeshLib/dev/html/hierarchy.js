@@ -707,6 +707,7 @@ var hierarchy =
     [ "MR::MeshPoint", "structMR_1_1MeshPoint.html", null ],
     [ "MR::MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", null ],
     [ "MR::MeshSignedDistanceResult", "structMR_1_1MeshSignedDistanceResult.html", null ],
+    [ "MR::MeshToDirectionVolumeParams", "structMR_1_1MeshToDirectionVolumeParams.html", null ],
     [ "MR::MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html", null ],
     [ "MR::MeshToDistanceVolumeParams", "structMR_1_1MeshToDistanceVolumeParams.html", null ],
     [ "MR::MeshTopology", "classMR_1_1MeshTopology.html", null ],

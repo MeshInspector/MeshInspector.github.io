@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"classMR_1_1detail_1_1ScopeGuard.html#a80a080271e0af15a7e4244bcc72d35a4":[10,0,10,3,2,3],
 "classMR_1_1detail_1_1ScopeGuard.html#a80a080271e0af15a7e4244bcc72d35a4":[12,0,1,1,2,3],
 "classMR_1_1detail_1_1ScopeGuard.html#ab72f5f420a40ffb2fdeba77f9cfc3c6f":[10,0,10,3,2,1],
 "classMR_1_1detail_1_1ScopeGuard.html#ab72f5f420a40ffb2fdeba77f9cfc3c6f":[12,0,1,1,2,1],
@@ -70,9 +71,9 @@ var NAVTREEINDEX43 =
 "conceptMR_1_1Features_1_1MeasureSupported.html":[11,0,1,1],
 "conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay.html":[10,0,10,6,1,11],
 "conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay.html":[11,0,1,0,0],
-"conceptMR_1_1HasGetDirectionMethod.html":[10,0,10,714],
+"conceptMR_1_1HasGetDirectionMethod.html":[10,0,10,715],
 "conceptMR_1_1HasGetDirectionMethod.html":[11,0,6],
-"conceptMR_1_1HasGetNormalMethod.html":[10,0,10,713],
+"conceptMR_1_1HasGetNormalMethod.html":[10,0,10,714],
 "conceptMR_1_1HasGetNormalMethod.html":[11,0,5],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1Scalar.html":[10,0,10,12,0,8],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1Scalar.html":[11,0,2,0,0],
@@ -84,7 +85,7 @@ var NAVTREEINDEX43 =
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalar.html":[11,0,2,0,2],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalarMaybeCvref.html":[10,0,10,12,0,11],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalarMaybeCvref.html":[11,0,2,0,3],
-"conceptMR_1_1Trivial.html":[10,0,10,712],
+"conceptMR_1_1Trivial.html":[10,0,10,713],
 "conceptMR_1_1Trivial.html":[11,0,4],
 "conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType.html":[10,0,10,36,1,5],
 "conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType.html":[11,0,3,1,0],
@@ -96,7 +97,7 @@ var NAVTREEINDEX43 =
 "conceptMR_1_1UI_1_1detail_1_1ValidDragSpeedForTargetType.html":[11,0,3,0,3],
 "conceptMR_1_1UI_1_1detail_1_1VectorOrScalar.html":[10,0,10,36,0,1],
 "conceptMR_1_1UI_1_1detail_1_1VectorOrScalar.html":[11,0,3,0,1],
-"conceptMR_1_1UnitEnum.html":[10,0,10,716],
+"conceptMR_1_1UnitEnum.html":[10,0,10,717],
 "conceptMR_1_1UnitEnum.html":[11,0,8],
 "conceptMR_1_1detail_1_1Units_1_1Scalar.html":[10,0,10,3,0,1],
 "conceptMR_1_1detail_1_1Units_1_1Scalar.html":[11,0,0,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "globals_func.html":[13,1,1],
 "globals_g.html":[13,1,0,7],
 "globals_i.html":[13,1,0,8],
-"globals_l.html":[13,1,0,9],
-"globals_m.html":[13,1,0,10]
+"globals_l.html":[13,1,0,9]
 };

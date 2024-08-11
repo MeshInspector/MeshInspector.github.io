@@ -1,5 +1,6 @@
 var NAVTREEINDEX47 =
 {
+"group__SerializerGroup.html#ga72e078f3acb1fe95234144b3f7d2aced":[9,2,15,18],
 "group__SerializerGroup.html#ga73da1f89ff79644868f29b66a89aa3ef":[9,2,15,53],
 "group__SerializerGroup.html#ga790b6ef6dd31f1a82bf42d810c4c1f44":[9,2,15,25],
 "group__SerializerGroup.html#ga79617de343668de49d25a0ec996110e4":[9,2,15,48],
@@ -248,6 +249,5 @@ var NAVTREEINDEX47 =
 "index.html":[],
 "index.html":[0],
 "index.html#HomePageBuildLin":[0,2],
-"index.html#HomePageBuildWasm":[0,3],
-"index.html#HomePageBuildWin":[0,1]
+"index.html#HomePageBuildWasm":[0,3]
 };

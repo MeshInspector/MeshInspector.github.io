@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1Config.html#ae9eaec2c0bade737afbf64156d5a6ca8":[12,0,1,126,20],
 "classMR_1_1Config.html#aef03ecb5f0b0ec79bd9f52d4ed8f82e4":[10,0,10,142,11],
 "classMR_1_1Config.html#aef03ecb5f0b0ec79bd9f52d4ed8f82e4":[12,0,1,126,11],
 "classMR_1_1Config.html#aefbf21b76d9f87667c9313e310f8fe9b":[10,0,10,142,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1DistanceMeasurementObject.html#afe07f49a18d281bc88e475138db05c0e":[12,0,1,162,8],
 "classMR_1_1DistanceMeasurementObject.html#afee53f116445c2f14e15413ad6913d6b":[10,0,10,178,10],
 "classMR_1_1DistanceMeasurementObject.html#afee53f116445c2f14e15413ad6913d6b":[12,0,1,162,10],
-"classMR_1_1EdgePathsAStarBuilder.html":[10,0,10,189],
-"classMR_1_1EdgePathsAStarBuilder.html":[12,0,1,173]
+"classMR_1_1EdgePathsAStarBuilder.html":[10,0,10,189]
 };

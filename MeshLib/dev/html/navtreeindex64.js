@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1MergeVolumePartSettings.html#a49ad4e693c6a08af856dd55e575f702f":[9,19,3,1],
+"structMR_1_1MergeVolumePartSettings.html#a4a4414df6198c1615c8f9d37c3692f87":[9,19,3,7],
 "structMR_1_1MergeVolumePartSettings.html#a577e60ec177ee1ce4be553f79fc09a89":[9,19,3,2],
 "structMR_1_1MergeVolumePartSettings.html#a58b526091c2efa7486833edd93420975":[9,19,3,0],
 "structMR_1_1MergeVolumePartSettings.html#afd642c0d879285bf9cfb4e609c2cd816":[9,19,3,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1MeshPoint.html#a3a24b45014eebfd444ca4f0e15a72c3d":[12,0,1,315,3],
 "structMR_1_1MeshPoint.html#aada8def241781f58cfc3cfe595c86622":[10,0,10,331,4],
 "structMR_1_1MeshPoint.html#aada8def241781f58cfc3cfe595c86622":[12,0,1,315,4],
-"structMR_1_1MeshPoint.html#ab79fe5ae069fdadbd3770bdfe85a1109":[10,0,10,331,2],
-"structMR_1_1MeshPoint.html#ab79fe5ae069fdadbd3770bdfe85a1109":[12,0,1,315,2],
-"structMR_1_1MeshPoint.html#ae6a8983e822178897c427087d4f65a28":[10,0,10,331,1]
+"structMR_1_1MeshPoint.html#ab79fe5ae069fdadbd3770bdfe85a1109":[10,0,10,331,2]
 };

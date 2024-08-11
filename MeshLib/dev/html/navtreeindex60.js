@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aeda0b75106e0df9b044fe33c1adb7044":[10,0,10,6,0,0,6],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aeda0b75106e0df9b044fe33c1adb7044":[12,0,1,2,0,0,6],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#afa5b6dc1d9e1f98cbec052e8d506d20a":[10,0,10,6,0,0,7],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#afa5b6dc1d9e1f98cbec052e8d506d20a":[12,0,1,2,0,0,7],
 "structMR_1_1Features_1_1Primitives_1_1Plane.html":[10,0,10,6,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1GlTexture_1_1Settings.html#ad39830e427a6b30fbd800ad366bd89f4":[10,0,10,235,0,5],
 "structMR_1_1GlTexture_1_1Settings.html#ad39830e427a6b30fbd800ad366bd89f4":[12,0,1,219,0,5],
 "structMR_1_1GlTexture_1_1Settings.html#afac6caf438f2fe584e2e968364cfbd8a":[10,0,10,235,0,4],
-"structMR_1_1GlTexture_1_1Settings.html#afac6caf438f2fe584e2e968364cfbd8a":[12,0,1,219,0,4],
-"structMR_1_1Graph_1_1EndVertices.html":[10,0,10,239,0],
-"structMR_1_1Graph_1_1EndVertices.html":[12,0,1,223,0]
+"structMR_1_1GlTexture_1_1Settings.html#afac6caf438f2fe584e2e968364cfbd8a":[12,0,1,219,0,4]
 };

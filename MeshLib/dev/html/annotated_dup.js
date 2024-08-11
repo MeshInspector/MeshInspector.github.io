@@ -476,6 +476,7 @@ var annotated_dup =
       [ "MeshRelaxParams", "structMR_1_1MeshRelaxParams.html", "structMR_1_1MeshRelaxParams" ],
       [ "MeshSignedDistanceResult", "structMR_1_1MeshSignedDistanceResult.html", "structMR_1_1MeshSignedDistanceResult" ],
       [ "MeshTexture", "structMR_1_1MeshTexture.html", "structMR_1_1MeshTexture" ],
+      [ "MeshToDirectionVolumeParams", "structMR_1_1MeshToDirectionVolumeParams.html", "structMR_1_1MeshToDirectionVolumeParams" ],
       [ "MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html", "structMR_1_1MeshToDistanceMapParams" ],
       [ "MeshToDistanceVolumeParams", "structMR_1_1MeshToDistanceVolumeParams.html", "structMR_1_1MeshToDistanceVolumeParams" ],
       [ "MeshTopology", "classMR_1_1MeshTopology.html", "classMR_1_1MeshTopology" ],

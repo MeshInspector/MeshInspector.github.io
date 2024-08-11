@@ -1,5 +1,7 @@
 var NAVTREEINDEX57 =
 {
+"structMR_1_1Box.html#af93a3ccd5c9d9d678844e2578807089f":[9,0,2,0,17],
+"structMR_1_1Box.html#afc09ec552867bc199cca1653871f40eb":[9,0,2,0,0],
 "structMR_1_1BoxedLeaf.html":[9,1,2],
 "structMR_1_1BoxedLeaf.html#a0b4e56c5de1bf6b3fd5a6a6896e66d46":[9,1,2,0],
 "structMR_1_1BoxedLeaf.html#a20f98852bf25f7268e73b993bd26a8d7":[9,1,2,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX57 =
 "structMR_1_1DecimateSettings.html#ac4cfcdf2807788f5914a0640372d4a07":[9,12,0,16],
 "structMR_1_1DecimateSettings.html#ac98cbfa367475605fa88982f55dc9a61":[9,12,0,10],
 "structMR_1_1DecimateSettings.html#ae341a50784372571b1b5bb3e6948981e":[9,12,0,27],
-"structMR_1_1DecimateSettings.html#aebecde304889b67910dd05d032cb8d07":[9,12,0,6],
-"structMR_1_1DecimateSettings.html#aee15c4faad0020190c28ac13da3e735e":[9,12,0,26],
-"structMR_1_1DecimateSettings.html#af1fd605860fa7a20931506008f29daa9":[9,12,0,12]
+"structMR_1_1DecimateSettings.html#aebecde304889b67910dd05d032cb8d07":[9,12,0,6]
 };

@@ -107,13 +107,14 @@ var searchData=
   ['progresscb_104',['progressCb',['../structMR_1_1FindOverhangsSettings.html#a0533f2a781c49812b0d5cbe4fbfbaa21',1,'MR::FindOverhangsSettings::progressCb'],['../structMR_1_1UniteManyMeshesParams.html#ab9881bd75997eb09cd8e02b82b95bfd1',1,'MR::UniteManyMeshesParams::progressCb']]],
   ['proj_105',['proj',['../structMR_1_1MeshIntersectionResult.html#a59e06434bac0180ffaac80a2fb3041d1',1,'MR::MeshIntersectionResult::proj'],['../structMR_1_1MeshProjectionResult.html#ad1465eeb2296933daf2de86872a2ba28',1,'MR::MeshProjectionResult::proj'],['../structMR_1_1SignedDistanceToMeshResult.html#adb459805ccfb452c3a5c82fe673bbfec',1,'MR::SignedDistanceToMeshResult::proj']]],
   ['projectonoriginalmesh_106',['projectOnOriginalMesh',['../structMR_1_1RemeshSettings.html#a6a29eef43f96e620bbdc1a55778d04b4',1,'MR::RemeshSettings::projectOnOriginalMesh'],['../structMR_1_1SubdivideSettings.html#a52aa2a88771ab9ca39f096cae8256c7d',1,'MR::SubdivideSettings::projectOnOriginalMesh'],['../structMRRemeshSettings.html#a130c782b734bdbe914cd080e35e0f0e9',1,'MRRemeshSettings::projectOnOriginalMesh']]],
-  ['projmatrix_107',['projMatrix',['../structMR_1_1BaseRenderParams.html#ab108063540156c1b73540c07c48e6d01',1,'MR::BaseRenderParams']]],
-  ['projonbd_108',['projOnBd',['../structMR_1_1ShellVertexInfo.html#a6a812bb14fc2863c4b0f30cc834ddd55',1,'MR::ShellVertexInfo']]],
-  ['propertymasks_5f_109',['propertyMasks_',['../classMR_1_1AddVisualProperties.html#a534fe1b7809ccb50abd437a88b6c1412',1,'MR::AddVisualProperties']]],
-  ['propertyname_110',['propertyName',['../structMR_1_1FeatureObjectSharedProperty.html#a94077bfcbf22ce57417de8758cb67ac1',1,'MR::FeatureObjectSharedProperty']]],
-  ['pt_111',['pt',['../structMR_1_1MeshPoint.html#a3a24b45014eebfd444ca4f0e15a72c3d',1,'MR::MeshPoint::pt'],['../structMR_1_1PreciseVertCoords2.html#a5d5322f95eb294c6584a9f15f247fcd7',1,'MR::PreciseVertCoords2::pt'],['../structMR_1_1PreciseVertCoords.html#a0c89d0a0e8bdc63b8bd4559e3761df3c',1,'MR::PreciseVertCoords::pt']]],
-  ['pt2sm_112',['pt2sm',['../structMR_1_1ImproveSamplingSettings.html#a360e357b9f7ac2e2bd821f4ed477a6ba',1,'MR::ImproveSamplingSettings']]],
-  ['ptcolors_113',['ptColors',['../structMR_1_1ImproveSamplingSettings.html#aed21697c5aa69b1ad84771a17fb97ea5',1,'MR::ImproveSamplingSettings::ptColors'],['../structMR_1_1PointsToMeshParameters.html#ad30c0a7b27c4a1b5818cb7fc981403c3',1,'MR::PointsToMeshParameters::ptColors']]],
-  ['ptsinsm_114',['ptsInSm',['../structMR_1_1ImproveSamplingSettings.html#a402a2839352286a79e22d7c24a11be24',1,'MR::ImproveSamplingSettings']]],
-  ['pushcolorscb_115',['pushColorsCb',['../structMR_1_1CustomButtonParameters.html#ad01797d49f38c7175a5ca759d5064866',1,'MR::CustomButtonParameters']]]
+  ['projector_107',['projector',['../structMR_1_1MeshToDirectionVolumeParams.html#abe274cb37fde7b021b46a400ec6ce767',1,'MR::MeshToDirectionVolumeParams']]],
+  ['projmatrix_108',['projMatrix',['../structMR_1_1BaseRenderParams.html#ab108063540156c1b73540c07c48e6d01',1,'MR::BaseRenderParams']]],
+  ['projonbd_109',['projOnBd',['../structMR_1_1ShellVertexInfo.html#a6a812bb14fc2863c4b0f30cc834ddd55',1,'MR::ShellVertexInfo']]],
+  ['propertymasks_5f_110',['propertyMasks_',['../classMR_1_1AddVisualProperties.html#a534fe1b7809ccb50abd437a88b6c1412',1,'MR::AddVisualProperties']]],
+  ['propertyname_111',['propertyName',['../structMR_1_1FeatureObjectSharedProperty.html#a94077bfcbf22ce57417de8758cb67ac1',1,'MR::FeatureObjectSharedProperty']]],
+  ['pt_112',['pt',['../structMR_1_1MeshPoint.html#a3a24b45014eebfd444ca4f0e15a72c3d',1,'MR::MeshPoint::pt'],['../structMR_1_1PreciseVertCoords2.html#a5d5322f95eb294c6584a9f15f247fcd7',1,'MR::PreciseVertCoords2::pt'],['../structMR_1_1PreciseVertCoords.html#a0c89d0a0e8bdc63b8bd4559e3761df3c',1,'MR::PreciseVertCoords::pt']]],
+  ['pt2sm_113',['pt2sm',['../structMR_1_1ImproveSamplingSettings.html#a360e357b9f7ac2e2bd821f4ed477a6ba',1,'MR::ImproveSamplingSettings']]],
+  ['ptcolors_114',['ptColors',['../structMR_1_1ImproveSamplingSettings.html#aed21697c5aa69b1ad84771a17fb97ea5',1,'MR::ImproveSamplingSettings::ptColors'],['../structMR_1_1PointsToMeshParameters.html#ad30c0a7b27c4a1b5818cb7fc981403c3',1,'MR::PointsToMeshParameters::ptColors']]],
+  ['ptsinsm_115',['ptsInSm',['../structMR_1_1ImproveSamplingSettings.html#a402a2839352286a79e22d7c24a11be24',1,'MR::ImproveSamplingSettings']]],
+  ['pushcolorscb_116',['pushColorsCb',['../structMR_1_1CustomButtonParameters.html#ad01797d49f38c7175a5ca759d5064866',1,'MR::CustomButtonParameters']]]
 ];

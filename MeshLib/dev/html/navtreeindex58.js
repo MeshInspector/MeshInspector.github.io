@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"structMR_1_1DecimateSettings.html#aee15c4faad0020190c28ac13da3e735e":[9,12,0,26],
+"structMR_1_1DecimateSettings.html#af1fd605860fa7a20931506008f29daa9":[9,12,0,12],
 "structMR_1_1DeloneSettings.html":[10,0,10,164],
 "structMR_1_1DeloneSettings.html":[12,0,1,148],
 "structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[10,0,10,164,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html":[12,0,1,174,0],
 "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a0e59111b442fc3dcfc4cfc089a0972ec":[10,0,10,190,0,2],
 "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a0e59111b442fc3dcfc4cfc089a0972ec":[12,0,1,174,0,2],
-"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a4c276cfcbefefc36c49ded5ed151d1f4":[10,0,10,190,0,0],
-"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a4c276cfcbefefc36c49ded5ed151d1f4":[12,0,1,174,0,0],
-"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a86bbb1910bc530c8f88287ede3605c5f":[10,0,10,190,0,1]
+"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a4c276cfcbefefc36c49ded5ed151d1f4":[10,0,10,190,0,0]
 };

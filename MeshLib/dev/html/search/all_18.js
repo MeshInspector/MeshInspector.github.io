@@ -234,7 +234,7 @@ var searchData=
   ['visualparams_231',['VisualParams',['../structMR_1_1TransformControls_1_1VisualParams.html',1,'MR::TransformControls']]],
   ['vmap_232',['vmap',['../structMR_1_1MeshBuilder_1_1MeshPiece.html#a0e2772f29127c4ade3e9c174019fa545',1,'MR::MeshBuilder::MeshPiece']]],
   ['voidorerrstr_233',['VoidOrErrStr',['../namespaceMR.html#aff6352909bd9c9bb61e99aa3260f213e',1,'MR']]],
-  ['vol_234',['vol',['../structMR_1_1MeshToDistanceVolumeParams.html#a360d1bd15bac22e4e7e287a986e68bed',1,'MR::MeshToDistanceVolumeParams::vol'],['../structMR_1_1VoxelsLoad_1_1DicomVolume.html#ae1e4814e10ab95b1439695374227a5de',1,'MR::VoxelsLoad::DicomVolume::vol']]],
+  ['vol_234',['vol',['../structMR_1_1MeshToDistanceVolumeParams.html#a360d1bd15bac22e4e7e287a986e68bed',1,'MR::MeshToDistanceVolumeParams::vol'],['../structMR_1_1MeshToDirectionVolumeParams.html#abc2ad86ead41f3e878ed25f71acf4882',1,'MR::MeshToDirectionVolumeParams::vol'],['../structMR_1_1VoxelsLoad_1_1DicomVolume.html#ae1e4814e10ab95b1439695374227a5de',1,'MR::VoxelsLoad::DicomVolume::vol']]],
   ['volume_235',['Volume',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a0b127ccf018299560090f1f8804bd676',1,'MR::GLStaticHolder']]],
   ['volume_236',['volume',['../structMR_1_1Box.html#aaf8c494ec86f9a6ef904299b78f1cc23',1,'MR::Box::volume()'],['../structMR_1_1Mesh.html#a952176d5bcd16b91d26dc6fa2a0bdc6c',1,'MR::Mesh::volume()'],['../classMR_1_1MeshOnVoxelsT.html#a318d6a77befd7e69df2d35a7b4252959',1,'MR::MeshOnVoxelsT::volume()'],['../classMR_1_1ObjectMeshHolder.html#a8d7824bc0f0e8a4bf4a0ae4274d5c4e0',1,'MR::ObjectMeshHolder::volume()']]],
   ['volume_20indexer_237',['Volume Indexer',['../group__VolumeIndexerGroup.html',1,'']]],
