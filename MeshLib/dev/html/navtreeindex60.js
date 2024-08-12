@@ -1,7 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a9f603438a2e12d81289b9696c05cdcd4":[10,0,10,6,0,0,12],
-"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a9f603438a2e12d81289b9696c05cdcd4":[12,0,1,2,0,0,12],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a9f96764db5c4750b318539f5c7ccf9b3":[10,0,10,6,0,0,4],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a9f96764db5c4750b318539f5c7ccf9b3":[12,0,1,2,0,0,4],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aa12508a43caab5ab1a44e29db684592d":[10,0,10,6,0,0,14],
@@ -249,5 +247,7 @@ var NAVTREEINDEX60 =
 "structMR_1_1GeneralOffsetParameters.html#a91edecd5978344a023aca282179b94a5a1e97e73f1e45d465e23a2ea172bc3355":[10,0,10,232,0,2],
 "structMR_1_1GeneralOffsetParameters.html#a91edecd5978344a023aca282179b94a5a1e97e73f1e45d465e23a2ea172bc3355":[12,0,1,216,0,2],
 "structMR_1_1GeneralOffsetParameters.html#a91edecd5978344a023aca282179b94a5ae510cdf33cd497134b47b9316314d4b4":[10,0,10,232,0,0],
-"structMR_1_1GeneralOffsetParameters.html#a91edecd5978344a023aca282179b94a5ae510cdf33cd497134b47b9316314d4b4":[12,0,1,216,0,0]
+"structMR_1_1GeneralOffsetParameters.html#a91edecd5978344a023aca282179b94a5ae510cdf33cd497134b47b9316314d4b4":[12,0,1,216,0,0],
+"structMR_1_1GeneralOffsetParameters.html#a91edecd5978344a023aca282179b94a5aeb6d8ae6f20283755b339c0dc273988b":[10,0,10,232,0,1],
+"structMR_1_1GeneralOffsetParameters.html#a91edecd5978344a023aca282179b94a5aeb6d8ae6f20283755b339c0dc273988b":[12,0,1,216,0,1]
 };

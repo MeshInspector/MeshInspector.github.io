@@ -1,7 +1,5 @@
 var NAVTREEINDEX68 =
 {
-"structMR_1_1PointsLoadSettings.html#a5b5b7847b53c3638190037e6bdcbb97d":[10,0,10,441,2],
-"structMR_1_1PointsLoadSettings.html#a5b5b7847b53c3638190037e6bdcbb97d":[12,0,1,425,2],
 "structMR_1_1PointsLoadSettings.html#a5e37a095f995393cb75628848220a000":[10,0,10,441,0],
 "structMR_1_1PointsLoadSettings.html#a5e37a095f995393cb75628848220a000":[12,0,1,425,0],
 "structMR_1_1PointsLoad_1_1E57LoadSettings.html":[10,0,10,26,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX68 =
 "structMR_1_1PreciseVertCoords2.html#a6ffb69d89938c4fc7d7cf12857c89f25":[12,0,1,453,0],
 "structMR_1_1ProgressInterrupter.html":[10,0,10,472],
 "structMR_1_1ProgressInterrupter.html":[12,0,1,456],
-"structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3":[10,0,10,472,1]
+"structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3":[10,0,10,472,1],
+"structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3":[12,0,1,456,1],
+"structMR_1_1ProgressInterrupter.html#aa7c319b39d9ff06438f19d5c5306139e":[10,0,10,472,2]
 };

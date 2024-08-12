@@ -1,7 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"structMR_1_1GeneralOffsetParameters.html#a91edecd5978344a023aca282179b94a5aeb6d8ae6f20283755b339c0dc273988b":[10,0,10,232,0,1],
-"structMR_1_1GeneralOffsetParameters.html#a91edecd5978344a023aca282179b94a5aeb6d8ae6f20283755b339c0dc273988b":[12,0,1,216,0,1],
 "structMR_1_1GlTexture_1_1Settings.html":[10,0,10,235,0],
 "structMR_1_1GlTexture_1_1Settings.html":[12,0,1,219,0],
 "structMR_1_1GlTexture_1_1Settings.html#a3943dc4f528bc49722114379614e4c2e":[10,0,10,235,0,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX61 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html":[12,0,1,5,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a13bf25d17b0cd12e3c276a80d170fa5b":[10,0,10,13,3,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a13bf25d17b0cd12e3c276a80d170fa5b":[12,0,1,5,3,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a74a08203e21476972026d8eb8fcb0914":[10,0,10,13,3,2]
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a74a08203e21476972026d8eb8fcb0914":[10,0,10,13,3,2],
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a74a08203e21476972026d8eb8fcb0914":[12,0,1,5,3,2],
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#adc065c4e3c818063a10bda461010f5e1":[10,0,10,13,3,3]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX47 =
 {
-"group__SerializerGroup.html#ga1155079bf2d53ebd19e08f2223fee2a8":[9,2,15,23],
-"group__SerializerGroup.html#ga23013624dd00042658c503443e5d3ffb":[9,2,15,56],
 "group__SerializerGroup.html#ga2460b57ac19911dbba07d61927a47ece":[9,2,15,54],
 "group__SerializerGroup.html#ga27c3983bb6c56873da1fcfa8ce4044d8":[9,2,15,37],
 "group__SerializerGroup.html#ga2991c05216d6e89d4d73f2eb053cd283":[9,2,15,50],
@@ -249,5 +247,7 @@ var NAVTREEINDEX47 =
 "group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79aa149c1d1da2ae1c94f1ae91f4919625a":[9,19,2,2,0],
 "group__VoxelPathGroup.html#gga85e60c553cc81b298c4bfeac4a623b79ab1c94ca2fbc3e78fc30069c8d0f01680":[9,19,2,2,4],
 "group__VoxelsLoadGroup.html":[9,2,17],
-"group__VoxelsLoadGroup.html#ga058d883315a4af25784fefb62138d3bd":[9,2,17,14]
+"group__VoxelsLoadGroup.html#ga058d883315a4af25784fefb62138d3bd":[9,2,17,14],
+"group__VoxelsLoadGroup.html#ga0b9b670395d4b426beb965e04fd7d6e6":[9,2,17,3],
+"group__VoxelsLoadGroup.html#ga2dfa76ef07c626fc16580265e726bb49":[9,2,17,7]
 };

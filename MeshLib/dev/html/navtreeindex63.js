@@ -1,7 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"structMR_1_1LaunchParams.html#a20edb65311a8752fc65095fe9b17ab9a":[10,0,10,296,1],
-"structMR_1_1LaunchParams.html#a20edb65311a8752fc65095fe9b17ab9a":[12,0,1,280,1],
 "structMR_1_1LaunchParams.html#a25346cad277e065c937a564b8b5f003d":[10,0,10,296,2],
 "structMR_1_1LaunchParams.html#a25346cad277e065c937a564b8b5f003d":[12,0,1,280,2],
 "structMR_1_1LaunchParams.html#a401802bd4a4ed3a745fe35920b213cb5":[10,0,10,296,16],
@@ -249,5 +247,7 @@ var NAVTREEINDEX63 =
 "structMR_1_1MenuItemCaptionSize.html#a6c9273ccf3e41bf654cf3667bc985c0e":[10,0,10,313,1],
 "structMR_1_1MenuItemCaptionSize.html#a6c9273ccf3e41bf654cf3667bc985c0e":[12,0,1,297,1],
 "structMR_1_1MenuItemCaptionSize.html#aa2ee9d954b2e6fafdc20ad74c59602db":[10,0,10,313,0],
-"structMR_1_1MenuItemCaptionSize.html#aa2ee9d954b2e6fafdc20ad74c59602db":[12,0,1,297,0]
+"structMR_1_1MenuItemCaptionSize.html#aa2ee9d954b2e6fafdc20ad74c59602db":[12,0,1,297,0],
+"structMR_1_1MenuItemInfo.html":[10,0,10,314],
+"structMR_1_1MenuItemInfo.html":[12,0,1,298]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"structMR_1_1OneMeshContour.html#a6e1a28642564323f19cdf9f04319d5ef":[10,0,10,405,1],
-"structMR_1_1OneMeshContour.html#a6e1a28642564323f19cdf9f04319d5ef":[12,0,1,389,1],
 "structMR_1_1OneMeshContour.html#ae2a61041d982700ef3d887aedc03a320":[10,0,10,405,0],
 "structMR_1_1OneMeshContour.html#ae2a61041d982700ef3d887aedc03a320":[12,0,1,389,0],
 "structMR_1_1OneMeshIntersection.html":[10,0,10,406],
@@ -249,5 +247,7 @@ var NAVTREEINDEX67 =
 "structMR_1_1PointsLoadSettings.html":[10,0,10,441],
 "structMR_1_1PointsLoadSettings.html":[12,0,1,425],
 "structMR_1_1PointsLoadSettings.html#a3f2fb1f45d3a7811958bf75b4e75ed0c":[10,0,10,441,1],
-"structMR_1_1PointsLoadSettings.html#a3f2fb1f45d3a7811958bf75b4e75ed0c":[12,0,1,425,1]
+"structMR_1_1PointsLoadSettings.html#a3f2fb1f45d3a7811958bf75b4e75ed0c":[12,0,1,425,1],
+"structMR_1_1PointsLoadSettings.html#a5b5b7847b53c3638190037e6bdcbb97d":[10,0,10,441,2],
+"structMR_1_1PointsLoadSettings.html#a5b5b7847b53c3638190037e6bdcbb97d":[12,0,1,425,2]
 };

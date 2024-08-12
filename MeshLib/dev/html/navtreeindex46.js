@@ -1,7 +1,5 @@
 var NAVTREEINDEX46 =
 {
-"group__MathGroup.html#ga1786b102734c05b43aec639689904eba":[9,0,31],
-"group__MathGroup.html#ga20b5ff1415d774bc26055b5734f9b306":[9,0,52],
 "group__MathGroup.html#ga24ef393e1380f77979d9cfa6f7e0e88e":[9,0,46],
 "group__MathGroup.html#ga2723ebec7d989320e407d70f0e8c00d4":[9,0,35],
 "group__MathGroup.html#ga2fbcc5b76ec7e12da86bc99895ac6fc9":[9,0,58],
@@ -249,5 +247,7 @@ var NAVTREEINDEX46 =
 "group__SerializerGroup.html#ga0247abbacd8ebd7c2abec7d6095cd659":[9,2,15,35],
 "group__SerializerGroup.html#ga02e4f1770ef424d638e95a3e26512c19":[9,2,15,2],
 "group__SerializerGroup.html#ga07c35f4efe0f243d11910aee401766ef":[9,2,15,22],
-"group__SerializerGroup.html#ga0e4cb5b845a808cc7438777b42bffb69":[9,2,15,41]
+"group__SerializerGroup.html#ga0e4cb5b845a808cc7438777b42bffb69":[9,2,15,41],
+"group__SerializerGroup.html#ga1155079bf2d53ebd19e08f2223fee2a8":[9,2,15,23],
+"group__SerializerGroup.html#ga23013624dd00042658c503443e5d3ffb":[9,2,15,56]
 };

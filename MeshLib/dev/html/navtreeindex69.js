@@ -1,7 +1,5 @@
 var NAVTREEINDEX69 =
 {
-"structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3":[12,0,1,456,1],
-"structMR_1_1ProgressInterrupter.html#aa7c319b39d9ff06438f19d5c5306139e":[10,0,10,472,2],
 "structMR_1_1ProgressInterrupter.html#aa7c319b39d9ff06438f19d5c5306139e":[12,0,1,456,2],
 "structMR_1_1ProgressInterrupter.html#ad4f40f015b6a225a963200f8fced9ea8":[10,0,10,472,0],
 "structMR_1_1ProgressInterrupter.html#ad4f40f015b6a225a963200f8fced9ea8":[12,0,1,456,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX69 =
 "structMR_1_1RibbonNotification.html#ae5f28ba6936128a2d39825de578e9bb2":[12,0,1,503,3],
 "structMR_1_1RibbonSchema.html":[10,0,10,529],
 "structMR_1_1RibbonSchema.html":[12,0,1,513],
-"structMR_1_1RibbonSchema.html#a10236edecf0d4d4b8fe8a8cec7faee6b":[10,0,10,529,4]
+"structMR_1_1RibbonSchema.html#a10236edecf0d4d4b8fe8a8cec7faee6b":[10,0,10,529,4],
+"structMR_1_1RibbonSchema.html#a10236edecf0d4d4b8fe8a8cec7faee6b":[12,0,1,513,4],
+"structMR_1_1RibbonSchema.html#a2001ba5c144da0024d60ad381cb6fc5b":[10,0,10,529,0]
 };
