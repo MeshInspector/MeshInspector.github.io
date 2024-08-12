@@ -293,6 +293,7 @@ var hierarchy =
     [ "MR::DeloneSettings", "structMR_1_1DeloneSettings.html", null ],
     [ "MR::DenoiseViaNormalsSettings", "structMR_1_1DenoiseViaNormalsSettings.html", null ],
     [ "MR::DenseBox", "structMR_1_1DenseBox.html", null ],
+    [ "MR::DentalId", "classMR_1_1DentalId.html", null ],
     [ "MR::DetectTunnelSettings", "structMR_1_1DetectTunnelSettings.html", null ],
     [ "MR::RibbonMenu::DialogItemPtr", "structMR_1_1RibbonMenu_1_1DialogItemPtr.html", null ],
     [ "MR::VoxelsLoad::DicomVolume", "structMR_1_1VoxelsLoad_1_1DicomVolume.html", null ],
@@ -905,6 +906,7 @@ var hierarchy =
     [ "MR::PreciseVertCoords", "structMR_1_1PreciseVertCoords.html", null ],
     [ "MR::PreciseVertCoords2", "structMR_1_1PreciseVertCoords2.html", null ],
     [ "MR::ImGuiMeasurementIndicators::PreparedCurve", "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html", null ],
+    [ "MR::TeethMaskToDirectionVolumeConvertor::ProcessResult", "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html", null ],
     [ "MR::ProgressBar", "classMR_1_1ProgressBar.html", null ],
     [ "MR::MeshOrPoints::ProjectionResult", "structMR_1_1MeshOrPoints_1_1ProjectionResult.html", null ],
     [ "MR::Object::ProtectedStruct", "structMR_1_1Object_1_1ProtectedStruct.html", null ],
@@ -1072,6 +1074,7 @@ var hierarchy =
     [ "T", null, [
       [ "MR::NoDefInit< T >", "structMR_1_1NoDefInit.html", null ]
     ] ],
+    [ "MR::TeethMaskToDirectionVolumeConvertor", "classMR_1_1TeethMaskToDirectionVolumeConvertor.html", null ],
     [ "MR::TerminalVertex", "structMR_1_1TerminalVertex.html", null ],
     [ "ThreeVertIds", "structThreeVertIds.html", null ],
     [ "MR::Timer", "classMR_1_1Timer.html", null ],
