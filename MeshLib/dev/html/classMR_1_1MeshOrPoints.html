@@ -139,12 +139,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8169033d56790de959d2fbb3bbf15da0" id="r_a8169033d56790de959d2fbb3bbf15da0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8169033d56790de959d2fbb3bbf15da0">asPointCloud</a> () const</td></tr>
 <tr class="memdesc:a8169033d56790de959d2fbb3bbf15da0"><td class="mdescLeft">&#160;</td><td class="mdescRight">if this object holds a point cloud then returns pointer on it, otherwise returns nullptr  <br /></td></tr>
 <tr class="separator:a8169033d56790de959d2fbb3bbf15da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a735838d295350004f02283f8429fa620" id="r_a735838d295350004f02283f8429fa620"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a7609ed874338e695bb9d26fc7147dd3c">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a735838d295350004f02283f8429fa620">getObjBoundingBox</a> () const</td></tr>
+<tr class="memitem:a735838d295350004f02283f8429fa620" id="r_a735838d295350004f02283f8429fa620"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#adf0537cf388e67a9a7a94f7428bb146e">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a735838d295350004f02283f8429fa620">getObjBoundingBox</a> () const</td></tr>
 <tr class="separator:a735838d295350004f02283f8429fa620"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec797ad241ba4410f73274ba5e52c51e" id="r_aec797ad241ba4410f73274ba5e52c51e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec797ad241ba4410f73274ba5e52c51e">cacheAABBTree</a> () const</td></tr>
 <tr class="memdesc:aec797ad241ba4410f73274ba5e52c51e"><td class="mdescLeft">&#160;</td><td class="mdescRight">if <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> is already built does nothing otherwise builds and caches it  <br /></td></tr>
 <tr class="separator:aec797ad241ba4410f73274ba5e52c51e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af68f336dca5c1cbf834ab0c65fc38036" id="r_af68f336dca5c1cbf834ab0c65fc38036"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a7609ed874338e695bb9d26fc7147dd3c">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af68f336dca5c1cbf834ab0c65fc38036">computeBoundingBox</a> (const <a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">AffineXf3f</a> *toWorld=nullptr) const</td></tr>
+<tr class="memitem:af68f336dca5c1cbf834ab0c65fc38036" id="r_af68f336dca5c1cbf834ab0c65fc38036"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#adf0537cf388e67a9a7a94f7428bb146e">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af68f336dca5c1cbf834ab0c65fc38036">computeBoundingBox</a> (const <a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">AffineXf3f</a> *toWorld=nullptr) const</td></tr>
 <tr class="separator:af68f336dca5c1cbf834ab0c65fc38036"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbcab0078d3323160184019e7850bceb" id="r_abbcab0078d3323160184019e7850bceb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbcab0078d3323160184019e7850bceb">accumulate</a> (<a class="el" href="classMR_1_1PointAccumulator.html">PointAccumulator</a> &amp;accum, const <a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">AffineXf3f</a> *xf=nullptr) const</td></tr>
 <tr class="memdesc:abbcab0078d3323160184019e7850bceb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds in existing <a class="el" href="classMR_1_1PointAccumulator.html" title="Class to accumulate points and make best line / plane approximation.">PointAccumulator</a> the elements of the contained object.  <br /></td></tr>
@@ -368,7 +368,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a7609ed874338e695bb9d26fc7147dd3c">Box3f</a> MR::MeshOrPoints::computeBoundingBox </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#adf0537cf388e67a9a7a94f7428bb146e">Box3f</a> MR::MeshOrPoints::computeBoundingBox </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>toWorld</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
           <td> const</td>
@@ -394,7 +394,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a7609ed874338e695bb9d26fc7147dd3c">Box3f</a> MR::MeshOrPoints::getObjBoundingBox </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#adf0537cf388e67a9a7a94f7428bb146e">Box3f</a> MR::MeshOrPoints::getObjBoundingBox </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>

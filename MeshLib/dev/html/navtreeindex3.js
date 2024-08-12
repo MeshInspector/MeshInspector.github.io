@@ -1,5 +1,9 @@
 var NAVTREEINDEX3 =
 {
+"MRHighPrecision_8h_source.html":[13,0,0,2,3,132],
+"MRHistogram_8h.html":[13,0,0,2,3,133],
+"MRHistogram_8h_source.html":[13,0,0,2,3,133],
+"MRHistoryAction_8h.html":[13,0,0,2,3,134],
 "MRHistoryAction_8h.html#a85276508657eac277a84365d3e41c118":[13,0,0,2,3,134,1],
 "MRHistoryAction_8h.html#a951264a40637210aff82d6b0e375446f":[13,0,0,2,3,134,0],
 "MRHistoryAction_8h.html#abde0e5a6e5cf5e3e9648a38740dd9804":[13,0,0,2,3,134,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX3 =
 "MRMatrix4_8h_source.html":[13,0,0,2,3,177],
 "MRMatrix_8h.html":[13,0,0,2,3,173],
 "MRMatrix_8h_source.html":[13,0,0,2,3,173],
-"MRMeasurementObject_8h.html":[13,0,0,2,3,178],
-"MRMeasurementObject_8h_source.html":[13,0,0,2,3,178],
-"MRMenu_8h.html":[13,0,0,2,8,32],
-"MRMenu_8h_source.html":[13,0,0,2,8,32],
-"MRMeshBooleanFacade_8h.html":[13,0,0,2,3,181]
+"MRMeasurementObject_8h.html":[13,0,0,2,3,178]
 };

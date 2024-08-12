@@ -859,6 +859,7 @@ var annotated_dup =
     [ "BitSet", "classBitSet.html", "classBitSet" ],
     [ "BooleanParameters", "structBooleanParameters.html", "structBooleanParameters" ],
     [ "BooleanResult", "structBooleanResult.html", "structBooleanResult" ],
+    [ "Box3f", "classBox3f.html", "classBox3f" ],
     [ "DecimateParameters", "structDecimateParameters.html", "structDecimateParameters" ],
     [ "DecimateResult", "structDecimateResult.html", "structDecimateResult" ],
     [ "GeneralOffsetParameters", "classGeneralOffsetParameters.html", "classGeneralOffsetParameters" ],

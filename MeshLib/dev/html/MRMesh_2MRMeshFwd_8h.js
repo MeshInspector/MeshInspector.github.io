@@ -22,7 +22,6 @@ var MRMesh_2MRMeshFwd_8h =
     [ "Box2ll", "MRMesh_2MRMeshFwd_8h.html#a612aa8558b5ba998f49010bf86b8275d", null ],
     [ "Box3", "MRMesh_2MRMeshFwd_8h.html#a37d1429bcc1cfa30af36ca6313eb4a5d", null ],
     [ "Box3d", "MRMesh_2MRMeshFwd_8h.html#ad4b54315cc823da4a1fc3bfca13fe111", null ],
-    [ "Box3f", "MRMesh_2MRMeshFwd_8h.html#a7609ed874338e695bb9d26fc7147dd3c", null ],
     [ "Box3i", "MRMesh_2MRMeshFwd_8h.html#ad6642ccde3fa6038e3c67c773a86d17b", null ],
     [ "Box3ll", "MRMesh_2MRMeshFwd_8h.html#ac8179ae947aef4b9406458a46497c7f9", null ],
     [ "Cone3d", "MRMesh_2MRMeshFwd_8h.html#a7c4f23983f8af55e3211b09467abaea0", null ],

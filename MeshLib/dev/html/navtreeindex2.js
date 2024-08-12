@@ -1,5 +1,9 @@
 var NAVTREEINDEX2 =
 {
+"MREdgeIterator_8h.html#a6de91a42354f4257ba3081c18a497828":[13,0,0,2,3,87,3],
+"MREdgeIterator_8h.html#ae22c2e220dc580608b0c17c7358f4b29":[13,0,0,2,3,87,1],
+"MREdgeIterator_8h_source.html":[13,0,0,2,3,87],
+"MREdgeMetric_8h.html":[13,0,0,2,3,88],
 "MREdgeMetric_8h_source.html":[13,0,0,2,3,88],
 "MREdgePathsBuilder_8h.html":[13,0,0,2,3,90],
 "MREdgePathsBuilder_8h.html#a5e64a53d9d9c624063bb6a51a6ba77e1":[13,0,0,2,3,90,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX2 =
 "MRHeapBytes_8h_source.html":[13,0,0,2,3,131],
 "MRHeap_8h.html":[13,0,0,2,3,130],
 "MRHeap_8h_source.html":[13,0,0,2,3,130],
-"MRHighPrecision_8h.html":[13,0,0,2,3,132],
-"MRHighPrecision_8h_source.html":[13,0,0,2,3,132],
-"MRHistogram_8h.html":[13,0,0,2,3,133],
-"MRHistogram_8h_source.html":[13,0,0,2,3,133],
-"MRHistoryAction_8h.html":[13,0,0,2,3,134]
+"MRHighPrecision_8h.html":[13,0,0,2,3,132]
 };

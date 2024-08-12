@@ -4,6 +4,7 @@ var MRDotNet_2MRMeshFwd_8h =
     [ "MR_DOTNET_NAMESPACE_BEGIN", "MRDotNet_2MRMeshFwd_8h.html#a1a1e383669c7572f716d6e069738f2e4", null ],
     [ "MR_DOTNET_NAMESPACE_END", "MRDotNet_2MRMeshFwd_8h.html#a9bfa62af9f50d9b1a7144a5dbd466f68", null ],
     [ "AffineXf3f", "MRDotNet_2MRMeshFwd_8h.html#a93a9fb6abd22b4a047f841b8d9de2639", null ],
+    [ "Box3f", "MRDotNet_2MRMeshFwd_8h.html#adf0537cf388e67a9a7a94f7428bb146e", null ],
     [ "EdgeId", "MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8", null ],
     [ "EdgePath", "MRDotNet_2MRMeshFwd_8h.html#a8d1d4f2ab1d8ab663e892d4f03f1f704", null ],
     [ "EdgePathReadOnly", "MRDotNet_2MRMeshFwd_8h.html#a814165b4f9376ee12eecff9ade63c012", null ],

@@ -1,5 +1,8 @@
 var NAVTREEINDEX12 =
 {
+"MRUnits_8h.html#a754d4eb0500be08374f5c611d33b5cab":[13,0,0,2,8,110,27],
+"MRUnits_8h.html#a754d4eb0500be08374f5c611d33b5caba3e1b00c196db969aa22cdc50c6e966c4":[13,0,0,2,8,110,27,1],
+"MRUnits_8h.html#a754d4eb0500be08374f5c611d33b5cabab3cd915d758008bd19d0f2428fbb354a":[13,0,0,2,8,110,27,0],
 "MRUnits_8h.html#a754d4eb0500be08374f5c611d33b5cabad69186af02738a9b3ced1bc5b652ba55":[13,0,0,2,8,110,27,2],
 "MRUnits_8h.html#a80607090259b7b45b4ea7809158a48a2":[13,0,0,2,8,110,36],
 "MRUnits_8h.html#a822feec21d0c267d63b63429392323c9":[13,0,0,2,8,110,42],
@@ -202,6 +205,7 @@ var NAVTREEINDEX12 =
 "MeshBoolean_8dox_8py.html":[13,0,0,1,3,0],
 "MeshDecimate_8dox_8c.html":[13,0,0,1,1,2],
 "MeshDecimate_8dox_8cpp.html":[13,0,0,1,2,1],
+"MeshDecimate_8dox_8cs.html":[13,0,0,1,0,1],
 "MeshDecimate_8dox_8py.html":[13,0,0,1,3,1],
 "MeshExport_8dox_8cpp.html":[13,0,0,1,2,2],
 "MeshExtrude_8dox_8cpp.html":[13,0,0,1,2,3],
@@ -224,7 +228,7 @@ var NAVTREEINDEX12 =
 "MeshStitchHole_8dox_8py.html":[13,0,0,1,3,8],
 "NumpyTriangulation_8dox_8py.html":[13,0,0,1,3,10],
 "Numpy_8dox_8py.html":[13,0,0,1,3,9],
-"Offset_8dox_8cs.html":[13,0,0,1,0,1],
+"Offset_8dox_8cs.html":[13,0,0,1,0,2],
 "Plotly_8dox_8py.html":[13,0,0,1,3,11],
 "PythonCodeExamples.html":[4,3],
 "SpacesHelp.html":[6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX12 =
 "classAffineXf3f.html#a7d5db76bf418584bfd670c9745ba41e9":[12,0,3,7],
 "classAffineXf3f.html#a8f2cc529d2f77fb8812b87bd655b09eb":[12,0,3,1],
 "classAffineXf3f.html#aaaad97a9952a04c257cda92830e75fb7":[12,0,3,6],
-"classAffineXf3f.html#aab03b6e8e25b3ea9dc4b65f48ea6ad36":[12,0,3,5],
-"classAffineXf3f.html#abcb9dbf429a60d9393c8a4684ca00b7f":[12,0,3,0],
-"classBitSet.html":[12,0,4],
-"classBitSet.html#a19eb3d0d20f7e33444c5b734bd5f9370":[12,0,4,6],
-"classBitSet.html#a47e6b3b5ed75276f50f9b43c000c97d1":[12,0,4,3]
+"classAffineXf3f.html#aab03b6e8e25b3ea9dc4b65f48ea6ad36":[12,0,3,5]
 };

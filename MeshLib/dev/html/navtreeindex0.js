@@ -20,6 +20,7 @@ var NAVTREEINDEX0 =
 "ExampleCMeshOffset.html":[4,4,3],
 "ExampleCMeshResolveDegenerations.html":[4,4,6],
 "ExampleCSharpMeshBoolean.html":[4,2,0],
+"ExampleCSharpMeshDecimate.html":[4,2,2],
 "ExampleCSharpOffset.html":[4,2,1],
 "ExampleCppMeshBoolean.html":[4,1,4],
 "ExampleCppMeshDecimate.html":[4,1,3],
@@ -232,6 +233,8 @@ var NAVTREEINDEX0 =
 "MRBitSetParallelFor_8h_source.html":[13,0,0,2,3,30],
 "MRBoolean_8h.html":[13,0,0,2,3,31],
 "MRBoolean_8h_source.html":[13,0,0,2,3,31],
+"MRBox3_8h.html":[13,0,0,2,2,2],
+"MRBox3_8h_source.html":[13,0,0,2,2,2],
 "MRBuffer_8h.html":[13,0,0,2,3,34],
 "MRBuffer_8h.html#a3bd81207bb5dccdfe9533eae31414e16":[13,0,0,2,3,34,6],
 "MRBuffer_8h.html#a484bb1d73bd93c876842593fe3441211":[13,0,0,2,3,34,9],
@@ -246,8 +249,5 @@ var NAVTREEINDEX0 =
 "MRCameraOrientationPlugin_8h_source.html":[13,0,0,2,0,0,0],
 "MRChangeColoringActions_8h.html":[13,0,0,2,3,35],
 "MRChangeColoringActions_8h_source.html":[13,0,0,2,3,35],
-"MRChangeColoringType_8h.html":[13,0,0,2,3,36],
-"MRChangeColoringType_8h_source.html":[13,0,0,2,3,36],
-"MRChangeLabelAction_8h.html":[13,0,0,2,3,37],
-"MRChangeLabelAction_8h_source.html":[13,0,0,2,3,37]
+"MRChangeColoringType_8h.html":[13,0,0,2,3,36]
 };
