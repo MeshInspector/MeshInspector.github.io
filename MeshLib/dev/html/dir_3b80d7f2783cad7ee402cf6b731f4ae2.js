@@ -136,6 +136,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRHistogram.h", "MRHistogram_8h.html", null ],
     [ "MRHistoryAction.h", "MRHistoryAction_8h.html", "MRHistoryAction_8h" ],
     [ "MRICP.h", "MRMesh_2MRICP_8h.html", "MRMesh_2MRICP_8h" ],
+    [ "MRICPEnums.h", "MRICPEnums_8h.html", "MRICPEnums_8h" ],
     [ "MRId.h", "MRMesh_2MRId_8h.html", "MRMesh_2MRId_8h" ],
     [ "MRIdentifyVertices.h", "MRIdentifyVertices_8h.html", "MRIdentifyVertices_8h" ],
     [ "MRImage.h", "MRImage_8h.html", null ],

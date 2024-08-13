@@ -116,7 +116,7 @@ var searchData=
   ['coordinate_113',['coordinate',['../structMR_1_1OneMeshIntersection.html#ab8b3439c1559deb1b278b9d5c8c2c14d',1,'MR::OneMeshIntersection']]],
   ['coords_114',['coords',['../structMR_1_1SeparationPointStorage_1_1Block.html#a58df13a2b6e26ec0a73b3883451f7c27',1,'MR::SeparationPointStorage::Block']]],
   ['cornermode_115',['cornerMode',['../classMR_1_1RenderMeshObject.html#afd5c5688fbd6d8c41b11f9295ba8d5ca',1,'MR::RenderMeshObject']]],
-  ['costhreshold_116',['cosThreshold',['../structMR_1_1ICPProperties.html#a108845995db78805f41524217e474500',1,'MR::ICPProperties::cosThreshold'],['../structMRICPProperties.html#a01533b26bf04f650af9c2628b8804258',1,'MRICPProperties::cosThreshold']]],
+  ['costhreshold_116',['cosThreshold',['../structICPProperties.html#a22fb83214a6966402a24e1d80e0ebfc0',1,'ICPProperties::cosThreshold'],['../structMR_1_1ICPProperties.html#a108845995db78805f41524217e474500',1,'MR::ICPProperties::cosThreshold'],['../structMRICPProperties.html#a01533b26bf04f650af9c2628b8804258',1,'MRICPProperties::cosThreshold']]],
   ['count_117',['count',['../structMR_1_1SimpleTimeRecord.html#a2baac0fd5930644e7eff1dcb301703ca',1,'MR::SimpleTimeRecord']]],
   ['cquickaccessbarheight_118',['cQuickAccessBarHeight',['../namespaceMR.html#a11cefc41d465d94791aaa0484ecde389',1,'MR']]],
   ['cquietnan_119',['cQuietNan',['../namespaceMR.html#ac50b2a332a59b46a9f98d7dc951dd010',1,'MR']]],

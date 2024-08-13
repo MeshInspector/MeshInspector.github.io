@@ -1,5 +1,11 @@
 var NAVTREEINDEX2 =
 {
+"MRDotNet_2MRPointCloud_8h.html":[13,0,0,2,2,11],
+"MRDotNet_2MRPointCloud_8h_source.html":[13,0,0,2,2,11],
+"MRDotNet_2MRVector3_8h.html":[13,0,0,2,2,12],
+"MRDotNet_2MRVector3_8h_source.html":[13,0,0,2,2,12],
+"MREdgeIterator_8h.html":[13,0,0,2,3,87],
+"MREdgeIterator_8h.html#a19b191245b05d1121109cd26f5ca30d2":[13,0,0,2,3,87,2],
 "MREdgeIterator_8h.html#a6de91a42354f4257ba3081c18a497828":[13,0,0,2,3,87,3],
 "MREdgeIterator_8h.html#ae22c2e220dc580608b0c17c7358f4b29":[13,0,0,2,3,87,1],
 "MREdgeIterator_8h_source.html":[13,0,0,2,3,87],
@@ -243,11 +249,5 @@ var NAVTREEINDEX2 =
 "MRGraph_8h_source.html":[13,0,0,2,3,125],
 "MRGridSettings_8h.html":[13,0,0,2,3,127],
 "MRGridSettings_8h_source.html":[13,0,0,2,3,127],
-"MRHash_8h.html":[13,0,0,2,3,129],
-"MRHash_8h_source.html":[13,0,0,2,3,129],
-"MRHeapBytes_8h.html":[13,0,0,2,3,131],
-"MRHeapBytes_8h_source.html":[13,0,0,2,3,131],
-"MRHeap_8h.html":[13,0,0,2,3,130],
-"MRHeap_8h_source.html":[13,0,0,2,3,130],
-"MRHighPrecision_8h.html":[13,0,0,2,3,132]
+"MRHash_8h.html":[13,0,0,2,3,129]
 };

@@ -500,11 +500,13 @@ var hierarchy =
         [ "MR::TouchpadZoomGestureUpdateListener", "structMR_1_1TouchpadZoomGestureUpdateListener.html", null ]
       ] ]
     ] ],
+    [ "ICP", "classICP.html", null ],
     [ "MR::ICP", "classMR_1_1ICP.html", null ],
     [ "MR::ICPPairData", "structMR_1_1ICPPairData.html", [
       [ "MR::ICPGroupPair", "structMR_1_1ICPGroupPair.html", null ],
       [ "MR::PointPair", "structMR_1_1PointPair.html", null ]
     ] ],
+    [ "ICPProperties", "structICPProperties.html", null ],
     [ "MR::ICPProperties", "structMR_1_1ICPProperties.html", null ],
     [ "MR::Id< T >", "classMR_1_1Id.html", null ],
     [ "MR::Id< EdgeTag >", "classMR_1_1Id.html", null ],
@@ -689,7 +691,6 @@ var hierarchy =
     [ "MR::MenuItemCaptionSize", "structMR_1_1MenuItemCaptionSize.html", null ],
     [ "MR::MenuItemInfo", "structMR_1_1MenuItemInfo.html", null ],
     [ "MR::MergeVolumePartSettings", "structMR_1_1MergeVolumePartSettings.html", null ],
-    [ "Mesh", "classMesh.html", null ],
     [ "MR::Mesh", "structMR_1_1Mesh.html", null ],
     [ "MR::MeshAttributesToUpdate", "structMR_1_1MeshAttributesToUpdate.html", null ],
     [ "MeshBoolean", "classMeshBoolean.html", null ],
@@ -704,7 +705,12 @@ var hierarchy =
     [ "MR::MeshMeshConverter", "structMR_1_1MeshMeshConverter.html", null ],
     [ "MR::MeshNormals", "structMR_1_1MeshNormals.html", null ],
     [ "MR::MeshOnVoxelsT< MeshType >", "classMR_1_1MeshOnVoxelsT.html", null ],
+    [ "MeshOrPoints", "interfaceMeshOrPoints.html", [
+      [ "Mesh", "classMesh.html", null ],
+      [ "PointCloud", "classPointCloud.html", null ]
+    ] ],
     [ "MR::MeshOrPoints", "classMR_1_1MeshOrPoints.html", null ],
+    [ "MeshOrPointsXf", "structMeshOrPointsXf.html", null ],
     [ "MR::MeshOrPointsXf", "structMR_1_1MeshOrPointsXf.html", null ],
     [ "MeshPart", "structMeshPart.html", null ],
     [ "MR::MeshPart", "structMR_1_1MeshPart.html", null ],
@@ -884,6 +890,8 @@ var hierarchy =
     [ "MR::PointInAllSpaces", "structMR_1_1PointInAllSpaces.html", null ],
     [ "MR::PointOnFace", "structMR_1_1PointOnFace.html", null ],
     [ "MR::PointOnObject", "structMR_1_1PointOnObject.html", null ],
+    [ "PointPair", "structPointPair.html", null ],
+    [ "PointPairs", "structPointPairs.html", null ],
     [ "MR::PointsLoadSettings", "structMR_1_1PointsLoadSettings.html", null ],
     [ "MR::PointsProjectionResult", "structMR_1_1PointsProjectionResult.html", null ],
     [ "MR::PointsToMeshParameters", "structMR_1_1PointsToMeshParameters.html", null ],

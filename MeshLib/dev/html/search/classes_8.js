@@ -1,11 +1,11 @@
 var searchData=
 [
   ['iconnectable_0',['IConnectable',['../structMR_1_1IConnectable.html',1,'MR']]],
-  ['icp_1',['ICP',['../classMR_1_1ICP.html',1,'MR']]],
+  ['icp_1',['ICP',['../classICP.html',1,'ICP'],['../classMR_1_1ICP.html',1,'MR::ICP']]],
   ['icpgrouppair_2',['ICPGroupPair',['../structMR_1_1ICPGroupPair.html',1,'MR']]],
   ['icpgrouppairs_3',['ICPGroupPairs',['../structMR_1_1ICPGroupPairs.html',1,'MR']]],
   ['icppairdata_4',['ICPPairData',['../structMR_1_1ICPPairData.html',1,'MR']]],
-  ['icpproperties_5',['ICPProperties',['../structMR_1_1ICPProperties.html',1,'MR']]],
+  ['icpproperties_5',['ICPProperties',['../structICPProperties.html',1,'ICPProperties'],['../structMR_1_1ICPProperties.html',1,'MR::ICPProperties']]],
   ['id_6',['Id',['../classMR_1_1Id.html',1,'MR']]],
   ['id_3c_20edgetag_20_3e_7',['Id&lt; EdgeTag &gt;',['../classMR_1_1Id.html',1,'MR']]],
   ['id_3c_20facetag_20_3e_8',['Id&lt; FaceTag &gt;',['../classMR_1_1Id.html',1,'MR']]],
