@@ -7,6 +7,7 @@ var searchData=
   ['directionvolume_4',['DirectionVolume',['../classMR_1_1TeethMaskToDirectionVolumeConvertor.html#a7168ecec40c4cfff69a29748574fb44a',1,'MR::TeethMaskToDirectionVolumeConvertor']]],
   ['disabledwarnings_5',['DisabledWarnings',['../namespaceMR.html#af32258fa43e72bfbd6c42df4283b25db',1,'MR']]],
   ['dragdropsignal_6',['DragDropSignal',['../classMR_1_1Viewer.html#ae75b061c70e140f41530c73ec2879d99',1,'MR::Viewer']]],
-  ['drawtabconfig_7',['DrawTabConfig',['../classMR_1_1RibbonMenu.html#ad0d582e1904c2ad88eee5f4bfe814f83',1,'MR::RibbonMenu']]],
-  ['dropitemslist_8',['DropItemsList',['../classMR_1_1RibbonMenuItem.html#a4799011be3410f46444164d6d00b966e',1,'MR::RibbonMenuItem']]]
+  ['drawsceneuisignal_7',['DrawSceneUiSignal',['../classMR_1_1ImGuiMenu.html#a2f2b40e4dafea90e3ea284ebf7e9b128',1,'MR::ImGuiMenu']]],
+  ['drawtabconfig_8',['DrawTabConfig',['../classMR_1_1RibbonMenu.html#ad0d582e1904c2ad88eee5f4bfe814f83',1,'MR::RibbonMenu']]],
+  ['dropitemslist_9',['DropItemsList',['../classMR_1_1RibbonMenuItem.html#a4799011be3410f46444164d6d00b966e',1,'MR::RibbonMenuItem']]]
 ];

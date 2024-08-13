@@ -1,15 +1,17 @@
 var NAVTREEINDEX4 =
 {
+"MRMatrix_8h_source.html":[13,0,0,2,3,173],
+"MRMeasurementObject_8h.html":[13,0,0,2,3,178],
 "MRMeasurementObject_8h_source.html":[13,0,0,2,3,178],
-"MRMenu_8h.html":[13,0,0,2,8,32],
-"MRMenu_8h_source.html":[13,0,0,2,8,32],
+"MRMenu_8h.html":[13,0,0,2,8,33],
+"MRMenu_8h_source.html":[13,0,0,2,8,33],
 "MRMeshBooleanFacade_8h.html":[13,0,0,2,3,181],
 "MRMeshBooleanFacade_8h.html#a37a45fe3367e0420cb18c30593415498":[13,0,0,2,3,181,3],
 "MRMeshBooleanFacade_8h.html#a816a1c0aec6d5b2d8994b750a9ecfb9f":[13,0,0,2,3,181,4],
 "MRMeshBooleanFacade_8h.html#ab3166f1ae304a5ff0106e7c88b67960e":[13,0,0,2,3,181,2],
 "MRMeshBooleanFacade_8h_source.html":[13,0,0,2,3,181],
-"MRMeshBoundarySelectionWidget_8h.html":[13,0,0,2,8,33],
-"MRMeshBoundarySelectionWidget_8h_source.html":[13,0,0,2,8,33],
+"MRMeshBoundarySelectionWidget_8h.html":[13,0,0,2,8,34],
+"MRMeshBoundarySelectionWidget_8h_source.html":[13,0,0,2,8,34],
 "MRMeshBoundary_8h.html":[13,0,0,2,3,182],
 "MRMeshBoundary_8h_source.html":[13,0,0,2,3,182],
 "MRMeshBuilderTypes_8h.html":[13,0,0,2,3,184],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "MRMeshC_2MRMesh_8h.html#a623fb3de189397803e03bda8f951bdc1":[13,0,0,2,4,10,11],
 "MRMeshC_2MRMesh_8h.html#a66876c0d684c51318803ae141caeb384":[13,0,0,2,4,10,7],
 "MRMeshC_2MRMesh_8h.html#a99ebfa267b1846a8761c58c902352499":[13,0,0,2,4,10,12],
-"MRMeshC_2MRMesh_8h.html#aa3d016c217ed1d760c0e0085a4a3629b":[13,0,0,2,4,10,18],
-"MRMeshC_2MRMesh_8h.html#ab817f01631ab1235393478f3e2f18cbb":[13,0,0,2,4,10,19],
-"MRMeshC_2MRMesh_8h.html#abbd1a9c366f2fd8fbb39374056143b91":[13,0,0,2,4,10,16]
+"MRMeshC_2MRMesh_8h.html#aa3d016c217ed1d760c0e0085a4a3629b":[13,0,0,2,4,10,18]
 };

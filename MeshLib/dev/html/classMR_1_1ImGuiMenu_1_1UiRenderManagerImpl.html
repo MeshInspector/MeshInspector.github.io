@@ -131,8 +131,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7347c1740073a409a4350f361af9b816"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40f36215f485498d7757d2473e6d2d64" id="r_a40f36215f485498d7757d2473e6d2d64"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40f36215f485498d7757d2473e6d2d64">postRenderViewport</a> (<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> viewport) override</td></tr>
 <tr class="separator:a40f36215f485498d7757d2473e6d2d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa15d153eba9a88a13aa08fc55da6d773" id="r_aa15d153eba9a88a13aa08fc55da6d773"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BasicUiRenderTask::BackwardPassParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa15d153eba9a88a13aa08fc55da6d773">beginBackwardPass</a> () override</td></tr>
-<tr class="separator:aa15d153eba9a88a13aa08fc55da6d773"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aa058b02893d9bc3fd3589e0dc7bf21" id="r_a1aa058b02893d9bc3fd3589e0dc7bf21"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BasicUiRenderTask::BackwardPassParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1aa058b02893d9bc3fd3589e0dc7bf21">beginBackwardPass</a> (<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> viewport, <a class="el" href="structMR_1_1UiRenderParams.html#a7db0595bba979c4028be5875ef3e067d">UiRenderParams::UiTaskList</a> &amp;tasks) override</td></tr>
+<tr class="separator:a1aa058b02893d9bc3fd3589e0dc7bf21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75783b60f5b1822bf592fbaaa730bbf1" id="r_a75783b60f5b1822bf592fbaaa730bbf1"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75783b60f5b1822bf592fbaaa730bbf1">finishBackwardPass</a> (const <a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BasicUiRenderTask::BackwardPassParams</a> &amp;params) override</td></tr>
 <tr class="separator:a75783b60f5b1822bf592fbaaa730bbf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51953f10f06ecbdf36131c6711172452" id="r_a51953f10f06ecbdf36131c6711172452"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51953f10f06ecbdf36131c6711172452">canConsumeEvent</a> (<a class="el" href="structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3d">BasicUiRenderTask::InteractionMask</a> event) const</td></tr>
@@ -147,8 +147,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a810c0bc5c84d12f69dbbdd1510c7ea20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa15d153eba9a88a13aa08fc55da6d773" name="aa15d153eba9a88a13aa08fc55da6d773"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa15d153eba9a88a13aa08fc55da6d773">&#9670;&#160;</a></span>beginBackwardPass()</h2>
+<a id="a1aa058b02893d9bc3fd3589e0dc7bf21" name="a1aa058b02893d9bc3fd3589e0dc7bf21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1aa058b02893d9bc3fd3589e0dc7bf21">&#9670;&#160;</a></span>beginBackwardPass()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -159,8 +159,12 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">MRVIEWER_API <a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BasicUiRenderTask::BackwardPassParams</a> MR::ImGuiMenu::UiRenderManagerImpl::beginBackwardPass </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ViewportId.html">ViewportId</a></td>          <td class="paramname"><span class="paramname"><em>viewport</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1UiRenderParams.html#a7db0595bba979c4028be5875ef3e067d">UiRenderParams::UiTaskList</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tasks</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -170,7 +174,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="structMR_1_1UiRenderManager.html#a7de953ad084a68472745b6119d068652">MR::UiRenderManager</a>.</p>
+<p>Reimplemented from <a class="el" href="structMR_1_1UiRenderManager.html#a9601bd6d868289506f00155eb4711f5e">MR::UiRenderManager</a>.</p>
 
 </div>
 </div>

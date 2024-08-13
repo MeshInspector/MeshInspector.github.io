@@ -38,5 +38,6 @@ var searchData=
   ['dragstartlistener_35',['DragStartListener',['../structMR_1_1DragStartListener.html',1,'MR']]],
   ['drawbuttonparams_36',['DrawButtonParams',['../structMR_1_1DrawButtonParams.html',1,'MR']]],
   ['drawgroupconfig_37',['DrawGroupConfig',['../structMR_1_1RibbonMenu_1_1DrawGroupConfig.html',1,'MR::RibbonMenu']]],
-  ['drawlistener_38',['DrawListener',['../structMR_1_1DrawListener.html',1,'MR']]]
+  ['drawlistener_38',['DrawListener',['../structMR_1_1DrawListener.html',1,'MR']]],
+  ['drawsceneuilistener_39',['DrawSceneUiListener',['../structMR_1_1DrawSceneUiListener.html',1,'MR']]]
 ];

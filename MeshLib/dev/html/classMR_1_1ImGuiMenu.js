@@ -3,6 +3,7 @@ var classMR_1_1ImGuiMenu =
     [ "LabelParams", "structMR_1_1ImGuiMenu_1_1LabelParams.html", "structMR_1_1ImGuiMenu_1_1LabelParams" ],
     [ "PluginsCache", "structMR_1_1ImGuiMenu_1_1PluginsCache.html", "structMR_1_1ImGuiMenu_1_1PluginsCache" ],
     [ "UiRenderManagerImpl", "classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html", "classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl" ],
+    [ "DrawSceneUiSignal", "classMR_1_1ImGuiMenu.html#a2f2b40e4dafea90e3ea284ebf7e9b128", null ],
     [ "NameTagClickSignal", "classMR_1_1ImGuiMenu.html#a108b6e7b1762c1e145d04713a3badf63", null ],
     [ "NameTagSelectionMode", "classMR_1_1ImGuiMenu.html#acf12d9bbd08c5c2a1b528461e7294587", [
       [ "selectOne", "classMR_1_1ImGuiMenu.html#acf12d9bbd08c5c2a1b528461e7294587ad95c24770daa211f223817331372d91c", null ],
@@ -114,6 +115,7 @@ var classMR_1_1ImGuiMenu =
     [ "callback_draw_viewer_window", "classMR_1_1ImGuiMenu.html#a48361f3a545ce8d2eea45667c5e25775", null ],
     [ "capturedMouse_", "classMR_1_1ImGuiMenu.html#a70e1b99ed1657729d0a89c8c8bd00e59", null ],
     [ "context_", "classMR_1_1ImGuiMenu.html#a5211abf1979e6de5356bf10417272d04", null ],
+    [ "drawSceneUiSignal", "classMR_1_1ImGuiMenu.html#ae71e78bd6eb312fb03d4b7931a3d3241", null ],
     [ "editedFeatureObject_", "classMR_1_1ImGuiMenu.html#a9603f5d80ca9f918df4d86d0a40a94ab", null ],
     [ "editedFeatureObjectOldXf_", "classMR_1_1ImGuiMenu.html#a6afa105ae1f7116d82db1d5068aef0ef", null ],
     [ "frameTimeMillisecThreshold_", "classMR_1_1ImGuiMenu.html#a5ddf7775cb2ef343f9725d01c61e655b", null ],

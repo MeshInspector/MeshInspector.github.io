@@ -19,10 +19,11 @@ var searchData=
   ['workmode_16',['workMode',['../structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a112aadc006f7ece0404c1cbe603783cd',1,'MR::SurfaceManipulationWidget::Settings']]],
   ['worldbox_17',['worldBox',['../structMR_1_1FitBoxParams.html#a5594292518e53a54c005c6e95576306d',1,'MR::FitBoxParams']]],
   ['worldbox_5f_18',['worldBox_',['../classMR_1_1ObjectLinesHolder.html#af3f76f7286057cda0116754b663cf340',1,'MR::ObjectLinesHolder::worldBox_'],['../classMR_1_1ObjectMeshHolder.html#a33c3cd830b02b4b20f5c72a8bf2f7a47',1,'MR::ObjectMeshHolder::worldBox_'],['../classMR_1_1ObjectPointsHolder.html#a896a4967afa85824de6ebc22a609a95d',1,'MR::ObjectPointsHolder::worldBox_']]],
-  ['worldspace_19',['worldSpace',['../structMR_1_1PointInAllSpaces.html#a137079597c74de0d73863a07b3a88f12',1,'MR::PointInAllSpaces']]],
-  ['worldxf_20',['worldXf',['../structMR_1_1MeshToVolumeParams.html#a160d9c2171039308aa5a181a76575967',1,'MR::MeshToVolumeParams']]],
-  ['worldxfchangedsignal_21',['worldXfChangedSignal',['../classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964',1,'MR::Object']]],
-  ['wrap_22',['wrap',['../structMR_1_1MeshTexture.html#ab1d9b311e280516bb81e8749bfb440bc',1,'MR::MeshTexture::wrap'],['../structMR_1_1GlTexture_1_1Settings.html#a622af16b47b77e020bec6dced9f55f65',1,'MR::GlTexture::Settings::wrap']]],
-  ['writehistory_23',['writeHistory',['../structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a9515abf4d7599eda7f5896681430883a',1,'MR::SurfaceContoursWidget::SurfaceContoursWidgetParams']]],
-  ['ww_24',['ww',['../structMR_1_1SymMatrix4.html#a5f21446d34d40b1bc92d85397bc24134',1,'MR::SymMatrix4']]]
+  ['worldpos_19',['worldPos',['../structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a669ea51c367ab807beb54423bc2717f6',1,'MR::UI::NonOverlappingLabelTask::Params']]],
+  ['worldspace_20',['worldSpace',['../structMR_1_1PointInAllSpaces.html#a137079597c74de0d73863a07b3a88f12',1,'MR::PointInAllSpaces']]],
+  ['worldxf_21',['worldXf',['../structMR_1_1MeshToVolumeParams.html#a160d9c2171039308aa5a181a76575967',1,'MR::MeshToVolumeParams']]],
+  ['worldxfchangedsignal_22',['worldXfChangedSignal',['../classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964',1,'MR::Object']]],
+  ['wrap_23',['wrap',['../structMR_1_1MeshTexture.html#ab1d9b311e280516bb81e8749bfb440bc',1,'MR::MeshTexture::wrap'],['../structMR_1_1GlTexture_1_1Settings.html#a622af16b47b77e020bec6dced9f55f65',1,'MR::GlTexture::Settings::wrap']]],
+  ['writehistory_24',['writeHistory',['../structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a9515abf4d7599eda7f5896681430883a',1,'MR::SurfaceContoursWidget::SurfaceContoursWidgetParams']]],
+  ['ww_25',['ww',['../structMR_1_1SymMatrix4.html#a5f21446d34d40b1bc92d85397bc24134',1,'MR::SymMatrix4']]]
 ];

@@ -166,6 +166,8 @@ var annotated_dup =
         [ "ButtonCustomizationParams", "structMR_1_1UI_1_1ButtonCustomizationParams.html", "structMR_1_1UI_1_1ButtonCustomizationParams" ],
         [ "ButtonIconCustomizationParams", "structMR_1_1UI_1_1ButtonIconCustomizationParams.html", "structMR_1_1UI_1_1ButtonIconCustomizationParams" ],
         [ "CachedTextSize", "structMR_1_1UI_1_1CachedTextSize.html", "structMR_1_1UI_1_1CachedTextSize" ],
+        [ "LabelRectAllocator", "classMR_1_1UI_1_1LabelRectAllocator.html", "classMR_1_1UI_1_1LabelRectAllocator" ],
+        [ "NonOverlappingLabelTask", "classMR_1_1UI_1_1NonOverlappingLabelTask.html", "classMR_1_1UI_1_1NonOverlappingLabelTask" ],
         [ "PlotAxis", "structMR_1_1UI_1_1PlotAxis.html", "structMR_1_1UI_1_1PlotAxis" ],
         [ "RectAllocator", "classMR_1_1UI_1_1RectAllocator.html", "classMR_1_1UI_1_1RectAllocator" ],
         [ "WindowRectAllocator", "classMR_1_1UI_1_1WindowRectAllocator.html", "classMR_1_1UI_1_1WindowRectAllocator" ]
@@ -330,6 +332,7 @@ var annotated_dup =
       [ "DragStartListener", "structMR_1_1DragStartListener.html", "structMR_1_1DragStartListener" ],
       [ "DrawButtonParams", "structMR_1_1DrawButtonParams.html", "structMR_1_1DrawButtonParams" ],
       [ "DrawListener", "structMR_1_1DrawListener.html", "structMR_1_1DrawListener" ],
+      [ "DrawSceneUiListener", "structMR_1_1DrawSceneUiListener.html", "structMR_1_1DrawSceneUiListener" ],
       [ "EdgePathsAStarBuilder", "classMR_1_1EdgePathsAStarBuilder.html", "classMR_1_1EdgePathsAStarBuilder" ],
       [ "EdgePathsBuilderT", "classMR_1_1EdgePathsBuilderT.html", "classMR_1_1EdgePathsBuilderT" ],
       [ "EdgePoint", "structMR_1_1EdgePoint.html", "structMR_1_1EdgePoint" ],

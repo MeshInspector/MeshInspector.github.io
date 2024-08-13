@@ -55,10 +55,11 @@ var searchData=
   ['dragstartsignal_52',['dragStartSignal',['../classMR_1_1Viewer.html#a1caa04e761486984969a78f76685f938',1,'MR::Viewer']]],
   ['drawasdiameter_53',['drawAsDiameter',['../structMR_1_1RenderDimensions_1_1RadiusParams.html#a1161a2acb579467fd9f2bf7bd0bb2961',1,'MR::RenderDimensions::RadiusParams']]],
   ['drawasnegative_54',['drawAsNegative',['../structMR_1_1RenderDimensions_1_1LengthParams.html#a59af6d3622c087865305af028ee374fa',1,'MR::RenderDimensions::LengthParams']]],
-  ['drawsignal_55',['drawSignal',['../classMR_1_1Viewer.html#a299cf1cccfffbe714ff8369008be4659',1,'MR::Viewer']]],
-  ['drawtimemillisec_56',['drawTimeMilliSec',['../classMR_1_1FrameCounter.html#ab152bae1e1a65d8d52cba5b78cd43a8c',1,'MR::FrameCounter']]],
-  ['droplist_5f_57',['dropList_',['../classMR_1_1RibbonMenuItem.html#a2f25401d4b94a752bd63b79152673ab5',1,'MR::RibbonMenuItem']]],
-  ['duplicatedvertexcount_58',['duplicatedVertexCount',['../structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7',1,'MR::MeshLoadSettings']]],
-  ['dupvert_59',['dupVert',['../structMR_1_1MeshBuilder_1_1VertDuplication.html#a304fd55bb8ea2a456b8fdf00cce9e14c',1,'MR::MeshBuilder::VertDuplication']]],
-  ['dynamic_60',['Dynamic',['../structMR_1_1Viewport_1_1Parameters.html#ab86532888b668d97ffd4c158c84ad63d',1,'MR::Viewport::Parameters']]]
+  ['drawsceneuisignal_55',['drawSceneUiSignal',['../classMR_1_1ImGuiMenu.html#ae71e78bd6eb312fb03d4b7931a3d3241',1,'MR::ImGuiMenu']]],
+  ['drawsignal_56',['drawSignal',['../classMR_1_1Viewer.html#a299cf1cccfffbe714ff8369008be4659',1,'MR::Viewer']]],
+  ['drawtimemillisec_57',['drawTimeMilliSec',['../classMR_1_1FrameCounter.html#ab152bae1e1a65d8d52cba5b78cd43a8c',1,'MR::FrameCounter']]],
+  ['droplist_5f_58',['dropList_',['../classMR_1_1RibbonMenuItem.html#a2f25401d4b94a752bd63b79152673ab5',1,'MR::RibbonMenuItem']]],
+  ['duplicatedvertexcount_59',['duplicatedVertexCount',['../structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7',1,'MR::MeshLoadSettings']]],
+  ['dupvert_60',['dupVert',['../structMR_1_1MeshBuilder_1_1VertDuplication.html#a304fd55bb8ea2a456b8fdf00cce9e14c',1,'MR::MeshBuilder::VertDuplication']]],
+  ['dynamic_61',['Dynamic',['../structMR_1_1Viewport_1_1Parameters.html#ab86532888b668d97ffd4c158c84ad63d',1,'MR::Viewport::Parameters']]]
 ];

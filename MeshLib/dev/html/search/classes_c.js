@@ -14,7 +14,8 @@ var searchData=
   ['noinit_11',['NoInit',['../structMR_1_1NoInit.html',1,'MR']]],
   ['noisesettings_12',['NoiseSettings',['../structMR_1_1NoiseSettings.html',1,'MR']]],
   ['nomodelcheck_13',['NoModelCheck',['../structMR_1_1NoModelCheck.html',1,'MR']]],
-  ['normalstopoints_14',['NormalsToPoints',['../classMR_1_1NormalsToPoints.html',1,'MR']]],
-  ['novisualrepresentationcheck_15',['NoVisualRepresentationCheck',['../structMR_1_1NoVisualRepresentationCheck.html',1,'MR']]],
-  ['numsum_16',['NumSum',['../structMR_1_1NumSum.html',1,'MR']]]
+  ['nonoverlappinglabeltask_14',['NonOverlappingLabelTask',['../classMR_1_1UI_1_1NonOverlappingLabelTask.html',1,'MR::UI']]],
+  ['normalstopoints_15',['NormalsToPoints',['../classMR_1_1NormalsToPoints.html',1,'MR']]],
+  ['novisualrepresentationcheck_16',['NoVisualRepresentationCheck',['../structMR_1_1NoVisualRepresentationCheck.html',1,'MR']]],
+  ['numsum_17',['NumSum',['../structMR_1_1NumSum.html',1,'MR']]]
 ];

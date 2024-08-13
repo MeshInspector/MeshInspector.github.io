@@ -105,7 +105,8 @@ var hierarchy =
     [ "MR::BasicUiRenderTask", "structMR_1_1BasicUiRenderTask.html", [
       [ "MR::RenderDimensions::AngleTask", "classMR_1_1RenderDimensions_1_1AngleTask.html", null ],
       [ "MR::RenderDimensions::LengthTask", "classMR_1_1RenderDimensions_1_1LengthTask.html", null ],
-      [ "MR::RenderDimensions::RadiusTask", "classMR_1_1RenderDimensions_1_1RadiusTask.html", null ]
+      [ "MR::RenderDimensions::RadiusTask", "classMR_1_1RenderDimensions_1_1RadiusTask.html", null ],
+      [ "MR::UI::NonOverlappingLabelTask", "classMR_1_1UI_1_1NonOverlappingLabelTask.html", null ]
     ] ],
     [ "MR::ImGuiMath::BasicVectorCompareHelper< Derived, A, All >", "structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html", null ],
     [ "MR::ImGuiMath::BasicVectorCompareHelper< CompareAll< A >, A, false >", "structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html", [
@@ -462,6 +463,7 @@ var hierarchy =
         [ "MR::DragListener", "structMR_1_1DragListener.html", null ],
         [ "MR::DragStartListener", "structMR_1_1DragStartListener.html", null ],
         [ "MR::DrawListener", "structMR_1_1DrawListener.html", null ],
+        [ "MR::DrawSceneUiListener", "structMR_1_1DrawSceneUiListener.html", null ],
         [ "MR::InterruptCloseListener", "structMR_1_1InterruptCloseListener.html", null ],
         [ "MR::KeyDownListener", "structMR_1_1KeyDownListener.html", null ],
         [ "MR::KeyRepeatListener", "structMR_1_1KeyRepeatListener.html", null ],
@@ -863,6 +865,7 @@ var hierarchy =
     [ "MR::Viewport::Parameters", "structMR_1_1Viewport_1_1Parameters.html", null ],
     [ "MR::VoxelsVolumeCachingAccessor< V >::Parameters", "structMR_1_1VoxelsVolumeCachingAccessor_1_1Parameters.html", null ],
     [ "MR::ImGuiMeasurementIndicators::Params", "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html", null ],
+    [ "MR::UI::NonOverlappingLabelTask::Params", "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html", null ],
     [ "MR::ColorMapAggregator< Tag >::PartialColorMap", "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html", null ],
     [ "MR::PartMapping", "structMR_1_1PartMapping.html", null ],
     [ "MR::Pdf", "classMR_1_1Pdf.html", null ],
@@ -931,6 +934,7 @@ var hierarchy =
     [ "MR::EdgePathsBuilderT< MetricToPenalty >::ReachedVert", "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html", null ],
     [ "MR::RecentFilesStore", "classMR_1_1RecentFilesStore.html", null ],
     [ "MR::UI::RectAllocator", "classMR_1_1UI_1_1RectAllocator.html", [
+      [ "MR::UI::LabelRectAllocator", "classMR_1_1UI_1_1LabelRectAllocator.html", null ],
       [ "MR::UI::WindowRectAllocator", "classMR_1_1UI_1_1WindowRectAllocator.html", null ]
     ] ],
     [ "MR::RectIndexer", "classMR_1_1RectIndexer.html", [
