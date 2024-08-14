@@ -703,6 +703,7 @@ var hierarchy =
       [ "MR::MultiMeshIntersectionResult", "structMR_1_1MultiMeshIntersectionResult.html", null ]
     ] ],
     [ "MR::MeshLoad::MeshLoaderAdder", "classMR_1_1MeshLoad_1_1MeshLoaderAdder.html", null ],
+    [ "MR::MeshLoadMetrics", "structMR_1_1MeshLoadMetrics.html", null ],
     [ "MR::MeshLoadSettings", "structMR_1_1MeshLoadSettings.html", null ],
     [ "MR::MeshMeshConverter", "structMR_1_1MeshMeshConverter.html", null ],
     [ "MR::MeshNormals", "structMR_1_1MeshNormals.html", null ],

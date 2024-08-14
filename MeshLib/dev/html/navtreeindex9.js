@@ -1,5 +1,16 @@
 var NAVTREEINDEX9 =
 {
+"MRPolylineRelax_8h.html":[13,0,0,2,3,296],
+"MRPolylineRelax_8h_source.html":[13,0,0,2,3,296],
+"MRPolylineSubdivide_8h.html":[13,0,0,2,3,297],
+"MRPolylineSubdivide_8h_source.html":[13,0,0,2,3,297],
+"MRPolylineTopology_8h.html":[13,0,0,2,3,298],
+"MRPolylineTopology_8h_source.html":[13,0,0,2,3,298],
+"MRPolylineTrimWithPlane_8h.html":[13,0,0,2,3,299],
+"MRPolylineTrimWithPlane_8h.html#a021c68ef31d7ddce5af4dffb3ebf6bc3":[13,0,0,2,3,299,1],
+"MRPolylineTrimWithPlane_8h.html#a6054cb385aa068c253443651474ca3e0":[13,0,0,2,3,299,3],
+"MRPolylineTrimWithPlane_8h.html#ae61b22dea9c3ed4deb8de8c933fc6a3c":[13,0,0,2,3,299,2],
+"MRPolylineTrimWithPlane_8h_source.html":[13,0,0,2,3,299],
 "MRPolyline_8h.html":[13,0,0,2,3,288],
 "MRPolyline_8h_source.html":[13,0,0,2,3,288],
 "MRPositionVertsSmoothly_8h.html":[13,0,0,2,3,301],
@@ -238,16 +249,5 @@ var NAVTREEINDEX9 =
 "MRRibbonSchema_8h.html#a9156ba38070249801207259b1b438e47":[13,0,0,2,8,74,15],
 "MRRibbonSchema_8h.html#ad1709955819b9d2eb38aa06ebd34272c":[13,0,0,2,8,74,10],
 "MRRibbonSchema_8h.html#ad42a75e584073228a798aaddab06e6f4":[13,0,0,2,8,74,12],
-"MRRibbonSchema_8h_source.html":[13,0,0,2,8,74],
-"MRRigidScaleXf3_8h.html":[13,0,0,2,3,322],
-"MRRigidScaleXf3_8h_source.html":[13,0,0,2,3,322],
-"MRRigidXf3_8h.html":[13,0,0,2,3,323],
-"MRRigidXf3_8h_source.html":[13,0,0,2,3,323],
-"MRRingIterator_8h.html":[13,0,0,2,3,324],
-"MRRingIterator_8h.html#a1ba9e876bd033bc6803332bb875ee138":[13,0,0,2,3,324,4],
-"MRRingIterator_8h.html#a649c474104e7af19340b277ad9328dfb":[13,0,0,2,3,324,7],
-"MRRingIterator_8h.html#a9490457d4ac8cdb219f99745b7f0c7c3":[13,0,0,2,3,324,9],
-"MRRingIterator_8h.html#aa10e8c70214e043065a204ed41c35dd3":[13,0,0,2,3,324,6],
-"MRRingIterator_8h.html#aa6d03a2d0be4704d9f9287c613a63811":[13,0,0,2,3,324,8],
-"MRRingIterator_8h.html#ab1ba9bf4b9468525f62bc98e2160eb1f":[13,0,0,2,3,324,5]
+"MRRibbonSchema_8h_source.html":[13,0,0,2,8,74]
 };

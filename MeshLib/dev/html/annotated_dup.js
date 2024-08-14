@@ -468,6 +468,7 @@ var annotated_dup =
       [ "MeshDistanceResult", "structMR_1_1MeshDistanceResult.html", "structMR_1_1MeshDistanceResult" ],
       [ "MeshEqualizeTriAreasParams", "structMR_1_1MeshEqualizeTriAreasParams.html", "structMR_1_1MeshEqualizeTriAreasParams" ],
       [ "MeshIntersectionResult", "structMR_1_1MeshIntersectionResult.html", "structMR_1_1MeshIntersectionResult" ],
+      [ "MeshLoadMetrics", "structMR_1_1MeshLoadMetrics.html", "structMR_1_1MeshLoadMetrics" ],
       [ "MeshLoadSettings", "structMR_1_1MeshLoadSettings.html", "structMR_1_1MeshLoadSettings" ],
       [ "MeshMeshConverter", "structMR_1_1MeshMeshConverter.html", "structMR_1_1MeshMeshConverter" ],
       [ "MeshModifier", "classMR_1_1MeshModifier.html", "classMR_1_1MeshModifier" ],

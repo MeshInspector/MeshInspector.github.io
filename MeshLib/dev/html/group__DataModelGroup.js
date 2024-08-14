@@ -298,6 +298,11 @@ var group__DataModelGroup =
       [ "totalLength_", "classMR_1_1ObjectLinesHolder.html#aee46157cb8a669b29f698f0ea9688264", null ],
       [ "worldBox_", "classMR_1_1ObjectLinesHolder.html#af3f76f7286057cda0116754b663cf340", null ]
     ] ],
+    [ "MR::MeshLoadMetrics", "structMR_1_1MeshLoadMetrics.html", [
+      [ "callback", "structMR_1_1MeshLoadMetrics.html#a674c21ebc354b46e11d6fe1bb89d3c09", null ],
+      [ "duplicatedVertexCount", "structMR_1_1MeshLoadMetrics.html#a360932b765ce39481198982e83048f03", null ],
+      [ "skippedFaceCount", "structMR_1_1MeshLoadMetrics.html#a77c4ff416dde7365919b0868e8c40bfa", null ]
+    ] ],
     [ "MR::ObjectMesh", "classMR_1_1ObjectMesh.html", [
       [ "MeshChangedSignal", "classMR_1_1ObjectMesh.html#a9d86b40da25331f20375e342d1e6abdd", null ],
       [ "ObjectMesh", "classMR_1_1ObjectMesh.html#a60912e66f88e4d3f0f1330585e37a930", null ],
@@ -459,16 +464,5 @@ var group__DataModelGroup =
     [ "MR::getDepthFirstObject", "group__DataModelGroup.html#ga9deb7ce48a7affd6ab0bce4cfc901726", null ],
     [ "MR::getDepthFirstObject", "group__DataModelGroup.html#gafa3e42d954c50c383af5c20a059e34d2", null ],
     [ "MR::getTopmostVisibleObjects", "group__DataModelGroup.html#ga014b6029e38a8f6003e2a3d941e2ca9f", null ],
-    [ "MR::getTopmostVisibleObjects", "group__DataModelGroup.html#ga7afd4c6187926b10b71f8631961165a0", null ],
-    [ "MR::isSupportedFileInSubfolders", "group__DataModelGroup.html#gaa2082792bceb5a2dd3b18ff5693f0441", null ],
-    [ "MR::loadObjectFromFile", "group__DataModelGroup.html#ga241875d4b829c640b1806ea5bc3c9a62", null ],
-    [ "MR::loadSceneFromAnySupportedFormat", "group__DataModelGroup.html#gae2cbd939f46f10489210e5b80b10b540", null ],
-    [ "MR::makeObjectDistanceMapFromFile", "group__DataModelGroup.html#ga6db28aaf4d28c32688ee3fbe07c2cd69", null ],
-    [ "MR::makeObjectFromMeshFile", "group__DataModelGroup.html#gad4afe9aa37f869e06cf02eb53da3cd34", null ],
-    [ "MR::makeObjectGcodeFromFile", "group__DataModelGroup.html#ga9e5093d4aabe18b3b177676bed2f1832", null ],
-    [ "MR::makeObjectLinesFromFile", "group__DataModelGroup.html#ga49f50b3f8a8b62d1de7af24264eac759", null ],
-    [ "MR::makeObjectMeshFromFile", "group__DataModelGroup.html#ga207ba7fb5a794273773e573fd8f498f1", null ],
-    [ "MR::makeObjectPointsFromFile", "group__DataModelGroup.html#gacd7dca15ed95f44fa82294bf8a85be2a", null ],
-    [ "MR::makeObjectTreeFromFolder", "group__DataModelGroup.html#gacf3fe56f6c84e15111a7d40381381e1a", null ],
-    [ "MR::makeObjectVoxelsFromFile", "group__DataModelGroup.html#gaac5f922e990f4acb04bd195619164ff5", null ]
+    [ "MR::getTopmostVisibleObjects", "group__DataModelGroup.html#ga7afd4c6187926b10b71f8631961165a0", null ]
 ];

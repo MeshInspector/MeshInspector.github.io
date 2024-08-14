@@ -1,5 +1,16 @@
 var NAVTREEINDEX13 =
 {
+"MeshOffset_8dox_8cpp.html":[13,0,0,1,2,8],
+"MeshOffset_8dox_8py.html":[13,0,0,1,3,7],
+"MeshResolveDegenerations_8dox_8c.html":[13,0,0,1,1,6],
+"MeshStitchHole_8dox_8cpp.html":[13,0,0,1,2,9],
+"MeshStitchHole_8dox_8py.html":[13,0,0,1,3,8],
+"NumpyTriangulation_8dox_8py.html":[13,0,0,1,3,10],
+"Numpy_8dox_8py.html":[13,0,0,1,3,9],
+"Offset_8dox_8cs.html":[13,0,0,1,0,2],
+"Plotly_8dox_8py.html":[13,0,0,1,3,11],
+"PythonCodeExamples.html":[4,3],
+"SpacesHelp.html":[6],
 "StatePluginsHelp.html":[7],
 "StatePluginsHelp.html#BaseFunctions":[7,0],
 "StatePluginsHelp.html#PluginCreation":[7,1],
@@ -238,16 +249,5 @@ var NAVTREEINDEX13 =
 "classMR_1_1AngleMeasurementObject.html#aa12ae3069114c41ef8ed6616672c5d29":[10,0,10,57,0],
 "classMR_1_1AngleMeasurementObject.html#aa12ae3069114c41ef8ed6616672c5d29":[12,0,1,41,0],
 "classMR_1_1AngleMeasurementObject.html#aa144d0e4a8a0e869d988653be474ce4a":[10,0,10,57,5],
-"classMR_1_1AngleMeasurementObject.html#aa144d0e4a8a0e869d988653be474ce4a":[12,0,1,41,5],
-"classMR_1_1AngleMeasurementObject.html#aaa46f9128d202f32be37d9d9db292fe6":[10,0,10,57,25],
-"classMR_1_1AngleMeasurementObject.html#aaa46f9128d202f32be37d9d9db292fe6":[12,0,1,41,25],
-"classMR_1_1AngleMeasurementObject.html#ab6d8065cd350f11e20867b78601c0f91":[10,0,10,57,21],
-"classMR_1_1AngleMeasurementObject.html#ab6d8065cd350f11e20867b78601c0f91":[12,0,1,41,21],
-"classMR_1_1AngleMeasurementObject.html#abb7bb12dfced500eeeb5112066503a82":[10,0,10,57,16],
-"classMR_1_1AngleMeasurementObject.html#abb7bb12dfced500eeeb5112066503a82":[12,0,1,41,16],
-"classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7":[10,0,10,57,10],
-"classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7":[12,0,1,41,10],
-"classMR_1_1AngleMeasurementObject.html#ad695fce882db5541f784b78c892549a9":[10,0,10,57,19],
-"classMR_1_1AngleMeasurementObject.html#ad695fce882db5541f784b78c892549a9":[12,0,1,41,19],
-"classMR_1_1AngleMeasurementObject.html#ad9e371006af6a03a0cfe38eaeb705a44":[10,0,10,57,15]
+"classMR_1_1AngleMeasurementObject.html#aa144d0e4a8a0e869d988653be474ce4a":[12,0,1,41,5]
 };

@@ -59,7 +59,7 @@ var searchData=
   ['drawsignal_56',['drawSignal',['../classMR_1_1Viewer.html#a299cf1cccfffbe714ff8369008be4659',1,'MR::Viewer']]],
   ['drawtimemillisec_57',['drawTimeMilliSec',['../classMR_1_1FrameCounter.html#ab152bae1e1a65d8d52cba5b78cd43a8c',1,'MR::FrameCounter']]],
   ['droplist_5f_58',['dropList_',['../classMR_1_1RibbonMenuItem.html#a2f25401d4b94a752bd63b79152673ab5',1,'MR::RibbonMenuItem']]],
-  ['duplicatedvertexcount_59',['duplicatedVertexCount',['../group__MeshLoadObjGroup.html#ga26a8bc92daf43830d65572e1f00a40dc',1,'MR::MeshLoad::NamedMesh::duplicatedVertexCount'],['../structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7',1,'MR::MeshLoadSettings::duplicatedVertexCount']]],
+  ['duplicatedvertexcount_59',['duplicatedVertexCount',['../group__MeshLoadObjGroup.html#ga26a8bc92daf43830d65572e1f00a40dc',1,'MR::MeshLoad::NamedMesh::duplicatedVertexCount'],['../structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7',1,'MR::MeshLoadSettings::duplicatedVertexCount'],['../structMR_1_1MeshLoadMetrics.html#a360932b765ce39481198982e83048f03',1,'MR::MeshLoadMetrics::duplicatedVertexCount']]],
   ['dupvert_60',['dupVert',['../structMR_1_1MeshBuilder_1_1VertDuplication.html#a304fd55bb8ea2a456b8fdf00cce9e14c',1,'MR::MeshBuilder::VertDuplication']]],
   ['dynamic_61',['Dynamic',['../structMR_1_1Viewport_1_1Parameters.html#ab86532888b668d97ffd4c158c84ad63d',1,'MR::Viewport::Parameters']]]
 ];
