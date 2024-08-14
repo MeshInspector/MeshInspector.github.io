@@ -1,5 +1,11 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1FanRecord.html#afdf05e8b0d0790c4feea524b2d3cf936":[12,0,1,187,0],
+"structMR_1_1FanRecordWithCenter.html":[10,0,10,204],
+"structMR_1_1FanRecordWithCenter.html":[12,0,1,188],
+"structMR_1_1FanRecordWithCenter.html#a010e9445541af4e90e90d34acc98220e":[10,0,10,204,0],
+"structMR_1_1FanRecordWithCenter.html#a010e9445541af4e90e90d34acc98220e":[12,0,1,188,0],
+"structMR_1_1FanRecordWithCenter.html#a066cda1cd4ae46c8b3236007bf1033b1":[10,0,10,204,2],
 "structMR_1_1FanRecordWithCenter.html#a066cda1cd4ae46c8b3236007bf1033b1":[12,0,1,188,2],
 "structMR_1_1FanRecordWithCenter.html#ac112017931324f9b12a9af38f28671e2":[10,0,10,204,1],
 "structMR_1_1FanRecordWithCenter.html#ac112017931324f9b12a9af38f28671e2":[12,0,1,188,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1FindInnerShellSettings.html#ac15bd082d7f22aa7db37b1263fb2f8e4":[12,0,1,200,3],
 "structMR_1_1FindOverhangsSettings.html":[10,0,10,217],
 "structMR_1_1FindOverhangsSettings.html":[12,0,1,201],
-"structMR_1_1FindOverhangsSettings.html#a047ea47c16c17b322c9ae6ec9bd817ad":[10,0,10,217,0],
-"structMR_1_1FindOverhangsSettings.html#a047ea47c16c17b322c9ae6ec9bd817ad":[12,0,1,201,0],
-"structMR_1_1FindOverhangsSettings.html#a0533f2a781c49812b0d5cbe4fbfbaa21":[10,0,10,217,4],
-"structMR_1_1FindOverhangsSettings.html#a0533f2a781c49812b0d5cbe4fbfbaa21":[12,0,1,201,4],
-"structMR_1_1FindOverhangsSettings.html#a3d1a3266302b03fd65361e652890be0e":[10,0,10,217,5],
-"structMR_1_1FindOverhangsSettings.html#a3d1a3266302b03fd65361e652890be0e":[12,0,1,201,5],
-"structMR_1_1FindOverhangsSettings.html#a92c8870a66285a8a03fbae5699382e82":[10,0,10,217,3]
+"structMR_1_1FindOverhangsSettings.html#a047ea47c16c17b322c9ae6ec9bd817ad":[10,0,10,217,0]
 };

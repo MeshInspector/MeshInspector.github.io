@@ -1,5 +1,12 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1ToolPathParams.html#adf1fc52d9134c621ba9630531ee2c99d":[10,0,10,623,15],
+"structMR_1_1ToolPathParams.html#adf1fc52d9134c621ba9630531ee2c99d":[12,0,1,607,15],
+"structMR_1_1ToolPathParams.html#af3436d805511bd0d9d2382154e99f492":[10,0,10,623,17],
+"structMR_1_1ToolPathParams.html#af3436d805511bd0d9d2382154e99f492":[12,0,1,607,17],
+"structMR_1_1ToolPathResult.html":[10,0,10,624],
+"structMR_1_1ToolPathResult.html":[12,0,1,608],
+"structMR_1_1ToolPathResult.html#a327bcaceb046cef6859ddc1293a47e35":[10,0,10,624,0],
 "structMR_1_1ToolPathResult.html#a327bcaceb046cef6859ddc1293a47e35":[12,0,1,608,0],
 "structMR_1_1ToolPathResult.html#a98b818ec1b422fbe35f5efd57ff37a44":[10,0,10,624,2],
 "structMR_1_1ToolPathResult.html#a98b818ec1b422fbe35f5efd57ff37a44":[12,0,1,608,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1TriangulationHelpers_1_1Settings.html#abe33d444027e0033891d8d9d75e52e1f":[10,0,10,35,1,9],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#abe33d444027e0033891d8d9d75e52e1f":[12,0,1,19,1,9],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#ad5edcde965a734c44ce7cb176b8784c2":[10,0,10,35,1,0],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#ad5edcde965a734c44ce7cb176b8784c2":[12,0,1,19,1,0],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#adaecbf29331f6b90ae2a11acaa0c153a":[10,0,10,35,1,4],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#adaecbf29331f6b90ae2a11acaa0c153a":[12,0,1,19,1,4],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#aeadcc460fdb58725f5fd22d6457ea9b2":[10,0,10,35,1,7],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#aeadcc460fdb58725f5fd22d6457ea9b2":[12,0,1,19,1,7],
-"structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html":[9,15,0,0],
-"structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a1f3d70f2e7f419c37867994b06e7cb37":[9,15,0,0,4],
-"structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a5415b188e466c2295bb082600f25f64b":[9,15,0,0,2]
+"structMR_1_1TriangulationHelpers_1_1Settings.html#ad5edcde965a734c44ce7cb176b8784c2":[12,0,1,19,1,0]
 };

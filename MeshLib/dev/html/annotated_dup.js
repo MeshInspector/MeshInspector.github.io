@@ -78,7 +78,8 @@ var annotated_dup =
       [ "MeshLoad", "namespaceMR_1_1MeshLoad.html", [
         [ "MeshLoaderAdder", "classMR_1_1MeshLoad_1_1MeshLoaderAdder.html", "classMR_1_1MeshLoad_1_1MeshLoaderAdder" ],
         [ "NamedMesh", "structMR_1_1MeshLoad_1_1NamedMesh.html", "structMR_1_1MeshLoad_1_1NamedMesh" ],
-        [ "NamedMeshLoader", "structMR_1_1MeshLoad_1_1NamedMeshLoader.html", "structMR_1_1MeshLoad_1_1NamedMeshLoader" ]
+        [ "NamedMeshLoader", "structMR_1_1MeshLoad_1_1NamedMeshLoader.html", "structMR_1_1MeshLoad_1_1NamedMeshLoader" ],
+        [ "ObjLoadSettings", "structMR_1_1MeshLoad_1_1ObjLoadSettings.html", "structMR_1_1MeshLoad_1_1ObjLoadSettings" ]
       ] ],
       [ "MeshSave", "namespaceMR_1_1MeshSave.html", [
         [ "CtmSaveOptions", "structMR_1_1MeshSave_1_1CtmSaveOptions.html", "structMR_1_1MeshSave_1_1CtmSaveOptions" ],

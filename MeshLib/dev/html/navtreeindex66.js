@@ -1,5 +1,12 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1MeshVoxelsConverter.html#adc6a0a341b57e23c8d707441794d45f3":[12,0,1,328,5],
+"structMR_1_1MeshVoxelsConverter.html#ae330959a25aa6192bd935ba02742be34":[10,0,10,344,0],
+"structMR_1_1MeshVoxelsConverter.html#ae330959a25aa6192bd935ba02742be34":[12,0,1,328,0],
+"structMR_1_1MeshVoxelsConverter.html#aff9a0bc144c30c521df635ba7c3ae056":[10,0,10,344,7],
+"structMR_1_1MeshVoxelsConverter.html#aff9a0bc144c30c521df635ba7c3ae056":[12,0,1,328,7],
+"structMR_1_1Meta_1_1SharedPtrTraits.html":[10,0,10,20,0],
+"structMR_1_1Meta_1_1SharedPtrTraits.html":[12,0,1,9,0],
 "structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[10,0,10,20,0,0],
 "structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[12,0,1,9,0,0],
 "structMR_1_1MetricToAStarPenalty.html":[10,0,10,345],
@@ -242,12 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1ObjTreeTraits.html#a5517b355b3a51538470f957d6a23bff1":[10,0,10,400,2],
 "structMR_1_1ObjTreeTraits.html#a5517b355b3a51538470f957d6a23bff1":[12,0,1,384,2],
 "structMR_1_1ObjTreeTraits.html#a7208b3ed4cbf6a7db7c03785856d5131":[10,0,10,400,1],
-"structMR_1_1ObjTreeTraits.html#a7208b3ed4cbf6a7db7c03785856d5131":[12,0,1,384,1],
-"structMR_1_1ObjTreeTraits.html#ae8c8c6d7c93de2cba91378f547c50a8e":[10,0,10,400,0],
-"structMR_1_1ObjTreeTraits.html#ae8c8c6d7c93de2cba91378f547c50a8e":[12,0,1,384,0],
-"structMR_1_1ObjVertId.html":[10,0,10,401],
-"structMR_1_1ObjVertId.html":[12,0,1,385],
-"structMR_1_1ObjVertId.html#a4fe9249435e74452c6a1f2a06d40de31":[10,0,10,401,0],
-"structMR_1_1ObjVertId.html#a4fe9249435e74452c6a1f2a06d40de31":[12,0,1,385,0],
-"structMR_1_1ObjVertId.html#a921cb8e7f87d9fc04f442a3b02ed5806":[10,0,10,401,1]
+"structMR_1_1ObjTreeTraits.html#a7208b3ed4cbf6a7db7c03785856d5131":[12,0,1,384,1]
 };

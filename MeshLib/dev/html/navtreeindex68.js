@@ -1,5 +1,12 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#a9e57510cc8b745dcfbbf6e04c6fba846":[10,0,10,24,1,1],
+"structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#a9e57510cc8b745dcfbbf6e04c6fba846":[12,0,1,11,1,1],
+"structMR_1_1Plane3.html":[9,0,18],
+"structMR_1_1Plane3.html#a29f7ab9c3671dc6904b3a79d854445ad":[9,0,18,0],
+"structMR_1_1Plane3.html#a383135f606af5200e0386204ae1eecf3":[9,0,18,4],
+"structMR_1_1Plane3.html#a38c8491b1563ae8fbbfe5666645cecc5":[9,0,18,9],
+"structMR_1_1Plane3.html#a3c50c85a67a6ef9fa20e8e11efbd2ac2":[9,0,18,7],
 "structMR_1_1Plane3.html#a4f9977f7a0aeb3eaba36bc94e95143a9":[9,0,18,3],
 "structMR_1_1Plane3.html#a6a3380250b17c409373c0969b61f8fe5":[9,0,18,5],
 "structMR_1_1Plane3.html#a6e5e2b0ad95eae3a0388468db8a83a63":[9,0,18,11],
@@ -242,12 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1Polynomial.html#a647fa3efb019e9541f3faabd5316bbe3":[10,0,10,461,3],
 "structMR_1_1Polynomial.html#a647fa3efb019e9541f3faabd5316bbe3":[12,0,1,445,3],
 "structMR_1_1Polynomial.html#a7b90334059066d4883920a0f7fa6942f":[10,0,10,461,0],
-"structMR_1_1Polynomial.html#a7b90334059066d4883920a0f7fa6942f":[12,0,1,445,0],
-"structMR_1_1Polynomial.html#aa365a06c840a632101e61a9d0ba31866":[10,0,10,461,1],
-"structMR_1_1Polynomial.html#aa365a06c840a632101e61a9d0ba31866":[12,0,1,445,1],
-"structMR_1_1Polynomial.html#ad1c492e9ade30990c714083f0317bdf6":[10,0,10,461,5],
-"structMR_1_1Polynomial.html#ad1c492e9ade30990c714083f0317bdf6":[12,0,1,445,5],
-"structMR_1_1Polynomial.html#af4cea678a8bd6d42610d8b839862f4d2":[10,0,10,461,4],
-"structMR_1_1Polynomial.html#af4cea678a8bd6d42610d8b839862f4d2":[12,0,1,445,4],
-"structMR_1_1PolynomialWrapper.html":[10,0,10,462]
+"structMR_1_1Polynomial.html#a7b90334059066d4883920a0f7fa6942f":[12,0,1,445,0]
 };

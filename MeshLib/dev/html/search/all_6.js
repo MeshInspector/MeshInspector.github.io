@@ -354,7 +354,7 @@ var searchData=
   ['dropitemslist_351',['DropItemsList',['../classMR_1_1RibbonMenuItem.html#a4799011be3410f46444164d6d00b966e',1,'MR::RibbonMenuItem']]],
   ['droplist_5f_352',['dropList_',['../classMR_1_1RibbonMenuItem.html#a2f25401d4b94a752bd63b79152673ab5',1,'MR::RibbonMenuItem']]],
   ['dropoldeventsonnew_353',['dropOldEventsOnNew',['../classMR_1_1MouseController.html#abb21421c9f8c663d90c93fc87982a797',1,'MR::MouseController']]],
-  ['duplicatedvertexcount_354',['duplicatedVertexCount',['../structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7',1,'MR::MeshLoadSettings']]],
+  ['duplicatedvertexcount_354',['duplicatedVertexCount',['../group__MeshLoadObjGroup.html#ga26a8bc92daf43830d65572e1f00a40dc',1,'MR::MeshLoad::NamedMesh::duplicatedVertexCount'],['../structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7',1,'MR::MeshLoadSettings::duplicatedVertexCount']]],
   ['duplicatemultiholevertices_355',['duplicateMultiHoleVertices',['../group__MeshFixerGroup.html#ga030e7fa6218d19042b2a5ae052055192',1,'MR']]],
   ['duplicatenonmanifoldvertices_356',['duplicateNonManifoldVertices',['../namespaceMR_1_1MeshBuilder.html#a490e7688bd91a7df375c29f2bd7633a4',1,'MR::MeshBuilder']]],
   ['dupvert_357',['dupVert',['../structMR_1_1MeshBuilder_1_1VertDuplication.html#a304fd55bb8ea2a456b8fdf00cce9e14c',1,'MR::MeshBuilder::VertDuplication']]],

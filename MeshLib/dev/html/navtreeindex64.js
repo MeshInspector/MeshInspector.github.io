@@ -1,5 +1,11 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1Matrix.html#a806891030ce95bf1c8f30915a0068e98":[9,0,7,0,8],
+"structMR_1_1Matrix.html#a969b7d6345630cad2fa560cfc8f69965":[9,0,7,0,0],
+"structMR_1_1Matrix.html#a9732eb2252ae08face0de86a534e7102":[9,0,7,0,12],
+"structMR_1_1Matrix.html#a9eb1e62339fab559b2cdea38de18d03a":[9,0,7,0,3],
+"structMR_1_1Matrix.html#aa5793f31905b29875d11cc1de6d948d5":[9,0,7,0,6],
+"structMR_1_1Matrix.html#aaf278a69da3b6609b3a56d61f89f989e":[9,0,7,0,7],
 "structMR_1_1Matrix.html#ab08a4a3c3eebfc38135fb65061fa927c":[9,0,7,0,11],
 "structMR_1_1Matrix.html#ab3a6654e368fa2ab1dbb1fc6f37ac4e3":[9,0,7,0,9],
 "structMR_1_1Matrix.html#ab4dd30aee86567790c1f73778509456d":[9,0,7,0,10],
@@ -243,11 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1MeshApproxRelaxParams.html#aed8137acdd95c73e5606d4ad5fa7e3ae":[9,11,6,2,0],
 "structMR_1_1MeshAttributesToUpdate.html":[10,0,10,320],
 "structMR_1_1MeshAttributesToUpdate.html":[12,0,1,304],
-"structMR_1_1MeshAttributesToUpdate.html#a161c46fbd4edb96386ef840eb0fe9fc7":[10,0,10,320,0],
-"structMR_1_1MeshAttributesToUpdate.html#a161c46fbd4edb96386ef840eb0fe9fc7":[12,0,1,304,0],
-"structMR_1_1MeshAttributesToUpdate.html#aca8eecaf6d18987308450e4834bb50cd":[10,0,10,320,1],
-"structMR_1_1MeshAttributesToUpdate.html#aca8eecaf6d18987308450e4834bb50cd":[12,0,1,304,1],
-"structMR_1_1MeshBuilder_1_1BuildSettings.html":[10,0,10,16,0],
-"structMR_1_1MeshBuilder_1_1BuildSettings.html":[12,0,1,6,0],
-"structMR_1_1MeshBuilder_1_1BuildSettings.html#a1fdb51404a12dafa32d295e97234ce4f":[10,0,10,16,0,1]
+"structMR_1_1MeshAttributesToUpdate.html#a161c46fbd4edb96386ef840eb0fe9fc7":[10,0,10,320,0]
 };

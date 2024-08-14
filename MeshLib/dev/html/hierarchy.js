@@ -844,6 +844,7 @@ var hierarchy =
     [ "MR::ObjKindTraits< FeaturesObjectKind::Plane >", "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html", null ],
     [ "MR::ObjKindTraits< FeaturesObjectKind::Point >", "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html", null ],
     [ "MR::ObjKindTraits< FeaturesObjectKind::Sphere >", "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html", null ],
+    [ "MR::MeshLoad::ObjLoadSettings", "structMR_1_1MeshLoad_1_1ObjLoadSettings.html", null ],
     [ "MR::ObjTreeTraits", "structMR_1_1ObjTreeTraits.html", null ],
     [ "MR::ObjVertId", "structMR_1_1ObjVertId.html", null ],
     [ "Offset", "classOffset.html", null ],
