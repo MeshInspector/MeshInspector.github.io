@@ -56,6 +56,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRRenderFeatureObjects.h", "MRRenderFeatureObjects_8h.html", "MRRenderFeatureObjects_8h" ],
     [ "MRRenderGLHelpers.h", "MRRenderGLHelpers_8h.html", "MRRenderGLHelpers_8h" ],
     [ "MRRenderHelpers.h", "MRRenderHelpers_8h.html", "MRRenderHelpers_8h" ],
+    [ "MRRenderImGuiLabelObject.h", "MRRenderImGuiLabelObject_8h.html", "MRRenderImGuiLabelObject_8h" ],
     [ "MRRenderLabelObject.h", "MRRenderLabelObject_8h.html", "MRRenderLabelObject_8h" ],
     [ "MRRenderLinesObject.h", "MRRenderLinesObject_8h.html", "MRRenderLinesObject_8h" ],
     [ "MRRenderMeasurementObjects.h", "MRRenderMeasurementObjects_8h.html", "MRRenderMeasurementObjects_8h" ],

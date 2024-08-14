@@ -1,5 +1,9 @@
 var NAVTREEINDEX13 =
 {
+"StatePluginsHelp.html":[7],
+"StatePluginsHelp.html#BaseFunctions":[7,0],
+"StatePluginsHelp.html#PluginCreation":[7,1],
+"TestMacros_8h.html":[13,0,0,2,7,3],
 "TestMacros_8h.html#a18e67aa9bbe430effc874d3dde1bc7e1":[13,0,0,2,7,3,0],
 "TestMacros_8h_source.html":[13,0,0,2,7,3],
 "ThirdParty.html":[8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX13 =
 "classMR_1_1AngleMeasurementObject.html#ad5d3f4aec36cb3c1916f8354336025b7":[12,0,1,41,10],
 "classMR_1_1AngleMeasurementObject.html#ad695fce882db5541f784b78c892549a9":[10,0,10,57,19],
 "classMR_1_1AngleMeasurementObject.html#ad695fce882db5541f784b78c892549a9":[12,0,1,41,19],
-"classMR_1_1AngleMeasurementObject.html#ad9e371006af6a03a0cfe38eaeb705a44":[10,0,10,57,15],
-"classMR_1_1AngleMeasurementObject.html#ad9e371006af6a03a0cfe38eaeb705a44":[12,0,1,41,15],
-"classMR_1_1AngleMeasurementObject.html#adb7fd00b2e03e915ea4eabd5e7461b7f":[10,0,10,57,11],
-"classMR_1_1AngleMeasurementObject.html#adb7fd00b2e03e915ea4eabd5e7461b7f":[12,0,1,41,11],
-"classMR_1_1AngleMeasurementObject.html#ae55c096c40230b811bd7a00fb9a219eb":[10,0,10,57,2]
+"classMR_1_1AngleMeasurementObject.html#ad9e371006af6a03a0cfe38eaeb705a44":[10,0,10,57,15]
 };

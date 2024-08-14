@@ -243,7 +243,7 @@ var searchData=
   ['getjsonvalue_240',['getJsonValue',['../classMR_1_1Config.html#ad2eb8802aad4bfd9072566fa434036ce',1,'MR::Config']]],
   ['getkeyfullstring_241',['getKeyFullString',['../classMR_1_1ShortcutManager.html#ad8411027e895d06475915a2acf0951ce',1,'MR::ShortcutManager']]],
   ['getkeystring_242',['getKeyString',['../classMR_1_1ShortcutManager.html#a289b280e2a0b231a0820aa8d2fc2a4b3',1,'MR::ShortcutManager']]],
-  ['getlabel_243',['getLabel',['../classMR_1_1ObjectLabel.html#a1d72e7f4d72cb5498d8ef35a334c7d49',1,'MR::ObjectLabel']]],
+  ['getlabel_243',['getLabel',['../classMR_1_1ObjectImGuiLabel.html#acd9b8124de69dcb256d9eb4ac9b5cf4d',1,'MR::ObjectImGuiLabel::getLabel()'],['../classMR_1_1ObjectLabel.html#a1d72e7f4d72cb5498d8ef35a334c7d49',1,'MR::ObjectLabel::getLabel()']]],
   ['getlabels_244',['getLabels',['../classMR_1_1VisualObject.html#af119b81d9e37bccd5e0bc121a9797544',1,'MR::VisualObject']]],
   ['getlabelscolor_245',['getLabelsColor',['../classMR_1_1VisualObject.html#a3fac4a1849f6d59cda71fe6f1d9dc4d5',1,'MR::VisualObject']]],
   ['getlabelscolorsforallviewports_246',['getLabelsColorsForAllViewports',['../classMR_1_1VisualObject.html#a3030960f5dc232bd41c57fe87f656859',1,'MR::VisualObject']]],

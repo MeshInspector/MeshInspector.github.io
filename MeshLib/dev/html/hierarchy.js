@@ -82,11 +82,13 @@ var hierarchy =
       [ "MR::RenderObjectCombinator< RenderDefaultUiObject, RenderFeatureMeshComponent< true >, RenderFeaturePointsComponent< false >, RenderResetDirtyComponent >", "classMR_1_1RenderObjectCombinator.html", [
         [ "MR::RenderFeatures::RenderSphereFeatureObject", "classMR_1_1RenderFeatures_1_1RenderSphereFeatureObject.html", null ]
       ] ],
-      [ "MR::RenderObjectCombinator< Bases >", "classMR_1_1RenderObjectCombinator.html", [
+      [ "MR::RenderObjectCombinator< RenderDefaultUiObject, RenderResetDirtyComponent >", "classMR_1_1RenderObjectCombinator.html", [
         [ "MR::RenderAngleObject", "classMR_1_1RenderAngleObject.html", null ],
         [ "MR::RenderDistanceObject", "classMR_1_1RenderDistanceObject.html", null ],
+        [ "MR::RenderImGuiLabelObject", "classMR_1_1RenderImGuiLabelObject.html", null ],
         [ "MR::RenderRadiusObject", "classMR_1_1RenderRadiusObject.html", null ]
-      ] ]
+      ] ],
+      [ "MR::RenderObjectCombinator< Bases >", "classMR_1_1RenderObjectCombinator.html", null ]
     ] ],
     [ "MR::BaseShellParameters", "structMR_1_1BaseShellParameters.html", [
       [ "MR::OffsetParameters", "structMR_1_1OffsetParameters.html", [
@@ -811,6 +813,7 @@ var hierarchy =
             [ "MR::DistanceMeasurementObject", "classMR_1_1DistanceMeasurementObject.html", null ],
             [ "MR::RadiusMeasurementObject", "classMR_1_1RadiusMeasurementObject.html", null ]
           ] ],
+          [ "MR::ObjectImGuiLabel", "classMR_1_1ObjectImGuiLabel.html", null ],
           [ "MR::ObjectLabel", "classMR_1_1ObjectLabel.html", null ],
           [ "MR::ObjectLinesHolder", "classMR_1_1ObjectLinesHolder.html", [
             [ "MR::ObjectGcode", "classMR_1_1ObjectGcode.html", null ],

@@ -240,6 +240,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRObjectDistanceMap.h", "MRObjectDistanceMap_8h.html", null ],
     [ "MRObjectFactory.h", "MRObjectFactory_8h.html", "MRObjectFactory_8h" ],
     [ "MRObjectGcode.h", "MRObjectGcode_8h.html", null ],
+    [ "MRObjectImGuiLabel.h", "MRObjectImGuiLabel_8h.html", "MRObjectImGuiLabel_8h" ],
     [ "MRObjectLabel.h", "MRObjectLabel_8h.html", "MRObjectLabel_8h" ],
     [ "MRObjectLines.h", "MRObjectLines_8h.html", "MRObjectLines_8h" ],
     [ "MRObjectLinesHolder.h", "MRObjectLinesHolder_8h.html", "MRObjectLinesHolder_8h" ],
