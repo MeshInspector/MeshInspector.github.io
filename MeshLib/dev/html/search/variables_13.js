@@ -26,7 +26,7 @@ var searchData=
   ['texttolinespacingb_23',['textToLineSpacingB',['../structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a8a1c146ca3e43adede8f2fb9c453dbe9',1,'MR::ImGuiMeasurementIndicators::Params']]],
   ['texttolinespacingradius_24',['textToLineSpacingRadius',['../structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a3c33808729b011c55c757f4aec823465',1,'MR::ImGuiMeasurementIndicators::Params']]],
   ['texture_25',['Texture',['../MRObjectMeshHolder_8h.html#ab6054f2db641cd66812772eedda2d205',1,'MRObjectMeshHolder.h']]],
-  ['texture_26',['texture',['../structMR_1_1SaveSettings.html#a0cd4cf82acb2f094f43f785282fcb76a',1,'MR::SaveSettings']]],
+  ['texture_26',['texture',['../structMR_1_1MeshLoadSettings.html#aea5bd8460c5fbf0c62840a46e0eb2011',1,'MR::MeshLoadSettings::texture'],['../structMR_1_1SaveSettings.html#a0cd4cf82acb2f094f43f785282fcb76a',1,'MR::SaveSettings::texture']]],
   ['texturearray_5f_27',['textureArray_',['../classMR_1_1RenderMeshObject.html#a8cd847a579adbca9c44e43ea25fe0166',1,'MR::RenderMeshObject']]],
   ['texturefiles_28',['textureFiles',['../group__MeshLoadObjGroup.html#gae14992ee2961e93c9690326874a825e4',1,'MR::MeshLoad::NamedMesh']]],
   ['textureid_5f_29',['textureID_',['../classMR_1_1GlTexture.html#a9bb5bb53fefb3f277a36f6fabfe202cf',1,'MR::GlTexture']]],

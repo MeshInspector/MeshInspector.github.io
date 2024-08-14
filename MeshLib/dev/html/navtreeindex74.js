@@ -1,5 +1,9 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1TriMesh.html#a1063845cc2871f7dcae178304213db81":[12,0,1,632,1],
+"structMR_1_1TriMesh.html#a2819cf8b07b6ca5bccb45dd61d9d7f9d":[10,0,10,648,0],
+"structMR_1_1TriMesh.html#a2819cf8b07b6ca5bccb45dd61d9d7f9d":[12,0,1,632,0],
+"structMR_1_1TriPoint.html":[9,0,23],
 "structMR_1_1TriPoint.html#a02506879ef28b9372cf1868c17a808da":[9,0,23,8],
 "structMR_1_1TriPoint.html#a173bd5baa937f72d4e42901d913f3ff3":[9,0,23,0],
 "structMR_1_1TriPoint.html#a3665ef8bed664d4374515106f2128c58":[9,0,23,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1UndirectedEdgeUndirectedEdge.html#a535f1290920a2d84945d8cc8989397c6":[9,1,12,4],
 "structMR_1_1UndirectedEdgeUndirectedEdge.html#a76340cad705f0262c4adba8d2e051524":[9,1,12,0],
 "structMR_1_1UndirectedEdgeUndirectedEdge.html#a9641a6ea0b597a958c7138e6b7ed8947":[9,1,12,2],
-"structMR_1_1UndirectedEdgeUndirectedEdge.html#aaf55dde37dfa59f981e1bc41ee3ac74a":[9,1,12,3],
-"structMR_1_1UndirectedEdgeUndirectedEdge.html#afc38d24da2e811fd6d7ae9a05045b2d0":[9,1,12,1],
-"structMR_1_1UniformSamplingSettings.html":[10,0,10,657],
-"structMR_1_1UniformSamplingSettings.html":[12,0,1,641],
-"structMR_1_1UniformSamplingSettings.html#a010165bed75fd690071dbe15b50f8c58":[10,0,10,657,0]
+"structMR_1_1UndirectedEdgeUndirectedEdge.html#aaf55dde37dfa59f981e1bc41ee3ac74a":[9,1,12,3]
 };

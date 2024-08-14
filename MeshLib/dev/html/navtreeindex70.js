@@ -1,5 +1,9 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1RawTiffOutput.html#ab63212231c28e54f0070c1283711a98a":[12,0,1,473,2],
+"structMR_1_1RawTiffOutput.html#aee37c2713f2e293aaf18d6ff35a3ef2f":[10,0,10,489,6],
+"structMR_1_1RawTiffOutput.html#aee37c2713f2e293aaf18d6ff35a3ef2f":[12,0,1,473,6],
+"structMR_1_1RayOrigin.html":[9,0,9,0],
 "structMR_1_1RayOrigin.html#a8502e2d024f3f9f3b84ad9f25f659eb7":[9,0,9,0,0],
 "structMR_1_1RayOrigin.html#aa0427aa4f82a36dda692826d18df40c9":[9,0,9,0,1],
 "structMR_1_1RefineParameters.html":[10,0,10,493],
@@ -245,9 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1SaveObjectSettings.html":[10,0,10,542],
 "structMR_1_1SaveObjectSettings.html":[12,0,1,526],
 "structMR_1_1SaveObjectSettings.html#a8ddb9e6259b392820926db823e35a6bb":[10,0,10,542,1],
-"structMR_1_1SaveObjectSettings.html#a8ddb9e6259b392820926db823e35a6bb":[12,0,1,526,1],
-"structMR_1_1SaveObjectSettings.html#ab44dfc6e402d3ca6ede2653f756cb545":[10,0,10,542,0],
-"structMR_1_1SaveObjectSettings.html#ab44dfc6e402d3ca6ede2653f756cb545":[12,0,1,526,0],
-"structMR_1_1SaveSettings.html":[10,0,10,547],
-"structMR_1_1SaveSettings.html":[12,0,1,531]
+"structMR_1_1SaveObjectSettings.html#a8ddb9e6259b392820926db823e35a6bb":[12,0,1,526,1]
 };

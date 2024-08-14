@@ -1,5 +1,9 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1NoDefInit.html#aaa8735508a78c638055d6001174d206a":[12,0,1,355,0],
+"structMR_1_1NoInit.html":[10,0,10,372],
+"structMR_1_1NoInit.html":[12,0,1,356],
+"structMR_1_1NoModelCheck.html":[10,0,10,374],
 "structMR_1_1NoModelCheck.html":[12,0,1,358],
 "structMR_1_1NoVisualRepresentationCheck.html":[10,0,10,376],
 "structMR_1_1NoVisualRepresentationCheck.html":[12,0,1,360],
@@ -245,9 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1Parallel_1_1CallSimply.html":[12,0,1,10,0],
 "structMR_1_1Parallel_1_1CallSimply.html#a468346fde82355b348c6dab673e56dc8":[10,0,10,23,0,0],
 "structMR_1_1Parallel_1_1CallSimply.html#a468346fde82355b348c6dab673e56dc8":[12,0,1,10,0,0],
-"structMR_1_1Parallel_1_1CallSimply.html#a977120d7564720a22808ebdbad48799d":[10,0,10,23,0,1],
-"structMR_1_1Parallel_1_1CallSimply.html#a977120d7564720a22808ebdbad48799d":[12,0,1,10,0,1],
-"structMR_1_1Parallel_1_1CallSimplyMaker.html":[10,0,10,23,1],
-"structMR_1_1Parallel_1_1CallSimplyMaker.html":[12,0,1,10,1],
-"structMR_1_1Parallel_1_1CallSimplyMaker.html#a52b3271f5af4251f286977712cfaa24b":[10,0,10,23,1,0]
+"structMR_1_1Parallel_1_1CallSimply.html#a977120d7564720a22808ebdbad48799d":[10,0,10,23,0,1]
 };

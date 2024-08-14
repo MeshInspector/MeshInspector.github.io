@@ -159,18 +159,18 @@ var NAVTREEINDEX =
 "structMR_1_1ImGuiMenu_1_1LabelParams.html#a9b6fa31d0eca45b8885f1594a2bf3f4a",
 "structMR_1_1MarchingCubesParams.html#a38fadcad52cb99a647800a29dd7b35f2",
 "structMR_1_1Mesh.html#a91c234ebc0fba018fda6c46a072d8089",
-"structMR_1_1MeshToVolumeParams.html",
-"structMR_1_1NoModelCheck.html",
-"structMR_1_1Parallel_1_1CallSimplyMaker.html#a52b3271f5af4251f286977712cfaa24b",
-"structMR_1_1Polyline.html#addf7be82ffec83205ba7adcd66001c5b",
-"structMR_1_1RayOrigin.html#a8502e2d024f3f9f3b84ad9f25f659eb7",
-"structMR_1_1SaveSettings.html#a0b68c4c0ab3b6852ec10195e64e5148f",
-"structMR_1_1SpaceMouseParameters.html",
-"structMR_1_1ThreadRootTimeRecord.html#ab11d7cc5223e4f0ed8b6d247c3eb5f88",
-"structMR_1_1TriPoint.html#a02506879ef28b9372cf1868c17a808da",
-"structMR_1_1UniformSamplingSettings.html#a010165bed75fd690071dbe15b50f8c58",
-"structMR_1_1ViewportGL_1_1PickResult.html#a5436a18c5ecc4c071070e0dabaa2ad8f",
-"structMR_1_1ZeroOnMove.html#a6c54d017113955a26465a32443707c9f"
+"structMR_1_1MeshToDistanceVolumeParams.html#a5f985261c614ada76ab3a1b6a4ea22d1",
+"structMR_1_1NoDefInit.html#aaa8735508a78c638055d6001174d206a",
+"structMR_1_1Parallel_1_1CallSimply.html#a977120d7564720a22808ebdbad48799d",
+"structMR_1_1Polyline.html#ad1f0b9ea32808bf20f7aa8c85eb62641",
+"structMR_1_1RawTiffOutput.html#ab63212231c28e54f0070c1283711a98a",
+"structMR_1_1SaveObjectSettings.html#ab44dfc6e402d3ca6ede2653f756cb545",
+"structMR_1_1SpaceMouseMoveListener.html#a78bde81a3a5d0d78e4ec948565694f96",
+"structMR_1_1ThreadRootTimeRecord.html",
+"structMR_1_1TriMesh.html#a1063845cc2871f7dcae178304213db81",
+"structMR_1_1UndirectedEdgeUndirectedEdge.html#afc38d24da2e811fd6d7ae9a05045b2d0",
+"structMR_1_1ViewportGL_1_1PickParameters.html#aff5495af1f46be635d2ffa5c0da47d24",
+"structMR_1_1ZeroOnMove.html#a2a13927970e03bd552e6ba6241206a15"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

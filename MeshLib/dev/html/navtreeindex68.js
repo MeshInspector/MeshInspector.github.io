@@ -1,5 +1,9 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1Parallel_1_1CallSimply.html#a977120d7564720a22808ebdbad48799d":[12,0,1,10,0,1],
+"structMR_1_1Parallel_1_1CallSimplyMaker.html":[10,0,10,23,1],
+"structMR_1_1Parallel_1_1CallSimplyMaker.html":[12,0,1,10,1],
+"structMR_1_1Parallel_1_1CallSimplyMaker.html#a52b3271f5af4251f286977712cfaa24b":[10,0,10,23,1,0],
 "structMR_1_1Parallel_1_1CallSimplyMaker.html#a52b3271f5af4251f286977712cfaa24b":[12,0,1,10,1,0],
 "structMR_1_1Parallel_1_1CallWithTLS.html":[10,0,10,23,2],
 "structMR_1_1Parallel_1_1CallWithTLS.html":[12,0,1,10,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1Polyline.html#aae40d1c6ba0e12c47a855747d44d40ea":[9,16,0,7],
 "structMR_1_1Polyline.html#ab3de745fc249ab0b56e00796cf740f97":[9,16,0,17],
 "structMR_1_1Polyline.html#ab5ba9b1bd705b2eee1f6faa6e1a1ab29":[9,16,0,13],
-"structMR_1_1Polyline.html#ab9e9cb920eced56be83119d6d268691f":[9,16,0,21],
-"structMR_1_1Polyline.html#ad1f0b9ea32808bf20f7aa8c85eb62641":[9,16,0,15],
-"structMR_1_1Polyline.html#ad1f0bc764cd99c848a21add405261785":[9,16,0,6],
-"structMR_1_1Polyline.html#adb4149d3e094b89744f9831dac1103dd":[9,16,0,26],
-"structMR_1_1Polyline.html#adcd14ead7b771006dcdc733950976288":[9,16,0,34]
+"structMR_1_1Polyline.html#ab9e9cb920eced56be83119d6d268691f":[9,16,0,21]
 };

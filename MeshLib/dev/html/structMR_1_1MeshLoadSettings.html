@@ -111,30 +111,41 @@ $(function(){initNavTree('structMR_1_1MeshLoadSettings.html',''); initResizable(
 </div><!--header-->
 <div class="contents">
 
+<p>setting for mesh loading from external format, and locations of optional output data  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRMeshLoadSettings_8h_source.html">MRMeshLoadSettings.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a3d2dec2482a716804af51ed748ebcebc" id="r_a3d2dec2482a716804af51ed748ebcebc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#aead9b201ba4de421810b5504caef1d08">VertColors</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d2dec2482a716804af51ed748ebcebc">colors</a> = nullptr</td></tr>
-<tr class="memdesc:a3d2dec2482a716804af51ed748ebcebc"><td class="mdescLeft">&#160;</td><td class="mdescRight">points where to load vertex color map  <br /></td></tr>
+<tr class="memdesc:a3d2dec2482a716804af51ed748ebcebc"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional load artifact: per-vertex color map  <br /></td></tr>
 <tr class="separator:a3d2dec2482a716804af51ed748ebcebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a230e016c84aafc3886deeb6fd2b33455" id="r_a230e016c84aafc3886deeb6fd2b33455"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ae0d0eee1d742c868c4ccaff8b9f0693a">VertUVCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a230e016c84aafc3886deeb6fd2b33455">uvCoords</a> = nullptr</td></tr>
+<tr class="memdesc:a230e016c84aafc3886deeb6fd2b33455"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional load artifact: per-vertex uv-coordinates  <br /></td></tr>
+<tr class="separator:a230e016c84aafc3886deeb6fd2b33455"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb2eb22ddf375f8cac7a36b6ec756c94" id="r_aeb2eb22ddf375f8cac7a36b6ec756c94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#add01b9458cf33fc6a3d41fff9a44e8f7">VertNormals</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb2eb22ddf375f8cac7a36b6ec756c94">normals</a> = nullptr</td></tr>
-<tr class="memdesc:aeb2eb22ddf375f8cac7a36b6ec756c94"><td class="mdescLeft">&#160;</td><td class="mdescRight">points where to load vertex normals  <br /></td></tr>
+<tr class="memdesc:aeb2eb22ddf375f8cac7a36b6ec756c94"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional load artifact: per-vertex normals  <br /></td></tr>
 <tr class="separator:aeb2eb22ddf375f8cac7a36b6ec756c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea5bd8460c5fbf0c62840a46e0eb2011" id="r_aea5bd8460c5fbf0c62840a46e0eb2011"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea5bd8460c5fbf0c62840a46e0eb2011">texture</a> = nullptr</td></tr>
+<tr class="memdesc:aea5bd8460c5fbf0c62840a46e0eb2011"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional load artifact: texture image  <br /></td></tr>
+<tr class="separator:aea5bd8460c5fbf0c62840a46e0eb2011"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fdcf8fdd76f70d7403ea886ed944019" id="r_a6fdcf8fdd76f70d7403ea886ed944019"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fdcf8fdd76f70d7403ea886ed944019">skippedFaceCount</a> = nullptr</td></tr>
-<tr class="memdesc:a6fdcf8fdd76f70d7403ea886ed944019"><td class="mdescLeft">&#160;</td><td class="mdescRight">counter of skipped faces (faces than can't be created)  <br /></td></tr>
+<tr class="memdesc:a6fdcf8fdd76f70d7403ea886ed944019"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output: counter of skipped faces (faces than can't be created)  <br /></td></tr>
 <tr class="separator:a6fdcf8fdd76f70d7403ea886ed944019"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fdd9db8e441e5ff1bcee3e9d4b664a7" id="r_a1fdd9db8e441e5ff1bcee3e9d4b664a7"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fdd9db8e441e5ff1bcee3e9d4b664a7">duplicatedVertexCount</a> = nullptr</td></tr>
-<tr class="memdesc:a1fdd9db8e441e5ff1bcee3e9d4b664a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">counter of duplicated vertices (that created for resolve non-manifold geometry)  <br /></td></tr>
+<tr class="memdesc:a1fdd9db8e441e5ff1bcee3e9d4b664a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output: counter of duplicated vertices (that created for resolve non-manifold geometry)  <br /></td></tr>
 <tr class="separator:a1fdd9db8e441e5ff1bcee3e9d4b664a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3778a9ff6574570228d2a4ae6b546c0" id="r_ae3778a9ff6574570228d2a4ae6b546c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">AffineXf3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3778a9ff6574570228d2a4ae6b546c0">xf</a> = nullptr</td></tr>
-<tr class="memdesc:ae3778a9ff6574570228d2a4ae6b546c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">transform for the loaded mesh  <br /></td></tr>
+<tr class="memdesc:ae3778a9ff6574570228d2a4ae6b546c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output: transform for the loaded mesh to improve precision of vertex coordinates  <br /></td></tr>
 <tr class="separator:ae3778a9ff6574570228d2a4ae6b546c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60b5f4bc63d35b0ef8261da4de65917d" id="r_a60b5f4bc63d35b0ef8261da4de65917d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60b5f4bc63d35b0ef8261da4de65917d">callback</a></td></tr>
 <tr class="memdesc:a60b5f4bc63d35b0ef8261da4de65917d"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback for set progress and stop process  <br /></td></tr>
 <tr class="separator:a60b5f4bc63d35b0ef8261da4de65917d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>setting for mesh loading from external format, and locations of optional output data </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a60b5f4bc63d35b0ef8261da4de65917d" name="a60b5f4bc63d35b0ef8261da4de65917d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a60b5f4bc63d35b0ef8261da4de65917d">&#9670;&#160;</a></span>callback</h2>
 
@@ -163,7 +174,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>points where to load vertex color map </p>
+<p>optional load artifact: per-vertex color map </p>
 
 </div>
 </div>
@@ -179,7 +190,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>counter of duplicated vertices (that created for resolve non-manifold geometry) </p>
+<p>optional output: counter of duplicated vertices (that created for resolve non-manifold geometry) </p>
 
 </div>
 </div>
@@ -195,7 +206,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>points where to load vertex normals </p>
+<p>optional load artifact: per-vertex normals </p>
 
 </div>
 </div>
@@ -211,7 +222,39 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>counter of skipped faces (faces than can't be created) </p>
+<p>optional output: counter of skipped faces (faces than can't be created) </p>
+
+</div>
+</div>
+<a id="aea5bd8460c5fbf0c62840a46e0eb2011" name="aea5bd8460c5fbf0c62840a46e0eb2011"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea5bd8460c5fbf0c62840a46e0eb2011">&#9670;&#160;</a></span>texture</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a>* MR::MeshLoadSettings::texture = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>optional load artifact: texture image </p>
+
+</div>
+</div>
+<a id="a230e016c84aafc3886deeb6fd2b33455" name="a230e016c84aafc3886deeb6fd2b33455"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a230e016c84aafc3886deeb6fd2b33455">&#9670;&#160;</a></span>uvCoords</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceMR.html#ae0d0eee1d742c868c4ccaff8b9f0693a">VertUVCoords</a>* MR::MeshLoadSettings::uvCoords = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>optional load artifact: per-vertex uv-coordinates </p>
 
 </div>
 </div>
@@ -227,7 +270,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>transform for the loaded mesh </p>
+<p>optional output: transform for the loaded mesh to improve precision of vertex coordinates </p>
 
 </div>
 </div>
