@@ -193,6 +193,7 @@ var hierarchy =
     [ "MR::Parallel::CallSimplyMaker", "structMR_1_1Parallel_1_1CallSimplyMaker.html", null ],
     [ "MR::Parallel::CallWithTLS< T >", "structMR_1_1Parallel_1_1CallWithTLS.html", null ],
     [ "MR::Parallel::CallWithTLSMaker< L >", "structMR_1_1Parallel_1_1CallWithTLSMaker.html", null ],
+    [ "MR::UI::CheckboxOrModifierState", "structMR_1_1UI_1_1CheckboxOrModifierState.html", null ],
     [ "Checks...", null, [
       [ "MR::SceneStateAndCheck< Checks >", "classMR_1_1SceneStateAndCheck.html", null ],
       [ "MR::SceneStateOrCheck< Checks >", "classMR_1_1SceneStateOrCheck.html", null ]

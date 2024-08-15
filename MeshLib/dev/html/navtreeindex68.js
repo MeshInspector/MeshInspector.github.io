@@ -1,5 +1,12 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1Palette_1_1Parameters.html#a9a1c14b8de7d2c34b832c70062d489b9":[12,0,1,403,1,2],
+"structMR_1_1Parabola.html":[10,0,10,421],
+"structMR_1_1Parabola.html":[12,0,1,405],
+"structMR_1_1Parabola.html#a0cdfe97a6580c1aaa9b873a6320f0793":[10,0,10,421,0],
+"structMR_1_1Parabola.html#a0cdfe97a6580c1aaa9b873a6320f0793":[12,0,1,405,0],
+"structMR_1_1Parabola.html#a3244e04984e6a61cd9243af2af6e178d":[10,0,10,421,4],
+"structMR_1_1Parabola.html#a3244e04984e6a61cd9243af2af6e178d":[12,0,1,405,4],
 "structMR_1_1Parabola.html#a34d2109107ef4c428253a8755305114b":[10,0,10,421,6],
 "structMR_1_1Parabola.html#a34d2109107ef4c428253a8755305114b":[12,0,1,405,6],
 "structMR_1_1Parabola.html#a34d2a9ae743816f3e62667dd396479a3":[10,0,10,421,3],
@@ -242,12 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1Polyline.html":[9,16,0],
 "structMR_1_1Polyline.html#a0127bea8e352025d57d7b71fccf78b15":[9,16,0,18],
 "structMR_1_1Polyline.html#a036db71418e9c25f3d9fc51772ce4e6a":[9,16,0,33],
-"structMR_1_1Polyline.html#a09efa3e658e95b29f1dea8f362d18289":[9,16,0,19],
-"structMR_1_1Polyline.html#a17426532df4513648d6e3d0212e8f334":[9,16,0,32],
-"structMR_1_1Polyline.html#a21cfd60868c3fbabcfda71008f98cfa1":[9,16,0,4],
-"structMR_1_1Polyline.html#a29635bdcaade26236bf38e9044e1605a":[9,16,0,14],
-"structMR_1_1Polyline.html#a2a9c58f07401349f8113bfc5e5e03619":[9,16,0,36],
-"structMR_1_1Polyline.html#a2c547895888165d873db848b161cb5c0":[9,16,0,16],
-"structMR_1_1Polyline.html#a31c2d8e3b6a9e6729084fbb4221d8d57":[9,16,0,27],
-"structMR_1_1Polyline.html#a363c6648b8fe1702f69d019676856179":[9,16,0,24]
+"structMR_1_1Polyline.html#a09efa3e658e95b29f1dea8f362d18289":[9,16,0,19]
 };

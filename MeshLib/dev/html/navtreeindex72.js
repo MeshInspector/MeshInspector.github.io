@@ -1,5 +1,12 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1SortIntersectionsData.html#a3e022423fc25738632598f90c2caf5b1":[12,0,1,573,0],
+"structMR_1_1SortIntersectionsData.html#a4799d62c8691f94b44fc3c7f3a77bbe4":[10,0,10,589,1],
+"structMR_1_1SortIntersectionsData.html#a4799d62c8691f94b44fc3c7f3a77bbe4":[12,0,1,573,1],
+"structMR_1_1SortIntersectionsData.html#a4ffc178d247321fb6150846084fd616a":[10,0,10,589,3],
+"structMR_1_1SortIntersectionsData.html#a4ffc178d247321fb6150846084fd616a":[12,0,1,573,3],
+"structMR_1_1SortIntersectionsData.html#a64cd77d679e163bbff985d79336ae2c4":[10,0,10,589,2],
+"structMR_1_1SortIntersectionsData.html#a64cd77d679e163bbff985d79336ae2c4":[12,0,1,573,2],
 "structMR_1_1SortIntersectionsData.html#ac190f44f37a1e2b9ece5d869fe02015d":[10,0,10,589,4],
 "structMR_1_1SortIntersectionsData.html#ac190f44f37a1e2b9ece5d869fe02015d":[12,0,1,573,4],
 "structMR_1_1SpaceMouseDownListener.html":[10,0,10,591],
@@ -242,12 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html":[10,0,10,618,0],
 "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html":[12,0,1,602,0],
 "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#aa8849bb4bffd6166d4ee7359da6b2c31":[10,0,10,618,0,0],
-"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#aa8849bb4bffd6166d4ee7359da6b2c31":[12,0,1,602,0,0],
-"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#ad47933a9cf1030b769dce59bc9a3d1ab":[10,0,10,618,0,1],
-"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#ad47933a9cf1030b769dce59bc9a3d1ab":[12,0,1,602,0,1],
-"structMR_1_1TerminalVertex.html":[10,0,10,619],
-"structMR_1_1TerminalVertex.html":[12,0,1,603],
-"structMR_1_1TerminalVertex.html#ab851f9e73d6568c7bda22cae8c669238":[10,0,10,619,0],
-"structMR_1_1TerminalVertex.html#ab851f9e73d6568c7bda22cae8c669238":[12,0,1,603,0],
-"structMR_1_1TerminalVertex.html#ae7c419aebb40aa7937984ceba3489254":[10,0,10,619,1]
+"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#aa8849bb4bffd6166d4ee7359da6b2c31":[12,0,1,602,0,0]
 };

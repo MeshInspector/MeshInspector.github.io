@@ -1,5 +1,8 @@
 var NAVTREEINDEX53 =
 {
+"namespaceMR.html#ad2555bd8680e7acc591ec78b0d789d23":[10,0,10,2251],
+"namespaceMR.html#ad2baece747803d447531075a0e80a2c3":[10,0,10,845],
+"namespaceMR.html#ad2e283ffde3e68d5a41e0a832bb41060":[10,0,10,1410],
 "namespaceMR.html#ad2e6e25a903280bb16257d5eade3d674":[10,0,10,2290],
 "namespaceMR.html#ad321412e874739790b445adf4bbb1139":[10,0,10,903],
 "namespaceMR.html#ad341e55dc846f22a7507bbd7976153e0":[10,0,10,1992],
@@ -246,8 +249,5 @@ var NAVTREEINDEX53 =
 "namespaceMR_1_1Cuda.html#ae3d6344c4c9b5959665fdde2ddc4a838":[10,0,10,2,8],
 "namespaceMR_1_1Cuda.html#af438ea6400ea4dd6e587a9208a7ab4af":[10,0,10,2,3],
 "namespaceMR_1_1Cuda.html#af763aea7896baa102ab7715278d93231":[10,0,10,2,7],
-"namespaceMR_1_1DistanceMapLoad.html":[10,0,10,4],
-"namespaceMR_1_1DistanceMapSave.html":[10,0,10,5],
-"namespaceMR_1_1Features.html":[10,0,10,6],
-"namespaceMR_1_1Features.html#a164e47d633f8939134d7f4f05960c4ac":[10,0,10,6,21]
+"namespaceMR_1_1DistanceMapLoad.html":[10,0,10,4]
 };

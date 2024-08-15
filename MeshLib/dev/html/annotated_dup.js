@@ -167,6 +167,7 @@ var annotated_dup =
         [ "ButtonCustomizationParams", "structMR_1_1UI_1_1ButtonCustomizationParams.html", "structMR_1_1UI_1_1ButtonCustomizationParams" ],
         [ "ButtonIconCustomizationParams", "structMR_1_1UI_1_1ButtonIconCustomizationParams.html", "structMR_1_1UI_1_1ButtonIconCustomizationParams" ],
         [ "CachedTextSize", "structMR_1_1UI_1_1CachedTextSize.html", "structMR_1_1UI_1_1CachedTextSize" ],
+        [ "CheckboxOrModifierState", "structMR_1_1UI_1_1CheckboxOrModifierState.html", "structMR_1_1UI_1_1CheckboxOrModifierState" ],
         [ "LabelRectAllocator", "classMR_1_1UI_1_1LabelRectAllocator.html", "classMR_1_1UI_1_1LabelRectAllocator" ],
         [ "NonOverlappingLabelTask", "classMR_1_1UI_1_1NonOverlappingLabelTask.html", "classMR_1_1UI_1_1NonOverlappingLabelTask" ],
         [ "PlotAxis", "structMR_1_1UI_1_1PlotAxis.html", "structMR_1_1UI_1_1PlotAxis" ],
