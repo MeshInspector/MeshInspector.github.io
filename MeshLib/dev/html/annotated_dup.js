@@ -908,6 +908,8 @@ var annotated_dup =
     [ "MRResolveMeshDegenSettings", "structMRResolveMeshDegenSettings.html", "structMRResolveMeshDegenSettings" ],
     [ "MRVector3f", "structMRVector3f.html", "structMRVector3f" ],
     [ "MRVertId", "structMRVertId.html", "structMRVertId" ],
+    [ "MultiwayICP", "classMultiwayICP.html", "classMultiwayICP" ],
+    [ "MultiwayICPSamplingParameters", "structMultiwayICPSamplingParameters.html", "structMultiwayICPSamplingParameters" ],
     [ "Offset", "classOffset.html", null ],
     [ "OffsetParameters", "classOffsetParameters.html", "classOffsetParameters" ],
     [ "PointCloud", "classPointCloud.html", "classPointCloud" ],

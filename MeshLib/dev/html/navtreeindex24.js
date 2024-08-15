@@ -1,5 +1,10 @@
 var NAVTREEINDEX24 =
 {
+"classMR_1_1MeshBuilder_1_1VertexIdentifier.html#aa1211b739708344bd0dba3542ec58a27":[12,0,1,6,5,3],
+"classMR_1_1MeshBuilder_1_1VertexIdentifier.html#aa4fad50a7e105fa74961ca6cc97e2818":[10,0,10,16,5,2],
+"classMR_1_1MeshBuilder_1_1VertexIdentifier.html#aa4fad50a7e105fa74961ca6cc97e2818":[12,0,1,6,5,2],
+"classMR_1_1MeshBuilder_1_1VertexIdentifier.html#aa5e3191cd4ff080dc3f960e8763c0069":[10,0,10,16,5,1],
+"classMR_1_1MeshBuilder_1_1VertexIdentifier.html#aa5e3191cd4ff080dc3f960e8763c0069":[12,0,1,6,5,1],
 "classMR_1_1MeshDiff.html":[9,11,8],
 "classMR_1_1MeshDiff.html#a61c8061aba710ec09a8b346b784a35c0":[9,11,8,0],
 "classMR_1_1MeshDiff.html#a65a9fe9422ed5dee5b092c31a59bd145":[9,11,8,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX24 =
 "classMR_1_1MouseController.html#aa1030d7031685c5fff336b1a7e01e08b":[10,0,10,351,8],
 "classMR_1_1MouseController.html#aa1030d7031685c5fff336b1a7e01e08b":[12,0,1,335,8],
 "classMR_1_1MouseController.html#aad7e4bd9f3d1de6069e852940644b5e9":[10,0,10,351,14],
-"classMR_1_1MouseController.html#aad7e4bd9f3d1de6069e852940644b5e9":[12,0,1,335,14],
-"classMR_1_1MouseController.html#abb21421c9f8c663d90c93fc87982a797":[10,0,10,351,2],
-"classMR_1_1MouseController.html#abb21421c9f8c663d90c93fc87982a797":[12,0,1,335,2],
-"classMR_1_1MouseController.html#ae1ce84791f0d7205fd00e67c96b257b1":[10,0,10,351,11],
-"classMR_1_1MouseController.html#ae1ce84791f0d7205fd00e67c96b257b1":[12,0,1,335,11],
-"classMR_1_1MouseController.html#aec55192b1658167e5a4718c594606fa7":[10,0,10,351,13]
+"classMR_1_1MouseController.html#aad7e4bd9f3d1de6069e852940644b5e9":[12,0,1,335,14]
 };

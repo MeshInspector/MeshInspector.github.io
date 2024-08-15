@@ -1,5 +1,9 @@
 var NAVTREEINDEX8 =
 {
+"MRNoDefInit_8h.html":[13,0,0,2,3,232],
+"MRNoDefInit_8h_source.html":[13,0,0,2,3,232],
+"MRNormalDenoising_8h.html":[13,0,0,2,3,233],
+"MRNormalDenoising_8h.html#a40847df1ce412c4c7085dd392037e050":[13,0,0,2,3,233,4],
 "MRNormalDenoising_8h.html#a4a2815eda5e04a1da7ec615027b52c86":[13,0,0,2,3,233,1],
 "MRNormalDenoising_8h.html#a786dcca1baeb53c3472aeec3c347aaf0":[13,0,0,2,3,233,3],
 "MRNormalDenoising_8h.html#a7c53182e73b6f36d30de68c43223dc44":[13,0,0,2,3,233,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX8 =
 "MRPolylineDecimate_8h.html#a6e7bbd2938192cd9a3d3616faa293ed9":[13,0,0,2,3,293,1],
 "MRPolylineDecimate_8h.html#a6f9fa131498e694eaa8674f7a73a01c6":[13,0,0,2,3,293,4],
 "MRPolylineDecimate_8h.html#a8e3fea3b34acecc3eafb0088d3a9e468":[13,0,0,2,3,293,6],
-"MRPolylineDecimate_8h_source.html":[13,0,0,2,3,293],
-"MRPolylineEdgeIterator_8h.html":[13,0,0,2,3,294],
-"MRPolylineEdgeIterator_8h_source.html":[13,0,0,2,3,294],
-"MRPolylineProject_8h.html":[13,0,0,2,3,295],
-"MRPolylineProject_8h_source.html":[13,0,0,2,3,295]
+"MRPolylineDecimate_8h_source.html":[13,0,0,2,3,293]
 };

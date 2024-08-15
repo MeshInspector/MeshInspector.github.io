@@ -114,7 +114,7 @@ var searchData=
   ['multilistener_3c_20touchstartlistener_2c_20touchmovelistener_2c_20touchendlistener_20_3e_111',['MultiListener&lt; TouchStartListener, TouchMoveListener, TouchEndListener &gt;',['../structMR_1_1MultiListener.html',1,'MR']]],
   ['multimeshintersectionresult_112',['MultiMeshIntersectionResult',['../structMR_1_1MultiMeshIntersectionResult.html',1,'MR']]],
   ['multiwayaligningtransform_113',['MultiwayAligningTransform',['../classMR_1_1MultiwayAligningTransform.html',1,'MR']]],
-  ['multiwayicp_114',['MultiwayICP',['../classMR_1_1MultiwayICP.html',1,'MR']]],
-  ['multiwayicpsamplingparameters_115',['MultiwayICPSamplingParameters',['../structMR_1_1MultiwayICPSamplingParameters.html',1,'MR']]],
+  ['multiwayicp_114',['MultiwayICP',['../classMR_1_1MultiwayICP.html',1,'MR::MultiwayICP'],['../classMultiwayICP.html',1,'MultiwayICP']]],
+  ['multiwayicpsamplingparameters_115',['MultiwayICPSamplingParameters',['../structMR_1_1MultiwayICPSamplingParameters.html',1,'MR::MultiwayICPSamplingParameters'],['../structMultiwayICPSamplingParameters.html',1,'MultiwayICPSamplingParameters']]],
   ['mutexowner_116',['MutexOwner',['../structMR_1_1MutexOwner.html',1,'MR']]]
 ];

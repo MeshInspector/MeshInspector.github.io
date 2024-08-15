@@ -19,6 +19,7 @@ var NAVTREEINDEX0 =
 "ExampleCMeshLoadSave.html":[4,4,0],
 "ExampleCMeshOffset.html":[4,4,3],
 "ExampleCMeshResolveDegenerations.html":[4,4,6],
+"ExampleCSharpGlobalRegistration.html":[4,2,3],
 "ExampleCSharpMeshBoolean.html":[4,2,0],
 "ExampleCSharpMeshDecimate.html":[4,2,2],
 "ExampleCSharpOffset.html":[4,2,1],
@@ -46,6 +47,7 @@ var NAVTREEINDEX0 =
 "ExamplePythonPlotly.html":[4,3,5],
 "ExamplePythonTriangulation.html":[4,3,3],
 "GlobalRegistration_8dox_8c.html":[13,0,0,1,1,0],
+"GlobalRegistration_8dox_8cs.html":[13,0,0,1,0,0],
 "HowToBasic.html":[4],
 "ImGuiHelpers_8h.html":[13,0,0,2,8,0],
 "ImGuiHelpers_8h.html#a01e8908c9ff42e3510168251a97f1d48":[13,0,0,2,8,0,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "MRCNCMachineSettings_8h_source.html":[13,0,0,2,3,57],
 "MRCameraOrientationPlugin_8h.html":[13,0,0,2,0,0,0],
 "MRCameraOrientationPlugin_8h_source.html":[13,0,0,2,0,0,0],
-"MRChangeColoringActions_8h.html":[13,0,0,2,3,35],
-"MRChangeColoringActions_8h_source.html":[13,0,0,2,3,35],
-"MRChangeColoringType_8h.html":[13,0,0,2,3,36]
+"MRChangeColoringActions_8h.html":[13,0,0,2,3,35]
 };

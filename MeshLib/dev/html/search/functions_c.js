@@ -312,7 +312,7 @@ var searchData=
   ['multimodelgridsampling_309',['multiModelGridSampling',['../namespaceMR.html#a329c2a88771e4750d1a363a45246add3',1,'MR']]],
   ['multipickobjects_310',['multiPickObjects',['../classMR_1_1Viewport.html#aa8d361bfbb43fdcccc7466ae900566ae',1,'MR::Viewport']]],
   ['multiwayaligningtransform_311',['MultiwayAligningTransform',['../classMR_1_1MultiwayAligningTransform.html#a369ea758ed0c5083163a69cd75a1d526',1,'MR::MultiwayAligningTransform::MultiwayAligningTransform(int numObjs=0)'],['../classMR_1_1MultiwayAligningTransform.html#ae9a3702a5e0dc2a2a5f9665fd886be0a',1,'MR::MultiwayAligningTransform::MultiwayAligningTransform(MultiwayAligningTransform &amp;&amp;) noexcept']]],
-  ['multiwayicp_312',['MultiwayICP',['../classMR_1_1MultiwayICP.html#a4fc483cb7fd8b04e2e37761a891b6a15',1,'MR::MultiwayICP']]],
+  ['multiwayicp_312',['MultiwayICP',['../classMultiwayICP.html#a32a34e6e6ee9afd81242addd6fc7d181',1,'MultiwayICP::MultiwayICP()'],['../classMR_1_1MultiwayICP.html#a4fc483cb7fd8b04e2e37761a891b6a15',1,'MR::MultiwayICP::MultiwayICP()']]],
   ['mutexowner_313',['MutexOwner',['../structMR_1_1MutexOwner.html#a0b8916c659034ad127ac287bac8112e9',1,'MR::MutexOwner::MutexOwner() noexcept=default'],['../structMR_1_1MutexOwner.html#a5ba8e76fada103c9e3350748ec9f46d8',1,'MR::MutexOwner::MutexOwner(const MutexOwner &amp;) noexcept'],['../structMR_1_1MutexOwner.html#a8e3788887677b1c7381950a3aa7dcaac',1,'MR::MutexOwner::MutexOwner(MutexOwner &amp;&amp;) noexcept']]],
   ['myseconds_314',['mySeconds',['../structMR_1_1TimeRecord.html#a80d3da8e260d6c62716855a674a2bc46',1,'MR::TimeRecord']]],
   ['mytime_315',['myTime',['../structMR_1_1TimeRecord.html#ae2011c61063c65e0a8f63688cb97f6af',1,'MR::TimeRecord']]]

@@ -25,7 +25,7 @@ var searchData=
   ['selectone_22',['selectOne',['../classMR_1_1ImGuiMenu.html#acf12d9bbd08c5c2a1b528461e7294587ad95c24770daa211f223817331372d91c',1,'MR::ImGuiMenu']]],
   ['semibold_23',['SemiBold',['../classMR_1_1RibbonFontManager.html#aba42ec493818f2de36d60f069b34cee4a57da4df095766e2b4e9012d34ae8e221',1,'MR::RibbonFontManager']]],
   ['seqorder_24',['SeqOrder',['../structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aaa32d7ae8d0ab848262ba158d90d97527',1,'MR::FaceDistancesSettings']]],
-  ['sequential_25',['Sequential',['../structMR_1_1MultiwayICPSamplingParameters.html#a116ec3c17f34bc7480ee09bcd334bd58aa7e82daa7280af25afbaa076ac16eb1e',1,'MR::MultiwayICPSamplingParameters']]],
+  ['sequential_25',['Sequential',['../structMultiwayICPSamplingParameters.html#a6a898018e0f66e857cec9c8999a3351faa7e82daa7280af25afbaa076ac16eb1e',1,'MultiwayICPSamplingParameters::Sequential'],['../structMR_1_1MultiwayICPSamplingParameters.html#a116ec3c17f34bc7480ee09bcd334bd58aa7e82daa7280af25afbaa076ac16eb1e',1,'MR::MultiwayICPSamplingParameters::Sequential']]],
   ['shadowoverlayquad_26',['ShadowOverlayQuad',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a878764d5da2f9dcefa74fe1d43db0896',1,'MR::GLStaticHolder']]],
   ['sharp_27',['Sharp',['../structMR_1_1OffsetContoursParams.html#a7211722e3debbfaa5ad3c7b9dfa090a4a60c17eb98355db0fe5ce016db6c6f444',1,'MR::OffsetContoursParams']]],
   ['sharpening_28',['Sharpening',['../structMR_1_1GeneralOffsetParameters.html#a91edecd5978344a023aca282179b94a5a1e97e73f1e45d465e23a2ea172bc3355',1,'MR::GeneralOffsetParameters::Sharpening'],['../MRDotNet_2MROffset_8h.html#a0e3cb6f3ed9e537f8f04bcc1dd87d27ca1e97e73f1e45d465e23a2ea172bc3355',1,'Sharpening:&#160;MROffset.h']]],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"MRChangeColoringActions_8h_source.html":[13,0,0,2,3,35],
+"MRChangeColoringType_8h.html":[13,0,0,2,3,36],
 "MRChangeColoringType_8h_source.html":[13,0,0,2,3,36],
 "MRChangeLabelAction_8h.html":[13,0,0,2,3,37],
 "MRChangeLabelAction_8h_source.html":[13,0,0,2,3,37],
@@ -238,16 +240,14 @@ var NAVTREEINDEX1 =
 "MRDotNet_2MRMeshOrPoints_8h_source.html":[13,0,0,2,2,9],
 "MRDotNet_2MRMesh_8h.html":[13,0,0,2,2,5],
 "MRDotNet_2MRMesh_8h_source.html":[13,0,0,2,2,5],
-"MRDotNet_2MROffset_8h.html":[13,0,0,2,2,10],
-"MRDotNet_2MROffset_8h.html#a0e3cb6f3ed9e537f8f04bcc1dd87d27c":[13,0,0,2,2,10,4],
-"MRDotNet_2MROffset_8h.html#a0e3cb6f3ed9e537f8f04bcc1dd87d27ca1e97e73f1e45d465e23a2ea172bc3355":[13,0,0,2,2,10,4,2],
-"MRDotNet_2MROffset_8h.html#a0e3cb6f3ed9e537f8f04bcc1dd87d27cae510cdf33cd497134b47b9316314d4b4":[13,0,0,2,2,10,4,0],
-"MRDotNet_2MROffset_8h.html#a0e3cb6f3ed9e537f8f04bcc1dd87d27caeb6d8ae6f20283755b339c0dc273988b":[13,0,0,2,2,10,4,1],
-"MRDotNet_2MROffset_8h.html#a3a1c46c77f4561d4e907577f24e085ae":[13,0,0,2,2,10,5],
-"MRDotNet_2MROffset_8h.html#a3a1c46c77f4561d4e907577f24e085aea011b949ced7ed48dafe7b08ae740dae9":[13,0,0,2,2,10,5,1],
-"MRDotNet_2MROffset_8h.html#a3a1c46c77f4561d4e907577f24e085aea103a84d91e18de34821243d0495258ed":[13,0,0,2,2,10,5,3],
-"MRDotNet_2MROffset_8h.html#a3a1c46c77f4561d4e907577f24e085aea17670c4544b47c1acf63b776209440a9":[13,0,0,2,2,10,5,2],
-"MRDotNet_2MROffset_8h.html#a3a1c46c77f4561d4e907577f24e085aea3065abc09e5d4edae66468fee91282e4":[13,0,0,2,2,10,5,4],
-"MRDotNet_2MROffset_8h.html#a3a1c46c77f4561d4e907577f24e085aeaa1a914735b205424ba6c40b85528d78a":[13,0,0,2,2,10,5,0],
-"MRDotNet_2MROffset_8h_source.html":[13,0,0,2,2,10]
+"MRDotNet_2MRMultiwayICP_8h.html":[13,0,0,2,2,10],
+"MRDotNet_2MRMultiwayICP_8h_source.html":[13,0,0,2,2,10],
+"MRDotNet_2MROffset_8h.html":[13,0,0,2,2,11],
+"MRDotNet_2MROffset_8h.html#a0e3cb6f3ed9e537f8f04bcc1dd87d27c":[13,0,0,2,2,11,4],
+"MRDotNet_2MROffset_8h.html#a0e3cb6f3ed9e537f8f04bcc1dd87d27ca1e97e73f1e45d465e23a2ea172bc3355":[13,0,0,2,2,11,4,2],
+"MRDotNet_2MROffset_8h.html#a0e3cb6f3ed9e537f8f04bcc1dd87d27cae510cdf33cd497134b47b9316314d4b4":[13,0,0,2,2,11,4,0],
+"MRDotNet_2MROffset_8h.html#a0e3cb6f3ed9e537f8f04bcc1dd87d27caeb6d8ae6f20283755b339c0dc273988b":[13,0,0,2,2,11,4,1],
+"MRDotNet_2MROffset_8h.html#a3a1c46c77f4561d4e907577f24e085ae":[13,0,0,2,2,11,5],
+"MRDotNet_2MROffset_8h.html#a3a1c46c77f4561d4e907577f24e085aea011b949ced7ed48dafe7b08ae740dae9":[13,0,0,2,2,11,5,1],
+"MRDotNet_2MROffset_8h.html#a3a1c46c77f4561d4e907577f24e085aea103a84d91e18de34821243d0495258ed":[13,0,0,2,2,11,5,3]
 };

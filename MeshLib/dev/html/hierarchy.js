@@ -767,7 +767,9 @@ var hierarchy =
     [ "ImGui::MultiDragRes", "structImGui_1_1MultiDragRes.html", null ],
     [ "MR::MultiwayAligningTransform", "classMR_1_1MultiwayAligningTransform.html", null ],
     [ "MR::MultiwayICP", "classMR_1_1MultiwayICP.html", null ],
+    [ "MultiwayICP", "classMultiwayICP.html", null ],
     [ "MR::MultiwayICPSamplingParameters", "structMR_1_1MultiwayICPSamplingParameters.html", null ],
+    [ "MultiwayICPSamplingParameters", "structMultiwayICPSamplingParameters.html", null ],
     [ "MR::MutexOwner", "structMR_1_1MutexOwner.html", null ],
     [ "N", null, [
       [ "MR::RingIterator< N >", "classMR_1_1RingIterator.html", null ]

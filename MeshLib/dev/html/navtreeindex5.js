@@ -1,5 +1,9 @@
 var NAVTREEINDEX5 =
 {
+"MRMeshC_2MRMeshTopology_8h.html":[13,0,0,2,4,21],
+"MRMeshC_2MRMeshTopology_8h.html#a351a63283c1a22542684de030c155226":[13,0,0,2,4,21,7],
+"MRMeshC_2MRMeshTopology_8h.html#a494196a49fa513257e15e1b9d4509c76":[13,0,0,2,4,21,12],
+"MRMeshC_2MRMeshTopology_8h.html#a826e2228fe0a20b80a1023fa2e965ea0":[13,0,0,2,4,21,6],
 "MRMeshC_2MRMeshTopology_8h.html#a8e9efcf564e8990146fa66d7c12e1d11":[13,0,0,2,4,21,1],
 "MRMeshC_2MRMeshTopology_8h.html#a9ad8091f9a9eae3c7660f68733ffc2ee":[13,0,0,2,4,21,8],
 "MRMeshC_2MRMeshTopology_8h.html#aad54f8e25f762f3e7f334d36450b712e":[13,0,0,2,4,21,9],
@@ -245,9 +249,5 @@ var NAVTREEINDEX5 =
 "MRMeshTrimWithPlane_8h_source.html":[13,0,0,2,3,223],
 "MRMesh_2MRAffineXf_8h.html":[13,0,0,2,3,13],
 "MRMesh_2MRAffineXf_8h_source.html":[13,0,0,2,3,13],
-"MRMesh_2MRBitSet_8h.html":[13,0,0,2,3,29],
-"MRMesh_2MRBitSet_8h.html#ab38c1f4b0a6095561c5efffdb9486c15":[13,0,0,2,3,29,0],
-"MRMesh_2MRBitSet_8h_source.html":[13,0,0,2,3,29],
-"MRMesh_2MRBooleanOperation_8h.html":[13,0,0,2,3,32],
-"MRMesh_2MRBooleanOperation_8h_source.html":[13,0,0,2,3,32]
+"MRMesh_2MRBitSet_8h.html":[13,0,0,2,3,29]
 };
