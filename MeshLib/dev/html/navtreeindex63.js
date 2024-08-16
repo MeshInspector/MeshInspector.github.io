@@ -1,5 +1,12 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#af8b700f89714d976e55426b9ae9a67b9":[10,0,10,13,5,0],
+"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#af8b700f89714d976e55426b9ae9a67b9":[12,0,1,5,5,0],
+"structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html":[10,0,10,13,6],
+"structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html":[12,0,1,5,6],
+"structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#a0a7ac346932a736977872ac332da5c6c":[10,0,10,13,6,5],
+"structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#a0a7ac346932a736977872ac332da5c6c":[12,0,1,5,6,5],
+"structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#a0e80e0ea2a367ff6821ecfe250411a29":[10,0,10,13,6,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#a0e80e0ea2a367ff6821ecfe250411a29":[12,0,1,5,6,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#a1edd9271c9e8a0dd98313bb5d0b13d10":[10,0,10,13,6,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#a1edd9271c9e8a0dd98313bb5d0b13d10":[12,0,1,5,6,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1LineSegm.html":[12,0,1,287],
 "structMR_1_1LineSegm.html#a012f7dcffa0f21fdd89da4726c09fef7":[10,0,10,303,1],
 "structMR_1_1LineSegm.html#a012f7dcffa0f21fdd89da4726c09fef7":[12,0,1,287,1],
-"structMR_1_1LineSegm.html#a086b850940021667f55efa192653d966":[10,0,10,303,5],
-"structMR_1_1LineSegm.html#a086b850940021667f55efa192653d966":[12,0,1,287,5],
-"structMR_1_1LineSegm.html#a3257b02c520c257af06a8750951851e6":[10,0,10,303,0],
-"structMR_1_1LineSegm.html#a3257b02c520c257af06a8750951851e6":[12,0,1,287,0],
-"structMR_1_1LineSegm.html#a5a416b6364f2ec163ab839380998b247":[10,0,10,303,8],
-"structMR_1_1LineSegm.html#a5a416b6364f2ec163ab839380998b247":[12,0,1,287,8],
-"structMR_1_1LineSegm.html#a5fe5f232802842f5c2716a95abb8c28b":[10,0,10,303,3],
-"structMR_1_1LineSegm.html#a5fe5f232802842f5c2716a95abb8c28b":[12,0,1,287,3]
+"structMR_1_1LineSegm.html#a086b850940021667f55efa192653d966":[10,0,10,303,5]
 };

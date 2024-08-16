@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"namespaceMR_1_1DistanceMapLoad.html":[10,0,10,4],
 "namespaceMR_1_1DistanceMapSave.html":[10,0,10,5],
 "namespaceMR_1_1Features.html":[10,0,10,6],
 "namespaceMR_1_1Features.html#a164e47d633f8939134d7f4f05960c4ac":[10,0,10,6,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "namespaceMR_1_1UI_1_1detail.html#a94d9e7cba8a9ce853aeee7b29b563391":[10,0,10,36,0,4],
 "namespaceMR_1_1UI_1_1detail.html#ab56fe865a416552aa6f504ce57514ae3":[10,0,10,36,0,7],
 "namespaceMR_1_1VoxelsLoad.html":[10,0,10,37],
-"namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19":[10,0,10,37,4],
-"namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7":[10,0,10,37,4,0]
+"namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19":[10,0,10,37,4]
 };

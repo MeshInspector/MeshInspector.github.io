@@ -1,6 +1,7 @@
 var MRImageLoad_8h =
 [
     [ "fromAnySupportedFormat", "MRImageLoad_8h.html#gad0427ed61cb0d0f0200d126cac01cc2b", null ],
+    [ "fromJpeg", "MRImageLoad_8h.html#ga3f56f9a39e1363d33ceb84875c23a658", null ],
     [ "fromJpeg", "MRImageLoad_8h.html#gacaea518796bddb10de55e194d93b6522", null ],
     [ "fromJpeg", "MRImageLoad_8h.html#gaf9ae713e4ed078dfc575629a28a76264", null ],
     [ "fromPng", "MRImageLoad_8h.html#ga3d766540761cfcd9d841b3f680730720", null ],

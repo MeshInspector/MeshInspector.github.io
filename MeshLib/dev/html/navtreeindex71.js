@@ -1,5 +1,12 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1RigidScaleXf3.html#a89ce25c6f6b3805955c04f054a2fb0a7":[12,0,1,522,9],
+"structMR_1_1RigidScaleXf3.html#a997f09f418f6e779a0a511288d316a06":[10,0,10,538,2],
+"structMR_1_1RigidScaleXf3.html#a997f09f418f6e779a0a511288d316a06":[12,0,1,522,2],
+"structMR_1_1RigidScaleXf3.html#aab41cf4d5be1d1a224a24a5b484e3a1d":[10,0,10,538,8],
+"structMR_1_1RigidScaleXf3.html#aab41cf4d5be1d1a224a24a5b484e3a1d":[12,0,1,522,8],
+"structMR_1_1RigidScaleXf3.html#ac7250fbdfd02baf9936e263ed527779e":[10,0,10,538,7],
+"structMR_1_1RigidScaleXf3.html#ac7250fbdfd02baf9936e263ed527779e":[12,0,1,522,7],
 "structMR_1_1RigidScaleXf3.html#acd29039623f95b68b2c1cdce22cdba76":[10,0,10,538,3],
 "structMR_1_1RigidScaleXf3.html#acd29039623f95b68b2c1cdce22cdba76":[12,0,1,522,3],
 "structMR_1_1RigidScaleXf3.html#adcb2be531582327cfde07191af6837c8":[10,0,10,538,6],
@@ -242,12 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1SomeLocalTriangulations.html#a26d4e93a4bff3856092a522b80bd422e":[10,0,10,588,0],
 "structMR_1_1SomeLocalTriangulations.html#a26d4e93a4bff3856092a522b80bd422e":[12,0,1,572,0],
 "structMR_1_1SomeLocalTriangulations.html#aaee24eb30dd28767f24e1aeb842e6d3d":[10,0,10,588,1],
-"structMR_1_1SomeLocalTriangulations.html#aaee24eb30dd28767f24e1aeb842e6d3d":[12,0,1,572,1],
-"structMR_1_1SomeLocalTriangulations.html#ae08afdcb5e02b6301d401046bf588b12":[10,0,10,588,2],
-"structMR_1_1SomeLocalTriangulations.html#ae08afdcb5e02b6301d401046bf588b12":[12,0,1,572,2],
-"structMR_1_1SortIntersectionsData.html":[10,0,10,589],
-"structMR_1_1SortIntersectionsData.html":[12,0,1,573],
-"structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0":[10,0,10,589,5],
-"structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0":[12,0,1,573,5],
-"structMR_1_1SortIntersectionsData.html#a3e022423fc25738632598f90c2caf5b1":[10,0,10,589,0]
+"structMR_1_1SomeLocalTriangulations.html#aaee24eb30dd28767f24e1aeb842e6d3d":[12,0,1,572,1]
 };

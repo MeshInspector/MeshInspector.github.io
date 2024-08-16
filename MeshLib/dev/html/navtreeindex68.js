@@ -1,5 +1,12 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1Palette_1_1Parameters.html":[10,0,10,419,1],
+"structMR_1_1Palette_1_1Parameters.html":[12,0,1,403,1],
+"structMR_1_1Palette_1_1Parameters.html#a10918a054375c316bd8e2fcb0685a726":[10,0,10,419,1,0],
+"structMR_1_1Palette_1_1Parameters.html#a10918a054375c316bd8e2fcb0685a726":[12,0,1,403,1,0],
+"structMR_1_1Palette_1_1Parameters.html#a25a6807ebee10dcb03a9e00733288113":[10,0,10,419,1,1],
+"structMR_1_1Palette_1_1Parameters.html#a25a6807ebee10dcb03a9e00733288113":[12,0,1,403,1,1],
+"structMR_1_1Palette_1_1Parameters.html#a9a1c14b8de7d2c34b832c70062d489b9":[10,0,10,419,1,2],
 "structMR_1_1Palette_1_1Parameters.html#a9a1c14b8de7d2c34b832c70062d489b9":[12,0,1,403,1,2],
 "structMR_1_1Parabola.html":[10,0,10,421],
 "structMR_1_1Parabola.html":[12,0,1,405],
@@ -242,12 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1PointsToMeshParameters.html#a3bdeb5a4cdd00fc36ce6089cede17c0b":[12,0,1,432,1],
 "structMR_1_1PointsToMeshParameters.html#a72818af22d20fbdc8695061a8dd48c85":[10,0,10,448,5],
 "structMR_1_1PointsToMeshParameters.html#a72818af22d20fbdc8695061a8dd48c85":[12,0,1,432,5],
-"structMR_1_1PointsToMeshParameters.html#a8e104d19ec2046012c1ec8846562afae":[10,0,10,448,0],
-"structMR_1_1PointsToMeshParameters.html#a8e104d19ec2046012c1ec8846562afae":[12,0,1,432,0],
-"structMR_1_1PointsToMeshParameters.html#ad30c0a7b27c4a1b5818cb7fc981403c3":[10,0,10,448,3],
-"structMR_1_1PointsToMeshParameters.html#ad30c0a7b27c4a1b5818cb7fc981403c3":[12,0,1,432,3],
-"structMR_1_1Polyline.html":[9,16,0],
-"structMR_1_1Polyline.html#a0127bea8e352025d57d7b71fccf78b15":[9,16,0,18],
-"structMR_1_1Polyline.html#a036db71418e9c25f3d9fc51772ce4e6a":[9,16,0,33],
-"structMR_1_1Polyline.html#a09efa3e658e95b29f1dea8f362d18289":[9,16,0,19]
+"structMR_1_1PointsToMeshParameters.html#a8e104d19ec2046012c1ec8846562afae":[10,0,10,448,0]
 };

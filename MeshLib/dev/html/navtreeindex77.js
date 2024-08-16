@@ -1,5 +1,12 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1WatershedGraph_1_1BasinInfo.html#af87b0b720148b1f8a07ced0557424191":[12,0,1,697,0,8],
+"structMR_1_1WatershedGraph_1_1BdInfo.html":[10,0,10,713,1],
+"structMR_1_1WatershedGraph_1_1BdInfo.html":[12,0,1,697,1],
+"structMR_1_1WatershedGraph_1_1BdInfo.html#a1cef595f818149e8ab3c459988194aac":[10,0,10,713,1,0],
+"structMR_1_1WatershedGraph_1_1BdInfo.html#a1cef595f818149e8ab3c459988194aac":[12,0,1,697,1,0],
+"structMR_1_1WatershedGraph_1_1OverflowPoint.html":[10,0,10,713,2],
+"structMR_1_1WatershedGraph_1_1OverflowPoint.html":[12,0,1,697,2],
 "structMR_1_1WatershedGraph_1_1OverflowPoint.html#a4058c6bc93b43ba32fc92f1f336b7619":[10,0,10,713,2,1],
 "structMR_1_1WatershedGraph_1_1OverflowPoint.html#a4058c6bc93b43ba32fc92f1f336b7619":[12,0,1,697,2,1],
 "structMR_1_1WatershedGraph_1_1OverflowPoint.html#a9b58bb17eb503942a4dcd7150690cfe2":[10,0,10,713,2,0],

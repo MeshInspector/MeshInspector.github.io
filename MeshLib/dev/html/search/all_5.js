@@ -272,7 +272,7 @@ var searchData=
   ['combinexyderivativemaps_269',['combineXYderivativeMaps',['../group__DistanceMapGroup.html#ga27435b7d8c5a7876aa45b60ea840b353',1,'MR']]],
   ['combo_270',['Combo',['../namespaceImGui.html#ad58fef2244057ff2ad7eb1877f3b813a',1,'ImGui::Combo(const char *label, int *idx, const std::vector&lt; std::string &gt; &amp;values)'],['../namespaceImGui.html#a023d8107acf5b52a1594c2b935b824f0',1,'ImGui::Combo(const char *label, int *idx, std::function&lt; const char *(int)&gt; getter, int items_count)']]],
   ['combo_271',['combo',['../namespaceMR_1_1UI.html#a820aa2a94b65ad7536194e8527f89a12',1,'MR::UI']]],
-  ['command_272',['Command',['../classMR_1_1AsyncRequest.html#a32c8eaba0bbda7c291e8231db38a41e1',1,'MR::AsyncRequest']]],
+  ['command_272',['Command',['../structMR_1_1GcodeProcessor_1_1Command.html',1,'MR::GcodeProcessor::Command'],['../classMR_1_1AsyncRequest.html#a32c8eaba0bbda7c291e8231db38a41e1',1,'MR::AsyncRequest::Command']]],
   ['commandargs_273',['commandArgs',['../classMR_1_1Viewer.html#a505493fbe72fd322c04cc7922826c5f8',1,'MR::Viewer']]],
   ['commandfunc_274',['CommandFunc',['../classMR_1_1CommandLoop.html#a517bdd4c876165f0896a0780d5fea918',1,'MR::CommandLoop']]],
   ['commandloop_275',['CommandLoop',['../classMR_1_1CommandLoop.html',1,'MR']]],

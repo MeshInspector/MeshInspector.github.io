@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584":[10,0,10,170,6],
 "structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584":[12,0,1,154,6],
 "structMR_1_1Dipole.html#a804c3991b7713194228966805194c66a":[10,0,10,170,5],
 "structMR_1_1Dipole.html#a804c3991b7713194228966805194c66a":[12,0,1,154,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1EdgePoint.html#aeadc3f42a8934c969baee0104a2b7de3":[10,0,10,193,15],
 "structMR_1_1EdgePoint.html#aeadc3f42a8934c969baee0104a2b7de3":[12,0,1,177,15],
 "structMR_1_1EdgePointPair.html":[10,0,10,194],
-"structMR_1_1EdgePointPair.html":[12,0,1,178],
-"structMR_1_1EdgePointPair.html#a19d5b7a6dad1c8e969b397a0afb33a52":[10,0,10,194,1]
+"structMR_1_1EdgePointPair.html":[12,0,1,178]
 };
