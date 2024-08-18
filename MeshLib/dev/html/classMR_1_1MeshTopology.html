@@ -383,12 +383,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5280cca1a7e8cf958ef2856607f87b8b" id="r_a5280cca1a7e8cf958ef2856607f87b8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5280cca1a7e8cf958ef2856607f87b8b">findEdge</a> (<a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> o, <a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> d) const</td></tr>
 <tr class="memdesc:a5280cca1a7e8cf958ef2856607f87b8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds and returns edge from o to d in the mesh; returns invalid edge otherwise  <br /></td></tr>
 <tr class="separator:a5280cca1a7e8cf958ef2856607f87b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b07c5b5fe9226613af11eea51955853" id="r_a2b07c5b5fe9226613af11eea51955853"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b07c5b5fe9226613af11eea51955853">isClosed</a> () const</td></tr>
-<tr class="memdesc:a2b07c5b5fe9226613af11eea51955853"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the mesh does not have any holes  <br /></td></tr>
-<tr class="separator:a2b07c5b5fe9226613af11eea51955853"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67dd1963d90e78415bb2365ed8ab9589" id="r_a67dd1963d90e78415bb2365ed8ab9589"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67dd1963d90e78415bb2365ed8ab9589">isClosed</a> (const <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *region) const</td></tr>
-<tr class="memdesc:a67dd1963d90e78415bb2365ed8ab9589"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the mesh region does not have any neighboring holes  <br /></td></tr>
-<tr class="separator:a67dd1963d90e78415bb2365ed8ab9589"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5f2cd2b3dbdcb502edf741bee2bc7f1" id="r_ab5f2cd2b3dbdcb502edf741bee2bc7f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5f2cd2b3dbdcb502edf741bee2bc7f1">isClosed</a> (const <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *region=nullptr) const</td></tr>
+<tr class="memdesc:ab5f2cd2b3dbdcb502edf741bee2bc7f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the mesh (region) does not have any neighboring holes  <br /></td></tr>
+<tr class="separator:ab5f2cd2b3dbdcb502edf741bee2bc7f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8e27800a0bbad8038ed49623f7836fc" id="r_ac8e27800a0bbad8038ed49623f7836fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8e27800a0bbad8038ed49623f7836fc">findHoleRepresentiveEdges</a> () const</td></tr>
 <tr class="memdesc:ac8e27800a0bbad8038ed49623f7836fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns one edge with no valid left face for every boundary in the mesh  <br /></td></tr>
 <tr class="separator:ac8e27800a0bbad8038ed49623f7836fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2884,8 +2881,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a2b07c5b5fe9226613af11eea51955853" name="a2b07c5b5fe9226613af11eea51955853"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b07c5b5fe9226613af11eea51955853">&#9670;&#160;</a></span>isClosed() <span class="overload">[1/2]</span></h2>
+<a id="ab5f2cd2b3dbdcb502edf741bee2bc7f1" name="ab5f2cd2b3dbdcb502edf741bee2bc7f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5f2cd2b3dbdcb502edf741bee2bc7f1">&#9670;&#160;</a></span>isClosed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2896,7 +2893,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::MeshTopology::isClosed </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -2907,34 +2904,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>returns true if the mesh does not have any holes </p>
-
-</div>
-</div>
-<a id="a67dd1963d90e78415bb2365ed8ab9589" name="a67dd1963d90e78415bb2365ed8ab9589"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67dd1963d90e78415bb2365ed8ab9589">&#9670;&#160;</a></span>isClosed() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::MeshTopology::isClosed </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns true if the mesh region does not have any neighboring holes </p>
+<p>returns true if the mesh (region) does not have any neighboring holes </p>
 
 </div>
 </div>

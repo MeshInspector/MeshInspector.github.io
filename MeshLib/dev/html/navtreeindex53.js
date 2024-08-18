@@ -1,6 +1,5 @@
 var NAVTREEINDEX53 =
 {
-"namespaceMR.html#ad236300492a56bcb9401d780f9a30acf":[10,0,10,1671],
 "namespaceMR.html#ad2555bd8680e7acc591ec78b0d789d23":[10,0,10,2251],
 "namespaceMR.html#ad2baece747803d447531075a0e80a2c3":[10,0,10,845],
 "namespaceMR.html#ad2e283ffde3e68d5a41e0a832bb41060":[10,0,10,1410],
@@ -249,5 +248,6 @@ var NAVTREEINDEX53 =
 "namespaceMR_1_1Cuda.html#ad3d0d14aae4ad5f5ded80460d993d68d":[10,0,10,2,6],
 "namespaceMR_1_1Cuda.html#ae3d6344c4c9b5959665fdde2ddc4a838":[10,0,10,2,8],
 "namespaceMR_1_1Cuda.html#af438ea6400ea4dd6e587a9208a7ab4af":[10,0,10,2,3],
-"namespaceMR_1_1Cuda.html#af763aea7896baa102ab7715278d93231":[10,0,10,2,7]
+"namespaceMR_1_1Cuda.html#af763aea7896baa102ab7715278d93231":[10,0,10,2,7],
+"namespaceMR_1_1DistanceMapLoad.html":[10,0,10,4]
 };

@@ -194,7 +194,7 @@ var searchData=
   ['isceneselectionchange_191',['ISceneSelectionChange',['../classMR_1_1ISceneSelectionChange.html',1,'MR']]],
   ['iscenestatecheck_192',['ISceneStateCheck',['../classMR_1_1ISceneStateCheck.html',1,'MR']]],
   ['iscircle_193',['isCircle',['../structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#afa5b6dc1d9e1f98cbec052e8d506d20a',1,'MR::Features::Primitives::ConeSegment']]],
-  ['isclosed_194',['isClosed',['../classMR_1_1MeshTopology.html#a2b07c5b5fe9226613af11eea51955853',1,'MR::MeshTopology::isClosed() const'],['../classMR_1_1MeshTopology.html#a67dd1963d90e78415bb2365ed8ab9589',1,'MR::MeshTopology::isClosed(const FaceBitSet *region) const'],['../classMR_1_1PolylineTopology.html#ae17cec60bbb52533d23d162f050ed1f8',1,'MR::PolylineTopology::isClosed()']]],
+  ['isclosed_194',['isClosed',['../classMR_1_1MeshTopology.html#ab5f2cd2b3dbdcb502edf741bee2bc7f1',1,'MR::MeshTopology::isClosed()'],['../classMR_1_1PolylineTopology.html#ae17cec60bbb52533d23d162f050ed1f8',1,'MR::PolylineTopology::isClosed()']]],
   ['isclosedcountour_195',['isClosedCountour',['../classMR_1_1SurfaceContoursWidget.html#afbb78b5db04c9cc56ac23b99e0d81a9a',1,'MR::SurfaceContoursWidget']]],
   ['iscolor_196',['isColor',['../structMR_1_1BindVertexAttribArraySettings.html#ae47afc7641f6193b867cc7f5bb42f07d',1,'MR::BindVertexAttribArraySettings']]],
   ['isconical_197',['isConical',['../structMR_1_1RenderDimensions_1_1AngleParams.html#acd45525e6d0f8a47a34a30c3a2596270',1,'MR::RenderDimensions::AngleParams']]],

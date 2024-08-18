@@ -1,6 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"structMR_1_1EdgePointPair.html#a19d5b7a6dad1c8e969b397a0afb33a52":[10,0,10,194,1],
 "structMR_1_1EdgePointPair.html#a19d5b7a6dad1c8e969b397a0afb33a52":[12,0,1,178,1],
 "structMR_1_1EdgePointPair.html#a28ddfe91a5b73fab28e8daeab44c260c":[10,0,10,194,2],
 "structMR_1_1EdgePointPair.html#a28ddfe91a5b73fab28e8daeab44c260c":[12,0,1,178,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX60 =
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html":[12,0,1,2,1,5],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html#a21b9de9268120c982f8c3838220d8cc7":[10,0,10,6,1,5,0],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html#a21b9de9268120c982f8c3838220d8cc7":[12,0,1,2,1,5,0],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html":[10,0,10,6,1,6]
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html":[10,0,10,6,1,6],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html":[12,0,1,2,1,6]
 };

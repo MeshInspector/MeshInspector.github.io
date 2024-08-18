@@ -1,6 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"structMR_1_1MutexOwner.html#a0b8916c659034ad127ac287bac8112e9":[10,0,10,365,0],
 "structMR_1_1MutexOwner.html#a0b8916c659034ad127ac287bac8112e9":[12,0,1,349,0],
 "structMR_1_1MutexOwner.html#a5ba8e76fada103c9e3350748ec9f46d8":[10,0,10,365,1],
 "structMR_1_1MutexOwner.html#a5ba8e76fada103c9e3350748ec9f46d8":[12,0,1,349,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX67 =
 "structMR_1_1Palette_1_1Label.html#abbf2f53809f0072d2e09bde212cc58d7":[10,0,10,419,0,0],
 "structMR_1_1Palette_1_1Label.html#abbf2f53809f0072d2e09bde212cc58d7":[12,0,1,403,0,0],
 "structMR_1_1Palette_1_1Label.html#ae0d781a22905f1df26b03b698576c19f":[10,0,10,419,0,2],
-"structMR_1_1Palette_1_1Label.html#ae0d781a22905f1df26b03b698576c19f":[12,0,1,403,0,2]
+"structMR_1_1Palette_1_1Label.html#ae0d781a22905f1df26b03b698576c19f":[12,0,1,403,0,2],
+"structMR_1_1Palette_1_1Parameters.html":[10,0,10,419,1]
 };

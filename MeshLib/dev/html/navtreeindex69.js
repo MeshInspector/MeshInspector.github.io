@@ -1,6 +1,5 @@
 var NAVTREEINDEX69 =
 {
-"structMR_1_1PointsToMeshParameters.html#a8e104d19ec2046012c1ec8846562afae":[12,0,1,432,0],
 "structMR_1_1PointsToMeshParameters.html#ad30c0a7b27c4a1b5818cb7fc981403c3":[10,0,10,448,3],
 "structMR_1_1PointsToMeshParameters.html#ad30c0a7b27c4a1b5818cb7fc981403c3":[12,0,1,432,3],
 "structMR_1_1Polyline.html":[9,16,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX69 =
 "structMR_1_1Quaternion.html#a564f96b2b71f1dd6006484fc6733f2fa":[9,0,20,3],
 "structMR_1_1Quaternion.html#a5b71c529c0724694aa58ca8f01246b4d":[9,0,20,26],
 "structMR_1_1Quaternion.html#a6bcd112f89bf5f4ce825eb989ce05c59":[9,0,20,18],
-"structMR_1_1Quaternion.html#a6bdf64d46e1cf09dc8fe63fcf7153c17":[9,0,20,17]
+"structMR_1_1Quaternion.html#a6bdf64d46e1cf09dc8fe63fcf7153c17":[9,0,20,17],
+"structMR_1_1Quaternion.html#a7a8a7853bf5bb6ec9a6c108009d9a8e3":[9,0,20,19]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX37 =
 {
-"classMR_1_1StateBasePlugin.html#aece4337b828ba341da5ea80dc8f35d49":[12,0,1,586,15],
 "classMR_1_1StateBasePlugin.html#af0d68f675e98e0a1ceb44192eaf94a13":[10,0,10,602,16],
 "classMR_1_1StateBasePlugin.html#af0d68f675e98e0a1ceb44192eaf94a13":[12,0,1,586,16],
 "classMR_1_1StateListenerPlugin.html":[10,0,10,603],
@@ -249,5 +248,6 @@ var NAVTREEINDEX37 =
 "classMR_1_1Toolbar.html#a76884173825027bffb2bf1f81303db18":[12,0,1,609,8],
 "classMR_1_1Toolbar.html#a86d9368ac4e4e30c338e5b4cb33f6a3c":[10,0,10,625,7],
 "classMR_1_1Toolbar.html#a86d9368ac4e4e30c338e5b4cb33f6a3c":[12,0,1,609,7],
-"classMR_1_1Toolbar.html#a96b506cb9d7f9dde6f0887ab33f165a0":[10,0,10,625,6]
+"classMR_1_1Toolbar.html#a96b506cb9d7f9dde6f0887ab33f165a0":[10,0,10,625,6],
+"classMR_1_1Toolbar.html#a96b506cb9d7f9dde6f0887ab33f165a0":[12,0,1,609,6]
 };

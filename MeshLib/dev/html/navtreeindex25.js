@@ -1,6 +1,5 @@
 var NAVTREEINDEX25 =
 {
-"classMR_1_1MouseController.html#aa1030d7031685c5fff336b1a7e01e08b":[12,0,1,335,8],
 "classMR_1_1MouseController.html#aad7e4bd9f3d1de6069e852940644b5e9":[10,0,10,351,14],
 "classMR_1_1MouseController.html#aad7e4bd9f3d1de6069e852940644b5e9":[12,0,1,335,14],
 "classMR_1_1MouseController.html#abb21421c9f8c663d90c93fc87982a797":[10,0,10,351,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX25 =
 "classMR_1_1ObjectDistanceMap.html#ab68c3e721d3bd37dc6a085f40ecd825c":[9,13,5,10],
 "classMR_1_1ObjectDistanceMap.html#abaac591338fe97a8e55b49601c5c4367":[9,13,5,22],
 "classMR_1_1ObjectDistanceMap.html#ad4a907748558704e47f71b6529c7f915":[9,13,5,19],
-"classMR_1_1ObjectDistanceMap.html#ade8b83ce35cdca5666db31364907dfb5":[9,13,5,4]
+"classMR_1_1ObjectDistanceMap.html#ade8b83ce35cdca5666db31364907dfb5":[9,13,5,4],
+"classMR_1_1ObjectDistanceMap.html#adf86e3267eaf731978a882003b39b9b6":[9,13,5,16]
 };

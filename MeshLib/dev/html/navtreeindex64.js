@@ -1,6 +1,5 @@
 var NAVTREEINDEX64 =
 {
-"structMR_1_1LineSegm.html#a086b850940021667f55efa192653d966":[12,0,1,287,5],
 "structMR_1_1LineSegm.html#a3257b02c520c257af06a8750951851e6":[10,0,10,303,0],
 "structMR_1_1LineSegm.html#a3257b02c520c257af06a8750951851e6":[12,0,1,287,0],
 "structMR_1_1LineSegm.html#a5a416b6364f2ec163ab839380998b247":[10,0,10,303,8],
@@ -249,5 +248,6 @@ var NAVTREEINDEX64 =
 "structMR_1_1Mesh.html#a4237bb2ee8edbc72aa4189bc2307a544":[9,9,0,30],
 "structMR_1_1Mesh.html#a43237a5df3be3b980a3147ceb8710a22":[9,9,0,55],
 "structMR_1_1Mesh.html#a45cc8a4868a2671492e010d86cb408cd":[9,9,0,9],
-"structMR_1_1Mesh.html#a4678592f5a58aba37a0994f895ff7804":[9,9,0,96]
+"structMR_1_1Mesh.html#a4678592f5a58aba37a0994f895ff7804":[9,9,0,96],
+"structMR_1_1Mesh.html#a49f7db0c7ecd59955478746c13609ff6":[9,9,0,105]
 };

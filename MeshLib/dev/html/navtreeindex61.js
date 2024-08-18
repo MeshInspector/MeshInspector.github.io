@@ -1,6 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html":[12,0,1,2,1,6],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html#a9c244f51235da14d2ff3e28d232e0015":[10,0,10,6,1,6,0],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html#a9c244f51235da14d2ff3e28d232e0015":[12,0,1,2,1,6,0],
 "structMR_1_1Features_1_1Traits_1_1Unary.html":[10,0,10,6,1,7],
@@ -249,5 +248,6 @@ var NAVTREEINDEX61 =
 "structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685ab75fcdd2d72d9e000beab48622402d93":[12,0,1,226,1,0],
 "structMR_1_1GridToMeshSettings.html":[10,0,10,243],
 "structMR_1_1GridToMeshSettings.html":[12,0,1,227],
-"structMR_1_1GridToMeshSettings.html#a1b0ad87a91cd5605d3c6c9df23882b43":[10,0,10,243,5]
+"structMR_1_1GridToMeshSettings.html#a1b0ad87a91cd5605d3c6c9df23882b43":[10,0,10,243,5],
+"structMR_1_1GridToMeshSettings.html#a1b0ad87a91cd5605d3c6c9df23882b43":[12,0,1,227,5]
 };
