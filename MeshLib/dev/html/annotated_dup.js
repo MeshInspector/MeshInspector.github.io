@@ -75,6 +75,9 @@ var annotated_dup =
         [ "VertexIdentifier", "classMR_1_1MeshBuilder_1_1VertexIdentifier.html", "classMR_1_1MeshBuilder_1_1VertexIdentifier" ],
         [ "VertSpan", "structMR_1_1MeshBuilder_1_1VertSpan.html", "structMR_1_1MeshBuilder_1_1VertSpan" ]
       ] ],
+      [ "MeshComponents", "namespaceMR_1_1MeshComponents.html", [
+        [ "LargeByAreaComponentsSettings", "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html", "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings" ]
+      ] ],
       [ "MeshLoad", "namespaceMR_1_1MeshLoad.html", [
         [ "MeshLoaderAdder", "classMR_1_1MeshLoad_1_1MeshLoaderAdder.html", "classMR_1_1MeshLoad_1_1MeshLoaderAdder" ],
         [ "NamedMesh", "structMR_1_1MeshLoad_1_1NamedMesh.html", "structMR_1_1MeshLoad_1_1NamedMesh" ],
@@ -469,7 +472,7 @@ var annotated_dup =
       [ "MeshDistanceResult", "structMR_1_1MeshDistanceResult.html", "structMR_1_1MeshDistanceResult" ],
       [ "MeshEqualizeTriAreasParams", "structMR_1_1MeshEqualizeTriAreasParams.html", "structMR_1_1MeshEqualizeTriAreasParams" ],
       [ "MeshIntersectionResult", "structMR_1_1MeshIntersectionResult.html", "structMR_1_1MeshIntersectionResult" ],
-      [ "MeshLoadMetrics", "structMR_1_1MeshLoadMetrics.html", "structMR_1_1MeshLoadMetrics" ],
+      [ "MeshLoadInfo", "structMR_1_1MeshLoadInfo.html", "structMR_1_1MeshLoadInfo" ],
       [ "MeshLoadSettings", "structMR_1_1MeshLoadSettings.html", "structMR_1_1MeshLoadSettings" ],
       [ "MeshMeshConverter", "structMR_1_1MeshMeshConverter.html", "structMR_1_1MeshMeshConverter" ],
       [ "MeshModifier", "classMR_1_1MeshModifier.html", "classMR_1_1MeshModifier" ],

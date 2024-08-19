@@ -667,6 +667,7 @@ var hierarchy =
     [ "MR::Palette::Label", "structMR_1_1Palette_1_1Label.html", null ],
     [ "MR::ImGuiMenu::LabelParams", "structMR_1_1ImGuiMenu_1_1LabelParams.html", null ],
     [ "MR::Laplacian", "classMR_1_1Laplacian.html", null ],
+    [ "MR::MeshComponents::LargeByAreaComponentsSettings", "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html", null ],
     [ "MR::LaunchParams", "structMR_1_1LaunchParams.html", null ],
     [ "MR::RenderDimensions::LengthParams", "structMR_1_1RenderDimensions_1_1LengthParams.html", null ],
     [ "MR::Line< V >", "structMR_1_1Line.html", null ],
@@ -705,7 +706,7 @@ var hierarchy =
       [ "MR::MultiMeshIntersectionResult", "structMR_1_1MultiMeshIntersectionResult.html", null ]
     ] ],
     [ "MR::MeshLoad::MeshLoaderAdder", "classMR_1_1MeshLoad_1_1MeshLoaderAdder.html", null ],
-    [ "MR::MeshLoadMetrics", "structMR_1_1MeshLoadMetrics.html", null ],
+    [ "MR::MeshLoadInfo", "structMR_1_1MeshLoadInfo.html", null ],
     [ "MR::MeshLoadSettings", "structMR_1_1MeshLoadSettings.html", null ],
     [ "MR::MeshMeshConverter", "structMR_1_1MeshMeshConverter.html", null ],
     [ "MR::MeshNormals", "structMR_1_1MeshNormals.html", null ],

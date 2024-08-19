@@ -298,10 +298,9 @@ var group__DataModelGroup =
       [ "totalLength_", "classMR_1_1ObjectLinesHolder.html#aee46157cb8a669b29f698f0ea9688264", null ],
       [ "worldBox_", "classMR_1_1ObjectLinesHolder.html#af3f76f7286057cda0116754b663cf340", null ]
     ] ],
-    [ "MR::MeshLoadMetrics", "structMR_1_1MeshLoadMetrics.html", [
-      [ "callback", "structMR_1_1MeshLoadMetrics.html#a674c21ebc354b46e11d6fe1bb89d3c09", null ],
-      [ "duplicatedVertexCount", "structMR_1_1MeshLoadMetrics.html#a360932b765ce39481198982e83048f03", null ],
-      [ "skippedFaceCount", "structMR_1_1MeshLoadMetrics.html#a77c4ff416dde7365919b0868e8c40bfa", null ]
+    [ "MR::MeshLoadInfo", "structMR_1_1MeshLoadInfo.html", [
+      [ "callback", "structMR_1_1MeshLoadInfo.html#aa47bbfdd7c99e7cd980eb3988f212d72", null ],
+      [ "warnings", "structMR_1_1MeshLoadInfo.html#a256d5e1bb1c47b9f0c30d2d9ff67f363", null ]
     ] ],
     [ "MR::ObjectMesh", "classMR_1_1ObjectMesh.html", [
       [ "MeshChangedSignal", "classMR_1_1ObjectMesh.html#a9d86b40da25331f20375e342d1e6abdd", null ],

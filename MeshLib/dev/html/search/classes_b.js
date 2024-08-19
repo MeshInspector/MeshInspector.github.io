@@ -30,7 +30,7 @@ var searchData=
   ['meshequalizetriareasparams_27',['MeshEqualizeTriAreasParams',['../structMR_1_1MeshEqualizeTriAreasParams.html',1,'MR']]],
   ['meshintersectionresult_28',['MeshIntersectionResult',['../structMR_1_1MeshIntersectionResult.html',1,'MR']]],
   ['meshloaderadder_29',['MeshLoaderAdder',['../classMR_1_1MeshLoad_1_1MeshLoaderAdder.html',1,'MR::MeshLoad']]],
-  ['meshloadmetrics_30',['MeshLoadMetrics',['../structMR_1_1MeshLoadMetrics.html',1,'MR']]],
+  ['meshloadinfo_30',['MeshLoadInfo',['../structMR_1_1MeshLoadInfo.html',1,'MR']]],
   ['meshloadsettings_31',['MeshLoadSettings',['../structMR_1_1MeshLoadSettings.html',1,'MR']]],
   ['meshmeshconverter_32',['MeshMeshConverter',['../structMR_1_1MeshMeshConverter.html',1,'MR']]],
   ['meshmodifier_33',['MeshModifier',['../classMR_1_1MeshModifier.html',1,'MR']]],
