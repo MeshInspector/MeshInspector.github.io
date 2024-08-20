@@ -15,6 +15,7 @@ var classMR_1_1SceneObjectsListDrawer =
     [ "getShowNewSelectedObjects", "classMR_1_1SceneObjectsListDrawer.html#aaa3af2c0a1a9e4b9486f42a71e2e82d5", null ],
     [ "selectAllObjects", "classMR_1_1SceneObjectsListDrawer.html#a062dbdb186840f7e320957f6b752acfc", null ],
     [ "setDeselectNewHiddenObjects", "classMR_1_1SceneObjectsListDrawer.html#ac4822189625ca4c18a2b7c51a696c27e", null ],
+    [ "setLeavesVisibility", "classMR_1_1SceneObjectsListDrawer.html#a5e3149bb263fd382fd8bf09589dfb149", null ],
     [ "setNextFrameFixScroll", "classMR_1_1SceneObjectsListDrawer.html#a64272e1877c967ecf67cf291b518aa25", null ],
     [ "setObjectTreeState", "classMR_1_1SceneObjectsListDrawer.html#a49c5d2ad202cdc4507aed66f508d481a", null ],
     [ "setShowInfoInObjectTree", "classMR_1_1SceneObjectsListDrawer.html#ac176f774f4f03e3fbbff8f14debd72a6", null ],
