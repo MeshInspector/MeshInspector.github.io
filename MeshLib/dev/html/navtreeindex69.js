@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1PointsLoad_1_1NamedCloud.html":[10,0,10,26,1],
+"structMR_1_1PointsLoad_1_1NamedCloud.html":[12,0,1,13,1],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#a70e3d0a1a91b137c484075351c1bda3e":[10,0,10,26,1,3],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#a70e3d0a1a91b137c484075351c1bda3e":[12,0,1,13,1,3],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#a77bdcb1f510b0515f87b17324c8d67aa":[10,0,10,26,1,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1PythonExport_1_1ModuleData.html#a0fe7a81962a7cace96c7ec89855e1064":[12,0,1,462,0,0],
 "structMR_1_1PythonExport_1_1ModuleData.html#a190cf30264de3002c79d0b715ed6697a":[10,0,10,477,0,1],
 "structMR_1_1PythonExport_1_1ModuleData.html#a190cf30264de3002c79d0b715ed6697a":[12,0,1,462,0,1],
-"structMR_1_1PythonFunctionAdder.html":[10,0,10,478],
-"structMR_1_1PythonFunctionAdder.html":[12,0,1,463],
-"structMR_1_1PythonFunctionAdder.html#a00fba36c8a93737419f6f3f25524948c":[10,0,10,478,1]
+"structMR_1_1PythonFunctionAdder.html":[10,0,10,478]
 };

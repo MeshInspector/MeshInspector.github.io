@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1RibbonSchema.html#aff336be3c724c96b01194c689d9bdac9":[12,0,1,521,2],
+"structMR_1_1RibbonSchemaHolder_1_1SearchResult.html":[10,0,10,537,0],
 "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html":[12,0,1,522,0],
 "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html#a62d11082407bfd9fa9123e8c61f6c3f8":[10,0,10,537,0,1],
 "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html#a62d11082407bfd9fa9123e8c61f6c3f8":[12,0,1,522,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1ShortcutManager_1_1ShortcutCommand.html#a78c61f7a4744f14f5475cca9a4610115":[10,0,10,585,0,2],
 "structMR_1_1ShortcutManager_1_1ShortcutCommand.html#a78c61f7a4744f14f5475cca9a4610115":[12,0,1,570,0,2],
 "structMR_1_1ShortcutManager_1_1ShortcutCommand.html#ac999d8643aea2ec7e9ddc3a4adc4daf6":[10,0,10,585,0,1],
-"structMR_1_1ShortcutManager_1_1ShortcutCommand.html#ac999d8643aea2ec7e9ddc3a4adc4daf6":[12,0,1,570,0,1],
-"structMR_1_1ShortcutManager_1_1ShortcutCommand.html#acf2e272c865f0181e677f9a0cce89ec5":[10,0,10,585,0,3],
-"structMR_1_1ShortcutManager_1_1ShortcutCommand.html#acf2e272c865f0181e677f9a0cce89ec5":[12,0,1,570,0,3]
+"structMR_1_1ShortcutManager_1_1ShortcutCommand.html#ac999d8643aea2ec7e9ddc3a4adc4daf6":[12,0,1,570,0,1]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1PythonFunctionAdder.html":[12,0,1,463],
+"structMR_1_1PythonFunctionAdder.html#a00fba36c8a93737419f6f3f25524948c":[10,0,10,478,1],
 "structMR_1_1PythonFunctionAdder.html#a00fba36c8a93737419f6f3f25524948c":[12,0,1,463,1],
 "structMR_1_1PythonFunctionAdder.html#aaed74a628afefa8eedeb5d9b9c5e6976":[10,0,10,478,0],
 "structMR_1_1PythonFunctionAdder.html#aaed74a628afefa8eedeb5d9b9c5e6976":[12,0,1,463,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1RibbonSchema.html#a5773b44f78b9e6a2610bf2260a1891bd":[12,0,1,521,6],
 "structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1":[10,0,10,536,3],
 "structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1":[12,0,1,521,3],
-"structMR_1_1RibbonSchema.html#aff336be3c724c96b01194c689d9bdac9":[10,0,10,536,2],
-"structMR_1_1RibbonSchema.html#aff336be3c724c96b01194c689d9bdac9":[12,0,1,521,2],
-"structMR_1_1RibbonSchemaHolder_1_1SearchResult.html":[10,0,10,537,0]
+"structMR_1_1RibbonSchema.html#aff336be3c724c96b01194c689d9bdac9":[10,0,10,536,2]
 };
