@@ -106,7 +106,7 @@ var searchData=
   ['checkboxflags_103',['checkboxFlags',['../namespaceMR_1_1UI.html#aba6c7c72b70351ba42eae4e3a2e0df4b',1,'MR::UI']]],
   ['checkboxmixed_104',['checkboxMixed',['../namespaceMR_1_1UI.html#ab4909c09a4671c9b042825346cf6f637',1,'MR::UI']]],
   ['checkboxorfixedvalue_105',['checkboxOrFixedValue',['../namespaceMR_1_1UI.html#a9b2e8bbfe90af034977fca967163a4d4',1,'MR::UI']]],
-  ['checkboxormodifier_106',['checkboxOrModifier',['../namespaceMR_1_1UI.html#a93a0c531ead52ada7078b364ba8f712c',1,'MR::UI']]],
+  ['checkboxormodifier_106',['checkboxOrModifier',['../namespaceMR_1_1UI.html#a0c37be14d527eafdf4f327608985ab9e',1,'MR::UI']]],
   ['checkboxvalid_107',['checkboxValid',['../namespaceMR_1_1UI.html#a877e7bd4fbef2de7e95cee03dc0f71b3',1,'MR::UI']]],
   ['checkdelonequadrangle_108',['checkDeloneQuadrangle',['../group__MeshDeloneGroup.html#ga4d58a8dd7b19c7d5a403b4329ce793c7',1,'MR::checkDeloneQuadrangle(const Vector3d &amp;a, const Vector3d &amp;b, const Vector3d &amp;c, const Vector3d &amp;d, double maxAngleChange=DBL_MAX)'],['../group__MeshDeloneGroup.html#ga1ac6f792a2cc36b9ce72fe5ec68da30a',1,'MR::checkDeloneQuadrangle(const Vector3f &amp;a, const Vector3f &amp;b, const Vector3f &amp;c, const Vector3f &amp;d, float maxAngleChange=FLT_MAX)']]],
   ['checkdelonequadrangleinmesh_109',['checkDeloneQuadrangleInMesh',['../group__MeshDeloneGroup.html#ga2d74fa7fe6b7d35734db515d33ba1f3f',1,'MR']]],
