@@ -1,5 +1,10 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1QuadraticForm.html#a6aa8242b430ea2a8b0c65ac776f01e69":[9,0,19,3],
+"structMR_1_1QuadraticForm.html#aa22182ab842edbfd36369edae2063b3c":[9,0,19,2],
+"structMR_1_1QuadraticForm.html#aaa0e315bd432a25ff55c9f30b926ffda":[9,0,19,10],
+"structMR_1_1QuadraticForm.html#ab0c3bc061463b886469241c7c3b17cd2":[9,0,19,7],
+"structMR_1_1QuadraticForm.html#abd84de324207ec889e01f594968dd8a1":[9,0,19,5],
 "structMR_1_1QuadraticForm.html#adea6aa750372ae79cb7d305a5f939f50":[9,0,19,0],
 "structMR_1_1QuadraticForm.html#ae2db52d249d73990155ac0aee19ecdf7":[9,0,19,9],
 "structMR_1_1QuadraticForm.html#afacdc7d86d21e277ea2c254a90c29b61":[9,0,19,6],
@@ -244,10 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html#a7ca888bade52243be40b9bc8ea954035":[12,0,1,522,0,0],
 "structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html":[10,0,10,537,1],
 "structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html":[12,0,1,522,1],
-"structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html#a169dd17810b6e3510c4e2d1715f91f43":[10,0,10,537,1,2],
-"structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html#a169dd17810b6e3510c4e2d1715f91f43":[12,0,1,522,1,2],
-"structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html#a5ca5321968c0133a4d4bf0187f1b11c5":[10,0,10,537,1,0],
-"structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html#a5ca5321968c0133a4d4bf0187f1b11c5":[12,0,1,522,1,0],
-"structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html#ac62f704a663135a3575b85f010bf42cf":[10,0,10,537,1,3],
-"structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html#ac62f704a663135a3575b85f010bf42cf":[12,0,1,522,1,3]
+"structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html#a169dd17810b6e3510c4e2d1715f91f43":[10,0,10,537,1,2]
 };

@@ -1,5 +1,18 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1VoxelsVolumeMinMax.html":[12,0,1,696],
+"structMR_1_1VoxelsVolumeMinMax.html#a1c34f973de3f4a13345a48e819a914db":[10,0,10,711,0],
+"structMR_1_1VoxelsVolumeMinMax.html#a1c34f973de3f4a13345a48e819a914db":[12,0,1,696,0],
+"structMR_1_1VoxelsVolumeMinMax.html#a5cbd57272c7b859e6d81303b092f06c6":[10,0,10,711,1],
+"structMR_1_1VoxelsVolumeMinMax.html#a5cbd57272c7b859e6d81303b092f06c6":[12,0,1,696,1],
+"structMR_1_1WatershedGraph_1_1BasinInfo.html":[10,0,10,715,0],
+"structMR_1_1WatershedGraph_1_1BasinInfo.html":[12,0,1,700,0],
+"structMR_1_1WatershedGraph_1_1BasinInfo.html#a01068990cefec48cd1195061d70f5b9a":[10,0,10,715,0,9],
+"structMR_1_1WatershedGraph_1_1BasinInfo.html#a01068990cefec48cd1195061d70f5b9a":[12,0,1,700,0,9],
+"structMR_1_1WatershedGraph_1_1BasinInfo.html#a0b1a50cc94b8a8eb3779ca22881e63d3":[10,0,10,715,0,3],
+"structMR_1_1WatershedGraph_1_1BasinInfo.html#a0b1a50cc94b8a8eb3779ca22881e63d3":[12,0,1,700,0,3],
+"structMR_1_1WatershedGraph_1_1BasinInfo.html#a2e9b6e24cf6016e21030cbec21fb1240":[10,0,10,715,0,11],
+"structMR_1_1WatershedGraph_1_1BasinInfo.html#a2e9b6e24cf6016e21030cbec21fb1240":[12,0,1,700,0,11],
 "structMR_1_1WatershedGraph_1_1BasinInfo.html#a4ed853b22498692e3105c691d03fbd9e":[10,0,10,715,0,12],
 "structMR_1_1WatershedGraph_1_1BasinInfo.html#a4ed853b22498692e3105c691d03fbd9e":[12,0,1,700,0,12],
 "structMR_1_1WatershedGraph_1_1BasinInfo.html#a52315365a6d8090680080cd9e1d62360":[10,0,10,715,0,7],

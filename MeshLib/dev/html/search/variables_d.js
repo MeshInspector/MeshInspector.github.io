@@ -61,8 +61,9 @@ var searchData=
   ['numselectedfaces_5f_58',['numSelectedFaces_',['../classMR_1_1ObjectMeshHolder.html#a102e4183b2d8571edf565f4dd6e61a94',1,'MR::ObjectMeshHolder']]],
   ['numselectedpoints_5f_59',['numSelectedPoints_',['../classMR_1_1ObjectPointsHolder.html#af7ab9f32dcef65ad1a79fde9078c19af',1,'MR::ObjectPointsHolder']]],
   ['numsmall_60',['numSmall',['../structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a0b1bb44ee2f0cfdbab7b516b3ce2a6f8',1,'MR::RibbonMenu::DrawGroupConfig']]],
-  ['numsmalltext_61',['numSmallText',['../structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a2c5115679d5b077be3479e377e7951b1',1,'MR::RibbonMenu::DrawGroupConfig']]],
-  ['numtris_62',['numTris',['../structMR_1_1HoleFillPlan.html#a2817520d11bf0f37cbab7e6ef56b38b9',1,'MR::HoleFillPlan']]],
-  ['numundirectededges_5f_63',['numUndirectedEdges_',['../classMR_1_1ObjectMeshHolder.html#a6bceb32f08fb95f31d399daf788c3bf1',1,'MR::ObjectMeshHolder']]],
-  ['numvalidpoints_5f_64',['numValidPoints_',['../classMR_1_1ObjectPointsHolder.html#a20b26902cdfc19f4bd28762ec7add76e',1,'MR::ObjectPointsHolder']]]
+  ['numsmallercomponents_61',['numSmallerComponents',['../group__MeshComponentsGroup.html#gaeaa75229a5b3cb60dc76ff1032f4c655',1,'MR::MeshComponents::LargeByAreaComponentsSettings']]],
+  ['numsmalltext_62',['numSmallText',['../structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a2c5115679d5b077be3479e377e7951b1',1,'MR::RibbonMenu::DrawGroupConfig']]],
+  ['numtris_63',['numTris',['../structMR_1_1HoleFillPlan.html#a2817520d11bf0f37cbab7e6ef56b38b9',1,'MR::HoleFillPlan']]],
+  ['numundirectededges_5f_64',['numUndirectedEdges_',['../classMR_1_1ObjectMeshHolder.html#a6bceb32f08fb95f31d399daf788c3bf1',1,'MR::ObjectMeshHolder']]],
+  ['numvalidpoints_5f_65',['numValidPoints_',['../classMR_1_1ObjectPointsHolder.html#a20b26902cdfc19f4bd28762ec7add76e',1,'MR::ObjectPointsHolder']]]
 ];

@@ -3,7 +3,8 @@ var group__MeshComponentsGroup =
     [ "MR::MeshComponents::LargeByAreaComponentsSettings", "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html", [
       [ "isCompBd", "group__MeshComponentsGroup.html#ga68f054cd2fdd3798f09d1695a71fd3c6", null ],
       [ "maxLargeComponents", "group__MeshComponentsGroup.html#ga37b0bf2cf4c042ffe4a78515e1678539", null ],
-      [ "minArea", "group__MeshComponentsGroup.html#ga636d67f78f166efbfe9ac18cc9d0d530", null ]
+      [ "minArea", "group__MeshComponentsGroup.html#ga636d67f78f166efbfe9ac18cc9d0d530", null ],
+      [ "numSmallerComponents", "group__MeshComponentsGroup.html#gaeaa75229a5b3cb60dc76ff1032f4c655", null ]
     ] ],
     [ "MR::MeshComponents::FaceIncidence", "group__MeshComponentsGroup.html#ga7489c91178e90fdd4200bbb0074e025f", [
       [ "MR::MeshComponents::PerEdge", "group__MeshComponentsGroup.html#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc", null ],
@@ -31,7 +32,7 @@ var group__MeshComponentsGroup =
     [ "MR::MeshComponents::getLargeByAreaRegions", "group__MeshComponentsGroup.html#gac1a5db55dea6e15effad7c7ba1df9ed3", null ],
     [ "MR::MeshComponents::getLargeByAreaSmoothComponents", "group__MeshComponentsGroup.html#gab9901c9bddcd57e5616458bb61414654", null ],
     [ "MR::MeshComponents::getLargeComponentVerts", "group__MeshComponentsGroup.html#gae06989e422b7f72d02f514e959af0951", null ],
-    [ "MR::MeshComponents::getLargestComponent", "group__MeshComponentsGroup.html#gabc21e8c410de42c52daef4c47eab0bed", null ],
+    [ "MR::MeshComponents::getLargestComponent", "group__MeshComponentsGroup.html#gad5e3075d9cfa37db6b2b4423fc116860", null ],
     [ "MR::MeshComponents::getLargestComponentVerts", "group__MeshComponentsGroup.html#ga7e21cd646141fd510e181ca8be259013", null ],
     [ "MR::MeshComponents::getNLargeByAreaComponents", "group__MeshComponentsGroup.html#ga605347dc67b8e8d516df2782b68a805d", null ],
     [ "MR::MeshComponents::getNumComponents", "group__MeshComponentsGroup.html#ga8b392d15bafb4e01e835c06f28d1c000", null ],
@@ -48,5 +49,6 @@ var group__MeshComponentsGroup =
     [ "MR::MeshComponents::hasFullySelectedComponent", "group__MeshComponentsGroup.html#gac4401b9655de3a844caf1234d8f453cf", null ],
     [ "MR::MeshComponents::LargeByAreaComponentsSettings::isCompBd", "group__MeshComponentsGroup.html#ga68f054cd2fdd3798f09d1695a71fd3c6", null ],
     [ "MR::MeshComponents::LargeByAreaComponentsSettings::maxLargeComponents", "group__MeshComponentsGroup.html#ga37b0bf2cf4c042ffe4a78515e1678539", null ],
-    [ "MR::MeshComponents::LargeByAreaComponentsSettings::minArea", "group__MeshComponentsGroup.html#ga636d67f78f166efbfe9ac18cc9d0d530", null ]
+    [ "MR::MeshComponents::LargeByAreaComponentsSettings::minArea", "group__MeshComponentsGroup.html#ga636d67f78f166efbfe9ac18cc9d0d530", null ],
+    [ "MR::MeshComponents::LargeByAreaComponentsSettings::numSmallerComponents", "group__MeshComponentsGroup.html#gaeaa75229a5b3cb60dc76ff1032f4c655", null ]
 ];

@@ -139,9 +139,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gae06989e422b7f72d02f514e959af0951" id="r_gae06989e422b7f72d02f514e959af0951"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae06989e422b7f72d02f514e959af0951">MR::MeshComponents::getLargeComponentVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, int minVerts, const <a class="el" href="namespaceMR.html#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a> *region=nullptr)</td></tr>
 <tr class="memdesc:gae06989e422b7f72d02f514e959af0951"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the union of vertex connected components, each having at least  <br /></td></tr>
 <tr class="separator:gae06989e422b7f72d02f514e959af0951"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabc21e8c410de42c52daef4c47eab0bed" id="r_gabc21e8c410de42c52daef4c47eab0bed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabc21e8c410de42c52daef4c47eab0bed">MR::MeshComponents::getLargestComponent</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const <a class="el" href="namespaceMR.html#a54078c8d4e2a3473d6e15a932c107cd4">UndirectedEdgePredicate</a> &amp;isCompBd={}, float minArea=0)</td></tr>
-<tr class="memdesc:gabc21e8c410de42c52daef4c47eab0bed"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the largest by surface area component or empty set if its area is smaller than  <br /></td></tr>
-<tr class="separator:gabc21e8c410de42c52daef4c47eab0bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad5e3075d9cfa37db6b2b4423fc116860" id="r_gad5e3075d9cfa37db6b2b4423fc116860"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad5e3075d9cfa37db6b2b4423fc116860">MR::MeshComponents::getLargestComponent</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const <a class="el" href="namespaceMR.html#a54078c8d4e2a3473d6e15a932c107cd4">UndirectedEdgePredicate</a> &amp;isCompBd={}, float minArea=0, int *numSmallerComponents=nullptr)</td></tr>
+<tr class="memdesc:gad5e3075d9cfa37db6b2b4423fc116860"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the largest by surface area component or empty set if its area is smaller than  <br /></td></tr>
+<tr class="separator:gad5e3075d9cfa37db6b2b4423fc116860"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5309af9f9740cbdcfd4e32b65895168b" id="r_ga5309af9f9740cbdcfd4e32b65895168b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5309af9f9740cbdcfd4e32b65895168b">MR::MeshComponents::getComponents</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;meshPart, const <a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> &amp;seeds, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const <a class="el" href="namespaceMR.html#a54078c8d4e2a3473d6e15a932c107cd4">UndirectedEdgePredicate</a> &amp;isCompBd={})</td></tr>
 <tr class="memdesc:ga5309af9f9740cbdcfd4e32b65895168b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns union of connected components, each of which contains at least one seed face  <br /></td></tr>
 <tr class="separator:ga5309af9f9740cbdcfd4e32b65895168b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,6 +229,9 @@ Variables</h2></td></tr>
 <tr class="memitem:ga37b0bf2cf4c042ffe4a78515e1678539" id="r_ga37b0bf2cf4c042ffe4a78515e1678539"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga37b0bf2cf4c042ffe4a78515e1678539">MR::MeshComponents::LargeByAreaComponentsSettings::maxLargeComponents</a> = 2</td></tr>
 <tr class="memdesc:ga37b0bf2cf4c042ffe4a78515e1678539"><td class="mdescLeft">&#160;</td><td class="mdescRight">return at most given number of largest by area connected components  <br /></td></tr>
 <tr class="separator:ga37b0bf2cf4c042ffe4a78515e1678539"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeaa75229a5b3cb60dc76ff1032f4c655" id="r_gaeaa75229a5b3cb60dc76ff1032f4c655"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeaa75229a5b3cb60dc76ff1032f4c655">MR::MeshComponents::LargeByAreaComponentsSettings::numSmallerComponents</a> = nullptr</td></tr>
+<tr class="memdesc:gaeaa75229a5b3cb60dc76ff1032f4c655"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output: the number of components in addition to returned ones  <br /></td></tr>
+<tr class="separator:gaeaa75229a5b3cb60dc76ff1032f4c655"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga636d67f78f166efbfe9ac18cc9d0d530" id="r_ga636d67f78f166efbfe9ac18cc9d0d530"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga636d67f78f166efbfe9ac18cc9d0d530">MR::MeshComponents::LargeByAreaComponentsSettings::minArea</a> = 0</td></tr>
 <tr class="memdesc:ga636d67f78f166efbfe9ac18cc9d0d530"><td class="mdescLeft">&#160;</td><td class="mdescRight">do not consider a component large if its area is below this value  <br /></td></tr>
 <tr class="separator:ga636d67f78f166efbfe9ac18cc9d0d530"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1003,8 +1006,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="gabc21e8c410de42c52daef4c47eab0bed" name="gabc21e8c410de42c52daef4c47eab0bed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabc21e8c410de42c52daef4c47eab0bed">&#9670;&#160;</a></span>getLargestComponent()</h2>
+<a id="gad5e3075d9cfa37db6b2b4423fc116860" name="gad5e3075d9cfa37db6b2b4423fc116860"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad5e3075d9cfa37db6b2b4423fc116860">&#9670;&#160;</a></span>getLargestComponent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1030,7 +1033,12 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minArea</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minArea</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>numSmallerComponents</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1043,7 +1051,7 @@ Variables</h2></td></tr>
 <p>returns the largest by surface area component or empty set if its area is smaller than </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">minArea</td><td></td></tr>
+    <tr><td class="paramname">minArea</td><td>optional output: the number of components in addition to returned one </td></tr>
   </table>
   </dd>
 </dl>
@@ -1563,6 +1571,22 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>do not consider a component large if its area is below this value </p>
+
+</div>
+</div>
+<a id="gaeaa75229a5b3cb60dc76ff1032f4c655" name="gaeaa75229a5b3cb60dc76ff1032f4c655"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeaa75229a5b3cb60dc76ff1032f4c655">&#9670;&#160;</a></span>numSmallerComponents</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int* MR::MeshComponents::LargeByAreaComponentsSettings::numSmallerComponents = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>optional output: the number of components in addition to returned ones </p>
 
 </div>
 </div>

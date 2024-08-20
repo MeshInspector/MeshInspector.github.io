@@ -1,5 +1,10 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1Features_1_1SubfeatureInfo.html#acd121ce53278633a7477e30db35ac13b":[12,0,1,2,3,0],
+"structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013":[10,0,10,6,3,1],
+"structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013":[12,0,1,2,3,1],
+"structMR_1_1Features_1_1Traits_1_1Binary.html":[10,0,10,6,1,0],
+"structMR_1_1Features_1_1Traits_1_1Binary.html":[12,0,1,2,1,0],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4.html":[10,0,10,6,1,1],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4.html":[12,0,1,2,1,1],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4.html#add83e086e536d8cc99b74f9f37fb2672":[10,0,10,6,1,1,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1Graph_1_1EndVertices.html#afe146d825ed418eab8e42d1bdb2f7a43":[12,0,1,226,0,0],
 "structMR_1_1GridSettings.html":[10,0,10,242],
 "structMR_1_1GridSettings.html":[12,0,1,227],
-"structMR_1_1GridSettings.html#a079676e2ac1f95a1b11ecb8b7f0042aa":[10,0,10,242,2],
-"structMR_1_1GridSettings.html#a079676e2ac1f95a1b11ecb8b7f0042aa":[12,0,1,227,2],
-"structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0":[10,0,10,242,0],
-"structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0":[12,0,1,227,0],
-"structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0a06ce2a25e5d12c166a36f654dbea6012":[10,0,10,242,0,1],
-"structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0a06ce2a25e5d12c166a36f654dbea6012":[12,0,1,227,0,1]
+"structMR_1_1GridSettings.html#a079676e2ac1f95a1b11ecb8b7f0042aa":[10,0,10,242,2]
 };

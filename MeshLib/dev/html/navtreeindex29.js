@@ -1,5 +1,7 @@
 var NAVTREEINDEX29 =
 {
+"classMR_1_1ObjectVoxels.html#aabef8e164fd456b133249ea31024af4e":[9,13,13,60],
+"classMR_1_1ObjectVoxels.html#ab02aa1e3777a0b8e07c86ab41cd4ae02":[9,13,13,46],
 "classMR_1_1ObjectVoxels.html#ab8414868d177c677e751eae0934bb6d9":[9,13,13,5],
 "classMR_1_1ObjectVoxels.html#aba3acadd736c99c402f687aaecfba7fa":[9,13,13,2],
 "classMR_1_1ObjectVoxels.html#abb4439fef1419ca61f8a528d359b3b91":[9,13,13,40],
@@ -247,7 +249,5 @@ var NAVTREEINDEX29 =
 "classMR_1_1PluginUpdateOnChangeMeshPart.html#a8966c139b8539e3583cf02308b060484":[10,0,10,433,0],
 "classMR_1_1PluginUpdateOnChangeMeshPart.html#a8966c139b8539e3583cf02308b060484":[12,0,1,418,0],
 "classMR_1_1PluginUpdateOnChangeMeshPart.html#a9767c4ad35864bc85b2f759c2aad5888":[10,0,10,433,2],
-"classMR_1_1PluginUpdateOnChangeMeshPart.html#a9767c4ad35864bc85b2f759c2aad5888":[12,0,1,418,2],
-"classMR_1_1PluginUpdateOnChangeMeshPart.html#ab8919af457390e1c709327e3828a8c6b":[10,0,10,433,3],
-"classMR_1_1PluginUpdateOnChangeMeshPart.html#ab8919af457390e1c709327e3828a8c6b":[12,0,1,418,3]
+"classMR_1_1PluginUpdateOnChangeMeshPart.html#a9767c4ad35864bc85b2f759c2aad5888":[12,0,1,418,2]
 };

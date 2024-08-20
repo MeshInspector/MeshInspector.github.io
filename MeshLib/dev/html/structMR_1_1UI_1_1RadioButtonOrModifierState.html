@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: MR::MeshComponents::LargeByAreaComponentsSettings Struct Reference</title>
+<title>MeshLib: MR::UI::RadioButtonOrModifierState Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -78,7 +78,7 @@ $(function() { codefold.init(0); });
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html',''); initResizable(true); });
+$(function(){initNavTree('structMR_1_1UI_1_1RadioButtonOrModifierState.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -105,38 +105,91 @@ $(function(){initNavTree('structMR_1_1MeshComponents_1_1LargeByAreaComponentsSet
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::MeshComponents::LargeByAreaComponentsSettings Struct Reference<div class="ingroups"><a class="el" href="group__ComponentsGroup.html">Components</a> &raquo; <a class="el" href="group__MeshComponentsGroup.html">MeshComponents</a></div></div></div>
+<a href="structMR_1_1UI_1_1RadioButtonOrModifierState-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">MR::UI::RadioButtonOrModifierState Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="MRMeshComponents_8h_source.html">MRMeshComponents.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="MRUIStyle_8h_source.html">MRUIStyle.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aef2b0d98c760a75a666aedd5cf4143c5" id="r_aef2b0d98c760a75a666aedd5cf4143c5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef2b0d98c760a75a666aedd5cf4143c5">operator int</a> () const</td></tr>
+<tr class="separator:aef2b0d98c760a75a666aedd5cf4143c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ga37b0bf2cf4c042ffe4a78515e1678539" id="r_ga37b0bf2cf4c042ffe4a78515e1678539"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshComponentsGroup.html#ga37b0bf2cf4c042ffe4a78515e1678539">maxLargeComponents</a> = 2</td></tr>
-<tr class="memdesc:ga37b0bf2cf4c042ffe4a78515e1678539"><td class="mdescLeft">&#160;</td><td class="mdescRight">return at most given number of largest by area connected components  <br /></td></tr>
-<tr class="separator:ga37b0bf2cf4c042ffe4a78515e1678539"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeaa75229a5b3cb60dc76ff1032f4c655" id="r_gaeaa75229a5b3cb60dc76ff1032f4c655"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshComponentsGroup.html#gaeaa75229a5b3cb60dc76ff1032f4c655">numSmallerComponents</a> = nullptr</td></tr>
-<tr class="memdesc:gaeaa75229a5b3cb60dc76ff1032f4c655"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output: the number of components in addition to returned ones  <br /></td></tr>
-<tr class="separator:gaeaa75229a5b3cb60dc76ff1032f4c655"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga636d67f78f166efbfe9ac18cc9d0d530" id="r_ga636d67f78f166efbfe9ac18cc9d0d530"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshComponentsGroup.html#ga636d67f78f166efbfe9ac18cc9d0d530">minArea</a> = 0</td></tr>
-<tr class="memdesc:ga636d67f78f166efbfe9ac18cc9d0d530"><td class="mdescLeft">&#160;</td><td class="mdescRight">do not consider a component large if its area is below this value  <br /></td></tr>
-<tr class="separator:ga636d67f78f166efbfe9ac18cc9d0d530"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga68f054cd2fdd3798f09d1695a71fd3c6" id="r_ga68f054cd2fdd3798f09d1695a71fd3c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a54078c8d4e2a3473d6e15a932c107cd4">UndirectedEdgePredicate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshComponentsGroup.html#ga68f054cd2fdd3798f09d1695a71fd3c6">isCompBd</a></td></tr>
-<tr class="memdesc:ga68f054cd2fdd3798f09d1695a71fd3c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional predicate of boundaries between components  <br /></td></tr>
-<tr class="separator:ga68f054cd2fdd3798f09d1695a71fd3c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f0147734869738bb359e2b4a7a04b0c" id="r_a6f0147734869738bb359e2b4a7a04b0c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f0147734869738bb359e2b4a7a04b0c">value</a> {}</td></tr>
+<tr class="separator:a6f0147734869738bb359e2b4a7a04b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d6a399bbfee336d360bbfc7339c022e" id="r_a9d6a399bbfee336d360bbfc7339c022e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d6a399bbfee336d360bbfc7339c022e">effectiveValue</a> {}</td></tr>
+<tr class="separator:a9d6a399bbfee336d360bbfc7339c022e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="aef2b0d98c760a75a666aedd5cf4143c5" name="aef2b0d98c760a75a666aedd5cf4143c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef2b0d98c760a75a666aedd5cf4143c5">&#9670;&#160;</a></span>operator int()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::UI::RadioButtonOrModifierState::operator int </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a9d6a399bbfee336d360bbfc7339c022e" name="a9d6a399bbfee336d360bbfc7339c022e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d6a399bbfee336d360bbfc7339c022e">&#9670;&#160;</a></span>effectiveValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::UI::RadioButtonOrModifierState::effectiveValue {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6f0147734869738bb359e2b4a7a04b0c" name="a6f0147734869738bb359e2b4a7a04b0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f0147734869738bb359e2b4a7a04b0c">&#9670;&#160;</a></span>value</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::UI::RadioButtonOrModifierState::value {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="MRMeshComponents_8h_source.html">MRMeshComponents.h</a></li>
+<li><a class="el" href="MRUIStyle_8h_source.html">MRUIStyle.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1MeshComponents.html">MeshComponents</a></li><li class="navelem"><a class="el" href="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html">LargeByAreaComponentsSettings</a></li>
+    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1UI.html">UI</a></li><li class="navelem"><a class="el" href="structMR_1_1UI_1_1RadioButtonOrModifierState.html">RadioButtonOrModifierState</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

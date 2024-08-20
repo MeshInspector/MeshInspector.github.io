@@ -138,6 +138,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UI_1_1CheckboxOrModifierState.html">MR::UI::CheckboxOrModifierState</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UI_1_1RadioButtonOrModifierState.html">MR::UI::RadioButtonOrModifierState</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UI_1_1CachedTextSize.html">MR::UI::CachedTextSize</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -231,6 +233,11 @@ Functions</h2></td></tr>
 <tr class="memitem:a8475dd1f1a29f5bb0edc0fcd7c53d115" id="r_a8475dd1f1a29f5bb0edc0fcd7c53d115"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#a8475dd1f1a29f5bb0edc0fcd7c53d115">MR::UI::radioButton</a> (const char *label, int *value, int valButton)</td></tr>
 <tr class="memdesc:a8475dd1f1a29f5bb0edc0fcd7c53d115"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw gradient radio button  <br /></td></tr>
 <tr class="separator:a8475dd1f1a29f5bb0edc0fcd7c53d115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6f24e8f5454ee5851179f720cd07eb4" id="r_af6f24e8f5454ee5851179f720cd07eb4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#af6f24e8f5454ee5851179f720cd07eb4">MR::UI::radioButtonOrFixedValue</a> (const char *label, int *value, int valButton, std::optional&lt; int &gt; valueOverride)</td></tr>
+<tr class="memdesc:af6f24e8f5454ee5851179f720cd07eb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <code>valueOverride</code> is specified, then the radio button is disabled and that value is displayed instead of <code>value</code>.  <br /></td></tr>
+<tr class="separator:af6f24e8f5454ee5851179f720cd07eb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09c137ab44822910b862913c0c746f2b" id="r_a09c137ab44822910b862913c0c746f2b"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#a09c137ab44822910b862913c0c746f2b">MR::UI::radioButtonOrModifier</a> (const char *label, <a class="el" href="structMR_1_1UI_1_1RadioButtonOrModifierState.html">RadioButtonOrModifierState</a> &amp;value, int valButton, int modifiers, int checkedModifiers=-1, std::optional&lt; int &gt; valueOverride={})</td></tr>
+<tr class="separator:a09c137ab44822910b862913c0c746f2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa136c1366383c9c03db4f4b7520c2a6" id="r_aaa136c1366383c9c03db4f4b7520c2a6"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html#aaa136c1366383c9c03db4f4b7520c2a6">MR::UI::colorEdit4</a> (const char *label, <a class="el" href="namespaceMR.html#abf8028cc3aa9939b43d1c2464d068f5e">Vector4f</a> &amp;color, ImGuiColorEditFlags flags=ImGuiColorEditFlags_None)</td></tr>
 <tr class="memdesc:aaa136c1366383c9c03db4f4b7520c2a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw gradient color edit 4  <br /></td></tr>
 <tr class="separator:aaa136c1366383c9c03db4f4b7520c2a6"><td class="memSeparator" colspan="2">&#160;</td></tr>

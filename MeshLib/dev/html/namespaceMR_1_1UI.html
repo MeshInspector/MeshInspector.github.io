@@ -138,6 +138,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UI_1_1PlotAxis.html">PlotAxis</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UI_1_1RadioButtonOrModifierState.html">RadioButtonOrModifierState</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UI_1_1RectAllocator.html">RectAllocator</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UI_1_1WindowRectAllocator.html">WindowRectAllocator</a></td></tr>
@@ -219,6 +221,11 @@ Functions</h2></td></tr>
 <tr class="memitem:a8475dd1f1a29f5bb0edc0fcd7c53d115" id="r_a8475dd1f1a29f5bb0edc0fcd7c53d115"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8475dd1f1a29f5bb0edc0fcd7c53d115">radioButton</a> (const char *label, int *value, int valButton)</td></tr>
 <tr class="memdesc:a8475dd1f1a29f5bb0edc0fcd7c53d115"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw gradient radio button  <br /></td></tr>
 <tr class="separator:a8475dd1f1a29f5bb0edc0fcd7c53d115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6f24e8f5454ee5851179f720cd07eb4" id="r_af6f24e8f5454ee5851179f720cd07eb4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6f24e8f5454ee5851179f720cd07eb4">radioButtonOrFixedValue</a> (const char *label, int *value, int valButton, std::optional&lt; int &gt; valueOverride)</td></tr>
+<tr class="memdesc:af6f24e8f5454ee5851179f720cd07eb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <code>valueOverride</code> is specified, then the radio button is disabled and that value is displayed instead of <code>value</code>.  <br /></td></tr>
+<tr class="separator:af6f24e8f5454ee5851179f720cd07eb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09c137ab44822910b862913c0c746f2b" id="r_a09c137ab44822910b862913c0c746f2b"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09c137ab44822910b862913c0c746f2b">radioButtonOrModifier</a> (const char *label, <a class="el" href="structMR_1_1UI_1_1RadioButtonOrModifierState.html">RadioButtonOrModifierState</a> &amp;value, int valButton, int modifiers, int checkedModifiers=-1, std::optional&lt; int &gt; valueOverride={})</td></tr>
+<tr class="separator:a09c137ab44822910b862913c0c746f2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa136c1366383c9c03db4f4b7520c2a6" id="r_aaa136c1366383c9c03db4f4b7520c2a6"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa136c1366383c9c03db4f4b7520c2a6">colorEdit4</a> (const char *label, <a class="el" href="namespaceMR.html#abf8028cc3aa9939b43d1c2464d068f5e">Vector4f</a> &amp;color, ImGuiColorEditFlags flags=ImGuiColorEditFlags_None)</td></tr>
 <tr class="memdesc:aaa136c1366383c9c03db4f4b7520c2a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw gradient color edit 4  <br /></td></tr>
 <tr class="separator:aaa136c1366383c9c03db4f4b7520c2a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1812,6 +1819,81 @@ template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidDragSpeedForTarge
 </div><div class="memdoc">
 
 <p>draw gradient radio button </p>
+
+</div>
+</div>
+<a id="af6f24e8f5454ee5851179f720cd07eb4" name="af6f24e8f5454ee5851179f720cd07eb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6f24e8f5454ee5851179f720cd07eb4">&#9670;&#160;</a></span>radioButtonOrFixedValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::UI::radioButtonOrFixedValue </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>label</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>valButton</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::optional&lt; int &gt;</td>          <td class="paramname"><span class="paramname"><em>valueOverride</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>If <code>valueOverride</code> is specified, then the radio button is disabled and that value is displayed instead of <code>value</code>. </p>
+
+</div>
+</div>
+<a id="a09c137ab44822910b862913c0c746f2b" name="a09c137ab44822910b862913c0c746f2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09c137ab44822910b862913c0c746f2b">&#9670;&#160;</a></span>radioButtonOrModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::UI::radioButtonOrModifier </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>label</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1UI_1_1RadioButtonOrModifierState.html">RadioButtonOrModifierState</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>valButton</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>modifiers</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>checkedModifiers</em></span><span class="paramdefsep"> = </span><span class="paramdefval">-1</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::optional&lt; int &gt;</td>          <td class="paramname"><span class="paramname"><em>valueOverride</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Draws a radio button, that can be affected by modifier keys. <code>modifiers</code> must be one or more of <code>ImGuiMod_{Shift,Alt,Ctrl}</code>. By default ignores all modifiers not in <code>modifiers</code>. But if <code>checkedModifiers</code> is specified, then only ignores modifiers not included in it. <code>checkedModifiers</code> must be a superset of <code>modifiers</code>. <code>-1</code> has special meaning, making it same as <code>modifiers</code> (which makes it have no effect). If <code>valueOverride</code> is specified, then acts as <code>radioButtonOrFixedValue</code>: disables the radio button and displays that value instead of the real one, and also pretends that the modifier isn't held. </p>
 
 </div>
 </div>

@@ -9,6 +9,7 @@ var namespaceMR_1_1UI =
     [ "LabelRectAllocator", "classMR_1_1UI_1_1LabelRectAllocator.html", "classMR_1_1UI_1_1LabelRectAllocator" ],
     [ "NonOverlappingLabelTask", "classMR_1_1UI_1_1NonOverlappingLabelTask.html", "classMR_1_1UI_1_1NonOverlappingLabelTask" ],
     [ "PlotAxis", "structMR_1_1UI_1_1PlotAxis.html", "structMR_1_1UI_1_1PlotAxis" ],
+    [ "RadioButtonOrModifierState", "structMR_1_1UI_1_1RadioButtonOrModifierState.html", "structMR_1_1UI_1_1RadioButtonOrModifierState" ],
     [ "RectAllocator", "classMR_1_1UI_1_1RectAllocator.html", "classMR_1_1UI_1_1RectAllocator" ],
     [ "WindowRectAllocator", "classMR_1_1UI_1_1WindowRectAllocator.html", "classMR_1_1UI_1_1WindowRectAllocator" ],
     [ "TextureType", "namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6", [
@@ -68,6 +69,8 @@ var namespaceMR_1_1UI =
     [ "nonOverlappingLabel", "namespaceMR_1_1UI.html#a50698dfeecb0a68a2ddfc71eae08a0c7", null ],
     [ "progressBar", "namespaceMR_1_1UI.html#aa49fc435b33d42412b5a43816ed40e52", null ],
     [ "radioButton", "namespaceMR_1_1UI.html#a8475dd1f1a29f5bb0edc0fcd7c53d115", null ],
+    [ "radioButtonOrFixedValue", "namespaceMR_1_1UI.html#af6f24e8f5454ee5851179f720cd07eb4", null ],
+    [ "radioButtonOrModifier", "namespaceMR_1_1UI.html#a09c137ab44822910b862913c0c746f2b", null ],
     [ "readOnlyValue", "namespaceMR_1_1UI.html#a3037df1b1014dd2f27c985c9dad78d79", null ],
     [ "separator", "namespaceMR_1_1UI.html#a44947bf84615148fe9afb91d1895d231", null ],
     [ "separator", "namespaceMR_1_1UI.html#a63e011139a97a30e31e34d070e0f0e11", null ],

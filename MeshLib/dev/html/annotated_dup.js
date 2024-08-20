@@ -174,6 +174,7 @@ var annotated_dup =
         [ "LabelRectAllocator", "classMR_1_1UI_1_1LabelRectAllocator.html", "classMR_1_1UI_1_1LabelRectAllocator" ],
         [ "NonOverlappingLabelTask", "classMR_1_1UI_1_1NonOverlappingLabelTask.html", "classMR_1_1UI_1_1NonOverlappingLabelTask" ],
         [ "PlotAxis", "structMR_1_1UI_1_1PlotAxis.html", "structMR_1_1UI_1_1PlotAxis" ],
+        [ "RadioButtonOrModifierState", "structMR_1_1UI_1_1RadioButtonOrModifierState.html", "structMR_1_1UI_1_1RadioButtonOrModifierState" ],
         [ "RectAllocator", "classMR_1_1UI_1_1RectAllocator.html", "classMR_1_1UI_1_1RectAllocator" ],
         [ "WindowRectAllocator", "classMR_1_1UI_1_1WindowRectAllocator.html", "classMR_1_1UI_1_1WindowRectAllocator" ]
       ] ],

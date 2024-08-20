@@ -942,6 +942,7 @@ var hierarchy =
     [ "MR::QuadTextureVertexObject", "classMR_1_1QuadTextureVertexObject.html", null ],
     [ "MR::Quaternion< T >", "structMR_1_1Quaternion.html", null ],
     [ "MR::Quaternion< float >", "structMR_1_1Quaternion.html", null ],
+    [ "MR::UI::RadioButtonOrModifierState", "structMR_1_1UI_1_1RadioButtonOrModifierState.html", null ],
     [ "MR::RenderDimensions::RadiusParams", "structMR_1_1RenderDimensions_1_1RadiusParams.html", null ],
     [ "MR::RangeCounter< TreeT >", "classMR_1_1RangeCounter.html", null ],
     [ "MR::RangeProcessor< TreeT, Transformer >", "classMR_1_1RangeProcessor.html", null ],
