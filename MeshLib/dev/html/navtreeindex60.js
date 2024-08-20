@@ -1,5 +1,13 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1EdgePoint.html#a317789cb353e8dbe9c42661fe7c4f99f":[10,0,10,193,13],
+"structMR_1_1EdgePoint.html#a317789cb353e8dbe9c42661fe7c4f99f":[12,0,1,178,13],
+"structMR_1_1EdgePoint.html#a4d2be6b280e0a7eeb76615b7a1b368d6":[10,0,10,193,5],
+"structMR_1_1EdgePoint.html#a4d2be6b280e0a7eeb76615b7a1b368d6":[12,0,1,178,5],
+"structMR_1_1EdgePoint.html#a544f2a00465ce861508927e122b12ee5":[10,0,10,193,11],
+"structMR_1_1EdgePoint.html#a544f2a00465ce861508927e122b12ee5":[12,0,1,178,11],
+"structMR_1_1EdgePoint.html#a564ab78e8cb9ad078dc7f1b009c594c4":[10,0,10,193,7],
+"structMR_1_1EdgePoint.html#a564ab78e8cb9ad078dc7f1b009c594c4":[12,0,1,178,7],
 "structMR_1_1EdgePoint.html#a78a1e20c8433641c96ee2a30d603a137":[10,0,10,193,2],
 "structMR_1_1EdgePoint.html#a78a1e20c8433641c96ee2a30d603a137":[12,0,1,178,2],
 "structMR_1_1EdgePoint.html#a823872832981f7242927eb2725053bea":[10,0,10,193,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1Features_1_1Primitives_1_1Plane.html#a4fede0e0dd7626dce7467556c551aa40":[12,0,1,2,0,1,0],
 "structMR_1_1Features_1_1Primitives_1_1Plane.html#a7e5d4af61b0fcde8d7631027f240b57a":[10,0,10,6,0,1,1],
 "structMR_1_1Features_1_1Primitives_1_1Plane.html#a7e5d4af61b0fcde8d7631027f240b57a":[12,0,1,2,0,1,1],
-"structMR_1_1Features_1_1Primitives_1_1Plane.html#a8ad7586da649f116dbeefd965f5ff897":[10,0,10,6,0,1,2],
-"structMR_1_1Features_1_1Primitives_1_1Plane.html#a8ad7586da649f116dbeefd965f5ff897":[12,0,1,2,0,1,2],
-"structMR_1_1Features_1_1Primitives_1_1Plane.html#aaef9e3698f1254ac0f28afb12046695d":[10,0,10,6,0,1,4],
-"structMR_1_1Features_1_1Primitives_1_1Plane.html#aaef9e3698f1254ac0f28afb12046695d":[12,0,1,2,0,1,4],
-"structMR_1_1Features_1_1SubfeatureInfo.html":[10,0,10,6,3],
-"structMR_1_1Features_1_1SubfeatureInfo.html":[12,0,1,2,3],
-"structMR_1_1Features_1_1SubfeatureInfo.html#a541784a82382634e352793d6981d3214":[10,0,10,6,3,2],
-"structMR_1_1Features_1_1SubfeatureInfo.html#a541784a82382634e352793d6981d3214":[12,0,1,2,3,2],
-"structMR_1_1Features_1_1SubfeatureInfo.html#acd121ce53278633a7477e30db35ac13b":[10,0,10,6,3,0]
+"structMR_1_1Features_1_1Primitives_1_1Plane.html#a8ad7586da649f116dbeefd965f5ff897":[10,0,10,6,0,1,2]
 };

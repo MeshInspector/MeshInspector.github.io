@@ -106,6 +106,7 @@ $(function(){initNavTree('classMR_1_1MoveObjectByMouseImpl.html',''); initResiza
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-types">Protected Types</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classMR_1_1MoveObjectByMouseImpl-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::MoveObjectByMouseImpl Class Reference</div></div>
@@ -132,23 +133,62 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3932fa9a5384b09c3fd4b7f7179697c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4516bc68a71f976621ce71dff17b7837" id="r_a4516bc68a71f976621ce71dff17b7837"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4516bc68a71f976621ce71dff17b7837">onMouseUp</a> (<a class="el" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> button, int modifiers)</td></tr>
 <tr class="separator:a4516bc68a71f976621ce71dff17b7837"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d7ba828a467caacdf778f908b184b91" id="r_a8d7ba828a467caacdf778f908b184b91"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d7ba828a467caacdf778f908b184b91">currentObject</a> () const</td></tr>
-<tr class="separator:a8d7ba828a467caacdf778f908b184b91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f7401692f7a4fc4b54c9a588eb04165" id="r_a6f7401692f7a4fc4b54c9a588eb04165"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f7401692f7a4fc4b54c9a588eb04165">isMoving</a> () const</td></tr>
 <tr class="separator:a6f7401692f7a4fc4b54c9a588eb04165"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad8cb7773d35560f8b4469f293cbd169" id="r_aad8cb7773d35560f8b4469f293cbd169"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad8cb7773d35560f8b4469f293cbd169">cancel</a> ()</td></tr>
 <tr class="separator:aad8cb7773d35560f8b4469f293cbd169"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
+Protected Types</h2></td></tr>
+<tr class="memitem:a4e5180c9fe4f3ff399794c4a640b500a" id="r_a4e5180c9fe4f3ff399794c4a640b500a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500a">TransformMode</a> { <a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500aa6adf97f83acf6453d4a6a4b1070f3754">None</a>
+, <a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500aa6dd08874f83507e9c7b23f1a46b7fa7c">Translation</a>
+, <a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500aaf1a42bd417390fc63b030a519624607a">Rotation</a>
+, <a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500aa85a7cd587d6142dbfc1a4de05af7b75d">Scale</a>
+ }</td></tr>
+<tr class="memdesc:a4e5180c9fe4f3ff399794c4a640b500a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transformation mode.  <a href="#a4e5180c9fe4f3ff399794c4a640b500a">More...</a><br /></td></tr>
+<tr class="separator:a4e5180c9fe4f3ff399794c4a640b500a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a6ba23646c261b8f0b4b6d6a15fd0564d" id="r_a6ba23646c261b8f0b4b6d6a15fd0564d"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ba23646c261b8f0b4b6d6a15fd0564d">onPick_</a> (std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj, <a class="el" href="structMR_1_1PointOnObject.html">PointOnObject</a> &amp;point, int modifiers)</td></tr>
-<tr class="separator:a6ba23646c261b8f0b4b6d6a15fd0564d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42382fe737cf90fab9458b01255b5bfe" id="r_a42382fe737cf90fab9458b01255b5bfe"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42382fe737cf90fab9458b01255b5bfe">getObjects_</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;obj, const <a class="el" href="structMR_1_1PointOnObject.html">PointOnObject</a> &amp;point, int modifiers)</td></tr>
-<tr class="separator:a42382fe737cf90fab9458b01255b5bfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6d3e7b0abe5c50bba244801249e7ed5" id="r_ab6d3e7b0abe5c50bba244801249e7ed5"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API <a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500a">TransformMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6d3e7b0abe5c50bba244801249e7ed5">pick_</a> (<a class="el" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> button, int modifiers, std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;objects, <a class="el" href="classVector3f.html">Vector3f</a> &amp;centerPoint, <a class="el" href="classVector3f.html">Vector3f</a> &amp;startPoint)</td></tr>
+<tr class="separator:ab6d3e7b0abe5c50bba244801249e7ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b9a12600f13df92315c665178457113" id="r_a3b9a12600f13df92315c665178457113"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="namespaceMR.html#adf0537cf388e67a9a7a94f7428bb146e">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b9a12600f13df92315c665178457113">getBbox_</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;objects)</td></tr>
+<tr class="separator:a3b9a12600f13df92315c665178457113"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Helper class to incorporate basic object transformation feature into plugins User can move objects by dragging them, rotate by dragging with Ctrl key To use, create class instance and call its event handlers For extra features, override the pick and object selection functions </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<div class="textblock"><p>Helper class to incorporate basic object transformation feature into plugins User can move objects by dragging them, rotate by dragging with Ctrl key; scaling is disabled by default To use, create class instance and call its event handlers For extra features, override the <code>pick_</code> method </p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a4e5180c9fe4f3ff399794c4a640b500a" name="a4e5180c9fe4f3ff399794c4a640b500a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e5180c9fe4f3ff399794c4a640b500a">&#9670;&#160;</a></span>TransformMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500a">MR::MoveObjectByMouseImpl::TransformMode</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Transformation mode. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4e5180c9fe4f3ff399794c4a640b500aa6adf97f83acf6453d4a6a4b1070f3754" name="a4e5180c9fe4f3ff399794c4a640b500aa6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4e5180c9fe4f3ff399794c4a640b500aa6dd08874f83507e9c7b23f1a46b7fa7c" name="a4e5180c9fe4f3ff399794c4a640b500aa6dd08874f83507e9c7b23f1a46b7fa7c"></a>Translation&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4e5180c9fe4f3ff399794c4a640b500aaf1a42bd417390fc63b030a519624607a" name="a4e5180c9fe4f3ff399794c4a640b500aaf1a42bd417390fc63b030a519624607a"></a>Rotation&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4e5180c9fe4f3ff399794c4a640b500aa85a7cd587d6142dbfc1a4de05af7b75d" name="a4e5180c9fe4f3ff399794c4a640b500aa85a7cd587d6142dbfc1a4de05af7b75d"></a>Scale&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a38667d92b4c0a5c674ae3984e4887601" name="a38667d92b4c0a5c674ae3984e4887601"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a38667d92b4c0a5c674ae3984e4887601">&#9670;&#160;</a></span>MoveObjectByMouseImpl()</h2>
 
@@ -218,8 +258,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8d7ba828a467caacdf778f908b184b91" name="a8d7ba828a467caacdf778f908b184b91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d7ba828a467caacdf778f908b184b91">&#9670;&#160;</a></span>currentObject()</h2>
+<a id="a3b9a12600f13df92315c665178457113" name="a3b9a12600f13df92315c665178457113"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b9a12600f13df92315c665178457113">&#9670;&#160;</a></span>getBbox_()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -228,53 +268,19 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; MR::MoveObjectByMouseImpl::currentObject </td>
+          <td class="memname">MRVIEWER_API <a class="el" href="namespaceMR.html#adf0537cf388e67a9a7a94f7428bb146e">Box3f</a> MR::MoveObjectByMouseImpl::getBbox_ </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>objects</em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p><a class="el" href="classMR_1_1Object.html" title="named object in the data model">Object</a> currently picked for moving (if any, otherwise null) The current object is set in <code>onMouseDown</code> and set to null in <code>onMouseUp</code> </p>
-
-</div>
-</div>
-<a id="a42382fe737cf90fab9458b01255b5bfe" name="a42382fe737cf90fab9458b01255b5bfe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42382fe737cf90fab9458b01255b5bfe">&#9670;&#160;</a></span>getObjects_()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual MRVIEWER_API std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; MR::MoveObjectByMouseImpl::getObjects_ </td>
-          <td>(</td>
-          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1PointOnObject.html">PointOnObject</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>point</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>modifiers</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Helper function to calculate world bounding box for several objects Note: can be invalid (feature objects give an invalid box etc.) </p>
 
 </div>
 </div>
@@ -292,7 +298,7 @@ Protected Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns true if has a picked object, and actually started moving it Return false if no object, or <code>minDistance</code> has not yet reached </p>
+<p>Returns true if currently moving object(s) Return false if not active, or object picked but <code>minDistance</code> has not yet reached </p>
 
 </div>
 </div>
@@ -404,8 +410,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6ba23646c261b8f0b4b6d6a15fd0564d" name="a6ba23646c261b8f0b4b6d6a15fd0564d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ba23646c261b8f0b4b6d6a15fd0564d">&#9670;&#160;</a></span>onPick_()</h2>
+<a id="ab6d3e7b0abe5c50bba244801249e7ed5" name="ab6d3e7b0abe5c50bba244801249e7ed5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6d3e7b0abe5c50bba244801249e7ed5">&#9670;&#160;</a></span>pick_()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -414,19 +420,29 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual MRVIEWER_API bool MR::MoveObjectByMouseImpl::onPick_ </td>
+          <td class="memname">virtual MRVIEWER_API <a class="el" href="#a4e5180c9fe4f3ff399794c4a640b500a">TransformMode</a> MR::MoveObjectByMouseImpl::pick_ </td>
           <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a></td>          <td class="paramname"><span class="paramname"><em>button</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1PointOnObject.html">PointOnObject</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>point</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>modifiers</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>modifiers</em></span>&#160;)</td>
+          <td class="paramtype">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>objects</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>centerPoint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>startPoint</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -435,7 +451,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Called when <code>onMouseDown</code> picks an object Return true to start transformation, false to skip <code>obj</code> and <code>point</code> can be modified if necessary (in <code>point</code>, only <code>point</code> member is used) Default implementation returns true for all non-ancillary objects </p>
+<p>Called from <code>onMouseDown</code> Returns chosen <code>TransformMode</code> to start transformation, <code>None</code> to skip; fills the output parameters: <code>objects</code> - list of objects to be affected by transformation <code>centerPoint</code> - center point for rotation (world coordinates) <code>startPoint</code> - a point under cursor for transform calculation, can be the picked point or else (world coordinates) Default implementation can be used as a reference for custom implementations </p>
 
 </div>
 </div>

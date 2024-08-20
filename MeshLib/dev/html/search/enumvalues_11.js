@@ -25,7 +25,7 @@ var searchData=
   ['rigidscale_22',['RigidScale',['../namespaceMR.html#a2f8db848fea33b9619ade1fc1ac08677ae69bfcbc43792e36c9ef6daf8e9af890',1,'MR']]],
   ['roll_23',['Roll',['../namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75a25b5eb3bbef15385b5f5ff3abe46f342',1,'MR']]],
   ['rotate_24',['Rotate',['../classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884a8d2de5368588552fbae54044ac5c7b3d',1,'MR::TouchesController']]],
-  ['rotation_25',['Rotation',['../namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75af1a42bd417390fc63b030a519624607a',1,'MR']]],
+  ['rotation_25',['Rotation',['../classMR_1_1MoveObjectByMouseImpl.html#a4e5180c9fe4f3ff399794c4a640b500aaf1a42bd417390fc63b030a519624607a',1,'MR::MoveObjectByMouseImpl::Rotation'],['../namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75af1a42bd417390fc63b030a519624607a',1,'MR::Rotation']]],
   ['rotmask_26',['RotMask',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6a6428aea23660f83dac6edbd258b67a02',1,'MR']]],
   ['rotx_27',['RotX',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6ae47d6e82d3529c2e696cb9b128c39350',1,'MR']]],
   ['roty_28',['RotY',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6a3bf2bbb5aed73183fe04a25bc85c9ff6',1,'MR']]],

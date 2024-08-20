@@ -1,5 +1,13 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1SelectScreenLasso.html#aca121a3040e13577002feb80ef7f9456":[12,0,1,558,3],
+"classMR_1_1SeparationPointStorage.html":[10,0,10,574],
+"classMR_1_1SeparationPointStorage.html":[12,0,1,559],
+"classMR_1_1SeparationPointStorage.html#a3ad8f87539f118ca7419849b7029208b":[10,0,10,574,5],
+"classMR_1_1SeparationPointStorage.html#a3ad8f87539f118ca7419849b7029208b":[12,0,1,559,5],
+"classMR_1_1SeparationPointStorage.html#a4f797a53cf1d4fedcf01fbd51dcf3e04":[10,0,10,574,2],
+"classMR_1_1SeparationPointStorage.html#a4f797a53cf1d4fedcf01fbd51dcf3e04":[12,0,1,559,2],
+"classMR_1_1SeparationPointStorage.html#a5a0d66ada3a7d052880ac0c16dfa4ca2":[10,0,10,574,4],
 "classMR_1_1SeparationPointStorage.html#a5a0d66ada3a7d052880ac0c16dfa4ca2":[12,0,1,559,4],
 "classMR_1_1SeparationPointStorage.html#a99db5fa322a3860d51db5e4292a83786":[10,0,10,574,6],
 "classMR_1_1SeparationPointStorage.html#a99db5fa322a3860d51db5e4292a83786":[12,0,1,559,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1StateBasePlugin.html#a36686d0a6dcae1a1bcce521d5db5e413":[10,0,10,604,0],
 "classMR_1_1StateBasePlugin.html#a36686d0a6dcae1a1bcce521d5db5e413":[12,0,1,589,0],
 "classMR_1_1StateBasePlugin.html#a3e096e6d2e0ecf98e399691bd99c82f7":[10,0,10,604,2],
-"classMR_1_1StateBasePlugin.html#a3e096e6d2e0ecf98e399691bd99c82f7":[12,0,1,589,2],
-"classMR_1_1StateBasePlugin.html#a54181a3e2d58070b748c4d49c721a0ea":[10,0,10,604,8],
-"classMR_1_1StateBasePlugin.html#a54181a3e2d58070b748c4d49c721a0ea":[12,0,1,589,8],
-"classMR_1_1StateBasePlugin.html#a55b362aee5989fe359aadd33c9be78b4":[10,0,10,604,19],
-"classMR_1_1StateBasePlugin.html#a55b362aee5989fe359aadd33c9be78b4":[12,0,1,589,19],
-"classMR_1_1StateBasePlugin.html#a56d7b27cd916a3ec2fcf0bcb4b7e3d28":[10,0,10,604,18],
-"classMR_1_1StateBasePlugin.html#a56d7b27cd916a3ec2fcf0bcb4b7e3d28":[12,0,1,589,18],
-"classMR_1_1StateBasePlugin.html#a653adb25964ffa5b7ca333c119b2e597":[10,0,10,604,14],
-"classMR_1_1StateBasePlugin.html#a653adb25964ffa5b7ca333c119b2e597":[12,0,1,589,14]
+"classMR_1_1StateBasePlugin.html#a3e096e6d2e0ecf98e399691bd99c82f7":[12,0,1,589,2]
 };

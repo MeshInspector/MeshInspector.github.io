@@ -1,5 +1,13 @@
 var NAVTREEINDEX58 =
 {
+"structMR_1_1Color.html":[10,0,10,131],
+"structMR_1_1Color.html":[12,0,1,116],
+"structMR_1_1Color.html#a21c5ef511dcf3b636ce3f8a5fd699874":[10,0,10,131,15],
+"structMR_1_1Color.html#a21c5ef511dcf3b636ce3f8a5fd699874":[12,0,1,116,15],
+"structMR_1_1Color.html#a2879fe1d429706d60bf61dba5073b28d":[10,0,10,131,4],
+"structMR_1_1Color.html#a2879fe1d429706d60bf61dba5073b28d":[12,0,1,116,4],
+"structMR_1_1Color.html#a30e8afba2ca683c433ab83718048a41e":[10,0,10,131,12],
+"structMR_1_1Color.html#a30e8afba2ca683c433ab83718048a41e":[12,0,1,116,12],
 "structMR_1_1Color.html#a361e3d7af72254b02de4d5bdf7f08b60":[10,0,10,131,0],
 "structMR_1_1Color.html#a361e3d7af72254b02de4d5bdf7f08b60":[12,0,1,116,0],
 "structMR_1_1Color.html#a3671d8320e6244266951f9a5ea6ef33e":[10,0,10,131,13],
@@ -241,13 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1DenoiseViaNormalsSettings.html#a63ddf357508ffd766addcbe0684a1619":[12,0,1,151,1],
 "structMR_1_1DenoiseViaNormalsSettings.html#a6852271fa1efbc4da52e0fb5b851810f":[10,0,10,166,4],
 "structMR_1_1DenoiseViaNormalsSettings.html#a6852271fa1efbc4da52e0fb5b851810f":[12,0,1,151,4],
-"structMR_1_1DenoiseViaNormalsSettings.html#a82e9e950294e56f0bed7e0ad545b68e9":[10,0,10,166,9],
-"structMR_1_1DenoiseViaNormalsSettings.html#a82e9e950294e56f0bed7e0ad545b68e9":[12,0,1,151,9],
-"structMR_1_1DenoiseViaNormalsSettings.html#aa7cab391c3f837a22f2d158c7647315a":[10,0,10,166,0],
-"structMR_1_1DenoiseViaNormalsSettings.html#aa7cab391c3f837a22f2d158c7647315a":[12,0,1,151,0],
-"structMR_1_1DenoiseViaNormalsSettings.html#ab298fec8f17af7398ab708ce69c2af2d":[10,0,10,166,6],
-"structMR_1_1DenoiseViaNormalsSettings.html#ab298fec8f17af7398ab708ce69c2af2d":[12,0,1,151,6],
-"structMR_1_1DenoiseViaNormalsSettings.html#ad5c55319dff328b55475f07390acd505":[10,0,10,166,3],
-"structMR_1_1DenoiseViaNormalsSettings.html#ad5c55319dff328b55475f07390acd505":[12,0,1,151,3],
-"structMR_1_1DenoiseViaNormalsSettings.html#ad6004983564c77dbe469d819de9b1100":[10,0,10,166,2]
+"structMR_1_1DenoiseViaNormalsSettings.html#a82e9e950294e56f0bed7e0ad545b68e9":[10,0,10,166,9]
 };

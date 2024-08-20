@@ -1,5 +1,13 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1DenoiseViaNormalsSettings.html#a82e9e950294e56f0bed7e0ad545b68e9":[12,0,1,151,9],
+"structMR_1_1DenoiseViaNormalsSettings.html#aa7cab391c3f837a22f2d158c7647315a":[10,0,10,166,0],
+"structMR_1_1DenoiseViaNormalsSettings.html#aa7cab391c3f837a22f2d158c7647315a":[12,0,1,151,0],
+"structMR_1_1DenoiseViaNormalsSettings.html#ab298fec8f17af7398ab708ce69c2af2d":[10,0,10,166,6],
+"structMR_1_1DenoiseViaNormalsSettings.html#ab298fec8f17af7398ab708ce69c2af2d":[12,0,1,151,6],
+"structMR_1_1DenoiseViaNormalsSettings.html#ad5c55319dff328b55475f07390acd505":[10,0,10,166,3],
+"structMR_1_1DenoiseViaNormalsSettings.html#ad5c55319dff328b55475f07390acd505":[12,0,1,151,3],
+"structMR_1_1DenoiseViaNormalsSettings.html#ad6004983564c77dbe469d819de9b1100":[10,0,10,166,2],
 "structMR_1_1DenoiseViaNormalsSettings.html#ad6004983564c77dbe469d819de9b1100":[12,0,1,151,2],
 "structMR_1_1DenoiseViaNormalsSettings.html#ad7f7b82ea225f8e0f9a358b607d7fead":[10,0,10,166,8],
 "structMR_1_1DenoiseViaNormalsSettings.html#ad7f7b82ea225f8e0f9a358b607d7fead":[12,0,1,151,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1EdgePoint.html#a25f0e8422ec2c8591279616e4f81709a":[10,0,10,193,6],
 "structMR_1_1EdgePoint.html#a25f0e8422ec2c8591279616e4f81709a":[12,0,1,178,6],
 "structMR_1_1EdgePoint.html#a28488f2c0e7f4adcdc3726f65d573682":[10,0,10,193,4],
-"structMR_1_1EdgePoint.html#a28488f2c0e7f4adcdc3726f65d573682":[12,0,1,178,4],
-"structMR_1_1EdgePoint.html#a317789cb353e8dbe9c42661fe7c4f99f":[10,0,10,193,13],
-"structMR_1_1EdgePoint.html#a317789cb353e8dbe9c42661fe7c4f99f":[12,0,1,178,13],
-"structMR_1_1EdgePoint.html#a4d2be6b280e0a7eeb76615b7a1b368d6":[10,0,10,193,5],
-"structMR_1_1EdgePoint.html#a4d2be6b280e0a7eeb76615b7a1b368d6":[12,0,1,178,5],
-"structMR_1_1EdgePoint.html#a544f2a00465ce861508927e122b12ee5":[10,0,10,193,11],
-"structMR_1_1EdgePoint.html#a544f2a00465ce861508927e122b12ee5":[12,0,1,178,11],
-"structMR_1_1EdgePoint.html#a564ab78e8cb9ad078dc7f1b009c594c4":[10,0,10,193,7],
-"structMR_1_1EdgePoint.html#a564ab78e8cb9ad078dc7f1b009c594c4":[12,0,1,178,7]
+"structMR_1_1EdgePoint.html#a28488f2c0e7f4adcdc3726f65d573682":[12,0,1,178,4]
 };

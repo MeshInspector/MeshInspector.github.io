@@ -1,5 +1,13 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1PythonFunctionAdder.html#a00fba36c8a93737419f6f3f25524948c":[12,0,1,463,1],
+"structMR_1_1PythonFunctionAdder.html#aaed74a628afefa8eedeb5d9b9c5e6976":[10,0,10,478,0],
+"structMR_1_1PythonFunctionAdder.html#aaed74a628afefa8eedeb5d9b9c5e6976":[12,0,1,463,0],
+"structMR_1_1QuadraticForm.html":[9,0,19],
+"structMR_1_1QuadraticForm.html#a040faabf3a0fafc7f0a8afadd3108d2a":[9,0,19,1],
+"structMR_1_1QuadraticForm.html#a0b59f3e15f491ff0d64f1121a8b0a463":[9,0,19,11],
+"structMR_1_1QuadraticForm.html#a4612e1bf2a83cf9f8c04bcffd05b8be0":[9,0,19,4],
+"structMR_1_1QuadraticForm.html#a613642585592285c402e51d9af48651a":[9,0,19,8],
 "structMR_1_1QuadraticForm.html#a6aa8242b430ea2a8b0c65ac776f01e69":[9,0,19,3],
 "structMR_1_1QuadraticForm.html#aa22182ab842edbfd36369edae2063b3c":[9,0,19,2],
 "structMR_1_1QuadraticForm.html#aaa0e315bd432a25ff55c9f30b926ffda":[9,0,19,10],
@@ -241,13 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1":[12,0,1,521,3],
 "structMR_1_1RibbonSchema.html#aff336be3c724c96b01194c689d9bdac9":[10,0,10,536,2],
 "structMR_1_1RibbonSchema.html#aff336be3c724c96b01194c689d9bdac9":[12,0,1,521,2],
-"structMR_1_1RibbonSchemaHolder_1_1SearchResult.html":[10,0,10,537,0],
-"structMR_1_1RibbonSchemaHolder_1_1SearchResult.html":[12,0,1,522,0],
-"structMR_1_1RibbonSchemaHolder_1_1SearchResult.html#a62d11082407bfd9fa9123e8c61f6c3f8":[10,0,10,537,0,1],
-"structMR_1_1RibbonSchemaHolder_1_1SearchResult.html#a62d11082407bfd9fa9123e8c61f6c3f8":[12,0,1,522,0,1],
-"structMR_1_1RibbonSchemaHolder_1_1SearchResult.html#a7ca888bade52243be40b9bc8ea954035":[10,0,10,537,0,0],
-"structMR_1_1RibbonSchemaHolder_1_1SearchResult.html#a7ca888bade52243be40b9bc8ea954035":[12,0,1,522,0,0],
-"structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html":[10,0,10,537,1],
-"structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html":[12,0,1,522,1],
-"structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html#a169dd17810b6e3510c4e2d1715f91f43":[10,0,10,537,1,2]
+"structMR_1_1RibbonSchemaHolder_1_1SearchResult.html":[10,0,10,537,0]
 };

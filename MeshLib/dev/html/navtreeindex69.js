@@ -1,5 +1,13 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1PointsLoad_1_1NamedCloud.html#a70e3d0a1a91b137c484075351c1bda3e":[10,0,10,26,1,3],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#a70e3d0a1a91b137c484075351c1bda3e":[12,0,1,13,1,3],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#a77bdcb1f510b0515f87b17324c8d67aa":[10,0,10,26,1,2],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#a77bdcb1f510b0515f87b17324c8d67aa":[12,0,1,13,1,2],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#a78c9aa18106b86c2d1fb9c2434889ab2":[10,0,10,26,1,0],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#a78c9aa18106b86c2d1fb9c2434889ab2":[12,0,1,13,1,0],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#af2d5b81d7968e83a07655bf1a5cb95b8":[10,0,10,26,1,1],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#af2d5b81d7968e83a07655bf1a5cb95b8":[12,0,1,13,1,1],
 "structMR_1_1PointsProjectionResult.html":[9,1,27],
 "structMR_1_1PointsProjectionResult.html#a3b974a4c082686d4963d597b5533c340":[9,1,27,1],
 "structMR_1_1PointsProjectionResult.html#aac972c9152f1d040824f6ce8998b7cf7":[9,1,27,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1PythonExport_1_1ModuleData.html#a190cf30264de3002c79d0b715ed6697a":[12,0,1,462,0,1],
 "structMR_1_1PythonFunctionAdder.html":[10,0,10,478],
 "structMR_1_1PythonFunctionAdder.html":[12,0,1,463],
-"structMR_1_1PythonFunctionAdder.html#a00fba36c8a93737419f6f3f25524948c":[10,0,10,478,1],
-"structMR_1_1PythonFunctionAdder.html#a00fba36c8a93737419f6f3f25524948c":[12,0,1,463,1],
-"structMR_1_1PythonFunctionAdder.html#aaed74a628afefa8eedeb5d9b9c5e6976":[10,0,10,478,0],
-"structMR_1_1PythonFunctionAdder.html#aaed74a628afefa8eedeb5d9b9c5e6976":[12,0,1,463,0],
-"structMR_1_1QuadraticForm.html":[9,0,19],
-"structMR_1_1QuadraticForm.html#a040faabf3a0fafc7f0a8afadd3108d2a":[9,0,19,1],
-"structMR_1_1QuadraticForm.html#a0b59f3e15f491ff0d64f1121a8b0a463":[9,0,19,11],
-"structMR_1_1QuadraticForm.html#a4612e1bf2a83cf9f8c04bcffd05b8be0":[9,0,19,4],
-"structMR_1_1QuadraticForm.html#a613642585592285c402e51d9af48651a":[9,0,19,8]
+"structMR_1_1PythonFunctionAdder.html#a00fba36c8a93737419f6f3f25524948c":[10,0,10,478,1]
 };

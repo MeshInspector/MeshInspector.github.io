@@ -1,5 +1,13 @@
 var NAVTREEINDEX40 =
 {
+"classMR_1_1Viewer.html#a9658bfe4b89713f69921ed4bc449eb5a":[10,0,10,682,36],
+"classMR_1_1Viewer.html#a9658bfe4b89713f69921ed4bc449eb5a":[12,0,1,667,36],
+"classMR_1_1Viewer.html#a96cbf0a63696ed1b370277034184b276":[10,0,10,682,24],
+"classMR_1_1Viewer.html#a96cbf0a63696ed1b370277034184b276":[12,0,1,667,24],
+"classMR_1_1Viewer.html#a97e86765917acf14b1aeec234fa1f827":[10,0,10,682,203],
+"classMR_1_1Viewer.html#a97e86765917acf14b1aeec234fa1f827":[12,0,1,667,203],
+"classMR_1_1Viewer.html#a98e839976ec3394275ee4c8a96c6dc27":[10,0,10,682,146],
+"classMR_1_1Viewer.html#a98e839976ec3394275ee4c8a96c6dc27":[12,0,1,667,146],
 "classMR_1_1Viewer.html#a9c5de8b0fd441cba5b8b78b9ec669d99":[10,0,10,682,142],
 "classMR_1_1Viewer.html#a9c5de8b0fd441cba5b8b78b9ec669d99":[12,0,1,667,142],
 "classMR_1_1Viewer.html#a9d098bef59db9ac38f5e669c50c289d7":[10,0,10,682,30],
@@ -241,13 +249,5 @@ var NAVTREEINDEX40 =
 "classMR_1_1ViewerSettingsManager.html#a770118627bfaf87c25ea5054d8accd6b":[10,0,10,685,7],
 "classMR_1_1ViewerSettingsManager.html#a770118627bfaf87c25ea5054d8accd6b":[12,0,1,670,7],
 "classMR_1_1ViewerSettingsManager.html#aae039b8200dd053aec8632ae57be5880":[10,0,10,685,4],
-"classMR_1_1ViewerSettingsManager.html#aae039b8200dd053aec8632ae57be5880":[12,0,1,670,4],
-"classMR_1_1ViewerSettingsManager.html#ae34d29d931ee10c81966d705130f7490":[10,0,10,685,8],
-"classMR_1_1ViewerSettingsManager.html#ae34d29d931ee10c81966d705130f7490":[12,0,1,670,8],
-"classMR_1_1ViewerSettingsManager.html#aec65e015620e9455787fd7da4496b654":[10,0,10,685,2],
-"classMR_1_1ViewerSettingsManager.html#aec65e015620e9455787fd7da4496b654":[12,0,1,670,2],
-"classMR_1_1ViewerSettingsPlugin.html":[10,0,10,686],
-"classMR_1_1ViewerSettingsPlugin.html":[12,0,1,671],
-"classMR_1_1ViewerSettingsPlugin.html#a25d8a5c93929180a4b438d21afe8cb02":[10,0,10,686,5],
-"classMR_1_1ViewerSettingsPlugin.html#a25d8a5c93929180a4b438d21afe8cb02":[12,0,1,671,5]
+"classMR_1_1ViewerSettingsManager.html#aae039b8200dd053aec8632ae57be5880":[12,0,1,670,4]
 };
