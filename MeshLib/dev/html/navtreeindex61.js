@@ -1,13 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#ad0e22f8a9ddce47d6aab63cfe35ab6bd":[12,0,1,2,0,0,8],
-"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aed7a509cc23a908a6cf803007694eabf":[10,0,10,6,0,0,13],
-"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aed7a509cc23a908a6cf803007694eabf":[12,0,1,2,0,0,13],
-"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aeda0b75106e0df9b044fe33c1adb7044":[10,0,10,6,0,0,6],
-"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aeda0b75106e0df9b044fe33c1adb7044":[12,0,1,2,0,0,6],
-"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#afa5b6dc1d9e1f98cbec052e8d506d20a":[10,0,10,6,0,0,7],
-"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#afa5b6dc1d9e1f98cbec052e8d506d20a":[12,0,1,2,0,0,7],
-"structMR_1_1Features_1_1Primitives_1_1Plane.html":[10,0,10,6,0,1],
 "structMR_1_1Features_1_1Primitives_1_1Plane.html":[12,0,1,2,0,1],
 "structMR_1_1Features_1_1Primitives_1_1Plane.html#a17291dba0d3768973959e35d4105ceea":[10,0,10,6,0,1,3],
 "structMR_1_1Features_1_1Primitives_1_1Plane.html#a17291dba0d3768973959e35d4105ceea":[12,0,1,2,0,1,3],
@@ -249,5 +241,13 @@ var NAVTREEINDEX61 =
 "structMR_1_1GlTexture_1_1Settings.html#a3943dc4f528bc49722114379614e4c2e":[12,0,1,222,0,0],
 "structMR_1_1GlTexture_1_1Settings.html#a3b834f386d4f814d5f03b43e229d4adb":[10,0,10,237,0,3],
 "structMR_1_1GlTexture_1_1Settings.html#a3b834f386d4f814d5f03b43e229d4adb":[12,0,1,222,0,3],
-"structMR_1_1GlTexture_1_1Settings.html#a43504dbf4a7fab179ae9e99940385273":[10,0,10,237,0,2]
+"structMR_1_1GlTexture_1_1Settings.html#a43504dbf4a7fab179ae9e99940385273":[10,0,10,237,0,2],
+"structMR_1_1GlTexture_1_1Settings.html#a43504dbf4a7fab179ae9e99940385273":[12,0,1,222,0,2],
+"structMR_1_1GlTexture_1_1Settings.html#a622af16b47b77e020bec6dced9f55f65":[10,0,10,237,0,6],
+"structMR_1_1GlTexture_1_1Settings.html#a622af16b47b77e020bec6dced9f55f65":[12,0,1,222,0,6],
+"structMR_1_1GlTexture_1_1Settings.html#a877a27fbb560e4c2b894f410f8d07eaf":[10,0,10,237,0,1],
+"structMR_1_1GlTexture_1_1Settings.html#a877a27fbb560e4c2b894f410f8d07eaf":[12,0,1,222,0,1],
+"structMR_1_1GlTexture_1_1Settings.html#ad39830e427a6b30fbd800ad366bd89f4":[10,0,10,237,0,5],
+"structMR_1_1GlTexture_1_1Settings.html#ad39830e427a6b30fbd800ad366bd89f4":[12,0,1,222,0,5],
+"structMR_1_1GlTexture_1_1Settings.html#afac6caf438f2fe584e2e968364cfbd8a":[10,0,10,237,0,4]
 };

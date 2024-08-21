@@ -48,6 +48,7 @@ var searchData=
   ['distancemap_45',['DistanceMap',['../classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76ae76139f4dbe2f91f14577bcccc1baf77',1,'MR::ViewerSettingsManager::DistanceMap'],['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37ae76139f4dbe2f91f14577bcccc1baf77',1,'MR::DistanceMap']]],
   ['distances_46',['Distances',['../structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aadcccbad6a160d87b883d166736919b6b',1,'MR::FaceDistancesSettings']]],
   ['distributeprecision_47',['distributePrecision',['../namespaceMR.html#a09f9590ed4411f71af1c1526458d5dd1a85a27592021a82ac0d0cce34c2c39963',1,'MR']]],
-  ['dynamic_48',['Dynamic',['../structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba971fd8cc345d8bd9f92e9f7d88fdf20c',1,'MR::Viewport::Parameters']]],
-  ['dynamicstatic_49',['DynamicStatic',['../structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba5ca4f2430f49ee813f846bbcdc0e575e',1,'MR::Viewport::Parameters']]]
+  ['drawpoints_48',['DrawPoints',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a728b308f6da64718dc5c89ca67715213',1,'MR::GLStaticHolder']]],
+  ['dynamic_49',['Dynamic',['../structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba971fd8cc345d8bd9f92e9f7d88fdf20c',1,'MR::Viewport::Parameters']]],
+  ['dynamicstatic_50',['DynamicStatic',['../structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba5ca4f2430f49ee813f846bbcdc0e575e',1,'MR::Viewport::Parameters']]]
 ];

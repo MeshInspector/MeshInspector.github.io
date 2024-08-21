@@ -30,8 +30,7 @@ var searchData=
   ['transparent_27',['Transparent',['../namespaceMR.html#a712ee084e6055ce8fadbbe8cf8b3f6cea3d971943089a3388c01fb297a32d9ba7',1,'MR']]],
   ['transparentlines_28',['TransparentLines',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748ad086db31424739a8c448c65864f4da47',1,'MR::GLStaticHolder']]],
   ['transparentmesh_29',['TransparentMesh',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a0aceddd1bbfe40ef001c096d89ff39c5',1,'MR::GLStaticHolder']]],
-  ['transparentpoints_30',['TransparentPoints',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a6b95b06d80e70d38b782d9f3070311dd',1,'MR::GLStaticHolder']]],
-  ['trianglearraysize_31',['TriangleArraySize',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a50966bab9526b25864172b96b6f49ee1',1,'MR::Viewer']]],
-  ['triangleelementsnum_32',['TriangleElementsNum',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a49dfc480ddddefd459fb49ff08a102dc',1,'MR::Viewer']]],
-  ['tryhidden_33',['TryHidden',['../structMR_1_1LaunchParams.html#a022b76b62fcdfb2c120c1c0ccb08513da6eb9143e151d9fefbe06837619a5c846',1,'MR::LaunchParams']]]
+  ['trianglearraysize_30',['TriangleArraySize',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a50966bab9526b25864172b96b6f49ee1',1,'MR::Viewer']]],
+  ['triangleelementsnum_31',['TriangleElementsNum',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a49dfc480ddddefd459fb49ff08a102dc',1,'MR::Viewer']]],
+  ['tryhidden_32',['TryHidden',['../structMR_1_1LaunchParams.html#a022b76b62fcdfb2c120c1c0ccb08513da6eb9143e151d9fefbe06837619a5c846',1,'MR::LaunchParams']]]
 ];

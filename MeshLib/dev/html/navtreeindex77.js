@@ -1,13 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bad2b556d8a8f5c8ac323f51a4b82e79a0":[9,2,17,2,0,9],
-"structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bae7956ed7be1c5025a27ed3cb42a396bd":[9,2,17,2,0,4],
-"structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bae93f994f01c537c4e2f7d8528c3eb5e9":[9,2,17,2,0,12],
-"structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bafbde23b11d7e59af7828e81144c8b487":[9,2,17,2,0,7],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html":[9,2,18],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html#a61495391ee95acbc5462893baceab323":[9,2,18,0],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html#a8194c36117ac4d7ace9f1070ce398953":[9,2,18,3],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html#a8415f6dc84ccf8061fd256e2420cd4fd":[9,2,18,2],
 "structMR_1_1VoxelsSave_1_1SavingSettings.html#abc7da521abdd392c79be9602cde3dc64":[9,2,18,1],
 "structMR_1_1VoxelsVolume.html":[10,0,10,703],
 "structMR_1_1VoxelsVolume.html":[12,0,1,688],

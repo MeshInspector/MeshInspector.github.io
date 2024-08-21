@@ -1,9 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"classMR_1_1AngleMeasurementObject.html#a753a768f4cae3df84fb4587bc0600b30":[12,0,1,42,20],
-"classMR_1_1AngleMeasurementObject.html#a77cf2bb7f527cdce197688a0eff4f24b":[10,0,10,57,14],
-"classMR_1_1AngleMeasurementObject.html#a77cf2bb7f527cdce197688a0eff4f24b":[12,0,1,42,14],
-"classMR_1_1AngleMeasurementObject.html#a8e474716d30d1e4bd36dc2c74ae744d0":[10,0,10,57,1],
 "classMR_1_1AngleMeasurementObject.html#a8e474716d30d1e4bd36dc2c74ae744d0":[12,0,1,42,1],
 "classMR_1_1AngleMeasurementObject.html#a94c8a0bb6913155e136c7a02750e7d0f":[10,0,10,57,8],
 "classMR_1_1AngleMeasurementObject.html#a94c8a0bb6913155e136c7a02750e7d0f":[12,0,1,42,8],
@@ -249,5 +245,9 @@ var NAVTREEINDEX14 =
 "classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[10,0,10,87,1],
 "classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[12,0,1,72,1],
 "classMR_1_1ChangVoxelSelectionAction.html":[9,4,34],
-"classMR_1_1ChangeActiveBoxAction.html":[9,4,31]
+"classMR_1_1ChangeActiveBoxAction.html":[9,4,31],
+"classMR_1_1ChangeActiveBoxAction.html#a25b3ab2e8226cb91171a0128777eea34":[9,4,31,4],
+"classMR_1_1ChangeActiveBoxAction.html#a2caa2474b0606297a2f58c69be0994e4":[9,4,31,1],
+"classMR_1_1ChangeActiveBoxAction.html#a7fdeabeadb9c2e89e83a34c52576dba3":[9,4,31,3],
+"classMR_1_1ChangeActiveBoxAction.html#a83fd8175728c350029784aa802749d90":[9,4,31,2]
 };

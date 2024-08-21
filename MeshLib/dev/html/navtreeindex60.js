@@ -1,13 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a0e59111b442fc3dcfc4cfc089a0972ec":[10,0,10,192,0,2],
-"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a0e59111b442fc3dcfc4cfc089a0972ec":[12,0,1,177,0,2],
-"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a4c276cfcbefefc36c49ded5ed151d1f4":[10,0,10,192,0,0],
-"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a4c276cfcbefefc36c49ded5ed151d1f4":[12,0,1,177,0,0],
-"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a86bbb1910bc530c8f88287ede3605c5f":[10,0,10,192,0,1],
-"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a86bbb1910bc530c8f88287ede3605c5f":[12,0,1,177,0,1],
-"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#ad5e8720a5c82f4ea7340efebb072d1cd":[10,0,10,192,0,3],
-"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#ad5e8720a5c82f4ea7340efebb072d1cd":[12,0,1,177,0,3],
 "structMR_1_1EdgePoint.html":[10,0,10,193],
 "structMR_1_1EdgePoint.html":[12,0,1,178],
 "structMR_1_1EdgePoint.html#a1b897527d833919c4b3da5c84edd2d23":[10,0,10,193,16],
@@ -249,5 +241,13 @@ var NAVTREEINDEX60 =
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#ac00c1b10d86e8726d41cd48ce17c9ebf":[12,0,1,2,0,0,0],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#ac1751a2024b0d6daec6aedd03c36ba2c":[10,0,10,6,0,0,16],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#ac1751a2024b0d6daec6aedd03c36ba2c":[12,0,1,2,0,0,16],
-"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#ad0e22f8a9ddce47d6aab63cfe35ab6bd":[10,0,10,6,0,0,8]
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#ad0e22f8a9ddce47d6aab63cfe35ab6bd":[10,0,10,6,0,0,8],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#ad0e22f8a9ddce47d6aab63cfe35ab6bd":[12,0,1,2,0,0,8],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aed7a509cc23a908a6cf803007694eabf":[10,0,10,6,0,0,13],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aed7a509cc23a908a6cf803007694eabf":[12,0,1,2,0,0,13],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aeda0b75106e0df9b044fe33c1adb7044":[10,0,10,6,0,0,6],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#aeda0b75106e0df9b044fe33c1adb7044":[12,0,1,2,0,0,6],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#afa5b6dc1d9e1f98cbec052e8d506d20a":[10,0,10,6,0,0,7],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#afa5b6dc1d9e1f98cbec052e8d506d20a":[12,0,1,2,0,0,7],
+"structMR_1_1Features_1_1Primitives_1_1Plane.html":[10,0,10,6,0,1]
 };

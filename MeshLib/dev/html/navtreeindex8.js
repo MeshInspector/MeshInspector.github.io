@@ -226,10 +226,6 @@ var NAVTREEINDEX8 =
 "MRPointsLoadE57_8h_source.html":[13,0,0,2,3,280],
 "MRPointsProject_8h.html":[13,0,0,2,3,281],
 "MRPointsProject_8h_source.html":[13,0,0,2,3,281],
-"MRPointsShader_8h.html":[13,0,0,2,8,49],
-"MRPointsShader_8h.html#a5863e06aeda8dbdaac30e5098692f741":[13,0,0,2,8,49,1],
-"MRPointsShader_8h.html#ad955b6a2b26f772c9baa0e45f672f3b4":[13,0,0,2,8,49,0],
-"MRPointsShader_8h_source.html":[13,0,0,2,8,49],
 "MRPointsToDistanceVolume_8h.html":[13,0,0,2,3,283],
 "MRPointsToDistanceVolume_8h.html#a236c4537e2adf5063fc67f63ee1fcc5e":[13,0,0,2,3,283,2],
 "MRPointsToDistanceVolume_8h.html#a83daf7d9b25940b3c605710b05747e88":[13,0,0,2,3,283,1],
@@ -249,5 +245,9 @@ var NAVTREEINDEX8 =
 "MRPolyline2Project_8h_source.html":[13,0,0,2,3,291],
 "MRPolylineComponents_8h.html":[13,0,0,2,3,292],
 "MRPolylineComponents_8h.html#a7b49dea5ec0f482893a31e642b0118b6":[13,0,0,2,3,292,4],
-"MRPolylineComponents_8h_source.html":[13,0,0,2,3,292]
+"MRPolylineComponents_8h_source.html":[13,0,0,2,3,292],
+"MRPolylineDecimate_8h.html":[13,0,0,2,3,293],
+"MRPolylineDecimate_8h.html#a123fe754e35b341ca5ffe226b5eecc9a":[13,0,0,2,3,293,2],
+"MRPolylineDecimate_8h.html#a6e7bbd2938192cd9a3d3616faa293ed9":[13,0,0,2,3,293,1],
+"MRPolylineDecimate_8h.html#a6f9fa131498e694eaa8674f7a73a01c6":[13,0,0,2,3,293,4]
 };

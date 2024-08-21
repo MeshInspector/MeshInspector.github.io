@@ -1,11 +1,5 @@
 var NAVTREEINDEX30 =
 {
-"classMR_1_1PluginCloseOnEscPressed.html":[12,0,1,416],
-"classMR_1_1PluginCloseOnEscPressed.html#a1cbeb11bd052199cb41ec5ae88ea4971":[10,0,10,431,0],
-"classMR_1_1PluginCloseOnEscPressed.html#a1cbeb11bd052199cb41ec5ae88ea4971":[12,0,1,416,0],
-"classMR_1_1PluginCloseOnSelectedObjectRemove.html":[10,0,10,432],
-"classMR_1_1PluginCloseOnSelectedObjectRemove.html":[12,0,1,417],
-"classMR_1_1PluginCloseOnSelectedObjectRemove.html#a174d0cc22e4a0b69220109e026efaf7f":[10,0,10,432,2],
 "classMR_1_1PluginCloseOnSelectedObjectRemove.html#a174d0cc22e4a0b69220109e026efaf7f":[12,0,1,417,2],
 "classMR_1_1PluginCloseOnSelectedObjectRemove.html#a3692cfee7d26f636f2487f01cfa6afc8":[10,0,10,432,0],
 "classMR_1_1PluginCloseOnSelectedObjectRemove.html#a3692cfee7d26f636f2487f01cfa6afc8":[12,0,1,417,0],
@@ -249,5 +243,11 @@ var NAVTREEINDEX30 =
 "classMR_1_1RadiusMeasurementObject.html#a7fa9152022fe7361ce348d4d4ad6d36d":[12,0,1,468,23],
 "classMR_1_1RadiusMeasurementObject.html#a84caf97ac4a1c45b0a0af928b6693bfe":[10,0,10,483,14],
 "classMR_1_1RadiusMeasurementObject.html#a84caf97ac4a1c45b0a0af928b6693bfe":[12,0,1,468,14],
-"classMR_1_1RadiusMeasurementObject.html#a880866dc5c43f3b4c8fb4b7ce6d6472b":[10,0,10,483,10]
+"classMR_1_1RadiusMeasurementObject.html#a880866dc5c43f3b4c8fb4b7ce6d6472b":[10,0,10,483,10],
+"classMR_1_1RadiusMeasurementObject.html#a880866dc5c43f3b4c8fb4b7ce6d6472b":[12,0,1,468,10],
+"classMR_1_1RadiusMeasurementObject.html#a881370b0a38e287dc6a8ef290f2747e6":[10,0,10,483,18],
+"classMR_1_1RadiusMeasurementObject.html#a881370b0a38e287dc6a8ef290f2747e6":[12,0,1,468,18],
+"classMR_1_1RadiusMeasurementObject.html#a896f78dba51a77e27ca06d9a9b9f85a7":[10,0,10,483,9],
+"classMR_1_1RadiusMeasurementObject.html#a896f78dba51a77e27ca06d9a9b9f85a7":[12,0,1,468,9],
+"classMR_1_1RadiusMeasurementObject.html#a9a79b85955d16c7ca3c23a0ba8ec605c":[10,0,10,483,8]
 };
