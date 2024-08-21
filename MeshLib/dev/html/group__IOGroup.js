@@ -50,6 +50,7 @@ var group__IOGroup =
     [ "MR::VoxelsSave::toGav", "group__IOGroup.html#ga142558369ff6e907103d03a2c4c2fe87", null ],
     [ "MR::VoxelsSave::toRawAutoname", "group__IOGroup.html#gaebd499eddbcab3fb97e7945920505d68", null ],
     [ "MR::VoxelsSave::toRawFloat", "group__IOGroup.html#ga1386dbaa36c7a32b2e4daf7947997724", null ],
+    [ "MR::VoxelsSave::toVdb", "group__IOGroup.html#ga530bddb3978561bd65f0c88b535b120c", null ],
     [ "MR::PointsLoad::Filters", "group__IOGroup.html#ga78bba5f59da26b22b8f18e15440cfccd", null ],
     [ "MR::VoxelsSave::Filters", "group__IOGroup.html#gacac28aabd07c32301c3074201c91ec04", null ]
 ];

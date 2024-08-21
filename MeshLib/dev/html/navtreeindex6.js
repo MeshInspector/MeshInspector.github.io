@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"MRMesh_2MRAffineXf_8h_source.html":[13,0,0,2,3,13],
+"MRMesh_2MRBitSet_8h.html":[13,0,0,2,3,29],
 "MRMesh_2MRBitSet_8h.html#ab38c1f4b0a6095561c5efffdb9486c15":[13,0,0,2,3,29,0],
 "MRMesh_2MRBitSet_8h_source.html":[13,0,0,2,3,29],
 "MRMesh_2MRBooleanOperation_8h.html":[13,0,0,2,3,32],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "MRMesh_2MRMeshFwd_8h.html#aa6b69dae877e87fb06dceeef6a48b3cf":[13,0,0,2,3,201,25],
 "MRMesh_2MRMeshFwd_8h.html#aa84eab214a7e1bb7ed26789df686a03c":[13,0,0,2,3,201,104],
 "MRMesh_2MRMeshFwd_8h.html#aa8a9dc11549874ebab9be6b1c4d9fdd4":[13,0,0,2,3,201,172],
-"MRMesh_2MRMeshFwd_8h.html#aa92378bf233fad3fbb22ac30f72ea71e":[13,0,0,2,3,201,279],
-"MRMesh_2MRMeshFwd_8h.html#aaa1b9cb8e04334b38aa70434301df035":[13,0,0,2,3,201,68],
-"MRMesh_2MRMeshFwd_8h.html#aaa2c9e5a899e212852b81dbb084d081c":[13,0,0,2,3,201,2]
+"MRMesh_2MRMeshFwd_8h.html#aa92378bf233fad3fbb22ac30f72ea71e":[13,0,0,2,3,201,279]
 };

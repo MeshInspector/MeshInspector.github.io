@@ -245,7 +245,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a19a1ede2bbe7c71b85f57b9df7756802" id="r_a19a1ede2bbe7c71b85f57b9df7756802"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a719df63fa5f4144ebfb8bc469e373878">VoxelBitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19a1ede2bbe7c71b85f57b9df7756802">getVolumeRenderActiveVoxels</a> () const</td></tr>
 <tr class="memdesc:a19a1ede2bbe7c71b85f57b9df7756802"><td class="mdescLeft">&#160;</td><td class="mdescRight">get active (visible) voxels  <br /></td></tr>
 <tr class="separator:a19a1ede2bbe7c71b85f57b9df7756802"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0506ee2646b9a084c9b6d56e0f93c8e" id="r_ad0506ee2646b9a084c9b6d56e0f93c8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0506ee2646b9a084c9b6d56e0f93c8e">setVolumeRenderActiveVoxels</a> (const <a class="el" href="namespaceMR.html#a719df63fa5f4144ebfb8bc469e373878">VoxelBitSet</a> &amp;activeVoxels)</td></tr>
+<tr class="memitem:ad0506ee2646b9a084c9b6d56e0f93c8e" id="r_ad0506ee2646b9a084c9b6d56e0f93c8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0506ee2646b9a084c9b6d56e0f93c8e">setVolumeRenderActiveVoxels</a> (const <a class="el" href="namespaceMR.html#a719df63fa5f4144ebfb8bc469e373878">VoxelBitSet</a> &amp;<a class="el" href="#a54b902736cb35b971f511c7b5e76b6f1">activeVoxels</a>)</td></tr>
 <tr class="memdesc:ad0506ee2646b9a084c9b6d56e0f93c8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">set active (visible) voxels (using only in Volume Rendering mode)  <br /></td></tr>
 <tr class="separator:ad0506ee2646b9a084c9b6d56e0f93c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac13b231e31f37fbd53d30d8a9aeb4e33" id="r_ac13b231e31f37fbd53d30d8a9aeb4e33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a87fb5cfcd5370cd4fc1380c189b42828">VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac13b231e31f37fbd53d30d8a9aeb4e33">getVoxelIdByCoordinate</a> (const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;coord) const</td></tr>
@@ -284,11 +284,20 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a225f04e78475f3534bd49929d9200da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26333ef8976d7ed8b8c57137bacce2f5" id="r_a26333ef8976d7ed8b8c57137bacce2f5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26333ef8976d7ed8b8c57137bacce2f5">setDirtyFlags</a> (uint32_t mask, bool invalidateCaches=true) override</td></tr>
 <tr class="separator:a26333ef8976d7ed8b8c57137bacce2f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54b902736cb35b971f511c7b5e76b6f1" id="r_a54b902736cb35b971f511c7b5e76b6f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54b902736cb35b971f511c7b5e76b6f1">activeVoxels</a> () const</td></tr>
+<tr class="memdesc:a54b902736cb35b971f511c7b5e76b6f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached information about the number of active voxels  <br /></td></tr>
+<tr class="separator:a54b902736cb35b971f511c7b5e76b6f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8414868d177c677e751eae0934bb6d9" id="r_ab8414868d177c677e751eae0934bb6d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8414868d177c677e751eae0934bb6d9">ObjectVoxels</a> (<a class="el" href="structMR_1_1Object_1_1ProtectedStruct.html">ProtectedStruct</a>, const <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &amp;obj)</td></tr>
 <tr class="separator:ab8414868d177c677e751eae0934bb6d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a345d4438fb7808f95b3ca2dc9a1ad33b" id="r_a345d4438fb7808f95b3ca2dc9a1ad33b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a345d4438fb7808f95b3ca2dc9a1ad33b">heapBytes</a> () const override</td></tr>
 <tr class="memdesc:a345d4438fb7808f95b3ca2dc9a1ad33b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:a345d4438fb7808f95b3ca2dc9a1ad33b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c26c30edd465ed8fa5cce096943dd41" id="r_a1c26c30edd465ed8fa5cce096943dd41"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c26c30edd465ed8fa5cce096943dd41">serializeFormat</a> () const</td></tr>
+<tr class="memdesc:a1c26c30edd465ed8fa5cce096943dd41"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns file extension used to serialize the voxels  <br /></td></tr>
+<tr class="separator:a1c26c30edd465ed8fa5cce096943dd41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44ae6d35a701952765b21f3a46f71a92" id="r_a44ae6d35a701952765b21f3a46f71a92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44ae6d35a701952765b21f3a46f71a92">setSerializeFormat</a> (const char *newFormat)</td></tr>
+<tr class="memdesc:a44ae6d35a701952765b21f3a46f71a92"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets file extension used to serialize the voxels: must be not null and must start from '.'  <br /></td></tr>
+<tr class="separator:a44ae6d35a701952765b21f3a46f71a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1ObjectMeshHolder"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1ObjectMeshHolder')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMR_1_1ObjectMeshHolder.html">MR::ObjectMeshHolder</a></td></tr>
 <tr class="memitem:afdeea9bea6ac29b86dd0104749f644fc inherit pub_methods_classMR_1_1ObjectMeshHolder" id="r_afdeea9bea6ac29b86dd0104749f644fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#afdeea9bea6ac29b86dd0104749f644fc">ObjectMeshHolder</a> ()</td></tr>
 <tr class="separator:afdeea9bea6ac29b86dd0104749f644fc inherit pub_methods_classMR_1_1ObjectMeshHolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1170,6 +1179,33 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a54b902736cb35b971f511c7b5e76b6f1" name="a54b902736cb35b971f511c7b5e76b6f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54b902736cb35b971f511c7b5e76b6f1">&#9670;&#160;</a></span>activeVoxels()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t MR::ObjectVoxels::activeVoxels </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns cached information about the number of active voxels </p>
+
+</div>
+</div>
 <a id="a10005db4776c578cf1177bd35bd8abce" name="a10005db4776c578cf1177bd35bd8abce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a10005db4776c578cf1177bd35bd8abce">&#9670;&#160;</a></span>applyScale()</h2>
 
@@ -2087,6 +2123,33 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a1c26c30edd465ed8fa5cce096943dd41" name="a1c26c30edd465ed8fa5cce096943dd41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c26c30edd465ed8fa5cce096943dd41">&#9670;&#160;</a></span>serializeFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * MR::ObjectVoxels::serializeFormat </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns file extension used to serialize the voxels </p>
+
+</div>
+</div>
 <a id="a5273b8c63d7cf6c939961afe36d15e42" name="a5273b8c63d7cf6c939961afe36d15e42"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5273b8c63d7cf6c939961afe36d15e42">&#9670;&#160;</a></span>serializeModel_()</h2>
 
@@ -2280,6 +2343,25 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>sets top limit on the number of vertices in the iso-surface </p>
+
+</div>
+</div>
+<a id="a44ae6d35a701952765b21f3a46f71a92" name="a44ae6d35a701952765b21f3a46f71a92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44ae6d35a701952765b21f3a46f71a92">&#9670;&#160;</a></span>setSerializeFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectVoxels::setSerializeFormat </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>newFormat</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>sets file extension used to serialize the voxels: must be not null and must start from '.' </p>
 
 </div>
 </div>
