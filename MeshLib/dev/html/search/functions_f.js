@@ -118,7 +118,7 @@ var searchData=
   ['primitivefromobject_115',['primitiveFromObject',['../namespaceMR_1_1Features.html#aeeb9d21a824a2dd94d682b54ab1862d2',1,'MR::Features']]],
   ['primitivetoobject_116',['primitiveToObject',['../namespaceMR_1_1Features.html#a49fd9207c07aaf09dab5aa90ea742cbb',1,'MR::Features']]],
   ['printcurrenttimerbranch_117',['printCurrentTimerBranch',['../group__BasicGroup.html#ga92715abafbf0ac9f1aef87f2cff3088a',1,'MR']]],
-  ['printstacktraceoncrash_118',['printStacktraceOnCrash',['../group__BasicGroup.html#ga49107746ea2415c9c89d28a9e0f56112',1,'MR']]],
+  ['printstacktraceoncrash_118',['printStacktraceOnCrash',['../namespaceMR.html#a49107746ea2415c9c89d28a9e0f56112',1,'MR']]],
   ['printtimingtreeandstop_119',['printTimingTreeAndStop',['../group__BasicGroup.html#gab32915ca171bafe6752bb0a93f15a19f',1,'MR']]],
   ['printtimingtreeatend_120',['printTimingTreeAtEnd',['../group__BasicGroup.html#ga52ef6e1208fe1f50e79f683d8f04fd15',1,'MR']]],
   ['printtree_121',['printTree',['../structMR_1_1ThreadRootTimeRecord.html#ab1a1265af16cac54bd16adf7e8c44c27',1,'MR::ThreadRootTimeRecord']]],

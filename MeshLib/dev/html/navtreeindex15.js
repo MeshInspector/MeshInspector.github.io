@@ -1,5 +1,16 @@
 var NAVTREEINDEX15 =
 {
+"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#aa9768034e77b25ffed92bf08fbe11321":[12,0,1,71,1],
+"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#ab5b55d341a1d4daeb4b334eff9b98614":[10,0,10,86,2],
+"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#ab5b55d341a1d4daeb4b334eff9b98614":[12,0,1,71,2],
+"classMR_1_1CaptureUIScreenshotMenuItem.html":[10,0,10,87],
+"classMR_1_1CaptureUIScreenshotMenuItem.html":[12,0,1,72],
+"classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[10,0,10,87,0],
+"classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[12,0,1,72,0],
+"classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[10,0,10,87,1],
+"classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[12,0,1,72,1],
+"classMR_1_1ChangVoxelSelectionAction.html":[9,4,34],
+"classMR_1_1ChangeActiveBoxAction.html":[9,4,31],
 "classMR_1_1ChangeActiveBoxAction.html#a25b3ab2e8226cb91171a0128777eea34":[9,4,31,4],
 "classMR_1_1ChangeActiveBoxAction.html#a2caa2474b0606297a2f58c69be0994e4":[9,4,31,1],
 "classMR_1_1ChangeActiveBoxAction.html#a7fdeabeadb9c2e89e83a34c52576dba3":[9,4,31,3],
@@ -238,16 +249,5 @@ var NAVTREEINDEX15 =
 "classMR_1_1ChangeVertsColorMapAction.html#a85820c2fb1b34f635d51b6ca5b5b626a":[9,4,28,1],
 "classMR_1_1ChangeVertsColorMapAction.html#abc9ca0e165f8954481449a98d979894a":[9,4,28,2],
 "classMR_1_1ChangeVertsColorMapAction.html#acbea3a354ac04c83aac4d24b63c108a7":[9,4,28,0],
-"classMR_1_1ChangeVertsColorMapAction.html#afab050a8026282cb3ade8eff783f95e4":[9,4,28,5],
-"classMR_1_1ChangeVisualizePropertyAction.html":[9,4,12],
-"classMR_1_1ChangeVisualizePropertyAction.html#a577d817010b8c025c743ede618924232":[9,4,12,1],
-"classMR_1_1ChangeVisualizePropertyAction.html#a6aed09dd3eb8747f16d7d1b3f4c016ec":[9,4,12,2],
-"classMR_1_1ChangeVisualizePropertyAction.html#a82fbcde1a6b6a67ddd9f760b0c43cf87":[9,4,12,3],
-"classMR_1_1ChangeVisualizePropertyAction.html#ab47bdfa15ccc0341044bdf265413933d":[9,4,12,4],
-"classMR_1_1ChangeVisualizePropertyAction.html#addf5e30e5eb678a766bb9b02bbfd996b":[9,4,12,0],
-"classMR_1_1ChangeXfAction.html":[9,4,35],
-"classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc":[9,4,35,3],
-"classMR_1_1ChangeXfAction.html#a92b9d01bccf043de100f19110630ce24":[9,4,35,2],
-"classMR_1_1ChangeXfAction.html#adc90b8207a85c52060b965692645d95b":[9,4,35,0],
-"classMR_1_1ChangeXfAction.html#ae0205231d9c1c0389daaa03a05b302e2":[9,4,35,1]
+"classMR_1_1ChangeVertsColorMapAction.html#afab050a8026282cb3ade8eff783f95e4":[9,4,28,5]
 };

@@ -19,5 +19,6 @@ var MRSystem_8h =
     [ "OpenLink", "MRSystem_8h.html#aec820d50ac448217d66131a079fce39a", null ],
     [ "SetClipboardText", "MRSystem_8h.html#aaf6ec05257917c4854846583fa32948f", null ],
     [ "SetCurrentThreadName", "MRSystem_8h.html#abc117ae5bf8ce3683d73b2fc8e37cde1", null ],
-    [ "setNewHandlerIfNeeded", "MRSystem_8h.html#a76050fa0c0831ae2d21d1a20914f530d", null ]
+    [ "setNewHandlerIfNeeded", "MRSystem_8h.html#a76050fa0c0831ae2d21d1a20914f530d", null ],
+    [ "setupLoggerByDefault", "MRSystem_8h.html#a6804a7415d5f018fa64bf1b533af3d4f", null ]
 ];

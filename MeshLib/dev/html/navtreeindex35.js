@@ -1,5 +1,16 @@
 var NAVTREEINDEX35 =
 {
+"classMR_1_1RibbonSceneSortByName.html#a135199f4b1d08f9f4f4200eec9a3f404":[12,0,1,519,0],
+"classMR_1_1RibbonSceneSortByName.html#a78f3688dca9bddc169d79976c6ccfdad":[10,0,10,534,2],
+"classMR_1_1RibbonSceneSortByName.html#a78f3688dca9bddc169d79976c6ccfdad":[12,0,1,519,2],
+"classMR_1_1RibbonSceneSortByName.html#abe980ef002e4cc4677b3b8687eb1574f":[10,0,10,534,1],
+"classMR_1_1RibbonSceneSortByName.html#abe980ef002e4cc4677b3b8687eb1574f":[12,0,1,519,1],
+"classMR_1_1RibbonSceneUnselectAll.html":[10,0,10,535],
+"classMR_1_1RibbonSceneUnselectAll.html":[12,0,1,520],
+"classMR_1_1RibbonSceneUnselectAll.html#a34783bca86b925fe2f63e327c4c25dc4":[10,0,10,535,0],
+"classMR_1_1RibbonSceneUnselectAll.html#a34783bca86b925fe2f63e327c4c25dc4":[12,0,1,520,0],
+"classMR_1_1RibbonSceneUnselectAll.html#a7e09528a991f78af5a78c035395302ce":[10,0,10,535,1],
+"classMR_1_1RibbonSceneUnselectAll.html#a7e09528a991f78af5a78c035395302ce":[12,0,1,520,1],
 "classMR_1_1RibbonSchemaHolder.html":[10,0,10,537],
 "classMR_1_1RibbonSchemaHolder.html":[12,0,1,522],
 "classMR_1_1RibbonSchemaLoader.html":[10,0,10,538],
@@ -238,16 +249,5 @@ var NAVTREEINDEX35 =
 "classMR_1_1SceneTextureGL.html#afada1d5c821061119918954bebf336b7":[12,0,1,551,3],
 "classMR_1_1ScopeHistory.html":[10,0,10,567],
 "classMR_1_1ScopeHistory.html":[12,0,1,552],
-"classMR_1_1ScopeHistory.html#a155a57e24f0f265fa6b27e456b83cec5":[10,0,10,567,0],
-"classMR_1_1ScopeHistory.html#a155a57e24f0f265fa6b27e456b83cec5":[12,0,1,552,0],
-"classMR_1_1ScopeHistory.html#a5a69bc34372ef0223eb4b90fab0082d8":[10,0,10,567,1],
-"classMR_1_1ScopeHistory.html#a5a69bc34372ef0223eb4b90fab0082d8":[12,0,1,552,1],
-"classMR_1_1SelectObjectByClick.html":[10,0,10,572],
-"classMR_1_1SelectObjectByClick.html":[12,0,1,557],
-"classMR_1_1SelectObjectByClick.html#a2a30b5e16efad50fc9ee0f3a38a87296":[10,0,10,572,2],
-"classMR_1_1SelectObjectByClick.html#a2a30b5e16efad50fc9ee0f3a38a87296":[12,0,1,557,2],
-"classMR_1_1SelectObjectByClick.html#a4e224981a48ecad3ccd0f3644cfeecd5":[10,0,10,572,1],
-"classMR_1_1SelectObjectByClick.html#a4e224981a48ecad3ccd0f3644cfeecd5":[12,0,1,557,1],
-"classMR_1_1SelectObjectByClick.html#af233d2ee48f41e6835cdf6896f6c9676":[10,0,10,572,0],
-"classMR_1_1SelectObjectByClick.html#af233d2ee48f41e6835cdf6896f6c9676":[12,0,1,557,0]
+"classMR_1_1ScopeHistory.html#a155a57e24f0f265fa6b27e456b83cec5":[10,0,10,567,0]
 };

@@ -137,16 +137,8 @@ $(function(){initNavTree('MRLog_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>};</div>
 </div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="group__BasicGroup.html#ga6804a7415d5f018fa64bf1b533af3d4f">   42</a></span><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="group__BasicGroup.html#ga6804a7415d5f018fa64bf1b533af3d4f">setupLoggerByDefault</a>();</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="group__BasicGroup.html#ga52d34a9bbe60f99085e9aab32040499f">   46</a></span><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="group__BasicGroup.html#ga52d34a9bbe60f99085e9aab32040499f">redirectSTDStreamsToLogger</a>();</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#ifndef __EMSCRIPTEN__</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="group__BasicGroup.html#ga49107746ea2415c9c89d28a9e0f56112">   50</a></span><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="group__BasicGroup.html#ga49107746ea2415c9c89d28a9e0f56112">printStacktraceOnCrash</a>();</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>}</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>}</div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:44</div></div>
 <div class="ttc" id="aclassMR_1_1Logger_html"><div class="ttname"><a href="classMR_1_1Logger.html">MR::Logger</a></div><div class="ttdoc">Make default spd logger.</div><div class="ttdef"><b>Definition</b> MRLog.h:15</div></div>
@@ -156,9 +148,6 @@ $(function(){initNavTree('MRLog_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="aclassMR_1_1Logger_html_aac7549309d09f2c9a41818a18c1b0e50"><div class="ttname"><a href="classMR_1_1Logger.html#aac7549309d09f2c9a41818a18c1b0e50">MR::Logger::instance</a></div><div class="ttdeci">static MRMESH_API Logger &amp; instance()</div></div>
 <div class="ttc" id="aclassMR_1_1Logger_html_ac5d54247fea49f7312322217b9c8620b"><div class="ttname"><a href="classMR_1_1Logger.html#ac5d54247fea49f7312322217b9c8620b">MR::Logger::getSpdLogger</a></div><div class="ttdeci">MRMESH_API const std::shared_ptr&lt; spdlog::logger &gt; &amp; getSpdLogger() const</div><div class="ttdoc">store this pointer if need to prolong logger life time (necessary to log something from destructors)</div></div>
 <div class="ttc" id="aclassMR_1_1Logger_html_aedaebeb791f1300a121668a8a525ecb1"><div class="ttname"><a href="classMR_1_1Logger.html#aedaebeb791f1300a121668a8a525ecb1">MR::Logger::getDefaultPattern</a></div><div class="ttdeci">MRMESH_API std::string getDefaultPattern() const</div><div class="ttdoc">returns default logger pattern</div></div>
-<div class="ttc" id="agroup__BasicGroup_html_ga49107746ea2415c9c89d28a9e0f56112"><div class="ttname"><a href="group__BasicGroup.html#ga49107746ea2415c9c89d28a9e0f56112">MR::printStacktraceOnCrash</a></div><div class="ttdeci">MRMESH_API void printStacktraceOnCrash()</div><div class="ttdoc">Print stacktrace on application crash.</div></div>
-<div class="ttc" id="agroup__BasicGroup_html_ga52d34a9bbe60f99085e9aab32040499f"><div class="ttname"><a href="group__BasicGroup.html#ga52d34a9bbe60f99085e9aab32040499f">MR::redirectSTDStreamsToLogger</a></div><div class="ttdeci">MRMESH_API void redirectSTDStreamsToLogger()</div></div>
-<div class="ttc" id="agroup__BasicGroup_html_ga6804a7415d5f018fa64bf1b533af3d4f"><div class="ttname"><a href="group__BasicGroup.html#ga6804a7415d5f018fa64bf1b533af3d4f">MR::setupLoggerByDefault</a></div><div class="ttdeci">MRMESH_API void setupLoggerByDefault()</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

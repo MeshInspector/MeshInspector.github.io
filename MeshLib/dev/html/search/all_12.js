@@ -341,7 +341,7 @@ var searchData=
   ['primitivescolormap_338',['PrimitivesColorMap',['../group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca',1,'MR']]],
   ['primitivetoobject_339',['primitiveToObject',['../namespaceMR_1_1Features.html#a49fd9207c07aaf09dab5aa90ea742cbb',1,'MR::Features']]],
   ['printcurrenttimerbranch_340',['printCurrentTimerBranch',['../group__BasicGroup.html#ga92715abafbf0ac9f1aef87f2cff3088a',1,'MR']]],
-  ['printstacktraceoncrash_341',['printStacktraceOnCrash',['../group__BasicGroup.html#ga49107746ea2415c9c89d28a9e0f56112',1,'MR']]],
+  ['printstacktraceoncrash_341',['printStacktraceOnCrash',['../namespaceMR.html#a49107746ea2415c9c89d28a9e0f56112',1,'MR']]],
   ['printtimingtreeandstop_342',['printTimingTreeAndStop',['../group__BasicGroup.html#gab32915ca171bafe6752bb0a93f15a19f',1,'MR']]],
   ['printtimingtreeatend_343',['printTimingTreeAtEnd',['../group__BasicGroup.html#ga52ef6e1208fe1f50e79f683d8f04fd15',1,'MR']]],
   ['printtree_344',['printTree',['../structMR_1_1ThreadRootTimeRecord.html#ab1a1265af16cac54bd16adf7e8c44c27',1,'MR::ThreadRootTimeRecord']]],

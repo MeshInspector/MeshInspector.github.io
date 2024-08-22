@@ -143,10 +143,6 @@ var group__AABBTreeGroup =
       [ "edgesAtrisB", "structMR_1_1PreciseCollisionResult.html#ad604bf35dc957a8d01733d58d9704ba2", null ],
       [ "edgesBtrisA", "structMR_1_1PreciseCollisionResult.html#a9b010a738a4b9a8757b61838ce33e92f", null ]
     ] ],
-    [ "MR::CoordinateConverters", "structMR_1_1CoordinateConverters.html", [
-      [ "toFloat", "structMR_1_1CoordinateConverters.html#a9c7a896a6e208bd631d8a24dc4dbe5e9", null ],
-      [ "toInt", "structMR_1_1CoordinateConverters.html#af1cc39b13f2960b4d6386e81c3e57c74", null ]
-    ] ],
     [ "MR::MeshDistanceResult", "structMR_1_1MeshDistanceResult.html", [
       [ "a", "structMR_1_1MeshDistanceResult.html#a9e2c27f75cc9e5a7b2bdca70bef1e7db", null ],
       [ "b", "structMR_1_1MeshDistanceResult.html#a70f797f8444d6eb6f1c80155729379ef", null ],
@@ -216,8 +212,6 @@ var group__AABBTreeGroup =
       [ "update", "classMR_1_1UniqueThreadSafeOwner.html#a116e9e31af9a5c5fb15cf8d9278226b1", null ]
     ] ],
     [ "MR::AABBTreeNodeVec", "group__AABBTreeGroup.html#ga01c75e3c26967a90edbe075a77cb2ca9", null ],
-    [ "MR::ConvertToFloatVector", "group__AABBTreeGroup.html#ga55867f88ac3e3a329e67a208b4634d96", null ],
-    [ "MR::ConvertToIntVector", "group__AABBTreeGroup.html#gadc2c4d7aad96048cfc344b839a4e6e16", null ],
     [ "MR::FaceTreeTraits3", "group__AABBTreeGroup.html#ga2d9f9e10f5365b971c9f7300264be632", null ],
     [ "MR::FoundEdgeCallback", "group__AABBTreeGroup.html#gac2b944209dd41b786a30b1d537639470", null ],
     [ "MR::FoundEdgeCallback2", "group__AABBTreeGroup.html#ga5e0d9af4be57927671a26f2c4588a515", null ],
@@ -277,8 +271,6 @@ var group__AABBTreeGroup =
     [ "MR::findTrisInBall", "group__AABBTreeGroup.html#ga70230ded2f43f2eb597df4e2848a8b5e", null ],
     [ "MR::findTwoClosestPoints", "group__AABBTreeGroup.html#ga994aaba24d39e18802b546f4fdab10cc", null ],
     [ "MR::getNumNodes", "group__AABBTreeGroup.html#ga3c1bb6417aaa769fa4156f2edac91749", null ],
-    [ "MR::getToFloatConverter", "group__AABBTreeGroup.html#ga2096ace9292b40c55421517434fd8bd8", null ],
-    [ "MR::getToIntConverter", "group__AABBTreeGroup.html#ga9736a434a7f001c05b9a7d23675ca257", null ],
     [ "MR::getVectorConverters", "group__AABBTreeGroup.html#ga125d7b99c7b4840e87a3470ef0c64b17", null ],
     [ "MR::IntersectionPrecomputes::IntersectionPrecomputes", "group__AABBTreeGroup.html#ga9984ed4cff38cd012243e835f02e0e92", null ],
     [ "MR::IntersectionPrecomputes::IntersectionPrecomputes", "group__AABBTreeGroup.html#gac2a5a2178c875139ca3e402c1a46324c", null ],

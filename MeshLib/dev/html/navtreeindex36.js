@@ -1,5 +1,16 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1ScopeHistory.html#a155a57e24f0f265fa6b27e456b83cec5":[12,0,1,552,0],
+"classMR_1_1ScopeHistory.html#a5a69bc34372ef0223eb4b90fab0082d8":[10,0,10,567,1],
+"classMR_1_1ScopeHistory.html#a5a69bc34372ef0223eb4b90fab0082d8":[12,0,1,552,1],
+"classMR_1_1SelectObjectByClick.html":[10,0,10,572],
+"classMR_1_1SelectObjectByClick.html":[12,0,1,557],
+"classMR_1_1SelectObjectByClick.html#a2a30b5e16efad50fc9ee0f3a38a87296":[10,0,10,572,2],
+"classMR_1_1SelectObjectByClick.html#a2a30b5e16efad50fc9ee0f3a38a87296":[12,0,1,557,2],
+"classMR_1_1SelectObjectByClick.html#a4e224981a48ecad3ccd0f3644cfeecd5":[10,0,10,572,1],
+"classMR_1_1SelectObjectByClick.html#a4e224981a48ecad3ccd0f3644cfeecd5":[12,0,1,557,1],
+"classMR_1_1SelectObjectByClick.html#af233d2ee48f41e6835cdf6896f6c9676":[10,0,10,572,0],
+"classMR_1_1SelectObjectByClick.html#af233d2ee48f41e6835cdf6896f6c9676":[12,0,1,557,0],
 "classMR_1_1SelectScreenLasso.html":[10,0,10,573],
 "classMR_1_1SelectScreenLasso.html":[12,0,1,558],
 "classMR_1_1SelectScreenLasso.html#a3e996887c3c58ced16e40c4641a90cd0":[10,0,10,573,1],
@@ -238,16 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1SplashWindow.html#a79107d23834b7d624c70558d9acfcd38":[10,0,10,603,6],
 "classMR_1_1SplashWindow.html#a79107d23834b7d624c70558d9acfcd38":[12,0,1,588,6],
 "classMR_1_1SplashWindow.html#a8e1b0c94c0dec969c8476897de435fdb":[10,0,10,603,5],
-"classMR_1_1SplashWindow.html#a8e1b0c94c0dec969c8476897de435fdb":[12,0,1,588,5],
-"classMR_1_1SplashWindow.html#aa8219c57ea7f0cab0fb236ab58fbcb5f":[10,0,10,603,1],
-"classMR_1_1SplashWindow.html#aa8219c57ea7f0cab0fb236ab58fbcb5f":[12,0,1,588,1],
-"classMR_1_1SplashWindow.html#af0ce424272b846ce5f6cf1f9116f1742":[10,0,10,603,3],
-"classMR_1_1SplashWindow.html#af0ce424272b846ce5f6cf1f9116f1742":[12,0,1,588,3],
-"classMR_1_1StateBasePlugin.html":[10,0,10,604],
-"classMR_1_1StateBasePlugin.html":[12,0,1,589],
-"classMR_1_1StateBasePlugin.html#a12b5e139ab1d9458373e61c275e80457":[10,0,10,604,7],
-"classMR_1_1StateBasePlugin.html#a12b5e139ab1d9458373e61c275e80457":[12,0,1,589,7],
-"classMR_1_1StateBasePlugin.html#a1d97f71a0f325fbe29b0bbec3e564204":[10,0,10,604,20],
-"classMR_1_1StateBasePlugin.html#a1d97f71a0f325fbe29b0bbec3e564204":[12,0,1,589,20],
-"classMR_1_1StateBasePlugin.html#a2172655c98b73059ee0bfc8cb3115097":[10,0,10,604,11]
+"classMR_1_1SplashWindow.html#a8e1b0c94c0dec969c8476897de435fdb":[12,0,1,588,5]
 };

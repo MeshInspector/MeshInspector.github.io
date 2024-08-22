@@ -1,5 +1,16 @@
 var NAVTREEINDEX14 =
 {
+"classMR_1_1AngleMeasurementObject.html#a4b8623dc5463ca2d74dddd4de01243ad":[10,0,10,57,17],
+"classMR_1_1AngleMeasurementObject.html#a4b8623dc5463ca2d74dddd4de01243ad":[12,0,1,42,17],
+"classMR_1_1AngleMeasurementObject.html#a4d56413060eb395d78b7a981758a05b7":[10,0,10,57,18],
+"classMR_1_1AngleMeasurementObject.html#a4d56413060eb395d78b7a981758a05b7":[12,0,1,42,18],
+"classMR_1_1AngleMeasurementObject.html#a520df3268a54a7efc5da675d973f8c53":[10,0,10,57,3],
+"classMR_1_1AngleMeasurementObject.html#a520df3268a54a7efc5da675d973f8c53":[12,0,1,42,3],
+"classMR_1_1AngleMeasurementObject.html#a59480f0434749a0e8e6735f4192a3b2e":[10,0,10,57,6],
+"classMR_1_1AngleMeasurementObject.html#a59480f0434749a0e8e6735f4192a3b2e":[12,0,1,42,6],
+"classMR_1_1AngleMeasurementObject.html#a6808b2301ac9e95c443c6084ccf493b7":[10,0,10,57,9],
+"classMR_1_1AngleMeasurementObject.html#a6808b2301ac9e95c443c6084ccf493b7":[12,0,1,42,9],
+"classMR_1_1AngleMeasurementObject.html#a753a768f4cae3df84fb4587bc0600b30":[10,0,10,57,20],
 "classMR_1_1AngleMeasurementObject.html#a753a768f4cae3df84fb4587bc0600b30":[12,0,1,42,20],
 "classMR_1_1AngleMeasurementObject.html#a77cf2bb7f527cdce197688a0eff4f24b":[10,0,10,57,14],
 "classMR_1_1AngleMeasurementObject.html#a77cf2bb7f527cdce197688a0eff4f24b":[12,0,1,42,14],
@@ -238,16 +249,5 @@ var NAVTREEINDEX14 =
 "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html":[12,0,1,71],
 "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#a5bf6d6d25422d614449691f27a8415d0":[10,0,10,86,0],
 "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#a5bf6d6d25422d614449691f27a8415d0":[12,0,1,71,0],
-"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#aa9768034e77b25ffed92bf08fbe11321":[10,0,10,86,1],
-"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#aa9768034e77b25ffed92bf08fbe11321":[12,0,1,71,1],
-"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#ab5b55d341a1d4daeb4b334eff9b98614":[10,0,10,86,2],
-"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#ab5b55d341a1d4daeb4b334eff9b98614":[12,0,1,71,2],
-"classMR_1_1CaptureUIScreenshotMenuItem.html":[10,0,10,87],
-"classMR_1_1CaptureUIScreenshotMenuItem.html":[12,0,1,72],
-"classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[10,0,10,87,0],
-"classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[12,0,1,72,0],
-"classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[10,0,10,87,1],
-"classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[12,0,1,72,1],
-"classMR_1_1ChangVoxelSelectionAction.html":[9,4,34],
-"classMR_1_1ChangeActiveBoxAction.html":[9,4,31]
+"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#aa9768034e77b25ffed92bf08fbe11321":[10,0,10,86,1]
 };

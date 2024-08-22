@@ -1,5 +1,17 @@
 var NAVTREEINDEX56 =
 {
+"structMRBooleanResult.html#a096f8590e0be80474811d8100e7cb9a7":[12,0,22,0],
+"structMRBooleanResult.html#af66d647101fbc678dd856c52b5b77418":[12,0,22,1],
+"structMRBox3f.html":[12,0,23],
+"structMRBox3f.html#a2a39366e93eb8d6552da01c061b9c909":[12,0,23,0],
+"structMRBox3f.html#acfef258beb9f0c40476c1f93410fcc5f":[12,0,23,1],
+"structMRDecimateResult.html":[12,0,24],
+"structMRDecimateResult.html#a3b75dcba6fdc6c60935add7ed5ffad09":[12,0,24,3],
+"structMRDecimateResult.html#a3c065962d7b37882d764de946b664201":[12,0,24,1],
+"structMRDecimateResult.html#a55c9f57cd3723046a5c7113b5fb0da2b":[12,0,24,2],
+"structMRDecimateResult.html#aba3cacd7b3b56eb6f30232625328d026":[12,0,24,0],
+"structMRDecimateSettings.html":[12,0,25],
+"structMRDecimateSettings.html#a0ba243d3dc1eb29fedfedf12821f808b":[12,0,25,8],
 "structMRDecimateSettings.html#a1059a2ea3dd3750396c012134de9ad56":[12,0,25,0],
 "structMRDecimateSettings.html#a1d0329e1a12b385130c9098ca1cde327":[12,0,25,6],
 "structMRDecimateSettings.html#a2c349e24d60412eb6b16ab1d98e8074e":[12,0,25,7],
@@ -237,17 +249,5 @@ var NAVTREEINDEX56 =
 "structMR_1_1AncillaryMesh.html#a8a528306a33323e01e042183dae875de":[12,0,1,40,2],
 "structMR_1_1AncillaryMesh.html#a8e86848c6392c4026a75838c5fd12d44":[10,0,10,55,1],
 "structMR_1_1AncillaryMesh.html#a8e86848c6392c4026a75838c5fd12d44":[12,0,1,40,1],
-"structMR_1_1AncillaryMesh.html#abaf618a5c330ee1013fdd1c572982be0":[10,0,10,55,6],
-"structMR_1_1AncillaryMesh.html#abaf618a5c330ee1013fdd1c572982be0":[12,0,1,40,6],
-"structMR_1_1AncillaryMesh.html#adbf02a47e5a8e457c68acbf971e2a32e":[10,0,10,55,7],
-"structMR_1_1AncillaryMesh.html#adbf02a47e5a8e457c68acbf971e2a32e":[12,0,1,40,7],
-"structMR_1_1AncillaryPoints.html":[10,0,10,56],
-"structMR_1_1AncillaryPoints.html":[12,0,1,41],
-"structMR_1_1AncillaryPoints.html#a0cdf55740b5048f21da661679c6deddc":[10,0,10,56,5],
-"structMR_1_1AncillaryPoints.html#a0cdf55740b5048f21da661679c6deddc":[12,0,1,41,5],
-"structMR_1_1AncillaryPoints.html#a1053dde41fe1dfb09838cbc4f556f23b":[10,0,10,56,2],
-"structMR_1_1AncillaryPoints.html#a1053dde41fe1dfb09838cbc4f556f23b":[12,0,1,41,2],
-"structMR_1_1AncillaryPoints.html#a176b8c6b96297257540722e2127489d5":[10,0,10,56,7],
-"structMR_1_1AncillaryPoints.html#a176b8c6b96297257540722e2127489d5":[12,0,1,41,7],
-"structMR_1_1AncillaryPoints.html#a19619544546d28e1fe037cd4d39dfab5":[10,0,10,56,10]
+"structMR_1_1AncillaryMesh.html#abaf618a5c330ee1013fdd1c572982be0":[10,0,10,55,6]
 };

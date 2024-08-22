@@ -1,5 +1,14 @@
 var NAVTREEINDEX10 =
 {
+"MRRibbonMenuSearch_8h.html":[13,0,0,2,8,73],
+"MRRibbonMenuSearch_8h_source.html":[13,0,0,2,8,73],
+"MRRibbonMenu_8h.html":[13,0,0,2,8,71],
+"MRRibbonMenu_8h.html#a8943649eb4ec189757d628d6b1f9779f":[13,0,0,2,8,71,3],
+"MRRibbonMenu_8h_source.html":[13,0,0,2,8,71],
+"MRRibbonNotification_8h.html":[13,0,0,2,8,74],
+"MRRibbonNotification_8h_source.html":[13,0,0,2,8,74],
+"MRRibbonSceneButtons_8h.html":[13,0,0,2,0,2,2],
+"MRRibbonSceneButtons_8h_source.html":[13,0,0,2,0,2,2],
 "MRRibbonSceneObjectsListDrawer_8h.html":[13,0,0,2,8,75],
 "MRRibbonSceneObjectsListDrawer_8h_source.html":[13,0,0,2,8,75],
 "MRRibbonSchema_8h.html":[13,0,0,2,8,76],
@@ -179,6 +188,7 @@ var NAVTREEINDEX10 =
 "MRSplashWindow_8h.html":[13,0,0,2,8,96],
 "MRSplashWindow_8h_source.html":[13,0,0,2,8,96],
 "MRStacktrace_8h.html":[13,0,0,2,3,340],
+"MRStacktrace_8h.html#a49107746ea2415c9c89d28a9e0f56112":[13,0,0,2,3,340,1],
 "MRStacktrace_8h.html#a81f6f33a8bc09d719c3ccbc1141aea10":[13,0,0,2,3,340,0],
 "MRStacktrace_8h_source.html":[13,0,0,2,3,340],
 "MRStatePluginUpdate_8h.html":[13,0,0,2,8,98],
@@ -239,15 +249,5 @@ var NAVTREEINDEX10 =
 "MRSurfaceDistanceBuilder_8h.html":[13,0,0,2,3,346],
 "MRSurfaceDistanceBuilder_8h_source.html":[13,0,0,2,3,346],
 "MRSurfaceDistance_8h.html":[13,0,0,2,3,345],
-"MRSurfaceDistance_8h_source.html":[13,0,0,2,3,345],
-"MRSurfaceManipulationWidget_8h.html":[13,0,0,2,8,100],
-"MRSurfaceManipulationWidget_8h_source.html":[13,0,0,2,8,100],
-"MRSurfacePath_8h.html":[13,0,0,2,3,347],
-"MRSurfacePath_8h_source.html":[13,0,0,2,3,347],
-"MRSurfacePointPicker_8h.html":[13,0,0,2,8,101],
-"MRSurfacePointPicker_8h_source.html":[13,0,0,2,8,101],
-"MRSurroundingContour_8h.html":[13,0,0,2,3,348],
-"MRSurroundingContour_8h_source.html":[13,0,0,2,3,348],
-"MRSwapRootAction_8h.html":[13,0,0,2,8,102],
-"MRSwapRootAction_8h_source.html":[13,0,0,2,8,102]
+"MRSurfaceDistance_8h_source.html":[13,0,0,2,3,345]
 };
