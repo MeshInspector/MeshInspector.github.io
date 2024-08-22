@@ -16,7 +16,7 @@ var searchData=
   ['pointarraysize_13',['PointArraySize',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a9503268c31364398d41e323af77c0da9',1,'MR::Viewer']]],
   ['pointcloud_14',['PointCloud',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37aee9349b5cdfd717c7e1234edce6b72fa',1,'MR']]],
   ['pointelementsnum_15',['PointElementsNum',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a77e64d11fc89e14a9a8944f32e8e72cf',1,'MR::Viewer']]],
-  ['points_16',['Points',['../classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76a75dd5f1160a3f02b6fae89c54361a1b3',1,'MR::ViewerSettingsManager']]],
+  ['points_16',['Points',['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a11882a836d50f9561bb278de58bb03b8',1,'MR::GLStaticHolder::Points'],['../classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76a75dd5f1160a3f02b6fae89c54361a1b3',1,'MR::ViewerSettingsManager::Points']]],
   ['pointtoplane_17',['PointToPlane',['../namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed',1,'MR']]],
   ['pointtopoint_18',['PointToPoint',['../namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80ecacabf254f8195fce8d901b3cce7092ea9',1,'MR']]],
   ['position_19',['position',['../namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a4757fe07fd492a8be0ea6a760d683d6e',1,'MR']]],

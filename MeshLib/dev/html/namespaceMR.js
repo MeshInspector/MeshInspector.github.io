@@ -2112,6 +2112,8 @@ var namespaceMR =
     [ "getPlanarHoleFillPlan", "group__FillHoleGroup.html#ga1dbbac5f3d5dfdebbb1790578aed11d8", null ],
     [ "getPlaneFillMetric", "group__FillHoleGroup.html#gaa490c6225ad37e5491af1ed61365e774", null ],
     [ "getPlaneNormalizedFillMetric", "group__FillHoleGroup.html#ga57ca3e797d9308a5db4461b06d773c01", null ],
+    [ "getPointsFragmentShader", "namespaceMR.html#ad955b6a2b26f772c9baa0e45f672f3b4", null ],
+    [ "getPointsVertexShader", "namespaceMR.html#a5863e06aeda8dbdaac30e5098692f741", null ],
     [ "getRegionBoundaryVerts", "namespaceMR.html#a00473b872f5242451db75ba1ba87b378", null ],
     [ "getRegionEdges", "namespaceMR.html#ad236300492a56bcb9401d780f9a30acf", null ],
     [ "GetResourcesDirectory", "namespaceMR.html#a1d6fd316711783f671ffebc9eac9042a", null ],

@@ -1,5 +1,13 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1Vector3.html#aa80c4d71ef5b56a6aaa251f91e636873":[9,0,12,1,20],
+"structMR_1_1Vector3.html#abcd3a5ac10c0bd8323d2f67d4d63c474":[9,0,12,1,11],
+"structMR_1_1Vector3.html#ac519c0badafc5dd614c0c6f8b8b28994":[9,0,12,1,23],
+"structMR_1_1Vector3.html#ac91a0462b62bab22f973bb517dc805ca":[9,0,12,1,16],
+"structMR_1_1Vector3.html#accacc05b5f2af477f9cbf09f9d8f48f8":[9,0,12,1,6],
+"structMR_1_1Vector3.html#ad61b88bc9db8f4f19652d6fe5f3f6b09":[9,0,12,1,7],
+"structMR_1_1Vector3.html#ad8b62d7466c2f210d9618cc9c3fe555f":[9,0,12,1,3],
+"structMR_1_1Vector3.html#ae2acb767e75d8fddbe60a26218e7635a":[9,0,12,1,21],
 "structMR_1_1Vector3.html#ae596ea6de55c00124d84150eadecd455":[9,0,12,1,27],
 "structMR_1_1Vector3.html#aedb5f8de6324a8ee5e71243c4b67104c":[9,0,12,1,10],
 "structMR_1_1Vector3.html#af10fc7b8e96744a5bf22924d7bb263ad":[9,0,12,1,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529ba8bd950a9d7779b83f5c30046c9aaf1cf":[9,2,17,2,0,2],
 "structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529baaf71234725f0470ccf993e263a8b820a":[9,2,17,2,0,6],
 "structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bab31df9c476d20e85ff898121efe11b5a":[9,2,17,2,0,0],
-"structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bac06129f6e6e15c09328365e553f1dc31":[9,2,17,2,0,5],
-"structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bad2b556d8a8f5c8ac323f51a4b82e79a0":[9,2,17,2,0,9],
-"structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bae7956ed7be1c5025a27ed3cb42a396bd":[9,2,17,2,0,4],
-"structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bae93f994f01c537c4e2f7d8528c3eb5e9":[9,2,17,2,0,12],
-"structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bafbde23b11d7e59af7828e81144c8b487":[9,2,17,2,0,7],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html":[9,2,18],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html#a61495391ee95acbc5462893baceab323":[9,2,18,0],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html#a8194c36117ac4d7ace9f1070ce398953":[9,2,18,3],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html#a8415f6dc84ccf8061fd256e2420cd4fd":[9,2,18,2]
+"structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bac06129f6e6e15c09328365e553f1dc31":[9,2,17,2,0,5]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1TouchpadSwipeGestureEndListener.html#ab4dd4cb2861d87a165c29539ada3aeda":[10,0,10,639,2],
+"structMR_1_1TouchpadSwipeGestureEndListener.html#ab4dd4cb2861d87a165c29539ada3aeda":[12,0,1,624,2],
+"structMR_1_1TouchpadSwipeGestureEndListener.html#ab51fd57e66a91ac6f90d166e8da77c1c":[10,0,10,639,0],
+"structMR_1_1TouchpadSwipeGestureEndListener.html#ab51fd57e66a91ac6f90d166e8da77c1c":[12,0,1,624,0],
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html":[10,0,10,640],
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html":[12,0,1,625],
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html#a22afe5fdd5b2015b479bc26a6e200972":[10,0,10,640,0],
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html#a22afe5fdd5b2015b479bc26a6e200972":[12,0,1,625,0],
 "structMR_1_1TouchpadSwipeGestureUpdateListener.html#a56753f530eab33ccb8f1c7c34ec618fa":[10,0,10,640,2],
 "structMR_1_1TouchpadSwipeGestureUpdateListener.html#a56753f530eab33ccb8f1c7c34ec618fa":[12,0,1,625,2],
 "structMR_1_1TouchpadSwipeGestureUpdateListener.html#a699126c1c4c296d0dcfd76964121d306":[10,0,10,640,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1UI_1_1PlotAxis.html#a6300f8d6f358cd258351cd2c6f5a6b41":[10,0,10,36,8,8],
 "structMR_1_1UI_1_1PlotAxis.html#a6300f8d6f358cd258351cd2c6f5a6b41":[12,0,1,21,7,8],
 "structMR_1_1UI_1_1PlotAxis.html#a6b3549baa2023f1f1ef3c3cf40f6dbc5":[10,0,10,36,8,4],
-"structMR_1_1UI_1_1PlotAxis.html#a6b3549baa2023f1f1ef3c3cf40f6dbc5":[12,0,1,21,7,4],
-"structMR_1_1UI_1_1PlotAxis.html#a6c7cd67543e3b06edf8c5a6e5bc9df85":[10,0,10,36,8,2],
-"structMR_1_1UI_1_1PlotAxis.html#a6c7cd67543e3b06edf8c5a6e5bc9df85":[12,0,1,21,7,2],
-"structMR_1_1UI_1_1PlotAxis.html#abb279d966586784fbc7e5ce1e6cc8fd5":[10,0,10,36,8,7],
-"structMR_1_1UI_1_1PlotAxis.html#abb279d966586784fbc7e5ce1e6cc8fd5":[12,0,1,21,7,7],
-"structMR_1_1UI_1_1PlotAxis.html#ac57871303ee04628acb4f6e93f60fa53":[10,0,10,36,8,5],
-"structMR_1_1UI_1_1PlotAxis.html#ac57871303ee04628acb4f6e93f60fa53":[12,0,1,21,7,5],
-"structMR_1_1UI_1_1PlotAxis.html#ae08c70c753317b1683bed91ac16e30dc":[10,0,10,36,8,3],
-"structMR_1_1UI_1_1PlotAxis.html#ae08c70c753317b1683bed91ac16e30dc":[12,0,1,21,7,3]
+"structMR_1_1UI_1_1PlotAxis.html#a6b3549baa2023f1f1ef3c3cf40f6dbc5":[12,0,1,21,7,4]
 };

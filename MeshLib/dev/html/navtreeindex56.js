@@ -1,5 +1,13 @@
 var NAVTREEINDEX56 =
 {
+"structMRDecimateSettings.html#a1059a2ea3dd3750396c012134de9ad56":[12,0,25,0],
+"structMRDecimateSettings.html#a1d0329e1a12b385130c9098ca1cde327":[12,0,25,6],
+"structMRDecimateSettings.html#a2c349e24d60412eb6b16ab1d98e8074e":[12,0,25,7],
+"structMRDecimateSettings.html#a332cd2d944c5ad67cfc87294c22dc628":[12,0,25,2],
+"structMRDecimateSettings.html#a3c31da100d3cc2b0dc612fe3342cebb6":[12,0,25,5],
+"structMRDecimateSettings.html#a4e04ee54a67240824fcf155e24e679b6":[12,0,25,12],
+"structMRDecimateSettings.html#a6752b8883770f758f44fc5956c8238c4":[12,0,25,9],
+"structMRDecimateSettings.html#a679658d2e5a069713519041347304233":[12,0,25,16],
 "structMRDecimateSettings.html#a6b5b07423ef64eadeec3662a51a57bba":[12,0,25,18],
 "structMRDecimateSettings.html#a74c3f1a345b8010234658a32c8f29cb2":[12,0,25,3],
 "structMRDecimateSettings.html#a772d763e2025022e8ecad5e0df7081ee":[12,0,25,10],
@@ -241,13 +249,5 @@ var NAVTREEINDEX56 =
 "structMR_1_1AncillaryPoints.html#a1053dde41fe1dfb09838cbc4f556f23b":[12,0,1,41,2],
 "structMR_1_1AncillaryPoints.html#a176b8c6b96297257540722e2127489d5":[10,0,10,56,7],
 "structMR_1_1AncillaryPoints.html#a176b8c6b96297257540722e2127489d5":[12,0,1,41,7],
-"structMR_1_1AncillaryPoints.html#a19619544546d28e1fe037cd4d39dfab5":[10,0,10,56,10],
-"structMR_1_1AncillaryPoints.html#a19619544546d28e1fe037cd4d39dfab5":[12,0,1,41,10],
-"structMR_1_1AncillaryPoints.html#a1ae6091149af08970f521f474ed0cb1e":[10,0,10,56,3],
-"structMR_1_1AncillaryPoints.html#a1ae6091149af08970f521f474ed0cb1e":[12,0,1,41,3],
-"structMR_1_1AncillaryPoints.html#a216d4fd7817ede9a4f80a11ec68881ca":[10,0,10,56,1],
-"structMR_1_1AncillaryPoints.html#a216d4fd7817ede9a4f80a11ec68881ca":[12,0,1,41,1],
-"structMR_1_1AncillaryPoints.html#a45db8cb79aca2bc0ac79707f498df4c8":[10,0,10,56,6],
-"structMR_1_1AncillaryPoints.html#a45db8cb79aca2bc0ac79707f498df4c8":[12,0,1,41,6],
-"structMR_1_1AncillaryPoints.html#a537fa4e2293d1858a80b7317ee1f6143":[10,0,10,56,11]
+"structMR_1_1AncillaryPoints.html#a19619544546d28e1fe037cd4d39dfab5":[10,0,10,56,10]
 };
