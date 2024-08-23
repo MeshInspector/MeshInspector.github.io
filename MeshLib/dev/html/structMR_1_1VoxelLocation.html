@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: Member List</title>
+<title>MeshLib: MR::VoxelLocation Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -78,7 +78,7 @@ $(function() { codefold.init(0); });
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html',''); initResizable(true); });
+$(function(){initNavTree('structMR_1_1VoxelLocation.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -104,24 +104,36 @@ $(function(){initNavTree('classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.htm
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">MR::VoxelsVolumeAccessor&lt; VdbVolume &gt; Member List</div></div>
+  <div class="summary">
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="structMR_1_1VoxelLocation-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">MR::VoxelLocation Struct Reference<div class="ingroups"><a class="el" href="group__VoxelGroup.html">Voxel</a> &raquo; <a class="el" href="group__VolumeIndexerGroup.html">Volume Indexer</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html">MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html#a7dcd7da9538cdabf19f8ba7df37407d8">get</a>(const Vector3i &amp;pos) const</td><td class="entry"><a class="el" href="classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html">MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html#a0110b47db298ab6d8434751e3dcc795d">get</a>(const VoxelLocation &amp;loc) const</td><td class="entry"><a class="el" href="classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html">MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html#a6ecb5e8ad9da57dff026f2c0bc85f404">minCoord</a>() const</td><td class="entry"><a class="el" href="classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html">MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html#a7a5643403417a3ab6552522d0cd73ad7">safeGet</a>(const Vector3i &amp;pos) const</td><td class="entry"><a class="el" href="classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html">MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html#a6c1caa3832a33e6477c2eb7f3a1d0b1d">ValueType</a> typedef</td><td class="entry"><a class="el" href="classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html">MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html#a4f55b3b83d93fcd3c8bcfeb48d2e7545">VolumeType</a> typedef</td><td class="entry"><a class="el" href="classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html">MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html#a91df927a856d2b8c93854a7d1e25b522">VoxelsVolumeAccessor</a>(const VolumeType &amp;volume)</td><td class="entry"><a class="el" href="classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html">MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span></td></tr>
-</table></div><!-- contents -->
+<p>contains both linear <a class="el" href="classMR_1_1Id.html">Id</a> and 3D coordinates of the same voxel  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="MRVolumeIndexer_8h_source.html">MRVolumeIndexer.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ga3d9a9d7ddd2fe60f1d8f4e1f0f538d2e" id="r_ga3d9a9d7ddd2fe60f1d8f4e1f0f538d2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a87fb5cfcd5370cd4fc1380c189b42828">VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#ga3d9a9d7ddd2fe60f1d8f4e1f0f538d2e">id</a></td></tr>
+<tr class="separator:ga3d9a9d7ddd2fe60f1d8f4e1f0f538d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gada259ed5ae07b6f5138fb6e8212f7531" id="r_gada259ed5ae07b6f5138fb6e8212f7531"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelGroup.html#gada259ed5ae07b6f5138fb6e8212f7531">pos</a></td></tr>
+<tr class="separator:gada259ed5ae07b6f5138fb6e8212f7531"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>contains both linear <a class="el" href="classMR_1_1Id.html">Id</a> and 3D coordinates of the same voxel </p>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
+<li><a class="el" href="MRVolumeIndexer_8h_source.html">MRVolumeIndexer.h</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="structMR_1_1VoxelLocation.html">VoxelLocation</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

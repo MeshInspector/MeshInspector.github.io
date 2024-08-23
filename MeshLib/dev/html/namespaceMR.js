@@ -791,6 +791,7 @@ var namespaceMR =
     [ "VolumeSegmentationParameters", "structMR_1_1VolumeSegmentationParameters.html", "structMR_1_1VolumeSegmentationParameters" ],
     [ "VolumeSegmenter", "classMR_1_1VolumeSegmenter.html", "classMR_1_1VolumeSegmenter" ],
     [ "VolumeToMeshByPartsSettings", "structMR_1_1VolumeToMeshByPartsSettings.html", "structMR_1_1VolumeToMeshByPartsSettings" ],
+    [ "VoxelLocation", "structMR_1_1VoxelLocation.html", "structMR_1_1VoxelLocation" ],
     [ "VoxelMetricParameters", "structMR_1_1VoxelMetricParameters.html", "structMR_1_1VoxelMetricParameters" ],
     [ "VoxelsVolume", "structMR_1_1VoxelsVolume.html", "structMR_1_1VoxelsVolume" ],
     [ "VoxelsVolumeAccessor", "classMR_1_1VoxelsVolumeAccessor.html", null ],

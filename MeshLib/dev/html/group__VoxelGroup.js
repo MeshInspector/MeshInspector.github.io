@@ -30,11 +30,15 @@ var group__VoxelGroup =
     [ "MR::segmentVolumeByGraphCut", "group__VoxelGroup.html#gab11c87d40f00305cb4e8ada832951615", null ],
     [ "MR::VolumeIndexer::size", "group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985", null ],
     [ "MR::VolumeIndexer::sizeXY", "group__VoxelGroup.html#gaf0d94fe95fbc290e175743a06ad3d1c6", null ],
+    [ "MR::VolumeIndexer::toLoc", "group__VoxelGroup.html#ga5bad9caa6f1298325759d64a72cca3b9", null ],
+    [ "MR::VolumeIndexer::toLoc", "group__VoxelGroup.html#ga381737dfbef1fd95586ae4f44b63b468", null ],
     [ "MR::VolumeIndexer::toPos", "group__VoxelGroup.html#gaf972ceaa48b72a552781412be0e49eb6", null ],
     [ "MR::VolumeIndexer::toVoxelId", "group__VoxelGroup.html#ga1e9ca6412f80a5ce4751fb16cad4ce2c", null ],
     [ "MR::VolumeIndexer::VolumeIndexer", "group__VoxelGroup.html#gad64c0feac5a4c85334c9de7dda628dfb", null ],
     [ "MR::VolumeIndexer::dims_", "group__VoxelGroup.html#gaa1c0e0f0f1418ecbd002c094e0d42e13", null ],
+    [ "MR::VoxelLocation::id", "group__VoxelGroup.html#ga3d9a9d7ddd2fe60f1d8f4e1f0f538d2e", null ],
     [ "MR::VolumeIndexer::neiInc_", "group__VoxelGroup.html#gaa969e84361224c40ebdaea70a2942ea6", null ],
+    [ "MR::VoxelLocation::pos", "group__VoxelGroup.html#gada259ed5ae07b6f5138fb6e8212f7531", null ],
     [ "MR::VolumeIndexer::size_", "group__VoxelGroup.html#ga8e13ff7ca749a229d273701ff2b833c0", null ],
     [ "MR::VolumeIndexer::sizeXY_", "group__VoxelGroup.html#ga4640c0c164372ff567a458ce590c241b", null ]
 ];

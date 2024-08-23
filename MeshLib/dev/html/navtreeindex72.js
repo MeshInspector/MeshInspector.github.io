@@ -1,5 +1,15 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1SharpenMarchingCubesMeshSettings.html":[12,0,1,565],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#a0f708a94c94e32aa8001fe2cf18960d4":[10,0,10,580,5],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#a0f708a94c94e32aa8001fe2cf18960d4":[12,0,1,565,5],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#a82657a9b8d3b11b57c5853baaf8ff42a":[10,0,10,580,2],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#a82657a9b8d3b11b57c5853baaf8ff42a":[12,0,1,565,2],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#aad69635a569d93af09b5d7d1b6c24a7c":[10,0,10,580,4],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#aad69635a569d93af09b5d7d1b6c24a7c":[12,0,1,565,4],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#ac280940d9748f10a71a06ffc496d1802":[10,0,10,580,3],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#ac280940d9748f10a71a06ffc496d1802":[12,0,1,565,3],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#ae4ce9fb1814dbc707ab3e200a9263aa0":[10,0,10,580,0],
 "structMR_1_1SharpenMarchingCubesMeshSettings.html#ae4ce9fb1814dbc707ab3e200a9263aa0":[12,0,1,565,0],
 "structMR_1_1SharpenMarchingCubesMeshSettings.html#af4be55d183168262e37ed2b1e5aabec5":[10,0,10,580,1],
 "structMR_1_1SharpenMarchingCubesMeshSettings.html#af4be55d183168262e37ed2b1e5aabec5":[12,0,1,565,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#aef0e9963d176c1ff1684083ddecd4fbe":[10,0,10,613,0,6],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#aef0e9963d176c1ff1684083ddecd4fbe":[12,0,1,598,0,6],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#afd51ac7c79f68590c9471e56a8e29890":[10,0,10,613,0,3],
-"structMR_1_1SurfacePointWidget_1_1Parameters.html#afd51ac7c79f68590c9471e56a8e29890":[12,0,1,598,0,3],
-"structMR_1_1SymMatrix2.html":[9,0,7,4],
-"structMR_1_1SymMatrix2.html#a00825772702cbd97018eca7af85866ad":[9,0,7,4,9],
-"structMR_1_1SymMatrix2.html#a0d7b116cb57858e0b068a33b81aed7a7":[9,0,7,4,1],
-"structMR_1_1SymMatrix2.html#a175876ca220ae2820662151e1024e232":[9,0,7,4,4],
-"structMR_1_1SymMatrix2.html#a2508bdc607f557d33ec49ff959cf1a3d":[9,0,7,4,0],
-"structMR_1_1SymMatrix2.html#a261caca745c8a5998fe4599fd9031b43":[9,0,7,4,11],
-"structMR_1_1SymMatrix2.html#a298176c6fdc19f53dcf4b4c5e9624b01":[9,0,7,4,16],
-"structMR_1_1SymMatrix2.html#a3f9de72646e2a2bbf46b9eb3a2691fc2":[9,0,7,4,17],
-"structMR_1_1SymMatrix2.html#a4ec338b96049194a96390245466b6a46":[9,0,7,4,5],
-"structMR_1_1SymMatrix2.html#a55a77d7f0bbf6b2221a68f1b76439079":[9,0,7,4,7]
+"structMR_1_1SurfacePointWidget_1_1Parameters.html#afd51ac7c79f68590c9471e56a8e29890":[12,0,1,598,0,3]
 };

@@ -1,5 +1,15 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a3fbdf03d9ba7e87339fb77edbc8699d9":[10,0,10,6,0,0,5],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a3fbdf03d9ba7e87339fb77edbc8699d9":[12,0,1,2,0,0,5],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a40eff23fbea04d4a72390fda48c04bfd":[10,0,10,6,0,0,18],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a40eff23fbea04d4a72390fda48c04bfd":[12,0,1,2,0,0,18],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a4148dbcf1b8080fed62d67986a18dee1":[10,0,10,6,0,0,1],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a4148dbcf1b8080fed62d67986a18dee1":[12,0,1,2,0,0,1],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a52d74c8c1581a73964681c4273172f52":[10,0,10,6,0,0,10],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a52d74c8c1581a73964681c4273172f52":[12,0,1,2,0,0,10],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a6d82dd73c4e7a2c5455773425fb17871":[10,0,10,6,0,0,17],
+"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a6d82dd73c4e7a2c5455773425fb17871":[12,0,1,2,0,0,17],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a9f603438a2e12d81289b9696c05cdcd4":[10,0,10,6,0,0,12],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a9f603438a2e12d81289b9696c05cdcd4":[12,0,1,2,0,0,12],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a9f96764db5c4750b318539f5c7ccf9b3":[10,0,10,6,0,0,4],
@@ -239,15 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1GcodeProcessor_1_1MoveAction.html#a31e8f3ca925b988d46df24c5b5bf8ddd":[10,0,10,231,2,4],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html#a31e8f3ca925b988d46df24c5b5bf8ddd":[12,0,1,216,2,4],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html#a3d704b08012c57fec93ba58808ee3421":[10,0,10,231,2,5],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#a3d704b08012c57fec93ba58808ee3421":[12,0,1,216,2,5],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#a85b84c7e86dfe85baf10dcab2f46c9d6":[10,0,10,231,2,0],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#a85b84c7e86dfe85baf10dcab2f46c9d6":[12,0,1,216,2,0],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#a9c37820f22dbbb3c0a9fc9b01369abbc":[10,0,10,231,2,1],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#a9c37820f22dbbb3c0a9fc9b01369abbc":[12,0,1,216,2,1],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#afb16d620b32465be3a1f27d50c1640d3":[10,0,10,231,2,2],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#afb16d620b32465be3a1f27d50c1640d3":[12,0,1,216,2,2],
-"structMR_1_1GeneralOffsetParameters.html":[10,0,10,234],
-"structMR_1_1GeneralOffsetParameters.html":[12,0,1,219],
-"structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[10,0,10,234,1],
-"structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[12,0,1,219,1]
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a3d704b08012c57fec93ba58808ee3421":[12,0,1,216,2,5]
 };

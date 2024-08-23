@@ -238,7 +238,7 @@ var NAVTREEINDEX42 =
 "classMR_1_1VisualObject.html#af81b9247c457c9dbd36d6bbe4c74b826":[9,13,2,5,5],
 "classMR_1_1VisualObject.html#afd16375df437a376f44c3bdea5186b82":[9,13,2,5,12],
 "classMR_1_1VisualObject.html#afe6426aa46d769e1d6f4cab1e56e0559":[9,13,2,5,20],
-"classMR_1_1VolumeIndexer.html":[9,19,0,0],
+"classMR_1_1VolumeIndexer.html":[9,19,0,1],
 "classMR_1_1VolumeSegmenter.html":[9,19,1,1],
 "classMR_1_1VolumeSegmenter.html#a1e60835e895738ed66679e5f39acf19f":[9,19,1,1,7],
 "classMR_1_1VolumeSegmenter.html#a41b495dd66f5ad9eaa656a20be4ae95c":[9,19,1,1,1],

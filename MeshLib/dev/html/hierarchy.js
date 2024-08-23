@@ -1262,6 +1262,7 @@ var hierarchy =
     [ "MR::VolumeSegmentationParameters", "structMR_1_1VolumeSegmentationParameters.html", null ],
     [ "MR::VolumeSegmenter", "classMR_1_1VolumeSegmenter.html", null ],
     [ "MR::VolumeToMeshByPartsSettings", "structMR_1_1VolumeToMeshByPartsSettings.html", null ],
+    [ "MR::VoxelLocation", "structMR_1_1VoxelLocation.html", null ],
     [ "MR::VoxelMetricParameters", "structMR_1_1VoxelMetricParameters.html", null ],
     [ "MR::VoxelsVolume< T >", "structMR_1_1VoxelsVolume.html", [
       [ "MR::VoxelsVolumeMinMax< T >", "structMR_1_1VoxelsVolumeMinMax.html", null ]

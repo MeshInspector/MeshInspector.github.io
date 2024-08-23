@@ -1,5 +1,15 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1TouchpadRotateGestureUpdateListener.html":[12,0,1,622],
+"structMR_1_1TouchpadRotateGestureUpdateListener.html#a1543608250b47eb5f6a2545ff3cb0d5a":[10,0,10,637,1],
+"structMR_1_1TouchpadRotateGestureUpdateListener.html#a1543608250b47eb5f6a2545ff3cb0d5a":[12,0,1,622,1],
+"structMR_1_1TouchpadRotateGestureUpdateListener.html#a24ed3f7e2ae56c6df5adc3606fb0ec7e":[10,0,10,637,3],
+"structMR_1_1TouchpadRotateGestureUpdateListener.html#a24ed3f7e2ae56c6df5adc3606fb0ec7e":[12,0,1,622,3],
+"structMR_1_1TouchpadRotateGestureUpdateListener.html#a4a6459f8e52042e121c679fb50fe589b":[10,0,10,637,2],
+"structMR_1_1TouchpadRotateGestureUpdateListener.html#a4a6459f8e52042e121c679fb50fe589b":[12,0,1,622,2],
+"structMR_1_1TouchpadRotateGestureUpdateListener.html#a5cc8ba8e6f14534373f4af57eb899efb":[10,0,10,637,0],
+"structMR_1_1TouchpadRotateGestureUpdateListener.html#a5cc8ba8e6f14534373f4af57eb899efb":[12,0,1,622,0],
+"structMR_1_1TouchpadSwipeGestureBeginListener.html":[10,0,10,638],
 "structMR_1_1TouchpadSwipeGestureBeginListener.html":[12,0,1,623],
 "structMR_1_1TouchpadSwipeGestureBeginListener.html#a138a7f5c34d9eab74870b2dd04a528a3":[10,0,10,638,0],
 "structMR_1_1TouchpadSwipeGestureBeginListener.html#a138a7f5c34d9eab74870b2dd04a528a3":[12,0,1,623,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1UI_1_1CheckboxOrModifierState.html#a1b7f056835dfa614cc9907ac8d467d87":[12,0,1,21,4,2],
 "structMR_1_1UI_1_1CheckboxOrModifierState.html#adcb5d1f8f18006ba9caee1cf22f7c04a":[10,0,10,36,5,1],
 "structMR_1_1UI_1_1CheckboxOrModifierState.html#adcb5d1f8f18006ba9caee1cf22f7c04a":[12,0,1,21,4,1],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html":[10,0,10,36,7,0],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html":[12,0,1,21,6,0],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a1c7efed40362c244fe3448ccb9b4f5b8":[10,0,10,36,7,0,1],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a1c7efed40362c244fe3448ccb9b4f5b8":[12,0,1,21,6,0,1],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a3294cc10df7525536273d925395bb8f4":[10,0,10,36,7,0,3],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a3294cc10df7525536273d925395bb8f4":[12,0,1,21,6,0,3],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a57d48656778b010132308d6f1b17dda3":[10,0,10,36,7,0,2],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a57d48656778b010132308d6f1b17dda3":[12,0,1,21,6,0,2],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a669ea51c367ab807beb54423bc2717f6":[10,0,10,36,7,0,5],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a669ea51c367ab807beb54423bc2717f6":[12,0,1,21,6,0,5],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a8f0e17801627126920b79b9159e927bc":[10,0,10,36,7,0,4]
+"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html":[10,0,10,36,7,0]
 };

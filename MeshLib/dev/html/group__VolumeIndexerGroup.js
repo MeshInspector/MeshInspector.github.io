@@ -1,5 +1,9 @@
 var group__VolumeIndexerGroup =
 [
+    [ "MR::VoxelLocation", "structMR_1_1VoxelLocation.html", [
+      [ "id", "group__VoxelGroup.html#ga3d9a9d7ddd2fe60f1d8f4e1f0f538d2e", null ],
+      [ "pos", "group__VoxelGroup.html#gada259ed5ae07b6f5138fb6e8212f7531", null ]
+    ] ],
     [ "MR::VolumeIndexer", "classMR_1_1VolumeIndexer.html", [
       [ "VolumeIndexer", "group__VoxelGroup.html#gad64c0feac5a4c85334c9de7dda628dfb", null ],
       [ "areNeigbors", "group__VoxelGroup.html#ga991a1f3d21cb03e21402be655ba7c06c", null ],
@@ -14,6 +18,8 @@ var group__VolumeIndexerGroup =
       [ "isInDims", "group__VoxelGroup.html#ga1d7ef8146c7e01018cfd181e0967ac35", null ],
       [ "size", "group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985", null ],
       [ "sizeXY", "group__VoxelGroup.html#gaf0d94fe95fbc290e175743a06ad3d1c6", null ],
+      [ "toLoc", "group__VoxelGroup.html#ga5bad9caa6f1298325759d64a72cca3b9", null ],
+      [ "toLoc", "group__VoxelGroup.html#ga381737dfbef1fd95586ae4f44b63b468", null ],
       [ "toPos", "group__VoxelGroup.html#gaf972ceaa48b72a552781412be0e49eb6", null ],
       [ "toVoxelId", "group__VoxelGroup.html#ga1e9ca6412f80a5ce4751fb16cad4ce2c", null ],
       [ "dims_", "group__VoxelGroup.html#gaa1c0e0f0f1418ecbd002c094e0d42e13", null ],

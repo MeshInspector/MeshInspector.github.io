@@ -130,8 +130,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a91df927a856d2b8c93854a7d1e25b522"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7dcd7da9538cdabf19f8ba7df37407d8" id="r_a7dcd7da9538cdabf19f8ba7df37407d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a6c1caa3832a33e6477c2eb7f3a1d0b1d">ValueType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dcd7da9538cdabf19f8ba7df37407d8">get</a> (const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;pos) const</td></tr>
 <tr class="separator:a7dcd7da9538cdabf19f8ba7df37407d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0110b47db298ab6d8434751e3dcc795d" id="r_a0110b47db298ab6d8434751e3dcc795d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a6c1caa3832a33e6477c2eb7f3a1d0b1d">ValueType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0110b47db298ab6d8434751e3dcc795d">get</a> (const <a class="el" href="structMR_1_1VoxelLocation.html">VoxelLocation</a> &amp;loc) const</td></tr>
+<tr class="separator:a0110b47db298ab6d8434751e3dcc795d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a5643403417a3ab6552522d0cd73ad7" id="r_a7a5643403417a3ab6552522d0cd73ad7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a6c1caa3832a33e6477c2eb7f3a1d0b1d">ValueType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a5643403417a3ab6552522d0cd73ad7">safeGet</a> (const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;pos) const</td></tr>
 <tr class="separator:a7a5643403417a3ab6552522d0cd73ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ecb5e8ad9da57dff026f2c0bc85f404" id="r_a6ecb5e8ad9da57dff026f2c0bc85f404"><td class="memItemLeft" align="right" valign="top">const openvdb::Coord &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ecb5e8ad9da57dff026f2c0bc85f404">minCoord</a> () const</td></tr>
+<tr class="separator:a6ecb5e8ad9da57dff026f2c0bc85f404"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classMR_1_1VoxelsVolumeAccessor.html" title="helper class for generalized voxel volume data access">VoxelsVolumeAccessor</a> specialization for VDB volume. </p>
@@ -192,7 +196,7 @@ Public Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a7dcd7da9538cdabf19f8ba7df37407d8" name="a7dcd7da9538cdabf19f8ba7df37407d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7dcd7da9538cdabf19f8ba7df37407d8">&#9670;&#160;</a></span>get()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dcd7da9538cdabf19f8ba7df37407d8">&#9670;&#160;</a></span>get() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204,6 +208,56 @@ Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="#a6c1caa3832a33e6477c2eb7f3a1d0b1d">ValueType</a> <a class="el" href="classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt; <a class="el" href="namespaceMR.html#a6f4840fc8af88eb8e896ad708d375644">VdbVolume</a> &gt;::get </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0110b47db298ab6d8434751e3dcc795d" name="a0110b47db298ab6d8434751e3dcc795d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0110b47db298ab6d8434751e3dcc795d">&#9670;&#160;</a></span>get() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a6c1caa3832a33e6477c2eb7f3a1d0b1d">ValueType</a> <a class="el" href="classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt; <a class="el" href="namespaceMR.html#a6f4840fc8af88eb8e896ad708d375644">VdbVolume</a> &gt;::get </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1VoxelLocation.html">VoxelLocation</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>loc</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ecb5e8ad9da57dff026f2c0bc85f404" name="a6ecb5e8ad9da57dff026f2c0bc85f404"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ecb5e8ad9da57dff026f2c0bc85f404">&#9670;&#160;</a></span>minCoord()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const openvdb::Coord &amp; <a class="el" href="classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt; <a class="el" href="namespaceMR.html#a6f4840fc8af88eb8e896ad708d375644">VdbVolume</a> &gt;::minCoord </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
