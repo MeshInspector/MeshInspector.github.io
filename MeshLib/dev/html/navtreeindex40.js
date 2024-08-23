@@ -1,5 +1,16 @@
 var NAVTREEINDEX40 =
 {
+"classMR_1_1Viewer.html#a7ba70f237284a6a91563827852ab268e":[12,0,1,667,67],
+"classMR_1_1Viewer.html#a7cb04be7931c10a1a93bb386ba1f7bb6":[10,0,10,682,178],
+"classMR_1_1Viewer.html#a7cb04be7931c10a1a93bb386ba1f7bb6":[12,0,1,667,178],
+"classMR_1_1Viewer.html#a7ccea0f47c749b27fc3a4ab8dc91026c":[10,0,10,682,169],
+"classMR_1_1Viewer.html#a7ccea0f47c749b27fc3a4ab8dc91026c":[12,0,1,667,169],
+"classMR_1_1Viewer.html#a7cd2146e20850a36ad9e15bd8f3b2ced":[10,0,10,682,110],
+"classMR_1_1Viewer.html#a7cd2146e20850a36ad9e15bd8f3b2ced":[12,0,1,667,110],
+"classMR_1_1Viewer.html#a7fa9e45768d4ede2c36f43231fcd9bb4":[10,0,10,682,61],
+"classMR_1_1Viewer.html#a7fa9e45768d4ede2c36f43231fcd9bb4":[12,0,1,667,61],
+"classMR_1_1Viewer.html#a84553b3f4700cf1f4df724de906abfa5":[10,0,10,682,101],
+"classMR_1_1Viewer.html#a84553b3f4700cf1f4df724de906abfa5":[12,0,1,667,101],
 "classMR_1_1Viewer.html#a8487684b5cd02ab06da1de9e06c8744f":[10,0,10,682,42],
 "classMR_1_1Viewer.html#a8487684b5cd02ab06da1de9e06c8744f":[12,0,1,667,42],
 "classMR_1_1Viewer.html#a85ad500aab48ce2471d2715030ff667a":[10,0,10,682,58],
@@ -238,16 +249,5 @@ var NAVTREEINDEX40 =
 "classMR_1_1ViewerPlugin.html#a67916b512e8d54ee7cdb8ef1cb4f6794":[12,0,1,669,2],
 "classMR_1_1ViewerPlugin.html#a764e7d792fea63f8186ed87f2560578f":[10,0,10,684,3],
 "classMR_1_1ViewerPlugin.html#a764e7d792fea63f8186ed87f2560578f":[12,0,1,669,3],
-"classMR_1_1ViewerPlugin.html#ad12538d77ebcf356c03469cbce40abae":[10,0,10,684,5],
-"classMR_1_1ViewerPlugin.html#ad12538d77ebcf356c03469cbce40abae":[12,0,1,669,5],
-"classMR_1_1ViewerPlugin.html#ad7fd0e80e15b5c45837fc005c71c9eab":[10,0,10,684,1],
-"classMR_1_1ViewerPlugin.html#ad7fd0e80e15b5c45837fc005c71c9eab":[12,0,1,669,1],
-"classMR_1_1ViewerPlugin.html#aea3243e52b3ddd4094ee9f25accf6912":[10,0,10,684,4],
-"classMR_1_1ViewerPlugin.html#aea3243e52b3ddd4094ee9f25accf6912":[12,0,1,669,4],
-"classMR_1_1ViewerSettingsManager.html":[10,0,10,685],
-"classMR_1_1ViewerSettingsManager.html":[12,0,1,670],
-"classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76":[10,0,10,685,0],
-"classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76":[12,0,1,670,0],
-"classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76a59637ce14182065617d85623a588b6f0":[10,0,10,685,0,3],
-"classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76a59637ce14182065617d85623a588b6f0":[12,0,1,670,0,3]
+"classMR_1_1ViewerPlugin.html#ad12538d77ebcf356c03469cbce40abae":[10,0,10,684,5]
 };

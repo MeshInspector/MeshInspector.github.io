@@ -13,8 +13,9 @@ var searchData=
   ['offsetcontoursvertmaps_10',['OffsetContoursVertMaps',['../namespaceMR.html#a3f87a9abf93ab132bc1ea3f939459b37',1,'MR']]],
   ['onbuttonclick_11',['OnButtonClick',['../structMR_1_1RibbonNotification.html#a22ab6a5e3459fed757c4443f8d3ad51a',1,'MR::RibbonNotification']]],
   ['ondirectionchangedcallback_12',['OnDirectionChangedCallback',['../classMR_1_1DirectionWidget.html#aa01b946f8079c3f2095a1fb5b019e275',1,'MR::DirectionWidget']]],
-  ['onemeshcontours_13',['OneMeshContours',['../group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a',1,'MR']]],
-  ['orgringiterator_14',['OrgRingIterator',['../namespaceMR.html#a1ba9e876bd033bc6803332bb875ee138',1,'MR']]],
-  ['originzcallback_15',['OriginZCallback',['../structMR_1_1OffsetContoursRestoreZParams.html#a1b3a2ad8c458d6b108bfb101240d3d2c',1,'MR::OffsetContoursRestoreZParams']]],
-  ['outtreeaccessor_16',['OutTreeAccessor',['../classMR_1_1RangeProcessor.html#aa118f22b54abade12d29be0674365ddb',1,'MR::RangeProcessor::OutTreeAccessor'],['../classMR_1_1ShiftTransformer.html#a002673d0c242633120d670961940cac5',1,'MR::ShiftTransformer::OutTreeAccessor']]]
+  ['onedgesplit_13',['OnEdgeSplit',['../namespaceMR.html#ab50339e87a21861f4405943730720850',1,'MR']]],
+  ['onemeshcontours_14',['OneMeshContours',['../group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a',1,'MR']]],
+  ['orgringiterator_15',['OrgRingIterator',['../namespaceMR.html#a1ba9e876bd033bc6803332bb875ee138',1,'MR']]],
+  ['originzcallback_16',['OriginZCallback',['../structMR_1_1OffsetContoursRestoreZParams.html#a1b3a2ad8c458d6b108bfb101240d3d2c',1,'MR::OffsetContoursRestoreZParams']]],
+  ['outtreeaccessor_17',['OutTreeAccessor',['../classMR_1_1RangeProcessor.html#aa118f22b54abade12d29be0674365ddb',1,'MR::RangeProcessor::OutTreeAccessor'],['../classMR_1_1ShiftTransformer.html#a002673d0c242633120d670961940cac5',1,'MR::ShiftTransformer::OutTreeAccessor']]]
 ];

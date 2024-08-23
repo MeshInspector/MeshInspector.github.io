@@ -1,5 +1,16 @@
 var NAVTREEINDEX14 =
 {
+"classMR_1_1AncillaryImGuiLabel.html#af2c939215a0b357749552a0faff1ab62":[12,0,1,37,2],
+"classMR_1_1AngleMeasurementObject.html":[10,0,10,57],
+"classMR_1_1AngleMeasurementObject.html":[12,0,1,42],
+"classMR_1_1AngleMeasurementObject.html#a035ba4d64bdfc46d8497e169a4be750f":[10,0,10,57,13],
+"classMR_1_1AngleMeasurementObject.html#a035ba4d64bdfc46d8497e169a4be750f":[12,0,1,42,13],
+"classMR_1_1AngleMeasurementObject.html#a0817825d46092c4ebf5fbc8aa9b3cc0f":[10,0,10,57,4],
+"classMR_1_1AngleMeasurementObject.html#a0817825d46092c4ebf5fbc8aa9b3cc0f":[12,0,1,42,4],
+"classMR_1_1AngleMeasurementObject.html#a0f47f7d31bec9d2791312b72e2ac1d1f":[10,0,10,57,24],
+"classMR_1_1AngleMeasurementObject.html#a0f47f7d31bec9d2791312b72e2ac1d1f":[12,0,1,42,24],
+"classMR_1_1AngleMeasurementObject.html#a1bbf1e560e70b1f06d4d5f837492a11e":[10,0,10,57,12],
+"classMR_1_1AngleMeasurementObject.html#a1bbf1e560e70b1f06d4d5f837492a11e":[12,0,1,42,12],
 "classMR_1_1AngleMeasurementObject.html#a4b8623dc5463ca2d74dddd4de01243ad":[10,0,10,57,17],
 "classMR_1_1AngleMeasurementObject.html#a4b8623dc5463ca2d74dddd4de01243ad":[12,0,1,42,17],
 "classMR_1_1AngleMeasurementObject.html#a4d56413060eb395d78b7a981758a05b7":[10,0,10,57,18],
@@ -238,16 +249,5 @@ var NAVTREEINDEX14 =
 "classMR_1_1CameraOrientation.html#aded26055d65895c92ebe389028088749":[10,0,10,84,1],
 "classMR_1_1CameraOrientation.html#aded26055d65895c92ebe389028088749":[12,0,1,69,1],
 "classMR_1_1CaptureScreenshotMenuItem.html":[10,0,10,85],
-"classMR_1_1CaptureScreenshotMenuItem.html":[12,0,1,70],
-"classMR_1_1CaptureScreenshotMenuItem.html#a6e4d5abb53a5914e552419d36d08880c":[10,0,10,85,0],
-"classMR_1_1CaptureScreenshotMenuItem.html#a6e4d5abb53a5914e552419d36d08880c":[12,0,1,70,0],
-"classMR_1_1CaptureScreenshotMenuItem.html#ac4b0cdb8632f4960672d36407fae15e8":[10,0,10,85,1],
-"classMR_1_1CaptureScreenshotMenuItem.html#ac4b0cdb8632f4960672d36407fae15e8":[12,0,1,70,1],
-"classMR_1_1CaptureScreenshotMenuItem.html#afcc8e12a918e1c2d28ac1dd19420a818":[10,0,10,85,2],
-"classMR_1_1CaptureScreenshotMenuItem.html#afcc8e12a918e1c2d28ac1dd19420a818":[12,0,1,70,2],
-"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html":[10,0,10,86],
-"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html":[12,0,1,71],
-"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#a5bf6d6d25422d614449691f27a8415d0":[10,0,10,86,0],
-"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#a5bf6d6d25422d614449691f27a8415d0":[12,0,1,71,0],
-"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#aa9768034e77b25ffed92bf08fbe11321":[10,0,10,86,1]
+"classMR_1_1CaptureScreenshotMenuItem.html":[12,0,1,70]
 };

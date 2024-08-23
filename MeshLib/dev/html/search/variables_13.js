@@ -30,7 +30,7 @@ var searchData=
   ['texturearray_5f_27',['textureArray_',['../classMR_1_1RenderMeshObject.html#a8cd847a579adbca9c44e43ea25fe0166',1,'MR::RenderMeshObject']]],
   ['texturefiles_28',['textureFiles',['../group__MeshLoadObjGroup.html#gae14992ee2961e93c9690326874a825e4',1,'MR::MeshLoad::NamedMesh']]],
   ['textureid_5f_29',['textureID_',['../classMR_1_1GlTexture.html#a9bb5bb53fefb3f277a36f6fabfe202cf',1,'MR::GlTexture']]],
-  ['textureperface_30',['texturePerFace',['../group__MeshLoadObjGroup.html#ga311db5316a105349238e8f439b00d599',1,'MR::MeshLoad::NamedMesh']]],
+  ['textureperface_30',['texturePerFace',['../structMR_1_1MeshAttributesToUpdate.html#aee9a5a30ffb7f9f758de6307f4916794',1,'MR::MeshAttributesToUpdate::texturePerFace'],['../group__MeshLoadObjGroup.html#ga311db5316a105349238e8f439b00d599',1,'MR::MeshLoad::NamedMesh::texturePerFace']]],
   ['textureperface_5f_31',['texturePerFace_',['../classMR_1_1ObjectMeshHolder.html#a67a04072e75218d5d60f322c5cee41f7',1,'MR::ObjectMeshHolder::texturePerFace_'],['../classMR_1_1RenderMeshObject.html#a7ca63f2d3385ab5f38ca500ab1d468f7',1,'MR::RenderMeshObject::texturePerFace_']]],
   ['textureperfacesize_5f_32',['texturePerFaceSize_',['../classMR_1_1RenderMeshObject.html#a6fb6b9a55fd521017c1eea063af7225a',1,'MR::RenderMeshObject']]],
   ['textures_5f_33',['textures_',['../classMR_1_1ObjectMeshHolder.html#a00b7332057379b5380b52ad91a88ed4e',1,'MR::ObjectMeshHolder']]],

@@ -1,5 +1,16 @@
 var NAVTREEINDEX30 =
 {
+"classMR_1_1PlaneWidget.html#adf904937d1dcfe1bd338c31cd4e45a2d":[12,0,1,413,6],
+"classMR_1_1PluginCloseOnChangeMesh.html":[10,0,10,429],
+"classMR_1_1PluginCloseOnChangeMesh.html":[12,0,1,414],
+"classMR_1_1PluginCloseOnChangeMesh.html#a2e05f59d67c502229f3a2a2e919886fc":[10,0,10,429,1],
+"classMR_1_1PluginCloseOnChangeMesh.html#a2e05f59d67c502229f3a2a2e919886fc":[12,0,1,414,1],
+"classMR_1_1PluginCloseOnChangeMesh.html#a7b94773fd2366584812415d8cc83b4c1":[10,0,10,429,3],
+"classMR_1_1PluginCloseOnChangeMesh.html#a7b94773fd2366584812415d8cc83b4c1":[12,0,1,414,3],
+"classMR_1_1PluginCloseOnChangeMesh.html#a8a6dc440df682b00feb1b9fd10eab31a":[10,0,10,429,2],
+"classMR_1_1PluginCloseOnChangeMesh.html#a8a6dc440df682b00feb1b9fd10eab31a":[12,0,1,414,2],
+"classMR_1_1PluginCloseOnChangeMesh.html#af521c98fca4b1537e06ebf161605954d":[10,0,10,429,0],
+"classMR_1_1PluginCloseOnChangeMesh.html#af521c98fca4b1537e06ebf161605954d":[12,0,1,414,0],
 "classMR_1_1PluginCloseOnChangePointCloud.html":[10,0,10,430],
 "classMR_1_1PluginCloseOnChangePointCloud.html":[12,0,1,415],
 "classMR_1_1PluginCloseOnChangePointCloud.html#a3569c689e004637d73b414f0440e0046":[10,0,10,430,1],
@@ -238,16 +249,5 @@ var NAVTREEINDEX30 =
 "classMR_1_1RadiusMeasurementObject.html#a1b5aa08c8b28e86e8975727bc77f4ace":[12,0,1,468,15],
 "classMR_1_1RadiusMeasurementObject.html#a1ffb3dd2486ce97b6782022fd5302670":[10,0,10,483,21],
 "classMR_1_1RadiusMeasurementObject.html#a1ffb3dd2486ce97b6782022fd5302670":[12,0,1,468,21],
-"classMR_1_1RadiusMeasurementObject.html#a20c27fa1febacd50d91412edf55934a9":[10,0,10,483,25],
-"classMR_1_1RadiusMeasurementObject.html#a20c27fa1febacd50d91412edf55934a9":[12,0,1,468,25],
-"classMR_1_1RadiusMeasurementObject.html#a21bd1cbee7a50b939e1f8cfce837d477":[10,0,10,483,1],
-"classMR_1_1RadiusMeasurementObject.html#a21bd1cbee7a50b939e1f8cfce837d477":[12,0,1,468,1],
-"classMR_1_1RadiusMeasurementObject.html#a2385459fc51ba867da12e2d953eebd7f":[10,0,10,483,7],
-"classMR_1_1RadiusMeasurementObject.html#a2385459fc51ba867da12e2d953eebd7f":[12,0,1,468,7],
-"classMR_1_1RadiusMeasurementObject.html#a2f3a6dedd89bdd3d84945c24d0a86648":[10,0,10,483,11],
-"classMR_1_1RadiusMeasurementObject.html#a2f3a6dedd89bdd3d84945c24d0a86648":[12,0,1,468,11],
-"classMR_1_1RadiusMeasurementObject.html#a3afae609fa7f9727dbddd5906f442e07":[10,0,10,483,2],
-"classMR_1_1RadiusMeasurementObject.html#a3afae609fa7f9727dbddd5906f442e07":[12,0,1,468,2],
-"classMR_1_1RadiusMeasurementObject.html#a42db597cf6c86264265ae90f066d8b6b":[10,0,10,483,26],
-"classMR_1_1RadiusMeasurementObject.html#a42db597cf6c86264265ae90f066d8b6b":[12,0,1,468,26]
+"classMR_1_1RadiusMeasurementObject.html#a20c27fa1febacd50d91412edf55934a9":[10,0,10,483,25]
 };

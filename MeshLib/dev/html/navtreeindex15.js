@@ -1,5 +1,16 @@
 var NAVTREEINDEX15 =
 {
+"classMR_1_1CaptureScreenshotMenuItem.html#a6e4d5abb53a5914e552419d36d08880c":[10,0,10,85,0],
+"classMR_1_1CaptureScreenshotMenuItem.html#a6e4d5abb53a5914e552419d36d08880c":[12,0,1,70,0],
+"classMR_1_1CaptureScreenshotMenuItem.html#ac4b0cdb8632f4960672d36407fae15e8":[10,0,10,85,1],
+"classMR_1_1CaptureScreenshotMenuItem.html#ac4b0cdb8632f4960672d36407fae15e8":[12,0,1,70,1],
+"classMR_1_1CaptureScreenshotMenuItem.html#afcc8e12a918e1c2d28ac1dd19420a818":[10,0,10,85,2],
+"classMR_1_1CaptureScreenshotMenuItem.html#afcc8e12a918e1c2d28ac1dd19420a818":[12,0,1,70,2],
+"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html":[10,0,10,86],
+"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html":[12,0,1,71],
+"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#a5bf6d6d25422d614449691f27a8415d0":[10,0,10,86,0],
+"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#a5bf6d6d25422d614449691f27a8415d0":[12,0,1,71,0],
+"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#aa9768034e77b25ffed92bf08fbe11321":[10,0,10,86,1],
 "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#aa9768034e77b25ffed92bf08fbe11321":[12,0,1,71,1],
 "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#ab5b55d341a1d4daeb4b334eff9b98614":[10,0,10,86,2],
 "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#ab5b55d341a1d4daeb4b334eff9b98614":[12,0,1,71,2],
@@ -238,16 +249,5 @@ var NAVTREEINDEX15 =
 "classMR_1_1ChangeTextureAction.html#a6415831fcd79f6104620dcc3ae8b96a6":[9,4,6,2],
 "classMR_1_1ChangeTextureAction.html#ad5e78402371a9402c2bc3e58851fd874":[9,4,6,4],
 "classMR_1_1ChangeTextureAction.html#add3319a36aa18e770733fef0c61d2f9d":[9,4,6,3],
-"classMR_1_1ChangeValue.html":[9,4,27],
-"classMR_1_1ChangeValue.html#a0cdf8d0a543743f5f83872b03ff33891":[9,4,27,1],
-"classMR_1_1ChangeValue.html#a1ebe31dbc55d650d0de83ae16bfe2e52":[9,4,27,3],
-"classMR_1_1ChangeValue.html#a3c7d78b1f71f742ade3d4d065d0a09c1":[9,4,27,0],
-"classMR_1_1ChangeValue.html#a49b7b6012fb8adf78381f77cf6a1b9b1":[9,4,27,2],
-"classMR_1_1ChangeVertsColorMapAction.html":[9,4,28],
-"classMR_1_1ChangeVertsColorMapAction.html#a1a95d1d7e2662430d2a44131bb888751":[9,4,28,3],
-"classMR_1_1ChangeVertsColorMapAction.html#a5b053d5d184fadd40dde5737102c208f":[9,4,28,4],
-"classMR_1_1ChangeVertsColorMapAction.html#a85820c2fb1b34f635d51b6ca5b5b626a":[9,4,28,1],
-"classMR_1_1ChangeVertsColorMapAction.html#abc9ca0e165f8954481449a98d979894a":[9,4,28,2],
-"classMR_1_1ChangeVertsColorMapAction.html#acbea3a354ac04c83aac4d24b63c108a7":[9,4,28,0],
-"classMR_1_1ChangeVertsColorMapAction.html#afab050a8026282cb3ade8eff783f95e4":[9,4,28,5]
+"classMR_1_1ChangeValue.html":[9,4,27]
 };

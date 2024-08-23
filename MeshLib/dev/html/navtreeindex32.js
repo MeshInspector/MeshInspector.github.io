@@ -1,5 +1,16 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1RenderDistanceObject.html#a89012b958d80898ade371042c8cdf25e":[12,0,1,486,0],
+"classMR_1_1RenderDistanceObject.html#ad9844fa43c48be4e012ac940a46ab685":[10,0,10,501,1],
+"classMR_1_1RenderDistanceObject.html#ad9844fa43c48be4e012ac940a46ab685":[12,0,1,486,1],
+"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html":[10,0,10,30,1],
+"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html":[12,0,1,16,1],
+"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html#a29c87ece31c42b112098bfd2a019588e":[10,0,10,30,1,1],
+"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html#a29c87ece31c42b112098bfd2a019588e":[12,0,1,16,1,1],
+"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html#ad46f11039fa4117f1040bc2b3b5a4011":[10,0,10,30,1,0],
+"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html#ad46f11039fa4117f1040bc2b3b5a4011":[12,0,1,16,1,0],
+"classMR_1_1RenderFeatures_1_1RenderConeFeatureObject.html":[10,0,10,30,2],
+"classMR_1_1RenderFeatures_1_1RenderConeFeatureObject.html":[12,0,1,16,2],
 "classMR_1_1RenderFeatures_1_1RenderConeFeatureObject.html#aac5a73e456343b3de77158b5858cc64e":[10,0,10,30,2,1],
 "classMR_1_1RenderFeatures_1_1RenderConeFeatureObject.html#aac5a73e456343b3de77158b5858cc64e":[12,0,1,16,2,1],
 "classMR_1_1RenderFeatures_1_1RenderConeFeatureObject.html#ad655b05975ceda7d952b5547c22bd733":[10,0,10,30,2,0],
@@ -238,16 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1RenderMeshObject.html#a9497665a3752c1392372f7259db26d4a":[12,0,1,490,33],
 "classMR_1_1RenderMeshObject.html#aa84f76f4e99e7839a00f31fd4bae51d4":[10,0,10,505,47],
 "classMR_1_1RenderMeshObject.html#aa84f76f4e99e7839a00f31fd4bae51d4":[12,0,1,490,47],
-"classMR_1_1RenderMeshObject.html#aaca1c8b6779387b3ba8617dec0b4c336":[10,0,10,505,51],
-"classMR_1_1RenderMeshObject.html#aaca1c8b6779387b3ba8617dec0b4c336":[12,0,1,490,51],
-"classMR_1_1RenderMeshObject.html#ab2808bb9f682b7671b601fa9ba3348c4":[10,0,10,505,53],
-"classMR_1_1RenderMeshObject.html#ab2808bb9f682b7671b601fa9ba3348c4":[12,0,1,490,53],
-"classMR_1_1RenderMeshObject.html#ab85b5749a8074358f89fff480448ee5d":[10,0,10,505,30],
-"classMR_1_1RenderMeshObject.html#ab85b5749a8074358f89fff480448ee5d":[12,0,1,490,30],
-"classMR_1_1RenderMeshObject.html#abe7b4ee6ee91312d898e283b022cf5e0":[10,0,10,505,27],
-"classMR_1_1RenderMeshObject.html#abe7b4ee6ee91312d898e283b022cf5e0":[12,0,1,490,27],
-"classMR_1_1RenderMeshObject.html#ac596c74446d18169502743da84ebc997":[10,0,10,505,3],
-"classMR_1_1RenderMeshObject.html#ac596c74446d18169502743da84ebc997":[12,0,1,490,3],
-"classMR_1_1RenderMeshObject.html#ac5dda63e700cfe2742a7b9b1683649e6":[10,0,10,505,31],
-"classMR_1_1RenderMeshObject.html#ac5dda63e700cfe2742a7b9b1683649e6":[12,0,1,490,31]
+"classMR_1_1RenderMeshObject.html#aaca1c8b6779387b3ba8617dec0b4c336":[10,0,10,505,51]
 };
