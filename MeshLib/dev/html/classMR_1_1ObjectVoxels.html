@@ -238,6 +238,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7e16d8a108f465ccb925e3e36886739e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21fac797124aacbda1e3226395b7203f" id="r_a21fac797124aacbda1e3226395b7203f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#ad6642ccde3fa6038e3c67c773a86d17b">Box3i</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21fac797124aacbda1e3226395b7203f">getActiveBounds</a> () const</td></tr>
 <tr class="separator:a21fac797124aacbda1e3226395b7203f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0aa0743fd231994c74be01db09944e7" id="r_ab0aa0743fd231994c74be01db09944e7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0aa0743fd231994c74be01db09944e7">invalidateActiveBoundsCaches</a> ()</td></tr>
+<tr class="memdesc:ab0aa0743fd231994c74be01db09944e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call this function in main thread post processing if you call setActiveBounds from progress bar thread.  <br /></td></tr>
+<tr class="separator:ab0aa0743fd231994c74be01db09944e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2474b64ee36bdd0c3cbb7c2688559071" id="r_a2474b64ee36bdd0c3cbb7c2688559071"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a719df63fa5f4144ebfb8bc469e373878">VoxelBitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2474b64ee36bdd0c3cbb7c2688559071">getSelectedVoxels</a> () const</td></tr>
 <tr class="separator:a2474b64ee36bdd0c3cbb7c2688559071"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4333c77a23030251df09a35b3432fdd6" id="r_a4333c77a23030251df09a35b3432fdd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4333c77a23030251df09a35b3432fdd6">selectVoxels</a> (const <a class="el" href="namespaceMR.html#a719df63fa5f4144ebfb8bc469e373878">VoxelBitSet</a> &amp;selectedVoxels)</td></tr>
@@ -1929,6 +1932,33 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ab0aa0743fd231994c74be01db09944e7" name="ab0aa0743fd231994c74be01db09944e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0aa0743fd231994c74be01db09944e7">&#9670;&#160;</a></span>invalidateActiveBoundsCaches()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectVoxels::invalidateActiveBoundsCaches </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Call this function in main thread post processing if you call setActiveBounds from progress bar thread. </p>
+
+</div>
+</div>
 <a id="a1e13873d4779acb7a43e40d9b78cce31" name="a1e13873d4779acb7a43e40d9b78cce31"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1e13873d4779acb7a43e40d9b78cce31">&#9670;&#160;</a></span>isVolumeRenderingEnabled()</h2>
 
@@ -2209,8 +2239,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Sets active bounds for some simplifications (max excluded) active bounds is box in voxel coordinates, note that voxels under (0,0,0) and voxels over (dimensions) are empty <br  />
- </p>
+<p>Sets active bounds for some simplifications (max excluded) active bounds is box in voxel coordinates, note that voxels under (0,0,0) and voxels over (dimensions) are empty NOTE: don't forget to call <code>invalidateActiveBoundsCaches</code> if you call this function from progress bar thread </p>
 
 </div>
 </div>

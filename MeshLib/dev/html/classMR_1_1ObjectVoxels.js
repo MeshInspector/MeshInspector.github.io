@@ -36,6 +36,7 @@ var classMR_1_1ObjectVoxels =
     [ "hasVisualRepresentation", "classMR_1_1ObjectVoxels.html#a70a28a2e9a9d754bec5509ed18b5cb45", null ],
     [ "heapBytes", "classMR_1_1ObjectVoxels.html#a345d4438fb7808f95b3ca2dc9a1ad33b", null ],
     [ "histogram", "classMR_1_1ObjectVoxels.html#af4e1350561bc2e71d56741b954562868", null ],
+    [ "invalidateActiveBoundsCaches", "classMR_1_1ObjectVoxels.html#ab0aa0743fd231994c74be01db09944e7", null ],
     [ "isVolumeRenderingEnabled", "classMR_1_1ObjectVoxels.html#a1e13873d4779acb7a43e40d9b78cce31", null ],
     [ "operator=", "classMR_1_1ObjectVoxels.html#a2f2260ca64565ffbedc9236f28e19b98", null ],
     [ "prepareDataForVolumeRendering", "classMR_1_1ObjectVoxels.html#a9a313b9b8361815829252ae55a560ea1", null ],

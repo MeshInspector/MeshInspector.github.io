@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1Matrix4.html#a4107d00647824c81b8988f9c40f24a9d":[9,0,7,3,28],
 "structMR_1_1Matrix4.html#a46de12be029c280190f995c40660c426":[9,0,7,3,26],
 "structMR_1_1Matrix4.html#a4851d2b5257b7719eb495d118d57aafa":[9,0,7,3,20],
 "structMR_1_1Matrix4.html#a4b83aa70bbea736d6ffff5253debfb3b":[9,0,7,3,19],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1MeshIntersectionResult.html#aa6767f8fee0dd3f9883b1657e2d9fcb2":[9,1,20,2],
 "structMR_1_1MeshLoadInfo.html":[9,13,10],
 "structMR_1_1MeshLoadInfo.html#a256d5e1bb1c47b9f0c30d2d9ff67f363":[9,13,10,1],
-"structMR_1_1MeshLoadInfo.html#aa47bbfdd7c99e7cd980eb3988f212d72":[9,13,10,0],
-"structMR_1_1MeshLoadSettings.html":[10,0,10,326]
+"structMR_1_1MeshLoadInfo.html#aa47bbfdd7c99e7cd980eb3988f212d72":[9,13,10,0]
 };
