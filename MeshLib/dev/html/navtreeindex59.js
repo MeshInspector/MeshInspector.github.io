@@ -1,6 +1,5 @@
 var NAVTREEINDEX59 =
 {
-"structMR_1_1DecimatePolylineSettings.html#adce38a07b8b04db0fe998e792e4a6e34":[9,12,3,6],
 "structMR_1_1DecimatePolylineSettings.html#ae829d8045ed74bf373bd86f2d835151a":[9,12,3,5],
 "structMR_1_1DecimatePolylineSettings.html#af5825891f4645db66db82c3b6aa2cffe":[9,12,3,8],
 "structMR_1_1DecimateResult.html":[9,12,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX59 =
 "structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daea6e26772b8233151b64f9f5f360d3b59d":[10,0,10,188,0,2],
 "structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daea6e26772b8233151b64f9f5f360d3b59d":[12,0,1,173,0,2],
 "structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daeacb2c48e02fa97481e3ae0fc91ae33e83":[10,0,10,188,0,1],
-"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daeacb2c48e02fa97481e3ae0fc91ae33e83":[12,0,1,173,0,1]
+"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daeacb2c48e02fa97481e3ae0fc91ae33e83":[12,0,1,173,0,1],
+"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daead60045a2874c5c25a5faec2bcb288fe3":[10,0,10,188,0,0]
 };

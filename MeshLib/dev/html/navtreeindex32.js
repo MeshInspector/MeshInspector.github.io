@@ -1,6 +1,5 @@
 var NAVTREEINDEX32 =
 {
-"classMR_1_1RenderDistanceObject.html#a89012b958d80898ade371042c8cdf25e":[10,0,10,501,0],
 "classMR_1_1RenderDistanceObject.html#a89012b958d80898ade371042c8cdf25e":[12,0,1,486,0],
 "classMR_1_1RenderDistanceObject.html#ad9844fa43c48be4e012ac940a46ab685":[10,0,10,501,1],
 "classMR_1_1RenderDistanceObject.html#ad9844fa43c48be4e012ac940a46ab685":[12,0,1,486,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX32 =
 "classMR_1_1RenderMeshObject.html#a9497665a3752c1392372f7259db26d4a":[10,0,10,505,33],
 "classMR_1_1RenderMeshObject.html#a9497665a3752c1392372f7259db26d4a":[12,0,1,490,33],
 "classMR_1_1RenderMeshObject.html#aa84f76f4e99e7839a00f31fd4bae51d4":[10,0,10,505,47],
-"classMR_1_1RenderMeshObject.html#aa84f76f4e99e7839a00f31fd4bae51d4":[12,0,1,490,47]
+"classMR_1_1RenderMeshObject.html#aa84f76f4e99e7839a00f31fd4bae51d4":[12,0,1,490,47],
+"classMR_1_1RenderMeshObject.html#aaca1c8b6779387b3ba8617dec0b4c336":[10,0,10,505,51]
 };

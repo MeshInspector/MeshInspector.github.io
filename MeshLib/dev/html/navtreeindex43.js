@@ -1,6 +1,5 @@
 var NAVTREEINDEX43 =
 {
-"classMR_1_1VolumeIndexer.html":[9,19,0,1],
 "classMR_1_1VolumeSegmenter.html":[9,19,1,1],
 "classMR_1_1VolumeSegmenter.html#a1e60835e895738ed66679e5f39acf19f":[9,19,1,1,7],
 "classMR_1_1VolumeSegmenter.html#a41b495dd66f5ad9eaa656a20be4ae95c":[9,19,1,1,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX43 =
 "classMultiwayICP.html#ac15a80770ec41daa16718766a269090e":[12,0,47,11],
 "classMultiwayICP.html#afaf16621595b816afed6daacb43de1c4":[12,0,47,9],
 "classMultiwayICP.html#afed751f284dc6e681eb47821a98cfedc":[12,0,47,3],
-"classOffset.html":[12,0,49]
+"classOffset.html":[12,0,49],
+"classOffsetParameters.html":[12,0,50]
 };

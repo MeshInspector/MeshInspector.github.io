@@ -28,7 +28,7 @@ var searchData=
   ['getaabbtreenotcreate_25',['getAABBTreeNotCreate',['../structMR_1_1Mesh.html#a3a4be0475ee77042c23f150bf522aae7',1,'MR::Mesh::getAABBTreeNotCreate()'],['../structMR_1_1PointCloud.html#ac58b0b5f3bf2f48f46f9fe30e054b7cb',1,'MR::PointCloud::getAABBTreeNotCreate()'],['../structMR_1_1Polyline.html#a363c6648b8fe1702f69d019676856179',1,'MR::Polyline::getAABBTreeNotCreate()']]],
   ['getaabbtreepoints_26',['getAABBTreePoints',['../structMR_1_1Mesh.html#ace32bbac5b626dbbf99b27214ebed57d',1,'MR::Mesh']]],
   ['getaabbtreepointsnotcreate_27',['getAABBTreePointsNotCreate',['../structMR_1_1Mesh.html#a88f3660852b3da7957b674e29f125150',1,'MR::Mesh']]],
-  ['getactivebounds_28',['getActiveBounds',['../classMR_1_1ObjectVoxels.html#a21fac797124aacbda1e3226395b7203f',1,'MR::ObjectVoxels']]],
+  ['getactivebounds_28',['getActiveBounds',['../classMR_1_1ObjectVoxels.html#a12b56fcf33b5e4dc2bdee0ee51de2e5d',1,'MR::ObjectVoxels']]],
   ['getactivebox_29',['getActiveBox',['../classMR_1_1MarkedVoxelSlice.html#a3eb57f66e35c3ad6e95531620e2e40fa',1,'MR::MarkedVoxelSlice']]],
   ['getactiveplane_30',['getActivePlane',['../classMR_1_1MarkedVoxelSlice.html#a21bf4ef527270ad0d69f992c4378f606',1,'MR::MarkedVoxelSlice']]],
   ['getactivepoint_31',['getActivePoint',['../classMR_1_1SurfaceContoursWidget.html#a9c431d937f0bfefb8fb898b61dd6c099',1,'MR::SurfaceContoursWidget']]],
