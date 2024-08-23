@@ -1,10 +1,10 @@
 var classMR_1_1GlTexture =
 [
     [ "Settings", "structMR_1_1GlTexture_1_1Settings.html", "structMR_1_1GlTexture_1_1Settings" ],
-    [ "GlTexture", "classMR_1_1GlTexture.html#acbc8fdf580fc9a31ef6c3677c1b51a39", null ],
+    [ "GlTexture", "classMR_1_1GlTexture.html#a7be43c41cc0cfc57c53d4e3cac02a449", null ],
     [ "GlTexture", "classMR_1_1GlTexture.html#a628b06fbd65ce8a5e40f9f3f62e15d5e", null ],
-    [ "GlTexture", "classMR_1_1GlTexture.html#a757d55ad33e354dc9d9167fcde9dede2", null ],
-    [ "~GlTexture", "classMR_1_1GlTexture.html#aa6b65ac74ebbe2a0e82eabfd7473b048", null ],
+    [ "GlTexture", "classMR_1_1GlTexture.html#ab3beacb78e2572350f1b40b817059e4f", null ],
+    [ "~GlTexture", "classMR_1_1GlTexture.html#a381d704de87710189350e842dab5ad18", null ],
     [ "bind", "classMR_1_1GlTexture.html#ae1b7d7ab7174f46431b88ca69d8ee589", null ],
     [ "del", "classMR_1_1GlTexture.html#a14068864ba6ea4ba93a3504914da5318", null ],
     [ "gen", "classMR_1_1GlTexture.html#a93b01874cfb524236811acf50f7af69c", null ],
