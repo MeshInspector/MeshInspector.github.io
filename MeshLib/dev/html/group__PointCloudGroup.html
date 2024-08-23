@@ -128,13 +128,13 @@ Functions</h2></td></tr>
 <tr class="memitem:gad56601e20058641f49fa277149d87e08" id="r_gad56601e20058641f49fa277149d87e08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad56601e20058641f49fa277149d87e08">MR::improveSampling</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, <a class="el" href="namespaceMR.html#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a> &amp;samples, const <a class="el" href="structMR_1_1ImproveSamplingSettings.html">ImproveSamplingSettings</a> &amp;settings)</td></tr>
 <tr class="separator:gad56601e20058641f49fa277149d87e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga42d06dcccdf8aba01730bf868b2fec39" id="r_ga42d06dcccdf8aba01730bf868b2fec39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="namespaceMR.html#add01b9458cf33fc6a3d41fff9a44e8f7">VertNormals</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga42d06dcccdf8aba01730bf868b2fec39">MR::makeUnorientedNormals</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, float radius, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
-<tr class="memdesc:ga42d06dcccdf8aba01730bf868b2fec39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes normals for valid points of given point cloud by directing them along the normal (in one of two sides arbitrary) of best plane through the neighbours.  <br /></td></tr>
+<tr class="memdesc:ga42d06dcccdf8aba01730bf868b2fec39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes normals for valid points of given point cloud by directing them along the normal of best plane through the neighbours, and direct the normal toward the origin.  <br /></td></tr>
 <tr class="separator:ga42d06dcccdf8aba01730bf868b2fec39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga04eb12c4821cbe0801dbc7dc8472992c" id="r_ga04eb12c4821cbe0801dbc7dc8472992c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="namespaceMR.html#add01b9458cf33fc6a3d41fff9a44e8f7">VertNormals</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga04eb12c4821cbe0801dbc7dc8472992c">MR::makeUnorientedNormals</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const <a class="el" href="structMR_1_1AllLocalTriangulations.html">AllLocalTriangulations</a> &amp;triangs, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
-<tr class="memdesc:ga04eb12c4821cbe0801dbc7dc8472992c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes normals for valid points of given point cloud by directing them along the normal (in one of two sides arbitrary) of best plane through the neighbours \triangs triangulation neighbours of each point.  <br /></td></tr>
+<tr class="memdesc:ga04eb12c4821cbe0801dbc7dc8472992c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes normals for valid points of given point cloud by directing them along the normal of best plane through the neighbours, and direct the normal toward the origin \triangs triangulation neighbours of each point.  <br /></td></tr>
 <tr class="separator:ga04eb12c4821cbe0801dbc7dc8472992c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac7146c862a7b70f47e77f3cc3ffc9a23" id="r_gac7146c862a7b70f47e77f3cc3ffc9a23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="namespaceMR.html#add01b9458cf33fc6a3d41fff9a44e8f7">VertNormals</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac7146c862a7b70f47e77f3cc3ffc9a23">MR::makeUnorientedNormals</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; <a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> &gt; &amp;closeVerts, int numNei, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
-<tr class="memdesc:gac7146c862a7b70f47e77f3cc3ffc9a23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes normals for valid points of given point cloud by directing them along the normal (in one of two sides arbitrary) of best plane through the neighbours.  <br /></td></tr>
+<tr class="memdesc:gac7146c862a7b70f47e77f3cc3ffc9a23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes normals for valid points of given point cloud by directing them along the normal of best plane through the neighbours, and direct the normal toward the origin.  <br /></td></tr>
 <tr class="separator:gac7146c862a7b70f47e77f3cc3ffc9a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac088f8a5d90a98ec6f18e97caca298f2" id="r_gac088f8a5d90a98ec6f18e97caca298f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac088f8a5d90a98ec6f18e97caca298f2">MR::orientNormals</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, <a class="el" href="namespaceMR.html#add01b9458cf33fc6a3d41fff9a44e8f7">VertNormals</a> &amp;normals, float radius, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
 <tr class="memdesc:gac088f8a5d90a98ec6f18e97caca298f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select orientation of given normals to make directions of close points consistent;.  <br /></td></tr>
@@ -409,7 +409,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Makes normals for valid points of given point cloud by directing them along the normal (in one of two sides arbitrary) of best plane through the neighbours \triangs triangulation neighbours of each point. </p>
+<p>Makes normals for valid points of given point cloud by directing them along the normal of best plane through the neighbours, and direct the normal toward the origin \triangs triangulation neighbours of each point. </p>
 <dl class="section return"><dt>Returns</dt><dd>nullopt if progress returned false </dd></dl>
 
 </div>
@@ -451,7 +451,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Makes normals for valid points of given point cloud by directing them along the normal (in one of two sides arbitrary) of best plane through the neighbours. </p>
+<p>Makes normals for valid points of given point cloud by directing them along the normal of best plane through the neighbours, and direct the normal toward the origin. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">closeVerts</td><td>a buffer where for every valid point #i its neighbours are stored at indices [i*numNei; (i+1)*numNei) </td></tr>
@@ -494,7 +494,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Makes normals for valid points of given point cloud by directing them along the normal (in one of two sides arbitrary) of best plane through the neighbours. </p>
+<p>Makes normals for valid points of given point cloud by directing them along the normal of best plane through the neighbours, and direct the normal toward the origin. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">radius</td><td>of neighborhood to consider </td></tr>
