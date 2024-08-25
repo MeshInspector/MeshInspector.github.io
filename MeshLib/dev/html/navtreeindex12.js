@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"MRUIStyle_8h.html#af81d056e2ca2afaceec0e67e12ed9afb":[13,0,0,2,8,112,50],
 "MRUIStyle_8h.html#afadef8b878371dc0bc9aa07df5dec003":[13,0,0,2,8,112,14],
 "MRUIStyle_8h.html#afbf63021d04e94c878b093fd86fef43f":[13,0,0,2,8,112,18],
 "MRUIStyle_8h.html#afc1009af05439b78707e8372d21f9a87":[13,0,0,2,8,112,51],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "MRVoxelsVolume_8h_source.html":[13,0,0,2,3,399],
 "MRWasmUnavailablePlugin_8h.html":[13,0,0,2,0,0,2],
 "MRWasmUnavailablePlugin_8h_source.html":[13,0,0,2,0,0,2],
-"MRWatershedGraph_8h.html":[13,0,0,2,3,401],
-"MRWatershedGraph_8h_source.html":[13,0,0,2,3,401]
+"MRWatershedGraph_8h.html":[13,0,0,2,3,401]
 };

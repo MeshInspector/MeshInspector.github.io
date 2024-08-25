@@ -1,5 +1,11 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab3d9e28df35121c177e6e2eead86a43a":[10,0,10,612,0,4],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab3d9e28df35121c177e6e2eead86a43a":[12,0,1,597,0,4],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ac91503b98cd4530afb0bafe21f09b924":[10,0,10,612,0,5],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ac91503b98cd4530afb0bafe21f09b924":[12,0,1,597,0,5],
+"structMR_1_1SurfacePointWidget_1_1Parameters.html":[10,0,10,613,0],
+"structMR_1_1SurfacePointWidget_1_1Parameters.html":[12,0,1,598,0],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#a38a5a4681452f28c8f94a4b8f3bf7685":[10,0,10,613,0,5],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#a38a5a4681452f28c8f94a4b8f3bf7685":[12,0,1,598,0,5],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#a42b9955e23ce28c95ebdc5c3c78dae7f":[10,0,10,613,0,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadce":[12,0,1,619,0],
 "structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e":[10,0,10,634,0,1],
 "structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e":[12,0,1,619,0,1],
-"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1":[10,0,10,634,0,0],
-"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1":[12,0,1,619,0,0],
-"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceae93f994f01c537c4e2f7d8528c3eb5e9":[10,0,10,634,0,2],
-"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceae93f994f01c537c4e2f7d8528c3eb5e9":[12,0,1,619,0,2],
-"structMR_1_1TouchpadParameters.html#a9ae8b021b03e91d547e512ba94391092":[10,0,10,634,2],
-"structMR_1_1TouchpadParameters.html#a9ae8b021b03e91d547e512ba94391092":[12,0,1,619,2],
-"structMR_1_1TouchpadParameters.html#addabc579478d3071f3b5a951ab574251":[10,0,10,634,1]
+"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1":[10,0,10,634,0,0]
 };

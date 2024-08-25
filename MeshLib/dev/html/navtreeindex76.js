@@ -1,5 +1,11 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1UnorientedTriangle.html#a74d6d544ece458f69514e02465ea0a1e":[12,0,1,652,1],
+"structMR_1_1UnorientedTriangle.html#aa917f541ba687e11cb12638018c11f49":[10,0,10,667,0],
+"structMR_1_1UnorientedTriangle.html#aa917f541ba687e11cb12638018c11f49":[12,0,1,652,0],
+"structMR_1_1VariableEdgeTri.html":[10,0,10,668],
+"structMR_1_1VariableEdgeTri.html":[12,0,1,653],
+"structMR_1_1VariableEdgeTri.html#aaf806bd6bbc163135641f8a5ca2a6f5f":[10,0,10,668,0],
 "structMR_1_1VariableEdgeTri.html#aaf806bd6bbc163135641f8a5ca2a6f5f":[12,0,1,653,0],
 "structMR_1_1Vector2.html":[9,0,12,0],
 "structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c":[9,0,12,0,27],
@@ -243,11 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1Viewport_1_1TriCornerColors.html#a52ef91aaa0208aa1e90b238eef7bbee9":[12,0,1,673,3,0],
 "structMR_1_1VolumeSegmentationParameters.html":[9,19,1,0],
 "structMR_1_1VolumeSegmentationParameters.html#aa059718068f7c4b81e33e2a1a3e7460c":[9,19,1,0,2],
-"structMR_1_1VolumeSegmentationParameters.html#ab07494ac7f1627ecc2dfce39e9502118":[9,19,1,0,1],
-"structMR_1_1VolumeSegmentationParameters.html#af000ea80a099a9de6d4f4f4475580b6c":[9,19,1,0,0],
-"structMR_1_1VolumeToMeshByPartsSettings.html":[9,19,4],
-"structMR_1_1VolumeToMeshByPartsSettings.html#a49895c0e58dfde0834b03dcc99e6279c":[9,19,4,1],
-"structMR_1_1VolumeToMeshByPartsSettings.html#addf979a4cc4d34fb2f506e84d1a9cf7a":[9,19,4,0],
-"structMR_1_1VoxelLocation.html":[9,19,0,0],
-"structMR_1_1VoxelMetricParameters.html":[9,19,2,0]
+"structMR_1_1VolumeSegmentationParameters.html#ab07494ac7f1627ecc2dfce39e9502118":[9,19,1,0,1]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1":[12,0,1,619,0,0],
+"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceae93f994f01c537c4e2f7d8528c3eb5e9":[10,0,10,634,0,2],
+"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceae93f994f01c537c4e2f7d8528c3eb5e9":[12,0,1,619,0,2],
+"structMR_1_1TouchpadParameters.html#a9ae8b021b03e91d547e512ba94391092":[10,0,10,634,2],
+"structMR_1_1TouchpadParameters.html#a9ae8b021b03e91d547e512ba94391092":[12,0,1,619,2],
+"structMR_1_1TouchpadParameters.html#addabc579478d3071f3b5a951ab574251":[10,0,10,634,1],
 "structMR_1_1TouchpadParameters.html#addabc579478d3071f3b5a951ab574251":[12,0,1,619,1],
 "structMR_1_1TouchpadRotateGestureBeginListener.html":[10,0,10,635],
 "structMR_1_1TouchpadRotateGestureBeginListener.html":[12,0,1,620],
@@ -243,11 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1UI_1_1ButtonCustomizationParams.html#a28dc0364454bce82687aec5e5773623b":[12,0,1,21,1,4],
 "structMR_1_1UI_1_1ButtonCustomizationParams.html#a39f7611697c3b8dca64336b3cc48a7cc":[10,0,10,36,2,1],
 "structMR_1_1UI_1_1ButtonCustomizationParams.html#a39f7611697c3b8dca64336b3cc48a7cc":[12,0,1,21,1,1],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#a44e7a1e13298276ebd757d7e318111a0":[10,0,10,36,2,0],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#a44e7a1e13298276ebd757d7e318111a0":[12,0,1,21,1,0],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#aa05d1e76244fb6b4afc1122ad02e1d5e":[10,0,10,36,2,5],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#aa05d1e76244fb6b4afc1122ad02e1d5e":[12,0,1,21,1,5],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#aa156c6a89d078c902ee22cbfb09bfc42":[10,0,10,36,2,3],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#aa156c6a89d078c902ee22cbfb09bfc42":[12,0,1,21,1,3],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#ace10f316495c9cf052464a0154fee1c5":[10,0,10,36,2,2]
+"structMR_1_1UI_1_1ButtonCustomizationParams.html#a44e7a1e13298276ebd757d7e318111a0":[10,0,10,36,2,0]
 };

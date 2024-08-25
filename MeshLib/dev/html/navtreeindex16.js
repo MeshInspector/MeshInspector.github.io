@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"classMR_1_1ChangeValue.html":[9,4,27],
 "classMR_1_1ChangeValue.html#a0cdf8d0a543743f5f83872b03ff33891":[9,4,27,1],
 "classMR_1_1ChangeValue.html#a1ebe31dbc55d650d0de83ae16bfe2e52":[9,4,27,3],
 "classMR_1_1ChangeValue.html#a3c7d78b1f71f742ade3d4d065d0a09c1":[9,4,27,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1CommandLoop.html#a2e4318196fd48b27b617c07eb35bbe39af86d54fce93fffda37739a9dbfc37c4c":[12,0,1,120,1,0],
 "classMR_1_1CommandLoop.html#a517bdd4c876165f0896a0780d5fea918":[10,0,10,135,0],
 "classMR_1_1CommandLoop.html#a517bdd4c876165f0896a0780d5fea918":[12,0,1,120,0],
-"classMR_1_1Cone3.html":[10,0,10,137],
-"classMR_1_1Cone3.html":[12,0,1,122]
+"classMR_1_1Cone3.html":[10,0,10,137]
 };

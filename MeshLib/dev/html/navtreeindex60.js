@@ -1,5 +1,11 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84dae":[12,0,1,173,0],
+"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daea6e26772b8233151b64f9f5f360d3b59d":[10,0,10,188,0,2],
+"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daea6e26772b8233151b64f9f5f360d3b59d":[12,0,1,173,0,2],
+"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daeacb2c48e02fa97481e3ae0fc91ae33e83":[10,0,10,188,0,1],
+"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daeacb2c48e02fa97481e3ae0fc91ae33e83":[12,0,1,173,0,1],
+"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daead60045a2874c5c25a5faec2bcb288fe3":[10,0,10,188,0,0],
 "structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daead60045a2874c5c25a5faec2bcb288fe3":[12,0,1,173,0,0],
 "structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785ae":[10,0,10,188,1],
 "structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785ae":[12,0,1,173,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#ae7cbce0a25261174c06274fcaffe2a0f":[10,0,10,6,2,0,5],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#ae7cbce0a25261174c06274fcaffe2a0f":[12,0,1,2,2,0,5],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aed8c3331e8b7c2fd1ab738f49d87f5ce":[10,0,10,6,2,0,7],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aed8c3331e8b7c2fd1ab738f49d87f5ce":[12,0,1,2,2,0,7],
-"structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html":[10,0,10,6,2,1],
-"structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html":[12,0,1,2,2,1],
-"structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html#a7985af9aca32411b60aec8f8e6178e92":[10,0,10,6,2,1,0],
-"structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html#a7985af9aca32411b60aec8f8e6178e92":[12,0,1,2,2,1,0],
-"structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html#a86193b4dbe9a464e56ff2fe272c46486":[10,0,10,6,2,1,1],
-"structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html#a86193b4dbe9a464e56ff2fe272c46486":[12,0,1,2,2,1,1]
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aed8c3331e8b7c2fd1ab738f49d87f5ce":[12,0,1,2,2,0,7]
 };
