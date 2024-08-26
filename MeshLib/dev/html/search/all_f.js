@@ -362,7 +362,7 @@ var searchData=
   ['minangleprecision_359',['minAnglePrecision',['../structMR_1_1EmbeddedStructureParameters.html#aae10852bdbbce2035519d95bceadd171',1,'MR::EmbeddedStructureParameters::minAnglePrecision'],['../structMR_1_1OffsetContoursParams.html#a52ea8121bcdb1c1f7d2c638a77f9b9d9',1,'MR::OffsetContoursParams::minAnglePrecision']]],
   ['minarea_360',['minArea',['../group__MeshComponentsGroup.html#ga636d67f78f166efbfe9ac18cc9d0d530',1,'MR::MeshComponents::LargeByAreaComponentsSettings']]],
   ['minareafraction_361',['minAreaFraction',['../structMR_1_1FindOverlappingSettings.html#a2fb083294a0bd854f423edd314775ad7',1,'MR::FindOverlappingSettings']]],
-  ['mincoord_362',['minCoord',['../classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html#a6ecb5e8ad9da57dff026f2c0bc85f404',1,'MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;']]],
+  ['mincoord_362',['minCoord',['../classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html#a3df011766c40c1643253a7c4c1871135',1,'MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;']]],
   ['mindist_363',['minDist',['../structMR_1_1ContoursDistanceMapOptions.html#abaa6a767d5ebd7c04e839e485898634f',1,'MR::ContoursDistanceMapOptions']]],
   ['mindistance_364',['minDistance',['../classMR_1_1MoveObjectByMouseImpl.html#a8ed871e4f43e2c23e6b2cfb9aae9b0ae',1,'MR::MoveObjectByMouseImpl']]],
   ['mindistsq_365',['minDistSq',['../structMR_1_1DistanceToMeshOptions.html#ae2fa63f37be78f78cc9c0146c30c913f',1,'MR::DistanceToMeshOptions']]],

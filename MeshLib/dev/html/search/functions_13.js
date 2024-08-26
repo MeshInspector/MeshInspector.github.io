@@ -88,7 +88,7 @@ var searchData=
   ['touchpadzoomgestureupdate_85',['touchpadZoomGestureUpdate',['../classMR_1_1Viewer.html#aadd66cdbf85d287f9d24d67f49dbc416',1,'MR::Viewer']]],
   ['touchpadzoomgestureupdate_5f_86',['touchpadZoomGestureUpdate_',['../classMR_1_1ImGuiMenu.html#a6e66701283ee97b5ff913eb99b22b975',1,'MR::ImGuiMenu::touchpadZoomGestureUpdate_()'],['../structMR_1_1TouchpadZoomGestureUpdateListener.html#ae08054a4d6183bf4e0352e5ecdfcb450',1,'MR::TouchpadZoomGestureUpdateListener::touchpadZoomGestureUpdate_()']]],
   ['touchstart_87',['touchStart',['../classMR_1_1Viewer.html#a477a9c818f621b480bfe6bceb017d06e',1,'MR::Viewer']]],
-  ['tovdb_88',['toVdb',['../group__IOGroup.html#ga530bddb3978561bd65f0c88b535b120c',1,'MR::VoxelsSave']]],
+  ['tovdb_88',['toVdb',['../group__BasicStructuresGroup.html#ga3688d13b069aa87ec153b375d36cee83',1,'MR::toVdb()'],['../group__IOGroup.html#ga530bddb3978561bd65f0c88b535b120c',1,'MR::VoxelsSave::toVdb()']]],
   ['tovec4_89',['toVec4',['../namespaceMR.html#a8f5fb86a1540069cb56260e0edbde09e',1,'MR']]],
   ['tovector3f_90',['toVector3f',['../classMR_1_1SurfacePointWidget.html#afd5f43e81c4b52948c3571465f625f66',1,'MR::SurfacePointWidget']]],
   ['tovoxelid_91',['toVoxelId',['../group__VoxelGroup.html#ga1e9ca6412f80a5ce4751fb16cad4ce2c',1,'MR::VolumeIndexer']]],

@@ -132,10 +132,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7dcd7da9538cdabf19f8ba7df37407d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0110b47db298ab6d8434751e3dcc795d" id="r_a0110b47db298ab6d8434751e3dcc795d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a6c1caa3832a33e6477c2eb7f3a1d0b1d">ValueType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0110b47db298ab6d8434751e3dcc795d">get</a> (const <a class="el" href="structMR_1_1VoxelLocation.html">VoxelLocation</a> &amp;loc) const</td></tr>
 <tr class="separator:a0110b47db298ab6d8434751e3dcc795d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a5643403417a3ab6552522d0cd73ad7" id="r_a7a5643403417a3ab6552522d0cd73ad7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a6c1caa3832a33e6477c2eb7f3a1d0b1d">ValueType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a5643403417a3ab6552522d0cd73ad7">safeGet</a> (const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;pos) const</td></tr>
-<tr class="separator:a7a5643403417a3ab6552522d0cd73ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ecb5e8ad9da57dff026f2c0bc85f404" id="r_a6ecb5e8ad9da57dff026f2c0bc85f404"><td class="memItemLeft" align="right" valign="top">const openvdb::Coord &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ecb5e8ad9da57dff026f2c0bc85f404">minCoord</a> () const</td></tr>
-<tr class="separator:a6ecb5e8ad9da57dff026f2c0bc85f404"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3df011766c40c1643253a7c4c1871135" id="r_a3df011766c40c1643253a7c4c1871135"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3df011766c40c1643253a7c4c1871135">minCoord</a> () const</td></tr>
+<tr class="separator:a3df011766c40c1643253a7c4c1871135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67dfdaf568c4844e1435a42bec259460" id="r_a67dfdaf568c4844e1435a42bec259460"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67dfdaf568c4844e1435a42bec259460">shift</a> () const</td></tr>
+<tr class="memdesc:a67dfdaf568c4844e1435a42bec259460"><td class="mdescLeft">&#160;</td><td class="mdescRight">this additional shift shall be added to integer voxel coordinates during transformation in 3D space  <br /></td></tr>
+<tr class="separator:a67dfdaf568c4844e1435a42bec259460"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classMR_1_1VoxelsVolumeAccessor.html" title="helper class for generalized voxel volume data access">VoxelsVolumeAccessor</a> specialization for VDB volume. </p>
@@ -245,8 +246,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6ecb5e8ad9da57dff026f2c0bc85f404" name="a6ecb5e8ad9da57dff026f2c0bc85f404"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ecb5e8ad9da57dff026f2c0bc85f404">&#9670;&#160;</a></span>minCoord()</h2>
+<a id="a3df011766c40c1643253a7c4c1871135" name="a3df011766c40c1643253a7c4c1871135"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3df011766c40c1643253a7c4c1871135">&#9670;&#160;</a></span>minCoord()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -255,7 +256,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const openvdb::Coord &amp; <a class="el" href="classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt; <a class="el" href="namespaceMR.html#a6f4840fc8af88eb8e896ad708d375644">VdbVolume</a> &gt;::minCoord </td>
+          <td class="memname">const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp; <a class="el" href="classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt; <a class="el" href="namespaceMR.html#a6f4840fc8af88eb8e896ad708d375644">VdbVolume</a> &gt;::minCoord </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -270,8 +271,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7a5643403417a3ab6552522d0cd73ad7" name="a7a5643403417a3ab6552522d0cd73ad7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a5643403417a3ab6552522d0cd73ad7">&#9670;&#160;</a></span>safeGet()</h2>
+<a id="a67dfdaf568c4844e1435a42bec259460" name="a67dfdaf568c4844e1435a42bec259460"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67dfdaf568c4844e1435a42bec259460">&#9670;&#160;</a></span>shift()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -280,9 +281,9 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a6c1caa3832a33e6477c2eb7f3a1d0b1d">ValueType</a> <a class="el" href="classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt; <a class="el" href="namespaceMR.html#a6f4840fc8af88eb8e896ad708d375644">VdbVolume</a> &gt;::safeGet </td>
+          <td class="memname"><a class="el" href="classVector3f.html">Vector3f</a> <a class="el" href="classMR_1_1VoxelsVolumeAccessor.html">MR::VoxelsVolumeAccessor</a>&lt; <a class="el" href="namespaceMR.html#a6f4840fc8af88eb8e896ad708d375644">VdbVolume</a> &gt;::shift </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -292,6 +293,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>this additional shift shall be added to integer voxel coordinates during transformation in 3D space </p>
 
 </div>
 </div>

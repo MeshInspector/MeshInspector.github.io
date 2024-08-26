@@ -169,6 +169,10 @@ Functions</h2></td></tr>
 <tr class="memitem:gae84dac6352423cd123a4f2aba32c3250" id="r_gae84dac6352423cd123a4f2aba32c3250"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae84dac6352423cd123a4f2aba32c3250">MR::MakeFloatGrid</a> (openvdb::FloatGrid::Ptr &amp;&amp;p)</td></tr>
 <tr class="memdesc:gae84dac6352423cd123a4f2aba32c3250"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">MR::FloatGrid</a> shared pointer taking the contents of the input pointer  <br /></td></tr>
 <tr class="separator:gae84dac6352423cd123a4f2aba32c3250"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacb5df1852aebff4993113e66bf830d74" id="r_gacb5df1852aebff4993113e66bf830d74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacb5df1852aebff4993113e66bf830d74">MR::fromVdb</a> (const openvdb::Coord &amp;v)</td></tr>
+<tr class="separator:gacb5df1852aebff4993113e66bf830d74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3688d13b069aa87ec153b375d36cee83" id="r_ga3688d13b069aa87ec153b375d36cee83"><td class="memItemLeft" align="right" valign="top">openvdb::Coord&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3688d13b069aa87ec153b375d36cee83">MR::toVdb</a> (const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;v)</td></tr>
+<tr class="separator:ga3688d13b069aa87ec153b375d36cee83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>This chapter represents documentation about basic structures elements. </p>
@@ -214,6 +218,31 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns cropped grid </p>
+
+</div>
+</div>
+<a id="gacb5df1852aebff4993113e66bf830d74" name="gacb5df1852aebff4993113e66bf830d74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacb5df1852aebff4993113e66bf830d74">&#9670;&#160;</a></span>fromVdb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> MR::fromVdb </td>
+          <td>(</td>
+          <td class="paramtype">const openvdb::Coord &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -514,6 +543,31 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>sets given region voxels value </p><dl class="section note"><dt>Note</dt><dd>region is in grid space (0 voxel id is minimum active voxel in grid) </dd></dl>
+
+</div>
+</div>
+<a id="ga3688d13b069aa87ec153b375d36cee83" name="ga3688d13b069aa87ec153b375d36cee83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3688d13b069aa87ec153b375d36cee83">&#9670;&#160;</a></span>toVdb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">openvdb::Coord MR::toVdb </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

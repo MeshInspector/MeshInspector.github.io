@@ -74,6 +74,7 @@ var group__BasicStructuresGroup =
     ] ],
     [ "MR::ProgressCallback", "group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710", null ],
     [ "MR::cropped", "group__BasicStructuresGroup.html#gaad38cba7aeb04fd9bff8ddc2d65b1fdb", null ],
+    [ "MR::fromVdb", "group__BasicStructuresGroup.html#gacb5df1852aebff4993113e66bf830d74", null ],
     [ "MR::getValue", "group__BasicStructuresGroup.html#ga48faf7c6c25d26228794543bd08c803a", null ],
     [ "MR::heapBytes", "group__BasicStructuresGroup.html#gaed038f421518710e518a218a55c19621", null ],
     [ "MR::MakeFloatGrid", "group__BasicStructuresGroup.html#gae84dac6352423cd123a4f2aba32c3250", null ],
@@ -85,5 +86,6 @@ var group__BasicStructuresGroup =
     [ "MR::resampled", "group__BasicStructuresGroup.html#ga95c4cd4efddbb71e933c67e3670a4d76", null ],
     [ "MR::resampled", "group__BasicStructuresGroup.html#ga600383ee58a10cb4489dbd9d76f32119", null ],
     [ "MR::setLevelSetType", "group__BasicStructuresGroup.html#gaf87daaff2be06ea220773a6309742a6b", null ],
-    [ "MR::setValue", "group__BasicStructuresGroup.html#ga097ca42a99d9a6e02f32e8b460739e40", null ]
+    [ "MR::setValue", "group__BasicStructuresGroup.html#ga097ca42a99d9a6e02f32e8b460739e40", null ],
+    [ "MR::toVdb", "group__BasicStructuresGroup.html#ga3688d13b069aa87ec153b375d36cee83", null ]
 ];

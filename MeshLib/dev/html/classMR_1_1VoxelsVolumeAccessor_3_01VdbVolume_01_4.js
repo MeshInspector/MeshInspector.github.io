@@ -5,6 +5,6 @@ var classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4 =
     [ "VoxelsVolumeAccessor", "classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html#a91df927a856d2b8c93854a7d1e25b522", null ],
     [ "get", "classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html#a7dcd7da9538cdabf19f8ba7df37407d8", null ],
     [ "get", "classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html#a0110b47db298ab6d8434751e3dcc795d", null ],
-    [ "minCoord", "classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html#a6ecb5e8ad9da57dff026f2c0bc85f404", null ],
-    [ "safeGet", "classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html#a7a5643403417a3ab6552522d0cd73ad7", null ]
+    [ "minCoord", "classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html#a3df011766c40c1643253a7c4c1871135", null ],
+    [ "shift", "classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html#a67dfdaf568c4844e1435a42bec259460", null ]
 ];

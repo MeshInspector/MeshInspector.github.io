@@ -14,10 +14,6 @@ var hierarchy =
     [ "MR::AABBTreePoints", "classMR_1_1AABBTreePoints.html", null ],
     [ "MR::AABBTreeTraits< L, B >", "structMR_1_1AABBTreeTraits.html", null ],
     [ "abstract", "classabstract.html", null ],
-    [ "Accessor", null, [
-      [ "MR::VoxelsVolumeAccessorWithBackground< Accessor >", "classMR_1_1VoxelsVolumeAccessorWithBackground.html", null ],
-      [ "MR::VoxelsVolumeAccessorWithClamp< Accessor >", "classMR_1_1VoxelsVolumeAccessorWithClamp.html", null ]
-    ] ],
     [ "MR::AffineXf< V >", "structMR_1_1AffineXf.html", null ],
     [ "AffineXf3f", "classAffineXf3f.html", null ],
     [ "MR::AffineXf< Vector3f >", "structMR_1_1AffineXf.html", null ],

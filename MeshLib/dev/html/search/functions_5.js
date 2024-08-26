@@ -252,7 +252,7 @@ var searchData=
   ['fromtrianglesduplicatingnonmanifoldvertices_249',['FromTrianglesDuplicatingNonManifoldVertices',['../classMesh.html#ab317df9f0f027234c8db336321914ebc',1,'Mesh']]],
   ['fromtrianglesduplicatingnonmanifoldvertices_250',['fromTrianglesDuplicatingNonManifoldVertices',['../structMR_1_1Mesh.html#a5c3189b1e26154d13fa969a44545916c',1,'MR::Mesh::fromTrianglesDuplicatingNonManifoldVertices()'],['../namespaceMR_1_1MeshBuilder.html#aa308a697fa44ab178932733fdab79f16',1,'MR::MeshBuilder::fromTrianglesDuplicatingNonManifoldVertices()']]],
   ['fromtrimesh_251',['fromTriMesh',['../structMR_1_1Mesh.html#ac504344423bcd4292f8d75e4c7ee6d6d',1,'MR::Mesh']]],
-  ['fromvdb_252',['fromVdb',['../group__VoxelsLoadGroup.html#ga11d5c2433d0d4742f87b91c71db94f06',1,'MR::VoxelsLoad']]],
+  ['fromvdb_252',['fromVdb',['../group__BasicStructuresGroup.html#gacb5df1852aebff4993113e66bf830d74',1,'MR::fromVdb()'],['../group__VoxelsLoadGroup.html#ga11d5c2433d0d4742f87b91c71db94f06',1,'MR::VoxelsLoad::fromVdb()']]],
   ['fromvectormemory_253',['fromVectorMemory',['../classMR_1_1CudaAccessor.html#ac9c21f3ec40039a8b0627bc33247c749',1,'MR::CudaAccessor']]],
   ['front_254',['front',['../classMR_1_1Vector.html#af6959f781909eba002ffffbc6fe37c1f',1,'MR::Vector::front() const'],['../classMR_1_1Vector.html#a19509cb3f6dbf95c9f90c51a0b1c5a3c',1,'MR::Vector::front()']]],
   ['full_255',['full',['../classMR_1_1FewSmallest.html#ab40f0a7ddc11738ea49b1f4557c60670',1,'MR::FewSmallest']]],

@@ -242,7 +242,7 @@ var searchData=
   ['touchstart_239',['touchStart',['../classMR_1_1Viewer.html#a477a9c818f621b480bfe6bceb017d06e',1,'MR::Viewer']]],
   ['touchstartlistener_240',['TouchStartListener',['../structMR_1_1TouchStartListener.html',1,'MR']]],
   ['touchstartsignal_241',['touchStartSignal',['../classMR_1_1Viewer.html#ad8629fdd3c1cf178772229aee161f0f1',1,'MR::Viewer']]],
-  ['tovdb_242',['toVdb',['../group__IOGroup.html#ga530bddb3978561bd65f0c88b535b120c',1,'MR::VoxelsSave']]],
+  ['tovdb_242',['toVdb',['../group__BasicStructuresGroup.html#ga3688d13b069aa87ec153b375d36cee83',1,'MR::toVdb()'],['../group__IOGroup.html#ga530bddb3978561bd65f0c88b535b120c',1,'MR::VoxelsSave::toVdb()']]],
   ['tovec4_243',['toVec4',['../namespaceMR.html#a8f5fb86a1540069cb56260e0edbde09e',1,'MR']]],
   ['tovector3f_244',['toVector3f',['../classMR_1_1SurfacePointWidget.html#afd5f43e81c4b52948c3571465f625f66',1,'MR::SurfacePointWidget']]],
   ['tovoxelid_245',['toVoxelId',['../group__VoxelGroup.html#ga1e9ca6412f80a5ce4751fb16cad4ce2c',1,'MR::VolumeIndexer']]],
