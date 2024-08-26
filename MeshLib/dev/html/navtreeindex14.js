@@ -1,5 +1,9 @@
 var NAVTREEINDEX14 =
 {
+"classMR_1_1AncillaryImGuiLabel.html#ac293c89711518e59735abe0b6892db0d":[10,0,10,52,5],
+"classMR_1_1AncillaryImGuiLabel.html#ac293c89711518e59735abe0b6892db0d":[12,0,1,37,5],
+"classMR_1_1AncillaryImGuiLabel.html#ade10d031eb7e19c1db2f6ef122332293":[10,0,10,52,0],
+"classMR_1_1AncillaryImGuiLabel.html#ade10d031eb7e19c1db2f6ef122332293":[12,0,1,37,0],
 "classMR_1_1AncillaryImGuiLabel.html#af2c939215a0b357749552a0faff1ab62":[10,0,10,52,2],
 "classMR_1_1AncillaryImGuiLabel.html#af2c939215a0b357749552a0faff1ab62":[12,0,1,37,2],
 "classMR_1_1AngleMeasurementObject.html":[10,0,10,57],
@@ -245,9 +249,5 @@ var NAVTREEINDEX14 =
 "classMR_1_1CameraOrientation.html":[12,0,1,69],
 "classMR_1_1CameraOrientation.html#a7b825b1fc733e53dfbaab323acabaee3":[10,0,10,84,0],
 "classMR_1_1CameraOrientation.html#a7b825b1fc733e53dfbaab323acabaee3":[12,0,1,69,0],
-"classMR_1_1CameraOrientation.html#a84d255ab4e7f8f30f34eb6f6dd2d155a":[10,0,10,84,2],
-"classMR_1_1CameraOrientation.html#a84d255ab4e7f8f30f34eb6f6dd2d155a":[12,0,1,69,2],
-"classMR_1_1CameraOrientation.html#aded26055d65895c92ebe389028088749":[10,0,10,84,1],
-"classMR_1_1CameraOrientation.html#aded26055d65895c92ebe389028088749":[12,0,1,69,1],
-"classMR_1_1CaptureScreenshotMenuItem.html":[10,0,10,85]
+"classMR_1_1CameraOrientation.html#a84d255ab4e7f8f30f34eb6f6dd2d155a":[10,0,10,84,2]
 };

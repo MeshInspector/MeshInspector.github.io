@@ -1,5 +1,13 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1TouchpadParameters.html#addabc579478d3071f3b5a951ab574251":[12,0,1,619,1],
+"structMR_1_1TouchpadRotateGestureBeginListener.html":[10,0,10,635],
+"structMR_1_1TouchpadRotateGestureBeginListener.html":[12,0,1,620],
+"structMR_1_1TouchpadRotateGestureBeginListener.html#a310cd192746908245cc0cac59e0cc8b4":[10,0,10,635,1],
+"structMR_1_1TouchpadRotateGestureBeginListener.html#a310cd192746908245cc0cac59e0cc8b4":[12,0,1,620,1],
+"structMR_1_1TouchpadRotateGestureBeginListener.html#a60ca4d5085ca1ee78b9390b9f7826bac":[10,0,10,635,3],
+"structMR_1_1TouchpadRotateGestureBeginListener.html#a60ca4d5085ca1ee78b9390b9f7826bac":[12,0,1,620,3],
+"structMR_1_1TouchpadRotateGestureBeginListener.html#aaf0291465f3dd335c6a3293fa68edbba":[10,0,10,635,0],
 "structMR_1_1TouchpadRotateGestureBeginListener.html#aaf0291465f3dd335c6a3293fa68edbba":[12,0,1,620,0],
 "structMR_1_1TouchpadRotateGestureBeginListener.html#afd44bf8a4a3285c86160d334fa0002a8":[10,0,10,635,2],
 "structMR_1_1TouchpadRotateGestureBeginListener.html#afd44bf8a4a3285c86160d334fa0002a8":[12,0,1,620,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1UI_1_1ButtonCustomizationParams.html#aa05d1e76244fb6b4afc1122ad02e1d5e":[12,0,1,21,1,5],
 "structMR_1_1UI_1_1ButtonCustomizationParams.html#aa156c6a89d078c902ee22cbfb09bfc42":[10,0,10,36,2,3],
 "structMR_1_1UI_1_1ButtonCustomizationParams.html#aa156c6a89d078c902ee22cbfb09bfc42":[12,0,1,21,1,3],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#ace10f316495c9cf052464a0154fee1c5":[10,0,10,36,2,2],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#ace10f316495c9cf052464a0154fee1c5":[12,0,1,21,1,2],
-"structMR_1_1UI_1_1ButtonIconCustomizationParams.html":[10,0,10,36,3],
-"structMR_1_1UI_1_1ButtonIconCustomizationParams.html":[12,0,1,21,2],
-"structMR_1_1UI_1_1ButtonIconCustomizationParams.html#a163778ac68c60cee130c589f3b7a7fca":[10,0,10,36,3,2],
-"structMR_1_1UI_1_1ButtonIconCustomizationParams.html#a163778ac68c60cee130c589f3b7a7fca":[12,0,1,21,2,2],
-"structMR_1_1UI_1_1ButtonIconCustomizationParams.html#a63e77b7d31f7b1d90d01878c92a26af3":[10,0,10,36,3,0],
-"structMR_1_1UI_1_1ButtonIconCustomizationParams.html#a63e77b7d31f7b1d90d01878c92a26af3":[12,0,1,21,2,0],
-"structMR_1_1UI_1_1ButtonIconCustomizationParams.html#add2c4b80cb3ff9ec6a4509a74335f50f":[10,0,10,36,3,1]
+"structMR_1_1UI_1_1ButtonCustomizationParams.html#ace10f316495c9cf052464a0154fee1c5":[10,0,10,36,2,2]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daead60045a2874c5c25a5faec2bcb288fe3":[12,0,1,173,0,0],
+"structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785ae":[10,0,10,188,1],
+"structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785ae":[12,0,1,173,1],
+"structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aea2660064e68655415da2628c2ae2f7592":[10,0,10,188,1,2],
+"structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aea2660064e68655415da2628c2ae2f7592":[12,0,1,173,1,2],
+"structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aeabc8aecd9a2ab8f581f9b37b78a9083ff":[10,0,10,188,1,1],
+"structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aeabc8aecd9a2ab8f581f9b37b78a9083ff":[12,0,1,173,1,1],
+"structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aead491538da818a2ba11a3195ba035cfd3":[10,0,10,188,1,0],
 "structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aead491538da818a2ba11a3195ba035cfd3":[12,0,1,173,1,0],
 "structMR_1_1DrawButtonParams.html#ab74f8d9df1de54c37cd0803d64f01b34":[10,0,10,188,5],
 "structMR_1_1DrawButtonParams.html#ab74f8d9df1de54c37cd0803d64f01b34":[12,0,1,173,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html#a7985af9aca32411b60aec8f8e6178e92":[10,0,10,6,2,1,0],
 "structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html#a7985af9aca32411b60aec8f8e6178e92":[12,0,1,2,2,1,0],
 "structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html#a86193b4dbe9a464e56ff2fe272c46486":[10,0,10,6,2,1,1],
-"structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html#a86193b4dbe9a464e56ff2fe272c46486":[12,0,1,2,2,1,1],
-"structMR_1_1Features_1_1MeasureResult_1_1Distance.html":[10,0,10,6,2,2],
-"structMR_1_1Features_1_1MeasureResult_1_1Distance.html":[12,0,1,2,2,2],
-"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a63df7d9b2bc70ecaf640167b54487acc":[10,0,10,6,2,2,1],
-"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a63df7d9b2bc70ecaf640167b54487acc":[12,0,1,2,2,2,1],
-"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a8670c18dcc3043de2c9724f9e7412b45":[10,0,10,6,2,2,0],
-"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a8670c18dcc3043de2c9724f9e7412b45":[12,0,1,2,2,2,0],
-"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#aac200a7d9f4713275d0ceb4ed127773b":[10,0,10,6,2,2,2],
-"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#aac200a7d9f4713275d0ceb4ed127773b":[12,0,1,2,2,2,2]
+"structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html#a86193b4dbe9a464e56ff2fe272c46486":[12,0,1,2,2,1,1]
 };

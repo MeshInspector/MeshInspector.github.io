@@ -39,9 +39,13 @@ var NAVTREEINDEX2 =
 "MREnums_8h.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8aabeda66621ed8130672ce5e9276fd49e":[13,0,0,2,3,95,0,3],
 "MREnums_8h.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8ada0895f7442dc0c233726d89ac9f75fa":[13,0,0,2,3,95,0,2],
 "MREnums_8h.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9":[13,0,0,2,3,95,0,1],
-"MREnums_8h.html#ae9fc4543eb3302ae33b7843707485149":[13,0,0,2,3,95,1],
-"MREnums_8h.html#ae9fc4543eb3302ae33b7843707485149a11a755d598c0c417f9a36758c3da7481":[13,0,0,2,3,95,1,1],
-"MREnums_8h.html#ae9fc4543eb3302ae33b7843707485149aa0bfb8e59e6c13fc8d990781f77694fe":[13,0,0,2,3,95,1,0],
+"MREnums_8h.html#ae9fc4543eb3302ae33b7843707485149":[13,0,0,2,3,95,2],
+"MREnums_8h.html#ae9fc4543eb3302ae33b7843707485149a11a755d598c0c417f9a36758c3da7481":[13,0,0,2,3,95,2,1],
+"MREnums_8h.html#ae9fc4543eb3302ae33b7843707485149aa0bfb8e59e6c13fc8d990781f77694fe":[13,0,0,2,3,95,2,0],
+"MREnums_8h.html#af24a4564a6b209f61d84fd30c8c71a8b":[13,0,0,2,3,95,1],
+"MREnums_8h.html#af24a4564a6b209f61d84fd30c8c71a8ba08b9149d45da3efbdd41811c50774bf7":[13,0,0,2,3,95,1,1],
+"MREnums_8h.html#af24a4564a6b209f61d84fd30c8c71a8ba2825d6d77d04650a6a5ffef55c198d9f":[13,0,0,2,3,95,1,0],
+"MREnums_8h.html#af24a4564a6b209f61d84fd30c8c71a8baacd381e68b92357896c0856efebb3666":[13,0,0,2,3,95,1,2],
 "MREnums_8h_source.html":[13,0,0,2,3,95],
 "MRExpandShrink_8h.html":[13,0,0,2,3,96],
 "MRExpandShrink_8h.html#a2193258ddab048b2b194a3ccb5a9f450":[13,0,0,2,3,96,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX2 =
 "MRGladGlfw_8h.html#a8079a7cf1b5a678640e6fd20eb26dd74":[13,0,0,2,8,21,0],
 "MRGladGlfw_8h.html#aea8b2bf2b592657af506fb5517e0c1d9":[13,0,0,2,8,21,1],
 "MRGladGlfw_8h_source.html":[13,0,0,2,8,21],
-"MRGltfSerializer_8h.html":[13,0,0,2,3,124],
-"MRGltfSerializer_8h.html#a500a24a872f029e3f867733eba9dbbb9":[13,0,0,2,3,124,1],
-"MRGltfSerializer_8h.html#ac9f3c47cc86af2064c504fb6542887fe":[13,0,0,2,3,124,0],
-"MRGltfSerializer_8h_source.html":[13,0,0,2,3,124],
-"MRGraph_8h.html":[13,0,0,2,3,125]
+"MRGltfSerializer_8h.html":[13,0,0,2,3,124]
 };

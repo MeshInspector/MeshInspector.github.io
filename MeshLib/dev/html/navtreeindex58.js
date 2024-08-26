@@ -1,5 +1,13 @@
 var NAVTREEINDEX58 =
 {
+"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a381406ff0c17d87e6508cfcd62e20f05":[12,0,1,65,0,0],
+"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a7cc2969f192dc2c210907527c55accf7":[10,0,10,80,0,2],
+"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a7cc2969f192dc2c210907527c55accf7":[12,0,1,65,0,2],
+"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#aa0387cf419695716cd93f6a75a946dcc":[10,0,10,80,0,4],
+"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#aa0387cf419695716cd93f6a75a946dcc":[12,0,1,65,0,4],
+"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#adf4f4e032450939bf9b4428636216ce0":[10,0,10,80,0,5],
+"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#adf4f4e032450939bf9b4428636216ce0":[12,0,1,65,0,5],
+"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#af1899a0952daad52f5218d45bf7d61a9":[10,0,10,80,0,1],
 "structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#af1899a0952daad52f5218d45bf7d61a9":[12,0,1,65,0,1],
 "structMR_1_1Box.html":[9,0,2,0],
 "structMR_1_1Box.html#a0b1e0b6b95e8b735eda8de2bb06fd987":[9,0,2,0,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1DecimatePolylineSettings.html#a68c78013b24475c60475093e77bbdeff":[9,12,3,7],
 "structMR_1_1DecimatePolylineSettings.html#ac197ac53747aee8558fe409834910a4a":[9,12,3,2],
 "structMR_1_1DecimatePolylineSettings.html#ad58496f8458d8d5a517ba34926cb0c61":[9,12,3,0],
-"structMR_1_1DecimatePolylineSettings.html#adce38a07b8b04db0fe998e792e4a6e34":[9,12,3,6],
-"structMR_1_1DecimatePolylineSettings.html#ae829d8045ed74bf373bd86f2d835151a":[9,12,3,5],
-"structMR_1_1DecimatePolylineSettings.html#af5825891f4645db66db82c3b6aa2cffe":[9,12,3,8],
-"structMR_1_1DecimateResult.html":[9,12,1],
-"structMR_1_1DecimateResult.html#a0150f587c1f6e81b22cf7cf1194daedd":[9,12,1,3],
-"structMR_1_1DecimateResult.html#a2c8b594ad2bac0e25760edeab9f76623":[9,12,1,2],
-"structMR_1_1DecimateResult.html#a4080c2ae3d9e15c04989c161cacb96d8":[9,12,1,1],
-"structMR_1_1DecimateResult.html#a957fcc3b175a446e3a20f7299cd9a1b6":[9,12,1,0],
-"structMR_1_1DecimateSettings.html":[9,12,0]
+"structMR_1_1DecimatePolylineSettings.html#adce38a07b8b04db0fe998e792e4a6e34":[9,12,3,6]
 };

@@ -1386,6 +1386,11 @@ var namespaceMR =
       [ "Selected", "group__DataModelGroup.html#gga1ab156c0351dfcd112a67a72e485f123a91b442d385b54e1418d81adc34871053", null ],
       [ "Any", "group__DataModelGroup.html#gga1ab156c0351dfcd112a67a72e485f123aed36a1ef76a59ee3f15180e0441188ad", null ]
     ] ],
+    [ "OrientNormals", "namespaceMR.html#af24a4564a6b209f61d84fd30c8c71a8b", [
+      [ "TowardOrigin", "namespaceMR.html#af24a4564a6b209f61d84fd30c8c71a8ba2825d6d77d04650a6a5ffef55c198d9f", null ],
+      [ "AwayFromOrigin", "namespaceMR.html#af24a4564a6b209f61d84fd30c8c71a8ba08b9149d45da3efbdd41811c50774bf7", null ],
+      [ "Smart", "namespaceMR.html#af24a4564a6b209f61d84fd30c8c71a8baacd381e68b92357896c0856efebb3666", null ]
+    ] ],
     [ "OutEdge", "group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e", [
       [ "Invalid", "group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea4bbb8f967da6d1a610596d7257179c2b", null ],
       [ "PlusZ", "group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea59bb9bd5dd05e7aa8aca793a81266bb9", null ],
@@ -2262,9 +2267,9 @@ var namespaceMR =
     [ "makeTorusWithSpikes", "namespaceMR.html#a04928fbb61dfb4922c926c1e5d2dce8e", null ],
     [ "makeTorusWithUndercut", "namespaceMR.html#a3ca166fd0f2975defbe09d92282f7b7c", null ],
     [ "makeUniformSampledCloud", "group__PointCloudGroup.html#gacc95b061bc268ba7d0b6e32ac47807f7", null ],
-    [ "makeUnorientedNormals", "group__PointCloudGroup.html#ga04eb12c4821cbe0801dbc7dc8472992c", null ],
-    [ "makeUnorientedNormals", "group__PointCloudGroup.html#gac7146c862a7b70f47e77f3cc3ffc9a23", null ],
-    [ "makeUnorientedNormals", "group__PointCloudGroup.html#ga42d06dcccdf8aba01730bf868b2fec39", null ],
+    [ "makeUnorientedNormals", "group__PointCloudGroup.html#ga7448439cf7b5f0ec6ed3d9488bef703a", null ],
+    [ "makeUnorientedNormals", "group__PointCloudGroup.html#gae615385e5a3c6640f53b2afd04658838", null ],
+    [ "makeUnorientedNormals", "group__PointCloudGroup.html#gacc81cfcb469766869e22075807c018db", null ],
     [ "makeUVSphere", "namespaceMR.html#a669b6772939a2427c2564e7a4a66b25e", null ],
     [ "makeVectorWithSeqNums", "group__BasicGroup.html#ga8b847c813a39d58ea927b252971f751a", null ],
     [ "mapEdge", "namespaceMR.html#a8bc2c26fd2fc5169edc6c5b75559005d", null ],

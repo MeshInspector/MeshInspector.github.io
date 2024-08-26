@@ -1,5 +1,13 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1GcodeProcessor_1_1BaseAction.html#a3c7b474aeb8051a9fb1afb927f011f45":[10,0,10,231,0,0],
+"structMR_1_1GcodeProcessor_1_1BaseAction.html#a3c7b474aeb8051a9fb1afb927f011f45":[12,0,1,216,0,0],
+"structMR_1_1GcodeProcessor_1_1BaseAction.html#a9270868b501d221ffbe92fc1d7c8916e":[10,0,10,231,0,1],
+"structMR_1_1GcodeProcessor_1_1BaseAction.html#a9270868b501d221ffbe92fc1d7c8916e":[12,0,1,216,0,1],
+"structMR_1_1GcodeProcessor_1_1Command.html":[10,0,10,231,1],
+"structMR_1_1GcodeProcessor_1_1Command.html":[12,0,1,216,1],
+"structMR_1_1GcodeProcessor_1_1Command.html#a7465c37851c2a57ce372444cc1a0aeb9":[10,0,10,231,1,1],
+"structMR_1_1GcodeProcessor_1_1Command.html#a7465c37851c2a57ce372444cc1a0aeb9":[12,0,1,216,1,1],
 "structMR_1_1GcodeProcessor_1_1Command.html#ae3896dcb88dae275220940ab26d6d42f":[10,0,10,231,1,0],
 "structMR_1_1GcodeProcessor_1_1Command.html#ae3896dcb88dae275220940ab26d6d42f":[12,0,1,216,1,0],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html":[10,0,10,231,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4.html":[12,0,1,4,0,4],
 "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4.html#adfc0ecae222770b0db30cfc9c46495ca":[10,0,10,12,0,4,0],
 "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4.html#adfc0ecae222770b0db30cfc9c46495ca":[12,0,1,4,0,4,0],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecSize.html":[10,0,10,12,0,5],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecSize.html":[12,0,1,4,0,5],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec2_01_4.html":[10,0,10,12,0,6],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec2_01_4.html":[12,0,1,4,0,6],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec4_01_4.html":[10,0,10,12,0,7],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec4_01_4.html":[12,0,1,4,0,7],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html":[10,0,10,13,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html":[12,0,1,5,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#a70593a72a82e65c0669e7eeaea91274e":[10,0,10,13,0,0]
+"structMR_1_1ImGuiMath_1_1detail_1_1VecSize.html":[10,0,10,12,0,5]
 };

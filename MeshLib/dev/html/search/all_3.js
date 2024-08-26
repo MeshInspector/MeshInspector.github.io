@@ -250,9 +250,10 @@ var searchData=
   ['averageedgelength_247',['averageEdgeLength',['../structMR_1_1Mesh.html#ace0fa1663015706fa78dc52fe840b4a9',1,'MR::Mesh']]],
   ['avgedgelen_248',['avgEdgeLen',['../classMR_1_1ObjectMeshHolder.html#aa5f39fc0b3b8e02be1b763de0f3aee8d',1,'MR::ObjectMeshHolder']]],
   ['avgedgelen_5f_249',['avgEdgeLen_',['../classMR_1_1ObjectMeshHolder.html#a7b9b185e83a83d6a3cdf3f18fca7d410',1,'MR::ObjectMeshHolder']]],
-  ['axis_250',['Axis',['../namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005',1,'MR']]],
-  ['axis_251',['axis',['../classMR_1_1Cone3.html#a18ef80872ba6b6384ae2944f85f8b214',1,'MR::Cone3::axis'],['../structMR_1_1FindOverhangsSettings.html#a047ea47c16c17b322c9ae6ec9bd817ad',1,'MR::FindOverhangsSettings::axis'],['../structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#ac00c1b10d86e8726d41cd48ce17c9ebf',1,'MR::Features::Primitives::ConeSegment::axis()'],['../structMR_1_1Quaternion.html#a4c3f74509e12b10d84316ce54058bd05',1,'MR::Quaternion::axis()']]],
-  ['axisscaling_252',['AxisScaling',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935',1,'MR::ObjectTransformWidget']]],
-  ['axistransformmode_253',['AxisTransformMode',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8',1,'MR::ObjectTransformWidget']]],
-  ['axistranslation_254',['AxisTranslation',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510',1,'MR::ObjectTransformWidget']]]
+  ['awayfromorigin_250',['AwayFromOrigin',['../namespaceMR.html#af24a4564a6b209f61d84fd30c8c71a8ba08b9149d45da3efbdd41811c50774bf7',1,'MR']]],
+  ['axis_251',['Axis',['../namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005',1,'MR']]],
+  ['axis_252',['axis',['../classMR_1_1Cone3.html#a18ef80872ba6b6384ae2944f85f8b214',1,'MR::Cone3::axis'],['../structMR_1_1FindOverhangsSettings.html#a047ea47c16c17b322c9ae6ec9bd817ad',1,'MR::FindOverhangsSettings::axis'],['../structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#ac00c1b10d86e8726d41cd48ce17c9ebf',1,'MR::Features::Primitives::ConeSegment::axis()'],['../structMR_1_1Quaternion.html#a4c3f74509e12b10d84316ce54058bd05',1,'MR::Quaternion::axis()']]],
+  ['axisscaling_253',['AxisScaling',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935',1,'MR::ObjectTransformWidget']]],
+  ['axistransformmode_254',['AxisTransformMode',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8',1,'MR::ObjectTransformWidget']]],
+  ['axistranslation_255',['AxisTranslation',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510',1,'MR::ObjectTransformWidget']]]
 ];

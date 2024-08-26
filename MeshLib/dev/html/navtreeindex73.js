@@ -1,5 +1,13 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1SurfacePointWidget_1_1Parameters.html#a38a5a4681452f28c8f94a4b8f3bf7685":[10,0,10,613,0,5],
+"structMR_1_1SurfacePointWidget_1_1Parameters.html#a38a5a4681452f28c8f94a4b8f3bf7685":[12,0,1,598,0,5],
+"structMR_1_1SurfacePointWidget_1_1Parameters.html#a42b9955e23ce28c95ebdc5c3c78dae7f":[10,0,10,613,0,2],
+"structMR_1_1SurfacePointWidget_1_1Parameters.html#a42b9955e23ce28c95ebdc5c3c78dae7f":[12,0,1,598,0,2],
+"structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3":[10,0,10,613,0,0],
+"structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3":[12,0,1,598,0,0],
+"structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3a08822b3ae4e2aede0afe08abe600e9c0":[10,0,10,613,0,0,1],
+"structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3a08822b3ae4e2aede0afe08abe600e9c0":[12,0,1,598,0,0,1],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3a997a01ddd926646f7c9583b0ddc23969":[10,0,10,613,0,0,0],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3a997a01ddd926646f7c9583b0ddc23969":[12,0,1,598,0,0,0],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#a724837b5404f667f7d44a1933d27ddca":[10,0,10,613,0,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceae93f994f01c537c4e2f7d8528c3eb5e9":[12,0,1,619,0,2],
 "structMR_1_1TouchpadParameters.html#a9ae8b021b03e91d547e512ba94391092":[10,0,10,634,2],
 "structMR_1_1TouchpadParameters.html#a9ae8b021b03e91d547e512ba94391092":[12,0,1,619,2],
-"structMR_1_1TouchpadParameters.html#addabc579478d3071f3b5a951ab574251":[10,0,10,634,1],
-"structMR_1_1TouchpadParameters.html#addabc579478d3071f3b5a951ab574251":[12,0,1,619,1],
-"structMR_1_1TouchpadRotateGestureBeginListener.html":[10,0,10,635],
-"structMR_1_1TouchpadRotateGestureBeginListener.html":[12,0,1,620],
-"structMR_1_1TouchpadRotateGestureBeginListener.html#a310cd192746908245cc0cac59e0cc8b4":[10,0,10,635,1],
-"structMR_1_1TouchpadRotateGestureBeginListener.html#a310cd192746908245cc0cac59e0cc8b4":[12,0,1,620,1],
-"structMR_1_1TouchpadRotateGestureBeginListener.html#a60ca4d5085ca1ee78b9390b9f7826bac":[10,0,10,635,3],
-"structMR_1_1TouchpadRotateGestureBeginListener.html#a60ca4d5085ca1ee78b9390b9f7826bac":[12,0,1,620,3],
-"structMR_1_1TouchpadRotateGestureBeginListener.html#aaf0291465f3dd335c6a3293fa68edbba":[10,0,10,635,0]
+"structMR_1_1TouchpadParameters.html#addabc579478d3071f3b5a951ab574251":[10,0,10,634,1]
 };

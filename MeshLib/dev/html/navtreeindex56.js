@@ -1,5 +1,13 @@
 var NAVTREEINDEX56 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[10,0,0,0,8],
+"structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[12,0,0,0,8],
+"structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[10,0,0,0,3],
+"structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[12,0,0,0,3],
+"structImGui_1_1HistogramGridLine.html":[10,0,0,1],
+"structImGui_1_1HistogramGridLine.html":[12,0,0,1],
+"structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[10,0,0,1,1],
+"structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[12,0,0,1,1],
 "structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[10,0,0,1,0],
 "structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[12,0,0,1,0],
 "structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[10,0,0,1,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX56 =
 "structMR_1_1AncillaryLines.html#a3521624c0384c6ad11a0c3bdf5f1c1ed":[12,0,1,39,11],
 "structMR_1_1AncillaryLines.html#a5420cacb7b0e5953d10f72c74ca8f91a":[10,0,10,54,6],
 "structMR_1_1AncillaryLines.html#a5420cacb7b0e5953d10f72c74ca8f91a":[12,0,1,39,6],
-"structMR_1_1AncillaryLines.html#a784111585bac595d1a06938e219488e2":[10,0,10,54,10],
-"structMR_1_1AncillaryLines.html#a784111585bac595d1a06938e219488e2":[12,0,1,39,10],
-"structMR_1_1AncillaryLines.html#a927df020362fa03d9ad1e8a2af3b7b3c":[10,0,10,54,8],
-"structMR_1_1AncillaryLines.html#a927df020362fa03d9ad1e8a2af3b7b3c":[12,0,1,39,8],
-"structMR_1_1AncillaryLines.html#a94079e1bc86fd3a8d3d88ef85a35e727":[10,0,10,54,7],
-"structMR_1_1AncillaryLines.html#a94079e1bc86fd3a8d3d88ef85a35e727":[12,0,1,39,7],
-"structMR_1_1AncillaryLines.html#a974b9902acba50862bd346aa4f59a71b":[10,0,10,54,2],
-"structMR_1_1AncillaryLines.html#a974b9902acba50862bd346aa4f59a71b":[12,0,1,39,2],
-"structMR_1_1AncillaryLines.html#a9c8cc96eaa02c4f366a99354fc621c6d":[10,0,10,54,9]
+"structMR_1_1AncillaryLines.html#a784111585bac595d1a06938e219488e2":[10,0,10,54,10]
 };

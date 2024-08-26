@@ -1,5 +1,13 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1OffsetContoursOrigins.html#ad5f2ee568aa0c645e5784e53f1ae0e72":[12,0,1,390,3],
+"structMR_1_1OffsetContoursParams.html":[10,0,10,406],
+"structMR_1_1OffsetContoursParams.html":[12,0,1,391],
+"structMR_1_1OffsetContoursParams.html#a11a811849fd3702f4abc2c898b1fe5dc":[10,0,10,406,8],
+"structMR_1_1OffsetContoursParams.html#a11a811849fd3702f4abc2c898b1fe5dc":[12,0,1,391,8],
+"structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8":[10,0,10,406,1],
+"structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8":[12,0,1,391,1],
+"structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8ab7f41fc1412ad2ee75e9b2635d3b9d5c":[10,0,10,406,1,0],
 "structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8ab7f41fc1412ad2ee75e9b2635d3b9d5c":[12,0,1,391,1,0],
 "structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8aeb334dca00e390e0d3ebf52d205807d7":[10,0,10,406,1,1],
 "structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8aeb334dca00e390e0d3ebf52d205807d7":[12,0,1,391,1,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1PointInAllSpaces.html#a836698583352b520081e97d4d91b40d2":[12,0,1,424,5],
 "structMR_1_1PointInAllSpaces.html#a9386798c3dc480332b26b1432b3d9b22":[10,0,10,439,2],
 "structMR_1_1PointInAllSpaces.html#a9386798c3dc480332b26b1432b3d9b22":[12,0,1,424,2],
-"structMR_1_1PointInAllSpaces.html#ac84dc0bf9782f486b05a9e4a3a738973":[10,0,10,439,1],
-"structMR_1_1PointInAllSpaces.html#ac84dc0bf9782f486b05a9e4a3a738973":[12,0,1,424,1],
-"structMR_1_1PointInAllSpaces.html#ad49d9386ce331c43283a72c316c3b457":[10,0,10,439,3],
-"structMR_1_1PointInAllSpaces.html#ad49d9386ce331c43283a72c316c3b457":[12,0,1,424,3],
-"structMR_1_1PointOnFace.html":[10,0,10,441],
-"structMR_1_1PointOnFace.html":[12,0,1,426],
-"structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53":[10,0,10,441,0],
-"structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53":[12,0,1,426,0],
-"structMR_1_1PointOnFace.html#a8ee455f370bca112fa98cf9f81a2e3ad":[10,0,10,441,1]
+"structMR_1_1PointInAllSpaces.html#ac84dc0bf9782f486b05a9e4a3a738973":[10,0,10,439,1]
 };

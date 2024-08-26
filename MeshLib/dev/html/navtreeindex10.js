@@ -1,5 +1,9 @@
 var NAVTREEINDEX10 =
 {
+"MRRibbonConstants_8h.html#ad2e6e25a903280bb16257d5eade3d674":[13,0,0,2,8,68,28],
+"MRRibbonConstants_8h.html#ad7f223794186253418bc69b3f96ce456":[13,0,0,2,8,68,38],
+"MRRibbonConstants_8h.html#adbae2e800a57d6abde1fb15532241615":[13,0,0,2,8,68,29],
+"MRRibbonConstants_8h.html#ae0f25876ce272b7da3ae953cd1469376":[13,0,0,2,8,68,7],
 "MRRibbonConstants_8h.html#afe49e137af70c8aaef17a39366b4bd32":[13,0,0,2,8,68,25],
 "MRRibbonConstants_8h_source.html":[13,0,0,2,8,68],
 "MRRibbonFontManager_8h.html":[13,0,0,2,8,69],
@@ -245,9 +249,5 @@ var NAVTREEINDEX10 =
 "MRStringConvert_8h.html":[13,0,0,2,3,345],
 "MRStringConvert_8h.html#a0f9f82f9571d4a67b586f1e38d93afe9":[13,0,0,2,3,345,7],
 "MRStringConvert_8h.html#a13a3902f4af22aaa5fcd0817f8d925fd":[13,0,0,2,3,345,13],
-"MRStringConvert_8h.html#a3dac1179ee1b7a147e78045a27c4e13d":[13,0,0,2,3,345,5],
-"MRStringConvert_8h.html#a4484d46c4a911faa227d4f39727367a2":[13,0,0,2,3,345,6],
-"MRStringConvert_8h.html#a55241f8b5264ed4854873f6fedc3cee3":[13,0,0,2,3,345,12],
-"MRStringConvert_8h.html#a58401eef2addb5c0fef7e5dd90a17ddf":[13,0,0,2,3,345,8],
-"MRStringConvert_8h.html#a5a6d09d98985d45fdd40a23f1df854c2":[13,0,0,2,3,345,0]
+"MRStringConvert_8h.html#a3dac1179ee1b7a147e78045a27c4e13d":[13,0,0,2,3,345,5]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1DecimatePolylineSettings.html#ae829d8045ed74bf373bd86f2d835151a":[9,12,3,5],
+"structMR_1_1DecimatePolylineSettings.html#af5825891f4645db66db82c3b6aa2cffe":[9,12,3,8],
+"structMR_1_1DecimateResult.html":[9,12,1],
+"structMR_1_1DecimateResult.html#a0150f587c1f6e81b22cf7cf1194daedd":[9,12,1,3],
+"structMR_1_1DecimateResult.html#a2c8b594ad2bac0e25760edeab9f76623":[9,12,1,2],
+"structMR_1_1DecimateResult.html#a4080c2ae3d9e15c04989c161cacb96d8":[9,12,1,1],
+"structMR_1_1DecimateResult.html#a957fcc3b175a446e3a20f7299cd9a1b6":[9,12,1,0],
+"structMR_1_1DecimateSettings.html":[9,12,0],
 "structMR_1_1DecimateSettings.html#a0731477e770d3880ed47726b66c43479":[9,12,0,14],
 "structMR_1_1DecimateSettings.html#a1ec65ab68109bf48005d935a85a08713":[9,12,0,2],
 "structMR_1_1DecimateSettings.html#a21d7c6d9122286b4edf7bd531d38b72b":[9,12,0,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daea6e26772b8233151b64f9f5f360d3b59d":[12,0,1,173,0,2],
 "structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daeacb2c48e02fa97481e3ae0fc91ae33e83":[10,0,10,188,0,1],
 "structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daeacb2c48e02fa97481e3ae0fc91ae33e83":[12,0,1,173,0,1],
-"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daead60045a2874c5c25a5faec2bcb288fe3":[10,0,10,188,0,0],
-"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daead60045a2874c5c25a5faec2bcb288fe3":[12,0,1,173,0,0],
-"structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785ae":[10,0,10,188,1],
-"structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785ae":[12,0,1,173,1],
-"structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aea2660064e68655415da2628c2ae2f7592":[10,0,10,188,1,2],
-"structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aea2660064e68655415da2628c2ae2f7592":[12,0,1,173,1,2],
-"structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aeabc8aecd9a2ab8f581f9b37b78a9083ff":[10,0,10,188,1,1],
-"structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aeabc8aecd9a2ab8f581f9b37b78a9083ff":[12,0,1,173,1,1],
-"structMR_1_1DrawButtonParams.html#a6ce094bc1bb74eb56ca44d849b1785aead491538da818a2ba11a3195ba035cfd3":[10,0,10,188,1,0]
+"structMR_1_1DrawButtonParams.html#a438f2e3dfbe178d1558df0f1b9f84daead60045a2874c5c25a5faec2bcb288fe3":[10,0,10,188,0,0]
 };

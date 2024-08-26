@@ -1,5 +1,13 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html":[10,0,10,6,2,2],
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html":[12,0,1,2,2,2],
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a63df7d9b2bc70ecaf640167b54487acc":[10,0,10,6,2,2,1],
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a63df7d9b2bc70ecaf640167b54487acc":[12,0,1,2,2,2,1],
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a8670c18dcc3043de2c9724f9e7412b45":[10,0,10,6,2,2,0],
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a8670c18dcc3043de2c9724f9e7412b45":[12,0,1,2,2,2,0],
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#aac200a7d9f4713275d0ceb4ed127773b":[10,0,10,6,2,2,2],
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#aac200a7d9f4713275d0ceb4ed127773b":[12,0,1,2,2,2,2],
 "structMR_1_1Features_1_1MeasureResult_1_1Distance.html#abc2ecf316c1affc7c259c7b438753dbb":[10,0,10,6,2,2,3],
 "structMR_1_1Features_1_1MeasureResult_1_1Distance.html#abc2ecf316c1affc7c259c7b438753dbb":[12,0,1,2,2,2,3],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html":[10,0,10,6,0,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1GCommand.html#aec5c0f6069885854d6838a98f1bacae3":[10,0,10,233,6],
 "structMR_1_1GCommand.html#aec5c0f6069885854d6838a98f1bacae3":[12,0,1,218,6],
 "structMR_1_1GcodeProcessor_1_1BaseAction.html":[10,0,10,231,0],
-"structMR_1_1GcodeProcessor_1_1BaseAction.html":[12,0,1,216,0],
-"structMR_1_1GcodeProcessor_1_1BaseAction.html#a3c7b474aeb8051a9fb1afb927f011f45":[10,0,10,231,0,0],
-"structMR_1_1GcodeProcessor_1_1BaseAction.html#a3c7b474aeb8051a9fb1afb927f011f45":[12,0,1,216,0,0],
-"structMR_1_1GcodeProcessor_1_1BaseAction.html#a9270868b501d221ffbe92fc1d7c8916e":[10,0,10,231,0,1],
-"structMR_1_1GcodeProcessor_1_1BaseAction.html#a9270868b501d221ffbe92fc1d7c8916e":[12,0,1,216,0,1],
-"structMR_1_1GcodeProcessor_1_1Command.html":[10,0,10,231,1],
-"structMR_1_1GcodeProcessor_1_1Command.html":[12,0,1,216,1],
-"structMR_1_1GcodeProcessor_1_1Command.html#a7465c37851c2a57ce372444cc1a0aeb9":[10,0,10,231,1,1],
-"structMR_1_1GcodeProcessor_1_1Command.html#a7465c37851c2a57ce372444cc1a0aeb9":[12,0,1,216,1,1]
+"structMR_1_1GcodeProcessor_1_1BaseAction.html":[12,0,1,216,0]
 };

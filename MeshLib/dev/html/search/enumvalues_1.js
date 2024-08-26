@@ -32,6 +32,7 @@ var searchData=
   ['arrow_29',['arrow',['../structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#afa94b8b95a6f04c1fd875ef2fa4850aea9022a153e6190f10d9b57aa4232b8aea',1,'MR::ImGuiMeasurementIndicators::LineCap']]],
   ['autodetect_30',['AutoDetect',['../classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290ca10c84306f5bb51fdad714b1f2f4463cf',1,'MR::SceneSettings']]],
   ['automatic_31',['Automatic',['../structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da086247a9b57fde6eefee2a0c4752242d',1,'MR::MarchingCubesParams']]],
-  ['axisscaling_32',['AxisScaling',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935',1,'MR::ObjectTransformWidget']]],
-  ['axistranslation_33',['AxisTranslation',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510',1,'MR::ObjectTransformWidget']]]
+  ['awayfromorigin_32',['AwayFromOrigin',['../namespaceMR.html#af24a4564a6b209f61d84fd30c8c71a8ba08b9149d45da3efbdd41811c50774bf7',1,'MR']]],
+  ['axisscaling_33',['AxisScaling',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935',1,'MR::ObjectTransformWidget']]],
+  ['axistranslation_34',['AxisTranslation',['../classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510',1,'MR::ObjectTransformWidget']]]
 ];
