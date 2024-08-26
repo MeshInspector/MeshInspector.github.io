@@ -1,5 +1,9 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1ShaderWarning.html#abb95321aeb350840573cff7f04e36f33":[12,0,1,563,1],
+"structMR_1_1SharpOffsetParameters.html":[10,0,10,581],
+"structMR_1_1SharpOffsetParameters.html":[12,0,1,566],
+"structMR_1_1SharpOffsetParameters.html#a431f430b0b5458fce3c73fddbb6428a4":[10,0,10,581,0],
 "structMR_1_1SharpOffsetParameters.html#a431f430b0b5458fce3c73fddbb6428a4":[12,0,1,566,0],
 "structMR_1_1SharpOffsetParameters.html#a482a50c8e7ad39898c7dafff5c92474e":[10,0,10,581,1],
 "structMR_1_1SharpOffsetParameters.html#a482a50c8e7ad39898c7dafff5c92474e":[12,0,1,566,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3":[10,0,10,613,0,0],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3":[12,0,1,598,0,0],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3a08822b3ae4e2aede0afe08abe600e9c0":[10,0,10,613,0,0,1],
-"structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3a08822b3ae4e2aede0afe08abe600e9c0":[12,0,1,598,0,0,1],
-"structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3a997a01ddd926646f7c9583b0ddc23969":[10,0,10,613,0,0,0],
-"structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3a997a01ddd926646f7c9583b0ddc23969":[12,0,1,598,0,0,0],
-"structMR_1_1SurfacePointWidget_1_1Parameters.html#a724837b5404f667f7d44a1933d27ddca":[10,0,10,613,0,8],
-"structMR_1_1SurfacePointWidget_1_1Parameters.html#a724837b5404f667f7d44a1933d27ddca":[12,0,1,598,0,8]
+"structMR_1_1SurfacePointWidget_1_1Parameters.html#a712b537bdb6806aaeca2e2ac50b395c3a08822b3ae4e2aede0afe08abe600e9c0":[12,0,1,598,0,0,1]
 };

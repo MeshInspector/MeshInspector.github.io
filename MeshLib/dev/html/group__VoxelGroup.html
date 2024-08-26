@@ -137,6 +137,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ga3f90dd1eb37b8e96421048a44936a299" id="r_ga3f90dd1eb37b8e96421048a44936a299"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3f90dd1eb37b8e96421048a44936a299">MR::VoxelLocation::operator bool</a> () const</td></tr>
+<tr class="memdesc:ga3f90dd1eb37b8e96421048a44936a299"><td class="mdescLeft">&#160;</td><td class="mdescRight">check for validity  <br /></td></tr>
+<tr class="separator:ga3f90dd1eb37b8e96421048a44936a299"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad64c0feac5a4c85334c9de7dda628dfb" id="r_gad64c0feac5a4c85334c9de7dda628dfb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad64c0feac5a4c85334c9de7dda628dfb">MR::VolumeIndexer::VolumeIndexer</a> (const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;<a class="el" href="#ga242530ea0c7771c807c769bcb292f37f">dims</a>)</td></tr>
 <tr class="separator:gad64c0feac5a4c85334c9de7dda628dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga242530ea0c7771c807c769bcb292f37f" id="r_ga242530ea0c7771c807c769bcb292f37f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga242530ea0c7771c807c769bcb292f37f">MR::VolumeIndexer::dims</a> () const</td></tr>
@@ -168,11 +171,16 @@ Functions</h2></td></tr>
 <tr class="separator:gad83baf7155c4c4be0ffa42c4de418e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga991a1f3d21cb03e21402be655ba7c06c" id="r_ga991a1f3d21cb03e21402be655ba7c06c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga991a1f3d21cb03e21402be655ba7c06c">MR::VolumeIndexer::areNeigbors</a> (const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;pos0, const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;pos1) const</td></tr>
 <tr class="separator:ga991a1f3d21cb03e21402be655ba7c06c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae847dbed512fd911819dbc766c0dc9bf" id="r_gae847dbed512fd911819dbc766c0dc9bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae847dbed512fd911819dbc766c0dc9bf">MR::VolumeIndexer::hasNeighbour</a> (const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;pos, <a class="el" href="group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a> toNei) const</td></tr>
+<tr class="memdesc:gae847dbed512fd911819dbc766c0dc9bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">given existing voxel at (pos), returns whether it has valid neighbor specified by the edge (toNei)  <br /></td></tr>
+<tr class="separator:gae847dbed512fd911819dbc766c0dc9bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga70480624af713d6c33abe8a12d5fa6ef" id="r_ga70480624af713d6c33abe8a12d5fa6ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a87fb5cfcd5370cd4fc1380c189b42828">VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga70480624af713d6c33abe8a12d5fa6ef">MR::VolumeIndexer::getNeighbor</a> (<a class="el" href="namespaceMR.html#a87fb5cfcd5370cd4fc1380c189b42828">VoxelId</a> v, <a class="el" href="group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a> toNei) const</td></tr>
 <tr class="memdesc:ga70480624af713d6c33abe8a12d5fa6ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id of v's neighbor specified by the edge  <br /></td></tr>
 <tr class="separator:ga70480624af713d6c33abe8a12d5fa6ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga30a6db6800770e3e6795a1cbf7a92eb5" id="r_ga30a6db6800770e3e6795a1cbf7a92eb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a87fb5cfcd5370cd4fc1380c189b42828">VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga30a6db6800770e3e6795a1cbf7a92eb5">MR::VolumeIndexer::getNeighbor</a> (<a class="el" href="namespaceMR.html#a87fb5cfcd5370cd4fc1380c189b42828">VoxelId</a> v, const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;pos, <a class="el" href="group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a> toNei) const</td></tr>
-<tr class="separator:ga30a6db6800770e3e6795a1cbf7a92eb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafe8987c6754acf0b39a5d12c2a7d0da9" id="r_gafe8987c6754acf0b39a5d12c2a7d0da9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a87fb5cfcd5370cd4fc1380c189b42828">VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafe8987c6754acf0b39a5d12c2a7d0da9">MR::VolumeIndexer::getNeighbor</a> (<a class="el" href="namespaceMR.html#a87fb5cfcd5370cd4fc1380c189b42828">VoxelId</a> v, const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;pos, <a class="el" href="group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a> toNei) const</td></tr>
+<tr class="separator:gafe8987c6754acf0b39a5d12c2a7d0da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafa9df4ffd5452e505b8a11ca3d01f7b4" id="r_gafa9df4ffd5452e505b8a11ca3d01f7b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1VoxelLocation.html">VoxelLocation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafa9df4ffd5452e505b8a11ca3d01f7b4">MR::VolumeIndexer::getNeighbor</a> (const <a class="el" href="structMR_1_1VoxelLocation.html">VoxelLocation</a> &amp;loc, <a class="el" href="group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a> toNei) const</td></tr>
+<tr class="separator:gafa9df4ffd5452e505b8a11ca3d01f7b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9278508392604ed5b02779e63a573555" id="r_ga9278508392604ed5b02779e63a573555"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a87fb5cfcd5370cd4fc1380c189b42828">VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9278508392604ed5b02779e63a573555">MR::VolumeIndexer::getExistingNeighbor</a> (<a class="el" href="namespaceMR.html#a87fb5cfcd5370cd4fc1380c189b42828">VoxelId</a> v, <a class="el" href="group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a> toNei) const</td></tr>
 <tr class="memdesc:ga9278508392604ed5b02779e63a573555"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns id of v's neighbor specified by the edge, which is known to exist (so skipping a lot of checks)  <br /></td></tr>
 <tr class="separator:ga9278508392604ed5b02779e63a573555"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -224,7 +232,7 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -253,7 +261,7 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -280,7 +288,7 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -305,7 +313,7 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -336,7 +344,7 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -345,8 +353,38 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="gafa9df4ffd5452e505b8a11ca3d01f7b4" name="gafa9df4ffd5452e505b8a11ca3d01f7b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafa9df4ffd5452e505b8a11ca3d01f7b4">&#9670;&#160;</a></span>getNeighbor() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1VoxelLocation.html">VoxelLocation</a> MR::VolumeIndexer::getNeighbor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1VoxelLocation.html">VoxelLocation</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>loc</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a></td>          <td class="paramname"><span class="paramname"><em>toNei</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>given existing voxel at (loc), returns its neighbor specified by the edge (toNei); if the neighbour does not exist (loc is on boundary), returns invalid <a class="el" href="structMR_1_1VoxelLocation.html" title="contains both linear Id and 3D coordinates of the same voxel">VoxelLocation</a> </p>
+
+</div>
+</div>
 <a id="gacc3f28e9566b6b9fb9fe666e09034075" name="gacc3f28e9566b6b9fb9fe666e09034075"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacc3f28e9566b6b9fb9fe666e09034075">&#9670;&#160;</a></span>getNeighbor() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gacc3f28e9566b6b9fb9fe666e09034075">&#9670;&#160;</a></span>getNeighbor() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -377,21 +415,24 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ga30a6db6800770e3e6795a1cbf7a92eb5" name="ga30a6db6800770e3e6795a1cbf7a92eb5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga30a6db6800770e3e6795a1cbf7a92eb5">&#9670;&#160;</a></span>getNeighbor() <span class="overload">[2/3]</span></h2>
+<a id="gafe8987c6754acf0b39a5d12c2a7d0da9" name="gafe8987c6754acf0b39a5d12c2a7d0da9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafe8987c6754acf0b39a5d12c2a7d0da9">&#9670;&#160;</a></span>getNeighbor() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a87fb5cfcd5370cd4fc1380c189b42828">VoxelId</a> MR::VolumeIndexer::getNeighbor </td>
+          <td class="memname"><a class="el" href="namespaceMR.html#a87fb5cfcd5370cd4fc1380c189b42828">VoxelId</a> MR::VolumeIndexer::getNeighbor </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceMR.html#a87fb5cfcd5370cd4fc1380c189b42828">VoxelId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
         </tr>
@@ -406,12 +447,17 @@ Variables</h2></td></tr>
           <td class="paramtype"><a class="el" href="group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a></td>          <td class="paramname"><span class="paramname"><em>toNei</em></span>&#160;) const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
 <a id="ga70480624af713d6c33abe8a12d5fa6ef" name="ga70480624af713d6c33abe8a12d5fa6ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga70480624af713d6c33abe8a12d5fa6ef">&#9670;&#160;</a></span>getNeighbor() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga70480624af713d6c33abe8a12d5fa6ef">&#9670;&#160;</a></span>getNeighbor() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -432,12 +478,43 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>returns id of v's neighbor specified by the edge </p>
+
+</div>
+</div>
+<a id="gae847dbed512fd911819dbc766c0dc9bf" name="gae847dbed512fd911819dbc766c0dc9bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae847dbed512fd911819dbc766c0dc9bf">&#9670;&#160;</a></span>hasNeighbour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::VolumeIndexer::hasNeighbour </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a></td>          <td class="paramname"><span class="paramname"><em>toNei</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>given existing voxel at (pos), returns whether it has valid neighbor specified by the edge (toNei) </p>
 
 </div>
 </div>
@@ -459,7 +536,7 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -486,12 +563,39 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>returns true if this voxel is within dimensions </p>
+
+</div>
+</div>
+<a id="ga3f90dd1eb37b8e96421048a44936a299" name="ga3f90dd1eb37b8e96421048a44936a299"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3f90dd1eb37b8e96421048a44936a299">&#9670;&#160;</a></span>operator bool()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::VoxelLocation::operator bool </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>check for validity </p>
 
 </div>
 </div>
@@ -561,7 +665,7 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -588,7 +692,7 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -613,7 +717,7 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -638,7 +742,7 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -663,7 +767,7 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -688,7 +792,7 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -713,7 +817,7 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

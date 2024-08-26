@@ -1,5 +1,9 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html":[12,0,1,697],
+"structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html#a3077359395681ceea5908eead7ca59f4":[10,0,10,712,0],
+"structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html#a3077359395681ceea5908eead7ca59f4":[12,0,1,697,0],
+"structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html":[10,0,10,713],
 "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html":[12,0,1,698],
 "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html#a43f515364672b7e4b97886189872ead0":[10,0,10,713,0],
 "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html#a43f515364672b7e4b97886189872ead0":[12,0,1,698,0],

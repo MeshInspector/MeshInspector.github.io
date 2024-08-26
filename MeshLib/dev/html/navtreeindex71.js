@@ -1,5 +1,9 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1RibbonMenuSearch_1_1Parameters.html#a557d5533b7a71b39965276427e9ce475":[10,0,10,523,0,2],
+"structMR_1_1RibbonMenuSearch_1_1Parameters.html#a557d5533b7a71b39965276427e9ce475":[12,0,1,508,0,2],
+"structMR_1_1RibbonMenuSearch_1_1Parameters.html#ae89aeabd1324d2ecbf9060e69c063eeb":[10,0,10,523,0,3],
+"structMR_1_1RibbonMenuSearch_1_1Parameters.html#ae89aeabd1324d2ecbf9060e69c063eeb":[12,0,1,508,0,3],
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html#af9d5d5e38c27a6973c6e92a74e412d6e":[10,0,10,523,0,1],
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html#af9d5d5e38c27a6973c6e92a74e412d6e":[12,0,1,508,0,1],
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html#afb17b1a5e87e3e47d6e9df9cca75739a":[10,0,10,523,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1ShaderWarning.html":[12,0,1,563],
 "structMR_1_1ShaderWarning.html#a930eaa6dc15670480191448c07138e81":[10,0,10,578,0],
 "structMR_1_1ShaderWarning.html#a930eaa6dc15670480191448c07138e81":[12,0,1,563,0],
-"structMR_1_1ShaderWarning.html#abb95321aeb350840573cff7f04e36f33":[10,0,10,578,1],
-"structMR_1_1ShaderWarning.html#abb95321aeb350840573cff7f04e36f33":[12,0,1,563,1],
-"structMR_1_1SharpOffsetParameters.html":[10,0,10,581],
-"structMR_1_1SharpOffsetParameters.html":[12,0,1,566],
-"structMR_1_1SharpOffsetParameters.html#a431f430b0b5458fce3c73fddbb6428a4":[10,0,10,581,0]
+"structMR_1_1ShaderWarning.html#abb95321aeb350840573cff7f04e36f33":[10,0,10,578,1]
 };
