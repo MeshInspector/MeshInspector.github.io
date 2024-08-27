@@ -120,7 +120,6 @@ Public Types</h2></td></tr>
 , <a class="el" href="#ad2534810fa0b1d6ede8c56229226770da6adf97f83acf6453d4a6a4b1070f3754">None</a>
 , <a class="el" href="#ad2534810fa0b1d6ede8c56229226770da960b44c579bc2f6818d2daaf9e4c16f0">Normal</a>
  }</td></tr>
-<tr class="memdesc:ad2534810fa0b1d6ede8c56229226770d"><td class="mdescLeft">&#160;</td><td class="mdescRight">voxel volume data caching mode  <a href="#ad2534810fa0b1d6ede8c56229226770d">More...</a><br /></td></tr>
 <tr class="separator:ad2534810fa0b1d6ede8c56229226770d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -170,14 +169,13 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>voxel volume data caching mode </p>
+<p>caching mode to reduce the number of accesses to voxel volume data on the first pass of the algorithm by consuming more memory on cache; note: the cache for the second pass of the algorithm (bit sets of invalid and lower-than-iso voxels are always allocated) </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad2534810fa0b1d6ede8c56229226770da086247a9b57fde6eefee2a0c4752242d" name="ad2534810fa0b1d6ede8c56229226770da086247a9b57fde6eefee2a0c4752242d"></a>Automatic&#160;</td><td class="fielddoc"><p>choose caching mode depending on input (current defaults: Normal for FunctionVolume, None for others) </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad2534810fa0b1d6ede8c56229226770da086247a9b57fde6eefee2a0c4752242d" name="ad2534810fa0b1d6ede8c56229226770da086247a9b57fde6eefee2a0c4752242d"></a>Automatic&#160;</td><td class="fielddoc"><p>choose caching mode automatically depending on volume type (current defaults: Normal for FunctionVolume, None for others) </p>
 </td></tr>
 <tr><td class="fieldname"><a id="ad2534810fa0b1d6ede8c56229226770da6adf97f83acf6453d4a6a4b1070f3754" name="ad2534810fa0b1d6ede8c56229226770da6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"><p>don't cache any data </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ad2534810fa0b1d6ede8c56229226770da960b44c579bc2f6818d2daaf9e4c16f0" name="ad2534810fa0b1d6ede8c56229226770da960b44c579bc2f6818d2daaf9e4c16f0"></a>Normal&#160;</td><td class="fielddoc"><p>cache some voxel volume data </p>
+<tr><td class="fieldname"><a id="ad2534810fa0b1d6ede8c56229226770da960b44c579bc2f6818d2daaf9e4c16f0" name="ad2534810fa0b1d6ede8c56229226770da960b44c579bc2f6818d2daaf9e4c16f0"></a>Normal&#160;</td><td class="fielddoc"><p>allocates 2 full slices per parallel thread </p>
 </td></tr>
 </table>
 
