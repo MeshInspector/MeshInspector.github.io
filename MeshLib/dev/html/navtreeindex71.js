@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html":[10,0,10,516,0],
+"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html":[12,0,1,501,0],
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a4a178e6ea3323a12fdb7394b7f89cd71":[10,0,10,516,0,1],
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a4a178e6ea3323a12fdb7394b7f89cd71":[12,0,1,501,0,1],
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a9048532b67f8ae6a79ec42cf2a196ddf":[10,0,10,516,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1SeparationPointStorage_1_1Block.html#a3bb9eb5b60d6dcb38389506da2cb6a0e":[12,0,1,559,0,2],
 "structMR_1_1SeparationPointStorage_1_1Block.html#a58df13a2b6e26ec0a73b3883451f7c27":[10,0,10,574,0,1],
 "structMR_1_1SeparationPointStorage_1_1Block.html#a58df13a2b6e26ec0a73b3883451f7c27":[12,0,1,559,0,1],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a846d3bc158a03f5fd24580dc8b40e085":[10,0,10,574,0,5],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a846d3bc158a03f5fd24580dc8b40e085":[12,0,1,559,0,5],
-"structMR_1_1SeparationPointStorage_1_1Block.html#ab2e39467c0dd89a73144f53515aaeedb":[10,0,10,574,0,3]
+"structMR_1_1SeparationPointStorage_1_1Block.html#a846d3bc158a03f5fd24580dc8b40e085":[10,0,10,574,0,5]
 };

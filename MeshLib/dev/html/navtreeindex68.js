@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1OffsetContoursOrigins.html#ad5f2ee568aa0c645e5784e53f1ae0e72":[12,0,1,390,3],
+"structMR_1_1OffsetContoursParams.html":[10,0,10,406],
 "structMR_1_1OffsetContoursParams.html":[12,0,1,391],
 "structMR_1_1OffsetContoursParams.html#a11a811849fd3702f4abc2c898b1fe5dc":[10,0,10,406,8],
 "structMR_1_1OffsetContoursParams.html#a11a811849fd3702f4abc2c898b1fe5dc":[12,0,1,391,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1PointInAllSpaces.html#a836698583352b520081e97d4d91b40d2":[12,0,1,424,5],
 "structMR_1_1PointInAllSpaces.html#a9386798c3dc480332b26b1432b3d9b22":[10,0,10,439,2],
 "structMR_1_1PointInAllSpaces.html#a9386798c3dc480332b26b1432b3d9b22":[12,0,1,424,2],
-"structMR_1_1PointInAllSpaces.html#ac84dc0bf9782f486b05a9e4a3a738973":[10,0,10,439,1],
-"structMR_1_1PointInAllSpaces.html#ac84dc0bf9782f486b05a9e4a3a738973":[12,0,1,424,1],
-"structMR_1_1PointInAllSpaces.html#ad49d9386ce331c43283a72c316c3b457":[10,0,10,439,3]
+"structMR_1_1PointInAllSpaces.html#ac84dc0bf9782f486b05a9e4a3a738973":[10,0,10,439,1]
 };

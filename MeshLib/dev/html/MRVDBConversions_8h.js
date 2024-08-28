@@ -3,7 +3,7 @@ var MRVDBConversions_8h =
     [ "MR::MeshToVolumeParams", "structMR_1_1MeshToVolumeParams.html", "structMR_1_1MeshToVolumeParams" ],
     [ "MR::GridToMeshSettings", "structMR_1_1GridToMeshSettings.html", "structMR_1_1GridToMeshSettings" ],
     [ "evalGridMinMax", "MRVDBConversions_8h.html#a2e6444f6867bfa54d04d95f86200e5c0", null ],
-    [ "floatGridToVdbVolume", "MRVDBConversions_8h.html#ae716e7a1520f3b8199070715f9ef65db", null ],
+    [ "floatGridToVdbVolume", "MRVDBConversions_8h.html#a28079c2b769b5066ac4213f22ca7058d", null ],
     [ "gridToMesh", "MRVDBConversions_8h.html#aac89fb164b5b7d4878d1dedead4331a6", null ],
     [ "gridToMesh", "MRVDBConversions_8h.html#aa74c456226024506fb5fb0013dedf5a7", null ],
     [ "levelSetDoubleConvertion", "MRVDBConversions_8h.html#af1f4dfd61200b810a436330a8d5da209", null ],

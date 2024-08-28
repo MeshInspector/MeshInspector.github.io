@@ -1,5 +1,7 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1VariableEdgeTri.html#aaf806bd6bbc163135641f8a5ca2a6f5f":[12,0,1,653,0],
+"structMR_1_1Vector2.html":[9,0,12,0],
 "structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c":[9,0,12,0,27],
 "structMR_1_1Vector2.html#a0537b0cb50cc7b0605e0fc95ffaf6b0b":[9,0,12,0,4],
 "structMR_1_1Vector2.html#a0704f4e80fa32a97a3c269ddbf09728d":[9,0,12,0,23],
@@ -247,7 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1VolumeToMeshByPartsSettings.html#a49895c0e58dfde0834b03dcc99e6279c":[9,19,4,1],
 "structMR_1_1VolumeToMeshByPartsSettings.html#addf979a4cc4d34fb2f506e84d1a9cf7a":[9,19,4,0],
 "structMR_1_1VoxelLocation.html":[9,19,0,0],
-"structMR_1_1VoxelMetricParameters.html":[9,19,2,0],
-"structMR_1_1VoxelMetricParameters.html#a3ae620491a9dd4eff4445eb022a73b7e":[9,19,2,0,0],
-"structMR_1_1VoxelMetricParameters.html#a4a39f4473b82dc98d9b380e6c081a438":[9,19,2,0,2]
+"structMR_1_1VoxelMetricParameters.html":[9,19,2,0]
 };

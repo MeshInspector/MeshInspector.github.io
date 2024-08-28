@@ -146,6 +146,9 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a5475f37dd7043df6b20d4e93fd65792a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8f6405c0c8d2ba48016836b657b6469" id="r_ac8f6405c0c8d2ba48016836b657b6469"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="#ad2534810fa0b1d6ede8c56229226770d">MR::MarchingCubesParams::CachingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8f6405c0c8d2ba48016836b657b6469">cachingMode</a> = <a class="el" href="#ad2534810fa0b1d6ede8c56229226770da086247a9b57fde6eefee2a0c4752242d">CachingMode::Automatic</a></td></tr>
 <tr class="separator:ac8f6405c0c8d2ba48016836b657b6469"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0013d7ada21c45455c0bcddddde6e242" id="r_a0013d7ada21c45455c0bcddddde6e242"><td class="memItemLeft" align="right" valign="top">std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0013d7ada21c45455c0bcddddde6e242">freeVolume</a></td></tr>
+<tr class="memdesc:a0013d7ada21c45455c0bcddddde6e242"><td class="mdescLeft">&#160;</td><td class="mdescRight">this optional function is called when volume is no longer needed to deallocate it and reduce peak memory consumption  <br /></td></tr>
+<tr class="separator:a0013d7ada21c45455c0bcddddde6e242"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="ad2534810fa0b1d6ede8c56229226770d" name="ad2534810fa0b1d6ede8c56229226770d"></a>
@@ -207,6 +210,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>progress callback </p>
+
+</div>
+</div>
+<a id="a0013d7ada21c45455c0bcddddde6e242" name="a0013d7ada21c45455c0bcddddde6e242"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0013d7ada21c45455c0bcddddde6e242">&#9670;&#160;</a></span>freeVolume</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;void()&gt; MR::MarchingCubesParams::freeVolume</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>this optional function is called when volume is no longer needed to deallocate it and reduce peak memory consumption </p>
 
 </div>
 </div>

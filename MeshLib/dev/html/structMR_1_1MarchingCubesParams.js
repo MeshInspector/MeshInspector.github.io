@@ -7,6 +7,7 @@ var structMR_1_1MarchingCubesParams =
     ] ],
     [ "cachingMode", "structMR_1_1MarchingCubesParams.html#ac8f6405c0c8d2ba48016836b657b6469", null ],
     [ "cb", "structMR_1_1MarchingCubesParams.html#adaced6444a2abeec7b4469778f8ace75", null ],
+    [ "freeVolume", "structMR_1_1MarchingCubesParams.html#a0013d7ada21c45455c0bcddddde6e242", null ],
     [ "iso", "structMR_1_1MarchingCubesParams.html#af22e28b54f1377a8a75efda6cf460c62", null ],
     [ "lessInside", "structMR_1_1MarchingCubesParams.html#ae07876a5272040c1fd50016127294f07", null ],
     [ "maxVertices", "structMR_1_1MarchingCubesParams.html#a5475f37dd7043df6b20d4e93fd65792a", null ],
