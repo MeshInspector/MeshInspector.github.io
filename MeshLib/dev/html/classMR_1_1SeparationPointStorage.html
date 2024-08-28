@@ -124,9 +124,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acbca7f8a94a42f4a535a4b3d41d2be72" id="r_acbca7f8a94a42f4a535a4b3d41d2be72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbca7f8a94a42f4a535a4b3d41d2be72">SeparationPointStorage</a> (size_t blockCount, size_t blockSize)</td></tr>
-<tr class="memdesc:acbca7f8a94a42f4a535a4b3d41d2be72"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepares storage for given number of blocks, each containing given size of voxels  <br /></td></tr>
-<tr class="separator:acbca7f8a94a42f4a535a4b3d41d2be72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2cd0c47a3c902b6c162620b71ccf9c6" id="r_ac2cd0c47a3c902b6c162620b71ccf9c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2cd0c47a3c902b6c162620b71ccf9c6">resize</a> (size_t blockCount, size_t blockSize)</td></tr>
+<tr class="memdesc:ac2cd0c47a3c902b6c162620b71ccf9c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepares storage for given number of blocks, each containing given size of voxels  <br /></td></tr>
+<tr class="separator:ac2cd0c47a3c902b6c162620b71ccf9c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8c6370ffaec4ad07e20b71a365327d7" id="r_ad8c6370ffaec4ad07e20b71a365327d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1SeparationPointStorage_1_1Block.html">Block</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8c6370ffaec4ad07e20b71a365327d7">getBlock</a> (size_t blockIndex)</td></tr>
 <tr class="memdesc:ad8c6370ffaec4ad07e20b71a365327d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">get block for filling in the thread responsible for it  <br /></td></tr>
 <tr class="separator:ad8c6370ffaec4ad07e20b71a365327d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,39 +144,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>storage for points on voxel edges used in Marching Cubes algorithms </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="acbca7f8a94a42f4a535a4b3d41d2be72" name="acbca7f8a94a42f4a535a4b3d41d2be72"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acbca7f8a94a42f4a535a4b3d41d2be72">&#9670;&#160;</a></span>SeparationPointStorage()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR::SeparationPointStorage::SeparationPointStorage </td>
-          <td>(</td>
-          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>blockCount</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>blockSize</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>prepares storage for given number of blocks, each containing given size of voxels </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a4f797a53cf1d4fedcf01fbd51dcf3e04" name="a4f797a53cf1d4fedcf01fbd51dcf3e04"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4f797a53cf1d4fedcf01fbd51dcf3e04">&#9670;&#160;</a></span>findSeparationPointSet()</h2>
 
@@ -285,6 +253,29 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>shifts vertex ids in each block (after they are filled) to make them unique; returns the total number of valid points in the storage </p>
+
+</div>
+</div>
+<a id="ac2cd0c47a3c902b6c162620b71ccf9c6" name="ac2cd0c47a3c902b6c162620b71ccf9c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2cd0c47a3c902b6c162620b71ccf9c6">&#9670;&#160;</a></span>resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::SeparationPointStorage::resize </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>blockCount</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>blockSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>prepares storage for given number of blocks, each containing given size of voxels </p>
 
 </div>
 </div>
