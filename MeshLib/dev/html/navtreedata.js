@@ -158,19 +158,19 @@ var NAVTREEINDEX =
 "structMR_1_1GcodeProcessor_1_1BaseAction.html#a3c7b474aeb8051a9fb1afb927f011f45",
 "structMR_1_1ImGuiMath_1_1detail_1_1VecSize.html",
 "structMR_1_1KeyUpListener.html#a07cd66972e7837c59e9d7e0db46c988b",
-"structMR_1_1Matrix4.html#a46de12be029c280190f995c40660c426",
-"structMR_1_1MeshLoadSettings.html",
-"structMR_1_1MouseController_1_1MouseControlKey.html#a13a368ef25048dff50e694ce949484e6",
-"structMR_1_1OffsetContoursOrigins.html#ad5f2ee568aa0c645e5784e53f1ae0e72",
-"structMR_1_1PointInAllSpaces.html#ac84dc0bf9782f486b05a9e4a3a738973",
-"structMR_1_1PostRescaleListener.html#a774a0276db498e8c1a194a69eaa2bf61",
-"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html",
-"structMR_1_1SeparationPointStorage_1_1Block.html#a846d3bc158a03f5fd24580dc8b40e085",
-"structMR_1_1SurfacePointWidget_1_1Parameters.html#a38a5a4681452f28c8f94a4b8f3bf7685",
-"structMR_1_1TouchpadParameters.html#addabc579478d3071f3b5a951ab574251",
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#ace10f316495c9cf052464a0154fee1c5",
-"structMR_1_1VariableEdgeTri.html#aaf806bd6bbc163135641f8a5ca2a6f5f",
-"structMR_1_1VoxelMetricParameters.html#a3ae620491a9dd4eff4445eb022a73b7e"
+"structMR_1_1Matrix4.html#a4b83aa70bbea736d6ffff5253debfb3b",
+"structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7",
+"structMR_1_1MouseController_1_1MouseControlKey.html#a647bc43b34bf75a34af675e69cd0f10b",
+"structMR_1_1OffsetContoursParams.html",
+"structMR_1_1PointInAllSpaces.html#ad49d9386ce331c43283a72c316c3b457",
+"structMR_1_1PostRescaleListener.html#ae837647183571bf4802bcae71f403831",
+"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a4a178e6ea3323a12fdb7394b7f89cd71",
+"structMR_1_1SeparationPointStorage_1_1Block.html#ab2e39467c0dd89a73144f53515aaeedb",
+"structMR_1_1SurfacePointWidget_1_1Parameters.html#a42b9955e23ce28c95ebdc5c3c78dae7f",
+"structMR_1_1TouchpadRotateGestureBeginListener.html",
+"structMR_1_1UI_1_1ButtonIconCustomizationParams.html",
+"structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c",
+"structMR_1_1VoxelMetricParameters.html#a5fae9a4b03e837ee2d487ce8e8dae34e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

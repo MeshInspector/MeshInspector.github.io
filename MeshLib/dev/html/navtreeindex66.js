@@ -1,7 +1,5 @@
 var NAVTREEINDEX66 =
 {
-"structMR_1_1MeshLoadSettings.html":[12,0,1,311],
-"structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7":[10,0,10,326,2],
 "structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7":[12,0,1,311,2],
 "structMR_1_1MeshLoadSettings.html#a230e016c84aafc3886deeb6fd2b33455":[10,0,10,326,6],
 "structMR_1_1MeshLoadSettings.html#a230e016c84aafc3886deeb6fd2b33455":[12,0,1,311,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX66 =
 "structMR_1_1MouseClickListener.html#a8a3a8c6ceb42ce6958bd4e57fa667d8a":[10,0,10,350,1],
 "structMR_1_1MouseClickListener.html#a8a3a8c6ceb42ce6958bd4e57fa667d8a":[12,0,1,335,1],
 "structMR_1_1MouseController_1_1MouseControlKey.html":[10,0,10,351,0],
-"structMR_1_1MouseController_1_1MouseControlKey.html":[12,0,1,336,0]
+"structMR_1_1MouseController_1_1MouseControlKey.html":[12,0,1,336,0],
+"structMR_1_1MouseController_1_1MouseControlKey.html#a13a368ef25048dff50e694ce949484e6":[10,0,10,351,0,0],
+"structMR_1_1MouseController_1_1MouseControlKey.html#a13a368ef25048dff50e694ce949484e6":[12,0,1,336,0,0]
 };

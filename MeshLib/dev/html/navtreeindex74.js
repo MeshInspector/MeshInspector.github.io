@@ -1,7 +1,5 @@
 var NAVTREEINDEX74 =
 {
-"structMR_1_1TouchpadParameters.html#addabc579478d3071f3b5a951ab574251":[12,0,1,619,1],
-"structMR_1_1TouchpadRotateGestureBeginListener.html":[10,0,10,635],
 "structMR_1_1TouchpadRotateGestureBeginListener.html":[12,0,1,620],
 "structMR_1_1TouchpadRotateGestureBeginListener.html#a310cd192746908245cc0cac59e0cc8b4":[10,0,10,635,1],
 "structMR_1_1TouchpadRotateGestureBeginListener.html#a310cd192746908245cc0cac59e0cc8b4":[12,0,1,620,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX74 =
 "structMR_1_1UI_1_1ButtonCustomizationParams.html#aa05d1e76244fb6b4afc1122ad02e1d5e":[12,0,1,21,1,5],
 "structMR_1_1UI_1_1ButtonCustomizationParams.html#aa156c6a89d078c902ee22cbfb09bfc42":[10,0,10,36,2,3],
 "structMR_1_1UI_1_1ButtonCustomizationParams.html#aa156c6a89d078c902ee22cbfb09bfc42":[12,0,1,21,1,3],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#ace10f316495c9cf052464a0154fee1c5":[10,0,10,36,2,2]
+"structMR_1_1UI_1_1ButtonCustomizationParams.html#ace10f316495c9cf052464a0154fee1c5":[10,0,10,36,2,2],
+"structMR_1_1UI_1_1ButtonCustomizationParams.html#ace10f316495c9cf052464a0154fee1c5":[12,0,1,21,1,2],
+"structMR_1_1UI_1_1ButtonIconCustomizationParams.html":[10,0,10,36,3]
 };
