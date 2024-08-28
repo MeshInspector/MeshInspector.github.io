@@ -118,12 +118,52 @@ Macros</h2></td></tr>
 <tr class="separator:ab8cb9281271220567c1359224e6ca5db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c406bd49225547ca8c9b02e77e70293" id="r_a1c406bd49225547ca8c9b02e77e70293"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c406bd49225547ca8c9b02e77e70293">MR_STR_</a>(...)&#160;&#160;&#160;#__VA_ARGS__</td></tr>
 <tr class="separator:a1c406bd49225547ca8c9b02e77e70293"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30c21a4f7f46e470b0c9ba48648699b1" id="r_a30c21a4f7f46e470b0c9ba48648699b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30c21a4f7f46e470b0c9ba48648699b1">MR_IDENTITY</a>(...)&#160;&#160;&#160;__VA_ARGS__</td></tr>
+<tr class="separator:a30c21a4f7f46e470b0c9ba48648699b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fd290c4738dc2f265b144020d97b290" id="r_a0fd290c4738dc2f265b144020d97b290"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fd290c4738dc2f265b144020d97b290">MR_END</a>(...)&#160;&#160;&#160;<a class="el" href="#a98c9bc1fa1800fdfc987995748d5944b">DETAIL_MR_END</a>(__VA_ARGS__)</td></tr>
+<tr class="separator:a0fd290c4738dc2f265b144020d97b290"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98c9bc1fa1800fdfc987995748d5944b" id="r_a98c9bc1fa1800fdfc987995748d5944b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98c9bc1fa1800fdfc987995748d5944b">DETAIL_MR_END</a>(...)&#160;&#160;&#160;__VA_ARGS__##_END</td></tr>
+<tr class="separator:a98c9bc1fa1800fdfc987995748d5944b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb4b71f9ebce86e54868bd967010ebbb" id="r_adb4b71f9ebce86e54868bd967010ebbb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(...)</td></tr>
 <tr class="separator:adb4b71f9ebce86e54868bd967010ebbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2577133e8c02d830609dc0c74a53949" id="r_af2577133e8c02d830609dc0c74a53949"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2577133e8c02d830609dc0c74a53949">MR_HAS_REQUIRES</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:af2577133e8c02d830609dc0c74a53949"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a98c9bc1fa1800fdfc987995748d5944b" name="a98c9bc1fa1800fdfc987995748d5944b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98c9bc1fa1800fdfc987995748d5944b">&#9670;&#160;</a></span>DETAIL_MR_END</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DETAIL_MR_END</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...</td><td>)</td>
+          <td>&#160;&#160;&#160;__VA_ARGS__##_END</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0fd290c4738dc2f265b144020d97b290" name="a0fd290c4738dc2f265b144020d97b290"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fd290c4738dc2f265b144020d97b290">&#9670;&#160;</a></span>MR_END</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_END</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="#a98c9bc1fa1800fdfc987995748d5944b">DETAIL_MR_END</a>(__VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af2577133e8c02d830609dc0c74a53949" name="af2577133e8c02d830609dc0c74a53949"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af2577133e8c02d830609dc0c74a53949">&#9670;&#160;</a></span>MR_HAS_REQUIRES</h2>
 
@@ -132,6 +172,23 @@ Macros</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define MR_HAS_REQUIRES&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a30c21a4f7f46e470b0c9ba48648699b1" name="a30c21a4f7f46e470b0c9ba48648699b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30c21a4f7f46e470b0c9ba48648699b1">&#9670;&#160;</a></span>MR_IDENTITY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_IDENTITY</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...</td><td>)</td>
+          <td>&#160;&#160;&#160;__VA_ARGS__</td>
         </tr>
       </table>
 </div><div class="memdoc">

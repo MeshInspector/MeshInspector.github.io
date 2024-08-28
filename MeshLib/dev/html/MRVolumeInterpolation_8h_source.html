@@ -130,7 +130,7 @@ $(function(){initNavTree('MRVolumeInterpolation_8h_source.html',''); initResizab
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keywordflow">if</span> <span class="keyword">constexpr</span> ( std::is_same_v&lt;VolumeType, VdbVolume&gt; )</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        {</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>            openvdb::Coord coord = volume.data-&gt;evalActiveVoxelBoundingBox().min();</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>            minCoord_ = { coord.<a class="code hl_variable" href="structMR_1_1Vector3.html#a3d6f56ed3c525a928116d6c095997c5c">x</a>(), coord.y(), coord.z() };</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>            minCoord_ = { coord.x(), coord.y(), coord.z() };</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        }</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    }</div>
@@ -157,7 +157,7 @@ $(function(){initNavTree('MRVolumeInterpolation_8h_source.html',''); initResizab
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        <span class="keywordtype">float</span> cz[2] = { 1.0f - index.pos.z, index.pos.z };</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; 8; i++ )</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        {</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            <a class="code hl_class" href="structMR_1_1Vector3.html">Vector3i</a> d{ i &amp; 1, ( i &gt;&gt; 1 ) &amp; 1, i &gt;&gt; 2 };</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            Vector3i d{ i &amp; 1, ( i &gt;&gt; 1 ) &amp; 1, i &gt;&gt; 2 };</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>            <span class="keyword">const</span> <span class="keyword">auto</span> voxPos = index.index + d;</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>            <span class="keywordflow">if</span> ( voxPos.x &gt;= 0 &amp;&amp; voxPos.x &lt; volume_.dims.x &amp;&amp;</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>                 voxPos.y &gt;= 0 &amp;&amp; voxPos.y &lt; volume_.dims.y &amp;&amp;</div>
@@ -174,12 +174,12 @@ $(function(){initNavTree('MRVolumeInterpolation_8h_source.html',''); initResizab
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keyword">const</span> <a class="code hl_typedef" href="classMR_1_1VoxelsVolumeInterpolatedAccessor.html#ab8d79139c35fd5b34335c70d5386092b">VolumeType</a>&amp; volume_;</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="keyword">const</span> Accessor&amp; accessor_;</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="preprocessor">#ifndef MRMESH_NO_OPENVDB</span></div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <a class="code hl_class" href="structMR_1_1Vector3.html">Vector3i</a> minCoord_{};</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    Vector3i minCoord_{};</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keyword">struct </span>IndexAndPos</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    {</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        <a class="code hl_typedef" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> index; <span class="comment">// Zero-based voxel index in the volume</span></div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        Vector3i index; <span class="comment">// Zero-based voxel index in the volume</span></div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        <a class="code hl_class" href="classVector3f.html">Vector3f</a> pos;   <span class="comment">// [0;1) position of a point in the voxel: 0 corresponds to index and 1 to next voxel</span></div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    };</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
@@ -209,12 +209,12 @@ $(function(){initNavTree('MRVolumeInterpolation_8h_source.html',''); initResizab
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> Accessor&gt;</div>
 <div class="foldopen" id="foldopen00108" data-start="{" data-end="}">
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="namespaceMR.html#a9de90c7fed2fd1b9436648e9f61a484d">  108</a></span><a class="code hl_class" href="structMR_1_1VoxelsVolumeMinMax.html">SimpleVolume</a> <a class="code hl_function" href="namespaceMR.html#a9de90c7fed2fd1b9436648e9f61a484d">resampleVolumeByInterpolation</a>(</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="namespaceMR.html#a9de90c7fed2fd1b9436648e9f61a484d">  108</a></span>SimpleVolume <a class="code hl_function" href="namespaceMR.html#a9de90c7fed2fd1b9436648e9f61a484d">resampleVolumeByInterpolation</a>(</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="keyword">const</span> <span class="keyword">typename</span> Accessor::VolumeType &amp;volume,</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="keyword">const</span> Accessor &amp;accessor,</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keyword">const</span> <a class="code hl_class" href="classVector3f.html">Vector3f</a> &amp;newVoxelSize )</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>{</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <a class="code hl_class" href="structMR_1_1VoxelsVolumeMinMax.html">SimpleVolume</a> res{</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    SimpleVolume res{</div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>        { .voxelSize{ newVoxelSize } },</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>        volume.min,</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>        volume.max</div>
@@ -251,11 +251,7 @@ $(function(){initNavTree('MRVolumeInterpolation_8h_source.html',''); initResizab
 <div class="ttc" id="anamespaceMR_1_1ImGuiMath_html_aec12d0bc0e82f7b60da894cd08419255"><div class="ttname"><a href="namespaceMR_1_1ImGuiMath.html#aec12d0bc0e82f7b60da894cd08419255">MR::ImGuiMath::floor</a></div><div class="ttdeci">constexpr A floor(A a)</div><div class="ttdef"><b>Definition</b> MRImGuiVectorOperators.h:126</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
 <div class="ttc" id="anamespaceMR_html_a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf"><div class="ttname"><a href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">MR::FeaturePropertyKind::other</a></div><div class="ttdeci">@ other</div></div>
-<div class="ttc" id="anamespaceMR_html_a38d7d5119d68ba78dff0e5a6e29a3f61"><div class="ttname"><a href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">MR::Vector3i</a></div><div class="ttdeci">Vector3&lt; int &gt; Vector3i</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:137</div></div>
 <div class="ttc" id="anamespaceMR_html_a9de90c7fed2fd1b9436648e9f61a484d"><div class="ttname"><a href="namespaceMR.html#a9de90c7fed2fd1b9436648e9f61a484d">MR::resampleVolumeByInterpolation</a></div><div class="ttdeci">SimpleVolume resampleVolumeByInterpolation(const typename Accessor::VolumeType &amp;volume, const Accessor &amp;accessor, const Vector3f &amp;newVoxelSize)</div><div class="ttdoc">sample function that resamples the voxel volume using interpolating accessor</div><div class="ttdef"><b>Definition</b> MRVolumeInterpolation.h:108</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3&lt; int &gt;</a></div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html_a3d6f56ed3c525a928116d6c095997c5c"><div class="ttname"><a href="structMR_1_1Vector3.html#a3d6f56ed3c525a928116d6c095997c5c">MR::Vector3::x</a></div><div class="ttdeci">T x</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:25</div></div>
-<div class="ttc" id="astructMR_1_1VoxelsVolumeMinMax_html"><div class="ttname"><a href="structMR_1_1VoxelsVolumeMinMax.html">MR::VoxelsVolumeMinMax&lt; std::vector&lt; float &gt; &gt;</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

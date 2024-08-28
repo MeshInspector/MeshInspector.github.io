@@ -118,7 +118,7 @@ $(function(){initNavTree('classMR_1_1VertRenumber.html',''); initResizable(true)
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a081d0a8f3933dd73ee062863c3644aa1" id="r_a081d0a8f3933dd73ee062863c3644aa1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a081d0a8f3933dd73ee062863c3644aa1">VertRenumber</a> (const <a class="el" href="namespaceMR.html#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a> &amp;validVerts, bool <a class="el" href="#a5ee74de7f5fdfc7a5230e3326b122644">saveValidOnly</a>)</td></tr>
+<tr class="memitem:a081d0a8f3933dd73ee062863c3644aa1" id="r_a081d0a8f3933dd73ee062863c3644aa1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a081d0a8f3933dd73ee062863c3644aa1">VertRenumber</a> (const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp;validVerts, bool <a class="el" href="#a5ee74de7f5fdfc7a5230e3326b122644">saveValidOnly</a>)</td></tr>
 <tr class="memdesc:a081d0a8f3933dd73ee062863c3644aa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepares the mapping  <br /></td></tr>
 <tr class="separator:a081d0a8f3933dd73ee062863c3644aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ee74de7f5fdfc7a5230e3326b122644" id="r_a5ee74de7f5fdfc7a5230e3326b122644"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ee74de7f5fdfc7a5230e3326b122644">saveValidOnly</a> () const</td></tr>
@@ -126,7 +126,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1804a1dca0466765918892c65d9436f0" id="r_a1804a1dca0466765918892c65d9436f0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1804a1dca0466765918892c65d9436f0">sizeVerts</a> () const</td></tr>
 <tr class="memdesc:a1804a1dca0466765918892c65d9436f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the total number of vertices to be saved  <br /></td></tr>
 <tr class="separator:a1804a1dca0466765918892c65d9436f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4180132d13f552ef422f73a2ad0c6bdc" id="r_a4180132d13f552ef422f73a2ad0c6bdc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4180132d13f552ef422f73a2ad0c6bdc">operator()</a> (<a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a> v) const</td></tr>
+<tr class="memitem:a4180132d13f552ef422f73a2ad0c6bdc" id="r_a4180132d13f552ef422f73a2ad0c6bdc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4180132d13f552ef422f73a2ad0c6bdc">operator()</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> v) const</td></tr>
 <tr class="memdesc:a4180132d13f552ef422f73a2ad0c6bdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">return packed index (if saveValidOnly = true) or same index (if saveValidOnly = false)  <br /></td></tr>
 <tr class="separator:a4180132d13f552ef422f73a2ad0c6bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -142,7 +142,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> MR::VertRenumber::VertRenumber </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a55545c59dfe59ebdf9e01b1868991539">VertBitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>validVerts</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>validVerts</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -169,7 +169,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">int MR::VertRenumber::operator() </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a93b55da93792f8f99be6c7ab7e0d103a">VertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>

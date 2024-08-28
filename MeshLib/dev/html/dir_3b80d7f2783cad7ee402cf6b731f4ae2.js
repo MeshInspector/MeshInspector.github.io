@@ -35,6 +35,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRBooleanOperation.h", "MRMesh_2MRBooleanOperation_8h.html", "MRMesh_2MRBooleanOperation_8h" ],
     [ "MRBox.h", "MRMesh_2MRBox_8h.html", "MRMesh_2MRBox_8h" ],
     [ "MRBuffer.h", "MRBuffer_8h.html", "MRBuffer_8h" ],
+    [ "MRCanonicalTypedefs.h", "MRCanonicalTypedefs_8h.html", "MRCanonicalTypedefs_8h" ],
     [ "MRChangeColoringActions.h", "MRChangeColoringActions_8h.html", null ],
     [ "MRChangeColoringType.h", "MRChangeColoringType_8h.html", null ],
     [ "MRChangeLabelAction.h", "MRChangeLabelAction_8h.html", "MRChangeLabelAction_8h" ],

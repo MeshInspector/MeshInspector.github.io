@@ -128,7 +128,7 @@ Public Types</h2></td></tr>
 <tr class="memitem:ab238a79ac9e6bdc05ebc7d4799c5afd9" id="r_ab238a79ac9e6bdc05ebc7d4799c5afd9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab238a79ac9e6bdc05ebc7d4799c5afd9">CudaMeshProjectorConstructor</a> = std::function&lt;std::unique_ptr&lt;<a class="el" href="classMR_1_1IPointsToMeshProjector.html">IPointsToMeshProjector</a>&gt;()&gt;</td></tr>
 <tr class="memdesc:ab238a79ac9e6bdc05ebc7d4799c5afd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns specific implementation of <a class="el" href="classMR_1_1IPointsToMeshProjector.html" title="Abstract class, computes the closest point on mesh to each of given points. Pure virtual functions mu...">IPointsToMeshProjector</a> interface projects on GPU.  <br /></td></tr>
 <tr class="separator:ab238a79ac9e6bdc05ebc7d4799c5afd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a093594ce011867252af1cb9b9b47db9a" id="r_a093594ce011867252af1cb9b9b47db9a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a093594ce011867252af1cb9b9b47db9a">CudaPointsToDistanceVolumeCallback</a> = std::function&lt;<a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;<a class="el" href="namespaceMR.html#aeb0a8fe9448340a63b6c0924e4e12aca">SimpleVolume</a>&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params )&gt;</td></tr>
+<tr class="memitem:a093594ce011867252af1cb9b9b47db9a" id="r_a093594ce011867252af1cb9b9b47db9a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a093594ce011867252af1cb9b9b47db9a">CudaPointsToDistanceVolumeCallback</a> = std::function&lt;<a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;SimpleVolume&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params )&gt;</td></tr>
 <tr class="separator:a093594ce011867252af1cb9b9b47db9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -163,7 +163,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ae617704b3b516d08ad6ab1e72366fcd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe981f5dbc854a41d19bb289e3d73933" id="r_abe981f5dbc854a41d19bb289e3d73933"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe981f5dbc854a41d19bb289e3d73933">fastWindingNumberMeshMemory</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="separator:abe981f5dbc854a41d19bb289e3d73933"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ad9a63c8de6ef3caaeb1e1f5bbe6e3c" id="r_a8ad9a63c8de6ef3caaeb1e1f5bbe6e3c"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ad9a63c8de6ef3caaeb1e1f5bbe6e3c">fromGridMemory</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;dims)</td></tr>
+<tr class="memitem:a8ad9a63c8de6ef3caaeb1e1f5bbe6e3c" id="r_a8ad9a63c8de6ef3caaeb1e1f5bbe6e3c"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ad9a63c8de6ef3caaeb1e1f5bbe6e3c">fromGridMemory</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const Vector3i &amp;dims)</td></tr>
 <tr class="separator:a8ad9a63c8de6ef3caaeb1e1f5bbe6e3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9c21f3ec40039a8b0627bc33247c749" id="r_ac9c21f3ec40039a8b0627bc33247c749"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9c21f3ec40039a8b0627bc33247c749">fromVectorMemory</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, size_t inputSize)</td></tr>
 <tr class="memdesc:ac9c21f3ec40039a8b0627bc33247c749"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns amount of required GPU memory for CudaFastWindingNumber::calcFromVector operation  <br /></td></tr>
@@ -230,7 +230,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a093594ce011867252af1cb9b9b47db9a">MR::CudaAccessor::CudaPointsToDistanceVolumeCallback</a> = std::function&lt;<a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;<a class="el" href="namespaceMR.html#aeb0a8fe9448340a63b6c0924e4e12aca">SimpleVolume</a>&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params )&gt;</td>
+          <td class="memname">using <a class="el" href="#a093594ce011867252af1cb9b9b47db9a">MR::CudaAccessor::CudaPointsToDistanceVolumeCallback</a> = std::function&lt;<a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;SimpleVolume&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params )&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -286,7 +286,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>&#160;)</td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

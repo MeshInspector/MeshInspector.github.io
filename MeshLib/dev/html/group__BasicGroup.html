@@ -275,40 +275,40 @@ Functions</h2></td></tr>
 <tr class="memitem:ga616873b34fa0db5205d049f845bec044"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga616873b34fa0db5205d049f845bec044">MR::heapBytes</a> (const std::function&lt; T &gt; &amp;)</td></tr>
 <tr class="memdesc:ga616873b34fa0db5205d049f845bec044"><td class="mdescLeft">&#160;</td><td class="mdescRight">Needed for generic code, always returns zero.  <br /></td></tr>
 <tr class="separator:ga616873b34fa0db5205d049f845bec044"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacebe01b37f86a061aec73665e5458155" id="r_gacebe01b37f86a061aec73665e5458155"><td class="memTemplParams" colspan="2">template&lt;typename I , typename ... F&gt; </td></tr>
-<tr class="memitem:gacebe01b37f86a061aec73665e5458155"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gacebe01b37f86a061aec73665e5458155">MR::ParallelFor</a> (I <a class="el" href="#ga25c73b1f9e5d5df34b153869e3cb5515">begin</a>, I <a class="el" href="#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, F &amp;&amp;... f)</td></tr>
+<tr class="memitem:gacebe01b37f86a061aec73665e5458155" id="r_gacebe01b37f86a061aec73665e5458155"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename ... F&gt; </td></tr>
+<tr class="memitem:gacebe01b37f86a061aec73665e5458155"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gacebe01b37f86a061aec73665e5458155">MR::ParallelFor</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> <a class="el" href="#ga25c73b1f9e5d5df34b153869e3cb5515">begin</a>, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> <a class="el" href="#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, F &amp;&amp;... f)</td></tr>
 <tr class="separator:gacebe01b37f86a061aec73665e5458155"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9ad21bab650271b14fe5e8c2c5eb6d5b" id="r_ga9ad21bab650271b14fe5e8c2c5eb6d5b"><td class="memTemplParams" colspan="2">template&lt;typename I , typename L , typename ... F&gt; </td></tr>
-<tr class="memitem:ga9ad21bab650271b14fe5e8c2c5eb6d5b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga9ad21bab650271b14fe5e8c2c5eb6d5b">MR::ParallelFor</a> (I <a class="el" href="#ga25c73b1f9e5d5df34b153869e3cb5515">begin</a>, I <a class="el" href="#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;... f)</td></tr>
+<tr class="memitem:ga9ad21bab650271b14fe5e8c2c5eb6d5b" id="r_ga9ad21bab650271b14fe5e8c2c5eb6d5b"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename L , typename ... F&gt; </td></tr>
+<tr class="memitem:ga9ad21bab650271b14fe5e8c2c5eb6d5b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga9ad21bab650271b14fe5e8c2c5eb6d5b">MR::ParallelFor</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> <a class="el" href="#ga25c73b1f9e5d5df34b153869e3cb5515">begin</a>, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> <a class="el" href="#ga3e268aab2816870aa045f278c6bd6ecd">end</a>, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;... f)</td></tr>
 <tr class="separator:ga9ad21bab650271b14fe5e8c2c5eb6d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga97e8749c8a61bfc6c81edcebdcebbdd6" id="r_ga97e8749c8a61bfc6c81edcebdcebbdd6"><td class="memTemplParams" colspan="2">template&lt;typename T , typename ... F&gt; </td></tr>
 <tr class="memitem:ga97e8749c8a61bfc6c81edcebdcebbdd6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga97e8749c8a61bfc6c81edcebdcebbdd6">MR::ParallelFor</a> (const std::vector&lt; T &gt; &amp;v, F &amp;&amp;... f)</td></tr>
 <tr class="separator:ga97e8749c8a61bfc6c81edcebdcebbdd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga465ce65b82d1fa8749312b1b6de8ede6" id="r_ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I , typename ... F&gt; </td></tr>
-<tr class="memitem:ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga465ce65b82d1fa8749312b1b6de8ede6">MR::ParallelFor</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;v, F &amp;&amp;... f)</td></tr>
+<tr class="memitem:ga465ce65b82d1fa8749312b1b6de8ede6" id="r_ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memTemplParams" colspan="2">template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename ... F&gt; </td></tr>
+<tr class="memitem:ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga465ce65b82d1fa8749312b1b6de8ede6">MR::ParallelFor</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; &amp;v, F &amp;&amp;... f)</td></tr>
 <tr class="separator:ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gacefefeac686afa1ccce13566eeaeb68b" id="r_gacefefeac686afa1ccce13566eeaeb68b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gacefefeac686afa1ccce13566eeaeb68b"><td class="memTemplItemLeft" align="right" valign="top">std::pair&lt; T, T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gacefefeac686afa1ccce13566eeaeb68b">MR::parallelMinMax</a> (const std::vector&lt; T &gt; &amp;vec, const T *topExcluding=nullptr)</td></tr>
 <tr class="separator:gacefefeac686afa1ccce13566eeaeb68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga838286be4a47d0b585d7ddb373d0abf0" id="r_ga838286be4a47d0b585d7ddb373d0abf0"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
-<tr class="memitem:ga838286be4a47d0b585d7ddb373d0abf0"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga838286be4a47d0b585d7ddb373d0abf0">MR::parallelMinMaxArg</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;vec, const T *topExcluding=nullptr)</td></tr>
+<tr class="memitem:ga838286be4a47d0b585d7ddb373d0abf0" id="r_ga838286be4a47d0b585d7ddb373d0abf0"><td class="memTemplParams" colspan="2">template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </td></tr>
+<tr class="memitem:ga838286be4a47d0b585d7ddb373d0abf0"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga838286be4a47d0b585d7ddb373d0abf0">MR::parallelMinMaxArg</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; &amp;vec, const T *topExcluding=nullptr)</td></tr>
 <tr class="separator:ga838286be4a47d0b585d7ddb373d0abf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4accadafe09c169e3742b72d1e5e5733" id="r_ga4accadafe09c169e3742b72d1e5e5733"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4accadafe09c169e3742b72d1e5e5733">MR::vertMapsComposition</a> (<a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> &amp;a2b, const <a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> &amp;b2c)</td></tr>
+<tr class="memitem:ga4accadafe09c169e3742b72d1e5e5733" id="r_ga4accadafe09c169e3742b72d1e5e5733"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4accadafe09c169e3742b72d1e5e5733">MR::vertMapsComposition</a> (VertMap &amp;a2b, const VertMap &amp;b2c)</td></tr>
 <tr class="memdesc:ga4accadafe09c169e3742b72d1e5e5733"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates a2b map to a2c map using b2c map  <br /></td></tr>
 <tr class="separator:ga4accadafe09c169e3742b72d1e5e5733"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad522c5e76d8252c0c5a3bc55818ce589" id="r_gad522c5e76d8252c0c5a3bc55818ce589"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad522c5e76d8252c0c5a3bc55818ce589">MR::vertMapsComposition</a> (const <a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> &amp;a2b, const <a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> &amp;b2c)</td></tr>
+<tr class="memitem:gad522c5e76d8252c0c5a3bc55818ce589" id="r_gad522c5e76d8252c0c5a3bc55818ce589"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad522c5e76d8252c0c5a3bc55818ce589">MR::vertMapsComposition</a> (const VertMap &amp;a2b, const VertMap &amp;b2c)</td></tr>
 <tr class="memdesc:gad522c5e76d8252c0c5a3bc55818ce589"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns map a2c from a2b and b2c maps  <br /></td></tr>
 <tr class="separator:gad522c5e76d8252c0c5a3bc55818ce589"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6c6986e0b57b1aaf6c155adb000bc9f3" id="r_ga6c6986e0b57b1aaf6c155adb000bc9f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6c6986e0b57b1aaf6c155adb000bc9f3">MR::edgeMapsComposition</a> (<a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a> &amp;a2b, const <a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a> &amp;b2c)</td></tr>
+<tr class="memitem:ga6c6986e0b57b1aaf6c155adb000bc9f3" id="r_ga6c6986e0b57b1aaf6c155adb000bc9f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6c6986e0b57b1aaf6c155adb000bc9f3">MR::edgeMapsComposition</a> (EdgeMap &amp;a2b, const EdgeMap &amp;b2c)</td></tr>
 <tr class="memdesc:ga6c6986e0b57b1aaf6c155adb000bc9f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates a2b map to a2c map using b2c map  <br /></td></tr>
 <tr class="separator:ga6c6986e0b57b1aaf6c155adb000bc9f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa8261f1d45e6d92532c31f3e4ca98614" id="r_gaa8261f1d45e6d92532c31f3e4ca98614"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa8261f1d45e6d92532c31f3e4ca98614">MR::edgeMapsComposition</a> (const <a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a> &amp;a2b, const <a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a> &amp;b2c)</td></tr>
+<tr class="memitem:gaa8261f1d45e6d92532c31f3e4ca98614" id="r_gaa8261f1d45e6d92532c31f3e4ca98614"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa8261f1d45e6d92532c31f3e4ca98614">MR::edgeMapsComposition</a> (const EdgeMap &amp;a2b, const EdgeMap &amp;b2c)</td></tr>
 <tr class="memdesc:gaa8261f1d45e6d92532c31f3e4ca98614"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns map a2c from a2b and b2c maps  <br /></td></tr>
 <tr class="separator:gaa8261f1d45e6d92532c31f3e4ca98614"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae15f0e77aea97c2194995913d9b8acfa" id="r_gae15f0e77aea97c2194995913d9b8acfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae15f0e77aea97c2194995913d9b8acfa">MR::faceMapsComposition</a> (<a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a> &amp;a2b, const <a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a> &amp;b2c)</td></tr>
+<tr class="memitem:gae15f0e77aea97c2194995913d9b8acfa" id="r_gae15f0e77aea97c2194995913d9b8acfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae15f0e77aea97c2194995913d9b8acfa">MR::faceMapsComposition</a> (FaceMap &amp;a2b, const FaceMap &amp;b2c)</td></tr>
 <tr class="memdesc:gae15f0e77aea97c2194995913d9b8acfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates a2b map to a2c map using b2c map  <br /></td></tr>
 <tr class="separator:gae15f0e77aea97c2194995913d9b8acfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab49400ae6dafb3acc3d4f328d6658e75" id="r_gab49400ae6dafb3acc3d4f328d6658e75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab49400ae6dafb3acc3d4f328d6658e75">MR::faceMapsComposition</a> (const <a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a> &amp;a2b, const <a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a> &amp;b2c)</td></tr>
+<tr class="memitem:gab49400ae6dafb3acc3d4f328d6658e75" id="r_gab49400ae6dafb3acc3d4f328d6658e75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab49400ae6dafb3acc3d4f328d6658e75">MR::faceMapsComposition</a> (const FaceMap &amp;a2b, const FaceMap &amp;b2c)</td></tr>
 <tr class="memdesc:gab49400ae6dafb3acc3d4f328d6658e75"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns map a2c from a2b and b2c maps  <br /></td></tr>
 <tr class="separator:gab49400ae6dafb3acc3d4f328d6658e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga52d34a9bbe60f99085e9aab32040499f" id="r_ga52d34a9bbe60f99085e9aab32040499f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga52d34a9bbe60f99085e9aab32040499f">MR::redirectSTDStreamsToLogger</a> ()</td></tr>
@@ -373,13 +373,13 @@ Functions</h2></td></tr>
 <tr class="memitem:ga1850d4188a12bb75802dc364f7309bd6" id="r_ga1850d4188a12bb75802dc364f7309bd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1850d4188a12bb75802dc364f7309bd6">MR::Heap&lt; T, I, P &gt;::resize</a> (size_t <a class="el" href="classMR_1_1Heap.html#a516d00eb9620f9cdb1f5c43c0810f744">size</a>, T def={})</td></tr>
 <tr class="memdesc:ga1850d4188a12bb75802dc364f7309bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">increases the size of the heap by adding elements at the end  <br /></td></tr>
 <tr class="separator:ga1850d4188a12bb75802dc364f7309bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4dedcc9253b2c45a7d8a9417d1c19362" id="r_ga4dedcc9253b2c45a7d8a9417d1c19362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4dedcc9253b2c45a7d8a9417d1c19362">MR::Heap&lt; T, I, P &gt;::setValue</a> (I elemId, const T &amp;newVal)</td></tr>
+<tr class="memitem:ga4dedcc9253b2c45a7d8a9417d1c19362" id="r_ga4dedcc9253b2c45a7d8a9417d1c19362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4dedcc9253b2c45a7d8a9417d1c19362">MR::Heap&lt; T, I, P &gt;::setValue</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> elemId, const T &amp;newVal)</td></tr>
 <tr class="memdesc:ga4dedcc9253b2c45a7d8a9417d1c19362"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets new value to given element  <br /></td></tr>
 <tr class="separator:ga4dedcc9253b2c45a7d8a9417d1c19362"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga967a46dde0718e3a1b167f25dfc62251" id="r_ga967a46dde0718e3a1b167f25dfc62251"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga967a46dde0718e3a1b167f25dfc62251">MR::Heap&lt; T, I, P &gt;::setLargerValue</a> (I elemId, const T &amp;newVal)</td></tr>
+<tr class="memitem:ga967a46dde0718e3a1b167f25dfc62251" id="r_ga967a46dde0718e3a1b167f25dfc62251"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga967a46dde0718e3a1b167f25dfc62251">MR::Heap&lt; T, I, P &gt;::setLargerValue</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> elemId, const T &amp;newVal)</td></tr>
 <tr class="memdesc:ga967a46dde0718e3a1b167f25dfc62251"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets new value to given element, which shall be larger/smaller than the current value  <br /></td></tr>
 <tr class="separator:ga967a46dde0718e3a1b167f25dfc62251"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8b871063e6c314fad7809432d2f74b64" id="r_ga8b871063e6c314fad7809432d2f74b64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8b871063e6c314fad7809432d2f74b64">MR::Heap&lt; T, I, P &gt;::setSmallerValue</a> (I elemId, const T &amp;newVal)</td></tr>
+<tr class="memitem:ga8b871063e6c314fad7809432d2f74b64" id="r_ga8b871063e6c314fad7809432d2f74b64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8b871063e6c314fad7809432d2f74b64">MR::Heap&lt; T, I, P &gt;::setSmallerValue</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> elemId, const T &amp;newVal)</td></tr>
 <tr class="separator:ga8b871063e6c314fad7809432d2f74b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -871,14 +871,14 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a> MR::edgeMapsComposition </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeMap MR::edgeMapsComposition </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a2b</em></span>, </td>
+          <td class="paramtype">const EdgeMap &amp;</td>          <td class="paramname"><span class="paramname"><em>a2b</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b2c</em></span>&#160;)</td>
+          <td class="paramtype">const EdgeMap &amp;</td>          <td class="paramname"><span class="paramname"><em>b2c</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -901,12 +901,12 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::edgeMapsComposition </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a2b</em></span>, </td>
+          <td class="paramtype">EdgeMap &amp;</td>          <td class="paramname"><span class="paramname"><em>a2b</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#ad4cc1d0519f3f96a939c50766ec1d0d6">EdgeMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b2c</em></span>&#160;)</td>
+          <td class="paramtype">const EdgeMap &amp;</td>          <td class="paramname"><span class="paramname"><em>b2c</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -977,14 +977,14 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a> MR::faceMapsComposition </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceMap MR::faceMapsComposition </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a2b</em></span>, </td>
+          <td class="paramtype">const FaceMap &amp;</td>          <td class="paramname"><span class="paramname"><em>a2b</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b2c</em></span>&#160;)</td>
+          <td class="paramtype">const FaceMap &amp;</td>          <td class="paramname"><span class="paramname"><em>b2c</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1007,12 +1007,12 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::faceMapsComposition </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a2b</em></span>, </td>
+          <td class="paramtype">FaceMap &amp;</td>          <td class="paramname"><span class="paramname"><em>a2b</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9ac57c2917a23e2cd0f11106a79156bf">FaceMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b2c</em></span>&#160;)</td>
+          <td class="paramtype">const FaceMap &amp;</td>          <td class="paramname"><span class="paramname"><em>b2c</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1119,13 +1119,13 @@ template&lt;typename M &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I , typename P &gt; </div>
+template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename P &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::Heap </td>
+          <td class="memname"><a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>, P &gt;::Heap </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
         </tr>
@@ -1157,13 +1157,13 @@ template&lt;typename T , typename I , typename P &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I , typename P &gt; </div>
+template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename P &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::Heap </td>
+          <td class="memname"><a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>, P &gt;::Heap </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1Heap_1_1Element.html">Element</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>elms</em></span>, </td>
         </tr>
@@ -1874,7 +1874,7 @@ template&lt;typename T , typename ... F&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I , typename ... F&gt; </div>
+template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename ... F&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1882,7 +1882,7 @@ template&lt;typename T , typename I , typename ... F&gt; </div>
         <tr>
           <td class="memname">auto MR::ParallelFor </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1906,7 +1906,7 @@ template&lt;typename T , typename I , typename ... F&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename I , typename ... F&gt; </div>
+template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename ... F&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1914,12 +1914,12 @@ template&lt;typename I , typename ... F&gt; </div>
         <tr>
           <td class="memname">auto MR::ParallelFor </td>
           <td>(</td>
-          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>begin</em></span>, </td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>begin</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1943,7 +1943,7 @@ template&lt;typename I , typename ... F&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename I , typename L , typename ... F&gt; </div>
+template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename L , typename ... F&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1951,12 +1951,12 @@ template&lt;typename I , typename L , typename ... F&gt; </div>
         <tr>
           <td class="memname">auto MR::ParallelFor </td>
           <td>(</td>
-          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>begin</em></span>, </td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>begin</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2014,12 +2014,12 @@ template&lt;typename T &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I &gt; </div>
+template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">auto MR::parallelMinMaxArg </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2199,10 +2199,10 @@ template&lt;typename T , typename I &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I , typename P &gt; </div>
+template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename P &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::resize </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>, P &gt;::resize </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
         </tr>
@@ -2224,12 +2224,12 @@ template&lt;typename T , typename I , typename P &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I , typename P &gt; </div>
+template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename P &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::setLargerValue </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>, P &gt;::setLargerValue </td>
           <td>(</td>
-          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>elemId</em></span>, </td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>elemId</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2249,12 +2249,12 @@ template&lt;typename T , typename I , typename P &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I , typename P &gt; </div>
+template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename P &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::setSmallerValue </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>, P &gt;::setSmallerValue </td>
           <td>(</td>
-          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>elemId</em></span>, </td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>elemId</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2272,12 +2272,12 @@ template&lt;typename T , typename I , typename P &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename I , typename P &gt; </div>
+template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename P &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::setValue </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>, P &gt;::setValue </td>
           <td>(</td>
-          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>elemId</em></span>, </td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>elemId</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2433,14 +2433,14 @@ template&lt;typename T , typename I , typename P &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> MR::vertMapsComposition </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertMap MR::vertMapsComposition </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a2b</em></span>, </td>
+          <td class="paramtype">const VertMap &amp;</td>          <td class="paramname"><span class="paramname"><em>a2b</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b2c</em></span>&#160;)</td>
+          <td class="paramtype">const VertMap &amp;</td>          <td class="paramname"><span class="paramname"><em>b2c</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -2463,12 +2463,12 @@ template&lt;typename T , typename I , typename P &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::vertMapsComposition </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a2b</em></span>, </td>
+          <td class="paramtype">VertMap &amp;</td>          <td class="paramname"><span class="paramname"><em>a2b</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#ab00991e5b6fd23efd55840ccf0075605">VertMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b2c</em></span>&#160;)</td>
+          <td class="paramtype">const VertMap &amp;</td>          <td class="paramname"><span class="paramname"><em>b2c</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

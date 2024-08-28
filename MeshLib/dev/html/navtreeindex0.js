@@ -245,9 +245,9 @@ var NAVTREEINDEX0 =
 "MRBuffer_8h.html#ab5fd6e1a390fa8c05a8ad7006709dbf2":[13,0,0,2,3,34,7],
 "MRBuffer_8h.html#aff3156c83a0cd4f80c755c47b577c1c9":[13,0,0,2,3,34,5],
 "MRBuffer_8h_source.html":[13,0,0,2,3,34],
-"MRCNCMachineSettings_8h.html":[13,0,0,2,3,57],
-"MRCNCMachineSettings_8h_source.html":[13,0,0,2,3,57],
+"MRCNCMachineSettings_8h.html":[13,0,0,2,3,58],
+"MRCNCMachineSettings_8h_source.html":[13,0,0,2,3,58],
 "MRCameraOrientationPlugin_8h.html":[13,0,0,2,0,0,0],
 "MRCameraOrientationPlugin_8h_source.html":[13,0,0,2,0,0,0],
-"MRChangeColoringActions_8h.html":[13,0,0,2,3,35]
+"MRCanonicalTypedefs_8h.html":[13,0,0,2,3,35]
 };

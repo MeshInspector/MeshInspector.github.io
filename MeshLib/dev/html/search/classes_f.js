@@ -4,6 +4,5 @@ var searchData=
   ['quadraticform_1',['QuadraticForm',['../structMR_1_1QuadraticForm.html',1,'MR']]],
   ['quadricapprox_2',['QuadricApprox',['../classMR_1_1QuadricApprox.html',1,'MR']]],
   ['quadtexturevertexobject_3',['QuadTextureVertexObject',['../classMR_1_1QuadTextureVertexObject.html',1,'MR']]],
-  ['quaternion_4',['Quaternion',['../structMR_1_1Quaternion.html',1,'MR']]],
-  ['quaternion_3c_20float_20_3e_5',['Quaternion&lt; float &gt;',['../structMR_1_1Quaternion.html',1,'MR']]]
+  ['quaternion_4',['Quaternion',['../structMR_1_1Quaternion.html',1,'MR']]]
 ];
