@@ -105,7 +105,7 @@ var NAVTREEINDEX =
 "MRPointsToMeshFusion_8h.html",
 "MRRibbonConstants_8h.html#ad2e6e25a903280bb16257d5eade3d674",
 "MRStringConvert_8h.html#a4484d46c4a911faa227d4f39727367a2",
-"MRUIStyle_8h.html#ad13b9be4aa5cae65c61e91ac1ab04ecd",
+"MRUIStyle_8h.html#acb0c4c1be185e69b6f58108b3471f882",
 "MRVoxelsVolume_8h_source.html",
 "classMR_1_1AncillaryImGuiLabel.html#ac293c89711518e59735abe0b6892db0d",
 "classMR_1_1CameraOrientation.html#a84d255ab4e7f8f30f34eb6f6dd2d155a",

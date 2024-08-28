@@ -45,7 +45,7 @@ var MRUIStyle_8h =
     [ "colorEdit4", "MRUIStyle_8h.html#acb0c4c1be185e69b6f58108b3471f882", null ],
     [ "colorEdit4", "MRUIStyle_8h.html#aaa136c1366383c9c03db4f4b7520c2a6", null ],
     [ "combo", "MRUIStyle_8h.html#a820aa2a94b65ad7536194e8527f89a12", null ],
-    [ "drag", "MRUIStyle_8h.html#ae8ac25d142ccaa84dbba3ca0faa37604", null ],
+    [ "drag", "MRUIStyle_8h.html#a1527cab8abd6795f21baa9abcfec2804", null ],
     [ "drawPoltHorizontalAxis", "MRUIStyle_8h.html#a6960ed24f5176be45d3dae21bae38d42", null ],
     [ "drawPoltVerticalAxis", "MRUIStyle_8h.html#a6d6f8139e24eb7840d9711fbe7e00a76", null ],
     [ "endCombo", "MRUIStyle_8h.html#a8cffb4ab7998318c522df73a1d12a4f9", null ],
