@@ -6,7 +6,7 @@ var searchData=
   ['make_5fpoints_5fdiscretization_3',['make_points_discretization',['../classMR_1_1ImGuiMenu.html#a344b3a7a1c2340b70efb4c3d5ffa920f',1,'MR::ImGuiMenu']]],
   ['make_5fslider_4',['make_slider',['../classMR_1_1ImGuiMenu.html#a0b9508550f2dc503c7e8bfe4d20c6756',1,'MR::ImGuiMenu']]],
   ['make_5fvisualize_5fcheckbox_5',['make_visualize_checkbox',['../classMR_1_1ImGuiMenu.html#a2cde4a8f3fa825bbab90240c16545c1a',1,'MR::ImGuiMenu']]],
-  ['make_5fwidth_6',['make_width',['../classMR_1_1ImGuiMenu.html#a788ba72f45291e53e26f3d4640a6e6b4',1,'MR::ImGuiMenu']]],
+  ['make_5fwidth_6',['make_width',['../classMR_1_1ImGuiMenu.html#a98f83c09c96441c509677145fdb27276',1,'MR::ImGuiMenu']]],
   ['makeaabbtreenodevec_7',['makeAABBTreeNodeVec',['../group__AABBTreeGroup.html#ga364302ddaf673e7f00c6745f4172d6c0',1,'MR']]],
   ['makearrow_8',['makeArrow',['../namespaceMR.html#abbe2dca6a39a0c9dae0abc3d1a6caac4',1,'MR']]],
   ['makebasisaxes_9',['makeBasisAxes',['../namespaceMR.html#aec1e78671b78ab66f38733f0ee0cc3ef',1,'MR']]],
