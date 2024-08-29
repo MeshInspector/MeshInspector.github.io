@@ -171,7 +171,7 @@ var searchData=
   ['getdirection_168',['getDirection',['../classMR_1_1ConeObject.html#a52991f3f7e3f80d675e98736f33e1e23',1,'MR::ConeObject::getDirection()'],['../classMR_1_1CylinderObject.html#a2dba06e23d8539b8de6999b5c7045bca',1,'MR::CylinderObject::getDirection()'],['../classMR_1_1LineObject.html#a0ac3b92e0ee10db29a7928525ac7acae',1,'MR::LineObject::getDirection()'],['../classMR_1_1DirectionWidget.html#a8b4334c69d67fa5facc71f1981cab1d1',1,'MR::DirectionWidget::getDirection()']]],
   ['getdirtyflags_169',['getDirtyFlags',['../classMR_1_1VisualObject.html#a6411458c4cd7d098c12adaea27568db7',1,'MR::VisualObject']]],
   ['getdistancemap_170',['getDistanceMap',['../classMR_1_1ObjectDistanceMap.html#a8879bbea5e2bb99096174220e0cc2504',1,'MR::ObjectDistanceMap']]],
-  ['getdistancesq_171',['getDistanceSq',['../structMR_1_1Box.html#a25efa79c9a3710f2c59fac06fb39ad12',1,'MR::Box']]],
+  ['getdistancesq_171',['getDistanceSq',['../structMR_1_1Box.html#a25efa79c9a3710f2c59fac06fb39ad12',1,'MR::Box::getDistanceSq(const Box &amp;b) const'],['../structMR_1_1Box.html#a6fa5434776a3bb7b53014edc67295ec8',1,'MR::Box::getDistanceSq(const V &amp;pt) const']]],
   ['getdownmousepos_172',['getDownMousePos',['../classMR_1_1MouseController.html#a97504993e7ae26edd11c87386a2b5c6a',1,'MR::MouseController']]],
   ['getdownposition_173',['GetDownPosition',['../namespaceImGui.html#a6dfe914b3199c96486e9fc7b82138777',1,'ImGui']]],
   ['getdrawasdiameter_174',['getDrawAsDiameter',['../classMR_1_1RadiusMeasurementObject.html#a9a79b85955d16c7ca3c23a0ba8ec605c',1,'MR::RadiusMeasurementObject']]],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1SelfIntersections_1_1Settings.html#ad3d19d62f4659d2ff0a0415ffecba3c4":[12,0,1,19,0,1],
 "structMR_1_1SelfIntersections_1_1Settings.html#aface1dd6cc60f50dd76186b73d130994":[10,0,10,33,0,3],
 "structMR_1_1SelfIntersections_1_1Settings.html#aface1dd6cc60f50dd76186b73d130994":[12,0,1,19,0,3],
 "structMR_1_1SeparationPointStorage_1_1Block.html":[10,0,10,574,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[10,0,10,612,0],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[12,0,1,597,0],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a112aadc006f7ece0404c1cbe603783cd":[10,0,10,612,0,6],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a112aadc006f7ece0404c1cbe603783cd":[12,0,1,597,0,6],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a2bf410c025634089f22b3341825cd20b":[10,0,10,612,0,0]
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a112aadc006f7ece0404c1cbe603783cd":[12,0,1,597,0,6]
 };

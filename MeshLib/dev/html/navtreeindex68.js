@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1PointInAllSpaces.html":[12,0,1,424],
 "structMR_1_1PointInAllSpaces.html#a0faf89a2289bed4bb23a92601e2a6cd9":[10,0,10,439,4],
 "structMR_1_1PointInAllSpaces.html#a0faf89a2289bed4bb23a92601e2a6cd9":[12,0,1,424,4],
 "structMR_1_1PointInAllSpaces.html#a137079597c74de0d73863a07b3a88f12":[10,0,10,439,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1PostDrawListener.html#ad257fd42a294be0f29daa5eb4ad27cbd":[12,0,1,451,2],
 "structMR_1_1PostFocusListener.html":[10,0,10,467],
 "structMR_1_1PostFocusListener.html":[12,0,1,452],
-"structMR_1_1PostFocusListener.html#a38251f795111e912a45ad68a7c13ca21":[10,0,10,467,3],
-"structMR_1_1PostFocusListener.html#a38251f795111e912a45ad68a7c13ca21":[12,0,1,452,3]
+"structMR_1_1PostFocusListener.html#a38251f795111e912a45ad68a7c13ca21":[10,0,10,467,3]
 };

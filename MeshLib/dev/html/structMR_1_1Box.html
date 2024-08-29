@@ -178,6 +178,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:adcbce4d705b1bf09dd04c5023fe58ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25efa79c9a3710f2c59fac06fb39ad12" id="r_a25efa79c9a3710f2c59fac06fb39ad12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#afc09ec552867bc199cca1653871f40eb">T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25efa79c9a3710f2c59fac06fb39ad12">getDistanceSq</a> (const <a class="el" href="structMR_1_1Box.html">Box</a> &amp;b) const</td></tr>
 <tr class="separator:a25efa79c9a3710f2c59fac06fb39ad12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fa5434776a3bb7b53014edc67295ec8" id="r_a6fa5434776a3bb7b53014edc67295ec8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#afc09ec552867bc199cca1653871f40eb">T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fa5434776a3bb7b53014edc67295ec8">getDistanceSq</a> (const V &amp;pt) const</td></tr>
+<tr class="separator:a6fa5434776a3bb7b53014edc67295ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5221795da9f2f569a0ac9fd9a1a5cba4" id="r_a5221795da9f2f569a0ac9fd9a1a5cba4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Box.html">Box</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5221795da9f2f569a0ac9fd9a1a5cba4">insignificantlyExpanded</a> () const</td></tr>
 <tr class="memdesc:a5221795da9f2f569a0ac9fd9a1a5cba4"><td class="mdescLeft">&#160;</td><td class="mdescRight">expands min and max to their closest representable value  <br /></td></tr>
 <tr class="separator:a5221795da9f2f569a0ac9fd9a1a5cba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -484,7 +486,7 @@ template&lt;typename V &gt; </div>
 </div>
 </div>
 <a id="a25efa79c9a3710f2c59fac06fb39ad12" name="a25efa79c9a3710f2c59fac06fb39ad12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25efa79c9a3710f2c59fac06fb39ad12">&#9670;&#160;</a></span>getDistanceSq()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a25efa79c9a3710f2c59fac06fb39ad12">&#9670;&#160;</a></span>getDistanceSq() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -508,6 +510,34 @@ template&lt;typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 <p>returns squared distance between this box and given one; returns zero if the boxes touch or intersect </p>
+
+</div>
+</div>
+<a id="a6fa5434776a3bb7b53014edc67295ec8" name="a6fa5434776a3bb7b53014edc67295ec8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fa5434776a3bb7b53014edc67295ec8">&#9670;&#160;</a></span>getDistanceSq() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#afc09ec552867bc199cca1653871f40eb">T</a> <a class="el" href="structMR_1_1Box.html">MR::Box</a>&lt; V &gt;::getDistanceSq </td>
+          <td>(</td>
+          <td class="paramtype">const V &amp;</td>          <td class="paramname"><span class="paramname"><em>pt</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>returns squared distance between this box and given point; returns zero if the point is inside or on the boundary of the box </p>
 
 </div>
 </div>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1OffsetContoursOrigins.html#a1633716ab89e852055090daa8b6eb2ab":[12,0,1,390,4],
 "structMR_1_1OffsetContoursOrigins.html#a4ffc0647f40dc8059aaceaa657ec9511":[10,0,10,405,5],
 "structMR_1_1OffsetContoursOrigins.html#a4ffc0647f40dc8059aaceaa657ec9511":[12,0,1,390,5],
 "structMR_1_1OffsetContoursOrigins.html#a8e421292af478ab293a9e62952548df9":[10,0,10,405,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d":[9,14,2,0],
 "structMR_1_1PointCloudRelaxParams.html":[9,14,1],
 "structMR_1_1PointCloudRelaxParams.html#ab8de6ecb0effc2fb5ae7f053955d6caf":[9,14,1,0],
-"structMR_1_1PointInAllSpaces.html":[10,0,10,439],
-"structMR_1_1PointInAllSpaces.html":[12,0,1,424]
+"structMR_1_1PointInAllSpaces.html":[10,0,10,439]
 };

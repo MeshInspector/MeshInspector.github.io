@@ -1,5 +1,6 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1TrivialMetricToPenalty.html#ac520c15e54c74fc25c2c0d3a0bdd18a6":[12,0,1,639,0],
 "structMR_1_1UI_1_1ButtonCustomizationParams.html":[10,0,10,36,2],
 "structMR_1_1UI_1_1ButtonCustomizationParams.html":[12,0,1,21,1],
 "structMR_1_1UI_1_1ButtonCustomizationParams.html#a28dc0364454bce82687aec5e5773623b":[10,0,10,36,2,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1UnorientedTriangle.html#a1559dd0f63575b110b6d67c47cd8ca61":[12,0,1,652,5],
 "structMR_1_1UnorientedTriangle.html#a2acb7c3b59143a9bddbe412c01ec2489":[10,0,10,667,3],
 "structMR_1_1UnorientedTriangle.html#a2acb7c3b59143a9bddbe412c01ec2489":[12,0,1,652,3],
-"structMR_1_1UnorientedTriangle.html#a3def19a0ec6d9b753da75d05825e1d0b":[10,0,10,667,4],
-"structMR_1_1UnorientedTriangle.html#a3def19a0ec6d9b753da75d05825e1d0b":[12,0,1,652,4]
+"structMR_1_1UnorientedTriangle.html#a3def19a0ec6d9b753da75d05825e1d0b":[10,0,10,667,4]
 };
