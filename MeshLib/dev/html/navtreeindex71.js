@@ -1,5 +1,10 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1SelfIntersections_1_1Settings.html#aface1dd6cc60f50dd76186b73d130994":[10,0,10,33,0,3],
+"structMR_1_1SelfIntersections_1_1Settings.html#aface1dd6cc60f50dd76186b73d130994":[12,0,1,19,0,3],
+"structMR_1_1SeparationPointStorage_1_1Block.html":[10,0,10,574,0],
+"structMR_1_1SeparationPointStorage_1_1Block.html":[12,0,1,559,0],
+"structMR_1_1SeparationPointStorage_1_1Block.html#a171fe956486e01cdfdddedaedd905ca4":[10,0,10,574,0,4],
 "structMR_1_1SeparationPointStorage_1_1Block.html#a171fe956486e01cdfdddedaedd905ca4":[12,0,1,559,0,4],
 "structMR_1_1SeparationPointStorage_1_1Block.html#a2ef8d933c08326819afd1d2681a5446c":[10,0,10,574,0,0],
 "structMR_1_1SeparationPointStorage_1_1Block.html#a2ef8d933c08326819afd1d2681a5446c":[12,0,1,559,0,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[12,0,1,597,0],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a112aadc006f7ece0404c1cbe603783cd":[10,0,10,612,0,6],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a112aadc006f7ece0404c1cbe603783cd":[12,0,1,597,0,6],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a2bf410c025634089f22b3341825cd20b":[10,0,10,612,0,0],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a2bf410c025634089f22b3341825cd20b":[12,0,1,597,0,0],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a2d31568cac0bf19969e4cc51dc854a14":[10,0,10,612,0,3],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a2d31568cac0bf19969e4cc51dc854a14":[12,0,1,597,0,3],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a39181874053a773d7db01166de8a0c7b":[10,0,10,612,0,2],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a39181874053a773d7db01166de8a0c7b":[12,0,1,597,0,2]
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a2bf410c025634089f22b3341825cd20b":[10,0,10,612,0,0]
 };

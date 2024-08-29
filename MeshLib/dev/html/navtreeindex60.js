@@ -1,5 +1,10 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a91b56f3de892d527f62012a689981635":[12,0,1,2,2,0,3],
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aca66ca9ce428b369a304aca13a2cd25c":[10,0,10,6,2,0,2],
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aca66ca9ce428b369a304aca13a2cd25c":[12,0,1,2,2,0,2],
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#ae7cbce0a25261174c06274fcaffe2a0f":[10,0,10,6,2,0,5],
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#ae7cbce0a25261174c06274fcaffe2a0f":[12,0,1,2,2,0,5],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aed8c3331e8b7c2fd1ab738f49d87f5ce":[10,0,10,6,2,0,7],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aed8c3331e8b7c2fd1ab738f49d87f5ce":[12,0,1,2,2,0,7],
 "structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html":[10,0,10,6,2,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1GCommand.html":[12,0,1,218],
 "structMR_1_1GCommand.html#a153e73394a743e67aaeaeefb04deac21":[10,0,10,233,5],
 "structMR_1_1GCommand.html#a153e73394a743e67aaeaeefb04deac21":[12,0,1,218,5],
-"structMR_1_1GCommand.html#a3f8b88883ebac5b476b7a042edd30d65":[10,0,10,233,4],
-"structMR_1_1GCommand.html#a3f8b88883ebac5b476b7a042edd30d65":[12,0,1,218,4],
-"structMR_1_1GCommand.html#a46bdc412f995f806c9a1cbb17969eb3a":[10,0,10,233,1],
-"structMR_1_1GCommand.html#a46bdc412f995f806c9a1cbb17969eb3a":[12,0,1,218,1],
-"structMR_1_1GCommand.html#aaf3da1692be265b849e66df425724a1b":[10,0,10,233,3],
-"structMR_1_1GCommand.html#aaf3da1692be265b849e66df425724a1b":[12,0,1,218,3]
+"structMR_1_1GCommand.html#a3f8b88883ebac5b476b7a042edd30d65":[10,0,10,233,4]
 };

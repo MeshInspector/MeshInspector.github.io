@@ -50,5 +50,7 @@ var searchData=
   ['mrmesh_5fclass_47',['MRMESH_CLASS',['../MRMesh_2MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a',1,'MRMeshFwd.h']]],
   ['mrmesh_5fif_5fhave_5fopenvdb_48',['MRMESH_IF_HAVE_OPENVDB',['../MRMesh_2MRMeshFwd_8h.html#ad84dd3c0651fdf1cdeb201d1b3af8a36',1,'MRMeshFwd.h']]],
   ['mrmeshc_5fapi_49',['MRMESHC_API',['../MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6',1,'MRMeshFwd.h']]],
-  ['mrmeshnumpy_5fparent_5fmodule_5fname_50',['MRMESHNUMPY_PARENT_MODULE_NAME',['../MRPythonNumpy_8h.html#ab135bb78166c0f59c9fe34366ab1786d',1,'MRPythonNumpy.h']]]
+  ['mrmeshnumpy_5fparent_5fmodule_5fname_50',['MRMESHNUMPY_PARENT_MODULE_NAME',['../MRPythonNumpy_8h.html#ab135bb78166c0f59c9fe34366ab1786d',1,'MRPythonNumpy.h']]],
+  ['mrsymbolmesh_5fapi_51',['MRSYMBOLMESH_API',['../MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b',1,'MRSymbolMeshFwd.h']]],
+  ['mrsymbolmesh_5fclass_52',['MRSYMBOLMESH_CLASS',['../MRSymbolMeshFwd_8h.html#acd35d2ca8d20c30530e2d38a9295f009',1,'MRSymbolMeshFwd.h']]]
 ];

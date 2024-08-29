@@ -36,7 +36,7 @@ var searchData=
   ['dira_33',['dirA',['../structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a6f5eba0221416eca918dea71f64ad70d',1,'MR::Features::MeasureResult::Angle']]],
   ['dirarea_34',['dirArea',['../structMR_1_1Dipole.html#a804c3991b7713194228966805194c66a',1,'MR::Dipole']]],
   ['dirb_35',['dirB',['../structMR_1_1Features_1_1MeasureResult_1_1Angle.html#ae7cbce0a25261174c06274fcaffe2a0f',1,'MR::Features::MeasureResult::Angle']]],
-  ['direction_36',['direction',['../structMR_1_1TextMeshAlignParams.html#a414e391a4aef8d9ffc82bdd050a469aa',1,'MR::TextMeshAlignParams::direction'],['../structMR_1_1MeshToDistanceMapParams.html#a251bc8c963a3d914635b6ed3ab80a527',1,'MR::MeshToDistanceMapParams::direction'],['../structMR_1_1DistanceMapToWorld.html#a866ac1e7f146d2a868527a502d376c74',1,'MR::DistanceMapToWorld::direction']]],
+  ['direction_36',['direction',['../structMR_1_1MeshToDistanceMapParams.html#a251bc8c963a3d914635b6ed3ab80a527',1,'MR::MeshToDistanceMapParams::direction'],['../structMR_1_1DistanceMapToWorld.html#a866ac1e7f146d2a868527a502d376c74',1,'MR::DistanceMapToWorld::direction'],['../structMR_1_1TextMeshAlignParams.html#a414e391a4aef8d9ffc82bdd050a469aa',1,'MR::TextMeshAlignParams::direction']]],
   ['dirty_5f_37',['dirty_',['../classMR_1_1VisualObject.html#a8a64ef900ae33d7bf55fd3474cdcef42',1,'MR::VisualObject::dirty_'],['../classMR_1_1RenderMeshObject.html#a9497665a3752c1392372f7259db26d4a',1,'MR::RenderMeshObject::dirty_']]],
   ['dirtyedges_5f_38',['dirtyEdges_',['../classMR_1_1RenderMeshObject.html#a59ecce80e0a471b2f17c0b6f9d9582e8',1,'MR::RenderMeshObject']]],
   ['discretization_39',['discretization',['../structMR_1_1Palette_1_1Parameters.html#a25a6807ebee10dcb03a9e00733288113',1,'MR::Palette::Parameters']]],

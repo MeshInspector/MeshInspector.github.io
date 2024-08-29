@@ -1,5 +1,10 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1TouchpadParameters.html#a4c54fd86bf3e610a33c76ea0e5b8c508":[10,0,10,634,3],
+"structMR_1_1TouchpadParameters.html#a4c54fd86bf3e610a33c76ea0e5b8c508":[12,0,1,619,3],
+"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadce":[10,0,10,634,0],
+"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadce":[12,0,1,619,0],
+"structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e":[10,0,10,634,0,1],
 "structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e":[12,0,1,619,0,1],
 "structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1":[10,0,10,634,0,0],
 "structMR_1_1TouchpadParameters.html#a5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1":[12,0,1,619,0,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1TrivialMetricToPenalty.html":[10,0,10,654],
 "structMR_1_1TrivialMetricToPenalty.html":[12,0,1,639],
 "structMR_1_1TrivialMetricToPenalty.html#ac520c15e54c74fc25c2c0d3a0bdd18a6":[10,0,10,654,0],
-"structMR_1_1TrivialMetricToPenalty.html#ac520c15e54c74fc25c2c0d3a0bdd18a6":[12,0,1,639,0],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html":[10,0,10,36,2],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html":[12,0,1,21,1],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#a28dc0364454bce82687aec5e5773623b":[10,0,10,36,2,4],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#a28dc0364454bce82687aec5e5773623b":[12,0,1,21,1,4],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#a39f7611697c3b8dca64336b3cc48a7cc":[10,0,10,36,2,1]
+"structMR_1_1TrivialMetricToPenalty.html#ac520c15e54c74fc25c2c0d3a0bdd18a6":[12,0,1,639,0]
 };

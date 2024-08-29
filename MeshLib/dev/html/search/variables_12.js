@@ -155,7 +155,7 @@ var searchData=
   ['subpointsize_5f_152',['subPointSize_',['../classMR_1_1FeatureObject.html#a361a7ce85014e2c6232445612aa34c60',1,'MR::FeatureObject']]],
   ['sum_153',['sum',['../structMR_1_1NumSum.html#adab70c85e9a40a08c221e2a031274326',1,'MR::NumSum']]],
   ['surfacedilateradius_154',['surfaceDilateRadius',['../structMR_1_1MeshApproxRelaxParams.html#aed8137acdd95c73e5606d4ad5fa7e3ae',1,'MR::MeshApproxRelaxParams']]],
-  ['surfaceoffset_155',['surfaceOffset',['../structMR_1_1TextMeshAlignParams.html#ad309350466777ef5beda3e012bc43222',1,'MR::TextMeshAlignParams::surfaceOffset'],['../structMR_1_1MeshVoxelsConverter.html#ab2f0c91461973d3a5fbb2ef07a4d3596',1,'MR::MeshVoxelsConverter::surfaceOffset'],['../structMR_1_1MeshToVolumeParams.html#a9453e71b6c68cba5c643d8c233b4e12e',1,'MR::MeshToVolumeParams::surfaceOffset']]],
+  ['surfaceoffset_155',['surfaceOffset',['../structMR_1_1MeshVoxelsConverter.html#ab2f0c91461973d3a5fbb2ef07a4d3596',1,'MR::MeshVoxelsConverter::surfaceOffset'],['../structMR_1_1MeshToVolumeParams.html#a9453e71b6c68cba5c643d8c233b4e12e',1,'MR::MeshToVolumeParams::surfaceOffset'],['../structMR_1_1TextMeshAlignParams.html#ad309350466777ef5beda3e012bc43222',1,'MR::TextMeshAlignParams::surfaceOffset']]],
   ['surfacepointparams_156',['surfacePointParams',['../structMR_1_1SurfaceContoursWidget_1_1SurfaceContoursWidgetParams.html#a7e1ca56125756c1a4bd6557ee7e0eee1',1,'MR::SurfaceContoursWidget::SurfaceContoursWidgetParams']]],
   ['swaponlastposteventsredraw_157',['swapOnLastPostEventsRedraw',['../classMR_1_1Viewer.html#a297a4daffc230ff2379b7c69f2312089',1,'MR::Viewer']]],
   ['swappedframecounter_158',['swappedFrameCounter',['../classMR_1_1FrameCounter.html#a809b38fcb6b28b20246970f011a49af9',1,'MR::FrameCounter']]],

@@ -1,5 +1,9 @@
 var NAVTREEINDEX35 =
 {
+"classMR_1_1SaveSelectedMenuItem.html#a6d15c06c36d6e528959fddab3548be2c":[10,0,10,548,0],
+"classMR_1_1SaveSelectedMenuItem.html#a6d15c06c36d6e528959fddab3548be2c":[12,0,1,533,0],
+"classMR_1_1SaveSelectedMenuItem.html#ad064ea5ca7d0f438dae71e8a7ec7446c":[10,0,10,548,1],
+"classMR_1_1SaveSelectedMenuItem.html#ad064ea5ca7d0f438dae71e8a7ec7446c":[12,0,1,533,1],
 "classMR_1_1SceneCache.html":[10,0,10,550],
 "classMR_1_1SceneCache.html":[12,0,1,535],
 "classMR_1_1SceneCache.html#a9d132145ed6e28c339f8a129698217d6":[10,0,10,550,0],
@@ -46,7 +50,7 @@ var NAVTREEINDEX35 =
 "classMR_1_1SceneObjectsListDrawer.html#af36935c34390d23a46d4c38f182071c9":[12,0,1,537,4],
 "classMR_1_1SceneObjectsListDrawer.html#affefc47d2b779b451bc3f420ddfdbdf8":[10,0,10,552,1],
 "classMR_1_1SceneObjectsListDrawer.html#affefc47d2b779b451bc3f420ddfdbdf8":[12,0,1,537,1],
-"classMR_1_1SceneRoot.html":[9,13,14],
+"classMR_1_1SceneRoot.html":[9,13,13],
 "classMR_1_1SceneRootObject.html":[10,0,10,554],
 "classMR_1_1SceneRootObject.html":[12,0,1,539],
 "classMR_1_1SceneRootObject.html#a08bd8d737b04194abe9ac2c4588eaa11":[10,0,10,554,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX35 =
 "classMR_1_1SetViewPresetMenuItem.html#a51faff0dc6e4224c895240fefd9e06b5":[12,0,1,562,1],
 "classMR_1_1SetViewportConfigPresetMenuItem.html":[10,0,10,576],
 "classMR_1_1SetViewportConfigPresetMenuItem.html":[12,0,1,561],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9d":[10,0,10,576,0],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9d":[12,0,1,561,0],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da06ce2a25e5d12c166a36f654dbea6012":[10,0,10,576,0,2],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da06ce2a25e5d12c166a36f654dbea6012":[12,0,1,561,0,2],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da66ba162102bbf6ae31b522aec561735e":[10,0,10,576,0,0]
+"classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9d":[10,0,10,576,0]
 };

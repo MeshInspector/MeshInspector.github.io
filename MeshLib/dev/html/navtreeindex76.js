@@ -1,5 +1,10 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1Viewport_1_1TriCornerColors.html#a4bb6813b4c01f5510e20837676efa7ae":[10,0,10,688,3,1],
+"structMR_1_1Viewport_1_1TriCornerColors.html#a4bb6813b4c01f5510e20837676efa7ae":[12,0,1,673,3,1],
+"structMR_1_1Viewport_1_1TriCornerColors.html#a52ef91aaa0208aa1e90b238eef7bbee9":[10,0,10,688,3,0],
+"structMR_1_1Viewport_1_1TriCornerColors.html#a52ef91aaa0208aa1e90b238eef7bbee9":[12,0,1,673,3,0],
+"structMR_1_1VolumeSegmentationParameters.html":[9,19,1,0],
 "structMR_1_1VolumeSegmentationParameters.html#aa059718068f7c4b81e33e2a1a3e7460c":[9,19,1,0,2],
 "structMR_1_1VolumeSegmentationParameters.html#ab07494ac7f1627ecc2dfce39e9502118":[9,19,1,0,1],
 "structMR_1_1VolumeSegmentationParameters.html#af000ea80a099a9de6d4f4f4475580b6c":[9,19,1,0,0],

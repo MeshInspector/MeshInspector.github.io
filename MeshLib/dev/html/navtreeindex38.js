@@ -1,5 +1,9 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884ab1c94ca2fbc3e78fc30069c8d0f01680":[12,0,1,616,0,3],
+"classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884adeccbe4e9083c3b5f7cd2632722765bb":[10,0,10,631,0,0],
+"classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884adeccbe4e9083c3b5f7cd2632722765bb":[12,0,1,616,0,0],
+"classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884aed36a1ef76a59ee3f15180e0441188ad":[10,0,10,631,0,4],
 "classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884aed36a1ef76a59ee3f15180e0441188ad":[12,0,1,616,0,4],
 "classMR_1_1TouchpadController.html":[10,0,10,633],
 "classMR_1_1TouchpadController.html":[12,0,1,618],
@@ -245,9 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1Viewer.html#a240a033f91b3eb0250fa706cd2f2feb1":[12,0,1,667,167],
 "classMR_1_1Viewer.html#a24fb1377eaabe916c15e03c1c11b83c7":[10,0,10,682,95],
 "classMR_1_1Viewer.html#a24fb1377eaabe916c15e03c1c11b83c7":[12,0,1,667,95],
-"classMR_1_1Viewer.html#a25d26ec62da3276a69b3f8c516c98887":[10,0,10,682,179],
-"classMR_1_1Viewer.html#a25d26ec62da3276a69b3f8c516c98887":[12,0,1,667,179],
-"classMR_1_1Viewer.html#a297a4daffc230ff2379b7c69f2312089":[10,0,10,682,195],
-"classMR_1_1Viewer.html#a297a4daffc230ff2379b7c69f2312089":[12,0,1,667,195],
-"classMR_1_1Viewer.html#a299cf1cccfffbe714ff8369008be4659":[10,0,10,682,162]
+"classMR_1_1Viewer.html#a25d26ec62da3276a69b3f8c516c98887":[10,0,10,682,179]
 };

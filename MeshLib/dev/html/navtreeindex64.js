@@ -1,5 +1,10 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1Matrix3.html#af81c56fb03d0cd84e6449455ea224282":[9,0,7,2,3],
+"structMR_1_1Matrix3_1_1QR.html":[9,0,7,2,0],
+"structMR_1_1Matrix3_1_1QR.html#a24dcb157cbe93b3013842a9976525442":[9,0,7,2,0,0],
+"structMR_1_1Matrix3_1_1QR.html#ab303b0d5b439ba72a0be24e1c590241b":[9,0,7,2,0,1],
+"structMR_1_1Matrix4.html":[9,0,7,3],
 "structMR_1_1Matrix4.html#a02514ec882b0d3be5745825463ffff40":[9,0,7,3,18],
 "structMR_1_1Matrix4.html#a1c8e791018f0a65338dfe67ed598875a":[9,0,7,3,5],
 "structMR_1_1Matrix4.html#a236c71c6a980ce77ee524f2a4b161271":[9,0,7,3,37],
@@ -244,10 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1MeshBuilder_1_1equalVector3f.html#a8fdebf815e795678656400f4e3a957f2":[12,0,1,6,1,0],
 "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html":[9,8,0,0],
 "structMR_1_1MeshDistanceResult.html":[9,1,18],
-"structMR_1_1MeshDistanceResult.html#a70f797f8444d6eb6f1c80155729379ef":[9,1,18,1],
-"structMR_1_1MeshDistanceResult.html#a944ef6a7b3e48c9fc07f0d5a70a56bf3":[9,1,18,2],
-"structMR_1_1MeshDistanceResult.html#a9e2c27f75cc9e5a7b2bdca70bef1e7db":[9,1,18,0],
-"structMR_1_1MeshEqualizeTriAreasParams.html":[9,11,6,1],
-"structMR_1_1MeshEqualizeTriAreasParams.html#a7a54f93ce9d16e271b34554e4b0bd4f0":[9,11,6,1,0],
-"structMR_1_1MeshIntersectionResult.html":[9,1,20]
+"structMR_1_1MeshDistanceResult.html#a70f797f8444d6eb6f1c80155729379ef":[9,1,18,1]
 };
