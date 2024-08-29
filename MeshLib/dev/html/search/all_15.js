@@ -802,7 +802,7 @@ var searchData=
   ['state_20plugins_20overview_799',['State Plugins overview',['../StatePluginsHelp.html',1,'']]],
   ['statebaseplugin_800',['StateBasePlugin',['../classMR_1_1StateBasePlugin.html',1,'MR::StateBasePlugin'],['../classMR_1_1StateBasePlugin.html#a36686d0a6dcae1a1bcce521d5db5e413',1,'MR::StateBasePlugin::StateBasePlugin()'],['../classMR_1_1StateListenerPlugin.html#a36686d0a6dcae1a1bcce521d5db5e413',1,'MR::StateListenerPlugin::StateBasePlugin()']]],
   ['statelistenerplugin_801',['StateListenerPlugin',['../classMR_1_1StateListenerPlugin.html',1,'MR']]],
-  ['statelistenerplugin_3c_20dragstartlistener_2c_20draglistener_2c_20dragendlistener_2c_20postdrawlistener_20_3e_802',['StateListenerPlugin&lt; DragStartListener, DragListener, DragEndListener, PostDrawListener &gt;',['../classMR_1_1StateListenerPlugin.html',1,'MR']]],
+  ['statelistenerplugin_3c_20dragstartlistener_2c_20draglistener_2c_20dragendlistener_20_3e_802',['StateListenerPlugin&lt; DragStartListener, DragListener, DragEndListener &gt;',['../classMR_1_1StateListenerPlugin.html',1,'MR']]],
   ['statelistenerplugin_3c_20mousedownlistener_2c_20mouseuplistener_2c_20mousemovelistener_20_3e_803',['StateListenerPlugin&lt; MouseDownListener, MouseUpListener, MouseMoveListener &gt;',['../classMR_1_1StateListenerPlugin.html',1,'MR']]],
   ['statements_804',['Code statements',['../CodingStyleHelp.html#CodeStatenebts',1,'']]],
   ['stateplugin_805',['StatePlugin',['../namespaceMR.html#ab03e30b3d478dc602964140a67391c49',1,'MR']]],
