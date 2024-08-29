@@ -1,5 +1,7 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1SetViewportConfigPresetMenuItem.html":[12,0,1,561],
+"classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9d":[10,0,10,576,0],
 "classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9d":[12,0,1,561,0],
 "classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da06ce2a25e5d12c166a36f654dbea6012":[10,0,10,576,0,2],
 "classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9da06ce2a25e5d12c166a36f654dbea6012":[12,0,1,561,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1SurfaceContoursWidget.html#a17351932f521bcc8680a5cd409ff6a83":[12,0,1,594,19],
 "classMR_1_1SurfaceContoursWidget.html#a1795043550765e8bcd706321b4fca036":[10,0,10,609,2],
 "classMR_1_1SurfaceContoursWidget.html#a1795043550765e8bcd706321b4fca036":[12,0,1,594,2],
-"classMR_1_1SurfaceContoursWidget.html#a20978054501178a01f106b246f2e7872":[10,0,10,609,12],
-"classMR_1_1SurfaceContoursWidget.html#a20978054501178a01f106b246f2e7872":[12,0,1,594,12],
-"classMR_1_1SurfaceContoursWidget.html#a26dae9e0f33bd3584d3389e4483b5bc5":[10,0,10,609,11]
+"classMR_1_1SurfaceContoursWidget.html#a20978054501178a01f106b246f2e7872":[10,0,10,609,12]
 };

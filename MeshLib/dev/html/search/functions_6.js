@@ -523,7 +523,7 @@ var searchData=
   ['gettempdirectory_520',['GetTempDirectory',['../namespaceMR.html#a4ba1f8b8dda149d741c79f6ca5c6f2ba',1,'MR']]],
   ['gettexture_521',['GetTexture',['../classMR_1_1RibbonButtonDrawer.html#a83dd3384388f9328b4a90cf1a166a111',1,'MR::RibbonButtonDrawer']]],
   ['gettexture_522',['getTexture',['../classMR_1_1ObjectMeshHolder.html#a7786ada7f2144c0075ef92fe2c1e07f3',1,'MR::ObjectMeshHolder::getTexture()'],['../classMR_1_1Palette.html#a10dfbdae3b19c43baa0235a41667e4a4',1,'MR::Palette::getTexture()'],['../classMR_1_1FramebufferData.html#ada1a819817c1dfa7f0a2793abb3b1ecc',1,'MR::FramebufferData::getTexture()'],['../namespaceMR_1_1UI.html#a0d337a1adf7e16aaa08b683a6b65e886',1,'MR::UI::getTexture()']]],
-  ['gettextureperface_523',['getTexturePerFace',['../classMR_1_1ObjectMeshHolder.html#ad5056e444ed1e1c41f4d5527cd08f906',1,'MR::ObjectMeshHolder']]],
+  ['gettextureperface_523',['getTexturePerFace',['../classMR_1_1ObjectMeshHolder.html#a5e8fda60a93aea300380380a7f156e9e',1,'MR::ObjectMeshHolder']]],
   ['gettextures_524',['getTextures',['../classMR_1_1ObjectMeshHolder.html#a2d3c121c2b9e8728bd52a1e0ff43537e',1,'MR::ObjectMeshHolder']]],
   ['getthemename_525',['getThemeName',['../classMR_1_1ColorTheme.html#afa765bafc3ea475fe65fc3383607cd63',1,'MR::ColorTheme']]],
   ['getthemetype_526',['getThemeType',['../classMR_1_1ColorTheme.html#adf6e7e1ab1712a295b5b94453300fde5',1,'MR::ColorTheme']]],

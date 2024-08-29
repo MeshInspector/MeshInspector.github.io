@@ -1,5 +1,9 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d":[9,14,2,0],
+"structMR_1_1PointCloudRelaxParams.html":[9,14,1],
+"structMR_1_1PointCloudRelaxParams.html#ab8de6ecb0effc2fb5ae7f053955d6caf":[9,14,1,0],
+"structMR_1_1PointInAllSpaces.html":[10,0,10,439],
 "structMR_1_1PointInAllSpaces.html":[12,0,1,424],
 "structMR_1_1PointInAllSpaces.html#a0faf89a2289bed4bb23a92601e2a6cd9":[10,0,10,439,4],
 "structMR_1_1PointInAllSpaces.html#a0faf89a2289bed4bb23a92601e2a6cd9":[12,0,1,424,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1PostDrawListener.html#a05affc1a2bebb67a6d5111e3a324a96b":[12,0,1,451,3],
 "structMR_1_1PostDrawListener.html#a236ae2c20bdef3b1c5b902d133b72c70":[10,0,10,466,1],
 "structMR_1_1PostDrawListener.html#a236ae2c20bdef3b1c5b902d133b72c70":[12,0,1,451,1],
-"structMR_1_1PostDrawListener.html#a6d4baebc484718242dcb7de8e2d75b24":[10,0,10,466,0],
-"structMR_1_1PostDrawListener.html#a6d4baebc484718242dcb7de8e2d75b24":[12,0,1,451,0],
-"structMR_1_1PostDrawListener.html#ad257fd42a294be0f29daa5eb4ad27cbd":[10,0,10,466,2],
-"structMR_1_1PostDrawListener.html#ad257fd42a294be0f29daa5eb4ad27cbd":[12,0,1,451,2],
-"structMR_1_1PostFocusListener.html":[10,0,10,467]
+"structMR_1_1PostDrawListener.html#a6d4baebc484718242dcb7de8e2d75b24":[10,0,10,466,0]
 };

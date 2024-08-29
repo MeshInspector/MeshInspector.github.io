@@ -1493,6 +1493,8 @@ var namespaceMR =
     [ "circumcircleDiameter", "group__MathGroup.html#gaba44f8d705d9bc1b98f635bdabe488ae", null ],
     [ "circumcircleDiameterSq", "group__MathGroup.html#ga97b0c226492f4561c1a2c13831433bed", null ],
     [ "classifyShellVert", "namespaceMR.html#abb745ff271bba30db642c45f4a5d6664", null ],
+    [ "cloneRegion", "namespaceMR.html#aaefec968ac6fb5cfee5c25c9a8e9b2c0", null ],
+    [ "cloneRegion", "namespaceMR.html#a86837deb8b4177b9b719b1faf4d2d0e8", null ],
     [ "closestPointOnLineSegm", "namespaceMR.html#a3499fd4f69711941f919d6cfc7789d8b", null ],
     [ "closestPoints", "group__IntersectionGroup.html#ga4396b23b8c03f5aa66c3cd584dbdfe48", null ],
     [ "closestPoints", "group__IntersectionGroup.html#gaab24181e6c7cccda09f6e6fc5045f3a4", null ],

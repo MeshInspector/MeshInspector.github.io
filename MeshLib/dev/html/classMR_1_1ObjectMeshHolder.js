@@ -35,7 +35,7 @@ var classMR_1_1ObjectMeshHolder =
     [ "getSelectedFacesColor", "classMR_1_1ObjectMeshHolder.html#a02fa90265375040e74918e796c8998fa", null ],
     [ "getSelectedFacesColorsForAllViewports", "classMR_1_1ObjectMeshHolder.html#adc4040df962d3e34cc03a1091a411198", null ],
     [ "getTexture", "classMR_1_1ObjectMeshHolder.html#a7786ada7f2144c0075ef92fe2c1e07f3", null ],
-    [ "getTexturePerFace", "classMR_1_1ObjectMeshHolder.html#ad5056e444ed1e1c41f4d5527cd08f906", null ],
+    [ "getTexturePerFace", "classMR_1_1ObjectMeshHolder.html#a5e8fda60a93aea300380380a7f156e9e", null ],
     [ "getTextures", "classMR_1_1ObjectMeshHolder.html#a2d3c121c2b9e8728bd52a1e0ff43537e", null ],
     [ "getUVCoords", "classMR_1_1ObjectMeshHolder.html#a13de75b67197d64f39f0a3a1600d47d0", null ],
     [ "getVisualizePropertyMask", "classMR_1_1ObjectMeshHolder.html#acee748e7294050525fc705701ce36f2a", null ],
