@@ -131,6 +131,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a7716b4700ce22b3eedf9da8864d8480f" id="r_a7716b4700ce22b3eedf9da8864d8480f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7716b4700ce22b3eedf9da8864d8480f">minWeight</a> = 1</td></tr>
 <tr class="memdesc:a7716b4700ce22b3eedf9da8864d8480f"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum sum of influence weights from surrounding points for a voxel to get a value, meaning that there shall be at least this number of points in close proximity  <br /></td></tr>
 <tr class="separator:a7716b4700ce22b3eedf9da8864d8480f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6253a7998223b8c2a5fffd0092b5883b" id="r_a6253a7998223b8c2a5fffd0092b5883b"><td class="memItemLeft" align="right" valign="top">const VertNormals *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6253a7998223b8c2a5fffd0092b5883b">ptNormals</a> = nullptr</td></tr>
+<tr class="memdesc:a6253a7998223b8c2a5fffd0092b5883b"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional input: if this pointer is set then function will use these normals instead of ones present in cloud  <br /></td></tr>
+<tr class="separator:a6253a7998223b8c2a5fffd0092b5883b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_structMR_1_1DistanceVolumeParams"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_structMR_1_1DistanceVolumeParams')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structMR_1_1DistanceVolumeParams.html">MR::DistanceVolumeParams</a></td></tr>
 <tr class="memitem:a57f0f5741fc414817c5c20a26970ec30 inherit pub_attribs_structMR_1_1DistanceVolumeParams" id="r_a57f0f5741fc414817c5c20a26970ec30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DistanceVolumeParams.html#a57f0f5741fc414817c5c20a26970ec30">origin</a></td></tr>
 <tr class="memdesc:a57f0f5741fc414817c5c20a26970ec30 inherit pub_attribs_structMR_1_1DistanceVolumeParams"><td class="mdescLeft">&#160;</td><td class="mdescRight">origin point of voxels box  <br /></td></tr>
@@ -159,6 +162,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>minimum sum of influence weights from surrounding points for a voxel to get a value, meaning that there shall be at least this number of points in close proximity </p>
+
+</div>
+</div>
+<a id="a6253a7998223b8c2a5fffd0092b5883b" name="a6253a7998223b8c2a5fffd0092b5883b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6253a7998223b8c2a5fffd0092b5883b">&#9670;&#160;</a></span>ptNormals</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const VertNormals* MR::PointsToDistanceVolumeParams::ptNormals = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>optional input: if this pointer is set then function will use these normals instead of ones present in cloud </p>
 
 </div>
 </div>

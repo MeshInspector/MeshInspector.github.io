@@ -162,14 +162,14 @@ var NAVTREEINDEX =
 "structMR_1_1ModelRenderParams.html#a76981d8dfd223e433ca3203cf1ebb4a3",
 "structMR_1_1OffsetContoursOrigins.html#a1633716ab89e852055090daa8b6eb2ab",
 "structMR_1_1PointInAllSpaces.html",
-"structMR_1_1PostFocusListener.html#a38251f795111e912a45ad68a7c13ca21",
-"structMR_1_1ResolveMeshDegenSettings.html#a109fa850f78fd8bce1db8edf8f434645",
-"structMR_1_1SelfIntersections_1_1Settings.html#ad3d19d62f4659d2ff0a0415ffecba3c4",
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a2bf410c025634089f22b3341825cd20b",
-"structMR_1_1TouchpadParameters.html",
-"structMR_1_1TrivialMetricToPenalty.html#ac520c15e54c74fc25c2c0d3a0bdd18a6",
-"structMR_1_1UnorientedTriangle.html#a3def19a0ec6d9b753da75d05825e1d0b",
-"structMR_1_1Viewport_1_1TriCornerColors.html#a06e3dd2db55e7e7ba53ba5b07c8ae542"
+"structMR_1_1PostFocusListener.html",
+"structMR_1_1ResolveMeshDegenSettings.html",
+"structMR_1_1SelfIntersections_1_1Settings.html#aca7a5619c15bc97f529b69737ac12bb6",
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a112aadc006f7ece0404c1cbe603783cd",
+"structMR_1_1TouchStartListener.html#adc59eaa78c9e49cc0ac5bfce51e47922",
+"structMR_1_1TrivialMetricToPenalty.html",
+"structMR_1_1UnorientedTriangle.html#a2acb7c3b59143a9bddbe412c01ec2489",
+"structMR_1_1Viewport_1_1TriCornerColors.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

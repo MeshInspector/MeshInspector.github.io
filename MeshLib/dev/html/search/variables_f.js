@@ -119,6 +119,7 @@ var searchData=
   ['pt_116',['pt',['../structMR_1_1MeshPoint.html#a3a24b45014eebfd444ca4f0e15a72c3d',1,'MR::MeshPoint::pt'],['../structMR_1_1PreciseVertCoords2.html#a5d5322f95eb294c6584a9f15f247fcd7',1,'MR::PreciseVertCoords2::pt'],['../structMR_1_1PreciseVertCoords.html#a0c89d0a0e8bdc63b8bd4559e3761df3c',1,'MR::PreciseVertCoords::pt']]],
   ['pt2sm_117',['pt2sm',['../structMR_1_1ImproveSamplingSettings.html#a360e357b9f7ac2e2bd821f4ed477a6ba',1,'MR::ImproveSamplingSettings']]],
   ['ptcolors_118',['ptColors',['../structMR_1_1ImproveSamplingSettings.html#aed21697c5aa69b1ad84771a17fb97ea5',1,'MR::ImproveSamplingSettings::ptColors'],['../structMR_1_1PointsToMeshParameters.html#ad30c0a7b27c4a1b5818cb7fc981403c3',1,'MR::PointsToMeshParameters::ptColors']]],
-  ['ptsinsm_119',['ptsInSm',['../structMR_1_1ImproveSamplingSettings.html#a402a2839352286a79e22d7c24a11be24',1,'MR::ImproveSamplingSettings']]],
-  ['pushcolorscb_120',['pushColorsCb',['../structMR_1_1CustomButtonParameters.html#ad01797d49f38c7175a5ca759d5064866',1,'MR::CustomButtonParameters']]]
+  ['ptnormals_119',['ptNormals',['../structMR_1_1PointsToDistanceVolumeParams.html#a6253a7998223b8c2a5fffd0092b5883b',1,'MR::PointsToDistanceVolumeParams']]],
+  ['ptsinsm_120',['ptsInSm',['../structMR_1_1ImproveSamplingSettings.html#a402a2839352286a79e22d7c24a11be24',1,'MR::ImproveSamplingSettings']]],
+  ['pushcolorscb_121',['pushColorsCb',['../structMR_1_1CustomButtonParameters.html#ad01797d49f38c7175a5ca759d5064866',1,'MR::CustomButtonParameters']]]
 ];
