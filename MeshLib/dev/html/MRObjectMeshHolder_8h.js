@@ -9,6 +9,7 @@ var MRObjectMeshHolder_8h =
     [ "Faces", "MRObjectMeshHolder_8h.html#a157b3a6855654482f9a6ab32e8698fae", null ],
     [ "FlatShading", "MRObjectMeshHolder_8h.html#aa8b7119d92d91910ac924bc65b00fbda", null ],
     [ "OnlyOddFragments", "MRObjectMeshHolder_8h.html#a042c09ca6ba0876b4cbdc0f2c10ea965", null ],
+    [ "Points", "MRObjectMeshHolder_8h.html#a50ba2acfd483f395e71abb80f687463e", null ],
     [ "PolygonOffsetFromCamera", "MRObjectMeshHolder_8h.html#a9006d81306cdae254fe8190c93bd96cc", null ],
     [ "SelectedEdges", "MRObjectMeshHolder_8h.html#aa93ffb62aca75747ad85cc36fb694363", null ],
     [ "SelectedFaces", "MRObjectMeshHolder_8h.html#a271d7a1f7dd9dd0cd4bf38aa8c65c462", null ],

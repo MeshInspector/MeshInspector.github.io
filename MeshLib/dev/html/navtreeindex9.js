@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"MRPythonNumpy_8h.html":[13,0,0,2,5,0],
 "MRPythonNumpy_8h.html#ab135bb78166c0f59c9fe34366ab1786d":[13,0,0,2,5,0,0],
 "MRPythonNumpy_8h_source.html":[13,0,0,2,5,0],
 "MRPython_8h.html":[13,0,0,2,3,308],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "MRSelectCurvaturePreference_8h.html#ae6a703f529a05e3f2fa59d68fd266627":[13,0,0,2,9,83,1],
 "MRSelectCurvaturePreference_8h_source.html":[13,0,0,2,9,83],
 "MRSelectObjectByClick_8h.html":[13,0,0,2,0,1,0],
-"MRSelectObjectByClick_8h_source.html":[13,0,0,2,0,1,0],
-"MRSelectScreenLasso_8h.html":[13,0,0,2,9,84]
+"MRSelectObjectByClick_8h_source.html":[13,0,0,2,0,1,0]
 };

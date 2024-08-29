@@ -67,7 +67,7 @@ var searchData=
   ['showmrversionintitle_64',['showMRVersionInTitle',['../structMR_1_1LaunchParams.html#a8a3dd1d7fa354ff72a92220cc87229a5',1,'MR::LaunchParams']]],
   ['showname_5f_65',['showName_',['../classMR_1_1VisualObject.html#a611894e7f98e2633137d75833e361781',1,'MR::VisualObject']]],
   ['showpercoorddeltas_66',['showPerCoordDeltas',['../structMR_1_1RenderDimensions_1_1LengthParams.html#a5723344bcea6403b4760e40c2e890f69',1,'MR::RenderDimensions::LengthParams']]],
-  ['showpoints_5f_67',['showPoints_',['../classMR_1_1ObjectLinesHolder.html#ac97e60fe1e8a87ff8905e571fd47bbd1',1,'MR::ObjectLinesHolder']]],
+  ['showpoints_5f_67',['showPoints_',['../classMR_1_1ObjectLinesHolder.html#ac97e60fe1e8a87ff8905e571fd47bbd1',1,'MR::ObjectLinesHolder::showPoints_'],['../classMR_1_1ObjectMeshHolder.html#a4fdda6003dc7f769d8227e058ee544e5',1,'MR::ObjectMeshHolder::showPoints_']]],
   ['showrenamemodal_5f_68',['showRenameModal_',['../classMR_1_1ImGuiMenu.html#a09e144807f360fa5ae2c48aa130a940d',1,'MR::ImGuiMenu']]],
   ['showselectededges_5f_69',['showSelectedEdges_',['../classMR_1_1ObjectMeshHolder.html#ad879a1f93bfd6cabaa301a5c100bba0c',1,'MR::ObjectMeshHolder']]],
   ['showselectedfaces_5f_70',['showSelectedFaces_',['../classMR_1_1ObjectMeshHolder.html#ab0bf0b80cfcbea1dbaa1b6756875f04d',1,'MR::ObjectMeshHolder']]],

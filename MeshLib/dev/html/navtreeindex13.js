@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"classBox3f.html#ad56aff3f3b412baebfcd51df3d6c514d":[12,0,7,6],
 "classBox3f.html#ae26ac00f32c85ea200a777b593538011":[12,0,7,3],
 "classBox3f.html#aea72530e728125fee6c28f6ff0dff041":[12,0,7,4],
 "classGeneralOffsetParameters.html":[12,0,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "classMR_1_1AsyncTimer.html#ad1582b16bb15b7032af648423d3dd002a056fa3d840f48b7bfbbd68c19a4797b3":[12,0,1,46,0,1],
 "classMR_1_1AsyncTimer.html#ad1582b16bb15b7032af648423d3dd002ab9f34773f28edd59e08c2bee5bcb5a0a":[10,0,10,61,0,0],
 "classMR_1_1AsyncTimer.html#ad1582b16bb15b7032af648423d3dd002ab9f34773f28edd59e08c2bee5bcb5a0a":[12,0,1,46,0,0],
-"classMR_1_1AsyncTimer.html#aeee85a939ba5485f5fe9cf00a8f5d275":[10,0,10,61,4],
-"classMR_1_1AsyncTimer.html#aeee85a939ba5485f5fe9cf00a8f5d275":[12,0,1,46,4]
+"classMR_1_1AsyncTimer.html#aeee85a939ba5485f5fe9cf00a8f5d275":[10,0,10,61,4]
 };
