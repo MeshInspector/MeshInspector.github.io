@@ -43,6 +43,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRMouseController.h", "MRMouseController_8h.html", "MRMouseController_8h" ],
     [ "MRMoveObjectByMouseImpl.h", "MRMoveObjectByMouseImpl_8h.html", "MRMoveObjectByMouseImpl_8h" ],
     [ "MRNotificationType.h", "MRNotificationType_8h.html", "MRNotificationType_8h" ],
+    [ "MRObjectImGuiLabel.h", "MRObjectImGuiLabel_8h.html", "MRObjectImGuiLabel_8h" ],
     [ "MRObjectMeshHistory.h", "MRObjectMeshHistory_8h.html", "MRObjectMeshHistory_8h" ],
     [ "MRObjectPointsHistory.h", "MRObjectPointsHistory_8h.html", "MRObjectPointsHistory_8h" ],
     [ "MRObjectTransformWidget.h", "MRObjectTransformWidget_8h.html", "MRObjectTransformWidget_8h" ],
