@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"classMR_1_1StateBasePlugin.html#ad91197be262f6b569d9234033d73bb8d":[10,0,10,604,5],
+"classMR_1_1StateBasePlugin.html#ad91197be262f6b569d9234033d73bb8d":[12,0,1,589,5],
 "classMR_1_1StateBasePlugin.html#adede9d0773e7eff370bd78dc66a4c898":[10,0,10,604,17],
 "classMR_1_1StateBasePlugin.html#adede9d0773e7eff370bd78dc66a4c898":[12,0,1,589,17],
 "classMR_1_1StateBasePlugin.html#ae7a96edadae63c78192e0f1f6b1f9db9":[10,0,10,604,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "classMR_1_1Toolbar.html#a07386eff67dc2dba6986286a96ebdb15":[10,0,10,627,0],
 "classMR_1_1Toolbar.html#a07386eff67dc2dba6986286a96ebdb15":[12,0,1,612,0],
 "classMR_1_1Toolbar.html#a21c47f07a7b4dd3115899fe8f8eeb465":[10,0,10,627,9],
-"classMR_1_1Toolbar.html#a21c47f07a7b4dd3115899fe8f8eeb465":[12,0,1,612,9],
-"classMR_1_1Toolbar.html#a349436a58999c51ecfa52e66e3fbfac5":[10,0,10,627,2],
-"classMR_1_1Toolbar.html#a349436a58999c51ecfa52e66e3fbfac5":[12,0,1,612,2]
+"classMR_1_1Toolbar.html#a21c47f07a7b4dd3115899fe8f8eeb465":[12,0,1,612,9]
 };

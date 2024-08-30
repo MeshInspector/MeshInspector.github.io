@@ -1,5 +1,7 @@
 var NAVTREEINDEX31 =
 {
+"classMR_1_1RangeCounter.html#adda3a272ca4a16dd6c2c1a4effefa578":[10,0,10,484,5],
+"classMR_1_1RangeCounter.html#adda3a272ca4a16dd6c2c1a4effefa578":[12,0,1,469,5],
 "classMR_1_1RangeCounter.html#afc61426864c7a39dd91df50524681102":[10,0,10,484,9],
 "classMR_1_1RangeCounter.html#afc61426864c7a39dd91df50524681102":[12,0,1,469,9],
 "classMR_1_1RangeProcessor.html":[10,0,10,485],
@@ -247,7 +249,5 @@ var NAVTREEINDEX31 =
 "classMR_1_1RenderFeatures_1_1RenderPointFeatureObject.html#a5bc3ac0bafd08c5b806eb903f0092219":[10,0,10,30,11,0],
 "classMR_1_1RenderFeatures_1_1RenderPointFeatureObject.html#a5bc3ac0bafd08c5b806eb903f0092219":[12,0,1,16,11,0],
 "classMR_1_1RenderFeatures_1_1RenderPointFeatureObject.html#a69b6fb942fb9f9e2687c35e268b6fa74":[10,0,10,30,11,1],
-"classMR_1_1RenderFeatures_1_1RenderPointFeatureObject.html#a69b6fb942fb9f9e2687c35e268b6fa74":[12,0,1,16,11,1],
-"classMR_1_1RenderFeatures_1_1RenderSphereFeatureObject.html":[10,0,10,30,12],
-"classMR_1_1RenderFeatures_1_1RenderSphereFeatureObject.html":[12,0,1,16,12]
+"classMR_1_1RenderFeatures_1_1RenderPointFeatureObject.html#a69b6fb942fb9f9e2687c35e268b6fa74":[12,0,1,16,11,1]
 };

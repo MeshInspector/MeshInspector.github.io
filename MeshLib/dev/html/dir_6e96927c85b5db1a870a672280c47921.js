@@ -34,6 +34,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRISceneStateCheck.h", "MRISceneStateCheck_8h.html", "MRISceneStateCheck_8h" ],
     [ "MRLambdaRibbonItem.h", "MRLambdaRibbonItem_8h.html", "MRLambdaRibbonItem_8h" ],
     [ "MRLinesShader.h", "MRLinesShader_8h.html", "MRLinesShader_8h" ],
+    [ "MRMacOSOpenDocumentsHandler.h", "MRMacOSOpenDocumentsHandler_8h.html", null ],
     [ "MRMarkedVoxelSlice.h", "MRMarkedVoxelSlice_8h.html", "MRMarkedVoxelSlice_8h" ],
     [ "MRMenu.h", "MRMenu_8h.html", "MRMenu_8h" ],
     [ "MRMeshBoundarySelectionWidget.h", "MRMeshBoundarySelectionWidget_8h.html", "MRMeshBoundarySelectionWidget_8h" ],

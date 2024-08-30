@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1SubdivideSettings.html#a36d315cb2aaa92503d1a85c889074250":[9,11,7,0,4],
+"structMR_1_1SubdivideSettings.html#a47209d51dfa333bfbaecd311df98c6b8":[9,11,7,0,0],
 "structMR_1_1SubdivideSettings.html#a52aa2a88771ab9ca39f096cae8256c7d":[9,11,7,0,14],
 "structMR_1_1SubdivideSettings.html#a55b830f7823b4a74b6891945bafa12a5":[9,11,7,0,8],
 "structMR_1_1SubdivideSettings.html#a5e24bf5e1bf140cdfac3cc68b9a693fa":[9,11,7,0,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1ToolPathParams.html#abb16295f5fc43829c45884d061d45e62":[10,0,10,628,2],
 "structMR_1_1ToolPathParams.html#abb16295f5fc43829c45884d061d45e62":[12,0,1,613,2],
 "structMR_1_1ToolPathParams.html#adacfd8b713ae1664619abcff9d04fead":[10,0,10,628,4],
-"structMR_1_1ToolPathParams.html#adacfd8b713ae1664619abcff9d04fead":[12,0,1,613,4],
-"structMR_1_1ToolPathParams.html#adf1fc52d9134c621ba9630531ee2c99d":[10,0,10,628,15],
-"structMR_1_1ToolPathParams.html#adf1fc52d9134c621ba9630531ee2c99d":[12,0,1,613,15]
+"structMR_1_1ToolPathParams.html#adacfd8b713ae1664619abcff9d04fead":[12,0,1,613,4]
 };

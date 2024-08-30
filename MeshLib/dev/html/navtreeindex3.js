@@ -245,9 +245,9 @@ var NAVTREEINDEX3 =
 "MRLocalTriangulations_8h_source.html":[13,0,0,2,3,164],
 "MRLog_8h.html":[13,0,0,2,3,165],
 "MRLog_8h_source.html":[13,0,0,2,3,165],
+"MRMacOSOpenDocumentsHandler_8h.html":[13,0,0,2,9,34],
+"MRMacOSOpenDocumentsHandler_8h_source.html":[13,0,0,2,9,34],
 "MRMacros_8h.html":[13,0,0,2,3,166],
 "MRMacros_8h.html#a0fd290c4738dc2f265b144020d97b290":[13,0,0,2,3,166,1],
-"MRMacros_8h.html#a1c406bd49225547ca8c9b02e77e70293":[13,0,0,2,3,166,6],
-"MRMacros_8h.html#a30c21a4f7f46e470b0c9ba48648699b1":[13,0,0,2,3,166,3],
-"MRMacros_8h.html#a98c9bc1fa1800fdfc987995748d5944b":[13,0,0,2,3,166,0]
+"MRMacros_8h.html#a1c406bd49225547ca8c9b02e77e70293":[13,0,0,2,3,166,6]
 };
