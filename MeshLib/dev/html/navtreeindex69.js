@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1Polynomial.html#ad1c492e9ade30990c714083f0317bdf6":[12,0,1,448,5],
 "structMR_1_1Polynomial.html#af4cea678a8bd6d42610d8b839862f4d2":[10,0,10,463,4],
 "structMR_1_1Polynomial.html#af4cea678a8bd6d42610d8b839862f4d2":[12,0,1,448,4],
 "structMR_1_1PolynomialWrapper.html":[10,0,10,464],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1RemeshSettings.html#aed5e02a684c4323c9ad3143c3dfdb24d":[10,0,10,497,8],
 "structMR_1_1RemeshSettings.html#aed5e02a684c4323c9ad3143c3dfdb24d":[12,0,1,482,8],
 "structMR_1_1RemeshSettings.html#af94f082b1d13804c4460f447afcda26a":[10,0,10,497,5],
-"structMR_1_1RemeshSettings.html#af94f082b1d13804c4460f447afcda26a":[12,0,1,482,5],
-"structMR_1_1RenderDimensions_1_1AngleParams.html":[10,0,10,29,0]
+"structMR_1_1RemeshSettings.html#af94f082b1d13804c4460f447afcda26a":[12,0,1,482,5]
 };

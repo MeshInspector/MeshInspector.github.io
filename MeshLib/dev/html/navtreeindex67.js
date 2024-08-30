@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1ObjVertId.html#a4fe9249435e74452c6a1f2a06d40de31":[12,0,1,388,0],
 "structMR_1_1ObjVertId.html#a921cb8e7f87d9fc04f442a3b02ed5806":[10,0,10,403,1],
 "structMR_1_1ObjVertId.html#a921cb8e7f87d9fc04f442a3b02ed5806":[12,0,1,388,1],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html":[9,13,12,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#a9e57510cc8b745dcfbbf6e04c6fba846":[12,0,1,12,1,1],
 "structMR_1_1Plane3.html":[9,0,18],
 "structMR_1_1Plane3.html#a29f7ab9c3671dc6904b3a79d854445ad":[9,0,18,0],
-"structMR_1_1Plane3.html#a383135f606af5200e0386204ae1eecf3":[9,0,18,4],
-"structMR_1_1Plane3.html#a38c8491b1563ae8fbbfe5666645cecc5":[9,0,18,9]
+"structMR_1_1Plane3.html#a383135f606af5200e0386204ae1eecf3":[9,0,18,4]
 };

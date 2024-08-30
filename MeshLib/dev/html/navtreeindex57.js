@@ -21,12 +21,13 @@ var NAVTREEINDEX57 =
 "structMR_1_1BooleanResult.html#ad2591d2b1ef80f9dc169034f419d83e4":[9,10,4,4],
 "structMR_1_1BooleanResultMapper.html":[9,10,0],
 "structMR_1_1BooleanResultMapper.html#a00bac3eecd35b44f05f28f7cb1f3c0d9":[9,10,0,2],
-"structMR_1_1BooleanResultMapper.html#a3a2abc280314da83919063aff2e0490f":[9,10,0,8],
-"structMR_1_1BooleanResultMapper.html#a730a4aa776837ed09143d106e54c085b":[9,10,0,5],
-"structMR_1_1BooleanResultMapper.html#a965145c8345c2af57bdd338b3fd038b4":[9,10,0,7],
+"structMR_1_1BooleanResultMapper.html#a3a2abc280314da83919063aff2e0490f":[9,10,0,9],
+"structMR_1_1BooleanResultMapper.html#a730a4aa776837ed09143d106e54c085b":[9,10,0,6],
+"structMR_1_1BooleanResultMapper.html#a90a7bf08cca602701e835565e3d516e7":[9,10,0,4],
+"structMR_1_1BooleanResultMapper.html#a965145c8345c2af57bdd338b3fd038b4":[9,10,0,8],
 "structMR_1_1BooleanResultMapper.html#ab684f42e7c2f76fd478da500c3b2ddcd":[9,10,0,3],
-"structMR_1_1BooleanResultMapper.html#ac5f5c7f84c16ba4d08fd3b45d06c5914":[9,10,0,4],
-"structMR_1_1BooleanResultMapper.html#ac601634b2fe9f6fe7b9531d6c8bf6d7c":[9,10,0,6],
+"structMR_1_1BooleanResultMapper.html#ac5f5c7f84c16ba4d08fd3b45d06c5914":[9,10,0,5],
+"structMR_1_1BooleanResultMapper.html#ac601634b2fe9f6fe7b9531d6c8bf6d7c":[9,10,0,7],
 "structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587":[9,10,0,1],
 "structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587a7fc56270e7a70fa81a5935b72eacbe29":[9,10,0,1,0],
 "structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587a9d5ed678fe57bcca610140957afab571":[9,10,0,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "structMR_1_1CursorEntranceListener.html#a2d5c27d95f9984ab5220e7c158d41841":[10,0,10,151,1],
 "structMR_1_1CursorEntranceListener.html#a2d5c27d95f9984ab5220e7c158d41841":[12,0,1,136,1],
 "structMR_1_1CursorEntranceListener.html#a2e6ad6df00a5718db8e060aec257534b":[10,0,10,151,3],
-"structMR_1_1CursorEntranceListener.html#a2e6ad6df00a5718db8e060aec257534b":[12,0,1,136,3],
-"structMR_1_1CursorEntranceListener.html#abd94cdf4627914e91f8f24f1aef2cb54":[10,0,10,151,0]
+"structMR_1_1CursorEntranceListener.html#a2e6ad6df00a5718db8e060aec257534b":[12,0,1,136,3]
 };

@@ -7,9 +7,9 @@ var structMR_1_1AffineXf =
     [ "AffineXf", "structMR_1_1AffineXf.html#afca9328028fe0e2b5c4f3d1181867792", null ],
     [ "linearOnly", "structMR_1_1AffineXf.html#aed36bec4a9d093011a85c99f21ced5f3", null ],
     [ "operator()", "structMR_1_1AffineXf.html#a5be41c92ebfbb340e9651f0efd210fcb", null ],
-    [ "operator!=", "structMR_1_1AffineXf.html#a6dc9757f3464185b8e9c16f2b06f8226", null ],
-    [ "operator*", "structMR_1_1AffineXf.html#a0b145cbd63f1e882c0bc2e1fccc418ab", null ],
-    [ "operator==", "structMR_1_1AffineXf.html#a4f1921225c3cbc95077c5b52aaeef66a", null ],
+    [ "operator!=", "structMR_1_1AffineXf.html#a186afe85bf17b3cb6a52b55f5af080bc", null ],
+    [ "operator*", "structMR_1_1AffineXf.html#a0e644a181cac1fa700946f98a47b8595", null ],
+    [ "operator==", "structMR_1_1AffineXf.html#a55d01857e172a9cbf746957013009926", null ],
     [ "A", "structMR_1_1AffineXf.html#ac50d0dfa0b11a916ac644165073713ca", null ],
     [ "b", "structMR_1_1AffineXf.html#abc589d85e328480de8c5972558bd7b3c", null ]
 ];
