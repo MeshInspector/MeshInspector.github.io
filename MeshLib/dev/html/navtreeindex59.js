@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1DividePolylineParameters.html#afe467eddfbfbcdf62b13cc9947b6eb00":[10,0,10,183,4],
+"structMR_1_1DividePolylineParameters.html#afe467eddfbfbcdf62b13cc9947b6eb00":[12,0,1,168,4],
 "structMR_1_1DragDropListener.html":[10,0,10,184],
 "structMR_1_1DragDropListener.html":[12,0,1,169],
 "structMR_1_1DragDropListener.html#a14335ad47979c8d5059dc9c8bb2af252":[10,0,10,184,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1FeatureObjectSharedProperty.html#abb260f1f2ce1cf3b86553e3b8c213840":[12,0,1,193,0],
 "structMR_1_1FeatureObjectSharedProperty.html#add72ff1842f783bf1ceae521c7d614ec":[10,0,10,208,2],
 "structMR_1_1FeatureObjectSharedProperty.html#add72ff1842f783bf1ceae521c7d614ec":[12,0,1,193,2],
-"structMR_1_1Features_1_1MeasureResult.html":[10,0,10,6,2],
-"structMR_1_1Features_1_1MeasureResult.html":[12,0,1,2,2],
-"structMR_1_1Features_1_1MeasureResult.html#a0682477036fb2befa7ff871bab780be2":[10,0,10,6,2,4]
+"structMR_1_1Features_1_1MeasureResult.html":[10,0,10,6,2]
 };

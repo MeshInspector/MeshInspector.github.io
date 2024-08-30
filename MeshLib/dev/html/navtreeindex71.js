@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1SegmEndColors.html":[10,0,10,569],
+"structMR_1_1SegmEndColors.html":[12,0,1,554],
 "structMR_1_1SegmEndColors.html#a074d144106e966fd84ea6ac76b9a172b":[10,0,10,569,0],
 "structMR_1_1SegmEndColors.html#a074d144106e966fd84ea6ac76b9a172b":[12,0,1,554,0],
 "structMR_1_1SegmEndColors.html#a34ba656028d463bdd70196ca015bdeab":[10,0,10,569,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1SubdivideSettings.html#a33de3142a2aa3715df6e72e27478d3e1":[9,11,7,0,7],
 "structMR_1_1SubdivideSettings.html#a36d315cb2aaa92503d1a85c889074250":[9,11,7,0,4],
 "structMR_1_1SubdivideSettings.html#a47209d51dfa333bfbaecd311df98c6b8":[9,11,7,0,0],
-"structMR_1_1SubdivideSettings.html#a52aa2a88771ab9ca39f096cae8256c7d":[9,11,7,0,14],
-"structMR_1_1SubdivideSettings.html#a55b830f7823b4a74b6891945bafa12a5":[9,11,7,0,8],
-"structMR_1_1SubdivideSettings.html#a5e24bf5e1bf140cdfac3cc68b9a693fa":[9,11,7,0,15]
+"structMR_1_1SubdivideSettings.html#a52aa2a88771ab9ca39f096cae8256c7d":[9,11,7,0,14]
 };

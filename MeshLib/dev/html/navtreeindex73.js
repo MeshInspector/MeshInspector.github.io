@@ -1,5 +1,7 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1ToolPathParams.html#af3436d805511bd0d9d2382154e99f492":[12,0,1,613,17],
+"structMR_1_1ToolPathResult.html":[10,0,10,629],
 "structMR_1_1ToolPathResult.html":[12,0,1,614],
 "structMR_1_1ToolPathResult.html#a327bcaceb046cef6859ddc1293a47e35":[10,0,10,629,0],
 "structMR_1_1ToolPathResult.html#a327bcaceb046cef6859ddc1293a47e35":[12,0,1,614,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1TriangulationHelpers_1_1Settings.html#ad5edcde965a734c44ce7cb176b8784c2":[12,0,1,20,1,0],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#adaecbf29331f6b90ae2a11acaa0c153a":[10,0,10,35,1,4],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#adaecbf29331f6b90ae2a11acaa0c153a":[12,0,1,20,1,4],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#aeadcc460fdb58725f5fd22d6457ea9b2":[10,0,10,35,1,7],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#aeadcc460fdb58725f5fd22d6457ea9b2":[12,0,1,20,1,7],
-"structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html":[9,15,0,0]
+"structMR_1_1TriangulationHelpers_1_1Settings.html#aeadcc460fdb58725f5fd22d6457ea9b2":[10,0,10,35,1,7]
 };

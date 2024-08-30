@@ -9,6 +9,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRAncillaryPoints.h", "MRAncillaryPoints_8h.html", "MRAncillaryPoints_8h" ],
     [ "MRAppendHistory.h", "MRAppendHistory_8h.html", "MRAppendHistory_8h" ],
     [ "MRAsyncTimer.h", "MRAsyncTimer_8h.html", "MRAsyncTimer_8h" ],
+    [ "MRClipboard.h", "MRClipboard_8h.html", "MRClipboard_8h" ],
     [ "MRColorTheme.h", "MRColorTheme_8h.html", "MRColorTheme_8h" ],
     [ "MRCommandLoop.h", "MRCommandLoop_8h.html", "MRCommandLoop_8h" ],
     [ "MRConsoleWindows.h", "MRConsoleWindows_8h.html", null ],

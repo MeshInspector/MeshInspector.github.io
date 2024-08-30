@@ -1,5 +1,9 @@
 var NAVTREEINDEX4 =
 {
+"MRMacros_8h.html#ab8cb9281271220567c1359224e6ca5db":[13,0,0,2,3,166,5],
+"MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb":[13,0,0,2,3,166,4],
+"MRMacros_8h.html#af2577133e8c02d830609dc0c74a53949":[13,0,0,2,3,166,2],
+"MRMacros_8h_source.html":[13,0,0,2,3,166],
 "MRMakePlane_8h.html":[13,0,0,2,3,167],
 "MRMakePlane_8h.html#a19595d087a85c1f377431ec7c863906c":[13,0,0,2,3,167,0],
 "MRMakePlane_8h_source.html":[13,0,0,2,3,167],
@@ -31,8 +35,8 @@ var NAVTREEINDEX4 =
 "MRMarchingCubes_8h.html#af598a204d49a6c06de0f3a464098d012":[13,0,0,2,3,172,4],
 "MRMarchingCubes_8h.html#af79e59969dc38af8f99d87b8d80385f2":[13,0,0,2,3,172,1],
 "MRMarchingCubes_8h_source.html":[13,0,0,2,3,172],
-"MRMarkedVoxelSlice_8h.html":[13,0,0,2,9,33],
-"MRMarkedVoxelSlice_8h_source.html":[13,0,0,2,9,33],
+"MRMarkedVoxelSlice_8h.html":[13,0,0,2,9,34],
+"MRMarkedVoxelSlice_8h_source.html":[13,0,0,2,9,34],
 "MRMatrix2_8h.html":[13,0,0,2,3,174],
 "MRMatrix2_8h_source.html":[13,0,0,2,3,174],
 "MRMatrix3Decompose_8h.html":[13,0,0,2,3,176],
@@ -45,8 +49,8 @@ var NAVTREEINDEX4 =
 "MRMatrix_8h_source.html":[13,0,0,2,3,173],
 "MRMeasurementObject_8h.html":[13,0,0,2,3,178],
 "MRMeasurementObject_8h_source.html":[13,0,0,2,3,178],
-"MRMenu_8h.html":[13,0,0,2,9,34],
-"MRMenu_8h_source.html":[13,0,0,2,9,34],
+"MRMenu_8h.html":[13,0,0,2,9,35],
+"MRMenu_8h_source.html":[13,0,0,2,9,35],
 "MRMeshAttributesToUpdate_8h.html":[13,0,0,2,3,180],
 "MRMeshAttributesToUpdate_8h_source.html":[13,0,0,2,3,180],
 "MRMeshBooleanFacade_8h.html":[13,0,0,2,3,182],
@@ -54,8 +58,8 @@ var NAVTREEINDEX4 =
 "MRMeshBooleanFacade_8h.html#a816a1c0aec6d5b2d8994b750a9ecfb9f":[13,0,0,2,3,182,4],
 "MRMeshBooleanFacade_8h.html#ab3166f1ae304a5ff0106e7c88b67960e":[13,0,0,2,3,182,2],
 "MRMeshBooleanFacade_8h_source.html":[13,0,0,2,3,182],
-"MRMeshBoundarySelectionWidget_8h.html":[13,0,0,2,9,35],
-"MRMeshBoundarySelectionWidget_8h_source.html":[13,0,0,2,9,35],
+"MRMeshBoundarySelectionWidget_8h.html":[13,0,0,2,9,36],
+"MRMeshBoundarySelectionWidget_8h_source.html":[13,0,0,2,9,36],
 "MRMeshBoundary_8h.html":[13,0,0,2,3,183],
 "MRMeshBoundary_8h_source.html":[13,0,0,2,3,183],
 "MRMeshBuilderTypes_8h.html":[13,0,0,2,3,185],
@@ -245,9 +249,5 @@ var NAVTREEINDEX4 =
 "MRMeshC_2MRMeshMetrics_8h.html#a8d1bbea24e1fb3709f9b1b830d170aee":[13,0,0,2,4,17,0],
 "MRMeshC_2MRMeshMetrics_8h.html#a961736cc9fff9092b4fda1fdf0070c34":[13,0,0,2,4,17,10],
 "MRMeshC_2MRMeshMetrics_8h.html#a974a9a6f5f81cf0d969bea5fcdaef097":[13,0,0,2,4,17,1],
-"MRMeshC_2MRMeshMetrics_8h.html#ac9fcd0e7cfebaafa5ca3b9eb0b170988":[13,0,0,2,4,17,12],
-"MRMeshC_2MRMeshMetrics_8h.html#acd1399e35f0a7a8d6666aab0bba9086d":[13,0,0,2,4,17,2],
-"MRMeshC_2MRMeshMetrics_8h.html#af34b3d4e7fc6bacaed511d3aaadc00b6":[13,0,0,2,4,17,5],
-"MRMeshC_2MRMeshMetrics_8h_source.html":[13,0,0,2,4,17],
-"MRMeshC_2MRMeshOrPoints_8h.html":[13,0,0,2,4,18]
+"MRMeshC_2MRMeshMetrics_8h.html#ac9fcd0e7cfebaafa5ca3b9eb0b170988":[13,0,0,2,4,17,12]
 };

@@ -1,6 +1,5 @@
 var MRSystem_8h =
 [
-    [ "GetClipboardText", "MRSystem_8h.html#a3116e9eddde92d8ea2677770b31361fb", null ],
     [ "GetCpuId", "MRSystem_8h.html#a7b5e5990972490ea4d3803ccca1b3757", null ],
     [ "getCurrentStacktrace", "MRSystem_8h.html#a69dd7a0499b29eb5608d05713b8feb72", null ],
     [ "GetDetailedOSName", "MRSystem_8h.html#a7d7ea607c1d62759b1a6d09f3b68c78f", null ],
@@ -17,7 +16,6 @@ var MRSystem_8h =
     [ "getUserConfigFilePath", "MRSystem_8h.html#a77dbe991d4f1d8a2b0ffd3ed1e1320bb", null ],
     [ "OpenDocument", "MRSystem_8h.html#a2d2055c8154d0075f8388ca7579fd794", null ],
     [ "OpenLink", "MRSystem_8h.html#aec820d50ac448217d66131a079fce39a", null ],
-    [ "SetClipboardText", "MRSystem_8h.html#aaf6ec05257917c4854846583fa32948f", null ],
     [ "SetCurrentThreadName", "MRSystem_8h.html#abc117ae5bf8ce3683d73b2fc8e37cde1", null ],
     [ "setNewHandlerIfNeeded", "MRSystem_8h.html#a76050fa0c0831ae2d21d1a20914f530d", null ],
     [ "setupLoggerByDefault", "MRSystem_8h.html#a6804a7415d5f018fa64bf1b533af3d4f", null ]
