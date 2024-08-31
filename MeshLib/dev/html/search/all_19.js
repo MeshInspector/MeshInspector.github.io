@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['w_0',['w',['../structMR_1_1Matrix4.html#a9e0640aaf9b368a204fd42127c9e93e3',1,'MR::Matrix4::w'],['../structMR_1_1Vector4.html#a2a2d849b18944213202e305115b457a6',1,'MR::Vector4::w'],['../structMR_1_1Dipole.html#ad0067762da3b2fc1436b75cd4bc8b7e2',1,'MR::Dipole::w()']]],
+  ['w_0',['w',['../structMR_1_1Matrix4.html#a9e0640aaf9b368a204fd42127c9e93e3',1,'MR::Matrix4::w'],['../structMR_1_1Vector4.html#a2a2d849b18944213202e305115b457a6',1,'MR::Vector4::w']]],
   ['waitblocking_1',['waitBlocking',['../classMR_1_1AsyncTimer.html#ab495cfbb4703c6205a17bc2dcd0a6b44',1,'MR::AsyncTimer']]],
   ['warning_2',['Warning',['../namespaceMR.html#a3ccf27858d11d72a88bdbaf6e9d2b05da0eaadb4fcb48a0a0ed7bc9868be9fbaa',1,'MR']]],
   ['warning_3',['warning',['../structMR_1_1GcodeProcessor_1_1BaseAction.html#a9270868b501d221ffbe92fc1d7c8916e',1,'MR::GcodeProcessor::BaseAction']]],

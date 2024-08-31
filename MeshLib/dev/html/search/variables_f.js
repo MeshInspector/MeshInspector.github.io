@@ -71,7 +71,7 @@ var searchData=
   ['polyline_5f_68',['polyline_',['../classMR_1_1ObjectLinesHolder.html#afba90d7f156c0d8bb20a9daa74a003ce',1,'MR::ObjectLinesHolder']]],
   ['polylineprojectionwithoffsetresult_69',['PolylineProjectionWithOffsetResult',['../namespaceMR.html#a507086a21a04027731ffeb5332b8ed9c',1,'MR']]],
   ['popuprenamebuffer_5f_70',['popUpRenameBuffer_',['../classMR_1_1ImGuiMenu.html#a43c1faf504ab05faff5dd7aadbf0ce81',1,'MR::ImGuiMenu']]],
-  ['pos_71',['pos',['../group__VoxelGroup.html#gada259ed5ae07b6f5138fb6e8212f7531',1,'MR::VoxelLocation']]],
+  ['pos_71',['pos',['../structMR_1_1Dipole.html#ae70faa532d5372a7fa0e32336cc6df35',1,'MR::Dipole::pos'],['../group__VoxelGroup.html#gada259ed5ae07b6f5138fb6e8212f7531',1,'MR::VoxelLocation::pos']]],
   ['position_72',['position',['../structMR_1_1PositionedText.html#adf395638da1f3aeb90c01d197a2cf0e0',1,'MR::PositionedText::position'],['../structImGui_1_1CustomStatePluginWindowParameters.html#a806cc2ab5e052004470f0333fb459651',1,'ImGui::CustomStatePluginWindowParameters::position']]],
   ['positioner_73',['positioner',['../structMR_1_1MarchingCubesParams.html#ad2aa80147c810b8b84221bd763c2d1bc',1,'MR::MarchingCubesParams']]],
   ['positiontype_74',['positionType',['../structMR_1_1SurfacePointWidget_1_1Parameters.html#aef0e9963d176c1ff1684083ddecd4fbe',1,'MR::SurfacePointWidget::Parameters']]],
