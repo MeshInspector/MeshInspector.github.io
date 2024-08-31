@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"conceptMR_1_1UI_1_1detail_1_1Scalar.html":[11,0,3,0,0],
 "conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType.html":[10,0,10,36,0,2],
 "conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType.html":[11,0,3,0,2],
 "conceptMR_1_1UI_1_1detail_1_1ValidDragSpeedForTargetType.html":[10,0,10,36,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "group__AABBTreeGroup.html#gae8acc67c54f5f060c954bb3528a0c581":[9,1,52],
 "group__AABBTreeGroup.html#gaf2ef419d4414bb6d0efa0c918b21bddf":[9,1,72],
 "group__AABBTreeGroup.html#gaf39d8d5357405a2ab417897d0abb7a8a":[9,1,79],
-"group__AABBTreeGroup.html#gaf49d29fe114a45e7ba44769ed23e07a7":[9,1,51],
-"group__AABBTreeGroup.html#gaf95502c89221bba3187782d4ed18199b":[9,1,109]
+"group__AABBTreeGroup.html#gaf49d29fe114a45e7ba44769ed23e07a7":[9,1,51]
 };

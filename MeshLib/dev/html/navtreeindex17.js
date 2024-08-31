@@ -36,9 +36,10 @@ var NAVTREEINDEX17 =
 "classMR_1_1CudaAccessor.html#ab238a79ac9e6bdc05ebc7d4799c5afd9":[12,0,1,135,2],
 "classMR_1_1Cuda_1_1FastWindingNumber.html":[9,1,0],
 "classMR_1_1Cuda_1_1FastWindingNumber.html#a03fd25b5742ad8c32943a8127288080e":[9,1,0,4],
-"classMR_1_1Cuda_1_1FastWindingNumber.html#a10e38a535b9aff32b6f5c639491dccb2":[9,1,0,2],
 "classMR_1_1Cuda_1_1FastWindingNumber.html#a35e0cc2dc56bc04f17a91c42a4b3b418":[9,1,0,3],
+"classMR_1_1Cuda_1_1FastWindingNumber.html#a607e556ab03bf24b121ec271b21166ce":[9,1,0,5],
 "classMR_1_1Cuda_1_1FastWindingNumber.html#a86d3189a5d71a05df142f08397fef76e":[9,1,0,1],
+"classMR_1_1Cuda_1_1FastWindingNumber.html#a8a173eb3f05713100a901eba45cafcc9":[9,1,0,2],
 "classMR_1_1Cuda_1_1FastWindingNumber.html#afed4d0df31eef8da93ca2d843c3a8a63":[9,1,0,0],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html":[10,0,10,2,1],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html":[12,0,1,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1DistanceMeasurementObject.html#a9cb473b073de0d9d702218c1acb619f4":[12,0,1,164,9],
 "classMR_1_1DistanceMeasurementObject.html#a9e0f8f69db9f70578651c47fd9f5532d":[10,0,10,179,0],
 "classMR_1_1DistanceMeasurementObject.html#a9e0f8f69db9f70578651c47fd9f5532d":[12,0,1,164,0],
-"classMR_1_1DistanceMeasurementObject.html#a9e0f8f69db9f70578651c47fd9f5532da334c4a4c42fdb79d7ebc3e73b517e6f8":[10,0,10,179,0,0],
-"classMR_1_1DistanceMeasurementObject.html#a9e0f8f69db9f70578651c47fd9f5532da334c4a4c42fdb79d7ebc3e73b517e6f8":[12,0,1,164,0,0]
+"classMR_1_1DistanceMeasurementObject.html#a9e0f8f69db9f70578651c47fd9f5532da334c4a4c42fdb79d7ebc3e73b517e6f8":[10,0,10,179,0,0]
 };

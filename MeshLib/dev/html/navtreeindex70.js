@@ -1,5 +1,14 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1RemeshSettings.html#ad7ab1e7054f884efcbe1327815ffd678":[12,0,1,482,0],
+"structMR_1_1RemeshSettings.html#ae47bb1dc61a019d8b23cdfd9d0343018":[10,0,10,497,9],
+"structMR_1_1RemeshSettings.html#ae47bb1dc61a019d8b23cdfd9d0343018":[12,0,1,482,9],
+"structMR_1_1RemeshSettings.html#aed5e02a684c4323c9ad3143c3dfdb24d":[10,0,10,497,8],
+"structMR_1_1RemeshSettings.html#aed5e02a684c4323c9ad3143c3dfdb24d":[12,0,1,482,8],
+"structMR_1_1RemeshSettings.html#af94f082b1d13804c4460f447afcda26a":[10,0,10,497,5],
+"structMR_1_1RemeshSettings.html#af94f082b1d13804c4460f447afcda26a":[12,0,1,482,5],
+"structMR_1_1RenderDimensions_1_1AngleParams.html":[10,0,10,29,0],
+"structMR_1_1RenderDimensions_1_1AngleParams.html":[12,0,1,15,0],
 "structMR_1_1RenderDimensions_1_1AngleParams.html#a3a1739ccf9799082e97640d3942cd5a0":[10,0,10,29,0,2],
 "structMR_1_1RenderDimensions_1_1AngleParams.html#a3a1739ccf9799082e97640d3942cd5a0":[12,0,1,15,0,2],
 "structMR_1_1RenderDimensions_1_1AngleParams.html#aa85ef6d1b0b31db4da15d765aaa3aaea":[10,0,10,29,0,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1SceneLoad_1_1SceneLoadResult.html#a4c844d4db5149403cd2595555c42df49":[10,0,10,32,0,4],
 "structMR_1_1SceneLoad_1_1SceneLoadResult.html#a4c844d4db5149403cd2595555c42df49":[12,0,1,18,0,4],
 "structMR_1_1SceneLoad_1_1SceneLoadResult.html#a8ab12a398d94cb272576b5f833d981fe":[10,0,10,32,0,1],
-"structMR_1_1SceneLoad_1_1SceneLoadResult.html#a8ab12a398d94cb272576b5f833d981fe":[12,0,1,18,0,1],
-"structMR_1_1SceneLoad_1_1SceneLoadResult.html#a97f073147fdb14c17f60c03a0dd66c2f":[10,0,10,32,0,2],
-"structMR_1_1SceneLoad_1_1SceneLoadResult.html#a97f073147fdb14c17f60c03a0dd66c2f":[12,0,1,18,0,2],
-"structMR_1_1SearchPathSettings.html":[10,0,10,568],
-"structMR_1_1SearchPathSettings.html":[12,0,1,553],
-"structMR_1_1SearchPathSettings.html#a73e36cb0460a39c6bf496d2038aced39":[10,0,10,568,0],
-"structMR_1_1SearchPathSettings.html#a73e36cb0460a39c6bf496d2038aced39":[12,0,1,553,0],
-"structMR_1_1SearchPathSettings.html#aa176e79c6812cb52b0c1dabdaa2e61c3":[10,0,10,568,1],
-"structMR_1_1SearchPathSettings.html#aa176e79c6812cb52b0c1dabdaa2e61c3":[12,0,1,553,1],
-"structMR_1_1SegmEndColors.html":[10,0,10,569]
+"structMR_1_1SceneLoad_1_1SceneLoadResult.html#a8ab12a398d94cb272576b5f833d981fe":[12,0,1,18,0,1]
 };

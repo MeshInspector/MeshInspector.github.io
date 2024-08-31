@@ -1,5 +1,10 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1FeatureObjectSharedProperty.html#abb260f1f2ce1cf3b86553e3b8c213840":[12,0,1,193,0],
+"structMR_1_1FeatureObjectSharedProperty.html#add72ff1842f783bf1ceae521c7d614ec":[10,0,10,208,2],
+"structMR_1_1FeatureObjectSharedProperty.html#add72ff1842f783bf1ceae521c7d614ec":[12,0,1,193,2],
+"structMR_1_1Features_1_1MeasureResult.html":[10,0,10,6,2],
+"structMR_1_1Features_1_1MeasureResult.html":[12,0,1,2,2],
 "structMR_1_1Features_1_1MeasureResult.html#a0682477036fb2befa7ff871bab780be2":[10,0,10,6,2,4],
 "structMR_1_1Features_1_1MeasureResult.html#a0682477036fb2befa7ff871bab780be2":[12,0,1,2,2,4],
 "structMR_1_1Features_1_1MeasureResult.html#a31415c50f3b3e2ee62b2778114b20ec9":[10,0,10,6,2,6],
@@ -244,10 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1FindOverlappingSettings.html#ad9c6b8c3584ffef1a49795f794fced8d":[12,0,1,203,1],
 "structMR_1_1FitBoxParams.html":[10,0,10,219],
 "structMR_1_1FitBoxParams.html":[12,0,1,204],
-"structMR_1_1FitBoxParams.html#a5594292518e53a54c005c6e95576306d":[10,0,10,219,1],
-"structMR_1_1FitBoxParams.html#a5594292518e53a54c005c6e95576306d":[12,0,1,204,1],
-"structMR_1_1FitBoxParams.html#a8a30a63152233b895d83c43813fffa46":[10,0,10,219,0],
-"structMR_1_1FitBoxParams.html#a8a30a63152233b895d83c43813fffa46":[12,0,1,204,0],
-"structMR_1_1FitDataParams.html":[10,0,10,221],
-"structMR_1_1FitDataParams.html":[12,0,1,206]
+"structMR_1_1FitBoxParams.html#a5594292518e53a54c005c6e95576306d":[10,0,10,219,1]
 };

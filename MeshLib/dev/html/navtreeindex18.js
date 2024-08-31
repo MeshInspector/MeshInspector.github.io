@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1DistanceMeasurementObject.html#a9e0f8f69db9f70578651c47fd9f5532da334c4a4c42fdb79d7ebc3e73b517e6f8":[12,0,1,164,0,0],
 "classMR_1_1DistanceMeasurementObject.html#a9e0f8f69db9f70578651c47fd9f5532da39f79117f7f2836d0e42f921aa3f483b":[10,0,10,179,0,1],
 "classMR_1_1DistanceMeasurementObject.html#a9e0f8f69db9f70578651c47fd9f5532da39f79117f7f2836d0e42f921aa3f483b":[12,0,1,164,0,1],
 "classMR_1_1DistanceMeasurementObject.html#a9e0f8f69db9f70578651c47fd9f5532dadc4d53aa0d117d8b189b36d161af4e96":[10,0,10,179,0,2],
@@ -61,11 +62,11 @@ var NAVTREEINDEX18 =
 "classMR_1_1EnumNeihbourVertices.html#aa6216d158e1f9f47eb52c1e8662e8ce7":[10,0,10,200,0],
 "classMR_1_1EnumNeihbourVertices.html#aa6216d158e1f9f47eb52c1e8662e8ce7":[12,0,1,185,0],
 "classMR_1_1FastWindingNumber.html":[9,1,13],
-"classMR_1_1FastWindingNumber.html#a645c2f3cd26896e866d6127acfe91156":[9,1,13,5],
+"classMR_1_1FastWindingNumber.html#a1ffebcbf9b40afb212daa33a13a4ea01":[9,1,13,5],
+"classMR_1_1FastWindingNumber.html#a5c5cfefc8fc0cd8e6a4ced7bdccb19ce":[9,1,13,2],
 "classMR_1_1FastWindingNumber.html#a6af89b7c93e4591719b2ffd0eeeffd07":[9,1,13,0],
 "classMR_1_1FastWindingNumber.html#a74a5c52662c9a9ae3b0589a856041998":[9,1,13,4],
 "classMR_1_1FastWindingNumber.html#a82d4def3598d0d1ac98ec04c7cdb4841":[9,1,13,3],
-"classMR_1_1FastWindingNumber.html#adc42c36434b2f64f7fa35fa75bbf2430":[9,1,13,2],
 "classMR_1_1FastWindingNumber.html#adf39f3740ff84ed5d367174f1cd8f8a8":[9,1,13,1],
 "classMR_1_1FeatureObject.html":[10,0,10,206],
 "classMR_1_1FeatureObject.html":[12,0,1,191],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1FlowAggregator.html#a7234a41d4570f6f8501446c4b7af87a2":[10,0,10,224,6],
 "classMR_1_1FlowAggregator.html#a7234a41d4570f6f8501446c4b7af87a2":[12,0,1,209,6],
 "classMR_1_1FlowAggregator.html#a83e4e9d4e05b0025e65c0b7c2cf64d44":[10,0,10,224,8],
-"classMR_1_1FlowAggregator.html#a83e4e9d4e05b0025e65c0b7c2cf64d44":[12,0,1,209,8],
-"classMR_1_1FlowAggregator.html#a8d5145cec269402a1a63fc6da262cc81":[10,0,10,224,4]
+"classMR_1_1FlowAggregator.html#a83e4e9d4e05b0025e65c0b7c2cf64d44":[12,0,1,209,8]
 };

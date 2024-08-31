@@ -3,9 +3,10 @@ var group__AABBTreeGroup =
     [ "MR::Cuda::FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", [
       [ "FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html#afed4d0df31eef8da93ca2d843c3a8a63", null ],
       [ "calcFromGrid", "classMR_1_1Cuda_1_1FastWindingNumber.html#a86d3189a5d71a05df142f08397fef76e", null ],
-      [ "calcFromGridWithDistances", "classMR_1_1Cuda_1_1FastWindingNumber.html#a10e38a535b9aff32b6f5c639491dccb2", null ],
+      [ "calcFromGridWithDistances", "classMR_1_1Cuda_1_1FastWindingNumber.html#a8a173eb3f05713100a901eba45cafcc9", null ],
       [ "calcFromVector", "classMR_1_1Cuda_1_1FastWindingNumber.html#a35e0cc2dc56bc04f17a91c42a4b3b418", null ],
-      [ "calcSelfIntersections", "classMR_1_1Cuda_1_1FastWindingNumber.html#a03fd25b5742ad8c32943a8127288080e", null ]
+      [ "calcSelfIntersections", "classMR_1_1Cuda_1_1FastWindingNumber.html#a03fd25b5742ad8c32943a8127288080e", null ],
+      [ "calcWithDistances", "classMR_1_1Cuda_1_1FastWindingNumber.html#a607e556ab03bf24b121ec271b21166ce", null ]
     ] ],
     [ "MR::AABBTree", "classMR_1_1AABBTree.html", [
       [ "AABBTree", "classMR_1_1AABBTree.html#a0c762ebbd20c05c2219b1a348f22e0fb", null ],
@@ -106,10 +107,10 @@ var group__AABBTreeGroup =
     [ "MR::FastWindingNumber", "classMR_1_1FastWindingNumber.html", [
       [ "FastWindingNumber", "classMR_1_1FastWindingNumber.html#a6af89b7c93e4591719b2ffd0eeeffd07", null ],
       [ "calcFromGrid", "classMR_1_1FastWindingNumber.html#adf39f3740ff84ed5d367174f1cd8f8a8", null ],
-      [ "calcFromGridWithDistances", "classMR_1_1FastWindingNumber.html#adc42c36434b2f64f7fa35fa75bbf2430", null ],
+      [ "calcFromGridWithDistances", "classMR_1_1FastWindingNumber.html#a5c5cfefc8fc0cd8e6a4ced7bdccb19ce", null ],
       [ "calcFromVector", "classMR_1_1FastWindingNumber.html#a82d4def3598d0d1ac98ec04c7cdb4841", null ],
       [ "calcSelfIntersections", "classMR_1_1FastWindingNumber.html#a74a5c52662c9a9ae3b0589a856041998", null ],
-      [ "calcWithDistances", "classMR_1_1FastWindingNumber.html#a645c2f3cd26896e866d6127acfe91156", null ]
+      [ "calcWithDistances", "classMR_1_1FastWindingNumber.html#a1ffebcbf9b40afb212daa33a13a4ea01", null ]
     ] ],
     [ "MR::IntersectionPrecomputes< T >", "structMR_1_1IntersectionPrecomputes.html", [
       [ "IntersectionPrecomputes", "group__AABBTreeGroup.html#ga9984ed4cff38cd012243e835f02e0e92", null ],

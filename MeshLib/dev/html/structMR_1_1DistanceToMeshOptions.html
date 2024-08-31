@@ -124,6 +124,10 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aa80ccd95dc4e56a5b16d71becf8f937f" id="r_aa80ccd95dc4e56a5b16d71becf8f937f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309">SignDetectionMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa80ccd95dc4e56a5b16d71becf8f937f">signMode</a> { <a class="el" href="namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9">SignDetectionMode::ProjectionNormal</a> }</td></tr>
 <tr class="memdesc:aa80ccd95dc4e56a5b16d71becf8f937f"><td class="mdescLeft">&#160;</td><td class="mdescRight">the method to compute distance sign  <br /></td></tr>
 <tr class="separator:aa80ccd95dc4e56a5b16d71becf8f937f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32a5670750d3aecf21776f2fe2ad28d9" id="r_a32a5670750d3aecf21776f2fe2ad28d9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32a5670750d3aecf21776f2fe2ad28d9">windingNumberThreshold</a> = 0.5f</td></tr>
+<tr class="separator:a32a5670750d3aecf21776f2fe2ad28d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a760f0917e02d32cbd6a708966ef922a5" id="r_a760f0917e02d32cbd6a708966ef922a5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a760f0917e02d32cbd6a708966ef922a5">windingNumberBeta</a> = 2</td></tr>
+<tr class="separator:a760f0917e02d32cbd6a708966ef922a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="af424f0c5bd2d65e33086d7e590836580" name="af424f0c5bd2d65e33086d7e590836580"></a>
@@ -171,6 +175,36 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>the method to compute distance sign </p>
+
+</div>
+</div>
+<a id="a760f0917e02d32cbd6a708966ef922a5" name="a760f0917e02d32cbd6a708966ef922a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a760f0917e02d32cbd6a708966ef922a5">&#9670;&#160;</a></span>windingNumberBeta</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::DistanceToMeshOptions::windingNumberBeta = 2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>only for <a class="el" href="namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a3065abc09e5d4edae66468fee91282e4" title="computes winding number generalization with support of holes in mesh, slower than WindingRule">SignDetectionMode::HoleWindingRule</a>: determines the precision of fast approximation: the more the better, minimum value is 1 </p>
+
+</div>
+</div>
+<a id="a32a5670750d3aecf21776f2fe2ad28d9" name="a32a5670750d3aecf21776f2fe2ad28d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32a5670750d3aecf21776f2fe2ad28d9">&#9670;&#160;</a></span>windingNumberThreshold</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::DistanceToMeshOptions::windingNumberThreshold = 0.5f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>only for <a class="el" href="namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a3065abc09e5d4edae66468fee91282e4" title="computes winding number generalization with support of holes in mesh, slower than WindingRule">SignDetectionMode::HoleWindingRule</a>: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes </p>
 
 </div>
 </div>

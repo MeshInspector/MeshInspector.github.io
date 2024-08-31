@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1GlTexture2.html":[10,0,10,238],
 "classMR_1_1GlTexture2.html":[12,0,1,223],
 "classMR_1_1GlTexture2.html#a697c852a96735658f1a334ba1dff0d37":[10,0,10,238,0],
 "classMR_1_1GlTexture2.html#a697c852a96735658f1a334ba1dff0d37":[12,0,1,223,0],
@@ -177,8 +178,6 @@ var NAVTREEINDEX20 =
 "classMR_1_1ICP.html#af8aae96208cb7024a262cd09b2412455":[12,0,1,238,14],
 "classMR_1_1IFastWindingNumber.html":[10,0,10,262],
 "classMR_1_1IFastWindingNumber.html":[12,0,1,247],
-"classMR_1_1IFastWindingNumber.html#a07b747881dcb4fdfbe276f6d7693473a":[10,0,10,262,2],
-"classMR_1_1IFastWindingNumber.html#a07b747881dcb4fdfbe276f6d7693473a":[12,0,1,247,2],
 "classMR_1_1IFastWindingNumber.html#a441d74cdd012ecef05bb3ce3909a9100":[10,0,10,262,3],
 "classMR_1_1IFastWindingNumber.html#a441d74cdd012ecef05bb3ce3909a9100":[12,0,1,247,3],
 "classMR_1_1IFastWindingNumber.html#aa11a42b6a6601330e2fc1333452906ed":[10,0,10,262,1],
@@ -187,6 +186,8 @@ var NAVTREEINDEX20 =
 "classMR_1_1IFastWindingNumber.html#ac4744f6a703ab21ad9c40d2ca77db273":[12,0,1,247,4],
 "classMR_1_1IFastWindingNumber.html#aefefcab706e99f050565aa3492015547":[10,0,10,262,0],
 "classMR_1_1IFastWindingNumber.html#aefefcab706e99f050565aa3492015547":[12,0,1,247,0],
+"classMR_1_1IFastWindingNumber.html#af8d9891164f0eb024b0ec088ce46567a":[10,0,10,262,2],
+"classMR_1_1IFastWindingNumber.html#af8d9891164f0eb024b0ec088ce46567a":[12,0,1,247,2],
 "classMR_1_1IICPTreeIndexer.html":[10,0,10,263],
 "classMR_1_1IICPTreeIndexer.html":[12,0,1,248],
 "classMR_1_1IICPTreeIndexer.html#a1134ae002061a65428a6900901a9df6f":[10,0,10,263,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1ISceneStateCheck.html":[10,0,10,281],
 "classMR_1_1ISceneStateCheck.html":[12,0,1,266],
 "classMR_1_1ISceneStateCheck.html#ad6d7bd5bc97dd4a629de5e0a33af3afe":[10,0,10,281,0],
-"classMR_1_1ISceneStateCheck.html#ad6d7bd5bc97dd4a629de5e0a33af3afe":[12,0,1,266,0],
-"classMR_1_1ISceneStateCheck.html#adedf10c80ddfebcb456559fa828065c0":[10,0,10,281,1]
+"classMR_1_1ISceneStateCheck.html#ad6d7bd5bc97dd4a629de5e0a33af3afe":[12,0,1,266,0]
 };
