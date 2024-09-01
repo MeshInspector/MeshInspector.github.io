@@ -54,7 +54,7 @@ var searchData=
   ['makeregulargridmesh_51',['makeRegularGridMesh',['../namespaceMR.html#a30be8e08775b25a5be92f136b2e4c1c3',1,'MR::makeRegularGridMesh(size_t width, size_t height, const RegularGridLatticeValidator &amp;validator, const RegularGridLatticePositioner &amp;positioner, const RegularGridMeshFaceValidator &amp;faceValidator={}, ProgressCallback cb={})'],['../namespaceMR.html#ad9b59c053cfd08edb266ee3b8aa08ded',1,'MR::makeRegularGridMesh(VertCoords pc, ProgressCallback cb={})']]],
   ['makerenderobjectconstructor_52',['makeRenderObjectConstructor',['../namespaceMR.html#a328bb54e142966b09b529c5ed868e453',1,'MR']]],
   ['makerigidxf_53',['makeRigidXf',['../group__MathGroup.html#gaf420bd1285dda4239d2ac0fac2eff1f9',1,'MR::makeRigidXf(const MeshPart &amp;mp, const AffineXf3d &amp;meshXf)'],['../namespaceMR.html#a433a8d6bdf429a6aeef4abc1a9f05798',1,'MR::makeRigidXf(const MeshPart &amp;mp, const AffineXf3f &amp;meshXf)']]],
-  ['makesignedwithfastwinding_54',['makeSignedWithFastWinding',['../namespaceMR.html#aa6a177a323808905b0cd3ed3e25d2480',1,'MR']]],
+  ['makesignedbywindingnumber_54',['makeSignedByWindingNumber',['../namespaceMR.html#a8c5b2799cb4c29aeccf8c7fbfe9455e5',1,'MR']]],
   ['makesphere_55',['MakeSphere',['../classMesh.html#a1a78a74ceeff56792cfc7e19f7ce201b',1,'Mesh']]],
   ['makesphere_56',['makeSphere',['../namespaceMR.html#a63679b306dbff600a8f7c5008a489d9d',1,'MR']]],
   ['maketitlefromscenerootpath_57',['makeTitleFromSceneRootPath',['../classMR_1_1Viewer.html#ae46fc463954326092580c6471226d371',1,'MR::Viewer']]],

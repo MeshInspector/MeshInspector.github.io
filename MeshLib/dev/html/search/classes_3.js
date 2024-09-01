@@ -32,12 +32,13 @@ var searchData=
   ['distmapimprovedirectionparameters_29',['DistMapImproveDirectionParameters',['../structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html',1,'MR::FixUndercuts']]],
   ['dividepointcloudoptionaloutput_30',['DividePointCloudOptionalOutput',['../structMR_1_1DividePointCloudOptionalOutput.html',1,'MR']]],
   ['dividepolylineparameters_31',['DividePolylineParameters',['../structMR_1_1DividePolylineParameters.html',1,'MR']]],
-  ['dragdroplistener_32',['DragDropListener',['../structMR_1_1DragDropListener.html',1,'MR']]],
-  ['dragendlistener_33',['DragEndListener',['../structMR_1_1DragEndListener.html',1,'MR']]],
-  ['draglistener_34',['DragListener',['../structMR_1_1DragListener.html',1,'MR']]],
-  ['dragstartlistener_35',['DragStartListener',['../structMR_1_1DragStartListener.html',1,'MR']]],
-  ['drawbuttonparams_36',['DrawButtonParams',['../structMR_1_1DrawButtonParams.html',1,'MR']]],
-  ['drawgroupconfig_37',['DrawGroupConfig',['../structMR_1_1RibbonMenu_1_1DrawGroupConfig.html',1,'MR::RibbonMenu']]],
-  ['drawlistener_38',['DrawListener',['../structMR_1_1DrawListener.html',1,'MR']]],
-  ['drawsceneuilistener_39',['DrawSceneUiListener',['../structMR_1_1DrawSceneUiListener.html',1,'MR']]]
+  ['doubleoffsetsettings_32',['DoubleOffsetSettings',['../structMR_1_1DoubleOffsetSettings.html',1,'MR']]],
+  ['dragdroplistener_33',['DragDropListener',['../structMR_1_1DragDropListener.html',1,'MR']]],
+  ['dragendlistener_34',['DragEndListener',['../structMR_1_1DragEndListener.html',1,'MR']]],
+  ['draglistener_35',['DragListener',['../structMR_1_1DragListener.html',1,'MR']]],
+  ['dragstartlistener_36',['DragStartListener',['../structMR_1_1DragStartListener.html',1,'MR']]],
+  ['drawbuttonparams_37',['DrawButtonParams',['../structMR_1_1DrawButtonParams.html',1,'MR']]],
+  ['drawgroupconfig_38',['DrawGroupConfig',['../structMR_1_1RibbonMenu_1_1DrawGroupConfig.html',1,'MR::RibbonMenu']]],
+  ['drawlistener_39',['DrawListener',['../structMR_1_1DrawListener.html',1,'MR']]],
+  ['drawsceneuilistener_40',['DrawSceneUiListener',['../structMR_1_1DrawSceneUiListener.html',1,'MR']]]
 ];

@@ -307,6 +307,7 @@ var hierarchy =
     ] ],
     [ "MR::DividePointCloudOptionalOutput", "structMR_1_1DividePointCloudOptionalOutput.html", null ],
     [ "MR::DividePolylineParameters", "structMR_1_1DividePolylineParameters.html", null ],
+    [ "MR::DoubleOffsetSettings", "structMR_1_1DoubleOffsetSettings.html", null ],
     [ "MR::DrawButtonParams", "structMR_1_1DrawButtonParams.html", null ],
     [ "MR::RibbonMenu::DrawGroupConfig", "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html", null ],
     [ "boost::dynamic_bitset", null, [
@@ -664,6 +665,7 @@ var hierarchy =
     [ "MR::Logger", "classMR_1_1Logger.html", null ],
     [ "MR::MakeDegenerateBandAroundRegionParams", "structMR_1_1MakeDegenerateBandAroundRegionParams.html", null ],
     [ "MR::detail::MakeScopeGuard< T >", "structMR_1_1detail_1_1MakeScopeGuard.html", null ],
+    [ "MR::MakeSignedByWindingNumberSettings", "structMR_1_1MakeSignedByWindingNumberSettings.html", null ],
     [ "MR::BooleanResultMapper::Maps", "structMR_1_1BooleanResultMapper_1_1Maps.html", null ],
     [ "MR::MarchingCubesParams", "structMR_1_1MarchingCubesParams.html", null ],
     [ "MR::MarkedVoxelSlice::Mark", "structMR_1_1MarkedVoxelSlice_1_1Mark.html", null ],

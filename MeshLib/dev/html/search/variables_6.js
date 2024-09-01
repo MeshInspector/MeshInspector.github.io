@@ -76,5 +76,5 @@ var searchData=
   ['fullbasin_73',['fullBasin',['../structMR_1_1WatershedGraph_1_1OverflowPoint.html#a9b58bb17eb503942a4dcd7150690cfe2',1,'MR::WatershedGraph::OverflowPoint']]],
   ['fullscreen_74',['fullscreen',['../structMR_1_1LaunchParams.html#a1764c5e6bf96434fbc7391efa778c91e',1,'MR::LaunchParams']]],
   ['functions_75',['functions',['../structMR_1_1PythonExport_1_1ModuleData.html#a0fe7a81962a7cace96c7ec89855e1064',1,'MR::PythonExport::ModuleData']]],
-  ['fwn_76',['fwn',['../structMR_1_1MeshToDistanceVolumeParams.html#a740cc5d8bb375f88ea00678baa716cef',1,'MR::MeshToDistanceVolumeParams::fwn'],['../structMR_1_1OffsetParameters.html#a6599d762d28d8ca7118f3b4dba6602d2',1,'MR::OffsetParameters::fwn']]]
+  ['fwn_76',['fwn',['../structMR_1_1MeshToDistanceVolumeParams.html#a740cc5d8bb375f88ea00678baa716cef',1,'MR::MeshToDistanceVolumeParams::fwn'],['../structMR_1_1OffsetParameters.html#a6599d762d28d8ca7118f3b4dba6602d2',1,'MR::OffsetParameters::fwn'],['../structMR_1_1MakeSignedByWindingNumberSettings.html#a94b1baa91b7a7f5cc08e84e5505680c2',1,'MR::MakeSignedByWindingNumberSettings::fwn'],['../structMR_1_1DoubleOffsetSettings.html#a1cadab99fc35f1301c687dea94206707',1,'MR::DoubleOffsetSettings::fwn']]]
 ];
