@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1RenderFeatures_1_1RenderPointFeatureObject.html#a69b6fb942fb9f9e2687c35e268b6fa74":[10,0,10,30,11,1],
 "classMR_1_1RenderFeatures_1_1RenderPointFeatureObject.html#a69b6fb942fb9f9e2687c35e268b6fa74":[12,0,1,16,11,1],
 "classMR_1_1RenderFeatures_1_1RenderSphereFeatureObject.html":[10,0,10,30,12],
 "classMR_1_1RenderFeatures_1_1RenderSphereFeatureObject.html":[12,0,1,16,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1RenderNameObject.html#ae034eff48fbb782e571109cd9648b3b2":[10,0,10,508,4],
 "classMR_1_1RenderNameObject.html#ae034eff48fbb782e571109cd9648b3b2":[12,0,1,493,4],
 "classMR_1_1RenderNameObject.html#aeef9b7856866c66da7533a7c263f8593":[10,0,10,508,5],
-"classMR_1_1RenderNameObject.html#aeef9b7856866c66da7533a7c263f8593":[12,0,1,493,5],
-"classMR_1_1RenderObjectBuffer.html":[10,0,10,509]
+"classMR_1_1RenderNameObject.html#aeef9b7856866c66da7533a7c263f8593":[12,0,1,493,5]
 };

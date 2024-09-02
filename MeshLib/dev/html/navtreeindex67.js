@@ -1,5 +1,8 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html#a8c3def19c3370adb07aa8f4dc2dac79a":[12,0,1,382,0],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4.html":[10,0,10,398],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4.html":[12,0,1,383],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4.html#a763d4517cb20617afe59faf89b895749":[10,0,10,398,0],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4.html#a763d4517cb20617afe59faf89b895749":[12,0,1,383,0],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4.html":[10,0,10,399],
@@ -246,8 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1PartMapping.html#a17c114a164e936949a12ed9160b8643a":[12,0,1,409,1],
 "structMR_1_1PartMapping.html#a20669df343e579537b8003fbbe141fb5":[10,0,10,424,3],
 "structMR_1_1PartMapping.html#a20669df343e579537b8003fbbe141fb5":[12,0,1,409,3],
-"structMR_1_1PartMapping.html#a70417f39e610cb4364a4066ba21ecc64":[10,0,10,424,4],
-"structMR_1_1PartMapping.html#a70417f39e610cb4364a4066ba21ecc64":[12,0,1,409,4],
-"structMR_1_1PartMapping.html#a8b413791e9dab0037f742ede85a8700e":[10,0,10,424,5],
-"structMR_1_1PartMapping.html#a8b413791e9dab0037f742ede85a8700e":[12,0,1,409,5]
+"structMR_1_1PartMapping.html#a70417f39e610cb4364a4066ba21ecc64":[10,0,10,424,4]
 };

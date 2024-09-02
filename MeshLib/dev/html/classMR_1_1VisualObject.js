@@ -16,6 +16,7 @@ var classMR_1_1VisualObject =
     [ "getBackColor", "classMR_1_1VisualObject.html#af49f84e12ea7e21ec8dc39ae8609bc18", null ],
     [ "getBackColorsForAllViewports", "classMR_1_1VisualObject.html#a714aab4f9110c1072f3147edae51e293", null ],
     [ "getBoundingBox", "classMR_1_1VisualObject.html#a8fe84b708cf42b2d73b31e77f02fae6a", null ],
+    [ "getClassName", "classMR_1_1VisualObject.html#a87b74d884525bd4984c88b5680a7e537", null ],
     [ "getColoringType", "classMR_1_1VisualObject.html#ad526a2645a12621b7742bc66aaf5ad0f", null ],
     [ "getDirtyFlags", "classMR_1_1VisualObject.html#a6411458c4cd7d098c12adaea27568db7", null ],
     [ "getFrontColor", "classMR_1_1VisualObject.html#a70f15c0dc59f3b83a8b8c3e6390f7571", null ],

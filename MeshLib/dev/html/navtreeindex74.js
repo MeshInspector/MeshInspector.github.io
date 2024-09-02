@@ -1,5 +1,8 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1TriangleSegmentIntersectResult.html#ad6af3b8ab26b46c4d6592c534e9b59c8":[10,0,10,649,1],
+"structMR_1_1TriangleSegmentIntersectResult.html#ad6af3b8ab26b46c4d6592c534e9b59c8":[12,0,1,634,1],
+"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html":[10,0,10,35,0],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html":[12,0,1,20,0],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a0bb7d70e695f6c8fb8806cf07f90bb9e":[10,0,10,35,0,6],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a0bb7d70e695f6c8fb8806cf07f90bb9e":[12,0,1,20,0,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1UniformSamplingSettings.html#a010165bed75fd690071dbe15b50f8c58":[10,0,10,661,0],
 "structMR_1_1UniformSamplingSettings.html#a010165bed75fd690071dbe15b50f8c58":[12,0,1,646,0],
 "structMR_1_1UniformSamplingSettings.html#a1d523113f6c1fed152ce4ac0ca682b22":[10,0,10,661,3],
-"structMR_1_1UniformSamplingSettings.html#a1d523113f6c1fed152ce4ac0ca682b22":[12,0,1,646,3],
-"structMR_1_1UniformSamplingSettings.html#a4952e332cfe108e00f967d412a6aba88":[10,0,10,661,2],
-"structMR_1_1UniformSamplingSettings.html#a4952e332cfe108e00f967d412a6aba88":[12,0,1,646,2],
-"structMR_1_1UniformSamplingSettings.html#a5bc23c2e461b80a4516732d0e5add3a5":[10,0,10,661,4]
+"structMR_1_1UniformSamplingSettings.html#a1d523113f6c1fed152ce4ac0ca682b22":[12,0,1,646,3]
 };

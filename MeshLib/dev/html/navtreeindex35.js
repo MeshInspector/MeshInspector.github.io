@@ -1,5 +1,6 @@
 var NAVTREEINDEX35 =
 {
+"classMR_1_1RingIterator.html#a6a1ef2de2a1f13787a3b231f9ce3b4a4":[12,0,1,529,0],
 "classMR_1_1RingIterator.html#aaccd4999a06a4556d2a8728ed4ae5b15":[10,0,10,544,2],
 "classMR_1_1RingIterator.html#aaccd4999a06a4556d2a8728ed4ae5b15":[12,0,1,529,2],
 "classMR_1_1RingIterator.html#add7fd5a21509ef4dc57c7943b3da9920":[10,0,10,544,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX35 =
 "classMR_1_1SeparationPointStorage.html#ac2cd0c47a3c902b6c162620b71ccf9c6":[12,0,1,561,6],
 "classMR_1_1SeparationPointStorage.html#ad8c6370ffaec4ad07e20b71a365327d7":[10,0,10,576,2],
 "classMR_1_1SeparationPointStorage.html#ad8c6370ffaec4ad07e20b71a365327d7":[12,0,1,561,2],
-"classMR_1_1SetBitIteratorT.html":[9,3,4],
-"classMR_1_1SetBitIteratorT.html#a18f2206478b0e1495f2ebbd017d41ff2":[9,3,4,11]
+"classMR_1_1SetBitIteratorT.html":[9,3,4]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX29 =
 {
+"classMR_1_1OpenDirectoryMenuItem.html":[10,0,10,414],
 "classMR_1_1OpenDirectoryMenuItem.html":[12,0,1,399],
 "classMR_1_1OpenDirectoryMenuItem.html#a4823452a80e9a83ccd30f93c77a7e233":[10,0,10,414,2],
 "classMR_1_1OpenDirectoryMenuItem.html#a4823452a80e9a83ccd30f93c77a7e233":[12,0,1,399,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX29 =
 "classMR_1_1PointAccumulator.html#a629602337391d01befbec1b5ee3fa00c":[9,0,1,0,2],
 "classMR_1_1PointAccumulator.html#a7514ac6107ebe4077c548746882a7d2d":[9,0,1,0,14],
 "classMR_1_1PointAccumulator.html#a76177fec5a1a4e3d0af890a84f1df551":[9,0,1,0,4],
-"classMR_1_1PointAccumulator.html#a9a8db7a86d2e4229d2ff0992aedf7b0f":[9,0,1,0,12],
-"classMR_1_1PointAccumulator.html#aac25c8343c28176214d2be06601fe2fd":[9,0,1,0,6]
+"classMR_1_1PointAccumulator.html#a9a8db7a86d2e4229d2ff0992aedf7b0f":[9,0,1,0,12]
 };

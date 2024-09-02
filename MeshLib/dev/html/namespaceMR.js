@@ -1940,6 +1940,7 @@ var namespaceMR =
     [ "getMouseModeString", "namespaceMR.html#a338d701994ea7476fe1b7aa25f480a86", null ],
     [ "GetMRVersionString", "namespaceMR.html#ac6f40535c1b612f6ce24e70b7ee28a36", null ],
     [ "getNeighborFaces", "namespaceMR.html#aebdf2a05f88c6e14134e0029a8aa0cda", null ],
+    [ "getNObjectsLine", "namespaceMR.html#a1aa52aa577955c12272d65be2a25bf5e", null ],
     [ "getNumActivePairs", "namespaceMR.html#a5f3e72229b19af1e43886673711093af", null ],
     [ "getNumNodes", "group__AABBTreeGroup.html#ga3c1bb6417aaa769fa4156f2edac91749", null ],
     [ "getNumSamples", "namespaceMR.html#a6bc994c1ebf7a119332f7d7a212cdd5e", null ],
