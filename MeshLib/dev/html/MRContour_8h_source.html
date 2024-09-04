@@ -109,89 +109,103 @@ $(function(){initNavTree('MRContour_8h_source.html',''); initResizable(true); })
 <div class="contents">
 <a href="MRContour_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRVector3_8h.html">MRVector3.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> R = T&gt;</div>
-<div class="foldopen" id="foldopen00016" data-start="{" data-end="}">
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="group__ContourGroup.html#ga63c4064b2101e045fff282197ff239c3">   16</a></span>R <a class="code hl_function" href="group__ContourGroup.html#ga63c4064b2101e045fff282197ff239c3">calcOrientedArea</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a90e36f0fc3aee2c8b5e3141dfc083608">Contour2&lt;T&gt;</a> &amp; contour )</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordflow">if</span> ( contour.size() &lt; 3 )</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    R <a class="code hl_function" href="namespaceMR.html#ad0da44181dd40e142f6e464e276c6c03">area</a> = 0;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <a class="code hl_struct" href="structMR_1_1Vector2.html">Vector2&lt;R&gt;</a> p0{ contour[0] };</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 2; i &lt; contour.size(); ++i )</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    {</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <a class="code hl_struct" href="structMR_1_1Vector2.html">Vector2&lt;R&gt;</a> p1{ contour[i - 1] };</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <a class="code hl_struct" href="structMR_1_1Vector2.html">Vector2&lt;R&gt;</a> p2{ contour[i] };</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <a class="code hl_function" href="namespaceMR.html#ad0da44181dd40e142f6e464e276c6c03">area</a> += cross( p2 - p0, p1 - p0 );</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    }</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keywordflow">return</span> R(0.5) * <a class="code hl_function" href="namespaceMR.html#ad0da44181dd40e142f6e464e276c6c03">area</a>;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>}</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRBindingMacros_8h.html">MRBindingMacros.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRVector3_8h.html">MRVector3.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> R = T&gt;</div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="}">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="group__ContourGroup.html#ga63c4064b2101e045fff282197ff239c3">   17</a></span>R <a class="code hl_function" href="group__ContourGroup.html#ga63c4064b2101e045fff282197ff239c3">calcOrientedArea</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a90e36f0fc3aee2c8b5e3141dfc083608">Contour2&lt;T&gt;</a> &amp; contour )</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keywordflow">if</span> ( contour.size() &lt; 3 )</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    R <a class="code hl_function" href="namespaceMR.html#ad0da44181dd40e142f6e464e276c6c03">area</a> = 0;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <a class="code hl_struct" href="structMR_1_1Vector2.html">Vector2&lt;R&gt;</a> p0{ contour[0] };</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 2; i &lt; contour.size(); ++i )</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    {</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <a class="code hl_struct" href="structMR_1_1Vector2.html">Vector2&lt;R&gt;</a> p1{ contour[i - 1] };</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <a class="code hl_struct" href="structMR_1_1Vector2.html">Vector2&lt;R&gt;</a> p2{ contour[i] };</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <a class="code hl_function" href="namespaceMR.html#ad0da44181dd40e142f6e464e276c6c03">area</a> += cross( p2 - p0, p1 - p0 );</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    }</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordflow">return</span> R(0.5) * <a class="code hl_function" href="namespaceMR.html#ad0da44181dd40e142f6e464e276c6c03">area</a>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>}</div>
 </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> R = T&gt;</div>
-<div class="foldopen" id="foldopen00038" data-start="{" data-end="}">
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="group__ContourGroup.html#ga26c30f9854727f0939ed682d6715fb95">   38</a></span><a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;R&gt;</a> <a class="code hl_function" href="group__ContourGroup.html#ga63c4064b2101e045fff282197ff239c3">calcOrientedArea</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a99ab1f5d4401d18f0f1d2af1bc83bc58">Contour3&lt;T&gt;</a> &amp; contour )</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>{</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordflow">if</span> ( contour.size() &lt; 3 )</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordflow">return</span> {};</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;R&gt;</a> <a class="code hl_function" href="namespaceMR.html#ad0da44181dd40e142f6e464e276c6c03">area</a>;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;R&gt;</a> p0{ contour[0] };</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 2; i &lt; contour.size(); ++i )</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    {</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;R&gt;</a> p1{ contour[i - 1] };</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;R&gt;</a> p2{ contour[i] };</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <a class="code hl_function" href="namespaceMR.html#ad0da44181dd40e142f6e464e276c6c03">area</a> += cross( p1 - p0, p2 - p0 );</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    }</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keywordflow">return</span> R(0.5) * <a class="code hl_function" href="namespaceMR.html#ad0da44181dd40e142f6e464e276c6c03">area</a>;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>}</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> R = T&gt;</div>
+<div class="foldopen" id="foldopen00039" data-start="{" data-end="}">
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="group__ContourGroup.html#ga26c30f9854727f0939ed682d6715fb95">   39</a></span><a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;R&gt;</a> <a class="code hl_function" href="group__ContourGroup.html#ga63c4064b2101e045fff282197ff239c3">calcOrientedArea</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a99ab1f5d4401d18f0f1d2af1bc83bc58">Contour3&lt;T&gt;</a> &amp; contour )</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>{</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordflow">if</span> ( contour.size() &lt; 3 )</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keywordflow">return</span> {};</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;R&gt;</a> <a class="code hl_function" href="namespaceMR.html#ad0da44181dd40e142f6e464e276c6c03">area</a>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;R&gt;</a> p0{ contour[0] };</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 2; i &lt; contour.size(); ++i )</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    {</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;R&gt;</a> p1{ contour[i - 1] };</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;R&gt;</a> p2{ contour[i] };</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <a class="code hl_function" href="namespaceMR.html#ad0da44181dd40e142f6e464e276c6c03">area</a> += cross( p1 - p0, p2 - p0 );</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    }</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordflow">return</span> R(0.5) * <a class="code hl_function" href="namespaceMR.html#ad0da44181dd40e142f6e464e276c6c03">area</a>;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>}</div>
 </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> To, <span class="keyword">typename</span> From&gt;</div>
-<div class="foldopen" id="foldopen00058" data-start="{" data-end="}">
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="group__ContourGroup.html#gac3b20971251afd6dda8e73368a50fcd6">   58</a></span>To <a class="code hl_function" href="group__ContourGroup.html#gac3b20971251afd6dda8e73368a50fcd6">copyContour</a>( <span class="keyword">const</span> From &amp; from )</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>{</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    To res;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    res.reserve( from.size() );</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordflow">for</span> ( <span class="keyword">const</span> <span class="keyword">auto</span> &amp; p : from )</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        res.emplace_back( p );</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keywordflow">return</span> res;</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>}</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> To, <span class="keyword">typename</span> From&gt;</div>
+<div class="foldopen" id="foldopen00059" data-start="{" data-end="}">
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="group__ContourGroup.html#gac3b20971251afd6dda8e73368a50fcd6">   59</a></span>To <a class="code hl_function" href="group__ContourGroup.html#gac3b20971251afd6dda8e73368a50fcd6">copyContour</a>( <span class="keyword">const</span> From &amp; from )</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>{</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    To res;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    res.reserve( from.size() );</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordflow">for</span> ( <span class="keyword">const</span> <span class="keyword">auto</span> &amp; p : from )</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        res.emplace_back( p );</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordflow">return</span> res;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>}</div>
 </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> To, <span class="keyword">typename</span> From&gt;</div>
-<div class="foldopen" id="foldopen00069" data-start="{" data-end="}">
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="group__ContourGroup.html#ga61019465ce24102ec39f6f3d48f77369">   69</a></span>To <a class="code hl_function" href="group__ContourGroup.html#ga61019465ce24102ec39f6f3d48f77369">copyContours</a>( <span class="keyword">const</span> From &amp; from )</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>{</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    To res;</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    res.reserve( from.size() );</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordflow">for</span> ( <span class="keyword">const</span> <span class="keyword">auto</span> &amp; c : from )</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>        res.push_back( <a class="code hl_function" href="group__ContourGroup.html#gac3b20971251afd6dda8e73368a50fcd6">copyContour&lt;typename To::value_type&gt;</a>( c ) );</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keywordflow">return</span> res;</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>}</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> To, <span class="keyword">typename</span> From&gt;</div>
+<div class="foldopen" id="foldopen00070" data-start="{" data-end="}">
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="group__ContourGroup.html#ga61019465ce24102ec39f6f3d48f77369">   70</a></span>To <a class="code hl_function" href="group__ContourGroup.html#ga61019465ce24102ec39f6f3d48f77369">copyContours</a>( <span class="keyword">const</span> From &amp; from )</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>{</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    To res;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    res.reserve( from.size() );</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordflow">for</span> ( <span class="keyword">const</span> <span class="keyword">auto</span> &amp; c : from )</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        res.push_back( <a class="code hl_function" href="group__ContourGroup.html#gac3b20971251afd6dda8e73368a50fcd6">copyContour&lt;typename To::value_type&gt;</a>( c ) );</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordflow">return</span> res;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>}</div>
 </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>} <span class="comment">// namespace MR</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="comment">// Instantiate the templates when generating bindings.</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><a class="code hl_define" href="MRBindingMacros_8h.html#aa5a46019315e85785b91a5e93a374f76">MR_BIND_TEMPLATE</a>( <span class="keywordtype">float</span> <a class="code hl_function" href="group__ContourGroup.html#ga63c4064b2101e045fff282197ff239c3">calcOrientedArea</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a90e36f0fc3aee2c8b5e3141dfc083608">Contour2&lt;float&gt;</a> &amp; contour ) )</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><a class="code hl_define" href="MRBindingMacros_8h.html#aa5a46019315e85785b91a5e93a374f76">MR_BIND_TEMPLATE</a>( <span class="keywordtype">double</span> <a class="code hl_function" href="group__ContourGroup.html#ga63c4064b2101e045fff282197ff239c3">calcOrientedArea</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a90e36f0fc3aee2c8b5e3141dfc083608">Contour2&lt;double&gt;</a> &amp; contour ) )</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><a class="code hl_define" href="MRBindingMacros_8h.html#aa5a46019315e85785b91a5e93a374f76">MR_BIND_TEMPLATE</a>( Vector3&lt;float&gt; <a class="code hl_function" href="group__ContourGroup.html#ga63c4064b2101e045fff282197ff239c3">calcOrientedArea</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a99ab1f5d4401d18f0f1d2af1bc83bc58">Contour3&lt;float&gt;</a> &amp; contour ) )</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><a class="code hl_define" href="MRBindingMacros_8h.html#aa5a46019315e85785b91a5e93a374f76">MR_BIND_TEMPLATE</a>( <a class="code hl_variable" href="namespaceMR.html#ac878ba63f3f91f5ab032a38cd3a2c206">Vector3&lt;double&gt;</a> <a class="code hl_function" href="group__ContourGroup.html#ga63c4064b2101e045fff282197ff239c3">calcOrientedArea</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a99ab1f5d4401d18f0f1d2af1bc83bc58">Contour3&lt;double&gt;</a> &amp; contour ) )</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><a class="code hl_define" href="MRBindingMacros_8h.html#aa5a46019315e85785b91a5e93a374f76">MR_BIND_TEMPLATE</a>( <a class="code hl_typedef" href="namespaceMR.html#a90e36f0fc3aee2c8b5e3141dfc083608">Contour2&lt;float&gt;</a> <a class="code hl_function" href="group__ContourGroup.html#gac3b20971251afd6dda8e73368a50fcd6">copyContour</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a90e36f0fc3aee2c8b5e3141dfc083608">Contour2&lt;double&gt;</a> &amp; from ) )</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><a class="code hl_define" href="MRBindingMacros_8h.html#aa5a46019315e85785b91a5e93a374f76">MR_BIND_TEMPLATE</a>( <a class="code hl_typedef" href="namespaceMR.html#a99ab1f5d4401d18f0f1d2af1bc83bc58">Contour3&lt;float&gt;</a> <a class="code hl_function" href="group__ContourGroup.html#gac3b20971251afd6dda8e73368a50fcd6">copyContour</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a99ab1f5d4401d18f0f1d2af1bc83bc58">Contour3&lt;double&gt;</a> &amp; from ) )</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><a class="code hl_define" href="MRBindingMacros_8h.html#aa5a46019315e85785b91a5e93a374f76">MR_BIND_TEMPLATE</a>( <a class="code hl_typedef" href="namespaceMR.html#a90e36f0fc3aee2c8b5e3141dfc083608">Contour2&lt;double&gt;</a> <a class="code hl_function" href="group__ContourGroup.html#gac3b20971251afd6dda8e73368a50fcd6">copyContour</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a90e36f0fc3aee2c8b5e3141dfc083608">Contour2&lt;float&gt;</a> &amp; from ) )</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><a class="code hl_define" href="MRBindingMacros_8h.html#aa5a46019315e85785b91a5e93a374f76">MR_BIND_TEMPLATE</a>( <a class="code hl_typedef" href="namespaceMR.html#a99ab1f5d4401d18f0f1d2af1bc83bc58">Contour3&lt;double&gt;</a> <a class="code hl_function" href="group__ContourGroup.html#gac3b20971251afd6dda8e73368a50fcd6">copyContour</a>( <span class="keyword">const</span> <a class="code hl_typedef" href="namespaceMR.html#a99ab1f5d4401d18f0f1d2af1bc83bc58">Contour3&lt;float&gt;</a> &amp; from ) )</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>} <span class="comment">// namespace MR</span></div>
+<div class="ttc" id="aMRBindingMacros_8h_html"><div class="ttname"><a href="MRBindingMacros_8h.html">MRBindingMacros.h</a></div></div>
+<div class="ttc" id="aMRBindingMacros_8h_html_aa5a46019315e85785b91a5e93a374f76"><div class="ttname"><a href="MRBindingMacros_8h.html#aa5a46019315e85785b91a5e93a374f76">MR_BIND_TEMPLATE</a></div><div class="ttdeci">#define MR_BIND_TEMPLATE(...)</div><div class="ttdef"><b>Definition</b> MRBindingMacros.h:19</div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
-<div class="ttc" id="agroup__ContourGroup_html_ga61019465ce24102ec39f6f3d48f77369"><div class="ttname"><a href="group__ContourGroup.html#ga61019465ce24102ec39f6f3d48f77369">MR::copyContours</a></div><div class="ttdeci">To copyContours(const From &amp;from)</div><div class="ttdoc">copy double-contours to float-contours, or vice versa</div><div class="ttdef"><b>Definition</b> MRContour.h:69</div></div>
-<div class="ttc" id="agroup__ContourGroup_html_ga63c4064b2101e045fff282197ff239c3"><div class="ttname"><a href="group__ContourGroup.html#ga63c4064b2101e045fff282197ff239c3">MR::calcOrientedArea</a></div><div class="ttdeci">R calcOrientedArea(const Contour2&lt; T &gt; &amp;contour)</div><div class="ttdef"><b>Definition</b> MRContour.h:16</div></div>
-<div class="ttc" id="agroup__ContourGroup_html_gac3b20971251afd6dda8e73368a50fcd6"><div class="ttname"><a href="group__ContourGroup.html#gac3b20971251afd6dda8e73368a50fcd6">MR::copyContour</a></div><div class="ttdeci">To copyContour(const From &amp;from)</div><div class="ttdoc">copy double-contour to float-contour, or vice versa</div><div class="ttdef"><b>Definition</b> MRContour.h:58</div></div>
+<div class="ttc" id="agroup__ContourGroup_html_ga61019465ce24102ec39f6f3d48f77369"><div class="ttname"><a href="group__ContourGroup.html#ga61019465ce24102ec39f6f3d48f77369">MR::copyContours</a></div><div class="ttdeci">To copyContours(const From &amp;from)</div><div class="ttdoc">copy double-contours to float-contours, or vice versa</div><div class="ttdef"><b>Definition</b> MRContour.h:70</div></div>
+<div class="ttc" id="agroup__ContourGroup_html_ga63c4064b2101e045fff282197ff239c3"><div class="ttname"><a href="group__ContourGroup.html#ga63c4064b2101e045fff282197ff239c3">MR::calcOrientedArea</a></div><div class="ttdeci">R calcOrientedArea(const Contour2&lt; T &gt; &amp;contour)</div><div class="ttdef"><b>Definition</b> MRContour.h:17</div></div>
+<div class="ttc" id="agroup__ContourGroup_html_gac3b20971251afd6dda8e73368a50fcd6"><div class="ttname"><a href="group__ContourGroup.html#gac3b20971251afd6dda8e73368a50fcd6">MR::copyContour</a></div><div class="ttdeci">To copyContour(const From &amp;from)</div><div class="ttdoc">copy double-contour to float-contour, or vice versa</div><div class="ttdef"><b>Definition</b> MRContour.h:59</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
 <div class="ttc" id="anamespaceMR_html_a90e36f0fc3aee2c8b5e3141dfc083608"><div class="ttname"><a href="namespaceMR.html#a90e36f0fc3aee2c8b5e3141dfc083608">MR::Contour2</a></div><div class="ttdeci">Contour&lt; Vector2&lt; T &gt; &gt; Contour2</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:271</div></div>
 <div class="ttc" id="anamespaceMR_html_a99ab1f5d4401d18f0f1d2af1bc83bc58"><div class="ttname"><a href="namespaceMR.html#a99ab1f5d4401d18f0f1d2af1bc83bc58">MR::Contour3</a></div><div class="ttdeci">Contour&lt; Vector3&lt; T &gt; &gt; Contour3</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:272</div></div>
+<div class="ttc" id="anamespaceMR_html_ac878ba63f3f91f5ab032a38cd3a2c206"><div class="ttname"><a href="namespaceMR.html#ac878ba63f3f91f5ab032a38cd3a2c206">MR::Vector3</a></div><div class="ttdeci">MRMESH_CLASS Vector3</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:136</div></div>
 <div class="ttc" id="anamespaceMR_html_ad0da44181dd40e142f6e464e276c6c03"><div class="ttname"><a href="namespaceMR.html#ad0da44181dd40e142f6e464e276c6c03">MR::area</a></div><div class="ttdeci">T area(const Vector3&lt; T &gt; &amp;p, const Vector3&lt; T &gt; &amp;q, const Vector3&lt; T &gt; &amp;r)</div><div class="ttdoc">computes twice the area of given triangle</div><div class="ttdef"><b>Definition</b> MRTriMath.h:160</div></div>
 <div class="ttc" id="astructMR_1_1Vector2_html"><div class="ttname"><a href="structMR_1_1Vector2.html">MR::Vector2</a></div><div class="ttdef"><b>Definition</b> MRVector2.h:18</div></div>
 <div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:19</div></div>

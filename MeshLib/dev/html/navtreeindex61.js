@@ -1,5 +1,8 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html":[12,0,1,2,1,10],
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html#a79f0e6f0a85464a7427e82777f24552d":[10,0,10,6,1,10,0],
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html#a79f0e6f0a85464a7427e82777f24552d":[12,0,1,2,1,10,0],
 "structMR_1_1FileParameters.html":[10,0,10,212],
 "structMR_1_1FileParameters.html":[12,0,1,197],
 "structMR_1_1FileParameters.html#a136b19b9c9c5b93c2788ccacc848e219":[10,0,10,212,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1GridToMeshSettings.html#acee0af0c67fecb819dabf8238de050fc":[12,0,1,229,6],
 "structMR_1_1GridToMeshSettings.html#ad826bf2632bc0f30ff1144fb199ad870":[10,0,10,244,2],
 "structMR_1_1GridToMeshSettings.html#ad826bf2632bc0f30ff1144fb199ad870":[12,0,1,229,2],
-"structMR_1_1Heap_1_1Element.html":[9,3,7,0],
-"structMR_1_1Heap_1_1Element.html#a7bd4aa28de0c5142c7149308ec9da563":[9,3,7,0,1],
-"structMR_1_1Heap_1_1Element.html#af5f2ab7653bc95405d4e20891982a46b":[9,3,7,0,0],
-"structMR_1_1HoleEdgePoint.html":[10,0,10,251]
+"structMR_1_1Heap_1_1Element.html":[9,3,7,0]
 };

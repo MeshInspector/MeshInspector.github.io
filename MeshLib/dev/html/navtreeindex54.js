@@ -1,5 +1,8 @@
 var NAVTREEINDEX54 =
 {
+"namespaceMR_1_1Features.html#acbd075b92fa1a44ed1751506cecb9b3a":[10,0,10,6,24],
+"namespaceMR_1_1Features.html#ada065f0f7c5b74946d5ae2826df2bf0d":[10,0,10,6,10],
+"namespaceMR_1_1Features.html#aeeb9d21a824a2dd94d682b54ab1862d2":[10,0,10,6,17],
 "namespaceMR_1_1Features_1_1Primitives.html":[10,0,10,6,0],
 "namespaceMR_1_1Features_1_1Primitives.html#a37df2f34cbcd3fec213859b3ca57d3b6":[10,0,10,6,0,2],
 "namespaceMR_1_1Features_1_1Primitives.html#a955a7f843d9b5df0f393ec7699ada624":[10,0,10,6,0,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX54 =
 "namespaceNumpy.html":[10,0,11],
 "namespaceNumpyTriangulation.html":[10,0,12],
 "namespacePlotly.html":[10,0,13],
-"namespaceTriangulation.html":[10,0,14],
-"namespacemembers.html":[10,1,0],
-"namespacemembers.html":[10,1,0,0],
-"namespacemembers_b.html":[10,1,0,1]
+"namespaceTriangulation.html":[10,0,14]
 };

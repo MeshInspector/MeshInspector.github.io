@@ -1,5 +1,8 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1RigidScaleXf3.html#a26bac944caacddeb8e441b79dfb617b0":[12,0,1,527,4],
+"structMR_1_1RigidScaleXf3.html#a6c4d0f89f0f64deb44bea0f257bbf755":[10,0,10,542,0],
+"structMR_1_1RigidScaleXf3.html#a6c4d0f89f0f64deb44bea0f257bbf755":[12,0,1,527,0],
 "structMR_1_1RigidScaleXf3.html#a7a23e297ae39af803b4a249aed7ff8b5":[10,0,10,542,1],
 "structMR_1_1RigidScaleXf3.html#a7a23e297ae39af803b4a249aed7ff8b5":[12,0,1,527,1],
 "structMR_1_1RigidScaleXf3.html#a89ce25c6f6b3805955c04f054a2fb0a7":[10,0,10,542,9],
@@ -246,8 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1SkyPatch.html":[12,0,1,576],
 "structMR_1_1SkyPatch.html#a511b8b1d8245fb415755ea6881577867":[10,0,10,591,1],
 "structMR_1_1SkyPatch.html#a511b8b1d8245fb415755ea6881577867":[12,0,1,576,1],
-"structMR_1_1SkyPatch.html#ab2ea86c9173f3228c1adec10b4b8c48a":[10,0,10,591,0],
-"structMR_1_1SkyPatch.html#ab2ea86c9173f3228c1adec10b4b8c48a":[12,0,1,576,0],
-"structMR_1_1SomeLocalTriangulations.html":[10,0,10,592],
-"structMR_1_1SomeLocalTriangulations.html":[12,0,1,577]
+"structMR_1_1SkyPatch.html#ab2ea86c9173f3228c1adec10b4b8c48a":[10,0,10,591,0]
 };

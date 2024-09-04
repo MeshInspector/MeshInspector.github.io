@@ -1,5 +1,8 @@
 var NAVTREEINDEX30 =
 {
+"classMR_1_1PluginCloseOnChangePointCloud.html#a3569c689e004637d73b414f0440e0046":[10,0,10,432,1],
+"classMR_1_1PluginCloseOnChangePointCloud.html#a3569c689e004637d73b414f0440e0046":[12,0,1,417,1],
+"classMR_1_1PluginCloseOnChangePointCloud.html#acc66fd5a6484e6733be7dd12f9e13e4f":[10,0,10,432,2],
 "classMR_1_1PluginCloseOnChangePointCloud.html#acc66fd5a6484e6733be7dd12f9e13e4f":[12,0,1,417,2],
 "classMR_1_1PluginCloseOnChangePointCloud.html#ad910ff2766e17a565cfa33cb6eefc831":[10,0,10,432,3],
 "classMR_1_1PluginCloseOnChangePointCloud.html#ad910ff2766e17a565cfa33cb6eefc831":[12,0,1,417,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX30 =
 "classMR_1_1RadiusMeasurementObject.html#a42db597cf6c86264265ae90f066d8b6b":[10,0,10,485,26],
 "classMR_1_1RadiusMeasurementObject.html#a42db597cf6c86264265ae90f066d8b6b":[12,0,1,470,26],
 "classMR_1_1RadiusMeasurementObject.html#a69d0ba22a0e3029c9b0e902d1ade30ef":[10,0,10,485,12],
-"classMR_1_1RadiusMeasurementObject.html#a69d0ba22a0e3029c9b0e902d1ade30ef":[12,0,1,470,12],
-"classMR_1_1RadiusMeasurementObject.html#a6c5ce7e4b4a07029e63ff8b7edd1b05e":[10,0,10,485,22],
-"classMR_1_1RadiusMeasurementObject.html#a6c5ce7e4b4a07029e63ff8b7edd1b05e":[12,0,1,470,22],
-"classMR_1_1RadiusMeasurementObject.html#a7f6e2a939bc3d396176fdfb2af73501b":[10,0,10,485,24]
+"classMR_1_1RadiusMeasurementObject.html#a69d0ba22a0e3029c9b0e902d1ade30ef":[12,0,1,470,12]
 };

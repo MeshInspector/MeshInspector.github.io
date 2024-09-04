@@ -1,5 +1,8 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1SkyPatch.html#ab2ea86c9173f3228c1adec10b4b8c48a":[12,0,1,576,0],
+"structMR_1_1SomeLocalTriangulations.html":[10,0,10,592],
+"structMR_1_1SomeLocalTriangulations.html":[12,0,1,577],
 "structMR_1_1SomeLocalTriangulations.html#a26d4e93a4bff3856092a522b80bd422e":[10,0,10,592,0],
 "structMR_1_1SomeLocalTriangulations.html#a26d4e93a4bff3856092a522b80bd422e":[12,0,1,577,0],
 "structMR_1_1SomeLocalTriangulations.html#aaee24eb30dd28767f24e1aeb842e6d3d":[10,0,10,592,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1SymbolMeshParams.html":[10,0,10,617],
 "structMR_1_1SymbolMeshParams.html":[12,0,1,602],
 "structMR_1_1SymbolMeshParams.html#a13308560203bfeb849317043fdd1957a":[10,0,10,617,3],
-"structMR_1_1SymbolMeshParams.html#a13308560203bfeb849317043fdd1957a":[12,0,1,602,3],
-"structMR_1_1SymbolMeshParams.html#a41e3e2a0fe3747d584ee52635c67c307":[10,0,10,617,4],
-"structMR_1_1SymbolMeshParams.html#a41e3e2a0fe3747d584ee52635c67c307":[12,0,1,602,4],
-"structMR_1_1SymbolMeshParams.html#a862ff23debfa432cd8025d0d39a00868":[10,0,10,617,1]
+"structMR_1_1SymbolMeshParams.html#a13308560203bfeb849317043fdd1957a":[12,0,1,602,3]
 };

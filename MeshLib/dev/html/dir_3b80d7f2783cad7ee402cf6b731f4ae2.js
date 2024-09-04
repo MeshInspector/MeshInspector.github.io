@@ -28,6 +28,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRBestFitParabola.h", "MRBestFitParabola_8h.html", "MRBestFitParabola_8h" ],
     [ "MRBestFitPolynomial.h", "MRBestFitPolynomial_8h.html", "MRBestFitPolynomial_8h" ],
     [ "MRBestFitQuadric.h", "MRBestFitQuadric_8h.html", null ],
+    [ "MRBindingMacros.h", "MRBindingMacros_8h.html", "MRBindingMacros_8h" ],
     [ "MRBitSet.h", "MRMesh_2MRBitSet_8h.html", "MRMesh_2MRBitSet_8h" ],
     [ "MRBitSetParallelFor.h", "MRBitSetParallelFor_8h.html", "MRBitSetParallelFor_8h" ],
     [ "MRBoolean.h", "MRBoolean_8h.html", "MRBoolean_8h" ],
