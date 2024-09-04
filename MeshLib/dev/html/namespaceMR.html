@@ -5038,6 +5038,7 @@ Functions</h2></td></tr>
 <tr class="memitem:aa74c456226024506fb5fb0013dedf5a7" id="r_aa74c456226024506fb5fb0013dedf5a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa74c456226024506fb5fb0013dedf5a7">gridToMesh</a> (<a class="el" href="#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;&amp;grid, const <a class="el" href="structMR_1_1GridToMeshSettings.html">GridToMeshSettings</a> &amp;settings)</td></tr>
 <tr class="separator:aa74c456226024506fb5fb0013dedf5a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c5b2799cb4c29aeccf8c7fbfe9455e5" id="r_a8c5b2799cb4c29aeccf8c7fbfe9455e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c5b2799cb4c29aeccf8c7fbfe9455e5">makeSignedByWindingNumber</a> (<a class="el" href="#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;voxelSize, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;refMesh, const <a class="el" href="structMR_1_1MakeSignedByWindingNumberSettings.html">MakeSignedByWindingNumberSettings</a> &amp;settings)</td></tr>
+<tr class="memdesc:a8c5b2799cb4c29aeccf8c7fbfe9455e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">set signs for unsigned distance field grid using generalized winding number computed at voxel grid point from refMesh  <br /></td></tr>
 <tr class="separator:a8c5b2799cb4c29aeccf8c7fbfe9455e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ce5a58639b2df0e51fa19ba0e170bf2" id="r_a0ce5a58639b2df0e51fa19ba0e170bf2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ce5a58639b2df0e51fa19ba0e170bf2">doubleOffsetVdb</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="structMR_1_1DoubleOffsetSettings.html">DoubleOffsetSettings</a> &amp;settings)</td></tr>
 <tr class="separator:a0ce5a58639b2df0e51fa19ba0e170bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -19482,7 +19483,8 @@ template&lt;typename RenderObjType &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>set signs for unsigned distance field grid using refMesh <a class="el" href="classMR_1_1FastWindingNumber.html">FastWindingNumber</a>; not only the sign but the magnitudes of distances in the grid are changed to make smooth transition from positive to negative </p>
+
+<p>set signs for unsigned distance field grid using generalized winding number computed at voxel grid point from refMesh </p>
 
 </div>
 </div>
