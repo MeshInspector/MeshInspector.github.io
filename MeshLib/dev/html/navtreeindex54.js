@@ -1,7 +1,5 @@
 var NAVTREEINDEX54 =
 {
-"namespaceMR_1_1MeshBuilder.html#a787b6d63581b071cba69cde55f211cdf":[10,0,10,16,12],
-"namespaceMR_1_1MeshBuilder.html#aa308a697fa44ab178932733fdab79f16":[10,0,10,16,14],
 "namespaceMR_1_1MeshBuilder.html#ab4643e01cde45551cee54cc59f539e61":[10,0,10,16,11],
 "namespaceMR_1_1MeshBuilder.html#ac89608a8862a7f497172398df6ccaf30":[10,0,10,16,10],
 "namespaceMR_1_1MeshBuilder.html#ad94b16318381f04c306f214d07b59c3d":[10,0,10,16,13],
@@ -249,5 +247,7 @@ var NAVTREEINDEX54 =
 "structBooleanResult.html#ae879a1dea0f5f145c6801d39e8f85dc3":[12,0,6,0],
 "structDecimateParameters.html":[12,0,8],
 "structDecimateParameters.html#a090f1a688a077d9fe1e6b354cf5c9394":[12,0,8,1],
-"structDecimateParameters.html#a16efddd8725a528d74ff2fda5cf4f053":[12,0,8,5]
+"structDecimateParameters.html#a16efddd8725a528d74ff2fda5cf4f053":[12,0,8,5],
+"structDecimateParameters.html#a25468add72e48c64b6075006461fa6c4":[12,0,8,2],
+"structDecimateParameters.html#a2bb09c0392ac3a2c6ac76988c6b66c0e":[12,0,8,4]
 };

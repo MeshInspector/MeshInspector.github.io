@@ -1,7 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"structMR_1_1ZeroOnMove.html#ac3bc0c5c28107a3a11a89d8b43373be0":[10,0,10,721,3],
-"structMR_1_1ZeroOnMove.html#ac3bc0c5c28107a3a11a89d8b43373be0":[12,0,1,706,3],
 "structMR_1_1ZeroOnMove.html#af504ba39107aabf4c055c1a1f651c586":[10,0,10,721,0],
 "structMR_1_1ZeroOnMove.html#af504ba39107aabf4c055c1a1f651c586":[12,0,1,706,0],
 "structMR_1_1detail_1_1MakeScopeGuard.html":[10,0,10,3,1],

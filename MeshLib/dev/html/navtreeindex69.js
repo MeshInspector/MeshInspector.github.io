@@ -1,7 +1,5 @@
 var NAVTREEINDEX69 =
 {
-"structMR_1_1PolylineMaker.html#a6b10efd85c33f60e8896d7ce1971364f":[12,0,1,441,1],
-"structMR_1_1PolylineMaker.html#a8235ea5e1d4e4a8485abb6d0d548fbba":[10,0,10,456,5],
 "structMR_1_1PolylineMaker.html#a8235ea5e1d4e4a8485abb6d0d548fbba":[12,0,1,441,5],
 "structMR_1_1PolylineMaker.html#a8c386bea061f3eab0448adbfa67dceb0":[10,0,10,456,0],
 "structMR_1_1PolylineMaker.html#a8c386bea061f3eab0448adbfa67dceb0":[12,0,1,441,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX69 =
 "structMR_1_1RelaxParams.html":[10,0,10,498],
 "structMR_1_1RelaxParams.html":[12,0,1,483],
 "structMR_1_1RelaxParams.html#a7f58a3b0b7e5c09209f53edd90b4371a":[10,0,10,498,0],
-"structMR_1_1RelaxParams.html#a7f58a3b0b7e5c09209f53edd90b4371a":[12,0,1,483,0]
+"structMR_1_1RelaxParams.html#a7f58a3b0b7e5c09209f53edd90b4371a":[12,0,1,483,0],
+"structMR_1_1RelaxParams.html#abeb08d7e70411cf9ef2826c0f058b909":[10,0,10,498,4],
+"structMR_1_1RelaxParams.html#abeb08d7e70411cf9ef2826c0f058b909":[12,0,1,483,4]
 };

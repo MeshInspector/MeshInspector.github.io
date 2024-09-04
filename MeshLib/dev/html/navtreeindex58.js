@@ -1,7 +1,5 @@
 var NAVTREEINDEX58 =
 {
-"structMR_1_1CursorEntranceListener.html":[10,0,10,151],
-"structMR_1_1CursorEntranceListener.html":[12,0,1,136],
 "structMR_1_1CursorEntranceListener.html#a2d5c27d95f9984ab5220e7c158d41841":[10,0,10,151,1],
 "structMR_1_1CursorEntranceListener.html#a2d5c27d95f9984ab5220e7c158d41841":[12,0,1,136,1],
 "structMR_1_1CursorEntranceListener.html#a2e6ad6df00a5718db8e060aec257534b":[10,0,10,151,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX58 =
 "structMR_1_1DividePolylineParameters.html#a0dd7e0ac90d0f63dc7e3903f3107a461":[12,0,1,168,6],
 "structMR_1_1DividePolylineParameters.html#a60aae2de01f58e5dfacacd1fc3e0f59c":[10,0,10,183,2],
 "structMR_1_1DividePolylineParameters.html#a60aae2de01f58e5dfacacd1fc3e0f59c":[12,0,1,168,2],
-"structMR_1_1DividePolylineParameters.html#a668805a855bdaef004b545df01b7597c":[10,0,10,183,0]
+"structMR_1_1DividePolylineParameters.html#a668805a855bdaef004b545df01b7597c":[10,0,10,183,0],
+"structMR_1_1DividePolylineParameters.html#a668805a855bdaef004b545df01b7597c":[12,0,1,168,0],
+"structMR_1_1DividePolylineParameters.html#a78d5c2ea44136f73fe510d5950043a30":[10,0,10,183,5]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX55 =
 {
-"structDecimateParameters.html#a25468add72e48c64b6075006461fa6c4":[12,0,8,2],
-"structDecimateParameters.html#a2bb09c0392ac3a2c6ac76988c6b66c0e":[12,0,8,4],
 "structDecimateParameters.html#a2c1b8485a768f1922bb63babff0df51e":[12,0,8,7],
 "structDecimateParameters.html#a43d765e052a8d5ed9f7bb1d5f09a0fe0":[12,0,8,19],
 "structDecimateParameters.html#a47d5748c33a65c887fe688386243a154":[12,0,8,14],
@@ -249,5 +247,7 @@ var NAVTREEINDEX55 =
 "structMR_1_1AABBTreeTraits.html#a50bc8c0ccee7f3a7a6f9292ef97447f9":[9,1,3,1],
 "structMR_1_1AABBTreeTraits.html#af377f5f1d8b11732a56ec00544ed4c2e":[9,1,3,0],
 "structMR_1_1AffineXf.html":[9,0,13],
-"structMR_1_1AffineXf.html#a0e644a181cac1fa700946f98a47b8595":[9,0,13,8]
+"structMR_1_1AffineXf.html#a0e644a181cac1fa700946f98a47b8595":[9,0,13,8],
+"structMR_1_1AffineXf.html#a122798f44f02f88d6fceeddd3f296c0c":[9,0,13,1],
+"structMR_1_1AffineXf.html#a186afe85bf17b3cb6a52b55f5af080bc":[9,0,13,7]
 };
