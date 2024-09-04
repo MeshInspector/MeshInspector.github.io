@@ -1,6 +1,8 @@
 var classMesh =
 [
     [ "~Mesh", "classMesh.html#a5efe4da1a4c0971cfb037bd70304c303", null ],
+    [ "GetLeftTriVerts", "classMesh.html#aebde2979e767302a66cab80f66ad8ce6", null ],
+    [ "PackOptimally", "classMesh.html#a5195a0027b8c080936de4c66cef131a6", null ],
     [ "Transform", "classMesh.html#a282809dc092878ceb37e7b00633a0c07", null ],
     [ "Transform", "classMesh.html#a4432fa9ff1f55f209275a1a91cb3cc0c", null ],
     [ "__pad0__", "classMesh.html#a2e067e02f3e3e381882eb8eb8e05022e", null ],

@@ -7,7 +7,7 @@ var searchData=
   ['edgepoint_4',['EdgePoint',['../structMR_1_1EdgePoint.html',1,'MR']]],
   ['edgepointpair_5',['EdgePointPair',['../structMR_1_1EdgePointPair.html',1,'MR']]],
   ['edgesegment_6',['EdgeSegment',['../structMR_1_1EdgeSegment.html',1,'MR']]],
-  ['edgetri_7',['EdgeTri',['../structMR_1_1EdgeTri.html',1,'MR']]],
+  ['edgetri_7',['EdgeTri',['../structEdgeTri.html',1,'EdgeTri'],['../structMR_1_1EdgeTri.html',1,'MR::EdgeTri']]],
   ['element_8',['Element',['../structMR_1_1Heap_1_1Element.html',1,'MR::Heap']]],
   ['embeddedpython_9',['EmbeddedPython',['../classMR_1_1EmbeddedPython.html',1,'MR']]],
   ['embeddedstructureparameters_10',['EmbeddedStructureParameters',['../structMR_1_1EmbeddedStructureParameters.html',1,'MR']]],

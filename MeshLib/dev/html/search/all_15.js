@@ -3,7 +3,7 @@ var searchData=
   ['s_0',['s',['../structMR_1_1RigidScaleXf3.html#a89ce25c6f6b3805955c04f054a2fb0a7',1,'MR::RigidScaleXf3']]],
   ['s_5f_1',['s_',['../classMR_1_1FeatureObject.html#ab1290c5fd9953439f5f8416adcd4ab38',1,'MR::FeatureObject']]],
   ['safez_2',['safeZ',['../structMR_1_1ToolPathParams.html#a10f980ccd2fc81285a194503e2b669b3',1,'MR::ToolPathParams']]],
-  ['same_3',['same',['../structMR_1_1MeshTriPoint.html#a99f6b57a79938db1c601698948926581',1,'MR::MeshTriPoint::same()'],['../namespaceMR.html#a1c0d3c449b52a98c85522a1aa06c1e88',1,'MR::same()']]],
+  ['same_3',['same',['../structMeshTriPoint.html#a99f6b57a79938db1c601698948926581',1,'MeshTriPoint::same()'],['../namespaceMR.html#a1c0d3c449b52a98c85522a1aa06c1e88',1,'MR::same()']]],
   ['sample_4',['sample',['../structMR_1_1Image.html#af6176f7d0a558084bda1ff8e2f3f6237',1,'MR::Image']]],
   ['samplebilinear_5',['sampleBilinear',['../structMR_1_1Image.html#a14c773bc8dd766e49107c4d5c44c41d8',1,'MR::Image']]],
   ['samplediscrete_6',['sampleDiscrete',['../structMR_1_1Image.html#a872aae100ad383474afd5c9c8468b3d5',1,'MR::Image']]],

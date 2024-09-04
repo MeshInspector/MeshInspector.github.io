@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['b_0',['B',['../structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587a9d5ed678fe57bcca610140957afab571',1,'MR::BooleanResultMapper::B'],['../classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa9d5ed678fe57bcca610140957afab571',1,'MR::CNCMachineSettings::B']]],
+  ['b_0',['B',['../structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587a9d5ed678fe57bcca610140957afab571',1,'MR::BooleanResultMapper::B'],['../classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa9d5ed678fe57bcca610140957afab571',1,'MR::CNCMachineSettings::B'],['../MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571',1,'B:&#160;MRBooleanResultMapper.h']]],
   ['back_1',['Back',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca0557fa923dcee4d0f86b1409f5c2167f',1,'MR::SetViewPresetMenuItem::Back'],['../classMR_1_1ChangeObjectColorAction.html#aadf478d3d29a773bd02b96beae263a51a0557fa923dcee4d0f86b1409f5c2167f',1,'MR::ChangeObjectColorAction::Back']]],
   ['backfaces_2',['BackFaces',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa9a1cde7d2aa80a2631f4925686757e53',1,'MR::SceneColors']]],
   ['background_3',['Background',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0aa9ded1e5ce5d75814730bb4caaf49419',1,'MR::ColorTheme::Background'],['../classMR_1_1ColorTheme.html#a91b6b928ca7f490fdd396c347347bcdcaa9ded1e5ce5d75814730bb4caaf49419',1,'MR::ColorTheme::Background']]],

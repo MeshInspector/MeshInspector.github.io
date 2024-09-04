@@ -1,5 +1,7 @@
 var MRDotNet_2MRMesh_8h =
 [
-    [ "Mesh", "classMesh.html", "classMesh" ],
-    [ "MeshPart", "structMeshPart.html", "structMeshPart" ]
+    [ "PointOnFace", "structPointOnFace.html", "structPointOnFace" ],
+    [ "MeshProjectionResult", "structMeshProjectionResult.html", "structMeshProjectionResult" ],
+    [ "MeshPart", "structMeshPart.html", "structMeshPart" ],
+    [ "Mesh", "classMesh.html", "classMesh" ]
 ];

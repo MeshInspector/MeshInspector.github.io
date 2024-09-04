@@ -279,8 +279,8 @@ $(function(){initNavTree('MRSymMatrix3_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>{</div>
 <div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>    <span class="comment">//https://en.wikipedia.org/wiki/Eigenvalue_algorithm#3%C3%973_matrices</span></div>
 <div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>    <span class="keyword">const</span> <span class="keyword">auto</span> q = <a class="code hl_function" href="structMR_1_1SymMatrix3.html#ab0c7c7d05d0592ff42fd599103bd5143">trace</a>() / 3;</div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>    <span class="keyword">const</span> <span class="keyword">auto</span> B = *<span class="keyword">this</span> - <a class="code hl_function" href="structMR_1_1SymMatrix3.html#ad9dcf1d38df199d9b286299f52b8ea18">diagonal</a>( q );</div>
-<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    <span class="keyword">const</span> <span class="keyword">auto</span> p2 = B.normSq();</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>    <span class="keyword">const</span> <span class="keyword">auto</span> <a class="code hl_enumvalue" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571">B</a> = *<span class="keyword">this</span> - <a class="code hl_function" href="structMR_1_1SymMatrix3.html#ad9dcf1d38df199d9b286299f52b8ea18">diagonal</a>( q );</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    <span class="keyword">const</span> <span class="keyword">auto</span> p2 = <a class="code hl_enumvalue" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571">B</a>.normSq();</div>
 <div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>    <span class="keyword">const</span> <span class="keyword">auto</span> p = std::sqrt( p2 / 6 );</div>
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>    <a class="code hl_variable" href="namespaceMR.html#ac878ba63f3f91f5ab032a38cd3a2c206">Vector3&lt;T&gt;</a> eig;</div>
 <div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>    <span class="keywordflow">if</span> ( p &lt;= std::abs( q ) * std::numeric_limits&lt;T&gt;::epsilon() )</div>
@@ -291,7 +291,7 @@ $(function(){initNavTree('MRSymMatrix3_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>            *eigenvectors = Matrix3&lt;T&gt;{};</div>
 <div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>        <span class="keywordflow">return</span> eig;</div>
 <div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>    }</div>
-<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>    <span class="keyword">const</span> <span class="keyword">auto</span> r = B.det() / ( 2 * p * p * p );</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>    <span class="keyword">const</span> <span class="keyword">auto</span> r = <a class="code hl_enumvalue" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571">B</a>.det() / ( 2 * p * p * p );</div>
 <div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span> </div>
 <div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>    <span class="comment">// In exact arithmetic for a symmetric matrix - 1 &lt;= r &lt;= 1</span></div>
 <div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>    <span class="comment">// but computation error can leave it slightly outside this range.</span></div>
@@ -389,6 +389,7 @@ $(function(){initNavTree('MRSymMatrix3_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span> </div>
 <div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span> </div>
 <div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>} <span class="comment">// namespace MR</span></div>
+<div class="ttc" id="aMRBooleanResultMapper_8h_html_a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571"><div class="ttname"><a href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a9d5ed678fe57bcca610140957afab571">MapObject::B</a></div><div class="ttdeci">@ B</div></div>
 <div class="ttc" id="aMRConstants_8h_html"><div class="ttname"><a href="MRConstants_8h.html">MRConstants.h</a></div></div>
 <div class="ttc" id="aMRMacros_8h_html_adb4b71f9ebce86e54868bd967010ebbb"><div class="ttname"><a href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a></div><div class="ttdeci">#define MR_REQUIRES_IF_SUPPORTED(...)</div><div class="ttdef"><b>Definition</b> MRMacros.h:26</div></div>
 <div class="ttc" id="aMRMesh_2MRMatrix3_8h_html"><div class="ttname"><a href="MRMesh_2MRMatrix3_8h.html">MRMatrix3.h</a></div></div>

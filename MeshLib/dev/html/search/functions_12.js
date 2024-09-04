@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['same_0',['same',['../structMR_1_1MeshTriPoint.html#a99f6b57a79938db1c601698948926581',1,'MR::MeshTriPoint::same()'],['../namespaceMR.html#a1c0d3c449b52a98c85522a1aa06c1e88',1,'MR::same()']]],
+  ['same_0',['same',['../structMeshTriPoint.html#a99f6b57a79938db1c601698948926581',1,'MeshTriPoint::same()'],['../namespaceMR.html#a1c0d3c449b52a98c85522a1aa06c1e88',1,'MR::same()']]],
   ['sample_1',['sample',['../structMR_1_1Image.html#af6176f7d0a558084bda1ff8e2f3f6237',1,'MR::Image']]],
   ['samplebilinear_2',['sampleBilinear',['../structMR_1_1Image.html#a14c773bc8dd766e49107c4d5c44c41d8',1,'MR::Image']]],
   ['samplediscrete_3',['sampleDiscrete',['../structMR_1_1Image.html#a872aae100ad383474afd5c9c8468b3d5',1,'MR::Image']]],

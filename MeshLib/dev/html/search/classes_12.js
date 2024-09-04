@@ -39,6 +39,6 @@ var searchData=
   ['trimesh_36',['TriMesh',['../structMR_1_1TriMesh.html',1,'MR']]],
   ['trimoptionaloutput_37',['TrimOptionalOutput',['../structMR_1_1TrimOptionalOutput.html',1,'MR']]],
   ['trimwithplaneparams_38',['TrimWithPlaneParams',['../structMR_1_1TrimWithPlaneParams.html',1,'MR']]],
-  ['tripoint_39',['TriPoint',['../structMR_1_1TriPoint.html',1,'MR']]],
+  ['tripoint_39',['TriPoint',['../structMR_1_1TriPoint.html',1,'MR::TriPoint&lt; T &gt;'],['../structTriPoint.html',1,'TriPoint']]],
   ['trivialmetrictopenalty_40',['TrivialMetricToPenalty',['../structMR_1_1TrivialMetricToPenalty.html',1,'MR']]]
 ];

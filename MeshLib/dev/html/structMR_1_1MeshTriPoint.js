@@ -17,10 +17,6 @@ var structMR_1_1MeshTriPoint =
     [ "operator bool", "structMR_1_1MeshTriPoint.html#a6371d8245c7dbe42491b7506c52d1478", null ],
     [ "operator==", "structMR_1_1MeshTriPoint.html#abb0591df25f88f44c1c55406d826b63e", null ],
     [ "valid", "structMR_1_1MeshTriPoint.html#a448317ec66d714fc3faa1d0bd3b64867", null ],
-    [ "fromSameTriangle", "structMR_1_1MeshTriPoint.html#a5b4701e6cc60a8b3a60545055a0f0ad2", null ],
-    [ "fromSameTriangle", "structMR_1_1MeshTriPoint.html#a28516877dbf31eb9b23a58abf5a65d31", null ],
-    [ "getVertexAsMeshTriPoint", "structMR_1_1MeshTriPoint.html#a601a9f114cc2d5d7a5d707b61f7164c9", null ],
-    [ "same", "structMR_1_1MeshTriPoint.html#a99f6b57a79938db1c601698948926581", null ],
     [ "bary", "structMR_1_1MeshTriPoint.html#a8a974fd4d0a547b3acff27ac8730ef92", null ],
     [ "e", "structMR_1_1MeshTriPoint.html#afb2e8376855431a09626f25ffe6039bc", null ]
 ];

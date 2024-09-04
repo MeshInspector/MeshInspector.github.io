@@ -110,7 +110,7 @@ $(function(){initNavTree('MRSurfacePath_8h_source.html',''); initResizable(true)
 <a href="MRSurfacePath_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRExpected_8h.html">MRExpected.h</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshTriPoint_8h.html">MRMeshTriPoint.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRMeshTriPoint_8h.html">MRMeshTriPoint.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
@@ -207,11 +207,11 @@ $(function(){initNavTree('MRSurfacePath_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>} <span class="comment">// namespace MR</span></div>
-<div class="ttc" id="aMRDotNet_2MRMeshFwd_8h_html_a97d91fcf1566198a2abf87966d056a9f"><div class="ttname"><a href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a></div><div class="ttdeci">int VertId</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshFwd.h:42</div></div>
+<div class="ttc" id="aMRDotNet_2MRMeshFwd_8h_html_a97d91fcf1566198a2abf87966d056a9f"><div class="ttname"><a href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a></div><div class="ttdeci">int VertId</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshFwd.h:51</div></div>
 <div class="ttc" id="aMRExpected_8h_html"><div class="ttname"><a href="MRExpected_8h.html">MRExpected.h</a></div></div>
-<div class="ttc" id="aMRMeshTriPoint_8h_html"><div class="ttname"><a href="MRMeshTriPoint_8h.html">MRMeshTriPoint.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:46</div></div>
-<div class="ttc" id="aclassBitSet_html"><div class="ttname"><a href="classBitSet.html">BitSet</a></div><div class="ttdef"><b>Definition</b> MRDotNet/MRBitSet.h:37</div></div>
+<div class="ttc" id="aMRMesh_2MRMeshTriPoint_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshTriPoint_8h.html">MRMeshTriPoint.h</a></div></div>
+<div class="ttc" id="aclassBitSet_html"><div class="ttname"><a href="classBitSet.html">BitSet</a></div><div class="ttdef"><b>Definition</b> MRDotNet/MRBitSet.h:39</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_ga3e268aab2816870aa045f278c6bd6ecd"><div class="ttname"><a href="group__BasicGroup.html#ga3e268aab2816870aa045f278c6bd6ecd">MR::end</a></div><div class="ttdeci">auto end(const BitSet &amp;)</div><div class="ttdef"><b>Definition</b> MRMesh/MRBitSet.h:265</div></div>
 <div class="ttc" id="agroup__SurfacePathSubgroup_html_ga0bd366cd8b4e0bb2f8754392be22cb12"><div class="ttname"><a href="group__SurfacePathSubgroup.html#ga0bd366cd8b4e0bb2f8754392be22cb12">MR::findExtremeEdges</a></div><div class="ttdeci">MRMESH_API UndirectedEdgeBitSet findExtremeEdges(const Mesh &amp;mesh, const VertScalars &amp;field, ExtremeEdgeType type)</div><div class="ttdoc">computes all edges in the mesh, where the field not-increases both in left and right triangles</div></div>
 <div class="ttc" id="agroup__SurfacePathSubgroup_html_ga0d52c069a53aab9d22c0f2c4e3f262a2"><div class="ttname"><a href="group__SurfacePathSubgroup.html#ga0d52c069a53aab9d22c0f2c4e3f262a2">MR::GeodesicPathApprox</a></div><div class="ttdeci">GeodesicPathApprox</div><div class="ttdoc">the algorithm to compute approximately geodesic path</div><div class="ttdef"><b>Definition</b> MRSurfacePath.h:41</div></div>
@@ -249,7 +249,7 @@ $(function(){initNavTree('MRSurfacePath_8h_source.html',''); initResizable(true)
 <div class="ttc" id="astructMR_1_1ComputeSteepestDescentPathSettings_html_adb7629a9e4ce0c21efc00fd5f1b3932f"><div class="ttname"><a href="structMR_1_1ComputeSteepestDescentPathSettings.html#adb7629a9e4ce0c21efc00fd5f1b3932f">MR::ComputeSteepestDescentPathSettings::outVertexReached</a></div><div class="ttdeci">VertId * outVertexReached</div><div class="ttdoc">if not nullptr, then the descent is stopped as soon as any vertex is reached, which is written in *ou...</div><div class="ttdef"><b>Definition</b> MRSurfacePath.h:72</div></div>
 <div class="ttc" id="astructMR_1_1EdgePoint_html"><div class="ttname"><a href="structMR_1_1EdgePoint.html">MR::EdgePoint</a></div><div class="ttdoc">encodes a point on an edge of mesh or of polyline</div><div class="ttdef"><b>Definition</b> MREdgePoint.h:11</div></div>
 <div class="ttc" id="astructMR_1_1MeshPart_html"><div class="ttname"><a href="structMR_1_1MeshPart.html">MR::MeshPart</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshPart.h:11</div></div>
-<div class="ttc" id="astructMR_1_1MeshTriPoint_html"><div class="ttname"><a href="structMR_1_1MeshTriPoint.html">MR::MeshTriPoint</a></div><div class="ttdef"><b>Definition</b> MRMeshTriPoint.h:23</div></div>
+<div class="ttc" id="astructMR_1_1MeshTriPoint_html"><div class="ttname"><a href="structMR_1_1MeshTriPoint.html">MR::MeshTriPoint</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshTriPoint.h:23</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:23</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

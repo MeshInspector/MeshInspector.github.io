@@ -84,7 +84,7 @@ var searchData=
   ['translatescale_81',['translateScale',['../structMR_1_1SpaceMouseParameters.html#ad46ecdb679bfef1395ebc85444ed520e',1,'MR::SpaceMouseParameters']]],
   ['translationcolors_82',['translationColors',['../structMR_1_1TransformControls_1_1VisualParams.html#a263e10cb84fcd843581cc2aeea08d6a2',1,'MR::TransformControls::VisualParams']]],
   ['tree_83',['tree',['../structMR_1_1Line3Mesh.html#a993c546c36a0d4723de3bdaffd1d769e',1,'MR::Line3Mesh']]],
-  ['tri_84',['tri',['../structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318',1,'MR::EdgeTri']]],
+  ['tri_84',['tri',['../structEdgeTri.html#a0af70f268a000b6a6e5eb938033f3a73',1,'EdgeTri::tri'],['../structVariableEdgeTri.html#ad1db77c33e002591aa2f30425c2c878e',1,'VariableEdgeTri::tri'],['../structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318',1,'MR::EdgeTri::tri']]],
   ['trianglemetric_85',['triangleMetric',['../structMR_1_1FillHoleMetric.html#acc8ef5c37515d91d9c3cb3fbcaa1fd22',1,'MR::FillHoleMetric']]],
   ['triangulateonly_86',['triangulateOnly',['../structMR_1_1FillHoleNicelySettings.html#a62e34964b014489a6f1d3f2e324759ff',1,'MR::FillHoleNicelySettings']]],
   ['triangulateparams_87',['triangulateParams',['../structMR_1_1FillHoleNicelySettings.html#a2ead937ed1df084dc6a43160e17df2c2',1,'MR::FillHoleNicelySettings']]],

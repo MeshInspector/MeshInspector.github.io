@@ -388,9 +388,9 @@ $(function(){initNavTree('MRCylinderApproximator_8h_source.html',''); initResiza
 <div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>            W[2], 0, -W[0],</div>
 <div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>            -W[1], W[0], 0;</div>
 <div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span> </div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>        Eigen::Matrix&lt;T, 3, 3&gt; A = P * precomputedF0_ * P;</div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>        Eigen::Matrix&lt;T, 3, 3&gt; hatA = -( S * A * S );</div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>        Eigen::Matrix&lt;T, 3, 3&gt; hatAA = hatA * A;</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>        Eigen::Matrix&lt;T, 3, 3&gt; <a class="code hl_enumvalue" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a> = P * precomputedF0_ * P;</div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>        Eigen::Matrix&lt;T, 3, 3&gt; hatA = -( S * <a class="code hl_enumvalue" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a> * S );</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>        Eigen::Matrix&lt;T, 3, 3&gt; hatAA = hatA * <a class="code hl_enumvalue" href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">A</a>;</div>
 <div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>        T trace = hatAA.trace();</div>
 <div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>        Eigen::Matrix&lt;T, 3, 3&gt; Q = hatA / trace;</div>
 <div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>        Eigen::Vector&lt;T, 6&gt; pVec{ P( 0, 0 ), P( 0, 1 ), P( 0, 2 ), P( 1, 1 ), P( 1, 2 ), P( 2, 2 ) };</div>
@@ -525,6 +525,7 @@ $(function(){initNavTree('MRCylinderApproximator_8h_source.html',''); initResiza
 <div class="line"><a id="l00406" name="l00406"></a><span class="lineno">  406</span> </div>
 <div class="line"><a id="l00407" name="l00407"></a><span class="lineno">  407</span> </div>
 <div class="line"><a id="l00408" name="l00408"></a><span class="lineno">  408</span> </div>
+<div class="ttc" id="aMRBooleanResultMapper_8h_html_a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29"><div class="ttname"><a href="MRBooleanResultMapper_8h.html#a67136a09240486180e77c4607064f246a7fc56270e7a70fa81a5935b72eacbe29">MapObject::A</a></div><div class="ttdeci">@ A</div></div>
 <div class="ttc" id="aMRConstants_8h_html"><div class="ttname"><a href="MRConstants_8h.html">MRConstants.h</a></div></div>
 <div class="ttc" id="aMRCylinder3_8h_html"><div class="ttname"><a href="MRCylinder3_8h.html">MRCylinder3.h</a></div></div>
 <div class="ttc" id="aMRMatrix_8h_html"><div class="ttname"><a href="MRMatrix_8h.html">MRMatrix.h</a></div></div>
