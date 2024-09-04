@@ -123,7 +123,8 @@ $(function(){initNavTree('classMR_1_1UI_1_1RectAllocator.html',''); initResizabl
  <div class="center">
   <img src="classMR_1_1UI_1_1RectAllocator.png" usemap="#MR::UI::RectAllocator_map" alt=""/>
   <map id="MR::UI::RectAllocator_map" name="MR::UI::RectAllocator_map">
-<area href="classMR_1_1UI_1_1WindowRectAllocator.html" alt="MR::UI::WindowRectAllocator" shape="rect" coords="0,56,174,80"/>
+<area href="classMR_1_1UI_1_1LabelRectAllocator.html" alt="MR::UI::LabelRectAllocator" shape="rect" coords="0,56,174,80"/>
+<area href="classMR_1_1UI_1_1WindowRectAllocator.html" alt="MR::UI::WindowRectAllocator" shape="rect" coords="184,56,358,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -134,19 +135,19 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a0c0e4459ae9255dde41c3c2e216999a3" id="r_a0c0e4459ae9255dde41c3c2e216999a3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c0e4459ae9255dde41c3c2e216999a3">FindPotentiallyOverlappingRects</a> = std::function&lt;void( <a class="el" href="namespaceMR.html#a3382cb6b961019c59bc38f6e38fe1432">Box2f</a> target, std::function&lt;void( const char* name, <a class="el" href="namespaceMR.html#a3382cb6b961019c59bc38f6e38fe1432">Box2f</a> box )&gt; overlaps )&gt;</td></tr>
+<tr class="memitem:a0c0e4459ae9255dde41c3c2e216999a3" id="r_a0c0e4459ae9255dde41c3c2e216999a3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c0e4459ae9255dde41c3c2e216999a3">FindPotentiallyOverlappingRects</a> = std::function&lt;void( Box2f target, std::function&lt;void( const char* name, Box2f box )&gt; overlaps )&gt;</td></tr>
 <tr class="separator:a0c0e4459ae9255dde41c3c2e216999a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a82d78572d266d3a2f29eadf99dd00f9e" id="r_a82d78572d266d3a2f29eadf99dd00f9e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82d78572d266d3a2f29eadf99dd00f9e">RectAllocator</a> ()</td></tr>
 <tr class="separator:a82d78572d266d3a2f29eadf99dd00f9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae453c167334b49a2d08f4bffa76c0fe2" id="r_ae453c167334b49a2d08f4bffa76c0fe2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html">FindFreeRectResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae453c167334b49a2d08f4bffa76c0fe2">findFreeRect</a> (<a class="el" href="namespaceMR.html#a3382cb6b961019c59bc38f6e38fe1432">Box2f</a> preferredRect, <a class="el" href="namespaceMR.html#a3382cb6b961019c59bc38f6e38fe1432">Box2f</a> preferredBounds, <a class="el" href="#a0c0e4459ae9255dde41c3c2e216999a3">FindPotentiallyOverlappingRects</a> findOverlaps, ImVec2 axisWeights=ImVec2(1, 1))</td></tr>
+<tr class="memitem:ae453c167334b49a2d08f4bffa76c0fe2" id="r_ae453c167334b49a2d08f4bffa76c0fe2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html">FindFreeRectResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae453c167334b49a2d08f4bffa76c0fe2">findFreeRect</a> (Box2f preferredRect, Box2f preferredBounds, <a class="el" href="#a0c0e4459ae9255dde41c3c2e216999a3">FindPotentiallyOverlappingRects</a> findOverlaps, ImVec2 axisWeights=ImVec2(1, 1))</td></tr>
 <tr class="separator:ae453c167334b49a2d08f4bffa76c0fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a91ef8171f989554a528459da9f0c603a" id="r_a91ef8171f989554a528459da9f0c603a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91ef8171f989554a528459da9f0c603a">rectRectOverlap</a> (<a class="el" href="namespaceMR.html#a3382cb6b961019c59bc38f6e38fe1432">Box2f</a> a, <a class="el" href="namespaceMR.html#a3382cb6b961019c59bc38f6e38fe1432">Box2f</a> b)</td></tr>
+<tr class="memitem:a91ef8171f989554a528459da9f0c603a" id="r_a91ef8171f989554a528459da9f0c603a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91ef8171f989554a528459da9f0c603a">rectRectOverlap</a> (Box2f a, Box2f b)</td></tr>
 <tr class="separator:a91ef8171f989554a528459da9f0c603a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
@@ -157,7 +158,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a0c0e4459ae9255dde41c3c2e216999a3">MR::UI::RectAllocator::FindPotentiallyOverlappingRects</a> = std::function&lt;void( <a class="el" href="namespaceMR.html#a3382cb6b961019c59bc38f6e38fe1432">Box2f</a> target, std::function&lt;void( const char* name, <a class="el" href="namespaceMR.html#a3382cb6b961019c59bc38f6e38fe1432">Box2f</a> box )&gt; overlaps )&gt;</td>
+          <td class="memname">using <a class="el" href="#a0c0e4459ae9255dde41c3c2e216999a3">MR::UI::RectAllocator::FindPotentiallyOverlappingRects</a> = std::function&lt;void( Box2f target, std::function&lt;void( const char* name, Box2f box )&gt; overlaps )&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -195,12 +196,12 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">MRVIEWER_API <a class="el" href="structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html">FindFreeRectResult</a> MR::UI::RectAllocator::findFreeRect </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a3382cb6b961019c59bc38f6e38fe1432">Box2f</a></td>          <td class="paramname"><span class="paramname"><em>preferredRect</em></span>, </td>
+          <td class="paramtype">Box2f</td>          <td class="paramname"><span class="paramname"><em>preferredRect</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a3382cb6b961019c59bc38f6e38fe1432">Box2f</a></td>          <td class="paramname"><span class="paramname"><em>preferredBounds</em></span>, </td>
+          <td class="paramtype">Box2f</td>          <td class="paramname"><span class="paramname"><em>preferredBounds</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -234,12 +235,12 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">static bool MR::UI::RectAllocator::rectRectOverlap </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a3382cb6b961019c59bc38f6e38fe1432">Box2f</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+          <td class="paramtype">Box2f</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a3382cb6b961019c59bc38f6e38fe1432">Box2f</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype">Box2f</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

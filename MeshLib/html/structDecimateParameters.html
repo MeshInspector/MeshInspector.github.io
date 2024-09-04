@@ -428,7 +428,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); unlike mrDecimateParallelMesh it does not create copies of mesh regions, so may take less memory to operate; IMPORTANT: please call Mesh::PackOptimally before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad </p>
+<p>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); unlike mrDecimateParallelMesh it does not create copies of mesh regions, so may take less memory to operate; IMPORTANT: please call <a class="el" href="classMesh.html#a5195a0027b8c080936de4c66cef131a6" title="packs tightly and rearranges vertices, triangles and edges to put close in space elements in close in...">Mesh::PackOptimally</a> before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad </p>
 
 </div>
 </div>

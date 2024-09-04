@@ -157,11 +157,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a18436dfbd4ff243fc8bd07d0a3f36b73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e00cf9a8a073e2d8964dbbd10f60b6f" id="r_a4e00cf9a8a073e2d8964dbbd10f60b6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e00cf9a8a073e2d8964dbbd10f60b6f">stopModify</a> ()</td></tr>
 <tr class="separator:a4e00cf9a8a073e2d8964dbbd10f60b6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62f6fd6ec96955e73fecfa08474af010" id="r_a62f6fd6ec96955e73fecfa08474af010"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62f6fd6ec96955e73fecfa08474af010">updateVisualTransformMode</a> (<a class="el" href="namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6">ControlBit</a> showMask, <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> viewportMask, const <a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">AffineXf3f</a> &amp;xf)</td></tr>
+<tr class="memitem:a62f6fd6ec96955e73fecfa08474af010" id="r_a62f6fd6ec96955e73fecfa08474af010"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62f6fd6ec96955e73fecfa08474af010">updateVisualTransformMode</a> (<a class="el" href="namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6">ControlBit</a> showMask, <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> viewportMask, const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;xf)</td></tr>
 <tr class="separator:a62f6fd6ec96955e73fecfa08474af010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a3eb7a0414b0af2e09d8be03d83ff6d" id="r_a7a3eb7a0414b0af2e09d8be03d83ff6d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a3eb7a0414b0af2e09d8be03d83ff6d">updateTranslation</a> (<a class="el" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005">Axis</a> ax, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;startMove, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;endMove)=0</td></tr>
 <tr class="separator:a7a3eb7a0414b0af2e09d8be03d83ff6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28b44509443b10410b017d0621bc90ae" id="r_a28b44509443b10410b017d0621bc90ae"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28b44509443b10410b017d0621bc90ae">updateRotation</a> (<a class="el" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005">Axis</a> ax, const <a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">AffineXf3f</a> &amp;xf, float startAngle, float endAngle)=0</td></tr>
+<tr class="memitem:a28b44509443b10410b017d0621bc90ae" id="r_a28b44509443b10410b017d0621bc90ae"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28b44509443b10410b017d0621bc90ae">updateRotation</a> (<a class="el" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005">Axis</a> ax, const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;xf, float startAngle, float endAngle)=0</td></tr>
 <tr class="separator:a28b44509443b10410b017d0621bc90ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
@@ -540,7 +540,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">AffineXf3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -619,7 +619,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">AffineXf3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

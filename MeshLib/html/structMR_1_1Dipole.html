@@ -116,19 +116,13 @@ $(function(){initNavTree('structMR_1_1Dipole.html',''); initResizable(true); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6f0f0aa2ff129feb03307a23999132ac" id="r_a6f0f0aa2ff129feb03307a23999132ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f0f0aa2ff129feb03307a23999132ac">pos</a> () const</td></tr>
-<tr class="separator:a6f0f0aa2ff129feb03307a23999132ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add9068963adfd3d355beb68aba48df2a" id="r_add9068963adfd3d355beb68aba48df2a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add9068963adfd3d355beb68aba48df2a">goodApprox</a> (const <a class="el" href="classVector3f.html">Vector3f</a> &amp;q, float beta) const</td></tr>
-<tr class="memdesc:add9068963adfd3d355beb68aba48df2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if this dipole is good approximation for a point  <br /></td></tr>
-<tr class="separator:add9068963adfd3d355beb68aba48df2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0067762da3b2fc1436b75cd4bc8b7e2" id="r_ad0067762da3b2fc1436b75cd4bc8b7e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0067762da3b2fc1436b75cd4bc8b7e2">w</a> (const <a class="el" href="classVector3f.html">Vector3f</a> &amp;q) const</td></tr>
-<tr class="memdesc:ad0067762da3b2fc1436b75cd4bc8b7e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">contribution of this dipole to the winding number at point  <br /></td></tr>
-<tr class="separator:ad0067762da3b2fc1436b75cd4bc8b7e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94e65877ccc74f50e4cf0028f9ae95ae" id="r_a94e65877ccc74f50e4cf0028f9ae95ae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94e65877ccc74f50e4cf0028f9ae95ae">addIfGoodApprox</a> (const <a class="el" href="classVector3f.html">Vector3f</a> &amp;q, float betaSq, float &amp;addTo) const</td></tr>
+<tr class="separator:a94e65877ccc74f50e4cf0028f9ae95ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:adc4afd95d89a8bd846420e141d293799" id="r_adc4afd95d89a8bd846420e141d293799"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc4afd95d89a8bd846420e141d293799">areaPos</a></td></tr>
-<tr class="separator:adc4afd95d89a8bd846420e141d293799"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae70faa532d5372a7fa0e32336cc6df35" id="r_ae70faa532d5372a7fa0e32336cc6df35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae70faa532d5372a7fa0e32336cc6df35">pos</a></td></tr>
+<tr class="separator:ae70faa532d5372a7fa0e32336cc6df35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae5226baaa9fd2fef60b3940f4d0951f" id="r_aae5226baaa9fd2fef60b3940f4d0951f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae5226baaa9fd2fef60b3940f4d0951f">area</a> = 0</td></tr>
 <tr class="separator:aae5226baaa9fd2fef60b3940f4d0951f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a804c3991b7713194228966805194c66a" id="r_a804c3991b7713194228966805194c66a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a804c3991b7713194228966805194c66a">dirArea</a></td></tr>
@@ -139,8 +133,8 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Single oriented point or two oppositely charged points close together, representing a mesh part (one or more triangles) <a href="https://www.dgp.toronto.edu/projects/fast-winding-numbers/fast-winding-numbers-for-soups-and-clouds-siggraph-2018-barill-et-al.pdf">https://www.dgp.toronto.edu/projects/fast-winding-numbers/fast-winding-numbers-for-soups-and-clouds-siggraph-2018-barill-et-al.pdf</a> </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="add9068963adfd3d355beb68aba48df2a" name="add9068963adfd3d355beb68aba48df2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add9068963adfd3d355beb68aba48df2a">&#9670;&#160;</a></span>goodApprox()</h2>
+<a id="a94e65877ccc74f50e4cf0028f9ae95ae" name="a94e65877ccc74f50e4cf0028f9ae95ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94e65877ccc74f50e4cf0028f9ae95ae">&#9670;&#160;</a></span>addIfGoodApprox()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -149,14 +143,19 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool MR::Dipole::goodApprox </td>
+          <td class="memname">bool MR::Dipole::addIfGoodApprox </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>q</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>beta</em></span>&#160;) const</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>betaSq</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;</td>          <td class="paramname"><span class="paramname"><em>addTo</em></span>&#160;) const</td>
         </tr>
       </table>
   </td>
@@ -165,69 +164,11 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>returns true if this dipole is good approximation for a point </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>returns true if this dipole is good approximation for a point</p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">q</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a6f0f0aa2ff129feb03307a23999132ac" name="a6f0f0aa2ff129feb03307a23999132ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f0f0aa2ff129feb03307a23999132ac">&#9670;&#160;</a></span>pos()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classVector3f.html">Vector3f</a> MR::Dipole::pos </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad0067762da3b2fc1436b75cd4bc8b7e2" name="ad0067762da3b2fc1436b75cd4bc8b7e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0067762da3b2fc1436b75cd4bc8b7e2">&#9670;&#160;</a></span>w()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::Dipole::w </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classVector3f.html">Vector3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>q</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>contribution of this dipole to the winding number at point </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">q</td><td></td></tr>
+    <tr><td class="paramname">q;</td><td>and adds the contribution of this dipole to the winding number at point</td></tr>
+    <tr><td class="paramname">q</td><td>to</td></tr>
+    <tr><td class="paramname">addTo</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -249,20 +190,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="adc4afd95d89a8bd846420e141d293799" name="adc4afd95d89a8bd846420e141d293799"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc4afd95d89a8bd846420e141d293799">&#9670;&#160;</a></span>areaPos</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classVector3f.html">Vector3f</a> MR::Dipole::areaPos</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a804c3991b7713194228966805194c66a" name="a804c3991b7713194228966805194c66a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a804c3991b7713194228966805194c66a">&#9670;&#160;</a></span>dirArea</h2>
 
@@ -271,6 +198,20 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classVector3f.html">Vector3f</a> MR::Dipole::dirArea</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae70faa532d5372a7fa0e32336cc6df35" name="ae70faa532d5372a7fa0e32336cc6df35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae70faa532d5372a7fa0e32336cc6df35">&#9670;&#160;</a></span>pos</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classVector3f.html">Vector3f</a> MR::Dipole::pos</td>
         </tr>
       </table>
 </div><div class="memdoc">

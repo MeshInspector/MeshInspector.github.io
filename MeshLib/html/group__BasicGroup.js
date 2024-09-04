@@ -5,6 +5,7 @@ var group__BasicGroup =
     [ "MR::BitSet", "classMR_1_1BitSet.html", [
       [ "base", "classMR_1_1BitSet.html#a21c4aa1d25292ca929dc095286685853", null ],
       [ "IndexType", "classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9", null ],
+      [ "BitSet", "classMR_1_1BitSet.html#ae581135b70066374b248a52f167c4d4c", null ],
       [ "autoResizeSet", "classMR_1_1BitSet.html#a737f8cc71944c7c750f8eeba4028ac17", null ],
       [ "autoResizeSet", "classMR_1_1BitSet.html#ab61cde9e7da6d5d6c75fefd11e2e6a24", null ],
       [ "autoResizeTestSet", "classMR_1_1BitSet.html#a84a9273303ae000bcf94b893a298eb95", null ],
@@ -292,7 +293,6 @@ var group__BasicGroup =
     [ "MR::pathFromUtf8", "group__BasicGroup.html#gabe699ad65df9788d6c5c76856ddbf259", null ],
     [ "MR::pathFromUtf8", "group__BasicGroup.html#ga20dc9bc9caabc76a8ed03696488fbd2c", null ],
     [ "MR::printCurrentTimerBranch", "group__BasicGroup.html#ga92715abafbf0ac9f1aef87f2cff3088a", null ],
-    [ "MR::printStacktraceOnCrash", "group__BasicGroup.html#ga49107746ea2415c9c89d28a9e0f56112", null ],
     [ "MR::printTimingTreeAndStop", "group__BasicGroup.html#gab32915ca171bafe6752bb0a93f15a19f", null ],
     [ "MR::printTimingTreeAtEnd", "group__BasicGroup.html#ga52ef6e1208fe1f50e79f683d8f04fd15", null ],
     [ "MR::redirectSTDStreamsToLogger", "group__BasicGroup.html#ga52d34a9bbe60f99085e9aab32040499f", null ],
@@ -300,7 +300,6 @@ var group__BasicGroup =
     [ "MR::Heap::resize", "group__BasicGroup.html#ga1850d4188a12bb75802dc364f7309bd6", null ],
     [ "MR::Heap::setLargerValue", "group__BasicGroup.html#ga967a46dde0718e3a1b167f25dfc62251", null ],
     [ "MR::Heap::setSmallerValue", "group__BasicGroup.html#ga8b871063e6c314fad7809432d2f74b64", null ],
-    [ "MR::setupLoggerByDefault", "group__BasicGroup.html#ga6804a7415d5f018fa64bf1b533af3d4f", null ],
     [ "MR::Heap::setValue", "group__BasicGroup.html#ga4dedcc9253b2c45a7d8a9417d1c19362", null ],
     [ "MR::split", "group__BasicGroup.html#ga4a32fd3117efa96b71c220bfc13c359b", null ],
     [ "MR::systemToUtf8", "group__BasicGroup.html#ga9a6b64a85d116ca32c7ff8b93ca80da1", null ],

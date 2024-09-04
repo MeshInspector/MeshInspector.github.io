@@ -135,7 +135,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8386d444f8e600bb3fe67a31fc2c04f3" id="r_a8386d444f8e600bb3fe67a31fc2c04f3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8386d444f8e600bb3fe67a31fc2c04f3">updateMeshData</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> *mesh)=0</td></tr>
 <tr class="memdesc:a8386d444f8e600bb3fe67a31fc2c04f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates all data related to the referencing mesh.  <br /></td></tr>
 <tr class="separator:a8386d444f8e600bb3fe67a31fc2c04f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affb7ba1779ad577458ada7ad99f578ce" id="r_affb7ba1779ad577458ada7ad99f578ce"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affb7ba1779ad577458ada7ad99f578ce">findProjections</a> (std::vector&lt; <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &gt; &amp;result, const std::vector&lt; <a class="el" href="classVector3f.html">Vector3f</a> &gt; &amp;points, const <a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">AffineXf3f</a> *worldXf=nullptr, const <a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">AffineXf3f</a> *worldRefXf=nullptr, float upDistLimitSq=FLT_MAX, float loDistLimitSq=0.0f)=0</td></tr>
+<tr class="memitem:affb7ba1779ad577458ada7ad99f578ce" id="r_affb7ba1779ad577458ada7ad99f578ce"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affb7ba1779ad577458ada7ad99f578ce">findProjections</a> (std::vector&lt; <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &gt; &amp;result, const std::vector&lt; <a class="el" href="classVector3f.html">Vector3f</a> &gt; &amp;points, const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *worldXf=nullptr, const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *worldRefXf=nullptr, float upDistLimitSq=FLT_MAX, float loDistLimitSq=0.0f)=0</td></tr>
 <tr class="memdesc:affb7ba1779ad577458ada7ad99f578ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the closest point on mesh to each of given points.  <br /></td></tr>
 <tr class="separator:affb7ba1779ad577458ada7ad99f578ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2743e8821707c1810ac41b5918b2613c" id="r_a2743e8821707c1810ac41b5918b2613c"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2743e8821707c1810ac41b5918b2613c">projectionsHeapBytes</a> (size_t numProjections) const =0</td></tr>
@@ -193,12 +193,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>worldXf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>worldXf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>worldRefXf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>worldRefXf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

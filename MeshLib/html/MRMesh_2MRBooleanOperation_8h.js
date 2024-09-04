@@ -12,5 +12,5 @@ var MRMesh_2MRBooleanOperation_8h =
       [ "DifferenceAB", "MRMesh_2MRBooleanOperation_8h.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda676747ace506f0a560e1d99f5da1ab2a", null ],
       [ "Count", "MRMesh_2MRBooleanOperation_8h.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
-    [ "doBooleanOperation", "MRMesh_2MRBooleanOperation_8h.html#ga6a967ba519035f9e9cfe2c79badf3880", null ]
+    [ "doBooleanOperation", "MRMesh_2MRBooleanOperation_8h.html#ga3f74a4803a385d6714d3711d05b747dc", null ]
 ];

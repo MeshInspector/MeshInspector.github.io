@@ -112,7 +112,6 @@ $(function(){initNavTree('MRPrecisePredicates3_8h.html',''); initResizable(true)
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMesh_2MRVector3_8h_source.html">MRVector3.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMesh_2MRId_8h_source.html">MRId.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRMeshCollidePrecise_8h_source.html">MRMeshCollidePrecise.h</a>&quot;</code><br />
 <code>#include &lt;array&gt;</code><br />
 </div>
 <p><a href="MRPrecisePredicates3_8h_source.html">Go to the source code of this file.</a></p>
@@ -122,6 +121,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PreciseVertCoords.html">MR::PreciseVertCoords</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TriangleSegmentIntersectResult.html">MR::TriangleSegmentIntersectResult</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CoordinateConverters.html">MR::CoordinateConverters</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">this struct contains coordinate converters float-int-float  <a href="structMR_1_1CoordinateConverters.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -143,6 +145,12 @@ Functions</h2></td></tr>
 <tr class="separator:ga529a69e762c0747c64c93926a897862b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1786b102734c05b43aec639689904eba" id="r_ga1786b102734c05b43aec639689904eba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1TriangleSegmentIntersectResult.html">TriangleSegmentIntersectResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga1786b102734c05b43aec639689904eba">MR::doTriangleSegmentIntersect</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 5 &gt; &amp;vs)</td></tr>
 <tr class="separator:ga1786b102734c05b43aec639689904eba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9736a434a7f001c05b9a7d23675ca257" id="r_ga9736a434a7f001c05b9a7d23675ca257"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ae641d5d13654d894de287d0b3a6ae921">ConvertToIntVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga9736a434a7f001c05b9a7d23675ca257">MR::getToIntConverter</a> (const Box3d &amp;box)</td></tr>
+<tr class="memdesc:ga9736a434a7f001c05b9a7d23675ca257"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates converter from <a class="el" href="classVector3f.html" title="represents a 3-dimentional float-typed vector">Vector3f</a> to Vector3i in <a class="el" href="structMR_1_1Box.html" title="Box given by its min- and max- corners.">Box</a> range (int diapason is mapped to box range)  <br /></td></tr>
+<tr class="separator:ga9736a434a7f001c05b9a7d23675ca257"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2096ace9292b40c55421517434fd8bd8" id="r_ga2096ace9292b40c55421517434fd8bd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a849a8f3dfb1be7b9c3c9f4b9920d7b20">ConvertToFloatVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga2096ace9292b40c55421517434fd8bd8">MR::getToFloatConverter</a> (const Box3d &amp;box)</td></tr>
+<tr class="memdesc:ga2096ace9292b40c55421517434fd8bd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates converter from Vector3i to <a class="el" href="classVector3f.html" title="represents a 3-dimentional float-typed vector">Vector3f</a> in <a class="el" href="structMR_1_1Box.html" title="Box given by its min- and max- corners.">Box</a> range (int diapason is mapped to box range)  <br /></td></tr>
+<tr class="separator:ga2096ace9292b40c55421517434fd8bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6f4d593d1b9ff1f262a583bf72f384f8" id="r_ga6f4d593d1b9ff1f262a583bf72f384f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classVector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga6f4d593d1b9ff1f262a583bf72f384f8">MR::findTriangleSegmentIntersectionPrecise</a> (const <a class="el" href="classVector3f.html">Vector3f</a> &amp;a, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;b, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;c, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;d, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;e, <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> converters)</td></tr>
 <tr class="separator:ga6f4d593d1b9ff1f262a583bf72f384f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>

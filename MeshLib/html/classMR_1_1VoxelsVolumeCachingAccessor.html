@@ -113,9 +113,6 @@ $(function(){initNavTree('classMR_1_1VoxelsVolumeCachingAccessor.html',''); init
 </div><!--header-->
 <div class="contents">
 
-<p>helper class to preload voxel volume data  
- <a href="#details">More...</a></p>
-
 <p><code>#include &lt;<a class="el" href="MRVoxelsVolumeAccess_8h_source.html">MRVoxelsVolumeAccess.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
@@ -143,13 +140,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6ad9d85593149323c3675fb29cc92669" id="r_a6ad9d85593149323c3675fb29cc92669"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ad9d85593149323c3675fb29cc92669">preloadNextLayer</a> ()</td></tr>
 <tr class="memdesc:a6ad9d85593149323c3675fb29cc92669"><td class="mdescLeft">&#160;</td><td class="mdescRight">preload the next layer  <br /></td></tr>
 <tr class="separator:a6ad9d85593149323c3675fb29cc92669"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad142cd9e6c95a9de1ecca3a80779636d" id="r_ad142cd9e6c95a9de1ecca3a80779636d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a23ed321bc489e14c615ffa842d1b22f7">ValueType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad142cd9e6c95a9de1ecca3a80779636d">get</a> (const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;pos) const</td></tr>
-<tr class="memdesc:ad142cd9e6c95a9de1ecca3a80779636d"><td class="mdescLeft">&#160;</td><td class="mdescRight">get voxel volume data  <br /></td></tr>
-<tr class="separator:ad142cd9e6c95a9de1ecca3a80779636d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51881d0d836b595d2b86615cbf6ef336" id="r_a51881d0d836b595d2b86615cbf6ef336"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a23ed321bc489e14c615ffa842d1b22f7">ValueType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51881d0d836b595d2b86615cbf6ef336">get</a> (const <a class="el" href="structMR_1_1VoxelLocation.html">VoxelLocation</a> &amp;loc) const</td></tr>
+<tr class="memdesc:a51881d0d836b595d2b86615cbf6ef336"><td class="mdescLeft">&#160;</td><td class="mdescRight">get voxel volume data  <br /></td></tr>
+<tr class="separator:a51881d0d836b595d2b86615cbf6ef336"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename V&gt;<br />
-class MR::VoxelsVolumeCachingAccessor&lt; V &gt;</div><p>helper class to preload voxel volume data </p>
+class MR::VoxelsVolumeCachingAccessor&lt; V &gt;</div><p>This accessor first loads data for given number of layers in internal cache, and then returns values from the cache. Direct access to data outside of cache is not allowed. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a23ed321bc489e14c615ffa842d1b22f7" name="a23ed321bc489e14c615ffa842d1b22f7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a23ed321bc489e14c615ffa842d1b22f7">&#9670;&#160;</a></span>ValueType</h2>
@@ -250,8 +247,8 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
-<a id="ad142cd9e6c95a9de1ecca3a80779636d" name="ad142cd9e6c95a9de1ecca3a80779636d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad142cd9e6c95a9de1ecca3a80779636d">&#9670;&#160;</a></span>get()</h2>
+<a id="a51881d0d836b595d2b86615cbf6ef336" name="a51881d0d836b595d2b86615cbf6ef336"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51881d0d836b595d2b86615cbf6ef336">&#9670;&#160;</a></span>get()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -264,7 +261,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="#a23ed321bc489e14c615ffa842d1b22f7">ValueType</a> <a class="el" href="classMR_1_1VoxelsVolumeCachingAccessor.html">MR::VoxelsVolumeCachingAccessor</a>&lt; V &gt;::get </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1VoxelLocation.html">VoxelLocation</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>loc</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>

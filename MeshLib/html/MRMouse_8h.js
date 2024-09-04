@@ -4,7 +4,8 @@ var MRMouse_8h =
       [ "Left", "MRMouse_8h.html#a13f98b7840e7298925ef1770b7cdb62da945d5e233cf7d6240f6b783b36a374ff", null ],
       [ "Right", "MRMouse_8h.html#a13f98b7840e7298925ef1770b7cdb62da92b09c7c48c520c3c55e497875da437c", null ],
       [ "Middle", "MRMouse_8h.html#a13f98b7840e7298925ef1770b7cdb62dab1ca34f82e83c52b010f86955f264e05", null ],
-      [ "Count", "MRMouse_8h.html#a13f98b7840e7298925ef1770b7cdb62dae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+      [ "Count", "MRMouse_8h.html#a13f98b7840e7298925ef1770b7cdb62dae93f994f01c537c4e2f7d8528c3eb5e9", null ],
+      [ "NoButton", "MRMouse_8h.html#a13f98b7840e7298925ef1770b7cdb62dab592247167772fc6ba15f3d0f6465e38", null ]
     ] ],
     [ "MouseMode", "MRMouse_8h.html#a067afc36528fa2a554ff76aaa10efb75", [
       [ "None", "MRMouse_8h.html#a067afc36528fa2a554ff76aaa10efb75a6adf97f83acf6453d4a6a4b1070f3754", null ],

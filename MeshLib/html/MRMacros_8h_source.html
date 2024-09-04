@@ -115,19 +115,26 @@ $(function(){initNavTree('MRMacros_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#ab8cb9281271220567c1359224e6ca5db">    6</a></span><span class="preprocessor">#define MR_STR(...) MR_STR_(__VA_ARGS__)</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#a1c406bd49225547ca8c9b02e77e70293">    7</a></span><span class="preprocessor">#define MR_STR_(...) #__VA_ARGS__</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment">// If the compiler supports `requires`, expands to `requires(...)`. Otherwise to nothing.</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">// This is primarily useful for code that must be usable in Cuda, since everywhere else we&#39;re free to use C++20 and newer.</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">// While Clang 14 technically supports `requires`, we&#39;re getting a few weird issues with it (make a nested aggregate class,</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment">//   in the enclosing class make a `MR::Vector` of it, observe that `std::default_initializable` gets baked as `false` on it,</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">//   disabling some member functions such as `.resize()`).</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#if __cpp_concepts &amp;&amp; __has_include(&lt;concepts&gt;) &amp;&amp; !(defined(__clang__) &amp;&amp; __clang_major__ &lt;= 14) &amp;&amp; !(defined(__GNUC__) &amp;&amp; !defined(__clang__) &amp;&amp; __GNUC__ &lt;= 12)</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#   define MR_REQUIRES_IF_SUPPORTED(...) requires(__VA_ARGS__)</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#   define MR_HAS_REQUIRES 1</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">   19</a></span><span class="preprocessor">#   define MR_REQUIRES_IF_SUPPORTED(...)</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#af2577133e8c02d830609dc0c74a53949">   20</a></span><span class="preprocessor">#   define MR_HAS_REQUIRES 0</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">// Returns the argument unchanged.</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#a30c21a4f7f46e470b0c9ba48648699b1">   10</a></span><span class="preprocessor">#define MR_IDENTITY(...) __VA_ARGS__</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">// A helper for writing preprocessor loops.</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#a0fd290c4738dc2f265b144020d97b290">   13</a></span><span class="preprocessor">#define MR_END(...) DETAIL_MR_END(__VA_ARGS__)</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#a98c9bc1fa1800fdfc987995748d5944b">   14</a></span><span class="preprocessor">#define DETAIL_MR_END(...) __VA_ARGS__##_END</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="comment">// If the compiler supports `requires`, expands to `requires(...)`. Otherwise to nothing.</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="comment">// This is primarily useful for code that must be usable in Cuda, since everywhere else we&#39;re free to use C++20 and newer.</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="comment">// While Clang 14 technically supports `requires`, we&#39;re getting a few weird issues with it (make a nested aggregate class,</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="comment">//   in the enclosing class make a `MR::Vector` of it, observe that `std::default_initializable` gets baked as `false` on it,</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="comment">//   disabling some member functions such as `.resize()`).</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#if __cpp_concepts &amp;&amp; __has_include(&lt;concepts&gt;) &amp;&amp; !(defined(__clang__) &amp;&amp; __clang_major__ &lt;= 14) &amp;&amp; !(defined(__GNUC__) &amp;&amp; !defined(__clang__) &amp;&amp; __GNUC__ &lt;= 12)</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#   define MR_REQUIRES_IF_SUPPORTED(...) requires(__VA_ARGS__)</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#   define MR_HAS_REQUIRES 1</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">   26</a></span><span class="preprocessor">#   define MR_REQUIRES_IF_SUPPORTED(...)</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="MRMacros_8h.html#af2577133e8c02d830609dc0c74a53949">   27</a></span><span class="preprocessor">#   define MR_HAS_REQUIRES 0</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -227,13 +227,13 @@ $(function(){initNavTree('MRChangePolylineAction_8h_source.html',''); initResiza
 <div class="foldopen" id="foldopen00103" data-start="{" data-end="}">
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="classMR_1_1ChangePolylinePointsAction.html#a63e6b7f8c45895a7781661ac76232a24">  103</a></span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="classMR_1_1ChangePolylinePointsAction.html#a63e6b7f8c45895a7781661ac76232a24">heapBytes</a>()<span class="keyword"> const override</span></div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>        <span class="keywordflow">return</span> name_.capacity() + clonePoints_.<a class="code hl_function" href="classMR_1_1Vector.html#a8adb58b328ca5465266d3859a7bc1d72">heapBytes</a>();</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>        <span class="keywordflow">return</span> name_.capacity() + clonePoints_.heapBytes();</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    }</div>
 </div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    std::shared_ptr&lt;ObjectLines&gt; objLines_;</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <a class="code hl_class" href="classMR_1_1Vector.html">VertCoords</a> clonePoints_;</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <a class="code hl_typedef" href="MRDotNet_2MRMeshFwd_8h.html#a878eac68379c976f3beccad6d2b6af41">VertCoords</a> clonePoints_;</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    std::string name_;</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>};</div>
@@ -303,6 +303,7 @@ $(function(){initNavTree('MRChangePolylineAction_8h_source.html',''); initResiza
 <div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span> </div>
 <div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span> </div>
 <div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>} <span class="comment">// namespace MR</span></div>
+<div class="ttc" id="aMRDotNet_2MRMeshFwd_8h_html_a878eac68379c976f3beccad6d2b6af41"><div class="ttname"><a href="MRDotNet_2MRMeshFwd_8h.html#a878eac68379c976f3beccad6d2b6af41">VertCoords</a></div><div class="ttdeci">List&lt; Vector3f^&gt; VertCoords</div><div class="ttdef"><b>Definition</b> MRDotNet/MRMeshFwd.h:95</div></div>
 <div class="ttc" id="aMRHeapBytes_8h_html"><div class="ttname"><a href="MRHeapBytes_8h.html">MRHeapBytes.h</a></div></div>
 <div class="ttc" id="aMRHistoryAction_8h_html"><div class="ttname"><a href="MRHistoryAction_8h.html">MRHistoryAction.h</a></div></div>
 <div class="ttc" id="aMRObjectLines_8h_html"><div class="ttname"><a href="MRObjectLines_8h.html">MRObjectLines.h</a></div></div>
@@ -330,8 +331,6 @@ $(function(){initNavTree('MRChangePolylineAction_8h_source.html',''); initResiza
 <div class="ttc" id="aclassMR_1_1ObjectLines_html"><div class="ttname"><a href="classMR_1_1ObjectLines.html">MR::ObjectLines</a></div><div class="ttdef"><b>Definition</b> MRObjectLines.h:11</div></div>
 <div class="ttc" id="aclassMR_1_1PolylineTopology_html"><div class="ttname"><a href="classMR_1_1PolylineTopology.html">MR::PolylineTopology</a></div><div class="ttdef"><b>Definition</b> MRPolylineTopology.h:15</div></div>
 <div class="ttc" id="aclassMR_1_1PolylineTopology_html_a6963aa721648b337a9389e17079da6fb"><div class="ttname"><a href="classMR_1_1PolylineTopology.html#a6963aa721648b337a9389e17079da6fb">MR::PolylineTopology::heapBytes</a></div><div class="ttdeci">MRMESH_API size_t heapBytes() const</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector&lt; Vector3f, VertId &gt;</a></div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html_a8adb58b328ca5465266d3859a7bc1d72"><div class="ttname"><a href="classMR_1_1Vector.html#a8adb58b328ca5465266d3859a7bc1d72">MR::Vector::heapBytes</a></div><div class="ttdeci">size_t heapBytes() const</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector.h:133</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_gaed038f421518710e518a218a55c19621"><div class="ttname"><a href="group__BasicStructuresGroup.html#gaed038f421518710e518a218a55c19621">MR::heapBytes</a></div><div class="ttdeci">MRMESH_API size_t heapBytes(const FloatGrid &amp;grid)</div><div class="ttdoc">returns the amount of heap memory occupied by grid</div></div>
 <div class="ttc" id="agroup__VisualObjectGroup_html_gga03255e831f4895337e7cf27d64e51269a13dc959326bf43980af4080c50288110"><div class="ttname"><a href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a13dc959326bf43980af4080c50288110">MR::DIRTY_POSITION</a></div><div class="ttdeci">@ DIRTY_POSITION</div><div class="ttdef"><b>Definition</b> MRVisualObject.h:90</div></div>
 <div class="ttc" id="agroup__VisualObjectGroup_html_gga03255e831f4895337e7cf27d64e51269a32fcd55df4b9420427f5168b5558a4a6"><div class="ttname"><a href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a32fcd55df4b9420427f5168b5558a4a6">MR::DIRTY_FACE</a></div><div class="ttdeci">@ DIRTY_FACE</div><div class="ttdef"><b>Definition</b> MRVisualObject.h:99</div></div>

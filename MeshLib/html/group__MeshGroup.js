@@ -1,5 +1,15 @@
 var group__MeshGroup =
 [
+    [ "MeshTriPoint", "structMeshTriPoint.html", [
+      [ "~MeshTriPoint", "structMeshTriPoint.html#a5db8f4dc1ce5f4ba05c9754ab6e2c4e4", null ],
+      [ "fromSameTriangle", "structMeshTriPoint.html#a5b4701e6cc60a8b3a60545055a0f0ad2", null ],
+      [ "fromSameTriangle", "structMeshTriPoint.html#a28516877dbf31eb9b23a58abf5a65d31", null ],
+      [ "getVertexAsMeshTriPoint", "structMeshTriPoint.html#a601a9f114cc2d5d7a5d707b61f7164c9", null ],
+      [ "same", "structMeshTriPoint.html#a99f6b57a79938db1c601698948926581", null ],
+      [ "__pad0__", "structMeshTriPoint.html#af4f555478c7dbf062510991fc51d055c", null ],
+      [ "bary", "structMeshTriPoint.html#a5e30ee410f643504d047a385148dc305", null ],
+      [ "e", "structMeshTriPoint.html#ae9c4fb13aca66944d37538e7bc537e3a", null ]
+    ] ],
     [ "MR::Mesh", "structMR_1_1Mesh.html", [
       [ "addPart", "structMR_1_1Mesh.html#a8ceec437a01ce063998c0f63f339f246", null ],
       [ "addPartBy", "structMR_1_1Mesh.html#a3a79f0f44fbbd679cff801144ef2df62", null ],
@@ -46,7 +56,7 @@ var group__MeshGroup =
       [ "findCenterFromFaces", "structMR_1_1Mesh.html#a1576164a9505c9f8c28e16dc288bcca9", null ],
       [ "findCenterFromPoints", "structMR_1_1Mesh.html#a4cf526a36b567b3e072c3aa70d628ee2", null ],
       [ "findCreaseEdges", "structMR_1_1Mesh.html#a3597555fee6f4964fe1689b0643f7f83", null ],
-      [ "findSpikeVertices", "structMR_1_1Mesh.html#a3d607521da9f2c6796e0730faad3f985", null ],
+      [ "findSpikeVertices", "structMR_1_1Mesh.html#a63974f1e9e91aec82c60fc776f51ea7b", null ],
       [ "getAABBTree", "structMR_1_1Mesh.html#a1684c253364cffbe817aebd50bdf711f", null ],
       [ "getAABBTreeNotCreate", "structMR_1_1Mesh.html#a3a4be0475ee77042c23f150bf522aae7", null ],
       [ "getAABBTreePoints", "structMR_1_1Mesh.html#ace32bbac5b626dbbf99b27214ebed57d", null ],
@@ -200,8 +210,7 @@ var group__MeshGroup =
       [ "isBdVertex", "classMR_1_1MeshTopology.html#ae366073a1bcb50b567a89f69a755913d", null ],
       [ "isBdVertexInLeft", "classMR_1_1MeshTopology.html#a49277e63a00f948c573cb25b83b90a70", null ],
       [ "isBdVertexInOrg", "classMR_1_1MeshTopology.html#ae4619557230f1c2141ac2e06274d3ba3", null ],
-      [ "isClosed", "classMR_1_1MeshTopology.html#a2b07c5b5fe9226613af11eea51955853", null ],
-      [ "isClosed", "classMR_1_1MeshTopology.html#a67dd1963d90e78415bb2365ed8ab9589", null ],
+      [ "isClosed", "classMR_1_1MeshTopology.html#ab5f2cd2b3dbdcb502edf741bee2bc7f1", null ],
       [ "isInnerEdge", "classMR_1_1MeshTopology.html#a9149621788f57af5be92126cf7e5f24e", null ],
       [ "isInnerOrBdEdge", "classMR_1_1MeshTopology.html#a68d4b2d56fbb76bfc31e2d8a2672fc1c", null ],
       [ "isInnerOrBdVertex", "classMR_1_1MeshTopology.html#accfc957245f9a8df756ad1a869c8df3d", null ],
@@ -271,10 +280,6 @@ var group__MeshGroup =
       [ "operator bool", "structMR_1_1MeshTriPoint.html#a6371d8245c7dbe42491b7506c52d1478", null ],
       [ "operator==", "structMR_1_1MeshTriPoint.html#abb0591df25f88f44c1c55406d826b63e", null ],
       [ "valid", "structMR_1_1MeshTriPoint.html#a448317ec66d714fc3faa1d0bd3b64867", null ],
-      [ "fromSameTriangle", "structMR_1_1MeshTriPoint.html#a5b4701e6cc60a8b3a60545055a0f0ad2", null ],
-      [ "fromSameTriangle", "structMR_1_1MeshTriPoint.html#a28516877dbf31eb9b23a58abf5a65d31", null ],
-      [ "getVertexAsMeshTriPoint", "structMR_1_1MeshTriPoint.html#a601a9f114cc2d5d7a5d707b61f7164c9", null ],
-      [ "same", "structMR_1_1MeshTriPoint.html#a99f6b57a79938db1c601698948926581", null ],
       [ "bary", "structMR_1_1MeshTriPoint.html#a8a974fd4d0a547b3acff27ac8730ef92", null ],
       [ "e", "structMR_1_1MeshTriPoint.html#afb2e8376855431a09626f25ffe6039bc", null ]
     ] ]

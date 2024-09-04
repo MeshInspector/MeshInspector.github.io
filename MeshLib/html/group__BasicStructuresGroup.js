@@ -29,6 +29,7 @@ var group__BasicStructuresGroup =
         [ "BackFaces", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa9a1cde7d2aa80a2631f4925686757e53", null ],
         [ "Labels", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aab77a9984caf569880644435a85b17f0b", null ],
         [ "Edges", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa578fe9b48a17b154dbfd272e206f58d7", null ],
+        [ "Points", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aaa3d1106c4606956fa8bf8f24f9db1486", null ],
         [ "SelectedFaces", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa9acc3cb3e4646fab501e1b4cac8e867f", null ],
         [ "SelectedEdges", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aac0df0200072fe04b4bdc85cc051c800f", null ],
         [ "SelectedPoints", "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aaf0e894d9fdff84113b5dd6c028335cce", null ],
@@ -74,6 +75,7 @@ var group__BasicStructuresGroup =
     ] ],
     [ "MR::ProgressCallback", "group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710", null ],
     [ "MR::cropped", "group__BasicStructuresGroup.html#gaad38cba7aeb04fd9bff8ddc2d65b1fdb", null ],
+    [ "MR::fromVdb", "group__BasicStructuresGroup.html#gacb5df1852aebff4993113e66bf830d74", null ],
     [ "MR::getValue", "group__BasicStructuresGroup.html#ga48faf7c6c25d26228794543bd08c803a", null ],
     [ "MR::heapBytes", "group__BasicStructuresGroup.html#gaed038f421518710e518a218a55c19621", null ],
     [ "MR::MakeFloatGrid", "group__BasicStructuresGroup.html#gae84dac6352423cd123a4f2aba32c3250", null ],
@@ -85,5 +87,6 @@ var group__BasicStructuresGroup =
     [ "MR::resampled", "group__BasicStructuresGroup.html#ga95c4cd4efddbb71e933c67e3670a4d76", null ],
     [ "MR::resampled", "group__BasicStructuresGroup.html#ga600383ee58a10cb4489dbd9d76f32119", null ],
     [ "MR::setLevelSetType", "group__BasicStructuresGroup.html#gaf87daaff2be06ea220773a6309742a6b", null ],
-    [ "MR::setValue", "group__BasicStructuresGroup.html#ga097ca42a99d9a6e02f32e8b460739e40", null ]
+    [ "MR::setValue", "group__BasicStructuresGroup.html#ga097ca42a99d9a6e02f32e8b460739e40", null ],
+    [ "MR::toVdb", "group__BasicStructuresGroup.html#ga3688d13b069aa87ec153b375d36cee83", null ]
 ];

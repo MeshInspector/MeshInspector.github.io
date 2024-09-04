@@ -112,12 +112,15 @@ $(function(){initNavTree('MRDotNet_2MRMeshFwd_8h.html',''); initResizable(true);
   <div class="headertitle"><div class="title">MRMeshFwd.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &lt;functional&gt;</code><br />
+</div>
 <p><a href="MRDotNet_2MRMeshFwd_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThreeVertIds.html">ThreeVertIds</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structVariableEdgeTri.html">VariableEdgeTri</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -134,12 +137,16 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ac9a68e188fbe874f4840ba83fdc6734f" id="r_ac9a68e188fbe874f4840ba83fdc6734f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac9a68e188fbe874f4840ba83fdc6734f">MR::Vector3f</a> = <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt;float&gt;</td></tr>
-<tr class="separator:ac9a68e188fbe874f4840ba83fdc6734f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9802a9352e2de1f01600af5a6a4e1dca" id="r_a9802a9352e2de1f01600af5a6a4e1dca"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a9802a9352e2de1f01600af5a6a4e1dca">MR::Matrix3f</a> = <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a> &lt;float&gt;</td></tr>
-<tr class="separator:a9802a9352e2de1f01600af5a6a4e1dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93a9fb6abd22b4a047f841b8d9de2639" id="r_a93a9fb6abd22b4a047f841b8d9de2639"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">MR::AffineXf3f</a> = <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt;<a class="el" href="classVector3f.html">Vector3f</a>&gt;</td></tr>
-<tr class="separator:a93a9fb6abd22b4a047f841b8d9de2639"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62d3af552ee301e04c5fe9bc8ea7be47" id="r_a62d3af552ee301e04c5fe9bc8ea7be47"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a62d3af552ee301e04c5fe9bc8ea7be47">MR::Vector3f</a> = <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt;float&gt;</td></tr>
+<tr class="separator:a62d3af552ee301e04c5fe9bc8ea7be47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38d7d5119d68ba78dff0e5a6e29a3f61" id="r_a38d7d5119d68ba78dff0e5a6e29a3f61"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">MR::Vector3i</a> = <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt;int&gt;</td></tr>
+<tr class="separator:a38d7d5119d68ba78dff0e5a6e29a3f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96fea3c72cade7f727424783b6b3fa95" id="r_a96fea3c72cade7f727424783b6b3fa95"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a96fea3c72cade7f727424783b6b3fa95">MR::Matrix3f</a> = <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a> &lt;float&gt;</td></tr>
+<tr class="separator:a96fea3c72cade7f727424783b6b3fa95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6aef12a70b925ce549073070e725099" id="r_aa6aef12a70b925ce549073070e725099"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">MR::AffineXf3f</a> = <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt;<a class="el" href="classVector3f.html">Vector3f</a>&gt;</td></tr>
+<tr class="separator:aa6aef12a70b925ce549073070e725099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c1ffb4b21f3655a3749a74ba8c2ad3c" id="r_a3c1ffb4b21f3655a3749a74ba8c2ad3c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a3c1ffb4b21f3655a3749a74ba8c2ad3c">MR::Box3f</a> = <a class="el" href="structMR_1_1Box.html">Box</a>&lt;<a class="el" href="classVector3f.html">Vector3f</a>&gt;</td></tr>
+<tr class="separator:a3c1ffb4b21f3655a3749a74ba8c2ad3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97d91fcf1566198a2abf87966d056a9f" id="r_a97d91fcf1566198a2abf87966d056a9f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97d91fcf1566198a2abf87966d056a9f">VertId</a> = int</td></tr>
 <tr class="separator:a97d91fcf1566198a2abf87966d056a9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add62b8bcfb58fedb4bcb251ed3e5f5c8" id="r_add62b8bcfb58fedb4bcb251ed3e5f5c8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> = int</td></tr>
@@ -162,10 +169,37 @@ Typedefs</h2></td></tr>
 <tr class="separator:a7888887dc0b0d73170e87de8b5e7c35f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa849069c9544b0238590e214eb6d0172" id="r_aa849069c9544b0238590e214eb6d0172"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a> = <a class="el" href="classBitSet.html">BitSet</a></td></tr>
 <tr class="separator:aa849069c9544b0238590e214eb6d0172"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a1af35620eb034ce3eb01a5467523da" id="r_a9a1af35620eb034ce3eb01a5467523da"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a1af35620eb034ce3eb01a5467523da">VertMap</a> = List&lt;<a class="el" href="#a97d91fcf1566198a2abf87966d056a9f">VertId</a>&gt;</td></tr>
+<tr class="separator:a9a1af35620eb034ce3eb01a5467523da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a289d7fe3c948673edddfe7ccdbef5692" id="r_a289d7fe3c948673edddfe7ccdbef5692"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a289d7fe3c948673edddfe7ccdbef5692">VertMapReadOnly</a> = ReadOnlyCollection&lt;<a class="el" href="#a97d91fcf1566198a2abf87966d056a9f">VertId</a>&gt;</td></tr>
+<tr class="separator:a289d7fe3c948673edddfe7ccdbef5692"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa5e3b3136272a072cba72e1aa163040" id="r_afa5e3b3136272a072cba72e1aa163040"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa5e3b3136272a072cba72e1aa163040">FaceMap</a> = List&lt;<a class="el" href="#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a>&gt;</td></tr>
+<tr class="separator:afa5e3b3136272a072cba72e1aa163040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4fc21d488e5216e1e3d8a9d2c39fc25" id="r_ab4fc21d488e5216e1e3d8a9d2c39fc25"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4fc21d488e5216e1e3d8a9d2c39fc25">FaceMapReadOnly</a> = ReadOnlyCollection&lt;<a class="el" href="#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a>&gt;</td></tr>
+<tr class="separator:ab4fc21d488e5216e1e3d8a9d2c39fc25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a878eac68379c976f3beccad6d2b6af41" id="r_a878eac68379c976f3beccad6d2b6af41"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a878eac68379c976f3beccad6d2b6af41">VertCoords</a> = List&lt;<a class="el" href="classVector3f.html">Vector3f</a>^&gt;</td></tr>
 <tr class="separator:a878eac68379c976f3beccad6d2b6af41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2decdf8d314701a25048c6bde5bae919" id="r_a2decdf8d314701a25048c6bde5bae919"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2decdf8d314701a25048c6bde5bae919">VertCoordsReadOnly</a> = ReadOnlyCollection&lt;<a class="el" href="classVector3f.html">Vector3f</a>^&gt;</td></tr>
 <tr class="separator:a2decdf8d314701a25048c6bde5bae919"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a746df06ff050028a10347909ce06079a" id="r_a746df06ff050028a10347909ce06079a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a746df06ff050028a10347909ce06079a">VertNormals</a> = List&lt;<a class="el" href="classVector3f.html">Vector3f</a>^&gt;</td></tr>
+<tr class="separator:a746df06ff050028a10347909ce06079a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6b07e3b12056a9c6ec4ab1ca94acaca" id="r_ab6b07e3b12056a9c6ec4ab1ca94acaca"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6b07e3b12056a9c6ec4ab1ca94acaca">VertNormalsReadOnly</a> = ReadOnlyCollection&lt;<a class="el" href="classVector3f.html">Vector3f</a>^&gt;</td></tr>
+<tr class="separator:ab6b07e3b12056a9c6ec4ab1ca94acaca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa26318e65cc98892f9b832efbbc3965" id="r_aaa26318e65cc98892f9b832efbbc3965"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa26318e65cc98892f9b832efbbc3965">FaceNormals</a> = List&lt;<a class="el" href="classVector3f.html">Vector3f</a>^&gt;</td></tr>
+<tr class="separator:aaa26318e65cc98892f9b832efbbc3965"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae656de4ef8318026cc624eb4d297a395" id="r_ae656de4ef8318026cc624eb4d297a395"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae656de4ef8318026cc624eb4d297a395">FaceNormalsReadOnly</a> = ReadOnlyCollection&lt;<a class="el" href="classVector3f.html">Vector3f</a>^&gt;</td></tr>
+<tr class="separator:ae656de4ef8318026cc624eb4d297a395"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adacdcd7a3e0a00dd32fe1b04e8858308" id="r_adacdcd7a3e0a00dd32fe1b04e8858308"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adacdcd7a3e0a00dd32fe1b04e8858308">ContinousContour</a> = List&lt;<a class="el" href="structVariableEdgeTri.html">VariableEdgeTri</a>&gt;</td></tr>
+<tr class="separator:adacdcd7a3e0a00dd32fe1b04e8858308"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0827c65b6c77a9dfe0e0ea4ac5954f0" id="r_ad0827c65b6c77a9dfe0e0ea4ac5954f0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0827c65b6c77a9dfe0e0ea4ac5954f0">ContinousContours</a> = List&lt;<a class="el" href="#adacdcd7a3e0a00dd32fe1b04e8858308">ContinousContour</a>^&gt;</td></tr>
+<tr class="separator:ad0827c65b6c77a9dfe0e0ea4ac5954f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:ae641d5d13654d894de287d0b3a6ae921" id="r_ae641d5d13654d894de287d0b3a6ae921"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ae641d5d13654d894de287d0b3a6ae921">MR::ConvertToIntVector</a> = std::function&lt;<a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a>( const <a class="el" href="classVector3f.html">Vector3f</a>&amp; )&gt;</td></tr>
+<tr class="memdesc:ae641d5d13654d894de287d0b3a6ae921"><td class="mdescLeft">&#160;</td><td class="mdescRight">float-to-int coordinate converter  <br /></td></tr>
+<tr class="separator:ae641d5d13654d894de287d0b3a6ae921"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a849a8f3dfb1be7b9c3c9f4b9920d7b20" id="r_a849a8f3dfb1be7b9c3c9f4b9920d7b20"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a849a8f3dfb1be7b9c3c9f4b9920d7b20">MR::ConvertToFloatVector</a> = std::function&lt;<a class="el" href="classVector3f.html">Vector3f</a>( const <a class="el" href="namespaceMR.html#a38d7d5119d68ba78dff0e5a6e29a3f61">Vector3i</a>&amp; )&gt;</td></tr>
+<tr class="memdesc:a849a8f3dfb1be7b9c3c9f4b9920d7b20"><td class="mdescLeft">&#160;</td><td class="mdescRight">int-to-float coordinate converter  <br /></td></tr>
+<tr class="separator:a849a8f3dfb1be7b9c3c9f4b9920d7b20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a1a1e383669c7572f716d6e069738f2e4" name="a1a1e383669c7572f716d6e069738f2e4"></a>
@@ -197,6 +231,34 @@ Typedefs</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a id="adacdcd7a3e0a00dd32fe1b04e8858308" name="adacdcd7a3e0a00dd32fe1b04e8858308"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adacdcd7a3e0a00dd32fe1b04e8858308">&#9670;&#160;</a></span>ContinousContour</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#adacdcd7a3e0a00dd32fe1b04e8858308">ContinousContour</a> = List&lt;<a class="el" href="structVariableEdgeTri.html">VariableEdgeTri</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad0827c65b6c77a9dfe0e0ea4ac5954f0" name="ad0827c65b6c77a9dfe0e0ea4ac5954f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0827c65b6c77a9dfe0e0ea4ac5954f0">&#9670;&#160;</a></span>ContinousContours</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ad0827c65b6c77a9dfe0e0ea4ac5954f0">ContinousContours</a> = List&lt;<a class="el" href="#adacdcd7a3e0a00dd32fe1b04e8858308">ContinousContour</a>^&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="add62b8bcfb58fedb4bcb251ed3e5f5c8" name="add62b8bcfb58fedb4bcb251ed3e5f5c8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#add62b8bcfb58fedb4bcb251ed3e5f5c8">&#9670;&#160;</a></span>EdgeId</h2>
 
@@ -275,6 +337,62 @@ Typedefs</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a> = int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afa5e3b3136272a072cba72e1aa163040" name="afa5e3b3136272a072cba72e1aa163040"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa5e3b3136272a072cba72e1aa163040">&#9670;&#160;</a></span>FaceMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#afa5e3b3136272a072cba72e1aa163040">FaceMap</a> = List&lt;<a class="el" href="#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4fc21d488e5216e1e3d8a9d2c39fc25" name="ab4fc21d488e5216e1e3d8a9d2c39fc25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4fc21d488e5216e1e3d8a9d2c39fc25">&#9670;&#160;</a></span>FaceMapReadOnly</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ab4fc21d488e5216e1e3d8a9d2c39fc25">FaceMapReadOnly</a> = ReadOnlyCollection&lt;<a class="el" href="#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaa26318e65cc98892f9b832efbbc3965" name="aaa26318e65cc98892f9b832efbbc3965"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa26318e65cc98892f9b832efbbc3965">&#9670;&#160;</a></span>FaceNormals</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#aaa26318e65cc98892f9b832efbbc3965">FaceNormals</a> = List&lt;<a class="el" href="classVector3f.html">Vector3f</a>^&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae656de4ef8318026cc624eb4d297a395" name="ae656de4ef8318026cc624eb4d297a395"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae656de4ef8318026cc624eb4d297a395">&#9670;&#160;</a></span>FaceNormalsReadOnly</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ae656de4ef8318026cc624eb4d297a395">FaceNormalsReadOnly</a> = ReadOnlyCollection&lt;<a class="el" href="classVector3f.html">Vector3f</a>^&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -373,6 +491,62 @@ Typedefs</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="#a97d91fcf1566198a2abf87966d056a9f">VertId</a> = int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a1af35620eb034ce3eb01a5467523da" name="a9a1af35620eb034ce3eb01a5467523da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a1af35620eb034ce3eb01a5467523da">&#9670;&#160;</a></span>VertMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a9a1af35620eb034ce3eb01a5467523da">VertMap</a> = List&lt;<a class="el" href="#a97d91fcf1566198a2abf87966d056a9f">VertId</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a289d7fe3c948673edddfe7ccdbef5692" name="a289d7fe3c948673edddfe7ccdbef5692"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a289d7fe3c948673edddfe7ccdbef5692">&#9670;&#160;</a></span>VertMapReadOnly</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a289d7fe3c948673edddfe7ccdbef5692">VertMapReadOnly</a> = ReadOnlyCollection&lt;<a class="el" href="#a97d91fcf1566198a2abf87966d056a9f">VertId</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a746df06ff050028a10347909ce06079a" name="a746df06ff050028a10347909ce06079a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a746df06ff050028a10347909ce06079a">&#9670;&#160;</a></span>VertNormals</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a746df06ff050028a10347909ce06079a">VertNormals</a> = List&lt;<a class="el" href="classVector3f.html">Vector3f</a>^&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6b07e3b12056a9c6ec4ab1ca94acaca" name="ab6b07e3b12056a9c6ec4ab1ca94acaca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6b07e3b12056a9c6ec4ab1ca94acaca">&#9670;&#160;</a></span>VertNormalsReadOnly</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ab6b07e3b12056a9c6ec4ab1ca94acaca">VertNormalsReadOnly</a> = ReadOnlyCollection&lt;<a class="el" href="classVector3f.html">Vector3f</a>^&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">

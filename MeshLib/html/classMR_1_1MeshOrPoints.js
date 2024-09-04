@@ -6,6 +6,8 @@ var classMR_1_1MeshOrPoints =
     [ "MeshOrPoints", "classMR_1_1MeshOrPoints.html#a4b19905136ab6d31a445cc3884ab0c1e", null ],
     [ "MeshOrPoints", "classMR_1_1MeshOrPoints.html#abe1af15504d425b2e6633291ccae6828", null ],
     [ "accumulate", "classMR_1_1MeshOrPoints.html#abbcab0078d3323160184019e7850bceb", null ],
+    [ "asMeshPart", "classMR_1_1MeshOrPoints.html#ae4e66b47e60faefe7542df1a0db23b01", null ],
+    [ "asPointCloud", "classMR_1_1MeshOrPoints.html#a45e224f362e76257c61b1e2fe790dc65", null ],
     [ "cacheAABBTree", "classMR_1_1MeshOrPoints.html#aec797ad241ba4410f73274ba5e52c51e", null ],
     [ "computeBoundingBox", "classMR_1_1MeshOrPoints.html#af68f336dca5c1cbf834ab0c65fc38036", null ],
     [ "getObjBoundingBox", "classMR_1_1MeshOrPoints.html#a735838d295350004f02283f8429fa620", null ],

@@ -197,7 +197,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ad6572e9fd51800d785882fab5dc53502"><td class="mdescLeft">&#160;</td><td class="mdescRight">initializes a default instance  <br /></td></tr>
 <tr class="separator:ad6572e9fd51800d785882fab5dc53502"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae00bfaafa2a5cd791ec1206c17fc151f" id="r_ae00bfaafa2a5cd791ec1206c17fc151f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="#a554c91f93673a3d87ae5b114e607aacc">MRICP</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae00bfaafa2a5cd791ec1206c17fc151f">mrICPNew</a> (const <a class="el" href="MRMeshC_2MRMeshOrPoints_8h.html#a56d39781ac5d47019574ee608c9ead18">MRMeshOrPointsXf</a> *flt, const <a class="el" href="MRMeshC_2MRMeshOrPoints_8h.html#a56d39781ac5d47019574ee608c9ead18">MRMeshOrPointsXf</a> *ref, float samplingVoxelSize)</td></tr>
-<tr class="memdesc:ae00bfaafa2a5cd791ec1206c17fc151f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs ICP framework with automatic points sampling on both objects.  <br /></td></tr>
+<tr class="memdesc:ae00bfaafa2a5cd791ec1206c17fc151f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <a class="el" href="classICP.html">ICP</a> framework with automatic points sampling on both objects.  <br /></td></tr>
 <tr class="separator:ae00bfaafa2a5cd791ec1206c17fc151f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0deba5552214cfbbef4d811d610dca7" id="r_aa0deba5552214cfbbef4d811d610dca7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0deba5552214cfbbef4d811d610dca7">mrICPSetParams</a> (<a class="el" href="#a554c91f93673a3d87ae5b114e607aacc">MRICP</a> *icp, const <a class="el" href="structMRICPProperties.html">MRICPProperties</a> *prop)</td></tr>
 <tr class="memdesc:aa0deba5552214cfbbef4d811d610dca7"><td class="mdescLeft">&#160;</td><td class="mdescRight">tune algorithm params before run calculateTransformation()  <br /></td></tr>
@@ -234,7 +234,7 @@ Functions</h2></td></tr>
 <tr class="memitem:aafb393d5ef1b456624976f54488bcd71" id="r_aafb393d5ef1b456624976f54488bcd71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMRAffineXf3f.html">MRAffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafb393d5ef1b456624976f54488bcd71">mrICPCalculateTransformation</a> (<a class="el" href="#a554c91f93673a3d87ae5b114e607aacc">MRICP</a> *icp)</td></tr>
 <tr class="separator:aafb393d5ef1b456624976f54488bcd71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1fbb8172fb51e68259611bf26579898" id="r_ab1fbb8172fb51e68259611bf26579898"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1fbb8172fb51e68259611bf26579898">mrICPFree</a> (<a class="el" href="#a554c91f93673a3d87ae5b114e607aacc">MRICP</a> *icp)</td></tr>
-<tr class="memdesc:ab1fbb8172fb51e68259611bf26579898"><td class="mdescLeft">&#160;</td><td class="mdescRight">deallocates an ICP object  <br /></td></tr>
+<tr class="memdesc:ab1fbb8172fb51e68259611bf26579898"><td class="mdescLeft">&#160;</td><td class="mdescRight">deallocates an <a class="el" href="classICP.html">ICP</a> object  <br /></td></tr>
 <tr class="separator:ab1fbb8172fb51e68259611bf26579898"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -249,7 +249,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This class allows you to register two object with similar shape using Iterative Closest Points (ICP) point-to-point or point-to-plane algorithms </p>
+<p>This class allows you to register two object with similar shape using Iterative Closest Points (<a class="el" href="classICP.html">ICP</a>) point-to-point or point-to-plane algorithms </p>
 
 </div>
 </div>
@@ -489,7 +489,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>runs ICP algorithm given input objects, transformations, and parameters; </p><dl class="section return"><dt>Returns</dt><dd>adjusted transformation of the floating object to match reference object </dd></dl>
+<p>runs <a class="el" href="classICP.html">ICP</a> algorithm given input objects, transformations, and parameters; </p><dl class="section return"><dt>Returns</dt><dd>adjusted transformation of the floating object to match reference object </dd></dl>
 
 </div>
 </div>
@@ -508,7 +508,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>deallocates an ICP object </p>
+<p>deallocates an <a class="el" href="classICP.html">ICP</a> object </p>
 
 </div>
 </div>
@@ -669,7 +669,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructs ICP framework with automatic points sampling on both objects. </p>
+<p>Constructs <a class="el" href="classICP.html">ICP</a> framework with automatic points sampling on both objects. </p>
 
 </div>
 </div>

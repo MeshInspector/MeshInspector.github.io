@@ -154,7 +154,8 @@ $(function(){initNavTree('MRTriPoint_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><a class="code hl_function" href="structMR_1_1TriPoint.html#a173bd5baa937f72d4e42901d913f3ff3">TriPoint&lt;T&gt;::TriPoint</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a> &amp; p, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a> &amp; v1, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Vector3.html">Vector3&lt;T&gt;</a> &amp; v2 )</div>
+<div class="foldopen" id="foldopen00059" data-start="{" data-end="}">
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="structTriPoint.html#aab1601e0050698e8ab1e9c8f7a8fac73">   59</a></span><a class="code hl_function" href="structMR_1_1TriPoint.html#a173bd5baa937f72d4e42901d913f3ff3">TriPoint&lt;T&gt;::TriPoint</a>( <span class="keyword">const</span> <a class="code hl_variable" href="namespaceMR.html#ac878ba63f3f91f5ab032a38cd3a2c206">Vector3&lt;T&gt;</a> &amp; p, <span class="keyword">const</span> <a class="code hl_variable" href="namespaceMR.html#ac878ba63f3f91f5ab032a38cd3a2c206">Vector3&lt;T&gt;</a> &amp; v1, <span class="keyword">const</span> <a class="code hl_variable" href="namespaceMR.html#ac878ba63f3f91f5ab032a38cd3a2c206">Vector3&lt;T&gt;</a> &amp; v2 )</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>{</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keyword">const</span> T v11 = dot( v1, v1 );</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keyword">const</span> T v12 = dot( v1, v2 );</div>
@@ -171,9 +172,11 @@ $(function(){initNavTree('MRTriPoint_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    a = std::clamp( ( 1 / det ) * ( v22 * pv1 - v12 * pv2 ), T(0), T(1) );</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    b = std::clamp( ( 1 / det ) * (-v12 * pv1 + v11 * pv2 ), T(0), T(1) - a );</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>}</div>
+</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="keyword">constexpr</span> <span class="keywordtype">int</span> <a class="code hl_function" href="structMR_1_1TriPoint.html#a4d5a222417a7c162c44bb932b91cdd7a">TriPoint&lt;T&gt;::inVertex</a>()<span class="keyword"> const</span></div>
+<div class="foldopen" id="foldopen00078" data-start="{" data-end="}">
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="structTriPoint.html#a86c9b621f580a065ef8c8f313d87acc2">   78</a></span><span class="keyword">constexpr</span> <span class="keywordtype">int</span> <a class="code hl_function" href="structMR_1_1TriPoint.html#a4d5a222417a7c162c44bb932b91cdd7a">TriPoint&lt;T&gt;::inVertex</a>()<span class="keyword"> const</span></div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="keyword"></span>{</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordflow">if</span> ( a &lt;= eps &amp;&amp; b &lt;= eps )</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        <span class="keywordflow">return</span> 0;</div>
@@ -186,9 +189,11 @@ $(function(){initNavTree('MRTriPoint_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    }</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>}</div>
+</div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="keyword">constexpr</span> <span class="keywordtype">int</span> <a class="code hl_function" href="structMR_1_1TriPoint.html#a8cc175bbb2037eebe6e8f2ced01a4b10">TriPoint&lt;T&gt;::onEdge</a>()<span class="keyword"> const</span></div>
+<div class="foldopen" id="foldopen00093" data-start="{" data-end="}">
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="structTriPoint.html#a14b248c117ecfa6e9f817f5c62b22789">   93</a></span><span class="keyword">constexpr</span> <span class="keywordtype">int</span> <a class="code hl_function" href="structMR_1_1TriPoint.html#a8cc175bbb2037eebe6e8f2ced01a4b10">TriPoint&lt;T&gt;::onEdge</a>()<span class="keyword"> const</span></div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="keyword"></span>{</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keywordflow">if</span> ( 1 - a - b &lt;= eps )</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        <span class="keywordflow">return</span> 0;</div>
@@ -198,13 +203,15 @@ $(function(){initNavTree('MRTriPoint_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        <span class="keywordflow">return</span> 2;</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>}</div>
+</div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>} <span class="comment">// namespace MR</span></div>
 <div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
 <div class="ttc" id="aMRSegmPoint_8h_html"><div class="ttname"><a href="MRSegmPoint_8h.html">MRSegmPoint.h</a></div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:7</div></div>
-<div class="ttc" id="astructMR_1_1NoInit_html"><div class="ttname"><a href="structMR_1_1NoInit.html">MR::NoInit</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:54</div></div>
+<div class="ttc" id="anamespaceMR_html_ac878ba63f3f91f5ab032a38cd3a2c206"><div class="ttname"><a href="namespaceMR.html#ac878ba63f3f91f5ab032a38cd3a2c206">MR::Vector3</a></div><div class="ttdeci">MRMESH_CLASS Vector3</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:136</div></div>
+<div class="ttc" id="astructMR_1_1NoInit_html"><div class="ttname"><a href="structMR_1_1NoInit.html">MR::NoInit</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:56</div></div>
 <div class="ttc" id="astructMR_1_1SegmPoint_html"><div class="ttname"><a href="structMR_1_1SegmPoint.html">MR::SegmPoint</a></div><div class="ttdoc">encodes a point inside a line segment using relative distance in [0,1]</div><div class="ttdef"><b>Definition</b> MRSegmPoint.h:12</div></div>
 <div class="ttc" id="astructMR_1_1TriPoint_html"><div class="ttname"><a href="structMR_1_1TriPoint.html">MR::TriPoint</a></div><div class="ttdoc">encodes a point inside a triangle using barycentric coordinates</div><div class="ttdef"><b>Definition</b> MRTriPoint.h:14</div></div>
 <div class="ttc" id="astructMR_1_1TriPoint_html_a02506879ef28b9372cf1868c17a808da"><div class="ttname"><a href="structMR_1_1TriPoint.html#a02506879ef28b9372cf1868c17a808da">MR::TriPoint::lnext</a></div><div class="ttdeci">TriPoint lnext() const</div><div class="ttdoc">represents the same point relative to next edge in the same triangle</div><div class="ttdef"><b>Definition</b> MRTriPoint.h:39</div></div>

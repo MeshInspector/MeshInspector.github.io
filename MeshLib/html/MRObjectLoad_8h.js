@@ -1,14 +1,14 @@
 var MRObjectLoad_8h =
 [
-    [ "isSupportedFileInSubfolders", "MRObjectLoad_8h.html#gaa2082792bceb5a2dd3b18ff5693f0441", null ],
-    [ "loadObjectFromFile", "MRObjectLoad_8h.html#gaeae62a13919956a985687eca93af911a", null ],
-    [ "loadSceneFromAnySupportedFormat", "MRObjectLoad_8h.html#ga81998659c13306dc5fc5d98f82482b6b", null ],
-    [ "makeObjectDistanceMapFromFile", "MRObjectLoad_8h.html#gabeb94a7ca64eebd4232b4465b8574888", null ],
-    [ "makeObjectFromMeshFile", "MRObjectLoad_8h.html#gab2c0a84effd20ee76f7a0c4b95f83fd4", null ],
-    [ "makeObjectGcodeFromFile", "MRObjectLoad_8h.html#ga4d1c44fb8dec2b6b36a80cb27daf9a3f", null ],
-    [ "makeObjectLinesFromFile", "MRObjectLoad_8h.html#ga140cf2b145a068fde22c2818045ac6f4", null ],
-    [ "makeObjectMeshFromFile", "MRObjectLoad_8h.html#gad8f4534f6785f237b1448d802215cf43", null ],
-    [ "makeObjectPointsFromFile", "MRObjectLoad_8h.html#gabc21c33d36bead8d00a3849efb18dcde", null ],
-    [ "makeObjectTreeFromFolder", "MRObjectLoad_8h.html#ga8bcd86047946edc28806b494bd33835a", null ],
-    [ "makeObjectVoxelsFromFile", "MRObjectLoad_8h.html#ga498affdd369d58b7fdd9cde5c6d26ae6", null ]
+    [ "isSupportedFileInSubfolders", "MRObjectLoad_8h.html#aa2082792bceb5a2dd3b18ff5693f0441", null ],
+    [ "loadObjectFromFile", "MRObjectLoad_8h.html#a241875d4b829c640b1806ea5bc3c9a62", null ],
+    [ "loadSceneFromAnySupportedFormat", "MRObjectLoad_8h.html#ae2cbd939f46f10489210e5b80b10b540", null ],
+    [ "makeObjectDistanceMapFromFile", "MRObjectLoad_8h.html#a6db28aaf4d28c32688ee3fbe07c2cd69", null ],
+    [ "makeObjectFromMeshFile", "MRObjectLoad_8h.html#a7d0fbed195d4e1b92d7f9bd80f5f15d3", null ],
+    [ "makeObjectGcodeFromFile", "MRObjectLoad_8h.html#a9e5093d4aabe18b3b177676bed2f1832", null ],
+    [ "makeObjectLinesFromFile", "MRObjectLoad_8h.html#a49f50b3f8a8b62d1de7af24264eac759", null ],
+    [ "makeObjectMeshFromFile", "MRObjectLoad_8h.html#aeecb856fc34ef6ac55743bccc94b41ce", null ],
+    [ "makeObjectPointsFromFile", "MRObjectLoad_8h.html#acd7dca15ed95f44fa82294bf8a85be2a", null ],
+    [ "makeObjectTreeFromFolder", "MRObjectLoad_8h.html#acf3fe56f6c84e15111a7d40381381e1a", null ],
+    [ "makeObjectVoxelsFromFile", "MRObjectLoad_8h.html#aac5f922e990f4acb04bd195619164ff5", null ]
 ];

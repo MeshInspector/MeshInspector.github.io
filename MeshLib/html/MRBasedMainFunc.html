@@ -109,12 +109,13 @@ $(function(){initNavTree('MRBasedMainFunc.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><p>First of all you should make <code>main</code> function like this</p>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRLog_8h.html">MRMesh/MRLog.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRSystem_8h.html">MRMesh/MRSystem.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRSetupViewer_8h.html">MRViewer/MRSetupViewer.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MRViewer_8h.html">MRViewer/MRViewer.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> main( <span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>** argv )</div>
 <div class="line">{</div>
-<div class="line">    <a class="code hl_function" href="group__BasicGroup.html#ga6804a7415d5f018fa64bf1b533af3d4f">MR::setupLoggerByDefault</a>();</div>
+<div class="line">    <a class="code hl_function" href="namespaceMR.html#a6804a7415d5f018fa64bf1b533af3d4f">MR::setupLoggerByDefault</a>();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Init the viewer</span></div>
 <div class="line"> </div>
@@ -133,6 +134,7 @@ $(function(){initNavTree('MRBasedMainFunc.html',''); initResizable(true); });
 <div class="line">}</div>
 <div class="ttc" id="aMRLog_8h_html"><div class="ttname"><a href="MRLog_8h.html">MRLog.h</a></div></div>
 <div class="ttc" id="aMRSetupViewer_8h_html"><div class="ttname"><a href="MRSetupViewer_8h.html">MRSetupViewer.h</a></div></div>
+<div class="ttc" id="aMRSystem_8h_html"><div class="ttname"><a href="MRSystem_8h.html">MRSystem.h</a></div></div>
 <div class="ttc" id="aMRViewer_8h_html"><div class="ttname"><a href="MRViewer_8h.html">MRViewer.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html"><div class="ttname"><a href="classMR_1_1ViewerSetup.html">MR::ViewerSetup</a></div><div class="ttdef"><b>Definition</b> MRSetupViewer.h:11</div></div>
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html_a04abb25fb543f1b7f29d33eed34bdb81"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a04abb25fb543f1b7f29d33eed34bdb81">MR::ViewerSetup::setupCommonPlugins</a></div><div class="ttdeci">virtual void setupCommonPlugins(Viewer *) const</div><div class="ttdoc">Setups custom plugins to viewer.</div><div class="ttdef"><b>Definition</b> MRSetupViewer.h:27</div></div>
@@ -142,7 +144,7 @@ $(function(){initNavTree('MRBasedMainFunc.html',''); initResizable(true); });
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html_a9ba29b362190cbfc386b59d8051f8b06"><div class="ttname"><a href="classMR_1_1ViewerSetup.html#a9ba29b362190cbfc386b59d8051f8b06">MR::ViewerSetup::setupSettingsManager</a></div><div class="ttdeci">virtual MRVIEWER_API void setupSettingsManager(Viewer *viewer, const std::string &amp;appName) const</div><div class="ttdoc">Sets custom viewer settings manager to viewer.</div></div>
 <div class="ttc" id="aclassMR_1_1Viewer_html_a26632c3fff60e6f927d932d86503aa8f"><div class="ttname"><a href="classMR_1_1Viewer.html#a26632c3fff60e6f927d932d86503aa8f">MR::Viewer::parseLaunchParams</a></div><div class="ttdeci">static MRVIEWER_API void parseLaunchParams(LaunchParams &amp;params)</div></div>
 <div class="ttc" id="aclassMR_1_1Viewer_html_a827107af544bf966370dc8de607ed59c"><div class="ttname"><a href="classMR_1_1Viewer.html#a827107af544bf966370dc8de607ed59c">MR::Viewer::instance</a></div><div class="ttdeci">static Viewer * instance()</div><div class="ttdef"><b>Definition</b> MRViewer.h:103</div></div>
-<div class="ttc" id="agroup__BasicGroup_html_ga6804a7415d5f018fa64bf1b533af3d4f"><div class="ttname"><a href="group__BasicGroup.html#ga6804a7415d5f018fa64bf1b533af3d4f">MR::setupLoggerByDefault</a></div><div class="ttdeci">MRMESH_API void setupLoggerByDefault()</div></div>
+<div class="ttc" id="anamespaceMR_html_a6804a7415d5f018fa64bf1b533af3d4f"><div class="ttname"><a href="namespaceMR.html#a6804a7415d5f018fa64bf1b533af3d4f">MR::setupLoggerByDefault</a></div><div class="ttdeci">MRMESH_API void setupLoggerByDefault()</div></div>
 <div class="ttc" id="anamespaceMR_html_abf0f4c580a56e4a7e297faa1b6de7378"><div class="ttname"><a href="namespaceMR.html#abf0f4c580a56e4a7e297faa1b6de7378">MR::launchDefaultViewer</a></div><div class="ttdeci">MRVIEWER_API int launchDefaultViewer(const Viewer::LaunchParams &amp;params, const ViewerSetup &amp;setup)</div></div>
 <div class="ttc" id="astructMR_1_1LaunchParams_html"><div class="ttname"><a href="structMR_1_1LaunchParams.html">MR::LaunchParams</a></div><div class="ttdef"><b>Definition</b> MRViewer.h:47</div></div>
 <div class="ttc" id="astructMR_1_1LaunchParams_html_a25346cad277e065c937a564b8b5f003d"><div class="ttname"><a href="structMR_1_1LaunchParams.html#a25346cad277e065c937a564b8b5f003d">MR::LaunchParams::argc</a></div><div class="ttdeci">int argc</div><div class="ttdef"><b>Definition</b> MRViewer.h:67</div></div>

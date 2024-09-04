@@ -151,6 +151,8 @@ Public Types</h2></td></tr>
 <tr class="separator:acf12d9bbd08c5c2a1b528461e7294587"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a108b6e7b1762c1e145d04713a3badf63" id="r_a108b6e7b1762c1e145d04713a3badf63"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a108b6e7b1762c1e145d04713a3badf63">NameTagClickSignal</a> = boost::signals2::signal&lt;bool( <a class="el" href="classMR_1_1Object.html">Object</a>&amp; object, <a class="el" href="#acf12d9bbd08c5c2a1b528461e7294587">NameTagSelectionMode</a> mode ), <a class="el" href="structMR_1_1StopOnTrueCombiner.html">StopOnTrueCombiner</a>&gt;</td></tr>
 <tr class="separator:a108b6e7b1762c1e145d04713a3badf63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f2b40e4dafea90e3ea284ebf7e9b128" id="r_a2f2b40e4dafea90e3ea284ebf7e9b128"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f2b40e4dafea90e3ea284ebf7e9b128">DrawSceneUiSignal</a> = boost::signals2::signal&lt;void( float menuScaling, <a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> viewportId, <a class="el" href="structMR_1_1UiRenderParams.html#a7db0595bba979c4028be5875ef3e067d">UiRenderParams::UiTaskList</a>&amp; tasks )&gt;</td></tr>
+<tr class="separator:a2f2b40e4dafea90e3ea284ebf7e9b128"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -215,11 +217,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2cde4a8f3fa825bbab90240c16545c1a" id="r_a2cde4a8f3fa825bbab90240c16545c1a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cde4a8f3fa825bbab90240c16545c1a">make_visualize_checkbox</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; selectedVisualObjs, const char *label, <a class="el" href="classMR_1_1AnyVisualizeMaskEnum.html">AnyVisualizeMaskEnum</a> type, <a class="el" href="classMR_1_1ViewportMask.html">MR::ViewportMask</a> viewportid, bool invert=false)</td></tr>
 <tr class="separator:a2cde4a8f3fa825bbab90240c16545c1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e7dfc4d1ce4492b22b5430476500520" id="r_a0e7dfc4d1ce4492b22b5430476500520"><td class="memTemplParams" colspan="2">template&lt;typename ObjectT &gt; </td></tr>
-<tr class="memitem:a0e7dfc4d1ce4492b22b5430476500520"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a0e7dfc4d1ce4492b22b5430476500520">make_color_selector</a> (std::vector&lt; std::shared_ptr&lt; ObjectT &gt; &gt; selectedVisualObjs, const char *label, std::function&lt; <a class="el" href="namespaceMR.html#abf8028cc3aa9939b43d1c2464d068f5e">Vector4f</a>(const ObjectT *)&gt; getter, std::function&lt; void(ObjectT *, const <a class="el" href="namespaceMR.html#abf8028cc3aa9939b43d1c2464d068f5e">Vector4f</a> &amp;)&gt; setter)</td></tr>
+<tr class="memitem:a0e7dfc4d1ce4492b22b5430476500520"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a0e7dfc4d1ce4492b22b5430476500520">make_color_selector</a> (std::vector&lt; std::shared_ptr&lt; ObjectT &gt; &gt; selectedVisualObjs, const char *label, std::function&lt; Vector4f(const ObjectT *)&gt; getter, std::function&lt; void(ObjectT *, const Vector4f &amp;)&gt; setter)</td></tr>
 <tr class="separator:a0e7dfc4d1ce4492b22b5430476500520"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a788ba72f45291e53e26f3d4640a6e6b4" id="r_a788ba72f45291e53e26f3d4640a6e6b4"><td class="memTemplParams" colspan="2">template&lt;typename ObjType &gt; </td></tr>
-<tr class="memitem:a788ba72f45291e53e26f3d4640a6e6b4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a788ba72f45291e53e26f3d4640a6e6b4">make_width</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; selectedVisualObjs, const char *label, std::function&lt; float(const ObjType *)&gt; getter, std::function&lt; void(ObjType *, const float &amp;)&gt; setter, bool lineWidth=false)</td></tr>
-<tr class="separator:a788ba72f45291e53e26f3d4640a6e6b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98f83c09c96441c509677145fdb27276" id="r_a98f83c09c96441c509677145fdb27276"><td class="memTemplParams" colspan="2">template&lt;typename ObjType &gt; </td></tr>
+<tr class="memitem:a98f83c09c96441c509677145fdb27276"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a98f83c09c96441c509677145fdb27276">make_width</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; selectedVisualObjs, const char *label, std::function&lt; float(const ObjType *)&gt; getter, std::function&lt; void(ObjType *, const float &amp;)&gt; setter)</td></tr>
+<tr class="separator:a98f83c09c96441c509677145fdb27276"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47c3996c85c24d180bec9f89358e666e" id="r_a47c3996c85c24d180bec9f89358e666e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47c3996c85c24d180bec9f89358e666e">make_light_strength</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; selectedVisualObjs, const char *label, std::function&lt; float(const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *)&gt; getter, std::function&lt; void(<a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *, const float &amp;)&gt; setter)</td></tr>
 <tr class="separator:a47c3996c85c24d180bec9f89358e666e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b9508550f2dc503c7e8bfe4d20c6756" id="r_a0b9508550f2dc503c7e8bfe4d20c6756"><td class="memTemplParams" colspan="2">template&lt;typename T , typename ObjectType &gt; </td></tr>
@@ -301,6 +303,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:af766771b374fc76627721e89e97b0573"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad64a7ae50d9825e9690b7c2cae8a7cc1" id="r_ad64a7ae50d9825e9690b7c2cae8a7cc1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a108b6e7b1762c1e145d04713a3badf63">NameTagClickSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad64a7ae50d9825e9690b7c2cae8a7cc1">nameTagClickSignal</a></td></tr>
 <tr class="separator:ad64a7ae50d9825e9690b7c2cae8a7cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae71e78bd6eb312fb03d4b7931a3d3241" id="r_ae71e78bd6eb312fb03d4b7931a3d3241"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a2f2b40e4dafea90e3ea284ebf7e9b128">DrawSceneUiSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae71e78bd6eb312fb03d4b7931a3d3241">drawSceneUiSignal</a></td></tr>
+<tr class="separator:ae71e78bd6eb312fb03d4b7931a3d3241"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classMR_1_1ViewerPlugin"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_classMR_1_1ViewerPlugin')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classMR_1_1ViewerPlugin.html">MR::ViewerPlugin</a></td></tr>
 <tr class="memitem:aea3243e52b3ddd4094ee9f25accf6912 inherit pub_attribs_classMR_1_1ViewerPlugin" id="r_aea3243e52b3ddd4094ee9f25accf6912"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ViewerPlugin.html#aea3243e52b3ddd4094ee9f25accf6912">plugin_name</a></td></tr>
 <tr class="separator:aea3243e52b3ddd4094ee9f25accf6912 inherit pub_attribs_classMR_1_1ViewerPlugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -318,7 +322,7 @@ Protected Types</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a133e9d1bc1eaddc62bc3607ef1c16dc1" id="r_a133e9d1bc1eaddc62bc3607ef1c16dc1"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a133e9d1bc1eaddc62bc3607ef1c16dc1">setupShortcuts_</a> ()</td></tr>
 <tr class="separator:a133e9d1bc1eaddc62bc3607ef1c16dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94d45ffa94d1720d85a4120b6e769b55" id="r_a94d45ffa94d1720d85a4120b6e769b55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#abf8028cc3aa9939b43d1c2464d068f5e">Vector4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94d45ffa94d1720d85a4120b6e769b55">getStoredColor_</a> (const std::string &amp;str, const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;defaultColor) const</td></tr>
+<tr class="memitem:a94d45ffa94d1720d85a4120b6e769b55" id="r_a94d45ffa94d1720d85a4120b6e769b55"><td class="memItemLeft" align="right" valign="top">Vector4f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94d45ffa94d1720d85a4120b6e769b55">getStoredColor_</a> (const std::string &amp;str, const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;defaultColor) const</td></tr>
 <tr class="separator:a94d45ffa94d1720d85a4120b6e769b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a60ab6a3f2d56c380d10b0911d6c7b1" id="r_a6a60ab6a3f2d56c380d10b0911d6c7b1"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a60ab6a3f2d56c380d10b0911d6c7b1">drawModalMessage_</a> ()</td></tr>
 <tr class="separator:a6a60ab6a3f2d56c380d10b0911d6c7b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -435,9 +439,9 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a69ba22274265966f6ddc7eabf3eb78a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae809764ef8ca8203ef9f26e34abb2c2f" id="r_ae809764ef8ca8203ef9f26e34abb2c2f"><td class="memItemLeft" align="right" valign="top">std::weak_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae809764ef8ca8203ef9f26e34abb2c2f">lastRenameObj_</a></td></tr>
 <tr class="separator:ae809764ef8ca8203ef9f26e34abb2c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc5bbfd506bfd0a58e4e0a08765d5129" id="r_adc5bbfd506bfd0a58e4e0a08765d5129"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a7609ed874338e695bb9d26fc7147dd3c">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc5bbfd506bfd0a58e4e0a08765d5129">selectionBbox_</a></td></tr>
+<tr class="memitem:adc5bbfd506bfd0a58e4e0a08765d5129" id="r_adc5bbfd506bfd0a58e4e0a08765d5129"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a3c1ffb4b21f3655a3749a74ba8c2ad3c">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc5bbfd506bfd0a58e4e0a08765d5129">selectionBbox_</a></td></tr>
 <tr class="separator:adc5bbfd506bfd0a58e4e0a08765d5129"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8a4b5b373c2e5ab3e633a34fd148f12" id="r_ac8a4b5b373c2e5ab3e633a34fd148f12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a7609ed874338e695bb9d26fc7147dd3c">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8a4b5b373c2e5ab3e633a34fd148f12">selectionWorldBox_</a></td></tr>
+<tr class="memitem:ac8a4b5b373c2e5ab3e633a34fd148f12" id="r_ac8a4b5b373c2e5ab3e633a34fd148f12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a3c1ffb4b21f3655a3749a74ba8c2ad3c">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8a4b5b373c2e5ab3e633a34fd148f12">selectionWorldBox_</a></td></tr>
 <tr class="separator:ac8a4b5b373c2e5ab3e633a34fd148f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabb7d476614f65f1d63a7135ffb63a18" id="r_aabb7d476614f65f1d63a7135ffb63a18"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structMR_1_1ImGuiMenu_1_1LabelParams.html">MR::ImGuiMenu::LabelParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabb7d476614f65f1d63a7135ffb63a18">oldLabelParams_</a></td></tr>
 <tr class="separator:aabb7d476614f65f1d63a7135ffb63a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -449,7 +453,7 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a22b27718dfcaa0c7a6c683598c89b75d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44726097595253c81b8abae8fe5fe91f" id="r_a44726097595253c81b8abae8fe5fe91f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44726097595253c81b8abae8fe5fe91f">invertedRotation_</a> { false }</td></tr>
 <tr class="separator:a44726097595253c81b8abae8fe5fe91f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42944b2f8a7080c6a06c93633f97cb4c" id="r_a42944b2f8a7080c6a06c93633f97cb4c"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::pair&lt; std::string, <a class="el" href="namespaceMR.html#abf8028cc3aa9939b43d1c2464d068f5e">Vector4f</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42944b2f8a7080c6a06c93633f97cb4c">storedColor_</a></td></tr>
+<tr class="memitem:a42944b2f8a7080c6a06c93633f97cb4c" id="r_a42944b2f8a7080c6a06c93633f97cb4c"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::pair&lt; std::string, Vector4f &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42944b2f8a7080c6a06c93633f97cb4c">storedColor_</a></td></tr>
 <tr class="separator:a42944b2f8a7080c6a06c93633f97cb4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1692b4dceebf6d4a68e5bdfe0d553573" id="r_a1692b4dceebf6d4a68e5bdfe0d553573"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structMR_1_1ImGuiMenu_1_1PluginsCache.html">MR::ImGuiMenu::PluginsCache</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1692b4dceebf6d4a68e5bdfe0d553573">pluginsCache_</a></td></tr>
 <tr class="separator:a1692b4dceebf6d4a68e5bdfe0d553573"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -465,7 +469,7 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a25d70db427b76e61497c7fe1c62ac778"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9603f5d80ca9f918df4d86d0a40a94ab" id="r_a9603f5d80ca9f918df4d86d0a40a94ab"><td class="memItemLeft" align="right" valign="top">std::weak_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9603f5d80ca9f918df4d86d0a40a94ab">editedFeatureObject_</a></td></tr>
 <tr class="separator:a9603f5d80ca9f918df4d86d0a40a94ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6afa105ae1f7116d82db1d5068aef0ef" id="r_a6afa105ae1f7116d82db1d5068aef0ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6afa105ae1f7116d82db1d5068aef0ef">editedFeatureObjectOldXf_</a></td></tr>
+<tr class="memitem:a6afa105ae1f7116d82db1d5068aef0ef" id="r_a6afa105ae1f7116d82db1d5068aef0ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6afa105ae1f7116d82db1d5068aef0ef">editedFeatureObjectOldXf_</a></td></tr>
 <tr class="separator:a6afa105ae1f7116d82db1d5068aef0ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70e1b99ed1657729d0a89c8c8bd00e59" id="r_a70e1b99ed1657729d0a89c8c8bd00e59"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70e1b99ed1657729d0a89c8c8bd00e59">capturedMouse_</a> { false }</td></tr>
 <tr class="separator:a70e1b99ed1657729d0a89c8c8bd00e59"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -478,6 +482,20 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ad12538d77ebcf356c03469cbce40abae inherit pro_attribs_classMR_1_1ViewerPlugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a2f2b40e4dafea90e3ea284ebf7e9b128" name="a2f2b40e4dafea90e3ea284ebf7e9b128"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f2b40e4dafea90e3ea284ebf7e9b128">&#9670;&#160;</a></span>DrawSceneUiSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a2f2b40e4dafea90e3ea284ebf7e9b128">MR::ImGuiMenu::DrawSceneUiSignal</a> = boost::signals2::signal&lt;void( float menuScaling, <a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> viewportId, <a class="el" href="structMR_1_1UiRenderParams.html#a7db0595bba979c4028be5875ef3e067d">UiRenderParams::UiTaskList</a>&amp; tasks )&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a108b6e7b1762c1e145d04713a3badf63" name="a108b6e7b1762c1e145d04713a3badf63"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a108b6e7b1762c1e145d04713a3badf63">&#9670;&#160;</a></span>NameTagClickSignal</h2>
 
@@ -1615,7 +1633,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#abf8028cc3aa9939b43d1c2464d068f5e">Vector4f</a> MR::ImGuiMenu::getStoredColor_ </td>
+          <td class="memname">Vector4f MR::ImGuiMenu::getStoredColor_ </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>str</em></span>, </td>
         </tr>
@@ -1828,12 +1846,12 @@ template&lt;typename ObjectT &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::function&lt; <a class="el" href="namespaceMR.html#abf8028cc3aa9939b43d1c2464d068f5e">Vector4f</a>(const ObjectT *)&gt;</td>          <td class="paramname"><span class="paramname"><em>getter</em></span>, </td>
+          <td class="paramtype">std::function&lt; Vector4f(const ObjectT *)&gt;</td>          <td class="paramname"><span class="paramname"><em>getter</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::function&lt; void(ObjectT *, const <a class="el" href="namespaceMR.html#abf8028cc3aa9939b43d1c2464d068f5e">Vector4f</a> &amp;)&gt;</td>          <td class="paramname"><span class="paramname"><em>setter</em></span>&#160;)</td>
+          <td class="paramtype">std::function&lt; void(ObjectT *, const Vector4f &amp;)&gt;</td>          <td class="paramname"><span class="paramname"><em>setter</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1981,8 +1999,8 @@ template&lt;typename T , typename ObjectType &gt; </div>
 
 </div>
 </div>
-<a id="a788ba72f45291e53e26f3d4640a6e6b4" name="a788ba72f45291e53e26f3d4640a6e6b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a788ba72f45291e53e26f3d4640a6e6b4">&#9670;&#160;</a></span>make_width()</h2>
+<a id="a98f83c09c96441c509677145fdb27276" name="a98f83c09c96441c509677145fdb27276"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98f83c09c96441c509677145fdb27276">&#9670;&#160;</a></span>make_width()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2007,12 +2025,7 @@ template&lt;typename ObjType &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::function&lt; void(ObjType *, const float &amp;)&gt;</td>          <td class="paramname"><span class="paramname"><em>setter</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>lineWidth</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
+          <td class="paramtype">std::function&lt; void(ObjType *, const float &amp;)&gt;</td>          <td class="paramname"><span class="paramname"><em>setter</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2989,6 +3002,20 @@ template&lt;typename ObjType &gt; </div>
 
 </div>
 </div>
+<a id="ae71e78bd6eb312fb03d4b7931a3d3241" name="ae71e78bd6eb312fb03d4b7931a3d3241"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae71e78bd6eb312fb03d4b7931a3d3241">&#9670;&#160;</a></span>drawSceneUiSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a2f2b40e4dafea90e3ea284ebf7e9b128">DrawSceneUiSignal</a> MR::ImGuiMenu::drawSceneUiSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9603f5d80ca9f918df4d86d0a40a94ab" name="a9603f5d80ca9f918df4d86d0a40a94ab"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9603f5d80ca9f918df4d86d0a40a94ab">&#9670;&#160;</a></span>editedFeatureObject_</h2>
 
@@ -3021,7 +3048,7 @@ template&lt;typename ObjType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#a93a9fb6abd22b4a047f841b8d9de2639">AffineXf3f</a> MR::ImGuiMenu::editedFeatureObjectOldXf_</td>
+          <td class="memname"><a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a> MR::ImGuiMenu::editedFeatureObjectOldXf_</td>
         </tr>
       </table>
   </td>
@@ -3541,7 +3568,7 @@ template&lt;typename ObjType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#a7609ed874338e695bb9d26fc7147dd3c">Box3f</a> MR::ImGuiMenu::selectionBbox_</td>
+          <td class="memname"><a class="el" href="namespaceMR.html#a3c1ffb4b21f3655a3749a74ba8c2ad3c">Box3f</a> MR::ImGuiMenu::selectionBbox_</td>
         </tr>
       </table>
   </td>
@@ -3585,7 +3612,7 @@ template&lt;typename ObjType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#a7609ed874338e695bb9d26fc7147dd3c">Box3f</a> MR::ImGuiMenu::selectionWorldBox_</td>
+          <td class="memname"><a class="el" href="namespaceMR.html#a3c1ffb4b21f3655a3749a74ba8c2ad3c">Box3f</a> MR::ImGuiMenu::selectionWorldBox_</td>
         </tr>
       </table>
   </td>
@@ -3739,7 +3766,7 @@ template&lt;typename ObjType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::optional&lt;std::pair&lt;std::string, <a class="el" href="namespaceMR.html#abf8028cc3aa9939b43d1c2464d068f5e">Vector4f</a>&gt; &gt; MR::ImGuiMenu::storedColor_</td>
+          <td class="memname">std::optional&lt;std::pair&lt;std::string, Vector4f&gt; &gt; MR::ImGuiMenu::storedColor_</td>
         </tr>
       </table>
   </td>

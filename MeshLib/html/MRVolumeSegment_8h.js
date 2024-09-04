@@ -1,5 +1,5 @@
 var MRVolumeSegment_8h =
 [
-    [ "meshFromVoxelsMask", "MRVolumeSegment_8h.html#gac99b2882e928392f785095d8a0aaf50d", null ],
-    [ "segmentVolume", "MRVolumeSegment_8h.html#ga67e0ece32922587ed0da1643aaf94a99", null ]
+    [ "meshFromVoxelsMask", "MRVolumeSegment_8h.html#ga22b8c335c115ffcb36c1b2790b9df11b", null ],
+    [ "segmentVolume", "MRVolumeSegment_8h.html#ga8c2f4a367525607b70a9720346fc590d", null ]
 ];

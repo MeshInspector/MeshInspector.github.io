@@ -139,7 +139,7 @@ Public Types</h2></td></tr>
 <tr class="separator:a99966598c20038beae6a6b9c3fdb146d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e11f1e4737493f7e61b6b3793519373" id="r_a2e11f1e4737493f7e61b6b3793519373"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e11f1e4737493f7e61b6b3793519373">BoundarySelectionWidgetChecker</a> = std::function&lt;bool( std::shared_ptr&lt;const <a class="el" href="classMR_1_1ObjectMeshHolder.html">MR::ObjectMeshHolder</a>&gt; )&gt;</td></tr>
 <tr class="separator:a2e11f1e4737493f7e61b6b3793519373"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e3aafe476e30d362b2b0070a6ce21c6" id="r_a9e3aafe476e30d362b2b0070a6ce21c6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e3aafe476e30d362b2b0070a6ce21c6">HolesOnObject</a> = std::vector&lt;<a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">MR::EdgeId</a>&gt;</td></tr>
+<tr class="memitem:a9e3aafe476e30d362b2b0070a6ce21c6" id="r_a9e3aafe476e30d362b2b0070a6ce21c6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e3aafe476e30d362b2b0070a6ce21c6">HolesOnObject</a> = std::vector&lt;MR::EdgeId&gt;</td></tr>
 <tr class="separator:a9e3aafe476e30d362b2b0070a6ce21c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4f86167c1457d09cd461a0d8a7f4ce1" id="r_ab4f86167c1457d09cd461a0d8a7f4ce1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4f86167c1457d09cd461a0d8a7f4ce1">PerObjectHoles</a> = std::unordered_map &lt;std::shared_ptr&lt;<a class="el" href="classMR_1_1ObjectMeshHolder.html">MR::ObjectMeshHolder</a>&gt;, <a class="el" href="#a9e3aafe476e30d362b2b0070a6ce21c6">HolesOnObject</a>&gt;</td></tr>
 <tr class="separator:ab4f86167c1457d09cd461a0d8a7f4ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,7 +162,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af810f64718c8240669bf5db4a5fa8bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a363ebc98a82ff30b022222e7c8b7c22b" id="r_a363ebc98a82ff30b022222e7c8b7c22b"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a363ebc98a82ff30b022222e7c8b7c22b">clear</a> ()</td></tr>
 <tr class="separator:a363ebc98a82ff30b022222e7c8b7c22b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64ad1b3ec5b695922aacf3586d722594" id="r_a64ad1b3ec5b695922aacf3586d722594"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::pair&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMeshHolder.html">MR::ObjectMeshHolder</a> &gt;, <a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64ad1b3ec5b695922aacf3586d722594">getSelectHole</a> () const</td></tr>
+<tr class="memitem:a64ad1b3ec5b695922aacf3586d722594" id="r_a64ad1b3ec5b695922aacf3586d722594"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::pair&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMeshHolder.html">MR::ObjectMeshHolder</a> &gt;, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64ad1b3ec5b695922aacf3586d722594">getSelectHole</a> () const</td></tr>
 <tr class="separator:a64ad1b3ec5b695922aacf3586d722594"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62221533e111fdfcadc62e9a4d91e9ae" id="r_a62221533e111fdfcadc62e9a4d91e9ae"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::vector&lt; <a class="el" href="classVector3f.html">MR::Vector3f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62221533e111fdfcadc62e9a4d91e9ae">getPointsForSelectedHole</a> () const</td></tr>
 <tr class="separator:a62221533e111fdfcadc62e9a4d91e9ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -220,7 +220,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a9e3aafe476e30d362b2b0070a6ce21c6">MR::BoundarySelectionWidget::HolesOnObject</a> = std::vector&lt;<a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">MR::EdgeId</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#a9e3aafe476e30d362b2b0070a6ce21c6">MR::BoundarySelectionWidget::HolesOnObject</a> = std::vector&lt;MR::EdgeId&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -349,7 +349,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API std::pair&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMeshHolder.html">MR::ObjectMeshHolder</a> &gt;, <a class="el" href="namespaceMR.html#a8eaad408cdc6a25c67332ee31045d79a">EdgeId</a> &gt; MR::BoundarySelectionWidget::getSelectHole </td>
+          <td class="memname">MRVIEWER_API std::pair&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMeshHolder.html">MR::ObjectMeshHolder</a> &gt;, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> &gt; MR::BoundarySelectionWidget::getSelectHole </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>

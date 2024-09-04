@@ -16,7 +16,7 @@ var searchData=
   ['pointarraysize_13',['PointArraySize',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a9503268c31364398d41e323af77c0da9',1,'MR::Viewer']]],
   ['pointcloud_14',['PointCloud',['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37aee9349b5cdfd717c7e1234edce6b72fa',1,'MR']]],
   ['pointelementsnum_15',['PointElementsNum',['../classMR_1_1Viewer.html#acd808397ec9c13d1d3bce1b0e846bd40a77e64d11fc89e14a9a8944f32e8e72cf',1,'MR::Viewer']]],
-  ['points_16',['Points',['../classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76a75dd5f1160a3f02b6fae89c54361a1b3',1,'MR::ViewerSettingsManager']]],
+  ['points_16',['Points',['../structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aaa3d1106c4606956fa8bf8f24f9db1486',1,'MR::SceneColors::Points'],['../classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a11882a836d50f9561bb278de58bb03b8',1,'MR::GLStaticHolder::Points'],['../classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76a75dd5f1160a3f02b6fae89c54361a1b3',1,'MR::ViewerSettingsManager::Points']]],
   ['pointtoplane_17',['PointToPlane',['../namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed',1,'MR']]],
   ['pointtopoint_18',['PointToPoint',['../namespaceMR.html#adc079b022ca7581fe4f508ab8f6a80ecacabf254f8195fce8d901b3cce7092ea9',1,'MR']]],
   ['position_19',['position',['../namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a4757fe07fd492a8be0ea6a760d683d6e',1,'MR']]],
@@ -24,6 +24,6 @@ var searchData=
   ['post_21',['Post',['../classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0ca03d947a2158373c3b9d74325850cb8b9',1,'MR::WebRequest']]],
   ['primitivescolormap_22',['PrimitivesColorMap',['../group__VisualObjectGroup.html#gga270a25a8ef13e07e59e7070834efc33faf197a1d9750657bd77f7e80b68f4e3ca',1,'MR']]],
   ['progressbarbackground_23',['ProgressBarBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ae1bbec5067f1e6cc71f108e6d5ac7b81',1,'MR::ColorTheme']]],
-  ['projectionnormal_24',['ProjectionNormal',['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9',1,'MR']]],
+  ['projectionnormal_24',['ProjectionNormal',['../MRDotNet_2MROffset_8h.html#a3a1c46c77f4561d4e907577f24e085aea17670c4544b47c1acf63b776209440a9',1,'ProjectionNormal:&#160;MROffset.h'],['../namespaceMR.html#a03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9',1,'MR::ProjectionNormal']]],
   ['put_25',['Put',['../classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0cad0bf1810982e9728fcf3ac444a015373',1,'MR::WebRequest']]]
 ];

@@ -234,6 +234,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4b83b6b437c54b924fb899be6d452d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a874ef8410c1288964219fb79289c1d55" id="r_a874ef8410c1288964219fb79289c1d55"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a874ef8410c1288964219fb79289c1d55">mouseScroll</a> (float delta_y)</td></tr>
 <tr class="separator:a874ef8410c1288964219fb79289c1d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24fb1377eaabe916c15e03c1c11b83c7" id="r_a24fb1377eaabe916c15e03c1c11b83c7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24fb1377eaabe916c15e03c1c11b83c7">mouseClick</a> (<a class="el" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> button, int modifier)</td></tr>
+<tr class="separator:a24fb1377eaabe916c15e03c1c11b83c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf2a54437aa855aa6053d5e376069eb2" id="r_acf2a54437aa855aa6053d5e376069eb2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf2a54437aa855aa6053d5e376069eb2">dragStart</a> (<a class="el" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> button, int modifier)</td></tr>
+<tr class="separator:acf2a54437aa855aa6053d5e376069eb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9658bfe4b89713f69921ed4bc449eb5a" id="r_a9658bfe4b89713f69921ed4bc449eb5a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9658bfe4b89713f69921ed4bc449eb5a">dragEnd</a> (<a class="el" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> button, int modifier)</td></tr>
+<tr class="separator:a9658bfe4b89713f69921ed4bc449eb5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae08c5961fdb9631a768a60406145226a" id="r_ae08c5961fdb9631a768a60406145226a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae08c5961fdb9631a768a60406145226a">drag</a> (int mouse_x, int mouse_y)</td></tr>
+<tr class="separator:ae08c5961fdb9631a768a60406145226a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2f674380fd12c20f4a4fa1ce7ff3f7d" id="r_af2f674380fd12c20f4a4fa1ce7ff3f7d"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2f674380fd12c20f4a4fa1ce7ff3f7d">spaceMouseMove</a> (const <a class="el" href="classVector3f.html">Vector3f</a> &amp;translate, const <a class="el" href="classVector3f.html">Vector3f</a> &amp;rotate)</td></tr>
 <tr class="separator:af2f674380fd12c20f4a4fa1ce7ff3f7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c978a70cf92edbbc251490bb4126a94" id="r_a6c978a70cf92edbbc251490bb4126a94"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c978a70cf92edbbc251490bb4126a94">spaceMouseDown</a> (int key)</td></tr>
@@ -310,7 +318,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a98e839976ec3394275ee4c8a96c6dc27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa748100841bb2d5cddeef5d8bf296f9f" id="r_aa748100841bb2d5cddeef5d8bf296f9f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="classMR_1_1ViewportId.html">ViewportId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa748100841bb2d5cddeef5d8bf296f9f">append_viewport</a> (const <a class="el" href="namespaceMR.html#ae679240dc1c3cb46bbffe4002f1f48e5">ViewportRectangle</a> &amp;viewportRect, bool append_empty=false)</td></tr>
 <tr class="separator:aa748100841bb2d5cddeef5d8bf296f9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29b4a0913083878a3db4272e293dfe0f" id="r_a29b4a0913083878a3db4272e293dfe0f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="namespaceMR.html#a3382cb6b961019c59bc38f6e38fe1432">Box2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29b4a0913083878a3db4272e293dfe0f">getViewportsBounds</a> () const</td></tr>
+<tr class="memitem:a29b4a0913083878a3db4272e293dfe0f" id="r_a29b4a0913083878a3db4272e293dfe0f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API Box2f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29b4a0913083878a3db4272e293dfe0f">getViewportsBounds</a> () const</td></tr>
 <tr class="separator:a29b4a0913083878a3db4272e293dfe0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66f3490ce4cf18ff57b57146ceb8a68a" id="r_a66f3490ce4cf18ff57b57146ceb8a68a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66f3490ce4cf18ff57b57146ceb8a68a">erase_viewport</a> (const size_t index)</td></tr>
 <tr class="separator:a66f3490ce4cf18ff57b57146ceb8a68a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -324,7 +332,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa7255da11fe1bd338aa176ee19b15eb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0abf7c7fdb0f51651be12f67f1aea11c" id="r_a0abf7c7fdb0f51651be12f67f1aea11c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0abf7c7fdb0f51651be12f67f1aea11c">fitDataViewport</a> (<a class="el" href="classMR_1_1ViewportMask.html">MR::ViewportMask</a> vpList=<a class="el" href="classMR_1_1ViewportMask.html#a46b7527f0e3a3394b41be2515c171747">MR::ViewportMask::all</a>(), float fill=0.6f, bool snapView=true)</td></tr>
 <tr class="separator:a0abf7c7fdb0f51651be12f67f1aea11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a359408b2941b393d87a609d610347c78" id="r_a359408b2941b393d87a609d610347c78"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a359408b2941b393d87a609d610347c78">fitBoxViewport</a> (const <a class="el" href="namespaceMR.html#a7609ed874338e695bb9d26fc7147dd3c">Box3f</a> &amp;box, <a class="el" href="classMR_1_1ViewportMask.html">MR::ViewportMask</a> vpList=<a class="el" href="classMR_1_1ViewportMask.html#a46b7527f0e3a3394b41be2515c171747">MR::ViewportMask::all</a>(), float fill=0.6f, bool snapView=true)</td></tr>
+<tr class="memitem:a359408b2941b393d87a609d610347c78" id="r_a359408b2941b393d87a609d610347c78"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a359408b2941b393d87a609d610347c78">fitBoxViewport</a> (const <a class="el" href="namespaceMR.html#a3c1ffb4b21f3655a3749a74ba8c2ad3c">Box3f</a> &amp;box, <a class="el" href="classMR_1_1ViewportMask.html">MR::ViewportMask</a> vpList=<a class="el" href="classMR_1_1ViewportMask.html#a46b7527f0e3a3394b41be2515c171747">MR::ViewportMask::all</a>(), float fill=0.6f, bool snapView=true)</td></tr>
 <tr class="separator:a359408b2941b393d87a609d610347c78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb15cccccd945bf5803dde5fd66e6929" id="r_abb15cccccd945bf5803dde5fd66e6929"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb15cccccd945bf5803dde5fd66e6929">preciseFitDataViewport</a> (<a class="el" href="classMR_1_1ViewportMask.html">MR::ViewportMask</a> vpList=<a class="el" href="classMR_1_1ViewportMask.html#a46b7527f0e3a3394b41be2515c171747">MR::ViewportMask::all</a>())</td></tr>
 <tr class="separator:abb15cccccd945bf5803dde5fd66e6929"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -354,9 +362,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a31d6494e00e43d9afe0c2ca0c089c075"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae53206027c75dfd0e188f1d538c4e65f" id="r_ae53206027c75dfd0e188f1d538c4e65f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae53206027c75dfd0e188f1d538c4e65f">resetAllCounters</a> ()</td></tr>
 <tr class="separator:ae53206027c75dfd0e188f1d538c4e65f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d098bef59db9ac38f5e669c50c289d7" id="r_a9d098bef59db9ac38f5e669c50c289d7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1Image.html">Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d098bef59db9ac38f5e669c50c289d7">captureSceneScreenShot</a> (const <a class="el" href="namespaceMR.html#a03f74a1e18a3d4f45c60f19149483e87">Vector2i</a> &amp;resolution=<a class="el" href="namespaceMR.html#a03f74a1e18a3d4f45c60f19149483e87">Vector2i</a>())</td></tr>
+<tr class="memitem:a9d098bef59db9ac38f5e669c50c289d7" id="r_a9d098bef59db9ac38f5e669c50c289d7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1Image.html">Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d098bef59db9ac38f5e669c50c289d7">captureSceneScreenShot</a> (const Vector2i &amp;resolution=Vector2i())</td></tr>
 <tr class="separator:a9d098bef59db9ac38f5e669c50c289d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5c3982fd523193e4b8a83ebde609f85" id="r_ab5c3982fd523193e4b8a83ebde609f85"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5c3982fd523193e4b8a83ebde609f85">captureUIScreenShot</a> (std::function&lt; void(const <a class="el" href="structMR_1_1Image.html">Image</a> &amp;)&gt; callback, const <a class="el" href="namespaceMR.html#a03f74a1e18a3d4f45c60f19149483e87">Vector2i</a> &amp;pos=<a class="el" href="namespaceMR.html#a03f74a1e18a3d4f45c60f19149483e87">Vector2i</a>(), const <a class="el" href="namespaceMR.html#a03f74a1e18a3d4f45c60f19149483e87">Vector2i</a> &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>=<a class="el" href="namespaceMR.html#a03f74a1e18a3d4f45c60f19149483e87">Vector2i</a>())</td></tr>
+<tr class="memitem:ab5c3982fd523193e4b8a83ebde609f85" id="r_ab5c3982fd523193e4b8a83ebde609f85"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5c3982fd523193e4b8a83ebde609f85">captureUIScreenShot</a> (std::function&lt; void(const <a class="el" href="structMR_1_1Image.html">Image</a> &amp;)&gt; callback, const Vector2i &amp;pos=Vector2i(), const Vector2i &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>=Vector2i())</td></tr>
 <tr class="separator:ab5c3982fd523193e4b8a83ebde609f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cd6649b2287a6bfeb70136744689060" id="r_a0cd6649b2287a6bfeb70136744689060"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cd6649b2287a6bfeb70136744689060">isAlphaSortAvailable</a> () const</td></tr>
 <tr class="separator:a0cd6649b2287a6bfeb70136744689060"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -471,13 +479,13 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a25d26ec62da3276a69b3f8c516c98887"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cb04be7931c10a1a93bb386ba1f7bb6" id="r_a7cb04be7931c10a1a93bb386ba1f7bb6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cb04be7931c10a1a93bb386ba1f7bb6">pixelRatio</a> { 1.0f }</td></tr>
 <tr class="separator:a7cb04be7931c10a1a93bb386ba1f7bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcae9cdb5ec2a2c07ab8bad1508bd3d8" id="r_abcae9cdb5ec2a2c07ab8bad1508bd3d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a03f74a1e18a3d4f45c60f19149483e87">Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcae9cdb5ec2a2c07ab8bad1508bd3d8">framebufferSize</a></td></tr>
+<tr class="memitem:abcae9cdb5ec2a2c07ab8bad1508bd3d8" id="r_abcae9cdb5ec2a2c07ab8bad1508bd3d8"><td class="memItemLeft" align="right" valign="top">Vector2i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcae9cdb5ec2a2c07ab8bad1508bd3d8">framebufferSize</a></td></tr>
 <tr class="separator:abcae9cdb5ec2a2c07ab8bad1508bd3d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace49ac281b241eab9e8e5f1aae4bcdbe" id="r_ace49ac281b241eab9e8e5f1aae4bcdbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a03f74a1e18a3d4f45c60f19149483e87">Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace49ac281b241eab9e8e5f1aae4bcdbe">windowSavePos</a></td></tr>
+<tr class="memitem:ace49ac281b241eab9e8e5f1aae4bcdbe" id="r_ace49ac281b241eab9e8e5f1aae4bcdbe"><td class="memItemLeft" align="right" valign="top">Vector2i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace49ac281b241eab9e8e5f1aae4bcdbe">windowSavePos</a></td></tr>
 <tr class="separator:ace49ac281b241eab9e8e5f1aae4bcdbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b4fb1e2f21f33e213858ab579eb8620" id="r_a2b4fb1e2f21f33e213858ab579eb8620"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a03f74a1e18a3d4f45c60f19149483e87">Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b4fb1e2f21f33e213858ab579eb8620">windowSaveSize</a></td></tr>
+<tr class="memitem:a2b4fb1e2f21f33e213858ab579eb8620" id="r_a2b4fb1e2f21f33e213858ab579eb8620"><td class="memItemLeft" align="right" valign="top">Vector2i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b4fb1e2f21f33e213858ab579eb8620">windowSaveSize</a></td></tr>
 <tr class="separator:a2b4fb1e2f21f33e213858ab579eb8620"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cdddbaa5eba70fd3ab533a608991894" id="r_a4cdddbaa5eba70fd3ab533a608991894"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a03f74a1e18a3d4f45c60f19149483e87">Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cdddbaa5eba70fd3ab533a608991894">windowOldPos</a></td></tr>
+<tr class="memitem:a4cdddbaa5eba70fd3ab533a608991894" id="r_a4cdddbaa5eba70fd3ab533a608991894"><td class="memItemLeft" align="right" valign="top">Vector2i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cdddbaa5eba70fd3ab533a608991894">windowOldPos</a></td></tr>
 <tr class="separator:a4cdddbaa5eba70fd3ab533a608991894"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d59e96ed0b5e74b104f0a94012c9185" id="r_a6d59e96ed0b5e74b104f0a94012c9185"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d59e96ed0b5e74b104f0a94012c9185">windowMaximized</a> { false }</td></tr>
 <tr class="separator:a6d59e96ed0b5e74b104f0a94012c9185"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -511,6 +519,14 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a64f16d29c9e05a7d11895a72ee949b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d2a1b3b7a99b0da26c4c32607f77f43" id="r_a5d2a1b3b7a99b0da26c4c32607f77f43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aec690d0dd00cd849a736c3436ed2e546">MouseScrollSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d2a1b3b7a99b0da26c4c32607f77f43">mouseScrollSignal</a></td></tr>
 <tr class="separator:a5d2a1b3b7a99b0da26c4c32607f77f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58b3c2c189ec36f9cc94c4cca9f3a25b" id="r_a58b3c2c189ec36f9cc94c4cca9f3a25b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1aecfd029115f7b6327183d3d313297a">MouseUpDownSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58b3c2c189ec36f9cc94c4cca9f3a25b">mouseClickSignal</a></td></tr>
+<tr class="separator:a58b3c2c189ec36f9cc94c4cca9f3a25b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1caa04e761486984969a78f76685f938" id="r_a1caa04e761486984969a78f76685f938"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1aecfd029115f7b6327183d3d313297a">MouseUpDownSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1caa04e761486984969a78f76685f938">dragStartSignal</a></td></tr>
+<tr class="separator:a1caa04e761486984969a78f76685f938"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56a065b32c494e3d533b08a24249d20e" id="r_a56a065b32c494e3d533b08a24249d20e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1aecfd029115f7b6327183d3d313297a">MouseUpDownSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56a065b32c494e3d533b08a24249d20e">dragEndSignal</a></td></tr>
+<tr class="separator:a56a065b32c494e3d533b08a24249d20e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae61b533e58da105143ce2e702dadc789" id="r_ae61b533e58da105143ce2e702dadc789"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a12789e9a254227b600592bce4d442758">MouseMoveSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae61b533e58da105143ce2e702dadc789">dragSignal</a></td></tr>
+<tr class="separator:ae61b533e58da105143ce2e702dadc789"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd3006129b57915bb8988a1afc0f095c" id="r_abd3006129b57915bb8988a1afc0f095c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a2af4faf6f3c5c1c112b74670726a060f">CursorEntranceSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd3006129b57915bb8988a1afc0f095c">cursorEntranceSignal</a></td></tr>
 <tr class="separator:abd3006129b57915bb8988a1afc0f095c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78a08a1f354a8570fa6589f63dab4476" id="r_a78a08a1f354a8570fa6589f63dab4476"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a568a2e57dd51e0ea9a8f4dc581695762">CharPressedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78a08a1f354a8570fa6589f63dab4476">charPressedSignal</a></td></tr>
@@ -1060,7 +1076,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">MRVIEWER_API <a class="el" href="structMR_1_1Image.html">Image</a> MR::Viewer::captureSceneScreenShot </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a03f74a1e18a3d4f45c60f19149483e87">Vector2i</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>resolution</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespaceMR.html#a03f74a1e18a3d4f45c60f19149483e87">Vector2i</a>()</span></td><td>)</td>
+          <td class="paramtype">const Vector2i &amp;</td>          <td class="paramname"><span class="paramname"><em>resolution</em></span><span class="paramdefsep"> = </span><span class="paramdefval">Vector2i()</span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1088,12 +1104,12 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a03f74a1e18a3d4f45c60f19149483e87">Vector2i</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespaceMR.html#a03f74a1e18a3d4f45c60f19149483e87">Vector2i</a>()</span>, </td>
+          <td class="paramtype">const Vector2i &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span><span class="paramdefsep"> = </span><span class="paramdefval">Vector2i()</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a03f74a1e18a3d4f45c60f19149483e87">Vector2i</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>size</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespaceMR.html#a03f74a1e18a3d4f45c60f19149483e87">Vector2i</a>()</span>&#160;)</td>
+          <td class="paramtype">const Vector2i &amp;</td>          <td class="paramname"><span class="paramname"><em>size</em></span><span class="paramdefsep"> = </span><span class="paramdefval">Vector2i()</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1192,6 +1208,27 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="ae08c5961fdb9631a768a60406145226a" name="ae08c5961fdb9631a768a60406145226a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae08c5961fdb9631a768a60406145226a">&#9670;&#160;</a></span>drag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::drag </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>mouse_x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>mouse_y</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a69116527e6d1bb79a5231d928ccf9bb9" name="a69116527e6d1bb79a5231d928ccf9bb9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a69116527e6d1bb79a5231d928ccf9bb9">&#9670;&#160;</a></span>dragDrop()</h2>
 
@@ -1203,6 +1240,48 @@ Friends</h2></td></tr>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; std::filesystem::path &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>paths</em></span></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9658bfe4b89713f69921ed4bc449eb5a" name="a9658bfe4b89713f69921ed4bc449eb5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9658bfe4b89713f69921ed4bc449eb5a">&#9670;&#160;</a></span>dragEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::dragEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a></td>          <td class="paramname"><span class="paramname"><em>button</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>modifier</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acf2a54437aa855aa6053d5e376069eb2" name="acf2a54437aa855aa6053d5e376069eb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf2a54437aa855aa6053d5e376069eb2">&#9670;&#160;</a></span>dragStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::dragStart </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a></td>          <td class="paramname"><span class="paramname"><em>button</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>modifier</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1364,7 +1443,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">MRVIEWER_API void MR::Viewer::fitBoxViewport </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a7609ed874338e695bb9d26fc7147dd3c">Box3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>box</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a3c1ffb4b21f3655a3749a74ba8c2ad3c">Box3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>box</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1852,7 +1931,7 @@ template&lt;typename PluginType &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API <a class="el" href="namespaceMR.html#a3382cb6b961019c59bc38f6e38fe1432">Box2f</a> MR::Viewer::getViewportsBounds </td>
+          <td class="memname">MRVIEWER_API Box2f MR::Viewer::getViewportsBounds </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -2407,6 +2486,27 @@ template&lt;typename PluginType &gt; </div>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a24fb1377eaabe916c15e03c1c11b83c7" name="a24fb1377eaabe916c15e03c1c11b83c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24fb1377eaabe916c15e03c1c11b83c7">&#9670;&#160;</a></span>mouseClick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::Viewer::mouseClick </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a></td>          <td class="paramname"><span class="paramname"><em>button</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>modifier</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3623,6 +3723,48 @@ template&lt;typename PluginType &gt; </div>
 
 </div>
 </div>
+<a id="a56a065b32c494e3d533b08a24249d20e" name="a56a065b32c494e3d533b08a24249d20e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56a065b32c494e3d533b08a24249d20e">&#9670;&#160;</a></span>dragEndSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a1aecfd029115f7b6327183d3d313297a">MouseUpDownSignal</a> MR::Viewer::dragEndSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae61b533e58da105143ce2e702dadc789" name="ae61b533e58da105143ce2e702dadc789"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae61b533e58da105143ce2e702dadc789">&#9670;&#160;</a></span>dragSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a12789e9a254227b600592bce4d442758">MouseMoveSignal</a> MR::Viewer::dragSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1caa04e761486984969a78f76685f938" name="a1caa04e761486984969a78f76685f938"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1caa04e761486984969a78f76685f938">&#9670;&#160;</a></span>dragStartSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a1aecfd029115f7b6327183d3d313297a">MouseUpDownSignal</a> MR::Viewer::dragStartSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a299cf1cccfffbe714ff8369008be4659" name="a299cf1cccfffbe714ff8369008be4659"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a299cf1cccfffbe714ff8369008be4659">&#9670;&#160;</a></span>drawSignal</h2>
 
@@ -3672,7 +3814,7 @@ template&lt;typename PluginType &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#a03f74a1e18a3d4f45c60f19149483e87">Vector2i</a> MR::Viewer::framebufferSize</td>
+          <td class="memname">Vector2i MR::Viewer::framebufferSize</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3771,6 +3913,20 @@ template&lt;typename PluginType &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="#a1e7b5d040663db04b5ee435db17f41df">KeySignal</a> MR::Viewer::keyUpSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a58b3c2c189ec36f9cc94c4cca9f3a25b" name="a58b3c2c189ec36f9cc94c4cca9f3a25b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58b3c2c189ec36f9cc94c4cca9f3a25b">&#9670;&#160;</a></span>mouseClickSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a1aecfd029115f7b6327183d3d313297a">MouseUpDownSignal</a> MR::Viewer::mouseClickSignal</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4302,7 +4458,7 @@ template&lt;typename PluginType &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#a03f74a1e18a3d4f45c60f19149483e87">Vector2i</a> MR::Viewer::windowOldPos</td>
+          <td class="memname">Vector2i MR::Viewer::windowOldPos</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4316,7 +4472,7 @@ template&lt;typename PluginType &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#a03f74a1e18a3d4f45c60f19149483e87">Vector2i</a> MR::Viewer::windowSavePos</td>
+          <td class="memname">Vector2i MR::Viewer::windowSavePos</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4330,7 +4486,7 @@ template&lt;typename PluginType &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#a03f74a1e18a3d4f45c60f19149483e87">Vector2i</a> MR::Viewer::windowSaveSize</td>
+          <td class="memname">Vector2i MR::Viewer::windowSaveSize</td>
         </tr>
       </table>
 </div><div class="memdoc">

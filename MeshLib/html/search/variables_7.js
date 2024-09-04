@@ -10,9 +10,11 @@ var searchData=
   ['globalbasisaxes_7',['globalBasisAxes',['../classMR_1_1Viewer.html#a001f35f7fc983544a5af14e38a07a450',1,'MR::Viewer']]],
   ['glpickradius_8',['glPickRadius',['../classMR_1_1Viewer.html#a240a033f91b3eb0250fa706cd2f2feb1',1,'MR::Viewer']]],
   ['gradualpressuregrowth_9',['gradualPressureGrowth',['../structMR_1_1InflateSettings.html#a01eec1ee9ce09177388ba2eb6097a88a',1,'MR::InflateSettings']]],
-  ['gridlevelset_10',['gridLevelSet',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#a5d28afdbdf8874a171bdaa3da9a77db7',1,'MR::VoxelsLoad::RawParameters']]],
-  ['gridtype_11',['gridType',['../structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a162c946b965977a5048ed85b3b7d1293',1,'MR::VoxelsLoad::LoadingTiffSettings']]],
-  ['groupsmap_12',['groupsMap',['../structMR_1_1RibbonSchema.html#a55e0334c55b2b6a85bc323a85f88ea10',1,'MR::RibbonSchema']]],
-  ['guicontext_5f_13',['guiContext_',['../classMR_1_1SplashWindow.html#a8e1b0c94c0dec969c8476897de435fdb',1,'MR::SplashWindow']]],
-  ['guideweight_14',['guideWeight',['../structMR_1_1DenoiseViaNormalsSettings.html#a6852271fa1efbc4da52e0fb5b851810f',1,'MR::DenoiseViaNormalsSettings']]]
+  ['graphedgetag_10',['GraphEdgeTag',['../namespaceMR.html#afa8211ed28ab87c4d0055c34f65e8e2f',1,'MR']]],
+  ['graphverttag_11',['GraphVertTag',['../namespaceMR.html#af83fca934e3cfaee4d5a825d215a698c',1,'MR']]],
+  ['gridlevelset_12',['gridLevelSet',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#a5d28afdbdf8874a171bdaa3da9a77db7',1,'MR::VoxelsLoad::RawParameters']]],
+  ['gridtype_13',['gridType',['../structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a162c946b965977a5048ed85b3b7d1293',1,'MR::VoxelsLoad::LoadingTiffSettings']]],
+  ['groupsmap_14',['groupsMap',['../structMR_1_1RibbonSchema.html#a55e0334c55b2b6a85bc323a85f88ea10',1,'MR::RibbonSchema']]],
+  ['guicontext_5f_15',['guiContext_',['../classMR_1_1SplashWindow.html#a8e1b0c94c0dec969c8476897de435fdb',1,'MR::SplashWindow']]],
+  ['guideweight_16',['guideWeight',['../structMR_1_1DenoiseViaNormalsSettings.html#a6852271fa1efbc4da52e0fb5b851810f',1,'MR::DenoiseViaNormalsSettings']]]
 ];

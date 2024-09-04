@@ -115,7 +115,7 @@ $(function(){initNavTree('structMR_1_1MeshBuilder_1_1BuildSettings.html',''); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a1fdb51404a12dafa32d295e97234ce4f" id="r_a1fdb51404a12dafa32d295e97234ce4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fdb51404a12dafa32d295e97234ce4f">region</a> = nullptr</td></tr>
+<tr class="memitem:a1fdb51404a12dafa32d295e97234ce4f" id="r_a1fdb51404a12dafa32d295e97234ce4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fdb51404a12dafa32d295e97234ce4f">region</a> = nullptr</td></tr>
 <tr class="memdesc:a1fdb51404a12dafa32d295e97234ce4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">if region is given then on input it contains the faces to be added, and on output the faces failed to be added  <br /></td></tr>
 <tr class="separator:a1fdb51404a12dafa32d295e97234ce4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad10a4f5f3fd6df3f484d8b95ef501285" id="r_ad10a4f5f3fd6df3f484d8b95ef501285"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad10a4f5f3fd6df3f484d8b95ef501285">shiftFaceId</a> = 0</td></tr>
@@ -124,6 +124,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ae841fb8d6bd1c0807eb8dde2d6875c26" id="r_ae841fb8d6bd1c0807eb8dde2d6875c26"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae841fb8d6bd1c0807eb8dde2d6875c26">allowNonManifoldEdge</a> = true</td></tr>
 <tr class="memdesc:ae841fb8d6bd1c0807eb8dde2d6875c26"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether to permit non-manifold edges in the resulting topology  <br /></td></tr>
 <tr class="separator:ae841fb8d6bd1c0807eb8dde2d6875c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20d73314208590b5844d5d8bf5b3f37f" id="r_a20d73314208590b5844d5d8bf5b3f37f"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20d73314208590b5844d5d8bf5b3f37f">skippedFaceCount</a> = nullptr</td></tr>
+<tr class="memdesc:a20d73314208590b5844d5d8bf5b3f37f"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output: counter of skipped faces during mesh creation  <br /></td></tr>
+<tr class="separator:a20d73314208590b5844d5d8bf5b3f37f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="ae841fb8d6bd1c0807eb8dde2d6875c26" name="ae841fb8d6bd1c0807eb8dde2d6875c26"></a>
@@ -149,7 +152,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#a99aaf8b4d98eafc2d7191aa2b6cdf655">FaceBitSet</a>* MR::MeshBuilder::BuildSettings::region = nullptr</td>
+          <td class="memname"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a>* MR::MeshBuilder::BuildSettings::region = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -171,6 +174,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>this value to be added to every faceId before its inclusion in the topology </p>
+
+</div>
+</div>
+<a id="a20d73314208590b5844d5d8bf5b3f37f" name="a20d73314208590b5844d5d8bf5b3f37f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20d73314208590b5844d5d8bf5b3f37f">&#9670;&#160;</a></span>skippedFaceCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int* MR::MeshBuilder::BuildSettings::skippedFaceCount = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>optional output: counter of skipped faces during mesh creation </p>
 
 </div>
 </div>

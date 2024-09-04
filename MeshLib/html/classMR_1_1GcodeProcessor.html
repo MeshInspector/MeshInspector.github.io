@@ -119,12 +119,14 @@ $(function(){initNavTree('classMR_1_1GcodeProcessor.html',''); initResizable(tru
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1GcodeProcessor_1_1BaseAction.html">BaseAction</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1GcodeProcessor_1_1Command.html">Command</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1GcodeProcessor_1_1MoveAction.html">MoveAction</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a02000ae4305a16e7aca1e6e09bb7e25a" id="r_a02000ae4305a16e7aca1e6e09bb7e25a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02000ae4305a16e7aca1e6e09bb7e25a">BaseAction2f</a> = <a class="el" href="structMR_1_1GcodeProcessor_1_1BaseAction.html">BaseAction</a>&lt;<a class="el" href="namespaceMR.html#ac6a962ec391c0d4b63c5f13e0bdec52c">Vector2f</a>&gt;</td></tr>
+<tr class="memitem:a02000ae4305a16e7aca1e6e09bb7e25a" id="r_a02000ae4305a16e7aca1e6e09bb7e25a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02000ae4305a16e7aca1e6e09bb7e25a">BaseAction2f</a> = <a class="el" href="structMR_1_1GcodeProcessor_1_1BaseAction.html">BaseAction</a>&lt;Vector2f&gt;</td></tr>
 <tr class="separator:a02000ae4305a16e7aca1e6e09bb7e25a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88ffeb0a2dcab67b585df870268d537d" id="r_a88ffeb0a2dcab67b585df870268d537d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88ffeb0a2dcab67b585df870268d537d">BaseAction3f</a> = <a class="el" href="structMR_1_1GcodeProcessor_1_1BaseAction.html">BaseAction</a>&lt;<a class="el" href="classVector3f.html">Vector3f</a>&gt;</td></tr>
 <tr class="separator:a88ffeb0a2dcab67b585df870268d537d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,8 +139,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ace829c3782f4685968c82c32de66a4d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac70b156fa41443a361dc92797369d6dd" id="r_ac70b156fa41443a361dc92797369d6dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1GcodeProcessor_1_1MoveAction.html">MoveAction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac70b156fa41443a361dc92797369d6dd">processSource</a> ()</td></tr>
 <tr class="separator:ac70b156fa41443a361dc92797369d6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46df9f79a5e8d11c252094b163da040b" id="r_a46df9f79a5e8d11c252094b163da040b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1GcodeProcessor_1_1MoveAction.html">MoveAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46df9f79a5e8d11c252094b163da040b">processLine</a> (const std::string_view &amp;line)</td></tr>
-<tr class="separator:a46df9f79a5e8d11c252094b163da040b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3330329ae3c98ae35d632ae247a6dd4b" id="r_a3330329ae3c98ae35d632ae247a6dd4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1GcodeProcessor_1_1MoveAction.html">MoveAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3330329ae3c98ae35d632ae247a6dd4b">processLine</a> (const std::string_view &amp;line, std::vector&lt; <a class="el" href="structMR_1_1GcodeProcessor_1_1Command.html">Command</a> &gt; &amp;externalStorage)</td></tr>
+<tr class="separator:a3330329ae3c98ae35d632ae247a6dd4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7d0067f2ea9fa17e9e56e625539e534" id="r_aa7d0067f2ea9fa17e9e56e625539e534"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7d0067f2ea9fa17e9e56e625539e534">setCNCMachineSettings</a> (const <a class="el" href="classMR_1_1CNCMachineSettings.html">CNCMachineSettings</a> &amp;settings)</td></tr>
 <tr class="separator:aa7d0067f2ea9fa17e9e56e625539e534"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d142a8122850941639d6ac3b62e425c" id="r_a3d142a8122850941639d6ac3b62e425c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1CNCMachineSettings.html">CNCMachineSettings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d142a8122850941639d6ac3b62e425c">getCNCMachineSettings</a> ()</td></tr>
@@ -152,7 +154,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a02000ae4305a16e7aca1e6e09bb7e25a">MR::GcodeProcessor::BaseAction2f</a> = <a class="el" href="structMR_1_1GcodeProcessor_1_1BaseAction.html">BaseAction</a>&lt;<a class="el" href="namespaceMR.html#ac6a962ec391c0d4b63c5f13e0bdec52c">Vector2f</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#a02000ae4305a16e7aca1e6e09bb7e25a">MR::GcodeProcessor::BaseAction2f</a> = <a class="el" href="structMR_1_1GcodeProcessor_1_1BaseAction.html">BaseAction</a>&lt;Vector2f&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -199,8 +201,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a46df9f79a5e8d11c252094b163da040b" name="a46df9f79a5e8d11c252094b163da040b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46df9f79a5e8d11c252094b163da040b">&#9670;&#160;</a></span>processLine()</h2>
+<a id="a3330329ae3c98ae35d632ae247a6dd4b" name="a3330329ae3c98ae35d632ae247a6dd4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3330329ae3c98ae35d632ae247a6dd4b">&#9670;&#160;</a></span>processLine()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -208,8 +210,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1GcodeProcessor_1_1MoveAction.html">MoveAction</a> MR::GcodeProcessor::processLine </td>
           <td>(</td>
-          <td class="paramtype">const std::string_view &amp;</td>          <td class="paramname"><span class="paramname"><em>line</em></span></td><td>)</td>
+          <td class="paramtype">const std::string_view &amp;</td>          <td class="paramname"><span class="paramname"><em>line</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1GcodeProcessor_1_1Command.html">Command</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>externalStorage</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

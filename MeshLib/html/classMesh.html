@@ -117,17 +117,33 @@ $(function(){initNavTree('classMesh.html',''); initResizable(true); });
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MRDotNet_2MRMesh_8h_source.html">MRMesh.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for Mesh:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classMesh.png" usemap="#Mesh_map" alt=""/>
+  <map id="Mesh_map" name="Mesh_map">
+<area href="interfaceMeshOrPoints.html" title="represents a point cloud or a mesh" alt="MeshOrPoints" shape="rect" coords="0,0,92,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5efe4da1a4c0971cfb037bd70304c303" id="r_a5efe4da1a4c0971cfb037bd70304c303"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5efe4da1a4c0971cfb037bd70304c303">~Mesh</a> ()</td></tr>
 <tr class="separator:a5efe4da1a4c0971cfb037bd70304c303"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebde2979e767302a66cab80f66ad8ce6" id="r_aebde2979e767302a66cab80f66ad8ce6"><td class="memItemLeft" align="right" valign="top">array&lt; <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebde2979e767302a66cab80f66ad8ce6">GetLeftTriVerts</a> (<a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a> e)</td></tr>
+<tr class="separator:aebde2979e767302a66cab80f66ad8ce6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a282809dc092878ceb37e7b00633a0c07" id="r_a282809dc092878ceb37e7b00633a0c07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a282809dc092878ceb37e7b00633a0c07">Transform</a> (<a class="el" href="classAffineXf3f.html">AffineXf3f</a>^ xf)</td></tr>
 <tr class="memdesc:a282809dc092878ceb37e7b00633a0c07"><td class="mdescLeft">&#160;</td><td class="mdescRight">transforms all points  <br /></td></tr>
 <tr class="separator:a282809dc092878ceb37e7b00633a0c07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4432fa9ff1f55f209275a1a91cb3cc0c" id="r_a4432fa9ff1f55f209275a1a91cb3cc0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4432fa9ff1f55f209275a1a91cb3cc0c">Transform</a> (<a class="el" href="classAffineXf3f.html">AffineXf3f</a>^ xf, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a>^ region)</td></tr>
 <tr class="memdesc:a4432fa9ff1f55f209275a1a91cb3cc0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">transforms all points in the region  <br /></td></tr>
 <tr class="separator:a4432fa9ff1f55f209275a1a91cb3cc0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5195a0027b8c080936de4c66cef131a6" id="r_a5195a0027b8c080936de4c66cef131a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5195a0027b8c080936de4c66cef131a6">PackOptimally</a> ()</td></tr>
+<tr class="memdesc:a5195a0027b8c080936de4c66cef131a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">packs tightly and rearranges vertices, triangles and edges to put close in space elements in close indices  <br /></td></tr>
+<tr class="separator:a5195a0027b8c080936de4c66cef131a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -164,17 +180,27 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a0de567e96ee32ee50a5d79787638609d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a117ab7de85ea8d92d645d96f81a8b771" id="r_a117ab7de85ea8d92d645d96f81a8b771"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a117ab7de85ea8d92d645d96f81a8b771">MakeCylinder</a> (float radius0, float radius1, float startAngle, float arcSize, float <a class="el" href="MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7">length</a>, int resolution)</td></tr>
 <tr class="separator:a117ab7de85ea8d92d645d96f81a8b771"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad220996d27839bc026b0be4ed3348799" id="r_ad220996d27839bc026b0be4ed3348799"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMeshProjectionResult.html">MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad220996d27839bc026b0be4ed3348799">FindProjection</a> (<a class="el" href="classVector3f.html">Vector3f</a>^ point, <a class="el" href="structMeshPart.html">MeshPart</a> meshPart)</td></tr>
+<tr class="separator:ad220996d27839bc026b0be4ed3348799"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68123322c9b49d0ebcdc20c63ef142ed" id="r_a68123322c9b49d0ebcdc20c63ef142ed"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMeshProjectionResult.html">MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68123322c9b49d0ebcdc20c63ef142ed">FindProjection</a> (<a class="el" href="classVector3f.html">Vector3f</a>^ point, <a class="el" href="structMeshPart.html">MeshPart</a> meshPart, float maxDistanceSquared)</td></tr>
+<tr class="separator:a68123322c9b49d0ebcdc20c63ef142ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab67a35f5e92cf886099d1995ac0bf25d" id="r_ab67a35f5e92cf886099d1995ac0bf25d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMeshProjectionResult.html">MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab67a35f5e92cf886099d1995ac0bf25d">FindProjection</a> (<a class="el" href="classVector3f.html">Vector3f</a>^ point, <a class="el" href="structMeshPart.html">MeshPart</a> meshPart, float maxDistanceSquared, <a class="el" href="classAffineXf3f.html">AffineXf3f</a>^ xf)</td></tr>
+<tr class="separator:ab67a35f5e92cf886099d1995ac0bf25d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bcfc746ea59700b664c274d595b50d4" id="r_a9bcfc746ea59700b664c274d595b50d4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMeshProjectionResult.html">MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bcfc746ea59700b664c274d595b50d4">FindProjection</a> (<a class="el" href="classVector3f.html">Vector3f</a>^ point, <a class="el" href="structMeshPart.html">MeshPart</a> meshPart, float maxDistanceSquared, <a class="el" href="classAffineXf3f.html">AffineXf3f</a>^ xf, float minDistanceSquared)</td></tr>
+<tr class="separator:a9bcfc746ea59700b664c274d595b50d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a2e067e02f3e3e381882eb8eb8e05022e" id="r_a2e067e02f3e3e381882eb8eb8e05022e"><td class="memItemLeft" align="right" valign="top">internal&#160;</td><td class="memItemRight" valign="bottom">: <a class="el" href="classMesh.html">Mesh</a>( <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a>* mesh )</td></tr>
 <tr class="separator:a2e067e02f3e3e381882eb8eb8e05022e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad629d82feb94351e77bca972184f25c7" id="r_ad629d82feb94351e77bca972184f25c7"><td class="memItemLeft" align="right" valign="top">property <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a2decdf8d314701a25048c6bde5bae919">VertCoordsReadOnly</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad629d82feb94351e77bca972184f25c7">Points</a> { <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a2decdf8d314701a25048c6bde5bae919">VertCoordsReadOnly</a>^ get()</td></tr>
-<tr class="memdesc:ad629d82feb94351e77bca972184f25c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">point coordinates  <br /></td></tr>
-<tr class="separator:ad629d82feb94351e77bca972184f25c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a1275d9de7dd481188a4f7368d7c62c" id="r_a5a1275d9de7dd481188a4f7368d7c62c"><td class="memItemLeft" align="right" valign="top">property <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a25801c708b161c47ca8f95bd4d5bdf5a">VertBitSetReadOnly</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a1275d9de7dd481188a4f7368d7c62c">ValidVerts</a> { <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a25801c708b161c47ca8f95bd4d5bdf5a">VertBitSetReadOnly</a>^ get()</td></tr>
-<tr class="memdesc:a5a1275d9de7dd481188a4f7368d7c62c"><td class="mdescLeft">&#160;</td><td class="mdescRight">set of all valid vertices  <br /></td></tr>
-<tr class="separator:a5a1275d9de7dd481188a4f7368d7c62c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdd2bbbff4c1c4338d6f1246dd542fa8" id="r_acdd2bbbff4c1c4338d6f1246dd542fa8"><td class="memItemLeft" align="right" valign="top">virtual property <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a2decdf8d314701a25048c6bde5bae919">VertCoordsReadOnly</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdd2bbbff4c1c4338d6f1246dd542fa8">Points</a> { <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a2decdf8d314701a25048c6bde5bae919">VertCoordsReadOnly</a>^ get()</td></tr>
+<tr class="memdesc:acdd2bbbff4c1c4338d6f1246dd542fa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">point coordinates  <br /></td></tr>
+<tr class="separator:acdd2bbbff4c1c4338d6f1246dd542fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d8f4d05e32491bc624fcc87a5c4849f" id="r_a8d8f4d05e32491bc624fcc87a5c4849f"><td class="memItemLeft" align="right" valign="top">virtual property <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a25801c708b161c47ca8f95bd4d5bdf5a">VertBitSetReadOnly</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d8f4d05e32491bc624fcc87a5c4849f">ValidPoints</a> { <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a25801c708b161c47ca8f95bd4d5bdf5a">VertBitSetReadOnly</a>^ get()</td></tr>
+<tr class="memdesc:a8d8f4d05e32491bc624fcc87a5c4849f"><td class="mdescLeft">&#160;</td><td class="mdescRight">set of all valid vertices  <br /></td></tr>
+<tr class="separator:a8d8f4d05e32491bc624fcc87a5c4849f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb4240bde16fa7e0d103fc19456362ec" id="r_acb4240bde16fa7e0d103fc19456362ec"><td class="memItemLeft" align="right" valign="top">virtual property <a class="el" href="classBox3f.html">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb4240bde16fa7e0d103fc19456362ec">BoundingBox</a> { <a class="el" href="classBox3f.html">Box3f</a>^ get()</td></tr>
+<tr class="separator:acb4240bde16fa7e0d103fc19456362ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27ec1f862ac539c30aa0ed8521c2d8c5" id="r_a27ec1f862ac539c30aa0ed8521c2d8c5"><td class="memItemLeft" align="right" valign="top">property <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#af0c25997d2154db43044e5b99b5ef5d5">FaceBitSetReadOnly</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27ec1f862ac539c30aa0ed8521c2d8c5">ValidFaces</a> { <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#af0c25997d2154db43044e5b99b5ef5d5">FaceBitSetReadOnly</a>^ get()</td></tr>
 <tr class="memdesc:a27ec1f862ac539c30aa0ed8521c2d8c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">set of all valid faces  <br /></td></tr>
 <tr class="separator:a27ec1f862ac539c30aa0ed8521c2d8c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -184,6 +210,13 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a38344f7839edade15b54ebf40da394e7" id="r_a38344f7839edade15b54ebf40da394e7"><td class="memItemLeft" align="right" valign="top">property <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a814165b4f9376ee12eecff9ade63c012">EdgePathReadOnly</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38344f7839edade15b54ebf40da394e7">HoleRepresentiveEdges</a> { <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a814165b4f9376ee12eecff9ade63c012">EdgePathReadOnly</a>^ get()</td></tr>
 <tr class="memdesc:a38344f7839edade15b54ebf40da394e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">edges with no valid left face for every boundary in the mesh  <br /></td></tr>
 <tr class="separator:a38344f7839edade15b54ebf40da394e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_interfaceMeshOrPoints"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_interfaceMeshOrPoints')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="interfaceMeshOrPoints.html">MeshOrPoints</a></td></tr>
+<tr class="memitem:a506a48afa52d120e6ba4a0f1d4c4e9e4 inherit pub_attribs_interfaceMeshOrPoints" id="r_a506a48afa52d120e6ba4a0f1d4c4e9e4"><td class="memItemLeft" align="right" valign="top">property <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a2decdf8d314701a25048c6bde5bae919">VertCoordsReadOnly</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceMeshOrPoints.html#a506a48afa52d120e6ba4a0f1d4c4e9e4">Points</a> { <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a2decdf8d314701a25048c6bde5bae919">VertCoordsReadOnly</a>^ get()</td></tr>
+<tr class="separator:a506a48afa52d120e6ba4a0f1d4c4e9e4 inherit pub_attribs_interfaceMeshOrPoints"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60e9ad4d7a9b80fe5c1a73e5f0526ebc inherit pub_attribs_interfaceMeshOrPoints" id="r_a60e9ad4d7a9b80fe5c1a73e5f0526ebc"><td class="memItemLeft" align="right" valign="top">property <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a25801c708b161c47ca8f95bd4d5bdf5a">VertBitSetReadOnly</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceMeshOrPoints.html#a60e9ad4d7a9b80fe5c1a73e5f0526ebc">ValidPoints</a> { <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a25801c708b161c47ca8f95bd4d5bdf5a">VertBitSetReadOnly</a>^ get()</td></tr>
+<tr class="separator:a60e9ad4d7a9b80fe5c1a73e5f0526ebc inherit pub_attribs_interfaceMeshOrPoints"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34450bdc2efa2659a3a4aa51eaeb758e inherit pub_attribs_interfaceMeshOrPoints" id="r_a34450bdc2efa2659a3a4aa51eaeb758e"><td class="memItemLeft" align="right" valign="top">property <a class="el" href="classBox3f.html">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceMeshOrPoints.html#a34450bdc2efa2659a3a4aa51eaeb758e">BoundingBox</a> { <a class="el" href="classBox3f.html">Box3f</a>^ get()</td></tr>
+<tr class="separator:a34450bdc2efa2659a3a4aa51eaeb758e inherit pub_attribs_interfaceMeshOrPoints"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>represents a mesh, including topology (connectivity) information and point coordinates, </p>
@@ -206,6 +239,152 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad220996d27839bc026b0be4ed3348799" name="ad220996d27839bc026b0be4ed3348799"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad220996d27839bc026b0be4ed3348799">&#9670;&#160;</a></span>FindProjection() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="structMeshProjectionResult.html">MeshProjectionResult</a> Mesh::FindProjection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classVector3f.html">Vector3f</a>^</td>          <td class="paramname"><span class="paramname"><em>point</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMeshPart.html">MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a68123322c9b49d0ebcdc20c63ef142ed" name="a68123322c9b49d0ebcdc20c63ef142ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68123322c9b49d0ebcdc20c63ef142ed">&#9670;&#160;</a></span>FindProjection() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="structMeshProjectionResult.html">MeshProjectionResult</a> Mesh::FindProjection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classVector3f.html">Vector3f</a>^</td>          <td class="paramname"><span class="paramname"><em>point</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMeshPart.html">MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxDistanceSquared</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab67a35f5e92cf886099d1995ac0bf25d" name="ab67a35f5e92cf886099d1995ac0bf25d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab67a35f5e92cf886099d1995ac0bf25d">&#9670;&#160;</a></span>FindProjection() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="structMeshProjectionResult.html">MeshProjectionResult</a> Mesh::FindProjection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classVector3f.html">Vector3f</a>^</td>          <td class="paramname"><span class="paramname"><em>point</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMeshPart.html">MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxDistanceSquared</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classAffineXf3f.html">AffineXf3f</a>^</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9bcfc746ea59700b664c274d595b50d4" name="a9bcfc746ea59700b664c274d595b50d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bcfc746ea59700b664c274d595b50d4">&#9670;&#160;</a></span>FindProjection() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="structMeshProjectionResult.html">MeshProjectionResult</a> Mesh::FindProjection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classVector3f.html">Vector3f</a>^</td>          <td class="paramname"><span class="paramname"><em>point</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMeshPart.html">MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxDistanceSquared</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classAffineXf3f.html">AffineXf3f</a>^</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minDistanceSquared</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae698dd222af59b3e1bb5b1d834fea739" name="ae698dd222af59b3e1bb5b1d834fea739"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae698dd222af59b3e1bb5b1d834fea739">&#9670;&#160;</a></span>FromAnySupportedFormat()</h2>
 
@@ -292,6 +471,24 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>creates mesh from point coordinates and triangulation. If some vertices are not manifold, they will be duplicated </p>
+
+</div>
+</div>
+<a id="aebde2979e767302a66cab80f66ad8ce6" name="aebde2979e767302a66cab80f66ad8ce6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebde2979e767302a66cab80f66ad8ce6">&#9670;&#160;</a></span>GetLeftTriVerts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">array&lt; <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a97d91fcf1566198a2abf87966d056a9f">VertId</a> &gt; Mesh::GetLeftTriVerts </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRDotNet_2MRMeshFwd_8h.html#add62b8bcfb58fedb4bcb251ed3e5f5c8">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>gets 3 vertices of the left face ( face-id may not exist, but the shape must be triangular) the vertices are returned in counter-clockwise order if look from mesh outside </p>
 
 </div>
 </div>
@@ -617,6 +814,25 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5195a0027b8c080936de4c66cef131a6" name="a5195a0027b8c080936de4c66cef131a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5195a0027b8c080936de4c66cef131a6">&#9670;&#160;</a></span>PackOptimally()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Mesh::PackOptimally </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>packs tightly and rearranges vertices, triangles and edges to put close in space elements in close indices </p>
+
+</div>
+</div>
 <a id="a1a49b3acd22e717da861209f6bedc89e" name="a1a49b3acd22e717da861209f6bedc89e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1a49b3acd22e717da861209f6bedc89e">&#9670;&#160;</a></span>ToAnySupportedFormat()</h2>
 
@@ -705,6 +921,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="acb4240bde16fa7e0d103fc19456362ec" name="acb4240bde16fa7e0d103fc19456362ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb4240bde16fa7e0d103fc19456362ec">&#9670;&#160;</a></span>BoundingBox</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual property <a class="el" href="classBox3f.html">Box3f</a> Mesh::BoundingBox { <a class="el" href="classBox3f.html">Box3f</a>^ get()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a38344f7839edade15b54ebf40da394e7" name="a38344f7839edade15b54ebf40da394e7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a38344f7839edade15b54ebf40da394e7">&#9670;&#160;</a></span>HoleRepresentiveEdges</h2>
 
@@ -721,14 +951,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad629d82feb94351e77bca972184f25c7" name="ad629d82feb94351e77bca972184f25c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad629d82feb94351e77bca972184f25c7">&#9670;&#160;</a></span>Points</h2>
+<a id="acdd2bbbff4c1c4338d6f1246dd542fa8" name="acdd2bbbff4c1c4338d6f1246dd542fa8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdd2bbbff4c1c4338d6f1246dd542fa8">&#9670;&#160;</a></span>Points</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">property <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a2decdf8d314701a25048c6bde5bae919">VertCoordsReadOnly</a> Mesh::Points { <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a2decdf8d314701a25048c6bde5bae919">VertCoordsReadOnly</a>^ get()</td>
+          <td class="memname">virtual property <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a2decdf8d314701a25048c6bde5bae919">VertCoordsReadOnly</a> Mesh::Points { <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a2decdf8d314701a25048c6bde5bae919">VertCoordsReadOnly</a>^ get()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -769,14 +999,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a5a1275d9de7dd481188a4f7368d7c62c" name="a5a1275d9de7dd481188a4f7368d7c62c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a1275d9de7dd481188a4f7368d7c62c">&#9670;&#160;</a></span>ValidVerts</h2>
+<a id="a8d8f4d05e32491bc624fcc87a5c4849f" name="a8d8f4d05e32491bc624fcc87a5c4849f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d8f4d05e32491bc624fcc87a5c4849f">&#9670;&#160;</a></span>ValidPoints</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">property <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a25801c708b161c47ca8f95bd4d5bdf5a">VertBitSetReadOnly</a> Mesh::ValidVerts { <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a25801c708b161c47ca8f95bd4d5bdf5a">VertBitSetReadOnly</a>^ get()</td>
+          <td class="memname">virtual property <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a25801c708b161c47ca8f95bd4d5bdf5a">VertBitSetReadOnly</a> Mesh::ValidPoints { <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a25801c708b161c47ca8f95bd4d5bdf5a">VertBitSetReadOnly</a>^ get()</td>
         </tr>
       </table>
 </div><div class="memdoc">

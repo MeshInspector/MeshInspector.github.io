@@ -121,7 +121,7 @@ Functions</h2></td></tr>
 <tr class="memitem:gad9c4f2546d1a40da39bccf700c70ee49" id="r_gad9c4f2546d1a40da39bccf700c70ee49"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gad9c4f2546d1a40da39bccf700c70ee49"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gad9c4f2546d1a40da39bccf700c70ee49">MR::intersection</a> (const <a class="el" href="namespaceMR.html#a7eef389e2e2dd24fc59576c7ad184eb5">Line3</a>&lt; T &gt; &amp;line1, const <a class="el" href="namespaceMR.html#a7eef389e2e2dd24fc59576c7ad184eb5">Line3</a>&lt; T &gt; &amp;line2, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</td></tr>
 <tr class="separator:gad9c4f2546d1a40da39bccf700c70ee49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga09243a2c7d047fea71d5b6ee805bb486" id="r_ga09243a2c7d047fea71d5b6ee805bb486"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="namespaceMR.html#ac6a962ec391c0d4b63c5f13e0bdec52c">Vector2f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga09243a2c7d047fea71d5b6ee805bb486">MR::intersection</a> (const <a class="el" href="namespaceMR.html#a8d9314c4f131e70a84c8c2b76efade3f">LineSegm2f</a> &amp;segm1, const <a class="el" href="namespaceMR.html#a8d9314c4f131e70a84c8c2b76efade3f">LineSegm2f</a> &amp;segm2)</td></tr>
+<tr class="memitem:ga09243a2c7d047fea71d5b6ee805bb486" id="r_ga09243a2c7d047fea71d5b6ee805bb486"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Vector2f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga09243a2c7d047fea71d5b6ee805bb486">MR::intersection</a> (const LineSegm2f &amp;segm1, const LineSegm2f &amp;segm2)</td></tr>
 <tr class="separator:ga09243a2c7d047fea71d5b6ee805bb486"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8fe41c203bb90cc8a7dc06426f6682f4" id="r_ga8fe41c203bb90cc8a7dc06426f6682f4"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga8fe41c203bb90cc8a7dc06426f6682f4"><td class="memTemplItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga8fe41c203bb90cc8a7dc06426f6682f4">MR::distanceSq</a> (const <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt; &amp;plane1, const <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt; &amp;plane2, T errorLimit=std::numeric_limits&lt; T &gt;::epsilon() *T(20))</td></tr>
@@ -377,14 +377,14 @@ template&lt;typename V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::optional&lt; <a class="el" href="namespaceMR.html#ac6a962ec391c0d4b63c5f13e0bdec52c">Vector2f</a> &gt; MR::intersection </td>
+          <td class="memname">std::optional&lt; Vector2f &gt; MR::intersection </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a8d9314c4f131e70a84c8c2b76efade3f">LineSegm2f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>segm1</em></span>, </td>
+          <td class="paramtype">const LineSegm2f &amp;</td>          <td class="paramname"><span class="paramname"><em>segm1</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a8d9314c4f131e70a84c8c2b76efade3f">LineSegm2f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>segm2</em></span>&#160;)</td>
+          <td class="paramtype">const LineSegm2f &amp;</td>          <td class="paramname"><span class="paramname"><em>segm2</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

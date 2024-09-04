@@ -31,7 +31,7 @@ var group__PointCloudGroup =
       [ "type", "structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d", null ]
     ] ],
     [ "MR::RegularMapMesher", "classMR_1_1RegularMapMesher.html", [
-      [ "createMesh", "classMR_1_1RegularMapMesher.html#a7657ae3ab0fd1cabab1007a4ac9624eb", null ],
+      [ "createMesh", "classMR_1_1RegularMapMesher.html#acdde192d67f89fe363a158f3ee13f499", null ],
       [ "loadDirectionsPC", "classMR_1_1RegularMapMesher.html#a0b822d1160d10749302218a02ecf23f7", null ],
       [ "loadDistances", "classMR_1_1RegularMapMesher.html#abcaf63824e1d2e6950436bb64b0ed238", null ],
       [ "loadSurfacePC", "classMR_1_1RegularMapMesher.html#a6dc043a7a516e3b50448b18d4e127971", null ],
@@ -45,9 +45,9 @@ var group__PointCloudGroup =
     [ "MR::makeOrientedNormals", "group__PointCloudGroup.html#gab197779cd5dda18a937f178ef98ceb27", null ],
     [ "MR::makeOrientedNormals", "group__PointCloudGroup.html#ga40da78b08c082b4012d578e9b68e0c69", null ],
     [ "MR::makeUniformSampledCloud", "group__PointCloudGroup.html#gacc95b061bc268ba7d0b6e32ac47807f7", null ],
-    [ "MR::makeUnorientedNormals", "group__PointCloudGroup.html#ga04eb12c4821cbe0801dbc7dc8472992c", null ],
-    [ "MR::makeUnorientedNormals", "group__PointCloudGroup.html#gac7146c862a7b70f47e77f3cc3ffc9a23", null ],
-    [ "MR::makeUnorientedNormals", "group__PointCloudGroup.html#ga42d06dcccdf8aba01730bf868b2fec39", null ],
+    [ "MR::makeUnorientedNormals", "group__PointCloudGroup.html#ga7448439cf7b5f0ec6ed3d9488bef703a", null ],
+    [ "MR::makeUnorientedNormals", "group__PointCloudGroup.html#gae615385e5a3c6640f53b2afd04658838", null ],
+    [ "MR::makeUnorientedNormals", "group__PointCloudGroup.html#gacc81cfcb469766869e22075807c018db", null ],
     [ "MR::orientNormals", "group__PointCloudGroup.html#gaa8f205918af032263bddf663cd5e03f0", null ],
     [ "MR::orientNormals", "group__PointCloudGroup.html#ga450ad031ccac1e86e9a4f076d1aabd3a", null ],
     [ "MR::orientNormals", "group__PointCloudGroup.html#gac088f8a5d90a98ec6f18e97caca298f2", null ],
