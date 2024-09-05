@@ -10,7 +10,7 @@ var searchData=
   ['dblareasq_7',['dblAreaSq',['../namespaceMR.html#af848b7a93acc5e03bfea1f8bcc3ffdb7',1,'MR']]],
   ['deactivatefarpairs_8',['deactivateFarPairs',['../namespaceMR.html#aecd7603141fb9c3b9658281cdd4e2ca9',1,'MR']]],
   ['decimate_9',['Decimate',['../classMeshDecimate.html#a2596262aac1230b382eb8cb4d3f1db58',1,'MeshDecimate']]],
-  ['decimate_10',['Mesh decimate',['../ExamplePythonMeshDecimate.html',1,'PythonCodeExamples']]],
+  ['decimate_10',['decimate',['../structMR_1_1RebuildMeshSettings.html#a6e10f1d5847ddc2cb5de056bf3031453',1,'MR::RebuildMeshSettings::decimate'],['../ExamplePythonMeshDecimate.html',1,'Mesh decimate']]],
   ['decimate_20overview_11',['Decimate overview',['../group__DecimateGroup.html',1,'']]],
   ['decimatebetweenparts_12',['decimateBetweenParts',['../structDecimateParameters.html#a25468add72e48c64b6075006461fa6c4',1,'DecimateParameters::decimateBetweenParts'],['../structMR_1_1DecimateSettings.html#a75b6f5ba5cb1ddac954f9ffd4fb9b7fe',1,'MR::DecimateSettings::decimateBetweenParts'],['../structMRDecimateSettings.html#a332cd2d944c5ad67cfc87294c22dc628',1,'MRDecimateSettings::decimateBetweenParts']]],
   ['decimatecontour_13',['decimateContour',['../group__DecimateGroup.html#gac12c761d9044619a794badf63900a599',1,'MR::decimateContour(Contour2f &amp;contour, const DecimatePolylineSettings2 &amp;settings={})'],['../namespaceMR.html#a6f9fa131498e694eaa8674f7a73a01c6',1,'MR::decimateContour(Contour3f &amp;contour, const DecimatePolylineSettings3 &amp;settings={})']]],

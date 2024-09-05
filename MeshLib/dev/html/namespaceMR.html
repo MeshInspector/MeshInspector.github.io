@@ -1223,6 +1223,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RayOrigin.html">RayOrigin</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RebuildMeshSettings.html">RebuildMeshSettings</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RecentFilesStore.html">RecentFilesStore</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RectIndexer.html">RectIndexer</a></td></tr>
@@ -2155,6 +2157,11 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:af24a4564a6b209f61d84fd30c8c71a8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the method how to choose between two opposite normal orientations  <a href="#af24a4564a6b209f61d84fd30c8c71a8b">More...</a><br /></td></tr>
 <tr class="separator:af24a4564a6b209f61d84fd30c8c71a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa631c02105f2a8fa6fe24c7873e8d98" id="r_aaa631c02105f2a8fa6fe24c7873e8d98"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa631c02105f2a8fa6fe24c7873e8d98">OffsetMode</a> : int { <a class="el" href="#aaa631c02105f2a8fa6fe24c7873e8d98ae510cdf33cd497134b47b9316314d4b4">Smooth</a>
+, <a class="el" href="#aaa631c02105f2a8fa6fe24c7873e8d98aeb6d8ae6f20283755b339c0dc273988b">Standard</a>
+, <a class="el" href="#aaa631c02105f2a8fa6fe24c7873e8d98a1e97e73f1e45d465e23a2ea172bc3355">Sharpening</a>
+ }</td></tr>
+<tr class="separator:aaa631c02105f2a8fa6fe24c7873e8d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e2748a930a13a0cacf2a0a2da1b6e0d" id="r_a0e2748a930a13a0cacf2a0a2da1b6e0d"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e2748a930a13a0cacf2a0a2da1b6e0d">FeaturesObjectKind</a> { <br />
 &#160;&#160;<a class="el" href="#a0e2748a930a13a0cacf2a0a2da1b6e0da2a3cd5946cfd317eb99c3d32e35e2d4c">Point</a>
 , <a class="el" href="#a0e2748a930a13a0cacf2a0a2da1b6e0da4803e6b9e63dabf04de980788d6a13c4">Line</a>
@@ -4312,6 +4319,8 @@ Functions</h2></td></tr>
 <tr class="memitem:adce75421b145a5c2c9748727dc87e954" id="r_adce75421b145a5c2c9748727dc87e954"><td class="memTemplParams" colspan="2">template&lt;typename T  = float&gt; </td></tr>
 <tr class="memitem:adce75421b145a5c2c9748727dc87e954"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#adce75421b145a5c2c9748727dc87e954">rayBoxIntersect</a> (const Box2&lt; T &gt; &amp;box, const Line2&lt; T &gt; &amp;line, T t0, T t1)</td></tr>
 <tr class="separator:adce75421b145a5c2c9748727dc87e954"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1950e091cc75518f35b97d8bed80953f" id="r_a1950e091cc75518f35b97d8bed80953f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1950e091cc75518f35b97d8bed80953f">rebuildMesh</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="structMR_1_1RebuildMeshSettings.html">RebuildMeshSettings</a> &amp;settings)</td></tr>
+<tr class="separator:a1950e091cc75518f35b97d8bed80953f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga91a308e751ba7d6ace30ea1a895eb3fb" id="r_ga91a308e751ba7d6ace30ea1a895eb3fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__DistanceMapGroup.html#gab7acb4543154d042c297e5823fb633b6">OutEdge2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#ga91a308e751ba7d6ace30ea1a895eb3fb">opposite</a> (<a class="el" href="group__DistanceMapGroup.html#gab7acb4543154d042c297e5823fb633b6">OutEdge2</a> e)</td></tr>
 <tr class="separator:ga91a308e751ba7d6ace30ea1a895eb3fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6c5838a3065551d1adbcde13e5cf895b" id="r_ga6c5838a3065551d1adbcde13e5cf895b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#ga6c5838a3065551d1adbcde13e5cf895b">expandPixelMask</a> (PixelBitSet &amp;mask, const <a class="el" href="classMR_1_1RectIndexer.html">RectIndexer</a> &amp;indexer, int expansion=1)</td></tr>
@@ -8651,6 +8660,36 @@ template&lt;typename Volume &gt; </div>
 <tr><td class="fieldname"><a id="a09f9590ed4411f71af1c1526458d5dd1a85a27592021a82ac0d0cce34c2c39963" name="a09f9590ed4411f71af1c1526458d5dd1a85a27592021a82ac0d0cce34c2c39963"></a>distributePrecision&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a09f9590ed4411f71af1c1526458d5dd1aab3b1598e0b02155373807025b067f9a" name="a09f9590ed4411f71af1c1526458d5dd1aab3b1598e0b02155373807025b067f9a"></a>exponential&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a09f9590ed4411f71af1c1526458d5dd1aef35e675be34b03d23d2f68b3dc409fe" name="a09f9590ed4411f71af1c1526458d5dd1aef35e675be34b03d23d2f68b3dc409fe"></a>maybeExponential&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="aaa631c02105f2a8fa6fe24c7873e8d98" name="aaa631c02105f2a8fa6fe24c7873e8d98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa631c02105f2a8fa6fe24c7873e8d98">&#9670;&#160;</a></span>OffsetMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#aaa631c02105f2a8fa6fe24c7873e8d98">MR::OffsetMode</a> : int</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aaa631c02105f2a8fa6fe24c7873e8d98ae510cdf33cd497134b47b9316314d4b4" name="aaa631c02105f2a8fa6fe24c7873e8d98ae510cdf33cd497134b47b9316314d4b4"></a>Smooth&#160;</td><td class="fielddoc"><p>create mesh using dual marching cubes from OpenVDB library </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaa631c02105f2a8fa6fe24c7873e8d98aeb6d8ae6f20283755b339c0dc273988b" name="aaa631c02105f2a8fa6fe24c7873e8d98aeb6d8ae6f20283755b339c0dc273988b"></a>Standard&#160;</td><td class="fielddoc"><p>create mesh using standard marching cubes implemented in MeshLib </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aaa631c02105f2a8fa6fe24c7873e8d98a1e97e73f1e45d465e23a2ea172bc3355" name="aaa631c02105f2a8fa6fe24c7873e8d98a1e97e73f1e45d465e23a2ea172bc3355"></a>Sharpening&#160;</td><td class="fielddoc"><p>create mesh using standard marching cubes with additional sharpening implemented in MeshLib </p>
+</td></tr>
 </table>
 
 </div>
@@ -25051,6 +25090,36 @@ template&lt;typename T , typename <a class="el" href="#aae89e209e34f26d7ae6dcc7b
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1950e091cc75518f35b97d8bed80953f" name="a1950e091cc75518f35b97d8bed80953f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1950e091cc75518f35b97d8bed80953f">&#9670;&#160;</a></span>rebuildMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::rebuildMesh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1RebuildMeshSettings.html">RebuildMeshSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>fixes all types of issues in input mesh (degenerations, holes, self-intersections, etc.) by first converting mesh in voxel representation, and then backward </p>
 
 </div>
 </div>

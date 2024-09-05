@@ -641,6 +641,7 @@ var annotated_dup =
       [ "RangeSize", "structMR_1_1RangeSize.html", "structMR_1_1RangeSize" ],
       [ "RawTiffOutput", "structMR_1_1RawTiffOutput.html", "structMR_1_1RawTiffOutput" ],
       [ "RayOrigin", "structMR_1_1RayOrigin.html", "structMR_1_1RayOrigin" ],
+      [ "RebuildMeshSettings", "structMR_1_1RebuildMeshSettings.html", "structMR_1_1RebuildMeshSettings" ],
       [ "RecentFilesStore", "classMR_1_1RecentFilesStore.html", "classMR_1_1RecentFilesStore" ],
       [ "RectIndexer", "classMR_1_1RectIndexer.html", "classMR_1_1RectIndexer" ],
       [ "RefineParameters", "structMR_1_1RefineParameters.html", "structMR_1_1RefineParameters" ],

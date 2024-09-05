@@ -314,6 +314,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRRadiusMeasurementObject.h", "MRRadiusMeasurementObject_8h.html", "MRRadiusMeasurementObject_8h" ],
     [ "MRRayBoxIntersection.h", "MRRayBoxIntersection_8h.html", "MRRayBoxIntersection_8h" ],
     [ "MRRayBoxIntersection2.h", "MRRayBoxIntersection2_8h.html", "MRRayBoxIntersection2_8h" ],
+    [ "MRRebuildMesh.h", "MRRebuildMesh_8h.html", "MRRebuildMesh_8h" ],
     [ "MRRectIndexer.h", "MRRectIndexer_8h.html", "MRRectIndexer_8h" ],
     [ "MRRegionBoundary.h", "MRMesh_2MRRegionBoundary_8h.html", "MRMesh_2MRRegionBoundary_8h" ],
     [ "MRRegularGridMesh.h", "MRRegularGridMesh_8h.html", "MRRegularGridMesh_8h" ],

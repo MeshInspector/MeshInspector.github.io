@@ -582,6 +582,7 @@ var namespaceMR =
     [ "RangeSize", "structMR_1_1RangeSize.html", "structMR_1_1RangeSize" ],
     [ "RawTiffOutput", "structMR_1_1RawTiffOutput.html", "structMR_1_1RawTiffOutput" ],
     [ "RayOrigin", "structMR_1_1RayOrigin.html", "structMR_1_1RayOrigin" ],
+    [ "RebuildMeshSettings", "structMR_1_1RebuildMeshSettings.html", "structMR_1_1RebuildMeshSettings" ],
     [ "RecentFilesStore", "classMR_1_1RecentFilesStore.html", "classMR_1_1RecentFilesStore" ],
     [ "RectIndexer", "classMR_1_1RectIndexer.html", "classMR_1_1RectIndexer" ],
     [ "RefineParameters", "structMR_1_1RefineParameters.html", "structMR_1_1RefineParameters" ],
@@ -1214,6 +1215,11 @@ var namespaceMR =
       [ "Selectable", "group__DataModelGroup.html#gga1ab156c0351dfcd112a67a72e485f123a8318ce1c96df6ce21eb2ed428c6d0f85", null ],
       [ "Selected", "group__DataModelGroup.html#gga1ab156c0351dfcd112a67a72e485f123a91b442d385b54e1418d81adc34871053", null ],
       [ "Any", "group__DataModelGroup.html#gga1ab156c0351dfcd112a67a72e485f123aed36a1ef76a59ee3f15180e0441188ad", null ]
+    ] ],
+    [ "OffsetMode", "namespaceMR.html#aaa631c02105f2a8fa6fe24c7873e8d98", [
+      [ "Smooth", "namespaceMR.html#aaa631c02105f2a8fa6fe24c7873e8d98ae510cdf33cd497134b47b9316314d4b4", null ],
+      [ "Standard", "namespaceMR.html#aaa631c02105f2a8fa6fe24c7873e8d98aeb6d8ae6f20283755b339c0dc273988b", null ],
+      [ "Sharpening", "namespaceMR.html#aaa631c02105f2a8fa6fe24c7873e8d98a1e97e73f1e45d465e23a2ea172bc3355", null ]
     ] ],
     [ "OrientNormals", "namespaceMR.html#af24a4564a6b209f61d84fd30c8c71a8b", [
       [ "TowardOrigin", "namespaceMR.html#af24a4564a6b209f61d84fd30c8c71a8ba2825d6d77d04650a6a5ffef55c198d9f", null ],
@@ -2361,6 +2367,7 @@ var namespaceMR =
     [ "readRawTiff", "namespaceMR.html#a60b3e22054f156440562ae98740d5656", null ],
     [ "readTiffParameters", "namespaceMR.html#a7c49de97d655fd498b5741311c3c1bcf", null ],
     [ "rearrangeVectorByMap", "namespaceMR.html#aaf3190c056e93a1b63f3643cef77443d", null ],
+    [ "rebuildMesh", "namespaceMR.html#a1950e091cc75518f35b97d8bed80953f", null ],
     [ "redirectSTDStreamsToLogger", "group__BasicGroup.html#ga52d34a9bbe60f99085e9aab32040499f", null ],
     [ "reducePath", "group__PlanarPathGroup.html#ga453514d922da4d7c4a02c78ca0b4eabe", null ],
     [ "reducePathViaVertex", "group__PlanarPathGroup.html#ga64d6263ac2b571832be0c1a3e8114cfb", null ],

@@ -1,5 +1,17 @@
 var NAVTREEINDEX54 =
 {
+"namespaceMR_1_1Features.html#a4b8fe8c172363793d31c8bbc29e9fdb2":[10,0,10,6,23],
+"namespaceMR_1_1Features.html#a5868f629eb5b33654ac9c296f89ab859":[10,0,10,6,14],
+"namespaceMR_1_1Features.html#a5d8f9dc8288a74b574ebe08113e9f6cf":[10,0,10,6,7],
+"namespaceMR_1_1Features.html#a64ffcca649e7365b125b54b414b4e3a1":[10,0,10,6,12],
+"namespaceMR_1_1Features.html#a6ef217cccdf314a4441a435f229650af":[10,0,10,6,25],
+"namespaceMR_1_1Features.html#a8181371796e19bd3d28cc3300b6aa1bb":[10,0,10,6,20],
+"namespaceMR_1_1Features.html#a8ae032d9a48f5e4e7669748c12b6f05c":[10,0,10,6,9],
+"namespaceMR_1_1Features.html#a8d70d3465b40dfe88c3a3fb7210afee0":[10,0,10,6,15],
+"namespaceMR_1_1Features.html#a97570d41ec01a7111b742503bdc2c5dc":[10,0,10,6,6],
+"namespaceMR_1_1Features.html#a9f2a352fa6ebdfaab6c6abbb609ebaf2":[10,0,10,6,22],
+"namespaceMR_1_1Features.html#aa06970e4aa6f9508425ab48758238239":[10,0,10,6,19],
+"namespaceMR_1_1Features.html#acba878d0a966299305f4db971b3896b7":[10,0,10,6,11],
 "namespaceMR_1_1Features.html#acbd075b92fa1a44ed1751506cecb9b3a":[10,0,10,6,24],
 "namespaceMR_1_1Features.html#ada065f0f7c5b74946d5ae2826df2bf0d":[10,0,10,6,10],
 "namespaceMR_1_1Features.html#aeeb9d21a824a2dd94d682b54ab1862d2":[10,0,10,6,17],
@@ -237,17 +249,5 @@ var NAVTREEINDEX54 =
 "namespaceMR_1_1detail.html":[10,0,10,3],
 "namespaceMR_1_1detail_1_1Units.html":[10,0,10,3,0],
 "namespaceMR_1_1detail_1_1Units.html#aec57db09655986b2ed959d498edc6f2a":[10,0,10,3,0,2],
-"namespaceMeshBoolean.html":[10,0,1],
-"namespaceMeshDecimate.html":[10,0,2],
-"namespaceMeshExtrude.html":[10,0,3],
-"namespaceMeshFillHole.html":[10,0,4],
-"namespaceMeshICP.html":[10,0,5],
-"namespaceMeshLoadSave.html":[10,0,6],
-"namespaceMeshModification.html":[10,0,7],
-"namespaceMeshOffset.html":[10,0,8],
-"namespaceMeshStitchHole.html":[10,0,9],
-"namespaceNumpy.html":[10,0,11],
-"namespaceNumpyTriangulation.html":[10,0,12],
-"namespacePlotly.html":[10,0,13],
-"namespaceTriangulation.html":[10,0,14]
+"namespaceMeshBoolean.html":[10,0,1]
 };

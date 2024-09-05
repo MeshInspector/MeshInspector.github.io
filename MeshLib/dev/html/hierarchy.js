@@ -944,6 +944,7 @@ var hierarchy =
     [ "MR::RawTiffOutput", "structMR_1_1RawTiffOutput.html", null ],
     [ "MR::RayOrigin< T >", "structMR_1_1RayOrigin.html", null ],
     [ "MR::EdgePathsBuilderT< MetricToPenalty >::ReachedVert", "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html", null ],
+    [ "MR::RebuildMeshSettings", "structMR_1_1RebuildMeshSettings.html", null ],
     [ "MR::RecentFilesStore", "classMR_1_1RecentFilesStore.html", null ],
     [ "MR::UI::RectAllocator", "classMR_1_1UI_1_1RectAllocator.html", [
       [ "MR::UI::LabelRectAllocator", "classMR_1_1UI_1_1LabelRectAllocator.html", null ],

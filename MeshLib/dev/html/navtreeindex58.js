@@ -1,5 +1,17 @@
 var NAVTREEINDEX58 =
 {
+"structMR_1_1Cone3ApproximationParams.html#a6c4848e08b47fefbf24a221b15e00329":[12,0,1,124,3],
+"structMR_1_1Cone3ApproximationParams.html#a78abf2b4f9d3845ec382b09ec2c865d3":[10,0,10,139,0],
+"structMR_1_1Cone3ApproximationParams.html#a78abf2b4f9d3845ec382b09ec2c865d3":[12,0,1,124,0],
+"structMR_1_1ConeFittingFunctor.html":[10,0,10,140],
+"structMR_1_1ConeFittingFunctor.html":[12,0,1,125],
+"structMR_1_1ConeFittingFunctor.html#a2a2b7bdfec9781f51f20b12d1e1547aa":[10,0,10,140,8],
+"structMR_1_1ConeFittingFunctor.html#a2a2b7bdfec9781f51f20b12d1e1547aa":[12,0,1,125,8],
+"structMR_1_1ConeFittingFunctor.html#a369f95839764bbea9a5f5db04ec360ae":[10,0,10,140,0],
+"structMR_1_1ConeFittingFunctor.html#a369f95839764bbea9a5f5db04ec360ae":[12,0,1,125,0],
+"structMR_1_1ConeFittingFunctor.html#a5ce1dbf9d17f2aa05b508ef6df6e7151":[10,0,10,140,5],
+"structMR_1_1ConeFittingFunctor.html#a5ce1dbf9d17f2aa05b508ef6df6e7151":[12,0,1,125,5],
+"structMR_1_1ConeFittingFunctor.html#a75f4a1b12abfd495f279861dbfe344c6":[10,0,10,140,6],
 "structMR_1_1ConeFittingFunctor.html#a75f4a1b12abfd495f279861dbfe344c6":[12,0,1,125,6],
 "structMR_1_1ConeFittingFunctor.html#a8dd8ae0c1112caf1a8fcd5fca885de56":[10,0,10,140,7],
 "structMR_1_1ConeFittingFunctor.html#a8dd8ae0c1112caf1a8fcd5fca885de56":[12,0,1,125,7],
@@ -237,17 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1DirectoryIterator.html#a0614a693a34cc58e9e59902bf38e38ef":[10,0,10,173,0],
 "structMR_1_1DirectoryIterator.html#a0614a693a34cc58e9e59902bf38e38ef":[12,0,1,158,0],
 "structMR_1_1DirectoryIterator.html#a43d198bfa65499a30571596ae9d9b943":[10,0,10,173,3],
-"structMR_1_1DirectoryIterator.html#a43d198bfa65499a30571596ae9d9b943":[12,0,1,158,3],
-"structMR_1_1DirectoryIterator.html#a4d7767889be907087117c4ee9fd0789d":[10,0,10,173,2],
-"structMR_1_1DirectoryIterator.html#a4d7767889be907087117c4ee9fd0789d":[12,0,1,158,2],
-"structMR_1_1DirectoryIterator.html#a97ffa4ef6cc99e6cfa211a4bed48c6f4":[10,0,10,173,1],
-"structMR_1_1DirectoryIterator.html#a97ffa4ef6cc99e6cfa211a4bed48c6f4":[12,0,1,158,1],
-"structMR_1_1DirectoryRecursive.html":[10,0,10,174],
-"structMR_1_1DirectoryRecursive.html":[12,0,1,159],
-"structMR_1_1DirectoryRecursive.html#a0377432c17ff4de701e83f6c0ac198ae":[10,0,10,174,0],
-"structMR_1_1DirectoryRecursive.html#a0377432c17ff4de701e83f6c0ac198ae":[12,0,1,159,0],
-"structMR_1_1DirectoryRecursive.html#a2e941bde547838e6a74d34b9aed8d49e":[10,0,10,174,1],
-"structMR_1_1DirectoryRecursive.html#a2e941bde547838e6a74d34b9aed8d49e":[12,0,1,159,1],
-"structMR_1_1DirectoryRecursiveIterator.html":[10,0,10,175],
-"structMR_1_1DirectoryRecursiveIterator.html":[12,0,1,160]
+"structMR_1_1DirectoryIterator.html#a43d198bfa65499a30571596ae9d9b943":[12,0,1,158,3]
 };

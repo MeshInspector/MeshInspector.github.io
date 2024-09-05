@@ -321,6 +321,7 @@
 <a href="MRRadiusMeasurementObject_8h_source.html"/>
 <a href="MRRayBoxIntersection_8h_source.html"/>
 <a href="MRRayBoxIntersection2_8h_source.html"/>
+<a href="MRRebuildMesh_8h_source.html"/>
 <a href="MRRectIndexer_8h_source.html"/>
 <a href="MRRegularGridMesh_8h_source.html"/>
 <a href="MRRegularMapMesher_8h_source.html"/>
@@ -987,6 +988,7 @@
 <a href="MRRadiusMeasurementObject_8h.html"/>
 <a href="MRRayBoxIntersection_8h.html"/>
 <a href="MRRayBoxIntersection2_8h.html"/>
+<a href="MRRebuildMesh_8h.html"/>
 <a href="MRRectIndexer_8h.html"/>
 <a href="MRRegularGridMesh_8h.html"/>
 <a href="MRRegularMapMesher_8h.html"/>
@@ -2533,6 +2535,8 @@
 <a href="structMR_1_1RawTiffOutput-members.html"/>
 <a href="structMR_1_1RayOrigin.html"/>
 <a href="structMR_1_1RayOrigin-members.html"/>
+<a href="structMR_1_1RebuildMeshSettings.html"/>
+<a href="structMR_1_1RebuildMeshSettings-members.html"/>
 <a href="classMR_1_1RecentFilesStore.html"/>
 <a href="classMR_1_1RecentFilesStore-members.html"/>
 <a href="classMR_1_1RectIndexer.html"/>
@@ -4264,6 +4268,10 @@
 <a href="MREnums_8h.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8aabeda66621ed8130672ce5e9276fd49e"/>
 <a href="MREnums_8h.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8ada0895f7442dc0c233726d89ac9f75fa"/>
 <a href="MREnums_8h.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9"/>
+<a href="MREnums_8h.html#aaa631c02105f2a8fa6fe24c7873e8d98"/>
+<a href="MREnums_8h.html#aaa631c02105f2a8fa6fe24c7873e8d98a1e97e73f1e45d465e23a2ea172bc3355"/>
+<a href="MREnums_8h.html#aaa631c02105f2a8fa6fe24c7873e8d98ae510cdf33cd497134b47b9316314d4b4"/>
+<a href="MREnums_8h.html#aaa631c02105f2a8fa6fe24c7873e8d98aeb6d8ae6f20283755b339c0dc273988b"/>
 <a href="MREnums_8h.html#ae9fc4543eb3302ae33b7843707485149"/>
 <a href="MREnums_8h.html#ae9fc4543eb3302ae33b7843707485149a11a755d598c0c417f9a36758c3da7481"/>
 <a href="MREnums_8h.html#ae9fc4543eb3302ae33b7843707485149aa0bfb8e59e6c13fc8d990781f77694fe"/>
@@ -6167,6 +6175,8 @@
 <a href="MRRayBoxIntersection_8h.html"/>
 <a href="MRRayBoxIntersection_8h.html#ga710fb3f98b472e45efdd6c3671f90581"/>
 <a href="MRRayBoxIntersection_8h.html#ga774d7b2ef218b7634faca3e3300f13b9"/>
+<a href="MRRebuildMesh_8h.html"/>
+<a href="MRRebuildMesh_8h.html#a1950e091cc75518f35b97d8bed80953f"/>
 <a href="MRRecentFilesStore_8h.html"/>
 <a href="MRRectIndexer_8h.html"/>
 <a href="MRRectIndexer_8h.html#ga6c5838a3065551d1adbcde13e5cf895b"/>
@@ -13618,6 +13628,7 @@
 <a href="namespaceMR.html#a17d3251dd9ab06ec842606a4e4225fb2"/>
 <a href="namespaceMR.html#a1882f98b1c056ca06594f6b3a63150db"/>
 <a href="namespaceMR.html#a1947baff009e7ba9b3d0754c30a458a5"/>
+<a href="namespaceMR.html#a1950e091cc75518f35b97d8bed80953f"/>
 <a href="namespaceMR.html#a19595d087a85c1f377431ec7c863906c"/>
 <a href="namespaceMR.html#a19b191245b05d1121109cd26f5ca30d2"/>
 <a href="namespaceMR.html#a19cb89c4b7c5582f2215200a5b0755af"/>
@@ -14247,6 +14258,10 @@
 <a href="namespaceMR.html#aa92378bf233fad3fbb22ac30f72ea71e"/>
 <a href="namespaceMR.html#aa9296b50297d1b2d93a8f2f08c495eef"/>
 <a href="namespaceMR.html#aaa1b9cb8e04334b38aa70434301df035"/>
+<a href="namespaceMR.html#aaa631c02105f2a8fa6fe24c7873e8d98"/>
+<a href="namespaceMR.html#aaa631c02105f2a8fa6fe24c7873e8d98a1e97e73f1e45d465e23a2ea172bc3355"/>
+<a href="namespaceMR.html#aaa631c02105f2a8fa6fe24c7873e8d98ae510cdf33cd497134b47b9316314d4b4"/>
+<a href="namespaceMR.html#aaa631c02105f2a8fa6fe24c7873e8d98aeb6d8ae6f20283755b339c0dc273988b"/>
 <a href="namespaceMR.html#aaa8f63a4fb4dcabf0f8f1dc79cdeee90"/>
 <a href="namespaceMR.html#aaaac3eef6fa84776b2bf2bcd9c77e1fd"/>
 <a href="namespaceMR.html#aaab44aa4df541376791cff0c6b1c60f0"/>
@@ -16059,10 +16074,7 @@
 <a href="structMR_1_1GcodeProcessor_1_1MoveAction.html#afb16d620b32465be3a1f27d50c1640d3"/>
 <a href="structMR_1_1GeneralOffsetParameters.html"/>
 <a href="structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1"/>
-<a href="structMR_1_1GeneralOffsetParameters.html#a91edecd5978344a023aca282179b94a5"/>
-<a href="structMR_1_1GeneralOffsetParameters.html#a91edecd5978344a023aca282179b94a5a1e97e73f1e45d465e23a2ea172bc3355"/>
-<a href="structMR_1_1GeneralOffsetParameters.html#a91edecd5978344a023aca282179b94a5ae510cdf33cd497134b47b9316314d4b4"/>
-<a href="structMR_1_1GeneralOffsetParameters.html#a91edecd5978344a023aca282179b94a5aeb6d8ae6f20283755b339c0dc273988b"/>
+<a href="structMR_1_1GeneralOffsetParameters.html#abc2615fd96d188bbdb1407d0cc0e5c84"/>
 <a href="structMR_1_1GlTexture_1_1Settings.html"/>
 <a href="structMR_1_1GlTexture_1_1Settings.html#a3943dc4f528bc49722114379614e4c2e"/>
 <a href="structMR_1_1GlTexture_1_1Settings.html#a3b834f386d4f814d5f03b43e229d4adb"/>
@@ -17452,6 +17464,16 @@
 <a href="structMR_1_1RayOrigin.html"/>
 <a href="structMR_1_1RayOrigin.html#a8502e2d024f3f9f3b84ad9f25f659eb7"/>
 <a href="structMR_1_1RayOrigin.html#aa0427aa4f82a36dda692826d18df40c9"/>
+<a href="structMR_1_1RebuildMeshSettings.html"/>
+<a href="structMR_1_1RebuildMeshSettings.html#a0181b2c8cfb6a6a1788807fd5b6a5d1c"/>
+<a href="structMR_1_1RebuildMeshSettings.html#a03a98a1c9695b0ef4243961f9ad3b59e"/>
+<a href="structMR_1_1RebuildMeshSettings.html#a0cc5cd91097f6d671c3a9ad73a09ac14"/>
+<a href="structMR_1_1RebuildMeshSettings.html#a0fd939665ae442e058cb11d7cc52ac20"/>
+<a href="structMR_1_1RebuildMeshSettings.html#a277cd0e4fca4f06fd90dd9977ec8a418"/>
+<a href="structMR_1_1RebuildMeshSettings.html#a6e10f1d5847ddc2cb5de056bf3031453"/>
+<a href="structMR_1_1RebuildMeshSettings.html#ab3fd176a4586472f781779fd1126f50c"/>
+<a href="structMR_1_1RebuildMeshSettings.html#ac305c46895a7bfd2a0af7ccfe1b5cb2e"/>
+<a href="structMR_1_1RebuildMeshSettings.html#aea6b7ba0f04e938fe48d66bb6f336a79"/>
 <a href="structMR_1_1RefineParameters.html"/>
 <a href="structMR_1_1RefineParameters.html#a0550c06323ac687236b8994cbdef837c"/>
 <a href="structMR_1_1RefineParameters.html#a40ca7824e8be55ed988710074a82c8ac"/>

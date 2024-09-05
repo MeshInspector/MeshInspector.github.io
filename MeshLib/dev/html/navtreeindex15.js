@@ -1,5 +1,12 @@
 var NAVTREEINDEX15 =
 {
+"classMR_1_1ChangeActiveBoxAction.html#a83fd8175728c350029784aa802749d90":[9,4,31,2],
+"classMR_1_1ChangeActiveBoxAction.html#a897d1a8335367c58278f3a6da3a6c59f":[9,4,31,0],
+"classMR_1_1ChangeBoundarySelectionHistoryAction.html":[10,0,10,89],
+"classMR_1_1ChangeBoundarySelectionHistoryAction.html":[12,0,1,74],
+"classMR_1_1ChangeBoundarySelectionHistoryAction.html#a7d6c878105bdd69d6bbb3524c5fc8243":[10,0,10,89,1],
+"classMR_1_1ChangeBoundarySelectionHistoryAction.html#a7d6c878105bdd69d6bbb3524c5fc8243":[12,0,1,74,1],
+"classMR_1_1ChangeBoundarySelectionHistoryAction.html#a87cb69e6e43f31608ba18d1577ce6303":[10,0,10,89,3],
 "classMR_1_1ChangeBoundarySelectionHistoryAction.html#a87cb69e6e43f31608ba18d1577ce6303":[12,0,1,74,3],
 "classMR_1_1ChangeBoundarySelectionHistoryAction.html#ab6b0066b48e0db5030ebf1cdeeec5d4f":[10,0,10,89,0],
 "classMR_1_1ChangeBoundarySelectionHistoryAction.html#ab6b0066b48e0db5030ebf1cdeeec5d4f":[12,0,1,74,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX15 =
 "classMR_1_1ChangeXfAction.html#ae0205231d9c1c0389daaa03a05b302e2":[9,4,35,1],
 "classMR_1_1CircleObject.html":[9,13,0,0],
 "classMR_1_1CircleObject.html#a04d619d722a2253079706d64e5c9ef70":[9,13,0,0,13],
-"classMR_1_1CircleObject.html#a1b666f68cb067916d8b0a10e19c98af6":[9,13,0,0,20],
-"classMR_1_1CircleObject.html#a1fcb69f1dd8bdbf42302043d67fb8fa8":[9,13,0,0,5],
-"classMR_1_1CircleObject.html#a213eae2656d58c2c869a7c592a70c899":[9,13,0,0,12],
-"classMR_1_1CircleObject.html#a2f2f75df180154bb0a2973c18a588e3f":[9,13,0,0,14],
-"classMR_1_1CircleObject.html#a3ec925469335dc13e8594830baf29182":[9,13,0,0,19],
-"classMR_1_1CircleObject.html#a4053333e67bddb4bf37e28c777c85697":[9,13,0,0,16],
-"classMR_1_1CircleObject.html#a744c3d9624e8aaae878e393781b1b263":[9,13,0,0,21],
-"classMR_1_1CircleObject.html#a77c28321188ea513ce5a9bb9ada5364e":[9,13,0,0,11]
+"classMR_1_1CircleObject.html#a1b666f68cb067916d8b0a10e19c98af6":[9,13,0,0,20]
 };
