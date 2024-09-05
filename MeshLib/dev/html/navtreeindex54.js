@@ -1,5 +1,11 @@
 var NAVTREEINDEX54 =
 {
+"namespaceMR_1_1Features.html#a5d8f9dc8288a74b574ebe08113e9f6cf":[10,0,10,6,7],
+"namespaceMR_1_1Features.html#a64ffcca649e7365b125b54b414b4e3a1":[10,0,10,6,12],
+"namespaceMR_1_1Features.html#a6ef217cccdf314a4441a435f229650af":[10,0,10,6,25],
+"namespaceMR_1_1Features.html#a8181371796e19bd3d28cc3300b6aa1bb":[10,0,10,6,20],
+"namespaceMR_1_1Features.html#a8ae032d9a48f5e4e7669748c12b6f05c":[10,0,10,6,9],
+"namespaceMR_1_1Features.html#a8d70d3465b40dfe88c3a3fb7210afee0":[10,0,10,6,15],
 "namespaceMR_1_1Features.html#a97570d41ec01a7111b742503bdc2c5dc":[10,0,10,6,6],
 "namespaceMR_1_1Features.html#a9f2a352fa6ebdfaab6c6abbb609ebaf2":[10,0,10,6,22],
 "namespaceMR_1_1Features.html#aa06970e4aa6f9508425ab48758238239":[10,0,10,6,19],
@@ -243,11 +249,5 @@ var NAVTREEINDEX54 =
 "namespaceMR_1_1detail_1_1Units.html#aec57db09655986b2ed959d498edc6f2a":[10,0,10,3,0,2],
 "namespaceMeshBoolean.html":[10,0,1],
 "namespaceMeshDecimate.html":[10,0,2],
-"namespaceMeshExtrude.html":[10,0,3],
-"namespaceMeshFillHole.html":[10,0,4],
-"namespaceMeshICP.html":[10,0,5],
-"namespaceMeshLoadSave.html":[10,0,6],
-"namespaceMeshModification.html":[10,0,7],
-"namespaceMeshOffset.html":[10,0,8],
-"namespaceMeshStitchHole.html":[10,0,9]
+"namespaceMeshExtrude.html":[10,0,3]
 };

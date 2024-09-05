@@ -1,5 +1,11 @@
 var NAVTREEINDEX55 =
 {
+"namespaceMeshFillHole.html":[10,0,4],
+"namespaceMeshICP.html":[10,0,5],
+"namespaceMeshLoadSave.html":[10,0,6],
+"namespaceMeshModification.html":[10,0,7],
+"namespaceMeshOffset.html":[10,0,8],
+"namespaceMeshStitchHole.html":[10,0,9],
 "namespaceNumpy.html":[10,0,11],
 "namespaceNumpyTriangulation.html":[10,0,12],
 "namespacePlotly.html":[10,0,13],
@@ -243,11 +249,5 @@ var NAVTREEINDEX55 =
 "structMRMatrix3f.html#ae16453e4e2accbf33c6a671a6eaaf3f0":[12,0,45,1],
 "structMRMeshAddPartByMaskParameters.html":[12,0,46],
 "structMRMeshAddPartByMaskParameters.html#a44d229246d984354c601ed5d5c011ad2":[12,0,46,1],
-"structMRMeshAddPartByMaskParameters.html#a4abae4fa5c8338675546a7bfa72c835f":[12,0,46,4],
-"structMRMeshAddPartByMaskParameters.html#a82f29da791e5580c60d0985825060327":[12,0,46,2],
-"structMRMeshAddPartByMaskParameters.html#abd652b5aec7c21efa6b40cc1e4d72be9":[12,0,46,3],
-"structMRMeshAddPartByMaskParameters.html#ac49ea6f7631c4b8b6d59a3232b6787a2":[12,0,46,0],
-"structMRMeshPart.html":[12,0,47],
-"structMRMeshPart.html#a58a6c4fd3c48e9285aae697c3fe43cf0":[12,0,47,0],
-"structMRMeshPart.html#a5ce5edc6f84e9905919f9f558dc65922":[12,0,47,1]
+"structMRMeshAddPartByMaskParameters.html#a4abae4fa5c8338675546a7bfa72c835f":[12,0,46,4]
 };

@@ -4295,6 +4295,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a43da20cc5f0077147d57b1af6226aa53" id="r_a43da20cc5f0077147d57b1af6226aa53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43da20cc5f0077147d57b1af6226aa53">readByBlocks</a> (std::istream &amp;in, char *data, size_t dataSize, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={}, size_t blockSize=(size_t(1)&lt;&lt; 16))</td></tr>
 <tr class="memdesc:a43da20cc5f0077147d57b1af6226aa53"><td class="mdescLeft">&#160;</td><td class="mdescRight">read dataSize bytes from in stream to data by blocks blockSize bytes  <br /></td></tr>
 <tr class="separator:a43da20cc5f0077147d57b1af6226aa53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bb96a57e863bad5b480d29a724754b7" id="r_a8bb96a57e863bad5b480d29a724754b7"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:a8bb96a57e863bad5b480d29a724754b7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a8bb96a57e863bad5b480d29a724754b7">projectVertAttribute</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;newMesh, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;oldMesh, F &amp;&amp;func, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb)</td></tr>
+<tr class="separator:a8bb96a57e863bad5b480d29a724754b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e8aa08aedc74cb058c8b20d01559fd9" id="r_a7e8aa08aedc74cb058c8b20d01559fd9"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:a7e8aa08aedc74cb058c8b20d01559fd9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a7e8aa08aedc74cb058c8b20d01559fd9">projectFaceAttribute</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;newMesh, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;oldMesh, F &amp;&amp;func, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb)</td></tr>
+<tr class="separator:a7e8aa08aedc74cb058c8b20d01559fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a396596cb5cea6d2f8fec7b7838ae2bc5" id="r_a396596cb5cea6d2f8fec7b7838ae2bc5"><td class="memTemplParams" colspan="2">template&lt;typename E &gt; </td></tr>
 <tr class="memitem:a396596cb5cea6d2f8fec7b7838ae2bc5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a396596cb5cea6d2f8fec7b7838ae2bc5">throwExceptionFromExpected</a> (const E &amp;err)</td></tr>
 <tr class="separator:a396596cb5cea6d2f8fec7b7838ae2bc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -24250,6 +24256,39 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a7e8aa08aedc74cb058c8b20d01559fd9" name="a7e8aa08aedc74cb058c8b20d01559fd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e8aa08aedc74cb058c8b20d01559fd9">&#9670;&#160;</a></span>projectFaceAttribute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::projectFaceAttribute </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>newMesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oldMesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">F &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>func</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>progressCb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a04b00a5eae1214cc2a21d439db0e9c94" name="a04b00a5eae1214cc2a21d439db0e9c94"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a04b00a5eae1214cc2a21d439db0e9c94">&#9670;&#160;</a></span>projectOnAll()</h2>
 
@@ -24295,6 +24334,39 @@ template&lt;typename T &gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a8bb96a57e863bad5b480d29a724754b7" name="a8bb96a57e863bad5b480d29a724754b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bb96a57e863bad5b480d29a724754b7">&#9670;&#160;</a></span>projectVertAttribute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::projectVertAttribute </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>newMesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>oldMesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">F &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>func</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>progressCb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

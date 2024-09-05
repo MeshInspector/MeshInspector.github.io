@@ -308,6 +308,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRPrism.h", "MRPrism_8h.html", "MRPrism_8h" ],
     [ "MRProgressCallback.h", "MRProgressCallback_8h.html", "MRProgressCallback_8h" ],
     [ "MRProgressReadWrite.h", "MRProgressReadWrite_8h.html", "MRProgressReadWrite_8h" ],
+    [ "MRProjectionMeshAttribute.h", "MRProjectionMeshAttribute_8h.html", "MRProjectionMeshAttribute_8h" ],
     [ "MRPython.h", "MRPython_8h.html", "MRPython_8h" ],
     [ "MRQuadraticForm.h", "MRQuadraticForm_8h.html", null ],
     [ "MRQuaternion.h", "MRQuaternion_8h.html", null ],
