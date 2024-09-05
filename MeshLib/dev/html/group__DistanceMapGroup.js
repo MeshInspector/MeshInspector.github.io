@@ -156,12 +156,10 @@ var group__DistanceMapGroup =
     [ "MR::distanceMapToMesh", "group__DistanceMapGroup.html#ga145ea179a83ff19d1734af8771bba71a", null ],
     [ "MR::edgePointsFromContours", "group__DistanceMapGroup.html#ga00ea89be5cae9953d5df7ef382259b58", null ],
     [ "MR::expandPixelMask", "group__DistanceMapGroup.html#ga6c5838a3065551d1adbcde13e5cf895b", null ],
-    [ "MR::loadDistanceMapFromImage", "group__DistanceMapGroup.html#ga44fc29abeabf10bafd907c2784a878b2", null ],
     [ "MR::opposite", "group__DistanceMapGroup.html#ga91a308e751ba7d6ace30ea1a895eb3fb", null ],
     [ "MR::polylineOffset", "group__DistanceMapGroup.html#gaf720ea7221e6ad284c8b0b80e5c58364", null ],
     [ "MR::RectIndexer::RectIndexer", "group__DistanceMapGroup.html#ga239b9939936c38ad89df91dd649ab13d", null ],
     [ "MR::RectIndexer::resize", "group__DistanceMapGroup.html#ga901329f8c2956e6baeb440b154c9907f", null ],
-    [ "MR::saveDistanceMapToImage", "group__DistanceMapGroup.html#gad32dba15de75a916f90af8e79efca23c", null ],
     [ "MR::shrinkPixelMask", "group__DistanceMapGroup.html#gacbedf1abc59aa1401992cc4d1e1ed306", null ],
     [ "MR::RectIndexer::toIndex", "group__DistanceMapGroup.html#gacf16438d65e6771b0a308b2e232e86b1", null ],
     [ "MR::RectIndexer::toPos", "group__DistanceMapGroup.html#ga920d5e2ba75ebd9fe641aae7d50cce9f", null ]

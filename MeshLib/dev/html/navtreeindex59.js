@@ -1,13 +1,5 @@
 var NAVTREEINDEX59 =
 {
-"structMR_1_1DirectoryIterator.html#a4d7767889be907087117c4ee9fd0789d":[10,0,10,173,2],
-"structMR_1_1DirectoryIterator.html#a4d7767889be907087117c4ee9fd0789d":[12,0,1,158,2],
-"structMR_1_1DirectoryIterator.html#a97ffa4ef6cc99e6cfa211a4bed48c6f4":[10,0,10,173,1],
-"structMR_1_1DirectoryIterator.html#a97ffa4ef6cc99e6cfa211a4bed48c6f4":[12,0,1,158,1],
-"structMR_1_1DirectoryRecursive.html":[10,0,10,174],
-"structMR_1_1DirectoryRecursive.html":[12,0,1,159],
-"structMR_1_1DirectoryRecursive.html#a0377432c17ff4de701e83f6c0ac198ae":[10,0,10,174,0],
-"structMR_1_1DirectoryRecursive.html#a0377432c17ff4de701e83f6c0ac198ae":[12,0,1,159,0],
 "structMR_1_1DirectoryRecursive.html#a2e941bde547838e6a74d34b9aed8d49e":[10,0,10,174,1],
 "structMR_1_1DirectoryRecursive.html#a2e941bde547838e6a74d34b9aed8d49e":[12,0,1,159,1],
 "structMR_1_1DirectoryRecursiveIterator.html":[10,0,10,175],
@@ -249,5 +241,13 @@ var NAVTREEINDEX59 =
 "structMR_1_1EdgePointPair.html":[10,0,10,195],
 "structMR_1_1EdgePointPair.html":[12,0,1,180],
 "structMR_1_1EdgePointPair.html#a19d5b7a6dad1c8e969b397a0afb33a52":[10,0,10,195,1],
-"structMR_1_1EdgePointPair.html#a19d5b7a6dad1c8e969b397a0afb33a52":[12,0,1,180,1]
+"structMR_1_1EdgePointPair.html#a19d5b7a6dad1c8e969b397a0afb33a52":[12,0,1,180,1],
+"structMR_1_1EdgePointPair.html#a28ddfe91a5b73fab28e8daeab44c260c":[10,0,10,195,2],
+"structMR_1_1EdgePointPair.html#a28ddfe91a5b73fab28e8daeab44c260c":[12,0,1,180,2],
+"structMR_1_1EdgePointPair.html#a879ee9c7d522b1687452299475e29842":[10,0,10,195,0],
+"structMR_1_1EdgePointPair.html#a879ee9c7d522b1687452299475e29842":[12,0,1,180,0],
+"structMR_1_1EdgePointPair.html#aaf405ad228844bff2d377328b8c2f73c":[10,0,10,195,4],
+"structMR_1_1EdgePointPair.html#aaf405ad228844bff2d377328b8c2f73c":[12,0,1,180,4],
+"structMR_1_1EdgePointPair.html#aca69f5d63615624473f947bb8b68d739":[10,0,10,195,3],
+"structMR_1_1EdgePointPair.html#aca69f5d63615624473f947bb8b68d739":[12,0,1,180,3]
 };

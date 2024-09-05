@@ -1,13 +1,5 @@
 var NAVTREEINDEX35 =
 {
-"classMR_1_1RibbonSceneShowAll.html#a948b94f7dba6645b0f30644a1bfd835d":[10,0,10,534,2],
-"classMR_1_1RibbonSceneShowAll.html#a948b94f7dba6645b0f30644a1bfd835d":[12,0,1,519,2],
-"classMR_1_1RibbonSceneShowOnlyNext.html":[10,0,10,535],
-"classMR_1_1RibbonSceneShowOnlyNext.html":[12,0,1,520],
-"classMR_1_1RibbonSceneShowOnlyNext.html#a2199b5a9a3cc9f2888ab7acc6262cbb4":[10,0,10,535,1],
-"classMR_1_1RibbonSceneShowOnlyNext.html#a2199b5a9a3cc9f2888ab7acc6262cbb4":[12,0,1,520,1],
-"classMR_1_1RibbonSceneShowOnlyNext.html#a91abe5224df3d02efdba386b1954ed51":[10,0,10,535,2],
-"classMR_1_1RibbonSceneShowOnlyNext.html#a91abe5224df3d02efdba386b1954ed51":[12,0,1,520,2],
 "classMR_1_1RibbonSceneShowOnlyNext.html#aa19e42c2e998d1d7389e7a6f859c2980":[10,0,10,535,0],
 "classMR_1_1RibbonSceneShowOnlyNext.html#aa19e42c2e998d1d7389e7a6f859c2980":[12,0,1,520,0],
 "classMR_1_1RibbonSceneShowOnlyPrev.html":[10,0,10,536],
@@ -148,7 +140,7 @@ var NAVTREEINDEX35 =
 "classMR_1_1SceneObjectsListDrawer.html#af36935c34390d23a46d4c38f182071c9":[12,0,1,540,4],
 "classMR_1_1SceneObjectsListDrawer.html#affefc47d2b779b451bc3f420ddfdbdf8":[10,0,10,555,1],
 "classMR_1_1SceneObjectsListDrawer.html#affefc47d2b779b451bc3f420ddfdbdf8":[12,0,1,540,1],
-"classMR_1_1SceneRoot.html":[9,13,13],
+"classMR_1_1SceneRoot.html":[9,13,12],
 "classMR_1_1SceneRootObject.html":[10,0,10,557],
 "classMR_1_1SceneRootObject.html":[12,0,1,542],
 "classMR_1_1SceneRootObject.html#a08bd8d737b04194abe9ac2c4588eaa11":[10,0,10,557,3],
@@ -249,5 +241,13 @@ var NAVTREEINDEX35 =
 "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html#ad21248165ad203df01a756a7fb45036a":[10,0,10,567,0],
 "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html#ad21248165ad203df01a756a7fb45036a":[12,0,1,552,0],
 "classMR_1_1SceneStateOrCheck.html":[10,0,10,568],
-"classMR_1_1SceneStateOrCheck.html":[12,0,1,553]
+"classMR_1_1SceneStateOrCheck.html":[12,0,1,553],
+"classMR_1_1SceneStateOrCheck.html#a57e94f064ff40fa6070445911ca81421":[10,0,10,568,1],
+"classMR_1_1SceneStateOrCheck.html#a57e94f064ff40fa6070445911ca81421":[12,0,1,553,1],
+"classMR_1_1SceneStateOrCheck.html#ae67477acae1bc80561b69cecd0b6cbdf":[10,0,10,568,0],
+"classMR_1_1SceneStateOrCheck.html#ae67477acae1bc80561b69cecd0b6cbdf":[12,0,1,553,0],
+"classMR_1_1SceneTextureGL.html":[10,0,10,569],
+"classMR_1_1SceneTextureGL.html":[12,0,1,554],
+"classMR_1_1SceneTextureGL.html#a81ce2688f5c1199861bcbd627db71b78":[10,0,10,569,1],
+"classMR_1_1SceneTextureGL.html#a81ce2688f5c1199861bcbd627db71b78":[12,0,1,554,1]
 };

@@ -1,13 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"structMR_1_1EdgePointPair.html#a28ddfe91a5b73fab28e8daeab44c260c":[10,0,10,195,2],
-"structMR_1_1EdgePointPair.html#a28ddfe91a5b73fab28e8daeab44c260c":[12,0,1,180,2],
-"structMR_1_1EdgePointPair.html#a879ee9c7d522b1687452299475e29842":[10,0,10,195,0],
-"structMR_1_1EdgePointPair.html#a879ee9c7d522b1687452299475e29842":[12,0,1,180,0],
-"structMR_1_1EdgePointPair.html#aaf405ad228844bff2d377328b8c2f73c":[10,0,10,195,4],
-"structMR_1_1EdgePointPair.html#aaf405ad228844bff2d377328b8c2f73c":[12,0,1,180,4],
-"structMR_1_1EdgePointPair.html#aca69f5d63615624473f947bb8b68d739":[10,0,10,195,3],
-"structMR_1_1EdgePointPair.html#aca69f5d63615624473f947bb8b68d739":[12,0,1,180,3],
 "structMR_1_1EdgeSegment.html":[10,0,10,196],
 "structMR_1_1EdgeSegment.html":[12,0,1,181],
 "structMR_1_1EdgeSegment.html#a1d81986816953f871379b4fd7f212b0f":[10,0,10,196,2],
@@ -249,5 +241,13 @@ var NAVTREEINDEX60 =
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html#a21b9de9268120c982f8c3838220d8cc7":[12,0,1,2,1,5,0],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html":[10,0,10,6,1,6],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html":[12,0,1,2,1,6],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html#a9c244f51235da14d2ff3e28d232e0015":[10,0,10,6,1,6,0]
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html#a9c244f51235da14d2ff3e28d232e0015":[10,0,10,6,1,6,0],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html#a9c244f51235da14d2ff3e28d232e0015":[12,0,1,2,1,6,0],
+"structMR_1_1Features_1_1Traits_1_1Unary.html":[10,0,10,6,1,7],
+"structMR_1_1Features_1_1Traits_1_1Unary.html":[12,0,1,2,1,7],
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html":[10,0,10,6,1,8],
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html":[12,0,1,2,1,8],
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html#a5c925dcac2e6ec9e5b0423871da7b408":[10,0,10,6,1,8,0],
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html#a5c925dcac2e6ec9e5b0423871da7b408":[12,0,1,2,1,8,0],
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html":[10,0,10,6,1,9]
 };

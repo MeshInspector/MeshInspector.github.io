@@ -105,25 +105,11 @@ $(function(){initNavTree('group__SerializerGroup.html',''); initResizable(true);
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">Serializer<div class="ingroups"><a class="el" href="group__IOGroup.html">Input/Output</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UniqueTemporaryFolder.html">MR::UniqueTemporaryFolder</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ga3f12c695d99ddb646e5d824fa7257413" id="r_ga3f12c695d99ddb646e5d824fa7257413"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3f12c695d99ddb646e5d824fa7257413">MR::FolderCallback</a> = std::function&lt;void( const std::filesystem::path&amp; tempFolderName )&gt;</td></tr>
-<tr class="memdesc:ga3f12c695d99ddb646e5d824fa7257413"><td class="mdescLeft">&#160;</td><td class="mdescRight">this callback will be called before compression on serialization and after decompression on deserialization  <br /></td></tr>
-<tr class="separator:ga3f12c695d99ddb646e5d824fa7257413"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga4cabdbc3ab0e26dfe5f3f9541c696fc7" id="r_ga4cabdbc3ab0e26dfe5f3f9541c696fc7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; Json::Value &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4cabdbc3ab0e26dfe5f3f9541c696fc7">MR::deserializeJsonValue</a> (std::istream &amp;in)</td></tr>
@@ -132,17 +118,6 @@ Functions</h2></td></tr>
 <tr class="separator:ga84a27be875063a2ab0d174fa1f9e7771"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga790b6ef6dd31f1a82bf42d810c4c1f44" id="r_ga790b6ef6dd31f1a82bf42d810c4c1f44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; Json::Value &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga790b6ef6dd31f1a82bf42d810c4c1f44">MR::deserializeJsonValue</a> (const std::filesystem::path &amp;path)</td></tr>
 <tr class="separator:ga790b6ef6dd31f1a82bf42d810c4c1f44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaca961a714f0192aaf552be5f4cd5556e" id="r_gaca961a714f0192aaf552be5f4cd5556e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaca961a714f0192aaf552be5f4cd5556e">MR::serializeObjectTree</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;object, const std::filesystem::path &amp;path, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progress={}, <a class="el" href="#ga3f12c695d99ddb646e5d824fa7257413">FolderCallback</a> preCompress={})</td></tr>
-<tr class="memdesc:gaca961a714f0192aaf552be5f4cd5556e"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves object subtree in given scene file (zip/mru)  <br /></td></tr>
-<tr class="separator:gaca961a714f0192aaf552be5f4cd5556e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4043b5c1dadd14c81e7aa228d8dcdb62" id="r_ga4043b5c1dadd14c81e7aa228d8dcdb62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4043b5c1dadd14c81e7aa228d8dcdb62">MR::deserializeObjectTree</a> (const std::filesystem::path &amp;path, <a class="el" href="#ga3f12c695d99ddb646e5d824fa7257413">FolderCallback</a> postDecompress={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={})</td></tr>
-<tr class="memdesc:ga4043b5c1dadd14c81e7aa228d8dcdb62"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads objects tree from given scene file (zip/mru)  <br /></td></tr>
-<tr class="separator:ga4043b5c1dadd14c81e7aa228d8dcdb62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga687c1818acf6f0e7b43997d04a94eddf" id="r_ga687c1818acf6f0e7b43997d04a94eddf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga687c1818acf6f0e7b43997d04a94eddf">MR::deserializeObjectTreeFromFolder</a> (const std::filesystem::path &amp;folder, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={})</td></tr>
-<tr class="memdesc:ga687c1818acf6f0e7b43997d04a94eddf"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads objects tree from given scene folder  <br /></td></tr>
-<tr class="separator:ga687c1818acf6f0e7b43997d04a94eddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaceafcc544da777d00267253c9a4894aa" id="r_gaceafcc544da777d00267253c9a4894aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaceafcc544da777d00267253c9a4894aa">MR::serializeMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::filesystem::path &amp;path, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a> *selection=nullptr, const char *saveMeshFormat=&quot;.mrmesh&quot;)</td></tr>
-<tr class="separator:gaceafcc544da777d00267253c9a4894aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae2d000bf1be360d4156e421121308d90" id="r_gae2d000bf1be360d4156e421121308d90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae2d000bf1be360d4156e421121308d90">MR::serializeToJson</a> (const Vector2i &amp;vec, Json::Value &amp;root)</td></tr>
 <tr class="memdesc:gae2d000bf1be360d4156e421121308d90"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves an object into json value  <br /></td></tr>
 <tr class="separator:gae2d000bf1be360d4156e421121308d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -170,8 +145,6 @@ Functions</h2></td></tr>
 <tr class="separator:ga810f72ff4bfd3f308bf159660074e79c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0247abbacd8ebd7c2abec7d6095cd659" id="r_ga0247abbacd8ebd7c2abec7d6095cd659"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0247abbacd8ebd7c2abec7d6095cd659">MR::serializeToJson</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;bitset, Json::Value &amp;root)</td></tr>
 <tr class="separator:ga0247abbacd8ebd7c2abec7d6095cd659"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0e4cb5b845a808cc7438777b42bffb69" id="r_ga0e4cb5b845a808cc7438777b42bffb69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0e4cb5b845a808cc7438777b42bffb69">MR::serializeToJson</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, Json::Value &amp;root)</td></tr>
-<tr class="separator:ga0e4cb5b845a808cc7438777b42bffb69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabf5d52bb9f6c77c69a8e8897c42fce28" id="r_gabf5d52bb9f6c77c69a8e8897c42fce28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabf5d52bb9f6c77c69a8e8897c42fce28">MR::serializeToJson</a> (const Plane3f &amp;plane, Json::Value &amp;root)</td></tr>
 <tr class="separator:gabf5d52bb9f6c77c69a8e8897c42fce28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga828f3a1487f57601504c8818f38d0f9e" id="r_ga828f3a1487f57601504c8818f38d0f9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga828f3a1487f57601504c8818f38d0f9e">MR::serializeToJson</a> (const TriPointf &amp;tp, Json::Value &amp;root)</td></tr>
@@ -215,8 +188,6 @@ Functions</h2></td></tr>
 <tr class="separator:gaa6c9fafbe5675e06061b897d2e92f138"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4c0c62354556511936a0e90a2d4c586e" id="r_ga4c0c62354556511936a0e90a2d4c586e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4c0c62354556511936a0e90a2d4c586e">MR::deserializeFromJson</a> (const Json::Value &amp;root, <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;bitset)</td></tr>
 <tr class="separator:ga4c0c62354556511936a0e90a2d4c586e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5e2004fef2b124e7462276bcee514d6b" id="r_ga5e2004fef2b124e7462276bcee514d6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5e2004fef2b124e7462276bcee514d6b">MR::deserializeFromJson</a> (const Json::Value &amp;root, VertColors *colors=nullptr)</td></tr>
-<tr class="separator:ga5e2004fef2b124e7462276bcee514d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabb27cc540be81d459806f905ad7f574a" id="r_gabb27cc540be81d459806f905ad7f574a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabb27cc540be81d459806f905ad7f574a">MR::deserializeFromJson</a> (const Json::Value &amp;root, Plane3f &amp;plane)</td></tr>
 <tr class="separator:gabb27cc540be81d459806f905ad7f574a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga72e078f3acb1fe95234144b3f7d2aced" id="r_ga72e078f3acb1fe95234144b3f7d2aced"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga72e078f3acb1fe95234144b3f7d2aced">MR::deserializeFromJson</a> (const Json::Value &amp;root, TriPointf &amp;tp)</td></tr>
@@ -242,32 +213,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga02e4f1770ef424d638e95a3e26512c19" id="r_ga02e4f1770ef424d638e95a3e26512c19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga02e4f1770ef424d638e95a3e26512c19">MR::compressZip</a> (const std::filesystem::path &amp;zipFile, const std::filesystem::path &amp;sourceFolder, const std::vector&lt; std::filesystem::path &gt; &amp;excludeFiles={}, const char *password=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memdesc:ga02e4f1770ef424d638e95a3e26512c19"><td class="mdescLeft">&#160;</td><td class="mdescRight">compresses given folder in given zip-file  <br /></td></tr>
 <tr class="separator:ga02e4f1770ef424d638e95a3e26512c19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ga23013624dd00042658c503443e5d3ffb" id="r_ga23013624dd00042658c503443e5d3ffb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga23013624dd00042658c503443e5d3ffb">MR::SceneFileFilters</a></td></tr>
-<tr class="separator:ga23013624dd00042658c503443e5d3ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4d85510ea6cd8863229ae69ea4b7d051" id="r_ga4d85510ea6cd8863229ae69ea4b7d051"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4d85510ea6cd8863229ae69ea4b7d051">MR::SceneFileWriteFilters</a></td></tr>
-<tr class="separator:ga4d85510ea6cd8863229ae69ea4b7d051"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="ga3f12c695d99ddb646e5d824fa7257413" name="ga3f12c695d99ddb646e5d824fa7257413"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3f12c695d99ddb646e5d824fa7257413">&#9670;&#160;</a></span>FolderCallback</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#ga3f12c695d99ddb646e5d824fa7257413">MR::FolderCallback</a> = std::function&lt;void( const std::filesystem::path&amp; tempFolderName )&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>this callback will be called before compression on serialization and after decompression on deserialization </p>
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ga02e4f1770ef424d638e95a3e26512c19" name="ga02e4f1770ef424d638e95a3e26512c19"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga02e4f1770ef424d638e95a3e26512c19">&#9670;&#160;</a></span>compressZip()</h2>
@@ -384,7 +331,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga9f65600bd6b7fb223ab125f81c96ae25" name="ga9f65600bd6b7fb223ab125f81c96ae25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9f65600bd6b7fb223ab125f81c96ae25">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[1/20]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9f65600bd6b7fb223ab125f81c96ae25">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[1/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -405,7 +352,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="gaa6c9fafbe5675e06061b897d2e92f138" name="gaa6c9fafbe5675e06061b897d2e92f138"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa6c9fafbe5675e06061b897d2e92f138">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[2/20]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa6c9fafbe5675e06061b897d2e92f138">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[2/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -426,7 +373,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga4c0c62354556511936a0e90a2d4c586e" name="ga4c0c62354556511936a0e90a2d4c586e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4c0c62354556511936a0e90a2d4c586e">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[3/20]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4c0c62354556511936a0e90a2d4c586e">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[3/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -447,7 +394,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="gab49dd82250557d820cf52d7cd3a59464" name="gab49dd82250557d820cf52d7cd3a59464"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab49dd82250557d820cf52d7cd3a59464">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[4/20]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab49dd82250557d820cf52d7cd3a59464">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[4/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -468,7 +415,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga8ba498d211b2a813befa63f55a7446cd" name="ga8ba498d211b2a813befa63f55a7446cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8ba498d211b2a813befa63f55a7446cd">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[5/20]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8ba498d211b2a813befa63f55a7446cd">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[5/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -489,7 +436,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="gaeb2e68137af1a456b80b6a8574c03e6e" name="gaeb2e68137af1a456b80b6a8574c03e6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaeb2e68137af1a456b80b6a8574c03e6e">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[6/20]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeb2e68137af1a456b80b6a8574c03e6e">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[6/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -510,7 +457,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="gacfed47f3a67cfbbaaab3df0125cc6c52" name="gacfed47f3a67cfbbaaab3df0125cc6c52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacfed47f3a67cfbbaaab3df0125cc6c52">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[7/20]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gacfed47f3a67cfbbaaab3df0125cc6c52">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[7/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -531,7 +478,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga844db290f408a9fa59211a2239689ada" name="ga844db290f408a9fa59211a2239689ada"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga844db290f408a9fa59211a2239689ada">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[8/20]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga844db290f408a9fa59211a2239689ada">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[8/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -558,7 +505,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="gabb27cc540be81d459806f905ad7f574a" name="gabb27cc540be81d459806f905ad7f574a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabb27cc540be81d459806f905ad7f574a">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[9/20]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabb27cc540be81d459806f905ad7f574a">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[9/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -579,7 +526,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="gabb77b8518b98c3dde34206e1c8bbc5fc" name="gabb77b8518b98c3dde34206e1c8bbc5fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabb77b8518b98c3dde34206e1c8bbc5fc">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[10/20]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabb77b8518b98c3dde34206e1c8bbc5fc">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[10/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -600,7 +547,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="gaad585756b5bd8e2e9e6994cfc8f5b0fb" name="gaad585756b5bd8e2e9e6994cfc8f5b0fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaad585756b5bd8e2e9e6994cfc8f5b0fb">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[11/20]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaad585756b5bd8e2e9e6994cfc8f5b0fb">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[11/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -621,7 +568,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="gafab977958cb409b72f7584d9f6602a3e" name="gafab977958cb409b72f7584d9f6602a3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafab977958cb409b72f7584d9f6602a3e">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[12/20]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafab977958cb409b72f7584d9f6602a3e">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[12/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -642,7 +589,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga88cac564b83aea9e1d7a37332fa81d50" name="ga88cac564b83aea9e1d7a37332fa81d50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga88cac564b83aea9e1d7a37332fa81d50">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[13/20]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga88cac564b83aea9e1d7a37332fa81d50">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[13/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -663,7 +610,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga72e078f3acb1fe95234144b3f7d2aced" name="ga72e078f3acb1fe95234144b3f7d2aced"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga72e078f3acb1fe95234144b3f7d2aced">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[14/20]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga72e078f3acb1fe95234144b3f7d2aced">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[14/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -684,7 +631,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga008566c571e968e28ac38c4317a9fbbe" name="ga008566c571e968e28ac38c4317a9fbbe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga008566c571e968e28ac38c4317a9fbbe">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[15/20]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga008566c571e968e28ac38c4317a9fbbe">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[15/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -705,7 +652,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga61a7230e0fffb1f10c81a359762186d2" name="ga61a7230e0fffb1f10c81a359762186d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga61a7230e0fffb1f10c81a359762186d2">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[16/20]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga61a7230e0fffb1f10c81a359762186d2">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[16/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -728,7 +675,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="gaa945fd69c2b9a828d6f34e7bc34b9df3" name="gaa945fd69c2b9a828d6f34e7bc34b9df3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa945fd69c2b9a828d6f34e7bc34b9df3">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[17/20]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa945fd69c2b9a828d6f34e7bc34b9df3">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[17/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -749,7 +696,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga07c35f4efe0f243d11910aee401766ef" name="ga07c35f4efe0f243d11910aee401766ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga07c35f4efe0f243d11910aee401766ef">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[18/20]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga07c35f4efe0f243d11910aee401766ef">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[18/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -770,7 +717,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga1155079bf2d53ebd19e08f2223fee2a8" name="ga1155079bf2d53ebd19e08f2223fee2a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1155079bf2d53ebd19e08f2223fee2a8">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[19/20]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1155079bf2d53ebd19e08f2223fee2a8">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[19/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -784,27 +731,6 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">Vector4f &amp;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga5e2004fef2b124e7462276bcee514d6b" name="ga5e2004fef2b124e7462276bcee514d6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5e2004fef2b124e7462276bcee514d6b">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[20/20]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::deserializeFromJson </td>
-          <td>(</td>
-          <td class="paramtype">const Json::Value &amp;</td>          <td class="paramname"><span class="paramname"><em>root</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VertColors *</td>          <td class="paramname"><span class="paramname"><em>colors</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -862,61 +788,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ga4043b5c1dadd14c81e7aa228d8dcdb62" name="ga4043b5c1dadd14c81e7aa228d8dcdb62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4043b5c1dadd14c81e7aa228d8dcdb62">&#9670;&#160;</a></span>deserializeObjectTree()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; MR::deserializeObjectTree </td>
-          <td>(</td>
-          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="#ga3f12c695d99ddb646e5d824fa7257413">FolderCallback</a></td>          <td class="paramname"><span class="paramname"><em>postDecompress</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>progressCb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>loads objects tree from given scene file (zip/mru) </p>
-<p>format specification: children are saved under folder with name of their parent object all objects parameters are saved in one JSON file in the root folder</p>
-<p>if postDecompress is set, it is called after decompression loading is controlled with <a class="el" href="classMR_1_1Object.html#aa49d2225cf98e7276390469eef531a5e" title="Reads model from file.">Object::deserializeModel_</a> and <a class="el" href="classMR_1_1Object.html#afa7de2dfba47f9766bfa741f01f73e42">Object::deserializeFields_</a> </p>
-
-</div>
-</div>
-<a id="ga687c1818acf6f0e7b43997d04a94eddf" name="ga687c1818acf6f0e7b43997d04a94eddf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga687c1818acf6f0e7b43997d04a94eddf">&#9670;&#160;</a></span>deserializeObjectTreeFromFolder()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; MR::deserializeObjectTreeFromFolder </td>
-          <td>(</td>
-          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>folder</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>progressCb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>loads objects tree from given scene folder </p>
-<p>format specification: children are saved under folder with name of their parent object all objects parameters are saved in one JSON file in the root folder</p>
-<p>loading is controlled with <a class="el" href="classMR_1_1Object.html#aa49d2225cf98e7276390469eef531a5e" title="Reads model from file.">Object::deserializeModel_</a> and <a class="el" href="classMR_1_1Object.html#afa7de2dfba47f9766bfa741f01f73e42">Object::deserializeFields_</a> </p>
-
-</div>
-</div>
 <a id="gab74247c70d34bac9da9d1e8c421b0703" name="gab74247c70d34bac9da9d1e8c421b0703"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gab74247c70d34bac9da9d1e8c421b0703">&#9670;&#160;</a></span>deserializeViaVerticesFromJson()</h2>
 
@@ -943,75 +814,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="gaceafcc544da777d00267253c9a4894aa" name="gaceafcc544da777d00267253c9a4894aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaceafcc544da777d00267253c9a4894aa">&#9670;&#160;</a></span>serializeMesh()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::serializeMesh </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>selection</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>saveMeshFormat</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;.mrmesh&quot;</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>saves mesh with optional selection to mru format; this is very convenient for saving intermediate states during algorithm debugging; ".mrmesh" save mesh format is not space efficient, but guaranties no changes in the topology after loading </p>
-
-</div>
-</div>
-<a id="gaca961a714f0192aaf552be5f4cd5556e" name="gaca961a714f0192aaf552be5f4cd5556e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaca961a714f0192aaf552be5f4cd5556e">&#9670;&#160;</a></span>serializeObjectTree()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::serializeObjectTree </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>object</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>progress</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="#ga3f12c695d99ddb646e5d824fa7257413">FolderCallback</a></td>          <td class="paramname"><span class="paramname"><em>preCompress</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>saves object subtree in given scene file (zip/mru) </p>
-<p>format specification: children are saved under folder with name of their parent object all objects parameters are saved in one JSON file in the root folder</p>
-<p>if preCompress is set, it is called before compression saving is controlled with <a class="el" href="classMR_1_1Object.html#a2c16491fb528d34d20539c75d611557f">Object::serializeModel_</a> and <a class="el" href="classMR_1_1Object.html#a4b72f2310983a6e40753b5d919d72d35">Object::serializeFields_</a> </p>
-
-</div>
-</div>
 <a id="gaaeef0bd02442f441b66c7decaabd2047" name="gaaeef0bd02442f441b66c7decaabd2047"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaaeef0bd02442f441b66c7decaabd2047">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[1/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaeef0bd02442f441b66c7decaabd2047">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[1/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1037,7 +841,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga810f72ff4bfd3f308bf159660074e79c" name="ga810f72ff4bfd3f308bf159660074e79c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga810f72ff4bfd3f308bf159660074e79c">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[2/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga810f72ff4bfd3f308bf159660074e79c">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[2/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1063,7 +867,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga0247abbacd8ebd7c2abec7d6095cd659" name="ga0247abbacd8ebd7c2abec7d6095cd659"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0247abbacd8ebd7c2abec7d6095cd659">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[3/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0247abbacd8ebd7c2abec7d6095cd659">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[3/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1084,7 +888,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="gacfc4f79eba7c0c8751bd4206a1604603" name="gacfc4f79eba7c0c8751bd4206a1604603"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacfc4f79eba7c0c8751bd4206a1604603">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[4/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gacfc4f79eba7c0c8751bd4206a1604603">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[4/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1105,7 +909,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga27c3983bb6c56873da1fcfa8ce4044d8" name="ga27c3983bb6c56873da1fcfa8ce4044d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga27c3983bb6c56873da1fcfa8ce4044d8">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[5/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga27c3983bb6c56873da1fcfa8ce4044d8">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[5/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1126,7 +930,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga6beb18d5f22f706bd29b9b4b1d2d1cad" name="ga6beb18d5f22f706bd29b9b4b1d2d1cad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6beb18d5f22f706bd29b9b4b1d2d1cad">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[6/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6beb18d5f22f706bd29b9b4b1d2d1cad">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[6/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1147,7 +951,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga337dbc4391f7f93340ae0d57d9992358" name="ga337dbc4391f7f93340ae0d57d9992358"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga337dbc4391f7f93340ae0d57d9992358">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[7/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga337dbc4391f7f93340ae0d57d9992358">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[7/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1173,7 +977,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="gadbd20d4ea1f7a2145ec9cea92d0c6d21" name="gadbd20d4ea1f7a2145ec9cea92d0c6d21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadbd20d4ea1f7a2145ec9cea92d0c6d21">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[8/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadbd20d4ea1f7a2145ec9cea92d0c6d21">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[8/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1198,29 +1002,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ga0e4cb5b845a808cc7438777b42bffb69" name="ga0e4cb5b845a808cc7438777b42bffb69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0e4cb5b845a808cc7438777b42bffb69">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[9/22]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a> MR::serializeToJson </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Json::Value &amp;</td>          <td class="paramname"><span class="paramname"><em>root</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="gacd39b6a2edca023ff58233e8a5938a10" name="gacd39b6a2edca023ff58233e8a5938a10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacd39b6a2edca023ff58233e8a5938a10">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[10/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gacd39b6a2edca023ff58233e8a5938a10">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[9/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1241,7 +1024,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga332fb7d3339d515c107f05a5f3e4d251" name="ga332fb7d3339d515c107f05a5f3e4d251"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga332fb7d3339d515c107f05a5f3e4d251">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[11/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga332fb7d3339d515c107f05a5f3e4d251">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[10/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1268,7 +1051,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="gabf5d52bb9f6c77c69a8e8897c42fce28" name="gabf5d52bb9f6c77c69a8e8897c42fce28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabf5d52bb9f6c77c69a8e8897c42fce28">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[12/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabf5d52bb9f6c77c69a8e8897c42fce28">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[11/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1289,7 +1072,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga5a10f75cc5e4d7e14e17a21e9e8ddb0f" name="ga5a10f75cc5e4d7e14e17a21e9e8ddb0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5a10f75cc5e4d7e14e17a21e9e8ddb0f">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[13/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5a10f75cc5e4d7e14e17a21e9e8ddb0f">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[12/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1310,7 +1093,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="gae2b8279a340f17425a3c6d8e8feb98ec" name="gae2b8279a340f17425a3c6d8e8feb98ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae2b8279a340f17425a3c6d8e8feb98ec">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[14/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae2b8279a340f17425a3c6d8e8feb98ec">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[13/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1331,7 +1114,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga79f82dccdb83d2653639d4bc89f77507" name="ga79f82dccdb83d2653639d4bc89f77507"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga79f82dccdb83d2653639d4bc89f77507">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[15/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga79f82dccdb83d2653639d4bc89f77507">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[14/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1352,7 +1135,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga79617de343668de49d25a0ec996110e4" name="ga79617de343668de49d25a0ec996110e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga79617de343668de49d25a0ec996110e4">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[16/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga79617de343668de49d25a0ec996110e4">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[15/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1373,7 +1156,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga828f3a1487f57601504c8818f38d0f9e" name="ga828f3a1487f57601504c8818f38d0f9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga828f3a1487f57601504c8818f38d0f9e">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[17/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga828f3a1487f57601504c8818f38d0f9e">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[16/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1394,7 +1177,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga2991c05216d6e89d4d73f2eb053cd283" name="ga2991c05216d6e89d4d73f2eb053cd283"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2991c05216d6e89d4d73f2eb053cd283">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[18/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2991c05216d6e89d4d73f2eb053cd283">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[17/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1415,7 +1198,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="gae2d000bf1be360d4156e421121308d90" name="gae2d000bf1be360d4156e421121308d90"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae2d000bf1be360d4156e421121308d90">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[19/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae2d000bf1be360d4156e421121308d90">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[18/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1438,7 +1221,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga01084ea4b91576f192aeb68017e8e45e" name="ga01084ea4b91576f192aeb68017e8e45e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga01084ea4b91576f192aeb68017e8e45e">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[20/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga01084ea4b91576f192aeb68017e8e45e">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[19/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1459,7 +1242,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga73da1f89ff79644868f29b66a89aa3ef" name="ga73da1f89ff79644868f29b66a89aa3ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga73da1f89ff79644868f29b66a89aa3ef">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[21/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga73da1f89ff79644868f29b66a89aa3ef">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[20/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1480,7 +1263,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ga2460b57ac19911dbba07d61927a47ece" name="ga2460b57ac19911dbba07d61927a47ece"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2460b57ac19911dbba07d61927a47ece">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[22/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2460b57ac19911dbba07d61927a47ece">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[21/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1524,51 +1307,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>serialize given edges into json first converting them into pairs of vertices, which is safer when edge ids change after saving/loading, but vertex ids are not </p>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="ga23013624dd00042658c503443e5d3ffb" name="ga23013624dd00042658c503443e5d3ffb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga23013624dd00042658c503443e5d3ffb">&#9670;&#160;</a></span>SceneFileFilters</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a> MR::SceneFileFilters</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga4d85510ea6cd8863229ae69ea4b7d051" name="ga4d85510ea6cd8863229ae69ea4b7d051"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4d85510ea6cd8863229ae69ea4b7d051">&#9670;&#160;</a></span>SceneFileWriteFilters</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a> MR::SceneFileWriteFilters</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>

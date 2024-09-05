@@ -1,8 +1,5 @@
 var NAVTREEINDEX43 =
 {
-"classMR_1_1VisualObject.html#adf2d7e16d33d059dbf2bbd0f1c34c8bf":[9,13,2,5,66],
-"classMR_1_1VisualObject.html#ae3a2d142d4abb2283a71caf7395282a4":[9,13,2,5,78],
-"classMR_1_1VisualObject.html#aeed6d251c7bdbffe0634b0fe96faab35":[9,13,2,5,96],
 "classMR_1_1VisualObject.html#af119b81d9e37bccd5e0bc121a9797544":[9,13,2,5,24],
 "classMR_1_1VisualObject.html#af49f84e12ea7e21ec8dc39ae8609bc18":[9,13,2,5,13],
 "classMR_1_1VisualObject.html#af63540ac95e6431477166fb4d1c249a3":[9,13,2,5,73],
@@ -187,10 +184,10 @@ var NAVTREEINDEX43 =
 "classMR_1_1WebRequest.html#af5d208e5912e2a8a359a8bae954eccbf":[12,0,1,703,17],
 "classMR_1_1WebRequest.html#afcc60aef690f05cb016167a91d6e5fb7":[10,0,10,718,18],
 "classMR_1_1WebRequest.html#afcc60aef690f05cb016167a91d6e5fb7":[12,0,1,703,18],
-"classMR_1_1XfBasedCache.html":[9,13,14],
-"classMR_1_1XfBasedCache.html#a3b3e82656a92381f41f435da52178562":[9,13,14,2],
-"classMR_1_1XfBasedCache.html#a4cb9593831740a31e6a6933644435799":[9,13,14,0],
-"classMR_1_1XfBasedCache.html#a6341f3c9b4f6ccb5bcf18cc28ccf5efc":[9,13,14,1],
+"classMR_1_1XfBasedCache.html":[9,13,13],
+"classMR_1_1XfBasedCache.html#a3b3e82656a92381f41f435da52178562":[9,13,13,2],
+"classMR_1_1XfBasedCache.html#a4cb9593831740a31e6a6933644435799":[9,13,13,0],
+"classMR_1_1XfBasedCache.html#a6341f3c9b4f6ccb5bcf18cc28ccf5efc":[9,13,13,1],
 "classMR_1_1detail_1_1ScopeGuard.html":[10,0,10,3,2],
 "classMR_1_1detail_1_1ScopeGuard.html":[12,0,1,1,2],
 "classMR_1_1detail_1_1ScopeGuard.html#a2c51cf739e0e06d29590ee4e3d5729b0":[10,0,10,3,2,2],
@@ -249,5 +246,8 @@ var NAVTREEINDEX43 =
 "classOffsetParameters.html#a8b0e5d44d9e3102e2f24e253189fbdc3":[12,0,60,1],
 "classOffsetParameters.html#a9ec98ba31e69c894fbb7582e75be2c7c":[12,0,60,0],
 "classOffsetParameters.html#afe441e395d822d944a8000dd2d47a963":[12,0,60,3],
-"classPointCloud.html":[12,0,63]
+"classPointCloud.html":[12,0,63],
+"classPointCloud.html#a3b68619796791f10e1cd155e2fe512f1":[12,0,63,4],
+"classPointCloud.html#a3f8c1390b61e7dab28b71a25927dec0b":[12,0,63,6],
+"classPointCloud.html#a5ae826fbcddf4cdbe08d56dba8a60f89":[12,0,63,2]
 };

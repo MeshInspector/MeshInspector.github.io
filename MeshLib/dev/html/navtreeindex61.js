@@ -1,13 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html#a9c244f51235da14d2ff3e28d232e0015":[12,0,1,2,1,6,0],
-"structMR_1_1Features_1_1Traits_1_1Unary.html":[10,0,10,6,1,7],
-"structMR_1_1Features_1_1Traits_1_1Unary.html":[12,0,1,2,1,7],
-"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html":[10,0,10,6,1,8],
-"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html":[12,0,1,2,1,8],
-"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html#a5c925dcac2e6ec9e5b0423871da7b408":[10,0,10,6,1,8,0],
-"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html#a5c925dcac2e6ec9e5b0423871da7b408":[12,0,1,2,1,8,0],
-"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html":[10,0,10,6,1,9],
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html":[12,0,1,2,1,9],
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html#ad9c9fcc3b4b9a008d957235987cea8a5":[10,0,10,6,1,9,0],
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html#ad9c9fcc3b4b9a008d957235987cea8a5":[12,0,1,2,1,9,0],
@@ -249,5 +241,13 @@ var NAVTREEINDEX61 =
 "structMR_1_1GridToMeshSettings.html#a60ec5481dc2216c33c10205f17221fba":[12,0,1,229,4],
 "structMR_1_1GridToMeshSettings.html#aa2ad751beafe72cd366b5c37d41f6983":[10,0,10,244,3],
 "structMR_1_1GridToMeshSettings.html#aa2ad751beafe72cd366b5c37d41f6983":[12,0,1,229,3],
-"structMR_1_1GridToMeshSettings.html#acda3440aa9d507ae98fc2e068e7d41fd":[10,0,10,244,1]
+"structMR_1_1GridToMeshSettings.html#acda3440aa9d507ae98fc2e068e7d41fd":[10,0,10,244,1],
+"structMR_1_1GridToMeshSettings.html#acda3440aa9d507ae98fc2e068e7d41fd":[12,0,1,229,1],
+"structMR_1_1GridToMeshSettings.html#acee0af0c67fecb819dabf8238de050fc":[10,0,10,244,6],
+"structMR_1_1GridToMeshSettings.html#acee0af0c67fecb819dabf8238de050fc":[12,0,1,229,6],
+"structMR_1_1GridToMeshSettings.html#ad826bf2632bc0f30ff1144fb199ad870":[10,0,10,244,2],
+"structMR_1_1GridToMeshSettings.html#ad826bf2632bc0f30ff1144fb199ad870":[12,0,1,229,2],
+"structMR_1_1Heap_1_1Element.html":[9,3,7,0],
+"structMR_1_1Heap_1_1Element.html#a7bd4aa28de0c5142c7149308ec9da563":[9,3,7,0,1],
+"structMR_1_1Heap_1_1Element.html#af5f2ab7653bc95405d4e20891982a46b":[9,3,7,0,0]
 };

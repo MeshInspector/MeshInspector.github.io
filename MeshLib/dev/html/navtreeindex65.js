@@ -1,13 +1,5 @@
 var NAVTREEINDEX65 =
 {
-"structMR_1_1Mesh.html#a3f0764fd9acf9f3a4b060a658c656efc":[9,9,1,87],
-"structMR_1_1Mesh.html#a4048484ac2e78090960bc9bbc60cd6b6":[9,9,1,93],
-"structMR_1_1Mesh.html#a4237bb2ee8edbc72aa4189bc2307a544":[9,9,1,30],
-"structMR_1_1Mesh.html#a43237a5df3be3b980a3147ceb8710a22":[9,9,1,55],
-"structMR_1_1Mesh.html#a45cc8a4868a2671492e010d86cb408cd":[9,9,1,9],
-"structMR_1_1Mesh.html#a4678592f5a58aba37a0994f895ff7804":[9,9,1,96],
-"structMR_1_1Mesh.html#a49f7db0c7ecd59955478746c13609ff6":[9,9,1,105],
-"structMR_1_1Mesh.html#a4cf526a36b567b3e072c3aa70d628ee2":[9,9,1,43],
 "structMR_1_1Mesh.html#a4dda7695db1d721bc3cb64bb374c89c4":[9,9,1,36],
 "structMR_1_1Mesh.html#a4fe5788ff7927b5a1b5f70b157353ab6":[9,9,1,54],
 "structMR_1_1Mesh.html#a540a6eef456f6c54c214766fc0a7c3fb":[9,9,1,110],
@@ -157,9 +149,12 @@ var NAVTREEINDEX65 =
 "structMR_1_1MeshIntersectionResult.html#a59e06434bac0180ffaac80a2fb3041d1":[9,1,20,3],
 "structMR_1_1MeshIntersectionResult.html#a701e1414a45534a29d2ad1f7074c3c61":[9,1,20,1],
 "structMR_1_1MeshIntersectionResult.html#aa6767f8fee0dd3f9883b1657e2d9fcb2":[9,1,20,2],
-"structMR_1_1MeshLoadInfo.html":[9,13,9],
-"structMR_1_1MeshLoadInfo.html#a256d5e1bb1c47b9f0c30d2d9ff67f363":[9,13,9,1],
-"structMR_1_1MeshLoadInfo.html#aa47bbfdd7c99e7cd980eb3988f212d72":[9,13,9,0],
+"structMR_1_1MeshLoadInfo.html":[10,0,10,327],
+"structMR_1_1MeshLoadInfo.html":[12,0,1,312],
+"structMR_1_1MeshLoadInfo.html#a256d5e1bb1c47b9f0c30d2d9ff67f363":[10,0,10,327,1],
+"structMR_1_1MeshLoadInfo.html#a256d5e1bb1c47b9f0c30d2d9ff67f363":[12,0,1,312,1],
+"structMR_1_1MeshLoadInfo.html#aa47bbfdd7c99e7cd980eb3988f212d72":[10,0,10,327,0],
+"structMR_1_1MeshLoadInfo.html#aa47bbfdd7c99e7cd980eb3988f212d72":[12,0,1,312,0],
 "structMR_1_1MeshLoadSettings.html":[10,0,10,328],
 "structMR_1_1MeshLoadSettings.html":[12,0,1,313],
 "structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7":[10,0,10,328,2],
@@ -249,5 +244,10 @@ var NAVTREEINDEX65 =
 "structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69da6adf97f83acf6453d4a6a4b1070f3754":[9,2,12,0,0,0],
 "structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69dab7048ff6b4f97b9230b2365b31d16713":[9,2,12,0,0,1],
 "structMR_1_1MeshSave_1_1CtmSaveOptions.html#ae11e0573781455904bb818493c2ad69dab71142391f68646086edeadddcf020dc":[9,2,12,0,0,2],
-"structMR_1_1MeshSave_1_1NamedXfMesh.html":[9,2,13,0]
+"structMR_1_1MeshSave_1_1NamedXfMesh.html":[9,2,13,0],
+"structMR_1_1MeshSave_1_1NamedXfMesh.html#a29db5926f11ff21b3d1cb3b4162e228a":[9,2,13,0,0],
+"structMR_1_1MeshSave_1_1NamedXfMesh.html#a8075df44d9587ee2fd2ee32f18d22f0b":[9,2,13,0,1],
+"structMR_1_1MeshSave_1_1NamedXfMesh.html#ac966a0534972ef8bcc25ee2d926a5703":[9,2,13,0,2],
+"structMR_1_1MeshSignedDistanceResult.html":[9,1,19],
+"structMR_1_1MeshSignedDistanceResult.html#a2729ca0eb5dbcf66477c17547ff78146":[9,1,19,0]
 };

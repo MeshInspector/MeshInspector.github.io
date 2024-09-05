@@ -1,11 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"classMR_1_1RadiusMeasurementObject.html#a2f3a6dedd89bdd3d84945c24d0a86648":[12,0,1,470,11],
-"classMR_1_1RadiusMeasurementObject.html#a3afae609fa7f9727dbddd5906f442e07":[10,0,10,485,2],
-"classMR_1_1RadiusMeasurementObject.html#a3afae609fa7f9727dbddd5906f442e07":[12,0,1,470,2],
-"classMR_1_1RadiusMeasurementObject.html#a42db597cf6c86264265ae90f066d8b6b":[10,0,10,485,26],
-"classMR_1_1RadiusMeasurementObject.html#a42db597cf6c86264265ae90f066d8b6b":[12,0,1,470,26],
-"classMR_1_1RadiusMeasurementObject.html#a69d0ba22a0e3029c9b0e902d1ade30ef":[10,0,10,485,12],
 "classMR_1_1RadiusMeasurementObject.html#a69d0ba22a0e3029c9b0e902d1ade30ef":[12,0,1,470,12],
 "classMR_1_1RadiusMeasurementObject.html#a6c5ce7e4b4a07029e63ff8b7edd1b05e":[10,0,10,485,22],
 "classMR_1_1RadiusMeasurementObject.html#a6c5ce7e4b4a07029e63ff8b7edd1b05e":[12,0,1,470,22],
@@ -178,12 +172,10 @@ var NAVTREEINDEX31 =
 "classMR_1_1RegisterRenderObjectConstructor.html#a68b36d5a17409d933e14092222e0ff3e":[10,0,10,497,0],
 "classMR_1_1RegisterRenderObjectConstructor.html#a68b36d5a17409d933e14092222e0ff3e":[12,0,1,482,0],
 "classMR_1_1RegularMapMesher.html":[9,14,3],
-"classMR_1_1RegularMapMesher.html#a0b822d1160d10749302218a02ecf23f7":[9,14,3,1],
-"classMR_1_1RegularMapMesher.html#a48f6cd19965602a3fb9f4669c22e3c14":[9,14,3,5],
-"classMR_1_1RegularMapMesher.html#a6dc043a7a516e3b50448b18d4e127971":[9,14,3,3],
-"classMR_1_1RegularMapMesher.html#a8556a43fd905bbb2cba1cb5bb5743739":[9,14,3,4],
-"classMR_1_1RegularMapMesher.html#a9ed2cde9e77dce74ecb24b16eb4db785":[9,14,3,6],
-"classMR_1_1RegularMapMesher.html#abcaf63824e1d2e6950436bb64b0ed238":[9,14,3,2],
+"classMR_1_1RegularMapMesher.html#a48f6cd19965602a3fb9f4669c22e3c14":[9,14,3,3],
+"classMR_1_1RegularMapMesher.html#a8556a43fd905bbb2cba1cb5bb5743739":[9,14,3,2],
+"classMR_1_1RegularMapMesher.html#a9ed2cde9e77dce74ecb24b16eb4db785":[9,14,3,4],
+"classMR_1_1RegularMapMesher.html#abcaf63824e1d2e6950436bb64b0ed238":[9,14,3,1],
 "classMR_1_1RegularMapMesher.html#acdde192d67f89fe363a158f3ee13f499":[9,14,3,0],
 "classMR_1_1RemovePointActionPickerPoint.html":[10,0,10,501],
 "classMR_1_1RemovePointActionPickerPoint.html":[12,0,1,486],
@@ -249,5 +241,13 @@ var NAVTREEINDEX31 =
 "classMR_1_1RenderDistanceObject.html#ad9844fa43c48be4e012ac940a46ab685":[12,0,1,489,1],
 "classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html":[10,0,10,30,1],
 "classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html":[12,0,1,16,1],
-"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html#a29c87ece31c42b112098bfd2a019588e":[10,0,10,30,1,1]
+"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html#a29c87ece31c42b112098bfd2a019588e":[10,0,10,30,1,1],
+"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html#a29c87ece31c42b112098bfd2a019588e":[12,0,1,16,1,1],
+"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html#ad46f11039fa4117f1040bc2b3b5a4011":[10,0,10,30,1,0],
+"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html#ad46f11039fa4117f1040bc2b3b5a4011":[12,0,1,16,1,0],
+"classMR_1_1RenderFeatures_1_1RenderConeFeatureObject.html":[10,0,10,30,2],
+"classMR_1_1RenderFeatures_1_1RenderConeFeatureObject.html":[12,0,1,16,2],
+"classMR_1_1RenderFeatures_1_1RenderConeFeatureObject.html#aac5a73e456343b3de77158b5858cc64e":[10,0,10,30,2,1],
+"classMR_1_1RenderFeatures_1_1RenderConeFeatureObject.html#aac5a73e456343b3de77158b5858cc64e":[12,0,1,16,2,1],
+"classMR_1_1RenderFeatures_1_1RenderConeFeatureObject.html#ad655b05975ceda7d952b5547c22bd733":[10,0,10,30,2,0]
 };

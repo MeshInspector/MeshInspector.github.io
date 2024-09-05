@@ -16,7 +16,5 @@ var MRDistanceMap_8h =
     [ "distanceMapTo2DIsoPolyline", "MRDistanceMap_8h.html#ga1acaca885d3034b9c8ef1f5cb9b8824a", null ],
     [ "distanceMapToMesh", "MRDistanceMap_8h.html#ga145ea179a83ff19d1734af8771bba71a", null ],
     [ "edgePointsFromContours", "MRDistanceMap_8h.html#ga00ea89be5cae9953d5df7ef382259b58", null ],
-    [ "loadDistanceMapFromImage", "MRDistanceMap_8h.html#ga44fc29abeabf10bafd907c2784a878b2", null ],
-    [ "polylineOffset", "MRDistanceMap_8h.html#gaf720ea7221e6ad284c8b0b80e5c58364", null ],
-    [ "saveDistanceMapToImage", "MRDistanceMap_8h.html#gad32dba15de75a916f90af8e79efca23c", null ]
+    [ "polylineOffset", "MRDistanceMap_8h.html#gaf720ea7221e6ad284c8b0b80e5c58364", null ]
 ];

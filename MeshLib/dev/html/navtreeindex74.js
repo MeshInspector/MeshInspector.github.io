@@ -1,10 +1,5 @@
 var NAVTREEINDEX74 =
 {
-"structMR_1_1TouchpadZoomGestureBeginListener.html#aa1466bd78b47344b1f14b7f80586b10c":[12,0,1,629,3],
-"structMR_1_1TouchpadZoomGestureBeginListener.html#ae78265b3b8f64da2ffc4c9dcdc7292ff":[10,0,10,644,2],
-"structMR_1_1TouchpadZoomGestureBeginListener.html#ae78265b3b8f64da2ffc4c9dcdc7292ff":[12,0,1,629,2],
-"structMR_1_1TouchpadZoomGestureBeginListener.html#af5348be745ad12096850899abc2bec29":[10,0,10,644,1],
-"structMR_1_1TouchpadZoomGestureBeginListener.html#af5348be745ad12096850899abc2bec29":[12,0,1,629,1],
 "structMR_1_1TouchpadZoomGestureEndListener.html":[10,0,10,645],
 "structMR_1_1TouchpadZoomGestureEndListener.html":[12,0,1,630],
 "structMR_1_1TouchpadZoomGestureEndListener.html#a2921d52163618add8bbd7a16dd5203f6":[10,0,10,645,1],
@@ -249,5 +244,10 @@ var NAVTREEINDEX74 =
 "structMR_1_1UI_1_1RadioButtonOrModifierState.html#a9d6a399bbfee336d360bbfc7339c022e":[12,0,1,21,8,1],
 "structMR_1_1UI_1_1RadioButtonOrModifierState.html#aef2b0d98c760a75a666aedd5cf4143c5":[10,0,10,36,9,0],
 "structMR_1_1UI_1_1RadioButtonOrModifierState.html#aef2b0d98c760a75a666aedd5cf4143c5":[12,0,1,21,8,0],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html":[10,0,10,36,10,0]
+"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html":[10,0,10,36,10,0],
+"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html":[12,0,1,21,9,0],
+"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a423ad35700fd7a37eae40c7cba627783":[10,0,10,36,10,0,0],
+"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a423ad35700fd7a37eae40c7cba627783":[12,0,1,21,9,0,0],
+"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a7bad8f2ab7400f08c728b644d1b1033e":[10,0,10,36,10,0,1],
+"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a7bad8f2ab7400f08c728b644d1b1033e":[12,0,1,21,9,0,1]
 };

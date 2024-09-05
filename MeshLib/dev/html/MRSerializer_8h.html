@@ -105,11 +105,8 @@ $(function(){initNavTree('MRSerializer_8h.html',''); initResizable(true); });
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRSerializer.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -127,21 +124,10 @@ $(function(){initNavTree('MRSerializer_8h.html',''); initResizable(true); });
 </div>
 <p><a href="MRSerializer_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UniqueTemporaryFolder.html">MR::UniqueTemporaryFolder</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ga3f12c695d99ddb646e5d824fa7257413" id="r_ga3f12c695d99ddb646e5d824fa7257413"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#ga3f12c695d99ddb646e5d824fa7257413">MR::FolderCallback</a> = std::function&lt;void( const std::filesystem::path&amp; tempFolderName )&gt;</td></tr>
-<tr class="memdesc:ga3f12c695d99ddb646e5d824fa7257413"><td class="mdescLeft">&#160;</td><td class="mdescRight">this callback will be called before compression on serialization and after decompression on deserialization  <br /></td></tr>
-<tr class="separator:ga3f12c695d99ddb646e5d824fa7257413"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -151,17 +137,6 @@ Functions</h2></td></tr>
 <tr class="separator:ga84a27be875063a2ab0d174fa1f9e7771"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga790b6ef6dd31f1a82bf42d810c4c1f44" id="r_ga790b6ef6dd31f1a82bf42d810c4c1f44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; Json::Value &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#ga790b6ef6dd31f1a82bf42d810c4c1f44">MR::deserializeJsonValue</a> (const std::filesystem::path &amp;path)</td></tr>
 <tr class="separator:ga790b6ef6dd31f1a82bf42d810c4c1f44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaca961a714f0192aaf552be5f4cd5556e" id="r_gaca961a714f0192aaf552be5f4cd5556e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#gaca961a714f0192aaf552be5f4cd5556e">MR::serializeObjectTree</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;object, const std::filesystem::path &amp;path, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progress={}, <a class="el" href="group__SerializerGroup.html#ga3f12c695d99ddb646e5d824fa7257413">FolderCallback</a> preCompress={})</td></tr>
-<tr class="memdesc:gaca961a714f0192aaf552be5f4cd5556e"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves object subtree in given scene file (zip/mru)  <br /></td></tr>
-<tr class="separator:gaca961a714f0192aaf552be5f4cd5556e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4043b5c1dadd14c81e7aa228d8dcdb62" id="r_ga4043b5c1dadd14c81e7aa228d8dcdb62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#ga4043b5c1dadd14c81e7aa228d8dcdb62">MR::deserializeObjectTree</a> (const std::filesystem::path &amp;path, <a class="el" href="group__SerializerGroup.html#ga3f12c695d99ddb646e5d824fa7257413">FolderCallback</a> postDecompress={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={})</td></tr>
-<tr class="memdesc:ga4043b5c1dadd14c81e7aa228d8dcdb62"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads objects tree from given scene file (zip/mru)  <br /></td></tr>
-<tr class="separator:ga4043b5c1dadd14c81e7aa228d8dcdb62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga687c1818acf6f0e7b43997d04a94eddf" id="r_ga687c1818acf6f0e7b43997d04a94eddf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#ga687c1818acf6f0e7b43997d04a94eddf">MR::deserializeObjectTreeFromFolder</a> (const std::filesystem::path &amp;folder, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={})</td></tr>
-<tr class="memdesc:ga687c1818acf6f0e7b43997d04a94eddf"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads objects tree from given scene folder  <br /></td></tr>
-<tr class="separator:ga687c1818acf6f0e7b43997d04a94eddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaceafcc544da777d00267253c9a4894aa" id="r_gaceafcc544da777d00267253c9a4894aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#gaceafcc544da777d00267253c9a4894aa">MR::serializeMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::filesystem::path &amp;path, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#aa849069c9544b0238590e214eb6d0172">FaceBitSet</a> *selection=nullptr, const char *saveMeshFormat=&quot;.mrmesh&quot;)</td></tr>
-<tr class="separator:gaceafcc544da777d00267253c9a4894aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae2d000bf1be360d4156e421121308d90" id="r_gae2d000bf1be360d4156e421121308d90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#gae2d000bf1be360d4156e421121308d90">MR::serializeToJson</a> (const Vector2i &amp;vec, Json::Value &amp;root)</td></tr>
 <tr class="memdesc:gae2d000bf1be360d4156e421121308d90"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves an object into json value  <br /></td></tr>
 <tr class="separator:gae2d000bf1be360d4156e421121308d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -189,8 +164,6 @@ Functions</h2></td></tr>
 <tr class="separator:ga810f72ff4bfd3f308bf159660074e79c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0247abbacd8ebd7c2abec7d6095cd659" id="r_ga0247abbacd8ebd7c2abec7d6095cd659"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#ga0247abbacd8ebd7c2abec7d6095cd659">MR::serializeToJson</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;bitset, Json::Value &amp;root)</td></tr>
 <tr class="separator:ga0247abbacd8ebd7c2abec7d6095cd659"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0e4cb5b845a808cc7438777b42bffb69" id="r_ga0e4cb5b845a808cc7438777b42bffb69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#ga0e4cb5b845a808cc7438777b42bffb69">MR::serializeToJson</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, Json::Value &amp;root)</td></tr>
-<tr class="separator:ga0e4cb5b845a808cc7438777b42bffb69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabf5d52bb9f6c77c69a8e8897c42fce28" id="r_gabf5d52bb9f6c77c69a8e8897c42fce28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#gabf5d52bb9f6c77c69a8e8897c42fce28">MR::serializeToJson</a> (const Plane3f &amp;plane, Json::Value &amp;root)</td></tr>
 <tr class="separator:gabf5d52bb9f6c77c69a8e8897c42fce28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga828f3a1487f57601504c8818f38d0f9e" id="r_ga828f3a1487f57601504c8818f38d0f9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#ga828f3a1487f57601504c8818f38d0f9e">MR::serializeToJson</a> (const TriPointf &amp;tp, Json::Value &amp;root)</td></tr>
@@ -234,8 +207,6 @@ Functions</h2></td></tr>
 <tr class="separator:gaa6c9fafbe5675e06061b897d2e92f138"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4c0c62354556511936a0e90a2d4c586e" id="r_ga4c0c62354556511936a0e90a2d4c586e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#ga4c0c62354556511936a0e90a2d4c586e">MR::deserializeFromJson</a> (const Json::Value &amp;root, <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;bitset)</td></tr>
 <tr class="separator:ga4c0c62354556511936a0e90a2d4c586e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5e2004fef2b124e7462276bcee514d6b" id="r_ga5e2004fef2b124e7462276bcee514d6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#ga5e2004fef2b124e7462276bcee514d6b">MR::deserializeFromJson</a> (const Json::Value &amp;root, VertColors *colors=nullptr)</td></tr>
-<tr class="separator:ga5e2004fef2b124e7462276bcee514d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabb27cc540be81d459806f905ad7f574a" id="r_gabb27cc540be81d459806f905ad7f574a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#gabb27cc540be81d459806f905ad7f574a">MR::deserializeFromJson</a> (const Json::Value &amp;root, Plane3f &amp;plane)</td></tr>
 <tr class="separator:gabb27cc540be81d459806f905ad7f574a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga72e078f3acb1fe95234144b3f7d2aced" id="r_ga72e078f3acb1fe95234144b3f7d2aced"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#ga72e078f3acb1fe95234144b3f7d2aced">MR::deserializeFromJson</a> (const Json::Value &amp;root, TriPointf &amp;tp)</td></tr>
@@ -252,13 +223,6 @@ Functions</h2></td></tr>
 <tr class="separator:ga844db290f408a9fa59211a2239689ada"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabb77b8518b98c3dde34206e1c8bbc5fc" id="r_gabb77b8518b98c3dde34206e1c8bbc5fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#gabb77b8518b98c3dde34206e1c8bbc5fc">MR::deserializeFromJson</a> (const Json::Value &amp;root, <a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a> &amp;pf)</td></tr>
 <tr class="separator:gabb77b8518b98c3dde34206e1c8bbc5fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ga23013624dd00042658c503443e5d3ffb" id="r_ga23013624dd00042658c503443e5d3ffb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#ga23013624dd00042658c503443e5d3ffb">MR::SceneFileFilters</a></td></tr>
-<tr class="separator:ga23013624dd00042658c503443e5d3ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4d85510ea6cd8863229ae69ea4b7d051" id="r_ga4d85510ea6cd8863229ae69ea4b7d051"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SerializerGroup.html#ga4d85510ea6cd8863229ae69ea4b7d051">MR::SceneFileWriteFilters</a></td></tr>
-<tr class="separator:ga4d85510ea6cd8863229ae69ea4b7d051"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
