@@ -176,6 +176,8 @@ var group__MathGroup =
     [ "MR::circumcircleDiameter", "group__MathGroup.html#gaba44f8d705d9bc1b98f635bdabe488ae", null ],
     [ "MR::circumcircleDiameterSq", "group__MathGroup.html#ga97b0c226492f4561c1a2c13831433bed", null ],
     [ "MR::computeBoundingBox", "group__MathGroup.html#gac591d793fa5ee868f8255a94350e1aef", null ],
+    [ "MR::computeBoundingBox", "group__MathGroup.html#ga560ffd3d317d3bb18df9db6aae8c2d02", null ],
+    [ "MR::computeBoundingBox", "group__MathGroup.html#ga3b002e846a245cb69384c1d444ea65a0", null ],
     [ "MR::dihedralAngle", "group__MathGroup.html#ga84b1b2dc1c73856fecb9b8617c174b04", null ],
     [ "MR::dihedralAngleCos", "group__MathGroup.html#gaa45975718eae0ae8c5500147ee8c27d1", null ],
     [ "MR::dihedralAngleSin", "group__MathGroup.html#ga92b796fca017138671758654b2838d56", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"group__SerializerGroup.html#ga93370e8f0bb7db437558a96f16c32fbd":[9,2,15,1],
 "group__SerializerGroup.html#ga9f65600bd6b7fb223ab125f81c96ae25":[9,2,15,3],
 "group__SerializerGroup.html#gaa6c9fafbe5675e06061b897d2e92f138":[9,2,15,4],
 "group__SerializerGroup.html#gaa945fd69c2b9a828d6f34e7bc34b9df3":[9,2,15,19],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "interfaceMeshOrPoints.html#a34450bdc2efa2659a3a4aa51eaeb758e":[12,0,25,0],
 "interfaceMeshOrPoints.html#a506a48afa52d120e6ba4a0f1d4c4e9e4":[12,0,25,1],
 "interfaceMeshOrPoints.html#a60e9ad4d7a9b80fe5c1a73e5f0526ebc":[12,0,25,2],
-"namespaceImGui.html":[10,0,0],
-"namespaceImGui.html#a01e8908c9ff42e3510168251a97f1d48":[10,0,0,8]
+"namespaceImGui.html":[10,0,0]
 };

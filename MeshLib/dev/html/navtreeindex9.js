@@ -1,6 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"MRPrecisePredicates3_8h.html":[13,0,0,2,3,303],
 "MRPrecisePredicates3_8h_source.html":[13,0,0,2,3,303],
 "MRPrimitiveMapsComposition_8h.html":[13,0,0,2,3,304],
 "MRPrimitiveMapsComposition_8h_source.html":[13,0,0,2,3,304],
@@ -249,5 +248,6 @@ var NAVTREEINDEX9 =
 "MRSaveSettings_8h.html#acc1d104ed2e275977cf878d68073c9b2":[13,0,0,2,3,326,5],
 "MRSaveSettings_8h_source.html":[13,0,0,2,3,326],
 "MRSceneCache_8h.html":[13,0,0,2,9,81],
-"MRSceneCache_8h_source.html":[13,0,0,2,9,81]
+"MRSceneCache_8h_source.html":[13,0,0,2,9,81],
+"MRSceneColors_8h.html":[13,0,0,2,3,327]
 };

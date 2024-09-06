@@ -1,6 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"classMR_1_1ChangeBoundarySelectionHistoryAction.html":[10,0,10,89],
 "classMR_1_1ChangeBoundarySelectionHistoryAction.html":[12,0,1,74],
 "classMR_1_1ChangeBoundarySelectionHistoryAction.html#a7d6c878105bdd69d6bbb3524c5fc8243":[10,0,10,89,1],
 "classMR_1_1ChangeBoundarySelectionHistoryAction.html#a7d6c878105bdd69d6bbb3524c5fc8243":[12,0,1,74,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX15 =
 "classMR_1_1CircleObject.html#a04d619d722a2253079706d64e5c9ef70":[9,13,0,0,13],
 "classMR_1_1CircleObject.html#a1b666f68cb067916d8b0a10e19c98af6":[9,13,0,0,20],
 "classMR_1_1CircleObject.html#a1fcb69f1dd8bdbf42302043d67fb8fa8":[9,13,0,0,5],
-"classMR_1_1CircleObject.html#a213eae2656d58c2c869a7c592a70c899":[9,13,0,0,12]
+"classMR_1_1CircleObject.html#a213eae2656d58c2c869a7c592a70c899":[9,13,0,0,12],
+"classMR_1_1CircleObject.html#a2f2f75df180154bb0a2973c18a588e3f":[9,13,0,0,14]
 };

@@ -98,7 +98,6 @@ var NAVTREEINDEX1 =
 "MRCommandLoop_8h.html":[13,0,0,2,9,11],
 "MRCommandLoop_8h_source.html":[13,0,0,2,9,11],
 "MRComputeBoundingBox_8h.html":[13,0,0,2,3,61],
-"MRComputeBoundingBox_8h.html#a560ffd3d317d3bb18df9db6aae8c2d02":[13,0,0,2,3,61,1],
 "MRComputeBoundingBox_8h_source.html":[13,0,0,2,3,61],
 "MRComputeVolume_8h.html":[13,0,0,2,3,62],
 "MRComputeVolume_8h.html#a95448d86b9e9dc01e6f9391c76bd06f6":[13,0,0,2,3,62,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "MRDotNet_2MRMeshFwd_8h.html#a1a1e383669c7572f716d6e069738f2e4":[13,0,0,2,2,13,2],
 "MRDotNet_2MRMeshFwd_8h.html#a25801c708b161c47ca8f95bd4d5bdf5a":[13,0,0,2,2,13,26],
 "MRDotNet_2MRMeshFwd_8h.html#a289d7fe3c948673edddfe7ccdbef5692":[13,0,0,2,2,13,31],
-"MRDotNet_2MRMeshFwd_8h.html#a2decdf8d314701a25048c6bde5bae919":[13,0,0,2,2,13,28]
+"MRDotNet_2MRMeshFwd_8h.html#a2decdf8d314701a25048c6bde5bae919":[13,0,0,2,2,13,28],
+"MRDotNet_2MRMeshFwd_8h.html#a38d7d5119d68ba78dff0e5a6e29a3f61":[13,0,0,2,2,13,24]
 };
