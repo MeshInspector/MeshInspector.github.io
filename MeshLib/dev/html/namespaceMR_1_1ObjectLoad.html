@@ -105,8 +105,7 @@ $(function(){initNavTree('namespaceMR_1_1ObjectLoad.html',''); initResizable(tru
 
 <div class="header">
   <div class="summary">
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle"><div class="title">MR::ObjectLoad Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -115,18 +114,6 @@ $(function(){initNavTree('namespaceMR_1_1ObjectLoad.html',''); initResizable(tru
 Typedefs</h2></td></tr>
 <tr class="memitem:a6e395df76667e65feb47ca27d6130b3c" id="r_a6e395df76667e65feb47ca27d6130b3c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e395df76667e65feb47ca27d6130b3c">ObjectLoader</a> = <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;std::vector&lt;<a class="el" href="namespaceMR.html#a9dc1331c485c74f9cb1a85cdd31ae071">ObjectPtr</a>&gt;&gt;( * )( const std::filesystem::path&amp;, std::string*, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> )</td></tr>
 <tr class="separator:a6e395df76667e65feb47ca27d6130b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ad0a141f901debb231da630876a6196a6" id="r_ad0a141f901debb231da630876a6196a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6e395df76667e65feb47ca27d6130b3c">ObjectLoader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0a141f901debb231da630876a6196a6">getObjectLoader</a> (<a class="el" href="structMR_1_1IOFilter.html">IOFilter</a> filter)</td></tr>
-<tr class="memdesc:ad0a141f901debb231da630876a6196a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find an appropriate loader from the registry.  <br /></td></tr>
-<tr class="separator:ad0a141f901debb231da630876a6196a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a926cd008c3b4e42abeafe42952a1188c" id="r_a926cd008c3b4e42abeafe42952a1188c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a926cd008c3b4e42abeafe42952a1188c">setObjectLoader</a> (<a class="el" href="structMR_1_1IOFilter.html">IOFilter</a> filter, <a class="el" href="#a6e395df76667e65feb47ca27d6130b3c">ObjectLoader</a> loader)</td></tr>
-<tr class="memdesc:a926cd008c3b4e42abeafe42952a1188c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add or override a loader in the registry.  <br /></td></tr>
-<tr class="separator:a926cd008c3b4e42abeafe42952a1188c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a379bc109a138aee7437c97d7527d5e1a" id="r_a379bc109a138aee7437c97d7527d5e1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a379bc109a138aee7437c97d7527d5e1a">getFilters</a> ()</td></tr>
-<tr class="memdesc:a379bc109a138aee7437c97d7527d5e1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all registered filters.  <br /></td></tr>
-<tr class="separator:a379bc109a138aee7437c97d7527d5e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a6e395df76667e65feb47ca27d6130b3c" name="a6e395df76667e65feb47ca27d6130b3c"></a>
@@ -140,68 +127,6 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a379bc109a138aee7437c97d7527d5e1a" name="a379bc109a138aee7437c97d7527d5e1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a379bc109a138aee7437c97d7527d5e1a">&#9670;&#160;</a></span>getFilters()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a> MR::ObjectLoad::getFilters </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get all registered filters. </p>
-
-</div>
-</div>
-<a id="ad0a141f901debb231da630876a6196a6" name="ad0a141f901debb231da630876a6196a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0a141f901debb231da630876a6196a6">&#9670;&#160;</a></span>getObjectLoader()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6e395df76667e65feb47ca27d6130b3c">ObjectLoader</a> MR::ObjectLoad::getObjectLoader </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structMR_1_1IOFilter.html">IOFilter</a></td>          <td class="paramname"><span class="paramname"><em>filter</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Find an appropriate loader from the registry. </p>
-
-</div>
-</div>
-<a id="a926cd008c3b4e42abeafe42952a1188c" name="a926cd008c3b4e42abeafe42952a1188c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a926cd008c3b4e42abeafe42952a1188c">&#9670;&#160;</a></span>setObjectLoader()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectLoad::setObjectLoader </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structMR_1_1IOFilter.html">IOFilter</a></td>          <td class="paramname"><span class="paramname"><em>filter</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="#a6e395df76667e65feb47ca27d6130b3c">ObjectLoader</a></td>          <td class="paramname"><span class="paramname"><em>loader</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Add or override a loader in the registry. </p>
 
 </div>
 </div>

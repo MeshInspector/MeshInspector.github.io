@@ -14,7 +14,11 @@ var searchData=
   ['line3fmesh_11',['Line3fMesh',['../group__AABBTreeGroup.html#ga9222ec2d954badb7ee5874321a084eb6',1,'MR']]],
   ['lineschangedsignal_12',['LinesChangedSignal',['../classMR_1_1ObjectLines.html#ab4dd059872b969f78cf2cde0863184d3',1,'MR::ObjectLines']]],
   ['linesegm3_13',['LineSegm3',['../namespaceMR.html#a22626b510a506d8dad6a4ccf8b3db9a1',1,'MR']]],
-  ['linetreetraits_14',['LineTreeTraits',['../group__AABBTreeGroup.html#ga876e325460f0c5460c1e453324ca329c',1,'MR']]],
-  ['linetreetraits2_15',['LineTreeTraits2',['../group__AABBTreeGroup.html#ga346d2e7774495e3e4ca05a2325f11aaf',1,'MR']]],
-  ['linetreetraits3_16',['LineTreeTraits3',['../group__AABBTreeGroup.html#gacf6e57b5e87718397acc1762969ad77a',1,'MR']]]
+  ['linesfileloader_14',['LinesFileLoader',['../namespaceMR_1_1LinesLoad.html#af9711c25db9d07dac939c6de4412620f',1,'MR::LinesLoad']]],
+  ['linesfilesaver_15',['LinesFileSaver',['../namespaceMR_1_1LinesSave.html#af60c53a3373b70b68b166f03994a8894',1,'MR::LinesSave']]],
+  ['linesstreamloader_16',['LinesStreamLoader',['../namespaceMR_1_1LinesLoad.html#a70812aee66445caeeeb0a1ce8cf6a071',1,'MR::LinesLoad']]],
+  ['linesstreamsaver_17',['LinesStreamSaver',['../namespaceMR_1_1LinesSave.html#a268aa90e5a330542295cca4a34787a08',1,'MR::LinesSave']]],
+  ['linetreetraits_18',['LineTreeTraits',['../group__AABBTreeGroup.html#ga876e325460f0c5460c1e453324ca329c',1,'MR']]],
+  ['linetreetraits2_19',['LineTreeTraits2',['../group__AABBTreeGroup.html#ga346d2e7774495e3e4ca05a2325f11aaf',1,'MR']]],
+  ['linetreetraits3_20',['LineTreeTraits3',['../group__AABBTreeGroup.html#gacf6e57b5e87718397acc1762969ad77a',1,'MR']]]
 ];

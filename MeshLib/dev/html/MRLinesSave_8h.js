@@ -7,6 +7,5 @@ var MRLinesSave_8h =
     [ "toMrLines", "MRLinesSave_8h.html#ga3e6359bc8449fc90968c2981c6a0bd44", null ],
     [ "toMrLines", "MRLinesSave_8h.html#ga1c2b67735b485aa257a285d9eaaf05c1", null ],
     [ "toPts", "MRLinesSave_8h.html#ga8fd3d320767b195764b2b8c71c35bba2", null ],
-    [ "toPts", "MRLinesSave_8h.html#gacbb5d0cbb1ca151d00273f492990638a", null ],
-    [ "Filters", "MRLinesSave_8h.html#ga8cf9ea4d484bb0921f0f30e5d0229550", null ]
+    [ "toPts", "MRLinesSave_8h.html#gacbb5d0cbb1ca151d00273f492990638a", null ]
 ];

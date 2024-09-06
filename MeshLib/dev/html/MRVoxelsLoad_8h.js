@@ -20,6 +20,5 @@ var MRVoxelsLoad_8h =
     [ "loadDicomFolder", "MRVoxelsLoad_8h.html#ga6d1328d15f7ddda227fc82a53bb3c770", null ],
     [ "loadDicomsFolder", "MRVoxelsLoad_8h.html#ga058d883315a4af25784fefb62138d3bd", null ],
     [ "loadTiffDir", "MRVoxelsLoad_8h.html#ad2719ea417fd64c5e39a58822e9c4c76", null ],
-    [ "sortFilesByName", "MRVoxelsLoad_8h.html#ga9dea5760f438e7cd068a17cd2fba73d3", null ],
-    [ "Filters", "MRVoxelsLoad_8h.html#gaf1ddae6fda30ae38508797dc691653d3", null ]
+    [ "sortFilesByName", "MRVoxelsLoad_8h.html#ga9dea5760f438e7cd068a17cd2fba73d3", null ]
 ];

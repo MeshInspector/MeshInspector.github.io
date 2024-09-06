@@ -124,6 +124,10 @@ Macros</h2></td></tr>
 <tr class="separator:a0fd290c4738dc2f265b144020d97b290"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98c9bc1fa1800fdfc987995748d5944b" id="r_a98c9bc1fa1800fdfc987995748d5944b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98c9bc1fa1800fdfc987995748d5944b">DETAIL_MR_END</a>(...)&#160;&#160;&#160;__VA_ARGS__##_END</td></tr>
 <tr class="separator:a98c9bc1fa1800fdfc987995748d5944b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cb6de717e0b06df733796fec2da272a" id="r_a4cb6de717e0b06df733796fec2da272a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cb6de717e0b06df733796fec2da272a">MR_CONCAT</a>(a,  b)&#160;&#160;&#160;<a class="el" href="#ac35e66533e158a4bf53982a2c109bd09">MR_CONCAT_</a>( a, b )</td></tr>
+<tr class="separator:a4cb6de717e0b06df733796fec2da272a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac35e66533e158a4bf53982a2c109bd09" id="r_ac35e66533e158a4bf53982a2c109bd09"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac35e66533e158a4bf53982a2c109bd09">MR_CONCAT_</a>(a,  b)&#160;&#160;&#160;a ## b</td></tr>
+<tr class="separator:ac35e66533e158a4bf53982a2c109bd09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb4b71f9ebce86e54868bd967010ebbb" id="r_adb4b71f9ebce86e54868bd967010ebbb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(...)</td></tr>
 <tr class="separator:adb4b71f9ebce86e54868bd967010ebbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2577133e8c02d830609dc0c74a53949" id="r_af2577133e8c02d830609dc0c74a53949"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2577133e8c02d830609dc0c74a53949">MR_HAS_REQUIRES</a>&#160;&#160;&#160;0</td></tr>
@@ -141,6 +145,48 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...</td><td>)</td>
           <td>&#160;&#160;&#160;__VA_ARGS__##_END</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4cb6de717e0b06df733796fec2da272a" name="a4cb6de717e0b06df733796fec2da272a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cb6de717e0b06df733796fec2da272a">&#9670;&#160;</a></span>MR_CONCAT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_CONCAT</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)&#160;&#160;&#160;<a class="el" href="#ac35e66533e158a4bf53982a2c109bd09">MR_CONCAT_</a>( a, b )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac35e66533e158a4bf53982a2c109bd09" name="ac35e66533e158a4bf53982a2c109bd09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac35e66533e158a4bf53982a2c109bd09">&#9670;&#160;</a></span>MR_CONCAT_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_CONCAT_</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)&#160;&#160;&#160;a ## b</td>
         </tr>
       </table>
 </div><div class="memdoc">

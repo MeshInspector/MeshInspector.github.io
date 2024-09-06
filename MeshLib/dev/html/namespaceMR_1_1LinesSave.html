@@ -105,12 +105,25 @@ $(function(){initNavTree('namespaceMR_1_1LinesSave.html',''); initResizable(true
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MR::LinesSave Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1LinesSave_1_1LinesSaver.html">LinesSaver</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:af60c53a3373b70b68b166f03994a8894" id="r_af60c53a3373b70b68b166f03994a8894"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af60c53a3373b70b68b166f03994a8894">LinesFileSaver</a> = <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( * )( const Polyline3&amp;, const std::filesystem::path&amp;, const <a class="el" href="structMR_1_1SaveSettings.html">SaveSettings</a>&amp; )</td></tr>
+<tr class="separator:af60c53a3373b70b68b166f03994a8894"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a268aa90e5a330542295cca4a34787a08" id="r_a268aa90e5a330542295cca4a34787a08"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a268aa90e5a330542295cca4a34787a08">LinesStreamSaver</a> = <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( * )( const Polyline3&amp;, std::ostream&amp;, const <a class="el" href="structMR_1_1SaveSettings.html">SaveSettings</a>&amp; )</td></tr>
+<tr class="separator:a268aa90e5a330542295cca4a34787a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga3e6359bc8449fc90968c2981c6a0bd44" id="r_ga3e6359bc8449fc90968c2981c6a0bd44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LinesSaveGroup.html#ga3e6359bc8449fc90968c2981c6a0bd44">toMrLines</a> (const Polyline3 &amp;polyline, const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1SaveSettings.html">SaveSettings</a> &amp;settings={})</td></tr>
@@ -131,12 +144,36 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa883acf6825a48e086554b36c388e126" id="r_gaa883acf6825a48e086554b36c388e126"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#aff6352909bd9c9bb61e99aa3260f213e">VoidOrErrStr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LinesSaveGroup.html#gaa883acf6825a48e086554b36c388e126">toAnySupportedFormat</a> (const Polyline3 &amp;polyline, std::ostream &amp;out, const std::string &amp;extension, const <a class="el" href="structMR_1_1SaveSettings.html">SaveSettings</a> &amp;settings={})</td></tr>
 <tr class="memdesc:gaa883acf6825a48e086554b36c388e126"><td class="mdescLeft">&#160;</td><td class="mdescRight">extension in <code>*.ext</code> format  <br /></td></tr>
 <tr class="separator:gaa883acf6825a48e086554b36c388e126"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ga8cf9ea4d484bb0921f0f30e5d0229550" id="r_ga8cf9ea4d484bb0921f0f30e5d0229550"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LinesSaveGroup.html#ga8cf9ea4d484bb0921f0f30e5d0229550">Filters</a></td></tr>
-<tr class="separator:ga8cf9ea4d484bb0921f0f30e5d0229550"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="af60c53a3373b70b68b166f03994a8894" name="af60c53a3373b70b68b166f03994a8894"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af60c53a3373b70b68b166f03994a8894">&#9670;&#160;</a></span>LinesFileSaver</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#af60c53a3373b70b68b166f03994a8894">MR::LinesSave::LinesFileSaver</a> = <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( * )( const Polyline3&amp;, const std::filesystem::path&amp;, const <a class="el" href="structMR_1_1SaveSettings.html">SaveSettings</a>&amp; )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a268aa90e5a330542295cca4a34787a08" name="a268aa90e5a330542295cca4a34787a08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a268aa90e5a330542295cca4a34787a08">&#9670;&#160;</a></span>LinesStreamSaver</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a268aa90e5a330542295cca4a34787a08">MR::LinesSave::LinesStreamSaver</a> = <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( * )( const Polyline3&amp;, std::ostream&amp;, const <a class="el" href="structMR_1_1SaveSettings.html">SaveSettings</a>&amp; )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

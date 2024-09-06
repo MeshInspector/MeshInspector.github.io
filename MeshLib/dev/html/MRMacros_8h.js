@@ -1,6 +1,8 @@
 var MRMacros_8h =
 [
     [ "DETAIL_MR_END", "MRMacros_8h.html#a98c9bc1fa1800fdfc987995748d5944b", null ],
+    [ "MR_CONCAT", "MRMacros_8h.html#a4cb6de717e0b06df733796fec2da272a", null ],
+    [ "MR_CONCAT_", "MRMacros_8h.html#ac35e66533e158a4bf53982a2c109bd09", null ],
     [ "MR_END", "MRMacros_8h.html#a0fd290c4738dc2f265b144020d97b290", null ],
     [ "MR_HAS_REQUIRES", "MRMacros_8h.html#af2577133e8c02d830609dc0c74a53949", null ],
     [ "MR_IDENTITY", "MRMacros_8h.html#a30c21a4f7f46e470b0c9ba48648699b1", null ],

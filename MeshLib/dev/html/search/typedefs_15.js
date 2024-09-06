@@ -33,5 +33,7 @@ var searchData=
   ['volumepartbuilder_30',['VolumePartBuilder',['../namespaceMR.html#ae2ab4a032a665ccb4ca24d60577679ef',1,'MR']]],
   ['volumetype_31',['VolumeType',['../classMR_1_1VoxelsVolumeInterpolatedAccessor.html#ab8d79139c35fd5b34335c70d5386092b',1,'MR::VoxelsVolumeInterpolatedAccessor::VolumeType'],['../classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html#a4f55b3b83d93fcd3c8bcfeb48d2e7545',1,'MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;::VolumeType'],['../classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01VoxelValueGetter_3_01T_01_4_01_4_01_4.html#afa5d356ca19a2b095ffff01785c40ca7',1,'MR::VoxelsVolumeAccessor&lt; VoxelsVolume&lt; VoxelValueGetter&lt; T &gt; &gt; &gt;::VolumeType'],['../classMR_1_1VoxelsVolumeCachingAccessor.html#a1f89107f2c482a6e0468ab1cceb602c0',1,'MR::VoxelsVolumeCachingAccessor::VolumeType']]],
   ['voxelpointpositioner_32',['VoxelPointPositioner',['../namespaceMR.html#af79e59969dc38af8f99d87b8d80385f2',1,'MR']]],
-  ['voxelsmetric_33',['VoxelsMetric',['../group__VoxelPathGroup.html#ga803e99bc9c6b6b6afa785b1395881cce',1,'MR']]]
+  ['voxelsloader_33',['VoxelsLoader',['../namespaceMR_1_1VoxelsLoad.html#ac95950f875729ac15c011d99d4624d96',1,'MR::VoxelsLoad']]],
+  ['voxelsmetric_34',['VoxelsMetric',['../group__VoxelPathGroup.html#ga803e99bc9c6b6b6afa785b1395881cce',1,'MR']]],
+  ['voxelssaver_35',['VoxelsSaver',['../namespaceMR_1_1VoxelsSave.html#a5289196c605171ac3410bbe845a26176',1,'MR::VoxelsSave']]]
 ];

@@ -14,6 +14,7 @@ var annotated_dup =
         [ "Units", "namespaceMR_1_1detail_1_1Units.html", [
           [ "Empty", "structMR_1_1detail_1_1Units_1_1Empty.html", null ]
         ] ],
+        [ "FuncCallHelper", "classMR_1_1detail_1_1FuncCallHelper.html", "classMR_1_1detail_1_1FuncCallHelper" ],
         [ "MakeScopeGuard", "structMR_1_1detail_1_1MakeScopeGuard.html", "structMR_1_1detail_1_1MakeScopeGuard" ],
         [ "ScopeGuard", "classMR_1_1detail_1_1ScopeGuard.html", "classMR_1_1detail_1_1ScopeGuard" ]
       ] ],
@@ -66,6 +67,12 @@ var annotated_dup =
         [ "PreparedCurve", "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html", "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve" ],
         [ "StringWithIcon", "structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html", "structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon" ]
       ] ],
+      [ "LinesLoad", "namespaceMR_1_1LinesLoad.html", [
+        [ "LinesLoader", "structMR_1_1LinesLoad_1_1LinesLoader.html", "structMR_1_1LinesLoad_1_1LinesLoader" ]
+      ] ],
+      [ "LinesSave", "namespaceMR_1_1LinesSave.html", [
+        [ "LinesSaver", "structMR_1_1LinesSave_1_1LinesSaver.html", "structMR_1_1LinesSave_1_1LinesSaver" ]
+      ] ],
       [ "MeshBuilder", "namespaceMR_1_1MeshBuilder.html", [
         [ "BuildSettings", "structMR_1_1MeshBuilder_1_1BuildSettings.html", "structMR_1_1MeshBuilder_1_1BuildSettings" ],
         [ "equalVector3f", "structMR_1_1MeshBuilder_1_1equalVector3f.html", "structMR_1_1MeshBuilder_1_1equalVector3f" ],
@@ -79,13 +86,13 @@ var annotated_dup =
         [ "LargeByAreaComponentsSettings", "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html", "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings" ]
       ] ],
       [ "MeshLoad", "namespaceMR_1_1MeshLoad.html", [
-        [ "MeshLoaderAdder", "classMR_1_1MeshLoad_1_1MeshLoaderAdder.html", "classMR_1_1MeshLoad_1_1MeshLoaderAdder" ],
+        [ "MeshLoader", "structMR_1_1MeshLoad_1_1MeshLoader.html", "structMR_1_1MeshLoad_1_1MeshLoader" ],
         [ "NamedMesh", "structMR_1_1MeshLoad_1_1NamedMesh.html", "structMR_1_1MeshLoad_1_1NamedMesh" ],
-        [ "NamedMeshLoader", "structMR_1_1MeshLoad_1_1NamedMeshLoader.html", "structMR_1_1MeshLoad_1_1NamedMeshLoader" ],
         [ "ObjLoadSettings", "structMR_1_1MeshLoad_1_1ObjLoadSettings.html", "structMR_1_1MeshLoad_1_1ObjLoadSettings" ]
       ] ],
       [ "MeshSave", "namespaceMR_1_1MeshSave.html", [
         [ "CtmSaveOptions", "structMR_1_1MeshSave_1_1CtmSaveOptions.html", "structMR_1_1MeshSave_1_1CtmSaveOptions" ],
+        [ "MeshSaver", "structMR_1_1MeshSave_1_1MeshSaver.html", "structMR_1_1MeshSave_1_1MeshSaver" ],
         [ "NamedXfMesh", "structMR_1_1MeshSave_1_1NamedXfMesh.html", "structMR_1_1MeshSave_1_1NamedXfMesh" ]
       ] ],
       [ "Meta", "namespaceMR_1_1Meta.html", [
@@ -103,10 +110,12 @@ var annotated_dup =
       ] ],
       [ "PointsLoad", "namespaceMR_1_1PointsLoad.html", [
         [ "E57LoadSettings", "structMR_1_1PointsLoad_1_1E57LoadSettings.html", "structMR_1_1PointsLoad_1_1E57LoadSettings" ],
-        [ "NamedCloud", "structMR_1_1PointsLoad_1_1NamedCloud.html", "structMR_1_1PointsLoad_1_1NamedCloud" ]
+        [ "NamedCloud", "structMR_1_1PointsLoad_1_1NamedCloud.html", "structMR_1_1PointsLoad_1_1NamedCloud" ],
+        [ "PointsLoader", "structMR_1_1PointsLoad_1_1PointsLoader.html", "structMR_1_1PointsLoad_1_1PointsLoader" ]
       ] ],
       [ "PointsSave", "namespaceMR_1_1PointsSave.html", [
-        [ "CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", "structMR_1_1PointsSave_1_1CtmSavePointsOptions" ]
+        [ "CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", "structMR_1_1PointsSave_1_1CtmSavePointsOptions" ],
+        [ "PointsSaver", "structMR_1_1PointsSave_1_1PointsSaver.html", "structMR_1_1PointsSave_1_1PointsSaver" ]
       ] ],
       [ "RenderDimensions", "namespaceMR_1_1RenderDimensions.html", [
         [ "AngleParams", "structMR_1_1RenderDimensions_1_1AngleParams.html", "structMR_1_1RenderDimensions_1_1AngleParams" ],
@@ -375,6 +384,7 @@ var annotated_dup =
       [ "FitSelectedPrimitivesMenuItem", "classMR_1_1FitSelectedPrimitivesMenuItem.html", "classMR_1_1FitSelectedPrimitivesMenuItem" ],
       [ "FlowAggregator", "classMR_1_1FlowAggregator.html", "classMR_1_1FlowAggregator" ],
       [ "FlowOrigin", "structMR_1_1FlowOrigin.html", "structMR_1_1FlowOrigin" ],
+      [ "FormatRegistry", "classMR_1_1FormatRegistry.html", null ],
       [ "FramebufferData", "classMR_1_1FramebufferData.html", "classMR_1_1FramebufferData" ],
       [ "FrameCounter", "classMR_1_1FrameCounter.html", "classMR_1_1FrameCounter" ],
       [ "FrameRedrawRequest", "classMR_1_1FrameRedrawRequest.html", "classMR_1_1FrameRedrawRequest" ],

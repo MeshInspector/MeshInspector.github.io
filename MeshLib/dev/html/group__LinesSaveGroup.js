@@ -7,6 +7,5 @@ var group__LinesSaveGroup =
     [ "MR::LinesSave::toMrLines", "group__LinesSaveGroup.html#ga3e6359bc8449fc90968c2981c6a0bd44", null ],
     [ "MR::LinesSave::toMrLines", "group__LinesSaveGroup.html#ga1c2b67735b485aa257a285d9eaaf05c1", null ],
     [ "MR::LinesSave::toPts", "group__LinesSaveGroup.html#ga8fd3d320767b195764b2b8c71c35bba2", null ],
-    [ "MR::LinesSave::toPts", "group__LinesSaveGroup.html#gacbb5d0cbb1ca151d00273f492990638a", null ],
-    [ "MR::LinesSave::Filters", "group__LinesSaveGroup.html#ga8cf9ea4d484bb0921f0f30e5d0229550", null ]
+    [ "MR::LinesSave::toPts", "group__LinesSaveGroup.html#gacbb5d0cbb1ca151d00273f492990638a", null ]
 ];

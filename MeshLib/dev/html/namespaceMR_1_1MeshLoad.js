@@ -1,10 +1,9 @@
 var namespaceMR_1_1MeshLoad =
 [
-    [ "MeshLoaderAdder", "classMR_1_1MeshLoad_1_1MeshLoaderAdder.html", "classMR_1_1MeshLoad_1_1MeshLoaderAdder" ],
+    [ "MeshLoader", "structMR_1_1MeshLoad_1_1MeshLoader.html", "structMR_1_1MeshLoad_1_1MeshLoader" ],
     [ "NamedMesh", "structMR_1_1MeshLoad_1_1NamedMesh.html", "structMR_1_1MeshLoad_1_1NamedMesh" ],
-    [ "NamedMeshLoader", "structMR_1_1MeshLoad_1_1NamedMeshLoader.html", "structMR_1_1MeshLoad_1_1NamedMeshLoader" ],
     [ "ObjLoadSettings", "structMR_1_1MeshLoad_1_1ObjLoadSettings.html", "structMR_1_1MeshLoad_1_1ObjLoadSettings" ],
-    [ "MeshLoader", "group__IOFormatsRegistryGroup.html#ga03f77292130d4e6ef6ef32d981ab5fea", null ],
+    [ "MeshFileLoader", "group__IOFormatsRegistryGroup.html#gaf573976800f135f2ae1cc5430be86fb0", null ],
     [ "MeshStreamLoader", "group__IOFormatsRegistryGroup.html#ga485ea6956850ab0f801b945739a8a9d3", null ],
     [ "fromAnyStl", "group__MeshLoadGroup.html#ga1b2267cc39cb8d9f8cc2942df5a0b12b", null ],
     [ "fromAnyStl", "group__MeshLoadGroup.html#ga49f8924ac46a8d5087ce59fb9be4ecfe", null ],
@@ -33,9 +32,5 @@ var namespaceMR_1_1MeshLoad =
     [ "fromSceneStepFile", "namespaceMR_1_1MeshLoad.html#a68d50cfec87f96bf44c56abb23106e23", null ],
     [ "fromStep", "namespaceMR_1_1MeshLoad.html#ab0733b7d1f0579da06607b9694cf13f6", null ],
     [ "fromStep", "namespaceMR_1_1MeshLoad.html#a9cb6f7ad683e25183602e6b16f6e56b7", null ],
-    [ "getFilters", "group__IOFormatsRegistryGroup.html#gaca0d649d3cadf6807b1fa3b610368510", null ],
-    [ "getMeshLoader", "group__IOFormatsRegistryGroup.html#ga350b9ad86f759c762c0c4df6371aa036", null ],
-    [ "getMeshStreamLoader", "group__IOFormatsRegistryGroup.html#ga247f35eb02151e0ce68e863a496609f6", null ],
-    [ "setMeshLoader", "group__IOFormatsRegistryGroup.html#ga0f9725325727d7be1d674272050d63be", null ],
-    [ "setMeshStreamLoader", "group__IOFormatsRegistryGroup.html#ga63a0d1c0c1d62d4544f89d58e7e2bc43", null ]
+    [ "loadObjectFromObj", "group__MeshLoadObjGroup.html#ga8e008bfae184fe362412c719d4883aa2", null ]
 ];

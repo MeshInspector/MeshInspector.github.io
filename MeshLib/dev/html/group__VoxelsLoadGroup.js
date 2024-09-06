@@ -45,6 +45,5 @@ var group__VoxelsLoadGroup =
     [ "MR::VoxelsLoad::loadDicomFile", "group__VoxelsLoadGroup.html#ga7d0974d79299a028dfd015537b16c3fc", null ],
     [ "MR::VoxelsLoad::loadDicomFolder", "group__VoxelsLoadGroup.html#ga6d1328d15f7ddda227fc82a53bb3c770", null ],
     [ "MR::VoxelsLoad::loadDicomsFolder", "group__VoxelsLoadGroup.html#ga058d883315a4af25784fefb62138d3bd", null ],
-    [ "MR::VoxelsLoad::sortFilesByName", "group__VoxelsLoadGroup.html#ga9dea5760f438e7cd068a17cd2fba73d3", null ],
-    [ "MR::VoxelsLoad::Filters", "group__VoxelsLoadGroup.html#gaf1ddae6fda30ae38508797dc691653d3", null ]
+    [ "MR::VoxelsLoad::sortFilesByName", "group__VoxelsLoadGroup.html#ga9dea5760f438e7cd068a17cd2fba73d3", null ]
 ];
