@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1MeshLoadSettings.html#aeb2eb22ddf375f8cac7a36b6ec756c94":[12,0,1,316,3],
+"structMR_1_1MeshLoad_1_1MeshLoader.html":[9,2,7,0],
 "structMR_1_1MeshLoad_1_1MeshLoader.html#a40a2dbad196aed53280103d84b6fd429":[9,2,7,0,0],
 "structMR_1_1MeshLoad_1_1MeshLoader.html#a5be6b39d9d48430d0288a04da8de96b7":[9,2,7,0,1],
 "structMR_1_1MeshLoad_1_1NamedMesh.html":[9,2,11,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1MouseDownListener.html#a90f3d938d19c951f2c630e447052d382":[12,0,1,342,3],
 "structMR_1_1MouseDownListener.html#ac9fafc85eac71135832f34aaa236b87d":[10,0,10,356,1],
 "structMR_1_1MouseDownListener.html#ac9fafc85eac71135832f34aaa236b87d":[12,0,1,342,1],
-"structMR_1_1MouseMoveListener.html":[10,0,10,357],
-"structMR_1_1MouseMoveListener.html":[12,0,1,343],
-"structMR_1_1MouseMoveListener.html#a0b7f30726a8c465bca8afc299118b1e4":[10,0,10,357,0]
+"structMR_1_1MouseMoveListener.html":[10,0,10,357]
 };

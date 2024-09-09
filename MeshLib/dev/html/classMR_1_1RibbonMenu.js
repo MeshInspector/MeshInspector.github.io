@@ -47,6 +47,7 @@ var classMR_1_1RibbonMenu =
     [ "isTopPannelPinned", "classMR_1_1RibbonMenu.html#a44506d22fa2c6befeaf375791931282e", null ],
     [ "itemPressed_", "classMR_1_1RibbonMenu.html#a644e42efc4fd8f8bfa421f02bd847805", null ],
     [ "load_font", "classMR_1_1RibbonMenu.html#a9bbdaa0865f099c7e385ac1ea6b7bbf3", null ],
+    [ "onItemActivated_", "classMR_1_1RibbonMenu.html#a5fe2c99820940051403b88f7f511c769", null ],
     [ "openToolbarCustomize", "classMR_1_1RibbonMenu.html#aeb9475e92afc11246ebbc3f39dadebf9", null ],
     [ "pinTopPanel", "classMR_1_1RibbonMenu.html#ab638723ae879c04abcf7677c3975e255", null ],
     [ "postRescale_", "classMR_1_1RibbonMenu.html#ad3c1eb063654b601259d343d6644e863", null ],

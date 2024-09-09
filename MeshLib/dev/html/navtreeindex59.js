@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1DenoiseViaNormalsSettings.html#a0020d91ac083f2d70a466e4f209e12b9":[12,0,1,153,7],
+"structMR_1_1DenoiseViaNormalsSettings.html#a63ddf357508ffd766addcbe0684a1619":[10,0,10,167,1],
 "structMR_1_1DenoiseViaNormalsSettings.html#a63ddf357508ffd766addcbe0684a1619":[12,0,1,153,1],
 "structMR_1_1DenoiseViaNormalsSettings.html#a6852271fa1efbc4da52e0fb5b851810f":[10,0,10,167,4],
 "structMR_1_1DenoiseViaNormalsSettings.html#a6852271fa1efbc4da52e0fb5b851810f":[12,0,1,153,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1DrawSceneUiListener.html":[10,0,10,192],
 "structMR_1_1DrawSceneUiListener.html":[12,0,1,178],
 "structMR_1_1DrawSceneUiListener.html#a21b6be228fd7e4c30fd147113a60f200":[10,0,10,192,3],
-"structMR_1_1DrawSceneUiListener.html#a21b6be228fd7e4c30fd147113a60f200":[12,0,1,178,3],
-"structMR_1_1DrawSceneUiListener.html#a9ad4165746d1511ad8941854df82f3bd":[10,0,10,192,2],
-"structMR_1_1DrawSceneUiListener.html#a9ad4165746d1511ad8941854df82f3bd":[12,0,1,178,2]
+"structMR_1_1DrawSceneUiListener.html#a21b6be228fd7e4c30fd147113a60f200":[12,0,1,178,3]
 };

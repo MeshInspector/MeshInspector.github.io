@@ -1,5 +1,7 @@
 var NAVTREEINDEX43 =
 {
+"classMR_1_1VisualObject.html#a56170d27cd5040e560dd3fa00056e732":[9,13,2,5,67],
+"classMR_1_1VisualObject.html#a567b072f1d687c864a8be3d5e68d13a3":[9,13,2,5,95],
 "classMR_1_1VisualObject.html#a5cdfa4b3ae5557096a94850b4891b66a":[9,13,2,5,57],
 "classMR_1_1VisualObject.html#a5ec593dbd42519c53e6ebe322386f9a6":[9,13,2,5,44],
 "classMR_1_1VisualObject.html#a611894e7f98e2633137d75833e361781":[9,13,2,5,93],
@@ -247,7 +249,5 @@ var NAVTREEINDEX43 =
 "classMR_1_1detail_1_1FuncCallHelper.html#afe1dbda75ba4a449979c56513aa52ce4":[10,0,10,3,1,0],
 "classMR_1_1detail_1_1FuncCallHelper.html#afe1dbda75ba4a449979c56513aa52ce4":[12,0,1,1,1,0],
 "classMR_1_1detail_1_1ScopeGuard.html":[10,0,10,3,3],
-"classMR_1_1detail_1_1ScopeGuard.html":[12,0,1,1,3],
-"classMR_1_1detail_1_1ScopeGuard.html#a2c51cf739e0e06d29590ee4e3d5729b0":[10,0,10,3,3,2],
-"classMR_1_1detail_1_1ScopeGuard.html#a2c51cf739e0e06d29590ee4e3d5729b0":[12,0,1,1,3,2]
+"classMR_1_1detail_1_1ScopeGuard.html":[12,0,1,1,3]
 };
