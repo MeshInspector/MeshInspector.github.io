@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['test_5fassert_0',['TEST_ASSERT',['../TestMacros_8h.html#a18e67aa9bbe430effc874d3dde1bc7e1',1,'TestMacros.h']]]
+  ['scoped_5fhistory_0',['SCOPED_HISTORY',['../MRAppendHistory_8h.html#a36cf254c4f1feb0a6f0adaf205a25eaf',1,'MRAppendHistory.h']]]
 ];

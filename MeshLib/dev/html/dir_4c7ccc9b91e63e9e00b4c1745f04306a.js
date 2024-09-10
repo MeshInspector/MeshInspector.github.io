@@ -9,5 +9,6 @@ var dir_4c7ccc9b91e63e9e00b4c1745f04306a =
     [ "mrmeshpy", "dir_13df28a6d38d61b7df32d14825f3eedd.html", "dir_13df28a6d38d61b7df32d14825f3eedd" ],
     [ "MRSymbolMesh", "dir_ef0277a89d5fb9bebf121b9e6c2cecc9.html", "dir_ef0277a89d5fb9bebf121b9e6c2cecc9" ],
     [ "MRTestC", "dir_ae78f784ae402f48d875196e46319a59.html", "dir_ae78f784ae402f48d875196e46319a59" ],
-    [ "MRViewer", "dir_6e96927c85b5db1a870a672280c47921.html", "dir_6e96927c85b5db1a870a672280c47921" ]
+    [ "MRViewer", "dir_6e96927c85b5db1a870a672280c47921.html", "dir_6e96927c85b5db1a870a672280c47921" ],
+    [ "MRVoxels", "dir_0548e20a3bcd59381bf0bdb32f67cd97.html", "dir_0548e20a3bcd59381bf0bdb32f67cd97" ]
 ];

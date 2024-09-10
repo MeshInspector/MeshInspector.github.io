@@ -1,13 +1,13 @@
 var MRFloatGrid_8h =
 [
-    [ "cropped", "MRFloatGrid_8h.html#gaad38cba7aeb04fd9bff8ddc2d65b1fdb", null ],
-    [ "getValue", "MRFloatGrid_8h.html#ga48faf7c6c25d26228794543bd08c803a", null ],
-    [ "heapBytes", "MRFloatGrid_8h.html#gaed038f421518710e518a218a55c19621", null ],
-    [ "operator*=", "MRFloatGrid_8h.html#ga9e5ef38d39a3f24bd7f3db886f8b18a4", null ],
-    [ "operator+=", "MRFloatGrid_8h.html#ga33585485d18c4d7161fd06ae9321420b", null ],
-    [ "operator-=", "MRFloatGrid_8h.html#ga7cebbc9efac83aca0b5e4d747a0e9483", null ],
-    [ "resampled", "MRFloatGrid_8h.html#ga95c4cd4efddbb71e933c67e3670a4d76", null ],
-    [ "resampled", "MRFloatGrid_8h.html#ga600383ee58a10cb4489dbd9d76f32119", null ],
-    [ "setLevelSetType", "MRFloatGrid_8h.html#gaf87daaff2be06ea220773a6309742a6b", null ],
-    [ "setValue", "MRFloatGrid_8h.html#ga097ca42a99d9a6e02f32e8b460739e40", null ]
+    [ "cropped", "MRFloatGrid_8h.html#gaaa65eb4d7a6f3cf6b9682a32de1e0915", null ],
+    [ "getValue", "MRFloatGrid_8h.html#ga4de97d8976ba9d3103b0d84d94214861", null ],
+    [ "heapBytes", "MRFloatGrid_8h.html#ga0f1e6296451691269fc538aad8088557", null ],
+    [ "operator*=", "MRFloatGrid_8h.html#ga245aead53191a5ec52138336c54c109c", null ],
+    [ "operator+=", "MRFloatGrid_8h.html#gaa47a1ff80bfc2c9f180c4983cf67bdfc", null ],
+    [ "operator-=", "MRFloatGrid_8h.html#ga51db44b0c21307d6fcfccd9616c037f2", null ],
+    [ "resampled", "MRFloatGrid_8h.html#ga7d757a1fbd48e0e4c6268f3637ba631c", null ],
+    [ "resampled", "MRFloatGrid_8h.html#ga1ca037d5840cb55f43edc7af7164ee53", null ],
+    [ "setLevelSetType", "MRFloatGrid_8h.html#ga87e6e60c5605c5450f4bd815128674c9", null ],
+    [ "setValue", "MRFloatGrid_8h.html#gac5781724903abd08d021ac04b898a862", null ]
 ];

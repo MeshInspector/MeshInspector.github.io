@@ -139,8 +139,11 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aec7da8b61591c85b8e910d1411bdaa56" id="r_aec7da8b61591c85b8e910d1411bdaa56"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec7da8b61591c85b8e910d1411bdaa56">ChangeFacesColorMapAction</a> (const std::string &amp;<a class="el" href="#a78e08b193afdbeaeb8e52e7a520a28d6">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMeshHolder.html">ObjectMeshHolder</a> &gt; &amp;obj)</td></tr>
-<tr class="memdesc:aec7da8b61591c85b8e910d1411bdaa56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructed from original obj.  <br /></td></tr>
+<tr class="memdesc:aec7da8b61591c85b8e910d1411bdaa56"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's face colors before making any changes in them  <br /></td></tr>
 <tr class="separator:aec7da8b61591c85b8e910d1411bdaa56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff390880192bf2fb3e98fc5ad7f1243d" id="r_aff390880192bf2fb3e98fc5ad7f1243d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff390880192bf2fb3e98fc5ad7f1243d">ChangeFacesColorMapAction</a> (const std::string &amp;<a class="el" href="#a78e08b193afdbeaeb8e52e7a520a28d6">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMeshHolder.html">ObjectMeshHolder</a> &gt; &amp;obj, FaceColors &amp;&amp;newColorMap)</td></tr>
+<tr class="memdesc:aff390880192bf2fb3e98fc5ad7f1243d"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's face colors and immediate set new value  <br /></td></tr>
+<tr class="separator:aff390880192bf2fb3e98fc5ad7f1243d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78e08b193afdbeaeb8e52e7a520a28d6" id="r_a78e08b193afdbeaeb8e52e7a520a28d6"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78e08b193afdbeaeb8e52e7a520a28d6">name</a> () const override</td></tr>
 <tr class="separator:a78e08b193afdbeaeb8e52e7a520a28d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77ea732b203bb29d780236576dec2923" id="r_a77ea732b203bb29d780236576dec2923"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77ea732b203bb29d780236576dec2923">action</a> (<a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a>) override</td></tr>
@@ -177,7 +180,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aec7da8b61591c85b8e910d1411bdaa56" name="aec7da8b61591c85b8e910d1411bdaa56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec7da8b61591c85b8e910d1411bdaa56">&#9670;&#160;</a></span>ChangeFacesColorMapAction()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aec7da8b61591c85b8e910d1411bdaa56">&#9670;&#160;</a></span>ChangeFacesColorMapAction() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203,7 +206,43 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructed from original obj. </p>
+<p>use this constructor to remember object's face colors before making any changes in them </p>
+
+</div>
+</div>
+<a id="aff390880192bf2fb3e98fc5ad7f1243d" name="aff390880192bf2fb3e98fc5ad7f1243d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff390880192bf2fb3e98fc5ad7f1243d">&#9670;&#160;</a></span>ChangeFacesColorMapAction() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::ChangeFacesColorMapAction::ChangeFacesColorMapAction </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMeshHolder.html">ObjectMeshHolder</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FaceColors &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>newColorMap</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>use this constructor to remember object's face colors and immediate set new value </p>
 
 </div>
 </div>

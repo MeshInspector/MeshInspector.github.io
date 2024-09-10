@@ -162,11 +162,9 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ImageSave.html">MR::ImageSave</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1VoxelsLoad.html">MR::VoxelsLoad</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1VoxelsSave.html">MR::VoxelsSave</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ObjectLoad.html">MR::ObjectLoad</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ObjectSave.html">MR::ObjectSave</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1AsyncObjectLoad.html">MR::AsyncObjectLoad</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,7 +175,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ac0f6e00f19d26a3fb4eef786c3e46599" id="r_ac0f6e00f19d26a3fb4eef786c3e46599"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0f6e00f19d26a3fb4eef786c3e46599">MR_FORMAT_REGISTRY_DECL</a>(ProcName)</td></tr>
+<tr class="memitem:a5523f4a0eb6dd34454d8708545fa1463" id="r_a5523f4a0eb6dd34454d8708545fa1463"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5523f4a0eb6dd34454d8708545fa1463">MR_FORMAT_REGISTRY_EXTERNAL_DECL</a>(API_ATTR,  ProcName)</td></tr>
+<tr class="separator:a5523f4a0eb6dd34454d8708545fa1463"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0f6e00f19d26a3fb4eef786c3e46599" id="r_ac0f6e00f19d26a3fb4eef786c3e46599"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0f6e00f19d26a3fb4eef786c3e46599">MR_FORMAT_REGISTRY_DECL</a>(ProcName)&#160;&#160;&#160;<a class="el" href="#a5523f4a0eb6dd34454d8708545fa1463">MR_FORMAT_REGISTRY_EXTERNAL_DECL</a>( <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>, ProcName )</td></tr>
 <tr class="separator:ac0f6e00f19d26a3fb4eef786c3e46599"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6284a4576499e60fc1ca46bba72dc47f" id="r_a6284a4576499e60fc1ca46bba72dc47f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6284a4576499e60fc1ca46bba72dc47f">MR_FORMAT_REGISTRY_IMPL</a>(ProcName)</td></tr>
 <tr class="separator:a6284a4576499e60fc1ca46bba72dc47f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -206,12 +206,10 @@ Macros</h2></td></tr>
 <tr class="separator:a6c227a5fd0daac1b6c0476a487456a29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ae6f7708b824cc0f04cc50452e56429" id="r_a8ae6f7708b824cc0f04cc50452e56429"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ae6f7708b824cc0f04cc50452e56429">MR_ADD_IMAGE_SAVER</a>(filter,  saver)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::ImageSave; setImageSaver( filter, saver ); };</td></tr>
 <tr class="separator:a8ae6f7708b824cc0f04cc50452e56429"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50fdc83ed773e880ed27444d216c726a" id="r_a50fdc83ed773e880ed27444d216c726a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50fdc83ed773e880ed27444d216c726a">MR_ADD_VOXELS_LOADER</a>(filter,  loader)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::VoxelsLoad; setVoxelsLoader( filter, loader ); };</td></tr>
-<tr class="separator:a50fdc83ed773e880ed27444d216c726a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3027376fc56760f6597be688175e2dd" id="r_ac3027376fc56760f6597be688175e2dd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3027376fc56760f6597be688175e2dd">MR_ADD_VOXELS_SAVER</a>(filter,  saver)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::VoxelsSave; setVoxelsSaver( filter, saver ); };</td></tr>
-<tr class="separator:ac3027376fc56760f6597be688175e2dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa03737162290663af43fe4e5f16c213f" id="r_aa03737162290663af43fe4e5f16c213f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa03737162290663af43fe4e5f16c213f">MR_ADD_OBJECT_LOADER</a>(filter,  loader)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::ObjectLoad; setObjectLoader( filter, loader ); };</td></tr>
 <tr class="separator:aa03737162290663af43fe4e5f16c213f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29b8cad8a954f362924dffd62b104195" id="r_a29b8cad8a954f362924dffd62b104195"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29b8cad8a954f362924dffd62b104195">MR_ADD_OBJECT_SAVER</a>(filter,  saver)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::ObjectSave; setObjectSaver( filter, saver ); };</td></tr>
+<tr class="separator:a29b8cad8a954f362924dffd62b104195"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bcaaec3c80b02829570a7670fe6d7da" id="r_a0bcaaec3c80b02829570a7670fe6d7da"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bcaaec3c80b02829570a7670fe6d7da">MR_ADD_SCENE_LOADER</a>(filter,  loader)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::SceneLoad; setSceneLoader( filter, loader ); };</td></tr>
 <tr class="separator:a0bcaaec3c80b02829570a7670fe6d7da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a875521d4e9de2ba4aca0baa51c41e34c" id="r_a875521d4e9de2ba4aca0baa51c41e34c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a875521d4e9de2ba4aca0baa51c41e34c">MR_ADD_SCENE_LOADER_WITH_PRIORITY</a>(filter,  loader,  priority)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::SceneLoad; setSceneLoader( filter, loader, priority ); };</td></tr>
@@ -251,14 +249,12 @@ Typedefs</h2></td></tr>
 <tr class="separator:a13d83aa7ec99dc7a9ae166be69ecac53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af787ba09d658e9fdb5560be6d9d7f2eb" id="r_af787ba09d658e9fdb5560be6d9d7f2eb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ImageSave.html#af787ba09d658e9fdb5560be6d9d7f2eb">MR::ImageSave::ImageSaver</a> = <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( * )( const <a class="el" href="structMR_1_1Image.html">Image</a>&amp;, const std::filesystem::path&amp; )</td></tr>
 <tr class="separator:af787ba09d658e9fdb5560be6d9d7f2eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac95950f875729ac15c011d99d4624d96" id="r_ac95950f875729ac15c011d99d4624d96"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1VoxelsLoad.html#ac95950f875729ac15c011d99d4624d96">MR::VoxelsLoad::VoxelsLoader</a> = <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;std::vector&lt;VdbVolume&gt;&gt;( * )( const std::filesystem::path&amp;, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&amp; )</td></tr>
-<tr class="separator:ac95950f875729ac15c011d99d4624d96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5289196c605171ac3410bbe845a26176" id="r_a5289196c605171ac3410bbe845a26176"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1VoxelsSave.html#a5289196c605171ac3410bbe845a26176">MR::VoxelsSave::VoxelsSaver</a> = <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( * )( const VdbVolume&amp;, const std::filesystem::path&amp;, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> )</td></tr>
-<tr class="separator:a5289196c605171ac3410bbe845a26176"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9dc1331c485c74f9cb1a85cdd31ae071" id="r_a9dc1331c485c74f9cb1a85cdd31ae071"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a9dc1331c485c74f9cb1a85cdd31ae071">MR::ObjectPtr</a> = std::shared_ptr&lt;<a class="el" href="classMR_1_1Object.html">Object</a>&gt;</td></tr>
 <tr class="separator:a9dc1331c485c74f9cb1a85cdd31ae071"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e395df76667e65feb47ca27d6130b3c" id="r_a6e395df76667e65feb47ca27d6130b3c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ObjectLoad.html#a6e395df76667e65feb47ca27d6130b3c">MR::ObjectLoad::ObjectLoader</a> = <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;std::vector&lt;<a class="el" href="namespaceMR.html#a9dc1331c485c74f9cb1a85cdd31ae071">ObjectPtr</a>&gt;&gt;( * )( const std::filesystem::path&amp;, std::string*, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> )</td></tr>
 <tr class="separator:a6e395df76667e65feb47ca27d6130b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a101d2a9f563eb1680e3beb04c22908c6" id="r_a101d2a9f563eb1680e3beb04c22908c6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ObjectSave.html#a101d2a9f563eb1680e3beb04c22908c6">MR::ObjectSave::ObjectSaver</a> = <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( * )( const <a class="el" href="classMR_1_1Object.html">Object</a>&amp;, const std::filesystem::path&amp;, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&amp; )</td></tr>
+<tr class="separator:a101d2a9f563eb1680e3beb04c22908c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfe756d68eeb3e7fadcfd946d864db91" id="r_abfe756d68eeb3e7fadcfd946d864db91"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1AsyncObjectLoad.html#abfe756d68eeb3e7fadcfd946d864db91">MR::AsyncObjectLoad::PostLoadCallback</a> = std::function&lt;void ( <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;std::vector&lt;<a class="el" href="namespaceMR.html#a9dc1331c485c74f9cb1a85cdd31ae071">ObjectPtr</a>&gt;&gt; )&gt;</td></tr>
 <tr class="separator:abfe756d68eeb3e7fadcfd946d864db91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad338a3fc854675170439571c2152b4ae" id="r_ad338a3fc854675170439571c2152b4ae"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1AsyncObjectLoad.html#ad338a3fc854675170439571c2152b4ae">MR::AsyncObjectLoad::ObjectLoader</a> = void( * )( const std::filesystem::path&amp;, std::string*, <a class="el" href="namespaceMR_1_1AsyncObjectLoad.html#abfe756d68eeb3e7fadcfd946d864db91">PostLoadCallback</a>, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> )</td></tr>
@@ -478,6 +474,27 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a29b8cad8a954f362924dffd62b104195" name="a29b8cad8a954f362924dffd62b104195"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29b8cad8a954f362924dffd62b104195">&#9670;&#160;</a></span>MR_ADD_OBJECT_SAVER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_ADD_OBJECT_SAVER</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>filter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>saver</em></span>&#160;)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::ObjectSave; setObjectSaver( filter, saver ); };</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="adff7af79e8e1629fe97e7437d47aa578" name="adff7af79e8e1629fe97e7437d47aa578"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adff7af79e8e1629fe97e7437d47aa578">&#9670;&#160;</a></span>MR_ADD_POINTS_LOADER</h2>
 
@@ -614,48 +631,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a50fdc83ed773e880ed27444d216c726a" name="a50fdc83ed773e880ed27444d216c726a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50fdc83ed773e880ed27444d216c726a">&#9670;&#160;</a></span>MR_ADD_VOXELS_LOADER</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MR_ADD_VOXELS_LOADER</td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>filter</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>loader</em></span>&#160;)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::VoxelsLoad; setVoxelsLoader( filter, loader ); };</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac3027376fc56760f6597be688175e2dd" name="ac3027376fc56760f6597be688175e2dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3027376fc56760f6597be688175e2dd">&#9670;&#160;</a></span>MR_ADD_VOXELS_SAVER</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MR_ADD_VOXELS_SAVER</td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>filter</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>saver</em></span>&#160;)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::VoxelsSave; setVoxelsSaver( filter, saver ); };</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ac0f6e00f19d26a3fb4eef786c3e46599" name="ac0f6e00f19d26a3fb4eef786c3e46599"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac0f6e00f19d26a3fb4eef786c3e46599">&#9670;&#160;</a></span>MR_FORMAT_REGISTRY_DECL</h2>
 
@@ -666,16 +641,36 @@ Variables</h2></td></tr>
           <td class="memname">#define MR_FORMAT_REGISTRY_DECL</td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>ProcName</em></span></td><td>)</td>
-          <td></td>
+          <td>&#160;&#160;&#160;<a class="el" href="#a5523f4a0eb6dd34454d8708545fa1463">MR_FORMAT_REGISTRY_EXTERNAL_DECL</a>( <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>, ProcName )</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> ProcName <a class="code hl_define" href="MRMacros_8h.html#a4cb6de717e0b06df733796fec2da272a">MR_CONCAT</a>( get, ProcName )( <span class="keyword">const</span> IOFilter&amp; filter );                                      \</div>
-<div class="line"><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> ProcName <a class="code hl_define" href="MRMacros_8h.html#a4cb6de717e0b06df733796fec2da272a">MR_CONCAT</a>( get, ProcName )( <span class="keyword">const</span> std::string&amp; extension );                                \</div>
-<div class="line"><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_define" href="MRMacros_8h.html#a4cb6de717e0b06df733796fec2da272a">MR_CONCAT</a>( set, ProcName )( <span class="keyword">const</span> IOFilter&amp; filter, ProcName proc, int8_t priorityScore = 0 ); \</div>
-<div class="line"><a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">const</span> IOFilters&amp; getFilters();</div>
+
+</div>
+</div>
+<a id="a5523f4a0eb6dd34454d8708545fa1463" name="a5523f4a0eb6dd34454d8708545fa1463"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5523f4a0eb6dd34454d8708545fa1463">&#9670;&#160;</a></span>MR_FORMAT_REGISTRY_EXTERNAL_DECL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_FORMAT_REGISTRY_EXTERNAL_DECL</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>API_ATTR</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>ProcName</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">API_ATTR ProcName <a class="code hl_define" href="MRMacros_8h.html#a4cb6de717e0b06df733796fec2da272a">MR_CONCAT</a>( get, ProcName )( <span class="keyword">const</span> IOFilter&amp; filter );                                      \</div>
+<div class="line">API_ATTR ProcName <a class="code hl_define" href="MRMacros_8h.html#a4cb6de717e0b06df733796fec2da272a">MR_CONCAT</a>( get, ProcName )( <span class="keyword">const</span> std::string&amp; extension );                                \</div>
+<div class="line">API_ATTR <span class="keywordtype">void</span> <a class="code hl_define" href="MRMacros_8h.html#a4cb6de717e0b06df733796fec2da272a">MR_CONCAT</a>( set, ProcName )( <span class="keyword">const</span> IOFilter&amp; filter, ProcName proc, int8_t priorityScore = 0 ); \</div>
+<div class="line">API_ATTR <span class="keyword">const</span> IOFilters&amp; getFilters();</div>
 <div class="ttc" id="aMRMacros_8h_html_a4cb6de717e0b06df733796fec2da272a"><div class="ttname"><a href="MRMacros_8h.html#a4cb6de717e0b06df733796fec2da272a">MR_CONCAT</a></div><div class="ttdeci">#define MR_CONCAT(a, b)</div><div class="ttdef"><b>Definition</b> MRMacros.h:17</div></div>
-<div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:46</div></div>
 </div><!-- fragment -->
 </div>
 </div>

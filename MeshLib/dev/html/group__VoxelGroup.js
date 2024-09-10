@@ -30,7 +30,7 @@ var group__VoxelGroup =
     [ "MR::VolumeIndexer::isBdVoxel", "group__VoxelGroup.html#ga6e3749e3a300fa4eda0a5dc1eb875a4a", null ],
     [ "MR::VolumeIndexer::isInDims", "group__VoxelGroup.html#ga1d7ef8146c7e01018cfd181e0967ac35", null ],
     [ "MR::VoxelLocation::operator bool", "group__VoxelGroup.html#ga3f90dd1eb37b8e96421048a44936a299", null ],
-    [ "MR::segmentVolumeByGraphCut", "group__VoxelGroup.html#gab11c87d40f00305cb4e8ada832951615", null ],
+    [ "MR::segmentVolumeByGraphCut", "group__VoxelGroup.html#gaaaebc49a422252db86351ce55dc91bef", null ],
     [ "MR::VolumeIndexer::size", "group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985", null ],
     [ "MR::VolumeIndexer::sizeXY", "group__VoxelGroup.html#gaf0d94fe95fbc290e175743a06ad3d1c6", null ],
     [ "MR::VolumeIndexer::toLoc", "group__VoxelGroup.html#ga5bad9caa6f1298325759d64a72cca3b9", null ],

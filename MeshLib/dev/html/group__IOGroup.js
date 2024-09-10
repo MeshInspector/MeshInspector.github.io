@@ -42,12 +42,12 @@ var group__IOGroup =
     [ "MR::PointsLoad::fromPts", "group__IOGroup.html#ga76499883ce907d382fed5d9522aadaa8", null ],
     [ "MR::PointsLoad::fromText", "group__IOGroup.html#gaff1fcad8c4a57da6a7dc90d9fb1f2a56", null ],
     [ "MR::PointsLoad::fromText", "group__IOGroup.html#gab1a6e8a21cedba988c7ecaea8eda8d2c", null ],
-    [ "MR::VoxelsSave::saveAllSlicesToImage", "group__IOGroup.html#ga720d7584be8f009676cc32291aeda829", null ],
-    [ "MR::VoxelsSave::saveSliceToImage", "group__IOGroup.html#ga1ce15c11510241ced6447543c40a2c85", null ],
-    [ "MR::VoxelsSave::toAnySupportedFormat", "group__IOGroup.html#ga9d23ff100045a67f7f02d1c893a5a20b", null ],
-    [ "MR::VoxelsSave::toGav", "group__IOGroup.html#gab0a7856a6c3e671adacf1f3c18885375", null ],
-    [ "MR::VoxelsSave::toGav", "group__IOGroup.html#ga142558369ff6e907103d03a2c4c2fe87", null ],
-    [ "MR::VoxelsSave::toRawAutoname", "group__IOGroup.html#gaebd499eddbcab3fb97e7945920505d68", null ],
-    [ "MR::VoxelsSave::toRawFloat", "group__IOGroup.html#ga1386dbaa36c7a32b2e4daf7947997724", null ],
-    [ "MR::VoxelsSave::toVdb", "group__IOGroup.html#ga530bddb3978561bd65f0c88b535b120c", null ]
+    [ "MR::VoxelsSave::saveAllSlicesToImage", "group__IOGroup.html#gaf1783a7501a99d41a1fff81362e4156f", null ],
+    [ "MR::VoxelsSave::saveSliceToImage", "group__IOGroup.html#gaad04846cf9a1827961061cad6584b257", null ],
+    [ "MR::VoxelsSave::toAnySupportedFormat", "group__IOGroup.html#ga54a523f1de4e87fa350387e42a1d532c", null ],
+    [ "MR::VoxelsSave::toGav", "group__IOGroup.html#gaa2dcaa0924a21995bd2d0d575c0cdd44", null ],
+    [ "MR::VoxelsSave::toGav", "group__IOGroup.html#gaccd8877a5b6ca37e3149cfd8d8e854d9", null ],
+    [ "MR::VoxelsSave::toRawAutoname", "group__IOGroup.html#gae174614a84fb3e272ab10bd1142653a5", null ],
+    [ "MR::VoxelsSave::toRawFloat", "group__IOGroup.html#ga3558715d8291f17725f223bc5d35aa6e", null ],
+    [ "MR::VoxelsSave::toVdb", "group__IOGroup.html#gaf616420faf96186a23c314b86dd74e6b", null ]
 ];

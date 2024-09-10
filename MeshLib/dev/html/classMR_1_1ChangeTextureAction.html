@@ -138,9 +138,12 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a128bec769ec23c0bb7aefe9fb391b2c2" id="r_a128bec769ec23c0bb7aefe9fb391b2c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a128bec769ec23c0bb7aefe9fb391b2c2">ChangeTextureAction</a> (const std::string &amp;<a class="el" href="#ad5e78402371a9402c2bc3e58851fd874">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMeshHolder.html">ObjectMeshHolder</a> &gt; &amp;obj)</td></tr>
-<tr class="memdesc:a128bec769ec23c0bb7aefe9fb391b2c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructed from original obj.  <br /></td></tr>
-<tr class="separator:a128bec769ec23c0bb7aefe9fb391b2c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac85c185778438e863240862dbd46a152" id="r_ac85c185778438e863240862dbd46a152"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac85c185778438e863240862dbd46a152">ChangeTextureAction</a> (std::string <a class="el" href="#ad5e78402371a9402c2bc3e58851fd874">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMeshHolder.html">ObjectMeshHolder</a> &gt; &amp;obj)</td></tr>
+<tr class="memdesc:ac85c185778438e863240862dbd46a152"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's textures before making any changes in them  <br /></td></tr>
+<tr class="separator:ac85c185778438e863240862dbd46a152"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a146619ea49b7b8835a4f37f1a13cbb8e" id="r_a146619ea49b7b8835a4f37f1a13cbb8e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a146619ea49b7b8835a4f37f1a13cbb8e">ChangeTextureAction</a> (std::string <a class="el" href="#ad5e78402371a9402c2bc3e58851fd874">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMeshHolder.html">ObjectMeshHolder</a> &gt; &amp;obj, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a>, TextureId &gt; &amp;&amp;newTextures)</td></tr>
+<tr class="memdesc:a146619ea49b7b8835a4f37f1a13cbb8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's textures and immediate set new value  <br /></td></tr>
+<tr class="separator:a146619ea49b7b8835a4f37f1a13cbb8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5e78402371a9402c2bc3e58851fd874" id="r_ad5e78402371a9402c2bc3e58851fd874"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5e78402371a9402c2bc3e58851fd874">name</a> () const override</td></tr>
 <tr class="separator:ad5e78402371a9402c2bc3e58851fd874"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6415831fcd79f6104620dcc3ae8b96a6" id="r_a6415831fcd79f6104620dcc3ae8b96a6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6415831fcd79f6104620dcc3ae8b96a6">action</a> (<a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a>) override</td></tr>
@@ -176,8 +179,8 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a128bec769ec23c0bb7aefe9fb391b2c2" name="a128bec769ec23c0bb7aefe9fb391b2c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a128bec769ec23c0bb7aefe9fb391b2c2">&#9670;&#160;</a></span>ChangeTextureAction()</h2>
+<a id="ac85c185778438e863240862dbd46a152" name="ac85c185778438e863240862dbd46a152"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac85c185778438e863240862dbd46a152">&#9670;&#160;</a></span>ChangeTextureAction() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -188,7 +191,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">MR::ChangeTextureAction::ChangeTextureAction </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -203,7 +206,43 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructed from original obj. </p>
+<p>use this constructor to remember object's textures before making any changes in them </p>
+
+</div>
+</div>
+<a id="a146619ea49b7b8835a4f37f1a13cbb8e" name="a146619ea49b7b8835a4f37f1a13cbb8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a146619ea49b7b8835a4f37f1a13cbb8e">&#9670;&#160;</a></span>ChangeTextureAction() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::ChangeTextureAction::ChangeTextureAction </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMeshHolder.html">ObjectMeshHolder</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a>, TextureId &gt; &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>newTextures</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>use this constructor to remember object's textures and immediate set new value </p>
 
 </div>
 </div>
