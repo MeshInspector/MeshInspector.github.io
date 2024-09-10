@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1PointCloudRelaxParams.html#ab8de6ecb0effc2fb5ae7f053955d6caf":[9,12,1,0],
+"structMR_1_1PointInAllSpaces.html":[10,0,10,443],
 "structMR_1_1PointInAllSpaces.html":[12,0,1,429],
 "structMR_1_1PointInAllSpaces.html#a0faf89a2289bed4bb23a92601e2a6cd9":[10,0,10,443,4],
 "structMR_1_1PointInAllSpaces.html#a0faf89a2289bed4bb23a92601e2a6cd9":[12,0,1,429,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1PositionedText.html#a362e71ee7a4c24ff0ca9f4dce5d43fa1":[12,0,1,455,1],
 "structMR_1_1PositionedText.html#aa430fb4a7ceafb3eb18505b07dcd5273":[10,0,10,469,2],
 "structMR_1_1PositionedText.html#aa430fb4a7ceafb3eb18505b07dcd5273":[12,0,1,455,2],
-"structMR_1_1PositionedText.html#acc622ad7b3847f83e8d5d6f92dd0ed0a":[10,0,10,469,0],
-"structMR_1_1PositionedText.html#acc622ad7b3847f83e8d5d6f92dd0ed0a":[12,0,1,455,0],
-"structMR_1_1PositionedText.html#adf395638da1f3aeb90c01d197a2cf0e0":[10,0,10,469,3]
+"structMR_1_1PositionedText.html#acc622ad7b3847f83e8d5d6f92dd0ed0a":[10,0,10,469,0]
 };

@@ -2480,6 +2480,7 @@ var namespaceMR =
     [ "SymMatrix3< bool >", "namespaceMR.html#a71240e31e6360de8747ccbc34908954e", null ],
     [ "SymMatrix3< long long >", "namespaceMR.html#ad3aba92bb79358f1acbd0d8658995495", null ],
     [ "systemToUtf8", "group__BasicGroup.html#ga9a6b64a85d116ca32c7ff8b93ca80da1", null ],
+    [ "teethMaskToDirectionVolume", "namespaceMR.html#a554f45a99caebb830ecf390e0079579c", null ],
     [ "terrainTriangulation", "namespaceMR.html#abebe86de5d47fc21de1ad73e06bdbc3d", null ],
     [ "thickenMesh", "namespaceMR.html#a4786362a7faf5309ddb05c773cf3b513", null ],
     [ "throwExceptionFromExpected", "namespaceMR.html#a396596cb5cea6d2f8fec7b7838ae2bc5", null ],

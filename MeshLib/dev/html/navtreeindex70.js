@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1PositionedText.html#acc622ad7b3847f83e8d5d6f92dd0ed0a":[12,0,1,455,0],
+"structMR_1_1PositionedText.html#adf395638da1f3aeb90c01d197a2cf0e0":[10,0,10,469,3],
 "structMR_1_1PositionedText.html#adf395638da1f3aeb90c01d197a2cf0e0":[12,0,1,455,3],
 "structMR_1_1PostDrawListener.html":[10,0,10,470],
 "structMR_1_1PostDrawListener.html":[12,0,1,456],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1RenderDimensions_1_1AngleParams.html":[10,0,10,29,0],
 "structMR_1_1RenderDimensions_1_1AngleParams.html":[12,0,1,17,0],
 "structMR_1_1RenderDimensions_1_1AngleParams.html#a3a1739ccf9799082e97640d3942cd5a0":[10,0,10,29,0,2],
-"structMR_1_1RenderDimensions_1_1AngleParams.html#a3a1739ccf9799082e97640d3942cd5a0":[12,0,1,17,0,2],
-"structMR_1_1RenderDimensions_1_1AngleParams.html#aa85ef6d1b0b31db4da15d765aaa3aaea":[10,0,10,29,0,0],
-"structMR_1_1RenderDimensions_1_1AngleParams.html#aa85ef6d1b0b31db4da15d765aaa3aaea":[12,0,1,17,0,0]
+"structMR_1_1RenderDimensions_1_1AngleParams.html#a3a1739ccf9799082e97640d3942cd5a0":[12,0,1,17,0,2]
 };

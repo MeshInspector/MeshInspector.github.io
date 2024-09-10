@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"MRVoxelsVolume_8h_source.html":[13,0,0,2,10,35],
 "MRVoxels_2MROffset_8h.html":[13,0,0,2,10,13],
 "MRVoxels_2MROffset_8h.html#a26c58403810ae559f5aa4b2e7e0dd80d":[13,0,0,2,10,13,7],
 "MRVoxels_2MROffset_8h.html#a2feac3a50eec5b2f2d371d843f869f27":[13,0,0,2,10,13,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "classMR_1_1AddPointActionPickerPoint.html#aa3b8080ca5e20a4622b2fa8935bbb50c":[10,0,10,48,3],
 "classMR_1_1AddPointActionPickerPoint.html#aa3b8080ca5e20a4622b2fa8935bbb50c":[12,0,1,34,3],
 "classMR_1_1AddPointActionPickerPoint.html#ab0bb45210ce513074e676019c8ee1cce":[10,0,10,48,0],
-"classMR_1_1AddPointActionPickerPoint.html#ab0bb45210ce513074e676019c8ee1cce":[12,0,1,34,0],
-"classMR_1_1AddVisualProperties.html":[10,0,10,49]
+"classMR_1_1AddPointActionPickerPoint.html#ab0bb45210ce513074e676019c8ee1cce":[12,0,1,34,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1GcodeProcessor_1_1Command.html#ae3896dcb88dae275220940ab26d6d42f":[10,0,10,234,1,0],
+"structMR_1_1GcodeProcessor_1_1Command.html#ae3896dcb88dae275220940ab26d6d42f":[12,0,1,220,1,0],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html":[10,0,10,234,2],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html":[12,0,1,220,2],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html#a084a7529a3f6202733cdf15bef0d70df":[10,0,10,234,2,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#aa3013a0de4fe197926b96f4683065a23":[10,0,10,13,0,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#aa3013a0de4fe197926b96f4683065a23":[12,0,1,5,0,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#abac2cff41f1bc2c17f07184162976b9f":[10,0,10,13,0,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#abac2cff41f1bc2c17f07184162976b9f":[12,0,1,5,0,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html":[10,0,10,13,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html":[12,0,1,5,1]
+"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#abac2cff41f1bc2c17f07184162976b9f":[12,0,1,5,0,1]
 };

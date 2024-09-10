@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#abc2ecf316c1affc7c259c7b438753dbb":[10,0,10,6,2,2,3],
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#abc2ecf316c1affc7c259c7b438753dbb":[12,0,1,2,2,2,3],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html":[10,0,10,6,0,0],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html":[12,0,1,2,0,0],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a0a599e730d0a62e6972fecbb9a4e13b1":[10,0,10,6,0,0,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1GcodeProcessor_1_1Command.html":[10,0,10,234,1],
 "structMR_1_1GcodeProcessor_1_1Command.html":[12,0,1,220,1],
 "structMR_1_1GcodeProcessor_1_1Command.html#a7465c37851c2a57ce372444cc1a0aeb9":[10,0,10,234,1,1],
-"structMR_1_1GcodeProcessor_1_1Command.html#a7465c37851c2a57ce372444cc1a0aeb9":[12,0,1,220,1,1],
-"structMR_1_1GcodeProcessor_1_1Command.html#ae3896dcb88dae275220940ab26d6d42f":[10,0,10,234,1,0],
-"structMR_1_1GcodeProcessor_1_1Command.html#ae3896dcb88dae275220940ab26d6d42f":[12,0,1,220,1,0]
+"structMR_1_1GcodeProcessor_1_1Command.html#a7465c37851c2a57ce372444cc1a0aeb9":[12,0,1,220,1,1]
 };

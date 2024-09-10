@@ -5292,6 +5292,9 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="separator:abbc1adfce73c26127f80973b21afcbf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3f5900ab5832382ad11410977098452" id="r_ae3f5900ab5832382ad11410977098452"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3f5900ab5832382ad11410977098452">rebuildMesh</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="structMR_1_1RebuildMeshSettings.html">RebuildMeshSettings</a> &amp;settings)</td></tr>
 <tr class="separator:ae3f5900ab5832382ad11410977098452"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a554f45a99caebb830ecf390e0079579c" id="r_a554f45a99caebb830ecf390e0079579c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::array&lt; SimpleVolume, 3 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a554f45a99caebb830ecf390e0079579c">teethMaskToDirectionVolume</a> (const VdbVolume &amp;volume)</td></tr>
+<tr class="memdesc:a554f45a99caebb830ecf390e0079579c"><td class="mdescLeft">&#160;</td><td class="mdescRight">A shortcut for <a class="el" href="classMR_1_1TeethMaskToDirectionVolumeConvertor.html#a1a5bba63c68415324fb151cd92f7c15b">TeethMaskToDirectionVolumeConvertor::create</a> and <a class="el" href="classMR_1_1TeethMaskToDirectionVolumeConvertor.html#a73d08553d48acf30d322b43f3de7d4a3">TeethMaskToDirectionVolumeConvertor::convertAll</a>.  <br /></td></tr>
+<tr class="separator:a554f45a99caebb830ecf390e0079579c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb9f9f581e8c2c883585a7e337eac7c4" id="r_aeb9f9f581e8c2c883585a7e337eac7c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1ToolPathResult.html">ToolPathResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb9f9f581e8c2c883585a7e337eac7c4">constantZToolPath</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="structMR_1_1ToolPathParams.html">ToolPathParams</a> &amp;params)</td></tr>
 <tr class="separator:aeb9f9f581e8c2c883585a7e337eac7c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefc71807ee4990cf5c50e20c7b8b3e82" id="r_aefc71807ee4990cf5c50e20c7b8b3e82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1ToolPathResult.html">ToolPathResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefc71807ee4990cf5c50e20c7b8b3e82">lacingToolPath</a> (const <a class="el" href="structMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="el" href="structMR_1_1ToolPathParams.html">ToolPathParams</a> &amp;params, <a class="el" href="#a05195fdcf0d1d90b73a5d24b11150005">Axis</a> cutDirection)</td></tr>
@@ -27154,6 +27157,25 @@ template&lt;typename F &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a554f45a99caebb830ecf390e0079579c" name="a554f45a99caebb830ecf390e0079579c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a554f45a99caebb830ecf390e0079579c">&#9670;&#160;</a></span>teethMaskToDirectionVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::array&lt; SimpleVolume, 3 &gt; &gt; MR::teethMaskToDirectionVolume </td>
+          <td>(</td>
+          <td class="paramtype">const VdbVolume &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A shortcut for <a class="el" href="classMR_1_1TeethMaskToDirectionVolumeConvertor.html#a1a5bba63c68415324fb151cd92f7c15b">TeethMaskToDirectionVolumeConvertor::create</a> and <a class="el" href="classMR_1_1TeethMaskToDirectionVolumeConvertor.html#a73d08553d48acf30d322b43f3de7d4a3">TeethMaskToDirectionVolumeConvertor::convertAll</a>. </p>
 
 </div>
 </div>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX29 =
 {
+"classMR_1_1ObjectTransformWidget.html#a2d16d1f66d6e6a84e9ca9d18e68d2a03":[10,0,10,396,17],
 "classMR_1_1ObjectTransformWidget.html#a2d16d1f66d6e6a84e9ca9d18e68d2a03":[12,0,1,382,17],
 "classMR_1_1ObjectTransformWidget.html#a3134eccba5998667c2b96764ceb6d88f":[10,0,10,396,11],
 "classMR_1_1ObjectTransformWidget.html#a3134eccba5998667c2b96764ceb6d88f":[12,0,1,382,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX29 =
 "classMR_1_1PlaneAccumulator.html#a0255552e85ddcbc57932a70e4eabbb28":[10,0,10,430,3],
 "classMR_1_1PlaneAccumulator.html#a0255552e85ddcbc57932a70e4eabbb28":[12,0,1,416,3],
 "classMR_1_1PlaneAccumulator.html#a561b80488532ac9db2b78daf77f60124":[10,0,10,430,0],
-"classMR_1_1PlaneAccumulator.html#a561b80488532ac9db2b78daf77f60124":[12,0,1,416,0],
-"classMR_1_1PlaneAccumulator.html#adffaaa076fb1e9216cb89f89f2ee3af6":[10,0,10,430,1]
+"classMR_1_1PlaneAccumulator.html#a561b80488532ac9db2b78daf77f60124":[12,0,1,416,0]
 };

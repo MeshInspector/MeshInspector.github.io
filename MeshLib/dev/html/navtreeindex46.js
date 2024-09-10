@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"group__BasicStructuresGroup.html#gacb5df1852aebff4993113e66bf830d74":[9,18,7],
 "group__BasicStructuresGroup.html#gae84dac6352423cd123a4f2aba32c3250":[9,18,10],
 "group__BestFitGroup.html":[9,0,1],
 "group__BestFitGroup.html#ga141cf1a05b86ed500cac08d1205ca80a":[9,0,1,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "group__IntersectionGroup.html#gaab24181e6c7cccda09f6e6fc5045f3a4":[9,0,6,1],
 "group__IntersectionGroup.html#gad9c4f2546d1a40da39bccf700c70ee49":[9,0,6,6],
 "group__IteratorRange.html":[9,3,0],
-"group__IteratorRange.html#ga4035c09c88ba3b16f5e55b24c25768f5":[9,3,0,2],
-"group__IteratorRange.html#ga8b70134f3c4bc824a8b88800d5eb4c9c":[9,3,0,1]
+"group__IteratorRange.html#ga4035c09c88ba3b16f5e55b24c25768f5":[9,3,0,2]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1MeshEqualizeTriAreasParams.html":[9,9,6,1],
+"structMR_1_1MeshEqualizeTriAreasParams.html#a7a54f93ce9d16e271b34554e4b0bd4f0":[9,9,6,1,0],
 "structMR_1_1MeshIntersectionResult.html":[9,1,20],
 "structMR_1_1MeshIntersectionResult.html#a35b9064f7ab7e270307559622c3ec903":[9,1,20,0],
 "structMR_1_1MeshIntersectionResult.html#a59e06434bac0180ffaac80a2fb3041d1":[9,1,20,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1ModelRenderParams.html#a7055e460ef562d8825891c62abcd7f2e":[10,0,10,353,2],
 "structMR_1_1ModelRenderParams.html#a7055e460ef562d8825891c62abcd7f2e":[12,0,1,339,2],
 "structMR_1_1ModelRenderParams.html#a76981d8dfd223e433ca3203cf1ebb4a3":[10,0,10,353,0],
-"structMR_1_1ModelRenderParams.html#a76981d8dfd223e433ca3203cf1ebb4a3":[12,0,1,339,0],
-"structMR_1_1MouseClickListener.html":[10,0,10,354],
-"structMR_1_1MouseClickListener.html":[12,0,1,340]
+"structMR_1_1ModelRenderParams.html#a76981d8dfd223e433ca3203cf1ebb4a3":[12,0,1,339,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1SurfaceManipulationWidget.html#aaf2bf24fbfd2017b8037ed9cab3df93caec211f7c20af43e742bf2570c3cb84f9":[12,0,1,603,1,0],
 "classMR_1_1SurfaceManipulationWidget.html#aaf2bf24fbfd2017b8037ed9cab3df93caf2901a893d204f609b9d6d6b11a481b4":[10,0,10,617,1,2],
 "classMR_1_1SurfaceManipulationWidget.html#aaf2bf24fbfd2017b8037ed9cab3df93caf2901a893d204f609b9d6d6b11a481b4":[12,0,1,603,1,2],
 "classMR_1_1SurfaceManipulationWidget.html#ad230b880c3a56720a1b95832f33ad364":[10,0,10,617,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1UI_1_1RectAllocator.html#a0c0e4459ae9255dde41c3c2e216999a3":[10,0,10,37,10,1],
 "classMR_1_1UI_1_1RectAllocator.html#a0c0e4459ae9255dde41c3c2e216999a3":[12,0,1,23,9,1],
 "classMR_1_1UI_1_1RectAllocator.html#a82d78572d266d3a2f29eadf99dd00f9e":[10,0,10,37,10,2],
-"classMR_1_1UI_1_1RectAllocator.html#a82d78572d266d3a2f29eadf99dd00f9e":[12,0,1,23,9,2],
-"classMR_1_1UI_1_1RectAllocator.html#ae453c167334b49a2d08f4bffa76c0fe2":[10,0,10,37,10,3]
+"classMR_1_1UI_1_1RectAllocator.html#a82d78572d266d3a2f29eadf99dd00f9e":[12,0,1,23,9,2]
 };
