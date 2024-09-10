@@ -217,9 +217,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2646bd14bb792576389645ad9483bc0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a655ebcd931a3422a41e25e3080f708d5" id="r_a655ebcd931a3422a41e25e3080f708d5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a655ebcd931a3422a41e25e3080f708d5">getRenderDiscretization</a> () const</td></tr>
 <tr class="separator:a655ebcd931a3422a41e25e3080f708d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e889a076ec09ab804c3619a2e0e4675" id="r_a8e889a076ec09ab804c3619a2e0e4675"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e889a076ec09ab804c3619a2e0e4675">numRenderingValidPoints</a> () const</td></tr>
-<tr class="memdesc:a8e889a076ec09ab804c3619a2e0e4675"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns count of valid points that will be rendered  <br /></td></tr>
-<tr class="separator:a8e889a076ec09ab804c3619a2e0e4675"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a225c4db48183040ba15a8dccca928412" id="r_a225c4db48183040ba15a8dccca928412"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a225c4db48183040ba15a8dccca928412">numRenderingValidPoints</a> () const</td></tr>
+<tr class="memdesc:a225c4db48183040ba15a8dccca928412"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns count of valid points that will be rendered  <br /></td></tr>
+<tr class="separator:a225c4db48183040ba15a8dccca928412"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1889e45631f7acbe861a73c528476f9c" id="r_a1889e45631f7acbe861a73c528476f9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1889e45631f7acbe861a73c528476f9c">getMaxRenderingPoints</a> () const</td></tr>
 <tr class="separator:a1889e45631f7acbe861a73c528476f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d544e708ad4ac5612035941e897ca16" id="r_a6d544e708ad4ac5612035941e897ca16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d544e708ad4ac5612035941e897ca16">setMaxRenderingPoints</a> (int val)</td></tr>
@@ -1096,7 +1096,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>returns rendering discretization display each <code>renderDiscretization</code>-th point only, starting from 0 index, total number is <a class="el" href="#a8e889a076ec09ab804c3619a2e0e4675">numRenderingValidPoints()</a> \detail defined by maximum rendered points number as: <a class="el" href="#aba48075cc3847fbce801558843fc38d1">numValidPoints()</a> / <a class="el" href="#a1889e45631f7acbe861a73c528476f9c">getMaxRenderingPoints()</a> (rounded up) updated when setting <code>maxRenderingPoints</code> or changing the cloud (setting <code>DIRTY_FACE</code> flag) </p>
+<p>returns rendering discretization display each <code>renderDiscretization</code>-th point only, starting from 0 index, total number is <a class="el" href="#a225c4db48183040ba15a8dccca928412">numRenderingValidPoints()</a> \detail defined by maximum rendered points number as: <a class="el" href="#aba48075cc3847fbce801558843fc38d1">numValidPoints()</a> / <a class="el" href="#a1889e45631f7acbe861a73c528476f9c">getMaxRenderingPoints()</a> (rounded up) updated when setting <code>maxRenderingPoints</code> or changing the cloud (setting <code>DIRTY_FACE</code> flag) </p>
 
 </div>
 </div>
@@ -1331,14 +1331,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8e889a076ec09ab804c3619a2e0e4675" name="a8e889a076ec09ab804c3619a2e0e4675"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e889a076ec09ab804c3619a2e0e4675">&#9670;&#160;</a></span>numRenderingValidPoints()</h2>
+<a id="a225c4db48183040ba15a8dccca928412" name="a225c4db48183040ba15a8dccca928412"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a225c4db48183040ba15a8dccca928412">&#9670;&#160;</a></span>numRenderingValidPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">size_t MR::ObjectPointsHolder::numRenderingValidPoints </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t MR::ObjectPointsHolder::numRenderingValidPoints </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>

@@ -11,5 +11,5 @@ var classMR_1_1EdgePathsBuilderT =
     [ "growOneEdge", "classMR_1_1EdgePathsBuilderT.html#a245a1aca92a23d5b494706916ea2554e", null ],
     [ "reachNext", "classMR_1_1EdgePathsBuilderT.html#a42cf862c1663fc45765278e3617948ab", null ],
     [ "vertPathInfoMap", "classMR_1_1EdgePathsBuilderT.html#ad30700907c0223d6668cc9e5910765c3", null ],
-    [ "metricToPenalty_", "classMR_1_1EdgePathsBuilderT.html#a951e1aef2547463398bfb912b6224dbf", null ]
+    [ "metricToPenalty_", "classMR_1_1EdgePathsBuilderT.html#a8bee648da3c920541672f288460c659c", null ]
 ];

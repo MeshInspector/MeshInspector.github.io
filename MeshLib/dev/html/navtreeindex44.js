@@ -1,9 +1,5 @@
 var NAVTREEINDEX44 =
 {
-"classMR_1_1detail_1_1ScopeGuard.html#a2c51cf739e0e06d29590ee4e3d5729b0":[10,0,10,3,3,2],
-"classMR_1_1detail_1_1ScopeGuard.html#a2c51cf739e0e06d29590ee4e3d5729b0":[12,0,1,1,3,2],
-"classMR_1_1detail_1_1ScopeGuard.html#a4bb7973a1780f673131d887ccd7a99a5":[10,0,10,3,3,0],
-"classMR_1_1detail_1_1ScopeGuard.html#a4bb7973a1780f673131d887ccd7a99a5":[12,0,1,1,3,0],
 "classMR_1_1detail_1_1ScopeGuard.html#a80a080271e0af15a7e4244bcc72d35a4":[10,0,10,3,3,3],
 "classMR_1_1detail_1_1ScopeGuard.html#a80a080271e0af15a7e4244bcc72d35a4":[12,0,1,1,3,3],
 "classMR_1_1detail_1_1ScopeGuard.html#ab72f5f420a40ffb2fdeba77f9cfc3c6f":[10,0,10,3,3,1],
@@ -249,5 +245,9 @@ var NAVTREEINDEX44 =
 "functions_vars_c.html":[12,3,2,3],
 "functions_vars_d.html":[12,3,2,4],
 "functions_vars_e.html":[12,3,2,5],
-"functions_vars_f.html":[12,3,2,6]
+"functions_vars_f.html":[12,3,2,6],
+"functions_vars_g.html":[12,3,2,7],
+"functions_vars_h.html":[12,3,2,8],
+"functions_vars_i.html":[12,3,2,9],
+"functions_vars_k.html":[12,3,2,10]
 };

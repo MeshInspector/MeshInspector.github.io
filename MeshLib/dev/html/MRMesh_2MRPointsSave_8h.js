@@ -1,7 +1,7 @@
 var MRMesh_2MRPointsSave_8h =
 [
     [ "toAnySupportedFormat", "MRMesh_2MRPointsSave_8h.html#ga4661fee21d729fcd4f240982d4a9c4a4", null ],
-    [ "toAnySupportedFormat", "MRMesh_2MRPointsSave_8h.html#ga900d2a67aae77bfeeaecc804573b0d8b", null ],
+    [ "toAnySupportedFormat", "MRMesh_2MRPointsSave_8h.html#ga1f824bb0f6ce401f73c922c9339e094e", null ],
     [ "toAsc", "MRMesh_2MRPointsSave_8h.html#ga164575d6c8576236bc0c167239208541", null ],
     [ "toAsc", "MRMesh_2MRPointsSave_8h.html#gae66f401f5377e8995c69cfe270e688fa", null ],
     [ "toCtm", "MRMesh_2MRPointsSave_8h.html#ga0d38c18792029762a8b132cb47d76d36", null ],

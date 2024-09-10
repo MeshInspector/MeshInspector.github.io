@@ -78,17 +78,17 @@ var group__AABBTreeGroup =
     ] ],
     [ "MR::PolylineTraits< V >", "structMR_1_1PolylineTraits.html", null ],
     [ "MR::PolylineTraits< Vector2f >", "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html", [
-      [ "Polyline", "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d", null ]
+      [ "Polyline", "group__AABBTreeGroup.html#ga71afe05c4c71237b7ac0e7b925f8d57d", null ]
     ] ],
     [ "MR::PolylineTraits< Vector3f >", "structMR_1_1PolylineTraits_3_01Vector3f_01_4.html", [
-      [ "Polyline", "structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b", null ]
+      [ "Polyline", "group__AABBTreeGroup.html#ga84bad48f4d3dae8d75fb1280ea03b42b", null ]
     ] ],
     [ "MR::AABBTreePolyline< V >", "classMR_1_1AABBTreePolyline.html", [
-      [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html#a7bfaaa5a66978f3d97cd8451644bed9a", null ],
-      [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html#aaf1c13f7909dc226ed6e0a332e61ba4c", null ],
-      [ "operator=", "classMR_1_1AABBTreePolyline.html#a82f5feeca891be31840c7bba4a85cb1a", null ],
-      [ "UniqueThreadSafeOwner< AABBTreePolyline >", "classMR_1_1AABBTreePolyline.html#a52c528f5d14d69efc2f4a51166515170", null ],
-      [ "AABBTreePolyline", "classMR_1_1AABBTreePolyline.html#a48ba4e2d4bac2d864f070cfe0504e6ef", null ]
+      [ "AABBTreePolyline", "group__AABBTreeGroup.html#ga7bfaaa5a66978f3d97cd8451644bed9a", null ],
+      [ "AABBTreePolyline", "group__AABBTreeGroup.html#gaaf1c13f7909dc226ed6e0a332e61ba4c", null ],
+      [ "operator=", "group__AABBTreeGroup.html#ga82f5feeca891be31840c7bba4a85cb1a", null ],
+      [ "UniqueThreadSafeOwner< AABBTreePolyline >", "group__AABBTreeGroup.html#ga52c528f5d14d69efc2f4a51166515170", null ],
+      [ "AABBTreePolyline", "group__AABBTreeGroup.html#ga48ba4e2d4bac2d864f070cfe0504e6ef", null ]
     ] ],
     [ "MR::FaceFace", "structMR_1_1FaceFace.html", [
       [ "FaceFace", "structMR_1_1FaceFace.html#ac3a31b47e7baa47611ea150254a49fe3", null ],
@@ -224,11 +224,15 @@ var group__AABBTreeGroup =
     [ "MR::LineTreeTraits2", "group__AABBTreeGroup.html#ga346d2e7774495e3e4ca05a2325f11aaf", null ],
     [ "MR::LineTreeTraits3", "group__AABBTreeGroup.html#gacf6e57b5e87718397acc1762969ad77a", null ],
     [ "MR::MeshIntersectionCallback", "group__AABBTreeGroup.html#gac20cf6ba073a7db1e2df313fb87d9517", null ],
+    [ "MR::PolylineTraits< Vector2f >::Polyline", "group__AABBTreeGroup.html#ga71afe05c4c71237b7ac0e7b925f8d57d", null ],
+    [ "MR::PolylineTraits< Vector3f >::Polyline", "group__AABBTreeGroup.html#ga84bad48f4d3dae8d75fb1280ea03b42b", null ],
     [ "MR::TriangleCallback", "group__AABBTreeGroup.html#ga285ea5cd9fb638c90fec0099f526c057", null ],
     [ "MR::ProcessOneResult", "group__AABBTreeGroup.html#ga3dd2fd9fcc06b6502d22a9ea3eb63e47", [
       [ "MR::ProcessOneResult::StopProcessing", "group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47a38e59feb928e37292c8ee0a50f447612", null ],
       [ "MR::ProcessOneResult::ContinueProcessing", "group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47aab6bb60f51b25ae0f7ec450173e3348e", null ]
     ] ],
+    [ "MR::AABBTreePolyline::AABBTreePolyline", "group__AABBTreeGroup.html#gaaf1c13f7909dc226ed6e0a332e61ba4c", null ],
+    [ "MR::AABBTreePolyline::AABBTreePolyline", "group__AABBTreeGroup.html#ga7bfaaa5a66978f3d97cd8451644bed9a", null ],
     [ "MR::findCollidingEdgePairs", "group__AABBTreeGroup.html#ga15a3e18d2098f8ff33e67776a221e6fb", null ],
     [ "MR::findCollidingEdges", "group__AABBTreeGroup.html#ga44c8af10ceaf3059a77647d7b6f2ca8b", null ],
     [ "MR::findCollidingEdgesBitsets", "group__AABBTreeGroup.html#ga0f3404724c88f935957c8c3c8962ea3a", null ],
@@ -279,6 +283,7 @@ var group__AABBTreeGroup =
     [ "MR::isNonIntersectingInside", "group__AABBTreeGroup.html#ga30d53ebf69ce150861f17e4695543778", null ],
     [ "MR::isPointInsidePolyline", "group__AABBTreeGroup.html#ga2aba3040bbdbbafb7d8e38803b955524", null ],
     [ "MR::makeAABBTreeNodeVec", "group__AABBTreeGroup.html#ga364302ddaf673e7f00c6745f4172d6c0", null ],
+    [ "MR::AABBTreePolyline::operator=", "group__AABBTreeGroup.html#ga82f5feeca891be31840c7bba4a85cb1a", null ],
     [ "MR::operator==", "group__AABBTreeGroup.html#ga8f7cfd40975f9648e9785f72d75ff92d", null ],
     [ "MR::processCloseTriangles", "group__AABBTreeGroup.html#gadb20234daa82631954c44c1676424e5f", null ],
     [ "MR::rayMeshIntersect", "group__AABBTreeGroup.html#ga987d32cc52268b780f26e3733f7d0151", null ],
@@ -288,6 +293,7 @@ var group__AABBTreeGroup =
     [ "MR::rayMultiMeshAnyIntersect", "group__AABBTreeGroup.html#gaca3917c935c4b071cac785463beaa5f2", null ],
     [ "MR::rayMultiMeshAnyIntersect", "group__AABBTreeGroup.html#ga5ed53546770d894ff3f4ea75bd760afa", null ],
     [ "MR::xyPlaneMeshIntersect", "group__AABBTreeGroup.html#ga881bc4cb6ab7f415bf85d9235e2ca740", null ],
+    [ "MR::AABBTreePolyline::AABBTreePolyline", "group__AABBTreeGroup.html#ga48ba4e2d4bac2d864f070cfe0504e6ef", null ],
     [ "MR::IntersectionPrecomputes::idxX", "group__AABBTreeGroup.html#ga59240ce19dcf5b27221a347b22086fcb", null ],
     [ "MR::IntersectionPrecomputes::idxY", "group__AABBTreeGroup.html#ga1e89bb11cf7c4693e1c8839963994a08", null ],
     [ "MR::IntersectionPrecomputes::invDir", "group__AABBTreeGroup.html#ga5e3f58e5a000086f4df8523da65c9b4f", null ],
@@ -295,5 +301,6 @@ var group__AABBTreeGroup =
     [ "MR::IntersectionPrecomputes::sign", "group__AABBTreeGroup.html#ga28372a635ba67b43220bc9067be6560d", null ],
     [ "MR::IntersectionPrecomputes::Sx", "group__AABBTreeGroup.html#ga21465bc7d67177777744f39ac171940c", null ],
     [ "MR::IntersectionPrecomputes::Sy", "group__AABBTreeGroup.html#gaf95502c89221bba3187782d4ed18199b", null ],
-    [ "MR::IntersectionPrecomputes::Sz", "group__AABBTreeGroup.html#ga6159c869b0afc38ccf26091c1681194a", null ]
+    [ "MR::IntersectionPrecomputes::Sz", "group__AABBTreeGroup.html#ga6159c869b0afc38ccf26091c1681194a", null ],
+    [ "MR::AABBTreePolyline::UniqueThreadSafeOwner< AABBTreePolyline >", "group__AABBTreeGroup.html#ga52c528f5d14d69efc2f4a51166515170", null ]
 ];

@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1RenderDimensions_1_1RadiusParams.html#abdf65391e79f7573aa94c2fc65ab7c26":[10,0,10,29,4,3],
 "structMR_1_1RenderDimensions_1_1RadiusParams.html#abdf65391e79f7573aa94c2fc65ab7c26":[12,0,1,17,4,3],
 "structMR_1_1RenderDimensions_1_1RadiusParams.html#acbc9da122212ec41904e71d4e3002cc9":[10,0,10,29,4,0],
 "structMR_1_1RenderDimensions_1_1RadiusParams.html#acbc9da122212ec41904e71d4e3002cc9":[12,0,1,17,4,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1SelfIntersections_1_1Settings.html":[10,0,10,34,0],
 "structMR_1_1SelfIntersections_1_1Settings.html":[12,0,1,21,0],
 "structMR_1_1SelfIntersections_1_1Settings.html#a27581dba0d20048070937e95346b4224":[10,0,10,34,0,5],
-"structMR_1_1SelfIntersections_1_1Settings.html#a27581dba0d20048070937e95346b4224":[12,0,1,21,0,5],
-"structMR_1_1SelfIntersections_1_1Settings.html#a7798ca5ce166d10f94b4f994252918f8":[10,0,10,34,0,2]
+"structMR_1_1SelfIntersections_1_1Settings.html#a27581dba0d20048070937e95346b4224":[12,0,1,21,0,5]
 };

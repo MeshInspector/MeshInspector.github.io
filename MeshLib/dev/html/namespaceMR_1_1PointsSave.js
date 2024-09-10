@@ -5,7 +5,7 @@ var namespaceMR_1_1PointsSave =
     [ "PointsFileSaver", "namespaceMR_1_1PointsSave.html#a356417aed0685b9e9741744f7b357eba", null ],
     [ "PointsStreamSaver", "namespaceMR_1_1PointsSave.html#a1c0d45a07ed1828ee0d1190c6ca69cab", null ],
     [ "toAnySupportedFormat", "group__PointsSaveGroup.html#ga4661fee21d729fcd4f240982d4a9c4a4", null ],
-    [ "toAnySupportedFormat", "group__PointsSaveGroup.html#ga900d2a67aae77bfeeaecc804573b0d8b", null ],
+    [ "toAnySupportedFormat", "group__PointsSaveGroup.html#ga1f824bb0f6ce401f73c922c9339e094e", null ],
     [ "toAsc", "group__PointsSaveGroup.html#ga164575d6c8576236bc0c167239208541", null ],
     [ "toAsc", "group__PointsSaveGroup.html#gae66f401f5377e8995c69cfe270e688fa", null ],
     [ "toCtm", "group__PointsSaveGroup.html#ga0d38c18792029762a8b132cb47d76d36", null ],

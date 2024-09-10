@@ -5,7 +5,7 @@ var group__PointsSaveGroup =
       [ "compressionLevel", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a93bcbf8ddd9c5a89210bf3cf9f8acbef", null ]
     ] ],
     [ "MR::PointsSave::toAnySupportedFormat", "group__PointsSaveGroup.html#ga4661fee21d729fcd4f240982d4a9c4a4", null ],
-    [ "MR::PointsSave::toAnySupportedFormat", "group__PointsSaveGroup.html#ga900d2a67aae77bfeeaecc804573b0d8b", null ],
+    [ "MR::PointsSave::toAnySupportedFormat", "group__PointsSaveGroup.html#ga1f824bb0f6ce401f73c922c9339e094e", null ],
     [ "MR::PointsSave::toAsc", "group__PointsSaveGroup.html#ga164575d6c8576236bc0c167239208541", null ],
     [ "MR::PointsSave::toAsc", "group__PointsSaveGroup.html#gae66f401f5377e8995c69cfe270e688fa", null ],
     [ "MR::PointsSave::toCtm", "group__PointsSaveGroup.html#ga0d38c18792029762a8b132cb47d76d36", null ],

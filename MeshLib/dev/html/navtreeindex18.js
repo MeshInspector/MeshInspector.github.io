@@ -1,9 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"classMR_1_1DirectionWidget.html#a5a2acfb8fd29d43fee23934a66211193":[10,0,10,172,8],
-"classMR_1_1DirectionWidget.html#a5a2acfb8fd29d43fee23934a66211193":[12,0,1,158,8],
-"classMR_1_1DirectionWidget.html#a67a12d304a83009a1db343a406e4f46e":[10,0,10,172,11],
-"classMR_1_1DirectionWidget.html#a67a12d304a83009a1db343a406e4f46e":[12,0,1,158,11],
 "classMR_1_1DirectionWidget.html#a8b4334c69d67fa5facc71f1981cab1d1":[10,0,10,172,5],
 "classMR_1_1DirectionWidget.html#a8b4334c69d67fa5facc71f1981cab1d1":[12,0,1,158,5],
 "classMR_1_1DirectionWidget.html#a919a4e2843ebcd0667b6572ba9d03caa":[10,0,10,172,16],
@@ -149,8 +145,8 @@ var NAVTREEINDEX18 =
 "classMR_1_1EdgePathsBuilderT.html#a6121aae22b66ff8e123f4f1d2d21528d":[12,0,1,180,5],
 "classMR_1_1EdgePathsBuilderT.html#a7567736873ea92c6a2359d13bdf9ff52":[10,0,10,194,2],
 "classMR_1_1EdgePathsBuilderT.html#a7567736873ea92c6a2359d13bdf9ff52":[12,0,1,180,2],
-"classMR_1_1EdgePathsBuilderT.html#a951e1aef2547463398bfb912b6224dbf":[10,0,10,194,11],
-"classMR_1_1EdgePathsBuilderT.html#a951e1aef2547463398bfb912b6224dbf":[12,0,1,180,11],
+"classMR_1_1EdgePathsBuilderT.html#a8bee648da3c920541672f288460c659c":[10,0,10,194,11],
+"classMR_1_1EdgePathsBuilderT.html#a8bee648da3c920541672f288460c659c":[12,0,1,180,11],
 "classMR_1_1EdgePathsBuilderT.html#aa58748ee3e1ceb34e2ff8b8d2ab58d6b":[10,0,10,194,1],
 "classMR_1_1EdgePathsBuilderT.html#aa58748ee3e1ceb34e2ff8b8d2ab58d6b":[12,0,1,180,1],
 "classMR_1_1EdgePathsBuilderT.html#aa5a3f3206ed7ec78c89eef5860137181":[10,0,10,194,6],
@@ -249,5 +245,9 @@ var NAVTREEINDEX18 =
 "classMR_1_1FeatureObject.html#ad4ff45224612c828ae56427661a0f00e":[10,0,10,208,32],
 "classMR_1_1FeatureObject.html#ad4ff45224612c828ae56427661a0f00e":[12,0,1,194,32],
 "classMR_1_1FeatureObject.html#ad59d121c1a25c1218815462882d6bf8b":[10,0,10,208,19],
-"classMR_1_1FeatureObject.html#ad59d121c1a25c1218815462882d6bf8b":[12,0,1,194,19]
+"classMR_1_1FeatureObject.html#ad59d121c1a25c1218815462882d6bf8b":[12,0,1,194,19],
+"classMR_1_1FeatureObject.html#ad7fbf06bb7ae7e9d6d048ae16629ccc3":[10,0,10,208,44],
+"classMR_1_1FeatureObject.html#ad7fbf06bb7ae7e9d6d048ae16629ccc3":[12,0,1,194,44],
+"classMR_1_1FeatureObject.html#ad870b3dc0af8af65bcaf74fb0fa84475":[10,0,10,208,39],
+"classMR_1_1FeatureObject.html#ad870b3dc0af8af65bcaf74fb0fa84475":[12,0,1,194,39]
 };
