@@ -1,6 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"structThreeVertIds.html#aea7ac7d69d5ae87ce75e043be5f5b970":[12,0,70,0],
 "structTriPoint.html":[12,0,71],
 "structTriPoint.html#a098fd8e276d13df8d957c66bc29c1385":[12,0,71,4],
 "structTriPoint.html#a14b248c117ecfa6e9f817f5c62b22789":[12,0,71,2],

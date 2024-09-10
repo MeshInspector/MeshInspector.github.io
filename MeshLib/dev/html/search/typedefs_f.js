@@ -21,7 +21,7 @@ var searchData=
   ['pointsfilesaver_18',['PointsFileSaver',['../namespaceMR_1_1PointsSave.html#a356417aed0685b9e9741744f7b357eba',1,'MR::PointsSave']]],
   ['pointsstreamloader_19',['PointsStreamLoader',['../namespaceMR_1_1PointsLoad.html#a0f81139db68679c906d09ff033071478',1,'MR::PointsLoad']]],
   ['pointsstreamsaver_20',['PointsStreamSaver',['../namespaceMR_1_1PointsSave.html#a1c0d45a07ed1828ee0d1190c6ca69cab',1,'MR::PointsSave']]],
-  ['polyline_21',['Polyline',['../group__AABBTreeGroup.html#ga71afe05c4c71237b7ac0e7b925f8d57d',1,'MR::PolylineTraits&lt; Vector2f &gt;::Polyline'],['../group__AABBTreeGroup.html#ga84bad48f4d3dae8d75fb1280ea03b42b',1,'MR::PolylineTraits&lt; Vector3f &gt;::Polyline']]],
+  ['polyline_21',['Polyline',['../structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d',1,'MR::PolylineTraits&lt; Vector2f &gt;::Polyline'],['../structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b',1,'MR::PolylineTraits&lt; Vector3f &gt;::Polyline']]],
   ['polynomiald_22',['Polynomiald',['../namespaceMR.html#abef34e50f0274ffd602098869fffd461',1,'MR']]],
   ['polynomialf_23',['Polynomialf',['../namespaceMR.html#aede2a83d70208855b602da974aafc690',1,'MR']]],
   ['polynomialwrapperd_24',['PolynomialWrapperd',['../namespaceMR.html#ae6f8c0d05b25de07d0d245e6a0387f57',1,'MR']]],

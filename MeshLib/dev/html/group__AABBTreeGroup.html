@@ -109,8 +109,7 @@ $(function(){initNavTree('group__AABBTreeGroup.html',''); initResizable(true); }
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a> &#124;
-<a href="#friend-members">Friends</a>  </div>
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">AABB Tree overview</div></div>
 </div><!--header-->
 <div class="contents">
@@ -198,10 +197,6 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga01c75e3c26967a90edbe075a77cb2ca9" id="r_ga01c75e3c26967a90edbe075a77cb2ca9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga01c75e3c26967a90edbe075a77cb2ca9"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga01c75e3c26967a90edbe075a77cb2ca9">MR::AABBTreeNodeVec</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1AABBTreeNode.html">AABBTreeNode</a>&lt;T&gt;, NodeId&gt;</td></tr>
 <tr class="separator:ga01c75e3c26967a90edbe075a77cb2ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga71afe05c4c71237b7ac0e7b925f8d57d" id="r_ga71afe05c4c71237b7ac0e7b925f8d57d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga71afe05c4c71237b7ac0e7b925f8d57d">MR::PolylineTraits&lt; Vector2f &gt;::Polyline</a> = MR::Polyline2</td></tr>
-<tr class="separator:ga71afe05c4c71237b7ac0e7b925f8d57d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga84bad48f4d3dae8d75fb1280ea03b42b" id="r_ga84bad48f4d3dae8d75fb1280ea03b42b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga84bad48f4d3dae8d75fb1280ea03b42b">MR::PolylineTraits&lt; Vector3f &gt;::Polyline</a> = MR::Polyline3</td></tr>
-<tr class="separator:ga84bad48f4d3dae8d75fb1280ea03b42b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga285ea5cd9fb638c90fec0099f526c057" id="r_ga285ea5cd9fb638c90fec0099f526c057"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga285ea5cd9fb638c90fec0099f526c057">MR::TriangleCallback</a> = std::function&lt;<a class="el" href="#ga3dd2fd9fcc06b6502d22a9ea3eb63e47">ProcessOneResult</a>( const <a class="el" href="classVector3f.html">Vector3f</a> &amp; p, <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#ab7fe032dc814ab0521ff517f8c238aa9">FaceId</a> f, const <a class="el" href="classVector3f.html">Vector3f</a> &amp; q, float distSq )&gt;</td></tr>
 <tr class="separator:ga285ea5cd9fb638c90fec0099f526c057"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9222ec2d954badb7ee5874321a084eb6" id="r_ga9222ec2d954badb7ee5874321a084eb6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9222ec2d954badb7ee5874321a084eb6">MR::Line3fMesh</a> = <a class="el" href="structMR_1_1Line3Mesh.html">Line3Mesh</a>&lt;float&gt;</td></tr>
@@ -236,13 +231,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga364302ddaf673e7f00c6745f4172d6c0" id="r_ga364302ddaf673e7f00c6745f4172d6c0"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga364302ddaf673e7f00c6745f4172d6c0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#ga01c75e3c26967a90edbe075a77cb2ca9">AABBTreeNodeVec</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga364302ddaf673e7f00c6745f4172d6c0">MR::makeAABBTreeNodeVec</a> (<a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; <a class="el" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a>&lt; T &gt; &gt; boxedLeaves)</td></tr>
 <tr class="separator:ga364302ddaf673e7f00c6745f4172d6c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7bfaaa5a66978f3d97cd8451644bed9a" id="r_ga7bfaaa5a66978f3d97cd8451644bed9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7bfaaa5a66978f3d97cd8451644bed9a">MR::AABBTreePolyline&lt; V &gt;::AABBTreePolyline</a> (const typename <a class="el" href="structMR_1_1PolylineTraits.html">PolylineTraits</a>&lt; V &gt;::Polyline &amp;polyline)</td></tr>
-<tr class="memdesc:ga7bfaaa5a66978f3d97cd8451644bed9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree for given polyline  <br /></td></tr>
-<tr class="separator:ga7bfaaa5a66978f3d97cd8451644bed9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaaf1c13f7909dc226ed6e0a332e61ba4c" id="r_gaaf1c13f7909dc226ed6e0a332e61ba4c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaf1c13f7909dc226ed6e0a332e61ba4c">MR::AABBTreePolyline&lt; V &gt;::AABBTreePolyline</a> (<a class="el" href="classMR_1_1AABBTreePolyline.html">AABBTreePolyline</a> &amp;&amp;) noexcept=default</td></tr>
-<tr class="separator:gaaf1c13f7909dc226ed6e0a332e61ba4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga82f5feeca891be31840c7bba4a85cb1a" id="r_ga82f5feeca891be31840c7bba4a85cb1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1AABBTreePolyline.html">AABBTreePolyline</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga82f5feeca891be31840c7bba4a85cb1a">MR::AABBTreePolyline&lt; V &gt;::operator=</a> (<a class="el" href="classMR_1_1AABBTreePolyline.html">AABBTreePolyline</a> &amp;&amp;) noexcept=default</td></tr>
-<tr class="separator:ga82f5feeca891be31840c7bba4a85cb1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7fcb33a674ea8b57ac858e40d42e26e3" id="r_ga7fcb33a674ea8b57ac858e40d42e26e3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga7fcb33a674ea8b57ac858e40d42e26e3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga7fcb33a674ea8b57ac858e40d42e26e3">MR::findMaxVectorDim</a> (int &amp;dimX, int &amp;dimY, int &amp;dimZ, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;dir)</td></tr>
 <tr class="memdesc:ga7fcb33a674ea8b57ac858e40d42e26e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds index of maximum axis and stores it into dimZ  <br /></td></tr>
@@ -405,9 +393,6 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ga48ba4e2d4bac2d864f070cfe0504e6ef" id="r_ga48ba4e2d4bac2d864f070cfe0504e6ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1AABBTreePolyline.html">AABBTreePolyline</a>(const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const UndirectedEdgeBitSet &amp;edgeSet) <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga48ba4e2d4bac2d864f070cfe0504e6ef">MR::AABBTreePolyline&lt; V &gt;::AABBTreePolyline</a> )()=default</td></tr>
-<tr class="memdesc:ga48ba4e2d4bac2d864f070cfe0504e6ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree for selected edges on the mesh (only for 3d tree)  <br /></td></tr>
-<tr class="separator:ga48ba4e2d4bac2d864f070cfe0504e6ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5e3f58e5a000086f4df8523da65c9b4f" id="r_ga5e3f58e5a000086f4df8523da65c9b4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5e3f58e5a000086f4df8523da65c9b4f">MR::IntersectionPrecomputes&lt; T &gt;::invDir</a></td></tr>
 <tr class="separator:ga5e3f58e5a000086f4df8523da65c9b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaffa5bcb7a516c4dda421ace86e2597c2" id="r_gaffa5bcb7a516c4dda421ace86e2597c2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaffa5bcb7a516c4dda421ace86e2597c2">MR::IntersectionPrecomputes&lt; T &gt;::maxDimIdxZ</a> = 2</td></tr>
@@ -426,11 +411,6 @@ Variables</h2></td></tr>
 <tr class="separator:gaf95502c89221bba3187782d4ed18199b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6159c869b0afc38ccf26091c1681194a" id="r_ga6159c869b0afc38ccf26091c1681194a"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6159c869b0afc38ccf26091c1681194a">MR::IntersectionPrecomputes&lt; T &gt;::Sz</a></td></tr>
 <tr class="separator:ga6159c869b0afc38ccf26091c1681194a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friend-members" name="friend-members"></a>
-Friends</h2></td></tr>
-<tr class="memitem:ga52c528f5d14d69efc2f4a51166515170" id="r_ga52c528f5d14d69efc2f4a51166515170"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga52c528f5d14d69efc2f4a51166515170">MR::AABBTreePolyline&lt; V &gt;::UniqueThreadSafeOwner&lt; AABBTreePolyline &gt;</a></td></tr>
-<tr class="separator:ga52c528f5d14d69efc2f4a51166515170"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>This chapter represents documentation about AABB Tree. </p>
@@ -612,34 +592,6 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
-<a id="ga71afe05c4c71237b7ac0e7b925f8d57d" name="ga71afe05c4c71237b7ac0e7b925f8d57d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga71afe05c4c71237b7ac0e7b925f8d57d">&#9670;&#160;</a></span>Polyline <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="structMR_1_1PolylineTraits.html">MR::PolylineTraits</a>&lt; Vector2f &gt;::Polyline = MR::Polyline2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga84bad48f4d3dae8d75fb1280ea03b42b" name="ga84bad48f4d3dae8d75fb1280ea03b42b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga84bad48f4d3dae8d75fb1280ea03b42b">&#9670;&#160;</a></span>Polyline <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="structMR_1_1PolylineTraits.html">MR::PolylineTraits</a>&lt; <a class="el" href="classVector3f.html">Vector3f</a> &gt;::Polyline = MR::Polyline3</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ga285ea5cd9fb638c90fec0099f526c057" name="ga285ea5cd9fb638c90fec0099f526c057"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga285ea5cd9fb638c90fec0099f526c057">&#9670;&#160;</a></span>TriangleCallback</h2>
 
@@ -692,62 +644,6 @@ template&lt;typename V &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="gaaf1c13f7909dc226ed6e0a332e61ba4c" name="gaaf1c13f7909dc226ed6e0a332e61ba4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaaf1c13f7909dc226ed6e0a332e61ba4c">&#9670;&#160;</a></span>AABBTreePolyline() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename V &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1AABBTreePolyline.html">MR::AABBTreePolyline</a>&lt; V &gt;::AABBTreePolyline </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1AABBTreePolyline.html">AABBTreePolyline</a>&lt; V &gt; &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga7bfaaa5a66978f3d97cd8451644bed9a" name="ga7bfaaa5a66978f3d97cd8451644bed9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7bfaaa5a66978f3d97cd8451644bed9a">&#9670;&#160;</a></span>AABBTreePolyline() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename V &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1AABBTreePolyline.html">MR::AABBTreePolyline</a>&lt; V &gt;::AABBTreePolyline </td>
-          <td>(</td>
-          <td class="paramtype">const typename <a class="el" href="structMR_1_1PolylineTraits.html">PolylineTraits</a>&lt; V &gt;::Polyline &amp;</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>creates tree for given polyline </p>
-
-</div>
-</div>
 <a id="ga15a3e18d2098f8ff33e67776a221e6fb" name="ga15a3e18d2098f8ff33e67776a221e6fb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga15a3e18d2098f8ff33e67776a221e6fb">&#9670;&#160;</a></span>findCollidingEdgePairs()</h2>
 
@@ -2767,33 +2663,6 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ga82f5feeca891be31840c7bba4a85cb1a" name="ga82f5feeca891be31840c7bba4a85cb1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga82f5feeca891be31840c7bba4a85cb1a">&#9670;&#160;</a></span>operator=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename V &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1AABBTreePolyline.html">AABBTreePolyline</a> &amp; <a class="el" href="classMR_1_1AABBTreePolyline.html">MR::AABBTreePolyline</a>&lt; V &gt;::operator= </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1AABBTreePolyline.html">AABBTreePolyline</a>&lt; V &gt; &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ga8f7cfd40975f9648e9785f72d75ff92d" name="ga8f7cfd40975f9648e9785f72d75ff92d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga8f7cfd40975f9648e9785f72d75ff92d">&#9670;&#160;</a></span>operator==()</h2>
 
@@ -3166,32 +3035,6 @@ template&lt;typename V &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="ga48ba4e2d4bac2d864f070cfe0504e6ef" name="ga48ba4e2d4bac2d864f070cfe0504e6ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga48ba4e2d4bac2d864f070cfe0504e6ef">&#9670;&#160;</a></span>AABBTreePolyline</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename V &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1AABBTreePolyline.html">AABBTreePolyline</a>(const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const UndirectedEdgeBitSet &amp;edgeSet) <a class="el" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>( <a class="el" href="classMR_1_1AABBTreePolyline.html">MR::AABBTreePolyline</a>&lt; V &gt;::AABBTreePolyline) ()=default</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>creates tree for selected edges on the mesh (only for 3d tree) </p>
-
-</div>
-</div>
 <a id="ga59240ce19dcf5b27221a347b22086fcb" name="ga59240ce19dcf5b27221a347b22086fcb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga59240ce19dcf5b27221a347b22086fcb">&#9670;&#160;</a></span>idxX</h2>
 
@@ -3320,31 +3163,6 @@ template&lt;typename T &gt; </div>
           <td class="memname">T <a class="el" href="structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt; T &gt;::Sz</td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Friends</h2>
-<a id="ga52c528f5d14d69efc2f4a51166515170" name="ga52c528f5d14d69efc2f4a51166515170"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga52c528f5d14d69efc2f4a51166515170">&#9670;&#160;</a></span>UniqueThreadSafeOwner&lt; AABBTreePolyline &gt;</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename V &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class <a class="el" href="classMR_1_1UniqueThreadSafeOwner.html">UniqueThreadSafeOwner</a>&lt; <a class="el" href="classMR_1_1AABBTreePolyline.html">AABBTreePolyline</a> &gt;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

@@ -31,7 +31,7 @@ var searchData=
   ['numholes_28',['numHoles',['../classMR_1_1ObjectMeshHolder.html#aa7f6eec79b9b3546a484aee6efacabd6',1,'MR::ObjectMeshHolder']]],
   ['numleaves_29',['numLeaves',['../classMR_1_1AABBTreeBase.html#a444c40a8f2e0206606d5abe15c0f506f',1,'MR::AABBTreeBase']]],
   ['numpoints_30',['numPoints',['../classMR_1_1DistanceMap.html#af13b1ec7ff8d3cdc83fb66dc8ff4d97e',1,'MR::DistanceMap']]],
-  ['numrenderingvalidpoints_31',['numRenderingValidPoints',['../classMR_1_1ObjectPointsHolder.html#a225c4db48183040ba15a8dccca928412',1,'MR::ObjectPointsHolder']]],
+  ['numrenderingvalidpoints_31',['numRenderingValidPoints',['../classMR_1_1ObjectPointsHolder.html#a8e889a076ec09ab804c3619a2e0e4675',1,'MR::ObjectPointsHolder']]],
   ['numselectededges_32',['numSelectedEdges',['../classMR_1_1ObjectMeshHolder.html#ac079f513ed46863aa2e8e1b1ad09ef8d',1,'MR::ObjectMeshHolder']]],
   ['numselectedfaces_33',['numSelectedFaces',['../classMR_1_1ObjectMeshHolder.html#ac66f8710ce4b8991eb62b48ee5c94585',1,'MR::ObjectMeshHolder']]],
   ['numselectedpoints_34',['numSelectedPoints',['../classMR_1_1ObjectPointsHolder.html#a54c093ecf7ef8fa2397f85b65631c47a',1,'MR::ObjectPointsHolder']]],
