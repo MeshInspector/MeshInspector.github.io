@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"classMR_1_1ChangeSceneAction.html#abe4134fb5816e6ed341b5b84526fe6c0":[9,4,21,2],
 "classMR_1_1ChangeSceneAction.html#ad1dec660d1132592b4ea2eb4ad53dda0":[9,4,21,4],
 "classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1":[9,4,21,0],
 "classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1a650a024818e022f05f44766109a5f846":[9,4,21,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0afd01a2b69bde153fcd2589c5749c317d":[10,0,10,134,1,38],
 "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0afd01a2b69bde153fcd2589c5749c317d":[12,0,1,120,1,38],
 "classMR_1_1CombinedHistoryAction.html":[9,4,36],
-"classMR_1_1CombinedHistoryAction.html#a24336720e6ef2e49fe759978a653cd93":[9,4,36,2],
-"classMR_1_1CombinedHistoryAction.html#a25f7969b5daf7f81d5dc52abce1f5850":[9,4,36,3]
+"classMR_1_1CombinedHistoryAction.html#a24336720e6ef2e49fe759978a653cd93":[9,4,36,2]
 };

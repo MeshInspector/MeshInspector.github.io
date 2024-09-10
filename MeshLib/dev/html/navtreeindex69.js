@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1PointOnObject.html":[12,0,1,432],
 "structMR_1_1PointOnObject.html#a097965189767222c3d16454fef46570c":[10,0,10,446,2],
 "structMR_1_1PointOnObject.html#a097965189767222c3d16454fef46570c":[12,0,1,432,2],
 "structMR_1_1PointOnObject.html#a24573ab8d99e131aad6fa4b5b12e034f":[10,0,10,446,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1PostFocusListener.html#aca372f013f9f8d45231243ef9488c0c0":[12,0,1,457,1],
 "structMR_1_1PostRescaleListener.html":[10,0,10,472],
 "structMR_1_1PostRescaleListener.html":[12,0,1,458],
-"structMR_1_1PostRescaleListener.html#a663f17033774ed6940d244c30bc62013":[10,0,10,472,1],
-"structMR_1_1PostRescaleListener.html#a663f17033774ed6940d244c30bc62013":[12,0,1,458,1]
+"structMR_1_1PostRescaleListener.html#a663f17033774ed6940d244c30bc62013":[10,0,10,472,1]
 };

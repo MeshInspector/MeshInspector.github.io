@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"MRNoDefInit_8h_source.html":[13,0,0,2,3,234],
 "MRNormalDenoising_8h.html":[13,0,0,2,3,235],
 "MRNormalDenoising_8h.html#a40847df1ce412c4c7085dd392037e050":[13,0,0,2,3,235,4],
 "MRNormalDenoising_8h.html#a4a2815eda5e04a1da7ec615027b52c86":[13,0,0,2,3,235,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "MRPointsToMeshProjector_8h_source.html":[13,0,0,2,3,286],
 "MRPolyline2Collide_8h.html":[13,0,0,2,3,290],
 "MRPolyline2Collide_8h_source.html":[13,0,0,2,3,290],
-"MRPolyline2Intersect_8h.html":[13,0,0,2,3,291],
-"MRPolyline2Intersect_8h.html#a6676a2ad828681c05e6c1fccdf52553e":[13,0,0,2,3,291,2]
+"MRPolyline2Intersect_8h.html":[13,0,0,2,3,291]
 };

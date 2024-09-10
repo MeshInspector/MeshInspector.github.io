@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"classMR_1_1CNCMachineSettings.html#ae22e552af6d9f1dc0260d0da9fac1245":[10,0,10,131,12],
 "classMR_1_1CNCMachineSettings.html#ae22e552af6d9f1dc0260d0da9fac1245":[12,0,1,117,12],
 "classMR_1_1CNCMachineSettings.html#ae955523fc216f1375b25477a94ebc629":[10,0,10,131,6],
 "classMR_1_1CNCMachineSettings.html#ae955523fc216f1375b25477a94ebc629":[12,0,1,117,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "classMR_1_1ChangePolylineTopologyAction.html#aab07f50bc5fb59a1da47d13e888a1256":[9,4,20,1],
 "classMR_1_1ChangePolylineTopologyAction.html#ad03adcbdb1b3e090ef0d0a8aa6b0d319":[9,4,20,0],
 "classMR_1_1ChangeSceneAction.html":[9,4,21],
-"classMR_1_1ChangeSceneAction.html#a1de30bd403835a03cc79234ac5f31280":[9,4,21,1],
-"classMR_1_1ChangeSceneAction.html#abe4134fb5816e6ed341b5b84526fe6c0":[9,4,21,2]
+"classMR_1_1ChangeSceneAction.html#a1de30bd403835a03cc79234ac5f31280":[9,4,21,1]
 };

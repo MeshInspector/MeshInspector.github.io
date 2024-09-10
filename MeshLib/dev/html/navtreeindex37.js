@@ -1,5 +1,6 @@
 var NAVTREEINDEX37 =
 {
+"classMR_1_1SpaceMouseController.html#a7accd6b62f47b5cf5f772deed66e77f9":[10,0,10,597,3],
 "classMR_1_1SpaceMouseController.html#a7accd6b62f47b5cf5f772deed66e77f9":[12,0,1,583,3],
 "classMR_1_1SpaceMouseController.html#abeb719b76a7f6eab11a03225b18aebd0":[10,0,10,597,0],
 "classMR_1_1SpaceMouseController.html#abeb719b76a7f6eab11a03225b18aebd0":[12,0,1,583,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX37 =
 "classMR_1_1SurfacePointWidget.html#a7490f0d419228b077322177f164a2552":[12,0,1,604,17],
 "classMR_1_1SurfacePointWidget.html#a798cfe4e8403435129f4788dbfe0604b":[10,0,10,618,5],
 "classMR_1_1SurfacePointWidget.html#a798cfe4e8403435129f4788dbfe0604b":[12,0,1,604,5],
-"classMR_1_1SurfacePointWidget.html#a7d9c8acabf47d730f83f1d17944e7462":[10,0,10,618,2],
-"classMR_1_1SurfacePointWidget.html#a7d9c8acabf47d730f83f1d17944e7462":[12,0,1,604,2]
+"classMR_1_1SurfacePointWidget.html#a7d9c8acabf47d730f83f1d17944e7462":[10,0,10,618,2]
 };

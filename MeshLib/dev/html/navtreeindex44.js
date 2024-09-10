@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"classMR_1_1detail_1_1ScopeGuard.html":[12,0,1,1,3],
 "classMR_1_1detail_1_1ScopeGuard.html#a2c51cf739e0e06d29590ee4e3d5729b0":[10,0,10,3,3,2],
 "classMR_1_1detail_1_1ScopeGuard.html#a2c51cf739e0e06d29590ee4e3d5729b0":[12,0,1,1,3,2],
 "classMR_1_1detail_1_1ScopeGuard.html#a4bb7973a1780f673131d887ccd7a99a5":[10,0,10,3,3,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "functions_vars_b.html":[12,3,2,2],
 "functions_vars_c.html":[12,3,2,3],
 "functions_vars_d.html":[12,3,2,4],
-"functions_vars_e.html":[12,3,2,5],
-"functions_vars_f.html":[12,3,2,6]
+"functions_vars_e.html":[12,3,2,5]
 };

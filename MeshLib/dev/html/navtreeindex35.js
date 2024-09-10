@@ -1,5 +1,6 @@
 var NAVTREEINDEX35 =
 {
+"classMR_1_1RibbonSceneHideAll.html":[12,0,1,517],
 "classMR_1_1RibbonSceneHideAll.html#a0def4f1bcd0f4172df41c9b8b2858f40":[10,0,10,531,2],
 "classMR_1_1RibbonSceneHideAll.html#a0def4f1bcd0f4172df41c9b8b2858f40":[12,0,1,517,2],
 "classMR_1_1RibbonSceneHideAll.html#ac9c90df48cf4b0cdc70b9024c7702297":[10,0,10,531,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX35 =
 "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261a8a3aad920f8a916d4abf44b25a86ef1e":[9,7,3,1,6],
 "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261a8ac314a210ce649b6362765e85106c2a":[9,7,3,1,10],
 "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261a9e62e749ce08f2fc8cb6437f1b409778":[9,7,3,1,2],
-"classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261aad36d169353d55602524d078a697a16b":[9,7,3,1,4],
-"classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261abaca4c96c2c2eb0beb55075d1dfb25ce":[9,7,3,1,8]
+"classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261aad36d169353d55602524d078a697a16b":[9,7,3,1,4]
 };
