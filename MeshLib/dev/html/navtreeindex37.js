@@ -1,9 +1,5 @@
 var NAVTREEINDEX37 =
 {
-"classMR_1_1ShadowsGL.html#aab09524b5ecb1b890bfb298e7ce253ab":[12,0,1,570,2],
-"classMR_1_1ShadowsGL.html#af9db8ab9dcc3eb53d435f5c2da5425f0":[10,0,10,584,9],
-"classMR_1_1ShadowsGL.html#af9db8ab9dcc3eb53d435f5c2da5425f0":[12,0,1,570,9],
-"classMR_1_1ShadowsGL.html#afbfb18c734f6d41741dcdd84a9031e95":[10,0,10,584,6],
 "classMR_1_1ShadowsGL.html#afbfb18c734f6d41741dcdd84a9031e95":[12,0,1,570,6],
 "classMR_1_1ShiftTransformer.html":[10,0,10,588],
 "classMR_1_1ShiftTransformer.html":[12,0,1,574],
@@ -249,5 +245,9 @@ var NAVTREEINDEX37 =
 "classMR_1_1SurfaceContoursWidgetClearAction.html":[12,0,1,601],
 "classMR_1_1SurfaceContoursWidgetClearAction.html#a8e76441a7d1c29f20821dea349d98cce":[10,0,10,615,2],
 "classMR_1_1SurfaceContoursWidgetClearAction.html#a8e76441a7d1c29f20821dea349d98cce":[12,0,1,601,2],
-"classMR_1_1SurfaceContoursWidgetClearAction.html#acf79643fbbf8a308570fa54dfd4f5524":[10,0,10,615,3]
+"classMR_1_1SurfaceContoursWidgetClearAction.html#acf79643fbbf8a308570fa54dfd4f5524":[10,0,10,615,3],
+"classMR_1_1SurfaceContoursWidgetClearAction.html#acf79643fbbf8a308570fa54dfd4f5524":[12,0,1,601,3],
+"classMR_1_1SurfaceContoursWidgetClearAction.html#aea7a76685894f4c174752784a2a66bfa":[10,0,10,615,1],
+"classMR_1_1SurfaceContoursWidgetClearAction.html#aea7a76685894f4c174752784a2a66bfa":[12,0,1,601,1],
+"classMR_1_1SurfaceContoursWidgetClearAction.html#af6a6830052037bbbc14826f00c0d918b":[10,0,10,615,0]
 };

@@ -1,9 +1,5 @@
 var NAVTREEINDEX73 =
 {
-"structMR_1_1SpaceMouseUpListener.html#a4b6e5ab945db3dd418f5e3d32dbd8adb":[12,0,1,589,1],
-"structMR_1_1SpaceMouseUpListener.html#aeb1221c28639fac7d66504b83874d0bc":[10,0,10,603,2],
-"structMR_1_1SpaceMouseUpListener.html#aeb1221c28639fac7d66504b83874d0bc":[12,0,1,589,2],
-"structMR_1_1SpaceMouseUpListener.html#af12bd4234d35e30789cd4a96b88bf497":[10,0,10,603,3],
 "structMR_1_1SpaceMouseUpListener.html#af12bd4234d35e30789cd4a96b88bf497":[12,0,1,589,3],
 "structMR_1_1SpacingSettings.html":[10,0,10,604],
 "structMR_1_1SpacingSettings.html":[12,0,1,590],
@@ -249,5 +245,9 @@ var NAVTREEINDEX73 =
 "structMR_1_1TiffParameters.html":[12,0,1,615],
 "structMR_1_1TiffParameters.html#a0f390427adc09ea9947004b14be21cf0":[10,0,10,629,4],
 "structMR_1_1TiffParameters.html#a0f390427adc09ea9947004b14be21cf0":[12,0,1,615,4],
-"structMR_1_1TiffParameters.html#a67cf9b6f020900773f185c934f3ade7c":[10,0,10,629,0]
+"structMR_1_1TiffParameters.html#a67cf9b6f020900773f185c934f3ade7c":[10,0,10,629,0],
+"structMR_1_1TiffParameters.html#a67cf9b6f020900773f185c934f3ade7c":[12,0,1,615,0],
+"structMR_1_1TiffParameters.html#a7e4daa97486cdcdbe24a7e3a607ae1ab":[10,0,10,629,2],
+"structMR_1_1TiffParameters.html#a7e4daa97486cdcdbe24a7e3a607ae1ab":[12,0,1,615,2],
+"structMR_1_1TiffParameters.html#ad64f46697aae94f7b2569134b2cbd954":[10,0,10,629,1]
 };

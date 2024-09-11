@@ -1,9 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"structMR_1_1MeshVoxelsConverter.html#adaab280c372f3b9aa33c9a6087199957":[10,0,10,349,3],
-"structMR_1_1MeshVoxelsConverter.html#adaab280c372f3b9aa33c9a6087199957":[12,0,1,335,3],
-"structMR_1_1MeshVoxelsConverter.html#adc6a0a341b57e23c8d707441794d45f3":[10,0,10,349,5],
-"structMR_1_1MeshVoxelsConverter.html#adc6a0a341b57e23c8d707441794d45f3":[12,0,1,335,5],
 "structMR_1_1MeshVoxelsConverter.html#ae2bf474d4a220ce2a3fef16172d2874d":[10,0,10,349,0],
 "structMR_1_1MeshVoxelsConverter.html#ae2bf474d4a220ce2a3fef16172d2874d":[12,0,1,335,0],
 "structMR_1_1MeshVoxelsConverter.html#ae9647fc22d86c2a08eeefd53f6f48961":[10,0,10,349,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX67 =
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html":[12,0,1,391],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html#af790be1acb4e05aaea55fd8ac0a82a65":[10,0,10,405,0],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html#af790be1acb4e05aaea55fd8ac0a82a65":[12,0,1,391,0],
-"structMR_1_1ObjTreeTraits.html":[10,0,10,406]
+"structMR_1_1ObjTreeTraits.html":[10,0,10,406],
+"structMR_1_1ObjTreeTraits.html":[12,0,1,392],
+"structMR_1_1ObjTreeTraits.html#a5517b355b3a51538470f957d6a23bff1":[10,0,10,406,2],
+"structMR_1_1ObjTreeTraits.html#a5517b355b3a51538470f957d6a23bff1":[12,0,1,392,2],
+"structMR_1_1ObjTreeTraits.html#a7208b3ed4cbf6a7db7c03785856d5131":[10,0,10,406,1]
 };

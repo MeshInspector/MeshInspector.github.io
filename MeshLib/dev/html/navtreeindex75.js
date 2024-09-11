@@ -1,9 +1,5 @@
 var NAVTREEINDEX75 =
 {
-"structMR_1_1TriPoint.html#ab5b9f73c3a043a47d8d279a89d744c5d":[9,0,23,1],
-"structMR_1_1TriPoint.html#ae145ad02214aefc05be85737aa1d6cca":[9,0,23,4],
-"structMR_1_1TriPoint.html#ae8d74b356735c69b3830326e6a50b451":[9,0,23,3],
-"structMR_1_1TriangleSegmentIntersectResult.html":[10,0,10,652],
 "structMR_1_1TriangleSegmentIntersectResult.html":[12,0,1,638],
 "structMR_1_1TriangleSegmentIntersectResult.html#a44ebc6eac0ba7a7421c713970a69f480":[10,0,10,652,0],
 "structMR_1_1TriangleSegmentIntersectResult.html#a44ebc6eac0ba7a7421c713970a69f480":[12,0,1,638,0],
@@ -249,5 +245,9 @@ var NAVTREEINDEX75 =
 "structMR_1_1UiRenderParams.html#ae7aebd36b4266bd1203eaf71259d12bc":[12,0,1,647,1],
 "structMR_1_1UndirectedEdgeUndirectedEdge.html":[9,1,12],
 "structMR_1_1UndirectedEdgeUndirectedEdge.html#a535f1290920a2d84945d8cc8989397c6":[9,1,12,4],
-"structMR_1_1UndirectedEdgeUndirectedEdge.html#a76340cad705f0262c4adba8d2e051524":[9,1,12,0]
+"structMR_1_1UndirectedEdgeUndirectedEdge.html#a76340cad705f0262c4adba8d2e051524":[9,1,12,0],
+"structMR_1_1UndirectedEdgeUndirectedEdge.html#a9641a6ea0b597a958c7138e6b7ed8947":[9,1,12,2],
+"structMR_1_1UndirectedEdgeUndirectedEdge.html#aaf55dde37dfa59f981e1bc41ee3ac74a":[9,1,12,3],
+"structMR_1_1UndirectedEdgeUndirectedEdge.html#afc38d24da2e811fd6d7ae9a05045b2d0":[9,1,12,1],
+"structMR_1_1UniformSamplingSettings.html":[10,0,10,664]
 };

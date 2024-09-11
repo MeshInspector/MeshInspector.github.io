@@ -1,9 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7ea558e60239d9c9c3f63fef490b85009bb":[12,0,1,2,2,3,1],
-"structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7eafd6f633ddb4b5a2220cba15cebe96b8c":[10,0,10,6,2,3,4],
-"structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7eafd6f633ddb4b5a2220cba15cebe96b8c":[12,0,1,2,2,3,4],
-"structMR_1_1Features_1_1MeasureResult.html#ae91b71d479c6bb30a6e9b3068dd1d0c2":[10,0,10,6,2,8],
 "structMR_1_1Features_1_1MeasureResult.html#ae91b71d479c6bb30a6e9b3068dd1d0c2":[12,0,1,2,2,8],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html":[10,0,10,6,2,0],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html":[12,0,1,2,2,0],
@@ -249,5 +245,9 @@ var NAVTREEINDEX61 =
 "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#a6822b43f8eb010ed7b72c8159db3f7a6":[12,0,1,3,1,2],
 "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ab5009f894a6360e076076d4379d340f2":[10,0,10,7,1,1],
 "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ab5009f894a6360e076076d4379d340f2":[12,0,1,3,1,1],
-"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#abf279ce04ebf122659affd07a95928f3":[10,0,10,7,1,3]
+"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#abf279ce04ebf122659affd07a95928f3":[10,0,10,7,1,3],
+"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#abf279ce04ebf122659affd07a95928f3":[12,0,1,3,1,3],
+"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ac0272dc3ddf798713b8395f78ed62b2e":[10,0,10,7,1,0],
+"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ac0272dc3ddf798713b8395f78ed62b2e":[12,0,1,3,1,0],
+"structMR_1_1FlowAggregator_1_1Flows.html":[10,0,10,226,0]
 };
