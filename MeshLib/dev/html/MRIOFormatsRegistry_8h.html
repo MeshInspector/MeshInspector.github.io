@@ -204,8 +204,12 @@ Macros</h2></td></tr>
 <tr class="separator:ac3df046ec9a6d60de507313aa455fb84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c227a5fd0daac1b6c0476a487456a29" id="r_a6c227a5fd0daac1b6c0476a487456a29"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c227a5fd0daac1b6c0476a487456a29">MR_ADD_IMAGE_LOADER</a>(filter,  loader)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::ImageLoad; setImageLoader( filter, loader ); };</td></tr>
 <tr class="separator:a6c227a5fd0daac1b6c0476a487456a29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac3ec0a66d16804831c833fdf201400b" id="r_aac3ec0a66d16804831c833fdf201400b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac3ec0a66d16804831c833fdf201400b">MR_ADD_IMAGE_LOADER_WITH_PRIORITY</a>(filter,  loader,  priority)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::ImageLoad; setImageLoader( filter, loader, priority ); };</td></tr>
+<tr class="separator:aac3ec0a66d16804831c833fdf201400b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ae6f7708b824cc0f04cc50452e56429" id="r_a8ae6f7708b824cc0f04cc50452e56429"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ae6f7708b824cc0f04cc50452e56429">MR_ADD_IMAGE_SAVER</a>(filter,  saver)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::ImageSave; setImageSaver( filter, saver ); };</td></tr>
 <tr class="separator:a8ae6f7708b824cc0f04cc50452e56429"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eaeb0ed574244706d577a51cf6a16a0" id="r_a1eaeb0ed574244706d577a51cf6a16a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1eaeb0ed574244706d577a51cf6a16a0">MR_ADD_IMAGE_SAVER_WITH_PRIORITY</a>(filter,  saver,  priority)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::ImageSave; setImageSaver( filter, saver, priority ); };</td></tr>
+<tr class="separator:a1eaeb0ed574244706d577a51cf6a16a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa03737162290663af43fe4e5f16c213f" id="r_aa03737162290663af43fe4e5f16c213f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa03737162290663af43fe4e5f16c213f">MR_ADD_OBJECT_LOADER</a>(filter,  loader)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::ObjectLoad; setObjectLoader( filter, loader ); };</td></tr>
 <tr class="separator:aa03737162290663af43fe4e5f16c213f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29b8cad8a954f362924dffd62b104195" id="r_a29b8cad8a954f362924dffd62b104195"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29b8cad8a954f362924dffd62b104195">MR_ADD_OBJECT_SAVER</a>(filter,  saver)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::ObjectSave; setObjectSaver( filter, saver ); };</td></tr>
@@ -291,6 +295,32 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="aac3ec0a66d16804831c833fdf201400b" name="aac3ec0a66d16804831c833fdf201400b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac3ec0a66d16804831c833fdf201400b">&#9670;&#160;</a></span>MR_ADD_IMAGE_LOADER_WITH_PRIORITY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_ADD_IMAGE_LOADER_WITH_PRIORITY</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>filter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>loader</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>priority</em></span>&#160;)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::ImageLoad; setImageLoader( filter, loader, priority ); };</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8ae6f7708b824cc0f04cc50452e56429" name="a8ae6f7708b824cc0f04cc50452e56429"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8ae6f7708b824cc0f04cc50452e56429">&#9670;&#160;</a></span>MR_ADD_IMAGE_SAVER</h2>
 
@@ -306,6 +336,32 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>saver</em></span>&#160;)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::ImageSave; setImageSaver( filter, saver ); };</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1eaeb0ed574244706d577a51cf6a16a0" name="a1eaeb0ed574244706d577a51cf6a16a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1eaeb0ed574244706d577a51cf6a16a0">&#9670;&#160;</a></span>MR_ADD_IMAGE_SAVER_WITH_PRIORITY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_ADD_IMAGE_SAVER_WITH_PRIORITY</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>filter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>saver</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>priority</em></span>&#160;)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::ImageSave; setImageSaver( filter, saver, priority ); };</td>
         </tr>
       </table>
 </div><div class="memdoc">

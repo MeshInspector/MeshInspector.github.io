@@ -8,8 +8,6 @@ var MRMesh_2MRMeshLoad_8h =
     [ "fromASCIIStl", "MRMesh_2MRMeshLoad_8h.html#ga48e8ba7fe63a7dd81cac9f267a869133", null ],
     [ "fromBinaryStl", "MRMesh_2MRMeshLoad_8h.html#ga800a25cbcfacd411f62b7c5f66035242", null ],
     [ "fromBinaryStl", "MRMesh_2MRMeshLoad_8h.html#ga08e50aacade413e567cd3bc388b51163", null ],
-    [ "fromCtm", "MRMesh_2MRMeshLoad_8h.html#gad1abe6936a08dddc898c6dd69299f2a4", null ],
-    [ "fromCtm", "MRMesh_2MRMeshLoad_8h.html#ga34e51a7b27f5301a325014d43a02c4be", null ],
     [ "fromDxf", "MRMesh_2MRMeshLoad_8h.html#ga1335c7ebd417b7e14d4a7fbec71b1e16", null ],
     [ "fromDxf", "MRMesh_2MRMeshLoad_8h.html#ga6c226ac764bb215351691358c90e3eef", null ],
     [ "fromMrmesh", "MRMesh_2MRMeshLoad_8h.html#ga0230084d7f2168e0171883198494ca0a", null ],

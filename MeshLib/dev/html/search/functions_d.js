@@ -6,7 +6,7 @@ var searchData=
   ['neighbours_3',['neighbours',['../classMR_1_1Graph.html#a39fd49331c460c5a968a62a2140d2990',1,'MR::Graph']]],
   ['newfaces_4',['NewFaces',['../classBooleanResultMapper.html#af1973cc9c43f2900140af22615728dee',1,'BooleanResultMapper']]],
   ['newfaces_5',['newFaces',['../structMR_1_1BooleanResultMapper.html#a965145c8345c2af57bdd338b3fd038b4',1,'MR::BooleanResultMapper']]],
-  ['newpage_6',['newPage',['../classMR_1_1Pdf.html#ab64de3564a5077ab69b1ec64aa17f568',1,'MR::Pdf']]],
+  ['newpage_6',['newPage',['../classMR_1_1Pdf.html#a6b4f163cd54edddf7ed416f248944a41',1,'MR::Pdf']]],
   ['next_7',['next',['../classMR_1_1MeshTopology.html#a2dad4d8d3af9888d8bd8303195aad3b9',1,'MR::MeshTopology::next()'],['../classMR_1_1PolylineTopology.html#a2f084506ce79585cbe3b2ae0a1339181',1,'MR::PolylineTopology::next()'],['../classMR_1_1NextEdgeSameOrigin.html#a1e86c0b25fbb38bc73f3e5edcda87a35',1,'MR::NextEdgeSameOrigin::next()'],['../classMR_1_1NextEdgeSameLeft.html#a0d76f45cd46c08d651d08d28d0570524',1,'MR::NextEdgeSameLeft::next()'],['../classMR_1_1ViewportId.html#a06112e6b789df5eedf5f0e31a4c21217',1,'MR::ViewportId::next()']]],
   ['nextedgesameleft_8',['NextEdgeSameLeft',['../classMR_1_1NextEdgeSameLeft.html#a7cd53c8ae9e36043c2dc5e9750efcce3',1,'MR::NextEdgeSameLeft']]],
   ['nextedgesameorigin_9',['NextEdgeSameOrigin',['../classMR_1_1NextEdgeSameOrigin.html#a473b57e8323241ba360af0221af56cff',1,'MR::NextEdgeSameOrigin']]],

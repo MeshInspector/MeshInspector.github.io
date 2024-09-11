@@ -136,7 +136,7 @@ var searchData=
   ['cloneroot_133',['cloneRoot',['../classMR_1_1SceneRootObject.html#a4ac41df7a0bcda50ea526a4a72043a7c',1,'MR::SceneRootObject']]],
   ['cloneselectedpart_134',['cloneSelectedPart',['../classMR_1_1RibbonMenu.html#ab49d948508071def5a525123250da7f8',1,'MR::RibbonMenu']]],
   ['clonetree_135',['cloneTree',['../classMR_1_1Object.html#a54eb8f6e602368572ffb27af73f87465',1,'MR::Object::cloneTree()'],['../classMR_1_1RibbonMenu.html#a7c94fe45ae2d51829d9addd732902930',1,'MR::RibbonMenu::cloneTree()']]],
-  ['close_136',['close',['../classMR_1_1File.html#a94bc33654229a7cd797fe79baac1faaa',1,'MR::File::close()'],['../classMR_1_1Pdf.html#afe044f31babdc5a00c14dd0e3c67631c',1,'MR::Pdf::close()'],['../structMR_1_1PolylineMaker.html#a6b10efd85c33f60e8896d7ce1971364f',1,'MR::PolylineMaker::close()']]],
+  ['close_136',['close',['../classMR_1_1Pdf.html#ac3425b5b1e4a31aa0bb470b4a86d6af9',1,'MR::Pdf::close()'],['../classMR_1_1File.html#a94bc33654229a7cd797fe79baac1faaa',1,'MR::File::close()'],['../structMR_1_1PolylineMaker.html#a6b10efd85c33f60e8896d7ce1971364f',1,'MR::PolylineMaker::close()']]],
   ['closecontour_137',['closeContour',['../classMR_1_1SurfaceContoursWidget.html#a8f3c2fdfac1c05154b5c5678806b312a',1,'MR::SurfaceContoursWidget']]],
   ['closestpointfor_138',['closestPointFor',['../structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a8670c18dcc3043de2c9724f9e7412b45',1,'MR::Features::MeasureResult::Distance']]],
   ['closestpointonlinesegm_139',['closestPointOnLineSegm',['../namespaceMR.html#a3499fd4f69711941f919d6cfc7789d8b',1,'MR']]],

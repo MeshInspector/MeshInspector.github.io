@@ -3,7 +3,6 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "config.h", "MRMesh_2config_8h.html", null ],
     [ "MR2DContoursTriangulation.h", "MR2DContoursTriangulation_8h.html", "MR2DContoursTriangulation_8h" ],
     [ "MR2to3.h", "MR2to3_8h.html", "MR2to3_8h" ],
-    [ "MR3MFSerializer.h", "MR3MFSerializer_8h.html", "MR3MFSerializer_8h" ],
     [ "MRAABBTree.h", "MRAABBTree_8h.html", null ],
     [ "MRAABBTreeBase.h", "MRAABBTreeBase_8h.html", "MRAABBTreeBase_8h" ],
     [ "MRAABBTreeMaker.h", "MRAABBTreeMaker_8h.html", "MRAABBTreeMaker_8h" ],
@@ -116,7 +115,6 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRGcodeLoad.h", "MRGcodeLoad_8h.html", "MRGcodeLoad_8h" ],
     [ "MRGcodeProcessor.h", "MRGcodeProcessor_8h.html", "MRGcodeProcessor_8h" ],
     [ "MRGeodesicPath.h", "MRGeodesicPath_8h.html", "MRGeodesicPath_8h" ],
-    [ "MRGltfSerializer.h", "MRGltfSerializer_8h.html", "MRGltfSerializer_8h" ],
     [ "MRGraph.h", "MRGraph_8h.html", "MRGraph_8h" ],
     [ "MRGridSampling.h", "MRMesh_2MRGridSampling_8h.html", "MRMesh_2MRGridSampling_8h" ],
     [ "MRGridSettings.h", "MRGridSettings_8h.html", "MRGridSettings_8h" ],
@@ -198,7 +196,6 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRMeshLoad.h", "MRMesh_2MRMeshLoad_8h.html", "MRMesh_2MRMeshLoad_8h" ],
     [ "MRMeshLoadObj.h", "MRMeshLoadObj_8h.html", "MRMeshLoadObj_8h" ],
     [ "MRMeshLoadSettings.h", "MRMeshLoadSettings_8h.html", "MRMeshLoadSettings_8h" ],
-    [ "MRMeshLoadStep.h", "MRMeshLoadStep_8h.html", "MRMeshLoadStep_8h" ],
     [ "MRMeshMetrics.h", "MRMesh_2MRMeshMetrics_8h.html", "MRMesh_2MRMeshMetrics_8h" ],
     [ "MRMeshNormals.h", "MRMesh_2MRMeshNormals_8h.html", "MRMesh_2MRMeshNormals_8h" ],
     [ "MRMeshOrPoints.h", "MRMesh_2MRMeshOrPoints_8h.html", "MRMesh_2MRMeshOrPoints_8h" ],
@@ -248,7 +245,6 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRParallel.h", "MRParallel_8h.html", "MRParallel_8h" ],
     [ "MRParallelFor.h", "MRParallelFor_8h.html", "MRParallelFor_8h" ],
     [ "MRPartMapping.h", "MRPartMapping_8h.html", "MRPartMapping_8h" ],
-    [ "MRPdf.h", "MRPdf_8h.html", "MRPdf_8h" ],
     [ "MRPlane3.h", "MRPlane3_8h.html", null ],
     [ "MRPlaneObject.h", "MRPlaneObject_8h.html", null ],
     [ "MRPointCloud.h", "MRMesh_2MRPointCloud_8h.html", null ],
@@ -265,7 +261,6 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRPointsComponents.h", "MRPointsComponents_8h.html", "MRPointsComponents_8h" ],
     [ "MRPointsInBall.h", "MRPointsInBall_8h.html", "MRPointsInBall_8h" ],
     [ "MRPointsLoad.h", "MRMesh_2MRPointsLoad_8h.html", "MRMesh_2MRPointsLoad_8h" ],
-    [ "MRPointsLoadE57.h", "MRPointsLoadE57_8h.html", "MRPointsLoadE57_8h" ],
     [ "MRPointsLoadSettings.h", "MRPointsLoadSettings_8h.html", "MRPointsLoadSettings_8h" ],
     [ "MRPointsProject.h", "MRPointsProject_8h.html", "MRPointsProject_8h" ],
     [ "MRPointsSave.h", "MRMesh_2MRPointsSave_8h.html", "MRMesh_2MRPointsSave_8h" ],
@@ -371,6 +366,5 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRWatershedGraph.h", "MRWatershedGraph_8h.html", "MRWatershedGraph_8h" ],
     [ "MRWriter.h", "MRWriter_8h.html", "MRWriter_8h" ],
     [ "MRXfBasedCache.h", "MRXfBasedCache_8h.html", null ],
-    [ "MRZip.h", "MRZip_8h.html", "MRZip_8h" ],
-    [ "MRZlib.h", "MRZlib_8h.html", "MRZlib_8h" ]
+    [ "MRZip.h", "MRZip_8h.html", "MRZip_8h" ]
 ];
