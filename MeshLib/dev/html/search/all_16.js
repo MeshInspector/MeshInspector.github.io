@@ -104,7 +104,7 @@ var searchData=
   ['tilerange_101',['TileRange',['../classMR_1_1RangeProcessor.html#aacabc4dd991973de630296736bc8cf00',1,'MR::RangeProcessor::TileRange'],['../classMR_1_1RangeProcessorSingle.html#a6bdb6524924805af1844ae7278708c3f',1,'MR::RangeProcessorSingle::TileRange']]],
   ['tiles_102',['Tiles',['../classMR_1_1RangeProgress.html#aa39d9c285d46ac3ce70aea92db6f9bf2aa67f2c9d056f29b94521c17b838b9756',1,'MR::RangeProgress']]],
   ['tilesize_103',['tileSize',['../structMR_1_1TiffParameters.html#a0f390427adc09ea9947004b14be21cf0',1,'MR::TiffParameters']]],
-  ['time_104',['Time',['../namespaceMR.html#a200de30e6095463279bfb030e610864b',1,'MR']]],
+  ['time_104',['Time',['../namespaceMR.html#a200de30e6095463279bfb030e610864b',1,'MR::Time'],['../namespaceMR.html#a3ccf27858d11d72a88bdbaf6e9d2b05daa76d4ef5f3f6a672bbfab2865563e530',1,'MR::Time']]],
   ['time_105',['time',['../structMR_1_1SimpleTimeRecord.html#a783bd5b3455191ffcbf6c59363d9e81e',1,'MR::SimpleTimeRecord']]],
   ['timer_106',['Timer',['../classMR_1_1Timer.html',1,'MR::Timer'],['../classMR_1_1Timer.html#ae80a6af65498d28b69104f6cba5dae47',1,'MR::Timer::Timer(std::string name)'],['../classMR_1_1Timer.html#a553683f7d466d5b7fb678541b729b8d7',1,'MR::Timer::Timer(const Timer &amp;)=delete'],['../classMR_1_1Timer.html#ac663a305ea77099e4a39bed149100061',1,'MR::Timer::Timer(Timer &amp;&amp;)=delete']]],
   ['timerecord_107',['TimeRecord',['../structMR_1_1TimeRecord.html',1,'MR']]],

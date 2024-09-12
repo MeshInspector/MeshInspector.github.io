@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"classMR_1_1AABBTreePoints.html#a0423d1153871df30826966748ac710a8":[9,1,6,11],
 "classMR_1_1AABBTreePoints.html#a067a3df7f5d829eb589583ac6cd370b4":[9,1,6,15],
 "classMR_1_1AABBTreePoints.html#a0f0edac8d95fa30b01aeb66950911da9":[9,1,6,14],
 "classMR_1_1AABBTreePoints.html#a1a8a3bec838147878ea5d896d024d881":[9,1,6,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "classMR_1_1BoundarySelectionWidget.html#a796e4b16dbeedd9624f6ac7faaf7fd93":[10,0,10,81,16],
 "classMR_1_1BoundarySelectionWidget.html#a796e4b16dbeedd9624f6ac7faaf7fd93":[12,0,1,67,16],
 "classMR_1_1BoundarySelectionWidget.html#a99966598c20038beae6a6b9c3fdb146d":[10,0,10,81,1],
-"classMR_1_1BoundarySelectionWidget.html#a99966598c20038beae6a6b9c3fdb146d":[12,0,1,67,1],
-"classMR_1_1BoundarySelectionWidget.html#a9e3aafe476e30d362b2b0070a6ce21c6":[10,0,10,81,3]
+"classMR_1_1BoundarySelectionWidget.html#a99966598c20038beae6a6b9c3fdb146d":[12,0,1,67,1]
 };

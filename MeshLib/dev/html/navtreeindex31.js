@@ -1,5 +1,6 @@
 var NAVTREEINDEX31 =
 {
+"classMR_1_1PolylineTopology.html#a3ec7d95cc6120617767536b8705d3ee6":[9,14,2,19],
 "classMR_1_1PolylineTopology.html#a447fd988db6a06ad5dc3f52599bf4924":[9,14,2,46],
 "classMR_1_1PolylineTopology.html#a45f9c4c6c22c11a8dc7eae9eefc3e265":[9,14,2,30],
 "classMR_1_1PolylineTopology.html#a5005a1cdb9c4df70f91b51b0813ecd68":[9,14,2,31],
@@ -248,6 +249,5 @@ var NAVTREEINDEX31 =
 "classMR_1_1RangeProgress.html":[10,0,10,491],
 "classMR_1_1RangeProgress.html":[12,0,1,477],
 "classMR_1_1RangeProgress.html#a991fa7ee78ee9b1a15c198de60ee6c99":[10,0,10,491,3],
-"classMR_1_1RangeProgress.html#a991fa7ee78ee9b1a15c198de60ee6c99":[12,0,1,477,3],
-"classMR_1_1RangeProgress.html#a9c5219708895771c264ae1e50fca117e":[10,0,10,491,2]
+"classMR_1_1RangeProgress.html#a991fa7ee78ee9b1a15c198de60ee6c99":[12,0,1,477,3]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1FreeFormDeformer.html#a67a9d505c4e2e468dca550114f4b0d64":[12,0,1,219,6],
 "classMR_1_1FreeFormDeformer.html#a7a81500a2480e88b10ef96f66acd43a8":[10,0,10,233,4],
 "classMR_1_1FreeFormDeformer.html#a7a81500a2480e88b10ef96f66acd43a8":[12,0,1,219,4],
 "classMR_1_1FreeFormDeformer.html#a7e3863c32a8e249beebe6248069b2dda":[10,0,10,233,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1Histogram.html#a46da7c1b719682c2e39bfb89ee04eca3":[9,0,16,8],
 "classMR_1_1Histogram.html#a489a0a4c59abc3a2d4a5b3382fd7e4b3":[9,0,16,6],
 "classMR_1_1Histogram.html#a77d44fead356e682cf2c30805722b59c":[9,0,16,5],
-"classMR_1_1Histogram.html#a827e85fc6dbb381db1ecdd86cc85efc8":[9,0,16,7],
-"classMR_1_1Histogram.html#a9987d6f205ec5eb085631e1d45e333b7":[9,0,16,1]
+"classMR_1_1Histogram.html#a827e85fc6dbb381db1ecdd86cc85efc8":[9,0,16,7]
 };

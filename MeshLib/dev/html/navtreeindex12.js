@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"MRUIStyle_8h.html#a797ee2107c897bf2d084fede574e062b":[13,0,0,2,10,116,45],
 "MRUIStyle_8h.html#a7ce97f5be533c3522d66cb2fbfaf250f":[13,0,0,2,10,116,72],
 "MRUIStyle_8h.html#a7ede0f8f76cc959c7be6cb81ee9174f8":[13,0,0,2,10,116,68],
 "MRUIStyle_8h.html#a820aa2a94b65ad7536194e8527f89a12":[13,0,0,2,10,116,37],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "MRVolumeInterpolation_8h.html":[13,0,0,2,11,26],
 "MRVolumeInterpolation_8h.html#a9de90c7fed2fd1b9436648e9f61a484d":[13,0,0,2,11,26,1],
 "MRVolumeInterpolation_8h_source.html":[13,0,0,2,11,26],
-"MRVolumeSegment_8h.html":[13,0,0,2,11,27],
-"MRVolumeSegment_8h_source.html":[13,0,0,2,11,27]
+"MRVolumeSegment_8h.html":[13,0,0,2,11,27]
 };

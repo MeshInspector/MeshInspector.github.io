@@ -16,7 +16,6 @@ var classMR_1_1RibbonMenu =
     [ "drawGroupUngroupButton", "classMR_1_1RibbonMenu.html#a1cf2af4dc1d82b20087764071b206770", null ],
     [ "drawItemDialog_", "classMR_1_1RibbonMenu.html#a842d003c447ddd1af577f4cb2ffb9021", null ],
     [ "drawItemsGroup_", "classMR_1_1RibbonMenu.html#aa55c3fbd9f75acc5b51ecba5402c8fb6", null ],
-    [ "drawLastOperationTimeWindow_", "classMR_1_1RibbonMenu.html#ab8168d6ce9577419cb8dd35e24977819", null ],
     [ "drawRibbonSceneInformation_", "classMR_1_1RibbonMenu.html#a6fc2094b16a4d78ed17836196ae98439", null ],
     [ "drawRibbonSceneList_", "classMR_1_1RibbonMenu.html#ae5c7eee292020a3a3252fef4b98278c5", null ],
     [ "drawRibbonSceneResizeLine_", "classMR_1_1RibbonMenu.html#a99c15fc2adc0e0b9ec601cedaa53dc4b", null ],

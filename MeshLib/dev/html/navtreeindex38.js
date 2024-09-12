@@ -1,6 +1,5 @@
 var NAVTREEINDEX38 =
 {
-"classMR_1_1SurfaceContoursWidgetClearAction.html#af6a6830052037bbbc14826f00c0d918b":[12,0,1,601,0],
 "classMR_1_1SurfaceDistanceBuilder.html":[9,16,2,1],
 "classMR_1_1SurfaceDistanceBuilder.html#a1e5bc477a09b77b99e2ad82ac95adc91":[9,16,2,1,3],
 "classMR_1_1SurfaceDistanceBuilder.html#a2c536dc87c144291b79132239fe4d967":[9,16,2,1,7],
@@ -249,5 +248,6 @@ var NAVTREEINDEX38 =
 "classMR_1_1TransformControls.html#a07676f9267cb76aea3e3ae26ca04494c":[12,0,1,636,5],
 "classMR_1_1TransformControls.html#a3a7df5875b5301404b9e5d70f327b3ae":[10,0,10,650,6],
 "classMR_1_1TransformControls.html#a3a7df5875b5301404b9e5d70f327b3ae":[12,0,1,636,6],
-"classMR_1_1TransformControls.html#a40e18d7c493840cc01d3164d427a66bb":[10,0,10,650,2]
+"classMR_1_1TransformControls.html#a40e18d7c493840cc01d3164d427a66bb":[10,0,10,650,2],
+"classMR_1_1TransformControls.html#a40e18d7c493840cc01d3164d427a66bb":[12,0,1,636,2]
 };

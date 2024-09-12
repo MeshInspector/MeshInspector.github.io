@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"MRVolumeSegment_8h_source.html":[13,0,0,2,11,27],
 "MRVolumeShader_8h.html":[13,0,0,2,10,133],
 "MRVolumeShader_8h.html#a3e9889db672284199460d483317d72a2":[13,0,0,2,10,133,0],
 "MRVolumeShader_8h.html#a5a4a33e29777a43598f7c8536ddd3b5f":[13,0,0,2,10,133,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "classMR_1_1AABBTreeObjects.html#ac03ebfddd0d44b67e900401b14ab8510":[9,1,5,1],
 "classMR_1_1AABBTreeObjects.html#ace976de99f292fc7409294bee7c05658":[9,1,5,3],
 "classMR_1_1AABBTreePoints.html":[9,1,6],
-"classMR_1_1AABBTreePoints.html#a00cc491c7e366a8a33115d69e567c898":[9,1,6,3],
-"classMR_1_1AABBTreePoints.html#a0423d1153871df30826966748ac710a8":[9,1,6,11]
+"classMR_1_1AABBTreePoints.html#a00cc491c7e366a8a33115d69e567c898":[9,1,6,3]
 };
