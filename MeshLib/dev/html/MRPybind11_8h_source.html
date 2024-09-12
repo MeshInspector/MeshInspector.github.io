@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib: Member List</title>
+<title>MeshLib: MRPybind11.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -78,7 +78,7 @@ $(function() { codefold.init(0); });
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('classPythonStreamRedirector.html',''); initResizable(true); });
+$(function(){initNavTree('MRPybind11_8h_source.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -104,20 +104,37 @@ $(function(){initNavTree('classPythonStreamRedirector.html',''); initResizable(t
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">PythonStreamRedirector&lt; T &gt; Member List</div></div>
+  <div class="headertitle"><div class="title">MRPybind11.h</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p>This is the complete list of members for <a class="el" href="classPythonStreamRedirector.html">PythonStreamRedirector&lt; T &gt;</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classPythonStreamRedirector.html#a46dc140b9465c325ad8144ccf3ea0d70">flush</a>()</td><td class="entry"><a class="el" href="classPythonStreamRedirector.html">PythonStreamRedirector&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classPythonStreamRedirector.html#a0c9234c1f59d79b896e2a639758443d7">getNumWritten</a>()</td><td class="entry"><a class="el" href="classPythonStreamRedirector.html">PythonStreamRedirector&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classPythonStreamRedirector.html#aed4fdb47ff4d02fe070e63c1df8af487">write</a>(const std::string &amp;text)</td><td class="entry"><a class="el" href="classPythonStreamRedirector.html">PythonStreamRedirector&lt; T &gt;</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<a href="MRPybind11_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;MRPch/MRSuppressWarning.h&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>MR_SUPPRESS_WARNING_PUSH</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#if defined( __clang__ )</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#pragma clang diagnostic ignored &quot;-Wgnu-zero-variadic-macro-arguments&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#if defined( _MSC_VER )</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#pragma warning( disable: 4100 ) </span><span class="comment">// &#39;_unused_op&#39;: unreferenced formal parameter</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#pragma warning( disable: 4189 ) </span><span class="comment">// &#39;has_args&#39;: local variable is initialized but not referenced</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#pragma warning( disable: 4191 ) </span><span class="comment">// &#39;reinterpret_cast&#39;: unsafe conversion from &#39;PyObject *(__cdecl *)(PyObject *,PyObject *,PyObject *)&#39; to &#39;void (__cdecl *)(void)&#39;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#pragma warning( disable: 4355 ) </span><span class="comment">// &#39;this&#39;: used in base member initializer list</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#pragma warning( disable: 4464 ) </span><span class="comment">// relative include path contains &#39;..&#39;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &lt;pybind11/pybind11.h&gt;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &lt;pybind11/operators.h&gt;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;pybind11/stl_bind.h&gt;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &lt;pybind11/numpy.h&gt;</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>MR_SUPPRESS_WARNING_POP</div>
+</div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_c97642f483605d674dddd451db5b5449.html">MRPython</a></li><li class="navelem"><a class="el" href="MRPybind11_8h.html">MRPybind11.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

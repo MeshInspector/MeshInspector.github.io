@@ -1,5 +1,8 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1ZeroOnMove.html#a1eb512d1aea6742b0d8392f71ce425a2":[10,0,10,724,2],
+"structMR_1_1ZeroOnMove.html#a1eb512d1aea6742b0d8392f71ce425a2":[12,0,1,710,2],
+"structMR_1_1ZeroOnMove.html#a2a13927970e03bd552e6ba6241206a15":[10,0,10,724,5],
 "structMR_1_1ZeroOnMove.html#a2a13927970e03bd552e6ba6241206a15":[12,0,1,710,5],
 "structMR_1_1ZeroOnMove.html#a51e46bdba8b867ecd3c48d42a29c6aac":[10,0,10,724,4],
 "structMR_1_1ZeroOnMove.html#a51e46bdba8b867ecd3c48d42a29c6aac":[12,0,1,710,4],

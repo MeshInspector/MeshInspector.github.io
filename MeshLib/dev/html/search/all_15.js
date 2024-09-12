@@ -496,7 +496,7 @@ var searchData=
   ['settrasformmodifiercb_493',['setTrasformModifierCb',['../classMR_1_1MouseController.html#aad7e4bd9f3d1de6069e852940644b5e9',1,'MR::MouseController::setTrasformModifierCb()'],['../classMR_1_1TouchesController.html#ae56f9f544af1474b71a68848efdbe18c',1,'MR::TouchesController::setTrasformModifierCb()']]],
   ['setuinamedeferred_494',['setUINameDeferred',['../classMR_1_1StateBasePlugin.html#aece4337b828ba341da5ea80dc8f35d49',1,'MR::StateBasePlugin']]],
   ['setup_495',['setup',['../classMR_1_1ProgressBar.html#adc4f66889e538a9abf42689028f649c8',1,'MR::ProgressBar']]],
-  ['setupargv_496',['setupArgv',['../classMR_1_1EmbeddedPython.html#a7d23161946b618a80a0765bb30c7f27d',1,'MR::EmbeddedPython']]],
+  ['setupargv_496',['setupArgv',['../classMR_1_1EmbeddedPython.html#a3b9e801e96841c642f680933e2686f42',1,'MR::EmbeddedPython']]],
   ['setupbaseplugins_497',['setupBasePlugins',['../classMR_1_1ViewerSetup.html#a68075c17440a99ede74249da2ff6ecd9',1,'MR::ViewerSetup']]],
   ['setupbytypename_498',['setupByTypeName',['../classMR_1_1ColorTheme.html#a6c591711ec8a5d41cd5e3c037a795c24',1,'MR::ColorTheme']]],
   ['setupcommonmodifiers_499',['setupCommonModifiers',['../classMR_1_1ViewerSetup.html#a66bb762d87286ae7b094f6a59bb96aec',1,'MR::ViewerSetup']]],
