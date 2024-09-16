@@ -61,7 +61,7 @@ var searchData=
   ['pointsfromeigen_58',['pointsFromEigen',['../group__MeshEigenGroup.html#ga62bfd766666c0d5eeb73faa3bee1735d',1,'MR']]],
   ['pointsgridsampling_59',['pointsGridSampling',['../classMR_1_1MeshOrPoints.html#aa0eded9546a4d5a192d0222adb7ebc21',1,'MR::MeshOrPoints']]],
   ['pointstodistancefunctionvolume_60',['pointsToDistanceFunctionVolume',['../namespaceMR.html#a2a68dc1cf487d20d55f20f536c2dedfc',1,'MR']]],
-  ['pointstodistancevolume_61',['pointsToDistanceVolume',['../namespaceMR_1_1Cuda.html#a52a9c2fbe17335370c2f613e283723d3',1,'MR::Cuda::pointsToDistanceVolume()'],['../namespaceMR.html#a4924b85972ee04b7df75da333d851117',1,'MR::pointsToDistanceVolume(const PointCloud &amp;cloud, const PointsToDistanceVolumeParams &amp;params)']]],
+  ['pointstodistancevolume_61',['pointsToDistanceVolume',['../namespaceMR_1_1Cuda.html#a76d46e2388018a2bca5a72dfaefd30e9',1,'MR::Cuda::pointsToDistanceVolume()'],['../namespaceMR.html#a4924b85972ee04b7df75da333d851117',1,'MR::pointsToDistanceVolume(const PointCloud &amp;cloud, const PointsToDistanceVolumeParams &amp;params)']]],
   ['pointstomeshfusion_62',['pointsToMeshFusion',['../namespaceMR.html#abbc1adfce73c26127f80973b21afcbf4',1,'MR']]],
   ['pointstomeshprojector_63',['PointsToMeshProjector',['../classMR_1_1Cuda_1_1PointsToMeshProjector.html#ac217c2f9f716d994aa1c0ab98369dc95',1,'MR::Cuda::PointsToMeshProjector']]],
   ['pointuniformsampling_64',['pointUniformSampling',['../group__PointCloudGroup.html#ga1d42cd6fcda63ebaac2da831b5d85d72',1,'MR']]],

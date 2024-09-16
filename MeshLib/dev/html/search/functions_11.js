@@ -109,7 +109,7 @@ var searchData=
   ['resampled_106',['resampled',['../group__BasicStructuresGroup.html#ga1ca037d5840cb55f43edc7af7164ee53',1,'MR::resampled(const FloatGrid &amp;grid, float voxelScale, ProgressCallback cb={})'],['../group__BasicStructuresGroup.html#ga7d757a1fbd48e0e4c6268f3637ba631c',1,'MR::resampled(const FloatGrid &amp;grid, const Vector3f &amp;voxelScale, ProgressCallback cb={})']]],
   ['resamplepoints_107',['ResamplePoints',['../classMultiwayICP.html#afaf16621595b816afed6daacb43de1c4',1,'MultiwayICP']]],
   ['resamplepoints_108',['resamplePoints',['../classMR_1_1MultiwayICP.html#afab250201279bb04e86b137138ef54de',1,'MR::MultiwayICP']]],
-  ['resamplevolumebyinterpolation_109',['resampleVolumeByInterpolation',['../namespaceMR.html#a9de90c7fed2fd1b9436648e9f61a484d',1,'MR']]],
+  ['resamplevolumebyinterpolation_109',['resampleVolumeByInterpolation',['../namespaceMR.html#aca1f6e889fadd4d30603c3cffcf9a930',1,'MR']]],
   ['rescalestyle_5f_110',['rescaleStyle_',['../classMR_1_1ImGuiMenu.html#a76cda98d1dc4caae438ec0501f7bde8f',1,'MR::ImGuiMenu']]],
   ['reserve_111',['reserve',['../classMR_1_1MeshBuilder_1_1VertexIdentifier.html#aa4fad50a7e105fa74961ca6cc97e2818',1,'MR::MeshBuilder::VertexIdentifier::reserve()'],['../classMR_1_1Vector.html#a74f2d276465f6183ec4068d124cbb596',1,'MR::Vector::reserve()']]],
   ['reservekeyevent_112',['reserveKeyEvent',['../namespaceMR.html#a9cab0079b5bdf8b5ebb5ba774cd76b62',1,'MR']]],

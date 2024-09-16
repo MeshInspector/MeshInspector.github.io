@@ -11,7 +11,7 @@ var classMR_1_1ObjectVoxels =
     [ "applyScale", "classMR_1_1ObjectVoxels.html#afcc452d7af81256782737daa253d27f8", null ],
     [ "clone", "classMR_1_1ObjectVoxels.html#a224d80aaee530a620181296ca8a114a1", null ],
     [ "construct", "classMR_1_1ObjectVoxels.html#af617497bd9654723e6d05d5b12ec552c", null ],
-    [ "construct", "classMR_1_1ObjectVoxels.html#a5d8754765686d454dde9d50cb91ae127", null ],
+    [ "construct", "classMR_1_1ObjectVoxels.html#a7a5f6c96cc32517b0bd6378a87b60fce", null ],
     [ "construct", "classMR_1_1ObjectVoxels.html#a17c4c008249a4a7317eb7771e3c98d17", null ],
     [ "deserializeFields_", "classMR_1_1ObjectVoxels.html#a2e7884eb663e4b1c43c6207525dee0c4", null ],
     [ "deserializeModel_", "classMR_1_1ObjectVoxels.html#a890aad50122ad07a9d559ebc409f6b95", null ],

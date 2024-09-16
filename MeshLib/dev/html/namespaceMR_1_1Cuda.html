@@ -136,9 +136,9 @@ Functions</h2></td></tr>
 <tr class="memitem:af438ea6400ea4dd6e587a9208a7ab4af" id="r_af438ea6400ea4dd6e587a9208a7ab4af"><td class="memItemLeft" align="right" valign="top">MRCUDA_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af438ea6400ea4dd6e587a9208a7ab4af">computeDistanceMapHeapBytes</a> (const <a class="el" href="structMR_1_1Mesh.html">MR::Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a> &amp;params, bool needOutSamples=false)</td></tr>
 <tr class="memdesc:af438ea6400ea4dd6e587a9208a7ab4af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes memory consumption of computeDistanceMap function.  <br /></td></tr>
 <tr class="separator:af438ea6400ea4dd6e587a9208a7ab4af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52a9c2fbe17335370c2f613e283723d3" id="r_a52a9c2fbe17335370c2f613e283723d3"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; MR::SimpleVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52a9c2fbe17335370c2f613e283723d3">pointsToDistanceVolume</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a> &amp;params)</td></tr>
-<tr class="memdesc:a52a9c2fbe17335370c2f613e283723d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes SimpleVolume filled with signed distances to points with normals  <br /></td></tr>
-<tr class="separator:a52a9c2fbe17335370c2f613e283723d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76d46e2388018a2bca5a72dfaefd30e9" id="r_a76d46e2388018a2bca5a72dfaefd30e9"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; MR::SimpleVolumeMinMax &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76d46e2388018a2bca5a72dfaefd30e9">pointsToDistanceVolume</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a> &amp;params)</td></tr>
+<tr class="memdesc:a76d46e2388018a2bca5a72dfaefd30e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes SimpleVolume filled with signed distances to points with normals  <br /></td></tr>
+<tr class="separator:a76d46e2388018a2bca5a72dfaefd30e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5f9490f820c7e7eb708e516e58d6e5a" id="r_ab5f9490f820c7e7eb708e516e58d6e5a"><td class="memItemLeft" align="right" valign="top">MRCUDA_API VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5f9490f820c7e7eb708e516e58d6e5a">computeSkyViewFactor</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;terrain, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a878eac68379c976f3beccad6d2b6af41">VertCoords</a> &amp;samples, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp;validSamples, const std::vector&lt; <a class="el" href="structMR_1_1SkyPatch.html">MR::SkyPatch</a> &gt; &amp;skyPatches, <a class="el" href="classMR_1_1BitSet.html">BitSet</a> *outSkyRays=nullptr, std::vector&lt; <a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a> &gt; *outIntersections=nullptr)</td></tr>
 <tr class="separator:ab5f9490f820c7e7eb708e516e58d6e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af763aea7896baa102ab7715278d93231" id="r_af763aea7896baa102ab7715278d93231"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af763aea7896baa102ab7715278d93231">findSkyRays</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;terrain, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a878eac68379c976f3beccad6d2b6af41">VertCoords</a> &amp;samples, const <a class="el" href="MRDotNet_2MRMeshFwd_8h.html#a7888887dc0b0d73170e87de8b5e7c35f">VertBitSet</a> &amp;validSamples, const std::vector&lt; <a class="el" href="structMR_1_1SkyPatch.html">MR::SkyPatch</a> &gt; &amp;skyPatches, std::vector&lt; <a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a> &gt; *outIntersections=nullptr)</td></tr>
@@ -425,14 +425,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a52a9c2fbe17335370c2f613e283723d3" name="a52a9c2fbe17335370c2f613e283723d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52a9c2fbe17335370c2f613e283723d3">&#9670;&#160;</a></span>pointsToDistanceVolume()</h2>
+<a id="a76d46e2388018a2bca5a72dfaefd30e9" name="a76d46e2388018a2bca5a72dfaefd30e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76d46e2388018a2bca5a72dfaefd30e9">&#9670;&#160;</a></span>pointsToDistanceVolume()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; MR::SimpleVolume &gt; MR::Cuda::pointsToDistanceVolume </td>
+          <td class="memname">MRCUDA_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; MR::SimpleVolumeMinMax &gt; MR::Cuda::pointsToDistanceVolume </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
         </tr>

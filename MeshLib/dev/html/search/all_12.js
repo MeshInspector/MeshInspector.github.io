@@ -194,7 +194,7 @@ var searchData=
   ['pointsstreamloader_191',['PointsStreamLoader',['../namespaceMR_1_1PointsLoad.html#a0f81139db68679c906d09ff033071478',1,'MR::PointsLoad']]],
   ['pointsstreamsaver_192',['PointsStreamSaver',['../namespaceMR_1_1PointsSave.html#a1c0d45a07ed1828ee0d1190c6ca69cab',1,'MR::PointsSave']]],
   ['pointstodistancefunctionvolume_193',['pointsToDistanceFunctionVolume',['../namespaceMR.html#a2a68dc1cf487d20d55f20f536c2dedfc',1,'MR']]],
-  ['pointstodistancevolume_194',['pointsToDistanceVolume',['../namespaceMR_1_1Cuda.html#a52a9c2fbe17335370c2f613e283723d3',1,'MR::Cuda::pointsToDistanceVolume()'],['../namespaceMR.html#a4924b85972ee04b7df75da333d851117',1,'MR::pointsToDistanceVolume(const PointCloud &amp;cloud, const PointsToDistanceVolumeParams &amp;params)']]],
+  ['pointstodistancevolume_194',['pointsToDistanceVolume',['../namespaceMR_1_1Cuda.html#a76d46e2388018a2bca5a72dfaefd30e9',1,'MR::Cuda::pointsToDistanceVolume()'],['../namespaceMR.html#a4924b85972ee04b7df75da333d851117',1,'MR::pointsToDistanceVolume(const PointCloud &amp;cloud, const PointsToDistanceVolumeParams &amp;params)']]],
   ['pointstodistancevolumeparams_195',['PointsToDistanceVolumeParams',['../structMR_1_1PointsToDistanceVolumeParams.html',1,'MR']]],
   ['pointstomeshfusion_196',['pointsToMeshFusion',['../namespaceMR.html#abbc1adfce73c26127f80973b21afcbf4',1,'MR']]],
   ['pointstomeshparameters_197',['PointsToMeshParameters',['../structMR_1_1PointsToMeshParameters.html',1,'MR']]],
