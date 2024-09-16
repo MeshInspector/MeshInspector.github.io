@@ -576,6 +576,7 @@ var annotated_dup =
       [ "OpenFilesMenuItem", "classMR_1_1OpenFilesMenuItem.html", "classMR_1_1OpenFilesMenuItem" ],
       [ "OpenRawVoxelsPlugin", "classMR_1_1OpenRawVoxelsPlugin.html", "classMR_1_1OpenRawVoxelsPlugin" ],
       [ "OpenVdbFloatGrid", "structMR_1_1OpenVdbFloatGrid.html", "structMR_1_1OpenVdbFloatGrid" ],
+      [ "OriginAndDimensions", "structMR_1_1OriginAndDimensions.html", "structMR_1_1OriginAndDimensions" ],
       [ "OutputFlows", "structMR_1_1OutputFlows.html", "structMR_1_1OutputFlows" ],
       [ "overloaded", "structMR_1_1overloaded.html", null ],
       [ "PackMapping", "structMR_1_1PackMapping.html", "structMR_1_1PackMapping" ],

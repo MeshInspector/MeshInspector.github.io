@@ -1,5 +1,8 @@
 var NAVTREEINDEX6 =
 {
+"MRMeshC_2MRVector3_8h.html#ad180dcf04db8bfb6d619ea0293e6c4ee":[13,0,0,2,5,32,2],
+"MRMeshC_2MRVector3_8h_source.html":[13,0,0,2,5,32],
+"MRMeshC_2MRVector_8h.html":[13,0,0,2,5,31],
 "MRMeshC_2MRVector_8h.html#a22ff9fe4fab07c02b4988282c02e3baa":[13,0,0,2,5,31,2],
 "MRMeshC_2MRVector_8h.html#a2a277a2a23fb4c147f093ae8aa230ff7":[13,0,0,2,5,31,1],
 "MRMeshC_2MRVector_8h.html#a91df831116f8cdefa045d03191d5c198":[13,0,0,2,5,31,0],
@@ -99,13 +102,13 @@ var NAVTREEINDEX6 =
 "MRMeshThickness_8h.html#a7b7d6d6c842d2b1470c87e1a28ee7b07":[13,0,0,2,4,208,8],
 "MRMeshThickness_8h.html#afd74f9f75fe9d97b4aa208e3fa498301":[13,0,0,2,4,208,7],
 "MRMeshThickness_8h_source.html":[13,0,0,2,4,208],
-"MRMeshToDistanceVolume_8h.html":[13,0,0,2,12,10],
-"MRMeshToDistanceVolume_8h.html#a015f66374f3ac5fc14877983f1f92dc0":[13,0,0,2,12,10,7],
-"MRMeshToDistanceVolume_8h.html#a0881c9db1d64ea887897e2e1b1d59c3c":[13,0,0,2,12,10,6],
-"MRMeshToDistanceVolume_8h.html#a36f536cd57f4ad8bba63cb1dfd9c495f":[13,0,0,2,12,10,3],
-"MRMeshToDistanceVolume_8h.html#a6c156388dac5c49acedd469aa1f5cc6e":[13,0,0,2,12,10,5],
-"MRMeshToDistanceVolume_8h.html#af1bc45c8ef67b4fbb4dd8a1598d8b38d":[13,0,0,2,12,10,4],
-"MRMeshToDistanceVolume_8h_source.html":[13,0,0,2,12,10],
+"MRMeshToDistanceVolume_8h.html":[13,0,0,2,12,11],
+"MRMeshToDistanceVolume_8h.html#a015f66374f3ac5fc14877983f1f92dc0":[13,0,0,2,12,11,7],
+"MRMeshToDistanceVolume_8h.html#a0881c9db1d64ea887897e2e1b1d59c3c":[13,0,0,2,12,11,6],
+"MRMeshToDistanceVolume_8h.html#a36f536cd57f4ad8bba63cb1dfd9c495f":[13,0,0,2,12,11,3],
+"MRMeshToDistanceVolume_8h.html#a6c156388dac5c49acedd469aa1f5cc6e":[13,0,0,2,12,11,5],
+"MRMeshToDistanceVolume_8h.html#af1bc45c8ef67b4fbb4dd8a1598d8b38d":[13,0,0,2,12,11,4],
+"MRMeshToDistanceVolume_8h_source.html":[13,0,0,2,12,11],
 "MRMeshToPointCloud_8h.html":[13,0,0,2,4,209],
 "MRMeshToPointCloud_8h_source.html":[13,0,0,2,4,209],
 "MRMeshTrimWithPlane_8h.html":[13,0,0,2,4,211],
@@ -246,8 +249,5 @@ var NAVTREEINDEX6 =
 "MRMesh_2MRMeshFwd_8h.html#a411f342f0faf2e8fd25230d9f676b5d9":[13,0,0,2,4,190,10],
 "MRMesh_2MRMeshFwd_8h.html#a41a112b3a69975c9108ef8cc1ab480b2":[13,0,0,2,4,190,97],
 "MRMesh_2MRMeshFwd_8h.html#a450ae4b2d186582761e1351ce75c8ee0":[13,0,0,2,4,190,81],
-"MRMesh_2MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a":[13,0,0,2,4,190,5],
-"MRMesh_2MRMeshFwd_8h.html#a49165bcb87a59752b8f02f19ea7f2424":[13,0,0,2,4,190,147],
-"MRMesh_2MRMeshFwd_8h.html#a4bcf38e9e8de19979ccfe5e3eab1967b":[13,0,0,2,4,190,16],
-"MRMesh_2MRMeshFwd_8h.html#a4e70bdb857b2a4beb1d18fc4bfc9f3a2":[13,0,0,2,4,190,106]
+"MRMesh_2MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a":[13,0,0,2,4,190,5]
 };

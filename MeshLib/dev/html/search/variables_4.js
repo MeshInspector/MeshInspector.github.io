@@ -29,7 +29,7 @@ var searchData=
   ['diameter_26',['diameter',['../MRObjectDimensionsEnum_8h.html#a7cb80fe4cd457e0d0e931c0ade82101c',1,'MRObjectDimensionsEnum.h']]],
   ['diffusecolor_27',['diffuseColor',['../group__MeshLoadObjGroup.html#ga24c0d1fb11f0d559f180bff7fc3fc188',1,'MR::MeshLoad::NamedMesh']]],
   ['dim_28',['dim',['../structMR_1_1GridSettings.html#a079676e2ac1f95a1b11ecb8b7f0042aa',1,'MR::GridSettings']]],
-  ['dimensions_29',['dimensions',['../structMR_1_1DistanceVolumeParams.html#ade7c79fd5b25f3a928fa747f8e6d61d2',1,'MR::DistanceVolumeParams::dimensions'],['../structMR_1_1VoxelsLoad_1_1RawParameters.html#ab1db96ec60477ec788bfe5aeb3596da2',1,'MR::VoxelsLoad::RawParameters::dimensions']]],
+  ['dimensions_29',['dimensions',['../structMR_1_1OriginAndDimensions.html#a47a625c37bc5587c8811c698a4720f0e',1,'MR::OriginAndDimensions::dimensions'],['../structMR_1_1DistanceVolumeParams.html#ade7c79fd5b25f3a928fa747f8e6d61d2',1,'MR::DistanceVolumeParams::dimensions'],['../structMR_1_1VoxelsLoad_1_1RawParameters.html#ab1db96ec60477ec788bfe5aeb3596da2',1,'MR::VoxelsLoad::RawParameters::dimensions']]],
   ['dims_30',['dims',['../structMR_1_1VoxelsVolume.html#aec69290a92637368e463e39fadfea701',1,'MR::VoxelsVolume']]],
   ['dims_5f_31',['dims_',['../classMR_1_1RectIndexer.html#ab4a6c53f72e0260996768505672d9052',1,'MR::RectIndexer::dims_'],['../group__VoxelGroup.html#gaa1c0e0f0f1418ecbd002c094e0d42e13',1,'MR::VolumeIndexer::dims_']]],
   ['dipole_32',['Dipole',['../namespaceMR.html#ad199d60177879413c7ab7c1b24e30a54',1,'MR']]],

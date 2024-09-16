@@ -866,6 +866,7 @@ var hierarchy =
     [ "OneMeshContour", "structOneMeshContour.html", null ],
     [ "MR::OneMeshIntersection", "structMR_1_1OneMeshIntersection.html", null ],
     [ "OneMeshIntersection", "structOneMeshIntersection.html", null ],
+    [ "MR::OriginAndDimensions", "structMR_1_1OriginAndDimensions.html", null ],
     [ "MR::OutputFlows", "structMR_1_1OutputFlows.html", null ],
     [ "MR::WatershedGraph::OverflowPoint", "structMR_1_1WatershedGraph_1_1OverflowPoint.html", null ],
     [ "MR::PackMapping", "structMR_1_1PackMapping.html", null ],

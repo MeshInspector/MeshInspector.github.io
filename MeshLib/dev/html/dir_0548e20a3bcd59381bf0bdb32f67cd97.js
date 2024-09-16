@@ -2,6 +2,7 @@ var dir_0548e20a3bcd59381bf0bdb32f67cd97 =
 [
     [ "config.h", "MRVoxels_2config_8h.html", null ],
     [ "MRBoolean.h", "MRBoolean_8h.html", "MRBoolean_8h" ],
+    [ "MRCalcDims.h", "MRCalcDims_8h.html", "MRCalcDims_8h" ],
     [ "MRChangeVoxelsAction.h", "MRChangeVoxelsAction_8h.html", null ],
     [ "MRChangeVoxelSelectionAction.h", "MRChangeVoxelSelectionAction_8h.html", null ],
     [ "MRComputeVolume.h", "MRComputeVolume_8h.html", "MRComputeVolume_8h" ],
@@ -20,7 +21,6 @@ var dir_0548e20a3bcd59381bf0bdb32f67cd97 =
     [ "MRPointsToDistanceVolume.h", "MRPointsToDistanceVolume_8h.html", "MRPointsToDistanceVolume_8h" ],
     [ "MRPointsToMeshFusion.h", "MRPointsToMeshFusion_8h.html", "MRPointsToMeshFusion_8h" ],
     [ "MRRebuildMesh.h", "MRRebuildMesh_8h.html", "MRRebuildMesh_8h" ],
-    [ "MRSimpleVolume.h", "MRSimpleVolume_8h.html", null ],
     [ "MRTeethMaskToDirectionVolume.h", "MRTeethMaskToDirectionVolume_8h.html", "MRTeethMaskToDirectionVolume_8h" ],
     [ "MRToolPath.h", "MRToolPath_8h.html", "MRToolPath_8h" ],
     [ "MRVDBConversions.h", "MRVDBConversions_8h.html", "MRVDBConversions_8h" ],
@@ -30,6 +30,7 @@ var dir_0548e20a3bcd59381bf0bdb32f67cd97 =
     [ "MRVolumeSegment.h", "MRVolumeSegment_8h.html", "MRVolumeSegment_8h" ],
     [ "MRVoxelGraphCut.h", "MRVoxelGraphCut_8h.html", "MRVoxelGraphCut_8h" ],
     [ "MRVoxelPath.h", "MRVoxelPath_8h.html", "MRVoxelPath_8h" ],
+    [ "MRVoxelsApplyTransform.h", "MRVoxelsApplyTransform_8h.html", "MRVoxelsApplyTransform_8h" ],
     [ "MRVoxelsConversions.h", "MRVoxelsConversions_8h.html", null ],
     [ "MRVoxelsConversionsByParts.h", "MRVoxelsConversionsByParts_8h.html", "MRVoxelsConversionsByParts_8h" ],
     [ "MRVoxelsFwd.h", "MRVoxelsFwd_8h.html", "MRVoxelsFwd_8h" ],

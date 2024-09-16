@@ -1,5 +1,5 @@
 var MRProjectionMeshAttribute_8h =
 [
-    [ "projectFaceAttribute", "MRProjectionMeshAttribute_8h.html#a7e8aa08aedc74cb058c8b20d01559fd9", null ],
-    [ "projectVertAttribute", "MRProjectionMeshAttribute_8h.html#a8bb96a57e863bad5b480d29a724754b7", null ]
+    [ "projectFaceAttribute", "MRProjectionMeshAttribute_8h.html#a242a3c726f0dff1fff0bcef35348bfa6", null ],
+    [ "projectVertAttribute", "MRProjectionMeshAttribute_8h.html#a934a65c3acb8dcbb3730765c7cd9019c", null ]
 ];

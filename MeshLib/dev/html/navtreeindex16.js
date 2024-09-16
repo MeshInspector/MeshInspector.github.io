@@ -1,5 +1,11 @@
 var NAVTREEINDEX16 =
 {
+"classMR_1_1ChangeObjectColorAction.html#aadf478d3d29a773bd02b96beae263a51a91b442d385b54e1418d81adc34871053":[9,4,0,1,1],
+"classMR_1_1ChangeObjectColorAction.html#ada33e7dca54e7e04d9815765bed5fdfe":[9,4,0,5],
+"classMR_1_1ChangeObjectColorAction.html#afe3b10ca2078780fe08c4e06a3cb8eb3":[9,4,0,3],
+"classMR_1_1ChangeObjectSelectedAction.html":[9,4,13],
+"classMR_1_1ChangeObjectSelectedAction.html#a3755cc9192950a33d25ab548bc24ccc9":[9,4,13,3],
+"classMR_1_1ChangeObjectSelectedAction.html#a937d04b50120a0a1c237ab976bf7f0d7":[9,4,13,0],
 "classMR_1_1ChangeObjectSelectedAction.html#aa52b1585ac548e84db85dd7223403ca9":[9,4,13,1],
 "classMR_1_1ChangeObjectSelectedAction.html#aace3c2763b5625fb8eea898a21f5fc26":[9,4,13,2],
 "classMR_1_1ChangeObjectSelectedAction.html#ae709358ae5d269b3ef15942ba7ccea30":[9,4,13,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a59ce3a1823add77157d34ba4dc516796":[10,0,10,134,1,12],
 "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a59ce3a1823add77157d34ba4dc516796":[12,0,1,120,1,12],
 "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a59ecebaad36f9417c81fdd2b8cfa1785":[10,0,10,134,1,15],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a59ecebaad36f9417c81fdd2b8cfa1785":[12,0,1,120,1,15],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a5c6096c5bd502c82f62242293e9a0ecd":[10,0,10,134,1,1],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a5c6096c5bd502c82f62242293e9a0ecd":[12,0,1,120,1,1],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a6085c7d170c3e8defc025b8188fa56ee":[10,0,10,134,1,52],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a6085c7d170c3e8defc025b8188fa56ee":[12,0,1,120,1,52],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a6ba1b2ee8410d3d91bbdf59590579fff":[10,0,10,134,1,51],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a6ba1b2ee8410d3d91bbdf59590579fff":[12,0,1,120,1,51]
+"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a59ecebaad36f9417c81fdd2b8cfa1785":[12,0,1,120,1,15]
 };
