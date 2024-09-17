@@ -1,5 +1,9 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1DoubleOffsetSettings.html#aee042c47f37e1c7b083569430a185ce3":[10,0,10,185,6],
+"structMR_1_1DoubleOffsetSettings.html#aee042c47f37e1c7b083569430a185ce3":[12,0,1,171,6],
+"structMR_1_1DragDropListener.html":[10,0,10,186],
+"structMR_1_1DragDropListener.html":[12,0,1,172],
 "structMR_1_1DragDropListener.html#a14335ad47979c8d5059dc9c8bb2af252":[10,0,10,186,2],
 "structMR_1_1DragDropListener.html#a14335ad47979c8d5059dc9c8bb2af252":[12,0,1,172,2],
 "structMR_1_1DragDropListener.html#a1dd00f41eb2b8a645f37166e8f2efd3b":[10,0,10,186,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1FeatureObjectSharedProperty.html#abb260f1f2ce1cf3b86553e3b8c213840":[12,0,1,196,0],
 "structMR_1_1FeatureObjectSharedProperty.html#add72ff1842f783bf1ceae521c7d614ec":[10,0,10,210,2],
 "structMR_1_1FeatureObjectSharedProperty.html#add72ff1842f783bf1ceae521c7d614ec":[12,0,1,196,2],
-"structMR_1_1Features_1_1MeasureResult.html":[10,0,10,6,2],
-"structMR_1_1Features_1_1MeasureResult.html":[12,0,1,2,2],
-"structMR_1_1Features_1_1MeasureResult.html#a0682477036fb2befa7ff871bab780be2":[10,0,10,6,2,4],
-"structMR_1_1Features_1_1MeasureResult.html#a0682477036fb2befa7ff871bab780be2":[12,0,1,2,2,4],
-"structMR_1_1Features_1_1MeasureResult.html#a31415c50f3b3e2ee62b2778114b20ec9":[10,0,10,6,2,6]
+"structMR_1_1Features_1_1MeasureResult.html":[10,0,10,6,2]
 };

@@ -1720,11 +1720,14 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html">VoxelsVolumeAccessor&lt; VdbVolume &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classMR_1_1VoxelsVolumeAccessor.html" title="helper class for generalized voxel volume data access">VoxelsVolumeAccessor</a> specialization for VDB volume.  <a href="classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>VoxelsVolumeAccessor&lt; VoxelsVolume&lt; std::vector&lt; T &gt; &gt; &gt;</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classMR_1_1VoxelsVolumeAccessor.html" title="helper class for generalized voxel volume data access">VoxelsVolumeAccessor</a> specialization for simple volumes. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01VoxelValueGetter_3_01T_01_4_01_4_01_4.html">VoxelsVolumeAccessor&lt; VoxelsVolume&lt; VoxelValueGetter&lt; T &gt; &gt; &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classMR_1_1VoxelsVolumeAccessor.html" title="helper class for generalized voxel volume data access">VoxelsVolumeAccessor</a> specialization for value getters.  <a href="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01VoxelValueGetter_3_01T_01_4_01_4_01_4.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; std::vector&lt; T &gt; &gt; &gt;</b></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classMR_1_1VoxelsVolumeAccessor.html" title="helper class for generalized voxel volume data access">VoxelsVolumeAccessor</a> specialization for simple volumes. <br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classMR_1_1VoxelsVolumeAccessor.html" title="helper class for generalized voxel volume data access">VoxelsVolumeAccessor</a> specialization for simple volumes with min/max. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VoxelsVolumeCachingAccessor.html">VoxelsVolumeCachingAccessor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -5240,6 +5243,10 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="separator:ga51db44b0c21307d6fcfccd9616c037f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga245aead53191a5ec52138336c54c109c" id="r_ga245aead53191a5ec52138336c54c109c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicStructuresGroup.html#ga245aead53191a5ec52138336c54c109c">operator*=</a> (<a class="el" href="#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;a, const <a class="el" href="#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;b)</td></tr>
 <tr class="separator:ga245aead53191a5ec52138336c54c109c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b6944fcd89b95a7e1cb3894594197cb" id="r_a8b6944fcd89b95a7e1cb3894594197cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b6944fcd89b95a7e1cb3894594197cb">marchingCubes</a> (const SimpleVolume &amp;volume, const <a class="el" href="structMR_1_1MarchingCubesParams.html">MarchingCubesParams</a> &amp;params={})</td></tr>
+<tr class="separator:a8b6944fcd89b95a7e1cb3894594197cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a921214751ca875289708946b53ae8a64" id="r_a921214751ca875289708946b53ae8a64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a921214751ca875289708946b53ae8a64">marchingCubesAsTriMesh</a> (const SimpleVolume &amp;volume, const <a class="el" href="structMR_1_1MarchingCubesParams.html">MarchingCubesParams</a> &amp;params={})</td></tr>
+<tr class="separator:a921214751ca875289708946b53ae8a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd035c3a4636a14e855989095aff2409" id="r_abd035c3a4636a14e855989095aff2409"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd035c3a4636a14e855989095aff2409">marchingCubes</a> (const SimpleVolumeMinMax &amp;volume, const <a class="el" href="structMR_1_1MarchingCubesParams.html">MarchingCubesParams</a> &amp;params={})</td></tr>
 <tr class="separator:abd035c3a4636a14e855989095aff2409"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72700df47888a8a7053cbc8a0aaca324" id="r_a72700df47888a8a7053cbc8a0aaca324"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72700df47888a8a7053cbc8a0aaca324">marchingCubesAsTriMesh</a> (const SimpleVolumeMinMax &amp;volume, const <a class="el" href="structMR_1_1MarchingCubesParams.html">MarchingCubesParams</a> &amp;params={})</td></tr>
@@ -20217,7 +20224,7 @@ template&lt;typename ValueT , typename IndexT &gt; </div>
 </div>
 </div>
 <a id="aa01d4f27a309940dabb85acd544839bf" name="aa01d4f27a309940dabb85acd544839bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa01d4f27a309940dabb85acd544839bf">&#9670;&#160;</a></span>marchingCubes() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa01d4f27a309940dabb85acd544839bf">&#9670;&#160;</a></span>marchingCubes() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -20237,8 +20244,29 @@ template&lt;typename ValueT , typename IndexT &gt; </div>
 
 </div>
 </div>
+<a id="a8b6944fcd89b95a7e1cb3894594197cb" name="a8b6944fcd89b95a7e1cb3894594197cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b6944fcd89b95a7e1cb3894594197cb">&#9670;&#160;</a></span>marchingCubes() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::marchingCubes </td>
+          <td>(</td>
+          <td class="paramtype">const SimpleVolume &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MarchingCubesParams.html">MarchingCubesParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abd035c3a4636a14e855989095aff2409" name="abd035c3a4636a14e855989095aff2409"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd035c3a4636a14e855989095aff2409">&#9670;&#160;</a></span>marchingCubes() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abd035c3a4636a14e855989095aff2409">&#9670;&#160;</a></span>marchingCubes() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -20259,7 +20287,7 @@ template&lt;typename ValueT , typename IndexT &gt; </div>
 </div>
 </div>
 <a id="ac032a5b547b9c07019217d51f63a73da" name="ac032a5b547b9c07019217d51f63a73da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac032a5b547b9c07019217d51f63a73da">&#9670;&#160;</a></span>marchingCubes() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac032a5b547b9c07019217d51f63a73da">&#9670;&#160;</a></span>marchingCubes() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -20280,7 +20308,7 @@ template&lt;typename ValueT , typename IndexT &gt; </div>
 </div>
 </div>
 <a id="a6b9031d3d4090f68984e4f83eb360090" name="a6b9031d3d4090f68984e4f83eb360090"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b9031d3d4090f68984e4f83eb360090">&#9670;&#160;</a></span>marchingCubesAsTriMesh() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b9031d3d4090f68984e4f83eb360090">&#9670;&#160;</a></span>marchingCubesAsTriMesh() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -20300,8 +20328,29 @@ template&lt;typename ValueT , typename IndexT &gt; </div>
 
 </div>
 </div>
+<a id="a921214751ca875289708946b53ae8a64" name="a921214751ca875289708946b53ae8a64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a921214751ca875289708946b53ae8a64">&#9670;&#160;</a></span>marchingCubesAsTriMesh() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &gt; MR::marchingCubesAsTriMesh </td>
+          <td>(</td>
+          <td class="paramtype">const SimpleVolume &amp;</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MarchingCubesParams.html">MarchingCubesParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a72700df47888a8a7053cbc8a0aaca324" name="a72700df47888a8a7053cbc8a0aaca324"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72700df47888a8a7053cbc8a0aaca324">&#9670;&#160;</a></span>marchingCubesAsTriMesh() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a72700df47888a8a7053cbc8a0aaca324">&#9670;&#160;</a></span>marchingCubesAsTriMesh() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -20322,7 +20371,7 @@ template&lt;typename ValueT , typename IndexT &gt; </div>
 </div>
 </div>
 <a id="ad192e9409dfbd10a25b76804397ec59c" name="ad192e9409dfbd10a25b76804397ec59c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad192e9409dfbd10a25b76804397ec59c">&#9670;&#160;</a></span>marchingCubesAsTriMesh() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad192e9409dfbd10a25b76804397ec59c">&#9670;&#160;</a></span>marchingCubesAsTriMesh() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

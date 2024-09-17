@@ -1,5 +1,7 @@
 var NAVTREEINDEX13 =
 {
+"MRVisualSubfeatures_8h_source.html":[13,0,0,2,11,132],
+"MRVolumeIndexer_8h.html":[13,0,0,2,4,360],
 "MRVolumeIndexer_8h_source.html":[13,0,0,2,4,360],
 "MRVolumeInterpolation_8h.html":[13,0,0,2,12,26],
 "MRVolumeInterpolation_8h.html#aca1f6e889fadd4d30603c3cffcf9a930":[13,0,0,2,12,26,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX13 =
 "classMR_1_1AABBTreeBase.html#ae91f1e83ca6d14ef5cc8555ad401b88c":[10,0,10,41,11],
 "classMR_1_1AABBTreeBase.html#ae91f1e83ca6d14ef5cc8555ad401b88c":[12,0,1,27,11],
 "classMR_1_1AABBTreeBase.html#aeb7792254b27842c6c5e0572db29d2f2":[10,0,10,41,14],
-"classMR_1_1AABBTreeBase.html#aeb7792254b27842c6c5e0572db29d2f2":[12,0,1,27,14],
-"classMR_1_1AABBTreeBase.html#af22ebd659b66011e2ce0b16d3abc0e60":[10,0,10,41,3],
-"classMR_1_1AABBTreeBase.html#af22ebd659b66011e2ce0b16d3abc0e60":[12,0,1,27,3]
+"classMR_1_1AABBTreeBase.html#aeb7792254b27842c6c5e0572db29d2f2":[12,0,1,27,14]
 };
