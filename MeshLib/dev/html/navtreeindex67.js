@@ -1,7 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"structMR_1_1MeshTriPoint.html#a8a974fd4d0a547b3acff27ac8730ef92":[9,7,3,17],
-"structMR_1_1MeshTriPoint.html#a90a50a563b67d4e1fa6ad0e30f2e9d71":[9,7,3,11],
 "structMR_1_1MeshTriPoint.html#a969e2436a97d15353beb543c26d45590":[9,7,3,8],
 "structMR_1_1MeshTriPoint.html#aa232faeb2eb2a1b2892e47492f450e90":[9,7,3,4],
 "structMR_1_1MeshTriPoint.html#aa951af6819fd0e1934e6e33e8b29af4a":[9,7,3,10],
@@ -249,5 +247,7 @@ var NAVTREEINDEX67 =
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4.html#a763d4517cb20617afe59faf89b895749":[12,0,1,386,0],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4.html":[10,0,10,401],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4.html":[12,0,1,387],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4.html#aae1ec7a21db6e2c624a1e93117a86ec5":[10,0,10,401,0]
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4.html#aae1ec7a21db6e2c624a1e93117a86ec5":[10,0,10,401,0],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4.html#aae1ec7a21db6e2c624a1e93117a86ec5":[12,0,1,387,0],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html":[10,0,10,402]
 };

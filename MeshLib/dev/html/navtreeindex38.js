@@ -1,6 +1,5 @@
 var NAVTREEINDEX38 =
 {
-"classMR_1_1SurfaceContoursWidget.html#afbb78b5db04c9cc56ac23b99e0d81a9a":[12,0,1,601,15],
 "classMR_1_1SurfaceContoursWidgetClearAction.html":[10,0,10,616],
 "classMR_1_1SurfaceContoursWidgetClearAction.html":[12,0,1,602],
 "classMR_1_1SurfaceContoursWidgetClearAction.html#a8e76441a7d1c29f20821dea349d98cce":[10,0,10,616,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX38 =
 "classMR_1_1TouchpadController_1_1Handler.html#aa44961190a75ca4d6cc9dd8281ca367a":[12,0,1,625,0,2],
 "classMR_1_1TouchpadController_1_1Handler.html#aa716478caa8b3f52ec82aff6b328c64e":[10,0,10,639,0,5],
 "classMR_1_1TouchpadController_1_1Handler.html#aa716478caa8b3f52ec82aff6b328c64e":[12,0,1,625,0,5],
-"classMR_1_1TouchpadController_1_1Handler.html#ac01d9ce7a2cd68d9da9c23a5ee93df0b":[10,0,10,639,0,1]
+"classMR_1_1TouchpadController_1_1Handler.html#ac01d9ce7a2cd68d9da9c23a5ee93df0b":[10,0,10,639,0,1],
+"classMR_1_1TouchpadController_1_1Handler.html#ac01d9ce7a2cd68d9da9c23a5ee93df0b":[12,0,1,625,0,1]
 };

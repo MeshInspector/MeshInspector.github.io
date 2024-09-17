@@ -1,7 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"structMR_1_1Features_1_1MeasureResult.html":[12,0,1,2,2],
-"structMR_1_1Features_1_1MeasureResult.html#a0682477036fb2befa7ff871bab780be2":[10,0,10,6,2,4],
 "structMR_1_1Features_1_1MeasureResult.html#a0682477036fb2befa7ff871bab780be2":[12,0,1,2,2,4],
 "structMR_1_1Features_1_1MeasureResult.html#a31415c50f3b3e2ee62b2778114b20ec9":[10,0,10,6,2,6],
 "structMR_1_1Features_1_1MeasureResult.html#a31415c50f3b3e2ee62b2778114b20ec9":[12,0,1,2,2,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX61 =
 "structMR_1_1FitBoxParams.html#a5594292518e53a54c005c6e95576306d":[12,0,1,207,1],
 "structMR_1_1FitBoxParams.html#a8a30a63152233b895d83c43813fffa46":[10,0,10,221,0],
 "structMR_1_1FitBoxParams.html#a8a30a63152233b895d83c43813fffa46":[12,0,1,207,0],
-"structMR_1_1FitDataParams.html":[10,0,10,223]
+"structMR_1_1FitDataParams.html":[10,0,10,223],
+"structMR_1_1FitDataParams.html":[12,0,1,209],
+"structMR_1_1FitDataParams.html#a423ab9ff17d938fcf943e0989297eba6":[10,0,10,223,1]
 };
