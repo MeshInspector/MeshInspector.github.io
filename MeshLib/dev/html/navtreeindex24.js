@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"classMR_1_1Laplacian.html#a3e7bb340acaa3ef81fe7ed9f5eaaf226":[10,0,10,300,10],
 "classMR_1_1Laplacian.html#a3e7bb340acaa3ef81fe7ed9f5eaaf226":[12,0,1,286,10],
 "classMR_1_1Laplacian.html#a4583a70ee721c1a0e5daa7ee3d607039":[10,0,10,300,8],
 "classMR_1_1Laplacian.html#a4583a70ee721c1a0e5daa7ee3d607039":[12,0,1,286,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "classMR_1_1MeshTopology.html#a1ea6cf9a730f10c9a99cb768c9be48f7":[9,7,2,30],
 "classMR_1_1MeshTopology.html#a1f05838eef4373b90f1a9f2c1dda088b":[9,7,2,49],
 "classMR_1_1MeshTopology.html#a1fccfe1622677fefb07960613f09f20d":[9,7,2,59],
-"classMR_1_1MeshTopology.html#a205a1c451bc142cebb49cc249e48e9e8":[9,7,2,109],
-"classMR_1_1MeshTopology.html#a212723bf6e50621443bb5b341cc2ff98":[9,7,2,44]
+"classMR_1_1MeshTopology.html#a205a1c451bc142cebb49cc249e48e9e8":[9,7,2,109]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html#ae118fa6ed40ec5fb3e1ce843d0591f6b":[12,0,1,388,0],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html":[10,0,10,403],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html":[12,0,1,389],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html#a6cce32400bcbe22e29d7873410a975f9":[10,0,10,403,0],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html#a6cce32400bcbe22e29d7873410a975f9":[12,0,1,389,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1PartMapping.html#a8b413791e9dab0037f742ede85a8700e":[12,0,1,413,5],
 "structMR_1_1PartMapping.html#a93477815f6da158c618e4d0e6cbd4479":[10,0,10,427,0],
 "structMR_1_1PartMapping.html#a93477815f6da158c618e4d0e6cbd4479":[12,0,1,413,0],
-"structMR_1_1PartMapping.html#ac903190648e0aba9ba91ae345d82a1a8":[10,0,10,427,2],
-"structMR_1_1PartMapping.html#ac903190648e0aba9ba91ae345d82a1a8":[12,0,1,413,2],
-"structMR_1_1PdfParameters.html":[10,0,10,429]
+"structMR_1_1PartMapping.html#ac903190648e0aba9ba91ae345d82a1a8":[10,0,10,427,2]
 };

@@ -26,7 +26,7 @@ var searchData=
   ['readitemslist_23',['readItemsList',['../classMR_1_1Toolbar.html#a96b506cb9d7f9dde6f0887ab33f165a0',1,'MR::Toolbar']]],
   ['readmenuitemslist_24',['readMenuItemsList',['../classMR_1_1RibbonSchemaLoader.html#ae1fb56f73fe32143e7af41b9a6ef2a78',1,'MR::RibbonSchemaLoader']]],
   ['readmenuitemsstructure_5f_25',['readMenuItemsStructure_',['../classMR_1_1RibbonMenu.html#a566e74703b12f0c2cd8873fe0ca33e50',1,'MR::RibbonMenu']]],
-  ['readonlyvalue_26',['readOnlyValue',['../namespaceMR_1_1UI.html#a3037df1b1014dd2f27c985c9dad78d79',1,'MR::UI']]],
+  ['readonlyvalue_26',['readOnlyValue',['../namespaceMR_1_1UI.html#a3037df1b1014dd2f27c985c9dad78d79',1,'MR::UI::readOnlyValue(const char *label, const T &amp;v, std::optional&lt; ImVec4 &gt; textColor={}, UnitToStringParams&lt; E &gt; unitParams={})'],['../namespaceMR_1_1UI.html#ac5299aaf50ae3172c0725cc3ee4057f9',1,'MR::UI::readOnlyValue(const char *label, const T &amp;v, std::optional&lt; ImVec4 &gt; textColor, std::optional&lt; ImVec4 &gt; labelColor, UnitToStringParams&lt; E &gt; unitParams={})']]],
   ['readquickaccesslist_27',['readQuickAccessList',['../classMR_1_1RibbonMenu.html#ac80823b6e10ba2e99fca77006ffb7dc4',1,'MR::RibbonMenu']]],
   ['readrawtiff_28',['readRawTiff',['../namespaceMR.html#a60b3e22054f156440562ae98740d5656',1,'MR']]],
   ['readtiffparameters_29',['readTiffParameters',['../namespaceMR.html#a7c49de97d655fd498b5741311c3c1bcf',1,'MR']]],

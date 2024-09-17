@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"structMR_1_1BooleanResultMapper.html#a965145c8345c2af57bdd338b3fd038b4":[9,8,0,8],
+"structMR_1_1BooleanResultMapper.html#ab684f42e7c2f76fd478da500c3b2ddcd":[9,8,0,3],
 "structMR_1_1BooleanResultMapper.html#ac5f5c7f84c16ba4d08fd3b45d06c5914":[9,8,0,5],
 "structMR_1_1BooleanResultMapper.html#ac601634b2fe9f6fe7b9531d6c8bf6d7c":[9,8,0,7],
 "structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587":[9,8,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1CutMeshResult.html#a5fd92baa79aac5e503e3310ab91fb400":[9,8,3,1],
 "structMR_1_1CutMeshResult.html#acc676bb755e4af3c177664745a989954":[9,8,3,0],
 "structMR_1_1DecimateParallelSettings.html":[9,10,2],
-"structMR_1_1DecimateParallelSettings.html#a14f764f19d8a56d1b1931e084ed1df4e":[9,10,2,2],
-"structMR_1_1DecimateParallelSettings.html#a17d076a1c92c22ee1eaf23dd6edcb19e":[9,10,2,12],
-"structMR_1_1DecimateParallelSettings.html#a1931fb41807309978aa700f1634da3c4":[9,10,2,9]
+"structMR_1_1DecimateParallelSettings.html#a14f764f19d8a56d1b1931e084ed1df4e":[9,10,2,2]
 };
