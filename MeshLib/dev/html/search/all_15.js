@@ -930,6 +930,7 @@ var searchData=
   ['symmatrix3b_927',['SymMatrix3b',['../namespaceMR.html#af72956816e655beb855e0c6a777d9be1',1,'MR']]],
   ['symmatrix4_928',['SymMatrix4',['../structMR_1_1SymMatrix4.html',1,'MR::SymMatrix4&lt; T &gt;'],['../structMR_1_1SymMatrix4.html#a8bba7cb7e8b42e2e84775e1f07217196',1,'MR::SymMatrix4::SymMatrix4() noexcept=default'],['../structMR_1_1SymMatrix4.html#a527abb0a49799714b14dac1889bcbc39',1,'MR::SymMatrix4::SymMatrix4(const SymMatrix4&lt; U &gt; &amp;m)']]],
   ['symmatrixtype_929',['SymMatrixType',['../structMR_1_1Vector2.html#aad35960bf4d5a0eefd7945e6e6bf768c',1,'MR::Vector2::SymMatrixType'],['../structMR_1_1Vector3.html#a1be16f68d003d1fe45b63bd915d50bff',1,'MR::Vector3::SymMatrixType'],['../structMR_1_1Vector4.html#a7e8e73c7399e2f377d577c269193a4a0',1,'MR::Vector4::SymMatrixType']]],
-  ['systemtoutf8_930',['systemToUtf8',['../group__BasicGroup.html#ga9a6b64a85d116ca32c7ff8b93ca80da1',1,'MR']]],
-  ['sz_931',['Sz',['../group__AABBTreeGroup.html#ga6159c869b0afc38ccf26091c1681194a',1,'MR::IntersectionPrecomputes']]]
+  ['systempath_930',['SystemPath',['../classMR_1_1SystemPath.html',1,'MR']]],
+  ['systemtoutf8_931',['systemToUtf8',['../group__BasicGroup.html#ga9a6b64a85d116ca32c7ff8b93ca80da1',1,'MR']]],
+  ['sz_932',['Sz',['../group__AABBTreeGroup.html#ga6159c869b0afc38ccf26091c1681194a',1,'MR::IntersectionPrecomputes']]]
 ];
