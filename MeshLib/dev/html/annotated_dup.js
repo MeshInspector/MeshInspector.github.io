@@ -781,7 +781,6 @@ var annotated_dup =
       [ "SymMatrix2", "structMR_1_1SymMatrix2.html", "structMR_1_1SymMatrix2" ],
       [ "SymMatrix3", "structMR_1_1SymMatrix3.html", "structMR_1_1SymMatrix3" ],
       [ "SymMatrix4", "structMR_1_1SymMatrix4.html", "structMR_1_1SymMatrix4" ],
-      [ "SystemPath", "classMR_1_1SystemPath.html", "classMR_1_1SystemPath" ],
       [ "TaggedBitSet", "classMR_1_1TaggedBitSet.html", "classMR_1_1TaggedBitSet" ],
       [ "TeethMaskToDirectionVolumeConvertor", "classMR_1_1TeethMaskToDirectionVolumeConvertor.html", "classMR_1_1TeethMaskToDirectionVolumeConvertor" ],
       [ "TerminalVertex", "structMR_1_1TerminalVertex.html", "structMR_1_1TerminalVertex" ],

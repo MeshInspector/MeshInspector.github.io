@@ -1,7 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"classMR_1_1FastWindingNumber.html#a74a5c52662c9a9ae3b0589a856041998":[9,1,13,4],
-"classMR_1_1FastWindingNumber.html#a82d4def3598d0d1ac98ec04c7cdb4841":[9,1,13,3],
 "classMR_1_1FastWindingNumber.html#adf39f3740ff84ed5d367174f1cd8f8a8":[9,1,13,1],
 "classMR_1_1FeatureObject.html":[10,0,10,208],
 "classMR_1_1FeatureObject.html":[12,0,1,194],
@@ -249,5 +247,7 @@ var NAVTREEINDEX19 =
 "classMR_1_1FreeFormBestFit.html#a7da32b588679f5a44bb7394b8906ed3c":[12,0,1,218,6],
 "classMR_1_1FreeFormBestFit.html#a8ba45d03a34b8ab81b1d6ecbc6893453":[10,0,10,232,4],
 "classMR_1_1FreeFormBestFit.html#a8ba45d03a34b8ab81b1d6ecbc6893453":[12,0,1,218,4],
-"classMR_1_1FreeFormBestFit.html#a92fb64c83b3d706c39e60b22c99bdfd1":[10,0,10,232,1]
+"classMR_1_1FreeFormBestFit.html#a92fb64c83b3d706c39e60b22c99bdfd1":[10,0,10,232,1],
+"classMR_1_1FreeFormBestFit.html#a92fb64c83b3d706c39e60b22c99bdfd1":[12,0,1,218,1],
+"classMR_1_1FreeFormBestFit.html#ab4da354aabbcd433f8e592efba7472a7":[10,0,10,232,0]
 };

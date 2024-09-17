@@ -27,8 +27,7 @@ var searchData=
   ['float32_24',['Float32',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529ba166495adc0d0f53bee6baecc577f5204',1,'MR::VoxelsLoad::RawParameters']]],
   ['float32_5f4_25',['Float32_4',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529ba3dced80f38319c510aa418c1dee5e142',1,'MR::VoxelsLoad::RawParameters']]],
   ['float64_26',['Float64',['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afda731006a0170d6ba0a3e56353a529bad2b556d8a8f5c8ac323f51a4b82e79a0',1,'MR::VoxelsLoad::RawParameters']]],
-  ['fonts_27',['Fonts',['../classMR_1_1SystemPath.html#afb3badbeb3302b38006c0c0bb407057ba59c4ad3f3cb3d812d68fab7a354d4a63',1,'MR::SystemPath']]],
-  ['framebackground_28',['FrameBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ab7645d391763ab26ea48e51c80c3837e',1,'MR::ColorTheme']]],
-  ['front_29',['Front',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca5835bab1ade0060909e31a06af2e2cde',1,'MR::SetViewPresetMenuItem']]],
-  ['fullmask_30',['FullMask',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6a32950741c2a4db230a8af70867adc378',1,'MR']]]
+  ['framebackground_27',['FrameBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ab7645d391763ab26ea48e51c80c3837e',1,'MR::ColorTheme']]],
+  ['front_28',['Front',['../classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca5835bab1ade0060909e31a06af2e2cde',1,'MR::SetViewPresetMenuItem']]],
+  ['fullmask_29',['FullMask',['../namespaceMR.html#a83b450495cc5fde2cb5539447eb20dc6a32950741c2a4db230a8af70867adc378',1,'MR']]]
 ];
