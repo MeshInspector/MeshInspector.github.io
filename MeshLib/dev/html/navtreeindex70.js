@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1PolylineIntersectionResult2.html":[10,0,10,458],
+"structMR_1_1PolylineIntersectionResult2.html":[12,0,1,444],
 "structMR_1_1PolylineIntersectionResult2.html#a50c61aceb6ee726418c11dd484bbd071":[10,0,10,458,1],
 "structMR_1_1PolylineIntersectionResult2.html#a50c61aceb6ee726418c11dd484bbd071":[12,0,1,444,1],
 "structMR_1_1PolylineIntersectionResult2.html#a982fc29b0df692b0fecec815554eb78b":[10,0,10,458,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1RebuildMeshSettings.html":[12,0,1,482],
 "structMR_1_1RebuildMeshSettings.html#a0181b2c8cfb6a6a1788807fd5b6a5d1c":[10,0,10,496,7],
 "structMR_1_1RebuildMeshSettings.html#a0181b2c8cfb6a6a1788807fd5b6a5d1c":[12,0,1,482,7],
-"structMR_1_1RebuildMeshSettings.html#a03a98a1c9695b0ef4243961f9ad3b59e":[10,0,10,496,4],
-"structMR_1_1RebuildMeshSettings.html#a03a98a1c9695b0ef4243961f9ad3b59e":[12,0,1,482,4],
-"structMR_1_1RebuildMeshSettings.html#a0cc5cd91097f6d671c3a9ad73a09ac14":[10,0,10,496,2]
+"structMR_1_1RebuildMeshSettings.html#a03a98a1c9695b0ef4243961f9ad3b59e":[10,0,10,496,4]
 };

@@ -654,11 +654,12 @@ var searchData=
   ['mrvoxelssave_2eh_651',['MRVoxelsSave.h',['../MRVoxelsSave_8h.html',1,'']]],
   ['mrvoxelsvolume_2eh_652',['MRVoxelsVolume.h',['../MRVoxelsVolume_8h.html',1,'']]],
   ['mrvoxelsvolumeaccess_2eh_653',['MRVoxelsVolumeAccess.h',['../MRVoxelsVolumeAccess_8h.html',1,'']]],
-  ['mrwasmunavailableplugin_2eh_654',['MRWasmUnavailablePlugin.h',['../MRWasmUnavailablePlugin_8h.html',1,'']]],
-  ['mrwatershedgraph_2eh_655',['MRWatershedGraph.h',['../MRWatershedGraph_8h.html',1,'']]],
-  ['mrwebrequest_2eh_656',['MRWebRequest.h',['../MRWebRequest_8h.html',1,'']]],
-  ['mrwriter_2eh_657',['MRWriter.h',['../MRWriter_8h.html',1,'']]],
-  ['mrxfbasedcache_2eh_658',['MRXfBasedCache.h',['../MRXfBasedCache_8h.html',1,'']]],
-  ['mrzip_2eh_659',['MRZip.h',['../MRZip_8h.html',1,'']]],
-  ['mrzlib_2eh_660',['MRZlib.h',['../MRZlib_8h.html',1,'']]]
+  ['mrvoxelsvolumecachingaccessor_2eh_654',['MRVoxelsVolumeCachingAccessor.h',['../MRVoxelsVolumeCachingAccessor_8h.html',1,'']]],
+  ['mrwasmunavailableplugin_2eh_655',['MRWasmUnavailablePlugin.h',['../MRWasmUnavailablePlugin_8h.html',1,'']]],
+  ['mrwatershedgraph_2eh_656',['MRWatershedGraph.h',['../MRWatershedGraph_8h.html',1,'']]],
+  ['mrwebrequest_2eh_657',['MRWebRequest.h',['../MRWebRequest_8h.html',1,'']]],
+  ['mrwriter_2eh_658',['MRWriter.h',['../MRWriter_8h.html',1,'']]],
+  ['mrxfbasedcache_2eh_659',['MRXfBasedCache.h',['../MRXfBasedCache_8h.html',1,'']]],
+  ['mrzip_2eh_660',['MRZip.h',['../MRZip_8h.html',1,'']]],
+  ['mrzlib_2eh_661',['MRZlib.h',['../MRZlib_8h.html',1,'']]]
 ];
