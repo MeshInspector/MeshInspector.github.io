@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"classMR_1_1ShadowsGL.html#a41c74b52ccad8c211d2b8e3dc639e4aa":[10,0,10,585,7],
+"classMR_1_1ShadowsGL.html#a41c74b52ccad8c211d2b8e3dc639e4aa":[12,0,1,571,7],
 "classMR_1_1ShadowsGL.html#a48bc9b48164b58c3865f8c4b80dfea15":[10,0,10,585,8],
 "classMR_1_1ShadowsGL.html#a48bc9b48164b58c3865f8c4b80dfea15":[12,0,1,571,8],
 "classMR_1_1ShadowsGL.html#a9d6d931d3b779b456540569abbceb962":[10,0,10,585,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "classMR_1_1SurfaceContoursWidget.html#ab8d692547325ba27bcae04c25a9802fb":[10,0,10,615,16],
 "classMR_1_1SurfaceContoursWidget.html#ab8d692547325ba27bcae04c25a9802fb":[12,0,1,601,16],
 "classMR_1_1SurfaceContoursWidget.html#af2cdd3ac4ccfbba1371c9cc0b6bb6f04":[10,0,10,615,22],
-"classMR_1_1SurfaceContoursWidget.html#af2cdd3ac4ccfbba1371c9cc0b6bb6f04":[12,0,1,601,22],
-"classMR_1_1SurfaceContoursWidget.html#afa281665f1a80c27506cb5b70bac3a9c":[10,0,10,615,21],
-"classMR_1_1SurfaceContoursWidget.html#afa281665f1a80c27506cb5b70bac3a9c":[12,0,1,601,21]
+"classMR_1_1SurfaceContoursWidget.html#af2cdd3ac4ccfbba1371c9cc0b6bb6f04":[12,0,1,601,22]
 };

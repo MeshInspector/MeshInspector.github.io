@@ -125,6 +125,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4fc483cb7fd8b04e2e37761a891b6a15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41d907a6c720ef37eb8620caba3be739" id="r_a41d907a6c720ef37eb8620caba3be739"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a>, ObjId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41d907a6c720ef37eb8620caba3be739">calculateTransformations</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="separator:a41d907a6c720ef37eb8620caba3be739"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35f4c37c46a21c889beb5aaf745935bb" id="r_a35f4c37c46a21c889beb5aaf745935bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a>, ObjId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35f4c37c46a21c889beb5aaf745935bb">calculateTransformationsFixFirst</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:a35f4c37c46a21c889beb5aaf745935bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afab250201279bb04e86b137138ef54de" id="r_afab250201279bb04e86b137138ef54de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afab250201279bb04e86b137138ef54de">resamplePoints</a> (const <a class="el" href="structMR_1_1MultiwayICPSamplingParameters.html">MultiwayICPSamplingParameters</a> &amp;samplingParams)</td></tr>
 <tr class="memdesc:afab250201279bb04e86b137138ef54de"><td class="mdescLeft">&#160;</td><td class="mdescRight">select pairs with origin samples on all objects  <br /></td></tr>
 <tr class="separator:afab250201279bb04e86b137138ef54de"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -223,7 +225,33 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>runs <a class="el" href="classMR_1_1ICP.html">ICP</a> algorithm given input objects, transformations, and parameters; </p><dl class="section return"><dt>Returns</dt><dd>adjusted transformations of all objects to reach registered state </dd></dl>
+<p>runs <a class="el" href="classMR_1_1ICP.html">ICP</a> algorithm given input objects, transformations, and parameters; </p><dl class="section return"><dt>Returns</dt><dd>adjusted transformations of all objects to reach registered state the transformation of the last object is fixed and does not change here </dd></dl>
+
+</div>
+</div>
+<a id="a35f4c37c46a21c889beb5aaf745935bb" name="a35f4c37c46a21c889beb5aaf745935bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35f4c37c46a21c889beb5aaf745935bb">&#9670;&#160;</a></span>calculateTransformationsFixFirst()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="namespaceMR.html#aa6aef12a70b925ce549073070e725099">AffineXf3f</a>, ObjId &gt; MR::MultiwayICP::calculateTransformationsFixFirst </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>runs <a class="el" href="classMR_1_1ICP.html">ICP</a> algorithm given input objects, transformations, and parameters; </p><dl class="section return"><dt>Returns</dt><dd>adjusted transformations of all objects to reach registered state the transformation of the first object is fixed and does not change here </dd></dl>
 
 </div>
 </div>

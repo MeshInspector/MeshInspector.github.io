@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1CutMeshParameters.html#ae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680":[9,8,2,0,2],
+"structMR_1_1CutMeshResult.html":[9,8,3],
 "structMR_1_1CutMeshResult.html#a5fd92baa79aac5e503e3310ab91fb400":[9,8,3,1],
 "structMR_1_1CutMeshResult.html#acc676bb755e4af3c177664745a989954":[9,8,3,0],
 "structMR_1_1DecimateParallelSettings.html":[9,10,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1DoubleOffsetSettings.html#a7338b38b26ada80c399b32ba147f7ac1":[10,0,10,185,4],
 "structMR_1_1DoubleOffsetSettings.html#a7338b38b26ada80c399b32ba147f7ac1":[12,0,1,171,4],
 "structMR_1_1DoubleOffsetSettings.html#aa5cfa224b05a400e1911699259e1b549":[10,0,10,185,0],
-"structMR_1_1DoubleOffsetSettings.html#aa5cfa224b05a400e1911699259e1b549":[12,0,1,171,0],
-"structMR_1_1DoubleOffsetSettings.html#ab41301545b4f7cbc6d8c531442b1965c":[10,0,10,185,2],
-"structMR_1_1DoubleOffsetSettings.html#ab41301545b4f7cbc6d8c531442b1965c":[12,0,1,171,2]
+"structMR_1_1DoubleOffsetSettings.html#aa5cfa224b05a400e1911699259e1b549":[12,0,1,171,0]
 };
