@@ -212,6 +212,7 @@ var NAVTREEINDEX7 =
 "MRMesh_2MRString_8h.html#a2584c6bf8d14b42355582e7b634bb1ee":[13,0,0,2,4,319,2],
 "MRMesh_2MRString_8h.html#aad02dff14ccec10b269b5073bb74ca63":[13,0,0,2,4,319,5],
 "MRMesh_2MRString_8h.html#afc584d61fd54ca2a86dec086736fdfd4":[13,0,0,2,4,319,3],
+"MRMesh_2MRString_8h.html#afc9f574268d072e85d31e140353743df":[13,0,0,2,4,319,6],
 "MRMesh_2MRString_8h_source.html":[13,0,0,2,4,319],
 "MRMesh_2MRTorus_8h.html":[13,0,0,2,4,335],
 "MRMesh_2MRTorus_8h.html#a04928fbb61dfb4922c926c1e5d2dce8e":[13,0,0,2,4,335,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "MRMouse_8h.html#a067afc36528fa2a554ff76aaa10efb75a6adf97f83acf6453d4a6a4b1070f3754":[13,0,0,2,11,41,1,0],
 "MRMouse_8h.html#a067afc36528fa2a554ff76aaa10efb75a6dd08874f83507e9c7b23f1a46b7fa7c":[13,0,0,2,11,41,1,2],
 "MRMouse_8h.html#a067afc36528fa2a554ff76aaa10efb75ae93f994f01c537c4e2f7d8528c3eb5e9":[13,0,0,2,11,41,1,4],
-"MRMouse_8h.html#a067afc36528fa2a554ff76aaa10efb75af1a42bd417390fc63b030a519624607a":[13,0,0,2,11,41,1,1],
-"MRMouse_8h.html#a13f98b7840e7298925ef1770b7cdb62d":[13,0,0,2,11,41,0]
+"MRMouse_8h.html#a067afc36528fa2a554ff76aaa10efb75af1a42bd417390fc63b030a519624607a":[13,0,0,2,11,41,1,1]
 };

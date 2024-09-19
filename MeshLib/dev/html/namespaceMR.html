@@ -4554,6 +4554,9 @@ Functions</h2></td></tr>
 <tr class="memitem:afc584d61fd54ca2a86dec086736fdfd4" id="r_afc584d61fd54ca2a86dec086736fdfd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc584d61fd54ca2a86dec086736fdfd4">replaceInplace</a> (std::string &amp;target, std::string_view from, std::string_view to)</td></tr>
 <tr class="memdesc:afc584d61fd54ca2a86dec086736fdfd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces.  <br /></td></tr>
 <tr class="separator:afc584d61fd54ca2a86dec086736fdfd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc9f574268d072e85d31e140353743df" id="r_afc9f574268d072e85d31e140353743df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc9f574268d072e85d31e140353743df">trimRight</a> (std::string_view str)</td></tr>
+<tr class="memdesc:afc9f574268d072e85d31e140353743df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all whitespace character (detected by std::isspace) at the end of string view.  <br /></td></tr>
+<tr class="separator:afc9f574268d072e85d31e140353743df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga543d43a804760961ac67ad3689330c1d" id="r_ga543d43a804760961ac67ad3689330c1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::wstring&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga543d43a804760961ac67ad3689330c1d">utf8ToWide</a> (const char *utf8)</td></tr>
 <tr class="memdesc:ga543d43a804760961ac67ad3689330c1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts UTF8-encoded string into UTF16-encoded string  <br /></td></tr>
 <tr class="separator:ga543d43a804760961ac67ad3689330c1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -27845,6 +27848,33 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <p>If the triangles are disjoint, p and q give the closest points of s and t respectively. However, if the triangles overlap, p and q are basically a random pair of points from the triangles, not coincident points on the intersection of the triangles, as might be expected. </p>
+
+</div>
+</div>
+<a id="afc9f574268d072e85d31e140353743df" name="afc9f574268d072e85d31e140353743df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc9f574268d072e85d31e140353743df">&#9670;&#160;</a></span>trimRight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string_view MR::trimRight </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>str</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Removes all whitespace character (detected by std::isspace) at the end of string view. </p>
 
 </div>
 </div>

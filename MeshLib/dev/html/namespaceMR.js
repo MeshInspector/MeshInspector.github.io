@@ -2529,6 +2529,7 @@ var namespaceMR =
     [ "triangleWithNormal", "namespaceMR.html#a5b210182919ce9a4fe5cdce5115f4cc3", null ],
     [ "triangulatePointCloud", "group__PointCloudTriangulationGroup.html#ga9d337ad4ab25ed0b9ad75512670ca1df", null ],
     [ "TriDist", "namespaceMR.html#a068b87fd749129c9bc76263ce77fe9af", null ],
+    [ "trimRight", "namespaceMR.html#afc9f574268d072e85d31e140353743df", null ],
     [ "trimWithPlane", "namespaceMR.html#a78e47a236b40c37e37f62d6571c3f1b4", null ],
     [ "trimWithPlane", "namespaceMR.html#ae11b2e799c8ac0a4a0308bdf021b1600", null ],
     [ "trimWithPlane", "namespaceMR.html#a8adf5f7ec5a447160198b2612ddb0b11", null ],
