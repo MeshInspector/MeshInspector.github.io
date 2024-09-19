@@ -16,6 +16,6 @@ var namespaceMR_1_1PlanarTriangulation =
     [ "getOutlineMesh", "namespaceMR_1_1PlanarTriangulation.html#a901fef65581a41fd25371dee75fa5ab9", null ],
     [ "triangulateContours", "namespaceMR_1_1PlanarTriangulation.html#a3a4d8b0d7301b69cd93de010d000bbcc", null ],
     [ "triangulateContours", "namespaceMR_1_1PlanarTriangulation.html#adeb4ce509fc66338b9d870c64aefde19", null ],
-    [ "triangulateDisjointContours", "namespaceMR_1_1PlanarTriangulation.html#acaf8578bc4d6e4f5ec87031b5549ef6a", null ],
-    [ "triangulateDisjointContours", "namespaceMR_1_1PlanarTriangulation.html#aeff59edbcb2b72dbdd615b96cb0d2c93", null ]
+    [ "triangulateDisjointContours", "namespaceMR_1_1PlanarTriangulation.html#a31ee3df5527e56120039ae242d069783", null ],
+    [ "triangulateDisjointContours", "namespaceMR_1_1PlanarTriangulation.html#ad078fde77ddac53c2c051b56888617e1", null ]
 ];
