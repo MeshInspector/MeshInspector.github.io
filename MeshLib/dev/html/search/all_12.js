@@ -402,7 +402,7 @@ var searchData=
   ['push_5fback_399',['push_back',['../classMR_1_1Vector.html#a78fa1b6365aa64b3aec65883530dc735',1,'MR::Vector::push_back(const T &amp;t)'],['../classMR_1_1Vector.html#afc885715482436dc55e4e61a60ef05dc',1,'MR::Vector::push_back(T &amp;&amp;t)']]],
   ['pushback_400',['pushBack',['../classMR_1_1ColorMapAggregator.html#a69399c15f5244a65b67dbe5be5754a50',1,'MR::ColorMapAggregator']]],
   ['pushcolorscb_401',['pushColorsCb',['../structMR_1_1CustomButtonParameters.html#ad01797d49f38c7175a5ca759d5064866',1,'MR::CustomButtonParameters']]],
-  ['pushnotification_402',['pushNotification',['../classMR_1_1RibbonMenu.html#a7f8710e42ebc3f17afd26e3094fe76b4',1,'MR::RibbonMenu::pushNotification()'],['../classMR_1_1RibbonNotifier.html#aacb60c1f6562349256ff44fce0021c0b',1,'MR::RibbonNotifier::pushNotification()'],['../namespaceMR.html#a8943649eb4ec189757d628d6b1f9779f',1,'MR::pushNotification()']]],
+  ['pushnotification_402',['pushNotification',['../classMR_1_1RibbonMenu.html#a7f8710e42ebc3f17afd26e3094fe76b4',1,'MR::RibbonMenu::pushNotification()'],['../classMR_1_1RibbonNotifier.html#a18fcad081432948484875c94f55a1be4',1,'MR::RibbonNotifier::pushNotification()'],['../namespaceMR.html#a8943649eb4ec189757d628d6b1f9779f',1,'MR::pushNotification()']]],
   ['pushrecentitem_403',['pushRecentItem',['../classMR_1_1RibbonMenuSearch.html#ac74ec292a21908372b2925b5aa868cf8',1,'MR::RibbonMenuSearch']]],
   ['pushtree_404',['pushTree',['../namespaceMR_1_1UI_1_1TestEngine.html#afac37f1a33604b207f8d30279b255ad2',1,'MR::UI::TestEngine']]],
   ['put_405',['Put',['../classMR_1_1WebRequest.html#ace710e20f931b5a3da04f21f16c5ab0cad0bf1810982e9728fcf3ac444a015373',1,'MR::WebRequest']]],

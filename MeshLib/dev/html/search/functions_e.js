@@ -57,7 +57,7 @@ var searchData=
   ['ontouchstart_5f_54',['onTouchStart_',['../structMR_1_1TouchStartListener.html#abd9d0182569d3b60cf636495e4543172',1,'MR::TouchStartListener']]],
   ['onupdate_55',['onUpdate',['../classMR_1_1RecentFilesStore.html#a1875cd68c58a0a3c20766750d0768342',1,'MR::RecentFilesStore']]],
   ['open_56',['open',['../classMR_1_1File.html#a20254d5bbf7df8159f1c75a0de21f819',1,'MR::File']]],
-  ['opencustomize_57',['openCustomize',['../classMR_1_1Toolbar.html#ac34cf0a0d5a30948b358c65dc33778ed',1,'MR::Toolbar']]],
+  ['opencustomize_57',['openCustomize',['../classMR_1_1Toolbar.html#a3be49d3ddff1a47ec672a3509ded6799',1,'MR::Toolbar']]],
   ['opendicomsmenuitem_58',['OpenDICOMsMenuItem',['../classMR_1_1OpenDICOMsMenuItem.html#afff7b73e7857e5eff442b9c8fea806ad',1,'MR::OpenDICOMsMenuItem']]],
   ['opendirectory_59',['openDirectory',['../classMR_1_1OpenDirectoryMenuItem.html#ad480b9d10b92efda1041fbbb67fe8cb2',1,'MR::OpenDirectoryMenuItem']]],
   ['opendirectorymenuitem_60',['OpenDirectoryMenuItem',['../classMR_1_1OpenDirectoryMenuItem.html#a9b247e419f48e278a2836eb114d8d0bd',1,'MR::OpenDirectoryMenuItem']]],
