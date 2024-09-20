@@ -31,7 +31,6 @@ var dir_0548e20a3bcd59381bf0bdb32f67cd97 =
     [ "MRVoxelGraphCut.h", "MRVoxelGraphCut_8h.html", "MRVoxelGraphCut_8h" ],
     [ "MRVoxelPath.h", "MRVoxelPath_8h.html", "MRVoxelPath_8h" ],
     [ "MRVoxelsApplyTransform.h", "MRVoxelsApplyTransform_8h.html", "MRVoxelsApplyTransform_8h" ],
-    [ "MRVoxelsConversions.h", "MRVoxelsConversions_8h.html", null ],
     [ "MRVoxelsConversionsByParts.h", "MRVoxelsConversionsByParts_8h.html", "MRVoxelsConversionsByParts_8h" ],
     [ "MRVoxelsFwd.h", "MRVoxelsFwd_8h.html", "MRVoxelsFwd_8h" ],
     [ "MRVoxelsLoad.h", "MRVoxelsLoad_8h.html", "MRVoxelsLoad_8h" ],

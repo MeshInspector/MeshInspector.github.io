@@ -267,7 +267,7 @@ var namespaceMR =
     [ "EdgePointPair", "structMR_1_1EdgePointPair.html", "structMR_1_1EdgePointPair" ],
     [ "EdgeSegment", "structMR_1_1EdgeSegment.html", "structMR_1_1EdgeSegment" ],
     [ "EdgeTri", "structMR_1_1EdgeTri.html", "structMR_1_1EdgeTri" ],
-    [ "EmbeddedPython", "classMR_1_1EmbeddedPython.html", null ],
+    [ "EmbeddedPython", "classMR_1_1EmbeddedPython.html", "classMR_1_1EmbeddedPython" ],
     [ "EmbeddedStructureParameters", "structMR_1_1EmbeddedStructureParameters.html", "structMR_1_1EmbeddedStructureParameters" ],
     [ "EnumNeihbourFaces", "classMR_1_1EnumNeihbourFaces.html", "classMR_1_1EnumNeihbourFaces" ],
     [ "EnumNeihbourVertices", "classMR_1_1EnumNeihbourVertices.html", "classMR_1_1EnumNeihbourVertices" ],

@@ -72,7 +72,7 @@ var searchData=
   ['conefittingfunctor_69',['ConeFittingFunctor',['../structMR_1_1ConeFittingFunctor.html',1,'MR']]],
   ['coneobject_70',['ConeObject',['../classMR_1_1ConeObject.html',1,'MR']]],
   ['conesegment_71',['ConeSegment',['../structMR_1_1Features_1_1Primitives_1_1ConeSegment.html',1,'MR::Features::Primitives']]],
-  ['config_72',['Config',['../classMR_1_1Config.html',1,'MR']]],
+  ['config_72',['Config',['../classMR_1_1Config.html',1,'MR::Config'],['../structMR_1_1EmbeddedPython_1_1Config.html',1,'MR::EmbeddedPython::Config']]],
   ['connectionholder_73',['ConnectionHolder',['../structMR_1_1ConnectionHolder.html',1,'MR']]],
   ['constantcuspparams_74',['ConstantCuspParams',['../structMR_1_1ConstantCuspParams.html',1,'MR']]],
   ['contourscut_75',['ContoursCut',['../classContoursCut.html',1,'']]],

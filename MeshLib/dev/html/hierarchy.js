@@ -206,6 +206,7 @@ var hierarchy =
     [ "MR::ConeFittingFunctor< T >", "structMR_1_1ConeFittingFunctor.html", null ],
     [ "MR::Features::Primitives::ConeSegment", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html", null ],
     [ "MR::Config", "classMR_1_1Config.html", null ],
+    [ "MR::EmbeddedPython::Config", "structMR_1_1EmbeddedPython_1_1Config.html", null ],
     [ "Connectables...", null, [
       [ "MR::MultiListener< MouseDownListener, MouseMoveListener >", "structMR_1_1MultiListener.html", [
         [ "MR::BoundarySelectionWidget", "classMR_1_1BoundarySelectionWidget.html", null ],

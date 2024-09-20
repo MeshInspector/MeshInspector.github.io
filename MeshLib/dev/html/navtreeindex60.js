@@ -1,7 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"structMR_1_1DoubleOffsetSettings.html#a6efd8487cfb1467ad4247b7cea3fc74c":[12,0,1,171,7],
-"structMR_1_1DoubleOffsetSettings.html#a7338b38b26ada80c399b32ba147f7ac1":[10,0,10,185,4],
 "structMR_1_1DoubleOffsetSettings.html#a7338b38b26ada80c399b32ba147f7ac1":[12,0,1,171,4],
 "structMR_1_1DoubleOffsetSettings.html#aa5cfa224b05a400e1911699259e1b549":[10,0,10,185,0],
 "structMR_1_1DoubleOffsetSettings.html#aa5cfa224b05a400e1911699259e1b549":[12,0,1,171,0],
@@ -184,6 +182,12 @@ var NAVTREEINDEX60 =
 "structMR_1_1EdgeTri.html#a75d3cbfc185bb135fa0ecacfa0eea64e":[9,1,16,2],
 "structMR_1_1EdgeTri.html#abc6f03d4ca7344789c80a99a10605739":[9,1,16,0],
 "structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318":[9,1,16,3],
+"structMR_1_1EmbeddedPython_1_1Config.html":[10,0,10,199,0],
+"structMR_1_1EmbeddedPython_1_1Config.html":[12,0,1,185,0],
+"structMR_1_1EmbeddedPython_1_1Config.html#a172af80d129ecab54d4c310e812523a5":[10,0,10,199,0,0],
+"structMR_1_1EmbeddedPython_1_1Config.html#a172af80d129ecab54d4c310e812523a5":[12,0,1,185,0,0],
+"structMR_1_1EmbeddedPython_1_1Config.html#ae17ecbf3ed9c59e47c91c7ddc1b173aa":[10,0,10,199,0,1],
+"structMR_1_1EmbeddedPython_1_1Config.html#ae17ecbf3ed9c59e47c91c7ddc1b173aa":[12,0,1,185,0,1],
 "structMR_1_1EmbeddedStructureParameters.html":[10,0,10,200],
 "structMR_1_1EmbeddedStructureParameters.html":[12,0,1,186],
 "structMR_1_1EmbeddedStructureParameters.html#a05c78c11ae3e84bc6ecb2f3ea9baf462":[10,0,10,200,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1FeatureObjectProjectPointResult.html#aaadfbfcace0b2432aceeaf49637c711f":[10,0,10,209,1],
 "structMR_1_1FeatureObjectProjectPointResult.html#aaadfbfcace0b2432aceeaf49637c711f":[12,0,1,195,1],
 "structMR_1_1FeatureObjectSharedProperty.html":[10,0,10,210],
-"structMR_1_1FeatureObjectSharedProperty.html":[12,0,1,196],
-"structMR_1_1FeatureObjectSharedProperty.html#a6180b92925783a60e6236c09f9967409":[10,0,10,210,1],
-"structMR_1_1FeatureObjectSharedProperty.html#a6180b92925783a60e6236c09f9967409":[12,0,1,196,1],
-"structMR_1_1FeatureObjectSharedProperty.html#a863b69e9cebfcc8c5f242a7b655083c9":[10,0,10,210,4],
-"structMR_1_1FeatureObjectSharedProperty.html#a863b69e9cebfcc8c5f242a7b655083c9":[12,0,1,196,4]
+"structMR_1_1FeatureObjectSharedProperty.html":[12,0,1,196]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1InterruptCloseListener.html#a93d20fb33a5fdc587397d3cbd079d6c7":[12,0,1,260,1],
+"structMR_1_1InterruptCloseListener.html#a9b215bb36d1f025f2b907911acc49542":[10,0,10,274,0],
+"structMR_1_1InterruptCloseListener.html#a9b215bb36d1f025f2b907911acc49542":[12,0,1,260,0],
+"structMR_1_1InterruptCloseListener.html#a9cd1676a4e7cfec815de633788a28894":[10,0,10,274,3],
 "structMR_1_1InterruptCloseListener.html#a9cd1676a4e7cfec815de633788a28894":[12,0,1,260,3],
 "structMR_1_1InterruptCloseListener.html#af380fa89eb3a2d038f3c24cd2d703ec6":[10,0,10,274,2],
 "structMR_1_1InterruptCloseListener.html#af380fa89eb3a2d038f3c24cd2d703ec6":[12,0,1,260,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a93fbaf0d7a2c10d26661c66f178f5ddf":[12,0,1,298,1,0],
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html#aa1adf8bb92d44c2f71e211d90450d693":[10,0,10,312,1,8],
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html#aa1adf8bb92d44c2f71e211d90450d693":[12,0,1,298,1,8],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#aa6c82acf94b57d6ad1303565db222dba":[10,0,10,312,1,7],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#aa6c82acf94b57d6ad1303565db222dba":[12,0,1,298,1,7],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#ab01dc48d4adf11728ae3fe0802e1e0dd":[10,0,10,312,1,6],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#ab01dc48d4adf11728ae3fe0802e1e0dd":[12,0,1,298,1,6],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#ada8d178143f6e08583ce6661e7e48c21":[10,0,10,312,1,3]
+"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#aa6c82acf94b57d6ad1303565db222dba":[10,0,10,312,1,7]
 };

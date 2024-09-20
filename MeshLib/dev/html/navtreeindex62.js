@@ -1,5 +1,9 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1FindOverlappingSettings.html#ac272f940af3bc9c5f3f0932e466a5f8e":[10,0,10,220,0],
+"structMR_1_1FindOverlappingSettings.html#ac272f940af3bc9c5f3f0932e466a5f8e":[12,0,1,206,0],
+"structMR_1_1FindOverlappingSettings.html#ad9c6b8c3584ffef1a49795f794fced8d":[10,0,10,220,1],
+"structMR_1_1FindOverlappingSettings.html#ad9c6b8c3584ffef1a49795f794fced8d":[12,0,1,206,1],
 "structMR_1_1FitBoxParams.html":[10,0,10,221],
 "structMR_1_1FitBoxParams.html":[12,0,1,207],
 "structMR_1_1FitBoxParams.html#a5594292518e53a54c005c6e95576306d":[10,0,10,221,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1IPointPairs.html#a3dd0343a154cad09f33735a106dcc64b":[10,0,10,280,6],
 "structMR_1_1IPointPairs.html#a3dd0343a154cad09f33735a106dcc64b":[12,0,1,266,6],
 "structMR_1_1IPointPairs.html#a3fcd8de5d97b49b84e9c984b494f10dc":[10,0,10,280,1],
-"structMR_1_1IPointPairs.html#a3fcd8de5d97b49b84e9c984b494f10dc":[12,0,1,266,1],
-"structMR_1_1IPointPairs.html#a995abf137ecf1f8e0771844779cc9405":[10,0,10,280,2],
-"structMR_1_1IPointPairs.html#a995abf137ecf1f8e0771844779cc9405":[12,0,1,266,2],
-"structMR_1_1IPointPairs.html#ab45a73b14fac3dc080a3e99e4070de26":[10,0,10,280,5],
-"structMR_1_1IPointPairs.html#ab45a73b14fac3dc080a3e99e4070de26":[12,0,1,266,5]
+"structMR_1_1IPointPairs.html#a3fcd8de5d97b49b84e9c984b494f10dc":[12,0,1,266,1]
 };

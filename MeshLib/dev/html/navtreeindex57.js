@@ -1,7 +1,5 @@
 var NAVTREEINDEX57 =
 {
-"structMR_1_1AncillaryLabel.html#a070a922323be7efce55dd8c8690ea31f":[10,0,10,54,5],
-"structMR_1_1AncillaryLabel.html#a070a922323be7efce55dd8c8690ea31f":[12,0,1,40,5],
 "structMR_1_1AncillaryLabel.html#a16025faba8e564c0ffa83a7e2f72bf40":[10,0,10,54,6],
 "structMR_1_1AncillaryLabel.html#a16025faba8e564c0ffa83a7e2f72bf40":[12,0,1,40,6],
 "structMR_1_1AncillaryLabel.html#a4ad01ecea78683580f97a7bc98dee31b":[10,0,10,54,11],
@@ -249,5 +247,7 @@ var NAVTREEINDEX57 =
 "structMR_1_1BooleanResult.html#a2d3a10c35e289abf78a95bd3005b9486":[9,8,4,7],
 "structMR_1_1BooleanResult.html#a48ebd7d576c05349da5aab0f92e0d289":[9,8,4,5],
 "structMR_1_1BooleanResult.html#a5158c930dad94ff45198508c2b01788a":[9,8,4,9],
-"structMR_1_1BooleanResult.html#a78e59aeca9497a9c74d7512157fcf5df":[9,8,4,6]
+"structMR_1_1BooleanResult.html#a78e59aeca9497a9c74d7512157fcf5df":[9,8,4,6],
+"structMR_1_1BooleanResult.html#a9e97978ae79fbc9acc8c2bdb8ef40c12":[9,8,4,8],
+"structMR_1_1BooleanResult.html#aa632af00548f4dfb2a5e70d9518e874f":[9,8,4,3]
 };
