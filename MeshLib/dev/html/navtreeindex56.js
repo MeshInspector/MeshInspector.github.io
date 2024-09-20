@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"structEdgeTri.html#abaae98abd35212fc0e230eac31fec15f":[12,0,14,0],
 "structICPProperties.html":[12,0,17],
 "structICPProperties.html#a04a5c71034cfed8337889fb3397c03d3":[12,0,17,6],
 "structICPProperties.html#a075576c49800635397620eb01134b8b7":[12,0,17,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "structMR_1_1AncillaryLabel.html":[10,0,10,54],
 "structMR_1_1AncillaryLabel.html":[12,0,1,40],
 "structMR_1_1AncillaryLabel.html#a070a922323be7efce55dd8c8690ea31f":[10,0,10,54,5],
-"structMR_1_1AncillaryLabel.html#a070a922323be7efce55dd8c8690ea31f":[12,0,1,40,5],
-"structMR_1_1AncillaryLabel.html#a16025faba8e564c0ffa83a7e2f72bf40":[10,0,10,54,6]
+"structMR_1_1AncillaryLabel.html#a070a922323be7efce55dd8c8690ea31f":[12,0,1,40,5]
 };

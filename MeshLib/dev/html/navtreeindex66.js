@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1MeshApproxRelaxParams.html#aed8137acdd95c73e5606d4ad5fa7e3ae":[9,9,6,2,0],
 "structMR_1_1MeshAttributesToUpdate.html":[10,0,10,324],
 "structMR_1_1MeshAttributesToUpdate.html":[12,0,1,310],
 "structMR_1_1MeshAttributesToUpdate.html#a161c46fbd4edb96386ef840eb0fe9fc7":[10,0,10,324,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1MeshTriPoint.html#a16e988e643929d407301f793664a431a":[9,7,3,0],
 "structMR_1_1MeshTriPoint.html#a1709949fd7429ecfaa96a98d1876f5b2":[9,7,3,12],
 "structMR_1_1MeshTriPoint.html#a3eb261b602a6bb5dc6342b8a585f3a7c":[9,7,3,13],
-"structMR_1_1MeshTriPoint.html#a448317ec66d714fc3faa1d0bd3b64867":[9,7,3,16],
-"structMR_1_1MeshTriPoint.html#a5760034e9833044bad025001f1797a53":[9,7,3,1]
+"structMR_1_1MeshTriPoint.html#a448317ec66d714fc3faa1d0bd3b64867":[9,7,3,16]
 };

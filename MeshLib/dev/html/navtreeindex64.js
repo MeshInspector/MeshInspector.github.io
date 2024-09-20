@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1InterruptCloseListener.html#af380fa89eb3a2d038f3c24cd2d703ec6":[12,0,1,260,2],
 "structMR_1_1IntersectionPrecomputes.html":[9,1,14],
 "structMR_1_1IntersectionPrecomputes2.html":[9,1,15],
 "structMR_1_1IntersectionPrecomputes2.html#a4570f366fea168e1a0346c51fe5108c8":[9,1,15,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html#ab01dc48d4adf11728ae3fe0802e1e0dd":[12,0,1,298,1,6],
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html#ada8d178143f6e08583ce6661e7e48c21":[10,0,10,312,1,3],
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html#ada8d178143f6e08583ce6661e7e48c21":[12,0,1,298,1,3],
-"structMR_1_1Matrix.html":[9,0,7,0],
-"structMR_1_1Matrix.html#a2ad7f900e6b01f0617767997c6b9b640":[9,0,7,0,1]
+"structMR_1_1Matrix.html":[9,0,7,0]
 };
