@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1FeatureObjectSharedProperty.html#a94077bfcbf22ce57417de8758cb67ac1":[10,0,10,210,3],
+"structMR_1_1FeatureObjectSharedProperty.html#a94077bfcbf22ce57417de8758cb67ac1":[12,0,1,196,3],
 "structMR_1_1FeatureObjectSharedProperty.html#abb260f1f2ce1cf3b86553e3b8c213840":[10,0,10,210,0],
 "structMR_1_1FeatureObjectSharedProperty.html#abb260f1f2ce1cf3b86553e3b8c213840":[12,0,1,196,0],
 "structMR_1_1FeatureObjectSharedProperty.html#add72ff1842f783bf1ceae521c7d614ec":[10,0,10,210,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1FindOverlappingSettings.html#ac272f940af3bc9c5f3f0932e466a5f8e":[10,0,10,220,0],
 "structMR_1_1FindOverlappingSettings.html#ac272f940af3bc9c5f3f0932e466a5f8e":[12,0,1,206,0],
 "structMR_1_1FindOverlappingSettings.html#ad9c6b8c3584ffef1a49795f794fced8d":[10,0,10,220,1],
-"structMR_1_1FindOverlappingSettings.html#ad9c6b8c3584ffef1a49795f794fced8d":[12,0,1,206,1],
-"structMR_1_1FitBoxParams.html":[10,0,10,221],
-"structMR_1_1FitBoxParams.html":[12,0,1,207]
+"structMR_1_1FindOverlappingSettings.html#ad9c6b8c3584ffef1a49795f794fced8d":[12,0,1,206,1]
 };
