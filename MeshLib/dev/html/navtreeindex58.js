@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"structMR_1_1BooleanResult.html#a78e59aeca9497a9c74d7512157fcf5df":[9,8,4,6],
 "structMR_1_1BooleanResult.html#a9e97978ae79fbc9acc8c2bdb8ef40c12":[9,8,4,8],
 "structMR_1_1BooleanResult.html#aa632af00548f4dfb2a5e70d9518e874f":[9,8,4,3],
 "structMR_1_1BooleanResult.html#ab6a130e652e944be8b2d65e3ea1c273a":[9,8,4,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1CustomButtonParameters.html#ac4659ddd4f1cc193ad87ef0c017e00eb":[12,0,1,139,0],
 "structMR_1_1CustomButtonParameters.html#ad01797d49f38c7175a5ca759d5064866":[10,0,10,153,1],
 "structMR_1_1CustomButtonParameters.html#ad01797d49f38c7175a5ca759d5064866":[12,0,1,139,1],
-"structMR_1_1CutMeshParameters.html":[9,8,2],
-"structMR_1_1CutMeshParameters.html#a3aaef62dde9c7e4727195071089e409f":[9,8,2,3]
+"structMR_1_1CutMeshParameters.html":[9,8,2]
 };

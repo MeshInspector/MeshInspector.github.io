@@ -6,6 +6,7 @@ var MRVoxelsLoad_8h =
       [ "DenseGrid", "MRVoxelsLoad_8h.html#a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7", null ],
       [ "LevelSet", "MRVoxelsLoad_8h.html#a5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e", null ]
     ] ],
+    [ "createObjectVoxels", "MRVoxelsLoad_8h.html#gab6d9efd801d4414102bbe289c3906326", null ],
     [ "findRawParameters", "MRVoxelsLoad_8h.html#ga36e0b89b1624754a51c853b7254c9223", null ],
     [ "fromAnySupportedFormat", "MRVoxelsLoad_8h.html#ga112e15838444077291559cd2320baedb", null ],
     [ "fromGav", "MRVoxelsLoad_8h.html#ga3a4b1b8a761fbb02df49c120adf8a866", null ],

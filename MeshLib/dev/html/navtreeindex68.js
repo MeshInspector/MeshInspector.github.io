@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1NumSum.html#afd716f4242e9554e7900e18a890be1fa":[12,0,1,367,2],
 "structMR_1_1ObjKindTraits.html":[10,0,10,398],
 "structMR_1_1ObjKindTraits.html":[12,0,1,384],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html":[10,0,10,399],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1Parallel_1_1CallWithTLS.html#abc22f0ca644c177ec27809d7804e79fc":[12,0,1,13,2,1],
 "structMR_1_1Parallel_1_1CallWithTLS.html#ad5299ab010ebcba9b1e37ad61cb59b25":[10,0,10,23,2,0],
 "structMR_1_1Parallel_1_1CallWithTLS.html#ad5299ab010ebcba9b1e37ad61cb59b25":[12,0,1,13,2,0],
-"structMR_1_1Parallel_1_1CallWithTLSMaker.html":[10,0,10,23,3],
-"structMR_1_1Parallel_1_1CallWithTLSMaker.html":[12,0,1,13,3]
+"structMR_1_1Parallel_1_1CallWithTLSMaker.html":[10,0,10,23,3]
 };

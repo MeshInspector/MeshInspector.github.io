@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"structDecimateResult.html#a5016fea3ea875f9113cc85936473f2f5":[12,0,13,1],
 "structEdgeTri.html":[12,0,14],
 "structEdgeTri.html#a0af70f268a000b6a6e5eb938033f3a73":[12,0,14,1],
 "structEdgeTri.html#abaae98abd35212fc0e230eac31fec15f":[12,0,14,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "structMR_1_1AllLocalTriangulations.html#a37b85e8c82a4f3cc21ee54015ba67cbb":[12,0,1,37,1],
 "structMR_1_1AllLocalTriangulations.html#a63033f3b2a1d4be33d6fc4e3d709a2cf":[10,0,10,51,0],
 "structMR_1_1AllLocalTriangulations.html#a63033f3b2a1d4be33d6fc4e3d709a2cf":[12,0,1,37,0],
-"structMR_1_1AncillaryLabel.html":[10,0,10,54],
-"structMR_1_1AncillaryLabel.html":[12,0,1,40]
+"structMR_1_1AncillaryLabel.html":[10,0,10,54]
 };

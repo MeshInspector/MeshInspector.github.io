@@ -31,6 +31,7 @@ var group__VoxelsLoadGroup =
       [ "gridLevelSet", "structMR_1_1VoxelsLoad_1_1RawParameters.html#a5d28afdbdf8874a171bdaa3da9a77db7", null ],
       [ "voxelSize", "structMR_1_1VoxelsLoad_1_1RawParameters.html#afd3e66a2e50b601320d9254e884691dd", null ]
     ] ],
+    [ "MR::VoxelsLoad::createObjectVoxels", "group__VoxelsLoadGroup.html#gab6d9efd801d4414102bbe289c3906326", null ],
     [ "MR::VoxelsLoad::findRawParameters", "group__VoxelsLoadGroup.html#ga36e0b89b1624754a51c853b7254c9223", null ],
     [ "MR::VoxelsLoad::fromAnySupportedFormat", "group__VoxelsLoadGroup.html#ga112e15838444077291559cd2320baedb", null ],
     [ "MR::VoxelsLoad::fromGav", "group__VoxelsLoadGroup.html#ga3a4b1b8a761fbb02df49c120adf8a866", null ],

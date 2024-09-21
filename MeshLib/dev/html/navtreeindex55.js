@@ -1,5 +1,6 @@
 var NAVTREEINDEX55 =
 {
+"namespaceMR_1_1PointCloudComponents.html":[10,0,10,25],
 "namespaceMR_1_1PointsLoad.html":[10,0,10,26],
 "namespaceMR_1_1PointsLoad.html#a017223f665d17204885688a9f3e0d66a":[10,0,10,26,12],
 "namespaceMR_1_1PointsLoad.html#a0f81139db68679c906d09ff033071478":[10,0,10,26,4],
@@ -141,7 +142,7 @@ var NAVTREEINDEX55 =
 "namespaceMR_1_1UI_1_1detail.html#a94d9e7cba8a9ce853aeee7b29b563391":[10,0,10,37,0,4],
 "namespaceMR_1_1UI_1_1detail.html#ab56fe865a416552aa6f504ce57514ae3":[10,0,10,37,0,7],
 "namespaceMR_1_1VoxelsLoad.html":[10,0,10,38],
-"namespaceMR_1_1VoxelsLoad.html#a44442bb9fb78ce9c9668e928460258b9":[10,0,10,38,20],
+"namespaceMR_1_1VoxelsLoad.html#a44442bb9fb78ce9c9668e928460258b9":[10,0,10,38,21],
 "namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19":[10,0,10,38,5],
 "namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7":[10,0,10,38,5,0],
 "namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e":[10,0,10,38,5,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX55 =
 "structDecimateParameters.html#afffe1e27df854e9b7a6ce994c3dadb72":[12,0,12,12],
 "structDecimateResult.html":[12,0,13],
 "structDecimateResult.html#a0104402d244fdd682a4e17071085b8e3":[12,0,13,2],
-"structDecimateResult.html#a414e07a8d79b117bf0778a59d4df0546":[12,0,13,0],
-"structDecimateResult.html#a5016fea3ea875f9113cc85936473f2f5":[12,0,13,1]
+"structDecimateResult.html#a414e07a8d79b117bf0778a59d4df0546":[12,0,13,0]
 };
