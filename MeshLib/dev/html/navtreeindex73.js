@@ -1,5 +1,7 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1SortIntersectionsData.html#a4ffc178d247321fb6150846084fd616a":[10,0,10,597,3],
+"structMR_1_1SortIntersectionsData.html#a4ffc178d247321fb6150846084fd616a":[12,0,1,583,3],
 "structMR_1_1SortIntersectionsData.html#a64cd77d679e163bbff985d79336ae2c4":[10,0,10,597,2],
 "structMR_1_1SortIntersectionsData.html#a64cd77d679e163bbff985d79336ae2c4":[12,0,1,583,2],
 "structMR_1_1SortIntersectionsData.html#ac190f44f37a1e2b9ece5d869fe02015d":[10,0,10,597,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#aa8849bb4bffd6166d4ee7359da6b2c31":[12,0,1,612,0,0],
 "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#ad47933a9cf1030b769dce59bc9a3d1ab":[10,0,10,626,0,1],
 "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#ad47933a9cf1030b769dce59bc9a3d1ab":[12,0,1,612,0,1],
-"structMR_1_1TerminalVertex.html":[10,0,10,627],
-"structMR_1_1TerminalVertex.html":[12,0,1,613],
-"structMR_1_1TerminalVertex.html#ab851f9e73d6568c7bda22cae8c669238":[10,0,10,627,0]
+"structMR_1_1TerminalVertex.html":[10,0,10,627]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1TerminalVertex.html":[12,0,1,613],
+"structMR_1_1TerminalVertex.html#ab851f9e73d6568c7bda22cae8c669238":[10,0,10,627,0],
 "structMR_1_1TerminalVertex.html#ab851f9e73d6568c7bda22cae8c669238":[12,0,1,613,0],
 "structMR_1_1TerminalVertex.html#ae7c419aebb40aa7937984ceba3489254":[10,0,10,627,1],
 "structMR_1_1TerminalVertex.html#ae7c419aebb40aa7937984ceba3489254":[12,0,1,613,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1TransformControls_1_1VisualParams.html#a5de0577e4227b12317f5bd798b77fbec":[10,0,10,651,0,4],
 "structMR_1_1TransformControls_1_1VisualParams.html#a5de0577e4227b12317f5bd798b77fbec":[12,0,1,637,0,4],
 "structMR_1_1TransformControls_1_1VisualParams.html#a73b98ea29d5b5bd3e934357536430ea4":[10,0,10,651,0,8],
-"structMR_1_1TransformControls_1_1VisualParams.html#a73b98ea29d5b5bd3e934357536430ea4":[12,0,1,637,0,8],
-"structMR_1_1TransformControls_1_1VisualParams.html#ab232521ec4f30e4a605bf3081a838aab":[10,0,10,651,0,6],
-"structMR_1_1TransformControls_1_1VisualParams.html#ab232521ec4f30e4a605bf3081a838aab":[12,0,1,637,0,6]
+"structMR_1_1TransformControls_1_1VisualParams.html#a73b98ea29d5b5bd3e934357536430ea4":[12,0,1,637,0,8]
 };

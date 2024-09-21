@@ -39,6 +39,8 @@ var group__IOGroup =
     [ "MR::VoxelsSave::saveAllSlicesToImage", "group__IOGroup.html#gaf1783a7501a99d41a1fff81362e4156f", null ],
     [ "MR::VoxelsSave::saveSliceToImage", "group__IOGroup.html#gaad04846cf9a1827961061cad6584b257", null ],
     [ "MR::VoxelsSave::toAnySupportedFormat", "group__IOGroup.html#ga54a523f1de4e87fa350387e42a1d532c", null ],
+    [ "MR::VoxelsSave::toDCM", "group__IOGroup.html#gad28f0021add384177a2435d8f60b63b9", null ],
+    [ "MR::VoxelsSave::toDCM", "group__IOGroup.html#ga54bea530a769fcbe15b6e7773b1af298", null ],
     [ "MR::VoxelsSave::toGav", "group__IOGroup.html#gaa2dcaa0924a21995bd2d0d575c0cdd44", null ],
     [ "MR::VoxelsSave::toGav", "group__IOGroup.html#gaccd8877a5b6ca37e3149cfd8d8e854d9", null ],
     [ "MR::VoxelsSave::toRawAutoname", "group__IOGroup.html#gae174614a84fb3e272ab10bd1142653a5", null ],
