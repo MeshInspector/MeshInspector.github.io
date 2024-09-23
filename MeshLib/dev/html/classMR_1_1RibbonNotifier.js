@@ -1,5 +1,5 @@
 var classMR_1_1RibbonNotifier =
 [
-    [ "drawNotifications", "classMR_1_1RibbonNotifier.html#acfb3043c4bc962f50f22d0eff3d1dc4c", null ],
+    [ "draw", "classMR_1_1RibbonNotifier.html#a9570ddf2c2e3b7cbe96b77c5174f171e", null ],
     [ "pushNotification", "classMR_1_1RibbonNotifier.html#a18fcad081432948484875c94f55a1be4", null ]
 ];

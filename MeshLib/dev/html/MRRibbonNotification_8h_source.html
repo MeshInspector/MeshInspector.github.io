@@ -147,8 +147,8 @@ $(function(){initNavTree('MRRibbonNotification_8h_source.html',''); initResizabl
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="comment">// adds new notification for drawing</span></div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonNotifier.html#a18fcad081432948484875c94f55a1be4">   37</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonNotifier.html#a18fcad081432948484875c94f55a1be4">pushNotification</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1RibbonNotification.html">RibbonNotification</a>&amp; notification );</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="comment">// draws all present notifications</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonNotifier.html#acfb3043c4bc962f50f22d0eff3d1dc4c">   39</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonNotifier.html#acfb3043c4bc962f50f22d0eff3d1dc4c">drawNotifications</a>( <span class="keywordtype">float</span> scaling );</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="comment">// main draw function. draw actual notification or history, and history button</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="classMR_1_1RibbonNotifier.html#a9570ddf2c2e3b7cbe96b77c5174f171e">   39</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1RibbonNotifier.html#a9570ddf2c2e3b7cbe96b77c5174f171e">draw</a>( <span class="keywordtype">float</span> scaling, <span class="keywordtype">float</span> scenePosX );</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keyword">struct </span>NotificationWithTimer</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    {</div>
@@ -157,22 +157,35 @@ $(function(){initNavTree('MRRibbonNotification_8h_source.html',''); initResizabl
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordtype">int</span> sameCounter = 1;</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    };</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    std::vector&lt;NotificationWithTimer&gt; notifications_;</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordtype">void</span> filterInvalid_( <span class="keywordtype">int</span> numInvalid = -1 );</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#ifndef __EMSCRIPTEN__</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    Time requestedTime_{ Time::max() };</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    AsyncRequest asyncRequest_;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keywordtype">void</span> requestClosestRedraw_();</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>};</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    std::vector&lt;NotificationWithTimer&gt; notificationsHistory_;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    NotificationType highestNotification_ = NotificationType::Count;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordtype">bool</span> requestRedraw_ = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordtype">bool</span> historyMode_ = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">#ifndef __EMSCRIPTEN__</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    Time requestedTime_{ Time::max() };</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    AsyncRequest asyncRequest_;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="comment">// draw button to show last notifications</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordtype">void</span> drawHistoryButton_( <span class="keywordtype">float</span> scaling, <span class="keywordtype">float</span> scenePosX );</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="comment">// draw notification history</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">void</span> drawHistory_( <span class="keywordtype">float</span> scaling, <span class="keywordtype">float</span> scenePosX );</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="comment">// draws all present notifications</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordtype">void</span> drawNotifications_( <span class="keywordtype">float</span> scaling, <span class="keywordtype">float</span> scenePosX );</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keywordtype">void</span> addNotification_( std::vector&lt;NotificationWithTimer&gt;&amp; store, <span class="keyword">const</span> RibbonNotification&amp; notification );</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordtype">void</span> filterInvalid_( <span class="keywordtype">int</span> numInvalid = -1 );</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">void</span> requestClosestRedraw_();</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>};</div>
 </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>}</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>}</div>
 <div class="ttc" id="aMRAsyncTimer_8h_html"><div class="ttname"><a href="MRAsyncTimer_8h.html">MRAsyncTimer.h</a></div></div>
 <div class="ttc" id="aMRNotificationType_8h_html"><div class="ttname"><a href="MRNotificationType_8h.html">MRNotificationType.h</a></div></div>
 <div class="ttc" id="aMRViewerFwd_8h_html"><div class="ttname"><a href="MRViewerFwd_8h.html">MRViewerFwd.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1RibbonNotifier_html"><div class="ttname"><a href="classMR_1_1RibbonNotifier.html">MR::RibbonNotifier</a></div><div class="ttdef"><b>Definition</b> MRRibbonNotification.h:34</div></div>
 <div class="ttc" id="aclassMR_1_1RibbonNotifier_html_a18fcad081432948484875c94f55a1be4"><div class="ttname"><a href="classMR_1_1RibbonNotifier.html#a18fcad081432948484875c94f55a1be4">MR::RibbonNotifier::pushNotification</a></div><div class="ttdeci">MRVIEWER_API void pushNotification(const RibbonNotification &amp;notification)</div></div>
-<div class="ttc" id="aclassMR_1_1RibbonNotifier_html_acfb3043c4bc962f50f22d0eff3d1dc4c"><div class="ttname"><a href="classMR_1_1RibbonNotifier.html#acfb3043c4bc962f50f22d0eff3d1dc4c">MR::RibbonNotifier::drawNotifications</a></div><div class="ttdeci">MRVIEWER_API void drawNotifications(float scaling)</div></div>
+<div class="ttc" id="aclassMR_1_1RibbonNotifier_html_a9570ddf2c2e3b7cbe96b77c5174f171e"><div class="ttname"><a href="classMR_1_1RibbonNotifier.html#a9570ddf2c2e3b7cbe96b77c5174f171e">MR::RibbonNotifier::draw</a></div><div class="ttdeci">MRVIEWER_API void draw(float scaling, float scenePosX)</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf"><div class="ttname"><a href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">MR::FeaturePropertyKind::other</a></div><div class="ttdeci">@ other</div></div>
 <div class="ttc" id="anamespaceMR_html_a3ccf27858d11d72a88bdbaf6e9d2b05d"><div class="ttname"><a href="namespaceMR.html#a3ccf27858d11d72a88bdbaf6e9d2b05d">MR::NotificationType</a></div><div class="ttdeci">NotificationType</div><div class="ttdef"><b>Definition</b> MRNotificationType.h:7</div></div>

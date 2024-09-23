@@ -1,5 +1,12 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1SurfaceContoursWidget.html#a9c431d937f0bfefb8fb898b61dd6c099":[12,0,1,601,10],
+"classMR_1_1SurfaceContoursWidget.html#aa2de75b8f4ee5ac6636c3d79643129e1":[10,0,10,615,8],
+"classMR_1_1SurfaceContoursWidget.html#aa2de75b8f4ee5ac6636c3d79643129e1":[12,0,1,601,8],
+"classMR_1_1SurfaceContoursWidget.html#ab191d1ca8300489b71ef591d0e549395":[10,0,10,615,9],
+"classMR_1_1SurfaceContoursWidget.html#ab191d1ca8300489b71ef591d0e549395":[12,0,1,601,9],
+"classMR_1_1SurfaceContoursWidget.html#ab8d692547325ba27bcae04c25a9802fb":[10,0,10,615,16],
+"classMR_1_1SurfaceContoursWidget.html#ab8d692547325ba27bcae04c25a9802fb":[12,0,1,601,16],
 "classMR_1_1SurfaceContoursWidget.html#af2cdd3ac4ccfbba1371c9cc0b6bb6f04":[10,0,10,615,22],
 "classMR_1_1SurfaceContoursWidget.html#af2cdd3ac4ccfbba1371c9cc0b6bb6f04":[12,0,1,601,22],
 "classMR_1_1SurfaceContoursWidget.html#afa281665f1a80c27506cb5b70bac3a9c":[10,0,10,615,21],
@@ -242,12 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1TouchpadController_1_1Handler.html":[12,0,1,625,0],
 "classMR_1_1TouchpadController_1_1Handler.html#a04a8489fbc1241cbf36f1f10194ca21e":[10,0,10,639,0,4],
 "classMR_1_1TouchpadController_1_1Handler.html#a04a8489fbc1241cbf36f1f10194ca21e":[12,0,1,625,0,4],
-"classMR_1_1TouchpadController_1_1Handler.html#a22bc334022e40146fa414493170af7b4":[10,0,10,639,0,0],
-"classMR_1_1TouchpadController_1_1Handler.html#a22bc334022e40146fa414493170af7b4":[12,0,1,625,0,0],
-"classMR_1_1TouchpadController_1_1Handler.html#a22bc334022e40146fa414493170af7b4a06933067aafd48425d67bcb01bba5cb6":[10,0,10,639,0,0,1],
-"classMR_1_1TouchpadController_1_1Handler.html#a22bc334022e40146fa414493170af7b4a06933067aafd48425d67bcb01bba5cb6":[12,0,1,625,0,0,1],
-"classMR_1_1TouchpadController_1_1Handler.html#a22bc334022e40146fa414493170af7b4a1a06729125544cab7cee73195fc044f0":[10,0,10,639,0,0,0],
-"classMR_1_1TouchpadController_1_1Handler.html#a22bc334022e40146fa414493170af7b4a1a06729125544cab7cee73195fc044f0":[12,0,1,625,0,0,0],
-"classMR_1_1TouchpadController_1_1Handler.html#a22bc334022e40146fa414493170af7b4a87557f11575c0ad78e4e28abedc13b6e":[10,0,10,639,0,0,2],
-"classMR_1_1TouchpadController_1_1Handler.html#a22bc334022e40146fa414493170af7b4a87557f11575c0ad78e4e28abedc13b6e":[12,0,1,625,0,0,2]
+"classMR_1_1TouchpadController_1_1Handler.html#a22bc334022e40146fa414493170af7b4":[10,0,10,639,0,0]
 };

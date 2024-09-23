@@ -54,12 +54,13 @@ var searchData=
   ['mr_3a_3astyleconsts_51',['StyleConsts',['../namespaceMR_1_1StyleConsts.html',1,'MR']]],
   ['mr_3a_3astyleconsts_3a_3acustomcombo_52',['CustomCombo',['../namespaceMR_1_1StyleConsts_1_1CustomCombo.html',1,'MR::StyleConsts']]],
   ['mr_3a_3astyleconsts_3a_3amodal_53',['Modal',['../namespaceMR_1_1StyleConsts_1_1Modal.html',1,'MR::StyleConsts']]],
-  ['mr_3a_3astyleconsts_3a_3aprogressbar_54',['ProgressBar',['../namespaceMR_1_1StyleConsts_1_1ProgressBar.html',1,'MR::StyleConsts']]],
-  ['mr_3a_3atriangulationhelpers_55',['TriangulationHelpers',['../namespaceMR_1_1TriangulationHelpers.html',1,'MR']]],
-  ['mr_3a_3aui_56',['UI',['../namespaceMR_1_1UI.html',1,'MR']]],
-  ['mr_3a_3aui_3a_3adetail_57',['detail',['../namespaceMR_1_1UI_1_1detail.html',1,'MR::UI']]],
-  ['mr_3a_3aui_3a_3atestengine_58',['TestEngine',['../namespaceMR_1_1UI_1_1TestEngine.html',1,'MR::UI']]],
-  ['mr_3a_3aui_3a_3atestengine_3a_3adetail_59',['detail',['../namespaceMR_1_1UI_1_1TestEngine_1_1detail.html',1,'MR::UI::TestEngine']]],
-  ['mr_3a_3avoxelsload_60',['VoxelsLoad',['../namespaceMR_1_1VoxelsLoad.html',1,'MR']]],
-  ['mr_3a_3avoxelssave_61',['VoxelsSave',['../namespaceMR_1_1VoxelsSave.html',1,'MR']]]
+  ['mr_3a_3astyleconsts_3a_3anotification_54',['Notification',['../namespaceMR_1_1StyleConsts_1_1Notification.html',1,'MR::StyleConsts']]],
+  ['mr_3a_3astyleconsts_3a_3aprogressbar_55',['ProgressBar',['../namespaceMR_1_1StyleConsts_1_1ProgressBar.html',1,'MR::StyleConsts']]],
+  ['mr_3a_3atriangulationhelpers_56',['TriangulationHelpers',['../namespaceMR_1_1TriangulationHelpers.html',1,'MR']]],
+  ['mr_3a_3aui_57',['UI',['../namespaceMR_1_1UI.html',1,'MR']]],
+  ['mr_3a_3aui_3a_3adetail_58',['detail',['../namespaceMR_1_1UI_1_1detail.html',1,'MR::UI']]],
+  ['mr_3a_3aui_3a_3atestengine_59',['TestEngine',['../namespaceMR_1_1UI_1_1TestEngine.html',1,'MR::UI']]],
+  ['mr_3a_3aui_3a_3atestengine_3a_3adetail_60',['detail',['../namespaceMR_1_1UI_1_1TestEngine_1_1detail.html',1,'MR::UI::TestEngine']]],
+  ['mr_3a_3avoxelsload_61',['VoxelsLoad',['../namespaceMR_1_1VoxelsLoad.html',1,'MR']]],
+  ['mr_3a_3avoxelssave_62',['VoxelsSave',['../namespaceMR_1_1VoxelsSave.html',1,'MR']]]
 ];
