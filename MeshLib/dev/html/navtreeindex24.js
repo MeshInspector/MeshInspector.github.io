@@ -1,5 +1,7 @@
 var NAVTREEINDEX24 =
 {
+"classMR_1_1LambdaRibbonItem.html#adf0efc0eaab84312e1058ba6f3d8cb95":[12,0,1,285,0],
+"classMR_1_1Laplacian.html":[10,0,10,300],
 "classMR_1_1Laplacian.html":[12,0,1,286],
 "classMR_1_1Laplacian.html#a0d4fc266be531c28644ef344fa8ed3ca":[10,0,10,300,4],
 "classMR_1_1Laplacian.html#a0d4fc266be531c28644ef344fa8ed3ca":[12,0,1,286,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX24 =
 "classMR_1_1MeshTopology.html#a087e309d5f0b9a28c106038d206f8d53":[9,7,2,7],
 "classMR_1_1MeshTopology.html#a08c1dc2c9e7f3a29a2b313cf8886bff4":[9,7,2,121],
 "classMR_1_1MeshTopology.html#a0a202e2c957daafe1bd159f949f4189a":[9,7,2,48],
-"classMR_1_1MeshTopology.html#a0b13b128c8398cb07fa91de5068f71d9":[9,7,2,50],
-"classMR_1_1MeshTopology.html#a111aab3f0bc10b75bcd5101e4e5e9a1e":[9,7,2,8],
-"classMR_1_1MeshTopology.html#a1505aee9d1b0cdf3c24139b5e97bc187":[9,7,2,69]
+"classMR_1_1MeshTopology.html#a0b13b128c8398cb07fa91de5068f71d9":[9,7,2,50]
 };

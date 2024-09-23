@@ -1094,6 +1094,7 @@ var hierarchy =
     [ "MR::SymMatrix2< T >", "structMR_1_1SymMatrix2.html", null ],
     [ "MR::SymMatrix3< T >", "structMR_1_1SymMatrix3.html", null ],
     [ "MR::SymMatrix4< T >", "structMR_1_1SymMatrix4.html", null ],
+    [ "MR::SystemPath", "classMR_1_1SystemPath.html", null ],
     [ "T", null, [
       [ "MR::NoDefInit< T >", "structMR_1_1NoDefInit.html", null ]
     ] ],
